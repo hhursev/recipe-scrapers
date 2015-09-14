@@ -1,3 +1,5 @@
 *.pyc
 *.egg-info
 .coverage
+
+recipe_scrapers/tests/test_data/*
