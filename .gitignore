@@ -2,4 +2,4 @@
 *.egg-info
 .coverage
 
-recipe_scrapers/tests/test_data/*
+recipe_scrapers/tests/test_data/*.html
