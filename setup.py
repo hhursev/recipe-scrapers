@@ -14,7 +14,6 @@ setup(
     long_description=README,
     install_requires=[
         'beautifulsoup4>=4.4.0',
-        'requests>=2.7.0'
     ],
     packages=find_packages(),
     package_data={'': ['LICENSE']},

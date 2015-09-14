@@ -1,4 +1,4 @@
-import requests
+from urllib import request
 
 from bs4 import BeautifulSoup
 
@@ -10,7 +10,7 @@ class AbstractScraper():
             # when testing, we simply load a file
             self.soup = BeautifulSoup(url.read(), "html.parser")
         else:
-            self.soup = BeautifulSoup(requests.get(url).content, "html.parser")
+            self.soup = BeautifulSoup(request.urlopen(url).read(), "html.parser")
 
     def host(self):
         raise NotImplementedError("This should be implemented.")
