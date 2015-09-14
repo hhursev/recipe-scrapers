@@ -1,6 +1,6 @@
 from ._abstract import AbstractScraper
 
-from .consts import TIME_REGEX
+from .consts import TIME_REGEX, HTML_SYMBOLS
 
 
 class AllRecipes(AbstractScraper):
@@ -23,9 +23,9 @@ class AllRecipes(AbstractScraper):
             return 0
 
         total_minutes = 0
-        if matched.group('hours'):
+        if matched.group('hours') is not None:
             total_minutes += 60 * int(matched.group('hours'))
-        if matched.group('minutes'):
+        if matched.group('minutes') is not None:
             total_minutes += int(matched.group('minutes'))
 
         return total_minutes
@@ -33,14 +33,18 @@ class AllRecipes(AbstractScraper):
     def ingredients(self):
         ingredients_html = self.soup.findAll('li', {'class': "checkList__line"})
         return [
-            ingredient.get_text().strip() for ingredient in ingredients_html
-            if ingredient.get_text().strip() not in ('Add all ingredients to list', '')
+            ingredient.get_text(strip=True)
+            for ingredient in ingredients_html
+            if ingredient.get_text(strip=True) not in ('Add all ingredients to list', '')
         ]
 
     def instructions(self):
         directions_html = self.soup.findAll('span', {'class': 'recipe-directions__list--item'})
         return '\n\n'.join(
-            [direction.get_text().strip() for direction in directions_html]).strip()
+            [
+                direction.get_text(strip=True).replace(HTML_SYMBOLS, ' ')
+                for direction in directions_html
+            ]).strip()
 
     def social_rating(self):
         rating = self.soup.find(

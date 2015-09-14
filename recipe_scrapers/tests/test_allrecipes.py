@@ -4,7 +4,7 @@ import unittest
 from recipe_scrapers.allrecipes import AllRecipes
 
 
-class TestAllRecipesHarvester(unittest.TestCase):
+class TestAllRecipesScraper(unittest.TestCase):
     def setUp(self):
         # tests are run from tests.py
         with open(os.path.join(
