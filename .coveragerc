@@ -1,0 +1,17 @@
+[run]
+branch = True
+source = recipe_scrapers
+
+omit = recipe_scrapers/_abstract.py
+       recipe_scrapers/__init__.py
+       recipe_scrapers/tests/*
+
+[report]
+exclude_lines =
+    pragma: no cover
+
+    # Don't complain if tests don't hit defensive assertion code:
+    raise AttributeError
+    raise NotImplementedError
+
+ignore_errors = True

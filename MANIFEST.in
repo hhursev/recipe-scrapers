@@ -1,0 +1,5 @@
+include LICENSE
+include README.md
+
+exclude tests.py
+recursive-exclude recipe_scrapers/tests *
