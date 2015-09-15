@@ -3,12 +3,14 @@ import re
 from .allrecipes import AllRecipes
 from .simplyrecipes import SimplyRecipes
 from .twopeasandtheirpod import TwoPeasAndTheirPod
+from .tasty_kitchen import TastyKitchen
 
 
 SCRAPERS = {
     AllRecipes.host(): AllRecipes,
     SimplyRecipes.host(): SimplyRecipes,
     TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
+    TastyKitchen.host(): TastyKitchen,
 }
 
 

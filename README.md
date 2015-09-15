@@ -38,3 +38,4 @@ If you are programmer a PRs with fixes are warmly welcomed and acknowledged with
 - [http://allrecipes.com/](http://allrecipes.com/)
 - [http://simplyrecipes.com/](http://www.simplyrecipes.com)
 - [http://twopeasandtheirpod.com/](http://twopeasandtheirpod.com/)
+- [http://tastykitchen.com/](http://tastykitchen.com/)
