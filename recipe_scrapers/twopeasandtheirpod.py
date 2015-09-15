@@ -16,13 +16,14 @@ class TwoPeasAndTheirPod(AbstractScraper):
         return self.soup.find('h2').get_text()
 
     def total_time(self):
-        time = self.soup.find('span', {'class': 'cooktime'}).get_text()
-        matched = TIME_REGEX.search(time)
+        time = self.soup.find('span', {'class': 'duration'})
         total_minutes = 0
-        if matched is not None and matched.group('hours'):
-            total_minutes += 60 * int(matched.group('hours'))
-        if matched is not None and matched.group('minutes'):
-            total_minutes += int(matched.group('minutes'))
+        if time is not None:
+            matched = TIME_REGEX.search(time.get_text())
+            if matched is not None and matched.group('hours'):
+                total_minutes += 60 * int(matched.group('hours'))
+            if matched is not None and matched.group('minutes'):
+                total_minutes += int(matched.group('minutes'))
 
         return total_minutes
 
