@@ -2,6 +2,10 @@ from urllib import request
 
 from bs4 import BeautifulSoup
 
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
+}
+
 
 class AbstractScraper():
 
@@ -10,7 +14,8 @@ class AbstractScraper():
             # when testing, we simply load a file
             self.soup = BeautifulSoup(url.read(), "html.parser")
         else:
-            self.soup = BeautifulSoup(request.urlopen(url).read(), "html.parser")
+            self.soup = BeautifulSoup(request.urlopen(
+                request.Request(url, headers=HEADERS)).read(), "html.parser")
 
     def host(self):
         """ get the host of the url, so we can use the correct scraper (check __init__.py) """
@@ -32,7 +37,7 @@ class AbstractScraper():
         """ list of ingredients needed for the recipe """
         raise NotImplementedError("This should be implemented.")
 
-    def directions(self):
+    def instructions(self):
         """ directions provided on the recipe link """
         raise NotImplementedError("This should be implemented.")
 
