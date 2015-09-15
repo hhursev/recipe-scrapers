@@ -2,6 +2,7 @@ from urllib import request
 
 from bs4 import BeautifulSoup
 
+
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
 }
@@ -40,8 +41,4 @@ class AbstractScraper():
 
     def instructions(self):
         """ directions provided on the recipe link """
-        raise NotImplementedError("This should be implemented.")
-
-    def social_rating(self):
-        """ social rating of the recipe in 0 - 100 scale """
         raise NotImplementedError("This should be implemented.")

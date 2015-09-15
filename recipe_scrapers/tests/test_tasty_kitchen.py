@@ -61,9 +61,3 @@ class TestTastyKitchenScraper(unittest.TestCase):
             'Preheat oven to 450ºF.\nCombine dry ingredients together in bowl. Cut butter into small \npea-sized pieces and fold into dry ingredients. Combine thoroughly, \nsmashing butter into mixture until blended. Stir in buttermilk and stir \nby hand until roughly blended.\nAdd scapes, chives and cheddar cheese, setting aside a small amount \nof cheese and chives to top biscuits with before baking. Combine to form\n a ball.\nTurn dough out onto floured surface and knead lightly (dough should \nhave slightly sticky consistency). Roll out dough so that it is 3/4 inch\n thick. Using a glass or a biscuit cutter, cut out 2-inch round shapes. \nPlace the rounds on an ungreased baking sheet. Gather dough scraps, and \ngently roll out again and repeat.\nSprinkle top of rounds with a pinch of cheddar cheese and chives. \nBake biscuits for 8–10 minutes until golden brown. Serve warm with a pat\n of butter.\n',
             self.harvester_class.instructions()
         )
-
-    def test_social_rating(self):
-        self.assertEqual(
-            self.harvester_class.social_rating(),
-            0
-        )

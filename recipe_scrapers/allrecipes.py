@@ -45,9 +45,3 @@ class AllRecipes(AbstractScraper):
                 direction.get_text(strip=True).replace(HTML_SYMBOLS, ' ')
                 for direction in directions_html
             ]).strip()
-
-    def social_rating(self):
-        rating = self.soup.find(
-                'div', {'class': "rating-stars"})['data-ratingstars']
-        rating = float("{0:.2f}".format(float(rating)))
-        return (rating / 5.00) * 100

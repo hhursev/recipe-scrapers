@@ -40,7 +40,3 @@ class TwoPeasAndTheirPod(AbstractScraper):
 
     def instructions(self):
         return self.soup.find('div', {'class': 'instructions'}).get_text()
-
-    def social_rating(self):
-        # always 100 for twopeasandtheirpod
-        return 100

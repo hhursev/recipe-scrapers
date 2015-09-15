@@ -47,6 +47,3 @@ class TastyKitchen(AbstractScraper):
     def instructions(self):
         directions_html = self.soup.find('span', {'itemprop': 'instructions'})
         return directions_html.get_text()
-
-    def social_rating(self):
-        return 0

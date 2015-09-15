@@ -60,9 +60,3 @@ class TestSimplyRecipesScraper(unittest.TestCase):
             '1 In a \nlarge bowl, mix together the cheeses and the green onion. Stir in the \nmayonnaise and sour cream. In a separate small bowl blend the butter and\n garlic until smooth. Add the butter mixture to the cheese mixture.\n \n2 Preheat broiler. Slice loaf of bread in half horizontally, \nlay crust side down on a foil-lined baking sheet. Spread cheese mixture \nover the bread.\n\n3 Place under the broiler until nicely browned, about 3 to 5 minutes.\n\n4\xa0Remove from broiler and let sit for 5 minutes until cool enough to handle. Slice the bread with a bread knife. Serve.\nVariations:\nTry mixing in other ingredients with the topping mixture, such as \nchopped black olives, chopped canned artichoke hearts, minced shrimp, or\n crab meat.',
             self.harvester_class.instructions()
         )
-
-    def test_social_rating(self):
-        self.assertEqual(
-            self.harvester_class.social_rating(),
-            100
-        )

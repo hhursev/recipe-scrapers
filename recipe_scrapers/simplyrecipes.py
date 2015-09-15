@@ -52,19 +52,3 @@ class SimplyRecipes(AbstractScraper):
         return '\n'.join(
             [instruction.get_text() for instruction in instructions_html]
         ).strip()
-
-    def social_rating(self):
-        # if shared more than 1k 100 social rating, otherwise shares / 10 percentage rating
-        shares_count = [
-            shares.get_text() for shares in
-            self.soup.findAll('span', {'class': 'share-button-counter'})
-        ]
-
-        if any(['k' in share_count for share_count in shares_count]):
-            return 100
-
-        shares_count = reduce(lambda x, y: int(x) + int(y), shares_count, 0)
-        if shares_count / 10 > 100:
-            return 100
-
-        return int(shares_count / 10)
