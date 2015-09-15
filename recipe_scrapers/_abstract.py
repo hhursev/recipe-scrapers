@@ -12,7 +12,8 @@ class AbstractScraper():
     def __init__(self, url, test=False):
         if test:
             # when testing, we simply load a file
-            self.soup = BeautifulSoup(url.read(), "html.parser")
+            with url:
+                self.soup = BeautifulSoup(url.read(), "html.parser")
         else:
             self.soup = BeautifulSoup(request.urlopen(
                 request.Request(url, headers=HEADERS)).read(), "html.parser")
