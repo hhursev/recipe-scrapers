@@ -1,0 +1,71 @@
+import os
+import unittest
+
+from recipe_scrapers.jamieoliver import JamieOliver
+
+
+class TestJamieOliverScraper(unittest.TestCase):
+    def setUp(self):
+        # tests are run from tests.py
+        with open(os.path.join(
+            os.getcwd(),
+            'recipe_scrapers',
+            'tests',
+            'test_data',
+            'jamieoliver.html'
+        )) as file_opened:
+            self.harvester_class = JamieOliver(file_opened, test=True)
+
+    def test_host(self):
+        self.assertEqual(
+            'jamieoliver.com',
+            self.harvester_class.host()
+        )
+
+    def test_publisher_site(self):
+        self.assertEqual(
+            'http://jamieoliver.com/',
+            self.harvester_class.publisher_site()
+        )
+
+    def test_title(self):
+        self.assertEqual(
+            self.harvester_class.title(),
+            'Meatballs & pasta'
+        )
+
+    def test_total_time(self):
+        self.assertEqual(
+            45,
+            self.harvester_class.total_time()
+        )
+
+    def test_ingredients(self):
+        self.assertListEqual(
+            [
+                '4 sprigs fresh rosemary',
+                "12  Jacob's cream crackers",
+                '2 heaped teaspoons Dijon mustard',
+                '500 g quality minced beef, higher-welfare pork, or a mixture of the two',
+                '1 heaped tablespoon dried oregano',
+                '1 large free-range egg',
+                'sea salt',
+                'freshly ground black pepper',
+                'olive oil',
+                '1 bunch fresh basil',
+                '1 medium onion',
+                '2 cloves garlic',
+                '½  fresh or dried red chilli',
+                '2x400 g tinned chopped tomatoes',
+                '2 tablespoons balsamic vinegar',
+                '400 g dried spaghetti or penne',
+                'Parmesan cheese, for grating'
+            ],
+            self.harvester_class.ingredients()
+        )
+
+    def test_instructions(self):
+        self.assertEqual(
+            "Meatballs are fantastic! They're perfect \nlike this, with a one-minute homemade tomato sauce and spaghetti, but \nyou could also try polenta or simple chunks of fresh crust bread. I like\n to make meatballs with a mixture of beef and pork, as I think it gives a\n really wonderful flavour and texture.\n\nPick the rosemary leaves off the woody stalks and finely chop them. Wrap\n the crackers in a tea towel and smash up until fine, breaking up any \nbig bits with your hands. Add to a mixing bowl with the mustard, minced \nmeat, chopped rosemary and oregano. Crack in the egg and add a good \npinch of salt and pepper.\n\nWith clean hands scrunch and mix up well. Divide into 4 large balls. \nWith wet hands, divide each ball into 6 and roll into little meatballs –\n you should end up with 24. Drizzle them with olive oil and jiggle them \nabout so they all get coated. Put them on a plate, cover and place in \nthe fridge until needed.\n\nPick the basil leaves, keeping any smaller ones to one side for later. \nPeel and finely chop the onion and the garlic. Finely slice the chilli. \nPut a large pan of salted water on to boil. Next, heat a large frying \npan on a medium heat and add 2 lugs of olive oil. Add your onion to the \nfrying pan and stir for around 7 minutes or until softened and lightly \ngolden.\n\nThen add your garlic and chilli, and as soon as they start to get some \ncolour add the large basil leaves. Add the tomatoes and the balsamic \nvinegar. Bring to the boil and season to taste. Meanwhile, heat another \nlarge frying pan and add a lug of olive oil and your meatballs. Stir \nthem around and cook for 8–10 minutes until golden (check they're cooked\n by opening one up – there should be no sign of pink).\n\nAdd the meatballs to the sauce and simmer until the pasta is ready, then\n remove from the heat. Add the pasta to the boiling water and cook \naccording to the packet instructions. Saving some of the cooking water, \ndrain the pasta in a colander. Return the pasta to the pan. Spoon half \nthe tomato sauce into the pasta, adding a little splash of your reserved\n water to loosen. Serve on a large platter, or in separate bowls, with \nthe rest of the sauce and meatballs on top. Sprinkle over the small \nbasil leaves and some grated Parmesan.",
+            self.harvester_class.instructions()
+        )
