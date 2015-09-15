@@ -28,13 +28,13 @@ class SimplyRecipes(AbstractScraper):
 
         total_minutes = 0
 
-        if matched_preptime.group('hours') is not None:
+        if matched_preptime is not None and matched_preptime.group('hours') is not None:
             total_minutes += 60 * int(matched_preptime.group('hours'))
-        if matched_cooktime.group('hours') is not None:
+        if matched_cooktime is not None and matched_cooktime.group('hours') is not None:
             total_minutes += 60 * int(matched_cooktime.group('hours'))
-        if matched_preptime.group('minutes') is not None:
+        if matched_preptime is not None and matched_preptime.group('minutes') is not None:
             total_minutes += int(matched_preptime.group('minutes'))
-        if matched_cooktime.group('minutes') is not None:
+        if matched_cooktime is not None and matched_cooktime.group('minutes') is not None:
             total_minutes += int(matched_cooktime.group('minutes'))
 
         return total_minutes
@@ -47,10 +47,10 @@ class SimplyRecipes(AbstractScraper):
         ]
 
     def instructions(self):
-        recipe_instructions = self.soup.find('div', {'itemprop': 'recipeInstructions'}).findAll('p')
+        instructions_html = self.soup.find('div', {'itemprop': 'recipeInstructions'}).findAll('p')
 
         return '\n'.join(
-            [instruction.get_text() for instruction in recipe_instructions]
+            [instruction.get_text() for instruction in instructions_html]
         ).strip()
 
     def social_rating(self):

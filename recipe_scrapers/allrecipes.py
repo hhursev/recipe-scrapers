@@ -23,9 +23,9 @@ class AllRecipes(AbstractScraper):
             return 0
 
         total_minutes = 0
-        if matched.group('hours') is not None:
+        if matched is not None and matched.group('hours') is not None:
             total_minutes += 60 * int(matched.group('hours'))
-        if matched.group('minutes') is not None:
+        if matched is not None and matched.group('minutes') is not None:
             total_minutes += int(matched.group('minutes'))
 
         return total_minutes
