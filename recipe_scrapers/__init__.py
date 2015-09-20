@@ -1,6 +1,7 @@
 import re
 
 from .allrecipes import AllRecipes
+from .bbcfood import BBCFood
 from .finedininglovers import FineDiningLovers
 from .jamieoliver import JamieOliver
 from .realsimple import RealSimple
@@ -14,6 +15,7 @@ from .whatsgabycooking import WhatsGabyCooking
 
 SCRAPERS = {
     AllRecipes.host(): AllRecipes,
+    BBCFood.host(): BBCFood,
     FineDiningLovers.host(): FineDiningLovers,
     JamieOliver.host(): JamieOliver,
     RealSimple.host(): RealSimple,
