@@ -15,27 +15,36 @@ class TastyKitchen(AbstractScraper):
     def title(self):
         return self.soup.find('h1', {'itemprop': 'name'}).get_text()
 
+    def prep_time(self):
+        try:
+            time = self.soup.find('time', {'itemprop': 'prepTime'}).get_text()
+            matched = TIME_REGEX.search(time)
+            if matched is None:
+                raise AttributeError
+
+            total_minutes = int(matched.groupdict().get('minutes') or 0)
+            total_minutes += 60 * int(matched.groupdict().get('hours') or 0)
+
+            return total_minutes
+        except AttributeError:  # when there is no span or no time regex match
+            return 0
+
+    def cook_time(self):
+        try:
+            time = self.soup.find('time', {'itemprop': 'cookTime'}).get_text()
+            matched = TIME_REGEX.search(time)
+            if matched is None:
+                raise AttributeError
+
+            total_minutes = int(matched.groupdict().get('minutes') or 0)
+            total_minutes += 60 * int(matched.groupdict().get('hours') or 0)
+
+            return total_minutes
+        except AttributeError:  # when there is no span or no time regex match
+            return 0
+
     def total_time(self):
-        prep_time = self.soup.find('time', {'itemprop': 'prepTime'}).get_text()
-        cook_time = self.soup.find('time', {'itemprop': 'cookTime'}).get_text()
-
-        prep_matched = TIME_REGEX.search(prep_time)
-        cook_matched = TIME_REGEX.search(cook_time)
-        total_minutes = 0
-
-        if prep_matched is not None and prep_matched.group('hours') is not None:
-            total_minutes += 60 * int(prep_matched.group('hours'))
-
-        if cook_matched is not None and cook_matched.group('hours') is not None:
-            total_minutes += 60 * int(cook_matched.group('hours'))
-
-        if prep_matched is not None and prep_matched.group('minutes') is not None:
-            total_minutes += int(prep_matched.group('minutes'))
-
-        if cook_matched is not None and cook_matched.group('minutes') is not None:
-            total_minutes += int(cook_matched.group('minutes'))
-
-        return total_minutes
+        return self.prep_time() + self.cook_time()
 
     def ingredients(self):
         ingredients_html = self.soup.find('ul', {'class': "ingredients"}).findAll('li')

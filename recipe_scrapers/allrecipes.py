@@ -19,16 +19,15 @@ class AllRecipes(AbstractScraper):
         try:
             time = self.soup.find('span', {'class': 'ready-in-time'}).get_text()
             matched = TIME_REGEX.search(time)
-        except AttributeError:  # when there is no span with class ready-in-time
+            if matched is None:
+                raise AttributeError
+
+            total_minutes = int(matched.groupdict().get('minutes') or 0)
+            total_minutes += 60 * int(matched.groupdict().get('hours') or 0)
+
+            return total_minutes
+        except AttributeError:  # when there is no span or no time regex match
             return 0
-
-        total_minutes = 0
-        if matched is not None and matched.group('hours') is not None:
-            total_minutes += 60 * int(matched.group('hours'))
-        if matched is not None and matched.group('minutes') is not None:
-            total_minutes += int(matched.group('minutes'))
-
-        return total_minutes
 
     def ingredients(self):
         ingredients_html = self.soup.findAll('li', {'class': "checkList__line"})

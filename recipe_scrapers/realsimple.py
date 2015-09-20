@@ -1,6 +1,6 @@
 from ._abstract import AbstractScraper
 
-from .consts import TIME_REGEX, HTML_SYMBOLS
+from .consts import TIME_REGEX
 
 
 class RealSimple(AbstractScraper):
@@ -16,16 +16,19 @@ class RealSimple(AbstractScraper):
         return self.soup.find('h1').get_text(strip=True)
 
     def total_time(self):
-        time = self.soup.find('time', {'itemprop': 'totalTime'}).get_text()
-        matched = TIME_REGEX.search(time)
+        try:
+            time = self.soup.find('time', {'itemprop': 'totalTime'}).get_text()
+            matched = TIME_REGEX.search(time)
+            if matched is None:
+                raise AttributeError
 
-        total_minutes = 0
-        if matched is not None and matched.group('hours') is not None:
-            total_minutes += 60 * int(matched.group('hours'))
-        if matched is not None and matched.group('minutes') is not None:
-            total_minutes += int(matched.group('minutes'))
+            total_minutes = int(matched.groupdict().get('minutes') or 0)
+            total_minutes += 60 * int(matched.groupdict().get('hours') or 0)
 
-        return total_minutes
+            return total_minutes
+
+        except AttributeError:  # when there is no span or no time regex match
+            return 0
 
     def ingredients(self):
         ingredients_html = self.soup.findAll('ol', {'class': "ingredient-list"})[0]

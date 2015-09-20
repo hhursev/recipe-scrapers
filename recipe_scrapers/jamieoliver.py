@@ -23,10 +23,9 @@ class JamieOliver(AbstractScraper):
         total_minutes = 0
         for text in tds_text:
             matched = TIME_REGEX.search(text)
-            if matched is not None and matched.group('hours') is not None:
-                total_minutes += 60 * int(matched.group('hours'))
-            if matched is not None and matched.group('minutes') is not None:
-                total_minutes += int(matched.group('minutes'))
+            if matched is not None:
+                total_minutes += 60 * int(matched.groupdict().get('hours') or 0)
+                total_minutes += int(matched.groupdict().get('minutes') or 0)
 
         return total_minutes
 

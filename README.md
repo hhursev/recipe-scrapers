@@ -40,4 +40,4 @@ If you are programmer a PRs with fixes are warmly welcomed and acknowledged with
 - [http://twopeasandtheirpod.com/](http://twopeasandtheirpod.com/)
 - [http://tastykitchen.com/](http://tastykitchen.com/)
 - [http://jamieoliver.com/](http://www.jamieoliver.com/)
-- [http://www.realsimple.com/](http://www.realsimple.com/)
+- [http://realsimple.com/](http://www.realsimple.com/)

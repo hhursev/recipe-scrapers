@@ -17,27 +17,38 @@ class SimplyRecipes(AbstractScraper):
     def title(self):
         return self.soup.find('h1').get_text()
 
-    def total_time(self):
+    def prep_time(self):
         try:
-            prep_time = self.soup.find('span', {'class': 'preptime'}).get_text()
-            cook_time = self.soup.find('span', {'class': 'cooktime'}).get_text()
-            matched_preptime = TIME_REGEX.search(prep_time)
-            matched_cooktime = TIME_REGEX.search(cook_time)
+            time = self.soup.find('span', {'class': 'preptime'}).get_text()
+            matched = TIME_REGEX.search(time)
+            if matched is None:
+                raise AttributeError
+
+            total_minutes = int(matched.groupdict().get('minutes') or 0)
+            total_minutes += 60 * int(matched.groupdict().get('hours') or 0)
+
+            return total_minutes
+
         except AttributeError:  # when there is no span with class prep-time / cook-time
             return 0
 
-        total_minutes = 0
+    def cook_time(self):
+        try:
+            time = self.soup.find('span', {'class': 'cooktime'}).get_text()
+            matched = TIME_REGEX.search(time)
+            if matched is None:
+                raise AttributeError
 
-        if matched_preptime is not None and matched_preptime.group('hours') is not None:
-            total_minutes += 60 * int(matched_preptime.group('hours'))
-        if matched_cooktime is not None and matched_cooktime.group('hours') is not None:
-            total_minutes += 60 * int(matched_cooktime.group('hours'))
-        if matched_preptime is not None and matched_preptime.group('minutes') is not None:
-            total_minutes += int(matched_preptime.group('minutes'))
-        if matched_cooktime is not None and matched_cooktime.group('minutes') is not None:
-            total_minutes += int(matched_cooktime.group('minutes'))
+            total_minutes = int(matched.groupdict().get('minutes') or 0)
+            total_minutes += 60 * int(matched.groupdict().get('hours') or 0)
 
-        return total_minutes
+            return total_minutes
+
+        except AttributeError:  # when there is no span with class prep-time / cook-time
+            return 0
+
+    def total_time(self):
+        return self.prep_time() + self.cook_time()
 
     def ingredients(self):
         ingredients_html = self.soup.findAll('li', {'class': "ingredient"})
