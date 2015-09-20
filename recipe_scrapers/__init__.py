@@ -1,28 +1,28 @@
 import re
 
 from .allrecipes import AllRecipes
-from .simplyrecipes import SimplyRecipes
-from .twopeasandtheirpod import TwoPeasAndTheirPod
-from .tastykitchen import TastyKitchen
+from .finedininglovers import FineDiningLovers
 from .jamieoliver import JamieOliver
 from .realsimple import RealSimple
-from .whatsgabycooking import WhatsGabyCooking
+from .simplyrecipes import SimplyRecipes
 from .steamykitchen import SteamyKitchen
-from .finedininglovers import FineDiningLovers
+from .tastykitchen import TastyKitchen
 from .thepioneerwoman import ThePioneerWoman
+from .twopeasandtheirpod import TwoPeasAndTheirPod
+from .whatsgabycooking import WhatsGabyCooking
 
 
 SCRAPERS = {
     AllRecipes.host(): AllRecipes,
-    SimplyRecipes.host(): SimplyRecipes,
-    TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
-    TastyKitchen.host(): TastyKitchen,
+    FineDiningLovers.host(): FineDiningLovers,
     JamieOliver.host(): JamieOliver,
     RealSimple.host(): RealSimple,
-    WhatsGabyCooking.host(): WhatsGabyCooking,
+    SimplyRecipes.host(): SimplyRecipes,
     SteamyKitchen.host(): SteamyKitchen,
-    FineDiningLovers.host(): FineDiningLovers,
+    TastyKitchen.host(): TastyKitchen,
     ThePioneerWoman.host(): ThePioneerWoman,
+    TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
+    WhatsGabyCooking.host(): WhatsGabyCooking,
 }
 
 

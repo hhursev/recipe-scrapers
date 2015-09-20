@@ -36,12 +36,12 @@ If you are programmer a PRs with fixes are warmly welcomed and acknowledged with
 ### Scrapers available for:
 
 - [http://allrecipes.com/](http://allrecipes.com/)
-- [http://simplyrecipes.com/](http://www.simplyrecipes.com)
-- [http://twopeasandtheirpod.com/](http://twopeasandtheirpod.com/)
-- [http://tastykitchen.com/](http://tastykitchen.com/)
+- [http://finedininglovers.com/](https://finedininglovers.com/)
 - [http://jamieoliver.com/](http://www.jamieoliver.com/)
 - [http://realsimple.com/](http://www.realsimple.com/)
-- [http://whatsgabycooking.com/](http://whatsgabycooking.com/)
+- [http://simplyrecipes.com/](http://www.simplyrecipes.com)
 - [http://steamykitchen.com/](http://steamykitchen.com/)
-- [http://finedininglovers.com/](https://finedininglovers.com/)
+- [http://tastykitchen.com/](http://tastykitchen.com/)
 - [http://thepioneerwoman.com/](http://thepioneerwoman.com/)
+- [http://twopeasandtheirpod.com/](http://twopeasandtheirpod.com/)
+- [http://whatsgabycooking.com/](http://whatsgabycooking.com/)
