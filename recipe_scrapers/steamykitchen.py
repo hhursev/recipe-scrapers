@@ -1,6 +1,6 @@
 from ._abstract import AbstractScraper
 
-from .consts import TIME_REGEX, HTML_SYMBOLS
+from .consts import TIME_REGEX
 
 
 class SteamyKitchen(AbstractScraper):

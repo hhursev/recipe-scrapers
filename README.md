@@ -43,3 +43,4 @@ If you are programmer a PRs with fixes are warmly welcomed and acknowledged with
 - [http://realsimple.com/](http://www.realsimple.com/)
 - [http://whatsgabycooking.com/](http://whatsgabycooking.com/)
 - [http://steamykitchen.com/](http://steamykitchen.com/)
+- [http://finedininglovers.com/](https://finedininglovers.com/)
