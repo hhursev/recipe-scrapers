@@ -4,7 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/hhursev/recipe-scraper/badge.svg?branch=master&service=github)](https://coveralls.io/github/hhursev/recipe-scraper?branch=master)
 
 A simple web scraping tool for recipe sites I use in a project of mine that makes sense to live as
-a separate package.
+a separate package. *No Python 2 support.*
 
     pip install git+git://github.com/hhursev/recipe-scraper.git
 
@@ -29,14 +29,15 @@ for it should be modified.
 If you spot a design change (or something else) that makes the scrapers unable to work for the given
 site - please fire an issue asap.
 
-If you are programmer a PRs with fixes are warmly welcomed and acknowledged with a virtual beer
+If you are programmer PRs with fixes are warmly welcomed and acknowledged with a virtual beer
  :beer:.
 
 
 ### Scrapers available for:
 
 - [http://allrecipes.com/](http://allrecipes.com/)
-- [http://bbc.co.uk/](http://www.bbc.co.uk/food/recipes/)
+- [http://bbc.co.uk/](http://bbc.co.uk/food/recipes/)
+- [http://bbcgoodfood.com/](http://bbcgoodfood.com/)
 - [http://finedininglovers.com/](https://finedininglovers.com/)
 - [http://jamieoliver.com/](http://www.jamieoliver.com/)
 - [http://realsimple.com/](http://www.realsimple.com/)
