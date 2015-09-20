@@ -7,6 +7,7 @@ from .tasty_kitchen import TastyKitchen
 from .jamieoliver import JamieOliver
 from .realsimple import RealSimple
 from .whatsgabycooking import WhatsGabyCooking
+from .steamykitchen import SteamyKitchen
 
 
 SCRAPERS = {
@@ -17,6 +18,7 @@ SCRAPERS = {
     JamieOliver.host(): JamieOliver,
     RealSimple.host(): RealSimple,
     WhatsGabyCooking.host(): WhatsGabyCooking,
+    SteamyKitchen.host(): SteamyKitchen,
 }
 
 

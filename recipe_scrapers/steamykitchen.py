@@ -3,21 +3,21 @@ from ._abstract import AbstractScraper
 from .consts import TIME_REGEX, HTML_SYMBOLS
 
 
-class SimplyRecipes(AbstractScraper):
+class SteamyKitchen(AbstractScraper):
 
     @classmethod
     def host(self):
-        return 'simplyrecipes.com'
+        return 'steamykitchen.com'
 
     def publisher_site(self):
-        return 'http://www.simplyrecipes.com/'
+        return 'http://steamykitchen.com/'
 
     def title(self):
-        return self.soup.find('h1').get_text()
+        return self.soup.find('span', {'itemprop': 'name'}).get_text()
 
     def prep_time(self):
         try:
-            time = self.soup.find('span', {'class': 'preptime'}).get_text()
+            time = self.soup.find('meta', {'itemprop': 'prepTime'}).get_text()
             matched = TIME_REGEX.search(time)
             if matched is None:
                 raise AttributeError
@@ -32,7 +32,7 @@ class SimplyRecipes(AbstractScraper):
 
     def cook_time(self):
         try:
-            time = self.soup.find('span', {'class': 'cooktime'}).get_text()
+            time = self.soup.find('meta', {'itemprop': 'cookTime'}).get_text()
             matched = TIME_REGEX.search(time)
             if matched is None:
                 raise AttributeError
@@ -49,15 +49,17 @@ class SimplyRecipes(AbstractScraper):
         return self.prep_time() + self.cook_time()
 
     def ingredients(self):
-        ingredients_html = self.soup.findAll('li', {'class': "ingredient"})
+        ingredients_html = self.soup.findAll('span', {'itemprop': "ingredients"})
         return [
-            ingredient.get_text(strip=True).replace(HTML_SYMBOLS, ' ')
+            ingredient.get_text(strip=True)
             for ingredient in ingredients_html
+            if len(ingredient.get_text(strip=True)) > 0
         ]
 
     def instructions(self):
-        instructions_html = self.soup.find('div', {'itemprop': 'recipeInstructions'}).findAll('p')
-
+        instructions_html = self.soup.findAll('span', {'itemprop': 'recipeInstructions'})
         return '\n'.join(
-            [instruction.get_text() for instruction in instructions_html]
-        ).strip()
+            [
+                instruction.get_text(strip=True)
+                for instruction in instructions_html
+            ])
