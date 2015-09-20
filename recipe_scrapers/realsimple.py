@@ -19,14 +19,9 @@ class RealSimple(AbstractScraper):
         try:
             time = self.soup.find('time', {'itemprop': 'totalTime'}).get_text()
             matched = TIME_REGEX.search(time)
-            if matched is None:
-                raise AttributeError
-
             total_minutes = int(matched.groupdict().get('minutes') or 0)
             total_minutes += 60 * int(matched.groupdict().get('hours') or 0)
-
             return total_minutes
-
         except AttributeError:  # when there is no span or no time regex match
             return 0
 

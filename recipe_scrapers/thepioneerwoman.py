@@ -1,6 +1,6 @@
 from ._abstract import AbstractScraper
 
-from ._consts import TIME_REGEX, HTML_SYMBOLS
+from ._consts import TIME_REGEX
 
 
 class ThePioneerWoman(AbstractScraper):
@@ -26,12 +26,8 @@ class ThePioneerWoman(AbstractScraper):
         for dd in dds:
             try:
                 matched = TIME_REGEX.search(dd)
-                if matched is None:
-                    raise AttributeError
-
                 total_minutes += int(matched.groupdict().get('minutes') or 0)
                 total_minutes += 60 * int(matched.groupdict().get('hours') or 0)
-
             except AttributeError:  # when there is no span or no time regex match
                 pass
 

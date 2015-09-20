@@ -19,14 +19,9 @@ class SteamyKitchen(AbstractScraper):
         try:
             time = self.soup.find('meta', {'itemprop': 'prepTime'}).get_text()
             matched = TIME_REGEX.search(time)
-            if matched is None:
-                raise AttributeError
-
             total_minutes = int(matched.groupdict().get('minutes') or 0)
             total_minutes += 60 * int(matched.groupdict().get('hours') or 0)
-
             return total_minutes
-
         except AttributeError:  # when there is no span with class prep-time / cook-time
             return 0
 
@@ -34,14 +29,9 @@ class SteamyKitchen(AbstractScraper):
         try:
             time = self.soup.find('meta', {'itemprop': 'cookTime'}).get_text()
             matched = TIME_REGEX.search(time)
-            if matched is None:
-                raise AttributeError
-
             total_minutes = int(matched.groupdict().get('minutes') or 0)
             total_minutes += 60 * int(matched.groupdict().get('hours') or 0)
-
             return total_minutes
-
         except AttributeError:  # when there is no span with class prep-time / cook-time
             return 0
 
