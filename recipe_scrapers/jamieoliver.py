@@ -1,6 +1,6 @@
 from ._abstract import AbstractScraper
 
-from .consts import TIME_REGEX
+from ._consts import TIME_REGEX
 
 
 class JamieOliver(AbstractScraper):

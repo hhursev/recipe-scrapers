@@ -1,7 +1,7 @@
 import os
 import unittest
 
-from recipe_scrapers.tasty_kitchen import TastyKitchen
+from recipe_scrapers.tastykitchen import TastyKitchen
 
 
 class TestTastyKitchenScraper(unittest.TestCase):

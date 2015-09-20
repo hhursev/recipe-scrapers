@@ -3,7 +3,7 @@ import re
 from .allrecipes import AllRecipes
 from .simplyrecipes import SimplyRecipes
 from .twopeasandtheirpod import TwoPeasAndTheirPod
-from .tasty_kitchen import TastyKitchen
+from .tastykitchen import TastyKitchen
 from .jamieoliver import JamieOliver
 from .realsimple import RealSimple
 from .whatsgabycooking import WhatsGabyCooking
