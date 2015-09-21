@@ -1,7 +1,5 @@
 from ._abstract import AbstractScraper
-
-from ._consts import TIME_REGEX
-from ._utils import normalize_string
+from ._utils import get_minutes, normalize_string
 
 
 class SteamyKitchen(AbstractScraper):
@@ -16,28 +14,9 @@ class SteamyKitchen(AbstractScraper):
     def title(self):
         return self.soup.find('span', {'itemprop': 'name'}).get_text()
 
-    def prep_time(self):
-        try:
-            time = self.soup.find('meta', {'itemprop': 'prepTime'}).get_text()
-            matched = TIME_REGEX.search(time)
-            total_minutes = int(matched.groupdict().get('minutes') or 0)
-            total_minutes += 60 * int(matched.groupdict().get('hours') or 0)
-            return total_minutes
-        except AttributeError:  # when there is no span with class prep-time / cook-time
-            return 0
-
-    def cook_time(self):
-        try:
-            time = self.soup.find('meta', {'itemprop': 'cookTime'}).get_text()
-            matched = TIME_REGEX.search(time)
-            total_minutes = int(matched.groupdict().get('minutes') or 0)
-            total_minutes += 60 * int(matched.groupdict().get('hours') or 0)
-            return total_minutes
-        except AttributeError:  # when there is no span with class prep-time / cook-time
-            return 0
-
     def total_time(self):
-        return self.prep_time() + self.cook_time()
+        return get_minutes(self.soup.find('meta', {'itemprop': 'prepTime'})) +\
+               get_minutes(self.soup.find('meta', {'itemprop': 'cookTime'}))
 
     def ingredients(self):
         ingredients_html = self.soup.findAll('span', {'itemprop': "ingredients"})

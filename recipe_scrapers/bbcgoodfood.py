@@ -1,7 +1,5 @@
 from ._abstract import AbstractScraper
-
-# from ._consts import TIME_REGEX
-from ._utils import normalize_string
+from ._utils import get_minutes, normalize_string
 
 
 class BBCGoodFood(AbstractScraper):
@@ -17,7 +15,7 @@ class BBCGoodFood(AbstractScraper):
         return self.soup.find('h1', {'itemprop': 'name'}).get_text()
 
     def total_time(self):
-        return 0
+        return get_minutes(self.soup.find('time', {'itemprop': 'cook-time'}))
 
     def ingredients(self):
         ingredients_html = self.soup.find('section', {'id': "recipe-ingredients"}).findAll('li')
