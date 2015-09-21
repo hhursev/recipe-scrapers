@@ -1,7 +1,10 @@
 language: python
 
 python:
+  - "3.2"
+  - "3.3"
   - "3.4"
+  - "3.5"
 
 install:
   - pip install beautifulsoup4==4.4.0 coverage==3.7.1 coveralls
