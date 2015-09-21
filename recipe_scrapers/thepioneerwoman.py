@@ -1,6 +1,7 @@
 from ._abstract import AbstractScraper
 
 from ._consts import TIME_REGEX
+from ._utils import normalize_string
 
 
 class ThePioneerWoman(AbstractScraper):
@@ -37,10 +38,11 @@ class ThePioneerWoman(AbstractScraper):
         ingredients_html = self.soup.find('ul', {'class': "list-ingredients"}).findAll('li')
 
         return [
-            ingredient.get_text(strip=True)
+            normalize_string(ingredient.get_text())
             for ingredient in ingredients_html
         ]
 
     def instructions(self):
         instructions_html = self.soup.findAll('div', {'class': 'panel-body'})[-1]
-        return instructions_html.get_text(strip=True)
+
+        return normalize_string(instructions_html.get_text()).replace('.', '.\n')

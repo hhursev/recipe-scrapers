@@ -59,6 +59,6 @@ class TestAllRecipesScraper(unittest.TestCase):
 
     def test_instructions(self):
         return self.assertEqual(
-            'Stir\n together olive oil, garlic, and salt; toss with tomatoes, and allow to \nstand for 15 minutes. Preheat oven to 400 degrees F (200 degrees C).\n\nBrush\n each pizza crust with some of the tomato marinade. Sprinkle the pizzas \nevenly with Mozzarella and Fontina cheeses. Arrange tomatoes overtop, \nthen sprinkle with shredded basil, Parmesan, and feta cheese.\n\nBake in preheated oven until the cheese is bubbly and golden brown, about 10 minutes.',
+            'Stir together olive oil, garlic, and salt; toss with tomatoes, and allow to stand for 15 minutes. Preheat oven to 400 degrees F (200 degrees C).\nBrush each pizza crust with some of the tomato marinade. Sprinkle the pizzas evenly with Mozzarella and Fontina cheeses. Arrange tomatoes overtop, then sprinkle with shredded basil, Parmesan, and feta cheese.\nBake in preheated oven until the cheese is bubbly and golden brown, about 10 minutes.\n',
             self.harvester_class.instructions()
         )

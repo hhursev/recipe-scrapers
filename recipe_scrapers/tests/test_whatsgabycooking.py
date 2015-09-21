@@ -55,6 +55,6 @@ class TestWhatsGabyCookingScraper(unittest.TestCase):
 
     def test_instructions(self):
         return self.assertEqual(
-            'Juice the lemons and transfer the juice into a large pitcher.\nAdd the sugar and the water and stir to combine and dissolve the sugar.\nAdd the strawberries and basil.\nUsing\n an immersion blender, blend the mixture for about 20 seconds just until\n the mixture turns pink and the basil is finely chopped.\nAdd alcohol if desired. Serve over crushed ice and enjoy!',
+            'Juice the lemons and transfer the juice into a large pitcher.\nAdd the sugar and the water and stir to combine and dissolve the sugar.\nAdd the strawberries and basil.\nUsing an immersion blender, blend the mixture for about 20 seconds just until the mixture turns pink and the basil is finely chopped.\nAdd alcohol if desired. Serve over crushed ice and enjoy!',
             self.harvester_class.instructions()
         )

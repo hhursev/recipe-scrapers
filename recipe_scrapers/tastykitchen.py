@@ -1,6 +1,7 @@
 from ._abstract import AbstractScraper
 
-from ._consts import TIME_REGEX, HTML_SYMBOLS
+from ._consts import TIME_REGEX
+from ._utils import normalize_string
 
 
 class TastyKitchen(AbstractScraper):
@@ -40,11 +41,16 @@ class TastyKitchen(AbstractScraper):
 
     def ingredients(self):
         ingredients_html = self.soup.find('ul', {'class': "ingredients"}).findAll('li')
+
         return [
-            ingredient.get_text(strip=True).replace(HTML_SYMBOLS, ' ')
+            normalize_string(ingredient.get_text())
             for ingredient in ingredients_html
         ]
 
     def instructions(self):
-        directions_html = self.soup.find('span', {'itemprop': 'instructions'})
-        return directions_html.get_text()
+        directions_html = self.soup.find('span', {'itemprop': 'instructions'}).findAll('p')
+
+        return '\n'.join([
+            normalize_string(direction.get_text())
+            for direction in directions_html
+        ])

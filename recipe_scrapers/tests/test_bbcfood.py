@@ -58,6 +58,6 @@ class TestBBCFoodScraper(unittest.TestCase):
 
     def test_instructions(self):
         return self.assertEqual(
-            'Melt the butter in a pan and add the crushed digestive biscuits. Mix well until the biscuits have absorbed all the butter.\nRemove from the heat and press into the bottom of a\n lined 18cm/7in springform tin. Place in the refrigerator and allow to \nset for one hour.\nMeanwhile, prepare the filling. Lightly whip the \ncream cheese then beat in the Irish cream and icing sugar. Fold in the \nwhipped cream and grated chocolate. When smooth, spoon evenly onto the \nbiscuits.\nRefrigerate and allow to set for a further two \nhours. Once set, remove and decorate with whipped cream and cocoa powder\n dusted over the top. Serve.',
+            'Melt the butter in a pan and add the crushed digestive biscuits. Mix well until the biscuits have absorbed all the butter.\nRemove from the heat and press into the bottom of a lined 18cm/7in springform tin. Place in the refrigerator and allow to set for one hour.\nMeanwhile, prepare the filling. Lightly whip the cream cheese then beat in the Irish cream and icing sugar. Fold in the whipped cream and grated chocolate. When smooth, spoon evenly onto the biscuits.\nRefrigerate and allow to set for a further two hours. Once set, remove and decorate with whipped cream and cocoa powder dusted over the top. Serve.',
             self.harvester_class.instructions()
         )

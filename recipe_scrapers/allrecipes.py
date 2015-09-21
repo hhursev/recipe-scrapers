@@ -1,6 +1,7 @@
 from ._abstract import AbstractScraper
 
-from ._consts import TIME_REGEX, HTML_SYMBOLS
+from ._consts import TIME_REGEX
+from ._utils import normalize_string
 
 
 class AllRecipes(AbstractScraper):
@@ -27,16 +28,17 @@ class AllRecipes(AbstractScraper):
 
     def ingredients(self):
         ingredients_html = self.soup.findAll('li', {'class': "checkList__line"})
+
         return [
-            ingredient.get_text(strip=True)
+            normalize_string(ingredient.get_text())
             for ingredient in ingredients_html
             if ingredient.get_text(strip=True) not in ('Add all ingredients to list', '')
         ]
 
     def instructions(self):
-        directions_html = self.soup.findAll('span', {'class': 'recipe-directions__list--item'})
-        return '\n\n'.join(
-            [
-                direction.get_text(strip=True).replace(HTML_SYMBOLS, ' ')
-                for direction in directions_html
-            ]).strip()
+        instructions_html = self.soup.findAll('span', {'class': 'recipe-directions__list--item'})
+
+        return '\n'.join([
+            normalize_string(instruction.get_text())
+            for instruction in instructions_html
+        ])

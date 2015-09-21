@@ -1,6 +1,7 @@
 from ._abstract import AbstractScraper
 
 from ._consts import TIME_REGEX
+from ._utils import normalize_string
 
 
 class TwoPeasAndTheirPod(AbstractScraper):
@@ -32,9 +33,15 @@ class TwoPeasAndTheirPod(AbstractScraper):
             ingredients_flatten.extend(ingredient.get_text().split('\n'))
 
         return [
-            ingredient for ingredient in ingredients_flatten
+            normalize_string(ingredient)
+            for ingredient in ingredients_flatten
             if ingredient[0].isdigit()
         ]
 
     def instructions(self):
-        return self.soup.find('div', {'class': 'instructions'}).get_text()
+        instructions_html = self.soup.find('div', {'class': 'instructions'}).findAll('p')
+
+        return '\n'.join([
+            normalize_string(instruction.get_text())
+            for instruction in instructions_html
+        ])

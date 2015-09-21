@@ -1,6 +1,7 @@
 from ._abstract import AbstractScraper
 
 from ._consts import TIME_REGEX
+from ._utils import normalize_string
 
 
 class RealSimple(AbstractScraper):
@@ -29,15 +30,14 @@ class RealSimple(AbstractScraper):
         ingredients_html = self.soup.findAll('ol', {'class': "ingredient-list"})[0]
 
         return [
-            ingredient.get_text(strip=True)
+            normalize_string(ingredient.get_text())
             for ingredient in ingredients_html.findAll('span', {'itemprop': 'ingredients'})
         ]
 
     def instructions(self):
-        directions_html = self.soup.find('section', {'itemprop': 'recipeInstructions'})
+        instructions_html = self.soup.find('section', {'itemprop': 'recipeInstructions'})
 
-        return '\n'.join(
-            [
-                direction.get_text(strip=True)
-                for direction in directions_html.findAll('li')
-            ])
+        return '\n'.join([
+            normalize_string(instruction.get_text())
+            for instruction in instructions_html.findAll('li')
+        ])

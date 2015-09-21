@@ -1,6 +1,7 @@
 from ._abstract import AbstractScraper
 
 from ._consts import TIME_REGEX
+from ._utils import normalize_string
 
 
 class JamieOliver(AbstractScraper):
@@ -34,11 +35,12 @@ class JamieOliver(AbstractScraper):
     def ingredients(self):
         article = self.soup.find('article', {'class', 'ingredients'})
         ingredients_html = article.findAll('li')
+
         return [
-            ingredient.get_text(strip=True)
+            normalize_string(ingredient.get_text())
             for ingredient in ingredients_html
         ]
 
     def instructions(self):
-        directions_html = self.soup.find('p', {'class': 'instructions'})
-        return directions_html.get_text()
+        instructions_html = self.soup.find('p', {'class': 'instructions'})
+        return normalize_string(instructions_html.get_text())
