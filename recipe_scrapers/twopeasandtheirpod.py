@@ -8,9 +8,6 @@ class TwoPeasAndTheirPod(AbstractScraper):
     def host(self):
         return 'twopeasandtheirpod.com'
 
-    def publisher_site(self):
-        return 'http://twopeasandtheirpod.com/'
-
     def title(self):
         return self.soup.find('h2').get_text()
 

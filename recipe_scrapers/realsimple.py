@@ -8,9 +8,6 @@ class RealSimple(AbstractScraper):
     def host(self):
         return 'realsimple.com'
 
-    def publisher_site(self):
-        return 'http://realsimple.com/'
-
     def title(self):
         return self.soup.find('h1').get_text(strip=True)
 

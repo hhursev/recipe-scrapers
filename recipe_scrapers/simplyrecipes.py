@@ -8,9 +8,6 @@ class SimplyRecipes(AbstractScraper):
     def host(self):
         return 'simplyrecipes.com'
 
-    def publisher_site(self):
-        return 'http://www.simplyrecipes.com/'
-
     def title(self):
         return self.soup.find('h1').get_text()
 

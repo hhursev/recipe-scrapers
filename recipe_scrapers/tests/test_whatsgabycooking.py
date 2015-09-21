@@ -22,12 +22,6 @@ class TestWhatsGabyCookingScraper(unittest.TestCase):
             self.harvester_class.host()
         )
 
-    def test_publisher_site(self):
-        self.assertEqual(
-            'http://whatsgabycooking.com/',
-            self.harvester_class.publisher_site()
-        )
-
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),

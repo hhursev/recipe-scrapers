@@ -8,9 +8,6 @@ class FineDiningLovers(AbstractScraper):
     def host(self):
         return 'finedininglovers.com'
 
-    def publisher_site(self):
-        return 'https://finedininglovers.com/'
-
     def title(self):
         return self.soup.find('h3', {'itemprop': 'name'}).get_text()
 

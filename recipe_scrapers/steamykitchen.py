@@ -8,9 +8,6 @@ class SteamyKitchen(AbstractScraper):
     def host(self):
         return 'steamykitchen.com'
 
-    def publisher_site(self):
-        return 'http://steamykitchen.com/'
-
     def title(self):
         return self.soup.find('span', {'itemprop': 'name'}).get_text()
 

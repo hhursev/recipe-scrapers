@@ -8,9 +8,6 @@ class BBCFood(AbstractScraper):
     def host(self):
         return 'bbc.co.uk'
 
-    def publisher_site(self):
-        return 'http://bbc.co.uk/'
-
     def title(self):
         return self.soup.find('div', {'class': 'article-title'}).find('h1').get_text()
 

@@ -8,9 +8,6 @@ class TastyKitchen(AbstractScraper):
     def host(self):
         return 'tastykitchen.com/'
 
-    def publisher_site(self):
-        return 'http://tastykitchen.com/'
-
     def title(self):
         return self.soup.find('h1', {'itemprop': 'name'}).get_text()
 

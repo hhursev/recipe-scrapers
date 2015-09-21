@@ -8,9 +8,6 @@ class TheVintageMixer(AbstractScraper):
     def host(self):
         return 'thevintagemixer.com'
 
-    def publisher_site(self):
-        return 'http://thevintagemixer.com/'
-
     def title(self):
         return self.soup.find('div', {'id': 'zlrecipe-title'}).get_text()
 

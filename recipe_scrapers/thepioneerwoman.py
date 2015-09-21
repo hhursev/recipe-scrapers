@@ -8,9 +8,6 @@ class ThePioneerWoman(AbstractScraper):
     def host(self):
         return 'thepioneerwoman.com'
 
-    def publisher_site(self):
-        return 'http://thepioneerwoman.com/'
-
     def title(self):
         return self.soup.find('h3', {'class': 'recipe-title'}).get_text()
 

@@ -8,9 +8,6 @@ class BBCGoodFood(AbstractScraper):
     def host(self):
         return 'bbcgoodfood.com'
 
-    def publisher_site(self):
-        return 'http://bbcgoodfood.com/'
-
     def title(self):
         return self.soup.find('h1', {'itemprop': 'name'}).get_text()
 

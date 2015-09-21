@@ -8,9 +8,6 @@ class WhatsGabyCooking(AbstractScraper):
     def host(self):
         return 'whatsgabycooking.com'
 
-    def publisher_site(self):
-        return 'http://whatsgabycooking.com/'
-
     def title(self):
         return self.soup.find('h1', {'class': 'entry-title'}).get_text()
 

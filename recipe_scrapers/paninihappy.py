@@ -8,9 +8,6 @@ class PaniniHappy(AbstractScraper):
     def host(self):
         return 'paninihappy.com'
 
-    def publisher_site(self):
-        return 'http://paninihappy.com/'
-
     def title(self):
         return self.soup.find('h1', {'class': 'entry-title'}).get_text()
 
