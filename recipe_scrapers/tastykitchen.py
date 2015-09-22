@@ -6,7 +6,7 @@ class TastyKitchen(AbstractScraper):
 
     @classmethod
     def host(self):
-        return 'tastykitchen.com/'
+        return 'tastykitchen.com'
 
     def title(self):
         return self.soup.find('h1', {'itemprop': 'name'}).get_text()

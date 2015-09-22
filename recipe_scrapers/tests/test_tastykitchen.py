@@ -18,7 +18,7 @@ class TestTastyKitchenScraper(unittest.TestCase):
 
     def test_host(self):
         self.assertEqual(
-            'tastykitchen.com/',
+            'tastykitchen.com',
             self.harvester_class.host()
         )
 
