@@ -36,10 +36,11 @@ class TestBBCGoodFoodScraper(unittest.TestCase):
 
     def test_ingredients(self):
         self.assertListEqual(
+
             [
                 '12 Cupcakes (I used the Lemon and Poppyseed recipe on this website and substituted vanilla for the lemon and poppyseeds)',
                 'Frosting',
-                'The frosting I made using a vegetable shortening (in Aus its called So Lite, I think in the US Crisco is similar) and icing sugar mixture. You could use butter cream but the frosting is pure white and colours beautifully.  You would need to double the buttercream you usually use for 12 cupcakes',
+                'The frosting I made using a vegetable shortening (in Aus its called So Lite, I think in the US Crisco is similar) and icing sugar mixture. You could use butter cream but the frosting is pure white and colours beautifully. You would need to double the buttercream you usually use for 12 cupcakes',
                 'Blue colouring - use a good one for the best colour',
                 'Coconut - dyed blue to match the frosting',
                 '12 Choc chip cookies',

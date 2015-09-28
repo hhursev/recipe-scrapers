@@ -62,6 +62,6 @@ class TestFineDiningLoversScraper(unittest.TestCase):
 
     def test_instructions(self):
         return self.assertEqual(
-            'For the macadamia cheese \tPour all ingredients in a blender and mix until a thick cream. Set aside. For the tomato cream \tPour all ingredients into a blender and mix until creamy. Set aside. For the basil pesto \t\u2028Pour all ingredients into a blender and mix until creamy. Set aside. \tWash zucchini and cut them into very thin slices. \tMake the raw vegan lasagna alternating a layer of zucchini, a layer of macadamia cheese, a layer of zucchini, a layer of tomato sauce, a layer of zucchini, a layer of basil pesto. Keep the lasagna in the fridge and serve decorated with fresh basil and pine nuts.',
+            'For the macadamia cheese Pour all ingredients in a blender and mix until a thick cream. Set aside. For the tomato cream Pour all ingredients into a blender and mix until creamy. Set aside. For the basil pesto Pour all ingredients into a blender and mix until creamy. Set aside. Wash zucchini and cut them into very thin slices. Make the raw vegan lasagna alternating a layer of zucchini, a layer of macadamia cheese, a layer of zucchini, a layer of tomato sauce, a layer of zucchini, a layer of basil pesto. Keep the lasagna in the fridge and serve decorated with fresh basil and pine nuts.',
             self.harvester_class.instructions()
         )
