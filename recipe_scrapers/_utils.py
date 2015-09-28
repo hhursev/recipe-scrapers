@@ -18,7 +18,10 @@ def get_minutes(dom_element):
 
 
 def normalize_string(string):
-    return string.replace(
-        '\xa0', ' ').replace(  # &nbsp;
-        '\n', ' ').replace(
-        '  ', ' ').strip()
+    return re.sub(
+        r'\s+', ' ',
+        string.replace(
+            '\xa0', ' ').replace(  # &nbsp;
+            '\n', ' ').replace(
+            '\t', ' ').strip()
+    )
