@@ -12,7 +12,13 @@ class BBCGoodFood(AbstractScraper):
         return self.soup.find('h1', {'itemprop': 'name'}).get_text()
 
     def total_time(self):
-        return get_minutes(self.soup.find('time', {'itemprop': 'cook-time'}))
+        time_full = get_minutes(self.soup.find('span', {'class': 'cooking-time-full'}))
+        time_prep = get_minutes(self.soup.find('span', {'class': 'cooking-time-prep'}))
+        time_cook = get_minutes(self.soup.find('span', {'class': 'cooking-time-cook'}))
+
+        if time_full == 0:
+            return time_prep + time_cook
+        return time_full
 
     def ingredients(self):
         ingredients_html = self.soup.find('section', {'id': "recipe-ingredients"}).findAll('li')
@@ -25,7 +31,14 @@ class BBCGoodFood(AbstractScraper):
     def instructions(self):
         instructions_html = self.soup.find('section', {'id': 'recipe-method'}).findAll('li')
 
-        return '\n'.join([
+        instructions_string = '\n'.join([
             normalize_string(instruction.get_text())
             for instruction in instructions_html
         ])
+
+        if len(instructions_string) == 0:
+            instructions_string = normalize_string(
+                self.soup.find('section', {'id': 'recipe-method'}).get_text()
+            )
+
+        return instructions_string
