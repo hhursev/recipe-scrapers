@@ -12,7 +12,7 @@ class TheVintageMixer(AbstractScraper):
         return self.soup.find('div', {'id': 'zlrecipe-title'}).get_text()
 
     def total_time(self):
-        return get_minutes(self.soup.find('time', {'itemprop': 'prep-time'}))
+        return get_minutes(self.soup.find('span', {'itemprop': 'totalTime'}))
 
     def ingredients(self):
         ingredients_html = self.soup.findAll('li', {'itemprop': "ingredients"})

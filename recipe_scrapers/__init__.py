@@ -12,6 +12,7 @@ from .simplyrecipes import SimplyRecipes
 from .steamykitchen import SteamyKitchen
 from .tastykitchen import TastyKitchen
 from .thepioneerwoman import ThePioneerWoman
+from .thevintagemixer import TheVintageMixer
 from .twopeasandtheirpod import TwoPeasAndTheirPod
 from .whatsgabycooking import WhatsGabyCooking
 
@@ -29,6 +30,7 @@ SCRAPERS = {
     SteamyKitchen.host(): SteamyKitchen,
     TastyKitchen.host(): TastyKitchen,
     ThePioneerWoman.host(): ThePioneerWoman,
+    TheVintageMixer.host(): TheVintageMixer,
     TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
     WhatsGabyCooking.host(): WhatsGabyCooking,
 }
