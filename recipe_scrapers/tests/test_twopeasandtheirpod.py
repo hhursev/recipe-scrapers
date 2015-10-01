@@ -31,7 +31,7 @@ class TestTwoPeasAndTheirPodScraper(unittest.TestCase):
     def test_total_time(self):
         # as it is written '12-15 minutes in our test case'
         self.assertEqual(
-            0,
+            13,
             self.harvester_class.total_time()
         )
 

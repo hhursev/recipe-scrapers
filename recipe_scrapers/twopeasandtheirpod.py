@@ -12,7 +12,7 @@ class TwoPeasAndTheirPod(AbstractScraper):
         return self.soup.find('h2').get_text()
 
     def total_time(self):
-        return get_minutes(self.soup.find('span', {'class': 'duration'}))
+        return get_minutes(self.soup.find('span', {'class': 'cooktime'}))
 
     def ingredients(self):
         ingredients_html = self.soup.find('div', {'class': 'ingredient'}).findAll('p')
