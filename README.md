@@ -41,6 +41,7 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 - [http://bonappetit.com/](http://bonappetit.com/)
 - [http://finedininglovers.com/](https://finedininglovers.com/)
 - [http://jamieoliver.com/](http://www.jamieoliver.com/)
+- [http://mybakingaddiction.com/](http://mybakingaddiction.com/)
 - [http://paninihappy.com/](http://paninihappy.com/)
 - [http://realsimple.com/](http://www.realsimple.com/)
 - [http://simplyrecipes.com/](http://www.simplyrecipes.com)
