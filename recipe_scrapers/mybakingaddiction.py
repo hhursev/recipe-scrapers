@@ -18,13 +18,22 @@ class MyBakingAddiction(AbstractScraper):
     def ingredients(self):
         ingredients_html = self.soup.findAll('li', {'itemprop': "ingredients"})
 
+        if not len(ingredients_html):
+            ingredients_html = self.soup.find(
+                'div', {'class': 'ingredients'}).get_text().split('\n')
+
         return [
-            normalize_string(ingredient.get_text())
+            normalize_string(ingredient.get_text()) if type(ingredient) != str else ingredient
             for ingredient in ingredients_html
+            if ingredient != ''
         ]
 
     def instructions(self):
         instructions_html = self.soup.find('span', {'itemprop': 'recipeInstructions'}).findAll('li')
+
+        if len(instructions_html) == 0:
+            instructions_html = self.soup.find(
+                'span', {'itemprop': 'recipeInstructions'}).findAll('p')
 
         return '\n'.join([
             normalize_string(instruction.get_text())
