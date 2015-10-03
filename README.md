@@ -40,6 +40,7 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 - [http://bbcgoodfood.com/](http://bbcgoodfood.com/)
 - [http://bonappetit.com/](http://bonappetit.com/)
 - [http://finedininglovers.com/](https://finedininglovers.com/)
+- [http://foodrepublic.com/](http://foodrepublic.com)
 - [http://jamieoliver.com/](http://www.jamieoliver.com/)
 - [http://mybakingaddiction.com/](http://mybakingaddiction.com/)
 - [http://paninihappy.com/](http://paninihappy.com/)
