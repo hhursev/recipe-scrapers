@@ -4,6 +4,7 @@ from .allrecipes import AllRecipes
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
 from .bonappetit import BonAppetit
+from .cookstr import Cookstr
 from .finedininglovers import FineDiningLovers
 from .foodrepublic import FoodRepublic
 from .jamieoliver import JamieOliver
@@ -24,6 +25,7 @@ SCRAPERS = {
     BBCFood.host(): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
     BonAppetit.host(): BonAppetit,
+    Cookstr.host(): Cookstr,
     FineDiningLovers.host(): FineDiningLovers,
     FoodRepublic.host(): FoodRepublic,
     JamieOliver.host(): JamieOliver,
