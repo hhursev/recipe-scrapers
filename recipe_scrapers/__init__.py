@@ -4,6 +4,7 @@ from .allrecipes import AllRecipes
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
 from .bonappetit import BonAppetit
+from .closetcooking import ClosetCooking
 from .cookstr import Cookstr
 from .epicurious import Epicurious
 from .finedininglovers import FineDiningLovers
@@ -27,6 +28,7 @@ SCRAPERS = {
     BBCFood.host(): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
     BonAppetit.host(): BonAppetit,
+    ClosetCooking.host(): ClosetCooking,
     Cookstr.host(): Cookstr,
     Epicurious.host(): Epicurious,
     FineDiningLovers.host(): FineDiningLovers,
