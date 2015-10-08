@@ -35,6 +35,7 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 
 ### Scrapers available for:
 
+- [http://101cookbooks.com/](http://101cookbooks.com/)
 - [http://allrecipes.com/](http://allrecipes.com/)
 - [http://bbc.co.uk/](http://bbc.co.uk/food/recipes/)
 - [http://bbcgoodfood.com/](http://bbcgoodfood.com/)

@@ -9,7 +9,7 @@ class Cookstr(AbstractScraper):
         return 'cookstr.com'
 
     def title(self):
-        return self.soup.find('h1', {'id': 'recipe_title'}).get_text()
+        return normalize_string(self.soup.find('h1', {'id': 'recipe_title'}).get_text())
 
     def total_time(self):
         recipe_info = self.soup.find('ul', {'id': 'recipe-info-attrs'})
