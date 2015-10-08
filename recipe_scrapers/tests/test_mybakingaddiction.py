@@ -4,7 +4,7 @@ import unittest
 from recipe_scrapers.mybakingaddiction import MyBakingAddiction
 
 
-class TestAllRecipesScraper(unittest.TestCase):
+class TestMyBakingAddictionScraper(unittest.TestCase):
     def setUp(self):
         # tests are run from tests.py
         with open(os.path.join(
