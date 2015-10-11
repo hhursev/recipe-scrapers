@@ -27,7 +27,7 @@ class TwoPeasAndTheirPod(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions_html = self.soup.find('div', {'class': 'instructions'}).findAll('p')
+        instructions_html = self.soup.find('div', {'class': 'instructions'}).findAll(['p', 'li'])
 
         return '\n'.join([
             normalize_string(instruction.get_text())

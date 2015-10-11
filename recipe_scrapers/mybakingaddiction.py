@@ -29,11 +29,7 @@ class MyBakingAddiction(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions_html = self.soup.find('span', {'itemprop': 'recipeInstructions'}).findAll('li')
-
-        if len(instructions_html) == 0:
-            instructions_html = self.soup.find(
-                'span', {'itemprop': 'recipeInstructions'}).findAll('p')
+        instructions_html = self.soup.find('span', {'itemprop': 'recipeInstructions'}).findAll(['li', 'p'])
 
         return '\n'.join([
             normalize_string(instruction.get_text())
