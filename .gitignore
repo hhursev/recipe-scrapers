@@ -2,4 +2,6 @@
 *.egg-info
 .coverage
 
+run_tester.py
+
 recipe_scrapers/tests/test_data/*.html
