@@ -1,4 +1,8 @@
-from urllib import request
+try:
+    from urllib import request
+except:
+    from urllib2 import urlopen as request
+    from urllib2 import Request
 
 from bs4 import BeautifulSoup
 
@@ -9,15 +13,19 @@ HEADERS = {
 }
 
 
-class AbstractScraper():
+class AbstractScraper(object):
 
     def __init__(self, url, test=False):
         if test:  # when testing, we load a file
             with url:
                 self.soup = BeautifulSoup(url.read(), "html.parser")
         else:
-            self.soup = BeautifulSoup(request.urlopen(
-                request.Request(url, headers=HEADERS)).read(), "html.parser")
+            try:
+                self.soup = BeautifulSoup(request.urlopen(
+                    request.Request(url, headers=HEADERS)).read(), "html.parser")
+            except:
+                self.soup = BeautifulSoup(request(
+                    Request(url, headers=HEADERS)).read(), "html.parser")
 
     def host(self):
         """ get the host of the url, so we can use the correct scraper (check __init__.py) """
