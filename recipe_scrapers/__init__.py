@@ -3,24 +3,17 @@
 import re
 
 from .allrecipes import AllRecipes
-from .bbcfood import BBCFood
-from .bbcgoodfood import BBCGoodFood
 from .bonappetit import BonAppetit
 from .budgetbytes import BudgetBytes
-from .closetcooking import ClosetCooking
 from .cookstr import Cookstr
 from .epicurious import Epicurious
 from .finedininglovers import FineDiningLovers
 from .foodrepublic import FoodRepublic
-from .hundredandonecookbooks import HundredAndOneCookbooks
 from .jamieoliver import JamieOliver
 from .mybakingaddiction import MyBakingAddiction
-from .paninihappy import PaniniHappy
-from .realsimple import RealSimple
 from .simplyrecipes import SimplyRecipes
 from .steamykitchen import SteamyKitchen
 from .tastykitchen import TastyKitchen
-from .thepioneerwoman import ThePioneerWoman
 from .thevintagemixer import TheVintageMixer
 from .twopeasandtheirpod import TwoPeasAndTheirPod
 from .whatsgabycooking import WhatsGabyCooking
@@ -28,24 +21,17 @@ from .whatsgabycooking import WhatsGabyCooking
 
 SCRAPERS = {
     AllRecipes.host(): AllRecipes,
-    BBCFood.host(): BBCFood,
-    BBCGoodFood.host(): BBCGoodFood,
     BonAppetit.host(): BonAppetit,
     BudgetBytes.host(): BudgetBytes,
-    ClosetCooking.host(): ClosetCooking,
     Cookstr.host(): Cookstr,
     Epicurious.host(): Epicurious,
     FineDiningLovers.host(): FineDiningLovers,
     FoodRepublic.host(): FoodRepublic,
-    HundredAndOneCookbooks.host(): HundredAndOneCookbooks,
     JamieOliver.host(): JamieOliver,
     MyBakingAddiction.host(): MyBakingAddiction,
-    PaniniHappy.host(): PaniniHappy,
-    RealSimple.host(): RealSimple,
     SimplyRecipes.host(): SimplyRecipes,
     SteamyKitchen.host(): SteamyKitchen,
     TastyKitchen.host(): TastyKitchen,
-    ThePioneerWoman.host(): ThePioneerWoman,
     TheVintageMixer.host(): TheVintageMixer,
     TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
     WhatsGabyCooking.host(): WhatsGabyCooking,
