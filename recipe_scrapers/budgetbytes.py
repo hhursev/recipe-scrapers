@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
+#!/usr/bin/env python
+# encoding: utf-8
 
 import unicodedata
 from ._abstract import AbstractScraper

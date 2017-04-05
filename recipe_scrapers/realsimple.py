@@ -5,7 +5,9 @@ from ._utils import get_minutes, normalize_string
 class RealSimple(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(self):#!/usr/bin/env python
+# encoding: utf-8
+
         return 'realsimple.com'
 
     def title(self):

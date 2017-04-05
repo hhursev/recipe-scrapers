@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# encoding: utf-8
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, normalize_string
 

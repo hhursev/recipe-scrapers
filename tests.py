@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# encoding: utf-8
+
 from recipe_scrapers.tests.test_allrecipes import *
 from recipe_scrapers.tests.test_bbcfood import *
 from recipe_scrapers.tests.test_bbcgoodfood import *

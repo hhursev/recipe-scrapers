@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# encoding: utf-8
 try:
     from urllib import request
 except:
@@ -46,3 +48,20 @@ class AbstractScraper(object):
 
     def instructions(self):
         raise NotImplementedError("This should be implemented.")
+
+    def description(self):
+        return NotImplementedError("This should be implemented.")
+
+    def image(self):
+        return NotImplementedError("This should be implemented.")
+
+    def data(self):
+        return {
+            'title': self.title(),
+            'servings': self.servings(),
+            'total_time': self.total_time(),
+            'ingredients': self.ingredients(),
+            'instructions': self.instructions(),
+            'description': self.description(),
+            'image': self.image(),
+        }

@@ -3,9 +3,9 @@
 [![Build Status](https://travis-ci.org/hhursev/recipe-scraper.svg?branch=master)](https://travis-ci.org/hhursev/recipe-scraper)
 
 A simple web scraping tool for recipe sites I use in a project of mine that makes sense to live as
-a separate package. **No Python 2 support.**
+a separate package.
 
-    pip install git+git://github.com/hhursev/recipe-scraper.git
+    pip install git+git://github.com/RyanNoelk/recipe-scraper.git
 
 then:
 
@@ -18,6 +18,10 @@ then:
     scrap_me.total_time()
     scrap_me.ingredients()
     scrap_me.instructions()
+    
+    or
+    
+    scrap_me.data()
 
 
 ### Contribute
