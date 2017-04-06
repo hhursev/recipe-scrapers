@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# encoding: utf-8
 import re
 
 
@@ -23,7 +25,7 @@ def normalize_string(string):
     return re.sub(
         r'\s+', ' ',
         string.replace(
-            '\xa0', ' ').replace(  # &nbsp;
-            '\n', ' ').replace(
-            '\t', ' ').strip()
+            u'\xa0', u' ').replace(  # &nbsp;
+            u'\n', u' ').replace(
+            u'\t', u' ').strip()
     )

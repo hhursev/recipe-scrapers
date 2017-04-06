@@ -1,4 +1,10 @@
-from urllib import request
+#!/usr/bin/env python
+# encoding: utf-8
+try:
+    from urllib import request
+except:
+    from urllib2 import urlopen as request
+    from urllib2 import Request
 
 from bs4 import BeautifulSoup
 
@@ -9,21 +15,28 @@ HEADERS = {
 }
 
 
-class AbstractScraper():
+class AbstractScraper(object):
 
     def __init__(self, url, test=False):
         if test:  # when testing, we load a file
             with url:
                 self.soup = BeautifulSoup(url.read(), "html.parser")
         else:
-            self.soup = BeautifulSoup(request.urlopen(
-                request.Request(url, headers=HEADERS)).read(), "html.parser")
+            try:
+                self.soup = BeautifulSoup(request.urlopen(
+                    request.Request(url, headers=HEADERS)).read(), "html.parser")
+            except:
+                self.soup = BeautifulSoup(request(
+                    Request(url, headers=HEADERS)).read(), "html.parser")
 
     def host(self):
         """ get the host of the url, so we can use the correct scraper (check __init__.py) """
         raise NotImplementedError("This should be implemented.")
 
     def title(self):
+        raise NotImplementedError("This should be implemented.")
+
+    def servings(self):
         raise NotImplementedError("This should be implemented.")
 
     def total_time(self):
@@ -35,3 +48,20 @@ class AbstractScraper():
 
     def instructions(self):
         raise NotImplementedError("This should be implemented.")
+
+    def description(self):
+        return NotImplementedError("This should be implemented.")
+
+    def image(self):
+        return NotImplementedError("This should be implemented.")
+
+    def data(self):
+        return {
+            'title': self.title(),
+            'servings': self.servings(),
+            'total_time': self.total_time(),
+            'ingredients': self.ingredients(),
+            'instructions': self.instructions(),
+            'description': self.description(),
+            'image': self.image(),
+        }
