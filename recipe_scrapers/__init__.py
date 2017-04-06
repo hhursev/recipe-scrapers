@@ -21,20 +21,20 @@ from .whatsgabycooking import WhatsGabyCooking
 
 SCRAPERS = {
     AllRecipes.host(): AllRecipes,
-    BonAppetit.host(): BonAppetit,
+    # BonAppetit.host(): BonAppetit,
     BudgetBytes.host(): BudgetBytes,
-    Cookstr.host(): Cookstr,
-    Epicurious.host(): Epicurious,
-    FineDiningLovers.host(): FineDiningLovers,
-    FoodRepublic.host(): FoodRepublic,
-    JamieOliver.host(): JamieOliver,
-    MyBakingAddiction.host(): MyBakingAddiction,
-    SimplyRecipes.host(): SimplyRecipes,
-    SteamyKitchen.host(): SteamyKitchen,
-    TastyKitchen.host(): TastyKitchen,
-    TheVintageMixer.host(): TheVintageMixer,
-    TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
-    WhatsGabyCooking.host(): WhatsGabyCooking,
+    # Cookstr.host(): Cookstr,
+    # Epicurious.host(): Epicurious,
+    # FineDiningLovers.host(): FineDiningLovers,
+    # FoodRepublic.host(): FoodRepublic,
+    # JamieOliver.host(): JamieOliver,
+    # MyBakingAddiction.host(): MyBakingAddiction,
+    # SimplyRecipes.host(): SimplyRecipes,
+    # SteamyKitchen.host(): SteamyKitchen,
+    # TastyKitchen.host(): TastyKitchen,
+    # TheVintageMixer.host(): TheVintageMixer,
+    # TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
+    # WhatsGabyCooking.host(): WhatsGabyCooking,
 }
 
 
