@@ -18,6 +18,10 @@ class AbstractScraper():
         else:
             self.soup = BeautifulSoup(request.urlopen(
                 request.Request(url, headers=HEADERS)).read(), "html.parser")
+        self.url = url
+
+    def url(self):
+        return self.url
 
     def host(self):
         """ get the host of the url, so we can use the correct scraper (check __init__.py) """
