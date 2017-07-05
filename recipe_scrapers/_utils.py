@@ -7,7 +7,7 @@ TIME_REGEX = re.compile(
 )
 
 SERVING_REGEX = re.compile(
-    r'(\d+)\s*servings|(?:serves|makes)\s*(\d+)?|^\s*(\d+)\s*$'
+    r'(\d+)\s*(servings|Servings)|(?:serves|makes|Serves|Makes)\s*(\d+)?|^\s*(\d+)\s*$'
 )
 
 def get_minutes(dom_element):
