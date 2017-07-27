@@ -24,7 +24,12 @@ class BBCGoodFood(AbstractScraper):
         ingredients_html = self.soup.find('section', {'id': "recipe-ingredients"}).findAll('li')
 
         return [
-            normalize_string(ingredient.get_text())
+            normalize_string(
+                '{normal_text}{tooltip_text}'.format(
+                    normal_text=ingredient.find(text=True),
+                    tooltip_text=ingredient.find('a').get_text() if ingredient.find('a') is not None else ''
+                )
+            )
             for ingredient in ingredients_html
         ]
 
