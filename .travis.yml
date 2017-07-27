@@ -5,6 +5,7 @@ python:
   - "3.3"
   - "3.4"
   - "3.5"
+  - "3.6"
 
 install:
   - pip install beautifulsoup4==4.4.0 coverage==3.7.1 coveralls
