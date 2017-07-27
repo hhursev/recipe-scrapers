@@ -57,3 +57,15 @@ class AllRecipes(AbstractScraper):
 
     def rating_stars(self):
         return float(self.soup.find('meta', {'itemprop': 'ratingValue'})['content'])
+
+    def submitter(self):
+        return self.soup.find('span', {'class': 'submitter__name'}).get_text()
+
+    def submitter_description(self):
+        desc_html = self.soup.find('div', {'class': 'submitter__description'})
+        if not desc_html:
+            return None
+        description = desc_html.get_text(strip=True)
+        if description.startswith('"') and description.endswith('"'):
+            description = description[1:-1]
+        return description
