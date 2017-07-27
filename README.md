@@ -10,15 +10,15 @@ a separate package. **No Python 2 support.**
 
 then:
 
-    from recipe_scrapers import scrap_me
+    from recipe_scrapers import scrape_me
 
     # give the url as a string, it can be url from any site listed below
-    scrap_me = scrap_me('http://allrecipes.com/Recipe/Apple-Cake-Iv/Detail.aspx')
+    scrape_me = scrape_me('http://allrecipes.com/Recipe/Apple-Cake-Iv/Detail.aspx')
 
-    scrap_me.title()
-    scrap_me.total_time()
-    scrap_me.ingredients()
-    scrap_me.instructions()
+    scrape_me.title()
+    scrape_me.total_time()
+    scrape_me.ingredients()
+    scrape_me.instructions()
 
 
 ### Contribute

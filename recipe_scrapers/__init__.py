@@ -65,9 +65,9 @@ def url_path_to_dict(path):
     return url_dict
 
 
-def scrap_me(url_path):
+def scrape_me(url_path):
     url_path = url_path.replace('://www.', '://')
     return SCRAPERS[url_path_to_dict(url_path)['host']](url_path)
 
 
-__all__ = ['scrap_me']
+__all__ = ['scrape_me']
