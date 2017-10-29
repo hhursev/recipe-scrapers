@@ -9,14 +9,19 @@ class Cookstr(AbstractScraper):
         return 'cookstr.com'
 
     def title(self):
-        return normalize_string(self.soup.find('h1', {'id': 'recipe_title'}).get_text())
+        return normalize_string(self.soup.find('h1', {'class': 'articleHeadline'}).get_text())
 
     def total_time(self):
-        recipe_info = self.soup.find('ul', {'id': 'recipe-info-attrs'})
-        return sum([get_minutes(li) for li in recipe_info.findAll('li')])
+        sections = self.soup.findAll('div', {'class': 'articleAttrSection'})
+        for section in sections:
+            time = section.find(text='Total Time')
+            if time:
+                return get_minutes(time.parent.parent)
+        return 0
 
     def ingredients(self):
-        ingredients_html = self.soup.find('span', {'class': "recipe_structure_ingredients"})
+        ingredients_html = self.soup.find('div', {'class':
+            "recipeIngredients"})
 
         return [
             normalize_string(ingredient.get_text())
@@ -25,7 +30,8 @@ class Cookstr(AbstractScraper):
 
     def instructions(self):
 
-        instructions_html = self.soup.find('div', {'class': 'recipe_structure_directions'})
+        instructions_html = self.soup.find('div', {'class':
+            'stepByStepInstructionsDiv'})
 
         return '\n'.join([
             normalize_string(instruction.get_text())
