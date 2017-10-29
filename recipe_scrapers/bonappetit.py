@@ -12,10 +12,10 @@ class BonAppetit(AbstractScraper):
         return self.soup.find('h1', {'itemprop': 'name'}).get_text()
 
     def total_time(self):
-        return get_minutes(self.soup.find('span', {'itemprop': 'totalTime'}))
+        return 0
 
     def ingredients(self):
-        ingredients_html = self.soup.findAll('span', {'itemprop': "ingredients"})
+        ingredients_html = self.soup.findAll('li', {'class': "ingredient"})
 
         return [
             normalize_string(ingredient.get_text())
@@ -23,7 +23,8 @@ class BonAppetit(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions_html = self.soup.find('div', {'class': 'prep-steps'}).findAll('li')
+        instructions_html = self.soup.find('div', {'class':
+            'steps-wrapper'}).findAll('li')
 
         return '\n'.join([
             normalize_string(instruction.get_text())
