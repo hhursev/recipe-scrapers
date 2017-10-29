@@ -12,13 +12,12 @@ class BBCGoodFood(AbstractScraper):
         return self.soup.find('h1', {'itemprop': 'name'}).get_text()
 
     def total_time(self):
-        time_full = get_minutes(self.soup.find('span', {'class': 'cooking-time-full'}))
-        time_prep = get_minutes(self.soup.find('span', {'class': 'cooking-time-prep'}))
-        time_cook = get_minutes(self.soup.find('span', {'class': 'cooking-time-cook'}))
+        time_prep = get_minutes(self.soup.find('span', {'class':
+            'recipe-details__cooking-time-prep'}).find('span'))
+        time_cook = get_minutes(self.soup.find('span', {'class':
+            'recipe-details__cooking-time-cook'}).find('span'))
 
-        if time_full == 0:
-            return time_prep + time_cook
-        return time_full
+        return time_prep + time_cook
 
     def ingredients(self):
         ingredients_html = self.soup.find('section', {'id': "recipe-ingredients"}).findAll('li')
