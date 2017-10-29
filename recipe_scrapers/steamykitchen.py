@@ -9,11 +9,12 @@ class SteamyKitchen(AbstractScraper):
         return 'steamykitchen.com'
 
     def title(self):
-        return self.soup.find('span', {'itemprop': 'name'}).get_text()
+        return self.soup.find('h2', {'itemprop': 'name'}).get_text()
 
     def total_time(self):
-        return get_minutes(self.soup.find('meta', {'itemprop': 'prepTime'})) +\
-               get_minutes(self.soup.find('meta', {'itemprop': 'cookTime'}))
+        return get_minutes(self.soup.find('meta', {'itemprop':
+            'prepTime'}).parent) + get_minutes(self.soup.find('meta',
+                {'itemprop': 'cookTime'}).parent)
 
     def ingredients(self):
         ingredients_html = self.soup.findAll('span', {'itemprop': "ingredients"})
@@ -25,7 +26,8 @@ class SteamyKitchen(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions_html = self.soup.findAll('span', {'itemprop': 'recipeInstructions'})
+        instructions_html = self.soup.find('div', {'class':
+            'instructions'}).findAll('p')
 
         return '\n'.join([
             normalize_string(instruction.get_text())
