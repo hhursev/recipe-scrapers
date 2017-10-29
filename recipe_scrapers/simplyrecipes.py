@@ -16,7 +16,8 @@ class SimplyRecipes(AbstractScraper):
                get_minutes(self.soup.find('span', {'class': 'cooktime'}))
 
     def ingredients(self):
-        ingredients_html = self.soup.findAll('li', {'class': "ingredient"})
+        ingredients_html = self.soup.find('div', {'class':
+            'recipe-ingredients'}).findAll('li')
 
         return [
             normalize_string(ingredient.get_text())
