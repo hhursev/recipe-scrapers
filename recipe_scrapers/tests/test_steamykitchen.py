@@ -12,7 +12,7 @@ class TestSteamyKitchenScraper(unittest.TestCase):
             'recipe_scrapers',
             'tests',
             'test_data',
-            'streamykitchen.html'
+            'streamykitchen.testhtml'
         )) as file_opened:
             self.harvester_class = SteamyKitchen(file_opened, test=True)
 

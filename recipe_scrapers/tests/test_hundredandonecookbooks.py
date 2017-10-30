@@ -12,7 +12,7 @@ class TestHundredAndOneCookbooksScraper(unittest.TestCase):
             'recipe_scrapers',
             'tests',
             'test_data',
-            '101cookbooks.html'
+            '101cookbooks.testhtml'
         )) as file_opened:
             self.harvester_class = HundredAndOneCookbooks(file_opened, test=True)
 

@@ -12,7 +12,7 @@ class TestTastyKitchenScraper(unittest.TestCase):
             'recipe_scrapers',
             'tests',
             'test_data',
-            'tasty_kitchen.html'
+            'tasty_kitchen.testhtml'
         )) as file_opened:
             self.harvester_class = TastyKitchen(file_opened, test=True)
 

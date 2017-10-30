@@ -12,7 +12,7 @@ class TestClosetCooking(unittest.TestCase):
             'recipe_scrapers',
             'tests',
             'test_data',
-            'closetcooking.html'
+            'closetcooking.testhtml'
         )) as file_opened:
             self.harvester_class = ClosetCooking(file_opened, test=True)
 

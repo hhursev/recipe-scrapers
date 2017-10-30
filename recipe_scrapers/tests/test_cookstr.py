@@ -12,7 +12,7 @@ class TestCookstrScraper(unittest.TestCase):
             'recipe_scrapers',
             'tests',
             'test_data',
-            'cookstr.html'
+            'cookstr.testhtml'
         )) as file_opened:
             self.harvester_class = Cookstr(file_opened, test=True)
 

@@ -12,7 +12,7 @@ class TestBBCFoodScraper(unittest.TestCase):
             'recipe_scrapers',
             'tests',
             'test_data',
-            'bbc_food.html'
+            'bbc_food.testhtml'
         )) as file_opened:
             self.harvester_class = BBCFood(file_opened, test=True)
 

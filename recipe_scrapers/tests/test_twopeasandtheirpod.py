@@ -12,7 +12,7 @@ class TestTwoPeasAndTheirPodScraper(unittest.TestCase):
             'recipe_scrapers',
             'tests',
             'test_data',
-            'twopeasandtheirpod.html'
+            'twopeasandtheirpod.testhtml'
         )) as file_opened:
             self.harvester_class = TwoPeasAndTheirPod(file_opened, test=True)
 

@@ -12,7 +12,7 @@ class TestSimplyRecipesScraper(unittest.TestCase):
             'recipe_scrapers',
             'tests',
             'test_data',
-            'simpyrecipes.html'
+            'simpyrecipes.testhtml'
         )) as file_opened:
             self.harvester_class = SimplyRecipes(file_opened, test=True)
 

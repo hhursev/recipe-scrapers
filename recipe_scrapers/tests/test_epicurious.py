@@ -12,7 +12,7 @@ class TestEpicurious(unittest.TestCase):
             'recipe_scrapers',
             'tests',
             'test_data',
-            'epicurious.html'
+            'epicurious.testhtml'
         )) as file_opened:
             self.harvester_class = Epicurious(file_opened, test=True)
 
