@@ -9,13 +9,15 @@ class TheVintageMixer(AbstractScraper):
         return 'thevintagemixer.com'
 
     def title(self):
-        return self.soup.find('div', {'id': 'zlrecipe-title'}).get_text()
+        return self.soup.find('div', {'class': 'wprm-recipe-name'}).get_text()
 
     def total_time(self):
-        return get_minutes(self.soup.find('span', {'itemprop': 'totalTime'}))
+        return get_minutes(self.soup.find('meta', {'itemprop':
+            'totalTime'}).parent)
 
     def ingredients(self):
-        ingredients_html = self.soup.findAll('li', {'itemprop': "ingredients"})
+        ingredients_html = self.soup.findAll('li', {'itemprop':
+            "recipeIngredient"})
 
         return [
             normalize_string(ingredient.get_text())
@@ -24,7 +26,7 @@ class TheVintageMixer(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions_html = self.soup.findAll('li', {'itemprop': 'recipeInstructions'})
+        instructions_html = self.soup.findAll('div', {'itemprop': 'recipeInstructions'})
 
         return '\n'.join([
             normalize_string(instruction.get_text())
