@@ -12,7 +12,7 @@ class TestBBCGoodFoodScraper(unittest.TestCase):
             'recipe_scrapers',
             'tests',
             'test_data',
-            'bbc_good_food.html'
+            'bbc_good_food.testhtml'
         )) as file_opened:
             self.harvester_class = BBCGoodFood(file_opened, test=True)
 
@@ -25,32 +25,38 @@ class TestBBCGoodFoodScraper(unittest.TestCase):
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            'Cookie Monster cupcakes'
+            'Monster cupcakes'
         )
 
     def test_total_time(self):
         self.assertEqual(
-            0,
+            35,
             self.harvester_class.total_time()
         )
 
     def test_ingredients(self):
         self.assertListEqual(
-
             [
-                '12 Cupcakes (I used the Lemon and Poppyseed recipe on this website and substituted vanilla for the lemon and poppyseeds)',
-                'Frosting',
-                'The frosting I made using a vegetable shortening (in Aus its called So Lite, I think in the US Crisco is similar) and icing sugar mixture. You could use butter cream but the frosting is pure white and colours beautifully. You would need to double the buttercream you usually use for 12 cupcakes',
-                'Blue colouring - use a good one for the best colour',
-                'Coconut - dyed blue to match the frosting',
-                '12 Choc chip cookies',
-                'Melted white and dark chocolate to make the eyes.'
+                '250g self-raising flour',
+                '25g cocoa powder',
+                '175g light muscovado sugar',
+                '85g unsalted butter, melted',
+                '5 tbsp vegetable or sunflower oil',
+                '150g pot fat-free natural yogurt',
+                '1 tsp vanilla extract',
+                '3 large eggs',
+                '85g unsalted butter, softened',
+                '1 tbsp milk',
+                '½ tsp vanilla extract',
+                '200g icing sugar, sifted',
+                'food colourings (optional)',
+                'sweets and sprinkles, to decorate'
             ],
             self.harvester_class.ingredients()
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            "I used an icecream scoop full of frosting to get the right shape and then dipped in it coconut. Press the coconut on and tidy up the shape.\nWhen the frosting has firmed a little cut a slice out near the bottom and push a cookie in (you may have to trim the cookie little depending on the size of your cookies). Or make his mouth further up and put cookie pieces around it.\nThe eyes I made by using melted white to make a circle and then dark chocolate in the middle. Don't make them all exactly the same - it adds a bit of character to the finished cakes!\nSimple - very messy and lots of fun!",
+            "Heat oven to 190C/170C fan/gas 5 and line a 12-hole muffin tin with deep cake cases. Put all the cake ingredients into a large bowl and beat together with electric hand beaters until smooth. Spoon the mix into the cases, then bake for 20 mins until risen and a skewer inserted into the middle comes out dry. Cool completely on a rack. Can be made up to 3 days ahead and kept in an airtight container, or frozen for up to 1 month.\nFor the frosting, work the butter, milk and vanilla into the icing sugar until creamy and pale. Colour with food colouring, if using, then create your own gruesome monster faces using sweets and sprinkles.",
             self.harvester_class.instructions()
         )

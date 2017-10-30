@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>  One-Pot Chicken and Rice Soup Recipe | SimplyRecipes.com</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+		<link rel="amphtml" href="http://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/amp/">	        <script type="text/javascript">
+            const splitU = 980;
+            const splitL = 20;
+            temp = Math.floor((Math.random() * 1000) + 1);
+            if (temp > splitU || temp < splitL) {
+                window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),s.on(m,function(){this.bstStart=Date.now()}),s.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(17)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;c<s;c++)a[c].apply(i,r);var u=f[w[n]];return u&&u.push([v,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",w[n]=e,e in f||(f[e]=[])})}var m={},w={},v={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return v}function i(){return new r}var a="nr@context",s=t("gos"),c=t(15),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!g++){var t=y.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(w,function(e,n){t[e]||(t[e]=n)});var n="https"===m.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(15),f=window,u=f.document,d="addEventListener",l="attachEvent",p=f.XMLHttpRequest,h=p&&p.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:p,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var m=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-963.min.js"},v=p&&h&&h[d]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:m,features:{},xhrWrappable:v};u[d]?(u[d]("DOMContentLoaded",i,!1),f[d]("load",r,!1)):(u[l]("onreadystatechange",o),f[l]("onload",r)),s("mark",["firstbyte",a()],null,"api");var g=0},{}]},{},["loader",2,10,4,3]);
+        ;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"258e13307c",applicationID:"13668707",sa:1}
+            }
+        </script>
+<link rel='dns-prefetch' href='//cdn001.milotree.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<!-- This site is powered by Shareaholic - https://shareaholic.com -->
+<script type='text/javascript' data-cfasync='false'>
+  //<![CDATA[
+    _SHR_SETTINGS = {"endpoints":{"local_recs_url":"http:\/\/www.simplyrecipes.com\/wp-admin\/admin-ajax.php?action=shareaholic_permalink_related","share_counts_url":"http:\/\/www.simplyrecipes.com\/wp-admin\/admin-ajax.php?action=shareaholic_share_counts_api"},"url_components":{"year":"2017","monthnum":"10","day":"23","post_id":"58008","postname":"one_pot_chicken_and_rice_soup","author":"aaron-hutcherson"}};
+  //]]>
+</script>
+<script type='text/javascript' data-cfasync='false'
+        src='//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js'
+        data-shr-siteid='9686fb8504a82062c456cb680f4c8853' async='async' >
+</script>
+
+<!-- Shareaholic Content Tags -->
+<meta name='shareaholic:site_name' content='Simply Recipes' />
+<meta name='shareaholic:language' content='en-US' />
+<meta name='shareaholic:url' content='http://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/' />
+<meta name='shareaholic:keywords' content='recipe' />
+<meta name='shareaholic:article_published_time' content='2017-10-23T09:00:31-07:00' />
+<meta name='shareaholic:article_modified_time' content='2017-10-23T10:54:55-07:00' />
+<meta name='shareaholic:shareable_page' content='true' />
+<meta name='shareaholic:article_author_name' content='Aaron Hutcherson' />
+<meta name='shareaholic:site_id' content='9686fb8504a82062c456cb680f4c8853' />
+<meta name='shareaholic:wp_version' content='8.4.4' />
+<meta name='shareaholic:image' content='http://www.simplyrecipes.com/wp-content/uploads/2017/09/2017-10-23-ChickenRiceSoup-6-1024x682.jpg' />
+<!-- Shareaholic Content Tags End -->
+<link rel='stylesheet' id='stcr-plugin-style-css'  href='http://www.simplyrecipes.com/wp-content/plugins/subscribe-to-comments-reloaded/includes/css/stcr-plugin-style.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='sr-styles-css'  href='http://www.simplyrecipes.com/wp-content/themes/simply/assets/css/style.min.css?ver=054766d0' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-modal-styles-css'  href='http://www.simplyrecipes.com/wp-content/themes/simply/assets/css/vendor/jquery.modal.min.css?ver=4.8.2' type='text/css' media='all' />
+<script type='text/javascript' id='fexy-flavorprint-main-js' data-fexy-flavorprint-cid='PK38xa7b8W4lEcaOjop326VydIwr9sSj6EBcFiYp' data-fexy-flavorprint-env='prod' src='http://www.simplyrecipes.com/wp-content/plugins/fexy-flavor-print/js/main.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script type='text/javascript' src='http://www.simplyrecipes.com/wp-content/plugins/subscribe-to-comments-reloaded/includes/js/stcr-plugin.js?ver=4.8.2'></script>
+<script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js'></script>
+<script type='text/javascript' src='http://www.simplyrecipes.com/wp-content/themes/simply/assets/js/plugins-shared.min.js?ver=689ede76'></script>
+<script type='text/javascript' src='http://www.simplyrecipes.com/wp-content/themes/simply/assets/js/plugins-desktop.min.js?ver=d61f1d16'></script>
+<script type='text/javascript' src='http://www.simplyrecipes.com/wp-content/themes/simply/assets/js/simply-recipes.min.js?ver=b3da808b'></script>
+<script type='text/javascript' src='http://www.simplyrecipes.com/wp-content/themes/simply/assets/js/vendor/jquery.modal.min.js'></script>
+<link rel="canonical" href="http://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/" />
+<script type="text/javascript">/* <![CDATA[ */if (!window["WPAC"]) var WPAC = {};WPAC._Options = {debug:false,selectorCommentForm:"#commentform",selectorCommentsContainer:"#comments",selectorCommentPagingLinks:"#comments [class^='nav-'] a",selectorCommentLinks:"#comments a[href*=\"/comment-page-\"]",selectorRespondContainer:"#respond",selectorErrorContainer:"p:parent",popupCornerRadius:5,popupMarginTop:80,popupWidth:50,popupPadding:5,popupFadeIn:400,popupFadeOut:400,popupTimeout:3000,popupBackgroundColorLoading:"#000",popupTextColorLoading:"#fff",popupBackgroundColorSuccess:"#008000",popupTextColorSuccess:"#fff",popupBackgroundColorError:"#f00",popupTextColorError:"#fff",popupOpacity:70,popupTextAlign:"center",popupTextFontSize:"Default font size",popupZindex:1000,scrollSpeed:500,autoUpdateIdleTime:0,textPosted:"Your comment has been posted. Thank you!",textPostedUnapproved:"Your comment has been posted and is awaiting moderation. Thank you!",textReloadPage:"Reloading page. Please wait&hellip;",textPostComment:"Posting your comment. Please wait&hellip;",textRefreshComments:"Loading comments. Please wait&hellip;",textUnknownError:"Something went wrong, your comment has not been posted.",selectorPostContainer:"",commentPagesUrlRegex:"",asyncLoadTrigger:"DomReady",disableUrlUpdate:false,disableScrollToAnchor:false,disableCache:false,enableByQuery:false,commentsEnabled:true,version:"1.5.0"};WPAC._Callbacks = {"beforeSelectElements": function(dom) {},"beforeUpdateComments": function(newDom, commentUrl) {},"afterUpdateComments": function(newDom, commentUrl) {$('img[data-image-url]').each(function(){var url = $(this).attr('data-image-url');$(this).css('background','none').attr('src', url);});},"beforeSubmitComment": function() {},"afterPostComment": function(commentUrl, unapproved) {}};/* ]]> */</script>    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" >	<!-- Begin comScore Tag -->
+	<script>
+	  var _comscore = _comscore || [];
+	  _comscore.push({ c1: "2", c2: "14627434" });
+	  (function() {
+	    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+	    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+	    el.parentNode.insertBefore(s, el);
+	  })();
+	</script>
+	<noscript>
+	  <img src="http://b.scorecardresearch.com/p?c1=2&c2=14627434&cv=2.0&cj=1" />
+	</noscript>
+	<!-- End comScore Tag -->
+	            <!-- Google Analytics -->
+            <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-10921550-1', 'auto');
+            ga('set', 'dimension3', 'recipe');
+            ga('send', 'pageview');
+
+            var sr_ga_nav_tracking = true;
+
+            </script>
+            <!-- End Google Analytics -->
+      <link rel="alternate" type="application/rss+xml" title="Simply Recipes Latest Posts" href="http://feedproxy.google.com/elise/simplyrecipes">
+      <link rel="icon" type="image/ico" href="http://www.simplyrecipes.com/favicon.ico">
+<meta name="pinterest-rich-pin" content="false"/>      <meta name="description" content="One-Pot Chicken and Rice Soup! Throw the chicken and vegetables in a pot and simmer until they're done. It's the easiest soup ever.">
+      <!-- Facebook Open Graph Tags -->
+      <meta property="og:site_name" content="Simply Recipes">
+      <meta property="fb:app_id" content="138323699531998">
+      <meta property="og:title" content="One-Pot Chicken and Rice Soup Recipe | SimplyRecipes.com">
+      <meta property="og:url" content="http://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/">
+      <meta property="og:description" content="One-Pot Chicken and Rice Soup! Throw the chicken and vegetables in a pot and simmer until they're done. It's the easiest soup ever.">
+      <meta property="og:image" content="http://www.simplyrecipes.com/wp-content/uploads/2017/09/2017-10-23-ChickenRiceSoup-6.jpg">
+      <meta property="og:type" content="article">
+      <!-- Twitter Card Tags -->
+      <meta property="twitter:card" content="summary_large_image">
+      <meta property="twitter:site" content="@simplyrecipes">
+      <meta property="twitter:creator" content="@simplyrecipes">
+      <meta property="twitter:title" content="One-Pot Chicken and Rice Soup Recipe | SimplyRecipes.com">
+      <meta property="twitter:image:src" content="http://www.simplyrecipes.com/wp-content/uploads/2017/09/2017-10-23-ChickenRiceSoup-6.jpg">
+      <meta property="twitter:url" content="http://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/">
+      <meta property="twitter:domain" content="http://www.simplyrecipes.com">
+      <meta property="twitter:description" content="One-Pot Chicken and Rice Soup! Throw the chicken and vegetables in a pot and simmer until they're done. It's the easiest soup ever.">
+
+<link rel="canonical" href="http://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/" />
+      <!-- Google+ Publisher Link -->
+      <link href="https://plus.google.com/+simplyrecipes" rel="publisher">
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "url": "http://www.simplyrecipes.com",
+    "logo": "http://www.simplyrecipes.com/wp-content/themes/simply/assets/i/logo-2x.png",
+    "sameAs" : [ "https://www.facebook.com/simplyrecipes",
+      "https://twitter.com/simplyrecipes",
+      "https://plus.google.com/+simplyrecipes/posts",
+      "https://pinterest.com/simplyrecipes/",
+      "https://instagram.com/simplyrecipes/"
+    ] 
+  }
+  </script>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+	<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+	<script>
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+	</script>
+
+	<script>
+		googletag.cmd.push(function() {
+	   var values = ['dinner', 'soup', 'soup_and_stew', 'seasonal_favorites_fall', 'seasonal_favorites_winter', '1-pot', 'comfort_food', 'freezer-friendly', 'make-ahead', 'quick', 'chicken', 'chicken_breast', 'rice', 'vegetables'];		var header_mapping = googletag.sizeMapping().
+			addSize([0, 0], []).
+			addSize([980, 200], [[970, 250], [970, 90], [728, 90]]).
+			build();
+		googletag.defineSlot('/11927475/SR_970x250_ATF', [[970, 250]], 'div-gpt-ad-1473263442105-1').defineSizeMapping(header_mapping).addService(googletag.pubads());
+  	  	googletag.pubads().setTargeting('cat', values);		googletag.defineSlot('/11927475/SR_Native_rightrail', [300, 400], 'div-gpt-ad-1475514991897-0').addService(googletag.pubads());        googletag.defineSlot('/11927475/SR_PrimeNow_Button', ['fluid'], 'div-gpt-ad-7799081459105-0').addService(googletag.pubads());
+        googletag.defineSlot('/11927475/SR_Ecommerce_Unit', [[1,1],'fluid'], 'div-gpt-ad-1501607487649-0').addService(googletag.pubads());    googletag.pubads().setTargeting("pagename","one_pot_chicken_and_rice_soup");
+    googletag.pubads().setTargeting("pageid","58008");
+            googletag.pubads().setTargeting("production", "True");
+
+        // Define the slot for wallpaper ad
+    googletag.defineOutOfPageSlot('/11927475/simplyrecipes_OOP', 'div-gpt-ad-1485992967258-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs(true, true);
+    googletag.enableServices();
+    
+});	var sr_sticky_ads = false;
+	var sr_mobile_ads = false;
+	var sr_is_sticky_mobile_ads = sr_sticky_ads || sr_mobile_ads;
+	</script>        <script type="text/javascript">
+          var MySlots = {};
+          var blogherads = blogherads || {};
+          blogherads.adq = blogherads.adq || [];
+          blogherads.adq.push(function() {
+            blogherads.setTargeting('production', 'True');
+            MySlots.sidebar1 = blogherads.defineResponsiveSlot([
+              [[1015, 0], 'Middle3'],
+              [[600, 0], 'Middle'],
+              [[0, 0], 'none']
+            ], 'blogher-sidebar-1');
+            MySlots.sidebar2 = blogherads.defineResponsiveSlot([
+              [[1015, 0], 'Middle3'],
+              [[600, 0], 'Middle'],
+              [[0, 0], 'none']
+            ], 'blogher-sidebar-2');
+    		MySlots.responsiveRightRail1 = blogherads.defineResponsiveSlot([
+              [[1024, 0], 'Middle3'],
+              [[767, 0], 'Middle'],
+              [[0, 0], 'none']
+            ], 'responsive-rightrail-1');
+    		MySlots.responsiveRightRail2 = blogherads.defineResponsiveSlot([
+              [[1024, 0], 'Middle3'],
+              [[767, 0], 'Middle'],
+              [[0, 0], 'none']
+            ], 'responsive-rightrail-2');
+    		MySlots.responsiveRightRail3 = blogherads.defineResponsiveSlot([
+              [[1024, 0], 'Middle3'],
+              [[767, 0], 'Middle'],
+              [[0, 0], 'none']
+            ], 'responsive-rightrail-3');
+          });
+          var blogherads = blogherads || {};
+          blogherads.adq = blogherads.adq || [];
+          (function(d) {
+            var bhads = d.createElement('script');
+            bhads.async = true; bhads.type = 'text/javascript';
+            bhads.src = '//ads.blogherads.com/19/198/header.js';
+            var node = d.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(bhads, node);
+          })(document);
+        </script>
+  	<script type="text/javascript">
+        typeof blogherads != "undefined" && blogherads.adq.push(function() {
+  	  		var values = ['dinner', 'soup', 'soup_and_stew', 'seasonal_favorites_fall', 'seasonal_favorites_winter', '1-pot', 'comfort_food', 'freezer-friendly', 'make-ahead', 'quick', 'chicken', 'chicken_breast', 'rice', 'vegetables'];
+  	  		blogherads.setTargeting('cat', values);
+  	  		blogherads.setTargeting('url', 'one_pot_chicken_and_rice_soup');
+  		});
+  	</script>
+  	</head>
+
+<body class="recipe-template-default single single-recipe postid-58008 recipe-one_pot_chicken_and_rice_soup">
+<div id="page" class="hfeed site">
+				<!-- /11927475/SR_970x250_ATF -->
+			<div style="text-align:center;line-height:0;">
+				<div id='div-gpt-ad-1473263442105-1' class="widget-ad" style="display:inline-block;margin:auto;line-height:0;">
+					<script>
+						googletag.cmd.push(function() { googletag.display('div-gpt-ad-1473263442105-1'); });
+					</script>
+				</div>
+			</div>
+			<a id="sr-wallpaper-anchor" class="hdr-wallpaper-anchor" href="#" target="_blank" rel="nofollow"><img src="" data-pin-no-hover="true"></a><div id="div-gpt-ad-1485992967258-0" style="height:0">    <script>        googletag.cmd.push(function() { googletag.display("div-gpt-ad-1485992967258-0"); });    </script></div>	<header id="masthead" class="site-header" role="banner">
+		<div class="container">
+			<div class="site-title"><a href="http://www.simplyrecipes.com/" title="Simply Recipes Food and Cooking Blog" rel="home">Simply Recipes Food and Cooking Blog<span class="site-brand"></span></a></div>			
+				<div class="site-search">
+				    <form role="search" method="get" action="http://www.simplyrecipes.com/" >
+						<label class="assistive-text" for="s">Search for:</label>
+						<input type="search" results=5 autosave="recipe_search" name="s" maxlength="255" class="sitesearch-field" placeholder="Search Simply Recipes...">
+						<input type="submit" class="sitesearch-button" value="Search">
+						<span class="sitesearch-button-label">Search</span>
+					</form>					
+				</div>
+			<div class="find-recipes">
+				<div class="find-recipes-action">Recipes</div>
+				<div class="find-recipes-panel">
+					<div class="find-recipes-overlay">
+						<div class="widget recipes-by-type"><h2 class="widgettitle">Recipe Categories</h2><div class="widget-panel"><section class="widget-section" id="taxonomy-main-ingredient"><h4>Main Ingredient</h4><ul><li><a href="http://www.simplyrecipes.com/recipes/ingredient/beef/">Beef</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/cheese/">Cheese</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/chicken/">Chicken</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/duck/">Duck</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/egg/">Egg</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/fish/">Fish</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/fish_and_seafood/">Fish and Seafood</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/lamb/">Lamb</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/pasta/">Pasta</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/pork/">Pork</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/rice/">Rice</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/seafood/">Seafood</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/turkey/">Turkey</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/vegetable/">Vegetables</a></li></ul></section><section class="widget-section" id="taxonomy-special_diet"><h4>Special Diet</h4><ul><li><a href="http://www.simplyrecipes.com/recipes/diet/gluten-free/">Gluten-Free</a></li><li><a href="http://www.simplyrecipes.com/recipes/diet/low_carb/">Low Carb</a></li><li><a href="http://www.simplyrecipes.com/recipes/diet/paleo/">Paleo</a></li><li><a href="http://www.simplyrecipes.com/recipes/diet/vegan/">Vegan</a></li><li><a href="http://www.simplyrecipes.com/recipes/diet/vegetarian/">Vegetarian</a></li></ul></section><section class="widget-section" id="taxonomy-course"><h4>Course</h4><ul><li><a href="http://www.simplyrecipes.com/recipes/course/appetizer/">Appetizer</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/breakfast_and_brunch/">Breakfast and Brunch</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/dessert/">Dessert</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/dinner/">Dinner</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/drink/">Drink</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/salad/">Salad</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/sandwich/">Sandwich</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/side_dish/">Side Dish</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/snack/">Snack</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/soup/">Soup</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/soup_and_stew/">Soup and Stew</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/stew/">Stew</a></li></ul></section><section class="widget-section" id="taxonomy-season"><h4>Season</h4><ul><li><a href="http://www.simplyrecipes.com/recipes/season/christmas/">Christmas</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/easter/">Easter</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/fourth-of-july/">Fourth of July</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/game-day/">Game Day</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/halloween/">Halloween</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/holiday/">Holiday</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/lent/">Lenten</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/mardi-gras/">Mardi Gras</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/mothers_day/">Mother's Day</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/new-years-day/">New Year's</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/passover/">Passover</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/seasonal_favorites_fall/">Fall</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/seasonal_favorites_spring/">Spring</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/seasonal_favorites_summer/">Summer</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/seasonal_favorites_winter/">Winter</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/st_patricks_day/">St. Patrick's Day</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/super_bowl/">Super Bowl</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/thanksgiving/">Thanksgiving</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/valentines_day/">Valentine's Day</a></li></ul></section><section class="widget-section" id="taxonomy-recipe-type"><h4>Recipe Type</h4><ul><li><a href="http://www.simplyrecipes.com/recipes/type/1-pot/">1-Pot</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/baking/">Baking</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/bbq/">BBQ</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/budget/">Budget</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/candy/">Candy</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/canning/">Canning</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/casserole/">Casserole</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/comfort_food/">Comfort Food</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/condiment/">Condiment</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/cookie/">Cookie</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/deep_fried/">Deep Fried</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/dip/">Dip</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/freezer-friendly/">Freezer-friendly</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/grill/">Grill</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/how_to/">How To</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/instant-pot/">Instant Pot</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/jams_and_jellies/">Jams and Jellies</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/kidfriendly/">Kid-friendly</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/make-ahead/">Make-ahead</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/microwave/">Microwave</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/panini/">Panini</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/pressure-cooker/">Pressure Cooker</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/quick/">Quick and Easy</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/salsa/">Salsa</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/sauce/">Sauce</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/sheet-pan-dinner/">Sheet Pan Dinner</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/slow_cooker/">Slow Cooker</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/sous-vide/">Sous Vide</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/stirfry/">Stir-fry</a></li></ul></section><section class="widget-section" id="taxonomy-cuisine"><h4>Cuisine</h4><ul><li><a href="http://www.simplyrecipes.com/recipes/cuisine/african/">African</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/basque/">Basque</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/belgian/">Belgian</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/brazilian/">Brazilian</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/cajun/">Cajun</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/chinese/">Chinese</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/cowboy/">Cowboy</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/creole/">Creole</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/danish/">Danish</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/ethiopian/">Ethiopian</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/french/">French</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/german/">German</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/greek/">Greek</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/hawaiian/">Hawaiian</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/hungarian/">Hungarian</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/indian/">Indian</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/irish/">Irish</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/italian/">Italian</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/jamaican/">Jamaican</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/japanese/">Japanese</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/jewish/">Jewish</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/korean/">Korean</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/mediterranean-diet/">Mediterranean Diet</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/mexican/">Mexican</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/mexican_and_tex_mex/">Mexican and Tex Mex</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/middle-eastern/">Middle Eastern</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/moroccan_cuisine/">Moroccan Cuisine</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/new_england/">New England</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/new_orleans/">New Orleans</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/new_zealand/">New Zealand</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/persian/">Persian</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/polish/">Polish</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/portuguese/">Portuguese</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/provencal/">Provencal</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/southern/">Southern</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/southwestern/">Southwestern</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/spanish/">Spanish</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/swedish/">Swedish</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/texmex/">TexMex</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/thai/">Thai</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/vietnamese/">Vietnamese</a></li></ul></section><a class="recipe-index" href="http://www.simplyrecipes.com/index/">Full Recipe Index</a></div></div>					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="main" class="site-main">
+		<div class="container"><script>document.addEventListener("DOMContentLoaded",function(){window.fexy.flavorprint.interaction.save("VIEW","58008");});</script>        <script>
+      if (document.referrer && document.referrer.startsWith('http://www.simplyrecipes.com') && (!window.performance || window.performance.navigation.type != 1)) {
+        document.addEventListener("DOMContentLoaded",function(){window.fexy.flavorprint.interaction.save("CLICK","58008");});
+      }
+    </script>
+    <div id="pin-page"></div>
+    <div id="primary" class="content-area">
+      <div id="content" class="site-content" role="main">
+
+                  <div class="recipe-outer" data-recipe-id="58008">
+
+            <article class="post-58008 recipe type-recipe status-publish has-post-thumbnail  ingredient-chicken ingredient-chicken_breast ingredient-rice ingredient-vegetables main-ingredient-chicken main-ingredient-vegetable course-dinner course-soup course-soup_and_stew recipe-type-1-pot recipe-type-comfort_food recipe-type-freezer-friendly recipe-type-make-ahead recipe-type-quick season-seasonal_favorites_fall season-seasonal_favorites_winter special_diet-gluten-free" itemscope itemtype="http://schema.org/Recipe">
+
+              <link itemprop="url" href="http://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/">
+              <meta itemprop="mainEntityOfPage" content="True">
+              <meta itemprop="description" content="One-Pot Chicken and Rice Soup! Throw the chicken and vegetables in a pot and simmer until they're done. It's the easiest soup ever.">
+<meta itemprop="image" content="http://www.simplyrecipes.com/wp-content/uploads/2017/09/2017-10-23-ChickenRiceSoup-6.jpg">
+
+              <header class="entry-header">
+
+                <h1 class="entry-title" itemprop="name">One-Pot Chicken and Rice Soup</h1>
+
+
+                <div class="entry-meta">
+                  
+    <span class="entry-byline">      by 
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <a rel="author" href="http://www.simplyrecipes.com/author/aaron-hutcherson/" itemprop="url"><span itemprop="name">Aaron Hutcherson</span></a>
+      </span>      on <time class="entry-date" datetime="2017-10-23T09:00:31+00:00" pubdate itemprop="datePublished" content="2017-10-23">October 23, 2017</time>
+    </span>
+                </div><!-- .entry-meta -->
+
+              </header><!-- .entry-header -->
+
+              <div class="entry-content">
+                <h2>
+                      <div class="meta-description-content">One-Pot Chicken and Rice Soup! Throw the chicken and vegetables in a pot and simmer until they're done. It's the easiest soup ever.</div>
+                </h2>
+                <!--Replacing print link with goto recipe <a href="http://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/print/" title="Print this recipe" rel="nofollow" class="print-link "><span>Print</span></a>-->
+                <a href="http://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/#recipe" title="Scroll down to the recipe" rel="nofollow" class="recipe-link" "><span>Go to Recipe</span></a>
+                <div class="featured-image"><img   src="http://www.simplyrecipes.com/wp-content/uploads/2017/09/2017-10-23-ChickenRiceSoup-5.jpg" class="photo" alt="One-Pot Chicken and Rice Soup" /></div>
+
+                  <div class="photo-credit">Photography Credit: 
+Aaron Hutcherson
+</div>
+
+                <div class="recipe-description"><p class="Normal1"><span lang="EN">This easy one-pot chicken and rice soup is one that definitely deserves to be in your collection. It&#8217;s just the thing for warming you up on a cold night, or providing comfort when you’re feeling under the weather. </span></p>
+<p class="Normal1"><span lang="EN">The best part? You literally throw all the ingredients in the pot and let them simmer in the stock until the soup is done. No sautéing or browning. So easy.</span><br />
+<span id="more-58008"></span></p>
+<p class="Normal1"><span lang="EN">For this recipe, I call for bone-in chicken breasts, which add more flavor than boneless, but without the skin. To prep, just pull away the skin and discard. </span></p>
+<p class="Normal1"><span lang="EN">If you prefer, boneless skinless chicken breasts or thighs can be substituted, but your soup will be less rich and flavorful.</span></p>
+<p class="Normal1"><span lang="EN"><img class="alignnone size-full wp-image-57997" src="http://www.simplyrecipes.com/wp-content/uploads/2017/09/2017-10-23-ChickenRiceSoup-3.jpg" alt="One-Pot Chicken and Rice Soup" width="2000" height="1333" />Also note that I prefer to use unsalted stocks in my cooking so that I can control how much salt I add. Homemade stock is best if you have it, of course, but also look for low-sodium or sodium-free stocks and broths at the grocery store. If you end up using regular, salted stock, then omit the salt added at the beginning of the recipe.</span></p>
+<p class="Normal1"><span lang="EN">This soup is finished with a swirl of garlic paste and some lemon juice to add a hint of brightness. Enjoy!</span></p>
+</div>
+
+                <div id="widget-ad-mid-comment-1" class="widget-ad ad-mid-comment">
+<!-- BLOGHER ADS Begin supplemental 300 ad -->
+<div id="blogherads-middle2-1"></div>
+<script type="text/javascript">
+    typeof blogherads != "undefined" && blogherads.adq.push(['Middle2', 'blogherads-middle2-1']);
+</script>
+<!-- End supplemental 300 ad -->
+</div>                <a name='recipe'></a>
+                <div id="sticky-sharing-anchor"></div>
+                <div id="sticky-sharing">
+                  <div id="sticky-sharing-in">
+                    <div id="sticky-sharing-bar">
+                      <div class='shareaholic-canvas share-buttons' data-app='share_buttons' data-app-id='7334109'></div>
+                      <!--<div class='social-warfare-canvas share-buttons'> </div>
+                      -->
+                      <div class="callout-badge">
+                        <a data-pin-do="buttonFollow" href="http://www.pinterest.com/simplyrecipes/" title="Follow Simply Recipes on Pinterest">Follow me on Pinterest</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                                                    <div id="sr-recipe-callout" class="recipe-callout">
+
+                    <h2>One-Pot Chicken and Rice Soup Recipe</h2>
+
+                    <a href="http://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/print/" title="Print this recipe" rel="nofollow" class="print-link top"><span>Print</span></a>
+                                          <div class="recipe-meta">
+                        <ul>
+                          <li class="recipe-prep"><span class="recipemeta-label">Prep time:</span> <span class="preptime" itemprop="prepTime" content="PT00H15M">15 minutes<span class="value-title" title="PT00H15M"></span></span></li><li class="recipe-cook"><span class="recipemeta-label">Cook time:</span> <span class="cooktime" itemprop="cookTime" content="PT00H30M">30 minutes<span class="value-title" title="PT00H30M"></span></span></li><li class="recipe-yield"><span class="recipemeta-label">Yield:</span> <span class="yield" itemprop="recipeYield">6 to 8 servings (makes about 3 quarts)</span></li>                        </ul>
+                      </div>
+                    
+                                          <div class="entry-details recipe-intronote">
+                        <p class="Normal1"><span lang="EN">Skip the salt if using salted stock or broth. Taste the soup at the end and add more salt if needed.</span></p>
+<p class="Normal1"><span lang="EN">This recipe calls for a classic mirepoix of carrots, onions, and celery for the vegetable base, but you can make this recipe your own by adding different vegetables, like fennel or cubes of butternut squash.</span></p>
+                      </div>
+                    
+                                          <div class="entry-details recipe-ingredients">
+                        <h3>Ingredients</h3>
+                        <ul>
+<li class="Normal1"><span lang="EN">2 bone-in chicken breasts, skin removed (1 to 1 1/2 pounds)</span></li>
+<li class="Normal1"><span lang="EN">1 cup long-grain white rice, like basmati</span></li>
+<li class="Normal1"><span lang="EN">2 celery ribs, diced small</span></li>
+<li class="Normal1"><span lang="EN">2 medium carrots, peeled and diced small</span></li>
+<li class="Normal1"><span lang="EN">1 onion, diced small</span></li>
+<li class="Normal1"><span lang="EN">2 cloves garlic, left whole</span></li>
+<li class="Normal1"><span lang="EN">1 teaspoon salt, plus more to taste (see Recipe Note)</span></li>
+<li class="Normal1"><span lang="EN">1/2 teaspoon ground black pepper</span></li>
+<li class="Normal1"><span lang="EN">2 quarts unsalted or low-sodium chicken stock</span></li>
+<li class="Normal1"><span lang="EN">Juice of 1/2 lemon (about 3 tablespoons)</span></li>
+<li class="Normal1"><span lang="EN">Chopped fresh parsley, for serving</span></li>
+</ul>
+
+                                              </div>
+                    
+                      
+<!-- /11927475/SR_PrimeNow_Button -->
+<div id='div-gpt-ad-7799081459105-0'><script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-7799081459105-0'); });
+</script></div>
+<div id="widget-ad-mid-comment-2" class="widget-ad ad-mid-comment">
+<!-- BLOGHER ADS Begin supplemental 300 ad -->
+<div id="blogherads-middle2-2"></div>
+<script type="text/javascript">
+    typeof blogherads != "undefined" && blogherads.adq.push(['Middle2', 'blogherads-middle2-2']);
+</script>
+<!-- End supplemental 300 ad -->
+</div>
+                    
+                    
+                    <div id="sr-recipe-method" class="entry-details recipe-method instructions">
+                      <h3>Method</h3>
+                      <div itemprop="recipeInstructions"><p><strong>1 Assemble the soup and bring to a simmer: </strong>Combine the chicken, white rice, celery, carrots, onions, garlic, salt, and pepper in a large pot. Add the chicken stock and bring to a boil over high heat.</p>
+<p>Once the soup is boiling, reduce the heat to keep the soup at a gentle simmer.</p>
+<p><img width="600" height="400" src="http://www.simplyrecipes.com/wp-content/uploads/2017/09/2017-10-23-ChickenRiceSoup-1-600x400.jpg" class="attachment-sr-venti size-sr-venti" alt="One-Pot Chicken and Rice Soup" /></p>
+<p><strong>2 Simmer for about 25 minutes: </strong>As the soup simmers, skim off any foam that collects on the surface with a spoon. Continue to simmer until the rice and vegetables are tender, about 25 minutes. Remove the soup from heat.</p>
+<p><strong>3 Shred the chicken and make the garlic paste: </strong>Remove the chicken and garlic cloves using a slotted spoon or tongs. Transfer the chicken breasts to a bowl and shred with two forks. Discard the bones. Return the shredded chicken to the pot.</p>
+<p>Smash the garlic cloves into a paste against a cutting board using a fork or the flat of your knife. Stir the paste back into the soup.</p>
+<p><img width="600" height="400" src="http://www.simplyrecipes.com/wp-content/uploads/2017/09/2017-10-23-ChickenRiceSoup-2-600x400.jpg" class="attachment-sr-venti size-sr-venti" alt="One-Pot Chicken and Rice Soup" /></p>
+<p><strong>4 Season and serve</strong>: Stir the lemon juice into to the soup, and taste. The soup should taste rich, barely salty, and with just a hint of lemon. Add more salt or lemon juice as needed until it tastes good to you.</p>
+<p>Divide among bowls and sprinkle with some parsley for serving.</p>
+<p>Leftovers will keep for about a week refrigerated, or up to 3 months frozen.</p>
+</div>
+                    </div>
+
+                    
+                    <div class="entry-details recipe-special-equipment">
+                                          </div>          
+
+                    <p class="dont-steal">
+                      <b>Hello!</b> All photos and content are copyright protected. Please do not use our photos without prior written permission. If you wish to republish this recipe, please rewrite the recipe in your own unique words and link back to <a href="http://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/" title="One-Pot Chicken and Rice Soup">One-Pot Chicken and Rice Soup</a> on Simply Recipes. <b>Thank you!</b>
+                    </p>
+
+                    <a href="http://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/print/" title="Print this recipe" rel="nofollow" class="print-link bottom"><span>Print</span></a>
+                  </div> <!-- end sr-recipe-callout -->
+                   <!-- End if method -->
+
+                  <div id="widget-ad-amazon-widget-middle" class="widget-ad ad-amazon-widget-middle">
+<!-- 11927475/SR_Ecommerce_Unit -->
+<div id='div-gpt-ad-1501607487649-0' class='fluid_iframe_container'>
+    <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1501607487649-0'); });
+    </script>
+</div>
+</div>
+                  <div class="recipe-hashtag">
+                    <p>If you make this recipe, snap a pic and hashtag it <b><a href="https://www.instagram.com/explore/tags/simplyrecipes/" titles="Instagram photos tagged with #SimplyRecipes" rel="nofollow">#simplyrecipes</a></b> — We love to see your creations on <a href="https://www.instagram.com/explore/tags/simplyrecipes/" title="Instagram photos tagged with #SimplyRecipes" rel="nofollow">Instagram</a>, <a href="https://www.facebook.com/hashtag/simplyrecipes" title="Facebook posts tagged with #SimplyRecipes" rel="nofollow">Facebook</a>, &amp; <a href="https://twitter.com/hashtag/simplyrecipes" title="Tweets tagged with #SimplyRecipes" rel="nofollow">Twitter</a>!</p>
+                  </div>
+
+                  <div id="sr-author-card">
+                    
+    <!--  ===============	Author Card    ===============	-->
+    <div class="author-card">
+        <div class="left-column">
+                    <a href="http://www.simplyrecipes.com/author/aaron-hutcherson/">
+			                <img class="profile" src="http://www.simplyrecipes.com/wp-content/uploads/2017/08/Aaron-Hutcherson-The-Hungry-Hutch-SQUARE.jpg" width="140" height="140" nopin="nopin">
+                        </a>             <div class="social-channels">
+                                    <a href="http://instagram.com/thehungryhutch" target="_blank"><img src="http://www.simplyrecipes.com/wp-content/themes/simply/assets/i/svg/instagram-channel.svg"></a>
+                                                	<a href="https://www.facebook.com/thehungryhutch/" target="_blank"><img src="http://www.simplyrecipes.com/wp-content/themes/simply/assets/i/svg/fb-channel.svg"></a>
+                                               	<a href="http://www.pinterest.com/thehungryhutch/" target="_blank"><img src="http://www.simplyrecipes.com/wp-content/themes/simply/assets/i/svg/pintrest-channel.svg"></a>
+                                                    <a href="https://twitter.com/thehungryhutch" target="_blank"><img src="http://www.simplyrecipes.com/wp-content/themes/simply/assets/i/svg/twitter-channel.svg"></a>
+                                            </div>
+        </div>
+        <div class="right-column">
+            <div class="name">Aaron Hutcherson</div>
+                        <p>Aaron or “Hutch” is the blogger behind <a href="http://www.thehungryhutch.com">The Hungry Hutch</a>, which features a delicious variety of savory and sweet recipes. He grew up in the Midwest, but has called New York City home for nearly a decade. </p>
+                            <p><a class="more" href="http://www.simplyrecipes.com/author/aaron-hutcherson/">More from Aaron</a></p>
+                    </div>
+	</div>
+
+	<!-- ===============   End Author Card    ===============	 -->   
+
+                      </div>
+
+                  
+              <div class="pin-image" style="display:none"><img src="http://www.simplyrecipes.com/wp-content/themes/simply/assets/i/blank.gif" alt="" data-pin-media="http://www.simplyrecipes.com/wp-content/uploads/2017/09/2017-10-23-ChickenRiceSoup-PIN-2v3.jpg" data-pin-description="One-Pot Chicken and Rice Soup! Throw the chicken and vegetables in a pot and simmer until they're done. Easiest soup ever. #soup #ChickenSoup #EasySoup #OnePot #EasyDinner"></div>              <div class="pin-image" style="display:none"><img src="http://www.simplyrecipes.com/wp-content/themes/simply/assets/i/blank-2.gif" alt="" data-pin-media="http://www.simplyrecipes.com/wp-content/uploads/2017/09/2017-10-23-ChickenRiceSoup-PIN-1v2.jpg" data-pin-description="One-Pot Chicken and Rice Soup! Throw the chicken and vegetables in a pot and simmer until they're done. Easiest soup ever. #soup #ChickenSoup #EasySoup #OnePot #EasyDinner"></div>              <div class="pin-image" style="display:none"><img src="http://www.simplyrecipes.com/wp-content/themes/simply/assets/i/blank-3.gif" alt="" data-pin-media="http://www.simplyrecipes.com/wp-content/uploads/2017/09/2017-10-23-ChickenRiceSoup-PIN-2.jpg" data-pin-description="One-Pot Chicken and Rice Soup! Throw the chicken and vegetables in a pot and simmer until they're done. Easiest soup ever. #soup #ChickenSoup #EasySoup #OnePot #EasyDinner"></div>
+              </div><!-- .entry-content -->
+
+              <div class="yarpp-related-wrapper">
+              <div class="finite-scroll-data"><div class='yarpp-related'>
+<script> var next_recipes = [ {id:'57522',url:'http://www.simplyrecipes.com/recipes/pressure_cooker_butternut_squash_soup/',title:'Pressure Cooker Butternut Squash Soup | SimplyRecipes.com' }, {id:'45542',url:'http://www.simplyrecipes.com/recipes/how_to_make_chicken_soup_in_the_pressure_cooker/',title:'How to Make Chicken Soup in the Pressure Cooker | SimplyRecipes.com' }, {id:'46660',url:'http://www.simplyrecipes.com/recipes/how_to_make_quick_and_easy_poached_chicken/',title:'How to Poach Chicken, the Quick and Easy Way | SimplyRecipes.com' }, {id:'46044',url:'http://www.simplyrecipes.com/recipes/chicken_tikka_masala/',title:'Chicken Tikka Masala | SimplyRecipes.com' }]</script>
+</div>
+</div>              </div> <!--yarp-related-wrapper #1-->
+
+              <footer class="entry-meta-bar">
+
+                <div class="category-bar"><span class="category-label">Filed under:</span> <span class="category-list"><span itemprop="recipeCategory"><a href="http://www.simplyrecipes.com/recipes/course/dinner/">Dinner</a></span>, <span itemprop="recipeCategory"><a href="http://www.simplyrecipes.com/recipes/course/soup/">Soup</a></span>, <span itemprop="recipeCategory"><a href="http://www.simplyrecipes.com/recipes/course/soup_and_stew/">Soup and Stew</a></span>, <span itemprop="recipeCategory"><a href="http://www.simplyrecipes.com/recipes/season/seasonal_favorites_fall/">Seasonal Favorites: Fall</a></span>, <span itemprop="recipeCategory"><a href="http://www.simplyrecipes.com/recipes/season/seasonal_favorites_winter/">Seasonal Favorites: Winter</a></span>, <span itemprop="recipeCategory"><a href="http://www.simplyrecipes.com/recipes/type/1-pot/">1-Pot</a></span>, <span itemprop="recipeCategory"><a href="http://www.simplyrecipes.com/recipes/type/comfort_food/">Comfort Food</a></span>, <span itemprop="recipeCategory"><a href="http://www.simplyrecipes.com/recipes/type/freezer-friendly/">Freezer-friendly</a></span>, <span itemprop="recipeCategory"><a href="http://www.simplyrecipes.com/recipes/type/make-ahead/">Make-ahead</a></span>, <span itemprop="recipeCategory"><a href="http://www.simplyrecipes.com/recipes/type/quick/">Quick and Easy</a></span>, <span itemprop="recipeCategory"><a href="http://www.simplyrecipes.com/recipes/diet/gluten-free/">Gluten-Free</a></span>, <span itemprop="recipeCategory"><a href="http://www.simplyrecipes.com/recipes/ingredient/chicken/">Chicken</a></span>, <span itemprop="recipeCategory"><a href="http://www.simplyrecipes.com/recipes/ingredient/chicken_breast/">Chicken Breast</a></span>, <span itemprop="recipeCategory"><a href="http://www.simplyrecipes.com/recipes/ingredient/rice/">Rice</a></span>, <span itemprop="recipeCategory"><a href="http://www.simplyrecipes.com/recipes/ingredient/vegetables/">Vegetables</a></span></span></div>
+
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/CommentAction">
+<meta itemprop="userInteractionCount" content="10">
+</div>
+              </footer><!-- .entry-meta -->
+            </article><!-- #post-58008 -->
+            
+            
+              <div id="sr-recipe-comments">
+              <div id="comments" class="comment-sampling-container"><h3 class="comments-title">Showing 4 of 10 Comments</h3><ul class="comment-sampling">
+		  <li class="comment" id="comment-109495">
+		    <header>
+		          		      <span class="comment-avatar">
+    		        <img alt='' src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-image-url='http://0.gravatar.com/avatar/f170dec677d09137f105169c51f3c018?s=50&#038;d=http%3A%2F%2Fwww.simplyrecipes.com%2Fwp-content%2Fthemes%2Fsimply%2Fassets%2Fi%2Fdefault-avatar.png&#038;r=g' srcset='http://0.gravatar.com/avatar/f170dec677d09137f105169c51f3c018?s=100&amp;d=http%3A%2F%2Fwww.simplyrecipes.com%2Fwp-content%2Fthemes%2Fsimply%2Fassets%2Fi%2Fdefault-avatar.png&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />    		      </span>
+		      		      <span class="comment-author">
+		        <cite class="fn">peggy</cite>
+		      </span><!-- .comment-author -->
+		    </header>
+
+		    <div class="comment-content"><p>If you make this in a slow cooker for four hours do you put it on low or high?</p>
+</div>
+
+			<footer>
+				<ul>
+                    <li class="comment-meta commentmetadata"><time pubdate datetime="2017-10-26T08:31:26+00:00-07:00" title="Thu, 26 Oct 2017 08:31:26 +0000">October 26, 2017</time></li>
+          					<li class="comment-reply-count"><span class="separator"> · <a href="http://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/comments/">1 Reply</a></li>				</ul>
+			</footer>
+		  </li>
+
+		
+		  <li class="comment" id="comment-109434">
+		    <header>
+		          		      <span class="comment-avatar">
+    		        <img alt='' src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-image-url='http://1.gravatar.com/avatar/a28f4d4da3c61fc65b12c6aa727fac3e?s=50&#038;d=http%3A%2F%2Fwww.simplyrecipes.com%2Fwp-content%2Fthemes%2Fsimply%2Fassets%2Fi%2Fdefault-avatar.png&#038;r=g' srcset='http://1.gravatar.com/avatar/a28f4d4da3c61fc65b12c6aa727fac3e?s=100&amp;d=http%3A%2F%2Fwww.simplyrecipes.com%2Fwp-content%2Fthemes%2Fsimply%2Fassets%2Fi%2Fdefault-avatar.png&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />    		      </span>
+		      		      <span class="comment-author">
+		        <cite class="fn">Teri smyth</cite>
+		      </span><!-- .comment-author -->
+		    </header>
+
+		    <div class="comment-content"><p>Sounds perfect for this time of year. I like to sauté vegies w bacon fat first to add more flavor. Yours is a healthier version.</p>
+</div>
+
+			<footer>
+				<ul>
+                    <li class="comment-meta commentmetadata"><time pubdate datetime="2017-10-24T09:41:37+00:00-07:00" title="Tue, 24 Oct 2017 09:41:37 +0000">October 24, 2017</time></li>
+          									</ul>
+			</footer>
+		  </li>
+
+		
+		  <li class="comment" id="comment-109426">
+		    <header>
+		          		      <span class="comment-avatar">
+    		        <img alt='' src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-image-url='http://2.gravatar.com/avatar/b124d35cb5ca52c6812d227fec9f9765?s=50&#038;d=http%3A%2F%2Fwww.simplyrecipes.com%2Fwp-content%2Fthemes%2Fsimply%2Fassets%2Fi%2Fdefault-avatar.png&#038;r=g' srcset='http://2.gravatar.com/avatar/b124d35cb5ca52c6812d227fec9f9765?s=100&amp;d=http%3A%2F%2Fwww.simplyrecipes.com%2Fwp-content%2Fthemes%2Fsimply%2Fassets%2Fi%2Fdefault-avatar.png&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />    		      </span>
+		      		      <span class="comment-author">
+		        <cite class="fn">Bebe</cite>
+		      </span><!-- .comment-author -->
+		    </header>
+
+		    <div class="comment-content"><p>I’m wondering why, if you’re going for rich taste, the skin is removed from the chicken.  Does it not add richness to the broth?</p>
+</div>
+
+			<footer>
+				<ul>
+                    <li class="comment-meta commentmetadata"><time pubdate datetime="2017-10-24T07:13:37+00:00-07:00" title="Tue, 24 Oct 2017 07:13:37 +0000">October 24, 2017</time></li>
+          					<li class="comment-reply-count"><span class="separator"> · <a href="http://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/comments/">1 Reply</a></li>				</ul>
+			</footer>
+		  </li>
+
+		
+		  <li class="comment" id="comment-109422">
+		    <header>
+		          		      <span class="comment-avatar">
+    		        <img alt='' src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-image-url='http://2.gravatar.com/avatar/5a4006b5f9923f6a9139a61ff869d78e?s=50&#038;d=http%3A%2F%2Fwww.simplyrecipes.com%2Fwp-content%2Fthemes%2Fsimply%2Fassets%2Fi%2Fdefault-avatar.png&#038;r=g' srcset='http://2.gravatar.com/avatar/5a4006b5f9923f6a9139a61ff869d78e?s=100&amp;d=http%3A%2F%2Fwww.simplyrecipes.com%2Fwp-content%2Fthemes%2Fsimply%2Fassets%2Fi%2Fdefault-avatar.png&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />    		      </span>
+		      		      <span class="comment-author">
+		        <cite class="fn">Lynn</cite>
+		      </span><!-- .comment-author -->
+		    </header>
+
+		    <div class="comment-content"><p>I&#8217;ve made this recipe before &#8211; but with wild rice and I throw in some herbs &#8211; bay leaf, rosemary, thyme, and sage to give it more flavor. You can also do it in a slow cooker for 4 hours and no need to take out the chicken to shred as it will fall apart on its own. Either way, it couldn&#8217;t be easier and it&#8217;s delicious and healthy!</p>
+</div>
+
+			<footer>
+				<ul>
+                    <li class="comment-meta commentmetadata"><time pubdate datetime="2017-10-24T05:18:29+00:00-07:00" title="Tue, 24 Oct 2017 05:18:29 +0000">October 24, 2017</time></li>
+          									</ul>
+			</footer>
+		  </li>
+
+		
+		  <li class="comment" id="comment-109417">
+		    <header>
+		          		      <span class="comment-avatar">
+    		        <img alt='' src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-image-url='http://1.gravatar.com/avatar/4a53a5b95ddeacd2768749cc921719fe?s=50&#038;d=http%3A%2F%2Fwww.simplyrecipes.com%2Fwp-content%2Fthemes%2Fsimply%2Fassets%2Fi%2Fdefault-avatar.png&#038;r=g' srcset='http://1.gravatar.com/avatar/4a53a5b95ddeacd2768749cc921719fe?s=100&amp;d=http%3A%2F%2Fwww.simplyrecipes.com%2Fwp-content%2Fthemes%2Fsimply%2Fassets%2Fi%2Fdefault-avatar.png&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />    		      </span>
+		      		      <span class="comment-author">
+		        <cite class="fn">Anita</cite>
+		      </span><!-- .comment-author -->
+		    </header>
+
+		    <div class="comment-content"><p>This is a must try, I&#8217;m not a big fun of soups but this looks delicious. I must give it a go this weekend.</p>
+</div>
+
+			<footer>
+				<ul>
+                    <li class="comment-meta commentmetadata"><time pubdate datetime="2017-10-24T03:05:34+00:00-07:00" title="Tue, 24 Oct 2017 03:05:34 +0000">October 24, 2017</time></li>
+          									</ul>
+			</footer>
+		  </li>
+
+		</ul></div><a href="http://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/comments/" class="comments-reveal unloaded">View More Comments / Leave a Comment</a><div id="comments-results"></div>              </div>
+
+              <div id="widget-ad-mid-content" class="widget-ad ad-mid-content">
+<!-- BLOGHER ADS Begin supplemental 300 ad -->
+<div id="blogherads-middle1-0"></div>
+<script type="text/javascript">
+  typeof blogherads != "undefined" && blogherads.adq.push(['Middle1', 'blogherads-middle1-0']);
+</script>
+<!-- End supplemental 300 ad -->
+</div>
+          </div><!-- .recipe-outer -->
+
+        
+                <div class="next_recipes">
+
+            <!-- Add the sticky the finite next recipe navigation (positioned in the left (or right) sidebar) -->
+            <div class="sidebar-related-entry">    <div class="sb-btn-top"><div class="up-icon">&rsaquo;</div><div class="sb-btn-top-text"></div></div>      <div class="sb-btn loaded" data-recipe-id="58008"><span class="related-thumb"><img width="180" height="120" src="http://www.simplyrecipes.com/wp-content/uploads/2017/09/2017-10-23-ChickenRiceSoup-6-180x120.jpg" class="attachment-sr-tall size-sr-tall wp-post-image" alt="One-Pot Chicken and Rice Soup" nopin="nopin" /></span><span class="related-title"><span>One-Pot Chicken and Rice Soup</span></span></div><div class='yarpp-related'>
+<div class="sb-btn hidden"><span class="related-thumb"><img width="180" height="120" src="http://www.simplyrecipes.com/wp-content/uploads/2017/09/2017-10-02-ButternutSquashSoup-LEAD-5-180x120.jpg" class="attachment-sr-tall size-sr-tall wp-post-image" alt="" nopin="nopin" /></span><span class="related-title"><span>Pressure Cooker Butternut Squash Soup</span></span></div><div class="sb-btn hidden"><span class="related-thumb"><img width="180" height="120" src="http://www.simplyrecipes.com/wp-content/uploads/2017/02/2017-02-22-PCChickenSoup-11-180x120.jpg" class="attachment-sr-tall size-sr-tall wp-post-image" alt="Pressure Cooker Chicken Soup" nopin="nopin" /></span><span class="related-title"><span>How to Make Chicken Soup in the Pressure Cooker</span></span></div><div class="sb-btn hidden"><span class="related-thumb"><img width="180" height="120" src="http://www.simplyrecipes.com/wp-content/uploads/2017/03/2017-03-06-Poached-Chicken-15-180x120.jpg" class="attachment-sr-tall size-sr-tall wp-post-image" alt="How To Quickly Cook Chicken on the Stovetop" nopin="nopin" /></span><span class="related-title"><span>How to Poach Chicken, the Quick and Easy Way</span></span></div><div class="sb-btn hidden"><span class="related-thumb"><img width="180" height="120" src="http://www.simplyrecipes.com/wp-content/uploads/2017/02/2017-02-27-ChickenTikkaMasala-18-180x120.jpg" class="attachment-sr-tall size-sr-tall wp-post-image" alt="" nopin="nopin" /></span><span class="related-title"><span>Chicken Tikka Masala</span></span></div>
+</div>
+</div><!-- sidebar-related-entry -->
+            <div id="next-recipe-insertion-point"></div>
+
+        </div><!-- next-recipes -->
+                <div class="yarpp-related-wrapper">
+        <div class='yarpp-related'>
+<div class="related-entry-thumbs">
+                <h3>You might also enjoy...</h3>
+            <ol>
+                        <li>
+                <a href="http://www.simplyrecipes.com/recipes/zucchini_noodle_chicken_pesto_bowl/" title="Zucchini Noodle Chicken Pesto Bowl">
+                    <span class="related-thumb"><img width="180" height="120" src="http://www.simplyrecipes.com/wp-content/uploads/2016/07/zucchini-noodle-chicken-pesto-bowl-horiz-a-1600-180x120.jpg" class="attachment-sr-tall size-sr-tall wp-post-image" alt="Zucchini Noodle Chicken Pesto Bowl" nopin="nopin" /></span>                    <span class="related-overlay"><span class="related-title">
+                      Zucchini Noodle Chicken Pesto Bowl                    </span></span>
+                  </a>
+            </li>
+                    <li>
+                <a href="http://www.simplyrecipes.com/recipes/spring_minestrone_soup/" title="Spring Minestrone Soup">
+                    <span class="related-thumb"><img width="180" height="120" src="http://www.simplyrecipes.com/wp-content/uploads/2011/05/spring-minestrone-horiz-a-16001-180x120.jpg" class="attachment-sr-tall size-sr-tall wp-post-image" alt="Spring Minestrone" nopin="nopin" /></span>                    <span class="related-overlay"><span class="related-title">
+                      Spring Minestrone Soup                    </span></span>
+                  </a>
+            </li>
+                    <li>
+                <a href="http://www.simplyrecipes.com/recipes/farro_mushroom_and_spinach_soup/" title="Farro, Mushroom, and Spinach Soup">
+                    <span class="related-thumb"><img width="180" height="120" src="http://www.simplyrecipes.com/wp-content/uploads/2017/01/2017-01-16-Farro-Mushrooms-Spinach-7-180x120.jpg" class="attachment-sr-tall size-sr-tall wp-post-image" alt="Farro with Mushrooms and Spinach" nopin="nopin" /></span>                    <span class="related-overlay"><span class="related-title">
+                      Farro, Mushroom, and Spinach Soup                    </span></span>
+                  </a>
+            </li>
+                    <li>
+                <a href="http://www.simplyrecipes.com/recipes/yellow_split_pea_soup/" title="Yellow Split Pea Soup">
+                    <span class="related-thumb"><img width="180" height="120" src="http://www.simplyrecipes.com/wp-content/uploads/2017/01/2017-02-06-Yellow-Split-Pea-Soup-6-180x120.jpg" class="attachment-sr-tall size-sr-tall wp-post-image" alt="Yellow Split Pea Soup" nopin="nopin" /></span>                    <span class="related-overlay"><span class="related-title">
+                      Yellow Split Pea Soup                    </span></span>
+                  </a>
+            </li>
+                    <li>
+                <a href="http://www.simplyrecipes.com/recipes/skillet_chicken_puttanesca/" title="Skillet Chicken Puttanesca">
+                    <span class="related-thumb"><img width="180" height="120" src="http://www.simplyrecipes.com/wp-content/uploads/2017/06/2017-07-12-ChickenPuttanesca-7-180x120.jpg" class="attachment-sr-tall size-sr-tall wp-post-image" alt="Skillet Chicken Puttanesca" nopin="nopin" /></span>                    <span class="related-overlay"><span class="related-title">
+                      Skillet Chicken Puttanesca                    </span></span>
+                  </a>
+            </li>
+                    <li>
+                <a href="http://www.simplyrecipes.com/recipes/maple_glazed_chicken_with_caramelized_onions_and_pears/" title="Maple-Glazed Chicken with Caramelized Onions and Pears">
+                    <span class="related-thumb"><img width="180" height="120" src="http://www.simplyrecipes.com/wp-content/uploads/2017/08/2017-09-18-Maple-Glazed-Chicken-1-180x120.jpg" class="attachment-sr-tall size-sr-tall wp-post-image" alt="Maple-Glazed Chicken with Caramelized Onions and Pears" nopin="nopin" /></span>                    <span class="related-overlay"><span class="related-title">
+                      Maple-Glazed Chicken with Caramelized Onions and Pears                    </span></span>
+                  </a>
+            </li>
+                </ol>
+    </div>
+</div>
+        </div> <!--yarp-related-wrapper #2-->
+
+
+      </div><!-- #content .site-content -->
+    </div><!-- #primary .content-area -->
+
+<div class="widget-area sidebar-left" role="complementary"><div id="recipesbytype-4" class="widget-odd widget-first widget-1 widget recipes-by-type"><h3 class="widget-title">Recipe Categories</h3><div class="widget-panel"><section class="widget-section active" id="taxonomy-featured"><h4>Featured</h4><ul id="menu-popular-archives" class="menu"><li id="menu-item-45434" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45434"><a href="http://www.simplyrecipes.com/recipes/season/halloween/viewed/">Halloween</a></li>
+<li id="menu-item-52305" class="menu-item menu-item-type-taxonomy menu-item-object-ingredient menu-item-52305"><a href="http://www.simplyrecipes.com/recipes/ingredient/chicken/">Chicken</a></li>
+<li id="menu-item-52307" class="menu-item menu-item-type-taxonomy menu-item-object-ingredient menu-item-52307"><a href="http://www.simplyrecipes.com/recipes/ingredient/beef/">Beef</a></li>
+<li id="menu-item-14942" class="menu-item menu-item-type-taxonomy menu-item-object-recipe-type current-recipe-ancestor current-menu-parent current-recipe-parent menu-item-14942"><a href="http://www.simplyrecipes.com/recipes/type/quick/">Quick and Easy</a></li>
+<li id="menu-item-14944" class="menu-item menu-item-type-taxonomy menu-item-object-recipe-type menu-item-14944"><a href="http://www.simplyrecipes.com/recipes/type/budget/">Budget</a></li>
+<li id="menu-item-46084" class="menu-item menu-item-type-taxonomy menu-item-object-recipe-type menu-item-46084"><a href="http://www.simplyrecipes.com/recipes/type/baking/">Baking</a></li>
+<li id="menu-item-46083" class="menu-item menu-item-type-taxonomy menu-item-object-recipe-type menu-item-46083"><a href="http://www.simplyrecipes.com/recipes/type/cookie/">Cookie</a></li>
+<li id="menu-item-52306" class="menu-item menu-item-type-taxonomy menu-item-object-ingredient menu-item-52306"><a href="http://www.simplyrecipes.com/recipes/ingredient/fish_and_seafood/">Fish and Seafood</a></li>
+<li id="menu-item-52308" class="menu-item menu-item-type-taxonomy menu-item-object-ingredient menu-item-52308"><a href="http://www.simplyrecipes.com/recipes/ingredient/pasta/">Pasta</a></li>
+<li id="menu-item-39410" class="menu-item menu-item-type-taxonomy menu-item-object-course menu-item-39410"><a href="http://www.simplyrecipes.com/recipes/course/dessert/">Dessert</a></li>
+<li id="menu-item-14945" class="menu-item menu-item-type-taxonomy menu-item-object-recipe-type menu-item-14945"><a href="http://www.simplyrecipes.com/recipes/type/how_to/">How To</a></li>
+</ul></section><section class="widget-section" id="taxonomy-main-ingredient"><h4>Main Ingredient</h4><ul><li><a href="http://www.simplyrecipes.com/recipes/ingredient/beef/">Beef</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/cheese/">Cheese</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/chicken/">Chicken</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/duck/">Duck</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/egg/">Egg</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/fish/">Fish</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/fish_and_seafood/">Fish and Seafood</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/lamb/">Lamb</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/pasta/">Pasta</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/pork/">Pork</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/rice/">Rice</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/seafood/">Seafood</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/turkey/">Turkey</a></li><li><a href="http://www.simplyrecipes.com/recipes/ingredient/vegetable/">Vegetables</a></li></ul></section><section class="widget-section" id="taxonomy-special_diet"><h4>Special Diet</h4><ul><li><a href="http://www.simplyrecipes.com/recipes/diet/gluten-free/">Gluten-Free</a></li><li><a href="http://www.simplyrecipes.com/recipes/diet/low_carb/">Low Carb</a></li><li><a href="http://www.simplyrecipes.com/recipes/diet/paleo/">Paleo</a></li><li><a href="http://www.simplyrecipes.com/recipes/diet/vegan/">Vegan</a></li><li><a href="http://www.simplyrecipes.com/recipes/diet/vegetarian/">Vegetarian</a></li></ul></section><section class="widget-section" id="taxonomy-course"><h4>Course</h4><ul><li><a href="http://www.simplyrecipes.com/recipes/course/appetizer/">Appetizer</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/breakfast_and_brunch/">Breakfast and Brunch</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/dessert/">Dessert</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/dinner/">Dinner</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/drink/">Drink</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/salad/">Salad</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/sandwich/">Sandwich</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/side_dish/">Side Dish</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/snack/">Snack</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/soup/">Soup</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/soup_and_stew/">Soup and Stew</a></li><li><a href="http://www.simplyrecipes.com/recipes/course/stew/">Stew</a></li></ul></section><section class="widget-section" id="taxonomy-season"><h4>Season</h4><ul><li><a href="http://www.simplyrecipes.com/recipes/season/christmas/">Christmas</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/easter/">Easter</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/fourth-of-july/">Fourth of July</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/game-day/">Game Day</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/halloween/">Halloween</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/holiday/">Holiday</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/lent/">Lenten</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/mardi-gras/">Mardi Gras</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/mothers_day/">Mother's Day</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/new-years-day/">New Year's</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/passover/">Passover</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/seasonal_favorites_fall/">Fall</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/seasonal_favorites_spring/">Spring</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/seasonal_favorites_summer/">Summer</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/seasonal_favorites_winter/">Winter</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/st_patricks_day/">St. Patrick's Day</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/super_bowl/">Super Bowl</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/thanksgiving/">Thanksgiving</a></li><li><a href="http://www.simplyrecipes.com/recipes/season/valentines_day/">Valentine's Day</a></li></ul></section><section class="widget-section" id="taxonomy-recipe-type"><h4>Recipe Type</h4><ul><li><a href="http://www.simplyrecipes.com/recipes/type/1-pot/">1-Pot</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/baking/">Baking</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/bbq/">BBQ</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/budget/">Budget</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/candy/">Candy</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/canning/">Canning</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/casserole/">Casserole</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/comfort_food/">Comfort Food</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/condiment/">Condiment</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/cookie/">Cookie</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/deep_fried/">Deep Fried</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/dip/">Dip</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/freezer-friendly/">Freezer-friendly</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/grill/">Grill</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/how_to/">How To</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/instant-pot/">Instant Pot</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/jams_and_jellies/">Jams and Jellies</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/kidfriendly/">Kid-friendly</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/make-ahead/">Make-ahead</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/microwave/">Microwave</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/panini/">Panini</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/pressure-cooker/">Pressure Cooker</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/quick/">Quick and Easy</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/salsa/">Salsa</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/sauce/">Sauce</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/sheet-pan-dinner/">Sheet Pan Dinner</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/slow_cooker/">Slow Cooker</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/sous-vide/">Sous Vide</a></li><li><a href="http://www.simplyrecipes.com/recipes/type/stirfry/">Stir-fry</a></li></ul></section><section class="widget-section" id="taxonomy-cuisine"><h4>Cuisine</h4><ul><li><a href="http://www.simplyrecipes.com/recipes/cuisine/african/">African</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/basque/">Basque</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/belgian/">Belgian</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/brazilian/">Brazilian</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/cajun/">Cajun</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/chinese/">Chinese</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/cowboy/">Cowboy</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/creole/">Creole</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/danish/">Danish</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/ethiopian/">Ethiopian</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/french/">French</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/german/">German</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/greek/">Greek</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/hawaiian/">Hawaiian</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/hungarian/">Hungarian</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/indian/">Indian</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/irish/">Irish</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/italian/">Italian</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/jamaican/">Jamaican</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/japanese/">Japanese</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/jewish/">Jewish</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/korean/">Korean</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/mediterranean-diet/">Mediterranean Diet</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/mexican/">Mexican</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/mexican_and_tex_mex/">Mexican and Tex Mex</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/middle-eastern/">Middle Eastern</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/moroccan_cuisine/">Moroccan Cuisine</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/new_england/">New England</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/new_orleans/">New Orleans</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/new_zealand/">New Zealand</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/persian/">Persian</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/polish/">Polish</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/portuguese/">Portuguese</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/provencal/">Provencal</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/southern/">Southern</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/southwestern/">Southwestern</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/spanish/">Spanish</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/swedish/">Swedish</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/texmex/">TexMex</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/thai/">Thai</a></li><li><a href="http://www.simplyrecipes.com/recipes/cuisine/vietnamese/">Vietnamese</a></li></ul></section><a class="recipe-index" href="http://www.simplyrecipes.com/index/">Full Recipe Index</a></div></div><div id="custom_post_widget-33" class="widget-even widget-2 widget-fbs widget-borderless widget widget_custom_post_widget"><div id="fbs-widget-content"></div>
+</div><div id="custom_post_widget-19" class="widget-odd widget-3 widget-converter widget widget_custom_post_widget"><h3 class="widget-title">Measurement Converter</h3><br />
+<form target="_blank" action="http://www.google.com/search"> <input type="text" size="18" maxlength="255" value="half pound in grams" name="q" onclick="clickclear(this, 'half pound in grams')" onblur="clickrecall(this,'half pound in grams')" class="field"><br /> <input id="submit" type="submit" value="Convert" name="sa" class="button"><br /> </form>
+<p><a href="http://www.simplyrecipes.com/converter/" onclick="window.open('/converter/','popup','width=500,height=700,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=100,top=100'); return false">(How to use the Converter)</a></p>
+</div><div id="custom_post_widget-35" class="widget-even widget-4 widget-discover widget widget_custom_post_widget"><h3 class="widget-title">Discover More</h3><ul>
+<li><a href="http://www.simplyrecipes.com/subscribe/">Subscribe</a> to new recipes for FREE!</li>
+<li>Follow <a href="http://www.twitter.com/simplyrecipes">Simply Recipes</a> or get <a href="http://twitter.com/recipeupdates/" rel="nofollow">recipe updates</a> on Twitter</li>
+<li><a href="http://www.simplyrecipes.com/press/" rel="nofollow">Press and Awards</a></li>
+</ul>
+</div><div id="custom_post_widget-73" class="widget-odd widget-last widget-5 widget-flc widget-borderless widget widget_custom_post_widget"><p><a title="Donate to the Food Literacy Center" href="http://foodliteracycenter.org/"></p>
+<div class="image-cflc"></div>
+<p></a></p>
+</div></div><div class="widget-area sidebar-right" role="complementary"><div class="welcome-widget widget"><div class="welcome-text"><h3 class="widget-title">Welcome to Simply Recipes</h3><div class="welcome-image"><a href="http://www.simplyrecipes.com/about/"><img src="http://www.simplyrecipes.com/wp-content/themes/simply/assets/i/elise-welcome.jpg" height="120" width="120" alt="Elise Bauer" nopin="nopin"></a></div><p>Thank you for stopping by! We love to share wholesome and delicious recipes, perfect for home cooked family meals.</p>
+
+<p><em><a href="/about/" title="Elise Bauer">More About Simply Recipes</a></em></p></div>            <div id="sticky-social-anchor"></div>
+            <div class="social-lockup" id="sticky-social">
+                <div class="social-links">
+                    <ul>
+                        <li class="social-facebook"><a href="https://www.facebook.com/simplyrecipes" title="Simply Recipes on Facebook">Simply Recipes on Facebook</a></li>
+                        <li class="social-pinterest"><a href="http://pinterest.com/simplyrecipes/" title="Simply Recipes on Pinterest">Simply Recipes on Pinterest</a></li>
+                        <li class="social-twitter"><a href="https://twitter.com/simplyrecipes" title="Simply Recipes on Twitter">Simply Recipes on Twitter</a></li>
+                        <li class="social-ig"><a href="https://instagram.com/simplyrecipes/" title="Simply Recipes on Instagram">Simply Recipes on Instagram</a></li>
+                        <li class="social-snapchat"><a href="https://snapchat.com/add/simplyrecipes" title="Simply Recipes on Snapchat">Simply Recipes on Snapchat</a></li>
+                    </ul>
+                </div>
+                <div class="email-subscribe">
+                    <p>Never miss a recipe!</p>
+                    <form id="subs-newsletter-form" class="subs-email-subscribe">
+                        <div class="subs-email-field">
+                            <div class="field-holder"><input id="subs-newsletter-email" class="subs-email-field" type="text" maxlength="100" name="email" size="18" placeholder="Your email address"></div>
+                            <div id="subs-newsletter-error" class="subs-email-error">Sorry, our subscription service is unavailable. Please try again later.</div>
+                            <div id="subs-newsletter-success" class="subs-email-success">You're signed up, check your email!</div>
+                        </div>
+                        <div class="subs-email-submit">
+                            <button id="subs-newsletter-submit" name="submit"><span>Sign me up</span></button>
+                        </div>
+                     </form>
+                </div>
+            </div>
+
+        </div>            <div class="fexy-video-widget widget" data-video-widget="59f714c13ae8b" data-video-widget-autoplay="in_view" data-video-widget-muted="yes" data-video-widget-randomize="yes">
+                                    <h3 class="fexy-video-widget-title widget-title">
+                        <span class="fexy-video-widget-play-icon"></span>
+                        <span class="fexy-video-widget-caption">Popular Videos</span>
+                    </h3>
+                                <div id="sr-video" style="display:block; position:relative; max-width:100%">
+                <div style="padding-top:56.25%;">
+                    <video id="59f714c13ae8b" data-playlist-id="5540948005001"
+                        data-account="5344802155001"
+                        data-player="HJeBZkYjvW"
+                        data-embed="default"
+                        class="video-js"
+                                                                        controls
+                        style="width:100%; height:100%; position:absolute; top:0px; bottom:0px; right:0px; left:0px;">
+                    </video>
+                    <script src="//players.brightcove.net/5344802155001/HJeBZkYjvW_default/index.min.js"></script>
+                </div>
+            </div>
+                            <div class="fexy-video-widget-caption-box">
+                    <div class="fexy-video-widget-link-box">
+                        <h3 class="fexy-video-widget-link widget-title"><a id="59f714c13ae8b-link" href=""></a></h3>
+                    </div>
+                    <div class="fexy-video-widget-button-box">
+                        <a class="fexy-video-widget-button-link" id="59f714c13ae8b-button" href=""><button class="fexy-video-widget-button" name="submit"><span>Get Recipe &raquo;</span></button></a>
+                    </div>
+                </div>
+            </div>
+            <div id="widget-ad-sidebar-single-1" class="widget-ad ad-sidebar-single-1">
+<!-- BLOGHER 300x600 Main Right Rail Ad -->
+<div id="responsive-rightrail-1"></div>
+<!-- End 300x600 Main Ad -->
+</div><div id="inseason-3" class="widget-even widget-4 widget-in-season widget-borderless widget in-season"><a href="http://www.simplyrecipes.com/recipes/month/october/" title="An archive of all October recipes."><div class="featured-image"><img width="180" height="120" src="http://www.simplyrecipes.com/wp-content/uploads/2012/10/roasted-broccoli-horiz-close-1200-180x120.jpg" class="photo wp-post-image" alt="Roasted Broccoli" nopin="nopin" /><img width="180" height="120" src="http://www.simplyrecipes.com/wp-content/uploads/2012/10/squid-ink-pasta-pumpkin-a-180x120.jpg" class="photo wp-post-image" alt="" nopin="nopin" /><img width="180" height="120" src="http://www.simplyrecipes.com/wp-content/uploads/2012/10/celery-stir-fry-horiz-a-2000-180x120.jpg" class="photo wp-post-image" alt="Celery Stir Fry" nopin="nopin" /><img width="180" height="120" src="http://www.simplyrecipes.com/wp-content/uploads/2012/10/southern-cornbread-horiz-a-2000-180x120.jpg" class="photo wp-post-image" alt="Southern Cornbread" nopin="nopin" /></div><h3 class="widget-title">What's in Season?</h3><p>Browse all of our <b>October</b> recipes.</p></a></div><div id="widget-ad-sidebar-single-2" class="widget-ad ad-sidebar-single-2">
+<!-- BLOGHER || Former Main ad -->
+<div id="blogher-sidebar-1"></div>
+</div><div id="widget-ad-sidebar-single-3" class="widget-ad ad-sidebar-single-3">
+<!-- BLOGHER || Supplemental Ad -->
+<div id="blogher-sidebar-2"></div>
+</div><div id="widget-ad-sidebar-single-4" class="widget-ad ad-sidebar-single-4">
+<!-- BLOGHER 300x600 Second Right Rail Ad -->
+<div id="responsive-rightrail-2"></div>
+<!-- End 300x600 Main Ad -->
+</div><div id="widget-ad-sidebar-single-5" class="widget-ad ad-sidebar-single-5">
+<!-- /11927475/SR_Native_rightrail -->
+<div id='div-gpt-ad-1475514991897-0' style='height:400px; width:300px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475514991897-0'); });
+</script>
+</div>
+</div><div id="widget-ad-sidebar-sticky" class="widget-ad ad-sidebar-sticky">
+<!-- BLOGHER 300x600 Third Right Rail Ad -->
+<div id="responsive-rightrail-3"></div>
+<!-- End 300x600 Main Ad -->
+</div></div>
+		</div>
+	</div>
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="container">
+
+						<div class="site-info">
+								<span class="site-byline">Simply Recipes &copy;2003-2017 <br>Simply Recipes, Inc., by <a href="http://fexy.com/" title="About Fexy" rel="nofollow">Fexy Media, Inc.</a></span> <span class="separator">|</span> <span class="site-links"><a href="http://www.simplyrecipes.com/about/" title="About Simply Recipes" rel="nofollow">About</a> | <a href="http://www.simplyrecipes.com/advertise/" title="Advertise on Simply Recipes" rel="nofollow">Advertise</a> | <a href="http://www.simplyrecipes.com/privacy/" title="Simply Recipes Privacy Policy" rel="nofollow">Privacy Policy</a></span>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script type='text/javascript' defer async src='https://cdn001.milotree.com/container/005292milotree.js?ver=1.2.0'></script>
+<script type='text/javascript' src='http://www.simplyrecipes.com/wp-content/plugins/wp-ajaxify-comments/js/wp-ajaxify-comments.min.js?ver=1.5.0'></script>
+<script type='text/javascript' src='http://www.simplyrecipes.com/wp-content/themes/simply/assets/js/tools.min.js?ver=ac5eb5f1'></script>
+<script type='text/javascript' src='http://www.simplyrecipes.com/wp-content/themes/simply/assets/js/recipe.min.js?ver=f2283ff0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajax_object = {"ajax_url":"http:\/\/www.simplyrecipes.com\/wp-admin\/admin-ajax.php","action":"recipe_request"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.simplyrecipes.com/wp-content/themes/simply/assets/js/load-recipe-ajax.jquery.min.js?ver=2ed12a55'></script>
+<script async defer src="//assets.pinterest.com/js/pinit.js" data-pin-hover="true" data-pin-height="28" data-pin-color="red" data-pin-build="parsePinBtns"></script>    <!-- BEGIN Tynt Script -->
+    <script type="text/javascript">
+    if(document.location.protocol=='http:'){
+     var Tynt=Tynt||[];Tynt.push('b3CrWUmRKr5j87acwqm_6r');
+     (function(){var s=document.createElement('script');s.defer="defer";s.async="async";s.type="text/javascript";s.src='http://tcr.tynt.com/ti.js';var h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})();
+    }
+    </script>
+    <!-- END Tynt Script -->
+
+</body>
+</html>
+
+<!-- ip-172-31-22-104 -->
+<!-- 2017-10-30T12:02:09+00:00 -->
+
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using disk
+Application Monitoring using New Relic
+Fragment Caching 0/0 fragments using disk
+
+ Served from: www.simplyrecipes.com @ 2017-10-30 05:02:09 by W3 Total Cache -->

@@ -1,4 +1,7 @@
 import re
+from functools import wraps
+
+from bs4.element import NavigableString
 
 
 TIME_REGEX = re.compile(
@@ -6,14 +9,20 @@ TIME_REGEX = re.compile(
 )
 
 
-def get_minutes(dom_element):
+def get_minutes(element):
     try:
-        tstring = dom_element.get_text()
-        if '-' in tstring:
-            tstring = tstring.split('-')[1]  # some time formats are like this: '12-15 minutes'
-        matched = TIME_REGEX.search(tstring)
+
+        if type(element) is NavigableString:
+            matched = TIME_REGEX.search(element)
+        else:
+            tstring = element.get_text()
+            if '-' in tstring:
+                tstring = tstring.split('-')[1]  # some time formats are like this: '12-15 minutes'
+            matched = TIME_REGEX.search(tstring)
+
         minutes = int(matched.groupdict().get('minutes') or 0)
         minutes += 60 * int(matched.groupdict().get('hours') or 0)
+
         return minutes
     except AttributeError:  # if dom_element not found or no matched
         return 0
@@ -27,3 +36,25 @@ def normalize_string(string):
             '\n', ' ').replace(
             '\t', ' ').strip()
     )
+
+
+def on_exception_return(to_return):
+    """
+    On unpredicted exception retunr `to_return` provided in the decorator.
+    Still raise some specific errors (as NotImplementedError listed here)
+
+    This is needed due to not being able to predict what elements can be missing
+    from the DOM and not being able to foresee all the possible erorrs from bs4
+    """
+    def decorate(decorated_function):
+        @wraps(decorated_function)
+        def wrap(*args, **kwargs):
+            try:
+                result = decorated_function(*args, **kwargs)
+                return result
+            except NotImplementedError as e:
+                raise e
+            except Exception:
+                return to_return
+        return wrap
+    return decorate

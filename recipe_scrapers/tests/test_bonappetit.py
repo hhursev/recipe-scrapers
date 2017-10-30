@@ -12,7 +12,7 @@ class TestBonAppetitScraper(unittest.TestCase):
             'recipe_scrapers',
             'tests',
             'test_data',
-            'bonappetit.html'
+            'bonappetit.testhtml'
         )) as file_opened:
             self.harvester_class = BonAppetit(file_opened, test=True)
 
@@ -25,7 +25,7 @@ class TestBonAppetitScraper(unittest.TestCase):
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            'Red Wine-Braised Short Ribs'
+            'Pork Chops with Celery and Almond Salad'
         )
 
     def test_total_time(self):
@@ -37,28 +37,25 @@ class TestBonAppetitScraper(unittest.TestCase):
     def test_ingredients(self):
         self.assertListEqual(
             [
-                '5 pounds bone-in beef short ribs, cut crosswise into 2-inch pieces',
-                'Kosher salt and freshly ground black pepper',
-                '3 tablespoons vegetable oil',
-                '3 medium onions, chopped',
-                '3 medium carrots, peeled, chopped',
-                '2 celery stalks, chopped',
-                '3 tablespoons all-purpose flour',
-                '1 tablespoon tomato paste',
-                '1 750 ml bottle dry red wine (preferably Cabernet Sauvignon)',
-                '10 sprigs flat-leaf parsley',
-                '8 sprigs thyme',
-                '4 sprigs oregano',
-                '2 sprigs rosemary',
-                '2 fresh or dried bay leaves',
-                '1 head of garlic, halved crosswise',
-                '4 cups low-salt beef stock'
+                '¼ cup dried unsweetened cranberries',
+                '3 tablespoons unseasoned rice vinegar',
+                '2 1½-inch-thick bone-in pork rib chops (about 1 pound each), patted dry',
+                'Kosher salt',
+                '4 tablespoons extra-virgin olive oil, divided',
+                '3 sprigs thyme',
+                '3 garlic cloves, smashed',
+                '3 tablespoons unsalted butter, cut into pieces',
+                '1 small shallot, finely chopped',
+                '6 large or 8 medium celery stalks, thinly sliced on a diagonal',
+                '½ cup parsley leaves with tender stems',
+                '¼ cup chopped salted, dry-roasted almonds',
+                '1 ounce Parmesan, shaved'
             ],
             self.harvester_class.ingredients()
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            'Preheat oven to 350°. Season short ribs with salt and pepper. Heat oil in a large Dutch oven over medium-high. Working in 2 batches, brown short ribs on all sides, about 8 minutes per batch. Transfer short ribs to a plate. Pour off all but 3 Tbsp. drippings from pot.\nAdd onions, carrots, and celery to pot and cook over medium-high heat, stirring often, until onions are browned, about 5 minutes. Add flour and tomato paste; cook, stirring constantly, until well combined and deep red, 2-3 minutes. Stir in wine, then add short ribs with any accumulated juices. Bring to a boil; lower heat to medium and simmer until wine is reduced by half, about 25 minutes. Add all herbs to pot along with garlic. Stir in stock. Bring to a boil, cover, and transfer to oven.\nCook until short ribs are tender, 2–2½ hours. Transfer short ribs to a platter. Strain sauce from pot into a measuring cup. Spoon fat from surface of sauce and discard; season sauce to taste with salt and pepper. Serve in shallow bowls over mashed potatoes with sauce spooned over.',
+            'Combine cranberries and vinegar in a small bowl and set aside.\nSeason pork generously with salt, then rub with 1 Tbsp. oil total. Heat a dry medium skillet, preferably cast iron, over medium. Cook pork chops, moving once or twice to hotter areas of skillet, until first side is deeply browned, 6–9 minutes. Turn pork chops and cook until second sides are browned, about 5 minutes. Working one at a time, set chops on fatty side with tongs to melt and brown fat cap, about 1 minute each. At this point an instant-read thermometer inserted into the center of each chop should register 135°.\nAdd thyme, garlic, and butter to skillet and swirl to melt butter. Tilt skillet toward you so butter pools in the pan and spoon foaming butter over chops continuously until butter is browned, about 1 minute. Transfer pork chops, thyme, and garlic to a cutting board and let meat rest while you assemble the salad.\nCombine shallot and a couple of pinches of salt in a large bowl. Pour vinegar from reserved cranberries into bowl. Whisking constantly, gradually add remaining 3 Tbsp. oil. Add cranberries, celery, parsley, almonds, Parmesan, and several pinches of salt; toss to combine.\nCut along bones to remove meat from pork chops; slice meat ½" thick. Transfer meat and bones to a platter along with garlic and thyme, then drizzle any accumulated juices left on cutting board over top. Serve with salad.',
             self.harvester_class.instructions()
         )

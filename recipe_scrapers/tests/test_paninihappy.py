@@ -12,7 +12,7 @@ class TestPaniniHappyScraper(unittest.TestCase):
             'recipe_scrapers',
             'tests',
             'test_data',
-            'paninihappy.html'
+            'paninihappy.testhtml'
         )) as file_opened:
             self.harvester_class = PaniniHappy(file_opened, test=True)
 
