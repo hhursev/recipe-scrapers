@@ -8,11 +8,7 @@ python:
   - "3.6"
 
 install:
-  - pip install beautifulsoup4==4.4.0 coverage==3.7.1 coveralls
-
-before_script:
-  - curl -L -o test_data.zip https://www.dropbox.com/sh/wkxm933pae6q0e6/AAAXSinoeSn1-fz5Fz_LHhM6a?dl=1
-  - unzip test_data.zip -d recipe_scrapers/tests/test_data || true
+  - pip install beautifulsoup4>=4.4.0 coverage==3.7.1 coveralls
 
 script:
   - coverage run tests.py
