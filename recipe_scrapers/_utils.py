@@ -1,4 +1,5 @@
 import re
+from functools import wraps
 
 from bs4.element import NavigableString
 
@@ -35,3 +36,25 @@ def normalize_string(string):
             '\n', ' ').replace(
             '\t', ' ').strip()
     )
+
+
+def on_exception_return(to_return):
+    """
+    On unpredicted exception retunr `to_return` provided in the decorator.
+    Still raise some specific errors (as NotImplementedError listed here)
+
+    This is needed due to not being able to predict what elements can be missing
+    from the DOM and not being able to foresee all the possible erorrs from bs4
+    """
+    def decorate(decorated_function):
+        @wraps(decorated_function)
+        def wrap(*args, **kwargs):
+            try:
+                result = decorated_function(*args, **kwargs)
+                return result
+            except NotImplementedError as e:
+                raise e
+            except Exception:
+                return to_return
+        return wrap
+    return decorate
