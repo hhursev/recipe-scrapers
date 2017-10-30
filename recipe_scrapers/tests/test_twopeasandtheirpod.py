@@ -25,34 +25,41 @@ class TestTwoPeasAndTheirPodScraper(unittest.TestCase):
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            'Red Velvet Cheesecake Cookies'
+            'Baked Chicken Taquitos '
         )
 
     def test_total_time(self):
         # as it is written '12-15 minutes in our test case'
         self.assertEqual(
-            13,
+            40,
             self.harvester_class.total_time()
         )
 
     def test_ingredients(self):
         self.assertListEqual(
             [
-                '1 box red velvet cake mix (I used Duncan Hines)',
-                '2 tablespoons all-purpose flour',
-                '2 large eggs',
-                '1/2 cup canola oil',
-                '1 teaspoon vanilla extract',
-                '4 oz cream cheese, at room temperature',
-                '2 cups powdered sugar',
-                '1 teaspoon vanilla extract',
-                '1 1/2 cups white chocolate chips, melted'
+                '2 cups shredded chicken (we use rotisserie chicken)',
+                '1/2 teaspoon ground cumin',
+                '1/2 teaspoon ground chili powder',
+                '1/2 teaspoon kosher salt',
+                '1/4 teaspoon garlic powder',
+                '1/4 teaspoon paprika',
+                '2 teaspoons fresh lime juice',
+                '1 cup shredded cheddar or Mexican blend cheese',
+                '20 corn tortillas',
+                'Shredded lettuce',
+                'Diced tomatoes',
+                'Guacamole',
+                'Sour Cream',
+                'Chopped Green Onion',
+                'Crumbled Queso Fresco',
+                'Salsa'
             ],
             self.harvester_class.ingredients()
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            "1. To make cookies, in a large bowl combine cake mix and flour. Whisk until clumps disappear. In the bowl of a stand mixer, mix together cake mix, flour, eggs, oil and vanilla extract. Mix until smooth. Wrap the dough in plastic wrap. The dough will be oily. Refrigerate for at least two hours.\n2. To make the cheesecake filling, using a mixer, combine cream cheese, powdered sugar, and vanilla extract. Mix until smooth. Using a teaspoon, scoop out cheesecake filling and place on a plate. Continue scooping out cheesecake filling into teaspoon balls until you have 10. Place plate in the freezer and freeze for at least two hours.\n3. Preheat oven to 350 degrees F. Line a large baking sheet with parchment paper or a silicone baking mat. To assemble the cookies, take about 1/4 cup of red velvet cookie dough and flatten in your hands. Place a teaspoon of cheesecake filling in the center and wrap the cookie dough around the filling. Gently roll into a ball and place on prepared baking sheet. Scoop onto lightly greased or parchment lined baking sheets. Only bake 3 cookies at a time. The cookies are large and will spread. Bake for 11-13 minutes or until the cookies begin to crackle. Let the cookies cool on the baking sheet for 5 minutes. Remove from baking sheet to a wire cooling rack and cool completely.\n4. Melt the white chocolate chips in a microwave safe bowl or over a double-boiler. Drizzle the white chocolate over the cooled cookies. Let the cookies set until the chocolate hardens. Serve and enjoy!\nNote: if you are going to store the cookies for more than a day, you may want to keep them in the refrigerator. You can make the cookies smaller. Just use less dough and filling. You want to make sure you completely wrap the cookie dough around the filling before baking-so it doesn't leak. Enjoy!",
+            'Preheat the oven to 425 degrees F. Spray a large baking sheet with nonstick cooking spray and set aside.\nIn a medium bowl, combine the shredded chicken with the cumin, chili powder, salt, garlic powder, paprika, and fresh lime juice. Stir until chicken is well coated with the seasonings. Stir in the shredded cheese.\nGet two paper towels damp and place two tortillas at a time in between the paper towels. Place in the microwave for 20-30 seconds. Remove from the microwave and roll up the taquitos.\nPlace a heaping tablespoon of the chicken and cheese mixture in the center of the tortilla and roll it up tightly. Place the tacquito, seam side down on the prepared baking sheet. Continue rolling taquitos until the tortillas and filling are gone. You should have about 20 taquitos.\nSpray the taquitos generously with nonstick cooking spray. Bake for 15-20 minutes or until taquitos are golden brown and crispy. Remove from the oven and serve warm with desired toppings.',
             self.harvester_class.instructions()
         )

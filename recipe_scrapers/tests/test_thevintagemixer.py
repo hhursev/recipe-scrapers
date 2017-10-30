@@ -25,34 +25,36 @@ class TestTheVintageMixerScraper(unittest.TestCase):
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            'Cauliflower Pizza Crust Recipe'
+            'Gluten Free and Sugar Free Cherry Baby Smash Cake'
         )
 
     def test_total_time(self):
         self.assertEqual(
-            0,
+            35,
             self.harvester_class.total_time()
         )
 
     def test_ingredients(self):
         self.assertListEqual(
             [
-                '1 small head of cauliflower, leaves and stems removed',
-                '1 teaspoon basil',
-                '1 teaspoon oregano',
-                '1 teaspoon parsley',
-                '1 teaspoon salt',
-                '1/2 cup Manchengo sheep milk cheese (or Mozzarella)',
-                '2 eggs', 'cornmeal, to dust the pizza stone',
-                '1 jar marinara or pizza sauce',
-                '1/2 cup sheep milk cheese',
-                '5-8 basil leaves'
+                '2 tablespoons coconut flour, +1 teaspoon',
+                '1/4 cup almond flour',
+                '1/4 teaspoon baking powder',
+                '1/6 teaspoon baking soda',
+                '1/4 teaspoon salt',
+                '1 ripe banana, about 1/2 cup',
+                '2 tablespoons coconut oil, room temp',
+                '2 tablespoons almond butter, room temp',
+                '1 large egg, beaten',
+                '1 tablespoon pure maple syrup',
+                '1/2 teaspoon pure vanilla extract',
+                '1/2 cup cherries, pitted and chopped'
             ],
             self.harvester_class.ingredients()
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            "Preheat oven to 350 degrees.\nChop cauliflower florets into chunks. Pulse the cauliflower in a food processor until it resembles a fine grain, like rice or couscous. Pour cauliflower into a large bowl. Add herbs, and salt, then cheese and eggs.\nSpread a tablespoon or so of cornmeal all over a pizza stone. Place the cauliflower mixture (note- this won't resemble a ball of dough) on the middle of the stone and use your hands to press it into a circle about 1/4 inch thick.\nBake for 20 minutes at 350 then an additional 10 minutes at 400 degrees. Crust will be done when it turns golden brown in color.\nRemove crust from oven. Change oven temperature to 450 degrees. Add pizza sauce, cheese and whatever toppings you would like, then bake again for about 5 minutes or until cheese on top is melted.",
+            "Preheat the oven to 375 and grease two small ramekins* with coconut oil.\nIn a small mixing bowl combine the dry ingredients: coconut flour, almond flour, baking powder, baking soda, and salt.\nIn a separate, medium-sized, bowl mash the banana then add in the coconut oil, almond butter, maple syrup and vanilla. Stir in the egg.\nCombine the dry ingredients to the wet and mix only until combined and smooth.\nToss the chopped cherries with a teaspoon or so of coconut flour. Stir these into the batter. Spoon batter out into ramekins and bake at 375 for 20-25 minutes.\nLet cool 5 minutes in the pan then remove to a wire rack to cool completely. Wrap in plastic and freeze.\nAbout 1 hour before serving, remove cakes from freezer. If the cakes are puffed up at the top slice off the top to even them out and make it flat to layer the cakes.\nDap a small amount of frosting under the first cake on the plate so it won't wiggle as you ice it then add a spoonful on top of the cake to place the second layer on top. Frost gently around the sides of the cake and on top. Top the cake with a few fresh cherries.",
             self.harvester_class.instructions()
         )

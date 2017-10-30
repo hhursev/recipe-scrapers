@@ -25,32 +25,35 @@ class TestSimplyRecipesScraper(unittest.TestCase):
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            'Cheesy Bread'
+            'One-Pot Chicken and Rice Soup'
         )
 
     def test_total_time(self):
         self.assertEqual(
-            20,
+            45,
             self.harvester_class.total_time()
         )
 
     def test_ingredients(self):
         self.assertListEqual(
             [
-                '4 oz shredded Mozzarella cheese (1 cup)',
-                '8 oz shredded sharp cheddar cheese (about 2 cups)',
-                '1/4 to 1/2 cup chopped green onion (to taste)',
-                '1/4 cup mayonnaise',
-                '1 Tbsp sour cream (optional)',
-                '1-2 cloves garlic, minced',
-                '1/2 stick unsalted butter (1/4 cup, 2 ounces), softened to the point of being slightly melted',
-                '1 loaf of French or Italian bread (I used Ciabatta)'
+                '2 bone-in chicken breasts, skin removed (1 to 1 1/2 pounds)',
+                '1 cup long-grain white rice, like basmati',
+                '2 celery ribs, diced small',
+                '2 medium carrots, peeled and diced small',
+                '1 onion, diced small',
+                '2 cloves garlic, left whole',
+                '1 teaspoon salt, plus more to taste (see Recipe Note)',
+                '1/2 teaspoon ground black pepper',
+                '2 quarts unsalted or low-sodium chicken stock',
+                'Juice of 1/2 lemon (about 3 tablespoons)',
+                'Chopped fresh parsley, for serving'
             ],
             self.harvester_class.ingredients()
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            '1 In a large bowl, mix together the cheeses and the green onion. Stir in the mayonnaise and sour cream. In a separate small bowl blend the butter and garlic until smooth. Add the butter mixture to the cheese mixture.\n\n2 Preheat broiler. Slice loaf of bread in half horizontally, lay crust side down on a foil-lined baking sheet. Spread cheese mixture over the bread.\n\n3 Place under the broiler until nicely browned, about 3 to 5 minutes.\n\n4 Remove from broiler and let sit for 5 minutes until cool enough to handle. Slice the bread with a bread knife. Serve.\nVariations:\nTry mixing in other ingredients with the topping mixture, such as chopped black olives, chopped canned artichoke hearts, minced shrimp, or crab meat.',
+            '1 Assemble the soup and bring to a simmer: Combine the chicken, white rice, celery, carrots, onions, garlic, salt, and pepper in a large pot. Add the chicken stock and bring to a boil over high heat.\nOnce the soup is boiling, reduce the heat to keep the soup at a gentle simmer.\n\n2 Simmer for about 25 minutes: As the soup simmers, skim off any foam that collects on the surface with a spoon. Continue to simmer until the rice and vegetables are tender, about 25 minutes. Remove the soup from heat.\n3 Shred the chicken and make the garlic paste: Remove the chicken and garlic cloves using a slotted spoon or tongs. Transfer the chicken breasts to a bowl and shred with two forks. Discard the bones. Return the shredded chicken to the pot.\nSmash the garlic cloves into a paste against a cutting board using a fork or the flat of your knife. Stir the paste back into the soup.\n\n4 Season and serve: Stir the lemon juice into to the soup, and taste. The soup should taste rich, barely salty, and with just a hint of lemon. Add more salt or lemon juice as needed until it tastes good to you.\nDivide among bowls and sprinkle with some parsley for serving.\nLeftovers will keep for about a week refrigerated, or up to 3 months frozen.',
             self.harvester_class.instructions()
         )

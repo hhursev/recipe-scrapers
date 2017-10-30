@@ -25,38 +25,30 @@ class TestEpicurious(unittest.TestCase):
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            'Poached Eggs in Tomato Sauce with Chickpeas and Feta'
+            'Ramen Noodle Bowl with Escarole and Spicy Tofu Crumbles '
         )
 
     def test_total_time(self):
         self.assertEqual(
-            35,
+            0,
             self.harvester_class.total_time()
         )
 
     def test_ingredients(self):
         self.assertListEqual(
             [
-                '1/4 cup olive oil',
-                '1 medium onion, finely chopped',
-                '4 garlic cloves, coarsely chopped',
-                '2 jalapeños, seeded, finely chopped',
-                '1 15-ounce can chickpeas, drained',
-                '2 teaspoons Hungarian sweet paprika',
-                '1 teaspoon ground cumin',
-                '1 28-ounce can whole peeled tomatoes, crushed by hand, juices reserved',
-                'Kosher salt and freshly ground black pepper',
-                '1 cup coarsely crumbled feta',
-                '8 large eggs',
-                '1 tablespoon chopped flat-leaf parsley',
-                '1 tablespoon chopped fresh cilantro',
-                'Warm pita bread'
+                '2 (5.5-ounce) servings fresh or dried ramen noodles',
+                '4 cups torn escarole',
+                '3 tablespoons Roasted Garlic Chili Sauce',
+                'Kosher salt',
+                '4 Pickled Scallions',
+                'Spicy Tofu Crumbles, thinly sliced radish, and chopped peanuts (for serving)'
             ],
             self.harvester_class.ingredients()
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            'Preheat oven to 425°F. Heat oil in a large ovenproof skillet over medium-high heat. Add onion, garlic, and jalapeños; cook, stirring occasionally, until onion is soft, about 8 minutes. Add chickpeas, paprika, and cumin and cook for 2 minutes longer.\nAdd crushed tomatoes and their juices. Bring to a boil, reduce heat to medium-low, and simmer, stirring occasionally, until sauce thickens slightly, about 15 minutes. Season to taste with salt and pepper. Sprinkle feta evenly over sauce. Crack eggs one at a time and place over sauce, spacing evenly apart. Transfer skillet to oven and bake until whites are just set but yolks are still runny, 5-8 minutes. Garnish with parsley and cilantro. Serve with pita for dipping.\nPer serving: 358 calories, 22 g fat, 22 g carbohydrates\nNutritional analysis provided by Bon Appétit',
+            'Cook noodles according to package directions. During the last minute of cooking, add escarole. Drain and rinse under cold water.\nToss noodles, escarole, and chili sauce in a large bowl until coated; season with salt. Divide noodles between bowls. Slice scallions into 1" pieces and place on top of noodles along with some tofu crumbles, radishes, and peanuts.',
             self.harvester_class.instructions()
         )

@@ -25,30 +25,33 @@ class TestClosetCooking(unittest.TestCase):
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            'Bacon Wrapped Jalapeno Popper Stuffed Chicken'
+            'Jalapeno Popper Skillet Chicken'
         )
 
     def test_total_time(self):
         self.assertEqual(
-            40,
+            20,
             self.harvester_class.total_time()
         )
 
     def test_ingredients(self):
         self.assertListEqual(
             [
-                '4 (6 ounce) chicken breasts, pounded thin',
+                '1 tablespoon oil',
+                '1 pound chicken, boneless and skinless, diced',
                 'salt and pepper to taste',
-                '4 jalapenos, diced',
-                '4 ounces cream cheese, room temperature',
-                '1 cup cheddar cheese, shredded',
-                '8 slices bacon'
+                '1 small onion, diced',
+                '2 jalapenos, sliced or diced',
+                '2 cloves garlic, chopped',
+                '1 cup chicken broth',
+                '4 ounces cream cheese, softened',
+                '1 cup cheddar cheese, shredded'
             ],
             self.harvester_class.ingredients()
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            'Lay the chicken flat, season both sides with salt and pepper, place 1/4 of the mixture of the jalapenos, cream cheese and cheddar on the chicken and roll them up.\nWrap each chicken breast up in 2 slices of bacon and place them in a baking dish on a wire rack.\nBake in a pre-heated 400F/200C oven until cooked, about 25-35 minutes.',
+            'Heat the oil in a pan over medium-high heat, add the chicken (seasoned with salt and pepper) and cook until lightly golden brown.\nAdd the onions and jalapenos and cook until tender, about a minute before adding the garlic and cooking another minute.\nAdd the chicken broth and deglaze the skillet by scraping the brown bits up off of the bottom of the pan as the broth sizzles.\nAdd the cheese and cook until it has melted and the sauce is nice and smooth',
             self.harvester_class.instructions()
         )

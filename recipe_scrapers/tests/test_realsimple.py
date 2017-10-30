@@ -25,32 +25,29 @@ class TestRealSimpleScraper(unittest.TestCase):
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            'Pan-Roasted Chicken With Lemon-Garlic Green Beans'
+            'Vanilla Cheesecake'
         )
 
     def test_total_time(self):
         self.assertEqual(
-            75,
+            540,
             self.harvester_class.total_time()
         )
 
     def test_ingredients(self):
         self.assertListEqual(
             [
-                'tablespoons olive oil',
-                '2 lemons, 1 thinly sliced, 1 juiced',
-                '4 cloves garlic, minced',
-                'teaspoon kosher salt',
-                'teaspoon freshly ground black pepper',
-                'pound trimmed green beans',
-                '8 small red potatoes, quartered',
-                '4 chicken breasts (bones left in, with skin, about 3 1/4 pounds)'
+                '3 8-ounce packages cream cheese, at room temperature',
+                '4 eggs', '1 1/4 cups sugar',
+                '2 teaspoons pure vanilla extract',
+                '1 prebaked Ginger Graham Cracker Crust',
+                '1 cup sour cream'
             ],
             self.harvester_class.ingredients()
         )
 
     def test_instructions(self):
         self.assertEqual(
-            'Preheat oven to 450°F. Coat a large baking dish or cast-iron skillet with 1 tablespoon of the olive oil. Arrange the lemon slices in a single layer in the bottom of the dish or skillet.\nIn a large bowl, combine the remaining oil, lemon juice, garlic, salt, and pepper; add the green beans and toss to coat. Using a slotted spoon or tongs, remove the green beans and arrange them on top of the lemon slices. Add the potatoes to the same olive-oil mixture and toss to coat. Using a slotted spoon or tongs, arrange the potatoes along the inside edge of the dish or skillet on top of the green beans. Place the chicken in the same bowl with the olive-oil mixture and coat thoroughly. Place the chicken, skin-side up, in the dish or skillet. Pour any of the remaining olive-oil mixture over the chicken.\nRoast for 50 minutes. Remove the chicken from the dish or skillet. Place the beans and potatoes back in oven for 10 minutes more or until the potatoes are tender. Place a chicken breast on each of 4 serving plates; divide the green beans and potatoes equally. Serve warm.',
+            'Make the Ginger Graham Cracker Crust.\nPreheat oven to 325° F.\nIn a large mixing bowl, beat the cream cheese until smooth, about 1 minute. Beat in the eggs one at a time. Add 1 cup of the sugar and 1 teaspoon of the vanilla and mix until well combined.\nPour the batter into the crust and bake until set, 45 to 50 minutes.\nIn a small bowl, whisk together the sour cream and the remaining sugar and vanilla. Pour the mixture over the cheesecake, spreading it to the edge. Bake 5 minutes.\nCool and refrigerate overnight before serving.',
             self.harvester_class.instructions()
         )
