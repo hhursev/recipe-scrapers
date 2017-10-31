@@ -13,15 +13,15 @@ class Cookstr(AbstractScraper):
 
     def total_time(self):
         sections = self.soup.findAll('div', {'class': 'articleAttrSection'})
+        total_time = 0
         for section in sections:
             time = section.find(text='Total Time')
             if time:
-                return get_minutes(time.parent.parent)
-        return 0
+                total_time += get_minutes(time.parent.parent)
+        return total_time
 
     def ingredients(self):
-        ingredients_html = self.soup.find('div', {'class':
-            "recipeIngredients"})
+        ingredients_html = self.soup.find('div', {'class': "recipeIngredients"})
 
         return [
             normalize_string(ingredient.get_text())
@@ -30,8 +30,7 @@ class Cookstr(AbstractScraper):
 
     def instructions(self):
 
-        instructions_html = self.soup.find('div', {'class':
-            'stepByStepInstructionsDiv'})
+        instructions_html = self.soup.find('div', {'class': 'stepByStepInstructionsDiv'})
 
         return '\n'.join([
             normalize_string(instruction.get_text())
