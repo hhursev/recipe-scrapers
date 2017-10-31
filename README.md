@@ -63,3 +63,15 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 
 - Open an [Issue](https://github.com/hhursev/recipe-scraper/issues/new) providing us the site name, as well as a recipe link from it.
 - If you are a developer and want to code the scraper on your own, [this is a wonderful example](https://github.com/hhursev/recipe-scraper/pull/29/files) of how to do it.
+
+#### For Devs
+
+Assuming you have [virtualenv](https://pypi.python.org/pypi/virtualenv) and [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/latest/) installed, navigate to the directory where you want this project to live in and drop these lines
+
+    git clone git@github.com:hhursev/recipe-scraper.git &&
+    cd recipe-scraper &&
+    mkvirtualenv -a `pwd` -p python3 -r requirements.txt recipe-scraper &&
+    coverage run tests.py &&
+    coverage report
+
+For a full setup and project check.
