@@ -12,8 +12,8 @@ class SteamyKitchen(AbstractScraper):
         return self.soup.find('h2', {'itemprop': 'name'}).get_text()
 
     def total_time(self):
-        return get_minutes(self.soup.find(itemprop='prepTime').next_sibling) +\
-            get_minutes(self.soup.find(itemprop='cookTime').next_sibling)
+        return get_minutes(self.soup.find(itemprop='prepTime').parent) +\
+            get_minutes(self.soup.find(itemprop='cookTime').parent)
 
     def ingredients(self):
         ingredients_html = self.soup.findAll('span', {'itemprop': "ingredients"})

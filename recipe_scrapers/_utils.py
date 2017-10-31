@@ -1,8 +1,6 @@
 import re
 from functools import wraps
 
-from bs4.element import NavigableString
-
 
 TIME_REGEX = re.compile(
     r'(\D*(?P<hours>\d+)\s*(hours|hrs|hr|h|Hours|H))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|Minutes|M))?'
@@ -11,14 +9,10 @@ TIME_REGEX = re.compile(
 
 def get_minutes(element):
     try:
-
-        if type(element) is NavigableString:
-            matched = TIME_REGEX.search(element)
-        else:
-            tstring = element.get_text()
-            if '-' in tstring:
-                tstring = tstring.split('-')[1]  # some time formats are like this: '12-15 minutes'
-            matched = TIME_REGEX.search(tstring)
+        tstring = element.get_text()
+        if '-' in tstring:
+            tstring = tstring.split('-')[1]  # some time formats are like this: '12-15 minutes'
+        matched = TIME_REGEX.search(tstring)
 
         minutes = int(matched.groupdict().get('minutes') or 0)
         minutes += 60 * int(matched.groupdict().get('hours') or 0)

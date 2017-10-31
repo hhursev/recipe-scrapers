@@ -12,7 +12,7 @@ class ClosetCooking(AbstractScraper):
         return normalize_string(self.soup.find('h2', {'class': 'post-title'}).get_text())
 
     def total_time(self):
-        return get_minutes(self.soup.find(itemprop='totalTime').next_sibling)
+        return get_minutes(self.soup.find(itemprop='totalTime').parent)
 
     def ingredients(self):
         ingredients_html = self.soup.findAll('li', {'itemprop': "ingredients"})
