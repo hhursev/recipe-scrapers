@@ -36,7 +36,7 @@ class TestTwoPeasAndTheirPodScraper(unittest.TestCase):
         )
 
     def test_ingredients(self):
-        self.assertListEqual(
+        self.assertCountEqual(
             [
                 '2 cups shredded chicken (we use rotisserie chicken)',
                 '1/2 teaspoon ground cumin',

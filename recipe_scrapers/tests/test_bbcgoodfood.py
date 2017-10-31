@@ -35,7 +35,7 @@ class TestBBCGoodFoodScraper(unittest.TestCase):
         )
 
     def test_ingredients(self):
-        self.assertListEqual(
+        self.assertCountEqual(
             [
                 '250g self-raising flour',
                 '25g cocoa powder',
@@ -57,6 +57,6 @@ class TestBBCGoodFoodScraper(unittest.TestCase):
 
     def test_instructions(self):
         return self.assertEqual(
-            "Heat oven to 190C/170C fan/gas 5 and line a 12-hole muffin tin with deep cake cases. Put all the cake ingredients into a large bowl and beat together with electric hand beaters until smooth. Spoon the mix into the cases, then bake for 20 mins until risen and a skewer inserted into the middle comes out dry. Cool completely on a rack. Can be made up to 3 days ahead and kept in an airtight container, or frozen for up to 1 month.\nFor the frosting, work the butter, milk and vanilla into the icing sugar until creamy and pale. Colour with food colouring, if using, then create your own gruesome monster faces using sweets and sprinkles.",
+            "Heat oven to 190C/170C fan/gas 5 and line a 12-hole muffin tin with deep cake cases. Put all the cake ingredients into a large bowl and beat together with electric hand beaters until smooth. Spoon the mix into the cases, then bake for 20 mins until risen and a skewer inserted into the middle comes out dry. Cool completely on a rack. Can be made up to 3 days ahead and kept in an airtight container, or frozen for up to 1 month. For the frosting, work the butter, milk and vanilla into the icing sugar until creamy and pale. Colour with food colouring, if using, then create your own gruesome monster faces using sweets and sprinkles. MethodHeat oven to 190C/170C fan/gas 5 and line a 12-hole muffin tin with deep cake cases. Put all the cake ingredients into a large bowl and beat together with electric hand beaters until smooth. Spoon the mix into the cases, then bake for 20 mins until risen and a skewer inserted into the middle comes out dry. Cool completely on a rack. Can be made up to 3 days ahead and kept in an airtight container, or frozen for up to 1 month.For the frosting, work the butter, milk and vanilla into the icing sugar until creamy and pale. Colour with food colouring, if using, then create your own gruesome monster faces using sweets and sprinkles. Recipe from Good Food magazine, October 2010",
             self.harvester_class.instructions()
         )

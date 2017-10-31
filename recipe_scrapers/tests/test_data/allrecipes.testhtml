@@ -3,7 +3,7 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}</style>
         <title>Four Cheese Margherita Pizza Recipe - Allrecipes.com</title>
             <meta property="og:title" content="Four Cheese Margherita Pizza Recipe">
-    
+
         <meta property="og:site_name" content="Allrecipes">
         <meta charset="utf-8"><script src="allrecipes_files/optout_check" type="text/javascript"></script><script src="allrecipes_files/55db0cb698" type="text/javascript"></script><script src="allrecipes_files/get" type="text/javascript"></script><script src="allrecipes_files/optout_check" type="text/javascript"></script><script src="allrecipes_files/nr-686.js"></script><script src="allrecipes_files/pql" async=""></script><script src="allrecipes_files/gshowad.html" async=""></script><script src="allrecipes_files/yieldbot.js"></script><script src="allrecipes_files/controltag.js" async=""></script><script id="foresee-js" src="allrecipes_files/foresee-trigger.js" async="" type="text/javascript"></script><script src="allrecipes_files/analytics_002.js" async=""></script><script src="allrecipes_files/controltag" async="" type="text/javascript"></script><script src="allrecipes_files/beacon.js" async=""></script><script src="allrecipes_files/gpt.js" type="text/javascript" async=""></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"55db0cb698","applicationID":"6162753","transactionName":"YwABYUUDXUIABRZbCVpKLmN0TWFUAg8SVyVbCxdHWA5fVBNJK1wCUR0=","queueTime":0,"applicationTime":218,"ttGuid":"E5C5147BBA4CA6B8","agent":"js-agent.newrelic.com/nr-686.min.js"}</script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XQ4OVVdaGwUBUlNVAgI="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:23,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:10,2:9,3:7,4:11,5:3,6:24,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],6:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3),n.on("fn-start",function(t){var e=t[0];e instanceof Event&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof Event&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:10,2:9,3:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],7:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:25,ee:"QJf3ax",gos:"7eSDFh"}],8:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState"],"-")},{1:25,ee:"QJf3ax"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:25,ee:"QJf3ax"}],10:[function(t,e){function n(t,e,n){t[0]=o(t[0],"fn-",null,n)}var r=t("ee").create(),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:25,ee:"QJf3ax"}],11:[function(t,e){function n(){f.inPlace(this,p,"fn-")}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:7,2:25,ee:"QJf3ax"}],12:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:13,3:11,4:7,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],13:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],14:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:23,2:24,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-686.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:23,2:14,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],23:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],24:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],25:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:24,ee:"QJf3ax"}]},{},["G9z0Bl",4,12,6,5]);</script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,11 +14,11 @@
             <link id="canonicalUrl" rel="canonical" href="http://allrecipes.com/recipe/133948/four-cheese-margherita-pizza/">
                 <meta property="og:url" content="http://allrecipes.com/recipe/133948/four-cheese-margherita-pizza/">
 
-        
+
             <link id="linkHrefLang" rel="alternate" hreflang="en" href="http://allrecipes.com/recipe/133948/four-cheese-margherita-pizza/">
             <link id="linkHrefLang" rel="alternate" hreflang="pt" href="http://allrecipes.com.br/receita/7441/pizza-margarita-aos-quatro-queijos.aspx">
 
-    
+
 
         <script src="allrecipes_files/main-top.js"></script>
 
@@ -55,7 +55,7 @@
         <link rel="icon" type="image/png" href="http://allrecipes.com/favicon-16x16.png" sizes="16x16">
         <link rel="icon" type="image/png" href="http://allrecipes.com/favicon-32x32.png" sizes="32x32">
         <meta name="msapplication-TileColor" content="#ffffff">
-        
+
         <!-- Maxymiser script start -->
         <script type="text/javascript" src="allrecipes_files/mmcore.js"></script><script id="mmcore.1" type="text/javascript" charset="utf-8" src="allrecipes_files/a"></script><script async="" src="allrecipes_files/pubads_impl_72.js"></script><style type="text/css">#Element13790{visibility:hidden;}</style>
         <!-- Maxymiser script end -->
@@ -65,17 +65,17 @@
         <a id="top"></a>
 
         <div class="slider-container" global-ui-events="">
-            
+
                 <div id="docking-leaderboard-container" class="ad-non-mobile-only leaderboard-wrapper" data-ad-container-autocollapse="">
                     <div class="docking-leaderboard-container ad-non-mobile-only">
-                        
+
                         <div id="div-gpt-leaderboard-flex-1" class="docking-leaderboard"></div>
                     </div>
                 </div>
 
             <div class="site-content">
                 <header class="header new-nav">
-                    
+
 <section class="ng-scope" ng-controller="ar_controllers_top_nav">
     <ul class="ar-nav-section">
         <li class="ar-logo-tab">
@@ -149,7 +149,7 @@
     </div>
 </div>
     <div id="461a01c9-4486-4e15-a614-3150b731ee28" class="nav-tab nav-tab__search ng-hide" popup-panel="topNavSearchMenu">
-        
+
 
 
 
@@ -161,9 +161,9 @@
             <input id="searchText" placeholder="Keywords" ng-model="search.keywords" class="setFocus-keywordSearch ng-pristine ng-valid ng-touched" type="text">
         </div>
 
-        
 
-        <div class="input-wrap--home ingredients" ar-assign-scrollable-classes="{ outermostWrapper: 'ingredients', clippingFrame: 'ingredient-clipping-frame', draggableElement: 'ingredient-scroller' }">    
+
+        <div class="input-wrap--home ingredients" ar-assign-scrollable-classes="{ outermostWrapper: 'ingredients', clippingFrame: 'ingredient-clipping-frame', draggableElement: 'ingredient-scroller' }">
 
             <div class="ingredient-clipping-frame">
                 <ul class="ingredient-scroller ng-scope" ng-mousedown="mouseDown($event)" ng-mouseup="mouseUp($event)" ar-touchstart="touchStart($event)" ar-touchend="touchEnd($event)" unselectable="on" onselectstart="return false;">
@@ -174,16 +174,16 @@
                 </div>
 
             <div class="ingredient-add-exclude">
-                
+
                 <input placeholder="Include ingredients" id="includeIngText" ng-attr-placeholder="{{includeIngPlaceholderText}}" name="txtIncludeIng" ng-model="includeIngredient" ng-focus="hideAds();" ng-blur="showAds()" ng-keydown="(isBackspaceKey($event) &amp;&amp; removeLastIngredientInclude($event)) || (isTabKey($event) &amp;&amp; addIngredientInclude($event))" class="setFocus-includeIng ng-valid ng-dirty ng-valid-parse ng-touched" type="text">
             </div>
             <a class="btn-basic--small include" ng-click="addIngredientInclude($event)" ar-event-focus="click" ar-event-focus-id="setFocus-includeIng" ng-class="{ 'grayed-out': includeIngHitMax }"><span>+</span></a>
 
-        </div> 
+        </div>
 
-        
 
-        <div class="input-wrap--home ingredients" ar-assign-scrollable-classes="{ outermostWrapper: 'ingredients', clippingFrame: 'ingredient-clipping-frame', draggableElement: 'ingredient-scroller' }">    
+
+        <div class="input-wrap--home ingredients" ar-assign-scrollable-classes="{ outermostWrapper: 'ingredients', clippingFrame: 'ingredient-clipping-frame', draggableElement: 'ingredient-scroller' }">
 
             <div class="ingredient-clipping-frame">
                 <ul class="ingredient-scroller ng-scope" ng-mousedown="mouseDown($event)" ng-mouseup="mouseUp($event)" ar-touchstart="touchStart($event)" ar-touchend="touchEnd($event)" unselectable="on" onselectstart="return false;">
@@ -193,12 +193,12 @@
                 </ul>
                 </div>
 
-            <div class="ingredient-add-exclude">    
+            <div class="ingredient-add-exclude">
                 <input placeholder="Exclude ingredients" id="excludeIngText" ng-attr-placeholder="{{excludeIngPlaceholderText}}" name="txtExcludeIng" ng-model="excludeIngredient" ng-focus="hideAds();" ng-blur="showAds()" ng-keydown="(isBackspaceKey($event) &amp;&amp; removeLastIngredientExclude($event)) || (isTabKey($event) &amp;&amp; addIngredientExclude($event))" class="setFocus-excludeIng ng-pristine ng-valid ng-touched" type="text">
             </div>
             <a class="btn-basic--small exclude" ng-click="addIngredientExclude($event)" ar-event-focus="click" ar-event-focus-id="setFocus-excludeIng" ng-class="{ 'grayed-out': excludeIngHitMax }"><span>—</span></a>
 
-        </div> 
+        </div>
 
         <div class="nav-tab__buttons">
             <button class="btn-basic--small btn-search" ng-click="performSearch()">Go</button>
@@ -282,7 +282,7 @@
                 <a target="_self" href="http://allrecipes.com/cook/my/" id="navmenu_myprofile&gt;
                     &lt;span class=" iconcontainer"="">
                         <span class="icon svg-icon--top-nav-bar--nav-profile svg-icon--top-nav-bar--nav-profile-dims"></span><span class="itemText">Profile</span>
-					
+
                 </a>
             </li>
             <li>
@@ -374,11 +374,11 @@
 </section>
 
                 </header>
-                       
+
 
 
                 <div class="container-content body-content">
-                    
+
 
 
 
@@ -399,11 +399,11 @@
                     "isInterstitial": false
                 },{
                     "slotId": "div-gpt-ad-interstitial",
-                    "size": [[1,1]],                    
+                    "size": [[1,1]],
                     "isYieldbotAd": false,
                     "isInterstitial": true
                 },{
-                    "slotId": "div-gpt-ad-skyscrapermultisize",                  
+                    "slotId": "div-gpt-ad-skyscrapermultisize",
                     "size": [[300,1050],[300,600],[300,250],[160,600],[302,252]],
                     "sizeMapping": [[[751,410], [[300,1050],[300,600],[300,250],[160,600]]],[[0,0],[]]],
                     "pubmaticSizes": [[300,250], [300,600], [300, 1050]],
@@ -411,7 +411,7 @@
                     "isInterstitial": false
                 },{
                     "slotId": "div-gpt-ad-recipepagemiddle-1",
-                    "size": [[225,75]],                    
+                    "size": [[225,75]],
                     "isYieldbotAd": false,
                     "isInterstitial": false
                 },{
@@ -444,10 +444,10 @@
                 }
         ],
         "sponsoredSlots": [
-            
+
         ],
         "pagetargets": [
-            
+
                    {"key": "status", "value": "visitor"},
                    {"key": "oid", "value": "2AE1F4EF851D6BCC-60000158C0007E02"},
                    {"key": "fit", "value": "0"},
@@ -464,7 +464,7 @@
         }
     };
 
-    
+
     /* Enable Karma ads */
     var karmaEnabled = true,
         adService = {
@@ -484,20 +484,20 @@
         };
 
     adManager.Krux.InjectControlTag("H1gAR3V7")
-    
+
 </script>
 
 <div class="recipe-container-outer">
     <section class="ar_recipe_index full-page" itemscope="" itemtype="http://schema.org/Recipe" data-scroll="">
         <link itemprop="url" href="http://allrecipes.com/recipe/133948/four-cheese-margherita-pizza/">
         <meta itemprop="mainEntityOfPage" content="True">
-        
 
-        
+
+
 
 
 <ul class="breadcrumbs breadcrumbs" data-scroll-left="">
-    
+
     <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
         <a class="ng-isolate-scope" data-internal-referrer-link="recipe breadcrumb" data-click-id="recipe breadcrumb 1" href="http://allrecipes.com/?internalSource=recipe%20breadcrumb&amp;referringId=133948&amp;referringContentType=recipe&amp;clickId=recipe%20breadcrumb%201" target="_self" itemprop="url">
             <span class="toggle-similar__title" itemprop="title">
@@ -537,12 +537,12 @@
 </ul>
 
         <div class="summaryGroup clearfix">
-            
+
 
 <section class="hero-photo hero-photo--downsized">
 
     <a data-id="133948" data-type="'Recipe'" data-name="&quot;Four Cheese Margherita Pizza&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/694708.jpg'" class="favorite ng-isolate-scope" ng-class="{ highlighted : saved }" title="Save this recipe"></a>
-    
+
 
 
 
@@ -554,7 +554,7 @@
             <a target="_self" href="http://allrecipes.com/recipe/133948/four-cheese-margherita-pizza/photos/694708/" title="See Recipe Pictures" class="icon-photoPage">
                 <span class="icon--circle" title="View Pictures">
                     <span class="icon icon--picture"> </span>
-                    <span class="picture-count">55</span>                
+                    <span class="picture-count">55</span>
                 </span>
             </a>
         </span>
@@ -562,7 +562,7 @@
 
 
 </section>
-            
+
 <section class="recipe-summary clearfix">
     <h1 class="recipe-summary__h1" itemprop="name">Four Cheese Margherita Pizza</h1>
 
@@ -582,7 +582,7 @@
 
     </div>
 
-   
+
     <div class="submitter">
             <div class="submitter__img">
                     <a target="_self" href="http://allrecipes.com/cook/1551687"><img class="img-profile img-profile--submitter" src="allrecipes_files/icon-user-default_v2.png" alt="Michelle" title="Michelle"></a>
@@ -592,18 +592,18 @@
             <span class="submitter__byline">Recipe by: </span><span class="submitter__name" itemprop="author">Michelle</span>
         </p>
         <div class="submitter__description" itemprop="description">
-"This is a fantastic version of an Italian classic.  The feta cheese 
-adds a rich flavor that brings this dish to life.  Incredibly easy and 
+"This is a fantastic version of an Italian classic.  The feta cheese
+adds a rich flavor that brings this dish to life.  Incredibly easy and
 incredibly delicious!"        </div>
     </div>
-    
-    
+
+
 
 </section>
 
 
         </div>
-        
+
 <section class="recipe-navbar ng-scope" ng-controller="ar_controllers_recipe_toolbar" ng-init="init(133948, 'Recipe')">
     <a href="" ng-click="saveOnClick(133948, 'Recipe',&quot;Four Cheese Margherita Pizza&quot;,'http://images.media-allrecipes.com/userphotos/250x250/694708.jpg')">
         <div ng-switch="" on="saved">
@@ -633,7 +633,7 @@ incredibly delicious!"        </div>
     </a>
 </section>
 
-        
+
 
         <div data-ad-container-autocollapse="" class="ad-recipe-page-middle-container ad-mobile-only">
     <div id="div-gpt-ad-recipepagemiddle-2" class="ad-recipe-page-middle-2">
@@ -652,12 +652,12 @@ incredibly delicious!"        </div>
 
         <span class="recipe-ingredients__header__toggles">
                 <span class="ready-in-time__container">
-                    <span class="ready-in-time">40 m</span>
+                    <span class="ready-in-time">30-40 m</span>
                     <span class="icon--stats-clock"></span>
                 </span>
-			
+
 	        <meta id="metaRecipeServings" itemprop="recipeYield" content="8">
-	        
+
 			<a href="" id="servings-button" popup-trigger="servingsSection">
 				<span class="servings-count" ng-class="{'active': servingsSection_showing}"><span class="ng-binding" ng-bind="adjustedServings">8</span><span class="servings-count__desc" ng-class="{'active': servingsSection_showing}"> servings</span></span>
 
@@ -775,9 +775,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -787,9 +787,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -806,9 +806,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -820,9 +820,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -834,9 +834,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -848,9 +848,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -862,9 +862,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -876,9 +876,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -890,9 +890,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -904,9 +904,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -918,9 +918,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -932,9 +932,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -946,9 +946,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -960,9 +960,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -974,9 +974,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -988,9 +988,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -1002,9 +1002,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -1016,9 +1016,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -1030,9 +1030,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -1044,9 +1044,9 @@ incredibly delicious!"        </div>
 	<span ng-hide="nutrient.hasCompleteData===true">**
 	</span>
 	<span class="ng-binding bold" ng-bind="::nutrient.name" ng-class="::(plainname==='true' ? 'plain' : 'bold')"></span><span>:</span>
-	 
+
 	<span class="value">
-		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span> 
+		<span class="ng-binding plain" ng-bind="nutrient.displayValue + (hideunits ? '' : nutrient.unit)" ng-class="::(boldvalue==='true' ? 'bold' : 'plain')"></span>
 	</span>
 
 	<span ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-hide">%</span><span ng-bind="::nutrient.percentDailyValue" ng-hide="::(hidepercent || nutrient.percentDailyValue==='0')" class="pull-right ng-binding ng-hide"></span>
@@ -1058,7 +1058,7 @@ incredibly delicious!"        </div>
 				<ul class="key">
 					<li>
 						<span class="left">*</span>
-						<span class="right">Percent Daily Values are based on a 2,000 
+						<span class="right">Percent Daily Values are based on a 2,000
 calorie diet. Your daily values may be higher or lower depending on your
  calorie needs.</span>
 					</li>
@@ -1068,14 +1068,14 @@ calorie diet. Your daily values may be higher or lower depending on your
 					</li>
 					<li>
 						<span class="left">(-)</span>
-						<span class="right">Information is not currently available for 
+						<span class="right">Information is not currently available for
 this nutrient. If you are following a medically restrictive diet, please
- consult your doctor or registered dietitian before preparing this 
+ consult your doctor or registered dietitian before preparing this
 recipe for personal consumption.</span>
 					</li>
 				</ul>
 
-				
+
 
 				<div class="button-container">
 					<a href="" class="btns-one-small" ng-click="showSummaryNutrition()">Hide full nutrition</a>
@@ -1086,7 +1086,7 @@ recipe for personal consumption.</span>
 
     <div id="msg-toolbar" class="notification hidden"><span class="notification__message"></span></div>
 
-    
+
 <link href="allrecipes_files/local-offers-css.Css" rel="stylesheet">            <div class="lo-column">
                 <div class="lo-container--slider ">
                     <div class="title"><h2>On Sale</h2><span>What's on sale near you.</span></div>
@@ -1312,15 +1312,15 @@ recipe for personal consumption.</span>
 </script>
 
 
-        
+
 <section class="recipe-directions ng-scope" data-ng-controller="ar_controllers_directions" data-ng-init="init(133948)">
     <h2 class=" heading__h2--gutters">
     Directions
     </h2>
     <span class="recipe-directions__header--toggles">
-        
+
         <span class="recipe-directions--print"><a target="_self" class="ng-isolate-scope" href="http://allrecipes.com/recipe/133948/four-cheese-margherita-pizza/print/?internalSource=recipe%20button&amp;referringId=133948&amp;referringContentType=recipe&amp;clickId=recipe%20button" data-internal-referrer-link="recipe button" data-click-id="recipe button"><span class="kf-text print">Print</span> <span class="icon--recipe-directions-print"></span></a></span>
-        
+
     </span>
 
     <div class="directions--section">
@@ -1342,11 +1342,11 @@ recipe for personal consumption.</span>
 
             <ol class="list-numbers recipe-directions__list" itemprop="recipeInstructions">
                         <li class="step" ng-class="{'finished': stepIsActive0}" ng-click="stepIsActive0 = !stepIsActive0"><span class="recipe-directions__list--item">Stir
- together olive oil, garlic, and salt; toss with tomatoes, and allow to 
+ together olive oil, garlic, and salt; toss with tomatoes, and allow to
 stand for 15 minutes. Preheat oven to 400 degrees F (200 degrees C).</span></li>
                         <li class="step" ng-class="{'finished': stepIsActive1}" ng-click="stepIsActive1 = !stepIsActive1"><span class="recipe-directions__list--item">Brush
- each pizza crust with some of the tomato marinade. Sprinkle the pizzas 
-evenly with Mozzarella and Fontina cheeses. Arrange tomatoes overtop, 
+ each pizza crust with some of the tomato marinade. Sprinkle the pizzas
+evenly with Mozzarella and Fontina cheeses. Arrange tomatoes overtop,
 then sprinkle with shredded basil, Parmesan, and feta cheese.</span></li>
                         <li class="step" ng-class="{'finished': stepIsActive2}" ng-click="stepIsActive2 = !stepIsActive2"><span class="recipe-directions__list--item">Bake in preheated oven until the cheese is bubbly and golden brown, about 10 minutes.</span></li>
             </ol>
@@ -1407,10 +1407,10 @@ then sprinkle with shredded basil, Parmesan, and feta cheese.</span></li>
 </section>
 
 
-        
+
 
 		<div class="ng-scope" ng-show="isReady===true" data-ng-controller="ar_controllers_made_it" data-ng-init="init(133948, 0, '', '', 0, 0, 0, 271)">
-			
+
 
         <!-- made recipe toolbar -->
         <section id="recipe-toolbar" class="recipe-toolbar">
@@ -1460,7 +1460,7 @@ then sprinkle with shredded basil, Parmesan, and feta cheese.</span></li>
         <a ng-click="socialShareStart('133948', 'twitter'); socialShareNavigate('https://twitter.com/intent/tweet?url=http%3a//allrecipes.com/recipe/133948/four-cheese-margherita-pizza/&amp;text=Four%20Cheese%20Margherita%20Pizza%20-%20Allrecipes.com&amp;via=Allrecipes', '_blank');" class="twitter"></a>
         <a ng-click="socialShareStart('133948', 'google+'); socialShareNavigate('https://plus.google.com/share?url=http%3a//allrecipes.com/recipe/133948/four-cheese-margherita-pizza/', '_blank');" class="google"></a>
         <a href="" class="email" ng-click="toggleEmailForm(false)"></a>
-       
+
     </section>
 
     <section class="email-recipe">
@@ -1496,8 +1496,8 @@ then sprinkle with shredded basil, Parmesan, and feta cheese.</span></li>
         <section id="reviews" class="recipe-reviews ng-scope" ng-controller="ar_controllers_recipe_reviews" ng-init="init('133948',2, 9,'Recipe', 31)">
     <h2 class="heading__h2--gutters">Reviews</h2>
     <span class="recipe-reviews__header--count">271</span>
-    
-    
+
+
 
 <div class="current-user review-container clearfix current--reviewer ng-scope" data-ng-controller="ar_controllers_rate_and_review">
     <div ng-show="model.userReview.rating == 0" class="current-user__rateballoon own-review">
@@ -1514,7 +1514,7 @@ then sprinkle with shredded basil, Parmesan, and feta cheese.</span></li>
                         <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="allrecipes_files/icon-user-default_v2.png">
                     </li>
                     <li>
-                        <h4>My review</h4>   
+                        <h4>My review</h4>
                         <div class="stars-and-date-container">
                             <div class="ng-isolate-scope" data-star-rating="" data-rating="0"><div class="grid-col__ratings">
     <span class="rating-stars">
@@ -1523,20 +1523,20 @@ then sprinkle with shredded basil, Parmesan, and feta cheese.</span></li>
     <span class="grid-col__reviews ng-binding" ng-bind="(!reviewCount ||reviewCount === 0) ? '' : (reviewCount | largeNumberDisplay)"></span>
 </div></div>
                             <div class="review-date ng-binding" ng-bind="model.userReview.date | date:'M/d/yyyy'"></div>
-                        </div>           
+                        </div>
                 </li></ul>
                 <div ng-bind="model.userReview.text" class="reviewer--text ng-binding"></div>
             </div>
             <div class="icon--edit-review">
-                <ul> 
-                    <li class="cook-review--count">                                         
+                <ul>
+                    <li class="cook-review--count">
                     </li>
                     <li>
                         <a target="_self" id="lnkEdit" href="javascript:void()" ng-click="openRating()" class="edit-review"><span>Edit review</span></a>
                     </li>
                 </ul>
             </div>
-        </article>      
+        </article>
     </div>
 </div>
 
@@ -1616,7 +1616,7 @@ then sprinkle with shredded basil, Parmesan, and feta cheese.</span></li>
         </li>
 </ol>
 
-    
+
 
     <div class="review-container clearfix" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
         <meta id="metaRecipeTitle" itemprop="itemReviewed" content="">
@@ -1626,7 +1626,7 @@ then sprinkle with shredded basil, Parmesan, and feta cheese.</span></li>
                 </a><div class="recipe-details-cook-stats-container"><a target="_self" href="http://allrecipes.com/cook/1303982">
     </a><a target="_self" href="http://allrecipes.com/cook/1303982">
 
-         
+
                 <ul class="cook-details">
                     <li>
                         <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="allrecipes_files/icon-user-default_v2.png">
@@ -1635,7 +1635,7 @@ then sprinkle with shredded basil, Parmesan, and feta cheese.</span></li>
                         <h4 itemprop="author">G8RTCHR</h4>
                         <ul class="cook-details__followers followers-count">
                             <li>
-                                <span class="icon--cook-card-follower" title="Followers"></span> 
+                                <span class="icon--cook-card-follower" title="Followers"></span>
                             </li>
                             <li>
                                 <span>0</span>
@@ -1643,7 +1643,7 @@ then sprinkle with shredded basil, Parmesan, and feta cheese.</span></li>
                         </ul>
                         <ul class="cook-details__favorites favorites-count">
                             <li>
-                                <span class="icon--cook-card-favorite" title="Favorites"></span> 
+                                <span class="icon--cook-card-favorite" title="Favorites"></span>
                             </li>
                             <li>
                                 <span>399</span>
@@ -1651,7 +1651,7 @@ then sprinkle with shredded basil, Parmesan, and feta cheese.</span></li>
                         </ul>
                         <ul class="cook-details__recipes-made recipes-made-count">
                             <li>
-                                <span class="icon--cook-card-made" title="Recipes Made"></span> 
+                                <span class="icon--cook-card-made" title="Recipes Made"></span>
                             </li>
                             <li>
                                 <span>7</span>
@@ -1660,21 +1660,21 @@ then sprinkle with shredded basil, Parmesan, and feta cheese.</span></li>
                     </li>
                 </ul>
 
-      
-         
+
+
 
 
 
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
 
-            
+
+
 
             <div class="stars-and-date-container">
                 <div class="rating-stars" data-ratingstars="5">
@@ -1691,10 +1691,10 @@ then sprinkle with shredded basil, Parmesan, and feta cheese.</span></li>
                 <meta itemprop="dateCreated" content="2008-08-03">
             </div>
         </article>
-            
+
         <p itemprop="reviewBody">
-This was great - even if I just used the mozzarella and parmesan 
-cheeses. Don't make the same mistake I did, though, only brush the oil 
+This was great - even if I just used the mozzarella and parmesan
+cheeses. Don't make the same mistake I did, though, only brush the oil
 on the crust - I added the leftover on top later and it wa...        </p>
         <div class="review-detail">
             <a target="_self" class="review-detail__link" href="http://allrecipes.com/recipe/133948/four-cheese-margherita-pizza/reviews/1476048/">
@@ -1711,7 +1711,7 @@ on the crust - I added the leftover on top later and it wa...        </p>
                 </a><div class="recipe-details-cook-stats-container"><a target="_self" href="http://allrecipes.com/cook/742336">
     </a><a target="_self" href="http://allrecipes.com/cook/742336">
 
-         
+
                 <ul class="cook-details">
                     <li>
                         <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="allrecipes_files/76165.jpg">
@@ -1720,7 +1720,7 @@ on the crust - I added the leftover on top later and it wa...        </p>
                         <h4 itemprop="author">amydoll</h4>
                         <ul class="cook-details__followers followers-count">
                             <li>
-                                <span class="icon--cook-card-follower" title="Followers"></span> 
+                                <span class="icon--cook-card-follower" title="Followers"></span>
                             </li>
                             <li>
                                 <span>24</span>
@@ -1728,7 +1728,7 @@ on the crust - I added the leftover on top later and it wa...        </p>
                         </ul>
                         <ul class="cook-details__favorites favorites-count">
                             <li>
-                                <span class="icon--cook-card-favorite" title="Favorites"></span> 
+                                <span class="icon--cook-card-favorite" title="Favorites"></span>
                             </li>
                             <li>
                                 <span>259</span>
@@ -1736,7 +1736,7 @@ on the crust - I added the leftover on top later and it wa...        </p>
                         </ul>
                         <ul class="cook-details__recipes-made recipes-made-count">
                             <li>
-                                <span class="icon--cook-card-made" title="Recipes Made"></span> 
+                                <span class="icon--cook-card-made" title="Recipes Made"></span>
                             </li>
                             <li>
                                 <span>782</span>
@@ -1745,21 +1745,21 @@ on the crust - I added the leftover on top later and it wa...        </p>
                     </li>
                 </ul>
 
-      
-         
+
+
 
 
 
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
 
-            
+
+
 
             <div class="stars-and-date-container">
                 <div class="rating-stars" data-ratingstars="3">
@@ -1776,10 +1776,10 @@ on the crust - I added the leftover on top later and it wa...        </p>
                 <meta itemprop="dateCreated" content="2008-04-25">
             </div>
         </article>
-            
+
         <p itemprop="reviewBody">
-Good, but not great. Between the salt in my crust, salt in the olive 
-oil, and in all of the cheese's, it was a little overwhelming. Like all 
+Good, but not great. Between the salt in my crust, salt in the olive
+oil, and in all of the cheese's, it was a little overwhelming. Like all
 the cheese combos, but won't follow this recipe next ...        </p>
         <div class="review-detail">
             <a target="_self" class="review-detail__link" href="http://allrecipes.com/recipe/133948/four-cheese-margherita-pizza/reviews/1369281/">
@@ -1799,13 +1799,13 @@ the cheese combos, but won't follow this recipe next ...        </p>
 
         <div class="review-container clearfix" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
             <meta id="metaRecipeTitle" itemprop="itemReviewed" content="Four Cheese Margherita Pizza">
-            
+
             <article class="reviewer-info imadeit-enabled">
                 <a target="_self" href="http://allrecipes.com/cook/1303982">
                           </a><div class="recipe-details-cook-stats-container"><a target="_self" href="http://allrecipes.com/cook/1303982">
     </a><a target="_self" href="http://allrecipes.com/cook/1303982">
 
-         
+
                 <ul class="cook-details">
                     <li>
                         <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="allrecipes_files/icon-user-default_v2.png">
@@ -1814,7 +1814,7 @@ the cheese combos, but won't follow this recipe next ...        </p>
                         <h4 itemprop="author">G8RTCHR</h4>
                         <ul class="cook-details__followers followers-count">
                             <li>
-                                <span class="icon--cook-card-follower" title="Followers"></span> 
+                                <span class="icon--cook-card-follower" title="Followers"></span>
                             </li>
                             <li>
                                 <span>0</span>
@@ -1822,7 +1822,7 @@ the cheese combos, but won't follow this recipe next ...        </p>
                         </ul>
                         <ul class="cook-details__favorites favorites-count">
                             <li>
-                                <span class="icon--cook-card-favorite" title="Favorites"></span> 
+                                <span class="icon--cook-card-favorite" title="Favorites"></span>
                             </li>
                             <li>
                                 <span>399</span>
@@ -1830,7 +1830,7 @@ the cheese combos, but won't follow this recipe next ...        </p>
                         </ul>
                         <ul class="cook-details__recipes-made recipes-made-count">
                             <li>
-                                <span class="icon--cook-card-made" title="Recipes Made"></span> 
+                                <span class="icon--cook-card-made" title="Recipes Made"></span>
                             </li>
                             <li>
                                 <span>7</span>
@@ -1839,21 +1839,21 @@ the cheese combos, but won't follow this recipe next ...        </p>
                     </li>
                 </ul>
 
-      
-         
+
+
 
 
 
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
 
-                
+
+
 
                 <div class="stars-and-date-container">
                     <div class="rating-stars" data-ratingstars="5">
@@ -1870,11 +1870,11 @@ the cheese combos, but won't follow this recipe next ...        </p>
                     <meta itemprop="dateCreated" content="2008-08-03">
                 </div>
             </article>
-            
+
             <p itemprop="reviewBody">
-This was great - even if I just used the mozzarella and parmesan 
-cheeses. Don't make the same mistake I did, though, only brush the oil 
-on the crust - I added the leftover on top later and it wa...           
+This was great - even if I just used the mozzarella and parmesan
+cheeses. Don't make the same mistake I did, though, only brush the oil
+on the crust - I added the leftover on top later and it wa...
  </p>
             <div class="review-detail">
                 <a target="_self" class="review-detail__link" href="http://allrecipes.com/recipe/133948/four-cheese-margherita-pizza/reviews/1476048/">
@@ -1885,13 +1885,13 @@ on the crust - I added the leftover on top later and it wa...
         </div>
         <div class="review-container clearfix" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
             <meta id="metaRecipeTitle" itemprop="itemReviewed" content="Four Cheese Margherita Pizza">
-            
+
             <article class="reviewer-info imadeit-enabled">
                 <a target="_self" href="http://allrecipes.com/cook/710802">
                           </a><div class="recipe-details-cook-stats-container"><a target="_self" href="http://allrecipes.com/cook/710802">
     </a><a target="_self" href="http://allrecipes.com/cook/710802">
 
-         
+
                 <ul class="cook-details">
                     <li>
                         <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="allrecipes_files/1274985.jpg">
@@ -1900,7 +1900,7 @@ on the crust - I added the leftover on top later and it wa...
                         <h4 itemprop="author">Rachelle Vernon Jones</h4>
                         <ul class="cook-details__followers followers-count">
                             <li>
-                                <span class="icon--cook-card-follower" title="Followers"></span> 
+                                <span class="icon--cook-card-follower" title="Followers"></span>
                             </li>
                             <li>
                                 <span>3</span>
@@ -1908,7 +1908,7 @@ on the crust - I added the leftover on top later and it wa...
                         </ul>
                         <ul class="cook-details__favorites favorites-count">
                             <li>
-                                <span class="icon--cook-card-favorite" title="Favorites"></span> 
+                                <span class="icon--cook-card-favorite" title="Favorites"></span>
                             </li>
                             <li>
                                 <span>332</span>
@@ -1916,7 +1916,7 @@ on the crust - I added the leftover on top later and it wa...
                         </ul>
                         <ul class="cook-details__recipes-made recipes-made-count">
                             <li>
-                                <span class="icon--cook-card-made" title="Recipes Made"></span> 
+                                <span class="icon--cook-card-made" title="Recipes Made"></span>
                             </li>
                             <li>
                                 <span>85</span>
@@ -1925,21 +1925,21 @@ on the crust - I added the leftover on top later and it wa...
                     </li>
                 </ul>
 
-      
-         
+
+
 
 
 
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
 
-                
+
+
 
                 <div class="stars-and-date-container">
                     <div class="rating-stars" data-ratingstars="5">
@@ -1956,11 +1956,11 @@ on the crust - I added the leftover on top later and it wa...
                     <meta itemprop="dateCreated" content="2007-03-19">
                 </div>
             </article>
-            
+
             <p itemprop="reviewBody">
-Fabulous!  This was just delicious.  My pantry isn't very fancy so I 
-didn't use fontina/feta and roma tomatoes, I used 
-cheddar/mozzarella/parmesan and reg big red tomatoes.  Turned out just 
+Fabulous!  This was just delicious.  My pantry isn't very fancy so I
+didn't use fontina/feta and roma tomatoes, I used
+cheddar/mozzarella/parmesan and reg big red tomatoes.  Turned out just
 like...            </p>
             <div class="review-detail">
                 <a target="_self" class="review-detail__link" href="http://allrecipes.com/recipe/133948/four-cheese-margherita-pizza/reviews/944593/">
@@ -1971,13 +1971,13 @@ like...            </p>
         </div>
         <div class="review-container clearfix" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
             <meta id="metaRecipeTitle" itemprop="itemReviewed" content="Four Cheese Margherita Pizza">
-            
+
             <article class="reviewer-info imadeit-enabled">
                 <a target="_self" href="http://allrecipes.com/cook/2876295">
                           </a><div class="recipe-details-cook-stats-container"><a target="_self" href="http://allrecipes.com/cook/2876295">
     </a><a target="_self" href="http://allrecipes.com/cook/2876295">
 
-         
+
                 <ul class="cook-details">
                     <li>
                         <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="allrecipes_files/380343.jpg">
@@ -1986,7 +1986,7 @@ like...            </p>
                         <h4 itemprop="author">thrasher'swife</h4>
                         <ul class="cook-details__followers followers-count">
                             <li>
-                                <span class="icon--cook-card-follower" title="Followers"></span> 
+                                <span class="icon--cook-card-follower" title="Followers"></span>
                             </li>
                             <li>
                                 <span>5</span>
@@ -1994,7 +1994,7 @@ like...            </p>
                         </ul>
                         <ul class="cook-details__favorites favorites-count">
                             <li>
-                                <span class="icon--cook-card-favorite" title="Favorites"></span> 
+                                <span class="icon--cook-card-favorite" title="Favorites"></span>
                             </li>
                             <li>
                                 <span>358</span>
@@ -2002,7 +2002,7 @@ like...            </p>
                         </ul>
                         <ul class="cook-details__recipes-made recipes-made-count">
                             <li>
-                                <span class="icon--cook-card-made" title="Recipes Made"></span> 
+                                <span class="icon--cook-card-made" title="Recipes Made"></span>
                             </li>
                             <li>
                                 <span>102</span>
@@ -2011,21 +2011,21 @@ like...            </p>
                     </li>
                 </ul>
 
-      
-         
+
+
 
 
 
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
 
-                
+
+
 
                 <div class="stars-and-date-container">
                     <div class="rating-stars" data-ratingstars="5">
@@ -2042,10 +2042,10 @@ like...            </p>
                     <meta itemprop="dateCreated" content="2008-05-28">
                 </div>
             </article>
-            
+
             <p itemprop="reviewBody">
-Loved it! I marinated my tomatoes for at least an hour, wanted to make 
-sure they had a great garlicky taste. Added pepper on top of them, too. 
+Loved it! I marinated my tomatoes for at least an hour, wanted to make
+sure they had a great garlicky taste. Added pepper on top of them, too.
 Used Mozz, Italian five cheese blend, some grated p...            </p>
             <div class="review-detail">
                 <a target="_self" class="review-detail__link" href="http://allrecipes.com/recipe/133948/four-cheese-margherita-pizza/reviews/1403276/">
@@ -2054,16 +2054,16 @@ Used Mozz, Italian five cheese blend, some grated p...            </p>
                 </a>
             </div>
         </div>
-            <div class="review-divider"></div>     
+            <div class="review-divider"></div>
         <div class="review-container clearfix" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
             <meta id="metaRecipeTitle" itemprop="itemReviewed" content="Four Cheese Margherita Pizza">
-            
+
             <article class="reviewer-info imadeit-enabled">
                 <a target="_self" href="http://allrecipes.com/cook/3830607">
                           </a><div class="recipe-details-cook-stats-container"><a target="_self" href="http://allrecipes.com/cook/3830607">
     </a><a target="_self" href="http://allrecipes.com/cook/3830607">
 
-         
+
                 <ul class="cook-details">
                     <li>
                         <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="allrecipes_files/312834.jpg">
@@ -2072,7 +2072,7 @@ Used Mozz, Italian five cheese blend, some grated p...            </p>
                         <h4 itemprop="author">tssunshine24</h4>
                         <ul class="cook-details__followers followers-count">
                             <li>
-                                <span class="icon--cook-card-follower" title="Followers"></span> 
+                                <span class="icon--cook-card-follower" title="Followers"></span>
                             </li>
                             <li>
                                 <span>1</span>
@@ -2080,7 +2080,7 @@ Used Mozz, Italian five cheese blend, some grated p...            </p>
                         </ul>
                         <ul class="cook-details__favorites favorites-count">
                             <li>
-                                <span class="icon--cook-card-favorite" title="Favorites"></span> 
+                                <span class="icon--cook-card-favorite" title="Favorites"></span>
                             </li>
                             <li>
                                 <span>305</span>
@@ -2088,7 +2088,7 @@ Used Mozz, Italian five cheese blend, some grated p...            </p>
                         </ul>
                         <ul class="cook-details__recipes-made recipes-made-count">
                             <li>
-                                <span class="icon--cook-card-made" title="Recipes Made"></span> 
+                                <span class="icon--cook-card-made" title="Recipes Made"></span>
                             </li>
                             <li>
                                 <span>81</span>
@@ -2097,21 +2097,21 @@ Used Mozz, Italian five cheese blend, some grated p...            </p>
                     </li>
                 </ul>
 
-      
-         
+
+
 
 
 
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
 
-                
+
+
 
                 <div class="stars-and-date-container">
                     <div class="rating-stars" data-ratingstars="5">
@@ -2128,11 +2128,11 @@ Used Mozz, Italian five cheese blend, some grated p...            </p>
                     <meta itemprop="dateCreated" content="2010-05-06">
                 </div>
             </article>
-            
+
             <p itemprop="reviewBody">
-I love this pizza! The first time I ever made it I followed the recipe 
-exactly, now I tweak it to my liking &amp; even make mini-ones. 
-Generally I saute some garlic and  fresh spinach in olive oil t...      
+I love this pizza! The first time I ever made it I followed the recipe
+exactly, now I tweak it to my liking &amp; even make mini-ones.
+Generally I saute some garlic and  fresh spinach in olive oil t...
       </p>
             <div class="review-detail">
                 <a target="_self" class="review-detail__link" href="http://allrecipes.com/recipe/133948/four-cheese-margherita-pizza/reviews/2237413/">
@@ -2143,13 +2143,13 @@ Generally I saute some garlic and  fresh spinach in olive oil t...
         </div>
         <div class="review-container clearfix" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
             <meta id="metaRecipeTitle" itemprop="itemReviewed" content="Four Cheese Margherita Pizza">
-            
+
             <article class="reviewer-info imadeit-enabled">
                 <a target="_self" href="http://allrecipes.com/cook/1334015">
                           </a><div class="recipe-details-cook-stats-container"><a target="_self" href="http://allrecipes.com/cook/1334015">
     </a><a target="_self" href="http://allrecipes.com/cook/1334015">
 
-         
+
                 <ul class="cook-details">
                     <li>
                         <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="allrecipes_files/69107.jpg">
@@ -2158,7 +2158,7 @@ Generally I saute some garlic and  fresh spinach in olive oil t...
                         <h4 itemprop="author">CHEFANGIE</h4>
                         <ul class="cook-details__followers followers-count">
                             <li>
-                                <span class="icon--cook-card-follower" title="Followers"></span> 
+                                <span class="icon--cook-card-follower" title="Followers"></span>
                             </li>
                             <li>
                                 <span>0</span>
@@ -2166,7 +2166,7 @@ Generally I saute some garlic and  fresh spinach in olive oil t...
                         </ul>
                         <ul class="cook-details__favorites favorites-count">
                             <li>
-                                <span class="icon--cook-card-favorite" title="Favorites"></span> 
+                                <span class="icon--cook-card-favorite" title="Favorites"></span>
                             </li>
                             <li>
                                 <span>62</span>
@@ -2174,7 +2174,7 @@ Generally I saute some garlic and  fresh spinach in olive oil t...
                         </ul>
                         <ul class="cook-details__recipes-made recipes-made-count">
                             <li>
-                                <span class="icon--cook-card-made" title="Recipes Made"></span> 
+                                <span class="icon--cook-card-made" title="Recipes Made"></span>
                             </li>
                             <li>
                                 <span>21</span>
@@ -2183,21 +2183,21 @@ Generally I saute some garlic and  fresh spinach in olive oil t...
                     </li>
                 </ul>
 
-      
-         
+
+
 
 
 
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
 
-                
+
+
 
                 <div class="stars-and-date-container">
                     <div class="rating-stars" data-ratingstars="5">
@@ -2214,10 +2214,10 @@ Generally I saute some garlic and  fresh spinach in olive oil t...
                     <meta itemprop="dateCreated" content="2009-01-29">
                 </div>
             </article>
-            
+
             <p itemprop="reviewBody">
-This pizza is delicious.  I've made it several times.  I don't use 
-fontina cheese however.  I like to use store bought PESTO and olive oil 
+This pizza is delicious.  I've made it several times.  I don't use
+fontina cheese however.  I like to use store bought PESTO and olive oil
 as the base (very flavorful).  I also recommend trying ...            </p>
             <div class="review-detail">
                 <a target="_self" class="review-detail__link" href="http://allrecipes.com/recipe/133948/four-cheese-margherita-pizza/reviews/1743456/">
@@ -2228,13 +2228,13 @@ as the base (very flavorful).  I also recommend trying ...            </p>
         </div>
         <div class="review-container clearfix" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
             <meta id="metaRecipeTitle" itemprop="itemReviewed" content="Four Cheese Margherita Pizza">
-            
+
             <article class="reviewer-info imadeit-enabled">
                 <a target="_self" href="http://allrecipes.com/cook/2884337">
                           </a><div class="recipe-details-cook-stats-container"><a target="_self" href="http://allrecipes.com/cook/2884337">
     </a><a target="_self" href="http://allrecipes.com/cook/2884337">
 
-         
+
                 <ul class="cook-details">
                     <li>
                         <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="allrecipes_files/1070564.jpg">
@@ -2243,7 +2243,7 @@ as the base (very flavorful).  I also recommend trying ...            </p>
                         <h4 itemprop="author">happygirlrae</h4>
                         <ul class="cook-details__followers followers-count">
                             <li>
-                                <span class="icon--cook-card-follower" title="Followers"></span> 
+                                <span class="icon--cook-card-follower" title="Followers"></span>
                             </li>
                             <li>
                                 <span>0</span>
@@ -2251,7 +2251,7 @@ as the base (very flavorful).  I also recommend trying ...            </p>
                         </ul>
                         <ul class="cook-details__favorites favorites-count">
                             <li>
-                                <span class="icon--cook-card-favorite" title="Favorites"></span> 
+                                <span class="icon--cook-card-favorite" title="Favorites"></span>
                             </li>
                             <li>
                                 <span>32</span>
@@ -2259,7 +2259,7 @@ as the base (very flavorful).  I also recommend trying ...            </p>
                         </ul>
                         <ul class="cook-details__recipes-made recipes-made-count">
                             <li>
-                                <span class="icon--cook-card-made" title="Recipes Made"></span> 
+                                <span class="icon--cook-card-made" title="Recipes Made"></span>
                             </li>
                             <li>
                                 <span>5</span>
@@ -2268,21 +2268,21 @@ as the base (very flavorful).  I also recommend trying ...            </p>
                     </li>
                 </ul>
 
-      
-         
+
+
 
 
 
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
 
-                
+
+
 
                 <div class="stars-and-date-container">
                     <div class="rating-stars" data-ratingstars="5">
@@ -2299,11 +2299,11 @@ as the base (very flavorful).  I also recommend trying ...            </p>
                     <meta itemprop="dateCreated" content="2008-08-04">
                 </div>
             </article>
-            
+
             <p itemprop="reviewBody">
-This was amazing!  We couldn't stop eating it!  
-I added marinated cooked chicken and used a boboli pizza crust.  I also 
-added a little zesty italian seasoning  and an extra tablespoon of 
+This was amazing!  We couldn't stop eating it!
+I added marinated cooked chicken and used a boboli pizza crust.  I also
+added a little zesty italian seasoning  and an extra tablespoon of
 garlic...            </p>
             <div class="review-detail">
                 <a target="_self" class="review-detail__link" href="http://allrecipes.com/recipe/133948/four-cheese-margherita-pizza/reviews/1477664/">
@@ -2312,16 +2312,16 @@ garlic...            </p>
                 </a>
             </div>
         </div>
-            <div class="review-divider"></div>     
+            <div class="review-divider"></div>
         <div class="review-container clearfix" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
             <meta id="metaRecipeTitle" itemprop="itemReviewed" content="Four Cheese Margherita Pizza">
-            
+
             <article class="reviewer-info imadeit-enabled">
                 <a target="_self" href="http://allrecipes.com/cook/1700909">
                           </a><div class="recipe-details-cook-stats-container"><a target="_self" href="http://allrecipes.com/cook/1700909">
     </a><a target="_self" href="http://allrecipes.com/cook/1700909">
 
-         
+
                 <ul class="cook-details">
                     <li>
                         <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="allrecipes_files/85504.jpg">
@@ -2330,7 +2330,7 @@ garlic...            </p>
                         <h4 itemprop="author">Suemck</h4>
                         <ul class="cook-details__followers followers-count">
                             <li>
-                                <span class="icon--cook-card-follower" title="Followers"></span> 
+                                <span class="icon--cook-card-follower" title="Followers"></span>
                             </li>
                             <li>
                                 <span>29</span>
@@ -2338,7 +2338,7 @@ garlic...            </p>
                         </ul>
                         <ul class="cook-details__favorites favorites-count">
                             <li>
-                                <span class="icon--cook-card-favorite" title="Favorites"></span> 
+                                <span class="icon--cook-card-favorite" title="Favorites"></span>
                             </li>
                             <li>
                                 <span>1K</span>
@@ -2346,7 +2346,7 @@ garlic...            </p>
                         </ul>
                         <ul class="cook-details__recipes-made recipes-made-count">
                             <li>
-                                <span class="icon--cook-card-made" title="Recipes Made"></span> 
+                                <span class="icon--cook-card-made" title="Recipes Made"></span>
                             </li>
                             <li>
                                 <span>293</span>
@@ -2355,21 +2355,21 @@ garlic...            </p>
                     </li>
                 </ul>
 
-      
-         
+
+
 
 
 
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
 
-                
+
+
 
                 <div class="stars-and-date-container">
                     <div class="rating-stars" data-ratingstars="5">
@@ -2386,10 +2386,10 @@ garlic...            </p>
                     <meta itemprop="dateCreated" content="2008-05-16">
                 </div>
             </article>
-            
+
             <p itemprop="reviewBody">
 I thought this pizza was fantastic - about as close to a "perfect" pizza
- as you can get. (Definately the best I've ever made.) I used a Boboli 
+ as you can get. (Definately the best I've ever made.) I used a Boboli
 crust, and regular salt instead of sea salt because...            </p>
             <div class="review-detail">
                 <a target="_self" class="review-detail__link" href="http://allrecipes.com/recipe/133948/four-cheese-margherita-pizza/reviews/1390545/">
@@ -2400,13 +2400,13 @@ crust, and regular salt instead of sea salt because...            </p>
         </div>
         <div class="review-container clearfix" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
             <meta id="metaRecipeTitle" itemprop="itemReviewed" content="Four Cheese Margherita Pizza">
-            
+
             <article class="reviewer-info imadeit-enabled">
                 <a target="_self" href="http://allrecipes.com/cook/742336">
                           </a><div class="recipe-details-cook-stats-container"><a target="_self" href="http://allrecipes.com/cook/742336">
     </a><a target="_self" href="http://allrecipes.com/cook/742336">
 
-         
+
                 <ul class="cook-details">
                     <li>
                         <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="allrecipes_files/76165.jpg">
@@ -2415,7 +2415,7 @@ crust, and regular salt instead of sea salt because...            </p>
                         <h4 itemprop="author">amydoll</h4>
                         <ul class="cook-details__followers followers-count">
                             <li>
-                                <span class="icon--cook-card-follower" title="Followers"></span> 
+                                <span class="icon--cook-card-follower" title="Followers"></span>
                             </li>
                             <li>
                                 <span>24</span>
@@ -2423,7 +2423,7 @@ crust, and regular salt instead of sea salt because...            </p>
                         </ul>
                         <ul class="cook-details__favorites favorites-count">
                             <li>
-                                <span class="icon--cook-card-favorite" title="Favorites"></span> 
+                                <span class="icon--cook-card-favorite" title="Favorites"></span>
                             </li>
                             <li>
                                 <span>259</span>
@@ -2431,7 +2431,7 @@ crust, and regular salt instead of sea salt because...            </p>
                         </ul>
                         <ul class="cook-details__recipes-made recipes-made-count">
                             <li>
-                                <span class="icon--cook-card-made" title="Recipes Made"></span> 
+                                <span class="icon--cook-card-made" title="Recipes Made"></span>
                             </li>
                             <li>
                                 <span>782</span>
@@ -2440,21 +2440,21 @@ crust, and regular salt instead of sea salt because...            </p>
                     </li>
                 </ul>
 
-      
-         
+
+
 
 
 
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
 
-                
+
+
 
                 <div class="stars-and-date-container">
                     <div class="rating-stars" data-ratingstars="3">
@@ -2471,10 +2471,10 @@ crust, and regular salt instead of sea salt because...            </p>
                     <meta itemprop="dateCreated" content="2008-04-25">
                 </div>
             </article>
-            
+
             <p itemprop="reviewBody">
-Good, but not great. Between the salt in my crust, salt in the olive 
-oil, and in all of the cheese's, it was a little overwhelming. Like all 
+Good, but not great. Between the salt in my crust, salt in the olive
+oil, and in all of the cheese's, it was a little overwhelming. Like all
 the cheese combos, but won't follow this recipe next ...            </p>
             <div class="review-detail">
                 <a target="_self" class="review-detail__link" href="http://allrecipes.com/recipe/133948/four-cheese-margherita-pizza/reviews/1369281/">
@@ -2485,13 +2485,13 @@ the cheese combos, but won't follow this recipe next ...            </p>
         </div>
         <div class="review-container clearfix" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
             <meta id="metaRecipeTitle" itemprop="itemReviewed" content="Four Cheese Margherita Pizza">
-            
+
             <article class="reviewer-info imadeit-enabled">
                 <a target="_self" href="http://allrecipes.com/cook/2171751">
                           </a><div class="recipe-details-cook-stats-container"><a target="_self" href="http://allrecipes.com/cook/2171751">
     </a><a target="_self" href="http://allrecipes.com/cook/2171751">
 
-         
+
                 <ul class="cook-details">
                     <li>
                         <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="allrecipes_files/48974.jpg">
@@ -2500,7 +2500,7 @@ the cheese combos, but won't follow this recipe next ...            </p>
                         <h4 itemprop="author">aimless</h4>
                         <ul class="cook-details__followers followers-count">
                             <li>
-                                <span class="icon--cook-card-follower" title="Followers"></span> 
+                                <span class="icon--cook-card-follower" title="Followers"></span>
                             </li>
                             <li>
                                 <span>0</span>
@@ -2508,7 +2508,7 @@ the cheese combos, but won't follow this recipe next ...            </p>
                         </ul>
                         <ul class="cook-details__favorites favorites-count">
                             <li>
-                                <span class="icon--cook-card-favorite" title="Favorites"></span> 
+                                <span class="icon--cook-card-favorite" title="Favorites"></span>
                             </li>
                             <li>
                                 <span>11</span>
@@ -2516,7 +2516,7 @@ the cheese combos, but won't follow this recipe next ...            </p>
                         </ul>
                         <ul class="cook-details__recipes-made recipes-made-count">
                             <li>
-                                <span class="icon--cook-card-made" title="Recipes Made"></span> 
+                                <span class="icon--cook-card-made" title="Recipes Made"></span>
                             </li>
                             <li>
                                 <span>14</span>
@@ -2525,21 +2525,21 @@ the cheese combos, but won't follow this recipe next ...            </p>
                     </li>
                 </ul>
 
-      
-         
+
+
 
 
 
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
 
-                
+
+
 
                 <div class="stars-and-date-container">
                     <div class="rating-stars" data-ratingstars="5">
@@ -2556,10 +2556,10 @@ the cheese combos, but won't follow this recipe next ...            </p>
                     <meta itemprop="dateCreated" content="2007-10-28">
                 </div>
             </article>
-            
+
             <p itemprop="reviewBody">
-Yummy! This is so good. I use Boboli thin crust and added pepperoni to 
-one pizza to please my family. I didn't want to spend the money on the 
+Yummy! This is so good. I use Boboli thin crust and added pepperoni to
+one pizza to please my family. I didn't want to spend the money on the
 different cheeses so I found a shredded mix of Itali...            </p>
             <div class="review-detail">
                 <a target="_self" class="review-detail__link" href="http://allrecipes.com/recipe/133948/four-cheese-margherita-pizza/reviews/1127468/">
@@ -2568,7 +2568,7 @@ different cheeses so I found a shredded mix of Itali...            </p>
                 </a>
             </div>
         </div>
-            <div class="review-divider"></div>     
+            <div class="review-divider"></div>
 
     <div class="recipe-reviews__more-container">
         <!-- ngRepeat: review in reviews -->
@@ -2581,7 +2581,7 @@ different cheeses so I found a shredded mix of Itali...            </p>
     </section>
 
     <aside id="recipe-page-right-rail" class="recipe-page-right-rail four-tabs">
-        
+
 <a target="_self" href="http://allrecipes.com/recipe/129557/goat-cheese-arugula-pizza---no-red-sauce/" class="next-recipe">
     <span class="next-recipe--arrow svg-icon--actions--arrow_right svg-icon--actions--arrow_right-dims"></span>
     <img class="next-recipe--small-img" src="allrecipes_files/780557.jpg" alt="Goat Cheese Arugula Pizza - No Red Sauce! Recipe - This pesto-based pizza is an amazingly simple and delicious variation to your regular pizza. Adapted from a pizza idea at a popular Neapolitan pizza restaurant in Washington DC, it'll take minutes to make and will disappear in even less time!" title="Goat Cheese Arugula Pizza - No Red Sauce! Recipe">
@@ -2651,9 +2651,9 @@ different cheeses so I found a shredded mix of Itali...            </p>
             <span class="grid-col__reviews">67</span>
 
             <div class="rec-card__description">This pesto-based pizza is
- an amazingly simple and delicious variation to your regular pizza. 
-Adapted from a pizza idea at a popular Neapolitan pizza restaurant in 
-Washington DC, it'll take minutes to make and will disappear in even 
+ an amazingly simple and delicious variation to your regular pizza.
+Adapted from a pizza idea at a popular Neapolitan pizza restaurant in
+Washington DC, it'll take minutes to make and will disappear in even
 less time!</div>
 
         </div>
@@ -2722,8 +2722,8 @@ less time!</div>
 </div>
             <span class="grid-col__reviews">69</span>
 
-            <div class="rec-card__description">Pizza was never easier 
-than this--spread the sauce, pepperoni and cheese on pizza batter and 
+            <div class="rec-card__description">Pizza was never easier
+than this--spread the sauce, pepperoni and cheese on pizza batter and
 bake for 30 minutes for a savory, deep-dish treat.</div>
 
         </div>
@@ -3251,12 +3251,12 @@ bake for 30 minutes for a savory, deep-dish treat.</div>
     <div data-recipe-masonry-grid-view="" type="Universal"><!-- Note to Programmer: the list we are iterating over now includes entities other the recipes (reviews, cooks, photos etc)-->
 <!-- ngRepeat: item in itemList -->
 </div>
-    
+
 </section>
 </div>
         </div>
         <div data-pane="" title="Videos" class="tab-pane ng-scope ng-isolate-scope" ng-class="{active: selected}" ng-transclude="">
-            
+
 
 <!-- similar recipes-->
 <div class="right-rail column ng-scope">
@@ -3270,7 +3270,7 @@ bake for 30 minutes for a savory, deep-dish treat.</div>
                         </div>
                     </div>
                     <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
-                        How to Make Pizza Margherita 
+                        How to Make Pizza Margherita
                     </h3>
                     <div class="counts-div" style="display:block">
                         <span class="icon--videoplay-small-white"></span>
@@ -3731,7 +3731,7 @@ bake for 30 minutes for a savory, deep-dish treat.</div>
 
                 </div>
                 <footer id="pageFooter" class="full-page">
-                    
+
 <section style="position: relative; height: 310.75px;" masonry="" class="grid grid-fixed" preserve-order="" item-selector="article">
     <article style="position: absolute; left: 0px; top: 31.75px;" class=" grid-col grid-col--tiles">
 
@@ -3746,7 +3746,7 @@ bake for 30 minutes for a savory, deep-dish treat.</div>
             <li><a id="footer_stumbleupon" href="http://www.stumbleupon.com/stumbler/Allrecipes" title="StumbleUpon" target="_blank" class="ui-link"><img title="StumbleUpon" src="allrecipes_files/spacer.gif" alt="StumbleUpon"></a></li>
             <li><a id="footer_youtube" href="https://www.youtube.com/user/allrecipes" title="YouTube" target="_blank" class="ui-link"><img title="YouTube" src="allrecipes_files/spacer.gif" alt="YouTube"></a></li>
 
-    
+
         </ul>
     </article>
     <article style="position: absolute; left: 408px; top: 31.75px;" class="grid-col grid-col--tiles">
@@ -3762,14 +3762,14 @@ bake for 30 minutes for a savory, deep-dish treat.</div>
             <li><a target="_self" id="footer_advertisewithus" class="" href="http://www.meredith.com/national-media/digital">Advertise with Us</a></li>
             <li><a target="_self" id="footer_womensnetwork" class="" href="http://www.meredith.com/marketing_solutions/interactive_media.html">Meredith Women's Network</a></li>
         </ul>
-    </article> 
+    </article>
     <article style="position: absolute; left: 408px; top: 104.75px;" class="grid-col grid-col--tiles">
         <ul>
             <li>Support</li>
             <li><a target="_self" id="footer_sitemap" href="http://dish.allrecipes.com/faq-sitemap/">Site Map</a></li>
             <li><a target="_self" id="footer_contactus" href="http://dish.allrecipes.com/customer-service/contact-us-2/">Contact Us</a></li>
-            <li><a target="_self" id="footer_customersupport" href="http://dish.allrecipes.com/customer-service/">Customer Support</a></li>           
-        </ul>   
+            <li><a target="_self" id="footer_customersupport" href="http://dish.allrecipes.com/customer-service/">Customer Support</a></li>
+        </ul>
     </article>
 
     <article style="position: absolute; left: 817px; top: 104.75px;" class="grid-col grid-col--tiles ng-scope" ng-controller="ar_controllers_footerLinks" data-siteurl="m.allrecipes.com">
@@ -3786,11 +3786,11 @@ bake for 30 minutes for a savory, deep-dish treat.</div>
                 <!--  Ghostery Inc tag  cid: 1333  pid: 282-->
                 <a id="_bapw-link" href="#" target="_blank"><span id="footer_adchoices" style="vertical-align:middle !important;padding-right:5px">AdChoices</span><img class="hpfrprrnrhgkagefljvc" src="allrecipes_files/icon1.png" id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important;padding-right:5px !important;" height="11"></a>
                 <a style="" id="footer_top_button" class="btns-one-small ng-hide" data-scroll-to-anchor="top" data-show-on-scroll="700" ng-show="yTrigger == true">Top</a>
-             </li>            
+             </li>
             <script>(function () { var g = 282, i = 1333, a = false, h = document, j = h.getElementById("_bapw-link"), e = (h.location.protocol == "https:"), f = (e ? "https" : "http") + "://", c = f + (e ? "a248.e.akamai.net/betterad.download.akamai.com/91609" : "cdn.betrad.com") + "/pub/"; function b(k) { var d = new Image(); d.src = f + "l.betrad.com/pub/p.gif?pid=" + g + "&ocid=" + i + "&i" + k + "=1&r=" + Math.random() } h.getElementById("_bapw-icon").src = c + "icon1.png"; j.onmouseover = function () { if (/#$/.test(j.href)) { j.href = "http://info.evidon.com/pub_info/" + g + "?v=1" } }; j.onclick = function () { var k = window._bap_p_overrides; function d(n, q) { var o = h.getElementsByTagName("head")[0] || h.documentElement, m = a, l = h.createElement("script"); function p() { l.onload = l.onreadystatechange = null; o.removeChild(l); q() } l.src = n; l.onreadystatechange = function () { if (!m && (this.readyState == "loaded" || this.readyState == "complete")) { m = true; p() } }; l.onload = p; o.insertBefore(l, o.firstChild) } if (k && k.hasOwnProperty(g)) { if (k[g].new_window) { b("c"); return true } } this.onclick = "return " + a; d(f + "ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js", function () { d(c + "pub2.js", function () { BAPW.i(j, { pid: g, ocid: i }) }) }); return a }; b("i") }()); var _bap_p_overrides = _bap_p_overrides || {}; _bap_p_overrides[282] = { new_window: true };</script>
          </ul>
     </article>
-    <article style="position: absolute; left: 0px; top: 121.75px;" class="grid-col grid-col--tiles">      
+    <article style="position: absolute; left: 0px; top: 121.75px;" class="grid-col grid-col--tiles">
         <ul>
             <li>More Allrecipes</li>
             <li><a target="_self" id="footer_magazine" href="http://armagazine.com/mobile-site">Allrecipes Magazine</a></li>
@@ -3798,9 +3798,9 @@ bake for 30 minutes for a savory, deep-dish treat.</div>
             <li><a target="_self" id="footer_foodwishes" href="http://youtube.com/foodwishes">Food Wishes Videos</a></li>
             <li><a target="_self" id="footer_freshbites" href="http://freshbitesblog.com/">Fresh Bites Blog</a></li>
             <li><a target="_self" id="footer_rss" href="http://dish.allrecipes.com/technical-support/rss-feeds/">RSS Feeds</a></li>
-        </ul>       
-    </article> 
-</section>  
+        </ul>
+    </article>
+</section>
 
 
 
@@ -3821,67 +3821,67 @@ bake for 30 minutes for a savory, deep-dish treat.</div>
             </div>
         </div>
 
-        
+
     <div style="display: block;" id="div-gpt-ad-footer" class="ad-footer--fixed">
         <div id="div-gpt-mob-adhesive-banner-fixed"></div>
     </div>
-    <div id="div-gpt-ad-interstitial"></div> 
-    
-    
+    <div id="div-gpt-ad-interstitial"></div>
 
-        
+
+
+
 
         <script type="text/javascript">
 
             var array = new Array();
-                    
+
                         array['MessageBanner'] = 'False'==='True' ? true : false;
-                    
-                    
+
+
                         array['CookRec'] = 'True'==='True' ? true : false;
-                    
-                    
+
+
                         array['Collections'] = 'True'==='True' ? true : false;
-                    
-                    
+
+
                         array['Feed'] = 'True'==='True' ? true : false;
-                    
-                    
+
+
                         array['AdTest'] = 'False'==='True' ? true : false;
-                    
-                    
+
+
                         array['FriendFinder'] = 'True'==='True' ? true : false;
-                    
-                    
+
+
                         array['CreateRecipe'] = 'True'==='True' ? true : false;
-                    
-                    
+
+
                         array['KarmaAds'] = 'True'==='True' ? true : false;
-                    
-                    
+
+
                         array['HubSlider'] = 'True'==='True' ? true : false;
-                    
-                    
+
+
                         array['ProPages'] = 'True'==='True' ? true : false;
-                    
-                    
+
+
                         array['NextLive'] = 'True'==='True' ? true : false;
-                    
-                    
+
+
                         array['Activity'] = 'True'==='True' ? true : false;
-                    
-                    
+
+
                         array['SocialNotification'] = 'False'==='True' ? true : false;
-                    
-                    
+
+
                         array['AngularLocalOffers'] = 'False'==='True' ? true : false;
-                    
-                    
+
+
                         array['ReviewModal'] = 'False'==='True' ? true : false;
-                    
-                    
+
+
                         array['DishBlog'] = 'False'==='True' ? true : false;
-                    
+
 
             window.Toggles = array;
 
@@ -3901,20 +3901,20 @@ window.dataLayer={"version":"1.0","pageInstanceId":"allrecipes.com/recipe/133948
                 document.cookie = "CurrentUserStateModel=" + CurrentUserStateCookie;
                 document.cookie = "PublicProfileStateModel=" + PublicProfileStateCookie;
             }
-             
+
         </script>
         <script src="allrecipes_files/analytics.js"></script>
         <script src="allrecipes_files/main-bottom.js"></script><script src="allrecipes_files/karma.js"></script>
         <script>angular.module('allrecipes').constant('Constant', { 'version': '2015.09.10.01' });</script>
 
-        
+
     <script src="allrecipes_files/recipe.js"></script>
     <script>
         var rateAndReviewInitScope = {"recipeId":133948,"recipeType":"Recipe","userId":0,"user":{"madeCountRunningTotal":0,"favoritesCount":0,"followersCount":0},"userReview":{"text":null,"rating":0,"date":""}};
         var facebookShareInitScope = {"recipeId":133948,"recipeTitle":"Four Cheese Margherita Pizza Recipe","recipeUrl":"http://allrecipes.com/recipe/133948/four-cheese-margherita-pizza/","recipePhotoUrl":"http://images.media-allrecipes.com/userphotos/720x405/694708.jpg","recipeDescription":"These delicious four cheese pizzas are bursting with flavor, and ready in under one hour."};
 </script>
 
-                     
+
         <script>
 
 			$(document).ready(function () {
@@ -3927,12 +3927,12 @@ window.dataLayer={"version":"1.0","pageInstanceId":"allrecipes.com/recipe/133948
 				var omniShim = new OmnitureShim(window.dataLayer, s, pubsub, false);
 						var kruxShim = new KruxShim(window.dataLayer, pubsub);
 						var gaShim = new GoogleAnalyticsShim(window.dataLayer, ga, pubsub);
-			} 
+			}
         </script>
-    
+
 
 <script src="allrecipes_files/gpt"></script><script src="allrecipes_files/karma_002.js"></script><div class="kxhead" data-id="H1gAR3V7" style="display:none !important;"><span class="kxtag kxinvisible" data-id="52673" data-alias="Reynolds Campaign Selectable Id Lookup"><script>
-/* 
+/*
 * Purpose: Reynolds Campaign Selectable Id Lookup
 * Sites: Fitness, Recipe, Eating Well, BHG, Family Circle, Rachael Ray, Recipe
 * Timing: Right Away
@@ -3941,7 +3941,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"allrecipes.com/recipe/133948
 (function (app) {
   window.mdp = window.mdp || {};
   window.mdp.app = window.mdp.app || {};
-  
+
   window.mdp.app.SmIdLookup = function(){
     var pageUrl,
       callback,
@@ -3957,7 +3957,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"allrecipes.com/recipe/133948
 
       pageUrl = opts.pageUrl || window.location.href;
       self.callback = (typeof opts.callback === 'function') ? opts.callback : function(){};
-      
+
       site = opts.site;
       env = opts.env || 'prod';
 
@@ -3968,7 +3968,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"allrecipes.com/recipe/133948
       }
     }
 
-    function loadData(src) {   
+    function loadData(src) {
         var script = document.createElement('script');
         script.async = true;
         script.src = src;
@@ -3976,7 +3976,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"allrecipes.com/recipe/133948
     }
 
     function getId(response) {
-      
+
         var sm_id = false,
           siteData = response,
           pathPattern = /(http:\/\/)?www\.[^\/]+(\/.*)$/i,
@@ -4012,7 +4012,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"allrecipes.com/recipe/133948
               window._sm_pls.push(sm_id[i]);
             }
           }else if(typeof sm_id == 'string'){
-              window._sm_pls.push(sm_id);            
+              window._sm_pls.push(sm_id);
           }
 
     		  if (impressionMap.hasOwnProperty(site)) {
@@ -4021,7 +4021,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"allrecipes.com/recipe/133948
         }
 
         self.callback();
-          
+
     }
 
     var publicAPI = {
@@ -4047,7 +4047,7 @@ Krux('scrape', { "user_attr_cookie_hid": {cookie: "hid"}});
 (function(){
     if(window.s){
         if(window.s.eVar13){
-            Krux('set', 'page_attr_eVar13', window.s.eVar13);        
+            Krux('set', 'page_attr_eVar13', window.s.eVar13);
         }
         if(window.s.eVar14){
             Krux('set', 'page_attr_eVar14', window.s.eVar14);
@@ -4069,18 +4069,18 @@ Krux('set', 'page_attr_omniture_prop8', typeof window.s =='object' && window.s['
   if (window.dataLayer && window.dataLayer.page && window.dataLayer.page.category && window.dataLayer.page.category.adKeys) {
     var ad_key = window.dataLayer.page.category.adKeys;
     var ad_key_values;
-    
+
     if (ad_key !=null && ad_key != "")  {
-    
+
     ad_key = ad_key.split(";");
 
     for (i = 0; i < ad_key.length; i++) {
        if (ad_key[i].substring(0,2) == "k=") {
 
-    ad_key_values = ad_key[i].replace("[", "");   
-    ad_key_values = ad_key_values.replace("]", ""); 
-    ad_key_values = ad_key_values.replace(/,/g, ";k=");    
-    
+    ad_key_values = ad_key[i].replace("[", "");
+    ad_key_values = ad_key_values.replace("]", "");
+    ad_key_values = ad_key_values.replace(/,/g, ";k=");
+
     Krux('set', {'page_attr_adkeyvalues': ad_key_values });
        }
     }
@@ -4104,45 +4104,45 @@ if (window.dataLayer) {
 for (var i = dataLayer.length - 1; i > -1; i--) {
 
    if ('Page Name' in dataLayer[i]) {
-      ga_pagename = dataLayer[i]["Page Name"];     
+      ga_pagename = dataLayer[i]["Page Name"];
       Krux('set', {'page_attr_ga_pagename': ga_pagename });
       }
-      
+
    if ('Channel' in dataLayer[i]) {
       ga_channel = dataLayer[i]["Channel"];
       Krux('set', {'page_attr_ga_channel': ga_channel });
       }
-      
+
    if ('Category' in dataLayer[i]) {
-      ga_category = dataLayer[i]["Category"]; 
+      ga_category = dataLayer[i]["Category"];
       Krux('set', {'page_attr_ga_category': ga_category });
       }
-      
+
     if ('Subcategory' in dataLayer[i]) {
       ga_subcategory = dataLayer[i]["Subcategory"];
       Krux('set', {'page_attr_ga_subcategory': ga_subcategory });
       }
-      
+
     if ('Member Logged In' in dataLayer[i]) {
       ga_memberlogin = dataLayer[i]["Member Logged In"];
       Krux('set', {'page_attr_ga_memberlogin': ga_memberlogin });
       }
-      
+
     if ('Search Term' in dataLayer[i]) {
       ga_searchterm = dataLayer[i]["Search Term"];
       Krux('set', {'page_attr_ga_searchterm': ga_searchterm });
       }
-      
+
     if ('Sponsor Name' in dataLayer[i]) {
       ga_sponsorname = dataLayer[i]["Sponsor Name"];
       Krux('set', {'page_attr_ga_sponsorname': ga_sponsorname });
       }
-      
+
     if ('Newsletter Signup Source' in dataLayer[i]) {
       ga_newslettersource = dataLayer[i]["Newsletter Signup Source"];
       Krux('set', {'page_attr_ga_newslettersource': ga_newslettersource });
       }
-      
+
     if ('Content Type' in dataLayer[i]) {
       ga_contenttype = dataLayer[i]["Content Type"];
       Krux('set', {'page_attr_ga_contenttype': ga_contenttype });
@@ -4156,11 +4156,11 @@ for (var i = dataLayer.length - 1; i > -1; i--) {
     if ('Application' in dataLayer[i]) {
       ga_application = dataLayer[i]["Application"];
       Krux('set', {'page_attr_ga_application': ga_application });
-      }   
+      }
    }
 }
 </script></span><span class="kxtag kxinvisible" data-id="63196" data-alias="Outbrain - Serve Ad to Placeholder"><script>
-	/* 
+	/*
 	* Purpose: Serve Outbrain through Supertags to inhouse sites (Drupal/ATG)
 	* Sites: inhouse sites (Drupal/ATG)
 	* Timing: After Page Load
@@ -4169,34 +4169,34 @@ for (var i = dataLayer.length - 1; i > -1; i--) {
 	window.adServiceQ = window.adServiceQ || [];
 	adServiceQ.push(function(){
 	    console.log("Passing Supertag/Outbrain Script through adServiceQ. Use URL param outbrainDebug=true for debug info.");
-	    
+
 	    (function(){
 	    	var outbrain = {};
 	    	outbrain.debug = function(s, color) {
-			    color = color || 'blue'; 
-			    if (window.location.search.indexOf('outbrainDebug=true') > 0 && window.console) { 
+			    color = color || 'blue';
+			    if (window.location.search.indexOf('outbrainDebug=true') > 0 && window.console) {
 			        if(typeof s === 'object'){
-			            console.log('%c--DEBUG OUTBRAIN: ', "font-size:12px;color: "+color+";"); 
+			            console.log('%c--DEBUG OUTBRAIN: ', "font-size:12px;color: "+color+";");
 			            console.log(s);
 			        }else{
-			            console.log('%c--DEBUG OUTBRAIN: ' + s, "font-size:12px;color: "+color+";"); 
+			            console.log('%c--DEBUG OUTBRAIN: ' + s, "font-size:12px;color: "+color+";");
 			        }
 			    }
 			};
 
 			function outbrainLoader() {
-				
-				var tag, pageType, site, siteTemplate, 
-					
+
+				var tag, pageType, site, siteTemplate,
+
 					isTest = (document.location.hostname === 'localhost' || !!(document.location.host.indexOf('test')+1) || !!(document.location.host.indexOf('local.')+1) || !!(document.location.host.indexOf('dev')+1)),
 					isMobile = !!(adService.adUnit.top.indexOf('.mob')+1),
 
 					karmaType = adService.pageTargetingValues.type,
 					site = adService.adUnit.top.split('/')[1].split('.')[0],
-					
+
 					siteParams = {
 						mobileTag: 'MB_1',
-						
+
 						divinecaroline: {
 							AR_1: ['story', 'article','video_story'],
 							AR_2: 'blog_post',
@@ -4303,7 +4303,7 @@ for (var i = dataLayer.length - 1; i > -1; i--) {
 				if (isMobile) {
 					tag = (siteParams[site].mobileTag !== undefined) ? siteParams[site].mobileTag : siteParams.mobileTag;
 				} else {
-					for (var key in siteParams[site]) { 
+					for (var key in siteParams[site]) {
 						if (typeof siteParams[site][key] === 'object') {
 							for (var key2 in siteParams[site][key]) {
 								if (siteParams[site][key][key2] === karmaType) {
@@ -4316,12 +4316,12 @@ for (var i = dataLayer.length - 1; i > -1; i--) {
 							}
 						}
 					};
-				} 
+				}
 
 				datasrc = (siteParams[site].hasOwnProperty('url') && isTest) ? document.location.protocol + '//' + siteParams[site].url + document.location.pathname : document.location.href;
 
 				outbrain.debug('Outbrain Widget ID: ' + tag);
-			
+
 				//build and send the html tag to the placeholder
 				if (tag === undefined) {
 					outbrain.debug('Could not associate a data-widget-id with this page type: ' + karmaType);
@@ -4339,7 +4339,7 @@ for (var i = dataLayer.length - 1; i > -1; i--) {
 				    head.appendChild(js);
 				}
 
-			} 
+			}
 
 			var outbrainPlaceholder = document.getElementById('supertags-outbrain-placeholder');
 			if (outbrainPlaceholder !== null) {
@@ -4360,7 +4360,7 @@ for (var i = dataLayer.length - 1; i > -1; i--) {
       var visitorstatus = AR.Ads.VisitorStatus;
       var keyvalues = AR.Ads.KeyValues;
       var arFriendlyName = AR.FriendlyName;
-     
+
       if (site) Krux('set', {'page_attr_site': site });
       if (zone) Krux('set', {'page_attr_zone': zone });
       if (visitorstatus) Krux('set', {'user_attr_visitorstatus': visitorstatus });
@@ -4373,8 +4373,8 @@ for (var i = dataLayer.length - 1; i > -1; i--) {
   }
 })();
 </script></span><span class="kxtag kxinvisible" data-id="64251" data-alias="Media.net - Serve Ad to Placeholder"><script>
-/* 
-* Purpose: Media.net - Serve Ad to Placeholder 
+/*
+* Purpose: Media.net - Serve Ad to Placeholder
 * Sites: In House ATG/Drupal Sites
 * Timing: Immediately
 * Status: Enabled
@@ -4383,26 +4383,26 @@ for (var i = dataLayer.length - 1; i > -1; i--) {
 	adServiceQ.push(function(){
 		if(adService.mobileAds == false){
 	    console.log("Passing Supertag/Media.net Script through adServiceQ. Use URL param medianetDebug=true for debug info.");
-	    
+
 	    (function(d,w){
 	    	var medianet = {};
 	    	medianet.debug = function(s, color) {
-			    color = color || 'blue'; 
-			    if (w.location.search.indexOf('medianetDebug=true') > 0 && w.console) { 
+			    color = color || 'blue';
+			    if (w.location.search.indexOf('medianetDebug=true') > 0 && w.console) {
 			        if(typeof s === 'object'){
-			            console.log('%c--DEBUG MEDIANET: ', "font-size:12px;color: "+color+";"); 
+			            console.log('%c--DEBUG MEDIANET: ', "font-size:12px;color: "+color+";");
 			            console.log(s);
 			        }else{
-			            console.log('%c--DEBUG MEDIANET: ' + s, "font-size:12px;color: "+color+";"); 
+			            console.log('%c--DEBUG MEDIANET: ' + s, "font-size:12px;color: "+color+";");
 			        }
 			    }
 			};
 
 			function medianetLoader() {
-				
+
 				var karmaType = adService.pageTargetingValues.type,
 					site = adService.adUnit.top.split('/')[1].split('.')[0],
-					
+
 					mnConfigs = {
 						// site: {
 						// 	article: {id: '', size: ''},
@@ -4464,7 +4464,7 @@ for (var i = dataLayer.length - 1; i > -1; i--) {
 							post: {id: '371673758', size: '650x175'},
 							story: {id: '884613337', size: '650x175'},
 							article: {id: '884613337', size: '650x175'},
-							recipe: {id: '572954161', size: '650x175'},							
+							recipe: {id: '572954161', size: '650x175'},
 							videolander: {id: '175109674', size: '650x175'},
 							popularRecipes: {id: '195219424', size: '656x175'},
 							url: 'www.recipe.com'
@@ -4511,7 +4511,7 @@ for (var i = dataLayer.length - 1; i > -1; i--) {
 				if (mnConfigs.hasOwnProperty(site)) {
 					for (var key in mnConfigs[site]) {
 						if (key === karmaType) {
-								mnConf = mnConfigs[site][key];							
+								mnConf = mnConfigs[site][key];
 						}
 					}
 					medianet.debug('Media.net ID: ' +mnConf.id+ ', Size: ' +mnConf.size);
@@ -4524,8 +4524,8 @@ for (var i = dataLayer.length - 1; i > -1; i--) {
 				} else {
 					window._mNHandle = window._mNHandle || {};
 					window._mNHandle.queue = window._mNHandle.queue || [];
-					medianet_versionId = "121199"; 
-					
+					medianet_versionId = "121199";
+
 					(function() {
 						var sct = document.createElement("script"),
 						sctHl = document.getElementsByTagName("script")[0],
@@ -4535,7 +4535,7 @@ for (var i = dataLayer.length - 1; i > -1; i--) {
 						sct.async = "async";
 						sctHl.parentNode.insertBefore(sct, sctHl);
 					})();
-									
+
 					var mnDiv = d.createElement('div');
 					mnDiv.setAttribute('id', mnConf.id);
 					medianetPlaceholder.appendChild(mnDiv);
@@ -4548,7 +4548,7 @@ for (var i = dataLayer.length - 1; i > -1; i--) {
 					catch (error) { console.log('media.net error', error)}
 				}
 
-			} 
+			}
 
 			var medianetPlaceholder = d.getElementById('supertags-medianet-placeholder');
 			if (medianetPlaceholder) {
@@ -4562,24 +4562,24 @@ for (var i = dataLayer.length - 1; i > -1; i--) {
 	}
 })
 </script></span><span class="kxtag kxinvisible" data-id="45727" data-alias="Xaxis user match"><script>
-(function(){     
+(function(){
 	var kuid = window.Krux('get', 'user');
 	if (kuid) {
 	     var min = 1000000000;
 	     var max = 9999999999;
 	     var rand = Math.floor(Math.random() * (max - min)) + min;
 	     var prefix = location.protocol == 'https:' ? "https:" :"http:";
-	     var url = prefix 
+	     var url = prefix
 	               + '//t.mookie1.com/t/v1/event?migClientId=6726&migAction=krux&migSource=mig&migRandom='
-	               + rand 
+	               + rand
 	               +'&migParam1='
 	               + kuid;
 	     (new Image()).src = url;
-	     
+
 	}
 })();
 </script></span><span class="kxtag kxinvisible" data-id="52155" data-alias="Selectable Media Native - AllRecipes"><script type="text/javascript">
-/* 
+/*
 * Purpose: Selectable Media Native - AllRecipes
 * Sites: AllRecipes
 * Timing: After Page Load
@@ -4616,7 +4616,7 @@ for (var i = dataLayer.length - 1; i > -1; i--) {
   }
 
 
-  window._sm_pls = window._sm_pls || [];        
+  window._sm_pls = window._sm_pls || [];
   window._sm_pls = window._sm_pls.concat(finalPlacements);
 
   window.mdp = window.mdp || {};
@@ -4639,7 +4639,7 @@ for (var i = dataLayer.length - 1; i > -1; i--) {
 
 }(document));
 </script></span><span class="kxtag kxinvisible" data-id="59340" data-alias="DCN/WhiteOps Bot Survey"><script>
-/* 
+/*
 * Purpose: DCN/WhiteOps Bot Survey
 * Sites: AllRecipes, BHG, DLV, DC, Rachael Ray, FC, FitPreg, Fitness, MSLO, More, Parenting, Parents, Recipe, Shape
 * Timing: After Page
@@ -4647,7 +4647,7 @@ for (var i = dataLayer.length - 1; i > -1; i--) {
 */
 
 window.adServiceQ = window.adServiceQ || [];
-adServiceQ.push(function(){    
+adServiceQ.push(function(){
     var referrerDomain = (document.referrer.length > 0) ? document.referrer.match(/([^.]*)(?=\.[^.]*$)/)[0] : '';
     var SOURCE_NAME = encodeURIComponent(referrerDomain),
       USER_ID = encodeURIComponent(window.Krux.user || ''),
@@ -4664,7 +4664,7 @@ adServiceQ.push(function(){
 </script></span><span class="kxtag kxinvisible" data-id="43745" data-alias="Mdot Labs (reports ordersrc) - AR Galleries"><div class="mlabs_container">
 
 <script type="text/javascript">
-/* 
+/*
 * Purpose: Mdot Labs (reports ordersrc) - AR Galleries
 * Sites: AllRecipes
 * Timing: After Page Load
@@ -4734,7 +4734,7 @@ adServiceQ.push(function(){
 	    currentTimePeriod = "Evening";
 	} else if(currentDateTime.getHours() > 20 && currentDateTime.getHours() <= 24) {
 	    currentTimePeriod = "Night";
-	} 
+	}
 
 	if(currentDay) {Krux('set', 'user_attr_visitor_day_of_week', currentDay)}
 	if(currentTimePeriod) {Krux('set', 'user_attr_visitor_time_of_day', currentTimePeriod)}

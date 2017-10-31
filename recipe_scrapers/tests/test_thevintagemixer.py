@@ -35,7 +35,7 @@ class TestTheVintageMixerScraper(unittest.TestCase):
         )
 
     def test_ingredients(self):
-        self.assertListEqual(
+        self.assertCountEqual(
             [
                 '2 tablespoons coconut flour, +1 teaspoon',
                 '1/4 cup almond flour',

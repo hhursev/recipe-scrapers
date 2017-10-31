@@ -35,7 +35,7 @@ class TestClosetCooking(unittest.TestCase):
         )
 
     def test_ingredients(self):
-        self.assertListEqual(
+        self.assertCountEqual(
             [
                 '1 tablespoon oil',
                 '1 pound chicken, boneless and skinless, diced',

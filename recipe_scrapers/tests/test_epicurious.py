@@ -35,7 +35,7 @@ class TestEpicurious(unittest.TestCase):
         )
 
     def test_ingredients(self):
-        self.assertListEqual(
+        self.assertCountEqual(
             [
                 '2 (5.5-ounce) servings fresh or dried ramen noodles',
                 '4 cups torn escarole',

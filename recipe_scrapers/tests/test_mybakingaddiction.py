@@ -5,6 +5,7 @@ from recipe_scrapers.mybakingaddiction import MyBakingAddiction
 
 
 class TestMyBakingAddictionScraper(unittest.TestCase):
+
     def setUp(self):
         # tests are run from tests.py
         with open(os.path.join(
@@ -35,7 +36,7 @@ class TestMyBakingAddictionScraper(unittest.TestCase):
         )
 
     def test_ingredients(self):
-        self.assertListEqual(
+        self.assertCountEqual(
             [
                 '½ cup plus 2 tablespoons granulated sugar',
                 'zest of one lemon',

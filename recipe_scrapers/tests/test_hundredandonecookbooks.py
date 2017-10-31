@@ -35,7 +35,7 @@ class TestHundredAndOneCookbooksScraper(unittest.TestCase):
         )
 
     def test_ingredients(self):
-        self.assertListEqual(
+        self.assertCountEqual(
             [
                 '3 large, ripe bananas,  well mashed (about 1 1/2 cups)',
                 '1 teaspoon vanilla extract',

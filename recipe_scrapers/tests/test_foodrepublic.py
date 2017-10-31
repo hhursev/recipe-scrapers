@@ -35,7 +35,7 @@ class TestFoodRepublicScraper(unittest.TestCase):
         )
 
     def test_ingredients(self):
-        self.assertListEqual(
+        self.assertCountEqual(
             [
                 '12 spears Dutch white asparagus',
                 '1/2 each Meyer lemon, orange and grapefruit',

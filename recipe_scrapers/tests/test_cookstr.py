@@ -35,7 +35,7 @@ class TestCookstrScraper(unittest.TestCase):
         )
 
     def test_ingredients(self):
-        self.assertListEqual(
+        self.assertCountEqual(
             [
                 '1 recipe Chocolate Cake Mix',
                 '1/2 cup coffee or water',

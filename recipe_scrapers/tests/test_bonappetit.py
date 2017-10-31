@@ -35,7 +35,7 @@ class TestBonAppetitScraper(unittest.TestCase):
         )
 
     def test_ingredients(self):
-        self.assertListEqual(
+        self.assertCountEqual(
             [
                 '¼ cup dried unsweetened cranberries',
                 '3 tablespoons unseasoned rice vinegar',

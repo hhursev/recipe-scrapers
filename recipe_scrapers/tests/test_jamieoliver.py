@@ -35,7 +35,7 @@ class TestJamieOliverScraper(unittest.TestCase):
         )
 
     def test_ingredients(self):
-        self.assertListEqual(
+        self.assertCountEqual(
             [
                 '250 g unsalted butter',
                 '200 g good-quality dark chocolate (70% cocoa solids) , broken up',

@@ -35,7 +35,7 @@ class TestWhatsGabyCookingScraper(unittest.TestCase):
         )
 
     def test_ingredients(self):
-        self.assertListEqual(
+        self.assertCountEqual(
             [
                 '10 lemons, juiced, about 1 cup of fresh lemon juice',
                 '3/4 cup super fine sugar',

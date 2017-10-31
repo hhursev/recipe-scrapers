@@ -35,7 +35,7 @@ class TestFineDiningLoversScraper(unittest.TestCase):
         )
 
     def test_ingredients(self):
-        self.assertListEqual(
+        self.assertCountEqual(
             [
                 'Zucchini',
                 'Basil',

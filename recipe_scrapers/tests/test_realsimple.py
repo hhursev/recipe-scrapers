@@ -35,7 +35,7 @@ class TestRealSimpleScraper(unittest.TestCase):
         )
 
     def test_ingredients(self):
-        self.assertListEqual(
+        self.assertCountEqual(
             [
                 '3 8-ounce packages cream cheese, at room temperature',
                 '4 eggs', '1 1/4 cups sugar',

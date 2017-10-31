@@ -35,7 +35,7 @@ class TestTastyKitchenScraper(unittest.TestCase):
         )
 
     def test_ingredients(self):
-        self.assertListEqual(
+        self.assertCountEqual(
             [
                 '2 cups All-purpose Flour',
                 '1 teaspoon Kosher Salt',

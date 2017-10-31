@@ -35,7 +35,7 @@ class TestSimplyRecipesScraper(unittest.TestCase):
         )
 
     def test_ingredients(self):
-        self.assertListEqual(
+        self.assertCountEqual(
             [
                 '2 bone-in chicken breasts, skin removed (1 to 1 1/2 pounds)',
                 '1 cup long-grain white rice, like basmati',

@@ -35,7 +35,7 @@ class TestAllRecipesScraper(unittest.TestCase):
         )
 
     def test_ingredients(self):
-        self.assertListEqual(
+        self.assertCountEqual(
             [
                 '1/4 cup olive oil',
                 '1 tablespoon minced garlic',
