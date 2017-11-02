@@ -3,4 +3,4 @@ include README.md
 
 exclude tests.py
 exclude requirements.txt
-recursive-exclude recipe_scrapers/tests *
+prune recipe_scrapers/tests

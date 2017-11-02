@@ -6,7 +6,7 @@
 A simple web scraping tool for recipe sites I use in a project of mine that makes sense to live as
 a separate package. **No Python 2 support.**
 
-    pip install git+git://github.com/hhursev/recipe-scraper.git
+    pip install git+git://github.com/hhursev/recipe-scrapers.git
 
 then:
 
@@ -68,9 +68,9 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 
 Assuming you have [virtualenv](https://pypi.python.org/pypi/virtualenv) and [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/latest/) installed, navigate to the directory where you want this project to live in and drop these lines
 
-    git clone git@github.com:hhursev/recipe-scraper.git &&
-    cd recipe-scraper &&
-    mkvirtualenv -a `pwd` -p python3 -r requirements.txt recipe-scraper &&
+    git clone git@github.com:hhursev/recipe-scrapers.git &&
+    cd recipe-scrapers &&
+    mkvirtualenv -a `pwd` -p python3 -r requirements.txt recipe-scrapers &&
     coverage run tests.py &&
     coverage report
 
