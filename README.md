@@ -44,6 +44,7 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 - [http://cookstr.com/](http://cookstr.com/)
 - [http://epicurious.com/](http://epicurious.com/)
 - [http://finedininglovers.com/](https://www.finedininglovers.com/)
+- [http://foodnetwork.com/](http://www.foodnetwork.com)
 - [http://foodrepublic.com/](http://foodrepublic.com)
 - [http://giallozafferano.it/](http://giallozafferano.it)
 - [http://jamieoliver.com/](http://www.jamieoliver.com/)
