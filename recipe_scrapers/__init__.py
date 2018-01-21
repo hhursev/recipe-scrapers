@@ -8,6 +8,7 @@ from .closetcooking import ClosetCooking
 from .cookstr import Cookstr
 from .epicurious import Epicurious
 from .finedininglovers import FineDiningLovers
+from .foodnetwork import FoodNetwork
 from .foodrepublic import FoodRepublic
 from .giallozafferano import GialloZafferano
 from .hundredandonecookbooks import HundredAndOneCookbooks
@@ -33,6 +34,7 @@ SCRAPERS = {
     Cookstr.host(): Cookstr,
     Epicurious.host(): Epicurious,
     FineDiningLovers.host(): FineDiningLovers,
+    FoodNetwork.host(): FoodNetwork,
     FoodRepublic.host(): FoodRepublic,
     GialloZafferano.host(): GialloZafferano,
     HundredAndOneCookbooks.host(): HundredAndOneCookbooks,

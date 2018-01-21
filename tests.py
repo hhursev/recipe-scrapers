@@ -6,6 +6,7 @@ from recipe_scrapers.tests.test_closetcooking import *
 from recipe_scrapers.tests.test_cookstr import *
 from recipe_scrapers.tests.test_epicurious import *
 from recipe_scrapers.tests.test_finedininglovers import *
+from recipe_scrapers.tests.test_foodnetwork import *
 from recipe_scrapers.tests.test_foodrepublic import *
 from recipe_scrapers.tests.test_giallozafferano import *
 from recipe_scrapers.tests.test_hundredandonecookbooks import *
