@@ -69,8 +69,18 @@ def url_path_to_dict(path):
     return url_dict
 
 
-def scrape_me(url_path):
-    return SCRAPERS[url_path_to_dict(url_path.replace('://www.', '://'))['host']](url_path)
+class WebsiteNotImplementedError(NotImplementedError):
+    '''Error for when the website is not supported by this library.'''
 
+
+def scrape_me(url_path):
+    host_name = url_path_to_dict(url_path.replace('://www.', '://'))['host']
+    try:
+        scraper = SCRAPERS[host_name]
+    except KeyError:
+        raise WebsiteNotImplementedError(
+            "Website ({}) is not supported".format(host_name))
+
+    return scraper(url_path)
 
 __all__ = ['scrape_me']
