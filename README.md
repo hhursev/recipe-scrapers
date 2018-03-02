@@ -48,6 +48,7 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 - [http://foodrepublic.com/](http://foodrepublic.com)
 - [http://giallozafferano.it/](http://giallozafferano.it)
 - [http://jamieoliver.com/](http://www.jamieoliver.com/)
+- [https://healthyeating.nhlbi.nih.gov/](https://healthyeating.nhlbi.nih.gov/)
 - [http://mybakingaddiction.com/](http://mybakingaddiction.com/)
 - [http://paninihappy.com/](http://paninihappy.com/)
 - [http://realsimple.com/](http://www.realsimple.com/)

@@ -14,6 +14,7 @@ from .giallozafferano import GialloZafferano
 from .hundredandonecookbooks import HundredAndOneCookbooks
 from .jamieoliver import JamieOliver
 from .mybakingaddiction import MyBakingAddiction
+from .nihhealthyeating import NIHHealthyEating
 from .paninihappy import PaniniHappy
 from .realsimple import RealSimple
 from .simplyrecipes import SimplyRecipes
@@ -40,6 +41,7 @@ SCRAPERS = {
     HundredAndOneCookbooks.host(): HundredAndOneCookbooks,
     JamieOliver.host(): JamieOliver,
     MyBakingAddiction.host(): MyBakingAddiction,
+    NIHHealthyEating.host(): NIHHealthyEating,
     PaniniHappy.host(): PaniniHappy,
     RealSimple.host(): RealSimple,
     SimplyRecipes.host(): SimplyRecipes,
