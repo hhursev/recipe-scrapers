@@ -1,0 +1,1053 @@
+
+<!DOCTYPE HTML>
+
+<html>
+<head id="ctl00_Head1"><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="w3c/p3p.xml" rel="P3Pv1" /><link href="css/global.css" rel="stylesheet" type="text/css" media="screen" /><link href="css/print.css" rel="stylesheet" type="text/css" media="print" /><link href="styles/globalstyle.css" rel="stylesheet" type="text/css" media="screen" />
+
+    <script type="text/javascript" src="Scripts/jquery.js"></script>
+
+    <script type="text/javascript" src="Scripts/global.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.anchor.js"></script>
+    <!-- Adode Analytics code -->
+    <script src="//assets.adobedtm.com/219fe603b661f42db2252735b5931981afeb0439/satelliteLib-12fc50a2437a2f5b9a2d69a93da751d532ddde62.js"></script>
+    <script async type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=HHS&sdor=nih.gov "></script>
+
+    <script type="text/javascript">
+<!--//-----------------------------------+
+// functionality for Left Navigation menu 
+// -------------------------------------->
+        $(document).ready(function() {
+            
+            hu = window.location.search.substring(1);
+            
+            gy = hu.split("&");  
+            var query = '';
+            
+            for (i = 0; i < gy.length; i++) {
+                ft = gy[i].split("=");
+                             
+                if (ft[0] == "linkId") {
+                    query = ft[1];                                                        
+                }
+            }
+            //alert(query);
+            var image1 = 'bullet_arrow_down.png';
+            var image2 = 'bullet_arrow_up.png';
+ 
+            if (query != '' && query <= 10) { 
+                query = query - 1;  //since we have removed submenus in "About" section, now its taking "Healthy Eating Recipes" menu item as menu(0). But the linkid for this menu item is 1. so we need to match the linkId and menu index. if we add any submenus in "About" section we can comment this line.                         
+                $(".menu_body:eq(" + query + ")").show();                                       
+                $(".menu_head:eq(" + query + ")").css('background-Image', 'url("Images/' + image2 + '")');
+            } 
+            
+            else if (query != '' && query > 10){ 
+                query = query - 11; //menu index is '0' and linkid is '11'. so need to make the linkid starts from '0' internally to match menu index and linkid. 
+                $(".menu_body_CookBook:eq(" + query + ")").show();                                       
+                $(".menu_head_CookBook:eq(" + query + ")").css('background-Image', 'url("Images/' + image2 + '")');
+            } 
+            
+            //slides the element with class "menu_body" when paragraph with class "menu_head" is clicked
+            $("#firstpane div.menu_head").click(function() {
+            
+                var imgUrl = 'url("Images/' + image1 + '")';
+                var hasUpImage = true;
+                if($(this).css('background-image').indexOf(image1) >= 0)
+                    hasUpImage = false;
+            
+                $("#hidMenuId")[0].value = $(this)[0].uniqueID;               
+                        
+                $(this).next("div.menu_body").slideToggle(300).siblings("div.menu_body").slideUp("slow");                
+                $('div.menu_body_CookBook').siblings("div.menu_body_CookBook").slideUp("slow");
+                $('div.menu_head_CookBook').siblings("div.menu_head_CookBook").css('background-image', imgUrl); 
+                $('div.menu_head').siblings("div.menu_head").css('background-image', imgUrl); 
+                                                                
+                
+               
+                if((!hasUpImage) && ($(this).css('background-image').indexOf(image1) >= 0))
+                {
+                 imgUrl = 'url("Images/' + image2 + '")';
+                }                
+                $(this).css('background-image', imgUrl); 
+              
+            });
+            
+              $("#firstpane div.menu_head_CookBook").click(function() {
+           
+               // $("#hidMenuIdtest")[0].value = $(this)[0].uniqueID;               
+                              
+                var imgUrl = 'url("Images/' + image1 + '")';               
+                var hasUpImage = true;
+                if($(this).css('background-image').indexOf(image1) >= 0)
+                    hasUpImage = false;                    
+                
+                $(this).next("div.menu_body_CookBook").slideToggle(300).siblings("div.menu_body_CookBook").slideUp("slow");
+                $('div.menu_body').siblings("div.menu_body").slideUp("slow");                
+                $('div.menu_head').siblings("div.menu_head").css('background-image', imgUrl); 
+                $(this).next("div.menu_body_CookBook").siblings("div.menu_head_CookBook").css('background-image', imgUrl); 
+                
+                if((!hasUpImage) && ($(this).css('background-image').indexOf(image1) >= 0))
+                {
+                 imgUrl = 'url("Images/' + image2 + '")';
+                }                
+                $(this).css('background-image', imgUrl); 
+              
+            });
+        });
+        
+      
+    </script>
+
+    
+<title>
+	Appetizer/Snack > Vietnamese Fresh Spring Rolls (G&#7887;i Cu&#7889;n)
+</title></head>
+
+
+
+
+
+
+<body>
+
+    <div id="container">
+    
+<div id="own" style="height:165px">
+	
+	<!-- Text Sizer Javascript -->     
+<script language="JavaScript" type="text/javascript" src="https://www.nhlbi.nih.gov/js/textsizer.js"></script>
+
+<!-- Filtered Search JavaScript -->
+<link id="slideshow-css" rel="stylesheet" href="https://www.nhlbi.nih.gov/web_resources/css/superfish.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.nhlbi.nih.gov/web_resources/js/superfish.js"></script>
+<script type="text/javascript" src="https://www.nhlbi.nih.gov/js/gsa.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('ul.sf-menu').superfish({
+            animation: { opacity: 'show' },
+            speed: 'fast',
+            speedOut: 'fast',
+            delay: 150,
+            autoArrows: false,
+            cssArrows: false,
+            dropShadows: true,
+            disableHI: true
+        });
+        var sourceSwap = function (activeImage) {
+            var newSource = activeImage.attr('title');
+            activeImage.attr('title', activeImage.attr('src'));
+            activeImage.attr('src', newSource);
+        }
+        var checkActiveImage = function () {
+            var myUl = $(this).closest('ul').attr('class');
+            var navImage = $(this).closest('ul').prev().children('img');
+            var navImageClass = $(this).closest('ul').prev().children('img').attr('class');
+            if (navImageClass == 'inactiveMainNav') {
+                sourceSwap(navImage);
+            };
+        }
+
+        $('.inactiveMainNav').hover(
+                                function () {
+                                    var myActiveImage = $(this);
+                                    sourceSwap(myActiveImage);
+                                },
+                                function () {
+                                    var myActiveImage = $(this);
+                                    sourceSwap(myActiveImage);
+                                });
+
+        $('.mainNavDropdown').hover(checkActiveImage, checkActiveImage);
+
+
+        $(".dropdown img.flag").addClass("flagvisibility");
+
+        $(".dropdown dt a").click(function () {
+            $(".dropdown dd ul").toggle();
+        });
+
+        $(".dropdown dd ul li a").click(function () {
+            var text = $(this).html();
+            $(".dropdown dt a span").html(text);
+            $(".dropdown dd ul").hide();
+
+            newsearch(getSelectedValue("sample"));
+        });
+
+        function getSelectedValue(id) {
+            return $("#" + id).find("dt a span.value").html();
+        }
+
+        $(document).bind('click', function (e) {
+            var $clicked = $(e.target);
+            if (!$clicked.parents().hasClass("dropdown"))
+                $(".dropdown dd ul").hide();
+        });
+
+
+        $("#flagSwitcher").click(function () {
+            $(".dropdown img.flag").toggleClass("flagvisibility");
+        });
+    });
+</script>
+   
+<!-- Neccessary for 508 Compliance; don't alter -->
+<span style="font-size:0px; position:absolute; margin-top:-500px"><a href="#content">Skip to content past banner and navigation links</a></span>
+
+<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/header.css" />
+<div id="block-sitebranding-2" class="contextual-region block block-system block-system-branding-block">
+    <div id="banner">
+        <span>U.S. Department of Health &amp; Human Services</span>
+    </div>
+    <div id="block-mainnavigation">
+        <div id="main-site-logo">          
+            <a href="https://www.nhlbi.nih.gov/"><img src="images/NHLBI_Logo_Vector.svg" title="Home" alt="National Heart Lung and Blood Institute logo"></a>
+        </div>
+        <div id="main-navbar">
+            <ul class="menu-level-0">
+                <li style="margin-left: 0px">
+                    <a href="https://www.nhlbi.nih.gov/health-topics" class="level-0-link">Health Topics</a>
+                </li>
+                <li>
+                    <a href="https://www.nhlbi.nih.gov/science" class="level-0-link">The Science</a>
+                </li>
+                <li>
+                    <a href="https://www.nhlbi.nih.gov/grants-and-training" class="level-0-link">Grants and Training</a>
+                </li>
+                <li>
+                    <a href="https://www.nhlbi.nih.gov/news-and-events" class="level-0-link">News and Events</a>
+                </li>
+                <li>
+                    <a href="https://www.nhlbi.nih.gov/about" class="level-0-link">About NHLBI</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <form name="aspnetForm" method="post" action="./recipedetail.aspx?linkId=17&amp;cId=10&amp;rId=247&amp;AspxAutoDetectCookieSupport=1" id="aspnetForm">
+<input type="hidden" name="__CSRFTOKEN" id="__CSRFTOKEN" value="/wEFJDJkZjU4NjA1LWRkMjQtNGI4MC1iMDY3LTI2MjU0N2JkMDFhOQ==" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTYxNDQzMDE1Ng8WAh4IUmVjaXBlSWQC9wEWAmYPZBYEZg9kFgICBQ8VAncvL2Fzc2V0cy5hZG9iZWR0bS5jb20vMjE5ZmU2MDNiNjYxZjQyZGIyMjUyNzM1YjU5MzE5ODFhZmViMDQzOS9zYXRlbGxpdGVMaWItMTJmYzUwYTI0MzdhMmY1YjlhMmQ2OWE5M2RhNzUxZDUzMmRkZGU2Mi5qc1hodHRwczovL2RhcC5kaWdpdGFsZ292Lmdvdi9Vbml2ZXJzYWwtRmVkZXJhdGVkLUFuYWx5dGljcy1NaW4uanM/YWdlbmN5PUhIUyZzZG9yPW5paC5nb3YgZAIBD2QWBAIHDxAPFgYeDURhdGFUZXh0RmllbGQFBE5hbWUeDkRhdGFWYWx1ZUZpZWxkBQJJZB4LXyFEYXRhQm91bmRnZBAVEA5BbGwgQ2F0ZWdvcmllcwRCZWVmB1BvdWx0cnkHU2VhZm9vZARQb3JrBVBhc3RhClZlZ2V0YXJpYW4KVmVnZXRhYmxlcwVHcmFpbgxMdW5jaC9CcnVuY2gPQXBwZXRpemVyL1NuYWNrCEJldmVyYWdlB0Rlc3NlcnQOU2F1Y2UvRHJlc3NpbmcFQnJlYWQNU291cHMgJiBTdGV3cxUQATABMQEyATMBNAE1ATYBNwE4ATkCMTACMTECMTICMTMCMTQCMTUUKwMQZ2dnZ2dnZ2dnZ2dnZ2dnZ2RkAgsPZBYQAgQPDxYCHgRUZXh0BVo8aT5Zb3VyIEhlYWx0aCBJcyBHb2xkZW4hIEhlYXJ0IEhlYWx0aCBQcm9tb3Rpb24gQWN0aXZpdGllcyBmb3IgVmlldG5hbWVzZSBDb21tdW5pdGllczwvaT5kZAIFDxYCHgtfIUl0ZW1Db3VudAIHFg4CAQ9kFgQCAQ8WAh4HVmlzaWJsZWgWAmYPFQEAZAICDxUBJzEgQyBjYXJyb3RzLCBjdXQgaW50byBsb25nLCB0aGluIHN0cmlwc2QCAg9kFgQCAQ8WAh8GaBYCZg8VAQBkAgIPFQEQMiBDIGJlYW4gc3Byb3V0c2QCAw9kFgQCAQ8WAh8GaBYCZg8VAQBkAgIPFQEzMiBDIGN1Y3VtYmVyLCBzZWVkZWQgYW5kIGN1dCBpbnRvIGxvbmcsIHRoaW4gc3RyaXBzZAIED2QWBAIBDxYCHwZoFgJmDxUBAGQCAg8VARQxIEMgbWluY2VkIHNjYWxsaW9uc2QCBQ9kFgQCAQ8WAh8GaBYCZg8VAQBkAgIPFQEhJmZyYWMxMjsgQyBjaG9wcGVkIGZyZXNoIGNpbGFudHJvZAIGD2QWBAIBDxYCHwZoFgJmDxUBAGQCAg8VAR0mZnJhYzE0OyBDIGNob3BwZWQgZnJlc2ggbWludGQCBw9kFgQCAQ8WAh8GaBYCZg8VAQBkAgIPFQEVOCByaWNlIHBhcGVyIHdyYXBwZXJzZAIGDw8WAh8GaGRkAgcPFgIfBQIKFhRmD2QWAmYPFQIJVG90YWwgZmF0AzEgZ2QCAQ9kFgJmDxUCDVNhdHVyYXRlZCBmYXQDMCBnZAICD2QWAmYPFQILQ2hvbGVzdGVyb2wEMCBtZ2QCAw9kFgJmDxUCBlNvZGl1bQUyOCBtZ2QCBA9kFgJmDxUCC1RvdGFsIGZpYmVyAzIgZ2QCBQ9kFgJmDxUCB1Byb3RlaW4DMyBnZAIGD2QWAmYPFQINQ2FyYm9oeWRyYXRlcwQxNiBnZAIHD2QWAmYPFQIJUG90YXNzaXVtBjE2MSBtZ2QCCA9kFgJmDxUCB0NhbGNpdW0FMjUgbWdkAgkPZBYCZg8VAgRJcm9uBDEgbWdkAggPDxYCHwQFN1BlcmNlbnQgRGFpbHkgVmFsdWVzIGFyZSBiYXNlZCBvbiBhIDIsMDAwIGNhbG9yaWUgZGlldC5kZAIKDxYCHwUCBRYKAgEPZBYEAgEPDxYCHwQFATFkZAICDxUBK1Rvc3MgZmlyc3Qgc2l4IGluZ3JlZGllbnRzIGluIGEgbGFyZ2UgYm93bC5kAgIPZBYEAgEPDxYCHwQFATJkZAICDxUBXlNvYWsgb25lIHJpY2UgcGFwZXIgd3JhcHBlciBpbiB3YXJtIHdhdGVyIHVudGlsIHNvZnQgKDEgdG8gMiBtaW51dGVzKS4gU2hha2Ugb2ZmIGV4Y2VzcyB3YXRlci5kAgMPZBYEAgEPDxYCHwQFATNkZAICDxUBe1BsYWNlIHZlZ2V0YWJsZSBmaWxsaW5nIG9mZi1jZW50ZXIgb24gcmljZSBwYXBlciwgYW5kIGZvbGQgbGlrZSBhbiBlZ2cgcm9sbCAodHVjayBpbiB0aGUgc2lkZXMgdG8ga2VlcCB0aGUgZmlsbGluZyBpbnNpZGUpLmQCBA9kFgQCAQ8PFgIfBAUBNGRkAgIPFQFAUmVwZWF0IHdpdGggcmVtYWluaW5nIHZlZ2V0YWJsZSBmaWxsaW5nIGFuZCByaWNlIHBhcGVyIHdyYXBwZXJzLmQCBQ9kFgQCAQ8PFgIfBAUBNWRkAgIPFQFDT25jZSB5b3UgaGF2ZSBhc3NlbWJsZWQgYWxsIG9mIHRoZSBzcHJpbmcgcm9sbHMsIHNlcnZlIGltbWVkaWF0ZWx5LmQCCw8WAh8GaGQCDA9kFgICAQ8PFgIfBGVkZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAgUPY3RsMDAkYnRuU2VhcmNoBSNjdGwwMCRib2R5Q29udGVudCRidG5BZGRUb015UmVjaXBlczAoL/4Y/qUokhmawGtLeXS/AoQq7hzsCYJ8yO/pjPGB" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="38DFA1E0" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABTBbtMFlEr4A7oocosgCuMa4+3WpZQNb82rzs2KnT3rh4ZF9Dgmqbh1uYJRuLYYa6Qe5uP+xt/x/j3eBGpaPFNDb5326l9SPJ3rDzn4OlNgMEulXHAvzD+w+o/7rGao4tXdzFzo0xyPVcrK/TxjyAidG93v8er/0hrOMICPry5lspBpdYpOILhgXhxpV/XGSzjXbl9mzbTeugJJOLRxFMfzmd4ZcGs3eLb7Q84c6xs+xMtMNHJGTIalnk4xSQkqk4WV4onbg2Vi0fSShZPOHqRtsjc21DoscfHgWRGdKZqzoqtHieYcC4YQBjgq1ETmgQkKvoLia6ef51BdQevDdhWoGid/xE2Hhhkfbs+IZhKwfdwCrehfoKAglE2amB+KvHtVekZAH7n66iWui6apxhYLWODENXTIJzz2mstWAI0Nx7Pfm4M4CwK71nJuskGjQLixKmpd8MZnx7HwC8RNq+Dh" />
+            <div id="header"  valign="bottom">
+                <img src="Images/logo.png" alt="Keep the Beat? Recipes: Deliciously Healthy Eating" />
+            </div>
+            <div id="subhead_myrecipes">
+                <div id="subhead_mybutton">
+                    <a href="UserRecipeList.aspx">
+                        <img src="images/btn_myrecipes.png" alt="Go to My Recipes" border="0" /></a></div>
+            </div>
+            <div id="subhead_search">
+                <div id="search_controls_log">
+                    
+                            <a href="Register.aspx" id="ctl00_masterLoginView_hlRegister">Register!</a> / <a href="SignIn.aspx" id="ctl00_masterLoginView_hlSignIn">Sign In</a>
+                        
+                </div>
+                <div id="search_controls">
+                    <br />
+                    <label for="ctl00_txtSearch" class="hidden">
+                        Search</label><input name="ctl00$txtSearch" type="text" value="Search" id="ctl00_txtSearch" title="Search" class="searchfield w300 swap_value" />
+                    <label for="ctl00_ddlCategories" class="hidden">
+                        Categories</label><select name="ctl00$ddlCategories" id="ctl00_ddlCategories" title="Category Search" class="dropdown1">
+	<option value="0">All Categories</option>
+	<option value="1">Beef</option>
+	<option value="2">Poultry</option>
+	<option value="3">Seafood</option>
+	<option value="4">Pork</option>
+	<option value="5">Pasta</option>
+	<option value="6">Vegetarian</option>
+	<option value="7">Vegetables</option>
+	<option value="8">Grain</option>
+	<option value="9">Lunch/Brunch</option>
+	<option value="10">Appetizer/Snack</option>
+	<option value="11">Beverage</option>
+	<option value="12">Dessert</option>
+	<option value="13">Sauce/Dressing</option>
+	<option value="14">Bread</option>
+	<option value="15">Soups &amp; Stews</option>
+
+</select>
+                    <input type="image" name="ctl00$btnSearch" id="ctl00_btnSearch" class="vertmiddle" src="Images/btn_go.png" alt="search recipes" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnSearch&quot;, &quot;&quot;, true, &quot;MasterSearchGroup&quot;, &quot;&quot;, false, false))" border="0" />
+                </div>
+            </div>
+            <div id="main_nav">
+                <div id="order_now">
+                    <ul id="ul_order_now">
+                        <li id="btn_order_now"><a href="https://www.nhlbi.nih.gov/health/public/heart/obesity/lose_wt/recipes.htm">
+                            DOWNLOAD COOKBOOKS!</a></li>
+                    </ul>
+                </div>
+                <div id="firstpane" class="menu_list">
+                    <!--Code for menu starts here-->
+                    <p class="menu_headnosub">
+                        <a href="default.aspx">Recipes Home</a></p>
+                    <p class="menu_headnosub bottom">                 
+                        <a href="about.aspx">About</a> 
+                    </p>                    
+                   
+                  <div class="menu_head">  
+                        All Healthy Eating Recipes</div>
+                    <div class="menu_body">
+                        <a href="CategoryList.aspx?linkId=1">All Recipe Categories</a>
+                        <a href="RecipeList.aspx?linkId=1&cId=1">Beef Main Dish</a> 
+                        <a href="RecipeList.aspx?linkId=1&cId=2">Poultry Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=1&cId=3">Seafood Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=1&cId=4">Pork Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=1&cId=5">Pasta Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=1&cId=6">Vegetarian Main Dish</a> 
+                        <a href="RecipeList.aspx?linkId=1&cId=7">Vegetable Side Dish</a>
+                        <a href="RecipeList.aspx?linkId=1&cId=8">Grain Side Dish</a>
+                        <a href="RecipeList.aspx?linkId=1&cId=9">Lunch/Brunch</a>
+                        <a href="RecipeList.aspx?linkId=1&cId=10">Appetizer/Snack</a>
+                        <a href="RecipeList.aspx?linkId=1&cId=11">Beverage</a>
+                        <a href="RecipeList.aspx?linkId=1&cId=12">Dessert</a>
+                        <a href="RecipeList.aspx?linkId=1&cId=13">Sauce/Dressing</a>
+                        
+                        <a href="RecipeList.aspx?linkId=1&cId=15">Soups & Stews</a>
+                    </div>
+                    
+                    
+                    <!-- ***********-->
+                    <div class="menu_head_CookBook">  
+                        Healthy Dinners</div>
+                    <div class="menu_body_CookBook">
+                       
+                        <a href="RecipeList.aspx?linkId=11&cId=1&cbId=1">Beef Main Dish</a> 
+                        <a href="RecipeList.aspx?linkId=11&cId=2&cbId=1">Poultry Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=11&cId=3&cbId=1">Seafood Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=11&cId=4&cbId=1">Pork Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=11&cId=5&cbId=1">Pasta Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=11&cId=6&cbId=1">Vegetarian Main Dish</a> 
+                        <a href="RecipeList.aspx?linkId=11&cId=7&cbId=1">Vegetable Side Dish</a>
+                        <a href="RecipeList.aspx?linkId=11&cId=8&cbId=1">Grain Side Dish</a>
+                        
+                        <a href="RecipeList.aspx?linkId=11&cId=15&cbId=1">Soups & Stews</a>
+                     </div>
+                    
+                    <div class="menu_head_CookBook">  
+                         Healthy Family Meals</div>
+                    <div class="menu_body_CookBook">
+                      
+                        <a href="RecipeList.aspx?linkId=12&cId=2&cbId=2">Poultry Main Dish</a>
+                        
+                        <a href="RecipeList.aspx?linkId=12&cId=4&cbId=2">Pork Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=12&cId=5&cbId=2">Pasta Main Dish</a>
+                        
+                        <a href="RecipeList.aspx?linkId=12&cId=7&cbId=2">Vegetable Side Dish</a>
+                        <a href="RecipeList.aspx?linkId=12&cId=8&cbId=2">Grain Side Dish</a>
+                        <a href="RecipeList.aspx?linkId=12&cId=9&cbId=2">Lunch/Brunch</a>
+                        <a href="RecipeList.aspx?linkId=12&cId=10&cbId=2">Appetizer/Snack</a>
+                        
+                        <a href="RecipeList.aspx?linkId=12&cId=13&cbId=2">Sauce/Dressing</a>
+                        
+                        <a href="RecipeList.aspx?linkId=12&cId=15&cbId=2">Soups & Stews</a>
+                    </div>
+
+                    <div class="menu_head_CookBook">  
+                         Stay Young At Heart</div>
+                    <div class="menu_body_CookBook">
+                        
+                        <a href="RecipeList.aspx?linkId=13&cId=1&cbId=3">Beef Main Dish</a> 
+                        <a href="RecipeList.aspx?linkId=13&cId=2&cbId=3">Poultry Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=13&cId=3&cbId=3">Seafood Main Dish</a>
+                        
+                        <a href="RecipeList.aspx?linkId=13&cId=5&cbId=3">Pasta Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=13&cId=6&cbId=3">Vegetarian Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=13&cId=7&cbId=3">Vegetable Side Dish</a>
+                        <a href="RecipeList.aspx?linkId=13&cId=8&cbId=3">Grain Side Dish</a>
+                        <a href="RecipeList.aspx?linkId=13&cId=9&cbId=3">Lunch/Brunch</a>
+                        <a href="RecipeList.aspx?linkId=13&cId=10&cbId=3">Appetizer/Snack</a>
+                        
+                        <a href="RecipeList.aspx?linkId=13&cId=12&cbId=3">Dessert</a>
+                        <a href="RecipeList.aspx?linkId=13&cId=13&cbId=3">Sauce/Dressing</a>
+                        
+                        <a href="RecipeList.aspx?linkId=13&cId=15&cbId=3">Soups & Stews</a>
+                    </div>
+
+                    <div class="menu_head_CookBook">  
+                         Healthy Latino Recipes</div>
+                    <div class="menu_body_CookBook">
+                        
+                        <a href="RecipeList.aspx?linkId=14&cId=1&cbId=4">Beef Main Dish</a> 
+                        <a href="RecipeList.aspx?linkId=14&cId=2&cbId=4">Poultry Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=14&cId=3&cbId=4">Seafood Main Dish</a>
+                        
+                        <a href="RecipeList.aspx?linkId=14&cId=6&cbId=4">Vegetarian Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=14&cId=7&cbId=4">Vegetable Side Dish</a>
+                        
+                        <a href="RecipeList.aspx?linkId=14&cId=10&cbId=4">Appetizer/Snack</a>
+                        <a href="RecipeList.aspx?linkId=14&cId=11&cbId=4">Beverage</a>
+                        <a href="RecipeList.aspx?linkId=14&cId=12&cbId=4">Dessert</a>
+                        <a href="RecipeList.aspx?linkId=14&cId=13&cbId=4">Sauce/Dressing</a>
+                        
+                        <a href="RecipeList.aspx?linkId=14&cId=15&cbId=4">Soups & Stews</a>
+                    </div>
+
+                    <div class="menu_head_CookBook">  
+                         Home Cooking African American Style</div>
+                    <div class="menu_body_CookBook">
+                        
+                        <a href="RecipeList.aspx?linkId=15&cId=1&cbId=5">Beef Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=15&cId=2&cbId=5">Poultry Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=15&cId=3&cbId=5">Seafood Main Dish</a>
+                        
+                        <a href="RecipeList.aspx?linkId=15&cId=6&cbId=5">Vegetarian Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=15&cId=7&cbId=5">Vegetable Side Dish</a>
+                        <a href="RecipeList.aspx?linkId=15&cId=8&cbId=5">Grain Side Dish</a>
+                        <a href="RecipeList.aspx?linkId=15&cId=9&cbId=5">Lunch/Brunch</a>
+                        
+                        <a href="RecipeList.aspx?linkId=15&cId=11&cbId=5">Beverage</a>
+                        <a href="RecipeList.aspx?linkId=15&cId=12&cbId=5">Dessert</a>
+                        
+                        <a href="RecipeList.aspx?linkId=15&cId=15&cbId=5">Soups & Stews</a>
+                    </div>
+
+                    <div class="menu_head_CookBook">  
+                         American Indian/Alaska Native Recipes</div>
+                    <div class="menu_body_CookBook">
+                        
+                        
+                        <a href="RecipeList.aspx?linkId=16&cId=2&cbId=6">Poultry Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=16&cId=3&cbId=6">Seafood Main Dish</a>
+                        
+                        <a href="RecipeList.aspx?linkId=16&cId=6&cbId=6">Vegetarian Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=16&cId=7&cbId=6">Vegetable Side Dish</a>
+                        
+                        <a href="RecipeList.aspx?linkId=16&cId=9&cbId=6">Lunch/Brunch</a>
+                        
+                        <a href="RecipeList.aspx?linkId=16&cId=15&cbId=6">Soups & Stews</a>
+                    </div>
+
+                    <div class="menu_head_CookBook">  
+                         Vietnamese Community Recipes</div>
+                    <div class="menu_body_CookBook">
+                        
+                        
+                        <a href="RecipeList.aspx?linkId=17&cId=7&cbId=7">Vegetable Side Dish</a>
+                        
+                        <a href="RecipeList.aspx?linkId=17&cId=10&cbId=7">Appetizer/Snack</a>
+                        
+                    </div>
+
+                    <div class="menu_head_CookBook">  
+                         Filipino Community Recipes</div>
+                    <div class="menu_body_CookBook">
+                        
+                        
+                        <a href="RecipeList.aspx?linkId=18&cId=2&cbId=8">Poultry Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=18&cId=3&cbId=8">Seafood Main Dish</a>
+                        <a href="RecipeList.aspx?linkId=18&cId=4&cbId=8">Pork Main Dish</a>
+                        
+                        <a href="RecipeList.aspx?linkId=18&cId=6&cbId=8">Vegetarian Main Dish</a>
+                        
+                        <a href="RecipeList.aspx?linkId=18&cId=10&cbId=8">Appetizer/Snack</a>
+                        <a href="RecipeList.aspx?linkId=18&cId=11&cbId=8">Beverage</a>
+                        <a href="RecipeList.aspx?linkId=18&cId=12&cbId=8">Dessert</a>
+                        
+                        <a href="RecipeList.aspx?linkId=18&cId=15&cbId=8">Soups & Stews</a>
+                    </div>
+                    <!-- ***********-->
+                    
+                  <!-- New begin-->
+                  <div class="menu_head">
+                        Cooking Resources</div>
+                    <div class="menu_body">
+                     <a href="cookingResrcs.aspx?linkId=2">Cooking Resources Main</a>
+                         <a href="recipeIcons.aspx?linkId=2">Guide to Recipe Symbols and Side Dishes </a>
+                        <a href="measurements.aspx?linkId=2">Guide to Common Cooking Measurements </a>
+                        <a href="glos.aspx?linkId=2">Food Preparation Glossary</a>                                             
+                         <a href="cookinginfo.aspx?linkId=2">Basic Cooking Instructions</a>
+                         <a href="safecooking.aspx?linkId=2">Safe Cooking Rules</a>
+                        <a href="safekitchen.aspx?linkId=2">Keeping Your Kitchen Safe</a>
+                        <a href="faq.aspx?linkId=2">Healthy Eating FAQs</a>
+                        <a href="ingre.aspx?linkId=2">Deliciously Healthy Dinners Ingredient List</a>
+                    </div>
+                  <div class="menu_head">
+                       Family Resources </div>
+                     <div class="menu_body">
+                        <a href="familyResrcs.aspx?linkId=3">Family Resources Main</a>
+                        <a href="parentTips.aspx?linkId=3"><em><strong>We Can!</strong></em>&reg; Parent Tips</a>
+                        <a href="hlthyWeight.aspx?linkId=3">Encourage a Healthy Weight</a>
+                        <a href="feedChild.aspx?linkId=3">How Much Should I Feed My Child</a>
+                        <a href="chefTraining.aspx?linkId=3">Chefs in Training</a>
+                     </div>
+                  <!-- New end -->
+                    
+                 <div class="menu_head" >
+                        Tools & Resources</div> 
+                    <div class="menu_body" >
+                        <a href="supporters.aspx?linkId=4">Tools & Resources Main</a>
+                        <a href="promo.aspx?linkId=4">Healthy Eating Promotion Suggestions</a>
+                        <a href="toolbox.aspx?linkId=4">More Resources for Healthy Living</a>
+                        <a href="ktblogo.aspx?linkId=4">Keep the Beat Logos</a>
+                        <a href="logos.aspx?linkId=4">Logo Usage Guidelines</a>
+                    </div> 
+                                                      
+                    
+                 </div>
+                 
+                <div id="nav" style="border-top: solid 1px #d2de80;">
+                    <ul>                       
+                       
+                        <li><a href="Video.aspx">Healthy Eating Video Clips</a></li>
+                        <li><a href="media.aspx">Media</a> </li>
+                        <li><a href="https://www.nhlbi.nih.gov/health/index.htm#recipes" target="_blank">NHLBI
+                            Recipe Collections</a></li>
+                        <li><a href="https://www.nhlbi.nih.gov/health/public/heart/obesity/wecan/" target="_blank">
+                            <em>We Can!</em>&reg;</a></li>
+                   </ul>
+                    <p>
+                        <a href="https://www.facebook.com/NHLBI">
+                            <img src="images/ico_facebook.gif" alt="Link to NHLBI Facebook page" />
+                            Facebook</a></p><br />
+                           
+                </div>
+            </div>
+            <div id="main_content">
+                <a name="skip" id="skip"></a>
+                
+
+     
+
+    <div id="breadcrumbs"><a href="default.aspx">Healthy Eating Recipes Home</a> > <a href="CategoryList.aspx">Categories</a> > <a href="RecipeList.aspx?linkId=1&cId=10">Appetizer/Snack</a> > Vietnamese Fresh Spring Rolls (G&#7887;i Cu&#7889;n)</div>
+
+    <div align="center"><span id="ctl00_bodyContent_lblMessage"></span></div>
+    <div id="recipe_detail_header">
+        <br />
+        <table>
+            <tr>
+                <td>
+                    <h1>
+                        Vietnamese Fresh Spring Rolls (G&#7887;i Cu&#7889;n)
+                    </h1>
+                </td>
+                <td>
+                    </td>
+            </tr>
+        </table>
+        <p class="recipe_detail_subtext">
+            Quick and refreshing—the perfect appetizer.
+        </p>
+    </div>
+    <div id="Recipe_Source">
+      Recipe Source: <span id="ctl00_bodyContent_lblCookBookNames"><i>Your Health Is Golden! Heart Health Promotion Activities for Vietnamese Communities</i></span>
+    </div>
+    <div id="print_add_this">
+        <img src="Images/printer.png" alt="Printer Friendly" /> <a href="javascript:window.print();">Printer Friendly</a> &nbsp;&nbsp;
+        
+    </div>
+    <table class="recipe_time_table">
+        <tr>
+            <th scope="col">Prep time</th>
+            <th scope="col">Cook time</th>
+            <th scope="col">Yields</th>
+             <th scope="col">Serving Size</th>
+        </tr>
+        <tr>
+            <td>15 minutes</td>
+            <td>0 minutes</td>
+            <td>8 servings</td>
+            <td>1 roll</td>
+        </tr>
+    </table>
+    <table border="0" width="100%">
+        <tr>
+            <td valign="top"  style="padding-right: 20px;">
+                <div id="header_ingredients">
+                    <h3>
+                        Ingredients</h3>
+                </div>
+                <div id="ingredients">
+                    
+                            <table class="tbl_ingredients" border="0">
+                        
+                            <tr>
+                                <td>
+                                    
+                                    <p>
+                                        1 C carrots, cut into long, thin strips
+                                    </p>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    
+                                    <p>
+                                        2 C bean sprouts
+                                    </p>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    
+                                    <p>
+                                        2 C cucumber, seeded and cut into long, thin strips
+                                    </p>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    
+                                    <p>
+                                        1 C minced scallions
+                                    </p>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    
+                                    <p>
+                                        &frac12; C chopped fresh cilantro
+                                    </p>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    
+                                    <p>
+                                        &frac14; C chopped fresh mint
+                                    </p>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    
+                                    <p>
+                                        8 rice paper wrappers
+                                    </p>
+                                </td>
+                            </tr>
+                        
+                            </table>
+                        
+                </div>
+            </td>
+            <td valign="top" style="padding-top: 20px; " rowspan="2">
+                <div id="recipe_photo">
+                    
+                </div>
+            </td>
+            <td valign="top" style="padding-top: 20px; width: 25%;" rowspan="2">
+                <!-- set display:none; for this div when recipe does not have a picture -->
+                <div id="nutrition_info_wrapper">
+                    <div id="nutrition_info">
+                        <table border="0" width="180px" style="padding: 0px 0px 0px 0px;" >
+                            <tr>
+                                <td class="ncol1" width="120px">
+                                    calories</td>
+                                <td class="ncol2" width="60px">
+                                    70
+                                </td>
+                            </tr>
+                            
+                                    <tr>
+                                        <td class="ncol1">
+                                            Total fat
+                                        </td>
+                                        <td class="ncol2" width="60px">
+                                            1 g
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="ncol1">
+                                            Saturated fat
+                                        </td>
+                                        <td class="ncol2" width="60px">
+                                            0 g
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="ncol1">
+                                            Cholesterol
+                                        </td>
+                                        <td class="ncol2" width="60px">
+                                            0 mg
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="ncol1">
+                                            Sodium
+                                        </td>
+                                        <td class="ncol2" width="60px">
+                                            28 mg
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="ncol1">
+                                            Total fiber
+                                        </td>
+                                        <td class="ncol2" width="60px">
+                                            2 g
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="ncol1">
+                                            Protein
+                                        </td>
+                                        <td class="ncol2" width="60px">
+                                            3 g
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="ncol1">
+                                            Carbohydrates
+                                        </td>
+                                        <td class="ncol2" width="60px">
+                                            16 g
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="ncol1">
+                                            Potassium
+                                        </td>
+                                        <td class="ncol2" width="60px">
+                                            161 mg
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="ncol1">
+                                            Calcium
+                                        </td>
+                                        <td class="ncol2" width="60px">
+                                            25 mg
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="ncol1">
+                                            Iron
+                                        </td>
+                                        <td class="ncol2" width="60px">
+                                            1 mg
+                                        </td>
+                                    </tr>
+                                
+                            <tr>
+                                <td colspan="2" >
+                                    <span class="pdv">
+                                        <span id="ctl00_bodyContent_lblPercentDailyValues">Percent Daily Values are based on a 2,000 calorie diet.</span></span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="add_to_my_recipes">
+                        <input type="image" name="ctl00$bodyContent$btnAddToMyRecipes" id="ctl00_bodyContent_btnAddToMyRecipes" src="Images/btn_addtomyrecipes.png" alt="Add to my recipes" border="0" />
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <div id="recipe_directions">
+                    <h3>
+                        Directions</h3>
+                    
+                            <ul>
+                        
+                            <li>
+                                <p>
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td valign="top" align="left" width="20">
+                                                <div class="stepnumber">
+                                                    <span id="ctl00_bodyContent_rptPrepSteps_ctl01_lblPrepStepNo">1</span></div>
+                                            </td>
+                                            <td valign="top" align="left">
+                                                <div class="steptext">
+                                                    Toss first six ingredients in a large bowl.
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </p>
+                            </li>
+                        
+                            <li>
+                                <p>
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td valign="top" align="left" width="20">
+                                                <div class="stepnumber">
+                                                    <span id="ctl00_bodyContent_rptPrepSteps_ctl02_lblPrepStepNo">2</span></div>
+                                            </td>
+                                            <td valign="top" align="left">
+                                                <div class="steptext">
+                                                    Soak one rice paper wrapper in warm water until soft (1 to 2 minutes). Shake off excess water.
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </p>
+                            </li>
+                        
+                            <li>
+                                <p>
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td valign="top" align="left" width="20">
+                                                <div class="stepnumber">
+                                                    <span id="ctl00_bodyContent_rptPrepSteps_ctl03_lblPrepStepNo">3</span></div>
+                                            </td>
+                                            <td valign="top" align="left">
+                                                <div class="steptext">
+                                                    Place vegetable filling off-center on rice paper, and fold like an egg roll (tuck in the sides to keep the filling inside).
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </p>
+                            </li>
+                        
+                            <li>
+                                <p>
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td valign="top" align="left" width="20">
+                                                <div class="stepnumber">
+                                                    <span id="ctl00_bodyContent_rptPrepSteps_ctl04_lblPrepStepNo">4</span></div>
+                                            </td>
+                                            <td valign="top" align="left">
+                                                <div class="steptext">
+                                                    Repeat with remaining vegetable filling and rice paper wrappers.
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </p>
+                            </li>
+                        
+                            <li>
+                                <p>
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td valign="top" align="left" width="20">
+                                                <div class="stepnumber">
+                                                    <span id="ctl00_bodyContent_rptPrepSteps_ctl05_lblPrepStepNo">5</span></div>
+                                            </td>
+                                            <td valign="top" align="left">
+                                                <div class="steptext">
+                                                    Once you have assembled all of the spring rolls, serve immediately.
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </p>
+                            </li>
+                        
+                            </ul>
+                    
+                </div>
+            </td>
+           
+        </tr>
+    </table>
+    
+    <p>_______________<br />&#153;<em>Keep the Beat</em> is a trademark of the U.S. Department of Health and Human Services.</p>
+
+
+           
+                <p><sup>&reg;</sup><em><strong>We Can! Ways to Enhance Children's Activity &amp; Nutrition</strong></em>, <strong><em>We Can!</em></strong>, and the <strong><em>We Can! </em></strong>logos are registered trademarks of the U.S. Department of Health &amp; Human Services (HHS).</p>
+   
+            </div>
+             <input type="hidden" id="hidMenuId" />
+             <input type="hidden" id="hidMenuIdtest" />
+        
+
+<script type="text/javascript">
+    // Instructions: please embed this snippet directly into every page in your website template.
+    // For optimal performance, this must be embedded directly into the template, not referenced
+    // as an external file.
+
+    // ForeSee Embed Script v2.00
+    // DO NOT MODIFY BELOW THIS LINE *****************************************
+    ;(function (g) {
+      var d = document, am = d.createElement('script'), h = d.head || d.getElementsByTagName("head")[0], fsr = 'fsReady',
+        aex = {
+          "src": "//gateway.foresee.com/sites/nhlbi-gov/production/gateway.min.js",
+          "type": "text/javascript",
+          "async": "true",
+          "data-vendor": "fs",
+          "data-role": "gateway"
+        };
+      for (var attr in aex){am.setAttribute(attr, aex[attr]);}h.appendChild(am);g[fsr] = function () {var aT = '__' + fsr + '_stk__';g[aT] = g[aT] || [];g[aT].push(arguments);};
+    })(window);
+    // DO NOT MODIFY ABOVE THIS LINE *****************************************
+</script></form>
+
+<!-- modified by jim -->
+
+
+
+
+
+
+<div id="Footer">
+<link rel="stylesheet" type="text/css" href="css/Footer.css" />
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <footer id="footer-bottom">
+        <div id="footer-main-wrapper">
+            <div id="footer-wrapper-top">
+                <div id="desktop-3-col">
+                    <div id="column1">
+                        <div id="footer-block-logo">
+                            <img id="white-NIH-logo" href="/" src="Images/NHLBI_HHS_Lockup_white.svg" alt="National Heart Lung and Blood Institute logo" class="footer__logo-image">
+                            <div id="nhlbi_address" class="bodytext">
+                                <p id="address">Building 31</p>
+                                <p id="address">31 Center Drive</p>
+                                <p id="address">Bethesda, MD 20892</p>
+                            </div>
+                            <div class="footerbody link-title"><a href="https://www.nih.gov/about-nih/visitor-information/getting-nih" title="learn more about NIH">Learn more about getting to NIH</a></div>
+                        </div>
+                    </div>
+                    <div id="column2">
+                        <div id="footer-block-alerts">
+                            <h3 class="header">Get Email Alerts</h3>
+                            <div class="footerbody">Receive automatic alerts about NHLBI related news and highlights from across the Institute.</div>
+                            <span class="footerbody link-title"><a href="https://www.nhlbi.nih.gov/news-and-events/email-alerts">Learn More</a></span>
+                            <form action="https://www.nhlbi.nih.gov/news-and-events/email-subscriptions" method="post">
+                                <input id="emailAddress" type="email" name="email" oninvalid="this.setCustomValidity('Make sure you entered a &quot;name@email.com&quot; format')" placeholder="Email">
+                                <input type="submit" class="sign-up" value="Sign Up">
+                            </form>
+                        </div>
+
+                        <div id="footer-block-social">
+                            <h3 class="header">Connect With Us</h3>
+                            <ul id="footer-social">
+                                <li><a id="facebooklink" href="https://www.facebook.com/NHLBI/"><img src="Images/ico-facebook-white.svg" alt="Facebook icon"></a></li>
+                                <li><a id="twitterlink" href="https://twitter.com/nih_nhlbi?lang=en"><img src="Images/ico-twitter-white.svg" alt="Twitter icon"></a></li>
+                                <li><a id="youtubelink" href="https://www.youtube.com/user/NHLBI"><img src="Images/ico-youtube-white.svg" alt="You Tube icon"></a></li>
+                                <li><a id="googlepluslink" href="https://plus.google.com/+nhlbi"><img src="Images/ico-googleplus-white.svg" alt="Google Plus icon"></a></li>
+                            </ul>
+                            <div class="footerbody link-title"><a href="https://www.nhlbi.nih.gov/about/contact">Contact Us Directly</a></div>
+                        </div>
+                    </div>
+                    <div id="column3">
+                        <div id="footer-block-policy">
+                            <h3 class="header">Policies</h3>
+                            <ul class="menu">
+                                <li class="menu-item">
+                                    <a href="https://www.nhlbi.nih.gov/about/contact/website-privacy-and-accessibility#what-is-the-nhlbi-privacy-policy">Privacy Policy</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="https://www.nhlbi.nih.gov/about/contact/website-privacy-and-accessibility#how-do-i-submit-a-foia-request">Freedom of Information Act (FOIA)</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="https://www.nhlbi.nih.gov/about/contact/website-privacy-and-accessibility#what-is-the-nhlbi-website-accessibility-statement">Accessibility</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="https://www.nhlbi.nih.gov/about/contact/trademark-branding-and-logo">Copyright and Usage</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="https://www.edi.nih.gov/no-fear-act">No FEAR Act</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="https://www.nhlbi.nih.gov/grants-and-training/policies-procedures-and-guidelines">Grants and Funding</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-wrapper-bottom">
+                <div id="footer-block-5">
+                    <div>
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a href="https://www.nhlbi.nih.gov/about/contact/health-information-and-clinical-trials">Customer Service/Center for Health Information</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="https://www.nhlbi.nih.gov/news-and-events/email-alerts">Email Alerts</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="https://www.nhlbi.nih.gov/about/working-at-nhlbi">Jobs and Careers</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="https://www.nhlbi.nih.gov/node/83138">Site Index</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a href="https://www.nhlbi.nih.gov/about">About NHLBI</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="https://www.nih.gov/">National Institute of Health</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="https://www.hhs.gov/">Department of Health and Human Services</a>                                
+                                <a class="external-icon" href="javascript:void(0)" target="popup" onclick="window.open('https://www.nhlbi.nih.gov/about/contact/website-privacy-and-accessibility#what-is-the-external-link-disclaimer-policy','popup','width=600,height=425'); return false;"></a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="https://oig.hhs.gov/">OIG</a>
+                                <a class="external-icon" href="javascript:void(0)" target="popup" onclick="window.open('https://www.nhlbi.nih.gov/about/contact/website-privacy-and-accessibility#what-is-the-external-link-disclaimer-policy','popup','width=600,height=425'); return false;"></a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="https://www.usa.gov/">USA.gov</a>
+                                <a class="external-icon" href="javascript:void(0)" target="popup" onclick="window.open('https://www.nhlbi.nih.gov/about/contact/website-privacy-and-accessibility#what-is-the-external-link-disclaimer-policy','popup','width=600,height=425'); return false;"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+ 
+<p>
+  <!-- SiteCatalyst code version: H.22.1.
+Copyright 1996-2010 Adobe, Inc. All Rights Reserved
+More info available at https://www.omniture.com -->
+
+<script language="JavaScript" type="text/javascript" src="js/healthyeating_omn_account.js"></script>
+ 
+  <script language="JavaScript" type="text/javascript" src="js/channel_code_02_24_11.js"></script>
+  
+  <script language="JavaScript" type="text/javascript" src="js/s_code_SEMPHONIC_02_24_11.js"></script>
+  
+  <script language="JavaScript" type="text/javascript"><!--
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+  <script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script>
+  <noscript>
+  <img src="https://nhlbi.122.2o7.net/b/ss/nhlbiglobal/1/H.22.1--NS/0?[AQB]&cdp=3&[AQE]"
+height="1" width="1" border="0" alt="" />
+  </noscript>
+  <!--/DO NOT REMOVE/-->
+</p>
+
+
+<!-- End SiteCatalyst code version: H.22.1. -->
+    <script type="text/javascript">_satellite.pageBottom();</script>
+ 
+<!-- - end modified by jim - -->
+
+
+</body>
+</html>
