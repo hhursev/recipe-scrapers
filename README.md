@@ -19,7 +19,9 @@ then:
     scrape_me.total_time()
     scrape_me.ingredients()
     scrape_me.instructions()
+    scrape_me.links()
 
+Note: scrape_me.links() returns a dictionary object containing all of the <a> tag attributes. The attribute names are the dictionary keys.
 
 ### Contribute
 
