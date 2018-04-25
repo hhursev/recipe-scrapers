@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import normalize_string
 
 
 class Epicurious(AbstractScraper):
@@ -32,4 +32,11 @@ class Epicurious(AbstractScraper):
         ])
 
     def rating(self):
-        return float(self.soup.find('span', {'class':'rating'}).get_text().split('/')[0])/4
+        return float(self.soup.find('span',
+                     {'class': 'rating'})
+                     .get_text().split('/')[0]) / 4
+
+    def reviews(self):
+        reviews = self.soup.findAll('div', {'class': "review-text"})
+        reviews = [rev.get_text() for rev in reviews]
+        return reviews
