@@ -30,3 +30,6 @@ class Epicurious(AbstractScraper):
             normalize_string(instruction.get_text())
             for instruction in instructions_html
         ])
+
+    def rating(self):
+        return float(rec.soup.find('span', {'class':'rating'}).get_text().split('/')[0])/4
