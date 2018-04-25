@@ -54,7 +54,7 @@ class TestEpicurious(unittest.TestCase):
         )
 
     def test_rating(self):
-        return self.assertGreaterEqual(0.99, self.harvester_class.rating())
+        return self.assertGreaterEqual(self.harvester_class.rating(), 0.99)
 
     def test_reviews(self):
         self.assertCountEqual(
