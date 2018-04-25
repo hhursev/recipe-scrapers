@@ -52,3 +52,14 @@ class TestEpicurious(unittest.TestCase):
             'Cook noodles according to package directions. During the last minute of cooking, add escarole. Drain and rinse under cold water.\nToss noodles, escarole, and chili sauce in a large bowl until coated; season with salt. Divide noodles between bowls. Slice scallions into 1" pieces and place on top of noodles along with some tofu crumbles, radishes, and peanuts.',
             self.harvester_class.instructions()
         )
+
+    def test_rating(self):
+        return self.assertGreaterEqual(0.99, self.harvester_class.rating())
+
+    def test_reviews(self):
+        self.assertCountEqual(
+            [
+                'This was yummy, the tofu especially.  The sauce for the tofu really made the dish.  In light of that, I&#x27;d like to try this again with rice noodles instead of ramen and chicken instead of tofu.  I didn&#x27;t really dig the fresh ramen as much as I thought I would (too eggy).  I&#x27;m not sure chicken will work quite so well as the tofu but it&#x27;s worth a shot. ',
+            ],
+            self.harvester_class.reviews()
+        )
