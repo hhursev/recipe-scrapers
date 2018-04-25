@@ -32,4 +32,4 @@ class Epicurious(AbstractScraper):
         ])
 
     def rating(self):
-        return float(rec.soup.find('span', {'class':'rating'}).get_text().split('/')[0])/4
+        return float(self.soup.find('span', {'class':'rating'}).get_text().split('/')[0])/4
