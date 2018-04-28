@@ -34,9 +34,10 @@ class Epicurious(AbstractScraper):
         ])
 
     def rating(self):
-        return float(self.soup.find('span',
-                     {'class': 'rating'})
-                     .get_text().split('/')[0]) / 4
+        rating = self.soup.find('span', {'class': 'rating'})
+        rating = rating.get_text().split('/')[0] if rating is not None else None
+        rating = float(rating) if rating is not None else None
+        return rating
 
     def reviews(self):
         reviews = self.soup.findAll('', {'class': "most-recent"})
