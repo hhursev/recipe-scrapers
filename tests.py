@@ -10,6 +10,7 @@ from recipe_scrapers.tests.test_foodnetwork import *
 from recipe_scrapers.tests.test_foodrepublic import *
 from recipe_scrapers.tests.test_giallozafferano import *
 from recipe_scrapers.tests.test_hundredandonecookbooks import *
+from recipe_scrapers.tests.test_inspiralized import *
 from recipe_scrapers.tests.test_jamieoliver import *
 from recipe_scrapers.tests.test_mybakingaddiction import *
 from recipe_scrapers.tests.test_nihhealthyeating import *

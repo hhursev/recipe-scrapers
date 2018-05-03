@@ -12,6 +12,7 @@ from .foodnetwork import FoodNetwork
 from .foodrepublic import FoodRepublic
 from .giallozafferano import GialloZafferano
 from .hundredandonecookbooks import HundredAndOneCookbooks
+from .inspiralized import Inspiralized
 from .jamieoliver import JamieOliver
 from .mybakingaddiction import MyBakingAddiction
 from .nihhealthyeating import NIHHealthyEating
@@ -39,6 +40,7 @@ SCRAPERS = {
     FoodRepublic.host(): FoodRepublic,
     GialloZafferano.host(): GialloZafferano,
     HundredAndOneCookbooks.host(): HundredAndOneCookbooks,
+    Inspiralized.host(): Inspiralized,
     JamieOliver.host(): JamieOliver,
     MyBakingAddiction.host(): MyBakingAddiction,
     NIHHealthyEating.host(): NIHHealthyEating,
