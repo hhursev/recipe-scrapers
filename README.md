@@ -49,6 +49,7 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 - [http://foodnetwork.com/](http://www.foodnetwork.com)
 - [http://foodrepublic.com/](http://foodrepublic.com)
 - [http://giallozafferano.it/](http://giallozafferano.it)
+- [https://inspiralized.com/](https://inspiralized.com/)
 - [http://jamieoliver.com/](http://www.jamieoliver.com/)
 - [https://healthyeating.nhlbi.nih.gov/](https://healthyeating.nhlbi.nih.gov/)
 - [http://mybakingaddiction.com/](http://mybakingaddiction.com/)
