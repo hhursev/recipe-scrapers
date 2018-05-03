@@ -12,17 +12,25 @@ class JamieOliver(AbstractScraper):
         return self.soup.find('h1').get_text()
 
     def total_time(self):
-        return get_minutes(self.soup.find('div', {'class': 'time'}))
+        return get_minutes(self.soup.find(
+            'div',
+            {'class': 'time'})
+        )
 
     def ingredients(self):
-        ul = self.soup.find('ul', {'class', 'ingred-list'})
-        ingredients_html = ul.findAll('li')
+        ingredients = self.soup.find(
+            'ul',
+            {'class', 'ingred-list'}
+        ).findAll('li')
 
         return [
             normalize_string(ingredient.get_text())
-            for ingredient in ingredients_html
+            for ingredient in ingredients
         ]
 
     def instructions(self):
-        instructions_html = self.soup.find('div', {'class': 'instructions-wrapper'})
-        return normalize_string(instructions_html.get_text())
+        instructions = self.soup.find(
+            'div',
+            {'class': 'instructions-wrapper'}
+        )
+        return normalize_string(instructions.get_text())

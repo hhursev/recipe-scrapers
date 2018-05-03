@@ -18,7 +18,13 @@ class AbstractScraper():
         specify in the "on_exception_return" method decorator
         """
         to_return = None
-        decorated_methods = ['title', 'total_time', 'instructions', 'ingredients', 'links']
+        decorated_methods = [
+            'title',
+            'total_time',
+            'instructions',
+            'ingredients',
+            'links'
+        ]
         if name in decorated_methods:
             to_return = ''
         if name == 'total_time':
@@ -36,17 +42,22 @@ class AbstractScraper():
     def __init__(self, url, test=False):
         if test:  # when testing, we load a file
             with url:
-                self.soup = BeautifulSoup(url.read(), "html.parser")
+                self.soup = BeautifulSoup(
+                    url.read(),
+                    "html.parser"
+                )
         else:
-            self.soup = BeautifulSoup(request.urlopen(
-                request.Request(url, headers=HEADERS)).read(), "html.parser")
+            self.soup = BeautifulSoup(
+                request.urlopen(request.Request(url, headers=HEADERS)).read(),
+                "html.parser"
+            )
         self.url = url
 
     def url(self):
         return self.url
 
     def host(self):
-        """ get the host of the url, so we can use the correct scraper (check __init__.py) """
+        """ get the host of the url, so we can use the correct scraper """
         raise NotImplementedError("This should be implemented.")
 
     def title(self):
@@ -61,7 +72,7 @@ class AbstractScraper():
 
     def instructions(self):
         raise NotImplementedError("This should be implemented.")
-    
+
     def links(self):
         invalid_href = ('#', '')
         links_html = self.soup.findAll('a', href=True)

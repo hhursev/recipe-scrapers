@@ -12,20 +12,34 @@ class SimplyRecipes(AbstractScraper):
         return self.soup.find('h1').get_text()
 
     def total_time(self):
-        return get_minutes(self.soup.find('span', {'class': 'preptime'})) +\
-               get_minutes(self.soup.find('span', {'class': 'cooktime'}))
+        return sum([
+            get_minutes(self.soup.find(
+                'span',
+                {'class': 'preptime'})
+            ),
+
+            get_minutes(self.soup.find(
+                'span',
+                {'class': 'cooktime'})
+            )
+        ])
 
     def ingredients(self):
-        ingredients_html = self.soup.find('div', {'class':
-            'recipe-ingredients'}).findAll('li')
+        ingredients = self.soup.find(
+            'div',
+            {'class': 'recipe-ingredients'}
+        ).findAll('li')
 
         return [
             normalize_string(ingredient.get_text())
-            for ingredient in ingredients_html
+            for ingredient in ingredients
         ]
 
     def instructions(self):
-        instructions_html = self.soup.find('div', {'itemprop': 'recipeInstructions'}).findAll('p')
+        instructions_html = self.soup.find(
+            'div',
+            {'itemprop': 'recipeInstructions'}
+        ).findAll('p')
 
         return '\n'.join([
             normalize_string(instruction.get_text())
