@@ -13,7 +13,8 @@ setup(
     keywords='python recipes scraper harvest',
     long_description=README,
     install_requires=[
-        'beautifulsoup4>=4.4.0',
+        'beautifulsoup4>=4.6.0',
+        'requests>=2.19.1',
     ],
     packages=find_packages(),
     package_data={'': ['LICENSE']},
