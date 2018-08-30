@@ -1,6 +1,7 @@
 import re
 
 from .allrecipes import AllRecipes
+from .allrecipesbr import AllRecipesBr
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
 from .bonappetit import BonAppetit
@@ -29,6 +30,7 @@ from .whatsgabycooking import WhatsGabyCooking
 
 SCRAPERS = {
     AllRecipes.host(): AllRecipes,
+    AllRecipesBr.host(): AllRecipesBr,
     BBCFood.host(): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
     BonAppetit.host(): BonAppetit,
@@ -80,6 +82,7 @@ class WebsiteNotImplementedError(NotImplementedError):
 
 def scrape_me(url_path):
     host_name = url_path_to_dict(url_path.replace('://www.', '://'))['host']
+
     try:
         scraper = SCRAPERS[host_name]
     except KeyError:
