@@ -53,6 +53,7 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 - [https://inspiralized.com/](https://inspiralized.com/)
 - [http://jamieoliver.com/](http://www.jamieoliver.com/)
 - [http://mybakingaddiction.com/](http://mybakingaddiction.com/)
+- [https://www.hellofresh.co.uk/](https://www.hellofresh.co.uk/)
 - [https://healthyeating.nhlbi.nih.gov/](https://healthyeating.nhlbi.nih.gov/)
 - [http://paninihappy.com/](http://paninihappy.com/)
 - [http://realsimple.com/](http://www.realsimple.com/)
