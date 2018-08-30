@@ -8,7 +8,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name='recipe-scrapers',
     url='https://github.com/hhursev/recipe-scrapers/',
-    version='2.0.0',
+    version='2.1.0',
     description='Python package, scraping recipes from all over the internet',
     keywords='python recipes scraper harvest',
     long_description=README,
@@ -24,8 +24,6 @@ setup(
         'Intended Audience :: Developers',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.2',
-        'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
