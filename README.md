@@ -13,15 +13,15 @@ then:
     from recipe_scrapers import scrape_me
 
     # give the url as a string, it can be url from any site listed below
-    scrape_me = scrape_me('http://allrecipes.com/Recipe/Apple-Cake-Iv/Detail.aspx')
+    scraper = scrape_me('http://allrecipes.com/Recipe/Apple-Cake-Iv/Detail.aspx')
 
-    scrape_me.title()
-    scrape_me.total_time()
-    scrape_me.ingredients()
-    scrape_me.instructions()
-    scrape_me.links()
+    scraper.title()
+    scraper.total_time()
+    scraper.ingredients()
+    scraper.instructions()
+    scraper.links()
 
-Note: scrape_me.links() returns a dictionary object containing all of the <a> tag attributes. The attribute names are the dictionary keys.
+Note: scraper.links() returns a dictionary object containing all of the <a> tag attributes. The attribute names are the dictionary keys.
 
 ### Contribute
 
