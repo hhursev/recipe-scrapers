@@ -12,21 +12,30 @@ class FoodNetwork(AbstractScraper):
         return self.soup.find('h1').get_text().strip()
 
     def total_time(self):
-        return get_minutes(self.soup.find('dd', {'class': 'o-RecipeInfo__a-Description--Total'}))
+        return get_minutes(self.soup.find(
+            'dd',
+            {'class': 'o-RecipeInfo__a-Description--Total'})
+        )
 
     def ingredients(self):
-        ingredients_html = self.soup.findAll('li', {'class': 'o-Ingredients__a-ListItem'})
+        ingredients = self.soup.findAll(
+            'li',
+            {'class': 'o-Ingredients__a-ListItem'}
+        )
 
         return [
             normalize_string(ingredient.get_text())
-            for ingredient in ingredients_html
+            for ingredient in ingredients
         ]
 
     def instructions(self):
-        instructions_html = self.soup.find('div', { 'class' : 'o-Method__m-Body' }).findAll('p')
-         
+        instructions = self.soup.find(
+            'div',
+            {'class': 'o-Method__m-Body'}
+        ).findAll('p')
+
         return '\n'.join([
             normalize_string(instruction.get_text())
-            for instruction in instructions_html
-            if instruction.get_text(strip=True) not in ('Watch how to make this recipe.')
+            for instruction in instructions
+            if instruction.get_text(strip=True) not in ('Watch how to make this recipe.', )
         ])

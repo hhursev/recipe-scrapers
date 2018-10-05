@@ -12,21 +12,36 @@ class FoodRepublic(AbstractScraper):
         return self.soup.find('h3', {'class': 'recipe-title'}).get_text()
 
     def total_time(self):
-        return get_minutes(self.soup.find('li', {'class': 'prep-time'})) +\
-               get_minutes(self.soup.find('li', {'class': 'cook-time'}))
+        return sum([
+            get_minutes(self.soup.find(
+                'li',
+                {'class': 'prep-time'})
+            ),
+
+            get_minutes(self.soup.find(
+                'li',
+                {'class': 'cook-time'})
+            )
+        ])
 
     def ingredients(self):
-        ingredients_html = self.soup.findAll('li', {'itemprop': "recipeIngredient"})
+        ingredients = self.soup.findAll(
+            'li',
+            {'itemprop': "recipeIngredient"}
+        )
 
         return [
             normalize_string(ingredient.get_text())
-            for ingredient in ingredients_html
+            for ingredient in ingredients
         ]
 
     def instructions(self):
-        instructions_html = self.soup.find('div', {'class': 'directions'}).findAll('li')
+        instructions = self.soup.find(
+            'div',
+            {'class': 'directions'}
+        ).findAll('li')
 
         return '\n'.join([
             normalize_string(instruction.get_text())
-            for instruction in instructions_html
+            for instruction in instructions
         ])

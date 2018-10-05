@@ -12,15 +12,23 @@ class BBCGoodFood(AbstractScraper):
         return self.soup.find('h1', {'itemprop': 'name'}).get_text()
 
     def total_time(self):
-        time_prep = get_minutes(self.soup.find('span', {
-            'class': 'recipe-details__cooking-time-prep'}).find('span'))
-        time_cook = get_minutes(self.soup.find('span', {
-            'class': 'recipe-details__cooking-time-cook'}).find('span'))
+        return sum([
+            get_minutes(self.soup.find(
+                'span',
+                {'class': 'recipe-details__cooking-time-prep'}
+            ).find('span')),
 
-        return time_prep + time_cook
+            get_minutes(self.soup.find(
+                'span',
+                {'class': 'recipe-details__cooking-time-cook'}
+            ).find('span'))
+        ])
 
     def ingredients(self):
-        ingredients_html = self.soup.find('section', {'id': "recipe-ingredients"}).findAll('li')
+        ingredients = self.soup.find(
+            'section',
+            {'id': "recipe-ingredients"}
+        ).findAll('li')
 
         return [
             normalize_string(
@@ -29,19 +37,25 @@ class BBCGoodFood(AbstractScraper):
                     tooltip_text=ingredient.find('a').get_text() if ingredient.find('a') is not None else ''
                 )
             )
-            for ingredient in ingredients_html
+            for ingredient in ingredients
         ]
 
     def instructions(self):
-        instructions_html = self.soup.find('section', {'id': 'recipe-method'}).findAll('li')
+        instructions = self.soup.find(
+            'section',
+            {'id': 'recipe-method'}
+        ).findAll('li')
 
         instructions_string = '\n'.join([
             normalize_string(instruction.get_text())
-            for instruction in instructions_html
+            for instruction in instructions
         ])
 
         instructions_string += '\n' + normalize_string(
-            self.soup.find('section', {'id': 'recipe-method'}).get_text()
+            self.soup.find(
+                'section',
+                {'id': 'recipe-method'}
+            ).get_text()
         )
 
         return normalize_string(instructions_string)

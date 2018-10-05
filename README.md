@@ -13,15 +13,15 @@ then:
     from recipe_scrapers import scrape_me
 
     # give the url as a string, it can be url from any site listed below
-    scrape_me = scrape_me('http://allrecipes.com/Recipe/Apple-Cake-Iv/Detail.aspx')
+    scraper = scrape_me('http://allrecipes.com/Recipe/Apple-Cake-Iv/Detail.aspx')
 
-    scrape_me.title()
-    scrape_me.total_time()
-    scrape_me.ingredients()
-    scrape_me.instructions()
-    scrape_me.links()
+    scraper.title()
+    scraper.total_time()
+    scraper.ingredients()
+    scraper.instructions()
+    scraper.links()
 
-Note: scrape_me.links() returns a dictionary object containing all of the <a> tag attributes. The attribute names are the dictionary keys.
+Note: scraper.links() returns a dictionary object containing all of the <a> tag attributes. The attribute names are the dictionary keys.
 
 ### Contribute
 
@@ -39,6 +39,7 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 
 - [http://101cookbooks.com/](http://101cookbooks.com/)
 - [http://allrecipes.com/](http://allrecipes.com/)
+- [http://allrecipes.com.br/](http://allrecipes.com.br/)
 - [http://bbc.co.uk/](http://bbc.co.uk/food/recipes/)
 - [http://bbcgoodfood.com/](http://bbcgoodfood.com/)
 - [http://bonappetit.com/](http://bonappetit.com/)
@@ -49,9 +50,11 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 - [http://foodnetwork.com/](http://www.foodnetwork.com)
 - [http://foodrepublic.com/](http://foodrepublic.com)
 - [http://giallozafferano.it/](http://giallozafferano.it)
+- [https://inspiralized.com/](https://inspiralized.com/)
 - [http://jamieoliver.com/](http://www.jamieoliver.com/)
-- [https://healthyeating.nhlbi.nih.gov/](https://healthyeating.nhlbi.nih.gov/)
 - [http://mybakingaddiction.com/](http://mybakingaddiction.com/)
+- [https://www.hellofresh.co.uk/](https://www.hellofresh.co.uk/)
+- [https://healthyeating.nhlbi.nih.gov/](https://healthyeating.nhlbi.nih.gov/)
 - [http://paninihappy.com/](http://paninihappy.com/)
 - [http://realsimple.com/](http://www.realsimple.com/)
 - [http://simplyrecipes.com/](http://www.simplyrecipes.com)

@@ -2,41 +2,38 @@ from ._abstract import AbstractScraper
 from ._utils import get_minutes, normalize_string
 
 
-class SteamyKitchen(AbstractScraper):
+class AllRecipesBr(AbstractScraper):
+    """
+    AlLRecipes Brazillian version
+    """
 
     @classmethod
     def host(self):
-        return 'steamykitchen.com'
+        return 'allrecipes.com.br'
 
     def title(self):
-        return self.soup.find(
-            'h2',
-            {'itemprop': 'name'}
-        ).get_text()
+        return normalize_string(self.soup.find('h1').get_text())
 
     def total_time(self):
-        return sum([
-            get_minutes(self.soup.find(itemprop='prepTime').parent),
-            get_minutes(self.soup.find(itemprop='cookTime').parent)
-        ])
+        return get_minutes(
+            self.soup.find('div', {'class': 'stat1'})
+        )
 
     def ingredients(self):
         ingredients = self.soup.findAll(
             'span',
-            {'itemprop': "ingredients"}
+            {'itemprop': 'ingredients'}
         )
 
         return [
             normalize_string(ingredient.get_text())
             for ingredient in ingredients
-            if len(normalize_string(ingredient.get_text())) > 0
         ]
 
     def instructions(self):
         instructions = self.soup.find(
-            'div',
-            {'class': 'instructions'}
-        ).findAll('p')
+            'ol', {'itemprop': 'recipeInstructions'}
+        ).findAll('li')
 
         return '\n'.join([
             normalize_string(instruction.get_text())

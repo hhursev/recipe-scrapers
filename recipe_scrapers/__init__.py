@@ -1,6 +1,7 @@
 import re
 
 from .allrecipes import AllRecipes
+from .allrecipesbr import AllRecipesBr
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
 from .bonappetit import BonAppetit
@@ -11,7 +12,9 @@ from .finedininglovers import FineDiningLovers
 from .foodnetwork import FoodNetwork
 from .foodrepublic import FoodRepublic
 from .giallozafferano import GialloZafferano
+from .hellofresh import HelloFresh
 from .hundredandonecookbooks import HundredAndOneCookbooks
+from .inspiralized import Inspiralized
 from .jamieoliver import JamieOliver
 from .mybakingaddiction import MyBakingAddiction
 from .nihhealthyeating import NIHHealthyEating
@@ -28,6 +31,7 @@ from .whatsgabycooking import WhatsGabyCooking
 
 SCRAPERS = {
     AllRecipes.host(): AllRecipes,
+    AllRecipesBr.host(): AllRecipesBr,
     BBCFood.host(): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
     BonAppetit.host(): BonAppetit,
@@ -38,7 +42,9 @@ SCRAPERS = {
     FoodNetwork.host(): FoodNetwork,
     FoodRepublic.host(): FoodRepublic,
     GialloZafferano.host(): GialloZafferano,
+    HelloFresh.host(): HelloFresh,
     HundredAndOneCookbooks.host(): HundredAndOneCookbooks,
+    Inspiralized.host(): Inspiralized,
     JamieOliver.host(): JamieOliver,
     MyBakingAddiction.host(): MyBakingAddiction,
     NIHHealthyEating.host(): NIHHealthyEating,
@@ -73,10 +79,12 @@ def url_path_to_dict(path):
 
 class WebsiteNotImplementedError(NotImplementedError):
     '''Error for when the website is not supported by this library.'''
+    pass
 
 
 def scrape_me(url_path):
     host_name = url_path_to_dict(url_path.replace('://www.', '://'))['host']
+
     try:
         scraper = SCRAPERS[host_name]
     except KeyError:
@@ -84,5 +92,6 @@ def scrape_me(url_path):
             "Website ({}) is not supported".format(host_name))
 
     return scraper(url_path)
+
 
 __all__ = ['scrape_me']

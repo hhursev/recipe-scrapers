@@ -13,23 +13,37 @@ class GialloZafferano(AbstractScraper):
         return self.soup.find('h1').get_text()
 
     def total_time(self):
-        return get_minutes(self.soup.find('li', {'class': 'preptime'})) +\
-            get_minutes(self.soup.find('li', {'class': 'cooktime'}))
+        return sum([
+            get_minutes(self.soup.find(
+                'li',
+                {'class': 'preptime'})
+            ),
+
+            get_minutes(self.soup.find(
+                'li',
+                {'class': 'cooktime'})
+            )
+        ])
 
     def ingredients(self):
-        ingredients_html = self.soup.findAll('dd', {'class': "ingredient"})
+        ingredients = self.soup.findAll(
+            'dd',
+            {'class': "ingredient"}
+        )
 
         return [
             normalize_string(ingredient.get_text())
-            for ingredient in ingredients_html
+            for ingredient in ingredients
         ]
 
     def instructions(self):
-        instructions_json = json.loads(
-            self.soup.find('script', {
-                'type': 'application/ld+json'}).text).get('recipeInstructions')
+        instructions = json.loads(
+            self.soup.find(
+                'script',
+                {'type': 'application/ld+json'}).text
+        ).get('recipeInstructions')
 
         return '\n'.join([
             normalize_string(instruction)
-            for instruction in instructions_json
+            for instruction in instructions
         ])

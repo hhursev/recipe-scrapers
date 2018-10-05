@@ -12,16 +12,25 @@ class HundredAndOneCookbooks(AbstractScraper):
         return self.soup.find('h1').get_text()
 
     def total_time(self):
-        return get_minutes(self.soup.find('span', {'class': 'preptime'}))
+        return get_minutes(self.soup.find(
+            'span',
+            {'class': 'preptime'})
+        )
 
     def ingredients(self):
-        ingredients_html = self.soup.find('div', {'id': 'recipe'}).find('blockquote').find('p')
-        return ingredients_html.get_text().split('\n')
+        ingredients = self.soup.find(
+            'div',
+            {'id': 'recipe'}
+        ).find('blockquote').find('p')
+        return ingredients.get_text().split('\n')
 
     def instructions(self):
-        instructions_html = self.soup.find('div', {'id': 'recipe'}).find('blockquote').find_next_siblings()
+        instructions = self.soup.find(
+            'div',
+            {'id': 'recipe'}
+        ).find('blockquote').find_next_siblings()
 
         return '\n'.join([
             normalize_string(instruction.get_text())
-            for instruction in instructions_html
+            for instruction in instructions
         ])

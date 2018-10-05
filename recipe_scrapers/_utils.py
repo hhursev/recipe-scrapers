@@ -1,4 +1,5 @@
 import re
+
 from functools import wraps
 
 
@@ -11,7 +12,7 @@ def get_minutes(element):
     try:
         tstring = element.get_text()
         if '-' in tstring:
-            tstring = tstring.split('-')[1]  # some time formats are like this: '12-15 minutes'
+            tstring = tstring.split('-')[1]  # sometimes formats are like this: '12-15 minutes'
         matched = TIME_REGEX.search(tstring)
 
         minutes = int(matched.groupdict().get('minutes') or 0)
@@ -34,7 +35,7 @@ def normalize_string(string):
 
 def on_exception_return(to_return):
     """
-    On unpredicted exception retunr `to_return` provided in the decorator.
+    On unpredicted exception return `to_return` provided in the decorator.
     Still raise some specific errors (as NotImplementedError listed here)
 
     This is needed due to not being able to predict what elements can be missing

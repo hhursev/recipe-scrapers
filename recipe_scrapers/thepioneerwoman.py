@@ -9,23 +9,35 @@ class ThePioneerWoman(AbstractScraper):
         return 'thepioneerwoman.com'
 
     def title(self):
-        return self.soup.find('h3', {'class': 'recipe-title'}).get_text()
+        return self.soup.find(
+            'h3',
+            {'class': 'recipe-title'}
+        ).get_text()
 
     def total_time(self):
         return sum([
             get_minutes(dd)
-            for dd in self.soup.find('div', {'class': 'recipe-summary-time'}).findAll('dd')
+            for dd in self.soup.find(
+                'div',
+                {'class': 'recipe-summary-time'}
+            ).findAll('dd')
         ])
 
     def ingredients(self):
-        ingredients_html = self.soup.find('ul', {'class': "list-ingredients"}).findAll('li')
+        ingredients = self.soup.find(
+            'ul',
+            {'class': "list-ingredients"}
+        ).findAll('li')
 
         return [
             normalize_string(ingredient.get_text())
-            for ingredient in ingredients_html
+            for ingredient in ingredients
         ]
 
     def instructions(self):
-        instructions_html = self.soup.findAll('div', {'class': 'panel-body'})[-1]
+        instructions = self.soup.findAll(
+            'div',
+            {'class': 'panel-body'}
+        )[-1]
 
-        return normalize_string(instructions_html.get_text()).replace('.', '.\n')
+        return normalize_string(instructions.get_text()).replace('.', '.\n')

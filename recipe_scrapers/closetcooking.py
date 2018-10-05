@@ -9,23 +9,32 @@ class ClosetCooking(AbstractScraper):
         return 'closetcooking.com'
 
     def title(self):
-        return normalize_string(self.soup.find('h2', {'class': 'post-title'}).get_text())
+        return normalize_string(self.soup.find(
+            'h2',
+            {'class': 'post-title'}
+        ).get_text())
 
     def total_time(self):
         return get_minutes(self.soup.find(itemprop='totalTime').parent)
 
     def ingredients(self):
-        ingredients_html = self.soup.findAll('li', {'itemprop': "ingredients"})
+        ingredients = self.soup.findAll(
+            'li',
+            {'itemprop': "ingredients"}
+        )
 
         return [
             normalize_string(ingredient.get_text())
-            for ingredient in ingredients_html
+            for ingredient in ingredients
         ]
 
     def instructions(self):
-        instructions_html = self.soup.findAll('li', {'itemprop': 'recipeInstructions'})
+        instructions = self.soup.findAll(
+            'li',
+            {'itemprop': 'recipeInstructions'}
+        )
 
         return '\n'.join([
             normalize_string(instruction.get_text())
-            for instruction in instructions_html
+            for instruction in instructions
         ])

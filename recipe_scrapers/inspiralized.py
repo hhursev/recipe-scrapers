@@ -1,26 +1,26 @@
 from ._abstract import AbstractScraper
-from ._utils import normalize_string
+from ._utils import get_minutes, normalize_string
 
 
-class BonAppetit(AbstractScraper):
+class Inspiralized(AbstractScraper):
 
     @classmethod
     def host(self):
-        return 'bonappetit.com'
+        return 'inspiralized.com'
 
     def title(self):
-        return self.soup.find(
-            'h1',
-            {'itemprop': 'name'}
-        ).get_text()
+        return self.soup.find('h1').get_text()
 
     def total_time(self):
-        return 0
+        return get_minutes(self.soup.find(
+            'span',
+            {'itemprop': 'totalTime'})
+        )
 
     def ingredients(self):
         ingredients = self.soup.findAll(
             'li',
-            {'class': "ingredient"}
+            {'class': 'ingredient', 'itemprop': 'ingredients'}
         )
 
         return [
@@ -29,10 +29,10 @@ class BonAppetit(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions = self.soup.find(
-            'div',
-            {'class': 'steps-wrapper'}
-        ).findAll('li')
+        instructions = self.soup.findAll(
+            'li',
+            {'class': 'instruction'}
+        )
 
         return '\n'.join([
             normalize_string(instruction.get_text())

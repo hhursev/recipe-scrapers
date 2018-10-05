@@ -1,4 +1,4 @@
-from urllib import request
+import requests
 
 from bs4 import BeautifulSoup
 
@@ -7,6 +7,13 @@ from recipe_scrapers._utils import on_exception_return
 # some sites close their content for 'bots', so user-agent must be supplied
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
+}
+
+# set some cookies to maneuver over:
+# - EU Consent in allrecipes.com.br
+COOKIES = {
+    'euConsentFailed': 'true',
+    'euConsentID': 'e48da782-e1d1-0931-8796-d75863cdfa15',
 }
 
 
@@ -18,7 +25,13 @@ class AbstractScraper():
         specify in the "on_exception_return" method decorator
         """
         to_return = None
-        decorated_methods = ['title', 'total_time', 'instructions', 'ingredients', 'links']
+        decorated_methods = [
+            'title',
+            'total_time',
+            'instructions',
+            'ingredients',
+            'links'
+        ]
         if name in decorated_methods:
             to_return = ''
         if name == 'total_time':
@@ -36,17 +49,26 @@ class AbstractScraper():
     def __init__(self, url, test=False):
         if test:  # when testing, we load a file
             with url:
-                self.soup = BeautifulSoup(url.read(), "html.parser")
+                self.soup = BeautifulSoup(
+                    url.read(),
+                    "html.parser"
+                )
         else:
-            self.soup = BeautifulSoup(request.urlopen(
-                request.Request(url, headers=HEADERS)).read(), "html.parser")
+            self.soup = BeautifulSoup(
+                requests.get(
+                    url,
+                    headers=HEADERS,
+                    cookies=COOKIES
+                ).content,
+                "html.parser"
+            )
         self.url = url
 
     def url(self):
         return self.url
 
     def host(self):
-        """ get the host of the url, so we can use the correct scraper (check __init__.py) """
+        """ get the host of the url, so we can use the correct scraper """
         raise NotImplementedError("This should be implemented.")
 
     def title(self):
@@ -61,7 +83,7 @@ class AbstractScraper():
 
     def instructions(self):
         raise NotImplementedError("This should be implemented.")
-    
+
     def links(self):
         invalid_href = ('#', '')
         links_html = self.soup.findAll('a', href=True)

@@ -12,7 +12,10 @@ class NIHHealthyEating(AbstractScraper):
         return self.soup.h1.get_text().strip()
 
     def total_time(self):
-        time_table = self.soup.find('table', {'class': 'recipe_time_table'})
+        time_table = self.soup.find(
+            'table',
+            {'class': 'recipe_time_table'}
+        )
 
         return sum([
             get_minutes(td)
@@ -20,20 +23,26 @@ class NIHHealthyEating(AbstractScraper):
         ])
 
     def ingredients(self):
-        ingredients_paragraphs = self.soup.find(
-            'div', {'id': "ingredients"}).findAll('p')
+        ingredients = self.soup.find(
+            'div',
+            {'id': "ingredients"}
+        ).findAll('p')
 
         return [
             normalize_string(paragraph.get_text())
-            for paragraph in ingredients_paragraphs
+            for paragraph in ingredients
         ]
 
     def instructions(self):
-        instructions_html = self.soup.find(
-            'div', {'id': "recipe_directions"}).findAll(
-                'div', {'class': 'steptext'})
+        instructions = self.soup.find(
+            'div',
+            {'id': "recipe_directions"}
+        ).findAll(
+            'div',
+            {'class': 'steptext'}
+        )
 
         return '\n'.join([
             normalize_string(instruction.get_text())
-            for instruction in instructions_html
+            for instruction in instructions
         ])
