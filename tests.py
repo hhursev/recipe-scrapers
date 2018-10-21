@@ -23,6 +23,7 @@ from recipe_scrapers.tests.test_simplyrecipes import *
 from recipe_scrapers.tests.test_steamykitchen import *
 from recipe_scrapers.tests.test_tastykitchen import *
 from recipe_scrapers.tests.test_thepioneerwoman import *
+from recipe_scrapers.tests.test_thehappyfoodie import *
 from recipe_scrapers.tests.test_thevintagemixer import *
 from recipe_scrapers.tests.test_twopeasandtheirpod import *
 from recipe_scrapers.tests.test_whatsgabycooking import *
