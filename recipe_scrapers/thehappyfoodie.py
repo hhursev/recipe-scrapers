@@ -21,7 +21,7 @@ class TheHappyFoodie(AbstractScraper):
             times = []
             for name in ('prep', 'cook'):
                 time = self.soup.find(
-                    'div', {'class': f'recipe__data__{name}-time'}
+                    'div', {'class': 'recipe__data__{name}-time'.format(name)}
                 )
                 times.append(get_minutes(time))
             return sum(times)
