@@ -61,6 +61,7 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 - [http://steamykitchen.com/](http://steamykitchen.com/)
 - [http://tastykitchen.com/](http://tastykitchen.com/)
 - [http://thepioneerwoman.com/](http://thepioneerwoman.com/)
+- [http://thehappyfoodie.co.uk/](http://thehappyfoodie.co.uk/)
 - [http://thevintagemixer.com/](http://www.thevintagemixer.com/)
 - [http://twopeasandtheirpod.com/](http://twopeasandtheirpod.com/)
 - [http://whatsgabycooking.com/](http://whatsgabycooking.com/)
