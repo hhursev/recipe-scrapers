@@ -4,7 +4,7 @@ import unittest
 from recipe_scrapers.hellofresh import HelloFresh
 
 
-class TestFoodNetworkScraper(unittest.TestCase):
+class TestHelloFreshScraper(unittest.TestCase):
     def setUp(self):
         # tests are run from tests.py
         with open(os.path.join(
