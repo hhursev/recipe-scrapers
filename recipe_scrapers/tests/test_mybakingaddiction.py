@@ -26,31 +26,40 @@ class TestMyBakingAddictionScraper(unittest.TestCase):
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            'Cheesecake in a Jar'
+            'Pumpkin Roll'
         )
 
     def test_total_time(self):
         self.assertEqual(
-            0,
+            40,
             self.harvester_class.total_time()
         )
 
     def test_ingredients(self):
         self.assertCountEqual(
             [
-                '½ cup plus 2 tablespoons granulated sugar',
-                'zest of one lemon',
-                '2 packages cream cheese, 8 oz each; room temperature',
-                '2 large eggs; room temperature',
-                '¼ cup heavy cream',
-                '1 ½ teaspoons pure vanilla extract',
-                '1 cup fresh berries'
+                '2/3 cup pure pumpkin puree',
+                '3 large eggs',
+                '1 cup powdered sugar, sifted',
+                '1/2 teaspoon baking soda',
+                '1/4 teaspoon salt',
+                'For the Filling',
+                '1/4 cup powdered sugar (to sprinkle on towel)',
+                '1 (8 ounce) package cream cheese, softened',
+                '1 tablespoon pumpkin pie spice',
+                '1/2 teaspoon baking powder',
+                '1 teaspoon vanilla extract',
+                '6 tablespoons butter, softened',
+                '1 cup granulated sugar',
+                '3/4 cup all-purpose flour',
+                '1 teaspoon pure vanilla extract',
+                'For the Cake'
             ],
             self.harvester_class.ingredients()
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            'Preheat oven to 350°F.\nBegin to boil a large pot of water for the water bath.\nIn the bowl of your stand mixer fitted with your paddle attachment, combine the sugar and lemon zest and mix until the sugar is moistened and fragrant.\nAdd in the cream cheese and cream together until smooth.\nAdd eggs, one at a time, fully incorporating each before adding the next. Make sure to scrape down the bowl in between each egg.\nAdd heavy cream and vanilla and mix until smooth.\nPour batter into canning jars until about ¾ of the way full.\nPlace jars into a larger pan and pour boiling water into the larger pan until halfway up the sides of the jars.\nBake 25 to 30 minutes, the edges will appear to be set, but the center will still have a little jiggle to it.\nCarefully remove the cheesecake jars from the water bath and place on a cooling rack to cool completely.\nOnce the cheesecakes are completely cooled, place them into the refrigerator for at least 5 hours.\nTop will fresh berries and serve.',
+            'Preheat oven to 375°F. Line a 15 x 10-inch jelly-roll pan with parchment paper and spray with non-stick cooking spray. Sprinkle a clean tea towel with powdered sugar. Set pan and towel aside.\nIn a medium bowl, combine flour, baking powder, baking soda, pumpkin pie spice and salt.\nIn a large bowl with an electric mixer, beat eggs, vanilla and sugar until thick.\nAdd in pumpkin and mix to combine.\nStir in flour mixture.\nSpread batter evenly into prepared pan.\nBake for 13 to 15 minutes or until top of cake springs back when touched.\nImmediately loosen and turn cake onto prepared towel. Carefully peel off paper. Roll up cake and towel together, starting with narrow end. Cool on wire rack.\nIn a medium bowl, beat cream cheese, powdered sugar, butter and vanilla extract until smooth.\nCarefully unroll cake; remove towel.\nSpread cream cheese mixture over cake. Reroll cake.\nWrap in plastic wrap and refrigerate at least one hour.',
             self.harvester_class.instructions()
         )
