@@ -1,0 +1,2393 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="/assets/desktop/mobile_detector.js?v13092018"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<title>
+Receita de Brigadeiro, enviada por Tudo Gostoso - TudoGostoso
+</title>
+<LINK HREF="/favicon-v2.1.ico" REL="SHORTCUT ICON" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"b26d34575a","applicationID":"16891756","transactionName":"cw1fREEJW1VRRksTBFMLQVVASUVcV10UBBIfEVlfRA==","queueTime":0,"applicationTime":157,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQYCUF9XChABUllbBgYCUA=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(16),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(17),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(19)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(19)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(19)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(19)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(19)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(w,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(16),s=t(17),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],16:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],17:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],18:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],19:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(17),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([b,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},b={on:p,addEventListener:p,removeEventListener:h,emit:e,get:v,listeners:m,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(16),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=x.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+x.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(16),u=t("ee"),d=t(15),l=window,p=l.document,h="addEventListener",m="attachEvent",v=l.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:v,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(12),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(18)},{}]},{},["loader",2,10,4,3]);</script>
+<META CONTENT="NO-CACHE" HTTP-EQUIV="PRAGMA" />
+<META CONTENT="NO-CACHE" HTTP-EQUIV="CACHE-CONTROL" />
+<META CONTENT="0" HTTP-EQUIV="EXPIRES" />
+<META CONTENT="DOCUMENT" NAME="RESOURCE-TYPE" />
+<META CONTENT="GLOBAL" NAME="DISTRIBUTION" />
+<meta CONTENT="TudoGostoso" NAME="AUTHOR" />
+<meta CONTENT="Copyright (c) 2003 - 2018 by TudoGostoso" NAME="COPYRIGHT" />
+<META CONTENT="Receita de Brigadeiro" NAME="KEYWORDS" />
+<META CONTENT="1 DAYS" NAME="REVISIT-AFTER" />
+<META CONTENT="GENERAL" NAME="RATING" />
+<META CONTENT="pt-br" NAME="LANGUAGE" />
+<META NAME="DESCRIPTION" content="Receita de Brigadeiro. Enviada por Tudo Gostoso e demora apenas 25 minutos." />
+<LINK href="https://www.tudogostoso.com.br/receita/114-brigadeiro.html" rel="canonical" />
+<META CONTENT="INDEX, FOLLOW" NAME="ROBOTS" />
+<link href="https://amp.tudogostoso.com.br/receita/114-brigadeiro.html" rel="amphtml" />
+<meta content="179780458698739" property="fb:pages" />
+<meta content="Receita de Brigadeiro" property="og:title" />
+<meta content="Aprenda a preparar a receita de Brigadeiro" property="og:description" />
+<meta content="https://img.itdg.com.br/images/recipes/000/000/114/75811/75811_original.jpg" property="og:image" />
+<meta content="food" property="og:type" />
+<meta content="TudoGostoso" property="og:site_name" />
+<meta content="" property="og:url" />
+<meta content="272027629503796" property="fb:app_id" />
+<meta content="BR" name="twitter:app:country" />
+<meta content="summary_large_image" name="twitter:card" />
+<meta content="@Tudo_Gostoso" name="twitter:site" />
+<meta content="@Tudo_Gostoso" name="twitter:creator" />
+<meta content="Aprenda a preparar a receita de Brigadeiro" name="twitter:description" />
+<meta content="Receita de Brigadeiro" name="twitter:title" />
+<meta content="https://www.tudogostoso.com.br/images/recipes/000/000/114/75811/75811_original.jpg?mode=crop&amp;width=600&amp;height=450" name="twitter:image" />
+<meta content="https://www.tudogostoso.com.br/receita/114-brigadeiro.html" name="twitter:url" />
+<meta content="577891381" name="twitter:app:id:iphone" />
+<meta content="577891381" name="twitter:app:id:ipad" />
+<meta content="Tudo Gostoso" name="twitter:app:name:googleplay" />
+<meta content="Tudo Gostoso" name="twitter:app:name:iphone" />
+<meta content="Tudo Gostoso" name="twitter:app:name:ipad" />
+<meta content="tudogostoso://recipe?id=114-brigadeiro" name="twitter:app:url:iphone" />
+<meta content="tudogostoso://recipe?id=114-brigadeiro" name="twitter:app:url:ipad" />
+<meta content="com.nzn.tdg" name="twitter:app:id:googleplay" />
+<meta content="https://www.tudogostoso.com.br/receita/114-brigadeiro.html" name="twitter:app:url:googleplay" />
+<!-- APP DEEP LINKS -->
+<link href="android-app://com.nzn.tdg/http/www.tudogostoso.com.br/receita/114-brigadeiro" rel="alternate" />
+<link href="ios-app://577891381/tudogostoso/recipe?id=114-brigadeiro" rel="alternate" />
+<meta content="tudogostoso://recipe?id=114-brigadeiro" property="al:ios:url" />
+<meta content="https://www.tudogostoso.com.br/receita/114-brigadeiro.html" property="al:android:url" />
+<meta content="tudogostoso://recipe?id=114-brigadeiro" property="al:windows_phone:url" />
+<meta content="577891381" property="al:ios:app_store_id" />
+<meta content="9a392826-0c0c-4842-bb31-4e85b6672922" property="al:windows_phone:app_id" />
+<meta content="https://www.tudogostoso.com.br/receita/114-brigadeiro.html" property="al:web:url" />
+<meta content="TudoGostoso" property="al:ios:app_name" />
+<meta content="TudoGostoso" property="al:android:app_name" />
+<meta content="com.nzn.tdg.activities.recipe.RecipeActivity" property="al:android:class" />
+<meta content="com.nzn.tdg" property="al:android:package" />
+
+<link href="/assets/desktop/application-7b11c1b5b0dbda8ed231c9cf626ab4ec.css" media="all" rel="stylesheet" type="text/css" />
+<!--[if lt IE 8]>
+<link href="/assets/desktop/ie-875f0d42a52ff5536404da8fda8d423b.css" media="all" rel="stylesheet" type="text/css" />
+<![endif]-->
+<style type="text/css">
+  /*<![CDATA[*/
+    .async-hide { opacity: 0 !important}
+  /*]]>*/
+</style>
+<script type="text/javascript">
+  //<![CDATA[
+    (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+    })(window,document.documentElement,'async-hide','dataLayer',4000,
+    {'GTM-535K7TS':true});
+  //]]>
+</script>
+<script type="text/javascript">
+  //<![CDATA[
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','gatdg');
+    ga = gatdg
+    
+    gatdg('create', 'UA-54622095-1', 'auto');
+    gatdg('set', 'dimension4', 'caixa,de,leite,condensado,colher,sopa,margarina,sem,sal,colheres,achocolatado,ou,chocolate,em,pó,granulado');
+    gatdg('set', 'dimension5', 'Doces e sobremesas, Brigadeiro');
+    gatdg('set', 'dimension7', '11-receita-de-dia-das-maes');
+    gatdg('set', 'dimension8', 'Doces');
+    
+    gatdg('require', 'GTM-535K7TS');
+    gatdg('send', 'pageview');
+  //]]>
+</script>
+
+<script type="text/javascript">
+  //<![CDATA[
+    var _ttprofiles = _ttprofiles || [];
+    _ttprofiles.push(['_setAccount', 'TT-10531-7']);
+    _ttprofiles.profiles = [];
+    _ttprofiles.push(['_enableServices']);
+    document.write("<scr" + "ipt src='" + ("https:" == document.location.protocol ? "https:" : "http:") + "//d.tailtarget.com/profiles.js'></scr" + "ipt>");
+  //]]>
+</script>
+<script type="text/javascript">
+  //<![CDATA[
+    var baseKeywords  = "channel=1037;tag=1257;gender=;content_id=114;portion=30;rating=4.5;comments=3992;title=Brigadeiro;ingr=caixa;ingr=de;ingr=leite;ingr=condensado;ingr=colher;ingr=sopa;ingr=de;ingr=margarina;ingr=sem;ingr=sal;ingr=colheres;ingr=sopa;ingr=de;ingr=achocolatado;ingr=ou;ingr=colheres;ingr=sopa;ingr=de;ingr=chocolate;ingr=em;ingr=po;ingr=chocolate;ingr=granulado;special_id=;special=11;timespend=25;user_id=1;";
+    
+    var tuples = baseKeywords.split(';');
+    var tdgKeywords = {};
+    for (var i=0; i<tuples.length; i++) {
+      var tuple = tuples[i].split('=');
+      var key = tuple[0].trim();
+      var value = tuple[1];
+      if (!key.trim() || !value.trim()) {
+        continue;
+      }
+      if (!tdgKeywords[key]) {
+        tdgKeywords[key] = [value];
+      } else {
+        tdgKeywords[key].push(value);
+      }
+    }
+    tdgKeywords.adunit = '/TudoGostoso/Content';
+  //]]>
+</script>
+
+<script type="text/javascript">
+  //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({"@context":"http://schema.org/","@type":"Recipe","name":"Brigadeiro","author":{"@type":"Person","name":"Tudo Gostoso"},"url":"https://www.tudogostoso.com.br/receita/114-brigadeiro.html","image":"https://img.itdg.com.br/tdg/images/recipes/000/000/114/75811/75811_original.jpg","description":"Receita de Brigadeiro. Enviada por Tudo Gostoso e demora apenas 25 minutos.","aggregateRating":{"@type":"AggregateRating","ratingValue":4.5,"reviewCount":3079,"bestRating":"5","worstRating":"0"},"prepTime":"PT25M","totalTime":"PT25M","recipeCategory":"Doces e sobremesas","recipeCuisine":",,,","nutrition":{"@type":"NutritionInformation","calories":"","servingSize":""},"keywords":"receita de brigadeiro","recipeYield":30,"recipeIngredient":["1 caixa de leite condensado","1 colher (sopa) de margarina sem sal","7 colheres (sopa) de achocolatado ou 4 colheres (sopa) de chocolate em p\u00f3","chocolate granulado"],"recipeInstructions":["Em uma panela funda, acrescente o leite condensado, a margarina e o chocolate em p\u00f3","Cozinhe em fogo m\u00e9dio e mexa at\u00e9 que o brigadeiro comece a desgrudar da panela","Deixe esfriar e fa\u00e7a pequenas bolas com a m\u00e3o passando a massa no chocolate granulado"],"special_channel":["11-receita-de-dia-das-maes"],"channel":"Doces e sobremesas, Brigadeiro","commentsCount":3992,"favesCount":"173.742","photosCount":138});
+  //]]>
+</script>
+
+<script type="text/javascript">
+  //<![CDATA[
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PLX94J');
+  //]]>
+</script>
+<script type="text/javascript">
+  //<![CDATA[
+    window._taboola = window._taboola || [];
+    _taboola.push({article:'auto'});
+    !function (e, f, u, i) {
+    if (!document.getElementById(i)){
+    e.async = 1;
+    e.src = u;
+    e.id = i;
+    f.parentNode.insertBefore(e, f);
+    }
+    }(document.createElement('script'),
+    document.getElementsByTagName('script')[0],
+    '//cdn.taboola.com/libtrc/tudogostoso/loader.js',
+    'tb_loader_script');
+    if(window.performance && typeof window.performance.mark ==
+    'function')
+    {window.performance.mark('tbl_ic');}
+  //]]>
+</script>
+
+<script type="text/javascript">
+  //<![CDATA[
+    window.ENV = {
+      "SITE_DOMAIN": "tudogostoso.com.br"
+    }
+  //]]>
+</script>
+
+
+</head>
+<body>
+<div class="" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-out-of-page="true" data-mad="" id="ad-interstitial"></div>
+
+<div class="" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-size="[2,1]" data-mad="" id="ad-image"></div>
+
+<div class="" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-size="[1,1]" data-mad="" id="ad-inread"></div>
+
+
+<div class="ads728-top super-banner-fixed">
+<div class="ad-with-border" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-auto-refresh-in-seconds="30" data-mad-auto-refresh-limit="999" data-mad-size="[[1500,1000],[970,250],[970,180],[970,90],[728,90]]" data-mad="" id="ad-header"></div>
+
+</div>
+<noscript>
+<iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-PLX94J" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+<header class="header">
+<div class="fixed-top fixed-top-ads">
+<div class="head">
+<div class="box">
+<div class="logo">
+<span class="h1-text">
+TudoGostoso - Onde nascem todas as receitas
+</span>
+<a href="/"><img alt="TudoGostoso - Onde nascem todas as receitas" src="https://img.itdg.com.br/tdg/assets/layout/logos/logo-v4.png" />
+</a></div>
+<a class="blog-btn" href="https://blog.tudogostoso.com.br">
+<img alt="Blog TudoGostoso" class="ico blog" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+<div class="txt">
+Blog
+</div>
+</a>
+<div class="search">
+<form action="/busca" id="search" method="get">
+<input class="txt" id="search-query" name="q" placeholder="Encontre uma receita..." type="text" />
+<input class="ico search" type="submit" value="Buscar" />
+</form>
+</div>
+<div class="buttons">
+<div class="send-recipe">
+<a class="submit-recipe" data-open-on="center">
+<img alt="Enviar sua receita" class="ico send" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+<div class="txt">Enviar sua receita</div>
+</a>
+</div>
+<div class="user">
+<ul class="user-btns" id="unlogged-menu">
+<li class="signup">
+<a class="signin" data-open-on="right" href="/cadastro" id="signup_link">
+<img alt="Cadastre-se" class="ico signin" src="https://img.itdg.com.br/images/layout/blank.gif" />
+<div class="txt">Cadastre-se</div>
+</a>
+</li>
+<li class="login">
+<a class="login" data-open-on="right" href="/login" id="login-trigger">
+<img alt="Entrar" class="ico login" src="https://img.itdg.com.br/images/layout/blank.gif" />
+<div class="txt">Entrar</div>
+</a>
+</li>
+</ul>
+<ul class="logged-box user-btns" id="logged-menu" style="display:none!important;">
+<li>
+<a class="favorite" data-open-on="center" href="/meu-livro/">
+<img alt="Receitas favoritas" class="ico heart-small-white" src="https://img.itdg.com.br/images/layout/blank.gif" />
+<div class="txt">Receitas favoritas</div>
+</a>
+</li>
+<li>
+<a class="name" data-open-on="right" href="javascript:void(0)" id="logged-user">
+<img alt="Foto do usuário" class="user-avatar" src="https://img.itdg.com.br/tdg/assets/default/users_avatars/user_avatar_original.png" />
+<span id="header_user_name"></span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="menu fixed-hide">
+<nav>
+<ul class="clearfix">
+<li>
+<a href="/categorias/bolos-e-tortas-doces" title="Bolos e Tortas">Bolos e <br> Tortas</a>
+</li>
+<li>
+<a href="/categorias/carnes" title="Carnes">Carnes</a>
+</li>
+<li>
+<a href="/categorias/aves" title="Aves">Aves</a>
+</li>
+<li>
+<a href="/categorias/peixes-e-frutos-do-mar" title="Peixes e Frutos do Mar">Peixes e Frutos <br>do Mar</a>
+</li>
+<li>
+<a href="/categorias/saladas-molhos-e-acompanhamentos" title="Saladas e Molhos">Saladas e <br>Molhos</a>
+</li>
+<li>
+<a href="/categorias/sopas" title="Sopas">Sopas</a>
+</li>
+<li>
+<a href="/categorias/massas" title="Massas">Massas</a>
+</li>
+<li>
+<a href="/categorias/bebidas" title="Bebidas">Bebidas</a>
+</li>
+<li>
+<a href="/categorias/doces-e-sobremesas" title="Doces e Sobremesas">Doces e <br>Sobremesas</a>
+</li>
+<li>
+<a href="/categorias/lanches" title="Lanches">Lanches</a>
+</li>
+<li>
+<a class="healthy" href="/categorias/alimentacao-saudavel" title="Alimentação Saudável">Alimentação Saudável</a>
+</li>
+<li>
+<a href="/videos" title="Vídeos">Vídeos</a>
+</li>
+<li>
+<a href="/especiais/15-chefs-tudo-gostoso" title="Chefs TudoGostoso">
+Chefs
+<br />
+TudoGostoso
+</a>
+</li>
+<li>
+<a href="/concursos" title="Concursos">
+<span class="special">Concursos</span>
+</a>
+</li>
+<span class="overlay-white"></span>
+<span class="overlay"></span>
+</ul>
+</nav>
+
+</div>
+</div>
+<script type="text/javascript">
+  //<![CDATA[
+    function getCookie(cname) {
+      var name = cname + "=";
+      var ca = document.cookie.split(';');
+      for(var i=0; i<ca.length; i++)  {
+        var c = ca[i].trim();
+        if (c.indexOf(name)==0) return c.substring(name.length,c.length);
+      }
+      return "";
+    }
+    name = decodeURIComponent(decodeURIComponent(getCookie('tg_nome')));
+    if(name) {
+      document.getElementById('header_user_name').innerHTML  = name;
+      document.getElementById('unlogged-menu').style.display = 'none';
+      document.getElementById('logged-menu').style.display   = 'flex';
+    }
+  //]]>
+</script>
+</header>
+
+<div class="featured-menu">
+<ul>
+<li><div class="" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-out-of-page="true" data-mad="" id="ad-menu1"></div>
+</li>
+<li><div class="" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-out-of-page="true" data-mad="" id="ad-menu2"></div>
+</li>
+<li><div class="" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-out-of-page="true" data-mad="" id="ad-menu3"></div>
+</li>
+<li><div class="" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-out-of-page="true" data-mad="" id="ad-menu4"></div>
+</li>
+<li><div class="" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-out-of-page="true" data-mad="" id="ad-menu5"></div>
+</li>
+<li><div class="" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-out-of-page="true" data-mad="" id="ad-menu6"></div>
+</li>
+</ul>
+</div>
+
+<div class="tdg-main">
+<div class="content">
+<div class="content-inner">
+
+<div class="page-recipe clearfix main-content" id="doces-e-sobremesas">
+<div class="breadcrumb-holder">
+<div class="breadcrumb" xmlns="http://rdf.data-vocabulary.org/#">
+<span typeof="v:Breadcrumb">
+<a href="/" property="v:title" rel="v:url">
+TudoGostoso
+</a>
+<span class="separator">
+&rsaquo;
+</span>
+</span>
+<span typeof="v:Breadcrumb">
+<a href="https://www.tudogostoso.com.br/categorias/doces-e-sobremesas" property="v:title" rel="v:url">
+Doces e sobremesas
+</a>
+<span class="separator">
+&rsaquo;
+</span>
+</span>
+<span typeof="v:Breadcrumb">
+<a href="https://www.tudogostoso.com.br/categorias/1257-brigadeiro-1.html" property="v:title" rel="v:url">
+Brigadeiro
+</a>
+<span class="separator">
+&rsaquo;
+</span>
+</span>
+<span typeof="v:Breadcrumb">
+<span class="current" property="v:title">
+Brigadeiro
+<a href="#" rel="v:url"></a>
+</span>
+</span>
+</div>
+</div>
+
+<div class="left-content">
+<div class="box box-large">
+<div class="recipe-title">
+<h1>
+Brigadeiro
+</h1>
+<div class="rating">
+<div class="ratingbar small overtoggler">
+<div class="ratingstars current average" id="rating-average" style="width:90%;">
+<span>
+3079
+</span>
+<span>
+4.5
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="recipe-btn-bar">
+<div class="social">
+<ul>
+<li>
+<a class="recipe-fb ico facebook" href="#" onclick="window.open('https://www.facebook.com/sharer.php?u=https://www.tudogostoso.com.br/receita/114-brigadeiro.html','fb-shared','width=500,height=470'); return false;">Facebook</a>
+</li>
+<li>
+<a class="recipe-print ico pinterest" href="#" onclick="window.open('https://pinterest.com/pin/create/bookmarklet/?media=https://img.itdg.com.br/tdg/images/recipes/000/000/114/75811/75811_original.jpg&amp;url=https://www.tudogostoso.com.br/receita/114-brigadeiro.html&amp;description=Brigadeiro','print-shared','width=800,height=680'); return false;">Pinterest</a>
+</li>
+<li>
+<a class="recipe-twt ico twitter" href="#" onclick="window.open('https://twitter.com/share?url=https://www.tudogostoso.com.br/receita/114-brigadeiro.html&amp;text=Brigadeiro&amp;via=Tudo_Gostoso','print-shared','width=650,height=310'); return false;">Twitter</a>
+</li>
+</ul>
+<div class="sharebar clearfix">
+<div class="bookmark" id="added_recipe_button">
+<a class="btn add-recipe-book" data-recipe-id="114" id="add-in-recipebook-button">
+Adicionar aos favoritos
+</a>
+<div class="btn" id="added_recipe" style="display: none">
+<span></span>
+<a class="bt-remove" data-recipe-id="114" id="remove_from_recipebook_button" title="Remover do livro de receitas">
+X
+</a>
+</div>
+</div>
+<div class="rating">
+<a class="comments-anchor btn" id="comments-anchor">
+Deixe sua opinião
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix pics">
+<ul>
+<li class="big picframe">
+<a class="picframe" rel="nofollow">
+<img alt="Imagem enviada por Tudo Gostoso" class="photo pic u-photo" itemprop="image" src="https://img.itdg.com.br/tdg/images/recipes/000/000/114/75811/75811_original.jpg?mode=crop&amp;width=370&amp;height=278" />
+<a class="more-pics">
+<img alt="Zoom" class="ico zoom" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+<span class="water-mark">
+Tudo Gostoso
+</span>
+</a>
+</li>
+<li class="picframe thumb">
+<a class="picframe" rel="nofollow">
+<img alt="Imagem enviada por Alicia Sell" class="pic" itemprop="image" src="https://img.itdg.com.br/tdg/images/recipes/000/000/114/3609/3609_original.jpg?mode=crop&amp;width=100&amp;height=75" />
+<a class="more-pics">
+<img alt="Zoom" class="ico zoom" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</a>
+</li>
+<li class="picframe thumb">
+<a class="picframe" rel="nofollow">
+<img alt="Imagem enviada por Tudo Gostoso" class="pic" itemprop="image" src="https://img.itdg.com.br/tdg/images/recipes/000/000/114/108/108_original.jpg?mode=crop&amp;width=100&amp;height=75" />
+<a class="more-pics">
+<img alt="Zoom" class="ico zoom" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</a>
+</li>
+<li class="picframe thumb">
+<a class="picframe" rel="nofollow">
+<img alt="Imagem enviada por NOEMI COUTINHO" class="pic" itemprop="image" src="https://img.itdg.com.br/tdg/images/recipes/000/000/114/9729/9729_original.jpg?mode=crop&amp;width=100&amp;height=75" />
+<a class="more-pics">
+<img alt="Zoom" class="ico zoom" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</a>
+</li>
+</ul>
+
+</div>
+<div class="info">
+<!-- / DATA -->
+<div class="data clearfix gray-box">
+<div class="clock block">
+<img alt="Preparo" class="ico clock" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+<span class="label">
+Preparo
+</span>
+<span class="num preptime">
+<time class="dt-duration" datetime="PT25M" itemprop="totalTime">
+25min
+</time>
+<span class="value-title" title="PT25M"></span>
+</span>
+</div>
+<div class="serve block">
+<img alt="Rendimento" class="ico portion" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+<span class="label">
+Rendimento
+</span>
+<data class="p-yield num yield" itemprop="recipeYield" value="30">
+30 porções
+</data>
+</div>
+</div>
+<div class="data clearfix gray-box">
+<div class="like block">
+<img alt="Favoritos" class="ico heart-small-info" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+<span class="label">
+173.742
+Favoritos
+</span>
+</div>
+<div class="like block">
+<img alt="Comentários" class="ico comment-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+<span class="label">
+3.992 comentários
+</span>
+</div>
+</div>
+<div class="data send-pic gray-box">
+<span class="label">
+Compartilhe uma foto dessa receita
+</span>
+<div class="sendphoto-btn">
+<a class="sendphoto btn" data-open-on="center" id="sendphoto" rel="nofollow">
+<img alt="Envie suas fotos" class="ico photo-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Envie suas fotos
+</a>
+</div>
+</div>
+</div>
+
+</div>
+<div class="ad-with-border ad-center" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-size="[[300,251]]" data-mad="" id="ad-selo4"></div>
+
+<!-- / LIST -->
+<div class="ingredients-box box box-large">
+<div id="info-user">
+<h3 class="ingredients-title box-title">
+<img class="ico ingredients" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Ingredientes
+</h3>
+<ul><li><span class='p-ingredient' itemprop="recipeIngredient">1 caixa de leite condensado</span></li><li><span class='p-ingredient' itemprop="recipeIngredient">1 colher (sopa) de margarina sem sal</span></li><li><span class='p-ingredient' itemprop="recipeIngredient">7 colheres (sopa) de achocolatado ou 4 colheres (sopa) de chocolate em pó</span></li><li><span class='p-ingredient' itemprop="recipeIngredient">chocolate granulado</span></li></ul>
+<div class="ingredients-info" id="info-user-with-ads">
+<div class="info-block ads">
+<div class="" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-auto-refresh-in-seconds="30" data-mad-auto-refresh-limit="999" data-mad-lazyload-offset="300" data-mad-size="[[300,250]]" data-mad="" id="ad-mpu2"></div>
+
+</div>
+<div class="info-block info-user">
+<span class="user gray-box" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
+<img alt="Foto do usuário" class="user-img" src="https://img.itdg.com.br/tdg/images/users_avatars/000/000/001/238014/238014_original.jpg?mode=crop&amp;width=70&amp;height=70" />
+<div class="txt">
+<span class="sent-by">
+Enviada por
+</span>
+<a href="https://www.tudogostoso.com.br/usuario/1-tudo-gostoso/" class="user-name" rel="nofollow"><span itemprop="name">
+Tudo Gostoso
+</span>
+</a></div>
+</span>
+<div class="print-recipe gray-box">
+<a class="gray-box-content print-button" data-height="500" data-width="830" href="/receita/print_recipe.php?recipe_id=114" rel="nofollow">
+<img class="ico print" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Imprimir <br> Receita
+</a>
+</div>
+<div class="measures gray-box">
+<a class="gray-box-content measures_button" data-height="500" data-width="325" href="/receita/measures_converter.php">
+<img class="ico measures" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Conversão de <br> medidas
+</a>
+</div>
+<div class="print-list gray-box">
+<a class="gray-box-content shoplist_button" data-height="500" data-width="830" href="/receita/print_recipe.php?recipe_id=114&amp;shop_list=true" rel="nofollow">
+<img class="ico list" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Imprimir lista <br> de compras
+</a>
+</div>
+<div class="send-email gray-box">
+<a class="gray-box-content send-by-email">
+<img class="ico mail" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+<span>Enviar receita <br> por e-mail</span>
+</a>
+</div>
+</div>
+</div>
+<div id="info-user-without-ads">
+<div class="info-block info-user-full">
+<div class="left">
+<div class="user gray-box" itemprop="name" itemscpe="itemscpe" itemtype="http://schema.org/Person">
+<img alt="Foto do usuário" class="user-img" src="https://img.itdg.com.br/tdg/images/users_avatars/000/000/001/238014/238014_original.jpg?mode=crop&amp;width=70&amp;height=70" />
+<div class="txt">
+<span class="sent-by">
+Enviada por
+</span>
+<a href="https://www.tudogostoso.com.br/usuario/1-tudo-gostoso/" class="user-name" itemprop="name">Tudo Gostoso
+</a></div>
+</div>
+</div>
+<div class="actions right">
+<div class="print-recipe gray-box">
+<a class="gray-box-content print-button" data-height="500" data-width="830" href="/receita/print_recipe.php?recipe_id=114" rel="nofollow">
+<img class="ico print" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Imprimir <br> Receita
+</a>
+</div>
+<div class="measures gray-box">
+<a class="gray-box-content measures_button" data-height="500" data-width="325" href="/receita/measures_converter.php">
+<img class="ico measures" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Conversão de <br> medidas
+</a>
+</div>
+<div class="print-list gray-box">
+<a class="gray-box-content shoplist_button" data-height="500" data-width="830" href="/receita/print_recipe.php?recipe_id=114&amp;shop_list=true" rel="nofollow">
+<img class="ico list" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Imprimir lista <br> de compras
+</a>
+</div>
+<div class="send-email gray-box">
+<a class="gray-box-content send-by-email" data-open-on="center">
+<img class="ico mail" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Enviar receita <br> por e-mail
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="directions-box box box-large">
+<h3 class="directions-title box-title">
+<img class="ico directions" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Modo de Preparo
+</h3>
+<div class="instructions e-instructions" itemprop="recipeInstructions">
+<ol><li><span>Em uma panela funda, acrescente o leite condensado, a margarina e o chocolate em pó</span></li><li><span>Cozinhe em fogo médio e mexa até que o brigadeiro comece a desgrudar da panela</span></li><li><span>Deixe esfriar e faça pequenas bolas com a mão passando a massa no chocolate granulado</span></li></ol>
+
+</div>
+<div class="directions-actions actions">
+<div class="print-recipe gray-box">
+<a class="gray-box-content print-button" data-height="500" data-width="830" href="/receita/print_recipe.php?recipe_id=114" rel="nofollow">
+<img class="ico print" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Imprimir <br> Receita
+</a>
+</div>
+<div class="measures gray-box">
+<a class="gray-box-content measures_button" data-height="500" data-width="325" href="/receita/measures_converter.php">
+<img class="ico measures" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Conversão de <br> medidas
+</a>
+</div>
+<div class="print-list gray-box">
+<a class="gray-box-content shoplist_button" data-height="500" data-width="830" href="/receita/print_recipe.php?recipe_id=114&amp;shop_list=true" rel="nofollow">
+<img class="ico list" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Imprimir lista <br> de compras
+</a>
+</div>
+<div class="send-email gray-box">
+<a class="gray-box-content send-by-email" data-open-on="center">
+<img class="ico mail" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+<span>Enviar receita <br> por e-mail</span>
+</a>
+</div>
+</div>
+</div>
+
+<div class="recipe-categories-page">
+<h3 class="box-title">
+CATEGORIAS RELACIONADAS
+</h3>
+<nav class="main-content submenu">
+<a href="/categorias/1257-brigadeiro">Brigadeiro</a>
+<a href="/categorias/1039-mousses">
+Mousses
+</a>
+<a href="/categorias/1040-pudins-flans">
+Pudins, flans
+</a>
+<a href="/categorias/1043-docinhos-e-bombons">
+Docinhos e bombons
+</a>
+<a href="/categorias/1261-torta-doce">
+Torta doce
+</a>
+<a href="/categorias/1286-pudim-de-leite-em-po">
+Pudim de leite em pó
+</a>
+<a href="/categorias/1290-light">
+Light
+</a>
+</nav>
+</div>
+<div class="box box-large taboola">
+<div class="directions-title box-title">
+<img alt="Recomendadas" class="ico idea" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+PELA WEB
+</div>
+<div id="taboola-below-article-thumbnails"></div>
+<script type="text/javascript">
+  //<![CDATA[
+    window._taboola = window._taboola || [];
+    _taboola.push({
+    mode: 'thumbnails-d',
+    container: 'taboola-below-article-thumbnails',
+    placement: 'Below Article Thumbnails',
+    target_type: 'mix'
+    });
+  //]]>
+</script>
+</div>
+
+<div class="box box-large related-recipes-grid">
+<h3 class="box-title">
+As preferidas
+</h3>
+<div class="box box-recipe-grid-elem">
+<a class="img-link" href="/receita/3687-pudim-de-leite-condensado.html" title="Pudim de leite condensado">
+<img alt="Imagem da receita Pudim de leite condensado" class="recipe-img" src="https://img.itdg.com.br/tdg/images/recipes/000/003/687/38788/38788_original.jpg?mode=crop&amp;width=300&amp;height=200" />
+</a>
+<div class="container">
+<h4 class="title-with-line">
+<a href="/receita/3687-pudim-de-leite-condensado.html" title="Pudim de leite condensado">
+<span>
+Doces e sobremesas
+</span>
+</a>
+</h4>
+<a href="/receita/3687-pudim-de-leite-condensado.html" title="Pudim de leite condensado">
+<h3>
+Pudim de leite condensado
+</h3>
+</a>
+<div class="by-user">
+Por
+<span>
+Tudo Gostoso
+</span>
+</div>
+<span class="like" title="3.929 votos">
+<img class="ico heart-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+251.432
+</span>
+</div>
+</div>
+
+<div class="box box-recipe-grid-elem">
+<a class="img-link" href="/receita/19728-danoninho-caseiro.html" title="Danoninho caseiro">
+<img alt="Imagem da receita Danoninho caseiro" class="recipe-img" src="https://img.itdg.com.br/tdg/images/recipes/000/019/728/291860/291860_original.jpg?mode=crop&amp;width=300&amp;height=200" />
+</a>
+<div class="container">
+<h4 class="title-with-line">
+<a href="/receita/19728-danoninho-caseiro.html" title="Danoninho caseiro">
+<span>
+Doces e sobremesas
+</span>
+</a>
+</h4>
+<a href="/receita/19728-danoninho-caseiro.html" title="Danoninho caseiro">
+<h3>
+Danoninho caseiro
+</h3>
+</a>
+<div class="by-user">
+Por
+<span>
+Cristiane Russell Seixas
+</span>
+</div>
+<span class="like" title="3.539 votos">
+<img class="ico heart-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+249.220
+</span>
+</div>
+</div>
+
+<div class="box">
+<div class="ads-box">
+<div class="" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-size="[[300,251]]" data-mad="" id="ad-selo3"></div>
+
+</div>
+<div class="ads-box">
+<div class="" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-auto-refresh-in-seconds="30" data-mad-auto-refresh-limit="999" data-mad-lazyload-offset="300" data-mad-size="[[300,250]]" data-mad="" id="ad-mpu4"></div>
+
+</div>
+</div>
+<div>
+<div class="box box-recipe-grid-elem small">
+<a class="img-link" href="/receita/155693-mousse-de-limao-rapido.html" title="Mousse de limão rápido">
+<img alt="Imagem da receita Mousse de limão rápido" class="recipe-img" src="https://img.itdg.com.br/tdg/images/recipes/000/155/693/102259/102259_original.jpg?mode=crop&amp;width=180&amp;height=180" />
+</a>
+<div class="container">
+<h4 class="title-with-line">
+<a href="/receita/155693-mousse-de-limao-rapido.html" title="Mousse de limão rápido">
+<span>
+Doces e sobremesas
+</span>
+</a>
+</h4>
+<a href="/receita/155693-mousse-de-limao-rapido.html" title="Mousse de limão rápido">
+<h3>
+Mousse de limão rápido
+</h3>
+</a>
+<div class="by-user">
+Por
+<span>
+Dah Gabi
+</span>
+</div>
+<span class="like" title="2.884 votos">
+<img class="ico heart-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+281.345
+</span>
+</div>
+</div>
+
+<div class="box box-recipe-grid-elem small">
+<a class="img-link" href="/receita/140770-doce-gelado-de-coco-com-chocolate.html" title="Doce gelado de coco com chocolate">
+<img alt="Imagem da receita Doce gelado de coco com chocolate" class="recipe-img" src="https://img.itdg.com.br/tdg/images/recipes/000/140/770/77238/77238_original.jpg?mode=crop&amp;width=180&amp;height=180" />
+</a>
+<div class="container">
+<h4 class="title-with-line">
+<a href="/receita/140770-doce-gelado-de-coco-com-chocolate.html" title="Doce gelado de coco com chocolate">
+<span>
+Doces e sobremesas
+</span>
+</a>
+</h4>
+<a href="/receita/140770-doce-gelado-de-coco-com-chocolate.html" title="Doce gelado de coco com chocolate">
+<h3>
+Doce gelado de coco com chocolate
+</h3>
+</a>
+<div class="by-user">
+Por
+<span>
+Vivian Ferreira de Souza
+</span>
+</div>
+<span class="like" title="2.739 votos">
+<img class="ico heart-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+189.996
+</span>
+</div>
+</div>
+
+</div>
+<div class="box box-recipe-grid-elem small">
+<a class="img-link" href="/receita/73135-brigadeirao-rapido-e-facil.html" title="Brigadeirão rápido e fácil">
+<img alt="Imagem da receita Brigadeirão rápido e fácil" class="recipe-img" src="https://img.itdg.com.br/tdg/images/recipes/000/073/135/294237/294237_original.jpg?mode=crop&amp;width=180&amp;height=180" />
+</a>
+<div class="container">
+<h4 class="title-with-line">
+<a href="/receita/73135-brigadeirao-rapido-e-facil.html" title="Brigadeirão rápido e fácil">
+<span>
+Doces e sobremesas
+</span>
+</a>
+</h4>
+<a href="/receita/73135-brigadeirao-rapido-e-facil.html" title="Brigadeirão rápido e fácil">
+<h3>
+Brigadeirão rápido e fácil
+</h3>
+</a>
+<div class="by-user">
+Por
+<span>
+Adriana Marques de Souza
+</span>
+</div>
+<span class="like" title="2.843 votos">
+<img class="ico heart-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+219.532
+</span>
+</div>
+</div>
+
+<div class="box box-recipe-grid-elem small">
+<a class="img-link" href="/receita/1621-mousse-de-limao.html" title="Mousse de limão">
+<img alt="Imagem da receita Mousse de limão" class="recipe-img" src="https://img.itdg.com.br/tdg/images/recipes/000/001/621/192757/192757_original.jpg?mode=crop&amp;width=180&amp;height=180" />
+</a>
+<div class="container">
+<h4 class="title-with-line">
+<a href="/receita/1621-mousse-de-limao.html" title="Mousse de limão">
+<span>
+Doces e sobremesas
+</span>
+</a>
+</h4>
+<a href="/receita/1621-mousse-de-limao.html" title="Mousse de limão">
+<h3>
+Mousse de limão
+</h3>
+</a>
+<div class="by-user">
+Por
+<span>
+Carolina Grelo Carim
+</span>
+</div>
+<span class="like" title="2.086 votos">
+<img class="ico heart-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+94.872
+</span>
+</div>
+</div>
+
+<div class="box box-recipe-grid-elem small">
+<a class="img-link" href="/receita/1599-mousse-de-maracuja.html" title="Mousse de maracujá">
+<img alt="Imagem da receita Mousse de maracujá" class="recipe-img" src="https://img.itdg.com.br/tdg/images/recipes/000/001/599/284441/284441_original.jpg?mode=crop&amp;width=180&amp;height=180" />
+</a>
+<div class="container">
+<h4 class="title-with-line">
+<a href="/receita/1599-mousse-de-maracuja.html" title="Mousse de maracujá">
+<span>
+Doces e sobremesas
+</span>
+</a>
+</h4>
+<a href="/receita/1599-mousse-de-maracuja.html" title="Mousse de maracujá">
+<h3>
+Mousse de maracujá
+</h3>
+</a>
+<div class="by-user">
+Por
+<span>
+Luciana Camargo
+</span>
+</div>
+<span class="like" title="2.082 votos">
+<img class="ico heart-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+217.437
+</span>
+</div>
+</div>
+
+<div class="box box-recipe-grid-elem small">
+<a class="img-link" href="/receita/612-pave-de-bis.html" title="Pavê de Bis">
+<img alt="Imagem da receita Pavê de Bis" class="recipe-img" src="https://img.itdg.com.br/tdg/images/recipes/000/000/612/38644/38644_original.jpg?mode=crop&amp;width=180&amp;height=180" />
+</a>
+<div class="container">
+<h4 class="title-with-line">
+<a href="/receita/612-pave-de-bis.html" title="Pavê de Bis">
+<span>
+Doces e sobremesas
+</span>
+</a>
+</h4>
+<a href="/receita/612-pave-de-bis.html" title="Pavê de Bis">
+<h3>
+Pavê de Bis
+</h3>
+</a>
+<div class="by-user">
+Por
+<span>
+Denice Vacari
+</span>
+</div>
+<span class="like" title="1.729 votos">
+<img class="ico heart-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+163.752
+</span>
+</div>
+</div>
+
+<div class="box box-recipe-grid-elem small">
+<a class="img-link" href="/receita/16-mousse-de-maracuja-facil.html" title="Mousse de maracujá fácil">
+<img alt="Imagem da receita Mousse de maracujá fácil" class="recipe-img" src="https://img.itdg.com.br/tdg/images/recipes/000/000/016/266218/266218_original.jpg?mode=crop&amp;width=180&amp;height=180" />
+</a>
+<div class="container">
+<h4 class="title-with-line">
+<a href="/receita/16-mousse-de-maracuja-facil.html" title="Mousse de maracujá fácil">
+<span>
+Doces e sobremesas
+</span>
+</a>
+</h4>
+<a href="/receita/16-mousse-de-maracuja-facil.html" title="Mousse de maracujá fácil">
+<h3>
+Mousse de maracujá fácil
+</h3>
+</a>
+<div class="by-user">
+Por
+<span>
+Tudo Gostoso
+</span>
+</div>
+<span class="like" title="1.613 votos">
+<img class="ico heart-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+100.453
+</span>
+</div>
+</div>
+
+<div class="box box-recipe-grid-elem small">
+<a class="img-link" href="/receita/5966-arroz-doce-verdadeiro.html" title="Arroz doce verdadeiro">
+<img alt="Imagem da receita Arroz doce verdadeiro" class="recipe-img" src="https://img.itdg.com.br/tdg/images/recipes/000/005/966/69755/69755_original.jpg?mode=crop&amp;width=180&amp;height=180" />
+</a>
+<div class="container">
+<h4 class="title-with-line">
+<a href="/receita/5966-arroz-doce-verdadeiro.html" title="Arroz doce verdadeiro">
+<span>
+Doces e sobremesas
+</span>
+</a>
+</h4>
+<a href="/receita/5966-arroz-doce-verdadeiro.html" title="Arroz doce verdadeiro">
+<h3>
+Arroz doce verdadeiro
+</h3>
+</a>
+<div class="by-user">
+Por
+<span>
+Paty
+</span>
+</div>
+<span class="like" title="1.641 votos">
+<img class="ico heart-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+127.331
+</span>
+</div>
+</div>
+
+<a class="btn related-recipe" href="https://www.tudogostoso.com.br/categorias/doces-e-sobremesas">
+Ver todas
+</a>
+</div>
+
+<div class="comments-box box box-large" id="comments-wrapper">
+<div class="comments-box-title">
+<h3 class="comments box-title active" id="comments-tab" rel="#comments-box">
+<img class="ico comment-big-gray" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Envie um comentário
+</h3>
+<h3 class="vote box-title" id="rating-tab" rel="#rating-box">
+<img class="ico star-gray" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Avalie essa receita
+</h3>
+</div>
+<div id="comments-box">
+<div class="comment-form clearfix" id="new_comment">
+<textarea class="comment-text-area" name="comment" placeholder="Escreva um comentário para esta receita."></textarea>
+<div class="send-comment-box">
+<a class="comment-btn btn send-comment" data-id="114">Enviar comentário</a>
+</div>
+</div>
+
+<div id="comments-list">
+<ul class="comment">
+<li class="commentitem" data-author-id="" id="comment_1645784">
+<div class="comment-user-info">
+<img alt="Foto do usuário" class="comment-img" src="https://img.itdg.com.br/tdg/assets/default/users_avatars/user_avatar_original.png?mode=crop&amp;width=60&amp;height=60" />
+<div class="comment-info-txt">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/8393378-aninha-games/" title="aninha games">
+aninha games
+</a>
+<div class="comment-time">
+em 31/08/18
+</div>
+</div>
+</div>
+<div class="comment-data comment-body" id="comment_box_1645784">
+<p>
+Pode por cocô ralado em vez de chocolateem pó?
+</p>
+<div class="comment-reply-box">
+<a class="comment-reply" data-comment-id="1645784" href="javascript:void(0)" id="answer-link-1645784">
+<img class="ico reply" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Responder
+</a>
+</div>
+</div>
+</li>
+<li class="commentitem" data-author-id="" id="comment_1644852">
+<div class="comment-user-info">
+<img alt="Foto do usuário" class="comment-img" src="https://img.itdg.com.br/tdg/assets/default/users_avatars/user_avatar_original.png?mode=crop&amp;width=60&amp;height=60" />
+<div class="comment-info-txt">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/8321143-soyara/" title="Soyara">
+Soyara
+</a>
+<div class="comment-time">
+em 25/08/18
+</div>
+</div>
+</div>
+<div class="comment-data comment-body" id="comment_box_1644852">
+<p>
+Mas a manteiga pode ser light?
+Para fazer o brigadeiro?
+</p>
+<div class="comment-reply-box">
+<a class="comment-reply" data-comment-id="1644852" href="javascript:void(0)" id="answer-link-1644852">
+<img class="ico reply" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Responder
+</a>
+</div>
+</div>
+</li>
+<li class="commentitem" data-author-id="" id="comment_1644179">
+<div class="comment-user-info">
+<img alt="Foto do usuário" class="comment-img" src="https://graph.facebook.com/1541954839229653/picture?type=large&amp;height=60" />
+<div class="comment-info-txt">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/7953094-jessica-minato/" title="Jéssica Minato">
+Jéssica Minato
+</a>
+<div class="comment-time">
+em 20/08/18
+</div>
+</div>
+</div>
+<div class="comment-data comment-body" id="comment_box_1644179">
+<p>
+Receita perfeita! Deu super certoooo 
+</p>
+<div class="comment-reply-box">
+<a class="comment-reply" data-comment-id="1644179" href="javascript:void(0)" id="answer-link-1644179">
+<img class="ico reply" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Responder
+</a>
+</div>
+</div>
+</li>
+<li class="commentitem" data-author-id="" id="comment_1640148">
+<div class="comment-user-info">
+<img alt="Foto do usuário" class="comment-img" src="https://graph.facebook.com/793665034083371/picture?type=large&amp;height=60" />
+<div class="comment-info-txt">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/1342155-luciana-de-sousa-oliveira/" title="luciana de sousa oliveira">
+luciana de sousa...
+</a>
+<div class="comment-time">
+em 25/07/18
+</div>
+</div>
+</div>
+<div class="comment-data comment-body" id="comment_box_1640148">
+<p>
+Essa receita fica boa ra enrolar ? Não gruda não?
+</p>
+<div class="comment-reply-box">
+<a class="comment-reply" data-comment-id="1640148" href="javascript:void(0)" id="answer-link-1640148">
+<img class="ico reply" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Responder
+</a>
+</div>
+<a class="item answers" href="javascript: void(0)">
+<img alt="Resposta" class="ico20 gray-reply" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+1
+Resposta
+</a>
+<!-- / REPLY -->
+<ul class="reply-list">
+<li class="reply" data-author-id="8385718" id="comment_1640148">
+<div class="comment-user-info">
+<img alt="Foto do usuário" class="comment-img" src="https://img.itdg.com.br/tdg/assets/default/users_avatars/user_avatar_original.png?mode=crop&amp;width=60&amp;height=60">
+<div class="comment-info-txt">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/8385718-gustavo-bacelar/" title="Gustavo Bacelar">
+Gustavo Bacelar
+</a>
+<span class="comment-time">
+em 26/08/18
+</span>
+</div>
+</img>
+</div>
+<p class="comment-data">
+Uma dica que eu dou para não grudar na mão é que antes de enrolar o brigadeiro passar um poco de manteiga na mão e lavar ela de vez em quado se for fazer muito
+</p>
+</li>
+</ul>
+</div>
+</li>
+<li class="commentitem" data-author-id="" id="comment_1638456">
+<div class="comment-user-info">
+<img alt="Foto do usuário" class="comment-img" src="https://img.itdg.com.br/tdg/assets/default/users_avatars/user_avatar_original.png?mode=crop&amp;width=60&amp;height=60" />
+<div class="comment-info-txt">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/7790241-leliane-rodrigues/" title="Leliane Rodrigues">
+Leliane Rodrigues
+</a>
+<div class="comment-time">
+em 16/07/18
+</div>
+</div>
+</div>
+<div class="comment-data comment-body" id="comment_box_1638456">
+<p>
+Perfeita!!! Simplesmente sem palavras. A melhor receita dos últimos tempos! Pra quêm tiver dúvidas, experimente fazer, depois venha aqui dizer o que achou... paraaaaabéns!
+</p>
+<div class="comment-reply-box">
+<a class="comment-reply" data-comment-id="1638456" href="javascript:void(0)" id="answer-link-1638456">
+<img class="ico reply" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Responder
+</a>
+</div>
+</div>
+</li>
+<li class="commentitem" data-author-id="" id="comment_1638410">
+<div class="comment-user-info">
+<img alt="Foto do usuário" class="comment-img" src="https://img.itdg.com.br/tdg/assets/default/users_avatars/user_avatar_original.png?mode=crop&amp;width=60&amp;height=60" />
+<div class="comment-info-txt">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/8185638-julia-paes/" title="Julia Paes">
+Julia Paes
+</a>
+<div class="comment-time">
+em 15/07/18
+</div>
+</div>
+</div>
+<div class="comment-data comment-body" id="comment_box_1638410">
+<p>
+Faço com creme de leite ,fica um brigadeiro gourmet e nao fica mto doce
+</p>
+<div class="comment-reply-box">
+<a class="comment-reply" data-comment-id="1638410" href="javascript:void(0)" id="answer-link-1638410">
+<img class="ico reply" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Responder
+</a>
+</div>
+<a class="item answers" href="javascript: void(0)">
+<img alt="Resposta" class="ico20 gray-reply" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+1
+Resposta
+</a>
+<!-- / REPLY -->
+<ul class="reply-list">
+<li class="reply" data-author-id="4920133" id="comment_1638410">
+<div class="comment-user-info">
+<img alt="Foto do usuário" class="comment-img" src="https://graph.facebook.com/1052748711469081/picture?type=large&amp;height=60">
+<div class="comment-info-txt">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/4920133-jennie/" title="Jennie">
+Jennie
+</a>
+<span class="comment-time">
+em 07/08/18
+</span>
+</div>
+</img>
+</div>
+<p class="comment-data">
+O creme de leite no lugar do leite condensado ?
+</p>
+</li>
+</ul>
+</div>
+</li>
+<li class="commentitem" data-author-id="" id="comment_1632540">
+<div class="comment-user-info">
+<img alt="Foto do usuário" class="comment-img" src="https://img.itdg.com.br/tdg/assets/default/users_avatars/user_avatar_original.png?mode=crop&amp;width=60&amp;height=60" />
+<div class="comment-info-txt">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/7954456-francielle/" title="Francielle">
+Francielle
+</a>
+<div class="comment-time">
+em 12/06/18
+</div>
+</div>
+</div>
+<div class="comment-data comment-body" id="comment_box_1632540">
+<p>
+Rende quantos brigadeiros?  Da pra rechear trufas?
+</p>
+<div class="comment-reply-box">
+<a class="comment-reply" data-comment-id="1632540" href="javascript:void(0)" id="answer-link-1632540">
+<img class="ico reply" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Responder
+</a>
+</div>
+<a class="item answers" href="javascript: void(0)">
+<img alt="Resposta" class="ico20 gray-reply" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+1
+Resposta
+</a>
+<!-- / REPLY -->
+<ul class="reply-list">
+<li class="reply" data-author-id="8321143" id="comment_1632540">
+<div class="comment-user-info">
+<img alt="Foto do usuário" class="comment-img" src="https://img.itdg.com.br/tdg/assets/default/users_avatars/user_avatar_original.png?mode=crop&amp;width=60&amp;height=60">
+<div class="comment-info-txt">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/8321143-soyara/" title="Soyara">
+Soyara
+</a>
+<span class="comment-time">
+em 25/08/18
+</span>
+</div>
+</img>
+</div>
+<p class="comment-data">
+30 brigadeiros com s medidas dessa receita OK?
+Da sim fica uma delícia!!!
+:)
+</p>
+</li>
+</ul>
+</div>
+</li>
+<li class="commentitem" data-author-id="" id="comment_1629147">
+<div class="comment-user-info">
+<img alt="Foto do usuário" class="comment-img" src="https://graph.facebook.com/273062803237960/picture?type=large&amp;height=60" />
+<div class="comment-info-txt">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/8227288-luke-martinez/" title="Luke Martinez">
+Luke Martinez
+</a>
+<div class="comment-time">
+em 22/05/18
+</div>
+</div>
+</div>
+<div class="comment-data comment-body" id="comment_box_1629147">
+<p>
+fiz e ficou maravilhoso
+</p>
+<div class="comment-reply-box">
+<a class="comment-reply" data-comment-id="1629147" href="javascript:void(0)" id="answer-link-1629147">
+<img class="ico reply" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Responder
+</a>
+</div>
+</div>
+</li>
+<li class="commentitem" data-author-id="" id="comment_1628697">
+<div class="comment-user-info">
+<img alt="Foto do usuário" class="comment-img" src="https://graph.facebook.com/513254217/picture?type=large&amp;height=60" />
+<div class="comment-info-txt">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/768025-zuleide/" title="Zuleide">
+Zuleide
+</a>
+<div class="comment-time">
+em 20/05/18
+</div>
+</div>
+</div>
+<div class="comment-data comment-body" id="comment_box_1628697">
+<p>
+Ola eu gostaria de saber se  pode congelar ? Alguen ja fez essa experiencia? E deu certo? 
+
+</p>
+<div class="comment-reply-box">
+<a class="comment-reply" data-comment-id="1628697" href="javascript:void(0)" id="answer-link-1628697">
+<img class="ico reply" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Responder
+</a>
+</div>
+<a class="item answers" href="javascript: void(0)">
+<img alt="Resposta" class="ico20 gray-reply" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+1
+Resposta
+</a>
+<!-- / REPLY -->
+<ul class="reply-list">
+<li class="reply" data-author-id="6027451" id="comment_1628697">
+<div class="comment-user-info">
+<img alt="Foto do usuário" class="comment-img" src="https://graph.facebook.com/1540857886136608/picture?type=large&amp;height=60">
+<div class="comment-info-txt">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/6027451-martins-karina-santos/" title="Martins Karina Santos">
+Martins Karina...
+</a>
+<span class="comment-time">
+em 07/10/18
+</span>
+</div>
+</img>
+</div>
+<p class="comment-data">
+Da sim.. já fiz isso.
+</p>
+</li>
+</ul>
+</div>
+</li>
+<li class="commentitem" data-author-id="" id="comment_1627767">
+<div class="comment-user-info">
+<img alt="Foto do usuário" class="comment-img" src="https://img.itdg.com.br/tdg/assets/default/users_avatars/user_avatar_original.png?mode=crop&amp;width=60&amp;height=60" />
+<div class="comment-info-txt">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/8204690-juliacarolinigsilva-linda-linda/" title="JuliaCArolinigsilva linda linda">
+JuliaCArolinigsil...
+</a>
+<div class="comment-time">
+em 14/05/18
+</div>
+</div>
+</div>
+<div class="comment-data comment-body" id="comment_box_1627767">
+<p>
+Que bom
+</p>
+<div class="comment-reply-box">
+<a class="comment-reply" data-comment-id="1627767" href="javascript:void(0)" id="answer-link-1627767">
+<img class="ico reply" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+Responder
+</a>
+</div>
+</div>
+</li>
+</ul>
+<div class="pagination" id="paginate-box">
+<div class="pagination">
+<div class="row">
+&lt;&lt;
+
+&lt;
+
+<span class="current">
+1
+</span>
+
+<a href="/receita/114/comentarios.js?id=114-brigadeiro&amp;page=2" data-remote="true" rel="nofollow">2</a>
+
+<a href="/receita/114/comentarios.js?id=114-brigadeiro&amp;page=3" data-remote="true" rel="nofollow">3</a>
+
+<a href="/receita/114/comentarios.js?id=114-brigadeiro&amp;page=4" data-remote="true" rel="nofollow">4</a>
+
+<a href="/receita/114/comentarios.js?id=114-brigadeiro&amp;page=5" data-remote="true" rel="nofollow">5</a>
+
+<a href="/receita/114/comentarios.js?id=114-brigadeiro&amp;page=2" class="next" data-remote="true" rel="nofollow">&gt;</a>
+
+<a href="/receita/114/comentarios.js?id=114-brigadeiro&amp;page=400" data-remote="true">&gt;&gt;</a>
+
+</div>
+<div class="row">
+<a href="/receita/114/comentarios.js?id=114-brigadeiro&amp;page=10" data-remote="true" rel="nofollow">10</a>
+<a href="/receita/114/comentarios.js?id=114-brigadeiro&amp;page=20" data-remote="true" rel="nofollow">20</a>
+<a href="/receita/114/comentarios.js?id=114-brigadeiro&amp;page=30" data-remote="true" rel="nofollow">30</a>
+<a href="/receita/114/comentarios.js?id=114-brigadeiro&amp;page=40" data-remote="true" rel="nofollow">40</a>
+<a href="/receita/114/comentarios.js?id=114-brigadeiro&amp;page=50" data-remote="true" rel="nofollow">50</a>
+<a href="/receita/114/comentarios.js?id=114-brigadeiro&amp;page=60" data-remote="true" rel="nofollow">60</a>
+<a href="/receita/114/comentarios.js?id=114-brigadeiro&amp;page=70" data-remote="true" rel="nofollow">70</a>
+<a href="/receita/114/comentarios.js?id=114-brigadeiro&amp;page=80" data-remote="true" rel="nofollow">80</a>
+<a href="/receita/114/comentarios.js?id=114-brigadeiro&amp;page=90" data-remote="true" rel="nofollow">90</a>
+
+</div>
+<div class="row">
+<a href="/receita/114/comentarios.js?id=114-brigadeiro&amp;page=100" data-remote="true" rel="nofollow">100</a>
+<a href="/receita/114/comentarios.js?id=114-brigadeiro&amp;page=200" data-remote="true" rel="nofollow">200</a>
+<a href="/receita/114/comentarios.js?id=114-brigadeiro&amp;page=300" data-remote="true" rel="nofollow">300</a>
+
+</div>
+<div class="row">
+</div>
+<div class="row">
+</div>
+</div>
+
+<span class="pagination-load">
+<img alt="Load-black" class="ico-load" src="https://img.itdg.com.br/tdg/assets/layout/load-black.gif" />
+</span>
+</div>
+</div>
+
+</div>
+<div id="rating-box">
+<div class="stars hreview-aggregate" id="rating-bar">
+<div class="item fn" style="display:none;">
+Brigadeiro
+</div>
+<span class="votenum count" style="display:none;">
+3.079 votos
+</span>
+<h4 id="rating-title">Selecione uma nota:</h4>
+<span class="sub-title" id="rating-sub-title">Passe o mouse em cima e selecione a sua nota.</span>
+<div class="rating">
+<div class="ratingbar big overtoggler">
+<div class="ratingstars current average" id="rating-average" style="width:90%; display:none;">
+4.5
+<span class="best">5</span>
+<span class="worst">1</span>
+</div>
+<div class="ratingstars vote" data-id="114" id="rating-vote">
+<a class="one-rate" data-rate="2" rel="nofollow">
+Um
+</a>
+<a class="two-rate" data-rate="4" rel="nofollow">
+Dois
+</a>
+<a class="three-rate" data-rate="6" rel="nofollow">
+Tr&ecirc;s
+</a>
+<a class="four-rate" data-rate="8" rel="nofollow">
+Quatro
+</a>
+<a class="five-rate" data-rate="10" rel="nofollow">
+Cinco
+</a>
+</div>
+</div>
+</div>
+</div>
+
+<ul class="users-rating">
+<li>
+<div class="comment-user-info">
+<img class="comment-img" src="https://graph.facebook.com/1541954839229653/picture?type=large&amp;height=60" />
+<div class="rating-user-info">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/7953094-jessica-minato/">
+Jéssica Minato
+</a>
+</div>
+</div>
+<div class="rating-user-stars">
+<ul>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="comment-user-info">
+<img class="comment-img" src="https://graph.facebook.com/425849897585474/picture?type=large&amp;height=60" />
+<div class="rating-user-info">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/6919756-lucas-nogueira/">
+Lucas Nogueira
+</a>
+</div>
+</div>
+<div class="rating-user-stars">
+<ul>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="comment-user-info">
+<img class="comment-img" src="https://graph.facebook.com/273062803237960/picture?type=large&amp;height=60" />
+<div class="rating-user-info">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/8227288-luke-martinez/">
+Luke Martinez
+</a>
+</div>
+</div>
+<div class="rating-user-stars">
+<ul>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="comment-user-info">
+<img class="comment-img" src="https://img.itdg.com.br/tdg/assets/default/users_avatars/user_avatar_original.png?mode=crop&amp;width=60&amp;height=60" />
+<div class="rating-user-info">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/8209634-jhenifer-thalia-silva-santos/">
+Jhenifer Thalia Silva Santos
+</a>
+</div>
+</div>
+<div class="rating-user-stars">
+<ul>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="comment-user-info">
+<img class="comment-img" src="https://graph.facebook.com/132722144233893/picture?type=large&amp;height=60" />
+<div class="rating-user-info">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/8137660-cleia-malachias/">
+Cleia Malachias
+</a>
+</div>
+</div>
+<div class="rating-user-stars">
+<ul>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="comment-user-info">
+<img class="comment-img" src="https://graph.facebook.com/192435761308040/picture?type=large&amp;height=60" />
+<div class="rating-user-info">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/7952791-mellany-kauana/">
+Mellany Kauana
+</a>
+</div>
+</div>
+<div class="rating-user-stars">
+<ul>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="comment-user-info">
+<img class="comment-img" src="https://img.itdg.com.br/tdg/assets/default/users_avatars/user_avatar_original.png?mode=crop&amp;width=60&amp;height=60" />
+<div class="rating-user-info">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/7864698-mztheud/">
+mztheud
+</a>
+</div>
+</div>
+<div class="rating-user-stars">
+<ul>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="comment-user-info">
+<img class="comment-img" src="https://graph.facebook.com/236796263465737/picture?type=large&amp;height=60" />
+<div class="rating-user-info">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/7539811-emilly-souza/">
+Emilly Souza
+</a>
+</div>
+</div>
+<div class="rating-user-stars">
+<ul>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small-gray" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small-gray" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="comment-user-info">
+<img class="comment-img" src="https://graph.facebook.com/1872347369754551/picture?type=large&amp;height=60" />
+<div class="rating-user-info">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/7645496-rafaela-daniel/">
+Rafaela Daniel
+</a>
+</div>
+</div>
+<div class="rating-user-stars">
+<ul>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="comment-user-info">
+<img class="comment-img" src="https://img.itdg.com.br/tdg/images/users_avatars/007/752/242/250276/250276_original.jpg?mode=crop&amp;width=60&amp;height=60" />
+<div class="rating-user-info">
+<a class="comment-user" href="https://www.tudogostoso.com.br/usuario/7752242-estela/">
+Estela
+</a>
+</div>
+</div>
+<div class="rating-user-stars">
+<ul>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a>
+<img class="ico star-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+</ul>
+</div>
+</li>
+
+</ul>
+</div>
+</div>
+</div>
+<div class="right-content">
+<div class="ads-content">
+<div class="ads-box ads300x250 ads-box-fixed ads-sticky">
+<div class="" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-auto-refresh-in-seconds="30" data-mad-auto-refresh-limit="999" data-mad-size="[[300,600],[300,250]]" data-mad="" id="ad-mpu1"></div>
+
+</div>
+</div>
+<div class="ad-with-border ad-center" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-size="[[300,251]]" data-mad="" id="ad-selo1"></div>
+
+<div class="box see-too sidebar-content">
+<h3 class="box-title">
+Receitas Relacionadas
+</h3>
+
+<div class="box box-small">
+<a class="sidebar-img" href="/receita/196118-brigadeiro-de-morango-facil-bicho-de-pe.html" title="Brigadeiro de morango fácil (bicho de pé)">
+<img alt="Imagem da receita Brigadeiro de morango fácil (bicho de pé)" class="img-lazy recipe-img" data-src="https://img.itdg.com.br/tdg/images/recipes/000/196/118/294574/294574_original.jpg?mode=crop&amp;width=150&amp;height=130" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+</a>
+<div class="container">
+<h4 class="title-with-line">
+<a href="/receita/196118-brigadeiro-de-morango-facil-bicho-de-pe.html" title="Brigadeiro de morango fácil (bicho de pé)">
+<span>
+Brigadeiro
+</span>
+</a>
+</h4>
+<a href="/receita/196118-brigadeiro-de-morango-facil-bicho-de-pe.html" title="Brigadeiro de morango fácil (bicho de pé)">
+<h3>
+Brigadeiro de morango fácil (bicho de pé)
+</h3>
+</a>
+<div class="by-user">
+Por
+<span>
+Jaiane Alves Martins
+</span>
+</div>
+<span class="like" title="nenhum voto">
+<img class="ico heart-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+23
+</span>
+</div>
+</div>
+
+<div class="box box-small box-native" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-size='["fluid"]' data-mad="" id="ad-native1"></div>
+
+<div class="box box-small">
+<a class="sidebar-img" href="/receita/195884-brigadeiro-da-lolly.html" title="Brigadeiro da Lolly">
+<img alt="Imagem da receita Brigadeiro da Lolly" class="img-lazy recipe-img" data-src="https://img.itdg.com.br/tdg/images/recipes/000/195/884/293159/293159_original.jpg?mode=crop&amp;width=150&amp;height=130" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+</a>
+<div class="container">
+<h4 class="title-with-line">
+<a href="/receita/195884-brigadeiro-da-lolly.html" title="Brigadeiro da Lolly">
+<span>
+Brigadeiro
+</span>
+</a>
+</h4>
+<a href="/receita/195884-brigadeiro-da-lolly.html" title="Brigadeiro da Lolly">
+<h3>
+Brigadeiro da Lolly
+</h3>
+</a>
+<div class="by-user">
+Por
+<span>
+Yuki Aishi
+</span>
+</div>
+<span class="like" title="1 votos">
+<img class="ico heart-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+1
+</span>
+</div>
+</div>
+
+
+<div class="box box-small">
+<a class="sidebar-img" href="/receita/195823-brigadeiro-de-colher.html" title="Brigadeiro de colher">
+<img alt="Imagem da receita Brigadeiro de colher" class="img-lazy recipe-img" data-src="https://img.itdg.com.br/tdg/images/recipes/000/195/823/292972/292972_original.jpg?mode=crop&amp;width=150&amp;height=130" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+</a>
+<div class="container">
+<h4 class="title-with-line">
+<a href="/receita/195823-brigadeiro-de-colher.html" title="Brigadeiro de colher">
+<span>
+Brigadeiro
+</span>
+</a>
+</h4>
+<a href="/receita/195823-brigadeiro-de-colher.html" title="Brigadeiro de colher">
+<h3>
+Brigadeiro de colher
+</h3>
+</a>
+<div class="by-user">
+Por
+<span>
+HellenGiovana
+</span>
+</div>
+<span class="like" title="nenhum voto">
+<img class="ico heart-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+45
+</span>
+</div>
+</div>
+
+
+<div class="box box-small">
+<a class="sidebar-img" href="/receita/195777-docinhos-de-leite-em-po.html" title="Docinhos de leite em pó">
+<img alt="Imagem da receita Docinhos de leite em pó" class="img-lazy recipe-img" data-src="https://img.itdg.com.br/tdg/images/recipes/000/195/777/292690/292690_original.jpg?mode=crop&amp;width=150&amp;height=130" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+</a>
+<div class="container">
+<h4 class="title-with-line">
+<a href="/receita/195777-docinhos-de-leite-em-po.html" title="Docinhos de leite em pó">
+<span>
+Brigadeiro
+</span>
+</a>
+</h4>
+<a href="/receita/195777-docinhos-de-leite-em-po.html" title="Docinhos de leite em pó">
+<h3>
+Docinhos de leite em pó
+</h3>
+</a>
+<div class="by-user">
+Por
+<span>
+Regiane Camargo
+</span>
+</div>
+<span class="like" title="nenhum voto">
+<img class="ico heart-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+33
+</span>
+</div>
+</div>
+
+
+<div class="box box-small">
+<a class="sidebar-img" href="/receita/195636-brigadeiro-de-morango-bicho-de-pe.html" title="Brigadeiro de morango (bicho de pé)">
+<img alt="Imagem da receita Brigadeiro de morango (bicho de pé)" class="img-lazy recipe-img" data-src="https://img.itdg.com.br/tdg/images/recipes/000/195/636/292342/292342_original.jpg?mode=crop&amp;width=150&amp;height=130" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+</a>
+<div class="container">
+<h4 class="title-with-line">
+<a href="/receita/195636-brigadeiro-de-morango-bicho-de-pe.html" title="Brigadeiro de morango (bicho de pé)">
+<span>
+Brigadeiro
+</span>
+</a>
+</h4>
+<a href="/receita/195636-brigadeiro-de-morango-bicho-de-pe.html" title="Brigadeiro de morango (bicho de pé)">
+<h3>
+Brigadeiro de morango (bicho de pé)
+</h3>
+</a>
+<div class="by-user">
+Por
+<span>
+Marcos Adriano Martins
+</span>
+</div>
+<span class="like" title="nenhum voto">
+<img class="ico heart-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+4
+</span>
+</div>
+</div>
+<div class="box box-small box-native" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-size='["fluid"]' data-mad="" id="ad-native2"></div>
+
+
+<div class="box box-small">
+<a class="sidebar-img" href="/receita/194658-brigadeiro-de-leite-em-po-com-creme-de-avela.html" title="Brigadeiro de leite em pó com creme de avelã">
+<img alt="Imagem da receita Brigadeiro de leite em pó com creme de avelã" class="img-lazy recipe-img" data-src="https://img.itdg.com.br/tdg/images/recipes/000/194/658/289173/289173_original.jpg?mode=crop&amp;width=150&amp;height=130" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+</a>
+<div class="container">
+<h4 class="title-with-line">
+<a href="/receita/194658-brigadeiro-de-leite-em-po-com-creme-de-avela.html" title="Brigadeiro de leite em pó com creme de avelã">
+<span>
+Brigadeiro
+</span>
+</a>
+</h4>
+<a href="/receita/194658-brigadeiro-de-leite-em-po-com-creme-de-avela.html" title="Brigadeiro de leite em pó com creme de avelã">
+<h3>
+Brigadeiro de leite em pó com creme de avelã
+</h3>
+</a>
+<div class="by-user">
+Por
+<span>
+Sabrina Dias
+</span>
+</div>
+<span class="like" title="1 votos">
+<img class="ico heart-small" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+136
+</span>
+</div>
+</div>
+
+<a href="/categorias/1257-brigadeiro" class="btn related-recipe">Ver todas</a>
+</div>
+
+<div class="ad-with-border ad-center" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-size="[[300,251]]" data-mad="" id="ad-selo2"></div>
+
+<div class="ads-box ads300x250 ads-sticky">
+<div class="" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-auto-refresh-in-seconds="30" data-mad-auto-refresh-limit="999" data-mad-lazyload-offset="300" data-mad-size="[[300,250]]" data-mad="" id="ad-mpu3"></div>
+
+</div>
+</div>
+<p class="recipecredits box">
+A receita apresentada nesta p&aacute;gina foi enviada por
+<a href="https://www.tudogostoso.com.br/usuario/1-tudo-gostoso/">Tudo Gostoso</a>
+atrav&eacute;s
+<a href="/meu-livro/enviar-receita/">desta p&aacute;gina</a>.
+<br />
+Se voc&ecirc; encontrou algum problema com esta receita, seja no texto, foto ou autoria, por favor entre em contato atrav&eacute;s do e-mail
+<a href="mailto:info@tudogostoso.com.br">info@tudogostoso.com.br</a>.
+</p>
+
+</div>
+<div class="full-width-content">
+<div class="pub ads-center ads-super-footer">
+<div class="" data-mad-adunit="/21636860837/TudoGostoso/Content" data-mad-auto-refresh-in-seconds="30" data-mad-auto-refresh-limit="999" data-mad-lazyload-offset="300" data-mad-size="[[970,250],[970,180],[970,90],[728,90]]" data-mad="" id="ad-footer"></div>
+
+</div>
+</div>
+
+
+</div>
+</div>
+<div class="footer">
+<div class="footer-content">
+<div class="footer-box1">
+<ul>
+<li class="title">Categorias de Receitas</li>
+<li>
+<a href="/categorias" title="Todas as Categorias">
+Todas
+</a>
+</li>
+<li>
+<a href="/rapidas" title="Rápidas">
+Rápidas
+</a>
+</li>
+<li>
+<a href="/especiais" title="Especiais">
+Especiais
+</a>
+</li>
+<li>
+<a href="/microondas" title="Micro-ondas">
+Micro-ondas
+</a>
+</li>
+<li>
+<a href="/videos" title="Vídeos">
+Vídeos
+</a>
+</li>
+<li>
+<a href="/novidades" title="Novidades">
+Novidades
+</a>
+</li>
+<li>
+<a href="/categorias/1057-prato-unico" title="Prato único">
+Prato único
+</a>
+</li>
+<li>
+<a href="/categorias/1329-light" title="Receiteas Light">
+Light
+</a>
+</li>
+</ul>
+</div>
+<div class="footer-box1 footer-channels">
+<ul>
+<li class="title">A Seleção da Redação</li>
+<li>
+<a href="/especial/1-receitas-de-pascoa" title="Páscoa">
+Receitas de Páscoa
+</a>
+</li>
+<li>
+<a href="/especial/15-receitas-de-natal-e-ano-novo" title="Natal X Ano Novo">
+Receitas de Natal X Ano Novo
+</a>
+</li>
+<li>
+<a href="/especial/3-festa-junina" title="Festa Junina">
+Receitas de Festa Junina
+</a>
+</li>
+<li>
+<a href="/especial/11-receitas-de-dia-das-maes" title="Dia das Mães">
+Receitas de Dia das Mães
+</a>
+</li>
+<li>
+<a href="/especial/12-receita-de-dia-dos-namorados" title="Dia dos Namorados">
+Receitas de Dia dos Namorados
+</a>
+</li>
+</ul>
+</div>
+<div class="footer-box1 mobile-app">
+<ul>
+<li class="title">
+TudoGostoso no celular
+</li>
+<li>
+<a href="https://play.google.com/store/apps/details?id=com.nzn.tdg&amp;hl=pt_BR" target="_blank" title="Android">
+<img class="m-ico ico android" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a href="https://itunes.apple.com/br/app/tudo-gostoso-receitas/id577891381?mt=8" target="_blank" title="Appstore">
+<img class="m-ico ico appstore" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+<li>
+<a href="https://www.microsoft.com/pt-br/store/p/tudo-gostoso-receitas/9nblgggz5qg5" target="_blank" title="Windows Store">
+<img class="m-ico ico windows" src="https://img.itdg.com.br/tdg/assets/layout/blank.gif" />
+</a>
+</li>
+</ul>
+</div>
+<div class="footer-box2">
+<ul>
+<li class="title">Sobre</li>
+<li>
+<a href="/privacidade" title="Termos de uso e Política de privacidade">
+Termos de uso e<br> Política de privacidade
+</a>
+</li>
+<li>
+<a href="/anuncie" title="Anuncie">
+Anuncie
+</a>
+</li>
+<li>
+<a href="/contato" title="Contato">
+Contato
+</a>
+</li>
+</ul>
+</div>
+<div class="footer-box4">
+<img alt="Mascote TudoGostoso" src="https://img.itdg.com.br/tdg/assets/renew/layout/footer-bg.jpg" />
+</div>
+<div class="social-box-mini">
+<ul>
+<li>
+<a class="footer-fb ico facebook" href="https://www.facebook.com/tudogostoso/" target="_blank">
+Facebook
+</a>
+</li>
+<li>
+<a class="footer-print ico pinterest" href="https://br.pinterest.com/tudogostoso/" target="_blank">
+Pinterest
+</a>
+</li>
+<li>
+<a class="footer-insta ico instagran" href="https://www.instagram.com/tudogostosooficial" target="_blank">
+Instagran
+</a>
+</li>
+<li>
+<a class="footer-twt ico twitter" href="https://twitter.com/tudo_gostoso" target="_blank">
+Twitter
+</a>
+</li>
+<li>
+<a class="footer-yt ico youtube" href="https://www.youtube.com/user/tudogostoso" target="_blank">
+YouTube
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="webedia-brands">
+<div class="brands-first-block">
+<a class="webedia-logo" href="http://www.webedia.com.br" target="_blank">
+<img alt="Logo Webedia" src="/assets/desktop/layout/webedia-brands/footer-logo-webedia-905704a774424ec7e8d40752eeb21bf5.svg" />
+</a>
+<div class="brand-line-separator"></div>
+<a class="webedia-brand-url" href="http://www.webedia.com.br" target="_blank">
+webedia.com.br
+</a>
+</div>
+<div class="brands-second-block">
+<a class="webedia-brand adorocinema" href="http://www.adorocinema.com.br" target="_blank">
+AdoroCinema
+</a>
+<a class="webedia-brand digitalstars" href="https://www.digitalstars.com.br" target="_blank">
+Digital Stars
+</a>
+<a class="webedia-brand hypeness" href="https://www.hypeness.com.br" target="_blank">
+Hypeness
+</a>
+<a class="webedia-brand ign" href="https://br.ign.com" target="_blank">
+IGN
+</a>
+<a class="webedia-brand massiv" href="http://www.massiv.com.br" target="_blank">
+Massiv
+</a>
+<a class="webedia-brand minhavida" href="https://www.minhavida.com.br" target="_blank">
+Minha Vida
+</a>
+<a class="webedia-brand nerdaocubo" href="https://www.nerdaocubo.com.br" target="_blank">
+Nerd ao Cubo
+</a>
+<a class="webedia-brand purebreak" href="http://www.purebreak.com.br" target="_blank">
+PureBreak
+</a>
+<a class="webedia-brand purepeople" href="https://www.purepeople.com.br" target="_blank">
+PurePeople
+</a>
+<a class="webedia-brand reverb" href="https://www.reverb.com.br" target="_blank">
+Reverb
+</a>
+<a class="webedia-brand vs" href="https://www.vs.com.br" target="_blank">
+Versus
+</a>
+</div>
+</div>
+
+<p class="copy">
+&copy; Copyright 2005-2018 TudoGostoso Internet Ltda, todos os direitos reservados. Proibida a reprodu&ccedil;&atilde;o sem autoriza&ccedil;&atilde;o.
+</p>
+</div>
+
+</div>
+<script src="/assets/desktop/application-07394482b2abd864b0507e67bc8696e8.js" type="text/javascript"></script>
+<script src="https://www.tudogostoso.com.br/api/ad_script.js?tag=tdg" type="text/javascript"></script>
+<script type="text/javascript">
+  //<![CDATA[
+    TudoGostoso.Email.obfuscateEmail()
+  //]]>
+</script>
+<div id="fb-root"></div>
+
+<script async="async" data-pin-build="parsePinBtns" defer="defer" src="//assets.pinterest.com/js/pinit.js" type="text/javascript"></script>
+<script type="text/javascript">
+  //<![CDATA[
+    TudoGostoso.Pinterest.init(".big.picframe")
+  //]]>
+</script>
+<script type="application/ld+json">
+{"@context":"http://schema.org/","@type":"Recipe","name":"Brigadeiro","author":{"@type":"Person","name":"Tudo Gostoso"},"url":"https://www.tudogostoso.com.br/receita/114-brigadeiro.html","image":"https://img.itdg.com.br/tdg/images/recipes/000/000/114/75811/75811_original.jpg","description":"Receita de Brigadeiro. Enviada por Tudo Gostoso e demora apenas 25 minutos.","aggregateRating":{"@type":"AggregateRating","ratingValue":4.5,"reviewCount":3079,"bestRating":"5","worstRating":"0"},"prepTime":"PT25M","totalTime":"PT25M","recipeCategory":"Doces e sobremesas","recipeCuisine":",,,","nutrition":{"@type":"NutritionInformation","calories":"","servingSize":""},"keywords":"receita de brigadeiro","recipeYield":30,"recipeIngredient":["1 caixa de leite condensado","1 colher (sopa) de margarina sem sal","7 colheres (sopa) de achocolatado ou 4 colheres (sopa) de chocolate em p\u00f3","chocolate granulado"],"recipeInstructions":["Em uma panela funda, acrescente o leite condensado, a margarina e o chocolate em p\u00f3","Cozinhe em fogo m\u00e9dio e mexa at\u00e9 que o brigadeiro comece a desgrudar da panela","Deixe esfriar e fa\u00e7a pequenas bolas com a m\u00e3o passando a massa no chocolate granulado"]}
+</script>
+<script type="text/javascript">
+  //<![CDATA[
+    window.Ready(function() {
+      Backbone.history.loadUrl('/recipes/114-brigadeiro');
+    });
+  //]]>
+</script>
+<script src="/api/recipes/114/count/desktop.js"></script>
+<script type="text/javascript">
+  //<![CDATA[
+    TudoGostoso.LazyLoad.init();
+  //]]>
+</script>
+<script type="text/javascript">
+  //<![CDATA[
+    window._taboola = window._taboola || [];
+    _taboola.push({flush: true});
+  //]]>
+</script>
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "6035191" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://b.scorecardresearch.com/p?c1=2&c2=6035191&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<script>
+!function(a,b,c,d,e){a.ddjskey=e;var f=b.createElement(c),g=b.getElementsByTagName(c)[0];
+f.async=1,f.src=d,g.parentNode.insertBefore(f,g)}
+(window,document,"script","https://js.datadome.co/tags.js","C499C5254821BA7F386B459241B3FC");
+</script>
+<!-- End Datadome -->
+
+<script type="text/javascript" src="//cdn.tradelab.fr/tag/44726f860c.js"></script>
+
+</body>
+</html>
