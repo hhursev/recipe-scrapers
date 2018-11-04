@@ -50,18 +50,20 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 - [http://foodnetwork.com/](http://www.foodnetwork.com)
 - [http://foodrepublic.com/](http://foodrepublic.com)
 - [http://giallozafferano.it/](http://giallozafferano.it)
+- [https://healthyeating.nhlbi.nih.gov/](https://healthyeating.nhlbi.nih.gov/)
+- [https://www.hellofresh.co.uk/](https://www.hellofresh.co.uk/)
 - [https://inspiralized.com/](https://inspiralized.com/)
 - [http://jamieoliver.com/](http://www.jamieoliver.com/)
 - [http://mybakingaddiction.com/](http://mybakingaddiction.com/)
-- [https://www.hellofresh.co.uk/](https://www.hellofresh.co.uk/)
-- [https://healthyeating.nhlbi.nih.gov/](https://healthyeating.nhlbi.nih.gov/)
 - [http://paninihappy.com/](http://paninihappy.com/)
 - [http://realsimple.com/](http://www.realsimple.com/)
 - [http://simplyrecipes.com/](http://www.simplyrecipes.com)
 - [http://steamykitchen.com/](http://steamykitchen.com/)
 - [http://tastykitchen.com/](http://tastykitchen.com/)
 - [http://thepioneerwoman.com/](http://thepioneerwoman.com/)
+- [http://thehappyfoodie.co.uk/](http://thehappyfoodie.co.uk/)
 - [http://thevintagemixer.com/](http://www.thevintagemixer.com/)
+- [https://www.tudogostoso.com.br/](https://www.tudogostoso.com.br/)
 - [http://twopeasandtheirpod.com/](http://twopeasandtheirpod.com/)
 - [http://whatsgabycooking.com/](http://whatsgabycooking.com/)
 
@@ -73,12 +75,12 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 
 #### For Devs
 
-Assuming you have [virtualenv](https://pypi.python.org/pypi/virtualenv) and [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/latest/) installed, navigate to the directory where you want this project to live in and drop these lines
+Assuming you have `python3` installed, navigate to the directory where you want this project to live in and drop these lines
 
     git clone git@github.com:hhursev/recipe-scrapers.git &&
     cd recipe-scrapers &&
-    mkvirtualenv -a `pwd` -p python3 -r requirements.txt recipe-scrapers &&
+    python3 -m venv .venv &&
+    source .venv/bin/activate &&
+    pip install -r requirements.txt &&
     coverage run tests.py &&
     coverage report
-
-For a full setup and project check.

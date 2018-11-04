@@ -45,7 +45,7 @@ class MyBakingAddiction(AbstractScraper):
 
     def instructions(self):
         instructions = self.soup.find(
-            'span',
+            'div',
             {'itemprop': 'recipeInstructions'}
         ).findAll(['li', 'p'])
 
