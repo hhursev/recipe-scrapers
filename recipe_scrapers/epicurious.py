@@ -41,7 +41,7 @@ class Epicurious(AbstractScraper):
             for instruction in instructions
         ])
 
-    def rating(self):
+    def ratings(self):
         rating = self.soup.find('span', {'class': 'rating'})
         rating = rating.get_text().split('/')[0] if rating is not None else None
         rating = float(rating) if rating is not None else None

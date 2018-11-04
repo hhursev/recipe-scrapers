@@ -53,8 +53,8 @@ class TestEpicurious(unittest.TestCase):
             self.harvester_class.instructions()
         )
 
-    def test_rating(self):
-        return self.assertGreaterEqual(self.harvester_class.rating(), 0.99)
+    def test_ratings(self):
+        return self.assertGreaterEqual(self.harvester_class.ratings(), 0.99)
 
     def test_reviews(self):
         print(self.harvester_class.reviews()[0]['review_text'])
