@@ -59,6 +59,7 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 - [http://realsimple.com/](http://www.realsimple.com/)
 - [http://simplyrecipes.com/](http://www.simplyrecipes.com)
 - [http://steamykitchen.com/](http://steamykitchen.com/)
+- [https://www.tastesoflizzyt.com](https://www.tastesoflizzyt.com/)
 - [http://tastykitchen.com/](http://tastykitchen.com/)
 - [http://thepioneerwoman.com/](http://thepioneerwoman.com/)
 - [http://thehappyfoodie.co.uk/](http://thehappyfoodie.co.uk/)
