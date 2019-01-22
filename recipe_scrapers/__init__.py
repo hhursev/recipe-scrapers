@@ -46,6 +46,7 @@ SCRAPERS = {
     FoodRepublic.host(): FoodRepublic,
     GialloZafferano.host(): GialloZafferano,
     HelloFresh.host(): HelloFresh,
+    HelloFresh.host(domain='co.uk'): HelloFresh,
     HundredAndOneCookbooks.host(): HundredAndOneCookbooks,
     Inspiralized.host(): Inspiralized,
     JamieOliver.host(): JamieOliver,

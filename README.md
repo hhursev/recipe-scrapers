@@ -51,6 +51,7 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 - [http://foodrepublic.com/](http://foodrepublic.com)
 - [http://giallozafferano.it/](http://giallozafferano.it)
 - [https://healthyeating.nhlbi.nih.gov/](https://healthyeating.nhlbi.nih.gov/)
+- [https://www.hellofresh.com/](https://www.hellofresh.com/)
 - [https://www.hellofresh.co.uk/](https://www.hellofresh.co.uk/)
 - [https://inspiralized.com/](https://inspiralized.com/)
 - [http://jamieoliver.com/](http://www.jamieoliver.com/)

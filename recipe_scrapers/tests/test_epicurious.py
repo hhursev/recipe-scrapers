@@ -57,7 +57,6 @@ class TestEpicurious(unittest.TestCase):
         return self.assertGreaterEqual(self.harvester_class.ratings(), 0.99)
 
     def test_reviews(self):
-        print(self.harvester_class.reviews()[0]['review_text'])
         self.assertCountEqual(
             "This was yummy, the tofu especially.  The sauce for the tofu really made the dish.  In light of that, I'd like to try this again with rice noodles instead of ramen and chicken instead of tofu.  I didn't really dig the fresh ramen as much as I thought I would (too eggy).  I'm not sure chicken will work quite so well as the tofu but it's worth a shot. lisamichellek from Seattle, WA",
             self.harvester_class.reviews()[0]['review_text'])
