@@ -36,6 +36,7 @@ SCRAPERS = {
     AllRecipes.host(): AllRecipes,
     AllRecipesBr.host(): AllRecipesBr,
     BBCFood.host(): BBCFood,
+    BBCFood.host(domain='co.uk'): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
     BonAppetit.host(): BonAppetit,
     ClosetCooking.host(): ClosetCooking,

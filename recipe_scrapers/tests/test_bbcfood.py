@@ -18,8 +18,14 @@ class TestBBCFoodScraper(unittest.TestCase):
 
     def test_host(self):
         self.assertEqual(
-            'bbc.co.uk',
+            'bbc.com',
             self.harvester_class.host()
+        )
+
+    def test_host_domain(self):
+        self.assertEqual(
+            'bbc.co.uk',
+            self.harvester_class.host(domain='co.uk')
         )
 
     def test_title(self):
