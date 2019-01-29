@@ -43,3 +43,8 @@ class AllRecipes(AbstractScraper):
             normalize_string(instruction.get_text())
             for instruction in instructions
         ])
+        
+    def ratings(self):
+        rating = self.soup.find("meta", {"property": "og:rating"})
+        rating = round(float(rating['content']), 2) if rating and rating['content'] else -1.0
+        return rating
