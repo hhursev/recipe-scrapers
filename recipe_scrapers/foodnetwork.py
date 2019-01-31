@@ -13,14 +13,14 @@ class FoodNetwork(AbstractScraper):
 
     def total_time(self):
         return get_minutes(self.soup.find(
-            'dd',
-            {'class': 'o-RecipeInfo__a-Description--Total'})
+            'span',
+            {'class': 'm-RecipeInfo__a-Description--Total'})
         )
 
     def ingredients(self):
         ingredients = self.soup.findAll(
-            'li',
-            {'class': 'o-Ingredients__a-ListItem'}
+            'p',
+            {'class': 'o-Ingredients__a-Ingredient'}
         )
 
         return [
@@ -29,10 +29,10 @@ class FoodNetwork(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions = self.soup.find(
-            'div',
-            {'class': 'o-Method__m-Body'}
-        ).findAll('p')
+        instructions = self.soup.findAll(
+            'li',
+            {'class': 'o-Method__m-Step'}
+        )
 
         return '\n'.join([
             normalize_string(instruction.get_text())
