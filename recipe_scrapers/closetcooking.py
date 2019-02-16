@@ -10,8 +10,8 @@ class ClosetCooking(AbstractScraper):
 
     def title(self):
         return normalize_string(self.soup.find(
-            'h2',
-            {'class': 'post-title'}
+            'h1',
+            {'class': 'entry-title'}
         ).get_text())
 
     def total_time(self):
@@ -20,7 +20,7 @@ class ClosetCooking(AbstractScraper):
     def ingredients(self):
         ingredients = self.soup.findAll(
             'li',
-            {'itemprop': "ingredients"}
+            {'itemprop': "recipeIngredient"}
         )
 
         return [
