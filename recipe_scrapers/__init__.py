@@ -1,7 +1,6 @@
 import re
 
 from .allrecipes import AllRecipes
-from .allrecipesbr import AllRecipesBr
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
 from .bonappetit import BonAppetit
@@ -35,7 +34,6 @@ from .geniuskitchen import GeniusKitchen
 
 SCRAPERS = {
     AllRecipes.host(): AllRecipes,
-    AllRecipesBr.host(): AllRecipesBr,
     BBCFood.host(): BBCFood,
     BBCFood.host(domain='co.uk'): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,

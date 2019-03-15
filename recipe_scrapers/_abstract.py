@@ -9,13 +9,6 @@ HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
 }
 
-# set some cookies to maneuver over:
-# - EU Consent in allrecipes.com.br
-COOKIES = {
-    'euConsentFailed': 'true',
-    'euConsentID': 'e48da782-e1d1-0931-8796-d75863cdfa15',
-}
-
 
 class AbstractScraper():
 
