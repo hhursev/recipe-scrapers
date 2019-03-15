@@ -23,8 +23,14 @@ class Yummly(AbstractScraper):
         )
 
         return [
-            normalize_string(ingredient.get_text()) for
-            ingredient in ingredients
+            ' '.join([
+                normalize_string(span.get_text())
+                for span in ingredient.select("""
+                    span[class^=amount],
+                    span[class^=unit],
+                    span[class^=ingredient]""")
+            ])
+            for ingredient in ingredients
         ]
 
     def instructions(self):

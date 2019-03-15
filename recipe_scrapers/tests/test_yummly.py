@@ -37,11 +37,11 @@ class TestYummlyScraper(unittest.TestCase):
     def test_ingredients(self):
         self.assertSetEqual(
             set([
-                '3 teaspoons sugar (can add more if you want it sweeter)',
-                '4 cashew (badam or pista, for garnishing)',
+                '3 teaspoons sugar',
+                '4 cashew',
                 '1 1/2 cups milk',
-                '100 grams carrot (4 baby carrots in number or 1 big size)',
-                '1 cardamom (small, powdered)'
+                '100 grams carrot',
+                '1 cardamom'
             ]),
             set(self.harvester_class.ingredients())
         )
