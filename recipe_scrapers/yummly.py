@@ -34,7 +34,7 @@ class Yummly(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions = soup.find('div', attrs={'class': 'directions-wrapper'})
+        instructions = self.soup.find('div', attrs={'class': 'directions-wrapper'})
         return [
             normalize_string(instr.get_text())
             for instr in instructions.findAll('span', attrs={'class': 'step'})
