@@ -34,8 +34,8 @@ class Yummly(AbstractScraper):
         ]
 
     def instructions(self):
-        """
-        Yummly does not provide instructions on it's page.
-        It has a link that redirects to original website.
-        """
-        return ''
+        instructions = self.soup.find('div', attrs={'class': 'directions-wrapper'})
+        return '\n'.join([
+            normalize_string(instr.get_text())
+            for instr in instructions.findAll('span', attrs={'class': 'step'})
+        ]) if instructions is not None else ''
