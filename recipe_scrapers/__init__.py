@@ -31,7 +31,7 @@ from .tudogostoso import TudoGostoso
 from .twopeasandtheirpod import TwoPeasAndTheirPod
 from .whatsgabycooking import WhatsGabyCooking
 from .yummly import Yummly
-
+from .geniuskitchen import GeniusKitchen
 
 SCRAPERS = {
     AllRecipes.host(): AllRecipes,
@@ -67,6 +67,7 @@ SCRAPERS = {
     TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
     WhatsGabyCooking.host(): WhatsGabyCooking,
     Yummly.host(): Yummly,
+    GeniusKitchen.host(): GeniusKitchen,
 }
 
 
