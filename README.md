@@ -50,6 +50,7 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 - [http://finedininglovers.com/](https://www.finedininglovers.com/)
 - [http://foodnetwork.com/](http://www.foodnetwork.com)
 - [http://foodrepublic.com/](http://foodrepublic.com)
+- [https://geniuskitchen.com/](https://geniuskitchen.com/)
 - [http://giallozafferano.it/](http://giallozafferano.it)
 - [https://healthyeating.nhlbi.nih.gov/](https://healthyeating.nhlbi.nih.gov/)
 - [https://www.hellofresh.com/](https://www.hellofresh.com/)
@@ -70,7 +71,6 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 - [http://twopeasandtheirpod.com/](http://twopeasandtheirpod.com/)
 - [http://whatsgabycooking.com/](http://whatsgabycooking.com/)
 - [http://yummly.com/](http://yummly.com/)
-
 
 ### If you want a scraper for a new site added
 
