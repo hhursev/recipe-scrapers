@@ -66,7 +66,6 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 - [http://thepioneerwoman.com/](http://thepioneerwoman.com/)
 - [http://thehappyfoodie.co.uk/](http://thehappyfoodie.co.uk/)
 - [http://thevintagemixer.com/](http://www.thevintagemixer.com/)
-- [https://www.tudogostoso.com.br/](https://www.tudogostoso.com.br/)
 - [http://twopeasandtheirpod.com/](http://twopeasandtheirpod.com/)
 - [http://whatsgabycooking.com/](http://whatsgabycooking.com/)
 - [http://yummly.com/](http://yummly.com/)

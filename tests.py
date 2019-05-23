@@ -25,7 +25,6 @@ from recipe_scrapers.tests.test_tastykitchen import *
 from recipe_scrapers.tests.test_thepioneerwoman import *
 from recipe_scrapers.tests.test_thehappyfoodie import *
 from recipe_scrapers.tests.test_thevintagemixer import *
-from recipe_scrapers.tests.test_tudogostoso import *
 from recipe_scrapers.tests.test_twopeasandtheirpod import *
 from recipe_scrapers.tests.test_utils_exceptions import *
 from recipe_scrapers.tests.test_whatsgabycooking import *
