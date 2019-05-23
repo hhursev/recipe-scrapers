@@ -52,8 +52,7 @@ class AbstractScraper():
             self.soup = BeautifulSoup(
                 requests.get(
                     url,
-                    headers=HEADERS,
-                    cookies=COOKIES
+                    headers=HEADERS
                 ).content,
                 "html.parser"
             )
