@@ -25,10 +25,10 @@ class BBCGoodFood(AbstractScraper):
         ])
 
     def ingredients(self):
-        ingredients = self.soup.find(
-            'section',
-            {'id': "recipe-ingredients"}
-        ).findAll('li')
+        ingredients = self.soup.findAll(
+            'li',
+            {'itemprop': "ingredients"}
+        )
 
         return [
             normalize_string(
@@ -41,21 +41,12 @@ class BBCGoodFood(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions = self.soup.find(
-            'section',
-            {'id': 'recipe-method'}
-        ).findAll('li')
+        instructions = self.soup.findAll(
+            'li',
+            {'itemprop': 'recipeInstructions'}
+        )
 
-        instructions_string = '\n'.join([
+        return '\n'.join([
             normalize_string(instruction.get_text())
             for instruction in instructions
         ])
-
-        instructions_string += '\n' + normalize_string(
-            self.soup.find(
-                'section',
-                {'id': 'recipe-method'}
-            ).get_text()
-        )
-
-        return normalize_string(instructions_string)
