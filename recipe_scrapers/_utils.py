@@ -36,6 +36,12 @@ def get_minutes(element):
 
 
 def get_servings(element):
+    """
+    Will return an int if number is in number of servings, if the receipt is for number of items and not servings
+    the method will return the string "x item(s)" where x is the quantity.
+    :param element: Should be BeautifulSoup.TAG, in some cases not feasible and will then be text.
+    :return: The number of servings or items.
+    """
     try:
 
         if isinstance(element, str):
