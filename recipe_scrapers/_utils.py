@@ -7,6 +7,18 @@ TIME_REGEX = re.compile(
     r'(\D*(?P<hours>\d+)\s*(hours|hrs|hr|h|Hours|H))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|Minutes|M))?'
 )
 
+SERV_REGEX_NUMBER = re.compile(
+    r'(\D*(?P<items>\d+)?\D*)'
+)
+
+SERV_REGEX_ITEMS = re.compile(
+    r'\bsandwiches\b |\btacquitos\b | \bmakes\b', flags=re.I | re.X
+)
+
+SERV_REGEX_TO = re.compile(
+    r'\d+(\s+to\s+|-)\d+', flags=re.I | re.X
+)
+
 
 def get_minutes(element):
     try:
@@ -20,6 +32,32 @@ def get_minutes(element):
 
         return minutes
     except AttributeError:  # if dom_element not found or no matched
+        return 0
+
+
+def get_servings(element):
+    try:
+
+        if isinstance(element, str):
+            tstring = element
+        else:
+            tstring = element.get_text()
+
+        if SERV_REGEX_TO.search(tstring):
+            tstring = tstring.split(SERV_REGEX_TO.split(tstring)[1])[1]
+
+        matched = SERV_REGEX_NUMBER.search(tstring)
+        servings = int(matched.groupdict().get('items') or 0)
+
+        if SERV_REGEX_ITEMS.search(tstring) is not None:
+            # This assumes if object(s), like sandwiches, it is 1 person.
+            # Issue: "Makes one 9-inch pie, (realsimple-testcase, gives "9 items")
+            servings = "{} {}".format(servings, "item(s)")
+
+        return servings
+
+    except AttributeError as e:  # if dom_element not found or no matched
+        print("get_serving_numbers error {}".format(e))
         return 0
 
 
