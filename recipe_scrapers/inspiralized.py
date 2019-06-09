@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import get_minutes, normalize_string, get_servings
 
 
 class Inspiralized(AbstractScraper):
@@ -15,6 +15,12 @@ class Inspiralized(AbstractScraper):
         return get_minutes(self.soup.find(
             'span',
             {'itemprop': 'totalTime'})
+        )
+
+    def servings(self):
+        return get_servings(self.soup.find(
+            'span',
+            {'itemprop': 'recipeYield'})
         )
 
     def ingredients(self):

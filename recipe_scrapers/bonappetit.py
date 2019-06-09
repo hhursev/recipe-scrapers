@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import normalize_string
+from ._utils import normalize_string, get_servings
 
 
 class BonAppetit(AbstractScraper):
@@ -16,6 +16,14 @@ class BonAppetit(AbstractScraper):
 
     def total_time(self):
         return 0
+
+    def servings(self):
+        return get_servings(
+            self.soup.find(
+                'span',
+                {'class': "recipe__header__servings recipe__header__servings--basically"}
+            ).find('span')
+        )
 
     def ingredients(self):
         ingredients = self.soup.findAll(

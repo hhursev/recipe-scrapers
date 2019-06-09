@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import get_minutes, normalize_string, get_servings
 
 
 class AllRecipes(AbstractScraper):
@@ -15,6 +15,12 @@ class AllRecipes(AbstractScraper):
         return get_minutes(self.soup.find(
             'span',
             {'class': 'ready-in-time'})
+        )
+
+    def servings(self):
+        return get_servings(self.soup.find(
+            'meta',
+            {'id': 'metaRecipeServings', 'itemprop': 'recipeYield'}).get("content")
         )
 
     def ingredients(self):

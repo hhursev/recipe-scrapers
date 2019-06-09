@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import normalize_string, get_minutes
+from ._utils import normalize_string, get_minutes, get_servings
 
 
 class NIHHealthyEating(AbstractScraper):
@@ -21,6 +21,22 @@ class NIHHealthyEating(AbstractScraper):
             get_minutes(td)
             for td in time_table.find_all('td')
         ])
+
+    def servings(self):
+        time_table = self.soup.find(
+            'table',
+            {'class': 'recipe_time_table'}
+        )
+
+        i = 0
+        for t in time_table.findAll('th'):
+            if "Yields" in t:
+                break
+            i += 1
+
+        if i >= len(time_table.findAll('td')):
+            return 0
+        return get_servings(time_table.find_all('td')[i])
 
     def ingredients(self):
         ingredients = self.soup.find(

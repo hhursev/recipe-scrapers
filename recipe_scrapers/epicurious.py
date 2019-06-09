@@ -2,7 +2,7 @@ import re
 
 
 from ._abstract import AbstractScraper
-from ._utils import normalize_string
+from ._utils import normalize_string, get_servings
 
 
 class Epicurious(AbstractScraper):
@@ -20,6 +20,12 @@ class Epicurious(AbstractScraper):
 
     def total_time(self):
         return 0
+
+    def servings(self):
+        return get_servings(self.soup.find(
+            'dd',
+            {'itemprop': 'recipeYield'}
+        ))
 
     def ingredients(self):
         ingredients = self.soup.findAll(

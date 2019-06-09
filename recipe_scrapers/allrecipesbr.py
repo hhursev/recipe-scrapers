@@ -30,6 +30,9 @@ class AllRecipesBr(AbstractScraper):
             for ingredient in ingredients
         ]
 
+    def servings(self):
+        return 0
+
     def instructions(self):
         instructions = self.soup.find(
             'ol', {'itemprop': 'recipeInstructions'}

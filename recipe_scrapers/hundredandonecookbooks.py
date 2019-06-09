@@ -17,6 +17,9 @@ class HundredAndOneCookbooks(AbstractScraper):
             {'class': 'preptime'})
         )
 
+    def servings(self):
+        return 0
+
     def ingredients(self):
         ingredients = self.soup.find(
             'div',

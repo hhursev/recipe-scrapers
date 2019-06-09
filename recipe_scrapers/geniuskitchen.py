@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import get_minutes, normalize_string, get_servings
+
 
 class GeniusKitchen(AbstractScraper):
 
@@ -16,6 +17,13 @@ class GeniusKitchen(AbstractScraper):
             {'class': 'time'})
         )
                 
+    def servings(self):
+        return get_servings(self.soup.find(
+            'td',
+            {'class': 'servings'}
+        ).find('span', {'class': 'count'})
+        )
+
 
     def ingredients(self):
         ingredients = []

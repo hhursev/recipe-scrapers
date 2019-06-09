@@ -20,6 +20,9 @@ class WhatsGabyCooking(AbstractScraper):
             {'class': 'ready-in-time'})
         )
 
+    def servings(self):
+        return 0
+
     def ingredients(self):
         ingredients = self.soup.findAll(
             'li',

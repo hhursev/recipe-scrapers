@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import get_minutes, normalize_string, get_servings
 
 
 class FineDiningLovers(AbstractScraper):
@@ -18,6 +18,13 @@ class FineDiningLovers(AbstractScraper):
         return get_minutes(self.soup.find(
             'time',
             {'itemprop': 'prepTime'})
+        )
+
+
+    def servings(self):
+        return get_servings(self.soup.find(
+            'span',
+            {'itemprop': 'recipeYield'})
         )
 
     def ingredients(self):

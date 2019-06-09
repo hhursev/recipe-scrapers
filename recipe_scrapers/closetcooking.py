@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import get_minutes, normalize_string, get_servings
 
 
 class ClosetCooking(AbstractScraper):
@@ -16,6 +16,10 @@ class ClosetCooking(AbstractScraper):
 
     def total_time(self):
         return get_minutes(self.soup.find(itemprop='totalTime').parent)
+
+
+    def servings(self):
+        return get_servings(self.soup.find(itemprop='recipeYield').parent)
 
     def ingredients(self):
         ingredients = self.soup.findAll(

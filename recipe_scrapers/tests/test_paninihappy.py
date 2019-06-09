@@ -8,9 +8,7 @@ class TestPaniniHappyScraper(unittest.TestCase):
     def setUp(self):
         # tests are run from tests.py
         with open(os.path.join(
-            os.getcwd(),
-            'recipe_scrapers',
-            'tests',
+            os.path.dirname(os.path.realpath(__file__)),
             'test_data',
             'paninihappy.testhtml'
         )) as file_opened:
@@ -32,6 +30,12 @@ class TestPaniniHappyScraper(unittest.TestCase):
         self.assertEqual(
             30,
             self.harvester_class.total_time()
+        )
+
+    def test_servings(self):
+        self.assertEqual(
+            "4 item(s)",
+            self.harvester_class.servings()
         )
 
     def test_ingredients(self):

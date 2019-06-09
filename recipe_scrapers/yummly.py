@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import get_minutes, normalize_string, get_servings
 
 
 class Yummly(AbstractScraper):
@@ -14,6 +14,11 @@ class Yummly(AbstractScraper):
     def total_time(self):
         return get_minutes(
             self.soup.find('div', {'class': 'recipe-summary-item unit'})
+        )
+
+    def servings(self):
+        return get_servings(
+            self.soup.find('div', {'class': 'servings'}).find('input').get('value')
         )
 
     def ingredients(self):

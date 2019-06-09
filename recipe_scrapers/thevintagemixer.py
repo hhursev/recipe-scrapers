@@ -19,6 +19,9 @@ class TheVintageMixer(AbstractScraper):
             'meta', {'itemprop': 'totalTime'}).parent
         )
 
+    def servings(self):
+        return 0  # Servings do not exist in this site.
+
     def ingredients(self):
         ingredients = self.soup.findAll(
             'li', {'itemprop': "recipeIngredient"}

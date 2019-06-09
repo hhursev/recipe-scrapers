@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import get_minutes, normalize_string, get_servings
 
 
 class RealSimple(AbstractScraper):
@@ -16,6 +16,13 @@ class RealSimple(AbstractScraper):
             'div',
             {'class': 'recipe-meta-item'}
         )[1])
+
+    def servings(self):
+        return get_servings(self.soup.findAll(
+            'div',
+            {'class': 'recipe-meta-item'}
+        )[2].find('div', {'class': 'recipe-meta-item-body'}).get_text()
+                            )
 
     def ingredients(self):
         ingredients = self.soup.find(
