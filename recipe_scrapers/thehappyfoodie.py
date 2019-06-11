@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import normalize_string, get_minutes, get_servings
+from ._utils import normalize_string, get_minutes, get_yields
 
 
 class TheHappyFoodie(AbstractScraper):
@@ -18,11 +18,11 @@ class TheHappyFoodie(AbstractScraper):
             get_minutes(self.soup.find('div', {'class': 'recipe__data__cook-time'}))
         ])
 
-    def servings(self):
+    def yields(self):
         #<div class="recipe__data__field recipe__data__yield">
-        return get_servings(self.soup.find(
+        return get_yields(self.soup.find(
             'div', {'class': 'recipe__data__yield'}).get_text()
-        )
+                          )
 
     def ingredients(self):
         ingredients = self.soup.find(

@@ -17,7 +17,7 @@ class HundredAndOneCookbooks(AbstractScraper):
             {'class': 'preptime'})
         )
 
-    def servings(self):
+    def yields(self):
         return 0
 
     def ingredients(self):

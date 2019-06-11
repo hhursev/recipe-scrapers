@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string, get_servings
+from ._utils import get_minutes, normalize_string, get_yields
 
 
 class TwoPeasAndTheirPod(AbstractScraper):
@@ -20,9 +20,9 @@ class TwoPeasAndTheirPod(AbstractScraper):
             {'itemprop': 'totalTime'}
         ).parent)
 
-    def servings(self):
+    def yields(self):
         #<span itemprop="recipeYield">
-        return get_servings(self.soup.find(
+        return get_yields(self.soup.find(
             'span',
             {'itemprop': 'recipeYield'}
         ))

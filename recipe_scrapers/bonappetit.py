@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import normalize_string, get_servings
+from ._utils import normalize_string, get_yields
 
 
 class BonAppetit(AbstractScraper):
@@ -17,8 +17,8 @@ class BonAppetit(AbstractScraper):
     def total_time(self):
         return 0
 
-    def servings(self):
-        return get_servings(
+    def yields(self):
+        return get_yields(
             self.soup.find(
                 'span',
                 {'class': "recipe__header__servings recipe__header__servings--basically"}

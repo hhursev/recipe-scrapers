@@ -15,7 +15,7 @@ class TestingExceptionsHandling(AbstractScraper):
     def total_time(self):
         raise Exception
 
-    def servings(self):
+    def yields(self):
         raise Exception
 
     def ingredients(self):
@@ -46,8 +46,8 @@ class TestExceptionsHandlingScraper(unittest.TestCase):
     def test_total_time(self):
         return self.assertEqual(0, self.harvester_class.total_time())
 
-    def test_servings(self):
-        return self.assertEqual(0, self.harvester_class.servings())
+    def test_yields(self):
+        return self.assertEqual("", self.harvester_class.yields())
 
     def test_ingredients(self):
         return self.assertCountEqual([], self.harvester_class.ingredients())

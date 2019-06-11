@@ -35,9 +35,9 @@ def get_minutes(element):
         return 0
 
 
-def get_servings(element):
+def get_yields(element):
     """
-    Will return an int if number is in number of servings, if the receipt is for number of items and not servings
+    Will return a string of servings or items, if the receipt is for number of items and not servings
     the method will return the string "x item(s)" where x is the quantity.
     :param element: Should be BeautifulSoup.TAG, in some cases not feasible and will then be text.
     :return: The number of servings or items.
@@ -52,19 +52,19 @@ def get_servings(element):
         if SERV_REGEX_TO.search(tstring):
             tstring = tstring.split(SERV_REGEX_TO.split(tstring)[1])[1]
 
-        matched = SERV_REGEX_NUMBER.search(tstring)
-        servings = int(matched.groupdict().get('items') or 0)
+        matched = SERV_REGEX_NUMBER.search(tstring).groupdict().get('items') or 0
+        servings = "{} serving(s)".format(matched)
 
         if SERV_REGEX_ITEMS.search(tstring) is not None:
             # This assumes if object(s), like sandwiches, it is 1 person.
             # Issue: "Makes one 9-inch pie, (realsimple-testcase, gives "9 items")
-            servings = "{} {}".format(servings, "item(s)")
+            servings = "{} item(s)".format(matched)
 
         return servings
 
     except AttributeError as e:  # if dom_element not found or no matched
         print("get_serving_numbers error {}".format(e))
-        return 0
+        return ''
 
 
 def normalize_string(string):

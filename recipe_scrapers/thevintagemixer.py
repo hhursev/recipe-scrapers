@@ -19,7 +19,7 @@ class TheVintageMixer(AbstractScraper):
             'meta', {'itemprop': 'totalTime'}).parent
         )
 
-    def servings(self):
+    def yields(self):
         return 0  # Servings do not exist in this site.
 
     def ingredients(self):

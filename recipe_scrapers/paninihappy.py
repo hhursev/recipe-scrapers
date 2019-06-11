@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string, get_servings
+from ._utils import get_minutes, normalize_string, get_yields
 
 
 class PaniniHappy(AbstractScraper):
@@ -20,8 +20,8 @@ class PaniniHappy(AbstractScraper):
             {'class': 'duration'})
         )
 
-    def servings(self):
-        return get_servings(self.soup.find(
+    def yields(self):
+        return get_yields(self.soup.find(
             'span',
             {'class': 'yield'})
         )

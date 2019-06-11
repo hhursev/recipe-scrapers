@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string, get_servings
+from ._utils import get_minutes, normalize_string, get_yields
 
 
 class ThePioneerWoman(AbstractScraper):
@@ -23,8 +23,8 @@ class ThePioneerWoman(AbstractScraper):
             ).findAll('dd')
         ])
 
-    def servings(self):
-        return get_servings(self.soup.find(
+    def yields(self):
+        return get_yields(self.soup.find(
             'span', {'itemprop': 'recipeYield'}
         ))
 

@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string, get_servings
+from ._utils import get_minutes, normalize_string, get_yields
 
 
 class Cookstr(AbstractScraper):
@@ -26,7 +26,7 @@ class Cookstr(AbstractScraper):
                 total_time += get_minutes(time.parent.parent)
         return total_time
 
-    def servings(self):
+    def yields(self):
         sections = self.soup.findAll(
             'span',
             {'class': 'attrLabel'}
@@ -35,7 +35,7 @@ class Cookstr(AbstractScraper):
         for section in sections:
             serves = section.find(text='Serves')
             if serves:
-                total_serves += get_servings(serves.parent.parent)
+                total_serves += get_yields(serves.parent.parent)
         return total_serves
 
     def ingredients(self):

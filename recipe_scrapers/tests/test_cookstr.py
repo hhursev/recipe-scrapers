@@ -35,7 +35,7 @@ class TestCookstrScraper(unittest.TestCase):
     def test_total_time(self):
         self.assertEqual(
             0,
-            self.harvester_class.servings()
+            self.harvester_class.yields()
         )
 
     def test_ingredients(self):

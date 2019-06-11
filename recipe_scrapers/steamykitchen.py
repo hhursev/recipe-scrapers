@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string, get_servings
+from ._utils import get_minutes, normalize_string, get_yields
 
 
 class SteamyKitchen(AbstractScraper):
@@ -20,8 +20,8 @@ class SteamyKitchen(AbstractScraper):
             get_minutes(self.soup.find(itemprop='cookTime').parent)
         ])
 
-    def servings(self):
-        return get_servings(self.soup.find('span', itemprop='recipeYield'))
+    def yields(self):
+        return get_yields(self.soup.find('span', itemprop='recipeYield'))
 
     def ingredients(self):
         ingredients = self.soup.findAll(

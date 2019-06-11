@@ -32,10 +32,10 @@ class TestJamieOliverScraper(unittest.TestCase):
             self.harvester_class.total_time()
         )
 
-    def test_servings(self):
+    def test_yields(self):
         self.assertEqual(
-            20,
-            self.harvester_class.servings()
+            "20 serving(s)",
+            self.harvester_class.yields()
         )
 
     def test_ingredients(self):

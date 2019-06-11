@@ -30,7 +30,7 @@ class AllRecipesBr(AbstractScraper):
             for ingredient in ingredients
         ]
 
-    def servings(self):
+    def yields(self):
         return 0
 
     def instructions(self):

@@ -20,7 +20,7 @@ class WhatsGabyCooking(AbstractScraper):
             {'class': 'ready-in-time'})
         )
 
-    def servings(self):
+    def yields(self):
         return 0
 
     def ingredients(self):

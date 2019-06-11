@@ -20,7 +20,7 @@ class HelloFresh(AbstractScraper):
             {'data-translation-id': "recipe-detail.preparation-time"}
         ).parent.parent)
 
-    def servings(self):
+    def yields(self):
         return 0
 
     def ingredients(self):
