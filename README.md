@@ -17,6 +17,7 @@ then:
 
     scraper.title()
     scraper.total_time()
+    scraper.yields()
     scraper.ingredients()
     scraper.instructions()
     scraper.links()
