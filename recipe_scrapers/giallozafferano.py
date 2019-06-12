@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import get_minutes, normalize_string, get_yields
 import json
 
 
@@ -24,6 +24,12 @@ class GialloZafferano(AbstractScraper):
                 {'class': 'cooktime'})
             )
         ])
+
+    def yields(self):
+        return get_yields(self.soup.find(
+                'li',
+                {'class': 'yield'})
+            )
 
     def ingredients(self):
         ingredients = self.soup.findAll(

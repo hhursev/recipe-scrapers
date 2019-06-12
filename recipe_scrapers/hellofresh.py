@@ -20,6 +20,9 @@ class HelloFresh(AbstractScraper):
             {'data-translation-id': "recipe-detail.preparation-time"}
         ).parent.parent)
 
+    def yields(self):
+        return 0
+
     def ingredients(self):
         ingredients_container = self.soup.find(
             'div',

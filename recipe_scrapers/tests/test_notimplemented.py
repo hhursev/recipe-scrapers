@@ -12,9 +12,7 @@ class TestNotImplemented(unittest.TestCase):
             pass
 
         with open(os.path.join(
-            os.getcwd(),
-            'recipe_scrapers',
-            'tests',
+            os.path.dirname(os.path.realpath(__file__)),
             'test_data',
             'paninihappy.testhtml'
         )) as file_opened:

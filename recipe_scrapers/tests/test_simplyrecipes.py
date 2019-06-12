@@ -8,9 +8,7 @@ class TestSimplyRecipesScraper(unittest.TestCase):
     def setUp(self):
         # tests are run from tests.py
         with open(os.path.join(
-            os.getcwd(),
-            'recipe_scrapers',
-            'tests',
+            os.path.dirname(os.path.realpath(__file__)),
             'test_data',
             'simpyrecipes.testhtml'
         )) as file_opened:
@@ -32,6 +30,13 @@ class TestSimplyRecipesScraper(unittest.TestCase):
         self.assertEqual(
             45,
             self.harvester_class.total_time()
+        )
+
+    def test_yields(self):
+        # 6 to 8 servings (makes about 3 quarts), debatable it should be 8 servings.
+        self.assertEqual(
+            "8 item(s)",
+            self.harvester_class.yields()
         )
 
     def test_ingredients(self):

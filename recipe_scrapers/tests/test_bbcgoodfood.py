@@ -8,9 +8,7 @@ class TestBBCGoodFoodScraper(unittest.TestCase):
     def setUp(self):
         # tests are run from tests.py
         with open(os.path.join(
-            os.getcwd(),
-            'recipe_scrapers',
-            'tests',
+            os.path.dirname(os.path.realpath(__file__)),
             'test_data',
             'bbc_good_food.testhtml'
         )) as file_opened:
@@ -34,6 +32,11 @@ class TestBBCGoodFoodScraper(unittest.TestCase):
             self.harvester_class.total_time()
         )
 
+    def test_yields(self):
+        self.assertEqual(
+            "12 item(s)",
+            self.harvester_class.yields()
+        )
     def test_ingredients(self):
         self.assertCountEqual(
             [

@@ -8,9 +8,7 @@ class TestAllRecipesScraper(unittest.TestCase):
     def setUp(self):
         # tests are run from tests.py
         with open(os.path.join(
-            os.getcwd(),
-            'recipe_scrapers',
-            'tests',
+            os.path.dirname(os.path.realpath(__file__)),
             'test_data',
             'geniuskitchen.testhtml'
         )) as file_opened:
@@ -32,6 +30,12 @@ class TestAllRecipesScraper(unittest.TestCase):
         self.assertEqual(
             40,
             self.harvester_class.total_time()
+        )
+
+    def test_yields(self):
+        self.assertEqual(
+            "6 serving(s)",
+            self.harvester_class.yields()
         )
 
     def test_ingredients(self):

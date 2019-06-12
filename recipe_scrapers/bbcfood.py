@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import get_minutes, normalize_string, get_yields
 
 
 class BBCFood(AbstractScraper):
@@ -23,6 +23,12 @@ class BBCFood(AbstractScraper):
                 {'class': 'recipe-metadata__cook-time'})
             )
         ])
+
+    def yields(self):
+        return get_yields(self.soup.find(
+            'p',
+            {'class': 'recipe-metadata__serving'})
+        )
 
     def ingredients(self):
         ingredients = self.soup.findAll(

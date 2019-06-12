@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import get_minutes, normalize_string, get_yields
 
 
 class FoodNetwork(AbstractScraper):
@@ -16,6 +16,13 @@ class FoodNetwork(AbstractScraper):
             'span',
             {'class': 'm-RecipeInfo__a-Description--Total'})
         )
+
+    def yields(self):
+        return get_yields(self.soup.find(
+                'ul',
+                {'class': 'o-RecipeInfo__m-Yield'}
+            ).find('span', {'class': 'o-RecipeInfo__a-Description'})
+                          )
 
     def ingredients(self):
         ingredients = self.soup.findAll(

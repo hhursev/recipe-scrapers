@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import get_minutes, normalize_string, get_yields
 
 
 class JamieOliver(AbstractScraper):
@@ -15,6 +15,12 @@ class JamieOliver(AbstractScraper):
         return get_minutes(self.soup.find(
             'div',
             {'class': 'time'})
+        )
+
+    def yields(self):
+        return get_yields(self.soup.find(
+            'div',
+            {'class': 'recipe-detail serves'})
         )
 
     def ingredients(self):

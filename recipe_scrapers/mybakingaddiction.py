@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import get_minutes, normalize_string, get_yields
 
 
 class MyBakingAddiction(AbstractScraper):
@@ -23,6 +23,12 @@ class MyBakingAddiction(AbstractScraper):
                 {'itemprop': 'cookTime'}
             ).parent)
         ])
+
+    def yields(self):
+        return get_yields(self.soup.find(
+                'span',
+                {'itemprop': 'recipeYield'}
+            ))
 
     def ingredients(self):
         ingredients = self.soup.findAll(

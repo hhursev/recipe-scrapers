@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import get_minutes, normalize_string, get_yields
 
 
 class TastesOfLizzyT(AbstractScraper):
@@ -19,6 +19,14 @@ class TastesOfLizzyT(AbstractScraper):
             self.soup.find(
                 'div',
                 {'class': 'wprm-recipe-total-time-container'}
+            )
+        )
+
+    def yields(self):
+        return get_yields(
+            self.soup.find(
+                'span',
+                {'class': 'wprm-recipe-servings'}
             )
         )
 

@@ -15,6 +15,9 @@ class TestingExceptionsHandling(AbstractScraper):
     def total_time(self):
         raise Exception
 
+    def yields(self):
+        raise Exception
+
     def ingredients(self):
         raise Exception
 
@@ -26,9 +29,7 @@ class TestExceptionsHandlingScraper(unittest.TestCase):
     def setUp(self):
         # tests are run from tests.py
         with open(os.path.join(
-            os.getcwd(),
-            'recipe_scrapers',
-            'tests',
+            os.path.dirname(os.path.realpath(__file__)),
             'test_data',
             'allrecipes.testhtml'
         )) as file_opened:
@@ -44,6 +45,9 @@ class TestExceptionsHandlingScraper(unittest.TestCase):
 
     def test_total_time(self):
         return self.assertEqual(0, self.harvester_class.total_time())
+
+    def test_yields(self):
+        return self.assertEqual("", self.harvester_class.yields())
 
     def test_ingredients(self):
         return self.assertCountEqual([], self.harvester_class.ingredients())
