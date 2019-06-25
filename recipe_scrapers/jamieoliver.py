@@ -38,5 +38,9 @@ class JamieOliver(AbstractScraper):
         instructions = self.soup.find(
             'div',
             {'class': 'instructions-wrapper'}
-        )
-        return normalize_string(instructions.get_text())
+        ).findAll('li')
+
+        return '\n'.join([
+            normalize_string(instruction.get_text())
+            for instruction in instructions
+        ])
