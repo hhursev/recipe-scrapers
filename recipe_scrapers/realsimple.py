@@ -21,8 +21,9 @@ class RealSimple(AbstractScraper):
         return get_yields(self.soup.findAll(
             'div',
             {'class': 'recipe-meta-item'}
-        )[2].find('div', {'class': 'recipe-meta-item-body'}).get_text()
-                          )
+        )[2].find(
+            'div', {'class': 'recipe-meta-item-body'}).get_text()
+        )
 
     def ingredients(self):
         ingredients = self.soup.find(

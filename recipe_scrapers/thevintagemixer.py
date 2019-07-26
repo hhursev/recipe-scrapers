@@ -20,7 +20,7 @@ class TheVintageMixer(AbstractScraper):
         )
 
     def yields(self):
-        return 0  # Servings do not exist in this site.
+        return ""
 
     def ingredients(self):
         ingredients = self.soup.findAll(

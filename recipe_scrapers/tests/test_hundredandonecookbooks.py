@@ -34,7 +34,7 @@ class TestHundredAndOneCookbooksScraper(unittest.TestCase):
 
     def test_yields(self):
         self.assertEqual(
-            0,
+            "",
             self.harvester_class.yields()
         )
 

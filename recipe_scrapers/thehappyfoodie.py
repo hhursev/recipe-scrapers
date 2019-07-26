@@ -19,10 +19,10 @@ class TheHappyFoodie(AbstractScraper):
         ])
 
     def yields(self):
-        #<div class="recipe__data__field recipe__data__yield">
         return get_yields(self.soup.find(
-            'div', {'class': 'recipe__data__yield'}).get_text()
-                          )
+            'div',
+            {'class': 'recipe__data__yield'}
+        ).get_text())
 
     def ingredients(self):
         ingredients = self.soup.find(

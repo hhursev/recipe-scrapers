@@ -35,7 +35,7 @@ class NIHHealthyEating(AbstractScraper):
             i += 1
 
         if i >= len(time_table.findAll('td')):
-            return 0
+            return ""
         return get_yields(time_table.find_all('td')[i])
 
     def ingredients(self):

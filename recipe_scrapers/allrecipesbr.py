@@ -31,7 +31,7 @@ class AllRecipesBr(AbstractScraper):
         ]
 
     def yields(self):
-        return 0
+        return ""
 
     def instructions(self):
         instructions = self.soup.find(

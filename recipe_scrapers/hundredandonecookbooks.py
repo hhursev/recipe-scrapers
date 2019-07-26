@@ -18,7 +18,7 @@ class HundredAndOneCookbooks(AbstractScraper):
         )
 
     def yields(self):
-        return 0
+        return ""
 
     def ingredients(self):
         ingredients = self.soup.find(

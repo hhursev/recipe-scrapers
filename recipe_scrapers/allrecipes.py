@@ -20,8 +20,10 @@ class AllRecipes(AbstractScraper):
     def yields(self):
         return get_yields(self.soup.find(
             'meta',
-            {'id': 'metaRecipeServings', 'itemprop': 'recipeYield'}).get("content")
-                          )
+            {
+                'id': 'metaRecipeServings',
+                'itemprop': 'recipeYield'
+            }).get("content"))
 
     def ingredients(self):
         ingredients = self.soup.findAll(
@@ -49,7 +51,7 @@ class AllRecipes(AbstractScraper):
             normalize_string(instruction.get_text())
             for instruction in instructions
         ])
-        
+
     def ratings(self):
         rating = self.soup.find("meta", {"property": "og:rating"})
         rating = round(float(rating['content']), 2) if rating and rating['content'] else -1.0

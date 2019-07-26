@@ -21,7 +21,7 @@ class HelloFresh(AbstractScraper):
         ).parent.parent)
 
     def yields(self):
-        return 0
+        return ""
 
     def ingredients(self):
         ingredients_container = self.soup.find(

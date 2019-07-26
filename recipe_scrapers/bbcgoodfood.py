@@ -26,9 +26,9 @@ class BBCGoodFood(AbstractScraper):
 
     def yields(self):
         return get_yields(self.soup.find(
-                'span',
-                {'class': 'recipe-details__text', 'itemprop': 'recipeYield'}
-            ))
+            'span',
+            {'class': 'recipe-details__text', 'itemprop': 'recipeYield'}
+        ))
 
     def ingredients(self):
         ingredients = self.soup.findAll(

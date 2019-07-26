@@ -21,7 +21,6 @@ class TwoPeasAndTheirPod(AbstractScraper):
         ).parent)
 
     def yields(self):
-        #<span itemprop="recipeYield">
         return get_yields(self.soup.find(
             'span',
             {'itemprop': 'recipeYield'}
