@@ -44,6 +44,7 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 - [http://bbc.co.uk/](http://bbc.co.uk/food/recipes/)
 - [http://bbcgoodfood.com/](http://bbcgoodfood.com/)
 - [http://bonappetit.com/](http://bonappetit.com/)
+- [https://www.budgetbytes.com/](https://www.budgetbytes.com/)
 - [http://closetcooking.com/](http://closetcooking.com/)
 - [http://cookstr.com/](http://cookstr.com/)
 - [http://epicurious.com/](http://epicurious.com/)
