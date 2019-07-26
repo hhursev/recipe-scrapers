@@ -13,28 +13,30 @@ class GialloZafferano(AbstractScraper):
         return self.soup.find('h1').get_text()
 
     def total_time(self):
-        return sum([
-            get_minutes(self.soup.find(
-                'li',
-                {'class': 'preptime'})
-            ),
+        possible_time_info_elements = self.soup.findAll(
+            'span',
+            {'class': 'gz-name-featured-data'}
+        )
 
-            get_minutes(self.soup.find(
-                'li',
-                {'class': 'cooktime'})
-            )
+        return sum([
+            get_minutes(element)
+            for element in possible_time_info_elements
         ])
 
     def yields(self):
-        return get_yields(self.soup.find(
-                'li',
-                {'class': 'yield'})
-            )
+        possible_yields_info_elements = self.soup.findAll(
+            'span',
+            {'class': 'gz-name-featured-data'}
+        )
+        for element in possible_yields_info_elements:
+            if 'persone' in element.get_text():
+                return get_yields(element)
+        return ""
 
     def ingredients(self):
         ingredients = self.soup.findAll(
             'dd',
-            {'class': "ingredient"}
+            {'class': "gz-ingredient"}
         )
 
         return [
@@ -43,13 +45,21 @@ class GialloZafferano(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions = json.loads(
-            self.soup.find(
-                'script',
-                {'type': 'application/ld+json'}).text
-        ).get('recipeInstructions')
+
+        instructions = self.soup.findAll(
+            'div',
+            {'class': 'gz-content-recipe-step'}
+        )
 
         return '\n'.join([
-            normalize_string(instruction)
+            normalize_string(instruction.get_text())
             for instruction in instructions
         ])
+
+    def ratings(self):
+        return round(float(
+            self.soup.find(
+                'span',
+                {"id": "rating_current"}
+            ).get_text().replace(',', '.')
+        ), 2)
