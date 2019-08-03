@@ -38,6 +38,12 @@ class GialloZafferano(AbstractScraper):
             'dd',
             {'class': "gz-ingredient"}
         )
+        
+        if len(ingredients) == 0:
+            ingredients = self.soup.findAll(
+            'li',
+            {'class': "gz-ingredient"}
+        )
 
         return [
             normalize_string(ingredient.get_text())
