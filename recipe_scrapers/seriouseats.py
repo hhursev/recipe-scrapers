@@ -16,7 +16,6 @@ class SeriousEats(AbstractScraper):
             'span',
             {'class': 'info'}
         )[2])
-        
 
     def yields(self):
         return get_yields(self.soup.find(

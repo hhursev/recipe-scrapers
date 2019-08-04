@@ -61,6 +61,7 @@ If you are programmer PRs with fixes are warmly welcomed and acknowledged with a
 - [http://mybakingaddiction.com/](http://mybakingaddiction.com/)
 - [http://paninihappy.com/](http://paninihappy.com/)
 - [http://realsimple.com/](http://www.realsimple.com/)
+- [https://www.seriouseats.com/](https://www.seriouseats.com/)
 - [http://simplyrecipes.com/](http://www.simplyrecipes.com)
 - [http://steamykitchen.com/](http://steamykitchen.com/)
 - [https://www.tastesoflizzyt.com](https://www.tastesoflizzyt.com/)
