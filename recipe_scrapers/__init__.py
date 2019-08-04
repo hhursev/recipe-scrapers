@@ -20,6 +20,7 @@ from .mybakingaddiction import MyBakingAddiction
 from .nihhealthyeating import NIHHealthyEating
 from .paninihappy import PaniniHappy
 from .realsimple import RealSimple
+from .seriouseats import SeriousEats
 from .simplyrecipes import SimplyRecipes
 from .steamykitchen import SteamyKitchen
 from .tastesoflizzyt import TastesOfLizzyT
@@ -55,6 +56,7 @@ SCRAPERS = {
     NIHHealthyEating.host(): NIHHealthyEating,
     PaniniHappy.host(): PaniniHappy,
     RealSimple.host(): RealSimple,
+    SeriousEats.host(): SeriousEats,
     SimplyRecipes.host(): SimplyRecipes,
     SteamyKitchen.host(): SteamyKitchen,
     TastesOfLizzyT.host(): TastesOfLizzyT,
