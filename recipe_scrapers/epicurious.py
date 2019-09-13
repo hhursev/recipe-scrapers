@@ -27,16 +27,12 @@ class Epicurious(AbstractScraper):
             {'itemprop': 'recipeYield'}
         ))
 
-    def images(self):
-        images = self.soup.findAll(
+    def image(self):
+        image = self.soup.find(
             'img',
             {'class': 'photo', 'srcset': True}
         )
-
-        return [
-            image['srcset']
-            for image in images
-        ]
+        return image['srcset'] if image else None
 
     def ingredients(self):
         ingredients = self.soup.findAll(

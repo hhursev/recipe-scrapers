@@ -35,12 +35,10 @@ class TestAllRecipesScraper(unittest.TestCase):
     def test_yields(self):
         self.assertEqual("8 serving(s)", self.harvester_class.yields())
 
-    def test_images(self):
+    def test_image(self):
         self.assertEqual(
-            [
-                'https://images.media-allrecipes.com/userphotos/560x315/694708.jpg',
-            ],
-            self.harvester_class.images()
+            'https://images.media-allrecipes.com/userphotos/560x315/694708.jpg',
+            self.harvester_class.image()
         )
 
     def test_ingredients(self):

@@ -38,12 +38,10 @@ class TestEpicurious(unittest.TestCase):
             self.harvester_class.total_time()
         )
 
-    def test_images(self):
+    def test_image(self):
         self.assertEqual(
-            [
-                'https://assets.epicurious.com/photos/568194b8fb9544f72b678fd4/6:4/w_274%2Ch_169/Ramen-Noodle-Bowl-With-Escarole.jpg',
-            ],
-            self.harvester_class.images()
+            'https://assets.epicurious.com/photos/568194b8fb9544f72b678fd4/6:4/w_274%2Ch_169/Ramen-Noodle-Bowl-With-Escarole.jpg',
+            self.harvester_class.image()
         )
 
     def test_ingredients(self):

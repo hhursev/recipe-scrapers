@@ -33,16 +33,12 @@ class TastyKitchen(AbstractScraper):
             {'itemprop': 'yield'})
         )
 
-    def images(self):
-        images =  self.soup.findAll(
+    def image(self):
+        image =  self.soup.find(
             'img',
             {'class': 'the_recipe_image', 'src': True}
         )
-
-        return [
-            image['src']
-            for image in images
-        ]
+        return image['src'] if image else None
 
     def ingredients(self):
         ingredients = self.soup.find(

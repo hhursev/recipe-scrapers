@@ -30,16 +30,12 @@ class BBCGoodFood(AbstractScraper):
             {'class': 'recipe-details__text', 'itemprop': 'recipeYield'}
         ))
 
-    def images(self):
-        images = self.soup.findAll(
+    def image(self):
+        image = self.soup.find(
             'img',
             {'itemprop': 'image', 'src': True}
         )
-
-        return [
-            image['src']
-            for image in images
-        ]
+        return image['src'] if image else None
 
     def ingredients(self):
         ingredients = self.soup.findAll(
