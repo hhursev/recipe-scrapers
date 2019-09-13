@@ -30,6 +30,18 @@ class BBCFood(AbstractScraper):
             {'class': 'recipe-metadata__serving'})
         )
 
+    def images(self):
+        images = self.soup.findAll(
+            True,
+            {'class': 'recipe-media__image'}
+        )
+
+        return [
+            image.parent.find('img')['src']
+            for image in images
+            if image.parent.find('img', {'src': True})
+        ]
+
     def ingredients(self):
         ingredients = self.soup.findAll(
             'li',
