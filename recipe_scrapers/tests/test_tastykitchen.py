@@ -38,6 +38,14 @@ class TestTastyKitchenScraper(unittest.TestCase):
             self.harvester_class.yields()
         )
 
+    def test_images(self):
+        self.assertEqual(
+            [
+                'tasty_kitchen_files/Cheddar-and-Garlic-Scape-Biscuits-by-Superman-Cooks-410x273.jpg',
+            ],
+            self.harvester_class.images()
+        )
+
     def test_ingredients(self):
         self.assertCountEqual(
             [
