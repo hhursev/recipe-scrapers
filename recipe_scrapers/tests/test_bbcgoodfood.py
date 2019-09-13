@@ -37,6 +37,15 @@ class TestBBCGoodFoodScraper(unittest.TestCase):
             "12 item(s)",
             self.harvester_class.yields()
         )
+
+    def test_images(self):
+        self.assertEqual(
+            [
+                '//www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--405483_12.jpg?itok=y0VkmKq3',
+            ],
+            self.harvester_class.images()
+        )
+
     def test_ingredients(self):
         self.assertCountEqual(
             [
