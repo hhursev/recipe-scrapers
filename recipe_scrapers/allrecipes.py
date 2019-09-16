@@ -25,6 +25,13 @@ class AllRecipes(AbstractScraper):
                 'itemprop': 'recipeYield'
             }).get("content"))
 
+    def image(self):
+        image = self.soup.find(
+            'img',
+            {'class': 'rec-photo', 'src': True}
+        )
+        return image['src'] if image else None
+
     def ingredients(self):
         ingredients = self.soup.findAll(
             'li',

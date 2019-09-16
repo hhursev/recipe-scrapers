@@ -44,6 +44,12 @@ class TestBBCFoodScraper(unittest.TestCase):
             self.harvester_class.yields()
         )
 
+    def test_image(self):
+        self.assertEqual(
+            'https://ichef.bbci.co.uk/food/ic/food_16x9_608/recipes/baileysandchocolatec_72293_16x9.jpg',
+            self.harvester_class.image()
+        )
+
     def test_ingredients(self):
         self.assertCountEqual(
             [

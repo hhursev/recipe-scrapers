@@ -25,6 +25,7 @@ class AbstractScraper():
                 'title',
                 'total_time',
                 'yields',
+                'image',
                 'instructions',
                 'ingredients',
                 'links'
@@ -78,6 +79,9 @@ class AbstractScraper():
 
     def yields(self):
         """ The number of servings or items in the recipe """
+        raise NotImplementedError("This should be implemented.")
+
+    def image(self):
         raise NotImplementedError("This should be implemented.")
 
     def ingredients(self):
