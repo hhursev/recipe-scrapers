@@ -30,6 +30,7 @@ from recipe_scrapers.tests.test_thevintagemixer import *
 from recipe_scrapers.tests.test_twopeasandtheirpod import *
 from recipe_scrapers.tests.test_utils_exceptions import *
 from recipe_scrapers.tests.test_whatsgabycooking import *
+from recipe_scrapers.tests.test_wikicookbook import *
 from recipe_scrapers.tests.test_yummly import *
 from recipe_scrapers.tests.test_geniuskitchen import *
 
