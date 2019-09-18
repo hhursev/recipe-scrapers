@@ -16,7 +16,7 @@ class TestWikiCookbookScraper(unittest.TestCase):
 
     def test_host(self):
         self.assertEqual(
-            'wikibooks.org',
+            'en.wikibooks.org',
             self.harvester_class.host()
         )
 

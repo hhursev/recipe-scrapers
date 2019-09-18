@@ -6,7 +6,7 @@ class WikiCookbook(AbstractScraper):
 
     @classmethod
     def host(self):
-        return 'wikibooks.org'
+        return 'en.wikibooks.org'
 
     def title(self):
         return self.soup.find('h1').get_text().replace('Cookbook:', '')
