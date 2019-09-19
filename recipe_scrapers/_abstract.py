@@ -105,3 +105,25 @@ class AbstractScraper():
             for link in links_html
             if link['href'] not in invalid_href
         ]
+
+    def to_dict(self) -> dict:
+        result = dict()
+        for param in [
+            ('url', self.url),
+            ('host', self.host),
+            ('title', self.title),
+            ('total_time', self.total_time),
+            ('yields', self.yields),
+            ('image', self.image),
+            ('ingredients', self.ingredients),
+            ('instructions', self.instructions),
+            ('ratings', self.ratings),
+            ('reviews', self.reviews),
+            ('links', self.links)
+        ]:
+            try:
+                result[param[0]] = param[1]()
+            except Exception:
+                result[param[0]] = None
+
+        return result

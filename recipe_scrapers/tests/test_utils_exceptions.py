@@ -9,6 +9,7 @@ class TestingExceptionsHandling(AbstractScraper):
     Custom Harvester Class that will raise exceptions in its methods
     to check if the decorator handling exceptions is working properly
     """
+
     def title(self):
         raise Exception
 
@@ -29,9 +30,9 @@ class TestExceptionsHandlingScraper(unittest.TestCase):
     def setUp(self):
         # tests are run from tests.py
         with open(os.path.join(
-            os.path.dirname(os.path.realpath(__file__)),
-            'test_data',
-            'allrecipes.testhtml'
+                os.path.dirname(os.path.realpath(__file__)),
+                'test_data',
+                'allrecipes.testhtml'
         )) as file_opened:
             self.harvester_class = TestingExceptionsHandling(file_opened, test=True)
         setattr(self.harvester_class, 'testing_mode', False)
@@ -58,3 +59,19 @@ class TestExceptionsHandlingScraper(unittest.TestCase):
 
     def test_on_no_exception_return_default_result(self):
         return self.assertEqual([], self.harvester_class.links())
+
+    def test_dict_gen(self):
+        self.assertEqual(
+            {'host': None,
+             'image': None,
+             'ingredients': [],
+             'instructions': None,
+             'links': [],
+             'ratings': None,
+             'reviews': None,
+             'title': '',
+             'total_time': 0,
+             'url': None,
+             'yields': ''},
+            self.harvester_class.to_dict()
+        )
