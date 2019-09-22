@@ -30,6 +30,7 @@ from .thepioneerwoman import ThePioneerWoman
 from .thevintagemixer import TheVintageMixer
 from .twopeasandtheirpod import TwoPeasAndTheirPod
 from .whatsgabycooking import WhatsGabyCooking
+from .wikicookbook import WikiCookbook
 from .yummly import Yummly
 from .geniuskitchen import GeniusKitchen
 
@@ -66,6 +67,7 @@ SCRAPERS = {
     TheVintageMixer.host(): TheVintageMixer,
     TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
     WhatsGabyCooking.host(): WhatsGabyCooking,
+    WikiCookbook.host(): WikiCookbook,
     Yummly.host(): Yummly,
     GeniusKitchen.host(): GeniusKitchen,
 }
