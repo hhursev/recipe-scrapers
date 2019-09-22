@@ -108,3 +108,4 @@ def scrape_me(url_path):
 
 
 __all__ = ['scrape_me']
+name = "recipe_scrapers"
