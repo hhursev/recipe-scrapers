@@ -1,18 +1,21 @@
-.. image:: https://img.shields.io/pypi/v/recipe-scrapers.svg?
-    :target https://pypi.org/project/recipe-scrapers/
-    :alt: PyPi
+.. image:: https://img.shields.io/pypi/v/recipe-scrapers.svg
+    :target: https://pypi.org/project/recipe-scrapers/
+    :alt: Version
 .. image:: https://travis-ci.org/hhursev/recipe-scrapers.svg?branch=master
     :target: https://travis-ci.org/hhursev/recipe-scrapers
     :alt: Travis
 .. image:: https://coveralls.io/repos/hhursev/recipe-scraper/badge.svg?branch=master&service=github
-    :target https://coveralls.io/github/hhursev/recipe-scraper?branch=master
+    :target: https://coveralls.io/github/hhursev/recipe-scraper?branch=master
     :alt: Coveralls
 .. image:: https://img.shields.io/github/license/hhursev/recipe-scrapers?
-    :target https://github.com/hhursev/recipe-scrapers/blob/master/LICENSE
-    :alt License
+    :target: https://github.com/hhursev/recipe-scrapers/blob/master/LICENSE
+    :alt: License
 .. image:: https://img.shields.io/github/stars/hhursev/recipe-scrapers?style=social
-    :target https://github.com/hhursev/recipe-scrapers/
-    :alt Github
+    :target: https://github.com/hhursev/recipe-scrapers/
+    :alt: Github
+
+
+------
 
 
 A simple web scraping tool for recipe sites.
