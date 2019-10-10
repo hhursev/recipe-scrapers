@@ -21,10 +21,12 @@ class BudgetBytes(AbstractScraper):
         )
 
     def yields(self):
-        return get_yields(self.soup.find(
-            'input',
+        yields = self.soup.find(
+            'span',
             {'class': 'wprm-recipe-servings'}
-        ).get('value'))
+        ).get_text()
+
+        return get_yields(f"{yields} servings")
 
     def ingredients(self):
         ingredients = self.soup.findAll(
