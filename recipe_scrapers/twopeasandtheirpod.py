@@ -15,16 +15,21 @@ class TwoPeasAndTheirPod(AbstractScraper):
         ).get_text()
 
     def total_time(self):
+        minutes = self.soup.select_one(
+            '.wprm-recipe-total_time'
+        ).get_text()
+        unit = self.soup.select_one(
+            '.wprm-recipe-total_time-unit'
+        ).get_text()
+
         return get_minutes(
-            self.soup.select_one(
-                "div.wprm-recipe-details-container dl:nth-of-type(3)"
-            ).get_text()
+            "{} {}".format(minutes, unit)
         )
 
     def yields(self):
         return get_yields(
             self.soup.select_one(
-                "div.wprm-recipe-details-container dl:nth-of-type(4) dd"
+                "div.wprm-recipe-details-container dl:nth-of-type(5) dd"
             ).get_text()
         )
 
@@ -40,9 +45,8 @@ class TwoPeasAndTheirPod(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions = self.soup.findAll(
-            'div',
-            {'class': 'wprm-recipe-instruction-text'}
+        instructions = self.soup.select(
+            '.wprm-recipe-instruction-text'
         )
 
         return '\n'.join([

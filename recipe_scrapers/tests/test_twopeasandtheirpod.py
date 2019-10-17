@@ -23,7 +23,7 @@ class TestTwoPeasAndTheirPodScraper(unittest.TestCase):
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            'Baked Chicken Taquitos '
+            'Baked Chicken Taquitos'
         )
 
     def test_total_time(self):
@@ -35,14 +35,14 @@ class TestTwoPeasAndTheirPodScraper(unittest.TestCase):
 
     def test_yields(self):
         self.assertEqual(
-            "20 item(s)",
+            "20 serving(s)",
             self.harvester_class.yields()
         )
 
     def test_ingredients(self):
         self.assertCountEqual(
             [
-                '2 cups shredded chicken (we use rotisserie chicken)',
+                '2 cups shredded chicken we use rotisserie chicken',
                 '1/2 teaspoon ground cumin',
                 '1/2 teaspoon ground chili powder',
                 '1/2 teaspoon kosher salt',
@@ -57,6 +57,7 @@ class TestTwoPeasAndTheirPodScraper(unittest.TestCase):
                 'Sour Cream',
                 'Chopped Green Onion',
                 'Crumbled Queso Fresco',
+                'Pico de Gallo',
                 'Salsa'
             ],
             self.harvester_class.ingredients()
