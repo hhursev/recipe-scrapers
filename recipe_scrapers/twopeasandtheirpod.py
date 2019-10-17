@@ -11,25 +11,27 @@ class TwoPeasAndTheirPod(AbstractScraper):
     def title(self):
         return self.soup.find(
             'h2',
-            {'itemprop': 'name'}
+            {'class': 'wprm-recipe-name'}
         ).get_text()
 
     def total_time(self):
-        return get_minutes(self.soup.find(
-            'meta',
-            {'itemprop': 'totalTime'}
-        ).parent)
+        return get_minutes(
+            self.soup.select_one(
+                "div.wprm-recipe-details-container dl:nth-of-type(3)"
+            ).get_text()
+        )
 
     def yields(self):
-        return get_yields(self.soup.find(
-            'span',
-            {'itemprop': 'recipeYield'}
-        ))
+        return get_yields(
+            self.soup.select_one(
+                "div.wprm-recipe-details-container dl:nth-of-type(4) dd"
+            ).get_text()
+        )
 
     def ingredients(self):
         ingredients = self.soup.findAll(
             'li',
-            {'itemprop': 'ingredients'}
+            {'class': 'wprm-recipe-ingredient'}
         )
 
         return [
@@ -38,12 +40,20 @@ class TwoPeasAndTheirPod(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions = self.soup.find(
+        instructions = self.soup.findAll(
             'div',
-            {'class': 'instructions'}
-        ).findAll(['p', 'li'])
+            {'class': 'wprm-recipe-instruction-text'}
+        )
 
         return '\n'.join([
             normalize_string(instruction.get_text())
             for instruction in instructions
         ])
+
+    def image(self):
+        image = self.soup.find(
+            'div',
+            {'class': 'wprm-recipe-image'}
+        ).find('img')
+
+        return image['src'] if image else None
