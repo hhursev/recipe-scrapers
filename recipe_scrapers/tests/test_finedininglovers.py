@@ -41,31 +41,37 @@ class TestFineDiningLoversScraper(unittest.TestCase):
     def test_ingredients(self):
         self.assertCountEqual(
             [
-                'Zucchini',
-                'Basil',
-                'Pine nuts',
-                'Extra-virgin olive oil',
-                'Yeast flakes',
-                'Garlic',
-                'Salt',
-                'Tomato',
-                'Sundried tomato',
-                'Extra-virgin olive oil',
-                'Salt',
-                'Pepper',
-                'Brown sugar',
-                'Dried oregano',
-                'Macadamia nuts',
-                'Yeast flakes',
-                'Salt',
-                'Lime',
-                'Water'
-            ],
+                'zucchini 4 each, large',
+                'basil 20 g, fresh',
+                'Pine nuts 70 g',
+                'Extra-virgin olive oil 120 ml',
+                'Yeast flakes 6 g',
+                'Garlic 1/2 clove',
+                'salt 1 pinch',
+                'Tomato 200 g',
+                'Sundried tomato 4 each',
+                'Extra-virgin olive oil 30 ml',
+                'salt 1 pinch',
+                'Pepper 1 pinch',
+                'Brown sugar 1 pinch',
+                'Dried oregano to taste',
+                'Macadamia nuts 150 g (not roasted, unsalted)',
+                'Yeast flakes 6 g',
+                'salt 1 pinch',
+                'lime 1 (juice only, filtered)',
+                'water 50 ml (filtered)'
+             ],
             self.harvester_class.ingredients()
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            'For the macadamia cheese Pour all ingredients in a blender and mix until a thick cream. Set aside. For the tomato cream Pour all ingredients into a blender and mix until creamy. Set aside. For the basil pesto Pour all ingredients into a blender and mix until creamy. Set aside. Wash zucchini and cut them into very thin slices. Make the raw vegan lasagna alternating a layer of zucchini, a layer of macadamia cheese, a layer of zucchini, a layer of tomato sauce, a layer of zucchini, a layer of basil pesto. Keep the lasagna in the fridge and serve decorated with fresh basil and pine nuts.',
+            'For the macadamia cheese Pour all ingredients in a blender and mix until a thick cream. Set aside.\nFor the tomato cream Pour all ingredients into a blender and mix until creamy. Set aside.\nFor the basil pesto Pour all ingredients into a blender and mix until creamy. Set aside. Wash zucchini and cut them into very thin slices. Make the raw vegan lasagna alternating a layer of zucchini, a layer of macadamia cheese, a layer of zucchini, a layer of tomato sauce, a layer of zucchini, a layer of basil pesto. Keep the lasagna in the fridge and serve decorated with fresh basil and pine nuts.',
             self.harvester_class.instructions()
+        )
+
+    def test_image(self):
+        return self.assertEqual(
+            'https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/recipe_full_desktop/public/Original_2242_zucchini-lasagna-raw-vegan.jpg',
+            self.harvester_class.image()
         )
