@@ -22,7 +22,10 @@ SERV_REGEX_TO = re.compile(
 
 def get_minutes(element):
     try:
-        tstring = element.get_text()
+        if isinstance(element, str):
+            tstring = element
+        else:
+            tstring = element.get_text()
         if '-' in tstring:
             tstring = tstring.split('-')[1]  # sometimes formats are like this: '12-15 minutes'
         matched = TIME_REGEX.search(tstring)
