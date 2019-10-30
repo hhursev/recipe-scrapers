@@ -10,13 +10,13 @@ class TheVintageMixer(AbstractScraper):
 
     def title(self):
         return self.soup.find(
-            'div',
+            'h2',
             {'class': 'wprm-recipe-name'}
         ).get_text()
 
     def total_time(self):
         return get_minutes(self.soup.find(
-            'meta', {'itemprop': 'totalTime'}).parent
+            'span', {'class': 'wprm-recipe-total_time-minutes'}).parent
         )
 
     def yields(self):
@@ -24,7 +24,7 @@ class TheVintageMixer(AbstractScraper):
 
     def ingredients(self):
         ingredients = self.soup.findAll(
-            'li', {'itemprop': "recipeIngredient"}
+            'li', {'class': "wprm-recipe-ingredient"}
         )
 
         return [
@@ -36,7 +36,7 @@ class TheVintageMixer(AbstractScraper):
     def instructions(self):
         instructions = self.soup.findAll(
             'div',
-            {'itemprop': 'recipeInstructions'}
+            {'class': 'wprm-recipe-instruction-text'}
         )
 
         return '\n'.join([
