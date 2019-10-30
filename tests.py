@@ -1,4 +1,5 @@
 from recipe_scrapers.tests.test_allrecipes import *
+from recipe_scrapers.tests.test_allrecipes_fallback_format import *
 from recipe_scrapers.tests.test_bbcfood import *
 from recipe_scrapers.tests.test_bbcgoodfood import *
 from recipe_scrapers.tests.test_bonappetit import *
