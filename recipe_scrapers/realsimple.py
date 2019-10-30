@@ -45,4 +45,5 @@ class RealSimple(AbstractScraper):
         return '\n'.join([
             normalize_string(instruction.find('p').get_text())
             for instruction in instructions
+            if instruction.find('p') is not None
         ])
