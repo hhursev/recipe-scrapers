@@ -10,7 +10,7 @@ class TestSimplyRecipesScraper(unittest.TestCase):
         with open(os.path.join(
             os.path.dirname(os.path.realpath(__file__)),
             'test_data',
-            'simpyrecipes.testhtml'
+            'simplyrecipes.testhtml'
         )) as file_opened:
             self.harvester_class = SimplyRecipes(file_opened, test=True)
 
@@ -47,7 +47,7 @@ class TestSimplyRecipesScraper(unittest.TestCase):
                 '2 celery ribs, diced small',
                 '2 medium carrots, peeled and diced small',
                 '1 onion, diced small',
-                '2 cloves garlic, left whole',
+                '2 cloves garlic, peeled but left whole',
                 '1 teaspoon salt, plus more to taste (see Recipe Note)',
                 '1/2 teaspoon ground black pepper',
                 '2 quarts unsalted or low-sodium chicken stock',

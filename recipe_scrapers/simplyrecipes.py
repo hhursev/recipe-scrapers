@@ -27,7 +27,7 @@ class SimplyRecipes(AbstractScraper):
     def yields(self):
         return get_yields(self.soup.find(
             'span',
-            {'class': 'yield', 'itemprop': 'recipeYield'})
+            {'class': 'yield'})
         )
 
     def ingredients(self):
@@ -44,7 +44,7 @@ class SimplyRecipes(AbstractScraper):
     def instructions(self):
         instructions_html = self.soup.find(
             'div',
-            {'itemprop': 'recipeInstructions'}
+            {'class': 'instructions'}
         ).findAll('p')
 
         return '\n'.join([
