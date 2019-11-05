@@ -38,6 +38,12 @@ class TestHundredAndOneCookbooksScraper(unittest.TestCase):
             self.harvester_class.yields()
         )
 
+    def test_image(self):
+        self.assertEqual(
+            'http://www.101cookbooks.com/mt-static/images/food/healthy_cookies.jpg',
+            self.harvester_class.image()
+        )
+
     def test_ingredients(self):
         self.assertCountEqual(
             [
