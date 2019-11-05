@@ -32,6 +32,12 @@ class TestTheVintageMixerScraper(unittest.TestCase):
             self.harvester_class.total_time()
         )
 
+    def test_image(self):
+        self.assertEqual(
+            'https://d6h7vs5ykbiug.cloudfront.net/wp-content/uploads/2017/08/Cherry-Baby-Birthday-Party-2-1-150x150.jpg',
+            self.harvester_class.image()
+        )
+
     def test_ingredients(self):
         self.assertCountEqual(
             [
