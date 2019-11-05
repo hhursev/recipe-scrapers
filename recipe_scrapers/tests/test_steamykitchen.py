@@ -38,6 +38,12 @@ class TestSteamyKitchenScraper(unittest.TestCase):
             self.harvester_class.yields()
         )
 
+    def test_image(self):
+        self.assertEqual(
+            'https://steamykitchen.com/wp-content/uploads/2012/11/pork-paprikash-recipe-featured-9514-180x220.jpg',
+            self.harvester_class.image()
+        )
+
     def test_ingredients(self):
         self.assertListEqual(
             [
