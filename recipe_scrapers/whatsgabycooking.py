@@ -23,6 +23,13 @@ class WhatsGabyCooking(AbstractScraper):
     def yields(self):
         return ""
 
+    def image(self):
+        image = self.soup.find(
+            'meta',
+            {'property': 'og:image', 'content': True}
+        )
+        return image['content'] if image else None
+
     def ingredients(self):
         ingredients = self.soup.findAll(
             'li',
