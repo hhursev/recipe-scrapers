@@ -38,6 +38,12 @@ class TestPaniniHappyScraper(unittest.TestCase):
             self.harvester_class.yields()
         )
 
+    def test_image(self):
+        self.assertEqual(
+            'paninihappy_files/Grilled_Mac_and_Cheese-main-490.jpg',
+            self.harvester_class.image()
+        )
+
     def test_ingredients(self):
         self.assertCountEqual(
             [
