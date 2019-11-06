@@ -16,8 +16,8 @@ class WhatsGabyCooking(AbstractScraper):
 
     def total_time(self):
         return get_minutes(self.soup.find(
-            'span',
-            {'class': 'ready-in-time'})
+            'p',
+            {'class': 'header-recipe-time'})
         )
 
     def yields(self):
@@ -33,7 +33,7 @@ class WhatsGabyCooking(AbstractScraper):
     def ingredients(self):
         ingredients = self.soup.findAll(
             'li',
-            {'itemprop': "ingredients"}
+            {'class': "wprm-recipe-ingredient"}
         )
 
         return [
@@ -45,7 +45,7 @@ class WhatsGabyCooking(AbstractScraper):
     def instructions(self):
         instructions = self.soup.findAll(
             'li',
-            {'itemprop': 'recipeInstructions'}
+            {'class': 'wprm-recipe-instruction'}
         )
 
         return '\n'.join([

@@ -23,36 +23,39 @@ class TestWhatsGabyCookingScraper(unittest.TestCase):
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            'Strawberry Basil Lemonade'
+            'Vegetarian Quinoa Bake'
         )
 
     def test_total_time(self):
         self.assertEqual(
-            0,
+            45,
             self.harvester_class.total_time()
         )
 
     def test_image(self):
         self.assertEqual(
-            'http://whatsgabycooking.com/wp-content/uploads/strawberrylemonade-copy.jpg',
+            'https://cdn.whatsgabycooking.com/wp-content/uploads/2017/10/WGC-Quinoa-Bake-copy-2.jpg',
             self.harvester_class.image()
         )
 
     def test_ingredients(self):
         self.assertCountEqual(
             [
-                '10 lemons, juiced, about 1 cup of fresh lemon juice',
-                '3/4 cup super fine sugar',
-                '4 cups water',
-                '8-10 strawberries, tops removed',
-                '1/3 cup fresh basil',
-                '1/2 cup gin or vodka (optional)'
+                '1 ½ cups uncooked multi-colored quinoa',
+                '2 cups shredded colby jack cheese divided',
+                '1 cup shredded mozzarella cheese divided',
+                '1 cup canned black beans rinsed and drained',
+                '1 cup frozen charred corn trader joes',
+                '1 4.5-ounce can chopped green chiles',
+                "1 ½ cup Gaby's chipotle or tomatillo salsa",
+                'Kosher salt and pepper to taste',
+                'Finely chopped scallions and cilantro as garnish'
             ],
             self.harvester_class.ingredients()
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            'Juice the lemons and transfer the juice into a large pitcher.\nAdd the sugar and the water and stir to combine and dissolve the sugar.\nAdd the strawberries and basil.\nUsing an immersion blender, blend the mixture for about 20 seconds just until the mixture turns pink and the basil is finely chopped.\nAdd alcohol if desired. Serve over crushed ice and enjoy!',
+            'Preheat the oven to 375 degrees F.\nCook the quinoa according to the package directions. Once cooked, remove from heat and transfer the cooked quinoa into a large bowl.\nFold in 1 1/2 cups of the shredded colby jack cheese, ½ cup of the shredded mozzarella, black beans, corn, green chiles and salsa. Season the entire mixture with salt and pepper and stir to combine.\nLightly spray a medium sized skillet with non-stick spray, and transfer the mixture into the skillet. Top with the remaining shredded cheeses and bake for about 20-25 minutes until the top layer of cheese is bubbly and melted.\nRemove the baking dish from the oven and garnish with green onions and cilantro and serve.',
             self.harvester_class.instructions()
         )
