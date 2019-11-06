@@ -23,39 +23,38 @@ class TestInspiralizedScraper(unittest.TestCase):
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            "Spiralized Pasta Carbonara, Two Ways"
+            "Brussels Sprouts and Apple Salad with Parmesan"
         )
 
     def test_total_time(self):
         self.assertEqual(
-            20,
+            15,
             self.harvester_class.total_time()
         )
 
     def test_yields(self):
         self.assertEqual(
-            "2 serving(s)",
+            "4 serving(s)",
             self.harvester_class.yields()
         )
 
     def test_ingredients(self):
         self.assertCountEqual(
             [
-                '1 tbsp olive oil',
-                '1 large garlic clove, minced',
-                '1/4 tsp red pepper flakes',
-                '1/4 cup diced red onion',
-                '1/2 cup cubed pancetta',
-                '2 whole large eggs',
-                '3 medium zucchinis, Blade C',
-                'pepper, to taste',
-                '1/3 cup grated parmesan cheese'
+                '3 tablespoons extra virgin olive oil',
+                '3 tablespoons apple cider vinegar',
+                '2.5 teaspoons honey',
+                'salt and pepper',
+                '4 cups shredded brussels sprouts',
+                '1 medium apple, Blade D',
+                '1/4 cup chopped raw almonds (for extra flavor, toast these first)',
+                '1/3 cup shaved Parmesan'
             ],
             self.harvester_class.ingredients()
         )
 
     def test_instructions(self):
         self.assertEqual(
-            'Place a large skillet over medium heat and add in the olive oil. Once the oil heats, add in the garlic and red pepper flakes. Cook the garlic for 30 seconds, add in the onion and cook for 2-3 minutes or until the onion softens. Then, add in the pancetta cubes. Cook, stirring often, until cooked through, about 5 minutes.\nOnce the pancetta is done cooking, add a medium skillet over medium heat and crack over two eggs. Let them cook until the egg whites set.\nWhile your eggs are cooking, add the zucchini noodles to the pancetta, season with pepper and toss to combine. Stirring frequently, let cook for about 2-3 minutes and then add in the parmesan cheese. Toss the noodles with the cheese and then plate into bowls. Top each bowl with one of the eggs. Enjoy!',
+            'In a large bowl, whisk together the olive oil, apple cider vinegar, honey, and season with salt and pepper. Add the brussels sprouts and apples and toss well. Let sit in the refrigerator for at least 15-20 minutes and then take out and fold in the almonds and half of the Parmesan cheese. Transfer to a serving bowl or plate and top with remaining Parmesan.',
             self.harvester_class.instructions()
         )

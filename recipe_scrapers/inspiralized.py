@@ -9,7 +9,7 @@ class Inspiralized(AbstractScraper):
         return 'inspiralized.com'
 
     def title(self):
-        return self.soup.find('h1').get_text()
+        return self.soup.find('h2').get_text()
 
     def total_time(self):
         return get_minutes(self.soup.find(
@@ -20,13 +20,13 @@ class Inspiralized(AbstractScraper):
     def yields(self):
         return get_yields(self.soup.find(
             'span',
-            {'itemprop': 'recipeYield'})
+            {'itemprop': 'servingSize'})
         )
 
     def ingredients(self):
         ingredients = self.soup.findAll(
             'li',
-            {'class': 'ingredient', 'itemprop': 'ingredients'}
+            {'class': 'ingredient'}
         )
 
         return [
