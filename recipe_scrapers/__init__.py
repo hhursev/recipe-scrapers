@@ -16,6 +16,7 @@ from .hellofresh import HelloFresh
 from .hundredandonecookbooks import HundredAndOneCookbooks
 from .inspiralized import Inspiralized
 from .jamieoliver import JamieOliver
+from .kitchn import Kitchn
 from .mybakingaddiction import MyBakingAddiction
 from .nihhealthyeating import NIHHealthyEating
 from .paninihappy import PaniniHappy
@@ -53,6 +54,7 @@ SCRAPERS = {
     HundredAndOneCookbooks.host(): HundredAndOneCookbooks,
     Inspiralized.host(): Inspiralized,
     JamieOliver.host(): JamieOliver,
+    Kitchn.host(): Kitchn,
     MyBakingAddiction.host(): MyBakingAddiction,
     NIHHealthyEating.host(): NIHHealthyEating,
     PaniniHappy.host(): PaniniHappy,
