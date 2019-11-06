@@ -1,4 +1,4 @@
-.. image:: https://img.shields.io/pypi/v/recipe-scrapers.svg
+.. image:: https://img.shields.io/pypi/v/recipe-scrapers.svg?
     :target: https://pypi.org/project/recipe-scrapers/
     :alt: Version
 .. image:: https://travis-ci.org/hhursev/recipe-scrapers.svg?branch=master
