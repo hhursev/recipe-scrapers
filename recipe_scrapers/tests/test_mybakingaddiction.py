@@ -21,49 +21,60 @@ class TestMyBakingAddictionScraper(unittest.TestCase):
             self.harvester_class.host()
         )
 
+    def test_image(self):
+        self.assertEqual(
+            'https://www.mybakingaddiction.com/wp-content/uploads/2016/08/chocolate-coconut-zucchini-bread-1-of-11-1-600x900.jpg',
+            self.harvester_class.image()
+        )
+
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            'Pumpkin Roll'
+            'Chocolate Coconut Zucchini Bread'
+        )
+
+    def test_ratings(self):
+        self.assertEqual(
+            self.harvester_class.ratings(),
+            4.4
         )
 
     def test_total_time(self):
         self.assertEqual(
-            40,
+            75,
             self.harvester_class.total_time()
         )
 
     def test_yields(self):
         self.assertEqual(
-            "10 serving(s)",
+            "2 serving(s)",
             self.harvester_class.yields()
         )
 
     def test_ingredients(self):
         self.assertCountEqual(
             [
-                '2/3 cup pure pumpkin puree',
-                '3 large eggs',
-                '1 cup powdered sugar, sifted',
-                '1/2 teaspoon baking soda',
-                '1/4 teaspoon salt',
-                'For the Filling',
-                '1/4 cup powdered sugar (to sprinkle on towel)',
-                '1 (8 ounce) package cream cheese, softened',
-                '1 tablespoon pumpkin pie spice',
+                '2 1/2 cups all-purpose flour',
+                '1/2 cup unsweetened cocoa powder',
+                '1 teaspoon salt',
+                '1 teaspoon baking soda',
                 '1/2 teaspoon baking powder',
-                '1 teaspoon vanilla extract',
-                '6 tablespoons butter, softened',
-                '1 cup granulated sugar',
-                '3/4 cup all-purpose flour',
-                '1 teaspoon pure vanilla extract',
-                'For the Cake'
+                '1 teaspoon ground cinnamon',
+                '1 cup CRISCO® Organic Refined Coconut Oil, melted',
+                '2/3 cup granulated sugar',
+                '2/3 cup light brown sugar',
+                '1/2 cup sour cream',
+                '3 large eggs',
+                '2 teaspoons pure vanilla extract',
+                '2 1/2 cups grated zucchini',
+                '1 cup semi-sweet chocolate chips',
+                '3/4 cup shredded sweetened coconut'
             ],
             self.harvester_class.ingredients()
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            'Preheat oven to 375°F. Line a 15 x 10-inch jelly-roll pan with parchment paper and spray with non-stick cooking spray. Sprinkle a clean tea towel with powdered sugar. Set pan and towel aside.\nIn a medium bowl, combine flour, baking powder, baking soda, pumpkin pie spice and salt.\nIn a large bowl with an electric mixer, beat eggs, vanilla and sugar until thick.\nAdd in pumpkin and mix to combine.\nStir in flour mixture.\nSpread batter evenly into prepared pan.\nBake for 13 to 15 minutes or until top of cake springs back when touched.\nImmediately loosen and turn cake onto prepared towel. Carefully peel off paper. Roll up cake and towel together, starting with narrow end. Cool on wire rack.\nIn a medium bowl, beat cream cheese, powdered sugar, butter and vanilla extract until smooth.\nCarefully unroll cake; remove towel.\nSpread cream cheese mixture over cake. Reroll cake.\nWrap in plastic wrap and refrigerate at least one hour.',
+            'Preheat oven to 350°F. Spray two 8x4-inch loaf pans with Pillsbury® Baking Spray with Flour.\nIn a medium bowl, sift together the flour, cocoa, salt, baking soda, baking powder and cinnamon.\nIn a large bowl with an electric mixer, mix the coconut oil and sugars until combined. Mix in the sour cream. Add in the eggs and vanilla and mix until thoroughly incorporated.\nSlowly add dry ingredients to wet ingredients and mix until just combined.\nAdd in the zucchini and mix for about 1 minute, or until the batter is moistened and the zucchini is evenly incorporated into the batter. Stir in the chocolate chips and shredded coconut.\nSpread the batter into the prepared pans and bake in preheated oven for 55-60 minutes, or until a toothpick inserted into the center comes out clean.\nCool bread in pan for 1/2 hour. Remove bread to a wire rack to cool completely.',
             self.harvester_class.instructions()
         )
