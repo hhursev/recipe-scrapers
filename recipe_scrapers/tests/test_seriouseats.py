@@ -38,6 +38,12 @@ class TestSeriousEats(unittest.TestCase):
             self.harvester_class.yields()
         )
 
+    def test_image(self):
+        self.assertEqual(
+            'https://www.seriouseats.com/recipes/images/2015/07/20150727-horseradish-vicky-wasik-14-1500x1125.jpg',
+            self.harvester_class.image()
+        )
+
     def test_ingredients(self):
         self.assertCountEqual(
             [

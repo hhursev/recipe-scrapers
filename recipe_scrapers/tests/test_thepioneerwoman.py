@@ -38,6 +38,12 @@ class TestThePioneerWomanScraper(unittest.TestCase):
             self.harvester_class.yields()
         )
 
+    def test_image(self):
+        self.assertEqual(
+            'https://pioneerwoman.files.wordpress.com/2012/08/pattymelt2.jpg',
+            self.harvester_class.image()
+        )
+
     def test_ingredients(self):
         self.assertCountEqual(
             [

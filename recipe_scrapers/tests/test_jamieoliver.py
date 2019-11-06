@@ -38,6 +38,12 @@ class TestJamieOliverScraper(unittest.TestCase):
             self.harvester_class.yields()
         )
 
+    def test_image(self):
+        self.assertEqual(
+            'jamieoliver_files/88_1_1441269331.jpg',
+            self.harvester_class.image()
+        )
+
     def test_ingredients(self):
         self.assertCountEqual(
             [

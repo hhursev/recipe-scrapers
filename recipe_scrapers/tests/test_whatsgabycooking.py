@@ -32,6 +32,12 @@ class TestWhatsGabyCookingScraper(unittest.TestCase):
             self.harvester_class.total_time()
         )
 
+    def test_image(self):
+        self.assertEqual(
+            'http://whatsgabycooking.com/wp-content/uploads/strawberrylemonade-copy.jpg',
+            self.harvester_class.image()
+        )
+
     def test_ingredients(self):
         self.assertCountEqual(
             [
