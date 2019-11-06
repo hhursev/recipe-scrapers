@@ -67,6 +67,7 @@ Scrapers available for:
 - `https://www.hellofresh.co.uk/ <https://www.hellofresh.co.uk>`_
 - `https://inspiralized.com/ <https://inspiralized.com>`_
 - `http://jamieoliver.com/ <http://www.jamieoliver.com>`_
+- `https://www.thekitchn.com/ <https://www.thekitchn.com/>`_
 - `http://mybakingaddiction.com/ <http://mybakingaddiction.com>`_
 - `http://paninihappy.com/ <http://paninihappy.com>`_
 - `http://realsimple.com/ <http://www.realsimple.com>`_
