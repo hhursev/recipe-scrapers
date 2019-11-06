@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import get_minutes, normalize_string, get_yields
 
 
 class HundredAndOneCookbooks(AbstractScraper):
@@ -12,13 +12,16 @@ class HundredAndOneCookbooks(AbstractScraper):
         return self.soup.find('h1').get_text()
 
     def total_time(self):
-        return get_minutes(self.soup.find(
-            'span',
-            {'class': 'preptime'})
+        return get_minutes(self.soup.findAll(
+            'div',
+            {'class': 'wprm-recipe-time'})[-1].get_text()
         )
 
     def yields(self):
-        return ""
+        return get_yields(self.soup.findAll(
+            'div',
+            {'class': 'wprm-recipe-time'})[0].get_text()
+        )
 
     def image(self):
         image = self.soup.find(
@@ -28,17 +31,21 @@ class HundredAndOneCookbooks(AbstractScraper):
         return image['content'] if image else None
 
     def ingredients(self):
-        ingredients = self.soup.find(
-            'div',
-            {'id': 'recipe'}
-        ).find('blockquote').find('p')
-        return ingredients.get_text().split('\n')
+        ingredients = self.soup.findAll(
+            'li',
+            {'class': 'wprm-recipe-ingredient'}
+        )
+
+        return [
+            normalize_string(ingredient.get_text())
+            for ingredient in ingredients
+        ]
 
     def instructions(self):
-        instructions = self.soup.find(
-            'div',
-            {'id': 'recipe'}
-        ).find('blockquote').find_next_siblings()
+        instructions = self.soup.findAll(
+            'li',
+            {'class': 'wprm-recipe-instruction'}
+        )
 
         return '\n'.join([
             normalize_string(instruction.get_text())

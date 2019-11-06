@@ -23,46 +23,44 @@ class TestHundredAndOneCookbooksScraper(unittest.TestCase):
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            "Nikki's Healthy Cookies Recipe"
+            "Blood Orange Gin Sparkler"
         )
 
     def test_total_time(self):
         self.assertEqual(
-            0,
+            15,
             self.harvester_class.total_time()
         )
 
     def test_yields(self):
         self.assertEqual(
-            "",
+            "1 serving(s)",
             self.harvester_class.yields()
         )
 
     def test_image(self):
         self.assertEqual(
-            'http://www.101cookbooks.com/mt-static/images/food/healthy_cookies.jpg',
+            'https://images.101cookbooks.com/gin_sparkler.jpg?w=680',
             self.harvester_class.image()
         )
 
     def test_ingredients(self):
         self.assertCountEqual(
             [
-                '3 large, ripe bananas,  well mashed (about 1 1/2 cups)',
-                '1 teaspoon vanilla extract',
-                "1/4 cup coconut oil, barely warm - so it isn't solid (or alternately, olive oil)",
-                '2 cups rolled oats',
-                '2/3 cup almond meal',
-                '1/3 cup coconut, finely shredded & unsweetened',
-                '1/2 teaspoon cinnamon',
-                '1/2 teaspoon fine grain sea salt',
-                '1 teaspoon baking powder',
-                '6 - 7 ounces chocolate chips or dark chocolate bar chopped'
+                '2 cups / 480 ml water',
+                '1 cup / 6.5 oz / 185 g sugar',
+                '4 tablespoons (~2 sprigs-worth) fresh rosemary leaves',
+                '1 bay leaf (optional)',
+                'blood oranges',
+                'gin',
+                'ice cubes',
+                'tonic water (or sparkling water)'
             ],
             self.harvester_class.ingredients()
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            "Preheat oven to 350 degrees, racks in the top third.\nIn a large bowl combine the bananas, vanilla extract, and coconut oil. Set aside. In another bowl whisk together the oats, almond meal, shredded coconut, cinnamon, salt, and baking powder. Add the dry ingredients to the wet ingredients and stir until combined. Fold in the chocolate chunks/chips.The dough is a bit looser than a standard cookie dough, don't worry about it. Drop dollops of the dough, each about 2 teaspoons in size, an inch apart, onto a parchment (or Silpat) lined baking sheet. Bake for 12 - 14 minutes. I baked these as long as possible without burning the bottoms and they were perfect - just shy of 15 minutes seems to be about right in my oven.\nMakes about 3 dozen bite-sized cookies.\nPrint Recipe",
+            "Combine the water, sugar, rosemary, and bay in a small saucepan over medium heat. Bring to a simmer for 3-5 minutes, or long enough for the sugar to dissolve, stirring occasionally. Remove from the heat and let infuse for 10 minutes. Strain into a jar to cool completely.\nIn the meantime, juice and strain your oranges, you'll need 3 tablespoons / 1.5 ounces of juice for each drink.\nTo make each drink you're going to combine equal parts gin, juice, and tonic water with a bit of syrup and ice. So, its 3 tablespoons / 1 1/2 oz gin, 3 tablespoons / 1 1/2 oz freshly squeezed blood orange juice, and 1-2 teaspoons of the rosemary syrup in each tall glass (I used kolsch glasses here). Stir to combine, fill each glass 2/3 full with ice and top off with 3 tablespoons / 1 1/2 oz tonic water. Stir again and you're set.",
             self.harvester_class.instructions()
         )
