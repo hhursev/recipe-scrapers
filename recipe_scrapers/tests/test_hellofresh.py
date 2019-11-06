@@ -40,7 +40,7 @@ class TestHelloFreshScraper(unittest.TestCase):
 
     def test_yields(self):
         self.assertEqual(
-            "",
+            "2 serving(s)",
             self.harvester_class.yields()
         )
 

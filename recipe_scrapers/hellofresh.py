@@ -2,7 +2,7 @@ import re
 
 
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import get_minutes, normalize_string, get_yields
 
 
 class HelloFresh(AbstractScraper):
@@ -21,7 +21,12 @@ class HelloFresh(AbstractScraper):
         ).parent.parent)
 
     def yields(self):
-        return ""
+        return get_yields(
+            self.soup.find(
+                'span',
+                {'data-translation-id': "recipe-detail.recipe-detail.serving-amount"}
+            ).parent.parent.find_all('button')[0]
+        )
 
     def ingredients(self):
         ingredients_container = self.soup.find(
