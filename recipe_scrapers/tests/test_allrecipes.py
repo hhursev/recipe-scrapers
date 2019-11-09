@@ -37,7 +37,7 @@ class TestAllRecipesScraper(unittest.TestCase):
 
     def test_image(self):
         self.assertEqual(
-            'https://images.media-allrecipes.com/userphotos/560x315/4488475.jpg',
+            'https://images.media-allrecipes.com/userphotos/560x315/694708.jpg',
             self.harvester_class.image()
         )
 

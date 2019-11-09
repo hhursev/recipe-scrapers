@@ -36,10 +36,10 @@ class AllRecipes(AbstractScraper):
 
     def yields(self):
         recipe_yield = self.soup.find(
-            'span', {'class': 'servings-count'}
+            'meta', {'itemprop': 'recipeYield'}
         )
         if recipe_yield:
-            return get_yields(recipe_yield).get("content")
+            return get_yields(recipe_yield.get("content"))
         else:
             return get_yields(self.soup.find(
                 'div',
@@ -52,7 +52,7 @@ class AllRecipes(AbstractScraper):
             {'class': "checkList__line"}
         )
 
-        if not len(ingredients):
+        if not ingredients:
             ingredients = self.soup.findAll(
                 'span',
                 {'class': 'ingredients-item-name'}
@@ -74,7 +74,7 @@ class AllRecipes(AbstractScraper):
             {'class': 'recipe-directions__list--item'}
         )
 
-        if not len(instructions):
+        if not instructions:
             instructions = self.soup.findAll(
                 'li',
                 {'class': 'instructions-section-item'}

@@ -4,7 +4,7 @@ import unittest
 from recipe_scrapers.geniuskitchen import GeniusKitchen
 
 
-class TestAllRecipesScraper(unittest.TestCase):
+class TestGeniusKitchenScraper(unittest.TestCase):
     def setUp(self):
         # tests are run from tests.py
         with open(os.path.join(
