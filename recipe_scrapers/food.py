@@ -1,3 +1,5 @@
+import json
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, normalize_string, get_yields
 
@@ -9,28 +11,25 @@ class Food(AbstractScraper):
         return 'food.com'
 
     def title(self):
-        return self.soup.find('title').get_text().replace(" Recipe - Genius Kitchen", "")
+        return self.soup.find('h1').get_text()
 
     def total_time(self):
         return get_minutes(self.soup.find(
-            'td',
-            {'class': 'time'})
+            'div',
+            {'class': 'recipe-facts__time'})
         )
 
     def yields(self):
         return get_yields(self.soup.find(
-            'td',
-            {'class': 'servings'}
-        ).find(
-            'span',
-            {'class': 'count'}
-        ))
+            'div',
+            {'class': 'recipe-facts__servings'}
+        ).get_text())
 
     def ingredients(self):
-        ingredients = self.soup.find(
-            'ul',
-            {"class": "ingredient-list"}
-        ).findAll('li')
+        ingredients = self.soup.findAll(
+            'li',
+            {"class": "recipe-ingredients__item"}
+        )
 
         return [
             normalize_string(ingredient.get_text())
@@ -38,23 +37,20 @@ class Food(AbstractScraper):
         ]
 
     def instructions(self):
-        raw_directions = self.soup.find(
-            'div',
-            {"class": "directions-inner container-xs"}
-        ).find('ol').findAll('li')
+        instructions = self.soup.findAll(
+            'li',
+            {"class": "recipe-directions__step"}
+        )
 
-        directions = []
-
-        for direction in raw_directions:
-            if("Submit a Correction" not in direction.get_text()):
-                directions.append(normalize_string(direction.get_text()))
-
-        return '\n'.join(directions)
+        return '\n'.join([
+            instruction.get_text()
+            for instruction in instructions
+        ])
 
     def ratings(self):
-        rating = self.soup.find(
-            'span',
-            {"class": "sr-only"}
-        ).get_text()
-
-        return round(float(rating), 2)
+        return round(float(json.loads(
+            self.soup.find(
+                'script',
+                {'type': 'application/ld+json'}
+            ).get_text()
+        ).get('aggregateRating').get('ratingValue')), 2)

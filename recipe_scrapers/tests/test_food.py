@@ -23,38 +23,41 @@ class TestFoodScraper(unittest.TestCase):
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            'Quiche Lorraine Cups'
+            'Chicken Noodle Soup With Carrots, Parsnips and Dill'
         )
 
     def test_total_time(self):
         self.assertEqual(
-            40,
+            45,
             self.harvester_class.total_time()
         )
 
     def test_yields(self):
         self.assertEqual(
-            "6 serving(s)",
+            "4 serving(s)",
             self.harvester_class.yields()
         )
 
     def test_ingredients(self):
         self.assertCountEqual(
             [
-                '12 cooked crepes (, see All Purpose Dinner Crepes Batter)',
-                '4 slices bacon, cooked crisp &,crumbled',
-                '1 cup swiss cheese, grated',
-                '2 tablespoons flour',
-                '1⁄4 teaspoon salt',
-                '2 eggs',
-                '1 cup milk'
+                '8 cups low sodium chicken broth',
+                '1 onion, chopped',
+                '4 carrots, halved lengthwise and cut crosswise into 1-inch pieces',
+                '4 parsnips, halved lengthwise and cut crosswise into 1-inch pieces',
+                '1 1⁄2 teaspoons salt',
+                '1⁄4 teaspoon fresh ground black pepper',
+                '1 split chicken breast',
+                '1 cup noodles (about 2 ounces)',
+                '1⁄4 cup chopped fresh dill',
+                '1⁄4 cup chopped fresh parsley'
             ],
             self.harvester_class.ingredients()
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            'Lightly grease a 12 muffin pan or 12 custard cups.\nLine each with a crepe, fluting them.\nSprinkle bacon into the crepes.\nDivide the cheese between the crepes.\nMix together the flour, salt.\nMix the beaten eggs and milk, add to the flour.\nBlend well and pour into the crepes on top of the cheese.\nBake in 350F oven for 15-20 minutes or until firm.\nCool 5 minutes before removing from pan.',
+            'In a large pot, combine the broth, onion, carrots, parsnips, salt, and pepper and bring to a simmer. Add the chicken breasts to the pot and simmer until jfor about 20 minutes, until cooked. Remove the chicken and let rest.  When cool enough to handle, remove skin and bones and chop or shred intobite-size pieces.\nWhile chicken is cooling, bring the soup back to a simmer and stir the noodles into the soup. Simmer until the vegetables are tender and the noodles are done, about 5 minutes. Return the chicken pieces to the pot and then stir in the dill and the parsley.',
             self.harvester_class.instructions()
         )
 
