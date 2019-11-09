@@ -6,8 +6,8 @@ python:
   - "3.5"
   - "3.6"
   - "3.7"
-  - "3.8-dev"  # 3.8 development branch
-  - "nightly"  # nightly build
+  - "3.8-dev"
+  - "nightly"
 
 install:
   - pip install -r requirements.txt
@@ -18,3 +18,11 @@ script:
 
 after_success:
   - coveralls
+
+deploy:
+  provider: pypi
+  user: "__token__"
+  password:
+    secure: f4kmppD5o/IwbbgO3B5h6UI2TeMxTDpNSu53eUuzJzXeD1ebiaVl9pX/uD46BVFqAdGbBhDkHOBwDoaTW+R4WiQhFDcVHcyjqHi4sYfG2RE1a0/4VPr+ZkSQEUFxOB6zt7tL7lNDBDsblNB2zi+w39K7HYboty3seYQPZ9b9bpRX9onYXZLJHKMXSPebywjr5e7ttaVOhW/oANRNTpv80lz3twd8LFdifBf4i8cTXoYhuUca7bXub06VwrYvk957BnwqSrV6tseQLBOuXTSVfdURCXFrO30mBgp3HDX2bxgldpdOZX/hIXb+OPLWsliEbVGuUqtnVuED+sE/+ty3wvIPwAeMozcpS6u9TjHP2/i/py1jOdl5Y0bdQzqTHl2ZEV9wwDTCMrGaFCiwdwFKnSc0XW5E6M/sH2IysueaXXAO0ChWfURcxLLn4XrR69Bg9r85ty7GLGTdRKhGYgiy2s1bVcVwGUQkjrNaqSzQNWdesWxhqm3qDeHbEn916+nGuwOZ3D5euE1fu3Ad9GkyaaYqOegnhBAAmSuJfH+CPOk3UDzsmeV+jfkRS3pqHAQy43C5raFPCHr1DdxzI5doYPe/gelYV/sVENXAa5wPBiTXcmdhSjWBCUVQ83xxe+3LeeqC7YVtT75HJj4WL+EMkQ3b0XlXaCO9fznJsrbCDRs=
+  on:
+    tags: true
