@@ -1,12 +1,8 @@
-import re
-
-
 from ._abstract import AbstractScraper
 from ._utils import normalize_string, get_yields
 
 
 class Epicurious(AbstractScraper):
-    fork_rating_re = re.compile('/(\d)_forks.png')
 
     @classmethod
     def host(self):
@@ -56,6 +52,9 @@ class Epicurious(AbstractScraper):
         return rating
 
     def reviews(self):
+        import re
+        fork_rating_re = re.compile('/(\d)_forks.png')
+
         reviews = self.soup.findAll('', {'class': "most-recent"})
         ratings = [rev.find('img', {'class': "fork-rating"}) for rev in reviews]
         temp = []
@@ -64,13 +63,15 @@ class Epicurious(AbstractScraper):
                 txt = rating.attrs['src']
             else:
                 txt = ''
-            rating = self.fork_rating_re.search(txt)
+            rating = fork_rating_re.search(txt)
             rating = rating.group(1) if rating is not None else '0'
             rating = int(rating) if rating != '0' else None
             temp.append(rating)
         ratings = temp
         review_texts = [rev.find('div', {'class': "review-text"}) for rev in reviews]
         reviews = [rev.get_text().strip('/ flag if inappropriate') for rev in review_texts]
-        result = [{'review_text': rt, "rating": rating}
-                  for rt, rating in zip(reviews, ratings)]
+        result = [
+            {'review_text': review_text, "rating": rating_score}
+            for review_text, rating_score in zip(reviews, ratings)
+        ]
         return result
