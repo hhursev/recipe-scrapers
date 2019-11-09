@@ -40,7 +40,7 @@ class TestBBCGoodFoodScraper(unittest.TestCase):
 
     def test_image(self):
         self.assertEqual(
-            '//www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--405483_12.jpg?itok=y0VkmKq3',
+            'https://www.bbcgoodfood.com/sites/default/files/recipe_images/recipe-image-legacy-id--405483_12.jpg',
             self.harvester_class.image()
         )
 

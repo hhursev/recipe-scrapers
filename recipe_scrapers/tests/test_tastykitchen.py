@@ -40,7 +40,7 @@ class TestTastyKitchenScraper(unittest.TestCase):
 
     def test_image(self):
         self.assertEqual(
-            'tasty_kitchen_files/Cheddar-and-Garlic-Scape-Biscuits-by-Superman-Cooks-410x273.jpg',
+            'http://tastykitchen.com/recipes/wp-content/uploads/sites/2/2015/08/Cheddar-and-Garlic-Scape-Biscuits-by-Superman-Cooks-410x273.jpg',
             self.harvester_class.image()
         )
 

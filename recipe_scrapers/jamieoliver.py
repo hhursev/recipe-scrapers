@@ -23,20 +23,6 @@ class JamieOliver(AbstractScraper):
             {'class': 'recipe-detail serves'})
         )
 
-    def image(self):
-        container = self.soup.find(
-            'div',
-            {'class': 'recipe-header-left'}
-        )
-        if not container:
-            return None
-
-        image = container.find(
-            'img',
-            {'src': True}
-        )
-        return image['src'] if image else None
-
     def ingredients(self):
         ingredients = self.soup.find(
             'ul',

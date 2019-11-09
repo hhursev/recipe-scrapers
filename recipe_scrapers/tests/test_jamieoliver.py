@@ -40,7 +40,7 @@ class TestJamieOliverScraper(unittest.TestCase):
 
     def test_image(self):
         self.assertEqual(
-            'jamieoliver_files/88_1_1441269331.jpg',
+            'http://cdn.jamieoliver.com/_beta/images/jamie_fb-share_3.jpg',
             self.harvester_class.image()
         )
 

@@ -23,13 +23,6 @@ class SteamyKitchen(AbstractScraper):
     def yields(self):
         return get_yields(self.soup.find('span', itemprop='recipeYield'))
 
-    def image(self):
-        image = self.soup.find(
-            'img',
-            {'itemprop': 'image', 'src': True}
-        )
-        return image['src'] if image else None
-
     def ingredients(self):
         ingredients = self.soup.findAll(
             'span',
