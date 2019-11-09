@@ -58,6 +58,7 @@ Scrapers available for:
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `http://epicurious.com/ <http://epicurious.com>`_
 - `http://finedininglovers.com/ <https://www.finedininglovers.com>`_
+- `https://food.com/ <https://www.food.com>`_
 - `http://foodnetwork.com/ <http://www.foodnetwork.co>`_
 - `http://foodrepublic.com/ <http://foodrepublic.co>`_
 - `https://geniuskitchen.com/ <https://geniuskitchen.com>`_
