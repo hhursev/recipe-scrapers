@@ -85,19 +85,7 @@ class AbstractScraper():
         raise NotImplementedError("This should be implemented.")
 
     def image(self):
-        """
-        Image of the recipe
-
-        Try to fetch it from og:image if not implemented.
-        """
-        try:
-            image = self.soup.find(
-                'meta',
-                {'property': 'og:image', 'content': True}
-            )
-            return image.get('content')
-        except AttributeError:  # if image not found
-            raise NotImplementedError("This should be implemented.")
+        raise NotImplementedError("This should be implemented.")
 
     def ingredients(self):
         raise NotImplementedError("This should be implemented.")

@@ -53,3 +53,11 @@ class TwoPeasAndTheirPod(AbstractScraper):
             normalize_string(instruction.get_text())
             for instruction in instructions
         ])
+
+    def image(self):
+        image = self.soup.find(
+            'div',
+            {'class': 'wprm-recipe-image'}
+        ).find('img')
+
+        return image['src'] if image else None

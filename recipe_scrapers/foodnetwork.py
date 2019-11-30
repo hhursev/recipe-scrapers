@@ -19,12 +19,17 @@ class FoodNetwork(AbstractScraper):
 
     def yields(self):
         return get_yields(self.soup.find(
-            'ul',
-            {'class': 'o-RecipeInfo__m-Yield'}
-        ).find(
-            'span',
-            {'class': 'o-RecipeInfo__a-Description'}
-        ))
+                'ul',
+                {'class': 'o-RecipeInfo__m-Yield'}
+            ).find('span', {'class': 'o-RecipeInfo__a-Description'})
+                          )
+
+    def image(self):
+        image = self.soup.find(
+            'meta',
+            {'property': 'og:image', 'content': True}
+        )
+        return image['content'] if image else None
 
     def ingredients(self):
         ingredients = self.soup.findAll(

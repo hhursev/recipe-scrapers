@@ -40,7 +40,7 @@ class TestEpicurious(unittest.TestCase):
 
     def test_image(self):
         self.assertEqual(
-            'https://assets.epicurious.com/photos/568194b8fb9544f72b678fd4/2:1/w_1260%2Ch_630/Ramen-Noodle-Bowl-With-Escarole.jpg',
+            'https://assets.epicurious.com/photos/568194b8fb9544f72b678fd4/6:4/w_274%2Ch_169/Ramen-Noodle-Bowl-With-Escarole.jpg',
             self.harvester_class.image()
         )
 
