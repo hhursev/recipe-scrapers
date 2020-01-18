@@ -28,6 +28,7 @@ from recipe_scrapers.tests.test_steamykitchen import *
 from recipe_scrapers.tests.test_tastesoflizzyt import *
 from recipe_scrapers.tests.test_tastykitchen import *
 from recipe_scrapers.tests.test_thepioneerwoman import *
+from recipe_scrapers.tests.test_thespruceeats import *
 from recipe_scrapers.tests.test_thehappyfoodie import *
 from recipe_scrapers.tests.test_thevintagemixer import *
 from recipe_scrapers.tests.test_twopeasandtheirpod import *
