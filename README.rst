@@ -78,6 +78,7 @@ Scrapers available for:
 - `https://www.tastesoflizzyt.com <https://www.tastesoflizzyt.com>`_
 - `http://tastykitchen.com/ <http://tastykitchen.com>`_
 - `http://thepioneerwoman.com/ <http://thepioneerwoman.com>`_
+- `https://www.thespruceeats.com/ <https://www.thespruceeats.com/>`_
 - `http://thehappyfoodie.co.uk/ <http://thehappyfoodie.co.uk>`_
 - `http://thevintagemixer.com/ <http://www.thevintagemixer.com>`_
 - `http://twopeasandtheirpod.com/ <http://twopeasandtheirpod.com>`_
