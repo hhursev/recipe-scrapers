@@ -17,7 +17,7 @@ from .hundredandonecookbooks import HundredAndOneCookbooks
 from .inspiralized import Inspiralized
 from .jamieoliver import JamieOliver
 from .kitchn import Kitchn
-from .matprat import Matpratfrom .matprat import Matprat
+from .matprat import Matprat
 from .mybakingaddiction import MyBakingAddiction
 from .nihhealthyeating import NIHHealthyEating
 from .paninihappy import PaniniHappy
