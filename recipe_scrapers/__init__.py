@@ -3,6 +3,7 @@ import re
 from .allrecipes import AllRecipes
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
+from .bettycrocker import BettyCrocker
 from .bonappetit import BonAppetit
 from .budgetbytes import BudgetBytes
 from .closetcooking import ClosetCooking
@@ -41,6 +42,7 @@ SCRAPERS = {
     BBCFood.host(): BBCFood,
     BBCFood.host(domain='co.uk'): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
+    BettyCrocker.host(): BettyCrocker,
     BonAppetit.host(): BonAppetit,
     BudgetBytes.host(): BudgetBytes,
     ClosetCooking.host(): ClosetCooking,

@@ -51,6 +51,7 @@ Scrapers available for:
 - `http://bbc.com/ <http://bbc.com/food/recipes>`_
 - `http://bbc.co.uk/ <http://bbc.co.uk/food/recipes>`_
 - `http://bbcgoodfood.com/ <http://bbcgoodfood.com>`_
+- `http://bettycrocker.com/ <http://bettycrocker.com>`_
 - `http://bonappetit.com/ <http://bonappetit.com>`_
 - `https://www.budgetbytes.com/ <https://www.budgetbytes.com>`_
 - `http://closetcooking.com/ <http://closetcooking.com>`_
