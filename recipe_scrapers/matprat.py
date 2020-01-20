@@ -9,7 +9,7 @@ class Matprat(AbstractScraper):
         return 'matprat.no'
 
     def title(self):
-        return self.soup.find('h1').get_text().strip()
+        return self.soup.find('h1').get_text()
 
     def total_time(self):
         total_time = 0
@@ -31,7 +31,7 @@ class Matprat(AbstractScraper):
             'input', {'id': "portionsInput"}
         )
         if recipe_yield:
-            return str(recipe_yield['value']) + " serving(s)"
+            return recipe_yield['value']
         else:
             return get_yields(self.soup.find(
                 'div',
@@ -68,7 +68,8 @@ class Matprat(AbstractScraper):
                 ilist.append(normalize_string(i.get_text()))
             if cntr <= (len(sections)-1):
                 if len(sections[cntr].text) > 0:
-                    txt = f'--- {sections[cntr].text} ---'
+                    # txt = f'--- {sections[cntr].text} ---'
+                    txt = '--- {0} ---'.format(sections[cntr].text)
                     ilist.append(txt)
             cntr += 1
         return ilist
@@ -90,8 +91,8 @@ class Matprat(AbstractScraper):
             {'data-bind': 'text: numberOfVotes'}
         )
         if r:
-            r1 = int(normalize_string(r.get_text()))
-        
+            r1 = normalize_string(r.get_text())
+
         return r1 if r1 else None
 
     def description(self):
