@@ -4,7 +4,7 @@ import unittest
 from recipe_scrapers.bettycrocker import BettyCrocker
 
 
-class TestAllRecipesScraper(unittest.TestCase):
+class TestBettyCrocker(unittest.TestCase):
     def setUp(self):
         # tests are run from tests.py
         with open(os.path.join(
