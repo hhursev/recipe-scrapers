@@ -70,6 +70,7 @@ Scrapers available for:
 - `https://inspiralized.com/ <https://inspiralized.com>`_
 - `http://jamieoliver.com/ <http://www.jamieoliver.com>`_
 - `https://www.thekitchn.com/ <https://www.thekitchn.com/>`_
+- `https://www.matprat.no/ <https://www.matprat.no/>`_
 - `http://mybakingaddiction.com/ <http://mybakingaddiction.com>`_
 - `http://paninihappy.com/ <http://paninihappy.com>`_
 - `http://realsimple.com/ <http://www.realsimple.com>`_

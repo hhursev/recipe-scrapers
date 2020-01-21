@@ -18,6 +18,7 @@ from .hundredandonecookbooks import HundredAndOneCookbooks
 from .inspiralized import Inspiralized
 from .jamieoliver import JamieOliver
 from .kitchn import Kitchn
+from .matprat import Matprat
 from .mybakingaddiction import MyBakingAddiction
 from .nihhealthyeating import NIHHealthyEating
 from .paninihappy import PaniniHappy
@@ -58,6 +59,7 @@ SCRAPERS = {
     Inspiralized.host(): Inspiralized,
     JamieOliver.host(): JamieOliver,
     Kitchn.host(): Kitchn,
+    Matprat.host(): Matprat,
     MyBakingAddiction.host(): MyBakingAddiction,
     NIHHealthyEating.host(): NIHHealthyEating,
     PaniniHappy.host(): PaniniHappy,
