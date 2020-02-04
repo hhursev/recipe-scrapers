@@ -72,6 +72,7 @@ Scrapers available for:
 - `https://www.thekitchn.com/ <https://www.thekitchn.com/>`_
 - `https://www.matprat.no/ <https://www.matprat.no/>`_
 - `http://mybakingaddiction.com/ <http://mybakingaddiction.com>`_
+- `https://panelinha.com.br/ <https://panelinha.com.br>`_
 - `http://paninihappy.com/ <http://paninihappy.com>`_
 - `http://realsimple.com/ <http://www.realsimple.com>`_
 - `https://www.seriouseats.com/ <https://www.seriouseats.com>`_

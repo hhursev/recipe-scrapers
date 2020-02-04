@@ -21,6 +21,7 @@ from .kitchn import Kitchn
 from .matprat import Matprat
 from .mybakingaddiction import MyBakingAddiction
 from .nihhealthyeating import NIHHealthyEating
+from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
 from .realsimple import RealSimple
 from .seriouseats import SeriousEats
@@ -62,6 +63,7 @@ SCRAPERS = {
     Matprat.host(): Matprat,
     MyBakingAddiction.host(): MyBakingAddiction,
     NIHHealthyEating.host(): NIHHealthyEating,
+    Panelinha.host(): Panelinha,
     PaniniHappy.host(): PaniniHappy,
     RealSimple.host(): RealSimple,
     SeriousEats.host(): SeriousEats,

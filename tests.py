@@ -22,6 +22,7 @@ from recipe_scrapers.tests.test_matprat import *
 from recipe_scrapers.tests.test_mybakingaddiction import *
 from recipe_scrapers.tests.test_nihhealthyeating import *
 from recipe_scrapers.tests.test_notimplemented import *
+from recipe_scrapers.tests.test_panelinha import *
 from recipe_scrapers.tests.test_paninihappy import *
 from recipe_scrapers.tests.test_realsimple import *
 from recipe_scrapers.tests.test_seriouseats import *
