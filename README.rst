@@ -81,6 +81,7 @@ Scrapers available for:
 - `https://www.thespruceeats.com/ <https://www.thespruceeats.com/>`_
 - `http://thehappyfoodie.co.uk/ <http://thehappyfoodie.co.uk>`_
 - `http://thevintagemixer.com/ <http://www.thevintagemixer.com>`_
+- `http://tine.no/ <http://tine.no>`_
 - `http://twopeasandtheirpod.com/ <http://twopeasandtheirpod.com>`_
 - `http://whatsgabycooking.com/ <http://whatsgabycooking.com>`_
 - `http://yummly.com/ <http://yummly.com>`_
