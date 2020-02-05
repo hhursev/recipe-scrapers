@@ -34,11 +34,3 @@ class Panelinha(AbstractScraper):
 
     def yields(self):
         return normalize_string(self.soup.find('span', string="Serve").nextSibling.get_text())
-
-    def reviews(self):
-        pass
-
-    def ratings(self):
-        return 0
-
-

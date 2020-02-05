@@ -85,18 +85,14 @@ class Matprat(AbstractScraper):
                           ])
 
     def ratings(self):
-        r1 = 0
         r = self.soup.find(
             'span',
             {'data-bind': 'text: numberOfVotes'}
         )
-        if r:
-            r1 = int(normalize_string(r.get_text()))
-
-        return r1 if r1 else None
+        return int(normalize_string(r.get_text()))
 
     def description(self):
-        d = normalize_string(self.soup.find(
+        return normalize_string(self.soup.find(
             'div',
-            {'class': 'article-intro'}).text)
-        return d if d else None
+            {'class': 'article-intro'}).text
+        )
