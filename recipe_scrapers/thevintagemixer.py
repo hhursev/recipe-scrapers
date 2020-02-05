@@ -19,9 +19,6 @@ class TheVintageMixer(AbstractScraper):
             'span', {'class': 'wprm-recipe-total_time-minutes'}).parent
         )
 
-    def yields(self):
-        return ""
-
     def image(self):
         container = self.soup.find(
             'div',

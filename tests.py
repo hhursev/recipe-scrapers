@@ -2,6 +2,7 @@ from recipe_scrapers.tests.test_allrecipes import *
 from recipe_scrapers.tests.test_allrecipes_fallback_format import *
 from recipe_scrapers.tests.test_bbcfood import *
 from recipe_scrapers.tests.test_bbcgoodfood import *
+from recipe_scrapers.tests.test_bettycrocker import *
 from recipe_scrapers.tests.test_bonappetit import *
 from recipe_scrapers.tests.test_budgetbytes import *
 from recipe_scrapers.tests.test_closetcooking import *
@@ -17,9 +18,11 @@ from recipe_scrapers.tests.test_hundredandonecookbooks import *
 from recipe_scrapers.tests.test_inspiralized import *
 from recipe_scrapers.tests.test_jamieoliver import *
 from recipe_scrapers.tests.test_kitchn import *
+from recipe_scrapers.tests.test_matprat import *
 from recipe_scrapers.tests.test_mybakingaddiction import *
 from recipe_scrapers.tests.test_nihhealthyeating import *
 from recipe_scrapers.tests.test_notimplemented import *
+from recipe_scrapers.tests.test_panelinha import *
 from recipe_scrapers.tests.test_paninihappy import *
 from recipe_scrapers.tests.test_realsimple import *
 from recipe_scrapers.tests.test_seriouseats import *

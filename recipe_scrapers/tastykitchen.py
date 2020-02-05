@@ -34,7 +34,7 @@ class TastyKitchen(AbstractScraper):
         )
 
     def image(self):
-        image =  self.soup.find(
+        image = self.soup.find(
             'img',
             {'class': 'the_recipe_image', 'src': True}
         )

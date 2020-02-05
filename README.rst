@@ -51,6 +51,7 @@ Scrapers available for:
 - `http://bbc.com/ <http://bbc.com/food/recipes>`_
 - `http://bbc.co.uk/ <http://bbc.co.uk/food/recipes>`_
 - `http://bbcgoodfood.com/ <http://bbcgoodfood.com>`_
+- `http://bettycrocker.com/ <http://bettycrocker.com>`_
 - `http://bonappetit.com/ <http://bonappetit.com>`_
 - `https://www.budgetbytes.com/ <https://www.budgetbytes.com>`_
 - `http://closetcooking.com/ <http://closetcooking.com>`_
@@ -69,7 +70,9 @@ Scrapers available for:
 - `https://inspiralized.com/ <https://inspiralized.com>`_
 - `http://jamieoliver.com/ <http://www.jamieoliver.com>`_
 - `https://www.thekitchn.com/ <https://www.thekitchn.com/>`_
+- `https://www.matprat.no/ <https://www.matprat.no/>`_
 - `http://mybakingaddiction.com/ <http://mybakingaddiction.com>`_
+- `https://panelinha.com.br/ <https://panelinha.com.br>`_
 - `http://paninihappy.com/ <http://paninihappy.com>`_
 - `http://realsimple.com/ <http://www.realsimple.com>`_
 - `https://www.seriouseats.com/ <https://www.seriouseats.com>`_

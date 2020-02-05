@@ -3,6 +3,7 @@ import re
 from .allrecipes import AllRecipes
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
+from .bettycrocker import BettyCrocker
 from .bonappetit import BonAppetit
 from .budgetbytes import BudgetBytes
 from .closetcooking import ClosetCooking
@@ -17,8 +18,10 @@ from .hundredandonecookbooks import HundredAndOneCookbooks
 from .inspiralized import Inspiralized
 from .jamieoliver import JamieOliver
 from .kitchn import Kitchn
+from .matprat import Matprat
 from .mybakingaddiction import MyBakingAddiction
 from .nihhealthyeating import NIHHealthyEating
+from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
 from .realsimple import RealSimple
 from .seriouseats import SeriousEats
@@ -42,6 +45,7 @@ SCRAPERS = {
     BBCFood.host(): BBCFood,
     BBCFood.host(domain='co.uk'): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
+    BettyCrocker.host(): BettyCrocker,
     BonAppetit.host(): BonAppetit,
     BudgetBytes.host(): BudgetBytes,
     ClosetCooking.host(): ClosetCooking,
@@ -57,8 +61,10 @@ SCRAPERS = {
     Inspiralized.host(): Inspiralized,
     JamieOliver.host(): JamieOliver,
     Kitchn.host(): Kitchn,
+    Matprat.host(): Matprat,
     MyBakingAddiction.host(): MyBakingAddiction,
     NIHHealthyEating.host(): NIHHealthyEating,
+    Panelinha.host(): Panelinha,
     PaniniHappy.host(): PaniniHappy,
     RealSimple.host(): RealSimple,
     SeriousEats.host(): SeriousEats,
