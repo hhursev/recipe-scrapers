@@ -8,6 +8,7 @@ from .bonappetit import BonAppetit
 from .budgetbytes import BudgetBytes
 from .closetcooking import ClosetCooking
 from .cookstr import Cookstr
+from .copykat import CopyKat
 from .epicurious import Epicurious
 from .finedininglovers import FineDiningLovers
 from .foodnetwork import FoodNetwork
@@ -50,6 +51,7 @@ SCRAPERS = {
     BudgetBytes.host(): BudgetBytes,
     ClosetCooking.host(): ClosetCooking,
     Cookstr.host(): Cookstr,
+    CopyKat.host(): CopyKat,
     Epicurious.host(): Epicurious,
     FineDiningLovers.host(): FineDiningLovers,
     FoodNetwork.host(): FoodNetwork,

@@ -7,6 +7,7 @@ from recipe_scrapers.tests.test_bonappetit import *
 from recipe_scrapers.tests.test_budgetbytes import *
 from recipe_scrapers.tests.test_closetcooking import *
 from recipe_scrapers.tests.test_cookstr import *
+from recipe_scrapers.tests.test_copykat import *
 from recipe_scrapers.tests.test_epicurious import *
 from recipe_scrapers.tests.test_finedininglovers import *
 from recipe_scrapers.tests.test_food import *
