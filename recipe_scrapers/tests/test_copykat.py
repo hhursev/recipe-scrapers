@@ -17,7 +17,7 @@ class TestCopyKat(unittest.TestCase):
 
     def test_host(self):
         self.assertEqual(
-            'copyKat.com',
+            'copykat.com',
             self.harvester_class.host()
         )
 
@@ -29,7 +29,7 @@ class TestCopyKat(unittest.TestCase):
 
     def test_total_time(self):
         self.assertEqual(
-            40,
+            '40',
             self.harvester_class.total_time()
         )
 
