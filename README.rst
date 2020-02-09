@@ -64,6 +64,7 @@ Scrapers available for:
 - `http://foodnetwork.com/ <http://www.foodnetwork.com>`_
 - `http://foodrepublic.com/ <http://foodrepublic.com>`_
 - `https://geniuskitchen.com/ <https://geniuskitchen.com>`_
+- `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
 - `http://giallozafferano.it/ <http://giallozafferano.it>`_
 - `https://healthyeating.nhlbi.nih.gov/ <https://healthyeating.nhlbi.nih.gov>`_
 - `https://heinzbrasil.com.br/ <https://heinzbrasil.com.br>`_
