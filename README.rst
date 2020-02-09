@@ -56,6 +56,7 @@ Scrapers available for:
 - `https://www.budgetbytes.com/ <https://www.budgetbytes.com>`_
 - `http://closetcooking.com/ <http://closetcooking.com>`_
 - `http://cookstr.com/ <http://cookstr.com>`_
+- `http://copykat.com/ <http://copykat.com>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `http://epicurious.com/ <http://epicurious.com>`_
 - `http://finedininglovers.com/ <https://www.finedininglovers.com>`_
@@ -66,8 +67,10 @@ Scrapers available for:
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
 - `http://giallozafferano.it/ <http://giallozafferano.it>`_
 - `https://healthyeating.nhlbi.nih.gov/ <https://healthyeating.nhlbi.nih.gov>`_
+- `https://heinzbrasil.com.br/ <https://heinzbrasil.com.br>`_
 - `https://www.hellofresh.com/ <https://www.hellofresh.com>`_
 - `https://www.hellofresh.co.uk/ <https://www.hellofresh.co.uk>`_
+- `https://receitas.ig.com.br/ <https://receitas.ig.com.br>`_
 - `https://inspiralized.com/ <https://inspiralized.com>`_
 - `http://jamieoliver.com/ <http://www.jamieoliver.com>`_
 - `https://www.thekitchn.com/ <https://www.thekitchn.com/>`_
