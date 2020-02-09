@@ -6,7 +6,7 @@ import unittest
 from recipe_scrapers.gonnawantseconds import GonnaWantSeconds
 
 
-class TestCopyKat(unittest.TestCase):
+class TestGonnaWantSeconds(unittest.TestCase):
     def setUp(self):
         # tests are run from tests.py
         with open(os.path.join(
