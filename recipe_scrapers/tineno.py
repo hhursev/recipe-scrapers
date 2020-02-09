@@ -65,8 +65,11 @@ class TineNo(AbstractScraper):
             ingredients = ings.findAll('section')
             for ingredient in ingredients:
                 if len(ingredient) > 1:
-                    header = ingredient.find(
-                        'h3', {'class': 't-tertiary-heading o-recipe-ingredients__sub-title'}).get_text()
+                    try:
+                        header = ingredient.find(
+                            'h3', {'class': 't-tertiary-heading o-recipe-ingredients__sub-title'}).get_text()
+                    except Exception:
+                        header = ''
                     tablelines = ingredient.findAll('td')
                     lst = []
                     cntr = 0
@@ -78,7 +81,8 @@ class TineNo(AbstractScraper):
                         if cntr % 2 == 0:
                             lst.append(" ".join(tmplst))
                             tmplst = []
-                    ingGroup.append(header)
+                    if header != '':
+                        ingGroup.append(header)
                     for l in lst:
                         ingGroup.append(l)
         return ingGroup

@@ -8,14 +8,18 @@ from .bonappetit import BonAppetit
 from .budgetbytes import BudgetBytes
 from .closetcooking import ClosetCooking
 from .cookstr import Cookstr
+from .copykat import CopyKat
 from .epicurious import Epicurious
 from .finedininglovers import FineDiningLovers
 from .foodnetwork import FoodNetwork
 from .foodrepublic import FoodRepublic
 from .giallozafferano import GialloZafferano
 from .gonnawantseconds import GonnaWantSeconds
+from .greatbritishchefs import GreatBritishChefs
+from .heinzbrasil import HeinzBrasil
 from .hellofresh import HelloFresh
 from .hundredandonecookbooks import HundredAndOneCookbooks
+from .ig import IG
 from .inspiralized import Inspiralized
 from .jamieoliver import JamieOliver
 from .kitchn import Kitchn
@@ -51,15 +55,19 @@ SCRAPERS = {
     BudgetBytes.host(): BudgetBytes,
     ClosetCooking.host(): ClosetCooking,
     Cookstr.host(): Cookstr,
+    CopyKat.host(): CopyKat,
     Epicurious.host(): Epicurious,
     FineDiningLovers.host(): FineDiningLovers,
     FoodNetwork.host(): FoodNetwork,
     FoodRepublic.host(): FoodRepublic,
     GialloZafferano.host(): GialloZafferano,
     GonnaWantSeconds.host(): GonnaWantSeconds,
+    GreatBritishChefs.host(): GreatBritishChefs,
+    HeinzBrasil.host(): HeinzBrasil,
     HelloFresh.host(): HelloFresh,
     HelloFresh.host(domain='co.uk'): HelloFresh,
     HundredAndOneCookbooks.host(): HundredAndOneCookbooks,
+    IG.host(): IG,
     Inspiralized.host(): Inspiralized,
     JamieOliver.host(): JamieOliver,
     Kitchn.host(): Kitchn,
