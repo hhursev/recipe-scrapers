@@ -65,6 +65,7 @@ Scrapers available for:
 - `https://geniuskitchen.com/ <https://geniuskitchen.com>`_
 - `http://giallozafferano.it/ <http://giallozafferano.it>`_
 - `https://healthyeating.nhlbi.nih.gov/ <https://healthyeating.nhlbi.nih.gov>`_
+- `https://heinzbrasil.com.br/ <https://heinzbrasil.com.br>`_
 - `https://www.hellofresh.com/ <https://www.hellofresh.com>`_
 - `https://www.hellofresh.co.uk/ <https://www.hellofresh.co.uk>`_
 - `https://receitas.ig.com.br/ <https://receitas.ig.com.br>`_
