@@ -14,6 +14,7 @@ from recipe_scrapers.tests.test_food import *
 from recipe_scrapers.tests.test_foodnetwork import *
 from recipe_scrapers.tests.test_foodrepublic import *
 from recipe_scrapers.tests.test_giallozafferano import *
+from recipe_scrapers.tests.test_gonnawantseconds import *
 from recipe_scrapers.tests.test_greatbritishchefs import *
 from recipe_scrapers.tests.test_heinzbrasil import *
 from recipe_scrapers.tests.test_hellofresh import *
