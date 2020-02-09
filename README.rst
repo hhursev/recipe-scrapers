@@ -64,6 +64,7 @@ Scrapers available for:
 - `http://foodrepublic.com/ <http://foodrepublic.com>`_
 - `https://geniuskitchen.com/ <https://geniuskitchen.com>`_
 - `http://giallozafferano.it/ <http://giallozafferano.it>`_
+- `http://gonnawantseconds.com/ <http://gonnawantseconds.com>`_
 - `https://healthyeating.nhlbi.nih.gov/ <https://healthyeating.nhlbi.nih.gov>`_
 - `https://www.hellofresh.com/ <https://www.hellofresh.com>`_
 - `https://www.hellofresh.co.uk/ <https://www.hellofresh.co.uk>`_

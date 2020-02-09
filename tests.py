@@ -13,6 +13,7 @@ from recipe_scrapers.tests.test_food import *
 from recipe_scrapers.tests.test_foodnetwork import *
 from recipe_scrapers.tests.test_foodrepublic import *
 from recipe_scrapers.tests.test_giallozafferano import *
+from recipe_scrapers.tests.test_gonnawantseconds import *
 from recipe_scrapers.tests.test_hellofresh import *
 from recipe_scrapers.tests.test_hundredandonecookbooks import *
 from recipe_scrapers.tests.test_inspiralized import *
