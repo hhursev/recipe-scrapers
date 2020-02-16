@@ -82,6 +82,7 @@ Scrapers available for:
 - `http://realsimple.com/ <http://www.realsimple.com>`_
 - `https://www.seriouseats.com/ <https://www.seriouseats.com>`_
 - `http://simplyrecipes.com/ <http://www.simplyrecipes.co>`_
+- `https://www.southernliving.com/ <https://www.southernliving.com/>`_
 - `http://steamykitchen.com/ <http://steamykitchen.com>`_
 - `https://www.tastesoflizzyt.com <https://www.tastesoflizzyt.com>`_
 - `http://tastykitchen.com/ <http://tastykitchen.com>`_
