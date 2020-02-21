@@ -28,5 +28,5 @@ setup(
         "Operating System :: OS Independent",
         'Topic :: Internet :: WWW/HTTP',
     ],
-    python_requires='>=3.4'
+    python_requires='>=3.5'
 )
