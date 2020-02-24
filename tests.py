@@ -16,6 +16,7 @@ from recipe_scrapers.tests.test_hellofresh import *
 from recipe_scrapers.tests.test_hundredandonecookbooks import *
 from recipe_scrapers.tests.test_inspiralized import *
 from recipe_scrapers.tests.test_jamieoliver import *
+from recipe_scrapers.tests.test_justbento import *
 from recipe_scrapers.tests.test_kitchn import *
 from recipe_scrapers.tests.test_mybakingaddiction import *
 from recipe_scrapers.tests.test_nihhealthyeating import *
