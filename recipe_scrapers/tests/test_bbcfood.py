@@ -46,7 +46,7 @@ class TestBBCFoodScraper(unittest.TestCase):
 
     def test_image(self):
         self.assertEqual(
-            'https://ichef.bbci.co.uk/food/ic/food_16x9_448/recipes/baileysandchocolatec_72293_16x9.jpg',
+            'https://ichef.bbci.co.uk/food/ic/food_16x9_608/recipes/baileysandchocolatec_72293_16x9.jpg',
             self.harvester_class.image()
         )
 

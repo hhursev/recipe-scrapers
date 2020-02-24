@@ -3,33 +3,44 @@ import re
 from .allrecipes import AllRecipes
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
+from .bettycrocker import BettyCrocker
 from .bonappetit import BonAppetit
 from .budgetbytes import BudgetBytes
 from .closetcooking import ClosetCooking
 from .cookstr import Cookstr
+from .copykat import CopyKat
 from .epicurious import Epicurious
 from .finedininglovers import FineDiningLovers
 from .foodnetwork import FoodNetwork
 from .foodrepublic import FoodRepublic
 from .giallozafferano import GialloZafferano
+from .gonnawantseconds import GonnaWantSeconds
+from .greatbritishchefs import GreatBritishChefs
+from .heinzbrasil import HeinzBrasil
 from .hellofresh import HelloFresh
 from .hundredandonecookbooks import HundredAndOneCookbooks
+from .ig import IG
 from .inspiralized import Inspiralized
 from .jamieoliver import JamieOliver
 from .justbento import JustBento
 from .kitchn import Kitchn
+from .matprat import Matprat
 from .mybakingaddiction import MyBakingAddiction
 from .nihhealthyeating import NIHHealthyEating
+from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
 from .realsimple import RealSimple
 from .seriouseats import SeriousEats
 from .simplyrecipes import SimplyRecipes
+from .southernliving import SouthernLiving
 from .steamykitchen import SteamyKitchen
 from .tastesoflizzyt import TastesOfLizzyT
 from .tastykitchen import TastyKitchen
 from .thehappyfoodie import TheHappyFoodie
 from .thepioneerwoman import ThePioneerWoman
+from .thespruceeats import TheSpruceEats
 from .thevintagemixer import TheVintageMixer
+from .tineno import TineNo
 from .twopeasandtheirpod import TwoPeasAndTheirPod
 from .whatsgabycooking import WhatsGabyCooking
 from .wikicookbook import WikiCookbook
@@ -41,34 +52,45 @@ SCRAPERS = {
     BBCFood.host(): BBCFood,
     BBCFood.host(domain='co.uk'): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
+    BettyCrocker.host(): BettyCrocker,
     BonAppetit.host(): BonAppetit,
     BudgetBytes.host(): BudgetBytes,
     ClosetCooking.host(): ClosetCooking,
     Cookstr.host(): Cookstr,
+    CopyKat.host(): CopyKat,
     Epicurious.host(): Epicurious,
     FineDiningLovers.host(): FineDiningLovers,
     FoodNetwork.host(): FoodNetwork,
     FoodRepublic.host(): FoodRepublic,
     GialloZafferano.host(): GialloZafferano,
+    GonnaWantSeconds.host(): GonnaWantSeconds,
+    GreatBritishChefs.host(): GreatBritishChefs,
+    HeinzBrasil.host(): HeinzBrasil,
     HelloFresh.host(): HelloFresh,
     HelloFresh.host(domain='co.uk'): HelloFresh,
     HundredAndOneCookbooks.host(): HundredAndOneCookbooks,
+    IG.host(): IG,
     Inspiralized.host(): Inspiralized,
     JamieOliver.host(): JamieOliver,
     JustBento.host(): JustBento,
     Kitchn.host(): Kitchn,
+    Matprat.host(): Matprat,
     MyBakingAddiction.host(): MyBakingAddiction,
     NIHHealthyEating.host(): NIHHealthyEating,
+    Panelinha.host(): Panelinha,
     PaniniHappy.host(): PaniniHappy,
     RealSimple.host(): RealSimple,
     SeriousEats.host(): SeriousEats,
     SimplyRecipes.host(): SimplyRecipes,
+    SouthernLiving.host(): SouthernLiving,
     SteamyKitchen.host(): SteamyKitchen,
     TastesOfLizzyT.host(): TastesOfLizzyT,
     TastyKitchen.host(): TastyKitchen,
     TheHappyFoodie.host(): TheHappyFoodie,
     ThePioneerWoman.host(): ThePioneerWoman,
+    TheSpruceEats.host(): TheSpruceEats,
     TheVintageMixer.host(): TheVintageMixer,
+    TineNo.host(): TineNo,
     TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
     WhatsGabyCooking.host(): WhatsGabyCooking,
     WikiCookbook.host(): WikiCookbook,

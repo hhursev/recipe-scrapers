@@ -71,6 +71,6 @@ class TestTwoPeasAndTheirPodScraper(unittest.TestCase):
 
     def test_image(self):
         return self.assertEqual(
-            'https://www.twopeasandtheirpod.com/wp-content/uploads/2017/03/Baked-Chicken-Taquitos-1.jpg',
+            'https://www.twopeasandtheirpod.com/wp-content/uploads/2017/03/Baked-Chicken-Taquitos-1-220x220.jpg',
             self.harvester_class.image()
         )

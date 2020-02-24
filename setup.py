@@ -8,7 +8,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name="recipe_scrapers",
     url="https://github.com/hhursev/recipe-scrapers/",
-    version="5.2.1",
+    version="5.15.0",
     author="Hristo Harsev",
     author_email="r+pypi@hharsev.com",
     description="Python package, scraping recipes from all over the internet",
@@ -28,5 +28,5 @@ setup(
         "Operating System :: OS Independent",
         'Topic :: Internet :: WWW/HTTP',
     ],
-    python_requires='>=3.4'
+    python_requires='>=3.5'
 )

@@ -1,6 +1,5 @@
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, normalize_string, get_yields
-import json
 
 
 class GialloZafferano(AbstractScraper):
@@ -65,7 +64,7 @@ class GialloZafferano(AbstractScraper):
     def ratings(self):
         return round(float(
             self.soup.find(
-                'span',
-                {"id": "rating_current"}
-            ).get_text().replace(',', '.')
+                'div',
+                {'class': 'gz-rating-panel rating_panel'}
+            ).get('data-content-rate').replace(',', '.')
         ), 2)

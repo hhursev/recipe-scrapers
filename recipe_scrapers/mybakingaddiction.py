@@ -51,7 +51,4 @@ class MyBakingAddiction(AbstractScraper):
             {"class": "mv-create-reviews"}
         ).attrs.get('data-mv-create-rating', None)
 
-        if rating is None:
-            return -1.0
-
         return round(float(rating), 2)

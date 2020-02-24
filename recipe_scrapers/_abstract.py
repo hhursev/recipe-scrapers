@@ -29,7 +29,8 @@ class AbstractScraper():
                 'instructions',
                 'ingredients',
                 'links',
-                'ratings'
+                'ratings',
+                'reviews',
             ]
             if name in decorated_methods:
                 to_return = ''
@@ -42,6 +43,8 @@ class AbstractScraper():
             if name == 'links':
                 to_return = []
             if name == 'ratings':
+                to_return = -1.0
+            if name == 'reviews':
                 to_return = -1.0
             if to_return is not None:
                 return on_exception_return(to_return)(object.__getattribute__(self, name))

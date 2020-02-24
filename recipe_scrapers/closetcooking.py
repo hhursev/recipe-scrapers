@@ -17,7 +17,6 @@ class ClosetCooking(AbstractScraper):
     def total_time(self):
         return get_minutes(self.soup.find(itemprop='totalTime').parent)
 
-
     def yields(self):
         return get_yields(self.soup.find(itemprop='recipeYield').parent)
 

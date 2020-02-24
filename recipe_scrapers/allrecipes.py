@@ -46,6 +46,17 @@ class AllRecipes(AbstractScraper):
                 {'class': 'recipe-adjust-servings__original-serving'}
             ).get_text())
 
+    def image(self):
+        image = self.soup.find(
+            'img',
+            {'class': 'rec-photo', 'src': True}
+        )
+        if image is None:
+            image = self.soup.find('div', {'class': 'lead-media'})
+            return image['data-src'] if image else None
+
+        return image['src'] if image else None
+
     def ingredients(self):
         ingredients = self.soup.findAll(
             'li',
