@@ -22,6 +22,7 @@ from .hundredandonecookbooks import HundredAndOneCookbooks
 from .ig import IG
 from .inspiralized import Inspiralized
 from .jamieoliver import JamieOliver
+from .justbento import JustBento
 from .kitchn import Kitchn
 from .matprat import Matprat
 from .mybakingaddiction import MyBakingAddiction
@@ -71,6 +72,7 @@ SCRAPERS = {
     IG.host(): IG,
     Inspiralized.host(): Inspiralized,
     JamieOliver.host(): JamieOliver,
+    JustBento.host(): JustBento,
     Kitchn.host(): Kitchn,
     Matprat.host(): Matprat,
     MyBakingAddiction.host(): MyBakingAddiction,

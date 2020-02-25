@@ -74,6 +74,7 @@ Scrapers available for:
 - `https://receitas.ig.com.br/ <https://receitas.ig.com.br>`_
 - `https://inspiralized.com/ <https://inspiralized.com>`_
 - `http://jamieoliver.com/ <http://www.jamieoliver.com>`_
+- `https://justbento.com/ <https://justbento.com>`_
 - `https://www.thekitchn.com/ <https://www.thekitchn.com/>`_
 - `https://www.matprat.no/ <https://www.matprat.no/>`_
 - `http://mybakingaddiction.com/ <http://mybakingaddiction.com>`_
