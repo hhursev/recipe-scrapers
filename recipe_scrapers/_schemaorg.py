@@ -6,7 +6,7 @@ from w3lib.html import get_base_url
 
 SCHEMA_ORG_HOST = "schema.org"
 SCHEMA_NAME = "Recipe"
-SCHEMA_URL = f"https://{SCHEMA_ORG_HOST}/{SCHEMA_NAME}"
+SCHEMA_URL = "https://" + SCHEMA_ORG_HOST + "/" + SCHEMA_NAME
 
 SYNTAXES = ["microdata", "json-ld"]
 
