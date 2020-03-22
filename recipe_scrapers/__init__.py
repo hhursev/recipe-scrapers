@@ -1,5 +1,6 @@
 import re
 
+from ._schemaorg import SchemaOrg
 from .allrecipes import AllRecipes
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
@@ -122,6 +123,12 @@ class WebsiteNotImplementedError(NotImplementedError):
 
 
 def scrape_me(url_path):
+
+    schema = SchemaOrg(url_path)
+
+    if schema.data:
+        return schema
+
     host_name = url_path_to_dict(url_path.replace('://www.', '://'))['host']
 
     try:

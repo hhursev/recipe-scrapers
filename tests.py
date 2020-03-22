@@ -31,6 +31,7 @@ from recipe_scrapers.tests.test_notimplemented import *
 from recipe_scrapers.tests.test_panelinha import *
 from recipe_scrapers.tests.test_paninihappy import *
 from recipe_scrapers.tests.test_realsimple import *
+from recipe_scrapers.tests.test_schemaorg import *
 from recipe_scrapers.tests.test_seriouseats import *
 from recipe_scrapers.tests.test_simplyrecipes import *
 from recipe_scrapers.tests.test_southernliving import *
