@@ -4,7 +4,7 @@ from functools import wraps
 
 
 TIME_REGEX = re.compile(
-    r'(\D*(?P<hours>\d+)\s*(hours|hrs|hr|h|Hours|H))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|Minutes|M))?'
+    r'(\D*(?P<hours>\d+)\s*(hours|hrs|hr|h|Hours|H|óra))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|Minutes|M|perc))?'
 )
 
 SERV_REGEX_NUMBER = re.compile(
