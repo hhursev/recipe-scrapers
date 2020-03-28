@@ -25,7 +25,6 @@ class Mindmegette(AbstractScraper):
 
     def instructions(self):
         instructions = self.soup.find('ul', {'itemprop': 'instructions'}).findAll('li')
-        # instructions_json = json.loads(self.soup.findAll('ul', {'itemprop': 'instructions'}).text)
 
         return '\n'.join([
             normalize_string(instruction.get_text())
