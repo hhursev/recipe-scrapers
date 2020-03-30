@@ -16,7 +16,14 @@ class Mindmegette(AbstractScraper):
 
     def image(self):
         image_relative_url = self.soup.find('img', {'itemprop': 'photo', 'src': True})['src']
-        return f"http://{self.host()}{image_relative_url}" if image_relative_url else None
+
+        if image_relative_url is not None:
+            image_relative_url = "http://%s%s" % (
+                self.host(),
+                image_relative_url
+            )
+
+        return image_relative_url
 
     def ingredients(self):
         ingredients_html = self.soup.findAll('li', {'itemprop': "ingredient"})
