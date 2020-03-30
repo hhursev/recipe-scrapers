@@ -77,6 +77,7 @@ Scrapers available for:
 - `https://justbento.com/ <https://justbento.com>`_
 - `https://www.thekitchn.com/ <https://www.thekitchn.com/>`_
 - `https://www.matprat.no/ <https://www.matprat.no/>`_
+- `http://www.mindmegette.hu/ <http://www.mindmegette.hu/>`_
 - `http://mybakingaddiction.com/ <http://mybakingaddiction.com>`_
 - `https://panelinha.com.br/ <https://panelinha.com.br>`_
 - `http://paninihappy.com/ <http://paninihappy.com>`_
