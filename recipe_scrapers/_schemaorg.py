@@ -17,7 +17,6 @@ class SchemaOrg(AbstractScraper):
         self.format = None
         self.testing_mode = test
         self.data = {}
-        self.format = None
 
         if test:  # when testing, we load a file
             with url:
