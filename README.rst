@@ -58,6 +58,7 @@ Scrapers available for:
 - `http://cookstr.com/ <http://cookstr.com>`_
 - `http://copykat.com/ <http://copykat.com>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
+- `http://delish.com/ <http://delish.com>`_
 - `http://epicurious.com/ <http://epicurious.com>`_
 - `http://finedininglovers.com/ <https://www.finedininglovers.com>`_
 - `https://food.com/ <https://www.food.com>`_
