@@ -10,8 +10,10 @@ from .budgetbytes import BudgetBytes
 from .closetcooking import ClosetCooking
 from .cookstr import Cookstr
 from .copykat import CopyKat
+from .delish import Delish
 from .epicurious import Epicurious
 from .finedininglovers import FineDiningLovers
+from .food import Food
 from .foodnetwork import FoodNetwork
 from .foodrepublic import FoodRepublic
 from .giallozafferano import GialloZafferano
@@ -60,8 +62,10 @@ SCRAPERS = {
     ClosetCooking.host(): ClosetCooking,
     Cookstr.host(): Cookstr,
     CopyKat.host(): CopyKat,
+    Delish.host(): Delish,
     Epicurious.host(): Epicurious,
     FineDiningLovers.host(): FineDiningLovers,
+    Food.host(): Food,
     FoodNetwork.host(): FoodNetwork,
     FoodRepublic.host(): FoodRepublic,
     GialloZafferano.host(): GialloZafferano,
