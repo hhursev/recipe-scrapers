@@ -47,6 +47,7 @@ from recipe_scrapers.tests.test_thespruceeats import *
 from recipe_scrapers.tests.test_thehappyfoodie import *
 from recipe_scrapers.tests.test_thevintagemixer import *
 from recipe_scrapers.tests.test_tineno import *
+from recipe_scrapers.tests.test_tudogostoso import *
 from recipe_scrapers.tests.test_twopeasandtheirpod import *
 from recipe_scrapers.tests.test_whatsgabycooking import *
 from recipe_scrapers.tests.test_wikicookbook import *
