@@ -40,7 +40,7 @@ class TestHundredAndOneCookbooksScraper(unittest.TestCase):
 
     def test_image(self):
         self.assertEqual(
-            'https://images.101cookbooks.com/gin_sparkler.jpg?w=680',
+            'https://images.101cookbooks.com/gin_sparkler.jpg?w=680&auto=format',
             self.harvester_class.image()
         )
 

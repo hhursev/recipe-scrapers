@@ -40,7 +40,7 @@ class TestFoodNetworkScraper(unittest.TestCase):
 
     def test_image(self):
         self.assertEqual(
-            'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/4/10/1/FO1D47_24021_s4x3.jpg.rend.hgtvcom.616.462.suffix/1431766598136.jpeg',
+            'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/4/10/1/FO1D47_24021_s4x3.jpg.rend.hgtvcom.406.305.suffix/1431766598136.jpeg',
             self.harvester_class.image()
         )
 
