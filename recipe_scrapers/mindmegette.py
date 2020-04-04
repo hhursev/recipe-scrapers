@@ -1,6 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
-import json
+from ._utils import get_minutes, normalize_string, get_yields
 
 
 class Mindmegette(AbstractScraper):
@@ -15,6 +14,17 @@ class Mindmegette(AbstractScraper):
     def total_time(self):
         return get_minutes(self.soup.find('span', {'class': 'time'}))
 
+    def image(self):
+        image_relative_url = self.soup.find('img', {'itemprop': 'photo', 'src': True})['src']
+
+        if image_relative_url is not None:
+            image_relative_url = "http://%s%s" % (
+                self.host(),
+                image_relative_url
+            )
+
+        return image_relative_url
+
     def ingredients(self):
         ingredients_html = self.soup.findAll('li', {'itemprop': "ingredient"})
 
@@ -25,9 +35,14 @@ class Mindmegette(AbstractScraper):
 
     def instructions(self):
         instructions = self.soup.find('ul', {'itemprop': 'instructions'}).findAll('li')
-        # instructions_json = json.loads(self.soup.findAll('ul', {'itemprop': 'instructions'}).text)
 
         return '\n'.join([
             normalize_string(instruction.get_text())
             for instruction in instructions
         ])
+
+    def yields(self):
+        return get_yields(self.soup.find(
+            'span',
+            {'class': 'portion'})
+        )

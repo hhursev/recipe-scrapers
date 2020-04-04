@@ -75,3 +75,15 @@ class TestMindmegetteScraper(unittest.TestCase):
             "a forró levest. Egy kevés tejföllel díszítve kínáljuk.",
             self.harvester_class.instructions()
         )
+
+    def test_yields(self):
+        self.assertEqual(
+            "4 serving(s)",
+            self.harvester_class.yields()
+        )
+
+    def test_image(self):
+        self.assertEqual(
+            'http://mindmegette.hu/images/163/O/crop_201609051236_jokai_bableves.jpg',
+            self.harvester_class.image()
+        )

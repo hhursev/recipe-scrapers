@@ -9,6 +9,7 @@ from recipe_scrapers.tests.test_closetcooking import *
 from recipe_scrapers.tests.test_cookstr import *
 from recipe_scrapers.tests.test_copykat import *
 from recipe_scrapers.tests.test_epicurious import *
+from recipe_scrapers.tests.test_delish import *
 from recipe_scrapers.tests.test_finedininglovers import *
 from recipe_scrapers.tests.test_food import *
 from recipe_scrapers.tests.test_foodnetwork import *
@@ -32,6 +33,7 @@ from recipe_scrapers.tests.test_notimplemented import *
 from recipe_scrapers.tests.test_panelinha import *
 from recipe_scrapers.tests.test_paninihappy import *
 from recipe_scrapers.tests.test_realsimple import *
+from recipe_scrapers.tests.test_schemaorg import *
 from recipe_scrapers.tests.test_seriouseats import *
 from recipe_scrapers.tests.test_simplyrecipes import *
 from recipe_scrapers.tests.test_southernliving import *
