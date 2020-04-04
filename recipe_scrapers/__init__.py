@@ -1,6 +1,5 @@
 import re
 
-from ._schemaorg import SchemaOrg
 from .allrecipes import AllRecipes
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
@@ -124,16 +123,11 @@ def url_path_to_dict(path):
 
 
 class WebsiteNotImplementedError(NotImplementedError):
-    '''Error for when the website is not supported by this library.'''
+    """ Error for when the website is not supported by this library. """
     pass
 
 
 def scrape_me(url_path):
-
-    schema = SchemaOrg(url_path)
-
-    if schema.data:
-        return schema
 
     host_name = url_path_to_dict(url_path.replace('://www.', '://'))['host']
 
@@ -141,7 +135,8 @@ def scrape_me(url_path):
         scraper = SCRAPERS[host_name]
     except KeyError:
         raise WebsiteNotImplementedError(
-            "Website ({}) is not supported".format(host_name))
+            "Website ({}) is not supported".format(host_name)
+        )
 
     return scraper(url_path)
 
