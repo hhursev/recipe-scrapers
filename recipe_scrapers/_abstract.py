@@ -47,10 +47,10 @@ class AbstractScraper:
         self.schema = SchemaOrg(url, page_data)
         self.url = url
 
-        if self.schema.data:
-            print("Class: %s has schema." % (
-                self.__class__.__name__
-            ))
+        # if self.schema.data:
+        #     print("Class: %s has schema." % (
+        #         self.__class__.__name__
+        #     ))
 
     def url(self):
         return self.url
