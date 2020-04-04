@@ -34,12 +34,17 @@ class Mindmegette(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions = self.soup.find('ul', {'itemprop': 'instructions'}).findAll('li')
+        instructions = self.soup \
+            .find('ul', {'itemprop': 'instructions'}) \
+            .findAll('li')
 
-        return '\n'.join([
-            normalize_string(instruction.get_text())
-            for instruction in instructions
-        ])
+        instructions_arr = []
+        for instruction in instructions:
+            for tag in instruction.findAll("h2"):
+                tag.replaceWith('')
+            instructions_arr.append(normalize_string(instruction.get_text()))
+
+        return '\n'.join(instructions_arr)
 
     def yields(self):
         return get_yields(self.soup.find(
