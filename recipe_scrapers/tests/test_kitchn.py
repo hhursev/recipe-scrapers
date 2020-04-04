@@ -41,7 +41,7 @@ class TestKitchnScraper(unittest.TestCase):
 
     def test_image(self):
         self.assertEqual(
-            'https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500/k%2FPhoto%2FRecipes%2F2019-10-how-to-beef-manicotti%2F2019-10-04_Kitchn86818_HT-Beef-Manicotti',
+            'https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,w_1500,c_fill,g_auto,ar_16:9/k%2FPhoto%2FRecipes%2F2019-10-how-to-beef-manicotti%2F2019-10-04_Kitchn86818_HT-Beef-Manicotti',
             self.harvester_class.image()
         )
 

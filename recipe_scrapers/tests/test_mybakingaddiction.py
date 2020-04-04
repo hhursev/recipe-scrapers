@@ -23,7 +23,7 @@ class TestMyBakingAddictionScraper(unittest.TestCase):
 
     def test_image(self):
         self.assertEqual(
-            'https://www.mybakingaddiction.com/wp-content/uploads/2016/08/chocolate-coconut-zucchini-bread-1-of-11-1-600x900.jpg',
+            'https://www.mybakingaddiction.com/wp-content/uploads/2016/08/chocolate-coconut-zucchini-bread-1-of-11-1-720x720.jpg',
             self.harvester_class.image()
         )
 
