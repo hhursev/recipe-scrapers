@@ -1,8 +1,11 @@
 import requests
-
 from bs4 import BeautifulSoup
 
-from recipe_scrapers._utils import on_exception_return
+from ._schemaorg import (
+    SchemaOrg,
+    SchemaOrgException
+)
+
 
 # some sites close their content for 'bots', so user-agent must be supplied
 HEADERS = {
@@ -10,64 +13,44 @@ HEADERS = {
 }
 
 
-class AbstractScraper():
-
-    def __getattribute__(self, name):
+class AbstractScraper:
+    class Decorators:
         """
-        Decorate custom methods to handle exceptions as we want and as we
-        specify in the "on_exception_return" method decorator
-
-        Do not do this META-decorating on testing so to have better traceback
+        Define decorators for AbstractScraper methods here.
         """
-        if not object.__getattribute__(self, 'testing_mode'):
-            to_return = None
-            decorated_methods = [
-                'title',
-                'total_time',
-                'yields',
-                'image',
-                'instructions',
-                'ingredients',
-                'links',
-                'ratings',
-                'reviews',
-            ]
-            if name in decorated_methods:
-                to_return = ''
-            if name == 'total_time':
-                to_return = 0
-            if name == 'yields':
-                to_return = ''
-            if name == 'ingredients':
-                to_return = []
-            if name == 'links':
-                to_return = []
-            if name == 'ratings':
-                to_return = -1.0
-            if name == 'reviews':
-                to_return = -1.0
-            if to_return is not None:
-                return on_exception_return(to_return)(object.__getattribute__(self, name))
-
-        return object.__getattribute__(self, name)
+        @staticmethod
+        def schema_org_priority(function):
+            """
+            Use SchemaOrg parser with priority (if there's data in it)
+            On exception raised - continue by default.
+            If there's no data (no schema implemented on the site) - continue by default
+            """
+            def schema_org_priority_wrapper(self, *args, **kwargs):
+                if self.schema.data:
+                    try:
+                        return self.schema.__getattribute__(
+                            function.__name__
+                        )(*args, **kwargs)
+                    except SchemaOrgException:
+                        pass
+                return function(self, *args, **kwargs)
+            return schema_org_priority_wrapper
 
     def __init__(self, url, test=False):
         if test:  # when testing, we load a file
             with url:
-                self.soup = BeautifulSoup(
-                    url.read(),
-                    "html.parser"
-                )
+                page_data = url.read()
         else:
-            self.soup = BeautifulSoup(
-                requests.get(
-                    url,
-                    headers=HEADERS
-                ).content,
-                "html.parser"
-            )
-        self.testing_mode = test
+            page_data = requests.get(url, headers=HEADERS).content
+
+        self.soup = BeautifulSoup(page_data, "html.parser")
+        self.schema = SchemaOrg(url, page_data)
         self.url = url
+
+        if self.schema.data:
+            print("Class: %s has schema." % (
+                self.__class__.__name__
+            ))
 
     def url(self):
         return self.url
@@ -76,17 +59,21 @@ class AbstractScraper():
         """ get the host of the url, so we can use the correct scraper """
         raise NotImplementedError("This should be implemented.")
 
+    @Decorators.schema_org_priority
     def title(self):
         raise NotImplementedError("This should be implemented.")
 
+    @Decorators.schema_org_priority
     def total_time(self):
         """ total time it takes to preparate the recipe in minutes """
         raise NotImplementedError("This should be implemented.")
 
+    @Decorators.schema_org_priority
     def yields(self):
         """ The number of servings or items in the recipe """
         raise NotImplementedError("This should be implemented.")
 
+    @Decorators.schema_org_priority
     def image(self):
         """
         Image of the recipe
@@ -102,12 +89,15 @@ class AbstractScraper():
         except AttributeError:  # if image not found
             raise NotImplementedError("This should be implemented.")
 
+    @Decorators.schema_org_priority
     def ingredients(self):
         raise NotImplementedError("This should be implemented.")
 
+    @Decorators.schema_org_priority
     def instructions(self):
         raise NotImplementedError("This should be implemented.")
 
+    @Decorators.schema_org_priority
     def ratings(self):
         raise NotImplementedError("This should be implemented.")
 
