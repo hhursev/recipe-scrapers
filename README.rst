@@ -57,6 +57,7 @@ Scrapers available for:
 - `http://closetcooking.com/ <http://closetcooking.com>`_
 - `http://cookstr.com/ <http://cookstr.com>`_
 - `http://copykat.com/ <http://copykat.com>`_
+- `https://cybercook.com.br/ <https://cybercook.com.br/>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `http://delish.com/ <http://delish.com>`_
 - `http://epicurious.com/ <http://epicurious.com>`_
