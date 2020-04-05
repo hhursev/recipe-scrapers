@@ -34,6 +34,7 @@ from .mybakingaddiction import MyBakingAddiction
 from .nihhealthyeating import NIHHealthyEating
 from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
+from .przepisy import Przepisy
 from .realsimple import RealSimple
 from .seriouseats import SeriousEats
 from .simplyrecipes import SimplyRecipes
@@ -89,6 +90,7 @@ SCRAPERS = {
     NIHHealthyEating.host(): NIHHealthyEating,
     Panelinha.host(): Panelinha,
     PaniniHappy.host(): PaniniHappy,
+    Przepisy.host(): Przepisy,
     RealSimple.host(): RealSimple,
     SeriousEats.host(): SeriousEats,
     SimplyRecipes.host(): SimplyRecipes,
