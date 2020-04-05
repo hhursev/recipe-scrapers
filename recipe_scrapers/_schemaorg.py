@@ -64,6 +64,12 @@ class SchemaOrg:
         ]
 
     def instructions(self):
+        recipeInstructions = self.data.get('recipeInstructions')
+        if type(recipeInstructions) == list:
+            return '\n'.join(
+                instruction.get('text')
+                for instruction in recipeInstructions
+            )
         return self.data.get('recipeInstructions')
 
     def ratings(self):
