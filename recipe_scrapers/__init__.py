@@ -29,6 +29,7 @@ from .justbento import JustBento
 from .kitchn import Kitchn
 from .matprat import Matprat
 from .mindmegette import Mindmegette
+from .misya import Misya
 from .mybakingaddiction import MyBakingAddiction
 from .nihhealthyeating import NIHHealthyEating
 from .panelinha import Panelinha
@@ -83,6 +84,7 @@ SCRAPERS = {
     Kitchn.host(): Kitchn,
     Matprat.host(): Matprat,
     Mindmegette.host(): Mindmegette,
+    Misya.host(): Misya,
     MyBakingAddiction.host(): MyBakingAddiction,
     NIHHealthyEating.host(): NIHHealthyEating,
     Panelinha.host(): Panelinha,

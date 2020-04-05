@@ -1,4 +1,3 @@
-# test_copykat.py
 import os
 import unittest
 

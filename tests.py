@@ -28,6 +28,7 @@ from recipe_scrapers.tests.test_justbento import *
 from recipe_scrapers.tests.test_kitchn import *
 from recipe_scrapers.tests.test_matprat import *
 from recipe_scrapers.tests.test_mindmegette import *
+from recipe_scrapers.tests.test_misya import *
 from recipe_scrapers.tests.test_mybakingaddiction import *
 from recipe_scrapers.tests.test_nihhealthyeating import *
 from recipe_scrapers.tests.test_panelinha import *
