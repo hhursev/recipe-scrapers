@@ -84,6 +84,7 @@ Scrapers available for:
 - `http://mybakingaddiction.com/ <http://mybakingaddiction.com>`_
 - `https://panelinha.com.br/ <https://panelinha.com.br>`_
 - `http://paninihappy.com/ <http://paninihappy.com>`_
+- `http://przepisy.pl/ <http://przepisy.pl>`_
 - `http://realsimple.com/ <http://www.realsimple.com>`_
 - `https://www.seriouseats.com/ <https://www.seriouseats.com>`_
 - `http://simplyrecipes.com/ <http://www.simplyrecipes.co>`_
