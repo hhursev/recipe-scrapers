@@ -33,7 +33,7 @@ class TestAllRecipesFallbackFormatScraper(unittest.TestCase):
         )
 
     def test_yields(self):
-        self.assertEqual("4 serving(s)", self.harvester_class.yields())
+        self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
@@ -58,7 +58,7 @@ class TestAllRecipesFallbackFormatScraper(unittest.TestCase):
 
     def test_instructions(self):
         return self.assertEqual(
-            'Step 1 Sprinkle chicken with salt and lemon-pepper. Advertisement\nStep 2 Heat oil in a large skillet over medium heat; cook the chicken breasts in hot oil until no longer pink in the center and the juices run clear, 13 to 15 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C). Remove and keep warm.\nStep 3 Place bacon in large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain bacon slices on paper towels; reserve 2 tablespoons drippings. Cook and stir onion and brown sugar in reserved drippings until onion is golden, about 5 minutes.\nStep 4 Place two bacon strips on each chicken breast half; top with caramelized onions and sprinkle with Colby-Monterey Jack cheese.',
+            'Sprinkle chicken with salt and lemon-pepper.\nHeat oil in a large skillet over medium heat; cook the chicken breasts in hot oil until no longer pink in the center and the juices run clear, 13 to 15 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C). Remove and keep warm.\nPlace bacon in large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain bacon slices on paper towels; reserve 2 tablespoons drippings. Cook and stir onion and brown sugar in reserved drippings until onion is golden, about 5 minutes.\nPlace two bacon strips on each chicken breast half; top with caramelized onions and sprinkle with Colby-Monterey Jack cheese.',
             self.harvester_class.instructions()
         )
 

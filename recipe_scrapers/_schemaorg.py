@@ -48,7 +48,10 @@ class SchemaOrg:
         return total_time
 
     def yields(self):
-        return str(self.data.get("recipeYield"))
+        recipe_yield = str(self.data.get("recipeYield"))
+        if len(recipe_yield) <= 3:  # probably just a number. append "servings"
+            return recipe_yield + " serving(s)"
+        return recipe_yield
 
     def image(self):
         image = self.data.get('image')
@@ -76,7 +79,7 @@ class SchemaOrg:
                 instruction.get('text')
                 for instruction in recipeInstructions
             )
-        return self.data.get('recipeInstructions')
+        return recipeInstructions
 
     def ratings(self):
         ratings = self.data.get("aggregateRating", None)
@@ -84,5 +87,5 @@ class SchemaOrg:
             raise SchemaOrgException('No ratings data in SchemaOrg.')
 
         if type(ratings) == dict:
-            return float(ratings.get('ratingValue'))
-        return float(ratings)
+            return round(float(ratings.get('ratingValue')), 2)
+        return round(float(ratings), 2)
