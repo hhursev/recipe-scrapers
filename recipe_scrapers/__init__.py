@@ -1,6 +1,5 @@
 import re
 
-from ._schemaorg import SchemaOrg
 from .allrecipes import AllRecipes
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
@@ -10,6 +9,7 @@ from .budgetbytes import BudgetBytes
 from .closetcooking import ClosetCooking
 from .cookstr import Cookstr
 from .copykat import CopyKat
+from .cybercook import Cybercook
 from .delish import Delish
 from .epicurious import Epicurious
 from .finedininglovers import FineDiningLovers
@@ -29,6 +29,7 @@ from .justbento import JustBento
 from .kitchn import Kitchn
 from .matprat import Matprat
 from .mindmegette import Mindmegette
+from .misya import Misya
 from .mybakingaddiction import MyBakingAddiction
 from .nihhealthyeating import NIHHealthyEating
 from .panelinha import Panelinha
@@ -62,6 +63,7 @@ SCRAPERS = {
     ClosetCooking.host(): ClosetCooking,
     Cookstr.host(): Cookstr,
     CopyKat.host(): CopyKat,
+    Cybercook.host(): Cybercook,
     Delish.host(): Delish,
     Epicurious.host(): Epicurious,
     FineDiningLovers.host(): FineDiningLovers,
@@ -82,6 +84,7 @@ SCRAPERS = {
     Kitchn.host(): Kitchn,
     Matprat.host(): Matprat,
     Mindmegette.host(): Mindmegette,
+    Misya.host(): Misya,
     MyBakingAddiction.host(): MyBakingAddiction,
     NIHHealthyEating.host(): NIHHealthyEating,
     Panelinha.host(): Panelinha,
@@ -124,16 +127,11 @@ def url_path_to_dict(path):
 
 
 class WebsiteNotImplementedError(NotImplementedError):
-    '''Error for when the website is not supported by this library.'''
+    """ Error for when the website is not supported by this library. """
     pass
 
 
 def scrape_me(url_path):
-
-    schema = SchemaOrg(url_path)
-
-    if schema.data:
-        return schema
 
     host_name = url_path_to_dict(url_path.replace('://www.', '://'))['host']
 
@@ -141,7 +139,8 @@ def scrape_me(url_path):
         scraper = SCRAPERS[host_name]
     except KeyError:
         raise WebsiteNotImplementedError(
-            "Website ({}) is not supported".format(host_name))
+            "Website ({}) is not supported".format(host_name)
+        )
 
     return scraper(url_path)
 

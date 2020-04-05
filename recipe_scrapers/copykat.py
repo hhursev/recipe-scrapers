@@ -4,7 +4,7 @@
 # 8 February, 2020
 # =======================================================
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string, get_yields
+from ._utils import get_minutes, normalize_string
 
 
 class CopyKat(AbstractScraper):
@@ -101,7 +101,6 @@ class CopyKat(AbstractScraper):
             return data
 
     def ratings(self):
-        r1 = 0
         r1 = self.soup.find(
             'div',
             {'class': 'wprm-recipe-rating-details wprm-block-text-normal'}

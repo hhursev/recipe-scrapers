@@ -57,6 +57,7 @@ Scrapers available for:
 - `http://closetcooking.com/ <http://closetcooking.com>`_
 - `http://cookstr.com/ <http://cookstr.com>`_
 - `http://copykat.com/ <http://copykat.com>`_
+- `https://cybercook.com.br/ <https://cybercook.com.br/>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `http://delish.com/ <http://delish.com>`_
 - `http://epicurious.com/ <http://epicurious.com>`_
@@ -79,6 +80,7 @@ Scrapers available for:
 - `https://www.thekitchn.com/ <https://www.thekitchn.com/>`_
 - `https://www.matprat.no/ <https://www.matprat.no/>`_
 - `http://www.mindmegette.hu/ <http://www.mindmegette.hu/>`_
+- `https://www.misya.info/ <https://www.misya.info>`_
 - `http://mybakingaddiction.com/ <http://mybakingaddiction.com>`_
 - `https://panelinha.com.br/ <https://panelinha.com.br>`_
 - `http://paninihappy.com/ <http://paninihappy.com>`_

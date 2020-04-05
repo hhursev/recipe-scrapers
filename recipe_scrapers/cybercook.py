@@ -1,8 +1,8 @@
 from ._abstract import AbstractScraper
 
 
-class AllRecipes(AbstractScraper):
+class Cybercook(AbstractScraper):
 
     @classmethod
     def host(self):
-        return 'allrecipes.com'
+        return 'cybercook.com.br'

@@ -1,8 +1,5 @@
-from ._abstract import AbstractScraper, HEADERS
 import extruct
-import isodate
-import requests
-from w3lib.html import get_base_url
+from ._utils import get_minutes, normalize_string
 
 SCHEMA_ORG_HOST = "schema.org"
 SCHEMA_NAME = "Recipe"
@@ -11,73 +8,84 @@ SCHEMA_URL = "https://" + SCHEMA_ORG_HOST + "/" + SCHEMA_NAME
 SYNTAXES = ["microdata", "json-ld"]
 
 
-class SchemaOrg(AbstractScraper):
+class SchemaOrgException(Exception):
+    def __init__(self, message):
+        super().__init__(message)
 
-    def __init__(self, url, test=False):
+
+class SchemaOrg:
+
+    def __init__(self, url, page_data):
         self.format = None
-        self.testing_mode = test
         self.data = {}
 
-        if test:  # when testing, we load a file
-            with url:
-                r = url.read()
-                data = extruct.extract(
-                    r,
-                    base_url="https://www.allrecipes.com/recipe/133948/four-cheese-margherita-pizza/",
-                    syntaxes=SYNTAXES,
-                    uniform=True,
-            )
-        else:
-            r = requests.get(url, headers=HEADERS)
-            data = extruct.extract(
-                r.text,
-                base_url=get_base_url(r.text, r.url),
-                syntaxes=SYNTAXES,
-                uniform=True,
-            )
+        data = extruct.extract(
+            page_data,
+            syntaxes=SYNTAXES,
+            uniform=True,
+        )
 
         for syntax in SYNTAXES:
             for item in data.get(syntax, []):
                 if (
-                    "@context" in item and
-                    item["@context"] == SCHEMA_ORG_HOST and
-                    "@type" in item and
-                    item["@type"].lower() == SCHEMA_NAME.lower()
+                    SCHEMA_ORG_HOST in item.get("@context", "") and
+                    item.get("@type", "").lower() == SCHEMA_NAME.lower()
                 ):
                     self.format = syntax
                     self.data = item
                     return
 
-    def host(self):
-        return SCHEMA_ORG_HOST
-
     def title(self):
         return self.data.get("name")
 
     def total_time(self):
-        iso_cook_time = self.data.get("cookTime")
-        iso_prep_time = self.data.get("prepTime")
-        if not iso_prep_time and not iso_cook_time:
-            return None
-
-        total = 0
-        if iso_prep_time:
-            total += isodate.parse_duration(iso_prep_time).total_seconds * 60
-        if iso_cook_time:
-            total += isodate.parse_duration(iso_cook_time).total_seconds * 60
-        return total
+        total_time = get_minutes(self.data.get("totalTime"))
+        if not total_time:
+            return (
+                get_minutes(self.data.get('prepTime')) +
+                get_minutes(self.data.get('cookTime'))
+            )
+        return total_time
 
     def yields(self):
-        return self.data.get("recipeYield")
+        recipe_yield = str(self.data.get("recipeYield"))
+        if len(recipe_yield) <= 3:  # probably just a number. append "servings"
+            return recipe_yield + " serving(s)"
+        return recipe_yield
 
     def image(self):
-        return self.data.get("image")
+        image = self.data.get('image')
+
+        if image is None:
+            raise SchemaOrgException("Image not found in SchemaOrg")
+
+        if type(image) == dict:
+            return image.get('url')
+        elif type(image) == list:
+            return image[0]
+
+        return image
 
     def ingredients(self):
-        return self.data.get("recipeIngredient")
+        return [
+            normalize_string(ingredient)
+            for ingredient in self.data.get("recipeIngredient", [])
+        ]
 
     def instructions(self):
-        return self.data.get("recipeInstructions")
+        recipeInstructions = self.data.get('recipeInstructions')
+        if type(recipeInstructions) == list:
+            return '\n'.join(
+                instruction.get('text')
+                for instruction in recipeInstructions
+            )
+        return recipeInstructions
 
     def ratings(self):
-        return self.data.get("aggregateRating")
+        ratings = self.data.get("aggregateRating", None)
+        if ratings is None:
+            raise SchemaOrgException('No ratings data in SchemaOrg.')
+
+        if type(ratings) == dict:
+            return round(float(ratings.get('ratingValue')), 2)
+        return round(float(ratings), 2)

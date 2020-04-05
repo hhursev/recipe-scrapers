@@ -8,7 +8,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name="recipe_scrapers",
     url="https://github.com/hhursev/recipe-scrapers/",
-    version="5.17.0",
+    version="6.0.1",
     author="Hristo Harsev",
     author_email="r+pypi@hharsev.com",
     description="Python package, scraping recipes from all over the internet",
@@ -16,6 +16,7 @@ setup(
     long_description=README,
     install_requires=[
         "beautifulsoup4>=4.6.0",
+        "extruct>=0.8.0",
         "requests>=2.19.1",
     ],
     packages=find_packages(),

@@ -8,6 +8,7 @@ from recipe_scrapers.tests.test_budgetbytes import *
 from recipe_scrapers.tests.test_closetcooking import *
 from recipe_scrapers.tests.test_cookstr import *
 from recipe_scrapers.tests.test_copykat import *
+from recipe_scrapers.tests.test_cybercook import *
 from recipe_scrapers.tests.test_epicurious import *
 from recipe_scrapers.tests.test_delish import *
 from recipe_scrapers.tests.test_finedininglovers import *
@@ -27,13 +28,12 @@ from recipe_scrapers.tests.test_justbento import *
 from recipe_scrapers.tests.test_kitchn import *
 from recipe_scrapers.tests.test_matprat import *
 from recipe_scrapers.tests.test_mindmegette import *
+from recipe_scrapers.tests.test_misya import *
 from recipe_scrapers.tests.test_mybakingaddiction import *
 from recipe_scrapers.tests.test_nihhealthyeating import *
-from recipe_scrapers.tests.test_notimplemented import *
 from recipe_scrapers.tests.test_panelinha import *
 from recipe_scrapers.tests.test_paninihappy import *
 from recipe_scrapers.tests.test_realsimple import *
-from recipe_scrapers.tests.test_schemaorg import *
 from recipe_scrapers.tests.test_seriouseats import *
 from recipe_scrapers.tests.test_simplyrecipes import *
 from recipe_scrapers.tests.test_southernliving import *
@@ -46,7 +46,6 @@ from recipe_scrapers.tests.test_thehappyfoodie import *
 from recipe_scrapers.tests.test_thevintagemixer import *
 from recipe_scrapers.tests.test_tineno import *
 from recipe_scrapers.tests.test_twopeasandtheirpod import *
-from recipe_scrapers.tests.test_utils_exceptions import *
 from recipe_scrapers.tests.test_whatsgabycooking import *
 from recipe_scrapers.tests.test_wikicookbook import *
 from recipe_scrapers.tests.test_yummly import *

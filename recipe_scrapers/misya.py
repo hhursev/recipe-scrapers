@@ -1,8 +1,8 @@
 from ._abstract import AbstractScraper
 
 
-class AllRecipes(AbstractScraper):
+class Misya(AbstractScraper):
 
     @classmethod
     def host(self):
-        return 'allrecipes.com'
+        return 'misya.info'

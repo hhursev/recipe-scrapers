@@ -57,7 +57,7 @@ class TestTineNoScraper(unittest.TestCase):
 
     def test_ratings(self):
         self.assertEqual(
-            "196",
+            3.9,
             self.harvester_class.ratings()
         )
 

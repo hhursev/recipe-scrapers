@@ -98,17 +98,6 @@ class TineNo(AbstractScraper):
                           for inst in ins
                           ])
 
-    def ratings(self):
-        r1 = 0
-        r = self.soup.find(
-            'span',
-            {'id': 'RatingButtonCount'}
-        )
-        if r:
-            r1 = normalize_string(r.get_text())
-
-        return r1 if r1 else None
-
     def description(self):
         d = normalize_string(self.soup.find(
             'div',
