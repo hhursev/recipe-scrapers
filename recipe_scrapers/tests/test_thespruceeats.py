@@ -33,11 +33,11 @@ class TestTheSpruceEatsScraper(unittest.TestCase):
         )
 
     def test_yields(self):
-        self.assertEqual("4 serving(s)", self.harvester_class.yields())
+        self.assertEqual("4 Servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
-            'https://www.thespruceeats.com/thmb/NRuxY8YJmof92GgShYoUFouVeIo=/2105x2105/filters:fill(auto,1)/aqIMG_1498fsq-5b343910c9e77c001a218bd0.jpg',
+            'https://www.thespruceeats.com/thmb/DKGKiOeI7L3iiDtLzOllsoaGksA=/2105x1184/smart/filters:no_upscale()/aqIMG_1498fsq-5b343910c9e77c001a218bd0.jpg',
             self.harvester_class.image()
         )
 

@@ -2,8 +2,7 @@ import extruct
 from ._utils import get_minutes, normalize_string
 
 SCHEMA_ORG_HOST = "schema.org"
-SCHEMA_NAME = "Recipe"
-SCHEMA_URL = "https://" + SCHEMA_ORG_HOST + "/" + SCHEMA_NAME
+SCHEMA_NAMES = ["Recipe", "WebPage"]
 
 SYNTAXES = ["microdata", "json-ld"]
 
@@ -15,7 +14,7 @@ class SchemaOrgException(Exception):
 
 class SchemaOrg:
 
-    def __init__(self, url, page_data):
+    def __init__(self, page_data):
         self.format = None
         self.data = {}
 
@@ -29,10 +28,12 @@ class SchemaOrg:
             for item in data.get(syntax, []):
                 if (
                     SCHEMA_ORG_HOST in item.get("@context", "") and
-                    item.get("@type", "").lower() == SCHEMA_NAME.lower()
+                    item.get("@type", "").lower() in [schema.lower() for schema in SCHEMA_NAMES]
                 ):
                     self.format = syntax
                     self.data = item
+                    if item.get("@type").lower() == 'webpage':
+                        self.data = self.data.get('mainEntity')
                     return
 
     def title(self):
@@ -62,6 +63,8 @@ class SchemaOrg:
         if type(image) == dict:
             return image.get('url')
         elif type(image) == list:
+            if type(image[0]) == dict:
+                return image[0].get('url')
             return image[0]
 
         return image

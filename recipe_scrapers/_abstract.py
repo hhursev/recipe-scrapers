@@ -44,9 +44,8 @@ class AbstractScraper:
             page_data = requests.get(url, headers=HEADERS).content
 
         self.soup = BeautifulSoup(page_data, "html.parser")
-        self.schema = SchemaOrg(url, page_data)
+        self.schema = SchemaOrg(page_data)
         self.url = url
-
         # if self.schema.data:
         #     print("Class: %s has schema." % (
         #         self.__class__.__name__

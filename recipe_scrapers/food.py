@@ -1,5 +1,3 @@
-import json
-
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, normalize_string, get_yields
 
@@ -46,11 +44,3 @@ class Food(AbstractScraper):
             instruction.get_text()
             for instruction in instructions
         ])
-
-    def ratings(self):
-        return round(float(json.loads(
-            self.soup.find(
-                'script',
-                {'type': 'application/ld+json'}
-            ).get_text()
-        ).get('aggregateRating').get('ratingValue')), 2)

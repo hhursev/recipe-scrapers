@@ -3,8 +3,6 @@
 # Freely released the code to recipe_scraper group
 # March 1st, 2020
 # ==========================================================
-import json
-
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, normalize_string, get_yields
 
@@ -24,7 +22,7 @@ class Delish(AbstractScraper):
             {'class': 'total-time-amount'}
         )
         return get_minutes(total_time_class)
-    
+
     def yields(self):
         yields_class = self.soup.find(
             'span',
@@ -51,7 +49,7 @@ class Delish(AbstractScraper):
                 'picture'
             )
             return image.find('source')['data-srcset'] if image else None
-    
+
     def ingredients(self):
         ingredients = self.soup.findAll(
             'div',
@@ -61,7 +59,7 @@ class Delish(AbstractScraper):
             normalize_string(ingredient.get_text())
             for ingredient in ingredients
         ]
-    
+
     def instructions(self):
         instructions = self.soup.find(
             'ol'
