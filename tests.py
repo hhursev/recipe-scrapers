@@ -26,6 +26,7 @@ from recipe_scrapers.tests.test_inspiralized import *
 from recipe_scrapers.tests.test_jamieoliver import *
 from recipe_scrapers.tests.test_justbento import *
 from recipe_scrapers.tests.test_kitchn import *
+from recipe_scrapers.tests.test_marmiton import *
 from recipe_scrapers.tests.test_matprat import *
 from recipe_scrapers.tests.test_mindmegette import *
 from recipe_scrapers.tests.test_misya import *
