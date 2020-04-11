@@ -26,6 +26,8 @@ def get_minutes(element):
             tstring = element.get_text()
         if '-' in tstring:
             tstring = tstring.split('-')[1]  # sometimes formats are like this: '12-15 minutes'
+        if 'h' in tstring:
+            tstring = tstring.replace('h', 'hours') + 'minutes'
         matched = TIME_REGEX.search(tstring)
 
         minutes = int(matched.groupdict().get('minutes') or 0)

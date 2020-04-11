@@ -78,6 +78,7 @@ Scrapers available for:
 - `http://jamieoliver.com/ <http://www.jamieoliver.com>`_
 - `https://justbento.com/ <https://justbento.com>`_
 - `https://www.thekitchn.com/ <https://www.thekitchn.com/>`_
+- `https://www.marmiton.org/ <https://www.marmiton.org/>`_
 - `https://www.matprat.no/ <https://www.matprat.no/>`_
 - `http://www.mindmegette.hu/ <http://www.mindmegette.hu/>`_
 - `https://www.misya.info/ <https://www.misya.info>`_
