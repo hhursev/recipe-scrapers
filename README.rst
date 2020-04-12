@@ -98,7 +98,7 @@ Scrapers available for:
 - `http://thehappyfoodie.co.uk/ <http://thehappyfoodie.co.uk>`_
 - `http://thevintagemixer.com/ <http://www.thevintagemixer.com>`_
 - `http://tine.no/ <http://tine.no>`_
-- `https://tudogostoso.com.br/ <https://www.tudogostoso.com.br/`_
+- `https://tudogostoso.com.br/ <https://www.tudogostoso.com.br/>`_
 - `http://twopeasandtheirpod.com/ <http://twopeasandtheirpod.com>`_
 - `http://whatsgabycooking.com/ <http://whatsgabycooking.com>`_
 - `http://yummly.com/ <http://yummly.com>`_
