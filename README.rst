@@ -118,7 +118,7 @@ If you want a scraper for a new site added
 
 - Open an `Issue <https://github.com/hhursev/recipe-scraper/issues/new>`_ providing us the site name, as well as a recipe link from it.
 - You are a developer and want to code the scraper on your own:
-    - If Schema is available on the site - `you can do this <https://github.com/hhursev/recipe-scrapers/pull/135>`_
+    - If Schema is available on the site - `you can do this <https://github.com/hhursev/recipe-scrapers/pull/135/files>`_
     - Otherwise, scrape the HTML - `like this <https://github.com/hhursev/recipe-scraper/pull/29/files>`_
 
 For Devs / Contribute
