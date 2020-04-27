@@ -1,4 +1,5 @@
 beautifulsoup4>=4.6.0
 coverage>=4.5.1
 extruct>=0.8.0
+language-tags>=1.0.0
 requests>=2.19.1

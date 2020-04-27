@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+from language_tags import tags
 
 from ._schemaorg import (
     SchemaOrg,
@@ -37,6 +38,13 @@ class AbstractScraper:
                         pass
                 return function(self, *args, **kwargs)
             return schema_org_priority_wrapper
+
+        @staticmethod
+        def bcp47_validate(function):
+            def bcp47_validate_wrapper(self, *args, **kwargs):
+                value = function(self, *args, **kwargs)
+                return value if tags.check(value) else None
+            return bcp47_validate_wrapper
 
     def __init__(self, url, test=False):
         if test:  # when testing, we load a file
@@ -90,6 +98,7 @@ class AbstractScraper:
         except AttributeError:  # if image not found
             raise NotImplementedError("This should be implemented.")
 
+    @Decorators.bcp47_validate
     @Decorators.schema_org_priority
     def language(self):
         """
