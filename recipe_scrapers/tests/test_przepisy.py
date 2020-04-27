@@ -23,6 +23,12 @@ class TestPrzepisyScraper(unittest.TestCase):
             self.harvester_class.host()
         )
 
+    def test_language(self):
+        self.assertEqual(
+            'pl',
+            self.harvester_class.language()
+        )
+
     def test_title(self):
         self.assertEqual(
             'Placki ziemniaczane',

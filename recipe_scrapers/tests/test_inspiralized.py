@@ -20,6 +20,12 @@ class TestInspiralizedScraper(unittest.TestCase):
             self.harvester_class.host()
         )
 
+    def test_language(self):
+        self.assertEqual(
+            'en-US',
+            self.harvester_class.language()
+        )
+
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),

@@ -14,12 +14,18 @@ class TestMindmegetteScraper(unittest.TestCase):
                 'test_data',
                 'mindmegette.testhtml'
         )) as file_opened:
-            self.harvester_class = Mindmegette(file_opened, test=True)
+            self.harvester_class = Mindmegette(file_opened, meta_http_equiv=True, test=True)
 
     def test_host(self):
         self.assertEqual(
             'mindmegette.hu',
             self.harvester_class.host()
+        )
+
+    def test_language(self):
+        self.assertEqual(
+            'hu-HU',
+            self.harvester_class.language()
         )
 
     def test_title(self):
