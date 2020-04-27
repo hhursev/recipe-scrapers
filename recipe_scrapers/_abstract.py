@@ -110,7 +110,7 @@ class AbstractScraper:
         """
         html = self.soup.find(
             'html',
-            {'lang': lambda x: x != 'en'}
+            {'lang': True}
         )
         if html:
             return html.get('lang')
@@ -121,7 +121,7 @@ class AbstractScraper:
             'meta',
             {
                 'http-equiv': lambda x: x and x.lower() == 'content-language',
-                'content': lambda x: x != 'en'
+                'content': True
             }
         )
         if meta_language:
