@@ -77,6 +77,7 @@ Scrapers available for:
 - `https://inspiralized.com/ <https://inspiralized.com>`_
 - `http://jamieoliver.com/ <http://www.jamieoliver.com>`_
 - `https://justbento.com/ <https://justbento.com>`_
+- `https://kennymcgovern.com/ <https://kennymcgovern.com>`_
 - `https://www.thekitchn.com/ <https://www.thekitchn.com/>`_
 - `https://www.marmiton.org/ <https://www.marmiton.org/>`_
 - `https://www.matprat.no/ <https://www.matprat.no/>`_
