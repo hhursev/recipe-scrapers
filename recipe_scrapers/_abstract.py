@@ -28,7 +28,7 @@ class AbstractScraper:
             def schema_org_priority_wrapper(self, *args, **kwargs):
                 if self.schema.data:
                     try:
-                        value =  self.schema.__getattribute__(
+                        value = self.schema.__getattribute__(
                             function.__name__
                         )(*args, **kwargs)
                         if value:
