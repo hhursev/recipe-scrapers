@@ -24,7 +24,7 @@ class TestMindmegetteScraper(unittest.TestCase):
 
     def test_language(self):
         self.assertEqual(
-            'hu-hu',
+            'hu-HU',
             self.harvester_class.language()
         )
 
