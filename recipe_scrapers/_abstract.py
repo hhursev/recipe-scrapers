@@ -126,8 +126,7 @@ class AbstractScraper:
         )
         if meta_language:
             for language in meta_language.get('content').split(','):
-                return language.strip()
-                break
+                return language
 
     @Decorators.schema_org_priority
     def ingredients(self):
