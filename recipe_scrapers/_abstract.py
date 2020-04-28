@@ -30,7 +30,8 @@ class AbstractScraper:
                 function = getattr(self.schema, decorated.__name__)
                 if not function:
                     raise SchemaOrgException(
-                        f"Function '{decorated.__name__}' not found in schema"
+                        "Function '{}' not found in schema"
+                        .format(decorated.__name)
                     )
 
                 if not self.schema.data:
