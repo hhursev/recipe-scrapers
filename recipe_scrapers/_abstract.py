@@ -38,12 +38,10 @@ class AbstractScraper:
 
                 try:
                     value = function(*args, **kwargs)
-                    if value:
-                        return value
                 except SchemaOrgException:
-                    pass
+                    return decorated(self, *args, **kwargs)
+                return value or decorated(self, *args, **kwargs)
 
-                return decorated(self, *args, **kwargs)
             return schema_org_priority_wrapper
 
         @staticmethod
