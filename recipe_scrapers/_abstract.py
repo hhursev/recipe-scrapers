@@ -20,23 +20,30 @@ class AbstractScraper:
         Define decorators for AbstractScraper methods here.
         """
         @staticmethod
-        def schema_org_priority(function):
+        def schema_org_priority(decorated):
             """
             Use SchemaOrg parser with priority (if there's data in it)
             On exception raised - continue by default.
             If there's no data (no schema implemented on the site) - continue by default
             """
             def schema_org_priority_wrapper(self, *args, **kwargs):
-                if self.schema.data:
-                    try:
-                        value = self.schema.__getattribute__(
-                            function.__name__
-                        )(*args, **kwargs)
-                        if value:
-                            return value
-                    except SchemaOrgException:
-                        pass
-                return function(self, *args, **kwargs)
+                function = getattr(self.schema, decorated.__name__)
+                if not function:
+                    raise SchemaOrgException(
+                        f"Function '{decorated.__name__}' not found in schema"
+                    )
+
+                if not self.schema.data:
+                    return decorated(self, *args, **kwargs)
+
+                try:
+                    value = function(*args, **kwargs)
+                    if value:
+                        return value
+                except SchemaOrgException:
+                    pass
+
+                return decorated(self, *args, **kwargs)
             return schema_org_priority_wrapper
 
         @staticmethod
