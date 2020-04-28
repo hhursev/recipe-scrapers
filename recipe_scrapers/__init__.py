@@ -137,7 +137,7 @@ class WebsiteNotImplementedError(NotImplementedError):
     pass
 
 
-def scrape_me(url_path):
+def scrape_me(url_path, **kwargs):
 
     host_name = url_path_to_dict(url_path.replace('://www.', '://'))['host']
 
@@ -148,7 +148,7 @@ def scrape_me(url_path):
             "Website ({}) is not supported".format(host_name)
         )
 
-    return scraper(url_path)
+    return scraper(url_path, **kwargs)
 
 
 __all__ = ['scrape_me']
