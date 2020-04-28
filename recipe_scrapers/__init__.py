@@ -26,6 +26,7 @@ from .ig import IG
 from .inspiralized import Inspiralized
 from .jamieoliver import JamieOliver
 from .justbento import JustBento
+from .kennymcgovern import KennyMcGovern
 from .kitchn import Kitchn
 from .marmiton import Marmiton
 from .matprat import Matprat
