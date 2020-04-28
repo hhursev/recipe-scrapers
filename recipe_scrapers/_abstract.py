@@ -142,7 +142,6 @@ class AbstractScraper:
         for language in candidate_languages:
             return language
 
-
     @Decorators.schema_org_priority
     def ingredients(self):
         raise NotImplementedError("This should be implemented.")
