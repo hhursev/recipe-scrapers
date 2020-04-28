@@ -37,7 +37,7 @@ class SchemaOrg:
                     return
 
     def language(self):
-        self.data.get("inLanguage") or self.data.get("language")
+        return self.data.get("inLanguage") or self.data.get("language")
 
     def title(self):
         return self.data.get("name")
