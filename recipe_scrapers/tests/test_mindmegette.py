@@ -14,7 +14,7 @@ class TestMindmegetteScraper(unittest.TestCase):
                 'test_data',
                 'mindmegette.testhtml'
         )) as file_opened:
-            self.harvester_class = Mindmegette(file_opened, meta_http_equiv=True, test=True)
+            self.harvester_class = Mindmegette(file_opened, test=True, meta_http_equiv=True)
 
     def test_host(self):
         self.assertEqual(
