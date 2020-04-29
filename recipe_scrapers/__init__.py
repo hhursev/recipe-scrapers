@@ -135,7 +135,11 @@ def url_path_to_dict(path):
 
 class WebsiteNotImplementedError(NotImplementedError):
     """ Error for when the website is not supported by this library. """
-    pass
+    def __init__(self, domain):
+        self.domain = domain
+
+    def __str__(self):
+        return "Website ({}) is not supported".format(self.domain)
 
 
 def scrape_me(url_path):
@@ -145,9 +149,7 @@ def scrape_me(url_path):
     try:
         scraper = SCRAPERS[host_name]
     except KeyError:
-        raise WebsiteNotImplementedError(
-            "Website ({}) is not supported".format(host_name)
-        )
+        raise WebsiteNotImplementedError(domain=host_name)
 
     return scraper(url_path)
 
