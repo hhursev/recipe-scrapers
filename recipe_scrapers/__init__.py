@@ -149,7 +149,7 @@ def scrape_me(url_path):
     try:
         scraper = SCRAPERS[host_name]
     except KeyError:
-        raise WebsiteNotImplementedError(domain=host_name)
+        raise WebsiteNotImplementedError(host_name)
 
     return scraper(url_path)
 
