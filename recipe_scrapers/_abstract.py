@@ -52,14 +52,14 @@ class AbstractScraper:
                 return str(tag) if tag.valid else None
             return bcp47_validate_wrapper
 
-    def __init__(self, url, test=False, **kwargs):
+    def __init__(self, url, test=False, meta_http_equiv=False):
         if test:  # when testing, we load a file
             with url:
                 page_data = url.read()
         else:
             page_data = requests.get(url, headers=HEADERS).content
 
-        self.meta_http_equiv = kwargs.get('meta_http_equiv', False)
+        self.meta_http_equiv = meta_http_equiv
         self.soup = BeautifulSoup(page_data, "html.parser")
         self.schema = SchemaOrg(page_data)
         self.url = url

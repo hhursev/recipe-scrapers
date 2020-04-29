@@ -1,4 +1,6 @@
+import inspect
 import re
+from tldextract import TLDExtract
 
 from .allrecipes import AllRecipes
 from .bbcfood import BBCFood
@@ -140,6 +142,25 @@ class WebsiteNotImplementedError(NotImplementedError):
 
     def __str__(self):
         return "Website ({}) is not supported".format(self.domain)
+
+
+def get_domain(url):
+    tldextract = TLDExtract(suffix_list_urls=None)
+    url_info = tldextract(url)
+    return '{}.{}'.format(url_info.domain, url_info.suffix)
+
+
+def harvest(url, **options):
+    domain = get_domain(url)
+    if domain not in SCRAPERS:
+        raise WebsiteNotImplementedError(domain)
+
+    scraper = SCRAPERS[domain]
+    options = {
+        option: value for option, value in options.items()
+        if option in inspect.signature(scraper).parameters
+    }
+    return scraper(url, **options)
 
 
 def scrape_me(url_path):
