@@ -8,9 +8,7 @@ class TestTudoGostosoScraper(unittest.TestCase):
     def setUp(self):
         # tests are run from tests.py
         with open(os.path.join(
-            os.getcwd(),
-            'recipe_scrapers',
-            'tests',
+            os.path.dirname(os.path.realpath(__file__)),
             'test_data',
             'tudogostoso.testhtml'
         )) as file_opened:
