@@ -1,18 +1,11 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.steamykitchen import SteamyKitchen
 
 
-class TestSteamyKitchenScraper(unittest.TestCase):
-    def setUp(self):
-        # tests are run from tests.py
-        with open(os.path.join(
-            os.path.dirname(os.path.realpath(__file__)),
-            'test_data',
-            'steamykitchen.testhtml'
-        )) as file_opened:
-            self.harvester_class = SteamyKitchen(file_opened, test=True)
+class TestSteamyKitchenScraper(ScraperTest):
+
+    scraper_class = SteamyKitchen
 
     def test_host(self):
         self.assertEqual(

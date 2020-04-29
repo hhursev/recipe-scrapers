@@ -1,18 +1,11 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.cookstr import Cookstr
 
 
-class TestCookstrScraper(unittest.TestCase):
-    def setUp(self):
-        # tests are run from tests.py
-        with open(os.path.join(
-            os.path.dirname(os.path.realpath(__file__)),
-            'test_data',
-            'cookstr.testhtml'
-        )) as file_opened:
-            self.harvester_class = Cookstr(file_opened, test=True)
+class TestCookstrScraper(ScraperTest):
+
+    scraper_class = Cookstr
 
     def test_host(self):
         self.assertEqual(

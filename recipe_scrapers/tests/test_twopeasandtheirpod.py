@@ -1,18 +1,11 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.twopeasandtheirpod import TwoPeasAndTheirPod
 
 
-class TestTwoPeasAndTheirPodScraper(unittest.TestCase):
-    def setUp(self):
-        # tests are run from tests.py
-        with open(os.path.join(
-            os.path.dirname(os.path.realpath(__file__)),
-            'test_data',
-            'twopeasandtheirpod.testhtml'
-        )) as file_opened:
-            self.harvester_class = TwoPeasAndTheirPod(file_opened, test=True)
+class TestTwoPeasAndTheirPodScraper(ScraperTest):
+
+    scraper_class = TwoPeasAndTheirPod
 
     def test_host(self):
         self.assertEqual(

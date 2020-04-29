@@ -1,5 +1,4 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.nihhealthyeating import NIHHealthyEating
 
@@ -7,15 +6,9 @@ from recipe_scrapers.nihhealthyeating import NIHHealthyEating
 # https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?linkId=17&cId=10&rId=247
 
 
-class TestNIHHealthyEatingRecipesScraper(unittest.TestCase):
-    def setUp(self):
-        # tests are run from tests.py
-        with open(os.path.join(
-            os.path.dirname(os.path.realpath(__file__)),
-            'test_data',
-            'nihhealthyeating.testhtml'
-        )) as file_opened:
-            self.harvester_class = NIHHealthyEating(file_opened, test=True)
+class TestNIHHealthyEatingRecipesScraper(ScraperTest):
+
+    scraper_class = NIHHealthyEating
 
     def test_host(self):
         self.assertEqual(

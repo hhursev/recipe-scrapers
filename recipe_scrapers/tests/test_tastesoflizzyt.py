@@ -1,18 +1,11 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.tastesoflizzyt import TastesOfLizzyT
 
 
-class TestTastesOfLizzyTScraper(unittest.TestCase):
-    def setUp(self):
-        # tests are run from tests.py
-        with open(os.path.join(
-            os.path.dirname(os.path.realpath(__file__)),
-            'test_data',
-            'tastesoflizzyt.testhtml'
-        )) as file_opened:
-            self.harvester_class = TastesOfLizzyT(file_opened, test=True)
+class TestTastesOfLizzyTScraper(ScraperTest):
+
+    scraper_class = TastesOfLizzyT
 
     def test_host(self):
         self.assertEqual(

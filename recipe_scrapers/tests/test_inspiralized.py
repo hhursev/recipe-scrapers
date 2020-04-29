@@ -1,18 +1,11 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.inspiralized import Inspiralized
 
 
-class TestInspiralizedScraper(unittest.TestCase):
-    def setUp(self):
-        # tests are run from tests.py
-        with open(os.path.join(
-            os.path.dirname(os.path.realpath(__file__)),
-            'test_data',
-            'inspiralized.testhtml'
-        )) as file_opened:
-            self.harvester_class = Inspiralized(file_opened, test=True)
+class TestInspiralizedScraper(ScraperTest):
+
+    scraper_class = Inspiralized
 
     def test_host(self):
         self.assertEqual(

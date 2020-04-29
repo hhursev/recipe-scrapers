@@ -1,19 +1,13 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.kitchn import Kitchn
 
 
-class TestKitchnScraper(unittest.TestCase):
+class TestKitchnScraper(ScraperTest):
+
+    scraper_class = Kitchn
+
     maxDiff = None
-    def setUp(self):
-        # tests are run from tests.py
-        with open(os.path.join(
-            os.path.dirname(os.path.realpath(__file__)),
-            'test_data',
-            'kitchn.testhtml'
-        )) as file_opened:
-            self.harvester_class = Kitchn(file_opened, test=True)
 
     def test_host(self):
         self.assertEqual(

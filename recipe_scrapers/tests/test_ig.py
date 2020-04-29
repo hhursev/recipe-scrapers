@@ -1,18 +1,11 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.ig import IG
 
 
-class TestIGScraper(unittest.TestCase):
-    def setUp(self):
-        # tests are run from tests.py
-        with open(os.path.join(
-            os.path.dirname(os.path.realpath(__file__)),
-            'test_data',
-            'ig.testhtml'
-        )) as file_opened:
-            self.harvester_class = IG(file_opened, test=True)
+class TestIGScraper(ScraperTest):
+
+    scraper_class = IG
 
     def test_host(self):
         self.assertEqual(
