@@ -17,6 +17,7 @@ setup(
     install_requires=[
         "beautifulsoup4>=4.6.0",
         "extruct>=0.8.0",
+        "language-tags>=1.0.0",
         "requests>=2.19.1",
         "tldextract==2.2.2",
     ],

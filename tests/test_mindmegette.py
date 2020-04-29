@@ -6,11 +6,20 @@ from recipe_scrapers.mindmegette import Mindmegette
 class TestMindmegetteScraper(ScraperTest):
 
     scraper_class = Mindmegette
+    scraper_options = {
+        'meta_http_equiv': True,
+    }
 
     def test_host(self):
         self.assertEqual(
             'mindmegette.hu',
             self.harvester_class.host()
+        )
+
+    def test_language(self):
+        self.assertEqual(
+            'hu-HU',
+            self.harvester_class.language()
         )
 
     def test_title(self):

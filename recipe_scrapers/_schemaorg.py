@@ -36,6 +36,9 @@ class SchemaOrg:
                         self.data = self.data.get('mainEntity')
                     return
 
+    def language(self):
+        return self.data.get("inLanguage") or self.data.get("language")
+
     def title(self):
         return self.data.get("name")
 
