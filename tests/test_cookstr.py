@@ -25,7 +25,7 @@ class TestCookstrScraper(ScraperTest):
             self.harvester_class.total_time()
         )
 
-    def test_total_time(self):
+    def test_total_yields(self):
         self.assertEqual(
             0,
             self.harvester_class.yields()
