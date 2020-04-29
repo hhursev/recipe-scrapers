@@ -1,5 +1,4 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.przepisy import Przepisy
 
@@ -7,15 +6,9 @@ from recipe_scrapers.przepisy import Przepisy
 # https://www.przepisy.pl/przepis/placki-ziemniaczane
 
 
-class TestPrzepisyScraper(unittest.TestCase):
-    def setUp(self):
-        # tests are run from tests.py
-        with open(os.path.join(
-            os.path.dirname(os.path.realpath(__file__)),
-            'test_data',
-            'przepisy.testhtml'
-        )) as file_opened:
-            self.harvester_class = Przepisy(file_opened, test=True)
+class TestPrzepisyScraper(ScraperTest):
+
+    scraper_class = Przepisy
 
     def test_host(self):
         self.assertEqual(

@@ -1,18 +1,11 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.budgetbytes import BudgetBytes
 
 
-class TestBudgetBytesScraper(unittest.TestCase):
-    def setUp(self):
-        # tests are run from tests.py
-        with open(os.path.join(
-            os.path.dirname(os.path.realpath(__file__)),
-            'test_data',
-            'budgetbytes.testhtml'
-        )) as file_opened:
-            self.harvester_class = BudgetBytes(file_opened, test=True)
+class TestBudgetBytesScraper(ScraperTest):
+
+    scraper_class = BudgetBytes
 
     def test_host(self):
         self.assertEqual(

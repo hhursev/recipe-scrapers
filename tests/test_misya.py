@@ -1,18 +1,11 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.misya import Misya
 
 
-class TestMisya(unittest.TestCase):
-    def setUp(self):
-        # tests are run from tests.py
-        with open(os.path.join(
-            os.path.dirname(os.path.realpath(__file__)),
-            'test_data',
-            'misya.testhtml'
-        )) as file_opened:
-            self.harvester_class = Misya(file_opened, test=True)
+class TestMisya(ScraperTest):
+
+    scraper_class = Misya
 
     def test_host(self):
         self.assertEqual(

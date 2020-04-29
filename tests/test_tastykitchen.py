@@ -1,18 +1,11 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.tastykitchen import TastyKitchen
 
 
-class TestTastyKitchenScraper(unittest.TestCase):
-    def setUp(self):
-        # tests are run from tests.py
-        with open(os.path.join(
-            os.path.dirname(os.path.realpath(__file__)),
-            'test_data',
-            'tasty_kitchen.testhtml'
-        )) as file_opened:
-            self.harvester_class = TastyKitchen(file_opened, test=True)
+class TestTastyKitchenScraper(ScraperTest):
+
+    scraper_class = TastyKitchen
 
     def test_host(self):
         self.assertEqual(

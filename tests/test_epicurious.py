@@ -1,18 +1,11 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.epicurious import Epicurious
 
 
-class TestEpicurious(unittest.TestCase):
-    def setUp(self):
-        # tests are run from tests.py
-        with open(os.path.join(
-            os.path.dirname(os.path.realpath(__file__)),
-            'test_data',
-            'epicurious.testhtml'
-        )) as file_opened:
-            self.harvester_class = Epicurious(file_opened, test=True)
+class TestEpicurious(ScraperTest):
+
+    scraper_class = Epicurious
 
     def test_host(self):
         self.assertEqual(

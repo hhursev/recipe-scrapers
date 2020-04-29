@@ -1,18 +1,11 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.bettycrocker import BettyCrocker
 
 
-class TestBettyCrocker(unittest.TestCase):
-    def setUp(self):
-        # tests are run from tests.py
-        with open(os.path.join(
-            os.path.dirname(os.path.realpath(__file__)),
-            'test_data',
-            'bettycrocker.testhtml'
-        )) as file_opened:
-            self.harvester_class = BettyCrocker(file_opened, test=True)
+class TestBettyCrocker(ScraperTest):
+
+    scraper_class = BettyCrocker
 
     def test_host(self):
         self.assertEqual(

@@ -1,18 +1,11 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.cybercook import Cybercook
 
 
-class TestCybercook(unittest.TestCase):
-    def setUp(self):
-        # tests are run from tests.py
-        with open(os.path.join(
-            os.path.dirname(os.path.realpath(__file__)),
-            'test_data',
-            'cybercook.testhtml'
-        )) as file_opened:
-            self.harvester_class = Cybercook(file_opened, test=True)
+class TestCybercook(ScraperTest):
+
+    scraper_class = Cybercook
 
     def test_host(self):
         self.assertEqual(

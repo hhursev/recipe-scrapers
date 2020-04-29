@@ -1,18 +1,11 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.greatbritishchefs import GreatBritishChefs
 
 
-class TestGreatBritishChefsScraper(unittest.TestCase):
-    def setUp(self):
-        # tests are run from tests.py
-        with open(os.path.join(
-            os.path.dirname(os.path.realpath(__file__)),
-            'test_data',
-            'greatbritishchefs.testhtml'
-        )) as file_opened:
-            self.harvester_class = GreatBritishChefs(file_opened, test=True)
+class TestGreatBritishChefsScraper(ScraperTest):
+
+    scraper_class = GreatBritishChefs
 
     def test_host(self):
         self.assertEqual(

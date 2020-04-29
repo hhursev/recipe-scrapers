@@ -1,17 +1,11 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.marmiton import Marmiton
 
 
-class TestMarmitonScraper(unittest.TestCase):
-    def setUp(self):
-        with open(os.path.join(
-            os.path.dirname(os.path.realpath(__file__)),
-            'test_data',
-            'marmiton.testhtml'
-        )) as file_opened:
-            self.harvester_class = Marmiton(file_opened, test=True)
+class TestMarmitonScraper(ScraperTest):
+
+    scraper_class = Marmiton
 
     def test_host(self):
         self.assertEqual(

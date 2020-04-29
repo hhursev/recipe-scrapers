@@ -1,18 +1,11 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.mindmegette import Mindmegette
 
 
-class TestMindmegetteScraper(unittest.TestCase):
-    def setUp(self):
-        # tests are run from tests.py
-        with open(os.path.join(
-                os.path.dirname(os.path.realpath(__file__)),
-                'test_data',
-                'mindmegette.testhtml'
-        )) as file_opened:
-            self.harvester_class = Mindmegette(file_opened, test=True)
+class TestMindmegetteScraper(ScraperTest):
+
+    scraper_class = Mindmegette
 
     def test_host(self):
         self.assertEqual(
