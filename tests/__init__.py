@@ -3,6 +3,7 @@ import unittest
 
 from tldextract import TLDExtract
 
+
 class ScraperTest(unittest.TestCase):
 
     def setUp(self):
