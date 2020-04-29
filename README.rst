@@ -135,7 +135,7 @@ Assuming you have `python3` installed, navigate to the directory where you want 
     python3 -m venv .venv &&
     source .venv/bin/activate &&
     pip install -r requirements.txt &&
-    coverage run tests.py &&
+    coverage run -m unittest &&
     coverage report
 
 
