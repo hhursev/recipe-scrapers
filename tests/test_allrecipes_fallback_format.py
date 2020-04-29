@@ -5,12 +5,18 @@ from recipe_scrapers.allrecipes import AllRecipes
 
 class TestAllRecipesFallbackFormatScraper(ScraperTest):
 
-    scraper_class = AllRecipes
+    class AllRecipesFallbackFormat(AllRecipes):
+
+        @classmethod
+        def host(cls):
+            return 'allrecipes_fallback_format.com'
+
+    scraper_class = AllRecipesFallbackFormat
 
     def test_host(self):
         self.assertEqual(
             'allrecipes.com',
-            self.harvester_class.host()
+            self.harvester_class.__class__.__bases__[0].host()
         )
 
     def test_title(self):
