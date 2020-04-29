@@ -3,7 +3,7 @@ from tests import ScraperTest
 from recipe_scrapers.heinzbrasil import HeinzBrasil
 
 
-class TestHeizBrasilScraper(ScraperTest):
+class TestHeinzBrasilScraper(ScraperTest):
 
     scraper_class = HeinzBrasil
 
