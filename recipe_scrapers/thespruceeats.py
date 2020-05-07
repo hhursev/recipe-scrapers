@@ -20,10 +20,10 @@ class TheSpruceEats(AbstractScraper):
 
     def yields(self):
         return get_yields(json.loads(
-            self.soup.find(
+            str().join(self.soup.find(
                 'script',
                 {'type': 'application/ld+json'}
-            ).get_text()
+            ).contents)
         ).get('mainEntity').get('recipeYield'))
 
     def ingredients(self):
@@ -53,8 +53,8 @@ class TheSpruceEats(AbstractScraper):
 
     def ratings(self):
         return round(float(json.loads(
-            self.soup.find(
+            str().join(self.soup.find(
                 'script',
                 {'type': 'application/ld+json'}
-            ).get_text()
+            ))
         ).get('mainEntity').get('aggregateRating').get('ratingValue')), 2)

@@ -49,8 +49,8 @@ class Food(AbstractScraper):
 
     def ratings(self):
         return round(float(json.loads(
-            self.soup.find(
+            str().join(self.soup.find(
                 'script',
                 {'type': 'application/ld+json'}
-            ).get_text()
+            ))
         ).get('aggregateRating').get('ratingValue')), 2)
