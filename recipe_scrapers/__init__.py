@@ -163,7 +163,7 @@ def harvest(url, **options):
     return scraper(url, **options)
 
 
-def scrape_me(url_path):
+def scrape_me(url_path, **options):
 
     host_name = url_path_to_dict(url_path.replace('://www.', '://'))['host']
 
@@ -172,7 +172,7 @@ def scrape_me(url_path):
     except KeyError:
         raise WebsiteNotImplementedError(host_name)
 
-    return scraper(url_path)
+    return scraper(url_path, **options)
 
 
 __all__ = ['scrape_me']
