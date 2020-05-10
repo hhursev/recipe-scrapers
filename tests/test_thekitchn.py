@@ -1,11 +1,11 @@
 from tests import ScraperTest
 
-from recipe_scrapers.kitchn import Kitchn
+from recipe_scrapers.thekitchn import TheKitchn
 
 
 class TestKitchnScraper(ScraperTest):
 
-    scraper_class = Kitchn
+    scraper_class = TheKitchn
 
     maxDiff = None
 

@@ -30,7 +30,7 @@ from .inspiralized import Inspiralized
 from .jamieoliver import JamieOliver
 from .justbento import JustBento
 from .kennymcgovern import KennyMcGovern
-from .kitchn import Kitchn
+from .thekitchn import TheKitchn
 from .marmiton import Marmiton
 from .matprat import Matprat
 from .mindmegette import Mindmegette
@@ -89,7 +89,7 @@ SCRAPERS = {
     Inspiralized.host(): Inspiralized,
     JamieOliver.host(): JamieOliver,
     JustBento.host(): JustBento,
-    Kitchn.host(): Kitchn,
+    TheKitchn.host(): TheKitchn,
     Marmiton.host(): Marmiton,
     Matprat.host(): Matprat,
     Mindmegette.host(): Mindmegette,
