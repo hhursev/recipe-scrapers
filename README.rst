@@ -31,7 +31,7 @@ then:
     from recipe_scrapers import scrape_me
 
     # give the url as a string, it can be url from any site listed below
-    scraper = scrape_me('http://allrecipes.com/Recipe/Apple-Cake-Iv/Detail.aspx')
+    scraper = scrape_me('https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/')
 
     scraper.title()
     scraper.total_time()
@@ -121,8 +121,8 @@ If you want a scraper for a new site added
 
 - Open an `Issue <https://github.com/hhursev/recipe-scraper/issues/new>`_ providing us the site name, as well as a recipe link from it.
 - You are a developer and want to code the scraper on your own:
-    - If Schema is available on the site - `you can do this <https://github.com/hhursev/recipe-scrapers/pull/135/files>`_
-    - Otherwise, scrape the HTML - `like this <https://github.com/hhursev/recipe-scraper/pull/29/files>`_
+    - If Schema is available on the site - `you can do this <https://github.com/hhursev/recipe-scrapers/commit/178c41e2f2>`_
+    - Otherwise, scrape the HTML - `like this <https://github.com/hhursev/recipe-scrapers/commit/ffee963d04>`_
 
 For Devs / Contribute
 ---------------------

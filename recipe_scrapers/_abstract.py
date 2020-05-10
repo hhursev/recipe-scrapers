@@ -82,7 +82,8 @@ class AbstractScraper:
                             'image': '',
                             'ingredients': [],
                             'instructions': '',
-                            'reviews': -1,
+                            'ratings': -1,
+                            'reviews': None,
                             'links': [],
                             'language': 'en',
                         }
