@@ -54,6 +54,7 @@ from .thevintagemixer import TheVintageMixer
 from .tineno import TineNo
 from .tudogostoso import TudoGostoso
 from .twopeasandtheirpod import TwoPeasAndTheirPod
+from .vegolosi import Vegolosi
 from .whatsgabycooking import WhatsGabyCooking
 from .wikicookbook import WikiCookbook
 from .yummly import Yummly
@@ -113,6 +114,7 @@ SCRAPERS = {
     TineNo.host(): TineNo,
     TudoGostoso.host(): TudoGostoso,
     TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
+    Vegolosi.host(): Vegolosi,
     WhatsGabyCooking.host(): WhatsGabyCooking,
     WikiCookbook.host(): WikiCookbook,
     Yummly.host(): Yummly,
