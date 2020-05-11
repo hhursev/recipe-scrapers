@@ -49,7 +49,7 @@ class TestVegolosiScraper(unittest.TestCase):
                 '20 g di olio extravergine di oliva',
                 'basilico',
                 'sale e pepe',
-                '250 ml latte di soia senza zucchero(oppure brodo vegetale o latte di avena o farro)',
+                '250 ml latte di soia senza zucchero ( oppure brodo vegetale o latte di avena o farro)',
                 '15 g amido di mais o fecola di patate',
                 '1 bustina zafferano in polvere',
                 'Sale',
