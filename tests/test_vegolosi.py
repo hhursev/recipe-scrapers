@@ -80,9 +80,3 @@ class TestVegolosiScraper(unittest.TestCase):
             Servite le polpette vegan ben calde e con la loro salsa come accompagnamento.",
             self.harvester_class.instructions()
         )
-
-    def test_ratings(self):
-        self.assertEqual(
-            4.0,
-            self.harvester_class.ratings()
-        )
