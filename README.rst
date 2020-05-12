@@ -103,6 +103,7 @@ Scrapers available for:
 - `http://tine.no/ <http://tine.no>`_
 - `https://tudogostoso.com.br/ <https://www.tudogostoso.com.br/>`_
 - `http://twopeasandtheirpod.com/ <http://twopeasandtheirpod.com>`_
+- `http://vegolosi.it/ <http://vegolosi.it>`_
 - `http://whatsgabycooking.com/ <http://whatsgabycooking.com>`_
 - `http://yummly.com/ <http://yummly.com>`_
 
