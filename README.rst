@@ -84,6 +84,7 @@ Scrapers available for:
 - `https://www.matprat.no/ <https://www.matprat.no/>`_
 - `http://www.mindmegette.hu/ <http://www.mindmegette.hu/>`_
 - `https://www.misya.info/ <https://www.misya.info>`_
+- `http://www.motherthyme.com/ <http://www.motherthyme.com/>`_
 - `http://mybakingaddiction.com/ <http://mybakingaddiction.com>`_
 - `https://panelinha.com.br/ <https://panelinha.com.br>`_
 - `http://paninihappy.com/ <http://paninihappy.com>`_
@@ -102,6 +103,7 @@ Scrapers available for:
 - `http://tine.no/ <http://tine.no>`_
 - `https://tudogostoso.com.br/ <https://www.tudogostoso.com.br/>`_
 - `http://twopeasandtheirpod.com/ <http://twopeasandtheirpod.com>`_
+- `http://vegolosi.it/ <http://vegolosi.it>`_
 - `http://whatsgabycooking.com/ <http://whatsgabycooking.com>`_
 - `http://yummly.com/ <http://yummly.com>`_
 
