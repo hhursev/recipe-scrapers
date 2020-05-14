@@ -84,3 +84,4 @@ class Gousto(AbstractScraper):
         rating = int(ratings['alt'][0])
 
         return rating
+        
