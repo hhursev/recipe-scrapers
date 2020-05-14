@@ -4,7 +4,7 @@ import unittest
 class ScraperTest(unittest.TestCase):
 
     def setUp(self):
-        options = {'default_exception_handling': False}
+        options = {'exception_handling': False}
         options.update(getattr(self, 'scraper_options', {}))
 
         with open('tests/test_data/{}.testhtml'.format(
