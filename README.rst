@@ -70,6 +70,7 @@ Scrapers available for:
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
 - `http://giallozafferano.it/ <http://giallozafferano.it>`_
 - `http://gonnawantseconds.com/ <http://gonnawantseconds.com>`_
+- `https://www.gousto.co.uk/ <https://www.gousto.co.uk>`_
 - `https://healthyeating.nhlbi.nih.gov/ <https://healthyeating.nhlbi.nih.gov>`_
 - `https://heinzbrasil.com.br/ <https://heinzbrasil.com.br>`_
 - `https://www.hellofresh.com/ <https://www.hellofresh.com>`_
