@@ -9,7 +9,7 @@ class Cucchiaio(AbstractScraper):
         return 'cucchiaio.it'
 
     def title(self):
-        return self.soup.find('h1').get_text()
+        return self.soup.find('h1').get_text().strip()
 
     def total_time(self):
         possible_time_info_elements = self.soup.findAll(
