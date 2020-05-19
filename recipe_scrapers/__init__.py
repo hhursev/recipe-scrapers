@@ -12,6 +12,7 @@ from .closetcooking import ClosetCooking
 from .cookpad import CookPad
 from .cookstr import Cookstr
 from .copykat import CopyKat
+from .cucchiaio import Cucchiaio
 from .cybercook import Cybercook
 from .delish import Delish
 from .epicurious import Epicurious
@@ -72,6 +73,7 @@ SCRAPERS = {
     CookPad.host(): CookPad,
     Cookstr.host(): Cookstr,
     CopyKat.host(): CopyKat,
+    Cucchiaio.host(): Cucchiaio,
     Cybercook.host(): Cybercook,
     Delish.host(): Delish,
     Epicurious.host(): Epicurious,
