@@ -119,7 +119,6 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
             if link['href'] not in invalid_href
         ]
 
-    @Decorators.default_exception_handling
     def steps(self):
         """
         Text and Image of the instructions steps

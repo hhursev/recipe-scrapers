@@ -14,7 +14,7 @@ class Cucchiaio(AbstractScraper):
     def total_time(self):
         possible_time_info_elements = self.soup.findAll(
             'span',
-            {'class': 'gz-name-featured-data'}
+            {'class': 'scheda-def'}
         )
 
         return sum([
@@ -22,27 +22,20 @@ class Cucchiaio(AbstractScraper):
             for element in possible_time_info_elements
         ])
 
-    def yields(self):
-        possible_yields_info_elements = self.soup.findAll(
-            'span',
-            {'class': 'gz-name-featured-data'}
-        )
-        for element in possible_yields_info_elements:
-            if 'persone' in element.get_text():
-                return get_yields(element)
-        return ""
+    # def yields(self):
+    #     possible_yields_info_elements = self.soup.findAll(
+    #         'span',
+    #         {'class': 'gz-name-featured-data'}
+    #     )
+    #     for element in possible_yields_info_elements:
+    #         if 'persone' in element.get_text():
+    #             return get_yields(element)
+    #     return ""
 
     def ingredients(self):
-        ingredients = self.soup.findAll(
-            'dd',
-            {'class': "gz-ingredient"}
+        ingredients = self.soup.find('ul', {'class': 'ingredients-list'}).findAll(
+            'li'
         )
-
-        if not ingredients:
-            ingredients = self.soup.findAll(
-                'li',
-                {'class': "gz-ingredient"}
-            )
 
         return [
             normalize_string(ingredient.get_text())
@@ -53,7 +46,7 @@ class Cucchiaio(AbstractScraper):
 
         instructions = self.soup.findAll(
             'div',
-            {'class': 'gz-content-recipe-step'}
+            {'class': 'recipe_procedures'}
         )
 
         return '\n'.join([
@@ -61,10 +54,39 @@ class Cucchiaio(AbstractScraper):
             for instruction in instructions
         ])
 
-    def ratings(self):
-        return round(float(
-            self.soup.find(
-                'div',
-                {'class': 'gz-rating-panel rating_panel'}
-            ).get('data-content-rate').replace(',', '.')
-        ), 2)
+    # def ratings(self):
+    #     """
+    #     The average rating is expressed in yellow stars icons
+    #     or
+    #     in the ld+json script
+    #
+    #     :return:
+    #     """
+    #     return sum(float(
+    #         self.soup.find(
+    #             'div',
+    #             {'class': 'voto-box'}
+    #         ).get('data-content-rate').replace(',', '.')
+    #     ), 2)
+
+    def steps(self):
+        """
+        Text and Image of the instructions steps
+
+        Try to fetch it from an hypothetical step structure
+        based on cucchiaio.it
+        :return array of steps: [{"texts": [], "images": []}]
+        """
+        steps = []
+        steps_containers = self.soup.findAll('div', {'class': 'recipe_procedures'})
+        for step_elem in steps_containers:
+            step = {"texts": [], "images": []}
+            texts = step_elem.findAll('p')
+            step["texts"] = texts
+            images = step_elem.findAll(
+                'img',
+                {'content': True}
+            )
+            step["images"] = images
+            steps.append(step)
+        return steps
