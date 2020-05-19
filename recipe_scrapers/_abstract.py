@@ -118,3 +118,32 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
             for link in links_html
             if link['href'] not in invalid_href
         ]
+
+    def steps(self):
+        """
+        Text and Image of the instructions steps
+
+        Try to fetch it from an hypothetical step structure
+        based on cucchiaio.it
+        :return array of steps made of texts and images
+        """
+        try:
+            steps = []
+            steps_container = self.soup.find('div', {'class': 'procedure-par'})
+            for step_elem in steps_container.children:
+                step = {"texts": [], "images": []}
+                step_container = step_elem.find()
+                texts = step_container.findAll(
+                    'div',
+                    {'class': 'step', 'content': True}
+                )
+                step["texts"] = texts
+                images = step_container.findAll(
+                    'div',
+                    {'class': 'og:image', 'content': True}
+                )
+                step["images"] = images
+                steps.append(step)
+            return steps
+        except AttributeError:  # if image not found
+            raise NotImplementedError("This should be implemented.")
