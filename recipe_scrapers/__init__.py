@@ -22,6 +22,7 @@ from .foodnetwork import FoodNetwork
 from .foodrepublic import FoodRepublic
 from .giallozafferano import GialloZafferano
 from .gonnawantseconds import GonnaWantSeconds
+from .gousto import Gousto
 from .greatbritishchefs import GreatBritishChefs
 from .heinzbrasil import HeinzBrasil
 from .hellofresh import HelloFresh
@@ -36,6 +37,7 @@ from .marmiton import Marmiton
 from .matprat import Matprat
 from .mindmegette import Mindmegette
 from .misya import Misya
+from .motherthyme import MotherThyme
 from .mybakingaddiction import MyBakingAddiction
 from .nihhealthyeating import NIHHealthyEating
 from .panelinha import Panelinha
@@ -83,6 +85,7 @@ SCRAPERS = {
     FoodRepublic.host(): FoodRepublic,
     GialloZafferano.host(): GialloZafferano,
     GonnaWantSeconds.host(): GonnaWantSeconds,
+    Gousto.host(): Gousto,
     GreatBritishChefs.host(): GreatBritishChefs,
     HeinzBrasil.host(): HeinzBrasil,
     HelloFresh.host(): HelloFresh,
@@ -97,6 +100,7 @@ SCRAPERS = {
     Matprat.host(): Matprat,
     Mindmegette.host(): Mindmegette,
     Misya.host(): Misya,
+    MotherThyme.host(): MotherThyme,
     MyBakingAddiction.host(): MyBakingAddiction,
     NIHHealthyEating.host(): NIHHealthyEating,
     Panelinha.host(): Panelinha,

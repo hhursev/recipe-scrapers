@@ -70,6 +70,7 @@ Scrapers available for:
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
 - `http://giallozafferano.it/ <http://giallozafferano.it>`_
 - `http://gonnawantseconds.com/ <http://gonnawantseconds.com>`_
+- `https://www.gousto.co.uk/ <https://www.gousto.co.uk>`_
 - `https://healthyeating.nhlbi.nih.gov/ <https://healthyeating.nhlbi.nih.gov>`_
 - `https://heinzbrasil.com.br/ <https://heinzbrasil.com.br>`_
 - `https://www.hellofresh.com/ <https://www.hellofresh.com>`_
@@ -84,6 +85,7 @@ Scrapers available for:
 - `https://www.matprat.no/ <https://www.matprat.no/>`_
 - `http://www.mindmegette.hu/ <http://www.mindmegette.hu/>`_
 - `https://www.misya.info/ <https://www.misya.info>`_
+- `http://www.motherthyme.com/ <http://www.motherthyme.com/>`_
 - `http://mybakingaddiction.com/ <http://mybakingaddiction.com>`_
 - `https://panelinha.com.br/ <https://panelinha.com.br>`_
 - `http://paninihappy.com/ <http://paninihappy.com>`_
