@@ -85,7 +85,7 @@ class Cucchiaio(AbstractScraper):
             step["texts"] = texts
             images = step_elem.findAll(
                 'img',
-                {'content': True}
+                {'src': True}
             )
             step["images"] = images
             steps.append(step)
