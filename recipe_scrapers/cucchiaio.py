@@ -81,12 +81,20 @@ class Cucchiaio(AbstractScraper):
         steps_containers = self.soup.findAll('div', {'class': 'recipe_procedures'})
         for step_elem in steps_containers:
             step = {"texts": [], "images": []}
-            texts = step_elem.findAll('p')
+            text_elems = step_elem.findAll('p')
+            texts = [
+                normalize_string(el.get_text())
+                for el in text_elems
+            ]
             step["texts"] = texts
-            images = step_elem.findAll(
+            image_elems = step_elem.findAll(
                 'img',
                 {'src': True}
             )
+            images = [
+                el['src']
+                for el in image_elems
+            ]
             step["images"] = images
             steps.append(step)
         return steps
