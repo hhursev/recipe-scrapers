@@ -4,7 +4,6 @@ source = recipe_scrapers
 
 omit = recipe_scrapers/_abstract.py
        recipe_scrapers/__init__.py
-       recipe_scrapers/tests/*
 
 [report]
 exclude_lines =

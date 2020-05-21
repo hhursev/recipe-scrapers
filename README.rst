@@ -63,6 +63,7 @@ Scrapers available for:
 - `http://delish.com/ <http://delish.com>`_
 - `http://epicurious.com/ <http://epicurious.com>`_
 - `http://finedininglovers.com/ <https://www.finedininglovers.com>`_
+- `https://fitmencook.com/ <https://www.fitmencook.com>` _
 - `https://food.com/ <https://www.food.com>`_
 - `http://foodnetwork.com/ <http://www.foodnetwork.com>`_
 - `http://foodrepublic.com/ <http://foodrepublic.com>`_
@@ -70,6 +71,7 @@ Scrapers available for:
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
 - `http://giallozafferano.it/ <http://giallozafferano.it>`_
 - `http://gonnawantseconds.com/ <http://gonnawantseconds.com>`_
+- `https://www.gousto.co.uk/ <https://www.gousto.co.uk>`_
 - `https://healthyeating.nhlbi.nih.gov/ <https://healthyeating.nhlbi.nih.gov>`_
 - `https://heinzbrasil.com.br/ <https://heinzbrasil.com.br>`_
 - `https://www.hellofresh.com/ <https://www.hellofresh.com>`_

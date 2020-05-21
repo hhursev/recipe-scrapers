@@ -16,11 +16,13 @@ from .cybercook import Cybercook
 from .delish import Delish
 from .epicurious import Epicurious
 from .finedininglovers import FineDiningLovers
+from .fitmencook import FitMenCook
 from .food import Food
 from .foodnetwork import FoodNetwork
 from .foodrepublic import FoodRepublic
 from .giallozafferano import GialloZafferano
 from .gonnawantseconds import GonnaWantSeconds
+from .gousto import Gousto
 from .greatbritishchefs import GreatBritishChefs
 from .heinzbrasil import HeinzBrasil
 from .hellofresh import HelloFresh
@@ -64,7 +66,7 @@ from .geniuskitchen import GeniusKitchen
 SCRAPERS = {
     AllRecipes.host(): AllRecipes,
     BBCFood.host(): BBCFood,
-    BBCFood.host(domain='co.uk'): BBCFood,
+    BBCFood.host(domain="co.uk"): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
     BettyCrocker.host(): BettyCrocker,
     BonAppetit.host(): BonAppetit,
@@ -77,15 +79,17 @@ SCRAPERS = {
     Delish.host(): Delish,
     Epicurious.host(): Epicurious,
     FineDiningLovers.host(): FineDiningLovers,
+    FitMenCook.host(): FitMenCook,
     Food.host(): Food,
     FoodNetwork.host(): FoodNetwork,
     FoodRepublic.host(): FoodRepublic,
     GialloZafferano.host(): GialloZafferano,
     GonnaWantSeconds.host(): GonnaWantSeconds,
+    Gousto.host(): Gousto,
     GreatBritishChefs.host(): GreatBritishChefs,
     HeinzBrasil.host(): HeinzBrasil,
     HelloFresh.host(): HelloFresh,
-    HelloFresh.host(domain='co.uk'): HelloFresh,
+    HelloFresh.host(domain="co.uk"): HelloFresh,
     HundredAndOneCookbooks.host(): HundredAndOneCookbooks,
     IG.host(): IG,
     Inspiralized.host(): Inspiralized,
@@ -125,15 +129,16 @@ SCRAPERS = {
 
 
 def url_path_to_dict(path):
-    pattern = (r'^'
-               r'((?P<schema>.+?)://)?'
-               r'((?P<user>.+?)(:(?P<password>.*?))?@)?'
-               r'(?P<host>.*?)'
-               r'(:(?P<port>\d+?))?'
-               r'(?P<path>/.*?)?'
-               r'(?P<query>[?].*?)?'
-               r'$'
-               )
+    pattern = (
+        r"^"
+        r"((?P<schema>.+?)://)?"
+        r"((?P<user>.+?)(:(?P<password>.*?))?@)?"
+        r"(?P<host>.*?)"
+        r"(:(?P<port>\d+?))?"
+        r"(?P<path>/.*?)?"
+        r"(?P<query>[?].*?)?"
+        r"$"
+    )
     regex = re.compile(pattern)
     matches = regex.match(path)
     url_dict = matches.groupdict() if matches is not None else None
@@ -143,6 +148,7 @@ def url_path_to_dict(path):
 
 class WebsiteNotImplementedError(NotImplementedError):
     """ Error for when the website is not supported by this library. """
+
     def __init__(self, domain):
         self.domain = domain
 
@@ -153,7 +159,7 @@ class WebsiteNotImplementedError(NotImplementedError):
 def get_domain(url):
     tldextract = TLDExtract(suffix_list_urls=None)
     url_info = tldextract(url)
-    return '{}.{}'.format(url_info.domain, url_info.suffix)
+    return "{}.{}".format(url_info.domain, url_info.suffix)
 
 
 def harvest(url, **options):
@@ -163,7 +169,8 @@ def harvest(url, **options):
 
     scraper = SCRAPERS[domain]
     options = {
-        option: value for option, value in options.items()
+        option: value
+        for option, value in options.items()
         if option in inspect.signature(scraper).parameters
     }
     return scraper(url, **options)
@@ -171,7 +178,7 @@ def harvest(url, **options):
 
 def scrape_me(url_path, **options):
 
-    host_name = url_path_to_dict(url_path.replace('://www.', '://'))['host']
+    host_name = url_path_to_dict(url_path.replace("://www.", "://"))["host"]
 
     try:
         scraper = SCRAPERS[host_name]
@@ -181,5 +188,5 @@ def scrape_me(url_path, **options):
     return scraper(url_path, **options)
 
 
-__all__ = ['scrape_me']
+__all__ = ["scrape_me"]
 name = "recipe_scrapers"
