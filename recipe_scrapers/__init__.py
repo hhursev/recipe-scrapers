@@ -40,6 +40,7 @@ from .mindmegette import Mindmegette
 from .misya import Misya
 from .motherthyme import MotherThyme
 from .mybakingaddiction import MyBakingAddiction
+from .myrecipes import MyRecipes
 from .nihhealthyeating import NIHHealthyEating
 from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
@@ -104,6 +105,7 @@ SCRAPERS = {
     Misya.host(): Misya,
     MotherThyme.host(): MotherThyme,
     MyBakingAddiction.host(): MyBakingAddiction,
+    MyRecipes.host(): MyRecipes,
     NIHHealthyEating.host(): NIHHealthyEating,
     Panelinha.host(): Panelinha,
     PaniniHappy.host(): PaniniHappy,
