@@ -94,6 +94,7 @@ Scrapers available for:
 - `http://paninihappy.com/ <http://paninihappy.com>`_
 - `http://przepisy.pl/ <http://przepisy.pl>`_
 - `http://realsimple.com/ <http://www.realsimple.com>`_
+- `https://www.simplyquinoa.com/ <https://www.simplyquinoa.com>`_
 - `https://www.seriouseats.com/ <https://www.seriouseats.com>`_
 - `http://simplyrecipes.com/ <http://www.simplyrecipes.co>`_
 - `https://www.southernliving.com/ <https://www.southernliving.com/>`_

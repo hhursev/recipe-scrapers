@@ -47,6 +47,7 @@ from .paninihappy import PaniniHappy
 from .przepisy import Przepisy
 from .realsimple import RealSimple
 from .seriouseats import SeriousEats
+from .simplyquinoa import SimplyQuinoa
 from .simplyrecipes import SimplyRecipes
 from .southernliving import SouthernLiving
 from .steamykitchen import SteamyKitchen
@@ -112,6 +113,7 @@ SCRAPERS = {
     Przepisy.host(): Przepisy,
     RealSimple.host(): RealSimple,
     SeriousEats.host(): SeriousEats,
+    SimplyQuinoa.host(): SimplyQuinoa,
     SimplyRecipes.host(): SimplyRecipes,
     SouthernLiving.host(): SouthernLiving,
     SteamyKitchen.host(): SteamyKitchen,
