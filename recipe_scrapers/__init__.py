@@ -39,6 +39,7 @@ from .marmiton import Marmiton
 from .matprat import Matprat
 from .mindmegette import Mindmegette
 from .misya import Misya
+from .momswithcrockpots import MomsWithCrockPots
 from .motherthyme import MotherThyme
 from .mybakingaddiction import MyBakingAddiction
 from .nihhealthyeating import NIHHealthyEating
@@ -105,6 +106,7 @@ SCRAPERS = {
     Matprat.host(): Matprat,
     Mindmegette.host(): Mindmegette,
     Misya.host(): Misya,
+    MomsWithCrockPots.host(): MomsWithCrockPots,
     MotherThyme.host(): MotherThyme,
     MyBakingAddiction.host(): MyBakingAddiction,
     NIHHealthyEating.host(): NIHHealthyEating,
