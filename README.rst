@@ -55,6 +55,7 @@ Scrapers available for:
 - `http://bonappetit.com/ <http://bonappetit.com>`_
 - `https://www.budgetbytes.com/ <https://www.budgetbytes.com>`_
 - `http://closetcooking.com/ <http://closetcooking.com>`_
+- `https://cookieandkate.com/ <https://cookieandkate.com/>`_
 - `https://cookpad.com/ <https://cookpad.com/>`_
 - `http://cookstr.com/ <http://cookstr.com>`_
 - `http://copykat.com/ <http://copykat.com>`_

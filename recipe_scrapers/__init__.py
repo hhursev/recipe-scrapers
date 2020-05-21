@@ -9,6 +9,7 @@ from .bettycrocker import BettyCrocker
 from .bonappetit import BonAppetit
 from .budgetbytes import BudgetBytes
 from .closetcooking import ClosetCooking
+from .cookieandkate import CookieAndKate
 from .cookpad import CookPad
 from .cookstr import Cookstr
 from .copykat import CopyKat
@@ -72,6 +73,7 @@ SCRAPERS = {
     BonAppetit.host(): BonAppetit,
     BudgetBytes.host(): BudgetBytes,
     ClosetCooking.host(): ClosetCooking,
+    CookieAndKate.host(): CookieAndKate,
     CookPad.host(): CookPad,
     Cookstr.host(): Cookstr,
     CopyKat.host(): CopyKat,
