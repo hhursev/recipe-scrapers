@@ -59,6 +59,7 @@ Scrapers available for:
 - `https://cookpad.com/ <https://cookpad.com/>`_
 - `http://cookstr.com/ <http://cookstr.com>`_
 - `http://copykat.com/ <http://copykat.com>`_
+- `https://www.countryliving.com/ <https://www.countryliving.com>`_
 - `https://cybercook.com.br/ <https://cybercook.com.br/>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `http://delish.com/ <http://delish.com>`_
