@@ -14,8 +14,9 @@ class SchemaOrgException(Exception):
 
 class SchemaOrg:
 
-    def __init__(self, page_data):
+    def __init__(self, page_data, host):
         self.format = None
+        self.host = host
         self.data = {}
 
         data = extruct.extract(
@@ -55,6 +56,10 @@ class SchemaOrg:
         recipe_yield = str(self.data.get("recipeYield"))
         if len(recipe_yield) <= 3:  # probably just a number. append "servings"
             return recipe_yield + " serving(s)"
+
+        if '\n' in recipe_yield:
+            recipe_yield = recipe_yield.split('\n')[-1]
+
         return recipe_yield
 
     def image(self):
@@ -70,22 +75,35 @@ class SchemaOrg:
                 return image[0].get('url')
             return image[0]
 
+        if self.host not in image:
+            # some sites give image path relative to the domain
+            # in cases like this handle image url with class methods or og link
+            return ''
+
         return image
 
     def ingredients(self):
+        ingredients = (
+            self.data.get("recipeIngredient") or
+            self.data.get("ingredients") or
+            []
+        )
         return [
             normalize_string(ingredient)
-            for ingredient in self.data.get("recipeIngredient", [])
+            for ingredient in ingredients
         ]
 
     def instructions(self):
-        recipeInstructions = self.data.get('recipeInstructions')
-        if type(recipeInstructions) == list:
+        instructions = (
+            self.data.get('recipeInstructions') or
+            ''
+        )
+        if type(instructions) == list:
             return '\n'.join(
-                instruction.get('text')
-                for instruction in recipeInstructions
+                instruction.get('text') if type(instruction) is dict else instruction
+                for instruction in instructions
             )
-        return recipeInstructions
+        return instructions
 
     def ratings(self):
         ratings = self.data.get("aggregateRating", None)

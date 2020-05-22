@@ -48,6 +48,7 @@ Scrapers available for:
 
 - `http://101cookbooks.com/ <http://101cookbooks.com/>`_
 - `http://allrecipes.com/ <http://allrecipes.com/>`_
+- `https://archanaskitchen.com/ <https://archanaskitchen.com/>`_
 - `http://bbc.com/ <http://bbc.com/food/recipes>`_
 - `http://bbc.co.uk/ <http://bbc.co.uk/food/recipes>`_
 - `http://bbcgoodfood.com/ <http://bbcgoodfood.com>`_
