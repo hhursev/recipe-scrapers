@@ -4,7 +4,8 @@
 # 8 February, 2020
 # =======================================================
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import get_minutes, get_yields, normalize_string
+from ._decorators import Decorators
 
 
 class CopyKat(AbstractScraper):
@@ -13,9 +14,11 @@ class CopyKat(AbstractScraper):
     def host(self):
         return 'copykat.com'
 
+    @Decorators.schema_org_priority
     def title(self):
         return normalize_string(self.soup.find('h1').get_text())
 
+    @Decorators.schema_org_priority
     def total_time(self):
         total_time = 0
         try:
@@ -40,15 +43,16 @@ class CopyKat(AbstractScraper):
             total_time = tt2
         return total_time
 
+    @Decorators.schema_org_priority
     def yields(self):
-        recipe_yield = self.soup.find(
-            'div',
-            {'class': "wprm-recipe-servings-container wprm-recipe-block-container wprm-recipe-block-container-inline wprm-block-text-normal"}
-        ).get_text()
-        if 'Servings:' in recipe_yield:
-            ry = normalize_string(recipe_yield[9:])
-        return ry
+        return get_yields(
+            self.soup.find(
+                'span',
+                {'class': "wprm-recipe-servings-label"}
+            ).parent.get_text()
+        )
 
+    @Decorators.schema_org_priority
     def image(self):
         image = self.soup.find(
             "div", {"class": "wprm-recipe-image wprm-block-image-rounded"})  # , 'src': True})
@@ -57,6 +61,7 @@ class CopyKat(AbstractScraper):
             isrc = lnk['href']
         return isrc if image else None
 
+    @Decorators.schema_org_priority
     def ingredients(self):
         ingredientsOuter = self.soup.findAll(
             'div',
@@ -78,11 +83,12 @@ class CopyKat(AbstractScraper):
                 ingGroup.append(x)
         return ingGroup
 
+    @Decorators.schema_org_priority
     def instructions(self):
         instructions = self.soup.findAll(
             'div',
             {'class': 'wprm-recipe-instruction-group'})
-        data = []
+        data = ""
         if len(instructions):
             for instruct in instructions:
                 try:
@@ -91,15 +97,17 @@ class CopyKat(AbstractScraper):
                         {'class': 'wprm-recipe-group-name wprm-recipe-instruction-group-name wprm-block-text-bold'}).text
                 except Exception:
                     header = None
-                if header != None:
-                    data.append(header)
+                if header is not None:
+                    data += header
                 ins = instruct.findAll(
                     'div', {'class': 'wprm-recipe-instruction-text'})
-                data.append('\n'.join([normalize_string(inst.text)
-                                       for inst in ins
-                                       ]))
+                data += '\n'.join([
+                    normalize_string(inst.text)
+                    for inst in ins
+                ])
             return data
 
+    @Decorators.schema_org_priority
     def ratings(self):
         r1 = self.soup.find(
             'div',
