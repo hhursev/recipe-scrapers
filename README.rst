@@ -65,7 +65,7 @@ Scrapers available for:
 - `http://delish.com/ <http://delish.com>`_
 - `http://epicurious.com/ <http://epicurious.com>`_
 - `http://finedininglovers.com/ <https://www.finedininglovers.com>`_
-- `https://fitmencook.com/ <https://www.fitmencook.com>` _
+- `https://fitmencook.com/ <https://www.fitmencook.com>`_
 - `https://food.com/ <https://www.food.com>`_
 - `http://foodnetwork.com/ <http://www.foodnetwork.com>`_
 - `http://foodrepublic.com/ <http://foodrepublic.com>`_
