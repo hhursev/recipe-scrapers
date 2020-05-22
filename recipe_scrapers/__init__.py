@@ -9,9 +9,11 @@ from .bettycrocker import BettyCrocker
 from .bonappetit import BonAppetit
 from .budgetbytes import BudgetBytes
 from .closetcooking import ClosetCooking
+from .cookieandkate import CookieAndKate
 from .cookpad import CookPad
 from .cookstr import Cookstr
 from .copykat import CopyKat
+from .countryliving import CountryLiving
 from .cybercook import Cybercook
 from .delish import Delish
 from .epicurious import Epicurious
@@ -37,6 +39,7 @@ from .marmiton import Marmiton
 from .matprat import Matprat
 from .mindmegette import Mindmegette
 from .misya import Misya
+from .momswithcrockpots import MomsWithCrockPots
 from .motherthyme import MotherThyme
 from .mybakingaddiction import MyBakingAddiction
 from .nihhealthyeating import NIHHealthyEating
@@ -45,6 +48,7 @@ from .paninihappy import PaniniHappy
 from .przepisy import Przepisy
 from .realsimple import RealSimple
 from .seriouseats import SeriousEats
+from .simplyquinoa import SimplyQuinoa
 from .simplyrecipes import SimplyRecipes
 from .southernliving import SouthernLiving
 from .steamykitchen import SteamyKitchen
@@ -72,9 +76,11 @@ SCRAPERS = {
     BonAppetit.host(): BonAppetit,
     BudgetBytes.host(): BudgetBytes,
     ClosetCooking.host(): ClosetCooking,
+    CookieAndKate.host(): CookieAndKate,
     CookPad.host(): CookPad,
     Cookstr.host(): Cookstr,
     CopyKat.host(): CopyKat,
+    CountryLiving.host(): CountryLiving,
     Cybercook.host(): Cybercook,
     Delish.host(): Delish,
     Epicurious.host(): Epicurious,
@@ -100,6 +106,7 @@ SCRAPERS = {
     Matprat.host(): Matprat,
     Mindmegette.host(): Mindmegette,
     Misya.host(): Misya,
+    MomsWithCrockPots.host(): MomsWithCrockPots,
     MotherThyme.host(): MotherThyme,
     MyBakingAddiction.host(): MyBakingAddiction,
     NIHHealthyEating.host(): NIHHealthyEating,
@@ -108,6 +115,7 @@ SCRAPERS = {
     Przepisy.host(): Przepisy,
     RealSimple.host(): RealSimple,
     SeriousEats.host(): SeriousEats,
+    SimplyQuinoa.host(): SimplyQuinoa,
     SimplyRecipes.host(): SimplyRecipes,
     SouthernLiving.host(): SouthernLiving,
     SteamyKitchen.host(): SteamyKitchen,

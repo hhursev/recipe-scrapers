@@ -55,9 +55,11 @@ Scrapers available for:
 - `http://bonappetit.com/ <http://bonappetit.com>`_
 - `https://www.budgetbytes.com/ <https://www.budgetbytes.com>`_
 - `http://closetcooking.com/ <http://closetcooking.com>`_
+- `https://cookieandkate.com/ <https://cookieandkate.com/>`_
 - `https://cookpad.com/ <https://cookpad.com/>`_
 - `http://cookstr.com/ <http://cookstr.com>`_
 - `http://copykat.com/ <http://copykat.com>`_
+- `https://www.countryliving.com/ <https://www.countryliving.com>`_
 - `https://cybercook.com.br/ <https://cybercook.com.br/>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `http://delish.com/ <http://delish.com>`_
@@ -86,12 +88,14 @@ Scrapers available for:
 - `https://www.matprat.no/ <https://www.matprat.no/>`_
 - `http://www.mindmegette.hu/ <http://www.mindmegette.hu/>`_
 - `https://www.misya.info/ <https://www.misya.info>`_
+- `https://momswithcrockpots.com/ <https://momswithcrockpots.com>`_
 - `http://www.motherthyme.com/ <http://www.motherthyme.com/>`_
 - `http://mybakingaddiction.com/ <http://mybakingaddiction.com>`_
 - `https://panelinha.com.br/ <https://panelinha.com.br>`_
 - `http://paninihappy.com/ <http://paninihappy.com>`_
 - `http://przepisy.pl/ <http://przepisy.pl>`_
 - `http://realsimple.com/ <http://www.realsimple.com>`_
+- `https://www.simplyquinoa.com/ <https://www.simplyquinoa.com>`_
 - `https://www.seriouseats.com/ <https://www.seriouseats.com>`_
 - `http://simplyrecipes.com/ <http://www.simplyrecipes.co>`_
 - `https://www.southernliving.com/ <https://www.southernliving.com/>`_
