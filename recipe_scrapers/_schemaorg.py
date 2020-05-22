@@ -53,7 +53,12 @@ class SchemaOrg:
         return total_time
 
     def yields(self):
-        recipe_yield = str(self.data.get("recipeYield"))
+        recipe_yield = self.data.get("recipeYield")
+
+        if recipe_yield is None:
+            return recipe_yield
+
+        recipe_yield = str(recipe_yield)
         if len(recipe_yield) <= 3:  # probably just a number. append "servings"
             return recipe_yield + " serving(s)"
 
