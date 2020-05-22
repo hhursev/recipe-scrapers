@@ -2,7 +2,7 @@ import functools
 from language_tags import tags
 
 from ._schemaorg import SchemaOrgException
-
+from ._utils import normalize_string
 
 class Decorators:
 
@@ -54,3 +54,10 @@ class Decorators:
             tag = tags.tag(decorated(self, *args, **kwargs))
             return str(tag) if tag.valid else None
         return bcp47_validate_wrapper
+
+    @staticmethod
+    def normalize_string_output(decorated):
+        @functools.wraps(decorated)
+        def normalize_string_output_wrapper(self, *args, **kwargs):
+            return normalize_string(decorated(self, *args, **kwargs))
+        return normalize_string_output_wrapper

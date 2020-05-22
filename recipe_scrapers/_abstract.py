@@ -38,6 +38,7 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
         """ get the host of the url, so we can use the correct scraper """
         raise NotImplementedError("This should be implemented.")
 
+    @Decorators.normalize_string_output
     @Decorators.schema_org_priority
     def title(self):
         raise NotImplementedError("This should be implemented.")
