@@ -66,7 +66,7 @@ from .vegolosi import Vegolosi
 from .whatsgabycooking import WhatsGabyCooking
 from .wikicookbook import WikiCookbook
 from .yummly import Yummly
-from .geniuskitchen import GeniusKitchen
+
 
 SCRAPERS = {
     AllRecipes.host(): AllRecipes,
@@ -134,7 +134,6 @@ SCRAPERS = {
     WhatsGabyCooking.host(): WhatsGabyCooking,
     WikiCookbook.host(): WikiCookbook,
     Yummly.host(): Yummly,
-    GeniusKitchen.host(): GeniusKitchen,
 }
 
 

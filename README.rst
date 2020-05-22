@@ -70,7 +70,6 @@ Scrapers available for:
 - `https://food.com/ <https://www.food.com>`_
 - `https://foodnetwork.com/ <https://www.foodnetwork.com>`_
 - `https://foodrepublic.com/ <https://foodrepublic.com>`_
-- `https://geniuskitchen.com/ <https://geniuskitchen.com>`_
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
 - `https://giallozafferano.it/ <https://giallozafferano.it>`_
 - `https://gonnawantseconds.com/ <https://gonnawantseconds.com>`_
