@@ -27,16 +27,12 @@ class Cookstr(AbstractScraper):
         return total_time
 
     def yields(self):
-        sections = self.soup.findAll(
-            'span',
-            {'class': 'attrLabel'}
-        )
-        total_serves = 0
+        sections = self.soup.findAll('span', {'class': 'attrLabel'})
         for section in sections:
-            serves = section.find(text='Serves')
+            serves = section.find(text='Serves') or section.find(text='Makes')
             if serves:
-                total_serves += get_yields(serves.parent.parent)
-        return total_serves
+                return get_yields(serves.parent.parent)
+        raise Exception('Servings amount not found')
 
     def ingredients(self):
         ingredients = self.soup.find(

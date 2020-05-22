@@ -11,7 +11,7 @@ SERVE_REGEX_NUMBER = re.compile(
 )
 
 SERVE_REGEX_ITEMS = re.compile(
-    r'\bsandwiches\b |\btacquitos\b | \bmakes\b', flags=re.I | re.X
+    r'\bsandwiches\b |\btacquitos\b | \bmakes\b | \bcups\b | \bappetizer\b', flags=re.I | re.X
 )
 
 SERVE_REGEX_TO = re.compile(

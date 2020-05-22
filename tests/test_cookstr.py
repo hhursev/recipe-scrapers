@@ -26,8 +26,9 @@ class TestCookstrScraper(ScraperTest):
         )
 
     def test_total_yields(self):
+        self.harvester_class.exception_handling = True
         self.assertEqual(
-            0,
+            '',
             self.harvester_class.yields()
         )
 
