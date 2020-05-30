@@ -6,3 +6,4 @@ class MyRecipes(AbstractScraper):
     @classmethod
     def host(self):
         return 'myrecipes.com'
+        
