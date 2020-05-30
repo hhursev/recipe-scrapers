@@ -46,17 +46,6 @@ Note: ``scraper.links()`` returns a dictionary object containing all of the <a> 
 Scrapers available for:
 -----------------------
 
-<<<<<<< HEAD
-- `http://101cookbooks.com/ <http://101cookbooks.com/>`_
-- `http://allrecipes.com/ <http://allrecipes.com/>`_
-- `http://bbc.com/ <http://bbc.com/food/recipes>`_
-- `http://bbc.co.uk/ <http://bbc.co.uk/food/recipes>`_
-- `http://bbcgoodfood.com/ <http://bbcgoodfood.com>`_
-- `http://bettycrocker.com/ <http://bettycrocker.com>`_
-- `http://bonappetit.com/ <http://bonappetit.com>`_
-- `https://www.budgetbytes.com/ <https://www.budgetbytes.com>`_
-- `http://closetcooking.com/ <http://closetcooking.com>`_
-=======
 - `https://101cookbooks.com/ <https://101cookbooks.com/>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
 - `https://archanaskitchen.com/ <https://archanaskitchen.com/>`_
@@ -67,7 +56,6 @@ Scrapers available for:
 - `https://bonappetit.com/ <https://bonappetit.com>`_
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
 - `https://closetcooking.com/ <https://closetcooking.com>`_
->>>>>>> master
 - `https://cookieandkate.com/ <https://cookieandkate.com/>`_
 - `https://cookpad.com/ <https://cookpad.com/>`_
 - `https://cookstr.com/ <https://cookstr.com>`_
