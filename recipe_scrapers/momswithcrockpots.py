@@ -2,41 +2,37 @@ from ._abstract import AbstractScraper
 from ._utils import get_minutes, normalize_string, get_yields
 
 
-class CookieAndKate(AbstractScraper):
+class MomsWithCrockPots(AbstractScraper):
 
     @classmethod
     def host(self):
-        return 'cookieandkate.com'
+        return 'momswithcrockpots.com'
 
     def title(self):
         return self.soup.find(
-            'h1',
-            {'class': 'entry-title'}
+            'h2',
+            {'class': 'wprm-recipe-name'}
         ).get_text()
 
     def total_time(self):
         return get_minutes(self.soup.find(
             'span',
-            {'class': 'tasty-recipes-total-time'})
+            {'class': 'wprm-recipe-total_time'}).parent
         )
 
     def yields(self):
         yields = self.soup.find(
             'span',
-            {'class': 'tasty-recipes-yield'}
+            {'class': 'wprm-recipe-servings'}
         ).get_text()
 
-<<<<<<< HEAD
-        return get_yields(f"{yields} servings")
-=======
         return get_yields("{} servings".format(yields))
->>>>>>> master
 
     def ingredients(self):
-        ingredients = self.soup.find(
-            'div',
-            {'class': 'tasty-recipe-ingredients'}
-        ).find_all('li')
+        ingredients = self.soup.findAll(
+            'li',
+            {'class': 'wprm-recipe-ingredient'}
+        )
 
         return [
             normalize_string(ingredient.get_text())
@@ -44,10 +40,10 @@ class CookieAndKate(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions = self.soup.find(
+        instructions = self.soup.findAll(
             'div',
-            {'class': 'tasty-recipe-instructions'}
-        ).find_all('li')
+            {'class': 'wprm-recipe-instruction-text'}
+        )
 
         return '\n'.join([
             normalize_string(instruction.get_text())
@@ -58,6 +54,6 @@ class CookieAndKate(AbstractScraper):
         return round(float(
             self.soup.find(
                 "span",
-                {"class": "average"}
+                {"class": "wprm-recipe-rating-average"}
             ).get_text()), 2
         )
