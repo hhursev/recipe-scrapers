@@ -24,7 +24,7 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
         self.exception_handling = exception_handling
         self.meta_http_equiv = meta_http_equiv
         self.soup = BeautifulSoup(page_data, "html.parser")
-        self.schema = SchemaOrg(page_data)
+        self.schema = SchemaOrg(page_data, host=self.host())
         self.url = url
         # if self.schema.data:
         #     print("Class: %s has schema." % (
@@ -38,6 +38,7 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
         """ get the host of the url, so we can use the correct scraper """
         raise NotImplementedError("This should be implemented.")
 
+    @Decorators.normalize_string_output
     @Decorators.schema_org_priority
     def title(self):
         raise NotImplementedError("This should be implemented.")

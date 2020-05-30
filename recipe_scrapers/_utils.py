@@ -1,3 +1,4 @@
+import html
 import re
 
 
@@ -66,9 +67,11 @@ def get_yields(element):
 
 
 def normalize_string(string):
+    # Convert all named and numeric character references (e.g. &gt;, &#62;)
+    unescaped_string = html.unescape(string)
     return re.sub(
         r'\s+', ' ',
-        string.replace(
+        unescaped_string.replace(
             '\xa0', ' ').replace(  # &nbsp;
             '\n', ' ').replace(
             '\t', ' ').strip()
