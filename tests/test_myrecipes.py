@@ -10,6 +10,12 @@ class TestMyRecipesScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("myrecipes.com", self.harvester_class.host())
 
+    def test_image(self):
+        self.assertEqual(
+            "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.myrecipes.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fmyrecipestrending_1-09-18_1772_1.jpg%3Fitok%3DL_jRbjls%261516215251",
+            self.harvester_class.image()
+            )
+
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Cacio e Pepe")
 
