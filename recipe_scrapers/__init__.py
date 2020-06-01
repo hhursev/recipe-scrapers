@@ -45,6 +45,7 @@ from .motherthyme import MotherThyme
 from .mybakingaddiction import MyBakingAddiction
 from .myrecipes import MyRecipes
 from .nihhealthyeating import NIHHealthyEating
+from .nytimes import NYTimes
 from .ohsheglows import OhSheGlows
 from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
@@ -115,6 +116,7 @@ SCRAPERS = {
     MyBakingAddiction.host(): MyBakingAddiction,
     MyRecipes.host(): MyRecipes,
     NIHHealthyEating.host(): NIHHealthyEating,
+    NYTimes.host(): NYTimes,
     OhSheGlows.host(): OhSheGlows,
     Panelinha.host(): Panelinha,
     PaniniHappy.host(): PaniniHappy,

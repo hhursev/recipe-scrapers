@@ -57,6 +57,7 @@ Scrapers available for:
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
 - `https://closetcooking.com/ <https://closetcooking.com>`_
 - `https://cookieandkate.com/ <https://cookieandkate.com/>`_
+- `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
 - `https://cookpad.com/ <https://cookpad.com/>`_
 - `https://cookstr.com/ <https://cookstr.com>`_
 - `https://copykat.com/ <https://copykat.com>`_
