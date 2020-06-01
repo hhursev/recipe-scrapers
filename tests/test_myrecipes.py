@@ -45,3 +45,5 @@ class TestMyRecipesScraper(ScraperTest):
 
     def test_ratings(self):
         self.assertEqual(-1, self.harvester_class.ratings())
+
+# https://www.myrecipes.com/recipe/cacio-e-pepe
