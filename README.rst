@@ -57,6 +57,7 @@ Scrapers available for:
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
 - `https://closetcooking.com/ <https://closetcooking.com>`_
 - `https://cookieandkate.com/ <https://cookieandkate.com/>`_
+- `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
 - `https://cookpad.com/ <https://cookpad.com/>`_
 - `https://cookstr.com/ <https://cookstr.com>`_
 - `https://copykat.com/ <https://copykat.com>`_
@@ -92,6 +93,8 @@ Scrapers available for:
 - `https://momswithcrockpots.com/ <https://momswithcrockpots.com>`_
 - `http://motherthyme.com/ <http://motherthyme.com/>`_
 - `https://mybakingaddiction.com/ <https://mybakingaddiction.com>`_
+- `https://myrecipes.com/ <https://myrecipes.com>`_
+_ `https://ohsheglows.com/ <https://ohsheglows.com>`_
 - `https://www.panelinha.com.br/ <https://www.panelinha.com.br>`_
 - `https://paninihappy.com/ <https://paninihappy.com>`_
 - `https://przepisy.pl/ <https://przepisy.pl>`_

@@ -43,7 +43,10 @@ from .misya import Misya
 from .momswithcrockpots import MomsWithCrockPots
 from .motherthyme import MotherThyme
 from .mybakingaddiction import MyBakingAddiction
+from .myrecipes import MyRecipes
 from .nihhealthyeating import NIHHealthyEating
+from .nytimes import NYTimes
+from .ohsheglows import OhSheGlows
 from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
 from .przepisy import Przepisy
@@ -111,7 +114,10 @@ SCRAPERS = {
     MomsWithCrockPots.host(): MomsWithCrockPots,
     MotherThyme.host(): MotherThyme,
     MyBakingAddiction.host(): MyBakingAddiction,
+    MyRecipes.host(): MyRecipes,
     NIHHealthyEating.host(): NIHHealthyEating,
+    NYTimes.host(): NYTimes,
+    OhSheGlows.host(): OhSheGlows,
     Panelinha.host(): Panelinha,
     PaniniHappy.host(): PaniniHappy,
     Przepisy.host(): Przepisy,
