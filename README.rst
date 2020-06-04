@@ -94,7 +94,7 @@ Scrapers available for:
 - `http://motherthyme.com/ <http://motherthyme.com/>`_
 - `https://mybakingaddiction.com/ <https://mybakingaddiction.com>`_
 - `https://myrecipes.com/ <https://myrecipes.com>`_
-_ `https://ohsheglows.com/ <https://ohsheglows.com>`_
+- `https://ohsheglows.com/ <https://ohsheglows.com>`_
 - `https://www.panelinha.com.br/ <https://www.panelinha.com.br>`_
 - `https://paninihappy.com/ <https://paninihappy.com>`_
 - `https://przepisy.pl/ <https://przepisy.pl>`_
