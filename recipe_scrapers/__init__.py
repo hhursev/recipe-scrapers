@@ -35,6 +35,7 @@ from .inspiralized import Inspiralized
 from .jamieoliver import JamieOliver
 from .justbento import JustBento
 from .kennymcgovern import KennyMcGovern
+from .kochbar import Kochbar
 from .thekitchn import TheKitchn
 from .marmiton import Marmiton
 from .matprat import Matprat
@@ -106,6 +107,7 @@ SCRAPERS = {
     Inspiralized.host(): Inspiralized,
     JamieOliver.host(): JamieOliver,
     JustBento.host(): JustBento,
+    Kochbar.host(): Kochbar,
     TheKitchn.host(): TheKitchn,
     Marmiton.host(): Marmiton,
     Matprat.host(): Matprat,

@@ -85,6 +85,7 @@ Scrapers available for:
 - `https://jamieoliver.com/ <https://jamieoliver.com>`_
 - `https://justbento.com/ <https://justbento.com>`_
 - `https://kennymcgovern.com/ <https://kennymcgovern.com>`_
+- `https://kochbar.de/ <https://kochbar.de>`_
 - `https://thekitchn.com/ <https://thekitchn.com/>`_
 - `https://marmiton.org/ <https://marmiton.org/>`_
 - `https://matprat.no/ <https://matprat.no/>`_
