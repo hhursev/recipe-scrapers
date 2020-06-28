@@ -41,7 +41,7 @@ then:
     scraper.image()
     scraper.links()
 
-Note: ``scraper.links()`` returns a dictionary object containing all of the <a> tag attributes. The attribute names are the dictionary keys.
+Note: ``scraper.links()`` returns a list of dictionaries containing all of the <a> tag attributes. The attribute names are the dictionary keys.
 
 Scrapers available for:
 -----------------------
