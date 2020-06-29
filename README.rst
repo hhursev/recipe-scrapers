@@ -47,6 +47,7 @@ Scrapers available for:
 -----------------------
 
 - `https://101cookbooks.com/ <https://101cookbooks.com/>`_
+- `https://www.acouplecooks.com <https://acouplecooks.com/>'
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
 - `https://archanaskitchen.com/ <https://archanaskitchen.com/>`_
 - `https://bbc.com/ <https://bbc.com/food/recipes>`_
