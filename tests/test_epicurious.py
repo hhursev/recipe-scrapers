@@ -27,8 +27,8 @@ class TestEpicurious(ScraperTest):
 
     def test_yields(self):
         self.assertEqual(
-            0,
-            self.harvester_class.total_time()
+            "2 serving(s)",
+            self.harvester_class.yields()
         )
 
     def test_image(self):

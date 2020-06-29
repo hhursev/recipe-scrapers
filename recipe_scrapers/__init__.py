@@ -55,6 +55,7 @@ from .seriouseats import SeriousEats
 from .simplyquinoa import SimplyQuinoa
 from .simplyrecipes import SimplyRecipes
 from .southernliving import SouthernLiving
+from .spendwithpennies import SpendWithPennies
 from .steamykitchen import SteamyKitchen
 from .tastesoflizzyt import TastesOfLizzyT
 from .tastykitchen import TastyKitchen
@@ -126,6 +127,7 @@ SCRAPERS = {
     SimplyQuinoa.host(): SimplyQuinoa,
     SimplyRecipes.host(): SimplyRecipes,
     SouthernLiving.host(): SouthernLiving,
+    SpendWithPennies.host(): SpendWithPennies,
     SteamyKitchen.host(): SteamyKitchen,
     TastesOfLizzyT.host(): TastesOfLizzyT,
     TastyKitchen.host(): TastyKitchen,
