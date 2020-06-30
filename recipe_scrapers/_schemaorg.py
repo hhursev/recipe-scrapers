@@ -27,15 +27,23 @@ class SchemaOrg:
 
         for syntax in SYNTAXES:
             for item in data.get(syntax, []):
-                if (
-                    SCHEMA_ORG_HOST in item.get("@context", "") and
-                    item.get("@type", "").lower() in [schema.lower() for schema in SCHEMA_NAMES]
-                ):
+                in_context = SCHEMA_ORG_HOST in item.get("@context", "")
+                low_schema = [s.lower() for s in SCHEMA_NAMES]
+                if in_context and item.get("@type", "").lower() in low_schema:
                     self.format = syntax
                     self.data = item
                     if item.get("@type").lower() == 'webpage':
                         self.data = self.data.get('mainEntity')
                     return
+                elif in_context and "@graph" in item:
+                    for graph_item in item.get("@graph", ""):
+                        in_graph = SCHEMA_ORG_HOST in graph_item.get("@context", "")
+                        if in_graph and graph_item.get("@type", "").lower() in low_schema:
+                            self.format = syntax
+                            self.data = graph_item
+                            if graph_item.get("@type").lower() == 'webpage':
+                                self.data = self.data.get('mainEntity')
+                            return
 
     def language(self):
         return self.data.get("inLanguage") or self.data.get("language")
@@ -53,7 +61,11 @@ class SchemaOrg:
         return total_time
 
     def yields(self):
-        recipe_yield = str(self.data.get("recipeYield"))
+        yield_data = self.data.get("recipeYield")
+        if isinstance(yield_data, list) and len(yield_data) > 0:
+            recipe_yield = str(yield_data[0])
+        else:
+            recipe_yield = str(yield_data)
         if len(recipe_yield) <= 3:  # probably just a number. append "servings"
             return recipe_yield + " serving(s)"
 

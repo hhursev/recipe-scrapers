@@ -104,6 +104,7 @@ Scrapers available for:
 - `https://seriouseats.com/ <https://seriouseats.com>`_
 - `https://simplyrecipes.com/ <https://simplyrecipes.co>`_
 - `https://southernliving.com/ <https://southernliving.com/>`_
+- `https://spendwithpennies.com/ <https://spendwithpennies.com/>`_
 - `https://steamykitchen.com/ <https://steamykitchen.com>`_
 - `https://tastesoflizzyt.com <https://tastesoflizzyt.com>`_
 - `https://tastykitchen.com/ <https://tastykitchen.com>`_
