@@ -3,18 +3,12 @@ import unittest
 
 from recipe_scrapers.acouplecooks import ACoupleCooks
 
+
 # test recipe's URL
 # https://www.acouplecooks.com/garlic-butter-shrimp/
+class TestACoupleCooks(unittest.TestCase):
 
-class TestPrzepisyScraper(unittest.TestCase):
-     def setUp(self):
-         # tests are run from tests.py
-         with open(os.path.join(
-             os.path.dirname(os.path.realpath(__file__)),
-             'test_data',
-             'acouplecooks.testhtml'
-         )) as file_opened:
-             self.harvester_class = ACoupleCooks(file_opened, test=True)
+     scraper_class = ACoupleCooks
 
      def test_host(self):
          self.assertEqual(
