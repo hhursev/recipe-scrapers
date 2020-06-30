@@ -1,12 +1,11 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.acouplecooks import ACoupleCooks
 
 
 # test recipe's URL
 # https://www.acouplecooks.com/garlic-butter-shrimp/
-class TestACoupleCooks(unittest.TestCase):
+class TestACoupleCooks(ScraperTest):
 
      scraper_class = ACoupleCooks
 
