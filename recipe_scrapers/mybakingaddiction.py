@@ -5,7 +5,7 @@ from ._utils import get_minutes, normalize_string, get_yields
 class MyBakingAddiction(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'mybakingaddiction.com'
 
     def title(self):

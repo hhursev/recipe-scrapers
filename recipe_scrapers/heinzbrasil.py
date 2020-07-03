@@ -1,11 +1,11 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string, get_yields
+from ._utils import normalize_string
 
 
 class HeinzBrasil(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'heinzbrasil.com.br'
 
     def title(self):

@@ -5,7 +5,7 @@ from ._utils import get_minutes, normalize_string, get_yields
 class FoodRepublic(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'foodrepublic.com'
 
     def title(self):

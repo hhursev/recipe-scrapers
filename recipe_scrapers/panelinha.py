@@ -5,7 +5,7 @@ from ._utils import get_minutes, normalize_string
 class Panelinha(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'panelinha.com.br'
 
     def title(self):

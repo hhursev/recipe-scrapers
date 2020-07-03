@@ -4,5 +4,5 @@ from ._abstract import AbstractScraper
 class Cybercook(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'cybercook.com.br'

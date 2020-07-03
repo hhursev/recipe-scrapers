@@ -5,7 +5,7 @@ from ._utils import normalize_string, get_yields
 class Epicurious(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'epicurious.com'
 
     def title(self):

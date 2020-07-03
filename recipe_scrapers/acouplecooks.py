@@ -4,15 +4,15 @@ from ._utils import get_minutes, normalize_string, get_yields
 
 class ACoupleCooks(AbstractScraper):
     @classmethod
-    def host(self):
+    def host(cls):
         return 'acouplecooks.com'
 
     def title(self):
         return self.soup.find(
-             'h2',
-             {'class': 'tasty-recipes-title'}
+            'h2',
+            {'class': 'tasty-recipes-title'}
         ).get_text()
-    
+
     def total_time(self):
         return get_minutes(self.soup.find(
             'span',

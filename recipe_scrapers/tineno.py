@@ -5,7 +5,7 @@ from ._utils import get_minutes, normalize_string, get_yields
 class TineNo(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'tine.no'
 
     def title(self):

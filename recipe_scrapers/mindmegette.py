@@ -5,7 +5,7 @@ from ._utils import get_minutes, normalize_string, get_yields
 class Mindmegette(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'mindmegette.hu'
 
     def title(self):

@@ -4,7 +4,7 @@ from ._utils import normalize_string, get_minutes, get_yields
 
 class TheHappyFoodie(AbstractScraper):
     @classmethod
-    def host(self):
+    def host(cls):
         return 'thehappyfoodie.co.uk'
 
     def title(self):

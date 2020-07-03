@@ -5,7 +5,7 @@ from ._utils import get_minutes, normalize_string, get_yields
 class WikiCookbook(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'en.wikibooks.org'
 
     def title(self):

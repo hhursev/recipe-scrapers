@@ -5,7 +5,7 @@ from ._utils import get_minutes, normalize_string, get_yields
 class Przepisy(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'przepisy.pl'
 
     def title(self):
@@ -33,8 +33,7 @@ class Przepisy(AbstractScraper):
         )
 
         return [
-            normalize_string(i.get_text()) + ' ' +
-            normalize_string(j.get_text())
+            normalize_string(i.get_text()) + ' ' + normalize_string(j.get_text())
             for i, j in zip(ingredients[0::2], ingredients[1::2])
         ]
 

@@ -4,5 +4,5 @@ from ._abstract import AbstractScraper
 class ArchanasKitchen(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'archanaskitchen.com'

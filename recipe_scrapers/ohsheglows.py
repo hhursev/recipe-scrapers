@@ -2,8 +2,8 @@ from ._abstract import AbstractScraper
 
 
 class OhSheGlows(AbstractScraper):
-    
+
     @classmethod
-    def host(self):
+    def host(cls):
         return 'ohsheglows.com'
         

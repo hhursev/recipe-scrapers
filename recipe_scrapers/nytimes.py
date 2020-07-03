@@ -2,8 +2,8 @@ from ._abstract import AbstractScraper
 
 
 class NYTimes(AbstractScraper):
-    
+
     @classmethod
-    def host(self):
+    def host(cls):
         return 'cooking.nytimes.com'
         

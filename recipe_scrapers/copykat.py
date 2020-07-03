@@ -10,7 +10,7 @@ from ._utils import get_minutes, normalize_string
 class CopyKat(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'copykat.com'
 
     def title(self):
@@ -30,7 +30,7 @@ class CopyKat(AbstractScraper):
             {'class': 'wprm-recipe-details wprm-recipe-details-minutes wprm-recipe-total_time wprm-recipe-total_time-minutes'}
         ).get_text()
         if tt1:
-            tt3 = (int(tt1)*60) + int(tt2)
+            tt3 = (int(tt1) * 60) + int(tt2)
             tt2 = get_minutes(tt3)
             if tt3 and (tt2 == 0):
                 total_time = tt3
@@ -70,7 +70,7 @@ class CopyKat(AbstractScraper):
                     'class': "wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-bold"}).text
             except Exception:
                 header = None
-            if header != None:
+            if header is not None:
                 ingGroup.append(header)
             ingredparts = ig.findAll('li')
             for i in ingredparts:
@@ -91,7 +91,7 @@ class CopyKat(AbstractScraper):
                         {'class': 'wprm-recipe-group-name wprm-recipe-instruction-group-name wprm-block-text-bold'}).text
                 except Exception:
                     header = None
-                if header != None:
+                if header is not None:
                     data.append(header)
                 ins = instruct.findAll(
                     'div', {'class': 'wprm-recipe-instruction-text'})

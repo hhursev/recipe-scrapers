@@ -4,13 +4,13 @@
 # 9 February, 2020
 # =======================================================
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string, get_yields
+from ._utils import get_minutes, normalize_string
 
 
 class GonnaWantSeconds(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'gonnawantseconds.com'
 
     def title(self):
@@ -30,7 +30,7 @@ class GonnaWantSeconds(AbstractScraper):
             {'class': 'wprm-recipe-details wprm-recipe-details-minutes wprm-recipe-total_time wprm-recipe-total_time-minutes'}
         ).get_text()
         if tt1:
-            tt3 = (int(tt1)*60) + int(tt2)
+            tt3 = (int(tt1) * 60) + int(tt2)
             tt2 = get_minutes(tt3)
             if tt3 and (tt2 == 0):
                 total_time = tt3

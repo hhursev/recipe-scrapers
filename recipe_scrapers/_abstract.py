@@ -34,8 +34,9 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
     def url(self):
         return self.url
 
-    def host(self):
-        """ get the host of the url, so we can use the correct scraper """
+    @classmethod
+    def host(cls):
+        """ get the hostdef of the url, so we can use the correct scraper """
         raise NotImplementedError("This should be implemented.")
 
     @Decorators.normalize_string_output

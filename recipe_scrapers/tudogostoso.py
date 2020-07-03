@@ -5,7 +5,7 @@ from ._utils import get_minutes, normalize_string
 class TudoGostoso(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'tudogostoso.com.br'
 
     def title(self):
