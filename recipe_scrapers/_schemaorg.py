@@ -87,7 +87,7 @@ class SchemaOrg:
                 return image[0].get('url')
             return image[0]
 
-        if self.host not in image:
+        if 'http://' not in image and 'https://' not in image:
             # some sites give image path relative to the domain
             # in cases like this handle image url with class methods or og link
             return ''

@@ -24,16 +24,21 @@ class ACoupleCooks(AbstractScraper):
             'span',
             {'class': 'tasty-recipes-yield'}).span
         )
-    
-    def ingredients(self):
-        return [normalize_string(child.text) for child in self.soup.find(
-            'div',
-            {'class':'tasty-recipes-ingredients'}).ul.children]
-    
-    def instructions(self):
-        return "\n".join([instruction.text for instruction in self.soup.find(
-            'div',
-            {'class':'tasty-recipes-instructions'}).ol.children
-        ])
-        
 
+    def ingredients(self):
+        return [
+            normalize_string(child.text)
+            for child in self.soup.find(
+                'div',
+                {'class': 'tasty-recipes-ingredients'}
+            ).ul.children
+        ]
+
+    def instructions(self):
+        return "\n".join([
+            instruction.text for instruction in
+            self.soup.find(
+                'div',
+                {'class': 'tasty-recipes-instructions'}
+            ).ol.children
+        ])
