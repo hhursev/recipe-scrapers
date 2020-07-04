@@ -75,6 +75,11 @@ from .whatsgabycooking import WhatsGabyCooking
 from .wikicookbook import WikiCookbook
 from .yummly import Yummly
 from .geniuskitchen import GeniusKitchen
+from .gimmesomeoven import Gimmesomeoven
+from .hostthetoast import Hostthetoast
+from .lovingitvegan import Lovingitvegan
+from .minimalistbaker import Minimalistbaker
+from .thewoksoflife import Thewoksoflife
 
 SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
@@ -151,6 +156,11 @@ SCRAPERS = {
     WikiCookbook.host(): WikiCookbook,
     Yummly.host(): Yummly,
     GeniusKitchen.host(): GeniusKitchen,
+    Gimmesomeoven.host(): Gimmesomeoven,
+    Hostthetoast.host(): Hostthetoast,
+    Lovingitvegan.host(): Lovingitvegan,
+    Minimalistbaker.host(): Minimalistbaker,
+    Thewoksoflife.host(): Thewoksoflife,
 }
 
 
