@@ -19,6 +19,7 @@ from .countryliving import CountryLiving
 from .cybercook import Cybercook
 from .delish import Delish
 from .epicurious import Epicurious
+from .fifteenspatulas import FifteenSpatulas
 from .finedininglovers import FineDiningLovers
 from .fitmencook import FitMenCook
 from .food import Food
@@ -93,6 +94,7 @@ SCRAPERS = {
     Cybercook.host(): Cybercook,
     Delish.host(): Delish,
     Epicurious.host(): Epicurious,
+    FifteenSpatulas.host(): FifteenSpatulas,
     FineDiningLovers.host(): FineDiningLovers,
     FitMenCook.host(): FitMenCook,
     Food.host(): Food,
