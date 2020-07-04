@@ -55,6 +55,7 @@ Scrapers available for:
 - `https://bbcgoodfood.com/ <https://bbcgoodfood.com>`_
 - `https://bettycrocker.com/ <https://bettycrocker.com>`_
 - `https://bonappetit.com/ <https://bonappetit.com>`_
+- `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
 - `https://closetcooking.com/ <https://closetcooking.com>`_
 - `https://cookieandkate.com/ <https://cookieandkate.com/>`_
