@@ -67,9 +67,9 @@ Scrapers available for:
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `https://delish.com/ <https://delish.com>`_
 - `https://epicurious.com/ <https://epicurious.com>`_
+- `https://fifteenspatulas.com/ <https://www.fifteenspatulas.com/>`_
 - `https://finedininglovers.com/ <https://www.finedininglovers.com>`_
 - `https://fitmencook.com/ <https://www.fitmencook.com>`_
-- `https://fifteenspatulas.com/ <https://www.fifteenspatulas.com/>`_
 - `https://food.com/ <https://www.food.com>`_
 - `https://foodnetwork.com/ <https://www.foodnetwork.com>`_
 - `https://foodrepublic.com/ <https://foodrepublic.com>`_
