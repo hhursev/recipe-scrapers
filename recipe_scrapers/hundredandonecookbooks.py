@@ -5,7 +5,7 @@ from ._utils import get_minutes, normalize_string, get_yields
 class HundredAndOneCookbooks(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return '101cookbooks.com'
 
     def title(self):

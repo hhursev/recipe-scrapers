@@ -5,7 +5,7 @@ from ._utils import get_minutes, normalize_string, get_yields
 class Gousto(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'gousto.co.uk'
 
     def title(self):
@@ -25,7 +25,7 @@ class Gousto(AbstractScraper):
             'div',
             {'id': 'ingredients'}
         ).find(
-            'div', 
+            'div',
             {'class': 'panel-subheading'}
         ).get_text()
 
@@ -47,11 +47,12 @@ class Gousto(AbstractScraper):
             'div',
             {'class': 'panel-subheading'}
         ).get_text()
-        
+
         extras = extras.strip().split(', ')
 
         ingredients = [
-            normalize_string(ingredient.get_text()) for ingredient in ingredients]
+            normalize_string(ingredient.get_text())
+            for ingredient in ingredients]
 
         for extra in extras:
             ingredients.append(extra)
@@ -67,10 +68,14 @@ class Gousto(AbstractScraper):
             {'class': 'indivrecipe-cooking-text-wrapper'}
         )
 
-        return '\n'.join([
-            normalize_string(instruction.get_text())
-            for instruction in instructions
-        ])
+        instr_container = [p.get_text()
+                           for subdiv in instructions
+                           for p in subdiv.findAll('p')]
+
+        return '\n'.join(
+            normalize_string(instruction)
+            for instruction in instr_container
+        )
 
     def ratings(self):
         ratings = self.soup.find(
@@ -84,4 +89,3 @@ class Gousto(AbstractScraper):
         rating = int(ratings['alt'][0])
 
         return rating
-        

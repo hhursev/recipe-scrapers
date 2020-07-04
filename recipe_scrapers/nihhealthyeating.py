@@ -5,7 +5,7 @@ from ._utils import normalize_string, get_minutes, get_yields
 class NIHHealthyEating(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'healthyeating.nhlbi.nih.gov'
 
     def title(self):

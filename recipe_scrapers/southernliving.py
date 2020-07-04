@@ -10,7 +10,7 @@ from ._utils import get_minutes, normalize_string, get_yields
 class SouthernLiving(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'southernliving.com'
 
     def title(self):

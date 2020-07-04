@@ -4,13 +4,13 @@
 # 6 February, 2020
 # =======================================================
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string, get_yields
+from ._utils import get_minutes, normalize_string
 
 
 class GreatBritishChefs(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'greatbritishchefs.com'
 
     def title(self):

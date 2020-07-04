@@ -4,7 +4,7 @@ from ._abstract import AbstractScraper
 class Marmiton(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'marmiton.org'
 
     def title(self):
@@ -27,4 +27,3 @@ class Marmiton(AbstractScraper):
 
     def ratings(self):
         return self.schema.ratings()
-

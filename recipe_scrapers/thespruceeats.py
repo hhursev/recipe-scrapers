@@ -5,7 +5,7 @@ from ._utils import normalize_string
 class TheSpruceEats(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'thespruceeats.com'
 
     def ingredients(self):

@@ -5,7 +5,7 @@ from ._utils import normalize_string, get_yields
 class BonAppetit(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'bonappetit.com'
 
     def title(self):

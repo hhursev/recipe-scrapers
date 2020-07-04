@@ -6,10 +6,11 @@
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, normalize_string, get_yields
 
+
 class Delish(AbstractScraper):
 
     @classmethod
-    def host(self):
+    def host(cls):
         return 'delish.com'
 
     def title(self):
