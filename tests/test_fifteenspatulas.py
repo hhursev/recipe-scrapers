@@ -37,7 +37,6 @@ class TestFifteenSpatulasScraper(ScraperTest):
         )
 
     def test_instructions(self):
-        print(self.harvester_class.instructions())
         return self.assertEqual(
             """Combine the orange zest and cream in a saucepan, and let it sit in the fridge for 2 hours.
 Preheat the oven to 300 degrees F.
