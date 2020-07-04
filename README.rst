@@ -69,6 +69,7 @@ Scrapers available for:
 - `https://epicurious.com/ <https://epicurious.com>`_
 - `https://finedininglovers.com/ <https://www.finedininglovers.com>`_
 - `https://fitmencook.com/ <https://www.fitmencook.com>`_
+- `https://www.fifteenspatulas.com/ <https://www.fifteenspatulas.com/>`_
 - `https://food.com/ <https://www.food.com>`_
 - `https://foodnetwork.com/ <https://www.foodnetwork.com>`_
 - `https://foodrepublic.com/ <https://foodrepublic.com>`_
