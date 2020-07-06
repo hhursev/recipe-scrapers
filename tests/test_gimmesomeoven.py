@@ -3,7 +3,7 @@ from tests import ScraperTest
 from recipe_scrapers.gimmesomeoven import GimmeSomeOven
 
 
-class TestAllRecipesScraper(ScraperTest):
+class TestGimmeSomeOvenScraper(ScraperTest):
 
     scraper_class = GimmeSomeOven
 
