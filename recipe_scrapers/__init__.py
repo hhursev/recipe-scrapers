@@ -27,6 +27,7 @@ from .food import Food
 from .foodnetwork import FoodNetwork
 from .foodrepublic import FoodRepublic
 from .giallozafferano import GialloZafferano
+from .gimmesomeoven import GimmeSomeOven
 from .gonnawantseconds import GonnaWantSeconds
 from .gousto import Gousto
 from .greatbritishchefs import GreatBritishChefs
@@ -108,6 +109,7 @@ SCRAPERS = {
     FoodNetwork.host(): FoodNetwork,
     FoodRepublic.host(): FoodRepublic,
     GialloZafferano.host(): GialloZafferano,
+    GimmeSomeOven.host(): GimmeSomeOven,
     GonnaWantSeconds.host(): GonnaWantSeconds,
     Gousto.host(): Gousto,
     GreatBritishChefs.host(): GreatBritishChefs,

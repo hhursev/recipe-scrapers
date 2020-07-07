@@ -77,6 +77,7 @@ Scrapers available for:
 - `https://geniuskitchen.com/ <https://geniuskitchen.com>`_
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
 - `https://giallozafferano.it/ <https://giallozafferano.it>`_
+- `https://gimmesomeoven.com/ <https://www.gimmesomeoven.com/>`_
 - `https://gonnawantseconds.com/ <https://gonnawantseconds.com>`_
 - `https://gousto.co.uk/ <https://gousto.co.uk>`_
 - `https://healthyeating.nhlbi.nih.gov/ <https://healthyeating.nhlbi.nih.gov>`_

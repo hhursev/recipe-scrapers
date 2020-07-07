@@ -1,50 +1,58 @@
 from tests import ScraperTest
 
-from recipe_scrapers.gimmesomeoven import Gimmesomeoven
+
+from recipe_scrapers.gimmesomeoven import GimmeSomeOven
 
 
-class TestGimmesomeovenScraper(ScraperTest):
+class TestGimmeSomeOvenScraper(ScraperTest):
 
-    scraper_class = Gimmesomeoven
+    scraper_class = GimmeSomeOven
 
     def test_host(self):
-        self.assertEquals(
-            'gimmesomeoven.com',
-            self.harvester_class.host()
-        )
+        self.assertEqual("gimmesomeoven.com", self.harvester_class.host())
 
     def test_title(self):
-        self.assertEquals(
-            self.harvester_class.title(),
-            'Baked Eggplant Parmesan'
-        )
+        self.assertEqual(self.harvester_class.title(), "Sangria")
+
+    def test_total_time(self):
+        self.assertEqual(10, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEquals("8 -10 servings", self.harvester_class.yields())
+        self.assertEqual("12 servings", self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEquals(
-            'https://www.gimmesomeoven.com/wp-content/uploads/2015/07/Baked-Eggplant-Parmesan-Recipe-1-225x225.jpg',
-            self.harvester_class.image()
+        self.assertEqual(
+            "https://www.gimmesomeoven.com/wp-content/uploads/2019/06/Authentic-Spanish-Sangria-Recipe-3-1-225x225.jpg",
+            self.harvester_class.image(),
         )
 
     def test_ingredients(self):
-        self.assertCountEqual([
-            "2 medium eggplants (about 2 pounds total), sliced into 1/2-inch thick rounds",
-            "2 cups Panko breadcrumbs",
-            "1 tablespoon Italian seasoning",
-            "1 teaspoon garlic powder",
-            "1 teaspoon fine sea salt (plus extra for sweating the eggplant if desired)",
-            "1/2 teaspoon freshly-cracked black pepper",
-            "2 large eggs",
-            "4 cups marinara sauce, homemade or store-bought*",
-            "2 cups shredded Mozzarella cheese",
-            "2/3 cup finely-grated or shaved Parmesan cheese, plus extra for serving",
-            "1 cup chopped fresh basil leaves"],
-            self.harvester_class.ingredients()
+        self.assertCountEqual(
+            [
+                "2 bottles Spanish red wine (Rioja wine is most popular)",
+                "1/2 cup brandy",
+                "2 oranges, one juiced and one diced",
+                "1 green apple, diced",
+                "1 lemon, diced",
+                "1 cinnamon stick",
+                "optional sweetener: simple syrup* or maple syrup",
+                "optional bubbles: lemon-lime soda, ginger ale or sparkling water",
+            ],
+            self.harvester_class.ingredients(),
         )
 
     def test_instructions(self):
-        self.assertTrue(self.harvester_class.instructions().startswith(
-            'Sweat the eggplant (optional). If '))
-        self.assertEquals(len(self.harvester_class.instructions()), 2491)
+        return self.assertEqual(
+            "\n".join(
+                [
+                    "Add the wine, brandy, orange juice, diced orange, diced apple, diced lemon and cinnamon stick to a large pitcher.  Stir to combine.  Taste and add in a few tablespoons of sweetener, if desired.",
+                    "Cover and refrigerate for at least 30 minutes or up to 4 hours.",
+                    "Serve the sangria over ice, topping off each glass with a splash of bubbly soda (or sparkling water) if desired.",
+                ]
+            ),
+            self.harvester_class.instructions(),
+        )
+
+    def test_ratings(self):
+        self.assertEqual(5.0, self.harvester_class.ratings())
+>>>>>>> Add gimmesomeoven.com parser (#179)
