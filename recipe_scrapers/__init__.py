@@ -122,6 +122,7 @@ SCRAPERS = {
     Inspiralized.host(): Inspiralized,
     JamieOliver.host(): JamieOliver,
     JustBento.host(): JustBento,
+    KennyMcGovern.host(): KennyMcGovern,
     Kochbar.host(): Kochbar,
     Lovingitvegan.host(): Lovingitvegan,
     TheKitchn.host(): TheKitchn,
