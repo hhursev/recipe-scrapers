@@ -76,7 +76,6 @@ from .whatsgabycooking import WhatsGabyCooking
 from .wikicookbook import WikiCookbook
 from .yummly import Yummly
 from .geniuskitchen import GeniusKitchen
-from .gimmesomeoven import Gimmesomeoven
 from .hostthetoast import Hostthetoast
 from .lovingitvegan import Lovingitvegan
 from .minimalistbaker import Minimalistbaker
@@ -108,6 +107,7 @@ SCRAPERS = {
     Food.host(): Food,
     FoodNetwork.host(): FoodNetwork,
     FoodRepublic.host(): FoodRepublic,
+    GeniusKitchen.host(): GeniusKitchen,
     GialloZafferano.host(): GialloZafferano,
     GimmeSomeOven.host(): GimmeSomeOven,
     GonnaWantSeconds.host(): GonnaWantSeconds,
@@ -116,16 +116,19 @@ SCRAPERS = {
     HeinzBrasil.host(): HeinzBrasil,
     HelloFresh.host(): HelloFresh,
     HelloFresh.host(domain="co.uk"): HelloFresh,
+    Hostthetoast.host(): Hostthetoast,
     HundredAndOneCookbooks.host(): HundredAndOneCookbooks,
     IG.host(): IG,
     Inspiralized.host(): Inspiralized,
     JamieOliver.host(): JamieOliver,
     JustBento.host(): JustBento,
     Kochbar.host(): Kochbar,
+    Lovingitvegan.host(): Lovingitvegan,
     TheKitchn.host(): TheKitchn,
     Marmiton.host(): Marmiton,
     Matprat.host(): Matprat,
     Mindmegette.host(): Mindmegette,
+    Minimalistbaker.host(): Minimalistbaker,
     Misya.host(): Misya,
     MomsWithCrockPots.host(): MomsWithCrockPots,
     MotherThyme.host(): MotherThyme,
@@ -150,6 +153,7 @@ SCRAPERS = {
     ThePioneerWoman.host(): ThePioneerWoman,
     TheSpruceEats.host(): TheSpruceEats,
     TheVintageMixer.host(): TheVintageMixer,
+    Thewoksoflife.host(): Thewoksoflife,
     TineNo.host(): TineNo,
     TudoGostoso.host(): TudoGostoso,
     TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
@@ -157,12 +161,6 @@ SCRAPERS = {
     WhatsGabyCooking.host(): WhatsGabyCooking,
     WikiCookbook.host(): WikiCookbook,
     Yummly.host(): Yummly,
-    GeniusKitchen.host(): GeniusKitchen,
-    Gimmesomeoven.host(): Gimmesomeoven,
-    Hostthetoast.host(): Hostthetoast,
-    Lovingitvegan.host(): Lovingitvegan,
-    Minimalistbaker.host(): Minimalistbaker,
-    Thewoksoflife.host(): Thewoksoflife,
 }
 
 
