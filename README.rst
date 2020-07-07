@@ -122,6 +122,11 @@ Scrapers available for:
 - `https://vegolosi.it/ <https://vegolosi.it>`_
 - `https://whatsgabycooking.com/ <https://whatsgabycooking.com>`_
 - `https://yummly.com/ <https://yummly.com>`_
+- `https://gimmesomeoven.com/ <https://gimmesomeoven.com/>`_
+- `https://hostthetoast.com/ <https://hostthetoast.com/>`_
+- `https://lovingitvegan.com/ <https://lovingitvegan.com/>`_
+- `https://minimalistbaker.com/ <https://minimalistbaker.com/>`_
+- `https://thewoksoflife.com/ <https://thewoksoflife.com/>`_
 
 
 Contribute
