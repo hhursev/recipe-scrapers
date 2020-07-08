@@ -26,6 +26,7 @@ from .fitmencook import FitMenCook
 from .food import Food
 from .foodnetwork import FoodNetwork
 from .foodrepublic import FoodRepublic
+from .geniuskitchen import GeniusKitchen
 from .giallozafferano import GialloZafferano
 from .gimmesomeoven import GimmeSomeOven
 from .gonnawantseconds import GonnaWantSeconds
@@ -33,6 +34,7 @@ from .gousto import Gousto
 from .greatbritishchefs import GreatBritishChefs
 from .heinzbrasil import HeinzBrasil
 from .hellofresh import HelloFresh
+from .hostthetoast import Hostthetoast
 from .hundredandonecookbooks import HundredAndOneCookbooks
 from .ig import IG
 from .inspiralized import Inspiralized
@@ -40,10 +42,11 @@ from .jamieoliver import JamieOliver
 from .justbento import JustBento
 from .kennymcgovern import KennyMcGovern
 from .kochbar import Kochbar
-from .thekitchn import TheKitchn
+from .lovingitvegan import Lovingitvegan
 from .marmiton import Marmiton
 from .matprat import Matprat
 from .mindmegette import Mindmegette
+from .minimalistbaker import Minimalistbaker
 from .misya import Misya
 from .momswithcrockpots import MomsWithCrockPots
 from .motherthyme import MotherThyme
@@ -65,21 +68,19 @@ from .steamykitchen import SteamyKitchen
 from .tastesoflizzyt import TastesOfLizzyT
 from .tastykitchen import TastyKitchen
 from .thehappyfoodie import TheHappyFoodie
+from .thekitchn import TheKitchn
 from .thepioneerwoman import ThePioneerWoman
 from .thespruceeats import TheSpruceEats
 from .thevintagemixer import TheVintageMixer
+from .thewoksoflife import Thewoksoflife
 from .tineno import TineNo
 from .tudogostoso import TudoGostoso
 from .twopeasandtheirpod import TwoPeasAndTheirPod
 from .vegolosi import Vegolosi
+from .watchwhatueat import WatchWhatUEat
 from .whatsgabycooking import WhatsGabyCooking
 from .wikicookbook import WikiCookbook
 from .yummly import Yummly
-from .geniuskitchen import GeniusKitchen
-from .hostthetoast import Hostthetoast
-from .lovingitvegan import Lovingitvegan
-from .minimalistbaker import Minimalistbaker
-from .thewoksoflife import Thewoksoflife
 
 SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
@@ -159,6 +160,7 @@ SCRAPERS = {
     TudoGostoso.host(): TudoGostoso,
     TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
     Vegolosi.host(): Vegolosi,
+    WatchWhatUEat.host(): WatchWhatUEat,
     WhatsGabyCooking.host(): WhatsGabyCooking,
     WikiCookbook.host(): WikiCookbook,
     Yummly.host(): Yummly,
