@@ -123,6 +123,7 @@ Scrapers available for:
 - `https://tudogostoso.com.br/ <https://www.tudogostoso.com.br/>`_
 - `https://twopeasandtheirpod.com/ <http://twopeasandtheirpod.com>`_
 - `https://vegolosi.it/ <https://vegolosi.it>`_
+- `https://watchwhatueat.com/ <https://watchwhatueat.com/>`_
 - `https://whatsgabycooking.com/ <https://whatsgabycooking.com>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `https://yummly.com/ <https://yummly.com>`_
