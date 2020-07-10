@@ -89,7 +89,7 @@ Scrapers available for:
 - `https://kennymcgovern.com/ <https://kennymcgovern.com>`_
 - `https://kochbar.de/ <https://kochbar.de>`_
 - `https://lovingitvegan.com/ <https://lovingitvegan.com/>`_
-- `https://www.lecremedelacrumb.com/ <https://www.lecremedelacrumb.com/>`_
+- `https://lecremedelacrumb.com/ <https://lecremedelacrumb.com/>`_
 - `https://marmiton.org/ <https://marmiton.org/>`_
 - `https://matprat.no/ <https://matprat.no/>`_
 - `http://mindmegette.hu/ <http://mindmegette.hu/>`_
