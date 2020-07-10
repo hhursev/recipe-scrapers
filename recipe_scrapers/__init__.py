@@ -1,5 +1,3 @@
-__version__ = "8.2.0"
-
 import inspect
 import re
 from tldextract import TLDExtract
