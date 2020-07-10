@@ -42,6 +42,7 @@ from .jamieoliver import JamieOliver
 from .justbento import JustBento
 from .kennymcgovern import KennyMcGovern
 from .kochbar import Kochbar
+from .lecremedelacrumb import LeCremeDeLaCrumb
 from .lovingitvegan import Lovingitvegan
 from .marmiton import Marmiton
 from .matprat import Matprat
@@ -125,6 +126,7 @@ SCRAPERS = {
     JustBento.host(): JustBento,
     KennyMcGovern.host(): KennyMcGovern,
     Kochbar.host(): Kochbar,
+    LeCremeDeLaCrumb.host(): LeCremeDeLaCrumb,
     Lovingitvegan.host(): Lovingitvegan,
     TheKitchn.host(): TheKitchn,
     Marmiton.host(): Marmiton,
