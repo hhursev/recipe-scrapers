@@ -1,8 +1,6 @@
 import os
 from setuptools import setup, find_packages
 
-from recipe_scrapers import __version__
-
 README = open(os.path.join(os.path.dirname(__file__), "README.rst")).read()
 
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
@@ -10,7 +8,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name="recipe_scrapers",
     url="https://github.com/hhursev/recipe-scrapers/",
-    version=__version__,
+    version="8.2.0",
     author="Hristo Harsev",
     author_email="r+pypi@hharsev.com",
     description="Python package, scraping recipes from all over the internet",
