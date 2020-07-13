@@ -18,7 +18,7 @@ class SchemaOrg:
         self.host = host
         self.data = {}
 
-        data = extruct.extract(page_data, syntaxes=SYNTAXES, uniform=True,)
+        data = extruct.extract(page_data, syntaxes=SYNTAXES, uniform=True)
 
         for syntax in SYNTAXES:
             for item in data.get(syntax, []):

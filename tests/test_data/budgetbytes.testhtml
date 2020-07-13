@@ -11,7 +11,7 @@
 	$('img').each(function(){
 		if( ! $(this).hasClass('size-full') ){
 			$(this).attr('data-pin-nopin', true)
-		}	
+		}
 	});
 });</script> <style type="text/css">#wprm-recipe-collections-app,#wprm-recipe-saved-collections-app{font-size:12px}.wprmprc-collection-column-balancer,.wprmprc-collection-column,.wprmprc-collection-actions{flex:1;flex-basis:200px}</style><style type="text/css" id="tve_global_variables"></style> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -87,10 +87,10 @@ window.addEventListener('LazyLoad::Initialized', function (e) {
 			lazyLoadInstance.update();
 		} );
 	} );
-	
+
 	var b      = document.getElementsByTagName("body")[0];
 	var config = { childList: true, subtree: true };
-	
+
 	observer.observe(b, config);
 }, false);</script> <script>!function(f,b,e,v,n,t,s)
   {if(f.fbq)return;n=f.fbq=function(){n.callMethod?

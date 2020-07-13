@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
 
 <head prefix="og: http://ogp.me/ns">
-    
+
 
 <!-- OneTrust Cookies Consent Notice start -->
 
@@ -16,7 +16,7 @@
 <!-- OneTrust Cookies Consent Notice end -->
 
 
-    
+
 
 <meta name="author" content="greatbritishchefs" />
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
@@ -25,7 +25,7 @@
 <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,400italic|PT+Serif:400" rel="stylesheet" type="text/css" />
 
 
-    
+
     <meta name="description" content="This simple picadillo recipe has the perfect balance of sweetness and spice. A pleasing tanginess comes from the addition of vibrant tomatillo salsa for a great depth of flavour." />
     <meta property="og:description" content="This simple picadillo recipe has the perfect balance of sweetness and spice. A pleasing tanginess comes from the addition of vibrant tomatillo salsa for a great depth of flavour." />
 
@@ -52,13 +52,13 @@
 
 
 
-    
+
 
 
 <meta property="fb:app_id" content="200937473307040" />
 <meta property="article:author" content="https://www.facebook.com/greatbritishchefs" />
 
-    
+
 <meta name="twitter:site" content="@gbcchefs" />
 <meta name="twitter:creator" content="@gbcchefs" />
 <meta name="twitter:title" content="Picadillo Recipe - Great British Chefs" />
@@ -68,7 +68,7 @@
         <meta name="twitter:card" content="summary_large_image" />
 
 
-    
+
 
 <script src='https://gbc-site-cdn.azureedge.net/n-bundles/js/vxi-637026082500000000/jquery-lodash-bootstrap-sitehead.min.js' type='text/javascript'></script>
 <link href="https://gbc-site-cdn.azureedge.net/n-bundles/css/vxi-636776355500000000/Vendor-bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -76,7 +76,7 @@
 <script>
     $.ajaxSetup({ traditional: true });
 </script>
-    
+
 <script>
 
 
@@ -196,7 +196,7 @@
             },
 
             abTesting: {
-                
+
                 individualTestActions: {},
 
                 registerActionFor: function(testName, action, variation) {
@@ -282,7 +282,7 @@
 
         var newsletterEntryCookie = $.cookie(gbcGlobal.runtimeInfo.weeklyNewsletterGlobalCookieName);
 
-        window.gbcGlobal.dynamicBlocks = {     
+        window.gbcGlobal.dynamicBlocks = {
             isAdInsteadOfWeeklyNewsletterSubscriptionShown: function () {
                 if (newsletterEntryCookie == 'true' || gbcGlobal.userInfo.isLoggedIn) {
                     return true;
@@ -364,7 +364,7 @@
 
 
 </script>
-    
+
 
 
 
@@ -392,11 +392,11 @@
     ga('create', 'UA-89173264-2', 'auto', gaArgObject);
 
 
-        
+
 
         ga('require', 'GTM-PGK9WWX');
 
-        
+
 
 
     dataLayer = [{"hassponsor":"no","page":"picadillo-recipe","Tag":["ingredient-minced beef","cuisine-mexican","ingredient-raisins","ingredient-coriander","ingredient-tomatillo","ingredient-paprika","ingredient-cumin"],"pageTitle":"picadillo","author":"the kitchen with great british chefs","difficulty":"easy","course":"main","type":"articlerecipe"}];
@@ -557,7 +557,7 @@
     var getCamelCaseTrackTag = eventModule.getCamelCaseTrackTag;
 
 
-   
+
 
     function processIframeAnalyticsMessage(event) {
         if (event.data && event.data.messageType === "gaEvent") {
@@ -566,7 +566,7 @@
                 return;
             }
             var eventData = event.data.eventData;
-         
+
             if (!eventData.category || !eventData.action || !eventData.label) {
                 console.warn('processIframeAnalyticsMessage: invalid event.data.eventData', eventData);
                 return;
@@ -574,9 +574,9 @@
             var eventModuleAction = eventData.interactive ? "sendInteractiveEventData" : "sendEventData";
 
             eventModule[eventModuleAction](eventData.category, eventData.action, eventData.label, eventData.value);
-            
+
         }
-        
+
     }
 
     window.addEventListener("message", processIframeAnalyticsMessage, false);
@@ -587,9 +587,9 @@
 
 
 
- 
 
-    
+
+
     <script type="text/javascript">
         var instrumentationkey = "bb5d3ecb-ae02-40f6-9e47-3d69cfc5bba9";
         var appInsights = window.appInsights || function (config) {
@@ -608,7 +608,7 @@
             tabName = window.gbcGlobal.contentInfo.title;
             if (!tabName) tabName = location.pathname;
         }
-       
+
         window.appInsights = appInsights;
         appInsights.trackPageView(tabName, url, trackProperties);
     </script>
@@ -624,17 +624,17 @@
             console.debug('Ignored trackEvent:' + eventName);
         }
     }
-    
-    
+
+
 </script>
 
 
 
 
-    
-    
-    
-    
+
+
+
+
     <link type="text/css" rel="stylesheet" href="https://gbc-cdn-static.azureedge.net/gbc-shared-iconset-2017-11-13.css" />
 
 
@@ -645,11 +645,11 @@
 
 
 
-    
+
     <link href="https://gbc-site-cdn.azureedge.net/n-bundles/css/vxi-636975869040000000/Comments.min.css" rel="stylesheet" type="text/css" />
     <link href="https://gbc-site-cdn.azureedge.net/n-bundles/css/vxi-636776355500000000/recipes-v2.min.css" rel="stylesheet" type="text/css" />
 
-    
+
 <link rel="apple-touch-icon" sizes="57x57" href="/Content/Favicon/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon" sizes="60x60" href="/Content/Favicon/apple-touch-icon-60x60.png" />
 <link rel="apple-touch-icon" sizes="72x72" href="/Content/Favicon/apple-touch-icon-72x72.png" />
@@ -709,14 +709,14 @@
 
 <body class="gbc-detail-page gbc-commentable-page" itemscope="" itemtype="https://schema.org/Recipe">
     <!-- Facebook Pixel Code -->
- 
+
 
 <noscript>
     <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=163915384035522&ev=PageView&noscript=1" />
 </noscript>
 
 <!-- End Facebook Pixel Code -->
-    
+
         <meta itemprop="datePublished" content="2018-01-25" />
         <meta itemprop="dateModified" content="2020-02-06" />
         <meta itemprop="description" content="This simple picadillo recipe has the perfect balance of sweetness and spice. A pleasing tanginess comes from the addition of vibrant tomatillo salsa for a great depth of flavour." />
@@ -746,9 +746,9 @@
 
     var isTouch = (('ontouchstart' in window) || (navigator.msMaxTouchPoints > 0));
     if (isTouch) $('html').addClass('touch');
-     
+
 </script>
-    
+
 
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MH2952V&gtm_auth=GcQr-req3ei_47Fp3cGapg&gtm_preview=env-2&gtm_cookies_win=x" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -757,8 +757,8 @@
 
 
     <div id="banner">
-        
-    
+
+
 <div class="ad-container">
     <div id="tag8fe8fae3-2368-419f-8a29-774e08f6747a" class="ad-unit">
 
@@ -773,9 +773,9 @@
 
     </div>
 
-    
 
-    
+
+
 
 
 
@@ -861,7 +861,7 @@
                             <span class="navbar__RequestBookletButtonText">Buy our cookbook</span>
                         </a>
 
-                        
+
 
                     </li>
 
@@ -1308,7 +1308,7 @@
             </a>
     </h3>
         <script>
-            
+
             $('#header-breadcrumbs').appendTo($('.breadCrumbs')).show();
         </script>
         <script type="application/ld+json">
@@ -1316,7 +1316,7 @@
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
-                
+
                     {
                     "@type": "ListItem",
                     "position": 1,
@@ -1325,8 +1325,8 @@
                     "name": "Recipes"
                     }
                     }
-                
-                
+
+
                     ,{
                     "@type": "ListItem",
                     "position": 2,
@@ -1335,7 +1335,7 @@
                     "name": "Minced beef"
                     }
                     }
-                
+
             ]
             }
         </script>
@@ -1346,10 +1346,10 @@
         $('.printable-only').removeClass('printable-only--enforce-hide').find('a').prop('href', location.href + '/print');
     </script>
 <script>
- 
+
 </script>
 
-    
+
 
 
 
@@ -1358,14 +1358,14 @@
 
 <div id="layout-container" class="BloggerRecipe">
 
-    
+
     <div class="container-fluid">
         <div class="Content--width-limit">
             <div class="row">
-                
+
                 <div class="col-xs-24">
                     <div class="Recipe__Header Header">
-                        
+
                         <div class="Header__Title">
                             <h1 itemprop="headline name">
                                 Picadillo
@@ -1385,12 +1385,12 @@
         </div>
     </div>
 
-    
+
     <div class="container-fluid ">
         <div class="Content--width-limit">
             <div class="row">
 
-                
+
                 <div class="col-xs-24 col-md-14 col-lg-16 Content__xs__half-padding-left-right">
                     <div id="head-media-container" class="Recipe__HeadPictureVideo">
 
@@ -1426,12 +1426,12 @@
         </picture>
 
 
-            
+
                 <meta itemprop="url" content="https://gbc-cdn-public-media.azureedge.net/img73858.768x512.jpg" />
                     <meta itemprop="width" content="768" />
                     <meta itemprop="height" content="512" />
 
-            
+
 
             <script type="text/javascript">
                 var addthis_share = {
@@ -1447,9 +1447,9 @@
 
                 <div class="col-xs-24 col-md-10 col-lg-8">
                     <div class="row">
-                        
+
                         <div class="col-xs-24">
-                            
+
 
 <div id="item-details" class="RecipeSummary">
     <div id="recipe-attributes" class="RecipeSummary__Attributes RecipeAttributes">
@@ -1506,7 +1506,7 @@
 
                         </div>
 
-                        
+
                         <div class="col-xs-24 CrossLines-bottom__sm-md">
                             <div class="RecipeAbstract">
         <div id="recipe-abstract-1" class="track-link" data-track-link="Recirculation|Abstract">
@@ -1516,7 +1516,7 @@
 
                         </div>
 
-                        
+
                         <div class="hidden-xs col-sm-12 col-md-24">
                             <div id="recircTags" class="RecircInfoBottom track-link" data-track-link="Recirculation|Tags Top">
                                     <div class="RecircInfoBottom__Title Subheader">Discover more:</div>
@@ -1550,10 +1550,10 @@
                             </div>
                         </div>
 
-                        
+
                         <div class="col-xs-24 col-sm-12 col-md-24 Recipe__AddThisShare">
                             <div class="AddThisShare__Title Subheader">Share recipe</div>
-                            
+
 
     <div class="SocialSharing__AddThis--Body">
         <!-- Go to www.addthis.com/dashboard to customize your tools -->
@@ -1570,7 +1570,7 @@
         <div class="row Content__sm-md__padding-bottom Content__md__padding-top">
                 <div class="col-xs-24 CrossLines-top-bottom__sm Content__sm-md__no-padding-left-right">
                     <div id="recipes__relatedRecipes" class="">
-                        
+
 
 
     <div class="Recirc5Items track-link" data-track-link="Recirculation|Related|Top">
@@ -1592,7 +1592,7 @@
             </div>
 
             <div class="Recirc5Items__ItemsContainer" id="relatedItemsContaineree85edc2-534c-460c-a22f-4d908839427c">
-                
+
 
 
 <div data-bind="if: binderData != null, visible: true" style="display:none;">
@@ -1631,7 +1631,7 @@
 
                         <a data-bind="attr:{href: Link}">
                             <div class="italianContent" data-bind="if: PartitionName != null && PartitionName != '0'"><span class="partitionName" data-bind="text: PartitionName"></span> <span class="svg-icon i-11 i-link-out"></span></div>
-                            
+
 
                             <div class="mobileAndTabletOnly">
                                 <div class="recirc-title caption" data-bind="text: MobileTitle"></div>
@@ -1666,7 +1666,7 @@
                 </div>
                 <!-- /ko -->
                 <!-- ko if: (!Advert && AdditionalBlock) -->
-                
+
                 <div class="cross-site-block">
                     <div class="crossSiteSideBlock">
                         <div class="crossSiteLogo">
@@ -1678,7 +1678,7 @@
                                 <div class="crossTextOuter">
                                     <div class="basicText1" data-bind="text: BasicText1"></div>
                                     <div class="basicText2 tabletAndDesktopOnly" data-bind="text: BasicText2"></div>
-                                    
+
                                 </div>
                             </div>
                             <a class="track-link" data-bind="attr:{href: URL, 'data-track-link' : 'Recirculation|Additional Block ' + AdditionalBlockType }, text: ButtonText"></a>
@@ -1769,11 +1769,11 @@
 
 <div style="display:none" id="folderErrorModal" class="modalDisplay">
     <p>
-        The folder name 
+        The folder name
         <span>'</span>
         <strong><span id="errorMessageFolderName"></span></strong>
         <span>'</span>
-         already exists. 
+         already exists.
         Please choose a different name.
     </p>
     <button onclick="basicModal.closeModal()">Okay</button>
@@ -1813,15 +1813,15 @@
         </div>
     </div>
 
-    
+
     <div class="container-fluid">
         <div class="row">
             <div class="visible-xs col-xs-24">
-                
+
 
 <div class="visible-xs-block col-xs-24 Content__no-padding-left-right Content__padding-top ">
     <div class="mobile_banner MobileAdBanner Content__no-padding-left-right" id="adTop">
-        
+
 
 
 
@@ -1843,12 +1843,12 @@
         </div>
     </div>
 
-    
+
     <div class="container-fluid">
         <div class="Content--width-limit">
             <div class="row">
 
-                
+
                 <div class="col-xs-24 col-sm-14 col-md-15 col-lg-17">
                     <div class="row">
 
@@ -1873,7 +1873,7 @@
     </div>
 </div>
 
-                                        
+
 
 
 
@@ -1887,7 +1887,7 @@
 </div>
 
 
-                                        
+
 
 
 
@@ -1904,7 +1904,7 @@
                                     </div>
                                 </div>
                                 <div class="Ingredients__List IngredientsList">
-                                    
+
 
 
 
@@ -1918,27 +1918,27 @@
             </li>
         <li class="IngredientsList__IngredientItem" itemprop="recipeIngredient">
                     <span class="IngredientsList__IngredientWithLinkPreText">
-                        500g of 
+                        500g of
                     </span>
                 <a href="/collections/beef-burger-recipes" class="track-link IngredientsList__Ingredient IngredientsList__IngredintLink" data-track-link="Recirculation|Ingredients|beef mince">beef mince</a>        </li>
         <li class="IngredientsList__IngredientItem" itemprop="recipeIngredient">
                     <span class="IngredientsList__IngredientWithLinkPreText">
-                        1 
+                        1
                     </span>
                 <a href="/ingredients/onion-recipes" class="track-link IngredientsList__Ingredient IngredientsList__IngredintLink" data-track-link="Recirculation|Ingredients|onion">onion</a><span class="IngredientsList__IngredientWithLinkPostText">, diced</span>        </li>
         <li class="IngredientsList__IngredientItem" itemprop="recipeIngredient">
                     <span class="IngredientsList__IngredientWithLinkPreText">
-                        2 
+                        2
                     </span>
                 <a href="/ingredients/garlic-recipes" class="track-link IngredientsList__Ingredient IngredientsList__IngredintLink" data-track-link="Recirculation|Ingredients|garlic cloves">garlic cloves</a><span class="IngredientsList__IngredientWithLinkPostText">, sliced</span>        </li>
         <li class="IngredientsList__IngredientItem" itemprop="recipeIngredient">
                     <span class="IngredientsList__IngredientWithLinkPreText">
-                        1 
+                        1
                     </span>
                 <a href="/ingredients/carrot-recipes" class="track-link IngredientsList__Ingredient IngredientsList__IngredintLink" data-track-link="Recirculation|Ingredients|carrot">carrot</a><span class="IngredientsList__IngredientWithLinkPostText">, finely diced</span>        </li>
         <li class="IngredientsList__IngredientItem" itemprop="recipeIngredient">
                     <span class="IngredientsList__IngredientWithLinkPreText">
-                        1 
+                        1
                     </span>
                 <a href="/ingredients/potato-recipes" class="track-link IngredientsList__Ingredient IngredientsList__IngredintLink" data-track-link="Recirculation|Ingredients|potato">potato</a><span class="IngredientsList__IngredientWithLinkPostText">, finely diced</span>        </li>
         <li class="IngredientsList__IngredientItem" itemprop="recipeIngredient">
@@ -1946,27 +1946,27 @@
         </li>
         <li class="IngredientsList__IngredientItem" itemprop="recipeIngredient">
                     <span class="IngredientsList__IngredientWithLinkPreText">
-                        1 tsp 
+                        1 tsp
                     </span>
                 <a href="/ingredients/cumin-recipes" class="track-link IngredientsList__Ingredient IngredientsList__IngredintLink" data-track-link="Recirculation|Ingredients|ground cumin">ground cumin</a>        </li>
         <li class="IngredientsList__IngredientItem" itemprop="recipeIngredient">
                     <span class="IngredientsList__IngredientWithLinkPreText">
-                        1 tsp 
+                        1 tsp
                     </span>
                 <a href="/ingredients/coriander-recipes" class="track-link IngredientsList__Ingredient IngredientsList__IngredintLink" data-track-link="Recirculation|Ingredients|ground coriander">ground coriander</a>        </li>
         <li class="IngredientsList__IngredientItem" itemprop="recipeIngredient">
                     <span class="IngredientsList__IngredientWithLinkPreText">
-                        1 tsp 
+                        1 tsp
                     </span>
                 <a href="/ingredients/paprika-recipes" class="track-link IngredientsList__Ingredient IngredientsList__IngredintLink" data-track-link="Recirculation|Ingredients|smoked paprika">smoked paprika</a>        </li>
         <li class="IngredientsList__IngredientItem" itemprop="recipeIngredient">
                     <span class="IngredientsList__IngredientWithLinkPreText">
-                        2 tbsp of 
+                        2 tbsp of
                     </span>
                 <a href="//www.greatitalianchefs.com/collections/tomato-recipes" class="track-link IngredientsList__Ingredient IngredientsList__IngredintLink" data-track-link="Recirculation|Ingredients|tomato pur&#233;e">tomato pur&#233;e</a>        </li>
         <li class="IngredientsList__IngredientItem" itemprop="recipeIngredient">
                     <span class="IngredientsList__IngredientWithLinkPreText">
-                        100g of 
+                        100g of
                     </span>
                 <a href="/ingredients/raisin-recipes" class="track-link IngredientsList__Ingredient IngredientsList__IngredintLink" data-track-link="Recirculation|Ingredients|raisins">raisins</a>        </li>
         <li class="IngredientsList__IngredientItem" itemprop="recipeIngredient">
@@ -1977,14 +1977,14 @@
         </li>
         <li class="IngredientsList__IngredientItem" itemprop="recipeIngredient">
                     <span class="IngredientsList__IngredientWithLinkPreText">
-                        1 tsp 
+                        1 tsp
                     </span>
                 <a href="/ingredients/honey-recipes" class="track-link IngredientsList__Ingredient IngredientsList__IngredintLink" data-track-link="Recirculation|Ingredients|honey">honey</a>        </li>
         <li class="IngredientsList__IngredientItem" itemprop="recipeIngredient">
                 <a href="/ingredients/lime-recipes" class="track-link IngredientsList__Ingredient IngredientsList__IngredintLink" data-track-link="Recirculation|Ingredients|lime juice">lime juice</a><span class="IngredientsList__IngredientWithLinkPostText">, to taste</span>        </li>
         <li class="IngredientsList__IngredientItem" itemprop="recipeIngredient">
                     <span class="IngredientsList__IngredientWithLinkPreText">
-                        1 handful of 
+                        1 handful of
                     </span>
                 <a href="/ingredients/coriander-recipes" class="track-link IngredientsList__Ingredient IngredientsList__IngredintLink" data-track-link="Recirculation|Ingredients|coriander">coriander</a><span class="IngredientsList__IngredientWithLinkPostText">, chopped</span>        </li>
         <li class="IngredientsList__IngredientItem" itemprop="recipeIngredient">
@@ -2015,7 +2015,7 @@
 
                                         </div>
                                         <div class="col-xs-24 col-sm-12 col-lg-24">
-                                            
+
 
 
 
@@ -2031,7 +2031,7 @@
 
                                         </div>
                                         <div class="col-xs-24 col-sm-12 col-lg-24">
-                                            
+
 
 
 
@@ -2049,20 +2049,20 @@
 
                                     </div>
                                 </div>
-                                
+
 <div class="Ingredients__Equipment Equipment">
 </div>
                             </div>
                         </div>
 
 
-                        
+
                         <div class="visible-xs col-xs-24">
-                            
+
                             <div class="Container__IsSubscribedToNewsletterOrLoggedIn NotSubscribed">
                                 <div class="MobileFullWidth--NegativeMargin">
                                     <div class="NewsletterSignUp">
-                                        
+
 
 <div id="newsletter-signup-container1748a600-685e-4b01-aba1-9c7ff463e0e5" class="Content__double-padding-left-right newsletter-block newsletter-block__recipeV2 Content__double-padding-top Content__padding-bottom">
     <div data-bind="visible: !formSent()">
@@ -2072,7 +2072,7 @@
             <input class="" type="text" data-bind="value: Email.value, css: { invalid : !Email.isValidOrClean() }" name="newsletter-email" id="newsletterEmailValue" placeholder="Enter your email address..." />
             <button data-bind="click: newsletterSubmit" class="newsletter-signup-submit" style="">SUBSCRIBE</button>
         </div>
-        
+
         <div class="newsletter-signup-form newsletter-signup-form__cheese-awards form-container" id="newsletter-form-inpage">
             <div class="form-group label-floating">
                 <label class="control-label newsletter-block__cheese-awards__control-label" for="newsletterEmailValueCheeseAwards">Email</label>
@@ -2102,7 +2102,7 @@
         <p style="">It looks like you've already signed up to our newsletter. If you have not already, why not register for an account <a class='track-link' data-track-link='Newsletter | Already Subscribed | Register Link' href='/register#init-register'>here</a></p>
     </div>
 
-    
+
     <div id="newsletter-thanks" class="newsletter-thanks__cheese-awards" data-bind="visible: formSent() && !alreadySubscribed()">
         <h2 class="">Thanks for subscribing</h2>
         <p>We&#39;ll only contact you around once per week with the best recipes and features. You can unsubscribe at any time.</p>
@@ -2127,7 +2127,7 @@
                 returnErrorId: "#return-error3c062044-7053-42f6-b425-dca8d1d795ca",
                 associatedABTestname: "",
                 googleAnalyticsEvent: null,
-                copyEmailAddressFromUserInfo: false                
+                copyEmailAddressFromUserInfo: false
             };
 
             var newsletterVm = newsletterSignup.init(elementId, vmsettings, newsletterPlacementName);
@@ -2145,9 +2145,9 @@
                                 </div>
                             </div>
                             <div class="Container__IsSubscribedToNewsletterOrLoggedIn AlreadySubscribed">
-                         
+
                                 <div class="Block__AdvertisingBlockContainerMobile">
-                                    
+
 
 
 
@@ -2167,7 +2167,7 @@
                             </div>
                         </div>
 
-                        
+
                         <div class="col-xs-24 col-lg-15">
                             <div class="row">
                                 <div class="col-xs-24">
@@ -2197,7 +2197,7 @@
                                                         </div>
                                                     </a>
                                                 </div>
-                                                
+
 
 
 
@@ -2214,7 +2214,7 @@
                                             </div>
                                         </div>
                                         <div class="Method__List MethodList">
-                                            
+
 
 
 
@@ -2224,7 +2224,7 @@
 
 
                     <div id="method-inner">
-                        
+
 
     <div class="MethodList__Step">
         <div class="MethodList__StepWrap  clearfix">
@@ -2280,13 +2280,13 @@
                 </div>
 
                                         </div>
-                                        
+
                                     </div>
                                 </div>
 
-                                
+
                                 <div class="hidden-xs col-sm-24 Content__double-padding-left-right">
-                                    
+
 
     <div class="SocialSharing__AddThis--Body">
         <!-- Go to www.addthis.com/dashboard to customize your tools -->
@@ -2300,11 +2300,11 @@
                     </div>
                 </div>
 
-                
+
                 <div class="col-xs-24 col-sm-10 col-md-9 col-lg-7">
                     <div class="row">
 
-                        
+
                         <div class="visible-xs col-xs-24 CrossLines-top__xs">
                             <div id="recircTags" class="RecircInfoBottom track-link" data-track-link="Recirculation|Tags Top">
                                     <div class="RecircInfoBottom__Title Subheader">Discover more:</div>
@@ -2338,10 +2338,10 @@
                             </div>
                         </div>
 
-                        
+
                         <div class="visible-xs col-xs-24 Content__xs__padding-bottom">
                             <div class="AddThisShare__Title Subheader">Share recipe</div>
-                            
+
 
     <div class="SocialSharing__AddThis--Body">
         <!-- Go to www.addthis.com/dashboard to customize your tools -->
@@ -2352,7 +2352,7 @@
 
 
                             <div class="col-xs-24 Content__sm-md__padding-bottom CrossLines-top__xs BloggerRecipe__Profile">
-                                
+
 <div class="ChefBasicSummary track-link" data-track-link="Recirculation|Author|Block">
     <div class="ChefBasicSummary__ImageName">
         <div class="ChefBasicSummary__ImageV2">
@@ -2367,7 +2367,7 @@
         </div>
     </div>
         <div class="ChefBasicSummary__TeaserPlain">
-                                                                                                                                    <p>The Kitchen with Great British Chefs is where you’ll find all the recipes from our own team of expert chefs.                                    </p>                       
+                                                                                                                                    <p>The Kitchen with Great British Chefs is where you’ll find all the recipes from our own team of expert chefs.                                    </p>
 
 
 
@@ -2399,10 +2399,10 @@
                         </div>
 
                         <div class="Container__IsSubscribedToNewsletterOrLoggedIn NotSubscribed">
-                            
+
                             <div class="hidden-xs col-sm-24" id="newsletter-sticky-container">
                                 <div class="NewsletterSignUp Newsletter__SignUpInPage--sticky" id="newsletter-sticky">
-                                    
+
 
 <div id="newsletter-signup-container3b722dbe-2be1-48a2-a525-97db5dd29f10" class="Content__double-padding-left-right newsletter-block newsletter-block__recipeV2 Content__double-padding-top Content__padding-bottom">
     <div data-bind="visible: !formSent()">
@@ -2412,7 +2412,7 @@
             <input class="" type="text" data-bind="value: Email.value, css: { invalid : !Email.isValidOrClean() }" name="newsletter-email" id="newsletterEmailValue" placeholder="Enter your email address..." />
             <button data-bind="click: newsletterSubmit" class="newsletter-signup-submit" style="">SUBSCRIBE</button>
         </div>
-        
+
         <div class="newsletter-signup-form newsletter-signup-form__cheese-awards form-container" id="newsletter-form-inpage">
             <div class="form-group label-floating">
                 <label class="control-label newsletter-block__cheese-awards__control-label" for="newsletterEmailValueCheeseAwards">Email</label>
@@ -2442,7 +2442,7 @@
         <p style="">It looks like you've already signed up to our newsletter. If you have not already, why not register for an account <a class='track-link' data-track-link='Newsletter | Already Subscribed | Register Link' href='/register#init-register'>here</a></p>
     </div>
 
-    
+
     <div id="newsletter-thanks" class="newsletter-thanks__cheese-awards" data-bind="visible: formSent() && !alreadySubscribed()">
         <h2 class="">Thanks for subscribing</h2>
         <p>We&#39;ll only contact you around once per week with the best recipes and features. You can unsubscribe at any time.</p>
@@ -2467,7 +2467,7 @@
                 returnErrorId: "#return-error46d6f055-1641-4e44-9179-7be9795e3dad",
                 associatedABTestname: "",
                 googleAnalyticsEvent: null,
-                copyEmailAddressFromUserInfo: false                
+                copyEmailAddressFromUserInfo: false
             };
 
             var newsletterVm = newsletterSignup.init(elementId, vmsettings, newsletterPlacementName);
@@ -2485,12 +2485,12 @@
                             </div>
                         </div>
 
-                        
+
                         <div class="visible-xs col-xs-24">
-                            
+
 <div class="visible-xs-block col-xs-24 Content__no-padding-left-right Content__padding-top">
     <div class="Content__no-padding-left-right mobile-mpu-bottom MobileAdBanner">
-        
+
 
 
 
@@ -2516,17 +2516,17 @@
             </div>
         </div>
 
-        
+
         <div class="Content--width-limit" id="stick-to-element">
 
             <div class="row">
-                
-                
+
+
 
 
         <div class="col-xs-24 Content__sm-md__padding-top-bottom ">
             <div id="comments-outer" class="CommentsBlock">
-                
+
 
 
 
@@ -2545,7 +2545,7 @@
                                 <div class="col-xs-24">
                                     <div class="row">
 
-                                        
+
                                         <div class="col-xs-18 col-sm-16 FullPageMap__CommentsHeader">
                                             <div id="comment-header">
                                                 <div class="inner-l">
@@ -2617,7 +2617,7 @@
                                             <p data-bind="visible: CommentText.invalidReason() === 2">
                                                 The message must be less than <span data-bind="text: CommentText.maxLength"></span> characters
                                             </p>
-                                            
+
                                         </div>
                                         <div class="invalidMessage" data-bind="visible:sendingCommentErrorDetails">
                                             <p>
@@ -2626,7 +2626,7 @@
                                             <p>
                                                 Technical details: <span class="light" data-bind="text:sendingCommentErrorDetails"></span>
                                             </p>
-                                            
+
                                         </div>
 
 
@@ -2636,7 +2636,7 @@
                                     </form>
 
                                 </div>
-                                
+
                                 <div class="col-xs-24">
                                     <div class="modal_overlay" data-bind="style: { display: isSendingComment() ? 'block' : 'none' }">
                                         <div class="centerOnParent">
@@ -2658,23 +2658,23 @@
 
             </div>
         </div>
- 
+
             </div>
 
             <div class="row">
-                
+
                 <div class="col-xs-24 Content__xs__no-padding-left-right ">
                     <div id="recirc-block" class="track-link recircBottomBlock" data-track-link="Recirculation|Recirc Tail">
-                        
+
     <div data-is="recircTail" class="recirc-header-wrap">
         <h3 class="semi-heading recirc-header">You may also like</h3>
             <span class="recirc-header-sub">Picadillo</span>
     </div>
 
 
-                        
+
 <div id="recircSection" class="scroll-end-content">
-    
+
 
 
 <div data-bind="if: binderData != null, visible: true" style="display:none;">
@@ -2713,7 +2713,7 @@
 
                         <a data-bind="attr:{href: Link}">
                             <div class="italianContent" data-bind="if: PartitionName != null && PartitionName != '0'"><span class="partitionName" data-bind="text: PartitionName"></span> <span class="svg-icon i-11 i-link-out"></span></div>
-                            
+
 
                             <div class="mobileAndTabletOnly">
                                 <div class="recirc-title caption" data-bind="text: MobileTitle"></div>
@@ -2748,7 +2748,7 @@
                 </div>
                 <!-- /ko -->
                 <!-- ko if: (!Advert && AdditionalBlock) -->
-                
+
                 <div class="cross-site-block">
                     <div class="crossSiteSideBlock">
                         <div class="crossSiteLogo">
@@ -2760,7 +2760,7 @@
                                 <div class="crossTextOuter">
                                     <div class="basicText1" data-bind="text: BasicText1"></div>
                                     <div class="basicText2 tabletAndDesktopOnly" data-bind="text: BasicText2"></div>
-                                    
+
                                 </div>
                             </div>
                             <a class="track-link" data-bind="attr:{href: URL, 'data-track-link' : 'Recirculation|Additional Block ' + AdditionalBlockType }, text: ButtonText"></a>
@@ -3379,11 +3379,11 @@
 
 <div style="display:none" id="folderErrorModal" class="modalDisplay">
     <p>
-        The folder name 
+        The folder name
         <span>'</span>
         <strong><span id="errorMessageFolderName"></span></strong>
         <span>'</span>
-         already exists. 
+         already exists.
         Please choose a different name.
     </p>
     <button onclick="basicModal.closeModal()">Okay</button>
@@ -3425,7 +3425,7 @@
                 <ul class="file-names-scrolls" data-bind="foreach: folderListDropdown">
                     <li>
                         <label class="folderButton" type="button" data-bind="text: Name, attr: {for: 'folderCheckbox' + Name}"></label>
-                        
+
                         <input data-bind="checked: InFolder, attr: {id: 'folderCheckbox' + Name }" type="checkbox" class="folderDropdownCheckbox" />
                         <label class="folderButtonInput check-right" data-bind="attr: {for: 'folderCheckbox' + Name }"></label>
                     </li>
@@ -3433,7 +3433,7 @@
                 <div class="menu-create-folder">
                     <input onkeyup="if (event.keyCode == 13) { $('.createNewFolderButton').click(); }" class="addFolderInput" type="text" placeholder="Add a new folder..." data-bind="textInput: newFolderName" />
                     <button type="button" data-bind="click: addToFolder" class="createNewFolderButton">+</button>
-                    
+
                 </div>
             </div>
             <div class="list-of-files"></div>
@@ -3459,12 +3459,12 @@
         <div class="row">
 
             <div class="switching-rows">
-                
+
                 <div class="col-xs-24 col-md-19 col-lg-20 middle-right-col">
                     <div class="row">
 
                         <div class="switching-rows">
-                            
+
                             <div class="col-xs-24 col-sm-8 navigation noBackgroundMobile ">
                                 <div class="links-col-1">
                                     <h3 class="tabletAndDesktopOnly">NAVIGATE</h3>
@@ -3523,7 +3523,7 @@
                                 </div>
                             </div>
 
-                            
+
                             <div class="col-xs-24 hidden-md hidden-lg breadcrumbs">
                                 <div class="footer-breadcrumbs">
                                         <h3>
@@ -3543,10 +3543,10 @@
                                 </div>
                             </div>
 
-                            
+
                             <div id="newsletter-footer-xs" class="visible-xs-block col-xs-24">
                                 <h3 class="semi-heading newsletter-semi-heading">NEWSLETTER</h3>
-                                
+
 
 <div id="newsletter-signup-container8a6f3fbf-0787-4e8a-93cc-c048019e3401" class="Content__double-padding-left-right newsletter-block newsletter-block__footer Content__double-padding-top Content__padding-bottom">
     <div data-bind="visible: !formSent()">
@@ -3556,7 +3556,7 @@
             <input class="" type="text" data-bind="value: Email.value, css: { invalid : !Email.isValidOrClean() }" name="newsletter-email" id="newsletterEmailValue" placeholder="Enter your email address..." />
             <button data-bind="click: newsletterSubmit" class="newsletter-signup-submit" style="">SUBSCRIBE</button>
         </div>
-        
+
         <div class="newsletter-signup-form newsletter-signup-form__cheese-awards form-container" id="newsletter-form-inpage">
             <div class="form-group label-floating">
                 <label class="control-label newsletter-block__cheese-awards__control-label" for="newsletterEmailValueCheeseAwards">Email</label>
@@ -3586,7 +3586,7 @@
         <p style="">It looks like you've already signed up to our newsletter. If you have not already, why not register for an account <a class='track-link' data-track-link='Newsletter | Already Subscribed | Register Link' href='/register#init-register'>here</a></p>
     </div>
 
-    
+
     <div id="newsletter-thanks" class="newsletter-thanks__cheese-awards" data-bind="visible: formSent() && !alreadySubscribed()">
         <h2 class="">Thanks for subscribing</h2>
         <p>We&#39;ll only contact you around once per week with our best features and seasonal recipes and how to cook guides. You can unsubscribe at any time.</p>
@@ -3611,7 +3611,7 @@
                 returnErrorId: "#return-error2d472afb-13c3-4ec6-94da-e9e3b588c6d8",
                 associatedABTestname: "",
                 googleAnalyticsEvent: null,
-                copyEmailAddressFromUserInfo: false                
+                copyEmailAddressFromUserInfo: false
             };
 
             var newsletterVm = newsletterSignup.init(elementId, vmsettings, newsletterPlacementName);
@@ -3627,7 +3627,7 @@
 
                             </div>
 
-                            
+
                             <div class="visible-xs-block col-xs-24 sites">
                                 <div class="footer-logo">
                                     <h3>SITES</h3>
@@ -3662,7 +3662,7 @@
 
 
 
-                            
+
                             <div class="col-xs-offset-2 col-xs-20 col-sm-offset-0 col-sm-8 col-md-7 col-lg-8 information">
                                 <div>
                                     <h3 class="tabletAndDesktopOnly">INFORMATION</h3>
@@ -3737,19 +3737,19 @@
                                                     T&#39;s and C&#39;s
                                                 </a>
                                             </li>
-                                        
+
                                     </ul>
                                 </div>
                             </div>
 
-                            
+
                             <div class="col-xs-24 col-sm-8 col-md-9 col-lg-8 right-col">
                                 <div class="row">
 
-                                    
+
                                     <div id="newsletter-footer" class="hidden-xs col-sm-24 newsletter Content__xs-sm__padding-bottom">
                                         <h3 class="semi-heading newsletter-semi-heading">NEWSLETTER</h3>
-                                        
+
 
 <div id="newsletter-signup-container21078b3b-27b7-49c8-8590-50f8554c0e44" class="Content__double-padding-left-right newsletter-block newsletter-block__footer Content__double-padding-top Content__padding-bottom">
     <div data-bind="visible: !formSent()">
@@ -3759,7 +3759,7 @@
             <input class="" type="text" data-bind="value: Email.value, css: { invalid : !Email.isValidOrClean() }" name="newsletter-email" id="newsletterEmailValue" placeholder="Enter your email address..." />
             <button data-bind="click: newsletterSubmit" class="newsletter-signup-submit" style="">SUBSCRIBE</button>
         </div>
-        
+
         <div class="newsletter-signup-form newsletter-signup-form__cheese-awards form-container" id="newsletter-form-inpage">
             <div class="form-group label-floating">
                 <label class="control-label newsletter-block__cheese-awards__control-label" for="newsletterEmailValueCheeseAwards">Email</label>
@@ -3789,7 +3789,7 @@
         <p style="">It looks like you've already signed up to our newsletter. If you have not already, why not register for an account <a class='track-link' data-track-link='Newsletter | Already Subscribed | Register Link' href='/register#init-register'>here</a></p>
     </div>
 
-    
+
     <div id="newsletter-thanks" class="newsletter-thanks__cheese-awards" data-bind="visible: formSent() && !alreadySubscribed()">
         <h2 class="">Thanks for subscribing</h2>
         <p>We&#39;ll only contact you around once per week with our best features and seasonal recipes and how to cook guides. You can unsubscribe at any time.</p>
@@ -3814,7 +3814,7 @@
                 returnErrorId: "#return-errore1a3780e-dc40-4926-ae0a-634cac9743c2",
                 associatedABTestname: "",
                 googleAnalyticsEvent: null,
-                copyEmailAddressFromUserInfo: false                
+                copyEmailAddressFromUserInfo: false
             };
 
             var newsletterVm = newsletterSignup.init(elementId, vmsettings, newsletterPlacementName);
@@ -3830,7 +3830,7 @@
 
                                     </div>
 
-                                    
+
                                     <div class="col-xs-24 follow">
                                         <div class="socialSection traclk-link" data-track-link="Navigation|Footer">
                                             <div>
@@ -3873,7 +3873,7 @@
                                     </div>
 
 
-                                    
+
                                     <div class="hidden-xs col-sm-24 sites">
                                         <div class="footer-logo">
                                             <h3>SITES</h3>
@@ -3918,18 +3918,18 @@
                     </div>
                 </div>
 
-                
+
                 <div class="col-xs-24 col-md-5 col-lg-4 left-col">
                     <div class="row">
 
-                        
+
                         <div class="col-xs-24">
                             <div class="copyright">
                                 &copy; Great British Chefs 2020
                             </div>
                         </div>
 
-                        
+
                         <div class="col-xs-24 like-what-we-do Footer__LikeWhatWeDoContainer">
                             <div class="Footer__button Footer__button--create-account">
                                 <button onclick="userUtils.openRegisterModal();" class="track-click" data-track-click="Navigation|Footer|Register">
@@ -3940,7 +3940,7 @@
 
 
 
-                        
+
                         <div class="col-xs-24 like-what-we-do">
                             <div class="Footer__button Footer__button--booklet-request">
                                 <button onclick="footer.goToRequestBooklet()" class="track-click" data-track-click="Navigation|Footer|Booklet-Request">
@@ -4022,7 +4022,7 @@
 </script>
 
 
-    
+
 
 <script src='https://gbc-site-cdn.azureedge.net/n-bundles/js/vxi-637163664820000000/site-tail.min.js' type='text/javascript'></script>
 
@@ -4037,9 +4037,9 @@
 
 
 
-    
+
             <script>
-            
+
 
             var relatedRButton = '#relatedee85edc2-534c-460c-a22f-4d908839427cOpenRelatedRButton, #relatedee85edc2-534c-460c-a22f-4d908839427cClosRelatedRButton';
             var relatedRId = '#relatedRecee85edc2-534c-460c-a22f-4d908839427c';
@@ -4072,10 +4072,10 @@
                 $(gbcPlusMinusIcon).toggle();
             }
 
-            
+
 
             $(document).ready(function() {
-            
+
                 $.when(binderUtilities.resyncFolderData()).then(function () {
                     recircClientVM.setUpDefaultTop5Recirc(
                         [{"Image":{"Alt":"Sophie\u0027s meat loaf","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img51821.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img51821.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img51821.jpg","Url":"//gbc.blob.core.windows.net/media/img51821.jpg","Alt":"Sophie\u0027s meat loaf","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxf9e25b8457cd4c3899894d997e2479e9"}},"PartitionName":"0","Title":"Meatloaf","Link":"/recipes/meatloaf-recipe","Byline":"Sophie Thompson","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Meatloaf","ContentItemId":"e92b7b32-cbc5-4c1f-8d4d-d02e2ae046b2","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Stuffed beef and cabbage parcels, rice, onion and tomato sauce","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img78750.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img78750.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img78750.jpg","Url":"//gbc.blob.core.windows.net/media/img78750.jpg","Alt":"Stuffed beef and cabbage parcels, rice, onion and tomato sauce","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxf3e886965a944e13b8bc85144c345310"}},"PartitionName":"0","Title":"Stuffed cabbage rolls with tomato sauce","Link":"/recipes/beef-stuffed-cabbage-rolls-recipe","Byline":"Martin Wishart","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Stuffed cabbage rolls with tomato sauce","ContentItemId":"b98c4c0d-80c4-4b64-bdff-8f04e6012b59","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Albondigas - Smokey Mexican meatbals","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img74200.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img74200.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img74200.jpg","Url":"//gbc.blob.core.windows.net/media/img74200.jpg","Alt":"Albondigas - Smokey Mexican meatbals","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx6a2da2b662264492abd47cae5a583d54"}},"PartitionName":"0","Title":"Albóndigas Mexicanas – smoky Mexican meatballs","Link":"/recipes/albondigas-mexicanas-recipe-mexican-meatballs","Byline":"The Kitchen with Great British Chefs","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Albóndigas Mexicanas – smoky Mexican meatballs","ContentItemId":"6a949786-257e-4105-aaf8-9df1285af5d0","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Beef mince on dripping toast","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img84761.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img84761.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img84761.jpg","Url":"//gbc.blob.core.windows.net/media/img84761.jpg","Alt":"Beef mince on dripping toast","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx52693a0250964c7aa8afd668ca9b9baa"}},"PartitionName":"0","Title":"Beef mince on dripping toast","Link":"/recipes/beef-mince-dripping-toast-recipe","Byline":"Fergus Henderson","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Beef mince on dripping toast","ContentItemId":"0d46dda6-339d-4955-82e3-4eb0d8c85b5c","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Stracci di antrodoco","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img77179.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img77179.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img77179.jpg","Url":"//gbc.blob.core.windows.net/media/img77179.jpg","Alt":"Stracci di antrodoco","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxe10e78abe7d040799f214933a1c661d4"}},"PartitionName":"Great Italian Chefs","Title":"Stracci di antrodoco","Link":"//www.greatitalianchefs.com/recipes/stracci-di-antrodoco-recipe","Byline":"The Kitchen with Great Italian Chefs","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Stracci di antrodoco","ContentItemId":"0b2a8b1d-fc89-460b-a3a1-a06d0b299db3","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"}],
@@ -4095,9 +4095,9 @@
                 [{"Image":{"Alt":"Midweek meal","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img26136.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img26136.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img26136.jpg","Url":"//gbc.blob.core.windows.net/media/img26136.jpg","Alt":"Midweek meal","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxb65031054742457abf277060204e6010"}},"PartitionName":"0","Title":"Midweek meal","Link":"/collections/midweek-meal-recipes","Byline":"Recipe Collection","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Collections","MobileTitle":"Midweek meal","ContentItemId":"6648687a-422d-4b9c-9385-04c2019f5a3f","FolderName":null,"Type":"GBC.Core.Models.CollectionContent"},{"Image":{"Alt":"Quick recipes","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img82735.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img82735.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img82735.jpg","Url":"//gbc.blob.core.windows.net/media/img82735.jpg","Alt":"Quick recipes","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxcbc7e7bf3bde4522b09487c7e25b0ac8"}},"PartitionName":"0","Title":"Quick","Link":"/collections/quick-recipes","Byline":"Recipe Collection","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Collections","MobileTitle":"Quick","ContentItemId":"3d290946-4907-483c-8a72-fde4e2443498","FolderName":null,"Type":"GBC.Core.Models.CollectionContent"},{"Image":{"Alt":"One pot","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img75699.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img75699.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img75699.jpg","Url":"//gbc.blob.core.windows.net/media/img75699.jpg","Alt":"One pot","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxfa686a622d6c4b4486b0245d2aaa100a"}},"PartitionName":"0","Title":"One-pot","Link":"/collections/one-pot-recipes","Byline":"Recipe Collection","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Collections","MobileTitle":"One-pot","ContentItemId":"56359b6e-7e68-4e0b-8d04-60eac0e2a3c1","FolderName":null,"Type":"GBC.Core.Models.CollectionContent"},{"Image":{"Alt":"Minced beef","FinalUrl":"https://gbc-cdn-public-media.azureedge.net/img14409.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"https://gbc.blob.core.windows.net/media/img14409.jpg","UnderlyingImageObject":{"FinalUrl":"https://gbc-cdn-public-media.azureedge.net/img14409.jpg","Url":"https://gbc.blob.core.windows.net/media/img14409.jpg","Alt":"Minced beef","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxc368632e02854e669b2219e0cadcec66"}},"PartitionName":"0","Title":"Minced beef","Link":"/ingredients/minced-beef-recipes","Byline":"Recipe Collection","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Collections","MobileTitle":"Minced beef","ContentItemId":"7f9f8e58-19bf-491e-b880-e52b243ec4a4","FolderName":null,"Type":"GBC.Core.Models.CollectionContent"},{"Image":{"Alt":"Sophie\u0027s meat loaf","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img51821.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img51821.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img51821.jpg","Url":"//gbc.blob.core.windows.net/media/img51821.jpg","Alt":"Sophie\u0027s meat loaf","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx3d866f747d26404e90ec41b41d8466cb"}},"PartitionName":"0","Title":"Meatloaf","Link":"/recipes/meatloaf-recipe","Byline":"Sophie Thompson","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Meatloaf","ContentItemId":"e92b7b32-cbc5-4c1f-8d4d-d02e2ae046b2","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Stuffed beef and cabbage parcels, rice, onion and tomato sauce","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img78750.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img78750.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img78750.jpg","Url":"//gbc.blob.core.windows.net/media/img78750.jpg","Alt":"Stuffed beef and cabbage parcels, rice, onion and tomato sauce","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxca4a860a7480486f8fdb78bf5659c889"}},"PartitionName":"0","Title":"Stuffed cabbage rolls with tomato sauce","Link":"/recipes/beef-stuffed-cabbage-rolls-recipe","Byline":"Martin Wishart","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Stuffed cabbage rolls with tomato sauce","ContentItemId":"b98c4c0d-80c4-4b64-bdff-8f04e6012b59","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Albondigas - Smokey Mexican meatbals","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img74200.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img74200.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img74200.jpg","Url":"//gbc.blob.core.windows.net/media/img74200.jpg","Alt":"Albondigas - Smokey Mexican meatbals","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxba87136f99be4152b1cb78b872fe33a4"}},"PartitionName":"0","Title":"Albóndigas Mexicanas – smoky Mexican meatballs","Link":"/recipes/albondigas-mexicanas-recipe-mexican-meatballs","Byline":"The Kitchen with Great British Chefs","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Albóndigas Mexicanas – smoky Mexican meatballs","ContentItemId":"6a949786-257e-4105-aaf8-9df1285af5d0","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Beef mince on dripping toast","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img84761.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img84761.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img84761.jpg","Url":"//gbc.blob.core.windows.net/media/img84761.jpg","Alt":"Beef mince on dripping toast","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx878e72abdf6f4963816ccf7d806ec3d8"}},"PartitionName":"0","Title":"Beef mince on dripping toast","Link":"/recipes/beef-mince-dripping-toast-recipe","Byline":"Fergus Henderson","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Beef mince on dripping toast","ContentItemId":"0d46dda6-339d-4955-82e3-4eb0d8c85b5c","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"8 speedy, easy, delicious midweek dinners","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img16575.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img16575.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img16575.jpg","Url":"//gbc.blob.core.windows.net/media/img16575.jpg","Alt":"8 speedy, easy, delicious midweek dinners","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx059ee132e2134c489431ed26a397e521"}},"PartitionName":"0","Title":"8 speedy, easy, delicious midweek dinners","Link":"/features/quick-midweek-dinner-recipes","Byline":"Great British Chefs","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Features","MobileTitle":"8 speedy, easy, delicious midweek dinners","ContentItemId":"71d182d6-1288-4c41-b348-908be59222b3","FolderName":null,"Type":"GBC.Core.Models.FeatureArticleContent"},{"Image":{"Alt":"Homemade beef burger with Stilton rarebit, burger sauce and chunky chips","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img25737.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img25737.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img25737.jpg","Url":"//gbc.blob.core.windows.net/media/img25737.jpg","Alt":"Homemade beef burger with Stilton rarebit, burger sauce and chunky chips","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx18269f46c90a452ab201feb17f333b8f"}},"PartitionName":"0","Title":"Homemade beef burger with Stilton rarebit, burger sauce and chunky chips","Link":"/recipes/homemade-beef-burger-recipe-stilton-rarebit","Byline":"Matthew Tomkinson","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Homemade beef burger with Stilton rarebit, burger ...","ContentItemId":"a58d1f51-5d94-4f3b-9d7d-7c9127868945","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Welsh wagyu burger with fermented lettuce","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img76401.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img76401.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img76401.jpg","Url":"//gbc.blob.core.windows.net/media/img76401.jpg","Alt":"Welsh wagyu burger with fermented lettuce","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx6308d22bc0bb4bdca11963ff792c4cbd"}},"PartitionName":"0","Title":"Welsh wagyu burger with fermented lettuce","Link":"/recipes/wagyu-beef-burger-recipe-fermented-lettuce","Byline":"Gareth Ward","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Welsh wagyu burger with fermented lettuce","ContentItemId":"ce43f533-71cb-4cd5-89d7-5ddaa5a35400","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"The complete guide to beef cuts","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img61990.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img61990.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img61990.jpg","Url":"//gbc.blob.core.windows.net/media/img61990.jpg","Alt":"The complete guide to beef cuts","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx7f33ad06e7d74d2f9dc6ea8827839350"}},"PartitionName":"0","Title":"The complete guide to beef cuts","Link":"/features/beef-cuts-guide","Byline":null,"DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Campaigns","MobileTitle":"The complete guide to beef cuts","ContentItemId":"64a47825-3bca-44b1-b56b-b45937289e08","FolderName":null,"Type":"GBC.Core.Models.CampaignContent"},{"Image":{"Alt":"Sous vide beef","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img59838.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img59838.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img59838.jpg","Url":"//gbc.blob.core.windows.net/media/img59838.jpg","Alt":"Sous vide beef","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxb5b8e3d0f3084c84bc06b81ae2f6ba95"}},"PartitionName":"0","Title":"Sous vide beef","Link":"/collections/sous-vide-beef-recipes","Byline":"Recipe Collection","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Collections","MobileTitle":"Sous vide beef","ContentItemId":"b82ac65c-d92a-4796-aade-b6061fc0a130","FolderName":null,"Type":"GBC.Core.Models.CollectionContent"},{"Image":{"Alt":"Cook school confidential: quick and easy","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img70012.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img70012.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img70012.jpg","Url":"//gbc.blob.core.windows.net/media/img70012.jpg","Alt":"Cook school confidential: quick and easy","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx9b5bedddaa85458e8848803371cf3ae6"}},"PartitionName":"0","Title":"Cook school confidential: quick and easy","Link":"/features/cook-school-confidential-quick-easy","Byline":"Great British Chefs","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Features","MobileTitle":"Cook school confidential: quick and easy","ContentItemId":"afe8d8c1-fe33-4dda-bd9a-10ae65db1807","FolderName":null,"Type":"GBC.Core.Models.FeatureArticleContent"},{"Image":{"Alt":"Eight quick and healthy recipes","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img27448.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img27448.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img27448.jpg","Url":"//gbc.blob.core.windows.net/media/img27448.jpg","Alt":"Eight quick and healthy recipes","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxb4d131cc95f94dd5bb437a24b3e0b3b0"}},"PartitionName":"0","Title":"8 quick and healthy recipes","Link":"/features/eight-quick-healthy-recipes","Byline":"Great British Chefs","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Features","MobileTitle":"8 quick and healthy recipes","ContentItemId":"ced354c1-2cb6-481d-a4f7-d4667ad2d5ea","FolderName":null,"Type":"GBC.Core.Models.FeatureArticleContent"},{"Image":{"Alt":"The ice age: unpicking the rise of ‘premium’ frozen food","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img76476.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img76476.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img76476.jpg","Url":"//gbc.blob.core.windows.net/media/img76476.jpg","Alt":"The ice age: unpicking the rise of ‘premium’ frozen food","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxb1e40716d62a4507ae3764f041b1e033"}},"PartitionName":"0","Title":"The ice age: unpicking the rise of ‘premium’ frozen food","Link":"/features/ice-age-premium-frozen-food","Byline":"Ollie Lloyd","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Features","MobileTitle":"The ice age: unpicking the rise of ‘premium’ froze...","ContentItemId":"a6a28877-8302-4b1e-88e3-b86f4a7fbc33","FolderName":null,"Type":"GBC.Core.Models.FeatureArticleContent"},{"Image":{"Alt":"Beef and mushroom lasagne","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img46675.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img46675.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img46675.jpg","Url":"//gbc.blob.core.windows.net/media/img46675.jpg","Alt":"Beef and mushroom lasagne","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx6bf48708de69415980f5ce62f3ab5f2f"}},"PartitionName":"0","Title":"Beef and mushroom lasagne","Link":"/recipes/beef-mushroom-lasagne-recipe","Byline":"Helen Graves","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Beef and mushroom lasagne","ContentItemId":"8597b233-43d0-424b-ae96-3e74ef01dc53","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Cheeseburger with caramelised onions","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img17437.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img17437.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img17437.jpg","Url":"//gbc.blob.core.windows.net/media/img17437.jpg","Alt":"Cheeseburger with caramelised onions","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx661813aaede8442f97526918dc5a0aa0"}},"PartitionName":"0","Title":"Cheeseburger with caramelised onions","Link":"/recipes/cheeseburger-recipe-caramelised-onions","Byline":"Marcus Wareing","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Cheeseburger with caramelised onions","ContentItemId":"88e4ca80-d985-46ae-975c-7dada7b7aef4","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Beef recipes","FinalUrl":"https://gbc-cdn-public-media.azureedge.net/img24388.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"https://gbc.blob.core.windows.net/media/img24388.jpg","UnderlyingImageObject":{"FinalUrl":"https://gbc-cdn-public-media.azureedge.net/img24388.jpg","Url":"https://gbc.blob.core.windows.net/media/img24388.jpg","Alt":"Beef recipes","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx7f15ebbd3d38443c98b8838b2d4effb9"}},"PartitionName":"0","Title":"Beef","Link":"/ingredients/beef-recipes","Byline":"Recipe Collection","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Collections","MobileTitle":"Beef","ContentItemId":"6d8ae039-bb14-44bc-bfb6-186caba50308","FolderName":null,"Type":"GBC.Core.Models.CollectionContent"},{"Image":{"Alt":"Beef burger","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img25738.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img25738.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img25738.jpg","Url":"//gbc.blob.core.windows.net/media/img25738.jpg","Alt":"Beef burger","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx26a2e8fc3a1646c9bba6a31c1f6b7ef6"}},"PartitionName":"0","Title":"Beef burger","Link":"/collections/beef-burger-recipes","Byline":"Recipe Collection","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Collections","MobileTitle":"Beef burger","ContentItemId":"7dc3826c-4646-436e-a9c5-600e2c7f9525","FolderName":null,"Type":"GBC.Core.Models.CollectionContent"},{"Image":{"Alt":"Cumin","FinalUrl":"https://gbc-cdn-public-media.azureedge.net/img26811.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"https://gbc.blob.core.windows.net/media/img26811.jpg","UnderlyingImageObject":{"FinalUrl":"https://gbc-cdn-public-media.azureedge.net/img26811.jpg","Url":"https://gbc.blob.core.windows.net/media/img26811.jpg","Alt":"Cumin","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx2fd385c9c89642ff8e45a2b21757ccef"}},"PartitionName":"0","Title":"Cumin","Link":"/ingredients/cumin-recipes","Byline":"Recipe Collection","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Collections","MobileTitle":"Cumin","ContentItemId":"9fa27934-1261-46fd-b77b-17788a65f820","FolderName":null,"Type":"GBC.Core.Models.CollectionContent"},{"Image":{"Alt":"Paprika recipes","FinalUrl":"https://gbc-cdn-public-media.azureedge.net/img26842.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"https://gbc.blob.core.windows.net/media/img26842.jpg","UnderlyingImageObject":{"FinalUrl":"https://gbc-cdn-public-media.azureedge.net/img26842.jpg","Url":"https://gbc.blob.core.windows.net/media/img26842.jpg","Alt":"Paprika recipes","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx03ec7ebd38b647cab4b9353cabd9d822"}},"PartitionName":"0","Title":"Paprika","Link":"/ingredients/paprika-recipes","Byline":"Recipe Collection","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Collections","MobileTitle":"Paprika","ContentItemId":"89f8ad78-45c1-4382-8baf-e857a23b73e3","FolderName":null,"Type":"GBC.Core.Models.CollectionContent"},{"Image":{"Alt":"10 delicious paprika recipes to spice up your life","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img70622.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img70622.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img70622.jpg","Url":"//gbc.blob.core.windows.net/media/img70622.jpg","Alt":"10 delicious paprika recipes to spice up your life","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx6c97103c81d74cd4acd1711a4e7a581c"}},"PartitionName":"0","Title":"10 delicious paprika recipes to spice up your life","Link":"/features/10-best-paprika-recipes","Byline":"Great British Chefs","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Features","MobileTitle":"10 delicious paprika recipes to spice up your life","ContentItemId":"e2edc88b-d74a-4e43-9fbf-9d49d7caf6eb","FolderName":null,"Type":"GBC.Core.Models.FeatureArticleContent"},{"Image":{"Alt":"Spaghetti and meatballs with mini garlic bites","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img17732.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img17732.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img17732.jpg","Url":"//gbc.blob.core.windows.net/media/img17732.jpg","Alt":"Spaghetti and meatballs with mini garlic bites","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx661156d57b264217b7ca869c05a1978e"}},"PartitionName":"0","Title":"Spaghetti and meatballs with mini garlic bites","Link":"/recipes/spaghetti-and-meatballs-recipe","Byline":"Dominic Chapman","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Spaghetti and meatballs with mini garlic bites","ContentItemId":"82801857-6424-4349-abd3-57f0696de14a","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Comfort food","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img75699.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img75699.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img75699.jpg","Url":"//gbc.blob.core.windows.net/media/img75699.jpg","Alt":"Comfort food","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx55d6d2035a104091b1fb36bdf8cdaa3b"}},"PartitionName":"0","Title":"Comfort food","Link":"/collections/comfort-food-recipes","Byline":"Recipe Collection","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Collections","MobileTitle":"Comfort food","ContentItemId":"d259b65b-3dd1-4252-acce-5375082b8683","FolderName":null,"Type":"GBC.Core.Models.CollectionContent"},{"Image":{"Alt":"Lasagna pastachina","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img17199.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img17199.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img17199.jpg","Url":"//gbc.blob.core.windows.net/media/img17199.jpg","Alt":"Lasagna pastachina","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxb6f52c6830db43be8d2f1b02c0cc5fc2"}},"PartitionName":"0","Title":"Lasagne pastachina","Link":"/recipes/lasagne-pastachina-recipe","Byline":"Francesco Mazzei","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Lasagne pastachina","ContentItemId":"92f93a1c-5205-4cc5-ad66-d13aaf7c1009","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Kibe","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img60956.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img60956.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img60956.jpg","Url":"//gbc.blob.core.windows.net/media/img60956.jpg","Alt":"Kibe","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx05ddb176ab074cbc931af4715b2dc849"}},"PartitionName":"0","Title":"Kibe","Link":"/recipes/kibe-recipe","Byline":"Marcello Tully","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Kibe","ContentItemId":"801f4e38-50aa-4f1e-8c11-04ebf86937b2","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Şeftali – Cypriot kebab","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img83162.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img83162.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img83162.jpg","Url":"//gbc.blob.core.windows.net/media/img83162.jpg","Alt":"Şeftali – Cypriot kebab","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxd5141943760f42ee955fa9cc703c614c"}},"PartitionName":"0","Title":"Şeftali – Cypriot kebab","Link":"/recipes/seftali-cypriot-kebab-recipe","Byline":"Selin Kiazim","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Şeftali – Cypriot kebab","ContentItemId":"3bf8e8b1-0bcc-478b-baa8-f979117d1e69","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Pub food","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img53568.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img53568.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img53568.jpg","Url":"//gbc.blob.core.windows.net/media/img53568.jpg","Alt":"Pub food","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx7db3aff4aeb34cd9a082a703abff80e0"}},"PartitionName":"0","Title":"Pub food","Link":"/collections/pub-food-recipes","Byline":"Recipe Collection","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Collections","MobileTitle":"Pub food","ContentItemId":"ae354b65-f4b9-4758-a23e-a04ee4313419","FolderName":null,"Type":"GBC.Core.Models.CollectionContent"},{"Image":{"Alt":"Taco","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img69173.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img69173.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img69173.jpg","Url":"//gbc.blob.core.windows.net/media/img69173.jpg","Alt":"Taco","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxd05b4d0edadf41f68d305dc315ad9700"}},"PartitionName":"0","Title":"Taco","Link":"/collections/taco-recipes","Byline":"Recipe Collection","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Collections","MobileTitle":"Taco","ContentItemId":"eafe1c60-c5bd-412a-9041-e79fa97a1be3","FolderName":null,"Type":"GBC.Core.Models.CollectionContent"},{"Image":{"Alt":"Mexican recipes","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img69186.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img69186.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img69186.jpg","Url":"//gbc.blob.core.windows.net/media/img69186.jpg","Alt":"Mexican recipes","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxf3ae9a8bfcd84cdc9416e99422b4d4f6"}},"PartitionName":"0","Title":"Mexican","Link":"/collections/mexican-recipes","Byline":"Recipe Collection","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Collections","MobileTitle":"Mexican","ContentItemId":"2c2f8d40-8ec8-47e4-8287-8799a0606041","FolderName":null,"Type":"GBC.Core.Models.CollectionContent"},{"Image":{"Alt":"Skirts and shins: the lesser cuts of beef","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img57619.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img57619.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img57619.jpg","Url":"//gbc.blob.core.windows.net/media/img57619.jpg","Alt":"Skirts and shins: the lesser cuts of beef","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx98b03eab689e4a53bd595f3d8edf3a00"}},"PartitionName":"0","Title":"Skirts and shins: the underrated cuts of beef","Link":"/features/underrated-cuts-of-beef-guide","Byline":"Hugh Thomas","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Features","MobileTitle":"Skirts and shins: the underrated cuts of beef","ContentItemId":"df8b3fe7-7ad7-419c-a4ca-fcc8798cf5c7","FolderName":null,"Type":"GBC.Core.Models.FeatureArticleContent"},{"Image":{"Alt":"Meat","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img77758.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img77758.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img77758.jpg","Url":"//gbc.blob.core.windows.net/media/img77758.jpg","Alt":"Meat","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxc5cb787a4a33472581e05f6e909e44f0"}},"PartitionName":"0","Title":"Meat","Link":"/ingredients/meat-recipes","Byline":"Recipe Collection","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Collections","MobileTitle":"Meat","ContentItemId":"a00507ce-896b-45bd-b397-07a57b8afe6d","FolderName":null,"Type":"GBC.Core.Models.CollectionContent"},{"Image":{"Alt":"Guacamole","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img25812.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img25812.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img25812.jpg","Url":"//gbc.blob.core.windows.net/media/img25812.jpg","Alt":"Guacamole","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxbfcdcb14cd384c519426ae1a56427ed3"}},"PartitionName":"0","Title":"Guacamole","Link":"/recipes/guacamole-recipe","Byline":"Matthew Tomkinson","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Guacamole","ContentItemId":"fd2047bd-a41d-4c12-ab9b-7a9a4c5562ee","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Stracci di antrodoco","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img77179.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img77179.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img77179.jpg","Url":"//gbc.blob.core.windows.net/media/img77179.jpg","Alt":"Stracci di antrodoco","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx6b491b32c9484cffa5aae242a11d876f"}},"PartitionName":"Great Italian Chefs","Title":"Stracci di antrodoco","Link":"//www.greatitalianchefs.com/recipes/stracci-di-antrodoco-recipe","Byline":"The Kitchen with Great Italian Chefs","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Stracci di antrodoco","ContentItemId":"0b2a8b1d-fc89-460b-a3a1-a06d0b299db3","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Lasagna alla Bolognese","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img72661.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img72661.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img72661.jpg","Url":"//gbc.blob.core.windows.net/media/img72661.jpg","Alt":"Lasagna alla Bolognese","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx7e620a35cd5840dab2a71c94207ac90b"}},"PartitionName":"Great Italian Chefs","Title":"Lasagne alla Bolognese","Link":"//www.greatitalianchefs.com/recipes/lasagne-alla-bolognese-recipe","Byline":"The Kitchen with Great Italian Chefs","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Lasagne alla Bolognese","ContentItemId":"711d016e-18ff-4072-bedc-00e887d96ac7","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Meatballs with tomato sauce","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img67276.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img67276.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img67276.jpg","Url":"//gbc.blob.core.windows.net/media/img67276.jpg","Alt":"Meatballs with tomato sauce","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxba7be79086694c1a8105bd1149b7383f"}},"PartitionName":"Great Italian Chefs","Title":"Meatballs with tomato sauce","Link":"//www.greatitalianchefs.com/recipes/italian-meatball-recipe","Byline":"Eataly Cookbook","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Meatballs with tomato sauce","ContentItemId":"d54768f2-3a57-4254-9a92-8db45f452fab","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Suppli al telefono – beef, tomato and mozzarella croquettes","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img76928.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img76928.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img76928.jpg","Url":"//gbc.blob.core.windows.net/media/img76928.jpg","Alt":"Suppli al telefono – beef, tomato and mozzarella croquettes","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx68a3bedbab2446af921dd93388c5ea4f"}},"PartitionName":"Great Italian Chefs","Title":"Supplì al telefono","Link":"//www.greatitalianchefs.com/recipes/suppli-al-telefono-recipe","Byline":"The Kitchen with Great Italian Chefs","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Supplì al telefono","ContentItemId":"7d2e3959-7200-44ad-9f11-db905f4c0561","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Beef","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img45735.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img45735.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img45735.jpg","Url":"//gbc.blob.core.windows.net/media/img45735.jpg","Alt":"Beef","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxcf4d2a04aba44949bc9d5187af3443a8"}},"PartitionName":"Great Italian Chefs","Title":"Beef","Link":"//www.greatitalianchefs.com/collections/beef-recipes","Byline":"Recipe Collection","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Collections","MobileTitle":"Beef","ContentItemId":"1d7afff5-7c08-45ba-928d-b3c420574e8e","FolderName":null,"Type":"GBC.Core.Models.CollectionContent"},{"Image":{"Alt":"Pasta \u0027ncasciàta (pasta o\u0027 fùrnu)","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img81909.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img81909.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img81909.jpg","Url":"//gbc.blob.core.windows.net/media/img81909.jpg","Alt":"Pasta \u0027ncasciàta (pasta o\u0027 fùrnu)","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx3f38ce0912ce4a5bb7ba7e1f247766a9"}},"PartitionName":"Great Italian Chefs","Title":"Pasta \u0027ncasciàta (pasta o\u0027 fùrnu)","Link":"//www.greatitalianchefs.com/recipes/pasta-ncasciata-recipe-pasta-o-furnu","Byline":"Valeria Necchio","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Pasta \u0027ncasciàta (pasta o\u0027 fùrnu)","ContentItemId":"d7368a5b-1d87-4d96-abf0-808bc818ca8f","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Bolognese ragù","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img60422.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img60422.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img60422.jpg","Url":"//gbc.blob.core.windows.net/media/img60422.jpg","Alt":"Bolognese ragù","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx0e372f62a0e24d328caaef568373cddc"}},"PartitionName":"Great Italian Chefs","Title":"Bolognese ragù","Link":"//www.greatitalianchefs.com/recipes/bolognese-ragu-recipe","Byline":"Filippo Trapella","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Recipes","MobileTitle":"Bolognese ragù","ContentItemId":"1797e418-9937-441c-a597-756b6767a5c1","FolderName":null,"Type":"GBC.Core.Models.RecipeContent"},{"Image":{"Alt":"Italian meat","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img48598.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img48598.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img48598.jpg","Url":"//gbc.blob.core.windows.net/media/img48598.jpg","Alt":"Italian meat","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx364ca8faf61b43e294189654ef3c2b38"}},"PartitionName":"Great Italian Chefs","Title":"Italian meat","Link":"//www.greatitalianchefs.com/collections/italian-meat-recipes","Byline":"Recipe Collection","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"Collections","MobileTitle":"Italian meat","ContentItemId":"d51c37cc-88e3-4f49-8ad4-2d0b30b79ed9","FolderName":null,"Type":"GBC.Core.Models.CollectionContent"},{"Image":{"Alt":"How to cook beef","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img27934.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img27934.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img27934.jpg","Url":"//gbc.blob.core.windows.net/media/img27934.jpg","Alt":"How to cook beef","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx03c03f14d33d45559b2a6b04b2486c32"}},"PartitionName":null,"Title":"How to cook beef","Link":"/how-to-cook/how-to-cook-beef","Byline":"","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"How to cook articles","MobileTitle":"How to cook beef","ContentItemId":"75f9b0fb-5b84-4ba9-bc02-fa611d25303e","FolderName":null,"Type":"GBC.Core.Models.HowToBaseContent"},{"Image":{"Alt":"How to enhance beef with rubs and marinades","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img71412.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img71412.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img71412.jpg","Url":"//gbc.blob.core.windows.net/media/img71412.jpg","Alt":"How to enhance beef with rubs and marinades","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rxed909ab8fa304607bc9c9ff5641010f0"}},"PartitionName":null,"Title":"How to enhance beef with rubs and marinades","Link":"/how-to-cook/how-to-enhance-beef-rubs-marinades","Byline":"","DateCreated":0,"HasVideo":true,"CompetitionEntered":false,"DisplayTypeName":"How to cook articles","MobileTitle":"How to enhance beef with rubs and marinades","ContentItemId":"ce2d89d2-4288-4052-817b-1c6319489cfb","FolderName":null,"Type":"GBC.Core.Models.HowToBaseContent"},{"Image":{"Alt":"How to make carpaccio of beef","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img15467.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img15467.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img15467.jpg","Url":"//gbc.blob.core.windows.net/media/img15467.jpg","Alt":"How to make carpaccio of beef","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx08f0498793264ceabba219a916dd0e59"}},"PartitionName":null,"Title":"How to make carpaccio of beef","Link":"/how-to-cook/how-to-make-carpaccio-of-beef","Byline":"","DateCreated":0,"HasVideo":true,"CompetitionEntered":false,"DisplayTypeName":"How to cook articles","MobileTitle":"How to make carpaccio of beef","ContentItemId":"9fcf12a7-d29d-4827-8592-053487523b8a","FolderName":null,"Type":"GBC.Core.Models.HowToBaseContent"},{"Image":{"Alt":"How to cook beef shin","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img66557.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img66557.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img66557.jpg","Url":"//gbc.blob.core.windows.net/media/img66557.jpg","Alt":"How to cook beef shin","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx6ce3262dbd9645a091522dea2cb02976"}},"PartitionName":null,"Title":"How to cook beef shin","Link":"/how-to-cook/how-to-cook-beef-shin","Byline":"","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"How to cook articles","MobileTitle":"How to cook beef shin","ContentItemId":"35b08571-7dae-4b4d-adf0-677c562c3f1f","FolderName":null,"Type":"GBC.Core.Models.HowToBaseContent"},{"Image":{"Alt":"How to make beef jerky","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img67866.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img67866.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img67866.jpg","Url":"//gbc.blob.core.windows.net/media/img67866.jpg","Alt":"How to make beef jerky","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx73645994d2714ad7be40fac5f20db0c9"}},"PartitionName":null,"Title":"How to make beef jerky","Link":"/how-to-cook/how-to-make-beef-jerky","Byline":"","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"How to cook articles","MobileTitle":"How to make beef jerky","ContentItemId":"69e8192f-9fdd-4c18-bcb3-6ca1a995ecdb","FolderName":null,"Type":"GBC.Core.Models.HowToBaseContent"},{"Image":{"Alt":"How to roast a rib of beef","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img66012.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img66012.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img66012.jpg","Url":"//gbc.blob.core.windows.net/media/img66012.jpg","Alt":"How to roast a rib of beef","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx115424d36d6e41e186bec2d7c6d156d8"}},"PartitionName":null,"Title":"How to roast a rib of beef","Link":"/how-to-cook/how-to-roast-a-rib-of-beef","Byline":"","DateCreated":0,"HasVideo":true,"CompetitionEntered":false,"DisplayTypeName":"How to cook articles","MobileTitle":"How to roast a rib of beef","ContentItemId":"7a0e732d-7c96-4320-911c-d3d538dd4b76","FolderName":null,"Type":"GBC.Core.Models.HowToBaseContent"},{"Image":{"Alt":"How to cook meat","FinalUrl":"//gbc-cdn-public-media.azureedge.net/img51344.jpg","BackgroundXPc":null,"BackgroundYPc":null,"Url":"//gbc.blob.core.windows.net/media/img51344.jpg","UnderlyingImageObject":{"FinalUrl":"//gbc-cdn-public-media.azureedge.net/img51344.jpg","Url":"//gbc.blob.core.windows.net/media/img51344.jpg","Alt":"How to cook meat","BackgroundXPc":null,"BackgroundYPc":null,"RandomStringId":"rx9ba382925eba4420a4de670c3e843110"}},"PartitionName":null,"Title":"How to cook meat","Link":"/how-to-cook/how-to-cook-meat","Byline":"","DateCreated":0,"HasVideo":false,"CompetitionEntered":false,"DisplayTypeName":"How to cook articles","MobileTitle":"How to cook meat","ContentItemId":"5eb8fe3f-0e28-4e15-bd7a-1e545097885c","FolderName":null,"Type":"GBC.Core.Models.HowToBaseContent"}],
                 "recircSection",
                 recircClientVM.Types.Standard);
-        
+
         //bottomRecirc.rebind();
-        
+
     </script>
 
     <script>
@@ -4110,7 +4110,7 @@
             }
         </script>
 
-    
+
 
 
     <script async="async" src='https://www.googletagservices.com/tag/js/gpt.js'></script>
@@ -4123,7 +4123,7 @@
 
         //Enqueue to googletag.cmd creating all slots
         adUtilities.enqueueDfpAdSlotRendering(contentTags);
-        
+
 
         //When document is ready enqueue also executing of all slots
         $(document).ready(function () {
@@ -4137,7 +4137,7 @@
 
 
 
-    
+
 
             <script type="text/javascript" data-cfasync="false">
             (function (W, i, s, e, P, o, p) {
@@ -4150,7 +4150,7 @@
 
 
 
-    
+
 <script>
     $(document)
         .ready(function () {

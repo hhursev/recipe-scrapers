@@ -6,9 +6,7 @@ from recipe_scrapers.myrecipes import MyRecipes
 class TestMyRecipesScraper(ScraperTest):
 
     scraper_class = MyRecipes
-    scraper_options = {
-        "exception_handling": True,
-    }
+    scraper_options = {"exception_handling": True}
 
     def test_host(self):
         self.assertEqual("myrecipes.com", self.harvester_class.host())

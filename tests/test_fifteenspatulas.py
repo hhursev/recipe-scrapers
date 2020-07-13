@@ -11,9 +11,7 @@ class TestFifteenSpatulasScraper(ScraperTest):
         self.assertEqual("fifteenspatulas.com", self.harvester_class.host())
 
     def test_title(self):
-        self.assertEqual(
-            self.harvester_class.title(), "Orange Creme Brulee",
-        )
+        self.assertEqual(self.harvester_class.title(), "Orange Creme Brulee")
 
     def test_yields(self):
         self.assertEqual("6 serving(s)", self.harvester_class.yields())

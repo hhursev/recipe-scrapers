@@ -38,13 +38,13 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
         <meta property="og:description" content="These delicious four cheese pizzas are bursting with flavor, and ready in under one hour." />
                 <meta name="robots" content="noodp,noydir" />
 
-    
+
 
         <link id="canonicalUrl" rel="canonical" href="https://www.allrecipes.com/recipe/133948/four-cheese-margherita-pizza/" />
         <meta property="og:url" content="https://www.allrecipes.com/recipe/133948/four-cheese-margherita-pizza/" />
 
 
-    
+
     <link href='https://secureimages.allrecipes.com/assets/deployables/v-1.163.0.5032/recipe-details-init-css.bundled.Css' rel='stylesheet'/>
 
 
@@ -157,10 +157,10 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
         </noscript>
         <!-- End comScore Tag - Part 2 -->
     <div class="slider-container" global-ui-events>
-        
+
             <div id="docking-leaderboard-container" class="leaderboard-wrapper" data-ad-container-autocollapse>
                 <div class="docking-leaderboard-container">
-                    
+
                         <div id="div-gpt-leaderboard-fixed-1" data-tier="1" class="docking-leaderboard"></div>
                 </div>
             </div>
@@ -182,7 +182,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
 
 
 </section>
-                
+
 
 
 
@@ -227,7 +227,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
                         <div class="login-state">
                             <div class="img-profile svg-icon--top-nav-bar--userhead svg-icon--top-nav-bar--userhead-dims" ng-click="setAnalyticsCookie('profile|profile')"></div>
                             <span class="username icon-user--default" id="offCanvasDisplayName" ng-click="setAnalyticsCookie('create profile|sign up')">Create a profile</span>
-                            
+
                         </div>
                     </a>
                 </li>
@@ -261,7 +261,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
     <social-notification popup-panel="notifications" ng-cloak></social-notification>
 
     <div class="nav-tab nav-tab__search ng-hide" popup-panel="topNavSearchMenu" ng-cloak>
-        
+
 
 
 
@@ -273,7 +273,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
             <input id="searchText" type="text" placeholder="Keywords" ng-model="search.keywords" class="setFocus-keywordSearch">
         </div>
 
-        
+
 
         <div class="input-wrap--home ingredients">
             <div class="ingredient-clipping-frame">
@@ -286,7 +286,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
                     </li>
                 </ul>
                 <div class="ingredient-add-exclude">
-                    
+
                     <input id="includeIngText" type="text" ng-attr-placeholder="{{includeIngPlaceholderText}}" name="txtIncludeIng"
                            ng-model="includeIngredient"
                            ng-keydown="(isBackspaceKey($event) && removeLastIngredientInclude($event)) || (isTabKey($event) && addIngredientInclude($event))" class="setFocus-includeIng">
@@ -295,9 +295,9 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
 
             <a class="btn-basic--small include" ng-click="addIngredientInclude($event)" ar-event-focus="click" ar-event-focus-id="setFocus-includeIng" ng-class="{ 'grayed-out': includeIngHitMax }"><span>+</span></a>
 
-        </div> 
+        </div>
 
-        
+
 
         <div class="input-wrap--home ingredients">
             <div class="ingredient-clipping-frame">
@@ -310,7 +310,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
                     </li>
                 </ul>
 
-                <div class="ingredient-add-exclude"> 
+                <div class="ingredient-add-exclude">
                     <input id="excludeIngText" type="text" ng-attr-placeholder="{{excludeIngPlaceholderText}}" name="txtExcludeIng"
                            ng-model="excludeIngredient"
                            ng-keydown="(isBackspaceKey($event) && removeLastIngredientExclude($event)) || (isTabKey($event) && addIngredientExclude($event))" class="setFocus-excludeIng">
@@ -319,7 +319,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
             </div>
             <a class="btn-basic--small exclude" ng-click="addIngredientExclude($event)" ar-event-focus="click" ar-event-focus-id="setFocus-excludeIng" ng-class="{ 'grayed-out': excludeIngHitMax }"><span>&#8212;</span></a>
 
-        </div> 
+        </div>
 
         <div class="nav-tab__buttons">
             <button class="btn-basic--small btn-search" ng-click="performSearch()" ng-cloak>Go</button>
@@ -811,7 +811,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
             </header>
 
             <div id="main-content" class="container-content body-content">
-                
+
 
 
 
@@ -836,21 +836,21 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
 <div id="ad-is-tablet"></div>
 <script>
     (function($) {
-        
+
         window.adConfiguration = {
             "settings": {
                 "responsiveGridSlots": 0 }
         };
 
-        
+
         var mobileAdElem = document.getElementById('ad-is-mobile');
         var isMobileAds = !(mobileAdElem.offsetWidth === 0 && mobileAdElem.offsetHeight === 0);
 
         var tabletAdElem = document.getElementById('ad-is-tablet');
-        
+
         var isTablet = tabletAdElem && getComputedStyle(tabletAdElem)['display'] === 'none';
 
-         
+
         window.karma = window.karma || {};
         window.karma.config = {
             apiVersion: 3,
@@ -865,7 +865,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
                 type: "recipe",
                 mention_category: "",
                 mention: "",
-                channel: "italian",                
+                channel: "italian",
                 ref_hub: window.refHub || false,
                 "status": "visitor",
                 "oid": "2E2809C485313E15-4000010A600006F3",
@@ -900,7 +900,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
             m.parentNode.insertBefore(t, m)
         }(window, document);
 
-    })();    
+    })();
 
 </script>
 
@@ -914,9 +914,9 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
             <meta itemprop="recipeCategory" content="Italian" />
                         <meta itemprop="recipeCuisine" content="European" />
                 <meta itemprop="recipeCuisine" content="Italian" />
-        
 
-        
+
+
 <ol class="breadcrumbs breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList" data-scroll-left>
     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" data-list-item>
         <a data-internal-referrer-link="recipe breadcrumb" data-click-id="recipe breadcrumb 1" href="https://www.allrecipes.com/" target="_self"
@@ -973,7 +973,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
         <div class="summary-background">
             <div class="summaryGroup clearfix">
 
-                
+
 
 
 <section class="hero-photo hero-photo--downsized ">
@@ -991,7 +991,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
 
 
                         <li>
-                            
+
 
 
 <a href="#" data-ng-controller="ar_controllers_photo_upload" ng-init="init(0,133948, null, 'recipePhoto','Recipe',694708, {category: 'Recipe',contentType: 'Recipe'}, 1)" class="photo-upload" ng-click="enablePhotoUpload(false)">
@@ -1112,7 +1112,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
 </section>
             </div>
         </div>
-        
+
 <div ng-controller="ar_controllers_recipe_toolbar" ng-init="init(133948, 'Recipe', 1)">
     <div class="dropdown-heart" data-show-on-scroll="700" ng-show="(yTrigger == true) && (saved == false)" ng-cloak>
         <a href="" class="save-on-click" ng-click="saveOnClick(133948, 'Recipe',&quot;Four Cheese Margherita Pizza&quot;,'https://images.media-allrecipes.com/userphotos/250x250/694708.jpg')" aria-label="I like this recipe" title="I like this recipe">
@@ -1171,7 +1171,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
         <span>Added to shopping list.</span>
         <a href="">Go to shopping list.</a>
     </div>
-    
+
 <h2 class="heading__h2--gutters recipe-ingredients__header">Ingredients</h2>
 
 <span class="recipe-ingredients__header__toggles">
@@ -1205,13 +1205,13 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
         <li class="adjust-servings__select">
             <label class="radio-lbl">
                 <input type="radio" data-role="none" name="isMetric" checked="checked" ng-value="false" ng-model="isMetric" onclick="segmentRecipeAnalyticsTrack('US')" /><span></span>
-              
+
             </label>
             <span class="measurement-title">US</span>
         </li>
         <li class="adjust-servings__select">
             <label class="radio-lbl">
-                <input type="radio" data-role="none" name="isMetric" ng-value="true" ng-model="isMetric" onclick="segmentRecipeAnalyticsTrack('Metric')" /><span></span>              
+                <input type="radio" data-role="none" name="isMetric" ng-value="true" ng-model="isMetric" onclick="segmentRecipeAnalyticsTrack('Metric')" /><span></span>
             </label>
             <span class="measurement-title">Metric</span>
         </li>
@@ -1315,7 +1315,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
 </script>
     <script defer src="https://moprd-cdnservice-uw1.azureedge.net/telemetryapi/1/ar-polaris-app.js"></script>
 
-        
+
 
 <section class="recipe-directions" data-ng-controller="ar_controllers_recipe_notes" data-ng-init="init(133948, 'recipe', 1)">
     <h2 class="heading__h2--gutters">
@@ -1400,7 +1400,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
             </div>
             <div class="mag-cta-desktop">
                 <div class="mag-cta" data-ng-controller="ar_controllers_mag_subscription">
-    
+
     <a ng-href="{{CtaSubscriptionUrl}}" target="_blank" class="ad-mag-homeBtm">
         <h2>Get the magazine</h2>
         <img class="ad-mag-homeBtm__th" data-lazy-load data-original-src="https://images.media-allrecipes.com/images/86146.png" alt="Subscribe to Allrecipes Magazine" title="Allrecipes Magazine"  src="https://images.media-allrecipes.com/ar/spacer.gif"/>
@@ -1416,7 +1416,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
 </section>
 
 
-        
+
 
 
 <script>
@@ -1493,7 +1493,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
                         <a class="btn-basic--small btn-gold"><span ng-bind="email.address"></span><span class="icon--x" ng-click="deleteEmail(email.address)"></span></a>
     </li>
                 </ol>
-                
+
 
 
                 <div class="email-recipe__buttons">
@@ -1521,7 +1521,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
                     </a>
                     <a href="">
                         <div class="slider-card__ratings" onclick="AnchorScroll('reviews')" >
-                                
+
 <span class="stars stars-4-5"  onclick="AnchorScroll('reviews')" data-ratingstars="4.38000011444092" aria-label="Rated 4.38 out of 5 stars"></span>
 
                             <span class="aggregate-rating">
@@ -1539,7 +1539,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
                     </a>
                     <a href="">
                         <div class="slider-card__ratings" onclick="AnchorScroll('reviews')" >
-                                
+
 <span class="stars stars-4-5"  onclick="AnchorScroll('reviews')" data-ratingstars="4.69999980926514" aria-label="Rated 4.7 out of 5 stars"></span>
 
                             <span class="aggregate-rating">
@@ -1557,7 +1557,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
                     </a>
                     <a href="">
                         <div class="slider-card__ratings" onclick="AnchorScroll('reviews')" >
-                                
+
 <span class="stars stars-3-5"  onclick="AnchorScroll('reviews')" data-ratingstars="3.5" aria-label="Rated 3.5 out of 5 stars"></span>
 
                             <span class="aggregate-rating">
@@ -1575,7 +1575,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
                     </a>
                     <a href="">
                         <div class="slider-card__ratings" onclick="AnchorScroll('reviews')" >
-                                
+
 <span class="stars stars-4-5"  onclick="AnchorScroll('reviews')" data-ratingstars="4.32999992370605" aria-label="Rated 4.33 out of 5 stars"></span>
 
                             <span class="aggregate-rating">
@@ -1606,7 +1606,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
 
         <div class="mag-cta-mobile">
             <div class="mag-cta" data-ng-controller="ar_controllers_mag_subscription">
-    
+
     <a ng-href="{{CtaSubscriptionUrl}}" target="_blank" class="ad-mag-homeBtm">
         <h2>Get the magazine</h2>
         <img class="ad-mag-homeBtm__th" data-lazy-load data-original-src="https://images.media-allrecipes.com/images/86146.png" alt="Subscribe to Allrecipes Magazine" title="Allrecipes Magazine"  src="https://images.media-allrecipes.com/ar/spacer.gif"/>
@@ -1635,7 +1635,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
             <span>Read all reviews</span>  <span class="svg-icon--recipe-navbar--rate svg-icon--recipe-navbar--rate-dims"></span>
         </a>
     <span class="recipe-reviews__header--count">309</span>
-    
+
 
 <script>
     var userReview = {"recipeId":0,"userReview":{"text":null,"rating":0.0,"date":null,"recipetype":0}};
@@ -1759,7 +1759,7 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
         <meta id="metaRecipeTitle" itemprop="itemReviewed" />
             <span class="helpful-header">Most helpful positive review</span>
 
-        <article class="reviewer-info imadeit-enabled">         
+        <article class="reviewer-info imadeit-enabled">
                 <div class="recipe-details-cook-stats-container">
     <a href="https://www.allrecipes.com/cook/1303982/">
 
@@ -1790,14 +1790,14 @@ window.dataLayer={"version":"1.0","pageInstanceId":"www.allrecipes.com/recipe/13
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
-            
+
+
             <div class="stars-and-date-container" title="Rated as 5 out of 5 stars">
-                    
+
 <span class="stars stars-5"  onclick="AnchorScroll('reviews')" data-ratingstars="5" aria-label="Rated 5 out of 5 stars"></span>
 
                 <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
@@ -1822,7 +1822,7 @@ This was great - even if I just used the mozzarella and parmesan cheeses. Don&#3
         <meta id="metaRecipeTitle" itemprop="itemReviewed" />
             <span class="helpful-header">Most helpful critical review</span>
 
-        <article class="reviewer-info imadeit-enabled">         
+        <article class="reviewer-info imadeit-enabled">
                 <div class="recipe-details-cook-stats-container">
     <a href="https://www.allrecipes.com/cook/742336/">
 
@@ -1853,14 +1853,14 @@ This was great - even if I just used the mozzarella and parmesan cheeses. Don&#3
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
-            
+
+
             <div class="stars-and-date-container" title="Rated as 3 out of 5 stars">
-                    
+
 <span class="stars stars-3"  onclick="AnchorScroll('reviews')" data-ratingstars="3" aria-label="Rated 3 out of 5 stars"></span>
 
                 <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
@@ -1911,11 +1911,11 @@ Good, but not great. Between the salt in my crust, salt in the olive oil, and in
                 </div>
             </div>
         <section ar-initial-reviews>
-            
+
     <div class="review-container clearfix" itemprop="review" itemscope itemtype="http://schema.org/Review">
         <meta id="metaRecipeTitle" itemprop="itemReviewed" />
 
-        <article class="reviewer-info imadeit-enabled">         
+        <article class="reviewer-info imadeit-enabled">
                 <div class="recipe-details-cook-stats-container">
     <a href="https://www.allrecipes.com/cook/1303982/">
 
@@ -1946,14 +1946,14 @@ Good, but not great. Between the salt in my crust, salt in the olive oil, and in
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
-            
+
+
             <div class="stars-and-date-container" title="Rated as 5 out of 5 stars">
-                    
+
 <span class="stars stars-5"  onclick="AnchorScroll('reviews')" data-ratingstars="5" aria-label="Rated 5 out of 5 stars"></span>
 
                 <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
@@ -1977,7 +1977,7 @@ This was great - even if I just used the mozzarella and parmesan cheeses. Don&#3
     <div class="review-container clearfix" itemprop="review" itemscope itemtype="http://schema.org/Review">
         <meta id="metaRecipeTitle" itemprop="itemReviewed" />
 
-        <article class="reviewer-info imadeit-enabled">         
+        <article class="reviewer-info imadeit-enabled">
                 <div class="recipe-details-cook-stats-container">
     <a href="https://www.allrecipes.com/cook/710802/">
 
@@ -2008,14 +2008,14 @@ This was great - even if I just used the mozzarella and parmesan cheeses. Don&#3
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
-            
+
+
             <div class="stars-and-date-container" title="Rated as 5 out of 5 stars">
-                    
+
 <span class="stars stars-5"  onclick="AnchorScroll('reviews')" data-ratingstars="5" aria-label="Rated 5 out of 5 stars"></span>
 
                 <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
@@ -2039,7 +2039,7 @@ Fabulous!  This was just delicious.  My pantry isn&#39;t very fancy so I didn&#3
     <div class="review-container clearfix" itemprop="review" itemscope itemtype="http://schema.org/Review">
         <meta id="metaRecipeTitle" itemprop="itemReviewed" />
 
-        <article class="reviewer-info imadeit-enabled">         
+        <article class="reviewer-info imadeit-enabled">
                 <div class="recipe-details-cook-stats-container">
     <a href="https://www.allrecipes.com/cook/2876295/">
 
@@ -2070,14 +2070,14 @@ Fabulous!  This was just delicious.  My pantry isn&#39;t very fancy so I didn&#3
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
-            
+
+
             <div class="stars-and-date-container" title="Rated as 5 out of 5 stars">
-                    
+
 <span class="stars stars-5"  onclick="AnchorScroll('reviews')" data-ratingstars="5" aria-label="Rated 5 out of 5 stars"></span>
 
                 <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
@@ -2102,7 +2102,7 @@ Loved it! I marinated my tomatoes for at least an hour, wanted to make sure they
     <div class="review-container clearfix" itemprop="review" itemscope itemtype="http://schema.org/Review">
         <meta id="metaRecipeTitle" itemprop="itemReviewed" />
 
-        <article class="reviewer-info imadeit-enabled">         
+        <article class="reviewer-info imadeit-enabled">
                 <div class="recipe-details-cook-stats-container">
     <a href="https://www.allrecipes.com/cook/3830607/">
 
@@ -2133,14 +2133,14 @@ Loved it! I marinated my tomatoes for at least an hour, wanted to make sure they
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
-            
+
+
             <div class="stars-and-date-container" title="Rated as 5 out of 5 stars">
-                    
+
 <span class="stars stars-5"  onclick="AnchorScroll('reviews')" data-ratingstars="5" aria-label="Rated 5 out of 5 stars"></span>
 
                 <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
@@ -2164,7 +2164,7 @@ I love this pizza! The first time I ever made it I followed the recipe exactly, 
     <div class="review-container clearfix" itemprop="review" itemscope itemtype="http://schema.org/Review">
         <meta id="metaRecipeTitle" itemprop="itemReviewed" />
 
-        <article class="reviewer-info imadeit-enabled">         
+        <article class="reviewer-info imadeit-enabled">
                 <div class="recipe-details-cook-stats-container">
     <a href="https://www.allrecipes.com/cook/1334015/">
 
@@ -2195,14 +2195,14 @@ I love this pizza! The first time I ever made it I followed the recipe exactly, 
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
-            
+
+
             <div class="stars-and-date-container" title="Rated as 5 out of 5 stars">
-                    
+
 <span class="stars stars-5"  onclick="AnchorScroll('reviews')" data-ratingstars="5" aria-label="Rated 5 out of 5 stars"></span>
 
                 <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
@@ -2226,7 +2226,7 @@ This pizza is delicious.  I&#39;ve made it several times.  I don&#39;t use fonti
     <div class="review-container clearfix" itemprop="review" itemscope itemtype="http://schema.org/Review">
         <meta id="metaRecipeTitle" itemprop="itemReviewed" />
 
-        <article class="reviewer-info imadeit-enabled">         
+        <article class="reviewer-info imadeit-enabled">
                 <div class="recipe-details-cook-stats-container">
     <a href="https://www.allrecipes.com/cook/2884337/">
 
@@ -2257,14 +2257,14 @@ This pizza is delicious.  I&#39;ve made it several times.  I don&#39;t use fonti
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
-            
+
+
             <div class="stars-and-date-container" title="Rated as 5 out of 5 stars">
-                    
+
 <span class="stars stars-5"  onclick="AnchorScroll('reviews')" data-ratingstars="5" aria-label="Rated 5 out of 5 stars"></span>
 
                 <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
@@ -2275,7 +2275,7 @@ This pizza is delicious.  I&#39;ve made it several times.  I don&#39;t use fonti
         </article>
 
         <p itemprop="reviewBody">
-This was amazing!  We couldn&#39;t stop eating it!  
+This was amazing!  We couldn&#39;t stop eating it!
 I added marinated cooked chicken and used a boboli pizza crust.  I also added a little zesty italian seasoning  and an extra tablespoon of garlic...
         </p>
         <div class="review-detail">
@@ -2290,7 +2290,7 @@ I added marinated cooked chicken and used a boboli pizza crust.  I also added a 
     <div class="review-container clearfix" itemprop="review" itemscope itemtype="http://schema.org/Review">
         <meta id="metaRecipeTitle" itemprop="itemReviewed" />
 
-        <article class="reviewer-info imadeit-enabled">         
+        <article class="reviewer-info imadeit-enabled">
                 <div class="recipe-details-cook-stats-container">
     <a href="https://www.allrecipes.com/cook/1700909/">
 
@@ -2321,14 +2321,14 @@ I added marinated cooked chicken and used a boboli pizza crust.  I also added a 
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
-            
+
+
             <div class="stars-and-date-container" title="Rated as 5 out of 5 stars">
-                    
+
 <span class="stars stars-5"  onclick="AnchorScroll('reviews')" data-ratingstars="5" aria-label="Rated 5 out of 5 stars"></span>
 
                 <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
@@ -2352,7 +2352,7 @@ I thought this pizza was fantastic - about as close to a &quot;perfect&quot; piz
     <div class="review-container clearfix" itemprop="review" itemscope itemtype="http://schema.org/Review">
         <meta id="metaRecipeTitle" itemprop="itemReviewed" />
 
-        <article class="reviewer-info imadeit-enabled">         
+        <article class="reviewer-info imadeit-enabled">
                 <div class="recipe-details-cook-stats-container">
     <a href="https://www.allrecipes.com/cook/742336/">
 
@@ -2383,14 +2383,14 @@ I thought this pizza was fantastic - about as close to a &quot;perfect&quot; piz
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
-            
+
+
             <div class="stars-and-date-container" title="Rated as 3 out of 5 stars">
-                    
+
 <span class="stars stars-3"  onclick="AnchorScroll('reviews')" data-ratingstars="3" aria-label="Rated 3 out of 5 stars"></span>
 
                 <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
@@ -2414,7 +2414,7 @@ Good, but not great. Between the salt in my crust, salt in the olive oil, and in
     <div class="review-container clearfix" itemprop="review" itemscope itemtype="http://schema.org/Review">
         <meta id="metaRecipeTitle" itemprop="itemReviewed" />
 
-        <article class="reviewer-info imadeit-enabled">         
+        <article class="reviewer-info imadeit-enabled">
                 <div class="recipe-details-cook-stats-container">
     <a href="https://www.allrecipes.com/cook/2171751/">
 
@@ -2445,14 +2445,14 @@ Good, but not great. Between the salt in my crust, salt in the olive oil, and in
 
 
     </a>
-</div> 
- 
+</div>
 
 
 
-            
+
+
             <div class="stars-and-date-container" title="Rated as 5 out of 5 stars">
-                    
+
 <span class="stars stars-5"  onclick="AnchorScroll('reviews')" data-ratingstars="5" aria-label="Rated 5 out of 5 stars"></span>
 
                 <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
@@ -2487,7 +2487,7 @@ Yummy! This is so good. I use Boboli thin crust and added pepperoni to one pizza
     </section>
 
     <aside id="recipe-page-right-rail" class="recipe-page-right-rail four-tabs sticky-ads">
-    
+
         <right-rail-feed my-feed-data='{&quot;items&quot;:[{&quot;id&quot;:269943,&quot;recipeTitle&quot;:&quot;Smoked Sausage and Cauliflower Fried Rice&quot;,&quot;imageUrl&quot;:&quot;https://images.media-allrecipes.com/userphotos/300x300/6276864.jpg&quot;,&quot;cookId&quot;:17284818,&quot;rating&quot;:4.33,&quot;reviewCount&quot;:3,&quot;cookDisplayName&quot;:&quot;Hillshire Farm&#174; Brand&quot;,&quot;cookThumbnailUrl&quot;:&quot;https://images.media-allrecipes.com/userphotos/50x50/4454556.jpg&quot;,&quot;cookFollowersCount&quot;:14956,&quot;cookFavoriteCount&quot;:71,&quot;cookMadeRecipesCount&quot;:0,&quot;videoId&quot;:0,&quot;url&quot;:&quot;https://www.allrecipes.com/recipe/269943/smoked-sausage-and-cauliflower-fried-rice/&quot;,&quot;description&quot;:&quot;Smoked sausage, egg, and broccoli star in this cauliflower fried rice that makes for a quick weeknight meal.&quot;,&quot;recommendationSource&quot;:3,&quot;sourceId&quot;:244,&quot;cookHandle&quot;:&quot;hillshirefarm&quot;,&quot;cookProfileUrl&quot;:&quot;/cook/hillshirefarm/&quot;,&quot;baseSiteUrl&quot;:&quot;https://www.allrecipes.com&quot;,&quot;baseImagesUrl&quot;:&quot;https://images.media-allrecipes.com&quot;,&quot;contentProviderId&quot;:&quot;235&quot;},{&quot;id&quot;:269956,&quot;recipeTitle&quot;:&quot;Gluten-Free Snowball Cookies&quot;,&quot;imageUrl&quot;:&quot;https://images.media-allrecipes.com/userphotos/300x300/6231349.jpg&quot;,&quot;cookId&quot;:6549646,&quot;rating&quot;:5,&quot;reviewCount&quot;:0,&quot;cookDisplayName&quot;:&quot;Angela Sackett | Superhotmama&quot;,&quot;cookThumbnailUrl&quot;:&quot;https://images.media-allrecipes.com/userphotos/50x50/2406088.jpg&quot;,&quot;cookFollowersCount&quot;:165,&quot;cookFavoriteCount&quot;:214,&quot;cookMadeRecipesCount&quot;:110,&quot;videoId&quot;:0,&quot;url&quot;:&quot;https://www.allrecipes.com/recipe/269956/gluten-free-snowball-cookies/&quot;,&quot;description&quot;:&quot;These delicious cookies are both grain-free and gluten-free! To make them paleo, substitute ghee or palm shortening for butter, and trade confectioners\u0027 sugar for coconut sugar.&quot;,&quot;recommendationSource&quot;:3,&quot;sourceId&quot;:0,&quot;cookHandle&quot;:&quot;superhotmama&quot;,&quot;cookProfileUrl&quot;:&quot;/cook/superhotmama/&quot;,&quot;baseSiteUrl&quot;:&quot;https://www.allrecipes.com&quot;,&quot;baseImagesUrl&quot;:&quot;https://images.media-allrecipes.com&quot;,&quot;contentProviderId&quot;:&quot;0&quot;}],&quot;referringId&quot;:133948,&quot;isStickyRightRail&quot;:true}'></right-rail-feed>
 
 
@@ -2515,7 +2515,7 @@ Yummy! This is so good. I use Boboli thin crust and added pepperoni to one pizza
 
             </div>
             <footer id="pageFooter" class="full-page">
-                
+
     <div class="ad-recipe-page-footer-container">
         <div>
             <div id="div-gpt-square-fixed-4" data-tier="3"></div>
@@ -2607,14 +2607,14 @@ Yummy! This is so good. I use Boboli thin crust and added pepperoni to one pizza
         window.location = value;
     }
 
-    
+
     function readCookieValue(cookieName) {
         var cookieValueRegex = new RegExp('(?:(?:^|.*;\\s*)' + cookieName + '\\s*\\=\\s*([^;]*).*$)|^.*$');
         var cookieValue = document.cookie.replace(cookieValueRegex, "$1");
         return cookieValue;     // empty string, if cookie not found
     }
 
-    
+
     var dsarUrl = "https://app-de.onetrust.com/app/#/webform/0c410d51-8e85-4308-9bb9-37c24a461ccb?";
 
     var dsarUserId = readCookieValue("euConsentId");
@@ -2630,7 +2630,7 @@ Yummy! This is so good. I use Boboli thin crust and added pepperoni to one pizza
 
     document.getElementById("footer_dsar").href = dsarUrl;
 
-    
+
     var notificationDsar = document.getElementById("privacy-notification_dsar");
     if (notificationDsar != null) {
         notificationDsar.href = dsarUrl;
@@ -2651,12 +2651,12 @@ Yummy! This is so good. I use Boboli thin crust and added pepperoni to one pizza
         </div>
     </div>
 
-    
+
     <div id='ad-footer' class="ad-footer--fixed">
         <div id="div-gpt-mob-adhesive-banner-fixed" data-tier="1"></div>
     </div>
-    
-    
+
+
 
 
 
@@ -2674,7 +2674,7 @@ Yummy! This is so good. I use Boboli thin crust and added pepperoni to one pizza
         <!--  script_analyticstag -->
         <script>
 
-            
+
 
             function completed(whenReady) {
                 document.removeEventListener("DOMContentLoaded", completed);
@@ -2720,7 +2720,7 @@ Yummy! This is so good. I use Boboli thin crust and added pepperoni to one pizza
 
     </script>
 
-    
+
     <script type="text/javascript">
     var AR = AR || {};
     AR.Util = AR.Util || {};
@@ -2772,7 +2772,7 @@ Yummy! This is so good. I use Boboli thin crust and added pepperoni to one pizza
                 'version': '1.163.0.5032'
             });
     </script>
- 
+
         <!-- Begin comScore Tag - Part 1 -->
         <script id="script_comscore">
             var _comscore = _comscore || [];

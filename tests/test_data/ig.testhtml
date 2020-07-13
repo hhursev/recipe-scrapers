@@ -45,7 +45,7 @@
     <script src="//statjs.akamaized.net/ig/libs/jquery/jquery-1.12.4.min.js"></script>
     <script src="https://js.statig.com.br/jquery.colorbox-min.js"></script>
     <script src="https://js.statig.com.br/jquery.validate.js"></script>
-  
+
                     <script>var w=window;if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document;AKSB=w.AKSB||{},AKSB.q=AKSB.q||[],AKSB.mark=AKSB.mark||function(e,_){AKSB.q.push(["mark",e,_||(new Date).getTime()])},AKSB.measure=AKSB.measure||function(e,_,t){AKSB.q.push(["measure",e,_,t||(new Date).getTime()])},AKSB.done=AKSB.done||function(e){AKSB.q.push(["done",e])},AKSB.mark("firstbyte",(new Date).getTime()),AKSB.prof={custid:"466660",ustr:"",originlat:"0",clientrtt:"31",ghostip:"201.17.38.102",ipv6:false,pct:"10",clientip:"187.36.179.62",requestid:"d7e6050",region:"27246",protocol:"",blver:14,akM:"b",akN:"ae",akTT:"O",akTX:"1",akTI:"d7e6050",ai:"539739",ra:"false",pmgn:"",pmgi:"",pmp:"",qc:""},function(e){var _=d.createElement("script");_.async="async",_.src=e;var t=d.getElementsByTagName("script"),t=t[t.length-1];t.parentNode.insertBefore(_,t)}(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")}</script>
                     </head>
   <body class="receitas secao-home secao-bread-" id="desktop">    <!-- include  canaisIGv04_tagManager -->
@@ -58,10 +58,10 @@
 </div>
 </div>
       <div class="ig-ad">        <!-- include NoticiaIGv04_SuperBanner -->
-        
+
         <div class="publicidade superbanner">          <div id="ad_leaderboard"></div>
         </div>
-        
+
 </div>
 </header>
     <header class="main-header">      <div class="ig-container">        <a href="#" class="open-menu">Abre Menu</a>
@@ -69,7 +69,7 @@
 </a>
 </h1>
         <!-- include canaisIGv04_busca -->
-        
+
         <div id="oferecimento">
           <div id="ad_microbanner"></div>
         </div>
@@ -97,7 +97,7 @@
             <div id="searchOnBottom" style="display: none;"></div>
           </form>
         </div>
-        
+
 </div>
       <!-- include channel-menu - menu do canal-->
       <div id="channel-menu"><div class="channel-menu__container"><div class="channel-menu__box"><a href="#" class="closed-menu">Fechar Menu</a><nav class="ig-container channel-menu channel-menu__nav" id="igChannelmenu"><ul class="channel-menu__menu level0"><li class="channel-menu__menu-item channel-menu__menu-item--has-children"><a class="channel-menu__menu-link" href="/entrada/" title="Entrada" >Entrada</a><ul class="channel-menu__submenu level1"><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/entrada/aperitivos/" title="Aperitivos" >Aperitivos</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/entrada/paes/" title="Pães" >Pães</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/entrada/saladas/" title="Saladas" >Saladas</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/entrada/sopas/" title="Sopas" >Sopas</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/entrada/lanches/" title="Lanches" >Lanches</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/entrada/acompanhamentos/" title="Acompanhamentos" >Acompanhamentos</a></li></ul></li><li class="channel-menu__menu-item channel-menu__menu-item--has-children"><a class="channel-menu__menu-link" href="/prato-principal/" title="Prato Principal" >Prato Principal</a><ul class="channel-menu__submenu level1"><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/prato-principal/arroz/" title="Arroz" >Arroz</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/prato-principal/carnes/" title="Carnes" >Carnes</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/prato-principal/frango-aves/" title="Frango e Aves" >Frango e Aves</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/prato-principal/massas/" title="Massas" >Massas</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/prato-principal/molhos/" title="Molhos" >Molhos</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/prato-principal/peixes-frutos-do-mar/" title="Peixes e Frutos do Mar" >Peixes e Frutos do Mar</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/prato-principal/tortas/" title="Tortas" >Tortas</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/prato-principal/vegetariano/" title="Vegetariano" >Vegetariano</a></li></ul></li><li class="channel-menu__menu-item channel-menu__menu-item--has-children"><a class="channel-menu__menu-link" href="/sobremesas/" title="Sobremesas" >Sobremesas</a><ul class="channel-menu__submenu level1"><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/sobremesas/doces/" title="Doces" >Doces</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/sobremesas/tortas-bolos/" title="Tortas e Bolos" >Tortas e Bolos</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/sobremesas/diet/" title="Diet" >Diet</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/sobremesas/light/" title="Light" >Light</a></li></ul></li><li class="channel-menu__menu-item channel-menu__menu-item--has-children"><a class="channel-menu__menu-link" href="/bebidas/" title="Bebidas" >Bebidas</a><ul class="channel-menu__submenu level1"><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/bebidas/alcoolica/" title="Alcoólica" >Alcoólica</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/bebidas/nao-alcoolica/" title="Não Alcoólica" >Não Alcoólica</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="http://vinho.ig.com.br/" title="Blog do Vinho" target="_blank">Blog do Vinho</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/bebidas/cafe/" title="Café" >Café</a></li></ul></li><li class="channel-menu__menu-item channel-menu__menu-item--has-children"><a class="channel-menu__menu-link" href="/diet-light/" title="Diet & Light" >Diet & Light</a><ul class="channel-menu__submenu level1"><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/diet-light/doces/" title="Doces" >Doces</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/diet-light/salgados/" title="Salgados" >Salgados</a></li></ul></li><li class="channel-menu__menu-item"><a class="channel-menu__menu-link" href="/comer-fora/" title="Comer fora" >Comer fora</a></li><li class="channel-menu__menu-item channel-menu__menu-item--has-children"><a class="channel-menu__menu-link" href="/colunas/" title="Colunas" >Colunas</a><ul class="channel-menu__submenu level1"><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="/colunas/chef-marcio-valenti/" title="Chef Márcio Valenti" >Chef Márcio Valenti</a></li><li class="channel-menu__submenu-item"><a class="channel-menu__submenu-link" href="http://vinho.ig.com.br/" title="Blog do Vinho" target="_blank">Blog do Vinho</a></li></ul></li></ul></nav></div></div></div>
@@ -105,7 +105,7 @@
     <!-- headers -->
     <!-- Main Content -->
     <main>      <div class="ig-container">        <!-- social -->
-        
+
         <div class="share-page">
           <div class="share-page__icon tooltip-target" data-tooltip-id="share-page__aside">
             <span class="icn-share2"></span>
@@ -124,7 +124,7 @@
             <button type="button" class="tooltip__close"></button>
           </aside>
         </div>
-        
+
         <!-- box main content -->
         <div class="main-content">          <div class="row">            <section class="noticia col-sm-12 no-margin">              <div class="fonte">                <span>Tamanho do texto</span>
                 <ul>                  <li>                    <a class="diminuir">-</a>
@@ -239,10 +239,10 @@ Batata palha</li>
                     <!-- box modo preparo -->
                     <div class="box-modo-preparo" itemprop="recipeInstructions">                      <h3 class="subtitulo">Modo de Preparo</h3>
                       <div class="divisor-subtitulo"></div>
-                      <div class="box-preparo">                        <p class="txt-modo-preparo">Em uma panela com o azeite, refogue a cebola e o alho até que a cebola comece a murchar. Junte os 
-cogumelos, o limão, e o catchup. Cozinhe por 5 a 10 minutos. Adicione o caldo e cozinhe por mais 5 
-minutos. Junte a maisena e deixe ferver até engrossar ligeiramente. Por último, adicione o creme de 
-leite, tempere e junte a salsinha. Sirva com arroz e batata palha. 
+                      <div class="box-preparo">                        <p class="txt-modo-preparo">Em uma panela com o azeite, refogue a cebola e o alho até que a cebola comece a murchar. Junte os
+cogumelos, o limão, e o catchup. Cozinhe por 5 a 10 minutos. Adicione o caldo e cozinhe por mais 5
+minutos. Junte a maisena e deixe ferver até engrossar ligeiramente. Por último, adicione o creme de
+leite, tempere e junte a salsinha. Sirva com arroz e batata palha.
 </p>
 </div>
 </div>
@@ -803,7 +803,7 @@ leite, tempere e junte a salsinha. Sirva com arroz e batata palha.
 						for (var i in data.results[k]){
 							if(data.results[k][i].indexOf("http:") != -1) {
 								data.results[k][i] = data.results[k][i].replace("http:", "https:");
-							} 
+							}
 						}
 					}
 					$(data.results).each(function(i, e){

@@ -18,7 +18,7 @@ class TestTudoGostosoScraper(ScraperTest):
 
     def test_ingredients(self):
         self.assertListEqual(
-            ["1 limão grande", "2 colheres de açúcar", "gelo a gosto", "cachaça",],
+            ["1 limão grande", "2 colheres de açúcar", "gelo a gosto", "cachaça"],
             self.harvester_class.ingredients(),
         )
 

@@ -897,7 +897,7 @@ apstag.init({
 
 <div class="clear"></div>
 <div class="paginate center" style="display: none;">
-  
+
         <span class="current_page">1</span>
 
         <a rel="" href="https://cookpad.com/recipe/4610651?page=2">2</a>
@@ -940,7 +940,7 @@ apstag.init({
 <div id="comment-list">
 
 <div class="paging paginate" style="margin-bottom: 20px;">
-      
+
 </div>
 
 </div>
@@ -1531,7 +1531,7 @@ Copyright© Cookpad Inc. All Rights Reserved
       uniqueId: $.cookie('cpb'),
       obfuscatedAccountId: $.cookie('adsouid')
     }
-    
+
     , custom: {"recipeId":"4610651"}
   }
 };
@@ -1539,9 +1539,9 @@ Copyright© Cookpad Inc. All Rights Reserved
 if (!options['context']['custom']) {
   options['context']['custom'] = {};
 }
-  
+
 options['context']['custom']['searchString'] = CookpadDisplay.Request.searchKeywordFromReferrer();
-  
+
 
 var cookpadDisplay = new CookpadDisplay(window, options);
 cookpadDisplay.display();

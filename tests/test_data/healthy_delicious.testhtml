@@ -64,7 +64,7 @@ setTimeout(function() {
 			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.healthy-delicious.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3"}};
 			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
-		
+
 <!-- Styles -->
 <style type="text/css">
 img.wp-smiley,
@@ -205,7 +205,7 @@ googletag.enableServices();
 				filter:alpha(opacity=100) !important; /* For IE8 and earlier */
 			}
 		</style>
-	
+
 <!-- On Ready -->
 <script> /* <![CDATA[ */
 !function ($) {
@@ -232,7 +232,7 @@ html body div.easyrecipe .ERSSaveBtnSpan .ERSSaveBtn { color: rgb(255, 255, 255)
 
 </script>
 <style type="text/css" id="pagelines-custom">
-  
+
 </style>
 
 </head>
@@ -240,19 +240,19 @@ html body div.easyrecipe .ERSSaveBtnSpan .ERSSaveBtn { color: rgb(255, 255, 255)
 <!-- Start >> HTML Body -->
 
 <body class="single single-post postid-3717 single-format-standard healthy-theme pl-pro-version responsive full_width template-hd-single-post display-full">
-	
+
 		<div class="pl-mobile-menu">
-			
-			<form method="get" class="mm-search pl-searcher" onsubmit="this.submit();return false;" action="http://www.healthy-delicious.com/" ><fieldset><span class="btn-search"><i class="icon icon-search"></i></span><input type="text" value="" name="s" class="searchfield" placeholder="Search" /></fieldset></form>				
+
+			<form method="get" class="mm-search pl-searcher" onsubmit="this.submit();return false;" action="http://www.healthy-delicious.com/" ><fieldset><span class="btn-search"><i class="icon icon-search"></i></span><input type="text" value="" name="s" class="searchfield" placeholder="Search" /></fieldset></form>
 			<div class="mm-holder">
-				
-				
+
+
 				<ul class="mobile-menu primary-menu"><li class="page_item page-item-1536"><a href="http://www.healthy-delicious.com/about-me/">About</a></li><li class="page_item page-item-3108"><a href="http://www.healthy-delicious.com/cooking-for-one/">Cooking for One</a></li><li class="page_item page-item-8180"><a href="http://www.healthy-delicious.com/contact-2/">Contact</a></li><li class="page_item page-item-4834"><a href="http://www.healthy-delicious.com/privacy-policy/">Privacy Policy</a></li><li class="page_item page-item-5762"><a href="http://www.healthy-delicious.com/drinks/">Drinks</a></li><li class="page_item page-item-5768"><a href="http://www.healthy-delicious.com/cake-and-pastry/">Cake and Pastry</a></li></ul>				<div class="social-menu">
-					
+
 									</div>
 			</div>
 		</div>
-		
+
 
 <div id="site" class="site-wrap">
 		<div  class="boxed-wrap site-translate">
@@ -260,11 +260,11 @@ html body div.easyrecipe .ERSSaveBtnSpan .ERSSaveBtn { color: rgb(255, 255, 255)
 
 		<div class="pl-fixed-region pl-region" data-region="fixed">
 			<div class="outline pl-area-container">
-								
+
 
 <!-- Canvas Area | Section Template -->
 <section id="pl_areau70d7c" data-object="PLSectionArea" data-sid="pl_area" data-clone="u70d7c"  class="pl-area pl-area-sortable area-tag menu-bar    pl-bg-cover section-pl_area" style="  "><div class="pl-area-pad fix">	<div class="pl-area-wrap " style="padding-top: 20px; padding-bottom: 20px;">
-		
+
 		<div class="pl-content nested-section-area">
 						<div class="pl-inner area-region pl-sortable-area editor-row" style="">
 				<div class="row grid-row">
@@ -279,7 +279,7 @@ html body div.easyrecipe .ERSSaveBtnSpan .ERSSaveBtn { color: rgb(255, 255, 255)
 <!-- MediaBox | Section Template -->
 <section id="mediaboxuwru3wg" data-object="PageLinesMediaBox" data-sid="mediabox" data-clone="uwru3wg"  class="pl-section span4 offset0    pl-bg-cover section-mediabox" style="  "><div class="pl-section-pad fix"><div class="mediabox-wrap pl-centerer pla-fade pl-animation fix"  style="min-height: 30px">
 				<div class="the-media fitvids pl-centered center ">
-					<img src="http://www.healthy-delicious.com/wp-content/uploads/2014/10/hd_header_tagline.png" data-sync="mediabox_image"  alt="" title="" /> 
+					<img src="http://www.healthy-delicious.com/wp-content/uploads/2014/10/hd_header_tagline.png" data-sync="mediabox_image"  alt="" title="" />
 					<div class="the-media-html"></div>
 				</div>
 			</div></div></section>
@@ -305,20 +305,20 @@ html body div.easyrecipe .ERSSaveBtnSpan .ERSSaveBtn { color: rgb(255, 255, 255)
 	<div class="fixed-top-pusher"></div>
 	<script> jQuery('.fixed-top-pusher').height( jQuery('.pl-fixed-top').height() ) </script>
 
-			
-		
+
+
 		<div class="pl-region-wrap">
 			<div id="page" class="thepage page-wrap">
 
 								<div class="page-canvas">
-					
+
 						<header id="header" class="header pl-region" data-region="header">
 		<div class="outline pl-area-container">
-			
+
 
 <!-- Canvas Area | Section Template -->
 <section id="pl_areaue9785" data-object="PLSectionArea" data-sid="pl_area" data-clone="ue9785"  class="pl-area pl-area-sortable area-tag    pl-bg-cover section-pl_area" style="  "><div class="pl-area-pad fix">	<div class="pl-area-wrap " style="padding-top: 20px; padding-bottom: 20px;">
-		
+
 		<div class="pl-content nested-section-area">
 						<div class="pl-inner area-region pl-sortable-area editor-row" style="">
 				<div class="row grid-row">
@@ -331,15 +331,15 @@ html body div.easyrecipe .ERSSaveBtnSpan .ERSSaveBtn { color: rgb(255, 255, 255)
 	</div></section>		</div>
 	</header>
 
-						
+
 					<div id="page-main" class="pl-region custom-template editing-locked" data-custom-template="hd-single-post" data-template-name="HD-Single-Post" data-region="template" >
 						<div id="dynamic-content" class="outline template-region-wrap pl-area-container">
-							
+
 
 
 <!-- Canvas Area | Section Template -->
 <section id="pl_areaud3b16" data-object="PLSectionArea" data-sid="pl_area" data-clone="ud3b16"  class="pl-area pl-area-sortable area-tag    pl-bg-cover section-pl_area" style="  "><div class="pl-area-pad fix">	<div class="pl-area-wrap " style="padding-top: 20px; padding-bottom: 20px;">
-		
+
 		<div class="pl-content nested-section-area">
 						<div class="pl-inner area-region pl-sortable-area editor-row" style="">
 				<div class="row grid-row">
@@ -394,7 +394,7 @@ html body div.easyrecipe .ERSSaveBtnSpan .ERSSaveBtn { color: rgb(255, 255, 255)
 <!-- MediaBox | Section Template -->
 <section id="mediaboxuilzucb" data-object="PageLinesMediaBox" data-sid="mediabox" data-clone="uilzucb"  class="pl-section span2 offset0 hd_icon    pl-bg-cover section-mediabox" style="  "><div class="pl-section-pad fix"><div class="mediabox-wrap pl-centerer pla-fade pl-animation fix"  style="min-height: 30px">
 				<div class="the-media fitvids pl-centered center ">
-					<img src="http://www.healthy-delicious.com/wp-content/uploads/2014/10/hd_icon2.png" data-sync="mediabox_image"  alt="" title="" /> 
+					<img src="http://www.healthy-delicious.com/wp-content/uploads/2014/10/hd_icon2.png" data-sync="mediabox_image"  alt="" title="" />
 					<div class="the-media-html"></div>
 				</div>
 			</div></div></section>
@@ -441,7 +441,7 @@ googletag.cmd.push(function() { googletag.display('HealthyDelicious_Below_Post_7
 				<div id="div-comment-402672" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/6be62a99355a0273f237a011c1f1d25d?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/6be62a99355a0273f237a011c1f1d25d?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://www.feedweep.blogspot.com' rel='external nofollow' class='url'>Cassie @ Feed 'Em and Weep</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-402672">
 			03/04 at 5:28 pm</a>		</div>
 
@@ -457,7 +457,7 @@ googletag.cmd.push(function() { googletag.display('HealthyDelicious_Below_Post_7
 				<div id="div-comment-402799" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/c7b9629d2a65d3cfc7bb6c3ce68ec8ce?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/c7b9629d2a65d3cfc7bb6c3ce68ec8ce?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren Keating</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-402799">
 			03/04 at 8:49 pm</a>		</div>
 
@@ -472,7 +472,7 @@ googletag.cmd.push(function() { googletag.display('HealthyDelicious_Below_Post_7
 				<div id="div-comment-274930" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/adb6a9252e1fcd41dfee76095bd5a978?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/adb6a9252e1fcd41dfee76095bd5a978?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Heather</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-274930">
 			11/04 at 11:48 pm</a>		</div>
 
@@ -488,7 +488,7 @@ googletag.cmd.push(function() { googletag.display('HealthyDelicious_Below_Post_7
 				<div id="div-comment-275633" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/c7b9629d2a65d3cfc7bb6c3ce68ec8ce?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/c7b9629d2a65d3cfc7bb6c3ce68ec8ce?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren Keating</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-275633">
 			11/05 at 10:55 am</a>		</div>
 
@@ -503,7 +503,7 @@ googletag.cmd.push(function() { googletag.display('HealthyDelicious_Below_Post_7
 				<div id="div-comment-191497" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/da825b5e62f06dce6a89b2b98fa8fc5c?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/da825b5e62f06dce6a89b2b98fa8fc5c?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Tina</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-191497">
 			08/17 at 10:03 pm</a>		</div>
 
@@ -516,7 +516,7 @@ googletag.cmd.push(function() { googletag.display('HealthyDelicious_Below_Post_7
 				<div id="div-comment-191504" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/c7b9629d2a65d3cfc7bb6c3ce68ec8ce?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/c7b9629d2a65d3cfc7bb6c3ce68ec8ce?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren Keating</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-191504">
 			08/17 at 10:13 pm</a>		</div>
 
@@ -532,7 +532,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-138452" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/cc47c1e09145718a2a6f82e9d2877c17?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/cc47c1e09145718a2a6f82e9d2877c17?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Nicole</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-138452">
 			06/03 at 11:10 pm</a>		</div>
 
@@ -548,7 +548,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-123556" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/9a2a9f4a37b50f38b1ed12e08cbb6e00?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/9a2a9f4a37b50f38b1ed12e08cbb6e00?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Brooke H</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-123556">
 			05/19 at 12:00 am</a>		</div>
 
@@ -564,7 +564,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-94000" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/b61a63d18caba239c434f3744a5f8bed?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/b61a63d18caba239c434f3744a5f8bed?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Tiffany O.</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-94000">
 			01/24 at 11:28 pm</a>		</div>
 
@@ -577,7 +577,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-91761" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/15b43dd83c39f9357bbf7d19a2fb64cf?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/15b43dd83c39f9357bbf7d19a2fb64cf?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Christie</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-91761">
 			01/08 at 3:50 pm</a>		</div>
 
@@ -590,7 +590,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-91762" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-91762">
 			01/08 at 3:54 pm</a>		</div>
 
@@ -605,7 +605,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-90840" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/18906a6f681f814bdb07bdc042d912b7?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/18906a6f681f814bdb07bdc042d912b7?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">WitchyWomas23</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-90840">
 			12/03 at 10:46 am</a>		</div>
 
@@ -618,7 +618,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-90782" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/60eaced0cb104d8b84be7efb4d6fb7e2?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/60eaced0cb104d8b84be7efb4d6fb7e2?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Dad</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-90782">
 			11/08 at 7:09 pm</a>		</div>
 
@@ -631,7 +631,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-90677" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/b7bd8c8c6da7aa20a3ee2718e6538f82?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/b7bd8c8c6da7aa20a3ee2718e6538f82?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Abby, Big City Dreams</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-90677">
 			10/29 at 7:48 pm</a>		</div>
 
@@ -644,7 +644,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-90610" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/09e6a013be5d183e59234b69ee010a55?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/09e6a013be5d183e59234b69ee010a55?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Deanna</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-90610">
 			10/21 at 1:52 pm</a>		</div>
 
@@ -657,7 +657,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-90611" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/09e6a013be5d183e59234b69ee010a55?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/09e6a013be5d183e59234b69ee010a55?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Deanna</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-90611">
 			10/21 at 1:53 pm</a>		</div>
 
@@ -670,7 +670,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-90612" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren @ HealthyDelish</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-90612">
 			10/21 at 1:54 pm</a>		</div>
 
@@ -685,7 +685,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-90518" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/a6e14bee004d4654a1efa60ede0deaa2?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/a6e14bee004d4654a1efa60ede0deaa2?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Katie</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-90518">
 			10/14 at 6:42 pm</a>		</div>
 
@@ -698,7 +698,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-90335" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/9db6183b9d092addc87bd63e4d906bde?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/9db6183b9d092addc87bd63e4d906bde?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">amy goins</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-90335">
 			09/26 at 1:37 pm</a>		</div>
 
@@ -711,7 +711,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-90194" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/30946b9a11ba73dfb28014284e839c25?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/30946b9a11ba73dfb28014284e839c25?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Tami</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-90194">
 			09/08 at 7:29 pm</a>		</div>
 
@@ -724,7 +724,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-90000" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/b11ab47c2595bc701864731e2eeef95f?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/b11ab47c2595bc701864731e2eeef95f?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Jess</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-90000">
 			08/21 at 4:40 pm</a>		</div>
 
@@ -737,7 +737,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-89622" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/cd5f750c05a8ac33fe6d92382915a86e?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/cd5f750c05a8ac33fe6d92382915a86e?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Helen</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-89622">
 			07/30 at 6:33 pm</a>		</div>
 
@@ -750,7 +750,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-89417" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/6680d701244fc75288a7f07fe5c1d920?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/6680d701244fc75288a7f07fe5c1d920?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Pamela Hubbard</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-89417">
 			07/14 at 8:28 pm</a>		</div>
 
@@ -763,7 +763,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-89419" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren @ HealthyDelish</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-89419">
 			07/15 at 9:43 am</a>		</div>
 
@@ -778,7 +778,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-89374" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/a0dffeeb1a7964cd4f0e0c32a0bce390?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/a0dffeeb1a7964cd4f0e0c32a0bce390?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Victoria</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-89374">
 			07/10 at 6:31 pm</a>		</div>
 
@@ -791,7 +791,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-89273" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/999edb33b1d49085e3984b454d253395?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/999edb33b1d49085e3984b454d253395?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Kirsten Tyrrel</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-89273">
 			06/27 at 8:17 pm</a>		</div>
 
@@ -804,7 +804,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-89246" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/7939cabb92b70daf1882a6ba2fe857a8?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/7939cabb92b70daf1882a6ba2fe857a8?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lynette Young</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-89246">
 			06/23 at 5:45 pm</a>		</div>
 
@@ -817,7 +817,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-89222" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/d79de8b68f33b3179ae5b9741c5f6dff?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/d79de8b68f33b3179ae5b9741c5f6dff?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Ashlee</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-89222">
 			06/19 at 5:23 pm</a>		</div>
 
@@ -830,7 +830,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-89220" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/2a2a21bf36a6af7d87f06c64039a1838?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/2a2a21bf36a6af7d87f06c64039a1838?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Alice Choi</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-89220">
 			06/19 at 1:24 pm</a>		</div>
 
@@ -843,7 +843,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-89193" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/a471f3f67280820073e4440f5bcc4ed6?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/a471f3f67280820073e4440f5bcc4ed6?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">lizhf</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-89193">
 			06/12 at 6:34 pm</a>		</div>
 
@@ -856,7 +856,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-89187" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/78b4bc9eeb50958ccf4dfb431f5557e9?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/78b4bc9eeb50958ccf4dfb431f5557e9?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Courtney @trojan5150</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-89187">
 			06/09 at 11:10 pm</a>		</div>
 
@@ -869,7 +869,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-89184" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/222c13441961fd6b81270599f46a5ed2?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/222c13441961fd6b81270599f46a5ed2?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Jennifer Cowden</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-89184">
 			06/09 at 5:31 pm</a>		</div>
 
@@ -882,7 +882,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-89118" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/9a521b9d74ceb9ba008d483db78da3b2?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/9a521b9d74ceb9ba008d483db78da3b2?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Meg</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-89118">
 			06/03 at 1:56 pm</a>		</div>
 
@@ -895,7 +895,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-89124" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren @ HealthyDelish</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-89124">
 			06/04 at 10:50 am</a>		</div>
 
@@ -910,7 +910,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-89109" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/5da9cc4c451c0ca70af2260fa3d22c6e?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/5da9cc4c451c0ca70af2260fa3d22c6e?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Hillary</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-89109">
 			06/02 at 6:38 pm</a>		</div>
 
@@ -923,7 +923,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-89125" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren @ HealthyDelish</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-89125">
 			06/04 at 10:56 am</a>		</div>
 
@@ -938,7 +938,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-88914" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/bedbfac4c290cdce9930d2b74d4cda0c?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/bedbfac4c290cdce9930d2b74d4cda0c?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://www.yourcharmedlifeblog.com' rel='external nofollow' class='url'>kelly</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-88914">
 			05/25 at 8:55 pm</a>		</div>
 
@@ -951,7 +951,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-88514" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/1aeb407f6cfcb0a203482b9e4c057604?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/1aeb407f6cfcb0a203482b9e4c057604?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Ali</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-88514">
 			05/14 at 11:59 am</a>		</div>
 
@@ -964,7 +964,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-88308" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/665a85ccc5bbcbbcc2ad766a06f520b4?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/665a85ccc5bbcbbcc2ad766a06f520b4?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Krista</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-88308">
 			05/06 at 4:59 pm</a>		</div>
 
@@ -980,7 +980,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-87931" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/92b067370982fc54f8ddb02834ee5256?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/92b067370982fc54f8ddb02834ee5256?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://damndelicious.tumblr.com' rel='external nofollow' class='url'>Chung-Ah | Damn Delicious</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-87931">
 			04/22 at 2:51 pm</a>		</div>
 
@@ -993,7 +993,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-86933" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/d5c9ab59386feac27f76ad7c6f5caeab?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/d5c9ab59386feac27f76ad7c6f5caeab?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Laura</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-86933">
 			04/08 at 7:59 pm</a>		</div>
 
@@ -1006,7 +1006,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-85837" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02c77ab150eb531e4310cdb0a2005f82?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02c77ab150eb531e4310cdb0a2005f82?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Katie</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-85837">
 			03/26 at 8:57 pm</a>		</div>
 
@@ -1019,7 +1019,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-85267" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/8c421fb2d1becda10ffac7c6e03161b4?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/8c421fb2d1becda10ffac7c6e03161b4?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Maria</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-85267">
 			03/19 at 11:12 pm</a>		</div>
 
@@ -1032,7 +1032,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-85032" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/df9aaf79488484f41a96de70c0bc58bb?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/df9aaf79488484f41a96de70c0bc58bb?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Kim D.</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-85032">
 			03/17 at 8:37 am</a>		</div>
 
@@ -1045,7 +1045,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-85080" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/c7b9629d2a65d3cfc7bb6c3ce68ec8ce?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/c7b9629d2a65d3cfc7bb6c3ce68ec8ce?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren Keating</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-85080">
 			03/17 at 6:19 pm</a>		</div>
 
@@ -1060,7 +1060,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-83784" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/98404776af2e6a182eb22fc8bd87f55e?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/98404776af2e6a182eb22fc8bd87f55e?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Laurie</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-83784">
 			03/08 at 11:47 pm</a>		</div>
 
@@ -1073,7 +1073,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-83834" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-83834">
 			03/09 at 9:08 am</a>		</div>
 
@@ -1088,7 +1088,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-83073" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/d8a8a690d747a8eae290e5e7f759fd95?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/d8a8a690d747a8eae290e5e7f759fd95?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Shawn</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-83073">
 			03/01 at 12:13 pm</a>		</div>
 
@@ -1101,7 +1101,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-81907" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/3968644ba97641eb4bcfaf21f146f7cd?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/3968644ba97641eb4bcfaf21f146f7cd?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Tim</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-81907">
 			02/12 at 6:55 pm</a>		</div>
 
@@ -1114,7 +1114,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-81563" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/3a2b1f4bb9c1982c6ce89a129728f2d1?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/3a2b1f4bb9c1982c6ce89a129728f2d1?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">AMANDA</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-81563">
 			02/09 at 8:39 pm</a>		</div>
 
@@ -1130,7 +1130,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-81562" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/3a2b1f4bb9c1982c6ce89a129728f2d1?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/3a2b1f4bb9c1982c6ce89a129728f2d1?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">AMANDA</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-81562">
 			02/09 at 8:39 pm</a>		</div>
 
@@ -1143,7 +1143,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-81102" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/3a66d877c655a9bcfefd2c9b9047d768?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/3a66d877c655a9bcfefd2c9b9047d768?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Eileen</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-81102">
 			02/03 at 5:10 pm</a>		</div>
 
@@ -1156,7 +1156,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-80912" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/32a8e1027b4863930fc6ded366e36819?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/32a8e1027b4863930fc6ded366e36819?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Jenn</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-80912">
 			01/31 at 11:54 pm</a>		</div>
 
@@ -1169,7 +1169,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-80905" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-80905">
 			01/31 at 9:10 pm</a>		</div>
 
@@ -1182,7 +1182,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-80904" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/32a8e1027b4863930fc6ded366e36819?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/32a8e1027b4863930fc6ded366e36819?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Jenn</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-80904">
 			01/31 at 9:06 pm</a>		</div>
 
@@ -1195,7 +1195,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-80906" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-80906">
 			01/31 at 9:11 pm</a>		</div>
 
@@ -1210,7 +1210,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-80679" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/5be41174eb6289344a084d88f2b9388d?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/5be41174eb6289344a084d88f2b9388d?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Rebecca</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-80679">
 			01/25 at 7:11 pm</a>		</div>
 
@@ -1226,7 +1226,7 @@ I have tried mixing the chicken in with the rest of the filling, but I was&#8217
 				<div id="div-comment-80595" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/f9563243989ce4c6aa012b7d7bf55cea?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/f9563243989ce4c6aa012b7d7bf55cea?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://Ruryjungck755.soup.io/' rel='external nofollow' class='url'>Marguerite</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-80595">
 			01/24 at 12:29 am</a>		</div>
 
@@ -1243,7 +1243,7 @@ had to tell someone!</p>
 				<div id="div-comment-80478" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/65702baa5d5580dba129dbec8dffd4dd?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/65702baa5d5580dba129dbec8dffd4dd?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Julie</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-80478">
 			01/21 at 12:02 pm</a>		</div>
 
@@ -1256,7 +1256,7 @@ had to tell someone!</p>
 				<div id="div-comment-80154" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/fa5b96264db7f225d26184e3888f01fb?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/fa5b96264db7f225d26184e3888f01fb?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Katie</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-80154">
 			01/14 at 3:05 pm</a>		</div>
 
@@ -1271,7 +1271,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-80155" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren Keating</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-80155">
 			01/14 at 3:07 pm</a>		</div>
 
@@ -1284,7 +1284,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-80159" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/fa5b96264db7f225d26184e3888f01fb?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/fa5b96264db7f225d26184e3888f01fb?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Katie</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-80159">
 			01/14 at 4:39 pm</a>		</div>
 
@@ -1301,7 +1301,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-80047" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/f08ca14216a2428c4978915cd678929c?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/f08ca14216a2428c4978915cd678929c?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Shelley</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-80047">
 			01/11 at 5:13 pm</a>		</div>
 
@@ -1314,7 +1314,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-80058" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/f08ca14216a2428c4978915cd678929c?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/f08ca14216a2428c4978915cd678929c?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Shelley</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-80058">
 			01/11 at 9:16 pm</a>		</div>
 
@@ -1329,7 +1329,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-79851" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/804f841a1006a050e8eecc1972410c5b?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/804f841a1006a050e8eecc1972410c5b?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Momma</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-79851">
 			01/06 at 7:42 pm</a>		</div>
 
@@ -1342,7 +1342,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-79824" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/d78a7104443b86215e66a011cbe588cf?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/d78a7104443b86215e66a011cbe588cf?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Amanda Turner</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-79824">
 			01/06 at 12:17 am</a>		</div>
 
@@ -1355,7 +1355,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-79841" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren Keating</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-79841">
 			01/06 at 3:38 pm</a>		</div>
 
@@ -1370,7 +1370,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-79471" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/05118c90e57734620b8f1548ce482b67?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/05118c90e57734620b8f1548ce482b67?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://www.aggieskitchen.com' rel='external nofollow' class='url'>Aggie</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-79471">
 			12/28 at 11:21 am</a>		</div>
 
@@ -1383,7 +1383,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-79451" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/34ff4bd7af4707a15f547dfea5f99ef7?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/34ff4bd7af4707a15f547dfea5f99ef7?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Dawn</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-79451">
 			12/27 at 5:50 pm</a>		</div>
 
@@ -1396,7 +1396,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-79850" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/804f841a1006a050e8eecc1972410c5b?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/804f841a1006a050e8eecc1972410c5b?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Momma</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-79850">
 			01/06 at 7:38 pm</a>		</div>
 
@@ -1411,7 +1411,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-78349" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/25672cc67c1f4fffe3a4d38517b7496c?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/25672cc67c1f4fffe3a4d38517b7496c?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Tania</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-78349">
 			12/12 at 10:15 pm</a>		</div>
 
@@ -1424,7 +1424,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-72785" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/efdaf2d6dd855ae3f9e86c5b1c0bf558?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/efdaf2d6dd855ae3f9e86c5b1c0bf558?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Me</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-72785">
 			12/01 at 3:59 pm</a>		</div>
 
@@ -1437,7 +1437,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-72793" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-72793">
 			12/01 at 4:20 pm</a>		</div>
 
@@ -1453,7 +1453,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-72393" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/b16089382f890350020f08aff0452f88?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/b16089382f890350020f08aff0452f88?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Alexis Roberts</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-72393">
 			11/29 at 9:17 pm</a>		</div>
 
@@ -1466,7 +1466,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-72366" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/f72d7d5fe574ff56a5d1b74bbd42f8c4?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/f72d7d5fe574ff56a5d1b74bbd42f8c4?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">meh</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-72366">
 			11/29 at 2:34 am</a>		</div>
 
@@ -1479,7 +1479,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-71798" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/40c66a6384d00a04387d715804550590?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/40c66a6384d00a04387d715804550590?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://dianeyuhas.com' rel='external nofollow' class='url'>Diane Yuhas</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-71798">
 			11/14 at 4:26 pm</a>		</div>
 
@@ -1492,7 +1492,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-71799" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren Keating</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-71799">
 			11/14 at 4:29 pm</a>		</div>
 
@@ -1505,7 +1505,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-71802" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/40c66a6384d00a04387d715804550590?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/40c66a6384d00a04387d715804550590?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://dianeyuhas.com' rel='external nofollow' class='url'>Diane Yuhas</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-71802">
 			11/14 at 4:57 pm</a>		</div>
 
@@ -1522,7 +1522,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-71756" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/70cbb10f9dd680775bfc8943aa2492fd?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/70cbb10f9dd680775bfc8943aa2492fd?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://Www.bozarth.co' rel='external nofollow' class='url'>Becca</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-71756">
 			11/13 at 10:26 pm</a>		</div>
 
@@ -1535,7 +1535,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-71795" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren Keating</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-71795">
 			11/14 at 10:22 am</a>		</div>
 
@@ -1551,7 +1551,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-70796" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/27bf7495c7b74d10f6ef948f5e8f00a7?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/27bf7495c7b74d10f6ef948f5e8f00a7?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Chris</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-70796">
 			10/21 at 11:13 pm</a>		</div>
 
@@ -1564,7 +1564,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-70572" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/46b53f9159bc008303eb203b3f99b0d1?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/46b53f9159bc008303eb203b3f99b0d1?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lisa</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-70572">
 			10/15 at 7:37 pm</a>		</div>
 
@@ -1577,7 +1577,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-70602" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-70602">
 			10/16 at 9:33 pm</a>		</div>
 
@@ -1592,7 +1592,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-69801" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/6972faa11d2f110fd436c6036067d60b?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/6972faa11d2f110fd436c6036067d60b?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">erika</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-69801">
 			09/22 at 11:07 am</a>		</div>
 
@@ -1605,7 +1605,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-69406" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/03ea696482c64e3fa1570f68509ee9c3?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/03ea696482c64e3fa1570f68509ee9c3?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">wenona</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-69406">
 			09/12 at 12:43 am</a>		</div>
 
@@ -1618,7 +1618,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-69354" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/649aefe4c8d0af441585b43d7bf71806?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/649aefe4c8d0af441585b43d7bf71806?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Leah</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-69354">
 			09/11 at 12:51 am</a>		</div>
 
@@ -1631,7 +1631,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-69176" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/5fb405a58723ccfdd8bff49079468cb0?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/5fb405a58723ccfdd8bff49079468cb0?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://www.yummyhoney.blog.ca/' rel='external nofollow' class='url'>Jamie</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-69176">
 			09/05 at 12:43 pm</a>		</div>
 
@@ -1644,7 +1644,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-68794" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/e4f7db7ac755e9f2a92023cf6d708502?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/e4f7db7ac755e9f2a92023cf6d708502?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://www.1099mom.com' rel='external nofollow' class='url'>Linsey K</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-68794">
 			08/27 at 9:52 am</a>		</div>
 
@@ -1657,7 +1657,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-68484" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/12912509033f9fddb0ea4b215ef3ded3?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/12912509033f9fddb0ea4b215ef3ded3?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Azusa</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-68484">
 			08/17 at 7:48 pm</a>		</div>
 
@@ -1670,7 +1670,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-68378" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/ae1a71b341293f105dd632c4d7a7d8b9?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/ae1a71b341293f105dd632c4d7a7d8b9?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Jenn Vaughn</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-68378">
 			08/14 at 11:44 pm</a>		</div>
 
@@ -1683,7 +1683,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-67971" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/78d4a9740d21003ef006df7ffe76a36a?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/78d4a9740d21003ef006df7ffe76a36a?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Tiffany</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-67971">
 			08/07 at 11:11 pm</a>		</div>
 
@@ -1696,7 +1696,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-70433" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/3552aed7f0a88e32e4bd3f016a3db45d?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/3552aed7f0a88e32e4bd3f016a3db45d?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lindzeeloohoo</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-70433">
 			10/10 at 1:37 pm</a>		</div>
 
@@ -1711,7 +1711,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-67674" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/42a9c76f6d35ef5db19bd5c7679a2f93?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/42a9c76f6d35ef5db19bd5c7679a2f93?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Erin</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-67674">
 			08/01 at 8:45 pm</a>		</div>
 
@@ -1724,7 +1724,7 @@ My boyfriend isn&#8217;t much a spinach guy, but I am going to try these and see
 				<div id="div-comment-67269" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/e51e90e8ba0effe13636b69198825c51?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/e51e90e8ba0effe13636b69198825c51?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Mary-Liz</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-67269">
 			07/29 at 8:49 pm</a>		</div>
 
@@ -1751,7 +1751,7 @@ Cal: 85 Fat: 8 Carb: 5 Protein: 1</p>
 				<div id="div-comment-66918" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/492e8fe0d6d0a1f1853e40895d1bbc8b?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/492e8fe0d6d0a1f1853e40895d1bbc8b?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Jessica</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-66918">
 			07/28 at 9:23 am</a>		</div>
 
@@ -1764,7 +1764,7 @@ Cal: 85 Fat: 8 Carb: 5 Protein: 1</p>
 				<div id="div-comment-66055" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/6af3670f71a3ce8d5934300456bc517f?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/6af3670f71a3ce8d5934300456bc517f?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Cassandra</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-66055">
 			07/24 at 8:36 pm</a>		</div>
 
@@ -1777,7 +1777,7 @@ Cal: 85 Fat: 8 Carb: 5 Protein: 1</p>
 				<div id="div-comment-65431" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/e577571748f493a628046275b9d743c9?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/e577571748f493a628046275b9d743c9?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Dori m.</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-65431">
 			07/21 at 5:58 pm</a>		</div>
 
@@ -1790,7 +1790,7 @@ Cal: 85 Fat: 8 Carb: 5 Protein: 1</p>
 				<div id="div-comment-65362" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/83a294a7f70e2775e512a0deb7ac68ce?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/83a294a7f70e2775e512a0deb7ac68ce?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://Www.askthefitcoach.com' rel='external nofollow' class='url'>Holly Jean</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-65362">
 			07/21 at 9:11 am</a>		</div>
 
@@ -1803,7 +1803,7 @@ Cal: 85 Fat: 8 Carb: 5 Protein: 1</p>
 				<div id="div-comment-63426" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/467b2d387856f33aac21ccb0a9a52229?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/467b2d387856f33aac21ccb0a9a52229?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Kelly</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-63426">
 			07/12 at 5:11 pm</a>		</div>
 
@@ -1817,7 +1817,7 @@ K</p>
 				<div id="div-comment-62144" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/d19ad04d3bb1e6c4cd1ae43afa76c627?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/d19ad04d3bb1e6c4cd1ae43afa76c627?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Jackie</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-62144">
 			07/06 at 12:17 pm</a>		</div>
 
@@ -1830,7 +1830,7 @@ K</p>
 				<div id="div-comment-62145" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://healthy-delicious.com' rel='external nofollow' class='url'>Lauren</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-62145">
 			07/06 at 12:33 pm</a>		</div>
 
@@ -1843,7 +1843,7 @@ K</p>
 				<div id="div-comment-63224" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/63422364c4ca0cc95988918dca2b37c2?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/63422364c4ca0cc95988918dca2b37c2?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Kristen Frame</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-63224">
 			07/11 at 3:57 pm</a>		</div>
 
@@ -1860,7 +1860,7 @@ I facilitate a nutrition and diabetes self-management class for low income famil
 				<div id="div-comment-59681" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/5ece0a78e17abfc5e23bdc9fdfa7d951?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/5ece0a78e17abfc5e23bdc9fdfa7d951?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Megan</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-59681">
 			06/26 at 12:58 pm</a>		</div>
 
@@ -1873,7 +1873,7 @@ I facilitate a nutrition and diabetes self-management class for low income famil
 				<div id="div-comment-60041" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/b291bcaf6b3403f559b116146e4e740b?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/b291bcaf6b3403f559b116146e4e740b?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Ronya</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-60041">
 			06/27 at 8:51 pm</a>		</div>
 
@@ -1888,7 +1888,7 @@ I facilitate a nutrition and diabetes self-management class for low income famil
 				<div id="div-comment-55728" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/9d5746ddcc34bb644cf501ed3fa0233c?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/9d5746ddcc34bb644cf501ed3fa0233c?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Gillian</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-55728">
 			06/10 at 8:18 pm</a>		</div>
 
@@ -1901,7 +1901,7 @@ I facilitate a nutrition and diabetes self-management class for low income famil
 				<div id="div-comment-53256" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/21bb2fa295c247268751382e10d9f2af?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/21bb2fa295c247268751382e10d9f2af?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Laura</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-53256">
 			05/29 at 10:13 am</a>		</div>
 
@@ -1914,7 +1914,7 @@ I facilitate a nutrition and diabetes self-management class for low income famil
 				<div id="div-comment-51943" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/5fd88ff8230dab8aecc7092876548617?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/5fd88ff8230dab8aecc7092876548617?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">suzieq</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-51943">
 			05/17 at 9:22 am</a>		</div>
 
@@ -1927,7 +1927,7 @@ I facilitate a nutrition and diabetes self-management class for low income famil
 				<div id="div-comment-65608" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/395971d00d25d614ff38f4fe0d5832ff?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/395971d00d25d614ff38f4fe0d5832ff?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Ramona</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-65608">
 			07/22 at 2:33 pm</a>		</div>
 
@@ -1942,7 +1942,7 @@ I facilitate a nutrition and diabetes self-management class for low income famil
 				<div id="div-comment-51925" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/a5484f222817b26d5d5eef70155de114?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/a5484f222817b26d5d5eef70155de114?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Cynthia</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-51925">
 			05/17 at 12:40 am</a>		</div>
 
@@ -1956,7 +1956,7 @@ This is a great recipe.</p>
 				<div id="div-comment-51498" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/c92728b6ca0f4bff6abd68659ab11209?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/c92728b6ca0f4bff6abd68659ab11209?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Raven</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-51498">
 			05/08 at 10:01 pm</a>		</div>
 
@@ -1969,7 +1969,7 @@ This is a great recipe.</p>
 				<div id="div-comment-50986" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/bfa597bf2584f278c46d85e079527b88?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/bfa597bf2584f278c46d85e079527b88?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://cactusandkudzu.com' rel='external nofollow' class='url'>Brett</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-50986">
 			04/30 at 8:40 am</a>		</div>
 
@@ -1982,7 +1982,7 @@ This is a great recipe.</p>
 				<div id="div-comment-54424" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/b66f1f505104e246b331b1cf94169c09?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/b66f1f505104e246b331b1cf94169c09?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">E</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-54424">
 			06/04 at 5:44 pm</a>		</div>
 
@@ -1995,7 +1995,7 @@ This is a great recipe.</p>
 				<div id="div-comment-66202" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/2078a9a0dda2fbb3afd60e36ef00c8c5?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/2078a9a0dda2fbb3afd60e36ef00c8c5?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">V</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-66202">
 			07/25 at 2:07 pm</a>		</div>
 
@@ -2008,7 +2008,7 @@ This is a great recipe.</p>
 				<div id="div-comment-66205" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-66205">
 			07/25 at 2:15 pm</a>		</div>
 
@@ -2021,7 +2021,7 @@ This is a great recipe.</p>
 				<div id="div-comment-67400" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/3b597e8d8a3b1a85213479aa89388087?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/3b597e8d8a3b1a85213479aa89388087?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Shawna</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-67400">
 			07/30 at 9:30 am</a>		</div>
 
@@ -2042,7 +2042,7 @@ This is a great recipe.</p>
 				<div id="div-comment-50833" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/50883dec8cb5192abb3a21e163f1859a?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/50883dec8cb5192abb3a21e163f1859a?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Tyler</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-50833">
 			04/28 at 1:48 am</a>		</div>
 
@@ -2055,7 +2055,7 @@ This is a great recipe.</p>
 				<div id="div-comment-50691" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/18b22683a82f74be5e377d8ed02bc4fe?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/18b22683a82f74be5e377d8ed02bc4fe?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">shvel</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-50691">
 			04/26 at 12:33 am</a>		</div>
 
@@ -2068,7 +2068,7 @@ This is a great recipe.</p>
 				<div id="div-comment-50718" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-50718">
 			04/26 at 8:27 am</a>		</div>
 
@@ -2081,7 +2081,7 @@ This is a great recipe.</p>
 				<div id="div-comment-65812" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/4a549997fe3d60024cb249765d570e5e?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/4a549997fe3d60024cb249765d570e5e?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Eileen</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-65812">
 			07/23 at 2:36 pm</a>		</div>
 
@@ -2098,7 +2098,7 @@ This is a great recipe.</p>
 				<div id="div-comment-50217" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/945e3f26b4a7daf4fd5529455c0c5e78?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/945e3f26b4a7daf4fd5529455c0c5e78?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">claudia</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-50217">
 			04/19 at 8:29 pm</a>		</div>
 
@@ -2111,7 +2111,7 @@ This is a great recipe.</p>
 				<div id="div-comment-50205" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/3fe8823e7b5c2b682dd7bf625e687605?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/3fe8823e7b5c2b682dd7bf625e687605?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lindsay</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-50205">
 			04/19 at 6:10 pm</a>		</div>
 
@@ -2124,7 +2124,7 @@ This is a great recipe.</p>
 				<div id="div-comment-50037" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/9716ce96c669dab9baeb080cf6499a85?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/9716ce96c669dab9baeb080cf6499a85?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Maureen</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-50037">
 			04/17 at 8:30 pm</a>		</div>
 
@@ -2137,7 +2137,7 @@ This is a great recipe.</p>
 				<div id="div-comment-49674" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/9831b3e3ec24e37cd0d4ca8fc253fa99?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/9831b3e3ec24e37cd0d4ca8fc253fa99?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Tammy Whitesell</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-49674">
 			04/12 at 7:58 am</a>		</div>
 
@@ -2150,7 +2150,7 @@ This is a great recipe.</p>
 				<div id="div-comment-49310" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/f85f87fd3ba79387f6dc8123c3b835cf?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/f85f87fd3ba79387f6dc8123c3b835cf?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">leetlruq</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-49310">
 			04/08 at 5:00 am</a>		</div>
 
@@ -2163,7 +2163,7 @@ This is a great recipe.</p>
 				<div id="div-comment-49015" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/f95a38d5307e29d9a859890fefa6524f?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/f95a38d5307e29d9a859890fefa6524f?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">txsgrbny</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-49015">
 			04/04 at 2:35 pm</a>		</div>
 
@@ -2176,7 +2176,7 @@ This is a great recipe.</p>
 				<div id="div-comment-48951" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/7d8cfa5b1177f739cd271faa773ce3b6?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/7d8cfa5b1177f739cd271faa773ce3b6?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">MissBingie</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-48951">
 			04/03 at 7:10 pm</a>		</div>
 
@@ -2189,7 +2189,7 @@ This is a great recipe.</p>
 				<div id="div-comment-48939" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/047d7b0b95a49bbfdbc27e0b1e8d2467?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/047d7b0b95a49bbfdbc27e0b1e8d2467?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Christine Hagerman</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-48939">
 			04/03 at 5:18 pm</a>		</div>
 
@@ -2202,7 +2202,7 @@ This is a great recipe.</p>
 				<div id="div-comment-48940" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-48940">
 			04/03 at 5:20 pm</a>		</div>
 
@@ -2215,7 +2215,7 @@ This is a great recipe.</p>
 				<div id="div-comment-48949" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/047d7b0b95a49bbfdbc27e0b1e8d2467?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/047d7b0b95a49bbfdbc27e0b1e8d2467?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Christine Hagerman</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-48949">
 			04/03 at 6:31 pm</a>		</div>
 
@@ -2232,7 +2232,7 @@ This is a great recipe.</p>
 				<div id="div-comment-48657" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/dc1c7407897dbdd25c8066a52123566d?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/dc1c7407897dbdd25c8066a52123566d?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Annie</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-48657">
 			03/31 at 8:13 pm</a>		</div>
 
@@ -2245,7 +2245,7 @@ This is a great recipe.</p>
 				<div id="div-comment-48650" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/cbda6767af5e86e1be210ea87cddd50d?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/cbda6767af5e86e1be210ea87cddd50d?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Julie Prohaska</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-48650">
 			03/31 at 6:11 pm</a>		</div>
 
@@ -2258,7 +2258,7 @@ This is a great recipe.</p>
 				<div id="div-comment-48482" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/897338aabc9deac9e489c701de102681?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/897338aabc9deac9e489c701de102681?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Misti</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-48482">
 			03/29 at 5:06 pm</a>		</div>
 
@@ -2271,7 +2271,7 @@ This is a great recipe.</p>
 				<div id="div-comment-48478" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/59d76ef8bbf06d87900b2134d5660ea4?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/59d76ef8bbf06d87900b2134d5660ea4?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://sugarblossommeagan.blogspot.com.au' rel='external nofollow' class='url'>Meagan Loretz</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-48478">
 			03/29 at 4:54 pm</a>		</div>
 
@@ -2284,7 +2284,7 @@ This is a great recipe.</p>
 				<div id="div-comment-48460" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/79aa5af81873e8fc7c01e395cdb88462?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/79aa5af81873e8fc7c01e395cdb88462?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Larissa</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-48460">
 			03/29 at 3:39 pm</a>		</div>
 
@@ -2297,7 +2297,7 @@ This is a great recipe.</p>
 				<div id="div-comment-48454" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/ffb2e817ddd07e7615c61fa84fc25b80?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/ffb2e817ddd07e7615c61fa84fc25b80?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Ana</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-48454">
 			03/29 at 2:43 pm</a>		</div>
 
@@ -2310,7 +2310,7 @@ This is a great recipe.</p>
 				<div id="div-comment-48284" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/39e963b35e4d2ee0c788edd729069f6f?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/39e963b35e4d2ee0c788edd729069f6f?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Marie</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-48284">
 			03/27 at 8:09 pm</a>		</div>
 
@@ -2323,7 +2323,7 @@ This is a great recipe.</p>
 				<div id="div-comment-48285" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">lauren</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-48285">
 			03/27 at 8:11 pm</a>		</div>
 
@@ -2338,7 +2338,7 @@ This is a great recipe.</p>
 				<div id="div-comment-48276" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/953c9500f00f8c56e6daf63c073cbe64?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/953c9500f00f8c56e6daf63c073cbe64?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Erin</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-48276">
 			03/27 at 6:24 pm</a>		</div>
 
@@ -2351,7 +2351,7 @@ This is a great recipe.</p>
 				<div id="div-comment-48121" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/436fbf5a575658d55152d9b3895e3ba9?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/436fbf5a575658d55152d9b3895e3ba9?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Amy</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-48121">
 			03/25 at 4:42 pm</a>		</div>
 
@@ -2364,7 +2364,7 @@ This is a great recipe.</p>
 				<div id="div-comment-47880" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/2212ec4edb4b0a6260dd26864a78603b?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/2212ec4edb4b0a6260dd26864a78603b?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://urbanbundle.com/' rel='external nofollow' class='url'>pattilouwho</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47880">
 			03/22 at 2:17 pm</a>		</div>
 
@@ -2377,7 +2377,7 @@ This is a great recipe.</p>
 				<div id="div-comment-47650" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/0d18ebefbfde62d8fb41570903fd7aec?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/0d18ebefbfde62d8fb41570903fd7aec?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Irish</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47650">
 			03/20 at 2:56 pm</a>		</div>
 
@@ -2392,7 +2392,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47626" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/ca39d943a9755811abece856c8b361b2?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/ca39d943a9755811abece856c8b361b2?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://someneedfulthings.blogspot.com' rel='external nofollow' class='url'>Needful Things</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47626">
 			03/20 at 11:42 am</a>		</div>
 
@@ -2405,7 +2405,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47612" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/2f96123c6f5f35f531d88adc9595e390?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/2f96123c6f5f35f531d88adc9595e390?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Katie</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47612">
 			03/20 at 10:04 am</a>		</div>
 
@@ -2418,7 +2418,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47535" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/56cc002541b616908b04402cd7d1e194?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/56cc002541b616908b04402cd7d1e194?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Kristina</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47535">
 			03/19 at 8:40 pm</a>		</div>
 
@@ -2432,7 +2432,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47386" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/b958f0f3d88c21f2a3e2a8941eb31720?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/b958f0f3d88c21f2a3e2a8941eb31720?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Rachel Miller</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47386">
 			03/18 at 10:41 pm</a>		</div>
 
@@ -2445,7 +2445,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47382" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/072cc16074fb0e4f3d7f93c8543dd331?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/072cc16074fb0e4f3d7f93c8543dd331?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">savannah</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47382">
 			03/18 at 10:20 pm</a>		</div>
 
@@ -2458,7 +2458,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47383" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47383">
 			03/18 at 10:23 pm</a>		</div>
 
@@ -2473,7 +2473,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47271" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/15cf44555190b2da2c4b93d469f39328?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/15cf44555190b2da2c4b93d469f39328?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://www.hiplipblog.com' rel='external nofollow' class='url'>HIP LIP</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47271">
 			03/17 at 7:40 pm</a>		</div>
 
@@ -2486,7 +2486,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47265" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/8bd4dc9f15d2c57ae0a5e330c937257b?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/8bd4dc9f15d2c57ae0a5e330c937257b?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://sonyafightslyme.blogspot.com' rel='external nofollow' class='url'>Sonya</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47265">
 			03/17 at 6:16 pm</a>		</div>
 
@@ -2499,7 +2499,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47259" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/693be8d9484db5a905b997e78f196186?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/693be8d9484db5a905b997e78f196186?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Becca</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47259">
 			03/17 at 5:18 pm</a>		</div>
 
@@ -2512,7 +2512,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47187" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/a62c88165c1cfd9a0059ce7627bb74ae?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/a62c88165c1cfd9a0059ce7627bb74ae?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Tiffany D</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47187">
 			03/16 at 10:15 pm</a>		</div>
 
@@ -2525,7 +2525,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47260" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/693be8d9484db5a905b997e78f196186?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/693be8d9484db5a905b997e78f196186?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Becca</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47260">
 			03/17 at 5:27 pm</a>		</div>
 
@@ -2540,7 +2540,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47171" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/9470b5d2efa431d4dd45433f2546a5f6?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/9470b5d2efa431d4dd45433f2546a5f6?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lindsay</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47171">
 			03/16 at 5:33 pm</a>		</div>
 
@@ -2553,7 +2553,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47181" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47181">
 			03/16 at 7:06 pm</a>		</div>
 
@@ -2568,7 +2568,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47162" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/db61b1151569344b56c8fd5bf6b33720?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/db61b1151569344b56c8fd5bf6b33720?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Karen Eggleston</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47162">
 			03/16 at 4:33 pm</a>		</div>
 
@@ -2581,7 +2581,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47179" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47179">
 			03/16 at 7:05 pm</a>		</div>
 
@@ -2596,7 +2596,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47146" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/490d98e4fbb1af364a7f7c68e844620b?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/490d98e4fbb1af364a7f7c68e844620b?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Jessica</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47146">
 			03/16 at 1:54 pm</a>		</div>
 
@@ -2609,7 +2609,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47148" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47148">
 			03/16 at 1:57 pm</a>		</div>
 
@@ -2624,7 +2624,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47141" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/461a00a2f9d7be96f9b1e38b1839ba15?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/461a00a2f9d7be96f9b1e38b1839ba15?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Liz</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47141">
 			03/16 at 1:10 pm</a>		</div>
 
@@ -2637,7 +2637,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47133" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/543d9059fddbe3fed08d35b7be0af6f6?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/543d9059fddbe3fed08d35b7be0af6f6?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Val</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47133">
 			03/16 at 12:09 pm</a>		</div>
 
@@ -2650,7 +2650,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47134" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47134">
 			03/16 at 12:15 pm</a>		</div>
 
@@ -2665,7 +2665,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47131" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/3d2088108a558c65906cdea9d256a3f6?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/3d2088108a558c65906cdea9d256a3f6?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Jodie</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47131">
 			03/16 at 11:38 am</a>		</div>
 
@@ -2678,7 +2678,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47132" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47132">
 			03/16 at 11:48 am</a>		</div>
 
@@ -2691,7 +2691,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47143" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/461a00a2f9d7be96f9b1e38b1839ba15?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/461a00a2f9d7be96f9b1e38b1839ba15?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Liz</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47143">
 			03/16 at 1:15 pm</a>		</div>
 
@@ -2704,7 +2704,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47145" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47145">
 			03/16 at 1:21 pm</a>		</div>
 
@@ -2723,7 +2723,7 @@ And voting= DONE!!</p>
 				<div id="div-comment-47070" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/7a2687561fb89d5ab92eef1601658713?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/7a2687561fb89d5ab92eef1601658713?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Camy</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47070">
 			03/15 at 8:48 pm</a>		</div>
 
@@ -2737,7 +2737,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-47071" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47071">
 			03/15 at 8:54 pm</a>		</div>
 
@@ -2753,7 +2753,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-46825" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/033870ce616ec4f4b03f9c505b34dcd4?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/033870ce616ec4f4b03f9c505b34dcd4?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Therese</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-46825">
 			03/12 at 7:17 pm</a>		</div>
 
@@ -2766,7 +2766,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-46810" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/75bbe732e485f0784ace9161e6f2489e?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/75bbe732e485f0784ace9161e6f2489e?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Mirani</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-46810">
 			03/12 at 3:29 pm</a>		</div>
 
@@ -2779,7 +2779,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-46800" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/d5c409e0d921b90ff4e5ae47abd46ef8?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/d5c409e0d921b90ff4e5ae47abd46ef8?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://www.kelloggsfiberplus.com/Home.aspx' rel='external nofollow' class='url'>Kati Mora, MS, RD, Kellogg's FiberPlus(R) Wellness Advocate</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-46800">
 			03/12 at 11:53 am</a>		</div>
 
@@ -2792,7 +2792,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-46745" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/2f2031bf25174a1c677cb0620d970abd?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/2f2031bf25174a1c677cb0620d970abd?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Pinky</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-46745">
 			03/11 at 10:13 pm</a>		</div>
 
@@ -2805,7 +2805,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-46704" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/3c064789c0c048777d5f7f1a2e2eecb9?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/3c064789c0c048777d5f7f1a2e2eecb9?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://cheffingit.wordpress.com' rel='external nofollow' class='url'>Sarah</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-46704">
 			03/11 at 1:55 pm</a>		</div>
 
@@ -2818,7 +2818,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-46693" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/ff9601b275eab7c7082239cc5f1bf951?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/ff9601b275eab7c7082239cc5f1bf951?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://www.herbielikesspaghetti.com' rel='external nofollow' class='url'>Herbie, Bryan, YiRan (@HerbieSpaghetti)</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-46693">
 			03/11 at 11:48 am</a>		</div>
 
@@ -2831,7 +2831,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-46694" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lauren</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-46694">
 			03/11 at 11:52 am</a>		</div>
 
@@ -2846,7 +2846,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-46632" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/3ec6627c559c98cd3dae3899a6990d49?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/3ec6627c559c98cd3dae3899a6990d49?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://www.bakeaholicmama.com' rel='external nofollow' class='url'>Carrie @Bakeaholic Mama</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-46632">
 			03/10 at 7:48 pm</a>		</div>
 
@@ -2859,7 +2859,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-46625" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/a36052e43df3cfbbae09a75a89272bd4?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/a36052e43df3cfbbae09a75a89272bd4?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://snixykitchen.wordpress.com' rel='external nofollow' class='url'>Sarah</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-46625">
 			03/10 at 6:29 pm</a>		</div>
 
@@ -2872,7 +2872,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-46575" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/cb9f7957afbc937234662ec3de9ef1a1?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/cb9f7957afbc937234662ec3de9ef1a1?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://ambikaskitchen.com' rel='external nofollow' class='url'>Ambika</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-46575">
 			03/10 at 11:56 am</a>		</div>
 
@@ -2885,7 +2885,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-46556" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/6ed49e407b52b931d4b1556df13f6aa3?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/6ed49e407b52b931d4b1556df13f6aa3?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://relishments.com' rel='external nofollow' class='url'>Emily @ Relishments</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-46556">
 			03/10 at 8:11 am</a>		</div>
 
@@ -2898,7 +2898,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-46555" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/3f14ef3b96e3f95bc50d3e28d58a71dd?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/3f14ef3b96e3f95bc50d3e28d58a71dd?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://www.wherethecookiesare.com' rel='external nofollow' class='url'>Sara {Home is Where the Cookies Are}</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-46555">
 			03/10 at 7:53 am</a>		</div>
 
@@ -2911,7 +2911,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-46459" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/3fb181919ccf102c492b67b3fad68d6d?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/3fb181919ccf102c492b67b3fad68d6d?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://www.acquiredlife.com' rel='external nofollow' class='url'>Rochelle</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-46459">
 			03/09 at 5:01 am</a>		</div>
 
@@ -2924,7 +2924,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-46444" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/ebda16af4525821c706064fe9226303e?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/ebda16af4525821c706064fe9226303e?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://www.erecipe.com' rel='external nofollow' class='url'>raquel@eRecipe.com</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-46444">
 			03/09 at 12:04 am</a>		</div>
 
@@ -2937,7 +2937,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-46437" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/caeb83290df68956236921c4734d1323?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/caeb83290df68956236921c4734d1323?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://bandbbeforebed.com' rel='external nofollow' class='url'>Lindsay @ biking before bed</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-46437">
 			03/08 at 10:01 pm</a>		</div>
 
@@ -2950,7 +2950,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-46436" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/4825de5e9c0b1ee8c03bb23ef5587915?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/4825de5e9c0b1ee8c03bb23ef5587915?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://loserforlife.com' rel='external nofollow' class='url'>Marisa @ Loser for Life</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-46436">
 			03/08 at 9:03 pm</a>		</div>
 
@@ -2963,7 +2963,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-46430" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://1.gravatar.com/avatar/ad1dafaa53824d44bfa7ae216f8ed21e?s=60&#038;r=g' srcset='http://1.gravatar.com/avatar/ad1dafaa53824d44bfa7ae216f8ed21e?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://www.savvyeat.com' rel='external nofollow' class='url'>Julie @SavvyEats</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-46430">
 			03/08 at 8:35 pm</a>		</div>
 
@@ -2976,7 +2976,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-47576" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/fde09f7a73c2218c990804c173afc0c3?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/fde09f7a73c2218c990804c173afc0c3?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Jenn</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47576">
 			03/20 at 1:08 am</a>		</div>
 
@@ -2989,7 +2989,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-47610" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/02570ead9e1075a7dbc2738ba1a17775?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn"><a href='http://healthy-delicious.com' rel='external nofollow' class='url'>Lauren</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-47610">
 			03/20 at 9:38 am</a>		</div>
 
@@ -3003,7 +3003,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-49026" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/f568d38b843914b55a54fc96a4c4e152?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/f568d38b843914b55a54fc96a4c4e152?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">neely</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-49026">
 			04/04 at 4:44 pm</a>		</div>
 
@@ -3016,7 +3016,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-60321" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/cdf87f5379fab8d58d4ba6f9a32c3c78?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/cdf87f5379fab8d58d4ba6f9a32c3c78?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Jean kowal</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-60321">
 			06/28 at 9:03 pm</a>		</div>
 
@@ -3029,7 +3029,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-68470" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/82d694f9ad2bf1124d424b61db99f506?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/82d694f9ad2bf1124d424b61db99f506?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Sean</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-68470">
 			08/17 at 10:16 am</a>		</div>
 
@@ -3042,7 +3042,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-68977" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/5066e2ae55b19acd34b89498f39b8736?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/5066e2ae55b19acd34b89498f39b8736?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Lori Reyes</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-68977">
 			08/31 at 2:28 am</a>		</div>
 
@@ -3055,7 +3055,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-70430" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/ca00fdc6b275f57abc6726aefe3f69de?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/ca00fdc6b275f57abc6726aefe3f69de?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Cammy Elder</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-70430">
 			10/10 at 12:51 pm</a>		</div>
 
@@ -3068,7 +3068,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-69765" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/2615a0e5509417ccf1999171a73ced7d?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/2615a0e5509417ccf1999171a73ced7d?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">MandiLynne</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-69765">
 			09/21 at 6:35 pm</a>		</div>
 
@@ -3081,7 +3081,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-70478" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://2.gravatar.com/avatar/54b1cb35f83e0dc75a34eb9077748fba?s=60&#038;r=g' srcset='http://2.gravatar.com/avatar/54b1cb35f83e0dc75a34eb9077748fba?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">janet</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-70478">
 			10/11 at 7:41 pm</a>		</div>
 
@@ -3094,7 +3094,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 				<div id="div-comment-70431" class="comment-body">
 				<div class="comment-author ">
 			<img alt='' src='http://0.gravatar.com/avatar/ca00fdc6b275f57abc6726aefe3f69de?s=60&#038;r=g' srcset='http://0.gravatar.com/avatar/ca00fdc6b275f57abc6726aefe3f69de?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Cammy Elder</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://www.healthy-delicious.com/baked-chicken-and-spinach-flautas/#comment-70431">
 			10/10 at 12:59 pm</a>		</div>
 
@@ -3110,7 +3110,7 @@ I just voted for your pasta recipe &amp; would love to have the recipe as well. 
 																			<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p>							<p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' required='required' /></p>
 <p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-describedby="email-notes" aria-required='true' required='required' /></p>
 <p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30" /></p>
-												<p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8"  aria-required="true" required="required"></textarea></p>						
+												<p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8"  aria-required="true" required="required"></textarea></p>
 						<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='3717' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
 </p><span class="ERComment">
@@ -3190,7 +3190,7 @@ googletag.cmd.push(function() { googletag.display('HealthyDelicious_Sidebar_3_30
 <!-- Widgetizer | Section Template -->
 <section id="widgetizerukk8id1" data-object="PageLinesWidgetizer" data-sid="widgetizer" data-clone="ukk8id1"  class="pl-section span11 offset1    pl-bg-cover section-widgetizer" style="  "><div class="pl-section-pad fix"><ul id="list_cs-6" class="sidebar_widgets fix"><li id="archives-3" class="widget widget_archive"><h2 class="widgettitle">Archives</h2>		<label class="screen-reader-text" for="archives-dropdown-3">Archives</label>
 		<select id="archives-dropdown-3" name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'>
-			
+
 			<option value="">Select Month</option>
 				<option value='http://www.healthy-delicious.com/2015/09/'> September 2015 </option>
 	<option value='http://www.healthy-delicious.com/2015/08/'> August 2015 </option>
@@ -3376,11 +3376,11 @@ googletag.cmd.push(function() { googletag.display('HealthyDelicious_Sidebar_4_30
 			</div>
 				<footer id="footer" class="footer pl-region" data-region="footer">
 		<div class="page-area outline pl-area-container fix">
-		
+
 
 <!-- Canvas Area | Section Template -->
 <section id="pl_areaurqsg9u" data-object="PLSectionArea" data-sid="pl_area" data-clone="urqsg9u"  class="pl-area pl-area-sortable area-tag hd_elsewhere pl-grey   pl-bg-cover section-pl_area" style=" background-color: #FFFFFF; "><div class="pl-area-pad fix">	<div class="pl-area-wrap " style="padding-top: 20px; padding-bottom: 20px;">
-		
+
 		<div class="pl-content nested-section-area">
 						<div class="pl-inner area-region pl-sortable-area editor-row" style="">
 				<div class="row grid-row">
@@ -3388,7 +3388,7 @@ googletag.cmd.push(function() { googletag.display('HealthyDelicious_Sidebar_4_30
 <!-- MediaBox | Section Template -->
 <section id="mediaboxufxdcad" data-object="PageLinesMediaBox" data-sid="mediabox" data-clone="ufxdcad"  class="pl-section span10 offset0    pl-bg-cover section-mediabox" style="  "><div class="pl-section-pad fix"><div class="mediabox-wrap pl-centerer pla-fade pl-animation fix"  style="min-height: 30px">
 				<div class="the-media fitvids pl-centered textleft alignleft ">
-					<img src="http://www.healthy-delicious.com/wp-content/uploads/2014/10/elsewhere_header.png" data-sync="mediabox_image"  alt="" title="" /> 
+					<img src="http://www.healthy-delicious.com/wp-content/uploads/2014/10/elsewhere_header.png" data-sync="mediabox_image"  alt="" title="" />
 					<div class="the-media-html"></div>
 				</div>
 			</div></div></section></div>
@@ -3408,7 +3408,7 @@ googletag.cmd.push(function() { googletag.display('HealthyDelicious_Sidebar_4_30
 
 <!-- Canvas Area | Section Template -->
 <section id="pl_areau06e7d" data-object="PLSectionArea" data-sid="pl_area" data-clone="u06e7d"  class="pl-area pl-area-sortable area-tag hd_footer pl-grey   pl-bg-cover section-pl_area" style="  "><div class="pl-area-pad fix">	<div class="pl-area-wrap " style="padding-top: 20px; padding-bottom: 20px;">
-		
+
 		<div class="pl-content nested-section-area">
 						<div class="pl-inner area-region pl-sortable-area editor-row" style="">
 				<div class="row grid-row">
@@ -3431,10 +3431,10 @@ googletag.cmd.push(function() { googletag.display('HealthyDelicious_In_Footer_72
 	</div></section>		</div>
 	</footer>
 
-				
-		</div>		
+
+		</div>
 	</div>
-		
+
 </div>
 
 <!-- Scripts -->

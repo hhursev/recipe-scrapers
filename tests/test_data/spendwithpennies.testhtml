@@ -99,7 +99,7 @@ window.adthrive.threshold = Math.floor(Math.random() * 100 + 1);
 
 
 <link rel='https://api.w.org/' href='https://www.spendwithpennies.com/wp-json/' />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.spendwithpennies.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.spendwithpennies.com/wp-includes/wlwmanifest.xml" />
 <link rel='shortlink' href='https://www.spendwithpennies.com/?p=60414' />
 <!- Disable Rich Pins -->
 <meta name="pinterest-rich-pin" content="false" />
@@ -116,12 +116,12 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window,document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
- fbq('init', '1997436690581127'); 
+ fbq('init', '1997436690581127');
 fbq('track','PageView')
 }function loadFBEsc(){if(window.scrollY>47)loadFBE()}document.addEventListener('scroll',loadFBEsc);document.addEventListener('mousemove',loadFBE)
 </script>
 <noscript>
- <img height="1" width="1" 
+ <img height="1" width="1"
 src="https://www.facebook.com/tr?id=1997436690581127&ev=PageView
 &noscript=1"/>
 </noscript>
@@ -426,72 +426,72 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
   <polygon fill-rule="evenodd" points="9.829 33.799 23.971 19.657 38.113 33.799 40.942 30.971 23.971 14 7 30.971"/>
 </svg>
 <span>Back to Top</span></a></div><img class="center" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="As Seen On Footer" data-lazy-src="https://www.spendwithpennies.com/wp-content/uploads/2019/10/As-Seen-On-2.png"/><noscript><img class="center" src="https://www.spendwithpennies.com/wp-content/uploads/2019/10/As-Seen-On-2.png" alt="As Seen On Footer"/></noscript>
-<div id="wp_access_helper_container" class="accessability_container dark_theme">
-    <!-- WP Accessibility Helper (WAH) - https://wordpress.org/plugins/wp-accessibility-helper/ -->
-	<!-- Official plugin website - https://accessibility-helper.co.il -->
-        
-            <button type="button" class="wahout aicon_link"
-                accesskey="z"
-                aria-label="Accessibility Helper sidebar"
-                title="Accessibility Helper sidebar">
-                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                    alt="Accessibility" class="aicon_image" data-lazy-src="https://www.spendwithpennies.com/wp-content/plugins/wp-accessibility-helper/assets/images/accessibility-48.jpg" /><noscript><img src="https://www.spendwithpennies.com/wp-content/plugins/wp-accessibility-helper/assets/images/accessibility-48.jpg"
-                    alt="Accessibility" class="aicon_image" /></noscript>
-            </button>
-            <div id="access_container" aria-hidden="false">
-                <button tabindex="-1" type="button" class="close_container wahout"
-                    accesskey="x"
-                    aria-label="Close"
-                    title="Close">
-                    Close
-                </button>
-                <div class="access_container_inner">
-                    <div class="a_module wah_font_resize">
-            <div class="a_module_title">Font Resize</div>
-            <div class="a_module_exe font_resizer">
-                <button tabindex="-1" type="button" class="wah-action-button smaller wahout" title="smaller font size"
-                    aria-label="smaller font size">A-</button>
-                <button tabindex="-1" type="button" class="wah-action-button larger wahout" title="larger font size"
-                    aria-label="larger font size">A+</button>
-            </div>
-        </div><div class="a_module wah_keyboard_navigation">
-            <div class="a_module_exe">
-                <button tabindex="-1" type="button" class="wah-action-button wahout wah-call-keyboard-navigation"
-                aria-label="Keyboard navigation" title="Keyboard navigation">Keyboard navigation</button>
-            </div>
-        </div><div class="a_module wah_clear_cookies">
-            <div class="a_module_exe">
-                <button tabindex="-1" type="button" class="wah-action-button wahout wah-call-clear-cookies"
-                aria-label="Clear cookies" title="Clear cookies">Clear cookies</button>
-            </div>
-        </div>
-                    
-    <button type="button" title="Close sidebar" class="wah-skip close-wah-sidebar">
-        Close
-    </button>
+<div id="wp_access_helper_container" class="accessability_container dark_theme">
+    <!-- WP Accessibility Helper (WAH) - https://wordpress.org/plugins/wp-accessibility-helper/ -->
+	<!-- Official plugin website - https://accessibility-helper.co.il -->
 
-                </div>
-            </div>
-            
-
-
+            <button type="button" class="wahout aicon_link"
+                accesskey="z"
+                aria-label="Accessibility Helper sidebar"
+                title="Accessibility Helper sidebar">
+                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                    alt="Accessibility" class="aicon_image" data-lazy-src="https://www.spendwithpennies.com/wp-content/plugins/wp-accessibility-helper/assets/images/accessibility-48.jpg" /><noscript><img src="https://www.spendwithpennies.com/wp-content/plugins/wp-accessibility-helper/assets/images/accessibility-48.jpg"
+                    alt="Accessibility" class="aicon_image" /></noscript>
+            </button>
+            <div id="access_container" aria-hidden="false">
+                <button tabindex="-1" type="button" class="close_container wahout"
+                    accesskey="x"
+                    aria-label="Close"
+                    title="Close">
+                    Close
+                </button>
+                <div class="access_container_inner">
+                    <div class="a_module wah_font_resize">
+            <div class="a_module_title">Font Resize</div>
+            <div class="a_module_exe font_resizer">
+                <button tabindex="-1" type="button" class="wah-action-button smaller wahout" title="smaller font size"
+                    aria-label="smaller font size">A-</button>
+                <button tabindex="-1" type="button" class="wah-action-button larger wahout" title="larger font size"
+                    aria-label="larger font size">A+</button>
+            </div>
+        </div><div class="a_module wah_keyboard_navigation">
+            <div class="a_module_exe">
+                <button tabindex="-1" type="button" class="wah-action-button wahout wah-call-keyboard-navigation"
+                aria-label="Keyboard navigation" title="Keyboard navigation">Keyboard navigation</button>
+            </div>
+        </div><div class="a_module wah_clear_cookies">
+            <div class="a_module_exe">
+                <button tabindex="-1" type="button" class="wah-action-button wahout wah-call-clear-cookies"
+                aria-label="Clear cookies" title="Clear cookies">Clear cookies</button>
+            </div>
+        </div>
+
+    <button type="button" title="Close sidebar" class="wah-skip close-wah-sidebar">
+        Close
+    </button>
+
+                </div>
+            </div>
+
+
+
 
 <style>
-    
-        @media only screen and (max-width: 480px) {div#wp_access_helper_container {display: none;}}
-    
+
+        @media only screen and (max-width: 480px) {div#wp_access_helper_container {display: none;}}
+
 </style>
     <style media="screen" type="text/css">
         body #wp_access_helper_container button.aicon_link {
                                                 bottom:0px !important;        }
     </style>
-
 
 
 
-        
-    <!-- WP Accessibility Helper. Created by Alex Volkov. -->
-</div>
+
+
+    <!-- WP Accessibility Helper. Created by Alex Volkov. -->
+</div>
 
 
 

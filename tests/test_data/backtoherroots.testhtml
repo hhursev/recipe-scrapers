@@ -9,7 +9,7 @@
       shr.setAttribute('data-cfasync', 'false');
       shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
       shr.type = 'text/javascript'; shr.async = 'true';
-      
+
       shr.onload = shr.onreadystatechange = function() {
         var rs = this.readyState;
         if (rs && rs != 'complete' && rs != 'loaded') return;
@@ -354,7 +354,7 @@ color: #008000;
               <i class="shareaholic-service-icon service-pinterest" ng-style="config.customColorsEnabled ? config.customColors : {}"></i>
               <span class="share-button-verb ng-binding" style="color:#fff !important">
                 <b class="ng-binding">Pin</b>
-                
+
               </span>
             </div>
           </div>
@@ -369,7 +369,7 @@ color: #008000;
               <i class="shareaholic-service-icon service-twitter" ng-style="config.customColorsEnabled ? config.customColors : {}"></i>
               <span class="share-button-verb ng-binding" style="color:#fff !important">
                 <b class="ng-binding">Tweet</b>
-                
+
               </span>
             </div>
           </div>
@@ -384,7 +384,7 @@ color: #008000;
               <i class="shareaholic-service-icon service-facebook" ng-style="config.customColorsEnabled ? config.customColors : {}"></i>
               <span class="share-button-verb ng-binding" style="color:#fff !important">
                 <b class="ng-binding">Share</b>
-                
+
               </span>
             </div>
           </div>
@@ -399,7 +399,7 @@ color: #008000;
               <i class="shareaholic-service-icon service-google_plus" ng-style="config.customColorsEnabled ? config.customColors : {}"></i>
               <span class="share-button-verb ng-binding" style="color:#fff !important">
                 <b class="ng-binding">Share</b>
-                
+
               </span>
             </div>
           </div>
@@ -414,7 +414,7 @@ color: #008000;
               <i class="shareaholic-service-icon service-stumbleupon" ng-style="config.customColorsEnabled ? config.customColors : {}"></i>
               <span class="share-button-verb ng-binding" style="color:#fff !important">
                 <b class="ng-binding">Share</b>
-                
+
               </span>
             </div>
           </div>
@@ -429,7 +429,7 @@ color: #008000;
               <i class="shareaholic-service-icon service-yummly" ng-style="config.customColorsEnabled ? config.customColors : {}"></i>
               <span class="share-button-verb ng-binding" style="color:#fff !important">
                 <b class="ng-binding">Share</b>
-                
+
               </span>
             </div>
           </div>
@@ -444,7 +444,7 @@ color: #008000;
               <i class="shareaholic-service-icon service-email_this" ng-style="config.customColorsEnabled ? config.customColors : {}"></i>
               <span class="share-button-verb ng-binding" style="color:#fff !important">
                 <b class="ng-binding">Mail</b>
-                
+
               </span>
             </div>
           </div>
@@ -458,38 +458,38 @@ color: #008000;
 </div><div style="display: none;"><img class="aligncenter size-full wp-image-20161" src="backtoherroots_files/pin9.jpg" alt="Blue Cornbread" height="2000" width="800"></div><p><img class="aligncenter size-full wp-image-20160" src="backtoherroots_files/IMG_9301.jpg" alt="Blue Cornbread" height="1200" width="800"></p><p>Okay, I know. This bread looks <em>crazy</em>.
  But please, pretty please, don’t let the weird blue color turn you off.
  Blue cornbread is something you absolutely need to make. And yes, it is
- totally different from regular yellow cornbread. And honestly, I think 
-it’s pale blue color is actually kinda fun! It certainly is different 
+ totally different from regular yellow cornbread. And honestly, I think
+it’s pale blue color is actually kinda fun! It certainly is different
 from the run-of-the-mill yellow breads you find on the dinner table.</p><p><img class="aligncenter size-full wp-image-20154" src="backtoherroots_files/IMG_9284.jpg" alt="Blue Cornbread" height="1200" width="800"></p><p>If
- you’ve never worked with blue cornmeal before, I highly recommend 
-seeking some out. Blue cornmeal is much sweeter than regular cornmeal, 
-and it&nbsp;has an intense corn flavor. It actually tastes like fresh 
-sweet corn, which I find absolutely amazing. Blue cornmeal is also 
-nutritionally superior to white or yellow cornmeal. It has 20% more 
-protein than yellow cornmeal and a much lower glycemic index, making it 
+ you’ve never worked with blue cornmeal before, I highly recommend
+seeking some out. Blue cornmeal is much sweeter than regular cornmeal,
+and it&nbsp;has an intense corn flavor. It actually tastes like fresh
+sweet corn, which I find absolutely amazing. Blue cornmeal is also
+nutritionally superior to white or yellow cornmeal. It has 20% more
+protein than yellow cornmeal and a much lower glycemic index, making it
 an even healthier option. Blue cornmeal rocks!</p><p><img class="aligncenter size-full wp-image-20153" src="backtoherroots_files/IMG_9282.jpg" alt="Blue Cornbread" height="1200" width="800"></p><p>This
  recipe&nbsp;results in a crumbly, but moist cornbread with just a touch
- of sweetness. I know in some circles it’s blasphemy to put sugar in 
-cornbread, but I think just a touch goes a long to way to bringing out 
-the natural sweetness of the corn. And then, of course, I go all crazy 
-and drizzle the top with honey. Because cornbread without honey on top 
+ of sweetness. I know in some circles it’s blasphemy to put sugar in
+cornbread, but I think just a touch goes a long to way to bringing out
+the natural sweetness of the corn. And then, of course, I go all crazy
+and drizzle the top with honey. Because cornbread without honey on top
 is just sad.</p><p><img class="aligncenter size-full wp-image-20158" src="backtoherroots_files/IMG_9296.jpg" alt="Blue Cornbread" height="1200" width="800"></p><p>This
- is my go-to cornbread recipe—with blue, white or yellow cornmeal. It 
-turns out perfectly every time, and is highly adaptable. Add in some 
+ is my go-to cornbread recipe—with blue, white or yellow cornmeal. It
+turns out perfectly every time, and is highly adaptable. Add in some
 shredded cheddar cheese, minced jalapeño, or some crumbled bacon. Switch
- out the dairy ingredients for vegan options (I recently made this with 
+ out the dairy ingredients for vegan options (I recently made this with
 soy-free Earth Balance, unsweetened coconut milk, and plain coconut milk
  yogurt, and it turned out perfectly). Bake it in a cast iron skillet or
- pour it into a muffin tin for the most tender and delicious cornmeal 
+ pour it into a muffin tin for the most tender and delicious cornmeal
 muffins you’ve ever had.</p><p>Enjoy!</p><div class="et-box et-shadow"><div class="et-box-content"><div id="zlrecipe-container-34" class="zlrecipe-container-border"><div itemscope="" itemtype="http://schema.org/Recipe" id="zlrecipe-container" class="serif zlrecipe"><div id="zlrecipe-innerdiv"><div class="item b-b"><div class="zlrecipe-print-link fl-r"><a class="print-link" title="Print this recipe" href="javascript:void(0);" onclick="zlrPrint('zlrecipe-container-34', 'http://backtoherroots.com/wp-content/plugins/ziplist-recipe-plugin/'); return false"><img src="backtoherroots_files/print.png"></a></div><div id="zl-recipe-link-34" class="zl-recipe-link fl-r zl-rmvd"></div><div id="zlrecipe-title" itemprop="name" class="b-b h-1 strong">Blue Cornbread</div></div><div class="zlmeta zlclear"><div class="fl-l width-50"><p id="zlrecipe-total-time">Total Time: <span itemprop="totalTime" content="PT25M">25 minutes</span></p></div><div class="fl-l width-50"><p id="zlrecipe-yield">Yield: <span itemprop="recipeYield">8 servings</span></p></div><div class="zlclear"></div></div><div class="img-desc-wrap"><p class="t-a-c hide-card"> <img class="photo" itemprop="image" src="backtoherroots_files/IMG_9301-150x150.jpg" title="Blue Cornbread" alt="Blue Cornbread"></p><div id="zlrecipe-summary" itemprop="description"><p class="summary italic">Blue
- cornmeal is sweeter and has a better nutritional profile than its 
+ cornmeal is sweeter and has a better nutritional profile than its
 yellow and white cousins. Try out blue cornmeal in this moist and tender
  blue cornbread! Adapted from <a href="http://www.dailygarnish.com/2011/05/white-cheddar-yogurt-cornbread.html" class="summary-link" target="_blank">Daily Garnish</a>.</p></div></div><p id="zlrecipe-ingredients" class="h-4 strong">Ingredients</p><ul id="zlrecipe-ingredients-list"><li id="zlrecipe-ingredient-0" class="ingredient" itemprop="ingredients">1 cup finely ground blue cornmeal</li><li id="zlrecipe-ingredient-1" class="ingredient" itemprop="ingredients">3/4 cup all-purpose flour</li><li id="zlrecipe-ingredient-2" class="ingredient" itemprop="ingredients">1/2 teaspoon baking soda</li><li id="zlrecipe-ingredient-3" class="ingredient" itemprop="ingredients">1/2 teaspoon salt</li><li id="zlrecipe-ingredient-4" class="ingredient" itemprop="ingredients">1 cup plain Greek yogurt</li><li id="zlrecipe-ingredient-5" class="ingredient" itemprop="ingredients">2 eggs</li><li id="zlrecipe-ingredient-6" class="ingredient" itemprop="ingredients">1/4 cup melted butter</li><li id="zlrecipe-ingredient-7" class="ingredient" itemprop="ingredients">1/4 cup milk</li><li id="zlrecipe-ingredient-8" class="ingredient" itemprop="ingredients">2 cups frozen corn kernels</li></ul><p id="zlrecipe-instructions" class="h-4 strong">Instructions</p><ol id="zlrecipe-instructions-list" class="instructions"><li id="zlrecipe-instruction-0" class="instruction" itemprop="recipeInstructions">Preheat oven to 375°. In a medium mixing bowl, whisk together the cornmeal, flour, baking soda and salt, set aside.</li><li id="zlrecipe-instruction-1" class="instruction" itemprop="recipeInstructions">In
- a small bowl, whisk together the yogurt, eggs, butter, and milk. Pour 
-into the cornmeal mixture and stir until just combined—do not overmix. 
+ a small bowl, whisk together the yogurt, eggs, butter, and milk. Pour
+into the cornmeal mixture and stir until just combined—do not overmix.
 Fold in the corn kernels.</li><li id="zlrecipe-instruction-2" class="instruction" itemprop="recipeInstructions">Pour
- the batter into a well-seasoned cast iron skillet or a square baking 
-dish. Bake in preheated oven for 15-20 minutes or until the top is 
+ the batter into a well-seasoned cast iron skillet or a square baking
+dish. Bake in preheated oven for 15-20 minutes or until the top is
 golden brown, and a toothpick inserted in the center comes out clean.</li></ol><div class="ziplist-recipe-plugin" style="display: none;">3.1</div><a id="zl-printed-permalink" href="http://backtoherroots.com/2014/09/26/blue-cornbread/" title="Permalink to Recipe">http://backtoherroots.com/2014/09/26/blue-cornbread/</a></div><div id="zl-printed-copyright-statement" itemprop="copyrightHolder">© Back to Her Roots, LLC</div></div></div></div></div><div id="shr_canvas3" class="shareaholic-canvas shareaholic-ui shareaholic-resolved-canvas ng-scope" data-app-id="67202" data-app="share_buttons" data-title="Blue Cornbread" data-link="http://backtoherroots.com/2014/09/26/blue-cornbread/" data-summary=" Okay, I know. This bread looks crazy. But please, pretty please, don't let the weird blue color turn you off. Blue cornbread is something you absolutely need to make. And yes, it is totally different from regular yellow cornbread. And honestly, I think it's pale blue color is actually kinda fun! It certainly is different from the run-of-the-mill yellow breads you find on the dinner table. If you've never worked with blue cornmeal before, I highly recommend seeking some out. Blue cornmeal is much sweeter than regular cornmeal, and it&nbsp;has an intense corn flavor. It actually tastes like fresh sweet corn, which I find absolutely amazing. Blue cornmeal is also nutritionally superior to white or yellow cornmeal. It has 20% more protein than yellow cornmeal and a much lower glycemic index, making it an even healthier option. Blue cornmeal rocks! Get the recipe » "><div class="ng-scope" ng-show="ready" ng-class="containerClasses" ng-controller="AppCtrl as appCtrl" shr-overflow-limit="3" shr-overflow-child=".shareaholic-share-button, .shareaholic-total-count" shr-overflow-last="true" shr-overflow-enabled="" shr-overflow-wiggle="5" shr-auto-size="" shr-auto-size-trigger="3" shr-auto-size-target=".shareaholic-share-button .share-button-sizing, .shareaholic-total-count" shr-auto-size-mobile="config.isMobile" shr-auto-size-min-size="44">
      <div style="top: 15%;" class="shareaholic-share-buttons-container shareaholic-ui flat round     " ng-style="config.verticalOffset ? {top: config.verticalOffset} : {}">
     <div class="shareaholic-share-buttons-wrapper shareaholic-ui">
@@ -513,7 +513,7 @@ golden brown, and a toothpick inserted in the center comes out clean.</li></ol><
               <i class="shareaholic-service-icon service-pinterest" ng-style="config.customColorsEnabled ? config.customColors : {}"></i>
               <span class="share-button-verb ng-binding" style="color:#fff !important">
                 <b class="ng-binding">Pin</b>
-                
+
               </span>
             </div>
           </div>
@@ -528,7 +528,7 @@ golden brown, and a toothpick inserted in the center comes out clean.</li></ol><
               <i class="shareaholic-service-icon service-twitter" ng-style="config.customColorsEnabled ? config.customColors : {}"></i>
               <span class="share-button-verb ng-binding" style="color:#fff !important">
                 <b class="ng-binding">Tweet</b>
-                
+
               </span>
             </div>
           </div>
@@ -543,7 +543,7 @@ golden brown, and a toothpick inserted in the center comes out clean.</li></ol><
               <i class="shareaholic-service-icon service-facebook" ng-style="config.customColorsEnabled ? config.customColors : {}"></i>
               <span class="share-button-verb ng-binding" style="color:#fff !important">
                 <b class="ng-binding">Share</b>
-                
+
               </span>
             </div>
           </div>
@@ -558,7 +558,7 @@ golden brown, and a toothpick inserted in the center comes out clean.</li></ol><
               <i class="shareaholic-service-icon service-google_plus" ng-style="config.customColorsEnabled ? config.customColors : {}"></i>
               <span class="share-button-verb ng-binding" style="color:#fff !important">
                 <b class="ng-binding">Share</b>
-                
+
               </span>
             </div>
           </div>
@@ -573,7 +573,7 @@ golden brown, and a toothpick inserted in the center comes out clean.</li></ol><
               <i class="shareaholic-service-icon service-stumbleupon" ng-style="config.customColorsEnabled ? config.customColors : {}"></i>
               <span class="share-button-verb ng-binding" style="color:#fff !important">
                 <b class="ng-binding">Share</b>
-                
+
               </span>
             </div>
           </div>
@@ -588,7 +588,7 @@ golden brown, and a toothpick inserted in the center comes out clean.</li></ol><
               <i class="shareaholic-service-icon service-yummly" ng-style="config.customColorsEnabled ? config.customColors : {}"></i>
               <span class="share-button-verb ng-binding" style="color:#fff !important">
                 <b class="ng-binding">Share</b>
-                
+
               </span>
             </div>
           </div>
@@ -603,7 +603,7 @@ golden brown, and a toothpick inserted in the center comes out clean.</li></ol><
               <i class="shareaholic-service-icon service-email_this" ng-style="config.customColorsEnabled ? config.customColors : {}"></i>
               <span class="share-button-verb ng-binding" style="color:#fff !important">
                 <b class="ng-binding">Mail</b>
-                
+
               </span>
             </div>
           </div>
@@ -618,7 +618,7 @@ golden brown, and a toothpick inserted in the center comes out clean.</li></ol><
               <i class="shareaholic-service-icon service-all" ng-style="config.customColorsEnabled ? config.customColors : {}"></i>
               <span class="share-button-verb ng-binding" style="color:#fff !important">
                 <b class="ng-binding">Share</b>
-                
+
               </span>
             </div>
           </div>
@@ -634,19 +634,19 @@ golden brown, and a toothpick inserted in the center comes out clean.</li></ol><
  }); </script></div><div class="adthrive-ad" id="BacktoHerRoots_Below_Post_1_300x250"><script type="text/javascript">
  ybotq.push(function () { googletag.cmd.push(function() { googletag.display('BacktoHerRoots_Below_Post_1_300x250'); });
  }); </script></div></div><div class="entry-comments" id="comments"><h3>5 Comments</h3><ol class="comment-list"><li class="comment even thread-even depth-1" id="comment-352101"> <article itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/UserComments"> <header class="comment-header"><p class="comment-author" itemprop="creator" itemscope="itemscope" itemtype="http://schema.org/Person"> <img alt="" src="backtoherroots_files/485a3f0c3036b7a436b4ee06d8686e15.jpeg" srcset="http://1.gravatar.com/avatar/485a3f0c3036b7a436b4ee06d8686e15?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48"><span itemprop="name"><a href="http://molliessprinklesoflife.com/" class="comment-author-link" rel="external nofollow" itemprop="url">Mollie @Sprinkles of Life</a></span> <span class="says">says</span></p><p class="comment-meta"> <time class="comment-time" datetime="2014-09-26T11:54:45+00:00" itemprop="commentTime"><a href="http://backtoherroots.com/2014/09/26/blue-cornbread/#comment-352101" class="comment-time-link" itemprop="url">September 26, 2014 at 11:54 am</a></time></p> </header><div class="comment-content" itemprop="commentText"><p>Looks
- intriguing! Blue corn meal has been added to the grocery list! I love 
+ intriguing! Blue corn meal has been added to the grocery list! I love
 the blue corn chips so now to venture on to the cornbread <img src="backtoherroots_files/1f609.png" alt="😉" draggable="false" class="emoji"></p></div><div class="comment-reply"><a class="comment-reply-link" href="http://backtoherroots.com/2014/09/26/blue-cornbread/?replytocom=352101#respond" onclick='return addComment.moveForm( "comment-352101", "352101", "respond", "20149" )' aria-label="Reply to Mollie @Sprinkles of Life">Reply</a></div> </article></li><li class="comment odd alt thread-odd thread-alt depth-1" id="comment-353246"> <article itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/UserComments"> <header class="comment-header"><p class="comment-author" itemprop="creator" itemscope="itemscope" itemtype="http://schema.org/Person"> <img alt="" src="backtoherroots_files/8dc8af249adc7551a575bdf596256e61.jpeg" srcset="http://2.gravatar.com/avatar/8dc8af249adc7551a575bdf596256e61?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48"><span itemprop="name">Molly</span> <span class="says">says</span></p><p class="comment-meta"> <time class="comment-time" datetime="2014-09-29T22:10:15+00:00" itemprop="commentTime"><a href="http://backtoherroots.com/2014/09/26/blue-cornbread/#comment-353246" class="comment-time-link" itemprop="url">September 29, 2014 at 10:10 pm</a></time></p> </header><div class="comment-content" itemprop="commentText"><p>How
- fun! I’ve never seen blue cornmeal being used in a recipe before. It 
-looks adventurous and fun, but even better – it looks DELICIOUS. Can’t 
+ fun! I’ve never seen blue cornmeal being used in a recipe before. It
+looks adventurous and fun, but even better – it looks DELICIOUS. Can’t
 wait to try out this recipe.</p></div><div class="comment-reply"><a class="comment-reply-link" href="http://backtoherroots.com/2014/09/26/blue-cornbread/?replytocom=353246#respond" onclick='return addComment.moveForm( "comment-353246", "353246", "respond", "20149" )' aria-label="Reply to Molly">Reply</a></div> </article></li><li class="comment even thread-even depth-1" id="comment-414568"> <article itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/UserComments"> <header class="comment-header"><p class="comment-author" itemprop="creator" itemscope="itemscope" itemtype="http://schema.org/Person"> <img alt="" src="backtoherroots_files/d0257c273ccb0066c1add4b34937bca9.jpeg" srcset="http://1.gravatar.com/avatar/d0257c273ccb0066c1add4b34937bca9?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48"><span itemprop="name">Chris Hudson</span> <span class="says">says</span></p><p class="comment-meta"> <time class="comment-time" datetime="2015-06-27T22:43:29+00:00" itemprop="commentTime"><a href="http://backtoherroots.com/2014/09/26/blue-cornbread/#comment-414568" class="comment-time-link" itemprop="url">June 27, 2015 at 10:43 pm</a></time></p> </header><div class="comment-content" itemprop="commentText"><p>I’m
  looking forward to trying this recipe!  I absolutely LOVE cornbread and
  picked up some organic blue cornmeal at our local bakery today.</p></div><div class="comment-reply"><a class="comment-reply-link" href="http://backtoherroots.com/2014/09/26/blue-cornbread/?replytocom=414568#respond" onclick='return addComment.moveForm( "comment-414568", "414568", "respond", "20149" )' aria-label="Reply to Chris Hudson">Reply</a></div> </article><ul class="children"><li class="comment odd alt depth-2" id="comment-415872"> <article itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/UserComments"> <header class="comment-header"><p class="comment-author" itemprop="creator" itemscope="itemscope" itemtype="http://schema.org/Person"> <img alt="" src="backtoherroots_files/d0257c273ccb0066c1add4b34937bca9.jpeg" srcset="http://1.gravatar.com/avatar/d0257c273ccb0066c1add4b34937bca9?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48"><span itemprop="name">tchudson</span> <span class="says">says</span></p><p class="comment-meta"> <time class="comment-time" datetime="2015-07-01T21:45:38+00:00" itemprop="commentTime"><a href="http://backtoherroots.com/2014/09/26/blue-cornbread/#comment-415872" class="comment-time-link" itemprop="url">July 1, 2015 at 9:45 pm</a></time></p> </header><div class="comment-content" itemprop="commentText"><p>A quick question – 10″ or 12″ cast iron skillet?</p></div><div class="comment-reply"><a class="comment-reply-link" href="http://backtoherroots.com/2014/09/26/blue-cornbread/?replytocom=415872#respond" onclick='return addComment.moveForm( "comment-415872", "415872", "respond", "20149" )' aria-label="Reply to tchudson">Reply</a></div> </article><ul class="children"><li class="comment byuser comment-author-backtoherroots bypostauthor even depth-3" id="comment-416278"> <article itemprop="comment" itemscope="itemscope" itemtype="http://schema.org/UserComments"> <header class="comment-header"><p class="comment-author" itemprop="creator" itemscope="itemscope" itemtype="http://schema.org/Person"> <img alt="" src="backtoherroots_files/6af1259f9e892fa4231dcc5fafea41a3_002.jpeg" srcset="http://0.gravatar.com/avatar/6af1259f9e892fa4231dcc5fafea41a3?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48"><span itemprop="name">Cassie</span> <span class="says">says</span></p><p class="comment-meta"> <time class="comment-time" datetime="2015-07-03T08:07:41+00:00" itemprop="commentTime"><a href="http://backtoherroots.com/2014/09/26/blue-cornbread/#comment-416278" class="comment-time-link" itemprop="url">July 3, 2015 at 8:07 am</a></time></p> </header><div class="comment-content" itemprop="commentText"><p>Either is fine!</p></div> </article></li></ul></li></ul></li></ol></div><div id="respond" class="comment-respond"><h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="http://backtoherroots.com/2014/09/26/blue-cornbread/#respond" style="display:none;">Cancel reply</a></small></h3><form action="http://backtoherroots.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate=""><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" size="30" aria-required="true" required="required" type="text"></p><p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" size="30" aria-describedby="email-notes" aria-required="true" required="required" type="email"></p><p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" size="30" type="url"></p><p class="comment-form-comment"><label for="comment">Comment</label><textarea id="comment" name="comment" cols="45" rows="8" aria-describedby="form-allowed-tags" aria-required="true" required="required"></textarea></p><p class="form-allowed-tags" id="form-allowed-tags">You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes: <code>&lt;a
- href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt; 
-&lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del 
-datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;s&gt; 
+ href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt;
+&lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del
+datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;s&gt;
 &lt;strike&gt; &lt;strong&gt; </code></p><p class="form-submit"><input name="submit" id="submit" class="submit" value="Post Comment" type="submit"> <input name="comment_post_ID" value="20149" id="comment_post_ID" type="hidden"> <input name="comment_parent" id="comment_parent" value="0" type="hidden"></p><p style="display: none;"><input id="akismet_comment_nonce" name="akismet_comment_nonce" value="b268669f30" type="hidden"></p><p class="subscribe-question">Would you like to be notified when someone replies to your comment or adds a new one?</p><p><label for="subscribe-reloaded"> <select name="subscribe-reloaded" id="subscribe-reloaded"><option selected="selected" value="none">Don't subscribe</option><option value="yes">All</option><option value="replies">Replies to my comments</option> </select></label></p><p style="display: none;"></p><input id="ak_js" name="ak_js" value="1442072330430" type="hidden"></form></div> </main><aside class="sidebar sidebar-primary widget-area" role="complementary" itemscope="itemscope" itemtype="http://schema.org/WPSideBar"><section id="user-profile-2" class="widget user-profile"><div class="widget-wrap"><h4 class="widget-title widgettitle">Hello, Friends!</h4><p><span class="alignleft"><img alt="" src="backtoherroots_files/6af1259f9e892fa4231dcc5fafea41a3.jpeg" srcset="http://0.gravatar.com/avatar/6af1259f9e892fa4231dcc5fafea41a3?s=250&amp;d=mm&amp;r=g 2x" class="avatar avatar-125 photo" height="125" width="125"></span></p><p><strong>I'm Cassie. </strong>I’m
- a girl living the dream on a small hobby farm in Southern Indiana. 
-Follow along as a I cook healthy food, play in the garden, wrangle 
+ a girl living the dream on a small hobby farm in Southern Indiana.
+Follow along as a I cook healthy food, play in the garden, wrangle
 chickens, and enjoy the (not always) simple country life.</p><p> <a class="pagelink" href="http://backtoherroots.com/about/">More About Me »</a></p></div></section><section id="simple-social-icons-2" class="widget simple-social-icons"><div class="widget-wrap"><h4 class="widget-title widgettitle">Connect</h4><ul class="alignleft"><li class="social-email"><a href="http://backtoherroots.com/contact/" target="_blank"></a></li><li class="social-facebook"><a href="http://facebook.com/backtoherroots" target="_blank"></a></li><li class="social-gplus"><a href="https://plus.google.com/b/117375184363026265972/117375184363026265972/posts" target="_blank"></a></li><li class="social-instagram"><a href="http://www.instagram.com/backtoherroots" target="_blank"></a></li><li class="social-pinterest"><a href="http://pinterest.com/backtoherroots" target="_blank"></a></li><li class="social-rss"><a href="http://feeds.feedburner.com/backtoherroots" target="_blank"></a></li><li class="social-stumbleupon"><a href="http://www.stumbleupon.com/stumbler/backtoherroots" target="_blank"></a></li><li class="social-twitter"><a href="http://twitter.com/backtoherroots" target="_blank"></a></li></ul></div></section><section id="linkcat-52018605" class="widget widget_links"><div class="widget-wrap"><h4 class="widget-title widgettitle">New</h4><ul class="xoxo blogroll"><li><a href="http://backtoherroots.com/about-this-blog/">About This Blog</a></li><li><a href="http://backtoherroots.com/blogging-resources/">Blogging Resources</a></li><li><a href="http://backtoherroots.com/food-philosophy/">Food Philosophy</a></li><li><a href="http://backtoherroots.com/healthy-lunch-ideas/">Healthy Lunch Ideas</a></li><li><a href="http://backtoherroots.com/pantry/">In My Pantry</a></li><li><a href="http://backtoherroots.com/popular-posts/">Popular Posts</a></li><li><a href="http://backtoherroots.com/recipes/">Recipe Index</a></li><li><a href="http://backtoherroots.com/good-reads/">Recommended Reading</a></li><li><a href="http://backtoherroots.com/start-food-blog/">Start A Blog</a></li></ul></div></section> <section id="adthrive_ad_widget-15" class="widget widget_adthrive_ad_widget"><div class="widget-wrap"><div style="text-align: center;"><div class="adthrive-ad" id="BacktoHerRoots_Sidebar_1_ATF_300x250"><script type="text/javascript">
  ybotq.push(function () { googletag.cmd.push(function() { googletag.display('BacktoHerRoots_Sidebar_1_ATF_300x250'); });
  }); </script></div></div></div></section><section id="feedburnerformwidget-2" class="widget widget_feedburnerformwidget"><div class="widget-wrap"><div class="fb-container"><h4 class="widget-title widgettitle">Get Updates Sent to Your Inbox</h4><div class="fbf-text"> Sign up now to receive an email every time a new post is published to Back to Her Roots.</div><form class="fbf-widget" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=backtoherroots', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"> <input class="subscription_email" name="email" placeholder="email address" type="text"><input value="backtoherroots" name="uri" type="hidden"> <input name="loc" value="en_US" type="hidden"> <input class="subscription_btn" value="Subscribe" type="submit"></form></div></div></section> <section id="slipfire-tabber-2" class="widget tabbertabs"><div class="widget-wrap"><div class="tabberlive style1"><ul class="tabbernav"><li class="tabberactive"><a title="Search" href="javascript:void(null);">Search</a></li><li class=""><a title="Categories" href="javascript:void(null);">Categories</a></li><li class=""><a title="Archives" href="javascript:void(null);">Archives</a></li></ul><div title="" id="text-53" class="tabbertab "><h3 class="widget-title section-title">Search</h3><div class="textwidget"><script>
@@ -685,10 +685,10 @@ chickens, and enjoy the (not always) simple country life.</p><p> <a class="pagel
  }); </script></div><div class="adthrive-ad" id="BacktoHerRoots_Sidebar_8_160x600"><script type="text/javascript">
  ybotq.push(function () { googletag.cmd.push(function() { googletag.display('BacktoHerRoots_Sidebar_8_160x600'); });
  }); </script></div></div></div></section><section id="text-72" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">A Little Note</h4><div class="textwidget"><div><p>Many
- links on Back to Her Roots are affiliate links. If you purchase a 
-product after clicking an affiliate link, I receive a small percentage 
-of the sale for referring you, at no extra cost to you. Purchasing 
-through affiliate links is an easy, painless way to help out your 
+ links on Back to Her Roots are affiliate links. If you purchase a
+product after clicking an affiliate link, I receive a small percentage
+of the sale for referring you, at no extra cost to you. Purchasing
+through affiliate links is an easy, painless way to help out your
 favorite bloggers. Thank you so much for your continued support!</p></div></div></div></section><section id="adthrive_ad_widget-16" class="widget widget_adthrive_ad_widget"><div class="widget-wrap"><div style="text-align: center;"><div class="adthrive-ad" id="BacktoHerRoots_Sidebar_9_300x250"><script type="text/javascript">
  ybotq.push(function () { googletag.cmd.push(function() { googletag.display('BacktoHerRoots_Sidebar_9_300x250'); });
  }); </script></div></div></div></section></aside></div></div><div class="footer-widgets"><div class="wrap"><div class="footer-widgets-1 widget-area"><section id="text-43" class="widget widget_text"><div class="widget-wrap"><div class="textwidget"><img class="thanks" src="backtoherroots_files/thanks.png"></div></div></section> <section id="text-40" class="widget widget_text"><div class="widget-wrap"><div class="textwidget"><div class="footer-links"><p>Back to Her Roots is running the <a href="http://www.shareasale.com/r.cfm?b=346198&amp;u=978280&amp;m=28169&amp;urllink=&amp;afftrack=" rel="nofollow" target="_blank">Genesis Framework</a> using the<a href="http://www.shareasale.com/r.cfm?b=563285&amp;u=978280&amp;m=28169&amp;urllink=&amp;afftrack=" rel="nofollow" target="_blank">Foodie Child Theme</a> and is powered by <a href="https://account.acceleratedwp.com/aff.php?aff=003" rel="nofollow" target="_blank">AcceleratedWP</a> managed WordPress hosting.</p></div></div></div></section></div><div class="footer-widgets-2 widget-area"><section id="text-41" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">Legalese</h4><div class="textwidget"><a class="legal" href="http://backtoherroots.com/bylaws/">Bylaws »</a> <a class="legal" href="http://backtoherroots.com/privacy-policy/">Privacy Policy »</a><p><strong>Copyright © 2010–2015—Back to Her Roots, LLC. </strong><br>All photos, recipes, and texts are protected and may not be used or distributed without the permission of the owner.</p><script type="text/javascript" src="backtoherroots_files/load.js"></script><script type="text/javascript" src="backtoherroots_files/common.js"></script><script type="text/javascript" src="backtoherroots_files/U93d3Kl3V7IOW3AcoR6mJxL3ICyx9Dt1.js"></script><a href="http://clevergirlscollective.com/"><img src="backtoherroots_files/invis.png"></a></div></div></section></div><div class="footer-widgets-3 widget-area"><section id="adthrive_ad_widget-12" class="widget widget_adthrive_ad_widget"><div class="widget-wrap"><div style="text-align: center;"><div class="adthrive-ad" id="BacktoHerRoots_In_Footer_728x90"><script type="text/javascript">

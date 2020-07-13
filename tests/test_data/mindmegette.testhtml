@@ -59,7 +59,7 @@
             /* (c)AdOcean 2003-2018 */
             if(typeof ado!=="object"){ado={};ado.config=ado.preview=ado.placement=ado.master=ado.slave=function(){};}
             ado.config({mode: "old", xml: false, characterEncoding: true});
-            ado.preview({enabled: true, emiter: "gemhu.adocean.pl", id: "uESaTC3oo4RWFYK0Pi7N40dYf6fwGW9odHhhEhar3_7.p7"});            
+            ado.preview({enabled: true, emiter: "gemhu.adocean.pl", id: "uESaTC3oo4RWFYK0Pi7N40dYf6fwGW9odHhhEhar3_7.p7"});
         </script>-->
         <!-- Global Site Tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53608820-1"></script>
@@ -436,8 +436,8 @@ var newAdAV = {
 </head>
 
     <body class="recipe-id-48669">
-        
-        
+
+
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N5752H"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -487,23 +487,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 															<li class="husvet-2017">
 					<a  href="/husvet/" >Húsvét</a>
 				</li>
-							            
+
                         <li><a href="/valogatas/toltott-tojas-sonkatekercs-franciasalata-a-legjobb-fogasok-hidegtalhoz-884" data-sponsored-tag="blue">hidegtálak</a></li><li><a href="/valogatas/husveti-sutemenyek-383" data-sponsored-tag="red">Húsvéti sütik</a></li><li><a href="http://www.mindmegette.hu/cimke/gasztrovideo/" data-sponsored-tag="terkep-zold">VIDEÓ</a></li><li><a href="/magazin/fit-percek/" data-sponsored-tag="deep-blue">FIT PERCEK</a></li><li><a href="http://www.mindmegette.hu/mit-eszel-ma-fotozd-le-toltsd-fel-es-nyerj-58487/" data-sponsored-tag="yellow">Nyereményjáték</a></li><li><a href="http://www.mindmegette.hu/p/hazi-pekseg/" data-sponsored-tag="terkep-zold">HÁZI PÉKSÉG</a></li>
 
 <!--
 -->
 
-            
+
             <li><a href="/bejelentkezes">Belépek</a></li>
             <li><a href="/regisztracio">Regisztrálok</a></li>
 
-            
+
             <li class="facebook"><a href="https://www.facebook.com/mindmegette">Mindmegette a Facebookon</a></li>
             <!--<li class="rss"><a href="http://mindmegette.hu/rss/mindmegette.xml">Mindmegette RSS csatornák</a></li>-->
             <li><a href="https://www.pinterest.hu/mindmegettehu/pins/">MME Pinterest</a></li>
         </ul>
-    </div>    
-                    
+    </div>
+
                             <div class="tabs_wrapper">
                 <ul class="off-canvas-list closed" id="tab_receptek">
                 <li><a href="#" class="tab_back">Vissza</a></li>
@@ -517,7 +517,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <li class=""><a href="/valogatas/" >Válogatások</a></li>
                             </ul>
                 </div>
-                                                                                                                                        
+
                             <div class="tabs_wrapper">
                 <ul class="off-canvas-list closed" id="tab_magazin">
                 <li><a href="#" class="tab_back">Vissza</a></li>
@@ -534,10 +534,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <li class=""><a href="/magazin/desszert" >Desszert</a></li>
                             </ul>
                 </div>
-                                                                                                                                                                            
-                                        
-                                        
-                        
+
+
+
+
 </aside>
 <div class="wt mwcms">
 
@@ -548,7 +548,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="row show-for-large-up super_leaderboard">
 	<!-- Goa3 beépítés: 970*90 1 mme egyéb oldalak, 3504748 -->
 <div id="zone_pc_3504748" class="goAdverticum"></div> <!-- 970*90 1 mme egyéb oldalak, 3504748 (adocean) (adocean) (adocean)-->
-</div>	
+</div>
 
 <header id="header2017" class="mwcms block">
 	<div class="content">
@@ -563,7 +563,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<ul>
             			<li class=""><a href="/receptek">Receptek</a>
 				                <ul>
-					
+
 													<li><a href="/kategoria/eloetelek">Előételek</a></li>
 													<li><a href="/kategoria/levesek">Levesek</a></li>
 													<li><a href="/kategoria/foetelek">Főételek</a></li>
@@ -572,12 +572,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 													<li><a href="/receptlista/legfrissebb/kepes">Legfrissebb receptek</a></li>
 													<li><a href="/recept">Véletlen recept</a></li>
 													<li><a href="/valogatas/">Válogatások</a></li>
-											
+
 				</ul>
 							</li>
                                                                                                                     			<li class=""><a href="/magazin">Magazin</a>
 				                <ul>
-					
+
 													<li><a href="/baba-mama">Baba-mama</a></li>
 													<li><a href="/magazin/dietak_1">Diéták</a></li>
 													<li><a href="/magazin/egeszseges">Egészséges</a></li>
@@ -589,7 +589,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 													<li><a href="/magazin/erdekessegek">Érdekes</a></li>
 													<li><a href="/magazin/alapetelek">Alapételek</a></li>
 													<li><a href="/magazin/desszert">Desszert</a></li>
-											
+
 				</ul>
 							</li>
                                                                                                                                                         			<li class=""><a href="/magazin/dietak_1/">Diéták</a>
@@ -629,10 +629,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	});
 </script>
 <nav id="user_nav" class="mwcms wt" data-usri="">
-    
 
 
-    
+
+
     <div class="nav-item fb">
         <span class="icon"></span>
         <div class="dropdown social-dropdown">
@@ -642,7 +642,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </div>
 
-    
+
         <div class="nav-item">
             <a id="header-left-option-1" class="mwcms wwc" href="/regisztracio" data-sponsored-tag="">regisztráció</a>
 
@@ -662,7 +662,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
         </div>
 
-    
+
     <div class="nav-item">
                     <a id="header-left-option-2" class="mwcms wwc" href="/bejelentkezes" data-sponsored-tag="">belépés</a>
 
@@ -693,11 +693,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <p><a href="/regisztracio">Még nem</a> regisztráltál?</p>
             </div>
 
-        
+
     </div>
 
-    
-    
+
+
 </nav>
 <script>
     $(document).ready(function () {
@@ -734,13 +734,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 } else {
                     /* Ha magazin cikkben van és nincs bejelentkezve */
                     if ($("#save-remove-article-button-li").length > 0) {
-                        $("#save-remove-article-button-li").addClass("dropdown");                        
+                        $("#save-remove-article-button-li").addClass("dropdown");
                     }
                 }
             }
         });
     });
-    
+
     /* Magazin cikk mentési státusz lekérdezése */
     function get_article_user_save_status(){
         $.ajax({
@@ -752,7 +752,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     $('.save-remove-article-button').removeClass("icon-save");
                     $('.save-remove-article-button').addClass("icon-remove");
                     $('.save-remove-article-button').html("Eltávolítom");
-                } 
+                }
             }
         });
     }
@@ -806,7 +806,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="recipe-slider left small-12 large-8 xlarge-8 clearfix show-for-small-only">
 
             <div class="main-slider synced-slider">
-                
+
                                         <div class="item">
                             <img src="/images/283/O/tepsis-ceklas.jpg" width="" height="460"/>
                         </div>
@@ -823,7 +823,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
                                                             <div class="no-avatar"><img src="/assets/mme/img/common_images/default_user.png" alt="default user icon"/></div>
-                                    
+
 
             </div>
             <div class="share-buttons show-for-medium-up">
@@ -834,7 +834,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                    ?url=http://www.mindmegette.hu/tepsis-krumpli-ceklaval-es-repaval.recept                   &media=http://www.mindmegette.hu/                   &description=http://www.mindmegette.hu/                   " class="pin-it" data-pin-custom="true"><img src="/assets/mme/img/pinterest.png" /></a>
             </div>
             <div class="info">
-                                
+
                                 <div class="facebook-like"><div class="fb-like" data-href="http://www.mindmegette.hu/tepsis-krumpli-ceklaval-es-repaval.recept" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div></div>
                 <div class="fb-share-button" data-href="http://www.mindmegette.hu/tepsis-krumpli-ceklaval-es-repaval.recept/" data-layout="button" data-size="small" data-mobile-iframe="true"></div>
                 <div class="fb-save" data-uri="http://www.mindmegette.hu/tepsis-krumpli-ceklaval-es-repaval.recept/" data-size="small"></div>
@@ -848,38 +848,38 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="recipe-slider left small-12 large-8 xlarge-8 clearfix show-for-medium-up">
 
             <div class="main-slider synced-slider">
-                
+
                                         <div class="item">
                             <img src="/images/283/O/tepsis-ceklas.jpg" itemprop="photo" width="" height="460"/>
                         </div>
                         <!--recipe_pic_hird-->                            </div>
 
-            
+
                 <div class="details">
 
                                             <span class="time" itemprop="totalTime" content="PT45M"><a><strong>45 perc</strong></a></span>
-                    
+
                                             <span class="difficulty"><a><strong>egyszerű</strong></a></span>
-                    
+
                                             <span class="price"><a><strong>átlagos</strong></a></span>
-                    
+
                                             <span class="portion"><a><strong>4</strong> adag</a></span>
                         <!-- span class="portion"><a><strong><span class="button ingrease-portion portion-button"></span>4<span class="button decrease-portion portion-button"></span></strong> adag</a></span -->
                                     </div>
 
-            
-            
+
+
 
                 <div class="desc-slider synced-slider">
 
-                    
+
                                                 <div class="item">
                                                         </div>
-                            
+
                 </div>
 
-            
-                            
+
+
         </div>
         <div class="right small-12 medium-5 large-4 ingredient-lists-wrapper clearfix">
             <div id="ingredient-lists" >
@@ -907,7 +907,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                                 <li itemprop="ingredient" itemscope itemtype="http://data-vocabulary.org/RecipeIngredient"><span itemprop="name">bors</span></li>
                                 </ul>
                         </div>
-                    </div>                  
+                    </div>
                     <!-- ingr_end -->
                         <div role="tabpanel" aria-hidden="true" class="content" id="panel2-2">
                             <div class="list">
@@ -976,7 +976,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                                                         </span>
                                                 <span class="add-to-cart" data-recipe_id="48669" data-info="  bors"><span class="button"></span></span>
                                             </li>
-                                            
+
                                 </ul>
 
                                 <button class="button expand button-orange" id="cartBtn">Bevásárlólista<span class="cart-items-num"></span></button>
@@ -1001,7 +1001,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                 </div -->
 
-                
+
             </div>
 
                     </div>
@@ -1017,7 +1017,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div data-spklw-widget="widget-56fe8ee324556"></div>
                         <script src="http://widgets.sprinklecontent.com/v2/sprinkle.js" async></script>
                     </div>
-                    
+
                 <div class="small-12 recipe-preparation">
                     <h2>Elkészítés</h2>
                     <ul itemprop="instructions">
@@ -1029,21 +1029,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <h2><a href="http://www.mindmegette.hu/tepsis-csirkecomb-sult-zoldsegekkel.recept/" target="_blank">TEPSIS CSIRKECOMB SÜLT ZÖLDSÉGEKKEL >>><br /><br /></a><a href="http://www.mindmegette.hu/tepsis-krumpli-magyarosan.recept/" target="_blank">TEPSIS KRUMPLI MAGYAROSAN >>><br /><br /></a><a href="http://www.mindmegette.hu/11-szuper-recept-amikor-egyutt-sul-hus-es-koret-57255/" target="_blank">11 SZUPER RECEPT, AMIKOR EGYÜTT SÜL A HÚS ÉS KÖRET >>></a> <br /><a href="http://www.mindmegette.hu/tepsis-krumpli-magyarosan.recept/" target="_blank"><br /></a></h2>
 </li>
 </ol>                    </ul>
-                    
-                    
-                    
+
+
+
                 </div>
                 <div id="kerem-a-facebook-falamra-gomb" class="hide-for-print" style="text-align: center;">
                     <a href="https://www.facebook.com/dialog/share?app_id=1559281357682288&display=popup&href=http://www.mindmegette.hu/tepsis-krumpli-ceklaval-es-repaval.recept&redirect_uri=http://www.mindmegette.hu/tepsis-krumpli-ceklaval-es-repaval.recept" class="facebook-share" onclick="javascript:trackThisEvent( 'Recept','Kattintás','Kérem a recptet a facebook falamra' ); window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
 						return false;"><img src="/assets/mme/img/mme_fb_timeline_share_btn_opt@2x.png?ver=2" data-href="http://www.mindmegette.hu/tepsis-krumpli-ceklaval-es-repaval.recept" width="337" height="33"/></a>
 		</div>
 
-                                
+
                 				<div class="ga-set" id="recept_megjegyzések_után" style="display:block; width: 100%; min-height: 1px;" data-ga-event-category="Recept" data-ga-event-type="Görgetés" data-ga-event-label="Görgetés: Recept megjegyzés alja"></div>
             </div>
 
         </div>
-        
+
         <div style="margin: 20px 0 0 0; display: inline-block; width: 100%;">
             <section class="column higher-landscape-banner"><!-- Goa3 beépítés: 640*360 1 mme egyéb oldalak, 3504951 -->
 <div id="zone_pc_3504951" class="goAdverticum"></div> <!­­-- Goa3 beépítés: 480*120 1 aloldal mindmegette, 2967638 ­­-->
@@ -1051,9 +1051,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!--640*360 1 mme egyéb oldalak, 3504951 (adocean) (adocean) (adocean)-->
         </div>
         <div class="fb-comments hide-for-print" data-href="http://www.mindmegette.hu/tepsis-krumpli-ceklaval-es-repaval.recept/" data-width="100%" data-numposts="15"  data-equalizer></div>
-        
-        
-        
+
+
+
 
 
         <!--extra_recept_footer-->
@@ -1134,7 +1134,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                                                                                                                                                                                                                             <a  href="/kategoria/tipus/egytaletelek" class="recipe-tag ga-cet" data-ga-event-category="Recept" data-ga-event-type="Kattintás" data-ga-event-label="Tag: egytálétel">egytálétel</a>
                                                                                                     <a  href="/kategoria/tipus/koretek" class="recipe-tag ga-cet" data-ga-event-category="Recept" data-ga-event-type="Kattintás" data-ga-event-label="Tag: köret">köret</a>
                                                                                                     <a  href="/kategoria/jelleg/krumplis" class="recipe-tag ga-cet" data-ga-event-category="Recept" data-ga-event-type="Kattintás" data-ga-event-label="Tag: krumplis">krumplis</a>
-                                                
+
                                                 <a  href="/receptlista/tags/tepsis" class="recipe-tag ga-cet" data-ga-event-category="Recept" data-ga-event-type="Kattintás" data-ga-event-label="Tag: tepsis">tepsis</a>
                                     <a  href="/receptlista/tags/ceklas" class="recipe-tag ga-cet" data-ga-event-category="Recept" data-ga-event-type="Kattintás" data-ga-event-label="Tag: céklás">céklás</a>
                                     <a  href="/receptlista/tags/burgonya" class="recipe-tag ga-cet" data-ga-event-category="Recept" data-ga-event-type="Kattintás" data-ga-event-label="Tag: burgonya">burgonya</a>
@@ -1180,7 +1180,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         <span class="separator column hide-for-print" style="margin-bottom:2.1rem;"></span>
         <h2 style="font-family: 'dosissemibold'; color: #9bce11; text-transform: uppercase; font-size: 1.75rem;margin-bottom: 1.875rem; " class="hide-for-print">Ezek is érdekelhetnek</h2>
-        <div class="mwcms wt clearfix hidden-print hide-for-print">           
+        <div class="mwcms wt clearfix hidden-print hide-for-print">
                     <div class="recipe_box small column small-12 large-4 xlarge-3 wwc tbp nopadding-bottom mwcms end hide-for-print" style="">
                 <a href="http://www.mindmegette.hu/sajtos-magvas-rud.recept/?utm_source=www.mindmegette.hu&utm_medium=ottboxcikk&utm_campaign=ott" target="_blank">
                     <!--<span class="thumbnail"><img data-image-size="M" src="https://zoe.mediaworks.hu/public/uploaded_pictures/nwsln_8106_resized.jpg"></span>-->
@@ -1320,7 +1320,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
             </div>
-    
+
     	<section id="comments" class="column small-12 ga-set hide-for-print" data-ga-event-category="Recept" data-ga-event-type="Görgetés" data-ga-event-label="Görgetés: Recept hozzászólások">
         <a name="comments"></a>
             </section>
@@ -1330,10 +1330,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div id="zone_mobile_2967636" class="goAdverticum"></div></section>
 <!--640*360 3 mme egyéb oldalak, 3504953 (adocean) (adocean) (adocean)-->
 
-    
+
 </section>
 <section class="sidebar  column xlarge-3 show-for-xlarge-up">
-    
+
 <div class="column toplist medium-6 large-12 show-for-medium-up mwcms wt">
     <h3>Toplista</h3>
     <a class="mwcms wwc" href="/valogatas/mindenfele-fank-519" data-sponsored-tag="">Fánk</a>
@@ -1366,7 +1366,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             section.sidebar .full-width-thumb > .sidebar-block figure { padding: .625rem .625rem 0.225rem .625rem; }
             section.sidebar .full-width-thumb > .sidebar-block .thumbnail { margin-bottom: .5rem; }
             section.sidebar .full-width-thumb > .sidebar-block h3,
-            section.sidebar .full-width-thumb > .sidebar-block h4 { 
+            section.sidebar .full-width-thumb > .sidebar-block h4 {
                 text-align: left;
                 font-size: 0.85rem;
                 line-height: 1.1rem;
@@ -1379,8 +1379,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <h3>Ajánlatok</h3>
         </div>
 
-                    <a href="/tizenegyfele-sonkaval-varja-a-husvetot-a-lidl-58583" class="full-width-thumb ga-cet" data-ga-event-category="Sidebar" 
-                data-ga-event-type="Kattintás" 
+                    <a href="/tizenegyfele-sonkaval-varja-a-husvetot-a-lidl-58583" class="full-width-thumb ga-cet" data-ga-event-category="Sidebar"
+                data-ga-event-type="Kattintás"
                 data-ga-event-label="Tizenegyféle sonkával várja a húsvétot a Lidl"
                 data-ga-event-counter="1">
                 <div class="sidebar-block column small-12">
@@ -1594,12 +1594,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .7} 
+  from {opacity: .7}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .7} 
+  from {opacity: .7}
   to {opacity: 1}
 }
 
@@ -1626,7 +1626,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 /* ASTRONET SPECIALÍTÁSOK */
 
-.site-astronet-staging-mediaworks-hu.mw-showrss, 
+.site-astronet-staging-mediaworks-hu.mw-showrss,
 .site-www-astronet-hu.mw-showrss {margin: 0 -10px -12px -10px;background-color: #edf1f2;}
 .site-astronet-staging-mediaworks-hu.mw-showrss .feed-item,
 .site-www-astronet-hu.mw-showrss .feed-item {margin-left: 0;}
@@ -1648,7 +1648,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 .site-astronet-staging-mediaworks-hu .feed-item .title:hover,
 .site-www-astronet-hu .feed-item .title:hover {color: #ff0036;}
 
-.site-astronet-staging-mediaworks-hu.mw-mmenapimenu .feed-item .thumbnail, 
+.site-astronet-staging-mediaworks-hu.mw-mmenapimenu .feed-item .thumbnail,
 .site-www-astronet-hu.mw-mmenapimenu .feed-item .thumbnail {
 	border-right: 10px solid #edf1f2;
 }
@@ -1668,7 +1668,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <script>
-/* 
+/*
  * mw-showrss-shortcode javascript functions
  * @since 1.4.0 - rssslider functions
  */
@@ -1682,31 +1682,31 @@ rssSLIDERS.animCounter;
 rssSLIDERS.initSliders = function() {
 	var i;
 	var sliders = document.getElementsByClassName("rssSlider-container");
-	
+
 	for (i=1; i <= sliders.length; i++) {
 		//első képet bekapcsoljuk
 		this.showSlides( this.slideIndex[i] = 1, i);
-		
+
 		this.animate[i] = (typeof(sliders[i-1].dataset.animated) !== 'undefined') ?
 			parseInt( sliders[i-1].dataset.animated ) :
 			0;
 	}
-	
+
 	this.animCounter = 0;
 	this.animateSlides();
 }
 
 rssSLIDERS.animateSlides = function() {
 	var i;
-	
+
 	for (i=1; i<this.animate.length; i++) {
 		if ( this.animate[i] !== 0 && (this.animCounter % this.animate[i]) === 0 ) {
 			this.plusSlides(1, i);
 		}
 	}
-	
+
 	this.animCounter++;
-	
+
 	setTimeout( function() {rssSLIDERS.animateSlides();}, 1000 );
 }
 
@@ -1723,34 +1723,34 @@ rssSLIDERS.setCurrentSlide = function(n, instance) {
 
 /**
  * Adott n-edik slide-ra áll az instance-edik slideren.
- * 
+ *
  * @param int n
  * @param int instance
  * @returns void
  */
 rssSLIDERS.showSlides = function(n, instance) {
-	
+
   var i;
-  
+
   var slides = document.getElementsByClassName("rssSlides rssSlider-"+instance);
   var dots = document.getElementsByClassName("dot rssSlider-"+instance);
-  
-  if (n > slides.length) { this.slideIndex[instance] = 1} 
+
+  if (n > slides.length) { this.slideIndex[instance] = 1}
   if (n < 1) { this.slideIndex[instance] = slides.length}
-  
+
   for (i = 0; i < slides.length; i++) {
       //slides[i].style.display = "none";
 	  slides[i].className = slides[i].className.replace(" active", "");
   }
-  
+
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  
-  //slides[this.slideIndex[instance] - 1].style.display = "block"; 
+
+  //slides[this.slideIndex[instance] - 1].style.display = "block";
   slides[this.slideIndex[instance] - 1].className += " active";
   dots[this.slideIndex[instance] - 1].className += " active";
-  
+
 }
 
 // RUN
@@ -1766,8 +1766,8 @@ rssSLIDERS.initSliders();
 <div class="column toplist medium-6 large-12 show-for-medium-up mwcms wt ga-set" id="sidebar_friss_receptek_1" style="padding-bottom:0; display: inline-block;" data-ga-event-category="Sidebar" data-ga-event-type="Görgetés" data-ga-event-label="Friss receptek 1">
     <h3>Friss receptjeink</h3>
 </div>
-		<a href="/sonkas-sajtos-szendvics-leveles-tesztabol.recept" class="ga-cet" data-ga-event-category="Sidebar" 
-			data-ga-event-type="Kattintás" 
+		<a href="/sonkas-sajtos-szendvics-leveles-tesztabol.recept" class="ga-cet" data-ga-event-category="Sidebar"
+			data-ga-event-type="Kattintás"
 			data-ga-event-label="Sonkás-sajtos szendvics leveles tésztából"
 			data-ga-event-counter="1">
             <div class="sidebar-block column small-12">
@@ -1780,8 +1780,8 @@ rssSLIDERS.initSliders();
                 </figure>
             </div>
         </a>
-        		<a href="/rizses-hus-maskepp.recept" class="ga-cet" data-ga-event-category="Sidebar" 
-			data-ga-event-type="Kattintás" 
+        		<a href="/rizses-hus-maskepp.recept" class="ga-cet" data-ga-event-category="Sidebar"
+			data-ga-event-type="Kattintás"
 			data-ga-event-label="Rizses hús másképp"
 			data-ga-event-counter="2">
             <div class="sidebar-block column small-12">
@@ -1794,8 +1794,8 @@ rssSLIDERS.initSliders();
                 </figure>
             </div>
         </a>
-        		<a href="/husveti-sonkas-koszoru-leveles-tesztabol.recept" class="ga-cet" data-ga-event-category="Sidebar" 
-			data-ga-event-type="Kattintás" 
+        		<a href="/husveti-sonkas-koszoru-leveles-tesztabol.recept" class="ga-cet" data-ga-event-category="Sidebar"
+			data-ga-event-type="Kattintás"
 			data-ga-event-label="Húsvéti sonkás koszorú leveles tésztából"
 			data-ga-event-counter="3">
             <div class="sidebar-block column small-12">
@@ -1808,8 +1808,8 @@ rssSLIDERS.initSliders();
                 </figure>
             </div>
         </a>
-        		<a href="/zurek-kiados-lengyel-burgonyaleves.recept" class="ga-cet" data-ga-event-category="Sidebar" 
-			data-ga-event-type="Kattintás" 
+        		<a href="/zurek-kiados-lengyel-burgonyaleves.recept" class="ga-cet" data-ga-event-category="Sidebar"
+			data-ga-event-type="Kattintás"
 			data-ga-event-label="Zurek – Kiadós lengyel burgonyaleves"
 			data-ga-event-counter="4">
             <div class="sidebar-block column small-12">
@@ -1822,8 +1822,8 @@ rssSLIDERS.initSliders();
                 </figure>
             </div>
         </a>
-        		<a href="/legfinomabb-sajtos-krumplis-pogacsa.recept" class="ga-cet" data-ga-event-category="Sidebar" 
-			data-ga-event-type="Kattintás" 
+        		<a href="/legfinomabb-sajtos-krumplis-pogacsa.recept" class="ga-cet" data-ga-event-category="Sidebar"
+			data-ga-event-type="Kattintás"
 			data-ga-event-label="Legfinomabb sajtos-krumplis pogácsa"
 			data-ga-event-counter="5">
             <div class="sidebar-block column small-12">
@@ -1836,7 +1836,7 @@ rssSLIDERS.initSliders();
                 </figure>
             </div>
         </a>
-        
+
 
 <div class="side-wrapper clearfix sidebar-recipes ga-set" id="sidebar_friss_receptek_2" style="display: inline-block;" data-ga-event-category="Sidebar" data-ga-event-type="Görgetés" data-ga-event-label="Friss receptek 2">
             <div class="ads_box left small-12" style="padding-bottom: 3rem;">
@@ -1844,9 +1844,9 @@ rssSLIDERS.initSliders();
 <div id="zone_pc_3504955" class="goAdverticum"></div> <!--300*250 2 mme egyéb oldalak, 3504955 (adocean) (adocean) (adocean)-->
         </div>
 
-        
-				<a href="/csavart-sajtot-rud.recept" class="ga-cet" data-ga-event-category="Sidebar" 
-					data-ga-event-type="Kattintás" 
+
+				<a href="/csavart-sajtot-rud.recept" class="ga-cet" data-ga-event-category="Sidebar"
+					data-ga-event-type="Kattintás"
 					data-ga-event-label="Csavart sajtos rúd"
 					data-ga-event-counter="6">
                     <div class="sidebar-block column small-12">
@@ -1859,9 +1859,9 @@ rssSLIDERS.initSliders();
                         </figure>
                     </div>
                 </a>
-                
-				<a href="/daras-kremes.recept" class="ga-cet" data-ga-event-category="Sidebar" 
-					data-ga-event-type="Kattintás" 
+
+				<a href="/daras-kremes.recept" class="ga-cet" data-ga-event-category="Sidebar"
+					data-ga-event-type="Kattintás"
 					data-ga-event-label="Darás krémes"
 					data-ga-event-counter="7">
                     <div class="sidebar-block column small-12">
@@ -1874,9 +1874,9 @@ rssSLIDERS.initSliders();
                         </figure>
                     </div>
                 </a>
-                
-				<a href="/tejszines-zoldseges-teszta.recept" class="ga-cet" data-ga-event-category="Sidebar" 
-					data-ga-event-type="Kattintás" 
+
+				<a href="/tejszines-zoldseges-teszta.recept" class="ga-cet" data-ga-event-category="Sidebar"
+					data-ga-event-type="Kattintás"
 					data-ga-event-label="Tejszínes-zöldséges tészta "
 					data-ga-event-counter="8">
                     <div class="sidebar-block column small-12">
@@ -1889,9 +1889,9 @@ rssSLIDERS.initSliders();
                         </figure>
                     </div>
                 </a>
-                
-				<a href="/gyors-minestrone.recept" class="ga-cet" data-ga-event-category="Sidebar" 
-					data-ga-event-type="Kattintás" 
+
+				<a href="/gyors-minestrone.recept" class="ga-cet" data-ga-event-category="Sidebar"
+					data-ga-event-type="Kattintás"
 					data-ga-event-label="Gyors minestrone"
 					data-ga-event-counter="9">
                     <div class="sidebar-block column small-12">
@@ -1904,9 +1904,9 @@ rssSLIDERS.initSliders();
                         </figure>
                     </div>
                 </a>
-                
-				<a href="/gyors-turos-kevert-suti.recept" class="ga-cet" data-ga-event-category="Sidebar" 
-					data-ga-event-type="Kattintás" 
+
+				<a href="/gyors-turos-kevert-suti.recept" class="ga-cet" data-ga-event-category="Sidebar"
+					data-ga-event-type="Kattintás"
 					data-ga-event-label="Gyors túrós kevert süti"
 					data-ga-event-counter="10">
                     <div class="sidebar-block column small-12">
@@ -1919,7 +1919,7 @@ rssSLIDERS.initSliders();
                         </figure>
                     </div>
                 </a>
-                
+
         <div class="mwcms wt">
 			<div class="laku-3articles-slider-box">
 				<div class="l3sb-header">
@@ -1942,14 +1942,14 @@ rssSLIDERS.initSliders();
 						<h2 class="l3sb-title"><a href="http://www.lakaskultura.hu/?p=101822" target="_blank">Lakjuk be a teraszt! 5 tipp, hogy még hangulatosabb legyen</a></h2>
 						<span class="l3sb-lead">Kezdetét vette a teraszszezon! Itt az ideje, hogy átalakítsuk otthonunk kültéri részeit, és élvezzük a szabadban töltött pillanatokat.</span>
 					</li>
-						
+
 				</ul>
 				<a href="http://www.lakaskultura.hu/dekoracio" target="_blank"><span class="l3sb-more-article-button">Olvasson tovább a dekorációról</span></a>
 			</div>
 
 </div>
-        			
-			
+
+
 			<div class="astronet-slider-box show-for-xlarge-up mwcms wt ga-set" id="sidebar_astronet_widget" data-ga-event-category="Sidebar" data-ga-event-type="Görgetés" data-ga-event-label="Astronet widget">
 				<div class="asb-header">
 					<img src="/assets/mme/img/astronet_box/astronet_logo.png" />
@@ -1957,7 +1957,7 @@ rssSLIDERS.initSliders();
 				</div>
 				<ul class="bxslider astro">
 					<li>
-					<a href="http://www.astronet.hu/horoszkop/kos-napi-horoszkop/2020-aprilis-04">	
+					<a href="http://www.astronet.hu/horoszkop/kos-napi-horoszkop/2020-aprilis-04">
 						<div class="asb-main">
 							<span class="asb-title">Kos</span>
 							<span class="asb-date">Március 21. - Április 19.</span>
@@ -1966,7 +1966,7 @@ rssSLIDERS.initSliders();
 					</a>
 				</li>
 				<li>
-					<a href="http://www.astronet.hu/horoszkop/bika-napi-horoszkop/2020-aprilis-04">	
+					<a href="http://www.astronet.hu/horoszkop/bika-napi-horoszkop/2020-aprilis-04">
 						<div class="asb-main">
 							<span class="asb-title">Bika</span>
 							<span class="asb-date">Április 20. - Május 20.</span>
@@ -1975,7 +1975,7 @@ rssSLIDERS.initSliders();
 					</a>
 				</li>
 				<li>
-					<a href="http://www.astronet.hu/horoszkop/ikrek-napi-horoszkop/2020-aprilis-04">	
+					<a href="http://www.astronet.hu/horoszkop/ikrek-napi-horoszkop/2020-aprilis-04">
 						<div class="asb-main">
 							<span class="asb-title">Ikrek</span>
 							<span class="asb-date">Május 22. - Június 21.</span>
@@ -1984,7 +1984,7 @@ rssSLIDERS.initSliders();
 					</a>
 				</li>
 				<li>
-					<a href="http://www.astronet.hu/horoszkop/rak-napi-horoszkop/2020-aprilis-04">	
+					<a href="http://www.astronet.hu/horoszkop/rak-napi-horoszkop/2020-aprilis-04">
 						<div class="asb-main">
 							<span class="asb-title">Rák</span>
 							<span class="asb-date">Június 22. - Július 22.</span>
@@ -1993,7 +1993,7 @@ rssSLIDERS.initSliders();
 					</a>
 				</li>
 				<li>
-					<a href="http://www.astronet.hu/horoszkop/oroszlan-napi-horoszkop/2020-aprilis-04">	
+					<a href="http://www.astronet.hu/horoszkop/oroszlan-napi-horoszkop/2020-aprilis-04">
 						<div class="asb-main">
 							<span class="asb-title">Oroszlán</span>
 							<span class="asb-date">Július 23. - Augusztus 23.</span>
@@ -2002,7 +2002,7 @@ rssSLIDERS.initSliders();
 					</a>
 				</li>
 				<li>
-					<a href="http://www.astronet.hu/horoszkop/szuz-napi-horoszkop/2020-aprilis-04">	
+					<a href="http://www.astronet.hu/horoszkop/szuz-napi-horoszkop/2020-aprilis-04">
 						<div class="asb-main">
 							<span class="asb-title">Szűz</span>
 							<span class="asb-date">Augusztus 24. - Szeptember 22.</span>
@@ -2011,7 +2011,7 @@ rssSLIDERS.initSliders();
 					</a>
 				</li>
 				<li>
-					<a href="http://www.astronet.hu/horoszkop/merleg-napi-horoszkop/2020-aprilis-04">	
+					<a href="http://www.astronet.hu/horoszkop/merleg-napi-horoszkop/2020-aprilis-04">
 						<div class="asb-main">
 							<span class="asb-title">Mérleg</span>
 							<span class="asb-date">Szeptember 23. - Október 23.</span>
@@ -2020,7 +2020,7 @@ rssSLIDERS.initSliders();
 					</a>
 				</li>
 				<li>
-					<a href="http://www.astronet.hu/horoszkop/skorpio-napi-horoszkop/2020-aprilis-04">	
+					<a href="http://www.astronet.hu/horoszkop/skorpio-napi-horoszkop/2020-aprilis-04">
 						<div class="asb-main">
 							<span class="asb-title">Skorpió</span>
 							<span class="asb-date">Október 24. - November 22.</span>
@@ -2029,7 +2029,7 @@ rssSLIDERS.initSliders();
 					</a>
 				</li>
 				<li>
-					<a href="http://www.astronet.hu/horoszkop/nyilas-napi-horoszkop/2020-aprilis-04">	
+					<a href="http://www.astronet.hu/horoszkop/nyilas-napi-horoszkop/2020-aprilis-04">
 						<div class="asb-main">
 							<span class="asb-title">Nyilas</span>
 							<span class="asb-date">November 23. - December 21.</span>
@@ -2038,7 +2038,7 @@ rssSLIDERS.initSliders();
 					</a>
 				</li>
 				<li>
-					<a href="http://www.astronet.hu/horoszkop/bak-napi-horoszkop/2020-aprilis-04">	
+					<a href="http://www.astronet.hu/horoszkop/bak-napi-horoszkop/2020-aprilis-04">
 						<div class="asb-main">
 							<span class="asb-title">Bak</span>
 							<span class="asb-date">December 22. - Január 20.</span>
@@ -2047,7 +2047,7 @@ rssSLIDERS.initSliders();
 					</a>
 				</li>
 				<li>
-					<a href="http://www.astronet.hu/horoszkop/vizonto-napi-horoszkop/2020-aprilis-04">	
+					<a href="http://www.astronet.hu/horoszkop/vizonto-napi-horoszkop/2020-aprilis-04">
 						<div class="asb-main">
 							<span class="asb-title">Vízöntő</span>
 							<span class="asb-date">Január 21. - Február 19.</span>
@@ -2056,7 +2056,7 @@ rssSLIDERS.initSliders();
 					</a>
 				</li>
 				<li>
-					<a href="http://www.astronet.hu/horoszkop/halak-napi-horoszkop/2020-aprilis-04">	
+					<a href="http://www.astronet.hu/horoszkop/halak-napi-horoszkop/2020-aprilis-04">
 						<div class="asb-main">
 							<span class="asb-title">Halak</span>
 							<span class="asb-date">Február 20. - Március 20.</span>
@@ -2067,9 +2067,9 @@ rssSLIDERS.initSliders();
 				</ul>
 				<a href="http://www.astronet.hu/"><span class="asb-more-article-button">Tovább az Astronet-re</span></a>
 			</div>
-		
 
-        
+
+
 </div>
 <div class="ads_box left small-12" style="padding-bottom: 3rem;">
 <!-- Goa3 beépítés: 300*250 3 mme egyéb oldalak, 3504956 -->
@@ -2100,11 +2100,11 @@ rssSLIDERS.initSliders();
 </section>
 
 <section id="similar_recipes" class="column ga-set hide-for-print" data-equalizer  data-ga-event-category="Recept" data-ga-event-type="Görgetés" data-ga-event-label="Görgetés: Recept hasonló">
-    
+
             <div class="column small-12 section-header">
             <h3 class="text-center">Hasonló Receptek</h3>
         </div>
-        
+
             <div class="similar-recipe-item end column small-12 tbp medium-4 xlarge-3 ">
                 <a href="/rizses-hus-maskepp.recept">
                     <figure class="clearfix" data-equalizer-watch>
@@ -2129,7 +2129,7 @@ rssSLIDERS.initSliders();
                 </a>
             </div>
 
-            
+
             <div class="similar-recipe-item end column small-12 tbp medium-4 xlarge-3 ">
                 <a href="/tojasos-nudli.recept">
                     <figure class="clearfix" data-equalizer-watch>
@@ -2154,7 +2154,7 @@ rssSLIDERS.initSliders();
                 </a>
             </div>
 
-            
+
             <div class="similar-recipe-item end column small-12 tbp medium-4 xlarge-3 ">
                 <a href="/sajtos-burgonyas-csoda.recept">
                     <figure class="clearfix" data-equalizer-watch>
@@ -2179,7 +2179,7 @@ rssSLIDERS.initSliders();
                 </a>
             </div>
 
-            
+
             <div class="similar-recipe-item end column small-12 tbp medium-4 xlarge-3 ">
                 <a href="/tepsis-csirke-zoldseggel.recept">
                     <figure class="clearfix" data-equalizer-watch>
@@ -2204,7 +2204,7 @@ rssSLIDERS.initSliders();
                 </a>
             </div>
 
-            
+
             <div class="similar-recipe-item end column small-12 tbp medium-4 xlarge-3 ">
                 <a href="/bolognai-lasagne-ahogy-gaspar-bea-kesziti.recept">
                     <figure class="clearfix" data-equalizer-watch>
@@ -2229,7 +2229,7 @@ rssSLIDERS.initSliders();
                 </a>
             </div>
 
-            
+
             <div class="similar-recipe-item end column small-12 tbp medium-4 xlarge-3 ">
                 <a href="/rakott-gombapaprikas.recept">
                     <figure class="clearfix" data-equalizer-watch>
@@ -2254,7 +2254,7 @@ rssSLIDERS.initSliders();
                 </a>
             </div>
 
-            
+
             <div class="similar-recipe-item end column small-12 tbp medium-4 xlarge-3 ">
                 <a href="/medvehagymas-rakott-penne.recept">
                     <figure class="clearfix" data-equalizer-watch>
@@ -2279,7 +2279,7 @@ rssSLIDERS.initSliders();
                 </a>
             </div>
 
-            
+
             <div class="similar-recipe-item end column small-12 tbp medium-4 xlarge-3 ">
                 <a href="/klasszikus-rakott-kel-pulykahussal.recept">
                     <figure class="clearfix" data-equalizer-watch>
@@ -2373,7 +2373,7 @@ rssSLIDERS.initSliders();
                     if (e.clientY <= 11 && exit_layer_showed == 0) {
                         $('#fadeandscale').popup('show');
 						/* 2018.01.30. - Patony */
-						trackThisEvent('Fejléc', 'Kattintás', 'Layer betöltés'); 
+						trackThisEvent('Fejléc', 'Kattintás', 'Layer betöltés');
                         exit_layer_showed = 1;
                         document.cookie = "exit_popup_layer=1; expires=Sat, 04 Apr 2020 09:24:32 GMT; path=/";
                     }
@@ -2428,7 +2428,7 @@ $('.strossle-block').hide();    });
                                                                                                                                                                                                                                                                                                                                     <a  href="/kategoria/tipus/egytaletelek" class="recipe-tag ga-cet" data-ga-event-category="Fejléc" data-ga-event-type="Kattintás" data-ga-event-label="Layer címke: egytálétel">egytálétel</a>
                                                                                                                         <a  href="/kategoria/tipus/koretek" class="recipe-tag ga-cet" data-ga-event-category="Fejléc" data-ga-event-type="Kattintás" data-ga-event-label="Layer címke: köret">köret</a>
                                                                                                                         <a  href="/kategoria/jelleg/krumplis" class="recipe-tag ga-cet" data-ga-event-category="Fejléc" data-ga-event-type="Kattintás" data-ga-event-label="Layer címke: krumplis">krumplis</a>
-                                                            
+
                                                             <a  href="/receptlista/tags/tepsis" class="recipe-tag ga-cet" data-ga-event-category="Fejléc" data-ga-event-type="Kattintás" data-ga-event-label="Layer címke: tepsis">tepsis</a>
                                             <a  href="/receptlista/tags/ceklas" class="recipe-tag ga-cet" data-ga-event-category="Fejléc" data-ga-event-type="Kattintás" data-ga-event-label="Layer címke: céklás">céklás</a>
                                             <a  href="/receptlista/tags/burgonya" class="recipe-tag ga-cet" data-ga-event-category="Fejléc" data-ga-event-type="Kattintás" data-ga-event-label="Layer címke: burgonya">burgonya</a>
@@ -2462,7 +2462,7 @@ $('.strossle-block').hide();    });
         #fadeandscale{
             display:none;
         }
-	
+
 	@media print {
                 .hide-for-print{
                     display: none !important;
@@ -2473,18 +2473,18 @@ $('.strossle-block').hide();    });
 		.fb_iframe_widget, .recipe-preparation > ul > h2, .recipe-preparation > ul > ol > li > h2 {
 			display: none;
 		}
-		
+
 		h1.title {
 			color: #000;
 			margin-top: 2rem;
 		}
-		
+
 		#print-mme-logo { display: block !important;width: 97px; height: 97px;
 			background: url(/assets/mme/img/header-2017-sprite.png) no-repeat;
 			background-position: 0px 0px; }
 		}
-		
-		
+
+
 </style>
 
 
@@ -2782,82 +2782,82 @@ $('.strossle-block').hide();    });
 <div class="mwcms block">
 	<div class="mwcms blockplaceholder" data-id="1">
                 <div id="zone_pc_5987445" class="goAdverticum autoHeight" style="display: inline-block;"></div>
-            
+
 <a name="piacter"></a>
 <div class="mw_shopmodule show-for-large-up wt mwcms">
     <div class="container row">
         <div id="piacter" class="title">Mindmegette Piactér</div>
         <div class="row_products clearfix">
             			<a target="_blank" href="http://shopmodul.mediaworks.hu/stat/4ea06fbc83cdd0a06020c35d50e1e89a">
-			<div class="block_imageproduct">			
+			<div class="block_imageproduct">
 				<div class="product_title">
 					<div class="wrapper">
-						Fanny Konyha											</div>			
+						Fanny Konyha											</div>
 				</div>
 									<div class="product_footer">
 						<div class="highlight">
 							Az aktuális lapszám már az újságárusoknál!						</div>
 						<div>
 							Az adventi sütemények, a legfinomabb vadételek kipróbált receptjei, és a szezon finomságai most a legújabb Fanny Konyhában! Csak 285 forint!						</div>
-					</div>					
+					</div>
 					<div class="product_image_overlay"></div>
 							<div class="product_image" style="background: url('/shopmodul/kepek/fk_web.jpg');"></div>
 		</div>
 		</a>
-	
+
 			<a target="_blank" href="http://shopmodul.mediaworks.hu/stat/b7ee6f5f9aa5cd17ca1aea43ce848496">
-			<div class="block_imageproduct">			
+			<div class="block_imageproduct">
 				<div class="product_title">
 					<div class="wrapper">
-						Ínyenc											</div>			
+						Ínyenc											</div>
 				</div>
 									<div class="product_footer">
 						<div class="highlight">
 							Az aktuális lapszám már az újságárusoknál!						</div>
 						<div>
 							Főzzön velünk! Menüsor -akár húsmentesen is-, vendégváró falatok, aprósütemény-kavalkád a legújabb lapszámban! 						</div>
-					</div>					
+					</div>
 					<div class="product_image_overlay"></div>
 							<div class="product_image" style="background: url('/shopmodul/kepek/inyenc.jpg');"></div>
 		</div>
 		</a>
-	
+
 			<a target="_blank" href="http://shopmodul.mediaworks.hu/stat/e57c6b956a6521b28495f2886ca0977a">
-			<div class="block_imageproduct">			
+			<div class="block_imageproduct">
 				<div class="product_title">
 					<div class="wrapper">
-						Édes Élet											</div>			
+						Édes Élet											</div>
 				</div>
 									<div class="product_footer">
 						<div class="highlight">
 							Az aktuális lapszám már az újságárusoknál!						</div>
 						<div>
 							Mindenki megtalálja a legfinomabb vagy épp legkönnyebben elkészíthető recepteket a negyedévente megjelenő magazinunkban.						</div>
-					</div>					
+					</div>
 					<div class="product_image_overlay"></div>
 							<div class="product_image" style="background: url('/shopmodul/kepek/edeselet.jpg');"></div>
 		</div>
 		</a>
-	
+
 			<a target="_blank" href="http://shopmodul.mediaworks.hu/stat/86b122d4358357d834a87ce618a55de0">
-			<div class="block_imageproduct">			
+			<div class="block_imageproduct">
 				<div class="product_title">
 					<div class="wrapper">
 						Előfizetéshez ajándék 												<div class="price"> 2000.-Ft</div>
-											</div>			
+											</div>
 				</div>
 									<div class="product_footer">
 						<div class="highlight">
 							Most extra 2.000 forint kedvezmény!						</div>
 						<div>
 							Lepje meg önmagát vagy szeretteit és fizessen elő a legkedveltebb magazinokra!						</div>
-					</div>					
+					</div>
 					<div class="product_image_overlay"></div>
 							<div class="product_image" style="background: url('/shopmodul/kepek/spar_efi_web.jpg');"></div>
 		</div>
 		</a>
-	
-                    
+
+
         </div>
     </div>
 </div>
@@ -3040,7 +3040,7 @@ $('.strossle-block').hide();    });
                 <div class="domainTitle">Regionális hírportálok</div><a class="externalPageLink" href="https://www.baon.hu">Bács-Kiskun - baon.hu</a><a class="externalPageLink" href="https://bama.hu">Baranya - bama.hu</a><a class="externalPageLink" href="https://beol.hu">Békés - beol.hu</a><a class="externalPageLink" href="https://boon.hu">Borsod-Abaúj-Zemplén - boon.hu</a><a class="externalPageLink" href="https://delmagyar.hu">Csongrád - delmagyar.hu</a><a class="externalPageLink" href="https://duol.hu">Dunaújváros - duol.hu</a><a class="externalPageLink" href="https://feol.hu">Fejér - feol.hu</a><a class="externalPageLink" href="https://kisalfold.hu">Győr-Moson-Sopron - kisalfold.hu</a><a class="externalPageLink" href="https://haon.hu">Hajdú-Bihar - haon.hu</a><a class="externalPageLink" href="https://heol.hu">Heves - heol.hu</a><a class="externalPageLink" href="https://szoljon.hu">Jász-Nagykun-Szolnok - szoljon.hu</a><a class="externalPageLink" href="https://kemma.hu">Komárom-Esztergom - kemma.hu</a><a class="externalPageLink" href="https://nool.hu">Nógrád - nool.hu</a><a class="externalPageLink" href="https://sonline.hu">Somogy - sonline.hu</a><a class="externalPageLink" href="https://szon.hu">Szabolcs-Szatmár-Bereg - szon.hu</a><a class="externalPageLink" href="https://szegedma.hu/">Szeged - szegedma.hu</a><a class="externalPageLink" href="https://teol.hu">Tolna - teol.hu</a><a class="externalPageLink" href="https://vaol.hu">Vas - vaol.hu</a><a class="externalPageLink" href="https://veol.hu">Veszprém - veol.hu</a><a class="externalPageLink" href="https://zaol.hu">Zala - zaol.hu</a><div class="domainTitle">Közélet</div><a class="externalPageLink" href="https://888.hu">888.hu</a><a class="externalPageLink" href="https://hirvilag.hu">hirvilag.hu</a><a class="externalPageLink" href="https://lokal.hu">lokal.hu</a><a class="externalPageLink" href="http://mainap.hu/">mainap.hu</a><a class="externalPageLink" href="https://magyarnemzet.hu">magyarnemzet.hu</a><a class="externalPageLink" href="https://szabadfold.hu/">szabadfold.hu</a><div class="domainTitle">Sport</div><a class="externalPageLink" href="http://www.csupasport.hu/">csupasport.hu</a><a class="externalPageLink" href="https://www.fourfourtwo.hu/">fourfourtwo.hu</a><a class="externalPageLink" href="http://www.nemzetisport.hu/">nemzetisport.hu</a><div class="domainTitle">Gazdaság</div><a class="externalPageLink" href="https://www.agrariumonline.hu/">agrariumonline.hu</a><a class="externalPageLink" href="https://figyelo.hu/">figyelo.hu</a><a class="externalPageLink" href="https://www.vg.hu/">vg.hu</a><div class="domainTitle">Magazin</div><a class="externalPageLink" href="https://www.astronet.hu/">astronet.hu</a><a class="externalPageLink" href="http://www.automotor.hu/">automotor.hu</a><a class="externalPageLink" href="http://bravo.hu/">bravo.hu</a><a class="externalPageLink" href="https://dietaesfitnesz.hu/">dietaesfitnesz.hu</a><a class="externalPageLink" href="http://www.lakaskultura.hu/">lakaskultura.hu</a><a class="externalPageLink" href="https://likebalaton.hu/">likebalaton.hu</a><a class="externalPageLink" href="http://www.mindmegette.hu/">mindmegette.hu</a><a class="externalPageLink" href="https://videkize.hu/">videkize.hu</a><a class="externalPageLink" href="https://vitorlazasmagazin.hu/">vitorlazasmagazin.hu</a><div class="domainTitle">Bulvár</div><a class="externalPageLink" href="http://www.borsonline.hu/">borsonline.hu</a><a class="externalPageLink" href="https://ripost.hu/">ripost.hu</a><div class="domainTitle">Szolgáltatás</div><a class="externalPageLink" href="http://deliapro.hu/">deliapro.hu</a><a class="externalPageLink" href="http://www.gyaszhir.hu/">gyaszhir.hu</a><a class="externalPageLink" href="https://www.ingatlanbazar.hu/">ingatlanbazar.hu</a><a class="externalPageLink" href="https://www.jegyed.hu">jegyed.hu</a><a class="externalPageLink" href="http://mediaworks.hu/">mediaworks.hu</a><a class="externalPageLink" href="https://www.megyekartya.hu/">megyekartya.hu</a><a class="externalPageLink" href="http://www.szuperinfo.hu/">szuperinfo.hu</a><a class="externalPageLink" href="http://www.tvmusor.hu">tvmusor.hu</a>            </div>
         </div>
                 </div>
-        
+
 <style>
 	div.mvg_footer_mediaworks .mwg_footer_lower {
 	background-color: #e1e1e1;
@@ -3214,7 +3214,7 @@ $('.strossle-block').hide();    });
 
             /**
              * Event bejelentése GA-nak, majd ugrás az adott link-re.
-             * 
+             *
              * @param str url - ugrás Link-je a bejelntés után
              * @param str category - Link kategóriája
              * @param str label - Link címkéje pl. title
@@ -3323,7 +3323,7 @@ $('.strossle-block').hide();    });
         <!-- Goa3 beépítés: interstitial mme egyéb oldalak, 3504729 -->
 <div id="zone_pc_3504729" class="goAdverticum"></div> <!--interstitial mme egyéb oldalak, 3504729 (adocean) (adocean) (adocean)-->
 
-        
+
         <script type="text/javascript" charset="utf-8" src="//ad.adverticum.net/g3.js"></script>
         <script type="text/javascript">
             /**
@@ -3392,7 +3392,7 @@ gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp
 (function(d,t) {try {var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); gt.setAttribute('async','async');
 gt.setAttribute('defer','defer'); gt.src=l+'://gahu.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) {}})(document,'script');
 //--><!]]>
-</script>        
+</script>
         <!-- Facebook Pixel Code -->
 		<script>
 		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
