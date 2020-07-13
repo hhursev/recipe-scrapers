@@ -2,10 +2,9 @@ from ._abstract import AbstractScraper
 
 
 class Cybercook(AbstractScraper):
-
     @classmethod
     def host(cls):
-        return 'cybercook.com.br'
+        return "cybercook.com.br"
 
     def title(self):
         return self.schema.title()

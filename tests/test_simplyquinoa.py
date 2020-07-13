@@ -22,17 +22,17 @@ class TestSimplyQuinoaScraper(ScraperTest):
     def test_ingredients(self):
         self.assertCountEqual(
             [
-                '1 cup quinoa flour',
-                '1 cup oat flour',
-                '2 teaspoons baking powder',
-                '1 1/4 cup almond milk (or milk of choice)',
-                '2 large eggs (or flax eggs)',
-                '2 tablespoons maple syrup',
-                '2 tablespoons oil',
-                '1/3 cup blueberries',
-                '1/3 cup chocolate chips',
-                '2 tablespoons lemon zest',
-                '1 cup grated apple (from 1 small apple)',
+                "1 cup quinoa flour",
+                "1 cup oat flour",
+                "2 teaspoons baking powder",
+                "1 1/4 cup almond milk (or milk of choice)",
+                "2 large eggs (or flax eggs)",
+                "2 tablespoons maple syrup",
+                "2 tablespoons oil",
+                "1/3 cup blueberries",
+                "1/3 cup chocolate chips",
+                "2 tablespoons lemon zest",
+                "1 cup grated apple (from 1 small apple)",
             ],
             self.harvester_class.ingredients(),
         )
