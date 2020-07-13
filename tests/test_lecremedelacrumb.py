@@ -3,7 +3,7 @@ from tests import ScraperTest
 from recipe_scrapers.lecremedelacrumb import LeCremeDeLaCrumb
 
 
-class TestAllRecipesScraper(ScraperTest):
+class TestLeCremeDeLaCrumbScraper(ScraperTest):
 
     scraper_class = LeCremeDeLaCrumb
 
