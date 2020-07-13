@@ -5,5 +5,5 @@ language-tags>=1.0.0
 requests>=2.19.1
 tldextract==2.2.2
 pre-commit>=2.6.0
-black>=19.10
+black>=19.10b0
 flake8>=3.8.3
