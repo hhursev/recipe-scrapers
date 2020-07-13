@@ -41,7 +41,7 @@ class Epicurious(AbstractScraper):
     def reviews(self):
         import re
 
-        fork_rating_re = re.compile("/(\d)_forks.png")
+        fork_rating_re = re.compile(r"/(\d)_forks.png")
 
         reviews = self.soup.findAll("", {"class": "most-recent"})
         ratings = [rev.find("img", {"class": "fork-rating"}) for rev in reviews]

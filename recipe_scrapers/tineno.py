@@ -74,8 +74,7 @@ class TineNo(AbstractScraper):
                             tmplst = []
                     if header != "":
                         ingGroup.append(header)
-                    for l in lst:
-                        ingGroup.append(l)
+                    ingGroup += lst
         return ingGroup
 
     def instructions(self):

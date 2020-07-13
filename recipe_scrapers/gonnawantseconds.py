@@ -80,7 +80,7 @@ class GonnaWantSeconds(AbstractScraper):
                 ).text
             except Exception:
                 header = None
-            if header != None:
+            if header is not None:
                 ingGroup.append(header)
             ingredparts = ig.findAll("li")
             for i in ingredparts:
@@ -104,7 +104,7 @@ class GonnaWantSeconds(AbstractScraper):
                     ).text
                 except Exception:
                     header = None
-                if header != None:
+                if header is not None:
                     data.append(header)
                 ins = instruct.findAll("div", {"class": "wprm-recipe-instruction-text"})
 
