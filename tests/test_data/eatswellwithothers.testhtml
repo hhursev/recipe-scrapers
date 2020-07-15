@@ -9,7 +9,7 @@
 
 <!-- Start >> Meta Tags and Inline Scripts -->
 <!-- Ahalogy Mobilify enabled [plugin version 1.2.11] -->
-      
+
 <script src="eatswellwithothers_files/all.js" id="facebook-jssdk"></script><script src="eatswellwithothers_files/widgets.js" id="twitter-wjs"></script><script gapi_processed="true" src="eatswellwithothers_files/plusone.js" async="" type="text/javascript"></script><script src="eatswellwithothers_files/ga.js" async="" type="text/javascript"></script><script src="eatswellwithothers_files/a"></script><script src="eatswellwithothers_files/gpt.js" type="text/javascript" async=""></script><script type="text/javascript" async="" src="eatswellwithothers_files/quant.js"></script><script src="eatswellwithothers_files/gtm.js" async=""></script><script src="eatswellwithothers_files/beacon.js" async=""></script><script data-cfasync="false" type="text/javascript" id="mobilify-loader" data-mobilify="1" data-client="73684375757" data-article="3082" data-snippet-gen-version="c35556a
 " data-snippet-gen-at="2015-09-12 15:21:25 +0000" data-base-url="https://w.ahalogy.com">
 !function(e, t, n) {
@@ -17,7 +17,7 @@ var r = n && n.log && void 0 != n.log && void 0 != n.log.bind ? n.log.bind(n) :f
 if (!i.demoMode) {
 r("fd");
 var n = new Date();
-n.setTime(n.getTime() + 6e4), t.cookie = "nonCarded=1; expires=" + n.toGMTString(), 
+n.setTime(n.getTime() + 6e4), t.cookie = "nonCarded=1; expires=" + n.toGMTString(),
 e.location.reload(), e.setTimeout(function() {
 r("dr"), e.location = e.location.href;
 }, 1e3);
@@ -72,7 +72,7 @@ e.onerror = o, l(e, "mobilify-js", n, a);
 			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/joanne-eatswellwithothers.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.4"}};
 			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script><script type="text/javascript" src="eatswellwithothers_files/wp-emoji-release.js"></script>
-		
+
 <!-- Styles -->
 <style type="text/css">
 img.wp-smiley,
@@ -186,7 +186,7 @@ ul.related_post li img {
 				}else if( jQuery('ul.menu-always-on-top').length ){
 					target = jQuery('ul.menu-always-on-top');
 				}
-				
+
 				if( target == null ){return;}
 
 				target.tmMobileMenu({
@@ -200,9 +200,9 @@ ul.related_post li img {
 
 				});
 			});
-					
+
 		</script>
-	
+
 <!-- On Ready -->
 <script> /* <![CDATA[ */
 !function ($) {
@@ -274,7 +274,7 @@ var gads = document.createElement('script');
 gads.async = true;
 gads.type = 'text/javascript';
 var useSSL = 'https:' == document.location.protocol;
-gads.src = (useSSL ? 'https:' : 'http:') + 
+gads.src = (useSSL ? 'https:' : 'http:') +
 '//www.googletagservices.com/tag/js/gpt.js';
 var node = document.getElementsByTagName('script')[0];
 node.parentNode.insertBefore(gads, node);
@@ -428,7 +428,7 @@ a.PIN_1442072400170_embed_grid_ft span.PIN_1442072400170_embed_grid_ft_logo { ve
 				<div class="page-canvas">
 						<header id="header" class="container-group">
 				<div class="outline">
-					
+
 
 <!-- Branding | Section Template -->
 <section id="branding" class="container clone_1 section-branding fix"><div class="texture"><div class="content"><div class="content-pad"><div class="branding_wrap fix"><a class="plbrand mainlogo-link" href="http://joanne-eatswellwithothers.com/" title="Joanne Eats Well With Others"><img class="mainlogo-img" src="eatswellwithothers_files/header_logo.png" alt="Joanne Eats Well With Others"></a><div class="icons" style="bottom: 12px; right: 1px;"></div></div>			<script type="text/javascript">
@@ -458,7 +458,7 @@ a.PIN_1442072400170_embed_grid_ft span.PIN_1442072400170_embed_grid_ft_logo { ve
 
 								<div id="column-main" class="mcolumn fix">
 					<div class="mcolumn-pad">
-						
+
 
 <!-- PostNav | Section Template -->
 <section id="postnav" class="copy clone_1 section-postnav"><div class="copy-pad">		<div class="post-nav fix">
@@ -475,47 +475,47 @@ a.PIN_1442072400170_embed_grid_ft span.PIN_1442072400170_embed_grid_ft_logo { ve
 <p>Fact.</p>
 <p><span id="more-3082"></span></p>
 <p><a title="IMG_9535 by eatswellwithothers, on Flickr" href="http://www.flickr.com/photos/51083327@N04/6742013795/"><img data-jpibfi-indexer="2" alt="IMG_9535" src="eatswellwithothers_files/6742013795_ea54b2df40_z.jpg" height="427" width="640"></a></p>
-<p>I tried to convince my roommate’s boyfriend that it was just growing 
-an extra coat of broccoli-basil breadcrumb hair for the winter, to keep 
+<p>I tried to convince my roommate’s boyfriend that it was just growing
+an extra coat of broccoli-basil breadcrumb hair for the winter, to keep
 warm, as he stood over the tray with his fork dubiously poised.</p>
-<p>(He’s one of those vegetarians for whom vegetables are like 
-extra-terrestrial entities that should be encountered with 
+<p>(He’s one of those vegetarians for whom vegetables are like
+extra-terrestrial entities that should be encountered with
 caution.&nbsp; Pizza and the infamous blue box are more his style.)</p>
 <p>He remained skeptical.&nbsp; Gave me a look that said “geez louise, everyone knows mac and cheese doesn’t <i>really</i> have hair follicles”.</p>
 <p>And then dug in.</p>
 <p><a title="IMG_9528 by eatswellwithothers, on Flickr" href="http://www.flickr.com/photos/51083327@N04/6742012651/"><img data-jpibfi-indexer="3" alt="IMG_9528" src="eatswellwithothers_files/6742012651_9c6b69692d_z.jpg" height="640" width="640"></a></p>
 <p>Yes, sometimes even the future doctors of America need to be cajoled in to eating their vegetables.&nbsp; It happens.</p>
-<p>And while this mac and cheese has quite a few healthy surprises 
-stuffed into it, it’s vastly different from one of those Jessica 
-Seinfeld-esque concoctions in that it’s not pretending to be something 
+<p>And while this mac and cheese has quite a few healthy surprises
+stuffed into it, it’s vastly different from one of those Jessica
+Seinfeld-esque concoctions in that it’s not pretending to be something
 that it’s not.</p>
 <p>It is unapologetically good for you.&nbsp; And it tastes nothing like
  it’s neon orange counterpart.&nbsp; So if that’s what you’re hoping for
- – some kind of health food miracle that turns cheddar, gruyere and 
+ – some kind of health food miracle that turns cheddar, gruyere and
 butternut squash into something akin to velveeta – this is <i>not</i> it.</p>
-<p>But if what you’re craving is a dish that hits all those cheesy 
-comfort food cravings while still allowing you to feel like you can 
-conquer the world afterwards (or at least shovel a few inches of 
-snow).&nbsp; Then take off those fuzzy boots and your hot pink 
+<p>But if what you’re craving is a dish that hits all those cheesy
+comfort food cravings while still allowing you to feel like you can
+conquer the world afterwards (or at least shovel a few inches of
+snow).&nbsp; Then take off those fuzzy boots and your hot pink
 marshmallow puffy jacket and come on in.&nbsp; I’ll grab you a plate.</p>
 <p><a title="IMG_9538 by eatswellwithothers, on Flickr" href="http://www.flickr.com/photos/51083327@N04/6742014485/"><img data-jpibfi-indexer="4" alt="IMG_9538" src="eatswellwithothers_files/6742014485_1d5b98950d_z.jpg" height="640" width="640"></a></p>
 <p>So, I’m going to take a detour from mac and cheese heaven to ask you a question.&nbsp; If you could eat <a href="http://www.joanne-eatswellwithothers.com/2011/02/peanut-butter-and-jelly-bars.html">peanut butter and jelly bars</a> to help find a cure for cancer…would you do it?</p>
-<p>Guess what….now you can!&nbsp; My friend Amanda from Tales From A 
-Kitchen Misfit is training for her FIRST marathon (the Boston 
-Marathon!!) with Team in Training, and is having a virtual bake sale to 
+<p>Guess what….now you can!&nbsp; My friend Amanda from Tales From A
+Kitchen Misfit is training for her FIRST marathon (the Boston
+Marathon!!) with Team in Training, and is having a virtual bake sale to
 help her meet her fundraising goals and raise money for the Leukemia and
- Lymphoma Society.&nbsp; I’ve done three seasons with Team In Training 
-so I know it’s a worthy cause.&nbsp; The money that Amanda raises from 
-the bake sale will go to cancer research (some of the work that I’ve 
-done in labs has actually been funded by LLS so YES this is going to 
-REAL research) as well as to help patients cover costs of treatment and 
+ Lymphoma Society.&nbsp; I’ve done three seasons with Team In Training
+so I know it’s a worthy cause.&nbsp; The money that Amanda raises from
+the bake sale will go to cancer research (some of the work that I’ve
+done in labs has actually been funded by LLS so YES this is going to
+REAL research) as well as to help patients cover costs of treatment and
 hospital care.</p>
 <p>Along with a <a href="http://www.kitchenmisfit.com/baking-bidding-to-end-cancer/">number of other treats</a>,
  my peanut butter and jelly bars are up for grabs! If you’ve ever wanted
  to have an Eats Well With Others treat delivered straight to your door,
  this is the time.&nbsp; You can <a href="http://www.kitchenmisfit.com/2012/01/peanut-butter-and-jelly-bars-auction/">bid here</a>.&nbsp;
- And if anyone has any kind of peanut allergies, I’d be willing to make 
-them with sunbutter or soybutter so don’t let that stop you from 
+ And if anyone has any kind of peanut allergies, I’d be willing to make
+them with sunbutter or soybutter so don’t let that stop you from
 bidding!</p>
 <p><a title="Picnik collage by eatswellwithothers, on Flickr" href="http://www.flickr.com/photos/51083327@N04/6742502317/"><img data-jpibfi-indexer="5" alt="Picnik collage" src="eatswellwithothers_files/6742502317_cf41242f69_z.jpg" height="334" width="640"></a></p>
 <p><b>Broccoli-Basil Mac and Cheese</b><br>
@@ -536,26 +536,26 @@ Serves 6, adapted from <a href="http://www.101cookbooks.com/archives/broccolibas
 <p><b>Instructions</b></p>
 <ol>
 <li>Preheat oven to 400 with a rack in the middle. Set a large pot of water to boil.</li>
-<li>Place the squash on a large baking sheet lined with foil.&nbsp; 
-Spray with cooking spray.&nbsp; Sprinkle with salt and black 
+<li>Place the squash on a large baking sheet lined with foil.&nbsp;
+Spray with cooking spray.&nbsp; Sprinkle with salt and black
 pepper.&nbsp; Bake for 20-25 minutes or until tender.</li>
 <li>While the squash is cooking, pulse half the basil, all of the bread,
  the broccoli, and a bit of water in the food processor until there is a
- fine crumb. It may be a bit damp.&nbsp; Transfer to a small bowl and 
+ fine crumb. It may be a bit damp.&nbsp; Transfer to a small bowl and
 rinse out the processor.</li>
 <li>In a separate bowl, combine the Greek yogurt and grated cheeses.</li>
-<li>Place the cherry tomatoes in the food processor with the remaining 
-basil.&nbsp; Pulse to break things up a bit, then add it to the cheese 
+<li>Place the cherry tomatoes in the food processor with the remaining
+basil.&nbsp; Pulse to break things up a bit, then add it to the cheese
 mixture.</li>
-<li>Boil the pasta in well-salted water until it is slightly 
-undercooked.&nbsp; Drain, reserving a cup of pasta water for later 
+<li>Boil the pasta in well-salted water until it is slightly
+undercooked.&nbsp; Drain, reserving a cup of pasta water for later
 use.&nbsp; Put pasta back in pot and add the cheese mixture to it.&nbsp;
- Add the squash and stir it.&nbsp; Add pasta water until the sauce is 
-thinned to the consistency of cream.&nbsp; It’s okay if it’s a bit 
+ Add the squash and stir it.&nbsp; Add pasta water until the sauce is
+thinned to the consistency of cream.&nbsp; It’s okay if it’s a bit
 runny, as the pasta will absorb the liquid in the oven.</li>
-<li>Transfer everything to large casserole or 9×13-inch baking 
-pan.&nbsp; Sprinkle the green breadcrumbs across the top and bake for 
-20-25 minutes or until topping is crunchy.&nbsp; Remove from the oven. 
+<li>Transfer everything to large casserole or 9×13-inch baking
+pan.&nbsp; Sprinkle the green breadcrumbs across the top and bake for
+20-25 minutes or until topping is crunchy.&nbsp; Remove from the oven.
 Let sit 10 minutes before serving.</li>
 </ol>
 <p>Looking for more mac and cheese inspiration?&nbsp; Check out these recipes:<br>
@@ -564,9 +564,9 @@ Let sit 10 minutes before serving.</li>
 <a href="http://www.joanne-eatswellwithothers.com/2009/02/love-at-first-bite-caramelized-sweet.html">Caramelized Sweet Potato, Garlic and Rosemary Mac and Cheese</a></p>
 <p>I am submitting this to <a href="http://www.prestopastanights.com/">Presto Pasta Nights</a> which is being hosted by Emma of <a href="http://souperior.wordpress.com/">Souperior</a>.</p>
 <p><a title="IMG_9534 by eatswellwithothers, on Flickr" href="http://www.flickr.com/photos/51083327@N04/6742013445/"><img data-jpibfi-indexer="6" alt="IMG_9534" src="eatswellwithothers_files/6742013445_265ce5dcfc_z.jpg" height="427" width="640"></a></p>
-<div>You are reading this post on Eats Well With Others at 
-http://joanne-eatswellwithothers.com. Excerpts and links may be used, 
-provided that full and clear credit is given to the author and or owner 
+<div>You are reading this post on Eats Well With Others at
+http://joanne-eatswellwithothers.com. Excerpts and links may be used,
+provided that full and clear credit is given to the author and or owner
 of Eats Well With Others. All rights reserved by Joanne Bruno.</div>
 
 <div class="wp_rp_wrap  wp_rp_vertical" id="wp_rp_first"><div class="wp_rp_content"><h3 class="related_post_title">Related Recipes</h3><ul class="related_post wp_rp"><li data-position="0" data-poid="in-2930" data-post-type="none"><a href="http://joanne-eatswellwithothers.com/2012/10/recipe-vegetarian-bacon-and-butternut-pasta-with-caramelized-onions-and-kale.html" class="wp_rp_thumbnail"><img data-jpibfi-indexer="7" src="eatswellwithothers_files/vegetarian-bacon-and-butternut-squash-pasta-with-gruyere-and.jpg" alt="{Vegetarian} Bacon and Butternut Pasta with Caramelized Onions and Kale" height="150" width="150"></a><a href="http://joanne-eatswellwithothers.com/2012/10/recipe-vegetarian-bacon-and-butternut-pasta-with-caramelized-onions-and-kale.html" class="wp_rp_title">{Vegetarian} Bacon and Butternut Pasta with Caramelized Onions and Kale</a></li><li data-position="1" data-poid="in-7045" data-post-type="none"><a href="http://joanne-eatswellwithothers.com/2013/10/rigatoni-torte-with-fall-vegetables.html" class="wp_rp_thumbnail"><img data-jpibfi-indexer="8" src="eatswellwithothers_files/rigatoni-torte-with-fall-vegetables-150x150.jpg" alt="Rigatoni Torte with Fall Vegetables" height="150" width="150"></a><a href="http://joanne-eatswellwithothers.com/2013/10/rigatoni-torte-with-fall-vegetables.html" class="wp_rp_title">Rigatoni Torte with Fall Vegetables</a></li><li data-position="2" data-poid="in-2890" data-post-type="none"><a href="http://joanne-eatswellwithothers.com/2012/12/recipe-lasagna-of-fall-vegetables-gruyere-and-sage-bechamel-twelve-weeks-of-winter-squash.html" class="wp_rp_thumbnail"><img data-jpibfi-indexer="9" src="eatswellwithothers_files/lasagna-of-fall-vegetables-gruyere-and-winter-squash-150x150.jpg" alt="Lasagna of Fall Vegetables, Gruyere and Sage Bechamel {twelve weeks of winter squash}" height="150" width="150"></a><a href="http://joanne-eatswellwithothers.com/2012/12/recipe-lasagna-of-fall-vegetables-gruyere-and-sage-bechamel-twelve-weeks-of-winter-squash.html" class="wp_rp_title">Lasagna of Fall Vegetables, Gruyere and Sage Bechamel {twelve weeks of winter squash}</a></li><li data-position="3" data-poid="in-3320" data-post-type="none"><a href="http://joanne-eatswellwithothers.com/2011/01/whole-wheat-pasta-with-butternut-squash-ground-lamb-and-halloumi.html" class="wp_rp_thumbnail"><img data-jpibfi-indexer="10" src="eatswellwithothers_files/whole-wheat-pasta-with-butternut-squash-ground-lamb-and-hall.jpg" alt="Whole Wheat Pasta with Butternut Squash, Ground Lamb, and Halloumi" height="150" width="150"></a><a href="http://joanne-eatswellwithothers.com/2011/01/whole-wheat-pasta-with-butternut-squash-ground-lamb-and-halloumi.html" class="wp_rp_title">Whole Wheat Pasta with Butternut Squash, Ground Lamb, and Halloumi</a></li></ul></div></div>
@@ -620,7 +620,7 @@ of Eats Well With Others. All rights reserved by Joanne Bruno.</div>
 				<div id="div-comment-51644" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://whatisbakinginthebarbershop.blogspot.com/" rel="external nofollow" class="url">Colleen @ What's Baking in the Barbershop?!</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51644">
 			Monday, January 23rd, 2012 at 8:55 am</a>		</div>
 
@@ -633,12 +633,12 @@ of Eats Well With Others. All rights reserved by Joanne Bruno.</div>
 				<div id="div-comment-51645" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://freefoodboston.wordpress.com/" rel="external nofollow" class="url">Elizabeth</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51645">
 			Monday, January 23rd, 2012 at 8:57 am</a>		</div>
 
 		<p>I kind of despise the vegetarians that only eat pizza and blue box,
- etc. They give ones like you and me a bad name. Love this topping, it 
+ etc. They give ones like you and me a bad name. Love this topping, it
 looks delicious.</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51645#respond" onclick='return addComment.moveForm( "div-comment-51645", "51645", "respond", "3082" )' aria-label="Reply to Elizabeth">Reply</a></div>
@@ -648,7 +648,7 @@ looks delicious.</p>
 				<div id="div-comment-51646" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/01975202742115563688" rel="external nofollow" class="url">Melissa @IWasBornToCook</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51646">
 			Monday, January 23rd, 2012 at 9:19 am</a>		</div>
 
@@ -661,7 +661,7 @@ looks delicious.</p>
 				<div id="div-comment-51647" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://keepitsweetblog.com/" rel="external nofollow" class="url">Lauren at Keep It Sweet</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51647">
 			Monday, January 23rd, 2012 at 9:27 am</a>		</div>
 
@@ -674,13 +674,13 @@ looks delicious.</p>
 				<div id="div-comment-51648" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/11931796992646884249" rel="external nofollow" class="url">Foodycat</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51648">
 			Monday, January 23rd, 2012 at 9:43 am</a>		</div>
 
-		<p>I think you should put the squash in the title somewhere. I was a 
+		<p>I think you should put the squash in the title somewhere. I was a
 little scared of broccoli mac &amp; cheese, but once I saw the butternut
- I was all over it! I do worry about vegetarians who aren’t fond of 
+ I was all over it! I do worry about vegetarians who aren’t fond of
 vegetables.</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51648#respond" onclick='return addComment.moveForm( "div-comment-51648", "51648", "respond", "3082" )' aria-label="Reply to Foodycat">Reply</a></div>
@@ -690,11 +690,11 @@ vegetables.</p>
 				<div id="div-comment-51649" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.diaryofamadhausfrau.com/" rel="external nofollow" class="url">Lora</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51649">
 			Monday, January 23rd, 2012 at 9:52 am</a>		</div>
 
-		<p>Mac -n-Cheese makes me weak at the knees and this version is 
+		<p>Mac -n-Cheese makes me weak at the knees and this version is
 brilliant. I’m coming over for a heaping plateful and how did you know I
  had a hoy pink marshmallow puffy down jacket? Scary.</p>
 
@@ -705,7 +705,7 @@ brilliant. I’m coming over for a heaping plateful and how did you know I
 				<div id="div-comment-51650" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://theresalwaysthyme.blogspot.com/" rel="external nofollow" class="url">Carol @ Always Thyme to Cook</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51650">
 			Monday, January 23rd, 2012 at 9:58 am</a>		</div>
 
@@ -718,7 +718,7 @@ brilliant. I’m coming over for a heaping plateful and how did you know I
 				<div id="div-comment-51652" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.20somethingcupcakes.com/" rel="external nofollow" class="url">Sarah from 20somethingcupcakes</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51652">
 			Monday, January 23rd, 2012 at 10:09 am</a>		</div>
 
@@ -733,7 +733,7 @@ brilliant. I’m coming over for a heaping plateful and how did you know I
 				<div id="div-comment-51651" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/01681732058311386672" rel="external nofollow" class="url">Beth</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51651">
 			Monday, January 23rd, 2012 at 10:09 am</a>		</div>
 
@@ -746,7 +746,7 @@ brilliant. I’m coming over for a heaping plateful and how did you know I
 				<div id="div-comment-51653" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/02651944290195111894" rel="external nofollow" class="url">Pam</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51653">
 			Monday, January 23rd, 2012 at 10:16 am</a>		</div>
 
@@ -759,16 +759,16 @@ brilliant. I’m coming over for a heaping plateful and how did you know I
 				<div id="div-comment-51654" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.culinaryflavors.gr/" rel="external nofollow" class="url">Katerina</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51654">
 			Monday, January 23rd, 2012 at 10:16 am</a>		</div>
 
 		<p>When I was a child I didn’t even want to hear the word broccoli! If
  my mother, back then, had made something like this, I would have thrown
- it to the garbage for sure. Now I simply love broccoli and whenever I 
-have the chance I sneak it into our table. My son, and I am ashamed to 
-say this, had a better approach to broccoli than me. He tried it the 
-first time, he wasn’t thrilled, but he kept trying it until he finally 
+ it to the garbage for sure. Now I simply love broccoli and whenever I
+have the chance I sneak it into our table. My son, and I am ashamed to
+say this, had a better approach to broccoli than me. He tried it the
+first time, he wasn’t thrilled, but he kept trying it until he finally
 became fan. Both I and my son would have loved to have a portion of this
  lovely veg mac and cheese!</p>
 
@@ -779,7 +779,7 @@ became fan. Both I and my son would have loved to have a portion of this
 				<div id="div-comment-51656" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/03465183125990945350" rel="external nofollow" class="url">A Thought For Food</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51656">
 			Monday, January 23rd, 2012 at 10:22 am</a>		</div>
 
@@ -792,7 +792,7 @@ became fan. Both I and my son would have loved to have a portion of this
 				<div id="div-comment-51657" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/16576182360963956966" rel="external nofollow" class="url">Mary</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51657">
 			Monday, January 23rd, 2012 at 10:28 am</a>		</div>
 
@@ -805,14 +805,14 @@ became fan. Both I and my son would have loved to have a portion of this
 				<div id="div-comment-51658" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/18377795706095031064" rel="external nofollow" class="url">MM</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51658">
 			Monday, January 23rd, 2012 at 10:32 am</a>		</div>
 
-		<p>Now that you mention it, this does look like a chia pet!  But I 
-think the hair piece makes it look fun.  I’ve never made pesto with 
-broccoli.  Basil, spinach, parsley, changing the nuts, yes.  
-Broccoli–no.  But I very much dig this idea.  We eat a lot of 
+		<p>Now that you mention it, this does look like a chia pet!  But I
+think the hair piece makes it look fun.  I’ve never made pesto with
+broccoli.  Basil, spinach, parsley, changing the nuts, yes.
+Broccoli–no.  But I very much dig this idea.  We eat a lot of
 broccoli…nice to have something new.</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51658#respond" onclick='return addComment.moveForm( "div-comment-51658", "51658", "respond", "3082" )' aria-label="Reply to MM">Reply</a></div>
@@ -822,7 +822,7 @@ broccoli…nice to have something new.</p>
 				<div id="div-comment-51659" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://tastyeasyhealthygreen.com/" rel="external nofollow" class="url">sally</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51659">
 			Monday, January 23rd, 2012 at 10:36 am</a>		</div>
 
@@ -835,7 +835,7 @@ broccoli…nice to have something new.</p>
 				<div id="div-comment-51660" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.thereshegoesblog.com/" rel="external nofollow" class="url">Alexis @ There She Goes</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51660">
 			Monday, January 23rd, 2012 at 10:36 am</a>		</div>
 
@@ -848,12 +848,12 @@ broccoli…nice to have something new.</p>
 				<div id="div-comment-51661" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.girlichef.com/" rel="external nofollow" class="url">Heather @ girlichef.com</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51661">
 			Monday, January 23rd, 2012 at 10:37 am</a>		</div>
 
 		<p>Oh, I think it’s a good hair piece! It sounds really awesome. And I
- have everything to make it, so…I wonder what the kids would say.  I’m 
+ have everything to make it, so…I wonder what the kids would say.  I’m
 going to fool myself and say it’ll be love at first sight <img src="eatswellwithothers_files/1f609.png" alt="😉" draggable="false" class="emoji"> I want some, though!</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51661#respond" onclick='return addComment.moveForm( "div-comment-51661", "51661", "respond", "3082" )' aria-label="Reply to Heather @ girlichef.com">Reply</a></div>
@@ -863,7 +863,7 @@ going to fool myself and say it’ll be love at first sight <img src="eatswellwi
 				<div id="div-comment-51662" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/10205920305666658534" rel="external nofollow" class="url">bellini</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51662">
 			Monday, January 23rd, 2012 at 10:47 am</a>		</div>
 
@@ -876,12 +876,12 @@ going to fool myself and say it’ll be love at first sight <img src="eatswellwi
 				<div id="div-comment-51663" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/03057062918520263294" rel="external nofollow" class="url">Helene Dsouza</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51663">
 			Monday, January 23rd, 2012 at 10:50 am</a>		</div>
 
-		<p>Joanne please keep me some aside! Looks yummy, nice alternative to 
-just mac and cheese. thanks for passing by my blog joanne! =) see u 
+		<p>Joanne please keep me some aside! Looks yummy, nice alternative to
+just mac and cheese. thanks for passing by my blog joanne! =) see u
 around</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51663#respond" onclick='return addComment.moveForm( "div-comment-51663", "51663", "respond", "3082" )' aria-label="Reply to Helene Dsouza">Reply</a></div>
@@ -891,13 +891,13 @@ around</p>
 				<div id="div-comment-51664" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://bewitchingkitchen.com/" rel="external nofollow" class="url">SallyBR</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51664">
 			Monday, January 23rd, 2012 at 10:50 am</a>		</div>
 
 		<p>“This mac and cheese looks like it has a chia pet growing on it’s head.”</p>
-<p>you got me on that one, I am still laughing, even though I read your 
-post early this morning while enjoying my capuccino, still sleepy and 
+<p>you got me on that one, I am still laughing, even though I read your
+post early this morning while enjoying my capuccino, still sleepy and
 facing the harsh fact that it is Monday</p>
 <p>Great way to start the day! </p>
 <p>(loved the recipe too… <img src="eatswellwithothers_files/1f609.png" alt="😉" draggable="false" class="emoji"></p>
@@ -909,13 +909,13 @@ facing the harsh fact that it is Monday</p>
 				<div id="div-comment-51665" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://peanutbutterandpeppers.com/" rel="external nofollow" class="url">peanutbutterandpeppers.com</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51665">
 			Monday, January 23rd, 2012 at 10:55 am</a>		</div>
 
-		<p>It must be a pasta kind of day!  I would love to try your mac and 
-cheese. Can you bring me some?  Everything I like is in this dish and I 
-think the little chia head of broccoli is beautful! I am bookmarking 
+		<p>It must be a pasta kind of day!  I would love to try your mac and
+cheese. Can you bring me some?  Everything I like is in this dish and I
+think the little chia head of broccoli is beautful! I am bookmarking
 this.  I may sub some of the cheese for what I have on hand, but I think
  I have everything else.  What a wonderful comfort food meal!  Yum, yum!</p>
 
@@ -926,12 +926,12 @@ this.  I may sub some of the cheese for what I have on hand, but I think
 				<div id="div-comment-51666" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/11063620929373953728" rel="external nofollow" class="url">Emily @ A Cambridge Story</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51666">
 			Monday, January 23rd, 2012 at 10:59 am</a>		</div>
 
 		<p>LOVE the look of this broccoli crumb topping! I would add chunks of
- squash to everything if it wasn’t for my husband’s request to stop 
+ squash to everything if it wasn’t for my husband’s request to stop
 going crazy with the squash!</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51666#respond" onclick='return addComment.moveForm( "div-comment-51666", "51666", "respond", "3082" )' aria-label="Reply to Emily @ A Cambridge Story">Reply</a></div>
@@ -941,12 +941,12 @@ going crazy with the squash!</p>
 				<div id="div-comment-51667" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.insightfulappetite.com/" rel="external nofollow" class="url">sofia</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51667">
 			Monday, January 23rd, 2012 at 11:01 am</a>		</div>
 
-		<p>oooh this just might be the healthified mac and cheese recipe i’m 
-looking for! and the green crumbly stuff looks like something else 
+		<p>oooh this just might be the healthified mac and cheese recipe i’m
+looking for! and the green crumbly stuff looks like something else
 entirely to me (um, what?) but it’s all good, bro.</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51667#respond" onclick='return addComment.moveForm( "div-comment-51667", "51667", "respond", "3082" )' aria-label="Reply to sofia">Reply</a></div>
@@ -956,7 +956,7 @@ entirely to me (um, what?) but it’s all good, bro.</p>
 				<div id="div-comment-51668" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://frugalhealthysimple.blogspot.com/" rel="external nofollow" class="url">Marcia @Frugal Healthy Simple</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51668">
 			Monday, January 23rd, 2012 at 11:15 am</a>		</div>
 
@@ -969,7 +969,7 @@ entirely to me (um, what?) but it’s all good, bro.</p>
 				<div id="div-comment-51669" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://thenovicechefblog.com/" rel="external nofollow" class="url">Jessica</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51669">
 			Monday, January 23rd, 2012 at 11:44 am</a>		</div>
 
@@ -982,7 +982,7 @@ entirely to me (um, what?) but it’s all good, bro.</p>
 				<div id="div-comment-51670" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/15601656778586008081" rel="external nofollow" class="url">Claudia</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51670">
 			Monday, January 23rd, 2012 at 11:52 am</a>		</div>
 
@@ -995,7 +995,7 @@ entirely to me (um, what?) but it’s all good, bro.</p>
 				<div id="div-comment-51671" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://naomemandeflores.wordpress.com/" rel="external nofollow" class="url">naomemandeflores</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51671">
 			Monday, January 23rd, 2012 at 12:52 pm</a>		</div>
 
@@ -1009,7 +1009,7 @@ entirely to me (um, what?) but it’s all good, bro.</p>
 				<div id="div-comment-51672" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/05428096056335163130" rel="external nofollow" class="url">MS2</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51672">
 			Monday, January 23rd, 2012 at 12:53 pm</a>		</div>
 
@@ -1022,7 +1022,7 @@ entirely to me (um, what?) but it’s all good, bro.</p>
 				<div id="div-comment-51673" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.cabotcheese.coop/" rel="external nofollow" class="url">Candace Karu</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51673">
 			Monday, January 23rd, 2012 at 12:55 pm</a>		</div>
 
@@ -1035,13 +1035,13 @@ entirely to me (um, what?) but it’s all good, bro.</p>
 				<div id="div-comment-51674" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://veryculinary.com/" rel="external nofollow" class="url">Amy</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51674">
 			Monday, January 23rd, 2012 at 12:55 pm</a>		</div>
 
-		<p>Some foods do all the work for you…cookies, pie, chocolate. Others 
-need help…soup, bulgar, and ya broccoli. BUT green and orange are so 
-pretty. And I would totally eat this. Loves me some mac and cheese with 
+		<p>Some foods do all the work for you…cookies, pie, chocolate. Others
+need help…soup, bulgar, and ya broccoli. BUT green and orange are so
+pretty. And I would totally eat this. Loves me some mac and cheese with
 veggies.</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51674#respond" onclick='return addComment.moveForm( "div-comment-51674", "51674", "respond", "3082" )' aria-label="Reply to Amy">Reply</a></div>
@@ -1051,7 +1051,7 @@ veggies.</p>
 				<div id="div-comment-51675" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://fooddoodles.com/" rel="external nofollow" class="url">Heidi @ Food Doodles</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51675">
 			Monday, January 23rd, 2012 at 1:39 pm</a>		</div>
 
@@ -1064,7 +1064,7 @@ veggies.</p>
 				<div id="div-comment-51676" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/01077401868108124070" rel="external nofollow" class="url">hungryandfrozen</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51676">
 			Monday, January 23rd, 2012 at 2:00 pm</a>		</div>
 
@@ -1077,7 +1077,7 @@ veggies.</p>
 				<div id="div-comment-51677" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/17483551641278770483" rel="external nofollow" class="url">Krissy's Creations</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51677">
 			Monday, January 23rd, 2012 at 2:03 pm</a>		</div>
 
@@ -1090,12 +1090,12 @@ veggies.</p>
 				<div id="div-comment-51678" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.confessionsofachocoholic.com/" rel="external nofollow" class="url">Bianca @ Confessions of a Chocoholic</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51678">
 			Monday, January 23rd, 2012 at 2:11 pm</a>		</div>
 
-		<p>I usually mix in broccoli with my mac and cheese but have yet to 
-use it as a chia head topping! Great idea, and I love the addition of 
+		<p>I usually mix in broccoli with my mac and cheese but have yet to
+use it as a chia head topping! Great idea, and I love the addition of
 squash too!</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51678#respond" onclick='return addComment.moveForm( "div-comment-51678", "51678", "respond", "3082" )' aria-label="Reply to Bianca @ Confessions of a Chocoholic">Reply</a></div>
@@ -1105,12 +1105,12 @@ squash too!</p>
 				<div id="div-comment-51679" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/13060822393422709736" rel="external nofollow" class="url">Laura</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51679">
 			Monday, January 23rd, 2012 at 2:30 pm</a>		</div>
 
 		<p>My mouth is watering just looking at these pictures. I will have to
- make this recipe with GF macaroni noodles. My husband is crazy about 
+ make this recipe with GF macaroni noodles. My husband is crazy about
 gruyere!</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51679#respond" onclick='return addComment.moveForm( "div-comment-51679", "51679", "respond", "3082" )' aria-label="Reply to Laura">Reply</a></div>
@@ -1120,12 +1120,12 @@ gruyere!</p>
 				<div id="div-comment-51680" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.slim-shoppin.com/" rel="external nofollow" class="url">Jenn@slim-shoppin</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51680">
 			Monday, January 23rd, 2012 at 3:06 pm</a>		</div>
 
-		<p>That looks amazing!  I would eat that in a heartbeat.  I make mac 
-and cheese at least 3x a month – maybe my family wouldn’t mind me 
+		<p>That looks amazing!  I would eat that in a heartbeat.  I make mac
+and cheese at least 3x a month – maybe my family wouldn’t mind me
 changing it up a bit!</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51680#respond" onclick='return addComment.moveForm( "div-comment-51680", "51680", "respond", "3082" )' aria-label="Reply to Jenn@slim-shoppin">Reply</a></div>
@@ -1135,11 +1135,11 @@ changing it up a bit!</p>
 				<div id="div-comment-51681" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/12778726298936996932" rel="external nofollow" class="url">Amy</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51681">
 			Monday, January 23rd, 2012 at 4:21 pm</a>		</div>
 
-		<p>I love mixing in veggies in mac n’ cheese. Broccoli is always a 
+		<p>I love mixing in veggies in mac n’ cheese. Broccoli is always a
 perfect choice because it goes so well with cheese. I like to use squash
  puree, too – but all in one? Looks fabulous!</p>
 
@@ -1150,7 +1150,7 @@ perfect choice because it goes so well with cheese. I like to use squash
 				<div id="div-comment-51682" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/03055543111865966546" rel="external nofollow" class="url">Gloria</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51682">
 			Monday, January 23rd, 2012 at 4:29 pm</a>		</div>
 
@@ -1163,7 +1163,7 @@ perfect choice because it goes so well with cheese. I like to use squash
 				<div id="div-comment-51683" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/14416968440250548090" rel="external nofollow" class="url">SavoringTime in the Kitchen</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51683">
 			Monday, January 23rd, 2012 at 4:51 pm</a>		</div>
 
@@ -1176,12 +1176,12 @@ perfect choice because it goes so well with cheese. I like to use squash
 				<div id="div-comment-51684" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/01616627712817566828" rel="external nofollow" class="url">Three-Cookies</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51684">
 			Monday, January 23rd, 2012 at 4:52 pm</a>		</div>
 
-		<p>“broccoli-basil breadcrumb” sounds delicious in spite of its less 
-stellar looks:) Butternut squash – I wonder if I can substitute coconut 
+		<p>“broccoli-basil breadcrumb” sounds delicious in spite of its less
+stellar looks:) Butternut squash – I wonder if I can substitute coconut
 and butter:)</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51684#respond" onclick='return addComment.moveForm( "div-comment-51684", "51684", "respond", "3082" )' aria-label="Reply to Three-Cookies">Reply</a></div>
@@ -1191,13 +1191,13 @@ and butter:)</p>
 				<div id="div-comment-51686" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.bittersweetblog.com/" rel="external nofollow" class="url">Hannah</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51686">
 			Monday, January 23rd, 2012 at 5:15 pm</a>		</div>
 
 		<p>You really do have a way with words, Joanne; I was smiling through your whole post. <img src="eatswellwithothers_files/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"></p>
-<p>Normally, I’m very much opposed to any sort of veggie in my comfort 
-food-style mac and “cheese”, but this broccoli version might just make 
+<p>Normally, I’m very much opposed to any sort of veggie in my comfort
+food-style mac and “cheese”, but this broccoli version might just make
 the grade.</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51686#respond" onclick='return addComment.moveForm( "div-comment-51686", "51686", "respond", "3082" )' aria-label="Reply to Hannah">Reply</a></div>
@@ -1207,7 +1207,7 @@ the grade.</p>
 				<div id="div-comment-51689" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/09087073817681067448" rel="external nofollow" class="url">Sippity Sup</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51689">
 			Monday, January 23rd, 2012 at 6:06 pm</a>		</div>
 
@@ -1220,7 +1220,7 @@ the grade.</p>
 				<div id="div-comment-51690" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.dressanddish.com/" rel="external nofollow" class="url">Dress and Dish: Lana</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51690">
 			Monday, January 23rd, 2012 at 7:13 pm</a>		</div>
 
@@ -1233,7 +1233,7 @@ the grade.</p>
 				<div id="div-comment-51691" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/16242388252098108096" rel="external nofollow" class="url">Katie</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51691">
 			Monday, January 23rd, 2012 at 7:16 pm</a>		</div>
 
@@ -1246,7 +1246,7 @@ the grade.</p>
 				<div id="div-comment-51692" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/03250024810275821678" rel="external nofollow" class="url">janet @ the taste space</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51692">
 			Monday, January 23rd, 2012 at 8:11 pm</a>		</div>
 
@@ -1259,15 +1259,15 @@ the grade.</p>
 				<div id="div-comment-51693" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.teenylittlesuperchef.com/" rel="external nofollow" class="url">TeenyLittleSuperChef</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51693">
 			Monday, January 23rd, 2012 at 8:25 pm</a>		</div>
 
-		<p>Oh my goodness, this sounds absolutely delicious. I can’t wait to 
-try this recipe out. I would never have thought to combine all the 
-ingredients, and yet they’re pretty much all my favorite foods to eat. 
-Thanks for the great recipe! By the way, is there a cheese you think 
-could be substituted for the gruyere? I don’t think I have that one 
+		<p>Oh my goodness, this sounds absolutely delicious. I can’t wait to
+try this recipe out. I would never have thought to combine all the
+ingredients, and yet they’re pretty much all my favorite foods to eat.
+Thanks for the great recipe! By the way, is there a cheese you think
+could be substituted for the gruyere? I don’t think I have that one
 currently in my fridge.</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51693#respond" onclick='return addComment.moveForm( "div-comment-51693", "51693", "respond", "3082" )' aria-label="Reply to TeenyLittleSuperChef">Reply</a></div>
@@ -1277,7 +1277,7 @@ currently in my fridge.</p>
 				<div id="div-comment-51694" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://warmvanillasugar.com/" rel="external nofollow" class="url">warmvanillasugar.com</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51694">
 			Monday, January 23rd, 2012 at 8:33 pm</a>		</div>
 
@@ -1290,7 +1290,7 @@ currently in my fridge.</p>
 				<div id="div-comment-51695" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/11031489606743430354" rel="external nofollow" class="url">OohLookBel</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51695">
 			Monday, January 23rd, 2012 at 8:56 pm</a>		</div>
 
@@ -1303,7 +1303,7 @@ currently in my fridge.</p>
 				<div id="div-comment-51696" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/05034283259164629148" rel="external nofollow" class="url">Magic of Spice</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51696">
 			Monday, January 23rd, 2012 at 8:56 pm</a>		</div>
 
@@ -1316,7 +1316,7 @@ currently in my fridge.</p>
 				<div id="div-comment-51697" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.ramblingtart.com/" rel="external nofollow" class="url">Rambling Tart</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51697">
 			Monday, January 23rd, 2012 at 9:16 pm</a>		</div>
 
@@ -1329,18 +1329,18 @@ currently in my fridge.</p>
 				<div id="div-comment-51698" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/16327344027557036250" rel="external nofollow" class="url">Candace</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51698">
 			Monday, January 23rd, 2012 at 9:20 pm</a>		</div>
 
 		<p>Count me in! It looks delicious! I finally tried out the Pasta with
- Creamy Avocado Sauce on my family last night.  I told them that it 
-would totally give them super powers and I think they bought it. Of 
-course, throwing in a tiny bit of roasted chicken didn’t hurt.  In my 
-effort to make them more healthy, I have to take things slowly with 
-them.  While they enjoyed your Spicy Honey Chipotle Chicken with Sweet 
-Potatoes more, they dug in like brave little soldiers and proceeded to 
-eat every bite of the pasta.  Yay, Joanne!  I think this will be the 
+ Creamy Avocado Sauce on my family last night.  I told them that it
+would totally give them super powers and I think they bought it. Of
+course, throwing in a tiny bit of roasted chicken didn’t hurt.  In my
+effort to make them more healthy, I have to take things slowly with
+them.  While they enjoyed your Spicy Honey Chipotle Chicken with Sweet
+Potatoes more, they dug in like brave little soldiers and proceeded to
+eat every bite of the pasta.  Yay, Joanne!  I think this will be the
 next green meal to spring on them.  Wish me luck!</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51698#respond" onclick='return addComment.moveForm( "div-comment-51698", "51698", "respond", "3082" )' aria-label="Reply to Candace">Reply</a></div>
@@ -1350,7 +1350,7 @@ next green meal to spring on them.  Wish me luck!</p>
 				<div id="div-comment-51699" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/00763572659577939878" rel="external nofollow" class="url">Kathy</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51699">
 			Monday, January 23rd, 2012 at 9:21 pm</a>		</div>
 
@@ -1364,7 +1364,7 @@ next green meal to spring on them.  Wish me luck!</p>
 				<div id="div-comment-51700" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/13575213806359208350" rel="external nofollow" class="url">tigerfish</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51700">
 			Monday, January 23rd, 2012 at 9:47 pm</a>		</div>
 
@@ -1377,7 +1377,7 @@ next green meal to spring on them.  Wish me luck!</p>
 				<div id="div-comment-51701" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.thetrufflehoney.com/" rel="external nofollow" class="url">Nicole</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51701">
 			Monday, January 23rd, 2012 at 9:53 pm</a>		</div>
 
@@ -1390,7 +1390,7 @@ next green meal to spring on them.  Wish me luck!</p>
 				<div id="div-comment-51702" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/08594201473931487490" rel="external nofollow" class="url">Johanna GGG</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51702">
 			Monday, January 23rd, 2012 at 10:17 pm</a>		</div>
 
@@ -1403,7 +1403,7 @@ next green meal to spring on them.  Wish me luck!</p>
 				<div id="div-comment-51703" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/17718363661439719793" rel="external nofollow" class="url">Megan</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51703">
 			Monday, January 23rd, 2012 at 10:54 pm</a>		</div>
 
@@ -1416,7 +1416,7 @@ next green meal to spring on them.  Wish me luck!</p>
 				<div id="div-comment-51704" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/05360985632126622789" rel="external nofollow" class="url">Reeni</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51704">
 			Monday, January 23rd, 2012 at 11:04 pm</a>		</div>
 
@@ -1429,7 +1429,7 @@ next green meal to spring on them.  Wish me luck!</p>
 				<div id="div-comment-51705" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://chasingdelicious.com/tart-apple-dark-chocolate-bread-pudding-with-a-bourbon-cream-sauce/" rel="external nofollow" class="url">Russell at Chasing Delicious</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51705">
 			Monday, January 23rd, 2012 at 11:19 pm</a>		</div>
 
@@ -1442,7 +1442,7 @@ next green meal to spring on them.  Wish me luck!</p>
 				<div id="div-comment-51710" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/13898098819208716948" rel="external nofollow" class="url">Shannon</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51710">
 			Monday, January 23rd, 2012 at 11:32 pm</a>		</div>
 
@@ -1455,7 +1455,7 @@ next green meal to spring on them.  Wish me luck!</p>
 				<div id="div-comment-51711" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/01947222387672744737" rel="external nofollow" class="url">Tessa</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51711">
 			Monday, January 23rd, 2012 at 11:54 pm</a>		</div>
 
@@ -1468,7 +1468,7 @@ next green meal to spring on them.  Wish me luck!</p>
 				<div id="div-comment-51712" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/09234678984137982414" rel="external nofollow" class="url">Mary</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51712">
 			Tuesday, January 24th, 2012 at 1:38 am</a>		</div>
 
@@ -1481,12 +1481,12 @@ next green meal to spring on them.  Wish me luck!</p>
 				<div id="div-comment-51713" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.tasteandtellblog.com/" rel="external nofollow" class="url">Deborah</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51713">
 			Tuesday, January 24th, 2012 at 2:44 am</a>		</div>
 
-		<p>You seriously made me laugh out loud.  I would have never thought 
-of it looking like a chia pet!!  Regardless, you can load my plate up – 
+		<p>You seriously made me laugh out loud.  I would have never thought
+of it looking like a chia pet!!  Regardless, you can load my plate up –
 it sounds fab!</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51713#respond" onclick='return addComment.moveForm( "div-comment-51713", "51713", "respond", "3082" )' aria-label="Reply to Deborah">Reply</a></div>
@@ -1496,7 +1496,7 @@ it sounds fab!</p>
 				<div id="div-comment-51714" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://veronicascornucopia.com/" rel="external nofollow" class="url">Veronica</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51714">
 			Tuesday, January 24th, 2012 at 4:19 am</a>		</div>
 
@@ -1509,7 +1509,7 @@ it sounds fab!</p>
 				<div id="div-comment-51715" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.orgasmicchef.com/" rel="external nofollow" class="url">Maureen</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51715">
 			Tuesday, January 24th, 2012 at 6:00 am</a>		</div>
 
@@ -1522,7 +1522,7 @@ it sounds fab!</p>
 				<div id="div-comment-51716" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/02476562676908314541" rel="external nofollow" class="url">Debbie</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51716">
 			Tuesday, January 24th, 2012 at 7:38 am</a>		</div>
 
@@ -1535,7 +1535,7 @@ it sounds fab!</p>
 				<div id="div-comment-51725" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/08004439474693190019" rel="external nofollow" class="url">That Girl</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51725">
 			Tuesday, January 24th, 2012 at 9:24 am</a>		</div>
 
@@ -1548,7 +1548,7 @@ it sounds fab!</p>
 				<div id="div-comment-51733" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.cookingsgood.com/" rel="external nofollow" class="url">Suzi</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51733">
 			Tuesday, January 24th, 2012 at 10:30 am</a>		</div>
 
@@ -1561,7 +1561,7 @@ it sounds fab!</p>
 				<div id="div-comment-51737" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/12225290360635295731" rel="external nofollow" class="url">fifth floor apartment</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51737">
 			Tuesday, January 24th, 2012 at 11:00 am</a>		</div>
 
@@ -1575,7 +1575,7 @@ it sounds fab!</p>
 				<div id="div-comment-51741" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://preventionrd.com/" rel="external nofollow" class="url">Nicole, RD</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51741">
 			Tuesday, January 24th, 2012 at 11:59 am</a>		</div>
 
@@ -1588,7 +1588,7 @@ it sounds fab!</p>
 				<div id="div-comment-51742" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://duodishes.com/" rel="external nofollow" class="url">The Duo Dishes</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51742">
 			Tuesday, January 24th, 2012 at 12:02 pm</a>		</div>
 
@@ -1601,7 +1601,7 @@ it sounds fab!</p>
 				<div id="div-comment-51743" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/05776870904791768530" rel="external nofollow" class="url">Pam</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51743">
 			Tuesday, January 24th, 2012 at 12:33 pm</a>		</div>
 
@@ -1614,7 +1614,7 @@ it sounds fab!</p>
 				<div id="div-comment-51747" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/15781974730634151455" rel="external nofollow" class="url">Eliana</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51747">
 			Tuesday, January 24th, 2012 at 12:51 pm</a>		</div>
 
@@ -1627,7 +1627,7 @@ it sounds fab!</p>
 				<div id="div-comment-51755" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://bibsandbaubles.com/" rel="external nofollow" class="url">Cam | Bibs and Baubles</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51755">
 			Tuesday, January 24th, 2012 at 4:12 pm</a>		</div>
 
@@ -1640,13 +1640,13 @@ it sounds fab!</p>
 				<div id="div-comment-51756" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.beyondthepeel.net/category/blog" rel="external nofollow" class="url">France@beyondthepeel</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51756">
 			Tuesday, January 24th, 2012 at 4:39 pm</a>		</div>
 
 		<p>What a great idea to add squash to achieve the color and creaminess
  without all the calories and additives typically found in nasty mac and
- cheese. This looks delicious and I like how you sneak in all the 
+ cheese. This looks delicious and I like how you sneak in all the
 healthy bits. Brill girl!</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51756#respond" onclick='return addComment.moveForm( "div-comment-51756", "51756", "respond", "3082" )' aria-label="Reply to France@beyondthepeel">Reply</a></div>
@@ -1656,7 +1656,7 @@ healthy bits. Brill girl!</p>
 				<div id="div-comment-51757" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/14657772782487330009" rel="external nofollow" class="url">eatme_delicious</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51757">
 			Tuesday, January 24th, 2012 at 4:44 pm</a>		</div>
 
@@ -1669,7 +1669,7 @@ healthy bits. Brill girl!</p>
 				<div id="div-comment-51760" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/14861482393432330011" rel="external nofollow" class="url">Chris</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51760">
 			Tuesday, January 24th, 2012 at 6:31 pm</a>		</div>
 
@@ -1685,12 +1685,12 @@ healthy bits. Brill girl!</p>
 				<div id="div-comment-51763" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/02368850949339758604" rel="external nofollow" class="url">grace</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51763">
 			Tuesday, January 24th, 2012 at 7:15 pm</a>		</div>
 
-		<p>oooh, gruyere!  nice touch, joanne!  i never would’ve correctly 
-guessed what your topping was, but it can hardly be called a bad 
+		<p>oooh, gruyere!  nice touch, joanne!  i never would’ve correctly
+guessed what your topping was, but it can hardly be called a bad
 hairpiece. <img src="eatswellwithothers_files/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"></p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51763#respond" onclick='return addComment.moveForm( "div-comment-51763", "51763", "respond", "3082" )' aria-label="Reply to grace">Reply</a></div>
@@ -1700,7 +1700,7 @@ hairpiece. <img src="eatswellwithothers_files/simple-smile.png" alt=":)" class="
 				<div id="div-comment-51765" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/04945906301035526440" rel="external nofollow" class="url">Catherine</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51765">
 			Tuesday, January 24th, 2012 at 8:34 pm</a>		</div>
 
@@ -1713,7 +1713,7 @@ hairpiece. <img src="eatswellwithothers_files/simple-smile.png" alt=":)" class="
 				<div id="div-comment-51769" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.kitchenmisfit.com/" rel="external nofollow" class="url">Amanda L @Tales from a Kitchen Misfit</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51769">
 			Tuesday, January 24th, 2012 at 9:42 pm</a>		</div>
 
@@ -1727,7 +1727,7 @@ hairpiece. <img src="eatswellwithothers_files/simple-smile.png" alt=":)" class="
 				<div id="div-comment-51771" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.sundayswithjennie.com/" rel="external nofollow" class="url">Jennie @ sundayswithjennie</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51771">
 			Tuesday, January 24th, 2012 at 11:19 pm</a>		</div>
 
@@ -1740,7 +1740,7 @@ hairpiece. <img src="eatswellwithothers_files/simple-smile.png" alt=":)" class="
 				<div id="div-comment-51772" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/06438867566896619341" rel="external nofollow" class="url">Kelly Mulcair Registered Nutritionist. Content © 2011 Trinity Nutrition.</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51772">
 			Tuesday, January 24th, 2012 at 11:48 pm</a>		</div>
 
@@ -1753,12 +1753,12 @@ hairpiece. <img src="eatswellwithothers_files/simple-smile.png" alt=":)" class="
 				<div id="div-comment-51826" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/07610258125815219359" rel="external nofollow" class="url">Audra</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51826">
 			Wednesday, January 25th, 2012 at 8:51 pm</a>		</div>
 
-		<p>I love this!!! Anything that makes Mac &amp; Cheese even a little 
-bit healthier may be my new favorite. I love how the veggies created 
+		<p>I love this!!! Anything that makes Mac &amp; Cheese even a little
+bit healthier may be my new favorite. I love how the veggies created
 such a beautiful crust over that dish. Great post!</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51826#respond" onclick='return addComment.moveForm( "div-comment-51826", "51826", "respond", "3082" )' aria-label="Reply to Audra">Reply</a></div>
@@ -1768,7 +1768,7 @@ such a beautiful crust over that dish. Great post!</p>
 				<div id="div-comment-51848" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/11173472189049022779" rel="external nofollow" class="url">Ruth Daniels</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51848">
 			Thursday, January 26th, 2012 at 10:44 am</a>		</div>
 
@@ -1781,14 +1781,14 @@ such a beautiful crust over that dish. Great post!</p>
 				<div id="div-comment-51849" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/11173472189049022779" rel="external nofollow" class="url">Ruth Daniels</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51849">
 			Thursday, January 26th, 2012 at 10:47 am</a>		</div>
 
-		<p>I only saw stunning photos of glorious pasta until you mentioned 
-Chia Pets!   It must be the season for mac ‘n cheese … fineCooking 
-Magazine and Chatelaine had me drooling enough to buy both at the 
-grocery store.   Thanks for sharing your version with Presto Pasta 
+		<p>I only saw stunning photos of glorious pasta until you mentioned
+Chia Pets!   It must be the season for mac ‘n cheese … fineCooking
+Magazine and Chatelaine had me drooling enough to buy both at the
+grocery store.   Thanks for sharing your version with Presto Pasta
 Nights.  It looks amazing!</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51849#respond" onclick='return addComment.moveForm( "div-comment-51849", "51849", "respond", "3082" )' aria-label="Reply to Ruth Daniels">Reply</a></div>
@@ -1798,19 +1798,19 @@ Nights.  It looks amazing!</p>
 				<div id="div-comment-51930" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/12372819800504292402" rel="external nofollow" class="url">Sarah Kathryn</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-51930">
 			Saturday, January 28th, 2012 at 11:22 am</a>		</div>
 
-		<p>Hi! Fellow med student at the Cleveland Clinic, LOVE your blog for 
+		<p>Hi! Fellow med student at the Cleveland Clinic, LOVE your blog for
 the fact that I can make just about any of the recipes and not freak out
- over not being able to see the nutritional info, because I know if you 
-say it’s healthy, you haven’t sneaked in a load of 
-super-sneaky-bad-for-youness while we weren’t looking. I’m new to this 
-whole art of cooking so I have a pretty basic question for you. Our 
-poor-med-student budget doesn’t yet allow for a food processor but I 
+ over not being able to see the nutritional info, because I know if you
+say it’s healthy, you haven’t sneaked in a load of
+super-sneaky-bad-for-youness while we weren’t looking. I’m new to this
+whole art of cooking so I have a pretty basic question for you. Our
+poor-med-student budget doesn’t yet allow for a food processor but I
 have a blender, smoothie maker, and immersion blender. Would a plain old
- blender work instead of a food processor, or is there something else I 
+ blender work instead of a food processor, or is there something else I
 can do in it’s place?<br>Thanks in advance!!</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=51930#respond" onclick='return addComment.moveForm( "div-comment-51930", "51930", "respond", "3082" )' aria-label="Reply to Sarah Kathryn">Reply</a></div>
@@ -1820,7 +1820,7 @@ can do in it’s place?<br>Thanks in advance!!</p>
 				<div id="div-comment-52012" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/07795596315329913917" rel="external nofollow" class="url">Kevin</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-52012">
 			Monday, January 30th, 2012 at 7:25 pm</a>		</div>
 
@@ -1833,7 +1833,7 @@ can do in it’s place?<br>Thanks in advance!!</p>
 				<div id="div-comment-56375" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/05983322443311075523" rel="external nofollow" class="url">Harvesting Joy</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-56375">
 			Monday, April 30th, 2012 at 1:50 pm</a>		</div>
 
@@ -1846,7 +1846,7 @@ can do in it’s place?<br>Thanks in advance!!</p>
 				<div id="div-comment-67051" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://damndelicious.tumblr.com/" rel="external nofollow" class="url">Chung-Ah | Damn Delicious</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-67051">
 			Thursday, January 24th, 2013 at 4:27 pm</a>		</div>
 
@@ -1859,11 +1859,11 @@ can do in it’s place?<br>Thanks in advance!!</p>
 				<div id="div-comment-67058" class="comment-body">
 				<div class="comment-author vcard">
 			<img alt="" src="eatswellwithothers_files/41dc3e007986c35dc46763689fa93174.jpeg" srcset="http://1.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174?s=130&amp;d=mm&amp;r=g 2x" class="avatar avatar-65 photo" height="65" width="65">			<cite class="fn"><a href="http://www.blogger.com/profile/08731435798319897025" rel="external nofollow" class="url">Kim</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-67058">
 			Thursday, January 24th, 2013 at 8:21 pm</a>		</div>
 
-		<p>I absolutely love this!  Mac and cheese and broccoli go perfectly 
+		<p>I absolutely love this!  Mac and cheese and broccoli go perfectly
 together and I’m a huge fan of Cabot reduced fat cheese.  Pinning <img src="eatswellwithothers_files/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"></p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=67058#respond" onclick='return addComment.moveForm( "div-comment-67058", "67058", "respond", "3082" )' aria-label="Reply to Kim">Reply</a></div>
@@ -1873,12 +1873,12 @@ together and I’m a huge fan of Cabot reduced fat cheese.  Pinning <img src="ea
 				<div id="div-comment-76016" class="comment-body">
 				<div class="comment-author vcard">
 						<cite class="fn"><a href="http://www.scoop.it/t/mbsib-the-man-with-the-golden-tongs-goes-all-out-on-health/p/4006348305/joanne-eats-well-with-others-broccoli-basil-mac-and-cheese" rel="external nofollow" class="url">Joanne Eats Well With Others | Broccoli-Basil M...</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-76016">
 			Tuesday, August 20th, 2013 at 1:33 pm</a>		</div>
 
-		<p>[…] "I tried to convince my roommate’s boyfriend that it was just 
-growing an extra coat of broccoli-basil breadcrumb hair for the winter, 
+		<p>[…] "I tried to convince my roommate’s boyfriend that it was just
+growing an extra coat of broccoli-basil breadcrumb hair for the winter,
 to keep warm, as he stood over the tray with his fork dubiously poised."
  <a href="http://buff.ly/16t3Swl&amp;nbsp" rel="nofollow">http://buff.ly/16t3Swl&amp;nbsp</a>; […]</p>
 
@@ -1889,7 +1889,7 @@ to keep warm, as he stood over the tray with his fork dubiously poised."
 				<div id="div-comment-84087" class="comment-body">
 				<div class="comment-author vcard">
 						<cite class="fn"><a href="http://joanne-eatswellwithothers.com/2014/01/chocolate-butter-pecan-sandwich-cookies.html" rel="external nofollow" class="url">Chocolate Butter Pecan Sandwich Cookies - Joanne Eats Well With Others</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-84087">
 			Friday, January 24th, 2014 at 12:22 pm</a>		</div>
 
@@ -1902,20 +1902,20 @@ to keep warm, as he stood over the tray with his fork dubiously poised."
 				<div id="div-comment-100769" class="comment-body">
 				<div class="comment-author vcard">
 						<cite class="fn"><a href="http://culturecheesemag.com/cheese-bites/healthful-twist-mac-n-cheese" rel="external nofollow" class="url">culture: the word on cheese</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#comment-100769">
 			Tuesday, February 3rd, 2015 at 11:30 am</a>		</div>
 
-		<p>[…] is to cut out the bread crumbs. If you don’t want to forgo a 
-delicious crust altogether, try broccoli instead. This veggie topping 
-gives you some of your daily allotted nutrition while maintaining the 
+		<p>[…] is to cut out the bread crumbs. If you don’t want to forgo a
+delicious crust altogether, try broccoli instead. This veggie topping
+gives you some of your daily allotted nutrition while maintaining the
 cheesy […]</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html?replytocom=100769#respond" onclick='return addComment.moveForm( "div-comment-100769", "100769", "respond", "3082" )' aria-label="Reply to culture: the word on cheese">Reply</a></div>
 				</div>
 		</li><!-- #comment-## -->
 			</ol>
-			
+
 
 						<div id="respond" class="comment-respond">
 				<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="http://joanne-eatswellwithothers.com/2012/01/recipe-broccoli-basil-mac-and-cheese.html#respond" style="display:none;">Cancel reply</a></small></h3>
@@ -1924,9 +1924,9 @@ cheesy […]</p>
 <p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" size="30" aria-describedby="email-notes" aria-required="true" required="required" type="text"></p>
 <p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" size="30" type="text"></p>
 												<p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-describedby="form-allowed-tags" aria-required="true" required="required"></textarea></p>						<p class="form-allowed-tags" id="form-allowed-tags">You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:  <code>&lt;a
- href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt; 
-&lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del 
-datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;s&gt; 
+ href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt;
+&lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del
+datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;s&gt;
 &lt;strike&gt; &lt;strong&gt; </code></p>
 						<p class="form-submit"><input name="submit" id="submit" class="submit" value="Post Comment" type="submit"> <input name="comment_post_ID" value="3082" id="comment_post_ID" type="hidden">
 <input name="comment_parent" id="comment_parent" value="0" type="hidden">
@@ -1946,11 +1946,11 @@ datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;s&gt;
 				</div>
 
 							</div>
-			
+
 		<div id="sidebar-wrap" class="">
 					<div id="sidebar1" class="scolumn">
 					<div class="scolumn-pad">
-						
+
 
 <!-- Primary Sidebar | Section Template -->
 <section id="sb_primary" class="copy clone_1 section-sb_primary"><div class="copy-pad"><ul id="list_sb_primary" class="sidebar_widgets fix"><li id="text-2" class="widget_text widget fix"><div class="widget-pad">			<div class="textwidget"><div id="jphoto">
@@ -1959,7 +1959,7 @@ datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;s&gt;
 <div id="table">
 <img src="eatswellwithothers_files/sidebar_about.png" class="alignleft" alt="joanne">
 <p>
-Welcome to Eats Well With Others, where we take a vegetable-and-cupcake 
+Welcome to Eats Well With Others, where we take a vegetable-and-cupcake
 laden approach to life (always with a bit of laughter on the side)!
 
 
@@ -2079,7 +2079,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1373476303788-2');
 
 	<footer id="footer" class="container-group">
 		<div class="outline fix">
-		
+
 
 <!-- Footer Columns Sidebar | Section Template -->
 <section id="sb_footcols" class="container clone_1 section-sb_footcols fix"><div class="texture"><div class="content"><div class="content-pad"><div class="fcolumns ppfull pprow"><div class="fcolumns-pad fix"><div class="pp5 footcol"><div class="footcol-pad">			<div class="textwidget"><div id="badgest">
@@ -2094,7 +2094,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1373476303788-2');
         min-width: 100px;
     }
     .eyb-widget {
-        background: url('http://c1522072.r72.cf0.rackcdn.com/widget-bg.png');        
+        background: url('http://c1522072.r72.cf0.rackcdn.com/widget-bg.png');
         min-width: 100px;
         max-width: 200px;
         height: 170px;
@@ -2105,7 +2105,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1373476303788-2');
     }
     .eyb-widget center {
         height: 67px;
-    } 
+    }
     .eyb-widget-count {
         color: #fff;
         display: block;
@@ -2131,7 +2131,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1373476303788-2');
         width: 100%;
     }
     .eyb-widget-search {
-        background: url('http://c1522072.r72.cf0.rackcdn.com/widget-eyb-button.png') top;        
+        background: url('http://c1522072.r72.cf0.rackcdn.com/widget-eyb-button.png') top;
         width: 119px;
         height: 34px;
         line-height: 30px;

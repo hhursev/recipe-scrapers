@@ -71,7 +71,7 @@
     SNI_COMMUNITY_SERVICES.SITE_NAME = "fooddotcom";
     SNI_COMMUNITY_SERVICES.SITE_CODE = "fdc";
 
-    
+
     window.__gigyaConf = {
         defaultRegScreenSet: "GK-LoginReg",
         defaultMobileRegScreenSet: "GK-LoginReg",
@@ -79,7 +79,7 @@
         sessionExpiration: 31536000
     };
 
-    
+
 
 
 
@@ -151,7 +151,7 @@ function addToSet(set,arr){arr.forEach(function(){set.add(this)})}function array
         useShortUrl: true,
         initHeader: true
 
-        
+
     }]);
 </script>
 <!--[if lt IE 9]>
@@ -310,9 +310,9 @@ function addToSet(set,arr){arr.forEach(function(){set.add(this)})}function array
 
 
 <script>
-    
+
     var whisk = whisk || {}; whisk.queue = whisk.queue || []; whisk.queue.push(function () {     whisk.shoppingList.defineWidget('CCKU-VPLO-TYHX-LNGN', {        whiteLabel: 'geniuskitchen',        styles: {            size: 'large'        }    });});
-    
+
             mdManager = typeof mdManager !== 'undefined' ? mdManager : new MetaDataManager();
         mdManager.addParameter("adkey1", "PORK");
         mdManager.addParameter("adkey2", "");
@@ -335,7 +335,7 @@ function addToSet(set,arr){arr.forEach(function(){set.add(this)})}function array
         mdManager.addParameter("OrigPubDate", "2002-02-08|2019-01-23");
         mdManager.addParameter("TopRecipe", "false");
 
-    
+
 </script>
 
 
@@ -352,7 +352,7 @@ function addToSet(set,arr){arr.forEach(function(){set.add(this)})}function array
 <body class="RECIPE" data-page-type="RECIPE">
 <div class="fd-site-wrapper">
 
-    
+
 
 
 
@@ -370,7 +370,7 @@ function addToSet(set,arr){arr.forEach(function(){set.add(this)})}function array
 html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .link-no-underline[data-static-hdr]:visited, html:not(.touch) .link-no-underline[data-static-hdr]:active, html:not(.touch) .link-no-underline[data-static-hdr]:hover { text-decoration: none; } header[data-static-hdr] { width: 100% !important; } .v-header[data-static-hdr] { background-color: transparent; z-index: 1000; padding: 0; margin: 0; background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), color-stop(97%, rgba(0, 0, 0, 0.39))); background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.39) 97%); -webkit-transition: all top 0.25s ease 0 ease-out; transition: all top 0.25s ease 0 ease-out; } .v-header-wrap[data-static-hdr] { background-color: transparent; background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), color-stop(97%, rgba(0, 0, 0, 0.75))); background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 97%); height: 105px; padding: 0 5px; } @media screen and (min-width: 768px) { .v-header-wrap[data-static-hdr] { height: 92px; position: relative; display: block; } } @media screen and (min-width: 1025px) { .v-header-wrap[data-static-hdr] { height: 92px; } } .v-header-lb-wrap[data-static-hdr] { background-color: #000; } @media screen and (min-width: 768px) { .v-header-lb-wrap[data-static-hdr] { height: 90px; } } .v-header-theme[data-static-hdr] { position: relative; top: auto; left: auto; right: auto; } .v-header-theme.black .v-header-wrap[data-static-hdr] { background-color: #000; } .v-header-theme .v-header-wrap[data-static-hdr] { background-image: none; background-color: #000; border-bottom: solid 8px #77E2E1; } .v-header-theme.stroke-berry .v-header-wrap[data-static-hdr] { border-bottom: solid 8px #B02B96; } .v-header-theme.stroke-lemon .v-header-wrap[data-static-hdr], .v-header-theme.stroke-gk .v-header-wrap[data-static-hdr] { border-bottom: solid 8px #F4CE33; } .v-header-theme.stroke-pumpkin .v-header-wrap[data-static-hdr] { border-bottom: solid 8px #FF6932; } .v-header-theme.stroke-clover .v-header-wrap[data-static-hdr] { border-bottom: solid 8px #08AD28; } .v-header-theme.stroke-sangria .v-header-wrap[data-static-hdr] { border-bottom: solid 8px #D12436; } .v-header-theme.stroke-black .v-header-wrap[data-static-hdr] { border-bottom: solid 8px #000; } .v-header.menu-on[data-static-hdr] { background-image: none; margin-bottom: 0; position: fixed; top: 0; bottom: 0; left: 0; right: 0; overflow-y: auto; background-color: rgba(0, 0, 0, 0.5); } .v-header.menu-on .v-header-lb-overlay[data-static-hdr] { display: block; } .gk-header-wrap[data-static-hdr] { z-index: 1000; position: absolute; top: 0; right: 0; left: 0; min-height: 105px; } @media screen and (min-width: 768px) { .gk-header-wrap[data-static-hdr] { min-height: 92px; } } @media screen and (min-width: 1025px) { .gk-header-wrap[data-static-hdr] { min-height: 92px; } } .gk-header-wrap.themed[data-static-hdr] { position: relative; top: auto; right: auto; left: auto; } .gk-header-wrap.themed .v-header-wrap[data-static-hdr], .gk-header-wrap.on .v-header-wrap[data-static-hdr] { height: 105px; } @media screen and (min-width: 768px) { .gk-header-wrap.themed .v-header-wrap[data-static-hdr], .gk-header-wrap.on .v-header-wrap[data-static-hdr] { height: 100px; } } @media screen and (min-width: 1025px) { .gk-header-wrap.themed .v-header-wrap[data-static-hdr], .gk-header-wrap.on .v-header-wrap[data-static-hdr] { height: 100px; } } .gk-header-wrap.on .v-header-wrap[data-static-hdr] { background-color: black; border-bottom: 8px solid #F4CE33 !important; } .v-nav[data-static-hdr] { display: -webkit-box; display: -ms-flexbox; display: flex; } @media screen and (min-width: 768px) { .v-nav[data-static-hdr] { height: 92px; width: 750px; min-width: 750px; max-width: 750px; margin: auto; } } @media screen and (min-width: 1025px) { .v-nav[data-static-hdr] { height: 92px; width: 994px; min-width: 994px; max-width: 994px; } } .v-nav-group[data-static-hdr] { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-flex: 1; -ms-flex: 1 0 auto; flex: 1 0 auto; -webkit-box-align: center; -ms-flex-align: center; align-items: center; } .v-nav-group.shift-right[data-static-hdr] { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; } .v-nav-logo[data-static-hdr] { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 113px; height: 46px; margin-bottom: 3.5px; margin-right: 36px; } .v-nav-logo a[data-static-hdr] { display: block; margin-top: 8px; -webkit-box-flex: 1; -ms-flex: 1 0 113px; flex: 1 0 113px; width: inherit; height: inherit; } .v-nav-logo a svg[data-static-hdr] { width: 100%; height: 100%; } @media screen and (min-width: 768px) { .v-nav-logo[data-static-hdr] { width: 167px; height: 69px; } .v-nav-logo a[data-static-hdr] { -webkit-box-flex: 1; -ms-flex: 1 0 167px; flex: 1 0 167px; } } .v-nav-how-to-watch[data-static-hdr] { text-align: center; background-color: #fff; background: -webkit-gradient(linear, left top, right top, color-stop(40%, #fff), color-stop(20%, rgba(255, 255, 255, 0))); background: linear-gradient(to right, #fff 40%, rgba(255, 255, 255, 0) 20%); background-position: top; background-size: 3px 1px; background-repeat: repeat-x; margin: 0 14px 0; } .v-nav-how-to-watch a h6[data-static-hdr] { color: #F4CE33; font-size: 12px; border-bottom: solid 2px transparent; display: inline-block; font-family: "brandon-grotesque", '"Helvetica Neue", Helvetica, arial, sans serif'; font-weight: 700; font-style: normal; font-stretch: normal; text-transform: uppercase; white-space: normal; letter-spacing: 1px; margin: 0 0 14px; } html:not(.touch) .v-nav-how-to-watch a[data-static-hdr]:hover { text-decoration: none; } html:not(.touch) .v-nav-how-to-watch a:hover h6[data-static-hdr] { color: #F4CE33; text-decoration: none; border-bottom-color: #fff; } .v-nav-how-to-watch a svg[data-static-hdr] { width: 100%; } .v-nav-how-to-watch .htw-inner[data-static-hdr] { padding: 19px 0 21px 0; background-color: #fff; background: -webkit-gradient(linear, left top, right top, color-stop(40%, #fff), color-stop(20%, rgba(255, 255, 255, 0))); background: linear-gradient(to right, #fff 40%, rgba(255, 255, 255, 0) 20%); background-position: bottom; background-size: 3px 1px; background-repeat: repeat-x; } .v-nav-toggle[data-static-hdr] { position: static; } @media screen and (min-width: 768px) { .v-nav-toggle[data-static-hdr] { position: relative; } .v-nav-toggle .v-nav-toggle-btn[data-static-hdr] { padding: 0 14px 0 0; margin: 0; } } @media screen and (min-width: 1025px) { .shift-right .v-nav-toggle .v-nav-toggle-btn[data-static-hdr] { padding: 0 14px; margin: 0; } } .v-nav-toggle-menu[data-static-hdr] { display: none; overflow-y: auto; position: absolute; top: 105px; left: 0; right: 0; min-width: 176px; } @media screen and (min-width: 768px) { .v-nav-toggle-menu[data-static-hdr] { top: 100px; } .v-nav-toggle-menu.menu-profile[data-static-hdr] { right: 0; left: auto; } } @media screen and (min-width: 1025px) { .v-nav-toggle-menu[data-static-hdr] { top: 100px; } } @media screen and (max-width: 767px) { .v-nav-toggle-menu[data-static-hdr] { position: fixed; left: 0; bottom: 0; top: 105px; right: 0; } } .v-nav-toggle-menu-inner[data-static-hdr] { background-color: #fff; } @media screen and (max-width: 767px) { .v-nav-toggle-menu-inner[data-static-hdr] { padding: 28px 35px; } } @media screen and (min-width: 768px) { .v-nav-toggle-menu-inner[data-static-hdr] { padding: 33px 0; } } .v-nav-toggle-menu .v-menu-toolbar[data-static-hdr] { padding: 3.5px 0; text-align: right; position: absolute; top: 0; right: 0; left: auto; } .v-nav-toggle-menu .v-menu-toolbar button[data-static-hdr], .v-nav-toggle-menu .v-menu-toolbar button.nav-toggle[data-static-hdr] { -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: transparent; display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; height: 30; line-height: 30px; outline: none; padding: 5px 14px; width: auto; } .v-nav-toggle-menu .v-menu-toolbar button i[data-static-hdr], .v-nav-toggle-menu .v-menu-toolbar button.nav-toggle i[data-static-hdr], .v-nav-toggle-menu .v-menu-toolbar button .btn-text[data-static-hdr], .v-nav-toggle-menu .v-menu-toolbar button.nav-toggle .btn-text[data-static-hdr] { color: #000; } .v-nav-toggle-menu .v-menu-toolbar button i[data-static-hdr], .v-nav-toggle-menu .v-menu-toolbar button.nav-toggle i[data-static-hdr] { font-size: 16px; } .v-nav-toggle-menu .v-menu-toolbar button .btn-text[data-static-hdr], .v-nav-toggle-menu .v-menu-toolbar button.nav-toggle .btn-text[data-static-hdr] { font-family: "brandon-grotesque", '"Helvetica Neue", Helvetica, arial, sans serif'; font-weight: 400; font-style: normal; font-stretch: normal; text-transform: uppercase; white-space: normal; letter-spacing: 1px; display: block; font-size: 13px; line-height: 30px; } @media screen and (min-width: 768px) { .v-nav-toggle-menu .v-menu-toolbar[data-static-hdr] { display: none; } } .v-nav-toggle-menu .nav-featured[data-static-hdr] { background-color: #F4CE33; } .v-nav-toggle-menu ul[data-static-hdr] { padding: 0; margin: 0; list-style: none; } .v-nav-toggle-menu dl[data-static-hdr] { padding: 0; margin: 0; } @media screen and (max-width: 767px) { .v-nav-toggle-menu dl[data-static-hdr] { padding-bottom: 7px; } .v-nav-toggle-menu dl:not(.nav-user) dd[data-static-hdr] { display: none; padding-left: 14px; } .v-nav-toggle-menu dl:not(.nav-user).on dt[data-static-hdr], .v-nav-toggle-menu dl:not(.nav-user).on dt a[data-static-hdr], .v-nav-toggle-menu dl:not(.nav-user).on dt a[data-static-hdr]:link, .v-nav-toggle-menu dl:not(.nav-user).on dt a[data-static-hdr]:visited { color: #8C8C8C; } .v-nav-toggle-menu dl:not(.nav-user).on dd[data-static-hdr] { display: block; } } .v-nav-toggle-menu dl dd[data-static-hdr], .v-nav-toggle-menu dl dt[data-static-hdr] { margin: 0; min-height: 26px; padding-bottom: 8px; } .v-nav-toggle-menu dl dd > a[data-static-hdr], .v-nav-toggle-menu dl dt > a[data-static-hdr] { border-bottom: 2px solid transparent; margin: 0 auto; } .v-nav-toggle-menu dl dd > a[data-static-hdr]:active, .v-nav-toggle-menu dl dt > a[data-static-hdr]:active, .v-nav-toggle-menu dl dd > a[data-static-hdr]:focus, .v-nav-toggle-menu dl dt > a[data-static-hdr]:focus { text-decoration: none; } .v-nav-toggle-menu dl dd a[data-static-hdr] { font-family: "Gotham", '"Helvetica Neue", Helvetica, arial, sans serif'; font-weight: 400; font-style: normal; font-stretch: normal; text-transform: capitalize; white-space: normal; letter-spacing: 0; font-size: 12px; } .v-nav-toggle-menu dl dd a[data-static-hdr], .v-nav-toggle-menu dl dd a[data-static-hdr]:link, .v-nav-toggle-menu dl dd a[data-static-hdr]:visited, .v-nav-toggle-menu dl dd a[data-static-hdr]:active, html:not(.touch) .v-nav-toggle-menu dl dd a[data-static-hdr]:hover { color: #000; } html:not(.touch) .v-nav-toggle-menu dl dd a[data-static-hdr]:hover, .v-nav-toggle-menu dl dd a[data-static-hdr]:active { text-decoration: none; border-bottom: 2px solid #77E2E1; } @media screen and (min-width: 768px) { .v-nav-toggle-menu dl dd[data-static-hdr] { padding-right: 7px; } } @media screen and (min-width: 768px) { .v-nav-toggle-menu dl dd[data-static-hdr], .v-nav-toggle-menu dl dt[data-static-hdr] { text-align: left; } .v-nav-toggle-menu dl dd a[data-static-hdr], .v-nav-toggle-menu dl dt a[data-static-hdr] { margin: 0; } } .v-nav-toggle-menu dl.nav-user dd a[data-static-hdr], .v-nav-toggle-menu dl dt[data-static-hdr] { font-family: "brandon-grotesque", '"Helvetica Neue", Helvetica, arial, sans serif'; font-weight: 700; font-style: normal; font-stretch: normal; text-transform: uppercase; white-space: normal; font-size: 13px; letter-spacing: 1px; color: #892074; } @media screen and (min-width: 768px) { .v-nav-toggle-menu dl.nav-user dd a[data-static-hdr], .v-nav-toggle-menu dl dt[data-static-hdr] { font-size: 15px; } } @media screen and (min-width: 1025px) { .v-nav-toggle-menu dl.nav-user dd a[data-static-hdr], .v-nav-toggle-menu dl dt[data-static-hdr] { font-size: 15px; } } html:not(.touch) .v-nav-toggle-menu dl.nav-user dd a[data-static-hdr]:hover, html:not(.touch) .v-nav-toggle-menu dl dt[data-static-hdr]:hover, html:not(.touch) .v-nav-toggle-menu dl.nav-user dd a a[data-static-hdr]:hover, html:not(.touch) .v-nav-toggle-menu dl dt a[data-static-hdr]:hover { color: #892074; } .v-nav-toggle-menu dl.nav-user[data-static-hdr] { padding-bottom: 0; } .v-nav-toggle-menu dl.nav-user dd[data-static-hdr] { text-align: right; } .v-nav-toggle-menu dl.nav-user dd[data-static-hdr]:last-child { padding-bottom: 0; height: auto; min-height: 0; } @media screen and (min-width: 768px) { .v-nav-toggle-menu dl.nav-user[data-static-hdr] { margin: 0 14px; } } .on.v-nav-toggle .v-nav-toggle-menu[data-static-hdr], .v-nav-toggle-menu.on[data-static-hdr] { display: block; } .on.v-nav-toggle .v-nav-toggle-menu.fullWidth[data-static-hdr], .v-nav-toggle-menu.on.fullWidth[data-static-hdr] { background-color: #fff; } @media screen and (min-width: 768px) { .on.v-nav-toggle .v-nav-toggle-menu.fullWidth[data-static-hdr], .v-nav-toggle-menu.on.fullWidth[data-static-hdr] { top: 100px; } .on.v-nav-toggle .v-nav-toggle-menu.fullWidth .v-nav-toggle-menu-inner[data-static-hdr], .v-nav-toggle-menu.on.fullWidth .v-nav-toggle-menu-inner[data-static-hdr] { display: grid; padding: 24px 0 10px; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; margin: 0 auto; width: 749px; } .on.v-nav-toggle .v-nav-toggle-menu.fullWidth .v-nav-toggle-menu-inner .recipe-topics[data-static-hdr], .v-nav-toggle-menu.on.fullWidth .v-nav-toggle-menu-inner .recipe-topics[data-static-hdr] { margin-top: 28px; } .on.v-nav-toggle .v-nav-toggle-menu.fullWidth .v-nav-toggle-menu-inner .recipe-topics[data-static-hdr]:first-child, .v-nav-toggle-menu.on.fullWidth .v-nav-toggle-menu-inner .recipe-topics[data-static-hdr]:first-child { margin-top: 0; } .on.v-nav-toggle .v-nav-toggle-menu.fullWidth .v-nav-toggle-menu-inner dl[data-static-hdr], .v-nav-toggle-menu.on.fullWidth .v-nav-toggle-menu-inner dl[data-static-hdr] { width: 116px; } .on.v-nav-toggle .v-nav-toggle-menu.fullWidth .v-nav-toggle-menu-inner dl dt[data-static-hdr], .v-nav-toggle-menu.on.fullWidth .v-nav-toggle-menu-inner dl dt[data-static-hdr], .on.v-nav-toggle .v-nav-toggle-menu.fullWidth .v-nav-toggle-menu-inner dl dd[data-static-hdr], .v-nav-toggle-menu.on.fullWidth .v-nav-toggle-menu-inner dl dd[data-static-hdr] { line-height: 1.2; } } @media screen and (min-width: 1025px) { .on.v-nav-toggle .v-nav-toggle-menu.fullWidth .v-nav-toggle-menu-inner[data-static-hdr], .v-nav-toggle-menu.on.fullWidth .v-nav-toggle-menu-inner[data-static-hdr] { width: 994px; } .on.v-nav-toggle .v-nav-toggle-menu.fullWidth .v-nav-toggle-menu-inner dl[data-static-hdr], .v-nav-toggle-menu.on.fullWidth .v-nav-toggle-menu-inner dl[data-static-hdr] { width: 161px; } } .with-leaderboard .v-nav-toggle-menu[data-static-hdr] { top: 155px; } @media screen and (min-width: 768px) { .with-leaderboard .on.v-nav-toggle .v-nav-toggle-menu[data-static-hdr] { top: 100px; } } button.v-nav-toggle-btn[data-static-hdr] { background-color: transparent; cursor: pointer; margin: 0; padding: 0; width: 40px; color: #fff; outline: none; white-space: nowrap; height: 67px; line-height: 67px; } .SEARCH button.v-nav-toggle-btn[data-static-hdr], .SEARCH button.v-nav-toggle-btn .btn-text[data-static-hdr], .SEARCH button.v-nav-toggle-btn i[data-static-hdr] { color: #77E2E1; } button.v-nav-toggle-btn i[data-static-hdr], button.v-nav-toggle-btn i[data-static-hdr]:before { font-size: 27px; } button.v-nav-toggle-btn .btn-text[data-static-hdr] { display: none; font-family: "brandon-grotesque", '"Helvetica Neue", Helvetica, arial, sans serif'; font-weight: 900; font-style: normal; font-stretch: normal; text-transform: uppercase; white-space: normal; letter-spacing: 1.2px; font-size: 13px; white-space: nowrap; letter-spacing: 1px; } @media screen and (min-width: 768px) { button.v-nav-toggle-btn .btn-text[data-static-hdr] { font-size: 15px; } } @media screen and (min-width: 1025px) { button.v-nav-toggle-btn .btn-text[data-static-hdr] { display: inline-block; } } @media screen and (min-width: 768px) { button.v-nav-toggle-btn[data-static-hdr] { width: 50px; height: 92px; line-height: 92px; } button.v-nav-toggle-btn.with-text[data-static-hdr] { width: auto; font-family: "brandon-grotesque", '"Helvetica Neue", Helvetica, arial, sans serif'; font-weight: 900; font-style: normal; font-stretch: normal; text-transform: uppercase; white-space: normal; letter-spacing: 1px; font-size: 15px; letter-spacing: 1.2px; } } @media screen and (min-width: 1025px) { button.v-nav-toggle-btn[data-static-hdr] { height: 92px; line-height: 92px; min-width: 50px; } button.v-nav-toggle-btn.btn-search[data-static-hdr] { overflow: hidden; } button.v-nav-toggle-btn.btn-search .btn-text[data-static-hdr], button.v-nav-toggle-btn.btn-search i[data-static-hdr], button.v-nav-toggle-btn.btn-search i[data-static-hdr]:before { text-shadow: none; } button.v-nav-toggle-btn.btn-search i[data-static-hdr], button.v-nav-toggle-btn.btn-search i[data-static-hdr]:before { font-size: 25px; -webkit-transform: translateY(-2px); transform: translateY(-2px); } button.v-nav-toggle-btn .btn-text[data-static-hdr] { display: inline-block; } } button.v-nav-toggle-btn.btn-profile[data-static-hdr] { -webkit-text-fill-color: #fff; -webkit-opacity: 1; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; margin: 0px; padding: 0px; white-space: nowrap; width: 40px; } @media screen and (max-width: 767px) { button.v-nav-toggle-btn.btn-profile[data-static-hdr] { margin-left: 7px; } } html:not(.touch) button.v-nav-toggle-btn.btn-profile:hover .gk-avatar[data-static-hdr] { border-color: #77E2E1; } @media screen and (min-width: 768px) { button.v-nav-toggle-btn.btn-profile[data-static-hdr] { min-width: 50px; width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; } button.v-nav-toggle-btn.btn-profile .gk-avatar-outer[data-static-hdr] { padding: 0 7px; width: auto; } button.v-nav-toggle-btn.btn-profile .gk-avatar-outer[data-static-hdr] { -ms-flex-negative: 0; flex-shrink: 0; height: 92px; line-height: 92px; } } html:not(.touch) button.v-nav-toggle-btn[data-static-hdr]:hover { background-color: transparent; opacity: 1; } html:not(.touch) button.v-nav-toggle-btn[data-static-hdr]:hover, html:not(.touch) button.v-nav-toggle-btn:hover a[data-static-hdr], html:not(.touch) button.v-nav-toggle-btn:hover .btn-text[data-static-hdr], html:not(.touch) button.v-nav-toggle-btn:hover i[data-static-hdr] { color: #77E2E1; } html:not(.touch) .v-nav-toggle.on .v-nav-toggle-btn[data-static-hdr]:hover, .v-nav-toggle.on .v-nav-toggle-btn a[data-static-hdr] { color: #77E2E1; } .v-nav-toggle.on .v-nav-toggle-btn .gk-avatar[data-static-hdr] { border-color: #77E2E1; } .v-nav-toggle.on .v-nav-toggle-btn .gk-avatar-outer[data-static-hdr] { background-color: #000; } .v-nav-toggle.on .v-nav-toggle-menu[data-static-hdr] { display: block; } .v-nav-exposed[data-static-hdr] { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; } .v-nav-exposed[data-static-hdr], .v-nav-exposed .v-nav-toggle[data-static-hdr] { height: 67px; line-height: 67px; } @media screen and (min-width: 768px) { .v-nav-exposed[data-static-hdr], .v-nav-exposed .v-nav-toggle[data-static-hdr] { height: 92px; line-height: 92px; } } @media screen and (min-width: 1025px) { .v-nav-exposed[data-static-hdr], .v-nav-exposed .v-nav-toggle[data-static-hdr] { height: 92px; line-height: 92px; } } .v-nav-exposed .v-nav-toggle[data-static-hdr] { -webkit-box-flex: 1; -ms-flex: 1 0 auto; flex: 1 0 auto; margin: 0; padding: 0 14px; cursor: pointer; } @media screen and (min-width: 768px) { .v-nav-exposed .v-nav-toggle[data-static-hdr] { padding: 0 17px; } .v-nav-exposed .v-nav-toggle[data-static-hdr]:first-child { padding-left: 14px; } } .v-nav-exposed .v-nav-toggle a[data-static-hdr] { font-family: "brandon-grotesque", '"Helvetica Neue", Helvetica, arial, sans serif'; font-weight: 900; font-style: normal; font-stretch: normal; text-transform: uppercase; white-space: normal; font-size: 13px; letter-spacing: 1px; } .v-nav-exposed .v-nav-toggle a[data-static-hdr], .v-nav-exposed .v-nav-toggle a[data-static-hdr]:link, .v-nav-exposed .v-nav-toggle a[data-static-hdr]:visited { color: #fff; text-decoration: none; } html:not(.touch) .v-nav-exposed .v-nav-toggle:hover a[data-static-hdr], .v-nav-exposed .v-nav-toggle:active a[data-static-hdr] { color: #77E2E1; text-decoration: none; } @media screen and (min-width: 768px) { .v-nav-exposed .v-nav-toggle a[data-static-hdr] { font-size: 15px; letter-spacing: 1.2px; } } .v-nav-exposed .v-nav-toggle.on a[data-static-hdr], .v-nav-exposed .v-nav-toggle.on a[data-static-hdr]:link, .v-nav-exposed .v-nav-toggle.on a[data-static-hdr]:visited { color: #77E2E1; } .v-nav-exposed.v-nav-exposed-xs[data-static-hdr], .v-nav-exposed.v-nav-exposed-xs .v-nav-toggle[data-static-hdr] { height: 30px; line-height: 30px; } .btn-profile .gk-avatar-outer[data-static-hdr] { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; } .btn-profile .gk-avatar-outer .gk-avatar[data-static-hdr] { -webkit-box-flex: 1; -ms-flex: 1 0 auto; flex: 1 0 auto; width: 32px; height: 32px; max-width: 32px; max-height: 32px; -webkit-border-top-right-radius: 32px; -webkit-border-bottom-right-radius: 32px; -webkit-border-bottom-left-radius: 32px; -webkit-border-top-left-radius: 32px; -moz-border-radius-topright: 32px; -moz-border-radius-bottomright: 32px; -moz-border-radius-bottomleft: 32px; -moz-border-radius-topleft: 32px; border-top-right-radius: 32px; border-bottom-right-radius: 32px; border-bottom-left-radius: 32px; border-top-left-radius: 32px; background-clip: padding-box; border: 2px solid #fff; overflow: hidden; display: inline-block; vertical-align: middle; } .btn-profile .gk-avatar-outer .gk-avatar img[data-static-hdr] { display: block; min-height: 100%; min-width: 100%; max-height: 100%; max-width: 100%; } @media screen and (min-width: 768px) { .btn-profile .gk-avatar-outer .gk-avatar[data-static-hdr] { height: 41px; width: 41px; max-height: 41px; max-width: 41px; } } @media screen and (min-width: 1025px) { .btn-profile .gk-avatar-outer .gk-avatar[data-static-hdr] { height: 45px; width: 45px; max-height: 45px; max-width: 45px; } } .modal-backdrop[data-static-hdr] { position: fixed; top: 0; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.3); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; z-index: 1010; } .modal[data-static-hdr] { border: 2px solid #000; background: #fff; overflow-x: auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; width: 277px; } @media screen and (min-width: 768px) { .modal[data-static-hdr] { width: 336px; } } .modal-header[data-static-hdr], .modal-footer[data-static-hdr] { display: -webkit-box; display: -ms-flexbox; display: flex; } .modal-header[data-static-hdr] { color: #000; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; font-family: "brandon-grotesque", '"Helvetica Neue", Helvetica, arial, sans serif'; font-weight: 700; font-style: normal; font-stretch: normal; text-transform: uppercase; white-space: normal; letter-spacing: 1px; font-size: 32px; margin-top: 18px; margin-bottom: 14px; } @media screen and (min-width: 768px) { .modal-header[data-static-hdr] { margin-top: 34px; margin-bottom: 25px; } } .modal-header h4[data-static-hdr] { margin: 0; line-height: 24px; font-weight: 900; } .modal-footer[data-static-hdr] { border-top: 1px solid #eeeeee; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; margin-top: 15px; height: 44px; } .modal-body[data-static-hdr] { position: relative; } .modal-body p[data-static-hdr] { font-family: "Gotham", '"Helvetica Neue", Helvetica, arial, sans serif'; font-weight: 600; font-style: normal; font-stretch: normal; text-transform: none; white-space: normal; letter-spacing: 0; font-weight: 400; padding: 0 14px; text-align: left; margin: 0; font-size: 12px; line-height: 21px; margin-bottom: 8px; } @media screen and (min-width: 768px) { .modal-body p[data-static-hdr] { font-size: 16px; line-height: 24px; padding-bottom: 16px; } .modal-body p[data-static-hdr]:last-of-type { padding-bottom: 0; } } .btn-close[data-static-hdr] { border: none; font-size: 20px; padding: 20px; cursor: pointer; font-weight: bold; color: #4AAE9B; background: transparent; } .btn-green[data-static-hdr] { color: #000; background: #77E2E1; border-radius: 2px; display: block; width: 100%; font-family: "brandon-grotesque", '"Helvetica Neue", Helvetica, arial, sans serif'; font-weight: 700; font-style: normal; font-stretch: normal; text-transform: uppercase; white-space: normal; letter-spacing: 1px; font-size: 20px; }
 </style>
     <section data-static-hdr="" class="gk-header-wrap GENIUS  themed">
-    
+
         <div class="v-header-lb-wrap">
             <div class="fd-ad dfp_smartphone_banner hidden-sm hidden-md hidden-lg"
                 id="dfp_smartphone_banner"
@@ -379,7 +379,7 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                 id="dfp_leaderboard"
                 data-dfp-type="dfp_leaderboard"></div>
         </div>
-    
+
         <header data-static-hdr="" class="v-header black stroke-berry v-header-theme">
             <div data-static-hdr="" class="v-header-wrap">
                 <nav data-static-hdr="" class="v-nav">
@@ -392,13 +392,13 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                         <div data-static-hdr="" class="v-nav-exposed hidden-xs">
                             <div data-static-hdr="" class="v-nav-toggle"><a data-static-hdr="" href="/recipe">RECIPES</a></div>
 
-                            
+
 
                                 <div data-static-hdr="" class="v-nav-toggle"><a data-static-hdr="" href="https://watch.geniuskitchen.com/shows">shows</a></div>
-                            
+
 
                                 <div data-static-hdr="" class="v-nav-toggle"><a data-static-hdr="" href="https://www.geniuskitchen.com/ideas/breakfast-brunch-recipes-6514">Breakfast</a></div>
-                            
+
                         </div>
                     </div>
                     <div data-static-hdr="" class="v-nav-group shift-right">
@@ -788,7 +788,7 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
 <div class="gk-menu">
 
         <section class="off " id="gk-top-ribbon" >
-        
+
         </section>
         <!-- ./TOP RIBBON MODULE -->
 </div>
@@ -803,7 +803,7 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
     </div>
 </div>
 
-    
+
 
 
 <!-- Message Banner -->
@@ -829,7 +829,7 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
 
 
     <div class="fd-page-feed">
-        
+
 
 
 
@@ -846,7 +846,7 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
 
 
 <article class="current recipe-proto color-theme-berry" id="19170" data-recipe-id="19170" data-page-name="/recipe/quiche-lorraine-cups-19170" data-mode-video="false">
-    
+
 
 
 
@@ -862,21 +862,21 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
             <div>
                 <a href="https://www.geniuskitchen.com/recipe"><i class="icon-gk-arrow-left"></i></a>
                 <a href="https://www.geniuskitchen.com/recipe">Recipes</a>
-                
+
                 <a href="https://www.geniuskitchen.com/topic/savory-pies">Savory Pies</a>
-                
+
             </div>
             <div class="sponsored">
-                
+
                 <div id="dfp_logo"></div>
-                
+
             </div>
         </div>
-    </div> 
+    </div>
     <div class="analytic-box" data-module="recipeHeading">
         <header class="recipe-header ">
             <meta content="https://www.geniuskitchen.com/recipe/quiche-lorraine-cups-19170"/>
-            
+
 
 
 
@@ -887,8 +887,8 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
 
 
             <h1>Quiche Lorraine Cups</h1>
-            
-            
+
+
             <div class="subhead">
                 <div class="subhead-wrapper">
                     <div class="recipe-info">
@@ -896,8 +896,8 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                             <a href="https://www.geniuskitchen.com/user/4470"><span class="gk-avatar"><img data-is-avatar data-src="https://geniuskitchen.sndimg.com/gk/img/avatar/sushi.png" data-crop-mode="fill"></span></a>
                         </div>
                         <div class="rating-and-author">
-                            
-                                
+
+
                                     <div class="gk-rating ">
                                         <a href="#activity-feed" class="af-show-reviews review-link js-scroll-to-af" data-click-button="reviews">
                                             <div class="five-star">
@@ -907,39 +907,39 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                                         </a>
                                         <a href="#activity-feed" class="af-show-reviews af-review-count js-scroll-to-af" data-click-button="reviews">(4)</a>
                                     </div>
-                                
-                            
+
+
                             <h6 class="byline">Recipe by <a href="https://www.geniuskitchen.com/user/4470" class="screen-only">Bergy</a><span class="print-only-inline">Bergy</span></h6>
-                             
-                            
+
+
                         </div>
                     </div>
-                    
-                        
+
+
                             <div class="discussion">
                                 <div class="avatars">
-                                    
+
                                     <a class="gk-avatar js-scroll-to-af" data-click-button="all" href="#activity-feed">
                                             <img data-src="https://img.sndimg.com/food/image/upload/q_92/v1/food_avatar/978f08c93d804d01afdc287a9e059c8a/XStkHxgNTvyvP2jDdqth_10212586056277006.jpg"
                                                 data-crop-mode="fill"
                                                 data-target=".gk-avatar"
                                                 data-is-avatar>
                                     </a>
-                                    
+
                                     <a class="gk-avatar js-scroll-to-af" data-click-button="all" href="#activity-feed">
                                             <img data-src="https://geniuskitchen.sndimg.com/gk/img/avatar/pie.png"
                                                 data-crop-mode="fill"
                                                 data-target=".gk-avatar"
                                                 data-is-avatar>
                                     </a>
-                                    
+
                                     <a class="gk-avatar js-scroll-to-af" data-click-button="all" href="#activity-feed">
                                             <img data-src="https://geniuskitchen.sndimg.com/gk/img/avatar/taco.png"
                                                 data-crop-mode="fill"
                                                 data-target=".gk-avatar"
                                                 data-is-avatar>
                                     </a>
-                                    
+
                                 </div>
                                 <div>
                                     <h4>5</h4>
@@ -947,16 +947,16 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                                     <a href="#activity-feed" class="join-now js-scroll-to-af " data-click-button="all">Join In Now <i class="icon-gk-navigate-right"></i> </a>
                                 </div>
                             </div>
-                        
-                    
+
+
                 </div>
                 <div class="recipe-sharing fd-share-tools analytic-box global-share" data-module="topRecipeTools">
                     <a class="btn-round print js-only-inline-block" href="#" target="_blank"><i class="icon-gk-print"></i></a>
-                    
+
                         <a class="btn-round gk-share-link" data-network="email" title="Share via Email"><i class="icon-gk-email"></i></a>
                         <a class="btn-round pinterest" data-network="pinterest" title="Share on Pinterest"><i class="icon-gk-pinterest social-share"></i></a>
                         <a class="btn-round facebook social-share" data-network="facebook" title="Share on Facebook"><i class="icon-gk-facebook"></i></a>
-                    
+
                 </div>
             </div>
         </header>
@@ -976,7 +976,7 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
      data-recipe-description="Simple yet elegant - this is a make over of the old standard gourmet recipe. Serve with fresh fruit salad."
      data-recipe-url="https://www.geniuskitchen.com/recipe/quiche-lorraine-cups-19170"
      data-recipe-title="Quiche Lorraine Cups">
-    
+
     <div class="fd-header-wrap analytic-box fd-logged-in js-recipe-gallery-header" data-module="globalHeader">
         <div class="navbar navbar-default navbar-static-top stick show" role="navigation">
             <div class="container xs-full-width">
@@ -994,12 +994,12 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
             </div>
         </div>
     </div>
-    
+
     <div class="fd-stream-wrapper js-gallery-stream-wrapper">
         <div class="stream-heading-wrapper js-gallery-stream-heading">
             <div class="container">
                 <h2>Quiche Lorraine Cups</h2>
-                
+
                 <div class="photos-count">4 recipe photos</div>
             </div>
         </div>
@@ -1057,7 +1057,7 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                     data-expand-event="text.expanded"
                     data-collapse-event="text.collapsed">
 
-                    
+
 
                     <div v-bind:class="{ 'video-mode': state.isVideoMode }" class="header-container">
                         <div v-bind:class="{ 'hidden': state.isHidden }">
@@ -1065,7 +1065,7 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                                 <i v-on:click="removeVideo" class="icon-gk-close" title="Close video"></i>
                                 <div class="recipe-video-inner">
                                     <div id="recipe-video"></div>
-                                    
+
 
 
 
@@ -1122,7 +1122,7 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                             </div>
                         </div>
 
-                        
+
                             <div class="recipe-gallery-wrapper loading">
                                  <vue-recipe-gallery
                                     v-bind:photos='JSON.stringify({"otherPhotos":[{"id":420482,"photoUrl":"https://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/19/17/0/Rqq1PsXcSci7w7XjpGgo_DSC04901-2.jpg","type":"photo","recipeId":19170,"memberId":2002169932,"memberName":"alenafoodphoto","memberProfileUrl":"https://www.geniuskitchen.com/user/2002169932","memberAvatar":"https://img.sndimg.com/food/image/upload/q_92/v1/food_avatar/978f08c93d804d01afdc287a9e059c8a/XStkHxgNTvyvP2jDdqth_10212586056277006.jpg","counts":{"like":0,"liked":false},"submitted":"2019-01-21T17:18:07Z","dateModified":"Jan 21, 2019 12:18:07 PM","belongsToType":"photo","shareUrl":"https://www.geniuskitchen.com/recipe/quiche-lorraine-cups-19170?photo\u003dcGhvdG8tNDIwNDgy","featured":false,"cloudinaryUrlTemplate":"https://img.sndimg.com/food/image/upload/$template$/v1/img/recipes/19/17/0/Rqq1PsXcSci7w7XjpGgo_DSC04901-2.jpg"},{"id":420483,"photoUrl":"https://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/19/17/0/euoHOtjqS2m0OGe6p0lh_DSC04904-2.jpg","type":"photo","recipeId":19170,"memberId":2002169932,"memberName":"alenafoodphoto","memberProfileUrl":"https://www.geniuskitchen.com/user/2002169932","memberAvatar":"https://img.sndimg.com/food/image/upload/q_92/v1/food_avatar/978f08c93d804d01afdc287a9e059c8a/XStkHxgNTvyvP2jDdqth_10212586056277006.jpg","counts":{"like":0,"liked":false},"submitted":"2019-01-21T17:18:07Z","dateModified":"Jan 21, 2019 12:18:07 PM","belongsToType":"photo","shareUrl":"https://www.geniuskitchen.com/recipe/quiche-lorraine-cups-19170?photo\u003dcGhvdG8tNDIwNDgz","featured":false,"cloudinaryUrlTemplate":"https://img.sndimg.com/food/image/upload/$template$/v1/img/recipes/19/17/0/euoHOtjqS2m0OGe6p0lh_DSC04904-2.jpg"},{"id":78713,"photoUrl":"https://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/19/17/0/picliOJ1y.jpg","type":"photo","recipeId":19170,"memberId":281399,"memberName":"Calee","memberProfileUrl":"https://www.geniuskitchen.com/user/281399","memberAvatar":"https://geniuskitchen.sndimg.com/gk/img/avatar/taco.png","counts":{"like":0,"liked":false},"submitted":"2007-05-05T14:55:28Z","dateModified":"May 5, 2007 10:55:28 AM","belongsToType":"photo","shareUrl":"https://www.geniuskitchen.com/recipe/quiche-lorraine-cups-19170?photo\u003dcGhvdG8tNzg3MTM","featured":false,"cloudinaryUrlTemplate":"https://img.sndimg.com/food/image/upload/$template$/v1/img/recipes/19/17/0/picliOJ1y.jpg"}],"hasMore":false,"defaultPhoto":{"id":420481,"photoUrl":"https://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/19/17/0/U4luIVT7QGyCun9REDLV_DSC04899-2.jpg","type":"photo","recipeId":19170,"memberId":2002169932,"memberName":"alenafoodphoto","memberProfileUrl":"https://www.geniuskitchen.com/user/2002169932","memberAvatar":"https://img.sndimg.com/food/image/upload/q_92/v1/food_avatar/978f08c93d804d01afdc287a9e059c8a/XStkHxgNTvyvP2jDdqth_10212586056277006.jpg","counts":{"like":0,"liked":false},"submitted":"2019-01-21T17:18:07Z","dateModified":"Jan 21, 2019 12:18:07 PM","belongsToType":"photo","shareUrl":"https://www.geniuskitchen.com/recipe/quiche-lorraine-cups-19170?photo\u003dcGhvdG8tNDIwNDgx","featured":true,"cloudinaryUrlTemplate":"https://img.sndimg.com/food/image/upload/$template$/v1/img/recipes/19/17/0/U4luIVT7QGyCun9REDLV_DSC04899-2.jpg"},"hasVideo":false,"hasDefaultPhoto":true})'
@@ -1132,10 +1132,10 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                                     v-on:pause-video="pauseAndHide"
                                     v-on:show-player="showPlayer"/>
                             </div>
-                        
+
 
                         <div class="container no-padding header-container hidden-sm hidden-md hidden-lg">
-                            
+
                             <div class="saveRecipeButtonContainer analytic-box" data-module="saveRecipe">
                                 <button class="rb-save btn btn-icon-text" data-recipe-id="19170">
                                     <div>
@@ -1143,37 +1143,37 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                                         <span class="label">Loading</span>
                                     </div>
                                 </button>
-                            
+
                             </div>
                         </div>
                         <div class="no-padding header-container hidden-sm hidden-md hidden-lg bg-white">
-                            
-                                
+
+
                                     <div class="inner-wrapper">
                                         <div class="discussion">
                                             <div class="avatars">
-                                                
+
                                                 <a class="gk-avatar js-scroll-to-af" data-click-button="all" href="#activity-feed">
                                                         <img data-src="https://img.sndimg.com/food/image/upload/q_92/v1/food_avatar/978f08c93d804d01afdc287a9e059c8a/XStkHxgNTvyvP2jDdqth_10212586056277006.jpg"
                                                             data-crop-mode="fill"
                                                             data-target=".gk-avatar"
                                                             data-is-avatar>
                                                 </a>
-                                                
+
                                                 <a class="gk-avatar js-scroll-to-af" data-click-button="all" href="#activity-feed">
                                                         <img data-src="https://geniuskitchen.sndimg.com/gk/img/avatar/pie.png"
                                                             data-crop-mode="fill"
                                                             data-target=".gk-avatar"
                                                             data-is-avatar>
                                                 </a>
-                                                
+
                                                 <a class="gk-avatar js-scroll-to-af" data-click-button="all" href="#activity-feed">
                                                         <img data-src="https://geniuskitchen.sndimg.com/gk/img/avatar/taco.png"
                                                             data-crop-mode="fill"
                                                             data-target=".gk-avatar"
                                                             data-is-avatar>
                                                 </a>
-                                                
+
                                             </div>
                                             <div>
                                                 <h4>5</h4>
@@ -1182,16 +1182,16 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                                             </div>
                                         </div>
                                     </div>
-                                
-                            
+
+
                         </div>
 
                     </div>
                 </section>
-                    
+
                     <div class="saveRecipeButtonContainer hidden-xs hidden-sm analytic-box" data-module="saveRecipe">
                         <button class="rb-save btn-emphasis" data-recipe-id="19170"> <i class="icon icon-gk-loading spin"></i> <span class="label">Loading</span></button>
-                    
+
                     </div>
 
                     <div class="recipe-detail-container">
@@ -1199,51 +1199,51 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                         <div class="recipe-detail-inner">
 
                             <div class="ingredients container-xs analytic-box" data-module="ingredients">
-                                
+
                                     <div class="saveRecipeButtonContainer hidden-xs hidden-md hidden-lg analytic-box" data-module="saveRecipe">
                                         <button class="rb-save btn-emphasis" data-recipe-id="19170"> <i class="icon icon-gk-loading spin"></i> <span class="label">Loading</span></button>
                                     </div>
-                                
 
-                                
+
+
                                 <div class="print-only recipe-description chef-note">
                                     <h4>Chef's Note</h4>
                                     <p>&ldquo;Simple yet elegant - this is a make over of the old standard gourmet recipe. Serve with fresh fruit salad.&rdquo;</p>
                                 </div>
-                                
+
 
                                 <table class="recipe-facts servings_yield_unit">
                                     <tbody>
                                     <tr>
                                         <td  class="time">
                                             <h6>READY IN:</h6>
-                                            
-                                            
-                                            
+
+
+
                                             40mins
-                                            
-                                            
+
+
                                         </td>
-                                        
+
                                         <td class="servings"><h6>SERVES:</h6>
 
-                                            
+
                                                 <a data-toggle="modal" data-target="#19170_yield" data-popup-id="#19170_yield">
-                                            
+
 
                                                 <span class="count">6</span>
                                             </a>
                                         </td>
-                                        
+
                                     </tr>
                                     <tr>
-                                        
+
                                         <td class="yield"><h6>YIELD:</h6>
                                             <a data-toggle="modal" data-target="#19170_yield" data-popup-id="#19170_yield">
                                                 <span class="count">12</span> Quiche Lorraines
                                             </a>
                                         </td>
-                                        
+
                                         <td  class="units"><h6>UNITS:</h6>
                                             <a class="units" data-toggle="modal" data-target="#19170_units" data-popup-id="#19170_units">
                                                 <span class="count">US</span>
@@ -1265,16 +1265,16 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                                     <li data-ingredient="salt"><span class="qty"><sup>1</sup>&frasl;<sub>4</sub></span><span class="food"> teaspoon  <a href="https://www.geniuskitchen.com/about/salt-359">salt</a></span></li>
                                     <li data-ingredient="eggs"><span class="qty">2 </span><span class="food">   <a href="https://www.geniuskitchen.com/about/egg-142">eggs</a></span></li>
                                     <li data-ingredient="milk"><span class="qty">1 </span><span class="food"> cup  <a href="https://www.geniuskitchen.com/about/milk-360">milk</a></span></li>
-                                    
+
                                 </ul>
 
-                                
+
                                 <div class="extras">
-                                    
+
                                     <input type="hidden" name="ingredient" value='["12      cooked crepes (, see \u003ca href\u003d\"https://www.geniuskitchen.com/recipe/all-purpose-dinner-crepes-batter-19104\"\u003eAll Purpose Dinner Crepes Batter\u003c/a\u003e)","4   slices    bacon, cooked crisp \u0026amp,crumbled ","1   cup    swiss cheese, grated ","2   tablespoons    flour","1/4  teaspoon    salt","2       eggs","1   cup    milk"]'>
 
                                 </div>
-                                
+
 
                                 <div class="fd-ad">
                                     <div class="dfp collapsable fd-onsale" data-dfp-type="dfp_grocery_list"></div>
@@ -1284,7 +1284,7 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                                     <div class="dfp collapsable" data-dfp-type="dfp_native_ingredient"></div>
                                 </div>
 
-                                
+
                                 <div class="fd-whisk fd-whisk-active ">
                                     <div id="CCKU-VPLO-TYHX-LNGN">
                                         <script>
@@ -1294,13 +1294,13 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                                         </script>
                                     </div>
                                 </div>
-                                
+
 
                                 <div class="deals"></div>
                             </div>
 
                             <div class="row fd-ad dfp-placeholder col-xs-8 col-sm-21 hidden-sm hidden-md hidden-lg">
-                                
+
 
 
 <div class="dfp-bigbox">
@@ -1334,44 +1334,44 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                                     <h4>Directions</h4>
                                     <ol>
                                         <li >Lightly grease a 12 muffin pan or 12 custard cups.</li>
-                                        
-                                        <li >Line each with a crepe, fluting them.</li>
-                                        
-                                        <li >Sprinkle bacon into the crepes.</li>
-                                        
-                                        <li >Divide the cheese between the crepes.</li>
-                                        
-                                        <li >Mix together the flour, salt.</li>
-                                        
-                                        <li >Mix the beaten eggs and milk, add to the flour.</li>
-                                        
-                                        <li >Blend well and pour into the crepes on top of the cheese.</li>
-                                        
-                                        <li >Bake in 350F oven for 15-20 minutes or until firm.</li>
-                                        
-                                        <li >Cool 5 minutes before removing from pan.</li>
-                                        
 
-                                        
-                                        
+                                        <li >Line each with a crepe, fluting them.</li>
+
+                                        <li >Sprinkle bacon into the crepes.</li>
+
+                                        <li >Divide the cheese between the crepes.</li>
+
+                                        <li >Mix together the flour, salt.</li>
+
+                                        <li >Mix the beaten eggs and milk, add to the flour.</li>
+
+                                        <li >Blend well and pour into the crepes on top of the cheese.</li>
+
+                                        <li >Bake in 350F oven for 15-20 minutes or until firm.</li>
+
+                                        <li >Cool 5 minutes before removing from pan.</li>
+
+
+
+
 
 <li>
 
     <div class="recipe-tools">
         <div class="fd-site-tools">
             <dl class="util analytic-box" data-module="bottomRecipeTools">
-                
+
                 <dt class="submit-a-correction">
                     <a class="submit-correction link-submit-correction" href="https://www.geniuskitchen.com/recipe/edit.php?rid=19170">
                         <i class="icon-gk-tweak"></i>
                         <span class="btn-text">
-                            
+
                                 Submit a Correction
-                            
+
                         </span>
                     </a>
                 </dt>
-                
+
             </dl>
         </div>
     </div><!-- .recipe-tools -->
@@ -1385,9 +1385,9 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
 
                             </div>
 
-                                
+
                             <div class="hidden-sm hidden-md hidden-lg">
-                                
+
 
 
 <div class="dfp-bigbox">
@@ -1415,9 +1415,9 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
 
 
                             </div>
-                                
+
                             <div class="hidden-xs hidden-md hidden-lg">
-                                
+
 
 
 <div class="dfp-bigbox">
@@ -1447,7 +1447,7 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
 
                             </div>
 
-                            
+
 
                             <div class="recipes-made-with-love-container">
                                 <section class="js-contributor-tile"
@@ -1461,7 +1461,7 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                                     <a href="#">Click to see the full recipe</a>
                                 </div>
                             </div>
-                            
+
 
                         </div>
 
@@ -1477,7 +1477,7 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
 
             </div><!-- .recipe-detail -->
             <aside class="fd-ad hidden-xs hidden-sm">
-                
+
 
 
 <div class="dfp-bigbox">
@@ -1514,15 +1514,15 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
     <div id="dfp_cartridge"></div>
 
 
-    
+
     <section class="fd-container-full">
         <!-- Activity Feed -->
-        
+
 <div class="fd-af-ad-wrap">
     <section class="container-md js-af-container fd-af-container">
         <!-- Bigbox placeholder -->
         <div class="fd-af-companion-ad hidden-xs hidden-sm">
-            
+
 
 
 <div class="dfp-bigbox">
@@ -1569,8 +1569,8 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
 
             <div class="fd-af-deeplink"></div>
 
-            
-            
+
+
 
             <div class="fd-af-dialog-section ">
                 <div class="fd-af-dialog" data-recipe-owner="4470"></div>
@@ -1581,7 +1581,7 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
 
             <div class="fd-af-filter">
                 <div class="fd-af-filter-buttons">
-                    
+
                     <ul class="fd-af-filters">
                         <li class="af-filter-all active" data-filter="all">all<span></span></li>
                         <li class="af-filter-reviews" data-filter="reviews">reviews<span></span></li>
@@ -1589,7 +1589,7 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                         <li class="af-filter-questions" data-filter="questions">q &amp; a<span></span></li>
                     </ul>
 
-                    
+
                     <div class="fd-af-sort">
                         SORT BY:
                         <div class="fd-dropdown">
@@ -1603,12 +1603,12 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
             </div>
         </div>
 
-        
+
         <section class="fd-af container-sm"></section>
 
         <section class="recipe-extra container-sm">
 
-            
+
 
             <div class="youll-also-love">
                 <div class="js-youll-also-love"
@@ -1616,14 +1616,14 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                 </div>
             </div>
 
-            
 
-            
+
+
 
         </section>
 
-        
-        
+
+
 <div class="modal fade" id="fd-af-attach-modal" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content share">
@@ -2055,7 +2055,7 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
 
     </section>
 
-    
+
 
     <!-- modals -->
     <div class="modal fade modal-nutrition" id="19170_nutrition" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -2074,7 +2074,7 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                     <dl class="nutrition">
                         <dt class="nutrition-table-header amt">Amt. Per Serving</dt>
                         <dd class="nutrition-table-header dv">% Daily Value</dd>
-                        
+
                         <span class="cals">
                             <dt class="cals nutrition">Calories <span class="calories">152.2</span></dt>
                             <dt class="fat-cals nutrition">Calories from Fat 94</dt>
@@ -2159,9 +2159,9 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                     <input type="hidden" name="mode" value="us"/>
                     <input type="hidden" name="st" value="true"/>
 
-                    
 
-                    
+
+
 
 
                     <div class="modal-header">
@@ -2189,10 +2189,10 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                     <input type="hidden" name="mode" value="us"/>
                     <input type="hidden" name="st" value="true"/>
 
-                    
 
 
-                    
+
+
 
 
                     <div class="modal-header">
@@ -2221,10 +2221,10 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
                     <input type="hidden" name="scaleto" value="12.0"/>
                     <input type="hidden" name="st" value="null"/>
 
-                    
 
 
-                    
+
+
 
                     <div class="modal-header">
 
@@ -3178,7 +3178,7 @@ html:not(.touch) .link-no-underline[data-static-hdr]:link, html:not(.touch) .lin
 
     <div class="fd-overlay"></div>
 
-    
+
 
 
 
@@ -3271,25 +3271,25 @@ proxy._satellite.wait(function () { AsyncProxy.initProxy('SNI'); })
             </div>
             <ul class="footer-search-tags-block">
 
-                
+
 
                         <li data-token="open-suggestions" class="view-more">View Suggestions</li>
                         <li data-token="close-suggestions" class="close-suggestions">
                             <i class="icon-fdc-close"></i>
                         </li>
 
-                
+
                             <li data-token="https://www.geniuskitchen.com/ideas/30-minute-dinners-6720"><i class="icon-fdc-sparkles"></i>30-minute dinners</li>
-                
+
                             <li data-token="https://www.geniuskitchen.com/ideas/best-baked-chicken-recipes-6150">baked chicken recipes</li>
-                
+
                             <li data-token="https://www.geniuskitchen.com/ideas/unique-cupcake-recipes-6019">all the cupcakes you crave</li>
-                
+
                             <li data-token="https://www.geniuskitchen.com/ideas/easter-spring-meals-dishes-6041?c=485423">favorite spring dishes</li>
-                
+
                             <li data-token="https://www.geniuskitchen.com/ideas/favorite-cookie-brownie-recipes-6135?c=11018">best cookies & brownies ever</li>
-                
-                
+
+
 
             </ul>
         </form>
@@ -3332,22 +3332,22 @@ proxy._satellite.wait(function () { AsyncProxy.initProxy('SNI'); })
                 </div>
                 <ul class="footer-nav-links">
 
-                    
+
                     <li><a target="_self" href="http://www.geniuskitchen.com/topics">All Categories
                     </a></li>
-                    
+
                     <li><a target="_self" href="http://mynewsletters.scrippsnetworks.com/?mode=subscribe&nlbrand=gk&source=0000_FC_HEADER">Newsletters
                     </a></li>
-                    
+
                     <li><a target="_self" href="http://www.geniuskitchen.com/html-sitemap">Site Map
                     </a></li>
-                    
+
                     <li><a target="_self" href="http://www.geniuskitchen.com/how-to/about-us-31">About Us
                     </a></li>
-                    
+
                     <li><a target="_blank" href="http://geniuskitchen.custhelp.com">Contact Us
                     </a></li>
-                    
+
 
                 </ul>
             </div>
@@ -4190,10 +4190,10 @@ proxy.FD.push(['Session.onConfig', function () { try { SniAds.init({ breakpoints
 
 
 <script type="text/html-template" class="tmpl-promo-card" id="gk-promo-card-tmpl">
-    
+
 <section class="gk-promo-card">
     <div class="gk-promo-card-header">
-        
+
 <svg id="device-icons-wrapper" class="gk-device-icons" xmlns="http://www.w3.org/2000/svg" width="207.5996" height="54.808" viewBox="0 0 207.5996 54.808">
     <g id="outlines" style="opacity: 1">
         <path d="M206.6,57.75h-8.1a2.24,2.24,0,0,1-1.6309-.6211l-.0928-.1133A2.7521,2.7521,0,0,1,196.25,55.5V37.2a2.2449,2.2449,0,0,1,.62-1.6309l.1152-.0947A2.7687,2.7687,0,0,1,198.5,34.95h8.1a2.0922,2.0922,0,0,1,1.7246.7334A2.7634,2.7634,0,0,1,208.85,37.2V55.5a2.242,2.242,0,0,1-.6191,1.63l-.1143.0938A2.7524,2.7524,0,0,1,206.6,57.75Z" transform="translate(-1.25 -3.25)"/>

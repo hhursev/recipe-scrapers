@@ -110,13 +110,13 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 </div>
 
 				</template>
-						
+
 				<!-- menus/sidepanel -->
 
 
 
 
-	
+
 <nav id="sidepanel" class="new-sidepanel" role="dialog" aria-modal="true" aria-label="Menu">
                  <div class="sidepanel-search-container">
             <a class="sidepanel-search-button" aria-label="Search" href="#searchoverlay" title="Search">
@@ -126,7 +126,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
                 </span>
             </a>
         </div>
-    
+
     <a class="new-sidepanel-close-button" href="#" title="Close" aria-label="Close">
         <span class="icon icon-x" aria-hidden="true"></span>
     </a>
@@ -231,7 +231,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 <li class="sidepanel-location-choice-submenu-item"><a href="/uk/"   lang="en">UK</a></li>
 </ul>
 </li></ul>
-    
+
             <ul class="new-sidepanel-menu legal-ads-free">
             <li class="sidepanel-legal-ads-free">
                 <a href="https://optout.hearstmags.com/servlet/OrdersGateway?cds_mag_code=A99&amp;cds_page_id=246801&client_id=2tk4b5ag4oggth4mng0cb4loho">Do Not Sell My Info</a>
@@ -250,7 +250,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <!-- / menus/sidepanel -->
 	<!-- menus/location-choice-sidepanel -->
-	
+
 
 	<nav id="location-choice" class="location-right-side-panel">
 
@@ -288,7 +288,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 			</a>
 
 						<a class="nav-logo sso-enabled" href="/" aria-label="Country Living Home" title="Country Living Home">
-				
+
 
 
 
@@ -321,7 +321,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 					Subscribe
 				</a>
 
-			
+
 							<div class="account-dropdown-container">
 					<a class="nav-button account-button" href="https://www.mylo.id/login?client_id=2tk4b5ag4oggth4mng0cb4loho&redirect_uri=https://www.countryliving.com/food-drinks/a32042602/roasted-mushroom-and-bacon-dutch-baby/">
 						<span class="account-text" data-account="Account" data-login="Sign In">Sign In</span>
@@ -350,7 +350,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 			</span>
 		</a>
 
-		
+
 
 
 <form class="search-form search-overlay-form" action="/search/">
@@ -373,7 +373,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 	<div class="top-pathing">
 		<div class="top-pathing-inner">
-							
+
 
 
 
@@ -392,10 +392,10 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <div class="simple-item top-pathing-item show-numbers">
 
-			
+
 			<a href="/life/g31471168/country-living-shop-spring-collection/" data-vars-ga-ux-element="Top Touts" data-vars-ga-call-to-action="Shop Country Living&#039;s Spring Collection" data-vars-ga-position="1" data-vars-ga-total-positions="5">
-	
-		
+
+
 
 
 
@@ -408,32 +408,29 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item-image item-image">
-						
+
 			<span class="lqip lazyload" data-expand="2000" data-lqip="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/country-living-t-shirt-mockup-2-1584112941.png?crop=0.962xw:0.784xh;0,0.0755xh&amp;resize=480:*&amp;frame=1&amp;lqip=yes"></span>
-	
+
 						<img class="lazyload lazyimage" alt="" title="country&#x20;living&#x20;shop&#x20;spring&#x20;collection"
 				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 				data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/country-living-t-shirt-mockup-2-1584112941.png?crop=0.962xw:0.784xh;0,0.0755xh&amp;resize=320:*"
 				data-sizes="auto"
 								data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/country-living-t-shirt-mockup-2-1584112941.png?crop=0.962xw:0.784xh;0,0.0755xh&amp;resize=160:* 160w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/country-living-t-shirt-mockup-2-1584112941.png?crop=0.962xw:0.784xh;0,0.0755xh&amp;resize=320:* 320w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/country-living-t-shirt-mockup-2-1584112941.png?crop=0.962xw:0.784xh;0,0.0755xh&amp;resize=480:* 480w"
 			/>
-			
+
 					<div class="top-pathing-label">
 				Today&#039;s Top Stories
 			</div>
-			
+
 	</div>
 
 
-		
+
 			<div class="simple-item-index">
 			1
 		</div>
-	
+
 				<div class="top-pathing-item-wrap">
-	
-	
-		
 
 
 
@@ -442,22 +439,25 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-	
+
+
+
+
 
 
 
 <div class="simple-item-title item-title">Shop Country Living's Spring Collection</div>
 
-		
 
-		
-		
+
+
+
 			</div>
-	
+
 			</a>
 	</div>
 
-							
+
 
 
 
@@ -476,10 +476,10 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <div class="simple-item top-pathing-item show-numbers">
 
-			
+
 			<a href="/life/g32036880/flowers-bloom-in-summer/" data-vars-ga-ux-element="Top Touts" data-vars-ga-call-to-action="30 Best Flowers that Bloom in Summer" data-vars-ga-position="2" data-vars-ga-total-positions="5">
-	
-		
+
+
 
 
 
@@ -492,28 +492,25 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item-image item-image">
-						
-	
+
+
 						<img class="lazyload lazyimage" alt="" title="Summer-blooms-index"
 				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 				data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/summer-blooms-index-1586215327.jpg?crop=0.984xw:0.738xh;0,0&amp;resize=320:*"
 				data-sizes="auto"
 								data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/summer-blooms-index-1586215327.jpg?crop=0.984xw:0.738xh;0,0&amp;resize=160:* 160w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/summer-blooms-index-1586215327.jpg?crop=0.984xw:0.738xh;0,0&amp;resize=320:* 320w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/summer-blooms-index-1586215327.jpg?crop=0.984xw:0.738xh;0,0&amp;resize=480:* 480w"
 			/>
-			
-			
+
+
 	</div>
 
 
-		
+
 			<div class="simple-item-index">
 			2
 		</div>
-	
+
 				<div class="top-pathing-item-wrap">
-	
-	
-		
 
 
 
@@ -522,22 +519,25 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-	
+
+
+
+
 
 
 
 <div class="simple-item-title item-title">30 Best Flowers that Bloom in Summer</div>
 
-		
 
-		
-		
+
+
+
 			</div>
-	
+
 			</a>
 	</div>
 
-							
+
 
 
 
@@ -556,10 +556,10 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <div class="simple-item top-pathing-item show-numbers">
 
-			
+
 			<a href="/life/g1841/patriotic-quotes/" data-vars-ga-ux-element="Top Touts" data-vars-ga-call-to-action="40 Patriotic Quotes for Memorial Day" data-vars-ga-position="3" data-vars-ga-total-positions="5">
-	
-		
+
+
 
 
 
@@ -572,28 +572,25 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item-image item-image">
-						
-	
+
+
 						<img class="lazyload lazyimage" alt="" title="patriotic&#x20;quotes"
 				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 				data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/patriotic-quotes-1561993912.jpg?crop=1.00xw:0.752xh;0,0.248xh&amp;resize=320:*"
 				data-sizes="auto"
 								data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/patriotic-quotes-1561993912.jpg?crop=1.00xw:0.752xh;0,0.248xh&amp;resize=160:* 160w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/patriotic-quotes-1561993912.jpg?crop=1.00xw:0.752xh;0,0.248xh&amp;resize=320:* 320w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/patriotic-quotes-1561993912.jpg?crop=1.00xw:0.752xh;0,0.248xh&amp;resize=480:* 480w"
 			/>
-			
-			
+
+
 	</div>
 
 
-		
+
 			<div class="simple-item-index">
 			3
 		</div>
-	
+
 				<div class="top-pathing-item-wrap">
-	
-	
-		
 
 
 
@@ -602,22 +599,25 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-	
+
+
+
+
 
 
 
 <div class="simple-item-title item-title">40 Patriotic Quotes for Memorial Day</div>
 
-		
 
-		
-		
+
+
+
 			</div>
-	
+
 			</a>
 	</div>
 
-							
+
 
 
 
@@ -636,10 +636,10 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <div class="simple-item top-pathing-item show-numbers">
 
-			
+
 			<a href="/diy-crafts/g2452/diy-chicken-coops/" data-vars-ga-ux-element="Top Touts" data-vars-ga-call-to-action="48 DIY Chicken Coops " data-vars-ga-position="4" data-vars-ga-total-positions="5">
-	
-		
+
+
 
 
 
@@ -652,28 +652,25 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item-image item-image">
-						
-	
+
+
 						<img class="lazyload lazyimage" alt="" title="DIY&#x20;Chicken&#x20;Coops"
 				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 				data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/diy-chicken-coops-1586393132.jpg?crop=1.00xw:0.671xh;0,0.173xh&amp;resize=320:*"
 				data-sizes="auto"
 								data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/diy-chicken-coops-1586393132.jpg?crop=1.00xw:0.671xh;0,0.173xh&amp;resize=160:* 160w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/diy-chicken-coops-1586393132.jpg?crop=1.00xw:0.671xh;0,0.173xh&amp;resize=320:* 320w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/diy-chicken-coops-1586393132.jpg?crop=1.00xw:0.671xh;0,0.173xh&amp;resize=480:* 480w"
 			/>
-			
-			
+
+
 	</div>
 
 
-		
+
 			<div class="simple-item-index">
 			4
 		</div>
-	
+
 				<div class="top-pathing-item-wrap">
-	
-	
-		
 
 
 
@@ -682,22 +679,25 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-	
+
+
+
+
 
 
 
 <div class="simple-item-title item-title">48 DIY Chicken Coops</div>
 
-		
 
-		
-		
+
+
+
 			</div>
-	
+
 			</a>
 	</div>
 
-							
+
 
 
 
@@ -716,10 +716,10 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <div class="simple-item top-pathing-item show-numbers">
 
-			
+
 			<a href="/shopping/g32369335/best-golf-gifts/" data-vars-ga-ux-element="Top Touts" data-vars-ga-call-to-action="Father&#039;s Day Gifts for Golfers" data-vars-ga-position="5" data-vars-ga-total-positions="5">
-	
-		
+
+
 
 
 
@@ -732,28 +732,25 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item-image item-image">
-						
-	
+
+
 						<img class="lazyload lazyimage" alt="" title="Golfer&#x20;hitting&#x20;golf&#x20;shot&#x20;with&#x20;club&#x20;on&#x20;course&#x20;while&#x20;on&#x20;summer&#x20;vacation"
 				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 				data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-golf-gifts1-1588712095.jpg?crop=1.00xw:0.753xh;0,0&amp;resize=320:*"
 				data-sizes="auto"
 								data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-golf-gifts1-1588712095.jpg?crop=1.00xw:0.753xh;0,0&amp;resize=160:* 160w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-golf-gifts1-1588712095.jpg?crop=1.00xw:0.753xh;0,0&amp;resize=320:* 320w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-golf-gifts1-1588712095.jpg?crop=1.00xw:0.753xh;0,0&amp;resize=480:* 480w"
 			/>
-			
-			
+
+
 	</div>
 
 
-		
+
 			<div class="simple-item-index">
 			5
 		</div>
-	
+
 				<div class="top-pathing-item-wrap">
-	
-	
-		
 
 
 
@@ -762,24 +759,27 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-	
+
+
+
+
 
 
 
 <div class="simple-item-title item-title">Father's Day Gifts for Golfers</div>
 
-		
 
-		
-		
+
+
+
 			</div>
-	
+
 			</a>
 	</div>
 
 					</div>
 	</div>
-<div class="leaderboard-ad "> 
+<div class="leaderboard-ad ">
 	<div id="gpt-leaderboard-ad"  class="ad-container"></div>
 </div>
 <div id="piano-newsletter-container"></div>
@@ -791,7 +791,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-	
+
 
 
 
@@ -807,12 +807,12 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 			</p>
 </div>
 
-	
+
 	<div class="content-header-inner">
 		<h1 class="content-hed recipe-hed">Roasted Mushroom and Bacon Dutch Baby</h1>
 
-		
-		
+
+
 
 
 
@@ -825,7 +825,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <div class="content-info recipe-info">
 	<div class="content-info-metadata">
-										
+
 
 
 
@@ -836,45 +836,45 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 				<!-- shared/byline -->
 
-	
+
 
 
 
 
 
 	<div class="byline " itemprop="author" itemscope itemtype="http://schema.org/Person">By
-					<span class="byline-name" rel="author" itemprop="name">Erika Dugan</span>		
+					<span class="byline-name" rel="author" itemprop="name">Erika Dugan</span>
 	</div>
 <!-- / shared/byline -->
 
 	</div>
 
-		
+
 						<time class="content-info-date" datetime="2020-04-05T01:39:57.723210Z">
 											Apr 5, 2020
 					</time></div>
 
 							<div class="social-button-group content-info-social-button-group" data-share-location="social-btns-primary">
 	 <div class="social-button social-button-pinterest content-info-social-button social-share-button" role="none" data-tracking-id="share-button-pinterest">
-	
+
 	<a aria-label="Share on Pinterest" class="social-button-link" href="//pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.countryliving.com%2Ffood-drinks%2Fa32042602%2Froasted-mushroom-and-bacon-dutch-baby%2F&amp;description=Roasted%20Mushroom%20and%20Bacon%20Dutch%20Babycountryliving&amp;media=https%3A%2F%2Fhips.hearstapps.com%2Fhmg-prod.s3.amazonaws.com%2Fimages%2Froasted-mushroom-dutch-baby-1586049778.jpg%3Fresize%3D1600%3A%2A" target="_blank" data-pin-do="nothing" data-social-key="pinterest" data-vars-ga-outbound-link="//pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.countryliving.com%2Ffood-drinks%2Fa32042602%2Froasted-mushroom-and-bacon-dutch-baby%2F&amp;description=Roasted%20Mushroom%20and%20Bacon%20Dutch%20Babycountryliving&amp;media=https%3A%2F%2Fhips.hearstapps.com%2Fhmg-prod.s3.amazonaws.com%2Fimages%2Froasted-mushroom-dutch-baby-1586049778.jpg%3Fresize%3D1600%3A%2A">
 		<span class="icon social-button-icon icon-pinterest " aria-hidden="true"></span>
 
-		
+
 			</a>
 </div>
   <div class="social-button social-button-email content-info-social-button social-share-button " data-tracking-id="share-button-email" role="none">
 	<a class="social-button-link" href="mailto:?body=https%3A%2F%2Fwww.countryliving.com%2Ffood-drinks%2Fa32042602%2Froasted-mushroom-and-bacon-dutch-baby%2F&amp;subject=Roasted%20Mushroom%20and%20Bacon%20Dutch%20Baby" target="_self" data-social-key="email" aria-label="Email recipe">
 		<span class="icon social-button-icon icon-email" aria-hidden="true"></span>
 
-		
+
 			</a>
 </div>
   <div class="social-button social-button-print content-info-social-button social-share-button " data-tracking-id="share-button-print" role="none">
 	<a class="social-button-link" href="https://www.countryliving.com/food-drinks/a32042602/roasted-mushroom-and-bacon-dutch-baby/" target="_blank" data-social-key="print" aria-label="Print recipe" data-vars-ga-outbound-link="https://www.countryliving.com/food-drinks/a32042602/roasted-mushroom-and-bacon-dutch-baby/">
 		<span class="icon social-button-icon icon-print" aria-hidden="true"></span>
 
-		
+
 			</a>
 </div>
 
@@ -885,7 +885,6 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	</div>
 </header><div class="content-container recipe-container">
 	<div class="recipe-body">
-							
 
 
 
@@ -895,25 +894,26 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-		
-		
+
+
+
 
 	<div class="content-lede-image recipe-lede-image">
 				<div class="content-lede-image-wrap aspect-ratio-4x6">
-				
-	
+
+
 						<img class="lazyload lazyimage" alt="Roasted mushroom dutch baby in pan" title="roasted-mushroom-dutch-baby" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/roasted-mushroom-dutch-baby-1586049708.jpg?crop=0.8678189300411522xw:1xh;center,top&amp;resize=480:*" data-sizes="auto" data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/roasted-mushroom-dutch-baby-1586049708.jpg?crop=0.8678189300411522xw:1xh;center,top&amp;resize=640:* 640w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/roasted-mushroom-dutch-baby-1586049708.jpg?crop=0.8678189300411522xw:1xh;center,top&amp;resize=768:* 768w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/roasted-mushroom-dutch-baby-1586049708.jpg?crop=0.8678189300411522xw:1xh;center,top&amp;resize=980:* 980w"><div class="image-credit content-lede-image-credit">
 	<span class="image-photo-credit">BRIAN WOODCOCK</span></div>
 
 					</div>
-		
+
 									<div class="social-button-group lede-image-social-button-group" data-share-location="social-btns-content-lede-image">
 	 <div class="social-button social-button-pinterest content-lede-image-social-button social-share-button" role="none" data-tracking-id="share-button-pinterest">
-	
+
 	<a aria-label="Share on Pinterest" class="social-button-link" href="//pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.countryliving.com%2Ffood-drinks%2Fa32042602%2Froasted-mushroom-and-bacon-dutch-baby%2F&amp;description=Roasted%20Mushroom%20and%20Bacon%20Dutch%20Babycountryliving&amp;media=https%3A%2F%2Fhips.hearstapps.com%2Fhmg-prod.s3.amazonaws.com%2Fimages%2Froasted-mushroom-dutch-baby-1586049708.jpg%3Fresize%3D1600%3A%2A" target="_blank" data-pin-do="nothing" data-social-key="pinterest" data-vars-ga-outbound-link="//pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.countryliving.com%2Ffood-drinks%2Fa32042602%2Froasted-mushroom-and-bacon-dutch-baby%2F&amp;description=Roasted%20Mushroom%20and%20Bacon%20Dutch%20Babycountryliving&amp;media=https%3A%2F%2Fhips.hearstapps.com%2Fhmg-prod.s3.amazonaws.com%2Fimages%2Froasted-mushroom-dutch-baby-1586049708.jpg%3Fresize%3D1600%3A%2A">
 		<span class="icon social-button-icon icon-pinterest " aria-hidden="true"></span>
 
-		
+
 			</a>
 </div>
 
@@ -921,35 +921,35 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 			</div>
 
-		
+
 							<div class="recipe-introduction show-less"><p>A savory Dutch baby, also known as a German pancake, is topped with melted cheese and a rich mix of mushrooms, bacon, and spicy scallions.&nbsp;</p></div>
 
-					
+
 							  	<div class="breaker-ad mobile-breaker-ad recipe-breaker-ad recipe-mobile-breaker-ad">
 				<div class="breaker-ad-text">Advertisement - Continue Reading Below</div>
 		<div id="gpt-ad-vertical-top-mobile" class="ad-container"></div>
 	</div>
 
-		
-							
+
+
 <div class="recipe-details-container">
 		<div role="heading" aria-level="2" class="recipe-details-item yields">
 		Yields:
 		<span class="yields-amount">
 			4
 							- 6
-											
+
 						<span class="yields-unit">
 				servings
 			</span>
 				</span>
 	</div>
-	
-	
+
+
 			<div role="heading" aria-level="2" class="recipe-details-item total-time">
 			Total Time:
 			<span class="total-time-amount">
-    
+
     1
     <span class="recipe-time-unit">
         hour
@@ -975,24 +975,24 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	<div class="ingredients-body">
 					<div class="ingredient-section ingredient-section-1">
 				<div class="ingredient-title">
-					
+
 				</div>
 				<div class="ingredient-lists">
 											<div class="ingredient-item">
-															<span class="ingredient-amount">1 
+															<span class="ingredient-amount">1
 																									lb.
 																</span>
 														<span class="ingredient-description"><p>mixed mushrooms (such as cremini, beech, or shiitake), roughly chopped&nbsp;4 slices bacon, sliced</p></span>
 						</div>
 											<div class="ingredient-item">
-															<span class="ingredient-amount">3 
-																									
+															<span class="ingredient-amount">3
+
 																</span>
 														<span class="ingredient-description"><p>large eggs</p></span>
 						</div>
 											<div class="ingredient-item">
-															<span class="ingredient-amount">1 
-																									
+															<span class="ingredient-amount">1
+
 																</span>
 														<span class="ingredient-description"><p>clove garlic, chopped</p></span>
 						</div>
@@ -1003,7 +1003,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 														<span class="ingredient-description"><p>whole milk</p></span>
 						</div>
 											<div class="ingredient-item">
-															<span class="ingredient-amount">3 
+															<span class="ingredient-amount">3
 																									tbsp.
 																</span>
 														<span class="ingredient-description"><p>unsalted butter, melted, divided</p></span>
@@ -1015,7 +1015,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 														<span class="ingredient-description"><p>all-purpose flour, spooned and leveled</p></span>
 						</div>
 											<div class="ingredient-item">
-															<span class="ingredient-amount">2 
+															<span class="ingredient-amount">2
 																									tbsp.
 																</span>
 														<span class="ingredient-description"><p>cornstarch</p></span>
@@ -1024,25 +1024,25 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 														<span class="ingredient-description"><p>Kosher salt</p></span>
 						</div>
 											<div class="ingredient-item">
-															<span class="ingredient-amount">1 
+															<span class="ingredient-amount">1
 																									tbsp.
 																</span>
 														<span class="ingredient-description"><p>fresh thyme</p></span>
 						</div>
 											<div class="ingredient-item">
-															<span class="ingredient-amount">2 
+															<span class="ingredient-amount">2
 																									oz.
 																</span>
 														<span class="ingredient-description"><p>fontina or Cheddar cheese, grated (about 1/2 cup)</p></span>
 						</div>
 											<div class="ingredient-item">
-															<span class="ingredient-amount">1 
-																									
+															<span class="ingredient-amount">1
+
 																</span>
 														<span class="ingredient-description"><p>scallion, thinly sliced</p></span>
 						</div>
 											<div class="ingredient-item">
-															<span class="ingredient-amount">2 
+															<span class="ingredient-amount">2
 																									tbsp.
 																</span>
 														<span class="ingredient-description"><p>chopped flat-leaf parsley</p></span>
@@ -1060,7 +1060,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	<div class="directions-body">
 					<div class="direction-section direction-section-1">
 				<div class="direction-title">
-					
+
 				</div>
 				<div class="direction-lists">
 					<ol><li>Set oven racks in middle and upper positions. Preheat oven to 450&deg;F. Place mushrooms and bacon on a rimmed baking sheet. Place on top rack in oven while preheating, and roast, stirring once, until mushrooms are golden brown, 25 to 30 minutes. Place a 10-inch cast-iron skillet on middle rack and heat 15 minutes.&nbsp;</li><li>Place eggs and garlic in a blender. Process on high until frothy, 45 seconds. With blender running, gradually add milk and 2 tablespoons butter; stop blender. Add flour, cornstarch, and 1/4 teaspoon salt; process 1 minute. Fold in thyme.</li><li>Carefully add remaining tablespoon butter to heated skillet and swirl to coat. Immediately add batter. Bake until golden brown and puffed, 14 to 16 minutes. Sprinkle with cheese and bake until melted, 3 to 5 minutes.</li><li>Top with mushroom mixture, scallions, and parsley.</li></ol></div>
@@ -1070,16 +1070,16 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 		</div>
 
-				
+
 		<div class="recipe-body-content">
-			
+
 
 		</div>
 
-				
 
 
-	
+
+
 		<div class="screen-reader-only">
 		This content is created and maintained by a third party, and imported onto this page to help users provide their email addresses. You may be able to find more information about this and similar content at piano.io
 	</div>
@@ -1120,8 +1120,8 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 							</div>
 		</div>
 
-									
-				
+
+
 
 
 
@@ -1129,11 +1129,11 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	data-params="&quot;{}&quot;"
 	data-pagesize=""
 	>
-								
-						
-																	
-													
-			
+
+
+
+
+
 
 
 
@@ -1152,10 +1152,10 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <div class="simple-item transporter-simple-item ">
 
-			
+
 			<a href="/food-drinks/g32448521/comfort-food-to-make-at-home-inspired-by-your-favorite-places/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="Destination Inspired Comfort Food To Make At Home" data-vars-ga-outbound-link="https://www.countryliving.com/food-drinks/g32448521/comfort-food-to-make-at-home-inspired-by-your-favorite-places/" data-vars-ga-position="1" data-vars-ga-total-positions="11">
-	
-		
+
+
 
 
 
@@ -1168,27 +1168,22 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item-image item-image">
-						
-	
+
+
 						<img class="lazyload lazyimage" alt="" title=""
 				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 				data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/09-dennis-prescott-1589298981.jpg?crop=1.00xw:0.539xh;0,0.153xh&amp;resize=480:*"
 				data-sizes="auto"
 								data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/09-dennis-prescott-1589298981.jpg?crop=1.00xw:0.539xh;0,0.153xh&amp;resize=480:* 480w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/09-dennis-prescott-1589298981.jpg?crop=1.00xw:0.539xh;0,0.153xh&amp;resize=640:* 640w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/09-dennis-prescott-1589298981.jpg?crop=1.00xw:0.539xh;0,0.153xh&amp;resize=768:* 768w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/09-dennis-prescott-1589298981.jpg?crop=1.00xw:0.539xh;0,0.153xh&amp;resize=980:* 980w"
 			/>
-			
-			
+
+
 			<div class="content-type-icon" aria-hidden="true">
 			<i class="icon icon-gallery "></i>
 		</div>
 	</div>
 
 
-		
-	
-		
-	
-		
 
 
 
@@ -1197,26 +1192,31 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-	
+
+
+
+
+
+
 
 
 
 <div class="simple-item-title item-title">Destination Inspired Comfort Food To Make At Home</div>
 
-		
 
-		
-		
-	
+
+
+
+
 			</a>
 	</div>
 
 
-																														
-						
-																										
-													
-			
+
+
+
+
+
 
 
 
@@ -1235,10 +1235,10 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <div class="simple-item transporter-simple-item grid-simple-item-last-mobile ">
 
-			
+
 			<a href="/food-drinks/a32614871/joanna-gaines-announces-online-ordering-silos-baking-co/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="You Can Now Order Cookies from Silos Baking Co." data-vars-ga-outbound-link="https://www.countryliving.com/food-drinks/a32614871/joanna-gaines-announces-online-ordering-silos-baking-co/" data-vars-ga-position="2" data-vars-ga-total-positions="11">
-	
-		
+
+
 
 
 
@@ -1251,25 +1251,20 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item-image item-image">
-						
+
 			<span class="lqip lazyload" data-expand="2000" data-lqip="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/magnolia-cookies-1-1590010691.png?crop=1.00xw:0.651xh;0,0.208xh&amp;resize=480:*&amp;frame=1&amp;lqip=yes"></span>
-	
+
 						<img class="lazyload lazyimage" alt="" title="magnolia&#x20;silos&#x20;baking&#x20;co&#x20;cookies"
 				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 				data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/magnolia-cookies-1-1590010691.png?crop=1.00xw:0.651xh;0,0.208xh&amp;resize=480:*"
 				data-sizes="auto"
 								data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/magnolia-cookies-1-1590010691.png?crop=1.00xw:0.651xh;0,0.208xh&amp;resize=480:* 480w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/magnolia-cookies-1-1590010691.png?crop=1.00xw:0.651xh;0,0.208xh&amp;resize=640:* 640w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/magnolia-cookies-1-1590010691.png?crop=1.00xw:0.651xh;0,0.208xh&amp;resize=768:* 768w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/magnolia-cookies-1-1590010691.png?crop=1.00xw:0.651xh;0,0.208xh&amp;resize=980:* 980w"
 			/>
-			
-			
+
+
 	</div>
 
 
-		
-	
-		
-	
-		
 
 
 
@@ -1278,33 +1273,38 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-	
+
+
+
+
+
+
 
 
 
 <div class="simple-item-title item-title">You Can Now Order Cookies from Silos Baking Co.</div>
 
-		
 
-		
-		
-	
+
+
+
+
 			</a>
 	</div>
 
 
 															<hr class="horizontal-rule-mobile">
-																											
+
 			  	<div class="breaker-ad transporter-vertical-ad">
 				<div class="breaker-ad-text">Advertisement - Continue Reading Below</div>
 		<div id="gpt-ad-vertical-bottom" class="ad-container"></div>
 	</div>
 
-												
-						
-																										
-													
-			
+
+
+
+
+
 
 
 
@@ -1323,10 +1323,10 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <div class="simple-item transporter-simple-item grid-simple-item-last-tablet ">
 
-			
+
 			<a href="/food-drinks/a32614414/smirnoff-red-white-and-berry-seltzer-patriotic/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="This Patriotic Seltzer is Perfect for Memorial Day" data-vars-ga-outbound-link="https://www.countryliving.com/food-drinks/a32614414/smirnoff-red-white-and-berry-seltzer-patriotic/" data-vars-ga-position="4" data-vars-ga-total-positions="11">
-	
-		
+
+
 
 
 
@@ -1339,24 +1339,19 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item-image item-image">
-						
-	
+
+
 						<img class="lazyload lazyimage" alt="" title="smirnoff&#x20;red&#x20;white&#x20;and&#x20;berry&#x20;seltzer"
 				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 				data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/smirnoff-red-white-berry-22-1590003160.jpg?crop=0.904xw:0.301xh;0.0721xw,0.365xh&amp;resize=480:*"
 				data-sizes="auto"
 								data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/smirnoff-red-white-berry-22-1590003160.jpg?crop=0.904xw:0.301xh;0.0721xw,0.365xh&amp;resize=480:* 480w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/smirnoff-red-white-berry-22-1590003160.jpg?crop=0.904xw:0.301xh;0.0721xw,0.365xh&amp;resize=640:* 640w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/smirnoff-red-white-berry-22-1590003160.jpg?crop=0.904xw:0.301xh;0.0721xw,0.365xh&amp;resize=768:* 768w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/smirnoff-red-white-berry-22-1590003160.jpg?crop=0.904xw:0.301xh;0.0721xw,0.365xh&amp;resize=980:* 980w"
 			/>
-			
-			
+
+
 	</div>
 
 
-		
-	
-		
-	
-		
 
 
 
@@ -1365,27 +1360,32 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-	
+
+
+
+
+
+
 
 
 
 <div class="simple-item-title item-title">This Patriotic Seltzer is Perfect for Memorial Day</div>
 
-		
 
-		
-		
-	
+
+
+
+
 			</a>
 	</div>
 
 
 																						<hr class="horizontal-rule-tablet">
-																	
-						
-																										
-													
-			
+
+
+
+
+
 
 
 
@@ -1404,10 +1404,10 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <div class="simple-item transporter-simple-item grid-simple-item-last-mobile ">
 
-			
+
 			<a href="/food-drinks/a27484010/restaurants-open-on-memorial-day/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="Restaurants Open on Memorial Day in 2020" data-vars-ga-outbound-link="https://www.countryliving.com/food-drinks/a27484010/restaurants-open-on-memorial-day/" data-vars-ga-position="5" data-vars-ga-total-positions="11">
-	
-		
+
+
 
 
 
@@ -1420,24 +1420,19 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item-image item-image">
-						
-	
+
+
 						<img class="lazyload lazyimage" alt="" title="restaurants&#x20;open&#x20;on&#x20;memorial&#x20;day"
 				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 				data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/restaurants-open-on-memorial-day-1558715962.jpg?crop=1.00xw:0.684xh;0,0.161xh&amp;resize=480:*"
 				data-sizes="auto"
 								data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/restaurants-open-on-memorial-day-1558715962.jpg?crop=1.00xw:0.684xh;0,0.161xh&amp;resize=480:* 480w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/restaurants-open-on-memorial-day-1558715962.jpg?crop=1.00xw:0.684xh;0,0.161xh&amp;resize=640:* 640w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/restaurants-open-on-memorial-day-1558715962.jpg?crop=1.00xw:0.684xh;0,0.161xh&amp;resize=768:* 768w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/restaurants-open-on-memorial-day-1558715962.jpg?crop=1.00xw:0.684xh;0,0.161xh&amp;resize=980:* 980w"
 			/>
-			
-			
+
+
 	</div>
 
 
-		
-	
-		
-	
-		
 
 
 
@@ -1446,27 +1441,32 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-	
+
+
+
+
+
+
 
 
 
 <div class="simple-item-title item-title">Restaurants Open on Memorial Day in 2020</div>
 
-		
 
-		
-		
-	
+
+
+
+
 			</a>
 	</div>
 
 
 															<hr class="horizontal-rule-mobile">
-																								
-						
-																	
-													
-			
+
+
+
+
+
 
 
 
@@ -1485,10 +1485,10 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <div class="simple-item transporter-simple-item ">
 
-			
+
 			<a href="/food-drinks/a32605595/aldi-pina-colada-wine/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="Aldi Sells Piña Colada-Inspired Wine" data-vars-ga-outbound-link="https://www.countryliving.com/food-drinks/a32605595/aldi-pina-colada-wine/" data-vars-ga-position="6" data-vars-ga-total-positions="11">
-	
-		
+
+
 
 
 
@@ -1501,25 +1501,20 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item-image item-image">
-						
+
 			<span class="lqip lazyload" data-expand="2000" data-lqip="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2020-05-19-at-12-07-21-pm-1589904460.png?crop=1.00xw:0.923xh;0,0&amp;resize=480:*&amp;frame=1&amp;lqip=yes"></span>
-	
+
 						<img class="lazyload lazyimage" alt="" title=""
 				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 				data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2020-05-19-at-12-07-21-pm-1589904460.png?crop=1.00xw:0.923xh;0,0&amp;resize=480:*"
 				data-sizes="auto"
 								data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2020-05-19-at-12-07-21-pm-1589904460.png?crop=1.00xw:0.923xh;0,0&amp;resize=480:* 480w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2020-05-19-at-12-07-21-pm-1589904460.png?crop=1.00xw:0.923xh;0,0&amp;resize=640:* 640w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2020-05-19-at-12-07-21-pm-1589904460.png?crop=1.00xw:0.923xh;0,0&amp;resize=768:* 768w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2020-05-19-at-12-07-21-pm-1589904460.png?crop=1.00xw:0.923xh;0,0&amp;resize=980:* 980w"
 			/>
-			
-			
+
+
 	</div>
 
 
-		
-	
-		
-	
-		
 
 
 
@@ -1528,26 +1523,31 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-	
+
+
+
+
+
+
 
 
 
 <div class="simple-item-title item-title">Aldi Sells Piña Colada-Inspired Wine</div>
 
-		
 
-		
-		
-	
+
+
+
+
 			</a>
 	</div>
 
 
-																														
-						
-																																			
-													
-			
+
+
+
+
+
 
 
 
@@ -1566,10 +1566,10 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <div class="simple-item transporter-simple-item grid-simple-item-last-mobile grid-simple-item-last-tablet ">
 
-			
+
 			<a href="/food-drinks/a32603348/jack-daniels-country-cocktails-southern-peach/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="Jack Daniel’s Has a Southern Peach Beverage" data-vars-ga-outbound-link="https://www.countryliving.com/food-drinks/a32603348/jack-daniels-country-cocktails-southern-peach/" data-vars-ga-position="7" data-vars-ga-total-positions="11">
-	
-		
+
+
 
 
 
@@ -1582,24 +1582,19 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item-image item-image">
-						
-	
+
+
 						<img class="lazyload lazyimage" alt="" title=""
 				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 				data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jack-daniels-country-cocktails-southern-peach-1589917730.jpg?crop=1.00xw:0.503xh;0,0.255xh&amp;resize=480:*"
 				data-sizes="auto"
 								data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jack-daniels-country-cocktails-southern-peach-1589917730.jpg?crop=1.00xw:0.503xh;0,0.255xh&amp;resize=480:* 480w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jack-daniels-country-cocktails-southern-peach-1589917730.jpg?crop=1.00xw:0.503xh;0,0.255xh&amp;resize=640:* 640w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jack-daniels-country-cocktails-southern-peach-1589917730.jpg?crop=1.00xw:0.503xh;0,0.255xh&amp;resize=768:* 768w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jack-daniels-country-cocktails-southern-peach-1589917730.jpg?crop=1.00xw:0.503xh;0,0.255xh&amp;resize=980:* 980w"
 			/>
-			
-			
+
+
 	</div>
 
 
-		
-	
-		
-	
-		
 
 
 
@@ -1608,28 +1603,33 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-	
+
+
+
+
+
+
 
 
 
 <div class="simple-item-title item-title">Jack Daniel’s Has a Southern Peach Beverage</div>
 
-		
 
-		
-		
-	
+
+
+
+
 			</a>
 	</div>
 
 
 															<hr class="horizontal-rule-mobile">
 																<hr class="horizontal-rule-tablet">
-																	
-						
-																	
-													
-			
+
+
+
+
+
 
 
 
@@ -1648,10 +1648,10 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <div class="simple-item transporter-simple-item ">
 
-			
+
 			<a href="/food-drinks/a32600545/refreshing-berry-spritzer/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="Refreshing Berry Spritzer" data-vars-ga-outbound-link="https://www.countryliving.com/food-drinks/a32600545/refreshing-berry-spritzer/" data-vars-ga-position="8" data-vars-ga-total-positions="11">
-	
-		
+
+
 
 
 
@@ -1664,24 +1664,19 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item-image item-image">
-						
-	
+
+
 						<img class="lazyload lazyimage" alt="" title="refreshing&#x20;berry&#x20;spritzer&#x20;beverage"
 				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 				data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/refreshing-spritzer-1589915183.jpg?crop=1.00xw:0.401xh;0,0.384xh&amp;resize=480:*"
 				data-sizes="auto"
 								data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/refreshing-spritzer-1589915183.jpg?crop=1.00xw:0.401xh;0,0.384xh&amp;resize=480:* 480w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/refreshing-spritzer-1589915183.jpg?crop=1.00xw:0.401xh;0,0.384xh&amp;resize=640:* 640w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/refreshing-spritzer-1589915183.jpg?crop=1.00xw:0.401xh;0,0.384xh&amp;resize=768:* 768w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/refreshing-spritzer-1589915183.jpg?crop=1.00xw:0.401xh;0,0.384xh&amp;resize=980:* 980w"
 			/>
-			
-			
+
+
 	</div>
 
 
-		
-	
-		
-	
-		
 
 
 
@@ -1690,26 +1685,31 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-	
+
+
+
+
+
+
 
 
 
 <div class="simple-item-title item-title">Refreshing Berry Spritzer</div>
 
-		
 
-		
-		
-	
+
+
+
+
 			</a>
 	</div>
 
 
-																														
-						
-																										
-													
-			
+
+
+
+
+
 
 
 
@@ -1728,10 +1728,10 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <div class="simple-item transporter-simple-item grid-simple-item-last-mobile ">
 
-			
+
 			<a href="/food-drinks/a32598974/pringles-sweet-corn-chips/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="Pringles Has New Chips That Taste Like Sweet Corn" data-vars-ga-outbound-link="https://www.countryliving.com/food-drinks/a32598974/pringles-sweet-corn-chips/" data-vars-ga-position="9" data-vars-ga-total-positions="11">
-	
-		
+
+
 
 
 
@@ -1744,24 +1744,19 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item-image item-image">
-						
-	
+
+
 						<img class="lazyload lazyimage" alt="" title=""
 				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 				data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pringles-sweet-corn-chips-1589892988.jpg?crop=1.00xw:0.503xh;0,0.190xh&amp;resize=480:*"
 				data-sizes="auto"
 								data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pringles-sweet-corn-chips-1589892988.jpg?crop=1.00xw:0.503xh;0,0.190xh&amp;resize=480:* 480w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pringles-sweet-corn-chips-1589892988.jpg?crop=1.00xw:0.503xh;0,0.190xh&amp;resize=640:* 640w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pringles-sweet-corn-chips-1589892988.jpg?crop=1.00xw:0.503xh;0,0.190xh&amp;resize=768:* 768w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pringles-sweet-corn-chips-1589892988.jpg?crop=1.00xw:0.503xh;0,0.190xh&amp;resize=980:* 980w"
 			/>
-			
-			
+
+
 	</div>
 
 
-		
-	
-		
-	
-		
 
 
 
@@ -1770,27 +1765,32 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-	
+
+
+
+
+
+
 
 
 
 <div class="simple-item-title item-title">Pringles Has New Chips That Taste Like Sweet Corn</div>
 
-		
 
-		
-		
-	
+
+
+
+
 			</a>
 	</div>
 
 
 															<hr class="horizontal-rule-mobile">
-																								
-						
-																										
-													
-			
+
+
+
+
+
 
 
 
@@ -1809,10 +1809,10 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <div class="simple-item transporter-simple-item grid-simple-item-last-tablet ">
 
-			
+
 			<a href="/food-drinks/a32437742/how-long-grill-cook-burgers/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="How to Know When a Burger Is Done" data-vars-ga-outbound-link="https://www.countryliving.com/food-drinks/a32437742/how-long-grill-cook-burgers/" data-vars-ga-position="10" data-vars-ga-total-positions="11">
-	
-		
+
+
 
 
 
@@ -1825,24 +1825,19 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item-image item-image">
-						
-	
+
+
 						<img class="lazyload lazyimage" alt="" title="worcestershire-glazed-burgers"
 				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 				data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/worcestershire-glazed-burgers-1589490785.jpg?crop=1.00xw:0.334xh;0,0.297xh&amp;resize=480:*"
 				data-sizes="auto"
 								data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/worcestershire-glazed-burgers-1589490785.jpg?crop=1.00xw:0.334xh;0,0.297xh&amp;resize=480:* 480w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/worcestershire-glazed-burgers-1589490785.jpg?crop=1.00xw:0.334xh;0,0.297xh&amp;resize=640:* 640w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/worcestershire-glazed-burgers-1589490785.jpg?crop=1.00xw:0.334xh;0,0.297xh&amp;resize=768:* 768w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/worcestershire-glazed-burgers-1589490785.jpg?crop=1.00xw:0.334xh;0,0.297xh&amp;resize=980:* 980w"
 			/>
-			
-			
+
+
 	</div>
 
 
-		
-	
-		
-	
-		
 
 
 
@@ -1851,27 +1846,32 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-	
+
+
+
+
+
+
 
 
 
 <div class="simple-item-title item-title">How to Know When a Burger Is Done</div>
 
-		
 
-		
-		
-	
+
+
+
+
 			</a>
 	</div>
 
 
 																						<hr class="horizontal-rule-tablet">
-																	
-						
-																										
-													
-			
+
+
+
+
+
 
 
 
@@ -1890,10 +1890,10 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <div class="simple-item transporter-simple-item grid-simple-item-last-mobile ">
 
-			
+
 			<a href="/food-drinks/a32353888/strawberry-lemonade-punch/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="Strawberry-Lemonade Punch" data-vars-ga-outbound-link="https://www.countryliving.com/food-drinks/a32353888/strawberry-lemonade-punch/" data-vars-ga-position="11" data-vars-ga-total-positions="11">
-	
-		
+
+
 
 
 
@@ -1906,24 +1906,19 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item-image item-image">
-						
-	
+
+
 						<img class="lazyload lazyimage" alt="" title="strawberry&#x20;lemonade&#x20;punch"
 				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 				data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/strawberry-lemonade-punch-1588469272.jpg?crop=0.581xw:0.193xh;0.280xw,0.497xh&amp;resize=480:*"
 				data-sizes="auto"
 								data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/strawberry-lemonade-punch-1588469272.jpg?crop=0.581xw:0.193xh;0.280xw,0.497xh&amp;resize=480:* 480w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/strawberry-lemonade-punch-1588469272.jpg?crop=0.581xw:0.193xh;0.280xw,0.497xh&amp;resize=640:* 640w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/strawberry-lemonade-punch-1588469272.jpg?crop=0.581xw:0.193xh;0.280xw,0.497xh&amp;resize=768:* 768w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/strawberry-lemonade-punch-1588469272.jpg?crop=0.581xw:0.193xh;0.280xw,0.497xh&amp;resize=980:* 980w"
 			/>
-			
-			
+
+
 	</div>
 
 
-		
-	
-		
-	
-		
 
 
 
@@ -1932,27 +1927,32 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-	
+
+
+
+
+
+
 
 
 
 <div class="simple-item-title item-title">Strawberry-Lemonade Punch</div>
 
-		
 
-		
-		
-	
+
+
+
+
 			</a>
 	</div>
 
 
 															<hr class="horizontal-rule-mobile">
-																	
+
 		</div>
 
 
-											<div class="leaderboard-ad transporter-ad"> 
+											<div class="leaderboard-ad transporter-ad">
 	<div id="gpt-ad-leaderboard-bottom"  class="ad-container"></div>
 </div>
 
@@ -1964,7 +1964,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 										<li class="seo-tag seo-parent-feed">
 										<a class="seo-link" href="/food-drinks/" data-vars-ga-ux-element="SEO Tag" data-vars-ga-call-to-action="Food &amp; Drinks" data-vars-ga-outbound-link="https://www.countryliving.com/food-drinks/">Food & Drinks</a>
 				</li>
-			
+
 										<li class="seo-tag seo-related-link">
 															<a class="seo-link" href="//www.countryliving.com/food-drinks/a32213633/cheddar-bacon-and-chive-quick-bread/" title="Cheddar-Bacon Bread" data-vars-ga-ux-element="SEO Tag" data-vars-ga-call-to-action="Cheddar-Bacon Bread" data-vars-ga-outbound-link="//www.countryliving.com/food-drinks/a32213633/cheddar-bacon-and-chive-quick-bread/">Cheddar-Bacon Bread</a>
 				</li>
@@ -1983,7 +1983,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 							<li class="seo-tag seo-related-link">
 															<a class="seo-link" href="//www.countryliving.com/food-drinks/recipes/a1111/oven-roasted-mushroom-soup-3217/" title="Oven-Roasted Mushroom Soup" data-vars-ga-ux-element="SEO Tag" data-vars-ga-call-to-action="Oven-Roasted Mushroom Soup" data-vars-ga-outbound-link="//www.countryliving.com/food-drinks/recipes/a1111/oven-roasted-mushroom-soup-3217/">Oven-Roasted Mushroom Soup</a>
 				</li>
-			
+
 								</ul>
 	</div>
 <div class="piano-container-wrapper">
@@ -2178,7 +2178,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	data-vars-ga-product-id="<%= item.data.id %>"
 	data-vars-ga-media-role="<%= item.data.role %>"
 	data-vars-ga-product-sem3-id="<%= item.data.product.product.sem3_id %>"
-	data-vars-ga-outbound-link="<%= item.data.product.outboundLink %>" 
+	data-vars-ga-outbound-link="<%= item.data.product.outboundLink %>"
 	aria-label="<%= item.data.product.action %> <%= item.data.product.name %>">
 		<img class="list-product-slide-image" srcset="<%= item.data.product.image.src %>"/>
 </a>
@@ -2216,7 +2216,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	</div>
 	<div class="embedded-product-button-wrapper">
 		<div class="product-buy-button-wrapper">
-	
+
 <%
 	var product = product
 	var brand = product.product.brand
@@ -2313,7 +2313,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 	<div class="embedded-product-button-wrapper">
 	<div class="product-buy-button-wrapper">
-	
+
 <%
 	var brand = item.data.content_product_review.product_review.product.brand
 	var cta = item.data.content_product_review.call_to_action || "SHOP NOW"
@@ -2411,7 +2411,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 				>
 					<% if ( item.image ) { %>
 						<div class="simple-item-image item-image endofcontent-image">
-							
+
 	<span class="lqip lazyload" data-expand="2000" data-lqip="<%= item.image.src %>&amp;lqip=yes"></span>
 
 <img alt="" class="lazyload lazyimage" data-src="<%= item.image.src %>"
@@ -2439,7 +2439,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 					<span class="end-of-content-title item-title"><%= item.title %></a>
 				</a>
 				<% if ( item.sponsor ) { %>
-						
+
 
 <%
 	var sponsorClass = {
@@ -2512,7 +2512,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	<div class="footer-inner">
 		<div class="footer-logo">
 			<a href="/" aria-label="Country Living Home" title="Country Living Home">
-				
+
 
 
 
@@ -2549,7 +2549,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	<a class="social-button-link" href="https://www.facebook.com/CountryLiving" target="_blank" data-social-key="facebook" aria-label="Country Living Facebook Page">
 		<span class="icon social-button-icon icon-facebook" aria-hidden="true"></span>
 
-		
+
 			</a>
 </div>
   <div class="social-button social-button-twitter footer-social-menu-item "
@@ -2558,17 +2558,17 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	<a class="social-button-link" href="https://twitter.com/countryliving" target="_blank" data-social-key="twitter" aria-label="Country Living Twitter Page">
 		<span class="icon social-button-icon icon-twitter" aria-hidden="true"></span>
 
-		
+
 			</a>
 </div>
  <div class="social-button social-button-pinterest footer-social-menu-item" role="none"
 	data-tracking-id="share-button-pinterest"
 >
-	
+
 	<a aria-label="Country Living Pinterest Page" class="social-button-link" href="https://www.pinterest.com/countryliving/?auto_follow=1" target="_blank" data-pin-do="nothing" data-social-key="pinterest">
 		<span class="icon social-button-icon icon-pinterest " aria-hidden="true"></span>
 
-		
+
 			</a>
 </div>
   <div class="social-button social-button-instagram footer-social-menu-item "
@@ -2577,7 +2577,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	<a class="social-button-link" href="https://instagram.com/countrylivingmag/" target="_blank" data-social-key="instagram" aria-label="Country Living Instagram Page">
 		<span class="icon social-button-icon icon-instagram" aria-hidden="true"></span>
 
-		
+
 			</a>
 </div>
   <div class="social-button social-button-youtube footer-social-menu-item "
@@ -2586,13 +2586,13 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	<a class="social-button-link" href="https://www.youtube.com/c/CountryLiving?sub_confirmation=1" target="_blank" data-social-key="youtube" aria-label="Country Living YouTube Page">
 		<span class="icon social-button-icon icon-youtube" aria-hidden="true"></span>
 
-		
+
 			</a>
 </div>
 
 </div>
 
-		
+
 		<ul class="footer-menu"><li class="footer-menu-item nav-item" data-id="1"><a href="https://link.countryliving.com/join/3of/clg-newsletter"  rel="nofollow">Newsletter</a></li>
 <li class="footer-menu-item nav-item" data-id="2"><a href="https://subscribe.hearstmags.com/subscribe/splits/countryliving/clg_digital_nav_link?source=clg_digital_nav_footer"  rel="nofollow">Digital Editions</a></li>
 <li class="footer-menu-item nav-item" data-id="3"><a href="/about/a3561/about-us/"  >About Us</a></li>
@@ -2613,17 +2613,17 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 				class="lazyload footer-network-logo"
 				alt="Hearst Lifestyle and Design Group - A Part of Hearst Digital Media"
 			/>
-		
+
 					<span class="footer-network-tagline">A Part of Hearst Digital Media</span>
-		
+
 					<span class="footer-affiliate-disclosure">
 				Country Living participates in various affiliate marketing programs, which means we may get paid commissions on editorially chosen products purchased through our links to retailer sites.
 			</span>
-		
+
 		<div class="footer-legal">
 							<small class="footer-copyright">&copy;2020 Hearst Magazine Media, Inc. All Rights Reserved.</small>
-			
-			
+
+
 			<ul class="footer-legal-menu"><li class="footer-legal-menu-item nav-item" data-id="1"><a href="http://www.hearst.com/newsroom/us-magazines-privacy-notice" target="_blank" >Privacy Notice</a></li>
 <li class="footer-legal-menu-item nav-item" data-id="2"><a href="https://www.hearst.com/newsroom/us-magazines-privacy-notice#_ADDITIONAL_INFO" target="_blank" >Your California Privacy Rights</a></li>
 <li class="footer-legal-menu-item nav-item" data-id="3"><a href="https://www.hearst.com/newsroom/us-magazines-privacy-notice#_INTEREST_BASED" target="_blank" >Interest-Based Ads</a></li>
@@ -2680,7 +2680,7 @@ window.SELF_HOSTED_ADS = false;
 	const s = document.createElement( "script" );
 	s.async = true;
 
-	
+
 		window.GDPR_CONSENT_MODAL = function() {
 				let oneTrustModalIsShowing = document.getElementById("onetrust-banner-sdk") ? true : false;
 
@@ -2688,7 +2688,7 @@ window.SELF_HOSTED_ADS = false;
 	};
 
 			s.src = "//nexus.ensighten.com/hearst/mag/Bootstrap.js";
-			
+
 	if ( d.cookie.indexOf( "nsghtn=dev" ) > -1 ) {
 		s.src = "//nexus.ensighten.com/hearst/mag-dev/Bootstrap.js";
 	}
@@ -2698,4 +2698,3 @@ window.SELF_HOSTED_ADS = false;
 </script>
 		</body>
 	</html>
-

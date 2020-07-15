@@ -144,7 +144,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))</script></hea
 					jQuery('.siq-expsearch-icon').each(function(){
 					var searchBox = (jQuery(this).parents('.siq-icon-searchbox-wrap').size() > 0) ? jQuery(this).parents('.siq-icon-searchbox-wrap') : jQuery('.siq-menu-searchbox-wrap') ;
 					var inputBox = searchBox.find('.siq-expsearch-input');
-					
+
 					jQuery(this).on('click', function () {
 						if (!searchBox.hasClass('siq-search-open')) {
 							searchBox.addClass('siq-search-open');

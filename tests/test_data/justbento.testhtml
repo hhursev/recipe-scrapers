@@ -90,7 +90,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
           <div class="region region-header-right">
   <div id="block-block-46" class="block block-block">
 
-      
+
   <div class="content">
     <div id="googlesearch"><!-- Google CSE Search Box Begins  -->
 <form action="https://justhungry.com/googlesearch.php" id="cse-search-box">
@@ -110,7 +110,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
 
   </div>
-  
+
 </div> <!-- /.block -->
 </div>
  <!-- /.region -->
@@ -121,8 +121,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   </header>
 
 
-  
-  
+
+
       <div id="header-block">
       <div class="container">
         <div class="row">
@@ -130,10 +130,10 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
             <div class="region region-header">
   <div id="block-superfish-1" class="block block-superfish">
 
-      
+
   <div class="content">
     <ul  id="superfish-1" class="menu sf-menu sf-main-menu sf-navbar sf-style-white sf-total-items-6 sf-parent-items-4 sf-single-items-2"><li id="menu-228-1" class="first odd sf-item-1 sf-depth-1 sf-no-children"><a href="/" title="Home page" class="sf-depth-1">Home</a></li><li id="menu-231-1" class="middle even sf-item-2 sf-depth-1 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent"><a href="/handbook/bento-basics" title="Everything you wanted to know about bentos! " class="sf-depth-1 menuparent">Bento Basics</a><ul><li id="menu-2858-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics/makis-top-10-bento-rules" class="sf-depth-2">Top 10 Bento Rules</a></li><li id="menu-2859-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics/selecting-right-bento-lunch-box" class="sf-depth-2">Selecting the Right Bento Box</a></li><li id="menu-2860-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics/essential-equipment-and-supplies-making-bento-lunches" class="sf-depth-2">Bento Making Equipment and Supplies</a></li><li id="menu-2861-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics/keeping-your-bento-lunch-safe" class="sf-depth-2">Bento Safety</a></li><li id="menu-2862-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics/how-freezing-preportioned-rice" class="sf-depth-2">Freezing Pre-cooked Rice </a></li><li id="menu-2863-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics/bento-no-39-how-to-fill-bento-box" class="sf-depth-2">How to Pack a Classic Bento Box</a></li><li id="menu-2864-1" class="last odd sf-item-7 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics" class="sf-depth-2">-- More Bento Basics </a></li></ul></li><li id="menu-229-1" class="middle odd sf-item-3 sf-depth-1"><a href="/bento-menus" title="Examples of complete packed bentos, or bento menus." class="sf-depth-1">Bento Menus</a></li><li id="menu-230-1" class="middle even sf-item-4 sf-depth-1 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent"><a href="/recipes" title="Bento-friendly recipes" class="sf-depth-1 menuparent">Recipes</a><ul><li id="menu-2870-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/recipes/all" title="All the recipes on Just Bento" class="sf-depth-2">All recipes</a></li><li id="menu-2872-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/recipes/by-type/japanese" title="japanese recipes" class="sf-depth-2">Japanese recipes</a></li><li id="menu-2873-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/recipes/by-type/not-japanese" title="not so Japanese recipes" class="sf-depth-2">Not so Japanese recipes</a></li><li id="menu-2876-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/recipes/by-type/asian-general" title="Asian (note Japanese) recipes" class="sf-depth-2">Asian recipes</a></li><li id="menu-2875-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="/recipes/by-type/staples-stash-jobisai" title="stash, staples, jobisai " class="sf-depth-2">Stash recipes</a></li><li id="menu-2871-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a href="/recipes/by-type/vegetarian" title="vegetarian recipes" class="sf-depth-2">Vegetarian recipes</a></li><li id="menu-2874-1" class="last odd sf-item-7 sf-depth-2 sf-no-children"><a href="/recipes/by-type/vegan" title="vegan recipes" class="sf-depth-2">Vegan recipes</a></li></ul></li><li id="menu-236-1" class="middle odd sf-item-5 sf-depth-1 sf-no-children"><a href="/handbook/site-information" title="About the JustBento site" class="sf-depth-1">About</a></li><li id="menu-2854-1" class="last even sf-item-6 sf-depth-1 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="/handbook/just-bento-cookbook" class="sf-depth-1 menuparent">In Print</a><ul><li id="menu-2868-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/handbook/just-bento-cookbook" class="sf-depth-2">The Just Bento Cookbook</a></li><li id="menu-2869-1" class="last even sf-item-2 sf-depth-2 sf-no-children"><a href="/just-bento-cookbook-2-make-ahead-easy-healthy-lunches-go" class="sf-depth-2">The Just Bento Cookbook 2</a></li></ul></li></ul>  </div>
-  
+
 </div> <!-- /.block -->
 </div>
  <!-- /.region -->
@@ -141,9 +141,9 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
         </div>
       </div>
     </div>
-  
+
     <div id="main-content">
-    <div class="container"> 
+    <div class="container">
       <div class="row">
                         <div id="primary" class="content-area col-sm-8">
           <section id="content" role="main" class="clearfix">
@@ -151,11 +151,11 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                             <h1 class="page-title">Bento Filler: Orange Juice Carrots</h1>                                                                      <div class="region region-content">
   <div id="block-system-main" class="block block-system">
 
-      
+
   <div class="content">
     <div  about="/handbook/recipes-sides-and-fillers/bento-filler-orange-juice-carrots" typeof="sioc:Item foaf:Document" class="ds-1col node node-book node-full view-mode-full clearfix">
 
-  
+
   <div class="">
     <div class="field field-name-body"><p><img src="http://justbento.com/files/bento/images/orangecarrots1.jpg" width="500" height="398" alt="orangecarrots1.jpg" class="centerimg" /></p>
 
@@ -186,20 +186,20 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 </div><div class="field field-name-changed-date field-type-ds field-label-inline clearfix"><div class="field-label">Last modified:&nbsp;</div><div class="field-items"><div class="field-item even">11 Jun 2019 - 06:21</div></div></div><div class="field field-name-field-patreon"><div id="patreon-node"><p>If you enjoyed this article, please consider supporting this site by becoming my patron via Patreon. </p>
 <p><a href="https://www.patreon.com/bePatron?u=10285653" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script></p>
 </div></div><div class="field field-name-taxonomy-vocabulary-2 field-type-taxonomy-term-reference field-label-above"><div class="field-label">Time:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/time/timerequired1020minutes" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Time required: 10-20 minutes</a></div></div></div><div class="field field-name-taxonomy-vocabulary-1 field-type-taxonomy-term-reference field-label-above"><div class="field-label">Type:&nbsp;</div><div class="field-items"><div class="field-item even" rel=""><a href="/type/recipe" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">recipe</a></div></div></div><div class="field field-name-taxonomy-vocabulary-3"><div class="label-above">Filed under:&nbsp;</div><a href="/category/vegan" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegan</a><a href="/category/vegetarian" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetarian</a><a href="/category/filed-under/gluten-free" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">gluten-free</a><a href="/category/filed-under/decoration" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">decoration</a><a href="/category/filed-under/sides" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">sides</a><a href="/category/filed-under/vegetables" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetables</a></div><div class="field field-name-book-navigation-block field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even">  <div id="book-navigation-143" class="book-navigation">
-    
+
         <div class="page-links clearfix">
               <a href="/handbook/recipes-sides-and-fillers/bento-filler-fennel-salad-fennel-shiomomi" class="page-previous" title="Go to previous page">‹ Bento Filler: Fennel Salad (Fennel no Shiomomi)</a>
                     <a href="/handbook/recipe-collection-side-dishes-and-space-fillers" class="page-up" title="Go to parent page">up</a>
                     <a href="/handbook/recipes-sides-and-fillers/easiest-ever-carrot-sesame-salad" class="page-next" title="Go to next page">Bento Filler: The Easiest Ever Carrot-Sesame Salad ›</a>
           </div>
-    
+
   </div>
 </div></div></div>  </div>
 
 </div>
 
   </div>
-  
+
 </div> <!-- /.block -->
 </div>
  <!-- /.region -->
@@ -210,26 +210,26 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
            <div class="region region-sidebar-first">
   <div id="block-block-47" class="block block-block">
 
-      
+
   <div class="content">
     <div class="sidead">
 <a href="https://www.patreon.com/makiwi" target=_blank><img src="https://justbento.com/files/bento/patreon.png" width="340" height="80" alt="Patreon button" title="Support me on Patreon!" /></a></div>  </div>
-  
+
 </div> <!-- /.block -->
 <div id="block-block-37" class="block block-block">
 
-      
+
   <div class="content">
     <div class="sidead"><a href="/handbook/just-bento-cookbook" title="All about the book!"><img src="/files/bento/images/justbentocookbook_340w.jpg" width="340" height="180" alt="justbentocookbook_340w.jpg" /></a></div>
 
 <div class="sidead"><a href="/just-bento-cookbook-2-make-ahead-easy-healthy-lunches-go" title="All about the sequel!"><img src="/files/bento/justbentocookbook2_340w.jpg" width="340" height="166" alt="justbentocookbook2_340w.jpg" /></a></div>
 
   </div>
-  
+
 </div> <!-- /.block -->
 </div>
  <!-- /.region -->
-          </aside> 
+          </aside>
               </div>
     </div>
   </div>
@@ -243,8 +243,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
         </div>
       </div>
     </div>
-  
-  
+
+
   <footer id="colophon" class="site-footer" role="contentinfo">
     <div class="container">
       <div class="row">
@@ -252,30 +252,30 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                    <div class="region region-footer">
   <div id="block-block-48" class="block block-block">
 
-      
+
   <div class="content">
     <div id="socialicons"><a href="/rss.xml" title="Subscribe via RSS"><i class="fas fa-rss"></i></a>   <a href="https://www.facebook.com/justbento.justhungry" title="Facebook"><i class="fab fa-facebook-square"></i></a>   <a href="https://www.twitter.com/makiwi" title="Twitter"><i class="fab fa-twitter-square"></i></a>    <a href="https://www.instagram.com/makiwi/" title="Instagram"><i class="fab fa-instagram"></i></a>  <a href="https://www.patreon.com/makiwi" title="Patreon"><i class="fab fa-patreon"></i></a>   <a href="https://www.paypal.me/makiwi" title="Paypal"><i class="fab fa-paypal"></i></a>  <a href="https://ko-fi.com/makiwi" title="Ko-fi"><i class="fas fa-coffee"></i></a></div>
 
 
 
   </div>
-  
+
 </div> <!-- /.block -->
 <div id="block-block-49" class="block block-block">
 
-      
+
   <div class="content">
     <div id="footerlinks2">Related sites: <a href="https://justhungry.com">Just Hungry</a> | <a href="https://justmyjapan.com">Just My Japan</a> | <a href="http://makikoitoh.com">Makiko Itoh dot com</a></div>
   </div>
-  
+
 </div> <!-- /.block -->
 <div id="block-block-45" class="block block-block">
 
-      
+
   <div class="content">
-    <div id="footerlinks">&copy;2007-2020 Makiko Itoh. All rights reserved.  <a href="/handbook/site-information" title="About">About the site</a> |  <a href="/handbook/site-information/advertising">Advertising/Support</a>  | 
+    <div id="footerlinks">&copy;2007-2020 Makiko Itoh. All rights reserved.  <a href="/handbook/site-information" title="About">About the site</a> |  <a href="/handbook/site-information/advertising">Advertising/Support</a>  |
 <a href="/sitemap">Sitemap</a></div>  </div>
-  
+
 </div> <!-- /.block -->
 </div>
  <!-- /.region -->

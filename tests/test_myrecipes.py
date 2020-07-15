@@ -6,7 +6,7 @@ from recipe_scrapers.myrecipes import MyRecipes
 class TestMyRecipesScraper(ScraperTest):
 
     scraper_class = MyRecipes
-    scraper_options = {'exception_handling': True,}
+    scraper_options = {"exception_handling": True}
 
     def test_host(self):
         self.assertEqual("myrecipes.com", self.harvester_class.host())
@@ -14,8 +14,8 @@ class TestMyRecipesScraper(ScraperTest):
     def test_image(self):
         self.assertEqual(
             "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.myrecipes.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fmyrecipestrending_1-09-18_1772_1.jpg%3Fitok%3DL_jRbjls%261516215251",
-            self.harvester_class.image()
-            )
+            self.harvester_class.image(),
+        )
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Cacio e Pepe")
@@ -24,16 +24,18 @@ class TestMyRecipesScraper(ScraperTest):
         self.assertEqual(20, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("Serves 2 (serving size: 1 1/2 cups)", self.harvester_class.yields())
+        self.assertEqual(
+            "Serves 2 (serving size: 1 1/2 cups)", self.harvester_class.yields()
+        )
 
     def test_ingredients(self):
         self.assertCountEqual(
             [
-                '6 oz. bucatini pasta',
-                '1 1/2 tsp. kosher salt, divided',
-                '3 Tbsp. olive oil',
-                '1 tsp. black pepper, plus more for garnish',
-                '1 1/2 oz. pecorino Romano, grated (about 3/4 cups), plus more for garnish',
+                "6 oz. bucatini pasta",
+                "1 1/2 tsp. kosher salt, divided",
+                "3 Tbsp. olive oil",
+                "1 tsp. black pepper, plus more for garnish",
+                "1 1/2 oz. pecorino Romano, grated (about 3/4 cups), plus more for garnish",
             ],
             self.harvester_class.ingredients(),
         )
@@ -46,5 +48,6 @@ class TestMyRecipesScraper(ScraperTest):
 
     def test_ratings(self):
         self.assertEqual(-1, self.harvester_class.ratings())
+
 
 # https://www.myrecipes.com/recipe/cacio-e-pepe

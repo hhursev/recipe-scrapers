@@ -121,7 +121,7 @@
       <script type="application/json" id="js-react-on-rails-context">{"railsEnv":"production","inMailer":false,"i18nLocale":"en","i18nDefaultLocale":"en","rorVersion":"11.3.0","rorPro":false,"href":"https://cooking.nytimes.com/recipes/1021128-cacio-e-pepe-crackers","location":"/recipes/1021128-cacio-e-pepe-crackers","scheme":"https","host":"cooking.nytimes.com","port":null,"pathname":"/recipes/1021128-cacio-e-pepe-crackers","search":null,"httpAcceptLanguage":"en-US,en;q=0.5","serverSide":false}</script>
 <div id="siteNavMount"><div><div class="nytc---sitenav---siteNav"><div class="nytc---sitenav---siteNavWrap"><div class="nytc---hamburgerbtn---hamburgerWrapper"><a class="nytc---hamburgerbtn---hamburger"><span aria-label="Menu" name="Menu"></span></a></div><a href="/?action=click&amp;module=nav&amp;region=logo&amp;pgType=recipe-page" class="nytc---sitelogo---logoWrapper" aria-label="Cooking with The New York Times"><div class="nytc---sitelogo---logo"></div></a><a class="nytc---mobileSearchIcon---iconWrapper nytc---mobileSearchIcon---position"><span class="nytc---mobileSearchIcon---icon"></span></a><div class="nytc---mask---hidden nytc---mask---showNavBlackBG"></div></div></div><div class="nytc---sitesearch---siteSearch nytc---sitesearch---isNotLoggedIn nytc---sitesearch---isNotSubscribed"><div class="nytc---sitesearchbar---inputWrap"><form class="nytc---sitesearchbar---searchForm" action="/"><span class="nytc---sitesearchbar---clearQuery">X</span><input type="search" aria-label="Search NYT Cooking" class="nytc---sitesearchbar---searchInput" placeholder="What would you like to cook?" value=""/><span class="nytc---sitesearchbar---searchBTN">Search</span></form></div></div></div></div>
       <script type="application/json" class="js-react-on-rails-component" data-component-name="SiteNavWrapped" data-trace="true" data-dom-id="siteNavMount">{"user":null,"modalState":{"isOpen":false},"popover":{"dragToFolderPopover":{"isDisplayed":false},"savePopover":{"isDisplayed":false,"saveType":""},"signUpPopover":{"isShown":false},"subscribePopover":{"isDisplayed":false},"organizeMenu":[]},"app":{"consumerMarketingURL":"https://www.nytimes.com/subscriptions/Multiproduct/lp8R3WU.html?return_url=https://cooking.nytimes.com","env":"production","saveRecapURL":"https://ckg-user-recommendations-dot-nyt-ckg-prd.appspot.com/recommendations/users","staticAssetPath":"https://static01.nyt.com/applications/cooking/40185da/assets"},"page":{"type":"recipe-page","id":1021128,"viewableType":"recipe","uri":"nyt://recipe/82b3545f-d966-51b5-943e-60764eac4490"},"editorsCollections":{},"promos":{"homepage":null,"recipeDetails":null,"isFetchingPromos":false},"recirculationBand":{"suggestionsData":null,"isTablet":false,"promo":null},"searchBarIsOpen":false,"sidebarIsOpen":false,"siteSearch":{"query":"","isFocused":false,"autocomplete":{"tags":null,"recipes":null,"guides":null}},"topNav":{"label":"What to Cook This Week","path":"/topics/what-to-cook-this-week"}}</script>
-      
+
 
 
     <div id="appContainer"></div>
@@ -132,7 +132,7 @@
 
 
     <div id="container">
-      
+
 
 
 
@@ -153,9 +153,9 @@
   <article class="card static noclickarea recipe-detail-card
       recipe-has-topnote
       recipe-has-media
-      
+
       recipe-has-horizontal-media
-      
+
       recipe-has-time-yield"
       data-type="recipe"
       data-id="1021128"
@@ -255,7 +255,7 @@
           <div class="recipe-topnote-metadata">
               <div class="topnote">
                 <p>These quick, easy crackers are a crispy twist on the classic pasta dish, and an excellent cocktail hour snack. Rolling the freshly made dough between sheets of parchment expedites chilling, then cutting crackers with a pastry wheel (or pizza cutter) reduces waste. Do grate your own cheese for this instead of using store-bought, pre-grated cheese, as it plays an integral role in making the dough moist. These cheesy crackers can be kept simple, allowing cheese and pepper to dominate, or gussied up with any combination of onion powder, ground mustard or garlic powder, depending on your preference. This recipe makes a large batch, but the crackers will keep for up to one month, depending on your snack habits.</p>
-                
+
 
 
               </div> <!-- /.topnote -->
@@ -275,13 +275,13 @@
           </div> <!-- /#recipe-actions -->
         </div> <!-- /.recipe-metadata -->
 
-        
+
 <section
   id="recipeDetails-recipe-details-top-desktop-ad"
   class="recipe-details-top-desktop
          ad-container collapsed
          desktop-ad
-         
+
          "
 >
   <div id='div-gpt-ad-804752003747430782-recipe-details-top-desktop' class="ad-unit">
@@ -304,13 +304,13 @@
   </div>
 </section>
 
-        
+
 <section
   id="recipeDetails-recipe-details-top-tablet-ad"
   class="recipe-details-top-tablet
          ad-container collapsed
          tablet-ad
-         
+
          "
 >
   <div id='div-gpt-ad-804752003747430782-recipe-details-top-tablet' class="ad-unit">
@@ -333,13 +333,13 @@
   </div>
 </section>
 
-        
+
 <section
   id="recipeDetails-top-mobile-ad"
   class="top-mobile
          ad-container collapsed
          mobile-ad mobileLandscape-ad
-         
+
          "
 >
   <div id='div-gpt-ad-804752003747430782-top-mobile' class="ad-unit">
@@ -549,13 +549,13 @@
 
   <div class="recipe-more grid-wrap">
 
-    
+
 <section
   id="recipeDetails-bottom-desktop-ad"
   class="bottom-desktop
          ad-container collapsed
          desktop-ad
-         
+
          "
 >
   <div id='div-gpt-ad-804752003747430782-bottom-desktop' class="ad-unit">
@@ -578,13 +578,13 @@
   </div>
 </section>
 
-    
+
 <section
   id="recipeDetails-bottom-tablet-ad"
   class="bottom-tablet
          ad-container collapsed
          tablet-ad
-         
+
          "
 >
   <div id='div-gpt-ad-804752003747430782-bottom-tablet' class="ad-unit">
@@ -607,13 +607,13 @@
   </div>
 </section>
 
-    
+
 <section
   id="recipeDetails-bottom-mobile-ad"
   class="bottom-mobile
          ad-container collapsed
          mobile-ad mobileLandscape-ad
-         
+
          "
 >
   <div id='div-gpt-ad-804752003747430782-bottom-mobile' class="ad-unit">
@@ -810,7 +810,7 @@
   class="paid-post-desktop
          ad-container collapsed
          desktop-ad
-         
+
          recipe-card card"
 >
   <div id='div-gpt-ad-804752003747430782-paid-post-desktop' class="ad-unit">
@@ -838,7 +838,7 @@
   class="paid-post-tablet
          ad-container collapsed
          tablet-ad
-         
+
          recipe-card card"
 >
   <div id='div-gpt-ad-804752003747430782-paid-post-tablet' class="ad-unit">
@@ -866,7 +866,7 @@
   class="paid-post-mobile-landscape
          ad-container collapsed
          mobileLandscape-ad
-         
+
          recipe-card card"
 >
   <div id='div-gpt-ad-804752003747430782-paid-post-mobile-landscape' class="ad-unit">
@@ -894,7 +894,7 @@
   class="paid-post-mobile
          ad-container collapsed
          mobile-ad
-         
+
          recipe-card card"
 >
   <div id='div-gpt-ad-804752003747430782-paid-post-mobile' class="ad-unit">
@@ -1424,7 +1424,7 @@
   <div class="footer-wrap">
       <div class="footer-body clearfix">
   <div class="container">
-    
+
 <div class="newsletter-container">
   <form id="footer-newsletter-email" class="newsletter-form" method="POST" novalidate>
       <h3 class="title">Get Our Newsletter</h3>
@@ -1526,7 +1526,7 @@
   </div>
 </div>
 
-    
+
 <script id="card-organize-tooltip" type="template">
   <div class="collections-container">
     <% if (!collections || !collections.length) { %>
@@ -1648,7 +1648,7 @@
 </script>
 
 
-    
+
 <script>
   try {
     bootstrap = window.bootstrap || {};
@@ -1725,7 +1725,7 @@
       };
     </script>
 
-      
+
 <script>
     bootstrap = window.bootstrap || {};
     bootstrap.recipe = {"id":1021128,"name":"Cacio e Pepe Crackers","byline":"Laurie Ellen Pellicano"};

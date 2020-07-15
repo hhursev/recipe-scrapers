@@ -3,21 +3,21 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"><script src="pbs_files/shares.json" type="text/javascript"></script><script src="pbs_files/analytics.js" async="" type="text/javascript"></script><script src="pbs_files/linkid.js" async="" type="text/javascript"></script><script src="pbs_files/widgets.js" type="text/javascript"></script><script src="pbs_files/pinit_main.js" async="" type="text/javascript"></script><script type="text/javascript" async="" src="pbs_files/0349.js"></script><script async="" charset="UTF-8" src="pbs_files/get" type="text/javascript"></script><link rel="stylesheet" type="text/css" href="pbs_files/bY3dDsIgDEZfaKwj8cLXQais0wHSsmVvb2f8i_GqX9PT8w1wzjmAZ4bp1rBu.css" media="all">
 
  <script src="pbs_files/analytics.js" async=""></script><script src="pbs_files/beacon.js" async=""></script><script src="pbs_files/gtm.js" async=""></script><script>var PBS_CHROME_CONFIG = {'api_key': 'e0f7f6fc-10b5-43bd-b63f-90a5780a2e97'};</script><script type="text/javascript" src="pbs_files/gc.js"></script>
-	
+
 <meta charset="UTF-8">
 
-<meta property="twitter:account_id" content="104257930">	
+<meta property="twitter:account_id" content="104257930">
 
-	  <link rel="icon" type="image/png" href="http://www.pbs.org/images/common/icons/browser_pbslogo16.png"> 
+	  <link rel="icon" type="image/png" href="http://www.pbs.org/images/common/icons/browser_pbslogo16.png">
 
 
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
 
 <!-- pbs css -->
-<link rel="STYLESHEET" type="text/css" media="screen" href="pbs_files/widgets.css">	
+<link rel="STYLESHEET" type="text/css" media="screen" href="pbs_files/widgets.css">
 
-	
+
 
 
 <!--<link rel="STYLESHEET" type="text/css" media="screen" href="http://www.pbs.org/food/wp-content/themes/food/css/food.css">-->
@@ -25,7 +25,7 @@
 
 
 
-<link rel="STYLESHEET" type="text/css" media="print" href="pbs_files/print.css">	
+<link rel="STYLESHEET" type="text/css" media="print" href="pbs_files/print.css">
 
 <style>
  /*#rightheadimg {background:  url(http://www.pbs.org/food/wp-content/themes/food/images/headers/summer/header2.png) top right no-repeat;}*/
@@ -73,7 +73,7 @@
 
 <script type="text/javascript" src="pbs_files/M9bPKixNLarUMYYydHMz04sSS1L1cjPzdAz00_LzU_SzimGShnqGhnoGWOX0k.js"></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.pbs.org/food/xmlrpc.php?rsd">
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.pbs.org/food/wp-includes/wlwmanifest.xml"> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.pbs.org/food/wp-includes/wlwmanifest.xml">
 <meta name="generator" content="WordPress 3.9">
 <meta name="framework" content="Alkivia Framework 0.8">
 <script type="text/javascript">
@@ -109,20 +109,20 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 <!-- End Google Tag Manager -->
 
 
-<!-- Begin comScore Tag --> 
-<script> 
-  var _comscore = _comscore || []; 
-  _comscore.push({ c1: "2", c2: "3005420" }); 
-  (function() { 
-    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true; 
-    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js"; 
-    el.parentNode.insertBefore(s, el); 
-  })(); 
-</script> 
-<noscript> 
-  <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005420&cv=2.0&cj=1" /> 
-</noscript> 
-<!-- End comScore Tag --> 
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "3005420" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005420&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
 
     <style>layer { position: absolute; }</style>
 <script type="text/javascript" language="JavaScript" src="pbs_files/elqCfg.html"></script>
@@ -279,7 +279,7 @@ a.PIN_1442072219349_embed_grid_ft span.PIN_1442072219349_embed_grid_ft_logo { ve
 </div>
 
 
-</div><layer hidden="true"><img src="pbs_files/svrGP.gif" border="0" height="1" width="1"></layer> 
+</div><layer hidden="true"><img src="pbs_files/svrGP.gif" border="0" height="1" width="1"></layer>
 
 
 
@@ -289,10 +289,10 @@ a.PIN_1442072219349_embed_grid_ft span.PIN_1442072219349_embed_grid_ft_logo { ve
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
- 
+
   ga('create', 'UA-26636391-5', 'pbs.org');
   ga('send', 'pageview');
- 
+
 </script>
 
 
@@ -307,11 +307,11 @@ a.PIN_1442072219349_embed_grid_ft span.PIN_1442072219349_embed_grid_ft_logo { ve
 
 
 
- 
+
 
 <!-- end pushdown -->
 
-		
+
 </div>
 
 
@@ -351,17 +351,17 @@ document.write('<script type="text/javascript" src="http://ad.doubleclick.net/ad
 
 
 <ul id="menu-top-nav" class="menu">
-<li><a href="http://www.pbs.org/food/">home</a></li> 
+<li><a href="http://www.pbs.org/food/">home</a></li>
 
-<li><a href="http://www.pbs.org/food/recipes/" class="here">recipes</a></li> 
+<li><a href="http://www.pbs.org/food/recipes/" class="here">recipes</a></li>
 
-<li><a href="http://www.pbs.org/food/video/">video</a></li> 
+<li><a href="http://www.pbs.org/food/video/">video</a></li>
 
-<li><a href="http://www.pbs.org/food/shows/">shows</a></li> 
+<li><a href="http://www.pbs.org/food/shows/">shows</a></li>
 
-<li><a href="http://www.pbs.org/food/blogs/">Blogs</a></li> 
+<li><a href="http://www.pbs.org/food/blogs/">Blogs</a></li>
 
-<li><a href="http://www.shoppbs.org/family/index.jsp?categoryId=2883349&amp;utm_source=PBS&amp;utm_medium=Link&amp;utm_campaign=pbs_content_pbsfood_shoptopnav">shop</a></li> 
+<li><a href="http://www.shoppbs.org/family/index.jsp?categoryId=2883349&amp;utm_source=PBS&amp;utm_medium=Link&amp;utm_campaign=pbs_content_pbsfood_shoptopnav">shop</a></li>
 
 
 
@@ -373,16 +373,16 @@ document.write('<script type="text/javascript" src="http://ad.doubleclick.net/ad
 
 <div class="clear"></div>
 
-		
+
 </div>
 <!-- end topnav -->
 
 </div>
 <!-- end header -->
-	
-	
+
+
 <div id="main">
-	
+
 
 <link rel="image_src" href="http://www.pbs.org/food/wp-content/blogs.dir/2/files/2012/02/chocolate-cake640x360-150x84.jpg">
 
@@ -395,21 +395,21 @@ document.write('<script type="text/javascript" src="http://ad.doubleclick.net/ad
 			<ul role="tablist" class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
 				<li aria-selected="true" aria-labelledby="ui-id-1" aria-controls="tabs-1" tabindex="0" role="tab" class="ui-state-default ui-corner-top ui-tabs-active ui-state-active"><a id="ui-id-1" tabindex="-1" role="presentation" class="ui-tabs-anchor" href="#tabs-1">Search Recipes</a></li>
 				<li aria-selected="false" aria-labelledby="ui-id-2" aria-controls="tabs-2" tabindex="-1" role="tab" class="ui-state-default ui-corner-top"><a id="ui-id-2" tabindex="-1" role="presentation" class="ui-tabs-anchor" href="#tabs-2">Browse Recipes</a></li>
-			
+
 			</ul>
 
 			<div aria-hidden="false" aria-expanded="true" role="tabpanel" class="ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-1" id="tabs-1">
-<!-- search panel -->	
+<!-- search panel -->
 
 
 	<div id="taxsearch">
 	<div class="advanced"><a href="#" class="adv-search">» advanced search</a></div>
-<form role="search" method="get" id="searchfood" action="http://www.pbs.org/food/"> 
+<form role="search" method="get" id="searchfood" action="http://www.pbs.org/food/">
 <input name="post_type" value="food_recipes" type="hidden">
-<div><input name="s" id="keyword" value=" " onfocus="if (this.value == ' ') {this.value = '';}" onblur="if (this.value == '') {this.value = ' ';}" type="text"> 
+<div><input name="s" id="keyword" value=" " onfocus="if (this.value == ' ') {this.value = '';}" onblur="if (this.value == '') {this.value = ' ';}" type="text">
 <input name="Search" value="Search" class="searchbutton" type="submit">
-			
-<!-- begin advanced -->			
+
+<!-- begin advanced -->
 <div id="advancedsearch" style="display: none;">
 <table id="brosetable" cellpadding="0" cellspacing="0" border="0" width="100%">
 <tbody><tr>
@@ -424,23 +424,23 @@ document.write('<script type="text/javascript" src="http://ad.doubleclick.net/ad
 </tr>
 </tbody></table>
 
-</div> 
-		
+</div>
+
 
 </div></form>
 <!-- end advanced -->
-</div>	
-<!-- end search panel -->
-	
 </div>
-			
-			
+<!-- end search panel -->
+
+</div>
+
+
 			<div aria-hidden="true" aria-expanded="false" style="display: none;" role="tabpanel" class="ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-2" id="tabs-2">
-					
+
 <table id="brosetable" cellpadding="0" cellspacing="0" border="0" width="100%">
 <tbody><tr>
 	<td><div class="hed">Course</div>
-	
+
 
 <ul class="catlist">
 	<li class="cat-item cat-item-185"><a href="http://www.pbs.org/food/course/appetizer/" title="Need a recipe for tasty appetizers? We have some great ideas for dips, snacks, and hor d'oeuvres to start your next party or gathering off right.">Appetizer</a>
@@ -461,12 +461,12 @@ document.write('<script type="text/javascript" src="http://ad.doubleclick.net/ad
 </li>
 	<li class="cat-item cat-item-193"><a href="http://www.pbs.org/food/course/soup-and-stew/" title="Soup - it goes with sandwiches, it can be a first course, and it goes with every season. We have soups, stews, chowders, and gazpachos for you to try, so grab a spoon and start trying recipes!">Soup and Stew</a>
 </li>
-</ul>	
-	
+</ul>
+
 	</td>
 	<td><div class="hed">Genre/Cuisine</div>
-	
-	
+
+
 <ul class="catlist">
 	<li class="cat-item cat-item-194"><a href="http://www.pbs.org/food/cuisine/african/" title="Interested in trying something new? How about a African dish? We have everything from peanut soups to Moroccan chicken and promise everything will be delicious and flavorful!">African</a>
 </li>
@@ -506,11 +506,11 @@ document.write('<script type="text/javascript" src="http://ad.doubleclick.net/ad
 </li>
 	<li class="cat-item cat-item-210"><a href="http://www.pbs.org/food/cuisine/thai/" title="Discover authentic Thai recipes such as curry and Pad Thai and other flavorful dishes to bring the delicacies of Thailand into your home.">Thai</a>
 </li>
-</ul>	
-	
+</ul>
+
 	</td>
 	<td><div class="hed">Occasion</div>
-		
+
 <ul class="catlist">
 	<li class="cat-item cat-item-211"><a href="http://www.pbs.org/food/occasion/birthday-party/" title="We only get one birthday a year so why not make this one extra special. Start celebrating with snack ideas for guests or creative meal ideas for kids. Whether you prefer to place your candles on a cake, cupcakes or brownies, we have a recipe for you! ">Birthday Party</a>
 </li>
@@ -536,13 +536,13 @@ document.write('<script type="text/javascript" src="http://ad.doubleclick.net/ad
 </li>
 	<li class="cat-item cat-item-221"><a href="http://www.pbs.org/food/occasion/thanksgiving/" title="Need a new recipe for the turkey? How about a side dish? Whatever you are looking for, we have a recipe to be thankful for this year.">Thanksgiving</a>
 </li>
-</ul>	
-	
+</ul>
+
 	</td>
 	<td>	<div class="hed">Theme</div>
-	
-	
-	
+
+
+
 <ul class="catlist">
 	<li class="cat-item cat-item-222"><a href="http://www.pbs.org/food/theme/cocktail/" title="In the mood for a cocktail? Whether looking for something sparkling, sweet, or sour we have a drink idea for you!">Cocktail</a>
 </li>
@@ -571,7 +571,7 @@ document.write('<script type="text/javascript" src="http://ad.doubleclick.net/ad
 </li>
 	<li class="cat-item cat-item-235"><a href="http://www.pbs.org/food/theme/vegetarian/" title="Our tasty options for vegetarian dishes are meat-free, and we promise all of them will have you asking for seconds. ">Vegetarian</a>
 </li>
-</ul>	
+</ul>
 	</td>
 </tr>
 </tbody></table>
@@ -581,7 +581,7 @@ document.write('<script type="text/javascript" src="http://ad.doubleclick.net/ad
 
 </div>
 <!-- end tabs -->
-	
+
 </div>
 <div class="padding">
 <div id="post-8150" class="post-8150 food_recipes type-food_recipes status-publish has-post-thumbnail hentry tag-cake tag-chocolate-cake-recipes tag-chocolate">
@@ -610,7 +610,7 @@ document.write('<script type="text/javascript" src="http://ad.doubleclick.net/ad
 <p class="summary">Making a cake has never been so simple, so there is no reason not to indulge. Food blogger <a href="http://www.pbs.org/food/chefs/marc-matsumoto">Marc Matsumoto</a> shares how he discovered the idea for this recipe in a <a href="http://www.pbs.org/food/fresh-tastes/microwave-chocolate-cake/">full post</a> on the Fresh Tastes blog.</p>
 <div class="clear"></div>
 
-<!-- toolbar -->				
+<!-- toolbar -->
 <div id="recipetoolbar">
 <div class="print"><a href="http://www.pbs.org/food/recipes/20-second-chocolate-cake/?print=1&amp;p=8150" target="_blank" rel="nofollow"> <!-- <img src="http://www.pbs.org/food/wp-content/themes/food/images/button-print.png" width="90" height="29" alt="print" /> --> <img src="pbs_files/button-print.png" alt="print" height="29" width="90"></a><br></div>
 <div class="social">
@@ -632,7 +632,7 @@ document.write('<script type="text/javascript" src="http://ad.doubleclick.net/ad
 </div><div class="clear"></div>
 
 </div>
-<!-- END toolbar -->			
+<!-- END toolbar -->
 
 
 <div class="timeandtheme">
@@ -649,24 +649,24 @@ document.write('<script type="text/javascript" src="http://ad.doubleclick.net/ad
 
 
 <div class="ingredients"><h4 class="ingredients">Ingredients</h4><ul class="ingredients"><li class="ingredient">1 egg - beaten</li><li class="ingredient">1/2 tsp vanilla extract (optional)</li><li class="ingredient">1 tbsp heavy cream</li><li class="ingredient">2 tbsp cocoa powder</li><li class="ingredient">2 tablespoons sugar</li><li class="ingredient">1/4 tsp baking powder</li><li class="ingredient">1 tsp oil</li></ul></div><div class="instructions"><h4 class="instructions">Directions</h4><ol class="instructions"><li><span class="txt">Split
- the oil between two tall mugs with vertical walls, and then use your 
-finger to spread it evenly up the sides, drain any excess oil. The mugs 
-must be very well oiled or the cake will stick when you try and unmold 
-it.</span></li><li><span class="txt">Add the sugar to a small bowl, and 
+ the oil between two tall mugs with vertical walls, and then use your
+finger to spread it evenly up the sides, drain any excess oil. The mugs
+must be very well oiled or the cake will stick when you try and unmold
+it.</span></li><li><span class="txt">Add the sugar to a small bowl, and
 then sift in the coco powder (a tea strainer works great for this).  Add
- the heavy cream, egg and optional vanilla and whisk until there are no 
+ the heavy cream, egg and optional vanilla and whisk until there are no
 lumps. Sprinkle the baking powder on top and quickly mix together.</span></li><li><span class="txt">Split
- the batter between the mugs and firmly tap the mugs on a towel-lined 
-countertop to release any large air bubbles. Microwave one cake at a 
+ the batter between the mugs and firmly tap the mugs on a towel-lined
+countertop to release any large air bubbles. Microwave one cake at a
 time.</span></li><li><span class="txt">Since you don’t want to start and
- stop the microwave a bunch of times, set it for about 30 seconds, and 
+ stop the microwave a bunch of times, set it for about 30 seconds, and
 closely watch the cake.  It’s done when the cake rises about half-way up
- to sides of the mug (about 18 seconds in a 1000 watt microwave). The 
-difference between a tender fluffy cake draped in velvety chocolate 
-sauce and a chewy hockey puck is a few seconds, so you'll need to 
+ to sides of the mug (about 18 seconds in a 1000 watt microwave). The
+difference between a tender fluffy cake draped in velvety chocolate
+sauce and a chewy hockey puck is a few seconds, so you'll need to
 experiment to see what works best for your microwave.</span></li><li><span class="txt">Because
- the mug retains heat, it will continue cooking until you unmold it, so 
-have a plate ready and unmold the cake as soon as it comes out of the 
+ the mug retains heat, it will continue cooking until you unmold it, so
+have a plate ready and unmold the cake as soon as it comes out of the
 microwave.</span></li></ol></div></div><!-- end hrecipe formatting -->
 
 </div>
@@ -680,27 +680,27 @@ microwave.</span></li></ol></div></div><!-- end hrecipe formatting -->
 <!-- other recipes -->
 <!--<div id="otherrecipes">
 <div class="title"><img src="http://www.pbs.org/food/wp-content/themes/food/images/if-you-liked-this.png" width="398" height="19" alt=""></div>
-<div class="foodslider"> 
-<div class="scroll-pane ui-widget ui-widget-header ui-corner-all"> 
-	
+<div class="foodslider">
+<div class="scroll-pane ui-widget ui-widget-header ui-corner-all">
+
 
 
 
 <div class='scroll-content' style='width: 0px;'></div>
-</div> 
-<div class="clear"></div> 
+</div>
+<div class="clear"></div>
  </div>
- 
 
- 
-	
-</div>	-->	
+
+
+
+</div>	-->
 <!-- End other recipes -->
 
 
 
-	
-				
+
+
 <div id="partners">
 <div class="padding">
 
@@ -726,9 +726,9 @@ microwave.</span></li></ol></div></div><!-- end hrecipe formatting -->
 </div>
 </div>
 
-	
-				
-<!-- comments -->				
+
+
+<!-- comments -->
 <div id="commentswrapper">
 
 <div id="disqus_thread"><iframe verticalscrolling="no" horizontalscrolling="no" src="pbs_files/a.html" style="width: 100% ! important; border: medium none ! important; overflow: hidden ! important; height: 592px ! important;" title="Disqus" tabindex="0" scrolling="no" allowtransparency="true" data-disqus-uid="1" id="dsq-1" frameborder="0" width="100%"></iframe></div>
@@ -781,8 +781,8 @@ microwave.</span></li></ol></div></div><!-- end hrecipe formatting -->
 })();
 /* ]]> */
 </script>
-</div>		
-<!-- end comments -->		
+</div>
+<!-- end comments -->
 
 
 </div><!-- /padding -->
@@ -790,7 +790,7 @@ microwave.</span></li></ol></div></div><!-- end hrecipe formatting -->
 </div><!-- /single -->
 
 
-		
+
 </div>
 <!-- end pageleft -->
 </div>
@@ -799,8 +799,8 @@ microwave.</span></li></ol></div></div><!-- end hrecipe formatting -->
 
 <div id="sidebar">
 
-	
-<!-- hold space for head img -->		
+
+<!-- hold space for head img -->
 <div id="headimgholder">
 <div class="social">
 <!-- <a href="http://www.pinterest.com/pbsfood" target="_blank"><img src="http://www.pbs.org/food/wp-content/themes/food/images/icon-pinterest.png" width="36" height="37" alt="pinterest"/></a>
@@ -815,7 +815,7 @@ microwave.</span></li></ol></div></div><!-- end hrecipe formatting -->
 <a href="http://instagram.com/pbsfood" target="_blank"><img src="pbs_files/icon-instagram.png" alt="instagram" height="37" width="36"></a>
 
 </div></div>
-		
+
 
 <div class="sidebox">
 
@@ -834,23 +834,23 @@ document.write('<script type="text/javascript" src="http://ad.doubleclick.net/ad
 
 <div class="supporttext"><div style="float: right;"><a href="http://www.pbs.org/aboutpbs/aboutpbs_whatisthis_banners.html">Learn More</a></div>Providing Support for pbs.org</div></div>
 
-	
 
 
-	
 
 
-	
 
 
-	
+
+
+
+
 
 
 <div class="sidebox">			<div class="textwidget"><center><a href="http://www.pbs.org/food/recipes/"><img src="pbs_files/Quick-Recipe-Search3.png"></a></center>
 
-<form role="search" method="get" id="searchfood" action="http://www.pbs.org/food/"> 
+<form role="search" method="get" id="searchfood" action="http://www.pbs.org/food/">
 <input name="post_type" value="food_recipes" type="hidden">
-<div><input name="s" id="keyword" value=" " onfocus="if (this.value == ' ') {this.value = '';}" onblur="if (this.value == '') {this.value = ' ';}" type="text"> 
+<div><input name="s" id="keyword" value=" " onfocus="if (this.value == ' ') {this.value = '';}" onblur="if (this.value == '') {this.value = ' ';}" type="text">
 <input name="Search" value="Search" class="searchbutton" type="submit"></div></form>
 </div>
 		</div><div class="sidebox"><h3 class="widget-title">PBS Food Newsletter Sign-Up</h3>			<div class="textwidget"><div id="sc83793" class="sc-view editor-outline elq-form" style="left: 0px; right: 0px; top: 0px; bottom: 0px; border-style: none"><form method="post" name="foodSignUp-1332962124566" action="https://secure.eloqua.com/e/f2" id="form36"><input value="foodSignUp-1332962124566" name="elqFormName" type="hidden"><input value="2143" name="elqSiteId" type="hidden"><input name="elqCampaignId" type="hidden"><div id="formElement0" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px; padding: 6px 5px 9px 9px; clear: both"><label style="display: block; line-height: 150%; padding: 1px 0pt 3px; white-space: nowrap">Email Address</label><div class="form-input-wrapper" style="width: 96%"><input id="field0" name="emailAddress" class="" style="width: 50%" type="text"></div></div><div id="formElement1" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px; clear: both"><div class="form-input-wrapper" style="width: 96%"><input id="field1" value="Right Rail" name="hiddenField" type="hidden"></div></div><div id="formElement2" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px; clear: both"><div class="form-input-wrapper" style="width: 96%"><input id="field2" value="Right Rail" name="hiddenField 2" type="hidden"></div></div><div id="formElement3" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px; padding: 6px 5px 9px 9px; clear: both"><div class="form-input-wrapper" style="width: 96%"><input id="field3" value="Submit" style="font-size: 100%; width: 100px; height: 24px" type="submit"></div></div></form><script src="pbs_files/livevalidation_standalone.js" type="text/javascript"></script><style type="text/css" media="screen">.LV_validation_message{ font-weight:bold; margin: 0 0 0 5px; }
@@ -885,38 +885,38 @@ document.write('<script type="text/javascript" src="http://ad.doubleclick.net/ad
 </div>
 <div aria-hidden="true" aria-expanded="false" style="display: none;" role="tabpanel" aria-labelledby="ui-id-4" id="tabs-2" class="comments ui-tabs-panel ui-widget-content ui-corner-bottom">
 <h3 style="display: none;"><a class="rsswidget" href="http://pbsfood.disqus.com/latest.rss" title="Syndicate this content"><img style="border:0" src="pbs_files/rss.png" alt="RSS" height="14" width="14"></a> <a class="rsswidget" href="http://pbsfood.disqus.com/" title="">PBS Food – Latest Comments</a></h3><ul><li><a class="rsswidget" href="http://www.pbs.org/food/fresh-tastes/roasted-eggplant-donburi/#comment-2184671206">Re: Can You Make Vegan Unagi?</a><div class="rssSummary">Can
- you use wheat-free soy sauce?? I found out that I'm allergic to wheat 
-which is why I've had to avoid a lot of Asian, Italian, and fast food 
+ you use wheat-free soy sauce?? I found out that I'm allergic to wheat
+which is why I've had to avoid a lot of Asian, Italian, and fast food
 cuisine....</div> <cite>Sara</cite></li><li><a class="rsswidget" href="http://www.pbs.org/food/chefsteps/frozen-flavor-nuggets/#comment-2184487023">Re: Frozen Flavor Nuggets</a><div class="rssSummary">They
- won't look like the pretty picture, though. Those are cut-apart not 
-from ice cube trays.I've been doing this for years. As soon as they are 
-frozen, I get them out of the trays and wrap them individually before 
-freezing in bags. Otherwise, they will stick together and you have to 
+ won't look like the pretty picture, though. Those are cut-apart not
+from ice cube trays.I've been doing this for years. As soon as they are
+frozen, I get them out of the trays and wrap them individually before
+freezing in bags. Otherwise, they will stick together and you have to
 fight them apart.</div> <cite>laytonian</cite></li><li><a class="rsswidget" href="http://www.pbs.org/food/recipes/adobo-fried-chicken-waffles/#comment-2183170928">Re: Adobo-Fried Chicken and Waffles</a><div class="rssSummary">Can
  I make the fried chicken with boneless chix thighs?On the show, Ed uses
  serrano and habanero peppers but only habanero or Thai peppers here.</div> <cite>Maureen Jones</cite></li><li><a class="rsswidget" href="http://www.pbs.org/food/fresh-tastes/mongolian-beef-pasta/#comment-2182823699">Re: Make Mongolian Beef Pasta for an Easy Meal</a><div class="rssSummary">Hi Tara, it's not going to taste exactly the same, but yes, it should work.</div> <cite>Marc Matsumoto</cite></li><li><a class="rsswidget" href="http://www.pbs.org/food/fresh-tastes/blueberry-bread/#comment-2182620274">Re: Blueberry Bread Makes Mother’s Day Brunch Vibrant</a><div class="rssSummary">I
- didn't have any yogurt and didn't feel like making a run to the store 
+ didn't have any yogurt and didn't feel like making a run to the store
 so I used sour cream and it came out AWESOME!!! So good I don't think it
  could get any better using yogurt.</div> <cite>Marsha</cite></li><li><a class="rsswidget" href="http://www.pbs.org/food/newsletter-subscribe/#comment-2182269108">Re: Thank You for Subscribing</a><div class="rssSummary">I
- love all food shows. I'm so happy the Great British Baking Show is 
-coming back. A Chef's Life is really interesting and different, and of 
+ love all food shows. I'm so happy the Great British Baking Show is
+coming back. A Chef's Life is really interesting and different, and of
 course, Martha is always wonderful.</div> <cite>Geri</cite></li><li><a class="rsswidget" href="http://www.pbs.org/food/fresh-tastes/mongolian-beef-pasta/#comment-2182235406">Re: Make Mongolian Beef Pasta for an Easy Meal</a><div class="rssSummary">Would Korean 고추장 (gochujang) work as well?</div> <cite>Tara Franklin</cite></li><li><a class="rsswidget" href="http://www.pbs.org/food/fresh-tastes/green-bean-eggplant-agebitashi/#comment-2182227280">Re: Try Green Beans in This Japanese Agebitashi</a><div class="rssSummary">I
- cooked this and it was sooooooo good. Thank you. Keeping it as a 
-rotation vegetable side. Can't wait to try some more off your site.</div> <cite>kazy</cite></li><li><a class="rsswidget" href="http://www.pbs.org/food/fresh-tastes/broccoli-cheddar-quiche/#comment-2180527824">Re: Make Broccoli and Cheddar Quiche for Breakfast</a><div class="rssSummary">Snack time for the chef? I sprinkled it on top when there was about ten minutes left for a nice bubbly crust.</div> <cite>Dezza3</cite></li><li><a class="rsswidget" href="http://www.pbs.org/food/fresh-tastes/roasted-eggplant-donburi/#comment-2180182406">Re: Can You Make Vegan Unagi?</a><div class="rssSummary">Absolutely brilliant!</div> <cite>SuperChef</cite></li></ul>	
+ cooked this and it was sooooooo good. Thank you. Keeping it as a
+rotation vegetable side. Can't wait to try some more off your site.</div> <cite>kazy</cite></li><li><a class="rsswidget" href="http://www.pbs.org/food/fresh-tastes/broccoli-cheddar-quiche/#comment-2180527824">Re: Make Broccoli and Cheddar Quiche for Breakfast</a><div class="rssSummary">Snack time for the chef? I sprinkled it on top when there was about ten minutes left for a nice bubbly crust.</div> <cite>Dezza3</cite></li><li><a class="rsswidget" href="http://www.pbs.org/food/fresh-tastes/roasted-eggplant-donburi/#comment-2180182406">Re: Can You Make Vegan Unagi?</a><div class="rssSummary">Absolutely brilliant!</div> <cite>SuperChef</cite></li></ul>
 </div>
 
 
 <!-- end tabs -->
 
 
-</div>		
+</div>
 
 <div style="background-color: #fff; margin-bottom: 10px;">			<div class="textwidget"><center><span class="PIN_1442072219349_embed_grid"><span class="PIN_1442072219349_embed_grid_hd"><a target="_blank" href="http://www.pinterest.com/pbsfood/" data-pin-log="embed_user_hd" class="PIN_1442072219349_avatar"><img src="pbs_files/pbsfood_1382022754_60.jpg" title="PBS Food" alt="PBS Food"></a><a style="width: 235px;" data-pin-href="//www.pinterest.com/pbsfood/" data-pin-log="embed_user_hd" class="PIN_1442072219349_embed_grid_mid">PBS Food</a></span><span style="height: 175px; width: 280px;" class="PIN_1442072219349_embed_grid_bd"><span style="height: 2098.31px;" class="PIN_1442072219349_embed_grid_ct"><a style="height: 121.89px; width: 92px; top: 0px; left: 0px;" data-pin-log="embed_user_thumb" data-pin-id="102527328994263762" data-pin-href="//www.pinterest.com/pin/102527328994263762" title="Let the kids help make a batch of Peppermint Fudge Brownies!" class="PIN_1442072219349_embed_grid_th"><img style="height: 121.89px; width: 92px; min-height: 121.89px; min-width: 92px; margin-top: -60.9451px;" alt="Let the kids help make a batch of Peppermint Fudge Brownies!" class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/ef3aa381ebabbfb1131411eb3a4504f4.jpg"></a><a style="height: 122.667px; width: 92px; top: 0px; left: 94px;" data-pin-log="embed_user_thumb" data-pin-id="102527328994262917" data-pin-href="//www.pinterest.com/pin/102527328994262917" title="Treat the kids to a stack of Pumpkin Waffles for a realizing Fall treat." class="PIN_1442072219349_embed_grid_th"><img style="height: 122.667px; width: 92px; min-height: 122.667px; min-width: 92px; margin-top: -61.3333px;" alt="Treat the kids to a stack of Pumpkin Waffles for a realizing Fall treat." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/618c12919742ba325af973d3572e5b66.jpg"></a><a style="height: 128.878px; width: 92px; top: 0px; left: 188px;" data-pin-log="embed_user_thumb" data-pin-id="102527328994257710" data-pin-href="//www.pinterest.com/pin/102527328994257710" title="For a quick seasonal breakfast, this Fall Granola recipe features oats, honey, autumn spices, walnuts, pumpkin seeds, and freeze-dried apples!" class="PIN_1442072219349_embed_grid_th"><img style="height: 128.878px; width: 92px; min-height: 128.878px; min-width: 92px; margin-top: -64.4388px;" alt="For a quick seasonal breakfast, this Fall Granola recipe features oats, honey, autumn spices, walnuts, pumpkin seeds, and freeze-dried apples!" class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/ab891fab1baf7e765d822f2bd408c4b7.jpg"></a><a style="height: 124.608px; width: 92px; top: 123.89px; left: 0px;" data-pin-log="embed_user_thumb" data-pin-id="102527328994256663" data-pin-href="//www.pinterest.com/pin/102527328994256663" title="Weekends at the apple picking fields call for Apple Pancakes!" class="PIN_1442072219349_embed_grid_th"><img style="height: 124.608px; width: 92px; min-height: 124.608px; min-width: 92px; margin-top: -62.3038px;" alt="Weekends at the apple picking fields call for Apple Pancakes!" class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/e39dc4f65d2d60fb1f2a769ac459b151.jpg"></a><a style="height: 137.806px; width: 92px; top: 124.667px; left: 94px;" data-pin-log="embed_user_thumb" data-pin-id="102527328994251441" data-pin-href="//www.pinterest.com/pin/102527328994251441" title="Is Dr. Seuss coming to dinner? This Green Mac and Cheese finds a fun way to disguise the nutritious edamame!" class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="Is Dr. Seuss coming to dinner? This Green Mac and Cheese finds a fun way to disguise the nutritious edamame!" class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/6df1ad21e599dd0c0ab009d2b818c8fb.jpg"></a><a style="height: 121.114px; width: 92px; top: 130.878px; left: 188px;" data-pin-log="embed_user_thumb" data-pin-id="102527328994250328" data-pin-href="//www.pinterest.com/pin/102527328994250328" title="Healthier than a basket of fries, these Sweet Potato Fries are cut into spears, baked, and dunked in Chipotle mayo." class="PIN_1442072219349_embed_grid_th"><img style="height: 121.114px; width: 92px; min-height: 121.114px; min-width: 92px; margin-top: -60.557px;" alt="Healthier than a basket of fries, these Sweet Potato Fries are cut into spears, baked, and dunked in Chipotle mayo." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/57a812179811afa255b68f8c7967d917.jpg"></a><a style="height: 123.055px; width: 92px; top: 250.498px; left: 0px;" data-pin-log="embed_user_thumb" data-pin-id="102527328994245168" data-pin-href="//www.pinterest.com/pin/102527328994245168" title="Take this childhood staple up a notch with a Smoked Cheddar Black Pepper Mac 'n Cheese." class="PIN_1442072219349_embed_grid_th"><img style="height: 123.055px; width: 92px; min-height: 123.055px; min-width: 92px; margin-top: -61.5274px;" alt="Take this childhood staple up a notch with a Smoked Cheddar Black Pepper Mac 'n Cheese." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/180982de8d0a0ca728b4b2bed29525df.jpg"></a><a style="height: 132.371px; width: 92px; top: 253.992px; left: 188px;" data-pin-log="embed_user_thumb" data-pin-id="102527328994244232" data-pin-href="//www.pinterest.com/pin/102527328994244232" title="Sneak the healthy greens into breakfast with this Broccoli Cheddar Quiche recipe." class="PIN_1442072219349_embed_grid_th"><img style="height: 132.371px; width: 92px; min-height: 132.371px; min-width: 92px; margin-top: -66.1857px;" alt="Sneak the healthy greens into breakfast with this Broccoli Cheddar Quiche recipe." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/6ad68514d9be9bb928db2f8b77565923.jpg"></a><a style="height: 137.806px; width: 92px; top: 264.473px; left: 94px;" data-pin-log="embed_user_thumb" data-pin-id="102527328994238688" data-pin-href="//www.pinterest.com/pin/102527328994238688" title="For kids with sensitive diets, these Vegan Oatmeal Cookies are a great option." class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="For kids with sensitive diets, these Vegan Oatmeal Cookies are a great option." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/93eb9430a471b52beb416b2acae86747.jpg"></a><a style="height: 125.384px; width: 92px; top: 375.553px; left: 0px;" data-pin-log="embed_user_thumb" data-pin-id="102527328994237646" data-pin-href="//www.pinterest.com/pin/102527328994237646" title="These Banana Walnut Coconut Muffins are a filling breakfast before school that you can make in advance to enjoy over the course of a few days." class="PIN_1442072219349_embed_grid_th"><img style="height: 125.384px; width: 92px; min-height: 125.384px; min-width: 92px; margin-top: -62.692px;" alt="These Banana Walnut Coconut Muffins are a filling breakfast before school that you can make in advance to enjoy over the course of a few days." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/630a80eda1c48608468feab30615d7e6.jpg"></a><a style="height: 124.996px; width: 92px; top: 388.363px; left: 188px;" data-pin-log="embed_user_thumb" data-pin-id="102527328994231944" data-pin-href="//www.pinterest.com/pin/102527328994231944" title="When the kids come flooding into the house with friends, make a quick plate of Mexican Nachos for an after-school snack!" class="PIN_1442072219349_embed_grid_th"><img style="height: 124.996px; width: 92px; min-height: 124.996px; min-width: 92px; margin-top: -62.4979px;" alt="When the kids come flooding into the house with friends, make a quick plate of Mexican Nachos for an after-school snack!" class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/fd3998eefbcbb3ff17c569787a25d8b2.jpg"></a><a style="height: 137.806px; width: 92px; top: 404.278px; left: 94px;" data-pin-log="embed_user_thumb" data-pin-id="102527328994230916" data-pin-href="//www.pinterest.com/pin/102527328994230916" title="Use ripe banana for a sweet, intense flavor in this Peanut Butter Chocolate Chunk Banana Bread recipe." class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="Use ripe banana for a sweet, intense flavor in this Peanut Butter Chocolate Chunk Banana Bread recipe." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/604a5247577bcf7a60cbe965b2c2407b.jpg"></a><a style="height: 131.207px; width: 92px; top: 502.937px; left: 0px;" data-pin-log="embed_user_thumb" data-pin-id="102527328994220307" data-pin-href="//www.pinterest.com/pin/102527328994220307" title="These Collard Green Wraps are a healthy lunch idea featuring hummus, alfalfa sprouts, carrots, and avocado." class="PIN_1442072219349_embed_grid_th"><img style="height: 131.207px; width: 92px; min-height: 131.207px; min-width: 92px; margin-top: -65.6034px;" alt="These Collard Green Wraps are a healthy lunch idea featuring hummus, alfalfa sprouts, carrots, and avocado." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/9caa5f63fcf5dfa5abca39eb34c8187f.jpg"></a><a style="height: 128.878px; width: 92px; top: 515.359px; left: 188px;" data-pin-log="embed_user_thumb" data-pin-id="102527328994219605" data-pin-href="//www.pinterest.com/pin/102527328994219605" title="This one is for potato salad haters. The dressing has zero mayo. This No-Mayo Potato Salad features herbs, bacon, and leeks instead." class="PIN_1442072219349_embed_grid_th"><img style="height: 128.878px; width: 92px; min-height: 128.878px; min-width: 92px; margin-top: -64.4388px;" alt="This one is for potato salad haters. The dressing has zero mayo. This No-Mayo Potato Salad features herbs, bacon, and leeks instead." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/a63bcf0b65d8a275008b6d1e37c66dac.jpg"></a><a style="height: 61.3333px; width: 92px; top: 544.084px; left: 94px;" data-pin-log="embed_user_thumb" data-pin-id="102527328994214664" data-pin-href="//www.pinterest.com/pin/102527328994214664" title="This Peach Toasts recipe with goat cheese, prosciutto, and basil leaves is a filling after-school snack before Fall arrives." class="PIN_1442072219349_embed_grid_th"><img style="height: 61.3333px; width: 92px; min-height: 61.3333px; min-width: 92px; margin-top: -30.6667px;" alt="This Peach Toasts recipe with goat cheese, prosciutto, and basil leaves is a filling after-school snack before Fall arrives." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/d1fd8e8a55646bec8dcea13e19b15a44.jpg"></a><a style="height: 51.6287px; width: 92px; top: 607.418px; left: 94px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641652178" data-pin-href="//www.pinterest.com/pin/133982157641652178" title="Avocado Lox Summer Rolls combine the flavors of Vietnamese and Jewish deli cuisine to create these sweet and sour wraps." class="PIN_1442072219349_embed_grid_th"><img style="height: 51.6287px; width: 92px; min-height: 51.6287px; min-width: 92px; margin-top: -25.8143px;" alt="Avocado Lox Summer Rolls combine the flavors of Vietnamese and Jewish deli cuisine to create these sweet and sour wraps." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/e2031d89cea4bce924ab0fad55140541.jpg"></a><a style="height: 137.806px; width: 92px; top: 636.143px; left: 0px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641582973" data-pin-href="//www.pinterest.com/pin/133982157641582973" title="Pork Belly Kimchi Tacos might be the best Korean tacos you've ever had." class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="Pork Belly Kimchi Tacos might be the best Korean tacos you've ever had." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/2ab8b6ad0e336f4b15abad09ad367302.jpg"></a><a style="height: 137.806px; width: 92px; top: 646.236px; left: 188px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641568423" data-pin-href="//www.pinterest.com/pin/133982157641568423" title="Summertime grilling is prime for Mojo Verde Chicken. The marinade is simple and bright." class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="Summertime grilling is prime for Mojo Verde Chicken. The marinade is simple and bright." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/a6bde406e67a03b9c20e74b7f31de506.jpg"></a><a style="height: 66.3797px; width: 92px; top: 661.046px; left: 94px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641565036" data-pin-href="//www.pinterest.com/pin/133982157641565036" title="This Cherry Tomato Purslane Bulgar Salad is a wonderful and hearty combination of purslane leaves and cooked bulgar wheat. It’s a very loose play on a panzanella salad. The bulgar acts as the bread would." class="PIN_1442072219349_embed_grid_th"><img style="height: 66.3797px; width: 92px; min-height: 66.3797px; min-width: 92px; margin-top: -33.1899px;" alt="This Cherry Tomato Purslane Bulgar Salad is a wonderful and hearty combination of purslane leaves and cooked bulgar wheat. It&amp;#8217;s a very loose play on a panzanella salad. The bulgar acts as the bread would." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/e6865bcbfea4662fb700bdda9db0522c.jpg"></a><a style="height: 126.16px; width: 92px; top: 729.426px; left: 94px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641558744" data-pin-href="//www.pinterest.com/pin/133982157641558744" title="We love food photography of mise en place. All the ingredients are ready to be creative." class="PIN_1442072219349_embed_grid_th"><img style="height: 126.16px; width: 92px; min-height: 126.16px; min-width: 92px; margin-top: -63.0802px;" alt="We love food photography of mise en place. All the ingredients are ready to be creative." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/c98ebaf01fc1d31787908b483454f8a9.jpg"></a><a style="height: 128.878px; width: 92px; top: 775.949px; left: 0px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641555222" data-pin-href="//www.pinterest.com/pin/133982157641555222" title="Add purslane to this Cherry Tomato Bulgar Salad!" class="PIN_1442072219349_embed_grid_th"><img style="height: 128.878px; width: 92px; min-height: 128.878px; min-width: 92px; margin-top: -64.4388px;" alt="Add purslane to this Cherry Tomato Bulgar Salad!" class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/a8c72e3f6e9ceaad3c178d9ee9660735.jpg"></a><a style="height: 61.3333px; width: 92px; top: 786.042px; left: 188px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641548678" data-pin-href="//www.pinterest.com/pin/133982157641548678" title="Grill chicken in a mojo verde sauce with cilantro, lime, peppers, garlic, and orange juice." class="PIN_1442072219349_embed_grid_th"><img style="height: 61.3333px; width: 92px; min-height: 61.3333px; min-width: 92px; margin-top: -30.6667px;" alt="Grill chicken in a mojo verde sauce with cilantro, lime, peppers, garlic, and orange juice." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/7a93a817862813eed99fc8f534f62d4d.jpg"></a><a style="height: 127.325px; width: 92px; top: 849.376px; left: 188px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641389409" data-pin-href="//www.pinterest.com/pin/133982157641389409" title="Grilled Asparagus with Raclette - fancy melted cheese over fresh asparagus is a season treat!" class="PIN_1442072219349_embed_grid_th"><img style="height: 127.325px; width: 92px; min-height: 127.325px; min-width: 92px; margin-top: -63.6624px;" alt="Grilled Asparagus with Raclette - fancy melted cheese over fresh asparagus is a season treat!" class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/5f05ecc3bfbcd01e0b3c828a10ac9e23.jpg"></a><a style="height: 51.6287px; width: 92px; top: 857.586px; left: 94px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641357512" data-pin-href="//www.pinterest.com/pin/133982157641357512" title="PBS Food is giving away cookbooks from PBS chefs in our Summer Cookout Pinterest Contest! Click-through to enter - one winner will be chosen each Friday until June 19, 2015!" class="PIN_1442072219349_embed_grid_th"><img style="height: 51.6287px; width: 92px; min-height: 51.6287px; min-width: 92px; margin-top: -25.8143px;" alt="PBS Food is giving away cookbooks from PBS chefs in our Summer Cookout Pinterest Contest! Click-through to enter - one winner will be chosen each Friday until June 19, 2015!" class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/a9be5e308ebc368fe0fa3a45ce0906b1.jpg"></a><a style="height: 127.713px; width: 92px; top: 906.827px; left: 0px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641348440" data-pin-href="//www.pinterest.com/pin/133982157641348440" title="Cherry Spinach Salad makes a light Summer recipe for a healthy choice." class="PIN_1442072219349_embed_grid_th"><img style="height: 127.713px; width: 92px; min-height: 127.713px; min-width: 92px; margin-top: -63.8565px;" alt="Cherry Spinach Salad makes a light Summer recipe for a healthy choice." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/40f93b602ef227ff1ad62818b3a64ff4.jpg"></a><a style="height: 137.806px; width: 92px; top: 911.215px; left: 94px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641347611" data-pin-href="//www.pinterest.com/pin/133982157641347611" title="Masala Omelettes add Indian curry flavors into breakfast." class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="Masala Omelettes add Indian curry flavors into breakfast." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/42fb9a21307d486e80a2a5f5b33d1deb.jpg"></a><a style="height: 137.806px; width: 92px; top: 978.7px; left: 188px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641323960" data-pin-href="//www.pinterest.com/pin/133982157641323960" title="Wouldn't you want to sit on a back patio with a pitcher of Strawberry Honey Smash surrounded by your friends?" class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="Wouldn't you want to sit on a back patio with a pitcher of Strawberry Honey Smash surrounded by your friends?" class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/ad1e9eedfbcef13a352829e96d7cdff9.jpg"></a><a style="height: 137.806px; width: 92px; top: 1036.54px; left: 0px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641323127" data-pin-href="//www.pinterest.com/pin/133982157641323127" title="Mini Cherry Crumbles add an uncontrollable level of adorableness to dessert time!" class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="Mini Cherry Crumbles add an uncontrollable level of adorableness to dessert time!" class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/4e1fe32bf0ec18de8de3d8f5c0a814ab.jpg"></a><a style="height: 137.806px; width: 92px; top: 1051.02px; left: 94px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641322402" data-pin-href="//www.pinterest.com/pin/133982157641322402" title="Strawberry Crisp is one of those dessert that just scream Summertime, right?!" class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="Strawberry Crisp is one of those dessert that just scream Summertime, right?!" class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/b04d75576cc6b861669044e240ebb46a.jpg"></a><a style="height: 137.806px; width: 92px; top: 1118.51px; left: 188px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641321284" data-pin-href="//www.pinterest.com/pin/133982157641321284" title="Use natural meat tenderizers, like kiwi and ginger, and Thai aromatics, like lemon and cilantro, to create this intensely flavorful Tropical Beef Salad." class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="Use natural meat tenderizers, like kiwi and ginger, and Thai aromatics, like lemon and cilantro, to create this intensely flavorful Tropical Beef Salad." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/1cbc8f4b4373c212e2c1818daa2201b2.jpg"></a><a style="height: 119.561px; width: 92px; top: 1176.35px; left: 0px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641319628" data-pin-href="//www.pinterest.com/pin/133982157641319628" title="Savoy Cabbage Shrimp Salad is a bright and healthy side dish for Summertime." class="PIN_1442072219349_embed_grid_th"><img style="height: 119.561px; width: 92px; min-height: 119.561px; min-width: 92px; margin-top: -59.7806px;" alt="Savoy Cabbage Shrimp Salad is a bright and healthy side dish for Summertime." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/286bb2126014a91efaff2919be8d9760.jpg"></a><a style="height: 140.135px; width: 92px; top: 1190.83px; left: 94px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641318991" data-pin-href="//www.pinterest.com/pin/133982157641318991" title="Making refried beans from scratch is the best Mexican comfort food." class="PIN_1442072219349_embed_grid_th"><img style="height: 140.135px; width: 92px; min-height: 140.135px; min-width: 92px; margin-top: -70.0675px;" alt="Making refried beans from scratch is the best Mexican comfort food." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/cd45c718563fb4680abc2105cf5c97c0.jpg"></a><a style="height: 137.806px; width: 92px; top: 1258.31px; left: 188px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641312171" data-pin-href="//www.pinterest.com/pin/133982157641312171" title="Skip the oven and make pizza on the grill! You'll want this Grilled Pesto Pizza with Goat Cheese recipe all Summer long." class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="Skip the oven and make pizza on the grill! You'll want this Grilled Pesto Pizza with Goat Cheese recipe all Summer long." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/983d468826336868a212e1abc8c345b4.jpg"></a><a style="height: 137.806px; width: 92px; top: 1297.91px; left: 0px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641312063" data-pin-href="//www.pinterest.com/pin/133982157641312063" title="Have Summer dinner ready in minutes with this Gambas al Ajillo recipe for shrimp sauteed in garlic and olive oil." class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="Have Summer dinner ready in minutes with this Gambas al Ajillo recipe for shrimp sauteed in garlic and olive oil." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/df178bb06b51e776fa1834de74779478.jpg"></a><a style="height: 137.806px; width: 92px; top: 1332.96px; left: 94px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641311990" data-pin-href="//www.pinterest.com/pin/133982157641311990" title="Refreshing Strawberry Lemonade recipe that is extra fun in a mason jar. You’ll love it all Summer long!" class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="Refreshing Strawberry Lemonade recipe that is extra fun in a mason jar. You&amp;#8217;ll love it all Summer long!" class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/e5893ec01af54e0eab0b115eeb3d224d.jpg"></a><a style="height: 137.806px; width: 92px; top: 1398.12px; left: 188px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641311916" data-pin-href="//www.pinterest.com/pin/133982157641311916" title="Lounge poolside with this Pineapple Coconut Smoothie recipe this Summer. Quick and easy!" class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="Lounge poolside with this Pineapple Coconut Smoothie recipe this Summer. Quick and easy!" class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/fa261ce34aa664baba1d393258103391.jpg"></a><a style="height: 137.806px; width: 92px; top: 1437.71px; left: 0px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641311878" data-pin-href="//www.pinterest.com/pin/133982157641311878" title="This Watermelon Feta Salad recipe is a refreshing side dish for your Summer cookout." class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="This Watermelon Feta Salad recipe is a refreshing side dish for your Summer cookout." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/adfc9c898d29de865f235bff45b33acb.jpg"></a><a style="height: 137.806px; width: 92px; top: 1472.77px; left: 94px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641311784" data-pin-href="//www.pinterest.com/pin/133982157641311784" title="Keeping Summer cookouts healthy and colorful w/ this No-Mayo Coleslaw recipe." class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="Keeping Summer cookouts healthy and colorful w/ this No-Mayo Coleslaw recipe." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/e7a00110e8392bc31ce9fda93803cfea.jpg"></a><a style="height: 137.806px; width: 92px; top: 1537.92px; left: 188px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641176364" data-pin-href="//www.pinterest.com/pin/133982157641176364" title="Chili Meatloaf combines two favorites into a serious comfort food. It mixes pork and beef along with a ton of caramelized aromatics, and the chili flavor comes from concentrated tomato paste, chili powder and cumin." class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="Chili Meatloaf combines two favorites into a serious comfort food. It mixes pork and beef along with a ton of caramelized aromatics, and the chili flavor comes from concentrated tomato paste, chili powder and cumin." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/bb618b798b9afb5b5a7fafcfaf549cdb.jpg"></a><a style="height: 125.384px; width: 92px; top: 1577.52px; left: 0px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641175273" data-pin-href="//www.pinterest.com/pin/133982157641175273" title="Banana Walnut Coconut Muffins taste like a moist banana bread. Coconut flour holds them together, while the primary source of fat is from coconut oil. While the cinnamon and walnuts add nice familiar breakfast flavors." class="PIN_1442072219349_embed_grid_th"><img style="height: 125.384px; width: 92px; min-height: 125.384px; min-width: 92px; margin-top: -62.692px;" alt="Banana Walnut Coconut Muffins taste like a moist banana bread. Coconut flour holds them together, while the primary source of fat is from coconut oil. While the cinnamon and walnuts add nice familiar breakfast flavors." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/630a80eda1c48608468feab30615d7e6.jpg"></a><a style="height: 127.713px; width: 92px; top: 1612.57px; left: 94px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641174354" data-pin-href="//www.pinterest.com/pin/133982157641174354" title="Halva Chocolate Spread is a good(ish)-­for-­you version of Nutella. The tahini provides this deliciously nutty and smooth texture. The cocoa powder immediately makes it a bit decadent." class="PIN_1442072219349_embed_grid_th"><img style="height: 127.713px; width: 92px; min-height: 127.713px; min-width: 92px; margin-top: -63.8565px;" alt="Halva Chocolate Spread is a good(ish)-&amp;#173;for-&amp;#173;you version of Nutella. The tahini provides this deliciously nutty and smooth texture. The cocoa powder immediately makes it a bit decadent." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/2b23a612d040fca945afa86e9f625b77.jpg"></a><a style="height: 137.806px; width: 92px; top: 1677.73px; left: 188px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641172258" data-pin-href="//www.pinterest.com/pin/133982157641172258" title="Spare Rib Noodle Soup is the perfect one-bowl meal with protein, vegetables and noodles in a savory broth that soothes the soul." class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="Spare Rib Noodle Soup is the perfect one-bowl meal with protein, vegetables and noodles in a savory broth that soothes the soul." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/a2553fb101915224b6f1dfcb35211dfc.jpg"></a><a style="height: 136.253px; width: 92px; top: 1704.9px; left: 0px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641171282" data-pin-href="//www.pinterest.com/pin/133982157641171282" title="There's something incredibly comforting about Beef and Stout Stew served on top of a velvety heap of mashed potatoes. The stout loses its strong “beer taste” and melds into a richly flavorful sauce." class="PIN_1442072219349_embed_grid_th"><img style="height: 136.253px; width: 92px; min-height: 136.253px; min-width: 92px; margin-top: -68.1266px;" alt="There's something incredibly comforting about Beef and Stout Stew served on top of a velvety heap of mashed potatoes. The stout loses its strong &amp;#8220;beer taste&amp;#8221; and melds into a richly flavorful sauce." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/0e0b5b7cf2415a62aa6e372b64e2dfa3.jpg"></a><a style="height: 129.654px; width: 92px; top: 1742.29px; left: 94px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641170480" data-pin-href="//www.pinterest.com/pin/133982157641170480" title="Fattoush Salads are Levantine bread salads. We've swapped the traditional romaine for kale, added pomegranate molasses and topped it with Za'atar Pita Chips." class="PIN_1442072219349_embed_grid_th"><img style="height: 129.654px; width: 92px; min-height: 129.654px; min-width: 92px; margin-top: -64.827px;" alt="Fattoush Salads are Levantine bread salads. We've swapped the traditional romaine for kale, added pomegranate molasses and topped it with Za'atar Pita Chips." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/01ad4d3066eebf05d2a4b5d14796d623.jpg"></a><a style="height: 137.806px; width: 92px; top: 1817.54px; left: 188px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641169670" data-pin-href="//www.pinterest.com/pin/133982157641169670" title="Peanut brittle is ridiculously simple to make, and this version leaves out the baking soda for a sweeter taste." class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="Peanut brittle is ridiculously simple to make, and this version leaves out the baking soda for a sweeter taste." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/37ac7b74233f98cbabfb8935226c2b8a.jpg"></a><a style="height: 127.713px; width: 92px; top: 1843.16px; left: 0px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641166523" data-pin-href="//www.pinterest.com/pin/133982157641166523" title="Putting rich decadent beer in cake is always a good idea! The beer in this Chocolate Stout Cake with Sweet Whiskey Glaze comes through in a subtle way (it’s not too boozy!)." class="PIN_1442072219349_embed_grid_th"><img style="height: 127.713px; width: 92px; min-height: 127.713px; min-width: 92px; margin-top: -63.8565px;" alt="Putting rich decadent beer in cake is always a good idea! The beer in this Chocolate Stout Cake with Sweet Whiskey Glaze comes through in a subtle way (it&amp;#8217;s not too boozy!)." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/06bed919b839dc0f9aeec925537cb3e9.jpg"></a><a style="height: 137.806px; width: 92px; top: 1873.94px; left: 94px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641165311" data-pin-href="//www.pinterest.com/pin/133982157641165311" title="Shakshouka is a traditional Tunisian dish that is popular all over North Africa. The eggs are poached in a spicy tomato sauce. You'll want extra bread to mop up the sauce!" class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="Shakshouka is a traditional Tunisian dish that is popular all over North Africa. The eggs are poached in a spicy tomato sauce. You'll want extra bread to mop up the sauce!" class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/052e962888717d87268934422295f14a.jpg"></a><a style="height: 137.806px; width: 92px; top: 1957.34px; left: 188px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641164427" data-pin-href="//www.pinterest.com/pin/133982157641164427" title="Ochazuke literally means “soaked in tea” and is a traditional Japanese breakfast food that’s somewhere between a soup and a porridge." class="PIN_1442072219349_embed_grid_th"><img style="height: 137.806px; width: 92px; min-height: 137.806px; min-width: 92px; margin-top: -68.903px;" alt="Ochazuke literally means &amp;#8220;soaked in tea&amp;#8221; and is a traditional Japanese breakfast food that&amp;#8217;s somewhere between a soup and a porridge." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/c30b6caf989855f4c3d643d0f085bc32.jpg"></a><a style="height: 123.443px; width: 92px; top: 1972.87px; left: 0px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641163296" data-pin-href="//www.pinterest.com/pin/133982157641163296" title="Fried rice always works best with rice that’s a day old and sort of dried out. Add a fried egg and Kimchi for a filling Korean recipe." class="PIN_1442072219349_embed_grid_th"><img style="height: 123.443px; width: 92px; min-height: 123.443px; min-width: 92px; margin-top: -61.7215px;" alt="Fried rice always works best with rice that&amp;#8217;s a day old and sort of dried out. Add a fried egg and Kimchi for a filling Korean recipe." class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/a07ac9e37aceac88245bc9ba4f50bc6d.jpg"></a><a style="height: 61.3333px; width: 92px; top: 2013.75px; left: 94px;" data-pin-log="embed_user_thumb" data-pin-id="133982157641160712" data-pin-href="//www.pinterest.com/pin/133982157641160712" title="Cheesecakedilla is a mash-up that college students would come up with at 3am except it's actually delicious with WAY better execution. Need we say more? It combines cheesecake with quesadillas!" class="PIN_1442072219349_embed_grid_th"><img style="height: 61.3333px; width: 92px; min-height: 61.3333px; min-width: 92px; margin-top: -30.6667px;" alt="Cheesecakedilla is a mash-up that college students would come up with at 3am except it's actually delicious with WAY better execution. Need we say more? It combines cheesecake with quesadillas!" class="PIN_1442072219349_embed_grid_img" data-pin-nopin="true" src="pbs_files/e0f4469ab65878955905661da4e3957c.jpg"></a></span></span><a data-pin-href="//www.pinterest.com/pbsfood/" data-pin-log="embed_user_ft" class="PIN_1442072219349_embed_grid_ft"><span data-pin-href="//www.pinterest.com/pbsfood/" data-pin-log="embed_user_ft">See On</span><span data-pin-href="//www.pinterest.com/pbsfood/" data-pin-log="embed_user_ft" class="PIN_1442072219349_embed_grid_ft_logo"></span></a></span></center></div>
 		</div><div style="background-color: #fff; margin-bottom: 10px;"><h3 style="display: none;">ShopPBS  Promo</h3>			<div class="textwidget"><a href="http://www.shoppbs.org/family/index.jsp?categoryId=17347716&amp;utm_source=PBS&amp;utm_medium=Link&amp;utm_campaign=pbs_content_pbsfood_shopmodule_culinaryarts"><img src="pbs_files/PBDfood_ChefsLife_HP_RR_05282015.jpg"></a></div>
-		</div>	
+		</div>
 
 
-		
+
 
 
 <div class="sidebox">
@@ -1085,18 +1085,18 @@ We Recommend
 </div>                        </div>
 </div>	</div>
 				<div class="ob_what ob-hover">
-	
+
 	<a href="#" onmousedown="" onclick="OBR.extern.callWhatIs('http://www.outbrain.com/what-is/default/en','',-1,-1,true ,null);return false">
 		Recommended by<span class="ob_logo" title="Outbrain"></span>
 	</a>
 </div>
-	
+
 </div></div>
 
 
 <script type="text/javascript" src="pbs_files/outbrain.js"></script></div>
 </div>
-</div>		
+</div>
 
 </div>
 <!-- end sidebar -->
@@ -1119,20 +1119,20 @@ PBS Food Links
 
 <div class="row1">
 
-          <ul class="pbs-site-map"> 
-                <li class="first"><a href="http://www.pbs.org/"><img src="pbs_files/pbs-logo.png" alt="Back to Top"></a></li> 
-                <li><a rel="external" href="http://www.pbs.org/about/">About PBS</a></li> 
-                <li><a rel="external" href="http://www.pbs.org/cgi-registry/sitemembershiplink.cgir" target="_blank">Donate</a></li> 
-                <li><a rel="external" href="http://www.pbs.org/foundation" target="_blank">PBS Foundation</a></li> 
-                <li><a rel="external" href="http://www.pbs.org/cgi-registry/whatson/index.cgir" target="_blank">TV Schedules</a></li> 
-                <li><a rel="external" href="http://www.pbs.org/about/careers/">Career Opportunities</a></li> 
-                <li><a rel="external" href="http://www.pbs.org/about/contact/">Contact Us</a></li> 
-                <li><a rel="external" href="http://www.pbs.org/about/policies/privacy-policy/">Privacy Policy</a></li> 
-                <li style="border-right: 0px;"><a rel="external" href="http://www.pbs.org/about/policies/terms-of-use/">Terms of Use</a></li> 
-            </ul> 
+          <ul class="pbs-site-map">
+                <li class="first"><a href="http://www.pbs.org/"><img src="pbs_files/pbs-logo.png" alt="Back to Top"></a></li>
+                <li><a rel="external" href="http://www.pbs.org/about/">About PBS</a></li>
+                <li><a rel="external" href="http://www.pbs.org/cgi-registry/sitemembershiplink.cgir" target="_blank">Donate</a></li>
+                <li><a rel="external" href="http://www.pbs.org/foundation" target="_blank">PBS Foundation</a></li>
+                <li><a rel="external" href="http://www.pbs.org/cgi-registry/whatson/index.cgir" target="_blank">TV Schedules</a></li>
+                <li><a rel="external" href="http://www.pbs.org/about/careers/">Career Opportunities</a></li>
+                <li><a rel="external" href="http://www.pbs.org/about/contact/">Contact Us</a></li>
+                <li><a rel="external" href="http://www.pbs.org/about/policies/privacy-policy/">Privacy Policy</a></li>
+                <li style="border-right: 0px;"><a rel="external" href="http://www.pbs.org/about/policies/terms-of-use/">Terms of Use</a></li>
+            </ul>
 <div class="clear"></div>
 </div>
-<div class="row2"> <span class="left">Copyright © 1995 - 2015 Public Broadcasting Service (PBS). All rights reserved. PBS is a 501(c)(3) not-for-profit organization.</span> 
+<div class="row2"> <span class="left">Copyright © 1995 - 2015 Public Broadcasting Service (PBS). All rights reserved. PBS is a 501(c)(3) not-for-profit organization.</span>
                 <span class="right">Our partner in public broadcasting:
                     <a href="http://www.npr.org/" target="_blank"><img src="pbs_files/npr-logo.jpg" alt="NPR"> </a></span> <div class="clear"></div></div>
 </div>

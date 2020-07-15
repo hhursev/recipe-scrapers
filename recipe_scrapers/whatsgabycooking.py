@@ -3,31 +3,21 @@ from ._utils import get_minutes, normalize_string
 
 
 class WhatsGabyCooking(AbstractScraper):
-
     @classmethod
     def host(cls):
-        return 'whatsgabycooking.com'
+        return "whatsgabycooking.com"
 
     def title(self):
-        return self.soup.find(
-            'h1',
-            {'class': 'entry-title'}
-        ).get_text()
+        return self.soup.find("h1", {"class": "entry-title"}).get_text()
 
     def total_time(self):
-        return get_minutes(self.soup.find(
-            'p',
-            {'class': 'header-recipe-time'})
-        )
+        return get_minutes(self.soup.find("p", {"class": "header-recipe-time"}))
 
     def yields(self):
         return ""
 
     def ingredients(self):
-        ingredients = self.soup.findAll(
-            'li',
-            {'class': "wprm-recipe-ingredient"}
-        )
+        ingredients = self.soup.findAll("li", {"class": "wprm-recipe-ingredient"})
 
         return [
             normalize_string(ingredient.get_text())
@@ -36,12 +26,8 @@ class WhatsGabyCooking(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions = self.soup.findAll(
-            'li',
-            {'class': 'wprm-recipe-instruction'}
-        )
+        instructions = self.soup.findAll("li", {"class": "wprm-recipe-instruction"})
 
-        return '\n'.join([
-            normalize_string(instruction.get_text())
-            for instruction in instructions
-        ])
+        return "\n".join(
+            [normalize_string(instruction.get_text()) for instruction in instructions]
+        )

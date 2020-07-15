@@ -49,74 +49,74 @@
 @import url('//fonts.googleapis.com/css?family=Montserrat:100');
 
 /* Popup Theme 66106: Floating Bar - Soft Blue */
-.pum-theme-66106, .pum-theme-floating-bar { background-color: rgba( 255, 255, 255, 1.00 ) } 
-.pum-theme-66106 .pum-container, .pum-theme-floating-bar .pum-container { padding: 8px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
-.pum-theme-66106 .pum-title, .pum-theme-floating-bar .pum-title { color: #505050; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; line-height: 36px } 
-.pum-theme-66106 .pum-content, .pum-theme-floating-bar .pum-content { color: #505050; font-family: inherit; font-weight: 400 } 
-.pum-theme-66106 .pum-content + .pum-close, .pum-theme-floating-bar .pum-content + .pum-close { position: absolute; height: 18px; width: 18px; left: auto; right: 5px; bottom: auto; top: 50%; padding: 0px; color: #505050; font-family: Sans-Serif; font-weight: 700; font-size: 15px; line-height: 18px; border: 1px solid #505050; border-radius: 15px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.00 ); background-color: rgba( 255, 255, 255, 1.00 ); transform: translate(0, -50%) } 
+.pum-theme-66106, .pum-theme-floating-bar { background-color: rgba( 255, 255, 255, 1.00 ) }
+.pum-theme-66106 .pum-container, .pum-theme-floating-bar .pum-container { padding: 8px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 255, 255, 255, 1.00 ) }
+.pum-theme-66106 .pum-title, .pum-theme-floating-bar .pum-title { color: #505050; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; line-height: 36px }
+.pum-theme-66106 .pum-content, .pum-theme-floating-bar .pum-content { color: #505050; font-family: inherit; font-weight: 400 }
+.pum-theme-66106 .pum-content + .pum-close, .pum-theme-floating-bar .pum-content + .pum-close { position: absolute; height: 18px; width: 18px; left: auto; right: 5px; bottom: auto; top: 50%; padding: 0px; color: #505050; font-family: Sans-Serif; font-weight: 700; font-size: 15px; line-height: 18px; border: 1px solid #505050; border-radius: 15px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.00 ); background-color: rgba( 255, 255, 255, 1.00 ); transform: translate(0, -50%) }
 
 /* Popup Theme 58114: MB Mobile */
-.pum-theme-58114, .pum-theme-mb-mobile { background-color: rgba( 0, 0, 0, 0.80 ) } 
-.pum-theme-58114 .pum-container, .pum-theme-mb-mobile .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 255, 255, 255, 1.00 ); background-image: url('https://minimalistbaker.com/wp-content/uploads/2020/04/Mobile-Fan-Favorites-200x200.jpg'); background-repeat: no-repeat; background-position: left top; background-attachment: scroll; background-size: cover } 
-.pum-theme-58114 .pum-title, .pum-theme-mb-mobile .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; line-height: 36px } 
-.pum-theme-58114 .pum-content, .pum-theme-mb-mobile .pum-content { color: #8c8c8c; font-family: inherit; font-weight: 400 } 
-.pum-theme-58114 .pum-content + .pum-close, .pum-theme-mb-mobile .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: 0px; bottom: auto; top: 0px; padding: 8px; color: #ffffff; font-family: inherit; font-weight: 400; font-size: 12px; line-height: 12px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 1.00 ) } 
+.pum-theme-58114, .pum-theme-mb-mobile { background-color: rgba( 0, 0, 0, 0.80 ) }
+.pum-theme-58114 .pum-container, .pum-theme-mb-mobile .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 255, 255, 255, 1.00 ); background-image: url('https://minimalistbaker.com/wp-content/uploads/2020/04/Mobile-Fan-Favorites-200x200.jpg'); background-repeat: no-repeat; background-position: left top; background-attachment: scroll; background-size: cover }
+.pum-theme-58114 .pum-title, .pum-theme-mb-mobile .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; line-height: 36px }
+.pum-theme-58114 .pum-content, .pum-theme-mb-mobile .pum-content { color: #8c8c8c; font-family: inherit; font-weight: 400 }
+.pum-theme-58114 .pum-content + .pum-close, .pum-theme-mb-mobile .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: 0px; bottom: auto; top: 0px; padding: 8px; color: #ffffff; font-family: inherit; font-weight: 400; font-size: 12px; line-height: 12px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 1.00 ) }
 
 /* Popup Theme 58107: MB Desktop */
-.pum-theme-58107, .pum-theme-mb-desktop { background-color: rgba( 0, 0, 0, 0.80 ) } 
-.pum-theme-58107 .pum-container, .pum-theme-mb-desktop .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
-.pum-theme-58107 .pum-title, .pum-theme-mb-desktop .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; line-height: 36px } 
-.pum-theme-58107 .pum-content, .pum-theme-mb-desktop .pum-content { color: #8c8c8c; font-family: inherit; font-weight: 400 } 
-.pum-theme-58107 .pum-content + .pum-close, .pum-theme-mb-desktop .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: 0px; bottom: auto; top: 0px; padding: 8px; color: #ffffff; font-family: inherit; font-weight: 400; font-size: 12px; line-height: 12px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 1.00 ) } 
+.pum-theme-58107, .pum-theme-mb-desktop { background-color: rgba( 0, 0, 0, 0.80 ) }
+.pum-theme-58107 .pum-container, .pum-theme-mb-desktop .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 255, 255, 255, 1.00 ) }
+.pum-theme-58107 .pum-title, .pum-theme-mb-desktop .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; line-height: 36px }
+.pum-theme-58107 .pum-content, .pum-theme-mb-desktop .pum-content { color: #8c8c8c; font-family: inherit; font-weight: 400 }
+.pum-theme-58107 .pum-content + .pum-close, .pum-theme-mb-desktop .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: 0px; bottom: auto; top: 0px; padding: 8px; color: #ffffff; font-family: inherit; font-weight: 400; font-size: 12px; line-height: 12px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 1.00 ) }
 
 /* Popup Theme 57760: Cutting Edge Desktop */
-.pum-theme-57760, .pum-theme-cutting-edge { background-color: rgba( 255, 255, 255, 0.30 ) } 
-.pum-theme-57760 .pum-container, .pum-theme-cutting-edge .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 0px 10px 25px 0px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 255, 255, 255, 0.00 ); background-image: url('https://minimalistbaker.com/wp-content/uploads/2020/04/Mobile-Fan-Favorites.jpg'); background-repeat: no-repeat; background-position: left top; background-attachment: scroll; background-size: contain } 
-.pum-theme-57760 .pum-title, .pum-theme-cutting-edge .pum-title { color: #ffffff; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Sans-Serif; font-weight: 100; font-size: 26px; line-height: 28px } 
-.pum-theme-57760 .pum-content, .pum-theme-cutting-edge .pum-content { color: #000000; font-family: inherit; font-weight: 100 } 
-.pum-theme-57760 .pum-content + .pum-close, .pum-theme-cutting-edge .pum-content + .pum-close { position: absolute; height: 24px; width: 24px; left: auto; right: 7px; bottom: auto; top: 7px; padding: 0px; color: #0a0101; font-family: Sans-Serif; font-weight: 700; font-size: 28px; line-height: 28px; border: 0px none ; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 0, 0, 0, 0.00 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.00 ); background-color: rgba( 238, 238, 34, 1.00 ); background: none } 
+.pum-theme-57760, .pum-theme-cutting-edge { background-color: rgba( 255, 255, 255, 0.30 ) }
+.pum-theme-57760 .pum-container, .pum-theme-cutting-edge .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 0px 10px 25px 0px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 255, 255, 255, 0.00 ); background-image: url('https://minimalistbaker.com/wp-content/uploads/2020/04/Mobile-Fan-Favorites.jpg'); background-repeat: no-repeat; background-position: left top; background-attachment: scroll; background-size: contain }
+.pum-theme-57760 .pum-title, .pum-theme-cutting-edge .pum-title { color: #ffffff; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Sans-Serif; font-weight: 100; font-size: 26px; line-height: 28px }
+.pum-theme-57760 .pum-content, .pum-theme-cutting-edge .pum-content { color: #000000; font-family: inherit; font-weight: 100 }
+.pum-theme-57760 .pum-content + .pum-close, .pum-theme-cutting-edge .pum-content + .pum-close { position: absolute; height: 24px; width: 24px; left: auto; right: 7px; bottom: auto; top: 7px; padding: 0px; color: #0a0101; font-family: Sans-Serif; font-weight: 700; font-size: 28px; line-height: 28px; border: 0px none ; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 0, 0, 0, 0.00 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.00 ); background-color: rgba( 238, 238, 34, 1.00 ); background: none }
 
 /* Popup Theme 57839: Mobile */
-.pum-theme-57839, .pum-theme-mobile { background-color: rgba( 0, 0, 0, 0.00 ); background-image: url('https://minimalistbaker.com/wp-content/uploads/2020/04/Mobile-Fan-Favorites.jpg'); background-repeat: no-repeat; background-position: left top; background-attachment: scroll; background-size: contain } 
-.pum-theme-57839 .pum-container, .pum-theme-mobile .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 0, 0, 0, 0.00 ); background: none } 
-.pum-theme-57839 .pum-title, .pum-theme-mobile .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; line-height: 36px } 
-.pum-theme-57839 .pum-content, .pum-theme-mobile .pum-content { color: #000000; font-family: inherit; font-weight: 400 } 
-.pum-theme-57839 .pum-content + .pum-close, .pum-theme-mobile .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: 0px; bottom: auto; top: 0px; padding: 8px; color: #000000; font-family: inherit; font-weight: 700; font-size: 18px; line-height: 36px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.00 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.00 ); background-color: rgba( 130, 36, 227, 1.00 ) } 
+.pum-theme-57839, .pum-theme-mobile { background-color: rgba( 0, 0, 0, 0.00 ); background-image: url('https://minimalistbaker.com/wp-content/uploads/2020/04/Mobile-Fan-Favorites.jpg'); background-repeat: no-repeat; background-position: left top; background-attachment: scroll; background-size: contain }
+.pum-theme-57839 .pum-container, .pum-theme-mobile .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 0, 0, 0, 0.00 ); background: none }
+.pum-theme-57839 .pum-title, .pum-theme-mobile .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; line-height: 36px }
+.pum-theme-57839 .pum-content, .pum-theme-mobile .pum-content { color: #000000; font-family: inherit; font-weight: 400 }
+.pum-theme-57839 .pum-content + .pum-close, .pum-theme-mobile .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: 0px; bottom: auto; top: 0px; padding: 8px; color: #000000; font-family: inherit; font-weight: 700; font-size: 18px; line-height: 36px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.00 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.00 ); background-color: rgba( 130, 36, 227, 1.00 ) }
 
 /* Popup Theme 57756: Default Theme */
-.pum-theme-57756, .pum-theme-default-theme { background-color: rgba( 255, 255, 255, 0.49 ) } 
-.pum-theme-57756 .pum-container, .pum-theme-default-theme .pum-container { padding: 14px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 0, 0, 0, 0.38 ); background-image: url('https://minimalistbaker.com/wp-content/uploads/2020/04/Mobile-Fan-Favorites.jpg'); background-repeat: no-repeat; background-position: left top; background-attachment: scroll; background-size: contain } 
-.pum-theme-57756 .pum-title, .pum-theme-default-theme .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; line-height: 36px } 
-.pum-theme-57756 .pum-content, .pum-theme-default-theme .pum-content { color: #0a0a0a; font-family: inherit; font-weight: 400 } 
-.pum-theme-57756 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: 0px; bottom: auto; top: 0px; padding: 8px; color: #ffffff; font-family: inherit; font-weight: 400; font-size: 12px; line-height: 36px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) } 
+.pum-theme-57756, .pum-theme-default-theme { background-color: rgba( 255, 255, 255, 0.49 ) }
+.pum-theme-57756 .pum-container, .pum-theme-default-theme .pum-container { padding: 14px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 0, 0, 0, 0.38 ); background-image: url('https://minimalistbaker.com/wp-content/uploads/2020/04/Mobile-Fan-Favorites.jpg'); background-repeat: no-repeat; background-position: left top; background-attachment: scroll; background-size: contain }
+.pum-theme-57756 .pum-title, .pum-theme-default-theme .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; line-height: 36px }
+.pum-theme-57756 .pum-content, .pum-theme-default-theme .pum-content { color: #0a0a0a; font-family: inherit; font-weight: 400 }
+.pum-theme-57756 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: 0px; bottom: auto; top: 0px; padding: 8px; color: #ffffff; font-family: inherit; font-weight: 400; font-size: 12px; line-height: 36px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) }
 
 /* Popup Theme 57757: Light Box */
-.pum-theme-57757, .pum-theme-lightbox { background-color: rgba( 255, 255, 255, 1.00 ) } 
-.pum-theme-57757 .pum-container, .pum-theme-lightbox .pum-container { padding: 18px; border-radius: 3px; border: 8px solid #000000; box-shadow: 0px 0px 30px 0px rgba( 2, 2, 2, 1.00 ); background-color: rgba( 249, 249, 249, 1.00 ) } 
-.pum-theme-57757 .pum-title, .pum-theme-lightbox .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 32px; line-height: 36px } 
-.pum-theme-57757 .pum-content, .pum-theme-lightbox .pum-content { color: #000000; font-family: inherit; font-weight: 100 } 
-.pum-theme-57757 .pum-content + .pum-close, .pum-theme-lightbox .pum-content + .pum-close { position: absolute; height: 26px; width: 26px; left: auto; right: -13px; bottom: auto; top: -13px; padding: 0px; color: #ffffff; font-family: Arial; font-weight: 100; font-size: 24px; line-height: 24px; border: 2px solid #ffffff; border-radius: 26px; box-shadow: 0px 0px 15px 1px rgba( 2, 2, 2, 0.75 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) } 
+.pum-theme-57757, .pum-theme-lightbox { background-color: rgba( 255, 255, 255, 1.00 ) }
+.pum-theme-57757 .pum-container, .pum-theme-lightbox .pum-container { padding: 18px; border-radius: 3px; border: 8px solid #000000; box-shadow: 0px 0px 30px 0px rgba( 2, 2, 2, 1.00 ); background-color: rgba( 249, 249, 249, 1.00 ) }
+.pum-theme-57757 .pum-title, .pum-theme-lightbox .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 32px; line-height: 36px }
+.pum-theme-57757 .pum-content, .pum-theme-lightbox .pum-content { color: #000000; font-family: inherit; font-weight: 100 }
+.pum-theme-57757 .pum-content + .pum-close, .pum-theme-lightbox .pum-content + .pum-close { position: absolute; height: 26px; width: 26px; left: auto; right: -13px; bottom: auto; top: -13px; padding: 0px; color: #ffffff; font-family: Arial; font-weight: 100; font-size: 24px; line-height: 24px; border: 2px solid #ffffff; border-radius: 26px; box-shadow: 0px 0px 15px 1px rgba( 2, 2, 2, 0.75 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) }
 
 /* Popup Theme 57758: Enterprise Blue */
-.pum-theme-57758, .pum-theme-enterprise-blue { background-color: rgba( 255, 255, 255, 1.00 ) } 
-.pum-theme-57758 .pum-container, .pum-theme-enterprise-blue .pum-container { padding: 28px; border-radius: 5px; border: 1px none #000000; box-shadow: 0px 10px 25px 4px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 249, 249, 249, 1.00 ) } 
-.pum-theme-57758 .pum-title, .pum-theme-enterprise-blue .pum-title { color: #315b7c; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 34px; line-height: 36px } 
-.pum-theme-57758 .pum-content, .pum-theme-enterprise-blue .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
-.pum-theme-57758 .pum-content + .pum-close, .pum-theme-enterprise-blue .pum-content + .pum-close { position: absolute; height: 28px; width: 28px; left: auto; right: 8px; bottom: auto; top: 8px; padding: 4px; color: #ffffff; font-family: Times New Roman; font-weight: 100; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 42px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) } 
+.pum-theme-57758, .pum-theme-enterprise-blue { background-color: rgba( 255, 255, 255, 1.00 ) }
+.pum-theme-57758 .pum-container, .pum-theme-enterprise-blue .pum-container { padding: 28px; border-radius: 5px; border: 1px none #000000; box-shadow: 0px 10px 25px 4px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 249, 249, 249, 1.00 ) }
+.pum-theme-57758 .pum-title, .pum-theme-enterprise-blue .pum-title { color: #315b7c; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 34px; line-height: 36px }
+.pum-theme-57758 .pum-content, .pum-theme-enterprise-blue .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 }
+.pum-theme-57758 .pum-content + .pum-close, .pum-theme-enterprise-blue .pum-content + .pum-close { position: absolute; height: 28px; width: 28px; left: auto; right: 8px; bottom: auto; top: 8px; padding: 4px; color: #ffffff; font-family: Times New Roman; font-weight: 100; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 42px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) }
 
 /* Popup Theme 57759: Hello Box */
-.pum-theme-57759, .pum-theme-hello-box { background-color: rgba( 255, 255, 255, 1.00 ) } 
-.pum-theme-57759 .pum-container, .pum-theme-hello-box .pum-container { padding: 30px; border-radius: 80px; border: 14px solid #81d742; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); background-color: rgba( 249, 249, 249, 1.00 ) } 
-.pum-theme-57759 .pum-title, .pum-theme-hello-box .pum-title { color: #2d2d2d; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Montserrat; font-weight: 100; font-size: 32px; line-height: 36px } 
-.pum-theme-57759 .pum-content, .pum-theme-hello-box .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
-.pum-theme-57759 .pum-content + .pum-close, .pum-theme-hello-box .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: -30px; bottom: auto; top: -30px; padding: 0px; color: #2d2d2d; font-family: Times New Roman; font-weight: 100; font-size: 32px; line-height: 28px; border: 1px none #ffffff; border-radius: 28px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) } 
+.pum-theme-57759, .pum-theme-hello-box { background-color: rgba( 255, 255, 255, 1.00 ) }
+.pum-theme-57759 .pum-container, .pum-theme-hello-box .pum-container { padding: 30px; border-radius: 80px; border: 14px solid #81d742; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); background-color: rgba( 249, 249, 249, 1.00 ) }
+.pum-theme-57759 .pum-title, .pum-theme-hello-box .pum-title { color: #2d2d2d; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Montserrat; font-weight: 100; font-size: 32px; line-height: 36px }
+.pum-theme-57759 .pum-content, .pum-theme-hello-box .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 }
+.pum-theme-57759 .pum-content + .pum-close, .pum-theme-hello-box .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: -30px; bottom: auto; top: -30px; padding: 0px; color: #2d2d2d; font-family: Times New Roman; font-weight: 100; font-size: 32px; line-height: 28px; border: 1px none #ffffff; border-radius: 28px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) }
 
 /* Popup Theme 57761: Framed Border */
-.pum-theme-57761, .pum-theme-framed-border { background-color: rgba( 255, 255, 255, 1.00 ) } 
-.pum-theme-57761 .pum-container, .pum-theme-framed-border .pum-container { padding: 18px; border-radius: 0px; border: 20px outset #dd3333; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.97 ) inset; background-color: rgba( 249, 249, 249, 1.00 ) } 
-.pum-theme-57761 .pum-title, .pum-theme-framed-border .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 32px; line-height: 36px } 
-.pum-theme-57761 .pum-content, .pum-theme-framed-border .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
-.pum-theme-57761 .pum-content + .pum-close, .pum-theme-framed-border .pum-content + .pum-close { position: absolute; height: 20px; width: 20px; left: auto; right: -20px; bottom: auto; top: -20px; padding: 0px; color: #ffffff; font-family: Tahoma; font-weight: 700; font-size: 16px; line-height: 18px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) } 
+.pum-theme-57761, .pum-theme-framed-border { background-color: rgba( 255, 255, 255, 1.00 ) }
+.pum-theme-57761 .pum-container, .pum-theme-framed-border .pum-container { padding: 18px; border-radius: 0px; border: 20px outset #dd3333; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.97 ) inset; background-color: rgba( 249, 249, 249, 1.00 ) }
+.pum-theme-57761 .pum-title, .pum-theme-framed-border .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 32px; line-height: 36px }
+.pum-theme-57761 .pum-content, .pum-theme-framed-border .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 }
+.pum-theme-57761 .pum-content + .pum-close, .pum-theme-framed-border .pum-content + .pum-close { position: absolute; height: 20px; width: 20px; left: auto; right: -20px; bottom: auto; top: -20px; padding: 0px; color: #ffffff; font-family: Tahoma; font-weight: 700; font-size: 16px; line-height: 18px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) }
 
 #pum-58117 {z-index: 1999999999}
 #pum-58548 {z-index: 1999999999}
@@ -138,7 +138,7 @@ html.pum-open-fixed .pum-overlay::after { margin-right: 0; }/* Popup Theme 58114
 </style>
 <script type='text/javascript' src='https://minimalistbaker.com/wp-content/plugins/simple-social-icons/svgxuse.js?ver=1.1.21'></script>
 <link rel='https://api.w.org/' href='https://minimalistbaker.com/wp-json/' />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://minimalistbaker.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://minimalistbaker.com/wp-includes/wlwmanifest.xml" />
 <meta name="generator" content="WordPress 5.4.2" />
 <meta name="generator" content="WooCommerce 4.2.2" />
 <link rel='shortlink' href='https://minimalistbaker.com/?p=61492' />
@@ -375,7 +375,7 @@ adthrive.cmd.push(function() {
 		<h3 id="reply-title" class="comment-reply-title">Leave a Comment & Rating! <small><a rel="nofollow" id="cancel-comment-reply-link" href="/vegan-cashew-ricotta-cheese-soy-free-fast-easy/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://minimalistbaker.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><strong>Have a question?</strong> Use ctrl+f or ⌘+f on your computer or the "find on page" function on your phone browser to search existing comments! Need help? <a href="https://support.minimalistbaker.com/article/139-how-to-use-your-browsers-find-function" target="_blank">Check out this tutorial!</a></p><p class="comment-form-comment"><label for="comment">Comment:</label><textarea id="comment" name="comment" placeholder="The most useful comments include feedback and ratings on the recipe, ingredients you modified, or helping other commenters. Insults, disrespectful comments, and links not pertinent to the discussion are not accepted.&#10;&#10;Please be kind. All eaters welcome."cols="45" rows="8" aria-required="true"></textarea></p><div class="comment-form-wprm-rating">
 	<label for="wprm-rating">My Rating:</label>
 	<span class="wprm-rating-stars">
-		
+
 		<fieldset class="wprm-comment-ratings-container">
 			<input aria-label="Don't rate this recipe" name="wprm-comment-rating" value="0" checked="checked" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="margin-left: -16px !important; width: 16px !important; height: 16px !important;">
 			<span aria-hidden="true" style="width: 80px !important; height: 16px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="80px" height="16px" viewBox="0 0 120 24">
@@ -464,7 +464,7 @@ adthrive.cmd.push(function() {
 <li class="comment even thread-even depth-1 wpr_havequestion_li " id="comment-899278">
 	<article id="article-comment-899278">
 
-		
+
 		<header class="comment-header">
 			<p class="comment-author">
 				<span itemprop="name">Susan</span> <span class="says">says</span>			</p>
@@ -472,19 +472,19 @@ adthrive.cmd.push(function() {
 			<p class="comment-meta"><time class="comment-time"><a href="https://minimalistbaker.com/vegan-cashew-ricotta-cheese-soy-free-fast-easy/?t=1593876229#comment-899278" class="comment-time-link" href="https://minimalistbaker.com/vegan-cashew-ricotta-cheese-soy-free-fast-easy/?t=1593876229#comment-899278">July 2, 2020 at 5:32 pm</a></time></p>		</header>
 
 		<div class="comment-content">
-			
+
 			<p>What can a person use instead of Nutritional Yeast?</p>
 		</div>
 
 		<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-899278' data-commentid="899278" data-postid="61492" data-belowelement="comment-899278" data-respondelement="respond" aria-label='Reply to Susan'>Reply</a></div>
-		
+
 	</article>
 	<ul class="children">
 
 <li class="comment byuser comment-author-dana bypostauthor even depth-2 staff" id="comment-899280">
 	<article id="article-comment-899280">
 
-		
+
 		<header class="comment-header">
 			<p class="comment-author">
 				<img alt='Avatar for Dana @ Minimalist Baker' title='Gravatar for Dana @ Minimalist Baker' src='https://secure.gravatar.com/avatar/c7caa94d71e10eb485999d00c6e9b624?s=125&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c7caa94d71e10eb485999d00c6e9b624?s=250&#038;d=mm&#038;r=g 2x' class='avatar avatar-125 photo' height='125' width='125' /><span itemprop="name">Dana @ Minimalist Baker</span> <span class="says">says</span>			</p>
@@ -492,12 +492,12 @@ adthrive.cmd.push(function() {
 			<p class="comment-meta"><time class="comment-time"><a href="https://minimalistbaker.com/vegan-cashew-ricotta-cheese-soy-free-fast-easy/?t=1593876229#comment-899280" class="comment-time-link" href="https://minimalistbaker.com/vegan-cashew-ricotta-cheese-soy-free-fast-easy/?t=1593876229#comment-899280">July 2, 2020 at 5:41 pm</a></time></p>		</header>
 
 		<div class="comment-content">
-			
+
 			<p>See some suggestions in the comments!</p>
 		</div>
 
 		<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-899280' data-commentid="899280" data-postid="61492" data-belowelement="comment-899280" data-respondelement="respond" aria-label='Reply to Dana @ Minimalist Baker'>Reply</a></div>
-		
+
 	</article>
 	</li><!-- #comment-## -->
 </ul><!-- .children -->
@@ -506,7 +506,7 @@ adthrive.cmd.push(function() {
 <li class="comment even thread-even depth-1 wpr_havequestion_li " id="comment-899231">
 	<article id="article-comment-899231">
 
-		
+
 		<header class="comment-header">
 			<p class="comment-author">
 				<span itemprop="name">Arleen Curran</span> <span class="says">says</span>			</p>
@@ -514,19 +514,19 @@ adthrive.cmd.push(function() {
 			<p class="comment-meta"><time class="comment-time"><a href="https://minimalistbaker.com/vegan-cashew-ricotta-cheese-soy-free-fast-easy/?t=1593876229#comment-899231" class="comment-time-link" href="https://minimalistbaker.com/vegan-cashew-ricotta-cheese-soy-free-fast-easy/?t=1593876229#comment-899231">July 2, 2020 at 2:52 pm</a></time></p>		</header>
 
 		<div class="comment-content">
-			
+
 			<p>Looks delicious! I am allergic to yeast. Any issue with leaving it out?</p>
 		</div>
 
 		<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-899231' data-commentid="899231" data-postid="61492" data-belowelement="comment-899231" data-respondelement="respond" aria-label='Reply to Arleen Curran'>Reply</a></div>
-		
+
 	</article>
 	<ul class="children">
 
 <li class="comment byuser comment-author-dana bypostauthor even depth-2 staff" id="comment-899274">
 	<article id="article-comment-899274">
 
-		
+
 		<header class="comment-header">
 			<p class="comment-author">
 				<img alt='Avatar for Dana @ Minimalist Baker' title='Gravatar for Dana @ Minimalist Baker' src='https://secure.gravatar.com/avatar/c7caa94d71e10eb485999d00c6e9b624?s=125&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c7caa94d71e10eb485999d00c6e9b624?s=250&#038;d=mm&#038;r=g 2x' class='avatar avatar-125 photo' height='125' width='125' /><span itemprop="name">Dana @ Minimalist Baker</span> <span class="says">says</span>			</p>
@@ -534,12 +534,12 @@ adthrive.cmd.push(function() {
 			<p class="comment-meta"><time class="comment-time"><a href="https://minimalistbaker.com/vegan-cashew-ricotta-cheese-soy-free-fast-easy/?t=1593876229#comment-899274" class="comment-time-link" href="https://minimalistbaker.com/vegan-cashew-ricotta-cheese-soy-free-fast-easy/?t=1593876229#comment-899274">July 2, 2020 at 5:16 pm</a></time></p>		</header>
 
 		<div class="comment-content">
-			
+
 			<p>Just omit!</p>
 		</div>
 
 		<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-899274' data-commentid="899274" data-postid="61492" data-belowelement="comment-899274" data-respondelement="respond" aria-label='Reply to Dana @ Minimalist Baker'>Reply</a></div>
-		
+
 	</article>
 	</li><!-- #comment-## -->
 </ul><!-- .children -->
@@ -548,7 +548,7 @@ adthrive.cmd.push(function() {
 <li class="comment even thread-even depth-1 wpr_havequestion_li " id="comment-899220">
 	<article id="article-comment-899220">
 
-		
+
 		<header class="comment-header">
 			<p class="comment-author">
 				<span itemprop="name">Roxanna</span> <span class="says">says</span>			</p>
@@ -556,21 +556,21 @@ adthrive.cmd.push(function() {
 			<p class="comment-meta"><time class="comment-time"><a href="https://minimalistbaker.com/vegan-cashew-ricotta-cheese-soy-free-fast-easy/?t=1593876229#comment-899220" class="comment-time-link" href="https://minimalistbaker.com/vegan-cashew-ricotta-cheese-soy-free-fast-easy/?t=1593876229#comment-899220">July 2, 2020 at 1:36 pm</a></time></p>		</header>
 
 		<div class="comment-content">
-			
+
 			<p>Hi Dana!</p>
 <p>Do you think I would be able to  omit the nutritional yeast?</p>
 <p>Can’t wait to try!</p>
 		</div>
 
 		<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-899220' data-commentid="899220" data-postid="61492" data-belowelement="comment-899220" data-respondelement="respond" aria-label='Reply to Roxanna'>Reply</a></div>
-		
+
 	</article>
 	<ul class="children">
 
 <li class="comment byuser comment-author-dana bypostauthor even depth-2 staff" id="comment-899275">
 	<article id="article-comment-899275">
 
-		
+
 		<header class="comment-header">
 			<p class="comment-author">
 				<img alt='Avatar for Dana @ Minimalist Baker' title='Gravatar for Dana @ Minimalist Baker' src='https://secure.gravatar.com/avatar/c7caa94d71e10eb485999d00c6e9b624?s=125&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c7caa94d71e10eb485999d00c6e9b624?s=250&#038;d=mm&#038;r=g 2x' class='avatar avatar-125 photo' height='125' width='125' /><span itemprop="name">Dana @ Minimalist Baker</span> <span class="says">says</span>			</p>
@@ -578,12 +578,12 @@ adthrive.cmd.push(function() {
 			<p class="comment-meta"><time class="comment-time"><a href="https://minimalistbaker.com/vegan-cashew-ricotta-cheese-soy-free-fast-easy/?t=1593876229#comment-899275" class="comment-time-link" href="https://minimalistbaker.com/vegan-cashew-ricotta-cheese-soy-free-fast-easy/?t=1593876229#comment-899275">July 2, 2020 at 5:16 pm</a></time></p>		</header>
 
 		<div class="comment-content">
-			
+
 			<p>Yes, omit! You can also see how we added more flavor to <a href="https://minimalistbaker.com/yeast-free-cashew-parmesan-5-minutes/" rel="noopener noreferrer" target="_blank">this Vegan Parmesan</a> sans yeast.</p>
 		</div>
 
 		<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-899275' data-commentid="899275" data-postid="61492" data-belowelement="comment-899275" data-respondelement="respond" aria-label='Reply to Dana @ Minimalist Baker'>Reply</a></div>
-		
+
 	</article>
 	</li><!-- #comment-## -->
 </ul><!-- .children -->
@@ -612,11 +612,11 @@ adthrive.cmd.push(function() {
 
 	<div id="popmake-58117" class="pum-container popmake theme-58107 size-custom">
 
-				
 
-				
 
-		
+
+
+
 
 				<div class="pum-content popmake-content">
 			<div class="popup-content-grid">
@@ -630,11 +630,11 @@ adthrive.cmd.push(function() {
 		</div>
 
 
-				
+
 
 				            <button type="button" class="pum-close popmake-close" aria-label="Close">
 			X            </button>
-		
+
 	</div>
 
 </div>
@@ -642,22 +642,22 @@ adthrive.cmd.push(function() {
 
 	<div id="popmake-58548" class="pum-container popmake theme-58114 size-custom">
 
-				
 
-				
 
-		
+
+
+
 
 				<div class="pum-content popmake-content">
 			<div class="wpforms-container wpforms-container-full" id="wpforms-54833"><form id="wpforms-form-54833" class="wpforms-validate wpforms-form" data-formid="54833" method="post" enctype="multipart/form-data" action="/vegan-cashew-ricotta-cheese-soy-free-fast-easy/"><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript><div class="wpforms-field-container"><div id="wpforms-54833-field_1-container" class="wpforms-field wpforms-field-email" data-field-id="1"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-54833-field_1">Email <span class="wpforms-required-label">*</span></label><input type="email" id="wpforms-54833-field_1" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][1]" placeholder="Email Address..." required></div></div><div class="wpforms-field wpforms-field-hp"><label for="wpforms-54833-field-hp" class="wpforms-field-label">Phone</label><input type="text" name="wpforms[hp]" id="wpforms-54833-field-hp" class="wpforms-field-medium"></div><div class="wpforms-submit-container" ><input type="hidden" name="wpforms[id]" value="54833"><input type="hidden" name="wpforms[author]" value="0"><input type="hidden" name="wpforms[post_id]" value="61492"><button type="submit" name="wpforms[submit]" class="wpforms-submit wp-block-button__link" id="wpforms-submit-54833" value="wpforms-submit" aria-live="assertive" data-alt-text="Sending..." data-submit-text="Submit">Submit</button></div></form></div>  <!-- .wpforms-container -->
 		</div>
 
 
-				
+
 
 				            <button type="button" class="pum-close popmake-close" aria-label="Close">
 			X            </button>
-		
+
 	</div>
 
 </div>
@@ -665,22 +665,22 @@ adthrive.cmd.push(function() {
 
 	<div id="popmake-58120" class="pum-container popmake theme-58114 size-custom">
 
-				
 
-				
 
-		
+
+
+
 
 				<div class="pum-content popmake-content">
 			<div class="wpforms-container wpforms-container-full" id="wpforms-54833"><form id="wpforms-form-54833" class="wpforms-validate wpforms-form" data-formid="54833" method="post" enctype="multipart/form-data" action="/vegan-cashew-ricotta-cheese-soy-free-fast-easy/"><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript><div class="wpforms-field-container"><div id="wpforms-54833-field_1-container" class="wpforms-field wpforms-field-email" data-field-id="1"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-54833-field_1">Email <span class="wpforms-required-label">*</span></label><input type="email" id="wpforms-54833-field_1" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][1]" placeholder="Email Address..." required></div></div><div class="wpforms-field wpforms-field-hp"><label for="wpforms-54833-field-hp" class="wpforms-field-label">Name</label><input type="text" name="wpforms[hp]" id="wpforms-54833-field-hp" class="wpforms-field-medium"></div><div class="wpforms-submit-container" ><input type="hidden" name="wpforms[id]" value="54833"><input type="hidden" name="wpforms[author]" value="0"><input type="hidden" name="wpforms[post_id]" value="61492"><button type="submit" name="wpforms[submit]" class="wpforms-submit wp-block-button__link" id="wpforms-submit-54833" value="wpforms-submit" aria-live="assertive" data-alt-text="Sending..." data-submit-text="Submit">Submit</button></div></form></div>  <!-- .wpforms-container -->
 		</div>
 
 
-				
+
 
 				            <button type="button" class="pum-close popmake-close" aria-label="Close">
 			X            </button>
-		
+
 	</div>
 
 </div>

@@ -13,6 +13,9 @@
 .. image:: https://img.shields.io/github/stars/hhursev/recipe-scrapers?style=social
     :target: https://github.com/hhursev/recipe-scrapers/
     :alt: Github
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/psf/black
+    :alt: Black formatted
 
 
 ------
@@ -145,13 +148,17 @@ If you want a scraper for a new site added
 
 - Open an `Issue <https://github.com/hhursev/recipe-scraper/issues/new>`_ providing us the site name, as well as a recipe link from it.
 - You are a developer and want to code the scraper on your own:
-    - If Schema is available on the site - `you can do this <https://github.com/hhursev/recipe-scrapers/pull/176>`_
-    - Otherwise, scrape the HTML - `like this <https://github.com/hhursev/recipe-scrapers/commit/ffee963d04>`_
+
+  - If Schema is available on the site - `you can do this <https://github.com/hhursev/recipe-scrapers/pull/176>`_
+
+    - `How do I know if a schema is available on my site? <#faq>`_
+
+  - Otherwise, scrape the HTML - `like this <https://github.com/hhursev/recipe-scrapers/commit/ffee963d04>`_
 
 For Devs / Contribute
 ---------------------
 
-Assuming you have `python3` installed, navigate to the directory where you want this project to live in and drop these lines
+Assuming you have ``python3`` installed, navigate to the directory where you want this project to live in and drop these lines
 
 .. code::
 
@@ -160,8 +167,18 @@ Assuming you have `python3` installed, navigate to the directory where you want 
     python3 -m venv .venv &&
     source .venv/bin/activate &&
     pip install -r requirements.txt &&
+    pre-commit install &&
     coverage run -m unittest &&
     coverage report
+
+FAQ
+---
+- **How do I know if a website has a Recipe Schema?**
+
+  - Go to a recipe on the website you want to be supported.
+  - Hit ``Ctrl - u`` on your keyboard
+  - Search (``Ctrl -f``) for ``application/ld+json``. It should be inside a ``script`` tag.
+  - If you found it then it's highly likely your website supports recipe schemas. Otherwise, you'll need to parse the HTML.
 
 
 Spacial thanks to:

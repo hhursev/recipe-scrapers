@@ -2,10 +2,9 @@ from ._abstract import AbstractScraper
 
 
 class SpendWithPennies(AbstractScraper):
-
     @classmethod
     def host(cls):
-        return 'spendwithpennies.com'
+        return "spendwithpennies.com"
 
     def title(self):
         return self.schema.title()

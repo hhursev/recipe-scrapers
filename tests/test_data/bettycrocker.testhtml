@@ -69,7 +69,7 @@ window.jstag = function () { function t(t) { return function () { return t.apply
                         queueInterval: 0
                     };
 
-                    GeneralMills.Analytics.raiseEvent = function(d, o) { 
+                    GeneralMills.Analytics.raiseEvent = function(d, o) {
                         var options = o || {};
 
                         if(!window.utag) {
@@ -80,7 +80,7 @@ window.jstag = function () { function t(t) { return function () { return t.apply
                                     clearInterval(GeneralMills.Analytics.queueInterval);
                                     for(var i = 0; i < GeneralMills.Analytics.eventQueue.length; i++) {
                                         var eventObj = GeneralMills.Analytics.eventQueue[i];
-                                        
+
                                         if(eventObj.eventOptions.virtualPageView)
                                             utag.view(eventObj.eventData);
                                         else
@@ -99,7 +99,7 @@ window.jstag = function () { function t(t) { return function () { return t.apply
 
                         if (options.redirectUrl)
                             setTimeout(function() { window.location = options.redirectUrl }, 500);
-                    };                
+                    };
                 })();
             </script>
     <form method="post" action="./0cb1d3f0-f074-400b-aa5a-5e729102c4ec" id="mainform">
@@ -131,12 +131,12 @@ function __doPostBack(eventTarget, eventArgument) {
 
 	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4DFABDB9" />
 </div>
-        
+
         <div class="adAboveSiteHeader">
-            
+
         </div>
         <div class="headerAdSpacing"></div>
-        
+
 
 <div class="nctaInterstitialWrapper" >
     <div id="64a22607bc934147b48a0d7f35d54adf" class="newsletterCtaView ncta_64a22607bc934147b48a0d7f35d54adf"
@@ -159,25 +159,25 @@ function __doPostBack(eventTarget, eventArgument) {
 </script>
 
 <header>
-    
+
     <div class="headerContainer">
         <section class="headerMain">
             <a href="/" title="Return to Homepage" class="headerLogo"></a>
 
             <a class="simpleNavToggle"><span>MENU</span></a>
-            
+
 <div class="userLinks">
-    
+
         <div class="headerAnonymous">
-            <ul class="headerLogin">                
+            <ul class="headerLogin">
                 <li><a href="#" data-reg-popup data-url-params='{"returnUrl":"/recipes/eclair-bars/0cb1d3f0-f074-400b-aa5a-5e729102c4ec","isRegistrationFirstStep":true, "esrc":11275, "RegAction":"HEADERJOINLOGIN"}'rel="nofollow">Join Free</a></li>
                 <li><a href="#" data-reg-popup data-url-params='{"returnUrl":"/recipes/eclair-bars/0cb1d3f0-f074-400b-aa5a-5e729102c4ec","isRegistrationFirstStep":false, "esrc":11275, "RegAction":"HEADERJOINLOGIN"}'>Log In</a></li>
             </ul>
         </div>
-    
+
 </div>
             <div class="headerSearch">
-                
+
 
 <div class="search-box-container search clearfix" id="834f834d-9fe8-4fd8-95f6-90cae7044227">
     <div class="search-box-hints">
@@ -194,672 +194,672 @@ function __doPostBack(eventTarget, eventArgument) {
         GeneralMills.ComponentRegistrar.registerComponent(function() {
             var settings = {"SearchDefaultText":"Search easy, delicious recipes","SearchProcessingMessage":"Please Wait..","SearchLinkButtonText":"","SearchLinkButtonToolTip":"Search","HeaderSearchBoxTitle":"Search","SearchBoxTitle":"","AutocompleteSearchPath":"/search","AutocompleteSuggestionLimit":10,"MinimumSearchHintCharacters":3,"Language":"en","Id":"834f834d-9fe8-4fd8-95f6-90cae7044227","EnableSearchTerms":true,"ContentTypeFilter":"","DataSourceId":"d6fb75f5-d19a-49cd-9ba0-c10a6e45afb2"};
             window.GeneralMills.SearchBox.init(settings);
-        }, componentMetadata); 
-        
+        }, componentMetadata);
+
     })();
 </script>
 
             </div>
         </section>
     </div>
-    
+
 
 <nav id="simpleNavigation">
     <ul class="simpleNavItems">
-        
+
         <li class=" withChildren">
             <a href="/recipes">Recipes</a>
-            
+
             <ul class="simpleNavSecondaryItems">
-                
+
                 <li><a href="/recipes/main-ingredient">Main Ingredient</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/main-ingredient/chicken-recipes">Chicken</a></li>
-                        
+
                         <li><a href="/recipes/main-ingredient/apple-recipes">Apple</a></li>
-                        
+
                         <li><a href="/recipes/main-ingredient/turkey-recipes">Turkey</a></li>
-                        
+
                         <li><a href="/recipes/main-ingredient/vegetable-recipes">Vegetables</a></li>
-                        
+
                         <li><a href="/recipes/main-ingredient/beef-recipes">Beef</a></li>
-                        
+
                         <li class="seeAll"><a href="/recipes/main-ingredient">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/recipes/dishes">Dish</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/dishes/cake-recipes">Cakes</a></li>
-                        
+
                         <li><a href="/recipes/dishes/cookie-recipes">Cookies</a></li>
-                        
+
                         <li><a href="/recipes/dishes/cupcake-recipes">Cupcakes</a></li>
-                        
+
                         <li><a href="/recipes/dishes/bar-recipes">Bars</a></li>
-                        
+
                         <li><a href="/recipes/dishes/pie-and-tart-recipes">Pie</a></li>
-                        
+
                         <li class="seeAll"><a href="/recipes/dishes">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/recipes/preparation">Preparation</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/preparation/slow-cooker-recipes">Slow Cooker</a></li>
-                        
+
                         <li><a href="/recipes/preparation/bread-machine-recipes">Bread Machine</a></li>
-                        
+
                         <li><a href="/recipes/preparation/blender-recipes">Blender</a></li>
-                        
+
                         <li><a href="/recipes/preparation/baking-recipes">Baking</a></li>
-                        
+
                         <li><a href="/recipes/preparation/microwave-recipes">Microwave</a></li>
-                        
+
                         <li class="seeAll"><a href="/recipes/preparation">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/recipes/courses">Meal Types</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/courses/dessert-recipes">Desserts</a></li>
-                        
+
                         <li><a href="/recipes/courses/appetizer-recipes">Appetizers</a></li>
-                        
+
                         <li><a href="/recipes/courses/breakfast-and-brunch-recipes">Breakfast & Brunch</a></li>
-                        
+
                         <li><a href="/recipes/courses/snack-recipes">Snacks</a></li>
-                        
+
                         <li><a href="/recipes/courses/side-dish-recipes">Side Dishes</a></li>
-                        
+
                         <li class="seeAll"><a href="/recipes/courses">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/recipes/global-cuisine">Global</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/global-cuisine/italian-recipes">Italian</a></li>
-                        
+
                         <li><a href="/recipes/global-cuisine/french-recipes">French</a></li>
-                        
+
                         <li><a href="/recipes/global-cuisine/german-recipes">German</a></li>
-                        
+
                         <li><a href="/recipes/global-cuisine/southern-recipes">Southern</a></li>
-                        
+
                         <li><a href="/recipes/global-cuisine/asian-recipes">Asian</a></li>
-                        
+
                         <li class="seeAll"><a href="/recipes/global-cuisine">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/special-occasions">Holidays & Entertaining</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/special-occasions/birthdays">Birthdays</a></li>
-                        
+
                         <li><a href="/special-occasions/gameday-and-tailgating-recipes">Game Day</a></li>
-                        
+
                         <li><a href="/special-occasions/valentines-day-recipes">Valentine's Day</a></li>
-                        
+
                         <li><a href="/special-occasions/st-patricks-day-recipes">St. Patrick's Day</a></li>
-                        
+
                         <li><a href="/special-occasions/easter">Easter</a></li>
-                        
+
                         <li class="seeAll"><a href="/special-occasions">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/recipes/health-and-diet">Health & Diet</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/health-and-diet/diabetes-recipes">Diabetes</a></li>
-                        
+
                         <li><a href="/recipes/health-and-diet/gluten-free">Gluten Free</a></li>
-                        
+
                         <li><a href="/recipes/health-and-diet/low-calorie-recipes">Low Calorie</a></li>
-                        
+
                         <li><a href="/recipes/health-and-diet/high-fiber-recipes">High Fiber</a></li>
-                        
+
                         <li><a href="/recipes/health-and-diet/heart-health-recipes">Heart Healthy</a></li>
-                        
+
                         <li class="seeAll"><a href="/recipes/health-and-diet">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/recipes/product-recipes">Products</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/product-recipes/bisquick-recipes">Bisquick</a></li>
-                        
+
                         <li><a href="/recipes/product-recipes/brownie-mix-recipes">Brownie Mixes</a></li>
-                        
+
                         <li><a href="/recipes/product-recipes/supermoist-cake-mix-recipes">Super Moist™ Cake Mix</a></li>
-                        
+
                         <li><a href="/recipes/product-recipes/hamburger-helper-recipes">Hamburger Helper</a></li>
-                        
+
                         <li><a href="/recipes/product-recipes/cookie-mix-recipes">Cookie Mix</a></li>
-                        
+
                         <li class="seeAll"><a href="/recipes/product-recipes">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
             </ul>
-                            
+
         </li>
-        
+
         <li class=" withChildren">
             <a href="/everyday-meals">Everyday Meals</a>
-            
+
             <ul class="simpleNavSecondaryItems">
-                
+
                 <li><a href="/recipes/courses/dinner-recipes">Family Dinners</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/preparation/slow-cooker-recipes">Slow Cooker</a></li>
-                        
+
                         <li><a href="/recipes/main-ingredient/chicken-recipes">Chicken</a></li>
-                        
+
                         <li><a href="/recipes/health-and-diet/gluten-free/gluten-free-dinner-ideas">Gluten Free Dinners</a></li>
-                        
+
                         <li><a href="/recipes/main-ingredient/turkey-recipes">Turkey</a></li>
-                        
+
                         <li><a href="/recipes/dishes/casserole-and-pot-pie-recipes">Casserole & Pot Pies</a></li>
-                        
+
                         <li class="seeAll"><a href="/recipes/courses/dinner-recipes">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/recipes/preparation/slow-cooker-recipes">Slow Cooker</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/preparation/slow-cooker-recipes/slow-cooker-chili">Slow Cooker Chili</a></li>
-                        
+
                         <li><a href="/recipes/preparation/slow-cooker-recipes/slow-cooker-chicken-recipes">Slow Cooker Chicken</a></li>
-                        
+
                         <li><a href="/recipes/preparation/slow-cooker-recipes/slow-cooker-soups">Slow Cooker Soup</a></li>
-                        
+
                         <li><a href="/recipes/preparation/slow-cooker-recipes/slow-cooker-stews">Slow Cooker Stew</a></li>
-                        
+
                         <li><a href="/recipes/preparation/slow-cooker-recipes/slow-cooker-italian">Slow Cooker Italian</a></li>
-                        
+
                         <li class="seeAll"><a href="/recipes/preparation/slow-cooker-recipes">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/recipes/courses/breakfast-and-brunch-recipes">Breakfast & Brunch</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/courses/breakfast-and-brunch-recipes/muffin-recipes">Muffins</a></li>
-                        
+
                         <li><a href="/recipes/courses/breakfast-and-brunch-recipes/scone-recipes">Scones</a></li>
-                        
+
                         <li><a href="/recipes/courses/breakfast-and-brunch-recipes/egg-bake-recipes">Egg Bakes</a></li>
-                        
+
                         <li><a href="/recipes/courses/breakfast-and-brunch-recipes/crepe-recipes">Crepes</a></li>
-                        
+
                         <li><a href="/recipes/courses/breakfast-and-brunch-recipes/waffle-recipes">Waffles</a></li>
-                        
+
                         <li class="seeAll"><a href="/recipes/courses/breakfast-and-brunch-recipes">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/recipes/courses/lunch-recipes">Lunch</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/dishes/salad-recipes">Salads</a></li>
-                        
+
                         <li><a href="/recipes/dishes/sandwich-and-wrap-recipes">Sandwich and Wraps</a></li>
-                        
+
                         <li><a href="/recipes/dishes/pizza-recipes">Pizza</a></li>
-                        
+
                         <li><a href="/recipes/dishes/soup-recipes">Soups</a></li>
-                        
+
                         <li><a href="/recipes/dishes/burrito-recipes">Burrito</a></li>
-                        
+
                         <li class="seeAll"><a href="/recipes/courses/lunch-recipes">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
             </ul>
-                            
+
         </li>
-        
+
         <li class=" withChildren">
             <a href="/recipes/courses/dessert-recipes">Desserts</a>
-            
+
             <ul class="simpleNavSecondaryItems">
-                
+
                 <li><a href="/recipes/dishes/bar-recipes">Bars</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/dishes/bar-recipes/supermoist-bar-recipes">Super Moist™ Bars</a></li>
-                        
+
                         <li><a href="/recipes/dishes/bar-recipes/pumpkin-bars">Pumpkin Bars</a></li>
-                        
+
                         <li><a href="/recipes/dishes/bar-recipes/no-bake-bars">No-Bake Bars</a></li>
-                        
+
                         <li><a href="/recipes/dishes/bar-recipes/easy-fruit-bars">Fruit Bars</a></li>
-                        
+
                         <li><a href="/recipes/dishes/bar-recipes/ooey-gooey-bars">Ooey-Gooey Bars</a></li>
-                        
+
                         <li class="seeAll"><a href="/recipes/dishes/bar-recipes">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/recipes/dishes/brownie-recipes">Brownies</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/dishes/brownie-recipes/frosted-brownies">Frosted Brownies</a></li>
-                        
+
                         <li><a href="/recipes/dishes/brownie-recipes/chocolate-brownies">Chocolate Brownies</a></li>
-                        
+
                         <li><a href="/recipes/dishes/cookie-recipes/brownie-cookies">Brownie Cookies</a></li>
-                        
+
                         <li><a href="/recipes/product-recipes/brownie-mix-recipes/peanut-butter-brownie-recipes">Peanut Butter Brownies</a></li>
-                        
+
                         <li><a href="/recipes/dishes/brownie-recipes/caramel-brownies">Caramel Brownies</a></li>
-                        
+
                         <li class="seeAll"><a href="/recipes/dishes/brownie-recipes">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/recipes/dishes/cookie-recipes">Cookies</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/dishes/cookie-recipes/christmas-cookies">Christmas Cookies</a></li>
-                        
+
                         <li><a href="/recipes/dishes/cookie-recipes/halloween-cookies">Halloween Cookies</a></li>
-                        
+
                         <li><a href="/recipes/dishes/cookie-recipes/cake-mix-cookies">Cake Mix Cookies</a></li>
-                        
+
                         <li><a href="/recipes/dishes/cookie-recipes/red-velvet-cookies">Red Velvet Cookies</a></li>
-                        
+
                         <li><a href="/recipes/dishes/cookie-recipes/cream-cheese-cookies">Cream Cheese Cookies</a></li>
-                        
+
                         <li class="seeAll"><a href="/recipes/dishes/cookie-recipes">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/recipes/dishes/cupcake-recipes">Cupcakes</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/dishes/cupcake-recipes/kids-cupcake-recipes">Kids Cupcakes</a></li>
-                        
+
                         <li><a href="/recipes/dishes/cupcake-recipes/birthday-cupcake-recipes">Birthday Cupcakes</a></li>
-                        
+
                         <li><a href="/recipes/dishes/cupcake-recipes/supermoist-cupcake-recipes">Super Moist™ Cupcakes</a></li>
-                        
+
                         <li><a href="/recipes/dishes/cupcake-recipes/halloween-cupcake-recipes">Halloween Cupcakes</a></li>
-                        
+
                         <li><a href="/recipes/dishes/cupcake-recipes/chocolate-cupcake-recipes">Chocolate Cupcakes</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/recipes/dishes/pie-and-tart-recipes">Pie</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/dishes/pie-and-tart-recipes/chocolate-pie-recipes">Chocolate Pie</a></li>
-                        
+
                         <li><a href="/recipes/dishes/pie-and-tart-recipes/cream-pie-recipes">Cream Pie</a></li>
-                        
+
                         <li><a href="/recipes/dishes/pie-and-tart-recipes/impossibly-easy-pie-recipes">Impossibly Easy Pie</a></li>
-                        
+
                         <li><a href="/recipes/dishes/pie-and-tart-recipes/fruit-pie-recipes">Fruit Pie</a></li>
-                        
+
                         <li><a href="/recipes/dishes/pie-and-tart-recipes/apple">Apple Pie</a></li>
-                        
+
                         <li class="seeAll"><a href="/recipes/dishes/pie-and-tart-recipes">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/recipes/dishes/cake-recipes">Cakes</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/dishes/cake-recipes/bundt-cake-recipes">Bundt Cakes</a></li>
-                        
+
                         <li><a href="/recipes/dishes/cake-recipes/ice-cream-cake-recipes">Ice Cream Cakes</a></li>
-                        
+
                         <li><a href="/recipes/dishes/cake-recipes/christmas-cake-recipes">Christmas Cakes</a></li>
-                        
+
                         <li><a href="/recipes/dishes/cake-recipes/cake-pops">Cake Pops</a></li>
-                        
+
                         <li><a href="/recipes/dishes/cake-recipes/chocolate-cake-recipes">Chocolate Cakes</a></li>
-                        
+
                         <li class="seeAll"><a href="/recipes/dishes/cake-recipes">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
             </ul>
-                            
+
         </li>
-        
+
         <li class=" withChildren">
             <a href="/special-occasions">Holidays & Entertaining</a>
-            
+
             <ul class="simpleNavSecondaryItems">
-                
+
                 <li><a href="/special-occasions/birthdays">Birthdays</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/special-occasions/birthdays/adult-birthday-cakes">Adult Birthday Cakes</a></li>
-                        
+
                         <li><a href="/special-occasions/birthdays/gluten-free-birthday-cakes">Gluten-Free Birthday Cake</a></li>
-                        
+
                         <li><a href="/special-occasions/birthdays/birthday-desserts">Birthday Desserts</a></li>
-                        
+
                         <li><a href="/special-occasions/birthdays/kids-birthday-cupcakes">Kids Birthday Cupcakes</a></li>
-                        
+
                         <li><a href="/recipes/dishes/cake-recipes/kids-cake-recipes">Kids Birthday Cakes</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/special-occasions/gameday-and-tailgating-recipes">Game Day</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/special-occasions/valentines-day-recipes">Valentine's Day</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/special-occasions/st-patricks-day-recipes">St. Patrick's Day</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/special-occasions/easter">Easter</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/main-ingredient/potatoes">Potatoes</a></li>
-                        
+
                         <li><a href="/recipes/main-ingredient/pork-recipes/ham-recipes">Ham</a></li>
-                        
+
                         <li><a href="/menus-holidays-parties/mhplibrary/recipes/8-clever-twists-on-deviled-eggs">Deviled Eggs</a></li>
-                        
+
                         <li><a href="/special-occasions/easter/easter-desserts">Easter Desserts</a></li>
-                        
+
                         <li><a href="/menus-holidays-parties/mhplibrary/holidays/classic-easter-sides">Easter Sides</a></li>
-                        
+
                         <li class="seeAll"><a href="/special-occasions/easter">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/special-occasions/july-4th">July 4th</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/special-occasions/halloween">Halloween</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/menus-holidays-parties/mhplibrary/seasonal-ideas/bettys-guide-to-halloween">Betty's Guide to Halloween</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/special-occasions/thanksgiving-recipes">Thanksgiving</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/main-ingredient/turkey-recipes">Turkey</a></li>
-                        
+
                         <li><a href="/special-occasions/thanksgiving-recipes/sides">Thanksgiving Side Dishes</a></li>
-                        
+
                         <li><a href="/recipes/dishes/gravy-recipes">Gravy</a></li>
-                        
+
                         <li><a href="/recipes/dishes/pie-and-tart-recipes/thanksgiving">Thanksgiving Pie</a></li>
-                        
+
                         <li><a href="/special-occasions/thanksgiving-recipes/thanksgiving-appetizers">Thanksgiving Appetizers</a></li>
-                        
+
                         <li class="seeAll"><a href="/special-occasions/thanksgiving-recipes">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/special-occasions/wedding-recipes">Wedding & Shower</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/special-occasions/graduation-recipes">Graduation</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/special-occasions/graduation-recipes/graduation-desserts">Graduation Desserts</a></li>
-                        
+
                         <li><a href="/special-occasions/graduation-recipes/punch-and-drink-recipes">Punch & Drinks</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/special-occasions/easy-entertaining">Easy Entertaining</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/courses/appetizer-recipes">Appetizers</a></li>
-                        
+
                         <li><a href="/special-occasions/graduation-recipes">Graduation</a></li>
-                        
+
                         <li><a href="/special-occasions/picnic-recipes">Picnics</a></li>
-                        
+
                         <li><a href="/special-occasions/gameday-and-tailgating-recipes">Game Day</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
                 <li><a href="/special-occasions/christmas-recipes">Christmas</a>
-                    
+
                     <ul class="simpleNavTertiaryItems">
-                        
+
                         <li><a href="/recipes/dishes/cookie-recipes/christmas-cookies">Christmas Cookies</a></li>
-                        
+
                         <li><a href="/special-occasions/christmas-recipes/christmas-appetizers">Christmas Appetizers</a></li>
-                        
+
                         <li><a href="/special-occasions/christmas-recipes/christmas-desserts">Christmas Desserts</a></li>
-                        
+
                         <li><a href="/special-occasions/christmas-recipes/christmas-dinner">Christmas Dinner</a></li>
-                        
+
                         <li><a href="/how-to/tipslibrary/charts-timetables-measuring/timetable-roasting-meats">Timetable for Roasting Meats</a></li>
-                        
+
                         <li class="seeAll"><a href="/special-occasions/christmas-recipes">See All</a></li>
-                        
+
                     </ul>
-                    
+
                 </li>
-                
+
             </ul>
-                            
+
         </li>
-        
+
         <li class=" withChildren">
             <a href="/how-to">How-To</a>
-            
+
             <ul class="simpleNavSecondaryItems">
-                
+
                 <li><a href="/how-to/ask-betty">Ask Betty</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/how-to/holidays-and-entertaining">Holidays & Entertaining</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/how-to/baking-and-desserts">Baking & Desserts</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/how-to/ingredients-and-preparation">Ingredients & Preparation</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/how-to/equipment">Equipment</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/how-to/meal-planning">Meal Planning</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/how-to/kids">Kids</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/how-to/healthy-eating">Healthy Eating</a>
-                    
+
                 </li>
-                
+
             </ul>
-                            
+
         </li>
-        
+
         <li class=" withChildren">
             <a href="/products">Products</a>
-            
+
             <ul class="simpleNavSecondaryItems">
-                
+
                 <li><a href="/products/betty-crocker-mug-treats">Betty Crocker™ Mug Treats</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/products/betty-crocker-chilled-treats">Betty Crocker™ Chilled Treats</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/products/betty-crocker-brittle-mix">Betty Crocker™ Brittle Mix</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/products/betty-crocker-baking-and-cake-mixes">Betty Crocker™ Baking & Cake Mixes</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/products/bisquick">Bisquick™</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/products/betty-crocker-brownies-and-dessert-bars">Betty Crocker™ Brownies and Bars</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/products/cookiemix">Betty Crocker™ Cookie Mixes</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/products/dessert-decorating-products">Betty Crocker™ Dessert Decorating & Specialty Products</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/products/frosting">Betty Crocker™ Frosting</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/products/fruit-snacks">Fruit Snacks</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/products/gluten-free-baking-mix">Betty Crocker™ Gluten Free Baking</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/products/Helper">Helper™ </a>
-                    
+
                 </li>
-                
+
                 <li><a href="/products/muffin-mixes">Betty Crocker™ Muffin Mixes</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/products/betty-crocker-potatoes">Potatoes</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/products/suddenly-salad">Suddenly Salad</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/products/betty-crocker-nuts">Betty Crocker™ Baking Nuts</a>
-                    
+
                 </li>
-                
+
                 <li><a href="/products/betty-crocker-kitchen-accessories">Betty Crocker™ Kitchen Accessories</a>
-                    
+
                 </li>
-                
+
             </ul>
-                            
+
         </li>
-        
+
         <li class="">
             <a href="/coupons/printable">Coupons & Sales</a>
-                            
+
         </li>
-        
+
     </ul>
 </nav>
 
@@ -875,38 +875,38 @@ function __doPostBack(eventTarget, eventArgument) {
         <div class="pageContainer">
             <div id="channellinks_0_ChannelLinksList" class="channelLinks noDisplayName">
 
-    
+
         <div class="channelLinksInner">
-            
+
             <ul>
-                
+
                     <li class="">
                         <a href="/recipes/chicken-and-cauliflower-rice-soup/52cc2db0-40ef-4d4f-937d-acd44b38fae0" title="" target="" class=""
                             data-position="1">Chicken Soup with a Zesty Twist</a>
                     </li>
-                
+
                     <li class="">
                         <a href="/menus-holidays-parties/mhplibrary/everyday-meals/5-ingredient-skillet-dinners" title="" target="" class=""
                             data-position="2">Weeknight Easy Skillets</a>
                     </li>
-                
+
                     <li class="">
                         <a href="/recipes/greek-egg-casserole/358997f9-f60f-4e33-868c-5f7b411a8906" title="" target="" class=""
                             data-position="3">New! Greek Egg Casserole</a>
                     </li>
-                
+
                     <li class="">
                         <a href="/recipes/better-for-you-chocolate-cupcakes/9e4d0e0d-8321-4818-84f0-d2021f75bd5f" title="" target="" class=""
                             data-position="4">Better-For-You Cupcakes</a>
                     </li>
-                
+
                     <li class="">
                         <a href="/menus-holidays-parties/mhplibrary/seasonal-ideas/one-pot-comfort-foods" title="" target="" class=""
                             data-position="5">One-Pot Dinners You've Got to Try</a>
                     </li>
-                
+
             </ul>
-            
+
         </div>
     </div>
 
@@ -921,92 +921,92 @@ function __doPostBack(eventTarget, eventArgument) {
         });
     })();
 </script>
-            
+
             <section class="mainContainer">
                 <div class="floatingBox" data-bind="floatingBox: { mobileBottomScrollThreshold: 1150 }">
-                    
 
-<div id="gmi_actionToolbar_0062db4d-452e-4eba-af2d-b8dce44acc50" class="actionToolbar actionToolbarVertical actionToolbarAnchoredTop recipeDetailActionToolbar" data-bind="css: { favorited: isFavoriteItem, expanded: isExpanded }, delegatedAction: performAction">    
+
+<div id="gmi_actionToolbar_0062db4d-452e-4eba-af2d-b8dce44acc50" class="actionToolbar actionToolbarVertical actionToolbarAnchoredTop recipeDetailActionToolbar" data-bind="css: { favorited: isFavoriteItem, expanded: isExpanded }, delegatedAction: performAction">
     <ul class="atButtons atButtonsPrimary">
-       
+
           <li id="gmi_actionToolbar_0062db4d-452e-4eba-af2d-b8dce44acc50_button_9440f541-1622-407b-a529-9cb1f48ddf3a_primary" class="atButton atButtonPrint bm-seq0 bt-seq0 bd-seq0"
                data-button-id="9440f541-1622-407b-a529-9cb1f48ddf3a">
-              
+
                         <div id="gmi_actionToolbar_0062db4d-452e-4eba-af2d-b8dce44acc50_button_9440f541-1622-407b-a529-9cb1f48ddf3a_buttonName_primary" class="atbName">Print</div>
-                   
+
                         <div id="gmi_actionToolbar_0062db4d-452e-4eba-af2d-b8dce44acc50_button_9440f541-1622-407b-a529-9cb1f48ddf3a_shareCount_primary" class="atbCount">5K</div>
-                   
-          </li> 
-       
+
+          </li>
+
           <li id="gmi_actionToolbar_0062db4d-452e-4eba-af2d-b8dce44acc50_button_a4fff957-6f0a-4e2f-820f-3f2cfbceef64_primary" class="atButton atButtonFavorite bm-seq1 bt-seq1 bd-seq1"
                data-button-id="a4fff957-6f0a-4e2f-820f-3f2cfbceef64">
-              
+
                         <div id="gmi_actionToolbar_0062db4d-452e-4eba-af2d-b8dce44acc50_button_a4fff957-6f0a-4e2f-820f-3f2cfbceef64_buttonName_primary" class="atbName">Save</div>
-                   
+
                         <div id="gmi_actionToolbar_0062db4d-452e-4eba-af2d-b8dce44acc50_button_a4fff957-6f0a-4e2f-820f-3f2cfbceef64_shareCount_primary" class="atbCount">1K</div>
-                   
-          </li> 
-       
+
+          </li>
+
           <li id="gmi_actionToolbar_0062db4d-452e-4eba-af2d-b8dce44acc50_button_58ba9650-477b-4abe-bb46-1a60912cc27c_primary" class="atButton atButtonPinterest bm-seq2 bt-seq2 bd-seq2"
                data-button-id="58ba9650-477b-4abe-bb46-1a60912cc27c">
-              
+
               <a class="atbLink" href="//pinterest.com/pin/create/link/?url=http%3a%2f%2fwww.bettycrocker.com%2frecipes%2feclair-bars%2f0cb1d3f0-f074-400b-aa5a-5e729102c4ec" title="Share to Pinterest" target="_blank" data-bind="click: preventDefaultClick">
-                  
+
                         <div id="gmi_actionToolbar_0062db4d-452e-4eba-af2d-b8dce44acc50_button_58ba9650-477b-4abe-bb46-1a60912cc27c_buttonName_primary" class="atbName">Pinterest</div>
-                   
+
                         <div id="gmi_actionToolbar_0062db4d-452e-4eba-af2d-b8dce44acc50_button_58ba9650-477b-4abe-bb46-1a60912cc27c_shareCount_primary" class="atbCount">1K</div>
-                   
+
               </a>
-              
-          </li> 
-       
+
+          </li>
+
           <li id="gmi_actionToolbar_0062db4d-452e-4eba-af2d-b8dce44acc50_button_c9d11c79-b5b2-4bf4-be97-50bf9b3a44dc_primary" class="atButton atButtonEmail bm-seq3 bt-seq3 bd-seq3"
                data-button-id="c9d11c79-b5b2-4bf4-be97-50bf9b3a44dc">
-              
+
                         <div id="gmi_actionToolbar_0062db4d-452e-4eba-af2d-b8dce44acc50_button_c9d11c79-b5b2-4bf4-be97-50bf9b3a44dc_buttonName_primary" class="atbName">Email</div>
-                   
+
                         <div id="gmi_actionToolbar_0062db4d-452e-4eba-af2d-b8dce44acc50_button_c9d11c79-b5b2-4bf4-be97-50bf9b3a44dc_shareCount_primary" class="atbCount">429</div>
-                   
-          </li> 
-       
+
+          </li>
+
           <li id="gmi_actionToolbar_0062db4d-452e-4eba-af2d-b8dce44acc50_button_9e7892b7-5ea2-441b-ab66-55a566402b31_primary" class="atButton atButtonFacebook bm-seq4 bt-seq4 bd-seq4"
                data-button-id="9e7892b7-5ea2-441b-ab66-55a566402b31">
-              
+
               <a class="atbLink" href="//facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.bettycrocker.com%2frecipes%2feclair-bars%2f0cb1d3f0-f074-400b-aa5a-5e729102c4ec" title="Share to Facebook" target="_blank" data-bind="click: preventDefaultClick">
-                  
+
                         <div id="gmi_actionToolbar_0062db4d-452e-4eba-af2d-b8dce44acc50_button_9e7892b7-5ea2-441b-ab66-55a566402b31_buttonName_primary" class="atbName">Facebook</div>
-                   
+
                         <div id="gmi_actionToolbar_0062db4d-452e-4eba-af2d-b8dce44acc50_button_9e7892b7-5ea2-441b-ab66-55a566402b31_shareCount_primary" class="atbCount">174</div>
-                   
+
               </a>
-              
-          </li> 
-                        
+
+          </li>
+
         </ul>
-       
+
     <div class="dialogContainer">
-            
+
             <div class="actionToolbarEmailDialog" data-bind="attr: {id: emailDialog.dialogId}, jqDialog: { autoOpen: false, title: '', resizable: false, width: 'auto', zIndex:20002, modal: true, dialogClass: 'actionToolbarEmailDialogContainer' }, jqDialogVisible: emailDialog.isVisible">
-                <h4 class="dialogHeading" data-bind="text:emailDialog.heading"></h4>        
-                <div class="requiredText" data-bind="text: emailDialog.requiredFieldText"></div>                    
-                
+                <h4 class="dialogHeading" data-bind="text:emailDialog.heading"></h4>
+                <div class="requiredText" data-bind="text: emailDialog.requiredFieldText"></div>
+
                 <ul class="emailValidationMessages" data-bind="visible: emailDialog.hasMessages, foreach: emailDialog.validationMessages">
                     <li class="validationMessage" data-bind="text: $data"></li>
                 </ul>
 
-                <h4 class="sectionHeading" data-bind="text: emailDialog.sendToText"></h4>                    
+                <h4 class="sectionHeading" data-bind="text: emailDialog.sendToText"></h4>
                 <label class="toEmailLabel" data-bind="text: emailDialog.emailAddressesLabel"></label>
-                <textarea class="toEmailAddresses" name="emailAddresses" data-bind="value:emailDialog.toEmailAddressesDelimited"></textarea>                           
+                <textarea class="toEmailAddresses" name="emailAddresses" data-bind="value:emailDialog.toEmailAddressesDelimited"></textarea>
                 <div class="emailInstruction" data-bind="text: emailDialog.emailInstructionText"></div>
-                
-                <h4 class="sectionHeading" data-bind="text: emailDialog.fromText"></h4>  
+
+                <h4 class="sectionHeading" data-bind="text: emailDialog.fromText"></h4>
                 <label class="senderFirstNameLabel" data-bind="text: emailDialog.firstNameLabel"></label>
                 <input class="senderFirstName" type="text" name="firstName" data-bind="value: emailDialog.senderFirstName"/>
-                <label class="senderEmailAddressLabel" data-bind="text: emailDialog.senderEmailAddressLabel"></label>  
-                <input class="senderEmail" type="text" name="email" data-bind="value:emailDialog.senderEmailAddress"/>        
+                <label class="senderEmailAddressLabel" data-bind="text: emailDialog.senderEmailAddressLabel"></label>
+                <input class="senderEmail" type="text" name="email" data-bind="value:emailDialog.senderEmailAddress"/>
                 <input class="copyToSender" type="checkbox" data-bind="checked:emailDialog.sendCopyToSender" />
                 <label class="copyToSenderLabel" data-bind="text: emailDialog.copyToSenderLabel"></label>
-                <div class="invisibleRecaptchaContainer"></div>      
+                <div class="invisibleRecaptchaContainer"></div>
                 <div class="buttons">
                     <a class="sendButton" data-bind="click: emailDialog.send, text: emailDialog.sendButtonText"></a>
                     <a class="cancelButton" data-bind="click: emailDialog.hide, text: emailDialog.cancelButtonText"></a>
@@ -1035,7 +1035,7 @@ function __doPostBack(eventTarget, eventArgument) {
 </script>
 
                 </div>
-                
+
 <script type="text/javascript">
     (function () {
         var componentMetadata = JSON.parse('\x7b\x22deferOptions\x22\x3a\x7b\x22deferComponent\x22\x3afalse,\x22deferType\x22\x3a\x22None\x22,\x22deferId\x22\x3a\x22\x22,\x22deferredContainerId\x22\x3anull,\x22deferredContainerView\x22\x3anull\x7d,\x22componentName\x22\x3a\x22RecipeTaggingView_main_1\x22,\x22viewName\x22\x3a\x22RecipeTaggingView\x22\x7d');
@@ -1051,21 +1051,21 @@ function __doPostBack(eventTarget, eventArgument) {
 <div class="recipeDetail" itemscope="" itemtype="http://schema.org/Recipe">
     <div class="preColumns">
         <div class="recipeTitleAndReviewSummary">
-            
-            
+
+
   <div class="recipePartTitle">
       <h1 itemprop="name" class="recipePartTitleText" id="gmi_rp_recipeTitle">Éclair Bars</h1>
       </div>
-  
+
 <span style="display:none;" itemprop="keywords">éclair bars</span>
 
 <span style="display:none;" itemprop="recipeCategory">Dessert</span>
 
 <span style="display:none;" itemprop="recipeCuisine">French</span>
 
-            
-            
-            
+
+
+
 <div class="ratingDisplay">
     <a href="#reviewDiv">
         <span class="stars star-100"></span>
@@ -1097,8 +1097,8 @@ function __doPostBack(eventTarget, eventArgument) {
         </div>
 
         <div class="recipeImage">
-            
-            
+
+
 
 <!-- CUSTOMIZATION - Allow overriding image alt text -->
 
@@ -1114,100 +1114,100 @@ function __doPostBack(eventTarget, eventArgument) {
         </div>
 
         <div class="recipePrimaryAttributesAndToolbar">
-            
-            
+
+
 <div class="recipePartAttributes recipePartPrimaryAttributes">
-    
+
     <ul>
-        
+
             <li id="gmi_rp_primaryAttributes_prep_">
             <span class="attributeName">Prep </span>
-            
+
                                 <span class="attributeValue">15</span>
-                            
+
                                <span class="attributeValueLabel">min</span>
-                        
+
         </li>
-        
+
             <li id="gmi_rp_primaryAttributes_total">
             <span class="attributeName">Total</span>
-            
+
                                 <span class="attributeValue">4</span>
-                            
+
                                <span class="attributeValueLabel">hr</span>
-                        
+
                                 <span class="attributeValue">50</span>
-                            
+
                                <span class="attributeValueLabel">min</span>
-                        
+
         </li>
-        
+
             <li id="gmi_rp_primaryAttributes_servings">
             <span class="attributeName">Servings</span>
-            
+
                     <span class="attributeValue">24</span>
-            
+
         </li>
-        
+
     </ul>
-    
+
 </div>
 
 
-            
-            
-            
+
+
+
         </div>
     </div>
     <div class="columns">
         <div class="recipeDescription primary">
-            
-            
+
+
 <div class="recipePartDescription">
-    <p class="recipePartDescriptionText expandableText" id="gmi_rp_recipeDescription_text">        
+    <p class="recipePartDescriptionText expandableText" id="gmi_rp_recipeDescription_text">
         <span itemprop="description" class="full-desc fullText">We turned the classic, cream-filled French pastry into an oh-so-easy bar! With a flaky crescent base, a layer of silky vanilla pudding and a topping of rich chocolate ganache, this is a special dessert that’s guaranteed to impress.</span>
         <span class="short-desc shortText"></span>
-        <a class="expand-desc expandLink">MORE+</a> 
+        <a class="expand-desc expandLink">MORE+</a>
         <a class="collapse-desc collapseLink">LESS-</a>
     </p>
 </div>
 
         </div>
-        
+
         <div class="recipeContributor primary">
-            
-            
+
+
 
 <div class="contributorContainer">
-    
+
         <div class="contributor" id="gmi_rp_contributor_div" >
-          
+
             <span class="contributorPage" itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="postedByText" id="gmi_rp_contributorDetails">By</span>
-                 
+
                     <a href="https://www.bettycrocker.com/about-us"><span itemprop="name">Betty Crocker Kitchens</span></a>
-                
+
             </span>
         </div>
         <div class="contributorExternal"></div>
-     
+
         <div class="recipeDate" id="gmi_rp_createDate_text">
-            Updated March 22, 2018 
+            Updated March 22, 2018
         </div>
-     
+
         <meta itemprop="dateCreated" content="01/31/2018" />
-    
+
         <meta itemprop="dateModified" content="03/22/2018" />
-    
+
 </div>
 
-    <div class="recipePartMadeWithBadge"  id="gmi_rp_madewithbadge">           
-            
+    <div class="recipePartMadeWithBadge"  id="gmi_rp_madewithbadge">
+
                 <img class="recipePartsMadeWithBadgeImage" src="/-/media/Images/Shared/RecipeParts/make-with/MakeWith_100x100_Pillsbury_Crescents.jpg" alt="Pillsbury&#32;Crescents" />
                 <div class="recipePartsMadeWithBadgeDetails">
                     <div id="madeWithLabel">Make with</div>
                     <div id="madeWithText">Pillsbury&#32;Crescents</div>
                 </div>
-                                
+
     </div>
 <script type="text/javascript">
     (function () {
@@ -1223,8 +1223,8 @@ function __doPostBack(eventTarget, eventArgument) {
         </div>
 
         <div class="recipeSavingsByIngredient primary">
-            
-            
+
+
 
 <div class="recipeParts-savings-container" id="recipeParts-savings-container-c1775cbe-3975-49cb-ad04-383f5ea8902a" style="display: none;" data-bind="visible: isViewVisible, css: { 'recipeParts-savings-container-forModal': configuration.UseModalMode }">
     <div class="recipeParts-savings-teaser">
@@ -1240,7 +1240,7 @@ function __doPostBack(eventTarget, eventArgument) {
         <div class="savings-filters">
             <div class="geolocation-container" data-bind="visible: isLocationVisible">
                 <label class="geolocation-label" data-bind="text: configuration.Settings.LabelForLocationBox"></label>
-                <input class="geolocation-input" title="" pattern="\d*" data-bind="value: location, valueUpdate: 'input'"/> 
+                <input class="geolocation-input" title="" pattern="\d*" data-bind="value: location, valueUpdate: 'input'"/>
                 <button type="button" class="geolocation-button" data-bind="click: saveLocation, text: configuration.Settings.ButtonTextForLocationBox, enable: location, visible: !showLocationButtonClicked()"></button>
                 <span class="location-filter-check" data-bind="visible: showLocationButtonClicked"></span>
             </div>
@@ -1260,13 +1260,13 @@ function __doPostBack(eventTarget, eventArgument) {
         data-auto-open="false"
         data-draggable="false"
         data-resizable="false">
-        
+
         <div class="savings-list" data-bind="visible: activeView() === views.list">
             <div class="savings-ingredientName" data-bind="visible: configuration.UseModalMode">
                 <span class="savings-ingredientName-prefix" data-bind="text: configuration.TextBeforeIngredientName"></span>
                 <span class="savings-ingredientName-text" data-bind="text: singleActiveIngredientName"></span>
             </div>
-            
+
             <div data-bind="visible: configuration.UseModalMode">
                 <button type="button" class="savings-modal-change-location" data-bind="text: configuration.ButtonTextForLocationOrStoreChange, click: hideSavings"></button>
             </div>
@@ -1358,7 +1358,7 @@ function __doPostBack(eventTarget, eventArgument) {
 
     <div class="savings-list-currentRetailer">
         <span class="savings-list-currentRetailer-prefix" data-bind="text: configuration.Settings.TextBeforeCellfireRetailerName"></span>
-        
+
         <span class="savings-list-currentRetailer-name" data-bind="text: cellfireRetailerName"></span><span class="savings-list-currentRetailer-suffix" data-bind="    text: configuration.Settings.TextAfterCellfireRetailerName"></span>
         <a class="savings-list-currentRetailer-change" data-bind="text: configuration.Settings.TextForSwitchingToViewForChangingCellfireRetailer, click: changeCellfireRetailer"></a>
     </div>
@@ -1372,7 +1372,7 @@ function __doPostBack(eventTarget, eventArgument) {
                 <div class="savings-list-item-details">
                     <div class="savings-list-item-header">
                         <div class="savings-list-item-product" data-bind="text: name"></div>
-                        
+
                         <span class="savings-list-item-faceValue-prefix" data-bind="text: $root.configuration.Settings.TextBeforeCellfireFaceValues"></span><span class="savings-list-item-faceValue" data-bind="text: formattedFaceValue"></span>
                     </div>
                     <div class="savings-list-item-retailerContainer">
@@ -1447,14 +1447,14 @@ function __doPostBack(eventTarget, eventArgument) {
 </div>
 
             </div>
-                
+
             <div class="savings-loadingIndicator" data-bind="visible: pendingSavingsRequestCount, html: configuration.Settings.ContentWhileSavingsAreLoading"></div>
 
             <button type="button" class="savings-list-hideSavings" data-bind="visible: isDisplayingAllSavings, text: configuration.ButtonTextForHidingSavings, click: hideSavings"></button>
         </div>
 
         <div class="savings-actionRequired savings-email" data-bind="visible: activeView() === views.email">
-            
+
             <div class="savings-email-custom">
                 <div class="savings-actionRequired-header" data-bind="text: configuration.Settings.HeaderForEmailingToCustomAddress"></div>
                 <div class="savings-actionRequired-content" data-bind="html: configuration.Settings.ContentForEmailingToCustomAddress"></div>
@@ -1468,7 +1468,7 @@ function __doPostBack(eventTarget, eventArgument) {
         <div class="savings-actionRequired savings-noCard" data-bind="visible: activeView() === views.noCard">
             <div class="savings-actionRequired-header" data-bind="text: configuration.Settings.HeaderWhenNoCardIsAdded"></div>
             <div class="savings-actionRequired-content" data-bind="html: configuration.Settings.ContentWhenNoCardIsAdded"></div>
-            <div class="savings-actionRequired-links">                
+            <div class="savings-actionRequired-links">
                 <a class="savings-actionRequired-actionLink" data-bind="text: configuration.Settings.LinkTextForAddingACard, click: redirectToCellfireOffersPageWithIntentToAddCard"></a>
                 <a class="savings-actionRequired-cancelLink" data-bind="text: configuration.Settings.TextForCancellingWhenNoCardIsAdded, click: cancelCellfireAction"></a>
             </div>
@@ -1479,15 +1479,15 @@ function __doPostBack(eventTarget, eventArgument) {
             <div class="savings-actionRequired-content" data-bind="html: configuration.Settings.ContentWhenNoPrinterIsInstalled"></div>
             <div class="savings-actionRequired-links">
                 <a class="savings-actionRequired-actionLink" data-bind="text: configuration.Settings.LinkTextForInstallingPrinter, click: redirectToCouponsIncPageWithIntentToInstallPrinter"></a>
-                <a class="savings-actionRequired-cancelLink" data-bind="text: configuration.Settings.TextForCancellingWhenNoPrinterIsInstalled, click: cancelCouponsIncAction"></a>                
+                <a class="savings-actionRequired-cancelLink" data-bind="text: configuration.Settings.TextForCancellingWhenNoPrinterIsInstalled, click: cancelCouponsIncAction"></a>
             </div>
         </div>
-        
+
         <div class="savings-actionRequired savings-printGateway" data-bind="visible: activeView() === views.printGateway">
             <div class="savings-actionRequired-content" data-bind="html: configuration.Settings.PrintGatewayContent"></div>
             <div class="savings-actionRequired-links">
                 <a class="savings-actionRequired-actionLink" data-bind="text: configuration.Settings.PrintGatewayApprove, click: print"></a>
-                <a class="savings-actionRequired-cancelLink" data-bind="text: configuration.Settings.PrintGatewayCancel, click: redirectToCouponsIncPrintHelpPage"></a>                
+                <a class="savings-actionRequired-cancelLink" data-bind="text: configuration.Settings.PrintGatewayCancel, click: redirectToCouponsIncPrintHelpPage"></a>
             </div>
         </div>
 
@@ -1496,14 +1496,14 @@ function __doPostBack(eventTarget, eventArgument) {
             <div class="savings-actionRequired-content" data-bind="html: configuration.ContentWhenPromptedToChangeCellfireRetailer"></div>
             <div class="savings-actionRequired-links">
                 <a class="savings-actionRequired-actionLink" data-bind="text: configuration.LinkTextForChangingCellfireRetailer, click: redirectToCellfireRetailersPage"></a>
-                <a class="savings-actionRequired-cancelLink" data-bind="text: configuration.TextForCancellingWhenPromptedToChangeCellfireRetailer, click: cancelCellfireAction"></a>                
+                <a class="savings-actionRequired-cancelLink" data-bind="text: configuration.TextForCancellingWhenPromptedToChangeCellfireRetailer, click: cancelCellfireAction"></a>
             </div>
         </div>
 
         <div class="savings-printing" data-bind="visible: activeView() === views.printing">
             <div class="savings-printing-content" data-bind="html: configuration.Settings.ContentWhilePrinting"></div>
         </div>
-        
+
         <div class="savings-error savings-noSavings" data-bind="visible: activeView() === views.noSavings">
             <div class="savings-error-content" data-bind="html: configuration.Settings.ContentWhenNoSavingsAreAvailable"></div>
             <button type="button" class="savings-error-cancelButton" data-bind="visible: configuration.UseModalMode, text: configuration.ButtonTextWhenNoSavingsAreAvailable, click: closeModal"></button>
@@ -1540,25 +1540,25 @@ function __doPostBack(eventTarget, eventArgument) {
         </div>
 
         <div class="recipeIngredients primary">
-            
-            
+
+
 
 <div class="recipePartIngredients" id="gmi_rp_recipeIngredients_div">
-    
+
     <h2 id="gmi_rp_recipeIngredients_header">Ingredients</h2>
 
-    
+
     <div class="recipePartIngredientGroup">
         <h3>
-            
+
         </h3>
-        
+
         <div class="recipePartIngredient" itemprop="recipeIngredient" id="gmi_rp_recipeIngredients_parts_1"
-            
+
             data-base-ingredient="Pillsbury&#8482; refrigerated crescent dough sheet"
-            
+
             data-brand="Pillsbury Crescents"
-            
+
             data-flavor-format="CRESCENT ROLLS CORE"
             >
             <div class="quantity">
@@ -1569,20 +1569,20 @@ function __doPostBack(eventTarget, eventArgument) {
             <div class="description">
                 <span>
                     <span class="type">
-                        
+
                     </span>
-                    can (8 oz) Pillsbury™ refrigerated crescent dough sheet 
+                    can (8 oz) Pillsbury™ refrigerated crescent dough sheet
                 </span>
-                
-                
+
+
                 <span class="savingsIndicator" id="gmi_rp_recipeSavingIndicator_1" style="display: none;" data-bind="visible: getHasSavingsComputed('e69a6eee-391c-4691-b791-2dda6a18c60e'), click: getSavingsIndicatorClickHandler('e69a6eee-391c-4691-b791-2dda6a18c60e'), html: configuration.ContentToIndicateSavingsOnAnIngredient"></span>
-                
+
             </div>
-            
+
         </div>
-        
+
         <div class="recipePartIngredient" itemprop="recipeIngredient" id="gmi_rp_recipeIngredients_parts_2"
-            
+
             data-base-ingredient="Jell-O® vanilla-flavor instant pudding &amp; pie filling mix"
             >
             <div class="quantity">
@@ -1593,20 +1593,20 @@ function __doPostBack(eventTarget, eventArgument) {
             <div class="description">
                 <span>
                     <span class="type">
-                        
+
                     </span>
-                    boxes (3.4 oz each) Jell-O™ vanilla-flavor instant pudding & pie filling mix 
+                    boxes (3.4 oz each) Jell-O™ vanilla-flavor instant pudding & pie filling mix
                 </span>
-                
-                
+
+
                 <span class="savingsIndicator" id="gmi_rp_recipeSavingIndicator_2" style="display: none;" data-bind="visible: getHasSavingsComputed('f53606e0-0b4e-4828-91d3-023f46b1dd0e'), click: getSavingsIndicatorClickHandler('f53606e0-0b4e-4828-91d3-023f46b1dd0e'), html: configuration.ContentToIndicateSavingsOnAnIngredient"></span>
-                
+
             </div>
-            
+
         </div>
-        
+
         <div class="recipePartIngredient" itemprop="recipeIngredient" id="gmi_rp_recipeIngredients_parts_3"
-            
+
             data-base-ingredient="Half-and-half"
             >
             <div class="quantity">
@@ -1617,20 +1617,20 @@ function __doPostBack(eventTarget, eventArgument) {
             <div class="description">
                 <span>
                     <span class="type">
-                        
+
                     </span>
-                    cups cold half-and-half 
+                    cups cold half-and-half
                 </span>
-                
-                
+
+
                 <span class="savingsIndicator" id="gmi_rp_recipeSavingIndicator_3" style="display: none;" data-bind="visible: getHasSavingsComputed('9738988a-df95-425f-b92a-0a46a23b7ca1'), click: getSavingsIndicatorClickHandler('9738988a-df95-425f-b92a-0a46a23b7ca1'), html: configuration.ContentToIndicateSavingsOnAnIngredient"></span>
-                
+
             </div>
-            
+
         </div>
-        
+
         <div class="recipePartIngredient" itemprop="recipeIngredient" id="gmi_rp_recipeIngredients_parts_4"
-            
+
             data-base-ingredient="Chocolate"
             >
             <div class="quantity">
@@ -1641,20 +1641,20 @@ function __doPostBack(eventTarget, eventArgument) {
             <div class="description">
                 <span>
                     <span class="type">
-                        
+
                     </span>
-                    cups semisweet chocolate chips 
+                    cups semisweet chocolate chips
                 </span>
-                
-                
+
+
                 <span class="savingsIndicator" id="gmi_rp_recipeSavingIndicator_4" style="display: none;" data-bind="visible: getHasSavingsComputed('4c5c9755-d1d8-454f-ac95-89e9f66678b2'), click: getSavingsIndicatorClickHandler('4c5c9755-d1d8-454f-ac95-89e9f66678b2'), html: configuration.ContentToIndicateSavingsOnAnIngredient"></span>
-                
+
             </div>
-            
+
         </div>
-        
+
         <div class="recipePartIngredient" itemprop="recipeIngredient" id="gmi_rp_recipeIngredients_parts_5"
-            
+
             data-base-ingredient="Whipping Cream"
             >
             <div class="quantity">
@@ -1665,20 +1665,20 @@ function __doPostBack(eventTarget, eventArgument) {
             <div class="description">
                 <span>
                     <span class="type">
-                        
+
                     </span>
-                    cup heavy whipping cream 
+                    cup heavy whipping cream
                 </span>
-                
-                
+
+
                 <span class="savingsIndicator" id="gmi_rp_recipeSavingIndicator_5" style="display: none;" data-bind="visible: getHasSavingsComputed('d6094cc8-d1c8-448d-923a-bad12f6e3ed4'), click: getSavingsIndicatorClickHandler('d6094cc8-d1c8-448d-923a-bad12f6e3ed4'), html: configuration.ContentToIndicateSavingsOnAnIngredient"></span>
-                
+
             </div>
-            
+
         </div>
-        
+
     </div>
-    
+
 </div>
 
 
@@ -1699,7 +1699,7 @@ function __doPostBack(eventTarget, eventArgument) {
         var componentMetadata = JSON.parse('\x7b\x22deferOptions\x22\x3a\x7b\x22deferComponent\x22\x3afalse,\x22deferType\x22\x3a\x22None\x22,\x22deferId\x22\x3a\x22\x22,\x22deferredContainerId\x22\x3anull,\x22deferredContainerView\x22\x3anull\x7d,\x22componentName\x22\x3a\x22RecipeIngredientsView_recipeingredients_0\x22,\x22viewName\x22\x3a\x22RecipeIngredientsView\x22\x7d');
         componentMetadata.componentName = componentMetadata.componentName + "_BuyScript";
         // All buy scripts should be deferred
-        componentMetadata.deferOptions = { deferComponent: true, deferType: "Simple" };   
+        componentMetadata.deferOptions = { deferComponent: true, deferType: "Simple" };
         GeneralMills.ComponentRegistrar.registerComponent(function () {
             var buyScript = document.createElement("script");
             buyScript.src = "//www.chicoryapp.com/widget_v2/";
@@ -1713,15 +1713,15 @@ function __doPostBack(eventTarget, eventArgument) {
         </div>
 
         <div class="recipeSteps primary">
-            
-            
+
+
 
 <!-- CUSTOMIZATION - Allow overriding image alt text -->
 
     <div class="recipePartSteps" id="gmi_rp_recipeSteps_div">
          <h2 id="gmi_rp_recipeSteps_header">Steps</h2>
          <div class="recipePartToggleImages" data-showtext="Show Images" data-hidetext="Hide Images">Hide Images</div>
-         
+
 <div id=r41baf5c13480469ea4874b6e30fd86b6 data-deferId=r41baf5c13480469ea4874b6e30fd86b6>
     <component v-bind:is="wakeLockComponent" :settings="config"></component>
 </div>
@@ -1738,57 +1738,57 @@ function __doPostBack(eventTarget, eventArgument) {
 })();
 </script>
          <ul class="recipePartStepsList">
-            
+
                     <li class="recipePartStep" id="gmi_rp_recipeSteps_step_1">
                         <div class="recipeStepText" itemprop="recipeInstructions" itemscope itemtype="http://schema.org/HowToStep">
                             <div class="recipePartStepHeading">1</div>
                             <div class="recipePartStepDescription" itemprop="text">
                             Heat oven to 375°F. Spray bottom only of 13x9-inch pan with cooking spray.
-                                
+
                             </div>
                         </div>
                     </li>
-                    
+
                     <li class="recipePartStep" id="gmi_rp_recipeSteps_step_2">
                         <div class="recipeStepText" itemprop="recipeInstructions" itemscope itemtype="http://schema.org/HowToStep">
                             <div class="recipePartStepHeading">2</div>
                             <div class="recipePartStepDescription" itemprop="text">
                             Unroll crescent dough; press in bottom of pan. Bake 12 to 14 minutes or until golden brown and baked through. Remove from oven to cooling rack; cool 20 minutes.
-                                
+
                             </div>
                         </div>
                     </li>
-                    
+
                     <li class="recipePartStep" id="gmi_rp_recipeSteps_step_3">
                         <div class="recipeStepText" itemprop="recipeInstructions" itemscope itemtype="http://schema.org/HowToStep">
                             <div class="recipePartStepHeading">3</div>
                             <div class="recipePartStepDescription" itemprop="text">
                             In medium bowl, beat dry pudding mixes and half-and-half with whisk about 2 minutes or until thick. Spread over cooled bar base.
-                                
+
                             </div>
                         </div>
                     </li>
-                    
+
                     <li class="recipePartStep" id="gmi_rp_recipeSteps_step_4">
                         <div class="recipeStepText" itemprop="recipeInstructions" itemscope itemtype="http://schema.org/HowToStep">
                             <div class="recipePartStepHeading">4</div>
                             <div class="recipePartStepDescription" itemprop="text">
-                            In medium microwavable bowl, microwave chocolate chips and whipping cream uncovered on High 1 minute; stir. Microwave 30 seconds; stir until smooth. Carefully spread mixture on top of pudding layer. Refrigerate about 4 hours or until cooled completely. 
-                                
+                            In medium microwavable bowl, microwave chocolate chips and whipping cream uncovered on High 1 minute; stir. Microwave 30 seconds; stir until smooth. Carefully spread mixture on top of pudding layer. Refrigerate about 4 hours or until cooled completely.
+
                             </div>
                         </div>
                     </li>
-                    
+
                     <li class="recipePartStep" id="gmi_rp_recipeSteps_step_5">
                         <div class="recipeStepText" itemprop="recipeInstructions" itemscope itemtype="http://schema.org/HowToStep">
                             <div class="recipePartStepHeading">5</div>
                             <div class="recipePartStepDescription" itemprop="text">
                             When ready to serve, using a sharp knife and up-and-down sawing motion for cleaner cuts, cut into 6 rows by 4 rows. Store covered in refrigerator.
-                                
+
                             </div>
                         </div>
                     </li>
-                    
+
          </ul>
     </div>
 
@@ -1805,16 +1805,16 @@ function __doPostBack(eventTarget, eventArgument) {
         </div>
 
         <div class="recipeMethodNote primary">
-            
-            
-            
-            
+
+
+
+
         </div>
 
         <div class="recipeTips primary">
-                        
-            
-    <div class="recipePartTips recipePartDrawer" id="gmi_rp_expertTip_div" 
+
+
+    <div class="recipePartTips recipePartDrawer" id="gmi_rp_expertTip_div"
         data-recipe-drawer='{"analyticsEventExpand": "TipExpand", "analyticsEventCollapse": "TipCollapse", "expandedByDefault": true }' data-bind="css: { expanded: isExpanded() }">
 
         <a class="showHideToggleButton" data-bind="click: toggleState" ><span></span></a>
@@ -1824,15 +1824,15 @@ function __doPostBack(eventTarget, eventArgument) {
         <div class="recipePartExpertTipsTop"></div>
         <div class="recipePartTipsInfo" id="gmi_rp_expertTips_info_div">
             <ul>
-                
+
                     <li id="gmi_rp_expertTips_tip_1">
                         For best results, use a sharp knife, and cut in a sawing motion, cleaning knife blade as needed.
                     </li>
-                
+
                     <li id="gmi_rp_expertTips_tip_2">
                         Try dark chocolate chips instead of semisweet chips for even more decadence!
                     </li>
-                
+
             </ul>
         </div>
         <div class="recipePartExpertTipsBottom"></div>
@@ -1841,8 +1841,8 @@ function __doPostBack(eventTarget, eventArgument) {
         </div>
 
         <div class="recipeNutrition primary">
-                        
-            
+
+
 <div class="recipePartNutrition recipePartDrawer" itemtype="http://schema.org/NutritionInformation" itemscope="" itemprop="nutrition" id="gmi_rp_nutrition_div"
     data-recipe-drawer='{"analyticsEventExpand": "NutritionExpand", "analyticsEventCollapse": "NutritionCollapse", "expandedByDefault": false }' data-bind="css: { expanded: isExpanded() }">
 
@@ -1856,81 +1856,81 @@ function __doPostBack(eventTarget, eventArgument) {
         <h5 class="nutrition-serving-size" id="gmi_rp_servingSize_text"><strong>Serving Size: </strong>1 Bar</h5>
 
         <dl class="nutrition-section nutrition-calories" id="gmi_rp_nutrition_calories">
-            
+
 
 <dt class="nutrition-fact-title">Calories</dt><dd class="nutrition-fact-units">180</dd><dd class="nutrition-fact-percent"></dd>
 
-            
+
 
 <dt class="nutrition-fact-title">Calories from Fat</dt><dd class="nutrition-fact-units">90</dd><dd class="nutrition-fact-percent"></dd>
 
         </dl>
         <h5 class="nutrition-daily-value" id="gmi_rp_nutritionDailyValue_text">% Daily Value</h5>
         <dl class="nutrition-section nutrition-nutrients nutrition-daily-value-section" id="gmi_rp_nutrition_nutrientsDailyValue">
-            
+
 
 <dt class="nutrition-fact-title">Total Fat</dt><dd class="nutrition-fact-units">10g</dd><dd class="nutrition-fact-percent">15%</dd>
 
             <dt class="nutrition-subsection nutrition-fat">
                 <dl>
-                    
+
 
 <dt class="nutrition-fact-title">Saturated Fat</dt><dd class="nutrition-fact-units">6g</dd><dd class="nutrition-fact-percent">29%</dd>
 
-                    
+
 
 <dt class="nutrition-fact-title">Trans Fat</dt><dd class="nutrition-fact-units">0g</dd><dd class="nutrition-fact-percent"></dd>
 
                 </dl>
             </dt>
-            
+
 
 <dt class="nutrition-fact-title">Cholesterol</dt><dd class="nutrition-fact-units">20mg</dd><dd class="nutrition-fact-percent">6%</dd>
 
-            
+
 
 <dt class="nutrition-fact-title">Sodium</dt><dd class="nutrition-fact-units">210mg</dd><dd class="nutrition-fact-percent">9%</dd>
 
-            
+
 
 <dt class="nutrition-fact-title">Potassium</dt><dd class="nutrition-fact-units">85mg</dd><dd class="nutrition-fact-percent">2%</dd>
 
-            
+
 
 <dt class="nutrition-fact-title">Total Carbohydrate</dt><dd class="nutrition-fact-units">21g</dd><dd class="nutrition-fact-percent">7%</dd>
 
             <dt class="nutrition-subsection nutrition-carbs">
                 <dl>
-                    
+
 
 <dt class="nutrition-fact-title">Dietary Fiber</dt><dd class="nutrition-fact-units">0g</dd><dd class="nutrition-fact-percent">0%</dd>
 
-                    
+
 
 <dt class="nutrition-fact-title">Sugars</dt><dd class="nutrition-fact-units">14g</dd><dd class="nutrition-fact-percent"></dd>
 
                 </dl>
             </dt>
-            
+
 
 <dt class="nutrition-fact-title">Protein</dt><dd class="nutrition-fact-units">2g</dd><dd class="nutrition-fact-percent"></dd>
 
         </dl>
         <h5 id="gmi_rp_percentDailyValueFooterTitle_text">% Daily Value*:</h5>
         <dl class="nutrition-section nutrition-vitamins" id="gmi_rp_nutrition_vitamins">
-            
+
 
 <dt class="nutrition-fact-title">Vitamin A</dt><dd class="nutrition-fact-units">4%</dd><dd class="nutrition-fact-percent">4%</dd>
 
-            
+
 
 <dt class="nutrition-fact-title">Vitamin C</dt><dd class="nutrition-fact-units">0%</dd><dd class="nutrition-fact-percent">0%</dd>
 
-            
+
 
 <dt class="nutrition-fact-title">Calcium</dt><dd class="nutrition-fact-units">4%</dd><dd class="nutrition-fact-percent">4%</dd>
 
-            
+
 
 <dt class="nutrition-fact-title">Iron</dt><dd class="nutrition-fact-units">2%</dd><dd class="nutrition-fact-percent">2%</dd>
 
@@ -1939,16 +1939,16 @@ function __doPostBack(eventTarget, eventArgument) {
             <h5>Exchanges:</h5>
             1/2 Starch; 0 Fruit; 1 Other Carbohydrate; 0 Skim Milk; 0 Low-Fat Milk; 0 Milk; 0 Vegetable; 0 Very Lean Meat; 0 Lean Meat; 0 High-Fat Meat; 2 Fat;
         </div>
-        
+
         <div id="gmi_rp_carbohydrateChoices_div" class="nutrition-section nutrition-carbs">
             <h5>Carbohydrate Choice</h5>
             1 1/2
         </div>
-        
+
         <em class="nutrition-dailyvalues-notice" id="gmi_rp_dailyValuesDisclaimer_text">*Percent Daily Values are based on a 2,000 calorie diet.</em>
         <meta itemprop="calories" content="180 "/><meta itemprop="carbohydrateContent" content="21 g"/><meta itemprop="cholesterolContent" content="20 mg"/><meta itemprop="fatContent" content="2 "/><meta itemprop="fiberContent" content="0 g"/><meta itemprop="proteinContent" content="2 g"/><meta itemprop="saturatedFatContent" content="6 g"/><meta itemprop="servingSize" content="1 Bar "/><meta itemprop="sodiumContent" content="210 mg"/><meta itemprop="sugarContent" content="14 g"/><meta itemprop="transFatContent" content="0 g"/>
     </div>
-    
+
 </div>
 
 <meta itemprop="totalTime" content="PT4H50M" />
@@ -1960,25 +1960,25 @@ function __doPostBack(eventTarget, eventArgument) {
         </div>
 
         <div class="recipeStory primary">
-                        
-            
+
+
         </div>
 
         <div class="recipeTrademark primary">
-            
-            
+
+
 <div class="recipeTrademarks" id="gmi_rp_recipeTrademark">
     <ul>
-    
+
         <li class="trademark" id="gmi_rp_recipeTrademark_item_1" >Trademarks referred to herein are the properties of their respective owners.</li>
-    
+
     </ul>
 </div>
         </div>
 
         <div class="recipeCopyright primary">
-            
-            
+
+
 <div class="recipePartCopyRight" id="gmi_rp_copyrightInfo_div">
 <p class="recipePartCopyRightText">
     © 2020 ®/TM General Mills All Rights Reserved</p>
@@ -1987,8 +1987,8 @@ function __doPostBack(eventTarget, eventArgument) {
         </div>
 
         <div class="recipeFeatureAd recipeAd secondary">
-            
-            
+
+
 <div id="dbc9e38f-1c9b-4e1f-b332-c8c52ce70ac4" class="adChrome" data-deferId="doubleclick8156514">
     <div class="advertisement" data-bind="visible: showAd, css : { visibleAd : showAd()}" style="display:none;">
         <span class="closeAdButton" data-bind="click: closeAd" style="display:none;" aria-label="close"></span>
@@ -2052,8 +2052,8 @@ function __doPostBack(eventTarget, eventArgument) {
         </div>
 
         <div class="recipeDiscoveryUnit2 primary">
-            
-            
+
+
 
 <div class="relatedContentList contentList grid" id="a8d1a88b-c523-44ae-ad7e-03603cdf14fb">
     <div class="gallery-header">
@@ -2061,7 +2061,7 @@ function __doPostBack(eventTarget, eventArgument) {
     </div>
     <div class="contentListItems">
         <ul class="gridItems">
-            
+
             <li class="gridItem" data-contentid="95249f6d-76e2-4ae9-92bb-cd486a3ca14d" data-contenttype="Recipe" data-isfavorite="False" data-title="Lemon Lush ">
                 <a href="/recipes/lemon-lush/95249f6d-76e2-4ae9-92bb-cd486a3ca14d">
                     <div class="singleTapTarget">
@@ -2076,7 +2076,7 @@ function __doPostBack(eventTarget, eventArgument) {
                     </div>
                 </a>
             </li>
-            
+
             <li class="gridItem" data-contentid="ada1476a-761e-42c1-b415-1febba5572b1" data-contenttype="Recipe" data-isfavorite="False" data-title="Kentucky Butter Poke Cake">
                 <a href="/recipes/kentucky-butter-poke-cake/ada1476a-761e-42c1-b415-1febba5572b1">
                     <div class="singleTapTarget">
@@ -2091,7 +2091,7 @@ function __doPostBack(eventTarget, eventArgument) {
                     </div>
                 </a>
             </li>
-            
+
             <li class="gridItem" data-contentid="e0ddd552-ff14-4923-8459-f7d412c428f2" data-contenttype="Recipe" data-isfavorite="False" data-title="Banana Split Brownie Bars">
                 <a href="/recipes/banana-split-brownie-bars/e0ddd552-ff14-4923-8459-f7d412c428f2">
                     <div class="singleTapTarget">
@@ -2106,7 +2106,7 @@ function __doPostBack(eventTarget, eventArgument) {
                     </div>
                 </a>
             </li>
-            
+
             <li class="gridItem" data-contentid="334f7a77-4252-4302-9716-09c764975d95" data-contenttype="Recipe" data-isfavorite="False" data-title="Two-Ingredient Pineapple Angel Food Cake ">
                 <a href="/recipes/two-ingredient-pineapple-angel-food-cake/334f7a77-4252-4302-9716-09c764975d95">
                     <div class="singleTapTarget">
@@ -2121,7 +2121,7 @@ function __doPostBack(eventTarget, eventArgument) {
                     </div>
                 </a>
             </li>
-            
+
             <li class="gridItem" data-contentid="0a86b93e-e454-45e6-ad0f-a7efb961c2ea" data-contenttype="Recipe" data-isfavorite="False" data-title="Cake Batter Cookie Bars">
                 <a href="/recipes/cake-batter-cookie-bars/0a86b93e-e454-45e6-ad0f-a7efb961c2ea">
                     <div class="singleTapTarget">
@@ -2136,7 +2136,7 @@ function __doPostBack(eventTarget, eventArgument) {
                     </div>
                 </a>
             </li>
-            
+
             <li class="gridItem" data-contentid="c01a5935-6f52-419c-af08-e8c267c1aaf7" data-contenttype="Recipe" data-isfavorite="False" data-title="Luscious Lemon Squares">
                 <a href="/recipes/luscious-lemon-squares/c01a5935-6f52-419c-af08-e8c267c1aaf7">
                     <div class="singleTapTarget">
@@ -2151,14 +2151,14 @@ function __doPostBack(eventTarget, eventArgument) {
                     </div>
                 </a>
             </li>
-            
+
         </ul>
     </div>
 </div>
 
 
 <script type="text/javascript">
-    var componentMetadata = JSON.parse('\x7b\x22deferOptions\x22\x3a\x7b\x22deferComponent\x22\x3atrue,\x22deferType\x22\x3a\x22Simple\x22,\x22deferId\x22\x3a\x22relatedcontentlistview8156517\x22,\x22deferredContainerId\x22\x3a\x22DiscoveryUnit2\x22,\x22deferredContainerView\x22\x3a\x22RecipeDetail\x22\x7d,\x22componentName\x22\x3a\x22RelatedContentListView_discoveryunit2_0\x22,\x22viewName\x22\x3a\x22RelatedContentListView\x22\x7d');     
+    var componentMetadata = JSON.parse('\x7b\x22deferOptions\x22\x3a\x7b\x22deferComponent\x22\x3atrue,\x22deferType\x22\x3a\x22Simple\x22,\x22deferId\x22\x3a\x22relatedcontentlistview8156517\x22,\x22deferredContainerId\x22\x3a\x22DiscoveryUnit2\x22,\x22deferredContainerView\x22\x3a\x22RecipeDetail\x22\x7d,\x22componentName\x22\x3a\x22RelatedContentListView_discoveryunit2_0\x22,\x22viewName\x22\x3a\x22RelatedContentListView\x22\x7d');
 
     GeneralMills.ComponentRegistrar.registerComponent(function () {
         GeneralMills.PandoSites.RelatedContentList({
@@ -2201,8 +2201,8 @@ function __doPostBack(eventTarget, eventArgument) {
         </div>
 
         <div class="recipeDiscoveryUnit1 secondary">
-            
-            
+
+
 
 <div class="relatedContentList contentList grid" id="6baa3312-5bf3-4b63-aa78-22158dc96112">
     <div class="gallery-header">
@@ -2210,7 +2210,7 @@ function __doPostBack(eventTarget, eventArgument) {
     </div>
     <div class="contentListItems">
         <ul class="gridItems">
-            
+
             <li class="gridItem" data-contentid="7f286f2f-221c-487a-b41c-2115df50a249" data-contenttype="Recipe" data-isfavorite="False" data-title="Triple Chip Cookie Bars">
                 <a href="/recipes/triple-chip-cookie-bars/7f286f2f-221c-487a-b41c-2115df50a249">
                     <div class="singleTapTarget">
@@ -2225,7 +2225,7 @@ function __doPostBack(eventTarget, eventArgument) {
                     </div>
                 </a>
             </li>
-            
+
             <li class="gridItem" data-contentid="496a508e-019f-445a-a9b1-92d3a8dadf06" data-contenttype="Recipe" data-isfavorite="False" data-title="Brownie Batter-Peanut Butter Chex™ Bars">
                 <a href="/recipes/brownie-batter-peanut-butter-chex-bars/496a508e-019f-445a-a9b1-92d3a8dadf06">
                     <div class="singleTapTarget">
@@ -2240,7 +2240,7 @@ function __doPostBack(eventTarget, eventArgument) {
                     </div>
                 </a>
             </li>
-            
+
             <li class="gridItem" data-contentid="9c5d5562-83e3-4f02-8750-5c90163249c7" data-contenttype="Recipe" data-isfavorite="False" data-title="Butterfinger™ Lush ">
                 <a href="/recipes/butterfinger-lush/9c5d5562-83e3-4f02-8750-5c90163249c7">
                     <div class="singleTapTarget">
@@ -2255,7 +2255,7 @@ function __doPostBack(eventTarget, eventArgument) {
                     </div>
                 </a>
             </li>
-            
+
             <li class="gridItem" data-contentid="ac64f878-c093-40b0-b287-0dbfcfef14f0" data-contenttype="Recipe" data-isfavorite="False" data-title="Brownie Batter Cheesecake Bars">
                 <a href="/recipes/brownie-batter-cheesecake-bars/ac64f878-c093-40b0-b287-0dbfcfef14f0">
                     <div class="singleTapTarget">
@@ -2270,7 +2270,7 @@ function __doPostBack(eventTarget, eventArgument) {
                     </div>
                 </a>
             </li>
-            
+
             <li class="gridItem" data-contentid="88498f49-99fe-494b-9dec-a60d9d0fede8" data-contenttype="Recipe" data-isfavorite="False" data-title="Chocolate Chunk Macaroon Bars">
                 <a href="/recipes/chocolate-chunk-macaroon-bars/88498f49-99fe-494b-9dec-a60d9d0fede8">
                     <div class="singleTapTarget">
@@ -2285,7 +2285,7 @@ function __doPostBack(eventTarget, eventArgument) {
                     </div>
                 </a>
             </li>
-            
+
             <li class="gridItem" data-contentid="ce405edc-d614-471c-928d-f6500516563e" data-contenttype="Recipe" data-isfavorite="False" data-title="Chocolate Chip-Pretzel Cookie Bars">
                 <a href="/recipes/chocolate-chip-pretzel-cookie-bars/ce405edc-d614-471c-928d-f6500516563e">
                     <div class="singleTapTarget">
@@ -2300,14 +2300,14 @@ function __doPostBack(eventTarget, eventArgument) {
                     </div>
                 </a>
             </li>
-            
+
         </ul>
     </div>
 </div>
 
 
 <script type="text/javascript">
-    var componentMetadata = JSON.parse('\x7b\x22deferOptions\x22\x3a\x7b\x22deferComponent\x22\x3atrue,\x22deferType\x22\x3a\x22Simple\x22,\x22deferId\x22\x3a\x22relatedcontentlistview8156519\x22,\x22deferredContainerId\x22\x3a\x22DiscoveryUnit1\x22,\x22deferredContainerView\x22\x3a\x22RecipeDetail\x22\x7d,\x22componentName\x22\x3a\x22RelatedContentListView_discoveryunit1_0\x22,\x22viewName\x22\x3a\x22RelatedContentListView\x22\x7d');     
+    var componentMetadata = JSON.parse('\x7b\x22deferOptions\x22\x3a\x7b\x22deferComponent\x22\x3atrue,\x22deferType\x22\x3a\x22Simple\x22,\x22deferId\x22\x3a\x22relatedcontentlistview8156519\x22,\x22deferredContainerId\x22\x3a\x22DiscoveryUnit1\x22,\x22deferredContainerView\x22\x3a\x22RecipeDetail\x22\x7d,\x22componentName\x22\x3a\x22RelatedContentListView_discoveryunit1_0\x22,\x22viewName\x22\x3a\x22RelatedContentListView\x22\x7d');
 
     GeneralMills.ComponentRegistrar.registerComponent(function () {
         GeneralMills.PandoSites.RelatedContentList({
@@ -2330,13 +2330,13 @@ function __doPostBack(eventTarget, eventArgument) {
         </div>
 
         <div class="recipeRatingAndReview primary">
-            
-             
+
+
 <div class="reviewContainer">
     <div class="reviewHeaderContainer">
-        
+
 <div class="flexContent">
-     
+
      <div id="main_2_ratingreview_1_ratingandreviewheader_0_RichTextControl" class="richText">
         <h2>Rate and Comment</h2>
      </div>
@@ -2344,9 +2344,9 @@ function __doPostBack(eventTarget, eventArgument) {
     </div>
     <div id="reviewDiv"
         data-ratingandreview="review"
-        data-options='{ 
-        "categoryID": "Recipe", 
-        "streamID": "0cb1d3f0-f074-400b-aa5a-5e729102c4ec", 
+        data-options='{
+        "categoryID": "Recipe",
+        "streamID": "0cb1d3f0-f074-400b-aa5a-5e729102c4ec",
         "renderReviewsForSEO": false,
         "waterMark": "Have you made this? Rate the recipe and then post your comments!"
     }'
@@ -2371,7 +2371,7 @@ function __doPostBack(eventTarget, eventArgument) {
 
 
 <script type="text/javascript">
-    (function () {        
+    (function () {
         window.publicProfileLink = '/publicprofile/';
 
         document.addEventListener('DOMContentLoaded', function () {
@@ -2384,13 +2384,13 @@ function __doPostBack(eventTarget, eventArgument) {
         </div>
 
         <div class="recipeZergnet1 primary">
-            
-            
+
+
 
 <div id="external-content-container-49052">
-    
+
         <div id="zergnet-widget-49052"></div>
-    
+
 </div>
 
 <script type="text/javascript">
@@ -2408,9 +2408,9 @@ function __doPostBack(eventTarget, eventArgument) {
         </div>
 
         <div class="recipeNewsletterCTA secondary">
-            
+
             <div class="recipeNewsletterCTAMobile">
-                
+
 
 <div class="nctaInterstitialWrapper" >
     <div id="e00603a2c87d42569d54018bed1d9b48" class="newsletterCtaView ncta_e00603a2c87d42569d54018bed1d9b48"
@@ -2434,7 +2434,7 @@ function __doPostBack(eventTarget, eventArgument) {
 
             </div>
             <div class="recipeNewsletterCTADesktop">
-                
+
 
 <div class="nctaInterstitialWrapper" >
     <div id="b44475251fb847699ded022eefbd6c28" class="newsletterCtaView ncta_b44475251fb847699ded022eefbd6c28"
@@ -2460,8 +2460,8 @@ function __doPostBack(eventTarget, eventArgument) {
         </div>
 
         <div class="recipeSecondaryAd recipeAd secondary">
-            
-            
+
+
 <div id="fd272fa6-7a74-4fa8-9297-e300faa66c78" class="adChrome" data-deferId="doubleclick8156523">
     <div class="advertisement" data-bind="visible: showAd, css : { visibleAd : showAd()}" style="display:none;">
         <span class="closeAdButton" data-bind="click: closeAd" style="display:none;" aria-label="close"></span>
@@ -2525,17 +2525,17 @@ function __doPostBack(eventTarget, eventArgument) {
         </div>
 
         <div class="recipeDiscoveryUnit3 secondary">
-            
-            
+
+
 
 
 <div class="contentList" id="aad48362-5dbb-41da-b7fb-dff3f1ca1bb2" data-bind="css: htmlTemplateClass() + ( isFetching() ? ' fetching': ''), infiniteScroll: { enable: $root.useInfiniteScrolling(), scroll: $root.getMoreItems }, visible: renderingCompletedSuccessfully" style="display: none">
     <div class="alert alert-error" data-bind="visible: isInPageEditor && fatalErrorMessage()" style="display: none">
         <p data-bind="text: fatalErrorMessage"></p>
     </div>
-    
+
     <div class="contentListLoadingIndicator galleryLoadingIndicator" data-bind="visible: isFetching, template: { 'name': 'LoadingIndicatorView', 'templateUrl': templateUrl, 'templateSuffix': templateSuffix }" style="display: none"></div>
-    
+
     <!-- ko with: settings -->
     <div class="sortingViewResult">
         <div class="menuSearchMenu" data-bind="visible: ShowSortOptions" >
@@ -2576,14 +2576,14 @@ function __doPostBack(eventTarget, eventArgument) {
         <!-- /ko -->
     </div>
     <!-- /ko -->
-    
+
     <!-- ko if: $root.RenderingParams["Show Description"] -->
     <div class="gallery-description">
         <p data-bind="html: $root.RenderingParams.Description"></p>
     </div>
     <!-- /ko -->
-    
-    <div class="contentListItems clearfix" 
+
+    <div class="contentListItems clearfix"
         data-bind="attr: {id : $root.settingsId}, template: { 'name': HtmlTemplateName, 'templateUrl': $root.templateUrl, 'templateSuffix': $root.templateSuffix, 'data': $root.items, 'afterRender': $root.afterTemplateRender}, visible: $root.items()">
     </div>
     <a class="contentListMoreButton"
@@ -2611,8 +2611,8 @@ function __doPostBack(eventTarget, eventArgument) {
         </div>
 
         <div class="recipeTernaryAd recipeAd secondary">
-            
-            
+
+
 <div id="038b5602-b3a0-4310-8038-40ddc4232df7" class="adChrome" data-deferId="doubleclick8156527">
     <div class="advertisement" data-bind="visible: showAd, css : { visibleAd : showAd()}" style="display:none;">
         <span class="closeAdButton" data-bind="click: closeAd" style="display:none;" aria-label="close"></span>
@@ -2636,13 +2636,13 @@ function __doPostBack(eventTarget, eventArgument) {
         </div>
 
         <div class="recipeZergnet2 secondary">
-            
-            
+
+
         </div>
     </div>
     <div class="postColumns">
         <div class="adhesiveAd">
-            
+
 <div id="196aa1b5-e7a2-4e4d-ae50-bcdb321cc2bc" class="adChrome" data-deferId="doubleclick8156528">
     <div class="advertisement" data-bind="visible: showAd, css : { visibleAd : showAd()}" style="display:none;">
         <span class="closeAdButton" data-bind="click: closeAd" style="display:none;" aria-label="close"></span>
@@ -2666,7 +2666,7 @@ function __doPostBack(eventTarget, eventArgument) {
         </div>
         <div class="bottomAd">
             <hr class="linedDivider" />
-            
+
 <div id="b3387b1a-d269-4c11-818c-23aaf1980d0b" class="adChrome" data-deferId="doubleclick8156529">
     <div class="advertisement" data-bind="visible: showAd, css : { visibleAd : showAd()}" style="display:none;">
         <span class="closeAdButton" data-bind="click: closeAd" style="display:none;" aria-label="close"></span>
@@ -2693,16 +2693,16 @@ function __doPostBack(eventTarget, eventArgument) {
 </div>
 
 
-<span id="maxymiser-counts" 
-    data-view="81737" 
-    data-favorite="1215" 
-    data-email="429" 
+<span id="maxymiser-counts"
+    data-view="81737"
+    data-favorite="1215"
+    data-email="429"
     data-print="5808">
 </span>
 
             </section>
         </div>
-        
+
 
 <div class="nctaInterstitialWrapper" >
     <div id="9f9247623a184075adc3512a5283fa48" class="newsletterCtaView ncta_9f9247623a184075adc3512a5283fa48"
@@ -2730,42 +2730,42 @@ function __doPostBack(eventTarget, eventArgument) {
         <section class="footerSocial">
             <div id="FooterView_ctl00_ChannelLinksList" class="channelLinks">
 
-    
+
         <div class="channelLinksInner">
-            
+
                 <h3>
                     Follow Betty Crocker
                 </h3>
-            
+
             <ul>
-                
+
                     <li class="">
                         <a href="http://www.facebook.com/bettycrocker" title="Facebook" target="_blank" class="iconFacebook"
                             data-position="1"></a>
                     </li>
-                
+
                     <li class="">
                         <a href="http://www.twitter.com/bettycrocker" title="Twitter" target="_blank" class="iconTwitter"
                             data-position="2"></a>
                     </li>
-                
+
                     <li class="">
                         <a href="http://instagram.com/bettycrocker" title="Instagram" target="_blank" class="iconInstagram"
                             data-position="3"></a>
                     </li>
-                
+
                     <li class="">
                         <a href="http://www.pinterest.com/bettycrocker" title="Pinterest" target="_blank" class="iconPinterest"
                             data-position="4"></a>
                     </li>
-                
+
                     <li class="">
                         <a href="http://www.youtube.com/user/BettyCrockerTV" title="YouTube" target="_blank" class="iconYouTube"
                             data-position="5"></a>
                     </li>
-                
+
             </ul>
-            
+
         </div>
     </div>
 
@@ -2791,7 +2791,7 @@ function __doPostBack(eventTarget, eventArgument) {
         </section>
 
         <div class="footerLinksContainer">
-            
+
 
 <script type="text/javascript">
     document.addEventListener("DOMContentLoaded", function () {
@@ -2801,121 +2801,121 @@ function __doPostBack(eventTarget, eventArgument) {
 
 <div class="clearfix">
     <div class="footer" id="footer">
-        
+
                 <div class="footer items featured">
                     <h3>More Inspiration</h3>
                     <ul>
-            
+
                 <li><span><a href='https://www.pillsbury.com/' target='_blank'>Pillsbury</a></span></li>
-            
+
                 <li><span><a href='http://www.tablespoon.com/' target='_blank'>Tablespoon</a></span></li>
-            
+
                 <li><span><a href='http://www.boxtops4education.com/' target='_blank'>Box Tops for Education</a></span></li>
-            
+
                 </ul></div>
-            
-        
+
+
                 <div class="footer items brands">
                     <h3>General Mills Brands</h3>
                     <ul>
-            
+
                 <li><a href="/products/bisquick" target="_blank">
                 Bisquick</a> </li>
-            
+
                 <li><a href="http://www.chex.com/" target="_blank">
                 Chex</a> </li>
-            
+
                 <li><a href="http://www.muirglen.com/" target="_blank">
                 Muir Glen</a> </li>
-            
+
                 <li><a href="https://www.progresso.com/" target="_blank">
                 Progresso Soup</a> </li>
-            
+
                 <li><a href="http://www.yoplait.com/" target="_blank">
                 Yoplait</a> </li>
-            
+
                 <li><a href="http://www.cascadianfarm.com/" target="_blank">
                 Cascadian Farm</a> </li>
-            
+
                 <li><a href="http://www.fiberone.com/" target="_blank">
                 Fiber One</a> </li>
-            
+
                 <li><a href="http://www.naturevalley.com/" target="_blank">
                 Nature Valley</a> </li>
-            
+
                 <li><a href="http://www.totalcereal.com/" target="_blank">
                 Total</a> </li>
-            
+
                 <li><a href="http://www.cheerios.com/" target="_blank">
                 Cheerios</a> </li>
-            
+
                 <li><a href="http://www.honeynutcheerios.com/" target="_blank">
                 Honey Cheerios</a> </li>
-            
+
                 <li><a href="http://www.oldelpaso.com/" target="_blank">
                 Old El Paso</a> </li>
-            
+
                 <li><a href="http://www.wheaties.com/" target="_blank">
                 Wheaties</a> </li>
-            
+
                 <li><a href="http://www.totinos.com/" target="_blank">
                 Totino&#39;s</a> </li>
-            
-                </ul></div>
-            
 
-        
+                </ul></div>
+
+
+
                 <div class="footer items corporate">
                     <h3>Corporate Sites</h3>
                     <ul>
-            
+
                 <li><a href="http://www.generalmills.com/" target="_blank">
                 General Mills (USA)</a> </li>
-            
+
                 <li><a href="http://www.generalmills.ca/en-CA?country=33" target="_blank">
                 General Mills (Canada)</a> </li>
-            
+
                 <li><a href="http://www.generalmillscf.com/" target="_blank">
                 General Mills Foodservice</a> </li>
-            
+
                 <li><a href="http://careers.generalmills.com/" target="_blank">
                 General Mills Careers</a> </li>
-            
+
                 </ul></div>
-            
-        <!--WARNING 
+
+        <!--WARNING
         The privacy policy link must be included in the list of 'bottom links' in Sitecore (sitecore/content/data/footer).
         The link is used by Gomez (external monitoring tool) to determine if the site is running.  It loads the home page
         and looks for 'Privacy Policy'.  If present, the site is determined to be running.  If not found, the site is marked down.
         -->
         <div class="copyright">©2020 General Mills</div>
-        
+
                 <div class="footer bottom-navs">
                     <ul>
-                    
+
                 <li><a href="https://contactus.generalmills.com/?page=http://www.bettycrocker.com&amp;language=en" target="_blank">
                         Contact Betty Crocker</a> </li>
-                    
+
                 <li><a href="/about-us" target="_blank">
                         About Betty Crocker</a> </li>
-                    
+
                 <li><a href="/privacy-policy" target="|Custom">
                         Privacy Policy</a> </li>
-                    
+
                 <li><a href="http://www.bettycrocker.com/privacy-policy#do-not-sell" target="|Custom">
                         Do Not Sell My Personal Information</a> </li>
-                    
+
                 <li><a href="http://www.generalmills.com/en/Company/legal-terms/legal-terms-EN" target="_blank">
                         Legal Terms</a> </li>
-                    
+
                 <li><a href="/community-membership-agreement" target="_blank">
                         Community Guidelines</a> </li>
-                    
+
                 <li><a href="/advertise-with-us" target="_self">
                         Advertise With Us</a> </li>
-            
+
                 </ul></div>
-            
+
         <div class="truste">
 <a style="cursor: pointer;" onclick="TRUSTeWidget.Tab.link()"><img alt="" src="https://choices.truste.com/get?name=admarker2.png" width="77" height="16" style="border-width: 0px; border-style: solid;" /></a>
 </div>
@@ -2929,7 +2929,7 @@ function __doPostBack(eventTarget, eventArgument) {
 </footer>
 
 
-        
+
 
 <div class="nctaInterstitialWrapper" style='display:none;'>
     <div id="57fab06d2d704f5ca3c8eb8a5060f20d" class="newsletterCtaView ncta_57fab06d2d704f5ca3c8eb8a5060f20d"
@@ -2951,16 +2951,16 @@ function __doPostBack(eventTarget, eventArgument) {
     })();
 </script>
 
-        
-        
-        
 
-<div id="registrationDialogContainer" style="display: none;">    
-    
+
+
+
+<div id="registrationDialogContainer" style="display: none;">
+
     <script type="text/javascript">
         window.RegistrationFlowData = window.RegistrationFlowData || {};
         window.RegistrationFlowData["ab5481b5-f301-4054-996c-7c18d0f53ebd"] = {
-            registrationFlowObj: {"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationFlow, GeneralMills.CIA.Framework.Controls.Registration","IsAnonymousSubscriber":false,"GlobalConfiguration":{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationConfiguration, GeneralMills.CIA.Framework.Controls.Registration","ModalRegistrationUrl":"/register/login-modal","RegistrationRedirectUrl":"","ModalIntermediateUrl":"/register/login-modal","LoginRedirectUrl":"","LegalAgeErrorText":" <p>You are not eligible to join the Betty Crocker community.</p><p>But guess what, you don't need to be a member to get thousands of great recipes and how-to videos. So stick around and enjoy!</p>","LegalAgeHeaderText":"We're Sorry","NoScreenNameRedirectUrl":"","ResetPasswordUrl":"/profile/reset-password","ResetPasswordButtonText":"Reset Password","RequiredFieldErrorMessage":"This field is required. ","ConfirmPasswordLabelText":"Confirm Password","ConfirmPasswordErrorMessage":"Passwords don't match","InvalidDateErrorMessage":"Please enter your birthday in the form of MM/DD/YYYY","FutureBirthdateErrorMessage":"Re-enter year of birth","GeneralErrorMessage":"General error, please try again later.","NewsletterLinkText":"Preview Email","MonthWatermarkText":"MM","DayWatermarkText":"DD","YearWatermarkText":"YYYY","MonthSelectionText":"Month","DaySelectionText":"Day","YearSelectionText":"Year","DatePattern":"M/d/yyyy","MonthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"GigyaLoginProviders":["facebook","google"],"UpgradeEmailLabelOverride":"Email"},"Id":"ab5481b5-f301-4054-996c-7c18d0f53ebd","LoginStepNewsletterFields":[],"RegistrationSteps":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStep, GeneralMills.CIA.Framework.Controls.Registration","StepNumber":0,"Id":"3ab7aef2-6ea2-41f5-9b87-83d51a259a72","RegistrationFields":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"728294da-12e5-4842-92d9-b3b7eb66352c","Id":"20548f2e-3d18-44d0-902c-59b941ded6dd","ViewTemplateName":"_registration.email.tmpl","FieldName":"Email-Email","FieldType":2,"Label":"Email","IsMandatory":true,"IsNewsletter":false,"FieldSize":0,"NewsletterLink":"","HintText":"","PlaceholderText":"","SelectOptions":[]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"3f02932a-45ac-4c02-a505-12a7e314fdfa","Id":"9be899c2-2bc3-4626-a443-416ea7ef39bd","ViewTemplateName":"_registration.password.tmpl","FieldName":"Password-Password","FieldType":4,"Label":"Password","IsMandatory":true,"IsNewsletter":false,"FieldSize":0,"NewsletterLink":"","HintText":"Password must contain at least 1 letter, 1 number and be between 6 and 20 characters.","PlaceholderText":"","SelectOptions":[]}],"StepName":"Join Free","HeaderText":"Get started in 3 easy steps.","FooterText":"","LegalText":null,"CTAText":"","CssClass":"createAccount","RegistrationStepButtons":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStepButton, GeneralMills.CIA.Framework.Controls.Registration","Id":"49d96233-7514-4852-aa93-72148e412f04","DisplayText":"Next Step &raquo;","Action":"Next"}]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStep, GeneralMills.CIA.Framework.Controls.Registration","StepNumber":1,"Id":"a69338db-014b-4c1f-b3ba-523310bc7f74","RegistrationFields":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"387e43e8-32ce-4e6d-b5ac-e15fca86e68a","Id":"1e34a555-89d1-45f0-8f07-b3ae6b01c03c","ViewTemplateName":"_registration.checkbox.tmpl","FieldName":"Betty Crocker Core Newsletter-CheckBox","FieldType":6,"Label":"Betty's Email","IsMandatory":false,"IsNewsletter":true,"FieldSize":0,"NewsletterLink":"http://www.bettycrockercommunity.com/newsletter_archive/bc_example.html","HintText":"","PlaceholderText":"","SelectOptions":[]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"5db3d9c4-0001-460f-83e6-81f80e79f3ec","Id":"ee501006-63ce-4bcc-8de0-93277ae32edc","ViewTemplateName":"_registration.checkbox.tmpl","FieldName":"Betty Crocker 24 Days of Cookies NEW-CheckBox","FieldType":6,"Label":"24 Days of Cookies","IsMandatory":false,"IsNewsletter":true,"FieldSize":0,"NewsletterLink":"http://www.bettycrockercommunity.com/newsletter_archive/bc-cookies_example.html","HintText":"","PlaceholderText":"","SelectOptions":[]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"b86ed3c8-2bcc-4a96-997d-6c4b8d0ce034","Id":"77fa0654-f08a-453b-85e8-7520bf719047","ViewTemplateName":"_registration.checkbox.tmpl","FieldName":"Betty Crocker Slowcooker Series-CheckBox","FieldType":6,"Label":"Slow-Cooker Showcase","IsMandatory":false,"IsNewsletter":true,"FieldSize":0,"NewsletterLink":"http://www.bettycrockercommunity.com/newsletter_archive/bc-sc_example.html","HintText":"","PlaceholderText":"","SelectOptions":[]}],"StepName":"Join Free","HeaderText":"Subscribe to our free emails.","FooterText":"","LegalText":null,"CTAText":"","CssClass":"createAccount","RegistrationStepButtons":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStepButton, GeneralMills.CIA.Framework.Controls.Registration","Id":"6cb846e6-5083-4647-ac2b-be2477a3b10f","DisplayText":"&laquo; Back","Action":"Back"},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStepButton, GeneralMills.CIA.Framework.Controls.Registration","Id":"49d96233-7514-4852-aa93-72148e412f04","DisplayText":"Next Step &raquo;","Action":"Next"}]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStep, GeneralMills.CIA.Framework.Controls.Registration","StepNumber":2,"Id":"49a9173e-4a60-4e4f-895b-3becaf1dd700","RegistrationFields":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"a4183433-636f-4dc5-a166-6b1a21008260","Id":"50e0a718-c5df-49c8-a864-f58906e28330","ViewTemplateName":"_registration.dateofbirthtextbox.tmpl","FieldName":"Birth Date-DateOfBirth","FieldType":5,"Label":"Birthday","IsMandatory":true,"IsNewsletter":false,"FieldSize":0,"NewsletterLink":"","HintText":"","PlaceholderText":"","SelectOptions":[]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"ae38cbfb-597a-4b4a-8f44-c7b9650db748","Id":"a2c0dda0-38cc-42c1-ba50-c80bb87e846d","ViewTemplateName":"_registration.textbox.tmpl","FieldName":"PostalCode-TextBox","FieldType":0,"Label":"Zip code","IsMandatory":true,"IsNewsletter":false,"FieldSize":0,"NewsletterLink":"","HintText":"","PlaceholderText":"","SelectOptions":[]}],"StepName":"Join Free","HeaderText":"Last Step!","FooterText":"","LegalText":"<p class=\"copyR\">By clicking \"Join\", I agree to BettyCrocker.com's <a href=\"http://www.generalmills.com/company/privacy-policies/privacy-policy-us\" target=\"_blank\">Privacy Policy</a>,&nbsp;<a href=\"http://www.generalmills.com/en/Company/legal-terms\" target=\"_blank\">Legal Terms</a>&nbsp;and <a href=\"/community-membership-agreement\" target=\"_blank\">Community Rules</a> and that General Mills may freely use ideas or materials that I provide, with or without attribution to me. I also won't upload anything owned by anyone else nor upload images of (or personal information about) anyone else without permission.</p>","CTAText":"","CssClass":"createAccount","RegistrationStepButtons":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStepButton, GeneralMills.CIA.Framework.Controls.Registration","Id":"6cb846e6-5083-4647-ac2b-be2477a3b10f","DisplayText":"&laquo; Back","Action":"Back"},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStepButton, GeneralMills.CIA.Framework.Controls.Registration","Id":"51c36343-ab4e-4cd1-8dd9-b760a3db6920","DisplayText":"Join","Action":"Submit"}]}],"SocialRegistrationSteps":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStep, GeneralMills.CIA.Framework.Controls.Registration","StepNumber":0,"Id":"50742b4d-e402-4722-b380-cfc8e93dc808","RegistrationFields":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"834ecf38-b1e7-4ec9-ad39-1b2f7395fed6","Id":"20548f2e-3d18-44d0-902c-59b941ded6dd","ViewTemplateName":"_registration.email.tmpl","FieldName":"Email-Email","FieldType":2,"Label":"Email","IsMandatory":true,"IsNewsletter":false,"FieldSize":0,"NewsletterLink":"","HintText":"","PlaceholderText":"","SelectOptions":[]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"9b6986b2-5dae-417f-b20e-91d9057e3a2a","Id":"50e0a718-c5df-49c8-a864-f58906e28330","ViewTemplateName":"_registration.dateofbirthtextbox.tmpl","FieldName":"Birth Date-DateOfBirth","FieldType":5,"Label":"Birthday","IsMandatory":true,"IsNewsletter":false,"FieldSize":0,"NewsletterLink":"","HintText":"","PlaceholderText":"","SelectOptions":[]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"fbc5426c-be13-4782-994c-7e2696e0ac1d","Id":"a2c0dda0-38cc-42c1-ba50-c80bb87e846d","ViewTemplateName":"_registration.textbox.tmpl","FieldName":"PostalCode-TextBox","FieldType":0,"Label":"Zip code","IsMandatory":true,"IsNewsletter":false,"FieldSize":0,"NewsletterLink":"","HintText":"","PlaceholderText":"","SelectOptions":[]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"30f27e34-2c3e-4146-9cc7-360751d442fb","Id":"1e34a555-89d1-45f0-8f07-b3ae6b01c03c","ViewTemplateName":"_registration.checkbox.tmpl","FieldName":"Betty Crocker Core Newsletter-CheckBox","FieldType":6,"Label":"Betty's Email","IsMandatory":false,"IsNewsletter":true,"FieldSize":0,"NewsletterLink":"http://www.bettycrockercommunity.com/newsletter_archive/bc_example.html","HintText":"","PlaceholderText":"","SelectOptions":[]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"e33c09ad-51e5-4dfa-af9e-0fcadb5c9270","Id":"ee501006-63ce-4bcc-8de0-93277ae32edc","ViewTemplateName":"_registration.checkbox.tmpl","FieldName":"Betty Crocker 24 Days of Cookies NEW-CheckBox","FieldType":6,"Label":"24 Days of Cookies","IsMandatory":false,"IsNewsletter":true,"FieldSize":0,"NewsletterLink":"http://www.bettycrockercommunity.com/newsletter_archive/bc-cookies_example.html","HintText":"","PlaceholderText":"","SelectOptions":[]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"3c713bec-9e60-4b91-a32a-4adba8553b89","Id":"77fa0654-f08a-453b-85e8-7520bf719047","ViewTemplateName":"_registration.checkbox.tmpl","FieldName":"Betty Crocker Slowcooker Series-CheckBox","FieldType":6,"Label":"Slow-Cooker Showcase","IsMandatory":false,"IsNewsletter":true,"FieldSize":0,"NewsletterLink":"http://www.bettycrockercommunity.com/newsletter_archive/bc-sc_example.html","HintText":"","PlaceholderText":"","SelectOptions":[]}],"StepName":"Join Free","HeaderText":"We need additional information to complete your registration.","FooterText":"","LegalText":"<p class=\"copyR\">By clicking \"Join\", I agree to BettyCrocker.com's <a href=\"http://www.generalmills.com/company/privacy-policies/privacy-policy-us\" target=\"_blank\">Privacy Policy</a>,&nbsp;<a href=\"http://www.generalmills.com/en/Company/legal-terms\" target=\"_blank\">Legal Terms</a>&nbsp;and <a href=\"/community-membership-agreement\" target=\"_blank\">Community Rules</a> and that General Mills may freely use ideas or materials that I provide, with or without attribution to me. I also won't upload anything owned by anyone else nor upload images of (or personal information about) anyone else without permission.</p>","CTAText":"","CssClass":"socialRegistrationStep","RegistrationStepButtons":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStepButton, GeneralMills.CIA.Framework.Controls.Registration","Id":"51c36343-ab4e-4cd1-8dd9-b760a3db6920","DisplayText":"Join","Action":"Submit"}]}],"EsrcCode":11275,"RegAction":null,"IsModalWindow":false,"SelectedNewsletterId":"00000000-0000-0000-0000-000000000000","EmailAddress":"","RegActionCTAText":null,"RegActionCTAHeadline":null,"RegActionCTAImageUrl":null,"RegistrationActionCTAs":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationActionCTADetails, GeneralMills.CIA.Framework.Controls.Registration","Name":"ASKBETTY","Headline":"Ready to Ask Betty?","ImageUrl":null,"Text":"<p>Log in to submit your question</p>\n<ul class=\"mobileHidden\">\n<p>Other perks:</p>\n<li>Save your favorite recipes</li>\n<li>Save up to $250 coupons a year with coupons</li>\n<li>Be 1st to learn about free samples and promotions</li>\n<li>Rate and review recipes</li>\n</ul>"},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationActionCTADetails, GeneralMills.CIA.Framework.Controls.Registration","Name":"BETTYAPP","Headline":"Save Your Favorite Recipes","ImageUrl":null,"Text":"<p>Log in to access your favorite recipes from any device, anywhere.</p>"},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationActionCTADetails, GeneralMills.CIA.Framework.Controls.Registration","Name":"COUPON","Headline":"Ready to get your coupons?","ImageUrl":null,"Text":"<p>Log in to print new coupons every week. Save up to $250/year!</p>\n<ul class=\"mobileHidden\">\n<p>Plus...</p>\n<li>Save your favorite recipes</li>\n<li>Be 1st to learn about free samples and promotions</li>\n<li>Rate and review recipes</li>\n</ul>"},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationActionCTADetails, GeneralMills.CIA.Framework.Controls.Registration","Name":"FAVORITE","Headline":"We <img height=\"27\" alt=\"BC_White_Heart\" width=\"31\" src=\"/-/media/images/shared/myaccount/BC_White_Outlined_Heart\" />&nbsp;you, too!","ImageUrl":null,"Text":"<p>Log in to save your favorite recipes on BettyCrocker.com</p>\n<ul class=\"mobileHidden\">\n<p>Plus...</p>\n<li>Get weekly premium coupons, also save up to $250/year</li>\n<li>Be 1st to learn about free samples and promotions</li>\n<li>Rate and review recipes</li>\n</ul>"},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationActionCTADetails, GeneralMills.CIA.Framework.Controls.Registration","Name":"HEADERJOINLOGIN","Headline":"Get Exclusive Access!","ImageUrl":null,"Text":"<p>Log in for all the perks at BettyCrocker.com</p>\n<ul class=\"mobileHidden\">\n<li>Save your favorite recipes</li>\n<li>Get weekly premium coupons, also save up to $250/year</li>\n<li>Be 1st to hear about free samples and promotions</li>\n<li>Rate and review recipes</li>\n</ul>"},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationActionCTADetails, GeneralMills.CIA.Framework.Controls.Registration","Name":"PROMOTION","Headline":"Enter today!","ImageUrl":null,"Text":"<p>Just log in/register to begin.</p>\n<ul class=\"mobileHidden\">\n<p>Other perks:</p>\n<li>Save your favorite recipes</li>\n<li>Get weekly premium coupons, also save up to $250/year</li>\n<li>Rate and review recipes</li>\n</ul>"},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationActionCTADetails, GeneralMills.CIA.Framework.Controls.Registration","Name":"RATECOMMENT","Headline":"We <img height=\"27\" alt=\"BC_White_Heart\" width=\"31\" src=\"/-/media/images/shared/myaccount/BC_White_Outlined_Heart\" />&nbsp;hearing from you!","ImageUrl":null,"Text":"<p>Log in to rate, review and share your recipe twists</p>\n<ul class=\"mobileHidden\">\n<p>Plus...</p>\n<li>Save your favorite recipes</li>\n<li>Get weekly premium coupons, also save up to $250/year</li>\n<li>Be 1st to learn about free samples and promotions</li>\n</ul>"},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationActionCTADetails, GeneralMills.CIA.Framework.Controls.Registration","Name":"SUBSCRIBERUPGRADE","Headline":"Ready for all the perks at BettyCrocker.com?","ImageUrl":null,"Text":"<p>You’re on our email list, just a few more steps!</p>\n<ul class=\"mobileHidden\">\n<li>Save your favorite recipes</li>\n<li>Get weekly premium coupons, also save up to $250/year</li>\n<li>Be 1st to hear about free samples and promotions</li>\n<li>Rate and review recipes</li>\n</ul>"}],"FlowName":"Default Registration/Login","FlowHeaderText":"","FlowFooterText":"","DisplayDateFieldAsDropdown":false,"EnableConfirmPassword":false,"RegistrationRedirectUrl":"","AlreadyAMemberText":"Already A Member? Log in","IsRegistrationFirstStep":false,"CssClass":"defaultRegistration","ThankYouEnabled":false,"ThankYouRedirectUrl":null,"ThankYouHeader":null,"ThankYouContent":null,"ThankYouLinkText":null,"IsProgressBarVisible":true,"DisplayProgressBarBelowStep":true,"ResetPasswordTitle":"Reset Password","ResetPasswordMessage":"Enter your email and we'll send you an email with a link to reset your password.","ResetPasswordEmailNotFoundMessage":"We couldn't locate that email address, please re-enter it. If you're new, JOIN FREE now! ","ResetPasswordSuccessMessage":"An email with instructions on how to reset your password should arrive within the next few minutes. &nbsp;Please be sure to check your spam folder if you don't see the email. &nbsp;<a href=\"https://contactus.generalmills.com/?page=http://www.bettycrocker.com&language=en\" target=\"_blank\">Contact us</a>  for more help.","LoginErrorText":"Enter a valid email and password.","UsernameLabel":"Email","PasswordLabel":"Password","RememberMeLabel":"Remember Me","ForgotPasswordText":"Forgot Your Password?","LoginStepButtons":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStepButton, GeneralMills.CIA.Framework.Controls.Registration","Id":"08c3ea3c-0594-4506-95c7-22d0644b01c2","DisplayText":"Log In","Action":"Login"}],"StepName":"Log In","LoginRedirectUrl":"","RequireReauthenticationForOAuth":false,"DisplaySmallCTA":true,"LargeCTAText":"<h2>Get Exclusive Access!</h2>\n<p>Login for all the perks at BettyCrocker.com</p>\n<ul class=\"mobileHidden\">\n<li>Save your favorite recipes</li>\n<li>Get Weekly premium coupons, save up to $250/year</li>\n<li>Be 1st to hear about free samples and promotions</li>\n<li>Rate and review recipes</li>\n</ul>","LargeCTADisplayButtons":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStepButton, GeneralMills.CIA.Framework.Controls.Registration","Id":"08c3ea3c-0594-4506-95c7-22d0644b01c2","DisplayText":"Log In","Action":"Login"}],"SmallCTAText":"Not a Member? Join FREE","FederatedCurrentUserStepName":"Already a member","FederatedCurrentUserHeaderText":"<p>We found your email in our system.<br />\r\nPlease provide your site password to link to your existing account:</p>","FederatedCurrentUserFooterText":"","FederatedCurrentUserCssClass":"gigyaCurrentUser","FederatedCurrentUserEmailLabel":"Please verify your Email","FederatedCurrentUserPasswordLabel":"Password","FederatedCurrentUserDisplayButtons":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStepButton, GeneralMills.CIA.Framework.Controls.Registration","Id":"4f079410-c120-4702-b182-db3661310211","DisplayText":"Sign Up","Action":"Sign Up"}],"LoginFederatedCTAText":"OR","GigyaLoginIsEnabled":true,"GigyaLoginControlDisplayWidth":"280","GigyaLoginControlDisplayHeight":"100","GigyaLoginControlHeaderText":"","GigyaLoginControlButtonStyle":"signInWith","GigyaLoginShowWhatsThisLink":false,"GigyaLoginWhatsThisText":"","GigyaLoginShowToolTips":false,"RedirectFullPageExpression":"","FullPageToRedirectTo":""} 
+            registrationFlowObj: {"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationFlow, GeneralMills.CIA.Framework.Controls.Registration","IsAnonymousSubscriber":false,"GlobalConfiguration":{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationConfiguration, GeneralMills.CIA.Framework.Controls.Registration","ModalRegistrationUrl":"/register/login-modal","RegistrationRedirectUrl":"","ModalIntermediateUrl":"/register/login-modal","LoginRedirectUrl":"","LegalAgeErrorText":" <p>You are not eligible to join the Betty Crocker community.</p><p>But guess what, you don't need to be a member to get thousands of great recipes and how-to videos. So stick around and enjoy!</p>","LegalAgeHeaderText":"We're Sorry","NoScreenNameRedirectUrl":"","ResetPasswordUrl":"/profile/reset-password","ResetPasswordButtonText":"Reset Password","RequiredFieldErrorMessage":"This field is required. ","ConfirmPasswordLabelText":"Confirm Password","ConfirmPasswordErrorMessage":"Passwords don't match","InvalidDateErrorMessage":"Please enter your birthday in the form of MM/DD/YYYY","FutureBirthdateErrorMessage":"Re-enter year of birth","GeneralErrorMessage":"General error, please try again later.","NewsletterLinkText":"Preview Email","MonthWatermarkText":"MM","DayWatermarkText":"DD","YearWatermarkText":"YYYY","MonthSelectionText":"Month","DaySelectionText":"Day","YearSelectionText":"Year","DatePattern":"M/d/yyyy","MonthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"GigyaLoginProviders":["facebook","google"],"UpgradeEmailLabelOverride":"Email"},"Id":"ab5481b5-f301-4054-996c-7c18d0f53ebd","LoginStepNewsletterFields":[],"RegistrationSteps":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStep, GeneralMills.CIA.Framework.Controls.Registration","StepNumber":0,"Id":"3ab7aef2-6ea2-41f5-9b87-83d51a259a72","RegistrationFields":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"728294da-12e5-4842-92d9-b3b7eb66352c","Id":"20548f2e-3d18-44d0-902c-59b941ded6dd","ViewTemplateName":"_registration.email.tmpl","FieldName":"Email-Email","FieldType":2,"Label":"Email","IsMandatory":true,"IsNewsletter":false,"FieldSize":0,"NewsletterLink":"","HintText":"","PlaceholderText":"","SelectOptions":[]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"3f02932a-45ac-4c02-a505-12a7e314fdfa","Id":"9be899c2-2bc3-4626-a443-416ea7ef39bd","ViewTemplateName":"_registration.password.tmpl","FieldName":"Password-Password","FieldType":4,"Label":"Password","IsMandatory":true,"IsNewsletter":false,"FieldSize":0,"NewsletterLink":"","HintText":"Password must contain at least 1 letter, 1 number and be between 6 and 20 characters.","PlaceholderText":"","SelectOptions":[]}],"StepName":"Join Free","HeaderText":"Get started in 3 easy steps.","FooterText":"","LegalText":null,"CTAText":"","CssClass":"createAccount","RegistrationStepButtons":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStepButton, GeneralMills.CIA.Framework.Controls.Registration","Id":"49d96233-7514-4852-aa93-72148e412f04","DisplayText":"Next Step &raquo;","Action":"Next"}]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStep, GeneralMills.CIA.Framework.Controls.Registration","StepNumber":1,"Id":"a69338db-014b-4c1f-b3ba-523310bc7f74","RegistrationFields":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"387e43e8-32ce-4e6d-b5ac-e15fca86e68a","Id":"1e34a555-89d1-45f0-8f07-b3ae6b01c03c","ViewTemplateName":"_registration.checkbox.tmpl","FieldName":"Betty Crocker Core Newsletter-CheckBox","FieldType":6,"Label":"Betty's Email","IsMandatory":false,"IsNewsletter":true,"FieldSize":0,"NewsletterLink":"http://www.bettycrockercommunity.com/newsletter_archive/bc_example.html","HintText":"","PlaceholderText":"","SelectOptions":[]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"5db3d9c4-0001-460f-83e6-81f80e79f3ec","Id":"ee501006-63ce-4bcc-8de0-93277ae32edc","ViewTemplateName":"_registration.checkbox.tmpl","FieldName":"Betty Crocker 24 Days of Cookies NEW-CheckBox","FieldType":6,"Label":"24 Days of Cookies","IsMandatory":false,"IsNewsletter":true,"FieldSize":0,"NewsletterLink":"http://www.bettycrockercommunity.com/newsletter_archive/bc-cookies_example.html","HintText":"","PlaceholderText":"","SelectOptions":[]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"b86ed3c8-2bcc-4a96-997d-6c4b8d0ce034","Id":"77fa0654-f08a-453b-85e8-7520bf719047","ViewTemplateName":"_registration.checkbox.tmpl","FieldName":"Betty Crocker Slowcooker Series-CheckBox","FieldType":6,"Label":"Slow-Cooker Showcase","IsMandatory":false,"IsNewsletter":true,"FieldSize":0,"NewsletterLink":"http://www.bettycrockercommunity.com/newsletter_archive/bc-sc_example.html","HintText":"","PlaceholderText":"","SelectOptions":[]}],"StepName":"Join Free","HeaderText":"Subscribe to our free emails.","FooterText":"","LegalText":null,"CTAText":"","CssClass":"createAccount","RegistrationStepButtons":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStepButton, GeneralMills.CIA.Framework.Controls.Registration","Id":"6cb846e6-5083-4647-ac2b-be2477a3b10f","DisplayText":"&laquo; Back","Action":"Back"},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStepButton, GeneralMills.CIA.Framework.Controls.Registration","Id":"49d96233-7514-4852-aa93-72148e412f04","DisplayText":"Next Step &raquo;","Action":"Next"}]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStep, GeneralMills.CIA.Framework.Controls.Registration","StepNumber":2,"Id":"49a9173e-4a60-4e4f-895b-3becaf1dd700","RegistrationFields":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"a4183433-636f-4dc5-a166-6b1a21008260","Id":"50e0a718-c5df-49c8-a864-f58906e28330","ViewTemplateName":"_registration.dateofbirthtextbox.tmpl","FieldName":"Birth Date-DateOfBirth","FieldType":5,"Label":"Birthday","IsMandatory":true,"IsNewsletter":false,"FieldSize":0,"NewsletterLink":"","HintText":"","PlaceholderText":"","SelectOptions":[]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"ae38cbfb-597a-4b4a-8f44-c7b9650db748","Id":"a2c0dda0-38cc-42c1-ba50-c80bb87e846d","ViewTemplateName":"_registration.textbox.tmpl","FieldName":"PostalCode-TextBox","FieldType":0,"Label":"Zip code","IsMandatory":true,"IsNewsletter":false,"FieldSize":0,"NewsletterLink":"","HintText":"","PlaceholderText":"","SelectOptions":[]}],"StepName":"Join Free","HeaderText":"Last Step!","FooterText":"","LegalText":"<p class=\"copyR\">By clicking \"Join\", I agree to BettyCrocker.com's <a href=\"http://www.generalmills.com/company/privacy-policies/privacy-policy-us\" target=\"_blank\">Privacy Policy</a>,&nbsp;<a href=\"http://www.generalmills.com/en/Company/legal-terms\" target=\"_blank\">Legal Terms</a>&nbsp;and <a href=\"/community-membership-agreement\" target=\"_blank\">Community Rules</a> and that General Mills may freely use ideas or materials that I provide, with or without attribution to me. I also won't upload anything owned by anyone else nor upload images of (or personal information about) anyone else without permission.</p>","CTAText":"","CssClass":"createAccount","RegistrationStepButtons":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStepButton, GeneralMills.CIA.Framework.Controls.Registration","Id":"6cb846e6-5083-4647-ac2b-be2477a3b10f","DisplayText":"&laquo; Back","Action":"Back"},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStepButton, GeneralMills.CIA.Framework.Controls.Registration","Id":"51c36343-ab4e-4cd1-8dd9-b760a3db6920","DisplayText":"Join","Action":"Submit"}]}],"SocialRegistrationSteps":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStep, GeneralMills.CIA.Framework.Controls.Registration","StepNumber":0,"Id":"50742b4d-e402-4722-b380-cfc8e93dc808","RegistrationFields":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"834ecf38-b1e7-4ec9-ad39-1b2f7395fed6","Id":"20548f2e-3d18-44d0-902c-59b941ded6dd","ViewTemplateName":"_registration.email.tmpl","FieldName":"Email-Email","FieldType":2,"Label":"Email","IsMandatory":true,"IsNewsletter":false,"FieldSize":0,"NewsletterLink":"","HintText":"","PlaceholderText":"","SelectOptions":[]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"9b6986b2-5dae-417f-b20e-91d9057e3a2a","Id":"50e0a718-c5df-49c8-a864-f58906e28330","ViewTemplateName":"_registration.dateofbirthtextbox.tmpl","FieldName":"Birth Date-DateOfBirth","FieldType":5,"Label":"Birthday","IsMandatory":true,"IsNewsletter":false,"FieldSize":0,"NewsletterLink":"","HintText":"","PlaceholderText":"","SelectOptions":[]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"fbc5426c-be13-4782-994c-7e2696e0ac1d","Id":"a2c0dda0-38cc-42c1-ba50-c80bb87e846d","ViewTemplateName":"_registration.textbox.tmpl","FieldName":"PostalCode-TextBox","FieldType":0,"Label":"Zip code","IsMandatory":true,"IsNewsletter":false,"FieldSize":0,"NewsletterLink":"","HintText":"","PlaceholderText":"","SelectOptions":[]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"30f27e34-2c3e-4146-9cc7-360751d442fb","Id":"1e34a555-89d1-45f0-8f07-b3ae6b01c03c","ViewTemplateName":"_registration.checkbox.tmpl","FieldName":"Betty Crocker Core Newsletter-CheckBox","FieldType":6,"Label":"Betty's Email","IsMandatory":false,"IsNewsletter":true,"FieldSize":0,"NewsletterLink":"http://www.bettycrockercommunity.com/newsletter_archive/bc_example.html","HintText":"","PlaceholderText":"","SelectOptions":[]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"e33c09ad-51e5-4dfa-af9e-0fcadb5c9270","Id":"ee501006-63ce-4bcc-8de0-93277ae32edc","ViewTemplateName":"_registration.checkbox.tmpl","FieldName":"Betty Crocker 24 Days of Cookies NEW-CheckBox","FieldType":6,"Label":"24 Days of Cookies","IsMandatory":false,"IsNewsletter":true,"FieldSize":0,"NewsletterLink":"http://www.bettycrockercommunity.com/newsletter_archive/bc-cookies_example.html","HintText":"","PlaceholderText":"","SelectOptions":[]},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationField, GeneralMills.CIA.Framework.Controls.Registration","FieldLabelLinkName":"3c713bec-9e60-4b91-a32a-4adba8553b89","Id":"77fa0654-f08a-453b-85e8-7520bf719047","ViewTemplateName":"_registration.checkbox.tmpl","FieldName":"Betty Crocker Slowcooker Series-CheckBox","FieldType":6,"Label":"Slow-Cooker Showcase","IsMandatory":false,"IsNewsletter":true,"FieldSize":0,"NewsletterLink":"http://www.bettycrockercommunity.com/newsletter_archive/bc-sc_example.html","HintText":"","PlaceholderText":"","SelectOptions":[]}],"StepName":"Join Free","HeaderText":"We need additional information to complete your registration.","FooterText":"","LegalText":"<p class=\"copyR\">By clicking \"Join\", I agree to BettyCrocker.com's <a href=\"http://www.generalmills.com/company/privacy-policies/privacy-policy-us\" target=\"_blank\">Privacy Policy</a>,&nbsp;<a href=\"http://www.generalmills.com/en/Company/legal-terms\" target=\"_blank\">Legal Terms</a>&nbsp;and <a href=\"/community-membership-agreement\" target=\"_blank\">Community Rules</a> and that General Mills may freely use ideas or materials that I provide, with or without attribution to me. I also won't upload anything owned by anyone else nor upload images of (or personal information about) anyone else without permission.</p>","CTAText":"","CssClass":"socialRegistrationStep","RegistrationStepButtons":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStepButton, GeneralMills.CIA.Framework.Controls.Registration","Id":"51c36343-ab4e-4cd1-8dd9-b760a3db6920","DisplayText":"Join","Action":"Submit"}]}],"EsrcCode":11275,"RegAction":null,"IsModalWindow":false,"SelectedNewsletterId":"00000000-0000-0000-0000-000000000000","EmailAddress":"","RegActionCTAText":null,"RegActionCTAHeadline":null,"RegActionCTAImageUrl":null,"RegistrationActionCTAs":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationActionCTADetails, GeneralMills.CIA.Framework.Controls.Registration","Name":"ASKBETTY","Headline":"Ready to Ask Betty?","ImageUrl":null,"Text":"<p>Log in to submit your question</p>\n<ul class=\"mobileHidden\">\n<p>Other perks:</p>\n<li>Save your favorite recipes</li>\n<li>Save up to $250 coupons a year with coupons</li>\n<li>Be 1st to learn about free samples and promotions</li>\n<li>Rate and review recipes</li>\n</ul>"},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationActionCTADetails, GeneralMills.CIA.Framework.Controls.Registration","Name":"BETTYAPP","Headline":"Save Your Favorite Recipes","ImageUrl":null,"Text":"<p>Log in to access your favorite recipes from any device, anywhere.</p>"},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationActionCTADetails, GeneralMills.CIA.Framework.Controls.Registration","Name":"COUPON","Headline":"Ready to get your coupons?","ImageUrl":null,"Text":"<p>Log in to print new coupons every week. Save up to $250/year!</p>\n<ul class=\"mobileHidden\">\n<p>Plus...</p>\n<li>Save your favorite recipes</li>\n<li>Be 1st to learn about free samples and promotions</li>\n<li>Rate and review recipes</li>\n</ul>"},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationActionCTADetails, GeneralMills.CIA.Framework.Controls.Registration","Name":"FAVORITE","Headline":"We <img height=\"27\" alt=\"BC_White_Heart\" width=\"31\" src=\"/-/media/images/shared/myaccount/BC_White_Outlined_Heart\" />&nbsp;you, too!","ImageUrl":null,"Text":"<p>Log in to save your favorite recipes on BettyCrocker.com</p>\n<ul class=\"mobileHidden\">\n<p>Plus...</p>\n<li>Get weekly premium coupons, also save up to $250/year</li>\n<li>Be 1st to learn about free samples and promotions</li>\n<li>Rate and review recipes</li>\n</ul>"},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationActionCTADetails, GeneralMills.CIA.Framework.Controls.Registration","Name":"HEADERJOINLOGIN","Headline":"Get Exclusive Access!","ImageUrl":null,"Text":"<p>Log in for all the perks at BettyCrocker.com</p>\n<ul class=\"mobileHidden\">\n<li>Save your favorite recipes</li>\n<li>Get weekly premium coupons, also save up to $250/year</li>\n<li>Be 1st to hear about free samples and promotions</li>\n<li>Rate and review recipes</li>\n</ul>"},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationActionCTADetails, GeneralMills.CIA.Framework.Controls.Registration","Name":"PROMOTION","Headline":"Enter today!","ImageUrl":null,"Text":"<p>Just log in/register to begin.</p>\n<ul class=\"mobileHidden\">\n<p>Other perks:</p>\n<li>Save your favorite recipes</li>\n<li>Get weekly premium coupons, also save up to $250/year</li>\n<li>Rate and review recipes</li>\n</ul>"},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationActionCTADetails, GeneralMills.CIA.Framework.Controls.Registration","Name":"RATECOMMENT","Headline":"We <img height=\"27\" alt=\"BC_White_Heart\" width=\"31\" src=\"/-/media/images/shared/myaccount/BC_White_Outlined_Heart\" />&nbsp;hearing from you!","ImageUrl":null,"Text":"<p>Log in to rate, review and share your recipe twists</p>\n<ul class=\"mobileHidden\">\n<p>Plus...</p>\n<li>Save your favorite recipes</li>\n<li>Get weekly premium coupons, also save up to $250/year</li>\n<li>Be 1st to learn about free samples and promotions</li>\n</ul>"},{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationActionCTADetails, GeneralMills.CIA.Framework.Controls.Registration","Name":"SUBSCRIBERUPGRADE","Headline":"Ready for all the perks at BettyCrocker.com?","ImageUrl":null,"Text":"<p>You’re on our email list, just a few more steps!</p>\n<ul class=\"mobileHidden\">\n<li>Save your favorite recipes</li>\n<li>Get weekly premium coupons, also save up to $250/year</li>\n<li>Be 1st to hear about free samples and promotions</li>\n<li>Rate and review recipes</li>\n</ul>"}],"FlowName":"Default Registration/Login","FlowHeaderText":"","FlowFooterText":"","DisplayDateFieldAsDropdown":false,"EnableConfirmPassword":false,"RegistrationRedirectUrl":"","AlreadyAMemberText":"Already A Member? Log in","IsRegistrationFirstStep":false,"CssClass":"defaultRegistration","ThankYouEnabled":false,"ThankYouRedirectUrl":null,"ThankYouHeader":null,"ThankYouContent":null,"ThankYouLinkText":null,"IsProgressBarVisible":true,"DisplayProgressBarBelowStep":true,"ResetPasswordTitle":"Reset Password","ResetPasswordMessage":"Enter your email and we'll send you an email with a link to reset your password.","ResetPasswordEmailNotFoundMessage":"We couldn't locate that email address, please re-enter it. If you're new, JOIN FREE now! ","ResetPasswordSuccessMessage":"An email with instructions on how to reset your password should arrive within the next few minutes. &nbsp;Please be sure to check your spam folder if you don't see the email. &nbsp;<a href=\"https://contactus.generalmills.com/?page=http://www.bettycrocker.com&language=en\" target=\"_blank\">Contact us</a>  for more help.","LoginErrorText":"Enter a valid email and password.","UsernameLabel":"Email","PasswordLabel":"Password","RememberMeLabel":"Remember Me","ForgotPasswordText":"Forgot Your Password?","LoginStepButtons":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStepButton, GeneralMills.CIA.Framework.Controls.Registration","Id":"08c3ea3c-0594-4506-95c7-22d0644b01c2","DisplayText":"Log In","Action":"Login"}],"StepName":"Log In","LoginRedirectUrl":"","RequireReauthenticationForOAuth":false,"DisplaySmallCTA":true,"LargeCTAText":"<h2>Get Exclusive Access!</h2>\n<p>Login for all the perks at BettyCrocker.com</p>\n<ul class=\"mobileHidden\">\n<li>Save your favorite recipes</li>\n<li>Get Weekly premium coupons, save up to $250/year</li>\n<li>Be 1st to hear about free samples and promotions</li>\n<li>Rate and review recipes</li>\n</ul>","LargeCTADisplayButtons":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStepButton, GeneralMills.CIA.Framework.Controls.Registration","Id":"08c3ea3c-0594-4506-95c7-22d0644b01c2","DisplayText":"Log In","Action":"Login"}],"SmallCTAText":"Not a Member? Join FREE","FederatedCurrentUserStepName":"Already a member","FederatedCurrentUserHeaderText":"<p>We found your email in our system.<br />\r\nPlease provide your site password to link to your existing account:</p>","FederatedCurrentUserFooterText":"","FederatedCurrentUserCssClass":"gigyaCurrentUser","FederatedCurrentUserEmailLabel":"Please verify your Email","FederatedCurrentUserPasswordLabel":"Password","FederatedCurrentUserDisplayButtons":[{"$type":"GeneralMills.CIA.Framework.Controls.Registration.Entities.RegistrationStepButton, GeneralMills.CIA.Framework.Controls.Registration","Id":"4f079410-c120-4702-b182-db3661310211","DisplayText":"Sign Up","Action":"Sign Up"}],"LoginFederatedCTAText":"OR","GigyaLoginIsEnabled":true,"GigyaLoginControlDisplayWidth":"280","GigyaLoginControlDisplayHeight":"100","GigyaLoginControlHeaderText":"","GigyaLoginControlButtonStyle":"signInWith","GigyaLoginShowWhatsThisLink":false,"GigyaLoginWhatsThisText":"","GigyaLoginShowToolTips":false,"RedirectFullPageExpression":"","FullPageToRedirectTo":""}
         };
     </script>
 
@@ -2996,7 +2996,7 @@ function __doPostBack(eventTarget, eventArgument) {
                     <button type="button" data-bind="html: DisplayText, click: $parent.ButtonClick.bind($data, $parent), attr: { 'id':  $root.loginStepId + Id, 'data-action': Action, 'class': Action  }"></button>
                     <!-- /ko -->
                 </div>
-                
+
                 <div class="loginFederatedCTA" data-bind="template: { 'name': 'gigyaFederatedCTATemplate', 'if': GigyaLoginIsEnabled }"></div>
             </div>
         </div>
@@ -3022,7 +3022,7 @@ function __doPostBack(eventTarget, eventArgument) {
                 <span class="alert alert-error" data-bind="text: $root.error(), visible: $root.error()"></span>
             </div>
             <div data-bind="visible: $root.CurrentStep() == 0">
-                
+
             </div>
         </div>
 
@@ -3102,14 +3102,14 @@ function __doPostBack(eventTarget, eventArgument) {
             <span class="alert alert-error" data-bind="text: $root.error(), visible: $root.error()"></span>
         </div>
         <div data-bind="visible: $root.CurrentStep() == 0">
-            
+
         </div>
     </script>
 
     <script id="_registration.textbox.tmpl" type="text/html">
         <div data-bind="css: CssClass, attr: { 'data-field-id': Id }">
             <label data-bind="text: Label, attr: { 'for': FieldLabelLinkName }"></label>
-            <span class="hint-text" data-bind="text: HintText"></span>            
+            <span class="hint-text" data-bind="text: HintText"></span>
             <input type="text" data-bind="value: Value, validationElement: Value, attr: { 'id': FieldLabelLinkName, 'name': FieldLabelLinkName, 'required': IsMandatory ? '' : null, 'placeholder': PlaceholderText }" />
             <span class="alert alert-error" data-bind="text: Error, visible: Error"></span>
         </div>
@@ -3118,7 +3118,7 @@ function __doPostBack(eventTarget, eventArgument) {
     <script id="_registration.phone.tmpl" type="text/html">
         <div data-bind="css: CssClass, attr: { 'data-field-id': Id }">
             <label data-bind="text: Label, attr: { 'for': FieldLabelLinkName }"></label>
-            <span class="hint-text" data-bind="text: HintText"></span>            
+            <span class="hint-text" data-bind="text: HintText"></span>
             <input type="tel" data-bind="value: Value, validationElement: Value, attr: { 'id': FieldLabelLinkName, 'name': FieldLabelLinkName, 'required': IsMandatory ? '' : null, 'placeholder': PlaceholderText }" />
             <span class="alert alert-error" data-bind="text: Error, visible: Error"></span>
         </div>
@@ -3127,7 +3127,7 @@ function __doPostBack(eventTarget, eventArgument) {
     <script id="_registration.email.tmpl" type="text/html">
         <div data-bind="css: CssClass, attr: { 'data-field-id': Id }">
             <label data-bind="text: Label, attr: { 'for': FieldLabelLinkName }"></label>
-            <span class="hint-text" data-bind="text: HintText"></span>            
+            <span class="hint-text" data-bind="text: HintText"></span>
             <input type="email" data-bind="value: Value, validationElement: Value, attr: { 'id': FieldLabelLinkName, 'name': FieldLabelLinkName, 'required': IsMandatory ? '' : null, 'placeholder': PlaceholderText }" />
             <span class="alert alert-error" data-bind="text: Error, visible: Error"></span>
         </div>
@@ -3145,7 +3145,7 @@ function __doPostBack(eventTarget, eventArgument) {
     <script id="_registration.password.tmpl" type="text/html">
         <div data-bind="css: CssClass, attr: { 'data-field-id': Id }">
             <label data-bind="text: Label, attr: { 'for': FieldLabelLinkName }"></label>
-            <span class="hint-text" data-bind="text: HintText"></span>            
+            <span class="hint-text" data-bind="text: HintText"></span>
             <input type="password" data-bind="hideShowPassword: {}, value: Value, validationElement: Value, attr: { 'id': FieldLabelLinkName, 'name': FieldLabelLinkName, 'required': IsMandatory ? '' : null, 'placeholder': PlaceholderText  }" />
             <span class="alert alert-error" data-bind="text: Error, visible: Error"></span>
         </div>
@@ -3154,13 +3154,13 @@ function __doPostBack(eventTarget, eventArgument) {
     <script id="_registration.passwordconfirm.tmpl" type="text/html">
         <div data-bind="css: CssClass, attr: { 'data-field-id': Id }">
             <label data-bind="text: Label, attr: { 'for': FieldLabelLinkName }"></label>
-            <span class="hint-text" data-bind="text: HintText"></span>            
+            <span class="hint-text" data-bind="text: HintText"></span>
             <input type="password" data-bind="hideShowPassword: {}, value: Value, validationElement: Value, attr: { 'id': FieldLabelLinkName, 'name': FieldLabelLinkName, 'required': IsMandatory ? '' : null, 'placeholder': PlaceholderText }" />
             <span class="alert alert-error" data-bind="text: Error, visible: Error"></span>
         </div>
         <div data-bind="css: CssClass">
             <label data-bind="text: ConfirmFieldText, attr: { 'for': 'confirm' + FieldLabelLinkName }"></label>
-            <span class="hint-text" data-bind="text: HintText"></span>            
+            <span class="hint-text" data-bind="text: HintText"></span>
             <input type="password" data-bind="hideShowPassword: {}, value: ConfirmPassword, attr: { 'id': 'confirm' + FieldLabelLinkName, 'name': 'confirm' + FieldLabelLinkName, 'required': IsMandatory ? '' : null }" />
             <span class="alert alert-error" data-bind="text: Error, visible: Error"></span>
         </div>
@@ -3188,7 +3188,7 @@ function __doPostBack(eventTarget, eventArgument) {
             </div>
         </div>
     </script>
-    
+
     <script id="_registration.questionSingleSelect.tmpl" type="text/html">
         <div data-bind="css: CssClass, attr: { 'data-field-id': Id }">
             <label data-bind="text: Label, attr: { 'for': FieldLabelLinkName }" />
@@ -3199,19 +3199,19 @@ function __doPostBack(eventTarget, eventArgument) {
     <script id="_registration.3zipcode.tmpl" type="text/html">
         <div data-bind="css: CssClass, attr: { 'data-field-id': Id }">
             <label data-bind="text: Label, attr: { 'for': FieldLabelLinkName }"></label>
-            <span class="hint-text" data-bind="text: HintText"></span>            
+            <span class="hint-text" data-bind="text: HintText"></span>
             <input type="text" min="5" max="9" data-bind="value: Value, validationElement: Value, attr: { 'id': FieldLabelLinkName, 'name': FieldLabelLinkName, 'required': IsMandatory ? '' : null }" />
             <span class="alert alert-error" data-bind="text: Error, visible: Error"></span>
         </div>
     </script>
 
-    <script id="_registration.dateofbirthtextbox.month.tmpl" type="text/html">        
+    <script id="_registration.dateofbirthtextbox.month.tmpl" type="text/html">
         <input class="monthPart" type="number" pattern="\d*" min="1" max="12" maxlength="2" data-bind="numericAutoTab: 2, value: MonthPart, attr: { 'id': 'month' + FieldLabelLinkName, 'name': 'month' + FieldLabelLinkName, 'placeholder': $root.GlobalConfiguration.MonthWatermarkText }" />
     </script>
-    <script id="_registration.dateofbirthtextbox.day.tmpl" type="text/html">        
+    <script id="_registration.dateofbirthtextbox.day.tmpl" type="text/html">
         <input class="dayPart" type="number" pattern="\d*" min="1" max="31" maxlength="2" data-bind="numericAutoTab: 2, value: DayPart, attr: { 'id': 'day' + FieldLabelLinkName, 'name': 'day' + FieldLabelLinkName, 'placeholder': $root.GlobalConfiguration.DayWatermarkText }" />
     </script>
-    <script id="_registration.dateofbirthtextbox.year.tmpl" type="text/html">        
+    <script id="_registration.dateofbirthtextbox.year.tmpl" type="text/html">
         <input class="yearPart" type="number" pattern="\d*" min="1900" max="2020" maxlength="4" data-bind="numericAutoTab: 4, value: YearPart, attr: { 'id': 'year' + FieldLabelLinkName, 'name': 'year' + FieldLabelLinkName, 'required': IsMandatory ? '' : null, 'placeholder': $root.GlobalConfiguration.YearWatermarkText }" />
     </script>
     <script id="_registration.dateofbirthtextbox.tmpl" type="text/html">
@@ -3219,7 +3219,7 @@ function __doPostBack(eventTarget, eventArgument) {
             <label data-bind="text: Label, attr: { 'for': 'month' + FieldLabelLinkName }"></label>
             <span class="hint-text" data-bind="text: HintText"></span>
 
-            
+
 
             <!-- ko if: $root.DatePattern.HasYearBeforeMonthAndDay() -->
             <span data-bind="template: '_registration.dateofbirthtextbox.year.tmpl'"></span>
@@ -3258,7 +3258,7 @@ function __doPostBack(eventTarget, eventArgument) {
             <label data-bind="text: Label, attr: { 'for': 'month' + FieldLabelLinkName }"></label>
             <span class="hint-text" data-bind="text: HintText"></span>
 
-            
+
 
             <!-- ko if: $root.DatePattern.HasYearBeforeMonthAndDay() -->
             <span data-bind="template: '_registration.dateofbirthdropdown.year.tmpl'"></span>
@@ -3376,11 +3376,11 @@ window.GeneralMills.RecipeParts.StepShots = (function () {
             var container = document.querySelector("ul.recipePartStepsList");
             if (container != null) {
                 var stepsShots = container.querySelectorAll(".recipePartStepImage img");
-                for(var s = 0; s < stepsShots.length; s++){     
+                for(var s = 0; s < stepsShots.length; s++){
                     var source = stepsShots[s].getAttribute("data-src");
                     if (source != null) {
                         stepsShots[s].setAttribute("src", source);
-                    }                  
+                    }
                 };
             }
         };

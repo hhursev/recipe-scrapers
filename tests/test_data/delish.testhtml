@@ -78,13 +78,13 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 								</head>
 
 		<body class="locale-en recipe">
-			
+
 				<!-- menus/sidepanel -->
 
 
 
 
-	
+
 <nav id="sidepanel" class="new-sidepanel">
                  <div class="sidepanel-search-container">
             <a class="sidepanel-search-button" href="#searchoverlay" title="Search">
@@ -94,7 +94,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
                 </span>
             </a>
         </div>
-    
+
     <a class="new-sidepanel-close-button" href="#" title="Navigation">
         <span class="icon icon-x"></span>
     </a>
@@ -168,7 +168,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 <li class="sidepanel-location-choice-submenu-item"><a href="/uk/"  >UK</a></li>
 </ul>
 </li></ul>
-    
+
             <ul class="new-sidepanel-menu legal-ads-free">
             <li class="sidepanel-legal-ads-free">
                 <a href="https://optout.hearstmags.com/servlet/OrdersGateway?cds_mag_code=A99&amp;cds_page_id=246801&client_id=3hg9ll11hfau7l10ofmt2kh36t">Do Not Sell My Info</a>
@@ -187,7 +187,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <!-- / menus/sidepanel -->
 	<!-- menus/location-choice-sidepanel -->
-	
+
 
 	<nav id="location-choice" class="location-right-side-panel">
 
@@ -223,7 +223,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 			</a>
 
 						<a class="nav-logo sso-enabled" href="/">
-				
+
 
 
 
@@ -240,7 +240,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 					Subscribe
 				</a>
 
-			
+
 							<div class="account-dropdown-container">
 					<a class="nav-button account-button" href="https://www.mylo.id/login?client_id=3hg9ll11hfau7l10ofmt2kh36t&redirect_uri=https://www.delish.com/cooking/recipe-ideas/recipes/a56732/pumpkin-cheesecake-roll-recipe/">
 						<span class="account-text" data-account="Account" data-login="Sign In">Sign In</span>
@@ -269,7 +269,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 			</span>
 		</a>
 
-		
+
 
 
 <form class="search-form search-overlay-form" action="/search/">
@@ -292,7 +292,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 	<div class="top-pathing">
 		<div class="top-pathing-inner">
-							
+
 
 
 
@@ -308,65 +308,65 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item top-pathing-item show-numbers">
-		
 
 
 
 
-    	
-	
+
+
+
 
 
 
 
 
 <a class="simple-item-image item-image" href="/food-news/a31166753/justin-timberlake-girl-scout-cookies-samoas/" data-vars-ga-ux-element="Top Touts" data-vars-ga-call-to-action="JT Has An Urgent Question About Girl Scout Cookies" data-vars-ga-position="1" data-vars-ga-total-positions="5">
-						
+
 			<span class="lqip lazyload" data-expand="2000" data-lqip="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/justin-timberlake-1583093894.jpg?crop=1.00xw:0.503xh;0,0.0897xh&amp;resize=480:*&amp;frame=1&amp;lqip=yes"></span>
-	
+
 			<img class="lazyload lazyimage" alt="image" title="image"
 			src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 			data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/justin-timberlake-1583093894.jpg?crop=1.00xw:0.503xh;0,0.0897xh&amp;resize=320:*"
 			data-sizes="auto"
 			data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/justin-timberlake-1583093894.jpg?crop=1.00xw:0.503xh;0,0.0897xh&amp;resize=160:* 160w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/justin-timberlake-1583093894.jpg?crop=1.00xw:0.503xh;0,0.0897xh&amp;resize=320:* 320w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/justin-timberlake-1583093894.jpg?crop=1.00xw:0.503xh;0,0.0897xh&amp;resize=480:* 480w"
 		/>
-	
+
 					<div class="top-pathing-label">
 				Today&#039;s Top Stories
 			</div>
-			
+
 	</a>
 
 
-		
+
 			<div class="simple-item-index">
 			1
 		</div>
-	
+
 				<div class="top-pathing-item-wrap">
-	
-						
 
 
 
 
 
-        
-	
 
-	
+
+
+
+
+
 
 
 
 <a class="simple-item-title item-title" href="/food-news/a31166753/justin-timberlake-girl-scout-cookies-samoas/" data-vars-ga-ux-element="Top Touts" data-vars-ga-call-to-action="JT Has An Urgent Question About Girl Scout Cookies" data-vars-ga-position="1" data-vars-ga-total-positions="5">JT Has An Urgent Question About Girl Scout Cookies</a>
 
-					
-		
-		
+
+
+
 			</div>
 	</div>
 
-							
+
 
 
 
@@ -382,62 +382,62 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item top-pathing-item show-numbers">
-		
 
 
 
 
-    	
-	
+
+
+
 
 
 
 
 
 <a class="simple-item-image item-image" href="/videos/a31133567/what-to-buy-at-taco-bell/" data-vars-ga-ux-element="Top Touts" data-vars-ga-call-to-action="What&#039;s *Really* Worth Your $$$ At Taco Bell" data-vars-ga-position="2" data-vars-ga-total-positions="5">
-						
+
 			<span class="lqip lazyload" data-expand="2000" data-lqip="https://hips.hearstapps.com/vidthumb/images/khidr-template-tbell-v2-1582817752.jpg?crop=1xw:0.8888888888888888xh;center,top&amp;resize=480:*&amp;frame=1&amp;lqip=yes"></span>
-	
+
 			<img class="lazyload lazyimage" alt="image" title="image"
 			src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 			data-src="https://hips.hearstapps.com/vidthumb/images/khidr-template-tbell-v2-1582817752.jpg?crop=1xw:0.8888888888888888xh;center,top&amp;resize=320:*"
 			data-sizes="auto"
 			data-srcset="https://hips.hearstapps.com/vidthumb/images/khidr-template-tbell-v2-1582817752.jpg?crop=1xw:0.8888888888888888xh;center,top&amp;resize=160:* 160w,https://hips.hearstapps.com/vidthumb/images/khidr-template-tbell-v2-1582817752.jpg?crop=1xw:0.8888888888888888xh;center,top&amp;resize=320:* 320w,https://hips.hearstapps.com/vidthumb/images/khidr-template-tbell-v2-1582817752.jpg?crop=1xw:0.8888888888888888xh;center,top&amp;resize=480:* 480w"
 		/>
-	
-			
+
+
 	</a>
 
 
-		
+
 			<div class="simple-item-index">
 			2
 		</div>
-	
+
 				<div class="top-pathing-item-wrap">
-	
-						
 
 
 
 
 
-        
-	
 
-	
+
+
+
+
+
 
 
 
 <a class="simple-item-title item-title" href="/videos/a31133567/what-to-buy-at-taco-bell/" data-vars-ga-ux-element="Top Touts" data-vars-ga-call-to-action="What&#039;s *Really* Worth Your $$$ At Taco Bell" data-vars-ga-position="2" data-vars-ga-total-positions="5">What's *Really* Worth Your $$$ At Taco Bell</a>
 
-					
-		
-		
+
+
+
 			</div>
 	</div>
 
-							
+
 
 
 
@@ -453,62 +453,62 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item top-pathing-item show-numbers">
-		
 
 
 
 
-    	
-	
+
+
+
 
 
 
 
 
 <a class="simple-item-image item-image" href="/cooking/a22487458/corn-on-the-cob/" data-vars-ga-ux-element="Top Touts" data-vars-ga-call-to-action="How To Boil Corn Perfectly Every Time" data-vars-ga-position="3" data-vars-ga-total-positions="5">
-						
+
 			<span class="lqip lazyload" data-expand="2000" data-lqip="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/boiled-corn-horizontal-1539104513.png?crop=1.00xw:0.752xh;0,0.113xh&amp;resize=480:*&amp;frame=1&amp;lqip=yes"></span>
-	
+
 			<img class="lazyload lazyimage" alt="How&#x20;to&#x20;Boil&#x20;Corn&#x20;-&#x20;Delish.com" title="How&#x20;to&#x20;Boil&#x20;Corn&#x20;-&#x20;Delish.com"
 			src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 			data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/boiled-corn-horizontal-1539104513.png?crop=1.00xw:0.752xh;0,0.113xh&amp;resize=320:*"
 			data-sizes="auto"
 			data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/boiled-corn-horizontal-1539104513.png?crop=1.00xw:0.752xh;0,0.113xh&amp;resize=160:* 160w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/boiled-corn-horizontal-1539104513.png?crop=1.00xw:0.752xh;0,0.113xh&amp;resize=320:* 320w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/boiled-corn-horizontal-1539104513.png?crop=1.00xw:0.752xh;0,0.113xh&amp;resize=480:* 480w"
 		/>
-	
-			
+
+
 	</a>
 
 
-		
+
 			<div class="simple-item-index">
 			3
 		</div>
-	
+
 				<div class="top-pathing-item-wrap">
-	
-						
 
 
 
 
 
-        
-	
 
-	
+
+
+
+
+
 
 
 
 <a class="simple-item-title item-title" href="/cooking/a22487458/corn-on-the-cob/" data-vars-ga-ux-element="Top Touts" data-vars-ga-call-to-action="How To Boil Corn Perfectly Every Time" data-vars-ga-position="3" data-vars-ga-total-positions="5">How To Boil Corn Perfectly Every Time</a>
 
-					
-		
-		
+
+
+
 			</div>
 	</div>
 
-							
+
 
 
 
@@ -524,62 +524,62 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item top-pathing-item show-numbers">
-		
 
 
 
 
-    	
-	
+
+
+
 
 
 
 
 
 <a class="simple-item-image item-image" href="/food-news/a26678539/costco-shamrock-cheese-ravioli/" data-vars-ga-ux-element="Top Touts" data-vars-ga-call-to-action="Costco Is Selling Shamrock-Shaped Ravioli" data-vars-ga-position="4" data-vars-ga-total-positions="5">
-						
+
 			<span class="lqip lazyload" data-expand="2000" data-lqip="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2019-03-05-at-4-50-51-pm-1551822666.png?crop=1.00xw:0.470xh;0,0.294xh&amp;resize=480:*&amp;frame=1&amp;lqip=yes"></span>
-	
+
 			<img class="lazyload lazyimage" alt="image" title="image"
 			src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 			data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2019-03-05-at-4-50-51-pm-1551822666.png?crop=1.00xw:0.470xh;0,0.294xh&amp;resize=320:*"
 			data-sizes="auto"
 			data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2019-03-05-at-4-50-51-pm-1551822666.png?crop=1.00xw:0.470xh;0,0.294xh&amp;resize=160:* 160w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2019-03-05-at-4-50-51-pm-1551822666.png?crop=1.00xw:0.470xh;0,0.294xh&amp;resize=320:* 320w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2019-03-05-at-4-50-51-pm-1551822666.png?crop=1.00xw:0.470xh;0,0.294xh&amp;resize=480:* 480w"
 		/>
-	
-			
+
+
 	</a>
 
 
-		
+
 			<div class="simple-item-index">
 			4
 		</div>
-	
+
 				<div class="top-pathing-item-wrap">
-	
-						
 
 
 
 
 
-        
-	
 
-	
+
+
+
+
+
 
 
 
 <a class="simple-item-title item-title" href="/food-news/a26678539/costco-shamrock-cheese-ravioli/" data-vars-ga-ux-element="Top Touts" data-vars-ga-call-to-action="Costco Is Selling Shamrock-Shaped Ravioli" data-vars-ga-position="4" data-vars-ga-total-positions="5">Costco Is Selling Shamrock-Shaped Ravioli</a>
 
-					
-		
-		
+
+
+
 			</div>
 	</div>
 
-							
+
 
 
 
@@ -595,64 +595,64 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item top-pathing-item show-numbers">
-		
 
 
 
 
-    	
-	
+
+
+
 
 
 
 
 
 <a class="simple-item-image item-image" href="/food-news/a31152937/mean-girls-pop-up/" data-vars-ga-ux-element="Top Touts" data-vars-ga-call-to-action="This &#039;Mean Girls&#039; Pop-Up Offers A 3-Course Meal" data-vars-ga-position="5" data-vars-ga-total-positions="5">
-						
+
 			<span class="lqip lazyload" data-expand="2000" data-lqip="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/the-movie-mean-girls-directed-by-mark-waters-seen-here-from-news-photo-1582904471.jpg?crop=1.00xw:0.669xh;0,0.0983xh&amp;resize=480:*&amp;frame=1&amp;lqip=yes"></span>
-	
+
 			<img class="lazyload lazyimage" alt="Mean&#x20;Girls" title="Mean&#x20;Girls"
 			src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 			data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/the-movie-mean-girls-directed-by-mark-waters-seen-here-from-news-photo-1582904471.jpg?crop=1.00xw:0.669xh;0,0.0983xh&amp;resize=320:*"
 			data-sizes="auto"
 			data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/the-movie-mean-girls-directed-by-mark-waters-seen-here-from-news-photo-1582904471.jpg?crop=1.00xw:0.669xh;0,0.0983xh&amp;resize=160:* 160w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/the-movie-mean-girls-directed-by-mark-waters-seen-here-from-news-photo-1582904471.jpg?crop=1.00xw:0.669xh;0,0.0983xh&amp;resize=320:* 320w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/the-movie-mean-girls-directed-by-mark-waters-seen-here-from-news-photo-1582904471.jpg?crop=1.00xw:0.669xh;0,0.0983xh&amp;resize=480:* 480w"
 		/>
-	
-			
+
+
 	</a>
 
 
-		
+
 			<div class="simple-item-index">
 			5
 		</div>
-	
+
 				<div class="top-pathing-item-wrap">
-	
-						
 
 
 
 
 
-        
-	
 
-	
+
+
+
+
+
 
 
 
 <a class="simple-item-title item-title" href="/food-news/a31152937/mean-girls-pop-up/" data-vars-ga-ux-element="Top Touts" data-vars-ga-call-to-action="This &#039;Mean Girls&#039; Pop-Up Offers A 3-Course Meal" data-vars-ga-position="5" data-vars-ga-total-positions="5">This 'Mean Girls' Pop-Up Offers A 3-Course Meal</a>
 
-					
-		
-		
+
+
+
 			</div>
 	</div>
 
 					</div>
 	</div>
-<div class="leaderboard-ad "> 
+<div class="leaderboard-ad ">
 	<div id="gpt-leaderboard-ad"  class="ad-container"></div>
 </div>
 <div id="piano-newsletter-container"></div>
@@ -664,7 +664,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-	
+
 
 
 
@@ -679,12 +679,12 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 			</p>
 </div>
 
-	
+
 	<div class="content-header-inner">
 		<h1 class="content-hed recipe-hed">Pumpkin Cheesecake Roll</h1>
 
-		
-		
+
+
 
 
 
@@ -697,57 +697,57 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <div class="content-info recipe-info">
 	<div class="content-info-metadata">
-										
+
 
 
 
 	<div class="byline-with-image">
 		<div class="content-info-byline-image">
-								
-	
+
+
 			<img class="lazyload lazyimage" alt="image" title="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://hips.hearstapps.com/rover/profile_photos/846121db-9644-42e0-a4fd-cf5d105bfdf9_1576786748.file?fill=1:1&amp;resize=80:*" data-sizes="auto" data-srcset=""></div>
 
 				<!-- shared/byline -->
 
-	
-		
+
+
 
 
 
 
 	<div class="byline ">By
-					<a class="byline-name" href="/author/17077/lena-abraham/" data-vars-ga-ux-element="Byline" data-vars-ga-call-to-action="Lena Abraham"><span class="byline-name">Lena Abraham</span></a>		
+					<a class="byline-name" href="/author/17077/lena-abraham/" data-vars-ga-ux-element="Byline" data-vars-ga-call-to-action="Lena Abraham"><span class="byline-name">Lena Abraham</span></a>
 	</div>
 <!-- / shared/byline -->
 
 	</div>
 
-		
+
 						<time class="content-info-date" datetime="2019-09-12T20:21:00Z">
 											Sep 12, 2019
 					</time></div>
 
 							<div class="social-button-group content-info-social-button-group" data-share-location="social-btns-primary">
 	<div class="social-button social-button-pinterest content-info-social-button social-share-button" role="none" data-tracking-id="share-button-pinterest" title="Share on Pinterest">
-	
+
 	<a aria-label="Share on Pinterest" class="social-button-link" href="//pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.delish.com%2Fcooking%2Frecipe-ideas%2Frecipes%2Fa56732%2Fpumpkin-cheesecake-roll-recipe%2F&amp;description=Pumpkin%20Cheesecake%20Roll%20Is%20A%20Must%20Make%20This%20FallDelish&amp;media=https%3A%2F%2Fhips.hearstapps.com%2Fhmg-prod.s3.amazonaws.com%2Fimages%2Fsingleimagetext-pumpkin-roll-pin-1567188371.jpg%3Fresize%3D1600%3A%2A" target="_blank" data-pin-do="nothing" data-social-key="pinterest" data-vars-ga-outbound-link="//pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.delish.com%2Fcooking%2Frecipe-ideas%2Frecipes%2Fa56732%2Fpumpkin-cheesecake-roll-recipe%2F&amp;description=Pumpkin%20Cheesecake%20Roll%20Is%20A%20Must%20Make%20This%20FallDelish&amp;media=https%3A%2F%2Fhips.hearstapps.com%2Fhmg-prod.s3.amazonaws.com%2Fimages%2Fsingleimagetext-pumpkin-roll-pin-1567188371.jpg%3Fresize%3D1600%3A%2A">
 		<span class="icon social-button-icon icon-pinterest"></span>
 
-		
+
 			</a>
 </div>
 <div class="social-button social-button-email content-info-social-button social-share-button " data-tracking-id="share-button-email" title="Email">
 	<a class="social-button-link" href="mailto:?body=https%3A%2F%2Fwww.delish.com%2Fcooking%2Frecipe-ideas%2Frecipes%2Fa56732%2Fpumpkin-cheesecake-roll-recipe%2F&amp;subject=Pumpkin%20Cheesecake%20Roll%20Is%20A%20Must%20Make%20This%20Fall" target="_self" data-social-key="email">
 		<span class="icon social-button-icon icon-email"></span>
 
-		
+
 			</a>
 </div>
 <div class="social-button social-button-print content-info-social-button social-share-button " data-tracking-id="share-button-print" title="Print">
 	<a class="social-button-link" href="https://www.delish.com/cooking/recipe-ideas/recipes/a56732/pumpkin-cheesecake-roll-recipe/" target="_blank" data-social-key="print" data-vars-ga-outbound-link="https://www.delish.com/cooking/recipe-ideas/recipes/a56732/pumpkin-cheesecake-roll-recipe/">
 		<span class="icon social-button-icon icon-print"></span>
 
-		
+
 			</a>
 </div>
 
@@ -758,11 +758,11 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	</div>
 </header><div class="content-container recipe-container">
 	<div class="recipe-body">
-							
+
 
 
 	<div class="content-lede-video recipe-lede-video internal-video">
-		
+
 
 
 <div class="embed-wrapper gopher-video iframe-wrapper">
@@ -774,7 +774,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-		
+
 							<div class="recipe-introduction show-more"><p>Nothing is quite as intimidating as rolling a cake up into a log. How does it not crack? How will it stay rolled? There's no fret with this pumpkin cake roll. With a few simple tips you'll have perfect swirls of cake and cream cheese filling that will have everyone oohing and aahing when you slice into it.&nbsp;</p>
 <p><strong>Roll it when it's warm.&nbsp;</strong></p>
 <p>This is the most important step to get a beautiful pumpkin roll. You want to roll your cake up as soon as it comes out of the oven so that it doesn't crack. Have a large kitchen towel ready by dusting it with powdered sugar. Carefully flip the warm cake onto the kitchen towel and remove parchment paper. Tightly roll up the cake and place it seam side down so that it stays. It will feel so wrong to roll a cake, but the warmth will keep it all together. If you wait until it's cool it will likely already be too dry and will crack and split as you roll.&nbsp;</p>
@@ -793,21 +793,21 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 						Read Less -
 					</span>
 				</button>
-					
+
 							  	<div class="breaker-ad mobile-breaker-ad recipe-breaker-ad recipe-mobile-breaker-ad">
 				<div class="breaker-ad-text">Advertisement - Continue Reading Below</div>
 		<div id="gpt-ad-vertical-top-mobile" class="ad-container"></div>
 	</div>
 
-		
-							
+
+
 <div class="recipe-details-container">
 		<div class="recipe-details-item yields">
 		Yields:
 		<span class="yields-amount">
 			8
 							- 10
-											
+
 						<span class="yields-unit">
 				servings
 			</span>
@@ -816,7 +816,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 			<div class="recipe-details-item prep-time">
 			Prep Time:
 			<span class="prep-time-amount">
-    
+
     0
     <span class="recipe-time-unit">
         hours
@@ -829,12 +829,12 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 </span>
 
 		</div>
-	
-	
+
+
 			<div class="recipe-details-item total-time">
 			Total Time:
 			<span class="total-time-amount">
-    
+
     1
     <span class="recipe-time-unit">
         hour
@@ -865,7 +865,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 														<span class="ingredient-description"><p>Cooking spray</p></span>
 						</div>
 											<div class="ingredient-item">
-															<span class="ingredient-amount">1 
+															<span class="ingredient-amount">1
 																									c.
 																</span>
 														<span class="ingredient-description"><p>granulated sugar</p></span>
@@ -883,7 +883,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 														<span class="ingredient-description"><p>kosher salt</p></span>
 						</div>
 											<div class="ingredient-item">
-															<span class="ingredient-amount">1 
+															<span class="ingredient-amount">1
 																									tsp.
 																</span>
 														<span class="ingredient-description"><p>baking soda</p></span>
@@ -895,8 +895,8 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 														<span class="ingredient-description"><p>pumpkin spice</p></span>
 						</div>
 											<div class="ingredient-item">
-															<span class="ingredient-amount">3 
-																									
+															<span class="ingredient-amount">3
+
 																</span>
 														<span class="ingredient-description"><p>large eggs</p></span>
 						</div>
@@ -917,19 +917,19 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 				</div>
 				<div class="ingredient-lists">
 											<div class="ingredient-item">
-															<span class="ingredient-amount">12 
+															<span class="ingredient-amount">12
 																									oz.
 																</span>
 														<span class="ingredient-description"><p>cream cheese, softened</p></span>
 						</div>
 											<div class="ingredient-item">
-															<span class="ingredient-amount">1 
+															<span class="ingredient-amount">1
 																									tbsp.
 																</span>
 														<span class="ingredient-description"><p>melted butter</p></span>
 						</div>
 											<div class="ingredient-item">
-															<span class="ingredient-amount">1 
+															<span class="ingredient-amount">1
 																									tsp.
 																</span>
 														<span class="ingredient-description"><p>pure vanilla extract</p></span>
@@ -959,7 +959,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	<div class="directions-body">
 					<div class="direction-section direction-section-1">
 				<div class="direction-title">
-					
+
 				</div>
 				<div class="direction-lists">
 					<ol><li>Preheat oven to 350&deg;. Line a 15&rdquo; x 10&rdquo; jelly roll&nbsp;pan with parchment and grease with cooking spray. In a large bowl, combine sugar, flour, salt, baking soda, pumpkin spice, eggs, and pumpkin puree until just combined. Spread into prepared pan and bake until a toothpick inserted in center of cake comes out clean, 15 minutes.</li><li>Meanwhile, lay out a large kitchen towel on your counter (try to use one with little to no texture) and dust with powdered sugar. When cake is done baking, flip onto kitchen towel and gently peel off parchment paper.</li><li>Starting at a short end, gently but tightly roll cake into a log. Let cool completely.</li><li>Meanwhile, make filling: In a large bowl, combine cream cheese, melted butter, vanilla, powdered sugar, and salt. Using a hand mixer, whip until smooth.</li><li>When cake is cooled, gently unroll (it&rsquo;s ok if it remains slightly curled) and spread with cream cheese filling. Roll back up and dust with more powdered sugar. Slice and serve.</li></ol></div>
@@ -969,10 +969,10 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 		</div>
 
-				
+
 		<div class="recipe-body-content">
 			<p class="body-text"></p><div class="embed embed-image embed-image-center embed-image-medium" data-align="center" data-size="medium">
-	
+
 
 
 
@@ -990,18 +990,18 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <div class="embed-inner crop-1x1">
 	<div class="embed-image-wrap aspect-ratio-1x1">
-													
+
 			<span class="lqip lazyload" data-expand="2000" data-lqip="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190814-pumpkin-roll-0029-portrait-pf-1567187757.jpg?crop=1.00xw:0.667xh;0,0.0545xh&amp;resize=480:*&amp;frame=1&amp;lqip=yes"></span>
-	
+
 	<picture class=""><source data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190814-pumpkin-roll-0029-portrait-pf-1567187757.jpg?crop=1.00xw:0.667xh;0,0.0545xh&amp;resize=768:*" media="(min-width: 61.25rem)"></source><source data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190814-pumpkin-roll-0029-portrait-pf-1567187757.jpg?crop=1.00xw:0.667xh;0,0.0545xh&amp;resize=980:*" media="(min-width: 48rem)"></source><source data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190814-pumpkin-roll-0029-portrait-pf-1567187757.jpg?crop=1.00xw:0.667xh;0,0.0545xh&amp;resize=640:*" media="(min-width: 30rem)"></source><img alt="Pumpkin Roll - Delish.com" title="Pumpkin Roll - Delish.com" class="lazyimage lazyload" data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190814-pumpkin-roll-0029-portrait-pf-1567187757.jpg?crop=1.00xw:0.667xh;0,0.0545xh&amp;resize=480:*"></picture></div>
 
 				<div class="social-button-group embed-image-social-button-group" data-share-location="social-btns-image">
 	<div class="social-button social-button-pinterest embed-image-social-button social-share-button" role="none" data-tracking-id="share-button-pinterest" title="Share on Pinterest">
-	
+
 	<a aria-label="Share on Pinterest" class="social-button-link" href="//pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.delish.com%2Fcooking%2Frecipe-ideas%2Frecipes%2Fa56732%2Fpumpkin-cheesecake-roll-recipe%2F&amp;description=Pumpkin%20Cheesecake%20Roll%20Is%20A%20Must%20Make%20This%20FallDelish&amp;media=https%3A%2F%2Fhips.hearstapps.com%2Fhmg-prod.s3.amazonaws.com%2Fimages%2Fdelish-190814-pumpkin-roll-0029-portrait-pf-1567187757.jpg%3Fresize%3D1600%3A%2A" target="_blank" data-pin-do="nothing" data-social-key="pinterest" data-vars-ga-outbound-link="//pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.delish.com%2Fcooking%2Frecipe-ideas%2Frecipes%2Fa56732%2Fpumpkin-cheesecake-roll-recipe%2F&amp;description=Pumpkin%20Cheesecake%20Roll%20Is%20A%20Must%20Make%20This%20FallDelish&amp;media=https%3A%2F%2Fhips.hearstapps.com%2Fhmg-prod.s3.amazonaws.com%2Fimages%2Fdelish-190814-pumpkin-roll-0029-portrait-pf-1567187757.jpg%3Fresize%3D1600%3A%2A">
 		<span class="icon social-button-icon icon-pinterest"></span>
 
-		
+
 			</a>
 </div>
 
@@ -1010,7 +1010,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	</div>
 
 
-		
+
 <div class="image-credit embed-image-credit">
 	<span class="image-photo-credit">Parker Feierbach </span></div>
 
@@ -1021,13 +1021,13 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 <div class="embed embed-poll media-loader lazyload show-on-consent">
 	<div class="embed-inner">
-		
+
 <iframe id="poll-9e44c44d-46ca-45d9-85f9-bb9d91cc0ced_eb11dbfadab65" data-src="https://riddler.hearstgames.com/dist/polls.iframe.html?adsfree=false&amp;id=9e44c44d-46ca-45d9-85f9-bb9d91cc0ced_eb11dbfadab65&amp;type=text&amp;question=Which%20would%20you%20rather%20make%3F&amp;answer1=Pumpkin%20roll.&amp;answer2=Pumpkin%20cheesecake.&amp;brand=Delish&amp;siteId=0ab1c860-336a-4b0b-bb94-dd080aea7a20&amp;adCategory=recipes&amp;section=Meals%20%26%20Cooking&amp;subSection=Recipes&amp;editor=Lena%20Abraham&amp;authors=Lena%20Abraham&amp;site=Delish&amp;stylesheet=https%3A%2F%2Fassets.hearstapps.com%2Fsites%2Fdelish%2Fassets%2Fcss%2Fpolls.212df02.css&amp;marketingpolls=true" class="poll" frameborder="0" scrolling="no"></iframe>
 
 	</div>
 </div>
 <p class="body-text"></p><div class="embed embed-product embed-product-left embed-product-small" data-align="left" data-size="small">
-    
+
 
 
 
@@ -1035,8 +1035,8 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 <div class="embed-inner crop-freeform">
 	<div class="product-embed-image-wrap">
 		<a class="product-image-link" href="http://www.amazon.com/dp/B0029JQE3M/?linkCode=xm2" data-vars-ga-product-sem3-brand="USA Pan" data-vars-ga-product-sem3-category="Baking &amp; Cookie Sheets" data-vars-ga-product-brand="USA Pan" data-href="http://www.amazon.com/dp/B0029JQE3M/?linkCode=xm2" data-vars-ga-product-price="$18.92" data-vars-ga-product-id="f5db44e6-b8e1-4f19-b80a-99705818c97e" data-vars-ga-media-role="4" data-vars-ga-product-sem3-id="" data-vars-ga-outbound-link="http://www.amazon.com/dp/B0029JQE3M/" data-vars-ga-call-to-action="BUY NOW! " target="_blank" rel="nofollow" data-affiliate="true">
-									
-	
+
+
 	<picture class="product-embed-image"><source data-srcset="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1567190202-41wh8IWoDQL.jpg?crop=1xw:1xh;center,top&amp;resize=480%3A%2A" media="(min-width: 30rem)"></source><img alt="USA Pan Bakeware Jelly Roll Pan, Warp Resistant Nonstick Baking Pan, Made in the USA from Aluminized Steel" title="USA Pan Bakeware Jelly Roll Pan, Warp Resistant Nonstick Baking Pan, Made in the USA from Aluminized Steel" class="lazyimage lazyload" data-src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1567190202-41wh8IWoDQL.jpg?crop=1xw:1xh;center,top&amp;resize=320%3A%2A"></picture></a>
 			</div>
 	<div class="product-embed-info">
@@ -1056,7 +1056,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 	</div>
 	<div class="product-buy-button-wrapper">
-		
+
 
 
 
@@ -1075,17 +1075,17 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 		</div>
 
-				
+
 
 	<div class="authors ">
-										
+
 							<div class="author" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><a class="author-name" href="/author/17077/lena-abraham/" rel="author" itemprop="url">	<span class="author-name" rel="author" itemprop="name">Lena Abraham</span>
 </a>											<span class="author-job" itemprop="jobTitle">Food Editor</span>
 										<span class="author-bio" itemprop="description">Lena Abraham is the Food Editor at Delish, where she develops and styles recipes for video and photo, and also stays on top of current food trends.</span>
 				</div>
 						</div>
 
-	
+
 		<div id="piano-inline"></div>
 
 			</div>
@@ -1123,8 +1123,8 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 							</div>
 		</div>
 
-									
-				
+
+
 
 
 
@@ -1132,11 +1132,11 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	data-params="&quot;{}&quot;"
 	data-pagesize=""
 	>
-								
-						
-																	
-													
-			
+
+
+
+
+
 
 
 
@@ -1152,65 +1152,65 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item transporter-simple-item ">
-		
 
 
 
 
-    	
-	
+
+
+
 
 
 
 
 
 <a class="simple-item-image item-image" href="/cooking/g1237/cabbage-recipes/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="34 Creative Cabbage Recipes That Aren&#039;t Coleslaws" data-vars-ga-outbound-link="https://www.delish.com/cooking/g1237/cabbage-recipes/" data-vars-ga-position="1" data-vars-ga-total-positions="11">
-						
+
 			<span class="lqip lazyload" data-expand="2000" data-lqip="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-unstuffed-cabbage-horizontal-1-1536094595.png?crop=1.00xw:0.892xh;0,0.108xh&amp;resize=480:*&amp;frame=1&amp;lqip=yes"></span>
-	
+
 			<img class="lazyload lazyimage" alt="image" title="Unstuffed&#x20;Cabbage&#x20;Casserole&#x20;-&#x20;Delish.com"
 			src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 			data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-unstuffed-cabbage-horizontal-1-1536094595.png?crop=1.00xw:0.892xh;0,0.108xh&amp;resize=480:*"
 			data-sizes="auto"
 			data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-unstuffed-cabbage-horizontal-1-1536094595.png?crop=1.00xw:0.892xh;0,0.108xh&amp;resize=480:* 480w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-unstuffed-cabbage-horizontal-1-1536094595.png?crop=1.00xw:0.892xh;0,0.108xh&amp;resize=640:* 640w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-unstuffed-cabbage-horizontal-1-1536094595.png?crop=1.00xw:0.892xh;0,0.108xh&amp;resize=768:* 768w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-unstuffed-cabbage-horizontal-1-1536094595.png?crop=1.00xw:0.892xh;0,0.108xh&amp;resize=980:* 980w"
 		/>
-	
-			
+
+
 			<div class="content-type-icon">
 			<i class="icon icon-gallery "></i>
 		</div>
 	</a>
 
 
-		
-	
-		
-						
 
 
 
 
 
-        
-	
 
-	
+
+
+
+
+
+
+
 
 
 
 <a class="simple-item-title item-title" href="/cooking/g1237/cabbage-recipes/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="34 Creative Cabbage Recipes That Aren&#039;t Coleslaws" data-vars-ga-outbound-link="https://www.delish.com/cooking/g1237/cabbage-recipes/" data-vars-ga-position="1" data-vars-ga-total-positions="11">34 Creative Cabbage Recipes That Aren't Coleslaws</a>
 
-					
-		
-		
+
+
+
 	</div>
 
 
-																														
-						
-																										
-													
-			
+
+
+
+
+
 
 
 
@@ -1226,69 +1226,69 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item transporter-simple-item grid-simple-item-last-mobile ">
-		
 
 
 
 
-    	
-	
+
+
+
 
 
 
 
 
 <a class="simple-item-image item-image" href="/cooking/recipe-ideas/recipes/a49730/cheesecake-stuffed-pumpkin-snickerdoodles-recipe/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="Cheesecake-Stuffed Pumpkin Snickerdoodles" data-vars-ga-outbound-link="https://www.delish.com/cooking/recipe-ideas/recipes/a49730/cheesecake-stuffed-pumpkin-snickerdoodles-recipe/" data-vars-ga-position="2" data-vars-ga-total-positions="11">
-						
+
 			<span class="lqip lazyload" data-expand="2000" data-lqip="https://hips.hearstapps.com/del.h-cdn.co/assets/16/42/1477082657-cheesecake-stuffed-snickerdoodles-pin2.jpg?crop=0.997xw:0.333xh;0.00321xw,0.320xh&amp;resize=480:*&amp;frame=1&amp;lqip=yes"></span>
-	
+
 			<img class="lazyload lazyimage" alt="Cheesecake-Stuffed&#x20;Pumpkin&#x20;Cookies&#x20;Vertical&#x20;Beauty" title="Cheesecake-Stuffed&#x20;Pumpkin&#x20;Cookies&#x20;Vertical&#x20;Beauty"
 			src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 			data-src="https://hips.hearstapps.com/del.h-cdn.co/assets/16/42/1477082657-cheesecake-stuffed-snickerdoodles-pin2.jpg?crop=0.997xw:0.333xh;0.00321xw,0.320xh&amp;resize=480:*"
 			data-sizes="auto"
 			data-srcset="https://hips.hearstapps.com/del.h-cdn.co/assets/16/42/1477082657-cheesecake-stuffed-snickerdoodles-pin2.jpg?crop=0.997xw:0.333xh;0.00321xw,0.320xh&amp;resize=480:* 480w,https://hips.hearstapps.com/del.h-cdn.co/assets/16/42/1477082657-cheesecake-stuffed-snickerdoodles-pin2.jpg?crop=0.997xw:0.333xh;0.00321xw,0.320xh&amp;resize=640:* 640w,https://hips.hearstapps.com/del.h-cdn.co/assets/16/42/1477082657-cheesecake-stuffed-snickerdoodles-pin2.jpg?crop=0.997xw:0.333xh;0.00321xw,0.320xh&amp;resize=768:* 768w,https://hips.hearstapps.com/del.h-cdn.co/assets/16/42/1477082657-cheesecake-stuffed-snickerdoodles-pin2.jpg?crop=0.997xw:0.333xh;0.00321xw,0.320xh&amp;resize=980:* 980w"
 		/>
-	
-			
+
+
 	</a>
 
 
-		
-	
-		
-						
 
 
 
 
 
-        
-	
 
-	
+
+
+
+
+
+
+
 
 
 
 <a class="simple-item-title item-title" href="/cooking/recipe-ideas/recipes/a49730/cheesecake-stuffed-pumpkin-snickerdoodles-recipe/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="Cheesecake-Stuffed Pumpkin Snickerdoodles" data-vars-ga-outbound-link="https://www.delish.com/cooking/recipe-ideas/recipes/a49730/cheesecake-stuffed-pumpkin-snickerdoodles-recipe/" data-vars-ga-position="2" data-vars-ga-total-positions="11">Cheesecake-Stuffed Pumpkin Snickerdoodles</a>
 
-					
-		
-		
+
+
+
 	</div>
 
 
 															<hr class="horizontal-rule-mobile">
-																											
+
 			  	<div class="breaker-ad transporter-vertical-ad">
 				<div class="breaker-ad-text">Advertisement - Continue Reading Below</div>
 		<div id="gpt-ad-vertical-bottom" class="ad-container"></div>
 	</div>
 
-												
-						
-																										
-													
-			
+
+
+
+
+
 
 
 
@@ -1304,66 +1304,66 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item transporter-simple-item grid-simple-item-last-tablet ">
-		
 
 
 
 
-    	
-	
+
+
+
 
 
 
 
 
 <a class="simple-item-image item-image" href="/cooking/recipe-ideas/a29480090/best-slow-cooker-pot-roast-recipe/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="Slow Cooker Pot Roast" data-vars-ga-outbound-link="https://www.delish.com/cooking/recipe-ideas/a29480090/best-slow-cooker-pot-roast-recipe/" data-vars-ga-position="4" data-vars-ga-total-positions="11">
-						
+
 			<span class="lqip lazyload" data-expand="2000" data-lqip="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-slow-cooker-pot-roast-still001-1571411935.jpg?crop=0.686xw:0.610xh;0.136xw,0.225xh&amp;resize=480:*&amp;frame=1&amp;lqip=yes"></span>
-	
+
 			<img class="lazyload lazyimage" alt="image" title="image"
 			src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 			data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-slow-cooker-pot-roast-still001-1571411935.jpg?crop=0.686xw:0.610xh;0.136xw,0.225xh&amp;resize=480:*"
 			data-sizes="auto"
 			data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-slow-cooker-pot-roast-still001-1571411935.jpg?crop=0.686xw:0.610xh;0.136xw,0.225xh&amp;resize=480:* 480w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-slow-cooker-pot-roast-still001-1571411935.jpg?crop=0.686xw:0.610xh;0.136xw,0.225xh&amp;resize=640:* 640w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-slow-cooker-pot-roast-still001-1571411935.jpg?crop=0.686xw:0.610xh;0.136xw,0.225xh&amp;resize=768:* 768w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-slow-cooker-pot-roast-still001-1571411935.jpg?crop=0.686xw:0.610xh;0.136xw,0.225xh&amp;resize=980:* 980w"
 		/>
-	
-			
+
+
 			<div class="content-type-icon">
 			<i class="icon icon-play "></i>
 		</div>
 	</a>
 
 
-		
-	
-		
-						
 
 
 
 
 
-        
-	
 
-	
+
+
+
+
+
+
+
 
 
 
 <a class="simple-item-title item-title" href="/cooking/recipe-ideas/a29480090/best-slow-cooker-pot-roast-recipe/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="Slow Cooker Pot Roast" data-vars-ga-outbound-link="https://www.delish.com/cooking/recipe-ideas/a29480090/best-slow-cooker-pot-roast-recipe/" data-vars-ga-position="4" data-vars-ga-total-positions="11">Slow Cooker Pot Roast</a>
 
-					
-		
-		
+
+
+
 	</div>
 
 
 																						<hr class="horizontal-rule-tablet">
-																	
-						
-																										
-													
-			
+
+
+
+
+
 
 
 
@@ -1379,66 +1379,66 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item transporter-simple-item grid-simple-item-last-mobile ">
-		
 
 
 
 
-    	
-	
+
+
+
 
 
 
 
 
 <a class="simple-item-image item-image" href="/cooking/recipe-ideas/g3026/fall-soup-recipes/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="65 Soups Full Of Autumn Comfort" data-vars-ga-outbound-link="https://www.delish.com/cooking/recipe-ideas/g3026/fall-soup-recipes/" data-vars-ga-position="5" data-vars-ga-total-positions="11">
-						
+
 			<span class="lqip lazyload" data-expand="2000" data-lqip="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/stuffed-pepper-soup-horizontal-1529963312.jpg?crop=1xw:0.7498500299940012xh;center,top&amp;resize=480:*&amp;frame=1&amp;lqip=yes"></span>
-	
+
 			<img class="lazyload lazyimage" alt="image" title="stuffed&#x20;pepper&#x20;soup&#x20;horizontal"
 			src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 			data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/stuffed-pepper-soup-horizontal-1529963312.jpg?crop=1xw:0.7498500299940012xh;center,top&amp;resize=480:*"
 			data-sizes="auto"
 			data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/stuffed-pepper-soup-horizontal-1529963312.jpg?crop=1xw:0.7498500299940012xh;center,top&amp;resize=480:* 480w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/stuffed-pepper-soup-horizontal-1529963312.jpg?crop=1xw:0.7498500299940012xh;center,top&amp;resize=640:* 640w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/stuffed-pepper-soup-horizontal-1529963312.jpg?crop=1xw:0.7498500299940012xh;center,top&amp;resize=768:* 768w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/stuffed-pepper-soup-horizontal-1529963312.jpg?crop=1xw:0.7498500299940012xh;center,top&amp;resize=980:* 980w"
 		/>
-	
-			
+
+
 			<div class="content-type-icon">
 			<i class="icon icon-gallery "></i>
 		</div>
 	</a>
 
 
-		
-	
-		
-						
 
 
 
 
 
-        
-	
 
-	
+
+
+
+
+
+
+
 
 
 
 <a class="simple-item-title item-title" href="/cooking/recipe-ideas/g3026/fall-soup-recipes/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="65 Soups Full Of Autumn Comfort" data-vars-ga-outbound-link="https://www.delish.com/cooking/recipe-ideas/g3026/fall-soup-recipes/" data-vars-ga-position="5" data-vars-ga-total-positions="11">65 Soups Full Of Autumn Comfort</a>
 
-					
-		
-		
+
+
+
 	</div>
 
 
 															<hr class="horizontal-rule-mobile">
-																								
-						
-																	
-													
-			
+
+
+
+
+
 
 
 
@@ -1454,65 +1454,65 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item transporter-simple-item ">
-		
 
 
 
 
-    	
-	
+
+
+
 
 
 
 
 
 <a class="simple-item-image item-image" href="/cooking/recipe-ideas/a23301140/pumpkin-spice-blondies-recipe/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="Pumpkin Spice Blondies Will Slay You" data-vars-ga-outbound-link="https://www.delish.com/cooking/recipe-ideas/a23301140/pumpkin-spice-blondies-recipe/" data-vars-ga-position="6" data-vars-ga-total-positions="11">
-						
+
 			<span class="lqip lazyload" data-expand="2000" data-lqip="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-pumpkin-spice-blondies-still004-1537562228.jpg?crop=0.885xw:0.786xh;0.0481xw,0.128xh&amp;resize=480:*&amp;frame=1&amp;lqip=yes"></span>
-	
+
 			<img class="lazyload lazyimage" alt="Pumpkin&#x20;Spice&#x20;Blondies&#x20;-&#x20;Delish.com" title="Pumpkin&#x20;Spice&#x20;Blondies&#x20;-&#x20;Delish.com"
 			src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 			data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-pumpkin-spice-blondies-still004-1537562228.jpg?crop=0.885xw:0.786xh;0.0481xw,0.128xh&amp;resize=480:*"
 			data-sizes="auto"
 			data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-pumpkin-spice-blondies-still004-1537562228.jpg?crop=0.885xw:0.786xh;0.0481xw,0.128xh&amp;resize=480:* 480w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-pumpkin-spice-blondies-still004-1537562228.jpg?crop=0.885xw:0.786xh;0.0481xw,0.128xh&amp;resize=640:* 640w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-pumpkin-spice-blondies-still004-1537562228.jpg?crop=0.885xw:0.786xh;0.0481xw,0.128xh&amp;resize=768:* 768w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-pumpkin-spice-blondies-still004-1537562228.jpg?crop=0.885xw:0.786xh;0.0481xw,0.128xh&amp;resize=980:* 980w"
 		/>
-	
-			
+
+
 			<div class="content-type-icon">
 			<i class="icon icon-play "></i>
 		</div>
 	</a>
 
 
-		
-	
-		
-						
 
 
 
 
 
-        
-	
 
-	
+
+
+
+
+
+
+
 
 
 
 <a class="simple-item-title item-title" href="/cooking/recipe-ideas/a23301140/pumpkin-spice-blondies-recipe/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="Pumpkin Spice Blondies Will Slay You" data-vars-ga-outbound-link="https://www.delish.com/cooking/recipe-ideas/a23301140/pumpkin-spice-blondies-recipe/" data-vars-ga-position="6" data-vars-ga-total-positions="11">Pumpkin Spice Blondies Will Slay You</a>
 
-					
-		
-		
+
+
+
 	</div>
 
 
-																														
-						
-																																			
-													
-			
+
+
+
+
+
 
 
 
@@ -1528,64 +1528,64 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item transporter-simple-item grid-simple-item-last-mobile grid-simple-item-last-tablet ">
-		
 
 
 
 
-    	
-	
+
+
+
 
 
 
 
 
 <a class="simple-item-image item-image" href="/cooking/recipe-ideas/a28914527/frito-pie-recipe/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="Best Frito Pies" data-vars-ga-outbound-link="https://www.delish.com/cooking/recipe-ideas/a28914527/frito-pie-recipe/" data-vars-ga-position="7" data-vars-ga-total-positions="11">
-						
+
 			<span class="lqip lazyload" data-expand="2000" data-lqip="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190904-frito-pie-0159-landscape-pf-1568846545.jpg?crop=1.00xw:0.752xh;0,0.149xh&amp;resize=480:*&amp;frame=1&amp;lqip=yes"></span>
-	
+
 			<img class="lazyload lazyimage" alt="image" title="Frito&#x20;Pie&#x20;-&#x20;Delish.com"
 			src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 			data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190904-frito-pie-0159-landscape-pf-1568846545.jpg?crop=1.00xw:0.752xh;0,0.149xh&amp;resize=480:*"
 			data-sizes="auto"
 			data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190904-frito-pie-0159-landscape-pf-1568846545.jpg?crop=1.00xw:0.752xh;0,0.149xh&amp;resize=480:* 480w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190904-frito-pie-0159-landscape-pf-1568846545.jpg?crop=1.00xw:0.752xh;0,0.149xh&amp;resize=640:* 640w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190904-frito-pie-0159-landscape-pf-1568846545.jpg?crop=1.00xw:0.752xh;0,0.149xh&amp;resize=768:* 768w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190904-frito-pie-0159-landscape-pf-1568846545.jpg?crop=1.00xw:0.752xh;0,0.149xh&amp;resize=980:* 980w"
 		/>
-	
-			
+
+
 	</a>
 
 
-		
-	
-		
-						
 
 
 
 
 
-        
-	
 
-	
+
+
+
+
+
+
+
 
 
 
 <a class="simple-item-title item-title" href="/cooking/recipe-ideas/a28914527/frito-pie-recipe/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="Best Frito Pies" data-vars-ga-outbound-link="https://www.delish.com/cooking/recipe-ideas/a28914527/frito-pie-recipe/" data-vars-ga-position="7" data-vars-ga-total-positions="11">Best Frito Pies</a>
 
-					
-		
-		
+
+
+
 	</div>
 
 
 															<hr class="horizontal-rule-mobile">
 																<hr class="horizontal-rule-tablet">
-																	
-						
-																	
-													
-			
+
+
+
+
+
 
 
 
@@ -1601,62 +1601,62 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item transporter-simple-item ">
-		
 
 
 
 
-    	
-	
+
+
+
 
 
 
 
 
 <a class="simple-item-image item-image" href="/cooking/recipe-ideas/recipes/a56767/apple-cider-old-fashioned-recipe/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="Apple Cider Old Fashioned" data-vars-ga-outbound-link="https://www.delish.com/cooking/recipe-ideas/recipes/a56767/apple-cider-old-fashioned-recipe/" data-vars-ga-position="8" data-vars-ga-total-positions="11">
-						
+
 			<span class="lqip lazyload" data-expand="2000" data-lqip="https://hips.hearstapps.com/del.h-cdn.co/assets/17/47/1280x640/landscape-1511202106-delish-apple-cider-old-fashioneds-1.jpg?resize=480:*&amp;frame=1&amp;lqip=yes"></span>
-	
+
 			<img class="lazyload lazyimage" alt="Cider&#x20;Old&#x20;Fashioned&#x20;-&#x20;Delish.com" title="Cider&#x20;Old&#x20;Fashioned&#x20;-&#x20;Delish.com"
 			src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 			data-src="https://hips.hearstapps.com/del.h-cdn.co/assets/17/47/1280x640/landscape-1511202106-delish-apple-cider-old-fashioneds-1.jpg?resize=480:*"
 			data-sizes="auto"
 			data-srcset="https://hips.hearstapps.com/del.h-cdn.co/assets/17/47/1280x640/landscape-1511202106-delish-apple-cider-old-fashioneds-1.jpg?resize=480:* 480w,https://hips.hearstapps.com/del.h-cdn.co/assets/17/47/1280x640/landscape-1511202106-delish-apple-cider-old-fashioneds-1.jpg?resize=640:* 640w,https://hips.hearstapps.com/del.h-cdn.co/assets/17/47/1280x640/landscape-1511202106-delish-apple-cider-old-fashioneds-1.jpg?resize=768:* 768w,https://hips.hearstapps.com/del.h-cdn.co/assets/17/47/1280x640/landscape-1511202106-delish-apple-cider-old-fashioneds-1.jpg?resize=980:* 980w"
 		/>
-	
-			
+
+
 	</a>
 
 
-		
-	
-		
-						
 
 
 
 
 
-        
-	
 
-	
+
+
+
+
+
+
+
 
 
 
 <a class="simple-item-title item-title" href="/cooking/recipe-ideas/recipes/a56767/apple-cider-old-fashioned-recipe/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="Apple Cider Old Fashioned" data-vars-ga-outbound-link="https://www.delish.com/cooking/recipe-ideas/recipes/a56767/apple-cider-old-fashioned-recipe/" data-vars-ga-position="8" data-vars-ga-total-positions="11">Apple Cider Old Fashioned</a>
 
-					
-		
-		
+
+
+
 	</div>
 
 
-																														
-						
-																										
-													
-			
+
+
+
+
+
 
 
 
@@ -1672,55 +1672,55 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item transporter-simple-item grid-simple-item-last-mobile ">
-		
 
 
 
 
-    	
-	
+
+
+
 
 
 
 
 
 <a class="simple-item-image item-image" href="/cooking/recipe-ideas/a29665360/pbandj-banana-bread-muffins-recipe/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="PB&amp;J Banana Bread Muffins " data-vars-ga-outbound-link="https://www.delish.com/cooking/recipe-ideas/a29665360/pbandj-banana-bread-muffins-recipe/" data-vars-ga-position="9" data-vars-ga-total-positions="11">
-						
+
 			<span class="lqip lazyload" data-expand="2000" data-lqip="https://hips.hearstapps.com/vidthumb/49756f12-2eeb-451b-8000-b87596ceb169/thumb_1920x1080_00002_1576073828_29319.jpg?fill=2:1&amp;resize=480:*&amp;frame=1&amp;lqip=yes"></span>
-	
+
 			<img class="lazyload lazyimage" alt="image" title="image"
 			src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 			data-src="https://hips.hearstapps.com/vidthumb/49756f12-2eeb-451b-8000-b87596ceb169/thumb_1920x1080_00002_1576073828_29319.jpg?fill=2:1&amp;resize=480:*"
 			data-sizes="auto"
 			data-srcset="https://hips.hearstapps.com/vidthumb/49756f12-2eeb-451b-8000-b87596ceb169/thumb_1920x1080_00002_1576073828_29319.jpg?fill=2:1&amp;resize=480:* 480w,https://hips.hearstapps.com/vidthumb/49756f12-2eeb-451b-8000-b87596ceb169/thumb_1920x1080_00002_1576073828_29319.jpg?fill=2:1&amp;resize=640:* 640w,https://hips.hearstapps.com/vidthumb/49756f12-2eeb-451b-8000-b87596ceb169/thumb_1920x1080_00002_1576073828_29319.jpg?fill=2:1&amp;resize=768:* 768w,https://hips.hearstapps.com/vidthumb/49756f12-2eeb-451b-8000-b87596ceb169/thumb_1920x1080_00002_1576073828_29319.jpg?fill=2:1&amp;resize=980:* 980w"
 		/>
-	
-			
+
+
 			<div class="content-type-icon">
 			<i class="icon icon-play "></i>
 		</div>
 	</a>
 
 
-		
-	
-		
-						
 
 
 
 
 
-        
-	
 
-	
+
+
+
+
+
+
+
 
 
 
 <a class="simple-item-title item-title" href="/cooking/recipe-ideas/a29665360/pbandj-banana-bread-muffins-recipe/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="PB&amp;J Banana Bread Muffins " data-vars-ga-outbound-link="https://www.delish.com/cooking/recipe-ideas/a29665360/pbandj-banana-bread-muffins-recipe/" data-vars-ga-position="9" data-vars-ga-total-positions="11">PB&J Banana Bread Muffins</a>
 
-							
+
 
 
 
@@ -1744,13 +1744,13 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 						<span class="created-for--long" >Created by Delish for</span>
 												</div>
 
-						
-										
-												
-				
-								
-								
-								
+
+
+
+
+
+
+
 				<div class="sponsor-image">
 																Country Crock Plant Butter
 									</div>
@@ -1761,18 +1761,18 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 
-			
-		
-		
+
+
+
 	</div>
 
 
 															<hr class="horizontal-rule-mobile">
-																								
-						
-																										
-													
-			
+
+
+
+
+
 
 
 
@@ -1788,66 +1788,66 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item transporter-simple-item grid-simple-item-last-tablet ">
-		
 
 
 
 
-    	
-	
+
+
+
 
 
 
 
 
 <a class="simple-item-image item-image" href="/cooking/g1967/fall-cocktails-recipes/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="44 Fall Cocktails Better Than A PSL" data-vars-ga-outbound-link="https://www.delish.com/cooking/g1967/fall-cocktails-recipes/" data-vars-ga-position="10" data-vars-ga-total-positions="11">
-						
+
 			<span class="lqip lazyload" data-expand="2000" data-lqip="https://hips.hearstapps.com/del.h-cdn.co/assets/15/37/4000x2000/landscape-1441898833-apple-pie-bourbon-delish-4.jpg?resize=480:*&amp;frame=1&amp;lqip=yes"></span>
-	
+
 			<img class="lazyload lazyimage" alt="image" title="apple-pie-bourbon-shots-delish"
 			src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 			data-src="https://hips.hearstapps.com/del.h-cdn.co/assets/15/37/4000x2000/landscape-1441898833-apple-pie-bourbon-delish-4.jpg?resize=480:*"
 			data-sizes="auto"
 			data-srcset="https://hips.hearstapps.com/del.h-cdn.co/assets/15/37/4000x2000/landscape-1441898833-apple-pie-bourbon-delish-4.jpg?resize=480:* 480w,https://hips.hearstapps.com/del.h-cdn.co/assets/15/37/4000x2000/landscape-1441898833-apple-pie-bourbon-delish-4.jpg?resize=640:* 640w,https://hips.hearstapps.com/del.h-cdn.co/assets/15/37/4000x2000/landscape-1441898833-apple-pie-bourbon-delish-4.jpg?resize=768:* 768w,https://hips.hearstapps.com/del.h-cdn.co/assets/15/37/4000x2000/landscape-1441898833-apple-pie-bourbon-delish-4.jpg?resize=980:* 980w"
 		/>
-	
-			
+
+
 			<div class="content-type-icon">
 			<i class="icon icon-gallery "></i>
 		</div>
 	</a>
 
 
-		
-	
-		
-						
 
 
 
 
 
-        
-	
 
-	
+
+
+
+
+
+
+
 
 
 
 <a class="simple-item-title item-title" href="/cooking/g1967/fall-cocktails-recipes/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="44 Fall Cocktails Better Than A PSL" data-vars-ga-outbound-link="https://www.delish.com/cooking/g1967/fall-cocktails-recipes/" data-vars-ga-position="10" data-vars-ga-total-positions="11">44 Fall Cocktails Better Than A PSL</a>
 
-					
-		
-		
+
+
+
 	</div>
 
 
 																						<hr class="horizontal-rule-tablet">
-																	
-						
-																										
-													
-			
+
+
+
+
+
 
 
 
@@ -1863,63 +1863,63 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 
 <div class="simple-item transporter-simple-item grid-simple-item-last-mobile ">
-		
 
 
 
 
-    	
-	
+
+
+
 
 
 
 
 
 <a class="simple-item-image item-image" href="/cooking/recipe-ideas/a23724315/pumpkin-pie-pudding-shots-recipe/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="Pumpkin Pie Pudding Shots" data-vars-ga-outbound-link="https://www.delish.com/cooking/recipe-ideas/a23724315/pumpkin-pie-pudding-shots-recipe/" data-vars-ga-position="11" data-vars-ga-total-positions="11">
-						
+
 			<span class="lqip lazyload" data-expand="2000" data-lqip="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20191106-pumpkin-pie-pudding-shots-delish-ehg-3730-1578342380.jpg?crop=1.00xw:0.752xh;0,0.0168xh&amp;resize=480:*&amp;frame=1&amp;lqip=yes"></span>
-	
+
 			<img class="lazyload lazyimage" alt="Pumpkin&#x20;Pie&#x20;Pudding&#x20;Shots&#x20;-&#x20;Delish.com" title="Pumpkin&#x20;Pie&#x20;Pudding&#x20;Shots&#x20;-&#x20;Delish.com"
 			src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 			data-src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20191106-pumpkin-pie-pudding-shots-delish-ehg-3730-1578342380.jpg?crop=1.00xw:0.752xh;0,0.0168xh&amp;resize=480:*"
 			data-sizes="auto"
 			data-srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20191106-pumpkin-pie-pudding-shots-delish-ehg-3730-1578342380.jpg?crop=1.00xw:0.752xh;0,0.0168xh&amp;resize=480:* 480w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20191106-pumpkin-pie-pudding-shots-delish-ehg-3730-1578342380.jpg?crop=1.00xw:0.752xh;0,0.0168xh&amp;resize=640:* 640w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20191106-pumpkin-pie-pudding-shots-delish-ehg-3730-1578342380.jpg?crop=1.00xw:0.752xh;0,0.0168xh&amp;resize=768:* 768w,https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20191106-pumpkin-pie-pudding-shots-delish-ehg-3730-1578342380.jpg?crop=1.00xw:0.752xh;0,0.0168xh&amp;resize=980:* 980w"
 		/>
-	
-			
+
+
 	</a>
 
 
-		
-	
-		
-						
 
 
 
 
 
-        
-	
 
-	
+
+
+
+
+
+
+
 
 
 
 <a class="simple-item-title item-title" href="/cooking/recipe-ideas/a23724315/pumpkin-pie-pudding-shots-recipe/" data-vars-ga-ux-element="Transporter" data-vars-ga-call-to-action="Pumpkin Pie Pudding Shots" data-vars-ga-outbound-link="https://www.delish.com/cooking/recipe-ideas/a23724315/pumpkin-pie-pudding-shots-recipe/" data-vars-ga-position="11" data-vars-ga-total-positions="11">Pumpkin Pie Pudding Shots</a>
 
-					
-		
-		
+
+
+
 	</div>
 
 
 															<hr class="horizontal-rule-mobile">
-																	
+
 		</div>
 
 
-											<div class="leaderboard-ad transporter-ad"> 
+											<div class="leaderboard-ad transporter-ad">
 	<div id="gpt-ad-leaderboard-bottom"  class="ad-container"></div>
 </div>
 
@@ -1937,7 +1937,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 							<li class="seo-tag seo-parent-feed">
 										<a class="seo-link" href="/cooking/" data-vars-ga-ux-element="SEO Tag" data-vars-ga-call-to-action="Meals &amp; Cooking" data-vars-ga-outbound-link="https://www.delish.com/cooking/">Meals & Cooking</a>
 				</li>
-			
+
 										<li class="seo-tag seo-related-link">
 															<a class="seo-link" href="//www.delish.com/cooking/recipe-ideas/a21925426/easy-pumpkin-bars-with-cream-cheese-frosting/" title="Pumpkin Bars Are Just The Vehicle For The Frosting" data-vars-ga-ux-element="SEO Tag" data-vars-ga-call-to-action="Pumpkin Bars Are Just The Vehicle For The Frosting" data-vars-ga-outbound-link="//www.delish.com/cooking/recipe-ideas/a21925426/easy-pumpkin-bars-with-cream-cheese-frosting/">Pumpkin Bars Are Just The Vehicle For The Frosting</a>
 				</li>
@@ -1956,7 +1956,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 							<li class="seo-tag seo-related-link">
 															<a class="seo-link" href="//www.delish.com/cooking/recipe-ideas/recipes/a57039/buckeye-roll-recipe/" title="Buckeye Roll" data-vars-ga-ux-element="SEO Tag" data-vars-ga-call-to-action="Buckeye Roll" data-vars-ga-outbound-link="//www.delish.com/cooking/recipe-ideas/recipes/a57039/buckeye-roll-recipe/">Buckeye Roll</a>
 				</li>
-			
+
 								</ul>
 	</div>
 <div class="piano-container-wrapper">
@@ -1971,7 +1971,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	<div class="footer-inner">
 		<div class="footer-logo">
 			<a href="/">
-				
+
 
 
 
@@ -1992,7 +1992,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	<a class="social-button-link" href="https://www.facebook.com/delish" target="_blank" data-social-key="facebook">
 		<span class="icon social-button-icon icon-facebook"></span>
 
-		
+
 			</a>
 </div>
 <div class="social-button social-button-twitter footer-social-menu-item "
@@ -2001,19 +2001,19 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	<a class="social-button-link" href="https://twitter.com/delishdotcom" target="_blank" data-social-key="twitter">
 		<span class="icon social-button-icon icon-twitter"></span>
 
-		
+
 			</a>
 </div>
 <div class="social-button social-button-pinterest footer-social-menu-item" role="none"
 	data-tracking-id="share-button-pinterest" title="Share on Pinterest"
 >
-	
+
 	<a aria-label="Share on Pinterest"
 	   class="social-button-link" href="https://www.pinterest.com/Delish/?auto_follow=1" target="_blank" data-pin-do="nothing" data-social-key="pinterest"
 	>
 		<span class="icon social-button-icon icon-pinterest"></span>
 
-		
+
 			</a>
 </div>
 <div class="social-button social-button-instagram footer-social-menu-item "
@@ -2022,7 +2022,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	<a class="social-button-link" href="https://instagram.com/delish" target="_blank" data-social-key="instagram">
 		<span class="icon social-button-icon icon-instagram"></span>
 
-		
+
 			</a>
 </div>
 <div class="social-button social-button-youtube footer-social-menu-item "
@@ -2031,13 +2031,13 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	<a class="social-button-link" href="https://www.youtube.com/c/delish?sub_confirmation=1" target="_blank" data-social-key="youtube">
 		<span class="icon social-button-icon icon-youtube"></span>
 
-		
+
 			</a>
 </div>
 
 </div>
 
-		
+
 		<ul class="footer-menu"><li class="footer-menu-item nav-item" data-id="1"><a href="/newsletter"  rel="nofollow">Newsletter</a></li>
 <li class="footer-menu-item nav-item" data-id="2"><a href="/food/a42824/about-team-delish/"  >About Us</a></li>
 <li class="footer-menu-item nav-item" data-id="3"><a href="http://www.hearst.com/press-room/"  >Press Room</a></li>
@@ -2050,17 +2050,17 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 				class="lazyload footer-network-logo"
 				alt=" - A Part of Hearst Digital Media"
 			/>
-		
+
 					<span class="footer-network-tagline">A Part of Hearst Digital Media</span>
-		
+
 					<span class="footer-affiliate-disclosure">
 				Delish participates in various affiliate marketing programs, which means we may get paid commissions on editorially chosen products purchased through our links to retailer sites.
 			</span>
-		
+
 		<div class="footer-legal">
 							<small class="footer-copyright">&copy;2020 Hearst Magazine Media, Inc. All Rights Reserved.</small>
-			
-			
+
+
 			<ul class="footer-legal-menu"><li class="footer-legal-menu-item nav-item" data-id="1"><a href="http://www.hearst.com/newsroom/us-magazines-privacy-notice" target="_blank" >Privacy Notice</a></li>
 <li class="footer-legal-menu-item nav-item" data-id="2"><a href="https://www.hearst.com/newsroom/us-magazines-privacy-notice#_ADDITIONAL_INFO" target="_blank" >Your California Privacy Rights</a></li>
 <li class="footer-legal-menu-item nav-item" data-id="3"><a href="https://www.hearst.com/newsroom/us-magazines-privacy-notice#_INTEREST_BASED" target="_blank" >Interest-Based Ads</a></li>
@@ -2299,7 +2299,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 	</div>
 	<div class="embedded-product-button-wrapper">
 		<div class="product-buy-button-wrapper">
-	
+
 <%
 	var product = product
 	var brand = product.product.brand
@@ -2396,7 +2396,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 
 	<div class="embedded-product-button-wrapper">
 	<div class="product-buy-button-wrapper">
-	
+
 <%
 	var brand = item.data.content_product_review.product_review.product.brand
 	var cta = item.data.content_product_review.call_to_action || "SHOP NOW"
@@ -2494,7 +2494,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 				>
 					<% if ( item.image ) { %>
 						<div class="simple-item-image item-image endofcontent-image">
-							
+
 	<span class="lqip lazyload" data-expand="2000" data-lqip="<%= item.image.src %>&amp;lqip=yes"></span>
 
 <img class="lazyload lazyimage" data-src="<%= item.image.src %>"
@@ -2522,7 +2522,7 @@ var b="fetch"in window&&"assign"in Object;if(!b){var s=document.createElement("s
 					<span class="end-of-content-title item-title"><%= item.title %></a>
 				</a>
 				<% if ( item.sponsor ) { %>
-						
+
 
 <%
 	var sponsorClass = {
@@ -2628,7 +2628,7 @@ window.GLIMMER_FILMSTRIP_ENABLED = true;
 	s.async = true;
 
 			s.src = "//nexus.ensighten.com/hearst/mag/Bootstrap.js";
-	
+
 	if ( d.cookie.indexOf( "nsghtn=dev" ) > -1 ) {
 		s.src = "//nexus.ensighten.com/hearst/mag-dev/Bootstrap.js";
 	}

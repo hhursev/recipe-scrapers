@@ -11,7 +11,9 @@ class TestCountryLivingScraper(ScraperTest):
         self.assertEqual("countryliving.com", self.harvester_class.host())
 
     def test_title(self):
-        self.assertEqual(self.harvester_class.title(), "Roasted Mushroom and Bacon Dutch Baby")
+        self.assertEqual(
+            self.harvester_class.title(), "Roasted Mushroom and Bacon Dutch Baby"
+        )
 
     def test_total_time(self):
         self.assertEqual(70, self.harvester_class.total_time())
@@ -22,18 +24,18 @@ class TestCountryLivingScraper(ScraperTest):
     def test_ingredients(self):
         self.assertCountEqual(
             [
-                '1 lb. mixed mushrooms (such as cremini, beech, or shiitake), roughly chopped 4 slices bacon, sliced',
-                '3 large eggs',
-                '1 clove garlic, chopped',
-                '3/4 c. whole milk',
-                '3 tbsp. unsalted butter, melted, divided',
-                '1/2 c. all-purpose flour, spooned and leveled',
-                '2 tbsp. cornstarch',
-                'Kosher salt',
-                '1 tbsp. fresh thyme',
-                '2 oz. fontina or Cheddar cheese, grated (about 1/2 cup)',
-                '1 scallion, thinly sliced',
-                '2 tbsp. chopped flat-leaf parsley',
+                "1 lb. mixed mushrooms (such as cremini, beech, or shiitake), roughly chopped 4 slices bacon, sliced",
+                "3 large eggs",
+                "1 clove garlic, chopped",
+                "3/4 c. whole milk",
+                "3 tbsp. unsalted butter, melted, divided",
+                "1/2 c. all-purpose flour, spooned and leveled",
+                "2 tbsp. cornstarch",
+                "Kosher salt",
+                "1 tbsp. fresh thyme",
+                "2 oz. fontina or Cheddar cheese, grated (about 1/2 cup)",
+                "1 scallion, thinly sliced",
+                "2 tbsp. chopped flat-leaf parsley",
             ],
             self.harvester_class.ingredients(),
         )

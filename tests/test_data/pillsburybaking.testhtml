@@ -67,7 +67,7 @@
 
 
 
-    
+
     <script type="text/javascript" src="pillsburybaking_files/bvapi.js">
     </script><script src="pillsburybaking_files/bv.js" data-requiremodule="https://apps.nexus.bazaarvoice.com/Pillsbury/8868-en_us/bv.js" data-requirecontext="_" async="async" charset="utf-8" type="text/javascript"></script>
     <script type="text/javascript">
@@ -188,7 +188,7 @@ a.PIN_1442071655662_embed_grid_ft span.PIN_1442071655662_embed_grid_ft_logo { ve
         <!-- google recipe search div-->
         <div class=" fb_reset" id="fb-root"><script src="pillsburybaking_files/all.js" async=""></script><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe src="pillsburybaking_files/44OwK74u0Ie.html" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_http" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fb_xdm_frame_http" frameborder="0"></iframe><iframe src="pillsburybaking_files/44OwK74u0Ie_002.html" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_https" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fb_xdm_frame_https" frameborder="0"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
         <div id="container">
-            
+
 
             <header>
 
@@ -222,9 +222,9 @@ a.PIN_1442071655662_embed_grid_ft span.PIN_1442071655662_embed_grid_ft_logo { ve
             </form>
         </div>
     </div>
-    
+
     <img class="confetti middle" src="pillsburybaking_files/header.png" alt="">
-    
+
 </header>
 <nav id="nav-main">
     <ul>
@@ -311,7 +311,7 @@ a.PIN_1442071655662_embed_grid_ft span.PIN_1442071655662_embed_grid_ft_logo { ve
             <div id="main" role="main">
 
                     <div id="nav-secondary">
-                        
+
         <ul>
         <li ""=""><a href="http://www.pillsburybaking.com/recipes/dessert-bars">Bars</a></li>
         <li ""=""><a href="http://www.pillsburybaking.com/recipes/biscuit-recipes">Biscuits &amp; Scones</a></li>
@@ -334,7 +334,7 @@ a.PIN_1442071655662_embed_grid_ft span.PIN_1442071655662_embed_grid_ft_logo { ve
                     </div>
 
                 <div id="content">
-                    
+
 
 
 
@@ -360,7 +360,7 @@ a.PIN_1442071655662_embed_grid_ft span.PIN_1442071655662_embed_grid_ft_logo { ve
 <div class="BVRRRatingContainerStar"><div class="BVRRRatingEntry BVRROdd"><div id="BVRRRatingOverall_Rating_Summary_1" class="BVRRRating BVRRRatingNormal BVRRRatingOverall"><div class="BVRRLabel BVRRRatingNormalLabel">Overall rating&nbsp;</div><div class="BVRRRatingNormalImage"><div class="BVImgOrSprite" style="width:115px;height:21px"><img src="pillsburybaking_files/rating.gif" style="margin:0px 0 0 0px" alt="5 / 5" title="5 / 5" height="21" width="207"></div></div>
 
 
- 
+
 <span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating" class="BVRRRatingNormalOutOf"> <span itemprop="ratingValue" class="BVRRNumber BVRRRatingNumber">5</span>
  <span class="BVRRSeparatorText">/ </span>
  <span itemprop="bestRating" class="BVRRNumber BVRRRatingRangeNumber">5</span>
@@ -412,7 +412,7 @@ a.PIN_1442071655662_embed_grid_ft span.PIN_1442071655662_embed_grid_ft_logo { ve
 <section id="recipe-social">
     <img itemprop="image" alt="Peanut Butter Secrets" src="pillsburybaking_files/PhotoImage.png" height="265" width="265">
 
-        <p>Tags: 
+        <p>Tags:
             <a href="http://www.pillsburybaking.com/recipes/fudge-recipes">Candy</a>,             <a href="http://www.pillsburybaking.com/recipes/cookie-recipes">Cookies</a>,             <a href="http://www.pillsburybaking.com/recipes/dessert-recipes">Dessert/Sweets</a>,             <a href="http://www.pillsburybaking.com/recipes/snack-recipes">Snack</a>        </p>
 
     <ul>
@@ -420,18 +420,18 @@ a.PIN_1442071655662_embed_grid_ft span.PIN_1442071655662_embed_grid_ft_logo { ve
         <li id="recipe-social-print"><a href="#print" onclick="_gaq.push(['_trackEvent', 'Recipe Prints', 'Print', 'Peanut Butter Secrets']);">Print Recipe</a></li>
             <li id="recipe-social-grocerylist"><a href="http://www.pillsburybaking.com/Profile/AddToGroceryList?recipeId=1595" onclick="trackOnDelay(this, 'Add to Grocery List', 'Recipe', 'Peanut Butter Secrets'); return false;">Add to Grocery List</a></li>
     <li id="recipe-social-sharethis"><a href="#share" data-track="{&quot;category&quot;:&quot;Share This&quot;,&quot;action&quot;:&quot;Recipe&quot;,&quot;opt_label&quot;:&quot;Peanut Butter Secrets&quot;}">Share This</a></li>
-    
+
     </ul>
     <ul>
         <li id="recipe-social-facebook"><fb:like fb-iframe-plugin-query="action=like&amp;app_id=190594787644523&amp;container_width=0&amp;font=arial&amp;href=http%3A%2F%2Fwww.pillsburybaking.com%2FRecipes%2FDetails.aspx%3FrecipeID%3D1595&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=235" fb-xfbml-state="rendered" class=" fb_iframe_widget" href="http://www.pillsburybaking.com/Recipes/Details.aspx?recipeID=1595" send="false" width="235" show_faces="false" layout="button_count" action="like" font="arial"><span style="vertical-align: bottom; width: 76px; height: 20px;"><iframe class="" src="pillsburybaking_files/like.html" style="border: medium none; visibility: visible; width: 76px; height: 20px;" title="fb:like Facebook Social Plugin" scrolling="no" allowfullscreen="true" allowtransparency="true" name="f10eeaa7e2ebfc4" frameborder="0" height="1000px" width="235px"></iframe></span></fb:like></li>
-        
+
 		<li id="recipe-social-pinterest">
             <a data-pin-config="beside" data-pin-log="button_pinit" data-pin-href="//www.pinterest.com/pin/create/button/?guid=CuPbb1guy0Ro-1&amp;url=http://www.pillsburybaking.com%2Frecipes%2Fdetails%2F1595&amp;media=http%3A%2F%2Fwww.smuckersrms.com%2FRSI%2FRecipeImage.ashx%3Frecipeid%3D1595%26w%3D265%26h%3D265%26mark%3D5&amp;description=Peanut%20Butter%20Secrets%20from%20Pillsbury%C2%AE%20Baking" class="PIN_1442071655662_pin_it_button_20 PIN_1442071655662_pin_it_button_en_20_gray PIN_1442071655662_pin_it_button_inline_20 PIN_1442071655662_pin_it_beside_20"><span id="PIN_1442071655662_pin_count_0" class="PIN_1442071655662_pin_it_button_count"><i></i>29K+</span></a>
         </li>
-   
+
     </ul>
 
-    
+
 </section>
 
 <section id="recipe-details">
@@ -474,19 +474,19 @@ a.PIN_1442071655662_embed_grid_ft span.PIN_1442071655662_embed_grid_ft_logo { ve
     <section id="recipe-directions">
         <h2>Preparation Directions</h2>
                     <ul itemprop="recipeInstructions">
-                <li>HEAT oven to 375ºF. Coat baking sheets lightly with no-stick cooking spray. 
+                <li>HEAT oven to 375ºF. Coat baking sheets lightly with no-stick cooking spray.
 </li>
-                <li>COMBINE shortening, brown sugar, granulated sugar 
-and peanut butter in bowl of electric mixer; beat at medium speed until 
+                <li>COMBINE shortening, brown sugar, granulated sugar
+and peanut butter in bowl of electric mixer; beat at medium speed until
 well blended. Beat in egg and vanilla.
 </li>
-                <li>COMBINE flour, baking soda and salt in medium bowl. 
-Mix into shortening mixture at low speed until just blended. Form 
-rounded teaspoonfuls of dough around each peanut butter cup. Enclose 
+                <li>COMBINE flour, baking soda and salt in medium bowl.
+Mix into shortening mixture at low speed until just blended. Form
+rounded teaspoonfuls of dough around each peanut butter cup. Enclose
 entirely. Place 2 inches apart on baking sheet.
 </li>
                 <li>BAKE 8 to 10 minutes, or until cookies are just browned. Remove immediately to cooling rack.</li>
-                <li>COMBINE shortening, chocolate chips and peanut 
+                <li>COMBINE shortening, chocolate chips and peanut
 butter in microwave-safe measuring cup. Microwave on MEDIUM (50% power) 1
  minute. Stir. Repeat until smooth.
 </li>
@@ -498,8 +498,8 @@ butter in microwave-safe measuring cup. Microwave on MEDIUM (50% power) 1
         <h2>Nutritional Information Per Serving</h2>
         <p>Serving Size (1 cookie), Calories 170 (Calories from Fat 90),
  Total Fat 10g (Saturated Fat 3g, Trans Fat 0g), Cholesterol 5mg, Sodium
- 100mg, Total Carbohydrate 18g (Dietary Fiber 1g, Sugars 12g), Protein 
-3g;  Percent Daily Value*: Vitamin A 2%, Vitamin C 0%, Calcium 2%, Iron 
+ 100mg, Total Carbohydrate 18g (Dietary Fiber 1g, Sugars 12g), Protein
+3g;  Percent Daily Value*: Vitamin A 2%, Vitamin C 0%, Calcium 2%, Iron
 4%.</p>
         <p>*Percent Daily Values are based on a 2,000 calorie diet.</p>
     </section>
@@ -518,8 +518,8 @@ butter in microwave-safe measuring cup. Microwave on MEDIUM (50% power) 1
 " onmouseout=" BVTrustMark.onMouseOut('TrustMarkInfoDiv_3fobzqp9aszv5yv0v3g4caxb2_ID');
 ">
  <div class="BVRRTrustMark BVRRTrustMarkInfoCore" style="display: none">
- These reviews are managed by Bazaarvoice and comply with the 
-Bazaarvoice Authenticity Policy, which is supported by anti-fraud 
+ These reviews are managed by Bazaarvoice and comply with the
+Bazaarvoice Authenticity Policy, which is supported by anti-fraud
 technology and human analysis.<br>
  <span>Details at www.bazaarvoice.com/trustmark</span>
  </div>
@@ -558,8 +558,8 @@ technology and human analysis.<br>
  <span class="BVRRNumber BVRRRatingRangeNumber">5</span>
 </div></div></div></div></div></div><div class="BVRRReviewDisplayStyle5BodyContentPrimary"><div class="BVRRReviewDisplayStyle5Text"> <div itemprop="description" class="BVRRReviewTextContainer">
 <div class="BVRRReviewTextParagraph BVRRReviewTextFirstParagraph BVRRReviewTextLastParagraph"> <span class="BVRRReviewText">Everytime
- I make these I get so many compliments and these are the first cookies 
-to go when I make them for Christmas. I will definitely get in trouble 
+ I make these I get so many compliments and these are the first cookies
+to go when I make them for Christmas. I will definitely get in trouble
 with these cookies!</span>
 </div> </div>
 </div><div class="BVRRReviewDisplayStyle5Tags"></div><div class="BVRRReviewDisplayStyle5Recommendations"><div class="BVRRRecommendedContainer BVRRRecommendedContainerYes"><span class="BVRRLabel BVRRRecommendedPrefix"></span><span class="BVRRValue BVRRRecommended">Yes, I recommend this product.</span><span class="BVRRLabel BVRRRecommendedSuffix"></span></div></div></div></div><div class="BVRRReviewDisplayStyle5BodyUser"><span class="BVRRAvatar"><a onmouseout=" bvProfileSnapshot.hideOpenPopinAfterDelay(1000
@@ -633,7 +633,7 @@ with these cookies!</span>
     <script type="text/javascript">
         $BV.ui("rr", "show_reviews", {
             productId: '1595'
-        });        
+        });
     </script>
 
 
@@ -644,22 +644,22 @@ with these cookies!</span>
                 </div>
 
                     <div id="sidebar">
-                        
-   
 
-    
+
+
+
     <section id="viewed-recipes">
         <h2>Viewed<br>Recipes</h2>
         <div id="dough-boy-side-bar"></div>
         <ul>
-                <li><a href="http://www.pillsburybaking.com/recipes/peanut-butter-secrets-1595">Peanut Butter Secrets</a></li>    
+                <li><a href="http://www.pillsburybaking.com/recipes/peanut-butter-secrets-1595">Peanut Butter Secrets</a></li>
         </ul>
     </section>
 
 
-    
 
-    
+
+
 <div class="sidebar-promo" id="get-ready-to-wow-sidebar-promo">
     <h2><b>Get Ready to Wow!</b></h2>
     <p>Festive <b>Pillsbury™ Funfetti®</b> mixes and frostings—and our one-of-a-kind colorful candy bits—help you transform any day into a celebration.</p>
@@ -670,7 +670,7 @@ with these cookies!</span>
                     </div>
             </div>
 
-            
+
 <footer>
     <ul id="nav-footer">
         <li>
@@ -690,7 +690,7 @@ with these cookies!</span>
             <ul>
                 <li><a data-track="{&quot;category&quot;:&quot;Super Footer&quot;, &quot;action&quot;:&quot;Products&quot;, &quot;opt_label&quot;:&quot;Chocolate Chip Cookie Mix&quot;}" href="http://www.pillsburybaking.com/products/chocolate-chip-1152">Chocolate Chip Cookie Mix</a></li>
                 <li><a data-track="{&quot;category&quot;:&quot;Super Footer&quot;, &quot;action&quot;:&quot;Products&quot;, &quot;opt_label&quot;:&quot;Dark Chocolate Brownie Mix&quot;}" href="http://www.pillsburybaking.com/products/dark-chocolate-1155">Dark Chocolate Brownie Mix</a></li>
-                
+
                 <li><a data-track="{&quot;category&quot;:&quot;Super Footer&quot;, &quot;action&quot;:&quot;Products&quot;, &quot;opt_label&quot;:&quot;Gluten Free Frosting&quot;}" href="http://www.pillsburybaking.com/products/frostings/creamy-supreme">Gluten Free Frosting</a></li>
                 <li><a data-track="{&quot;category&quot;:&quot;Super Footer&quot;, &quot;action&quot;:&quot;Products&quot;, &quot;opt_label&quot;:&quot;Mocha Fudge Brownie Mix&quot;}" href="http://www.pillsburybaking.com/products/mocha-fudge-1156">Mocha Fudge Brownie Mix</a></li>
                 <li><a data-track="{&quot;category&quot;:&quot;Super Footer&quot;, &quot;action&quot;:&quot;Products&quot;, &quot;opt_label&quot;:&quot;Sugar Free Brownie Mixes&quot;}" href="http://www.pillsburybaking.com/products/sugar-free/premium-brownie-mix">Sugar Free Brownie Mixes</a></li>
@@ -720,15 +720,15 @@ with these cookies!</span>
                 <li><a data-track="{&quot;category&quot;:&quot;Super Footer&quot;, &quot;action&quot;:&quot;More Links&quot;, &quot;opt_label&quot;:&quot;Contact Us&quot;}" href="http://www.pillsburybaking.com/general-questions">Contact Us</a></li>
 
                 <li><br></li>
-                <li id="menu-facebook"><a href="http://www.facebook.com/PillsburyBaking" target="_blank" onclick="recordOutboundLink(this); return false;">Find Us on Facebook</a></li> 
+                <li id="menu-facebook"><a href="http://www.facebook.com/PillsburyBaking" target="_blank" onclick="recordOutboundLink(this); return false;">Find Us on Facebook</a></li>
                 <li id="menu-pinterest"><a href="http://www.pinterest.com/pillsburybaking/" target="_blank" onclick="recordOutboundLink(this); return false;">Find Us on Pinterest</a></li>
                 <li id="menu-instagram"><a href="http://instagram.com/pillsburybaking/" target="_blank" onclick="recordOutboundLink(this); return false;">Follow Us on Instagram</a></li>
             </ul>
         </li>
     </ul>
 
-    <p><strong>Pillsbury™</strong> Baking has delicious recipes, baking 
-basics and baking tips to help you make your favorite homemade treats. 
+    <p><strong>Pillsbury™</strong> Baking has delicious recipes, baking
+basics and baking tips to help you make your favorite homemade treats.
 From quality cake, brownie and quick bread mixes to frostings and flour,
  <strong>Pillsbury</strong> Baking offers a variety of products and flavors for whatever your taste may be. <strong>Pillsbury</strong> Baking also offers sugar free baking mixes and frostings. Stir up some smiles for the whole family!</p>
 
@@ -740,10 +740,10 @@ From quality cake, brownie and quick bread mixes to frostings and flour,
         <li><a href="http://www.poweroffamilymeals.com/" target="_blank" onclick="recordOutboundLink(this); return false;">Power of Family Meals</a></li>
     </ul>
 
-    <p>Pillsbury, Pillsbury BEST, the Barrelhead logo and the Doughboy 
-character are trademarks of The Pillsbury Company, LLC, used under 
-license. Bake-Off is a registered trademark of General Mills © 2015. 
-Important Note: The activities described on this Web site require adult 
+    <p>Pillsbury, Pillsbury BEST, the Barrelhead logo and the Doughboy
+character are trademarks of The Pillsbury Company, LLC, used under
+license. Bake-Off is a registered trademark of General Mills © 2015.
+Important Note: The activities described on this Web site require adult
 participation and supervision.</p>
     <div id="footer-leaves-2"></div>
 </footer>
@@ -779,7 +779,7 @@ participation and supervision.</p>
 
             <script>
                 (function($){
-                    
+
     new PillsburyBaking.LinkHandler({link: $('#recipe-social-print a'), type: 'print'});
     new PillsburyBaking.LinkHandler({link: $('#recipe-social-recipebox a'), type: 'recipebox', settings: {add: {serviceUrl: '/Profile/AddToRecipeBoxJson?recipeId=1595', copy: 'Remove from Recipe Box'}, remove: {serviceUrl: '/Profile/RemoveFromRecipeBoxJson?recipeId=1595', copy: 'Add to Recipe Box'}, redirectUrl: '/profile/sign-in?returnUrl=AddToRecipeBox&amp;recipeId=1595'}});
     new PillsburyBaking.LinkHandler({link: $('#recipe-social-grocerylist a'), type: 'grocerylist', settings: {add: {serviceUrl: '/Profile/AddToGroceryListJson?recipeId=1595', copy: 'Remove from Grocery List'}, remove: {serviceUrl: '/Profile/RemoveRecipeFromGroceryListJson?recipeId=1595', copy: 'Add to Grocery List'}, redirectUrl: '/profile/sign-in?returnUrl=AddToGroceryList&amp;recipeId=1595'}});
@@ -828,7 +828,7 @@ participation and supervision.</p>
         /* ]]> */
     </script>
     <script type="text/javascript" src="pillsburybaking_files/conversion.js"></script><iframe class="hpfrprrnrhgkagefljvc" name="google_conversion_frame" title="Google conversion frame" src="pillsburybaking_files/a.html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" frameborder="0" height="13" width="300">&lt;img
- height="1" width="1" border="0" alt="" 
+ height="1" width="1" border="0" alt=""
 src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1025128712/?frame=0&amp;random=1442071656588&amp;cv=8&amp;fst=1442071656588&amp;num=1&amp;fmt=1&amp;guid=ON&amp;u_h=768&amp;u_w=1366&amp;u_ah=738&amp;u_aw=1366&amp;u_cd=24&amp;u_his=1&amp;u_tz=180&amp;u_java=true&amp;u_nplug=2&amp;u_nmime=38&amp;frm=0&amp;url=http%3A//www.pillsburybaking.com/recipes/peanut-butter-secrets-1595&amp;ref=http%3A//food2fork.com/view/Peanut_Butter_Secrets/a29160"
  /&gt;</iframe>
     <noscript>

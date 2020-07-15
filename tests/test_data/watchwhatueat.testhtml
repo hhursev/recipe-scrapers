@@ -99,8 +99,8 @@ margin-left: 0 !important;
 list-style-type: none !important;
 overflow: hidden;
 }
-.feast-category-index-list li a.title { 
-text-decoration: none; 
+.feast-category-index-list li a.title {
+text-decoration: none;
 }
 .feast-category-index-list-overlay .fsci-title {
 position: absolute;
@@ -118,7 +118,7 @@ width: 80%;
 }
 .feast-image-frame, .feast-image-border { border: 3px solid #DDD; }
 .feast-image-double-frame, .feast-image-double-border { border: 5px double #777; }
-.feast-image-round, .feast-image-round img { border-radius: 50%; } 
+.feast-image-round, .feast-image-round img { border-radius: 50%; }
 .feast-image-pivot { -ms-transform: rotate(4deg); -webkit-transform: rotate(4deg); transform: rotate(4deg); }
 .feast-image-casablanca { -webkit-filter: grayscale(100%) contrast(110%); filter: grayscale(100%) contrast(110%); }
 .feast-image-shadow { box-shadow: 3px 3px 5px #AAA; }
@@ -129,7 +129,7 @@ width: 80%;
 .feast-grid-third { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
 .feast-grid-fourth { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
 .feast-grid-fifth { grid-template-columns: repeat(5, minmax(0, 1fr)) !important; }
-@media only screen and (min-width: 600px)  { 
+@media only screen and (min-width: 600px)  {
 .feast-category-index-list { grid-template-columns: repeat(4, minmax(0, 1fr) ); }
 .feast-desktop-grid-full { grid-template-columns: 1fr !important; }
 .feast-desktop-grid-half { grid-template-columns: repeat(2, 1fr) !important; }
@@ -191,7 +191,7 @@ r=o.createElement('script');r.async=1;
 r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
 a.appendChild(r);
 })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script> 
+</script>
 <link rel="stylesheet" type="text/css" href="//www.watchwhatueat.com/wp-content/cache/wpfc-minified/9mcojp1d/4hxej.css" media="all" />
 </head>
 <body class="post-template-default single single-post postid-3518 single-format-standard feast-plugin custom-header header-image header-full-width content-sidebar genesis-breadcrumbs-visible genesis-footer-widgets-visible seasoned-pro"><div class="site-container"><ul class="genesis-skip-link"><li><a href="#genesis-nav-primary" class="screen-reader-shortcut"> Skip to primary navigation</a></li><li><a href="#genesis-content" class="screen-reader-shortcut"> Skip to main content</a></li><li><a href="#genesis-sidebar-primary" class="screen-reader-shortcut"> Skip to primary sidebar</a></li><li><a href="#genesis-footer-widgets" class="screen-reader-shortcut"> Skip to footer</a></li></ul><header class="site-header"><div class="wrap"><div class="title-area"><p class="site-title"><a href="/" title="Watch What U Eat"><img src="/wp-content/uploads/2020/05/WWUE-Seasoned-Pro-Logo-Desktop.jpg" title="Watch What U Eat" alt="Watch What U Eat logo" data-pin-nopin="true"></a></p></div><nav class="nav-primary" aria-label="Main" id="genesis-nav-primary"><div class="wrap"><ul id="menu-home" class="menu genesis-nav-menu menu-primary js-superfish"><li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-56"><a href="/about/"><span>About us</span></a>
@@ -284,7 +284,7 @@ animation-duration: 0.8s;
 list-style: none;
 }
 #menu-feast-modern-mobile-menu li {
-min-height: 50px; 
+min-height: 50px;
 margin-left: 5px;
 list-style: none;
 }
@@ -332,14 +332,14 @@ display: none;
 }
 #feast-mobile-search input[type=search] {
 width: 100%;
-}	
+}
 #feast-mobile-menu-social-icons {
 margin-top: 17px;
 }
 #feast-social .simple-social-icons {
 list-style: none;
 }
-.feastmobilenavbar { 
+.feastmobilenavbar {
 position: fixed;
 top: 0;
 z-index: 998;
@@ -363,7 +363,7 @@ height: 30px;
 padding: 20px 10px;
 box-sizing: content-box;
 }
-.feastsubscribebutton { 
+.feastsubscribebutton {
 overflow: hidden;
 }
 .feastsubscribebutton img {
@@ -382,7 +382,7 @@ height: 70px;
 width: 200px;
 }
 @media only screen and ( max-width: 1025px ) {
-.feastmenulogo {grid-column-end: span 5; } 
+.feastmenulogo {grid-column-end: span 5; }
 .feastsubscribebutton { grid-column-end: span 2; }
 }
 @media only screen and ( min-width: 1025px ) {
