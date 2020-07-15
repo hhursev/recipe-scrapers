@@ -3,7 +3,7 @@ from tests import ScraperTest
 from recipe_scrapers.archanaskitchen import ArchanasKitchen
 
 
-class TestAllRecipesScraper(ScraperTest):
+class TestArchanasKitchenScraper(ScraperTest):
 
     scraper_class = ArchanasKitchen
 

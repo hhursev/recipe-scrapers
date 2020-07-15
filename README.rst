@@ -168,8 +168,8 @@ Assuming you have ``python3`` installed, navigate to the directory where you wan
     source .venv/bin/activate &&
     pip install -r requirements.txt &&
     pre-commit install &&
-    coverage run -m unittest &&
-    coverage report
+    python -m coverage run -m unittest &&
+    python -m coverage report
 
 FAQ
 ---
