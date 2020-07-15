@@ -11,6 +11,8 @@ install:
   - pip install coveralls
 
 script:
+  - black --check .
+  - flake8 --count .
   - coverage run -m unittest
 
 after_success:
