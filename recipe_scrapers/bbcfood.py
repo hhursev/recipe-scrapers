@@ -29,10 +29,10 @@ class BBCFood(AbstractScraper):
         container = self.soup.find('div', {'class': 'chef__name'})
         if not container:
             return None
-        
+
         author = container.a
         return author.text if author else None
-        
+
     def image(self):
         container = self.soup.find(True, {"class": "recipe-media__image"})
         if not container:
