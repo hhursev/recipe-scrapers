@@ -26,7 +26,7 @@ class BBCFood(AbstractScraper):
         return get_yields(self.soup.find("p", {"class": "recipe-metadata__serving"}))
 
     def author(self):
-        container = self.soup.find('div', {'class': 'chef__name'})
+        container = self.soup.find("div", {"class": "chef__name"})
         if not container:
             return None
 
