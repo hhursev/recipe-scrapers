@@ -108,6 +108,10 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
     def ratings(self):
         raise NotImplementedError("This should be implemented.")
 
+    @Decorators.schema_org_priority
+    def author(self):
+        raise NotImplementedError("This should be implemented.")
+
     def reviews(self):
         raise NotImplementedError("This should be implemented.")
 
