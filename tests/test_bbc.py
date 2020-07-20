@@ -13,6 +13,9 @@ class TestBBCFoodScraper(ScraperTest):
     def test_host_domain(self):
         self.assertEqual("bbc.co.uk", self.harvester_class.host(domain="co.uk"))
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Rob Burns")
+
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(), "Irish cream and chocolate cheesecake"

@@ -10,6 +10,9 @@ class TestAllRecipesScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("allrecipes.com", self.harvester_class.host())
 
+    def test_author(self):
+        self.assertEqual("Michelle", self.harvester_class.author())
+
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Four Cheese Margherita Pizza")
 

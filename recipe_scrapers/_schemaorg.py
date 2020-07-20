@@ -49,6 +49,13 @@ class SchemaOrg:
     def title(self):
         return self.data.get("name")
 
+    def author(self):
+        author = self.data.get("author")
+        if author is not None:
+            if type(author) == str:
+                return author
+            return author.get("name")
+
     def total_time(self):
         total_time = get_minutes(self.data.get("totalTime"))
         if not total_time:
