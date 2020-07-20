@@ -112,6 +112,7 @@ Scrapers available for:
 - `https://seriouseats.com/ <https://seriouseats.com>`_
 - `https://simplyquinoa.com/ <https://simplyquinoa.com>`_
 - `https://simplyrecipes.com/ <https://simplyrecipes.co>`_
+- `https://skinnytaste.com/ <https://www.skinnytaste.com>`_
 - `https://southernliving.com/ <https://southernliving.com/>`_
 - `https://spendwithpennies.com/ <https://spendwithpennies.com/>`_
 - `https://steamykitchen.com/ <https://steamykitchen.com>`_
