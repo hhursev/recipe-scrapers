@@ -1,4 +1,5 @@
 import extruct
+from isodate import ISO8601Error, parse_duration
 from ._utils import get_minutes, normalize_string
 
 SCHEMA_ORG_HOST = "schema.org"
@@ -49,13 +50,23 @@ class SchemaOrg:
     def title(self):
         return self.data.get("name")
 
+    def _retrieve_time_field(self, field):
+        value = self.data.get(field)
+        if value is None:
+            return
+        try:
+            duration = parse_duration(value)
+            return int(duration.total_seconds() / 60)
+        except ISO8601Error:
+            pass
+        return get_minutes(value)
+
     def total_time(self):
-        total_time = get_minutes(self.data.get("totalTime"))
-        if not total_time:
-            return get_minutes(self.data.get("prepTime")) + get_minutes(
-                self.data.get("cookTime")
-            )
-        return total_time
+        total_time = self._retrieve_time_field("totalTime")
+        return total_time or (
+            self._retrieve_time_field("prepTime")
+            + self._retrieve_time_field("cookTime")
+        )
 
     def yields(self):
         yield_data = self.data.get("recipeYield")
