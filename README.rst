@@ -80,6 +80,7 @@ Scrapers available for:
 - `https://gonnawantseconds.com/ <https://gonnawantseconds.com>`_
 - `https://gousto.co.uk/ <https://gousto.co.uk>`_
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
+- `https://halfbakedharvest.com/ <https://www.halfbakedharvest.com/>`_
 - `https://heinzbrasil.com.br/ <https://heinzbrasil.com.br>`_
 - `https://hellofresh.com/ <https://hellofresh.com>`_
 - `https://hellofresh.co.uk/ <https://hellofresh.co.uk>`_
