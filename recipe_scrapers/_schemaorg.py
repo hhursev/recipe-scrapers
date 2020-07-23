@@ -4,7 +4,7 @@ from ._utils import get_minutes, normalize_string
 SCHEMA_ORG_HOST = "schema.org"
 SCHEMA_NAMES = ["Recipe", "WebPage"]
 
-SYNTAXES = ["microdata", "json-ld"]
+SYNTAXES = ["json-ld", "microdata"]
 
 
 class SchemaOrgException(Exception):
