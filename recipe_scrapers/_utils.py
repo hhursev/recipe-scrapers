@@ -23,6 +23,8 @@ def get_minutes(element):
         time_text = element
     else:
         time_text = element.get_text()
+    if time_text.startswith("P") and "T" in time_text:
+        time_text = time_text.split("T", 1)[1]
     if "-" in time_text:
         time_text = time_text.split("-")[
             1
