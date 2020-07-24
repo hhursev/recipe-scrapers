@@ -33,6 +33,7 @@ from .gimmesomeoven import GimmeSomeOven
 from .gonnawantseconds import GonnaWantSeconds
 from .gousto import Gousto
 from .greatbritishchefs import GreatBritishChefs
+from .halfbakedharvest import HalfBakedHarvest
 from .heinzbrasil import HeinzBrasil
 from .hellofresh import HelloFresh
 from .hostthetoast import Hostthetoast
@@ -118,6 +119,7 @@ SCRAPERS = {
     GonnaWantSeconds.host(): GonnaWantSeconds,
     Gousto.host(): Gousto,
     GreatBritishChefs.host(): GreatBritishChefs,
+    HalfBakedHarvest.host(): HalfBakedHarvest,
     HeinzBrasil.host(): HeinzBrasil,
     HelloFresh.host(): HelloFresh,
     HelloFresh.host(domain="co.uk"): HelloFresh,
