@@ -70,6 +70,7 @@ from .southernliving import SouthernLiving
 from .spendwithpennies import SpendWithPennies
 from .steamykitchen import SteamyKitchen
 from .tastesoflizzyt import TastesOfLizzyT
+from .tasteofhome import TasteOfHome
 from .tastykitchen import TastyKitchen
 from .thehappyfoodie import TheHappyFoodie
 from .thekitchn import TheKitchn
@@ -158,6 +159,7 @@ SCRAPERS = {
     SpendWithPennies.host(): SpendWithPennies,
     SteamyKitchen.host(): SteamyKitchen,
     TastesOfLizzyT.host(): TastesOfLizzyT,
+    TasteOfHome.host(): TasteOfHome,
     TastyKitchen.host(): TastyKitchen,
     TheHappyFoodie.host(): TheHappyFoodie,
     ThePioneerWoman.host(): ThePioneerWoman,
