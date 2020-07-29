@@ -7,7 +7,7 @@ class Tasty(AbstractScraper):
         return "tasty.co"
 
     def title(self):
-        return self.schema.title().replace(" Recipe by tasty", "")
+        return self.schema.title()
 
     def total_time(self):
         return self.schema.total_time()
@@ -22,7 +22,7 @@ class Tasty(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        return self.schema.instructions().replace("\n", "")
+        return self.schema.instructions()
 
     def ratings(self):
         return self.schema.ratings()
