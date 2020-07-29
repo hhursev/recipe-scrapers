@@ -15,7 +15,8 @@ class TestFitMenCookScraper(unittest.TestCase):
                 os.path.dirname(os.path.realpath(__file__)),
                 "test_data",
                 "fitmencook.testhtml",
-            )
+            ),
+            encoding="utf-8",
         ) as file_opened:
             self.harvester_class = FitMenCook(file_opened, test=True)
 
