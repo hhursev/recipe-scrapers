@@ -12,7 +12,8 @@ class TestVegolosiScraper(unittest.TestCase):
                 os.path.dirname(os.path.realpath(__file__)),
                 "test_data",
                 "vegolosi.testhtml",
-            )
+            ),
+            encoding="utf-8",
         ) as file_opened:
             self.harvester_class = Vegolosi(file_opened, test=True)
 
