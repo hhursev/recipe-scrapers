@@ -120,6 +120,7 @@ Scrapers available for:
 - `https://steamykitchen.com/ <https://steamykitchen.com>`_
 - `https://tastesoflizzyt.com <https://tastesoflizzyt.com>`_
 - `https://tasteofhome.com <https://tasteofhome.com>`_
+- `https://tasty.co <https://tasty.co>`_
 - `https://tastykitchen.com/ <https://tastykitchen.com>`_
 - `https://thehappyfoodie.co.uk/ <https://thehappyfoodie.co.uk>`_
 - `https://thekitchn.com/ <https://thekitchn.com/>`_
