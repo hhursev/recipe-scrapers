@@ -1,21 +1,11 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.vegolosi import Vegolosi
 
 
-class TestVegolosiScraper(unittest.TestCase):
-    def setUp(self):
-        # tests are run from tests.py
-        with open(
-            os.path.join(
-                os.path.dirname(os.path.realpath(__file__)),
-                "test_data",
-                "vegolosi.testhtml",
-            ),
-            encoding="utf-8",
-        ) as file_opened:
-            self.harvester_class = Vegolosi(file_opened, test=True)
+class TestVegolosiScraper(ScraperTest):
+
+    scraper_class = Vegolosi
 
     def test_host(self):
         self.assertEqual("vegolosi.it", self.harvester_class.host())
