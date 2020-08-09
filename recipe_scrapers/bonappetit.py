@@ -29,7 +29,8 @@ class BonAppetit(AbstractScraper):
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
-        instructions = self.soup.find("div", {"class": "steps-wrapper"}).findAll("li")
+        instructions = [txt.findAll("li") for txt in scraper.soup.find_all("div", {"class": "steps-wrapper"})]
+        instructions = [item for sublist in instructions for item in sublist]
 
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
