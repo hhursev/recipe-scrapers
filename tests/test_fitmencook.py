@@ -1,5 +1,4 @@
-import os
-import unittest
+from tests import ScraperTest
 
 from recipe_scrapers.fitmencook import FitMenCook
 
@@ -7,18 +6,9 @@ from recipe_scrapers.fitmencook import FitMenCook
 # https://fitmencook.com/healthy-chili-recipe/
 
 
-class TestFitMenCookScraper(unittest.TestCase):
-    def setUp(self):
-        # tests are run from tests.py
-        with open(
-            os.path.join(
-                os.path.dirname(os.path.realpath(__file__)),
-                "test_data",
-                "fitmencook.testhtml",
-            ),
-            encoding="utf-8",
-        ) as file_opened:
-            self.harvester_class = FitMenCook(file_opened, test=True)
+class TestFitMenCookScraper(ScraperTest):
+
+    scraper_class = FitMenCook
 
     def test_host(self):
         self.assertEqual("fitmencook.com", self.harvester_class.host())
