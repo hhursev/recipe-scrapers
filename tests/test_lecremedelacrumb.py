@@ -45,14 +45,7 @@ class TestLeCremeDeLaCrumbScraper(ScraperTest):
 
     def test_instructions(self):
         return self.assertEqual(
-            "\n".join(
-                [
-                    "In your instant pot/pressure cooker combine chicken, broth or water, cumin, chili powder, garlic powder, and fire roasted tomatoes (with liquid).&nbsp;",
-                    "Cover and set to PRESSURE COOK or MANUAL for 20 minutes. (30 minutes if using frozen chicken breasts)",
-                    "Do a quick release (turn vent knob to the VENT position and allow to de-pressurize until the float valve drops down) then uncover and shred chicken with two forks.&nbsp;",
-                    "Serve chicken in tortillas topped with cheese, tomatoes, avocado, cilantro, or any other favorite toppings.&nbsp;",
-                ]
-            ),
+            "In your instant pot/pressure cooker combine chicken, broth or water, cumin, chili powder, garlic powder, and fire roasted tomatoes (with liquid).\nCover and set to PRESSURE COOK or MANUAL for 20 minutes. (30 minutes if using frozen chicken breasts)\nDo a quick release (turn vent knob to the VENT position and allow to de-pressurize until the float valve drops down) then uncover and shred chicken with two forks.\nServe chicken in tortillas topped with cheese, tomatoes, avocado, cilantro, or any other favorite toppings.",
             self.harvester_class.instructions(),
         )
 
