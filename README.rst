@@ -68,6 +68,8 @@ Scrapers available for:
 - `https://countryliving.com/ <https://countryliving.com>`_
 - `https://cybercook.com.br/ <https://cybercook.com.br/>`_
 - `https://delish.com/ <https://delish.com>`_
+- `https://eatsmarter.com/ <https://eatsmarter.com/>`_
+- `https://eatsmarter.de/ <https://eatsmarter.de/>`_
 - `https://epicurious.com/ <https://epicurious.com>`_
 - `https://fifteenspatulas.com/ <https://www.fifteenspatulas.com/>`_
 - `https://finedininglovers.com/ <https://www.finedininglovers.com>`_
