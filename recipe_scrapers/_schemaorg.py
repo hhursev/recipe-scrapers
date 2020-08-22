@@ -102,13 +102,17 @@ class SchemaOrg:
         ingredients = (
             self.data.get("recipeIngredient") or self.data.get("ingredients") or []
         )
-        return [normalize_string(ingredient) for ingredient in ingredients]
+        return [
+            normalize_string(ingredient) for ingredient in ingredients if ingredient
+        ]
 
     def instructions(self):
         instructions = self.data.get("recipeInstructions") or ""
         if type(instructions) == list:
             return "\n".join(
-                instruction.get("text") if type(instruction) is dict else instruction
+                normalize_string(instruction.get("text"))
+                if type(instruction) is dict
+                else normalize_string(instruction)
                 for instruction in instructions
             )
         return instructions
