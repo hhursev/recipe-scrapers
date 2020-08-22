@@ -85,6 +85,7 @@ Scrapers available for:
 - `https://heinzbrasil.com.br/ <https://heinzbrasil.com.br>`_
 - `https://hellofresh.com/ <https://hellofresh.com>`_
 - `https://hellofresh.co.uk/ <https://hellofresh.co.uk>`_
+- `https://www.hellofresh.de/ <https://www.hellofresh.de/>`_
 - `https://hostthetoast.com/ <https://hostthetoast.com/>`_
 - `https://101cookbooks.com/ <https://101cookbooks.com/>`_
 - `https://receitas.ig.com.br/ <https://receitas.ig.com.br>`_
