@@ -59,9 +59,9 @@ class SchemaOrg:
     def total_time(self):
         total_time = get_minutes(self.data.get("totalTime"))
         if not total_time:
-            return get_minutes(self.data.get("prepTime")) + get_minutes(
-                self.data.get("cookTime")
-            )
+            prep_time = get_minutes(self.data.get("prepTime")) or 0
+            cook_time = get_minutes(self.data.get("cookTime")) or 0
+            total_time = prep_time + cook_time
         return total_time
 
     def yields(self):
