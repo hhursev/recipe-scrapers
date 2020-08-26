@@ -23,7 +23,7 @@ class TheKitchn(AbstractScraper):
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
-        instructions = self.soup.findAll("li", {"class": "Recipe__instruction-step"})
+        instructions = self.soup.findAll("li", {"class": "Recipe__instructionStep"})
 
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
