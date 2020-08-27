@@ -15,7 +15,9 @@ class TheKitchn(AbstractScraper):
         return sum([get_minutes(element) for element in elements])
 
     def yields(self):
-        return get_yields(self.soup.find("p", {"class": "jsx-1778438071 Recipe__yield"}))
+        return get_yields(
+            self.soup.find("p", {"class": "jsx-1778438071 Recipe__yield"})
+        )
 
     def ingredients(self):
         ingredients = self.soup.findAll("li", {"class": "Recipe__ingredient"})
