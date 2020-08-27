@@ -1,0 +1,1581 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+ACoupleCooks	recipe_scrapers/acouplecooks.py	/^class ACoupleCooks(AbstractScraper):$/;"	c
+AbstractScraper	recipe_scrapers/_abstract.py	/^class AbstractScraper(metaclass=ExceptionHandlingMetaclass):$/;"	c
+AllRecipes	recipe_scrapers/allrecipes.py	/^class AllRecipes(AbstractScraper):$/;"	c
+ArchanasKitchen	recipe_scrapers/archanaskitchen.py	/^class ArchanasKitchen(AbstractScraper):$/;"	c
+AverieCooks	recipe_scrapers/averiecooks.py	/^class AverieCooks(AbstractScraper):$/;"	c
+BBCFood	recipe_scrapers/bbcfood.py	/^class BBCFood(AbstractScraper):$/;"	c
+BBCGoodFood	recipe_scrapers/bbcgoodfood.py	/^class BBCGoodFood(AbstractScraper):$/;"	c
+BettyCrocker	recipe_scrapers/bettycrocker.py	/^class BettyCrocker(AbstractScraper):$/;"	c
+BonAppetit	recipe_scrapers/bonappetit.py	/^class BonAppetit(AbstractScraper):$/;"	c
+BowlOfDelicious	recipe_scrapers/bowlofdelicious.py	/^class BowlOfDelicious(AbstractScraper):$/;"	c
+BudgetBytes	recipe_scrapers/budgetbytes.py	/^class BudgetBytes(AbstractScraper):$/;"	c
+ClosetCooking	recipe_scrapers/closetcooking.py	/^class ClosetCooking(AbstractScraper):$/;"	c
+Contribute	README.rst	/^Contribute$/;"	c
+CookPad	recipe_scrapers/cookpad.py	/^class CookPad(AbstractScraper):$/;"	c
+CookieAndKate	recipe_scrapers/cookieandkate.py	/^class CookieAndKate(AbstractScraper):$/;"	c
+Cookstr	recipe_scrapers/cookstr.py	/^class Cookstr(AbstractScraper):$/;"	c
+CopyKat	recipe_scrapers/copykat.py	/^class CopyKat(AbstractScraper):$/;"	c
+CountryLiving	recipe_scrapers/countryliving.py	/^class CountryLiving(AbstractScraper):$/;"	c
+Cybercook	recipe_scrapers/cybercook.py	/^class Cybercook(AbstractScraper):$/;"	c
+Decorators	recipe_scrapers/_decorators.py	/^class Decorators:$/;"	c
+Delish	recipe_scrapers/delish.py	/^class Delish(AbstractScraper):$/;"	c
+Eatsmarter	recipe_scrapers/eatsmarter.py	/^class Eatsmarter(AbstractScraper):$/;"	c
+Epicurious	recipe_scrapers/epicurious.py	/^class Epicurious(AbstractScraper):$/;"	c
+ExceptionHandlingMetaclass	recipe_scrapers/_exception_handling.py	/^class ExceptionHandlingMetaclass(type):$/;"	c
+FAQ	README.rst	/^FAQ$/;"	c
+FifteenSpatulas	recipe_scrapers/fifteenspatulas.py	/^class FifteenSpatulas(AbstractScraper):$/;"	c
+FineDiningLovers	recipe_scrapers/finedininglovers.py	/^class FineDiningLovers(AbstractScraper):$/;"	c
+FitMenCook	recipe_scrapers/fitmencook.py	/^class FitMenCook(AbstractScraper):$/;"	c
+Food	recipe_scrapers/food.py	/^class Food(AbstractScraper):$/;"	c
+FoodNetwork	recipe_scrapers/foodnetwork.py	/^class FoodNetwork(AbstractScraper):$/;"	c
+FoodRepublic	recipe_scrapers/foodrepublic.py	/^class FoodRepublic(AbstractScraper):$/;"	c
+For Devs / Contribute	README.rst	/^For Devs \/ Contribute$/;"	c
+GeniusKitchen	recipe_scrapers/geniuskitchen.py	/^class GeniusKitchen(AbstractScraper):$/;"	c
+GialloZafferano	recipe_scrapers/giallozafferano.py	/^class GialloZafferano(AbstractScraper):$/;"	c
+GimmeSomeOven	recipe_scrapers/gimmesomeoven.py	/^class GimmeSomeOven(AbstractScraper):$/;"	c
+GonnaWantSeconds	recipe_scrapers/gonnawantseconds.py	/^class GonnaWantSeconds(AbstractScraper):$/;"	c
+Gousto	recipe_scrapers/gousto.py	/^class Gousto(AbstractScraper):$/;"	c
+GreatBritishChefs	recipe_scrapers/greatbritishchefs.py	/^class GreatBritishChefs(AbstractScraper):$/;"	c
+HEADERS	recipe_scrapers/_abstract.py	/^HEADERS = {$/;"	v
+HalfBakedHarvest	recipe_scrapers/halfbakedharvest.py	/^class HalfBakedHarvest(AbstractScraper):$/;"	c
+Hassanchef	recipe_scrapers/hassenchef.py	/^class Hassanchef(AbstractScraper):$/;"	c
+HeinzBrasil	recipe_scrapers/heinzbrasil.py	/^class HeinzBrasil(AbstractScraper):$/;"	c
+HelloFresh	recipe_scrapers/hellofresh.py	/^class HelloFresh(AbstractScraper):$/;"	c
+Hostthetoast	recipe_scrapers/hostthetoast.py	/^class Hostthetoast(AbstractScraper):$/;"	c
+HundredAndOneCookbooks	recipe_scrapers/hundredandonecookbooks.py	/^class HundredAndOneCookbooks(AbstractScraper):$/;"	c
+IG	recipe_scrapers/ig.py	/^class IG(AbstractScraper):$/;"	c
+If you want a scraper for a new site added	README.rst	/^If you want a scraper for a new site added$/;"	c
+Inspiralized	recipe_scrapers/inspiralized.py	/^class Inspiralized(AbstractScraper):$/;"	c
+JamieOliver	recipe_scrapers/jamieoliver.py	/^class JamieOliver(AbstractScraper):$/;"	c
+JustBento	recipe_scrapers/justbento.py	/^class JustBento(AbstractScraper):$/;"	c
+KennyMcGovern	recipe_scrapers/kennymcgovern.py	/^class KennyMcGovern(AbstractScraper):$/;"	c
+Kochbar	recipe_scrapers/kochbar.py	/^class Kochbar(AbstractScraper):$/;"	c
+LeCremeDeLaCrumb	recipe_scrapers/lecremedelacrumb.py	/^class LeCremeDeLaCrumb(AbstractScraper):$/;"	c
+Lovingitvegan	recipe_scrapers/lovingitvegan.py	/^class Lovingitvegan(AbstractScraper):$/;"	c
+Marmiton	recipe_scrapers/marmiton.py	/^class Marmiton(AbstractScraper):$/;"	c
+Matprat	recipe_scrapers/matprat.py	/^class Matprat(AbstractScraper):$/;"	c
+Mindmegette	recipe_scrapers/mindmegette.py	/^class Mindmegette(AbstractScraper):$/;"	c
+Minimalistbaker	recipe_scrapers/minimalistbaker.py	/^class Minimalistbaker(AbstractScraper):$/;"	c
+Misya	recipe_scrapers/misya.py	/^class Misya(AbstractScraper):$/;"	c
+MomsWithCrockPots	recipe_scrapers/momswithcrockpots.py	/^class MomsWithCrockPots(AbstractScraper):$/;"	c
+MotherThyme	recipe_scrapers/motherthyme.py	/^class MotherThyme(AbstractScraper):$/;"	c
+MyBakingAddiction	recipe_scrapers/mybakingaddiction.py	/^class MyBakingAddiction(AbstractScraper):$/;"	c
+MyRecipes	recipe_scrapers/myrecipes.py	/^class MyRecipes(AbstractScraper):$/;"	c
+NIHHealthyEating	recipe_scrapers/nihhealthyeating.py	/^class NIHHealthyEating(AbstractScraper):$/;"	c
+NYTimes	recipe_scrapers/nytimes.py	/^class NYTimes(AbstractScraper):$/;"	c
+ON_EXCEPTION_RETURN_VALUES	recipe_scrapers/_exception_handling.py	/^ON_EXCEPTION_RETURN_VALUES = {$/;"	v
+OhSheGlows	recipe_scrapers/ohsheglows.py	/^class OhSheGlows(AbstractScraper):$/;"	c
+Panelinha	recipe_scrapers/panelinha.py	/^class Panelinha(AbstractScraper):$/;"	c
+PaniniHappy	recipe_scrapers/paninihappy.py	/^class PaniniHappy(AbstractScraper):$/;"	c
+Przepisy	recipe_scrapers/przepisy.py	/^class Przepisy(AbstractScraper):$/;"	c
+README	setup.py	/^README = open(os.path.join(os.path.dirname(__file__), "README.rst")).read()$/;"	v
+RealSimple	recipe_scrapers/realsimple.py	/^class RealSimple(AbstractScraper):$/;"	c
+SCHEMA_NAMES	recipe_scrapers/_schemaorg.py	/^SCHEMA_NAMES = ["Recipe", "WebPage"]$/;"	v
+SCHEMA_ORG_HOST	recipe_scrapers/_schemaorg.py	/^SCHEMA_ORG_HOST = "schema.org"$/;"	v
+SCRAPERS	recipe_scrapers/__init__.py	/^SCRAPERS = {$/;"	v
+SERVE_REGEX_ITEMS	recipe_scrapers/_utils.py	/^SERVE_REGEX_ITEMS = re.compile($/;"	v
+SERVE_REGEX_NUMBER	recipe_scrapers/_utils.py	/^SERVE_REGEX_NUMBER = re.compile(r"(\\D*(?P<items>\\d+)?\\D*)")$/;"	v
+SERVE_REGEX_TO	recipe_scrapers/_utils.py	/^SERVE_REGEX_TO = re.compile(r"\\d+(\\s+to\\s+|-)\\d+", flags=re.I | re.X)$/;"	v
+SYNTAXES	recipe_scrapers/_schemaorg.py	/^SYNTAXES = ["json-ld", "microdata"]$/;"	v
+SchemaOrg	recipe_scrapers/_schemaorg.py	/^class SchemaOrg:$/;"	c
+SchemaOrgException	recipe_scrapers/_schemaorg.py	/^class SchemaOrgException(Exception):$/;"	c
+ScraperTest	tests/__init__.py	/^class ScraperTest(unittest.TestCase):$/;"	c
+Scrapers available for:	README.rst	/^Scrapers available for:$/;"	c
+SeriousEats	recipe_scrapers/seriouseats.py	/^class SeriousEats(AbstractScraper):$/;"	c
+SimplyQuinoa	recipe_scrapers/simplyquinoa.py	/^class SimplyQuinoa(AbstractScraper):$/;"	c
+SimplyRecipes	recipe_scrapers/simplyrecipes.py	/^class SimplyRecipes(AbstractScraper):$/;"	c
+SkinnyTaste	recipe_scrapers/skinnytaste.py	/^class SkinnyTaste(AbstractScraper):$/;"	c
+SouthernLiving	recipe_scrapers/southernliving.py	/^class SouthernLiving(AbstractScraper):$/;"	c
+Spacial thanks to:	README.rst	/^Spacial thanks to:$/;"	c
+SpendWithPennies	recipe_scrapers/spendwithpennies.py	/^class SpendWithPennies(AbstractScraper):$/;"	c
+SteamyKitchen	recipe_scrapers/steamykitchen.py	/^class SteamyKitchen(AbstractScraper):$/;"	c
+TIME_REGEX	recipe_scrapers/_utils.py	/^TIME_REGEX = re.compile($/;"	v
+TasteOfHome	recipe_scrapers/tasteofhome.py	/^class TasteOfHome(AbstractScraper):$/;"	c
+TastesOfLizzyT	recipe_scrapers/tastesoflizzyt.py	/^class TastesOfLizzyT(AbstractScraper):$/;"	c
+Tasty	recipe_scrapers/tasty.py	/^class Tasty(AbstractScraper):$/;"	c
+TastyKitchen	recipe_scrapers/tastykitchen.py	/^class TastyKitchen(AbstractScraper):$/;"	c
+TestACoupleCooks	tests/test_acouplecooks.py	/^class TestACoupleCooks(ScraperTest):$/;"	c
+TestAllRecipesScraper	tests/test_allrecipes.py	/^class TestAllRecipesScraper(ScraperTest):$/;"	c
+TestArchanasKitchenScraper	tests/test_archanaskitchen.py	/^class TestArchanasKitchenScraper(ScraperTest):$/;"	c
+TestAverieCooksScraper	tests/test_averiecooks.py	/^class TestAverieCooksScraper(ScraperTest):$/;"	c
+TestBBCFoodScraper	tests/test_bbc.py	/^class TestBBCFoodScraper(ScraperTest):$/;"	c
+TestBBCGoodFoodScraper	tests/test_bbcgoodfood.py	/^class TestBBCGoodFoodScraper(ScraperTest):$/;"	c
+TestBettyCrocker	tests/test_bettycrocker.py	/^class TestBettyCrocker(ScraperTest):$/;"	c
+TestBonAppetitScraper	tests/test_bonappetit.py	/^class TestBonAppetitScraper(ScraperTest):$/;"	c
+TestBowlOfDeliciousScraper	tests/test_bowlofdelicious.py	/^class TestBowlOfDeliciousScraper(ScraperTest):$/;"	c
+TestBudgetBytesScraper	tests/test_budgetbytes.py	/^class TestBudgetBytesScraper(ScraperTest):$/;"	c
+TestClosetCooking	tests/test_closetcooking.py	/^class TestClosetCooking(ScraperTest):$/;"	c
+TestClosetCooking	tests/test_eatsmarter.py	/^class TestClosetCooking(ScraperTest):$/;"	c
+TestClosetCooking	tests/test_hassanchef.py	/^class TestClosetCooking(ScraperTest):$/;"	c
+TestCookPadScraper	tests/test_cookpad.py	/^class TestCookPadScraper(ScraperTest):$/;"	c
+TestCookieAndKateScraper	tests/test_cookieandkate.py	/^class TestCookieAndKateScraper(ScraperTest):$/;"	c
+TestCookstrScraper	tests/test_cookstr.py	/^class TestCookstrScraper(ScraperTest):$/;"	c
+TestCopyKat	tests/test_copykat.py	/^class TestCopyKat(ScraperTest):$/;"	c
+TestCountryLivingScraper	tests/test_countryliving.py	/^class TestCountryLivingScraper(ScraperTest):$/;"	c
+TestCybercook	tests/test_cybercook.py	/^class TestCybercook(ScraperTest):$/;"	c
+TestDelishScraper	tests/test_delish.py	/^class TestDelishScraper(ScraperTest):$/;"	c
+TestEpicurious	tests/test_epicurious.py	/^class TestEpicurious(ScraperTest):$/;"	c
+TestFifteenSpatulasScraper	tests/test_fifteenspatulas.py	/^class TestFifteenSpatulasScraper(ScraperTest):$/;"	c
+TestFineDiningLoversScraper	tests/test_finedininglovers.py	/^class TestFineDiningLoversScraper(ScraperTest):$/;"	c
+TestFitMenCookScraper	tests/test_fitmencook.py	/^class TestFitMenCookScraper(ScraperTest):$/;"	c
+TestFoodNetworkScraper	tests/test_foodnetwork.py	/^class TestFoodNetworkScraper(ScraperTest):$/;"	c
+TestFoodRepublicScraper	tests/test_foodrepublic.py	/^class TestFoodRepublicScraper(ScraperTest):$/;"	c
+TestFoodScraper	tests/test_food.py	/^class TestFoodScraper(ScraperTest):$/;"	c
+TestGeniusKitchenScraper	tests/test_geniuskitchen.py	/^class TestGeniusKitchenScraper(ScraperTest):$/;"	c
+TestGialloZafferanoScraper	tests/test_giallozafferano.py	/^class TestGialloZafferanoScraper(ScraperTest):$/;"	c
+TestGimmeSomeOvenScraper	tests/test_gimmesomeoven.py	/^class TestGimmeSomeOvenScraper(ScraperTest):$/;"	c
+TestGonnaWantSeconds	tests/test_gonnawantseconds.py	/^class TestGonnaWantSeconds(ScraperTest):$/;"	c
+TestGoustoScraper	tests/test_gousto.py	/^class TestGoustoScraper(ScraperTest):$/;"	c
+TestGreatBritishChefsScraper	tests/test_greatbritishchefs.py	/^class TestGreatBritishChefsScraper(ScraperTest):$/;"	c
+TestHalfBakedHarvestScraper	tests/test_halfbakedharvest.py	/^class TestHalfBakedHarvestScraper(ScraperTest):$/;"	c
+TestHeinzBrasilScraper	tests/test_heinzbrasil.py	/^class TestHeinzBrasilScraper(ScraperTest):$/;"	c
+TestHelloFreshScraper	tests/test_hellofresh.py	/^class TestHelloFreshScraper(ScraperTest):$/;"	c
+TestHostthetoastScraper	tests/test_hostthetoast.py	/^class TestHostthetoastScraper(ScraperTest):$/;"	c
+TestHundredAndOneCookbooksScraper	tests/test_hundredandonecookbooks.py	/^class TestHundredAndOneCookbooksScraper(ScraperTest):$/;"	c
+TestIGScraper	tests/test_ig.py	/^class TestIGScraper(ScraperTest):$/;"	c
+TestInspiralizedScraper	tests/test_inspiralized.py	/^class TestInspiralizedScraper(ScraperTest):$/;"	c
+TestJamieOliverScraper	tests/test_jamieoliver.py	/^class TestJamieOliverScraper(ScraperTest):$/;"	c
+TestJustBentoScraper	tests/test_justbento.py	/^class TestJustBentoScraper(ScraperTest):$/;"	c
+TestKennyMcGovernScraper	tests/test_kennymcgovern.py	/^class TestKennyMcGovernScraper(ScraperTest):$/;"	c
+TestKitchnScraper	tests/test_thekitchn.py	/^class TestKitchnScraper(ScraperTest):$/;"	c
+TestKochbarScraper	tests/test_kochbar.py	/^class TestKochbarScraper(ScraperTest):$/;"	c
+TestLeCremeDeLaCrumbScraper	tests/test_lecremedelacrumb.py	/^class TestLeCremeDeLaCrumbScraper(ScraperTest):$/;"	c
+TestLovingitveganScraper	tests/test_lovingitvegan.py	/^class TestLovingitveganScraper(ScraperTest):$/;"	c
+TestMarmitonScraper	tests/test_marmiton.py	/^class TestMarmitonScraper(ScraperTest):$/;"	c
+TestMatprat	tests/test_matprat.py	/^class TestMatprat(ScraperTest):$/;"	c
+TestMindmegetteScraper	tests/test_mindmegette.py	/^class TestMindmegetteScraper(ScraperTest):$/;"	c
+TestMinimalistbakerScraper	tests/test_minimalistbaker.py	/^class TestMinimalistbakerScraper(ScraperTest):$/;"	c
+TestMisya	tests/test_misya.py	/^class TestMisya(ScraperTest):$/;"	c
+TestMomsWithCrockPotsScraper	tests/test_momswithcrockpots.py	/^class TestMomsWithCrockPotsScraper(ScraperTest):$/;"	c
+TestMotherThymeScraper	tests/test_motherthyme.py	/^class TestMotherThymeScraper(ScraperTest):$/;"	c
+TestMyBakingAddictionScraper	tests/test_mybakingaddiction.py	/^class TestMyBakingAddictionScraper(ScraperTest):$/;"	c
+TestMyRecipesScraper	tests/test_myrecipes.py	/^class TestMyRecipesScraper(ScraperTest):$/;"	c
+TestNIHHealthyEatingRecipesScraper	tests/test_nih.py	/^class TestNIHHealthyEatingRecipesScraper(ScraperTest):$/;"	c
+TestNYTimesScraper	tests/test_nytimes.py	/^class TestNYTimesScraper(ScraperTest):$/;"	c
+TestOhSheGlowsScraper	tests/test_ohsheglows.py	/^class TestOhSheGlowsScraper(ScraperTest):$/;"	c
+TestPanelinhaScraper	tests/test_panelinha.py	/^class TestPanelinhaScraper(ScraperTest):$/;"	c
+TestPaniniHappyScraper	tests/test_paninihappy.py	/^class TestPaniniHappyScraper(ScraperTest):$/;"	c
+TestPrzepisyScraper	tests/test_przepisy.py	/^class TestPrzepisyScraper(ScraperTest):$/;"	c
+TestRealSimpleScraper	tests/test_realsimple.py	/^class TestRealSimpleScraper(ScraperTest):$/;"	c
+TestSchemaOrg	tests/test_schemaorg.py	/^class TestSchemaOrg(unittest.TestCase):$/;"	c
+TestSeriousEats	tests/test_seriouseats.py	/^class TestSeriousEats(ScraperTest):$/;"	c
+TestSimplyQuinoaScraper	tests/test_simplyquinoa.py	/^class TestSimplyQuinoaScraper(ScraperTest):$/;"	c
+TestSimplyRecipesScraper	tests/test_simplyrecipes.py	/^class TestSimplyRecipesScraper(ScraperTest):$/;"	c
+TestSkinnyTasteScraper	tests/test_skinnytaste.py	/^class TestSkinnyTasteScraper(ScraperTest):$/;"	c
+TestSouthernLiving	tests/test_southernliving.py	/^class TestSouthernLiving(ScraperTest):$/;"	c
+TestSpendWithPenniesScraper	tests/test_spendwithpennies.py	/^class TestSpendWithPenniesScraper(ScraperTest):$/;"	c
+TestSteamyKitchenScraper	tests/test_steamykitchen.py	/^class TestSteamyKitchenScraper(ScraperTest):$/;"	c
+TestTasteOfHomeScraper	tests/test_tasteofhome.py	/^class TestTasteOfHomeScraper(ScraperTest):$/;"	c
+TestTastesOfLizzyTScraper	tests/test_tastesoflizzyt.py	/^class TestTastesOfLizzyTScraper(ScraperTest):$/;"	c
+TestTastyKitchenScraper	tests/test_tastykitchen.py	/^class TestTastyKitchenScraper(ScraperTest):$/;"	c
+TestTastyScraper	tests/test_tasty.py	/^class TestTastyScraper(ScraperTest):$/;"	c
+TestTheHappyFoodie	tests/test_thehappyfoodie.py	/^class TestTheHappyFoodie(ScraperTest):$/;"	c
+TestThePioneerWomanScraper	tests/test_thepioneerwoman.py	/^class TestThePioneerWomanScraper(ScraperTest):$/;"	c
+TestTheSpruceEatsScraper	tests/test_thespruceeats.py	/^class TestTheSpruceEatsScraper(ScraperTest):$/;"	c
+TestTheVintageMixerScraper	tests/test_thevintagemixer.py	/^class TestTheVintageMixerScraper(ScraperTest):$/;"	c
+TestThewoksoflifeScraper	tests/test_thewoksoflife.py	/^class TestThewoksoflifeScraper(ScraperTest):$/;"	c
+TestTineNoScraper	tests/test_tine.py	/^class TestTineNoScraper(ScraperTest):$/;"	c
+TestTudoGostosoScraper	tests/test_tudogostoso.py	/^class TestTudoGostosoScraper(ScraperTest):$/;"	c
+TestTwoPeasAndTheirPodScraper	tests/test_twopeasandtheirpod.py	/^class TestTwoPeasAndTheirPodScraper(ScraperTest):$/;"	c
+TestVegolosiScraper	tests/test_vegolosi.py	/^class TestVegolosiScraper(ScraperTest):$/;"	c
+TestWatchWhatUEatScraper	tests/test_watchwhatueat.py	/^class TestWatchWhatUEatScraper(ScraperTest):$/;"	c
+TestWhatsGabyCookingScraper	tests/test_whatsgabycooking.py	/^class TestWhatsGabyCookingScraper(ScraperTest):$/;"	c
+TestWikiCookbookScraper	tests/test_wikibooks.py	/^class TestWikiCookbookScraper(ScraperTest):$/;"	c
+TestYummlyScraper	tests/test_yummly.py	/^class TestYummlyScraper(ScraperTest):$/;"	c
+TheHappyFoodie	recipe_scrapers/thehappyfoodie.py	/^class TheHappyFoodie(AbstractScraper):$/;"	c
+TheKitchn	recipe_scrapers/thekitchn.py	/^class TheKitchn(AbstractScraper):$/;"	c
+ThePioneerWoman	recipe_scrapers/thepioneerwoman.py	/^class ThePioneerWoman(AbstractScraper):$/;"	c
+TheSpruceEats	recipe_scrapers/thespruceeats.py	/^class TheSpruceEats(AbstractScraper):$/;"	c
+TheVintageMixer	recipe_scrapers/thevintagemixer.py	/^class TheVintageMixer(AbstractScraper):$/;"	c
+Thewoksoflife	recipe_scrapers/thewoksoflife.py	/^class Thewoksoflife(AbstractScraper):$/;"	c
+TineNo	recipe_scrapers/tineno.py	/^class TineNo(AbstractScraper):$/;"	c
+TudoGostoso	recipe_scrapers/tudogostoso.py	/^class TudoGostoso(AbstractScraper):$/;"	c
+TwoPeasAndTheirPod	recipe_scrapers/twopeasandtheirpod.py	/^class TwoPeasAndTheirPod(AbstractScraper):$/;"	c
+UtilsTest	tests/library/test_utils.py	/^class UtilsTest(unittest.TestCase):$/;"	c
+Vegolosi	recipe_scrapers/vegolosi.py	/^class Vegolosi(AbstractScraper):$/;"	c
+WatchWhatUEat	recipe_scrapers/watchwhatueat.py	/^class WatchWhatUEat(AbstractScraper):$/;"	c
+WebsiteNotImplementedError	recipe_scrapers/__init__.py	/^class WebsiteNotImplementedError(NotImplementedError):$/;"	c
+WhatsGabyCooking	recipe_scrapers/whatsgabycooking.py	/^class WhatsGabyCooking(AbstractScraper):$/;"	c
+WikiCookbook	recipe_scrapers/wikicookbook.py	/^class WikiCookbook(AbstractScraper):$/;"	c
+Yummly	recipe_scrapers/yummly.py	/^class Yummly(AbstractScraper):$/;"	c
+__all__	recipe_scrapers/__init__.py	/^__all__ = ["scrape_me"]$/;"	v
+__init__	recipe_scrapers/__init__.py	/^    def __init__(self, domain):$/;"	m	class:WebsiteNotImplementedError
+__init__	recipe_scrapers/_abstract.py	/^    def __init__(self, url, exception_handling=True, meta_http_equiv=False, test=False):$/;"	m	class:AbstractScraper
+__init__	recipe_scrapers/_schemaorg.py	/^    def __init__(self, message):$/;"	m	class:SchemaOrgException
+__init__	recipe_scrapers/_schemaorg.py	/^    def __init__(self, page_data, host):$/;"	m	class:SchemaOrg
+__new__	recipe_scrapers/_exception_handling.py	/^    def __new__(cls, class_name, bases, attributes):$/;"	m	class:ExceptionHandlingMetaclass
+__str__	recipe_scrapers/__init__.py	/^    def __str__(self):$/;"	m	class:WebsiteNotImplementedError
+__version__	recipe_scrapers/__version__.py	/^__version__ = "9.1.1"$/;"	v
+about	setup.py	/^about = {}$/;"	v
+author	recipe_scrapers/_abstract.py	/^    def author(self):$/;"	m	class:AbstractScraper
+author	recipe_scrapers/_schemaorg.py	/^    def author(self):$/;"	m	class:SchemaOrg
+author	recipe_scrapers/bbcfood.py	/^    def author(self):$/;"	m	class:BBCFood
+bcp47_validate	recipe_scrapers/_decorators.py	/^    def bcp47_validate(decorated):$/;"	m	class:Decorators
+bcp47_validate_wrapper	recipe_scrapers/_decorators.py	/^        def bcp47_validate_wrapper(self, *args, **kwargs):$/;"	f	member:Decorators.bcp47_validate	file:
+cooking_time	recipe_scrapers/vegolosi.py	/^    def cooking_time(self):$/;"	m	class:Vegolosi
+description	recipe_scrapers/copykat.py	/^    def description(self):$/;"	m	class:CopyKat
+description	recipe_scrapers/gonnawantseconds.py	/^    def description(self):$/;"	m	class:GonnaWantSeconds
+description	recipe_scrapers/greatbritishchefs.py	/^    def description(self):$/;"	m	class:GreatBritishChefs
+description	recipe_scrapers/matprat.py	/^    def description(self):$/;"	m	class:Matprat
+description	recipe_scrapers/southernliving.py	/^    def description(self):$/;"	m	class:SouthernLiving
+description	recipe_scrapers/tineno.py	/^    def description(self):$/;"	m	class:TineNo
+exception_handling	recipe_scrapers/_exception_handling.py	/^def exception_handling(decorated):$/;"	f
+exception_handling_wrapper	recipe_scrapers/_exception_handling.py	/^    def exception_handling_wrapper(self, *args, **kwargs):$/;"	f	function:exception_handling	file:
+get_domain	recipe_scrapers/__init__.py	/^def get_domain(url):$/;"	f
+get_minutes	recipe_scrapers/_utils.py	/^def get_minutes(element):$/;"	f
+get_yields	recipe_scrapers/_utils.py	/^def get_yields(element):$/;"	f
+harvest	recipe_scrapers/__init__.py	/^def harvest(url, **options):$/;"	f
+here	setup.py	/^here = os.path.abspath(os.path.dirname(__file__))$/;"	v
+host	recipe_scrapers/_abstract.py	/^    def host(cls):$/;"	m	class:AbstractScraper
+host	recipe_scrapers/acouplecooks.py	/^    def host(cls):$/;"	m	class:ACoupleCooks
+host	recipe_scrapers/allrecipes.py	/^    def host(cls):$/;"	m	class:AllRecipes
+host	recipe_scrapers/archanaskitchen.py	/^    def host(cls):$/;"	m	class:ArchanasKitchen
+host	recipe_scrapers/averiecooks.py	/^    def host(cls):$/;"	m	class:AverieCooks
+host	recipe_scrapers/bbcfood.py	/^    def host(self, domain="com"):$/;"	m	class:BBCFood
+host	recipe_scrapers/bbcgoodfood.py	/^    def host(cls):$/;"	m	class:BBCGoodFood
+host	recipe_scrapers/bettycrocker.py	/^    def host(cls):$/;"	m	class:BettyCrocker
+host	recipe_scrapers/bonappetit.py	/^    def host(cls):$/;"	m	class:BonAppetit
+host	recipe_scrapers/bowlofdelicious.py	/^    def host(cls):$/;"	m	class:BowlOfDelicious
+host	recipe_scrapers/budgetbytes.py	/^    def host(cls):$/;"	m	class:BudgetBytes
+host	recipe_scrapers/closetcooking.py	/^    def host(cls):$/;"	m	class:ClosetCooking
+host	recipe_scrapers/cookieandkate.py	/^    def host(cls):$/;"	m	class:CookieAndKate
+host	recipe_scrapers/cookpad.py	/^    def host(cls):$/;"	m	class:CookPad
+host	recipe_scrapers/cookstr.py	/^    def host(cls):$/;"	m	class:Cookstr
+host	recipe_scrapers/copykat.py	/^    def host(cls):$/;"	m	class:CopyKat
+host	recipe_scrapers/countryliving.py	/^    def host(cls):$/;"	m	class:CountryLiving
+host	recipe_scrapers/cybercook.py	/^    def host(cls):$/;"	m	class:Cybercook
+host	recipe_scrapers/delish.py	/^    def host(cls):$/;"	m	class:Delish
+host	recipe_scrapers/eatsmarter.py	/^    def host(self, domain="com"):$/;"	m	class:Eatsmarter
+host	recipe_scrapers/epicurious.py	/^    def host(cls):$/;"	m	class:Epicurious
+host	recipe_scrapers/fifteenspatulas.py	/^    def host(cls):$/;"	m	class:FifteenSpatulas
+host	recipe_scrapers/finedininglovers.py	/^    def host(cls):$/;"	m	class:FineDiningLovers
+host	recipe_scrapers/fitmencook.py	/^    def host(cls):$/;"	m	class:FitMenCook
+host	recipe_scrapers/food.py	/^    def host(cls):$/;"	m	class:Food
+host	recipe_scrapers/foodnetwork.py	/^    def host(cls):$/;"	m	class:FoodNetwork
+host	recipe_scrapers/foodrepublic.py	/^    def host(cls):$/;"	m	class:FoodRepublic
+host	recipe_scrapers/geniuskitchen.py	/^    def host(cls):$/;"	m	class:GeniusKitchen
+host	recipe_scrapers/giallozafferano.py	/^    def host(cls):$/;"	m	class:GialloZafferano
+host	recipe_scrapers/gimmesomeoven.py	/^    def host(cls):$/;"	m	class:GimmeSomeOven
+host	recipe_scrapers/gonnawantseconds.py	/^    def host(cls):$/;"	m	class:GonnaWantSeconds
+host	recipe_scrapers/gousto.py	/^    def host(cls):$/;"	m	class:Gousto
+host	recipe_scrapers/greatbritishchefs.py	/^    def host(cls):$/;"	m	class:GreatBritishChefs
+host	recipe_scrapers/halfbakedharvest.py	/^    def host(cls):$/;"	m	class:HalfBakedHarvest
+host	recipe_scrapers/hassenchef.py	/^    def host(cls):$/;"	m	class:Hassanchef
+host	recipe_scrapers/heinzbrasil.py	/^    def host(cls):$/;"	m	class:HeinzBrasil
+host	recipe_scrapers/hellofresh.py	/^    def host(self, domain="com"):$/;"	m	class:HelloFresh
+host	recipe_scrapers/hostthetoast.py	/^    def host(cls):$/;"	m	class:Hostthetoast
+host	recipe_scrapers/hundredandonecookbooks.py	/^    def host(cls):$/;"	m	class:HundredAndOneCookbooks
+host	recipe_scrapers/ig.py	/^    def host(cls):$/;"	m	class:IG
+host	recipe_scrapers/inspiralized.py	/^    def host(cls):$/;"	m	class:Inspiralized
+host	recipe_scrapers/jamieoliver.py	/^    def host(cls):$/;"	m	class:JamieOliver
+host	recipe_scrapers/justbento.py	/^    def host(cls):$/;"	m	class:JustBento
+host	recipe_scrapers/kennymcgovern.py	/^    def host(cls):$/;"	m	class:KennyMcGovern
+host	recipe_scrapers/kochbar.py	/^    def host(cls):$/;"	m	class:Kochbar
+host	recipe_scrapers/lecremedelacrumb.py	/^    def host(cls):$/;"	m	class:LeCremeDeLaCrumb
+host	recipe_scrapers/lovingitvegan.py	/^    def host(cls):$/;"	m	class:Lovingitvegan
+host	recipe_scrapers/marmiton.py	/^    def host(cls):$/;"	m	class:Marmiton
+host	recipe_scrapers/matprat.py	/^    def host(cls):$/;"	m	class:Matprat
+host	recipe_scrapers/mindmegette.py	/^    def host(cls):$/;"	m	class:Mindmegette
+host	recipe_scrapers/minimalistbaker.py	/^    def host(cls):$/;"	m	class:Minimalistbaker
+host	recipe_scrapers/misya.py	/^    def host(cls):$/;"	m	class:Misya
+host	recipe_scrapers/momswithcrockpots.py	/^    def host(cls):$/;"	m	class:MomsWithCrockPots
+host	recipe_scrapers/motherthyme.py	/^    def host(cls):$/;"	m	class:MotherThyme
+host	recipe_scrapers/mybakingaddiction.py	/^    def host(cls):$/;"	m	class:MyBakingAddiction
+host	recipe_scrapers/myrecipes.py	/^    def host(cls):$/;"	m	class:MyRecipes
+host	recipe_scrapers/nihhealthyeating.py	/^    def host(cls):$/;"	m	class:NIHHealthyEating
+host	recipe_scrapers/nytimes.py	/^    def host(cls):$/;"	m	class:NYTimes
+host	recipe_scrapers/ohsheglows.py	/^    def host(cls):$/;"	m	class:OhSheGlows
+host	recipe_scrapers/panelinha.py	/^    def host(cls):$/;"	m	class:Panelinha
+host	recipe_scrapers/paninihappy.py	/^    def host(cls):$/;"	m	class:PaniniHappy
+host	recipe_scrapers/przepisy.py	/^    def host(cls):$/;"	m	class:Przepisy
+host	recipe_scrapers/realsimple.py	/^    def host(cls):$/;"	m	class:RealSimple
+host	recipe_scrapers/seriouseats.py	/^    def host(cls):$/;"	m	class:SeriousEats
+host	recipe_scrapers/simplyquinoa.py	/^    def host(cls):$/;"	m	class:SimplyQuinoa
+host	recipe_scrapers/simplyrecipes.py	/^    def host(cls):$/;"	m	class:SimplyRecipes
+host	recipe_scrapers/skinnytaste.py	/^    def host(cls):$/;"	m	class:SkinnyTaste
+host	recipe_scrapers/southernliving.py	/^    def host(cls):$/;"	m	class:SouthernLiving
+host	recipe_scrapers/spendwithpennies.py	/^    def host(cls):$/;"	m	class:SpendWithPennies
+host	recipe_scrapers/steamykitchen.py	/^    def host(cls):$/;"	m	class:SteamyKitchen
+host	recipe_scrapers/tasteofhome.py	/^    def host(cls):$/;"	m	class:TasteOfHome
+host	recipe_scrapers/tastesoflizzyt.py	/^    def host(cls):$/;"	m	class:TastesOfLizzyT
+host	recipe_scrapers/tasty.py	/^    def host(cls):$/;"	m	class:Tasty
+host	recipe_scrapers/tastykitchen.py	/^    def host(cls):$/;"	m	class:TastyKitchen
+host	recipe_scrapers/thehappyfoodie.py	/^    def host(cls):$/;"	m	class:TheHappyFoodie
+host	recipe_scrapers/thekitchn.py	/^    def host(cls):$/;"	m	class:TheKitchn
+host	recipe_scrapers/thepioneerwoman.py	/^    def host(cls):$/;"	m	class:ThePioneerWoman
+host	recipe_scrapers/thespruceeats.py	/^    def host(cls):$/;"	m	class:TheSpruceEats
+host	recipe_scrapers/thevintagemixer.py	/^    def host(cls):$/;"	m	class:TheVintageMixer
+host	recipe_scrapers/thewoksoflife.py	/^    def host(cls):$/;"	m	class:Thewoksoflife
+host	recipe_scrapers/tineno.py	/^    def host(cls):$/;"	m	class:TineNo
+host	recipe_scrapers/tudogostoso.py	/^    def host(cls):$/;"	m	class:TudoGostoso
+host	recipe_scrapers/twopeasandtheirpod.py	/^    def host(cls):$/;"	m	class:TwoPeasAndTheirPod
+host	recipe_scrapers/vegolosi.py	/^    def host(cls):$/;"	m	class:Vegolosi
+host	recipe_scrapers/watchwhatueat.py	/^    def host(cls):$/;"	m	class:WatchWhatUEat
+host	recipe_scrapers/whatsgabycooking.py	/^    def host(cls):$/;"	m	class:WhatsGabyCooking
+host	recipe_scrapers/wikicookbook.py	/^    def host(cls):$/;"	m	class:WikiCookbook
+host	recipe_scrapers/yummly.py	/^    def host(cls):$/;"	m	class:Yummly
+image	recipe_scrapers/_abstract.py	/^    def image(self):$/;"	m	class:AbstractScraper
+image	recipe_scrapers/_schemaorg.py	/^    def image(self):$/;"	m	class:SchemaOrg
+image	recipe_scrapers/allrecipes.py	/^    def image(self):$/;"	m	class:AllRecipes
+image	recipe_scrapers/averiecooks.py	/^    def image(self):$/;"	m	class:AverieCooks
+image	recipe_scrapers/bbcfood.py	/^    def image(self):$/;"	m	class:BBCFood
+image	recipe_scrapers/bbcgoodfood.py	/^    def image(self):$/;"	m	class:BBCGoodFood
+image	recipe_scrapers/bettycrocker.py	/^    def image(self):$/;"	m	class:BettyCrocker
+image	recipe_scrapers/bowlofdelicious.py	/^    def image(self):$/;"	m	class:BowlOfDelicious
+image	recipe_scrapers/cookpad.py	/^    def image(self):$/;"	m	class:CookPad
+image	recipe_scrapers/copykat.py	/^    def image(self):$/;"	m	class:CopyKat
+image	recipe_scrapers/cybercook.py	/^    def image(self):$/;"	m	class:Cybercook
+image	recipe_scrapers/delish.py	/^    def image(self):$/;"	m	class:Delish
+image	recipe_scrapers/eatsmarter.py	/^    def image(self):$/;"	m	class:Eatsmarter
+image	recipe_scrapers/epicurious.py	/^    def image(self):$/;"	m	class:Epicurious
+image	recipe_scrapers/fifteenspatulas.py	/^    def image(self):$/;"	m	class:FifteenSpatulas
+image	recipe_scrapers/finedininglovers.py	/^    def image(self):$/;"	m	class:FineDiningLovers
+image	recipe_scrapers/gimmesomeoven.py	/^    def image(self):$/;"	m	class:GimmeSomeOven
+image	recipe_scrapers/gonnawantseconds.py	/^    def image(self):$/;"	m	class:GonnaWantSeconds
+image	recipe_scrapers/greatbritishchefs.py	/^    def image(self):$/;"	m	class:GreatBritishChefs
+image	recipe_scrapers/halfbakedharvest.py	/^    def image(self):$/;"	m	class:HalfBakedHarvest
+image	recipe_scrapers/hassenchef.py	/^    def image(self):$/;"	m	class:Hassanchef
+image	recipe_scrapers/heinzbrasil.py	/^    def image(self):$/;"	m	class:HeinzBrasil
+image	recipe_scrapers/hostthetoast.py	/^    def image(self):$/;"	m	class:Hostthetoast
+image	recipe_scrapers/ig.py	/^    def image(self):$/;"	m	class:IG
+image	recipe_scrapers/jamieoliver.py	/^    def image(self):$/;"	m	class:JamieOliver
+image	recipe_scrapers/justbento.py	/^    def image(self):$/;"	m	class:JustBento
+image	recipe_scrapers/kochbar.py	/^    def image(self):$/;"	m	class:Kochbar
+image	recipe_scrapers/lecremedelacrumb.py	/^    def image(self):$/;"	m	class:LeCremeDeLaCrumb
+image	recipe_scrapers/lovingitvegan.py	/^    def image(self):$/;"	m	class:Lovingitvegan
+image	recipe_scrapers/marmiton.py	/^    def image(self):$/;"	m	class:Marmiton
+image	recipe_scrapers/matprat.py	/^    def image(self):$/;"	m	class:Matprat
+image	recipe_scrapers/mindmegette.py	/^    def image(self):$/;"	m	class:Mindmegette
+image	recipe_scrapers/minimalistbaker.py	/^    def image(self):$/;"	m	class:Minimalistbaker
+image	recipe_scrapers/misya.py	/^    def image(self):$/;"	m	class:Misya
+image	recipe_scrapers/myrecipes.py	/^    def image(self):$/;"	m	class:MyRecipes
+image	recipe_scrapers/nytimes.py	/^    def image(self):$/;"	m	class:NYTimes
+image	recipe_scrapers/ohsheglows.py	/^    def image(self):$/;"	m	class:OhSheGlows
+image	recipe_scrapers/paninihappy.py	/^    def image(self):$/;"	m	class:PaniniHappy
+image	recipe_scrapers/skinnytaste.py	/^    def image(self):$/;"	m	class:SkinnyTaste
+image	recipe_scrapers/southernliving.py	/^    def image(self):$/;"	m	class:SouthernLiving
+image	recipe_scrapers/spendwithpennies.py	/^    def image(self):$/;"	m	class:SpendWithPennies
+image	recipe_scrapers/steamykitchen.py	/^    def image(self):$/;"	m	class:SteamyKitchen
+image	recipe_scrapers/tasteofhome.py	/^    def image(self):$/;"	m	class:TasteOfHome
+image	recipe_scrapers/tasty.py	/^    def image(self):$/;"	m	class:Tasty
+image	recipe_scrapers/tastykitchen.py	/^    def image(self):$/;"	m	class:TastyKitchen
+image	recipe_scrapers/thevintagemixer.py	/^    def image(self):$/;"	m	class:TheVintageMixer
+image	recipe_scrapers/thewoksoflife.py	/^    def image(self):$/;"	m	class:Thewoksoflife
+image	recipe_scrapers/tineno.py	/^    def image(self):$/;"	m	class:TineNo
+image	recipe_scrapers/twopeasandtheirpod.py	/^    def image(self):$/;"	m	class:TwoPeasAndTheirPod
+image	recipe_scrapers/watchwhatueat.py	/^    def image(self):$/;"	m	class:WatchWhatUEat
+image	recipe_scrapers/wikicookbook.py	/^    def image(self):$/;"	m	class:WikiCookbook
+ingredients	recipe_scrapers/_abstract.py	/^    def ingredients(self):$/;"	m	class:AbstractScraper
+ingredients	recipe_scrapers/_schemaorg.py	/^    def ingredients(self):$/;"	m	class:SchemaOrg
+ingredients	recipe_scrapers/acouplecooks.py	/^    def ingredients(self):$/;"	m	class:ACoupleCooks
+ingredients	recipe_scrapers/allrecipes.py	/^    def ingredients(self):$/;"	m	class:AllRecipes
+ingredients	recipe_scrapers/archanaskitchen.py	/^    def ingredients(self):$/;"	m	class:ArchanasKitchen
+ingredients	recipe_scrapers/averiecooks.py	/^    def ingredients(self):$/;"	m	class:AverieCooks
+ingredients	recipe_scrapers/bbcfood.py	/^    def ingredients(self):$/;"	m	class:BBCFood
+ingredients	recipe_scrapers/bbcgoodfood.py	/^    def ingredients(self):$/;"	m	class:BBCGoodFood
+ingredients	recipe_scrapers/bettycrocker.py	/^    def ingredients(self):$/;"	m	class:BettyCrocker
+ingredients	recipe_scrapers/bonappetit.py	/^    def ingredients(self):$/;"	m	class:BonAppetit
+ingredients	recipe_scrapers/bowlofdelicious.py	/^    def ingredients(self):$/;"	m	class:BowlOfDelicious
+ingredients	recipe_scrapers/budgetbytes.py	/^    def ingredients(self):$/;"	m	class:BudgetBytes
+ingredients	recipe_scrapers/closetcooking.py	/^    def ingredients(self):$/;"	m	class:ClosetCooking
+ingredients	recipe_scrapers/cookieandkate.py	/^    def ingredients(self):$/;"	m	class:CookieAndKate
+ingredients	recipe_scrapers/cookpad.py	/^    def ingredients(self):$/;"	m	class:CookPad
+ingredients	recipe_scrapers/cookstr.py	/^    def ingredients(self):$/;"	m	class:Cookstr
+ingredients	recipe_scrapers/copykat.py	/^    def ingredients(self):$/;"	m	class:CopyKat
+ingredients	recipe_scrapers/countryliving.py	/^    def ingredients(self):$/;"	m	class:CountryLiving
+ingredients	recipe_scrapers/cybercook.py	/^    def ingredients(self):$/;"	m	class:Cybercook
+ingredients	recipe_scrapers/delish.py	/^    def ingredients(self):$/;"	m	class:Delish
+ingredients	recipe_scrapers/eatsmarter.py	/^    def ingredients(self):$/;"	m	class:Eatsmarter
+ingredients	recipe_scrapers/epicurious.py	/^    def ingredients(self):$/;"	m	class:Epicurious
+ingredients	recipe_scrapers/fifteenspatulas.py	/^    def ingredients(self):$/;"	m	class:FifteenSpatulas
+ingredients	recipe_scrapers/finedininglovers.py	/^    def ingredients(self):$/;"	m	class:FineDiningLovers
+ingredients	recipe_scrapers/fitmencook.py	/^    def ingredients(self):$/;"	m	class:FitMenCook
+ingredients	recipe_scrapers/food.py	/^    def ingredients(self):$/;"	m	class:Food
+ingredients	recipe_scrapers/foodnetwork.py	/^    def ingredients(self):$/;"	m	class:FoodNetwork
+ingredients	recipe_scrapers/foodrepublic.py	/^    def ingredients(self):$/;"	m	class:FoodRepublic
+ingredients	recipe_scrapers/geniuskitchen.py	/^    def ingredients(self):$/;"	m	class:GeniusKitchen
+ingredients	recipe_scrapers/giallozafferano.py	/^    def ingredients(self):$/;"	m	class:GialloZafferano
+ingredients	recipe_scrapers/gimmesomeoven.py	/^    def ingredients(self):$/;"	m	class:GimmeSomeOven
+ingredients	recipe_scrapers/gonnawantseconds.py	/^    def ingredients(self):$/;"	m	class:GonnaWantSeconds
+ingredients	recipe_scrapers/gousto.py	/^    def ingredients(self):$/;"	m	class:Gousto
+ingredients	recipe_scrapers/greatbritishchefs.py	/^    def ingredients(self):$/;"	m	class:GreatBritishChefs
+ingredients	recipe_scrapers/halfbakedharvest.py	/^    def ingredients(self):$/;"	m	class:HalfBakedHarvest
+ingredients	recipe_scrapers/hassenchef.py	/^    def ingredients(self):$/;"	m	class:Hassanchef
+ingredients	recipe_scrapers/heinzbrasil.py	/^    def ingredients(self):$/;"	m	class:HeinzBrasil
+ingredients	recipe_scrapers/hellofresh.py	/^    def ingredients(self):$/;"	m	class:HelloFresh
+ingredients	recipe_scrapers/hostthetoast.py	/^    def ingredients(self):$/;"	m	class:Hostthetoast
+ingredients	recipe_scrapers/hundredandonecookbooks.py	/^    def ingredients(self):$/;"	m	class:HundredAndOneCookbooks
+ingredients	recipe_scrapers/ig.py	/^    def ingredients(self):$/;"	m	class:IG
+ingredients	recipe_scrapers/inspiralized.py	/^    def ingredients(self):$/;"	m	class:Inspiralized
+ingredients	recipe_scrapers/jamieoliver.py	/^    def ingredients(self):$/;"	m	class:JamieOliver
+ingredients	recipe_scrapers/justbento.py	/^    def ingredients(self):$/;"	m	class:JustBento
+ingredients	recipe_scrapers/kennymcgovern.py	/^    def ingredients(self):$/;"	m	class:KennyMcGovern
+ingredients	recipe_scrapers/kochbar.py	/^    def ingredients(self):$/;"	m	class:Kochbar
+ingredients	recipe_scrapers/lecremedelacrumb.py	/^    def ingredients(self):$/;"	m	class:LeCremeDeLaCrumb
+ingredients	recipe_scrapers/lovingitvegan.py	/^    def ingredients(self):$/;"	m	class:Lovingitvegan
+ingredients	recipe_scrapers/marmiton.py	/^    def ingredients(self):$/;"	m	class:Marmiton
+ingredients	recipe_scrapers/matprat.py	/^    def ingredients(self):$/;"	m	class:Matprat
+ingredients	recipe_scrapers/mindmegette.py	/^    def ingredients(self):$/;"	m	class:Mindmegette
+ingredients	recipe_scrapers/minimalistbaker.py	/^    def ingredients(self):$/;"	m	class:Minimalistbaker
+ingredients	recipe_scrapers/misya.py	/^    def ingredients(self):$/;"	m	class:Misya
+ingredients	recipe_scrapers/momswithcrockpots.py	/^    def ingredients(self):$/;"	m	class:MomsWithCrockPots
+ingredients	recipe_scrapers/motherthyme.py	/^    def ingredients(self):$/;"	m	class:MotherThyme
+ingredients	recipe_scrapers/mybakingaddiction.py	/^    def ingredients(self):$/;"	m	class:MyBakingAddiction
+ingredients	recipe_scrapers/myrecipes.py	/^    def ingredients(self):$/;"	m	class:MyRecipes
+ingredients	recipe_scrapers/nihhealthyeating.py	/^    def ingredients(self):$/;"	m	class:NIHHealthyEating
+ingredients	recipe_scrapers/nytimes.py	/^    def ingredients(self):$/;"	m	class:NYTimes
+ingredients	recipe_scrapers/ohsheglows.py	/^    def ingredients(self):$/;"	m	class:OhSheGlows
+ingredients	recipe_scrapers/panelinha.py	/^    def ingredients(self):$/;"	m	class:Panelinha
+ingredients	recipe_scrapers/paninihappy.py	/^    def ingredients(self):$/;"	m	class:PaniniHappy
+ingredients	recipe_scrapers/przepisy.py	/^    def ingredients(self):$/;"	m	class:Przepisy
+ingredients	recipe_scrapers/realsimple.py	/^    def ingredients(self):$/;"	m	class:RealSimple
+ingredients	recipe_scrapers/seriouseats.py	/^    def ingredients(self):$/;"	m	class:SeriousEats
+ingredients	recipe_scrapers/simplyquinoa.py	/^    def ingredients(self):$/;"	m	class:SimplyQuinoa
+ingredients	recipe_scrapers/simplyrecipes.py	/^    def ingredients(self):$/;"	m	class:SimplyRecipes
+ingredients	recipe_scrapers/skinnytaste.py	/^    def ingredients(self):$/;"	m	class:SkinnyTaste
+ingredients	recipe_scrapers/southernliving.py	/^    def ingredients(self):$/;"	m	class:SouthernLiving
+ingredients	recipe_scrapers/spendwithpennies.py	/^    def ingredients(self):$/;"	m	class:SpendWithPennies
+ingredients	recipe_scrapers/steamykitchen.py	/^    def ingredients(self):$/;"	m	class:SteamyKitchen
+ingredients	recipe_scrapers/tasteofhome.py	/^    def ingredients(self):$/;"	m	class:TasteOfHome
+ingredients	recipe_scrapers/tastesoflizzyt.py	/^    def ingredients(self):$/;"	m	class:TastesOfLizzyT
+ingredients	recipe_scrapers/tasty.py	/^    def ingredients(self):$/;"	m	class:Tasty
+ingredients	recipe_scrapers/tastykitchen.py	/^    def ingredients(self):$/;"	m	class:TastyKitchen
+ingredients	recipe_scrapers/thehappyfoodie.py	/^    def ingredients(self):$/;"	m	class:TheHappyFoodie
+ingredients	recipe_scrapers/thekitchn.py	/^    def ingredients(self):$/;"	m	class:TheKitchn
+ingredients	recipe_scrapers/thepioneerwoman.py	/^    def ingredients(self):$/;"	m	class:ThePioneerWoman
+ingredients	recipe_scrapers/thespruceeats.py	/^    def ingredients(self):$/;"	m	class:TheSpruceEats
+ingredients	recipe_scrapers/thevintagemixer.py	/^    def ingredients(self):$/;"	m	class:TheVintageMixer
+ingredients	recipe_scrapers/thewoksoflife.py	/^    def ingredients(self):$/;"	m	class:Thewoksoflife
+ingredients	recipe_scrapers/tineno.py	/^    def ingredients(self):$/;"	m	class:TineNo
+ingredients	recipe_scrapers/tudogostoso.py	/^    def ingredients(self):$/;"	m	class:TudoGostoso
+ingredients	recipe_scrapers/twopeasandtheirpod.py	/^    def ingredients(self):$/;"	m	class:TwoPeasAndTheirPod
+ingredients	recipe_scrapers/vegolosi.py	/^    def ingredients(self):$/;"	m	class:Vegolosi
+ingredients	recipe_scrapers/watchwhatueat.py	/^    def ingredients(self):$/;"	m	class:WatchWhatUEat
+ingredients	recipe_scrapers/whatsgabycooking.py	/^    def ingredients(self):$/;"	m	class:WhatsGabyCooking
+ingredients	recipe_scrapers/wikicookbook.py	/^    def ingredients(self):$/;"	m	class:WikiCookbook
+ingredients	recipe_scrapers/yummly.py	/^    def ingredients(self):$/;"	m	class:Yummly
+instructions	recipe_scrapers/_abstract.py	/^    def instructions(self):$/;"	m	class:AbstractScraper
+instructions	recipe_scrapers/_schemaorg.py	/^    def instructions(self):$/;"	m	class:SchemaOrg
+instructions	recipe_scrapers/acouplecooks.py	/^    def instructions(self):$/;"	m	class:ACoupleCooks
+instructions	recipe_scrapers/allrecipes.py	/^    def instructions(self):$/;"	m	class:AllRecipes
+instructions	recipe_scrapers/archanaskitchen.py	/^    def instructions(self):$/;"	m	class:ArchanasKitchen
+instructions	recipe_scrapers/averiecooks.py	/^    def instructions(self):$/;"	m	class:AverieCooks
+instructions	recipe_scrapers/bbcfood.py	/^    def instructions(self):$/;"	m	class:BBCFood
+instructions	recipe_scrapers/bbcgoodfood.py	/^    def instructions(self):$/;"	m	class:BBCGoodFood
+instructions	recipe_scrapers/bettycrocker.py	/^    def instructions(self):$/;"	m	class:BettyCrocker
+instructions	recipe_scrapers/bonappetit.py	/^    def instructions(self):$/;"	m	class:BonAppetit
+instructions	recipe_scrapers/bowlofdelicious.py	/^    def instructions(self):$/;"	m	class:BowlOfDelicious
+instructions	recipe_scrapers/budgetbytes.py	/^    def instructions(self):$/;"	m	class:BudgetBytes
+instructions	recipe_scrapers/closetcooking.py	/^    def instructions(self):$/;"	m	class:ClosetCooking
+instructions	recipe_scrapers/cookieandkate.py	/^    def instructions(self):$/;"	m	class:CookieAndKate
+instructions	recipe_scrapers/cookpad.py	/^    def instructions(self):$/;"	m	class:CookPad
+instructions	recipe_scrapers/cookstr.py	/^    def instructions(self):$/;"	m	class:Cookstr
+instructions	recipe_scrapers/copykat.py	/^    def instructions(self):$/;"	m	class:CopyKat
+instructions	recipe_scrapers/countryliving.py	/^    def instructions(self):$/;"	m	class:CountryLiving
+instructions	recipe_scrapers/cybercook.py	/^    def instructions(self):$/;"	m	class:Cybercook
+instructions	recipe_scrapers/delish.py	/^    def instructions(self):$/;"	m	class:Delish
+instructions	recipe_scrapers/eatsmarter.py	/^    def instructions(self):$/;"	m	class:Eatsmarter
+instructions	recipe_scrapers/epicurious.py	/^    def instructions(self):$/;"	m	class:Epicurious
+instructions	recipe_scrapers/fifteenspatulas.py	/^    def instructions(self):$/;"	m	class:FifteenSpatulas
+instructions	recipe_scrapers/finedininglovers.py	/^    def instructions(self):$/;"	m	class:FineDiningLovers
+instructions	recipe_scrapers/fitmencook.py	/^    def instructions(self):$/;"	m	class:FitMenCook
+instructions	recipe_scrapers/food.py	/^    def instructions(self):$/;"	m	class:Food
+instructions	recipe_scrapers/foodnetwork.py	/^    def instructions(self):$/;"	m	class:FoodNetwork
+instructions	recipe_scrapers/foodrepublic.py	/^    def instructions(self):$/;"	m	class:FoodRepublic
+instructions	recipe_scrapers/geniuskitchen.py	/^    def instructions(self):$/;"	m	class:GeniusKitchen
+instructions	recipe_scrapers/giallozafferano.py	/^    def instructions(self):$/;"	m	class:GialloZafferano
+instructions	recipe_scrapers/gimmesomeoven.py	/^    def instructions(self):$/;"	m	class:GimmeSomeOven
+instructions	recipe_scrapers/gonnawantseconds.py	/^    def instructions(self):$/;"	m	class:GonnaWantSeconds
+instructions	recipe_scrapers/gousto.py	/^    def instructions(self):$/;"	m	class:Gousto
+instructions	recipe_scrapers/greatbritishchefs.py	/^    def instructions(self):$/;"	m	class:GreatBritishChefs
+instructions	recipe_scrapers/halfbakedharvest.py	/^    def instructions(self):$/;"	m	class:HalfBakedHarvest
+instructions	recipe_scrapers/hassenchef.py	/^    def instructions(self):$/;"	m	class:Hassanchef
+instructions	recipe_scrapers/heinzbrasil.py	/^    def instructions(self):$/;"	m	class:HeinzBrasil
+instructions	recipe_scrapers/hellofresh.py	/^    def instructions(self):$/;"	m	class:HelloFresh
+instructions	recipe_scrapers/hostthetoast.py	/^    def instructions(self):$/;"	m	class:Hostthetoast
+instructions	recipe_scrapers/hundredandonecookbooks.py	/^    def instructions(self):$/;"	m	class:HundredAndOneCookbooks
+instructions	recipe_scrapers/ig.py	/^    def instructions(self):$/;"	m	class:IG
+instructions	recipe_scrapers/inspiralized.py	/^    def instructions(self):$/;"	m	class:Inspiralized
+instructions	recipe_scrapers/jamieoliver.py	/^    def instructions(self):$/;"	m	class:JamieOliver
+instructions	recipe_scrapers/justbento.py	/^    def instructions(self):$/;"	m	class:JustBento
+instructions	recipe_scrapers/kennymcgovern.py	/^    def instructions(self):$/;"	m	class:KennyMcGovern
+instructions	recipe_scrapers/kochbar.py	/^    def instructions(self):$/;"	m	class:Kochbar
+instructions	recipe_scrapers/lecremedelacrumb.py	/^    def instructions(self):$/;"	m	class:LeCremeDeLaCrumb
+instructions	recipe_scrapers/lovingitvegan.py	/^    def instructions(self):$/;"	m	class:Lovingitvegan
+instructions	recipe_scrapers/marmiton.py	/^    def instructions(self):$/;"	m	class:Marmiton
+instructions	recipe_scrapers/matprat.py	/^    def instructions(self):$/;"	m	class:Matprat
+instructions	recipe_scrapers/mindmegette.py	/^    def instructions(self):$/;"	m	class:Mindmegette
+instructions	recipe_scrapers/minimalistbaker.py	/^    def instructions(self):$/;"	m	class:Minimalistbaker
+instructions	recipe_scrapers/misya.py	/^    def instructions(self):$/;"	m	class:Misya
+instructions	recipe_scrapers/momswithcrockpots.py	/^    def instructions(self):$/;"	m	class:MomsWithCrockPots
+instructions	recipe_scrapers/motherthyme.py	/^    def instructions(self):$/;"	m	class:MotherThyme
+instructions	recipe_scrapers/mybakingaddiction.py	/^    def instructions(self):$/;"	m	class:MyBakingAddiction
+instructions	recipe_scrapers/myrecipes.py	/^    def instructions(self):$/;"	m	class:MyRecipes
+instructions	recipe_scrapers/nihhealthyeating.py	/^    def instructions(self):$/;"	m	class:NIHHealthyEating
+instructions	recipe_scrapers/nytimes.py	/^    def instructions(self):$/;"	m	class:NYTimes
+instructions	recipe_scrapers/ohsheglows.py	/^    def instructions(self):$/;"	m	class:OhSheGlows
+instructions	recipe_scrapers/panelinha.py	/^    def instructions(self):$/;"	m	class:Panelinha
+instructions	recipe_scrapers/paninihappy.py	/^    def instructions(self):$/;"	m	class:PaniniHappy
+instructions	recipe_scrapers/przepisy.py	/^    def instructions(self):$/;"	m	class:Przepisy
+instructions	recipe_scrapers/realsimple.py	/^    def instructions(self):$/;"	m	class:RealSimple
+instructions	recipe_scrapers/seriouseats.py	/^    def instructions(self):$/;"	m	class:SeriousEats
+instructions	recipe_scrapers/simplyquinoa.py	/^    def instructions(self):$/;"	m	class:SimplyQuinoa
+instructions	recipe_scrapers/simplyrecipes.py	/^    def instructions(self):$/;"	m	class:SimplyRecipes
+instructions	recipe_scrapers/skinnytaste.py	/^    def instructions(self):$/;"	m	class:SkinnyTaste
+instructions	recipe_scrapers/southernliving.py	/^    def instructions(self):$/;"	m	class:SouthernLiving
+instructions	recipe_scrapers/spendwithpennies.py	/^    def instructions(self):$/;"	m	class:SpendWithPennies
+instructions	recipe_scrapers/steamykitchen.py	/^    def instructions(self):$/;"	m	class:SteamyKitchen
+instructions	recipe_scrapers/tasteofhome.py	/^    def instructions(self):$/;"	m	class:TasteOfHome
+instructions	recipe_scrapers/tastesoflizzyt.py	/^    def instructions(self):$/;"	m	class:TastesOfLizzyT
+instructions	recipe_scrapers/tasty.py	/^    def instructions(self):$/;"	m	class:Tasty
+instructions	recipe_scrapers/tastykitchen.py	/^    def instructions(self):$/;"	m	class:TastyKitchen
+instructions	recipe_scrapers/thehappyfoodie.py	/^    def instructions(self):$/;"	m	class:TheHappyFoodie
+instructions	recipe_scrapers/thekitchn.py	/^    def instructions(self):$/;"	m	class:TheKitchn
+instructions	recipe_scrapers/thepioneerwoman.py	/^    def instructions(self):$/;"	m	class:ThePioneerWoman
+instructions	recipe_scrapers/thespruceeats.py	/^    def instructions(self):$/;"	m	class:TheSpruceEats
+instructions	recipe_scrapers/thevintagemixer.py	/^    def instructions(self):$/;"	m	class:TheVintageMixer
+instructions	recipe_scrapers/thewoksoflife.py	/^    def instructions(self):$/;"	m	class:Thewoksoflife
+instructions	recipe_scrapers/tineno.py	/^    def instructions(self):$/;"	m	class:TineNo
+instructions	recipe_scrapers/tudogostoso.py	/^    def instructions(self):$/;"	m	class:TudoGostoso
+instructions	recipe_scrapers/twopeasandtheirpod.py	/^    def instructions(self):$/;"	m	class:TwoPeasAndTheirPod
+instructions	recipe_scrapers/vegolosi.py	/^    def instructions(self):$/;"	m	class:Vegolosi
+instructions	recipe_scrapers/watchwhatueat.py	/^    def instructions(self):$/;"	m	class:WatchWhatUEat
+instructions	recipe_scrapers/whatsgabycooking.py	/^    def instructions(self):$/;"	m	class:WhatsGabyCooking
+instructions	recipe_scrapers/wikicookbook.py	/^    def instructions(self):$/;"	m	class:WikiCookbook
+instructions	recipe_scrapers/yummly.py	/^    def instructions(self):$/;"	m	class:Yummly
+language	recipe_scrapers/_abstract.py	/^    def language(self):$/;"	m	class:AbstractScraper
+language	recipe_scrapers/_schemaorg.py	/^    def language(self):$/;"	m	class:SchemaOrg
+links	recipe_scrapers/_abstract.py	/^    def links(self):$/;"	m	class:AbstractScraper
+maxDiff	tests/test_thekitchn.py	/^    maxDiff = None$/;"	v	class:TestKitchnScraper
+name	recipe_scrapers/__init__.py	/^name = "recipe_scrapers"$/;"	v
+normalize_string	recipe_scrapers/_utils.py	/^def normalize_string(string):$/;"	f
+normalize_string_output	recipe_scrapers/_decorators.py	/^    def normalize_string_output(decorated):$/;"	m	class:Decorators
+normalize_string_output_wrapper	recipe_scrapers/_decorators.py	/^        def normalize_string_output_wrapper(self, *args, **kwargs):$/;"	f	member:Decorators.normalize_string_output	file:
+og_image_get	recipe_scrapers/_decorators.py	/^    def og_image_get(decorated):$/;"	m	class:Decorators
+og_image_get_wrapper	recipe_scrapers/_decorators.py	/^        def og_image_get_wrapper(self, *args, **kwargs):$/;"	f	member:Decorators.og_image_get	file:
+preparation_time	recipe_scrapers/vegolosi.py	/^    def preparation_time(self):$/;"	m	class:Vegolosi
+ratings	recipe_scrapers/_abstract.py	/^    def ratings(self):$/;"	m	class:AbstractScraper
+ratings	recipe_scrapers/_schemaorg.py	/^    def ratings(self):$/;"	m	class:SchemaOrg
+ratings	recipe_scrapers/allrecipes.py	/^    def ratings(self):$/;"	m	class:AllRecipes
+ratings	recipe_scrapers/archanaskitchen.py	/^    def ratings(self):$/;"	m	class:ArchanasKitchen
+ratings	recipe_scrapers/averiecooks.py	/^    def ratings(self):$/;"	m	class:AverieCooks
+ratings	recipe_scrapers/bettycrocker.py	/^    def ratings(self):$/;"	m	class:BettyCrocker
+ratings	recipe_scrapers/bowlofdelicious.py	/^    def ratings(self):$/;"	m	class:BowlOfDelicious
+ratings	recipe_scrapers/budgetbytes.py	/^    def ratings(self):$/;"	m	class:BudgetBytes
+ratings	recipe_scrapers/cookieandkate.py	/^    def ratings(self):$/;"	m	class:CookieAndKate
+ratings	recipe_scrapers/cookpad.py	/^    def ratings(self):$/;"	m	class:CookPad
+ratings	recipe_scrapers/copykat.py	/^    def ratings(self):$/;"	m	class:CopyKat
+ratings	recipe_scrapers/cybercook.py	/^    def ratings(self):$/;"	m	class:Cybercook
+ratings	recipe_scrapers/eatsmarter.py	/^    def ratings(self):$/;"	m	class:Eatsmarter
+ratings	recipe_scrapers/epicurious.py	/^    def ratings(self):$/;"	m	class:Epicurious
+ratings	recipe_scrapers/fifteenspatulas.py	/^    def ratings(self):$/;"	m	class:FifteenSpatulas
+ratings	recipe_scrapers/geniuskitchen.py	/^    def ratings(self):$/;"	m	class:GeniusKitchen
+ratings	recipe_scrapers/giallozafferano.py	/^    def ratings(self):$/;"	m	class:GialloZafferano
+ratings	recipe_scrapers/gimmesomeoven.py	/^    def ratings(self):$/;"	m	class:GimmeSomeOven
+ratings	recipe_scrapers/gonnawantseconds.py	/^    def ratings(self):$/;"	m	class:GonnaWantSeconds
+ratings	recipe_scrapers/gousto.py	/^    def ratings(self):$/;"	m	class:Gousto
+ratings	recipe_scrapers/greatbritishchefs.py	/^    def ratings(self):$/;"	m	class:GreatBritishChefs
+ratings	recipe_scrapers/halfbakedharvest.py	/^    def ratings(self):$/;"	m	class:HalfBakedHarvest
+ratings	recipe_scrapers/hassenchef.py	/^    def ratings(self):$/;"	m	class:Hassanchef
+ratings	recipe_scrapers/hostthetoast.py	/^    def ratings(self):$/;"	m	class:Hostthetoast
+ratings	recipe_scrapers/lecremedelacrumb.py	/^    def ratings(self):$/;"	m	class:LeCremeDeLaCrumb
+ratings	recipe_scrapers/lovingitvegan.py	/^    def ratings(self):$/;"	m	class:Lovingitvegan
+ratings	recipe_scrapers/marmiton.py	/^    def ratings(self):$/;"	m	class:Marmiton
+ratings	recipe_scrapers/matprat.py	/^    def ratings(self):$/;"	m	class:Matprat
+ratings	recipe_scrapers/minimalistbaker.py	/^    def ratings(self):$/;"	m	class:Minimalistbaker
+ratings	recipe_scrapers/misya.py	/^    def ratings(self):$/;"	m	class:Misya
+ratings	recipe_scrapers/momswithcrockpots.py	/^    def ratings(self):$/;"	m	class:MomsWithCrockPots
+ratings	recipe_scrapers/motherthyme.py	/^    def ratings(self):$/;"	m	class:MotherThyme
+ratings	recipe_scrapers/mybakingaddiction.py	/^    def ratings(self):$/;"	m	class:MyBakingAddiction
+ratings	recipe_scrapers/myrecipes.py	/^    def ratings(self):$/;"	m	class:MyRecipes
+ratings	recipe_scrapers/nytimes.py	/^    def ratings(self):$/;"	m	class:NYTimes
+ratings	recipe_scrapers/ohsheglows.py	/^    def ratings(self):$/;"	m	class:OhSheGlows
+ratings	recipe_scrapers/seriouseats.py	/^    def ratings(self):$/;"	m	class:SeriousEats
+ratings	recipe_scrapers/simplyquinoa.py	/^    def ratings(self):$/;"	m	class:SimplyQuinoa
+ratings	recipe_scrapers/skinnytaste.py	/^    def ratings(self):$/;"	m	class:SkinnyTaste
+ratings	recipe_scrapers/southernliving.py	/^    def ratings(self):$/;"	m	class:SouthernLiving
+ratings	recipe_scrapers/spendwithpennies.py	/^    def ratings(self):$/;"	m	class:SpendWithPennies
+ratings	recipe_scrapers/tasteofhome.py	/^    def ratings(self):$/;"	m	class:TasteOfHome
+ratings	recipe_scrapers/tasty.py	/^    def ratings(self):$/;"	m	class:Tasty
+ratings	recipe_scrapers/thewoksoflife.py	/^    def ratings(self):$/;"	m	class:Thewoksoflife
+ratings	recipe_scrapers/vegolosi.py	/^    def ratings(self):$/;"	m	class:Vegolosi
+ratings	recipe_scrapers/watchwhatueat.py	/^    def ratings(self):$/;"	m	class:WatchWhatUEat
+reviews	recipe_scrapers/_abstract.py	/^    def reviews(self):$/;"	m	class:AbstractScraper
+reviews	recipe_scrapers/epicurious.py	/^    def reviews(self):$/;"	m	class:Epicurious
+schema_org_priority	recipe_scrapers/_decorators.py	/^    def schema_org_priority(decorated):$/;"	m	class:Decorators
+schema_org_priority_wrapper	recipe_scrapers/_decorators.py	/^        def schema_org_priority_wrapper(self, *args, **kwargs):$/;"	f	member:Decorators.schema_org_priority	file:
+scrape_me	recipe_scrapers/__init__.py	/^def scrape_me(url_path, **options):$/;"	f
+scraper_class	tests/test_acouplecooks.py	/^    scraper_class = ACoupleCooks$/;"	v	class:TestACoupleCooks
+scraper_class	tests/test_allrecipes.py	/^    scraper_class = AllRecipes$/;"	v	class:TestAllRecipesScraper
+scraper_class	tests/test_archanaskitchen.py	/^    scraper_class = ArchanasKitchen$/;"	v	class:TestArchanasKitchenScraper
+scraper_class	tests/test_averiecooks.py	/^    scraper_class = AverieCooks$/;"	v	class:TestAverieCooksScraper
+scraper_class	tests/test_bbc.py	/^    scraper_class = BBCFood$/;"	v	class:TestBBCFoodScraper
+scraper_class	tests/test_bbcgoodfood.py	/^    scraper_class = BBCGoodFood$/;"	v	class:TestBBCGoodFoodScraper
+scraper_class	tests/test_bettycrocker.py	/^    scraper_class = BettyCrocker$/;"	v	class:TestBettyCrocker
+scraper_class	tests/test_bonappetit.py	/^    scraper_class = BonAppetit$/;"	v	class:TestBonAppetitScraper
+scraper_class	tests/test_bowlofdelicious.py	/^    scraper_class = BowlOfDelicious$/;"	v	class:TestBowlOfDeliciousScraper
+scraper_class	tests/test_budgetbytes.py	/^    scraper_class = BudgetBytes$/;"	v	class:TestBudgetBytesScraper
+scraper_class	tests/test_closetcooking.py	/^    scraper_class = ClosetCooking$/;"	v	class:TestClosetCooking
+scraper_class	tests/test_cookieandkate.py	/^    scraper_class = CookieAndKate$/;"	v	class:TestCookieAndKateScraper
+scraper_class	tests/test_cookpad.py	/^    scraper_class = CookPad$/;"	v	class:TestCookPadScraper
+scraper_class	tests/test_cookstr.py	/^    scraper_class = Cookstr$/;"	v	class:TestCookstrScraper
+scraper_class	tests/test_copykat.py	/^    scraper_class = CopyKat$/;"	v	class:TestCopyKat
+scraper_class	tests/test_countryliving.py	/^    scraper_class = CountryLiving$/;"	v	class:TestCountryLivingScraper
+scraper_class	tests/test_cybercook.py	/^    scraper_class = Cybercook$/;"	v	class:TestCybercook
+scraper_class	tests/test_delish.py	/^    scraper_class = Delish$/;"	v	class:TestDelishScraper
+scraper_class	tests/test_eatsmarter.py	/^    scraper_class = Eatsmarter$/;"	v	class:TestClosetCooking
+scraper_class	tests/test_epicurious.py	/^    scraper_class = Epicurious$/;"	v	class:TestEpicurious
+scraper_class	tests/test_fifteenspatulas.py	/^    scraper_class = FifteenSpatulas$/;"	v	class:TestFifteenSpatulasScraper
+scraper_class	tests/test_finedininglovers.py	/^    scraper_class = FineDiningLovers$/;"	v	class:TestFineDiningLoversScraper
+scraper_class	tests/test_fitmencook.py	/^    scraper_class = FitMenCook$/;"	v	class:TestFitMenCookScraper
+scraper_class	tests/test_food.py	/^    scraper_class = Food$/;"	v	class:TestFoodScraper
+scraper_class	tests/test_foodnetwork.py	/^    scraper_class = FoodNetwork$/;"	v	class:TestFoodNetworkScraper
+scraper_class	tests/test_foodrepublic.py	/^    scraper_class = FoodRepublic$/;"	v	class:TestFoodRepublicScraper
+scraper_class	tests/test_geniuskitchen.py	/^    scraper_class = GeniusKitchen$/;"	v	class:TestGeniusKitchenScraper
+scraper_class	tests/test_giallozafferano.py	/^    scraper_class = GialloZafferano$/;"	v	class:TestGialloZafferanoScraper
+scraper_class	tests/test_gimmesomeoven.py	/^    scraper_class = GimmeSomeOven$/;"	v	class:TestGimmeSomeOvenScraper
+scraper_class	tests/test_gonnawantseconds.py	/^    scraper_class = GonnaWantSeconds$/;"	v	class:TestGonnaWantSeconds
+scraper_class	tests/test_gousto.py	/^    scraper_class = Gousto$/;"	v	class:TestGoustoScraper
+scraper_class	tests/test_greatbritishchefs.py	/^    scraper_class = GreatBritishChefs$/;"	v	class:TestGreatBritishChefsScraper
+scraper_class	tests/test_halfbakedharvest.py	/^    scraper_class = HalfBakedHarvest$/;"	v	class:TestHalfBakedHarvestScraper
+scraper_class	tests/test_hassanchef.py	/^    scraper_class = Hassanchef$/;"	v	class:TestClosetCooking
+scraper_class	tests/test_heinzbrasil.py	/^    scraper_class = HeinzBrasil$/;"	v	class:TestHeinzBrasilScraper
+scraper_class	tests/test_hellofresh.py	/^    scraper_class = HelloFresh$/;"	v	class:TestHelloFreshScraper
+scraper_class	tests/test_hostthetoast.py	/^    scraper_class = Hostthetoast$/;"	v	class:TestHostthetoastScraper
+scraper_class	tests/test_hundredandonecookbooks.py	/^    scraper_class = HundredAndOneCookbooks$/;"	v	class:TestHundredAndOneCookbooksScraper
+scraper_class	tests/test_ig.py	/^    scraper_class = IG$/;"	v	class:TestIGScraper
+scraper_class	tests/test_inspiralized.py	/^    scraper_class = Inspiralized$/;"	v	class:TestInspiralizedScraper
+scraper_class	tests/test_jamieoliver.py	/^    scraper_class = JamieOliver$/;"	v	class:TestJamieOliverScraper
+scraper_class	tests/test_justbento.py	/^    scraper_class = JustBento$/;"	v	class:TestJustBentoScraper
+scraper_class	tests/test_kennymcgovern.py	/^    scraper_class = KennyMcGovern$/;"	v	class:TestKennyMcGovernScraper
+scraper_class	tests/test_kochbar.py	/^    scraper_class = Kochbar$/;"	v	class:TestKochbarScraper
+scraper_class	tests/test_lecremedelacrumb.py	/^    scraper_class = LeCremeDeLaCrumb$/;"	v	class:TestLeCremeDeLaCrumbScraper
+scraper_class	tests/test_lovingitvegan.py	/^    scraper_class = Lovingitvegan$/;"	v	class:TestLovingitveganScraper
+scraper_class	tests/test_marmiton.py	/^    scraper_class = Marmiton$/;"	v	class:TestMarmitonScraper
+scraper_class	tests/test_matprat.py	/^    scraper_class = Matprat$/;"	v	class:TestMatprat
+scraper_class	tests/test_mindmegette.py	/^    scraper_class = Mindmegette$/;"	v	class:TestMindmegetteScraper
+scraper_class	tests/test_minimalistbaker.py	/^    scraper_class = Minimalistbaker$/;"	v	class:TestMinimalistbakerScraper
+scraper_class	tests/test_misya.py	/^    scraper_class = Misya$/;"	v	class:TestMisya
+scraper_class	tests/test_momswithcrockpots.py	/^    scraper_class = MomsWithCrockPots$/;"	v	class:TestMomsWithCrockPotsScraper
+scraper_class	tests/test_motherthyme.py	/^    scraper_class = MotherThyme$/;"	v	class:TestMotherThymeScraper
+scraper_class	tests/test_mybakingaddiction.py	/^    scraper_class = MyBakingAddiction$/;"	v	class:TestMyBakingAddictionScraper
+scraper_class	tests/test_myrecipes.py	/^    scraper_class = MyRecipes$/;"	v	class:TestMyRecipesScraper
+scraper_class	tests/test_nih.py	/^    scraper_class = NIHHealthyEating$/;"	v	class:TestNIHHealthyEatingRecipesScraper
+scraper_class	tests/test_nytimes.py	/^    scraper_class = NYTimes$/;"	v	class:TestNYTimesScraper
+scraper_class	tests/test_ohsheglows.py	/^    scraper_class = OhSheGlows$/;"	v	class:TestOhSheGlowsScraper
+scraper_class	tests/test_panelinha.py	/^    scraper_class = Panelinha$/;"	v	class:TestPanelinhaScraper
+scraper_class	tests/test_paninihappy.py	/^    scraper_class = PaniniHappy$/;"	v	class:TestPaniniHappyScraper
+scraper_class	tests/test_przepisy.py	/^    scraper_class = Przepisy$/;"	v	class:TestPrzepisyScraper
+scraper_class	tests/test_realsimple.py	/^    scraper_class = RealSimple$/;"	v	class:TestRealSimpleScraper
+scraper_class	tests/test_seriouseats.py	/^    scraper_class = SeriousEats$/;"	v	class:TestSeriousEats
+scraper_class	tests/test_simplyquinoa.py	/^    scraper_class = SimplyQuinoa$/;"	v	class:TestSimplyQuinoaScraper
+scraper_class	tests/test_simplyrecipes.py	/^    scraper_class = SimplyRecipes$/;"	v	class:TestSimplyRecipesScraper
+scraper_class	tests/test_skinnytaste.py	/^    scraper_class = SkinnyTaste$/;"	v	class:TestSkinnyTasteScraper
+scraper_class	tests/test_southernliving.py	/^    scraper_class = SouthernLiving$/;"	v	class:TestSouthernLiving
+scraper_class	tests/test_spendwithpennies.py	/^    scraper_class = SpendWithPennies$/;"	v	class:TestSpendWithPenniesScraper
+scraper_class	tests/test_steamykitchen.py	/^    scraper_class = SteamyKitchen$/;"	v	class:TestSteamyKitchenScraper
+scraper_class	tests/test_tasteofhome.py	/^    scraper_class = TasteOfHome$/;"	v	class:TestTasteOfHomeScraper
+scraper_class	tests/test_tastesoflizzyt.py	/^    scraper_class = TastesOfLizzyT$/;"	v	class:TestTastesOfLizzyTScraper
+scraper_class	tests/test_tasty.py	/^    scraper_class = Tasty$/;"	v	class:TestTastyScraper
+scraper_class	tests/test_tastykitchen.py	/^    scraper_class = TastyKitchen$/;"	v	class:TestTastyKitchenScraper
+scraper_class	tests/test_thehappyfoodie.py	/^    scraper_class = TheHappyFoodie$/;"	v	class:TestTheHappyFoodie
+scraper_class	tests/test_thekitchn.py	/^    scraper_class = TheKitchn$/;"	v	class:TestKitchnScraper
+scraper_class	tests/test_thepioneerwoman.py	/^    scraper_class = ThePioneerWoman$/;"	v	class:TestThePioneerWomanScraper
+scraper_class	tests/test_thespruceeats.py	/^    scraper_class = TheSpruceEats$/;"	v	class:TestTheSpruceEatsScraper
+scraper_class	tests/test_thevintagemixer.py	/^    scraper_class = TheVintageMixer$/;"	v	class:TestTheVintageMixerScraper
+scraper_class	tests/test_thewoksoflife.py	/^    scraper_class = Thewoksoflife$/;"	v	class:TestThewoksoflifeScraper
+scraper_class	tests/test_tine.py	/^    scraper_class = TineNo$/;"	v	class:TestTineNoScraper
+scraper_class	tests/test_tudogostoso.py	/^    scraper_class = TudoGostoso$/;"	v	class:TestTudoGostosoScraper
+scraper_class	tests/test_twopeasandtheirpod.py	/^    scraper_class = TwoPeasAndTheirPod$/;"	v	class:TestTwoPeasAndTheirPodScraper
+scraper_class	tests/test_vegolosi.py	/^    scraper_class = Vegolosi$/;"	v	class:TestVegolosiScraper
+scraper_class	tests/test_watchwhatueat.py	/^    scraper_class = WatchWhatUEat$/;"	v	class:TestWatchWhatUEatScraper
+scraper_class	tests/test_whatsgabycooking.py	/^    scraper_class = WhatsGabyCooking$/;"	v	class:TestWhatsGabyCookingScraper
+scraper_class	tests/test_wikibooks.py	/^    scraper_class = WikiCookbook$/;"	v	class:TestWikiCookbookScraper
+scraper_class	tests/test_yummly.py	/^    scraper_class = Yummly$/;"	v	class:TestYummlyScraper
+scraper_options	tests/test_mindmegette.py	/^    scraper_options = {"meta_http_equiv": True}$/;"	v	class:TestMindmegetteScraper
+scraper_options	tests/test_myrecipes.py	/^    scraper_options = {"exception_handling": True}$/;"	v	class:TestMyRecipesScraper
+setUp	tests/__init__.py	/^    def setUp(self):$/;"	m	class:ScraperTest
+setUp	tests/test_schemaorg.py	/^    def setUp(self):$/;"	m	class:TestSchemaOrg
+test_author	tests/test_allrecipes.py	/^    def test_author(self):$/;"	m	class:TestAllRecipesScraper
+test_author	tests/test_archanaskitchen.py	/^    def test_author(self):$/;"	m	class:TestArchanasKitchenScraper
+test_author	tests/test_bbc.py	/^    def test_author(self):$/;"	m	class:TestBBCFoodScraper
+test_author	tests/test_tasteofhome.py	/^    def test_author(self):$/;"	m	class:TestTasteOfHomeScraper
+test_description	tests/test_copykat.py	/^    def test_description(self):$/;"	m	class:TestCopyKat
+test_description	tests/test_gonnawantseconds.py	/^    def test_description(self):$/;"	m	class:TestGonnaWantSeconds
+test_description	tests/test_greatbritishchefs.py	/^    def test_description(self):$/;"	m	class:TestGreatBritishChefsScraper
+test_description	tests/test_southernliving.py	/^    def test_description(self):$/;"	m	class:TestSouthernLiving
+test_description	tests/test_tine.py	/^    def test_description(self):$/;"	m	class:TestTineNoScraper
+test_get_minutes_english_abbreviation	tests/library/test_utils.py	/^    def test_get_minutes_english_abbreviation(self):$/;"	m	class:UtilsTest
+test_get_minutes_english_description	tests/library/test_utils.py	/^    def test_get_minutes_english_description(self):$/;"	m	class:UtilsTest
+test_get_minutes_long_iso_format	tests/library/test_utils.py	/^    def test_get_minutes_long_iso_format(self):$/;"	m	class:UtilsTest
+test_get_minutes_short_iso_format	tests/library/test_utils.py	/^    def test_get_minutes_short_iso_format(self):$/;"	m	class:UtilsTest
+test_host	tests/test_acouplecooks.py	/^    def test_host(self):$/;"	m	class:TestACoupleCooks
+test_host	tests/test_allrecipes.py	/^    def test_host(self):$/;"	m	class:TestAllRecipesScraper
+test_host	tests/test_archanaskitchen.py	/^    def test_host(self):$/;"	m	class:TestArchanasKitchenScraper
+test_host	tests/test_averiecooks.py	/^    def test_host(self):$/;"	m	class:TestAverieCooksScraper
+test_host	tests/test_bbc.py	/^    def test_host(self):$/;"	m	class:TestBBCFoodScraper
+test_host	tests/test_bbcgoodfood.py	/^    def test_host(self):$/;"	m	class:TestBBCGoodFoodScraper
+test_host	tests/test_bettycrocker.py	/^    def test_host(self):$/;"	m	class:TestBettyCrocker
+test_host	tests/test_bonappetit.py	/^    def test_host(self):$/;"	m	class:TestBonAppetitScraper
+test_host	tests/test_bowlofdelicious.py	/^    def test_host(self):$/;"	m	class:TestBowlOfDeliciousScraper
+test_host	tests/test_budgetbytes.py	/^    def test_host(self):$/;"	m	class:TestBudgetBytesScraper
+test_host	tests/test_closetcooking.py	/^    def test_host(self):$/;"	m	class:TestClosetCooking
+test_host	tests/test_cookieandkate.py	/^    def test_host(self):$/;"	m	class:TestCookieAndKateScraper
+test_host	tests/test_cookpad.py	/^    def test_host(self):$/;"	m	class:TestCookPadScraper
+test_host	tests/test_cookstr.py	/^    def test_host(self):$/;"	m	class:TestCookstrScraper
+test_host	tests/test_copykat.py	/^    def test_host(self):$/;"	m	class:TestCopyKat
+test_host	tests/test_countryliving.py	/^    def test_host(self):$/;"	m	class:TestCountryLivingScraper
+test_host	tests/test_cybercook.py	/^    def test_host(self):$/;"	m	class:TestCybercook
+test_host	tests/test_delish.py	/^    def test_host(self):$/;"	m	class:TestDelishScraper
+test_host	tests/test_eatsmarter.py	/^    def test_host(self):$/;"	m	class:TestClosetCooking
+test_host	tests/test_epicurious.py	/^    def test_host(self):$/;"	m	class:TestEpicurious
+test_host	tests/test_fifteenspatulas.py	/^    def test_host(self):$/;"	m	class:TestFifteenSpatulasScraper
+test_host	tests/test_finedininglovers.py	/^    def test_host(self):$/;"	m	class:TestFineDiningLoversScraper
+test_host	tests/test_fitmencook.py	/^    def test_host(self):$/;"	m	class:TestFitMenCookScraper
+test_host	tests/test_food.py	/^    def test_host(self):$/;"	m	class:TestFoodScraper
+test_host	tests/test_foodnetwork.py	/^    def test_host(self):$/;"	m	class:TestFoodNetworkScraper
+test_host	tests/test_foodrepublic.py	/^    def test_host(self):$/;"	m	class:TestFoodRepublicScraper
+test_host	tests/test_geniuskitchen.py	/^    def test_host(self):$/;"	m	class:TestGeniusKitchenScraper
+test_host	tests/test_giallozafferano.py	/^    def test_host(self):$/;"	m	class:TestGialloZafferanoScraper
+test_host	tests/test_gimmesomeoven.py	/^    def test_host(self):$/;"	m	class:TestGimmeSomeOvenScraper
+test_host	tests/test_gonnawantseconds.py	/^    def test_host(self):$/;"	m	class:TestGonnaWantSeconds
+test_host	tests/test_gousto.py	/^    def test_host(self):$/;"	m	class:TestGoustoScraper
+test_host	tests/test_greatbritishchefs.py	/^    def test_host(self):$/;"	m	class:TestGreatBritishChefsScraper
+test_host	tests/test_halfbakedharvest.py	/^    def test_host(self):$/;"	m	class:TestHalfBakedHarvestScraper
+test_host	tests/test_hassanchef.py	/^    def test_host(self):$/;"	m	class:TestClosetCooking
+test_host	tests/test_heinzbrasil.py	/^    def test_host(self):$/;"	m	class:TestHeinzBrasilScraper
+test_host	tests/test_hellofresh.py	/^    def test_host(self):$/;"	m	class:TestHelloFreshScraper
+test_host	tests/test_hostthetoast.py	/^    def test_host(self):$/;"	m	class:TestHostthetoastScraper
+test_host	tests/test_hundredandonecookbooks.py	/^    def test_host(self):$/;"	m	class:TestHundredAndOneCookbooksScraper
+test_host	tests/test_ig.py	/^    def test_host(self):$/;"	m	class:TestIGScraper
+test_host	tests/test_inspiralized.py	/^    def test_host(self):$/;"	m	class:TestInspiralizedScraper
+test_host	tests/test_jamieoliver.py	/^    def test_host(self):$/;"	m	class:TestJamieOliverScraper
+test_host	tests/test_justbento.py	/^    def test_host(self):$/;"	m	class:TestJustBentoScraper
+test_host	tests/test_kennymcgovern.py	/^    def test_host(self):$/;"	m	class:TestKennyMcGovernScraper
+test_host	tests/test_kochbar.py	/^    def test_host(self):$/;"	m	class:TestKochbarScraper
+test_host	tests/test_lecremedelacrumb.py	/^    def test_host(self):$/;"	m	class:TestLeCremeDeLaCrumbScraper
+test_host	tests/test_lovingitvegan.py	/^    def test_host(self):$/;"	m	class:TestLovingitveganScraper
+test_host	tests/test_marmiton.py	/^    def test_host(self):$/;"	m	class:TestMarmitonScraper
+test_host	tests/test_matprat.py	/^    def test_host(self):$/;"	m	class:TestMatprat
+test_host	tests/test_mindmegette.py	/^    def test_host(self):$/;"	m	class:TestMindmegetteScraper
+test_host	tests/test_minimalistbaker.py	/^    def test_host(self):$/;"	m	class:TestMinimalistbakerScraper
+test_host	tests/test_misya.py	/^    def test_host(self):$/;"	m	class:TestMisya
+test_host	tests/test_momswithcrockpots.py	/^    def test_host(self):$/;"	m	class:TestMomsWithCrockPotsScraper
+test_host	tests/test_motherthyme.py	/^    def test_host(self):$/;"	m	class:TestMotherThymeScraper
+test_host	tests/test_mybakingaddiction.py	/^    def test_host(self):$/;"	m	class:TestMyBakingAddictionScraper
+test_host	tests/test_myrecipes.py	/^    def test_host(self):$/;"	m	class:TestMyRecipesScraper
+test_host	tests/test_nih.py	/^    def test_host(self):$/;"	m	class:TestNIHHealthyEatingRecipesScraper
+test_host	tests/test_nytimes.py	/^    def test_host(self):$/;"	m	class:TestNYTimesScraper
+test_host	tests/test_ohsheglows.py	/^    def test_host(self):$/;"	m	class:TestOhSheGlowsScraper
+test_host	tests/test_panelinha.py	/^    def test_host(self):$/;"	m	class:TestPanelinhaScraper
+test_host	tests/test_paninihappy.py	/^    def test_host(self):$/;"	m	class:TestPaniniHappyScraper
+test_host	tests/test_przepisy.py	/^    def test_host(self):$/;"	m	class:TestPrzepisyScraper
+test_host	tests/test_realsimple.py	/^    def test_host(self):$/;"	m	class:TestRealSimpleScraper
+test_host	tests/test_seriouseats.py	/^    def test_host(self):$/;"	m	class:TestSeriousEats
+test_host	tests/test_simplyquinoa.py	/^    def test_host(self):$/;"	m	class:TestSimplyQuinoaScraper
+test_host	tests/test_simplyrecipes.py	/^    def test_host(self):$/;"	m	class:TestSimplyRecipesScraper
+test_host	tests/test_skinnytaste.py	/^    def test_host(self):$/;"	m	class:TestSkinnyTasteScraper
+test_host	tests/test_southernliving.py	/^    def test_host(self):$/;"	m	class:TestSouthernLiving
+test_host	tests/test_spendwithpennies.py	/^    def test_host(self):$/;"	m	class:TestSpendWithPenniesScraper
+test_host	tests/test_steamykitchen.py	/^    def test_host(self):$/;"	m	class:TestSteamyKitchenScraper
+test_host	tests/test_tasteofhome.py	/^    def test_host(self):$/;"	m	class:TestTasteOfHomeScraper
+test_host	tests/test_tastesoflizzyt.py	/^    def test_host(self):$/;"	m	class:TestTastesOfLizzyTScraper
+test_host	tests/test_tasty.py	/^    def test_host(self):$/;"	m	class:TestTastyScraper
+test_host	tests/test_tastykitchen.py	/^    def test_host(self):$/;"	m	class:TestTastyKitchenScraper
+test_host	tests/test_thehappyfoodie.py	/^    def test_host(self):$/;"	m	class:TestTheHappyFoodie
+test_host	tests/test_thekitchn.py	/^    def test_host(self):$/;"	m	class:TestKitchnScraper
+test_host	tests/test_thepioneerwoman.py	/^    def test_host(self):$/;"	m	class:TestThePioneerWomanScraper
+test_host	tests/test_thespruceeats.py	/^    def test_host(self):$/;"	m	class:TestTheSpruceEatsScraper
+test_host	tests/test_thevintagemixer.py	/^    def test_host(self):$/;"	m	class:TestTheVintageMixerScraper
+test_host	tests/test_thewoksoflife.py	/^    def test_host(self):$/;"	m	class:TestThewoksoflifeScraper
+test_host	tests/test_tine.py	/^    def test_host(self):$/;"	m	class:TestTineNoScraper
+test_host	tests/test_tudogostoso.py	/^    def test_host(self):$/;"	m	class:TestTudoGostosoScraper
+test_host	tests/test_twopeasandtheirpod.py	/^    def test_host(self):$/;"	m	class:TestTwoPeasAndTheirPodScraper
+test_host	tests/test_vegolosi.py	/^    def test_host(self):$/;"	m	class:TestVegolosiScraper
+test_host	tests/test_watchwhatueat.py	/^    def test_host(self):$/;"	m	class:TestWatchWhatUEatScraper
+test_host	tests/test_whatsgabycooking.py	/^    def test_host(self):$/;"	m	class:TestWhatsGabyCookingScraper
+test_host	tests/test_wikibooks.py	/^    def test_host(self):$/;"	m	class:TestWikiCookbookScraper
+test_host	tests/test_yummly.py	/^    def test_host(self):$/;"	m	class:TestYummlyScraper
+test_host_domain	tests/test_bbc.py	/^    def test_host_domain(self):$/;"	m	class:TestBBCFoodScraper
+test_host_domain	tests/test_hellofresh.py	/^    def test_host_domain(self):$/;"	m	class:TestHelloFreshScraper
+test_image	tests/test_allrecipes.py	/^    def test_image(self):$/;"	m	class:TestAllRecipesScraper
+test_image	tests/test_archanaskitchen.py	/^    def test_image(self):$/;"	m	class:TestArchanasKitchenScraper
+test_image	tests/test_averiecooks.py	/^    def test_image(self):$/;"	m	class:TestAverieCooksScraper
+test_image	tests/test_bbc.py	/^    def test_image(self):$/;"	m	class:TestBBCFoodScraper
+test_image	tests/test_bbcgoodfood.py	/^    def test_image(self):$/;"	m	class:TestBBCGoodFoodScraper
+test_image	tests/test_bettycrocker.py	/^    def test_image(self):$/;"	m	class:TestBettyCrocker
+test_image	tests/test_bonappetit.py	/^    def test_image(self):$/;"	m	class:TestBonAppetitScraper
+test_image	tests/test_bowlofdelicious.py	/^    def test_image(self):$/;"	m	class:TestBowlOfDeliciousScraper
+test_image	tests/test_cookpad.py	/^    def test_image(self):$/;"	m	class:TestCookPadScraper
+test_image	tests/test_copykat.py	/^    def test_image(self):$/;"	m	class:TestCopyKat
+test_image	tests/test_cybercook.py	/^    def test_image(self):$/;"	m	class:TestCybercook
+test_image	tests/test_delish.py	/^    def test_image(self):$/;"	m	class:TestDelishScraper
+test_image	tests/test_epicurious.py	/^    def test_image(self):$/;"	m	class:TestEpicurious
+test_image	tests/test_fifteenspatulas.py	/^    def test_image(self):$/;"	m	class:TestFifteenSpatulasScraper
+test_image	tests/test_finedininglovers.py	/^    def test_image(self):$/;"	m	class:TestFineDiningLoversScraper
+test_image	tests/test_foodnetwork.py	/^    def test_image(self):$/;"	m	class:TestFoodNetworkScraper
+test_image	tests/test_gimmesomeoven.py	/^    def test_image(self):$/;"	m	class:TestGimmeSomeOvenScraper
+test_image	tests/test_gonnawantseconds.py	/^    def test_image(self):$/;"	m	class:TestGonnaWantSeconds
+test_image	tests/test_greatbritishchefs.py	/^    def test_image(self):$/;"	m	class:TestGreatBritishChefsScraper
+test_image	tests/test_halfbakedharvest.py	/^    def test_image(self):$/;"	m	class:TestHalfBakedHarvestScraper
+test_image	tests/test_heinzbrasil.py	/^    def test_image(self):$/;"	m	class:TestHeinzBrasilScraper
+test_image	tests/test_hostthetoast.py	/^    def test_image(self):$/;"	m	class:TestHostthetoastScraper
+test_image	tests/test_hundredandonecookbooks.py	/^    def test_image(self):$/;"	m	class:TestHundredAndOneCookbooksScraper
+test_image	tests/test_ig.py	/^    def test_image(self):$/;"	m	class:TestIGScraper
+test_image	tests/test_jamieoliver.py	/^    def test_image(self):$/;"	m	class:TestJamieOliverScraper
+test_image	tests/test_justbento.py	/^    def test_image(self):$/;"	m	class:TestJustBentoScraper
+test_image	tests/test_kennymcgovern.py	/^    def test_image(self):$/;"	m	class:TestKennyMcGovernScraper
+test_image	tests/test_kochbar.py	/^    def test_image(self):$/;"	m	class:TestKochbarScraper
+test_image	tests/test_lecremedelacrumb.py	/^    def test_image(self):$/;"	m	class:TestLeCremeDeLaCrumbScraper
+test_image	tests/test_lovingitvegan.py	/^    def test_image(self):$/;"	m	class:TestLovingitveganScraper
+test_image	tests/test_matprat.py	/^    def test_image(self):$/;"	m	class:TestMatprat
+test_image	tests/test_mindmegette.py	/^    def test_image(self):$/;"	m	class:TestMindmegetteScraper
+test_image	tests/test_minimalistbaker.py	/^    def test_image(self):$/;"	m	class:TestMinimalistbakerScraper
+test_image	tests/test_misya.py	/^    def test_image(self):$/;"	m	class:TestMisya
+test_image	tests/test_mybakingaddiction.py	/^    def test_image(self):$/;"	m	class:TestMyBakingAddictionScraper
+test_image	tests/test_myrecipes.py	/^    def test_image(self):$/;"	m	class:TestMyRecipesScraper
+test_image	tests/test_nytimes.py	/^    def test_image(self):$/;"	m	class:TestNYTimesScraper
+test_image	tests/test_ohsheglows.py	/^    def test_image(self):$/;"	m	class:TestOhSheGlowsScraper
+test_image	tests/test_paninihappy.py	/^    def test_image(self):$/;"	m	class:TestPaniniHappyScraper
+test_image	tests/test_seriouseats.py	/^    def test_image(self):$/;"	m	class:TestSeriousEats
+test_image	tests/test_skinnytaste.py	/^    def test_image(self):$/;"	m	class:TestSkinnyTasteScraper
+test_image	tests/test_southernliving.py	/^    def test_image(self):$/;"	m	class:TestSouthernLiving
+test_image	tests/test_spendwithpennies.py	/^    def test_image(self):$/;"	m	class:TestSpendWithPenniesScraper
+test_image	tests/test_steamykitchen.py	/^    def test_image(self):$/;"	m	class:TestSteamyKitchenScraper
+test_image	tests/test_tasteofhome.py	/^    def test_image(self):$/;"	m	class:TestTasteOfHomeScraper
+test_image	tests/test_tasty.py	/^    def test_image(self):$/;"	m	class:TestTastyScraper
+test_image	tests/test_tastykitchen.py	/^    def test_image(self):$/;"	m	class:TestTastyKitchenScraper
+test_image	tests/test_thekitchn.py	/^    def test_image(self):$/;"	m	class:TestKitchnScraper
+test_image	tests/test_thepioneerwoman.py	/^    def test_image(self):$/;"	m	class:TestThePioneerWomanScraper
+test_image	tests/test_thespruceeats.py	/^    def test_image(self):$/;"	m	class:TestTheSpruceEatsScraper
+test_image	tests/test_thevintagemixer.py	/^    def test_image(self):$/;"	m	class:TestTheVintageMixerScraper
+test_image	tests/test_thewoksoflife.py	/^    def test_image(self):$/;"	m	class:TestThewoksoflifeScraper
+test_image	tests/test_tine.py	/^    def test_image(self):$/;"	m	class:TestTineNoScraper
+test_image	tests/test_twopeasandtheirpod.py	/^    def test_image(self):$/;"	m	class:TestTwoPeasAndTheirPodScraper
+test_image	tests/test_watchwhatueat.py	/^    def test_image(self):$/;"	m	class:TestWatchWhatUEatScraper
+test_image	tests/test_whatsgabycooking.py	/^    def test_image(self):$/;"	m	class:TestWhatsGabyCookingScraper
+test_image	tests/test_wikibooks.py	/^    def test_image(self):$/;"	m	class:TestWikiCookbookScraper
+test_ingredients	tests/test_acouplecooks.py	/^    def test_ingredients(self):$/;"	m	class:TestACoupleCooks
+test_ingredients	tests/test_allrecipes.py	/^    def test_ingredients(self):$/;"	m	class:TestAllRecipesScraper
+test_ingredients	tests/test_archanaskitchen.py	/^    def test_ingredients(self):$/;"	m	class:TestArchanasKitchenScraper
+test_ingredients	tests/test_averiecooks.py	/^    def test_ingredients(self):$/;"	m	class:TestAverieCooksScraper
+test_ingredients	tests/test_bbc.py	/^    def test_ingredients(self):$/;"	m	class:TestBBCFoodScraper
+test_ingredients	tests/test_bbcgoodfood.py	/^    def test_ingredients(self):$/;"	m	class:TestBBCGoodFoodScraper
+test_ingredients	tests/test_bettycrocker.py	/^    def test_ingredients(self):$/;"	m	class:TestBettyCrocker
+test_ingredients	tests/test_bonappetit.py	/^    def test_ingredients(self):$/;"	m	class:TestBonAppetitScraper
+test_ingredients	tests/test_bowlofdelicious.py	/^    def test_ingredients(self):$/;"	m	class:TestBowlOfDeliciousScraper
+test_ingredients	tests/test_budgetbytes.py	/^    def test_ingredients(self):$/;"	m	class:TestBudgetBytesScraper
+test_ingredients	tests/test_closetcooking.py	/^    def test_ingredients(self):$/;"	m	class:TestClosetCooking
+test_ingredients	tests/test_cookieandkate.py	/^    def test_ingredients(self):$/;"	m	class:TestCookieAndKateScraper
+test_ingredients	tests/test_cookpad.py	/^    def test_ingredients(self):$/;"	m	class:TestCookPadScraper
+test_ingredients	tests/test_cookstr.py	/^    def test_ingredients(self):$/;"	m	class:TestCookstrScraper
+test_ingredients	tests/test_copykat.py	/^    def test_ingredients(self):$/;"	m	class:TestCopyKat
+test_ingredients	tests/test_countryliving.py	/^    def test_ingredients(self):$/;"	m	class:TestCountryLivingScraper
+test_ingredients	tests/test_cybercook.py	/^    def test_ingredients(self):$/;"	m	class:TestCybercook
+test_ingredients	tests/test_delish.py	/^    def test_ingredients(self):$/;"	m	class:TestDelishScraper
+test_ingredients	tests/test_eatsmarter.py	/^    def test_ingredients(self):$/;"	m	class:TestClosetCooking
+test_ingredients	tests/test_epicurious.py	/^    def test_ingredients(self):$/;"	m	class:TestEpicurious
+test_ingredients	tests/test_fifteenspatulas.py	/^    def test_ingredients(self):$/;"	m	class:TestFifteenSpatulasScraper
+test_ingredients	tests/test_finedininglovers.py	/^    def test_ingredients(self):$/;"	m	class:TestFineDiningLoversScraper
+test_ingredients	tests/test_fitmencook.py	/^    def test_ingredients(self):$/;"	m	class:TestFitMenCookScraper
+test_ingredients	tests/test_food.py	/^    def test_ingredients(self):$/;"	m	class:TestFoodScraper
+test_ingredients	tests/test_foodnetwork.py	/^    def test_ingredients(self):$/;"	m	class:TestFoodNetworkScraper
+test_ingredients	tests/test_foodrepublic.py	/^    def test_ingredients(self):$/;"	m	class:TestFoodRepublicScraper
+test_ingredients	tests/test_geniuskitchen.py	/^    def test_ingredients(self):$/;"	m	class:TestGeniusKitchenScraper
+test_ingredients	tests/test_giallozafferano.py	/^    def test_ingredients(self):$/;"	m	class:TestGialloZafferanoScraper
+test_ingredients	tests/test_gimmesomeoven.py	/^    def test_ingredients(self):$/;"	m	class:TestGimmeSomeOvenScraper
+test_ingredients	tests/test_gonnawantseconds.py	/^    def test_ingredients(self):$/;"	m	class:TestGonnaWantSeconds
+test_ingredients	tests/test_gousto.py	/^    def test_ingredients(self):$/;"	m	class:TestGoustoScraper
+test_ingredients	tests/test_greatbritishchefs.py	/^    def test_ingredients(self):$/;"	m	class:TestGreatBritishChefsScraper
+test_ingredients	tests/test_halfbakedharvest.py	/^    def test_ingredients(self):$/;"	m	class:TestHalfBakedHarvestScraper
+test_ingredients	tests/test_hassanchef.py	/^    def test_ingredients(self):$/;"	m	class:TestClosetCooking
+test_ingredients	tests/test_heinzbrasil.py	/^    def test_ingredients(self):$/;"	m	class:TestHeinzBrasilScraper
+test_ingredients	tests/test_hellofresh.py	/^    def test_ingredients(self):$/;"	m	class:TestHelloFreshScraper
+test_ingredients	tests/test_hostthetoast.py	/^    def test_ingredients(self):$/;"	m	class:TestHostthetoastScraper
+test_ingredients	tests/test_hundredandonecookbooks.py	/^    def test_ingredients(self):$/;"	m	class:TestHundredAndOneCookbooksScraper
+test_ingredients	tests/test_ig.py	/^    def test_ingredients(self):$/;"	m	class:TestIGScraper
+test_ingredients	tests/test_inspiralized.py	/^    def test_ingredients(self):$/;"	m	class:TestInspiralizedScraper
+test_ingredients	tests/test_jamieoliver.py	/^    def test_ingredients(self):$/;"	m	class:TestJamieOliverScraper
+test_ingredients	tests/test_justbento.py	/^    def test_ingredients(self):$/;"	m	class:TestJustBentoScraper
+test_ingredients	tests/test_kennymcgovern.py	/^    def test_ingredients(self):$/;"	m	class:TestKennyMcGovernScraper
+test_ingredients	tests/test_kochbar.py	/^    def test_ingredients(self):$/;"	m	class:TestKochbarScraper
+test_ingredients	tests/test_lecremedelacrumb.py	/^    def test_ingredients(self):$/;"	m	class:TestLeCremeDeLaCrumbScraper
+test_ingredients	tests/test_lovingitvegan.py	/^    def test_ingredients(self):$/;"	m	class:TestLovingitveganScraper
+test_ingredients	tests/test_marmiton.py	/^    def test_ingredients(self):$/;"	m	class:TestMarmitonScraper
+test_ingredients	tests/test_matprat.py	/^    def test_ingredients(self):$/;"	m	class:TestMatprat
+test_ingredients	tests/test_mindmegette.py	/^    def test_ingredients(self):$/;"	m	class:TestMindmegetteScraper
+test_ingredients	tests/test_minimalistbaker.py	/^    def test_ingredients(self):$/;"	m	class:TestMinimalistbakerScraper
+test_ingredients	tests/test_misya.py	/^    def test_ingredients(self):$/;"	m	class:TestMisya
+test_ingredients	tests/test_momswithcrockpots.py	/^    def test_ingredients(self):$/;"	m	class:TestMomsWithCrockPotsScraper
+test_ingredients	tests/test_motherthyme.py	/^    def test_ingredients(self):$/;"	m	class:TestMotherThymeScraper
+test_ingredients	tests/test_mybakingaddiction.py	/^    def test_ingredients(self):$/;"	m	class:TestMyBakingAddictionScraper
+test_ingredients	tests/test_myrecipes.py	/^    def test_ingredients(self):$/;"	m	class:TestMyRecipesScraper
+test_ingredients	tests/test_nih.py	/^    def test_ingredients(self):$/;"	m	class:TestNIHHealthyEatingRecipesScraper
+test_ingredients	tests/test_nytimes.py	/^    def test_ingredients(self):$/;"	m	class:TestNYTimesScraper
+test_ingredients	tests/test_ohsheglows.py	/^    def test_ingredients(self):$/;"	m	class:TestOhSheGlowsScraper
+test_ingredients	tests/test_panelinha.py	/^    def test_ingredients(self):$/;"	m	class:TestPanelinhaScraper
+test_ingredients	tests/test_paninihappy.py	/^    def test_ingredients(self):$/;"	m	class:TestPaniniHappyScraper
+test_ingredients	tests/test_przepisy.py	/^    def test_ingredients(self):$/;"	m	class:TestPrzepisyScraper
+test_ingredients	tests/test_realsimple.py	/^    def test_ingredients(self):$/;"	m	class:TestRealSimpleScraper
+test_ingredients	tests/test_seriouseats.py	/^    def test_ingredients(self):$/;"	m	class:TestSeriousEats
+test_ingredients	tests/test_simplyquinoa.py	/^    def test_ingredients(self):$/;"	m	class:TestSimplyQuinoaScraper
+test_ingredients	tests/test_simplyrecipes.py	/^    def test_ingredients(self):$/;"	m	class:TestSimplyRecipesScraper
+test_ingredients	tests/test_skinnytaste.py	/^    def test_ingredients(self):$/;"	m	class:TestSkinnyTasteScraper
+test_ingredients	tests/test_southernliving.py	/^    def test_ingredients(self):$/;"	m	class:TestSouthernLiving
+test_ingredients	tests/test_spendwithpennies.py	/^    def test_ingredients(self):$/;"	m	class:TestSpendWithPenniesScraper
+test_ingredients	tests/test_steamykitchen.py	/^    def test_ingredients(self):$/;"	m	class:TestSteamyKitchenScraper
+test_ingredients	tests/test_tasteofhome.py	/^    def test_ingredients(self):$/;"	m	class:TestTasteOfHomeScraper
+test_ingredients	tests/test_tastesoflizzyt.py	/^    def test_ingredients(self):$/;"	m	class:TestTastesOfLizzyTScraper
+test_ingredients	tests/test_tasty.py	/^    def test_ingredients(self):$/;"	m	class:TestTastyScraper
+test_ingredients	tests/test_tastykitchen.py	/^    def test_ingredients(self):$/;"	m	class:TestTastyKitchenScraper
+test_ingredients	tests/test_thehappyfoodie.py	/^    def test_ingredients(self):$/;"	m	class:TestTheHappyFoodie
+test_ingredients	tests/test_thekitchn.py	/^    def test_ingredients(self):$/;"	m	class:TestKitchnScraper
+test_ingredients	tests/test_thepioneerwoman.py	/^    def test_ingredients(self):$/;"	m	class:TestThePioneerWomanScraper
+test_ingredients	tests/test_thespruceeats.py	/^    def test_ingredients(self):$/;"	m	class:TestTheSpruceEatsScraper
+test_ingredients	tests/test_thevintagemixer.py	/^    def test_ingredients(self):$/;"	m	class:TestTheVintageMixerScraper
+test_ingredients	tests/test_thewoksoflife.py	/^    def test_ingredients(self):$/;"	m	class:TestThewoksoflifeScraper
+test_ingredients	tests/test_tine.py	/^    def test_ingredients(self):$/;"	m	class:TestTineNoScraper
+test_ingredients	tests/test_tudogostoso.py	/^    def test_ingredients(self):$/;"	m	class:TestTudoGostosoScraper
+test_ingredients	tests/test_twopeasandtheirpod.py	/^    def test_ingredients(self):$/;"	m	class:TestTwoPeasAndTheirPodScraper
+test_ingredients	tests/test_vegolosi.py	/^    def test_ingredients(self):$/;"	m	class:TestVegolosiScraper
+test_ingredients	tests/test_watchwhatueat.py	/^    def test_ingredients(self):$/;"	m	class:TestWatchWhatUEatScraper
+test_ingredients	tests/test_whatsgabycooking.py	/^    def test_ingredients(self):$/;"	m	class:TestWhatsGabyCookingScraper
+test_ingredients	tests/test_wikibooks.py	/^    def test_ingredients(self):$/;"	m	class:TestWikiCookbookScraper
+test_ingredients	tests/test_yummly.py	/^    def test_ingredients(self):$/;"	m	class:TestYummlyScraper
+test_instructions	tests/test_acouplecooks.py	/^    def test_instructions(self):$/;"	m	class:TestACoupleCooks
+test_instructions	tests/test_allrecipes.py	/^    def test_instructions(self):$/;"	m	class:TestAllRecipesScraper
+test_instructions	tests/test_archanaskitchen.py	/^    def test_instructions(self):$/;"	m	class:TestArchanasKitchenScraper
+test_instructions	tests/test_averiecooks.py	/^    def test_instructions(self):$/;"	m	class:TestAverieCooksScraper
+test_instructions	tests/test_bbc.py	/^    def test_instructions(self):$/;"	m	class:TestBBCFoodScraper
+test_instructions	tests/test_bbcgoodfood.py	/^    def test_instructions(self):$/;"	m	class:TestBBCGoodFoodScraper
+test_instructions	tests/test_bettycrocker.py	/^    def test_instructions(self):$/;"	m	class:TestBettyCrocker
+test_instructions	tests/test_bonappetit.py	/^    def test_instructions(self):$/;"	m	class:TestBonAppetitScraper
+test_instructions	tests/test_bowlofdelicious.py	/^    def test_instructions(self):$/;"	m	class:TestBowlOfDeliciousScraper
+test_instructions	tests/test_budgetbytes.py	/^    def test_instructions(self):$/;"	m	class:TestBudgetBytesScraper
+test_instructions	tests/test_closetcooking.py	/^    def test_instructions(self):$/;"	m	class:TestClosetCooking
+test_instructions	tests/test_cookieandkate.py	/^    def test_instructions(self):$/;"	m	class:TestCookieAndKateScraper
+test_instructions	tests/test_cookpad.py	/^    def test_instructions(self):$/;"	m	class:TestCookPadScraper
+test_instructions	tests/test_cookstr.py	/^    def test_instructions(self):$/;"	m	class:TestCookstrScraper
+test_instructions	tests/test_copykat.py	/^    def test_instructions(self):$/;"	m	class:TestCopyKat
+test_instructions	tests/test_countryliving.py	/^    def test_instructions(self):$/;"	m	class:TestCountryLivingScraper
+test_instructions	tests/test_cybercook.py	/^    def test_instructions(self):$/;"	m	class:TestCybercook
+test_instructions	tests/test_delish.py	/^    def test_instructions(self):$/;"	m	class:TestDelishScraper
+test_instructions	tests/test_eatsmarter.py	/^    def test_instructions(self):$/;"	m	class:TestClosetCooking
+test_instructions	tests/test_epicurious.py	/^    def test_instructions(self):$/;"	m	class:TestEpicurious
+test_instructions	tests/test_fifteenspatulas.py	/^    def test_instructions(self):$/;"	m	class:TestFifteenSpatulasScraper
+test_instructions	tests/test_finedininglovers.py	/^    def test_instructions(self):$/;"	m	class:TestFineDiningLoversScraper
+test_instructions	tests/test_fitmencook.py	/^    def test_instructions(self):$/;"	m	class:TestFitMenCookScraper
+test_instructions	tests/test_food.py	/^    def test_instructions(self):$/;"	m	class:TestFoodScraper
+test_instructions	tests/test_foodnetwork.py	/^    def test_instructions(self):$/;"	m	class:TestFoodNetworkScraper
+test_instructions	tests/test_foodrepublic.py	/^    def test_instructions(self):$/;"	m	class:TestFoodRepublicScraper
+test_instructions	tests/test_geniuskitchen.py	/^    def test_instructions(self):$/;"	m	class:TestGeniusKitchenScraper
+test_instructions	tests/test_giallozafferano.py	/^    def test_instructions(self):$/;"	m	class:TestGialloZafferanoScraper
+test_instructions	tests/test_gimmesomeoven.py	/^    def test_instructions(self):$/;"	m	class:TestGimmeSomeOvenScraper
+test_instructions	tests/test_gonnawantseconds.py	/^    def test_instructions(self):$/;"	m	class:TestGonnaWantSeconds
+test_instructions	tests/test_gousto.py	/^    def test_instructions(self):$/;"	m	class:TestGoustoScraper
+test_instructions	tests/test_greatbritishchefs.py	/^    def test_instructions(self):$/;"	m	class:TestGreatBritishChefsScraper
+test_instructions	tests/test_halfbakedharvest.py	/^    def test_instructions(self):$/;"	m	class:TestHalfBakedHarvestScraper
+test_instructions	tests/test_hassanchef.py	/^    def test_instructions(self):$/;"	m	class:TestClosetCooking
+test_instructions	tests/test_heinzbrasil.py	/^    def test_instructions(self):$/;"	m	class:TestHeinzBrasilScraper
+test_instructions	tests/test_hellofresh.py	/^    def test_instructions(self):$/;"	m	class:TestHelloFreshScraper
+test_instructions	tests/test_hostthetoast.py	/^    def test_instructions(self):$/;"	m	class:TestHostthetoastScraper
+test_instructions	tests/test_hundredandonecookbooks.py	/^    def test_instructions(self):$/;"	m	class:TestHundredAndOneCookbooksScraper
+test_instructions	tests/test_ig.py	/^    def test_instructions(self):$/;"	m	class:TestIGScraper
+test_instructions	tests/test_inspiralized.py	/^    def test_instructions(self):$/;"	m	class:TestInspiralizedScraper
+test_instructions	tests/test_jamieoliver.py	/^    def test_instructions(self):$/;"	m	class:TestJamieOliverScraper
+test_instructions	tests/test_justbento.py	/^    def test_instructions(self):$/;"	m	class:TestJustBentoScraper
+test_instructions	tests/test_kennymcgovern.py	/^    def test_instructions(self):$/;"	m	class:TestKennyMcGovernScraper
+test_instructions	tests/test_kochbar.py	/^    def test_instructions(self):$/;"	m	class:TestKochbarScraper
+test_instructions	tests/test_lecremedelacrumb.py	/^    def test_instructions(self):$/;"	m	class:TestLeCremeDeLaCrumbScraper
+test_instructions	tests/test_lovingitvegan.py	/^    def test_instructions(self):$/;"	m	class:TestLovingitveganScraper
+test_instructions	tests/test_marmiton.py	/^    def test_instructions(self):$/;"	m	class:TestMarmitonScraper
+test_instructions	tests/test_matprat.py	/^    def test_instructions(self):$/;"	m	class:TestMatprat
+test_instructions	tests/test_mindmegette.py	/^    def test_instructions(self):$/;"	m	class:TestMindmegetteScraper
+test_instructions	tests/test_minimalistbaker.py	/^    def test_instructions(self):$/;"	m	class:TestMinimalistbakerScraper
+test_instructions	tests/test_misya.py	/^    def test_instructions(self):$/;"	m	class:TestMisya
+test_instructions	tests/test_momswithcrockpots.py	/^    def test_instructions(self):$/;"	m	class:TestMomsWithCrockPotsScraper
+test_instructions	tests/test_motherthyme.py	/^    def test_instructions(self):$/;"	m	class:TestMotherThymeScraper
+test_instructions	tests/test_mybakingaddiction.py	/^    def test_instructions(self):$/;"	m	class:TestMyBakingAddictionScraper
+test_instructions	tests/test_myrecipes.py	/^    def test_instructions(self):$/;"	m	class:TestMyRecipesScraper
+test_instructions	tests/test_nih.py	/^    def test_instructions(self):$/;"	m	class:TestNIHHealthyEatingRecipesScraper
+test_instructions	tests/test_nytimes.py	/^    def test_instructions(self):$/;"	m	class:TestNYTimesScraper
+test_instructions	tests/test_ohsheglows.py	/^    def test_instructions(self):$/;"	m	class:TestOhSheGlowsScraper
+test_instructions	tests/test_panelinha.py	/^    def test_instructions(self):$/;"	m	class:TestPanelinhaScraper
+test_instructions	tests/test_paninihappy.py	/^    def test_instructions(self):$/;"	m	class:TestPaniniHappyScraper
+test_instructions	tests/test_przepisy.py	/^    def test_instructions(self):$/;"	m	class:TestPrzepisyScraper
+test_instructions	tests/test_realsimple.py	/^    def test_instructions(self):$/;"	m	class:TestRealSimpleScraper
+test_instructions	tests/test_seriouseats.py	/^    def test_instructions(self):$/;"	m	class:TestSeriousEats
+test_instructions	tests/test_simplyquinoa.py	/^    def test_instructions(self):$/;"	m	class:TestSimplyQuinoaScraper
+test_instructions	tests/test_simplyrecipes.py	/^    def test_instructions(self):$/;"	m	class:TestSimplyRecipesScraper
+test_instructions	tests/test_skinnytaste.py	/^    def test_instructions(self):$/;"	m	class:TestSkinnyTasteScraper
+test_instructions	tests/test_southernliving.py	/^    def test_instructions(self):$/;"	m	class:TestSouthernLiving
+test_instructions	tests/test_spendwithpennies.py	/^    def test_instructions(self):$/;"	m	class:TestSpendWithPenniesScraper
+test_instructions	tests/test_steamykitchen.py	/^    def test_instructions(self):$/;"	m	class:TestSteamyKitchenScraper
+test_instructions	tests/test_tasteofhome.py	/^    def test_instructions(self):$/;"	m	class:TestTasteOfHomeScraper
+test_instructions	tests/test_tastesoflizzyt.py	/^    def test_instructions(self):$/;"	m	class:TestTastesOfLizzyTScraper
+test_instructions	tests/test_tasty.py	/^    def test_instructions(self):$/;"	m	class:TestTastyScraper
+test_instructions	tests/test_tastykitchen.py	/^    def test_instructions(self):$/;"	m	class:TestTastyKitchenScraper
+test_instructions	tests/test_thehappyfoodie.py	/^    def test_instructions(self):$/;"	m	class:TestTheHappyFoodie
+test_instructions	tests/test_thekitchn.py	/^    def test_instructions(self):$/;"	m	class:TestKitchnScraper
+test_instructions	tests/test_thepioneerwoman.py	/^    def test_instructions(self):$/;"	m	class:TestThePioneerWomanScraper
+test_instructions	tests/test_thespruceeats.py	/^    def test_instructions(self):$/;"	m	class:TestTheSpruceEatsScraper
+test_instructions	tests/test_thevintagemixer.py	/^    def test_instructions(self):$/;"	m	class:TestTheVintageMixerScraper
+test_instructions	tests/test_thewoksoflife.py	/^    def test_instructions(self):$/;"	m	class:TestThewoksoflifeScraper
+test_instructions	tests/test_tine.py	/^    def test_instructions(self):$/;"	m	class:TestTineNoScraper
+test_instructions	tests/test_tudogostoso.py	/^    def test_instructions(self):$/;"	m	class:TestTudoGostosoScraper
+test_instructions	tests/test_twopeasandtheirpod.py	/^    def test_instructions(self):$/;"	m	class:TestTwoPeasAndTheirPodScraper
+test_instructions	tests/test_vegolosi.py	/^    def test_instructions(self):$/;"	m	class:TestVegolosiScraper
+test_instructions	tests/test_watchwhatueat.py	/^    def test_instructions(self):$/;"	m	class:TestWatchWhatUEatScraper
+test_instructions	tests/test_whatsgabycooking.py	/^    def test_instructions(self):$/;"	m	class:TestWhatsGabyCookingScraper
+test_instructions	tests/test_wikibooks.py	/^    def test_instructions(self):$/;"	m	class:TestWikiCookbookScraper
+test_instructions	tests/test_yummly.py	/^    def test_instructions(self):$/;"	m	class:TestYummlyScraper
+test_language	tests/test_inspiralized.py	/^    def test_language(self):$/;"	m	class:TestInspiralizedScraper
+test_language	tests/test_mindmegette.py	/^    def test_language(self):$/;"	m	class:TestMindmegetteScraper
+test_language	tests/test_przepisy.py	/^    def test_language(self):$/;"	m	class:TestPrzepisyScraper
+test_ratings	tests/test_allrecipes.py	/^    def test_ratings(self):$/;"	m	class:TestAllRecipesScraper
+test_ratings	tests/test_archanaskitchen.py	/^    def test_ratings(self):$/;"	m	class:TestArchanasKitchenScraper
+test_ratings	tests/test_bettycrocker.py	/^    def test_ratings(self):$/;"	m	class:TestBettyCrocker
+test_ratings	tests/test_budgetbytes.py	/^    def test_ratings(self):$/;"	m	class:TestBudgetBytesScraper
+test_ratings	tests/test_cookieandkate.py	/^    def test_ratings(self):$/;"	m	class:TestCookieAndKateScraper
+test_ratings	tests/test_copykat.py	/^    def test_ratings(self):$/;"	m	class:TestCopyKat
+test_ratings	tests/test_cybercook.py	/^    def test_ratings(self):$/;"	m	class:TestCybercook
+test_ratings	tests/test_epicurious.py	/^    def test_ratings(self):$/;"	m	class:TestEpicurious
+test_ratings	tests/test_food.py	/^    def test_ratings(self):$/;"	m	class:TestFoodScraper
+test_ratings	tests/test_geniuskitchen.py	/^    def test_ratings(self):$/;"	m	class:TestGeniusKitchenScraper
+test_ratings	tests/test_giallozafferano.py	/^    def test_ratings(self):$/;"	m	class:TestGialloZafferanoScraper
+test_ratings	tests/test_gimmesomeoven.py	/^    def test_ratings(self):$/;"	m	class:TestGimmeSomeOvenScraper
+test_ratings	tests/test_gonnawantseconds.py	/^    def test_ratings(self):$/;"	m	class:TestGonnaWantSeconds
+test_ratings	tests/test_gousto.py	/^    def test_ratings(self):$/;"	m	class:TestGoustoScraper
+test_ratings	tests/test_greatbritishchefs.py	/^    def test_ratings(self):$/;"	m	class:TestGreatBritishChefsScraper
+test_ratings	tests/test_lecremedelacrumb.py	/^    def test_ratings(self):$/;"	m	class:TestLeCremeDeLaCrumbScraper
+test_ratings	tests/test_marmiton.py	/^    def test_ratings(self):$/;"	m	class:TestMarmitonScraper
+test_ratings	tests/test_matprat.py	/^    def test_ratings(self):$/;"	m	class:TestMatprat
+test_ratings	tests/test_misya.py	/^    def test_ratings(self):$/;"	m	class:TestMisya
+test_ratings	tests/test_momswithcrockpots.py	/^    def test_ratings(self):$/;"	m	class:TestMomsWithCrockPotsScraper
+test_ratings	tests/test_motherthyme.py	/^    def test_ratings(self):$/;"	m	class:TestMotherThymeScraper
+test_ratings	tests/test_mybakingaddiction.py	/^    def test_ratings(self):$/;"	m	class:TestMyBakingAddictionScraper
+test_ratings	tests/test_myrecipes.py	/^    def test_ratings(self):$/;"	m	class:TestMyRecipesScraper
+test_ratings	tests/test_nytimes.py	/^    def test_ratings(self):$/;"	m	class:TestNYTimesScraper
+test_ratings	tests/test_ohsheglows.py	/^    def test_ratings(self):$/;"	m	class:TestOhSheGlowsScraper
+test_ratings	tests/test_simplyquinoa.py	/^    def test_ratings(self):$/;"	m	class:TestSimplyQuinoaScraper
+test_ratings	tests/test_southernliving.py	/^    def test_ratings(self):$/;"	m	class:TestSouthernLiving
+test_ratings	tests/test_spendwithpennies.py	/^    def test_ratings(self):$/;"	m	class:TestSpendWithPenniesScraper
+test_ratings	tests/test_tasteofhome.py	/^    def test_ratings(self):$/;"	m	class:TestTasteOfHomeScraper
+test_ratings	tests/test_thespruceeats.py	/^    def test_ratings(self):$/;"	m	class:TestTheSpruceEatsScraper
+test_ratings	tests/test_tine.py	/^    def test_ratings(self):$/;"	m	class:TestTineNoScraper
+test_reviews	tests/test_epicurious.py	/^    def test_reviews(self):$/;"	m	class:TestEpicurious
+test_title	tests/test_acouplecooks.py	/^    def test_title(self):$/;"	m	class:TestACoupleCooks
+test_title	tests/test_allrecipes.py	/^    def test_title(self):$/;"	m	class:TestAllRecipesScraper
+test_title	tests/test_archanaskitchen.py	/^    def test_title(self):$/;"	m	class:TestArchanasKitchenScraper
+test_title	tests/test_averiecooks.py	/^    def test_title(self):$/;"	m	class:TestAverieCooksScraper
+test_title	tests/test_bbc.py	/^    def test_title(self):$/;"	m	class:TestBBCFoodScraper
+test_title	tests/test_bbcgoodfood.py	/^    def test_title(self):$/;"	m	class:TestBBCGoodFoodScraper
+test_title	tests/test_bettycrocker.py	/^    def test_title(self):$/;"	m	class:TestBettyCrocker
+test_title	tests/test_bonappetit.py	/^    def test_title(self):$/;"	m	class:TestBonAppetitScraper
+test_title	tests/test_bowlofdelicious.py	/^    def test_title(self):$/;"	m	class:TestBowlOfDeliciousScraper
+test_title	tests/test_budgetbytes.py	/^    def test_title(self):$/;"	m	class:TestBudgetBytesScraper
+test_title	tests/test_closetcooking.py	/^    def test_title(self):$/;"	m	class:TestClosetCooking
+test_title	tests/test_cookieandkate.py	/^    def test_title(self):$/;"	m	class:TestCookieAndKateScraper
+test_title	tests/test_cookpad.py	/^    def test_title(self):$/;"	m	class:TestCookPadScraper
+test_title	tests/test_cookstr.py	/^    def test_title(self):$/;"	m	class:TestCookstrScraper
+test_title	tests/test_copykat.py	/^    def test_title(self):$/;"	m	class:TestCopyKat
+test_title	tests/test_countryliving.py	/^    def test_title(self):$/;"	m	class:TestCountryLivingScraper
+test_title	tests/test_cybercook.py	/^    def test_title(self):$/;"	m	class:TestCybercook
+test_title	tests/test_delish.py	/^    def test_title(self):$/;"	m	class:TestDelishScraper
+test_title	tests/test_eatsmarter.py	/^    def test_title(self):$/;"	m	class:TestClosetCooking
+test_title	tests/test_epicurious.py	/^    def test_title(self):$/;"	m	class:TestEpicurious
+test_title	tests/test_fifteenspatulas.py	/^    def test_title(self):$/;"	m	class:TestFifteenSpatulasScraper
+test_title	tests/test_finedininglovers.py	/^    def test_title(self):$/;"	m	class:TestFineDiningLoversScraper
+test_title	tests/test_fitmencook.py	/^    def test_title(self):$/;"	m	class:TestFitMenCookScraper
+test_title	tests/test_food.py	/^    def test_title(self):$/;"	m	class:TestFoodScraper
+test_title	tests/test_foodnetwork.py	/^    def test_title(self):$/;"	m	class:TestFoodNetworkScraper
+test_title	tests/test_foodrepublic.py	/^    def test_title(self):$/;"	m	class:TestFoodRepublicScraper
+test_title	tests/test_geniuskitchen.py	/^    def test_title(self):$/;"	m	class:TestGeniusKitchenScraper
+test_title	tests/test_giallozafferano.py	/^    def test_title(self):$/;"	m	class:TestGialloZafferanoScraper
+test_title	tests/test_gimmesomeoven.py	/^    def test_title(self):$/;"	m	class:TestGimmeSomeOvenScraper
+test_title	tests/test_gonnawantseconds.py	/^    def test_title(self):$/;"	m	class:TestGonnaWantSeconds
+test_title	tests/test_gousto.py	/^    def test_title(self):$/;"	m	class:TestGoustoScraper
+test_title	tests/test_greatbritishchefs.py	/^    def test_title(self):$/;"	m	class:TestGreatBritishChefsScraper
+test_title	tests/test_halfbakedharvest.py	/^    def test_title(self):$/;"	m	class:TestHalfBakedHarvestScraper
+test_title	tests/test_hassanchef.py	/^    def test_title(self):$/;"	m	class:TestClosetCooking
+test_title	tests/test_heinzbrasil.py	/^    def test_title(self):$/;"	m	class:TestHeinzBrasilScraper
+test_title	tests/test_hellofresh.py	/^    def test_title(self):$/;"	m	class:TestHelloFreshScraper
+test_title	tests/test_hostthetoast.py	/^    def test_title(self):$/;"	m	class:TestHostthetoastScraper
+test_title	tests/test_hundredandonecookbooks.py	/^    def test_title(self):$/;"	m	class:TestHundredAndOneCookbooksScraper
+test_title	tests/test_ig.py	/^    def test_title(self):$/;"	m	class:TestIGScraper
+test_title	tests/test_inspiralized.py	/^    def test_title(self):$/;"	m	class:TestInspiralizedScraper
+test_title	tests/test_jamieoliver.py	/^    def test_title(self):$/;"	m	class:TestJamieOliverScraper
+test_title	tests/test_justbento.py	/^    def test_title(self):$/;"	m	class:TestJustBentoScraper
+test_title	tests/test_kennymcgovern.py	/^    def test_title(self):$/;"	m	class:TestKennyMcGovernScraper
+test_title	tests/test_kochbar.py	/^    def test_title(self):$/;"	m	class:TestKochbarScraper
+test_title	tests/test_lecremedelacrumb.py	/^    def test_title(self):$/;"	m	class:TestLeCremeDeLaCrumbScraper
+test_title	tests/test_lovingitvegan.py	/^    def test_title(self):$/;"	m	class:TestLovingitveganScraper
+test_title	tests/test_marmiton.py	/^    def test_title(self):$/;"	m	class:TestMarmitonScraper
+test_title	tests/test_matprat.py	/^    def test_title(self):$/;"	m	class:TestMatprat
+test_title	tests/test_mindmegette.py	/^    def test_title(self):$/;"	m	class:TestMindmegetteScraper
+test_title	tests/test_minimalistbaker.py	/^    def test_title(self):$/;"	m	class:TestMinimalistbakerScraper
+test_title	tests/test_misya.py	/^    def test_title(self):$/;"	m	class:TestMisya
+test_title	tests/test_momswithcrockpots.py	/^    def test_title(self):$/;"	m	class:TestMomsWithCrockPotsScraper
+test_title	tests/test_motherthyme.py	/^    def test_title(self):$/;"	m	class:TestMotherThymeScraper
+test_title	tests/test_mybakingaddiction.py	/^    def test_title(self):$/;"	m	class:TestMyBakingAddictionScraper
+test_title	tests/test_myrecipes.py	/^    def test_title(self):$/;"	m	class:TestMyRecipesScraper
+test_title	tests/test_nih.py	/^    def test_title(self):$/;"	m	class:TestNIHHealthyEatingRecipesScraper
+test_title	tests/test_nytimes.py	/^    def test_title(self):$/;"	m	class:TestNYTimesScraper
+test_title	tests/test_ohsheglows.py	/^    def test_title(self):$/;"	m	class:TestOhSheGlowsScraper
+test_title	tests/test_panelinha.py	/^    def test_title(self):$/;"	m	class:TestPanelinhaScraper
+test_title	tests/test_paninihappy.py	/^    def test_title(self):$/;"	m	class:TestPaniniHappyScraper
+test_title	tests/test_przepisy.py	/^    def test_title(self):$/;"	m	class:TestPrzepisyScraper
+test_title	tests/test_realsimple.py	/^    def test_title(self):$/;"	m	class:TestRealSimpleScraper
+test_title	tests/test_seriouseats.py	/^    def test_title(self):$/;"	m	class:TestSeriousEats
+test_title	tests/test_simplyquinoa.py	/^    def test_title(self):$/;"	m	class:TestSimplyQuinoaScraper
+test_title	tests/test_simplyrecipes.py	/^    def test_title(self):$/;"	m	class:TestSimplyRecipesScraper
+test_title	tests/test_skinnytaste.py	/^    def test_title(self):$/;"	m	class:TestSkinnyTasteScraper
+test_title	tests/test_southernliving.py	/^    def test_title(self):$/;"	m	class:TestSouthernLiving
+test_title	tests/test_spendwithpennies.py	/^    def test_title(self):$/;"	m	class:TestSpendWithPenniesScraper
+test_title	tests/test_steamykitchen.py	/^    def test_title(self):$/;"	m	class:TestSteamyKitchenScraper
+test_title	tests/test_tasteofhome.py	/^    def test_title(self):$/;"	m	class:TestTasteOfHomeScraper
+test_title	tests/test_tastesoflizzyt.py	/^    def test_title(self):$/;"	m	class:TestTastesOfLizzyTScraper
+test_title	tests/test_tasty.py	/^    def test_title(self):$/;"	m	class:TestTastyScraper
+test_title	tests/test_tastykitchen.py	/^    def test_title(self):$/;"	m	class:TestTastyKitchenScraper
+test_title	tests/test_thehappyfoodie.py	/^    def test_title(self):$/;"	m	class:TestTheHappyFoodie
+test_title	tests/test_thekitchn.py	/^    def test_title(self):$/;"	m	class:TestKitchnScraper
+test_title	tests/test_thepioneerwoman.py	/^    def test_title(self):$/;"	m	class:TestThePioneerWomanScraper
+test_title	tests/test_thespruceeats.py	/^    def test_title(self):$/;"	m	class:TestTheSpruceEatsScraper
+test_title	tests/test_thevintagemixer.py	/^    def test_title(self):$/;"	m	class:TestTheVintageMixerScraper
+test_title	tests/test_thewoksoflife.py	/^    def test_title(self):$/;"	m	class:TestThewoksoflifeScraper
+test_title	tests/test_tine.py	/^    def test_title(self):$/;"	m	class:TestTineNoScraper
+test_title	tests/test_tudogostoso.py	/^    def test_title(self):$/;"	m	class:TestTudoGostosoScraper
+test_title	tests/test_twopeasandtheirpod.py	/^    def test_title(self):$/;"	m	class:TestTwoPeasAndTheirPodScraper
+test_title	tests/test_vegolosi.py	/^    def test_title(self):$/;"	m	class:TestVegolosiScraper
+test_title	tests/test_watchwhatueat.py	/^    def test_title(self):$/;"	m	class:TestWatchWhatUEatScraper
+test_title	tests/test_whatsgabycooking.py	/^    def test_title(self):$/;"	m	class:TestWhatsGabyCookingScraper
+test_title	tests/test_wikibooks.py	/^    def test_title(self):$/;"	m	class:TestWikiCookbookScraper
+test_title	tests/test_yummly.py	/^    def test_title(self):$/;"	m	class:TestYummlyScraper
+test_total_time	tests/test_acouplecooks.py	/^    def test_total_time(self):$/;"	m	class:TestACoupleCooks
+test_total_time	tests/test_allrecipes.py	/^    def test_total_time(self):$/;"	m	class:TestAllRecipesScraper
+test_total_time	tests/test_archanaskitchen.py	/^    def test_total_time(self):$/;"	m	class:TestArchanasKitchenScraper
+test_total_time	tests/test_bbc.py	/^    def test_total_time(self):$/;"	m	class:TestBBCFoodScraper
+test_total_time	tests/test_bbcgoodfood.py	/^    def test_total_time(self):$/;"	m	class:TestBBCGoodFoodScraper
+test_total_time	tests/test_bettycrocker.py	/^    def test_total_time(self):$/;"	m	class:TestBettyCrocker
+test_total_time	tests/test_bonappetit.py	/^    def test_total_time(self):$/;"	m	class:TestBonAppetitScraper
+test_total_time	tests/test_budgetbytes.py	/^    def test_total_time(self):$/;"	m	class:TestBudgetBytesScraper
+test_total_time	tests/test_closetcooking.py	/^    def test_total_time(self):$/;"	m	class:TestClosetCooking
+test_total_time	tests/test_cookieandkate.py	/^    def test_total_time(self):$/;"	m	class:TestCookieAndKateScraper
+test_total_time	tests/test_cookstr.py	/^    def test_total_time(self):$/;"	m	class:TestCookstrScraper
+test_total_time	tests/test_copykat.py	/^    def test_total_time(self):$/;"	m	class:TestCopyKat
+test_total_time	tests/test_countryliving.py	/^    def test_total_time(self):$/;"	m	class:TestCountryLivingScraper
+test_total_time	tests/test_cybercook.py	/^    def test_total_time(self):$/;"	m	class:TestCybercook
+test_total_time	tests/test_delish.py	/^    def test_total_time(self):$/;"	m	class:TestDelishScraper
+test_total_time	tests/test_eatsmarter.py	/^    def test_total_time(self):$/;"	m	class:TestClosetCooking
+test_total_time	tests/test_epicurious.py	/^    def test_total_time(self):$/;"	m	class:TestEpicurious
+test_total_time	tests/test_finedininglovers.py	/^    def test_total_time(self):$/;"	m	class:TestFineDiningLoversScraper
+test_total_time	tests/test_fitmencook.py	/^    def test_total_time(self):$/;"	m	class:TestFitMenCookScraper
+test_total_time	tests/test_food.py	/^    def test_total_time(self):$/;"	m	class:TestFoodScraper
+test_total_time	tests/test_foodnetwork.py	/^    def test_total_time(self):$/;"	m	class:TestFoodNetworkScraper
+test_total_time	tests/test_foodrepublic.py	/^    def test_total_time(self):$/;"	m	class:TestFoodRepublicScraper
+test_total_time	tests/test_geniuskitchen.py	/^    def test_total_time(self):$/;"	m	class:TestGeniusKitchenScraper
+test_total_time	tests/test_giallozafferano.py	/^    def test_total_time(self):$/;"	m	class:TestGialloZafferanoScraper
+test_total_time	tests/test_gimmesomeoven.py	/^    def test_total_time(self):$/;"	m	class:TestGimmeSomeOvenScraper
+test_total_time	tests/test_gonnawantseconds.py	/^    def test_total_time(self):$/;"	m	class:TestGonnaWantSeconds
+test_total_time	tests/test_gousto.py	/^    def test_total_time(self):$/;"	m	class:TestGoustoScraper
+test_total_time	tests/test_greatbritishchefs.py	/^    def test_total_time(self):$/;"	m	class:TestGreatBritishChefsScraper
+test_total_time	tests/test_hassanchef.py	/^    def test_total_time(self):$/;"	m	class:TestClosetCooking
+test_total_time	tests/test_hellofresh.py	/^    def test_total_time(self):$/;"	m	class:TestHelloFreshScraper
+test_total_time	tests/test_hundredandonecookbooks.py	/^    def test_total_time(self):$/;"	m	class:TestHundredAndOneCookbooksScraper
+test_total_time	tests/test_ig.py	/^    def test_total_time(self):$/;"	m	class:TestIGScraper
+test_total_time	tests/test_inspiralized.py	/^    def test_total_time(self):$/;"	m	class:TestInspiralizedScraper
+test_total_time	tests/test_jamieoliver.py	/^    def test_total_time(self):$/;"	m	class:TestJamieOliverScraper
+test_total_time	tests/test_justbento.py	/^    def test_total_time(self):$/;"	m	class:TestJustBentoScraper
+test_total_time	tests/test_kennymcgovern.py	/^    def test_total_time(self):$/;"	m	class:TestKennyMcGovernScraper
+test_total_time	tests/test_lecremedelacrumb.py	/^    def test_total_time(self):$/;"	m	class:TestLeCremeDeLaCrumbScraper
+test_total_time	tests/test_marmiton.py	/^    def test_total_time(self):$/;"	m	class:TestMarmitonScraper
+test_total_time	tests/test_matprat.py	/^    def test_total_time(self):$/;"	m	class:TestMatprat
+test_total_time	tests/test_mindmegette.py	/^    def test_total_time(self):$/;"	m	class:TestMindmegetteScraper
+test_total_time	tests/test_misya.py	/^    def test_total_time(self):$/;"	m	class:TestMisya
+test_total_time	tests/test_momswithcrockpots.py	/^    def test_total_time(self):$/;"	m	class:TestMomsWithCrockPotsScraper
+test_total_time	tests/test_motherthyme.py	/^    def test_total_time(self):$/;"	m	class:TestMotherThymeScraper
+test_total_time	tests/test_mybakingaddiction.py	/^    def test_total_time(self):$/;"	m	class:TestMyBakingAddictionScraper
+test_total_time	tests/test_myrecipes.py	/^    def test_total_time(self):$/;"	m	class:TestMyRecipesScraper
+test_total_time	tests/test_nih.py	/^    def test_total_time(self):$/;"	m	class:TestNIHHealthyEatingRecipesScraper
+test_total_time	tests/test_nytimes.py	/^    def test_total_time(self):$/;"	m	class:TestNYTimesScraper
+test_total_time	tests/test_ohsheglows.py	/^    def test_total_time(self):$/;"	m	class:TestOhSheGlowsScraper
+test_total_time	tests/test_panelinha.py	/^    def test_total_time(self):$/;"	m	class:TestPanelinhaScraper
+test_total_time	tests/test_paninihappy.py	/^    def test_total_time(self):$/;"	m	class:TestPaniniHappyScraper
+test_total_time	tests/test_przepisy.py	/^    def test_total_time(self):$/;"	m	class:TestPrzepisyScraper
+test_total_time	tests/test_realsimple.py	/^    def test_total_time(self):$/;"	m	class:TestRealSimpleScraper
+test_total_time	tests/test_seriouseats.py	/^    def test_total_time(self):$/;"	m	class:TestSeriousEats
+test_total_time	tests/test_simplyquinoa.py	/^    def test_total_time(self):$/;"	m	class:TestSimplyQuinoaScraper
+test_total_time	tests/test_simplyrecipes.py	/^    def test_total_time(self):$/;"	m	class:TestSimplyRecipesScraper
+test_total_time	tests/test_southernliving.py	/^    def test_total_time(self):$/;"	m	class:TestSouthernLiving
+test_total_time	tests/test_spendwithpennies.py	/^    def test_total_time(self):$/;"	m	class:TestSpendWithPenniesScraper
+test_total_time	tests/test_steamykitchen.py	/^    def test_total_time(self):$/;"	m	class:TestSteamyKitchenScraper
+test_total_time	tests/test_tasteofhome.py	/^    def test_total_time(self):$/;"	m	class:TestTasteOfHomeScraper
+test_total_time	tests/test_tastesoflizzyt.py	/^    def test_total_time(self):$/;"	m	class:TestTastesOfLizzyTScraper
+test_total_time	tests/test_tastykitchen.py	/^    def test_total_time(self):$/;"	m	class:TestTastyKitchenScraper
+test_total_time	tests/test_thehappyfoodie.py	/^    def test_total_time(self):$/;"	m	class:TestTheHappyFoodie
+test_total_time	tests/test_thekitchn.py	/^    def test_total_time(self):$/;"	m	class:TestKitchnScraper
+test_total_time	tests/test_thepioneerwoman.py	/^    def test_total_time(self):$/;"	m	class:TestThePioneerWomanScraper
+test_total_time	tests/test_thespruceeats.py	/^    def test_total_time(self):$/;"	m	class:TestTheSpruceEatsScraper
+test_total_time	tests/test_thevintagemixer.py	/^    def test_total_time(self):$/;"	m	class:TestTheVintageMixerScraper
+test_total_time	tests/test_tine.py	/^    def test_total_time(self):$/;"	m	class:TestTineNoScraper
+test_total_time	tests/test_tudogostoso.py	/^    def test_total_time(self):$/;"	m	class:TestTudoGostosoScraper
+test_total_time	tests/test_twopeasandtheirpod.py	/^    def test_total_time(self):$/;"	m	class:TestTwoPeasAndTheirPodScraper
+test_total_time	tests/test_vegolosi.py	/^    def test_total_time(self):$/;"	m	class:TestVegolosiScraper
+test_total_time	tests/test_whatsgabycooking.py	/^    def test_total_time(self):$/;"	m	class:TestWhatsGabyCookingScraper
+test_total_time	tests/test_wikibooks.py	/^    def test_total_time(self):$/;"	m	class:TestWikiCookbookScraper
+test_total_time	tests/test_yummly.py	/^    def test_total_time(self):$/;"	m	class:TestYummlyScraper
+test_total_time_with_schema_missing_all_data	tests/test_schemaorg.py	/^    def test_total_time_with_schema_missing_all_data(self):$/;"	m	class:TestSchemaOrg
+test_total_yields	tests/test_cookstr.py	/^    def test_total_yields(self):$/;"	m	class:TestCookstrScraper
+test_yields	tests/test_acouplecooks.py	/^    def test_yields(self):$/;"	m	class:TestACoupleCooks
+test_yields	tests/test_allrecipes.py	/^    def test_yields(self):$/;"	m	class:TestAllRecipesScraper
+test_yields	tests/test_archanaskitchen.py	/^    def test_yields(self):$/;"	m	class:TestArchanasKitchenScraper
+test_yields	tests/test_averiecooks.py	/^    def test_yields(self):$/;"	m	class:TestAverieCooksScraper
+test_yields	tests/test_bbc.py	/^    def test_yields(self):$/;"	m	class:TestBBCFoodScraper
+test_yields	tests/test_bbcgoodfood.py	/^    def test_yields(self):$/;"	m	class:TestBBCGoodFoodScraper
+test_yields	tests/test_bettycrocker.py	/^    def test_yields(self):$/;"	m	class:TestBettyCrocker
+test_yields	tests/test_bonappetit.py	/^    def test_yields(self):$/;"	m	class:TestBonAppetitScraper
+test_yields	tests/test_bowlofdelicious.py	/^    def test_yields(self):$/;"	m	class:TestBowlOfDeliciousScraper
+test_yields	tests/test_budgetbytes.py	/^    def test_yields(self):$/;"	m	class:TestBudgetBytesScraper
+test_yields	tests/test_closetcooking.py	/^    def test_yields(self):$/;"	m	class:TestClosetCooking
+test_yields	tests/test_cookieandkate.py	/^    def test_yields(self):$/;"	m	class:TestCookieAndKateScraper
+test_yields	tests/test_cookpad.py	/^    def test_yields(self):$/;"	m	class:TestCookPadScraper
+test_yields	tests/test_copykat.py	/^    def test_yields(self):$/;"	m	class:TestCopyKat
+test_yields	tests/test_countryliving.py	/^    def test_yields(self):$/;"	m	class:TestCountryLivingScraper
+test_yields	tests/test_cybercook.py	/^    def test_yields(self):$/;"	m	class:TestCybercook
+test_yields	tests/test_delish.py	/^    def test_yields(self):$/;"	m	class:TestDelishScraper
+test_yields	tests/test_eatsmarter.py	/^    def test_yields(self):$/;"	m	class:TestClosetCooking
+test_yields	tests/test_epicurious.py	/^    def test_yields(self):$/;"	m	class:TestEpicurious
+test_yields	tests/test_fifteenspatulas.py	/^    def test_yields(self):$/;"	m	class:TestFifteenSpatulasScraper
+test_yields	tests/test_finedininglovers.py	/^    def test_yields(self):$/;"	m	class:TestFineDiningLoversScraper
+test_yields	tests/test_fitmencook.py	/^    def test_yields(self):$/;"	m	class:TestFitMenCookScraper
+test_yields	tests/test_food.py	/^    def test_yields(self):$/;"	m	class:TestFoodScraper
+test_yields	tests/test_foodnetwork.py	/^    def test_yields(self):$/;"	m	class:TestFoodNetworkScraper
+test_yields	tests/test_foodrepublic.py	/^    def test_yields(self):$/;"	m	class:TestFoodRepublicScraper
+test_yields	tests/test_geniuskitchen.py	/^    def test_yields(self):$/;"	m	class:TestGeniusKitchenScraper
+test_yields	tests/test_giallozafferano.py	/^    def test_yields(self):$/;"	m	class:TestGialloZafferanoScraper
+test_yields	tests/test_gimmesomeoven.py	/^    def test_yields(self):$/;"	m	class:TestGimmeSomeOvenScraper
+test_yields	tests/test_gonnawantseconds.py	/^    def test_yields(self):$/;"	m	class:TestGonnaWantSeconds
+test_yields	tests/test_gousto.py	/^    def test_yields(self):$/;"	m	class:TestGoustoScraper
+test_yields	tests/test_greatbritishchefs.py	/^    def test_yields(self):$/;"	m	class:TestGreatBritishChefsScraper
+test_yields	tests/test_halfbakedharvest.py	/^    def test_yields(self):$/;"	m	class:TestHalfBakedHarvestScraper
+test_yields	tests/test_hassanchef.py	/^    def test_yields(self):$/;"	m	class:TestClosetCooking
+test_yields	tests/test_hellofresh.py	/^    def test_yields(self):$/;"	m	class:TestHelloFreshScraper
+test_yields	tests/test_hostthetoast.py	/^    def test_yields(self):$/;"	m	class:TestHostthetoastScraper
+test_yields	tests/test_hundredandonecookbooks.py	/^    def test_yields(self):$/;"	m	class:TestHundredAndOneCookbooksScraper
+test_yields	tests/test_ig.py	/^    def test_yields(self):$/;"	m	class:TestIGScraper
+test_yields	tests/test_inspiralized.py	/^    def test_yields(self):$/;"	m	class:TestInspiralizedScraper
+test_yields	tests/test_jamieoliver.py	/^    def test_yields(self):$/;"	m	class:TestJamieOliverScraper
+test_yields	tests/test_justbento.py	/^    def test_yields(self):$/;"	m	class:TestJustBentoScraper
+test_yields	tests/test_kennymcgovern.py	/^    def test_yields(self):$/;"	m	class:TestKennyMcGovernScraper
+test_yields	tests/test_kochbar.py	/^    def test_yields(self):$/;"	m	class:TestKochbarScraper
+test_yields	tests/test_lecremedelacrumb.py	/^    def test_yields(self):$/;"	m	class:TestLeCremeDeLaCrumbScraper
+test_yields	tests/test_lovingitvegan.py	/^    def test_yields(self):$/;"	m	class:TestLovingitveganScraper
+test_yields	tests/test_marmiton.py	/^    def test_yields(self):$/;"	m	class:TestMarmitonScraper
+test_yields	tests/test_matprat.py	/^    def test_yields(self):$/;"	m	class:TestMatprat
+test_yields	tests/test_mindmegette.py	/^    def test_yields(self):$/;"	m	class:TestMindmegetteScraper
+test_yields	tests/test_minimalistbaker.py	/^    def test_yields(self):$/;"	m	class:TestMinimalistbakerScraper
+test_yields	tests/test_misya.py	/^    def test_yields(self):$/;"	m	class:TestMisya
+test_yields	tests/test_momswithcrockpots.py	/^    def test_yields(self):$/;"	m	class:TestMomsWithCrockPotsScraper
+test_yields	tests/test_motherthyme.py	/^    def test_yields(self):$/;"	m	class:TestMotherThymeScraper
+test_yields	tests/test_mybakingaddiction.py	/^    def test_yields(self):$/;"	m	class:TestMyBakingAddictionScraper
+test_yields	tests/test_myrecipes.py	/^    def test_yields(self):$/;"	m	class:TestMyRecipesScraper
+test_yields	tests/test_nih.py	/^    def test_yields(self):$/;"	m	class:TestNIHHealthyEatingRecipesScraper
+test_yields	tests/test_nytimes.py	/^    def test_yields(self):$/;"	m	class:TestNYTimesScraper
+test_yields	tests/test_ohsheglows.py	/^    def test_yields(self):$/;"	m	class:TestOhSheGlowsScraper
+test_yields	tests/test_panelinha.py	/^    def test_yields(self):$/;"	m	class:TestPanelinhaScraper
+test_yields	tests/test_paninihappy.py	/^    def test_yields(self):$/;"	m	class:TestPaniniHappyScraper
+test_yields	tests/test_przepisy.py	/^    def test_yields(self):$/;"	m	class:TestPrzepisyScraper
+test_yields	tests/test_realsimple.py	/^    def test_yields(self):$/;"	m	class:TestRealSimpleScraper
+test_yields	tests/test_seriouseats.py	/^    def test_yields(self):$/;"	m	class:TestSeriousEats
+test_yields	tests/test_simplyquinoa.py	/^    def test_yields(self):$/;"	m	class:TestSimplyQuinoaScraper
+test_yields	tests/test_simplyrecipes.py	/^    def test_yields(self):$/;"	m	class:TestSimplyRecipesScraper
+test_yields	tests/test_skinnytaste.py	/^    def test_yields(self):$/;"	m	class:TestSkinnyTasteScraper
+test_yields	tests/test_southernliving.py	/^    def test_yields(self):$/;"	m	class:TestSouthernLiving
+test_yields	tests/test_spendwithpennies.py	/^    def test_yields(self):$/;"	m	class:TestSpendWithPenniesScraper
+test_yields	tests/test_steamykitchen.py	/^    def test_yields(self):$/;"	m	class:TestSteamyKitchenScraper
+test_yields	tests/test_tasteofhome.py	/^    def test_yields(self):$/;"	m	class:TestTasteOfHomeScraper
+test_yields	tests/test_tastesoflizzyt.py	/^    def test_yields(self):$/;"	m	class:TestTastesOfLizzyTScraper
+test_yields	tests/test_tasty.py	/^    def test_yields(self):$/;"	m	class:TestTastyScraper
+test_yields	tests/test_tastykitchen.py	/^    def test_yields(self):$/;"	m	class:TestTastyKitchenScraper
+test_yields	tests/test_thehappyfoodie.py	/^    def test_yields(self):$/;"	m	class:TestTheHappyFoodie
+test_yields	tests/test_thekitchn.py	/^    def test_yields(self):$/;"	m	class:TestKitchnScraper
+test_yields	tests/test_thepioneerwoman.py	/^    def test_yields(self):$/;"	m	class:TestThePioneerWomanScraper
+test_yields	tests/test_thespruceeats.py	/^    def test_yields(self):$/;"	m	class:TestTheSpruceEatsScraper
+test_yields	tests/test_thewoksoflife.py	/^    def test_yields(self):$/;"	m	class:TestThewoksoflifeScraper
+test_yields	tests/test_tine.py	/^    def test_yields(self):$/;"	m	class:TestTineNoScraper
+test_yields	tests/test_twopeasandtheirpod.py	/^    def test_yields(self):$/;"	m	class:TestTwoPeasAndTheirPodScraper
+test_yields	tests/test_vegolosi.py	/^    def test_yields(self):$/;"	m	class:TestVegolosiScraper
+test_yields	tests/test_watchwhatueat.py	/^    def test_yields(self):$/;"	m	class:TestWatchWhatUEatScraper
+test_yields	tests/test_wikibooks.py	/^    def test_yields(self):$/;"	m	class:TestWikiCookbookScraper
+test_yields	tests/test_yummly.py	/^    def test_yields(self):$/;"	m	class:TestYummlyScraper
+title	recipe_scrapers/_abstract.py	/^    def title(self):$/;"	m	class:AbstractScraper
+title	recipe_scrapers/_schemaorg.py	/^    def title(self):$/;"	m	class:SchemaOrg
+title	recipe_scrapers/acouplecooks.py	/^    def title(self):$/;"	m	class:ACoupleCooks
+title	recipe_scrapers/allrecipes.py	/^    def title(self):$/;"	m	class:AllRecipes
+title	recipe_scrapers/archanaskitchen.py	/^    def title(self):$/;"	m	class:ArchanasKitchen
+title	recipe_scrapers/averiecooks.py	/^    def title(self):$/;"	m	class:AverieCooks
+title	recipe_scrapers/bbcfood.py	/^    def title(self):$/;"	m	class:BBCFood
+title	recipe_scrapers/bbcgoodfood.py	/^    def title(self):$/;"	m	class:BBCGoodFood
+title	recipe_scrapers/bettycrocker.py	/^    def title(self):$/;"	m	class:BettyCrocker
+title	recipe_scrapers/bonappetit.py	/^    def title(self):$/;"	m	class:BonAppetit
+title	recipe_scrapers/bowlofdelicious.py	/^    def title(self):$/;"	m	class:BowlOfDelicious
+title	recipe_scrapers/budgetbytes.py	/^    def title(self):$/;"	m	class:BudgetBytes
+title	recipe_scrapers/closetcooking.py	/^    def title(self):$/;"	m	class:ClosetCooking
+title	recipe_scrapers/cookieandkate.py	/^    def title(self):$/;"	m	class:CookieAndKate
+title	recipe_scrapers/cookpad.py	/^    def title(self):$/;"	m	class:CookPad
+title	recipe_scrapers/cookstr.py	/^    def title(self):$/;"	m	class:Cookstr
+title	recipe_scrapers/copykat.py	/^    def title(self):$/;"	m	class:CopyKat
+title	recipe_scrapers/countryliving.py	/^    def title(self):$/;"	m	class:CountryLiving
+title	recipe_scrapers/cybercook.py	/^    def title(self):$/;"	m	class:Cybercook
+title	recipe_scrapers/delish.py	/^    def title(self):$/;"	m	class:Delish
+title	recipe_scrapers/eatsmarter.py	/^    def title(self):$/;"	m	class:Eatsmarter
+title	recipe_scrapers/epicurious.py	/^    def title(self):$/;"	m	class:Epicurious
+title	recipe_scrapers/fifteenspatulas.py	/^    def title(self):$/;"	m	class:FifteenSpatulas
+title	recipe_scrapers/finedininglovers.py	/^    def title(self):$/;"	m	class:FineDiningLovers
+title	recipe_scrapers/fitmencook.py	/^    def title(self):$/;"	m	class:FitMenCook
+title	recipe_scrapers/food.py	/^    def title(self):$/;"	m	class:Food
+title	recipe_scrapers/foodnetwork.py	/^    def title(self):$/;"	m	class:FoodNetwork
+title	recipe_scrapers/foodrepublic.py	/^    def title(self):$/;"	m	class:FoodRepublic
+title	recipe_scrapers/geniuskitchen.py	/^    def title(self):$/;"	m	class:GeniusKitchen
+title	recipe_scrapers/giallozafferano.py	/^    def title(self):$/;"	m	class:GialloZafferano
+title	recipe_scrapers/gimmesomeoven.py	/^    def title(self):$/;"	m	class:GimmeSomeOven
+title	recipe_scrapers/gonnawantseconds.py	/^    def title(self):$/;"	m	class:GonnaWantSeconds
+title	recipe_scrapers/gousto.py	/^    def title(self):$/;"	m	class:Gousto
+title	recipe_scrapers/greatbritishchefs.py	/^    def title(self):$/;"	m	class:GreatBritishChefs
+title	recipe_scrapers/halfbakedharvest.py	/^    def title(self):$/;"	m	class:HalfBakedHarvest
+title	recipe_scrapers/hassenchef.py	/^    def title(self):$/;"	m	class:Hassanchef
+title	recipe_scrapers/heinzbrasil.py	/^    def title(self):$/;"	m	class:HeinzBrasil
+title	recipe_scrapers/hellofresh.py	/^    def title(self):$/;"	m	class:HelloFresh
+title	recipe_scrapers/hostthetoast.py	/^    def title(self):$/;"	m	class:Hostthetoast
+title	recipe_scrapers/hundredandonecookbooks.py	/^    def title(self):$/;"	m	class:HundredAndOneCookbooks
+title	recipe_scrapers/ig.py	/^    def title(self):$/;"	m	class:IG
+title	recipe_scrapers/inspiralized.py	/^    def title(self):$/;"	m	class:Inspiralized
+title	recipe_scrapers/jamieoliver.py	/^    def title(self):$/;"	m	class:JamieOliver
+title	recipe_scrapers/justbento.py	/^    def title(self):$/;"	m	class:JustBento
+title	recipe_scrapers/kennymcgovern.py	/^    def title(self):$/;"	m	class:KennyMcGovern
+title	recipe_scrapers/kochbar.py	/^    def title(self):$/;"	m	class:Kochbar
+title	recipe_scrapers/lecremedelacrumb.py	/^    def title(self):$/;"	m	class:LeCremeDeLaCrumb
+title	recipe_scrapers/lovingitvegan.py	/^    def title(self):$/;"	m	class:Lovingitvegan
+title	recipe_scrapers/marmiton.py	/^    def title(self):$/;"	m	class:Marmiton
+title	recipe_scrapers/matprat.py	/^    def title(self):$/;"	m	class:Matprat
+title	recipe_scrapers/mindmegette.py	/^    def title(self):$/;"	m	class:Mindmegette
+title	recipe_scrapers/minimalistbaker.py	/^    def title(self):$/;"	m	class:Minimalistbaker
+title	recipe_scrapers/misya.py	/^    def title(self):$/;"	m	class:Misya
+title	recipe_scrapers/momswithcrockpots.py	/^    def title(self):$/;"	m	class:MomsWithCrockPots
+title	recipe_scrapers/motherthyme.py	/^    def title(self):$/;"	m	class:MotherThyme
+title	recipe_scrapers/mybakingaddiction.py	/^    def title(self):$/;"	m	class:MyBakingAddiction
+title	recipe_scrapers/myrecipes.py	/^    def title(self):$/;"	m	class:MyRecipes
+title	recipe_scrapers/nihhealthyeating.py	/^    def title(self):$/;"	m	class:NIHHealthyEating
+title	recipe_scrapers/nytimes.py	/^    def title(self):$/;"	m	class:NYTimes
+title	recipe_scrapers/ohsheglows.py	/^    def title(self):$/;"	m	class:OhSheGlows
+title	recipe_scrapers/panelinha.py	/^    def title(self):$/;"	m	class:Panelinha
+title	recipe_scrapers/paninihappy.py	/^    def title(self):$/;"	m	class:PaniniHappy
+title	recipe_scrapers/przepisy.py	/^    def title(self):$/;"	m	class:Przepisy
+title	recipe_scrapers/realsimple.py	/^    def title(self):$/;"	m	class:RealSimple
+title	recipe_scrapers/seriouseats.py	/^    def title(self):$/;"	m	class:SeriousEats
+title	recipe_scrapers/simplyquinoa.py	/^    def title(self):$/;"	m	class:SimplyQuinoa
+title	recipe_scrapers/simplyrecipes.py	/^    def title(self):$/;"	m	class:SimplyRecipes
+title	recipe_scrapers/skinnytaste.py	/^    def title(self):$/;"	m	class:SkinnyTaste
+title	recipe_scrapers/southernliving.py	/^    def title(self):$/;"	m	class:SouthernLiving
+title	recipe_scrapers/spendwithpennies.py	/^    def title(self):$/;"	m	class:SpendWithPennies
+title	recipe_scrapers/steamykitchen.py	/^    def title(self):$/;"	m	class:SteamyKitchen
+title	recipe_scrapers/tasteofhome.py	/^    def title(self):$/;"	m	class:TasteOfHome
+title	recipe_scrapers/tastesoflizzyt.py	/^    def title(self):$/;"	m	class:TastesOfLizzyT
+title	recipe_scrapers/tasty.py	/^    def title(self):$/;"	m	class:Tasty
+title	recipe_scrapers/tastykitchen.py	/^    def title(self):$/;"	m	class:TastyKitchen
+title	recipe_scrapers/thehappyfoodie.py	/^    def title(self):$/;"	m	class:TheHappyFoodie
+title	recipe_scrapers/thekitchn.py	/^    def title(self):$/;"	m	class:TheKitchn
+title	recipe_scrapers/thepioneerwoman.py	/^    def title(self):$/;"	m	class:ThePioneerWoman
+title	recipe_scrapers/thevintagemixer.py	/^    def title(self):$/;"	m	class:TheVintageMixer
+title	recipe_scrapers/thewoksoflife.py	/^    def title(self):$/;"	m	class:Thewoksoflife
+title	recipe_scrapers/tineno.py	/^    def title(self):$/;"	m	class:TineNo
+title	recipe_scrapers/tudogostoso.py	/^    def title(self):$/;"	m	class:TudoGostoso
+title	recipe_scrapers/twopeasandtheirpod.py	/^    def title(self):$/;"	m	class:TwoPeasAndTheirPod
+title	recipe_scrapers/vegolosi.py	/^    def title(self):$/;"	m	class:Vegolosi
+title	recipe_scrapers/watchwhatueat.py	/^    def title(self):$/;"	m	class:WatchWhatUEat
+title	recipe_scrapers/whatsgabycooking.py	/^    def title(self):$/;"	m	class:WhatsGabyCooking
+title	recipe_scrapers/wikicookbook.py	/^    def title(self):$/;"	m	class:WikiCookbook
+title	recipe_scrapers/yummly.py	/^    def title(self):$/;"	m	class:Yummly
+total_time	recipe_scrapers/_abstract.py	/^    def total_time(self):$/;"	m	class:AbstractScraper
+total_time	recipe_scrapers/_schemaorg.py	/^    def total_time(self):$/;"	m	class:SchemaOrg
+total_time	recipe_scrapers/acouplecooks.py	/^    def total_time(self):$/;"	m	class:ACoupleCooks
+total_time	recipe_scrapers/allrecipes.py	/^    def total_time(self):$/;"	m	class:AllRecipes
+total_time	recipe_scrapers/archanaskitchen.py	/^    def total_time(self):$/;"	m	class:ArchanasKitchen
+total_time	recipe_scrapers/averiecooks.py	/^    def total_time(self):$/;"	m	class:AverieCooks
+total_time	recipe_scrapers/bbcfood.py	/^    def total_time(self):$/;"	m	class:BBCFood
+total_time	recipe_scrapers/bbcgoodfood.py	/^    def total_time(self):$/;"	m	class:BBCGoodFood
+total_time	recipe_scrapers/bettycrocker.py	/^    def total_time(self):$/;"	m	class:BettyCrocker
+total_time	recipe_scrapers/bonappetit.py	/^    def total_time(self):$/;"	m	class:BonAppetit
+total_time	recipe_scrapers/bowlofdelicious.py	/^    def total_time(self):$/;"	m	class:BowlOfDelicious
+total_time	recipe_scrapers/budgetbytes.py	/^    def total_time(self):$/;"	m	class:BudgetBytes
+total_time	recipe_scrapers/closetcooking.py	/^    def total_time(self):$/;"	m	class:ClosetCooking
+total_time	recipe_scrapers/cookieandkate.py	/^    def total_time(self):$/;"	m	class:CookieAndKate
+total_time	recipe_scrapers/cookpad.py	/^    def total_time(self):$/;"	m	class:CookPad
+total_time	recipe_scrapers/cookstr.py	/^    def total_time(self):$/;"	m	class:Cookstr
+total_time	recipe_scrapers/copykat.py	/^    def total_time(self):$/;"	m	class:CopyKat
+total_time	recipe_scrapers/countryliving.py	/^    def total_time(self):$/;"	m	class:CountryLiving
+total_time	recipe_scrapers/cybercook.py	/^    def total_time(self):$/;"	m	class:Cybercook
+total_time	recipe_scrapers/delish.py	/^    def total_time(self):$/;"	m	class:Delish
+total_time	recipe_scrapers/eatsmarter.py	/^    def total_time(self):$/;"	m	class:Eatsmarter
+total_time	recipe_scrapers/epicurious.py	/^    def total_time(self):$/;"	m	class:Epicurious
+total_time	recipe_scrapers/fifteenspatulas.py	/^    def total_time(self):$/;"	m	class:FifteenSpatulas
+total_time	recipe_scrapers/finedininglovers.py	/^    def total_time(self):$/;"	m	class:FineDiningLovers
+total_time	recipe_scrapers/fitmencook.py	/^    def total_time(self):$/;"	m	class:FitMenCook
+total_time	recipe_scrapers/food.py	/^    def total_time(self):$/;"	m	class:Food
+total_time	recipe_scrapers/foodnetwork.py	/^    def total_time(self):$/;"	m	class:FoodNetwork
+total_time	recipe_scrapers/foodrepublic.py	/^    def total_time(self):$/;"	m	class:FoodRepublic
+total_time	recipe_scrapers/geniuskitchen.py	/^    def total_time(self):$/;"	m	class:GeniusKitchen
+total_time	recipe_scrapers/giallozafferano.py	/^    def total_time(self):$/;"	m	class:GialloZafferano
+total_time	recipe_scrapers/gimmesomeoven.py	/^    def total_time(self):$/;"	m	class:GimmeSomeOven
+total_time	recipe_scrapers/gonnawantseconds.py	/^    def total_time(self):$/;"	m	class:GonnaWantSeconds
+total_time	recipe_scrapers/gousto.py	/^    def total_time(self):$/;"	m	class:Gousto
+total_time	recipe_scrapers/greatbritishchefs.py	/^    def total_time(self):$/;"	m	class:GreatBritishChefs
+total_time	recipe_scrapers/halfbakedharvest.py	/^    def total_time(self):$/;"	m	class:HalfBakedHarvest
+total_time	recipe_scrapers/hassenchef.py	/^    def total_time(self):$/;"	m	class:Hassanchef
+total_time	recipe_scrapers/heinzbrasil.py	/^    def total_time(self):$/;"	m	class:HeinzBrasil
+total_time	recipe_scrapers/hellofresh.py	/^    def total_time(self):$/;"	m	class:HelloFresh
+total_time	recipe_scrapers/hostthetoast.py	/^    def total_time(self):$/;"	m	class:Hostthetoast
+total_time	recipe_scrapers/hundredandonecookbooks.py	/^    def total_time(self):$/;"	m	class:HundredAndOneCookbooks
+total_time	recipe_scrapers/ig.py	/^    def total_time(self):$/;"	m	class:IG
+total_time	recipe_scrapers/inspiralized.py	/^    def total_time(self):$/;"	m	class:Inspiralized
+total_time	recipe_scrapers/jamieoliver.py	/^    def total_time(self):$/;"	m	class:JamieOliver
+total_time	recipe_scrapers/justbento.py	/^    def total_time(self):$/;"	m	class:JustBento
+total_time	recipe_scrapers/kennymcgovern.py	/^    def total_time(self):$/;"	m	class:KennyMcGovern
+total_time	recipe_scrapers/kochbar.py	/^    def total_time(self):$/;"	m	class:Kochbar
+total_time	recipe_scrapers/lecremedelacrumb.py	/^    def total_time(self):$/;"	m	class:LeCremeDeLaCrumb
+total_time	recipe_scrapers/lovingitvegan.py	/^    def total_time(self):$/;"	m	class:Lovingitvegan
+total_time	recipe_scrapers/marmiton.py	/^    def total_time(self):$/;"	m	class:Marmiton
+total_time	recipe_scrapers/matprat.py	/^    def total_time(self):$/;"	m	class:Matprat
+total_time	recipe_scrapers/mindmegette.py	/^    def total_time(self):$/;"	m	class:Mindmegette
+total_time	recipe_scrapers/minimalistbaker.py	/^    def total_time(self):$/;"	m	class:Minimalistbaker
+total_time	recipe_scrapers/misya.py	/^    def total_time(self):$/;"	m	class:Misya
+total_time	recipe_scrapers/momswithcrockpots.py	/^    def total_time(self):$/;"	m	class:MomsWithCrockPots
+total_time	recipe_scrapers/motherthyme.py	/^    def total_time(self):$/;"	m	class:MotherThyme
+total_time	recipe_scrapers/mybakingaddiction.py	/^    def total_time(self):$/;"	m	class:MyBakingAddiction
+total_time	recipe_scrapers/myrecipes.py	/^    def total_time(self):$/;"	m	class:MyRecipes
+total_time	recipe_scrapers/nihhealthyeating.py	/^    def total_time(self):$/;"	m	class:NIHHealthyEating
+total_time	recipe_scrapers/nytimes.py	/^    def total_time(self):$/;"	m	class:NYTimes
+total_time	recipe_scrapers/ohsheglows.py	/^    def total_time(self):$/;"	m	class:OhSheGlows
+total_time	recipe_scrapers/panelinha.py	/^    def total_time(self):$/;"	m	class:Panelinha
+total_time	recipe_scrapers/paninihappy.py	/^    def total_time(self):$/;"	m	class:PaniniHappy
+total_time	recipe_scrapers/przepisy.py	/^    def total_time(self):$/;"	m	class:Przepisy
+total_time	recipe_scrapers/realsimple.py	/^    def total_time(self):$/;"	m	class:RealSimple
+total_time	recipe_scrapers/seriouseats.py	/^    def total_time(self):$/;"	m	class:SeriousEats
+total_time	recipe_scrapers/simplyquinoa.py	/^    def total_time(self):$/;"	m	class:SimplyQuinoa
+total_time	recipe_scrapers/simplyrecipes.py	/^    def total_time(self):$/;"	m	class:SimplyRecipes
+total_time	recipe_scrapers/skinnytaste.py	/^    def total_time(self):$/;"	m	class:SkinnyTaste
+total_time	recipe_scrapers/southernliving.py	/^    def total_time(self):$/;"	m	class:SouthernLiving
+total_time	recipe_scrapers/spendwithpennies.py	/^    def total_time(self):$/;"	m	class:SpendWithPennies
+total_time	recipe_scrapers/steamykitchen.py	/^    def total_time(self):$/;"	m	class:SteamyKitchen
+total_time	recipe_scrapers/tasteofhome.py	/^    def total_time(self):$/;"	m	class:TasteOfHome
+total_time	recipe_scrapers/tastesoflizzyt.py	/^    def total_time(self):$/;"	m	class:TastesOfLizzyT
+total_time	recipe_scrapers/tasty.py	/^    def total_time(self):$/;"	m	class:Tasty
+total_time	recipe_scrapers/tastykitchen.py	/^    def total_time(self):$/;"	m	class:TastyKitchen
+total_time	recipe_scrapers/thehappyfoodie.py	/^    def total_time(self):$/;"	m	class:TheHappyFoodie
+total_time	recipe_scrapers/thekitchn.py	/^    def total_time(self):$/;"	m	class:TheKitchn
+total_time	recipe_scrapers/thepioneerwoman.py	/^    def total_time(self):$/;"	m	class:ThePioneerWoman
+total_time	recipe_scrapers/thevintagemixer.py	/^    def total_time(self):$/;"	m	class:TheVintageMixer
+total_time	recipe_scrapers/thewoksoflife.py	/^    def total_time(self):$/;"	m	class:Thewoksoflife
+total_time	recipe_scrapers/tineno.py	/^    def total_time(self):$/;"	m	class:TineNo
+total_time	recipe_scrapers/tudogostoso.py	/^    def total_time(self):$/;"	m	class:TudoGostoso
+total_time	recipe_scrapers/twopeasandtheirpod.py	/^    def total_time(self):$/;"	m	class:TwoPeasAndTheirPod
+total_time	recipe_scrapers/vegolosi.py	/^    def total_time(self):$/;"	m	class:Vegolosi
+total_time	recipe_scrapers/watchwhatueat.py	/^    def total_time(self):$/;"	m	class:WatchWhatUEat
+total_time	recipe_scrapers/whatsgabycooking.py	/^    def total_time(self):$/;"	m	class:WhatsGabyCooking
+total_time	recipe_scrapers/wikicookbook.py	/^    def total_time(self):$/;"	m	class:WikiCookbook
+total_time	recipe_scrapers/yummly.py	/^    def total_time(self):$/;"	m	class:Yummly
+url	recipe_scrapers/_abstract.py	/^    def url(self):$/;"	m	class:AbstractScraper
+url_path_to_dict	recipe_scrapers/__init__.py	/^def url_path_to_dict(path):$/;"	f
+yields	recipe_scrapers/_abstract.py	/^    def yields(self):$/;"	m	class:AbstractScraper
+yields	recipe_scrapers/_schemaorg.py	/^    def yields(self):$/;"	m	class:SchemaOrg
+yields	recipe_scrapers/acouplecooks.py	/^    def yields(self):$/;"	m	class:ACoupleCooks
+yields	recipe_scrapers/allrecipes.py	/^    def yields(self):$/;"	m	class:AllRecipes
+yields	recipe_scrapers/archanaskitchen.py	/^    def yields(self):$/;"	m	class:ArchanasKitchen
+yields	recipe_scrapers/averiecooks.py	/^    def yields(self):$/;"	m	class:AverieCooks
+yields	recipe_scrapers/bbcfood.py	/^    def yields(self):$/;"	m	class:BBCFood
+yields	recipe_scrapers/bbcgoodfood.py	/^    def yields(self):$/;"	m	class:BBCGoodFood
+yields	recipe_scrapers/bettycrocker.py	/^    def yields(self):$/;"	m	class:BettyCrocker
+yields	recipe_scrapers/bonappetit.py	/^    def yields(self):$/;"	m	class:BonAppetit
+yields	recipe_scrapers/bowlofdelicious.py	/^    def yields(self):$/;"	m	class:BowlOfDelicious
+yields	recipe_scrapers/budgetbytes.py	/^    def yields(self):$/;"	m	class:BudgetBytes
+yields	recipe_scrapers/closetcooking.py	/^    def yields(self):$/;"	m	class:ClosetCooking
+yields	recipe_scrapers/cookieandkate.py	/^    def yields(self):$/;"	m	class:CookieAndKate
+yields	recipe_scrapers/cookpad.py	/^    def yields(self):$/;"	m	class:CookPad
+yields	recipe_scrapers/cookstr.py	/^    def yields(self):$/;"	m	class:Cookstr
+yields	recipe_scrapers/copykat.py	/^    def yields(self):$/;"	m	class:CopyKat
+yields	recipe_scrapers/countryliving.py	/^    def yields(self):$/;"	m	class:CountryLiving
+yields	recipe_scrapers/cybercook.py	/^    def yields(self):$/;"	m	class:Cybercook
+yields	recipe_scrapers/delish.py	/^    def yields(self):$/;"	m	class:Delish
+yields	recipe_scrapers/eatsmarter.py	/^    def yields(self):$/;"	m	class:Eatsmarter
+yields	recipe_scrapers/epicurious.py	/^    def yields(self):$/;"	m	class:Epicurious
+yields	recipe_scrapers/fifteenspatulas.py	/^    def yields(self):$/;"	m	class:FifteenSpatulas
+yields	recipe_scrapers/finedininglovers.py	/^    def yields(self):$/;"	m	class:FineDiningLovers
+yields	recipe_scrapers/fitmencook.py	/^    def yields(self):$/;"	m	class:FitMenCook
+yields	recipe_scrapers/food.py	/^    def yields(self):$/;"	m	class:Food
+yields	recipe_scrapers/foodnetwork.py	/^    def yields(self):$/;"	m	class:FoodNetwork
+yields	recipe_scrapers/foodrepublic.py	/^    def yields(self):$/;"	m	class:FoodRepublic
+yields	recipe_scrapers/geniuskitchen.py	/^    def yields(self):$/;"	m	class:GeniusKitchen
+yields	recipe_scrapers/giallozafferano.py	/^    def yields(self):$/;"	m	class:GialloZafferano
+yields	recipe_scrapers/gimmesomeoven.py	/^    def yields(self):$/;"	m	class:GimmeSomeOven
+yields	recipe_scrapers/gonnawantseconds.py	/^    def yields(self):$/;"	m	class:GonnaWantSeconds
+yields	recipe_scrapers/gousto.py	/^    def yields(self):$/;"	m	class:Gousto
+yields	recipe_scrapers/greatbritishchefs.py	/^    def yields(self):$/;"	m	class:GreatBritishChefs
+yields	recipe_scrapers/halfbakedharvest.py	/^    def yields(self):$/;"	m	class:HalfBakedHarvest
+yields	recipe_scrapers/hassenchef.py	/^    def yields(self):$/;"	m	class:Hassanchef
+yields	recipe_scrapers/hellofresh.py	/^    def yields(self):$/;"	m	class:HelloFresh
+yields	recipe_scrapers/hostthetoast.py	/^    def yields(self):$/;"	m	class:Hostthetoast
+yields	recipe_scrapers/hundredandonecookbooks.py	/^    def yields(self):$/;"	m	class:HundredAndOneCookbooks
+yields	recipe_scrapers/ig.py	/^    def yields(self):$/;"	m	class:IG
+yields	recipe_scrapers/inspiralized.py	/^    def yields(self):$/;"	m	class:Inspiralized
+yields	recipe_scrapers/jamieoliver.py	/^    def yields(self):$/;"	m	class:JamieOliver
+yields	recipe_scrapers/justbento.py	/^    def yields(self):$/;"	m	class:JustBento
+yields	recipe_scrapers/kennymcgovern.py	/^    def yields(self):$/;"	m	class:KennyMcGovern
+yields	recipe_scrapers/kochbar.py	/^    def yields(self):$/;"	m	class:Kochbar
+yields	recipe_scrapers/lecremedelacrumb.py	/^    def yields(self):$/;"	m	class:LeCremeDeLaCrumb
+yields	recipe_scrapers/lovingitvegan.py	/^    def yields(self):$/;"	m	class:Lovingitvegan
+yields	recipe_scrapers/marmiton.py	/^    def yields(self):$/;"	m	class:Marmiton
+yields	recipe_scrapers/matprat.py	/^    def yields(self):$/;"	m	class:Matprat
+yields	recipe_scrapers/mindmegette.py	/^    def yields(self):$/;"	m	class:Mindmegette
+yields	recipe_scrapers/minimalistbaker.py	/^    def yields(self):$/;"	m	class:Minimalistbaker
+yields	recipe_scrapers/misya.py	/^    def yields(self):$/;"	m	class:Misya
+yields	recipe_scrapers/momswithcrockpots.py	/^    def yields(self):$/;"	m	class:MomsWithCrockPots
+yields	recipe_scrapers/motherthyme.py	/^    def yields(self):$/;"	m	class:MotherThyme
+yields	recipe_scrapers/mybakingaddiction.py	/^    def yields(self):$/;"	m	class:MyBakingAddiction
+yields	recipe_scrapers/myrecipes.py	/^    def yields(self):$/;"	m	class:MyRecipes
+yields	recipe_scrapers/nihhealthyeating.py	/^    def yields(self):$/;"	m	class:NIHHealthyEating
+yields	recipe_scrapers/nytimes.py	/^    def yields(self):$/;"	m	class:NYTimes
+yields	recipe_scrapers/ohsheglows.py	/^    def yields(self):$/;"	m	class:OhSheGlows
+yields	recipe_scrapers/panelinha.py	/^    def yields(self):$/;"	m	class:Panelinha
+yields	recipe_scrapers/paninihappy.py	/^    def yields(self):$/;"	m	class:PaniniHappy
+yields	recipe_scrapers/przepisy.py	/^    def yields(self):$/;"	m	class:Przepisy
+yields	recipe_scrapers/realsimple.py	/^    def yields(self):$/;"	m	class:RealSimple
+yields	recipe_scrapers/seriouseats.py	/^    def yields(self):$/;"	m	class:SeriousEats
+yields	recipe_scrapers/simplyquinoa.py	/^    def yields(self):$/;"	m	class:SimplyQuinoa
+yields	recipe_scrapers/simplyrecipes.py	/^    def yields(self):$/;"	m	class:SimplyRecipes
+yields	recipe_scrapers/skinnytaste.py	/^    def yields(self):$/;"	m	class:SkinnyTaste
+yields	recipe_scrapers/southernliving.py	/^    def yields(self):$/;"	m	class:SouthernLiving
+yields	recipe_scrapers/spendwithpennies.py	/^    def yields(self):$/;"	m	class:SpendWithPennies
+yields	recipe_scrapers/steamykitchen.py	/^    def yields(self):$/;"	m	class:SteamyKitchen
+yields	recipe_scrapers/tasteofhome.py	/^    def yields(self):$/;"	m	class:TasteOfHome
+yields	recipe_scrapers/tastesoflizzyt.py	/^    def yields(self):$/;"	m	class:TastesOfLizzyT
+yields	recipe_scrapers/tasty.py	/^    def yields(self):$/;"	m	class:Tasty
+yields	recipe_scrapers/tastykitchen.py	/^    def yields(self):$/;"	m	class:TastyKitchen
+yields	recipe_scrapers/thehappyfoodie.py	/^    def yields(self):$/;"	m	class:TheHappyFoodie
+yields	recipe_scrapers/thekitchn.py	/^    def yields(self):$/;"	m	class:TheKitchn
+yields	recipe_scrapers/thepioneerwoman.py	/^    def yields(self):$/;"	m	class:ThePioneerWoman
+yields	recipe_scrapers/thewoksoflife.py	/^    def yields(self):$/;"	m	class:Thewoksoflife
+yields	recipe_scrapers/tineno.py	/^    def yields(self):$/;"	m	class:TineNo
+yields	recipe_scrapers/twopeasandtheirpod.py	/^    def yields(self):$/;"	m	class:TwoPeasAndTheirPod
+yields	recipe_scrapers/vegolosi.py	/^    def yields(self):$/;"	m	class:Vegolosi
+yields	recipe_scrapers/watchwhatueat.py	/^    def yields(self):$/;"	m	class:WatchWhatUEat
+yields	recipe_scrapers/whatsgabycooking.py	/^    def yields(self):$/;"	m	class:WhatsGabyCooking
+yields	recipe_scrapers/wikicookbook.py	/^    def yields(self):$/;"	m	class:WikiCookbook
+yields	recipe_scrapers/yummly.py	/^    def yields(self):$/;"	m	class:Yummly
