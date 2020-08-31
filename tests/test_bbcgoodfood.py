@@ -14,14 +14,14 @@ class TestBBCGoodFoodScraper(ScraperTest):
         self.assertEqual(self.harvester_class.title(), "Monster cupcakes")
 
     def test_total_time(self):
-        self.assertEqual(35, self.harvester_class.total_time())
+        self.assertEqual(50, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("12 item(s)", self.harvester_class.yields())
+        self.assertEqual("Makes 12", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
-            "//www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--405483_12.jpg?itok=y0VkmKq3",
+            "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-405483_12-cee017a.jpg",
             self.harvester_class.image(),
         )
 
@@ -40,8 +40,8 @@ class TestBBCGoodFoodScraper(ScraperTest):
                 "1 tbsp milk",
                 "½ tsp vanilla extract",
                 "200g icing sugar, sifted",
-                "food colourings (optional)",
-                "sweets and sprinkles, to decorate",
+                "food colourings(optional)",
+                "sweetsand sprinkles, to decorate",
             ],
             self.harvester_class.ingredients(),
         )
