@@ -97,6 +97,7 @@ Scrapers available for:
 - `https://justbento.com/ <https://justbento.com>`_
 - `https://kennymcgovern.com/ <https://kennymcgovern.com>`_
 - `https://kochbar.de/ <https://kochbar.de>`_
+- `http://livelytable.com/ <http://livelytable.com/>`_
 - `https://lovingitvegan.com/ <https://lovingitvegan.com/>`_
 - `https://lecremedelacrumb.com/ <https://lecremedelacrumb.com/>`_
 - `https://marmiton.org/ <https://marmiton.org/>`_
