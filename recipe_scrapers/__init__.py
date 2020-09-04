@@ -66,6 +66,7 @@ from .ohsheglows import OhSheGlows
 from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
 from .przepisy import Przepisy
+from .purelypope import PurelyPope
 from .realsimple import RealSimple
 from .seriouseats import SeriousEats
 from .simplyquinoa import SimplyQuinoa
@@ -163,6 +164,7 @@ SCRAPERS = {
     Panelinha.host(): Panelinha,
     PaniniHappy.host(): PaniniHappy,
     Przepisy.host(): Przepisy,
+    PurelyPope.host(): PurelyPope,
     RealSimple.host(): RealSimple,
     SeriousEats.host(): SeriousEats,
     SimplyQuinoa.host(): SimplyQuinoa,
