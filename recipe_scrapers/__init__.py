@@ -60,6 +60,7 @@ from .mybakingaddiction import MyBakingAddiction
 from .myrecipes import MyRecipes
 from .nihhealthyeating import NIHHealthyEating
 from .nourishedbynutrition import NourishedByNutrition
+from .nutritionbynathalie import NutritionByNathalie
 from .nytimes import NYTimes
 from .ohsheglows import OhSheGlows
 from .panelinha import Panelinha
@@ -156,6 +157,7 @@ SCRAPERS = {
     MyRecipes.host(): MyRecipes,
     NIHHealthyEating.host(): NIHHealthyEating,
     NourishedByNutrition.host(): NourishedByNutrition,
+    NutritionByNathalie.host(): NutritionByNathalie,
     NYTimes.host(): NYTimes,
     OhSheGlows.host(): OhSheGlows,
     Panelinha.host(): Panelinha,
