@@ -108,6 +108,7 @@ Scrapers available for:
 - `https://momswithcrockpots.com/ <https://momswithcrockpots.com>`_
 - `http://motherthyme.com/ <http://motherthyme.com/>`_
 - `https://mybakingaddiction.com/ <https://mybakingaddiction.com>`_
+- `https://nutritionbynathalie.com/blog <https://nutritionbynathalie.com/blog>`_
 - `https://myrecipes.com/ <https://myrecipes.com>`_
 - `https://healthyeating.nhlbi.nih.gov/ <https://healthyeating.nhlbi.nih.gov>`_
 - `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
