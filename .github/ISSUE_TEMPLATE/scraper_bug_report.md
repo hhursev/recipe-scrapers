@@ -13,6 +13,11 @@ If your request is about a website that is not supported, please open a 'new scr
 
 To help get the issue fixed, please fill in the information below.
 
+**Pre-filing checks**
+
+- [ ] I have searched for open issues that report the same problem
+- [ ] I have checked that the bug affects the latest version of the library
+
 **The URL of the recipe(s) that are not being scraped correctly**
 
 - https:// ...
