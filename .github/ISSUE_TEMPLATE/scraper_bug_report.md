@@ -22,10 +22,6 @@ To help get the issue fixed, please fill in the information below.
 
 - https:// ...
 
-**The version of the `recipe-scrapers` software you're using**
-
-...
-
 **The results you expect to see**
 
 ...
