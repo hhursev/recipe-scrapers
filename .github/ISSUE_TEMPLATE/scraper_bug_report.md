@@ -22,6 +22,14 @@ To help get the issue fixed, please fill in the information below.
 
 - https:// ...
 
+**The version of Python you're using**
+
+...
+
+**The operating system of your environment**
+
+...
+
 **The results you expect to see**
 
 ...
