@@ -7,7 +7,11 @@ assignees: ''
 
 ---
 
-Thanks for filing a bug report with us!  To help get the issue fixed, please fill in the information below.
+Thanks for filing a bug report with us!
+
+If your request is about a website that is not supported, please open a 'new scraper' issue request instead.
+
+To help get the issue fixed, please fill in the information below.
 
 **The URL of the recipe(s) that are not being scraped correctly**
 
