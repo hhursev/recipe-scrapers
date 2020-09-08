@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-We always enjoy adding new websites to the list of [available `recipe-scrapers` scrapers](https://github.com/hhursev/recipe-scrapers#scrapers-available-for)!
+We always enjoy adding support for new websites to the library!
 
-To help us out, please check that recipes on the website are public - we can't currently scrape recipes that require an account login - and add sample recipe URL(s) below:
+To help us out, please check that recipes published on the website you're requesting are public (we can't currently scrape recipes that require an account login) and add sample recipe URL(s) below:
 
 - https:// ...
 
