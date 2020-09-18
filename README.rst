@@ -185,6 +185,12 @@ Assuming you have ``python3`` installed, navigate to the directory where you wan
     python -m coverage run -m unittest &&
     python -m coverage report
 
+In case you want to run a single unittest for a newly developed scraper
+
+.. code::
+
+    python -m coverage run -m unittest tests.test_myscraper
+
 FAQ
 ---
 - **How do I know if a website has a Recipe Schema?**
