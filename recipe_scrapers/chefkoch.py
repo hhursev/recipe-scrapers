@@ -3,8 +3,8 @@ from ._abstract import AbstractScraper
 
 class Chefkoch(AbstractScraper):
     @classmethod
-    def host(cls, domain="de"):
-        return f"chefkoch.{domain}"
+    def host(cls):
+        return "chefkoch.de"
 
     def title(self):
         return self.schema.title()
