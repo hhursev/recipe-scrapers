@@ -60,6 +60,7 @@ Scrapers available for:
 - `https://bonappetit.com/ <https://bonappetit.com>`_
 - `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
+- `https://chefkoch.de/ <https://chefkoch.de>`_
 - `https://closetcooking.com/ <https://closetcooking.com>`_
 - `https://cookieandkate.com/ <https://cookieandkate.com/>`_
 - `https://cookpad.com/ <https://cookpad.com/>`_
@@ -183,6 +184,12 @@ Assuming you have ``python3`` installed, navigate to the directory where you wan
     pre-commit install &&
     python -m coverage run -m unittest &&
     python -m coverage report
+
+In case you want to run a single unittest for a newly developed scraper
+
+.. code::
+
+    python -m coverage run -m unittest tests.test_myscraper
 
 FAQ
 ---
