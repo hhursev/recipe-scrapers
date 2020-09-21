@@ -25,10 +25,6 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
         self.soup = BeautifulSoup(page_data, "html.parser")
         self.schema = SchemaOrg(page_data, host=self.host())
         self.url = url
-        # if self.schema.data:
-        #     print("Class: %s has schema." % (
-        #         self.__class__.__name__
-        #     ))
 
     def url(self):
         return self.url
