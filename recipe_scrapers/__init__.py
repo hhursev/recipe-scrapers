@@ -3,6 +3,7 @@ import re
 from tldextract import TLDExtract
 
 from .allrecipes import AllRecipes
+from .ambitiouskitchen import AmbitiousKitchen
 from .acouplecooks import ACoupleCooks
 from .archanaskitchen import ArchanasKitchen
 from .averiecooks import AverieCooks
@@ -96,6 +97,7 @@ from .yummly import Yummly
 SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
     AllRecipes.host(): AllRecipes,
+    AmbitiousKitchen.host(): AmbitiousKitchen,
     ArchanasKitchen.host(): ArchanasKitchen,
     AverieCooks.host(): AverieCooks,
     BBCFood.host(): BBCFood,

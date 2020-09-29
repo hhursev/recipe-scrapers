@@ -51,6 +51,7 @@ Scrapers available for:
 
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
+- `https://ambitiouskitchen.com/ <https://ambitiouskitchen.com>`_
 - `https://archanaskitchen.com/ <https://archanaskitchen.com/>`_
 - `https://averiecooks.com/ <https://www.averiecooks.com/>`_
 - `https://bbc.com/ <https://bbc.com/food/recipes>`_
