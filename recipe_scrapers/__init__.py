@@ -83,6 +83,7 @@ from .tasty import Tasty
 from .tastykitchen import TastyKitchen
 from .thehappyfoodie import TheHappyFoodie
 from .thekitchn import TheKitchn
+from .thenutritiouskitchen import TheNutritiousKitchen
 from .thepioneerwoman import ThePioneerWoman
 from .thespruceeats import TheSpruceEats
 from .thevintagemixer import TheVintageMixer
@@ -151,6 +152,7 @@ SCRAPERS = {
     LeCremeDeLaCrumb.host(): LeCremeDeLaCrumb,
     Lovingitvegan.host(): Lovingitvegan,
     TheKitchn.host(): TheKitchn,
+    TheNutritiousKitchen.host(): TheNutritiousKitchen,
     Marmiton.host(): Marmiton,
     Matprat.host(): Matprat,
     Mindmegette.host(): Mindmegette,
