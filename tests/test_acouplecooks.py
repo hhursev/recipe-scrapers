@@ -18,7 +18,7 @@ class TestACoupleCooks(ScraperTest):
         )
 
     def test_total_time(self):
-        self.assertEqual(3, self.harvester_class.total_time())
+        self.assertEqual(8, self.harvester_class.total_time())
 
     def test_yields(self):
         self.assertEqual("4 serving(s)", self.harvester_class.yields())

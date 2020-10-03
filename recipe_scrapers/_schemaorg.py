@@ -49,7 +49,7 @@ class SchemaOrg:
         return self.data.get("inLanguage") or self.data.get("language")
 
     def title(self):
-        return self.data.get("name")
+        return normalize_string(self.data.get("name"))
 
     def author(self):
         author = self.data.get("author")

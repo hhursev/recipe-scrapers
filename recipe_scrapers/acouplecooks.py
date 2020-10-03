@@ -1,5 +1,4 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string, get_yields
 
 
 class ACoupleCooks(AbstractScraper):
@@ -8,28 +7,19 @@ class ACoupleCooks(AbstractScraper):
         return "acouplecooks.com"
 
     def title(self):
-        return self.soup.find("h2", {"class": "tasty-recipes-title"}).get_text()
+        return self.schema.title()
 
     def total_time(self):
-        return get_minutes(self.soup.find("span", {"class": "tasty-recipes-cook-time"}))
+        return self.schema.total_time()
 
     def yields(self):
-        return get_yields(self.soup.find("span", {"class": "tasty-recipes-yield"}).span)
+        return self.schema.yields()
 
-    def ingredients(self):
-        return [
-            normalize_string(child.text)
-            for child in self.soup.find(
-                "div", {"class": "tasty-recipes-ingredients"}
-            ).ul.children
-        ]
+    def image(self):
+        return self.schema.image()
 
     def instructions(self):
-        return "\n".join(
-            [
-                instruction.text
-                for instruction in self.soup.find(
-                    "div", {"class": "tasty-recipes-instructions"}
-                ).ol.children
-            ]
-        )
+        return self.schema.instructions()
+
+    def ingredients(self):
+        return self.schema.ingredients()
