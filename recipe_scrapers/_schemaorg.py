@@ -113,8 +113,17 @@ class SchemaOrg:
         if type(schema_item) is str:
             instructions_gist.append(schema_item)
         elif schema_item.get("@type") == "HowToStep":
+            if schema_item.get("name", False):
+                # some sites have duplicated name and text properties (1:1)
+                # others have name same as text but truncated to X chars.
+                # ignore name in these cases and add the name value only if it's different from the text
+                if not schema_item.get("text").startswith(
+                    schema_item.get("name").rstrip(".")
+                ):
+                    instructions_gist.append(schema_item.get("name"))
             instructions_gist.append(schema_item.get("text"))
         elif schema_item.get("@type") == "HowToSection":
+            instructions_gist.append(schema_item.get("name"))
             for item in schema_item.get("itemListElement"):
                 instructions_gist += self._extract_howto_instructions_text(item)
         return instructions_gist
