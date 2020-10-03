@@ -1,3 +1,5 @@
+# IF things in this file continue get messy (I'd say 300+ lines) it may be time to
+# find a package that parses https://schema.org/Recipe properly (or create one ourselves).
 import extruct
 from ._utils import get_minutes, normalize_string
 
@@ -106,15 +108,31 @@ class SchemaOrg:
             normalize_string(ingredient) for ingredient in ingredients if ingredient
         ]
 
+    def _extract_howto_instructions_text(self, schema_item):
+        instructions_gist = []
+        if type(schema_item) is str:
+            instructions_gist.append(schema_item)
+        elif schema_item.get("@type") == "HowToStep":
+            instructions_gist.append(schema_item.get("text"))
+        elif schema_item.get("@type") == "HowToSection":
+            for item in schema_item.get("itemListElement"):
+                instructions_gist += self._extract_howto_instructions_text(item)
+        return instructions_gist
+
     def instructions(self):
         instructions = self.data.get("recipeInstructions") or ""
-        if type(instructions) == list:
+
+        if type(instructions) is list:
+            instructions_gist = []
+            for schema_instruction_item in instructions:
+                instructions_gist += self._extract_howto_instructions_text(
+                    schema_instruction_item
+                )
+
             return "\n".join(
-                normalize_string(instruction.get("text"))
-                if type(instruction) is dict
-                else normalize_string(instruction)
-                for instruction in instructions
+                normalize_string(instruction) for instruction in instructions_gist
             )
+
         return instructions
 
     def ratings(self):
