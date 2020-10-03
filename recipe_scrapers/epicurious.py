@@ -40,7 +40,7 @@ class Epicurious(AbstractScraper):
 
     def reviews(self):
         result = []
-        reviews = self.soup.find("", {"class": "reviews"})
+        reviews = self.soup.find("div", {"class": "reviews"})
         if len(reviews.find_all("li")):
             for li in reviews.find_all("li"):
                 rating = li.find("img", {"class": "fork-rating"})
