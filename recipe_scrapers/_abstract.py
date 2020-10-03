@@ -116,3 +116,7 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
         links_html = self.soup.findAll("a", href=True)
 
         return [link.attrs for link in links_html if link["href"] not in invalid_href]
+
+    def site_name(self):
+        meta = self.soup.find("meta", property="og:site_name")
+        return meta.get("content") if meta else None

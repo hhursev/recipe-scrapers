@@ -2,6 +2,7 @@ import inspect
 import re
 from tldextract import TLDExtract
 
+from ._factory import SchemaScraperFactory  # noqa
 from .allrecipes import AllRecipes
 from .ambitiouskitchen import AmbitiousKitchen
 from .acouplecooks import ACoupleCooks
