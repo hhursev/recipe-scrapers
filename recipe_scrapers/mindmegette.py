@@ -19,7 +19,7 @@ class Mindmegette(AbstractScraper):
         ]
 
         if image_relative_url is not None:
-            image_relative_url = "http://%s%s" % (self.host(), image_relative_url)
+            image_relative_url = f"http://{self.host()}{image_relative_url}"
 
         return image_relative_url
 

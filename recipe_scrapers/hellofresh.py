@@ -8,7 +8,7 @@ from ._utils import get_minutes, normalize_string, get_yields
 class HelloFresh(AbstractScraper):
     @classmethod
     def host(self, domain="com"):
-        return "hellofresh.%s" % domain
+        return f"hellofresh.{domain}"
 
     def title(self):
         return self.soup.find("h1").get_text()

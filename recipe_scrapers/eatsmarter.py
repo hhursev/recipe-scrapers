@@ -4,7 +4,7 @@ from ._abstract import AbstractScraper
 class Eatsmarter(AbstractScraper):
     @classmethod
     def host(self, domain="com"):
-        return "eatsmarter.%s" % domain
+        return f"eatsmarter.{domain}"
 
     def title(self):
         return self.schema.title()
