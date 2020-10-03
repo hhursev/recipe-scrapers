@@ -72,6 +72,7 @@ Scrapers available for:
 - `https://delish.com/ <https://delish.com>`_
 - `https://eatsmarter.com/ <https://eatsmarter.com/>`_
 - `https://eatsmarter.de/ <https://eatsmarter.de/>`_
+- `https://eatwhattonight.com/ <https://eatwhattonight.com/>`_
 - `https://epicurious.com/ <https://epicurious.com>`_
 - `https://fifteenspatulas.com/ <https://www.fifteenspatulas.com/>`_
 - `https://finedininglovers.com/ <https://www.finedininglovers.com>`_
