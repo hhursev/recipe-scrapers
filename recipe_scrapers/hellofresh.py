@@ -25,7 +25,9 @@ class HelloFresh(AbstractScraper):
             self.soup.find(
                 "span",
                 {"data-translation-id": "recipe-detail.recipe-detail.serving-amount"},
-            ).parent.parent.find_all("button")[0]
+            )
+            .parent.parent.find("div", {"variant": "secondary"})
+            .contents[0]
         )
 
     def ingredients(self):
@@ -41,7 +43,7 @@ class HelloFresh(AbstractScraper):
                     normalize_string(ingredient_first_part.get_text()),
                     normalize_string(ingredient_second_part.get_text()),
                 ]
-            )
+            ).strip()
             for ingredient_first_part, ingredient_second_part in zip(
                 ingredients[0::2], ingredients[1::2]
             )
