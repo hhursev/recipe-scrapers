@@ -8,7 +8,7 @@ class Epicurious(AbstractScraper):
         return "epicurious.com"
 
     def title(self):
-        return self.soup.find("h1", {"itemprop": "name"}).get_text()
+        return normalize_string(self.soup.find("h1", {"itemprop": "name"}).get_text())
 
     def total_time(self):
         return 0
@@ -39,29 +39,21 @@ class Epicurious(AbstractScraper):
         return rating
 
     def reviews(self):
-        import re
+        result = []
+        reviews = self.soup.find("", {"class": "reviews"})
+        if len(reviews.find_all("li")):
+            for li in reviews.find_all("li"):
+                rating = li.find("img", {"class": "fork-rating"})
+                try:
+                    rating_value = int(rating.get("src").split("_forks.png")[0][-1])
+                except Exception:
+                    rating_value = 0
 
-        fork_rating_re = re.compile(r"/(\d)_forks.png")
+                result.append(
+                    {
+                        "review_text": normalize_string(li.find("p").get_text()),
+                        "rating": rating_value,
+                    }
+                )
 
-        reviews = self.soup.findAll("", {"class": "most-recent"})
-        ratings = [rev.find("img", {"class": "fork-rating"}) for rev in reviews]
-        temp = []
-        for rating in ratings:
-            if "src" in rating.attrs:
-                txt = rating.attrs["src"]
-            else:
-                txt = ""
-            rating = fork_rating_re.search(txt)
-            rating = rating.group(1) if rating is not None else "0"
-            rating = int(rating) if rating != "0" else None
-            temp.append(rating)
-        ratings = temp
-        review_texts = [rev.find("div", {"class": "review-text"}) for rev in reviews]
-        reviews = [
-            rev.get_text().strip("/ flag if inappropriate") for rev in review_texts
-        ]
-        result = [
-            {"review_text": review_text, "rating": rating_score}
-            for review_text, rating_score in zip(reviews, ratings)
-        ]
         return result

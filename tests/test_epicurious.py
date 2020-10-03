@@ -13,7 +13,7 @@ class TestEpicurious(ScraperTest):
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            "Ramen Noodle Bowl with Escarole and Spicy Tofu Crumbles ",
+            "Ramen Noodle Bowl with Escarole and Spicy Tofu Crumbles",
         )
 
     def test_total_time(self):
@@ -52,8 +52,8 @@ class TestEpicurious(ScraperTest):
 
     def test_reviews(self):
         self.assertCountEqual(
-            "This was yummy, the tofu especially.  The sauce for the tofu really made the dish.  In light of that, I'd like to try this again with rice noodles instead of ramen and chicken instead of tofu.  I didn't really dig the fresh ramen as much as I thought I would (too eggy).  I'm not sure chicken will work quite so well as the tofu but it's worth a shot. lisamichellek from Seattle, WA",
-            self.harvester_class.reviews()[0]["review_text"],
+            "This was yummy, the tofu especially. The sauce for the tofu really made the dish. In light of that, I'd like to try this again with rice noodles instead of ramen and chicken instead of tofu. I didn't really dig the fresh ramen as much as I thought I would (too eggy). I'm not sure chicken will work quite so well as the tofu but it's worth a shot.",
+            self.harvester_class.reviews()[-1]["review_text"],
         )
 
-        self.assertEqual(self.harvester_class.reviews()[0]["rating"], 4)
+        self.assertEqual(self.harvester_class.reviews()[-1]["rating"], 4)
