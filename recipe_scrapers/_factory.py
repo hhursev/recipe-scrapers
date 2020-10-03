@@ -32,14 +32,7 @@ class SchemaScraperFactory:
             return self.schema.author()
 
         def cuisine(self):
-            cuisine = self.schema.data.get("recipeCuisine")
-            if isinstance(cuisine, list):
-                return ",".join(cuisine)
-            return cuisine
-
-        def site_name(self):
-            meta = self.soup.find("meta", property="og:site_name")
-            return meta.get("content") if meta else None
+            return self.schema.cuisine()
 
     @classmethod
     def generate(cls, url):

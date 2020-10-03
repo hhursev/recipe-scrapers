@@ -143,3 +143,9 @@ class SchemaOrg:
         if type(ratings) == dict:
             return round(float(ratings.get("ratingValue")), 2)
         return round(float(ratings), 2)
+
+    def cuisine(self):
+        cuisine = self.data.get("recipeCuisine")
+        if isinstance(cuisine, list):
+            return ",".join(cuisine)
+        return cuisine
