@@ -15,9 +15,8 @@ class SchemaOrgException(Exception):
 
 
 class SchemaOrg:
-    def __init__(self, page_data, host):
+    def __init__(self, page_data):
         self.format = None
-        self.host = host
         self.data = {}
 
         data = extruct.extract(page_data, syntaxes=SYNTAXES, uniform=True)

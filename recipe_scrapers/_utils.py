@@ -77,3 +77,25 @@ def normalize_string(string):
         .replace("\t", " ")
         .strip(),
     )
+
+
+def url_path_to_dict(path):
+    pattern = (
+        r"^"
+        r"((?P<schema>.+?)://)?"
+        r"((?P<user>.+?)(:(?P<password>.*?))?@)?"
+        r"(?P<host>.*?)"
+        r"(:(?P<port>\d+?))?"
+        r"(?P<path>/.*?)?"
+        r"(?P<query>[?].*?)?"
+        r"$"
+    )
+    regex = re.compile(pattern)
+    matches = regex.match(path)
+    url_dict = matches.groupdict() if matches is not None else None
+
+    return url_dict
+
+
+def get_host_name(url):
+    return url_path_to_dict(url.replace("://www.", "://"))["host"]

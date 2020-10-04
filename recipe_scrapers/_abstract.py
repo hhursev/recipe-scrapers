@@ -13,7 +13,14 @@ HEADERS = {
 
 
 class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
-    def __init__(self, url, exception_handling=True, meta_http_equiv=False, test=False):
+    def __init__(
+        self,
+        url,
+        exception_handling=True,
+        meta_http_equiv=False,
+        test=False,
+        wild_mode=False,
+    ):
         if test:  # when testing, we load a file
             with url:
                 page_data = url.read()
@@ -23,15 +30,12 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
         self.exception_handling = exception_handling
         self.meta_http_equiv = meta_http_equiv
         self.soup = BeautifulSoup(page_data, "html.parser")
-        self.schema = SchemaOrg(page_data, host=self.host())
+        self.schema = SchemaOrg(page_data)
         self.url = url
-
-    def url(self):
-        return self.url
 
     @classmethod
     def host(cls):
-        """ get the hostdef of the url, so we can use the correct scraper """
+        """ get the host of the url, so we can use the correct scraper """
         raise NotImplementedError("This should be implemented.")
 
     @Decorators.normalize_string_output

@@ -1,11 +1,11 @@
-from recipe_scrapers._abstract import AbstractScraper
+from ._abstract import AbstractScraper
+from ._utils import get_host_name
 
 
 class SchemaScraperFactory:
     class SchemaScraper(AbstractScraper):
-        @classmethod
-        def host(cls):
-            return None
+        def host(self):
+            return get_host_name(self.url)
 
         def title(self):
             return self.schema.title()
@@ -23,7 +23,7 @@ class SchemaScraperFactory:
             return self.schema.ingredients()
 
         def instructions(self):
-            self.schema.instructions()
+            return self.schema.instructions()
 
         def ratings(self):
             return self.schema.ratings()
@@ -35,5 +35,5 @@ class SchemaScraperFactory:
             return self.schema.cuisine()
 
     @classmethod
-    def generate(cls, url):
-        return cls.SchemaScraper(url)
+    def generate(cls, url, **options):
+        return cls.SchemaScraper(url, **options)

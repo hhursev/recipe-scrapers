@@ -1,8 +1,8 @@
 import inspect
-import re
 from tldextract import TLDExtract
 
-from ._factory import SchemaScraperFactory  # noqa
+from ._factory import SchemaScraperFactory
+from ._utils import get_host_name
 from .allrecipes import AllRecipes
 from .ambitiouskitchen import AmbitiousKitchen
 from .acouplecooks import ACoupleCooks
@@ -98,6 +98,7 @@ from .watchwhatueat import WatchWhatUEat
 from .whatsgabycooking import WhatsGabyCooking
 from .wikicookbook import WikiCookbook
 from .yummly import Yummly
+
 
 SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
@@ -202,32 +203,24 @@ SCRAPERS = {
 }
 
 
-def url_path_to_dict(path):
-    pattern = (
-        r"^"
-        r"((?P<schema>.+?)://)?"
-        r"((?P<user>.+?)(:(?P<password>.*?))?@)?"
-        r"(?P<host>.*?)"
-        r"(:(?P<port>\d+?))?"
-        r"(?P<path>/.*?)?"
-        r"(?P<query>[?].*?)?"
-        r"$"
-    )
-    regex = re.compile(pattern)
-    matches = regex.match(path)
-    url_dict = matches.groupdict() if matches is not None else None
-
-    return url_dict
-
-
 class WebsiteNotImplementedError(NotImplementedError):
-    """ Error for when the website is not supported by this library. """
+    """ Error when website is not supported by this library. """
 
     def __init__(self, domain):
         self.domain = domain
 
     def __str__(self):
-        return "Website ({}) is not supported".format(self.domain)
+        return f"Website ({self.domain}) is not supported"
+
+
+class NoSchemaFoundInWildMode(Exception):
+    """ Error when wild_mode fails to locate schema at the url """
+
+    def __init__(self, url):
+        self.url = url
+
+    def __str__(self):
+        return f"No Recipe Schema found at {self.url}"
 
 
 def get_domain(url):
@@ -251,13 +244,20 @@ def harvest(url, **options):
 
 
 def scrape_me(url_path, **options):
-
-    host_name = url_path_to_dict(url_path.replace("://www.", "://"))["host"]
+    host_name = (
+        get_host_name(url_path) if not options.get("test", False) else "test_wild_mode"
+    )
 
     try:
         scraper = SCRAPERS[host_name]
     except KeyError:
-        raise WebsiteNotImplementedError(host_name)
+        if options.get("wild_mode", False):
+            wild_scraper = SchemaScraperFactory.generate(url_path, **options)
+            if not wild_scraper.schema.data:
+                raise NoSchemaFoundInWildMode(url_path)
+            return wild_scraper
+        else:
+            raise WebsiteNotImplementedError(host_name)
 
     return scraper(url_path, **options)
 
