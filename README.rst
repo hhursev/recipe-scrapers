@@ -55,6 +55,7 @@ Note: ``scraper.links()`` returns a list of dictionaries containing all of the <
 Scrapers available for:
 -----------------------
 
+- `https://www.750g.com <https://www.750g.com>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
 - `https://ambitiouskitchen.com/ <https://ambitiouskitchen.com>`_

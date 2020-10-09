@@ -3,6 +3,7 @@ from tldextract import TLDExtract
 
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
+from .g750g import G750g
 from .allrecipes import AllRecipes
 from .ambitiouskitchen import AmbitiousKitchen
 from .acouplecooks import ACoupleCooks
@@ -132,6 +133,7 @@ SCRAPERS = {
     Food.host(): Food,
     FoodNetwork.host(): FoodNetwork,
     FoodRepublic.host(): FoodRepublic,
+    G750g.host(): G750g,
     GeniusKitchen.host(): GeniusKitchen,
     GialloZafferano.host(): GialloZafferano,
     GimmeSomeOven.host(): GimmeSomeOven,
