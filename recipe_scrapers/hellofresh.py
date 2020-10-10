@@ -74,7 +74,7 @@ class HelloFresh(AbstractScraper):
         )
 
     def image(self):
-        container = self.soup.find("div", {"class": "recipe-image-container"})
+        container = self.soup.find("div", {"class": "recipe-header-left"})
         if not container:
             return None
 

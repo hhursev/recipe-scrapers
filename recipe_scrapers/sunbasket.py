@@ -28,15 +28,32 @@ class SunBasket(AbstractScraper):
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
-        instructions_container = self.soup.find("div", {"class": "instructions-container"})
+        instructions_container = self.soup.find(
+            "div", {"class": "instructions-container"}
+        )
         instructions = instructions_container.findAll("div", {"class": "step"})
         instruction_list = []
         for instruction in instructions:
             step_number_tag = instruction.find(class_="step-number")
             if step_number_tag is not None:
-                step_number = normalize_string(instruction.find(class_="step-number").get_text())
-                step_name = normalize_string(instruction.find(class_="step-header").get_text())
-                step_instructions = normalize_string(instruction.find(class_="instruction-description").get_text())
-                instruction_list.append(f"{step_number}: {step_name} - {step_instructions}")
+                step_number = normalize_string(
+                    instruction.find(class_="step-number").get_text()
+                )
+                step_name = normalize_string(
+                    instruction.find(class_="step-header").get_text()
+                )
+                step_instructions = normalize_string(
+                    instruction.find(class_="instruction-description").get_text()
+                )
+                instruction_list.append(
+                    f"{step_number}: {step_name} - {step_instructions}"
+                )
         return instruction_list
 
+    def image(self):
+        container = self.soup.find("div", {"class": "recipe-image-container"})
+        if not container:
+            return None
+
+        image = container.find("img", {"src": True})
+        return image["src"] if image else None
