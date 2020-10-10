@@ -51,6 +51,6 @@ class TestSunBasketScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://cdn.sunbasket.com/100408c8-f908-404e-a494-099fad9fed44.jpg",
+            "//cdn.sunbasket.com/100408c8-f908-404e-a494-099fad9fed44.jpg",
             self.harvester_class.image(),
         )
