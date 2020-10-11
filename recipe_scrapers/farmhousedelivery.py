@@ -5,6 +5,11 @@ from bs4 import Tag
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
+"""
+    NOTE: This website has at least 2 prominent layouts styles, so there are two logic blocks and 2 test cases to
+    support in ingredients and instructions processing sections.
+"""
+
 
 class FarmhouseDelivery(AbstractScraper):
     @classmethod
@@ -26,7 +31,7 @@ class FarmhouseDelivery(AbstractScraper):
                 ):
                     ingredients = ingredients_marker_sibling.findAll("li")
                     return [
-                        normalize_string(ingredient.get_text(strip=True))
+                        normalize_string(ingredient.get_text())
                         for ingredient in ingredients
                     ]
 
@@ -43,10 +48,10 @@ class FarmhouseDelivery(AbstractScraper):
                     if ingredients_marker_sibling.get_text() == "Instructions":
                         break
                     else:
-                        ingredients.append(ingredients_marker_sibling)
-            return [
-                normalize_string(ingredient.get_text()) for ingredient in ingredients
-            ]
+                        ingredients.append(
+                            normalize_string(ingredients_marker_sibling.get_text())
+                        )
+            return ingredients
 
         return None
 
@@ -78,10 +83,10 @@ class FarmhouseDelivery(AbstractScraper):
                     and instructions_marker_sibling.name == "p"
                     and instructions_marker_sibling.get_text(strip=True) != ""
                 ):
-                    instructions.append(instructions_marker_sibling)
-            return [
-                normalize_string(instruction.get_text()) for instruction in instructions
-            ]
+                    instructions.append(
+                        normalize_string(instructions_marker_sibling.get_text())
+                    )
+            return instructions
 
         return None
 
