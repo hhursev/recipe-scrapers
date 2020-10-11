@@ -204,6 +204,7 @@ SCRAPERS = {
     WatchWhatUEat.host(): WatchWhatUEat,
     WhatsGabyCooking.host(): WhatsGabyCooking,
     WholeFoods.host(): WholeFoods,
+    WholeFoods.host(domain="co.uk"): WholeFoods,
     WikiCookbook.host(): WikiCookbook,
     Yummly.host(): Yummly,
 }
