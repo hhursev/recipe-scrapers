@@ -98,6 +98,7 @@ from .twopeasandtheirpod import TwoPeasAndTheirPod
 from .vegolosi import Vegolosi
 from .watchwhatueat import WatchWhatUEat
 from .whatsgabycooking import WhatsGabyCooking
+from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
 from .yummly import Yummly
 
@@ -202,6 +203,7 @@ SCRAPERS = {
     Vegolosi.host(): Vegolosi,
     WatchWhatUEat.host(): WatchWhatUEat,
     WhatsGabyCooking.host(): WhatsGabyCooking,
+    WholeFoods.host(): WholeFoods,
     WikiCookbook.host(): WikiCookbook,
     Yummly.host(): Yummly,
 }
