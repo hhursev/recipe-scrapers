@@ -10,9 +10,6 @@ class TestHEBScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("www.heb.com", self.harvester_class.host())
 
-    def test_host_domain(self):
-        self.assertEqual("www.heb.co.uk", self.harvester_class.host(domain="co.uk"))
-
     def test_title(self):
         self.assertEqual(
             "Truffled Spaghetti Squash",
