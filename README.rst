@@ -81,6 +81,7 @@ Scrapers available for:
 - `https://eatsmarter.de/ <https://eatsmarter.de/>`_
 - `https://eatwhattonight.com/ <https://eatwhattonight.com/>`_
 - `https://epicurious.com/ <https://epicurious.com>`_
+- `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
 - `https://fifteenspatulas.com/ <https://www.fifteenspatulas.com/>`_
 - `https://finedininglovers.com/ <https://www.finedininglovers.com>`_
 - `https://fitmencook.com/ <https://www.fitmencook.com>`_

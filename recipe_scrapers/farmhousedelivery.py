@@ -3,7 +3,7 @@ import re
 from bs4 import Tag
 
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string, get_yields
+from ._utils import normalize_string
 
 
 class FarmhouseDelivery(AbstractScraper):
@@ -12,24 +12,77 @@ class FarmhouseDelivery(AbstractScraper):
         return f"recipes.farmhousedelivery.{domain}"
 
     def title(self):
-        return self.soup.find("h1", {"class": "entry-title"}).get_text()
+        return self.soup.find("h1", {"class": "entry-title"}).get_text(strip=True)
 
     def ingredients(self):
+        # Style 1
         ingredients_marker = self.soup.find("p", text=re.compile(r"Ingredients:"))
-        ingredients_marker_siblings = ingredients_marker.next_siblings
-        for ingredients_marker_sibling in ingredients_marker_siblings:
-            if isinstance(ingredients_marker_sibling, Tag) and ingredients_marker_sibling.name == 'ul':
-                ingredients = ingredients_marker_sibling.findAll("li")
-                return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        if ingredients_marker is not None:
+            ingredients_marker_siblings = ingredients_marker.next_siblings
+            for ingredients_marker_sibling in ingredients_marker_siblings:
+                if (
+                    isinstance(ingredients_marker_sibling, Tag)
+                    and ingredients_marker_sibling.name == "ul"
+                ):
+                    ingredients = ingredients_marker_sibling.findAll("li")
+                    return [
+                        normalize_string(ingredient.get_text(strip=True))
+                        for ingredient in ingredients
+                    ]
+
+        # Style 2
+        ingredients_marker = self.soup.find("p", text=re.compile(r"Ingredients"))
+        if ingredients_marker is not None:
+            ingredients = []
+            ingredients_marker_siblings = ingredients_marker.next_siblings
+            for ingredients_marker_sibling in ingredients_marker_siblings:
+                if (
+                    isinstance(ingredients_marker_sibling, Tag)
+                    and ingredients_marker_sibling.name == "p"
+                ):
+                    if ingredients_marker_sibling.get_text() == "Instructions":
+                        break
+                    else:
+                        ingredients.append(ingredients_marker_sibling)
+            return [
+                normalize_string(ingredient.get_text()) for ingredient in ingredients
+            ]
+
         return None
 
     def instructions(self):
+        # Style 1
         instructions_marker = self.soup.find("p", text=re.compile(r"Instructions:"))
-        instructions_marker_siblings = instructions_marker.next_siblings
-        for instructions_marker_sibling in instructions_marker_siblings:
-            if isinstance(instructions_marker_sibling, Tag) and instructions_marker_sibling.name == 'p':
-                instructions = instructions_marker_sibling.findAll("span")
-                return [normalize_string(instruction.get_text()) for instruction in instructions]
+        if instructions_marker is not None:
+            instructions_marker_siblings = instructions_marker.next_siblings
+            for instructions_marker_sibling in instructions_marker_siblings:
+                if (
+                    isinstance(instructions_marker_sibling, Tag)
+                    and instructions_marker_sibling.name == "p"
+                    and instructions_marker_sibling.get_text(strip=True) != ""
+                ):
+                    instructions = instructions_marker_sibling.findAll("span")
+                    return [
+                        normalize_string(instruction.get_text())
+                        for instruction in instructions
+                    ]
+
+        # Style 2
+        instructions_marker = self.soup.find("p", text=re.compile(r"Instructions"))
+        if instructions_marker is not None:
+            instructions = []
+            instructions_marker_siblings = instructions_marker.next_siblings
+            for instructions_marker_sibling in instructions_marker_siblings:
+                if (
+                    isinstance(instructions_marker_sibling, Tag)
+                    and instructions_marker_sibling.name == "p"
+                    and instructions_marker_sibling.get_text(strip=True) != ""
+                ):
+                    instructions.append(instructions_marker_sibling)
+            return [
+                normalize_string(instruction.get_text()) for instruction in instructions
+            ]
+
         return None
 
     def image(self):
