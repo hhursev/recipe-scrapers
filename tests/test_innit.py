@@ -10,9 +10,6 @@ class TestInnitScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("innit.com", self.harvester_class.host())
 
-    def test_host_domain(self):
-        self.assertEqual("innit.co.uk", self.harvester_class.host(domain="co.uk"))
-
     def test_title(self):
         self.assertEqual(
             "Tofu Mixed Greens Salad with Broccoli Beet Mix & Carrot Ginger Dressing",
