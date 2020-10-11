@@ -46,6 +46,7 @@ from .hellofresh import HelloFresh
 from .hostthetoast import Hostthetoast
 from .hundredandonecookbooks import HundredAndOneCookbooks
 from .ig import IG
+from .innit import Innit
 from .inspiralized import Inspiralized
 from .jamieoliver import JamieOliver
 from .justbento import JustBento
@@ -150,6 +151,7 @@ SCRAPERS = {
     Hostthetoast.host(): Hostthetoast,
     HundredAndOneCookbooks.host(): HundredAndOneCookbooks,
     IG.host(): IG,
+    Innit.host(): Innit,
     Inspiralized.host(): Inspiralized,
     JamieOliver.host(): JamieOliver,
     JustBento.host(): JustBento,
