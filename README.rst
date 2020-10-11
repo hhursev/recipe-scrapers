@@ -96,6 +96,7 @@ Scrapers available for:
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
 - `https://halfbakedharvest.com/ <https://www.halfbakedharvest.com/>`_
 - `https://www.hassanchef.com/ <https://www.hassanchef.com/>`_
+- `https://www.heb.com/ <https://www.heb.com/recipe/landing>`_
 - `https://heinzbrasil.com.br/ <https://heinzbrasil.com.br>`_
 - `https://hellofresh.com/ <https://hellofresh.com>`_
 - `https://hellofresh.co.uk/ <https://hellofresh.co.uk>`_
