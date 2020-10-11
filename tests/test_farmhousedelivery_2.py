@@ -20,11 +20,6 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("recipes.farmhousedelivery.com", self.harvester_class.host())
 
-    def test_host_domain(self):
-        self.assertEqual(
-            "recipes.farmhousedelivery.co.uk", self.harvester_class.host(domain="co.uk")
-        )
-
     def test_title(self):
         self.assertEqual(
             "One Pan Crispy Rosemary Chicken Thighs + Roasted Radishes",
