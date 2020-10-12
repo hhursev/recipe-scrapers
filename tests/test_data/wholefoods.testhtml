@@ -1,0 +1,638 @@
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Recipe: Grilled Cheese and Greens | Whole Foods Market</title>
+        <script>(function (w, d, s, l, i) {w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', "GTM-MMVR7TC");</script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:url"          content="http://wfm.com/recipes/grilled-cheese-and-greens" />
+        <meta property="og:type"         content="article" />
+        <meta property="og:title"        content="Recipe: Grilled Cheese and Greens" />
+        <meta property="og:description"  content="Sneak soft cooked greens into the middle of a warm grilled cheese sandwich to add a bit of nutrition to this comforting meal. Substitute your favorite greens for kale if you like, and try with oozy Taleggio cheese for a sophisticated twist." />
+        <meta property="og:image"        content="http://assets.wholefoodsmarket.com/recipes/3604/460/290/3604-1.jpg" />
+        <meta property="og:site_name"    content="Whole Foods Market" />
+
+        <meta name="twitter:card"        content="summary_large_image" />
+        <meta name="twitter:site"        content="@WholeFoods" />
+        <meta name="twitter:title"       content="Recipe: Grilled Cheese and Greens" />
+        <meta name="twitter:description" content="Sneak soft cooked greens into the middle of a warm grilled cheese sandwich to add a bit of nutrition to this comforting meal. Substitute your favorite greens for kale if you like, and try with oozy Taleggio cheese for a sophisticated twist." />
+        <meta name="twitter:image"       content="http://assets.wholefoodsmarket.com/recipes/3604/460/290/3604-1.jpg" />
+        <meta name="twitter:image:alt"   content="Recipe Image: Grilled Cheese and Greens | Whole Foods Market" />
+
+        <link rel="shortcut icon" sizes="196x196" href="https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com/sales_flyer/img/favicon_196x196.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com/sales_flyer/img/favicon_180x180.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com/sales_flyer/img/favicon_120x120.png" />
+        <link rel="icon" sizes="32x32" href="https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com/sales_flyer/img/favicon_32x32.png" />
+        <link rel="icon" sizes="16x16" href="https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com/sales_flyer/img/favicon_16x16.png" />
+
+
+
+    <link rel="preload" href="/resources/css/global.css" as="style" />
+    <link rel="preload" href="/resources/js/app.esm.js" as="script" />
+    <link rel="preload" href="/resources/fonts/LLCircularPro/linetoCircularProMedium.woff2" as="font" />
+    <link rel="preload" href="/resources/fonts/LLCircularPro/linetoCircularProBook.woff2" as="font" />
+    <link rel="preload" href="/resources/fonts/LLCircularPro/linetoCircularProBold.woff2" as="font" />
+    <link rel="preload" href="/resources/fonts/Corda/CordaMedium.woff" as="font" />
+
+    <link rel="stylesheet" href="/resources/css/global.css" />
+    <script>
+        // Optional: Value for GoogleApiKey will resolve as an empty string for any context where the server has not supplied a value
+        window["GoogleAPIKey"] = "";
+    </script>
+    <script src="https://cdn.optimizely.com/js/9737255642.js"></script>
+
+
+        <link rel="stylesheet" href="/resources/css/recipes.css" />
+
+        <link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/I/61S54yCMZRL.css?AUIClients/WholeUI" />
+
+        <script>
+(function(f,h,Q,E){function F(a){v&&v.tag&&v.tag(q(":","aui",a))}function w(a,b){v&&v.count&&v.count("aui:"+a,0===b?0:b||(v.count("aui:"+a)||0)+1)}function m(a){try{return a.test(navigator.userAgent)}catch(b){return!1}}function x(a,b,c){a.addEventListener?a.addEventListener(b,c,!1):a.attachEvent&&a.attachEvent("on"+b,c)}function q(a,b,c,e){b=b&&c?b+a+c:b||c;return e?q(a,b,e):b}function G(a,b,c){try{Object.defineProperty(a,b,{value:c,writable:!1})}catch(e){a[b]=c}return c}function va(a,b){var c=a.length,
+e=c,g=function(){e--||(R.push(b),S||(setTimeout(ca,0),S=!0))};for(g();c--;)da[a[c]]?g():(A[a[c]]=A[a[c]]||[]).push(g)}function wa(a,b,c,e,g){var d=h.createElement(a?"script":"link");x(d,"error",e);g&&x(d,"load",g);a?(d.type="text/javascript",d.async=!0,c&&/AUIClients|images[/]I/.test(b)&&d.setAttribute("crossorigin","anonymous"),d.src=b):(d.rel="stylesheet",d.href=b);h.getElementsByTagName("head")[0].appendChild(d)}function ea(a,b){return function(c,e){function g(){wa(b,c,d,function(b){T?w("resource_unload"):
+d?(d=!1,w("resource_retry"),g()):(w("resource_error"),a.log("Asset failed to load: "+c));b&&b.stopPropagation?b.stopPropagation():f.event&&(f.event.cancelBubble=!0)},e)}if(fa[c])return!1;fa[c]=!0;w("resource_count");var d=!0;return!g()}}function xa(a,b,c){for(var e={name:a,guard:function(c){return b.guardFatal(a,c)},logError:function(c,d,e){b.logError(c,d,e,a)}},g=[],d=0;d<c.length;d++)H.hasOwnProperty(c[d])&&(g[d]=U.hasOwnProperty(c[d])?U[c[d]](H[c[d]],e):H[c[d]]);return g}function B(a,b,c,e,g){return function(d,
+h){function n(){var a=null;e?a=h:"function"===typeof h&&(p.start=C(),a=h.apply(f,xa(d,k,l)),p.end=C());if(b){H[d]=a;a=d;for(da[a]=!0;(A[a]||[]).length;)A[a].shift()();delete A[a]}p.done=!0}var k=g||this;"function"===typeof d&&(h=d,d=E);b&&(d=d?d.replace(ha,""):"__NONAME__",V.hasOwnProperty(d)&&k.error(q(", reregistered by ",q(" by ",d+" already registered",V[d]),k.attribution),d),V[d]=k.attribution);for(var l=[],m=0;m<a.length;m++)l[m]=a[m].replace(ha,"");var p=ia[d||"anon"+ ++ya]={depend:l,registered:C(),
+namespace:k.namespace};c?n():va(l,k.guardFatal(d,n));return{decorate:function(a){U[d]=k.guardFatal(d,a)}}}}function ja(a){return function(){var b=Array.prototype.slice.call(arguments);return{execute:B(b,!1,a,!1,this),register:B(b,!0,a,!1,this)}}}function W(a,b){return function(c,e){e||(e=c,c=E);var g=this.attribution;return function(){y.push(b||{attribution:g,name:c,logLevel:a});var d=e.apply(this,arguments);y.pop();return d}}}function I(a,b){this.load={js:ea(this,!0),css:ea(this)};G(this,"namespace",
+b);G(this,"attribution",a)}function ka(){h.body?t.trigger("a-bodyBegin"):setTimeout(ka,20)}function D(a,b){a.className=X(a,b)+" "+b}function X(a,b){return(" "+a.className+" ").split(" "+b+" ").join(" ").replace(/^ | $/g,"")}function la(a){try{return a()}catch(b){return!1}}function J(){if(K){var a={w:f.innerWidth||n.clientWidth,h:f.innerHeight||n.clientHeight};5<Math.abs(a.w-Y.w)||50<a.h-Y.h?(Y=a,L=4,(a=k.mobile||k.tablet?450<a.w&&a.w>a.h:1250<=a.w)?D(n,"a-ws"):n.className=X(n,"a-ws")):0<L&&(L--,ma=
+setTimeout(J,16))}}function za(a){(K=a===E?!K:!!a)&&J()}function Aa(){return K}function u(a,b){return"sw:"+(b||"")+":"+a+":"}function na(){oa.forEach(function(a){F(a)})}function p(a){oa.push(a)}function pa(a,b,c,e){if(c){b=m(/Chrome/i)&&!m(/Edge/i)&&!m(/OPR/i)&&!a.capabilities.isAmazonApp&&!m(new RegExp(Z+"bwv"+Z+"b"));var g=u(e,"browser"),d=u(e,"prod_mshop"),f=u(e,"beta_mshop");!a.capabilities.isAmazonApp&&c.browser&&b&&(p(g+"supported"),c.browser.action(g,e));!b&&c.browser&&p(g+"unsupported");c.prodMshop&&
+p(d+"unsupported");c.betaMshop&&p(f+"unsupported")}}"use strict";var M=Q.now=Q.now||function(){return+new Q},C=function(a){return a&&a.now?a.now.bind(a):M}(f.performance),N=C(),r=f.AmazonUIPageJS||f.P;if(r&&r.when&&r.register){N=[];for(var l=h.currentScript;l;l=l.parentElement)l.id&&N.push(l.id);return r.log("A copy of P has already been loaded on this page.","FATAL",N.join(" "))}var v=f.ue;F();F("aui_build_date:3.20.6-2020-10-03");var R=[],S=!1;var ca=function(){for(var a=setTimeout(ca,0),b=M();R.length;)if(R.shift()(),
+50<M()-b)return;clearTimeout(a);S=!1};var da={},A={},fa={},T=!1;x(f,"beforeunload",function(){T=!0;setTimeout(function(){T=!1},1E4)});var ha=/^prv:/,V={},H={},U={},ia={},ya=0,Z=String.fromCharCode(92),y=[],qa=f.onerror;f.onerror=function(a,b,c,e,g){g&&"object"===typeof g||(g=Error(a,b,c),g.columnNumber=e,g.stack=b||c||e?q(Z,g.message,"at "+q(":",b,c,e)):E);var d=y.pop()||{};g.attribution=q(":",g.attribution||d.attribution,d.name);g.logLevel=d.logLevel;g.attribution&&console&&console.log&&console.log([g.logLevel||
+"ERROR",a,"thrown by",g.attribution].join(" "));y=[];qa&&(d=[].slice.call(arguments),d[4]=g,qa.apply(f,d))};I.prototype={logError:function(a,b,c,e){b={message:b,logLevel:c||"ERROR",attribution:q(":",this.attribution,e)};if(f.ueLogError)return f.ueLogError(a||b,a?b:null),!0;console&&console.error&&(console.log(b),console.error(a));return!1},error:function(a,b,c,e){a=Error(q(":",e,a,c));a.attribution=q(":",this.attribution,b);throw a;},guardError:W(),guardFatal:W("FATAL"),guardCurrent:function(a){var b=
+y[y.length-1];return b?W(b.logLevel,b).call(this,a):a},log:function(a,b,c){return this.logError(null,a,b,c)},declare:B([],!0,!0,!0),register:B([],!0),execute:B([]),AUI_BUILD_DATE:"3.20.6-2020-10-03",when:ja(),now:ja(!0),trigger:function(a,b,c){var e=M();this.declare(a,{data:b,pageElapsedTime:e-(f.aPageStart||NaN),triggerTime:e});c&&c.instrument&&O.when("prv:a-logTrigger").execute(function(b){b(a)})},handleTriggers:function(){this.log("handleTriggers deprecated")},attributeErrors:function(a){return new I(a)},
+_namespace:function(a,b){return new I(a,b)}};var t=G(f,"AmazonUIPageJS",new I);var O=t._namespace("PageJS","AmazonUI");O.declare("prv:p-debug",ia);t.declare("p-recorder-events",[]);t.declare("p-recorder-stop",function(){});G(f,"P",t);ka();if(h.addEventListener){var ra;h.addEventListener("DOMContentLoaded",ra=function(){t.trigger("a-domready");h.removeEventListener("DOMContentLoaded",ra,!1)},!1)}var n=h.documentElement,aa=function(){var a=["O","ms","Moz","Webkit"],b=h.createElement("div");return{testGradients:function(){b.style.cssText=
+"background-image:-webkit-gradient(linear,left top,right bottom,from(#1E4),to(white));background-image:-webkit-linear-gradient(left top,#1E4,white);background-image:linear-gradient(left top,#1E4,white);";return~b.style.backgroundImage.indexOf("gradient")},test:function(c){var e=c.charAt(0).toUpperCase()+c.substr(1);c=(a.join(e+" ")+e+" "+c).split(" ");for(e=c.length;e--;)if(""===b.style[c[e]])return!0;return!1},testTransform3d:function(){var a=!1;f.matchMedia&&(a=f.matchMedia("(-webkit-transform-3d)").matches);
+return a}}}();r=n.className;var sa=/(^| )a-mobile( |$)/.test(r),ta=/(^| )a-tablet( |$)/.test(r),k={audio:function(){return!!h.createElement("audio").canPlayType},video:function(){return!!h.createElement("video").canPlayType},canvas:function(){return!!h.createElement("canvas").getContext},svg:function(){return!!h.createElementNS&&!!h.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect},offline:function(){return navigator.hasOwnProperty&&navigator.hasOwnProperty("onLine")&&navigator.onLine},
+dragDrop:function(){return"draggable"in h.createElement("span")},geolocation:function(){return!!navigator.geolocation},history:function(){return!(!f.history||!f.history.pushState)},webworker:function(){return!!f.Worker},autofocus:function(){return"autofocus"in h.createElement("input")},inputPlaceholder:function(){return"placeholder"in h.createElement("input")},textareaPlaceholder:function(){return"placeholder"in h.createElement("textarea")},localStorage:function(){return"localStorage"in f&&null!==
+f.localStorage},orientation:function(){return"orientation"in f},touch:function(){return"ontouchend"in h},gradients:function(){return aa.testGradients()},hires:function(){var a=f.devicePixelRatio&&1.5<=f.devicePixelRatio||f.matchMedia&&f.matchMedia("(min-resolution:144dpi)").matches;w("hiRes"+(sa?"Mobile":ta?"Tablet":"Desktop"),a?1:0);return a},transform3d:function(){return aa.testTransform3d()},touchScrolling:function(){return m(/Windowshop|android|OS ([5-9]|[1-9][0-9]+)(_[0-9]{1,2})+ like Mac OS X|Chrome|Silk|Firefox|Trident.+?; Touch/i)},
+ios:function(){return m(/OS [1-9][0-9]*(_[0-9]*)+ like Mac OS X/i)&&!m(/trident|Edge/i)},android:function(){return m(/android.([1-9]|[L-Z])/i)&&!m(/trident|Edge/i)},mobile:function(){return sa},tablet:function(){return ta},rtl:function(){return"rtl"===n.dir}};for(l in k)k.hasOwnProperty(l)&&(k[l]=la(k[l]));for(var ba="textShadow textStroke boxShadow borderRadius borderImage opacity transform transition".split(" "),P=0;P<ba.length;P++)k[ba[P]]=la(function(){return aa.test(ba[P])});var K=!0,ma=0,Y=
+{w:0,h:0},L=4;J();x(f,"resize",function(){clearTimeout(ma);L=4;J()});var ua={getItem:function(a){try{return f.localStorage.getItem(a)}catch(b){}},setItem:function(a,b){try{return f.localStorage.setItem(a,b)}catch(c){}}};n.className=X(n,"a-no-js");D(n,"a-js");!m(/OS [1-8](_[0-9]*)+ like Mac OS X/i)||f.navigator.standalone||m(/safari/i)||D(n,"a-ember");r=[];for(l in k)k.hasOwnProperty(l)&&k[l]&&r.push("a-"+l.replace(/([A-Z])/g,function(a){return"-"+a.toLowerCase()}));D(n,r.join(" "));n.setAttribute("data-aui-build-date",
+"3.20.6-2020-10-03");t.register("p-detect",function(){return{capabilities:k,localStorage:k.localStorage&&ua,toggleResponsiveGrid:za,responsiveGridEnabled:Aa}});m(/UCBrowser/i)||k.localStorage&&D(n,ua.getItem("a-font-class"));t.declare("a-event-revised-handling",!1);try{var z=navigator.serviceWorker}catch(a){F("sw:nav_err")}z&&(x(z,"message",function(a){a&&a.data&&w(a.data.k,a.data.v)}),z.controller&&z.controller.postMessage("MSG-RDY"));var oa=[];(function(a){var b=a.reg,c=a.unreg;z&&z.getRegistrations?
+(O.when("A","a-util").execute(function(a,b){pa(a,b,c,"unregister")}),x(f,"load",function(){O.when("A","a-util").execute(function(a,c){pa(a,c,b,"register");na()})})):(b&&(b.browser&&p(u("register","browser")+"unsupported"),b.prodMshop&&p(u("register","prod_mshop")+"unsupported"),b.betaMshop&&p(u("register","beta_mshop")+"unsupported")),c&&(c.browser&&p(u("unregister","browser")+"unsupported"),c.prodMshop&&p(u("unregister","prod_mshop")+"unsupported"),c.betaMshop&&p(u("unregister","beta_mshop")+"unsupported")),
+na())})({reg:{},unreg:{}});t.declare("a-fix-event-off",!1);w("pagejs:pkgExecTime",C()-N)})(window,document,Date);
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/518lAPZcRsL.js?AUIClients/WholeUI');
+</script>
+
+        <svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' style='display: none;'><symbol id='arrow-dark-bg' viewBox='0 0 17 14'><g fill='none' fill-rule='evenodd' stroke='#ffffff' stroke-width='2'><path stroke-linecap='square' d='M1.41 7h12.599'/><path d='M9.217 1l5.912 6-5.912 6'/></g></symbol><symbol id='arrow' viewBox='0 0 17 14'><g fill='none' fill-rule='evenodd' stroke='#004E36' stroke-width='2'><path stroke-linecap='square' d='M1.41 7h12.599'/><path d='M9.217 1l5.912 6-5.912 6'/></g></symbol><symbol id='chat-icon' viewBox='0 0 20 20'><defs><path d="M16.14,0.783384615 C16.7971945,0.783384615 17.325,1.3207432 17.325,1.97761538 L17.325,1.97761538 L17.325,13.4941538 C17.325,14.151026 16.7971945,14.6883846 16.14,14.6883846 L16.14,14.6883846 L9.72352152,14.6883846 L8.04957112,16.73163 C7.82281987,17.0090769 7.48356614,17.1693899 7.12560264,17.1666014 C6.7674592,17.1637382 6.43059654,16.9979271 6.20735189,16.7156356 L6.20735189,16.7156356 L4.61076271,14.6883846 L1.86,14.6883846 C1.20280555,14.6883846 0.675,14.151026 0.675,13.4941538 L0.675,13.4941538 L0.675,1.97761538 C0.675,1.3207432 1.20280555,0.783384615 1.86,0.783384615 L1.86,0.783384615 Z M15.975,2.13338462 L2.025,2.13338462 L2.025,13.3383846 L5.26595729,13.3383846 L5.46864811,13.595749 L7.13747567,15.7147259 L9.08431848,13.3383846 L15.975,13.3383846 L15.975,2.13338462 Z M11.205,7.23846154 L11.205,8.58846154 L2.715,8.58846154 L2.715,7.23846154 L11.205,7.23846154 Z M15.285,4.38269231 L15.285,5.73269231 L2.715,5.73269231 L2.715,4.38269231 L15.285,4.38269231 Z" id="chat-icon-path-1"></path></defs><g id="chat-icon-path-1-Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="chat-icon-path-1-icon/chat" transform="translate(-1.000000, -1.000000)"><g id="chat-icon-path-1-chat" transform="translate(1.000000, 1.000000)"><mask id="chat-icon-path-1-mask-2" fill="white"><use xlink:href="#chat-icon-path-1"></use></mask><use id="chat-icon-path-1-Mask" fill="#004E36" fill-rule="nonzero" xlink:href="#chat-icon-path-1"></use><g id="chat-icon-path-1-color/chard" mask="url(#chat-icon-path-1-mask-2)" fill="#004E36"><g transform="translate(-1.000000, -1.000000)" id="chat-icon-path-1-Rectangle"><rect x="0" y="0" width="20" height="20"></rect></g></g></g></g></g></symbol><symbol id='collapsed' viewBox='0 0 20 20'><g fill-rule='evenodd' fill='#004E36' transform='rotate(90 8.55 5.182) translate(6 1)'><path d='M4 12l1.462 1.365L13.1 5.182 5.462-3 4-1.635l6.363 6.817z'/></g></symbol><symbol id='Dairy-Free' viewBox='0 0 110 110'><defs><style>.dairy-1{fill:#004e36;}.dairy-2{fill:#fff;}</style></defs><title>product-info_badges_FINAL</title><path class='dairy-1' d='M105,55.08A50,50,0,1,1,55.08,5,50,50,0,0,1,105,55.08Z'/><path class='dairy-2' d='M56.17,70.21c0,1.81.11,3.79.21,4.89h-7A18.78,18.78,0,0,1,49.13,72c-1.21,2.14-4,3.78-7.59,3.78-7.7,0-13.19-6.07-13.18-14.27,0-7.91,5.36-14.12,13-14.11,4.67,0,6.87,1.94,7.64,3.37l0-15.45h7.21Zm-13.75-1c3.74,0,6.66-2.85,6.67-7.75s-2.9-7.54-6.64-7.54-6.71,2.74-6.72,7.58S38.58,69.19,42.42,69.2Z'/><path class='dairy-2' d='M72.88,45.1v3H79v6.27H72.86l0,20.79H65.46l0-20.79H61V48.05H65.5V45c0-6.1,3.86-10.06,9.86-10a10.48,10.48,0,0,1,3.63.56v6.16a8.15,8.15,0,0,0-2.31-.28C75,41.36,72.88,42.08,72.88,45.1Z'/></symbol><symbol id='Gluten-Free' viewBox='0 0 110 110'><defs><style>.gluten-1{fill:#004e36;}.gluten-2{fill:#fff;}</style></defs><title>product-info_badges_FINAL</title><path class='gluten-1' d='M105,55.08A50,50,0,1,1,55.08,5,50,50,0,0,1,105,55.08Z'/><path class='gluten-2' d='M36.48,69.79a6.06,6.06,0,0,0,6.32,5.13c4.62,0,7.21-2.3,7.21-7.53v-2c-1.11,1.76-3.64,3.46-7.54,3.46-7.21,0-12.59-5.58-12.58-13.17,0-7.14,5.19-13.19,12.62-13.18,4.29,0,6.76,1.89,7.69,3.7V43h7l0,24.15c0,7.42-4,14.18-14.21,14.16-7.43,0-12.37-4.64-13.13-9.81ZM50.14,55.74c0-4.18-2.85-6.83-6.37-6.83s-6.49,2.63-6.5,6.81S40,62.59,43.75,62.6,50.14,59.92,50.14,55.74Z'/><path class='gluten-2' d='M73.43,40.1v3h6.1v6.27h-6.1l0,20.78H66l0-20.78H61.54V43.05h4.51V40c0-6.11,3.87-10.06,9.86-10a10.48,10.48,0,0,1,3.63.56v6.15a8.21,8.21,0,0,0-2.31-.27C75.58,36.36,73.43,37.07,73.43,40.1Z'/></symbol><symbol id='High-Fiber' viewBox='0 0 110 110'><style type='text/css'>.highfiber0{fill:#004E36;}.highfiber1{fill:#FFFFFF;}.highfiber2{fill:#F8F7F5;}.highfiber3{fill:#309D7E;}.highfiber4{clip-path:url(#SVGID_2_);fill:#007046;}.highfiber5{fill:#733907;}.highfiber6{fill:#007046;}.highfiber7{fill:#808184;}.highfiber8{clip-path:url(#SVGID_4_);fill:#231F20;}.highfiber9{fill:#231F20;}</style><g id='Layer_1'><g> <path class= 'highfiber0' d='M105,55.1c0,27.6-22.5,50-50.1,49.9S5,82.5,5,54.9C5,27.3,27.5,5,55.1,5C82.7,5,105,27.5,105,55.1z'/></g><g> <path class='highfiber1' d='M39,76.1l-7.3,0l0.1-39.8l7.3,0l0,15c1.8-2.1,4.7-3,7.3-3c6.9,0,10.1,4.8,10,10.7l0,17l-7.3,0l0-15.8 c0-3-1.5-5.4-5-5.4c-3.1,0-4.9,2.3-5.1,5.3L39,76.1z'/> <path class='highfiber1' d='M72.6,46.1l0,3l6.1,0l0,6.3l-6.1,0l0,20.8l-7.4,0l0-20.8l-4.5,0l0-6.3l4.5,0l0-3.1c0-6.1,3.9-10.1,9.9-10 c1.5,0,3,0.3,3.6,0.6l0,6.2c-0.4-0.1-1.1-0.3-2.3-0.3C74.8,42.3,72.6,43.1,72.6,46.1z'/></g></g><g id='Layer_2'></g></symbol><symbol id='Low-Fat' viewBox='0 0 110 110'><defs><style>.lowfat-1{fill:#004e36;}.lowfat-2{fill:#fff;}</style></defs><title>product-info_badges_FINAL</title><path class='lowfat-1' d='M105,55.08A50,50,0,1,1,55.08,5,50,50,0,0,1,105,55.08Z'/><path class='lowfat-2' d='M65.2,45.93v3h6.1v6.27h-6.1l0,20.79H57.78l0-20.79H53.31V48.88h4.51V45.81c0-6.1,3.87-10.06,9.86-10.05a10.48,10.48,0,0,1,3.63.56v6.16A8.09,8.09,0,0,0,69,42.2C67.35,42.2,65.2,42.91,65.2,45.93Z'/><path class='lowfat-2' d='M46,68.53a2.34,2.34,0,0,1-1.3-2.13V34.67H37.12V68.06c0,2.77.84,4.8,2.49,6a9,9,0,0,0,5.66,1.74h3.49v-7.3Z'/></symbol><symbol id='Low-Sodium' viewBox='0 0 110 110'><defs><style>.sodium-1{fill:#004e36;}.sodium-2{fill:#fff;}</style></defs><title>product-info_badges_FINAL</title><path class='sodium-1' d='M105,55.08A50,50,0,1,1,55.08,5,50,50,0,0,1,105,55.08Z'/><path class='sodium-2' d='M58.87,65.19c.16,2.14,1.75,4.13,4.94,4.13,2.42,0,3.58-1.26,3.58-2.69,0-1.21-.82-2.2-2.91-2.64l-3.57-.83c-5.22-1.17-7.58-4.3-7.58-8.1,0-4.84,4.31-8.85,10.13-8.84,7.7,0,10.28,4.91,10.61,7.83L68,55.41a4.12,4.12,0,0,0-4.45-3.63c-1.92,0-3.47,1.15-3.47,2.69,0,1.32,1,2.14,2.47,2.42l3.85.83c5.33,1.11,8,4.36,8,8.32,0,4.4-3.43,8.9-10.52,8.89-8.14,0-10.94-5.3-11.26-8.38Z'/><path class='sodium-2' d='M45.74,67.81a2.34,2.34,0,0,1-1.3-2.13V34H36.82V67.34c0,2.77.84,4.8,2.49,6A9,9,0,0,0,45,75.11h3.49v-7.3Z'/></symbol><symbol id='Paleo' viewBox='0 0 110 110'><defs><style>.paleo-1{fill:#004e36;}.paleo-2{fill:#fff;}</style></defs><title>product-info_badges_FINAL</title><path class='paleo-1' d='M105,55.08A50,50,0,1,1,55.08,5,50,50,0,0,1,105,55.08Z'/><path class='paleo-2' d='M30.38,80.51,30.44,43l7.1,0v3.3c1.21-2.09,4.24-3.9,8.31-3.9,7.92,0,12.47,6.07,12.46,14.1,0,8.2-5.14,14.24-12.78,14.22-3.74,0-6.48-1.49-7.8-3.31l0,13.09ZM44.4,49c-3.74,0-6.77,2.79-6.78,7.57s3,7.65,6.76,7.66,6.71-2.8,6.72-7.63S48.14,49,44.4,49Z'/><path class='paleo-2' d='M72.85,40.1v3H79v6.27h-6.1l0,20.79H65.43l0-20.79H61V43.05h4.51V40c0-6.1,3.87-10.06,9.86-10a10.48,10.48,0,0,1,3.63.56v6.16a8.09,8.09,0,0,0-2.31-.28C75,36.36,72.85,37.08,72.85,40.1Z'/></symbol><symbol id='Sugar-Conscious' viewBox='0 0 110 110'><defs><style>.sugar-1{fill:#004e36;}.sugar-2{fill:#fff;}</style></defs><title>product-info_badges_FINAL</title><path class='sugar-1' d='M105,55.08A50,50,0,1,1,55.08,5,50,50,0,0,1,105,55.08Z'/><path class='sugar-2' d='M36.24,61.16c.16,2.14,1.75,4.12,4.94,4.13,2.42,0,3.58-1.26,3.58-2.69,0-1.21-.82-2.2-2.91-2.65l-3.57-.83C33.05,58,30.69,54.82,30.7,51c0-4.84,4.3-8.85,10.13-8.84,7.7,0,10.28,4.91,10.6,7.83l-6.1,1.36a4.13,4.13,0,0,0-4.45-3.64c-1.93,0-3.47,1.15-3.47,2.69,0,1.32,1,2.15,2.47,2.43l3.85.83c5.33,1.11,8,4.35,8,8.31,0,4.4-3.43,8.91-10.52,8.9-8.14,0-10.94-5.3-11.26-8.38Z'/><path class='sugar-2' d='M62.81,56.58c0,4.89,3.18,7.65,6.92,7.65A6.18,6.18,0,0,0,76,59.68l6.43,2.15c-1.22,4.51-5.46,9.12-12.66,9.11A14,14,0,0,1,55.5,56.57c0-8.36,6.18-14.35,14-14.34,7.37,0,11.54,4.59,12.69,9.15l-6.55,2.19a5.88,5.88,0,0,0-6-4.57C66,49,62.82,51.68,62.81,56.58Z'/></symbol><symbol id='Vegan' viewBox='0 0 110 110'><defs><style>.vegan-1{fill:#004e36;}.vegan-2{fill:#fff;}</style></defs><title>Asset 1</title><g id='Layer_2' data-name='Layer 2'><g id='Layer_1-2' data-name='Layer 1'><path class='vegan-1' d='M100,50.08A50,50,0,1,1,50.08,0,50,50,0,0,1,100,50.08Z'/><path class='vegan-2' d='M53.89,63.54H46.58l-11-27.07h8l6.68,18.16,6.47-18.14h7.7Z'/></g></g></symbol><symbol id='Vegetarian' viewBox='0 0 110 110'><defs><style>.veg-1{fill:#004e36;}.veg-2{fill:#fff;}</style></defs><title>product-info_badges_FINAL</title><path class='veg-1' d='M105,55.08A50,50,0,1,1,55.08,5,50,50,0,0,1,105,55.08Z'/><path class='veg-2' d='M42.37,68.08l-7.31,0L24,41h8l6.68,18.16L45.22,41l7.7,0Z'/><path class='veg-2' d='M61.18,67.83A6,6,0,0,0,67.5,73c4.62,0,7.2-2.29,7.21-7.52v-2c-1.11,1.76-3.64,3.46-7.54,3.45-7.21,0-12.59-5.57-12.58-13.16,0-7.15,5.19-13.19,12.62-13.18,4.29,0,6.76,1.88,7.69,3.7V41.07h7l0,24.14c0,7.43-4,14.18-14.21,14.17-7.43,0-12.37-4.64-13.13-9.81ZM74.84,53.77c0-4.18-2.85-6.82-6.37-6.83S62,49.57,62,53.75s2.69,6.88,6.48,6.89S74.83,58,74.84,53.77Z'/></symbol><symbol id='Wheat-Free' viewBox='0 0 110 110'><style type='text/css'>.st0{fill:#004E36;}.st1{fill:#FFFFFF;}.st2{fill:#F8F7F5;}.st3{fill:#309D7E;}.st4{clip-path:url(#SVGID_2_);fill:#007046;}.st5{fill:#733907;}.st6{fill:#007046;}.st7{fill:#808184;}.st8{clip-path:url(#SVGID_4_);fill:#231F20;}.st9{fill:#231F20;}</style><g id='Layer_1'><g> <path class='st0' d='M105,55.1c0,27.6-22.5,50-50.1,49.9S5,82.5,5,54.9C5,27.3,27.5,5,55.1,5C82.7,5,105,27.5,105,55.1z'/></g><g> <path class='st1' d='M46.9,49l5.8,17.4l5-17.4l7.3,0l-8.5,27l-7.3,0l-6.3-18.5l-6.2,18.5l-7.4,0L20.6,49l7.7,0l5,17.4L39.2,49 L46.9,49z'/> <path class='st1' d='M79.3,46.1l0,3l6.1,0l0,6.3l-6.1,0l0,20.8l-7.4,0l0-20.8l-4.5,0l0-6.3l4.5,0l0-3.1c0-6.1,3.9-10.1,9.9-10 c1.5,0,3,0.3,3.6,0.6l0,6.2c-0.4-0.1-1.1-0.3-2.3-0.3C81.5,42.4,79.3,43.1,79.3,46.1z'/></g></g><g id='Layer_2'></g></symbol><symbol id='email-icon' viewBox='0 0 20 20'><g class='w-icon-fill' fill='#004e36' fill-rule='evenodd'><path d='M3.951 2.4l4.533 4.206a1.1 1.1 0 0 0 1.499-.002L14.488 2.4H3.951zm11.885 1.204L11.21 7.92a2.9 2.9 0 0 1-3.951.006L2.636 3.635V11.6h13.2V3.604zM2.236.6h14a1.4 1.4 0 0 1 1.4 1.4v10a1.4 1.4 0 0 1-1.4 1.4h-14a1.4 1.4 0 0 1-1.4-1.4V2a1.4 1.4 0 0 1 1.4-1.4z'/></g></symbol><symbol id='expanded' viewBox='0 0 20 20'><g fill-rule='evenodd' fill='#004E36' transform='rotate(-90 8.55 5.182) translate(-6 1)'><path d='M4 12l1.462 1.365L13.1 5.182 5.462-3 4-1.635l6.363 6.817z'/></g></symbol><symbol id='launchIconDarkBg' viewBox='0 0 16 16'><g fill='#FFF' fill-rule='evenodd' stroke='#FFF' stroke-width='.5'><path d='M14.3 1H11a.5.5 0 1 1 0-1h4a1 1 0 0 1 1 1v4a.5.5 0 1 1-1 0V1.7l-4.95 4.95a.495.495 0 0 1-.7-.7L14.3 1z'/><path d='M13 9h1v6c0 .6-.4 1-1 1H1c-.6 0-1-.4-1-1V3c0-.6.4-1 1-1h7v1H1v12h12V9z'/></g></symbol><symbol id='localSale' viewBox='0 0 740 259'><defs>
+    <path id="a" d="M0 1.01h219.999v225.865H0z"/>
+    <path id="c" d="M1.72.502h184.246V240.18H1.72z"/>
+</defs>
+<g fill="none" fill-rule="evenodd">
+    <g transform="translate(0 31.622)">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <path fill="#DB5028" d="M155.279 79.387c-1.1 0-2.19.032-3.26.075-10.482.47-19.453 1.431-28.945 2.467-7.418.805-15.085 1.63-24.104 2.289-15.931 1.381-29.582 2.219-36.455 2.532h-.252c-4.68 0-13.812-2.458-15.538-4.478.194-5.394 9.192-18.561 28.896-35.376C92.281 32.675 110.19 21.715 117.27 21.4l.132-.01c4.076 0 10.939 8.732 11.241 15.99.211 5.114 3.712 10.29 9.998 10.29.172 0 .333 0 .505-.01 1.583-.074 2.985-.607 4.107-1.036.362-.137.887-.346 1.12-.398 4.972-.229 9.937-1.004 14.74-1.767 1.25-.198 2.492-.387 3.703-.576l.14-.01.141-.032a20.54 20.54 0 0 1 1.131-.219c2.956-.554 9.888-1.839 9.494-11.241-.716-17.38-19.019-31.371-33.679-31.371-.362 0-.726 0-1.1.02-2.894.126-6.435.837-10.18 1.59-3.934.795-7.99 1.61-11.34 1.757l-10.805.492-2.736.114c-2.683.116-5.135 1.474-7.98 3.044-1.18.658-2.4 1.339-3.693 1.943-1.937.755-4.056 1.402-6.094 2.03-2.25.69-4.368 1.35-6.143 2.102C52.79 26.306 27.697 46.227 9.243 70.248 2.806 78.143-.21 84.638.011 90.107c.637 15.413 24.993 19.491 37.786 19.491.705 0 1.373-.02 1.987-.042 14.893-.805 29.887-2.08 44.384-3.315 16.476-1.401 33.507-2.855 50.337-3.606.422-.022.856-.022 1.29-.022 21.088 0 37.573 17.423 38.22 33.013.465 11.264-6.186 28.079-16.95 42.844-11.05 15.162-24.063 24.846-33.962 25.296l-8.646.375c-.222.022-.445.022-.666.022-14.57 0-43.739-18.656-44.394-34.551-.09-2.018-.081-3.492-.071-5.062.011-1.514.021-3.096-.07-5.104-.132-3.23-1.594-7.079-7.82-7.079-.504 0-1.06.022-1.684.052-2.512.107-4.45 1.036-5.861 1.717-.748.355-1.453.7-1.839.709-1.522.076-2.915.138-4.891.556-2.069.345-3.29 1.16-4.097 1.714-.597.4-.849.567-2.15.629-6.507.28-10.633 1.526-12.379 6.955-1.544 4.39-1.735 7.151-1.563 11.293l.16 3.89c.092 2.362 2.008 6.619 5.67 12.662 11.876 21.208 43.587 34.33 66.187 34.33.868 0 1.717-.02 2.542-.051 24.76-1.109 54.16-11.242 76.72-26.457 27.978-18.864 42.78-43.753 41.692-70.084-1.374-33.054-34.336-50.895-64.664-50.895" mask="url(#b)"/>
+    </g>
+    <path fill="#DB5028" d="M313.738 129.564c-2.856 1.203-9.777 2.594-20.633 4.12.211-.847.434-1.787.667-2.78 4.288-17.861 7.647-30.494 10.047-37.762 3.522 11.127 8.679 30.086 9.919 36.422m36.515-33.137c-.153-.609-15.993-62.504-20.786-69.667-2.007-2.856-4.73-3.231-6.356-3.452-.383-.052-.767-.104-.987-.166l-1.413-.418-1.363.564c-9.142 3.785-21.249 4.307-31.944 4.769l-2.24.094-1.471.062-1.132.994-2.5 2.206-1.173 1.034-.28 1.56c-2.585 14.545-7.286 29.143-11.836 43.262-3.168 9.807-6.447 19.963-9.01 30.074-1.988 7.643-3.834 15.518-5.61 23.131-2.654 11.326-5.387 23.039-8.698 34.194-.966 3.514-3.812 11.912-6.809 20.82-9.122 26.993-12.905 38.882-12.754 42.605.153 3.556 2.543 11.482 8.707 11.838l1.151.062 1.04-.544c3.146-1.653 6.387-3.074 9.806-4.57 3.038-1.34 6.176-2.718 9.324-4.307.846-.377 1.855-.524 3.025-.702 1.585-.24 3.38-.512 5.237-1.444 2.442-1.076 2.836-1.63 12.783-33.242 4.631-14.723 11.532-36.652 13.953-41.107 4.239-1.747 24.307-6.61 28.342-6.788l1.614-.072c1.736 4.664 3.452 9.41 5.248 14.41 9.777 27.094 20.853 57.796 38.34 80.562.877 1.17 3.752 4.026 7.163 4.026.849 0 1.655-.177 2.4-.522l23.761-10.573c1.998-.124 4.601-1.14 6.57-4.905l1.179-2.259-1.29-2.196c-23.197-39.141-39.714-80.238-51.991-129.333M538.655 218.8c-.16 0-.323 0-.494.012-17.969.803-36.28 4.925-53.988 8.908-3.35.753-6.67 1.494-9.949 2.207-.22-1.139-.422-2.793-.513-4.915l-1.635-101.938c-.132-6.45.242-13.113.604-19.543.415-7.457.849-15.163.537-22.829-.062-1.453-.122-2.959-.182-4.487-.355-9.505-.768-20.286-2.433-29.54-.675-3.712-4.096-6.505-7.98-6.505-.505 0-1 .042-1.483.136-.374.073-1.02.167-1.866.304-4.914.753-15.135 2.33-22.056 4.455-2.764.845-9.213 2.833-9 8.03.707 10.666 1.563 23.81 2.078 36.108.605 14.61.283 29.594-.03 44.088-.322 14.745-.655 29.992-.02 45.113.302 7.384.322 14.943.343 22.264.021 7.392.05 15.048.362 22.599.112 2.8.386 5.593.637 8.29.262 2.698.504 5.25.605 7.812.03.68-.16 1.725-.343 2.74-.271 1.444-.566 3.076-.496 4.79.254 6.159 5.176 10.823 11.443 10.823.172 0 .352-.01.534-.01 10.726-.48 38.513-8.45 58.793-14.265 5.79-1.663 10.795-3.096 14.406-4.066 6.044-1.652 11.3-3.61 16.869-5.668 2.987-1.108 6.075-2.249 9.294-3.347l.554-.188.473-.324c2.05-1.401 2.968-3.933 2.282-6.286-.839-2.895-3.714-4.768-7.346-4.768"/>
+    <g transform="translate(550.149 1.506)">
+        <mask id="d" fill="#fff">
+            <use xlink:href="#c"/>
+        </mask>
+        <path fill="#DB5028" d="M185.278 188.658c-1.323-2.77-5.085-5.855-8.363-5.855h-.243l-.313.01-.304.062c-.928.18-1.867.45-2.784.713-1.129.311-2.411.677-3.178.709-9.665.43-24.639 6.286-41.972 13.062-18.049 7.068-38.513 15.069-51.567 15.645-.283.02-.566.02-.847.02-8.486 0-21.48-8.742-22.48-32.825l-2.25-54.231c5.347-1.926 11.684-3.315 17.807-4.674 3.622-.795 7.355-1.62 10.827-2.552l6.245-1.518c21.622-5.248 43.98-10.675 65.481-18.53 2.956-1.023 4.742-4.4 4.177-8.008-.494-3.2-2.867-5.44-5.74-5.44H149.429l-.09.013c-15.397 1.347-29.835 3.304-42.932 5.844-5.406 1.056-12.095 2.656-19.18 4.339-12.934 3.096-27.484 6.567-37.187 7.362-.043-.198-.093-.387-.134-.554-1.958-9.432-2.572-23.768-3.169-37.635-.3-7.236-.592-14.107-1.077-19.983l.415-.46c30.457-9.643 62.118-16.755 92.752-23.633 8.343-1.884 16.98-3.83 25.454-5.785 3.45-.658 5.812-4.162 5.51-8.24-.274-3.543-2.594-6.013-5.651-6.013h-.231c-36.525 1.633-70.194 9.39-105.85 17.6-5.671 1.307-11.36 2.624-17.102 3.911l-5.105-1.505-1.292-.376-1.27.448c-4.247 1.496-8.475 1.684-12.56 1.873h-.082l-.091.01c-6.741.554-16.911 1.402-18.705 16.532l-.132 1.098.382 1.036c1.879 5.74 5.832 69.384 6.8 92.568.224 5.553.173 11.189.113 16.658-.052 5.573-.112 11.346.13 17.15.899 21.75 3.018 72.677 39.896 72.677.585 0 1.189-.01 1.795-.032 35.878-1.599 97.545-23.935 132.627-43.783l.806-.462.544-.751c1.352-1.831 1.525-4.257.465-6.495" mask="url(#d)"/>
+    </g>
+</g></symbol><symbol id='minus' viewBox='0 0 20 20'><g fill-rule='evenodd' fill='#004E36'><path d='M0 0h14v2H0z'/></g></symbol><symbol id='myStoreIcon' viewBox='0 0 21 25'><defs>
+  <path id='a' d='M0 .027h12.925v5.988H0z'/>
+  <path id='c' d='M.035.165h6.047V3.9H.035z'/>
+</defs>
+<g fill='none' fill-rule='evenodd'>
+  <path fill='#004E36' d='M17.987 15.46c1.09-1.799 2.513-3.669 2.513-5.955C20.5 4.532 16.023.5 10.5.5S.5 4.532.5 9.505c0 2.286 1.504 4.342 2.513 5.955l7.112 8.846c.209.26.62.259.828-.002l7.034-8.844z'/>
+  <g transform='translate(4 9.132)'>
+    <mask id='b' fill='#fff'><use xlink:href='#a'/></mask>
+    <path fill='#FFF' d='M12.91.857l-.13-.61c-.038-.16-.143-.22-.33-.22H6.913c-.246 0-.352.07-.352.245
+      0 .14.094.228.298.246.225.027.323.097.323.229a.76.76
+      0 0 1-.036.21S6.26 3.782 6.12 4.212c-.023.071-.102.088-.13.008L4.954 1.107c-.077-.211-.095-.29-.095-.37
+      0-.156.065-.21.312-.237.206-.027.3-.097.3-.235 0-.159-.102-.238-.313-.238H3.341c-.216 0-.323.097-.323.265
+      0 .13.073.19.263.235.215.054.29.1.344.228.02.037.041.107.077.202 0 0 .313.875.333.938a.773.773
+      0 0 1-.012.497c-.018.056-.507 1.401-.686 1.89-.03.08-.113.083-.14.012-.162-.442-1.184-3.187-1.184-3.187l-.073-.2A.578.578
+      0 0 1 1.907.71c0-.14.083-.201.287-.22.24-.018.333-.078.333-.226 0-.159-.093-.238-.304-.238H.31C.1.027 0 .106
+      0 .255c0 .142.061.203.259.237.296.061.34.105.478.465l1.818 4.62c.127.332.258.438.528.438.12
+      0 .241-.044.314-.096.075-.071.099-.132.187-.342 0 0 .82-2.17.842-2.238.021-.07.1-.067.126.004l.787 2.234c.112.324.252.438.528.438.277
+      0 .403-.123.536-.553L7.878.957c.1-.309.196-.408.358-.43L8.25.53h.128c.126.025.244.129.244.455V4.93c0 .237-.01.279-.029.341-.03.07-.093.115-.156.115h-.189a.247.247
+      0 0 0-.238.246c0 .193.11.255.427.255h1.704c.34
+      0 .454-.062.454-.255 0-.133-.1-.246-.245-.246h-.21a.237.237 0
+      0 1-.197-.115c-.022-.062-.022-.104-.022-.341L9.92 3.499c0-.197.029-.282.085-.318.042-.028.11-.034.376-.034h.763c.389
+      0 .444.026.472.202l.01.058c.028.15.111.228.25.228.194
+      0 .26-.105.26-.412v-.738c0-.307-.066-.413-.26-.413-.139 0-.222.07-.25.22l-.007.054c-.028.176-.083.202-.472.202h-.766c-.266
+      0-.334-.006-.376-.034-.056-.035-.085-.12-.085-.317V1.154c0-.466.056-.53.561-.53h1.19c.43
+      0 .617.029.707.254.044.107.081.172.092.189.062.115.148.137.238.137.168 0 .252-.122.202-.347' mask='url(#b)'/>
+  </g>
+  <g transform='translate(7.714 4.5)'>
+    <mask id='d' fill='#fff'><use xlink:href='#c'/></mask>
+    <path fill='#FFF' d='M5.938 1.109c-.14-.094-.347-.071-.466.196-.076.17-.134.426-.295.608-.173.196-.51.221-.68.095-.17-.127-.3-.4-.53-.77l.003-.003C3.732.854
+      3.483.443 2.868.243 1.564-.182.384 1.212.058 2.593c-.094.397.116.624.443.464 1.084-.531 1.361.187
+      2.274.624.599.287 1.18.319 1.642-.064l.02-.014a.75.75 0 0 0 .038-.031l.009-.008a.599.599
+      0 0 0 .091-.1l.002-.002c.068-.097.088-.193.067-.267-.025-.09-.11-.147-.236-.129-.163.024-.38.01-.589-.087a2.397 2.397
+      0 0 1-.697-.607c-.48-.613-1.103-.59-1.472-.499-.158.04-.247-.103-.074-.254.397-.344 1.21-.368
+      1.712.15.34.352.773.645 1.149.704.555.147 1.15-.233 1.514-.71.205-.271.144-.55-.013-.654' mask='url(#d)'/>
+  </g>
+</g></symbol><symbol id='phoneIcon' viewBox='0 0 22 22'><path fill='none' fill-rule='evenodd' stroke='#004E36' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.35' d='M8.68 7.532a1.578 1.578 0 0 0 0-2.23L7.007 3.629a1.577 1.577 0 0 0-2.23 0l-.918.918a2.362 2.362 0 0 0-.298 2.976 36.678 36.678 0 0 0 10.25 10.25c.937.62 2.183.497 2.976-.297l.918-.918a1.578 1.578 0 0 0 0-2.23l-1.672-1.673a1.578 1.578 0 0 0-2.231 0l-.557.558a37.424 37.424 0 0 1-5.123-5.124l.558-.557z'/></symbol><symbol id='plus' viewBox='0 0 20 20'><g fill-rule='evenodd' fill='#004E36'><path d='M.665 5.5h4.822V.705h2.02V5.5h4.788v2.003H7.508v4.832H5.487V7.503H.665z'/></g></symbol><symbol id='launchIcon' viewBox='0 0 16 16'><g fill='#004E36' fill-rule='evenodd' stroke='#004E36' stroke-width='.5'><path d='M14.3 1H11a.5.5 0 1 1 0-1h4a1 1 0 0 1 1 1v4a.5.5 0 1 1-1 0V1.7l-4.95 4.95a.495.495 0 0 1-.7-.7L14.3 1z'/><path d='M13 9h1v6c0 .6-.4 1-1 1H1c-.6 0-1-.4-1-1V3c0-.6.4-1 1-1h7v1H1v12h12V9z'/></g></symbol><symbol id='link' viewBox='0 0 20 20'><g fill-rule='evenodd' fill='#004E36'><path d='M9.485 6.445c-.261.26-.673.27-.921.023-.248-.248-.238-.66.023-.922l3.497-3.497C13.697.436 16.247.373 17.78 1.906c1.534 1.534 1.47 4.085-.142 5.698l-3.498 3.497c-1.612 1.613-4.163 1.677-5.697.143-.248-.248-.238-.66.023-.921.26-.26.673-.271.921-.023 1.038 1.038 2.764.994 3.855-.097l3.498-3.497c1.09-1.091 1.134-2.817.096-3.855-1.038-1.038-2.764-.995-3.855.096L9.485 6.445zm1.046 6.929c.26-.261.673-.272.92-.024.249.248.238.66-.022.922L7.93 17.769c-1.612 1.613-4.163 1.676-5.697.143-1.534-1.534-1.47-4.085.143-5.698l3.497-3.497c1.613-1.613 4.164-1.677 5.697-.143.248.248.238.66-.023.921-.26.26-.673.271-.92.023-1.039-1.038-2.765-.994-3.856.097l-3.497 3.497c-1.092 1.091-1.135 2.817-.097 3.855 1.038 1.038 2.764.995 3.855-.096l3.498-3.497z'/></g></symbol></svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <script type="module" src="/resources/js/app.esm.js"></script>
+          <script nomodule src="/resources/js/app.js"></script>
+
+
+
+
+
+        <script defer src="/resources/js/header.js"></script>
+        <script defer src="/resources/js/header-vendor.js"></script>
+
+        <script src="/resources/js/header-text-size.js"></script>
+        <script src="/resources/js/desktop-ingredients.js"></script>
+        <script src="/resources/js/mobile-tablet-ingredients.js"></script>
+        <script src="/resources/js/social-share.js"></script>
+        <script src="/resources/js/header-images.js"></script>
+        <script>
+            document.addEventListener('WholeUIReady', function() {
+                const imgArray = [
+                    { img:"http://assets.wholefoodsmarket.com/recipes/3604/460/290/3604-1.jpg", width:460, height:290 }
+                     ];
+
+                pickHeader(imgArray);
+            });
+        </script>
+    </head>
+    <body class="w-body">
+        <!-- Google Tag Manager (noscript) -->
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMVR7TC"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <main class="w-main">
+
+
+
+
+
+
+
+    <div class="w-header__global-alert">
+        <p class="w-body-short-form-white">We are taking extended measures to ensure the safety and wellness of our team members and communities at this time. <a href='https://www.wholefoodsmarket.com/company-info/covid-19-response' aria-label='status message link' class='w-link w-link-white' style='color:white;text-decoration:underline;'>Learn more.</a></p>
+    </div>
+
+<nav class="wfm-global-nav" id="header">
+    <div class="wfm-global-nav__group">
+        <wfm-global-menu-hamburger></wfm-global-menu-hamburger>
+        <div class="wfm-global-nav__logo"><a href="https://www.wholefoodsmarket.com"><span class="w-visually-hidden">Home</span></a></div>
+        <div class="wfm-global-nav__group-button wfm-global-nav__search-button">
+            <wfm-site-search rel-tablet=".wfm-global-nav__group" rel-mobile=".wfm-global-nav__group"></wfm-site-search>
+        </div>
+    </div>
+    <div class="wfm-global-nav__divider"></div>
+    <wfm-global-menu rel-tablet=".wfm-global-nav" rel-mobile=".wfm-global-nav">
+        <ul class="wfm-global-nav__menu">
+            <li><a class="w-link w-link-white" href="https://products.wholefoodsmarket.com"><span>Browse Products</span></a></li>
+            <li><a class="w-link w-link-white" href="/online-ordering"><span>Order Online</span></a></li>
+            <li><a class="w-link w-link-white" href="/tips-and-ideas"><span>Tips &amp; Ideas</span></a></li>
+            <li><a class="w-link w-link-white" href="/sales-flyer"><span>Weekly Sales</span></a></li>
+            <li><a class="w-link w-link-white" href="/stores"><span>Find a Store</span></a></li>
+        </ul>
+        <div class="wfm-global-nav__search">
+            <wfm-site-search rel-desktop=".wfm-global-menu"></wfm-site-search>
+        </div>
+        <div class="wfm-global-nav__login">
+
+            <wfm-login-menu logout-destination="/recipes/grilled-cheese-and-greens"></wfm-login-menu>
+        </div>
+    </wfm-global-menu>
+    <wfm-login-tooltip
+        rel-desktop=".wfm-global-nav__login-button"
+        rel-tablet=".wfm-global-nav__hamburger .wfm-hamburger__box"
+        rel-mobile=".wfm-global-nav__hamburger .wfm-hamburger__box">
+    </wfm-login-tooltip>
+</nav>
+<wfm-global-bar></wfm-global-bar>
+
+
+
+
+            <div class="w-recipe-container">
+                <div class="w-grid-container w-recipe-header">
+                    <div class="w-header-social w-grid-start-lg-2 w-grid-width-lg-1 w-grid-start-md-2 w-grid-width-md-8 w-grid-start-sm-2 w-grid-width-sm-10">
+                        <a id="pinterest-social" aria-label="Social Share Pinterest" href="#" target="_blank"></a>
+                        <a id="facebook-social" aria-label="Social Share Facebook" href="#" target="_blank"></a>
+                        <a id="twitter-social" aria-label="Social Share Twitter" href="#" target="_blank"></a>
+                        <a id="print" href="#" aria-label="Click here to Print" onclick="window.print()"></a>
+                    </div>
+                    <div class="w-header-corner-tile w-grid-start-lg-3 w-grid-width-lg-10 w-grid-start-md-2 w-grid-width-md-8 w-grid-start-sm-2 w-grid-width-sm-11">
+                        <div class="w-breadcrumbs--style w-fs-link-text w-font--circular-std-bold">
+                            <a href="/" aria-label="Whole Foods Home" class="w-breadcrumb__member">Home</a><span class="w-font--circular-std-book w-breadcrumb__separator">/</span><a href="/recipes" aria-label="Whole Foods Recipes" class="w-breadcrumb__member">Recipes</a><span class="w-font--circular-std-book w-breadcrumb__separator">/</span><span class="w-breadcrumb__member--current" aria-label="Current Recipe Grilled Cheese and Greens">Grilled Cheese and Greens</span>
+                        </div>
+                        <h1 class="w-header-title w-fs-hero2 w-font--circular-std-bold">Grilled Cheese and Greens</h1>
+                        <div class="w-recipe-serving-cook-time-container">
+
+                                <div class="w-header-servings w-fs-body-short-form w-font--circular-std-book">Serves 4</div>
+
+
+                                <div class="w-header-cook-time w-fs-body-short-form w-font--circular-std-book">Time 30 min</div>
+
+                        </div>
+                    </div>
+                    <div id="w-header-img" class="w-grid-start-lg-3 w-grid-width-lg-22 w-grid-start-md-1 w-grid-width-md-13 w-grid-start-sm-1 w-grid-width-sm-13"></div>
+                </div>
+                <div class="w-grid-container w-recipe-content">
+                    <div id="w-ingredients-anchor"></div>
+                    <div class="w-content-description w-fs-body-long-form w-font--corda w-grid-start-lg-3 w-grid-width-lg-11 w-grid-start-md-2 w-grid-width-md-11 w-grid-start-sm-2 w-grid-width-sm-11">
+                        Sneak soft cooked greens into the middle of a warm grilled cheese sandwich to add a bit of nutrition to this comforting meal. Substitute your favorite greens for kale if you like, and try with oozy Taleggio cheese for a sophisticated twist.
+                    </div>
+
+                    <div class="w-content-special-diets w-grid-start-lg-3 w-grid-width-lg-11 w-grid-start-md-2 w-grid-width-md-11 w-grid-start-sm-2 w-grid-width-sm-11">
+                        <div class="w-diets-title w-fs-body-em w-font--circular-std-bold">Special Diets:</div>
+                        <div class="w-diets-icons">
+
+                                <div class="w-diet-icon-group">
+                                    <a href="/special-diets/vegetarian" aria-label="Additional Info about Diet: Vegetarian" >
+                                        <svg class="logo__img svg-logo-dims" aria-hidden="true">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#Vegetarian"></use>
+                                        </svg>
+                                    </a>
+                                    <div class="w-diet-text w-fs-link-text w-font--circular-std-bold"><a href="/special-diets/vegetarian" aria-label="Additional Info about Diet: Vegetarian" >Vegetarian</a></div>
+                                </div>
+
+                                <div class="w-diet-icon-group">
+                                    <a href="/special-diets/high-fiber" aria-label="Additional Info about Diet: High fiber" >
+                                        <svg class="logo__img svg-logo-dims" aria-hidden="true">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#High-Fiber"></use>
+                                        </svg>
+                                    </a>
+                                    <div class="w-diet-text w-fs-link-text w-font--circular-std-bold"><a href="/special-diets/high-fiber" aria-label="Additional Info about Diet: High fiber" >High fiber</a></div>
+                                </div>
+
+                                <div class="w-diet-icon-group">
+                                    <a href="/special-diets/sugar-conscious" aria-label="Additional Info about Diet: Sugar conscious" >
+                                        <svg class="logo__img svg-logo-dims" aria-hidden="true">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#Sugar-Conscious"></use>
+                                        </svg>
+                                    </a>
+                                    <div class="w-diet-text w-fs-link-text w-font--circular-std-bold"><a href="/special-diets/sugar-conscious" aria-label="Additional Info about Diet: Sugar conscious" >Sugar conscious</a></div>
+                                </div>
+
+                        </div>
+                    </div>
+
+                    <div class="w-content-ingredients w-grid-start-lg-17 w-grid-width-lg-9 w-grid-height-lg-5 w-grid-start-md-1 w-grid-width-md-13 w-grid-start-sm-1 w-grid-width-sm-13 w-grid-container">
+                        <div class="w-ingredients-card-container w-grid-start-lg-1 w-grid-width-lg-25 w-grid-start-md-2 w-grid-width-md-11 w-grid-start-sm-2 w-grid-width-sm-11">
+                            <div class="w-ingredients-card">
+                                <div class="w-ingredients-title w-fs-subhead-large w-font--circular-std-bold">Ingredients</div>
+                                <div class="w-ingredients-content w-fs-body-short-form w-font--circular-std-book">
+                                    <ul>
+
+                                            <li><span class="w-font--circular-std-bold">2 tablespoons</span> extra-virgin olive oil, divided</li>
+
+                                            <li><span class="w-font--circular-std-bold">1 clove</span> garlic, thinly sliced</li>
+
+                                            <li><span class="w-font--circular-std-bold">1 bunch</span> (about 8 ounces) kale, thick stems removed and leaves shredded</li>
+
+                                            <li><span class="w-font--circular-std-bold">8 slices</span> whole grain bread</li>
+
+                                            <li><span class="w-font--circular-std-bold">8 slices</span> Swiss or Le Gruyère cheese (about 8 ounces total)</li>
+
+                                            <li><span class="w-font--circular-std-bold">1/4 teaspoon</span> kosher salt</li>
+
+                                            <li><span class="w-font--circular-std-bold">1/8 teaspoon</span> ground black pepper</li>
+
+                                    </ul>
+                                    <div class="w-ingredients-button">
+                                        <a class="w-primary-button" href="https://www.amazon.com/alm/storefront?almBrandId=VUZHIFdob2xlIEZvb2Rz&ref_=US_TRF_ALL_UFG_WFM_REFER_0423636" target="_blank" rel="noopener noreferrer">Shop with Prime<svg aria-hidden="true" focusable="false" class="w-link-icon "><use xlink:href="#launchIconDarkBg"></use></svg></a>
+                                        <p class="w-disclaimer-text">Exclusively for Prime members in select ZIP codes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-content-method w-grid-start-lg-3 w-grid-width-lg-11 w-grid-start-md-2 w-grid-width-md-11 w-grid-start-sm-2 w-grid-width-sm-11">
+                        <div class="w-method-title w-fs-subhead-large w-font--circular-std-bold">Method</div>
+                        <div class="w-method-content w-fs-body-long-form w-font--corda">
+
+                                <p>In a large skillet, heat 1 teaspoon olive oil over medium-high heat until hot.</p>
+
+                                <p>Add kale, garlic, salt and pepper. Cover and cook, stirring occasionally, until kale begins to wilt, about 5 minutes.</p>
+
+                                <p>Uncover, reduce heat to medium and continue to cook, stirring frequently, until kale is very soft, about 5 minutes.</p>
+
+                                <p>Arrange 4 bread slices on a work surface. Top each with one slice of cheese, an even layer of the kale, another slice of cheese, and then a piece of bread.</p>
+
+                                <p>Brush both sides of each sandwich with remaining olive oil.</p>
+
+                                <p>Heat a large nonstick skillet over medium heat until hot.</p>
+
+                                <p>Place stacked sandwiches in the pan and cook until bread is golden brown and cheese has melted, pressing flat with a spatula occasionally, 4 to 5 minutes per side. Serve immediately. Depending on the size of your skillet, you might need to cook these in batches. If so, the first batch can be kept warm in a 200&deg;F oven while finishing the second batch.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="w-content-info w-grid-start-lg-3 w-grid-width-lg-11 w-grid-start-md-2 w-grid-width-md-11 w-grid-start-sm-2 w-grid-width-sm-11">
+                        <div class="w-info-title w-fs-body-short-form w-font--circular-std-bold">Nutritional Info:</div>
+                        <div class="w-info-content w-fs-body-short-form w-font--circular-std-book">
+                            Per serving: 410 calories (200 from fat), 22g total fat, 11g saturated fat, 50mg cholesterol, 350mg sodium, 31g carbohydrates (5g dietary fiber, 4g sugar), 24g protein.
+                        </div>
+                    </div>
+                    <div class="w-content-disclosure w-font--circular-std-book w-grid-start-lg-3 w-grid-width-lg-11 w-grid-start-md-2 w-grid-width-md-11 w-grid-start-sm-2 w-grid-width-sm-11">
+                        Note: We've provided special diet and nutritional information for educational purposes. But remember - we're cooks, not doctors! You should follow the advice of your health-care provider. And since product formulations change, check product labels for the most recent ingredient information. <br />See our <a class="w-font--circular-std-bold" href="https://www.wholefoodsmarket.com/terms-use">Terms of Service</a>.
+                    </div>
+                </div>
+                <div class="w-ingredients-mobile w-grid-start-md-1 w-grid-width-md-13 w-grid-start-sm-1 w-grid-width-sm-13 w-grid-container inactive" open="false">
+                    <div class="w-ingredients-card-container w-grid-start-md-2 w-grid-width-md-11 w-grid-start-sm-2 w-grid-width-sm-11">
+                        <div class="w-ingredients-card">
+                            <div id="w-mobile-clickable" class="w-ingredients-title w-fs-link-text-large w-font--circular-std-bold">Ingredients</div>
+                            <div id="w-mobile-ingredient-content" class="w-ingredients-content w-fs-body-short-form w-font--circular-std-book">
+                                <ul>
+
+                                    <li><span class="w-font--circular-std-bold">2 tablespoons</span> extra-virgin olive oil, divided</li>
+
+                                    <li><span class="w-font--circular-std-bold">1 clove</span> garlic, thinly sliced</li>
+
+                                    <li><span class="w-font--circular-std-bold">1 bunch</span> (about 8 ounces) kale, thick stems removed and leaves shredded</li>
+
+                                    <li><span class="w-font--circular-std-bold">8 slices</span> whole grain bread</li>
+
+                                    <li><span class="w-font--circular-std-bold">8 slices</span> Swiss or Le Gruyère cheese (about 8 ounces total)</li>
+
+                                    <li><span class="w-font--circular-std-bold">1/4 teaspoon</span> kosher salt</li>
+
+                                    <li><span class="w-font--circular-std-bold">1/8 teaspoon</span> ground black pepper</li>
+
+                                </ul>
+                            </div>
+                            <div class="w-ingredients-button">
+                                <a class="w-primary-button" href="https://www.amazon.com/alm/storefront?almBrandId=VUZHIFdob2xlIEZvb2Rz&ref_=US_TRF_ALL_UFG_WFM_REFER_0423636" target="_blank" rel="noopener noreferrer">Shop with Prime<svg aria-hidden="true" focusable="false" class="w-link-icon "><use xlink:href="#launchIconDarkBg"></use></svg></a>
+                                <p class="w-disclaimer-text">Exclusively for Prime members in select ZIP codes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+<div class="w-footer--section" id="footer">
+    <div class="w-global--footer-content w-global--footer-top">
+        <div class="w-global--footer-list-group">
+            <div class="w-global--footer-list">
+                <h3>Shopping</h3>
+                <ul role="nav">
+                        <li><a class="w-link w-link-white"
+                                href="/sales-flyer"
+                                aria-label="Weekly Sales">Weekly Sales</a></li>
+                        <li><a class="w-link w-link-white"
+                                href="https://products.wholefoodsmarket.com"
+                                aria-label="Browse Products">Browse Products</a></li>
+                        <li><a class="w-link w-link-white"
+                                href="/shop/choose"
+                                aria-label="Meals and Catering">Meals and Catering</a></li>
+                        <li><a class="w-link--external w-link--external-icon w-link-white"
+                                href="https://wholefoods.buyatab.com/custom/wholefoods"
+                                target="_blank"
+                                aria-label="Gift Cards">Gift Cards</a></li>
+                        <li><a class="w-link--external w-link--external-icon w-link-white"
+                                href="https://www.amazon.com/alm/storefront?almBrandId=VUZHIFdob2xlIEZvb2Rz&ref_=US_TRF_ALL_UFG_WFM_REFER_0422447"
+                                target="_blank"
+                                aria-label="Delivery and Pickup">Delivery and Pickup</a></li>
+                </ul>
+            </div>
+            <div class="w-global--footer-list">
+                <h3>About</h3>
+                <ul role="nav">
+                        <li><a class="w-link w-link-white"
+                               href="/company-info"
+                               aria-label="About Whole Foods Market">About Whole Foods Market</a></li>
+                        <li><a class="w-link w-link-white"
+                               href="/quality-standards"
+                               aria-label="Quality Standards">Quality Standards</a></li>
+                        <li><a class="w-link w-link-white"
+                               href="/mission-values"
+                               aria-label="Mission and Values">Mission and Values</a></li>
+                        <li><a class="w-link w-link-white"
+                               href="/departments"
+                               aria-label="Departments">Departments</a></li>
+                        <li><a class="w-link w-link-white"
+                               href="/company-info/information-potential-suppliers"
+                               aria-label="Potential Suppliers">Potential Suppliers</a></li>
+                        <li><a class="w-link w-link-white"
+                               href="/company-info/corporate-policies"
+                               aria-label="Corporate Policies">Corporate Policies</a></li>
+                        <li><a class="w-link--external w-link--external-icon w-link-white"
+                               href="https://media.wholefoodsmarket.com"
+                               target="_blank"
+                               aria-label="Newsroom">Newsroom</a></li>
+                        <li><a class="w-link--external w-link--external-icon w-link-white"
+                               href="https://careers.wholefoodsmarket.com/global/en"
+                               target="_blank"
+                               aria-label="Careers">Careers</a></li>
+                </ul>
+            </div>
+            <div class="w-global--footer-list">
+                <h3>More</h3>
+                <ul role="nav">
+                    <li><a class="w-link w-link-white"
+                            href="/amazon"
+                            aria-label="Amazon Prime at Whole Foods">Amazon Prime at Whole Foods</a></li>
+                    <li><a class="w-link w-link-white"
+                            href="/special-diets"
+                            aria-label="Special Diets">Special Diets</a></li>
+                    <li><a class="w-link w-link-white"
+                            href="/tips-and-ideas"
+                            aria-label="Tips and Ideas">Tips and Ideas</a></li>
+                    <li><a class="w-link w-link-white"
+                            href="/recipes"
+                            aria-label="Recipes">Recipes</a></li>
+                    <li><a class="w-link--external w-link--external-icon w-link-white"
+                            href="https://www.wholeplanetfoundation.org"
+                            target="_blank"
+                            aria-label="Whole Planet Foundation">Whole Planet Foundation</a></li>
+                    <li><a class="w-link--external w-link--external-icon w-link-white"
+                            href="https://www.wholekidsfoundation.org"
+                            target="_blank"
+                            aria-label="Whole Kids Foundation">Whole Kids Foundation</a></li>
+                    <li><a class="w-link--external w-link--external-icon w-link-white"
+                            href="https://www.wholecitiesfoundation.org"
+                            target="_blank"
+                            aria-label="Whole Cities Foundation">Whole Cities Foundation</a></li>
+                </ul>
+            </div>
+            <div class="w-global--footer-list w-global-customer-care">
+                <h3>Need Help?</h3>
+                <ul role="nav">
+                    <li><a class="w-link w-link-white w-link--arrow"
+                            href="/customer-service"
+                            aria-label="Visit customer care">Visit customer care</a></li>
+                </ul>
+                <div class="w-global--footer-contact">
+                    <h3>Connect With Us</h3>
+                    <nav class="w-social-media-icons horizontal left top white">
+                        <ul>
+                            <li><a href="https://www.facebook.com/wholefoodsmarket"
+                                   target="_blank"
+                                   class="facebook">
+                                <span class="w-visually-hidden">Facebook</span>
+                            </a></li>
+                            <li><a href="https://twitter.com/wholefoods/"
+                                   target="_blank"
+                                   class="twitter">
+                                <span class="w-visually-hidden">Twitter</span>
+                            </a></li>
+                            <li><a href="https://www.instagram.com/wholefoods/"
+                                   target="_blank"
+                                   class="instagram">
+                                <span class="w-visually-hidden">Instagram</span>
+                            </a></li>
+                            <li><a href="https://www.pinterest.com/wholefoods/"
+                                   target="_blank"
+                                   class="pintrest">
+                                <span class="w-visually-hidden">Pintrest</span>
+                            </a></li>
+                            <li><a href="https://www.youtube.com/wholefoods"
+                                   target="_blank"
+                                   class="youtube">
+                                <span class="w-visually-hidden">YouTube</span>
+                            </a></li>
+                        </ul>
+                    </nav>
+                    <a class="w-button w-link-white w-button--white"
+-                       href="/account#email"
+-                       aria-label="Sign up for email"><span>Sign up for email</span></a>
+                    <div class="w-global--footer-apps">
+                        <p>Download the Whole Foods Market app</p>
+                        <ul class="inline-app-icons">
+                            <li><a href="https://itunes.apple.com/us/app/whole-foods-market/id320029256"
+                                   target="_blank"
+                                   aria-label="Whole Foods Market on iTunes">
+                                <img src="https://s3.amazonaws.com/assets.wholefoodsmarket.com/static_pages/badge-ios-app-store.svg"
+                                     alt="Get the app in the Apple iTunes Store" />
+                            </a></li>
+                            <li><a href="https://play.google.com/store/apps/details?id=com.wholefoods.wholefoodsmarket"
+                                   target="_blank"
+                                   aria-label="Whole Foods Market on Google Play">
+                                <img src="https://s3.amazonaws.com/assets.wholefoodsmarket.com/static_pages/badge-android-app-store.jpg"
+                                     alt="Get the app in the Google Play Store" />
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-global--footer-content w-global--footer-bottom">
+        <div class="w-global--footer-footer-list">
+            <ul role="nav">
+                <li><a class="w-link w-link-white"
+                        href="/legal/trademarks"
+                        aria-label="Copyright 2020 Whole Foods Market IP. L.P.">Copyright 2020 Whole Foods Market IP. L.P.</a></li>
+                <hr />
+                <div class="w-global--footer-footer-links">
+                    <li><a class="w-link w-link-white"
+                            href="/site-information/privacy-notice"
+                            aria-label="Privacy Notice">Privacy Notice</a></li>
+                    <li><a class="w-link w-link-white"
+                            href="/legal/conditions-of-use"
+                            aria-label="Conditions of Use">Conditions of Use</a></li>
+                    <li><a class="w-link w-link-white"
+                            href="/site-information/interest-based-ads"
+                            aria-label="Interest-Based Ads">Interest-Based Ads</a></li>
+                    <li><a class="w-link w-link-white"
+                            href="/site-information/site-map"
+                            aria-label="Site Map">Site Map</a></li>
+                    <li><a class="w-link w-link-white"
+                            href="/site-information"
+                            aria-label="Site Information">Site Information</a></li>
+                    <li><a class="w-link w-link-white"
+                            href="/legal"
+                            aria-label="Legal">Legal</a></li>
+                </div>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+        </main>
+
+        <script type="application/ld+json">
+            {
+  "@context": "http://schema.org",
+  "@type": "Recipe",
+  "name": "Grilled Cheese and Greens",
+  "image": [
+    "http://assets.wholefoodsmarket.com/recipes/3604/460/290/3604-1.jpg"
+  ],
+  "url": "https://www.wholefoodsmarket.com/recipes/grilled-cheese-and-greens",
+  "recipeIngredient": [
+    "2 tablespoons extra-virgin olive oil, divided",
+    "1 clove garlic, thinly sliced",
+    "1 bunch (about 8 ounces) kale, thick stems removed and leaves shredded",
+    "8 slices whole grain bread",
+    "8 slices Swiss or Le Gruyère cheese (about 8 ounces total)",
+    "1/4 teaspoon kosher salt",
+    "1/8 teaspoon ground black pepper"
+  ],
+  "description": "Sneak soft cooked greens into the middle of a warm grilled cheese sandwich to add a bit of nutrition to this comforting meal. Substitute your favorite greens for kale if you like, and try with oozy Taleggio cheese for a sophisticated twist.",
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "text": "In a large skillet, heat 1 teaspoon olive oil over medium-high heat until hot."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Add kale, garlic, salt and pepper. Cover and cook, stirring occasionally, until kale begins to wilt, about 5 minutes."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Uncover, reduce heat to medium and continue to cook, stirring frequently, until kale is very soft, about 5 minutes."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Arrange 4 bread slices on a work surface. Top each with one slice of cheese, an even layer of the kale, another slice of cheese, and then a piece of bread."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Brush both sides of each sandwich with remaining olive oil."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Heat a large nonstick skillet over medium heat until hot."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Place stacked sandwiches in the pan and cook until bread is golden brown and cheese has melted, pressing flat with a spatula occasionally, 4 to 5 minutes per side. Serve immediately. Depending on the size of your skillet, you might need to cook these in batches. If so, the first batch can be kept warm in a 200\u0026deg;F oven while finishing the second batch."
+    }
+  ],
+  "recipeYield": "Serves 4",
+  "datePublished": "2013-06-21",
+  "nutrition": {
+    "calories": "410 calories",
+    "fatContent": "22 grams",
+    "saturatedFatContent": "11 grams",
+    "cholesterolContent": "50 milligrams",
+    "sodiumContent": "350 milligrams",
+    "carbohydrateContent": "31 grams",
+    "proteinContent": "24 grams",
+    "@type": "NutritionInformation"
+  },
+  "totalTime": "PT30M"
+}
+        </script>
+    </body>
+</html>
