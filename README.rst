@@ -74,6 +74,7 @@ Scrapers available for:
 - `https://cookstr.com/ <https://cookstr.com>`_
 - `https://copykat.com/ <https://copykat.com>`_
 - `https://countryliving.com/ <https://countryliving.com>`_
+- `https://cuisineaz.com/ <https://cuisineaz.com>`_
 - `https://cybercook.com.br/ <https://cybercook.com.br/>`_
 - `https://delish.com/ <https://delish.com>`_
 - `https://eatsmarter.com/ <https://eatsmarter.com/>`_
