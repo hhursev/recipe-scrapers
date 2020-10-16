@@ -214,7 +214,7 @@ FAQ
   - If you found it then it's highly likely your website supports recipe schemas. Otherwise, you'll need to parse the HTML.
 
 
-Spacial thanks to:
+Special thanks to:
 ------------------
 
 All the `contributors that helped improving <https://github.com/hhursev/recipe-scrapers/graphs/contributors>`_  the package. You are awesome!
