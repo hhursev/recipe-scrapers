@@ -27,6 +27,7 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
         else:
             page_data = requests.get(url, headers=HEADERS).content
 
+        self.wild_mode = wild_mode
         self.exception_handling = exception_handling
         self.meta_http_equiv = meta_http_equiv
         self.soup = BeautifulSoup(page_data, "html.parser")
