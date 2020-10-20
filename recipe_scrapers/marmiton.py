@@ -2,10 +2,9 @@ from ._abstract import AbstractScraper
 
 
 class Marmiton(AbstractScraper):
-
     @classmethod
-    def host(self):
-        return 'marmiton.org'
+    def host(cls):
+        return "marmiton.org"
 
     def title(self):
         return self.schema.title()
@@ -27,4 +26,3 @@ class Marmiton(AbstractScraper):
 
     def ratings(self):
         return self.schema.ratings()
-

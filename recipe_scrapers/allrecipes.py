@@ -1,17 +1,28 @@
 from ._abstract import AbstractScraper
-from ._utils import get_yields
-from ._decorators import Decorators
 
 
 class AllRecipes(AbstractScraper):
-
     @classmethod
-    def host(self):
-        return 'allrecipes.com'
+    def host(cls):
+        return "allrecipes.com"
 
-    @Decorators.schema_org_priority
+    def title(self):
+        return self.schema.title()
+
+    def total_time(self):
+        return self.schema.total_time()
+
     def yields(self):
-        return get_yields(self.soup.find(
-            'div',
-            {'class': 'recipe-adjust-servings__original-serving'}
-        ))
+        return self.schema.yields()
+
+    def image(self):
+        return self.schema.image()
+
+    def ingredients(self):
+        return self.schema.ingredients()
+
+    def instructions(self):
+        return self.schema.instructions()
+
+    def ratings(self):
+        return self.schema.ratings()

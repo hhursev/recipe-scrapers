@@ -2,7 +2,6 @@ dist: xenial
 language: python
 
 python:
-  - "3.5"
   - "3.6"
   - "3.7"
   - "3.8"
@@ -12,6 +11,8 @@ install:
   - pip install coveralls
 
 script:
+  - black --check .
+  - flake8 --count .
   - coverage run -m unittest
 
 after_success:

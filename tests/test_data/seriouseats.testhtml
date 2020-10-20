@@ -20,12 +20,12 @@
   <meta name="keywords" content="condiment,horseradish,vegetarian" />
   <meta property="og:image" content="https://www.seriouseats.com/recipes/images/2015/07/20150727-horseradish-vicky-wasik-14-1500x1125.jpg" />
   <meta property="og:url" content="https://www.seriouseats.com/recipes/2015/07/homemade-preserved-horseradish-recipe.html" />
-  
-        <meta itemprop="headline" content="Homemade Preserved Horseradish Recipe" />
-    
-    
 
-  
+        <meta itemprop="headline" content="Homemade Preserved Horseradish Recipe" />
+
+
+
+
   <script type="application/ld+json">
   {
     "@context": "http://schema.org",
@@ -36,14 +36,14 @@
       "@type": "ImageObject",
       "url": "https://static.seriouseats.com/1/braestar/live/img/logo-color-240x190.png"
     },
-    "sameAs" : [ 
+    "sameAs" : [
       "https://www.facebook.com/seriouseats",
       "https://twitter.com/seriouseats",
       "https://plus.google.com/+seriouseats/posts",
       "https://www.pinterest.com/seriouseats/",
       "https://www.instagram.com/seriouseats/",
       "https://www.youtube.com/user/SeriousEats"
-    ] 
+    ]
   }
   </script>
 
@@ -51,7 +51,7 @@
       <link href="https://static.seriouseats.com/1/braestar/live/css/global.min.css?v=20190801" rel="stylesheet" async>
 
   <script>!function(){try{if(!!window.MSInputMethodContext&&!!document.documentMode){var e=document.head,t=document.createElement("link");t.type="text/css",t.rel="stylesheet",t.href="https://static.seriouseats.com/1/braestar/live/css/ie11.min.css",e.appendChild(t)}}catch(e){}}();</script>
-  
+
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="https://static.seriouseats.com/1/braestar/live/ico/favicon-16x16.png">
     <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://static.seriouseats.com/1/braestar/live/ico/apple-touch-icon-180x180.png">
@@ -70,7 +70,7 @@ Array.prototype.includes||Object.defineProperty(Array.prototype,"includes",{valu
     })();
   </script>
   <script type="text/javascript" src="https://static.seriouseats.com/1/braestar/live/js/libs/libs.head.min.js?v=20181105"></script>
-  
+
     <script type="text/javascript">
     $.extend($.lazyLoadXT, {
       edgeY:  1000,
@@ -78,14 +78,14 @@ Array.prototype.includes||Object.defineProperty(Array.prototype,"includes",{valu
     });
     </script>
 
-  
+
 
   <script>
     /*! grunt-grunticon Stylesheet Loader - v2.1.6 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
-    
+
 
     !function(){function e(e,n,t){"use strict";var o=window.document.createElement("link"),r=n||window.document.getElementsByTagName("script")[0],i=window.document.styleSheets;return o.rel="stylesheet",o.href=e,o.media="only x",r.parentNode.insertBefore(o,r),o.onloadcssdefined=function(e){for(var n,t=0;t<i.length;t++)i[t].href&&i[t].href===o.href&&(n=!0);n?e():setTimeout(function(){o.onloadcssdefined(e)})},o.onloadcssdefined(function(){o.media=t||"all"}),o}function n(e,n){e.onload=function(){e.onload=null,n&&n.call(e)},"isApplicationInstalled"in navigator&&"onloadcssdefined"in e&&e.onloadcssdefined(n)}!function(t){var o=function(r,i){"use strict";if(r&&3===r.length){var a=t.navigator,c=t.document,s=t.Image,d=!(!c.createElementNS||!c.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!c.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||t.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new s;u.onerror=function(){o.method="png",o.href=r[2],e(r[2])},u.onload=function(){var t=1===u.width&&1===u.height,a=r[t&&d?0:t?1:2];t&&d?o.method="svg":t?o.method="datapng":o.method="png",o.href=a,n(e(a),i)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",c.documentElement.className+=" grunticon"}};o.loadCSS=e,o.onloadCSS=n,t.grunticon=o}(this),function(e,n){"use strict";var t=n.document,o="grunticon:",r=function(e){if(t.attachEvent?"complete"===t.readyState:"loading"!==t.readyState)e();else{var n=!1;t.addEventListener("readystatechange",function(){n||(n=!0,e())},!1)}},i=function(e){return n.document.querySelector('link[href$="'+e+'"]')},a=function(e){var n,t,r,i,a,c,s={};if(n=e.sheet,!n)return s;t=n.cssRules?n.cssRules:n.rules;for(var d=0;d<t.length;d++)r=t[d].cssText,i=o+t[d].selectorText,a=r.split(");")[0].match(/US\-ASCII\,([^"']+)/),a&&a[1]&&(c=decodeURIComponent(a[1]),s[i]=c);return s},c=function(e){var n,r,i,a;i="data-grunticon-embed";for(var c in e){a=c.slice(o.length);try{n=t.querySelectorAll(a)}catch(s){continue}r=[];for(var d=0;d<n.length;d++)null!==n[d].getAttribute(i)&&r.push(n[d]);if(r.length)for(d=0;d<r.length;d++)r[d].innerHTML=e[c],r[d].style.backgroundImage="none",r[d].removeAttribute(i)}return r},s=function(n){"svg"===e.method&&r(function(){c(a(i(e.href))),"function"==typeof n&&n()})};e.embedIcons=c,e.getCSS=i,e.getIcons=a,e.ready=r,e.svgLoadedCallback=s,e.embedSVG=s}(grunticon,this),function(e,n){"use strict";var t=n.document,o=function(e,t){var o=new n.XMLHttpRequest;return"withCredentials"in o?o.open("GET",e,!0):"undefined"!=typeof n.XDomainRequest&&(o=new n.XDomainRequest,o.open("GET",e)),t&&(o.onload=t),o.send(),o},r=function(n){"svg"===e.method&&e.ready(function(){o(e.href,function(){var o=t.createElement("style");o.innerHTML=this.responseText;var r=e.getCSS(e.href);r&&(r.parentNode.insertBefore(o,r),r.parentNode.removeChild(r),e.embedIcons(e.getIcons(o)),"function"==typeof n&&n())})})};e.ajaxGet=o,e.svgLoadedCORSCallback=r,e.embedSVGCors=r}(grunticon,this)}();
-  
+
   grunticon(["https://static.seriouseats.com/1/braestar/live/icons/icons.data.svg.css?v=20190801", "https://static.seriouseats.com/1/braestar/live/icons/icons.data.png.css?v=20190801", "https://static.seriouseats.com/1/braestar/live/icons/icons.fallback.css?v=20190801"]);
 </script>
 
@@ -96,7 +96,7 @@ Array.prototype.includes||Object.defineProperty(Array.prototype,"includes",{valu
 
 
 
-    
+
 <!-- Google DFP Header -->
 <script async="async" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
 
@@ -312,7 +312,7 @@ var _seStaff = [];
     $("div#post-comment-status-" + post_id).removeClass("hidden");
   } // comment_failure
 
-  $(document).on("keyup", "textarea#comment-text", function() 
+  $(document).on("keyup", "textarea#comment-text", function()
   {
     comment = $(this).val();
     post_id = $(this).data("post-id");
@@ -328,24 +328,24 @@ var _seStaff = [];
     var comment_text = $(this).find("textarea").val();
     var comment_rating = $(this).find("input[name=star_rating]").val();
 
-    document.getElementById("comment-post-" + post_id).disabled=true; 
+    document.getElementById("comment-post-" + post_id).disabled=true;
     document.getElementById("comment-post-" + post_id).value = "Got it, thanks!";
 
     _cameo.newComment(post_id, comment_text, comment_success, comment_failure, comment_rating);
   });
 
 function commentDisplayButtonClick($button) {
-  
+
   if (!$button)
     return;
 
   var thishref = $button.attr('href');
   var post_id = $button.data("post-id");
-  
+
   $button.hide();
   $('a.hide-comments[href="' + thishref + '"]').removeClass("hidden");
   $('a.hide-comments[href="' + thishref + '"]').css("display","");
-  
+
   // showCommentSection(post_id);
   $(thishref).removeClass('hidden');
 
@@ -372,7 +372,7 @@ function handlePaginationClick(page_index, pagination_container) {
 
   $('#commentRange-' + this["post_id"]).html(commentRange);
   showComments(this["blog_id"], this["post_id"], this["comments"], page_index*numCommentsPerPage, max_num, this["author_username"]);
-  
+
   if (jumpToTopOfComments) {
     document.getElementById('comments-' + this["post_id"]).scrollIntoView();
   }
@@ -383,7 +383,7 @@ function handlePaginationClick(page_index, pagination_container) {
 $(document).on('click', 'a.comment-display-btn', function(e){
   e.preventDefault();
   $this = $(this);
-  commentDisplayButtonClick($this);    
+  commentDisplayButtonClick($this);
 });
 
 $(document).on('click', 'a.hide-comments', function(e){
@@ -401,7 +401,7 @@ function showComments(blog_id, post_id, comments, startNum, endNum, author_usern
 {
   var commentContent = '';
   var commentAuthor = '';
-  var regex = new RegExp("\n", "g"); 
+  var regex = new RegExp("\n", "g");
 
   var urlRegex =/(\b(https?):\/\/(www)?\.amazon[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
 
@@ -409,7 +409,7 @@ function showComments(blog_id, post_id, comments, startNum, endNum, author_usern
 
     try {
 
-      comments[i]["text"] = comments[i]["content"].replace(urlRegex, function(url) {  
+      comments[i]["text"] = comments[i]["content"].replace(urlRegex, function(url) {
         var amazonUrl = new URL(url);
         if (amazonUrl["search"].length > 0)
           amazonUrl["search"] += "&tag=se-comment-20";
@@ -419,7 +419,7 @@ function showComments(blog_id, post_id, comments, startNum, endNum, author_usern
       });
     }
     catch (e) {}
-    
+
     commentAuthor = comments[i]["author"];
     commentContent += '<a name="' + comments[i]["id"] + '"></a>';
     commentContent += '<div class="comment';
@@ -450,9 +450,9 @@ function showComments(blog_id, post_id, comments, startNum, endNum, author_usern
       isStaff = true;
       staffLabel = '<span class="label staff-user">Staff</span>';
     }
-    
+
     commentContent += '" id="' + comments[i]["id"] + '">';
-    
+
     commentContent += '<footer class="metadata">';
     if (isStaff || isAuthor)
       commentContent += '<a href="https://www.seriouseats.com/' + staffSlug + '" class="commenter';
@@ -461,7 +461,7 @@ function showComments(blog_id, post_id, comments, startNum, endNum, author_usern
 
     commentContent += '">' + comments[i]["author"];
 
-    if (isStaff || isAuthor)      
+    if (isStaff || isAuthor)
       commentContent += '</a>';
     else
       commentContent += '</span>';
@@ -493,7 +493,7 @@ function showComments(blog_id, post_id, comments, startNum, endNum, author_usern
       var star_empty = '<i class="icon icon-nav-star-empty"></i>';
       commentContent += '<div class="rating rating-user"><span class="label">recipe rating:</span><span class="info rating-stars">';
       for (var j = 0; j < 5; j++) {
-        
+
         if (j < comments[i]["rating"])
           commentContent += star_full;
         else
@@ -502,9 +502,9 @@ function showComments(blog_id, post_id, comments, startNum, endNum, author_usern
       commentContent += '</span></div>';
     }
     commentContent += '<div class="comment-content">' + comments[i]["text"].replace(regex, "<br />") + '</div></div>';
-    commentContent += '</div>';   
+    commentContent += '</div>';
   }
-// #raw  
+// #raw
 
   $("section#comments-" + post_id).find("#commentSection").html(commentContent);
 
@@ -513,11 +513,11 @@ function showComments(blog_id, post_id, comments, startNum, endNum, author_usern
 /* TODO -- move to printer page
   // Recipe post - checked comments for printing
   $('input[name$="include-comment"]').change(function() {
-    
+
     var comment_id = $(this).attr('value');
     $("div.comment#" + comment_id).toggleClass("comment-print");
 
-    if ($(this).is(':checked')) { 
+    if ($(this).is(':checked')) {
       var arrayIndex = (jQuery.inArray(comment_id, recipeCommentsToInclude));
       if (arrayIndex < 0) {
         recipeCommentsToInclude.push(comment_id);
@@ -540,7 +540,7 @@ function showCommentSection(post_id, comments)
   // if (!commentsDisplayed)
   // {
     var comment_container = $("section#comments-" + post_id);
-    
+
     var author_username = comment_container.data("author-username");
     var blog_id = comment_container.data("blog-id");
 
@@ -560,16 +560,16 @@ function showCommentSection(post_id, comments)
     comment_count += "</span>";
 
   // #if CommentsOpen == True
-  //   commentCountText = commentCount;               
+  //   commentCountText = commentCount;
   // #end if
 
-    if (comment_container.find('#commentSection').length) 
+    if (comment_container.find('#commentSection').length)
     {
       if (comment_container.find('#postCommentCount').length)
       {
         comment_container.find("#postCommentCount").html(commentCountText);
       }
-      if (comment_container.find(".entryCommentCount").length > 0) 
+      if (comment_container.find(".entryCommentCount").length > 0)
       {
         comment_container.find(".entryCommentCount").each(function() {
           $(this).html(comment_count);
@@ -603,12 +603,12 @@ function showCommentSection(post_id, comments)
       {
         display_button.text("Show " + comments.length + " Comments");
         var comment_bubbles = $("div.content-main[data-id=" + post_id + "] span.comment-number");
-        for (var i = 0; i < comment_bubbles.length; ++i) 
+        for (var i = 0; i < comment_bubbles.length; ++i)
         {
           $(comment_bubbles[i]).text(comments.length);
         }
       }
-    } 
+    }
 
   /*} else {
     clearInterval(intervalID);
@@ -618,13 +618,13 @@ function showCommentSection(post_id, comments)
 </script>
 
 
-      
+
     <script type="application/ld+json">
     {
       "@context": "http://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement":
-      [  
+      [
           {
             "@type": "ListItem",
             "position": 1,
@@ -666,7 +666,7 @@ function showCommentSection(post_id, comments)
       "@context": "http://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement":
-      [  
+      [
           {
             "@type": "ListItem",
             "position": 1,
@@ -754,7 +754,7 @@ function showCommentSection(post_id, comments)
   }
   </script>
 
-</head> 
+</head>
 
 <body class="template-recipe ">
 
@@ -775,7 +775,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 
-  
+
 
 
 
@@ -1574,7 +1574,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </li>
           </ul>
 
-          
+
 
 
   <div class="social-links self-clear">
@@ -1590,7 +1590,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </div>
 
 
-      
+
         </div>
 
         <a class="btn btn-reversed btn-search-toggle icon-wrapper" href="https://www.seriouseats.com/search?term=tasty%20dishes" data-click-category="nav" data-click-id="search-icon"><i class="icon icon-nav-search-white"></i></a>
@@ -1601,7 +1601,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </nav>
 
     <progress class="scroll-indicator" value="0" max="1"></progress>
-  </div> 
+  </div>
   <form class="form-search" id="SearchForm" action="https://www.seriouseats.com/search" method="get">
     <a href="" class="btn-search-toggle">Close</a>
     <div class="search-query-wrap">
@@ -1694,7 +1694,6 @@ $(document).ready(function(){
 
 
 
-  
 
 
 
@@ -1711,11 +1710,12 @@ $(document).ready(function(){
 
 
 
-  
+
+
     <div class="bottom-sticky-ad">
 
       <div class="ad-wrapper touch-display-none">
-        
+
         <div class="auto-ad" id="entry-top-billboard" data-ad-unit="SE_Horizontal_1" data-ad-size="[[970,90], [728,90]]" data-ad-mapping="horizontal_short_mapping"    data-refresh-time="30000"    ></div>
       </div>
 
@@ -1730,10 +1730,10 @@ $(document).ready(function(){
 
         <header class="entry-header">
 
-          
+
 
 <div class="breadcrumbs">
-  
+
 
 
 
@@ -1753,28 +1753,28 @@ $(document).ready(function(){
           <li class="label label-category"><a href="https://www.seriouseats.com/recipes" data-click-category="breadcrumbs" data-click-id="https://www.seriouseats.com/recipes">
               <i class="icon icon-category-recipes-white"></i>
           Recipes</a></li>
-  
+
 
 
 
 
           <li class="label label-category"><a href="https://www.seriouseats.com/recipes/topics/meal" data-click-category="breadcrumbs" data-click-id="https://www.seriouseats.com/recipes/topics/meal">
           Meal</a></li>
-  
+
 
 
 
 
           <li class="label label-category"><a href="https://www.seriouseats.com/recipes/topics/meal/vegetarian" data-click-category="breadcrumbs" data-click-id="https://www.seriouseats.com/recipes/topics/meal/vegetarian">
           <strong>Vegetarian</strong></a></li>
-  
+
       </ul>
 
 
 
   <div class="breadcrumbs__more-toggle" title="More Breadcrumbs" data-click-category="breadcrumbs" data-click-id="more-breadcrumbs">More Breadcrumbs</div>
   <div class="breadcrumbs__more">
-    
+
 
 
 
@@ -1794,21 +1794,21 @@ $(document).ready(function(){
           <li class="label label-category"><a href="https://www.seriouseats.com/recipes" data-click-category="breadcrumbs" data-click-id="https://www.seriouseats.com/recipes">
               <i class="icon icon-category-recipes-white"></i>
           Recipes</a></li>
-  
+
 
 
 
 
           <li class="label label-category"><a href="https://www.seriouseats.com/recipes/topics/meal" data-click-category="breadcrumbs" data-click-id="https://www.seriouseats.com/recipes/topics/meal">
           Meal</a></li>
-  
+
 
 
 
 
           <li class="label label-category"><a href="https://www.seriouseats.com/recipes/topics/meal/condiments-and-sauces" data-click-category="breadcrumbs" data-click-id="https://www.seriouseats.com/recipes/topics/meal/condiments-and-sauces">
           <strong>Condiments and Sauces</strong></a></li>
-  
+
       </ul>
 
 
@@ -1821,8 +1821,8 @@ $(document).ready(function(){
           <div class="entry-header-inner">
             <h1 class="title recipe-title">Homemade Preserved Horseradish Recipe</h1>
 
-                
-  
+
+
 
 
 
@@ -1839,7 +1839,7 @@ $(document).ready(function(){
 
 
 
-            
+
 
 
 
@@ -1863,10 +1863,10 @@ $(document).ready(function(){
       </a>
   </div>
   <!-- share bar end -->
- 
 
 
-                
+
+
 
 
 
@@ -1886,7 +1886,6 @@ $(document).ready(function(){
 
 
           <figure class="recipe-main-photo thumb-large">
-            
 
 
 
@@ -1903,17 +1902,18 @@ $(document).ready(function(){
 
 
 
-  
+
+
 
       <div class="ad-wrapper">
-        
+
         <div class="auto-ad" id="entry-sponsor-logo" data-ad-unit="SE_Logo" data-ad-size="[[120,100], [120,185]]" data-ad-mapping="logo_mapping"  data-ad-tag="condiment,horseradish,vegetarian" data-require-tag-match="true"    data-skip-amazon="true" ></div>
       </div>
 
 
             <div class="se-pinit-image-container">
               <img src="https://www.seriouseats.com/recipes/images/2015/07/20150727-horseradish-vicky-wasik-14-1500x1125.jpg" class="photo" srcset="https://www.seriouseats.com/recipes/images/2015/07/20150727-horseradish-vicky-wasik-14.jpg 1500w, https://www.seriouseats.com/recipes/images/2015/07/20150727-horseradish-vicky-wasik-14-300x225.jpg 300w, https://www.seriouseats.com/recipes/images/2015/07/20150727-horseradish-vicky-wasik-14-750x563.jpg 750w, https://www.seriouseats.com/recipes/images/2015/07/20150727-horseradish-vicky-wasik-14-625x469.jpg 625w, https://www.seriouseats.com/recipes/images/2015/07/20150727-horseradish-vicky-wasik-14-200x150.jpg 200w" alt="Homemade Preserved Horseradish Recipe" data-pin-no-hover="true" />
-              
+
 
 
   <div class="nav-share se-pinit">
@@ -1941,9 +1941,7 @@ $(document).ready(function(){
 
                 <p><strong>Read more: <a href="https://www.seriouseats.com/2015/07/how-to-prepare-fresh-horseradish.html" data-click-category="recipe" data-click-id="read-more">How to Make Homemade Preserved Horseradish</a></strong></p>
 
-          </div> 
-
-          
+          </div>
 
 
 
@@ -1960,7 +1958,9 @@ $(document).ready(function(){
 
 
 
-  
+
+
+
 
       <div class="ad-wrapper body-inline">
         <div class="ad-breakout SE_Rectangle_2-breakout clear-on-refresh"></div>
@@ -2005,7 +2005,7 @@ $(document).ready(function(){
             </ul>
             <span id="relish-button" data-recipe-id="43930"></span>
           </div><!--/ingredients-->
-                  
+
               <div class="recipe-procedures">
                 <h2 class="title-section">Directions</h2>
                 <ol class="recipe-procedures-list instructions">
@@ -2018,7 +2018,7 @@ $(document).ready(function(){
                 </ol>
               </div><!--procedure-->
 
-        </div> 
+        </div>
 
           <div class="recipe-bottom">
 
@@ -2061,7 +2061,6 @@ $(document).ready(function(){
                   </div>
                 </aside>
 
-                
 
 
 
@@ -2078,7 +2077,8 @@ $(document).ready(function(){
 
 
 
-  
+
+
 
       <div class="ad-wrapper">
         <div class="ad-breakout SE_Ecommerce_Unit-breakout "></div>
@@ -2095,9 +2095,7 @@ $(document).ready(function(){
 
             <p class="note">This post may contain links to Amazon or other partners; your purchases via these links can benefit Serious Eats. <a href="https://www.seriouseats.com/faq#amazon">Read more about our affiliate linking policy</a>.</p>
 
-          </div> 
-
-            
+          </div>
 
 
 
@@ -2114,28 +2112,30 @@ $(document).ready(function(){
 
 
 
-  
+
+
+
 
       <div class="ad-wrapper touch-display-none">
-        
+
         <div class="auto-ad" id="entry-bottom" data-ad-unit="SE_Horizontal_Entry_1" data-ad-size="[[728,90], [300,250]]" data-ad-mapping="below_entry_mapping"    data-refresh-time="30000"    ></div>
       </div>
 
 
 
-        </div> 
+        </div>
 
         <footer class="entry-footer recipe-footer">
 
-              
-  
+
+
 
 
 
 
 
     <div class="author-byline full">
-    
+
 
       <a href="https://www.seriouseats.com/user/profile/daniel-gritzer" class="userpic">
       <span style="background-image: url('https://www.seriouseats.com/mt-static/support/uploads/daniel-2-200x200.jpg');" title="Daniel Gritzer"></span>
@@ -2147,7 +2147,7 @@ $(document).ready(function(){
 
         <span class="author-title">Culinary Director</span>
 
-      
+
         <ul class="author-links">
             <li><a href="https://www.seriouseats.com/user/profile/daniel-gritzer">Profile</a></li>
             <li><a href="https://twitter.com/dgritzer" target="_blank" rel="noopener">Twitter</a></li>
@@ -2166,7 +2166,7 @@ $(document).ready(function(){
 
 
           <div class="entry-footer-bottom">
-            
+
 
 
 
@@ -2192,7 +2192,7 @@ $(document).ready(function(){
   <!-- share bar end -->
 
 
-            
+
 
 
   <div class="entry-tags">
@@ -2203,18 +2203,16 @@ $(document).ready(function(){
         <li><a href="https://www.seriouseats.com/tags/vegetarian" class="tag">vegetarian</a></li>
     </ul>
   </div>
-  
 
 
-            
+
+
 
           </div>
 
         </footer>
-    
+
       </article>
-    
-      
 
 
 
@@ -2231,7 +2229,9 @@ $(document).ready(function(){
 
 
 
-  
+
+
+
 
       <div class="ad-wrapper">
         <div class="ad-breakout SE_Rectangle_5-breakout clear-on-refresh"></div>
@@ -2240,7 +2240,7 @@ $(document).ready(function(){
 
 
 
-        
+
 
 
 
@@ -2376,7 +2376,7 @@ $(document).ready(function(){
     </section><!-- /main -->
 
 
-      
+
 
 
 
@@ -2391,7 +2391,6 @@ $(document).ready(function(){
     <div class="sidebar-bng-inner">
 
           <div class="block-primary">
-            
 
 
 
@@ -2406,7 +2405,8 @@ $(document).ready(function(){
 
 
 
-  
+
+
 
       <div class="ad-wrapper ad-native">
         <div class="ad-breakout SE_Sidebar_1-breakout "></div>
@@ -2416,7 +2416,7 @@ $(document).ready(function(){
 
           </div>
 
-          
+
 
 
 
@@ -2428,7 +2428,7 @@ $(document).ready(function(){
   <div class="video-sidebar-player-wrap hidden">
 
 
-    
+
 
 
 
@@ -2446,7 +2446,7 @@ $(document).ready(function(){
 
   </div>
 </div>
- 
+
 
 
     <div class="player-metadata-wrap">
@@ -2471,9 +2471,6 @@ $(document).ready(function(){
 
   </div>
 
- 
-
-        
 
 
 
@@ -2490,7 +2487,10 @@ $(document).ready(function(){
 
 
 
-  
+
+
+
+
 
       <div class="ad-wrapper">
         <div class="ad-breakout SE_Rectangle_Sticky_4-breakout clear-on-refresh"></div>
@@ -2499,12 +2499,12 @@ $(document).ready(function(){
 
 
 
-    </div> 
-  </div> 
-</section> 
+    </div>
+  </div>
+</section>
 
 
-      
+
   </div><!-- /content -->
 
 
@@ -2512,9 +2512,9 @@ $(document).ready(function(){
     <div class="below-all-entries-inner">
     </div>
   </div><!-- /below-all-entries -->
-  
 
-  
+
+
 
 
 <footer class="footer" role="contentinfo">
@@ -2530,7 +2530,7 @@ $(document).ready(function(){
           <input id="fieldEmailFooter" class="text-input userField" name="cm-oikkhj-oikkhj" placeholder="Your Email Address" type="email" required /><input type="submit" value="Subscribe" name="subscribe" data-click-id="footer" data-click-category="newsletter" class="btn btn-reversed">
         </form>
       </div>
-              
+
       <ul class="about-links">
         <li><a href="https://www.seriouseats.com/latest">Latest</a></li>
         <li><a href="https://www.seriouseats.com/masthead">Masthead</a></li>
@@ -2541,8 +2541,8 @@ $(document).ready(function(){
         <li><a href="https://www.seriouseats.com/sitemap">Sitemap</a></li>
         <li><a href="https://www.seriouseats.com/faq">FAQ</a></li>
       </ul>
-      
-      
+
+
 
 
   <div class="social-links self-clear">
@@ -2558,10 +2558,10 @@ $(document).ready(function(){
   </div>
 
 
-    
+
     </div>
   </div>
-      
+
   <section class="utility">
     <ul class="utility-links">
       <li><a href="https://www.seriouseats.com/terms" target="_blank">Terms of Use</a></li>
@@ -2580,7 +2580,7 @@ $(document).ready(function(){
   </script>
 </div>
 
-  
+
 
 
     <div id="login-modal__outer-wrap" class="modal__outer-wrap hidden">
@@ -2604,7 +2604,7 @@ $(document).ready(function(){
       </div>
     </div>
 
-    
+
 <script>
 "use strict";function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function")}}function _defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor)}}function _createClass(Constructor,protoProps,staticProps){if(protoProps)_defineProperties(Constructor.prototype,protoProps);if(staticProps)_defineProperties(Constructor,staticProps);return Constructor}var cameo=/*#__PURE__*/function(){function cameo(){_classCallCheck(this,cameo);this.comments={};this.ajax_url="https://"+window.location.host+"/cameo/w"+"p-adm"+"in/"+"adm"+"in-aj"+"ax.ph"+"p";this.topics_url="https://www.seriouseats.com/topics";this.cookie_domain="seriouseats.com";this.cookie_name="cameo";this.login_success_event=document.createEvent("Event");this.login_success_event.initEvent("login-success",true,true);this.login_failure_event=document.createEvent("Event");this.login_failure_event.initEvent("login-failure",true,true);this.logout_success_event=document.createEvent("Event");this.logout_success_event.initEvent("logout-success",true,true)}// COOKIES
 _createClass(cameo,[{key:"deleteCookie",value:function deleteCookie(cname){document.cookie=cname+"=;domain="+this.cookie_domain+";expires=Thu, 01 Jan 1970 00:00:01 GMT;path=/;"}// deleteCookie
@@ -2645,10 +2645,10 @@ function modal_login_failure(response){var message=response["message"];$("#login
 
 
 
-  
 
 
-  
+
+
 
 
 
@@ -2667,7 +2667,7 @@ function adsWrapper(r,s){var e,a,v=window.seGlobalMethods&&window.seGlobalMethod
 
 
 
-    
+
 
 
 
@@ -2689,7 +2689,6 @@ function SENativeAd(e,i){this.iframe=document.getElementById(e),this.iframe&&(th
 
   <div class="mobile-sticky-ad collapsed">
     <div class="mobile-sticky-ad__top-padding"></div>
-    
 
 
 
@@ -2706,7 +2705,8 @@ function SENativeAd(e,i){this.iframe=document.getElementById(e),this.iframe&&(th
 
 
 
-  
+
+
 
       <div class="ad-wrapper">
         <div class="ad-breakout SE_320x50_Adhesion_NonAMP-breakout clear-on-refresh"></div>
@@ -2770,7 +2770,7 @@ try {
       "action" : "1 minute elapsed",
       "label" : ""
     })
-  }, 60000);  
+  }, 60000);
 } catch (e) {}
 </script>
 
@@ -2783,7 +2783,7 @@ try {
       var location = $(this).data("location");
       dataLayer.push({
         "event": "gaEvent",
-        "category": "share", 
+        "category": "share",
         "action": event_name,
         "label": location
       });
@@ -2834,7 +2834,7 @@ html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}.block__wrapper
           found: function(){
             dataLayer.push({
               "event": "gaEvent",
-              "category": "adblock", 
+              "category": "adblock",
               "action": "true",
               "label": ""
             });
@@ -2842,7 +2842,7 @@ html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}.block__wrapper
           notFound: function(){
             dataLayer.push({
               "event": "gaEvent",
-              "category": "adblock", 
+              "category": "adblock",
               "action": "false",
               "label": ""
             });
@@ -2867,7 +2867,7 @@ html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}.block__wrapper
 <!--END Lightbox Javascript-->
 
 
-  
+
   <script>
   $("div.recipe-wrapper a.action-link").on("click", function() {
     try {
@@ -2881,7 +2881,7 @@ html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}.block__wrapper
       }
       dataLayer.push({
         "event": "gaEvent",
-        "category": "recipe", 
+        "category": "recipe",
         "action": "click",
         "label": target
       });
@@ -2890,7 +2890,7 @@ html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}.block__wrapper
 
   /*
   $(document).ready(function() {
-    try 
+    try
     {
       if (!$("div#amzn_assoc_ad_div_adunit0_0").is("visible"))
         $("aside#amazon-native").hide();
@@ -2929,9 +2929,9 @@ $(document).ready(function() {
       var text = $(items[x]).text();
       dataLayer.push({
         "event": "gaEvent",
-        "category": "product", 
+        "category": "product",
         "action": "load",
-        "label": text            
+        "label": text
       });
     }
   } catch (e) {}
@@ -2958,14 +2958,14 @@ function global_breakout(id, ad_unit)
     $ ("div.auto-ad[data-ad-unit=" + ad_unit + "]").hide();
 
   } catch(e) {
-    // console.log(e); 
+    // console.log(e);
   }
 }
 </script>
 
 
 
-      
+
 
 
 
@@ -2983,14 +2983,14 @@ function sidebarWrapper(s){$(document).ready(function(){window.sidebarController
 
 
 
-      
+
 <script>
 $(function(){
 
   function FiniteScroll(linkedEntries, settings) {
     this.defaultSettings = {
       postSelector: ".content-main",
-      historyThreshold: 25, // percent above and below the window midpoint; controls when page title and history are updated 
+      historyThreshold: 25, // percent above and below the window midpoint; controls when page title and history are updated
       loadThreshold: 1000 // pixels beyond window bottom; controls when a new post is loaded in
     };
     this.settings = this.setSettings(settings, this.defaultSettings);
@@ -3153,7 +3153,7 @@ $(function(){
         return false;
 
       });
-      
+
     }, // hasEntryChanged
 
     loadNextEntry: function() {
@@ -3217,7 +3217,7 @@ $(function(){
                 "action": "load-next-entry",
                 "label": obj.counter
               });
-            } catch (err) {}            
+            } catch (err) {}
 
             try {
               var $relish_button = $("span#relish-button[data-recipe-id='" + data.post_id + "']");
@@ -3276,7 +3276,7 @@ $(function(){
       });
       $(window).on('scroll', function() {
         obj.loadTry = true;
-        
+
         if(obj.historyTry) {
           return;
         }

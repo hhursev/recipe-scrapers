@@ -16,8 +16,8 @@
 <link rel="stylesheet" href="https://inspiralized.com/wp-content/themes/inspiralized2/hover.css?1573043045">
 <link rel="stylesheet" href="https://inspiralized.com/wp-content/themes/inspiralized2/mobile.css?1573043045">
 <style type="text/css">
-			@media only screen 
-			and (min-device-width : 320px) 
+			@media only screen
+			and (min-device-width : 320px)
 			and (max-device-width : 812px) {
 				body {
 					opacity: 0;
@@ -144,7 +144,7 @@ img.emoji {
 				#wprmenu_bar {
 					background-color: #7d9a3d;
 				}
-			
+
 				html body div#mg-wprm-wrap .wpr_submit .icon.icon-search {
 					color: ;
 				}
@@ -217,7 +217,7 @@ img.emoji {
 				#wprmenu_menu.wprmenu_levels ul li ul {
 					border-top:none;
 				}
-			
+
 				#wprmenu_menu.left {
 					width:65%;
 					left: -65%;
@@ -228,7 +228,7 @@ img.emoji {
 					right: -65%;
 					left: auto;
 				}
-			
+
 					.wprmenu_bar .hamburger {
 						float: left;
 					}
@@ -323,7 +323,7 @@ For example:
 
 For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
 
-End of comment */ 
+End of comment */
 
 .category-186815157 #join-mamas {display:none !important;}</style>
 
@@ -543,7 +543,7 @@ ul.sub-menu a {
 		$(this).parent('form').submit();
 	});
   });
-  
+
 })(jQuery);</script>
 
 
@@ -558,7 +558,7 @@ ul.sub-menu a {
 </script>
 
 <script type="text/javascript">
-/* Default comment here */ 
+/* Default comment here */
 
 jQuery(document).ready(function( $ ){
     jQuery("#wrap > div.site-header > div.wrap > a > img[alt*='Blog']").wrap($('<a>',{
@@ -571,7 +571,7 @@ jQuery(document).ready(function( $ ){
 <script type="text/javascript">
 	jQuery(document).ready(function($){
 	  	jQuery(".store-content .widget_media_image").each(function(){
-	  		
+
 	  		var link = jQuery('a',this).attr("href");
           jQuery('img',this).addClass('aligncenter');
           jQuery('.widget_text .widgettitle').hide();
@@ -597,7 +597,7 @@ jQuery(document).ready(function( $ ){
 a.pinit-button::after {
     display: none;
 }</style>
-<style> 
+<style>
             .myrecipe-button, .mylist-button, .mycal-button, .save-button, .nut-circle {
                 background-color:#7f9b41 !important;
             }
@@ -607,7 +607,7 @@ a.pinit-button::after {
             .butn-link {
                 color:#7f9b41 !important;
             }
-        
+
             .myrecipe-button:hover, .mylist-button:hover, .mycal-button:hover, .save-button:hover {
                 background-color:#7f9b41 !important;
             }
@@ -615,19 +615,19 @@ a.pinit-button::after {
                 color:#7f9b41 !important;
                 border-color:#7f9b41 !important;
             }
-        
+
             .mpprecipe .h-4, #mpprecipe-title {
                 color: # !important;
             }
-        
+
             .mpprecipe a {
                 color: # !important;
             }
-        
+
             .mpprecipe a:hover {
                 color: # !important;
             }
-        </style> 
+        </style>
 <meta name="p:domain_verify" content="f6da2d7558f1a3e28ae2fa5d142867ec" />
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests;block-all-mixed-content" />
 <link rel='dns-prefetch' href='//widgets.wp.com' />
@@ -674,7 +674,7 @@ a.pinit-button::after {
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-95102"><a href="/cookbooks" class="menu-image-title-after"><span class="menu-image-title-after menu-image-title">Cookbooks</span></a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-95103"><a href="/mobile-app" class="menu-image-title-after"><span class="menu-image-title-after menu-image-title">Download the app</span></a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-95104"><a href="http://Insprlz.it/subscribeinspiralized" class="menu-image-title-after"><span class="menu-image-title-after menu-image-title">Subscribe</span></a></li>
-</ul></div> 
+</ul></div>
 </div>
 </div>
 <div class="header-bottom">
@@ -702,7 +702,7 @@ a.pinit-button::after {
 <div class="primary-navigation"><ul id="menu-primary-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-98572"><a href="/spiralizer-recipes" class="menu-image-title-after"><span class="menu-image-title-after menu-image-title">Recipes</span></a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95106"><a href="https://inspiralized.com/kids/" class="menu-image-title-after"><span class="menu-image-title-after menu-image-title">Kids</span></a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95105"><a href="https://inspiralized.com/ali/" class="menu-image-title-after"><span class="menu-image-title-after menu-image-title">Lifestyle</span></a></li>
-</ul></div> 
+</ul></div>
 </div>
 </div>
 </header>
@@ -786,13 +786,13 @@ a.pinit-button::after {
               "text": "In a large bowl, whisk together the olive oil, apple cider vinegar, honey, and season with salt and pepper. Add the brussels sprouts and apples and toss well. Let sit in the refrigerator for at least 15-20 minutes and then take out and fold in the almonds and half of the Parmesan cheese. Transfer to a serving bowl or plate and top with remaining Parmesan."
             }
 ],"keywords" : "Brussels Sprouts and Apple Salad with Parmesan",
-"recipeIngredient" : ["3 tablespoons extra virgin olive oil ","3 tablespoons apple cider vinegar","2.5 teaspoons honey","salt and pepper","4 cups shredded brussels sprouts","1 medium apple, Blade D","1\/4 cup chopped raw almonds (for extra flavor, toast these first)","1\/3 cup shaved Parmesan"], 
+"recipeIngredient" : ["3 tablespoons extra virgin olive oil ","3 tablespoons apple cider vinegar","2.5 teaspoons honey","salt and pepper","4 cups shredded brussels sprouts","1 medium apple, Blade D","1\/4 cup chopped raw almonds (for extra flavor, toast these first)","1\/3 cup shaved Parmesan"],
 
 				"image": {
 				  "@type": "ImageObject",
 				  "url": "https:\/\/inspiralized.com\/wp-content\/uploads\/2019\/09\/Brussels-Sprouts-and-Apple-Salad-with-Parmesan-2-copy.jpg"
 				 },
-			
+
         "author": {
           "@type": "Person",
           "name": ""
@@ -1146,16 +1146,16 @@ LinkedIn </span>
 </div>
 <div class="elementor-element elementor-element-a38e60c elementor-widget elementor-widget-shortcode" data-id="a38e60c" data-element_type="widget" data-widget_type="shortcode.default">
 <div class="elementor-widget-container">
-<div class="elementor-shortcode"><style type='text/css' media='all'>#rt-tpg-container-364262473 .rt-holder .rt-woo-info .price{color:#0367bf;}body .rt-tpg-container .rt-tpg-isotope-buttons .selected, 
-						#rt-tpg-container-364262473 .layout12 .rt-holder:hover .rt-detail, 
-						#rt-tpg-container-364262473 .isotope8 .rt-holder:hover .rt-detail, 
+<div class="elementor-shortcode"><style type='text/css' media='all'>#rt-tpg-container-364262473 .rt-holder .rt-woo-info .price{color:#0367bf;}body .rt-tpg-container .rt-tpg-isotope-buttons .selected,
+						#rt-tpg-container-364262473 .layout12 .rt-holder:hover .rt-detail,
+						#rt-tpg-container-364262473 .isotope8 .rt-holder:hover .rt-detail,
 						#rt-tpg-container-364262473 .carousel8 .rt-holder:hover .rt-detail,
-				        #rt-tpg-container-364262473 .layout13 .rt-holder .overlay .post-info, 
-				        #rt-tpg-container-364262473 .isotope9 .rt-holder .overlay .post-info, 
-				        #rt-tpg-container-364262473.rt-tpg-container .layout4 .rt-holder .rt-detail, 
-				        .rt-modal-364262473 .md-content, 
-				        .rt-modal-364262473 .md-content > .rt-md-content-holder .rt-md-content, 
-				        .rt-popup-wrap-364262473.rt-popup-wrap .rt-popup-navigation-wrap, 
+				        #rt-tpg-container-364262473 .layout13 .rt-holder .overlay .post-info,
+				        #rt-tpg-container-364262473 .isotope9 .rt-holder .overlay .post-info,
+				        #rt-tpg-container-364262473.rt-tpg-container .layout4 .rt-holder .rt-detail,
+				        .rt-modal-364262473 .md-content,
+				        .rt-modal-364262473 .md-content > .rt-md-content-holder .rt-md-content,
+				        .rt-popup-wrap-364262473.rt-popup-wrap .rt-popup-navigation-wrap,
 				        #rt-tpg-container-364262473 .carousel9 .rt-holder .overlay .post-info{background-color:#0367bf;}#rt-tpg-container-364262473 .layout5 .rt-holder .overlay, #rt-tpg-container-364262473 .isotope2 .rt-holder .overlay, #rt-tpg-container-364262473 .carousel2 .rt-holder .overlay,#rt-tpg-container-364262473 .layout15 .rt-holder h3, #rt-tpg-container-364262473 .isotope11 .rt-holder h3, #rt-tpg-container-364262473 .carousel11 .rt-holder h3, #rt-tpg-container-364262473 .layout16 .rt-holder h3,
 					#rt-tpg-container-364262473 .isotope12 .rt-holder h3, #rt-tpg-container-364262473 .carousel12 .rt-holder h3 {background-color:rgba(3,103,191,0.1);}</style><div class='rt-container-fluid rt-tpg-container image-4-col related-posts' id='rt-tpg-container-364262473' data-layout='layout1' data-desktop-col='4' data-tab-col='4' data-mobile-col='1' data-sc-id='95201'><div data-title='Loading ...' class='rt-row rt-content-loader layout1 tpg-even '><div class='rt-col-md-3 rt-col-sm-3 rt-col-xs-12  even-grid-item  rt-grid-item no-margin' data-id='80325'><div class="rt-holder"><div class="rt-img-holder"><a data-id='80325' class='' href='https://inspiralized.com/zucchini-spaghetti-and-gluten-free-turkey-meatballs/'><img class='rt-img-responsive' src='https://inspiralized.com/wp-content/uploads/2017/01/Screen-Shot-2017-05-31-at-9.10.03-AM-380x437.png' alt='Zucchini Spaghetti and Gluten-Free Turkey Meatballs'></a></div> <div class='rt-detail'><h3 class='entry-title'><a data-id='80325' class='' href='https://inspiralized.com/zucchini-spaghetti-and-gluten-free-turkey-meatballs/'>Zucchini Spaghetti and Gluten-Free Turkey Meatballs</a></h3></div></div></div><div class='rt-col-md-3 rt-col-sm-3 rt-col-xs-12  even-grid-item  rt-grid-item no-margin' data-id='34493'><div class="rt-holder"><div class="rt-img-holder"><a data-id='34493' class='' href='https://inspiralized.com/spiralized-vegetarian-bibimbap-with-quinoa/'><img class='rt-img-responsive' src='https://inspiralized.com/wp-content/uploads/2015/06/6A2A4426-2-380x570.jpg' alt='Spiralized Vegetarian Bibimbap with Quinoa'></a></div> <div class='rt-detail'><h3 class='entry-title'><a data-id='34493' class='' href='https://inspiralized.com/spiralized-vegetarian-bibimbap-with-quinoa/'>Spiralized Vegetarian Bibimbap with Quinoa</a></h3></div></div></div><div class='rt-col-md-3 rt-col-sm-3 rt-col-xs-12  even-grid-item  rt-grid-item no-margin' data-id='39158'><div class="rt-holder"><div class="rt-img-holder"><a data-id='39158' class='' href='https://inspiralized.com/bbq-shredded-chicken-and-squash-noodle-bowls-with-avocado-cilantro-mash/'><img class='rt-img-responsive' src='https://inspiralized.com/wp-content/uploads/2015/07/6A2A5314-8-380x570.jpg' alt='BBQ Shredded Chicken and Squash Noodle Bowls with Avocado-Cilantro Mash'></a></div> <div class='rt-detail'><h3 class='entry-title'><a data-id='39158' class='' href='https://inspiralized.com/bbq-shredded-chicken-and-squash-noodle-bowls-with-avocado-cilantro-mash/'>BBQ Shredded Chicken and Squash Noodle Bowls with Avocado-Cilantro Mash</a></h3></div></div></div><div class='rt-col-md-3 rt-col-sm-3 rt-col-xs-12  even-grid-item  rt-grid-item no-margin' data-id='30267'><div class="rt-holder"><div class="rt-img-holder"><a data-id='30267' class='' href='https://inspiralized.com/how-to-change-the-thickness-of-your-vegetable-noodles/'><img class='rt-img-responsive' src='https://inspiralized.com/wp-content/uploads/2015/05/6A2A3746-copy-380x203.jpg' alt='How to Change the Thickness of Your Vegetable Noodles'></a></div> <div class='rt-detail'><h3 class='entry-title'><a data-id='30267' class='' href='https://inspiralized.com/how-to-change-the-thickness-of-your-vegetable-noodles/'>How to Change the Thickness of Your Vegetable Noodles</a></h3></div></div></div></div></div></div>
 </div>
@@ -1365,7 +1365,7 @@ $('.comment-meta a').each(function(){
 <p>
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	
+
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
@@ -1384,7 +1384,7 @@ $('.comment-meta a').each(function(){
 <p>
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	
+
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
@@ -1403,7 +1403,7 @@ $('.comment-meta a').each(function(){
 <p>
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	
+
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
@@ -1636,7 +1636,7 @@ var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax
 		jQuery( 'body' ).bind( 'wc_fragments_refreshed', function() {
 			jQuery( 'body' ).trigger( 'jetpack-lazy-images-load' );
 		} );
-	
+
 </script>
 <script type='text/javascript' src='https://inspiralized.com/wp-content/plugins/connect-shopify-and-woocommerce/inc/../scripts/shopify-wc-connect.js?ver=1.2'></script>
 <script type='text/javascript' src='https://inspiralized.com/wp-includes/js/wp-embed.min.js?ver=5.2.4'></script>
@@ -1682,7 +1682,7 @@ var rttpg = {"nonceID":"rttpg_nonce","nonce":"f92e874e96","ajaxurl":"https:\/\/i
 <div class="secp-embed secp-embed-cart" data-shop="inspiralized-worldwide.myshopify.com" data-background_color="transparent" data-sticky="true" data-embed_type="cart"></div>
 <script type="text/javascript">
 		document.getElementById('ShopifyEmbedScript') || document.write('<script id="ShopifyEmbedScript" type="text/javascript" src="https://inspiralized.com/wp-content/uploads/custom-css-js/89670.js?1573043046"><\/script>');
-		
+
 </script><script type='text/javascript' src='https://stats.wp.com/e-201945.js' async='async' defer='defer'></script>
 <script type='text/javascript'>
 	_stq = window._stq || [];
@@ -1727,9 +1727,9 @@ var rttpg = {"nonceID":"rttpg_nonce","nonce":"f92e874e96","ajaxurl":"https:\/\/i
 					$('.ssba.ssbp-wrap').hide();*/
 					$('#share-post .elementor-button').click(function(){
 						// console.log(1);
-						$('#after-post-content .elementor-widget-share-buttons').fadeToggle();				
+						$('#after-post-content .elementor-widget-share-buttons').fadeToggle();
 					}).attr('href','javascript:void(0);');
-					
+
 
 				});
 
@@ -1740,7 +1740,7 @@ var rttpg = {"nonceID":"rttpg_nonce","nonce":"f92e874e96","ajaxurl":"https:\/\/i
 					$('<p id="recipe-extras-gww">Also works well with <span>'+goesWell+'</span></p>').insertAfter(
 						$('#mpprecipe-total-time')
 					);
-				} 
+				}
 
 				// if ( $('#mpprecipe-tags').length ) {
 				// }

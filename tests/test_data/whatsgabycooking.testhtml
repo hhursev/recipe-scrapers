@@ -93,7 +93,7 @@ img.emoji {
 <script type='text/javascript' src='//assets.pinterest.com/js/pinit.js?ver=5.2.4'></script>
 <link rel='https://api.w.org/' href='https://whatsgabycooking.com/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://whatsgabycooking.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://whatsgabycooking.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://whatsgabycooking.com/wp-includes/wlwmanifest.xml" />
 <link rel='shortlink' href='https://whatsgabycooking.com/?p=27224' />
 <link rel="alternate" type="application/json+oembed" href="https://whatsgabycooking.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwhatsgabycooking.com%2Fvegetarian-quinoa-bake%2F" />
 <link rel="alternate" type="text/xml+oembed" href="https://whatsgabycooking.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwhatsgabycooking.com%2Fvegetarian-quinoa-bake%2F&#038;format=xml" />
@@ -143,8 +143,8 @@ a.pinit-button::after {
 		<nav class="navbar fixed-top navbar-expand-xs justify-content-between">
 
 					<div class="container-fluid justify-content-between nav-container" >
-		
-					
+
+
 				<div class="nav-left">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobileNavDropdown" aria-controls="mobileNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 						<i class="fas fa-bars"></i>
@@ -163,10 +163,10 @@ a.pinit-button::after {
 <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-31182" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31182 nav-item rounded"><a title="Travel" href="https://whatsgabycooking.com/category/travelevents/" class="nav-link">Travel</a></li>
 <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-31183" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31183 nav-item rounded"><a title="Entertain" href="https://whatsgabycooking.com/category/entertain/" class="nav-link">Entertain</a></li>
 </ul></div>				<span class="mr-0"><a class="btn btn-small subscribe-btn" href="http://eepurl.com/BVRcn" target="_blank">SUBSCRIBE <i class="far fa-envelope"></i></a></span>
-				
-				
+
+
 						</div><!-- .container -->
-			
+
 		</nav><!-- .site-navigation -->
 		<div id="mobileNavDropdown" class="collapse navbar-collapse fixed-top"><ul id="mobile-menu" class="navbar-nav mr-auto"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-31196" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31196 nav-item rounded"><a href="#" class="nav-link"><hr></a></li>
 <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-31197" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-31197 nav-item rounded"><a title="Recipe Index" href="https://whatsgabycooking.com/category/categories/" class="nav-link">Recipe Index</a></li>
@@ -193,14 +193,14 @@ a.pinit-button::after {
 		<div class="row">
 
 			<!-- Do the left sidebar check -->
-			
+
 
 <div class="col-md content-area" id="primary">
 
 			<main class="site-main" id="main">
 
-				
-					
+
+
 <article class="post-27224 post type-post status-publish format-standard has-post-thumbnail hentry category-weeknight-dinner category-healthy-dinner category-gluten-free-food-restrictions-allergies category-fall category-winter category-vegetarian-food-restrictions-allergies category-main-course category-food-drink category-food-restrictions-allergies category-healthyfigure-friendly category-lunch category-pastarisotto category-seasonal category-vegetarian tag-vegetarian-quinoa-bake tag-quinoa-bake-with-salsa tag-quinoa-bake-with-cheese tag-veggie-quinoa-bake tag-easy-quinoa-bake tag-baked-quinoa" id="post-27224">
 
 	<header class="entry-header">
@@ -230,7 +230,7 @@ a.pinit-button::after {
 							<span class="align-top"><a class="btn btn-jump" href="#recipeJump">Jump to recipe</a></span>
 						</div>
 					</div>
-					
+
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
@@ -271,14 +271,14 @@ a.pinit-button::after {
 		<div class="col recipe-info">
 			<div class="row">
 				<div class="col-5 col-md-4 recipe-title">
-					By: 
+					By:
 				</div>
 				<div class="col">
 					Gaby Dalkin				</div>
 			</div>
 			<div class="row">
 				<div class="col-5 col-md-4 recipe-title">
-					Rating: 
+					Rating:
 				</div>
 				<div class="col">
 					<i class="fa fa-heart-o rating-hearts mr-1" aria-hidden="true"></i><i class="fa fa-heart-o rating-hearts mr-1" aria-hidden="true"></i><i class="fa fa-heart-o rating-hearts mr-1" aria-hidden="true"></i><i class="fa fa-heart-o rating-hearts mr-1" aria-hidden="true"></i><i class="fa fa-heart-o rating-hearts mr-1" aria-hidden="true"></i>				</div>
@@ -373,7 +373,7 @@ a.pinit-button::after {
             [image] => 0
             [uid] => 0
             [type] => instruction
-            [image_url] => 
+            [image_url] =>
         )
 
     [1] => Array
@@ -382,7 +382,7 @@ a.pinit-button::after {
             [image] => 0
             [uid] => 1
             [type] => instruction
-            [image_url] => 
+            [image_url] =>
         )
 
     [2] => Array
@@ -391,7 +391,7 @@ a.pinit-button::after {
             [image] => 0
             [uid] => 2
             [type] => instruction
-            [image_url] => 
+            [image_url] =>
         )
 
     [3] => Array
@@ -400,7 +400,7 @@ a.pinit-button::after {
             [image] => 0
             [uid] => 3
             [type] => instruction
-            [image_url] => 
+            [image_url] =>
         )
 
     [4] => Array
@@ -409,7 +409,7 @@ a.pinit-button::after {
             [image] => 0
             [uid] => 4
             [type] => instruction
-            [image_url] => 
+            [image_url] =>
         )
 
 )
@@ -507,7 +507,7 @@ a.pinit-button::after {
 
 		</div>
 <!-- /Similar Posts -->
-					
+
 					<a id="ratingJump"></a>
 <div class="comments-area pt-5" id="comments">
 
@@ -530,15 +530,15 @@ a.pinit-button::after {
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
 </p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="ad2d7a7e3e" /></p><p style="display:none;"><input type="text" name="nxts" value="1573036351" /><input type="text" name="nxts_signed" value="254d7fff586aaac57b6b60c6b72d21d92daff292" /><input type="text" name="d4f8391b14251b0cb9aff" value="" /><input type="text" name="941f4b9e8614c74c" value="dfe2b58049dd" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="232"/></p>			</form>
 			</div><!-- #respond -->
-	
-	
-	
+
+
+
 		<h2 class="comments-title">
 
 			30 comments
 		</h2><!-- .comments-title -->
 
-		
+
 		<ol class="comment-list">
 
 			    <li id="li-comment-396725">
@@ -1097,18 +1097,18 @@ a.pinit-button::after {
 
 		</ol><!-- .comment-list -->
 
-		
-	
-	
-	
+
+
+
+
 
 </div><!-- #comments -->
 
-				
+
 			</main><!-- #main -->
 
 			<!-- Do the right sidebar check -->
-			
+
 </div><!-- #closing the primary container from /global-templates/left-sidebar-check.php -->
 
 
@@ -1116,7 +1116,7 @@ a.pinit-button::after {
 		<div class="col-lg-4 d-none d-lg-block sidebar-container">
 		<div class="row sidebar-item">
 			<div class="col text-center">
-				
+
 <form method="get" id="searchform" action="https://whatsgabycooking.com/" role="search">
 	<label class="sr-only" for="s">Search</label>
 	<div class="input-group">
@@ -1348,7 +1348,7 @@ var wprmp_public = {"endpoints":[],"settings":{"recipe_template_mode":"legacy","
 Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
 
 Object Caching 0/0 objects using disk
-Page Caching using disk: enhanced 
+Page Caching using disk: enhanced
 Database Caching 4/59 queries in 0.345 seconds using disk
 
 Served from: whatsgabycooking.com @ 2019-11-06 02:32:31 by W3 Total Cache

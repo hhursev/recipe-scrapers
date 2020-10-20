@@ -59,10 +59,10 @@ WebFontConfig = {
 </style>
 <link type="text/css" rel="stylesheet" href="foodandspice_files/4205868711-css_bundle_v2.css">
 <link type="text/css" rel="stylesheet" href="foodandspice_files/authorization.css">
-<style media="print" type="text/css"> 
-.header, .tabs-outer, .blog-pager, .blog-feeds, .post-footer, .post-body img, .Image img, .img, .fauxcolumn-outer fauxcolumn-left-outer, .fauxcolumn-outer fauxcolumn-right-outer, .column-left-outer, .column-right-outer, addthis_toolbox addthis_default_style addthis_32x32_style { width: none; display: none;} 
+<style media="print" type="text/css">
+.header, .tabs-outer, .blog-pager, .blog-feeds, .post-footer, .post-body img, .Image img, .img, .fauxcolumn-outer fauxcolumn-left-outer, .fauxcolumn-outer fauxcolumn-right-outer, .column-left-outer, .column-right-outer, addthis_toolbox addthis_default_style addthis_32x32_style { width: none; display: none;}
 .fauxcolumn-outer fauxcolumn-center-outer, .columns-inner, .column-center-inner, .column-center-outer, #main .main.section { width: 6.25in !important; overflow: visible !important; float: none !important; color: black; font-family: "Times New Roman", Courier, Garamond, serif; font-size: 12pt; background: white; border: none; }
-#main a { text-decoration: none; color: black; font-family: "Times New Roman", Courier, Garamond, serif; font-size: 20pt; } 
+#main a { text-decoration: none; color: black; font-family: "Times New Roman", Courier, Garamond, serif; font-size: 20pt; }
 </style>
 <meta content="b9304683ef286f70aceb7eed039fe330" name="p:domain_verify">
 <style id="page-skin-1" type="text/css"><!--
@@ -610,27 +610,27 @@ width: auto;
 }
 --></style>
 <!-- Print Div Start -->
-<script type="text/javascript"> 
+<script type="text/javascript">
  function printDiv(e)
    {
     var divToPrint=document.getElementById(e);
     newWin = window.open('', 'printwin');
-    newWin.document.write(divToPrint.innerHTML); 
-    newWin.print(); 
-    newWin.close(); 
+    newWin.document.write(divToPrint.innerHTML);
+    newWin.print();
+    newWin.close();
     setTimeout(function(){newWin.close();},10);}
 </script>
 <!-- Print Div End -->
 <script language="javascript" type="text/javascript">
 function toggle(element, linktext, showtext) {
 
-var txtbit = document.getElementById(element);  
-var linkbit = document.getElementById(linktext); 
+var txtbit = document.getElementById(element);
+var linkbit = document.getElementById(linktext);
 if (txtbit.style.display == 'none') {
-  txtbit.style.display = 'block'; 
+  txtbit.style.display = 'block';
   linkbit.innerHTML = '&#9660;&#160;';
   } else {
-  txtbit.style.display = 'none'; 
+  txtbit.style.display = 'none';
   linkbit.innerHTML = '&#9658;&#160;';
   }
 }
@@ -638,13 +638,13 @@ if (txtbit.style.display == 'none') {
 <script language="javascript" type="text/javascript">
 function togglemore(element, linktext, showtext) {
 
-var txtbit = document.getElementById(element);  
-var linkbit = document.getElementById(linktext); 
+var txtbit = document.getElementById(element);
+var linkbit = document.getElementById(linktext);
 if (txtbit.style.display == 'none') {
-  txtbit.style.display = 'block'; 
+  txtbit.style.display = 'block';
   linkbit.innerHTML = '&#9660;&#160; Collapse this section&#8230; ';
   } else {
-  txtbit.style.display = 'none'; 
+  txtbit.style.display = 'none';
   linkbit.innerHTML = '&#9658;&#160; Expand this section again&#8230; ';
   }
 }
@@ -1170,10 +1170,10 @@ head.appendChild(script);
 <!-- google_ad_section_start(name=default) -->
 
           <div class="date-outer">
-        
+
 
           <div class="date-posts">
-        
+
 <div class="post-outer">
 <meta content="summary" name="twitter:card">
 <meta content="@LisaTurner22" name="twitter:site">
@@ -1193,14 +1193,14 @@ Pumpkin Gingerbread Waffles
 </div>
 <div class="post-body entry-content" id="post-body-715157414013622262">
 <div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-9lt98jMs6Fw/UOc96C7MsXI/AAAAAAAAJWw/P2e9Vqg6PNQ/s1600/pumpkin_waffles.jpg" imageanchor="1" style="margin-left:1em; margin-right:1em"><img alt="pumpkin gingerbread waffles" src="foodandspice_files/pumpkin_waffles.jpg" border="0" width="550"></a></div><br>
-There's nothing much more satisfying on a chilly winter morning than a 
-hot cup of coffee and a large fresh-cooked pumpkin gingerbread waffle 
+There's nothing much more satisfying on a chilly winter morning than a
+hot cup of coffee and a large fresh-cooked pumpkin gingerbread waffle
 hot out of the iron and smothered with butter and warm <a href="http://foodandspice.blogspot.com/2007/04/homemade-maple-syrup-from-muskoka.html">maple syrup</a>.
   The heavenly aroma of these waffles toasting on the griddle iron would
- be worth the trouble of making them alone.  Once they're on the plate, 
-you'll want to savor the light and chewy feeling in your mouth and let 
-the irresistible flavors of dark molasses and gingerbread spices linger 
-on your tongue for as long as you can.  These might be the tastiest 
+ be worth the trouble of making them alone.  Once they're on the plate,
+you'll want to savor the light and chewy feeling in your mouth and let
+the irresistible flavors of dark molasses and gingerbread spices linger
+on your tongue for as long as you can.  These might be the tastiest
 waffles you'll have ever eaten!<br>
 <br>
 <a name="more"></a><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/--tCcTN7jPK8/UOc-DfqXWnI/AAAAAAAAJW8/EK0AgFJnVf8/s1600/pumpkin_waffles2.jpg" imageanchor="1" style="margin-left:1em; margin-right:1em"><img alt="pumpkin waffles" src="foodandspice_files/pumpkin_waffles2.jpg" border="0" width="550"></a></div><script type="text/javascript"> function printDiv(e)
@@ -1232,16 +1232,16 @@ Dry ingredients:<br>
 <li itemprop="ingredients" style="font-style: italic;">1 stick (1/2 cup or 8 tablespoons) unsalted butter, melted</li>
 </ul>Instructions:<br>
 <ul><li itemprop="recipeInstructions"><p>Preheat an oven to 250°.</p></li>
-<li itemprop="recipeInstructions"><p>Combine the dry ingredients in a 
-large mixing bowl. In a separate bowl, whisk or beat together the eggs 
-and brown sugar together until frothy. Mix in the pumpkin, milk, 
-molasses and melted butter. Pour into the dry ingredients and mix until 
+<li itemprop="recipeInstructions"><p>Combine the dry ingredients in a
+large mixing bowl. In a separate bowl, whisk or beat together the eggs
+and brown sugar together until frothy. Mix in the pumpkin, milk,
+molasses and melted butter. Pour into the dry ingredients and mix until
 just combined.</p></li>
-<li itemprop="recipeInstructions"><p>Preheat the waffle iron. When hot, 
-brush lightly with oil and spoon a scant cup of the batter on to the 
+<li itemprop="recipeInstructions"><p>Preheat the waffle iron. When hot,
+brush lightly with oil and spoon a scant cup of the batter on to the
 iron if using a belgian waffle iron (if using a smaller iron, adjust the
- amount of batter accordingly). Cook according to manufacturer's 
-suggestion, and transfer each waffle to an oven-safe plate to keep warm 
+ amount of batter accordingly). Cook according to manufacturer's
+suggestion, and transfer each waffle to an oven-safe plate to keep warm
 in the preheated oven until the batter is used up.</p></li>
 <li itemprop="recipeInstructions"><p>Serve hot with warm <a href="http://foodandspice.blogspot.com/2007/04/homemade-maple-syrup-from-muskoka.html">maple syrup</a>.</p></li>
 </ul>Makes <span itemprop="recipeYield">7 or 8 large waffles</span></td></tr>
@@ -1402,7 +1402,7 @@ October 21, 2014 at 5:45 PM
 </div>
 
         </div></div>
-      
+
 <!-- google_ad_section_end -->
 </div>
 <div class="blog-pager" id="blog-pager">
@@ -1436,9 +1436,9 @@ Subscribe to:
 <aside>
 <div class="sidebar section" id="sidebar-right-1"><div class="widget Text" id="Text1">
 <div class="widget-content">
-Based in London, Ontario, a veteran vegetarian for 23 years serves up a 
-collection of delicious culinary creations from her kitchen, with an 
-emphasis on spicy Indian dishes and whole foods. If you want to know 
+Based in London, Ontario, a veteran vegetarian for 23 years serves up a
+collection of delicious culinary creations from her kitchen, with an
+emphasis on spicy Indian dishes and whole foods. If you want to know
 what sensible vegetarians eat, Lisa's Kitchen is the place to be.<br><div><a href="http://blog.food2fork.com/2013/07/whats-in-lisas-kitchen.html">An interview with Food2Fork.</a></div>
 </div>
 <div class="clear"></div>
@@ -1596,7 +1596,7 @@ what sensible vegetarians eat, Lisa's Kitchen is the place to be.<br><div><a hre
         min-width: 100px;
     }
     .eyb-widget {
-        background: url('http://c1522072.r72.cf0.rackcdn.com/widget-bg.png');        
+        background: url('http://c1522072.r72.cf0.rackcdn.com/widget-bg.png');
         min-width: 100px;
         max-width: 200px;
         height: 170px;
@@ -1607,7 +1607,7 @@ what sensible vegetarians eat, Lisa's Kitchen is the place to be.<br><div><a hre
     }
     .eyb-widget center {
         height: 67px;
-    } 
+    }
     .eyb-widget-count {
         color: #fff;
         display: block;
@@ -1633,7 +1633,7 @@ what sensible vegetarians eat, Lisa's Kitchen is the place to be.<br><div><a hre
         width: 100%;
     }
     .eyb-widget-search {
-        background: url('http://c1522072.r72.cf0.rackcdn.com/widget-eyb-button.png') top;        
+        background: url('http://c1522072.r72.cf0.rackcdn.com/widget-eyb-button.png') top;
         width: 119px;
         height: 34px;
         line-height: 30px;
@@ -2059,7 +2059,7 @@ EXd.write("<img src=http://e0.extreme-dm.com",
 "/"+EXvsrv+".g?login="+EXlogin+"&amp;",
 "jv="+EXjv+"&amp;j=y&amp;srw="+EXw+"&amp;srb="+EXb+"&amp;",
 "l="+escape(EXd.referrer)+" height=1 width=1>");//-->
-</script><img src="foodandspice_files/s9.gif" height="1" width="1"><noscript><div id="neXTReMe"><img width="1" alt="" height="1" 
+</script><img src="foodandspice_files/s9.gif" height="1" width="1"><noscript><div id="neXTReMe"><img width="1" alt="" height="1"
 src="http://e0.extreme-dm.com/s9.g?login=lisafood&amp;j=n&amp;jv=n"/>
 </div></noscript></div>
 </div>
@@ -2089,10 +2089,10 @@ src="http://e0.extreme-dm.com/s9.g?login=lisafood&amp;j=n&amp;jv=n"/>
 <div class="widget-content">
 <!-- Start of StatCounter Code -->
 <script language="javascript" type="text/javascript">
-var sc_project=2369349; 
-var sc_invisible=0; 
-var sc_partition=22; 
-var sc_security="f5c0e3c0"; 
+var sc_project=2369349;
+var sc_invisible=0;
+var sc_partition=22;
+var sc_security="f5c0e3c0";
 </script>
 
 <script language="javascript" src="foodandspice_files/counter_002.js" type="text/javascript"></script><span class="statcounter"><a class="statcounter" href="http://www.statcounter.com/" target="_blank"><img src="foodandspice_files/t.gif" alt="StatCounter - Free Web Tracker and Counter" border="0"></a></span>
@@ -2340,17 +2340,17 @@ google_color_text="333333";
 </div><div class="widget HTML" id="HTML8">
 <div class="widget-content">
 <script type="text/javascript" src="foodandspice_files/addthis_widget.js"></script>
-<script type="text/javascript"> 
+<script type="text/javascript">
 document.doAT = function(cl)
 {
         var myclass = new RegExp('hentry');
         var myTitleContainer = new RegExp('post-title');
         var myPostContent = new RegExp('post-footer');
         var elem = this.getElementsByTagName('div');
-        for (var i = 0; i < elem.length; i++) 
+        for (var i = 0; i < elem.length; i++)
         {
             var classes = elem[i].className;
-            if (myclass.test(classes)) 
+            if (myclass.test(classes))
             {
                 var container = elem[i];
                 for (var b = 0; b < container.childNodes.length; b++)
@@ -2373,10 +2373,10 @@ document.doAT = function(cl)
                             url = window.location.href;
                         }
                     var singleq = new RegExp("'", 'g');
-                    var doubleq = new RegExp('"', 'g');                                                                                                                                                                                                                          
+                    var doubleq = new RegExp('"', 'g');
                     title = title.replace(singleq, '&#39;', 'gi');
                     title = title.replace(doubleq, '&#34;', 'gi');
-                    
+
                     }
                     if (myPostContent.test(item))
                     {
@@ -2415,7 +2415,7 @@ document.doAT('hentry');
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/search?updated-min=2015-01-01T00:00:00-05:00&amp;updated-max=2016-01-01T00:00:00-05:00&amp;max-results=50">
@@ -2428,7 +2428,7 @@ document.doAT('hentry');
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2015_09_01_archive.html">
@@ -2443,7 +2443,7 @@ September
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2015_08_01_archive.html">
@@ -2458,7 +2458,7 @@ August
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2015_07_01_archive.html">
@@ -2473,7 +2473,7 @@ July
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2015_06_01_archive.html">
@@ -2488,7 +2488,7 @@ June
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2015_05_01_archive.html">
@@ -2503,7 +2503,7 @@ May
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2015_04_01_archive.html">
@@ -2518,7 +2518,7 @@ April
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2015_03_01_archive.html">
@@ -2533,7 +2533,7 @@ March
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2015_02_01_archive.html">
@@ -2548,7 +2548,7 @@ February
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2015_01_01_archive.html">
@@ -2565,7 +2565,7 @@ January
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/search?updated-min=2014-01-01T00:00:00-05:00&amp;updated-max=2015-01-01T00:00:00-05:00&amp;max-results=50">
@@ -2578,7 +2578,7 @@ January
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2014_12_01_archive.html">
@@ -2593,7 +2593,7 @@ December
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2014_11_01_archive.html">
@@ -2608,7 +2608,7 @@ November
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2014_10_01_archive.html">
@@ -2623,7 +2623,7 @@ October
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2014_09_01_archive.html">
@@ -2638,7 +2638,7 @@ September
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2014_08_01_archive.html">
@@ -2653,7 +2653,7 @@ August
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2014_07_01_archive.html">
@@ -2668,7 +2668,7 @@ July
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2014_06_01_archive.html">
@@ -2683,7 +2683,7 @@ June
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2014_05_01_archive.html">
@@ -2698,7 +2698,7 @@ May
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2014_04_01_archive.html">
@@ -2713,7 +2713,7 @@ April
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2014_03_01_archive.html">
@@ -2728,7 +2728,7 @@ March
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2014_02_01_archive.html">
@@ -2743,7 +2743,7 @@ February
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2014_01_01_archive.html">
@@ -2760,7 +2760,7 @@ January
 <span class="zippy toggle-open">
 
         ▼&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/search?updated-min=2013-01-01T00:00:00-05:00&amp;updated-max=2014-01-01T00:00:00-05:00&amp;max-results=50">
@@ -2773,7 +2773,7 @@ January
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2013_12_01_archive.html">
@@ -2788,7 +2788,7 @@ December
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2013_11_01_archive.html">
@@ -2803,7 +2803,7 @@ November
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2013_10_01_archive.html">
@@ -2818,7 +2818,7 @@ October
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2013_09_01_archive.html">
@@ -2833,7 +2833,7 @@ September
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2013_08_01_archive.html">
@@ -2848,7 +2848,7 @@ August
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2013_07_01_archive.html">
@@ -2863,7 +2863,7 @@ July
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2013_06_01_archive.html">
@@ -2878,7 +2878,7 @@ June
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2013_05_01_archive.html">
@@ -2893,7 +2893,7 @@ May
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2013_04_01_archive.html">
@@ -2908,7 +2908,7 @@ April
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2013_03_01_archive.html">
@@ -2923,7 +2923,7 @@ March
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2013_02_01_archive.html">
@@ -2938,7 +2938,7 @@ February
 <span class="zippy toggle-open">
 
         ▼&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2013_01_01_archive.html">
@@ -2975,7 +2975,7 @@ January
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/search?updated-min=2012-01-01T00:00:00-05:00&amp;updated-max=2013-01-01T00:00:00-05:00&amp;max-results=50">
@@ -2988,7 +2988,7 @@ January
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2012_12_01_archive.html">
@@ -3003,7 +3003,7 @@ December
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2012_11_01_archive.html">
@@ -3018,7 +3018,7 @@ November
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2012_10_01_archive.html">
@@ -3033,7 +3033,7 @@ October
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2012_09_01_archive.html">
@@ -3048,7 +3048,7 @@ September
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2012_08_01_archive.html">
@@ -3063,7 +3063,7 @@ August
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2012_07_01_archive.html">
@@ -3078,7 +3078,7 @@ July
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2012_06_01_archive.html">
@@ -3093,7 +3093,7 @@ June
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2012_05_01_archive.html">
@@ -3108,7 +3108,7 @@ May
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2012_04_01_archive.html">
@@ -3123,7 +3123,7 @@ April
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2012_03_01_archive.html">
@@ -3138,7 +3138,7 @@ March
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2012_02_01_archive.html">
@@ -3153,7 +3153,7 @@ February
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2012_01_01_archive.html">
@@ -3170,7 +3170,7 @@ January
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/search?updated-min=2011-01-01T00:00:00-05:00&amp;updated-max=2012-01-01T00:00:00-05:00&amp;max-results=50">
@@ -3183,7 +3183,7 @@ January
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2011_12_01_archive.html">
@@ -3198,7 +3198,7 @@ December
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2011_11_01_archive.html">
@@ -3213,7 +3213,7 @@ November
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2011_10_01_archive.html">
@@ -3228,7 +3228,7 @@ October
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2011_09_01_archive.html">
@@ -3243,7 +3243,7 @@ September
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2011_08_01_archive.html">
@@ -3258,7 +3258,7 @@ August
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2011_07_01_archive.html">
@@ -3273,7 +3273,7 @@ July
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2011_06_01_archive.html">
@@ -3288,7 +3288,7 @@ June
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2011_05_01_archive.html">
@@ -3303,7 +3303,7 @@ May
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2011_04_01_archive.html">
@@ -3318,7 +3318,7 @@ April
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2011_03_01_archive.html">
@@ -3333,7 +3333,7 @@ March
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2011_02_01_archive.html">
@@ -3348,7 +3348,7 @@ February
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2011_01_01_archive.html">
@@ -3365,7 +3365,7 @@ January
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/search?updated-min=2010-01-01T00:00:00-05:00&amp;updated-max=2011-01-01T00:00:00-05:00&amp;max-results=50">
@@ -3378,7 +3378,7 @@ January
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2010_12_01_archive.html">
@@ -3393,7 +3393,7 @@ December
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2010_11_01_archive.html">
@@ -3408,7 +3408,7 @@ November
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2010_10_01_archive.html">
@@ -3423,7 +3423,7 @@ October
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2010_09_01_archive.html">
@@ -3438,7 +3438,7 @@ September
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2010_08_01_archive.html">
@@ -3453,7 +3453,7 @@ August
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2010_07_01_archive.html">
@@ -3468,7 +3468,7 @@ July
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2010_06_01_archive.html">
@@ -3483,7 +3483,7 @@ June
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2010_05_01_archive.html">
@@ -3498,7 +3498,7 @@ May
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2010_04_01_archive.html">
@@ -3513,7 +3513,7 @@ April
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2010_03_01_archive.html">
@@ -3528,7 +3528,7 @@ March
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2010_02_01_archive.html">
@@ -3543,7 +3543,7 @@ February
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2010_01_01_archive.html">
@@ -3560,7 +3560,7 @@ January
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/search?updated-min=2009-01-01T00:00:00-05:00&amp;updated-max=2010-01-01T00:00:00-05:00&amp;max-results=50">
@@ -3573,7 +3573,7 @@ January
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2009_12_01_archive.html">
@@ -3588,7 +3588,7 @@ December
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2009_11_01_archive.html">
@@ -3603,7 +3603,7 @@ November
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2009_10_01_archive.html">
@@ -3618,7 +3618,7 @@ October
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2009_09_01_archive.html">
@@ -3633,7 +3633,7 @@ September
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2009_08_01_archive.html">
@@ -3648,7 +3648,7 @@ August
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2009_07_01_archive.html">
@@ -3663,7 +3663,7 @@ July
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2009_06_01_archive.html">
@@ -3678,7 +3678,7 @@ June
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2009_05_01_archive.html">
@@ -3693,7 +3693,7 @@ May
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2009_04_01_archive.html">
@@ -3708,7 +3708,7 @@ April
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2009_03_01_archive.html">
@@ -3723,7 +3723,7 @@ March
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2009_02_01_archive.html">
@@ -3738,7 +3738,7 @@ February
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2009_01_01_archive.html">
@@ -3755,7 +3755,7 @@ January
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/search?updated-min=2008-01-01T00:00:00-05:00&amp;updated-max=2009-01-01T00:00:00-05:00&amp;max-results=50">
@@ -3768,7 +3768,7 @@ January
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2008_12_01_archive.html">
@@ -3783,7 +3783,7 @@ December
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2008_11_01_archive.html">
@@ -3798,7 +3798,7 @@ November
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2008_10_01_archive.html">
@@ -3813,7 +3813,7 @@ October
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2008_09_01_archive.html">
@@ -3828,7 +3828,7 @@ September
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2008_08_01_archive.html">
@@ -3843,7 +3843,7 @@ August
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2008_07_01_archive.html">
@@ -3858,7 +3858,7 @@ July
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2008_06_01_archive.html">
@@ -3873,7 +3873,7 @@ June
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2008_05_01_archive.html">
@@ -3888,7 +3888,7 @@ May
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2008_04_01_archive.html">
@@ -3903,7 +3903,7 @@ April
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2008_03_01_archive.html">
@@ -3918,7 +3918,7 @@ March
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2008_02_01_archive.html">
@@ -3933,7 +3933,7 @@ February
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2008_01_01_archive.html">
@@ -3950,7 +3950,7 @@ January
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/search?updated-min=2007-01-01T00:00:00-05:00&amp;updated-max=2008-01-01T00:00:00-05:00&amp;max-results=50">
@@ -3963,7 +3963,7 @@ January
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2007_12_01_archive.html">
@@ -3978,7 +3978,7 @@ December
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2007_11_01_archive.html">
@@ -3993,7 +3993,7 @@ November
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2007_10_01_archive.html">
@@ -4008,7 +4008,7 @@ October
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2007_09_01_archive.html">
@@ -4023,7 +4023,7 @@ September
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2007_08_01_archive.html">
@@ -4038,7 +4038,7 @@ August
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2007_07_01_archive.html">
@@ -4053,7 +4053,7 @@ July
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2007_06_01_archive.html">
@@ -4068,7 +4068,7 @@ June
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2007_05_01_archive.html">
@@ -4083,7 +4083,7 @@ May
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2007_04_01_archive.html">
@@ -4098,7 +4098,7 @@ April
 <span class="zippy">
 
         ►&nbsp;
-      
+
 </span>
 </a>
 <a class="post-count-link" href="http://foodandspice.blogspot.com/2007_03_01_archive.html">
@@ -4129,17 +4129,17 @@ March
 <div class="sidebar section" id="sidebar-right-3"><div class="widget HTML" id="HTML7">
 <div class="widget-content">
 <script type="text/javascript" src="foodandspice_files/addthis_widget.js"></script>
-<script type="text/javascript"> 
+<script type="text/javascript">
 document.doAT = function(cl)
 {
         var myclass = new RegExp('hentry');
         var myTitleContainer = new RegExp('post-title');
         var myPostContent = new RegExp('post-footer');
         var elem = this.getElementsByTagName('div');
-        for (var i = 0; i < elem.length; i++) 
+        for (var i = 0; i < elem.length; i++)
         {
             var classes = elem[i].className;
-            if (myclass.test(classes)) 
+            if (myclass.test(classes))
             {
                 var container = elem[i];
                 for (var b = 0; b < container.childNodes.length; b++)
@@ -4162,10 +4162,10 @@ document.doAT = function(cl)
                             url = window.location.href;
                         }
                     var singleq = new RegExp("'", 'g');
-                    var doubleq = new RegExp('"', 'g');                                                                                                                                                                                                                          
+                    var doubleq = new RegExp('"', 'g');
                     title = title.replace(singleq, '&#39;', 'gi');
                     title = title.replace(doubleq, '&#34;', 'gi');
-                    
+
                     }
                     if (myPostContent.test(item))
                     {
@@ -4320,7 +4320,7 @@ document.getElementById("Header1_headerimg").setAttribute("nopin","nopin");
   margin: 2em 0;
   float: left;
 }
- 
+
 .related-posts ul li {
   list-style: none;
   margin: 0 5px;
@@ -4330,33 +4330,33 @@ document.getElementById("Header1_headerimg").setAttribute("nopin","nopin");
 </style>
 <script src="foodandspice_files/jquery_002.js"></script>
 <script>
- 
+
 //<![CDATA[
 $(document).ready(function() {
-    
-    
-    
+
+
+
     //CODE OPTIONS
-    
-    
-    var maxSearched = 500; 
-    var minimum = 3; 
-    var maximum = 4; 
-    var imageSize = 150; 
-    var roundImages = false; 
-    var relatedTitle = true; 
+
+
+    var maxSearched = 500;
+    var minimum = 3;
+    var maximum = 4;
+    var imageSize = 150;
+    var roundImages = false;
+    var relatedTitle = true;
     var labelInTitle = false;
-    var relatedTitleText = "Suggested Ideas from Lisa's Kitchen"; 
-    var defaultImage = "https://lh3.googleusercontent.com/-1cwfutkQqvk/UlwfXOHjKQI/AAAAAAAAAHk/ShcFTlxejlo/w554-h552-no/gplus_profile.gif"; 
-    var campaignTracking = false; 
-    var campaignSource = ""; 
-    var campaignMedium = ""; 
-    var campaignName = ""; 
-    var insertBefore = $('.post-footer'); 
-    
-    
+    var relatedTitleText = "Suggested Ideas from Lisa's Kitchen";
+    var defaultImage = "https://lh3.googleusercontent.com/-1cwfutkQqvk/UlwfXOHjKQI/AAAAAAAAAHk/ShcFTlxejlo/w554-h552-no/gplus_profile.gif";
+    var campaignTracking = false;
+    var campaignSource = "";
+    var campaignMedium = "";
+    var campaignName = "";
+    var insertBefore = $('.post-footer');
+
+
     //END CODE OPTIONS - DO NOT EDIT BELOW THIS LINE
- 
+
 var labels=[];var label;var alternateLabel;var minposts=minimum-1;var postlabels=$(".post-labels a");if(postlabels.length===1){label=postlabels.text().trim()}else if(postlabels.length>1){$(postlabels).each(function(){labels.push($(this).text().trim())});label=labels[Math.floor(labels.length*Math.random())];var labelLocation=labels.indexOf(label);if(labelLocation===labels.length-1){alternateLabel=labels[labelLocation-1]}else{alternateLabel=labels[labelLocation+1]}}if(label!==undefined){var title=$(".entry-title").text().trim();var labelCount=0;var alternateLabelCount=0;var matches=[];var url=$('link[rel="alternate"][title*="Atom"]').eq(0).attr("href");$.ajax({url:url,data:{"max-results":maxSearched,alt:"json-in-script"},dataType:"jsonp",success:function(e){$.each(e.feed.entry,function(t,n){if(e.feed.entry[t].category!==undefined){var r=[];for(var i=0;i<e.feed.entry[t].category.length;i++){r.push(e.feed.entry[t].category[i].term)}if($.inArray(label,r)!==-1){labelCount++}if($.inArray(alternateLabel,r)!==-1){alternateLabelCount++}}});if(labelCount<=minposts&&alternateLabelCount>=minposts){label=alternateLabel}$.each(e.feed.entry,function(t,n){if(e.feed.entry[t].category!==undefined){var r=[];for(var i=0;i<e.feed.entry[t].category.length;i++){r.push(e.feed.entry[t].category[i].term)}if($.inArray(label,r)!==-1){var s=e.feed.entry[t].title.$t.trim();if(s!==title){var o;for(var u=0;u<e.feed.entry[t].link.length;u++){if(e.feed.entry[t].link[u].rel==="alternate"){o=e.feed.entry[t].link[u].href}}var a;if(e.feed.entry[t].media$thumbnail!==undefined){a=e.feed.entry[t].media$thumbnail.url.split(/s72-c/).join("s"+imageSize+"-c")}else{a=defaultImage}if(matches.length<maxSearched&&campaignTracking===false){matches.push('<li><a href="'+o+'"><img src="'+a+'" alt="'+s+'" nopin="nopin">'+s+"</a></li>")}else if(matches.length<maxSearched&&campaignTracking===true){matches.push('<li><a href="'+o+"?utm_source="+campaignSource+"&utm_medium="+campaignMedium+"&utm_campaign="+campaignName+'"><img src="'+a+'" alt="'+s+'" nopin="nopin">'+s+"</a></li>")}}}}});if(matches.length>=minimum){if(relatedTitle===true&&labelInTitle===true){insertBefore.before('<div class="related-posts"><span style="font-size: x-large;">'+relatedTitleText+' </span><span class="related-term">'+label+"</span><ul></ul></div>")}else if(relatedTitle===true&&labelInTitle===false){insertBefore.before('<div class="related-posts"><span style="font-size: x-large;">'+relatedTitleText+"</span><ul></ul></div>")}else{insertBefore.before('<div class="related-posts"><ul></ul></div>')}matches.sort(function(){return.5-Math.random()});for(var t=0;t<maximum;t++){$(".related-posts ul").append(matches[t])}}insertBefore.css("clear","both");$(".related-posts ul li").css("max-width",imageSize);$(".related-posts ul li img").css({"max-width":imageSize,height:imageSize});if(roundImages===true){$(".related-posts ul li img").css("border-radius","50%")}}})}
 });
 //]]>
@@ -4427,5 +4427,5 @@ _WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1
 <div class="cookie-choices-info singleton-element" id="cookieChoiceInfo"><div class="cookie-choices-inner"><span class="cookie-choices-text">Този
  сайт използва „бисквитки“ от Google за предоставяне на услугите в него,
  за персонализиране на рекламите и за анализ на трафика. Информацията за
- ползването му от ваша страна се споделя с Google. С използването на 
+ ползването му от ваша страна се споделя с Google. С използването на
 този сайт вие се съгласявате с употребата на „бисквитки“.</span><span class="cookie-choices-buttons"><a class="cookie-choices-button" target="_blank" href="https://www.blogger.com/go/blogspot-cookies">Научете повече</a><a class="cookie-choices-button" href="#" id="cookieChoiceDismiss">Разбрах</a></span></div></div><table class="gstl_50 gssb_c" style="width: 276px; display: none; top: 449px; left: 854px; position: absolute;" cellpadding="0" cellspacing="0"><tbody><tr><td class="gssb_f"></td><td style="width: 100%;" class="gssb_e"></td></tr></tbody></table><link href="foodandspice_files/1185134592-lightbox_bundle.css" rel="stylesheet" type="text/css"><script src="foodandspice_files/3628805195-lbx.js" type="text/javascript"></script></body></html>

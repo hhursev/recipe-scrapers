@@ -35,7 +35,7 @@
 			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/naturallyella.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.4"}};
 			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script><script type="text/javascript" src="naturellyella_files/wp-emoji-release.js"></script>
-		
+
 <!-- Styles -->
 <style type="text/css">
 img.wp-smiley,
@@ -88,7 +88,7 @@ var swiftypeParams = {"engineKey":"L7JKx1yqgsxMLJmysr7x"};
 <meta property="pl-share-desc" content="In a way I feel slightly guilty posting about avocados. I have a refrigerator brimming [...]">
 <meta property="pl-share-img" content="http://32lxcujgg9-flywheel.netdna-ssl.com/wp-content/uploads/2012/06/IMG_9344.jpg">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://naturallyella.com/xmlrpc.php?rsd">
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://naturallyella.com/wp-includes/wlwmanifest.xml"> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://naturallyella.com/wp-includes/wlwmanifest.xml">
 <meta name="generator" content="WordPress 4.2.4">
 <link rel="shortlink" href="http://naturallyella.com/?p=9706">
 
@@ -143,7 +143,7 @@ var swiftypeParams = {"engineKey":"L7JKx1yqgsxMLJmysr7x"};
 
 				//]]></script>
 				<!-- End WordPress Popular Posts v3.2.3 -->
-				
+
 <!-- On Ready -->
 <script> /* <![CDATA[ */
 !function ($) {
@@ -163,7 +163,7 @@ html body div.easyrecipe .ERSIngredients li.ingredient { list-style-type: none!i
   arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
   d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
   insertBefore(d,q)}(window,document,'script','_gs');
-  
+
   _gs('GSN-618340-O');
 </script>
 
@@ -197,7 +197,7 @@ html body div.easyrecipe .ERSIngredients li.ingredient { list-style-type: none!i
   })(); </script>
 
 <style type="text/css" id="pagelines-custom">
-  
+
 </style><link media="all" href="naturellyella_files/css.css" rel="stylesheet">
 
 <style type="text/css">a.PIN_1442072458670_pin_it_button_20 { cursor: pointer!important; background-repeat: none!important; background-size: 40px 60px!important; height: 20px!important; padding: 0!important; vertical-align: baseline!important; text-decoration: none!important; width: 40px!important; background-position: 0 -20px }
@@ -308,13 +308,13 @@ a.PIN_1442072458670_embed_grid_ft span.PIN_1442072458670_embed_grid_ft_logo { ve
 <!-- Start >> HTML Body -->
 
 <body class="single single-post postid-9706 single-format-standard naturally2015 pl-pro-version responsive full_width template-neblogpost display-full pl-res-desktop">
-	
+
 		<div class="pl-mobile-menu">
-			
-			<form method="get" class="mm-search pl-searcher" onsubmit="this.submit();return false;" action="http://naturallyella.com/"><fieldset><span class="btn-search"><i class="icon icon-search"></i></span><input autocomplete="off" name="s" class="searchfield" placeholder="Search" type="text"></fieldset></form>				
+
+			<form method="get" class="mm-search pl-searcher" onsubmit="this.submit();return false;" action="http://naturallyella.com/"><fieldset><span class="btn-search"><i class="icon icon-search"></i></span><input autocomplete="off" name="s" class="searchfield" placeholder="Search" type="text"></fieldset></form>
 			<div class="mm-holder">
-				
-				
+
+
 				<ul id="menu-main-menu" class="mobile-menu primary-menu"><li id="menu-item-18642" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-18642"><a href="http://naturallyella.com/">Home</a></li>
 <li id="menu-item-18643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18643"><a href="http://naturallyella.com/recipes/">Recipes</a>
 <ul class="sub-menu">
@@ -382,11 +382,11 @@ a.PIN_1442072458670_embed_grid_ft span.PIN_1442072458670_embed_grid_ft_logo { ve
 </li>
 <li id="menu-item-18684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18684"><a href="http://naturallyella.com/homemade-flour-cookbook/">Cookbooks</a></li>
 </ul>				<div class="social-menu">
-					
+
 									</div>
 			</div>
 		</div>
-		
+
 
 <div id="site" class="site-wrap">
 		<div class="boxed-wrap site-translate">
@@ -394,7 +394,7 @@ a.PIN_1442072458670_embed_grid_ft span.PIN_1442072458670_embed_grid_ft_logo { ve
 
 		<div class="pl-fixed-region pl-region" data-region="fixed">
 			<div class="outline pl-area-container">
-								
+
 
 <!-- Canvas Area | Section Template -->
 <section id="pl_areauedd41" data-object="PLSectionArea" data-sid="pl_area" data-clone="uedd41" class="pl-area pl-area-sortable area-tag fixed-header    pl-bg-cover section-pl_area" style=" background-color: #EBE9E6; "><div class="pl-area-pad fix">	<div class="pl-area-wrap " style="padding-top: 20px; padding-bottom: 20px;">
@@ -536,16 +536,16 @@ a.PIN_1442072458670_embed_grid_ft span.PIN_1442072458670_embed_grid_ft_logo { ve
 	<div style="height: 48px;" class="fixed-top-pusher"></div>
 	<script> jQuery('.fixed-top-pusher').height( jQuery('.pl-fixed-top').height() ) </script>
 
-			
-		
+
+
 		<div class="pl-region-wrap">
 			<div id="page" class="thepage page-wrap">
 
 								<div class="page-canvas">
-					
+
 						<header id="header" class="header pl-region" data-region="header">
 		<div class="outline pl-area-container">
-			
+
 
 <!-- Canvas Area | Section Template -->
 <section id="pl_areaubea7c" data-object="PLSectionArea" data-sid="pl_area" data-clone="ubea7c" class="pl-area pl-area-sortable area-tag mobile-header    pl-bg-cover section-pl_area" style="  "><div class="pl-area-pad fix">	<div class="pl-area-wrap " style="padding-top: 20px; padding-bottom: 20px;">
@@ -558,9 +558,9 @@ a.PIN_1442072458670_embed_grid_ft span.PIN_1442072458670_embed_grid_ft_logo { ve
 <section id="naviuk7trre" data-object="PLNavi" data-sid="navi" data-clone="uk7trre" class="pl-section span12 offset0 mobile_navi    pl-bg-cover section-navi" style="  "><div class="pl-section-pad fix">	<div class="navi-wrap  fix">
 		<div class="navi-left navi-container">
 
-							
+
 				<a href="http://naturallyella.com/"><img src="naturellyella_files/ne_logo.png" data-sync="navi_logo" alt="Naturally Ella" title="Naturally Ella"></a>
-			
+
 					</div>
 		<div class="navi-right">
 			<ul id="menu-main-menu-1" class="inline-list pl-nav sf-menu respond dd-theme-dark dd-toggle-hover sf-js-enabled sf-arrows"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-18642"><a href="http://naturallyella.com/">Home</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sf-with-ul menu-item-18643"><a class="sf-with-ul" href="http://naturallyella.com/recipes/">Recipes<span class="sub-indicator"><i class="icon icon-angle-down"></i></span></a><ul style="display: none; visibility: visible;" class="sub-menu">	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18649"><a class="sf-with-ul" href="http://naturallyella.com/recipes/">By Category<span class="sub-indicator"><i class="icon icon-angle-right"></i></span></a>	<ul style="display: none; visibility: visible;" class="sub-menu">		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18650"><a href="http://naturallyella.com/recipes/appetizers/">Appetizer</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18661"><a href="http://naturallyella.com/recipes/breads/">Breads</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18662"><a href="http://naturallyella.com/recipes/breakfast/">Breakfast</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18663"><a href="http://naturallyella.com/recipes/desserts/">Desserts</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18664"><a href="http://naturallyella.com/recipes/diy-recipes/">DIY Recipes</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18651"><a href="http://naturallyella.com/recipes/eggs/">Egg</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18652"><a href="http://naturallyella.com/recipes/grilling/">Grilling</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18645"><a href="http://naturallyella.com/recipes/homemade-flour/">Homemade Flour</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18653"><a href="http://naturallyella.com/recipes/lunch/">Lunch</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18654"><a href="http://naturallyella.com/recipes/vegetarian-main-courses/">Main Courses</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18655"><a href="http://naturallyella.com/recipes/pasta/">Pasta</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18656"><a href="http://naturallyella.com/recipes/pizza/">Pizza</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18646"><a href="http://naturallyella.com/recipes/salads/">Salads</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18657"><a href="http://naturallyella.com/recipes/sandwiches/">Sandwich</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18647"><a href="http://naturallyella.com/recipes/side-dishes/">Side Dishes</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18658"><a href="http://naturallyella.com/recipes/skillets/">Skillet</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18659"><a href="http://naturallyella.com/recipes/spring-rolls/">Spring Roll</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18648"><a href="http://naturallyella.com/recipes/soup/">Soup</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18660"><a href="http://naturallyella.com/recipes/tacos/">Tacos</a></li>	</ul></li>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18665"><a class="sf-with-ul" href="http://naturallyella.com/seasonal-fare/">Seasons<span class="sub-indicator"><i class="icon icon-angle-right"></i></span></a>	<ul style="display: none; visibility: visible;" class="sub-menu">		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18667"><a href="http://naturallyella.com/seasonal-fare/spring/">Spring</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18668"><a href="http://naturallyella.com/seasonal-fare/summer/">Summer</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18666"><a href="http://naturallyella.com/seasonal-fare/fall/">Fall</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18669"><a href="http://naturallyella.com/seasonal-fare/winter/">Winter</a></li>	</ul></li>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18670"><a class="sf-with-ul" href="http://naturallyella.com/bulk-bins/">Bulk Bins<span class="sub-indicator"><i class="icon icon-angle-right"></i></span></a>	<ul style="display: none; visibility: visible;" class="sub-menu">		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18673"><a href="http://naturallyella.com/bulk-bins/grains/">Grains (Gluten Based)</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18671"><a href="http://naturallyella.com/bulk-bins/gluten-free-grains/">Gluten Free Grains</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18674"><a href="http://naturallyella.com/bulk-bins/legumes/">Legumes</a></li>	</ul></li>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18672"><a class="sf-with-ul" href="http://naturallyella.com/special-diets/">Special Diets<span class="sub-indicator"><i class="icon icon-angle-right"></i></span></a>	<ul style="display: none; visibility: visible;" class="sub-menu">		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18677"><a href="http://naturallyella.com/special-diets/vegetarian/">Vegetarian</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18675"><a href="http://naturallyella.com/special-diets/vegan/">Vegan</a></li>		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18676"><a href="http://naturallyella.com/special-diets/gluten-free/">Gluten Free</a></li>	</ul></li></ul></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sf-with-ul menu-item-18681"><a class="sf-with-ul" href="http://naturallyella.com/resources/">Resources<span class="sub-indicator"><i class="icon icon-angle-down"></i></span></a><ul style="display: none; visibility: visible;" class="sub-menu">	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18685"><a href="http://naturallyella.com/2013/04/25/homemade-inspirations/">Homemade Inspirations</a></li>	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18688"><a href="http://naturallyella.com/2014/07/16/sourcing-ingredients-links/">Sourcing Ingredients</a></li>	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18689"><a href="http://naturallyella.com/2013/09/24/stocking-a-whole-foods-pantry/">Stocking a Pantry</a></li>	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-20633"><a href="http://naturallyella.com/category/week-in-meals/">Week in Meals</a></li>	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18691"><a href="http://naturallyella.com/2012/08/10/canning-the-rundown-recipes-ideas-and-information/">Canning</a></li></ul></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18682"><a href="http://naturallyella.com/about/">About</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sf-with-ul menu-item-18683"><a class="sf-with-ul" href="http://naturallyella.com/contact/">Contact<span class="sub-indicator"><i class="icon icon-angle-down"></i></span></a><ul style="display: none; visibility: visible;" class="sub-menu">	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18692"><a href="http://naturallyella.com/contact/">Contact</a></li></ul></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18684"><a href="http://naturallyella.com/homemade-flour-cookbook/">Cookbooks</a></li><li class="popup-nav"><a class="menu-toggle mm-toggle respond"><i class="icon icon-reorder"></i></a></li></ul>
@@ -578,10 +578,10 @@ a.PIN_1442072458670_embed_grid_ft span.PIN_1442072458670_embed_grid_ft_logo { ve
 	</div></section>		</div>
 	</header>
 
-						
+
 					<div id="page-main" class="pl-region custom-template editing-locked" data-custom-template="neblogpost" data-template-name="NE Blog Post" data-region="template">
 						<div id="dynamic-content" class="outline template-region-wrap pl-area-container">
-							
+
 
 
 <!-- Canvas Area | Section Template -->
@@ -602,47 +602,47 @@ a.PIN_1442072458670_embed_grid_ft span.PIN_1442072458670_embed_grid_ft_logo { ve
 <p style="text-align: center;"><a href="http://32lxcujgg9-flywheel.netdna-ssl.com/wp-content/uploads/2012/06/IMG_9350.jpg"><img class="aligncenter  wp-image-9711" title="Spiced Black Bean, Grilled Avocado, and Goat Cheese Tacos" src="naturellyella_files/IMG_9350-682x1024.jpg" alt="" height="572" width="381"></a></p>
 <p style="text-align: left;">I have a refrigerator brimming with the local bounty of summer and I’m eating something grown from far away.</p>
 <p style="text-align: left;">I knew I wanted to make the switch to eating in season a<a href="http://www.animalvegetablemiracle.com/">fter reading Barbara Kingsolver’s Animal, Vegetable, Miracle</a>.
- &nbsp;While I’ve never been in one place long enough to really 
-cultivate my garden, I’ve been blessed to have a wonderful CSA that has 
-provided me with what I need through most of the months of the year. 
-&nbsp;I’m planning on canning and freezing more this summer in hopes of 
-getting through winter and ultimately weakening my dependence on 
+ &nbsp;While I’ve never been in one place long enough to really
+cultivate my garden, I’ve been blessed to have a wonderful CSA that has
+provided me with what I need through most of the months of the year.
+&nbsp;I’m planning on canning and freezing more this summer in hopes of
+getting through winter and ultimately weakening my dependence on
 international produce.</p>
 <p style="text-align: left;">However, I still have my one or two guilty pleasures.<span id="more-9706"></span></p>
 <p style="text-align: center;"><a href="http://32lxcujgg9-flywheel.netdna-ssl.com/wp-content/uploads/2012/06/IMG_9355.jpg"><img class="aligncenter  wp-image-9712" title="Spiced Black Bean, Grilled Avocado, and Goat Cheese Tacos" src="naturellyella_files/IMG_9355-682x1024.jpg" alt="" height="572" width="381"></a></p>
-<p style="text-align: left;">While living in midwest provides great 
-soil, it does not provide a suitable climate to grow citrus and 
-avocados. &nbsp;I love the flavor limes and lemons provide to many 
-dishes so I often have a couple stocked in my&nbsp;refrigerator. 
+<p style="text-align: left;">While living in midwest provides great
+soil, it does not provide a suitable climate to grow citrus and
+avocados. &nbsp;I love the flavor limes and lemons provide to many
+dishes so I often have a couple stocked in my&nbsp;refrigerator.
 &nbsp;And avocados? &nbsp;They are my guilty pleasure.</p>
-<p style="text-align: left;">Ever since traveling to Costa Rica three 
+<p style="text-align: left;">Ever since traveling to Costa Rica three
 years ago, I can’t get enough avocados. &nbsp;However, because I have so
- much lovely summer produce, I limit my purchasing of avocados to about 
-once a month. &nbsp;Every so often I get a craving that I just can’t 
+ much lovely summer produce, I limit my purchasing of avocados to about
+once a month. &nbsp;Every so often I get a craving that I just can’t
 over come.</p>
 <p style="text-align: left;">These tacos are a result of that craving.</p>
 <p style="text-align: center;"><a href="http://32lxcujgg9-flywheel.netdna-ssl.com/wp-content/uploads/2012/06/IMG_9344.jpg"><img class="aligncenter size-large wp-image-9710" title="Spiced Black Bean, Grilled Avocado, and Goat Cheese Tacos" src="naturellyella_files/IMG_9344-1024x682.jpg" alt="" height="422" width="635"></a></p>
 <p style="text-align: left;">I’m in the process of really learning about
  spices. &nbsp;This recipe calls for whole coriander and cumin seeds but
- you can easily substitute pre-ground spices. &nbsp;Also, these tacos 
-can easily be made vegan by leaving off the cheese and subbing in your 
+ you can easily substitute pre-ground spices. &nbsp;Also, these tacos
+can easily be made vegan by leaving off the cheese and subbing in your
 favorite sweetener for the honey.</p>
 <p>&nbsp;<br>
 </p><div class="easyrecipe" itemscope="" itemtype="http://schema.org/Recipe"> <link itemprop="image" href="naturellyella_files/IMG_9350-682x1024.jpg"> <div itemprop="name" class="ERSName"><span class="fn">Spiced Black Bean, Grilled Avocado, and Goat Cheese Tacos</span></div> <div class="ERSClear">&nbsp;</div> <div class="ERSTopRight"> <div class="ERSSavePrint"> <span class="ERSPrintBtnSpan"><a role="button" class="ERSPrintBtn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-primary" href="http://naturallyella.com/easyrecipe-print/9706-0/" rel="nofollow" target="_blank"><span class="ui-button-icon-primary ui-icon ERSPrintIcon"></span><span class="ui-button-text">Print</span></a></span> </div> </div> <div class="ERSTimes"> <div class="ERSTime"> <div class="ERSTimeHeading">Prep time</div> <div class="ERSTimeItem"> <time itemprop="prepTime" datetime="">10 mins<span class="value-title" title="PT10M"> </span></time> </div> </div> <div class="ERSTime ERSTimeRight"> <div class="ERSTimeHeading">Cook time</div> <div class="ERSTimeItem"> <time itemprop="cookTime" datetime="">15 mins<span class="value-title" title="PT15M"> </span></time> </div> </div> <div class="ERSTime ERSTimeRight"> <div class="ERSTimeHeading">Total time</div> <div class="ERSTimeItem"> <time itemprop="totalTime" datetime="">25 mins<span class="value-title" title="PT25M"> </span></time> </div> </div> <div class="ERSClearLeft">&nbsp;</div> </div> <div class="divERSHeadItems"> <div class="ERSAuthor">Author: <span itemprop="author">Erin Alderson</span></div> <div class="ERSCategory">Recipe type: <span itemprop="recipeCategory">Vegetarian Main Course</span></div> <div class="ERSServes">Serves: <span itemprop="recipeYield">2</span></div> </div> <div class="ERSIngredients"> <div class="ERSIngredientsHeader ERSHeading">Ingredients</div> <ul> <li class="ingredient" itemprop="ingredients">1 tablespoon coriander seeds</li> <li class="ingredient" itemprop="ingredients">½ tablespoon cumin seeds</li> <li class="ingredient" itemprop="ingredients">pinch dried pepper flakes</li> <li class="ingredient" itemprop="ingredients">½ cup black beans, with liquids</li> <li class="ingredient" itemprop="ingredients">1 avocado</li> <li class="ingredient" itemprop="ingredients">1 teaspoon olive oil</li> <li class="ingredient" itemprop="ingredients">juice and zest from ½ lime</li> <li class="ingredient" itemprop="ingredients">2 teaspoons honey</li> <li class="ingredient" itemprop="ingredients">¼ cup goat cheese</li> <li class="ingredient" itemprop="ingredients">4 corn or flour tortillas*</li> </ul> <div class="ERSClear"></div> </div> <div class="ERSInstructions"> <div class="ERSInstructionsHeader ERSHeading">Instructions</div> <ol> <li class="instruction" itemprop="recipeInstructions">Preheat Grill</li> <li class="instruction" itemprop="recipeInstructions">In
  a dry skillet over medium-low heat, toast the coriander and cumin seeds
  for 2-3 minutes. Seeds should be fragrant and beginning to brown. Place
  in a pestle with dried pepper flakes and crush until spices are ground.</li> <li class="instruction" itemprop="recipeInstructions">Return
- spices to the skillet and add ½ cup of black beans and liquids. Heat 
-over medium low and let cook until liquids have cooked out, anywhere 
+ spices to the skillet and add ½ cup of black beans and liquids. Heat
+over medium low and let cook until liquids have cooked out, anywhere
 from 5-10 minutes. Taste and adjust pepper if needed.</li> <li class="instruction" itemprop="recipeInstructions">Take
  avocado and slice in half. Brush with the one teaspoon of olive oil and
- place cut side down on grill. Let cook until lightly charred. Remove 
+ place cut side down on grill. Let cook until lightly charred. Remove
 and carefully slice avocado out of skin.</li> <li class="instruction" itemprop="recipeInstructions">To
- assemble tacos, place ¼ of the black bean mixture in the center of the 
-tortilla, layer avocado and goat cheese on top. Finally, whisk together 
-juice and zest from half a lime along with honey. Lightly drizzle over 
+ assemble tacos, place ¼ of the black bean mixture in the center of the
+tortilla, layer avocado and goat cheese on top. Finally, whisk together
+juice and zest from half a lime along with honey. Lightly drizzle over
 taco filling.</li> </ol> <div class="ERSClear"></div> </div> <div class="endeasyrecipe" title="style002a" style="display: none">2.2.6</div> </div><br>
-{After writing this post, I decided that it was time to share Animal, 
+{After writing this post, I decided that it was time to share Animal,
 Vegetable, Miracle and I’m currently holding a giveaway on <a href="https://www.facebook.com/naturallyella">my facebook page for two lucky people! &nbsp;Be sure to pop over and check it out!}</a><p></p>
 <div class="at-below-post addthis_default_style addthis_toolbox " data-title="Spiced Black Bean, Grilled Avocado, and Goat Cheese Tacos" data-url="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/"><div class="atclear"></div><div role="region" aria-labelledby="at-b22ae093-78ed-490d-b635-191065da4f1e" class="at4-jumboshare addthis-smartlayers"><div class="addthis-animated at4-show" id="at-jumboshare"><div class="at4-hide" id="at-b22ae093-78ed-490d-b635-191065da4f1e">AddThis Sharing</div><table><tr><td class="at4-count-container"><div style="color: rgb(85, 91, 100);" class="at4-count"><span class="at4-spacer">88.8K</span><span>8</span></div><div style="color: rgb(85, 91, 100);" class="at4-title">SHARES</div></td><td class="addthis_32x32_white_style at4-share-container"><a href="#" class="at4-share-btn at-svc-pinterest_share"><span class=" at4-icon aticon-pinterest_share"></span><span title="Pinterest" class="label">Pinterest</span></a><a href="#" class="at4-share-btn at-svc-facebook"><span class=" at4-icon aticon-facebook"></span><span title="Facebook" class="label">Facebook</span></a><a href="#" class="at4-share-btn at-svc-twitter"><span class=" at4-icon aticon-twitter"></span><span title="Twitter" class="label">Twitter</span></a><a href="#" class="at4-share-btn at-svc-compact"><span class=" at4-icon aticon-compact"></span><span title="More" class="label">More</span></a></td></tr></table></div></div></div><div data-title="Spiced Black Bean, Grilled Avocado, and Goat Cheese Tacos" data-url="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/" class="at-below-post-recommended addthis_default_style addthis_toolbox "><div class="atclear"></div><div class="at4-recommendedbox-outer-container addthis-smartlayers"><div class="at4-recommendedbox-outer at4-recommendedbox-right"><div aria-labelledby="at-recommended-label" role="region" class="at4-recommended at-right at4-minimal at4-recommended-recommendedbox at-medium at-inline addthis-animated at4-show" id="at4-recommendedbox"><div class="at-h3 at-recommended-label">More Recipes You Might Like</div><div class="at4-recommended-container at4-recommended-horizontal"><div class="at4-recommended-item at4-recommended-div-item"><div class="at4-recommended-item-img"><a title="Peanut Butter Oatmeal Cookies with Chocolate Chips" href="http://m.addthis.com/live/redirect/?url=http%3A%2F%2Fnaturallyella.com%2Fpeanut-butter-oatmeal-cookies-with-chocolate-chips%2F%23at_pco%3Dsmlrebh-1.0%26at_si%3D55f4478dbcc066ee%26at_ab%3Dper-2%26at_pos%3D0%26at_tot%3Dauto&amp;uid=x&amp;pub=ra-4ddc655266769955&amp;rev=v2.5.2-wp&amp;per=undefined&amp;pco=smlrebh-1.0"><img style="height: 255px; width: 170px; top: -58px;" data-secure="" alt="Peanut Butter Oatmeal Cookies with Chocolate Chips" src="naturellyella_files/Peanut-Butter-Oatmeal-Cookies-3.jpg" class="at-tli"></a></div><div class="at4-recommended-item-caption"><div class="at-h4"><a title="Peanut Butter Oatmeal Cookies with Chocolate Chips" href="http://m.addthis.com/live/redirect/?url=http%3A%2F%2Fnaturallyella.com%2Fpeanut-butter-oatmeal-cookies-with-chocolate-chips%2F%23at_pco%3Dsmlrebh-1.0%26at_si%3D55f4478dbcc066ee%26at_ab%3Dper-2%26at_pos%3D0%26at_tot%3Dauto&amp;uid=x&amp;pub=ra-4ddc655266769955&amp;rev=v2.5.2-wp&amp;per=undefined&amp;pco=smlrebh-1.0" class="at-recommendedTitle">Peanut Butter Oatmeal Cookies with Chocolate Chips</a></div><small>naturallyella.com</small></div></div><div class="at4-recommended-item at4-recommended-div-item"><div class="at4-recommended-item-img"><a title="Roasted Vegetable + Chickpea Bowl with Cilantro Cashew Cream (and Magimix Review) | Naturally Ella" href="http://m.addthis.com/live/redirect/?url=http%3A%2F%2Fnaturallyella.com%2Froasted-vegetable-chickpea-bowl-with-cilantro-cashew-cream%2F%23at_pco%3Dsmlrebh-1.0%26at_si%3D55f4478dbcc066ee%26at_ab%3Dper-2%26at_pos%3D1%26at_tot%3Dauto&amp;uid=x&amp;pub=ra-4ddc655266769955&amp;rev=v2.5.2-wp&amp;per=undefined&amp;pco=smlrebh-1.0"><img style="height: 256px; width: 170px; top: -58px;" data-secure="" alt="Roasted Vegetable + Chickpea Bowl with Cilantro Cashew Cream (and Magimix Review) | Naturally Ella" src="naturellyella_files/Roasted-Vegetables-and-Chickpea-Bowl-with-Cilantro-Cashew-Cr.jpg" class="at-tli"></a></div><div class="at4-recommended-item-caption"><div class="at-h4"><a title="Roasted Vegetable + Chickpea Bowl with Cilantro Cashew Cream (and Magimix Review) | Naturally Ella" href="http://m.addthis.com/live/redirect/?url=http%3A%2F%2Fnaturallyella.com%2Froasted-vegetable-chickpea-bowl-with-cilantro-cashew-cream%2F%23at_pco%3Dsmlrebh-1.0%26at_si%3D55f4478dbcc066ee%26at_ab%3Dper-2%26at_pos%3D1%26at_tot%3Dauto&amp;uid=x&amp;pub=ra-4ddc655266769955&amp;rev=v2.5.2-wp&amp;per=undefined&amp;pco=smlrebh-1.0" class="at-recommendedTitle">Roasted Vegetable + Chickpea Bowl with Cilantro Cashew C...</a></div><small>naturallyella.com</small></div></div><div class="at4-recommended-item at4-recommended-div-item"><div class="at4-recommended-item-img"><a title="Roasted Potato, Onion, and Rosemary Crustless Quiche" href="http://m.addthis.com/live/redirect/?url=http%3A%2F%2Fnaturallyella.com%2Froasted-potato-onion-and-rosemary-crustless-quiche%2F%23at_pco%3Dsmlrebh-1.0%26at_si%3D55f4478dbcc066ee%26at_ab%3Dper-2%26at_pos%3D2%26at_tot%3Dauto&amp;uid=x&amp;pub=ra-4ddc655266769955&amp;rev=v2.5.2-wp&amp;per=undefined&amp;pco=smlrebh-1.0"><img style="height: 255px; width: 170px; top: -58px;" data-secure="" alt="Roasted Potato, Onion, and Rosemary Crustless Quiche" src="naturellyella_files/IMG_7042.jpg" class="at-tli"></a></div><div class="at4-recommended-item-caption"><div class="at-h4"><a title="Roasted Potato, Onion, and Rosemary Crustless Quiche" href="http://m.addthis.com/live/redirect/?url=http%3A%2F%2Fnaturallyella.com%2Froasted-potato-onion-and-rosemary-crustless-quiche%2F%23at_pco%3Dsmlrebh-1.0%26at_si%3D55f4478dbcc066ee%26at_ab%3Dper-2%26at_pos%3D2%26at_tot%3Dauto&amp;uid=x&amp;pub=ra-4ddc655266769955&amp;rev=v2.5.2-wp&amp;per=undefined&amp;pco=smlrebh-1.0" class="at-recommendedTitle">Roasted Potato, Onion, and Rosemary Crustless Quiche</a></div><small>naturallyella.com</small></div></div><div class="at4-recommended-item at4-recommended-div-item"><div class="at4-recommended-item-img"><a title="Whole Wheat, Brown Butter, Vanilla Bean Cake with Ganache Frosting (&amp;Giveaway) | Naturally Ella" href="http://m.addthis.com/live/redirect/?url=http%3A%2F%2Fnaturallyella.com%2Fwhole-wheat-brown-butter-vanilla-bean-cake-with-ganache-frosting-giveaway%2F%23at_pco%3Dsmlrebh-1.0%26at_si%3D55f4478dbcc066ee%26at_ab%3Dper-2%26at_pos%3D3%26at_tot%3Dauto&amp;uid=x&amp;pub=ra-4ddc655266769955&amp;rev=v2.5.2-wp&amp;per=undefined&amp;pco=smlrebh-1.0"><img style="height: 255px; width: 170px; top: -58px;" data-secure="" alt="Whole Wheat, Brown Butter, Vanilla Bean Cake with Ganache Frosting (&amp;Giveaway) | Naturally Ella" src="naturellyella_files/IMG_9626.jpg" class="at-tli"></a></div><div class="at4-recommended-item-caption"><div class="at-h4"><a title="Whole Wheat, Brown Butter, Vanilla Bean Cake with Ganache Frosting (&amp;Giveaway) | Naturally Ella" href="http://m.addthis.com/live/redirect/?url=http%3A%2F%2Fnaturallyella.com%2Fwhole-wheat-brown-butter-vanilla-bean-cake-with-ganache-frosting-giveaway%2F%23at_pco%3Dsmlrebh-1.0%26at_si%3D55f4478dbcc066ee%26at_ab%3Dper-2%26at_pos%3D3%26at_tot%3Dauto&amp;uid=x&amp;pub=ra-4ddc655266769955&amp;rev=v2.5.2-wp&amp;per=undefined&amp;pco=smlrebh-1.0" class="at-recommendedTitle">Whole Wheat, Brown Butter, Vanilla Bean Cake with Gana...</a></div><small>naturallyella.com</small></div></div></div><div class="at4-recommended-container at4-recommended-horizontal"><div class="at4-recommended-item at4-recommended-div-item"><div class="at4-recommended-item-img"><a title="Yellow Split Pea Salad with Dijon Balsamic Vinaigrette" href="http://m.addthis.com/live/redirect/?url=http%3A%2F%2Fnaturallyella.com%2Fyellow-split-pea-salad-with-dijon-balsamic-vinaigrette%2F%23at_pco%3Dsmlrebh-1.0%26at_si%3D55f4478dbcc066ee%26at_ab%3Dper-2%26at_pos%3D4%26at_tot%3Dauto&amp;uid=x&amp;pub=ra-4ddc655266769955&amp;rev=v2.5.2-wp&amp;per=undefined&amp;pco=smlrebh-1.0"><img style="height: 235px; width: 170px; top: -48px;" data-secure="" alt="Yellow Split Pea Salad with Dijon Balsamic Vinaigrette" src="naturellyella_files/split-pea-salad1.jpg" class="at-tli"></a></div><div class="at4-recommended-item-caption"><div class="at-h4"><a title="Yellow Split Pea Salad with Dijon Balsamic Vinaigrette" href="http://m.addthis.com/live/redirect/?url=http%3A%2F%2Fnaturallyella.com%2Fyellow-split-pea-salad-with-dijon-balsamic-vinaigrette%2F%23at_pco%3Dsmlrebh-1.0%26at_si%3D55f4478dbcc066ee%26at_ab%3Dper-2%26at_pos%3D4%26at_tot%3Dauto&amp;uid=x&amp;pub=ra-4ddc655266769955&amp;rev=v2.5.2-wp&amp;per=undefined&amp;pco=smlrebh-1.0" class="at-recommendedTitle">Yellow Split Pea Salad with Dijon Balsamic Vinaigrette</a></div><small>naturallyella.com</small></div></div><div class="at4-recommended-item at4-recommended-div-item"><div class="at4-recommended-item-img"><a title="5-Ingredient Black Bean and Rice + Food Bloggers Against Hunger" href="http://m.addthis.com/live/redirect/?url=http%3A%2F%2Fnaturallyella.com%2F5-ingredient-black-bean-and-rice-food-bloggers-against-hunger%2F%23at_pco%3Dsmlrebh-1.0%26at_si%3D55f4478dbcc066ee%26at_ab%3Dper-2%26at_pos%3D5%26at_tot%3Dauto&amp;uid=x&amp;pub=ra-4ddc655266769955&amp;rev=v2.5.2-wp&amp;per=undefined&amp;pco=smlrebh-1.0"><img style="height: 255px; width: 170px; top: -58px;" data-secure="" alt="5-Ingredient Black Bean and Rice + Food Bloggers Against Hunger" src="naturellyella_files/black-beans-and-rice1.jpg" class="at-tli"></a></div><div class="at4-recommended-item-caption"><div class="at-h4"><a title="5-Ingredient Black Bean and Rice + Food Bloggers Against Hunger" href="http://m.addthis.com/live/redirect/?url=http%3A%2F%2Fnaturallyella.com%2F5-ingredient-black-bean-and-rice-food-bloggers-against-hunger%2F%23at_pco%3Dsmlrebh-1.0%26at_si%3D55f4478dbcc066ee%26at_ab%3Dper-2%26at_pos%3D5%26at_tot%3Dauto&amp;uid=x&amp;pub=ra-4ddc655266769955&amp;rev=v2.5.2-wp&amp;per=undefined&amp;pco=smlrebh-1.0" class="at-recommendedTitle">5-Ingredient Black Bean and Rice + Food Bloggers Agains...</a></div><small>naturallyella.com</small></div></div><div class="at4-recommended-item at4-recommended-div-item"><div class="at4-recommended-item-img at4-no-image-minimal-recommended"><a title="Caramelized Onion, Mustard, and Cheese Toast (with pickles) | Naturally Ella" href="http://m.addthis.com/live/redirect/?url=http%3A%2F%2Fnaturallyella.com%2Fcaramelized-onion-mustard-and-cheese-toast-with-pickles%2F%23at_pco%3Dsmlrebh-1.0%26at_si%3D55f4478dbcc066ee%26at_ab%3Dper-2%26at_pos%3D6%26at_tot%3Dauto&amp;uid=x&amp;pub=ra-4ddc655266769955&amp;rev=v2.5.2-wp&amp;per=undefined&amp;pco=smlrebh-1.0"></a><div class="at4-recommended-item-placeholder-img"></div></div><div class="at4-recommended-item-caption"><div class="at-h4"><a title="Caramelized Onion, Mustard, and Cheese Toast (with pickles) | Naturally Ella" href="http://m.addthis.com/live/redirect/?url=http%3A%2F%2Fnaturallyella.com%2Fcaramelized-onion-mustard-and-cheese-toast-with-pickles%2F%23at_pco%3Dsmlrebh-1.0%26at_si%3D55f4478dbcc066ee%26at_ab%3Dper-2%26at_pos%3D6%26at_tot%3Dauto&amp;uid=x&amp;pub=ra-4ddc655266769955&amp;rev=v2.5.2-wp&amp;per=undefined&amp;pco=smlrebh-1.0" class="at-recommendedTitle">Caramelized Onion, Mustard, and Cheese Toast (with pickl...</a></div><small>naturallyella.com</small></div></div><div class="at4-recommended-item at4-recommended-div-item"><div class="at4-recommended-item-img at4-no-image-minimal-recommended"><a title="Roasted Sweet Potato, Caramelized Onion, and Gorgonzola Quiche | Naturally Ella" href="http://m.addthis.com/live/redirect/?url=http%3A%2F%2Fnaturallyella.com%2Froasted-sweet-potato-caramelized-onion-and-gorgonzola-quiche%2F%23at_pco%3Dsmlrebh-1.0%26at_si%3D55f4478dbcc066ee%26at_ab%3Dper-2%26at_pos%3D7%26at_tot%3Dauto&amp;uid=x&amp;pub=ra-4ddc655266769955&amp;rev=v2.5.2-wp&amp;per=undefined&amp;pco=smlrebh-1.0"></a><div class="at4-recommended-item-placeholder-img"></div></div><div class="at4-recommended-item-caption"><div class="at-h4"><a title="Roasted Sweet Potato, Caramelized Onion, and Gorgonzola Quiche | Naturally Ella" href="http://m.addthis.com/live/redirect/?url=http%3A%2F%2Fnaturallyella.com%2Froasted-sweet-potato-caramelized-onion-and-gorgonzola-quiche%2F%23at_pco%3Dsmlrebh-1.0%26at_si%3D55f4478dbcc066ee%26at_ab%3Dper-2%26at_pos%3D7%26at_tot%3Dauto&amp;uid=x&amp;pub=ra-4ddc655266769955&amp;rev=v2.5.2-wp&amp;per=undefined&amp;pco=smlrebh-1.0" class="at-recommendedTitle">Roasted Sweet Potato, Caramelized Onion, and Gor...</a></div><small>naturallyella.com</small></div></div></div><div class="at-logo at4-recommended-horizontal-logo"><div class="at4-logo-container"><div><a target="_blank" title="Powered by AddThis" href="http://www.addthis.com/website-tools/overview?utm_source=AddThis%20Tools&amp;utm_medium=image&amp;utm_campaign=Recommended%20content%20logo" class="at-branding-logo"><div class="at-branding-icon"></div><span class="at-branding-addthis">AddThis</span></a></div></div></div></div></div></div></div><div class="p tags"><span class="note">Tagged with →</span> <a href="http://naturallyella.com/tag/dinner/" rel="tag">dinner</a> • <a href="http://naturallyella.com/tag/goat-cheese/" rel="tag">goat cheese</a> • <a href="http://naturallyella.com/tag/spices/" rel="tag">Spices</a>&nbsp;</div></div></div></div></div></article></div></div></div></section></div>
 
@@ -707,7 +707,7 @@ Vegetable, Miracle and I’m currently holding a giveaway on <a href="https://ww
 				<div id="div-comment-4052" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/99f3d826670128f9b689289ef6645c51.jpeg" srcset="http://0.gravatar.com/avatar/99f3d826670128f9b689289ef6645c51?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">sarah kieffer</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4052">
 			06.6.12 at 8:12 am</a>		</div>
 
@@ -721,11 +721,11 @@ And, I love Animal, Vegetable, Miracle. It’s such a good read. </p>
 				<div id="div-comment-4055" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/99a52e8aefc86cf7d2ee81a8fc76c17b.jpeg" srcset="http://0.gravatar.com/avatar/99a52e8aefc86cf7d2ee81a8fc76c17b?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">Nicole Peter</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4055">
 			06.6.12 at 9:10 am</a>		</div>
 
-		<p>I LOVE whole coriander and cumin seeds. I first discovered them 
+		<p>I LOVE whole coriander and cumin seeds. I first discovered them
 when I started dabbling in cooking Indian food. This looks delicious!</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/?replytocom=4055#respond" onclick='return addComment.moveForm( "div-comment-4055", "4055", "respond", "9706" )' aria-label="Reply to Nicole Peter">Reply</a></div>
@@ -735,7 +735,7 @@ when I started dabbling in cooking Indian food. This looks delicious!</p>
 				<div id="div-comment-4056" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/8c52ab813ffefe43579648528505bfa9.jpeg" srcset="http://2.gravatar.com/avatar/8c52ab813ffefe43579648528505bfa9?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn"><a href="http://londonbakes.blogspot.com/" rel="external nofollow" class="url">Kathryn</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4056">
 			06.6.12 at 9:43 am</a>		</div>
 
@@ -748,7 +748,7 @@ when I started dabbling in cooking Indian food. This looks delicious!</p>
 				<div id="div-comment-4057" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/71a0ec4d867b1f35a08cb1e862d7d08f.jpeg" srcset="http://1.gravatar.com/avatar/71a0ec4d867b1f35a08cb1e862d7d08f?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">Katrina @ Warm Vanilla Sugar</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4057">
 			06.6.12 at 9:46 am</a>		</div>
 
@@ -761,7 +761,7 @@ when I started dabbling in cooking Indian food. This looks delicious!</p>
 				<div id="div-comment-4058" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/c42c736886a48f799d3bc3cd4a8705ae.jpeg" srcset="http://0.gravatar.com/avatar/c42c736886a48f799d3bc3cd4a8705ae?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">gallivantinggirl41</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4058">
 			06.6.12 at 10:43 am</a>		</div>
 
@@ -775,7 +775,7 @@ when I started dabbling in cooking Indian food. This looks delicious!</p>
 				<div id="div-comment-4059" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/c42c736886a48f799d3bc3cd4a8705ae.jpeg" srcset="http://0.gravatar.com/avatar/c42c736886a48f799d3bc3cd4a8705ae?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn"><a href="http://ramblinggallivantinggirl.blogspot.com/" rel="external nofollow" class="url">Julia (gallivantinggirl41)</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4059">
 			06.6.12 at 12:42 pm</a>		</div>
 
@@ -788,13 +788,13 @@ when I started dabbling in cooking Indian food. This looks delicious!</p>
 				<div id="div-comment-4060" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/410b6477307e07db9e50c42af084d0b3.jpeg" srcset="http://1.gravatar.com/avatar/410b6477307e07db9e50c42af084d0b3?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">Brooke (CrackersontheCouch)</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4060">
 			06.6.12 at 1:17 pm</a>		</div>
 
 		<p>I’ve got a love hate relationship with avocados in that I love them
- and I hate that they cost so much up here in the Pacific Northwest!  I 
-got spoiled in So. Cal. when they were 50 cents a piece during the peak 
+ and I hate that they cost so much up here in the Pacific Northwest!  I
+got spoiled in So. Cal. when they were 50 cents a piece during the peak
 season.  Sometimes they’re $3 each up here!  AUGH!</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/?replytocom=4060#respond" onclick='return addComment.moveForm( "div-comment-4060", "4060", "respond", "9706" )' aria-label="Reply to Brooke (CrackersontheCouch)">Reply</a></div>
@@ -804,14 +804,14 @@ season.  Sometimes they’re $3 each up here!  AUGH!</p>
 				<div id="div-comment-4061" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/87bc00d4a17c48e43a7560112311fca9.jpeg" srcset="http://2.gravatar.com/avatar/87bc00d4a17c48e43a7560112311fca9?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn"><a href="http://www.greensandseeds.com/" rel="external nofollow" class="url">Elizabeth</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4061">
 			06.6.12 at 4:16 pm</a>		</div>
 
 		<p>Erin, I know just what you mean. I feel guilty every time I pick up
- an avocado at the co-op – but sometimes I just can’t help myself. And 
-Animal, Vegetable, Miracle is in the Barnes &amp; Noble wishlist right 
-now (if only I wasn’t starting school in the fall and could actually 
+ an avocado at the co-op – but sometimes I just can’t help myself. And
+Animal, Vegetable, Miracle is in the Barnes &amp; Noble wishlist right
+now (if only I wasn’t starting school in the fall and could actually
 spend money on something)</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/?replytocom=4061#respond" onclick='return addComment.moveForm( "div-comment-4061", "4061", "respond", "9706" )' aria-label="Reply to Elizabeth">Reply</a></div>
@@ -821,7 +821,7 @@ spend money on something)</p>
 				<div id="div-comment-4062" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/a_002.jpeg" srcset="http://2.gravatar.com/avatar/?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo avatar-default" height="60" width="60">			<cite class="fn"><a href="http://thecollegeculinarian.blogspot.in/" rel="external nofollow" class="url">Katie</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4062">
 			06.6.12 at 5:27 pm</a>		</div>
 
@@ -834,12 +834,12 @@ spend money on something)</p>
 				<div id="div-comment-4078" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/c77951eb96fdf970bfff18bbbf66c1c5.jpeg" srcset="http://0.gravatar.com/avatar/c77951eb96fdf970bfff18bbbf66c1c5?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">amanda_wholesomefamilykitchen</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4078">
 			06.7.12 at 7:26 pm</a>		</div>
 
-		<p>I came across your blog via Pinterest &amp; then saw this recipe. 
-Yum! Avocado + black beans + goat cheese? They are some of my favorite 
+		<p>I came across your blog via Pinterest &amp; then saw this recipe.
+Yum! Avocado + black beans + goat cheese? They are some of my favorite
 foods! I’ve added this recipe to my “recipes to make soon” file. <img src="naturellyella_files/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"></p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/?replytocom=4078#respond" onclick='return addComment.moveForm( "div-comment-4078", "4078", "respond", "9706" )' aria-label="Reply to amanda_wholesomefamilykitchen">Reply</a></div>
@@ -849,7 +849,7 @@ foods! I’ve added this recipe to my “recipes to make soon” file. <img src=
 				<div id="div-comment-4121" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/dade4534ba42774757d7b9efe954b8be.jpeg" srcset="http://1.gravatar.com/avatar/dade4534ba42774757d7b9efe954b8be?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn"><a href="http://www.currylime.com/" rel="external nofollow" class="url">amy@currylime</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4121">
 			06.12.12 at 1:42 pm</a>		</div>
 
@@ -862,11 +862,11 @@ foods! I’ve added this recipe to my “recipes to make soon” file. <img src=
 				<div id="div-comment-4306" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/f287cf7ebf1158bfba2162b0067f4a16.jpeg" srcset="http://0.gravatar.com/avatar/f287cf7ebf1158bfba2162b0067f4a16?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn"><a href="http://theblogdaysofsommer.wordpress.com/" rel="external nofollow" class="url">Sommer</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4306">
 			07.6.12 at 1:06 pm</a>		</div>
 
-		<p>Found these on Pinterest, and made them last night. They were so 
+		<p>Found these on Pinterest, and made them last night. They were so
 good, and I was super excited to have my leftovers for lunch today!</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/?replytocom=4306#respond" onclick='return addComment.moveForm( "div-comment-4306", "4306", "respond", "9706" )' aria-label="Reply to Sommer">Reply</a></div>
@@ -876,14 +876,14 @@ good, and I was super excited to have my leftovers for lunch today!</p>
 				<div id="div-comment-4505" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/159e26e7785502c3d9631b26ad37d256.jpeg" srcset="http://1.gravatar.com/avatar/159e26e7785502c3d9631b26ad37d256?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">Rachel Gergely</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4505">
 			07.20.12 at 10:51 am</a>		</div>
 
-		<p>I am excited to make these tacos!  I agree with a previous 
+		<p>I am excited to make these tacos!  I agree with a previous
 commenter.  Do not feel guilty about purchasing avocados.  They are such
- an excellent source of heart healthy fats, especially if you have a 
-diet that is low in fish (salmon, tuna, etc.).  Plus, they are 
+ an excellent source of heart healthy fats, especially if you have a
+diet that is low in fish (salmon, tuna, etc.).  Plus, they are
 delicious!  </p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/?replytocom=4505#respond" onclick='return addComment.moveForm( "div-comment-4505", "4505", "respond", "9706" )' aria-label="Reply to Rachel Gergely">Reply</a></div>
@@ -893,7 +893,7 @@ delicious!  </p>
 				<div id="div-comment-4509" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/495f0b810d90ff3d5a8bcec74285fc4c.jpeg" srcset="http://1.gravatar.com/avatar/495f0b810d90ff3d5a8bcec74285fc4c?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">San</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4509">
 			07.20.12 at 6:20 pm</a>		</div>
 
@@ -906,12 +906,12 @@ delicious!  </p>
 				<div id="div-comment-4526" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/53406ffb82e436a2237f27a74edb3282.jpeg" srcset="http://2.gravatar.com/avatar/53406ffb82e436a2237f27a74edb3282?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn"><a href="http://melgetsscrappy.blogspot.co.uk/" rel="external nofollow" class="url">Mel J</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4526">
 			07.23.12 at 1:43 pm</a>		</div>
 
-		<p>Just made these – delish thanks for sharing! Only difference is 
-that I couldn’t find black beans in England and so I used refried and 
+		<p>Just made these – delish thanks for sharing! Only difference is
+that I couldn’t find black beans in England and so I used refried and
 added some paprika. The combo of goats cheese and avacado was delish!</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/?replytocom=4526#respond" onclick='return addComment.moveForm( "div-comment-4526", "4526", "respond", "9706" )' aria-label="Reply to Mel J">Reply</a></div>
@@ -921,7 +921,7 @@ added some paprika. The combo of goats cheese and avacado was delish!</p>
 				<div id="div-comment-4552" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/0805f013a6c55fdb2978f32afbb3cdaf.jpeg" srcset="http://0.gravatar.com/avatar/0805f013a6c55fdb2978f32afbb3cdaf?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">naturallyella</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4552">
 			07.24.12 at 7:15 pm</a>		</div>
 
@@ -936,12 +936,12 @@ added some paprika. The combo of goats cheese and avacado was delish!</p>
 				<div id="div-comment-4842" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/a_002.jpeg" srcset="http://0.gravatar.com/avatar/?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo avatar-default" height="60" width="60">			<cite class="fn"><a href="http://www.facebook.com/MrsLuvLeigh" rel="external nofollow" class="url">Leigh Ann White</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4842">
 			07.28.12 at 7:12 pm</a>		</div>
 
 		<p>Yumm! The honey lime dressing is sweet and tangy. There are so many
- different flavor levels, from the sweetness of the honey to the 
+ different flavor levels, from the sweetness of the honey to the
 sharpness of the goat cheese. </p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/?replytocom=4842#respond" onclick='return addComment.moveForm( "div-comment-4842", "4842", "respond", "9706" )' aria-label="Reply to Leigh Ann White">Reply</a></div>
@@ -951,13 +951,13 @@ sharpness of the goat cheese. </p>
 				<div id="div-comment-4882" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/857e8c381e9f2af12c2d6b44114293e4.jpeg" srcset="http://2.gravatar.com/avatar/857e8c381e9f2af12c2d6b44114293e4?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">annie</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4882">
 			07.29.12 at 11:05 pm</a>		</div>
 
 		<p> I plan to make these for sure as I too am an avacado addict!</p>
-<p>One very good recipe is avacado, grapefruit and green onion salad.  
-Or blood orange and avacado.  A pinch of salt and dash of pepper and 
+<p>One very good recipe is avacado, grapefruit and green onion salad.
+Or blood orange and avacado.  A pinch of salt and dash of pepper and
 yummy!!!</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/?replytocom=4882#respond" onclick='return addComment.moveForm( "div-comment-4882", "4882", "respond", "9706" )' aria-label="Reply to annie">Reply</a></div>
@@ -967,7 +967,7 @@ yummy!!!</p>
 				<div id="div-comment-4892" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/71d8c08fffd274a43b6f222fb7c533a0.jpeg" srcset="http://1.gravatar.com/avatar/71d8c08fffd274a43b6f222fb7c533a0?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">Karen | The Food Charlatan</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4892">
 			07.30.12 at 7:18 pm</a>		</div>
 
@@ -980,16 +980,16 @@ yummy!!!</p>
 				<div id="div-comment-4895" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/bf5182f63d041fdd23564abfb4e1e54c.jpeg" srcset="http://2.gravatar.com/avatar/bf5182f63d041fdd23564abfb4e1e54c?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">Paige</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4895">
 			07.30.12 at 9:59 pm</a>		</div>
 
 		<p>What a combo of my favorite things.  Must try soon!  And I too, say
- you can’t feel guilty about buying avocados  I also make a citrus 
-avocado salad – grapefruit, avocado, feta cheese, toasted sunflower 
-seeds and/or  pepitas, homemade poppyseed dressing – some folks like to 
-add red onion, I don’t but I do add strawberries blueberries or 
-blackberries in season.   One of my friends raises goats and make the 
+ you can’t feel guilty about buying avocados  I also make a citrus
+avocado salad – grapefruit, avocado, feta cheese, toasted sunflower
+seeds and/or  pepitas, homemade poppyseed dressing – some folks like to
+add red onion, I don’t but I do add strawberries blueberries or
+blackberries in season.   One of my friends raises goats and make the
 best goat cheese – when I can afford it, I buy it.</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/?replytocom=4895#respond" onclick='return addComment.moveForm( "div-comment-4895", "4895", "respond", "9706" )' aria-label="Reply to Paige">Reply</a></div>
@@ -999,7 +999,7 @@ best goat cheese – when I can afford it, I buy it.</p>
 				<div id="div-comment-4897" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/15ba41578c1d102f516efd44b3575a38.jpeg" srcset="http://1.gravatar.com/avatar/15ba41578c1d102f516efd44b3575a38?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn"><a href="http://www.wisconsinmade.com/" rel="external nofollow" class="url">Amanda</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4897">
 			07.31.12 at 10:41 am</a>		</div>
 
@@ -1012,15 +1012,15 @@ best goat cheese – when I can afford it, I buy it.</p>
 				<div id="div-comment-4933" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/e5760eab2e77e9afe06f946e406cc3c3.jpeg" srcset="http://2.gravatar.com/avatar/e5760eab2e77e9afe06f946e406cc3c3?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">Suzie</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4933">
 			08.2.12 at 3:04 pm</a>		</div>
 
-		<p>I made these last night and was disappointed… but I must have done 
-something wrong.  I warmed the ( organic canned black ) beans in their 
-liquid as suggested but they were firm and dry… overcooked?  and the 
-seasonings didn’t pan out because I used ground so was unsure about the 
-exchange rate…  I love all these flavors so I want to make it right…  
+		<p>I made these last night and was disappointed… but I must have done
+something wrong.  I warmed the ( organic canned black ) beans in their
+liquid as suggested but they were firm and dry… overcooked?  and the
+seasonings didn’t pan out because I used ground so was unsure about the
+exchange rate…  I love all these flavors so I want to make it right…
 but it was bland and blah.  Help!</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/?replytocom=4933#respond" onclick='return addComment.moveForm( "div-comment-4933", "4933", "respond", "9706" )' aria-label="Reply to Suzie">Reply</a></div>
@@ -1030,15 +1030,15 @@ but it was bland and blah.  Help!</p>
 				<div id="div-comment-4934" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/0805f013a6c55fdb2978f32afbb3cdaf.jpeg" srcset="http://0.gravatar.com/avatar/0805f013a6c55fdb2978f32afbb3cdaf?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">naturallyella</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4934">
 			08.2.12 at 5:56 pm</a>		</div>
 
-		<p>Oh no!  I would say don’t cook them for as long (while I suggest 
-you cook out the liquid, don’t be afraid to stop it short.)  As for the 
-seasonings- I would use 1/2 tablespoon of each cumin and coriander, but 
-taste while the beans cook and add more if needed.  I’m also a little 
-light on the salt, so you may want to add a pinch or two more!   Hope 
+		<p>Oh no!  I would say don’t cook them for as long (while I suggest
+you cook out the liquid, don’t be afraid to stop it short.)  As for the
+seasonings- I would use 1/2 tablespoon of each cumin and coriander, but
+taste while the beans cook and add more if needed.  I’m also a little
+light on the salt, so you may want to add a pinch or two more!   Hope
 this helps! </p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/?replytocom=4934#respond" onclick='return addComment.moveForm( "div-comment-4934", "4934", "respond", "9706" )' aria-label="Reply to naturallyella">Reply</a></div>
@@ -1048,7 +1048,7 @@ this helps! </p>
 				<div id="div-comment-5063" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/e5760eab2e77e9afe06f946e406cc3c3.jpeg" srcset="http://2.gravatar.com/avatar/e5760eab2e77e9afe06f946e406cc3c3?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">Suzie</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-5063">
 			08.15.12 at 2:58 pm</a>		</div>
 
@@ -1065,7 +1065,7 @@ this helps! </p>
 				<div id="div-comment-4992" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/b2880cfc2a23dc941fe07c5482151f00.jpeg" srcset="http://2.gravatar.com/avatar/b2880cfc2a23dc941fe07c5482151f00?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn"><a href="http://sheepyhollow.wordpress.com/" rel="external nofollow" class="url">Jenny</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-4992">
 			08.9.12 at 11:06 am</a>		</div>
 
@@ -1078,7 +1078,7 @@ this helps! </p>
 				<div id="div-comment-5078" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/a.jpeg" srcset="http://0.gravatar.com/avatar/?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo avatar-default" height="60" width="60">			<cite class="fn"><a href="http://twitter.com/ktnlo" rel="external nofollow" class="url">katie anello</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-5078">
 			08.17.12 at 9:05 am</a>		</div>
 
@@ -1091,7 +1091,7 @@ this helps! </p>
 				<div id="div-comment-5229" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/c7bc7a07e4dda7dad2633f39f874fef9.jpeg" srcset="http://0.gravatar.com/avatar/c7bc7a07e4dda7dad2633f39f874fef9?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">Jessica</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-5229">
 			09.1.12 at 6:24 pm</a>		</div>
 
@@ -1104,7 +1104,7 @@ this helps! </p>
 				<div id="div-comment-5356" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/429161f3a38703825f7174b126c66dab.jpeg" srcset="http://1.gravatar.com/avatar/429161f3a38703825f7174b126c66dab?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">Laurie Knauf</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-5356">
 			09.17.12 at 3:14 pm</a>		</div>
 
@@ -1117,12 +1117,12 @@ this helps! </p>
 				<div id="div-comment-5372" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/e439b9df3c35aee82d38b33f33323511.jpeg" srcset="http://2.gravatar.com/avatar/e439b9df3c35aee82d38b33f33323511?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">Blaire</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-5372">
 			09.19.12 at 3:56 pm</a>		</div>
 
-		<p>I substituted lemon pepper for the lime juice and just drizzled a 
-wee bit of honey on top and it turned out delicious! Maybe not as zesty 
+		<p>I substituted lemon pepper for the lime juice and just drizzled a
+wee bit of honey on top and it turned out delicious! Maybe not as zesty
 but definitely good. </p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/?replytocom=5372#respond" onclick='return addComment.moveForm( "div-comment-5372", "5372", "respond", "9706" )' aria-label="Reply to Blaire">Reply</a></div>
@@ -1132,16 +1132,16 @@ but definitely good. </p>
 				<div id="div-comment-5957" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/1b971da3243be73265a7598833a670b7.jpeg" srcset="http://1.gravatar.com/avatar/1b971da3243be73265a7598833a670b7?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">Katie</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-5957">
 			11.5.12 at 9:24 pm</a>		</div>
 
 		<p>I pinned this recipe awhile ago and finally got around to making it
- tonight.  Wow!  It was delicious.  We ended up making an entire can of 
-beans and I just adjusted the spice accordingly.  My husband and I have 
-had a difficult time finding vegetarian recipes that are full of flavor 
-and easy to make.  We will definitely be making this again and sharing 
-with others.  One question – can you better describe how to slice the 
+ tonight.  Wow!  It was delicious.  We ended up making an entire can of
+beans and I just adjusted the spice accordingly.  My husband and I have
+had a difficult time finding vegetarian recipes that are full of flavor
+and easy to make.  We will definitely be making this again and sharing
+with others.  One question – can you better describe how to slice the
 avocado?</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/?replytocom=5957#respond" onclick='return addComment.moveForm( "div-comment-5957", "5957", "respond", "9706" )' aria-label="Reply to Katie">Reply</a></div>
@@ -1151,7 +1151,7 @@ avocado?</p>
 				<div id="div-comment-6103" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/8e2a81b4e560ff1eee1f3f898bb2c5ee.jpeg" srcset="http://2.gravatar.com/avatar/8e2a81b4e560ff1eee1f3f898bb2c5ee?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">Stacey</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-6103">
 			11.15.12 at 8:56 pm</a>		</div>
 
@@ -1164,12 +1164,12 @@ avocado?</p>
 				<div id="div-comment-6593" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/48d74da0c9ed337121c97a23a584c0c5.jpeg" srcset="http://1.gravatar.com/avatar/48d74da0c9ed337121c97a23a584c0c5?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">Haley</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-6593">
 			01.3.13 at 3:02 pm</a>		</div>
 
 		<p>Any suggestions on what to serve it with? I can’t really decide.  I
- was thinking kind of a southwestern salad, but I don’t know.  What did 
+ was thinking kind of a southwestern salad, but I don’t know.  What did
 you guys have it with?</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/?replytocom=6593#respond" onclick='return addComment.moveForm( "div-comment-6593", "6593", "respond", "9706" )' aria-label="Reply to Haley">Reply</a></div>
@@ -1179,7 +1179,7 @@ you guys have it with?</p>
 				<div id="div-comment-6594" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/0805f013a6c55fdb2978f32afbb3cdaf.jpeg" srcset="http://0.gravatar.com/avatar/0805f013a6c55fdb2978f32afbb3cdaf?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">elalderson</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-6594">
 			01.3.13 at 3:29 pm</a>		</div>
 
@@ -1194,7 +1194,7 @@ you guys have it with?</p>
 				<div id="div-comment-7132" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/df64951b7b68e96994ffe9d2ca074e45.jpeg" srcset="http://1.gravatar.com/avatar/df64951b7b68e96994ffe9d2ca074e45?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn"><a href="http://www.edibleperspective.com/" rel="external nofollow" class="url">Ashley</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-7132">
 			02.5.13 at 8:09 am</a>		</div>
 
@@ -1207,7 +1207,7 @@ you guys have it with?</p>
 				<div id="div-comment-7134" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/a_002.jpeg" srcset="http://0.gravatar.com/avatar/?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo avatar-default" height="60" width="60">			<cite class="fn"><a href="http://twitter.com/MeatballsM" rel="external nofollow" class="url">Meatballs&amp;Milkshakes</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-7134">
 			02.5.13 at 9:45 am</a>		</div>
 
@@ -1220,14 +1220,14 @@ you guys have it with?</p>
 				<div id="div-comment-7135" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/407543728cd40f3e61ddeed8fc56f8ee.jpeg" srcset="http://1.gravatar.com/avatar/407543728cd40f3e61ddeed8fc56f8ee?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">Alex @ delicious-knowledge.com</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-7135">
 			02.5.13 at 10:34 am</a>		</div>
 
-		<p>In a very weak moment at the store this weekend I bought 8 of 
-avocados and needed some inspiration on what to do with them! I usually 
-just eat them whole or smeared on bread. I love this taco idea, very 
-easy! I think I am going to sub the goat cheese and add some salsa 
+		<p>In a very weak moment at the store this weekend I bought 8 of
+avocados and needed some inspiration on what to do with them! I usually
+just eat them whole or smeared on bread. I love this taco idea, very
+easy! I think I am going to sub the goat cheese and add some salsa
 verde. Looks delicious!</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/?replytocom=7135#respond" onclick='return addComment.moveForm( "div-comment-7135", "7135", "respond", "9706" )' aria-label="Reply to Alex @ delicious-knowledge.com">Reply</a></div>
@@ -1237,12 +1237,12 @@ verde. Looks delicious!</p>
 				<div id="div-comment-7280" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/a.jpeg" srcset="http://1.gravatar.com/avatar/?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo avatar-default" height="60" width="60">			<cite class="fn"><a href="http://twitter.com/familystylefood" rel="external nofollow" class="url">familystyle food</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-7280">
 			02.8.13 at 6:25 pm</a>		</div>
 
-		<p>Hi Erin – Your bookshelf selection looks exactly like mine! Oh, 
-except my books are piled up in various places around the house rather 
+		<p>Hi Erin – Your bookshelf selection looks exactly like mine! Oh,
+except my books are piled up in various places around the house rather
 than on a shelf <img src="naturellyella_files/simple-smile.png" alt=":-)" class="wp-smiley" style="height: 1em; max-height: 1em;"><br>
 I love all the vegetables in your recipes – the more the better, especially avocados. Lovely site! Cheers, Karen</p>
 
@@ -1253,7 +1253,7 @@ I love all the vegetables in your recipes – the more the better, especially av
 				<div id="div-comment-7472" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/13d69de0401aca277342a461b06faa80.jpeg" srcset="http://1.gravatar.com/avatar/13d69de0401aca277342a461b06faa80?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">Chelsea@naturalsweetrecipes</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-7472">
 			02.15.13 at 1:54 pm</a>		</div>
 
@@ -1266,7 +1266,7 @@ I love all the vegetables in your recipes – the more the better, especially av
 				<div id="div-comment-8512" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/f449b88f579f52af24b28291b123dd32.jpeg" srcset="http://0.gravatar.com/avatar/f449b88f579f52af24b28291b123dd32?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">Amy</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-8512">
 			04.21.13 at 7:41 pm</a>		</div>
 
@@ -1279,7 +1279,7 @@ I love all the vegetables in your recipes – the more the better, especially av
 				<div id="div-comment-8513" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/0805f013a6c55fdb2978f32afbb3cdaf.jpeg" srcset="http://0.gravatar.com/avatar/0805f013a6c55fdb2978f32afbb3cdaf?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">elalderson</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-8513">
 			04.21.13 at 10:11 pm</a>		</div>
 
@@ -1294,11 +1294,11 @@ I love all the vegetables in your recipes – the more the better, especially av
 				<div id="div-comment-16988" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/b507e7515e361d9ac8850eede3c76e51.png" srcset="http://2.gravatar.com/avatar/b507e7515e361d9ac8850eede3c76e51?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn"><a href="http://www.wellness.com/" rel="external nofollow" class="url">Carolina</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-16988">
 			04.1.14 at 11:26 pm</a>		</div>
 
-		<p>Great post. These tacos look just like small presents – makes the 
+		<p>Great post. These tacos look just like small presents – makes the
 dinning table look so rich. You are very creative with these executions.
  Will do them today for my husband, thank you for inspiration!</p>
 
@@ -1309,18 +1309,18 @@ dinning table look so rich. You are very creative with these executions.
 				<div id="div-comment-24847" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/f8a199dd1876bf2920150050bae42a9d.jpeg" srcset="http://0.gravatar.com/avatar/f8a199dd1876bf2920150050bae42a9d?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn"><a href="http://www.ohsweetjoy.com/" rel="external nofollow" class="url">kim</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-24847">
 			08.16.14 at 11:45 am</a>		</div>
 
-		<p>we ate these last night and all three of us loved them! (even our 
-picky 1.5 year old) they were so fast and i loved the goat cheese – 
-never would have thought of that! i also added red onion, garlic and 
-fresh cilantro to the beans for a little bit more flavor profile…but 
-really the creamy goat cheese was the star player here! i also didn’t 
-read the recipe through and didn’t see the honey drizzle – it was good 
+		<p>we ate these last night and all three of us loved them! (even our
+picky 1.5 year old) they were so fast and i loved the goat cheese –
+never would have thought of that! i also added red onion, garlic and
+fresh cilantro to the beans for a little bit more flavor profile…but
+really the creamy goat cheese was the star player here! i also didn’t
+read the recipe through and didn’t see the honey drizzle – it was good
 without but will have to try it next time for sure!</p>
-<p>maybe i didn’t leave them on long enough (but they did have grill 
+<p>maybe i didn’t leave them on long enough (but they did have grill
 marks), but is there any flavor reasoning behind grilling the avocados? i
  think next time i’ll skip that step for one less step <img src="naturellyella_files/1f609.png" alt="😉" draggable="false" class="emoji"></p>
 <p>thanks for the recipe! it will be on our rotation from here on out!</p>
@@ -1332,7 +1332,7 @@ marks), but is there any flavor reasoning behind grilling the avocados? i
 				<div id="div-comment-24873" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/0805f013a6c55fdb2978f32afbb3cdaf.jpeg" srcset="http://0.gravatar.com/avatar/0805f013a6c55fdb2978f32afbb3cdaf?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn"><a href="http://naturallyella.com/" rel="external nofollow" class="url">erin</a></cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-24873">
 			08.17.14 at 10:39 am</a>		</div>
 
@@ -1347,14 +1347,14 @@ marks), but is there any flavor reasoning behind grilling the avocados? i
 				<div id="div-comment-35332" class="comment-body">
 				<div class="comment-author ">
 			<img alt="" src="naturellyella_files/e73220b6bb599d8b3a2505efa947d4e0.jpeg" srcset="http://2.gravatar.com/avatar/e73220b6bb599d8b3a2505efa947d4e0?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">			<cite class="fn">C Pruitt</cite> <span class="says">says:</span>		</div>
-		
+
 		<div class="comment-meta commentmetadata"><a href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/#comment-35332">
 			10.20.14 at 7:28 pm</a>		</div>
 
 		<p>I just made these and they were very tasty. I didn’t have the whole
- spices but I did have powdered ones. I love the coriander with the 
-cumin. Next time I will try the whole. My only problem now is how to 
-preserve the leftovers for tomorrow and should I eat them for breakfast 
+ spices but I did have powdered ones. I love the coriander with the
+cumin. Next time I will try the whole. My only problem now is how to
+preserve the leftovers for tomorrow and should I eat them for breakfast
 (probably) or save for lunch or maybe both. Thanks for sharing!</p>
 
 		<div class="reply"><a class="comment-reply-link" href="http://naturallyella.com/spiced-black-bean-grilled-avocado-and-goat-cheese-tacos/?replytocom=35332#respond" onclick='return addComment.moveForm( "div-comment-35332", "35332", "respond", "9706" )' aria-label="Reply to C Pruitt">Reply</a></div>
@@ -1368,9 +1368,9 @@ preserve the leftovers for tomorrow and should I eat them for breakfast
 <p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" size="30" aria-describedby="email-notes" aria-required="true" required="required" type="text"></p>
 <p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" size="30" type="text"></p>
 												<p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-describedby="form-allowed-tags" aria-required="true" required="required"></textarea></p>						<p class="form-allowed-tags" id="form-allowed-tags">You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:  <code>&lt;a
- href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt; 
-&lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del 
-datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;s&gt; 
+ href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt;
+&lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del
+datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;s&gt;
 &lt;strike&gt; &lt;strong&gt; </code></p>
 						<p class="form-submit"><span class="ERComment">
 <span style="float:left">Rate this recipe: </span>
@@ -1685,7 +1685,7 @@ datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;s&gt;
 			</div>
 				<footer id="footer" class="footer pl-region" data-region="footer">
 		<div class="page-area outline pl-area-container fix">
-		
+
 
 <!-- Canvas Area | Section Template -->
 <section id="pl_area0" data-object="PLSectionArea" data-sid="pl_area" data-clone="0" class="pl-area pl-area-sortable area-tag    pl-bg-cover section-pl_area" style="  "><div class="pl-area-pad fix">	<div class="pl-area-wrap " style="">
@@ -1838,10 +1838,10 @@ googletag.cmd = googletag.cmd || [];
 	</div></section>		</div>
 	</footer>
 
-				
-		</div>		
+
+		</div>
 	</div>
-		
+
 </div>
 <script data-cfasync="false" type="text/javascript"></script>
                 <!-- AddThis Settings Begin -->
@@ -1872,7 +1872,7 @@ googletag.cmd = googletag.cmd || [];
                         },1000)
                     }());
                 </script>
-                
+
 <!-- Scripts -->
 <script type="text/javascript" src="naturellyella_files/form.js"></script>
 

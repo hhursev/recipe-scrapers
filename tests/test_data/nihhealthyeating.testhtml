@@ -14,90 +14,90 @@
 
     <script type="text/javascript">
 <!--//-----------------------------------+
-// functionality for Left Navigation menu 
+// functionality for Left Navigation menu
 // -------------------------------------->
         $(document).ready(function() {
-            
+
             hu = window.location.search.substring(1);
-            
-            gy = hu.split("&");  
+
+            gy = hu.split("&");
             var query = '';
-            
+
             for (i = 0; i < gy.length; i++) {
                 ft = gy[i].split("=");
-                             
+
                 if (ft[0] == "linkId") {
-                    query = ft[1];                                                        
+                    query = ft[1];
                 }
             }
             //alert(query);
             var image1 = 'bullet_arrow_down.png';
             var image2 = 'bullet_arrow_up.png';
- 
-            if (query != '' && query <= 10) { 
-                query = query - 1;  //since we have removed submenus in "About" section, now its taking "Healthy Eating Recipes" menu item as menu(0). But the linkid for this menu item is 1. so we need to match the linkId and menu index. if we add any submenus in "About" section we can comment this line.                         
-                $(".menu_body:eq(" + query + ")").show();                                       
+
+            if (query != '' && query <= 10) {
+                query = query - 1;  //since we have removed submenus in "About" section, now its taking "Healthy Eating Recipes" menu item as menu(0). But the linkid for this menu item is 1. so we need to match the linkId and menu index. if we add any submenus in "About" section we can comment this line.
+                $(".menu_body:eq(" + query + ")").show();
                 $(".menu_head:eq(" + query + ")").css('background-Image', 'url("Images/' + image2 + '")');
-            } 
-            
-            else if (query != '' && query > 10){ 
-                query = query - 11; //menu index is '0' and linkid is '11'. so need to make the linkid starts from '0' internally to match menu index and linkid. 
-                $(".menu_body_CookBook:eq(" + query + ")").show();                                       
+            }
+
+            else if (query != '' && query > 10){
+                query = query - 11; //menu index is '0' and linkid is '11'. so need to make the linkid starts from '0' internally to match menu index and linkid.
+                $(".menu_body_CookBook:eq(" + query + ")").show();
                 $(".menu_head_CookBook:eq(" + query + ")").css('background-Image', 'url("Images/' + image2 + '")');
-            } 
-            
+            }
+
             //slides the element with class "menu_body" when paragraph with class "menu_head" is clicked
             $("#firstpane div.menu_head").click(function() {
-            
+
                 var imgUrl = 'url("Images/' + image1 + '")';
                 var hasUpImage = true;
                 if($(this).css('background-image').indexOf(image1) >= 0)
                     hasUpImage = false;
-            
-                $("#hidMenuId")[0].value = $(this)[0].uniqueID;               
-                        
-                $(this).next("div.menu_body").slideToggle(300).siblings("div.menu_body").slideUp("slow");                
+
+                $("#hidMenuId")[0].value = $(this)[0].uniqueID;
+
+                $(this).next("div.menu_body").slideToggle(300).siblings("div.menu_body").slideUp("slow");
                 $('div.menu_body_CookBook').siblings("div.menu_body_CookBook").slideUp("slow");
-                $('div.menu_head_CookBook').siblings("div.menu_head_CookBook").css('background-image', imgUrl); 
-                $('div.menu_head').siblings("div.menu_head").css('background-image', imgUrl); 
-                                                                
-                
-               
+                $('div.menu_head_CookBook').siblings("div.menu_head_CookBook").css('background-image', imgUrl);
+                $('div.menu_head').siblings("div.menu_head").css('background-image', imgUrl);
+
+
+
                 if((!hasUpImage) && ($(this).css('background-image').indexOf(image1) >= 0))
                 {
                  imgUrl = 'url("Images/' + image2 + '")';
-                }                
-                $(this).css('background-image', imgUrl); 
-              
+                }
+                $(this).css('background-image', imgUrl);
+
             });
-            
+
               $("#firstpane div.menu_head_CookBook").click(function() {
-           
-               // $("#hidMenuIdtest")[0].value = $(this)[0].uniqueID;               
-                              
-                var imgUrl = 'url("Images/' + image1 + '")';               
+
+               // $("#hidMenuIdtest")[0].value = $(this)[0].uniqueID;
+
+                var imgUrl = 'url("Images/' + image1 + '")';
                 var hasUpImage = true;
                 if($(this).css('background-image').indexOf(image1) >= 0)
-                    hasUpImage = false;                    
-                
+                    hasUpImage = false;
+
                 $(this).next("div.menu_body_CookBook").slideToggle(300).siblings("div.menu_body_CookBook").slideUp("slow");
-                $('div.menu_body').siblings("div.menu_body").slideUp("slow");                
-                $('div.menu_head').siblings("div.menu_head").css('background-image', imgUrl); 
-                $(this).next("div.menu_body_CookBook").siblings("div.menu_head_CookBook").css('background-image', imgUrl); 
-                
+                $('div.menu_body').siblings("div.menu_body").slideUp("slow");
+                $('div.menu_head').siblings("div.menu_head").css('background-image', imgUrl);
+                $(this).next("div.menu_body_CookBook").siblings("div.menu_head_CookBook").css('background-image', imgUrl);
+
                 if((!hasUpImage) && ($(this).css('background-image').indexOf(image1) >= 0))
                 {
                  imgUrl = 'url("Images/' + image2 + '")';
-                }                
-                $(this).css('background-image', imgUrl); 
-              
+                }
+                $(this).css('background-image', imgUrl);
+
             });
         });
-        
-      
+
+
     </script>
 
-    
+
 <title>
 	Appetizer/Snack > Vietnamese Fresh Spring Rolls (G&#7887;i Cu&#7889;n)
 </title></head>
@@ -110,10 +110,10 @@
 <body>
 
     <div id="container">
-    
+
 <div id="own" style="height:165px">
-	
-	<!-- Text Sizer Javascript -->     
+
+	<!-- Text Sizer Javascript -->
 <script language="JavaScript" type="text/javascript" src="https://www.nhlbi.nih.gov/js/textsizer.js"></script>
 
 <!-- Filtered Search JavaScript -->
@@ -191,7 +191,7 @@
         });
     });
 </script>
-   
+
 <!-- Neccessary for 508 Compliance; don't alter -->
 <span style="font-size:0px; position:absolute; margin-top:-500px"><a href="#content">Skip to content past banner and navigation links</a></span>
 
@@ -202,7 +202,7 @@
         <span>U.S. Department of Health &amp; Human Services</span>
     </div>
     <div id="block-mainnavigation">
-        <div id="main-site-logo">          
+        <div id="main-site-logo">
             <a href="https://www.nhlbi.nih.gov/"><img src="images/NHLBI_Logo_Vector.svg" title="Home" alt="National Heart Lung and Blood Institute logo"></a>
         </div>
         <div id="main-navbar">
@@ -243,9 +243,9 @@
             </div>
             <div id="subhead_search">
                 <div id="search_controls_log">
-                    
+
                             <a href="Register.aspx" id="ctl00_masterLoginView_hlRegister">Register!</a> / <a href="SignIn.aspx" id="ctl00_masterLoginView_hlSignIn">Sign In</a>
-                        
+
                 </div>
                 <div id="search_controls">
                     <br />
@@ -285,20 +285,20 @@
                     <!--Code for menu starts here-->
                     <p class="menu_headnosub">
                         <a href="default.aspx">Recipes Home</a></p>
-                    <p class="menu_headnosub bottom">                 
-                        <a href="about.aspx">About</a> 
-                    </p>                    
-                   
-                  <div class="menu_head">  
+                    <p class="menu_headnosub bottom">
+                        <a href="about.aspx">About</a>
+                    </p>
+
+                  <div class="menu_head">
                         All Healthy Eating Recipes</div>
                     <div class="menu_body">
                         <a href="CategoryList.aspx?linkId=1">All Recipe Categories</a>
-                        <a href="RecipeList.aspx?linkId=1&cId=1">Beef Main Dish</a> 
+                        <a href="RecipeList.aspx?linkId=1&cId=1">Beef Main Dish</a>
                         <a href="RecipeList.aspx?linkId=1&cId=2">Poultry Main Dish</a>
                         <a href="RecipeList.aspx?linkId=1&cId=3">Seafood Main Dish</a>
                         <a href="RecipeList.aspx?linkId=1&cId=4">Pork Main Dish</a>
                         <a href="RecipeList.aspx?linkId=1&cId=5">Pasta Main Dish</a>
-                        <a href="RecipeList.aspx?linkId=1&cId=6">Vegetarian Main Dish</a> 
+                        <a href="RecipeList.aspx?linkId=1&cId=6">Vegetarian Main Dish</a>
                         <a href="RecipeList.aspx?linkId=1&cId=7">Vegetable Side Dish</a>
                         <a href="RecipeList.aspx?linkId=1&cId=8">Grain Side Dish</a>
                         <a href="RecipeList.aspx?linkId=1&cId=9">Lunch/Brunch</a>
@@ -306,152 +306,152 @@
                         <a href="RecipeList.aspx?linkId=1&cId=11">Beverage</a>
                         <a href="RecipeList.aspx?linkId=1&cId=12">Dessert</a>
                         <a href="RecipeList.aspx?linkId=1&cId=13">Sauce/Dressing</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=1&cId=15">Soups & Stews</a>
                     </div>
-                    
-                    
+
+
                     <!-- ***********-->
-                    <div class="menu_head_CookBook">  
+                    <div class="menu_head_CookBook">
                         Healthy Dinners</div>
                     <div class="menu_body_CookBook">
-                       
-                        <a href="RecipeList.aspx?linkId=11&cId=1&cbId=1">Beef Main Dish</a> 
+
+                        <a href="RecipeList.aspx?linkId=11&cId=1&cbId=1">Beef Main Dish</a>
                         <a href="RecipeList.aspx?linkId=11&cId=2&cbId=1">Poultry Main Dish</a>
                         <a href="RecipeList.aspx?linkId=11&cId=3&cbId=1">Seafood Main Dish</a>
                         <a href="RecipeList.aspx?linkId=11&cId=4&cbId=1">Pork Main Dish</a>
                         <a href="RecipeList.aspx?linkId=11&cId=5&cbId=1">Pasta Main Dish</a>
-                        <a href="RecipeList.aspx?linkId=11&cId=6&cbId=1">Vegetarian Main Dish</a> 
+                        <a href="RecipeList.aspx?linkId=11&cId=6&cbId=1">Vegetarian Main Dish</a>
                         <a href="RecipeList.aspx?linkId=11&cId=7&cbId=1">Vegetable Side Dish</a>
                         <a href="RecipeList.aspx?linkId=11&cId=8&cbId=1">Grain Side Dish</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=11&cId=15&cbId=1">Soups & Stews</a>
                      </div>
-                    
-                    <div class="menu_head_CookBook">  
+
+                    <div class="menu_head_CookBook">
                          Healthy Family Meals</div>
                     <div class="menu_body_CookBook">
-                      
+
                         <a href="RecipeList.aspx?linkId=12&cId=2&cbId=2">Poultry Main Dish</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=12&cId=4&cbId=2">Pork Main Dish</a>
                         <a href="RecipeList.aspx?linkId=12&cId=5&cbId=2">Pasta Main Dish</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=12&cId=7&cbId=2">Vegetable Side Dish</a>
                         <a href="RecipeList.aspx?linkId=12&cId=8&cbId=2">Grain Side Dish</a>
                         <a href="RecipeList.aspx?linkId=12&cId=9&cbId=2">Lunch/Brunch</a>
                         <a href="RecipeList.aspx?linkId=12&cId=10&cbId=2">Appetizer/Snack</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=12&cId=13&cbId=2">Sauce/Dressing</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=12&cId=15&cbId=2">Soups & Stews</a>
                     </div>
 
-                    <div class="menu_head_CookBook">  
+                    <div class="menu_head_CookBook">
                          Stay Young At Heart</div>
                     <div class="menu_body_CookBook">
-                        
-                        <a href="RecipeList.aspx?linkId=13&cId=1&cbId=3">Beef Main Dish</a> 
+
+                        <a href="RecipeList.aspx?linkId=13&cId=1&cbId=3">Beef Main Dish</a>
                         <a href="RecipeList.aspx?linkId=13&cId=2&cbId=3">Poultry Main Dish</a>
                         <a href="RecipeList.aspx?linkId=13&cId=3&cbId=3">Seafood Main Dish</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=13&cId=5&cbId=3">Pasta Main Dish</a>
                         <a href="RecipeList.aspx?linkId=13&cId=6&cbId=3">Vegetarian Main Dish</a>
                         <a href="RecipeList.aspx?linkId=13&cId=7&cbId=3">Vegetable Side Dish</a>
                         <a href="RecipeList.aspx?linkId=13&cId=8&cbId=3">Grain Side Dish</a>
                         <a href="RecipeList.aspx?linkId=13&cId=9&cbId=3">Lunch/Brunch</a>
                         <a href="RecipeList.aspx?linkId=13&cId=10&cbId=3">Appetizer/Snack</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=13&cId=12&cbId=3">Dessert</a>
                         <a href="RecipeList.aspx?linkId=13&cId=13&cbId=3">Sauce/Dressing</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=13&cId=15&cbId=3">Soups & Stews</a>
                     </div>
 
-                    <div class="menu_head_CookBook">  
+                    <div class="menu_head_CookBook">
                          Healthy Latino Recipes</div>
                     <div class="menu_body_CookBook">
-                        
-                        <a href="RecipeList.aspx?linkId=14&cId=1&cbId=4">Beef Main Dish</a> 
+
+                        <a href="RecipeList.aspx?linkId=14&cId=1&cbId=4">Beef Main Dish</a>
                         <a href="RecipeList.aspx?linkId=14&cId=2&cbId=4">Poultry Main Dish</a>
                         <a href="RecipeList.aspx?linkId=14&cId=3&cbId=4">Seafood Main Dish</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=14&cId=6&cbId=4">Vegetarian Main Dish</a>
                         <a href="RecipeList.aspx?linkId=14&cId=7&cbId=4">Vegetable Side Dish</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=14&cId=10&cbId=4">Appetizer/Snack</a>
                         <a href="RecipeList.aspx?linkId=14&cId=11&cbId=4">Beverage</a>
                         <a href="RecipeList.aspx?linkId=14&cId=12&cbId=4">Dessert</a>
                         <a href="RecipeList.aspx?linkId=14&cId=13&cbId=4">Sauce/Dressing</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=14&cId=15&cbId=4">Soups & Stews</a>
                     </div>
 
-                    <div class="menu_head_CookBook">  
+                    <div class="menu_head_CookBook">
                          Home Cooking African American Style</div>
                     <div class="menu_body_CookBook">
-                        
+
                         <a href="RecipeList.aspx?linkId=15&cId=1&cbId=5">Beef Main Dish</a>
                         <a href="RecipeList.aspx?linkId=15&cId=2&cbId=5">Poultry Main Dish</a>
                         <a href="RecipeList.aspx?linkId=15&cId=3&cbId=5">Seafood Main Dish</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=15&cId=6&cbId=5">Vegetarian Main Dish</a>
                         <a href="RecipeList.aspx?linkId=15&cId=7&cbId=5">Vegetable Side Dish</a>
                         <a href="RecipeList.aspx?linkId=15&cId=8&cbId=5">Grain Side Dish</a>
                         <a href="RecipeList.aspx?linkId=15&cId=9&cbId=5">Lunch/Brunch</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=15&cId=11&cbId=5">Beverage</a>
                         <a href="RecipeList.aspx?linkId=15&cId=12&cbId=5">Dessert</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=15&cId=15&cbId=5">Soups & Stews</a>
                     </div>
 
-                    <div class="menu_head_CookBook">  
+                    <div class="menu_head_CookBook">
                          American Indian/Alaska Native Recipes</div>
                     <div class="menu_body_CookBook">
-                        
-                        
+
+
                         <a href="RecipeList.aspx?linkId=16&cId=2&cbId=6">Poultry Main Dish</a>
                         <a href="RecipeList.aspx?linkId=16&cId=3&cbId=6">Seafood Main Dish</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=16&cId=6&cbId=6">Vegetarian Main Dish</a>
                         <a href="RecipeList.aspx?linkId=16&cId=7&cbId=6">Vegetable Side Dish</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=16&cId=9&cbId=6">Lunch/Brunch</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=16&cId=15&cbId=6">Soups & Stews</a>
                     </div>
 
-                    <div class="menu_head_CookBook">  
+                    <div class="menu_head_CookBook">
                          Vietnamese Community Recipes</div>
                     <div class="menu_body_CookBook">
-                        
-                        
+
+
                         <a href="RecipeList.aspx?linkId=17&cId=7&cbId=7">Vegetable Side Dish</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=17&cId=10&cbId=7">Appetizer/Snack</a>
-                        
+
                     </div>
 
-                    <div class="menu_head_CookBook">  
+                    <div class="menu_head_CookBook">
                          Filipino Community Recipes</div>
                     <div class="menu_body_CookBook">
-                        
-                        
+
+
                         <a href="RecipeList.aspx?linkId=18&cId=2&cbId=8">Poultry Main Dish</a>
                         <a href="RecipeList.aspx?linkId=18&cId=3&cbId=8">Seafood Main Dish</a>
                         <a href="RecipeList.aspx?linkId=18&cId=4&cbId=8">Pork Main Dish</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=18&cId=6&cbId=8">Vegetarian Main Dish</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=18&cId=10&cbId=8">Appetizer/Snack</a>
                         <a href="RecipeList.aspx?linkId=18&cId=11&cbId=8">Beverage</a>
                         <a href="RecipeList.aspx?linkId=18&cId=12&cbId=8">Dessert</a>
-                        
+
                         <a href="RecipeList.aspx?linkId=18&cId=15&cbId=8">Soups & Stews</a>
                     </div>
                     <!-- ***********-->
-                    
+
                   <!-- New begin-->
                   <div class="menu_head">
                         Cooking Resources</div>
@@ -459,7 +459,7 @@
                      <a href="cookingResrcs.aspx?linkId=2">Cooking Resources Main</a>
                          <a href="recipeIcons.aspx?linkId=2">Guide to Recipe Symbols and Side Dishes </a>
                         <a href="measurements.aspx?linkId=2">Guide to Common Cooking Measurements </a>
-                        <a href="glos.aspx?linkId=2">Food Preparation Glossary</a>                                             
+                        <a href="glos.aspx?linkId=2">Food Preparation Glossary</a>
                          <a href="cookinginfo.aspx?linkId=2">Basic Cooking Instructions</a>
                          <a href="safecooking.aspx?linkId=2">Safe Cooking Rules</a>
                         <a href="safekitchen.aspx?linkId=2">Keeping Your Kitchen Safe</a>
@@ -476,23 +476,23 @@
                         <a href="chefTraining.aspx?linkId=3">Chefs in Training</a>
                      </div>
                   <!-- New end -->
-                    
+
                  <div class="menu_head" >
-                        Tools & Resources</div> 
+                        Tools & Resources</div>
                     <div class="menu_body" >
                         <a href="supporters.aspx?linkId=4">Tools & Resources Main</a>
                         <a href="promo.aspx?linkId=4">Healthy Eating Promotion Suggestions</a>
                         <a href="toolbox.aspx?linkId=4">More Resources for Healthy Living</a>
                         <a href="ktblogo.aspx?linkId=4">Keep the Beat Logos</a>
                         <a href="logos.aspx?linkId=4">Logo Usage Guidelines</a>
-                    </div> 
-                                                      
-                    
+                    </div>
+
+
                  </div>
-                 
+
                 <div id="nav" style="border-top: solid 1px #d2de80;">
-                    <ul>                       
-                       
+                    <ul>
+
                         <li><a href="Video.aspx">Healthy Eating Video Clips</a></li>
                         <li><a href="media.aspx">Media</a> </li>
                         <li><a href="https://www.nhlbi.nih.gov/health/index.htm#recipes" target="_blank">NHLBI
@@ -504,14 +504,14 @@
                         <a href="https://www.facebook.com/NHLBI">
                             <img src="images/ico_facebook.gif" alt="Link to NHLBI Facebook page" />
                             Facebook</a></p><br />
-                           
+
                 </div>
             </div>
             <div id="main_content">
                 <a name="skip" id="skip"></a>
-                
 
-     
+
+
 
     <div id="breadcrumbs"><a href="default.aspx">Healthy Eating Recipes Home</a> > <a href="CategoryList.aspx">Categories</a> > <a href="RecipeList.aspx?linkId=1&cId=10">Appetizer/Snack</a> > Vietnamese Fresh Spring Rolls (G&#7887;i Cu&#7889;n)</div>
 
@@ -538,7 +538,7 @@
     </div>
     <div id="print_add_this">
         <img src="Images/printer.png" alt="Printer Friendly" /> <a href="javascript:window.print();">Printer Friendly</a> &nbsp;&nbsp;
-        
+
     </div>
     <table class="recipe_time_table">
         <tr>
@@ -562,79 +562,79 @@
                         Ingredients</h3>
                 </div>
                 <div id="ingredients">
-                    
+
                             <table class="tbl_ingredients" border="0">
-                        
+
                             <tr>
                                 <td>
-                                    
+
                                     <p>
                                         1 C carrots, cut into long, thin strips
                                     </p>
                                 </td>
                             </tr>
-                        
+
                             <tr>
                                 <td>
-                                    
+
                                     <p>
                                         2 C bean sprouts
                                     </p>
                                 </td>
                             </tr>
-                        
+
                             <tr>
                                 <td>
-                                    
+
                                     <p>
                                         2 C cucumber, seeded and cut into long, thin strips
                                     </p>
                                 </td>
                             </tr>
-                        
+
                             <tr>
                                 <td>
-                                    
+
                                     <p>
                                         1 C minced scallions
                                     </p>
                                 </td>
                             </tr>
-                        
+
                             <tr>
                                 <td>
-                                    
+
                                     <p>
                                         &frac12; C chopped fresh cilantro
                                     </p>
                                 </td>
                             </tr>
-                        
+
                             <tr>
                                 <td>
-                                    
+
                                     <p>
                                         &frac14; C chopped fresh mint
                                     </p>
                                 </td>
                             </tr>
-                        
+
                             <tr>
                                 <td>
-                                    
+
                                     <p>
                                         8 rice paper wrappers
                                     </p>
                                 </td>
                             </tr>
-                        
+
                             </table>
-                        
+
                 </div>
             </td>
             <td valign="top" style="padding-top: 20px; " rowspan="2">
                 <div id="recipe_photo">
-                    
+
                 </div>
             </td>
             <td valign="top" style="padding-top: 20px; width: 25%;" rowspan="2">
@@ -649,7 +649,7 @@
                                     70
                                 </td>
                             </tr>
-                            
+
                                     <tr>
                                         <td class="ncol1">
                                             Total fat
@@ -658,7 +658,7 @@
                                             1 g
                                         </td>
                                     </tr>
-                                
+
                                     <tr>
                                         <td class="ncol1">
                                             Saturated fat
@@ -667,7 +667,7 @@
                                             0 g
                                         </td>
                                     </tr>
-                                
+
                                     <tr>
                                         <td class="ncol1">
                                             Cholesterol
@@ -676,7 +676,7 @@
                                             0 mg
                                         </td>
                                     </tr>
-                                
+
                                     <tr>
                                         <td class="ncol1">
                                             Sodium
@@ -685,7 +685,7 @@
                                             28 mg
                                         </td>
                                     </tr>
-                                
+
                                     <tr>
                                         <td class="ncol1">
                                             Total fiber
@@ -694,7 +694,7 @@
                                             2 g
                                         </td>
                                     </tr>
-                                
+
                                     <tr>
                                         <td class="ncol1">
                                             Protein
@@ -703,7 +703,7 @@
                                             3 g
                                         </td>
                                     </tr>
-                                
+
                                     <tr>
                                         <td class="ncol1">
                                             Carbohydrates
@@ -712,7 +712,7 @@
                                             16 g
                                         </td>
                                     </tr>
-                                
+
                                     <tr>
                                         <td class="ncol1">
                                             Potassium
@@ -721,7 +721,7 @@
                                             161 mg
                                         </td>
                                     </tr>
-                                
+
                                     <tr>
                                         <td class="ncol1">
                                             Calcium
@@ -730,7 +730,7 @@
                                             25 mg
                                         </td>
                                     </tr>
-                                
+
                                     <tr>
                                         <td class="ncol1">
                                             Iron
@@ -739,7 +739,7 @@
                                             1 mg
                                         </td>
                                     </tr>
-                                
+
                             <tr>
                                 <td colspan="2" >
                                     <span class="pdv">
@@ -759,9 +759,9 @@
                 <div id="recipe_directions">
                     <h3>
                         Directions</h3>
-                    
+
                             <ul>
-                        
+
                             <li>
                                 <p>
                                     <table width="100%" border="0" cellpadding="0" cellspacing="0">
@@ -779,7 +779,7 @@
                                     </table>
                                 </p>
                             </li>
-                        
+
                             <li>
                                 <p>
                                     <table width="100%" border="0" cellpadding="0" cellspacing="0">
@@ -797,7 +797,7 @@
                                     </table>
                                 </p>
                             </li>
-                        
+
                             <li>
                                 <p>
                                     <table width="100%" border="0" cellpadding="0" cellspacing="0">
@@ -815,7 +815,7 @@
                                     </table>
                                 </p>
                             </li>
-                        
+
                             <li>
                                 <p>
                                     <table width="100%" border="0" cellpadding="0" cellspacing="0">
@@ -833,7 +833,7 @@
                                     </table>
                                 </p>
                             </li>
-                        
+
                             <li>
                                 <p>
                                     <table width="100%" border="0" cellpadding="0" cellspacing="0">
@@ -851,25 +851,25 @@
                                     </table>
                                 </p>
                             </li>
-                        
+
                             </ul>
-                    
+
                 </div>
             </td>
-           
+
         </tr>
     </table>
-    
+
     <p>_______________<br />&#153;<em>Keep the Beat</em> is a trademark of the U.S. Department of Health and Human Services.</p>
 
 
-           
+
                 <p><sup>&reg;</sup><em><strong>We Can! Ways to Enhance Children's Activity &amp; Nutrition</strong></em>, <strong><em>We Can!</em></strong>, and the <strong><em>We Can! </em></strong>logos are registered trademarks of the U.S. Department of Health &amp; Human Services (HHS).</p>
-   
+
             </div>
              <input type="hidden" id="hidMenuId" />
              <input type="hidden" id="hidMenuIdtest" />
-        
+
 
 <script type="text/javascript">
     // Instructions: please embed this snippet directly into every page in your website template.
@@ -993,7 +993,7 @@
                                 <a href="https://www.nih.gov/">National Institute of Health</a>
                             </li>
                             <li class="menu-item">
-                                <a href="https://www.hhs.gov/">Department of Health and Human Services</a>                                
+                                <a href="https://www.hhs.gov/">Department of Health and Human Services</a>
                                 <a class="external-icon" href="javascript:void(0)" target="popup" onclick="window.open('https://www.nhlbi.nih.gov/about/contact/website-privacy-and-accessibility#what-is-the-external-link-disclaimer-policy','popup','width=600,height=425'); return false;"></a>
                             </li>
                             <li class="menu-item">
@@ -1013,18 +1013,18 @@
 </div>
 
 
- 
+
 <p>
   <!-- SiteCatalyst code version: H.22.1.
 Copyright 1996-2010 Adobe, Inc. All Rights Reserved
 More info available at https://www.omniture.com -->
 
 <script language="JavaScript" type="text/javascript" src="js/healthyeating_omn_account.js"></script>
- 
+
   <script language="JavaScript" type="text/javascript" src="js/channel_code_02_24_11.js"></script>
-  
+
   <script language="JavaScript" type="text/javascript" src="js/s_code_SEMPHONIC_02_24_11.js"></script>
-  
+
   <script language="JavaScript" type="text/javascript"><!--
 /* You may give each page an identifying name, server, and channel on
 the next lines. */
@@ -1045,7 +1045,7 @@ height="1" width="1" border="0" alt="" />
 
 <!-- End SiteCatalyst code version: H.22.1. -->
     <script type="text/javascript">_satellite.pageBottom();</script>
- 
+
 <!-- - end modified by jim - -->
 
 

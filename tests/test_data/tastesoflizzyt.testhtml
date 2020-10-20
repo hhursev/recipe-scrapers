@@ -61,10 +61,10 @@ window.addEventListener('LazyLoad::Initialized', function (e) {
 			lazyLoadInstance.update();
 		} );
 	} );
-	
+
 	var b      = document.getElementsByTagName("body")[0];
 	var config = { childList: true, subtree: true };
-	
+
 	observer.observe(b, config);
 }, false);</script><script src="https://www.tastesoflizzyt.com/wp-content/cache/min/1/56a4fa38734d130ed31745bde954fee2.js" data-minify="1" defer></script></body></html>
 <!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

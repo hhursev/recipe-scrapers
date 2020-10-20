@@ -52,7 +52,7 @@ var trackingData = "{\"id\":\"UA-17686165-1\",\"dimensions\":{\"topics\":\"Globa
 <script type="text/javascript" src="foodrepublic_files/global.js"></script>
 <script type="text/javascript" src="foodrepublic_files/widget.js"></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.foodrepublic.com/xmlrpc.php?rsd">
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.foodrepublic.com/wp-includes/wlwmanifest.xml"> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.foodrepublic.com/wp-includes/wlwmanifest.xml">
 <link rel="prev" title="A Vegetable Tart Recipe That Reminds Us That Spring Has Sprung" href="http://www.foodrepublic.com/recipes/a-vegetable-tart-recipe-that-reminds-us-that-spring-has-sprung/">
 <link rel="next" title="Caramel Pecan Tortoises Recipe" href="http://www.foodrepublic.com/recipes/caramel-pecan-tortoises-recipe/">
 <meta name="generator" content="WordPress 4.2.3">
@@ -149,7 +149,7 @@ window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
 
 
 	<div class="content-wrapper">
-		
+
 <nav class="site-nav" ng-class="vm.menu">
 	<div class="main-menu"><ul id="menu-site-wide-navigation" class="menu"><li id="menu-item-48299" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48299"><a href="http://www.foodrepublic.com/">Home</a></li>
 <li id="menu-item-48308" class="menu-item menu-item-type-taxonomy menu-item-object-section current-recipe-ancestor current-menu-parent current-recipe-parent menu-item-48308"><a href="http://www.foodrepublic.com/section/food/">Food</a></li>
@@ -165,7 +165,7 @@ window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
 <li id="menu-item-117527" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-117527"><a href="http://www.foodrepublic.com/topics/food-crimes/">Food Crimes</a></li>
 <li id="menu-item-122242" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-122242"><a href="http://www.foodrepublic.com/topics/butchery-charcuterie/">Butchery &amp; Charcuterie</a></li>
 </ul></div></div>
-	
+
 <div class="ng-isolate-scope" share="" context="menu" social-id="menu" links="{'facebook':{'link':'https:\/\/www.facebook.com\/F.Republic','name':'Facebook'},'twitter':{'link':'https:\/\/twitter.com\/foodrepublic','name':'Twitter'},'instagram':{'link':'https:\/\/instagram.com\/foodrepublic\/','name':'Instagram'},'googleplus':{'link':'https:\/\/plus.google.com\/+FoodRepublic\/posts','name':'Google Plus'}}"><div class="menu" ng-class="{open: vm.active}" ng-click="vm.trackStatus()"><!-- ngIf: 'archive' === vm.context --><!-- ngIf: 'archive' === vm.context --><div class="social-nav"><!-- ngIf: 'footer' === vm.context --><!-- ngIf: 'header' === vm.context --><ul class="pushable"><div class="social-expand-wrapper" ng-class="{open: vm.active}"><!-- ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://www.facebook.com/F.Republic" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://www.facebook.com/F.Republic"><span class="icon-facebook"></span> <span class="text ng-binding">Facebook</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://twitter.com/foodrepublic" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://twitter.com/foodrepublic"><span class="icon-twitter"></span> <span class="text ng-binding">Twitter</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://instagram.com/foodrepublic/" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://instagram.com/foodrepublic/"><span class="icon-instagram"></span> <span class="text ng-binding">Instagram</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://plus.google.com/+FoodRepublic/posts" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://plus.google.com/+FoodRepublic/posts"><span class="icon-googleplus"></span> <span class="text ng-binding">Google Plus</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><!-- ngIf: 'footer' === vm.context --></div><!-- ngIf: 'single' === vm.context || 'slideshow' === vm.context --></ul></div></div></div>
 	<span class="menu-newsletter" ng-click="vm.toggleNewsletter()">
 		<span class="icon-fr-mail"></span>
@@ -174,7 +174,7 @@ window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
 </nav>
 
 		<div scroll-watch="" id="page" class="hfeed site pushable ng-scope" ng-class="vm.menu">
-							
+
 
 <div class="ad banner desktop">
 	<div id="div-gpt-ad-Desktop_Leaderboard_728x90_970x90_970x400_970x200" class="dfp-ad dfp-Desktop_Leaderboard_728x90_970x90_970x400_970x200">
@@ -186,7 +186,7 @@ window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
 	</script>
 </div>
 </div>
-</div>				
+</div>
 
 <div class="ad banner mobile">
 	<div id="div-gpt-ad-Mobile_320x50" class="dfp-ad dfp-Mobile_320x50">
@@ -198,7 +198,7 @@ window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
 	</script>
 </div>
 </div>
-</div>			
+</div>
 			<header style="top: 0px; position: fixed;" scroll-target="" id="masthead" class="site-header ng-scope stuck pushable" role="banner" group="header" stick-stack="2" ng-class="[vm.targetClass, vm.menu]">
 				<div class="header-container">
 					<button class="menu-toggle icon-hamburger" aria-controls="menu" aria-expanded="false" ng-click="vm.menu = vm.toggleMenu()"><span>Primary Menu</span></button>
@@ -402,7 +402,7 @@ window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
 </ul></div></div>
 
 					<div class="header-right">
-						
+
 <div class="ng-isolate-scope" share="" context="header" social-id="footer" links="{'facebook':{'link':'https:\/\/www.facebook.com\/F.Republic','name':'Facebook'},'twitter':{'link':'https:\/\/twitter.com\/foodrepublic','name':'Twitter'},'instagram':{'link':'https:\/\/instagram.com\/foodrepublic\/','name':'Instagram'},'googleplus':{'link':'https:\/\/plus.google.com\/+FoodRepublic\/posts','name':'Google Plus'}}"><div class="header" ng-class="{open: vm.active}" ng-click="vm.trackStatus()"><!-- ngIf: 'archive' === vm.context --><!-- ngIf: 'archive' === vm.context --><div class="social-nav"><!-- ngIf: 'footer' === vm.context --><!-- ngIf: 'header' === vm.context --><p class="ng-scope" ng-if="'header' === vm.context"><strong>Follow:</strong></p><!-- end ngIf: 'header' === vm.context --><ul class="pushable"><div class="social-expand-wrapper" ng-class="{open: vm.active}"><!-- ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://www.facebook.com/F.Republic" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://www.facebook.com/F.Republic"><span class="icon-facebook"></span> <span class="text ng-binding">Facebook</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://twitter.com/foodrepublic" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://twitter.com/foodrepublic"><span class="icon-twitter"></span> <span class="text ng-binding">Twitter</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://instagram.com/foodrepublic/" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://instagram.com/foodrepublic/"><span class="icon-instagram"></span> <span class="text ng-binding">Instagram</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://plus.google.com/+FoodRepublic/posts" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://plus.google.com/+FoodRepublic/posts"><span class="icon-googleplus"></span> <span class="text ng-binding">Google Plus</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><!-- ngIf: 'footer' === vm.context --></div><!-- ngIf: 'single' === vm.context || 'slideshow' === vm.context --></ul></div></div></div>
 					</div>
 				</div>
@@ -410,10 +410,10 @@ window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
 
 			<div id="content" class="container site-content">
 
-	
+
 <article class="article single-view migrated post-20679 recipe type-recipe status-publish has-post-thumbnail hentry tag-asparagus tag-nyc-restaurants tag-prosciutto tag-spring-vegetables tag-the-netherlands section-food topic-global-cuisine" itemscope="" itemtype="http://schema.org/Article">
 						<figure class="article-image full-bleed-image">
-				
+
 <picture class="">
 			<source srcset="http://i2.wp.com/www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg?resize=1920%2C%20560, http://www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg 2x" media="(min-width: 80em)" sizes="1920px">
 			<source srcset="http://i2.wp.com/www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg?resize=1040%2C%20500, http://www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg 2x" media="(min-width: 65em) and (max-width: 80em)" sizes="1040px">
@@ -422,7 +422,7 @@ window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
 		<img srcset="http://i2.wp.com/www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg?resize=1920%2C%20560 1920w,
 			http://www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg 3840w" src="foodrepublic_files/dutchasparagus.jpg" sizes="1920px" alt="Article featured image">
 
-	
+
 			<div class="yummly-iframe-wrapper">
 			<iframe src="foodrepublic_files/yum.html" allowtransparency="true" style="width: 100px; height: 20px;" scrolling="no" class="YUMMLY-YUM-IFRAME" frameborder="0"></iframe>
 		</div>
@@ -430,17 +430,17 @@ window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
 
 	<meta itemprop="image" content="http://i2.wp.com/www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg?w=700">
 									<div class="feature-credit-caption">
-			
+
 							<figcaption>
 					One of the great things about spring menus is all the tender, fresh
  green vegetable dishes. Longstanding Midtown dining spot&nbsp;Michael's
- New York, owned by restaurateur Michael McCarty, boasts a Dutch recipe 
-we had to try: citrus-steamed Dutch white asparagus with a wine-spiked 
-butter sauce, a runny poached egg and a little Parmesan cheese.&nbsp;			
+ New York, owned by restaurateur Michael McCarty, boasts a Dutch recipe
+we had to try: citrus-steamed Dutch white asparagus with a wine-spiked
+butter sauce, a runny poached egg and a little Parmesan cheese.&nbsp;
 	</figcaption>
 					</div>
 					</figure>
-	
+
 	<scroll-trigger class="ng-scope" group="header" on-class="stuck pushable" stick="stick"></scroll-trigger>
 
 	<header class="article-title-area">
@@ -457,7 +457,7 @@ butter sauce, a runny poached egg and a little Parmesan cheese.&nbsp;
 		<scroll-trigger class="ng-scope" group="article-social" on-class="social-stuck" stick="stick" breakpoint="sUp"></scroll-trigger>
 
 		<div style="top: 52px; position: fixed;" scroll-target="" class="article-social pushable ng-scope social-stuck" ng-class="vm.targetClass" group="article-social" stick-stack="3">
-			
+
 <div class="ng-isolate-scope" share="" context="single" social-id="20679" links="{'facebook':{'link':'http:\/\/www.facebook.com\/dialog\/share?app_id=1459963620963229&amp;display=page&amp;href=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;redirect_uri=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;text=Dutch+White+Asparagus+Recipe','name':'Facebook'},'twitter':{'link':'https:\/\/twitter.com\/share?related=foodrepublic&amp;url=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;text=Dutch+White+Asparagus+Recipe','name':'Twitter'},'pinterest':{'link':'http:\/\/pinterest.com\/pin\/create\/button\/?url=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;description=Dutch+White+Asparagus+Recipe&amp;media=http%3A%2F%2Fi2.wp.com%2Fwww.foodrepublic.com%2Fwp-content%2Fuploads%2F2013%2F04%2Fdutchasparagus.jpg%3Fresize%3D4288%252C%25202848','name':'Pinterest'},'tumblr':{'link':'http:\/\/www.tumblr.com\/share\/photo?click_thru=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;caption=Dutch+White+Asparagus+Recipe&amp;source=http%3A%2F%2Fi2.wp.com%2Fwww.foodrepublic.com%2Fwp-content%2Fuploads%2F2013%2F04%2Fdutchasparagus.jpg%3Fresize%3D4288%252C%25202848','name':'Tumblr'},'mail':{'link':'mailto:?subject=DutchWhiteAsparagusRecipe&amp;body=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F','name':'Email'},'printer':{'link':'window.print();','name':'Print'}}"><div class="single" ng-class="{open: vm.active}" ng-click="vm.trackStatus()"><!-- ngIf: 'archive' === vm.context --><!-- ngIf: 'archive' === vm.context --><div class="social-nav"><!-- ngIf: 'footer' === vm.context --><!-- ngIf: 'header' === vm.context --><ul class="pushable"><div class="social-expand-wrapper" ng-class="{open: vm.active}"><!-- ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="http://www.facebook.com/dialog/share?app_id=1459963620963229&amp;display=page&amp;href=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;redirect_uri=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;text=Dutch+White+Asparagus+Recipe" class="ng-scope" ng-if="network !== 'printer'" ng-href="http://www.facebook.com/dialog/share?app_id=1459963620963229&amp;display=page&amp;href=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;redirect_uri=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;text=Dutch+White+Asparagus+Recipe"><span class="icon-facebook"></span> <span class="text ng-binding">Facebook</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://twitter.com/share?related=foodrepublic&amp;url=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;text=Dutch+White+Asparagus+Recipe" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://twitter.com/share?related=foodrepublic&amp;url=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;text=Dutch+White+Asparagus+Recipe"><span class="icon-twitter"></span> <span class="text ng-binding">Twitter</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;description=Dutch+White+Asparagus+Recipe&amp;media=http%3A%2F%2Fi2.wp.com%2Fwww.foodrepublic.com%2Fwp-content%2Fuploads%2F2013%2F04%2Fdutchasparagus.jpg%3Fresize%3D4288%252C%25202848" class="ng-scope" ng-if="network !== 'printer'" ng-href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;description=Dutch+White+Asparagus+Recipe&amp;media=http%3A%2F%2Fi2.wp.com%2Fwww.foodrepublic.com%2Fwp-content%2Fuploads%2F2013%2F04%2Fdutchasparagus.jpg%3Fresize%3D4288%252C%25202848"><span class="icon-pinterest"></span> <span class="text ng-binding">Pinterest</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="http://www.tumblr.com/share/photo?click_thru=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;caption=Dutch+White+Asparagus+Recipe&amp;source=http%3A%2F%2Fi2.wp.com%2Fwww.foodrepublic.com%2Fwp-content%2Fuploads%2F2013%2F04%2Fdutchasparagus.jpg%3Fresize%3D4288%252C%25202848" class="ng-scope" ng-if="network !== 'printer'" ng-href="http://www.tumblr.com/share/photo?click_thru=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;caption=Dutch+White+Asparagus+Recipe&amp;source=http%3A%2F%2Fi2.wp.com%2Fwww.foodrepublic.com%2Fwp-content%2Fuploads%2F2013%2F04%2Fdutchasparagus.jpg%3Fresize%3D4288%252C%25202848"><span class="icon-tumblr"></span> <span class="text ng-binding">Tumblr</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="mailto:?subject=DutchWhiteAsparagusRecipe&amp;body=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F" class="ng-scope" ng-if="network !== 'printer'" ng-href="mailto:?subject=DutchWhiteAsparagusRecipe&amp;body=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F"><span class="icon-mail"></span> <span class="text ng-binding">Email</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --><a class="ng-scope" ng-if="network === 'printer'" ng-click="vm.print()"><span class="icon-printer"></span> <span class="text ng-binding">Print</span></a><!-- end ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><!-- ngIf: 'footer' === vm.context --></div><!-- ngIf: 'single' === vm.context || 'slideshow' === vm.context --><li class="ng-scope" ng-if="'single' === vm.context || 'slideshow' === vm.context" ng-click="vm.active = !vm.active"><span class="icon-share"></span></li><!-- end ngIf: 'single' === vm.context || 'slideshow' === vm.context --></ul></div></div></div>
 		</div>
 		<div class="article-meta">
@@ -473,19 +473,19 @@ butter sauce, a runny poached egg and a little Parmesan cheese.&nbsp;
 	</div>
 </div>
 		<div article-body="" class="article-body body-copy ng-scope">
-			
+
 			<span itemprop="articleBody"><p>One of the great things about spring menus is all the tender, fresh green vegetable dishes. Longstanding Midtown dining spot <a href="http://www.michaelsnewyork.com/" target="_blank">Michael's New York</a>,
- owned by restaurateur Michael McCarty, boasts a Dutch recipe we had to 
-try: citrus-steamed Dutch white asparagus (they actually do a mix of 
-white and green) with a wine-spiked butter sauce, a runny poached egg 
-and a little Parmesan cheese. A little prosciutto never hurt anyone, 
+ owned by restaurateur Michael McCarty, boasts a Dutch recipe we had to
+try: citrus-steamed Dutch white asparagus (they actually do a mix of
+white and green) with a wine-spiked butter sauce, a runny poached egg
+and a little Parmesan cheese. A little prosciutto never hurt anyone,
 either.&nbsp;</p>
 </span>
 
 					</div>
 		<div class="article-add-ons">
 							<!-- Reference Recipe -->
-				
+
 <div class="article-recipe" itemscope="" itemtype="http://schema.org/Recipe">
 	<meta itemprop="name" content="Dutch White Asparagus Recipe">
 	<meta itemprop="datePublished" content="2013-04-16T16:01:24+00:00">
@@ -493,11 +493,11 @@ either.&nbsp;</p>
 
 			<!-- Featured Image -->
 		<meta itemprop="image" content="http://i2.wp.com/www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg?w=700">
-	
+
 	<div class="recipe-meta">
 	<div class="recipe-border"></div>
 	<h3 class="recipe-title">Dutch White Asparagus Recipe</h3>
-	
+
 	<ul class="recipe-information">
 					<li class="prep-time">
 				<strong>Prep Time:</strong>
@@ -521,12 +521,12 @@ either.&nbsp;</p>
 	<h4>Ingredients<span class="icon-plus" ng-click="vm.ingredients = '' === vm.ingredients ? 'open' : ''"></span></h4>
 	<div class="ingredients-content" ng-class="vm.ingredients">
 					<div class="recipe-component" data-serving-size="4">
-				
+
 							</div>
 					<div class="recipe-component" data-serving-size="4">
 									<h5 class="component-title">
 						For the asparagus					</h5>
-				
+
 									<ul>
 																											<li itemprop="recipeIngredient">
 								<span class="ingredient-system">
@@ -537,7 +537,7 @@ either.&nbsp;</p>
 																	</span>
 
 								<span class="ingredient-label">
-									
+
 									Dutch white asparagus								</span>
 							</li>
 																											<li itemprop="recipeIngredient">
@@ -549,7 +549,7 @@ either.&nbsp;</p>
 																	</span>
 
 								<span class="ingredient-label">
-									
+
 									Meyer lemon, orange and grapefruit								</span>
 							</li>
 																											<li itemprop="recipeIngredient">
@@ -561,7 +561,7 @@ either.&nbsp;</p>
 																	</span>
 
 								<span class="ingredient-label">
-									
+
 									water, for steaming								</span>
 							</li>
 											</ul>
@@ -569,7 +569,7 @@ either.&nbsp;</p>
 					<div class="recipe-component" data-serving-size="4">
 									<h5 class="component-title">
 						Sauce					</h5>
-				
+
 									<ul>
 																											<li itemprop="recipeIngredient">
 								<span class="ingredient-system">
@@ -580,7 +580,7 @@ either.&nbsp;</p>
 																	</span>
 
 								<span class="ingredient-label">
-									
+
 									grated Parmesan cheese								</span>
 							</li>
 																											<li itemprop="recipeIngredient">
@@ -592,7 +592,7 @@ either.&nbsp;</p>
 																	</span>
 
 								<span class="ingredient-label">
-									
+
 									Chardonnay								</span>
 							</li>
 																											<li itemprop="recipeIngredient">
@@ -604,7 +604,7 @@ either.&nbsp;</p>
 																	</span>
 
 								<span class="ingredient-label">
-									
+
 									white wine vinegar								</span>
 							</li>
 																											<li itemprop="recipeIngredient">
@@ -616,7 +616,7 @@ either.&nbsp;</p>
 																	</span>
 
 								<span class="ingredient-label">
-									
+
 									fresh thyme								</span>
 							</li>
 																											<li itemprop="recipeIngredient">
@@ -628,7 +628,7 @@ either.&nbsp;</p>
 																	</span>
 
 								<span class="ingredient-label">
-									
+
 									shallots, minced								</span>
 							</li>
 																											<li itemprop="recipeIngredient">
@@ -638,7 +638,7 @@ either.&nbsp;</p>
 																										</span>
 
 								<span class="ingredient-label">
-									
+
 									small chunk of Parmesan rind								</span>
 							</li>
 																											<li itemprop="recipeIngredient">
@@ -650,7 +650,7 @@ either.&nbsp;</p>
 																	</span>
 
 								<span class="ingredient-label">
-									
+
 									unsalted butter, chilled and cut into small cubes								</span>
 							</li>
 											</ul>
@@ -658,7 +658,7 @@ either.&nbsp;</p>
 					<div class="recipe-component" data-serving-size="4">
 									<h5 class="component-title">
 						for plating					</h5>
-				
+
 									<ul>
 																											<li itemprop="recipeIngredient">
 								<span class="ingredient-system">
@@ -667,7 +667,7 @@ either.&nbsp;</p>
 																										</span>
 
 								<span class="ingredient-label">
-									
+
 									fresh eggs, poached (see instructions)								</span>
 							</li>
 																											<li itemprop="recipeIngredient">
@@ -679,24 +679,24 @@ either.&nbsp;</p>
 																	</span>
 
 								<span class="ingredient-label">
-									
+
 									prosciutto								</span>
 							</li>
 											</ul>
 							</div>
-		
-		
+
+
 	</div>
 </div>
 	<scroll-trigger class="mobile-ingredients-trigger ng-scope" group="recipe-ingredients" on-class="ingredients-stuck" stick="stick" breakpoint="xsS"></scroll-trigger>
-	
+
 <div class="directions">
 	<h4>Directions</h4>
 			<span itemprop="recipeInstructions">
 			<p><em><strong>For the Dutch white asparagus:</strong></em></p> <ol> 	<li>After
- peeling and trimming the asparagus, steam it in citrus water — water 
+ peeling and trimming the asparagus, steam it in citrus water — water
 with Meyer lemon, orange and grapefruit slices — until fork tender.</li> </ol> <p><em><strong>For the beurre blanc sauce:</strong></em></p> <ol> 	<li>In a pot add the Chardonnay, white wine vinegar, thyme, shallots and chunk of Parmesan rind; reduce about a quarter.</li> 	<li>Remove from heat and slowly whisk in cubes of butter until sauce is thick and glossy.</li> </ol> <p><em><strong>To plate:</strong></em></p> <ol> 	<li>Pour 2 tablespoons of beurre blanc on a plate, <a href="http://www.foodrepublic.com/2011/05/05/how-poach-egg">top it with a poached egg</a>, steamed white asparagus, prosciutto and grated Parmesan.</li> </ol> <p><strong>More recipes with asparagus on Food Republic:</strong></p> <ul> 	<li><a href="http://www.foodrepublic.com/2011/05/15/spring-asparagus-soup-recipe">Spring Asparagus Soup Recipe</a></li> 	<li><a href="http://www.foodrepublic.com/2012/05/15/goat-cheese-and-asparagus-macaroni-salad">Goat Cheese And Asparagus Macaroni Salad Recipe</a></li> 	<li><a href="http://www.foodrepublic.com/2011/06/05/roasted-asparagus-scrambled-eggs-recipe">Roasted Asparagus &amp; Scrambled Eggs Recipe</a></li> </ul> 		</span>
-	
+
 	</div>
 	<scroll-trigger class="ng-scope" group="recipe-ingredients" on-class="ingredients-stop" parent-class="recipe-bottom" breakpoint="mUp" offset="inclusive"></scroll-trigger>
 </div>
@@ -709,7 +709,7 @@ with Meyer lemon, orange and grapefruit slices — until fork tender.</li> </ol>
 	</div>
 
 	<aside class="article-sidebar">
-					
+
 
 <div class="ad box">
 	<div id="div-gpt-ad-Desktop_Top_300x250_300x600_300x1050" class="dfp-ad dfp-Desktop_Top_300x250_300x600_300x1050">
@@ -721,7 +721,7 @@ with Meyer lemon, orange and grapefruit slices — until fork tender.</li> </ol>
 	</script>
 </div>
 </div>
-</div>			
+</div>
 
 <div class="ad box">
 	<div id="div-gpt-ad-Mobile_300x250_1" class="dfp-ad dfp-Mobile_300x250_1">
@@ -733,7 +733,7 @@ with Meyer lemon, orange and grapefruit slices — until fork tender.</li> </ol>
 	</script>
 </div>
 </div>
-</div>				
+</div>
 <div class="newsletter-overlay" ng-class="{open: vm.newsletter}" ng-click="vm.toggleNewsletter()"></div>
 <div class="newsletter-signup" ng-class="{open: vm.newsletter}">
 	<div class="newsletter-content">
@@ -819,7 +819,7 @@ with Meyer lemon, orange and grapefruit slices — until fork tender.</li> </ol>
 	</footer>
 
 	<aside class="article-footer-sidebar">
-					
+
 
 <div class="ad box">
 	<div id="div-gpt-ad-Desktop_Lower_300x250" class="dfp-ad dfp-Desktop_Lower_300x250">
@@ -831,7 +831,7 @@ with Meyer lemon, orange and grapefruit slices — until fork tender.</li> </ol>
 	</script>
 </div>
 </div>
-</div>			
+</div>
 
 <div class="ad box">
 	<div id="div-gpt-ad-Mobile_300x250_2" class="dfp-ad dfp-Mobile_300x250_2">
@@ -927,7 +927,7 @@ with Meyer lemon, orange and grapefruit slices — until fork tender.</li> </ol>
 										<div class="footer-row-middle">
 						<div class="footer-row-inner">
 							<div class="footer-span">
-								
+
 <div class="ng-isolate-scope" share="" context="footer" social-id="footer" links="{'facebook':{'link':'https:\/\/www.facebook.com\/F.Republic','name':'Facebook'},'twitter':{'link':'https:\/\/twitter.com\/foodrepublic','name':'Twitter'},'youtube':{'link':'https:\/\/www.youtube.com\/channel\/UChMQSj-xgMvQyErXj1b6ijQ','name':'YouTube'},'googleplus':{'link':'https:\/\/plus.google.com\/+FoodRepublic\/posts','name':'Google Plus'},'yummly':{'link':'http:\/\/www.yummly.com\/page\/food-republic','name':'Yummly'},'tumblr':{'link':'http:\/\/foodrepublic.tumblr.com\/','name':'Tumblr'},'pinterest':{'link':'https:\/\/www.pinterest.com\/foodrepublic\/','name':'Pinterest'},'stumbleupon':{'link':'http:\/\/www.stumbleupon.com\/stumbler\/foodrepublic','name':'StumbleUpon'},'rss':{'link':'http:\/\/feeds.feedburner.com\/foodrepublic','name':'RSS'}}"><div class="footer" ng-class="{open: vm.active}" ng-click="vm.trackStatus()"><!-- ngIf: 'archive' === vm.context --><!-- ngIf: 'archive' === vm.context --><div class="social-nav"><!-- ngIf: 'footer' === vm.context --><p class="ng-scope" ng-if="'footer' === vm.context"><strong>Follow</strong></p><!-- end ngIf: 'footer' === vm.context --><!-- ngIf: 'header' === vm.context --><ul class="pushable"><div class="social-expand-wrapper" ng-class="{open: vm.active}"><!-- ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://www.facebook.com/F.Republic" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://www.facebook.com/F.Republic"><span class="icon-facebook"></span> <span class="text ng-binding">Facebook</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://twitter.com/foodrepublic" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://twitter.com/foodrepublic"><span class="icon-twitter"></span> <span class="text ng-binding">Twitter</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://www.youtube.com/channel/UChMQSj-xgMvQyErXj1b6ijQ" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://www.youtube.com/channel/UChMQSj-xgMvQyErXj1b6ijQ"><span class="icon-youtube"></span> <span class="text ng-binding">YouTube</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://plus.google.com/+FoodRepublic/posts" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://plus.google.com/+FoodRepublic/posts"><span class="icon-googleplus"></span> <span class="text ng-binding">Google Plus</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope hidden" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="http://www.yummly.com/page/food-republic" class="ng-scope" ng-if="network !== 'printer'" ng-href="http://www.yummly.com/page/food-republic"><span class="icon-yummly"></span> <span class="text ng-binding">Yummly</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope hidden" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="http://foodrepublic.tumblr.com/" class="ng-scope" ng-if="network !== 'printer'" ng-href="http://foodrepublic.tumblr.com/"><span class="icon-tumblr"></span> <span class="text ng-binding">Tumblr</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope hidden" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://www.pinterest.com/foodrepublic/" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://www.pinterest.com/foodrepublic/"><span class="icon-pinterest"></span> <span class="text ng-binding">Pinterest</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope hidden" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="http://www.stumbleupon.com/stumbler/foodrepublic" class="ng-scope" ng-if="network !== 'printer'" ng-href="http://www.stumbleupon.com/stumbler/foodrepublic"><span class="icon-stumbleupon"></span> <span class="text ng-binding">StumbleUpon</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope hidden" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="http://feeds.feedburner.com/foodrepublic" class="ng-scope" ng-if="network !== 'printer'" ng-href="http://feeds.feedburner.com/foodrepublic"><span class="icon-rss"></span> <span class="text ng-binding">RSS</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><!-- ngIf: 'footer' === vm.context --><li class="footer-more ng-scope" ng-if="'footer' === vm.context" ng-click="vm.footerSocialHide = !vm.footerSocialHide"><p>More <span class="icon-chevron-down" ng-class="{'icon-chevron-down': vm.footerSocialHide, 'icon-chevron-up': !vm.footerSocialHide}"></span></p></li><!-- end ngIf: 'footer' === vm.context --></div><!-- ngIf: 'single' === vm.context || 'slideshow' === vm.context --></ul></div></div></div>
 								<div class="footer-newsletter newsletter-signup">
 									<p><strong>Get the Latest from Food Republic</strong></p>
@@ -974,7 +974,7 @@ with Meyer lemon, orange and grapefruit slices — until fork tender.</li> </ol>
 
 			<div class="modal-newsletter">
 				<div class="newsletter-toggle" ng-click="vm.toggleNewsletter()">Get the Latest!</div>
-				
+
 <div class="newsletter-overlay" ng-class="{open: vm.newsletter}" ng-click="vm.toggleNewsletter()"></div>
 <div class="newsletter-signup" ng-class="{open: vm.newsletter}">
 	<div class="newsletter-content">
@@ -1010,7 +1010,7 @@ with Meyer lemon, orange and grapefruit slices — until fork tender.</li> </ol>
 
 			<div class="sticky-newsletter" ng-class="{open: vm.stickyNewsletter}">
 				<div class="newsletter-toggle" ng-click="vm.stickyNewsletter = !vm.stickyNewsletter">Get the Latest!</div>
-				
+
 <div class="newsletter-overlay" ng-class="{open: vm.newsletter}" ng-click="vm.toggleNewsletter()"></div>
 <div class="newsletter-signup" ng-class="{open: vm.newsletter}">
 	<div class="newsletter-content">
@@ -1044,13 +1044,13 @@ with Meyer lemon, orange and grapefruit slices — until fork tender.</li> </ol>
 </div>
 			</div>
 
-			
+
 		<!-- /// LOAD CHARTBEAT /// -->
 		<script type="text/javascript">
 		var _sf_async_config={};
 		_sf_async_config.uid = 19539;
 		_sf_async_config.useCanonical = true;
-		
+
 		(function(){
 		  function loadChartbeat() {
 			window._sf_endpt=(new Date()).getTime();
@@ -1087,7 +1087,7 @@ with Meyer lemon, orange and grapefruit slices — until fork tender.</li> </ol>
 <script type="text/javascript" src="foodrepublic_files/devicepx-jetpack.js"></script>
 <script type="text/javascript" src="foodrepublic_files/mailchimpAjax.js"></script>
 		</div><!-- .content-wrapper -->
-	
+
 
 <script src="foodrepublic_files/chartbeat.js" type="text/javascript" language="javascript"></script><div class="kxhead" data-id="J7SDAItO" style="display:none !important;"><span class="kxtag kxinvisible" data-id="31772" data-alias="TheTradeDesk User Matching"><script>
 (function()
@@ -1107,7 +1107,7 @@ var pixId=229;
   if (kuid) {
       var liveramp_url = 'https://idsync.rlcdn.com/379708.gif?partner_uid=' + kuid;
       var i = new Image();
-      i.src = liveramp_url;      
+      i.src = liveramp_url;
   }
 })();
 </script></span><span class="kxtag kxinvisible" data-id="35413" data-alias="IXI Digital Open Market provider tag"><script>
@@ -1215,7 +1215,7 @@ s.parentNode.insertBefore(mltag, s);
         }
 
         if (s == "thump" || "noisey") {
-            // Using subdomain to dynamically scrape page attribute cleanTag 
+            // Using subdomain to dynamically scrape page attribute cleanTag
             Krux('set', 'page_attr_' + s + '_cleanTag', cleanTag);
         }
 
@@ -1288,7 +1288,7 @@ s.parentNode.insertBefore(mltag, s);
                 url_path: '2'
             }
         });
-        // Using "show" Variable and SuperTag to define show. 
+        // Using "show" Variable and SuperTag to define show.
         if (window.show) {
             Krux('set', 'page_attr_show', show);
         }
@@ -1343,7 +1343,7 @@ s.parentNode.insertBefore(mltag, s);
   if (kuid) {
       var liveramp_url = 'https://idsync.rlcdn.com/379708.gif?partner_uid=' + kuid;
       var i = new Image();
-      i.src = liveramp_url;     
+      i.src = liveramp_url;
   }
 })();
 </script></span></div></body></html>

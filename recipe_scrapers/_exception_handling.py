@@ -3,16 +3,16 @@ import functools
 
 
 ON_EXCEPTION_RETURN_VALUES = {
-    'title': '',
-    'total_time': 0,
-    'yields': '',
-    'image': '',
-    'ingredients': [],
-    'instructions': '',
-    'ratings': -1,
-    'reviews': None,
-    'links': [],
-    'language': 'en',
+    "title": "",
+    "total_time": 0,
+    "yields": "",
+    "image": "",
+    "ingredients": [],
+    "instructions": "",
+    "ratings": -1,
+    "reviews": None,
+    "links": [],
+    "language": "en",
 }
 
 
@@ -24,7 +24,10 @@ def exception_handling(decorated):
                 return decorated(self, *args, **kwargs)
             except Exception as e:
                 logging.info("exception_handling silencing exception: {}".format(e))
-                logging.debug("exception_handling silencing exception: {}".format(e), exc_info=True)
+                logging.debug(
+                    "exception_handling silencing exception: {}".format(e),
+                    exc_info=True,
+                )
                 return ON_EXCEPTION_RETURN_VALUES.get(decorated.__name__)
         else:
             return decorated(self, *args, **kwargs)
@@ -52,6 +55,7 @@ class ExceptionHandlingMetaclass(type):
     scraper = scrape_me('<recipe_url>', exception_handling=False)
     scraper.total_time()  # and etc.
     """
+
     def __new__(cls, class_name, bases, attributes):
         """
         Go through all class attributes.

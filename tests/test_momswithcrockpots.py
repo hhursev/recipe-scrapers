@@ -22,14 +22,14 @@ class TestMomsWithCrockPotsScraper(ScraperTest):
     def test_ingredients(self):
         self.assertCountEqual(
             [
-                '8 ounces macaroni',
-                '2 teaspoons olive oil',
-                '1 cup evaporated milk',
-                '1/2 cup milk',
-                '1/2 teaspoon salt',
-                '1/4 teaspoon ground black pepper',
-                '2 cups Cheddar cheese (shredded, or a Cheddar blend)',
-                '4 tablespoons butter (melted)',
+                "8 ounces macaroni",
+                "2 teaspoons olive oil",
+                "1 cup evaporated milk",
+                "1/2 cup milk",
+                "1/2 teaspoon salt",
+                "1/4 teaspoon ground black pepper",
+                "2 cups Cheddar cheese (shredded, or a Cheddar blend)",
+                "4 tablespoons butter (melted)",
             ],
             self.harvester_class.ingredients(),
         )

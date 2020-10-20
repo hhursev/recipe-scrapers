@@ -3,51 +3,39 @@ from ._utils import get_minutes, normalize_string, get_yields
 
 
 class SimplyRecipes(AbstractScraper):
-
     @classmethod
-    def host(self):
-        return 'simplyrecipes.com'
+    def host(cls):
+        return "simplyrecipes.com"
 
     def title(self):
-        return self.soup.find('h1').get_text()
+        return self.soup.find("h1").get_text()
 
     def total_time(self):
-        return sum([
-            get_minutes(self.soup.find(
-                'span',
-                {'class': 'preptime'})
-            ),
-
-            get_minutes(self.soup.find(
-                'span',
-                {'class': 'cooktime'})
-            )
-        ])
-
-    def yields(self):
-        return get_yields(self.soup.find(
-            'span',
-            {'class': 'yield'})
+        return sum(
+            [
+                get_minutes(self.soup.find("span", {"class": "preptime"})),
+                get_minutes(self.soup.find("span", {"class": "cooktime"})),
+            ]
         )
 
-    def ingredients(self):
-        ingredients = self.soup.find(
-            'div',
-            {'class': 'recipe-ingredients'}
-        ).findAll('li')
+    def yields(self):
+        return get_yields(self.soup.find("span", {"class": "yield"}))
 
-        return [
-            normalize_string(ingredient.get_text())
-            for ingredient in ingredients
-        ]
+    def ingredients(self):
+        ingredients = self.soup.find("div", {"class": "recipe-ingredients"}).findAll(
+            "li"
+        )
+
+        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
-        instructions_html = self.soup.find(
-            'div',
-            {'class': 'instructions'}
-        ).findAll('p')
+        instructions_html = self.soup.find("div", {"class": "instructions"}).findAll(
+            "p"
+        )
 
-        return '\n'.join([
-            normalize_string(instruction.get_text())
-            for instruction in instructions_html
-        ])
+        return "\n".join(
+            [
+                normalize_string(instruction.get_text())
+                for instruction in instructions_html
+            ]
+        )
