@@ -14,3 +14,10 @@ class TestSchemaOrg(unittest.TestCase):
             if k in self.schema.data:
                 del self.schema.data[k]
         self.assertEqual(self.schema.total_time(), 0)
+
+    def test_graph_schema_without_context(self):
+        with open(
+            "tests/test_data/schemaorg_graph.testhtml", encoding="utf-8"
+        ) as pagedata:
+            schema = SchemaOrg(pagedata.read())
+        self.assertNotEqual(schema.data, {})
