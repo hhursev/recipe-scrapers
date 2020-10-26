@@ -16,8 +16,9 @@
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/psf/black
     :alt: Black formatted
-
-
+.. image:: https://pepy.tech/badge/recipe-scrapers
+    :target: https://pepy.tech/project/recipe-scrapers
+    :alt: Downloads
 ------
 
 
@@ -207,12 +208,15 @@ In case you want to run a single unittest for a newly developed scraper
 
 FAQ
 ---
-- **How do I know if a website has a Recipe Schema?**
+- **How do I know if a website has a Recipe Schema?** Run in python shell:
 
-  - Go to a recipe on the website you want to be supported.
-  - Hit ``Ctrl - u`` on your keyboard
-  - Search (``Ctrl -f``) for ``application/ld+json``. It should be inside a ``script`` tag.
-  - If you found it then it's highly likely your website supports recipe schemas. Otherwise, you'll need to parse the HTML.
+.. code:: python
+
+    from recipe_scrapers import scrape_me
+    scraper = scrape_me('<url of a recipe from the site>', wild_mode=True)
+    # if no error is raised - there's schema available:
+    scraper.title()
+    scraper.instructions()  # etc.
 
 
 Spacial thanks to:
