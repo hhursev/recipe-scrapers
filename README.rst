@@ -195,7 +195,7 @@ Assuming you have ``python3`` installed, navigate to the directory where you wan
     cd recipe-scrapers &&
     python3 -m venv .venv &&
     source .venv/bin/activate &&
-    pip install -r requirements.txt &&
+    pip install -r requirements-dev.txt &&
     pre-commit install &&
     python -m coverage run -m unittest &&
     python -m coverage report
