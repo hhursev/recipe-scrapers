@@ -33,16 +33,19 @@ class SchemaOrg:
                     return
                 elif in_context and "@graph" in item:
                     for graph_item in item.get("@graph", ""):
-                        in_graph = SCHEMA_ORG_HOST in graph_item.get("@context", "")
-                        if (
-                            in_graph
-                            and graph_item.get("@type", "").lower() in low_schema
-                        ):
+                        graph_item_type = graph_item.get("@type", "")
+                        if type(graph_item_type) != str:
+                            continue
+                        if graph_item_type.lower() in low_schema:
+                            in_graph = SCHEMA_ORG_HOST in graph_item.get("@context", "")
                             self.format = syntax
-                            self.data = graph_item
-                            if graph_item.get("@type").lower() == "webpage":
+                            if graph_item_type.lower() == "webpage" and in_graph:
                                 self.data = self.data.get("mainEntity")
-                            return
+                                return
+                            elif graph_item_type.lower() == "recipe":
+                                self.data = graph_item
+                                return
+                            continue
 
     def language(self):
         return self.data.get("inLanguage") or self.data.get("language")

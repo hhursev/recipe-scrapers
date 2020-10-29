@@ -16,8 +16,9 @@
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/psf/black
     :alt: Black formatted
-
-
+.. image:: https://pepy.tech/badge/recipe-scrapers
+    :target: https://pepy.tech/project/recipe-scrapers
+    :alt: Downloads
 ------
 
 
@@ -109,6 +110,7 @@ Scrapers available for:
 - `https://justbento.com/ <https://justbento.com>`_
 - `https://kennymcgovern.com/ <https://kennymcgovern.com>`_
 - `https://kochbar.de/ <https://kochbar.de>`_
+- `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
 - `http://livelytable.com/ <http://livelytable.com/>`_
 - `https://lovingitvegan.com/ <https://lovingitvegan.com/>`_
 - `https://lecremedelacrumb.com/ <https://lecremedelacrumb.com/>`_
@@ -193,7 +195,7 @@ Assuming you have ``python3`` installed, navigate to the directory where you wan
     cd recipe-scrapers &&
     python3 -m venv .venv &&
     source .venv/bin/activate &&
-    pip install -r requirements.txt &&
+    pip install -r requirements-dev.txt &&
     pre-commit install &&
     python -m coverage run -m unittest &&
     python -m coverage report
@@ -206,12 +208,15 @@ In case you want to run a single unittest for a newly developed scraper
 
 FAQ
 ---
-- **How do I know if a website has a Recipe Schema?**
+- **How do I know if a website has a Recipe Schema?** Run in python shell:
 
-  - Go to a recipe on the website you want to be supported.
-  - Hit ``Ctrl - u`` on your keyboard
-  - Search (``Ctrl -f``) for ``application/ld+json``. It should be inside a ``script`` tag.
-  - If you found it then it's highly likely your website supports recipe schemas. Otherwise, you'll need to parse the HTML.
+.. code:: python
+
+    from recipe_scrapers import scrape_me
+    scraper = scrape_me('<url of a recipe from the site>', wild_mode=True)
+    # if no error is raised - there's schema available:
+    scraper.title()
+    scraper.instructions()  # etc.
 
 
 Special thanks to:
