@@ -19,12 +19,13 @@
 .. image:: https://pepy.tech/badge/recipe-scrapers
     :target: https://pepy.tech/project/recipe-scrapers
     :alt: Downloads
+
 ------
 
 
 A simple web scraping tool for recipe sites.
 
-.. code::
+.. code:: shell
 
     pip install recipe-scrapers
 
@@ -190,7 +191,7 @@ For Devs / Contribute
 
 Assuming you have ``python3`` installed, navigate to the directory where you want this project to live in and drop these lines
 
-.. code::
+.. code:: shell
 
     git clone git@github.com:hhursev/recipe-scrapers.git &&
     cd recipe-scrapers &&
@@ -203,7 +204,7 @@ Assuming you have ``python3`` installed, navigate to the directory where you wan
 
 In case you want to run a single unittest for a newly developed scraper
 
-.. code::
+.. code:: shell
 
     python -m coverage run -m unittest tests.test_myscraper
 
