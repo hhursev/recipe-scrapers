@@ -16,10 +16,7 @@ class TestWholeFoodsScraper(ScraperTest):
         )
 
     def test_title(self):
-        self.assertEqual(
-            "Grilled Cheese and Greens",
-            self.harvester_class.title(),
-        )
+        self.assertEqual("Grilled Cheese and Greens", self.harvester_class.title())
 
     def test_total_time(self):
         self.assertEqual(30, self.harvester_class.total_time())

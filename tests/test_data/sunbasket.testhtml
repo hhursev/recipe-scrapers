@@ -32,10 +32,10 @@
     window.sunbasket.basePath = "";
     window.sunbasket.reCaptchaKey = "6LePSuQUAAAAAOemOOWD19nvHb41MORnT8psiz41";
     window.sunbasket.reCaptchaV2Key = "6LcAF_cUAAAAAFycYHeaZwiw_sX4eYYvQ2FfXahE";
-    
+
     window.sunbasket.appleAuthCallbackUrl = '/auth/apple';
     window.sunbasket.appleSignInClientId = 'com.sunbasket.sunbasket.auth';
-    
+
     window.sunbasket.absoluteUrl = function(path) {
       return '' + document.location.origin + path;
     };
@@ -72,9 +72,9 @@
   <script type="text/javascript">
       !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
         analytics.load("tjammJyflOTrfU0zTXDUW4dGOLEyQ2lK");
-        
+
           var pageData = window.sunbasket.analytics.querystring();
-          
+
         analytics.page(pageData);
       }}();
     </script>
@@ -190,7 +190,7 @@
   <link rel="stylesheet" type="text/css"
         href="/resources/bundle/allCss.css?v=4.18.1"/>
 
-  
+
 <link rel='stylesheet' href='/resources/css/explore/explore.css?v=4.18.1'/>
 <link rel='stylesheet' href='/resources/css/recipe.css?v=4.18.1'/>
 <style type="text/css">.grecaptcha-badge { visibility: hidden; }</style>
@@ -332,7 +332,7 @@
     (function($){
       var landingPagePathname = getCookie('landing-page-pathname');
 
-    
+
 
       if (!!landingPagePathname) {
         $(function() {
@@ -1500,15 +1500,15 @@ $(function() {
       }
       var div_height = $(".sticky").height();
 
-      
+
         div_height = $(".sticky").height() + 80;
-      
+
 
       var padding = 20;
       var margin_top = 20;
-      
+
         margin_top = 100;
-      
+
 
 
       if ($(window).width() > 991) {
@@ -1540,9 +1540,9 @@ $(function() {
         selectExploreNavTab();
     }, 500);
 
-    
+
       showSimilarRecipes(1530);
-    
+
 
     $('a.img-container').on('click', function(e) {
         var el = $(this);

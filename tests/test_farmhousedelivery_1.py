@@ -21,10 +21,7 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
         self.assertEqual("recipes.farmhousedelivery.com", self.harvester_class.host())
 
     def test_title(self):
-        self.assertEqual(
-            "Green Shakshuka",
-            self.harvester_class.title(),
-        )
+        self.assertEqual("Green Shakshuka", self.harvester_class.title())
 
     def test_ingredients(self):
         self.assertEqual(
@@ -46,7 +43,7 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
     def test_instructions(self):
         self.assertEqual(
             [
-                "Saute onions & garlic in olive oil in a large skillet until they take on a little color. Add jalapeno and continue cooking for 1-2 minutes. Add chopped greens, season with salt and pepper to taste and cover until greens are just wilted. Add cream and bring to a simmer. Crack eggs on top of greens, cover and cook until eggs are cooked to your preference. Serve in wide bowls with a dollop of yogurt and a drizzle of hot sauce and thick slices of warm bread on the side.",
+                "Saute onions & garlic in olive oil in a large skillet until they take on a little color. Add jalapeno and continue cooking for 1-2 minutes. Add chopped greens, season with salt and pepper to taste and cover until greens are just wilted. Add cream and bring to a simmer. Crack eggs on top of greens, cover and cook until eggs are cooked to your preference. Serve in wide bowls with a dollop of yogurt and a drizzle of hot sauce and thick slices of warm bread on the side."
             ],
             self.harvester_class.instructions(),
         )
