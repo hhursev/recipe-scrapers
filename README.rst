@@ -79,6 +79,7 @@ Scrapers available for:
 - `https://countryliving.com/ <https://countryliving.com>`_
 - `https://cybercook.com.br/ <https://cybercook.com.br/>`_
 - `https://delish.com/ <https://delish.com>`_
+- `https://domesticate-me.com/ <https://domesticate-me.com/`_
 - `https://eatsmarter.com/ <https://eatsmarter.com/>`_
 - `https://eatsmarter.de/ <https://eatsmarter.de/>`_
 - `https://eatwhattonight.com/ <https://eatwhattonight.com/>`_

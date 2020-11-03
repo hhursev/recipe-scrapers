@@ -24,6 +24,7 @@ from .copykat import CopyKat
 from .countryliving import CountryLiving
 from .cybercook import Cybercook
 from .delish import Delish
+from .domesticateme import DomesticateMe
 from .eatsmarter import Eatsmarter
 from .eatwhattonight import EatWhatTonight
 from .epicurious import Epicurious
@@ -130,6 +131,7 @@ SCRAPERS = {
     CountryLiving.host(): CountryLiving,
     Cybercook.host(): Cybercook,
     Delish.host(): Delish,
+    DomesticateMe.host(): DomesticateMe,
     Eatsmarter.host(): Eatsmarter,
     Eatsmarter.host(domain="de"): Eatsmarter,
     EatWhatTonight.host(): EatWhatTonight,
