@@ -282,5 +282,6 @@ def scrape_me(url_path, **options):
 
     return scraper(url_path, **options)
 
+
 __all__ = ["scrape_me"]
 name = "recipe_scrapers"
