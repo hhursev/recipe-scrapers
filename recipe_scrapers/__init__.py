@@ -22,6 +22,7 @@ from .cookpad import CookPad
 from .cookstr import Cookstr
 from .copykat import CopyKat
 from .countryliving import CountryLiving
+from .cuisineaz import CuisineAZ
 from .cybercook import Cybercook
 from .delish import Delish
 from .domesticateme import DomesticateMe
@@ -129,6 +130,7 @@ SCRAPERS = {
     Cookstr.host(): Cookstr,
     CopyKat.host(): CopyKat,
     CountryLiving.host(): CountryLiving,
+    CuisineAZ.host(): CuisineAZ,
     Cybercook.host(): Cybercook,
     Delish.host(): Delish,
     DomesticateMe.host(): DomesticateMe,
