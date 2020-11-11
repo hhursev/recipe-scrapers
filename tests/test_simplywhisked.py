@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.simplywhisked import SimplyWhisked
+from tests import ScraperTest
 
 
 class TestSimplyWhiskedScraper(ScraperTest):
@@ -17,7 +16,6 @@ class TestSimplyWhiskedScraper(ScraperTest):
         self.assertEqual(45, self.harvester_class.total_time())
 
     def test_yields(self):
-        # 6 to 8 servings (makes about 3 quarts), debatable it should be 8 servings.
         self.assertEqual("8 serving(s)", self.harvester_class.yields())
 
     def test_ingredients(self):
@@ -36,7 +34,7 @@ class TestSimplyWhiskedScraper(ScraperTest):
                 '1 bay leaf',
                 '1 teaspoon salt',
                 '1/2 teaspoon pepper',
-                '1/2 cup buffalo wing sauce'
+                '1/2 cup buffalo wing sauce',
             ],
             self.harvester_class.ingredients(),
         )

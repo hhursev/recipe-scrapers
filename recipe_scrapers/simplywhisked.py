@@ -1,5 +1,4 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string, get_yields
 
 
 class SimplyWhisked(AbstractScraper):
