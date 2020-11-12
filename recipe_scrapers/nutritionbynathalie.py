@@ -8,6 +8,8 @@ BULLET_CHARACTER_ORD = 8226
 
 
 class NutritionByNathalie(AbstractScraper):
+    ingredientMatch = re.compile(r"Ingredients:")
+
     @classmethod
     def host(cls):
         return "nutritionbynathalie.com"
@@ -30,14 +32,18 @@ class NutritionByNathalie(AbstractScraper):
     def ingredients(self):
         ingredients = []
 
-        title = self.soup.find(text="Ingredients:").find_parent("p")
-        element = title.nextSibling
-        while element:
-            ingredient = element.get_text()
-            if len(ingredient) == 0 or ord(ingredient[0]) != BULLET_CHARACTER_ORD:
-                break
-            ingredients.append(ingredient[2:])
-            element = element.nextSibling
+        elements = self.soup.find_all(text=self.ingredientMatch)
+        for outerElement in elements:
+            title = outerElement.find_parent("p")
+            if not title:
+                continue
+            element = title.nextSibling
+            while element:
+                ingredient = element.get_text()
+                if len(ingredient) == 0 or ord(ingredient[0]) != BULLET_CHARACTER_ORD:
+                    break
+                ingredients.append(ingredient[2:])
+                element = element.nextSibling
 
         return ingredients
 
