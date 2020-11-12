@@ -18,9 +18,9 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
         url,
         exception_handling=True,
         meta_http_equiv=False,
-	proxies=None,  # allows us to specify optional proxy server
+        proxies=None,  # allows us to specify optional proxy server
         test=False,
-	timeout=None,  # allows us to specify optional timeout for request
+        timeout=None,  # allows us to specify optional timeout for request
         wild_mode=False,
     ):
         if test:  # when testing, we load a file
