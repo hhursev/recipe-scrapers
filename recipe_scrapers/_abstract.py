@@ -27,7 +27,9 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
             with url:
                 page_data = url.read()
         else:
-            page_data = requests.get(url, headers=HEADERS, proxies=proxies, timeout=timeout).content
+            page_data = requests.get(
+                url, headers=HEADERS, proxies=proxies, timeout=timeout
+            ).content
 
         self.exception_handling = exception_handling
         self.meta_http_equiv = meta_http_equiv
