@@ -3,52 +3,40 @@ from ._utils import get_minutes, normalize_string, get_yields
 
 
 class MyBakingAddiction(AbstractScraper):
-
     @classmethod
-    def host(self):
-        return 'mybakingaddiction.com'
+    def host(cls):
+        return "mybakingaddiction.com"
 
     def title(self):
-        return self.soup.find('h1').get_text()
+        return self.soup.find("h1").get_text()
 
     def total_time(self):
-        return get_minutes(self.soup.find(
-            'div',
-            {'class': 'mv-create-time-total'}
-        ).get_text())
+        return get_minutes(
+            self.soup.find("div", {"class": "mv-create-time-total"}).get_text()
+        )
 
     def yields(self):
-        return get_yields(self.soup.find(
-            'div',
-            {'class': 'mv-create-time-yield'}
-        ))
+        return get_yields(self.soup.find("div", {"class": "mv-create-time-yield"}))
 
     def ingredients(self):
-        ingredients = self.soup.find(
-            'div',
-            {'class': "mv-create-ingredients"}
-        ).findAll('li')
+        ingredients = self.soup.find("div", {"class": "mv-create-ingredients"}).findAll(
+            "li"
+        )
 
-        return [
-            normalize_string(ingredient.get_text())
-            for ingredient in ingredients
-        ]
+        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
         instructions = self.soup.find(
-            'div',
-            {'class': 'mv-create-instructions'}
-        ).findAll('li')
+            "div", {"class": "mv-create-instructions"}
+        ).findAll("li")
 
-        return '\n'.join([
-            normalize_string(instruction.get_text())
-            for instruction in instructions
-        ])
+        return "\n".join(
+            [normalize_string(instruction.get_text()) for instruction in instructions]
+        )
 
     def ratings(self):
-        rating = self.soup.find(
-            "div",
-            {"class": "mv-create-reviews"}
-        ).attrs.get('data-mv-create-rating', None)
+        rating = self.soup.find("div", {"class": "mv-create-reviews"}).attrs.get(
+            "data-mv-create-rating", None
+        )
 
         return round(float(rating), 2)

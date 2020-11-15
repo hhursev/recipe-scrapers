@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html class="wf-proximanova-n1-active wf-proximanova-n4-active wf-proximanova-n7-active wf-active"><head profile="http://a9.com/-/spec/opensearch/1.1/"><script src="chowhound_files/6a6c870add" type="text/javascript"></script><script src="chowhound_files/nr-686.js"></script><script src="chowhound_files/event.js" type="text/javascript"></script><script src="chowhound_files/pinit_main.js" async="" type="text/javascript"></script><script src="chowhound_files/3463.js" async="" type="text/javascript"></script><script src="chowhound_files/analyticstrain-1.js" async="" type="text/javascript"></script><script src="chowhound_files/event_003.js" type="text/javascript"></script><script src="chowhound_files/application-b4191bd030587359c1fae066ea2e4003.js" async=""></script><script src="chowhound_files/cn.js" async=""></script><script src="chowhound_files/recipes-a9d735fe8f952f1a9ff5e71de0883188.js" async=""></script><script src="chowhound_files/id" async="async" type="text/javascript"></script><script src="chowhound_files/event_002.js" type="text/javascript"></script><script src="chowhound_files/freyja_login-ba9393e3c66ea87b0968568740c6ae24.js" async=""></script><script src="chowhound_files/main-fd5498dfaf4233160a98041395989e5a.js" async=""></script><script async="" src="chowhound_files/cbgapi.loaded_0"></script><script src="chowhound_files/gpt.js" async=""></script><script src="chowhound_files/id.js" async="async" type="text/javascript"></script><script id="tealium-tag-7110" src="chowhound_files/analytics_002.js" charset="utf-8" async="" type="text/javascript"></script><script src="chowhound_files/a.js" type="text/javascript"></script><script src="chowhound_files/cs.js" id="tealium-tag-3005" async="" type="text/javascript"></script><script src="chowhound_files/tbd5CRSAuXb104cCvylq.js" async="" type="text/javascript"></script><script src="chowhound_files/jquery-ui.js" async=""></script><script src="chowhound_files/jquery_002.js" async=""></script>
+<script src="chowhound_files/recaptcha__bg.js" async="" type="text/javascript"></script><script src="chowhound_files/yieldbot.js"></script><script async="" src="chowhound_files/yad.js"></script><script async="" src="chowhound_files/yad.js"></script><script async="" type="text/javascript" src="chowhound_files/utag.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"6a6c870add","applicationID":"179693","transactionName":"cg5XEhZeVAkGQR5KBlIISQMXHksNDEQ=","queueTime":0,"applicationTime":526,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-686.min.js"}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-686.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+
+
+  <title>Thanksgiving Turkey Cake Recipe - Chowhound</title>
+
+
+  <meta name="verify-v1" content="mvraDxxNdXUusnoBQ+q8Ty0e0c3cak3C7Pck1s+aQBI=">
+  <meta name="application-name" content="Chowhound">
+  <meta name="msapplication-TileColor" content="#990000">
+  <meta name="msapplication-TileImage" content="http://www.chowstatic.com/s/Chow_C.png">
+
+  <link href="http://www.chowstatic.com/assets/recipe_photos/29029_RES_turkey_cake.jpg" rel="image_src">
+  <meta content="Whether this Thanksgiving centerpiece incites horror, amazement, or confusion when it's served, it's certain to evoke some kind of outburst. Warning: This dish..." name="description">
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+
+  <meta name="superfish" content="nofish">
+
+  <meta property="fb:app_id" content="177874162887">
+  <meta property="og:site_name" content="Chowhound">
+      <meta property="og:description" content="Whether this Thanksgiving centerpiece incites horror, amazement, or confusion when it's served, it's certain to evoke some kind of outburst. Warning: This dish...">
+      <meta property="og:url" content="http://www.chowhound.com/recipes/thanksgiving-turkey-cake-29029">
+     <meta property="og:title" content="Thanksgiving Turkey Cake Recipe - Chowhound">
+
+          <meta property="og:image" content="http://www.chowstatic.com/assets/recipe_photos/29029_RES_turkey_cake.jpg">
+    <meta property="og:type" content="food">
+        <meta name="fragment" content="!">
+
+
+  <link rel="canonical" href="http://www.chowhound.com/recipes/thanksgiving-turkey-cake-29029">
+
+  <link rel="shortcut icon" href="http://www.chowstatic.com/s/favicon-7355e4f0fe4c341681a51ffa31b92ad5.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="76x76" href="http://www.chowstatic.com/s/touch-icon-76x76-8ac65250a557f76f337dba660b69e6f5.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="http://www.chowstatic.com/s/touch-icon-120x120-a8fad197e0e247806e7cf1c2c090aa66.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="http://www.chowstatic.com/s/touch-icon-152x152-fbd40c3df151387d0f88b08aca2d417a.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="http://www.chowstatic.com/s/touch-icon-180x180-605d8c2937eb023a6f91b45a7736c953.png">
+  <link href="http://www.chowstatic.com/s/touch-icon-76x76-8ac65250a557f76f337dba660b69e6f5.png" rel="icon" sizes="76x76">
+  <link href="http://www.chowstatic.com/s/touch-icon-120x120-a8fad197e0e247806e7cf1c2c090aa66.png" rel="icon" sizes="120x120">
+  <link href="http://www.chowstatic.com/s/touch-icon-152x152-fbd40c3df151387d0f88b08aca2d417a.png" rel="icon" sizes="152x152">
+  <link href="http://www.chowstatic.com/s/touch-icon-180x180-605d8c2937eb023a6f91b45a7736c953.png" rel="icon" sizes="180x180">
+
+  <link href="http://www.chowhound.com/opensearch.xml" rel="search" title="Chowhound Search" type="application/opensearchdescription+xml">
+
+
+  <style>
+    .needs_js{visibility:hidden}*{box-sizing:border-box;-moz-box-sizing:border-box}body{font:normal 16px "proxima-nova",Arial,Helvetica,sans-serif;font-size:62.5%;background-color:#fff;text-align:left;color:#222;margin:0;padding:0;min-width:980px}div,ul,ol,li,h1,h2,h3,h4,form,fieldset,input,select,option,label,td,th{line-height:1.22em;margin:0;padding:0}p{font-size:1.3em;line-height:1.8em;margin:0;padding:0}#custom-doc{width:980px;padding:20px 20px 0px 20px;margin:0 auto;background:#fff;position:relative}#bd{position:relative}#main_body{width:620px;margin-right:20px;float:left}#chow_header{width:100%;background-color:#fff}#chow_header_wrapper{background-color:#fff;position:relative}#chow_header_inner{width:980px;margin:0 auto;padding:13px 20px}#chow_top_nav{height:50px;position:relative;top:9px;margin-top:-9px}#chow_top_nav_inner{width:970px;padding-top:12px;margin:0px auto}body.is_desktop.width_1230{min-width:1230px}body.is_desktop.width_1230 #custom-doc{width:1230px}body.is_desktop.width_1230 #chow_header_inner,body.is_desktop.width_1230 #chow_top_nav_inner{width:1230px;padding-left:0;padding-right:0;position:relative}body.is_desktop.width_1230 .top_nav_item:first-of-type .top_nav_link{padding-left:0}body.is_desktop.width_1230 #ft_nav{width:1170px}body.is_desktop.width_1230 #ft_nav #follow_chow_footer{left:325px}a,a:visited,a.link1,a.link1:visited{text-decoration:none;color:#0092c2}a:hover,a:visited:hover,a.link1:hover,a.link1:visited:hover{text-decoration:underline;color:#0092c2}a.link2{color:#333}a.link3{color:#999}a.link4{color:#5d5d5d}a.link5{color:#fff}a.link6{color:#e05353}a.link7{color:#424242}a.link2:hover,a.link3:hover,a.link4:hover{text-decoration:none;color:#0092c2}a.link5:hover{color:#fff}a.link6:hover{color:#5d5d5d}a.red,.red{color:#E05353}a.red:hover,.red:hover{text-decoration:underline;color:#E05353}.blue{color:#0092c2}.dark-gray{color:#545454}.light-gray{color:#9c9c9c}.blue-light-gray{color:#e7ebf2}h2{font-size:2.4em}h3{font-size:1.8em}h4{font-size:1.4em;margin-top:0}.underline{text-decoration:underline}table{border-collapse:collapse;border-spacing:0;font-size:inherit;font:100%}fieldset,img,iframe{border:0;border:none}ol,ul,li{list-style:none}.thin,.light{font-weight:100}strong,.bold{font-weight:600}em,.em{font-style:italic}small{font-size:.85em}big{font-size:1.3em}pre,code{font-size:92%;font-family:monaco, monospace}.normal{font-weight:normal}.block{display:block}.none{display:none}.small_caps{text-transform:uppercase;font-size:80%}.caps{text-transform:uppercase}.no_caps{text-transform:none}ul.inline li{float:left;display:block;margin-right:1.6em}ul.simple li,ul.checklist li{margin-left:-3.2em}div.simple p{text-indent:-1.75em;padding-left:2em;margin:0;line-height:1.2em}ul.square,ul.round{margin-bottom:.8em;list-style-type:square;margin-left:2em}ul.round{list-style-type:disc}ul.checklist{margin-bottom:1em}ul.checklist li{list-style-image:url(http://www.chowstatic.com/s/checkbox-9b32440a6926535f1a918f0cc4e378f8.gif)}.verdana{font-family:Verdana, Arial, Helvetica, sans-serif}.georgia{font-family:Georgia, "Times New Roman", Times, serif}.arial{font-family:Arial, Helvetica, sans-serif}.arial_black{font-family:"Arial Black", Arial, Helvetica, sans-serif}.helvetica{font-family:Helvetica, Arial, sans-serif}.lucida{font-family:'Lucida Grande'}.ch_sprite{background:transparent url(http://www.chowstatic.com/s/ch_sprite-313286363fb87fa8d9ce5c1f98a9c564.png) no-repeat}.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}.clearfix{display:inline-block}.clearfix.none{display:none}.table_div{display:table}.table_cell_div{display:table-cell;vertical-align:middle;text-align:center;width:100%}* html .clearfix{height:1%}.clearfix{display:block}.clear{clear:both}.cr{clear:right}.cl{clear:left}#leader_plus_top_wrapper,#leader_top_wrapper{margin:0 auto;padding:0;text-align:center;width:970px !important}.leader_plus_top_wrapper_fixed{min-height:100px !important}#leader_plus_top,#leader_top{text-align:center;margin:0 auto;padding-top:20px}#leader_plus_top,#leader_top div{margin:0 auto}#leader_plus_top,#leader_top div div{margin:0 auto}.adHolder table{margin-left:auto;margin-right:auto}#mpu_bottom{margin-bottom:20px}#mantle_skin{overflow:hidden;position:relative}.recipes_show #mantle_skin,.recipes_show_hacked #mantle_skin{position:static}.is_mobile #mantle_skin{padding-top:0px}.is_mobile.home #mantle_skin{padding-top:10px}.is_mobile.home #intromercial{margin-bottom:10px}#skin{display:none}.skinAd #skin{display:block}.skinAd #leader_plus_top_wrapper{position:relative}#header_logo{float:left}#header_logo a.desktop{background:url(http://www.chowstatic.com/s/chow_logo_red_196x46-ef0ae58fc81aad0429c38268963c3e20.png) no-repeat;width:196px;height:46px;display:block;text-indent:-9999px;overflow:hidden}#chow_top_nav{text-transform:uppercase;background-color:#e1e1e1;font-family:Helvetica, Arial, sans-serif}.top_nav_item{float:left;position:relative}.top_nav_item a,.top_nav_item a:visited{float:left;padding:8px 20px;color:#545454;min-width:90px;font-size:14px;font-weight:bold}.top_nav_item a:hover{color:#c00}.top_nav_item a.selected{color:#c00}.mobile .top_nav_link .mr5{margin-right:0}.product_reviews a.product-reviews,.product_comparisons a.product-reviews,.recipes a.recipes,.stories_show a.articles,.series a.features,.boards a.community,.debates a.community,.profile_saved_boards #top_nav_saved_boards a.top_nav_link,.recipe_showcases a.recipes{color:#c00}.top_nav_caret{position:relative;top:-6px;left:3px;font-size:18px}#user_link_wrapper:hover>#user_caret{color:#c00}#user_caret{position:relative;top:-14px;right:-5px;font-size:18px;color:#545454}#nav_share_tools{display:inline-block;position:relative;margin-right:10px;top:-4px}.top_nav_dropdown{background-color:#e1e1e1;z-index:5999999;position:absolute;left:0;top:28px;display:none;margin:0 0 0 -1px;padding:0;min-width:175px;box-shadow:2px 2px 0px 0px rgba(0,0,0,0.25);-moz-box-shadow:2px 2px 0px 0px rgba(0,0,0,0.25);-o-box-shadow:2px 2px 0px 0px rgba(0,0,0,0.25)}.top_nav_dropdown li{overflow:hidden}.top_nav_dropdown a,.top_nav_dropdown a:visited{padding:10px 15px 10px 20px;display:block;font-weight:normal;font-size:14px;letter-spacing:.1px;text-transform:none;color:#545454;white-space:nowrap;width:100%}.top_nav_dropdown a:hover{background-color:#d3d3d3;text-decoration:none;color:#545454}#header_user_module{text-transform:none}.header_greeting{font-size:14px;font-family:helvetica;text-align:right;display:inline-block;float:right;position:relative;top:5px;margin-right:5px;color:#545454}.is_mobile .header_greeting{float:left;font:30px/36px helvetica}.is_mobile.width_320 .header_greeting{float:left;font:15px/18px helvetica}.header_greeting .user_name{font-weight:bold}#header_login{font-size:14px;font-family:helvetica;text-align:right;display:inline-block;position:relative;top:-21px;float:right}#mobile_nav #header_login{display:block}#user_link_wrapper{position:relative;top:14px;padding-right:10px;padding-bottom:3px;left:10px}#user_link_inner{top:42px;min-width:175px;position:absolute;left:-117px;background-color:#fff;text-align:left}#user_link_inner a{width:auto;float:none}#new_post{text-transform:none;color:#FFF;background-color:#0092c2;float:right;font:14px/16.8px helvetica;padding:5px 20px;position:relative;top:-6px;margin-left:20px;margin-right:0;cursor:pointer}@-moz-document url-prefix(){#new_post{padding-top:6px;padding-bottom:4px}}.is_mobile #new_post{height:62px;width:238px;font:28px/33px helvetica, arial;font-weight:lighter;text-align:center;padding-top:15px;float:none;margin:15px auto 10px}.width_320.is_mobile #new_post{height:31px;width:119px;font:14px/16px helvetica, arial;font-weight:lighter;text-align:center;padding-top:7px;float:none;margin:7px auto -3px auto}#new_post:hover{background-color:#0084b0;border-color:#0084b0;text-decoration:none}#top_nav_divider{background-color:#FFF;float:right;margin-left:20px;width:2px;height:23px;border-left:1px solid #CCC}#header_search{position:relative;top:5px;display:inline-block}#header_search .text_input,.chow_search_box{width:188px;height:40px;float:left;background-color:#fff;padding:6px 38px 6px 8px;font-size:12px;color:#666;margin:0;border:1px solid #545454;border-radius:40px;position:static;outline:none}@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){.ie_header_margin{margin-bottom:-10px}}#header_search input::-webkit-input-placeholder{color:#545454;font-family:helvetica}#header_search input:-moz-placeholder{color:#545454;opacity:1;font-family:helvetica}#header_search input::-moz-placeholder{color:#545454;opacity:1;font-family:helvetica}#header_search input:-ms-input-placeholder{color:#545454;font-family:helvetica}#header_search input::-webkit-input-placeholder{color:#545454;font-family:helvetica}#header_search .text_input,.boards_index.boards #header_search .text_input{padding-left:18px;width:350px}.debates #header_search .text_input,.boards #header_search .text_input{padding-left:112px}#header_search_options_selection{position:absolute;cursor:pointer;top:1px;left:1px;width:90px;padding:11.5px 5px 11.5px 19px;color:#0092C2;font-size:130%;width:105px;border-right:1px solid #6d6d6d}#header_search_options_arrow{color:#0092C2;font-size:130%;cursor:pointer;position:absolute;top:13px;left:87px}#header_search_options_dropdown{z-index:5999998;font-size:130%;display:none;cursor:pointer;position:absolute;top:30px;left:13px;box-shadow:2px 2px 0px 0px rgba(0,0,0,0.25);-moz-box-shadow:2px 2px 0px 0px rgba(0,0,0,0.25);-o-box-shadow:2px 2px 0px 0px rgba(0,0,0,0.25)}.header_search_option{padding:5px 7px;width:105px;border-top:1px solid #ececec;background-color:#fff;color:#0092C2}.header_search_option.first{border-top:none}.header_search_option:hover{color:#333}.search_submit{position:absolute;top:6px;left:312px;width:64px;height:25px;font-size:150%;cursor:pointer;border:none;color:#545454;background-color:transparent}.search_submit:hover{color:#0092C2}.search_submit.small{width:31px}.search_submit.small:hover{color:#0092C2}.search .search_page_submit{top:-1px;left:266px;font-size:120%}#left_sidebar{float:left;width:140px;margin-top:12px}#browse{margin-bottom:20px}#browse,#recently_viewed,#recently_viewed_small,#recently_viewed_full{margin:-12px 0 5px;padding:10px 0;border:0}.hr_browse,.hr_recently{background-color:#CC0000;color:#FFFFFF;padding:3px 4px 3px 8px}.bread_separator{padding:0 25px;float:left;color:#999;font-weight:bold}.bread_container{border-top:1px solid #EBEBEB;border-bottom:1px solid #EBEBEB;padding:10px 0 10px 20px;font-weight:bold;text-transform:uppercase}.sidebar_btn{border:1px solid #f7f7f7;font-size:12px;font-weight:bold;line-height:14px;color:#333;margin-bottom:3px;background:#f9f9f9;background:-moz-linear-gradient(top, #f9f9f9 0%, #f9f9f9 50%, #f3f3f3 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9), color-stop(50%, #f9f9f9), color-stop(100%, #f3f3f3));background:-webkit-linear-gradient(top, #f9f9f9 0%, #f9f9f9 50%, #f3f3f3 100%);background:-o-linear-gradient(top, #f9f9f9 0%, #f9f9f9 50%, #f3f3f3 100%);background:-ms-linear-gradient(top, #f9f9f9 0%, #f9f9f9 50%, #f3f3f3 100%);background:linear-gradient(top, #f9f9f9 0%, #f9f9f9 50%, #f3f3f3 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#f3f3f3',GradientType=0 )}.sidebar_btn span.category{padding:6px 4px 5px 8px;width:122px}.sidebar_btn span{display:table-cell;vertical-align:middle}.vertical_align{height:100%;position:relative;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.f9{font-size:9px}.f10,.f10-f14{font-size:10px}.f11{font-size:11px}.f12,.f12-f16{font-size:12px}.f13{font-size:13px}.f14,.f14-f18{font-size:14px}.f15{font-size:15px}.f16,.f16-f20{font-size:16px}.f17{font-size:17px}.f18,.f18-f22{font-size:18px}.f19{font-size:19px}.f20,.f20-f32{font-size:20px}.f21{font-size:21px}.f22{font-size:22px}.f23{font-size:23px}.f24{font-size:24px}.f25{font-size:25px}.f26{font-size:26px}.f28{font-size:28px}.f30{font-size:30px}.is_mobile .f10-f14{font-size:14px}.is_mobile .f12-f16{font-size:16px}.is_mobile .f14-f18{font-size:18px}.is_mobile .f16-f20{font-size:20px}.is_mobile .f18-f22{font-size:22px}.is_mobile .f20-f32{font-size:32px}.lh12,.lh12-lh16{line-height:12px}.lh14,.lh14-lh18{line-height:14px}.lh16,.lh16-lh20,.lh16-lh30{line-height:16px}.lh18,.lh18-lh22{line-height:18px}.lh20{line-height:20px}.lh26{line-height:26px}.lh30{line-height:30px}.is_mobile .lh12-lh16{line-height:16px}.is_mobile .lh14-lh18{line-height:18px}.is_mobile .lh16-lh20{line-height:20px}.is_mobile .lh18-lh22{line-height:22px}.is_mobile .lh16-lh30{line-height:30px}.noborder{border:none !important}.fl{float:left}.fr{float:right}.relative{position:relative}.tal{text-align:left}.tac,.center{text-align:center}.tar,.t_ar{text-align:right}.nobreak,.nowrap,.no_wrap{white-space:nowrap}.t_grey,.c777{color:#777}.ttu{text-transform:uppercase}.ttl{text-transform:lowercase}.c000{color:#000}.cC00{color:#c00}.cCCC{color:#ccc}.c222,a.c222{color:#222}.c333{color:#333}.c555{color:#555}.c666{color:#666}.c999{color:#999}.cFFF{color:#fff}.c1d{color:#1d1d1d}.bgFFF{background-color:#fff}.p0{padding:0}.p5{padding:5px}.p10{padding:10px}.p15{padding:15px}.p20{padding:20px}.p25{padding:25px}.pt5{padding-top:5px}.pt10{padding-top:10px}.pt15{padding-top:15px}.pt20{padding-top:20px}.pt25{padding-top:25px}.pt30{padding-top:30px}.pr5{padding-right:5px}.pr10{padding-right:10px}.pr15{padding-right:15px}.pr20{padding-right:20px}.pr25{padding-right:25px}.pr30{padding-right:30px}.pr40{padding-right:40px}.pb5{padding-bottom:5px}.pb10{padding-bottom:10px}.pb15{padding-bottom:15px}.pb20{padding-bottom:20px}.pb25{padding-bottom:25px}.pl5{padding-left:5px}.pl10{padding-left:10px}.pl15{padding-left:15px}.pl20{padding-left:20px}.pl25{padding-left:25px}.pl30{padding-left:30px}.m5{margin:5px}.m10{margin:10px}.m15{margin:15px}.m20{margin:20px}.m25{margin:25px}.mt5{margin-top:5px}.mt8{margin-top:8px}.mt10{margin-top:10px}.mt15{margin-top:15px}.mt20{margin-top:20px}.mt25{margin-top:25px}.mt30{margin-top:30px}.mr5{margin-right:5px}.mr10{margin-right:10px}.mr15{margin-right:15px}.mr20{margin-right:20px}.mr25{margin-right:25px}.mb2{margin-bottom:2px}.mb5{margin-bottom:5px}.mb10{margin-bottom:10px}.mb15{margin-bottom:15px}.mb20{margin-bottom:20px}.mb25{margin-bottom:25px}.ml5{margin-left:5px}.ml10{margin-left:10px}.ml15{margin-left:15px}.ml20{margin-left:20px}.ml25{margin-left:25px}#main_body .dotted_line_bottom{background:transparent url(http://www.chowstatic.com/s/dotted_border-c13c4d20446a7a9e974d9e510298c5b1.gif) repeat-x scroll left bottom}.mobile .bread_container .droid,.mobile .bread_container .bread_separator{font-size:14px}.mobile .bread_container{line-height:20px;margin-left:-10px;padding-bottom:7px}.avatar{background-color:#c92424;border-radius:150px;border:1px solid #888;display:table-cell;vertical-align:middle;text-align:center;font-family:arial, helvetica, sans-serif;color:#fff;text-transform:uppercase}.avatar.no_bg{background-color:transparent}.avatar.logged_out{background:url(http://www.chowstatic.com/s/user_sprite-4c2f9d8ae2613d828416f3c31c307930.png) no-repeat scroll 0px 0px transparent}.is_mobile .avatar.logged_out{background:url(http://www.chowstatic.com/s/user_sprite_mobile-1f6cf82757318b2644b83455531ba99f.png) no-repeat scroll 0px 0px transparent}.avatar.logged_out.tinyish{background-size:26px}.avatar.tiny{width:20px;height:20px;font-size:11px}.avatar.tinyish{width:26px;height:26px;font-size:12px}.avatar.small{width:30px;height:30px;font-size:14px}.avatar.smallish{width:40px;height:40px;font-size:20px}.avatar.medium{width:60px;height:60px;font-size:30px}.avatar.mediumish{width:90px;height:90px;font-size:50px}.avatar.large{width:105px;height:105px;font-size:60px}.top_nav_link img.avatar{vertical-align:bottom}#conversations_banner{margin:15px 0px 0px 0px;display:none}.no_touch #holiday_banner_wrapper:hover #holiday_banner{display:none}.no_touch #holiday_banner_wrapper:hover #holiday_banner_hover{display:block}#hide_conversations_banner{width:30px;height:30px;position:absolute;top:425px;left:910px;display:none}.squared_button{color:#0092c2;border:4px solid #0092c2;padding:30px 15px;margin:5px}a.to_the_top{border:2px solid #AAA;padding:30px;clear:both;font-size:30px;color:#AAA;display:block;width:85px;margin:0 auto 20px auto;text-align:center}.rounded_button{color:#0092c2;border:1px solid #0092c2;border-radius:40px;padding:7px 15px;margin:5px}.rounded_button.selected{background-color:#0092c2;color:#fff}.rounded_button.last{margin-right:0}.rounded_button.dark-gray{border:1px solid #545454;color:#545454}.is_mobile .our_yad,.is_mobile .yad{margin-left:15px;margin-right:15px}.post_type_icon_badge .badge{width:26px;height:30px;background-position:-31px -189px}.post_type_icon{position:relative;top:-28px;left:5px;color:#FFF;font-size:16px}@-moz-document url-prefix(){.post_type_icon{margin-top:-0px}}.is_desktop .post_type_icon .fa-link{margin-top:2px}.is_desktop .post_type_icon .fa-question-circle,.post_type_icon .fa-cutlery{margin-left:2px}#mobile_search_icon .fa-search{width:49px;height:50px}.sidebar_scroll_locked{position:fixed}.sidebar_scroll_bottomed{position:absolute;bottom:0px}#adSkinLeft,#adSkinRight{width:925px;height:100%;display:block;position:absolute;background-repeat:no-repeat;background-color:transparent}#adSkinLeft{right:50%;background-position:top left}#adSkinRight{left:50%;background-position:top right}.login_sign_up_pages.width_320{zoom:50%;margin-top:40px}.is_desktop.width_1230 #main_body{width:100%;margin:0;float:none;background-color:#fff}.is_mobile.width_320 #main_body{width:320px}.is_mobile.width_320 #custom-doc{padding:0px}#plated_sidebar{position:relative;margin-bottom:-50px}.is_mobile #plated_sidebar{margin-bottom:-110px}.plated_sidebar_link,plated_sidebar_link:hover{margin-left:23px}.plated_sidebar_image{margin-bottom:17px;margin-top:-17px}.is_mobile .plated_sidebar_image{margin-top:10px;margin-bottom:28px}.plated_sidebar_badge_image{position:relative;left:18px;top:-262px}.is_mobile .plated_sidebar_badge_image{left:36px;top:-523px}
+
+    /*Section specific inline css*/
+      @media (max-device-width: 767px) {
+    .recipes_show #recipe_top h1 {
+      font-size: 25px !important;
+      line-height: 35px !important;
+      margin: 20px 0 5px !important;
+      padding: 0 35px !important;
+      -webkit-font-smoothing: auto !important;
+    }
+  }
+  .recipe_fragment{padding-top: 500px;position: relative;}
+  .recipe_fragment.first{padding-top:0; position: static}
+    .is_desktop .first #custom-doc{margin-top:1000px;padding-top:0;overflow:hidden;}
+    .is_desktop.ipad .first #custom-doc { margin-top: -300px; }
+    #recipe_top_overlay{width:100%; top:0;  position:absolute; background: rgba(8, 8, 8, 0.55); height: 100%;}
+    h1 {
+      color: #fff;
+      font-size: 65px;
+      line-height: 70px;
+      margin: 40px 0 10px;
+      padding: 0 70px;
+      font-weight: 100;
+      text-shadow: rgba(13,13,14, .75) 0 2px 1px;
+    }
+    .link_arrow .link_inner{
+      opacity:0;
+      width: 100%;
+      text-align: left;
+      position: absolute;
+      z-index: 1;
+      left:0;
+      top:0;
+      background: rgba(0,0,0, .9);
+      transition: opacity .2s;
+    }
+        #chow_header{position:fixed; top:0}
+        #recipe_top {position: absolute; z-index: 1000; top:122px; padding: 0 50px; min-width:1230px; width:100%; text-align:center;}
+     .no_touch .first #recipe_top{position:fixed; }
+        #main_img_wrap {position: absolute;left: 0px;min-width: 100%;width: auto;height: auto;z-index: 1;overflow: hidden;top:0;bottom:0;}
+        #main_img_wrap img{min-width:1230px;margin-bottom: -3px;}
+      .no_touch .first #main_img_wrap{margin-top:100px;}
+
+    .recipe_nav_dropdown{display:none}
+
+
+    body.is_desktop #mantle_skin{overflow:inherit}body.ipad #mantle_skin{overflow:hidden}body.is_desktop #mantle_skin .post_type_tip{visibility:hidden}.chowhound #custom-doc{width:1230px;padding-left:30px;padding-right:30px}.chowhound #main_body{border-bottom:1px solid #cdcdcd;margin:0 30px 20px 0;width:840px}.debates #main_body{padding-right:0;padding-top:20px}.debates .author_column{float:left;padding-right:20px;width:80px}.debates.photo_list .author_column{float:none;padding-right:0;width:auto;text-align:left;margin-bottom:10px}.debates.photo_list .first_remark{float:none;width:auto;padding-right:0}.debates .remark{border-top:1px dotted #CDCDCD;height:auto;margin:-1px 20px 0}.debates .remark .remark_inner{padding:20px 0 10px 40px}.debates .remark .remark_removed{margin-top:-11px;margin-left:-37px;font-style:italic;font-size:12px;color:grey}.debates .remark#remark_reply_form{padding:0;margin:0;border:none}.question.debates .remark.level1{padding-left:80px}.debates #remark-box{border-bottom:1px solid #CDCDCD;border-top:none;margin:0;padding-bottom:10px}.is_mobile #breadcrumb{height:93px;padding:30px;border-top:2px solid #CCC;border-bottom:2px solid #CCC;font-size:30px;margin-bottom:20px;display:block}.is_mobile #breadcrumb:visited,.is_mobile #breadcrumb:hover,.is_mobile #breadcrumb:link{color:#555;text-decoration:none}.chowhound .bread_container{border:none;margin:20px auto -20px auto;padding-left:25px;width:955px}.remark_body p,.remark_body span p{color:#222222;font-size:14px;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;line-height:18px;margin-bottom:10px;word-wrap:break-word}.photo_list .first_remark .remark_body p{clear:left}.all_boards_list,.questions_comment_block{display:none}.is_desktop #follow_this{width:104px;font-size:13px;font-style:normal}
+
+  </style>
+
+
+    <script type="text/javascript" src="chowhound_files/qlx0ezi.js"></script>
+    <link media="all" href="chowhound_files/l.css" rel="stylesheet"><script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <link href="chowhound_files/freyjanav-653eaf803fe90c63667113ff60246275.css" media="screen" rel="stylesheet">
+<link media="screen" type="text/css" rel="stylesheet" href="chowhound_files/global-b657b9da20a086703fc7cc2c72275fd6.css"><link media="screen" type="text/css" rel="stylesheet" href="chowhound_files/chowhound-4d3120927db1e112340ab2c79c4e3d2f.css"><link media="screen" type="text/css" rel="stylesheet" href="chowhound_files/recipes-5dffbd866900d6864c75e6e2cddf96ed.css"><link media="print" type="text/css" rel="stylesheet" href="chowhound_files/chow_print-a08ef331b14a689ebc9fb09821dc2ccd.css"><link rel="stylesheet" href="chowhound_files/font-awesome.css"><script id="utag_cbsi.chowsite_4" src="chowhound_files/utag_007.js" charset="utf-8" async="" type="text/javascript"></script><script id="utag_cbsi.chowsite_1" src="chowhound_files/utag_010.js" charset="utf-8" async="" type="text/javascript"></script><script id="utag_cbsi.chowsite_12" src="chowhound_files/utag_004.js" charset="utf-8" async="" type="text/javascript"></script><script id="utag_cbsi.chowsite_15" src="chowhound_files/utag_009.js" charset="utf-8" async="" type="text/javascript"></script><script id="utag_cbsi.chowsite_20" src="chowhound_files/utag_006.js" charset="utf-8" async="" type="text/javascript"></script><script id="utag_cbsi.chowsite_21" src="chowhound_files/utag_008.js" charset="utf-8" async="" type="text/javascript"></script><script id="utag_cbsi.chowsite_22" src="chowhound_files/utag_003.js" charset="utf-8" async="" type="text/javascript"></script><script id="utag_cbsi.chowsite_23" src="chowhound_files/utag_002.js" charset="utf-8" async="" type="text/javascript"></script><script src="chowhound_files/ds.js" type="text/javascript"></script><script src="chowhound_files/analytics.js" type="text/javascript" async="async"></script><script src="chowhound_files/gw.js" type="text/javascript" id="tealium-tag-1067"></script><script src="chowhound_files/anonc.js" type="text/javascript"></script><script id="tiqapp" src="chowhound_files/utag_005.js" charset="utf-8" async="" type="text/javascript"></script><script gapi_processed="true" src="chowhound_files/api.js" charset="UTF-8" type="text/javascript"></script><script async="" src="chowhound_files/pubads_impl_72.js"></script><script async="" src="chowhound_files/rta.js" type="text/javascript"></script><style type="text/css">.needs_js { visibility: visible; }</style><script src="chowhound_files/pub-button.js" async="" type="text/javascript"></script><script src="chowhound_files/all.js" type="text/javascript"></script><script src="chowhound_files/widgets.js" type="text/javascript"></script><style type="text/css">a.PIN_1442071777161_pin_it_button_20 { cursor: pointer!important; background-repeat: none!important; background-size: 40px 60px!important; height: 20px!important; padding: 0!important; vertical-align: baseline!important; text-decoration: none!important; width: 40px!important; background-position: 0 -20px }
+a.PIN_1442071777161_pin_it_button_20:hover { background-position: 0 0px }
+a.PIN_1442071777161_pin_it_button_20:active, a.PIN_1442071777161_pin_it_button_20.PIN_1442071777161_hazClick { background-position: 0 -40px }
+a.PIN_1442071777161_pin_it_button_inline_20 { cursor: pointer!important; position: relative!important; display: inline-block!important; }
+a.PIN_1442071777161_pin_it_button_floating_20 { cursor: pointer!important; position: absolute!important; }
+a.PIN_1442071777161_pin_it_button_en_20_red { background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_en_rect_red_20_1.png)!important; }
+a.PIN_1442071777161_pin_it_button_en_20_white { background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_en_rect_white_20_1.png)!important; }
+a.PIN_1442071777161_pin_it_button_en_20_gray { background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_en_rect_gray_20_1.png)!important; }
+a.PIN_1442071777161_pin_it_button_ja_20_red { background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_ja_rect_red_20_1.png)!important; }
+a.PIN_1442071777161_pin_it_button_ja_20_white { background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_ja_rect_white_20_1.png)!important; }
+a.PIN_1442071777161_pin_it_button_ja_20_gray { background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_ja_rect_gray_20_1.png)!important; }
+a.PIN_1442071777161_pin_it_above_20 span.PIN_1442071777161_pin_it_button_count { background: transparent url(https://s-passets.pinimg.com/images/pidgets/count_north_white_rect_20_1.png) 0 0 no-repeat!important; background-size: 40px 29px!important; position: absolute!important; bottom: 21px!important; left: 0px!important; height: 29px!important; width: 40px!important; font: 12px Arial, Helvetica, sans-serif!important; line-height: 24px!important; text-indent: 0!important;}
+a.PIN_1442071777161_pin_it_button_20 span.PIN_1442071777161_pin_it_button_count { position: absolute!important; color: #777!important; text-align: center!important; text-indent: 0!important; }
+a.PIN_1442071777161_pin_it_beside_20 span.PIN_1442071777161_pin_it_button_count, a.PIN_1442071777161_pin_it_beside_20 span.PIN_1442071777161_pin_it_button_count i { background-color: transparent!important; background-repeat: no-repeat!important; background-image: url(https://s-passets.pinimg.com/images/pidgets/count_east_white_rect_20_1.png)!important; }
+a.PIN_1442071777161_pin_it_beside_20 span.PIN_1442071777161_pin_it_button_count { padding: 0 3px 0 10px!important; background-size: 45px 20px!important; background-position: 0 0!important; position: absolute!important; top: 0!important; left: 41px!important; height: 20px!important; font: 10px Arial, Helvetica, sans-serif!important; line-height: 20px!important; }
+a.PIN_1442071777161_pin_it_beside_20 span.PIN_1442071777161_pin_it_button_count i { background-position: 100% 0!important; position: absolute!important; top: 0!important; right: -2px!important; height: 20px!important; width: 2px!important; }
+a.PIN_1442071777161_pin_it_button_20.PIN_1442071777161_pin_it_above { margin-top: 20px!important; }
+a.PIN_1442071777161_pin_it_above_20_pad { margin-top: 30px!important; }
+a.PIN_1442071777161_pin_it_beside_20_pad { margin-right: 45px!important; }
+a.PIN_1442071777161_pin_it_button_28 { cursor: pointer!important; background-repeat: none!important; background-size: 56px 84px!important; height: 28px!important; padding: 0!important; vertical-align: baseline!important; text-decoration: none!important; width: 56px!important; background-position: 0 -28px }
+a.PIN_1442071777161_pin_it_button_28:hover { background-position: 0 0px }
+a.PIN_1442071777161_pin_it_button_28:active, a.PIN_1442071777161_pin_it_button_28.PIN_1442071777161_hazClick { background-position: 0 -56px }
+a.PIN_1442071777161_pin_it_button_inline_28 { cursor: pointer!important; position: relative!important; display: inline-block!important; }
+a.PIN_1442071777161_pin_it_button_floating_28 { cursor: pointer!important; position: absolute!important; }
+a.PIN_1442071777161_pin_it_above_28_pad { margin-top: 38px!important;}
+a.PIN_1442071777161_pin_it_beside_28_pad { margin-right: 50px!important;}
+a.PIN_1442071777161_pin_it_button_en_28_red { background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_en_rect_red_28_1.png)!important; }
+a.PIN_1442071777161_pin_it_button_en_28_white { background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_en_rect_white_28_1.png)!important; }
+a.PIN_1442071777161_pin_it_button_en_28_gray { background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_en_rect_gray_28_1.png)!important; }
+a.PIN_1442071777161_pin_it_button_ja_28_red { background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_ja_rect_red_28_1.png)!important; }
+a.PIN_1442071777161_pin_it_button_ja_28_white { background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_ja_rect_white_28_1.png)!important; }
+a.PIN_1442071777161_pin_it_button_ja_28_gray { background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_ja_rect_gray_28_1.png)!important; }
+a.PIN_1442071777161_pin_it_button_en_16_red_round, a.PIN_1442071777161_pin_it_button_en_32_red_round { cursor: pointer!important; background-repeat: none!important; margin: 0!important; padding: 0!important; vertical-align: baseline!important; text-decoration: none!important; }
+a.PIN_1442071777161_pin_it_button_en_16_red_round { height: 16px!important; width: 16px!important; background-size: 16px 16px!important; background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_en_round_red_16_1.png)!important;}
+a.PIN_1442071777161_pin_it_button_en_32_red_round { height: 32px!important; width: 32px!important; background-size: 32px 32px!important; background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_en_round_red_32_1.png)!important;}
+a.PIN_1442071777161_pin_it_button_inline_en_16_red_round, a.PIN_1442071777161_pin_it_button_inline_en_32_red_round { position: relative!important; display: inline-block!important; }
+a.PIN_1442071777161_pin_it_button_floating_en_16_red_round, a.PIN_1442071777161_pin_it_button_floating_en_32_red_round  { position: absolute!important; }
+a.PIN_1442071777161_pin_it_button_28 span.PIN_1442071777161_pin_it_button_count { position: absolute!important; color: #777!important; text-align: center!important; text-indent: 0!important; }
+a.PIN_1442071777161_pin_it_above_28 span.PIN_1442071777161_pin_it_button_count { background: transparent url(https://s-passets.pinimg.com/images/pidgets/count_north_white_rect_28_1.png) 0 0 no-repeat!important; background-size: 56px 37px!important; position: absolute!important; bottom: 29px!important; left: 0px!important; height: 37px!important; width: 56px!important; font: 15px Arial, Helvetica, sans-serif!important; line-height: 28px!important; text-indent: 0!important;}
+a.PIN_1442071777161_pin_it_beside_28 span.PIN_1442071777161_pin_it_button_count, a.PIN_1442071777161_pin_it_beside_28 span.PIN_1442071777161_pin_it_button_count i { background-color: transparent!important; background-repeat: no-repeat!important; background-image: url(https://s-passets.pinimg.com/images/pidgets/count_east_white_rect_28_1.png)!important; }
+a.PIN_1442071777161_pin_it_beside_28 span.PIN_1442071777161_pin_it_button_count { padding: 0 3px 0 10px!important; background-size: 63px 28px!important; background-position: 0 0!important; position: absolute!important; top: 0!important; left: 57px!important; height: 28px!important; font: 12px Arial, Helvetica, sans-serif!important; line-height: 28px!important; }
+a.PIN_1442071777161_pin_it_beside_28 span.PIN_1442071777161_pin_it_button_count i { background-position: 100% 0!important; position: absolute!important; top: 0!important; right: -2px!important; height: 28px!important; width: 2px!important; }
+a.PIN_1442071777161_pin_it_button_28.PIN_1442071777161_pin_it_above { margin-top: 28px!important; }
+a.PIN_1442071777161_follow_me_button, a.PIN_1442071777161_follow_me_button i { background-size: 200px 60px!important; background: transparent url(https://s-passets.pinimg.com/images/pidgets/bfs1.png) 0 0 no-repeat }
+a.PIN_1442071777161_follow_me_button { cursor: pointer!important; color: #444!important; display: inline-block!important; font: bold normal normal 11px/20px "Helvetica Neue",helvetica,arial,san-serif!important; height: 20px!important; margin: 0!important; padding: 0!important; position: relative!important; text-decoration: none!important; text-indent: 19px!important; vertical-align: baseline!important;}
+a.PIN_1442071777161_follow_me_button:hover { background-position: 0 -20px}
+a.PIN_1442071777161_follow_me_button:active  { background-position: 0 -40px}
+a.PIN_1442071777161_follow_me_button b { position: absolute!important; top: 3px!important; left: 3px!important; height: 14px!important; width: 14px!important; background-size: 14px 14px!important; background-image: url(https://s-passets.pinimg.com/images/pidgets/log1.png)!important; }
+a.PIN_1442071777161_follow_me_button i { position: absolute!important; top: 0!important; right: -4px!important; height: 20px!important; width: 4px!important; background-position: 100% 0px!important; }
+a.PIN_1442071777161_follow_me_button:hover i { background-position: 100% -20px!important;  }
+a.PIN_1442071777161_follow_me_button:active i { background-position: 100% -40px!important; }
+a.PIN_1442071777161_follow_me_button_28, a.PIN_1442071777161_follow_me_button_28 i { background-size: 400px 84px!important; background: transparent url(https://s-passets.pinimg.com/images/pidgets/bft1.png) 0 0 no-repeat }
+a.PIN_1442071777161_follow_me_button_28 { cursor: pointer!important; color: #444!important; display: inline-block!important; font: bold normal normal 13px/28px "Helvetica Neue",helvetica,arial,san-serif!important; height: 28px!important; margin: 0!important; padding: 0!important; position: relative!important; text-decoration: none!important; text-indent: 33px!important; vertical-align: baseline!important;}
+a.PIN_1442071777161_follow_me_button_28:hover { background-position: 0 -28px}
+a.PIN_1442071777161_follow_me_button_28:active  { background-position: 0 -56px}
+a.PIN_1442071777161_follow_me_button_28 b { position: absolute!important; top: 5px!important; left: 10px!important; height: 18px!important; width: 18px!important; background-size: 18px 18px!important; background-image: url(https://s-passets.pinimg.com/images/pidgets/smt1.png)!important; }
+a.PIN_1442071777161_follow_me_button_28 i { position: absolute!important; top: 0!important; right: -10px!important; height: 28px!important; width: 10px!important; background-position: 100% 0px!important; }
+a.PIN_1442071777161_follow_me_button_28:hover i { background-position: 100% -28px!important;  }
+a.PIN_1442071777161_follow_me_button_28:active i { background-position: 100% -56px!important; }
+span.PIN_1442071777161_embed_pin { -webkit-font-smoothing: antialiased!important; cursor: pointer!important; display: inline-block!important; text-align: center!important; overflow: hidden!important; vertical-align: top!important; background: #fff!important; box-shadow: 0 1px 3px rgba(0, 0, 0, .33)!important; border-radius: 3px!important; width: 237px }
+span.PIN_1442071777161_embed_pin.PIN_1442071777161_medium { width: 345px!important; }
+span.PIN_1442071777161_embed_pin.PIN_1442071777161_large { width: 600px!important; }
+span.PIN_1442071777161_embed_pin img { border: 0!important; padding: 0!important; box-shadow: none!important; }
+span.PIN_1442071777161_embed_pin a.PIN_1442071777161_embed_pin_link { display: block!important;  margin: 0 auto!important; padding: 0!important; position: relative!important;  line-height: 0}
+span.PIN_1442071777161_embed_pin img.PIN_1442071777161_embed_pin_link_img { border: 0!important; margin: 0!important; padding: 0!important; border-bottom: 1px solid rgba(0, 0, 0, .09)!important;}
+span.PIN_1442071777161_embed_pin a.PIN_1442071777161_embed_pin_link i.PIN_1442071777161_repin { left: 12px!important; top: 12px!important; position: absolute!important; height: 20px!important; width: 40px!important; background-size: 40px 60px!important;  background: transparent url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_en_rect_red_20_1.png) }
+span.PIN_1442071777161_embed_pin a.PIN_1442071777161_embed_pin_link i.PIN_1442071777161_repin_ja { left: 12px!important; top: 12px!important; position: absolute!important; height: 20px!important; width: 40px!important; background-size: 40px 60px!important; background: transparent url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_ja_rect_red_20_1.png) }
+span.PIN_1442071777161_embed_pin a.PIN_1442071777161_embed_pin_link i.PIN_1442071777161_repin:hover, span.PIN_1442071777161_embed_pin a.PIN_1442071777161_embed_pin_link i.PIN_1442071777161_repin_ja:hover { background-position: 0 -20px!important; }
+span.PIN_1442071777161_embed_pin a.PIN_1442071777161_embed_pin_link i.PIN_1442071777161_repin.PIN_1442071777161_hazClick, span.PIN_1442071777161_embed_pin a.PIN_1442071777161_embed_pin_link i.PIN_1442071777161_repin_ja.PIN_1442071777161_hazClick { background-position: 0 -40px!important; }
+span.PIN_1442071777161_embed_pin a.PIN_1442071777161_embed_pin_link i.PIN_1442071777161_play { display: block!important; width: 50px!important; white-space: pre!important; font-family: "Helvetica Neue",helvetica,arial,san-serif!important; font-weight: bold!important; font-style: normal!important; font-size: 9px!important; line-height: 12px!important; margin: 0!important; position: absolute!important; bottom: 12px!important; left: 12px!important; text-decoration: none!important; background: rgba(0, 0, 0, .4)!important; color: rgba(255, 255, 255, 1)!important; border-radius: 13px!important; padding: 5px 0!important; box-shadow: 0 0 2px rgba(0, 0, 0, .2)!important; border: 2px solid rgba(255, 255, 255, .68)!important;}
+span.PIN_1442071777161_embed_pin a.PIN_1442071777161_embed_pin_link i.PIN_1442071777161_play:hover { background: rgba(0, 0, 0, .8)!important; color: #fff!important; }
+span.PIN_1442071777161_embed_pin span.PIN_1442071777161_embed_pin_desc { color: #363636!important; white-space: normal!important; border-bottom: 1px solid rgba(0, 0, 0, .09)!important;!important; display: block!important; font-family: "Helvetica Neue", arial, sans-serif!important; font-size: 13px!important; line-height: 17px!important; padding: 8px 12px 12px 12px!important; text-align: left!important; }
+span.PIN_1442071777161_embed_pin span.PIN_1442071777161_embed_pin_attrib { color: #a8a8a8!important; font-family: "Helvetica Neue", sans-serif!important; font-size: 11px!important; line-height: 18px!important; margin-top: 8px!important; font-weight: bold!important; display: block!important;}
+span.PIN_1442071777161_embed_pin span.PIN_1442071777161_embed_pin_attrib img.PIN_1442071777161_embed_pin_attrib_icon { height: 16px!important; width: 16px!important; vertical-align: middle!important; padding: 0!important; margin: 0 5px 0 0!important; float: left!important;}
+span.PIN_1442071777161_embed_pin span.PIN_1442071777161_embed_pin_attrib a { color: #a8a8a8!important; text-decoration: none!important;}
+span.PIN_1442071777161_embed_pin span.PIN_1442071777161_embed_pin_stats { display: block!important; }
+span.PIN_1442071777161_embed_pin span.PIN_1442071777161_embed_pin_stats span.PIN_1442071777161_embed_pin_stats_repin_count, span.PIN_1442071777161_embed_pin span.PIN_1442071777161_embed_pin_stats span.PIN_1442071777161_embed_pin_stats_like_count { display: inline-block!important; padding-left: 17px!important; padding-right: 10px!important; color: #a8a8a8!important; font-family: "Helvetica Neue", sans-serif!important; font-size: 11px!important; line-height: 12px!important; margin-top: 12px!important; font-weight: bold!important; }
+span.PIN_1442071777161_embed_pin span.PIN_1442071777161_embed_pin_stats span.PIN_1442071777161_embed_pin_stats_repin_count { background: url(data:image/png!important;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAALCAAAAABq7uO+AAAASklEQVQI10WNMQrAMBRCvf/Z3pQcImPplsIPdqhNXOSJqLxVtnWQsuUO9IM3cHlV8dSSDZQHAOPH2YA2FU+qtH7MRhaVh/xt/PQCEW6N4EV+CPEAAAAASUVORK5CYII=) 0 0 no-repeat!important; }
+span.PIN_1442071777161_embed_pin span.PIN_1442071777161_embed_pin_stats span.PIN_1442071777161_embed_pin_stats_like_count { background: url(data:image/png!important;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAAAAAClR+AmAAAAUElEQVR4AT2HMQpFIQwEc/+zbXhFLBW8QUihIAT2E8Q/xe6M0Jv2zK7NKUcBzAlAjzjqtdZl4c8S2nOjMPS6BoWMr/wLVnAbYJs3mGMkXzx+OeRqUf5HHRoAAAAASUVORK5CYII=) 0 2px no-repeat!important; }
+span.PIN_1442071777161_embed_pin span.PIN_1442071777161_embed_pin_text { padding: 12px!important; position: relative!important; text-decoration: none!important; display: block!important; font-weight: bold!important; color: #b7b7b7!important; font-family: "Helvetica Neue", arial, sans-serif!important; font-size: 11px!important; line-height: 14px!important; height: 30px!important; text-align: left!important; }
+span.PIN_1442071777161_embed_pin span.PIN_1442071777161_embed_pin_text img.PIN_1442071777161_embed_pin_text_avatar { border-radius: 15px!important; border: none!important; overflow: hidden!important; height: 30px!important; width: 30px!important; vertical-align: middle!important; margin: 0 8px 12px 0!important; float: left!important;}
+span.PIN_1442071777161_embed_pin span.PIN_1442071777161_embed_pin_text span.PIN_1442071777161_embed_pin_text_container_pinner, span.PIN_1442071777161_embed_pin span.PIN_1442071777161_embed_pin_text_container_board { display: block!important; width: auto!important; white-space: nowrap!important; overflow: hidden!important; text-overflow: ellipsis!important;}
+span.PIN_1442071777161_embed_pin span.PIN_1442071777161_embed_pin_text span.PIN_1442071777161_embed_pin_text_container_pinner { color: #777!important;}
+span.PIN_1442071777161_embed_grid { display: inline-block!important; margin: 0!important; padding:10px 0!important; position: relative!important; background: #fff!important; box-shadow: 0 1px 3px rgba(0, 0, 0, .33)!important; border-radius: 3px!important; text-align: center}
+span.PIN_1442071777161_embed_grid span.PIN_1442071777161_embed_grid_hd { display: block!important; margin: 0 10px!important; padding: 0!important; height: 45px!important; position: relative!important;}
+span.PIN_1442071777161_embed_grid span.PIN_1442071777161_embed_grid_hd a.PIN_1442071777161_avatar { position: absolute!important; top: 0!important; left: 0!important; height: 36px!important; width: 36px!important; }
+span.PIN_1442071777161_embed_grid span.PIN_1442071777161_embed_grid_hd a.PIN_1442071777161_avatar img { position: relative!important; height: 36px!important; width: 36px!important; min-height: 36px!important; min-width: 36px!important; margin: 0!important; padding: 0!important; border-radius: 3px!important; border: none!important;}
+span.PIN_1442071777161_embed_grid span.PIN_1442071777161_embed_grid_hd a { text-decoration: none!important; border: none!important; background: transparent!important; cursor: pointer!important; white-space: nowrap!important; position: absolute!important; left: 44px!important; text-align: left!important; overflow: hidden!important; text-overflow: ellipsis!important; }
+span.PIN_1442071777161_embed_grid span.PIN_1442071777161_embed_grid_hd a:hover { text-decoration: none!important; background: inherit!important; }
+span.PIN_1442071777161_embed_grid span.PIN_1442071777161_embed_grid_hd a:active { text-decoration: none!important; background: inherit!important; }
+span.PIN_1442071777161_embed_grid span.PIN_1442071777161_embed_grid_hd a.PIN_1442071777161_embed_grid_first { top: 2px!important; font-family: helvetica, sans-serif!important; font-weight: bold!important; color:#333!important; font-size: 14px!important; line-height: 16px!important; }
+span.PIN_1442071777161_embed_grid span.PIN_1442071777161_embed_grid_hd a.PIN_1442071777161_embed_grid_second { bottom: 11px!important; font-family: helvetica, sans-serif!important; color:#8e8e8e!important; font-size: 12px!important; line-height: 14px!important; }
+span.PIN_1442071777161_embed_grid span.PIN_1442071777161_embed_grid_hd a.PIN_1442071777161_embed_grid_mid { top: 12px!important; font-family: helvetica, sans-serif!important; font-weight: bold!important; color:#333!important; font-size: 14px!important; line-height: 16px!important; }
+span.PIN_1442071777161_embed_grid span.PIN_1442071777161_embed_grid_bd { display:block!important; margin: 0 10px!important; border-radius: 2px!important; position: relative!important; overflow: hidden }
+span.PIN_1442071777161_embed_grid span.PIN_1442071777161_embed_grid_scrolling_okay { overflow: auto!important; }
+span.PIN_1442071777161_embed_grid span.PIN_1442071777161_embed_grid_bd span.PIN_1442071777161_embed_grid_ct { display:block!important; position: relative!important; overflow: hidden!important; }
+span.PIN_1442071777161_embed_grid span.PIN_1442071777161_embed_grid_bd a.PIN_1442071777161_embed_grid_th { cursor: pointer!important; display: inline-block!important; position: absolute!important; overflow: hidden!important; }
+span.PIN_1442071777161_embed_grid span.PIN_1442071777161_embed_grid_bd a.PIN_1442071777161_embed_grid_th::before { position: absolute!important; content:""!important; z-index: 2!important; top: 0!important; left: 0!important; right: 0!important; bottom: 0!important; box-shadow: inset 0 0 2px #888!important; }
+span.PIN_1442071777161_embed_grid span.PIN_1442071777161_embed_grid_bd a.PIN_1442071777161_embed_grid_th img.PIN_1442071777161_embed_grid_img { border: none!important; margin-left: 0!important; margin-right: 0!important; margin-bottom: 0!important; padding: 0!important;position: absolute!important; top: 50%!important; left: 0!important; }
+a.PIN_1442071777161_embed_grid_ft { cursor: pointer!important; text-shadow: 0 1px #fff!important; display: block!important; text-align: center!important; border: 1px solid #ccc!important; margin: 10px 10px 0!important; height: 31px!important; line-height: 30px!important;border-radius: 2px!important; text-decoration: none!important; font-family: Helvetica!important; font-weight: bold!important; font-size: 13px!important; color: #746d6a!important; background: #f4f4f4 url(https://s-passets.pinimg.com/images/pidgets/board_button_link.png) 0 0 repeat-x}
+a.PIN_1442071777161_embed_grid_ft:hover { text-decoration: none!important; background: #fefefe url(https://s-passets.pinimg.com/images/pidgets/board_button_hover.png) 0 0 repeat-x}
+a.PIN_1442071777161_embed_grid_ft:active { text-decoration: none!important; background: #e4e4e4 url(https://s-passets.pinimg.com/images/pidgets/board_button_active.png) 0 0 repeat-x}
+a.PIN_1442071777161_embed_grid_ft span.PIN_1442071777161_embed_grid_ft_logo { vertical-align: top!important; display: inline-block!important; margin-left: 2px!important; height: 30px!important; width: 66px!important; background: transparent url(https://s-passets.pinimg.com/images/pidgets/board_button_logo.png) 50% 48% no-repeat!important; }
+.PIN_1442071777161_hidden { display:none!important; }</style><style type="text/css">        .popcart-button {  background-color: rgba(0,204,218,1);  border-radius: 3px;  color: #fff;  cursor: pointer;  display: inline-block;  padding: 8px 10px 5px 12px;  }         .popcart-button:hover {  background-color: rgba(0,190,204,1);  }         .popcart-button-text {  display: block;  float: right;  margin: .2em .5em 0 .5em;  }         .popcart-button-container {  font:normal normal 1.2em "Open Sans","Helvetica Neue",Helvetica,Arial, sans-serif;  display: none;  text-align: left;  margin: 10px 10px 10px 0;  }         .popcart-button-container-active {  display:inline-block;  }         .popcart-button-leading-text {  display: block;  font-size: 115%;  margin-bottom: 10px;  }         .popcart-button-trailing-text {  display: block;  color: #888;  margin-top:0.5em;  font-size:0.7em;  font-weight: 400;  font-size: 0.7em;  }         .popcart-button-trailing-text strong {  display: inline !important;  font-weight:600;  }         .popcart-button-icon {  height: 30px;  width: 30px;  fill: white;  }         .popcart-button-powered-by {  color: #ccc;  margin: 0;  padding: 0;  text-decoration: none;  display: block;  font-size:0.7em;  font-weight:400;  }         .popcart-button-powered-by:hover {  text-decoration:none;  color:#ccc;  }       </style><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow-x:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f8;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3a5795;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #2f477a;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f8;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v2/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style></head>
+
+
+
+<body class="width_1230 recipes_show recipes is_desktop no_touch" id=""><iframe src="chowhound_files/hub.html" style="position: absolute; top: -9999em; width: 10px; height: 10px;" name="twttrHubFrameSecure" tabindex="0" scrolling="no" allowtransparency="true" id="twttrHubFrameSecure" frameborder="0"></iframe><iframe src="chowhound_files/hub_002.html" style="position: absolute; top: -9999em; width: 10px; height: 10px;" name="twttrHubFrame" tabindex="0" scrolling="no" allowtransparency="true" id="twttrHubFrame" frameborder="0"></iframe><iframe name="empty" scrolling="no" id="LOCSTORAGE" src="chowhound_files/storageframe.html" style="width: 1px; height: 1px; position: absolute; top: -7px; left: -7px; border: 0px none;" hidden="true"></iframe>
+  <script src="chowhound_files/guid_1-0-f7e52c369e5a109d2cd16296898e8a07.js"></script>
+
+<script type="text/javascript">
+    generate_vguid = function(){
+        view_tracking_guid = v1();
+    }
+
+    generate_vguid();
+
+    var utag_data = {"siteType":"responsive web","siteSection":"recipes","deviceType":"desktop","siteHier":"recipes","pageType":"section_detail","pageFindingMethod":"External","articleAuthorName":"Amy Wisniewski","articleAuthorId":"ch-User-102051","recipeId":29029,"recipeTitle":"Thanksgiving Turkey Cake","recipePubDate":"2010-11-04","pageViewGuid" : view_tracking_guid }
+</script>
+
+<script type="text/javascript">
+    (function(a,b,c,d){
+      a='//tags.tiqcdn.com/utag/cbsi/chowsite/prod/utag.js';
+      b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+      a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+</script>
+
+
+
+
+  <div id="mantle_skin">
+    <div id="adSkinLeft"></div>
+    <div id="adSkinRight"></div>
+    <div id="skin"></div>
+
+    <div id="intromercial"></div>
+
+
+
+
+
+
+    <div class="recipe_fragment current first" itemscope="" itemtype="http://schema.org/Recipe" data-title="Thanksgiving%20Turkey%20Cake%20Recipe" data-link="http://www.chowhound.com/recipes/thanksgiving-turkey-cake-29029" data-image="/assets/recipe_photos/29029_RES_turkey_cake.jpg" data-pubdate="2010-11-04">
+
+
+
+<div class="none" itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+  <span itemprop="ratingValue">3.5</span> stars out of 5 stars based on
+  <span itemprop="reviewCount">84</span> reviews
+</div>
+
+    <div style="height: 542px;" id="main_img_wrap">
+      <div id="main_img_wrap_inner" class="relative">
+        <img alt="Thanksgiving Turkey Cake" id="recipe_top_img" itemprop="image" src="chowhound_files/29029_RES_turkey_cake_002.jpg" srcset="http://search.chow.com/thumbnail/3200/0/www.chowstatic.com/assets/recipe_photos/29029_RES_turkey_cake.jpg 2x, http://search.chow.com/thumbnail/4800/0/www.chowstatic.com/assets/recipe_photos/29029_RES_turkey_cake.jpg 3x" width="100%">
+        <div id="recipe_top_overlay"></div>
+      </div>
+    </div>
+
+
+<div id="recipe_top">
+      <div id="leader_plus_top_wrapper">
+        <div id="leader_plus_top" style="display: none;"></div>
+      </div>
+
+  <div style="display: block;" id="title_and_rating">
+    <div class="relative">
+      <h1 itemprop="name" class="proxima-thin">Thanksgiving Turkey Cake</h1>
+
+          <a href="http://www.chowhound.com/recipes/31313" class="link_arrow" onclick="om.trackEvent({eventCategory: 'recirculation', eventAction: 'header_arrow_prev'});">
+            <span class="arrow_icon"></span>
+            <div class="link_inner">
+              <img alt="" class="fr" src="chowhound_files/31313_RecipeImage_breakfast_turkey_burgers_3.jpg" srcset="http://search.chow.com/thumbnail/336/224/www.chowstatic.com/assets/2015/03/31313_RecipeImage_breakfast_turkey_burgers_3.jpg 2x, http://search.chow.com/thumbnail/504/336/www.chowstatic.com/assets/2015/03/31313_RecipeImage_breakfast_turkey_burgers_3.jpg 3x" height="112" width="168">
+              <div class="content_wrapper">
+                Previous:
+                <div class="item_title">Breakfast Turkey Burgers</div>
+              </div>
+            </div>
+          </a>
+
+          <a href="http://www.chowhound.com/recipes/29034" class="link_arrow right" onclick="om.trackEvent({eventCategory: 'recirculation', eventAction: 'header_arrow_next'});">
+            <span class="arrow_icon"></span>
+            <div class="link_inner">
+              <img alt="" class="fl" src="chowhound_files/29034_smoked_turkey_3000_002.jpg" srcset="http://search.chow.com/thumbnail/336/224/www.chowstatic.com/assets/2014/11/29034_smoked_turkey_3000.jpg 2x, http://search.chow.com/thumbnail/504/336/www.chowstatic.com/assets/2014/11/29034_smoked_turkey_3000.jpg 3x" height="112" width="168">
+              <div class="content_wrapper">
+                Next:
+                <div class="item_title">Smoked Turkey</div>
+              </div>
+            </div>
+          </a>
+
+    </div>
+
+  </div>
+</div>
+
+
+  <div style="transition: margin-top 0.2s ease 0s; margin-top: 392px;" id="custom-doc" class="our_custom_doc">
+
+
+    <div id="bd" class="clearfix ">
+      <div id="main_body">
+
+<div id="info_bar" class="clearfix">
+  <div id="save_recipe_wrapper">
+    <a class="save_recipe  none" data-method="post" data-remote="true" href="http://www.chowhound.com/bookmarks/29029/destroy.json?type=Recipe" id="bookmark_remove" onclick="return false;" rel="nofollow">
+      <i class="fa fa-heart"></i>
+</a>    <a class="save_recipe  show_login_box" data-method="post" data-remote="true" href="http://www.chowhound.com/bookmarks.json?id=29029&amp;type=Recipe" id="bookmark_add" onclick="return false;" rel="nofollow">
+      <i class="fa fa-heart-o omniture_favorite boomtrain_save"></i>
+</a>    <span id="message_on_save" class="save_flyout">
+        <span class="vertical_align">Saved for later
+        </span>
+      </span>
+        <span id="save_count" class="save_flyout">
+          <span class="vertical_align_save_count">(<span id="save_count_inner">334</span>)</span>
+        </span>
+  </div>
+
+    <div id="info_bar_scroller" class="relative">
+
+
+<div class="info_bar_content clearfix">
+    <div class="info_bar_item rating">
+      <div class="ratings_wrapper">
+        <ul class="chow_rating_module show_login_box">
+          <li class="star" data-stars="5"></li><li class="star" data-stars="4"></li><li class="star" data-stars="3"></li><li class="star" data-stars="2"></li><li class="star" data-stars="1"></li>
+        </ul>
+        <div class="chow_rating_display">
+          <ul class="viewport" style="width:75.25px" 3.5="">
+            <li class="star" data-stars="5"></li><li class="star" data-stars="4"></li><li class="star" data-stars="3"></li><li class="star" data-stars="2"></li><li class="star" data-stars="1"></li>
+          </ul>
+        </div>
+        <span class="review_count">(<span class="num">84</span>)</span>
+        <div id="rating_status" class="save_flyout"></div>
+      </div>
+    </div>
+
+
+    <div class="info_bar_item second_slot">
+      Difficulty:
+      <span class="proxima-bold"><a href="http://www.chowhound.com/recipes/medium">Medium</a></span>
+    </div>
+
+    <div class="info_bar_item third_slot proxima-thin f16">
+      <span class="fl mt-6">
+          <a href="#embedded_discussion_wrapper" class="embedded_discussion_button" onclick="Recipes.showComments(this); return false;"><span class="ch_sprite social_icons comment_icon"></span></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.chowhound.com/recipes/thanksgiving-turkey-cake-29029&amp;t=Thanksgiving+Turkey+Cake" target="_blank"><i class="ch_sprite fb_icon social_icons boomtrain_share"></i></a>
+        <a href="https://twitter.com/intent/tweet?text=Thanksgiving+Turkey+Cake%20http://www.chowhound.com/recipes/thanksgiving-turkey-cake-29029%20@Chow" class="boomtrain_share" target="_blank"><i class="ch_sprite twitter_icon social_icons"></i></a>
+          <a href="#pinterest" class="ch_sprite pinterest_icon share_pinterest social_icons"></a>
+          <a data-pin-config="none" data-pin-log="button_pinit" data-pin-href="//www.pinterest.com/pin/create/button/?guid=MnkQxgwjzMDd-1&amp;url=http%3A%2F%2Fwww.chowhound.com%2Frecipes%2Fthanksgiving-turkey-cake-29029&amp;media=http%3A%2F%2Fwww.chowstatic.com%2Fassets%2Frecipe_photos%2F29029_RES_turkey_cake.jpg&amp;description=Thanksgiving+Turkey+Cake" class="PIN_1442071777161_pin_it_button_20 PIN_1442071777161_pin_it_button_en_20_gray PIN_1442071777161_pin_it_button_inline_20 PIN_1442071777161_pin_it_none_20"><span id="PIN_1442071777161_pin_count_0" class="PIN_1442071777161_hidden"><i></i></span></a>
+        <a href="#chow_email_modal" class="open_popup ch_sprite email_icon social_icons boomtrain_share omniture_email GA_track_event" data_boomtrain_model="recipe" data_boomtrain_id="recipe" data_category="Email icon" data_action="click" rel="nofollow"></a>
+        <a class="ch_sprite social_icons printer_icon last" href="http://www.chowhound.com/recipes/thanksgiving-turkey-cake-29029/print" rel="nofollow"></a>
+      </span>
+    </div>
+
+
+
+</div>
+
+  <div id="info_bar_overlay">
+    <div class="info_bar_content clearfix">
+      <div class="info_bar_item first_slot">
+          <a href="http://www.chowhound.com/recipes/29034" class="info_bar_next fl" onclick="om.trackEvent({eventCategory: 'recirculation', eventAction: 'info_bar_next'});">
+              <img alt="" class="fl mr15" src="chowhound_files/29034_smoked_turkey_3000.jpg" srcset="http://search.chow.com/thumbnail/172/116/www.chowstatic.com/assets/2014/11/29034_smoked_turkey_3000.jpg 2x, http://search.chow.com/thumbnail/258/174/www.chowstatic.com/assets/2014/11/29034_smoked_turkey_3000.jpg 3x" height="58" width="86">
+            <div class="inner proxima-bold f20 fl"><span class="fl">Next Up:<span class="proxima-thin ml10 mr10">Smoked Turkey</span></span>
+              <div class="ratings_wrapper small fl">
+                <div class="chow_rating_display">
+                  <ul class="viewport" style="width:79.64999999999999px">
+                    <li class="star" data-stars="5"></li><li class="star" data-stars="4"></li><li class="star" data-stars="3"></li><li class="star" data-stars="2"></li><li class="star" data-stars="1"></li>
+                  </ul>
+                  <ul class="lower_layer hollow">
+                    <li class="star"></li><li class="star"></li><li class="star"></li><li class="star"></li><li class="star"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </a>
+      </div>
+    </div>
+  </div>
+
+    </div>
+
+</div><!-- END INFO BAR -->
+<div id="recipes" class="clearfix">
+
+
+    <div style="height: 9206px;" id="left_sidebar" class="sidebar_scroll_track">
+      <div class="sidebar_scroll_lock_reference"></div>
+        <div id="ingredients_list" class="sidebar_scroll_lock">
+          <h2 class="headline mb15">Ingredients</h2>
+          <span class="popcart-wrapper"><div class="popcart-buy-button">      <span class="popcart-button-container">         <span class="popcart-button-leading-text">Buy these ingredients</span>         <span class="popcart-button">           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 240 240" enable-background="new 0 0 240 240" xml:space="preserve" class="popcart-button-icon">             <g>               <path d="M26.3,39c1-2.4,2.6-4.1,4.9-5.2c2.3-1.1,4.6-1.3,6.8-0.7l27,8.6c3.8,1.2,5.9,3.8,6.3,7.7l1.8,15.1l123.5,13.9c2.8,0.6,4.9,1.9,6.3,4c1.4,2,2,4.3,1.8,6.8l-7.7,42.8c-1,5.2-3.9,7.7-8.8,7.7H78.7l-2,12.4h104c2.5,0,4.7,0.8,6.5,2.5c1.8,1.7,2.6,3.8,2.5,6.5c-0.1,2.6-1.1,4.9-2.9,6.7s-3.8,2.6-6.1,2.5H65.4c-3-0.2-5.3-1.4-7-3.4c-1.7-2-2.4-4.5-2.2-7.4l5-26.8l-7.4-75.2l-21.4-7C27,48.5,25,44.7,26.3,39z M65.4,190c0-3.8,1.4-7.2,4.3-10.1c2.9-2.9,6.2-4.3,9.9-4.1c3.7,0.1,7.1,1.5,10.1,4.1c3,2.6,4.4,6,4.1,10.1c-0.2,4.1-1.6,7.4-4.1,9.9c-2.5,2.5-5.9,4-10.1,4.3c-4.2,0.4-7.5-1.1-9.9-4.3C67.3,196.7,65.8,193.4,65.4,190z M149.8,190c0-3.8,1.4-7.2,4.1-10.1c2.8-2.9,6.1-4.3,10.1-4.1c4,0.1,7.3,1.5,10.1,4.1c2.8,2.6,4.1,6,4.1,10.1c0,4.1-1.4,7.4-4.1,9.9c-2.8,2.5-6.1,4-10.1,4.3c-4,0.4-7.3-1.1-10.1-4.3C151.2,196.7,149.8,193.4,149.8,190z"></path>             </g>           </svg>           <span class="popcart-button-text">Add to cart</span>         </span>         <span class="popcart-button-trailing-text"> Delivery straight to your door </span>         <a class="popcart-button-powered-by" href="http://getpopcart.com/">Powered by POPCART</a>       </span>     </div></span>
+          <h4>For the turkey layers:</h4><ul>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient">Unsalted <span itemprop="name">butter</span>, for coating the pans</span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">2 pounds</span> ground <span itemprop="name">turkey</span> breast</span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">1 cup</span> <span itemprop="name">quick-cooking oats</span></span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">1/2 cup</span> <span itemprop="name">Parmesan cheese</span>, grated on the small holes of a box grater</span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">1/3 cup</span> <span itemprop="name">ketchup</span></span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">1/3 cup</span> finely chopped <span itemprop="name">yellow onion</span></span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">1/4 cup</span> finely chopped fresh <span itemprop="name">Italian parsley</span> leaves</span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">1/4 cup</span> <span itemprop="name">Worcestershire sauce</span></span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">2 tablespoons</span> <span itemprop="name">soy sauce</span></span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">1 1/2 teaspoons</span> minced fresh <span itemprop="name">thyme</span> leaves</span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">1 teaspoon</span> minced fresh <span itemprop="name">sage</span> leaves</span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">1/2 teaspoon</span> freshly ground <span itemprop="name">black pepper</span></span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">2 medium</span> <span itemprop="name">garlic cloves</span>, minced</span></li>
+</ul><h4>For the sweet potato layer:</h4><ul>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">1 pound</span> <span itemprop="name">sweet potatoes</span></span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">1/4 cup</span> <span itemprop="name">whole milk</span></span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">2 tablespoons</span> unsalted <span itemprop="name">butter</span> (1/4 stick)</span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">1 tablespoon</span> packed <span itemprop="name">light brown sugar</span></span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">1 teaspoon</span> <span itemprop="name">kosher salt</span>, plus more as needed</span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">Pinch</span> ground mace or <span itemprop="name">nutmeg</span></span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient">Freshly ground <span itemprop="name">black pepper</span></span></li>
+</ul><h4>To assemble:</h4><ul>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient">About <span itemprop="amount">5 cups</span> or 1 recipe Sour Cream <span itemprop="name">Mashed Potatoes</span> (see Game Plan note), warm</span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">1/2 cup</span> <span itemprop="name">cranberry sauce</span>, chilled and excess liquid drained</span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">2 1/2 cups</span> <span itemprop="name">sausage stuffing</span>, warm</span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="amount">1 1/2 cups</span> <span itemprop="name">mini marshmallows</span></span></li>
+<li><span itemprop="ingredients" itemscope="" itemtype="http://schema.org/RecipeIngredient"><span itemprop="name">Gravy</span>, for serving (optional)</span></li>
+</ul>
+        </div>
+    </div><!-- END left_sidebar -->
+
+  <div class="content sidebar_scroll_match">
+
+
+
+
+
+
+    <div id="title">
+
+
+
+    </div>
+
+
+    <div id="introduction" class="clearfix clear proxima">
+        <div id="mpu_top" class="mb20 ml20 fr"></div>
+
+        <div id="meta_box">
+            <p class="meta"><span class="meta_label">Total Time:</span>
+                <time itemprop="totalTime" content="PT2H0M">
+                  2 hrs
+                </time>
+            </p>
+
+            <p class="meta"><span class="meta_label">Active Time:</span>
+              <time itemprop="activeTime" content="PT1H0M">
+                1 hr
+              </time>
+            </p>
+
+            <p class="meta"><span class="meta_label">Makes:</span>
+              <span itemprop="recipeYield">8 to 10 servings</span>
+            </p>
+        </div>
+
+
+        <div itemprop="description"><p>Whether this Thanksgiving
+centerpiece incites horror, amazement, or confusion when it’s served,
+it’s certain to evoke some kind of outburst. Warning: This dish is not
+recommended for people who require an inch of space between food groups.</p>
+<p><strong>Game plan:</strong> You’ll need to make the <a target="blank" href="http://www.chow.com/recipes/29028-sour-cream-mashed-potatoes">mashed potatoes</a>, <a href="http://www.chow.com/recipes/11135-cranberry-and-citrus-sauce">cranberry sauce</a>, <a href="http://www.chow.com/recipes/29030-sausage-stuffing">sausage stuffing</a>, and <a href="http://www.chow.com/recipes/13663-simple-pan-gravy">gravy</a>
+ before you begin; the sweet potatoes can be made ahead as well. Rewarm
+everything except the cranberry sauce just prior to assembling the cake,
+ so it’s all easy to spread.</p>
+<p>If your attention lapses and the marshmallows happen to burn or catch
+ fire while broiling (this actually happened to us), relax and just blow
+ out the flames. Peel away the burnt marshmallows, leaving the sweet
+potato layer intact, and start over with a fresh topping of
+marshmallows.</p>
+<p>This recipe was featured as part of our <a target="blank" href="http://www.chow.com/food-news/64461/6-thanksgiving-turkey-recipes-traditional-to-trippy/">6 Thanksgiving Turkey Recipes, Traditional to Trippy</a>.<span style="display: inline;" class="by_line_wrapper">
+                <span class="ml5 mr5 f20">|</span><span class="by_line">
+        by <a href="http://www.chowhound.com/search?q=Amy%20Wisniewski&amp;c[]=recipes">
+        <span itemprop="author">Amy Wisniewski</span>
+        </a>
+</span>
+
+            </span></p></div>
+
+
+
+        <div id="next_recipe_module">
+          <a href="http://www.chowhound.com/recipes/29034" class="clearfix" onclick="om.trackEvent({eventCategory: 'recirculation', eventAction: 'next_recipe'});">
+            <i class="fa fa-angle-right"></i>
+            <img alt="" src="chowhound_files/29034_smoked_turkey_3000_003.jpg" srcset="http://search.chow.com/thumbnail/220/144/www.chowstatic.com/assets/2014/11/29034_smoked_turkey_3000.jpg 2x, http://search.chow.com/thumbnail/330/216/www.chowstatic.com/assets/2014/11/29034_smoked_turkey_3000.jpg 3x" height="72" width="110">
+            <div class="content_wrapper">
+              Next Up:
+              <div class="recipe_item_title">Smoked Turkey</div>
+            </div>
+
+              <div class="ratings_wrapper medium fl">
+                <div class="chow_rating_display">
+                  <ul class="viewport" style="width:97.2px">
+                    <li class="star" data-stars="5"></li><li class="star" data-stars="4"></li><li class="star" data-stars="3"></li><li class="star" data-stars="2"></li><li class="star" data-stars="1"></li>
+                  </ul>
+                  <ul class="lower_layer hollow">
+                    <li class="star"></li><li class="star"></li><li class="star"></li><li class="star"></li><li class="star"></li>
+                  </ul>
+                </div>
+              </div>
+          </a>
+        </div>
+
+
+
+
+</div>
+
+
+
+  <h2 class="headline mb20 ">Instructions</h2>
+
+  <div id="instructions" itemprop="recipeInstructions">
+    <strong>For the turkey layers:</strong><p></p><ol>	<li><span class="number_divider">1</span>Heat the oven to 350°F and arrange a rack in the middle. Coat 2 (8-inch) cake pans with butter; set aside.</li>	<li><span class="number_divider">2</span>Place
+ all of the remaining ingredients in a large bowl and mix, using clean
+hands, until combined (don’t squeeze or overwork). Divide the mixture
+evenly between the pans, spreading it to the edges and smoothing out the
+ top. Bake until cooked through and the cakes begin to pull away from
+the edges of the pans, about 25 minutes. Remove from the oven (but leave
+ the oven on) and let cool for about 10 minutes. Using a paper towel,
+blot away any excess fat from the cake layers’ surface; set aside.
+(While the turkey cakes are cooking, make the sweet potatoes.)</li></ol>
+<p><strong>For the sweet potato layer:</strong></p><ol>	<li><span class="number_divider">1</span>Place
+ a steamer basket in a large saucepan with a tightfitting lid. Add
+enough water to reach just below the basket; bring to a boil over high
+heat, then reduce the heat to low and gently simmer.</li>	<li><span class="number_divider">2</span>Meanwhile,
+ peel the sweet potatoes and cut them into 1-inch cubes. Once the water
+is simmering, place the cubes in the steamer basket, cover, and steam
+until the potatoes just give when pierced with a fork, about 20 to 25
+minutes. Transfer the steamer basket with the potatoes to a plate; set
+aside.</li>	<li><span class="number_divider">3</span>Discard the water
+in the saucepan. Place the milk and butter in the saucepan and heat over
+ low heat until the butter has melted. Turn off the heat, add the
+reserved sweet potatoes and the brown sugar, measured salt, and mace or
+nutmeg, and mash with a potato masher until smooth. Taste and season
+with salt and pepper as desired; keep warm.</li></ol>
+<p><strong>To assemble:</strong></p><ol>	<li><span class="number_divider">1</span>Arrange a rack in the lower third of the oven.</li>	<li><span class="number_divider">2</span>Run
+ a knife around the edge of the turkey cakes. Unmold one of the turkey
+layers and place it bottom-side up on an overturned 8-inch cake pan or
+in an ovenproof serving dish. <img src="chowhound_files/turkey_cake_step1_300.jpg" alt=""><div class="pinterest_wrapper" style="margin-top:-528px"><a data-pin-config="none" data-pin-log="button_pinit" data-pin-href="//www.pinterest.com/pin/create/button/?guid=MnkQxgwjzMDd-2&amp;url=http%3A%2F%2Fwww.chowhound.com%2Frecipes%2Fthanksgiving-turkey-cake-29029&amp;media=http%3A%2F%2Fchow.com%2Fassets%2F2010%2F11%2Fturkey_cake_step1_300.jpg&amp;description=Thanksgiving%20Turkey%20Cake%20Recipe" class="PIN_1442071777161_pin_it_button_20 PIN_1442071777161_pin_it_button_en_20_gray PIN_1442071777161_pin_it_button_inline_20 PIN_1442071777161_pin_it_none_20"><span id="PIN_1442071777161_pin_count_1" class="PIN_1442071777161_hidden"><i></i></span></a></div>
+ With a long knife or offset spatula, evenly spread 1 1/4 cups of the
+mashed potatoes over the top of the cake, leaving a 1/2 -inch border
+(keep the remaining potatoes warm). <img src="chowhound_files/turkey_cake_step2_300.jpg" alt=""><div class="pinterest_wrapper" style="margin-top:-528px"><a data-pin-config="none" data-pin-log="button_pinit" data-pin-href="//www.pinterest.com/pin/create/button/?guid=MnkQxgwjzMDd-3&amp;url=http%3A%2F%2Fwww.chowhound.com%2Frecipes%2Fthanksgiving-turkey-cake-29029&amp;media=http%3A%2F%2Fchow.com%2Fassets%2F2010%2F11%2Fturkey_cake_step2_300.jpg&amp;description=Thanksgiving%20Turkey%20Cake%20Recipe" class="PIN_1442071777161_pin_it_button_20 PIN_1442071777161_pin_it_button_en_20_gray PIN_1442071777161_pin_it_button_inline_20 PIN_1442071777161_pin_it_none_20"><span id="PIN_1442071777161_pin_count_2" class="PIN_1442071777161_hidden"><i></i></span></a></div></li>	<li><span class="number_divider">3</span>Using the back of a clean spoon, spread the cranberry sauce evenly over the mashed potatoes. <img src="chowhound_files/turkey_cake_step3_300.jpg" alt=""><div class="pinterest_wrapper" style="margin-top:-528px"><a data-pin-config="none" data-pin-log="button_pinit" data-pin-href="//www.pinterest.com/pin/create/button/?guid=MnkQxgwjzMDd-4&amp;url=http%3A%2F%2Fwww.chowhound.com%2Frecipes%2Fthanksgiving-turkey-cake-29029&amp;media=http%3A%2F%2Fchow.com%2Fassets%2F2010%2F11%2Fturkey_cake_step3_300.jpg&amp;description=Thanksgiving%20Turkey%20Cake%20Recipe" class="PIN_1442071777161_pin_it_button_20 PIN_1442071777161_pin_it_button_en_20_gray PIN_1442071777161_pin_it_button_inline_20 PIN_1442071777161_pin_it_none_20"><span id="PIN_1442071777161_pin_count_3" class="PIN_1442071777161_hidden"><i></i></span></a></div></li>	<li><span class="number_divider">4</span>Using
+ your hands, gently pack the stuffing in an even layer over the
+cranberry sauce, using one hand to keep any stuffing from falling off
+the side. <img src="chowhound_files/turkey_cake_step4_300.jpg" alt=""><div class="pinterest_wrapper" style="margin-top:-528px"><a data-pin-config="none" data-pin-log="button_pinit" data-pin-href="//www.pinterest.com/pin/create/button/?guid=MnkQxgwjzMDd-5&amp;url=http%3A%2F%2Fwww.chowhound.com%2Frecipes%2Fthanksgiving-turkey-cake-29029&amp;media=http%3A%2F%2Fchow.com%2Fassets%2F2010%2F11%2Fturkey_cake_step4_300.jpg&amp;description=Thanksgiving%20Turkey%20Cake%20Recipe" class="PIN_1442071777161_pin_it_button_20 PIN_1442071777161_pin_it_button_en_20_gray PIN_1442071777161_pin_it_button_inline_20 PIN_1442071777161_pin_it_none_20"><span id="PIN_1442071777161_pin_count_4" class="PIN_1442071777161_hidden"><i></i></span></a></div> Press gently on the stuffing to make sure it adheres to the mashed potatoes and cranberry sauce.</li>	<li><span class="number_divider">5</span>Evenly spread another 1 1/4 cups of the mashed potatoes over the stuffing (keep the remaining potatoes warm). <img src="chowhound_files/turkey_cake_step5_300.jpg" alt=""><div class="pinterest_wrapper" style="margin-top:-528px"><a data-pin-config="none" data-pin-log="button_pinit" data-pin-href="//www.pinterest.com/pin/create/button/?guid=MnkQxgwjzMDd-6&amp;url=http%3A%2F%2Fwww.chowhound.com%2Frecipes%2Fthanksgiving-turkey-cake-29029&amp;media=http%3A%2F%2Fchow.com%2Fassets%2F2010%2F11%2Fturkey_cake_step5_300.jpg&amp;description=Thanksgiving%20Turkey%20Cake%20Recipe" class="PIN_1442071777161_pin_it_button_20 PIN_1442071777161_pin_it_button_en_20_gray PIN_1442071777161_pin_it_button_inline_20 PIN_1442071777161_pin_it_none_20"><span id="PIN_1442071777161_pin_count_5" class="PIN_1442071777161_hidden"><i></i></span></a></div></li>	<li><span class="number_divider">6</span>Unmold the second turkey layer and place it bottom-side up on top of the mashed potatoes. <img src="chowhound_files/turkey_cake_step6_300.jpg" alt=""><div class="pinterest_wrapper" style="margin-top:-528px"><a data-pin-config="none" data-pin-log="button_pinit" data-pin-href="//www.pinterest.com/pin/create/button/?guid=MnkQxgwjzMDd-7&amp;url=http%3A%2F%2Fwww.chowhound.com%2Frecipes%2Fthanksgiving-turkey-cake-29029&amp;media=http%3A%2F%2Fchow.com%2Fassets%2F2010%2F11%2Fturkey_cake_step6_300.jpg&amp;description=Thanksgiving%20Turkey%20Cake%20Recipe" class="PIN_1442071777161_pin_it_button_20 PIN_1442071777161_pin_it_button_en_20_gray PIN_1442071777161_pin_it_button_inline_20 PIN_1442071777161_pin_it_none_20"><span id="PIN_1442071777161_pin_count_6" class="PIN_1442071777161_hidden"><i></i></span></a></div></li>	<li><span class="number_divider">7</span>Transfer
+ the cake pan or serving dish with the partially assembled cake to a
+baking sheet and bake until heated through, about 30 to 40 minutes (an
+instant-read thermometer should register 165°F).</li>	<li><span class="number_divider">8</span>Remove from the oven and set aside. Heat the oven to broil.</li>	<li><span class="number_divider">9</span>With
+ a long knife or offset spatula, evenly coat the outside (but not top)
+of the entire cake with the remaining mashed potatoes (you may have a
+little left over). <img src="chowhound_files/turkey_cake_step7_300.jpg" alt=""><div class="pinterest_wrapper" style="margin-top:-528px"><a data-pin-config="none" data-pin-log="button_pinit" data-pin-href="//www.pinterest.com/pin/create/button/?guid=MnkQxgwjzMDd-8&amp;url=http%3A%2F%2Fwww.chowhound.com%2Frecipes%2Fthanksgiving-turkey-cake-29029&amp;media=http%3A%2F%2Fchow.com%2Fassets%2F2010%2F11%2Fturkey_cake_step7_300.jpg&amp;description=Thanksgiving%20Turkey%20Cake%20Recipe" class="PIN_1442071777161_pin_it_button_20 PIN_1442071777161_pin_it_button_en_20_gray PIN_1442071777161_pin_it_button_inline_20 PIN_1442071777161_pin_it_none_20"><span id="PIN_1442071777161_pin_count_7" class="PIN_1442071777161_hidden"><i></i></span></a></div></li>	<li><span class="number_divider">10</span>With a clean long knife or offset spatula, evenly spread all of the sweet potatoes on top of the cake. <img src="chowhound_files/turkey_cake_step8_300.jpg" alt=""><div class="pinterest_wrapper" style="margin-top:-528px"><a data-pin-config="none" data-pin-log="button_pinit" data-pin-href="//www.pinterest.com/pin/create/button/?guid=MnkQxgwjzMDd-9&amp;url=http%3A%2F%2Fwww.chowhound.com%2Frecipes%2Fthanksgiving-turkey-cake-29029&amp;media=http%3A%2F%2Fchow.com%2Fassets%2F2010%2F11%2Fturkey_cake_step8_300.jpg&amp;description=Thanksgiving%20Turkey%20Cake%20Recipe" class="PIN_1442071777161_pin_it_button_20 PIN_1442071777161_pin_it_button_en_20_gray PIN_1442071777161_pin_it_button_inline_20 PIN_1442071777161_pin_it_none_20"><span id="PIN_1442071777161_pin_count_8" class="PIN_1442071777161_hidden"><i></i></span></a></div> Arrange the marshmallows across the top and gently press them into the sweet potatoes. <img src="chowhound_files/turkey_cake_step9_300.jpg" alt=""><div class="pinterest_wrapper" style="margin-top:-528px"><a data-pin-config="none" data-pin-log="button_pinit" data-pin-href="//www.pinterest.com/pin/create/button/?guid=MnkQxgwjzMDd-10&amp;url=http%3A%2F%2Fwww.chowhound.com%2Frecipes%2Fthanksgiving-turkey-cake-29029&amp;media=http%3A%2F%2Fchow.com%2Fassets%2F2010%2F11%2Fturkey_cake_step9_300.jpg&amp;description=Thanksgiving%20Turkey%20Cake%20Recipe" class="PIN_1442071777161_pin_it_button_20 PIN_1442071777161_pin_it_button_en_20_gray PIN_1442071777161_pin_it_button_inline_20 PIN_1442071777161_pin_it_none_20"><span id="PIN_1442071777161_pin_count_9" class="PIN_1442071777161_hidden"><i></i></span></a></div></li>	<li><span class="number_divider">11</span>Return
+ the baking sheet with the assembled cake to the oven and broil until
+the marshmallows are golden, about 1 to 2 minutes (watch closely so the
+marshmallows don’t burn). <img src="chowhound_files/turkey_cake_step10_300.jpg" alt=""><div class="pinterest_wrapper" style="margin-top:-528px"><a data-pin-config="none" data-pin-log="button_pinit" data-pin-href="//www.pinterest.com/pin/create/button/?guid=MnkQxgwjzMDd-11&amp;url=http%3A%2F%2Fwww.chowhound.com%2Frecipes%2Fthanksgiving-turkey-cake-29029&amp;media=http%3A%2F%2Fchow.com%2Fassets%2F2010%2F11%2Fturkey_cake_step10_300.jpg&amp;description=Thanksgiving%20Turkey%20Cake%20Recipe" class="PIN_1442071777161_pin_it_button_20 PIN_1442071777161_pin_it_button_en_20_gray PIN_1442071777161_pin_it_button_inline_20 PIN_1442071777161_pin_it_none_20"><span id="PIN_1442071777161_pin_count_10" class="PIN_1442071777161_hidden"><i></i></span></a></div> Using two flat spatulas, carefully transfer the cake to a serving dish. Serve immediately with gravy, if desired.</li></ol>
+
+      <ul>
+        <li>
+            <img alt="Thanksgiving Turkey Cake" class="recipe_image" id="recipe_top_img" src="chowhound_files/29029_RES_turkey_cake_002.jpg" srcset="http://search.chow.com/thumbnail/3200/0/www.chowstatic.com/assets/recipe_photos/29029_RES_turkey_cake.jpg 2x, http://search.chow.com/thumbnail/4800/0/www.chowstatic.com/assets/recipe_photos/29029_RES_turkey_cake.jpg 3x" width="800"><div class="pinterest_wrapper" style="margin-top:-528px"><a data-pin-config="none" data-pin-log="button_pinit" data-pin-href="//www.pinterest.com/pin/create/button/?guid=MnkQxgwjzMDd-12&amp;url=http%3A%2F%2Fwww.chowhound.com%2Frecipes%2Fthanksgiving-turkey-cake-29029&amp;media=http%3A%2F%2Fsearch.chow.com%2Fthumbnail%2F1600%2F0%2Fwww.chowstatic.com%2Fassets%2Frecipe_photos%2F29029_RES_turkey_cake.jpg&amp;description=Thanksgiving%20Turkey%20Cake%20Recipe" class="PIN_1442071777161_pin_it_button_20 PIN_1442071777161_pin_it_button_en_20_gray PIN_1442071777161_pin_it_button_inline_20 PIN_1442071777161_pin_it_none_20"><span id="PIN_1442071777161_pin_count_11" class="PIN_1442071777161_hidden"><i></i></span></a></div>
+        </li>
+      </ul>
+  </div>
+
+
+
+
+  </div>
+
+
+
+    <ul id="more_recipes" class="recipe_module clearfix">
+      <li>
+        <h2 class="headline with_border mb15">More Recipes</h2>
+      </li>
+          <li class="recipe_item ">
+            <a href="http://www.chowhound.com/recipes/29339" onclick="om.trackEvent({eventCategory: 'recirculation', eventAction: 'more_recipes'});">
+              <img alt="" class="thumb" src="chowhound_files/29339_turkey_meatloaf.jpg" srcset="http://search.chow.com/thumbnail/540/360/www.chowstatic.com/assets/recipe_photos/29339_turkey_meatloaf.jpg 2x, http://search.chow.com/thumbnail/810/540/www.chowstatic.com/assets/recipe_photos/29339_turkey_meatloaf.jpg 3x" height="180" width="270">
+              <div class="recipe_item_title">Turkey Meatloaf</div>
+              <div class="recipe_item_share">185 Saves</div>
+              <div class="recipe_item_description">
+                  <p>Healthier than regular meatloaf, and packed with flavorful Parmesan, Worcestershire, soy sauce, and fresh thyme and sage.</p>
+                  <span class="blue">Read <i class="fa fa-angle-right"></i></span>
+              </div>
+            </a>
+          </li>
+          <li class="recipe_item ">
+            <a href="http://www.chowhound.com/recipes/31514" onclick="om.trackEvent({eventCategory: 'recirculation', eventAction: 'more_recipes'});">
+              <img alt="" class="thumb" src="chowhound_files/31514_turkey_taco_salad.jpg" srcset="http://search.chow.com/thumbnail/540/360/www.chowstatic.com/assets/2015/07/31514_turkey_taco_salad.jpg 2x, http://search.chow.com/thumbnail/810/540/www.chowstatic.com/assets/2015/07/31514_turkey_taco_salad.jpg 3x" height="180" width="270">
+              <div class="recipe_item_title">Turkey Taco Salad</div>
+              <div class="recipe_item_share">10 Saves</div>
+              <div class="recipe_item_description">
+
+                  <span class="blue">Read <i class="fa fa-angle-right"></i></span>
+              </div>
+            </a>
+          </li>
+          <li class="recipe_item ">
+            <a href="http://www.chowhound.com/recipes/11141" onclick="om.trackEvent({eventCategory: 'recirculation', eventAction: 'more_recipes'});">
+              <img alt="" class="thumb" src="chowhound_files/11141_turkey_pot_pie.jpg" srcset="http://search.chow.com/thumbnail/540/360/www.chowstatic.com/assets/recipe_photos/11141_turkey_pot_pie.jpg 2x, http://search.chow.com/thumbnail/810/540/www.chowstatic.com/assets/recipe_photos/11141_turkey_pot_pie.jpg 3x" height="180" width="270">
+              <div class="recipe_item_title">Turkey Pot Pie</div>
+              <div class="recipe_item_share">142 Saves</div>
+              <div class="recipe_item_description">
+                  <p>A creamy filling of carrots, onions, leftover turkey, celery, peas, and fresh sage encased in a buttery crust.</p>
+                  <span class="blue">Read <i class="fa fa-angle-right"></i></span>
+              </div>
+            </a>
+          </li>
+        <li class="recipe_item ad">
+          <div id="mpu_bottom" class="ad-served"></div>
+        </li>
+    </ul>
+
+
+
+
+
+  <div class="YAD-942481e4-1bfa-30fd-9964-4b23fdfa0103 our_yad" id="942481e4-1bfa-30fd-9964-4b23fdfa0103"><iframe allowtransparency="true" src="chowhound_files/yad-iframe_003.html" style="display:block" frameborder="0" height="371px" width="100%"></iframe></div>
+<script>
+            (function(a,b,c,d,e,f){a[d]||(a[d]=
+            function(){(a[d].q=a[d].q||[]).push([arguments,+new Date])});
+            e=b.createElement(c);f=b.getElementsByTagName(c)[0];
+            e.src='https://s.yimg.com/uq/syndication/yad.js';e.async=true;
+            f.parentNode.insertBefore(e,f)}(window,document,'script','yad'));
+            yad('942481e4-1bfa-30fd-9964-4b23fdfa0103', {element: document.querySelector('.YAD-942481e4-1bfa-30fd-9964-4b23fdfa0103')});
+</script>
+
+    <a href="#" class="comment_expander">Show Comments <i class="fa fa-chevron-down"></i></a>
+        <div id="embedded_discussion_wrapper" class="clearfix">
+          <div id="discussion_placeholder" class="tac" data-url="/recipes/thanksgiving-turkey-cake-29029/discussion.json">
+  <img src="chowhound_files/spinner_lg.gif" class="p20" height="106" width="106">
+
+
+
+</div>
+    </div>
+
+
+<div id="leader_bottom_wrapper">
+  <div id="leader_bottom"></div>
+</div>
+
+</div><!-- recipes -->
+<span class="load_next_recipe" data-next-recipe-ids="29034,29339,31514,11141,31313,"></span>
+
+
+        <div id="footer_recommendation">
+
+        </div>
+      </div>
+
+	        <div id="sidebar">
+
+    </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+  </div>
+   </div>
+ <div class="next_recipe_fragment"></div>
+<div class="YAD-4531eabb-7f5c-30a7-bae9-dcd42f4d6bd1 yad-empty"><iframe allowtransparency="true" src="chowhound_files/yad-iframe_003.html" style="display: none;" frameborder="0" height="0" width="100%"></iframe></div>
+<script>
+    (function(a,b,c,d,e,f){a[d]||(a[d]=
+    function(){(a[d].q=a[d].q||[]).push([arguments,+new Date])});
+    e=b.createElement(c);f=b.getElementsByTagName(c)[0];
+    e.src='https://s.yimg.com/uq/syndication/yad.js';e.async=true;
+    f.parentNode.insertBefore(e,f)}(window,document,'script','yad'));
+    yad('4531eabb-7f5c-30a7-bae9-dcd42f4d6bd1');
+</script>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="chow_lightbox login_signup" id="chow_email_modal">
+    <div class="chow_lightbox_bg"></div>
+    <div class="chow_lightbox_body">
+        <div class="chow_lightbox_inner">
+            <div class="email_modal_header">Share with your friends<a href="#chow_email_modal" class="close_lightbox pl10">X</a></div>
+
+            <form accept-charset="UTF-8" action="/share_tools/email" class="mt15 reset_on_close" data-submit-btn-id="chow_email_modal_submit" data-submit-handler="chow_email_handler.submitForm()" id="chow_email_modal_form" method="post"><div style="display:none"><input name="utf8" value="✓" type="hidden"><input name="authenticity_token" value="YO75mGeBmh+XEmFveRsCWWWgVSugBadFwzldru6MXB8=" type="hidden"></div>
+                <input name="email_image" value="/assets/recipe_photos/29029_RES_turkey_cake.jpg" type="hidden">
+                <input name="email_title" value="Thanksgiving Turkey Cake Recipe" type="hidden">
+                <input name="email_link" value="http://www.chowhound.com/recipes/thanksgiving-turkey-cake-29029" type="hidden">
+                <input name="content_type" value="Recipe" type="hidden">
+                <div id="chow_email_modal_error" class="chow_error clearfix"></div>
+
+                <table width="580">
+                    <tbody><tr>
+                        <td class="email_col_a tar"><label for="email_recipients">TO:</label></td>
+                        <td class="email_col_b">
+                          <input id="email_recipients" name="email_recipients" class="text_input required validate_email validate_recipient_limit has_default_text default_text" data-default-text="Separate multiple addresses with commas (limit 5)" value="Separate multiple addresses with commas (limit 5)" type="text">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="email_col_a tar"><label for="email_sender_name">FROM:</label></td>
+                        <td class="email_col_b"><input id="email_sender_name" name="email_sender_name" class="text_input required validate_email has_default_text default_text" data-default-text="Your email address" value="Your email address" type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="email_col_a tar"><label for="email_message">MESSAGE:</label></td>
+                        <td class="email_col_b"><textarea id="email_message" name="email_message" class="text_input" rows="4"></textarea></td>
+                    </tr>
+                </tbody></table>
+
+                <div class="email_preview_wrapper table_div">
+                    <img alt="" class="mr5 fl email_image_preview" src="chowhound_files/29029_RES_turkey_cake.jpg" srcset="http://search.chow.com/thumbnail/100/0/www.chowstatic.com/assets/recipe_photos/29029_RES_turkey_cake.jpg 2x, http://search.chow.com/thumbnail/150/0/www.chowstatic.com/assets/recipe_photos/29029_RES_turkey_cake.jpg 3x">
+                    <div class="fl">
+                        <div class="table_cell_div mr5 f12 email_text_preview">Share <span class="bold email_title_preview">"Thanksgiving Turkey Cake Recipe"</span></div>
+                    </div>
+                    <img alt="Chowhound Logo" class="fl" src="chowhound_files/print_logo.jpeg" srcset="http://search.chow.com/thumbnail/154/50/www.chowstatic.com/s/print_logo.gif 2x, http://search.chow.com/thumbnail/231/75/www.chowstatic.com/s/print_logo.gif 3x" height="25" width="77">
+                </div>
+
+                <script src="chowhound_files/api_002.js" async="" defer="defer"></script>
+<div class="g-recaptcha" data-sitekey="6LfjswUTAAAAAHTdozHCMpQck5GAr21sLKadcw1p"><div><div style="width: 304px; height: 78px;"><iframe src="chowhound_files/anchor.html" name="I0_1442071776344" id="I0_1442071776344" role="presentation" title="приспособление recaptcha" vspace="0" tabindex="0" style="" scrolling="no" marginwidth="0" marginheight="0" hspace="0" frameborder="0" height="78" width="304"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; "></textarea></div></div>
+<noscript><div style="width: 302px; height: 352px;">  <div style="width: 302px; height: 352px; position: relative;">    <div style="width: 302px; height: 352px; position: absolute;">      <iframe src="//www.google.com/recaptcha/api/fallback?k=6LfjswUTAAAAAHTdozHCMpQck5GAr21sLKadcw1p"                frameborder="0" scrolling="no"                style="width: 302px; height:352px; border-style: none;">        </iframe>      </div>      <div style="width: 250px; height: 80px; position: absolute; border-style: none;              bottom: 21px; left: 25px; margin: 0px; padding: 0px; right: 25px;">        <textarea id="g-recaptcha-response" name="g-recaptcha-response"                   class="g-recaptcha-response"                   style="width: 250px; height: 80px; border: 1px solid #c1c1c1;                   margin: 0px; padding: 0px; resize: none;" value="">         </textarea>      </div>    </div>  </div></noscript>
+
+                <input id="chow_email_modal_submit" class="chow_btn clear fr m25" value="SEND" type="submit">
+
+</form>
+            <div id="chow_email_message" class="f18 mt25 mb20 tac clearfix"></div>
+
+        </div>
+    </div>
+</div>
+
+<div class=" fb_reset" id="fb-root"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe src="chowhound_files/44OwK74u0Ie.html" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_http" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fb_xdm_frame_http" frameborder="0"></iframe><iframe src="chowhound_files/44OwK74u0Ie_002.html" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_https" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fb_xdm_frame_https" frameborder="0"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe src="chowhound_files/ping.html" style="display: none;" scrolling="no" allowfullscreen="true" allowtransparency="true" name="f8a9f91273c592" frameborder="0"></iframe></div></div></div>
+
+<script>
+    ss_links = {
+          global:{"href":"http://www.chowstatic.com/s/global-b657b9da20a086703fc7cc2c72275fd6.css", "rel":"stylesheet", "type":"text/css", "media":"screen"},
+              chowhound:{"href":"http://www.chowstatic.com/s/chowhound-4d3120927db1e112340ab2c79c4e3d2f.css", "rel":"stylesheet", "type":"text/css", "media":"screen"}
+        // TODO: add this back in when it contains something: main:{"href":"http://www.chowstatic.com/s/main-dc27e9b430b2019f842b889fac119498.css", "rel":"stylesheet", "type":"text/css", "media":"screen"}
+    };
+
+        ss_links.recipes = {"href":"http://www.chowstatic.com/s/recipes-5dffbd866900d6864c75e6e2cddf96ed.css", "rel":"stylesheet", "type":"text/css", "media":"screen"}
+
+
+    ss_links.print = {"href":"http://www.chowstatic.com/s/chow_print-a08ef331b14a689ebc9fb09821dc2ccd.css", "rel":"stylesheet", "type":"text/css", "media":"print"};
+    ss_links.font_awesome = {"href":"//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css", "rel":"stylesheet"};
+
+    function downloadCSSAtOnload() {
+        for (var prop in ss_links) {
+            var ss = document.createElement("link");
+            for (var subKey in ss_links[prop]) {
+                ss[subKey] = ss_links[prop][subKey];
+            }
+            document.getElementsByTagName("head")[0].appendChild(ss);
+        }
+    };
+    downloadCSSAtOnload();
+</script>
+
+
+
+ <!--[if IE 6]><link href="http://www.chowstatic.com/s/chow_ie6-1b3518585fde9c4946a46e3c99e618bf.css" media="screen" rel="stylesheet" /><![endif]--><!--[if IE 7]><link href="http://www.chowstatic.com/s/chow_ie7-47922b8a4b99bedf1421f6bf2a1bcf82.css" media="screen" rel="stylesheet" /><![endif]--><!--[if IE 8]><link href="http://www.chowstatic.com/s/chow_ie8-5ba9fa74f93594397382c2ee92e48893.css" media="screen" rel="stylesheet" /><![endif]--><!--[if IE]><link href="http://www.chowstatic.com/s/chow_ie9-7fe6de17f2065c55e68757eb861306bc.css" media="screen" rel="stylesheet" /><![endif]-->
+
+<link href="chowhound_files/users-f1840a1de0a885735177849efc37ef7d.css" media="screen" rel="stylesheet">
+
+
+        <style>.is_desktop #sidebar .post_type_icon {top:-28px;}</style>
+        <style>
+.holidays.is_desktop #thanksgiving_banner {
+  zoom: 100% !important;
+}
+</style>
+        <style>
+.skinAd #leader_plus_top_wrapper { position:relative; }
+</style>
+        <style>
+.is_desktop.special_pages .plated_recipe.button { height: 460px; }
+</style>
+        <style>
+#mantle_skin { position:relative; }
+#custom-doc { position:relative; }
+.recipes_show #mantle_skin, .recipes_show_hacked #mantle_skin { position: static; }
+</style>
+
+
+<script type="text/javascript">
+    //Yieldbot.com Intent Tag LOADING
+
+    var ybotq = ybotq || [];
+    (function() {
+        var useSSL = 'https:' == document.location.protocol;
+        var js = document.createElement('script');
+        js.src = (useSSL ? 'https:' : 'http:') + '//cdn.yldbt.com/js/yieldbot.intent.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(js, node);
+    })();
+</script>
+
+<script type="text/javascript">
+document.domain = 'chowhound.com';
+is_mobile = false;
+is_ipad = false;
+is_tablet = false;
+is_prod = true;
+var chow_js_files = chow_js_files || [];
+chowSecureURL = 'https://secure.chowhound.com';
+chowThumbnailerUrl = 'http://search.chow.com/thumbnail'
+var fbApiKey = '0278fc1adf6dc1daf1156f306ce2c5cc';
+var mpu_top, mpu_plus_top, mpu_bottom, leader_plus_top, leader_top, leader_bottom, mantle_skin, intromercial, mobile_banner_top, mobile_flex_0, mobile_flex_1, mobile_flex_bottom;
+var nr_domain = 'www.chow.com'; //nrelate
+var boomtrain_user = "0";  // boomtrain
+var boomtrain_model = "recipe"
+var boomtrain_id = "Recipe-29029"
+var boomtrain_remark_status = ""
+var boomtrain_just_signed_in = ""
+var unconfirmed_user = false;
+var unconfirmed_user_has_already_replied = false;
+    var log_in_url = "https://secure.chowhound.com/users/sign_in?return_to=http%3A%2F%2Fwww.chowhound.com%2Fusers%2Fajax_after_sign_in";
+    var sign_up_url = "https://secure.chowhound.com/users/sign_up?return_to=http%3A%2F%2Fwww.chowhound.com%2Fusers%2Fajax_after_sign_in";
+
+/*!
+ * $script.js Async loader & dependency manager
+ * https://github.com/ded/script.js
+ * (c) Dustin Diaz 2013
+ * License: MIT
+ */
+(function(e,t,n){typeof module!="undefined"&&module.exports?module.exports=n():typeof define=="function"&&define.amd?define(n):t[e]=n()})("$script",this,function(){function v(e,t){for(var n=0,r=e.length;n<r;++n)if(!t(e[n]))return f;return 1}function m(e,t){v(e,function(e){return!t(e)})}function g(e,t,a){function d(e){return e.call?e():r[e]}function b(){if(!--p){r[h]=1,c&&c();for(var e in s)v(e.split("|"),d)&&!m(s[e],d)&&(s[e]=[])}}e=e[l]?e:[e];var f=t&&t.call,c=f?t:a,h=f?e.join(""):t,p=e.length;return setTimeout(function(){m(e,function(e){if(e===null)return b();if(u[e])return h&&(i[h]=1),u[e]==2&&b();u[e]=1,h&&(i[h]=1),y(!n.test(e)&&o?o+e+".js":e,b)})},0),g}function y(n,r){var i=e.createElement("script"),s=f;i.onload=i.onerror=i[d]=function(){if(i[h]&&!/^c|loade/.test(i[h])||s)return;i.onload=i[d]=null,s=1,u[n]=2,r()},i.async=1,i.src=n,t.insertBefore(i,t.firstChild)}var e=document,t=e.getElementsByTagName("head")[0],n=/^https?:\/\//,r={},i={},s={},o,u={},a="string",f=!1,l="push",c="DOMContentLoaded",h="readyState",p="addEventListener",d="onreadystatechange";return!e[h]&&e[p]&&(e[p](c,function b(){e.removeEventListener(c,b,f),e[h]="complete"},f),e[h]="loading"),g.get=y,g.order=function(e,t,n){(function r(i){i=e.shift(),e.length?g(i,r):g(i,t,n)})()},g.path=function(e){o=e},g.ready=function(e,t,n){e=e[l]?e:[e];var i=[];return!m(e,function(e){r[e]||i[l](e)})&&v(e,function(e){return r[e]})?t():!function(e){s[e]=s[e]||[],s[e][l](t),n&&n(i)}(e.join("|")),g},g.done=function(e){g([null],e)},g})
+
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+
+$script('http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', 'jquery', function() {
+    $script('http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js', 'jqueryUI', function() {
+        $script('http://www.googletagservices.com/tag/js/gpt.js', 'ad_scripts', function() {
+            $script('http://www.chowstatic.com/s/main-fd5498dfaf4233160a98041395989e5a.js', 'main');
+            $script('http://www.chowstatic.com/s/freyja/freyja_login-ba9393e3c66ea87b0968568740c6ae24.js', 'freyja_login');
+        });
+    });
+});
+
+    //<!-- Yieldbot.com Intent Tag ACTIVATION -->
+
+    ybotq.push(function () {
+        yieldbot.pub('8abd');
+         yieldbot.defineSlot('leader_plus_top');
+
+         yieldbot.defineSlot('mpu_top');
+         yieldbot.defineSlot('mpu_bottom');
+        yieldbot.enableAsync();
+        yieldbot.go();
+    });
+
+
+//push to chow_js_files[] array for section js dependencies
+    chow_js_files.push( "http://www.chowstatic.com/s/recipes-a9d735fe8f952f1a9ff5e71de0883188.js");
+    chow_js_files.push( "http://images.ziplist.com.s3.amazonaws.com/cn.ads.light.min.js");
+    chow_js_files.push( "http://www.chowstatic.com/s/application-b4191bd030587359c1fae066ea2e4003.js");
+
+
+
+$script.ready('main', function(){
+    if (chow_js_files.length==0) {
+        pageInit();
+    } else {
+        $script(chow_js_files, 'sectionFiles');
+        $script.ready('sectionFiles', function(){pageInit()});
+    }
+});
+
+function pageInit() {
+
+    chow_js.init();
+
+
+
+
+
+
+
+
+    if ($j('.star_icon')[0] && !$j('body.boards')[0]){
+        Debate.follow_discussion_handler();
+    }
+
+    if ($j('.fa_star_icon')[0] && !$j('body.boards')[0]){
+        Debate.fa_follow_discussion_handler();
+    }
+
+        permalink = "http://www.chowhound.com/recipes/thanksgiving-turkey-cake-29029";
+    page_title = "Thanksgiving Turkey Cake Recipe";
+    header_image = "http://www.chowstatic.com/assets/recipe_photos/29029_RES_turkey_cake.jpg";
+    Recipes.init("29029");
+      recipePrint.init();
+    ziplist_init();
+    $j(function(){
+        // add this to the global space so the login modal can call it
+        window.scroll_to_reply_handler = function(){
+            var scroll_to_reply = $j(".scroll_to_reply");
+            var remark_id = embedded_discussion_info.remark_id;
+
+            scroll_to_reply.attr('id', 'remark_' + remark_id + '_reply_to');
+
+            // only scroll to the reply box if the user or the login success handler clicks the link
+            scroll_to_reply.attr('onclick', "Debate.handle_reply_module('"+ remark_id + "', '0', '', 'comment'); return false");
+            scroll_to_reply.click(function(e){
+                e.preventDefault();
+                $j('html, body').animate({scrollTop: $j('.debates.embedded').offset().top -85}, 1000);
+                $j('#remark_content').focus();
+                // don't collapse reply module when this link is clicked again
+                Debate.reply_link_id = null;
+            });
+        }
+    });
+
+
+    var css = '.needs_js { visibility: visible; }',
+        head = document.head || document.getElementsByTagName('head')[0],
+        style = document.createElement('style');
+
+    style.type = 'text/css';
+    if (style.styleSheet){
+        style.styleSheet.cssText = css;
+    } else {
+        style.appendChild(document.createTextNode(css));
+    }
+
+    head.appendChild(style);
+
+        xfp_id = '8264/aw-chowhound/recipes';
+
+        ybotq.push(function () {
+            googletag.cmd.push(function() {
+
+                var env = is_prod ? "production" : "staging"
+
+
+                  leader_plus_top=googletag.defineSlot("8264/aw-chowhound/recipes", [[728,90],[970,66],[728,91],[970,250]], "leader_plus_top").addService(googletag.pubads()).setTargeting("pos", "top")
+                          .setCollapseEmptyDiv(true,true);
+
+                  mpu_top=googletag.defineSlot("8264/aw-chowhound/recipes", [300, 250], "mpu_top").addService(googletag.pubads()).setTargeting("pos", "top");
+
+
+
+                  mpu_bottom=googletag.defineSlot("8264/aw-chowhound/recipes", [300, 250], "mpu_bottom").addService(googletag.pubads()).setTargeting("pos", "bottom");
+
+                  leader_bottom=googletag.defineSlot("8264/aw-chowhound/recipes", [[728,90],[970,66],[728,92]], "leader_bottom").addService(googletag.pubads()).setTargeting("pos", "bottom");
+
+
+                  googletag.defineOutOfPageSlot("8264/aw-chowhound/recipes", "intromercial").addService(googletag.pubads()).setCollapseEmptyDiv(true,true);
+
+                googletag.pubads().setTargeting("ptype", "section_detail");
+                googletag.pubads().setTargeting("loggedin", "0");googletag.pubads().setTargeting("cid", "thanksgiving-turkey-cake");
+                googletag.pubads().setTargeting("env", env);
+                googletag.pubads().setTargeting("vguid", view_tracking_guid);
+                if (chow_js.ftag) {
+                    googletag.pubads().setTargeting("ftag", chow_js.ftag);
+                }
+
+                try {
+                     yieldbot.setSlotTargeting('leader_plus_top',  leader_plus_top);
+
+                     yieldbot.setSlotTargeting('mpu_top',  mpu_top);
+                     yieldbot.setSlotTargeting('mpu_bottom', mpu_bottom);
+
+                } catch (e) {}
+
+                googletag.pubads().enableAsyncRendering();
+                googletag.pubads().enableSingleRequest();
+                googletag.pubads().collapseEmptyDivs();
+                googletag.enableServices();
+
+            });
+        });
+
+        ybotq.push(function () {
+
+
+              googletag.cmd.push(function() { googletag.display("leader_plus_top");});
+
+              googletag.cmd.push(function() { googletag.display("mpu_top");});
+
+
+              googletag.cmd.push(function() { googletag.display("mpu_bottom");});
+
+              googletag.cmd.push(function() { googletag.display("leader_bottom");});
+
+
+              googletag.cmd.push(function() { googletag.display("intromercial");});
+        });
+
+    load_popcart();
+    load_fb();
+
+    load_twitter();
+    load_pinterest();
+    load_boomtrain();
+
+      load_old_crazy_eggs();
+} // end pageInit
+</script>
+
+
+
+<script src="chowhound_files/jquery.js"></script>
+<script defer="defer" src="chowhound_files/plugins-7f462a4f4be0b5e8dc53cdf3e1765009.js"></script>
+<script defer="defer" src="chowhound_files/main_jq2-e108377e7289342d521d38683b40d4ae.js"></script>
+
+  <div class="freyja_overlay close_freyja_login" style="display:none"></div>
+
+<!--CHOW desktop nav-->
+    <div id="freyja_top_nav">
+      <div id="freyja_desknav" class="freyja_desknav freyja_notmobile">
+        <div class="freyja_nwrap">
+          <a href="http://www.chowhound.com/" class="freyja_logo" title="Chowhound.com"><span class="freyja_orangeback"></span></a>
+          <form class="freyja_search" action="http://www.chowhound.com/search" method="get">
+            <div class="freyja_search_bar">
+              <button type="submit" class="freyja_search_button" value="Search"></button>
+              <input placeholder="What are you hungry for?" id="primary_search" name="q" autocomplete="off" type="text">
+            </div>
+          </form>
+          <ul class="freyja_drmenu">
+            <li class="act_menu hide1" data-menu="articles"><a href="http://www.chowhound.com/food-news/">Articles</a></li>
+            <li class="act_menu hide2" data-menu="galleries"><a href="http://www.chowhound.com/pictures">Photos</a></li>
+            <li class="act_menu" data-menu="recipes"><a href="http://www.chowhound.com/recipes">Recipes</a></li>
+            <li class="act_menu" data-menu="discover"><a href="http://www.chowhound.com/browse" class="disc">Browse</a></li>
+            <li><a href="http://www.chowhound.com/post/new" class="newp show_login_box show_login_tab">New Post</a></li>
+              <li><a class="show_login_box show_login_tab" href="http://www.chowhound.com/users/sign_in">Signup / in</a></li>
+            </ul>
+        </div>
+      </div>
+      <div id="freyja_menu_wrap"></div>
+    </div>
+
+
+
+
+<!--CHOW mobile nav-->
+<div id="freyja_mobile" class="freyja_mobilenav freyja_mobile">
+  <div class="freyja_wrap">
+    <a href="http://www.chowhound.com/" class="freyja_logo mobi"></a>
+    <span class="freyja_mnav_open mbt mobile"><i class="fa fa-bars"></i></span>
+    <span class="freyja_mnav_search sbt mobile"><i class="fa fa-search"></i></span>
+  </div>
+</div>
+
+  <div class="fr_mod_wrap">
+    <div class="modal_container">
+      <div class="modal_content">
+        <div id="freyja_login" style="display:none;">
+          <div id="freyja_login_header"><i class="close_freyja_login"></i></div>
+          <iframe id="freyja_login_iframe" frameborder="0" width="945"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+uli = 0;
+ismob = 0;
+</script>
+  <section id="freyja_footer">
+  <div class="freyja_container rela">
+    <div class="freyja_footwrap">
+      <div class="fr_foot_h">
+        <a href="http://www.chowhound.com/" class="freyja_logo" title="chowhound.com"></a>
+        <div class="freyja_mob_follow in_foot">
+          <h3>Follow us!</h3>
+          <ul>
+            <li><a class="freyja_fb" href="https://www.facebook.com/chowhound" target="_blank"></a></li>
+            <li><a class="freyja_tw" href="https://twitter.com/Chow" target="_blank"></a></li>
+            <li><a class="freyja_pi" href="https://www.pinterest.com/chowhound/" target="_blank"></a></li>
+            <li><a class="freyja_in" href="https://instagram.com/chowhound/" target="_blank"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="fr_foot_f freyja_notmobile">
+        <ul class="fr_fcol">
+          <li><a href="http://www.cbsinteractive.com/" target="_blank">About CBS Interactive</a></li>
+          <li><a href="http://www.chowhound.com/about">About Chowhound</a></li>
+          <li><a href="http://www.chowhound.com/about">Contact Us</a></li>
+          <li><a href="http://www.chowhound.com/faq">FAQ</a></li>
+          <li><a href="http://www.chowhound.com/guidelines">Posting Guidelines</a></li>
+          <li><a href="http://www.chowhound.com/feedback">Feedback</a></li>
+        </ul>
+        <ul class="fr_fcol">
+          <li><h4><a href="http://www.chowhound.com/browse">Communities</a></h4></li>
+          <li><a href="http://www.chowhound.com/home-cooking">Home Cooking</a></li>
+          <li><a href="http://www.chowhound.com/spirits">Cocktails &amp; Spirits</a></li>
+          <li><a href="http://www.chowhound.com/cookware">Cookware</a></li>
+          <li><a href="http://www.chowhound.com/restaurants">Restaurants &amp; Bars</a></li>
+          <li><a href="http://www.chowhound.com/vegetarian-vegan">Vegetarian &amp; Vegan</a></li>
+        </ul>
+        <ul class="fr_fcol">
+          <li><h4><a href="http://www.chowhound.com/browse/tags">Popular Post Series</a></h4></li>
+          <li><a href="http://www.chowhound.com/tag/trip-report">Trip Report</a></li>
+          <li><a href="http://www.chowhound.com/tag/dish-of-the-month">Dish of the Month</a></li>
+          <li><a href="http://www.chowhound.com/tag/cookbook-of-the-month">Cookbook of the Month</a></li>
+          <li><a href="http://www.chowhound.com/tag/whats-for-dinner">What's for Dinner</a></li>
+          <li><a href="http://www.chowhound.com/tag/ingredient-substitutions">Ingredient Substitutions</a></li>
+        </ul>
+        <ul class="fr_fcol">
+          <li><h4><a href="http://www.chowhound.com/recipes/">Recipes</a></h4></li>
+          <li><a href="http://www.chowhound.com/recipes/category/healthy">Healthy Recipes</a></li>
+          <li><a href="http://www.chowhound.com/recipes/category/breakfast-brunch">Breakfast and Brunch Recipes</a></li>
+          <li><a href="http://www.chowhound.com/recipes/category/main">Main Dish Recipes</a></li>
+          <li><a href="http://www.chowhound.com/recipes/category/sweet-dessert">Dessert Recipes</a></li>
+          <li><a href="http://www.chowhound.com/recipes/category/drink">Drink Recipes</a></li>
+        </ul>
+        <ul class="fr_fcol">
+          <li><h4><a href="http://www.chowhound.com/food-news/">Articles</a></h4></li>
+          <li><a href="http://www.chowhound.com/food-news/cooking-tips/">Cooking Tips</a></li>
+          <li><a href="http://www.chowhound.com/food-news/the-basics/">The Basics</a></li>
+          <li><a href="http://www.chowhound.com/food-news/food-and-kitchen-hacks/">Food and Kitchen Hacks</a></li>
+          <li><a href="http://www.chowhound.com/food-news/slow-cooker/">Slow Cooker</a></li>
+          <li><a href="http://www.chowhound.com/food-news/nagging-question/">Nagging Question</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="freyja_ff">
+    <div class="freyja_container rela">
+    <div class="freyja_footwrap">
+    © CBS Interactive, All rights reserved | <a href="http://www.tvguide.com/" target="_blank">A TV Guide site</a> | <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/Privacy-Policy-Highlights" target="_blank">Privacy Policy</a> | <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mThird-Party-Online-Advertising" target="_blank">Ad Choice</a> | <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBS-Interactive--Terms-of-Use" target="_blank">Terms of Use</a>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+<div style="bottom: -160px;" class="fr_totop freyja_notmobile"></div>
+
+<div class="freya_beta_menu freyja_notmobile">
+  <h3>Feedback</h3>
+  <ul>
+    <li><a href="http://www.chowhound.com/faq">FAQ</a></li>
+    <li><a href="https://docs.google.com/forms/d/1KjJ_3T1A5a3bWANgcccqcX-R-fMtkP08g439eSVpjjA/viewform">Suggest Tags</a></li>
+    <li><a href="http://www.chowhound.com/feedback">Site Feedback</a></li>
+  </ul>
+</div>
+
+
+
+
+
+<script src="chowhound_files/v60.js" type="text/javascript"></script><div id="ZN_9TPesl2k1zdBytL"></div><div style="display:none !important" class="YAD-INSTR yad-empty"><iframe allowtransparency="true" src="chowhound_files/yad-iframe_003.html" style="display: none;" frameborder="0" height="0" width="100%"></iframe></div><iframe src="chowhound_files/iframe.html" style="display: none;"></iframe><iframe src="chowhound_files/dest4.html" style="display: none; width: 0px; height: 0px;" id="destination_publishing_iframe_cbsi_0"></iframe><iframe src="chowhound_files/dest4_002.html" style="display: none; width: 0px; height: 0px;" id="destination_publishing_iframe_condenast_0"></iframe></body></html>

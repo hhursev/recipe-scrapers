@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="https://www.101cookbooks.com/xmlrpc.php">
+		<title>Blood Orange Gin Sparkler | 101 Cookbooks</title><style id="rocket-critical-css">.wp-block-media-text .wp-block-media-text__media{grid-area:media-text-media;margin:0}.wp-block-media-text .wp-block-media-text__content{word-break:break-word;grid-area:media-text-content;padding:0 8%}h1,h4,h5,p,ul{margin-top:0}p,ul{margin-bottom:1rem}body{text-align:left}h1,h4,h5{margin-bottom:.5rem}article,header,main,nav,section{display:block}button,input{overflow:visible}.dropdown-menu,.nav,.navbar-nav{list-style:none}:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#007bff;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}*,::after,::before{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar}@-ms-viewport{width:device-width}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;background-color:#fff}a{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}img{vertical-align:middle;border-style:none}svg:not(:root){overflow:hidden}button{border-radius:0}button,input{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button{text-transform:none}[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none}.dropdown-item,.navbar-brand{white-space:nowrap}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}h1,h4,h5{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit}h1{font-size:2.5rem}h4{font-size:1.5rem}h5{font-size:1.25rem}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}.dropdown-item{font-weight:400}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.no-gutters{margin-right:0;margin-left:0}.no-gutters>[class*=col-]{padding-right:0;padding-left:0}.col-lg-4,.col-lg-8,.col-sm-12,.col-xl-4{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px}@media (min-width:576px){.col-sm-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}}@media (min-width:992px){.col-lg-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}.col-lg-8{-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%}}@media (min-width:1200px){.col-xl-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}}.dropdown{position:relative}.collapse:not(.show){display:none}.dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;display:none;float:left;min-width:10rem;padding:.5rem 0;margin:.125rem 0 0;font-size:1rem;color:#212529;text-align:left;background-color:#fff;background-clip:padding-box;border:1px solid rgba(0,0,0,.15);border-radius:.25rem}.nav{margin-bottom:0}.dropdown-item{display:block;width:100%;padding:.25rem 1.5rem;clear:both;color:#212529;text-align:inherit;background-color:transparent;border:0}.nav,.navbar{display:-ms-flexbox;-ms-flex-wrap:wrap}.nav{display:flex;flex-wrap:wrap;padding-left:0}.nav-link,.navbar{padding:.5rem 1rem}.nav-link{display:block}.navbar{position:relative;display:flex;flex-wrap:wrap;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between}.navbar-brand{display:inline-block;padding-top:.3125rem;padding-bottom:.3125rem;margin-right:1rem;font-size:1.25rem;line-height:inherit}.navbar-nav{display:-ms-flexbox}.navbar-nav{display:flex;-ms-flex-direction:column;flex-direction:column;padding-left:0;margin-bottom:0}.navbar-nav .nav-link{padding-right:0;padding-left:0}.navbar-nav .dropdown-menu{position:static;float:none}.navbar-collapse{-ms-flex-preferred-size:100%;flex-basis:100%;-ms-flex-positive:1;flex-grow:1;-ms-flex-align:left;align-items:left}.navbar-toggler{padding:.25rem .75rem;font-size:1.25rem;line-height:1;background-color:transparent;border:1px solid transparent;border-radius:.25rem}@media (min-width:992px){.navbar-expand-lg{-ms-flex-flow:row nowrap;flex-flow:row nowrap;-ms-flex-pack:start;justify-content:flex-start}.navbar-expand-lg .navbar-nav{-ms-flex-direction:row;flex-direction:row}.navbar-expand-lg .navbar-nav .dropdown-menu{position:absolute}.navbar-expand-lg .navbar-nav .nav-link{padding-right:.5rem;padding-left:.5rem}.navbar-expand-lg .navbar-collapse{display:-ms-flexbox!important;display:flex!important;-ms-flex-preferred-size:auto;flex-basis:auto}.navbar-expand-lg .navbar-toggler{display:none}}.d-flex{display:-ms-flexbox!important;display:flex!important}.d-inline-flex{display:-ms-inline-flexbox!important;display:inline-flex!important}@media (min-width:992px){.d-lg-flex{display:-ms-flexbox!important;display:flex!important}}@media (min-width:1200px){.d-xl-flex{display:-ms-flexbox!important;display:flex!important}}.flex-row{-ms-flex-direction:row!important;flex-direction:row!important}.flex-wrap{-ms-flex-wrap:wrap!important;flex-wrap:wrap!important}.justify-content-center{-ms-flex-pack:center!important;justify-content:center!important}.align-items-center{-ms-flex-align:center!important;align-items:center!important}.fixed-top{position:fixed;right:0;left:0;z-index:1030}.fixed-top{top:0}body{margin:0}article,header,main,nav,section{display:block}a{background-color:transparent}img{border:0}svg:not(:root){overflow:hidden}button{overflow:visible}button{text-transform:none}button,input[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}body{background:#fff}img{height:auto;max-width:100%}.navbar-brand{height:auto}@media screen and (max-width:991px){.navbar-nav .dropdown-menu{border:medium none;margin-left:1.250rem;padding:0}}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden;word-wrap:normal!important}.site-content:before,.site-content:after{content:"";display:table;table-layout:fixed}.site-content:after{clear:both}#content.site-content{padding-bottom:3.75rem;max-width:1140px;margin:auto}@media (min-width:1024px){#content.site-content{padding-top:2rem}}.navbar-collapse{-ms-flex-align:left!important;align-items:left!important}h1,h4,h5,p,ul{margin-top:0}p,ul{margin-bottom:1rem}h1,h4,h5{margin-bottom:.5rem}.navbar-brand{line-height:inherit}button,input{overflow:visible}.dropdown{position:relative}.dropdown-menu{text-align:left}article,header,main,nav,section{display:block}html{box-sizing:border-box;font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar}*,::after,::before{box-sizing:inherit}@-ms-viewport{width:device-width}body{margin:0;font-family:'Libre Franklin',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:1rem;font-weight:400;line-height:1.5;color:#212529;background-color:#fff}@font-face{font-family:schroedersdiet;src:url(https://www.101cookbooks.com/wp-content/themes/101cookbooks/inc/assets/fonts/schroeder-regular-webfont.woff2) format("woff2"),url(https://www.101cookbooks.com/wp-content/themes/101cookbooks/inc/assets/fonts/schroeder-regular-webfont.woff) format("woff");font-weight:400;font-style:normal}a{text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}img{vertical-align:middle;border-style:none}svg:not(:root){overflow:hidden}[role=button],a,button,input{-ms-touch-action:manipulation;touch-action:manipulation}button,input{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button{text-transform:none}[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}h1,h4,h5{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.1;color:inherit}h1{font-size:2.5rem}h4{font-size:1.5rem}h5{font-size:1.25rem}.container{margin-right:auto;margin-left:auto;padding-right:15px;padding-left:15px;width:100%}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:1023px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.no-gutters{margin-right:0;margin-left:0}.no-gutters>[class*=col-]{padding-right:0;padding-left:0}.col-lg-4,.col-lg-8,.col-sm-12,.col-xl-4{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px}@media (min-width:576px){.col-sm-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}}@media (min-width:1024px){.col-lg-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}.col-lg-8{-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%}}@media (min-width:1200px){.col-xl-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}}.collapse{display:none}.dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;display:none;float:left;min-width:10rem;padding:.5rem 0;margin:.125rem 0 0;font-size:1rem;color:#212529;list-style:none;background-color:#fff;background-clip:padding-box;border:1px solid rgba(0,0,0,.15);border-radius:.25rem}.mx-auto{margin-right:auto!important}.mx-auto{margin-left:auto!important}.dropdown-item{display:block;width:100%;padding:.25rem 1.5rem;clear:both;font-weight:400;color:#212529;text-align:inherit;white-space:nowrap;background:0 0;border:0}.nav,.navbar{display:-ms-flexbox;-ms-flex-wrap:wrap}.nav,.navbar-nav{margin-bottom:0;list-style:none}.nav{display:flex;flex-wrap:wrap;padding-left:0}.nav-link,.navbar{padding:.5rem 1rem}.nav-link{display:block}.navbar{position:relative;display:flex;flex-wrap:wrap;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between}.navbar-brand{display:inline-block;padding-top:.3125rem;padding-bottom:.3125rem;margin-right:1rem;font-size:1.25rem;white-space:nowrap}.navbar-nav{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;padding-left:0}.navbar-nav .nav-link{padding-right:0;padding-left:0}.navbar-nav .dropdown-menu{position:static;float:none}.navbar-collapse{-ms-flex-preferred-size:100%;flex-basis:100%;-ms-flex-align:left;align-items:left}.navbar-toggler{padding:.25rem .75rem;font-size:1.25rem;line-height:1;background:0 0;border:1px solid transparent;border-radius:.25rem}@media (min-width:1024px){.navbar-expand-lg{-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-ms-flex-pack:start;justify-content:flex-start}.navbar-expand-lg .navbar-nav{-ms-flex-direction:row;flex-direction:row}.navbar-expand-lg .navbar-nav .dropdown-menu{position:absolute}.navbar-expand-lg .navbar-nav .nav-link{padding-right:.5rem;padding-left:.5rem}.navbar-expand-lg .navbar-collapse{display:-ms-flexbox!important;display:flex!important}.navbar-expand-lg .navbar-toggler{display:none}.navbar-collapse{flex-basis:auto}}.fixed-top{position:fixed;right:0;left:0;z-index:1030}.flex-row{-ms-flex-direction:row!important;flex-direction:row!important}.flex-wrap{-ms-flex-wrap:wrap!important;flex-wrap:wrap!important}.justify-content-center{-ms-flex-pack:center!important;justify-content:center!important}.align-items-center{-ms-flex-align:center!important;align-items:center!important}@media (min-width:1024px){.flex-lg-column{-ms-flex-direction:column!important;flex-direction:column!important}}@media (min-width:1200px){.flex-xl-column{-ms-flex-direction:column!important;flex-direction:column!important}}.fixed-top{top:0}.navbar-toggler{margin-left:1rem;margin-top:-.5rem}button.navbar-toggler{position:relative}.navbar-toggler span{display:block;background-color:#181818;height:3px;width:25px;margin-top:4px;margin-bottom:4px;-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);transform:rotate(0);position:relative;left:0;opacity:1}a:link{color:#212121;border-bottom:2px solid #000;font-weight:500;text-decoration:none}a:visited{color:#212121;border-bottom:2px solid #dedede}.navbar{min-height:3.5rem}.navbar a:link{border-bottom:0}a.nav-link.plustoggle[aria-expanded="false"]{color:#000}a.nav-link.plustoggle[aria-expanded="false"] span.minusopen{display:none}span.plusclosed,span.minusopen{font-weight:700}ul.nav.navbar-nav{margin-left:2rem;margin-top:1.6rem}.navbar{background-color:rgba(255,255,255,.97);border-bottom:1px solid gray}.maincontent{top:3.6rem}.maincontent p{margin:1.4rem 1.8rem;font-size:.96rem;line-height:1.7rem;letter-spacing:.015rem}.maincontent h1{margin:1.2rem 1.8rem -.4rem;line-height:2.2rem;font-family:"schroedersdiet","Georgia",serif;text-align:left;font-size:1.9rem}a.navbar-brand{border:0;margin-right:.6rem}#logo{margin-right:1rem}#logo svg{width:13rem;height:auto}.addsearch{width:16rem;margin-top:2rem}input.addsearch{border-color:#979797!important;border-radius:.2rem;min-height:2.2rem;border:1px solid}input.addsearch{font-size:16px;background-color:#fff;background-image:url(https://www.101cookbooks.com/wp-content/themes/101cookbooks/inc/assets/images/search.svg);background-repeat:no-repeat;background-position:95% 50%}nav h5{font-family:'Libre Franklin',Helvetica,sans-serif;font-weight:100;font-size:1.2rem}div.extendednav{display:none}a.nav-link{font-size:1.12rem;font-weight:300}.mainimagewide img,.entrybody img{display:block;height:auto;max-width:100%;border:0}.entrybody p img{margin:auto}.categorylist .dropdown-item,.ingredientlist .dropdown-item{width:30%;padding:.55rem 1.5rem}.seasons .dropdown-item{width:45%;padding:.55rem 1.5rem}.mobilefollow{margin-bottom:2rem}.mobilefollow .followlink{font-size:.75rem;padding-right:1rem}.mobilefollow h5{margin-left:2rem}@media (max-width:320px){#logo{margin-right:0}#logo svg{width:11rem}.categorylist .dropdown-item,.ingredientlist .dropdown-item{width:45%!important}}@media (max-width:414px){.container{padding:0}a.nav-link{font-size:1.3rem}#collapsingNavbar{overflow:scroll;height:90vh}.categorylist .dropdown-item,.ingredientlist .dropdown-item{width:32%;font-size:.75rem}.seasons .dropdown-item{width:45%;font-size:.75rem}.addsearch{margin-top:2rem;padding-left:1rem;margin-left:1rem}.sociallinks{justify-content:left!important;margin-left:2rem}.heidiphotodiv{display:none}}@media (max-width:812px){#collapsingNavbar{overflow:scroll;height:90vh}.sociallinks{justify-content:left!important;margin-left:2rem}.addsearch{margin-top:2rem;padding-left:1rem;margin-left:2rem!important}}@media (min-width:415px){.container{padding:0}.navbar-toggler{margin-left:2rem}#logo{margin-right:2rem}.addsearch{margin:auto;margin-top:2rem}}@media (min-width:768px) and (max-width:1023px){div.container{max-width:680px}.categorylist .dropdown-item,.ingredientlist .dropdown-item{width:25%}.seasons .dropdown-item{width:45%}.addsearch{margin-left:2rem;margin-top:2rem}.sociallinks{justify-content:left!important;margin-left:2rem}}@media (min-width:1024px){.container{margin-top:0rem}.addsearch{margin-left:.4rem;margin-right:0;margin-top:2rem}.fixed-top{position:relative!important}.navbar{background-color:transparent;padding-top:0;border-bottom:0}div#logo{margin-top:-.5rem;margin-right:0;margin-left:.8rem}.maincontent{max-width:43rem}.maincontent p{margin:1.4rem 1.8rem;font-size:.96rem;line-height:1.7rem;letter-spacing:.015rem}.heidiphotodiv{background-size:260px 260px;width:260px;height:260px;background-image:url(https://images.101cookbooks.com/heidi.swanson.101cookbooks.sq.jpg?w=580&auto=format)}nav h4{text-align:left}#logo{width:100%}#collapsingNavbar{overflow:visible;height:auto;flex-direction:column;align-items:left;width:100%}div.dropdown{width:auto;border:0;background:none;margin-top:1px}ul.nav.navbar-nav{margin-left:0}.maincontent{top:0}#collapsingNavbar .sectiondivide{display:none}div.extendednav{margin-top:3rem;display:block!important}.mobilefollow{display:none}}.d-flex{display:-ms-flexbox!important;display:flex!important}.d-inline-flex{display:-ms-inline-flexbox!important;display:inline-flex!important}@media (min-width:1024px){.d-lg-flex{display:-ms-flexbox!important;display:flex!important}}@media (min-width:1200px){.d-xl-flex{display:-ms-flexbox!important;display:flex!important}}.navbar-collapse{-ms-flex-preferred-size:100%;flex-basis:100%;-ms-flex-positive:1;flex-grow:1;-ms-flex-align:left!important;align-items:left!important}@supports ((position:-webkit-sticky) or (position:sticky)){.sticky-topposition:-webkit-sticky;position:sticky;top:0;z-index:1020}.heidiico img{height:45px;width:45px}h4{font-weight:100;text-align:center;font-size:1.7rem;line-height:1.6rem;margin-bottom:2rem}h5{font-family:schroedersdiet,Georgia,Times,"Times New Roman",serif;text-align:left;font-size:1.6rem;letter-spacing:.01rem;line-height:2rem}.ebookbanner .joininput{display:none}.freeebook{max-width:250px}.freeebooksm{visibility:hidden;height:0}.weeknightcov{max-width:175px;filter:drop-shadow(0px 3px 3px #777)}.infoblock img{margin:auto}@media (max-width:736px){.freeebooksm{max-width:49%;visibility:visible;height:auto;margin-left:15px}.freeebook{display:none}.weeknightcov{max-width:44%}}.sectiondivide{border-top:double #979797;margin-top:2rem;margin-bottom:2rem;min-height:.24rem;display:flex;align-items:center;justify-content:center;clear:both}#commentspost input{background-color:#F5F5F5;border-color:#E8E8E8;border-radius:.2rem;font-size:.8rem}@media (min-width:415px){.maincontent h1{font-size:2.6rem;line-height:2.8rem;text-align:center}}.ssba-share-text{font-size:12px;font-weight:400;font-family:inherit}.ssbp-wrap *{box-sizing:border-box}.ssbp-text{display:none}.ssba-share-text{display:none}.entrybody p img{margin-top:1.4rem}input.addsearch::-ms-clear{visibility:hidden}</style><link rel="preload" href="https://www.101cookbooks.com/wp-content/cache/min/1/a556b7ad31c5486935957c5c4226c656.css" as="style" onload="this.onload=null;this.rel='stylesheet'" data-minify="1" />
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v12.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="The citrus gin sparkler you want to be drinking."/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://www.101cookbooks.com/blood-orange-gin-sparkler/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Blood Orange Gin Sparkler | 101 Cookbooks" />
+<meta property="og:description" content="The citrus gin sparkler you want to be drinking." />
+<meta property="og:url" content="https://www.101cookbooks.com/blood-orange-gin-sparkler/" />
+<meta property="og:site_name" content="101 Cookbooks" />
+<meta property="article:publisher" content="https://www.facebook.com/101cookbooks/" />
+<meta property="article:section" content="Drink Recipes" />
+<meta property="article:published_time" content="2018-12-28T16:31:24+00:00" />
+<meta property="article:modified_time" content="2018-12-29T17:50:28+00:00" />
+<meta property="og:updated_time" content="2018-12-29T17:50:28+00:00" />
+<meta property="og:image" content="https://images.101cookbooks.com/gin_sparkler.jpg?w=680" />
+<meta property="og:image:secure_url" content="https://images.101cookbooks.com/gin_sparkler.jpg?w=680" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="The citrus gin sparkler you want to be drinking." />
+<meta name="twitter:title" content="Blood Orange Gin Sparkler | 101 Cookbooks" />
+<meta name="twitter:site" content="@101cookbooks" />
+<meta name="twitter:image" content="https://images.101cookbooks.com/gin_sparkler.jpg?w=680" />
+<meta name="twitter:creator" content="@101cookbooks" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.101cookbooks.com/#website","url":"https://www.101cookbooks.com/","name":"101 Cookbooks","potentialAction":{"@type":"SearchAction","target":"https://www.101cookbooks.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://www.101cookbooks.com/blood-orange-gin-sparkler/#primaryimage","url":"https://images.101cookbooks.com/gin-sparkler-recipe-v.jpg?w=620&amp;auto=format"},{"@type":"WebPage","@id":"https://www.101cookbooks.com/blood-orange-gin-sparkler/#webpage","url":"https://www.101cookbooks.com/blood-orange-gin-sparkler/","inLanguage":"en-US","name":"Blood Orange Gin Sparkler | 101 Cookbooks","isPartOf":{"@id":"https://www.101cookbooks.com/#website"},"primaryImageOfPage":{"@id":"https://www.101cookbooks.com/blood-orange-gin-sparkler/#primaryimage"},"datePublished":"2018-12-28T16:31:24+00:00","dateModified":"2018-12-29T17:50:28+00:00","author":{"@id":"https://www.101cookbooks.com/#/schema/person/35ff2518fa75cc01e9be68895cd07f81"},"description":"The citrus gin sparkler you want to be drinking."},{"@type":["Person"],"@id":"https://www.101cookbooks.com/#/schema/person/35ff2518fa75cc01e9be68895cd07f81","name":"Heidi Swanson","sameAs":[]}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//ws.sharethis.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//addsearch.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//app.addsearch.com' />
+<link rel='dns-prefetch' href='//d20vwa69zln1wj.cloudfront.net' />
+<link rel="alternate" type="application/rss+xml" title="101 Cookbooks &raquo; Feed" href="https://www.101cookbooks.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="101 Cookbooks &raquo; Blood Orange Gin Sparkler Comments Feed" href="https://www.101cookbooks.com/blood-orange-gin-sparkler/feed" />
+		<style type="text/css">
+				</style>
+
+
+
+<link rel='preload' id='simple-share-buttons-adder-font-awesome-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css?ver=5.2.1' as="style" onload="this.onload=null;this.rel='stylesheet'" type='text/css' media='all' />
+
+
+
+
+
+<link rel='preload' id='addsearch-css-css'  href='https://app.addsearch.com/www/script/v3/1.css?r=0.05334717140654033&#038;ver=5.2.1' as="style" onload="this.onload=null;this.rel='stylesheet'" type='text/css' media='all' />
+<link rel='preload' id='addsearch-css2-css'  href='https://d20vwa69zln1wj.cloudfront.net/b66f14cd9ae96c35951916ed27a428bc/css/15.css?ver=5.2.1' as="style" onload="this.onload=null;this.rel='stylesheet'" type='text/css' media='all' />
+
+
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://www.101cookbooks.com/wp-content/themes/101cookbooks/inc/assets/js/html5.js?ver=3.7.0'></script>
+<![endif]-->
+<link rel='https://api.w.org/' href='https://www.101cookbooks.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.101cookbooks.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.101cookbooks.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 5.2.1" />
+<link rel='shortlink' href='https://www.101cookbooks.com/?p=5352' />
+<style type="text/css">
+	a.pinit-button.custom span {
+	background-image: url("https://www.101cookbooks.com/wp-content/uploads/2018/05/pinterest-button25-1.svg");	}
+
+	.pinit-hover {
+		opacity: 0.8 !important;
+		filter: alpha(opacity=80) !important;
+	}
+	a.pinit-button {
+	border-bottom: 0 !important;
+	box-shadow: none !important;
+	margin-bottom: 0 !important;
+}
+a.pinit-button::after {
+    display: none;
+}</style>
+
+<style>
+.pom-small-grey {
+	background-image: url('/mt-static/images/2018/print.svg');
+   	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+stroke: #666;
+margin-top:-1px;
+
+}
+</style>
+<style type="text/css">
+.sfs-subscriber-count, .sfs-count, .sfs-count span, .sfs-stats { -webkit-box-sizing: initial; -moz-box-sizing: initial; box-sizing: initial; }
+.sfs-subscriber-count { width: 88px; overflow: hidden; height: 26px; color: #424242; font: 9px Verdana, Geneva, sans-serif; letter-spacing: 1px; }
+.sfs-count { width: 86px; height: 17px; line-height: 17px; margin: 0 auto; background: #ccc; border: 1px solid #909090; border-top-color: #fff; border-left-color: #fff; }
+.sfs-count span { display: inline-block; height: 11px; line-height: 12px; margin: 2px 1px 2px 2px; padding: 0 2px 0 3px; background: #e4e4e4; border: 1px solid #a2a2a2; border-bottom-color: #fff; border-right-color: #fff; }
+.sfs-stats { font-size: 6px; line-height: 6px; margin: 1px 0 0 1px; word-spacing: 2px; text-align: center; text-transform: uppercase; }
+</style>
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<style type='text/css'>img#wpstats{display:none}</style>    <style type="text/css">
+        #page-sub-header { background: #fff; }
+    </style>
+    		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<link rel="icon" href="https://www.101cookbooks.com/wp-content/uploads/2018/05/cropped-101fav-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.101cookbooks.com/wp-content/uploads/2018/05/cropped-101fav-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.101cookbooks.com/wp-content/uploads/2018/05/cropped-101fav-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.101cookbooks.com/wp-content/uploads/2018/05/cropped-101fav-1-270x270.png" />
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><script>
+/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+(function(w){"use strict";if(!w.loadCSS){w.loadCSS=function(){}}
+var rp=loadCSS.relpreload={};rp.support=(function(){var ret;try{ret=w.document.createElement("link").relList.supports("preload")}catch(e){ret=!1}
+return function(){return ret}})();rp.bindMediaToggle=function(link){var finalMedia=link.media||"all";function enableStylesheet(){link.media=finalMedia}
+if(link.addEventListener){link.addEventListener("load",enableStylesheet)}else if(link.attachEvent){link.attachEvent("onload",enableStylesheet)}
+setTimeout(function(){link.rel="stylesheet";link.media="only x"});setTimeout(enableStylesheet,3000)};rp.poly=function(){if(rp.support()){return}
+var links=w.document.getElementsByTagName("link");for(var i=0;i<links.length;i++){var link=links[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"&&!link.getAttribute("data-loadcss")){link.setAttribute("data-loadcss",!0);rp.bindMediaToggle(link)}}};if(!rp.support()){rp.poly();var run=w.setInterval(rp.poly,500);if(w.addEventListener){w.addEventListener("load",function(){rp.poly();w.clearInterval(run)})}else if(w.attachEvent){w.attachEvent("onload",function(){rp.poly();w.clearInterval(run)})}}
+if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}
+else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-283587-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-283587-2');
+</script>
+<!-- AdThrive Head Tag -->
+<script>
+window.adthrive = window.adthrive || {};
+window.adthrive.cmd = window.adthrive.cmd || [];
+window.adthrive.host = 'ads.adthrive.com';
+
+(function() {
+var script = document.createElement('script');
+script.async = true;
+script.type = 'text/javascript';
+script.src = document.location.protocol + '//' + window.adthrive.host + '/sites/58c84698158f6c10ae8b6afa/ads.min.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(script, node);
+})();
+</script><!-- End AdThrive Head Tag -->
+
+
+		<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '563725193994362');
+fbq('track', 'PageView');
+</script><noscript>
+ <img height="1" width="1"
+src="https://www.facebook.com/tr?id=563725193994362&ev=PageView
+&noscript=1"/>
+</noscript><!-- End Facebook Pixel Code -->
+
+
+</head>
+<body id="5352">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+	<div id="content" class="site-content">
+		<div class="container">
+			<div class="row mx-auto no-gutters">
+             <nav class="d-lg-flex flex-lg-column col-lg-4 col-xl-4 d-xl-flex fixed-top flex-xl-column navbar navbar-expand-lg navbar-toggleable-sm"><button aria-label="site navigation button" class="collapsed navbar-toggler navbar-toggler-right" data-target="#collapsingNavbar" data-toggle=collapse type=button><span></span> <span></span> <span></span></button> <div id="logo"><a href="https://www.101cookbooks.com/" class="navbar-brand" rel=home title="101 Cookbooks"><svg viewBox="68.5 85.8 383 45.7" width="13rem" xmlns="http://www.w3.org/2000/svg"><title>101 Cookbooks logo</title><path d="M76.4 100.3c0-2.4 0-5.3-0.1-8.6l5.2-1.3c-0.2 7.9-0.3 14.8-0.3 20.7 0 4.4 0 9 0.3 13.9h-5.4C76.3 119.7 76.4 111.4 76.4 100.3z"/><path d="M90.1 110.2c0-7 2.4-11.7 8-16.2 2.9-2.4 5.8-3.6 8.9-3.6 3.2 0 6.1 1.1 8.3 2.9 3.7 3.2 5.9 8 5.9 13.5 0 5.3-2.1 10-5.8 13.4 -3.8 3.6-7.2 5.7-11.1 5.7C96.1 125.9 90.1 119.7 90.1 110.2zM114.4 119.2c1.3-2.3 2.1-5.3 2.1-8.7 0-9.6-5.2-15.6-12.9-15.6 -3.4 0-6 1.1-6.7 2.3 -1.4 2.1-2.5 5.9-2.5 9.8 0 8.5 5.9 14.6 13.4 14.6C111.1 121.6 113.6 120.4 114.4 119.2z"/><path d="M130 100.3c0-2.4 0-5.3-0.1-8.6l5.2-1.3c-0.2 7.9-0.3 14.8-0.3 20.7 0 4.4 0 9 0.3 13.9h-5.4C129.9 119.7 130 111.4 130 100.3z"/><path d="M188.7 120.1c-4.8 3.4-7.5 5.9-11.3 5.9 -9.4 0-15.3-6.3-15.3-16 0-6.5 2.8-11.9 8.1-15.6 3.5-2.5 6.4-3.9 10-3.9 2.7 0 5.3 0.8 7.6 2.3l-3.4 4.1c-2.4-1.5-4.8-2.2-7.8-2.2 -3.2 0-5.6 0.8-6.4 1.4 -2.4 2-4.1 6-4.1 10.7 0 8.6 5.9 14.7 14.5 14.7 2.8 0 5.2-0.8 7.3-2.3L188.7 120.1z"/><path d="M193 110.2c0-7 2.4-11.7 8-16.2 2.9-2.4 5.8-3.6 8.9-3.6 3.2 0 6.1 1.1 8.3 2.9 3.7 3.2 5.9 8 5.9 13.5 0 5.3-2.1 10-5.8 13.4 -3.8 3.6-7.2 5.7-11.1 5.7C199 125.9 193 119.7 193 110.2zM217.3 119.2c1.3-2.3 2.1-5.3 2.1-8.7 0-9.6-5.2-15.6-12.9-15.6 -3.4 0-6 1.1-6.7 2.3 -1.4 2.1-2.5 5.9-2.5 9.8 0 8.5 5.9 14.6 13.4 14.6C214 121.6 216.5 120.4 217.3 119.2z"/><path d="M230 110.2c0-7 2.4-11.7 8-16.2 2.9-2.4 5.8-3.6 8.9-3.6 3.2 0 6.1 1.1 8.3 2.9 3.7 3.2 5.9 8 5.9 13.5 0 5.3-2.1 10-5.8 13.4 -3.8 3.6-7.2 5.7-11.1 5.7C236 125.9 230 119.7 230 110.2zM254.3 119.2c1.3-2.3 2.1-5.3 2.1-8.7 0-9.6-5.2-15.6-12.9-15.6 -3.4 0-6 1.1-6.7 2.3 -1.4 2.1-2.5 5.9-2.5 9.8 0 8.5 5.9 14.6 13.4 14.6C251.1 121.6 253.6 120.4 254.3 119.2z"/><path d="M268.8 108.2c0-6 0-11.7-0.3-17l5.8-0.2c-0.2 5.3-0.3 11.1-0.3 17.3l9-12c1.4-1.9 2.7-3.6 3.6-5l4-0.2 -12.5 15.9 13.2 16.4 -5.1 2.6c-3-4.2-5.1-7.1-6.3-8.6l-5.8-7.2h-0.2c0 4.3 0.1 9.3 0.3 14.9l-5.8 0.2C268.8 119.9 268.8 114.2 268.8 108.2z"/><path d="M298 108.2c0-6-0.1-11.7-0.3-17 5.3-0.1 8.4-0.2 9.1-0.2 3.7 0 6.2 0.3 7.8 1.2 2.3 1.4 3.5 3.6 3.5 6 0 3.7-2.3 6.8-6.9 8.9 5 1.2 7.6 4.2 7.6 8.1 0 5.7-5 9.9-13.1 9.9 -0.6 0-3.3-0.2-8-0.2C297.9 119.8 298 114.2 298 108.2zM305.9 106.4c1.1 0 2.3 0.1 3.6 0.4 2.4-1.6 3.7-3.8 3.7-6.4 0-4.1-2.8-6.5-7.9-6.5 -0.8 0-1.6 0-2.4 0.1v14.8L305.9 106.4zM308.5 123.3c0.4 0 0.8 0 1.3-0.1 2.4-1.6 3.6-3.9 3.6-6.7 0-4.3-3.6-7.1-10-7.1 -0.2 0-0.4 0-0.6 0V122.2C305.4 122.9 307.3 123.3 308.5 123.3z"/><path d="M325.1 110.2c0-7 2.4-11.7 8-16.2 2.9-2.4 5.8-3.6 8.9-3.6 3.2 0 6.1 1.1 8.3 2.9 3.7 3.2 5.9 8 5.9 13.5 0 5.3-2.1 10-5.8 13.4 -3.8 3.6-7.2 5.7-11.1 5.7C331.1 125.9 325.1 119.7 325.1 110.2zM349.3 119.2c1.3-2.3 2.1-5.3 2.1-8.7 0-9.6-5.2-15.6-12.9-15.6 -3.4 0-6 1.1-6.7 2.3 -1.4 2.1-2.5 5.9-2.5 9.8 0 8.5 5.9 14.6 13.4 14.6C346.1 121.6 348.6 120.4 349.3 119.2z"/><path d="M362.1 110.2c0-7 2.4-11.7 8-16.2 2.9-2.4 5.8-3.6 8.9-3.6 3.2 0 6.1 1.1 8.3 2.9 3.7 3.2 5.9 8 5.9 13.5 0 5.3-2.1 10-5.8 13.4 -3.8 3.6-7.2 5.7-11.1 5.7C368.1 125.9 362.1 119.7 362.1 110.2zM386.3 119.2c1.3-2.3 2.1-5.3 2.1-8.7 0-9.6-5.2-15.6-12.9-15.6 -3.4 0-6 1.1-6.7 2.3 -1.4 2.1-2.5 5.9-2.5 9.8 0 8.5 5.9 14.6 13.4 14.6C383.1 121.6 385.6 120.4 386.3 119.2z"/><path d="M400.9 108.2c0-6 0-11.7-0.3-17l5.8-0.2c-0.2 5.3-0.3 11.1-0.3 17.3l9-12c1.4-1.9 2.7-3.6 3.6-5l4-0.2 -12.5 15.9 13.2 16.4 -5.1 2.6c-3-4.2-5.1-7.1-6.3-8.6l-5.8-7.2h-0.2c0 4.3 0.1 9.3 0.3 14.9l-5.8 0.2C400.8 119.9 400.9 114.2 400.9 108.2z"/><path d="M433 118c1.7 2.9 3.6 4.2 6.5 4.2 0.5 0 1 0 1.4-0.1 0.8-1.3 1.2-2.9 1.2-4.8 0-3.6-1.8-4.8-5.5-6.6 -1.8-0.8-3.7-1.5-5.4-3.2 -1.5-1.5-2.2-3.5-2.2-5.8 0-3.5 1.5-6.5 4.7-9.2 1.5-1.2 3.9-2.2 6.1-2.2 2.5 0 4.8 1.4 6.4 4.2l-4.2 2.9c-1.7-2.4-3.6-3.6-6-3.6 -0.6 0-1.3 0.1-2.2 0.3 -0.9 1-1.3 2.4-1.3 4.2 0 2.4 1.6 4.7 4.5 6.2 2.5 1.3 4.7 2.1 6 3.2 1.9 1.6 2.9 3.7 2.9 6.2 0 3.6-1.4 6.7-4.2 9.1 -2 1.8-4.6 2.8-6.7 2.8 -2.8 0-5.2-1.7-6.7-5L433 118z"/></svg></a></div>
+
+	<div class="collapse navbar-collapse" id="collapsingNavbar">
+		<ul class="d-lg-flex flex-lg-column nav navbar-nav">
+			<li class="dropdown nav-item">
+				<div class="dropdown">
+					<a href=# class="nav-link plustoggle" aria-expanded=false aria-haspopup=true data-toggle=dropdown role=button>Categories <span class="plusclosed">+</span><span class="minusopen">-</span></a>
+
+				<div class="dropdown-menu categorylist" aria-labelledby=dropdownMenuLink>
+					<div class="d-flex flex-wrap">
+						<div class="dropdown-item"><a href="https://www.101cookbooks.com/whole_grain_recipes">Whole Grain</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/wfpb">WFPB</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/vegetarian_recipes">Vegetarian</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/vegan_recipes">Vegan</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/soups">Soups</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/sides">Side Dishes</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/sandwiches">Sandwiches</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/salads">Salads</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/pasta">Pasta</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/quick_recipes">Quick</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/main_courses">Main Course</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/low_carb_recipes">Low Carb</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/instant_pot_recipes">Instant Pot</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/holiday_recipes">Holiday</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/high_protein_recipes">High Protein</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/gluten_free_recipes">Gluten Free</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/drink_recipes">Drinks</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/dinner_ideas">Dinner Ideas</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/desserts">Desserts</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/cookies">Cookies</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/chocolate_recipes">Chocolate</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/breakfast_brunch">Breakfast</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/baked_goods">Baking</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/appetizers">Appetizers</a> </div>
+
+					</div>
+				</div>
+				</div></li><li class="dropdown nav-item"> <div class="dropdown"><a href=# class="nav-link plustoggle" aria-expanded=false aria-haspopup=true data-toggle=dropdown role=button>Ingredients <span class="plusclosed">+</span><span class="minusopen">-</span></a> <div class="dropdown-menu ingredientlist" aria-labelledby="dropdownMenuLink">
+			<div class="d-flex flex-wrap">
+					<div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/avocado">avocado</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/egg">egg</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/herb">herb</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/kale">kale</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/lemon">lemon</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/lentil">lentil</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/quinoa">quinoa</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/pasta">pasta</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/tomato">tomato</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/turmeric">turmeric</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/yogurt">yogurt</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/zucchini">zucchini</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/arugula">arugula</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/asparagus">asparagus</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/basil">basil</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/broccoli">broccoli</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/buttermilk">buttermilk</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/cauliflower">cauliflower</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/chickpea">chickpea</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/chocolate">chocolate</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/curry">curry</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/tempeh">tempeh</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/tofu">tofu</a> </div><div class="dropdown-item"><a href="/ingredient.html">ALL</a> </div>			</div>
+
+			</div></div>
+			</li>
+			<li class="dropdown nav-item">
+				<div class="dropdown byseason">
+					<a href=# class="nav-link plustoggle" aria-expanded=false aria-haspopup=true data-toggle=dropdown role=button>By Season 	<span class=plusclosed>+</span><span class=minusopen>-</span>
+					</a>
+					<div class="dropdown-menu seasons" aria-labelledby=dropdownMenuLink>
+						<div class="d-flex flex-wrap">
+							<div class="dropdown-item"><a href="https://www.101cookbooks.com/spring">Spring</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/summer">Summer</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/fall">Fall</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/winter">Winter</a> </div>						</div>
+					</div>
+				</div>
+			</li>
+			<li class=nav-item><a href="https://www.101cookbooks.com/archives/cooking-with-natural-foods-recipe.html" class="nav-link">Natural Foods Basics</a></li><li class=nav-item><a href="https://www.101cookbooks.com/archives.html" class="nav-link">All Recipes Index</a></li><li class=nav-item><a href="https://www.101cookbooks.com/about/" class="nav-link">About</a></li></ul> <div id="gcse"><input class="addsearch disabled"></div><div class="sectiondivide"></div><div class="mobilefollow"> <h5>Follow</h5> <div class="align-items-center d-inline-flex flex-row justify-content-center sociallinks"> <div class="followlink"><a href="https://instagram.com/heidijswanson/">Instagram</a> </div><div class="followlink"><a href="https://www.youtube.com/channel/UCPyfGHoefipxv7Arp2sboJg">Youtube</a></div><div class="followlink"><a href="https://www.facebook.com/101cookbooks">Facebook</a></div><div class="followlink"><a href="https://pinterest.com/heidiswanson/">Pinterest</a></div></div></div><div class=extendednav> <h4>Welcome!</h4><div class="heidiphotodiv" aria-label="Heidi Swanson photo"></div><p>I’m Heidi – This site celebrates cooking, and aspires to help you integrate the power of lots of vegetables and whole foods into your everyday meals. The recipes you’ll find here are vegetarian, often vegan, written with the home cook in mind.</p>
+<!-- sidebar adunit <div id="desktopvid"></div> -->
+
+<h5 class="followheidi">Follow Heidi</h5> <ul> <li><a href="https://instagram.com/heidijswanson/">Instagram</a></li><li><a href="https://www.youtube.com/channel/UCPyfGHoefipxv7Arp2sboJg">Youtube</a></li><li><a href="https://www.facebook.com/101cookbooks">Facebook</a></li><li><a href="https://pinterest.com/heidiswanson/">Pinterest</a></li><li><a href="https://www.101cookbooks.com/feed">RSS Feed</a></ul><h5>My Cookbooks</h5><ul><li><a href="http://www.amazon.com/Near-Far-Recipes-Inspired-Travel/dp/1607745496/heidiswanson-20">Near & Far</a></li><li><a href="http://www.amazon.com/exec/obidos/ASIN/1580082777/heidiswanson-20">Super Natural Every Day</a></li><li><a href="http://www.amazon.com/exec/obidos/ASIN/1587612755/heidiswanson-20">Super Natural Cooking</a></li></div></div></nav>
+	</aside><!-- #secondary -->
+
+	<section id="primary" class="maincontent recipepages content-area col-sm-12 col-lg-8">
+		<main id="main" class="site-main" role="main">
+
+
+
+<article id="post-5352" class="sdrecipe">
+
+		<div class="mainimagewide"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20680%201'%3E%3C/svg%3E" class="photo" alt="Blood Orange Gin Sparkler" width="680" data-pin-description="Blood Orange Gin Sparkler" data-lazy-src="https://images.101cookbooks.com/gin_sparkler.jpg?w=680&auto=format"><noscript><img src="https://images.101cookbooks.com/gin_sparkler.jpg?w=680&auto=format" class="photo" alt="Blood Orange Gin Sparkler" width="680" data-pin-description="Blood Orange Gin Sparkler"></noscript></div>
+	<header class="entry-header recipetitle">
+		<h1 class="entry-title">Blood Orange Gin Sparkler</h1>				</header><!-- .entry-header -->
+	<div class="entrybody jpibfi_container"><p>For a good part of the year I have rosemary floating about the kitchen. It's typically crowded in a wide-mouth jar, standing stick-straight, quietly waiting to be called upon. Sometimes it sits on the windowsill here, other times it migrates to the island, or, on rare occasions, the dinner table. I tend to buy a bunch, then work my way through it little by little (you've likely seen it in the background of photos on previous posts). Said another way - rosemary is often in my line of sight, and I'm always looking for ways to use it. <a href="http://www.olgamassov.com/2009/12/rosemary-gin-fizz/">This</a> cocktail caught my attention a couple weeks back, and I've been making my own citrus-spiked riff on it in the days since.<br />
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" alt="Blood Orange Gin Sparkler" border="0" data-lazy-src="https://images.101cookbooks.com/gin-sparkler-recipe-v.jpg?w=620&amp;auto=format" /><noscript><img src="https://images.101cookbooks.com/gin-sparkler-recipe-v.jpg?w=620&amp;auto=format" alt="Blood Orange Gin Sparkler" border="0" /></noscript><br />
+So...my initial idea was that I'd do a winter citrus version using freshly-squeezed pink grapefruit juice, gin, and tonic water or sparkling water. I thought the evergreen notes in the gin would blend nicely with the tart pucker of grapefruit, and I'd take the edge off with a hint of rosemary syrup.</p>
+<p>Not meant to be.<br />
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20620%201'%3E%3C/svg%3E" alt="Gin Sparkler" width="620" border="0" data-lazy-src="https://images.101cookbooks.com/gin_sparkler_2.jpg" /><noscript><img src="https://images.101cookbooks.com/gin_sparkler_2.jpg" alt="Gin Sparkler" width="620" border="0" /></noscript><br />
+I walked into a box of beautiful Moro blood oranges at the store, and here we are. The blood orange juice worked beautifully, it added a lovely burst of color, and generally lent itself agreeably to what ended up being a long, bright, winter-time quencher. One that goes down a bit too easily, in fact. As I mention down below, if blood oranges are hard for you to come by, this drink is great with navel oranges as well. I mean it when I say, I hope you like this one as much as I do.</p>
+<p><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20620%201'%3E%3C/svg%3E" alt="Gin Sparkler" width="620" border="0" data-lazy-src="https://images.101cookbooks.com/gin_sparkler_3.jpg" /><noscript><img src="https://images.101cookbooks.com/gin_sparkler_3.jpg" alt="Gin Sparkler" width="620" border="0" /></noscript></p>
+<p>I kept thinking the gin / citrus combo would make for a striking DIY cocktail set-up at a holiday party, or New Year's brunch /gathering. Particularly if you offered a selection of juice mixers. I'm imagining small glass pitchers of blood orange juice, pink grapefruit juice, orange juice, oro blanco grapefruit juice, and or sweet lime juice? It would be a beautiful spectrum. Let me know if you give it a go.</p><div class="browsemore d-inline-flex flex-row w-100 justify-content-center align-items-center flex-wrap"><div class="browse p-1">browse <span class="morelabel">more</span>:</div><div class="browse1"><a href="https://www.101cookbooks.com/ingredient/gin">gin <span class="recipeslabel">Recipes</span></a></div><div class="browse2"><a href="https://www.101cookbooks.com/ingredient/blood-orange">blood orange <span class="recipeslabel">Recipes</span></a></div><div class="browse3"><a href="https://www.101cookbooks.com/drink_recipes">Drink Recipes</a></div></div>	</div><!-- .entry-content -->
+
+									<div class="sectiondivide"></div>
+			<div id="recipe">
+
+
+<div id="wprm-recipe-container-8408" class="wprm-recipe-container" data-recipe-id="8408"><script type="application/ld+json">{"@context":"http:\/\/schema.org\/","@type":"Recipe","name":"Blood Orange Gin Sparkler","author":{"@type":"Person","name":"Heidi Swanson"},"datePublished":"2018-12-28T08:39:10+00:00","description":"The citrus gin cocktail you want to be drinking.","recipeYield":"1","prepTime":"PT5M","cookTime":"PT10M","totalTime":"PT15M","recipeIngredient":["2 cups \/ 480 ml water","1 cup \/ 6.5 oz \/ 185 g sugar","4 tablespoons (~2 sprigs-worth) fresh rosemary leaves","1  bay leaf (optional)","blood oranges","gin","ice cubes","tonic water (or sparkling water)"],"recipeInstructions":[{"@type":"HowToStep","text":"Combine the water, sugar, rosemary, and bay in a small saucepan over medium heat. Bring to a simmer for 3-5 minutes, or long enough for the sugar to dissolve, stirring occasionally. Remove from the heat and let infuse for 10 minutes. Strain into a jar to cool completely."},{"@type":"HowToStep","text":"In the meantime, juice and strain your oranges, you'll need 3 tablespoons \/ 1.5 ounces of juice for each drink."},{"@type":"HowToStep","text":"To make each drink you're going to combine equal parts gin, juice, and tonic water with a bit of syrup and ice. So, its 3 tablespoons \/ 1 1\/2 oz gin, 3 tablespoons \/ 1 1\/2 oz freshly squeezed blood orange juice, and 1-2 teaspoons of the rosemary syrup in each tall glass (I used kolsch glasses here). Stir to combine, fill each glass 2\/3 full with ice and top off with 3 tablespoons \/ 1 1\/2 oz tonic water. Stir again and you're set."}],"recipeCategory":["Drinks"],"recipeCuisine":["Cocktail"],"keywords":"citrus, gin","aggregateRating":{"@type":"AggregateRating","ratingValue":"5","ratingCount":"1"},"image":["https:\/\/images.101cookbooks.com\/gin_sparkler.jpg?w=680&auto=format","https:\/\/images.101cookbooks.com\/gin-sparkler-recipe-v.jpg?w=1000&auto=format","https:\/\/images.101cookbooks.com\/gin-sparkler-recipe-v.jpg?w=800&h=800&fp-z=2&fp-y=.5&fp-x=.5&fit=crop&crop=entropy"]}</script>				<h2>Blood Orange Gin Sparkler</h2>
+<div class="wprm-recipe wprm-recipe-tastefully-simple">
+	<div class="wprm-recipe-image-container d-flex justify-content-between p-3">
+		<div class="printrecipe">
+			<div class="printdiv ico"><a href="https://www.101cookbooks.com/wprm_print/8408" class="wprm-recipe-print wprm-color-accent" target="_blank" rel="nofollow" onclick="gtag('event', 'blood-orange-gin-sparkler', { 'send_to': 'UA-283587-2','event_category': 'printrecipe', 'event_label': 'print'});"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="printicon" style=""  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg></a></div>
+	<div class="printdiv"><a href="https://www.101cookbooks.com/wprm_print/8408" class="wprm-recipe-print wprm-color-accent" target="_blank" rel="nofollow">	PRINT RECIPE</a></div></div>
+		<div class="wprm-recipe-rating wprm-user-rating wprm-user-rating-allowed" data-average="5" data-count="1" data-total="5" data-user="0"><span class="wprm-rating-star wprm-rating-star-1 wprm-rating-star-full" data-rating="1"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span><span class="wprm-rating-star wprm-rating-star-2 wprm-rating-star-full" data-rating="2"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span><span class="wprm-rating-star wprm-rating-star-3 wprm-rating-star-full" data-rating="3"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span><span class="wprm-rating-star wprm-rating-star-4 wprm-rating-star-full" data-rating="4"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span><span class="wprm-rating-star wprm-rating-star-5 wprm-rating-star-full" data-rating="5"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span><div class="wprm-recipe-rating-details"><span class="wprm-recipe-rating-average">5</span> from <span class="wprm-recipe-rating-count">1</span> vote</div></div>	</div>
+<div class="wprm-recipe-summary">
+		<p>You can keep the rosemary simple syrup in the refrigerator for a week or so. You can do this ahead of time. Also, if blood oranges are hard for you to come by - navel oranges are also delicious.</p>
+	</div>
+		<div class="wprm-recipe-header wprm-color-header">Ingredients</div>
+	<div class="wprm-recipe-ingredients-container">
+
+				<div class="wprm-recipe-ingredient-group">
+						<ul class="wprm-recipe-ingredients">
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">2</span>
+															<span class="wprm-recipe-ingredient-unit">cups</span>
+										<span class="wprm-recipe-ingredient-name">/ 480 ml water</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">1</span>
+															<span class="wprm-recipe-ingredient-unit">cup</span>
+										<span class="wprm-recipe-ingredient-name">/ 6.5 oz / 185 g sugar</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">4</span>
+															<span class="wprm-recipe-ingredient-unit">tablespoons</span>
+										<span class="wprm-recipe-ingredient-name">(~2 sprigs-worth) fresh rosemary leaves</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">1</span>
+															<span class="wprm-recipe-ingredient-name">bay leaf (optional)</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+															<span class="wprm-recipe-ingredient-name">blood oranges</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+															<span class="wprm-recipe-ingredient-name">gin</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+															<span class="wprm-recipe-ingredient-name">ice cubes</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+															<span class="wprm-recipe-ingredient-name">tonic water (or sparkling water)</span>
+									</li>
+							</ul>
+		</div>
+	 	 	</div>
+			<div class="wprm-recipe-instructions-container">
+		<div class="wprm-recipe-header wprm-color-header">Instructions</div>
+				<div class="wprm-recipe-instruction-group">
+						<ol class="wprm-recipe-instructions">
+								<li class="wprm-recipe-instruction">
+										<div class="wprm-recipe-instruction-text">Combine the water, sugar, rosemary, and bay in a small saucepan over medium heat. Bring to a simmer for 3-5 minutes, or long enough for the sugar to dissolve, stirring occasionally. Remove from the heat and let infuse for 10 minutes. Strain into a jar to cool completely.</div>
+														</li>
+								<li class="wprm-recipe-instruction">
+										<div class="wprm-recipe-instruction-text">In the meantime, juice and strain your oranges, you'll need 3 tablespoons / 1.5 ounces of juice for each drink.</div>
+														</li>
+								<li class="wprm-recipe-instruction">
+										<div class="wprm-recipe-instruction-text">To make each drink you're going to combine equal parts gin, juice, and tonic water with a bit of syrup and ice. So, its 3 tablespoons / 1 1/2 oz gin, 3 tablespoons / 1 1/2 oz freshly squeezed blood orange juice, and 1-2 teaspoons of the rosemary syrup in each tall glass (I used kolsch glasses here). Stir to combine, fill each glass 2/3 full with ice and top off with 3 tablespoons / 1 1/2 oz tonic water. Stir again and you're set.</div>
+														</li>
+							</ol>
+		</div>
+			</div>
+
+		<div class="wprm-recipe-times-container wprm-color-border">
+
+		<div class="wprm-recipe-time-container wprm-color-border">
+			<div class="wprm-recipe-time-header">Serves</div>
+			<div class="wprm-recipe-time">1</span> <span class="wprm-recipe-details-unit wprm-recipe-servings-unit"></div>
+		</div>
+
+
+
+				<div class="wprm-recipe-time-container wprm-color-border">
+			<div class="wprm-recipe-time-header">Prep Time</div>
+			<div class="wprm-recipe-time"><span class="wprm-recipe-details wprm-recipe-details-minutes wprm-recipe-prep_time wprm-recipe-prep_time-minutes">5</span> <span class="wprm-recipe-details-unit wprm-recipe-details-minutes wprm-recipe-prep_time-unit wprm-recipe-prep_timeunit-minutes">mins</span></div>
+		</div>
+							<div class="wprm-recipe-time-container wprm-color-border">
+				<div class="wprm-recipe-time-header">Cook Time</div>
+				<div class="wprm-recipe-time"><span class="wprm-recipe-details wprm-recipe-details-minutes wprm-recipe-cook_time wprm-recipe-cook_time-minutes">10</span> <span class="wprm-recipe-details-unit wprm-recipe-details-minutes wprm-recipe-cook_time-unit wprm-recipe-cook_timeunit-minutes">mins</span></div>
+			</div>
+									<div class="wprm-recipe-time-container wprm-color-border">
+				<div class="wprm-recipe-time-header">Total Time</div>
+				<div class="wprm-recipe-time"><span class="wprm-recipe-details wprm-recipe-details-minutes wprm-recipe-total_time wprm-recipe-total_time-minutes">15</span> <span class="wprm-recipe-details-unit wprm-recipe-details-minutes wprm-recipe-total_time-unit wprm-recipe-total_timeunit-minutes">mins</span></div>
+			</div>
+				<div class="wprm-clear-left">&nbsp;</div>
+
+
+	</div><div class="recipefooter">
+
+	<div class="d-flex justify-content-between flex-wrap clearfix">
+		<div class="printrecipe">
+		<div class="printdiv ico"><a href="https://www.101cookbooks.com/wprm_print/8408" class="wprm-recipe-print wprm-color-accent" target="_blank" rel="nofollow" onclick="gtag('event', 'blood-orange-gin-sparkler', { 'send_to': 'UA-283587-2','event_category': 'printrecipe', 'event_label': 'print'});"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="printicon" style=""  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg></a></div>
+
+	<div class="printdiv"><a href="https://www.101cookbooks.com/wprm_print/8408" class="wprm-recipe-print wprm-color-accent" target="_blank" rel="nofollow" onclick="gtag('event', 'blood-orange-gin-sparkler', { 'send_to': 'UA-283587-2','event_category': 'printrecipe', 'event_label': 'print'});">PRINT RECIPE</a></div></div>
+	<div class="noochbutton"><div class="moretoggle"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="plusminus" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg> <a data-toggle="collapse" data-target="#noochinfo" href="#noochinfo" aria-expanded="false" aria-controls="noochinfo" class=""><span class="plusclosed">nutrition info <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="plusminus" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class=""><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="minusopen">nutrition info  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="plusminus" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class=""><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></a></div></div>
+		<div class="recipedate">
+			<a href="https://www.101cookbooks.com/blood-orange-gin-sparkler/" aria-label="permament link to this entry">December 28, 2018</a>
+			<a href="https://www.101cookbooks.com/blood-orange-gin-sparkler/" aria-label="permament link to this entry" class="ico">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link-2"><title>permalink icon</title><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+			</a>
+		</div>
+	</div></div></div>
+
+
+				<div class="recipefooter">
+
+<div class="instafooter p-3 d-flex justify-content-center"><div class="igico"><a href="https://www.instagram.com/heidijswanson/" class="ico" aria-label="101 Cookbooks on Instagram link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="instagram"><title>instagram icon</title><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg></a></div><div class="blurb">If you make this recipe, I'd love to see it - tag it <a href="https://www.instagram.com/heidijswanson/" class="emp" onclick="gtag('event', 'centercol', { 'send_to': 'UA-283587-2','event_category': '101social', 'event_label': 'ig'});">#101cookbooks</a> on Instagram!</div></div>
+</div><!-- end recipefooter -->
+</div>
+
+
+		<!-- Simple Share Buttons Adder (7.5.19) simplesharebuttons.com --><div class="ssba-modern-2 ssba ssbp-wrap center ssbp--theme-6"><div style="text-align:center"><span class="ssba-share-text">Share this...</span><br/><ul class="ssbp-list"><li class="ssbp-li--pinterest"><a data-site='pinterest' class='ssba_pinterest_share ssbp-pinterest ssbp-btn' href='javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;//assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());'><div title="Pinterest" class="ssbp-text">Pinterest</div></a><span class=" ssbp-each-share">0</span></li><li class="ssbp-li--facebook"><a data-site="" class="ssba_facebook_share ssbp-facebook ssbp-btn" href="http://www.facebook.com/sharer.php?u=https://www.101cookbooks.com/blood-orange-gin-sparkler/"  target="_blank" ><div title="Facebook" class="ssbp-text">Facebook</div></a><span class=" ssbp-each-share">0</span></li><li class="ssbp-li--email"><a data-site="email" class="ssba_email_share ssbp-email ssbp-btn" href="mailto:?subject=Blood%20Orange%20Gin%20Sparkler&#038;body=%20https://www.101cookbooks.com/blood-orange-gin-sparkler/"><div title="email" class="ssbp-text">email</div></a></li></ul></div></div>
+
+	<footer class="entry-footer">
+		<div class="sectiondivide"></div><div class="ebookbanner"><div class="infophoto"> <div class="infoblock d-flex"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" class="freeebook" alt="weeknight express" nopin="nopin" data-lazy-src="https://images.101cookbooks.com/free-ebook-splash.png?w=250?q=90"><noscript><img src="https://images.101cookbooks.com/free-ebook-splash.png?w=250?q=90" class="freeebook" alt="weeknight express" nopin="nopin"></noscript> <div class="mailingblurb"> <p><span class="bolder">WEEKNIGHT EXPRESS</span> features 10 Vegetarian, Plant-centric Recipes for Feel-Good Food — Fast! </p><p>Subscribe to get 32-pages of recipes to view on your tablet, e-book reader or phone.</p></div><div class="signupform"> <form action="//101cookbooks.us3.list-manage.com/subscribe/post?u=7ce250831f3a7c06b82a6c24c&amp;id=8e979ad22f&amp;EBOOK=weekexp&amp;LOCATION=centercol" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" role="form" novalidate=""> <input type="email" value="" name="EMAIL" class="email form-control" id="mailinglistinput" placeholder="your email please" required=""> <label class="joinicon"> <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe" alt="subscribe to our list" class="joininput" onclick="_gaq.push(['_trackEvent','ebooks','centercol','weeknight']);"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path> <polyline points="22,6 12,13 2,6"></polyline> </svg> </label><div style="position: absolute; left: -5000px;"><input type="submit" name="b_7ce250831f3a7c06b82a6c24c_8e979ad22f" value=""></div></form> </div></div><div class="photoblock"> <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" class="weeknightcov lzyld" alt="weeknight express" nopin="nopin" data-lazy-src="https://images.101cookbooks.com/weeknight-expresscover.jpg?w=220"><noscript><img src="https://images.101cookbooks.com/weeknight-expresscover.jpg?w=220" class="weeknightcov lzyld" alt="weeknight express" nopin="nopin"></noscript><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" class="freeebooksm" alt="weeknight express" nopin="nopin" data-lazy-src="https://images.101cookbooks.com/free-ebook-splash.png?w=250?q=90"><noscript><img src="https://images.101cookbooks.com/free-ebook-splash.png?w=250?q=90" class="freeebooksm" alt="weeknight express" nopin="nopin"></noscript></div></div></div><div class="browsemore followsocial d-inline-flex flex-row w-100 justify-content-center align-items-center flex-wrap"><div class="heidiico"><a href="https://www.instagram.com/heidijswanson/" onclick="_gaq.push(['_trackEvent','101social','centercol','ig']);" border="0"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" alt="101cookbooks social icon" class="nopin" nopin=nopin data-lazy-src="https://images.101cookbooks.com/heidi-ico.jpg?auto=format"><noscript><img src="https://images.101cookbooks.com/heidi-ico.jpg?auto=format" alt="101cookbooks social icon" class="nopin" nopin=nopin></noscript></a></div><div class="browse p-1">Follow Me:</div><div class="browse1"><a href="https://www.instagram.com/heidijswanson/" onclick="_gaq.push(['_trackEvent','101social','centercol','ig']);">Instagram</a></div><div class="browse2"><a href="https://www.youtube.com/channel/UCPyfGHoefipxv7Arp2sboJg" onclick="_gaq.push(['_trackEvent','101social','centercol','yt']);">Youtube</a></div><div class="browse3"><a href="https://www.facebook.com/101cookbooks" onclick="_gaq.push(['_trackEvent','101social','centercol','fb']);">Facebook</a></div><div class="browse4"><a href="https://www.pinterest.com/heidiswanson/" onclick="_gaq.push(['_trackEvent','101social','centercol','pt']);">Pinterest</a></div></div>
+	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<div class="entries"><h4 id="related">Related Recipes</h4><div class="related card w-100"><div class="card-img-top"><a href="https://www.101cookbooks.com/calamansi-beer-cooler/"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="https://images.101cookbooks.com/calamansi-beer-cooler-h.jpg?w=680&auto=format"  alt="Calamansi Beer Cooler" border="0" class="lzyld"></a></div> <div class="card-body mr-auto"><h5><a href="https://www.101cookbooks.com/calamansi-beer-cooler/">Calamansi Beer Cooler</a></h5><p>THIS needs to be your two-ingredient summer, everything beverage.
+</p></div></div><div class="related card w-100"><div class="card-img-top"><a href="https://www.101cookbooks.com/nonalcoholic-cocktails/"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="https://images.101cookbooks.com/non-alcoholic-cocktails.jpg?w=680&auto=format"  alt="Brilliant Non-Alcoholic Cocktails Everyone Loves" border="0" class="lzyld"></a></div> <div class="card-body mr-auto"><h5><a href="https://www.101cookbooks.com/nonalcoholic-cocktails/">Brilliant Non-Alcoholic Cocktails Everyone Loves</a></h5><p>Non-alcoholic cocktails don't have to be a bummer. Play around with aqua frescas, shrubs, kombuchas, and fresh fruit syrups. All can be fun components in booze-free drinks like these.
+</p></div></div><div class="related card w-100"><div class="card-img-top"><a href="https://www.101cookbooks.com/archives/at-the-studio-dragonfruit-vodka-tonic-recipe.html"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="https://images.101cookbooks.com/dragonfruit-vodka-tonic-recipe.jpg?w=680&auto=format"  alt="At The Studio: Dragonfruit Vodka Tonic" border="0" class="lzyld"></a></div> <div class="card-body mr-auto"><h5><a href="https://www.101cookbooks.com/archives/at-the-studio-dragonfruit-vodka-tonic-recipe.html">At The Studio: Dragonfruit Vodka Tonic</a></h5><p>We mixed up this stunner of a cocktail to close out the week at the studio - vodka infused with dried dragonfruit as the base for vodka tonics. Pink overload!
+</p></div></div><div class="related card w-100"><div class="card-img-top"><a href="https://www.101cookbooks.com/dark-and-stormy-recipe/"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="https://images.101cookbooks.com/kombucha-dark-and-stormy-h.jpg?w=680&auto=format"  alt="Kombucha Dark and Stormy" border="0" class="lzyld"></a></div> <div class="card-body mr-auto"><h5><a href="https://www.101cookbooks.com/dark-and-stormy-recipe/">Kombucha Dark and Stormy</a></h5><p>The perfect spicy, invigorating, Halloween cocktail. This is a twist on the classic Dark n' Stormy. Made with ginger-cayenne kombucha in place of traditional ginger beer.
+</p></div></div><!--end related recipes= --></div>
+<div id="commentspost">
+	      <div class="sectiondivide"></div>
+	<h4 id="comments">Post Your Comment</h4>
+
+
+
+
+
+    	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title"> <small><a rel="nofollow" id="cancel-comment-reply-link" href="/blood-orange-gin-sparkler/#respond" style="display:none;">Cancel Reply</a></small></h3>			<form action="https://www.101cookbooks.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+				<div class="form-group"><textarea placeholder="YOUR COMMENT"  class="form-control" id="comment" name="comment" cols="45" rows="8" aria-required="true" class="postinput form-control"></textarea></div><div class="form-group commentauthor"><input id="author" name="author" type="text" value="" size="30" maxlength="245" placeholder="NAME" class="postinput form-control" /></div>
+<div class="form-group commentemail"><input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes" placeholder="EMAIL (not shown)" class="postinput form-control" /></div>
+<div class="form-group commenturl"><input id="url" name="url" type="text" value="" size="30" maxlength="200" placeholder="YOUR WEBSITE" class="postinput form-control" /></div>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /><label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<div class="comment-form-wprm-rating" data-color="#343434">
+	<div class="wprm-rating">Recipe Rating</div>
+	<div class="wprm-rating-stars">
+		<span class="wprm-rating-star" data-rating="1"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span><span class="wprm-rating-star" data-rating="2"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span><span class="wprm-rating-star" data-rating="3"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span><span class="wprm-rating-star" data-rating="4"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span><span class="wprm-rating-star" data-rating="5"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span>	</div>
+	<input id="wprm-comment-rating" name="wprm-comment-rating" type="hidden" value="0">
+</div>
+<p class="form-submit"><input name="submit" type="submit" id="commentsubmit" class="submit" value="Comment" /> <input type='hidden' name='comment_post_ID' value='5352' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="42db492b62" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="210"/></p>			</form>
+			</div><!-- #respond -->
+
+<div class="sectiondivide"></div>
+
+
+
+        <h4 id="comments">Comments</h4>
+
+
+        <div class="firstcomments">
+           <style type="text/css">.alm-btn-wrap{display:block;text-align:center;padding:10px 0 25px;position:relative}.alm-btn-wrap:after{display:table;clear:both;height:0;width:100%;content:''}.alm-btn-wrap .alm-load-more-btn{font-size:15px;font-weight:600;width:auto;height:42px;line-height:42px;background:#ed7070;color:#fff;border:none;border-radius:4px;margin:0 0 4px;padding:0 20px;display:inline-block;position:relative;-webkit-transition:all .35s ease;transition:all .35s ease;text-align:center;text-decoration:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer}.alm-btn-wrap .alm-load-more-btn.loading,.alm-btn-wrap .alm-load-more-btn:hover{background-color:#e06464;color:#fff;text-decoration:none}.alm-btn-wrap .alm-load-more-btn:active{-webkit-box-shadow:inset 0 2px 1px rgba(0,0,0,.1);box-shadow:inset 0 2px 1px rgba(0,0,0,.1);text-decoration:none}.alm-btn-wrap .alm-load-more-btn.loading{cursor:default;outline:0;padding-left:44px}.alm-btn-wrap .alm-load-more-btn.done{cursor:default;opacity:.15;background-color:#ed7070;outline:0!important;-webkit-box-shadow:none!important;box-shadow:none!important}.alm-btn-wrap .alm-load-more-btn.done:before,.alm-btn-wrap .alm-load-more-btn:before{background:0 0;width:0}.alm-btn-wrap .alm-load-more-btn.loading:before{background:#fff url(https://www.101cookbooks.com/wp-content/plugins/ajax-load-more/core/img/ajax-loader.gif) no-repeat center center;width:30px;height:30px;margin:6px;border-radius:3px;display:inline-block;z-index:0;content:'';position:absolute;left:0;top:0;overflow:hidden;-webkit-transition:width .5s ease-in-out;transition:width .5s ease-in-out}.alm-masonry{display:block;overflow:hidden;clear:both}.ajax-load-more-wrap.blue .alm-load-more-btn{background-color:#0081bf}.ajax-load-more-wrap.blue .alm-load-more-btn.done,.ajax-load-more-wrap.blue .alm-load-more-btn.loading,.ajax-load-more-wrap.blue .alm-load-more-btn:hover{background-color:#0073aa}.ajax-load-more-wrap.green .alm-load-more-btn{background-color:#6fca68}.ajax-load-more-wrap.green .alm-load-more-btn.done,.ajax-load-more-wrap.green .alm-load-more-btn.loading,.ajax-load-more-wrap.green .alm-load-more-btn:hover{background-color:#64b95e}.ajax-load-more-wrap.red .alm-load-more-btn{background-color:#ca4b4b}.ajax-load-more-wrap.red .alm-load-more-btn.done,.ajax-load-more-wrap.red .alm-load-more-btn.loading,.ajax-load-more-wrap.red .alm-load-more-btn:hover{background-color:#b13b3b}.ajax-load-more-wrap.purple .alm-load-more-btn{background-color:#a86bb9}.ajax-load-more-wrap.purple .alm-load-more-btn.done,.ajax-load-more-wrap.purple .alm-load-more-btn.loading,.ajax-load-more-wrap.purple .alm-load-more-btn:hover{background-color:#9963a8}.ajax-load-more-wrap.grey .alm-load-more-btn{background-color:#888}.ajax-load-more-wrap.grey .alm-load-more-btn.done,.ajax-load-more-wrap.grey .alm-load-more-btn.loading,.ajax-load-more-wrap.grey .alm-load-more-btn:hover{background-color:#777}.ajax-load-more-wrap.white .alm-load-more-btn{background-color:#fff;color:#666;border:1px solid #efefef}.ajax-load-more-wrap.white .alm-load-more-btn.done,.ajax-load-more-wrap.white .alm-load-more-btn.loading,.ajax-load-more-wrap.white .alm-load-more-btn:hover{background-color:#efefef;color:#333}.ajax-load-more-wrap.white .alm-load-more-btn.done{border-color:#fff}.ajax-load-more-wrap.infinite .alm-load-more-btn{width:100%;background-color:transparent!important;background-position:center center;background-repeat:no-repeat;background-image:url(https://www.101cookbooks.com/wp-content/plugins/ajax-load-more/core/img/spinner.gif);border:none!important;opacity:0;-webkit-transition:opacity .2s ease;transition:opacity .2s ease;-webkit-box-shadow:none!important;box-shadow:none!important;overflow:hidden;text-indent:-9999px;cursor:default!important;outline:0!important}.ajax-load-more-wrap.infinite .alm-load-more-btn:before{display:none!important}.ajax-load-more-wrap.infinite .alm-load-more-btn:active,.ajax-load-more-wrap.infinite .alm-load-more-btn:focus{outline:0}.ajax-load-more-wrap.infinite .alm-load-more-btn.done{opacity:0}.ajax-load-more-wrap.infinite .alm-load-more-btn.loading{opacity:1}.ajax-load-more-wrap.infinite.skype .alm-load-more-btn{background-image:url(https://www.101cookbooks.com/wp-content/plugins/ajax-load-more/core/img/spinner-skype.gif)}.ajax-load-more-wrap.infinite.ring .alm-load-more-btn{background-image:url(https://www.101cookbooks.com/wp-content/plugins/ajax-load-more/core/img/spinner-ring.gif)}.ajax-load-more-wrap.infinite.fading-blocks .alm-load-more-btn{background-image:url(https://www.101cookbooks.com/wp-content/plugins/ajax-load-more/core/img/loader-fading-blocks.gif)}.ajax-load-more-wrap.infinite.fading-circles .alm-load-more-btn{background-image:url(https://www.101cookbooks.com/wp-content/plugins/ajax-load-more/core/img/loader-fading-circles.gif)}.ajax-load-more-wrap.infinite.chasing-arrows .alm-load-more-btn{background-image:url(https://www.101cookbooks.com/wp-content/plugins/ajax-load-more/core/img/spinner-chasing-arrows.gif)}.alm-listing{margin:0;padding:0}.alm-listing .alm-reveal{outline:0}.alm-listing .alm-reveal:after{display:table;clear:both;height:0;width:100%;content:''}.alm-listing .alm-paging-content>li,.alm-listing .alm-reveal>li,.alm-listing>li{background:0 0;margin:0 0 30px;padding:0 0 0 170px;overflow:hidden;position:relative;list-style:none}.alm-listing .alm-paging-content>li.no-img,.alm-listing .alm-reveal>li.no-img,.alm-listing>li.no-img{padding:0}.alm-listing .alm-paging-content>li p,.alm-listing .alm-reveal>li p,.alm-listing>li p{margin:0}.alm-listing .alm-paging-content>li p.entry-meta,.alm-listing .alm-reveal>li p.entry-meta,.alm-listing>li p.entry-meta{margin:0 0 5px;opacity:.75}.alm-listing .alm-paging-content>li h3,.alm-listing .alm-reveal>li h3,.alm-listing>li h3{margin:0 0 10px}.alm-listing .alm-paging-content>li img,.alm-listing .alm-reveal>li img,.alm-listing>li img{position:absolute;left:0;top:0;border-radius:2px}</style><div id="ajax-load-more" class="ajax-load-more-wrap infinite fading-circles"  data-alm-id="" data-canonical-url="https://www.101cookbooks.com/blood-orange-gin-sparkler/" data-slug="blood-orange-gin-sparkler" data-post-id="5352"  data-localized="ajax_load_more_vars"><ul aria-live="polite" aria-atomic="true" class="commentlist alm-comments alm-ajax" data-comments="true" data-comments_per_page="10" data-comments_type="comment" data-comments_style="ul" data-comments_template="none" data-comments_callback="wp101_comments" data-comments_post_id="5352" data-container-type="ul" data-repeater="default" data-post-type="post" data-order="DESC" data-orderby="date" data-offset="0" data-posts-per-page="10" data-scroll="true" data-scroll-distance="100" data-max-pages="0" data-pause-override="false" data-pause="false" data-button-label="Older Posts" data-transition="fade" data-images-loaded="false"></ul><div class="alm-btn-wrap" style="visibility: hidden;"><button class="alm-load-more-btn more " rel="next">Older Posts</button></div></div>        </div><!-- .comment-list -->
+
+
+
+
+
+
+
+
+</div><!-- #comments -->
+
+		<div class="sectiondivide"></div><h4>More Recipes</h4><div class="d-flex flex-wrap recipecat"><div class="list-item"><a href="https://www.101cookbooks.com/whole_grain_recipes">Whole Grain</a></div><div class="list-item"><a href="https://www.101cookbooks.com/wfpb">WFPB</a></div><div class="list-item"><a href="https://www.101cookbooks.com/vegetarian_recipes">Vegetarian</a></div><div class="list-item"><a href="https://www.101cookbooks.com/vegan_recipes">Vegan</a></div><div class="list-item"><a href="https://www.101cookbooks.com/soups">Soups</a></div><div class="list-item"><a href="https://www.101cookbooks.com/sides">Side Dishes</a></div><div class="list-item"><a href="https://www.101cookbooks.com/sandwiches">Sandwiches</a></div><div class="list-item"><a href="https://www.101cookbooks.com/salads">Salads</a></div><div class="list-item"><a href="https://www.101cookbooks.com/pasta">Pasta</a></div><div class="list-item"><a href="https://www.101cookbooks.com/quick_recipes">Quick</a></div><div class="list-item"><a href="https://www.101cookbooks.com/main_courses">Main Course</a></div><div class="list-item"><a href="https://www.101cookbooks.com/low_carb_recipes">Low Carb</a></div><div class="list-item"><a href="https://www.101cookbooks.com/instant_pot_recipes">Instant Pot</a></div><div class="list-item"><a href="https://www.101cookbooks.com/holiday_recipes">Holiday</a></div><div class="list-item"><a href="https://www.101cookbooks.com/high_protein_recipes">High Protein</a></div><div class="list-item"><a href="https://www.101cookbooks.com/gluten_free_recipes">Gluten Free</a></div><div class="list-item"><a href="https://www.101cookbooks.com/drink_recipes">Drinks</a></div><div class="list-item"><a href="https://www.101cookbooks.com/dinner_ideas">Dinner Ideas</a></div><div class="list-item"><a href="https://www.101cookbooks.com/desserts">Desserts</a></div><div class="list-item"><a href="https://www.101cookbooks.com/cookies">Cookies</a></div><div class="list-item"><a href="https://www.101cookbooks.com/chocolate_recipes">Chocolate</a></div><div class="list-item"><a href="https://www.101cookbooks.com/breakfast_brunch">Breakfast</a></div><div class="list-item"><a href="https://www.101cookbooks.com/baked_goods">Baking</a></div><div class="list-item"><a href="https://www.101cookbooks.com/appetizers">Appetizers</a></div></div>
+		<div class="browsemore followsocial d-inline-flex flex-row w-100 justify-content-center align-items-center flex-wrap"><div class="heidiico"><a href="https://www.instagram.com/heidijswanson/" onclick="_gaq.push(['_trackEvent','101social','centercol','ig']);" border="0"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" alt="101cookbooks social icon" class="nopin" nopin=nopin data-lazy-src="https://images.101cookbooks.com/heidi-ico.jpg?auto=format"><noscript><img src="https://images.101cookbooks.com/heidi-ico.jpg?auto=format" alt="101cookbooks social icon" class="nopin" nopin=nopin></noscript></a></div><div class="browse p-1">Follow Me:</div><div class="browse1"><a href="https://www.instagram.com/heidijswanson/" onclick="_gaq.push(['_trackEvent','101social','centercol','ig']);">Instagram</a></div><div class="browse2"><a href="https://www.youtube.com/channel/UCPyfGHoefipxv7Arp2sboJg" onclick="_gaq.push(['_trackEvent','101social','centercol','yt']);">Youtube</a></div><div class="browse3"><a href="https://www.facebook.com/101cookbooks" onclick="_gaq.push(['_trackEvent','101social','centercol','fb']);">Facebook</a></div><div class="browse4"><a href="https://www.pinterest.com/heidiswanson/" onclick="_gaq.push(['_trackEvent','101social','centercol','pt']);">Pinterest</a></div></div>
+		<h4>Popular Ingredients</h4><div class="d-flex flex-wrap ingredlist"><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/avocado">avocado</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/egg">egg</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/herb">herb</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/kale">kale</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/lemon">lemon</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/lentil">lentil</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/quinoa">quinoa</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/pasta">pasta</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/tomato">tomato</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/turmeric">turmeric</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/yogurt">yogurt</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/zucchini">zucchini</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/arugula">arugula</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/asparagus">asparagus</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/basil">basil</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/broccoli">broccoli</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/buttermilk">buttermilk</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/cauliflower">cauliflower</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/chickpea">chickpea</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/chocolate">chocolate</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/curry">curry</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/tempeh">tempeh</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/tofu">tofu</a></div><div class="list-item"><a href="/ingredient.html">ALL</a></div></div>			<div class="sectiondivide"></div>
+
+ <footer><div class="legalfooter mx-auto">
+		<p class="copyright">&copy;  101 Cookbooks 2019</p><p>Use of this site constitutes acceptance of its <a href="https://www.101cookbooks.com/useragreement.html">User Agreement</a> and <a href="https://www.101cookbooks.com/privacy.html">Privacy Policy</a>.</p></div></footer>
+		</main><!-- #main -->
+	</section><!-- #primary -->
+
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</div><!-- #content -->
+</div><!-- #page -->
+
+
+<script type="text/javascript" async="" src="https://addsearch.com/searchui/v3/?key=b66f14cd9ae96c35951916ed27a428bc&amp;i=/blood-orange-gin-sparkler/"></script>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wprm_public = {"settings":{"features_comment_ratings":true},"home_url":"https:\/\/www.101cookbooks.com\/","ajax_url":"https:\/\/www.101cookbooks.com\/wp-admin\/admin-ajax.php","nonce":"e59032727a"};
+/* ]]> */
+</script>
+
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201945' defer></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jpibfi_options = {"hover":{"siteTitle":"101 Cookbooks","image_selector":".jpibfi_container img","disabled_classes":"wp-smiley;nopin","enabled_classes":"","min_image_height":0,"min_image_height_small":0,"min_image_width":0,"min_image_width_small":0,"show_on":"[front],[home],[single],[page],[archive],[search],[category]","disable_on":"","show_button":"always","button_margin_bottom":12,"button_margin_top":20,"button_margin_left":12,"button_margin_right":20,"button_position":"bottom-left","description_option":["img_title","img_alt","post_title"],"transparency_value":0.20000000000000001,"pin_image":"custom","pin_image_button":"square","pin_image_icon":"circle","pin_image_size":"normal","custom_image_url":"https:\/\/www.101cookbooks.com\/wp-content\/uploads\/2018\/05\/pinterest-button25-1.svg","scale_pin_image":false,"pin_linked_url":true,"pinLinkedImages":true,"pinImageWidth":25,"pinImageHeight":25,"scroll_selector":"","support_srcset":false}};
+/* ]]> */
+</script>
+
+
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wprmp_public = {"settings":{"features_adjustable_servings":false,"features_user_ratings":true,"servings_changer_display":"tooltip_slider","template_ingredient_list_style":"disc","template_instruction_list_style":"decimal","template_color_icon":"#343434"},"timer":{"sound_dir":"https:\/\/www.101cookbooks.com\/wp-content\/plugins\/wp-recipe-maker-premium\/dist\/","text":{"start_timer":"Click to Start Timer"},"icons":{"pause":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M9,2H4C3.4,2,3,2.4,3,3v18c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V3C10,2.4,9.6,2,9,2z\"\/><path fill=\"#fffefe\" d=\"M20,2h-5c-0.6,0-1,0.4-1,1v18c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V3C21,2.4,20.6,2,20,2z\"\/><\/g><\/svg>","play":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M6.6,2.2C6.3,2,5.9,1.9,5.6,2.1C5.2,2.3,5,2.6,5,3v18c0,0.4,0.2,0.7,0.6,0.9C5.7,22,5.8,22,6,22c0.2,0,0.4-0.1,0.6-0.2l12-9c0.3-0.2,0.4-0.5,0.4-0.8s-0.1-0.6-0.4-0.8L6.6,2.2z\"\/><\/g><\/svg>","close":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M22.7,4.3l-3-3c-0.4-0.4-1-0.4-1.4,0L12,7.6L5.7,1.3c-0.4-0.4-1-0.4-1.4,0l-3,3c-0.4,0.4-0.4,1,0,1.4L7.6,12l-6.3,6.3c-0.4,0.4-0.4,1,0,1.4l3,3c0.4,0.4,1,0.4,1.4,0l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l3-3c0.4-0.4,0.4-1,0-1.4L16.4,12l6.3-6.3C23.1,5.3,23.1,4.7,22.7,4.3z\"\/><\/g><\/svg>"}},"recipe_submission":{"text":{"drop_image":"Drop an image"}}};
+/* ]]> */
+</script>
+
+
+
+
+
+
+<script type='text/javascript'async="async" src='https://addsearch.com/js/?key=b66f14cd9ae96c35951916ed27a428bc&#038;ver=0.0.0'></script>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var alm_localize = {"ajaxurl":"https:\/\/www.101cookbooks.com\/wp-admin\/admin-ajax.php","alm_nonce":"923dddf70f","pluginurl":"https:\/\/www.101cookbooks.com\/wp-content\/plugins\/ajax-load-more","scrolltop":"false","speed":"200","ga_debug":"false","results_text":"Displaying page {num} of {total}.","no_results_text":"No results found.","alm_debug":""};
+var ajax_load_more_vars = {"id":"ajax-load-more"};
+/* ]]> */
+</script>
+
+
+<script type='text/javascript' src='https://stats.wp.com/e-201945.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.9',blog:'146864163',post:'5352',tz:'-8',srv:'www.101cookbooks.com'} ]);
+	_stq.push([ 'clickTrackerInit', '146864163', '5352' ]);
+</script>
+<script>
+            window.lazyLoadOptions = {
+                elements_selector: "img[data-lazy-src],.rocket-lazyload",
+                data_src: "lazy-src",
+                data_srcset: "lazy-srcset",
+                data_sizes: "lazy-sizes",
+                class_loading: "lazyloading",
+                class_loaded: "lazyloaded",
+                threshold: 200,
+                callback_loaded: function(element) {
+                    if ( element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible" ) {
+                        if (element.classList.contains("lazyloaded") ) {
+                            if (typeof window.jQuery != "undefined") {
+                                if (jQuery.fn.fitVids) {
+                                    jQuery(element).parent().fitVids();
+                                }
+                            }
+                        }
+                    }
+                }};
+        window.addEventListener('LazyLoad::Initialized', function (e) {
+            var lazyLoadInstance = e.detail.instance;
+
+            if (window.MutationObserver) {
+                var observer = new MutationObserver(function(mutations) {
+                    mutations.forEach(function(mutation) {
+                        for (i = 0; i < mutation.addedNodes.length; i++) {
+                            if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') {
+                                return;
+                            }
+
+                           if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') {
+                                return;
+                            }
+
+                            imgs = mutation.addedNodes[i].getElementsByTagName('img');
+                            iframes = mutation.addedNodes[i].getElementsByTagName('iframe');
+                            rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');
+
+                            if ( 0 === imgs.length && 0 === iframes.length && 0 === rocket_lazy.length ) {
+                                return;
+                            }
+
+                            lazyLoadInstance.update();
+                        }
+                    } );
+                } );
+
+                var b      = document.getElementsByTagName("body")[0];
+                var config = { childList: true, subtree: true };
+
+                observer.observe(b, config);
+            }
+        }, false);
+        </script><script data-no-minify="1" async src="https://www.101cookbooks.com/wp-content/plugins/wp-rocket/assets/js/lazyload/11.0.6/lazyload.min.js"></script><script src="https://www.101cookbooks.com/wp-content/cache/min/1/c95f1c59d11e1c6c87b7a3f4fc6df53b.js" data-minify="1" defer></script><noscript><link rel="stylesheet" href="https://www.101cookbooks.com/wp-content/cache/min/1/a556b7ad31c5486935957c5c4226c656.css" data-minify="1" /></noscript><noscript><link rel='stylesheet' id='simple-share-buttons-adder-font-awesome-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css?ver=5.2.1' type='text/css' media='all' /></noscript><noscript><link rel='stylesheet' id='addsearch-css-css'  href='https://app.addsearch.com/www/script/v3/1.css?r=0.05334717140654033&#038;ver=5.2.1' type='text/css' media='all' /></noscript><noscript><link rel='stylesheet' id='addsearch-css2-css'  href='https://d20vwa69zln1wj.cloudfront.net/b66f14cd9ae96c35951916ed27a428bc/css/15.css?ver=5.2.1' type='text/css' media='all' /></noscript></body>
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1573013177 -->

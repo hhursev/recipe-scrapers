@@ -1,0 +1,1587 @@
+<script type="application/ld+json">{"recipeIngredient":["5 ounces flat rice noodles","Sun Basket lemongrass paste (lemongrass - extra virgin olive oil - garlic - ginger - turmeric)","3 or 4 organic radishes (about ¼ pound total)","1 organic Asian or other pear","4 or 5 sprigs organic fresh mint","Sun Basket Thai dressing base (maple syrup - lime juice - fish sauce)","3 ounces organic baby kale or other leafy greens"],"image":"https://cdn.sunbasket.com/100408c8-f908-404e-a494-099fad9fed44.jpg","recipeYield":2,"nutrition":{"sugarContent":"15g","proteinContent":"31g (62% DV)","fiberContent":"7g (28% DV)","@type":"NutritionInformation","fatContent":"34g (52% DV)","cholesterolContent":"75mg (25% DV)","calories":"760","saturatedFatContent":"6g (30% DV)","sodiumContent":"900mg (38% DV)"},"@type":"Recipe","author":{"@type":"Organization","name":"Sun Basket"},"name":"Lemongrass-turkey salad with rice noodles and pear","cookTime":"PT15M","description":"<p>Our custom lemongrass paste transforms simple ingredients into a Thai-inspired noodle salad. It&rsquo;s refreshing, light, and as inviting to look at as it is to eat.&nbsp;<\/p>","aggregateRating":{"@type":"AggregateRating","ratingValue":5,"ratingCount":1},"@context":"http://schema.org","recipeInstructions":[{"@type":"HowToStep","name":"Step 1","text":"Cook the rice noodles"},{"@type":"HowToStep","name":"Step 2","text":"Prep and cook your protein"},{"@type":"HowToStep","name":"Step 3","text":"Prep the remaining ingredients; assemble the salad"},{"@type":"HowToStep","name":"Step 4","text":"Serve"}]}</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="Our custom lemongrass paste transforms simple ingredients into a Thai-inspired noodle salad. It’s refreshing, light, and as inviting to look at as it is to eat."/>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, no-transform"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+  <meta charset="utf-8"/>
+  <meta id="dynamicViewport" name="viewport"
+        content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
+  <meta name="google-site-verification" content="I3HD7G2jlbPLSF8b_sFVsyDF3du0EhslXsjzOtB-LFE"/>
+  <meta name="google-site-verification" content="QEXlfPZcMIktQDNoyVuo5ykdAEUg9QDJ0F5QO7epCQs"/>
+  <meta name="google-site-verification" content="QzFo_K24S2bU-qzWGEcPvDy190xy2_T0opUkGaXQd10"/>
+  <meta name="google-site-verification" content="wSANcc5sWvqjsaGsxc5Ko6y4DK4SQYOYLpxNudePeTg"/>
+  <meta name="google-site-verification" content="OqOzNIFwnVh0Qr_y8BagXRRXiud9xaJdDmQQzvqCp5Y"/>
+  <meta name="google-site-verification" content="YGcKILCCtIMiSWQBcFCx0hH_1wOLFjlWMnLjkC1nQQg"/>
+
+  <meta property="og:type" content="website"/>
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"
+          integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="//cdn.optimizely.com/js/779320009.js"></script>
+  <script src="/resources/js/sunbasket.js?v=4.18.1"
+          type="text/javascript"></script>
+  <script id="sunbasket-script-top" type="text/javascript">
+    window.sunbasket = window.sunbasket || {};
+    window.sunbasket.loggedin = false;
+    window.sunbasket.basePath = "";
+    window.sunbasket.reCaptchaKey = "6LePSuQUAAAAAOemOOWD19nvHb41MORnT8psiz41";
+    window.sunbasket.reCaptchaV2Key = "6LcAF_cUAAAAAFycYHeaZwiw_sX4eYYvQ2FfXahE";
+
+    window.sunbasket.appleAuthCallbackUrl = '/auth/apple';
+    window.sunbasket.appleSignInClientId = 'com.sunbasket.sunbasket.auth';
+
+    window.sunbasket.absoluteUrl = function(path) {
+      return '' + document.location.origin + path;
+    };
+
+    window.sunbasket.user = window.sunbasket.user || {};
+
+    </script>
+
+  <meta property="og:description" content="Our custom lemongrass paste transforms simple ingredients into a Thai-inspired noodle salad. It’s refreshing, light, and as inviting to look at as it is to eat." />
+	<meta property="og:title" content="Lemongrass-Turkey Salad with Rice Noodles and Pear"/>
+<meta property="og:image" content="https://cdn.sunbasket.com/100408c8-f908-404e-a494-099fad9fed44.jpg"/>
+<!-- Data Layer for Google Tag Manager -->
+  <script>
+
+      dataLayer = [{
+          'userID': '',
+          'menuType': '',
+          'mealPlanType': '',
+          'recipesPerWeek': '',
+          'promoCode': '',
+          'orderTotal': '',
+          'recipeID': '1530',
+          'rafRegistration': '0',
+          'rafConversion': '0',
+          'userCity': '',
+          'userState': '',
+          'userPhone': '',
+          'userName': ''
+      }];
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Segment (it will load GTM to process dataLayer -->
+  <script type="text/javascript">
+      !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
+        analytics.load("tjammJyflOTrfU0zTXDUW4dGOLEyQ2lK");
+
+          var pageData = window.sunbasket.analytics.querystring();
+
+        analytics.page(pageData);
+      }}();
+    </script>
+  <script type="text/javascript">
+    $(function(){
+      window.sunbasket.analytics.updateAttributionCookie(true);
+    });
+  </script>
+
+  <!-- Latest compiled and minified CSS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+          integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+          crossorigin="anonymous"></script>
+
+
+  <script type="text/javascript">
+      $(function () {
+          $(document).ajaxSend(function (e, xhr, options) {
+              if (options.type == "POST" || options.type == "PUT") {
+                  xhr.setRequestHeader('X-CSRF-TOKEN', 'be4f2cb0-6b9f-4331-b881-5964a3d3fa68');
+              }
+          });
+      });
+  </script>
+
+  <script type="text/javascript">
+
+      function getCookie(cname) {
+          var name = cname + "=";
+          var decodedCookie = decodeURIComponent(document.cookie);
+          var ca = decodedCookie.split(';');
+          for (var i = 0; i < ca.length; i++) {
+              var c = ca[i];
+              while (c.charAt(0) === ' ') {
+                  c = c.substring(1);
+              }
+              if (c.indexOf(name) === 0) {
+                  return c.substring(name.length, c.length);
+              }
+          }
+          return "";
+      }
+
+      var variation = getCookie('join-flow-variation');
+
+      $(document).ready(function () {
+          if (variation && variation.length > 0) {
+              $('a[href="/join"], a.btn-join').attr('href', '/join/' + variation);
+          }
+      });
+
+      function appendParams(selector) {
+          var query_params = location.search.substr(1);
+
+          $(selector).attr('href', function () {
+              var targetUrl = this.href;
+              var hashPart = this.hash;
+
+              if (query_params.length > 0  && (targetUrl !== undefined && targetUrl.length > 0)){
+                  if (hashPart !== "") {
+                      targetUrl = targetUrl.substring(0, targetUrl.indexOf("#"));
+                  }
+
+                  return targetUrl + (targetUrl.indexOf('?') > -1 ? "&" : "?") + query_params + hashPart;
+              }
+          });
+      }
+
+  </script>
+
+  <!-- SEO Schema -->
+  <script type='application/ld+json'>
+    {
+      "@context": "http://www.schema.org",
+      "@type": "FoodEstablishment",
+      "name": "Sun Basket",
+      "url": "https://sunbasket.com",
+      "logo": "https://sunbasket.com/resources/img/logo.svg",
+      "image": "https://sunbasket.com/resources/img/home/how-it-works/box-in-kitchen-2.jpg",
+      "description": "Our meal kit plan delivers healthy recipes and organic & sustainable ingredients weekly, with menus for your lifestyle.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "501 Folsom St, Third Floor",
+        "addressLocality": "San Francisco",
+        "addressRegion": "CA",
+        "postalCode": "94105",
+        "addressCountry": "United States"
+      },
+      "telephone": "+1-855-204-7597",
+      "openingHours": [
+        "Mo-Fr 08:00-21:00",
+        "Sa-Su 11:00-19:00"
+      ],
+      "priceRange": "$",
+      "servesCuisine": "Paleo, Lean & Clean, Vegetarian, Gluten-Free",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "telephone": "+1-855-204-7597"
+      }
+    }
+  </script>
+
+  <title>Lemongrass-Turkey Salad with Rice Noodles and Pear | Sun Basket</title>
+        <link rel="icon" type="image/png" sizes="32x32"
+            href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16"
+            href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#fbad18">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" type="text/css"
+        href="/resources/bundle/allCss.css?v=4.18.1"/>
+
+
+<link rel='stylesheet' href='/resources/css/explore/explore.css?v=4.18.1'/>
+<link rel='stylesheet' href='/resources/css/recipe.css?v=4.18.1'/>
+<style type="text/css">.grecaptcha-badge { visibility: hidden; }</style>
+</head>
+
+<body
+ class="innerPage recipePage explorePage pageStartTop"  >
+
+<div class="page-wrapper">
+  <div id="mobile-page-cover"></div>
+  <header>
+    <!-- offer banner -->
+    <!-- choose a navbar -->
+
+    <script type="text/javascript">
+  // Update GTM datala
+  dataLayer.push({
+   'login_status': 'logged_out',
+   'event': 'is_logged_out'
+   });
+</script>
+<nav id="nav-logged-out" class="navbar">
+    <div class="container">
+        <div class="navbar-header ">
+
+            <button type="button" class="basic-logged-out navbar-toggle collapsed nav-btn" data-toggle="collapse"
+                        data-target="#collapsed-nav-logged-out">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            <ul id="join-btn-container" class="visible-xs">
+                <li class="visible-xs">
+                    <a id="mobile-join-out" class="btn-join btn"
+                       href="/join">Join</a>
+                </li>
+            </ul>
+
+
+            <!-- make sure logo goes to correct location -->
+            <a id="home-hero" class="navbar-brand hidden-lg hidden-md" href="/">
+                        <div class="logo-container logged-out">
+                            <img src="/resources/img/logo.svg">
+                                </div>
+                    </a>
+                <ul class="menu-tab-container visible-xs">
+                	<li id="mobile-menu-tab" class="visible-xs">
+		                        <a ontouchstart class="mobile-menu-icon center menu-link"
+		                           href="/menu" target="_self">
+		                        Menu
+		                       </a>
+		                    </li>
+	                    </ul>
+            <div class="nav-links hidden-xs">
+                    <ul class="nav navbar-nav">
+                        <li>
+                                    <a id="menu-link" class="nav-tab"
+                                       href="/menu" target="_self">Menu</a>
+                                </li>
+                                <li>
+                                    <a id="how-it-works-link" class="nav-tab"
+                                       href="/how-it-works">How It Works</a>
+                                </li>
+                                <li>
+                                    <a id="values-link" class="nav-tab"
+                                       href="/values">Values</a>
+                                </li>
+                                <!-- <li>
+                                    <a id="learn-link" class="nav-tab"
+                                       href="/pricing">Pricing</a>
+                                </li> -->
+                            </ul>
+                </div>
+            <!-- mobile collapsed menu items -->
+
+            <div class="collapse navbar-collapse" id="collapsed-nav-logged-out">
+                <div class="visible-xs">
+                    <ul class="visible-xs navbar-nav navbar-right mobile-nav-logged-out">
+                        <li class="divider-bottom">
+                            <a id="menu-link" role="menuitem" class="nav-tab" tabindex="-1"
+                               href="/menu">Menu</a>
+                        </li>
+                        <li class="divider-bottom">
+                            <a id="how-it-works-link" role="menuitem"  class="nav-tab"
+                               href="/how-it-works">How it Works</a>
+                        </li>
+                        <li class="divider-bottom">
+                            <a id="values-link" role="menuitem" class="nav-tab"
+                               href="/values">Values</a>
+                        </li>
+
+                        <li>
+                                    <a id="mymenu-button" role="menuitem" class="btn btn-sm btn-white sign-in center margin-bottom-md" tabindex="-1"
+                                    href="/mymenu">Sign in</a>
+                                </li>
+
+                                <li>
+                                        <a id="join-button" role="menuitem" class="btn btn-sm btn-join sign-in center mobile-join-out" tabindex="-1"
+                                        href="/join">Get started</a>
+                                    </li>
+                                </ul>
+                </div>
+            </div>
+
+            <!-- center logo for desktop -->
+
+            <div class="nav-links">
+                        <a id="home-hero" class="navbar-brand hidden-xs hidden-sm logo-center "
+                           href="/">
+                            <div class="logo-container logged-out">
+                            <img src="/resources/img/logo.svg">
+                                </div>
+                        </a>
+                    </div>
+                <!--  right side CTAs desktop and mobile-->
+
+            <ul class="nav navbar-nav navbar-right hidden-xs">
+                <li class="hidden-xs">
+                                <a class="sign-in nav-btn"
+                                   href="/login">Sign
+                                    In</a>
+                            </li>
+                            <li class="hidden-xs">
+                                    <a class="btn-join btn"
+                                       href="/join">Get
+                                        Started</a>
+                                </li>
+                        </ul>
+
+        </div>
+    </div>
+</nav>
+<script>$('body').addClass('logged-out');</script>
+          </header>
+  <div class="clearfix"></div>
+
+  <script>
+    (function($){
+      var landingPagePathname = getCookie('landing-page-pathname');
+
+
+
+      if (!!landingPagePathname) {
+        $(function() {
+          if ($('body').hasClass('healthy-all-day-experience')) {
+            var selector = '.btn-primary, .btn-secondary, .cta-link, a[href*="/join"], .join, a.link, .append-me, .home-page .join, .logo-center';
+            appendParams(selector);
+            $('.navbar .navbar-brand').attr('href', landingPagePathname);
+          }
+        });
+      }
+    })(jQuery);
+  </script>
+
+  <!-- adds fade-in class if interstitial page works like a modal -->
+  <div id="page-content" class="page-content">
+      <script src="https://cdn.ravenjs.com/3.27.0/raven.min.js"></script>
+        <script type="text/javascript">Raven.config("https://74f0149498834aae9208628dad9d42a2@o70926.ingest.sentry.io/1080564").install();</script>
+      <div class="sticky-back-bar" style="display: none">
+  <div class="container">
+    <a href="/join/menuconfirmation-2">&larr; Back to recipe selection</a>
+  </div>
+</div>
+<div class="explore-subnav">
+  <div class="container">
+
+    <ul>
+      <li>
+        <a id="the-sun-times-tab" class="nav-tab" role="menuitem" tabindex="-1"
+            href="/the-sun-times">
+           Articles
+        </a>
+      </li>
+      <li>
+        <a id="recipes-tab" class="nav-tab" role="menuitem" tabindex="-1"
+            href="/recipes">
+           Cookbook
+        </a>
+      </li>
+    </ul>
+    <div class="search-container hidden-xs">
+      <form action="/general-search" target="_top" method="get" class="formModule" id="search-form">
+        <div class="form-group has-feedback">
+          <input id="global-search-input" type="text" class="form-control " placeholder="Search" name="searchQuery" value="">
+          <i class="icon icon-search form-control-feedback no-underline"></i>
+        </div>
+      </form>
+    </div>
+
+
+  </div>
+</div>
+
+<script>
+var page_type = 2;
+$(function() {
+  $('#search-form').on('submit', function(e) {
+    window.sunbasket.analytics.track('Recipes Searched', {
+      search_term: $('#global-search-input').val()
+    });
+  });
+});
+</script>
+<div class="container">
+  <div class="product-content-container">
+    <div class="row">
+
+		<div class="col-md-8 col-sm-12 content-left">
+
+			<div class="recipe-image-container">
+	<img class="recipe-image" alt="Lemongrass-turkey salad with rice noodles and pear" src="//cdn.sunbasket.com/100408c8-f908-404e-a494-099fad9fed44.jpg"/>
+		</div>
+
+
+<div class="market-watch-disclaimer">
+	<p>
+		In order to bring you
+		<a href="/learn/organic" class="a-gray-medium-light underline">
+		the best organic produce</a>, some ingredients may differ from those depicted.
+	</p>
+</div>
+<div class="hidden-xs hidden-sm">
+				<div class="social-and-watch">
+  <div class="social-share-buttons">
+	<a class="social-share-fb btn-facebook btn btn-xs" target="_blank" rel="noreferrer noopener" href="#">
+ 	         <span class="icon icon-facebook"></span> Share
+ 	     </a>
+
+ 	     <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" data-pin-custom="true" class="PinShare btn-pinterest btn btn-xs">
+ 	           <span class="icon icon-social-pinterest"></span> Save
+ 	       </a>
+ 	     <a class="twitter-share-button btn-twitter btn btn-xs" href="#" target="_blank" rel="noreferrer noopener">
+ 	         <span class="icon icon-social-twitter"></span> Tweet
+ 	     </a>
+	  </div>
+</div>
+
+
+
+<script>
+
+    $(document).ready(function() {
+        $(".social-share-fb").attr("href", "https://www.facebook.com/sharer.php?u=" + encodeURIComponent(location.protocol + '//' + location.host + location.pathname +"?offer="));
+        $(".twitter-share-button").attr("href", "https://twitter.com/intent/tweet?via=sunbasket&text=" + encodeURIComponent(document.title) + "&url=" + encodeURIComponent(location.protocol + '//' + location.host + location.pathname));
+    });
+
+</script>
+<div class="instructions-container">
+  <h2 class="margin-bottom-xs">Instructions</h2>
+
+  <div class="serving-disclaimer">2-serving instructions <span class="four-person-serving">(4-serving modifications in red)</span></div>
+  <p class="text-lg margin-top-lg">Wash produce before use</p>
+  <div class="step-row">
+      <div class="step ">
+        <div class="step-lower">
+          <!-- don't show step number on magazine pages or if instruction name is Serve or Choose -->
+          <p class="step-number">
+                1</p>
+          <div class="step-name">
+            <p class="step-header">Cook the rice noodles</p>
+            <div class="instruction-description">
+                    <p>Bring a medium [large] sauce pot of water to a boil. Add the rice noodles and cook until just tender, 6 to 8 minutes. Drain and rinse with cold water, then return to the pot and set aside. While the water is heating and the noodles are cooking, start preparing the rest of the meal.</p></div>
+              </div>
+        </div>
+      </div>
+    </div>
+  <div class="step-row">
+      <div class="step ">
+        <div class="step-lower">
+          <!-- don't show step number on magazine pages or if instruction name is Serve or Choose -->
+          <p class="step-number">
+                2</p>
+          <div class="step-name">
+            <p class="step-header">Prep and cook your protein</p>
+            <div class="instruction-description">
+                    <ul>
+<li><em>Ground meat:</em> Cut a small corner from the ground meat packaging and drain off any excess liquid. Transfer to a plate; pat dry with a paper towel.&nbsp;</li>
+<li><em>Shrimp:</em> Rinse and drain the shrimp. Pat dry on a paper-towel-lined plate.&nbsp;</li>
+<li><em>Tofu:</em> Pat the tofu dry with paper towels; cut into &frac12;-inch cubes.&nbsp;</li>
+<li><em>Plant-based chick*n:</em> Pat the chick*n dry with a paper towel.</li>
+</ul>
+<p>In a large frying pan over medium-high heat, warm 2 to 3 teaspoons oil until hot but not smoking. Add your protein and lemongrass paste, season lightly with salt and pepper, and cook, stirring occasionally and breaking up the ground meat if using, until the protein is lightly browned and cooked through, 2 to 4 minutes for regular shrimp; 4 to 6 minutes for jumbo shrimp, tofu, or plant-based chick*n; and 5 to 7 minutes for ground meat. Remove from the heat. Meanwhile, prepare the remaining ingredients.</p></div>
+              </div>
+        </div>
+      </div>
+    </div>
+  <div class="step-row">
+      <div class="step ">
+        <div class="step-lower">
+          <!-- don't show step number on magazine pages or if instruction name is Serve or Choose -->
+          <p class="step-number">
+                3</p>
+          <div class="step-name">
+            <p class="step-header">Prep the remaining ingredients; assemble the salad</p>
+            <div class="instruction-description">
+                    <ul>
+<li>Cut the radishes in half, then cut the halves into thin half-moons.</li>
+<li>Peel the Asian pear, if desired; core and thinly slice.</li>
+<li>Strip the mint leaves from the stems; coarsely chop or tear the leaves.</li>
+</ul>
+<p>In a small bowl, stir together the Thai dressing base and 1 tablespoon [2 TBL] oil; season to taste with salt and pepper. In a large bowl, combine your protein, noodles, radishes, pear, mint, kale, and 2 to 3 tablespoons Thai dressing and toss to coat (set aside the remaining dressing for serving). Season to taste with salt and pepper.</p></div>
+              </div>
+        </div>
+      </div>
+    </div>
+  <div class="step-row">
+      <div class="step ">
+        <div class="step-lower">
+          <!-- don't show step number on magazine pages or if instruction name is Serve or Choose -->
+          <div class="step-name">
+            <p class="step-header">Serve</p>
+            <div class="instruction-description">
+                    <p>Transfer the salad to individual bowls and serve the remaining dressing on the side.&nbsp;</p></div>
+              </div>
+        </div>
+      </div>
+    </div>
+  <div class="recipe-extra-content"><h5>Kids Can!</h5>
+<ul>
+<li>Time the rice noodles.</li>
+<li>Strip and tear the mint leaves.&nbsp;</li>
+<li>Stir the dressing.</li>
+<li>Assemble the salad.&nbsp;</li>
+</ul></div>
+  </div>
+</div>
+		</div>
+
+		<div class="col-md-4 col-sm-12 content-right">
+	        <div class="recipe-info">
+
+				<div class="name-container formModule">
+					<h1>Lemongrass-turkey salad with rice noodles and pear</h1>
+
+					<div class="main-protein-selector-container">
+						</div>
+
+					</div>
+
+				<div class="visible-xs visible-sm">
+					<div class="social-and-watch">
+  <div class="social-share-buttons">
+	<a class="social-share-fb btn-facebook btn btn-xs" target="_blank" rel="noreferrer noopener" href="#">
+ 	         <span class="icon icon-facebook"></span> Share
+ 	     </a>
+
+ 	     <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" data-pin-custom="true" class="PinShare btn-pinterest btn btn-xs">
+ 	           <span class="icon icon-social-pinterest"></span> Save
+ 	       </a>
+ 	     <a class="twitter-share-button btn-twitter btn btn-xs" href="#" target="_blank" rel="noreferrer noopener">
+ 	         <span class="icon icon-social-twitter"></span> Tweet
+ 	     </a>
+	  </div>
+</div>
+
+
+
+<script>
+
+    $(document).ready(function() {
+        $(".social-share-fb").attr("href", "https://www.facebook.com/sharer.php?u=" + encodeURIComponent(location.protocol + '//' + location.host + location.pathname +"?offer="));
+        $(".twitter-share-button").attr("href", "https://twitter.com/intent/tweet?via=sunbasket&text=" + encodeURIComponent(document.title) + "&url=" + encodeURIComponent(location.protocol + '//' + location.host + location.pathname));
+    });
+
+</script>
+</div>
+
+				<div class="recipe-stats-container">
+
+	<p class="diet-types">
+			<span class="type">Gluten-Free, </span>
+			<span class="type">Soy-Free, </span>
+			<span class="type">Dairy-Free</span>
+			</p>
+	<p>
+		<span class="bold">2</span> <span> Servings, </span>
+
+		<span class="bold">760</span>
+		  <span> Calories/Serving </span>
+		</p>
+
+	  <p>
+			<span class="bold">
+			  15</span>
+
+			<span> Minutes</span>
+
+			</p>
+		<div class="description">
+		<p><p>Our custom lemongrass paste transforms simple ingredients into a Thai-inspired noodle salad. It&rsquo;s refreshing, light, and as inviting to look at as it is to eat.&nbsp;</p></p>
+	</div>
+</div>
+<div class="button-section button-fixed">
+						<h3 class="lead-in">Get delicious recipes with organic produce and clean ingredients delivered</h3>
+						<a class="btn btn-primary btn-block" href="/how-it-works?utm_source=recipe-pages">View our meal plans</a>
+					</div>
+				</div>
+
+	        <div class="ingredients-container">
+	<h4 class="margin-bottom-xs">
+		In your bag</h4>
+	<div class="serving-disclaimer">
+		1 bag serves 2 <span class="four-person-serving">(2 bags serve 4)</span></div>
+	<div class="text-xs gray-medium-light line-height-xs italic margin-bottom-md">Sun Basket is proud to source the <a href="/learn/organic" class="a-gray-medium-light underline">organic ingredients</a> indicated below. On the rare occasion we are unable to meet our organic promise, we'll put a note
+		in your bag.</div>
+
+	<ul class="ingredients-list formModule">
+		<li>5 ounces flat rice noodles</li>
+		<li>Sun Basket lemongrass paste (lemongrass - extra virgin olive oil - garlic - ginger - turmeric)</li>
+		<li>3 or 4 organic radishes (about ¼ pound total)</li>
+		<li>1 organic Asian or other pear</li>
+		<li>4 or 5 sprigs organic fresh mint</li>
+		<li>Sun Basket Thai dressing base (maple syrup - lime juice - fish sauce)</li>
+		<li>3 ounces organic baby kale or other leafy greens</li>
+		</ul>
+</div>
+<div class="sidebar-extra-content-container">
+  <h5>Ingredient IQ</h5>
+<p>The flavor of lemongrass is subtle, with a more floral fragrance and less acidity than either lemon juice or zest. Sold by the stalk, it&rsquo;s fibrous to the point of being woody and is usually &ldquo;bruised,&rdquo; thinly sliced, or pounded to a paste before it is added to a dish.&nbsp;</p></div><div id="nutrition-container" class="formModule nutrition-container">
+
+  <p class="text-xs margin-top-lg margin-bottom-xs">Nutrition per serving</p>
+  <div class="nutrition-info-wrapper">
+	<p class="nutrition-info-veg">
+		  Calories: 760<span>, </span>Protein: 31g (62% DV)<span>, </span>Fiber: 7g (28% DV)<span>, </span>Total Fat: 34g (52% DV)<span>, </span>Monounsaturated Fat: 8g<span>, </span>Polyunsaturated Fat: 2g<span>, </span>Saturated Fat: 6g (30% DV)<span>, </span>Cholesterol: 75mg (25% DV)<span>, </span>Sodium: 900mg (38% DV)<span>, </span>Carbohydrates: 87g (29% DV)<span>, </span>Total Sugars: 15g<span>, </span>Added Sugars: 8g (16% DV).
+        <br/>
+            <b>Contains: </b>
+            Fish (anchovy)</p>
+	  <p class="nutrition-disclaimer">Sodium does not include pantry salt; for reference, &frac18; teaspoon kosher salt per serving averages 240mg (10% DV). Not a significant source of trans fat. Packed in a facility that handles all major food allergens* and gluten. *Milk, Eggs, Fish, Crustacean Shellfish, Tree Nuts, Peanuts, Wheat, Soybeans.</p>
+  </div>
+</div>
+</div>
+
+    </div>
+
+    <div class="row visible-xs visible-sm">
+      <div class="col-xs-12">
+        <div class="instructions-container">
+  <h2 class="margin-bottom-xs">Instructions</h2>
+
+  <div class="serving-disclaimer">2-serving instructions <span class="four-person-serving">(4-serving modifications in red)</span></div>
+  <p class="text-lg margin-top-lg">Wash produce before use</p>
+  <div class="step-row">
+      <div class="step ">
+        <div class="step-lower">
+          <!-- don't show step number on magazine pages or if instruction name is Serve or Choose -->
+          <p class="step-number">
+                1</p>
+          <div class="step-name">
+            <p class="step-header">Cook the rice noodles</p>
+            <div class="instruction-description">
+                    <p>Bring a medium [large] sauce pot of water to a boil. Add the rice noodles and cook until just tender, 6 to 8 minutes. Drain and rinse with cold water, then return to the pot and set aside. While the water is heating and the noodles are cooking, start preparing the rest of the meal.</p></div>
+              </div>
+        </div>
+      </div>
+    </div>
+  <div class="step-row">
+      <div class="step ">
+        <div class="step-lower">
+          <!-- don't show step number on magazine pages or if instruction name is Serve or Choose -->
+          <p class="step-number">
+                2</p>
+          <div class="step-name">
+            <p class="step-header">Prep and cook your protein</p>
+            <div class="instruction-description">
+                    <ul>
+<li><em>Ground meat:</em> Cut a small corner from the ground meat packaging and drain off any excess liquid. Transfer to a plate; pat dry with a paper towel.&nbsp;</li>
+<li><em>Shrimp:</em> Rinse and drain the shrimp. Pat dry on a paper-towel-lined plate.&nbsp;</li>
+<li><em>Tofu:</em> Pat the tofu dry with paper towels; cut into &frac12;-inch cubes.&nbsp;</li>
+<li><em>Plant-based chick*n:</em> Pat the chick*n dry with a paper towel.</li>
+</ul>
+<p>In a large frying pan over medium-high heat, warm 2 to 3 teaspoons oil until hot but not smoking. Add your protein and lemongrass paste, season lightly with salt and pepper, and cook, stirring occasionally and breaking up the ground meat if using, until the protein is lightly browned and cooked through, 2 to 4 minutes for regular shrimp; 4 to 6 minutes for jumbo shrimp, tofu, or plant-based chick*n; and 5 to 7 minutes for ground meat. Remove from the heat. Meanwhile, prepare the remaining ingredients.</p></div>
+              </div>
+        </div>
+      </div>
+    </div>
+  <div class="step-row">
+      <div class="step ">
+        <div class="step-lower">
+          <!-- don't show step number on magazine pages or if instruction name is Serve or Choose -->
+          <p class="step-number">
+                3</p>
+          <div class="step-name">
+            <p class="step-header">Prep the remaining ingredients; assemble the salad</p>
+            <div class="instruction-description">
+                    <ul>
+<li>Cut the radishes in half, then cut the halves into thin half-moons.</li>
+<li>Peel the Asian pear, if desired; core and thinly slice.</li>
+<li>Strip the mint leaves from the stems; coarsely chop or tear the leaves.</li>
+</ul>
+<p>In a small bowl, stir together the Thai dressing base and 1 tablespoon [2 TBL] oil; season to taste with salt and pepper. In a large bowl, combine your protein, noodles, radishes, pear, mint, kale, and 2 to 3 tablespoons Thai dressing and toss to coat (set aside the remaining dressing for serving). Season to taste with salt and pepper.</p></div>
+              </div>
+        </div>
+      </div>
+    </div>
+  <div class="step-row">
+      <div class="step ">
+        <div class="step-lower">
+          <!-- don't show step number on magazine pages or if instruction name is Serve or Choose -->
+          <div class="step-name">
+            <p class="step-header">Serve</p>
+            <div class="instruction-description">
+                    <p>Transfer the salad to individual bowls and serve the remaining dressing on the side.&nbsp;</p></div>
+              </div>
+        </div>
+      </div>
+    </div>
+  <div class="recipe-extra-content"><h5>Kids Can!</h5>
+<ul>
+<li>Time the rice noodles.</li>
+<li>Strip and tear the mint leaves.&nbsp;</li>
+<li>Stir the dressing.</li>
+<li>Assemble the salad.&nbsp;</li>
+</ul></div>
+  </div>
+</div>
+    </div>
+
+	<div class="col-md-8 col-sm-12">
+      <div id="nutrition-wrapper-sm"></div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+    var page_type = 5;
+    $(document).ready(function () {
+        if ($('body').hasClass('recipePage')) {
+            calcSelectorWidth($('.main-protein-selector-container .protein-list-selector'), '0');
+        }
+
+        var ua = navigator.userAgent;
+        var isAndroid = (ua.toLowerCase().indexOf("android") > -1) && (ua.indexOf("sunbasketAndroidApp") < 0);
+        if (isAndroid) {
+            $(".button-fixed").hide();
+        }
+
+        // replace brackets with (red text) for 4 person servings
+        var regex = /\[(.*?)\]/g;
+
+        $('.instruction-description').each(function () {
+            var recipeText = $(this).html();
+            var regexMatch = recipeText.match(/\[(.*?)\]/g);
+
+            if (regexMatch) {
+                $.each(regexMatch, function (key, value) {
+                    var replacedText = value.replace('[', '(');
+                    replacedText = replacedText.replace(']', ')');
+                    recipeText = recipeText.replace(value, "<span class='four-person-serving'>" + replacedText + "</span>");
+                });
+
+                $(this).html(recipeText);
+            }
+        });
+
+        moveNutrInfoForMobile();
+
+        $("#recipe-modal").on('loaded.bs.modal', function () {
+            calcSelectorWidth($('.main-protein-selector-container .protein-list-selector'), '20');
+			var selectedProteinDiets = $(this).find('.protein-list-selector option:selected').data('dietTypes');
+			if (selectedProteinDiets != null) {
+				$(this).find('.diet-types').empty().text(selectedProteinDiets);
+			}
+        });
+
+    });
+
+    $(window).resize(function () {
+        moveNutrInfoForMobile()
+    });
+
+    function moveNutrInfoForMobile() {
+        if ($(window).width() < 992) {
+            $("#nutrition-container").prependTo($("#nutrition-wrapper-sm"));
+        } else {
+            $("#nutrition-container").appendTo($(".sidebar-extra-content-container"));
+        }
+    }
+
+    $('.protein-list-selector').change(function () {
+        var isModal = ($(this).parents('.modal-body').length > 0);
+        var $parentElement = isModal ? $(this).parents('.modal-body') : $('body');
+
+        $('.protein-list-selector', $parentElement).val($(this).val());
+
+        var recipeId = $(this).data('id');
+        var $selectedOption = $('option:selected', $(this));
+
+        var proteinSelectedIndex = $selectedOption.data('index');
+        var proteinDietTypes = $selectedOption.data('dietTypes');
+        var proteinImgSrc = $selectedOption.data('imageSrc');
+
+        var previousDietTypes = $('.recipe-info .diet-types', $parentElement).text();
+
+        if (proteinDietTypes != '') {
+            $('.recipe-info .diet-types').text(proteinDietTypes);
+        }
+
+        $('.nutrition-info', $parentElement).hide();
+        $('#nutrition-' + proteinSelectedIndex, $parentElement).fadeIn('fast');
+        $('.recipe-image-container .recipe-image', $parentElement).attr('src', proteinImgSrc);
+
+        calcSelectorWidth($('.main-protein-selector-container .protein-list-selector-' + recipeId), '0');
+
+        window.sunbasket.analytics.track('Protein Option Viewed', {
+            via: isModal ? 'protein_selection_modal' : 'product_page',
+            protein_selected: $selectedOption.text(),
+            upgrade_id: $selectedOption.data('internalId'),
+            sku: $(this).data('recipeInternalId'),
+            protein_type: $selectedOption.data('proteinType'),
+            diet_tags: proteinDietTypes.split(',').map(function(r){ return r.trim(); }),
+            previous_diet_tags: previousDietTypes.split(',').map(function(r){ return r.trim(); }),
+            meal_plan: (window.sunbasket.user && window.sunbasket.user.mealPlan) ? window.sunbasket.user.mealPlan : null
+        });
+    });
+
+    $('.main-protein-selector-container .protein-list-selector').change(function () {
+        calcSelectorWidth($(this), '0');
+    });
+
+</script>
+</div>
+</div>
+
+<footer>
+        <!-- show Footer HTML if not in sign up flow -->
+        <div class="footer-links-container">
+            <div class="container main-footer-links">
+                    <div class="row">
+
+                      <div class="meal-kit-col">
+                        <p class="link-header">Meal Kit Delivery</p>
+                        <a class="footer-link" href="/menu">On the Menu</a>
+                        <a class="footer-link" href="/how-it-works">How it Works</a>
+                        <a class="footer-link" href="/recycle">Recycle</a>
+                        <a class="footer-link" href="/gift/select">Give Sun Basket</a>
+                        <a class="footer-link" href="/claim">Claim Gift</a>
+
+                      </div>
+
+                      <div class="about-sb-col">
+                        <p class="link-header">About Sun Basket</p>
+                        <a class="footer-link" href="/values">Values</a>
+                        <a class="footer-link" href="/farms">Farms &amp; Sourcing</a>
+                        <a class="footer-link" href="/chef">Chef Justine</a>
+                        <a class="footer-link" href="/learn/organic">Organic Food</a>
+                      </div>
+
+                      <div class="clearfix visible-xs"></div>
+
+                      <div class="contact-col">
+                        <p class="link-header">Contact Us</p>
+                        <a class="footer-link sb-action-help" data-action-via="Footer" href="/help">Help & Contact</a>
+                        <a class="footer-link" href="/faq">FAQs</a>
+                        <a class="footer-link" href="/press">Press</a>
+                        <a class="footer-link" href="/jobs">Careers</a>
+                        <a class="footer-link" href="https://app.impact.com/campaign-promo-signup/Sun-Basket-Meal-Delivery-Purchase.brand" target="_blank" rel="noreferrer noopener">Affiliates</a>
+                      </div>
+
+                      <div class="explore-col">
+                        <p class="link-header">Explore</p>
+                        <a class="footer-link" href="/recipes">Sun Basket Recipes</a>
+                        <a class="footer-link" href="/videos">Videos</a>
+                        <a class="footer-link" href="/tips">Tips &amp; Techniques</a>
+
+                          <div class="from-the-sun-times logged-out">
+                              <div class="article-tile">
+                                  <div class="img-container">
+                                    <a class="img-primary" href="/stories/eat-better-food-not-less">
+                                        <img class="article-img" src="//cdn.sunbasket.com/984ed08a-36a9-499d-b738-6548ef9efc0a@150.jpg">
+                                        </a>
+                                  </div>
+                                  <div class="article-info-container">
+                                      <p class="text-xs margin-bottom-xxs gray-medium ">From our blog, <a class="a-brown" href="/explore">The Sun Times</a></p>
+                                      <a class="a-brown" href="/stories/eat-better-food-not-less">
+                                         <p class="title">The Key to Optimal Health is Eating Better Food, Not Less</p>
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+
+
+                      </div>
+                    </div>
+                  </div>
+                <div class="footer-widgets-wrapper">
+                  <div class="container">
+                    <div class="footer-widgets-container">
+                      <div class="row">
+
+                        <div class="col-md-4 col-sm-6 col-sm-offset-3 col-md-offset-0">
+                            <div class="newsletter-widget">
+                            <p class="widget-header">
+                              Get healthy recipes, tips &amp; more
+                            </p>
+                            <form action="#" class="formModule" id="lead_capture_form">
+                                <div id="g-recaptcha-lead_capture_form"></div>
+                              <div class="col-xs-8 flush-right">
+                                <input type="email" placeholder="Email address" class="newsletter-input form-control input-lg" id="prospect_email" required>
+                              </div>
+
+                              <div class="col-xs-4 flush-left">
+                                <button type="submit" class="btn btn-sm btn-primary btn-block">Submit</button>
+                              </div>
+                              <div class="clearfix"></div>
+                              <div style="display: none;" class="text-xs center bold brand-blue success-msg">You have been subscribed to our newsletter!</div>
+                            </form>
+                            </div>
+                          </div>
+                        <div class="col-md-4  col-sm-6 col-xs-12">
+                        <div class="app-widget">
+                          <p class="widget-header">
+                            Download the app
+                          </p>
+                          <div class="app-icons-container">
+                            <a href="https://itunes.apple.com/us/app/sun-basket-meal-delivery/id1147936531?mt=8" target="_blank" rel="noreferrer noopener">
+                              <img src="/resources/img/icons/footer/app-store-badge.svg" alt="google play icon">
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.sunbasket.app&hl=en" target="_blank" rel="noreferrer noopener">
+                              <img src="/resources/img/icons/footer/google-play.png" alt="google play icon">
+                            </a>
+                          </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="social-widget">
+                          <p class="widget-header">
+                            Follow Us
+                          </p>
+                          <div class="social-icons-container">
+                            <a href="https://www.facebook.com/sunbasket" target="_blank" rel="noreferrer noopener" class="footer-icon-facebook">
+                                <span class="icon icon-facebook"></span>
+                            </a>
+                            <a href="https://www.instagram.com/sunbasket" target="_blank" rel="noreferrer noopener" class="footer-icon-instagram">
+                                <span class="icon icon-instagram"></span>
+                            </a>
+                            <a href="https://www.pinterest.com/SunBasketMeals/" target="_blank" rel="noreferrer noopener" class="footer-icon-pinterest">
+                                <span class="icon icon-social-pinterest"></span>
+                            </a>
+                            <a href="https://twitter.com/sunbasketmeals" target="_blank" rel="noreferrer noopener" class="footer-icon-twitter">
+                                <span class="icon icon-social-twitter"></span>
+                            </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="footer-legal">
+                    <p class="legal-text offer-terms-footer hide">
+                      <span class="terms-exclusions">*Some exclusions may apply.</span>  <a class="offer-tooltip-terms-footer underline" href="#" data-placement="top" title data-toggle="tooltip">See Terms</a>
+                    </p>
+                  <p class="legal-text">
+                    &copy; 2020 Sun Basket 4.18.1<span class="margin-left-xs margin-right-xs gray-medium-light">|</span>
+                    <a class="text-xxs a-gray-medium" target="_blank" rel="noreferrer noopener" href="/terms">Terms</a>
+                    <span class="margin-left-xs margin-right-xs gray-medium-light">|</span>
+                    <a class="text-xxs a-gray-medium" target="_blank" rel="noreferrer noopener" href="/privacy">Privacy</a>
+                    <span class="margin-left-xs margin-right-xs gray-medium-light">|</span>
+                    <a class="text-xxs a-gray-medium" target="_blank" rel="noreferrer noopener" href="/accessibility">Accessibility</a>
+                  </p>
+
+                  <p class="legal-text">This site is protected by reCAPTCHA and the Google
+                    <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer noopener" class="a-gray-medium">Privacy Policy</a> and
+                    <a href="https://policies.google.com/terms" target="_blank" rel="noreferrer noopener" class="a-gray-medium">Terms of Service</a> apply.
+                  </p>
+                </div>
+            </div>
+        </div>
+
+        </footer>
+<script src="/resources/bundle/commonJs.js?v=4.18.1"></script>
+        <script src="https://www.google.com/recaptcha/api.js?render=6LePSuQUAAAAAOemOOWD19nvHb41MORnT8psiz41"></script>
+    <script type="text/javascript">
+        function getCookie(cname) {
+            var name = cname + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(';');
+            for(var i = 0; i <ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) === ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) === 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        $('#lead_capture_form').submit(function(e){
+        	e.preventDefault();
+        	var form = this;
+        	$('button[type=submit]', form).disableButton();
+
+        	var recaptchaV2Rendered = $('#g-recaptcha-lead_capture_form').html().length;
+
+            var emailAddress = $('#prospect_email').val();
+            var recaptchaV2Response = $('#g-recaptcha-response').val();
+
+          function captchaLogic(token) {
+              $.ajax({
+                  url: "/emailProspect/email/"+ encodeURIComponent(emailAddress),
+                  data: {recaptchaV3Token:token,
+                      recaptchaV2Response:recaptchaV2Response
+                  },
+                  contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+                  method: "POST",
+                  complete: function(response){
+                      if (response.status === 400 && window.sunbasket.reCaptchaV2Key) {
+                          grecaptcha.ready(function () {
+                              if (!recaptchaV2Rendered){
+                                  grecaptcha.render('g-recaptcha-lead_capture_form', {
+                                      'sitekey' : window.sunbasket.reCaptchaV2Key,
+                                      'callback': function () {
+                                          $('button[type=submit]', form).enableButton();
+                                      }
+                                  });
+                              } else {
+                                  $('#g-recaptcha-lead_capture_form').show();
+                                  grecaptcha.reset();
+                              }
+                          });
+                          $('button[type=submit]', form).disableButton();
+
+                      } else {
+                          $("#lead_capture_form .btn-primary").html("Success");
+                          $('.success-msg').fadeIn(500);
+                          setTimeout(function(){
+                              $("#lead_capture_form .btn-primary").html("Submit");
+                              $('.success-msg').fadeOut(2000);
+                              $("#prospect_email").val("");
+                          }, 3000);
+
+                          if (window.sunbasket.reCaptchaV2Key && recaptchaV2Rendered) {
+                              grecaptcha.reset();
+                              $('#g-recaptcha-lead_capture_form').hide();
+                          }
+                          $('button[type=submit]', form).enableButton();
+                      }
+                  },
+                  fail: function (xhr, status, errorThrown) {
+                      if (window.sunbasket.reCaptchaV2Key && recaptchaV2Rendered){
+                          grecaptcha.reset();
+                      }
+                      console.error(xhr);
+                  }
+              });
+          }
+
+          grecaptcha.ready(function () {
+              grecaptcha.execute('6LePSuQUAAAAAOemOOWD19nvHb41MORnT8psiz41', {action: 'leadCapture'})
+                  .catch(function (err) {
+                      captchaLogic(null);
+                  })
+                  .then(function (token) {
+                      captchaLogic(token);
+                  });
+          });
+        });
+
+        // Define Cookie functions
+        function setCookie(cname, cvalue, exdays) {
+            var d = new Date();
+            var currentDomain = document.domain;
+            if (currentDomain !== 'localhost') {currentDomain = '.' + currentDomain}
+            d.setTime(d.getTime() + (exdays*24*60*60*1000));
+            var expires = "expires="+ d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";domain=" + currentDomain +";path=/";
+        }
+
+        // Delete cookie function
+        var delete_cookie = function(name) {
+            document.cookie = name + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;domain=' + currentDomain + ';path=/';
+        };
+
+    </script>
+</body>
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+
+<script id="explore-tile-template" type="text/template">
+  {{ #results }}
+    <div class="explore-tile-container col-md-4 col-sm-6 col-xs-6 tile-col">
+      <div class="explore-tile">
+          <a href="{{ webUrl }}" class="img-container">
+            <img src="{{ imageUrl }}" onload="imgLoaded($(this))" style="display:none">
+            <img src="/resources/img/content/300x200-blank.jpg" class="white-blank">
+          </a>
+
+          <div class="info-container">
+            <p class="tile-category">
+                {{ type }}
+            </p>
+              <a class="name-container" href="{{ webUrl }}">
+              <div class="name">{{ title }}</div>
+            </a>
+          </div>
+      </div>
+    </div>
+  {{ /results }}
+</script>
+
+<script>
+  // ajax + infinite scroll for search-results.jsp and sidebar of recipes.jsp
+  var scrollLoad = (function () {
+
+      var content = {};
+      var pageIndex = 0;
+      var tileAmount = 20;
+      var searchQuery;
+      if (isLoadingTiles === undefined) var isLoadingTiles = false;
+
+      $(window).scrollTop(0);
+
+      function prepareJSON(searchQuery, searchType) {
+        if (searchType == "SEARCH") {
+          var jsonQuery = {q: searchQuery, limit: 1000, minScore: 0.1 }
+        } else if (searchType == "RECIPE") {
+           var jsonQuery = {dietTypes: searchQuery.replace(/-/g,"_"), limit: 1000, type: "recipe", minScore: 0.1 }
+        } else if (searchType == "RECIPESEARCH") {
+          var jsonQuery = {q: searchQuery, limit: 1000, type: "recipe", minScore: 2.2 }
+        } else if (searchType == "SUN_DESK_ARTICLE") {
+            var jsonQuery = {q: searchQuery, limit: 1000, type: "article", minScore: 0.1 }
+        } else {
+          var jsonQuery = {q: searchQuery, limit: 1000, type: searchType, minScore: 0.1 }
+        }
+
+        if (searchQuery == "soups-and-stews") { jsonQuery.minScore = 3.885844; jsonQuery.q = "soup stew chili broth"; }
+        if (searchQuery == "pasta-and-noodles") { jsonQuery.minScore = 3.01; jsonQuery.q = "pasta noodle soba udon ramen penne rigatoni pappardelle fettuccine orzo spaghetti orecchiette"; }
+        if (searchQuery == "salads-and-bowls") { jsonQuery.minScore = 3.00; jsonQuery.q = "salad bowl"; }
+        if (searchQuery == "eggs") { jsonQuery.minScore = 5.96; }
+        if (searchQuery == "pork") { jsonQuery.minScore = 2.2643218; }
+        if (searchQuery == "tacos") { jsonQuery.minScore = 1.0; jsonQuery.q = "tacos tostadas"; }
+        if (searchQuery == "seafood") { jsonQuery.minScore = 2.0; jsonQuery.q = "fish salmon shrimp cod sole halibut tuna"; }
+        if (searchQuery == "burgers-and-sliders") { jsonQuery.minScore = 3.5121577; jsonQuery.q = "burgers sliders"; }
+
+        return jsonQuery;
+      }
+
+      function loadSomeTiles(response) {
+        if (typeof response == 'undefined') {
+          // exit function if scrolled on non-search page
+            return false;
+        } else {
+            var results = response.results.slice(scrollLoad.pageIndex, scrollLoad.pageIndex + tileAmount);
+        }
+        results = replaceImgWithThumb(results);
+        results = {results: results};
+        var template = $('#explore-tile-template').html();
+
+        var html = Mustache.render(template, results);
+
+        isLoadingTiles = true;
+        var endOfResults = response.results.length;
+        var isDoneLoading = (scrollLoad.pageIndex >= endOfResults - tileAmount);
+
+        if (scrollLoad.pageIndex == 0) {
+          //new category load
+          tileAmount = 20;
+          $('#repopulate').html(html);
+          isLoadingTiles = false;
+          $(".spinner-lg-blue").hide();
+
+        } else if (!isDoneLoading) {
+          //scrolling down
+          tileAmount = 10;
+          setTimeout(function(){
+              $("#repopulate .explore-tile-container").last().after(html);
+              isLoadingTiles = false;
+              $(".spinner-lg-blue").hide();
+          }, 500);
+        }
+
+
+        if (isDoneLoading) {
+          $("footer").show();
+        } else {
+          $(".spinner-lg-blue").show();
+          $("footer").hide();
+        }
+
+        if (scrollLoad.searchQuery !== undefined) {
+          $("#recipesByIngredientTitle").show();
+        }
+      }
+
+      return {
+          // public methods
+
+          loadAjaxContent: function (searchQuery, searchType) {
+
+              scrollLoad.searchQuery = searchQuery;
+
+              $('#repopulate').html("");
+
+              var jsonQuery = prepareJSON(searchQuery, searchType);
+              // on first load, populate content object from json response
+              if (typeof content[searchQuery] === 'undefined' || content[searchQuery].length == 0 ) {
+
+                  $.ajax({
+                      url: "https://rest.sunbasket.com/search",
+                      type: "get",
+                      data: jsonQuery,
+                      success: function (response) {
+
+                          loadSomeTiles(response);
+                          // populate content object
+                          content[searchQuery] = response;
+
+                          if (response.results.length == 0) {
+                              $(".generalSearchPage #repopulate").html("<div class='padding-md'>No results.</div>");
+                          }
+                      }
+                  });
+
+              } else {
+                  // content object already populated
+                  loadSomeTiles(content[searchQuery]);
+              }
+          },
+          loadTilesAtBottom: function() {
+              var scrollBarPos = $(window).scrollTop();
+              var pageBottom = ($(document).height() - $(window).height()) - 60;
+
+              if (scrollBarPos >= pageBottom) {
+
+                  scrollLoad.pageIndex = scrollLoad.pageIndex + tileAmount;
+
+                  if (isLoadingTiles == false) {
+                      loadSomeTiles(content[scrollLoad.searchQuery])
+                  }
+
+              }
+          },
+          searchQuery : searchQuery,
+          pageIndex : pageIndex
+      }
+
+  }());
+
+  $(window).scroll(function() {
+    scrollLoad.loadTilesAtBottom();
+  });
+
+  function replaceImgWithThumb(arr) {
+    for(var i=0; i < arr.length; i++) {
+      var thisImage = arr[i]["image"];
+      if (thisImage.indexOf('tn_') == -1) {
+          thisImage = 'tn_' + thisImage;
+      }
+      arr[i]["imageUrl"] = '//cdn.sunbasket.com/' + thisImage;
+    }
+    return localPathUrls(arr);
+  }
+
+  function localPathUrls(arr) {
+      const TYPE_TO_URI = {
+          'recipe': '/recipe/',
+          'article': '/content/article/',
+          'video': '/video/'
+      }
+
+      var prefix = '';
+      if (document.domain == 'localhost') {
+          prefix = '/' + window.location.pathname.split('/')[1];
+      }
+      for(var i=0; i < arr.length; i++) {
+          arr[i]["webUrl"] = prefix + TYPE_TO_URI[arr[i]["type"]] + arr[i]["slug"];
+      }
+      return arr;
+  }
+
+  function imgLoaded($this) {
+
+    //load background-image of img-container, remove spinner
+    var $imgContainer = $this.parent('a');
+
+    $imgContainer.css('background-image','url('+ $this.attr('src') +')');
+
+    if (scrollLoad.pageIndex == 0) {
+      $imgContainer.parent('.explore-tile').show();
+    } else {
+      $imgContainer.parent('.explore-tile').fadeIn("fast");
+    }
+    $this.remove();
+  }
+</script>
+
+
+<!--
+  This is a more-like-this tile template
+-->
+<script id="more-like-this-template" type="text/template">
+
+  {{ #results }}
+  <div class="col-md-12 col-sm-6">
+      <div class="article-tile-container horizontal right-col">
+          <div class="article-tile">
+              <a class="img-primary" href="{{ webUrl }}">
+                  <img class="article-img" src="{{ imageUrl }}" alt="{{ title }}">
+              </a>
+              <div class="article-info-container">
+                  <div class="article-type-container">
+
+                      <p class="article-type">{{ type }}</p>
+                  </div>
+                  <a class="a-brown" href="{{ webUrl }}">
+                      <p class="title">
+                          {{ title }}
+                      </p>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+  {{ /results }}
+
+</script>
+
+<script>
+  function showMoreLikeThis(articleId) {
+    $.ajax({
+      url: "https://rest.sunbasket.com/search/mlt?articleIds="+ articleId +"&limit=4",
+      type: "get",
+      success: function(response) {
+
+        var results = response.results.slice(0, 4);
+        results = replaceImgWithThumb(results);
+        results = {results: results};
+
+        var template = $('#more-like-this-template').html();
+        var html = Mustache.render(template, results);
+        $('#more-like-this-container').html(html);
+
+      },
+      error: function(xhr) {
+        console.log(xhr);
+      }
+    });
+  }
+
+  function showMoreLikeThisString(query) {
+    // NOTE: This function name is a bit misleading.  It's not using MLT search, it's using keyword search.
+    $.ajax({
+      url: "https://rest.sunbasket.com/search?q="+ query +"&limit=4&type=article",
+      type: "get",
+      success: function(response) {
+
+        var results = response.results.slice(0, 4);
+        results = replaceImgWithThumb(results);
+        results = {results: results};
+
+        var template = $('#more-like-this-template').html();
+        var html = Mustache.render(template, results);
+        $('#more-like-this-container').html(html);
+
+      },
+      error: function(xhr) {
+        console.log(xhr);
+      }
+    });
+  }
+</script>
+
+<!--
+  This is a similar-recipe tile template
+-->
+<script id="similar-recipes-template" type="text/template">
+  {{ #results }}
+  <div class="recipe-tile-container horizontal-tile col-sm-6">
+    <div class="recipe-tile">
+        <a class="img-anchor" href="{{ webUrl }}">
+            <img alt="{{ title }}" src="{{ imageUrl }}" />
+        </a>
+        <div class="name-plate">
+            <div class="name-plate-top">
+                <div class="name">
+                    <a class="a-brown" href="{{ webUrl }}">
+                      {{ title }}
+                    </a>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+  </div>
+  {{ /results }}
+</script>
+
+<script>
+  function showSimilarRecipes(recipeId) {
+    $.ajax({
+      url: "https://rest.sunbasket.com/search/mlt?recipeIds="+ recipeId +"&types=recipe&limit=4",
+      type: "get",
+      success: function(response) {
+
+        var results = response.results.slice(0, 4);
+        results = replaceImgWithThumb(results);
+        results = {results: results};
+
+        var template = $('#similar-recipes-template').html();
+        var html = Mustache.render(template, results);
+        $('.similar-recipes-container').html(html);
+
+      },
+      error: function(xhr) {
+        console.log(xhr);
+      }
+    });
+  }
+
+  $("#global-search-input").on("click", function () {
+     $(this).select();
+  });
+
+  $(".generalSearchPage #search-form").submit(function(e) {
+    e.preventDefault();
+    scrollLoad.pageIndex = 0;
+    scrollLoad.loadAjaxContent($('#global-search-input').val(), "SEARCH");
+    $("#search-results-title").text("Search Results: " + $('#global-search-input').val());
+  });
+
+  //send mobile input val over to regular search input
+  $('.mobile-search-input').keyup(function() {
+    $('#global-search-input').val($(this).val());
+  });
+
+  $("#mobile-search-form").on('click', '.icon-search', function(e) {
+    e.preventDefault();
+    $( "#search-form" ).submit();
+    $('#mobile-global-search-modal .close').click();
+  });
+
+  $(".mobile-search-input").keypress(function(e) {
+      if(e.which == 13) {
+        scrollLoad.pageIndex = 0;
+        scrollLoad.loadAjaxContent($('#global-search-input').val(), "SEARCH");
+        $('#mobile-global-search-modal .close').click();
+      }
+  });
+
+
+  function isHeroColorLightOrDark(hex) {
+    var hex = hex.substring(1);      // strip #
+    var rgb = parseInt(hex, 16);   // convert rrggbb to decimal
+
+    var r = (rgb >> 16) & 0xff;  // extract red
+    var g = (rgb >>  8) & 0xff;  // extract green
+    var b = (rgb >>  0) & 0xff;  // extract blue
+    var luma = 0.2126 * r + 0.7152 * g + 0.0722 * b; // per ITU-R BT.709
+    // console.log("luma " + luma);
+    if (luma >= 150 && luma < 200) {
+        $('#this-week-hero').addClass("hero-color-is-medium");
+    }
+    else if  (luma < 150) {
+      $('#this-week-hero').addClass("hero-color-is-dark");
+    }
+  }
+
+  function selectExploreNavTab() {
+    var currentExploreURL = document.URL;
+    var urlExploreArray = currentExploreURL.split('/');
+    var page;
+    var prettyPage;
+
+    if (urlExploreArray.indexOf('the-sun-times') !== -1) {
+        page = 'the-sun-times';
+    }
+    if (urlExploreArray.indexOf('recipes') !== -1 || urlExploreArray.indexOf('recipe') !== -1 || urlExploreArray.indexOf('snack') !== -1 || urlExploreArray.indexOf('salad') !== -1 || urlExploreArray.indexOf('sauce') !== -1) {
+        page = 'recipes';
+    }
+
+    if (urlExploreArray.indexOf('ingredients') !== -1) {
+        page = 'recipes';
+    }
+
+    $('.explore-subnav ul #' + page + '-tab').addClass('active');
+    var triangle = '<svg class="triangle" height="30" width="50"><polygon points="15,0 35,0 25,10" fill="white"></polygon></svg>';
+    $('.explore-subnav ul #' + page + '-tab').after(triangle);
+
+  }
+
+  function selectRecipesFilterTab() {
+    $('#' + '' + '-recipe-link').addClass('selected');
+    $('#' + '' + 'sm-recipe-link').addClass('selected');
+  }
+
+  // In #video-hero, prevent page scroll while inside .video-roll-container
+
+  $('.video-roll-container').on( 'mousewheel DOMMouseScroll', function (e) {
+    var e0 = e.originalEvent;
+    var delta = e0.wheelDelta || -e0.detail;
+
+    this.scrollTop += ( delta < 0 ? 1 : -1 ) * 10;
+    e.preventDefault();
+  });
+
+
+  function attachStickySideNav() {
+      var window_top = $(window).scrollTop();
+      var footer_top = $('.page-wrapper').height() + $('.page-wrapper').offset().top;
+      if ($('.sticky-anchor').offset()) {
+        var div_top = $('.sticky-anchor').offset().top;
+      }
+      var div_height = $(".sticky").height();
+
+
+        div_height = $(".sticky").height() + 80;
+
+
+      var padding = 20;
+      var margin_top = 20;
+
+        margin_top = 100;
+
+
+
+      if ($(window).width() > 991) {
+
+        if (window_top + div_height > footer_top - padding)
+            $('.sticky').css({top: (window_top + div_height - footer_top + padding) * -1 })
+        else if (window_top > div_top) {
+            $('.sticky').addClass('stick');
+            $('.sticky').css({top: margin_top})
+        } else {
+            $('.sticky').removeClass('stick');
+        }
+
+      } else {
+        $('.sticky').removeClass('stick');
+      }
+  }
+
+  $(window).on("resize scroll",function(e){
+    attachStickySideNav();
+  });
+
+  $(document).ready(function () {
+
+    isHeroColorLightOrDark('');
+    selectRecipesFilterTab();
+    attachStickySideNav();
+    setTimeout(function(){
+        selectExploreNavTab();
+    }, 500);
+
+
+      showSimilarRecipes(1530);
+
+
+    $('a.img-container').on('click', function(e) {
+        var el = $(this);
+        var link = el.attr('href');
+        window.location = link;
+    });
+
+  });
+
+</script>
+<footer>
+    <div id="footer-legal">
+        <div id="footer-mobile" class="visible-xs-block"></div>
+    </div>
+</footer>
+<script>
+
+  // Ready query params in URL
+  function getUrlParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+  };
+
+  var fromJoinFlow = getUrlParameter('m');
+  console.log(fromJoinFlow);
+
+  $(document).ready(function(){
+    if ( fromJoinFlow == "1" ){
+      $('.sticky-back-bar').fadeIn();
+      console.log('From join flow for sure');
+    } else {
+      $('.sticky-back-bar').fadeOut();
+    }
+  });
+</script>
+
+
+<!-- Facebook Pixel Code -->
+<img src="https://www.facebook.com/tr?id=673131866129455&ev=ViewContent&content_ids=%5b'1530'%5d&content_type=product">
+<!-- End Facebook Pixel Code -->

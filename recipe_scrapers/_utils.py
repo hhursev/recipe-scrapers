@@ -1,39 +1,43 @@
+import html
 import re
 
 
 TIME_REGEX = re.compile(
-    r'(\D*(?P<hours>\d+)\s*(hours|hrs|hr|h|Hours|H|óra))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|Minutes|M|perc))?'
+    r"(\D*(?P<hours>\d+)\s*(hours|hrs|hr|h|Hours|H|óra))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|Minutes|M|perc))?"
 )
 
-SERV_REGEX_NUMBER = re.compile(
-    r'(\D*(?P<items>\d+)?\D*)'
+SERVE_REGEX_NUMBER = re.compile(r"(\D*(?P<items>\d+)?\D*)")
+
+SERVE_REGEX_ITEMS = re.compile(
+    r"\bsandwiches\b |\btacquitos\b | \bmakes\b", flags=re.I | re.X
 )
 
-SERV_REGEX_ITEMS = re.compile(
-    r'\bsandwiches\b |\btacquitos\b | \bmakes\b', flags=re.I | re.X
-)
-
-SERV_REGEX_TO = re.compile(
-    r'\d+(\s+to\s+|-)\d+', flags=re.I | re.X
-)
+SERVE_REGEX_TO = re.compile(r"\d+(\s+to\s+|-)\d+", flags=re.I | re.X)
 
 
 def get_minutes(element):
-    try:
-        if isinstance(element, str):
-            tstring = element
-        else:
-            tstring = element.get_text()
-        if '-' in tstring:
-            tstring = tstring.split('-')[1]  # sometimes formats are like this: '12-15 minutes'
-        matched = TIME_REGEX.search(tstring)
+    if element is None:
+        return None
 
-        minutes = int(matched.groupdict().get('minutes') or 0)
-        minutes += 60 * int(matched.groupdict().get('hours') or 0)
+    if isinstance(element, str):
+        time_text = element
+    else:
+        time_text = element.get_text()
+    if time_text.startswith("P") and "T" in time_text:
+        time_text = time_text.split("T", 1)[1]
+    if "-" in time_text:
+        time_text = time_text.split("-")[
+            1
+        ]  # sometimes formats are like this: '12-15 minutes'
+    if "h" in time_text:
+        time_text = time_text.replace("h", "hours") + "minutes"
 
-        return minutes
-    except AttributeError:  # if dom_element not found or no matched
-        return 0
+    matched = TIME_REGEX.search(time_text)
+
+    minutes = int(matched.groupdict().get("minutes") or 0)
+    minutes += 60 * int(matched.groupdict().get("hours") or 0)
+
+    return minutes
 
 
 def get_yields(element):
@@ -43,36 +47,55 @@ def get_yields(element):
     :param element: Should be BeautifulSoup.TAG, in some cases not feasible and will then be text.
     :return: The number of servings or items.
     """
-    try:
+    if isinstance(element, str):
+        serve_text = element
+    else:
+        serve_text = element.get_text()
 
-        if isinstance(element, str):
-            tstring = element
-        else:
-            tstring = element.get_text()
+    if SERVE_REGEX_TO.search(serve_text):
+        serve_text = serve_text.split(SERVE_REGEX_TO.split(serve_text)[1])[1]
 
-        if SERV_REGEX_TO.search(tstring):
-            tstring = tstring.split(SERV_REGEX_TO.split(tstring)[1])[1]
+    matched = SERVE_REGEX_NUMBER.search(serve_text).groupdict().get("items") or 0
+    servings = "{} serving(s)".format(matched)
 
-        matched = SERV_REGEX_NUMBER.search(tstring).groupdict().get('items') or 0
-        servings = "{} serving(s)".format(matched)
+    if SERVE_REGEX_ITEMS.search(serve_text) is not None:
+        # This assumes if object(s), like sandwiches, it is 1 person.
+        # Issue: "Makes one 9-inch pie, (realsimple-testcase, gives "9 items")
+        servings = "{} item(s)".format(matched)
 
-        if SERV_REGEX_ITEMS.search(tstring) is not None:
-            # This assumes if object(s), like sandwiches, it is 1 person.
-            # Issue: "Makes one 9-inch pie, (realsimple-testcase, gives "9 items")
-            servings = "{} item(s)".format(matched)
-
-        return servings
-
-    except AttributeError as e:  # if dom_element not found or no matched
-        print("get_serving_numbers error {}".format(e))
-        return ''
+    return servings
 
 
 def normalize_string(string):
+    # Convert all named and numeric character references (e.g. &gt;, &#62;)
+    unescaped_string = html.unescape(string)
     return re.sub(
-        r'\s+', ' ',
-        string.replace(
-            '\xa0', ' ').replace(  # &nbsp;
-            '\n', ' ').replace(
-            '\t', ' ').strip()
+        r"\s+",
+        " ",
+        unescaped_string.replace("\xa0", " ")
+        .replace("\n", " ")  # &nbsp;
+        .replace("\t", " ")
+        .strip(),
     )
+
+
+def url_path_to_dict(path):
+    pattern = (
+        r"^"
+        r"((?P<schema>.+?)://)?"
+        r"((?P<user>.+?)(:(?P<password>.*?))?@)?"
+        r"(?P<host>.*?)"
+        r"(:(?P<port>\d+?))?"
+        r"(?P<path>/.*?)?"
+        r"(?P<query>[?].*?)?"
+        r"$"
+    )
+    regex = re.compile(pattern)
+    matches = regex.match(path)
+    url_dict = matches.groupdict() if matches is not None else None
+
+    return url_dict
+
+
+def get_host_name(url):
+    return url_path_to_dict(url.replace("://www.", "://"))["host"]
