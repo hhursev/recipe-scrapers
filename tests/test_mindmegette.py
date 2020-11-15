@@ -9,10 +9,10 @@ class TestMindmegetteScraper(ScraperTest):
     scraper_options = {"meta_http_equiv": True}
 
     def test_host(self):
-        self.assertEqual("mindmegette.hu", self.harvester_class.host())
+        self.assertEqual("www.mindmegette.hu", self.harvester_class.host())
 
     def test_language(self):
-        self.assertEqual("hu-HU", self.harvester_class.language())
+        self.assertEqual("hu", self.harvester_class.language())
 
     def test_title(self):
         self.assertEqual(
@@ -25,9 +25,9 @@ class TestMindmegetteScraper(ScraperTest):
     def test_ingredients(self):
         self.assertListEqual(
             [
-                "6 db nagyobb burgonya",
+                "6 db burgonya",
                 "2 db cékla",
-                "8 db közepes méretű répa",
+                "8 db répa",
                 "4 db lilahagyma",
                 "6 gerezd fokhagyma",
                 "friss rozmaring",
@@ -51,6 +51,6 @@ class TestMindmegetteScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "http://mindmegette.hu/images/283/O/tepsis-ceklas.jpg",
+            "https://www.mindmegette.hu/images/283/O/tepsis-ceklas.jpg",
             self.harvester_class.image(),
         )
