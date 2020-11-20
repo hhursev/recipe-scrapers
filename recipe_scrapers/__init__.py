@@ -1,5 +1,5 @@
 import inspect
-from tldextract import TLDExtract
+from tld import get_tld
 
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
@@ -271,9 +271,8 @@ class NoSchemaFoundInWildMode(Exception):
 
 
 def get_domain(url):
-    tldextract = TLDExtract(suffix_list_urls=None)
-    url_info = tldextract(url)
-    return "{}.{}".format(url_info.domain, url_info.suffix)
+    url_info = get_tld(url, as_object=True, search_private=False)
+    return url_info.fld
 
 
 def harvest(url, **options):
