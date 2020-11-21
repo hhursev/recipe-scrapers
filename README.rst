@@ -146,6 +146,7 @@ Scrapers available for:
 - `https://southernliving.com/ <https://southernliving.com/>`_
 - `https://spendwithpennies.com/ <https://spendwithpennies.com/>`_
 - `https://steamykitchen.com/ <https://steamykitchen.com>`_
+- `https://streetkitchen.hu/ <https://streetkitchen.hu>`_
 - `https://sunbasket.com/ <https://sunbasket.com>`_
 - `https://tastesoflizzyt.com <https://tastesoflizzyt.com>`_
 - `https://tasteofhome.com <https://tasteofhome.com>`_
