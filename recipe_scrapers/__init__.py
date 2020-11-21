@@ -80,6 +80,7 @@ from .paninihappy import PaniniHappy
 from .przepisy import Przepisy
 from .purelypope import PurelyPope
 from .realsimple import RealSimple
+from .recipietineats import RecipieTinEats
 from .seriouseats import SeriousEats
 from .simplyquinoa import SimplyQuinoa
 from .simplyrecipes import SimplyRecipes
@@ -195,6 +196,7 @@ SCRAPERS = {
     Przepisy.host(): Przepisy,
     PurelyPope.host(): PurelyPope,
     RealSimple.host(): RealSimple,
+    RecipieTinEats.host(): RecipieTinEats,
     SeriousEats.host(): SeriousEats,
     SimplyQuinoa.host(): SimplyQuinoa,
     SimplyRecipes.host(): SimplyRecipes,
