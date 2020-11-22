@@ -44,7 +44,9 @@ class Delish(AbstractScraper):
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
-        instructions = self.soup.find("ol").findAll("li")
+        instructions = (
+            self.soup.find("div", {"class": "direction-lists"}).find("ol").findAll("li")
+        )
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
