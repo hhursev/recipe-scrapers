@@ -14,7 +14,7 @@ class TestCdKitchen(ScraperTest):
         self.assertEqual("Veal Steak Vesuvio", self.harvester_class.title())
 
     def test_total_time(self):
-        self.assertEqual(165, self.harvester_class.total_time())
+        self.assertEqual(45, self.harvester_class.total_time())
 
     def test_yields(self):
         self.assertEqual("4 serving(s)", self.harvester_class.yields())
