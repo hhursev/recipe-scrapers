@@ -60,6 +60,7 @@ Scrapers available for:
 - `https://www.750g.com <https://www.750g.com>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
+- `https://amazingribs.com/ <https://amazingribs.com/>`_
 - `https://ambitiouskitchen.com/ <https://ambitiouskitchen.com>`_
 - `https://archanaskitchen.com/ <https://archanaskitchen.com/>`_
 - `https://averiecooks.com/ <https://www.averiecooks.com/>`_
@@ -70,8 +71,10 @@ Scrapers available for:
 - `https://bonappetit.com/ <https://bonappetit.com>`_
 - `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
+- `https://cdkitchen.com/ <https://cdkitchen.com/>`_
 - `https://chefkoch.de/ <https://chefkoch.de>`_
 - `https://closetcooking.com/ <https://closetcooking.com>`_
+- `https://cookeatshare.com/ <https://cookeatshare.com/>`_
 - `https://cookieandkate.com/ <https://cookieandkate.com/>`_
 - `https://cookpad.com/ <https://cookpad.com/>`_
 - `https://cookstr.com/ <https://cookstr.com>`_
@@ -90,6 +93,7 @@ Scrapers available for:
 - `https://finedininglovers.com/ <https://www.finedininglovers.com>`_
 - `https://fitmencook.com/ <https://www.fitmencook.com>`_
 - `https://food.com/ <https://www.food.com>`_
+- `https://foodandwine.com/ <https://www.foodandwine.com>`_
 - `https://foodnetwork.com/ <https://www.foodnetwork.com>`_
 - `https://foodrepublic.com/ <https://foodrepublic.com>`_
 - `https://geniuskitchen.com/ <https://geniuskitchen.com>`_
