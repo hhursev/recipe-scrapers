@@ -5,6 +5,7 @@ from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 from .g750g import G750g
 from .allrecipes import AllRecipes
+from .amazingribs import AmazingRibs
 from .ambitiouskitchen import AmbitiousKitchen
 from .acouplecooks import ACoupleCooks
 from .archanaskitchen import ArchanasKitchen
@@ -15,8 +16,10 @@ from .bettycrocker import BettyCrocker
 from .bonappetit import BonAppetit
 from .bowlofdelicious import BowlOfDelicious
 from .budgetbytes import BudgetBytes
+from .cdkitchen import CdKitchen
 from .chefkoch import Chefkoch
 from .closetcooking import ClosetCooking
+from .cookeatshare import CookEatShare
 from .cookieandkate import CookieAndKate
 from .cookpad import CookPad
 from .cookstr import Cookstr
@@ -33,6 +36,7 @@ from .fifteenspatulas import FifteenSpatulas
 from .finedininglovers import FineDiningLovers
 from .fitmencook import FitMenCook
 from .food import Food
+from .foodandwine import FoodAndWine
 from .foodnetwork import FoodNetwork
 from .foodrepublic import FoodRepublic
 from .geniuskitchen import GeniusKitchen
@@ -112,6 +116,7 @@ from .yummly import Yummly
 SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
     AllRecipes.host(): AllRecipes,
+    AmazingRibs.host(): AmazingRibs,
     AmbitiousKitchen.host(): AmbitiousKitchen,
     ArchanasKitchen.host(): ArchanasKitchen,
     AverieCooks.host(): AverieCooks,
@@ -122,8 +127,10 @@ SCRAPERS = {
     BonAppetit.host(): BonAppetit,
     BowlOfDelicious.host(): BowlOfDelicious,
     BudgetBytes.host(): BudgetBytes,
+    CdKitchen.host(): CdKitchen,
     Chefkoch.host(): Chefkoch,
     ClosetCooking.host(): ClosetCooking,
+    CookEatShare.host(): CookEatShare,
     CookieAndKate.host(): CookieAndKate,
     CookPad.host(): CookPad,
     Cookstr.host(): Cookstr,
@@ -141,6 +148,7 @@ SCRAPERS = {
     FineDiningLovers.host(): FineDiningLovers,
     FitMenCook.host(): FitMenCook,
     Food.host(): Food,
+    FoodAndWine.host(): FoodAndWine,
     FoodNetwork.host(): FoodNetwork,
     FoodRepublic.host(): FoodRepublic,
     G750g.host(): G750g,
