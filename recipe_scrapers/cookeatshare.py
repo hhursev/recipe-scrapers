@@ -9,9 +9,6 @@ class CookEatShare(AbstractScraper):
     def title(self):
         return self.schema.title()
 
-    def yields(self):
-        return self.schema.yields()
-
     def total_time(self):
         return 0
 

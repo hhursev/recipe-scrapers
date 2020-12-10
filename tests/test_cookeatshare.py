@@ -13,9 +13,6 @@ class TestCookEatShare(ScraperTest):
     def test_title(self):
         self.assertEqual("Pork Steak Vegetable Bake", self.harvester_class.title())
 
-    def test_yields(self):
-        self.assertEqual("", self.harvester_class.yields())
-
     def test_image(self):
         self.assertEqual(
             "https://assets.cookeatshare.com/assets/recipe-art/stock/3/full-f1e2882559f1146065432f8bdd182440.png",
