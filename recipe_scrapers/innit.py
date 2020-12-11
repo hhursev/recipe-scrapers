@@ -30,3 +30,6 @@ class Innit(AbstractScraper):
 
     def ratings(self):
         return self.schema.ratings()
+
+    def nutrients(self):
+        return self.schema.nutrients()
