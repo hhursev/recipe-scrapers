@@ -99,6 +99,7 @@ Scrapers available for:
 - `https://geniuskitchen.com/ <https://geniuskitchen.com>`_
 - `https://giallozafferano.it/ <https://giallozafferano.it>`_
 - `https://gimmesomeoven.com/ <https://www.gimmesomeoven.com/>`_
+- `https://recietas.globo.com/ <https://www.receitas.globo.com/>`_
 - `https://gonnawantseconds.com/ <https://gonnawantseconds.com>`_
 - `https://gousto.co.uk/ <https://gousto.co.uk>`_
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_

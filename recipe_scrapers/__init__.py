@@ -43,6 +43,7 @@ from .foodrepublic import FoodRepublic
 from .geniuskitchen import GeniusKitchen
 from .giallozafferano import GialloZafferano
 from .gimmesomeoven import GimmeSomeOven
+from .globo import Globo
 from .gonnawantseconds import GonnaWantSeconds
 from .gousto import Gousto
 from .greatbritishchefs import GreatBritishChefs
@@ -161,6 +162,7 @@ SCRAPERS = {
     GeniusKitchen.host(): GeniusKitchen,
     GialloZafferano.host(): GialloZafferano,
     GimmeSomeOven.host(): GimmeSomeOven,
+    Globo.host(): Globo,
     GonnaWantSeconds.host(): GonnaWantSeconds,
     Gousto.host(): Gousto,
     GreatBritishChefs.host(): GreatBritishChefs,
