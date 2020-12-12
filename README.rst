@@ -58,6 +58,7 @@ Scrapers available for:
 -----------------------
 
 - `https://www.750g.com <https://www.750g.com>`_
+- `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
 - `https://amazingribs.com/ <https://amazingribs.com/>`_

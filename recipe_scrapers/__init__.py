@@ -4,6 +4,7 @@ from tldextract import TLDExtract
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 from .g750g import G750g
+from .abril import Abril
 from .allrecipes import AllRecipes
 from .amazingribs import AmazingRibs
 from .ambitiouskitchen import AmbitiousKitchen
@@ -120,6 +121,7 @@ from .yummly import Yummly
 
 
 SCRAPERS = {
+    Abril.host(): Abril,
     ACoupleCooks.host(): ACoupleCooks,
     AllRecipes.host(): AllRecipes,
     AmazingRibs.host(): AmazingRibs,
