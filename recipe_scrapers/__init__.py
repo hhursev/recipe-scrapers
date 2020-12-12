@@ -14,6 +14,7 @@ from .averiecooks import AverieCooks
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
 from .bettycrocker import BettyCrocker
+from .blueapron import BlueApron
 from .bonappetit import BonAppetit
 from .bowlofdelicious import BowlOfDelicious
 from .budgetbytes import BudgetBytes
@@ -85,6 +86,7 @@ from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
 from .przepisy import Przepisy
 from .purelypope import PurelyPope
+from .purplecarrot import PurpleCarrot
 from .realsimple import RealSimple
 from .recipietineats import RecipieTinEats
 from .seriouseats import SeriousEats
@@ -132,6 +134,7 @@ SCRAPERS = {
     BBCFood.host(domain="co.uk"): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
     BettyCrocker.host(): BettyCrocker,
+    BlueApron.host(): BlueApron,
     BonAppetit.host(): BonAppetit,
     BowlOfDelicious.host(): BowlOfDelicious,
     BudgetBytes.host(): BudgetBytes,
@@ -209,6 +212,7 @@ SCRAPERS = {
     PaniniHappy.host(): PaniniHappy,
     Przepisy.host(): Przepisy,
     PurelyPope.host(): PurelyPope,
+    PurpleCarrot.host(): PurpleCarrot,
     RealSimple.host(): RealSimple,
     RecipieTinEats.host(): RecipieTinEats,
     SeriousEats.host(): SeriousEats,

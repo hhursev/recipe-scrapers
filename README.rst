@@ -69,6 +69,7 @@ Scrapers available for:
 - `https://bbc.co.uk/ <http://bbc.co.uk/food/recipes>`_
 - `https://bbcgoodfood.com/ <https://bbcgoodfood.com>`_
 - `https://bettycrocker.com/ <https://bettycrocker.com>`_
+- `https://blueapron.com/ <https://blueapron.com>`
 - `https://bonappetit.com/ <https://bonappetit.com>`_
 - `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
@@ -142,6 +143,7 @@ Scrapers available for:
 - `https://paninihappy.com/ <https://paninihappy.com>`_
 - `https://przepisy.pl/ <https://przepisy.pl>`_
 - `https://purelypope.com/ <https://purelypope.com>`_
+- `https://purplecarrot.com/ <https://purplecarrot.com>`
 - `https://realsimple.com/ <https://www.realsimple.com>`_
 - `https://recipietineats.com/ <https://www.recipetineats.com/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_
