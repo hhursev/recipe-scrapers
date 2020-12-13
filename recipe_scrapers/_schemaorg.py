@@ -111,7 +111,7 @@ class SchemaOrg:
         ]
 
     def nutrients(self):
-        nutrients = self.data.get("nutrition")
+        nutrients = self.data.get("nutrition", {})
         return {
             normalize_string(nutrient): normalize_string(value)
             for nutrient, value in nutrients.items()
