@@ -66,7 +66,6 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
 
     @Decorators.schema_org_priority
     def nutrients(self):
-        """ total time it takes to preparate the recipe in minutes """
         raise NotImplementedError("This should be implemented.")
 
     @Decorators.bcp47_validate
