@@ -10,6 +10,7 @@ from .amazingribs import AmazingRibs
 from .ambitiouskitchen import AmbitiousKitchen
 from .acouplecooks import ACoupleCooks
 from .archanaskitchen import ArchanasKitchen
+from .atelierdeschefs import AtelierDesChefs
 from .averiecooks import AverieCooks
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
@@ -129,6 +130,7 @@ SCRAPERS = {
     AmazingRibs.host(): AmazingRibs,
     AmbitiousKitchen.host(): AmbitiousKitchen,
     ArchanasKitchen.host(): ArchanasKitchen,
+    AtelierDesChefs.host(): AtelierDesChefs,
     AverieCooks.host(): AverieCooks,
     BBCFood.host(): BBCFood,
     BBCFood.host(domain="co.uk"): BBCFood,
