@@ -58,6 +58,7 @@ Scrapers available for:
 -----------------------
 
 - `https://www.750g.com <https://www.750g.com>`_
+- `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
 - `https://amazingribs.com/ <https://amazingribs.com/>`_
@@ -68,6 +69,7 @@ Scrapers available for:
 - `https://bbc.co.uk/ <http://bbc.co.uk/food/recipes>`_
 - `https://bbcgoodfood.com/ <https://bbcgoodfood.com>`_
 - `https://bettycrocker.com/ <https://bettycrocker.com>`_
+- `https://blueapron.com/ <https://blueapron.com>`
 - `https://bonappetit.com/ <https://bonappetit.com>`_
 - `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
@@ -99,6 +101,7 @@ Scrapers available for:
 - `https://geniuskitchen.com/ <https://geniuskitchen.com>`_
 - `https://giallozafferano.it/ <https://giallozafferano.it>`_
 - `https://gimmesomeoven.com/ <https://www.gimmesomeoven.com/>`_
+- `https://recietas.globo.com/ <https://www.receitas.globo.com/>`_
 - `https://gonnawantseconds.com/ <https://gonnawantseconds.com>`_
 - `https://gousto.co.uk/ <https://gousto.co.uk>`_
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
@@ -140,6 +143,7 @@ Scrapers available for:
 - `https://paninihappy.com/ <https://paninihappy.com>`_
 - `https://przepisy.pl/ <https://przepisy.pl>`_
 - `https://purelypope.com/ <https://purelypope.com>`_
+- `https://purplecarrot.com/ <https://purplecarrot.com>`
 - `https://realsimple.com/ <https://www.realsimple.com>`_
 - `https://recipietineats.com/ <https://www.recipetineats.com/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_

@@ -4,6 +4,7 @@ from tldextract import TLDExtract
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 from .g750g import G750g
+from .abril import Abril
 from .allrecipes import AllRecipes
 from .amazingribs import AmazingRibs
 from .ambitiouskitchen import AmbitiousKitchen
@@ -13,6 +14,7 @@ from .averiecooks import AverieCooks
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
 from .bettycrocker import BettyCrocker
+from .blueapron import BlueApron
 from .bonappetit import BonAppetit
 from .bowlofdelicious import BowlOfDelicious
 from .budgetbytes import BudgetBytes
@@ -43,6 +45,7 @@ from .foodrepublic import FoodRepublic
 from .geniuskitchen import GeniusKitchen
 from .giallozafferano import GialloZafferano
 from .gimmesomeoven import GimmeSomeOven
+from .globo import Globo
 from .gonnawantseconds import GonnaWantSeconds
 from .gousto import Gousto
 from .greatbritishchefs import GreatBritishChefs
@@ -83,6 +86,7 @@ from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
 from .przepisy import Przepisy
 from .purelypope import PurelyPope
+from .purplecarrot import PurpleCarrot
 from .realsimple import RealSimple
 from .recipietineats import RecipieTinEats
 from .seriouseats import SeriousEats
@@ -119,6 +123,7 @@ from .yummly import Yummly
 
 
 SCRAPERS = {
+    Abril.host(): Abril,
     ACoupleCooks.host(): ACoupleCooks,
     AllRecipes.host(): AllRecipes,
     AmazingRibs.host(): AmazingRibs,
@@ -129,6 +134,7 @@ SCRAPERS = {
     BBCFood.host(domain="co.uk"): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
     BettyCrocker.host(): BettyCrocker,
+    BlueApron.host(): BlueApron,
     BonAppetit.host(): BonAppetit,
     BowlOfDelicious.host(): BowlOfDelicious,
     BudgetBytes.host(): BudgetBytes,
@@ -161,6 +167,7 @@ SCRAPERS = {
     GeniusKitchen.host(): GeniusKitchen,
     GialloZafferano.host(): GialloZafferano,
     GimmeSomeOven.host(): GimmeSomeOven,
+    Globo.host(): Globo,
     GonnaWantSeconds.host(): GonnaWantSeconds,
     Gousto.host(): Gousto,
     GreatBritishChefs.host(): GreatBritishChefs,
@@ -205,6 +212,7 @@ SCRAPERS = {
     PaniniHappy.host(): PaniniHappy,
     Przepisy.host(): Przepisy,
     PurelyPope.host(): PurelyPope,
+    PurpleCarrot.host(): PurpleCarrot,
     RealSimple.host(): RealSimple,
     RecipieTinEats.host(): RecipieTinEats,
     SeriousEats.host(): SeriousEats,

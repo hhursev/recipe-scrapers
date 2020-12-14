@@ -1,0 +1,1329 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <link rel="stylesheet" media="screen" href="/packs/css/consumer-77f91468.css" />
+
+    <title>Roasted Cauliflower Lentil Bowl | Plant-Based Recipes</title>
+
+    <meta name='description' content='We think you’re going to love this beautifully balanced meal. Curry roasted cauliflower gets crispy in the oven and pairs perfectly with hearty, protein-packed lentils cooked until they’re just tender. Match creamy avocado with a splash of curried balsamic vinaigrette, and this hearty meal is ready to go.'>
+
+    <meta name='keywords' content='Seasonal Menu, Quick and Easy, Spring Recipes, Winter Recipes, Gluten-Free, High-Protein, Nut-Free, Soy-Free, Mediterranean, Grain Bowl, Beans/Legumes, Fruit, Hearty Vegetables, Leafy Greens, Dinner'>
+
+    <meta name="p:domain_verify" content="1d06c844f740a18eb29295fe836bdae8"/>
+
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta charset="UTF-8">
+<script type="text/javascript">var _rollbarConfig = {"accessToken":"edcc8fd41206428b93c9b80eab28e3e5","captureUncaught":true,"captureUnhandledRejections":true,"payload":{"environment":"production"},"hostWhiteList":["purplecarrot.com"]};</script>
+<script type="text/javascript">!function(r){var e={};function o(n){if(e[n])return e[n].exports;var t=e[n]={i:n,l:!1,exports:{}};return r[n].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.m=r,o.c=e,o.d=function(r,e,n){o.o(r,e)||Object.defineProperty(r,e,{enumerable:!0,get:n})},o.r=function(r){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(r,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(r,"__esModule",{value:!0})},o.t=function(r,e){if(1&e&&(r=o(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var t in r)o.d(n,t,function(e){return r[e]}.bind(null,t));return n},o.n=function(r){var e=r&&r.__esModule?function(){return r.default}:function(){return r};return o.d(e,"a",e),e},o.o=function(r,e){return Object.prototype.hasOwnProperty.call(r,e)},o.p="",o(o.s=0)}([function(r,e,o){"use strict";var n=o(1),t=o(5);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdn.rollbar.com/rollbarjs/refs/tags/v2.19.3/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=n.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=n.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,e,o){"use strict";var n=o(2),t=o(3);function a(r){return function(){try{return r.apply(this,arguments)}catch(r){try{console.error("[Rollbar]: Internal error",r)}catch(r){}}}}var l=0;function i(r,e){this.options=r,this._rollbarOldOnError=null;var o=l++;this.shimId=function(){return o},"undefined"!=typeof window&&window._rollbarShims&&(window._rollbarShims[o]={handler:e,messages:[]})}var s=o(4),d=function(r,e){return new i(r,e)},c=function(r){return new s(d,r)};function u(r){return a((function(){var e=this,o=Array.prototype.slice.call(arguments,0),n={shim:e,method:r,args:o,ts:new Date};window._rollbarShims[this.shimId()].messages.push(n)}))}i.prototype.loadFull=function(r,e,o,n,t){var l=!1,i=e.createElement("script"),s=e.getElementsByTagName("script")[0],d=s.parentNode;i.crossOrigin="",i.src=n.rollbarJsUrl,o||(i.async=!0),i.onload=i.onreadystatechange=a((function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){i.onload=i.onreadystatechange=null;try{d.removeChild(i)}catch(r){}l=!0,function(){var e;if(void 0===r._rollbarDidLoad){e=new Error("rollbar.js did not load");for(var o,n,a,l,i=0;o=r._rollbarShims[i++];)for(o=o.messages||[];n=o.shift();)for(a=n.args||[],i=0;i<a.length;++i)if("function"==typeof(l=a[i])){l(e);break}}"function"==typeof t&&t(e)}()}})),d.insertBefore(i,s)},i.prototype.wrap=function(r,e,o){try{var n;if(n="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._rollbar_wrapped&&(r._rollbar_wrapped=function(){o&&"function"==typeof o&&o.apply(this,arguments);try{return r.apply(this,arguments)}catch(o){var e=o;throw e&&("string"==typeof e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e),e}},r._rollbar_wrapped._isWrap=!0,r.hasOwnProperty))for(var t in r)r.hasOwnProperty(t)&&(r._rollbar_wrapped[t]=r[t]);return r._rollbar_wrapped}catch(e){return r}};for(var p="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","),f=0;f<p.length;++f)i.prototype[p[f]]=u(p[f]);r.exports={setupShim:function(r,e){if(r){var o=e.globalAlias||"Rollbar";if("object"==typeof r[o])return r[o];r._rollbarShims={},r._rollbarWrappedError=null;var l=new c(e);return a((function(){e.captureUncaught&&(l._rollbarOldOnError=r.onerror,n.captureUncaughtExceptions(r,l,!0),e.wrapGlobalEventHandlers&&t(r,l,!0)),e.captureUnhandledRejections&&n.captureUnhandledRejections(r,l,!0);var a=e.autoInstrument;return!1!==e.enabled&&(void 0===a||!0===a||"object"==typeof a&&a.network)&&r.addEventListener&&(r.addEventListener("load",l.captureLoad.bind(l)),r.addEventListener("DOMContentLoaded",l.captureDomContentLoaded.bind(l))),r[o]=l,l}))()}},Rollbar:c}},function(r,e,o){"use strict";function n(r,e,o,n){r._rollbarWrappedError&&(n[4]||(n[4]=r._rollbarWrappedError),n[5]||(n[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null);var t=e.handleUncaughtException.apply(e,n);o&&o.apply(r,n),"anonymous"===t&&(e.anonymousErrorsPending+=1)}r.exports={captureUncaughtExceptions:function(r,e,o){if(r){var t;if("function"==typeof e._rollbarOldOnError)t=e._rollbarOldOnError;else if(r.onerror){for(t=r.onerror;t._rollbarOldOnError;)t=t._rollbarOldOnError;e._rollbarOldOnError=t}e.handleAnonymousErrors();var a=function(){var o=Array.prototype.slice.call(arguments,0);n(r,e,t,o)};o&&(a._rollbarOldOnError=t),r.onerror=a}},captureUnhandledRejections:function(r,e,o){if(r){"function"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener("unhandledrejection",r._rollbarURH);var n=function(r){var o,n,t;try{o=r.reason}catch(r){o=void 0}try{n=r.promise}catch(r){n="[unhandledrejection] error getting `promise` from event"}try{t=r.detail,!o&&t&&(o=t.reason,n=t.promise)}catch(r){}o||(o="[unhandledrejection] error getting `reason` from event"),e&&e.handleUnhandledRejection&&e.handleUnhandledRejection(o,n)};n.belongsToShim=o,r._rollbarURH=n,r.addEventListener("unhandledrejection",n)}}}},function(r,e,o){"use strict";function n(r,e,o){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){for(var n=e.addEventListener;n._rollbarOldAdd&&n.belongsToShim;)n=n._rollbarOldAdd;var t=function(e,o,t){n.call(this,e,r.wrap(o),t)};t._rollbarOldAdd=n,t.belongsToShim=o,e.addEventListener=t;for(var a=e.removeEventListener;a._rollbarOldRemove&&a.belongsToShim;)a=a._rollbarOldRemove;var l=function(r,e,o){a.call(this,r,e&&e._rollbar_wrapped||e,o)};l._rollbarOldRemove=a,l.belongsToShim=o,e.removeEventListener=l}}r.exports=function(r,e,o){if(r){var t,a,l="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(t=0;t<l.length;++t)r[a=l[t]]&&r[a].prototype&&n(e,r[a].prototype,o)}}},function(r,e,o){"use strict";function n(r,e){this.impl=r(e,this),this.options=e,function(r){for(var e=function(r){return function(){var e=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,e)}},o="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","),n=0;n<o.length;n++)r[o[n]]=e(o[n])}(n.prototype)}n.prototype._swapAndProcessMessages=function(r,e){var o,n,t;for(this.impl=r(this.options);o=e.shift();)n=o.method,t=o.args,this[n]&&"function"==typeof this[n]&&("captureDomContentLoaded"===n||"captureLoad"===n?this[n].apply(this,[t[0],o.ts]):this[n].apply(this,t));return this},r.exports=n},function(r,e,o){"use strict";r.exports=function(r){return function(e){if(!e&&!window._rollbarInitialized){for(var o,n,t=(r=r||{}).globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;o=window._rollbarShims[i++];)n||(n=o.handler),o.handler._swapAndProcessMessages(l,o.messages);window[t]=n,window._rollbarInitialized=!0}}}}]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="format-detection" content="telephone=no">
+
+  <link rel="apple-touch-icon" type="image/png" href="/packs/media/images/consumer/favicons/apple-touch-icon-57x57-2dc55198bd7eb6c5fe3a1c79034e9130.png" sizes="57x57" />
+  <link rel="apple-touch-icon" type="image/png" href="/packs/media/images/consumer/favicons/apple-touch-icon-114x114-c5be49792e8a0f9c975c9a1f47b58b96.png" sizes="114x114" />
+  <link rel="apple-touch-icon" type="image/png" href="/packs/media/images/consumer/favicons/apple-touch-icon-72x72-54ce2c7b87ad8595d3f6c820850d1321.png" sizes="72x72" />
+  <link rel="apple-touch-icon" type="image/png" href="/packs/media/images/consumer/favicons/apple-touch-icon-144x144-1593c1aea8d5684e3ef5d3422c71dfe4.png" sizes="144x144" />
+  <link rel="apple-touch-icon" type="image/png" href="/packs/media/images/consumer/favicons/apple-touch-icon-60x60-732e8741c18aaceb4ab7e14798cc9df4.png" sizes="60x60" />
+  <link rel="apple-touch-icon" type="image/png" href="/packs/media/images/consumer/favicons/apple-touch-icon-120x120-54277b9cf5cbc757bbdc4f87db2f7551.png" sizes="120x120" />
+  <link rel="apple-touch-icon" type="image/png" href="/packs/media/images/consumer/favicons/apple-touch-icon-76x76-4d3c8c1665c706fd22ca1aa173f43a3e.png" sizes="76x76" />
+  <link rel="apple-touch-icon" type="image/png" href="/packs/media/images/consumer/favicons/apple-touch-icon-152x152-9a4351183e99f5e08b2d1a6c883c241e.png" sizes="152x152" />
+  <link rel="icon" type="image/png" href="/packs/media/images/consumer/favicons/favicon-196x196-0bbab3c44763ebf474bf6d27fde0b3ea.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="/packs/media/images/consumer/favicons/favicon-96x96-8630bc7371130dba9d8f3d162f1cc0a4.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="/packs/media/images/consumer/favicons/favicon-32x32-c33e2324e5899de4828eb901c303ecc8.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/packs/media/images/consumer/favicons/favicon-16x16-f171d45d118d8e3855eb54fa437295bd.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="/packs/media/images/consumer/favicons/favicon-128-8d02b8f31c92757694c6f92a82acb4ee.png" sizes="128x128" />
+
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="/packs/media/images/consumer/favicons/mstile-144x144-1593c1aea8d5684e3ef5d3422c71dfe4.png" />
+  <meta name="msapplication-square70x70logo" content="/packs/media/images/consumer/favicons/mstile-70x70-8d02b8f31c92757694c6f92a82acb4ee.png" />
+  <meta name="msapplication-square150x150logo" content="/packs/media/images/consumer/favicons/mstile-150x150-90b2d3eeaa2d759ebced088736d56533.png" />
+  <meta name="msapplication-wide310x150logo" content="/packs/media/images/consumer/favicons/mstile-310x150-f40a98b3e0e37d8728c58790be3d3602.png" />
+  <meta name="msapplication-square310x310logo" content="/packs/media/images/consumer/favicons/mstile-310x310-4678bf4191112d595820d87df57c125a.png" />
+
+   <style type="text/css">
+      .modal.fade, .modal-dialog, .modal-backdrop {
+        -moz-transition: none !important;
+        -o-transition: none !important;
+        -webkit-transition: none !important;
+        transition: none !important;
+
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -o-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+      }
+   </style>
+
+  <link href="https://www.purplecarrot.com/recipe/roasted-cauliflower-lentil-bowl-with-avocado-curried-balsamic-vinaigrette" rel="canonical" />
+    <script type="application/ld+json">
+    {"@context":"http://schema.org/","@type":"Recipe","name":"Roasted Cauliflower Lentil Bowl with Avocado \u0026 Curried Balsamic Vinaigrette","image":["https://images.purplecarrot.com/uploads/product/image/1357/_1400_700_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg","https://images.purplecarrot.com/uploads/product/archive_image/1357/small_x2_Vegan_TB12_RoastedCauli_Thumb-5-63c923518b986a583a334bf86f4da18f.jpg"],"author":{"@type":"Person","name":"Purple Carrot"},"datePublished":"2020-05-13T06:56:11.845-04:00","description":"We think you’re going to love this beautifully balanced meal. Curry roasted cauliflower gets crispy in the oven and pairs perfectly with hearty, protein-packed lentils cooked until they’re just tender. Match creamy avocado with a splash of curried balsamic vinaigrette, and this hearty meal is ready to go. \r\n","recipeYield":"2","nutrition":{"@type":"NutritionInformation","calories":"530 cal","fatContent":"18 g"},"recipeIngredient":["¾ cup brown lentils","6 oz cauliflower florets ","1 tbsp  curry powder","2 mini sweet peppers","4 oz red grapes","1 avocado","2 tbsp balsamic vinaigrette ","4 oz Arcadian greens","1 tsp vegetable oil*"," Salt and pepper*"," *Not included"," For full ingredient list, see Nutrition"],"recipeInstructions":["1 -  Start the lentils. ","2 - Roast the cauliflower . ","3 -  Prepare the toppings. ","4 - Make the curried balsamic vinaigrette. ","5 - Make the salad. ","6 - Serve. "],"prepTime":"PT30M","totalTime":"PT30M"}
+  </script>
+
+</head>
+
+
+<body  class="is-user-signed-out consumer-layout  recipes-controller show-action">
+
+
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"2a851e70a6","applicationID":"4125542","transactionName":"IVZfRkBZCFpWE04QVQFQQVdBGRdeXBY=","queueTime":11,"applicationTime":308,"agent":""}</script>
+<script>(window.NREUM||(NREUM={})).loader_config={xpid:"UwYCVVRaGwcBVlRXAwM=",licenseKey:"2a851e70a6",applicationID:"4125542"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var i,o=t("ee"),a=t(23),c={};try{i=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,i.indexOf("dev")!==-1&&(c.dev=!0),i.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&o.on("internal-error",function(t){r(t.stack)}),c.dev&&o.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,c){try{p?p-=1:i(c||new UncaughtException(t,e,n),!0)}catch(f){try{o("ierr",[f,s.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function i(t,e){var n=e?null:s.now();o("err",[t,n])}var o=t("handle"),a=t(24),c=t("ee"),s=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(9),t(8),"addEventListener"in window&&t(5),s.xhrWrappable&&t(10),d=!0)}c.on("fn-start",function(t,e,n){d&&(p+=1)}),c.on("fn-err",function(t,e,n){d&&!n[l]&&(f(n,l,function(){return!0}),this.thrown=!0,i(n))}),c.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),c.on("internal-error",function(t){o("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var i=t("ee"),o=t("handle"),a=t(9),c=t(8),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",g="pushState",y=t("loader");y.features.stn=!0,t(7),"addEventListener"in window&&t(5);var x=NREUM.o.EV;i.on(m,function(t,e){var n=t[0];n instanceof x&&(this.bstStart=y.now())}),i.on(w,function(t,e){var n=t[0];n instanceof x&&o("bst",[n,e,this.bstStart,y.now()])}),a.on(m,function(t,e,n){this.bstStart=y.now(),this.bstType=n}),a.on(w,function(t,e){o(v,[e,this.bstStart,y.now(),this.bstType])}),c.on(m,function(){this.bstStart=y.now()}),c.on(w,function(t,e){o(v,[e,this.bstStart,y.now(),"requestAnimationFrame"])}),i.on(g+p,function(t){this.time=y.now(),this.startPath=location.pathname+location.hash}),i.on(g+h,function(t){o("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){o(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){o(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&i(e)}function i(t){c.inPlace(t,[u,d],"-",o)}function o(t,e){return t[1]}var a=t("ee").get("events"),c=t("wrap-function")(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(i(window),i(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=o(arguments),e={};i.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var c=r.apply(this,t);return i.emit(n+"start",[t,a],c),c.then(function(t){return i.emit(n+"end",[null,t],c),t},function(t){throw i.emit(n+"end",[t],c),t})})}var i=t("ee").get("fetch"),o=t(24),a=t(23);e.exports=i;var c=window,s="fetch-",f=s+"body-",u=["arrayBuffer","blob","json","text","formData"],d=c.Request,l=c.Response,p=c.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,e){r(d[h],e,f),r(l[h],e,f)}),r(c,"fetch",s),i.on(s+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),i.emit(s+"done",[null,e],n)}else i.emit(s+"done",[t],n)}))},{}],7:[function(t,e,n){var r=t("ee").get("history"),i=t("wrap-function")(r);e.exports=r;var o=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;o&&o.pushState&&o.replaceState&&(a=o),i.inPlace(a,["pushState","replaceState"],"-")},{}],8:[function(t,e,n){var r=t("ee").get("raf"),i=t("wrap-function")(r),o="equestAnimationFrame";e.exports=r,i.inPlace(window,["r"+o,"mozR"+o,"webkitR"+o,"msR"+o],"raf-"),r.on("raf-start",function(t){t[0]=i(t[0],"fn-")})},{}],9:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function i(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var o=t("ee").get("timer"),a=t("wrap-function")(o),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=o,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),o.on(s+u,r),o.on(c+u,i)},{}],10:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function i(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,g,"fn-",c)}function o(t){y.push(t),h&&(b?b.then(a):w?w(a):(E=-E,R.data=E))}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",g=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(v,i,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),o(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!w&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],11:[function(t,e,n){function r(t){if(!c(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=p.generateSpanId(),m=p.generateTraceId(),w=Date.now(),v={spanId:h,traceId:m,timestamp:w};return(t.sameOrigin||s(t)&&l())&&(v.traceContextParentHeader=i(h,m),v.traceContextStateHeader=o(h,w,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&s(t)&&d())&&(v.newrelicHeader=a(h,m,w,n,r,f)),v}function i(t,e){return"00-"+e+"-"+t+"-01"}function o(t,e,n,r,i){var o=0,a="",c=1,s="",f="";return i+"@nr="+o+"-"+c+"-"+n+"-"+r+"-"+t+"-"+a+"-"+s+"-"+f+"-"+e}function a(t,e,n,r,i,o){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var c={v:[0,1],d:{ty:"Browser",ac:r,ap:i,id:t,tr:e,ti:n}};return o&&r!==o&&(c.d.tk=o),btoa(JSON.stringify(c))}function c(t){return f()&&s(t)}function s(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var i=h(n.allowed_origins[r]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function l(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var p=t(20),h=t(13);e.exports={generateTracePayload:r,shouldGenerateTrace:c}},{}],12:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):o(this,t),n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime]))}}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=s(e),t.sameOrigin=t.parsedOrigin.sameOrigin}function o(t,e){t.params.status=e.status;var n=w(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(13),f=t(11).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(17),m=t(16),w=t(14),v=window.XMLHttpRequest;a.features.xhr=!0,t(10),t(6),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,t.addEventListener("load",function(n){o(e,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],i=this;if(n&&r){var o=m(r);o&&(n.txSize=o)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||i.loadCaptureCalled||(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<l;c++)e.addEventListener(d[c],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof v&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof v&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof v&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url&&(n=t[0].url),n&&(this.parsedOrigin=s(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=f(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if("string"==typeof t[0]){var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),e(o.headers,i)&&(this.dt=i),t.length>1?t[1]=o:t.push(o)}else t[0]&&t[0].headers&&e(t[0].headers,i)&&(this.dt=i)})}},{}],13:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,i={};e.href=t,i.port=e.port;var o=e.href.split("://");!i.port&&o[1]&&(i.port=o[1].split("/")[0].split("@").pop().split(":")[1]),i.port&&"0"!==i.port||(i.port="https"===o[0]?"443":"80"),i.hostname=e.hostname||n.hostname,i.pathname=e.pathname,i.protocol=o[0],"/"!==i.pathname.charAt(0)&&(i.pathname="/"+i.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,c=e.hostname===document.domain&&e.port===n.port;return i.sameOrigin=a&&(!e.hostname||c),"/"===i.pathname&&(r[t]=i),i}},{}],14:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?i(t.response):"text"===n||""===n||void 0===n?i(t.responseText):void 0}var i=t(16);e.exports=r},{}],15:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(23),c=t(24),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=i(l+e,!0,"api")}),u.addPageAction=i(l+"addPageAction",!0),u.setCurrentRouteName=i(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(p+"tracer",[f.now(),t,n],r),function(){if(s.emit((i?"":"no-")+"fn-start",[f.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw s.emit("fn-err",[arguments,this,t],n),t}finally{s.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=i(p+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,f.now(),!1,e])}},{}],16:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],17:[function(t,e,n){var r=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(r=+i[1]),e.exports=r},{}],18:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(25);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],19:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof h&&!w){var e=Math.round(t.timeStamp),n={type:t.type};e<=l.now()?n.fid=l.now()-e:e>l.offset&&e<=Date.now()?(e-=l.offset,n.fid=l.now()-e):e=l.now(),w=!0,d("timing",["fi",e,n])}}function c(t){d("pageHide",[l.now(),t])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var s,f,u,d=t("handle"),l=t("loader"),p=t(22),h=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(m){}f=new PerformanceObserver(i);try{f.observe({entryTypes:["largest-contentful-paint"]})}catch(m){}u=new PerformanceObserver(o);try{u.observe({type:"layout-shift",buffered:!0})}catch(m){}}if("addEventListener"in document){var w=!1,v=["click","keydown","mousedown","pointerdown","touchstart"];v.forEach(function(t){document.addEventListener(t,a,!1)})}p(c)}},{}],20:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<o.length;c++)i=o[c],"x"===i?a+=t().toString(16):"y"===i?(i=3&t()|8,a+=i.toString(16)):a+=i;return a}function i(){return a(16)}function o(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,i=window.crypto||window.msCrypto;i&&i.getRandomValues&&Uint8Array&&(n=i.getRandomValues(new Uint8Array(31)));for(var o=[],a=0;a<t;a++)o.push(e().toString(16));return o.join("")}e.exports={generateUuid:r,generateSpanId:i,generateTraceId:o}},{}],21:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,s=c.match(a);s&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=s[1])}e.exports={agent:i,version:o,match:r}},{}],22:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],23:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],24:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],25:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?s(t,c,o):o()}function n(n,r,i,o){if(!l.aborted||o){t&&t(n,r,i);for(var a=e(i),c=m(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[y[n]];return d&&d.push([x,n,r,a]),a}}function p(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function w(t){return d[t]=d[t]||i(n)}function v(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var g={},y={},x={on:p,addEventListener:p,removeEventListener:h,emit:n,get:w,listeners:m,context:e,buffer:v,abort:a,aborted:!1};return x}function o(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(23),u={},d={},l=e.exports=i();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=x.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(g,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+x.offset],null,"api"),c("timing",["load",n]);var r=l.createElement("script");r.src="https://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===l.readyState&&o()}function o(){c("mark",["domContent",a()+x.offset],null,"api")}var a=t(18),c=t("handle"),s=t(23),f=t("ee"),u=t(21),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},y=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:a.getLastTimestamp(),now:a,origin:v,features:{},xhrWrappable:y,userAgent:u};t(15),t(19),l[p]?(l[p]("DOMContentLoaded",o,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",i),d[h]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var b=0},{}],"wrap-function":[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var i=t("ee"),o=t(24),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,i){function nrWrapper(){var r,a,c,s;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,i],c])}u(e+"start",[r,a,i],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,i,o){i||(i="");var a,c,s,f="-"===i.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+i:i,o,c))}function u(n,r,i){if(!s||e){var o=s;s=!0;try{t.emit(n,r,i,e)}catch(a){l([a,n,r,i])}s=o}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var i in t)c.call(t,i)&&(e[i]=t[i]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=i),n.inPlace=f,n.flag=a,n}},{}]},{},["loader",2,12,4,3]);</script>
+<script src="/packs/js/current_user-c67e79f11464f937137a.js"></script>
+<script>
+//<![CDATA[
+window.gon={};gon.default_signup_coupon={"discount":"$20"};gon.address_autocomplete=false;gon.vwo_tests={"new_plans_page":{"1":{"vwo_test_id":194,"enabled":"false","session_type":"first_time"}},"prepared":{"1":{"vwo_test_id":208,"enabled":"true","session_type":"first_time"}},"prepared_fixed_menu":{"1":{"vwo_test_id":244,"enabled":"true","session_type":"first_time"}},"sign_up_plan_preferences":{"1":{"vwo_test_id":224,"enabled":"true","session_type":"first_time"}}};
+//]]>
+</script>
+
+<!-- Start Visual Website Optimizer Synchronous Code -->
+  <script type='text/javascript'>
+  var _vis_opt_account_id = 279971;
+  var _vis_opt_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://');
+  document.write('<s' + 'cript src="' + _vis_opt_protocol +
+  'dev.visualwebsiteoptimizer.com/deploy/js_visitor_settings.php?v=1&a='+_vis_opt_account_id+'&url='
+  +encodeURIComponent(document.URL)+'&random='+Math.random()+'" type="text/javascript">' + '<\/s' + 'cript>');
+  </script>
+
+  <script type="text/javascript"
+    src="https://www.tp88trk.com/scripts/sdk/everflow.js ">
+  </script>
+
+  <script type='text/javascript'>
+  if(typeof(_vis_opt_settings_loaded) == "boolean") { document.write('<s' + 'cript src="' + _vis_opt_protocol +
+  'd5phz18u4wuww.cloudfront.net/vis_opt.js" type="text/javascript">' + '<\/s' + 'cript>'); }
+  /* if your site already has jQuery 1.4.2, replace vis_opt.js with vis_opt_no_jquery.js above */
+  </script>
+
+  <script type='text/javascript'>
+  if(typeof(_vis_opt_settings_loaded) == "boolean" && typeof(_vis_opt_top_initialize) == "function") {
+          _vis_opt_top_initialize(); vwo_$(document).ready(function() { _vis_opt_bottom_initialize(); });
+  }
+  </script>
+<!-- End Visual Website Optimizer Synchronous Code -->
+<script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
+  <script src="/packs/js/consumer-b8ce3883c5999782afe2.js"></script>
+
+  <!-- facebook analytics -->
+<!-- end facebook analytics -->
+
+
+<!-- Mouseflow tracking -->
+<script type="text/javascript">
+var _mfq = _mfq || [];
+  (function() {
+    var mf = document.createElement("script");
+    mf.type = "text/javascript"; mf.async = true;
+    mf.src = "//cdn.mouseflow.com/projects/f4ecc237-17ed-4134-8b5b-84b61b070d6d.js";
+    document.getElementsByTagName("head")[0].appendChild(mf);
+  })();
+</script>
+
+
+
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="c1L++T47TFAJsItqw1ou/UJLMifb2jAheEtGcluRsYe3w/Rq7QX0Ne93UeuUnWuwGj14LbF3V4qSKrJ+R6eWeA==" />
+
+<!-- Start Heap Analytics Code -->
+  <script async defer type="text/javascript">
+    window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var n=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(n?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(a,o);for(var r=function(e){return function(){window.heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["clearEventProperties","identify", "addUserProperties", "setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=r(p[c])};
+    heap.load("1581363774");
+  </script>
+<!-- End Heap Analytics Code -->
+
+<script type="text/javascript">
+
+  if(currentUserData) {
+    window.intercomSettings = {
+      app_id: "u0gaaqvu",
+      name: currentUserData['display-name'],
+      email: currentUserData['email'],
+      user_id: currentUserData['id'],
+      custom_launcher_selector: '.js-open-intercom'
+    };
+  }
+  else {
+    window.intercomSettings = {
+      app_id: "u0gaaqvu",
+      custom_launcher_selector: '.js-open-intercom'
+    }
+  }
+
+  (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function")
+  {ic('reattach_activator');ic('update',intercomSettings);}else
+  {var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args)
+  {i.q.push(args)};w.Intercom=i;function l()
+  {if(window.IntercomLoaded) return;var s=d.createElement('script');s.type='text/javascript';s.async=true;
+  s.src='https://widget.intercom.io/widget/u0gaaqvu';
+  var x=d.getElementsByTagName('script')[0];
+  x.parentNode.insertBefore(s,x);window.IntercomLoaded=true;}w.addEventListener('scroll',l,false)}})()
+
+  Intercom('onShow', function() {
+    $('#intercom-container').addClass('is-panel-open')
+  });
+
+  Intercom('onHide', function() {
+    $('#intercom-container').removeClass('is-panel-open')
+  });
+</script>
+
+<!-- Impact -->
+  <script type="text/javascript">
+  doNotSell(function() {
+    (function(a,b,c,d,e,f,g){e['ire_o']=c;e[c]= e[c]||function(){(e[c].a=e[c].a||[]).push(arguments)};f=d.createElement(b);g=d.getElementsByTagName(b)[0];f.async=1;f.src=a;g.parentNode.insertBefore(f,g);})('//d.impactradius-event.com/A1331417-d72f-4d0c-8143-132b6d5fca691.js','script','ire',document,window);
+  })</script>
+
+
+  <script>
+  window.dataLayer = window.dataLayer || [];
+
+  if (window.currentUserData && !window.currentUserData.do_not_sell) {
+    window.dataLayer.push({
+      'user_id': currentUserData.id,
+      'sign_up_method': currentUserData.sign_up_method,
+      'returning_subscriber': currentUserData.returning_subscriber,
+      'subscription_state': currentUserData['user-subscription-status'],
+      'signed_up': currentUserData.subscription_registered,
+      'logged_in': currentUserData.logged_in,
+      'userEmail': currentUserData.email
+
+    });
+
+  } else {
+    window.dataLayer = [{'logged_in': 'No'}];
+  }
+</script>
+
+<!-- Google Tag Manager -->
+<script>doNotSell(function(){(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MCNLGG');})</script>
+<!-- End Google Tag Manager -->
+
+
+
+  <!--[if lt IE 10]>
+  <div class="c-alert c-alert--error c-alert--center">
+    <div class="c-alert__text">
+      You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+    </div>
+  </div>
+  <![endif]-->
+
+
+
+  <a class="sr-only" href="#content">Skip to main content</a>
+
+
+    <header class="c-header  js-header " data-fragment="header" role="banner">
+  <div class="l-container">
+
+    <a title="Purple Carrot" class="c-logo-pc" href="/">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 207 41" width="135">
+  <g fill="none" fill-rule="evenodd">
+    <path class="text" fill="#490572" d="M5.278 15.412c3.758 0 5.278 1.595 5.278 5.037 0 3.44-1.52 5.036-5.278 5.036H4.265c-.402 0-.634.21-.634.63v3.358c0 .42-.21.63-.632.63H.634c-.402 0-.634-.232-.634-.63v-13.41c0-.42.21-.63.634-.652h4.644zm.126 6.464c1.014 0 1.52-.126 1.52-1.427 0-1.302-.506-1.428-1.52-1.428h-1.14c-.4 0-.633.21-.633.63v1.594c0 .4.233.63.635.63h1.14zm12.958-6.464c.423 0 .634.21.634.63v8.227c0 1.615.105 2.6 1.668 2.6 1.562 0 1.667-.985 1.667-2.6V16.04c0-.42.234-.63.635-.63h2.364c.42 0 .633.21.633.63v9.34c0 1.384-.296 5.1-5.3 5.1-5.003 0-5.298-3.716-5.298-5.1v-9.34c0-.42.232-.63.633-.63h2.364zM42.435 28.97c.296.545-.042 1.133-.696 1.133H39.33c-.21 0-.4-.105-.486-.294l-2.195-4.22c-.042-.062-.105-.104-.168-.104h-.845c-.38 0-.654.273-.654.65v3.316c0 .378-.275.65-.655.65h-2.364c-.38 0-.655-.272-.655-.65v-13.39c0-.377.274-.65.654-.65h4.623c3.758 0 5.278 1.595 5.278 5.037 0 1.95-.485 3.315-1.604 4.112-.084.064-.105.168-.063.273l2.238 4.135zm-6.798-9.948c-.38 0-.654.273-.654.65v1.553c0 .378.274.65.654.65h1.077c1.013 0 1.52-.125 1.52-1.426 0-1.302-.507-1.428-1.52-1.428h-1.077zm17.426-3.61c3.758 0 5.278 1.595 5.278 5.037 0 3.44-1.52 5.036-5.277 5.036H52.05c-.4 0-.634.21-.634.63v3.358c0 .42-.21.63-.633.63H48.42c-.402 0-.635-.232-.635-.63v-13.41c0-.42.21-.63.634-.652h4.643zm.127 6.464c1.013 0 1.52-.126 1.52-1.427 0-1.302-.507-1.428-1.52-1.428h-1.14c-.4 0-.634.21-.634.63v1.594c0 .4.233.63.634.63h1.14zm13.084-6.464c.422 0 .633.21.633.63v9.822c0 .4.233.63.634.63h4.71c.42 0 .632.21.632.63v2.35c0 .42-.21.63-.633.63h-8.34c-.4 0-.634-.232-.634-.63V16.042c0-.42.233-.63.634-.63h2.364zm20.912 0c.422 0 .633.21.633.63v2.35c0 .4-.212.63-.634.63h-5.11c-.4 0-.632.21-.632.63v.67c0 .4.232.63.633.63h3.272c.42 0 .632.21.632.63v2.35c0 .4-.21.63-.633.63h-3.273c-.4 0-.633.21-.633.63v.672c0 .4.232.63.633.63h5.11c.42 0 .632.21.632.63v2.35c0 .42-.212.63-.634.63H78.32c-.402 0-.634-.232-.634-.63V16.042c0-.42.232-.63.633-.63h8.866zm27.378 4.722c0-1.385.295-5.1 5.298-5.1 4.497 0 5.194 3 5.278 4.617.022.295-.17.526-.464.59l-2.344.524c-.443.084-.78-.21-.844-.65-.105-.924-.486-1.47-1.626-1.47-1.562 0-1.667.987-1.667 2.603v3.022c0 1.615.105 2.6 1.667 2.6 1.16 0 1.478-.545 1.605-1.51.063-.44.4-.714.823-.61l2.386.526c.295.063.486.294.464.61-.084 1.594-.78 4.595-5.278 4.595-5.003 0-5.298-3.714-5.298-5.1v-5.246zm26.69 9.256c0 .46-.21.713-.632.713h-2.365c-.4 0-.633-.21-.633-.63V27.65c0-.42-.21-.63-.633-.63h-1.815c-.4 0-.633.21-.633.63v1.826c0 .42-.21.63-.634.63h-2.364c-.4 0-.633-.253-.633-.714v-8.9c0-2.644.423-5.456 5.173-5.456s5.172 2.812 5.172 5.457v8.9zm-3.63-8.9c0-1.007-.148-1.51-1.54-1.51-1.395 0-1.542.503-1.542 1.51v2.288c0 .4.232.63.633.63h1.816c.423-.02.634-.23.634-.65V20.49zm20.785 8.48c.295.545-.043 1.133-.698 1.133h-2.406c-.212 0-.402-.105-.486-.294l-2.196-4.22c-.042-.062-.105-.104-.17-.104h-.843c-.38 0-.653.273-.653.65v3.316c0 .378-.275.65-.655.65h-2.364c-.38 0-.655-.272-.655-.65v-13.39c0-.377.275-.65.655-.65h4.623c3.76 0 5.28 1.595 5.28 5.037 0 1.95-.487 3.315-1.606 4.112-.084.064-.105.168-.063.273l2.24 4.135zm-6.8-9.948c-.38 0-.653.273-.653.65v1.553c0 .378.274.65.654.65h1.078c1.013 0 1.52-.125 1.52-1.426 0-1.302-.507-1.428-1.52-1.428h-1.077zm23.01 9.948c.296.545-.042 1.133-.696 1.133h-2.407c-.21 0-.4-.105-.486-.294l-2.194-4.22c-.042-.062-.106-.104-.17-.104h-.844c-.38 0-.654.273-.654.65v3.316c0 .378-.275.65-.655.65h-2.364c-.38 0-.656-.272-.656-.65v-13.39c0-.377.275-.65.655-.65h4.622c3.758 0 5.278 1.595 5.278 5.037 0 1.95-.485 3.315-1.604 4.112-.085.064-.106.168-.064.273l2.238 4.135zm-6.798-9.948c-.38 0-.654.273-.654.65v1.553c0 .378.274.65.654.65h1.077c1.012 0 1.52-.125 1.52-1.426 0-1.302-.508-1.428-1.52-1.428h-1.078zm22.172 6.36c0 1.384-.296 5.1-5.3 5.1-5.003 0-5.298-3.716-5.298-5.1v-5.248c0-1.385.295-5.1 5.3-5.1 5.002 0 5.298 3.715 5.298 5.1v5.247zm-3.632-4.136c0-1.615-.105-2.602-1.667-2.602s-1.668.987-1.668 2.602v3.023c0 1.615.106 2.6 1.668 2.6 1.562 0 1.667-.985 1.667-2.6v-3.024zm11.93-1.594c0-.42-.212-.63-.634-.63h-2.956c-.4 0-.633-.23-.633-.63v-2.35c0-.42.23-.63.632-.63h10.81c.42 0 .633.21.633.63v2.35c0 .4-.212.63-.634.63h-2.955c-.4 0-.633.21-.633.63v9.822c0 .398-.21.63-.633.63h-2.366c-.4 0-.633-.232-.633-.63v-9.822z"></path>
+    <path class="carrot" fill="#983794" d="M100.613 37.354c.256 2.256.87 3.146 1.308 3.152.463.006 1.004-1.045 1.286-2.436l.752-4.873c.483-2.51.71-5.615.964-8.248.005-.054.003-.18.026-.305l.036-.26c.008-.053.007-.088.01-.12.14-1.475.17-2.97.38-4.43.192-1.34.138-.826.214-2.1.058-.976-.1-2.06-.67-2.717-.442-.508-1.065-.644-1.652-.76-.505-.097-1-.25-1.514-.27-.873-.038-1.846.224-2.263 1.12-.345.742-.248 1.682-.23 1.91.168 2.228.026.433.19 2.367l.092 1.838c.03.534.064 1.067.098 1.6.068 1.055.138 2.11.21 3.163.03.478.063.955.096 1.432l.667 9.936z"></path>
+    <path class="leaves" fill="#983794" d="M102.565 10.663c.03.12.102.398.144.513 0 0 .416.933.274 1.76-.46 1.173-1.95-2.19-2.084-2.446-.462-.892-.285-.32-.717-1.25-.506-1.087-1.066-2.127-1.56-3.19-.15-.32-.675-1-.54-1.414.188-.567.93-.077.967-.69.02-.29-.433-.98-.557-1.244-.172-.362-.342-.75-.497-1.11C97.74 1 97.38.53 98.04.237c.31-.137.726-.14 1.05-.18.367-.047 1.673-.156 1.945.17.29.35.4 1.313.548 1.795.328 1.07.658 2.126.948 3.218.207.777.026.94-.587 1.086-.664.157-.523.31-.32 1.103.313 1.214.942 3.236.942 3.236zm.944-2.244s.56-1.303.858-2.09c.194-.515.292-.605-.086-.77-.35-.15-.44-.276-.246-.78.273-.708.567-1.387.86-2.077.133-.31.288-.948.492-1.156.19-.196.953-.008 1.166.055.187.055.432.094.603.213.363.255.107.54-.1.915-.125.227-.262.473-.397.7-.098.167-.43.59-.446.788-.034.415.45.15.506.547.042.29-.332.702-.45.902-.39.67-.82 1.32-1.22 2.005-.342.586-.184.22-.54.777-.103.16-1.297 2.287-1.46 1.46-.007-.57.326-1.158.326-1.158.036-.074.104-.254.133-.333z"></path>
+  </g>
+</svg>
+
+</a>
+    <a href="#" title="Toggle menu" class="c-nav-offcanvas-trigger js-nav-offcanvas-trigger" data-show-badge="none" data-mf-replace-inner="**FILTERED**">
+      <div class="c-nav-offcanvas-trigger__icon">
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 12" class="c-nav-offcanvas-trigger__icon-menu" width="20" fill="#444">
+  <path fill-rule="evenodd" d="M13.7 9.5c.7 0 1.3.6 1.3 1.3 0 .6-.6 1.2-1.3 1.2H1.3C.6 12 0 11.4 0 10.8c0-.7.6-1.3 1.3-1.3h12.4zm0-4.8c.7 0 1.3.6 1.3 1.3 0 .7-.6 1.3-1.3 1.3H1.3C.6 7.3 0 6.7 0 6c0-.7.6-1.3 1.3-1.3h12.4zm0-4.7c.7 0 1.3.6 1.3 1.3 0 .6-.6 1.2-1.3 1.2H1.3C.6 2.5 0 1.9 0 1.3 0 .6.6 0 1.3 0h12.4z"></path>
+</svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="c-nav-offcanvas-trigger__icon-close" width="24" fill="#444">
+  <path fill-rule="evenodd" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+</svg>
+
+      </div>
+    </a>
+
+    <nav class="c-nav-header" role="navigation" aria-label="Header navigation" aria-expanded="false">
+      <ul class="c-nav-header__list">
+        <li><a class="c-nav-header__link" href="/why-plants">WHY PLANTS</a></li>
+        <li class="is-feature-disabled-prepared"><a class="c-nav-header__link" href="/weekly-menu">MENUS</a></li>
+        <li class="is-feature-enabled-prepared">
+          <a href="#" class="c-nav-header__link">MENUS <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 8" width="12" fill="#983794">
+  <path fill-rule="evenodd" d="M6.75 8.01l6.75-6.62L12.08 0 6.74 5.23 1.42.01 0 1.4z"></path>
+</svg>
+</a>
+          <ul class="c-nav-header__sublist">
+            <li><a class="c-nav-header__sublink" href="/weekly-menu/meal-kits">Meal Kits</a></li>
+            <li><a class="c-nav-header__sublink" href="/weekly-menu/prepared-meals">Prepared Meals</a></li>
+          </ul>
+        </li>
+        <li><a class="c-nav-header__link" href="/plans">PRICING</a></li>
+        <li><a class="c-nav-header__link" href="/gifts">GIFTS</a></li>
+      </ul>
+    </nav>
+
+    <a class="c-login" href="/users/sign_in">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" role="img" aria-labelledby="amvgz7k7jec0tdebwwqm5hwp78auqpj3" width="17" fill="#983794"><title id="amvgz7k7jec0tdebwwqm5hwp78auqpj3">Sign up</title>
+  <path fill-rule="evenodd" d="M15 0a15 15 0 110 30 15 15 0 010-30zm2 16h-4c-3 0-5.5 2.2-5.5 5 0 .6.5 1 1 1h13c.5 0 1-.4 1-1 0-2.8-2.4-5-5.4-5zM15 6a4.5 4.5 0 000 9 4.5 4.5 0 000-9z"></path>
+</svg>
+
+</a>
+    <a class="c-username js-nav-link" data-show-badge="none" data-mf-replace-inner="**FILTERED**" href="/upcoming-menus">
+      <div class="c-username__icon">
+
+        <div class="sr-only">User: <span data-current-user="display-name">Account</span></div>
+        <span class="c-username__text" data-current-user="display-name-abbr">A</span>
+      </div>
+</a>
+  </div>
+</header>
+
+
+<nav class="c-nav-offcanvas is-user-only-signed-in js-nav-offcanvas" data-fragment="account-offcanvas" role="navigation" aria-label="Offcanvas navigation" aria-expanded="false">
+
+  <div class="c-nav-offcanvas__username c-heading c-heading--decorative-2 c-heading--no-margin">Hi <span data-current-user="display-name"></span></div>
+
+  <ul class="c-nav-offcanvas__list is-user-only-subscribed">
+    <li><a class="c-nav-offcanvas__link" href="/upcoming-menus">Upcoming Deliveries</a></li>
+    <li><a class="c-nav-offcanvas__link" href="/order-history">Order History</a></li>
+    <li class="is-subscription-only-elligible-for-giveaway">
+      <a class="c-nav-offcanvas__link
+
+          " href="/giveaways">Share a Box</a>
+    </li>
+    <li class="is-subscription-except-inactive"><a other_active_path_regex="/subscription/redeem_code" class="c-nav-offcanvas__link" href="/redeem-a-gift">Redeem a Discount or Gift</a></li>
+    <li class="is-subscription-only-inactive"><a class="c-nav-offcanvas__link" href="/gifts">Redeem a Discount or Gift</a></li>
+    <li class="c-nav-offcanvas__divider"></li>
+  </ul>
+
+  <div class="c-nav-offcanvas__title">HELP & SETTINGS</div>
+
+  <ul class="c-nav-offcanvas__list">
+    <li class="is-user-only-subscribed ">
+      <a class="c-nav-offcanvas__link  " href="/profile">My Account</a>
+
+    </li>
+    <li><a class="c-nav-offcanvas__link" href="https://faq.purplecarrot.com">FAQs</a></li>
+    <li><a class="c-nav-offcanvas__link" href="/contacts/new">Contact Us</a></li>
+    <li class="c-nav-offcanvas__divider"></li>
+    <li><a class="c-nav-offcanvas__link is-user-only-subscribed" rel="nofollow" data-method="delete" href="/users/sign_out">Log Out</a></li>
+    <li class="c-nav-offcanvast__divider is-user-only-admin"></li>
+    <li class="is-user-only-admin"><a class="c-nav-offcanvas__link" href="/admin">Admin</a></li>
+  </ul>
+
+</nav>
+
+<nav class="c-nav-offcanvas is-user-only-signed-out js-nav-offcanvas" data-fragment="consumer-offcanvas" role="navigation" aria-label="Offcanvas navigation" aria-expanded="false">
+
+  <div class="c-nav-offcanvas__title">OUR PRODUCT</div>
+
+  <ul class="c-nav-offcanvas__list">
+    <li><a class="c-nav-offcanvas__link" href="/why-plants">Why Plants</a></li>
+    <li class="is-feature-disabled-prepared"><a class="c-nav-offcanvas__link" href="/weekly-menu">Menus</a></li>
+    <li class="is-feature-enabled-prepared"><a class="c-nav-offcanvas__link" href="/weekly-menu/meal-kits">Meal Kits Menu</a></li>
+    <li class="is-feature-enabled-prepared"><a class="c-nav-offcanvas__link" href="/weekly-menu/prepared-meals">Prepared Meals Menu</a></li>
+    <li><a class="c-nav-offcanvas__link" href="/plans">Pricing</a></li>
+    <li><a class="c-nav-offcanvas__link" href="/gifts">Gifts</a></li>
+    <li class="c-nav-offcanvas__divider"></li>
+  </ul>
+
+  <div class="c-nav-offcanvas__title">HELP</div>
+
+  <ul class="c-nav-offcanvas__list">
+    <li><a class="c-nav-offcanvas__link" href="https://faq.purplecarrot.com">FAQs</a></li>
+    <li><a class="c-nav-offcanvas__link" href="/contacts/new">Contact Us</a></li>
+  </ul>
+
+  <a class="c-nav-offcanvas__signup c-button c-button--primary" href="/users/sign_in">Log In</a>
+
+</nav>
+
+
+<div class="c-nav-offcanvas-overlay js-nav-offcanvas-overlay"></div>
+
+
+  <main id="content" role="main" aria-label="Main navigation" tabindex="-1">
+      <div class="l-container">
+
+<div id="notification" class="js-alert-sucess" data-fragment="components-notifications" role"alertdialog" aria-describedby="alert-notification-0">
+</div>
+
+      </div>
+
+
+  <script>var _cio = _cio || [];</script>
+  <script src="https://assets.customer.io/assets/track.js" id="cio-tracker" async="async" data-site-id="d66aaed6a8a41666de7f" data-customerio-event="product_visited" data-customerio-options="{&quot;product_id&quot;:1357}"></script>
+
+
+<div class="c-recipe-details__container">
+  <!-- HERO -->
+          <picture >
+              <source
+        type="image/jpeg"
+        media="(min-width: 1025px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1357/_1400_700_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1357/_1400_700_x2_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 769px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1357/_1199_600_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1357/_1199_600_x2_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 600px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1357/_991_496_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1357/_991_496_x2_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 415px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1357/_767_384_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1357/_767_384_x2_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(max-width: 414px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1357/_767_384_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1357/_767_384_x2_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 2x">
+
+        <img class="c-recipe-hero__image" srcset="https://images.purplecarrot.com/uploads/product/image/1357/_1400_700_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 1x, https://images.purplecarrot.com/uploads/product/image/1357/_1400_700_x2_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 2x" src="https://images.purplecarrot.com/uploads/product/image/1357/_1400_700_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg" />
+      </picture>
+
+
+  <div class="l-container">
+    <!-- RECIPE HEADER -->
+    <div class="row ">
+
+      <div class="col-md-8">
+        <div class="c-recipe-details-header">
+
+          <h1 class="c-recipe-details-header__title">Roasted Cauliflower Lentil Bowl </h1>
+          <h2 class="c-recipe-details-header__subtitle">with Avocado &amp; Curried Balsamic Vinaigrette</h2>
+
+          <div class="c-recipe">
+            <div class="c-recipe__type u-text u-text--xs">
+              <span class="c-recipe__tag--dinner">dinner</span>
+            </div>
+          </div>
+
+          <p class="u-text u-text--lg">We think you’re going to love this beautifully balanced meal. Curry roasted cauliflower gets crispy in the oven and pairs perfectly with hearty, protein-packed lentils cooked until they’re just tender. Match creamy avocado with a splash of curried balsamic vinaigrette, and this hearty meal is ready to go.
+</p>
+          <div class="c-recipe-details-tags clearfix">
+              <span class="c-tag">Seasonal Menu</span>
+              <span class="c-tag">Quick and Easy</span>
+              <span class="c-tag">Spring Recipes</span>
+              <span class="c-tag">Winter Recipes</span>
+              <span class="c-tag">Gluten-Free</span>
+              <span class="c-tag">High-Protein</span>
+              <span class="c-tag">Nut-Free</span>
+              <span class="c-tag">Soy-Free</span>
+              <span class="c-tag">Mediterranean</span>
+              <span class="c-tag">Grain Bowl</span>
+              <span class="c-tag">Beans/Legumes</span>
+              <span class="c-tag">Fruit</span>
+              <span class="c-tag">Hearty Vegetables</span>
+              <span class="c-tag">Leafy Greens</span>
+              <span class="c-tag">Dinner</span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="c-recipe-details-section">
+          <div class="c-recipe-details-stats-container">
+            <div class="c-recipe-details-stats">
+              <div class="c-recipe-details-stats__title">SERVINGS</div>
+
+                <a class="c-button c-button--primary c-button--servings-active" href="/recipe/roasted-cauliflower-lentil-bowl-with-avocado-curried-balsamic-vinaigrette?plan=two_servings">2</a>
+                <a class="c-button c-button--primary c-button--servings-inactive" href="/recipe/roasted-cauliflower-lentil-bowl-with-avocado-curried-balsamic-vinaigrette?plan=tb_12">2</a>
+
+            </div>
+            <div class="c-recipe-details-stats">
+              <div class="c-recipe-details-stats__title">PREP & COOK TIME</div>
+              <div class="c-recipe-details-stats__time">30 min</div>
+            </div>
+          </div>
+
+          <div>
+            <div class="c-recipe-details-nutrient clearfix">
+              <div class="c-recipe-details-nutrient__title">CALORIES</div> <div class="c-recipe-details-nutrient__value">530</div>
+            </div>
+            <div class="c-recipe-details-nutrient clearfix">
+              <div class="c-recipe-details-nutrient__title">FAT</div> <div class="c-recipe-details-nutrient__value">18g</div>
+            </div>
+            <div class="c-recipe-details-nutrient clearfix">
+              <div class="c-recipe-details-nutrient__title">CARBOHYDRATES</div> <div class="c-recipe-details-nutrient__value">73g</div>
+            </div>
+            <div class="c-recipe-details-nutrient clearfix">
+              <div class="c-recipe-details-nutrient__title">PROTEIN</div> <div class="c-recipe-details-nutrient__value">24g</div>
+            </div>
+          </div>
+
+          <div>
+                <a class="c-recipe-details-header__cta c-button c-button--primary c-button--with-icon" href="/plans?signup=modal">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 23">
+  <path fill-rule="evenodd" d="M1.41 0L0 1.4l10.18 10.1L0 21.6 1.41 23 13 11.5z"></path>
+</svg>
+ Get Recipes Delivered
+</a>            <hr class="d-md-none" />
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- INGREDIENTS -->
+    <div class="row">
+
+      <div class="c-recipe-details-ingredients col-xs-8 col-md-9">
+        <div class="c-recipe-details-section">
+
+          <div class="c-recipe-details-section__title">
+            <h2 class="c-heading c-heading--brand-5">MAIN INGREDIENTS</h2>
+          </div>
+
+            <ol>
+                <li>¾ cup brown lentils</li>
+                <li>6 oz cauliflower florets </li>
+                <li>1 tbsp  curry powder</li>
+                <li>2 mini sweet peppers</li>
+                <li>4 oz red grapes</li>
+                <li>1 avocado</li>
+                <li>2 tbsp balsamic vinaigrette </li>
+                <li>4 oz Arcadian greens</li>
+                <li>1 tsp vegetable oil*</li>
+                <li> Salt and pepper*</li>
+                <li> *Not included</li>
+                <li> For full ingredient list, see Nutrition</li>
+            </ol>
+            <div>
+              <strong>Allergens: </strong> soy
+            </div>
+            <a href="#" data-toggle="modal-no-focus" data-target="#recipe-nutrition-1357" class="c-recipe__link c-recipe__link--nutrition c-recipe-details-section__nutrition-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 18" height="18" width="22" fill="#888">
+  <path d="M19.16 13.32H7.38a2.34 2.34 0 0 1-2.33-2.35V2.85A2.32 2.32 0 0 1 7.38.5h11.78c1.3 0 2.34 1.05 2.34 2.35v8.12c0 1.3-1.05 2.34-2.34 2.35zM6.78 2.85v8.12c0 .34.27.61.6.61h11.78a.6.6 0 0 0 .6-.6V2.84a.6.6 0 0 0-.6-.61H7.35a.6.6 0 0 0-.57.6zm7.83 15.01H2.85A2.34 2.34 0 0 1 .5 15.52V7.39c0-1.28.78-2.34 1.86-2.34h1a.87.87 0 0 1 0 1.74h-1c.03 0-.12.24-.12.6v8.13c0 .33.27.6.6.6h11.78c.35 0 .6-.15.6-.12v-1a.87.87 0 1 1 1.73 0v1c0 1.08-1.05 1.86-2.33 1.86z"></path>
+</svg>
+ Nutrition
+            </a>
+
+        </div>
+      </div>
+
+        <div class="col-xs-4 col-md-3">
+          <div class="c-recipe-details-tools c-recipe-details-section">
+            <div class="c-recipe-details-section__title">
+              <h2 class="c-heading c-heading--brand-5">TOOLS</h2>
+            </div>
+            <ul>
+                <li>Baking sheet</li>
+                <li>Small saucepan with lid</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+
+    <!-- RECIPE INSTRUCTIONS -->
+    <div class="c-recipe-details-section">
+
+      <div class="c-recipe-details-section__title">
+        <h2 class="c-heading c-heading--brand-5">INSTRUCTIONS</h2>
+      </div>
+
+      <div class="row">
+          <div class="col-12 c-recipe-step">
+            <div class="c-recipe-step__header">
+              <div class="c-recipe-step__number">
+                1
+              </div>
+              <div class="c-recipe-step__title c-heading c-heading--brand-7">
+                 Start the lentils
+              </div>
+            </div>
+            <p>Preheat the oven to 425°F. Rinse and sort the brown lentils. In a small saucepan, combine the lentils and 1½ cups water and bring to a boil. Cover, and reduce heat to low, and simmer until all of the water is absorbed and the lentils are just tender, about 20 to 25 minutes. Season with salt.
+</p>
+          </div>
+          <div class="col-12 c-recipe-step">
+            <div class="c-recipe-step__header">
+              <div class="c-recipe-step__number">
+                2
+              </div>
+              <div class="c-recipe-step__title c-heading c-heading--brand-7">
+                Roast the cauliflower
+              </div>
+            </div>
+            <p>Add cauliflower florets to a baking sheet and toss with 1 tsp vegetable oil, just 2 tsp curry powder, and a pinch of salt and pepper. Roast until tender and lightly browned, about 8 to 10 minutes.
+</p>
+          </div>
+          <div class="col-12 c-recipe-step">
+            <div class="c-recipe-step__header">
+              <div class="c-recipe-step__number">
+                3
+              </div>
+              <div class="c-recipe-step__title c-heading c-heading--brand-7">
+                 Prepare the toppings
+              </div>
+            </div>
+            <p>Trim, deseed, and thinly slice the mini sweet peppers. Halve the grapes. Halve the avocado, remove the pit, and dice the flesh.
+</p>
+          </div>
+          <div class="col-12 c-recipe-step">
+            <div class="c-recipe-step__header">
+              <div class="c-recipe-step__number">
+                4
+              </div>
+              <div class="c-recipe-step__title c-heading c-heading--brand-7">
+                Make the curried balsamic vinaigrette
+              </div>
+            </div>
+            <p>In a small bowl, combine the balsamic vinaigrette, just ¼ tsp curry powder and a pinch of salt. Whisk the curried balsamic vinaigrette.
+</p>
+          </div>
+          <div class="col-12 c-recipe-step">
+            <div class="c-recipe-step__header">
+              <div class="c-recipe-step__number">
+                5
+              </div>
+              <div class="c-recipe-step__title c-heading c-heading--brand-7">
+                Make the salad
+              </div>
+            </div>
+            <p>Divide the Arcadian greens between large serving bowls and drizzle with just 1 tbsp curried balsamic vinaigrette.
+</p>
+          </div>
+          <div class="col-12 c-recipe-step">
+            <div class="c-recipe-step__header">
+              <div class="c-recipe-step__number">
+                6
+              </div>
+              <div class="c-recipe-step__title c-heading c-heading--brand-7">
+                Serve
+              </div>
+            </div>
+            <p>Top the salads with cooked lentils, sliced peppers, halved grapes, diced avocado, and roasted cauliflower. Drizzle with remaining curried balsamic vinaigrette. </p>
+          </div>
+      </div>
+
+      <div class="c-recipe-details-header__share">
+  Share this Recipe:
+  <div class="addthis_inline_share_toolbox"></div>
+</div>
+
+
+    </div>
+
+    <!-- SIMILAR RECIPES -->
+    <div class="c-recipe-details-section">
+      <div class="c-recipe-details-section__title">
+        <h2 class="c-heading c-heading--brand-5">SIMILAR RECIPES</h2>
+      </div>
+      <div class="row">
+          <a class="col-6 col-md-4 c-card c-recipe js-recipe " href="/recipe/buddha-bowl-wth-green-goddess-dressing-massaged-kale">
+        <picture >
+              <source
+        type="image/jpeg"
+        media="(min-width: 1025px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/701/_368_173_fe91_Vegan_TB12_GreenBuddahBowl_Hero-3-6911b64c213173c704f3f86b16a87ede.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/701/_368_173_x2_fe91_Vegan_TB12_GreenBuddahBowl_Hero-3-6911b64c213173c704f3f86b16a87ede.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 769px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/701/_309_146_fe91_Vegan_TB12_GreenBuddahBowl_Hero-3-6911b64c213173c704f3f86b16a87ede.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/701/_309_146_x2_fe91_Vegan_TB12_GreenBuddahBowl_Hero-3-6911b64c213173c704f3f86b16a87ede.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 600px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/701/_361_170_fe91_Vegan_TB12_GreenBuddahBowl_Hero-3-6911b64c213173c704f3f86b16a87ede.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/701/_361_170_x2_fe91_Vegan_TB12_GreenBuddahBowl_Hero-3-6911b64c213173c704f3f86b16a87ede.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 415px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/701/_184_86_fe91_Vegan_TB12_GreenBuddahBowl_Hero-3-6911b64c213173c704f3f86b16a87ede.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/701/_184_86_x2_fe91_Vegan_TB12_GreenBuddahBowl_Hero-3-6911b64c213173c704f3f86b16a87ede.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(max-width: 414px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/701/_184_86_fe91_Vegan_TB12_GreenBuddahBowl_Hero-3-6911b64c213173c704f3f86b16a87ede.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/701/_184_86_x2_fe91_Vegan_TB12_GreenBuddahBowl_Hero-3-6911b64c213173c704f3f86b16a87ede.jpg 2x">
+
+        <img class="c-recipe__image" srcset="https://images.purplecarrot.com/uploads/product/image/701/_368_173_fe91_Vegan_TB12_GreenBuddahBowl_Hero-3-6911b64c213173c704f3f86b16a87ede.jpg 1x, https://images.purplecarrot.com/uploads/product/image/701/_368_173_x2_fe91_Vegan_TB12_GreenBuddahBowl_Hero-3-6911b64c213173c704f3f86b16a87ede.jpg 2x" src="https://images.purplecarrot.com/uploads/product/image/701/_368_173_fe91_Vegan_TB12_GreenBuddahBowl_Hero-3-6911b64c213173c704f3f86b16a87ede.jpg" />
+      </picture>
+
+  <div class="c-recipe__content">
+    <h3 class="c-recipe__title c-heading c-heading--brand-7">
+      BUDDHA BOWL
+      <span class="u-text--md">with Green Goddess Dressing &amp; Massaged Kale</span>
+    </h3>
+  </div>
+</a>
+          <a class="col-6 col-md-4 c-card c-recipe js-recipe " href="/recipe/black-bean-and-kale-bowl-with-roasted-plantains-and-guacamole">
+        <picture >
+              <source
+        type="image/jpeg"
+        media="(min-width: 1025px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/454/_368_173_d49c_5a65_747cb147_Vegan_CubanBowl_Hero-ac832efbbf7d8e320dc722b1e135a07f.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/454/_368_173_x2_d49c_5a65_747cb147_Vegan_CubanBowl_Hero-ac832efbbf7d8e320dc722b1e135a07f.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 769px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/454/_309_146_d49c_5a65_747cb147_Vegan_CubanBowl_Hero-ac832efbbf7d8e320dc722b1e135a07f.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/454/_309_146_x2_d49c_5a65_747cb147_Vegan_CubanBowl_Hero-ac832efbbf7d8e320dc722b1e135a07f.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 600px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/454/_361_170_d49c_5a65_747cb147_Vegan_CubanBowl_Hero-ac832efbbf7d8e320dc722b1e135a07f.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/454/_361_170_x2_d49c_5a65_747cb147_Vegan_CubanBowl_Hero-ac832efbbf7d8e320dc722b1e135a07f.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 415px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/454/_184_86_d49c_5a65_747cb147_Vegan_CubanBowl_Hero-ac832efbbf7d8e320dc722b1e135a07f.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/454/_184_86_x2_d49c_5a65_747cb147_Vegan_CubanBowl_Hero-ac832efbbf7d8e320dc722b1e135a07f.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(max-width: 414px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/454/_184_86_d49c_5a65_747cb147_Vegan_CubanBowl_Hero-ac832efbbf7d8e320dc722b1e135a07f.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/454/_184_86_x2_d49c_5a65_747cb147_Vegan_CubanBowl_Hero-ac832efbbf7d8e320dc722b1e135a07f.jpg 2x">
+
+        <img class="c-recipe__image" srcset="https://images.purplecarrot.com/uploads/product/image/454/_368_173_d49c_5a65_747cb147_Vegan_CubanBowl_Hero-ac832efbbf7d8e320dc722b1e135a07f.jpg 1x, https://images.purplecarrot.com/uploads/product/image/454/_368_173_x2_d49c_5a65_747cb147_Vegan_CubanBowl_Hero-ac832efbbf7d8e320dc722b1e135a07f.jpg 2x" src="https://images.purplecarrot.com/uploads/product/image/454/_368_173_d49c_5a65_747cb147_Vegan_CubanBowl_Hero-ac832efbbf7d8e320dc722b1e135a07f.jpg" />
+      </picture>
+
+  <div class="c-recipe__content">
+    <h3 class="c-recipe__title c-heading c-heading--brand-7">
+      BLACK BEAN AND KALE BOWL
+      <span class="u-text--md">with Roasted Plantains and Guacamole</span>
+    </h3>
+  </div>
+</a>
+          <a class="col-6 col-md-4 c-card c-recipe js-recipe " href="/recipe/millet-vegetable-fattoush-with-broccolini-and-sumac-vinaigrette">
+        <picture >
+              <source
+        type="image/jpeg"
+        media="(min-width: 1025px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1018/_368_173_Vegan_TB12_Fattoush_Hero-2-d792986d7b4721a695377e051365a337.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1018/_368_173_x2_Vegan_TB12_Fattoush_Hero-2-d792986d7b4721a695377e051365a337.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 769px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1018/_309_146_Vegan_TB12_Fattoush_Hero-2-d792986d7b4721a695377e051365a337.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1018/_309_146_x2_Vegan_TB12_Fattoush_Hero-2-d792986d7b4721a695377e051365a337.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 600px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1018/_361_170_Vegan_TB12_Fattoush_Hero-2-d792986d7b4721a695377e051365a337.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1018/_361_170_x2_Vegan_TB12_Fattoush_Hero-2-d792986d7b4721a695377e051365a337.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 415px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1018/_184_86_Vegan_TB12_Fattoush_Hero-2-d792986d7b4721a695377e051365a337.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1018/_184_86_x2_Vegan_TB12_Fattoush_Hero-2-d792986d7b4721a695377e051365a337.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(max-width: 414px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1018/_184_86_Vegan_TB12_Fattoush_Hero-2-d792986d7b4721a695377e051365a337.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1018/_184_86_x2_Vegan_TB12_Fattoush_Hero-2-d792986d7b4721a695377e051365a337.jpg 2x">
+
+        <img class="c-recipe__image" srcset="https://images.purplecarrot.com/uploads/product/image/1018/_368_173_Vegan_TB12_Fattoush_Hero-2-d792986d7b4721a695377e051365a337.jpg 1x, https://images.purplecarrot.com/uploads/product/image/1018/_368_173_x2_Vegan_TB12_Fattoush_Hero-2-d792986d7b4721a695377e051365a337.jpg 2x" src="https://images.purplecarrot.com/uploads/product/image/1018/_368_173_Vegan_TB12_Fattoush_Hero-2-d792986d7b4721a695377e051365a337.jpg" />
+      </picture>
+
+  <div class="c-recipe__content">
+    <h3 class="c-recipe__title c-heading c-heading--brand-7">
+      MILLET VEGETABLE FATTOUSH
+      <span class="u-text--md">with Broccolini and Sumac Vinaigrette</span>
+    </h3>
+  </div>
+</a>
+          <a class="col-6 col-md-4 c-card c-recipe js-recipe d-md-none" href="/recipe/cajun-roasted-tofu-broccoli-bowl-with-kale-lemon-tahini-dressing">
+        <picture >
+              <source
+        type="image/jpeg"
+        media="(min-width: 1025px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1439/_368_173_Vegan_CajunRoastedTofuBroccoliBowl_Hero-828dcbcc7c8cf34e3200799ca1eff19e.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1439/_368_173_x2_Vegan_CajunRoastedTofuBroccoliBowl_Hero-828dcbcc7c8cf34e3200799ca1eff19e.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 769px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1439/_309_146_Vegan_CajunRoastedTofuBroccoliBowl_Hero-828dcbcc7c8cf34e3200799ca1eff19e.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1439/_309_146_x2_Vegan_CajunRoastedTofuBroccoliBowl_Hero-828dcbcc7c8cf34e3200799ca1eff19e.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 600px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1439/_361_170_Vegan_CajunRoastedTofuBroccoliBowl_Hero-828dcbcc7c8cf34e3200799ca1eff19e.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1439/_361_170_x2_Vegan_CajunRoastedTofuBroccoliBowl_Hero-828dcbcc7c8cf34e3200799ca1eff19e.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 415px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1439/_184_86_Vegan_CajunRoastedTofuBroccoliBowl_Hero-828dcbcc7c8cf34e3200799ca1eff19e.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1439/_184_86_x2_Vegan_CajunRoastedTofuBroccoliBowl_Hero-828dcbcc7c8cf34e3200799ca1eff19e.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(max-width: 414px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1439/_184_86_Vegan_CajunRoastedTofuBroccoliBowl_Hero-828dcbcc7c8cf34e3200799ca1eff19e.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1439/_184_86_x2_Vegan_CajunRoastedTofuBroccoliBowl_Hero-828dcbcc7c8cf34e3200799ca1eff19e.jpg 2x">
+
+        <img class="c-recipe__image" srcset="https://images.purplecarrot.com/uploads/product/image/1439/_368_173_Vegan_CajunRoastedTofuBroccoliBowl_Hero-828dcbcc7c8cf34e3200799ca1eff19e.jpg 1x, https://images.purplecarrot.com/uploads/product/image/1439/_368_173_x2_Vegan_CajunRoastedTofuBroccoliBowl_Hero-828dcbcc7c8cf34e3200799ca1eff19e.jpg 2x" src="https://images.purplecarrot.com/uploads/product/image/1439/_368_173_Vegan_CajunRoastedTofuBroccoliBowl_Hero-828dcbcc7c8cf34e3200799ca1eff19e.jpg" />
+      </picture>
+
+  <div class="c-recipe__content">
+    <h3 class="c-recipe__title c-heading c-heading--brand-7">
+      CAJUN ROASTED BROCCOLI BOWL
+      <span class="u-text--md">with Kale &amp; Lemon Tahini Dressing</span>
+    </h3>
+  </div>
+</a>
+          <a class="col-6 col-md-4 c-card c-recipe js-recipe d-md-none" href="/recipe/plantain-bowl-with-black-beans-loaded-guacamole-3553b1fd-2961-4304-b17d-23bdba2e5fb3">
+        <picture >
+              <source
+        type="image/jpeg"
+        media="(min-width: 1025px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1231/_368_173_Vegan_PlantainBowl_Hero-2-afbb7f6ce1265070742f6ff730d24a82.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1231/_368_173_x2_Vegan_PlantainBowl_Hero-2-afbb7f6ce1265070742f6ff730d24a82.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 769px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1231/_309_146_Vegan_PlantainBowl_Hero-2-afbb7f6ce1265070742f6ff730d24a82.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1231/_309_146_x2_Vegan_PlantainBowl_Hero-2-afbb7f6ce1265070742f6ff730d24a82.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 600px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1231/_361_170_Vegan_PlantainBowl_Hero-2-afbb7f6ce1265070742f6ff730d24a82.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1231/_361_170_x2_Vegan_PlantainBowl_Hero-2-afbb7f6ce1265070742f6ff730d24a82.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 415px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1231/_184_86_Vegan_PlantainBowl_Hero-2-afbb7f6ce1265070742f6ff730d24a82.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1231/_184_86_x2_Vegan_PlantainBowl_Hero-2-afbb7f6ce1265070742f6ff730d24a82.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(max-width: 414px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1231/_184_86_Vegan_PlantainBowl_Hero-2-afbb7f6ce1265070742f6ff730d24a82.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1231/_184_86_x2_Vegan_PlantainBowl_Hero-2-afbb7f6ce1265070742f6ff730d24a82.jpg 2x">
+
+        <img class="c-recipe__image" srcset="https://images.purplecarrot.com/uploads/product/image/1231/_368_173_Vegan_PlantainBowl_Hero-2-afbb7f6ce1265070742f6ff730d24a82.jpg 1x, https://images.purplecarrot.com/uploads/product/image/1231/_368_173_x2_Vegan_PlantainBowl_Hero-2-afbb7f6ce1265070742f6ff730d24a82.jpg 2x" src="https://images.purplecarrot.com/uploads/product/image/1231/_368_173_Vegan_PlantainBowl_Hero-2-afbb7f6ce1265070742f6ff730d24a82.jpg" />
+      </picture>
+
+  <div class="c-recipe__content">
+    <h3 class="c-recipe__title c-heading c-heading--brand-7">
+      PLANTAIN BOWL
+      <span class="u-text--md">with Black Beans &amp; Loaded Guacamole</span>
+    </h3>
+  </div>
+</a>
+          <a class="col-6 col-md-4 c-card c-recipe js-recipe d-md-none" href="/recipe/smoky-chickpea-kale-bowls-with-dill-yogurt-avocado">
+        <picture >
+              <source
+        type="image/jpeg"
+        media="(min-width: 1025px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1748/_368_173_Vegan_Smoky-Chickpea-_-Kale-Bowls-with-Dill-Yogurt-_-Avocado-Hero-7ea353c07e1e311633a2ee29b1c9daba.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1748/_368_173_x2_Vegan_Smoky-Chickpea-_-Kale-Bowls-with-Dill-Yogurt-_-Avocado-Hero-7ea353c07e1e311633a2ee29b1c9daba.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 769px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1748/_309_146_Vegan_Smoky-Chickpea-_-Kale-Bowls-with-Dill-Yogurt-_-Avocado-Hero-7ea353c07e1e311633a2ee29b1c9daba.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1748/_309_146_x2_Vegan_Smoky-Chickpea-_-Kale-Bowls-with-Dill-Yogurt-_-Avocado-Hero-7ea353c07e1e311633a2ee29b1c9daba.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 600px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1748/_361_170_Vegan_Smoky-Chickpea-_-Kale-Bowls-with-Dill-Yogurt-_-Avocado-Hero-7ea353c07e1e311633a2ee29b1c9daba.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1748/_361_170_x2_Vegan_Smoky-Chickpea-_-Kale-Bowls-with-Dill-Yogurt-_-Avocado-Hero-7ea353c07e1e311633a2ee29b1c9daba.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 415px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1748/_184_86_Vegan_Smoky-Chickpea-_-Kale-Bowls-with-Dill-Yogurt-_-Avocado-Hero-7ea353c07e1e311633a2ee29b1c9daba.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1748/_184_86_x2_Vegan_Smoky-Chickpea-_-Kale-Bowls-with-Dill-Yogurt-_-Avocado-Hero-7ea353c07e1e311633a2ee29b1c9daba.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(max-width: 414px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1748/_184_86_Vegan_Smoky-Chickpea-_-Kale-Bowls-with-Dill-Yogurt-_-Avocado-Hero-7ea353c07e1e311633a2ee29b1c9daba.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1748/_184_86_x2_Vegan_Smoky-Chickpea-_-Kale-Bowls-with-Dill-Yogurt-_-Avocado-Hero-7ea353c07e1e311633a2ee29b1c9daba.jpg 2x">
+
+        <img class="c-recipe__image" srcset="https://images.purplecarrot.com/uploads/product/image/1748/_368_173_Vegan_Smoky-Chickpea-_-Kale-Bowls-with-Dill-Yogurt-_-Avocado-Hero-7ea353c07e1e311633a2ee29b1c9daba.jpg 1x, https://images.purplecarrot.com/uploads/product/image/1748/_368_173_x2_Vegan_Smoky-Chickpea-_-Kale-Bowls-with-Dill-Yogurt-_-Avocado-Hero-7ea353c07e1e311633a2ee29b1c9daba.jpg 2x" src="https://images.purplecarrot.com/uploads/product/image/1748/_368_173_Vegan_Smoky-Chickpea-_-Kale-Bowls-with-Dill-Yogurt-_-Avocado-Hero-7ea353c07e1e311633a2ee29b1c9daba.jpg" />
+      </picture>
+
+  <div class="c-recipe__content">
+    <h3 class="c-recipe__title c-heading c-heading--brand-7">
+      SMOKY CHICKPEA &amp; KALE BOWLS
+      <span class="u-text--md">with Dill Yogurt &amp; Avocado </span>
+    </h3>
+  </div>
+</a>
+      </div>
+    </div>
+
+    <!-- BANNER -->
+      <div class="c-recipes-footer">
+  <div class="c-heading c-heading--decorative-2 c-heading--no-margin">100% plant-based,<br class="d-block d-xs-none" /> 100% delicious.</div>
+    <p class="u-text--md u-text--lg-lg">Get Purple Carrot recipes delivered to your door every week.</p>
+    <a class="c-button c-button--primary js-heap-recipes__get-started-link" href="/users/sign_up">Get Started</a>
+</div>
+
+  </div>
+</div>
+
+  <div tabindex="-1" role="dialog" aria-hidden="true" class="modal fade  c-recipe-info js-nutrition-label-modal" id="recipe-nutrition-1357" aria-labelledby="recipe-nutrition-1357-title">
+  <div class="modal-dialog  ">
+    <div class="modal-content">
+
+        <div class="modal-body">
+
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" height="32" width="32">
+  <path fill-rule="evenodd" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+</svg>
+
+    </button>
+
+    <div class="c-recipe-info__selected js-recipe-info__selected d-none">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21" height="20" width="20" fill="#983794">
+  <path fill-rule="evenodd" d="M10.46 20.6a10.14 10.14 0 1 1 0-20.28 10.14 10.14 0 0 1 0 20.28zm5.63-12.48l-1.3-1.28-6.03 5.89-2.62-2.56-1.31 1.28 3.92 3.84 7.34-7.17z"></path>
+</svg>
+ SELECTED
+    </div>
+
+    <div class="c-recipe js-recipe-nutrition">
+
+      <div class="c-sold-out c-sold-out--left">SOLD OUT</div>
+            <picture >
+              <source
+        type="image/jpeg"
+        media="(min-width: 1025px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1357/_420_197_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1357/_420_197_x2_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 769px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1357/_420_197_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1357/_420_197_x2_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 600px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1357/_420_197_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1357/_420_197_x2_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(min-width: 415px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1357/_420_197_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1357/_420_197_x2_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 2x">
+
+      <source
+        type="image/jpeg"
+        media="(max-width: 414px)"
+        srcset="https://images.purplecarrot.com/uploads/product/image/1357/_398_168_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 1x,
+        https://images.purplecarrot.com/uploads/product/image/1357/_398_168_x2_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 2x">
+
+        <img class="c-recipe__image c-order__active-content" srcset="https://images.purplecarrot.com/uploads/product/image/1357/_420_197_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 1x, https://images.purplecarrot.com/uploads/product/image/1357/_420_197_x2_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg 2x" src="https://images.purplecarrot.com/uploads/product/image/1357/_420_197_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg" />
+      </picture>
+
+
+      <div class="c-recipe__content">
+
+        <div class="c-recipe__type u-text u-text--xs">
+          <span class="c-recipe__tag--dinner">DINNER</span>
+          <span class="c-recipe__servings">2 SERVINGS</span>
+        </div>
+
+        <h3 class="c-order__active-content c-recipe__title c-heading c-heading--brand-7">
+          ROASTED CAULIFLOWER LENTIL BOWL
+          <span class="u-text--md">with Avocado &amp; Curried Balsamic Vinaigrette</span>
+        </h3>
+
+        <div class="c-recipe__tags">
+            <span class="c-recipe__tag">Gluten-Free</span>
+            <span class="c-recipe__tag">High-Protein</span>
+            <span class="c-recipe__tag">Soy-Free</span>
+        </div>
+
+        <div class="u-text u-text--error u-text--center js-max-addons-reached d-none">
+          Sorry, we can only accommodate up to six meals. Please unselect another one first.
+        </div>
+
+        <div class="align-items-center justify-content-between d-none">
+          <strong class="u-text u-text--lg">$23.98 per plate</strong>
+          <button class="c-button c-button--primary js-add-meal">Add Meal</button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="u-text--center">
+      <img srcset="https://images.purplecarrot.com/uploads/sku/nutrition_label/2993/x1_PC_NutritionFactsForm-3.4_-Roasted_Cauliflower_Lentil_Bowl_with_Avocado___Curried_Balsamic_Vinaigrette-394f495016f910a509758baa703621b9.jpg 1x, https://images.purplecarrot.com/uploads/sku/nutrition_label/2993/PC_NutritionFactsForm-3.4_-Roasted_Cauliflower_Lentil_Bowl_with_Avocado___Curried_Balsamic_Vinaigrette-394f495016f910a509758baa703621b9.jpg 2x" alt="Nutrition label" src="https://images.purplecarrot.com/uploads/sku/nutrition_label/2993/x1_PC_NutritionFactsForm-3.4_-Roasted_Cauliflower_Lentil_Bowl_with_Avocado___Curried_Balsamic_Vinaigrette-394f495016f910a509758baa703621b9.jpg" />
+    </div>
+
+</div>
+
+</div></div></div>
+
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57c6fab64926c3f1"></script>
+
+  </main>
+
+
+  <div data-fragmentable="true">
+    <footer class="c-footer" role="contentinfo" aria-label="Footer" data-fragment="component-footer">
+
+  <div class="c-footer__form-container d-sm-none">
+    <div class="l-container">
+      <div class="c-footer-form">
+  <form class="simple_form new_weekly_news_form" id="new_weekly_news_form" novalidate="novalidate" action="/weekly_news" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+
+    <h3 class="c-footer-form__title">Sign-Up for Our Weekly Menu</h3>
+
+    <div class="c-form-group email required weekly_news_form_email">
+      <div class="c-input-group c-input-group--button">
+        <input class="string email required" placeholder="Email" type="email" name="weekly_news_form[email]" id="weekly_news_form_email" />
+        <button name="button" type="submit" class="c-button c-button--primary" aria-label="Subscribe for Weekly Menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 23">
+  <path fill-rule="evenodd" d="M1.41 0L0 1.4l10.18 10.1L0 21.6 1.41 23 13 11.5z"></path>
+</svg>
+
+</button>      </div>
+
+</div>
+</form></div>
+
+    </div>
+  </div>
+
+  <div class="c-footer__bg-1">
+
+    <div class="c-footer__bg-2">
+      <div class="l-container">
+        <div class="d-flex justify-content-between align-items-center">
+
+          <div class="c-footer__logo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75" fill="#FFF">
+  <path d="M30.45 70.77c.54.11 1.09.22 1.63.3.07.1.17.17.28.2.15.04.37-.13.45-.07.2.16-.09.96.04 1.39a36.9 36.9 0 01-2.78-.48c.21-.29.9-.57.85-.89-.01-.13-.41-.2-.47-.45zM6.86 52.24c4 8.3 11.17 14.61 19.9 17.52v.08c.01.09.1.16.16.1a.1.1 0 00.03-.11c.58.18 1.15.36 1.74.51l.01.05c.1.08.28.04.41.1.34.14.8.55.8.78 0 .04-.13.1-.2.23-.05.16-.08.33-.08.5A35.43 35.43 0 015.75 53.12c.16.02.47-.18.33-.37-.19-.27-.33.06-.31.03a.7.7 0 00-.1.19l-.2-.41c.23-.07.45-.22.68-.1.15.08.19.35.38.41.19.07.33-.02.52-.19-.02-.2-.26-.02-.4-.2-.02-.18.12-.13.21-.24zm39.1 18.2c-.04.14-.03.35-.24.47-.15.09-.3-.1-.52-.1-.15 0-.2.15-.35.19-.1.02-.24-.09-.3-.08-.23.04-.41.31-.47 0l.01-.06c.63-.12 1.26-.26 1.88-.42zm17.05-8.93c.2-.2.45-.67.75-.25l-.8.86c-.05-.07-.09-.13-.2-.13-.12.16-.03.28-.1.43l-.02.01c-.56-.3.18-.73.37-.92zm-50.25-.42c-.21-.02-.22.18-.23.26-.02.17.19.57.45.58.57.02-.01-.83-.22-.84zm-.56-.6c-.22-.11-.52.53-.32.8.11-.17.56-.66.32-.8zm51.87-1.11c.05.05.08.12.09.19a.26.26 0 00-.06.21c-.14.27-.5.53-.57.71-.17-.3.36-.92.54-1.11zm.56.58c0-.22.46-.75.65-.5l-.58.72c-.04-.04-.07-.1-.07-.22zM3.65 47.8c.1-.02.16-.14.34-.03-.02.18-.1.36-.2.51l-.14-.48zM20.23 6.56c.16.15.35.29.07.47-.14.08-.2-.06-.38-.06.09.34.17.06.34.2.21.18.14.53.29.66l.12.08c-.45.26-.9.52-1.33.8-.08-.07-.23 0-.32-.04-.21-.11-.35-.5-.65-.18-.3.32-.05.5.22.71l-.94.66c-.17-.1-.38-.19-.5-.27 0 .19.04.38.12.55l-.3.21a1.5 1.5 0 00-.09-.06.21.21 0 00-.04.17A34.01 34.01 0 003.52 36.1a2.1 2.1 0 01-.23-.06c-.17-.1-.18-.54-.44-.4.33.57-.8 1.17-.24 1.66-.1-.09.5.17.58.2.1 0 .21-.01.31-.04l.03 1.34c-.02-.05-.08-.1-.21-.12.04.27.18.26.21.18l.05.81c0 .1 0 .18-.02.27-.04.3-.3.65-.06.84l.15-.16c.07.78.17 1.56.3 2.33a.62.62 0 01-.16-.23c-.17.28-.5.92-.26 1.24.23.13.46.27.68.43a33.84 33.84 0 00.8 3.14.52.52 0 01-.24-.1c-.14-.15.07-.62-.31-.61-.36 0 .14.64.01.71-.3-.2-.7-.8-1.02-.41l-.25-.93c.07-.05.16-.15.23-.14.27.03.68.43.93.47.14-.28-.26-.44-.06-.73-.3-.03-.43-.25-.78-.44.35-.16.14-.27.1-.52-.03-.2.2-.26.06-.37-.28-.23-.48.19-.52.54-.3-.34.13-.48.13-.85 0-.33-.35-.5-.06-.91-.28.07-.1.24-.36.3-.09 0-.17-.01-.25-.04a35.3 35.3 0 01-.42-3.56.63.63 0 00.29-.32c0-.17-.17-.17-.32-.28A35.43 35.43 0 0118.79 7.42c.23.26.64.6.86.07-.25-.09-.43 0-.65-.17L19 7.3l1.24-.74zm15.73 14.8c.61.44 1.06 1.35 1.22 2.43l.05.35c.07.36.11.72.13 1.08l.04.68.03.46-5.77 1.13-.24-.79-.01-.06-.31-1-.38-1.26a3.35 3.35 0 01-.16-1.82c.26-1 1.32-1.34 1.88-1.45l.11-.02.17-.03c.36-.03.71-.05 1.07-.04h.4c.62-.01 1.27-.02 1.77.34zm32.54.62c.55.1.49.62 1.11.83h.15c.24.53.47 1.07.68 1.6-.3-.09-.69-.54-1.1-.72-.34-.16-.69-.38-.36-.81-.26-.16-.25-.53-.56-.77zM28.68 7.58c.23.17.46.66.64 1.07l.26.53.34.58c.48.81.92 1.57 1.33 2.37.16.31.22.5.17.62-.04.12-.16.19-.45.32a2 2 0 00-.35.17.54.54 0 00-.2.26c-.09.22.03.43.22.76 0 0 0 .02.02.03l.1.2c.45.79 1.12 1.93 1.49 2.55l.26.44.15.31.11.18v.01s.6.77.64 1.55c-.02.08-.04.12-.06.12-.06.02-.44 0-1.75-1.52l-.45-.54-.1-.13c-.16-.2-.34-.38-.54-.54-.08-.06-.15-.11-.47-.54l-1.28-1.54-1.05-1.26-.25-.28c-.25-.24-.61-.62-.58-.86.02-.16.1-.2.34-.28.23-.07.6-.2.53-.67-.03-.25-.32-.57-.68-.95a4.7 4.7 0 01-.55-.66c-.14-.19-.29-.39-.44-.56a6.72 6.72 0 00-.2-.25L25.83 9c-.15-.18-.27-.35-.25-.48.04-.1.12-.2.22-.25.24-.14.5-.25.78-.32l.22-.07c1.04-.33 1.75-.4 1.89-.3zm36.43 9.34c.06-.16.43-.25.44.04 0 .18-.6.4-.44-.04zm-30.15-9.2h.25a1 1 0 01.38.06c.16.06.18.09.04.48l-.07.2-.2.6-.07.17v.02l-.1.28c-.13.3-.2.5-.2.66.05.38.34.4.48.4.13.01.15.01.17.08.05.14-.1.46-.2.65l-.09.22-.38.98-.5 1.3c-.04.15-.1.3-.18.44-.08.14-.16.28-.21.44l-.08.19a9.44 9.44 0 01-.7 1.51l-.07.08a2.5 2.5 0 01.1-1.1v-.04l.03-.16.04-.19c.03-.12.33-1.45.47-2.28l.04-.2c.1-.45.08-.66-.45-.76-.28-.04-.33-.05-.26-.5.1-.57.23-1.15.35-1.72l.1-.5a2.98 2.98 0 00.08-.46c.04-.27.09-.61.18-.74.09-.1.67-.14 1.05-.12zm30.56 8.07l.36.48a.37.37 0 01-.2.02c-.28-.02-.27-.2-.25-.34a.2.2 0 01.1-.16zm-7.5-7.2a35.63 35.63 0 013.75 3.08c-.21 0-.31.07.03.17.35.09-.02.35.01.53.03.13.28.46.4.48.12.02.09-.19.19-.11.44.33-.09.75.17 1.1.06.07.31.11.45.23.13.11.1.35.2.42.15.1.33-.06.52.1.29.24.2.57-.12.56-.2-.01-.22-.35-.44-.51a.86.86 0 00-.58-.16 33.98 33.98 0 00-5.83-5.06c.06-.13.1-.28.24-.33.06-.03.4.08.41.08.11-.05.08-.19.21-.33.11-.1.24-.18.38-.25zM57 7.91l.56.37a.92.92 0 00-.05.2c0-.03.07.32-.07.37-.08.03-.42-.17-.5-.32-.06-.12.07-.3.06-.55zm-3.2-.5c.4-.43.65.12.84.25.13.08.32.03.39.12.07.1 0 .31-.01.52l-.77-.45a.74.74 0 00-.45-.44zm1.7-.43l.4.23c-.04.23-.24.42-.39.35-.14-.06-.1-.35 0-.58zM53 6.95c.2-.05.32-.43.58-.27-.03.28 0 .5-.1.75l-.36-.2a.55.55 0 00-.04-.05.17.17 0 00-.17-.05l-.33-.18c.07-.25.27.04.42 0zm-1.61-2.07l1.35.61c.08.2.22.37.15.51-.04.1-.3.1-.42.2-.11.11-.24.35-.4.5l-.57-.26a.49.49 0 00-.12-.35c-.27-.3-1.02-.38-.57-.77.13-.1.19 0 .36 0 .15-.16.1-.28.22-.44zm-27.04-.26c.16-.18.82.87.91 1.05l.03.06-.65.26a.68.68 0 01-.02-.14c0-.23.2-.52.14-.67 0 .02-.6-.35-.41-.56zm1.01-.38a35.6 35.6 0 0114.24-2.1c.05.36-.29.7-.63.07-.1.58-.82.27-.94.74-.03.14.12.38.28.53-4.32-.1-8.61.62-12.66 2.13v-.1c.04-.1.18-.18.26-.3.08-.2.12-.4.13-.6l-.2-.13-.48-.24zm25.28.35l.35.14c-.19.05-.4.07-.42.34-.31-.22-.33.11-.51.26-.4-.24-.23-.5.07-.66.15-.1.4.07.48-.04l.03-.04zm-3.56.19c.33-.29.92.04 1.09.38-.35-.12-.7-.22-1.06-.33l-.03-.05zm-6.5-1.44c.02-.53.61.06.46.3l-.38-.03a.58.58 0 01-.09-.27zm4.39-.02c.03-.42.58.12.24.27-.18.08-.25-.14-.24-.27zM39.6 3.2c.17.03.3.17.3.34-.43-.03-.87-.05-1.3-.06a.24.24 0 01.25-.12c.06 0 .15.15.21.14.24-.06.45-.32.54-.3zm.25 70.97c.1.07.25.11.26.16.02.1-.17.33-.39.6-1.2.07-2.41.08-3.62.03.01-.17.05-.26.37 0 .04-.3.2-.58.13-.73 1.08.02 2.17 0 3.25-.06zm-10.8-.93c.97.23 1.96.42 2.95.58a.27.27 0 00-.16.1c-.3.43.38.67.52.3a.3.3 0 00-.15-.37c.34.05.69.1 1.04.13-.03.23.44.56.67.34a1.6 1.6 0 01-.07-.09l-.15-.2c.4.05.8.08 1.2.11-.05.25-.07.5-.03.54.08.09.43.02.47.05.06.06.1.13.12.2a37.74 37.74 0 01-6.43-.91c-.05-.05-.1-.09-.1-.16.01-.07.23-.2.25-.27.05-.18-.09-.18-.14-.35zm16.99.01c.3.1.04.52.04.76l-.4.1-.01-.01c.01-.22.27-.26.3-.44.04-.14-.15-.25-.09-.37zm28.45-41.9a37.72 37.72 0 01-6.88 28.52.15.15 0 00-.09-.1c-.15-.05-.17.18-.13.39a37.28 37.28 0 01-8.2 7.94.19.19 0 01-.06-.08c-.05-.08.04-.12.04-.25-.36.14-.3.42-.33.57l-.49.34a37.33 37.33 0 01-11.58 5.17c.2-.2.3-.41-.05-.64 0-.05.03-.1.06-.14l1.08-.3c-.04.34.02.72.35.67.14-.03.05-.17.14-.4.1-.28.09-.18.04-.43a36.7 36.7 0 009.3-4.4c-.02.15.06.27.16.25.1 0 .2-.28.17-.47a36.7 36.7 0 007.08-6.22.1.1 0 00.1.04c.15-.02.24-.23.24-.44.94-1.1 1.8-2.24 2.6-3.44.03.04.08.07.12.08l-.01.06c0 .17.18.05.17-.05.17 0 .34-.06.47-.17a.35.35 0 00-.33-.56l.32-.5c.05 0 .15-.07.13-.13a.07.07 0 00-.04-.04l.42-.7c.07.28-.04.55.07.83.52-.13.39-.86.02-1A37.01 37.01 0 0074 33.13c.1-.15.2-.33.16-.48-.03-.1-.15-.17-.25-.26l-.16-.99a.14.14 0 01.13-.01c.06.02.03.28.12.31.17.06.42-.13.51-.34zM1.42 44.51a36.7 36.7 0 0023.47 27.5c-.04.23-.2.45-.09.72l.03.06A37.46 37.46 0 01.8 45.25c.17-.2.37-.49.62-.74zM43.5 70.98c-.03.12-.08.25-.15.36-.3.4-.9.91-1.43 1.28-.36.05-.72.08-1.08.11a1.31 1.31 0 00-.16-.4c-.06-.07-.22-.08-.32-.15-.3-.21-.44-.76-.7-.55-.1.08.5.77-.05.72-.24-.02-.29-.47-.4-.55-.32-.21-.74.13-1.19-.16 0-.05 0-.1.03-.14 1.83-.03 3.65-.2 5.45-.52zm5.01-1.3c0 .17-.08.32-.22.4-.3.23-1.16.78-1.38.7-.1-.02-.28-.34-.5-.45.7-.2 1.4-.41 2.1-.65zm5.5-1.72l.06.01c.09.04.04.13.12.26.18.26.25.03.28.29l-.01.06c-.7.37-1.4.73-2.1 1.05-.23-.04-.73-.14-.57-.47.08-.17.52-.02.65-.29.33.35.65.3.76.19.17-.17-.1-.42 0-.64.09-.2.67-.52.87-.45zm-1.09-.12c-.01.2.1.28.06.39-.1.23-.15-.04-.28.05-.14.12.03.25-.14.32-.2.07-.66-.26-.81.36.04-.19.06-.38.04-.58.38-.18.76-.35 1.13-.54zm9.06-6.7a.76.76 0 00.05.5c-.24.28-.56.5-.63.65-.14.33.17 1.21-.6.67-.04.47-.62.22-.74.35-.45.46.5.64.81.46a.84.84 0 00-.34.64 35.25 35.25 0 01-4.15 3.06.47.47 0 00-.1-.09.27.27 0 00-.11.22l-.61.36a.63.63 0 00-.1-.15c-.29-.14-.58.33-1.04-.02a2.69 2.69 0 01-.37-.56c.64-.36 1.28-.74 1.91-1.15.04.05.08.09.13.12a.36.36 0 00.05-.24c2.12-1.38 4.08-3 5.84-4.83zm-24.13.33a1.38 1.38 0 11.13 2.75 1.38 1.38 0 01-.13-2.75zm-4.42-.32l.06.01c.02 0 .04.02.06.05l.66 1.75 1.1-1.53a.09.09 0 01.07-.03l.06.01c.03 0 .06.04.06.07l.1 2.6a.07.07 0 01-.09.08l-.44-.06a.08.08 0 01-.07-.07l-.02-1.2-.8 1.15a.1.1 0 01-.07.04l-.06-.01a.08.08 0 01-.07-.05l-.48-1.31-.31 1.15a.07.07 0 01-.08.05l-.45-.06a.07.07 0 01-.06-.1l.75-2.49a.08.08 0 01.08-.05zm8.64.6c.13.38-.04.8-.4.98l.67.88a.07.07 0 01-.05.12l-.5.07c-.03 0-.05 0-.07-.02l-.66-.92-.26.04.15.96c0 .04-.02.08-.06.08l-.45.07a.07.07 0 01-.08-.06l-.4-2.5a.07.07 0 01.07-.08l1.13-.18c.4-.06.78.17.91.55zm-4.5.4a.76.76 0 10.62 1.4.76.76 0 00-.61-1.4zm6.84-1.7c.02 0 .03.02.04.04l.1.4a.07.07 0 01-.04.1l-1.02.27.12.46.84-.23c.04-.01.08.01.1.05l.1.4a.07.07 0 01-.05.09l-.84.23.14.5 1.02-.28a.07.07 0 01.09.05l.11.4a.07.07 0 01-.05.09l-1.53.42a.07.07 0 01-.09-.05l-.67-2.44c-.01-.04 0-.08.05-.09l1.53-.42h.05zm-14.8-.28l1.62.52c.04.02.06.06.05.1l-.13.39a.07.07 0 01-.1.05l-.51-.17-.62 1.95a.08.08 0 01-.1.04l-.43-.14a.08.08 0 01-.05-.09l.62-1.95-.53-.17a.07.07 0 01-.04-.09l.12-.4a.07.07 0 01.1-.04zm-1.44-.63l.03.01c.03.02.04.04.05.07l.06 2.83a.07.07 0 01-.1.07l-.39-.17c-.06-.03-.08-.06-.08-.14v-.34l-.95-.41-.25.22a.15.15 0 01-.16.03l-.38-.17a.07.07 0 01-.04-.12l2.13-1.87a.09.09 0 01.08-.01zm13.02 2.2l-.56.09.1.59.56-.09a.32.32 0 00.24-.35.3.3 0 00-.34-.24zm6.9-2.4a.85.85 0 01-.17 1.51l-.37.17.38.81c.01.04 0 .08-.04.1l-.41.2a.07.07 0 01-.1-.05l-1.05-2.29a.07.07 0 01.03-.1l.84-.38a.85.85 0 01.9.03zM27.73 60.6l-.52.46.53.24-.01-.7zm-2.55-2.6l1.37.8c.03.02.05.06.03.1l-.21.36a.07.07 0 01-.1.02l-.92-.53-.24.4.76.45c.03.02.04.06.02.1l-.21.35a.07.07 0 01-.1.03l-.75-.44-.26.44.91.54a.07.07 0 01.03.1l-.21.36a.07.07 0 01-.1.02l-1.37-.8a.07.07 0 01-.02-.1l1.27-2.18a.07.07 0 01.1-.02zm23.96.36l1.04 1.76.8-.47c.03-.02.07 0 .1.03l.2.35a.07.07 0 01-.02.1l-1.24.74a.07.07 0 01-.1-.03l-1.3-2.17a.07.07 0 01.03-.1l.4-.23c.03-.02.07-.01.09.02zm-1.73 1.47l-.33.15.25.54.33-.16a.3.3 0 00.15-.4.3.3 0 00-.4-.13zm4-3.08l2.51 1.32a.07.07 0 01.01.12l-.34.25a.13.13 0 01-.16 0l-.29-.15-.83.63.08.33c.02.06 0 .12-.05.15l-.34.26a.07.07 0 01-.12-.04l-.6-2.77c0-.03 0-.06.02-.08l.03-.02a.08.08 0 01.08 0zm18.53-31.7c.19-.26.18.09.35.1a.68.68 0 00.39-.19 35.5 35.5 0 01-.81 26.95c-.16-.07-.46.27-.46.29-.02.19.1.23.23.2a35.16 35.16 0 01-2.61 4.66.12.12 0 00-.07-.04c-.11-.02-.45.5-.59.57-.22.1-.37-.15-.63.06-.11.1-.04.3-.18.48-.1.13-.33.15-.38.23a.8.8 0 00-.11.32c-.05-.04-.13-.06-.18 0 .02.08.09.13.16.13a.37.37 0 01-.14.25c-.15.1-.1-.06-.3-.07a.63.63 0 00-.26.05c.02-.14-.05-.41-.08-.1l-.05.07.04.06a.1.1 0 01-.06.01.46.46 0 01-.24-.2 35.32 35.32 0 001.64-2.14c.3.14.3-.2.22-.36a34 34 0 004.37-28.46.2.2 0 01.1-.03c.21 0 .46.82.76.47.06-.07-.22-.95-.25-.98-.14-.12-.56-.02-.72-.15-.1-.1-.01-.34-.15-.5-.02-.03-.06-.03-.11-.03l-.3-.81h.05c.24 0 .57.7.8.13.17-.39-.5-.59-.43-.98zM52.01 57.7l.16.67.46-.35-.62-.32zm2.45-3.63l1.81 1.82c.03.03.03.07 0 .1l-.04.04a.12.12 0 01-.05.02h-2.14l1 1.01c.03.03.03.08 0 .1l-.31.32a.08.08 0 01-.1 0l-1.83-1.82a.07.07 0 010-.1l.07-.07 2.12-.04-.96-.96a.07.07 0 010-.1l.32-.32a.08.08 0 01.1 0zm-37.18-5.38a.34.34 0 01-.22.44l-1.38.67a.47.47 0 01-.63-.28c-.2-.57-.52-.86-1.24-.69-.97.24-.91.89-.67 1.9l.45 1.9c.24 1.01.46 1.61 1.45 1.38.74-.18.85-.57.8-1.2a.44.44 0 01.42-.5l1.56-.04c.19 0 .36.13.39.32.2 1.02.2 3.02-2.63 3.7-3.15.75-3.88-1.57-4.08-2.43l-.79-3.27c-.2-.89-.56-3.27 2.56-4.01 2.83-.68 3.7 1.1 4 2.11zm38.71 3.4l.06.01.32.26c.03.03.04.07.02.1l-.34.43 1.6 1.27c.03.02.03.07 0 .1l-.28.36a.08.08 0 01-.1.01l-1.6-1.26-.34.43a.07.07 0 01-.1.01l-.33-.26a.07.07 0 010-.1l1.04-1.33a.07.07 0 01.05-.03zM27.6 46.8l1.27 5.63c.07.3-.03.49-.28.55l-1.48.35a.35.35 0 01-.48-.3l-.27-1.13a.35.35 0 00-.47-.3l-1.16.28a.35.35 0 00-.3.47l.27 1.14a.35.35 0 01-.3.48l-1.49.35c-.26.07-.42-.06-.5-.36l-1.34-5.6c-.4-1.66-.55-3.5 2.45-4.22 3-.72 3.68 1 4.08 2.66zm41.5 5.81c-.5.2-.93.75-1.17 1.3.15.05.96-.33 1.01-.4.05-.08-.02-.38.03-.51.07-.19.4-.22.13-.39zM57.53 50.4l.14.31c.02.05.02.12-.02.14-.05.01-.37.14-.5.34-.07.09-.05.23.04.3.12.08.27.04.54-.16s.71-.46 1.15-.18c.33.21.48.71.18 1.19-.15.27-.4.48-.71.57-.06.02-.07.02-.1-.04l-.18-.31a.1.1 0 01.05-.12c.19-.08.35-.2.48-.35a.24.24 0 00-.06-.35c-.13-.08-.31-.04-.53.13-.29.2-.73.42-1.11.17-.32-.2-.48-.66-.17-1.15.17-.25.4-.44.69-.54a.1.1 0 01.11.05zm-19.6-6.11c.28 1.23.2 2.16-.4 2.83a.18.18 0 000 .19l2.02 2.31a.47.47 0 01-.26.82l-1.5.36a.3.3 0 01-.35-.13l-2.01-2.35a.12.12 0 00-.13-.03l-.54.12a.4.4 0 00-.31.51l.5 2.09a.4.4 0 01-.32.5l-1.5.36a.4.4 0 01-.5-.31l-2-8.45a.4.4 0 01.3-.51l2.92-.7c2.35-.56 3.56.23 4.07 2.39zm31.7 6.56c.4.09.13-1.2-.14-.44-.1.3-.1.4.13.44zm-45.6-4.19c-.88.21-.89.55-.74 1.19l.34 1.43a.36.36 0 00.48.3l1.14-.27a.38.38 0 00.29-.5l-.3-1.43c-.16-.65-.32-.93-1.2-.72zm24.07-4.8c.29 1.22.2 2.16-.4 2.83a.18.18 0 000 .18l2.02 2.32a.47.47 0 01-.26.82l-1.5.36a.3.3 0 01-.35-.13l-2-2.35a.13.13 0 00-.13-.04l-.55.13a.4.4 0 00-.31.5l.5 2.1a.4.4 0 01-.32.5l-1.48.36a.4.4 0 01-.5-.32l-2.02-8.45a.4.4 0 01.31-.5l2.91-.7c2.36-.56 3.56.23 4.08 2.38zm9.94-2.56l.8 3.32c.2.89.56 3.27-2.55 4-3.16.76-3.88-1.55-4.09-2.42l-.79-3.32c-.21-.88-.57-3.26 2.55-4 3.15-.76 3.88 1.56 4.08 2.42zm-23.59 4.89l-.66.17a.4.4 0 00-.32.5l.23.98a.4.4 0 00.5.32l.68-.16c.65-.16.93-.32.74-1.13-.2-.82-.54-.83-1.17-.68zm-19.77-7.53c.53 2.24-.22 3.53-2.66 4.11l-.67.16a.37.37 0 00-.32.5l.52 2.2a.37.37 0 01-.31.51l-1.55.37a.38.38 0 01-.5-.31l-2.1-8.81c-.07-.28.03-.44.3-.53l3.08-.76c2.45-.59 3.67.32 4.2 2.56zm39.8 2.52c-1 .24-.9.88-.66 1.89l.45 1.89c.24 1.02.45 1.62 1.45 1.38 1-.23.9-.88.67-1.89l-.45-1.89c-.24-1.01-.46-1.62-1.45-1.38zm12.92-5.1c.1.06.16.15.17.26l.35 1.47a.35.35 0 01-.3.48l-1.84.44a.35.35 0 00-.3.47l1.49 6.2a.35.35 0 01-.3.48l-1.48.36a.36.36 0 01-.48-.29l-1.55-6.19a.35.35 0 00-.48-.3l-1.85.46a.36.36 0 01-.47-.3l-.35-1.48a.36.36 0 01.3-.47l6.78-1.62c.1-.04.22-.03.31.03zM.36 32.33c.23.57.41 1.15.56 1.74-.28 2.88-.21 5.78.2 8.64-.2-.1-.5-.18-.54-.11-.13.2.15.15.23.44.03.1-.12.62-.26.91a37.64 37.64 0 01-.19-11.62zm44.26 9.43l-.66.18a.4.4 0 00-.32.5l.23.98a.4.4 0 00.51.31l.68-.16c.65-.15.93-.31.73-1.13-.2-.81-.54-.83-1.17-.68zM23.9 31.1c.1.06.16.17.17.29l1.46 6.13c.22.91.6 3.4-2.66 4.17-3.26.78-4.04-1.6-4.26-2.51l-1.46-6.14a.38.38 0 01.31-.5l1.54-.38a.37.37 0 01.5.31l1.3 5.42c.25 1.06.48 1.68 1.5 1.44 1.03-.25.94-.91.69-1.96l-1.3-5.42a.38.38 0 01.32-.51l1.55-.37c.11-.04.24-.03.34.03zm11.22.7c.3 1.27.2 2.26-.42 2.96a.14.14 0 000 .18l2.16 2.37a.51.51 0 01-.28.87l-1.57.38a.35.35 0 01-.37-.12l-2.1-2.44a.12.12 0 00-.13-.04l-.55.13a.42.42 0 00-.32.53l.52 2.18a.42.42 0 01-.33.53l-1.55.37a.42.42 0 01-.54-.33l-2.1-8.79a.42.42 0 01.34-.53l3.02-.72c2.45-.59 3.69.24 4.22 2.47zm-24 4.76l-.76.18a.37.37 0 00-.31.5l.25 1.07a.38.38 0 00.5.32l.76-.21c.68-.16.98-.33.77-1.17-.2-.84-.5-.9-1.21-.69zm34.73-7.32c.54 2.23-.2 3.53-2.65 4.1l-.68.17a.37.37 0 00-.31.5l.52 2.2a.37.37 0 01-.31.5l-1.53.38a.38.38 0 01-.51-.31l-2.1-8.82c-.07-.27.03-.44.3-.53l3.05-.67c2.45-.59 3.69.24 4.22 2.48zm4.77-4.51c.1.06.16.17.17.28l1.53 6.45a.39.39 0 00.51.32l3.08-.75a.37.37 0 01.5.32l.38 1.55a.37.37 0 01-.32.5l-5.45 1.3a.38.38 0 01-.5-.31l-2.1-8.82a.38.38 0 01.3-.5l1.56-.37a.37.37 0 01.34.03zm-19.04 6.96l-.73.15a.42.42 0 00-.32.54l.24 1.01a.42.42 0 00.53.33l.72-.17c.68-.16.98-.32.77-1.16-.2-.84-.54-.86-1.21-.7zm32.68-10.22c.1.07.17.17.17.3l.37 1.54a.37.37 0 01-.31.5l-3.34.8a.37.37 0 00-.32.5l.1.43a.38.38 0 00.51.32l2.13-.5a.37.37 0 01.51.3l.37 1.56a.37.37 0 01-.32.5l-2.13.51a.37.37 0 00-.32.5l.1.44a.38.38 0 00.51.32l3.34-.8a.37.37 0 01.51.32l.38 1.58a.37.37 0 01-.32.51l-5.8 1.38a.38.38 0 01-.5-.32l-2.1-8.82a.38.38 0 01.31-.5l5.8-1.39v.01l.02-.02c.1-.04.23-.03.33.03zm-21.97 7.66l-.76.18a.37.37 0 00-.32.5l.25 1.07a.38.38 0 00.51.31l.76-.2c.68-.16.98-.32.78-1.17-.2-.85-.54-.85-1.22-.7zM7.13 15.49l.05.06c.13.07.27-.09.4.02.23.21-.12.29.13.4-3.1 4.3-5.22 9.2-6.25 14.4-.2-.15-.4.3-.23.52a.8.8 0 00-.43.12c-.06-.14-.13-.2-.2-.18 1-5.53 3.23-10.78 6.53-15.34zm65.86 12.43c.04.02.08.05.12.1.14.16.08.42.2.62.06.13.22.17.27.25.14.24-.15.36-.09.56.04.12.29.17.27.3a.23.23 0 01-.29.21c-.14-.68-.3-1.37-.48-2.04zm-.21-1.13c.08-.05.52.06.7.12l.17.56c-.07.1-.04.22-.18.22-.19-.26-.26-.43-.47-.34-.05.04-.1.1-.12.17l-.19-.63a.26.26 0 01.09-.1zm-.52-1.53c.24.26.38.44.65.55.08.03.16.04.25.04l.23.73c-.25.16-.63 0-.87-.25l-.33-1.01a.45.45 0 01.07-.06zm-69.86.8c-.13-.06-.59.3-.71.48.27.27 1.05-.3.71-.47zm70.05-2.17l.2.55c-.16.14-.35.3-.47.14a.7.7 0 01.12-.6c.04-.04.1-.07.15-.09zm-7.24-10.54c.1-.04.2-.03.29.01.14.09.17.7.56.52.19-.1-.06-.12.1-.31a.3.3 0 01.17-.07 37.37 37.37 0 014.91 7.62c-.04 0-.05.06-.08.22-.06.25-.13.4.3.27a.9.9 0 01.08.13l.03.06c.13.33.04.69.42.95l.01.04c-.37.29-.5-.2-.76-.4-.15.06-.09.22-.1.28a36.64 36.64 0 00-2.58-4.83c.11-.1.19-.26-.04-.34a.16.16 0 00-.16.04l-.31-.48a36.67 36.67 0 00-2.84-3.7zm-56.92.62c.06.04.12.08.13.14.01.13-.17.1-.24.27-.08.2.25.71-.05.85a.6.6 0 00.08.07l-.2.27H8c-.12-.37-.27-.2-.43-.43a.45.45 0 01-.03-.2c.25-.34.5-.65.75-.97zM24.95 2.14c-.12.15-.2.34-.15.48 0 .05.28.12.32.18l.04.07a36.81 36.81 0 00-16 11.22.2.2 0 00-.03-.1c-.07-.14-.42-.25-.43-.41 0-.01.22-.17.24-.22 0-.05-.01-.1-.05-.13A37.6 37.6 0 0124.95 2.14zm40.5 10.34l.71.83c-.09.18-.19.31-.4.04-.1-.13-.04-.27-.1-.35-.1-.14-.44-.09-.4-.39 0-.08.12-.1.19-.13zm-.8-.86l.53.57c0 .06-.02.11-.05.16-.13.15-.35-.1-.53.26 0-.15-.2-.26-.33-.3l-.47-.5a.17.17 0 01.17-.03c.14.04.11.2.18.21.18 0 .32-.27.5-.37zm-1.38-1.36h.02l.7.67c.03.1.03.2-.02.25-.12.1-.45-.08-.56-.26-.1-.17.02-.53-.16-.66a.2.2 0 01.04 0zm-.32.32h.06c.17.07.17.3.08.52l-.37-.35c.1-.08.18-.2.29-.16zm-1.15-.8c.15-.1.82-.14.9.22.01.08-.15.32-.24.52-.24-.23-.48-.45-.73-.66a.23.23 0 01.07-.08zm-.62-.74c.12-.33.63.18.52.34-.09.15-.6-.08-.52-.34zm-.94-1.38l.26.2c-.16.1-.23.34-.32.36-.13.02-.37-.16-.32-.3.01-.07.2-.18.38-.26zM22.82 6.29c-.36-.43-.12-.95.28-.82.15.05.4.32.27.58-.08.17-.5.37-.32.63l-.87.42c.24-.34.51-.6.03-.97.21-.25.35.17.6.16zm-1.55.23c.19-.55.85.28.43.52-.29.16-.48-.37-.43-.52zM38.82.02C44.93.26 50.9 1.96 56.2 5a.26.26 0 00-.12.1c-.08.14.06.5.2.59.13.09.15-.15.37-.07.04.03.08.16.13.16.2.01.42-.15.49-.12.35.16.04.64.09.92a36.99 36.99 0 00-18.9-5.8c.1-.1.18-.2.27-.32.07-.13.1-.27.1-.42zm-12.7 1.73c.03.23.12.44.28.6l.08.08-.6.2v-.07c-.06-.28-.15-.01-.33-.19-.09-.1-.15-.23-.19-.37l.76-.25zM37.58 0l.85.01a.86.86 0 01-.09.2c-.1.16-.22.4-.19.55-1.7-.03-3.41.05-5.1.26.06-.1.06-.22 0-.33-.33.17-.36.3-.29.36-1.25.16-2.5.39-3.72.68.04-.19-.38-.4-.43-.22-.03.11.08.22.2.27-.46.11-.92.24-1.38.37a.3.3 0 00.1-.1c.03-.07.03-.46-.12-.5-.27-.05-.2.51-.4.53a.8.8 0 00-.55-.43c.59-.18 1.17-.34 1.75-.5.05.18.07.41.32.21a.44.44 0 01-.21-.23 36.2 36.2 0 012.67-.57c.08.2.25.36.36.33.15-.05.1-.23 0-.4l.28-.04h.07l.65-.1c.05.16.09.34.1.51.14-.16.23-.35.27-.56l.44-.06c-.05.3.2.14.29-.03.79-.08 1.58-.14 2.37-.18-.07.16-.05.36.09.42.08-.14.02-.28-.01-.42a37.5 37.5 0 012.53-.02z"></path>
+</svg>
+
+          </div>
+
+          <nav class="c-footer__links" role="navigation" aria-label="Footer navigation">
+            <ul>
+              <li><a href="https://faq.purplecarrot.com">FAQs</a></li>
+              <li><a href="/contacts/new">Contact Us</a></li>
+              <li>
+                <a class="d-md-none" href="https://app.impact.com/campaign-mediapartner-signup/Purple-Carrot.brand?execution=e1s1">Affiliates</a>
+                <a class="d-none d-md-inline-block" href="https://app.impact.com/campaign-mediapartner-signup/Purple-Carrot.brand?execution=e1s1">Affiliate Program</a>
+              </li>
+              <li><a href="https://thepurplecarrot.workable.com/">Careers</a></li>
+              <li><a class="is-user-only-signed-out" target="_blank" href="https://purple-carrot-us.connect.studentbeans.com/us">Student Beans</a>&nbsp;</li>
+              <li class="is-user-only-signed-in"><a href="/weekly-menu">On The Menu</a></li>
+              <li><a href="/extras">Extras</a></li>
+              <li><a href="/plant-based-recipes">Recipes</a></li>
+              <li><a href="/recycle">Recycling</a></li>
+              <li><a href="/blog">Blog</a></li>
+            </ul>
+          </nav>
+
+          <div class="c-footer__form-container d-none d-sm-block">
+            <div class="c-footer-form">
+  <form class="simple_form new_weekly_news_form" id="new_weekly_news_form" novalidate="novalidate" action="/weekly_news" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+
+    <h3 class="c-footer-form__title">Sign-Up for Our Weekly Menu</h3>
+
+    <div class="c-form-group email required weekly_news_form_email">
+      <div class="c-input-group c-input-group--button">
+        <input class="string email required" placeholder="Email" type="email" name="weekly_news_form[email]" id="weekly_news_form_email" />
+        <button name="button" type="submit" class="c-button c-button--primary" aria-label="Subscribe for Weekly Menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 23">
+  <path fill-rule="evenodd" d="M1.41 0L0 1.4l10.18 10.1L0 21.6 1.41 23 13 11.5z"></path>
+</svg>
+
+</button>      </div>
+
+</div>
+</form></div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="c-footer__copyright d-sm-none u-text--center">
+      <div class="l-container">
+        <div>
+          &copy; Copyright 2020 Purple Carrot. All rights reserved.
+        </div>
+        <div>
+          <a href="/terms">Terms &amp; Conditions</a> |
+          <a href="/privacy">Privacy Policy</a> |
+          <a href="/california_privacy">California Privacy Policy</a> |
+          <a href="/do_not_sell">Do Not Sell My Info</a> |
+          <a href="/sitemap">Site Map</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="c-footer__bg-3">
+    <div class="l-container">
+      <div class="d-flex justify-content-center justify-content-sm-between align-items-center">
+
+        <div class="c-footer__copyright d-none d-sm-block">
+          <a href="/terms">Terms &amp; Conditions</a> |
+          <a href="/privacy">Privacy Policy</a> |
+          <a href="/california_privacy">California Privacy Policy</a> |
+          <a href="/do_not_sell">Do Not Sell My Info</a> |
+          <a href="/sitemap">Site Map</a>
+        </div>
+
+        <ul class="c-social-buttons">
+  <li><a target="_blank" title="Opens Purple Carrot Instagram on a new window" rel="noreferrer" href="http://instagram.com/purplecarrotxo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <path fill-rule="evenodd" d="M25 50a25 25 0 0 1 0-50 25 25 0 0 1 0 50zm10.2-12.3h.4c1-.3 2-1 2-2.2v-21c-.2-1-1-2-2.3-2.2h-21c-1 .3-2 1.2-2 2.4v20.9c.2 1 1 2 2.3 2h20.5zM15 22.7V34c0 .5.5 1 1 1h18c.5 0 1-.5 1-1V22.6h-2.5c.4 1 .5 2 .3 3.2 0 1-.5 2-1 3-.6 1-1.4 2-2.4 2.5-2.4 1.7-5.7 2-8.3.4-1.2-.8-2.2-2-3-3.2-1-2-1.2-4-.5-6.2H15zm10-3c-2.8 0-5 2.4-5.2 5.2 0 2.8 2.3 5 5 5 3 .2 5.3-2 5.3-5 .2-2.8-2-5.2-5-5.2zm7.7-1H34c.5 0 1-.4 1-1v-2.3c0-.6-.5-1-1-1h-2.5a1 1 0 0 0-1 1V18c.2.6.6.8 1 .8h1.2z"></path>
+</svg>
+</a></li>
+  <li><a target="_blank" title="Opens Purple Carrot Facebook on a new window" rel="noreferrer" href="https://www.facebook.com/purplecarrotxo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <path fill-rule="evenodd" d="M25 50a25 25 0 0 1 0-50 25 25 0 0 1 0 50zm-3.5-11.4H27V25h4l.5-4.7H27V18c0-1.3.2-2 2-2h2.3v-4.6h-3.7c-4.5 0-6 2.3-6 6v3h-3V25h3v13.6z"></path>
+</svg>
+</a></li>
+  <li><a rel="noreferrer" target="_blank" title="Opens Purple Carrot Pinterest on a new window" href="https://pinterest.com/thepurplecarrot"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <path fill-rule="evenodd" d="M25 50a25 25 0 0 1 0-50 25 25 0 0 1 0 50zm.8-38.6c-7.6 0-11.4 5.4-11.4 10 0 2.7 1 5.2 3.2 6 .4.2.7 0 .8-.3l.4-1.2c0-.4 0-.5-.3-1-.6-.6-1-1.6-1-3 0-4 3-7.7 8-7.7 4.2 0 6.5 2.7 6.5 6.2 0 4.7-2 8.6-5 8.6-1.7 0-3-1.4-2.6-3 .5-2.2 1.4-4.3 1.4-5.8 0-1.3-.7-2.4-2-2.4-1.8 0-3.2 1.8-3.2 4 0 1.6.5 2.7.5 2.7L19 33c-.6 2.6 0 5.7 0 6 0 .3.3.3.4.2 0-.2 2.2-2.8 3-5.3 0-.8 1-4.5 1-4.5.5 1 2.2 2 4 2 5 0 8.5-4.7 8.5-11 0-4.7-4-9-10.2-9z"></path>
+</svg>
+</a></li>
+  <li><a target="_blank" title="Opens Purple Carrot Twitter on a new window" rel="noreferrer" href="https://www.twitter.com/purplecarrotxo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <path fill-rule="evenodd" d="M25 50a25 25 0 0 1 0-50 25 25 0 0 1 0 50zm3.5-34.8c-2.2.8-3.6 3-3.4 5v1h-.8c-3-.5-6-2-8.3-4.2l-1.2-1.2-.3 1c-.6 1.8-.2 3.8 1 5 .8 1 .6 1-.6.5l-1-.2c0 .2.4 2 .7 2.5.5 1 1.4 1.7 2.4 2.2l1 .5h-1c-1 0-1 0-1 .4.4 1 1.8 2.3 3.3 3l1 .2-1 .6c-1.3.8-3 1.3-4.5 1.3h-1.5c0 .3 2.2 1.3 3.4 1.7 3.7 1 8 .6 11.5-1.3 2.3-1.3 4.7-4 5.8-6.8.6-1.4 1.2-4 1.2-5.3 0-1 0-1 1-2 .6-.5 1-1 1.2-1.3.2-.3.2-.3-.7 0-1.5.5-1.7.4-1-.4.6-.5 1.2-1.6 1.2-2l-.7.3-1.5.6-1 .3-.8-.6c-.5-.4-1-.7-1.5-.8-1-.3-2.2-.2-3 0z"></path>
+</svg>
+</a></li>
+</ul>
+
+
+        <div class="u-text--right c-footer__copyright d-none d-sm-block">
+          &copy; Copyright 2020 Purple Carrot. All rights reserved.
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+  </div>
+
+  <div class="c-signup-login-modal js-signup-login-modal modal js-modal-with-inputs fade" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-fullscreen">
+    <div class="c-signup-form js-signup-form">
+  <div class="modal-content">
+
+    <div class="modal-header">
+
+      <div class="modal-title modal-title--center">
+        <header id="signup-login-modal-title-signup" class="c-heading c-heading--brand-4">
+          New To Purple Carrot?
+        </header>
+      </div>
+
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" height="32" width="32">
+  <path fill-rule="evenodd" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+</svg>
+
+      </button>
+
+    </div>
+
+    <div class="modal-body">
+
+      <div class="js-signup-login-modal__login-block">
+      </div>
+
+      <a class="c-button c-button--facebook" href="/users/auth/facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 21">
+  <path fill="#FFF" fill-rule="evenodd" d="M.81 11h3.22v9.55h4.03V11h4.02V7.07H8.05v-2c0-.31.09-.6.25-.84.17-.24.35-.36.56-.36h3.22V0H8.86C7.54 0 6.4.5 5.46 1.51a5.1 5.1 0 0 0-1.43 3.63v1.93H.81V11z"></path>
+</svg>
+
+        Sign Up With Facebook
+</a>
+      <div class="c-or-divider">
+        <div class="c-or-divider__dash"></div>
+        <div class="c-or-divider__text">OR</div>
+        <div class="c-or-divider__dash"></div>
+      </div>
+
+      <div class="js-signup-form-wrapper">
+        <form class="simple_form js-new-user-form" id="sign_up_modal_275580_new_user" novalidate="novalidate" action="/users?modal=true" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+  <div class="c-form-group email optional user_email js-form-group"><input title="Email" maxlength="255" class="string email optional" autofocus="autofocus" placeholder="Email" type="email" size="255" value="" name="user[email]" id="sign_up_modal_275580_user_email" /></div>
+
+  <div class="c-input-group c-input-group--icon-right js-form-group">
+    <div class="c-form-group password optional user_password"><input class="password optional" maxlength="255" placeholder="Password (minimum 8 characters)" size="255" type="password" name="user[password]" id="sign_up_modal_275580_user_password" /></div>
+
+    <a class="c-input-icon c-input-icon--right js-password-toggle">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 17" class="js-password-toggle--svg-icon" height="16px" width="16px" fill="#737373">
+  <path fill-rule="evenodd" d="M25.71 7.48a15.61 15.61 0 0 0-5.46-5.42 13.92 13.92 0 0 0-14.5 0A15.6 15.6 0 0 0 .3 7.48C.09 7.83 0 8.17 0 8.5c0 .33.1.67.29 1.02a15.6 15.6 0 0 0 5.46 5.42 13.92 13.92 0 0 0 14.5 0 15.5 15.5 0 0 0 5.46-5.42c.2-.35.29-.69.29-1.02 0-.33-.1-.67-.29-1.02zM9.89 3.45A4.21 4.21 0 0 1 13 2.13c.2 0 .36.07.5.21.13.14.2.3.2.5s-.07.37-.2.5c-.14.14-.3.2-.5.2-.83 0-1.54.3-2.13.9-.6.6-.89 1.33-.89 2.17 0 .2-.07.37-.2.5-.14.14-.3.21-.5.21a.67.67 0 0 1-.49-.2.69.69 0 0 1-.2-.5c0-1.23.43-2.29 1.3-3.17zm9.41 9.86a11.81 11.81 0 0 1-6.3 1.8c-2.26 0-4.36-.6-6.3-1.8A15.09 15.09 0 0 1 1.86 8.5a14.35 14.35 0 0 1 5.53-5.2A6.52 6.52 0 0 0 6.5 6.6a6.4 6.4 0 0 0 1.9 4.67A6.21 6.21 0 0 0 13 13.2c1.79 0 3.32-.64 4.6-1.93a6.4 6.4 0 0 0 1.9-4.67c0-1.18-.3-2.29-.89-3.31a14.35 14.35 0 0 1 5.53 5.2 15.08 15.08 0 0 1-4.84 4.81z"></path>
+</svg>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 20" class="d-none js-password-toggle--svg-icon" height="16px" width="16px" fill="#737373">
+  <path fill-rule="evenodd" d="M25.71 8.8a14.4 14.4 0 0 0-2.1-2.68c-.84-.86-1.73-1.6-2.64-2.22l-.92 1.63a14.86 14.86 0 0 1 4.1 4.26 14.96 14.96 0 0 1-4.38 4.46 12.04 12.04 0 0 1-5.7 1.99L13 18.15c2.15 0 4.18-.46 6.09-1.38 1.9-.92 3.59-2.2 5.04-3.87.68-.78 1.2-1.49 1.58-2.1.2-.33.29-.67.29-1 0-.34-.1-.68-.29-1zM8.05 15.23a14.3 14.3 0 0 1-6.2-5.45A14.26 14.26 0 0 1 7.4 4.67a6.4 6.4 0 0 0 1.8 8.52l-1.14 2.05zm10.3-3.62A6.4 6.4 0 0 1 15.32 14l4.06-7.28a6.33 6.33 0 0 1-1.03 4.9zm.6-10.04a.36.36 0 0 0 .01-.13c0-.16-.07-.3-.23-.39a9.83 9.83 0 0 0-1.67-.93.78.78 0 0 0-.26-.09.45.45 0 0 0-.4.24l-.79 1.4a13.75 13.75 0 0 0-9.8 1.73A16.92 16.92 0 0 0 .28 8.79c-.2.3-.29.64-.29 1 0 .37.1.7.29 1a17.31 17.31 0 0 0 3.03 3.56 15.02 15.02 0 0 0 3.82 2.51 5.42 5.42 0 0 0-.64 1.26c0 .18.08.31.23.4 1.18.69 1.83 1.02 1.95 1.02.17 0 .3-.07.4-.23l.71-1.29 4.59-8.23 4.57-8.2zm-5.46 3.14c-.13.13-.3.2-.49.2-.83 0-1.54.3-2.13.88a2.9 2.9 0 0 0-.89 2.14c0 .2-.07.36-.2.5-.14.13-.3.2-.5.2a.67.67 0 0 1-.49-.2.67.67 0 0 1-.2-.5c0-1.21.43-2.25 1.3-3.11.86-.87 1.9-1.3 3.11-1.3.2 0 .36.06.5.2.13.14.2.3.2.5 0 .19-.07.35-.2.49z"></path>
+</svg>
+
+    </a>
+  </div>
+
+  <div class="c-form-group hidden user_plan"><input name="plan" class="hidden js-signup-form-plan" type="hidden" id="sign_up_modal_275580_user_plan" /></div>
+
+
+  <div class="js-signup-login-modal__default-coupon d-none">
+    <button name="button" type="submit" class="c-button c-button--primary d-block" data-disable="true">
+    <div>
+      Get Your <span class="js-signup-form__discount-val">$20</span> Discount
+    </div>
+</button>  </div>
+
+  <div class="js-signup-login-modal__without-coupon">
+    <input type="submit" name="commit" value="Sign Up Now" class="c-button c-button--primary d-block" data-disable="true" data-disable-with="Sign Up Now" />
+  </div>
+</form>
+      </div>
+
+      <div class="js-signup-login-modal__login-block u-text u-text--sm u-text--muted">
+        Skip or cancel your account at any time.
+      </div>
+
+      <hr>
+
+      <div class="js-signup-login-modal__login-block">
+        Are You Already a Customer?<br/>
+        <a class="u-text u-text--lg" href="/users/sign_in">Log In</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="c-login-form js-login-form d-none">
+  <div class="modal-content">
+    <div class="modal-header">
+      <div class="modal-title modal-title--center">
+        <header id="signup-login-modal-title-login" class="c-heading c-heading--brand-4">Welcome Back</header>
+      </div>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" height="32" width="32">
+  <path fill-rule="evenodd" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+</svg>
+
+      </button>
+    </div>
+    <div class="modal-body">
+      <a class="c-button c-button--facebook" href="/users/auth/facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 21">
+  <path fill="#FFF" fill-rule="evenodd" d="M.81 11h3.22v9.55h4.03V11h4.02V7.07H8.05v-2c0-.31.09-.6.25-.84.17-.24.35-.36.56-.36h3.22V0H8.86C7.54 0 6.4.5 5.46 1.51a5.1 5.1 0 0 0-1.43 3.63v1.93H.81V11z"></path>
+</svg>
+
+        Log In With Facebook
+</a>
+      <div class="c-or-divider">
+        <div class="c-or-divider__dash"></div>
+        <div class="c-or-divider__text">OR</div>
+        <div class="c-or-divider__dash"></div>
+      </div>
+
+      <form novalidate="novalidate" class="simple_form user" action="/users/sign_in?remote=true" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+
+
+        <div class="c-form-group email required user_email">
+          <input autofocus="autofocus" title="Email" class="string email required" maxlength="255" placeholder="Email" type="email" size="255" name="user[email]" id="user_email" />
+
+</div>
+        <div class="c-form-group password optional user_password">
+          <div class="c-input-group c-input-group--icon-right">
+            <input password_toggle="true" id="modal_password2" title="Password" maxlength="255" placeholder="Password (minimum 8 characters)" size="255" type="password" name="user[password]" />
+
+            <a class="c-input-icon c-input-icon--right js-password-toggle">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 17" class="js-password-toggle--svg-icon" height="16px" width="16px" fill="#737373">
+  <path fill-rule="evenodd" d="M25.71 7.48a15.61 15.61 0 0 0-5.46-5.42 13.92 13.92 0 0 0-14.5 0A15.6 15.6 0 0 0 .3 7.48C.09 7.83 0 8.17 0 8.5c0 .33.1.67.29 1.02a15.6 15.6 0 0 0 5.46 5.42 13.92 13.92 0 0 0 14.5 0 15.5 15.5 0 0 0 5.46-5.42c.2-.35.29-.69.29-1.02 0-.33-.1-.67-.29-1.02zM9.89 3.45A4.21 4.21 0 0 1 13 2.13c.2 0 .36.07.5.21.13.14.2.3.2.5s-.07.37-.2.5c-.14.14-.3.2-.5.2-.83 0-1.54.3-2.13.9-.6.6-.89 1.33-.89 2.17 0 .2-.07.37-.2.5-.14.14-.3.21-.5.21a.67.67 0 0 1-.49-.2.69.69 0 0 1-.2-.5c0-1.23.43-2.29 1.3-3.17zm9.41 9.86a11.81 11.81 0 0 1-6.3 1.8c-2.26 0-4.36-.6-6.3-1.8A15.09 15.09 0 0 1 1.86 8.5a14.35 14.35 0 0 1 5.53-5.2A6.52 6.52 0 0 0 6.5 6.6a6.4 6.4 0 0 0 1.9 4.67A6.21 6.21 0 0 0 13 13.2c1.79 0 3.32-.64 4.6-1.93a6.4 6.4 0 0 0 1.9-4.67c0-1.18-.3-2.29-.89-3.31a14.35 14.35 0 0 1 5.53 5.2 15.08 15.08 0 0 1-4.84 4.81z"></path>
+</svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 20" class="d-none js-password-toggle--svg-icon" height="16px" width="16px" fill="#737373">
+  <path fill-rule="evenodd" d="M25.71 8.8a14.4 14.4 0 0 0-2.1-2.68c-.84-.86-1.73-1.6-2.64-2.22l-.92 1.63a14.86 14.86 0 0 1 4.1 4.26 14.96 14.96 0 0 1-4.38 4.46 12.04 12.04 0 0 1-5.7 1.99L13 18.15c2.15 0 4.18-.46 6.09-1.38 1.9-.92 3.59-2.2 5.04-3.87.68-.78 1.2-1.49 1.58-2.1.2-.33.29-.67.29-1 0-.34-.1-.68-.29-1zM8.05 15.23a14.3 14.3 0 0 1-6.2-5.45A14.26 14.26 0 0 1 7.4 4.67a6.4 6.4 0 0 0 1.8 8.52l-1.14 2.05zm10.3-3.62A6.4 6.4 0 0 1 15.32 14l4.06-7.28a6.33 6.33 0 0 1-1.03 4.9zm.6-10.04a.36.36 0 0 0 .01-.13c0-.16-.07-.3-.23-.39a9.83 9.83 0 0 0-1.67-.93.78.78 0 0 0-.26-.09.45.45 0 0 0-.4.24l-.79 1.4a13.75 13.75 0 0 0-9.8 1.73A16.92 16.92 0 0 0 .28 8.79c-.2.3-.29.64-.29 1 0 .37.1.7.29 1a17.31 17.31 0 0 0 3.03 3.56 15.02 15.02 0 0 0 3.82 2.51 5.42 5.42 0 0 0-.64 1.26c0 .18.08.31.23.4 1.18.69 1.83 1.02 1.95 1.02.17 0 .3-.07.4-.23l.71-1.29 4.59-8.23 4.57-8.2zm-5.46 3.14c-.13.13-.3.2-.49.2-.83 0-1.54.3-2.13.88a2.9 2.9 0 0 0-.89 2.14c0 .2-.07.36-.2.5-.14.13-.3.2-.5.2a.67.67 0 0 1-.49-.2.67.67 0 0 1-.2-.5c0-1.21.43-2.25 1.3-3.11.86-.87 1.9-1.3 3.11-1.3.2 0 .36.06.5.2.13.14.2.3.2.5 0 .19-.07.35-.2.49z"></path>
+</svg>
+
+            </a>
+          </div>
+</div>
+        <div class="c-login-form__keep-me-signed-wrapper">
+          <div class="c-form-group--inline styleguide_boolean optional user_remember_me"><div class="c-input-checkbox"><input value="0" type="hidden" name="user[remember_me]" /><label class="styleguide_boolean optional u-text u-text--sm" for="user_remember_me"><input name="user[remember_me]" type="hidden" value="0" /><input class="styleguide_boolean optional" type="checkbox" value="1" name="user[remember_me]" id="user_remember_me" /> Keep me signed in<span class="c-input-custom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 10" class="c-input-custom__icon" height="13" width="13" fill="#fff">
+  <path fill-rule="evenodd" d="M13.37 1.4L11.89-.06 5.07 6.6 2.11 3.71.63 5.16l4.44 4.33 8.3-8.1z"></path>
+</svg>
+</span></label></div></div>
+        </div>
+
+        <div class="c-login-form__forgot-password-wrapper u-text u-text--sm">
+          <a tabindex="-1" href="/users/password/new">Forgot Password?</a>
+        </div>
+
+
+        <input type="submit" name="commit" value="Log In" class="c-button c-button--primary" data-disable="true" data-disable-with="Log In" />
+
+        <hr/>
+</form>
+      <div class="js-signup-login-modal__login-block">
+        Are You New to Purple Carrot?<br/>
+        <a class="u-text u-text--lg" href="/users/sign_up">Sign Up</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- Impact -->
+  <script type="text/javascript">
+    doNotSell(function() {
+      var params = {customerId: '' , customerEmail: ''}
+      if (window.currentUserData) {
+        params.customerId = currentUserData.id
+        params.customerEmail = currentUserData.email_sha1
+      }
+      ire('identify', params)
+    })
+  </script>
+
+
+
+</body>
+
+
+</html>

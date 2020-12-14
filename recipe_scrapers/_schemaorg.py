@@ -111,12 +111,12 @@ class SchemaOrg:
         ]
 
     def nutrients(self):
-        nutrients = self.data.get("nutrition")
-        return [
-            normalize_string(nutrient) + ": " + normalize_string(value)
+        nutrients = self.data.get("nutrition", {})
+        return {
+            normalize_string(nutrient): normalize_string(value)
             for nutrient, value in nutrients.items()
             if nutrient != "@type"
-        ]
+        }
 
     def _extract_howto_instructions_text(self, schema_item):
         instructions_gist = []
