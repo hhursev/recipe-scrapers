@@ -13,6 +13,9 @@ class TestTasteOfHomeScraper(ScraperTest):
     def test_author(self):
         self.assertEqual("Taste of Home", self.harvester_class.author())
 
+    def test_canonical_url(self):
+        self.assertEqual("", self.harvester_class.canonical_url())
+
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Pressure-Cooker Sauerbraten")
 

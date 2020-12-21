@@ -16,6 +16,9 @@ class TestBBCFoodScraper(ScraperTest):
     def test_author(self):
         self.assertEqual(self.harvester_class.author(), "Rob Burns")
 
+    def test_canonical_url(self):
+        self.assertEqual("", self.harvester_class.canonical_url())
+
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(), "Irish cream and chocolate cheesecake"
