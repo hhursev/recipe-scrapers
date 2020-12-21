@@ -46,14 +46,9 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
         raise NotImplementedError("This should be implemented.")
 
     def canonical_url(self):
-        canonical_link = self.soup.find(
-            "link", {
-                "rel": "canonical",
-                "href": True
-            }
-        )
+        canonical_link = self.soup.find("link", {"rel": "canonical", "href": True})
         if canonical_link:
-            return urljoin(self.url, canonical_link['href'])
+            return urljoin(self.url, canonical_link["href"])
         return self.url
 
     @Decorators.normalize_string_output
