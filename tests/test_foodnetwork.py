@@ -11,6 +11,7 @@ class TestFoodNetworkScraper(ScraperTest):
         self.assertEqual("foodnetwork.com", self.harvester_class.host())
 
     def test_canonical_url(self):
+        # TODO: Find a way to supply original content base URL at test-time (via WARC-file?)
         self.assertEqual("foodnetwork.testhtml_files/chicken-marsala-recipe-1951778.html", self.harvester_class.canonical_url())
 
     def test_title(self):
