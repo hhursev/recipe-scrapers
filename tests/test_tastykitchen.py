@@ -7,8 +7,6 @@ class TestTastyKitchenScraper(ScraperTest):
 
     scraper_class = TastyKitchen
 
-    maxDiff = None
-
     def test_host(self):
         self.assertEqual("tastykitchen.com", self.harvester_class.host())
 
