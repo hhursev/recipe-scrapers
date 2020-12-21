@@ -1,4 +1,5 @@
 from collections import OrderedDict
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
@@ -43,6 +44,17 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
     def host(cls):
         """ get the host of the url, so we can use the correct scraper """
         raise NotImplementedError("This should be implemented.")
+
+    def canonical_url(self):
+        canonical_link = self.soup.find(
+            "link", {
+                "rel": "canonical",
+                "href": True
+            }
+        )
+        if canonical_link:
+            return urljoin(self.url, canonical_link['href'])
+        return self.url
 
     @Decorators.normalize_string_output
     @Decorators.schema_org_priority
