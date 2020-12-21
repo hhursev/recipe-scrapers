@@ -11,7 +11,10 @@ class TestGialloZafferanoScraper(ScraperTest):
         self.assertEqual("ricette.giallozafferano.it", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("https://ricette.giallozafferano.it/Bavarese-alle-fragole.html", self.harvester_class.canonical_url())
+        self.assertEqual(
+            "https://ricette.giallozafferano.it/Bavarese-alle-fragole.html",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Bavarese alle fragole")

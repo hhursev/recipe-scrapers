@@ -10,7 +10,10 @@ class TestSweetPeasAndSaffron(ScraperTest):
         self.assertEqual("sweetpeasandsaffron.com", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("https://sweetpeasandsaffron.com/healthy-steel-cut-oats-recipes/", self.harvester_class.canonical_url())
+        self.assertEqual(
+            "https://sweetpeasandsaffron.com/healthy-steel-cut-oats-recipes/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(

@@ -21,7 +21,10 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
         self.assertEqual("recipes.farmhousedelivery.com", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("https://recipes.farmhousedelivery.com/green-shakshuka/", self.harvester_class.canonical_url())
+        self.assertEqual(
+            "https://recipes.farmhousedelivery.com/green-shakshuka/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual("Green Shakshuka", self.harvester_class.title())

@@ -14,7 +14,10 @@ class TestHelloFreshScraper(ScraperTest):
         self.assertEqual("hellofresh.co.uk", self.harvester_class.host(domain="co.uk"))
 
     def test_canonical_url(self):
-        self.assertEqual("https://www.hellofresh.co.uk/recipes/thai-style-pork-stir-fry-wk-49-5a01c742450cfa39e02c5642", self.harvester_class.canonical_url())
+        self.assertEqual(
+            "https://www.hellofresh.co.uk/recipes/thai-style-pork-stir-fry-wk-49-5a01c742450cfa39e02c5642",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual("Thai Style Pork Stir-Fry", self.harvester_class.title())

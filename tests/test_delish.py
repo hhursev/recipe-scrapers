@@ -11,7 +11,10 @@ class TestDelishScraper(ScraperTest):
         self.assertEqual(self.harvester_class.host(), "delish.com")
 
     def test_canonical_url(self):
-        self.assertEqual(self.harvester_class.canonical_url(), "https://www.delish.com/cooking/recipe-ideas/recipes/a56732/pumpkin-cheesecake-roll-recipe/")
+        self.assertEqual(
+            self.harvester_class.canonical_url(),
+            "https://www.delish.com/cooking/recipe-ideas/recipes/a56732/pumpkin-cheesecake-roll-recipe/",
+        )
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Pumpkin Cheesecake Roll")
@@ -65,7 +68,10 @@ class TestDelishRogueOlScraper(ScraperTest):
         self.assertEqual(self.harvester_class.host(), "delish.com")
 
     def test_canonical_url(self):
-        self.assertEqual("https://www.delish.com/cooking/recipe-ideas/a46303/baileys-cheesecake-recipe/", self.harvester_class.canonical_url())
+        self.assertEqual(
+            "https://www.delish.com/cooking/recipe-ideas/a46303/baileys-cheesecake-recipe/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Baileys Cheesecake")

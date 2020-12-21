@@ -11,7 +11,10 @@ class TestPurpleCarrotScraper(ScraperTest):
         self.assertEqual("purplecarrot.com", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("https://www.purplecarrot.com/recipe/roasted-cauliflower-lentil-bowl-with-avocado-curried-balsamic-vinaigrette", self.harvester_class.canonical_url())
+        self.assertEqual(
+            "https://www.purplecarrot.com/recipe/roasted-cauliflower-lentil-bowl-with-avocado-curried-balsamic-vinaigrette",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(

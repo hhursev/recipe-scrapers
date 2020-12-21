@@ -11,7 +11,10 @@ class TestMatprat(ScraperTest):
         self.assertEqual("matprat.no", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("https://www.matprat.no/oppskrifter/gjester/butter-chicken---indisk-smorkylling/", self.harvester_class.canonical_url())
+        self.assertEqual(
+            "https://www.matprat.no/oppskrifter/gjester/butter-chicken---indisk-smorkylling/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(

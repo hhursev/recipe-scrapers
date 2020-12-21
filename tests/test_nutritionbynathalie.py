@@ -11,7 +11,10 @@ class TestNutritionByNathalieScraper(ScraperTest):
         self.assertEqual("nutritionbynathalie.com", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("https://www.nutritionbynathalie.com/single-post/2020/07/30/Mexican-Cauliflower-Rice", self.harvester_class.canonical_url())
+        self.assertEqual(
+            "https://www.nutritionbynathalie.com/single-post/2020/07/30/Mexican-Cauliflower-Rice",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Mexican Cauliflower Rice")

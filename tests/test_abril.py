@@ -11,7 +11,10 @@ class TestAbrilScraper(ScraperTest):
         self.assertEqual("claudia.abril.com.br", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("https://claudia.abril.com.br/receitas/estrogonofe-de-carne/", self.harvester_class.canonical_url())
+        self.assertEqual(
+            "https://claudia.abril.com.br/receitas/estrogonofe-de-carne/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Estrogonofe de carne")

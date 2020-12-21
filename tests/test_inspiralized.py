@@ -14,7 +14,10 @@ class TestInspiralizedScraper(ScraperTest):
         self.assertEqual("en-US", self.harvester_class.language())
 
     def test_canonical_url(self):
-        self.assertEqual("https://inspiralized.com/brussels-sprouts-and-apple-salad-with-parmesan/", self.harvester_class.canonical_url())
+        self.assertEqual(
+            "https://inspiralized.com/brussels-sprouts-and-apple-salad-with-parmesan/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(

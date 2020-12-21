@@ -11,7 +11,10 @@ class TestGoustoScraper(ScraperTest):
         self.assertEqual("gousto.co.uk", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("https://www.gousto.co.uk/cookbook/pork-recipes/creamy-pork-tagliatelle", self.harvester_class.canonical_url())
+        self.assertEqual(
+            "https://www.gousto.co.uk/cookbook/pork-recipes/creamy-pork-tagliatelle",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Creamy Pork Tagliatelle")

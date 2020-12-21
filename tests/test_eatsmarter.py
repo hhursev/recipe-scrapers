@@ -11,7 +11,10 @@ class TestClosetCooking(ScraperTest):
         self.assertEqual("eatsmarter.com", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("https://eatsmarter.com/recipes/citrus-avocado-salad-with-almonds", self.harvester_class.canonical_url())
+        self.assertEqual(
+            "https://eatsmarter.com/recipes/citrus-avocado-salad-with-almonds",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(

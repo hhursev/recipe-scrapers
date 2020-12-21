@@ -17,7 +17,10 @@ class TestOhSheGlowsScraper(ScraperTest):
         )
 
     def test_canonical_url(self):
-        self.assertEqual("https://ohsheglows.com/2019/06/29/obsession-worthy-peanut-butter-cookie-ice-cream/", self.harvester_class.canonical_url())
+        self.assertEqual(
+            "https://ohsheglows.com/2019/06/29/obsession-worthy-peanut-butter-cookie-ice-cream/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(

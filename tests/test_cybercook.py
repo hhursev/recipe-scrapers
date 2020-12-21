@@ -11,7 +11,10 @@ class TestCybercook(ScraperTest):
         self.assertEqual("cybercook.com.br", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("https://cybercook.com.br/receitas/aves/strogonoff-de-frango-16644", self.harvester_class.canonical_url())
+        self.assertEqual(
+            "https://cybercook.com.br/receitas/aves/strogonoff-de-frango-16644",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Strogonoff de Frango")

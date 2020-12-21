@@ -11,7 +11,10 @@ class TestGimmeSomeOvenScraper(ScraperTest):
         self.assertEqual("gimmesomeoven.com", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("https://www.gimmesomeoven.com/sangria/", self.harvester_class.canonical_url())
+        self.assertEqual(
+            "https://www.gimmesomeoven.com/sangria/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Sangria")

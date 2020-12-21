@@ -11,7 +11,10 @@ class TestMomsWithCrockPotsScraper(ScraperTest):
         self.assertEqual("momswithcrockpots.com", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("https://momswithcrockpots.com/slow-cooked-macaroni-cheese/", self.harvester_class.canonical_url())
+        self.assertEqual(
+            "https://momswithcrockpots.com/slow-cooked-macaroni-cheese/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Crockpot Macaroni & Cheese")

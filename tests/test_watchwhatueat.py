@@ -11,7 +11,10 @@ class TestWatchWhatUEatScraper(ScraperTest):
         self.assertEqual("watchwhatueat.com", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("https://www.watchwhatueat.com/healthy-instant-pot-cauliflower-head/", self.harvester_class.canonical_url())
+        self.assertEqual(
+            "https://www.watchwhatueat.com/healthy-instant-pot-cauliflower-head/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(

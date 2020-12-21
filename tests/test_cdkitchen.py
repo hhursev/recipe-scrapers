@@ -11,7 +11,10 @@ class TestCdKitchen(ScraperTest):
         self.assertEqual("cdkitchen.com", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("https://www.cdkitchen.com/recipes/recs/473/Veal-Steak-Vesuvio92364.shtml", self.harvester_class.canonical_url())
+        self.assertEqual(
+            "https://www.cdkitchen.com/recipes/recs/473/Veal-Steak-Vesuvio92364.shtml",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual("Veal Steak Vesuvio", self.harvester_class.title())
