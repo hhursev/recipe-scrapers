@@ -27,8 +27,8 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
         wild_mode=False,
     ):
         if test:  # when testing, we load a file
-            with url:
-                page_data = url.read()
+            page_data = url.read()
+            url = None
         else:
             page_data = requests.get(
                 url, headers=HEADERS, proxies=proxies, timeout=timeout
