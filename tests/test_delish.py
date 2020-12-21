@@ -11,7 +11,7 @@ class TestDelishScraper(ScraperTest):
         self.assertEqual(self.harvester_class.host(), "delish.com")
 
     def test_canonical_url(self):
-        self.assertEqual("https://www.delish.com/cooking/recipe-ideas/recipes/a56732/pumpkin-cheesecake-roll-recipe/", self.harvester_class.canonical_url())
+        self.assertEqual(self.harvester_class.canonical_url(), "https://www.delish.com/cooking/recipe-ideas/recipes/a56732/pumpkin-cheesecake-roll-recipe/")
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Pumpkin Cheesecake Roll")
