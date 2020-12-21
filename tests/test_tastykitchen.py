@@ -11,7 +11,7 @@ class TestTastyKitchenScraper(ScraperTest):
         self.assertEqual("tastykitchen.com", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("", self.harvester_class.canonical_url())
+        self.assertEqual("http://tastykitchen.com/recipes/breads/cheddar-and-garlic-scape-biscuits/", self.harvester_class.canonical_url())
 
     def test_title(self):
         self.assertEqual(

@@ -11,7 +11,7 @@ class TestCountryLivingScraper(ScraperTest):
         self.assertEqual("countryliving.com", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("", self.harvester_class.canonical_url())
+        self.assertEqual("https://www.countryliving.com/food-drinks/a32042602/roasted-mushroom-and-bacon-dutch-baby/", self.harvester_class.canonical_url())
 
     def test_title(self):
         self.assertEqual(

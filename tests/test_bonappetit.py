@@ -11,7 +11,7 @@ class TestBonAppetitScraper(ScraperTest):
         self.assertEqual("bonappetit.com", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("", self.harvester_class.canonical_url())
+        self.assertEqual("https://www.bonappetit.com/recipe/pork-chops-with-celery-and-almond-salad", self.harvester_class.canonical_url())
 
     def test_title(self):
         self.assertEqual(

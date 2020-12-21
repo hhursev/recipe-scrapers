@@ -11,7 +11,7 @@ class TestSimplyRecipesScraper(ScraperTest):
         self.assertEqual("simplyrecipes.com", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("", self.harvester_class.canonical_url())
+        self.assertEqual("https://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/", self.harvester_class.canonical_url())
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "One-Pot Chicken and Rice Soup")

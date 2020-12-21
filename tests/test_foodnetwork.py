@@ -11,7 +11,7 @@ class TestFoodNetworkScraper(ScraperTest):
         self.assertEqual("foodnetwork.com", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("", self.harvester_class.canonical_url())
+        self.assertEqual("foodnetwork.testhtml_files/chicken-marsala-recipe-1951778.html", self.harvester_class.canonical_url())
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Chicken Marsala")

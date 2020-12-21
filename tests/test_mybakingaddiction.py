@@ -17,7 +17,7 @@ class TestMyBakingAddictionScraper(ScraperTest):
         )
 
     def test_canonical_url(self):
-        self.assertEqual("", self.harvester_class.canonical_url())
+        self.assertEqual("https://www.mybakingaddiction.com/chocolate-coconut-zucchini-bread/", self.harvester_class.canonical_url())
 
     def test_title(self):
         self.assertEqual(

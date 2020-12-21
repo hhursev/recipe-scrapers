@@ -11,7 +11,7 @@ class TestMisya(ScraperTest):
         self.assertEqual("misya.info", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("", self.harvester_class.canonical_url())
+        self.assertEqual("https://www.misya.info/ricetta/tortino-cuore-caldo.htm", self.harvester_class.canonical_url())
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Tortino cuore caldo")

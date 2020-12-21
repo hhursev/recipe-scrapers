@@ -11,7 +11,7 @@ class TestIGScraper(ScraperTest):
         self.assertEqual("receitas.ig.com.br", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("", self.harvester_class.canonical_url())
+        self.assertEqual("https://receitas.ig.com.br/estrogonofe-de-cogumelos/4e7b634e7bb4e2ad5c000054.html", self.harvester_class.canonical_url())
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Estrogonofe de cogumelos")

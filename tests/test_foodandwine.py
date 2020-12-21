@@ -11,7 +11,7 @@ class TestFoodAndWineScraper(ScraperTest):
         self.assertEqual("foodandwine.com", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("", self.harvester_class.canonical_url())
+        self.assertEqual("https://www.foodandwine.com/recipes/kwames-pepper-shrimp", self.harvester_class.canonical_url())
 
     def test_title(self):
         self.assertEqual("Kwame’s Pepper Shrimp", self.harvester_class.title())

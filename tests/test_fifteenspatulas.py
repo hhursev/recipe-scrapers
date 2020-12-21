@@ -11,7 +11,7 @@ class TestFifteenSpatulasScraper(ScraperTest):
         self.assertEqual("fifteenspatulas.com", self.harvester_class.host())
 
     def test_canonical_url(self):
-        self.assertEqual("", self.harvester_class.canonical_url())
+        self.assertEqual("https://www.fifteenspatulas.com/orange-scented-creme-brulee/", self.harvester_class.canonical_url())
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Orange Creme Brulee")
