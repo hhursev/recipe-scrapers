@@ -26,4 +26,4 @@ class ScraperTest(unittest.TestCase):
                     pytest.skip(
                         f"could not find canonical url for online test of scraper '{self.scraper_class.__name__}'"
                     )
-                self.harvester_class = self.scraper_class(url=canonical_url["href"])
+                self.harvester_class = self.scraper_class(url=canonical_url)
