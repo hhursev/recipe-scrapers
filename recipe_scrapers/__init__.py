@@ -68,6 +68,7 @@ from .nytimes import NYTimes
 from .ohsheglows import OhSheGlows
 from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
+from .popsugar import PopSugar
 from .przepisy import Przepisy
 from .purelypope import PurelyPope
 from .realsimple import RealSimple
@@ -171,6 +172,7 @@ SCRAPERS = {
     OhSheGlows.host(): OhSheGlows,
     Panelinha.host(): Panelinha,
     PaniniHappy.host(): PaniniHappy,
+    PopSugar.host(): PopSugar,
     Przepisy.host(): Przepisy,
     PurelyPope.host(): PurelyPope,
     RealSimple.host(): RealSimple,

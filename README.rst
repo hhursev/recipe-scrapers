@@ -119,6 +119,7 @@ Scrapers available for:
 - `https://ohsheglows.com/ <https://ohsheglows.com>`_
 - `https://www.panelinha.com.br/ <https://www.panelinha.com.br>`_
 - `https://paninihappy.com/ <https://paninihappy.com>`_
+- `https://popsugar.com/ <https://popsugar.com>`_
 - `https://przepisy.pl/ <https://przepisy.pl>`_
 - `https://purelypope.com/ <https://purelypope.com>`_
 - `https://realsimple.com/ <https://www.realsimple.com>`_
