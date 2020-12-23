@@ -22,7 +22,9 @@ class PopSugar(AbstractScraper):
         return get_yields(serves)
 
     def image(self):
-        return self.soup.find("article")["data-share-image"]
+        article = self.soup.find("article")
+        if article:
+            return article["data-share-image"]
 
     def ingredients(self):
         container = self._context().find("h3", text="Ingredients").parent
@@ -38,10 +40,8 @@ class PopSugar(AbstractScraper):
 
                 # Each item is an ingredient entry unless it is a tag. The tags are filtered from the ingredient
                 # list. If the tag is a <b> tag the next item is also ignored in order to skip headings.
-                tag = getattr(item, "name", None)
-                if tag is not None:
-                    if tag == "b":
-                        skipNext = True
+                if item.name is not None:
+                    skipNext = item.name == "b"
                     continue
 
                 ingredients.append(normalize_string(item))
