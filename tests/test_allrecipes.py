@@ -20,27 +20,27 @@ class TestAllRecipesScraper(ScraperTest):
         self.assertEqual(40, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("8 serving(s)", self.harvester_class.yields())
+        self.assertEqual("2 pizzas", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
-            "https://images.media-allrecipes.com/userphotos/560x315/694708.jpg",
+            "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F694708.jpg",
             self.harvester_class.image(),
         )
 
     def test_ingredients(self):
         self.assertCountEqual(
             [
-                "1/4 cup olive oil",
+                "¼ cup olive oil",
                 "1 tablespoon minced garlic",
-                "1/2 teaspoon sea salt",
+                "½ teaspoon sea salt",
                 "8 Roma tomatoes, sliced",
                 "2 (12 inch) pre-baked pizza crusts",
                 "8 ounces shredded Mozzarella cheese",
                 "4 ounces shredded Fontina cheese",
                 "10 fresh basil leaves, washed, dried",
-                "1/2 cup freshly grated Parmesan cheese",
-                "1/2 cup crumbled feta cheese",
+                "½ cup freshly grated Parmesan cheese",
+                "½ cup crumbled feta cheese",
             ],
             self.harvester_class.ingredients(),
         )
@@ -52,4 +52,4 @@ class TestAllRecipesScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.81, self.harvester_class.ratings())
+        self.assertEqual(4.8, self.harvester_class.ratings())
