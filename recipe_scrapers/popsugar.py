@@ -8,16 +8,16 @@ class PopSugar(AbstractScraper):
         return "popsugar.com"
 
     def title(self):
-        title = self.context().find("h2", {"class": "recipe-title"}).get_text()
+        title = self._context().find("h2", {"class": "recipe-title"}).get_text()
         return normalize_string(title)
 
     def total_time(self):
-        anchor = self.context().find(text="Total Time")
+        anchor = self._context().find(text="Total Time")
         time = anchor.parent.findNext("dd").get_text()
         return get_minutes(time)
 
     def yields(self):
-        anchor = self.context().find(text="Yield")
+        anchor = self._context().find(text="Yield")
         serves = anchor.parent.findNext("dd").get_text()
         return get_yields(serves)
 
@@ -25,7 +25,7 @@ class PopSugar(AbstractScraper):
         return self.soup.find("article")["data-share-image"]
 
     def ingredients(self):
-        container = self.context().find("h3", text="Ingredients").parent
+        container = self._context().find("h3", text="Ingredients").parent
         entries = container.findAll("li")
 
         ingredients = []
@@ -49,8 +49,8 @@ class PopSugar(AbstractScraper):
         return ingredients
 
     def instructions(self):
-        container = self.context().find("h3", text="Directions").parent
+        container = self._context().find("h3", text="Directions").parent
         return "\n".join([entry.get_text() for entry in container.findAll("li")])
 
-    def context(self):
+    def _context(self):
         return self.soup.find("div", {"class": "recipe-card"})
