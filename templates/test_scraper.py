@@ -29,7 +29,7 @@ class TestTemplateScraper(ScraperTest):
         self.assertCountEqual([], self.harvester_class.ingredients())
 
     def test_instructions(self):
-        return self.assertEqual("", self.harvester_class.instructions())
+        self.assertEqual("", self.harvester_class.instructions())
 
     def test_ratings(self):
         self.assertEqual(0, self.harvester_class.ratings())
