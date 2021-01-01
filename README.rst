@@ -203,6 +203,15 @@ If you want a scraper for a new site added
 
   - Otherwise, scrape the HTML - `like this <https://github.com/hhursev/recipe-scrapers/commit/ffee963d04>`_
 
+  - Generating a new scraper class:
+
+    .. code:: shell
+
+        python generate.py <ClassName> <URL>
+
+    - **ClassName**: The name of the new scraper class.
+    - **URL**: The URL of an example recipe from the target site. The content will be stored in `test_data` to be used with the test class.
+
 For Devs / Contribute
 ---------------------
 
