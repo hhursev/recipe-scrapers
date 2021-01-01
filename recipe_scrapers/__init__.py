@@ -89,6 +89,7 @@ from .popsugar import PopSugar
 from .przepisy import Przepisy
 from .purelypope import PurelyPope
 from .purplecarrot import PurpleCarrot
+from .rachlmansfield import RachlMansfield
 from .realsimple import RealSimple
 from .recipietineats import RecipieTinEats
 from .seriouseats import SeriousEats
@@ -195,6 +196,7 @@ SCRAPERS = {
     LivelyTable.host(): LivelyTable,
     LeCremeDeLaCrumb.host(): LeCremeDeLaCrumb,
     Lovingitvegan.host(): Lovingitvegan,
+    RachlMansfield.host(): RachlMansfield,
     TheKitchn.host(): TheKitchn,
     TheNutritiousKitchen.host(): TheNutritiousKitchen,
     Marmiton.host(): Marmiton,
