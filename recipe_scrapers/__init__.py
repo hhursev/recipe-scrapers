@@ -3,7 +3,6 @@ from tldextract import TLDExtract
 
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
-from .g750g import G750g
 from .abril import Abril
 from .allrecipes import AllRecipes
 from .amazingribs import AmazingRibs
@@ -43,6 +42,7 @@ from .food import Food
 from .foodandwine import FoodAndWine
 from .foodnetwork import FoodNetwork
 from .foodrepublic import FoodRepublic
+from .g750g import G750g
 from .geniuskitchen import GeniusKitchen
 from .giallozafferano import GialloZafferano
 from .gimmesomeoven import GimmeSomeOven
