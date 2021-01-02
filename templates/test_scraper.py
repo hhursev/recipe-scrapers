@@ -14,7 +14,7 @@ class TestTemplateScraper(ScraperTest):
         self.assertEqual("", self.harvester_class.author())
 
     def test_title(self):
-        self.assertEqual(self.harvester_class.title(), "")
+        self.assertEqual("", self.harvester_class.title())
 
     def test_total_time(self):
         self.assertEqual(0, self.harvester_class.total_time())
