@@ -32,6 +32,7 @@ from .cuisineaz import CuisineAZ
 from .cybercook import Cybercook
 from .delish import Delish
 from .domesticateme import DomesticateMe
+from .dr import Dr
 from .eatsmarter import Eatsmarter
 from .eatwhattonight import EatWhatTonight
 from .epicurious import Epicurious
@@ -123,6 +124,10 @@ from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
 from .yummly import Yummly
 
+import sys
+
+sys.stdout.reconfigure(encoding="utf-8")
+
 
 SCRAPERS = {
     Abril.host(): Abril,
@@ -154,6 +159,7 @@ SCRAPERS = {
     Cybercook.host(): Cybercook,
     Delish.host(): Delish,
     DomesticateMe.host(): DomesticateMe,
+    Dr.host(): Dr,
     Eatsmarter.host(): Eatsmarter,
     Eatsmarter.host(domain="de"): Eatsmarter,
     EatWhatTonight.host(): EatWhatTonight,
