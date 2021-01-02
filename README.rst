@@ -67,6 +67,7 @@ Scrapers available for:
 - `https://archanaskitchen.com/ <https://archanaskitchen.com/>`_
 - `https://www.atelierdeschefs.fr/ <https://www.atelierdeschefs.fr/>`_
 - `https://averiecooks.com/ <https://www.averiecooks.com/>`_
+- `https://bakingmischief.com/ <https://bakingmischief.com/>` _
 - `https://bbc.com/ <https://bbc.com/food/recipes>`_
 - `https://bbc.co.uk/ <http://bbc.co.uk/food/recipes>`_
 - `https://bbcgoodfood.com/ <https://bbcgoodfood.com>`_
