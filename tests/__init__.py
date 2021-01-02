@@ -20,10 +20,10 @@ class ScraperTest(unittest.TestCase):
             "tests/test_data/{}.testhtml".format(test_file_name), encoding="utf-8"
         ) as testfile:
             self.harvester_class = self.scraper_class(testfile, test=True, **options)
-            canonical_url = self.harvester_class.soup.find("link", {"rel": "canonical"})
+            canonical_url = self.harvester_class.canonical_url()
             if self.online:
                 if not canonical_url:
                     pytest.skip(
                         f"could not find canonical url for online test of scraper '{self.scraper_class.__name__}'"
                     )
-                self.harvester_class = self.scraper_class(url=canonical_url["href"])
+                self.harvester_class = self.scraper_class(url=canonical_url)

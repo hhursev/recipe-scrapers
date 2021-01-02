@@ -10,6 +10,12 @@ class TestRealSimpleScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("realsimple.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.realsimple.com/food-recipes/browse-all-recipes/vanilla-cheesecake",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Vanilla Cheesecake")
 

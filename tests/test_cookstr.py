@@ -10,6 +10,12 @@ class TestCookstrScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("cookstr.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.Cookstr.com/recipes/chocolate-cake-nicole-axworthy",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Chocolate Cake")
 
@@ -17,7 +23,8 @@ class TestCookstrScraper(ScraperTest):
         self.assertEqual(60, self.harvester_class.total_time())
 
     def test_total_yields(self):
-        self.assertEqual(0, self.harvester_class.yields())
+        self.harvester_class.exception_handling = True
+        self.assertEqual("", self.harvester_class.yields())
 
     def test_ingredients(self):
         self.assertCountEqual(

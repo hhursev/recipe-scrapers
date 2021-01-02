@@ -74,6 +74,7 @@ class SchemaOrg:
             recipe_yield = str(yield_data[0])
         else:
             recipe_yield = str(yield_data)
+
         if len(recipe_yield) <= 3:  # probably just a number. append "servings"
             return recipe_yield + " serving(s)"
 

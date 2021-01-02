@@ -13,6 +13,12 @@ class TestTheNutritiousKitchenScraper(ScraperTest):
     def test_author(self):
         self.assertEqual("The Nutritious Kitchen", self.harvester_class.author())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://thenutritiouskitchen.co/healthy-fig-pecan-crumble-bars/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Healthy Fig Pecan Crumble Bars")
 

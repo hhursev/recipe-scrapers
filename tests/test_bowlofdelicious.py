@@ -10,6 +10,12 @@ class TestBowlOfDeliciousScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("bowlofdelicious.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.bowlofdelicious.com/six-minute-seared-ahi-tuna-steaks/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(), "Six-Minute Seared Ahi Tuna Steaks"
