@@ -1,4 +1,5 @@
 from collections import OrderedDict
+from json.decoder import JSONDecodeError
 from urllib.parse import urljoin
 
 import requests
@@ -37,8 +38,14 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
         self.exception_handling = exception_handling
         self.meta_http_equiv = meta_http_equiv
         self.soup = BeautifulSoup(page_data, "html.parser")
-        self.schema = SchemaOrg(page_data)
         self.url = url
+
+        # Attempt to read Schema.org data. Gracefully fail if it raises an exception parsing the JSON.
+        # The scraper subclass can use BeautifulSoup to extract the information.
+        try:
+            self.schema = SchemaOrg(page_data)
+        except JSONDecodeError:
+            pass
 
     @classmethod
     def host(cls):
