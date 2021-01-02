@@ -10,6 +10,12 @@ class TestBettyCrocker(ScraperTest):
     def test_host(self):
         self.assertEqual("bettycrocker.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.bettycrocker.com/recipes/eclair-bars/0cb1d3f0-f074-400b-aa5a-5e729102c4ec",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Éclair Bars")
 

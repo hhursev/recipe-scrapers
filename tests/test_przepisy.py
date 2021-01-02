@@ -16,6 +16,12 @@ class TestPrzepisyScraper(ScraperTest):
     def test_language(self):
         self.assertEqual("pl", self.harvester_class.language())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.przepisy.pl/przepis/placki-ziemniaczane",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual("Placki ziemniaczane", self.harvester_class.title())
 

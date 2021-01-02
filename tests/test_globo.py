@@ -10,6 +10,12 @@ class TestGloboScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("receitas.globo.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://receitas.globo.com/strogonoff-de-frango-simples-4fbe8cc656ec5b3c9801b7e5.ghtml",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual("Strogonoff de Frango Simples", self.harvester_class.title())
 

@@ -1,5 +1,6 @@
 from collections import OrderedDict
 from json.decoder import JSONDecodeError
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
@@ -27,8 +28,8 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
         wild_mode=False,
     ):
         if test:  # when testing, we load a file
-            with url:
-                page_data = url.read()
+            page_data = url.read()
+            url = None
         else:
             page_data = requests.get(
                 url, headers=HEADERS, proxies=proxies, timeout=timeout
@@ -50,6 +51,12 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
     def host(cls):
         """ get the host of the url, so we can use the correct scraper """
         raise NotImplementedError("This should be implemented.")
+
+    def canonical_url(self):
+        canonical_link = self.soup.find("link", {"rel": "canonical", "href": True})
+        if canonical_link:
+            return urljoin(self.url, canonical_link["href"])
+        return self.url
 
     @Decorators.normalize_string_output
     @Decorators.schema_org_priority

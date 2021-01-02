@@ -9,6 +9,12 @@ class TestSimplyWhiskedScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("simplywhisked.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.simplywhisked.com/buffalo-chicken-chili/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Buffalo Chicken Chili")
 

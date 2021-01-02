@@ -12,6 +12,12 @@ class TestKitchnScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("thekitchn.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.thekitchn.com/manicotti-22949270",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Beef & Cheese Manicotti")
 

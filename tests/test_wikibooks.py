@@ -10,6 +10,12 @@ class TestWikiCookbookScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("en.wikibooks.org", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://en.wikibooks.org/wiki/Cookbook:Pumpkin_Pie",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Pumpkin Pie")
 
