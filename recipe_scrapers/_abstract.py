@@ -35,6 +35,7 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
                 url, headers=HEADERS, proxies=proxies, timeout=timeout
             ).content
 
+        self.wild_mode = wild_mode
         self.exception_handling = exception_handling
         self.meta_http_equiv = meta_http_equiv
         self.soup = BeautifulSoup(page_data, "html.parser")
