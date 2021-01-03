@@ -124,10 +124,6 @@ from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
 from .yummly import Yummly
 
-import sys
-
-sys.stdout.reconfigure(encoding="utf-8")
-
 
 SCRAPERS = {
     Abril.host(): Abril,
