@@ -13,6 +13,12 @@ class TestWildMode(unittest.TestCase):
         # just let this one pass
         pass
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.feastingathome.com/tomato-risotto/",
+            self.wild_mode_scraper.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(
             self.wild_mode_scraper.title(), "Summer Tomato Risotto with Saffron"

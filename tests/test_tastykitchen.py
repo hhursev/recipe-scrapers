@@ -10,41 +10,52 @@ class TestTastyKitchenScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("tastykitchen.com", self.harvester_class.host())
 
-    def test_title(self):
+    def test_canonical_url(self):
         self.assertEqual(
-            self.harvester_class.title(), "Cheddar and Garlic Scape Biscuits"
+            "https://www.thepioneerwoman.com/food-cooking/recipes/a11059/restaurant-style-salsa/",
+            self.harvester_class.canonical_url(),
         )
 
+    def test_title(self):
+        self.assertEqual(self.harvester_class.title(), "Restaurant Style Salsa")
+
     def test_total_time(self):
-        self.assertEqual(30, self.harvester_class.total_time())
+        self.assertEqual(10, self.harvester_class.total_time())
 
     def test_yields(self):
         self.assertEqual("12 serving(s)", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
-            "tasty_kitchen_files/Cheddar-and-Garlic-Scape-Biscuits-by-Superman-Cooks-410x273.jpg",
+            "https://tastykitchen.com/recipes/wp-content/uploads/sites/2/2010/01/TPW_5376.jpg",
             self.harvester_class.image(),
         )
 
     def test_ingredients(self):
         self.assertCountEqual(
             [
-                "2 cups All-purpose Flour",
-                "1 teaspoon Kosher Salt",
-                "1 Tablespoon Baking Powder",
-                "1 teaspoon Baking Soda",
-                "5 Tablespoons Cold Unsalted Butter",
-                "1 cup Buttermilk",
-                "4 Garlic Scapes, Finely Chopped",
-                "2 Tablespoons Fresh Chives",
-                "½ cups Shredded Cheddar Cheese, Sharp",
+                "1 can (28 Ounce) Whole Tomatoes With Juice",
+                "2 cans (10 Ounce) Rotel (diced Tomatoes And Green Chilies)",
+                "¼ cups Chopped Onion",
+                "1 clove Garlic, Minced",
+                "1 whole Jalapeno, Quartered And Sliced Thin",
+                "¼ teaspoons Sugar",
+                "¼ teaspoons Salt",
+                "¼ teaspoons Ground Cumin",
+                "½ cups Cilantro (more To Taste!)",
+                "½ whole Lime Juice",
             ],
             self.harvester_class.ingredients(),
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            "Preheat oven to 450ºF.\nCombine dry ingredients together in bowl. Cut butter into small pea-sized pieces and fold into dry ingredients. Combine thoroughly, smashing butter into mixture until blended. Stir in buttermilk and stir by hand until roughly blended.\nAdd scapes, chives and cheddar cheese, setting aside a small amount of cheese and chives to top biscuits with before baking. Combine to form a ball.\nTurn dough out onto floured surface and knead lightly (dough should have slightly sticky consistency). Roll out dough so that it is 3/4 inch thick. Using a glass or a biscuit cutter, cut out 2-inch round shapes. Place the rounds on an ungreased baking sheet. Gather dough scraps, and gently roll out again and repeat.\nSprinkle top of rounds with a pinch of cheddar cheese and chives. Bake biscuits for 8–10 minutes until golden brown. Serve warm with a pat of butter.",
+            "\n".join(
+                [
+                    "Note: this is a very large batch. Recommend using a 12-cup food processor, or you can process the ingredients in batches and then mix everything together in a large mixing bowl.",
+                    "Combine whole tomatoes, Rotel, onion, jalapeno, garlic, sugar, salt, cumin, lime juice, and cilantro in a blender or food processor. Pulse until you get the salsa to the consistency you’d like—I do about 10 to 15 pulses. Test seasonings with a tortilla chip and adjust as needed.",
+                    "Refrigerate salsa for at least an hour. Serve with tortilla chips or cheese nachos.",
+                ]
+            ),
             self.harvester_class.instructions(),
         )

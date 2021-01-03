@@ -26,7 +26,7 @@ setup(
         "extruct>=0.8.0",
         "language-tags>=1.0.0",
         "requests>=2.19.1",
-        "tldextract==2.2.2",
+        "tld>=0.12.3",
     ],
     packages=find_packages(),
     package_data={"": ["LICENSE"]},

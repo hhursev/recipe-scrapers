@@ -16,6 +16,12 @@ class TestNYTimesScraper(ScraperTest):
             self.harvester_class.image(),
         )
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://cooking.nytimes.com/recipes/1021128-cacio-e-pepe-crackers",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Cacio e Pepe Crackers")
 

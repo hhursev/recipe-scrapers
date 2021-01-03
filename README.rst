@@ -67,6 +67,7 @@ Scrapers available for:
 - `https://archanaskitchen.com/ <https://archanaskitchen.com/>`_
 - `https://www.atelierdeschefs.fr/ <https://www.atelierdeschefs.fr/>`_
 - `https://averiecooks.com/ <https://www.averiecooks.com/>`_
+- `https://bakingmischief.com/ <https://bakingmischief.com/>`_
 - `https://bbc.com/ <https://bbc.com/food/recipes>`_
 - `https://bbc.co.uk/ <http://bbc.co.uk/food/recipes>`_
 - `https://bbcgoodfood.com/ <https://bbcgoodfood.com>`_
@@ -88,6 +89,8 @@ Scrapers available for:
 - `https://cybercook.com.br/ <https://cybercook.com.br/>`_
 - `https://delish.com/ <https://delish.com>`_
 - `https://domesticate-me.com/ <https://domesticate-me.com/>`_
+- `https://downshiftology.com/ <https://downshiftology.com/>`_
+- `https://www.eatingbirdfood.com/ <https://www.eatingbirdfood.com>`_
 - `https://eatsmarter.com/ <https://eatsmarter.com/>`_
 - `https://eatsmarter.de/ <https://eatsmarter.de/>`_
 - `https://eatwhattonight.com/ <https://eatwhattonight.com/>`_
@@ -124,6 +127,7 @@ Scrapers available for:
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
 - `https://kochbar.de/ <https://kochbar.de>`_
 - `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
+- `https://littlespicejar.com/ <https://littlespicejar.com>`_
 - `http://livelytable.com/ <http://livelytable.com/>`_
 - `https://lovingitvegan.com/ <https://lovingitvegan.com/>`_
 - `https://lecremedelacrumb.com/ <https://lecremedelacrumb.com/>`_
@@ -141,12 +145,14 @@ Scrapers available for:
 - `https://nutritionbynathalie.com/blog <https://nutritionbynathalie.com/blog>`_
 - `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
 - `https://ohsheglows.com/ <https://ohsheglows.com>`_
+- `https://www.paleorunningmomma.com/ <https://www.paleorunningmomma.com>`_
 - `https://www.panelinha.com.br/ <https://www.panelinha.com.br>`_
 - `https://paninihappy.com/ <https://paninihappy.com>`_
 - `https://popsugar.com/ <https://popsugar.com>`_
 - `https://przepisy.pl/ <https://przepisy.pl>`_
 - `https://purelypope.com/ <https://purelypope.com>`_
 - `https://purplecarrot.com/ <https://purplecarrot.com>`_
+- `https://rachlmansfield.com/ <https://rachlmansfield.com>`_
 - `https://realsimple.com/ <https://www.realsimple.com>`_
 - `https://recipietineats.com/ <https://www.recipetineats.com/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_
@@ -156,6 +162,7 @@ Scrapers available for:
 - `https://skinnytaste.com/ <https://www.skinnytaste.com>`_
 - `https://southernliving.com/ <https://southernliving.com/>`_
 - `https://spendwithpennies.com/ <https://spendwithpennies.com/>`_
+- `https://www.thespruceeats.com/ <https://www.thespruceeats.com>`_
 - `https://steamykitchen.com/ <https://steamykitchen.com>`_
 - `https://streetkitchen.hu/ <https://streetkitchen.hu>`_
 - `https://sunbasket.com/ <https://sunbasket.com>`_
@@ -202,6 +209,15 @@ If you want a scraper for a new site added
     - `How do I know if a schema is available on my site? <#faq>`_
 
   - Otherwise, scrape the HTML - `like this <https://github.com/hhursev/recipe-scrapers/commit/ffee963d04>`_
+
+  - Generating a new scraper class:
+
+    .. code:: shell
+
+        python generate.py <ClassName> <URL>
+
+    - **ClassName**: The name of the new scraper class.
+    - **URL**: The URL of an example recipe from the target site. The content will be stored in `test_data` to be used with the test class.
 
 For Devs / Contribute
 ---------------------
