@@ -50,6 +50,7 @@ then:
     scraper.image()
     scraper.host()
     scraper.links()
+    scraper.nutrients()  # if available
 
 
 Note: ``scraper.links()`` returns a list of dictionaries containing all of the <a> tag attributes. The attribute names are the dictionary keys.
@@ -58,20 +59,27 @@ Scrapers available for:
 -----------------------
 
 - `https://www.750g.com <https://www.750g.com>`_
+- `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
+- `https://amazingribs.com/ <https://amazingribs.com/>`_
 - `https://ambitiouskitchen.com/ <https://ambitiouskitchen.com>`_
 - `https://archanaskitchen.com/ <https://archanaskitchen.com/>`_
+- `https://www.atelierdeschefs.fr/ <https://www.atelierdeschefs.fr/>`_
 - `https://averiecooks.com/ <https://www.averiecooks.com/>`_
+- `https://bakingmischief.com/ <https://bakingmischief.com/>`_
 - `https://bbc.com/ <https://bbc.com/food/recipes>`_
 - `https://bbc.co.uk/ <http://bbc.co.uk/food/recipes>`_
 - `https://bbcgoodfood.com/ <https://bbcgoodfood.com>`_
 - `https://bettycrocker.com/ <https://bettycrocker.com>`_
+- `https://blueapron.com/ <https://blueapron.com>`_
 - `https://bonappetit.com/ <https://bonappetit.com>`_
 - `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
+- `https://cdkitchen.com/ <https://cdkitchen.com/>`_
 - `https://chefkoch.de/ <https://chefkoch.de>`_
 - `https://closetcooking.com/ <https://closetcooking.com>`_
+- `https://cookeatshare.com/ <https://cookeatshare.com/>`_
 - `https://cookieandkate.com/ <https://cookieandkate.com/>`_
 - `https://cookpad.com/ <https://cookpad.com/>`_
 - `https://cookstr.com/ <https://cookstr.com>`_
@@ -81,6 +89,9 @@ Scrapers available for:
 - `https://cybercook.com.br/ <https://cybercook.com.br/>`_
 - `https://delish.com/ <https://delish.com>`_
 - `https://domesticate-me.com/ <https://domesticate-me.com/>`_
+- `https://downshiftology.com/ <https://downshiftology.com/>`_
+- `https://www.dr.dk/ <https://www.dr.dk/>`_
+- `https://www.eatingbirdfood.com/ <https://www.eatingbirdfood.com>`_
 - `https://eatsmarter.com/ <https://eatsmarter.com/>`_
 - `https://eatsmarter.de/ <https://eatsmarter.de/>`_
 - `https://eatwhattonight.com/ <https://eatwhattonight.com/>`_
@@ -90,11 +101,13 @@ Scrapers available for:
 - `https://finedininglovers.com/ <https://www.finedininglovers.com>`_
 - `https://fitmencook.com/ <https://www.fitmencook.com>`_
 - `https://food.com/ <https://www.food.com>`_
+- `https://foodandwine.com/ <https://www.foodandwine.com>`_
 - `https://foodnetwork.com/ <https://www.foodnetwork.com>`_
 - `https://foodrepublic.com/ <https://foodrepublic.com>`_
 - `https://geniuskitchen.com/ <https://geniuskitchen.com>`_
 - `https://giallozafferano.it/ <https://giallozafferano.it>`_
 - `https://gimmesomeoven.com/ <https://www.gimmesomeoven.com/>`_
+- `https://recietas.globo.com/ <https://www.receitas.globo.com/>`_
 - `https://gonnawantseconds.com/ <https://gonnawantseconds.com>`_
 - `https://gousto.co.uk/ <https://gousto.co.uk>`_
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
@@ -115,6 +128,7 @@ Scrapers available for:
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
 - `https://kochbar.de/ <https://kochbar.de>`_
 - `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
+- `https://littlespicejar.com/ <https://littlespicejar.com>`_
 - `http://livelytable.com/ <http://livelytable.com/>`_
 - `https://lovingitvegan.com/ <https://lovingitvegan.com/>`_
 - `https://lecremedelacrumb.com/ <https://lecremedelacrumb.com/>`_
@@ -132,10 +146,14 @@ Scrapers available for:
 - `https://nutritionbynathalie.com/blog <https://nutritionbynathalie.com/blog>`_
 - `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
 - `https://ohsheglows.com/ <https://ohsheglows.com>`_
+- `https://www.paleorunningmomma.com/ <https://www.paleorunningmomma.com>`_
 - `https://www.panelinha.com.br/ <https://www.panelinha.com.br>`_
 - `https://paninihappy.com/ <https://paninihappy.com>`_
+- `https://popsugar.com/ <https://popsugar.com>`_
 - `https://przepisy.pl/ <https://przepisy.pl>`_
 - `https://purelypope.com/ <https://purelypope.com>`_
+- `https://purplecarrot.com/ <https://purplecarrot.com>`_
+- `https://rachlmansfield.com/ <https://rachlmansfield.com>`_
 - `https://realsimple.com/ <https://www.realsimple.com>`_
 - `https://recipietineats.com/ <https://www.recipetineats.com/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_
@@ -145,8 +163,11 @@ Scrapers available for:
 - `https://skinnytaste.com/ <https://www.skinnytaste.com>`_
 - `https://southernliving.com/ <https://southernliving.com/>`_
 - `https://spendwithpennies.com/ <https://spendwithpennies.com/>`_
+- `https://www.thespruceeats.com/ <https://www.thespruceeats.com>`_
 - `https://steamykitchen.com/ <https://steamykitchen.com>`_
+- `https://streetkitchen.hu/ <https://streetkitchen.hu>`_
 - `https://sunbasket.com/ <https://sunbasket.com>`_
+- `https://sweetpeasandsaffron.com/ <https://sweetpeasandsaffron.com/>`_
 - `https://tastesoflizzyt.com <https://tastesoflizzyt.com>`_
 - `https://tasteofhome.com <https://tasteofhome.com>`_
 - `https://tasty.co <https://tasty.co>`_
@@ -189,6 +210,15 @@ If you want a scraper for a new site added
     - `How do I know if a schema is available on my site? <#faq>`_
 
   - Otherwise, scrape the HTML - `like this <https://github.com/hhursev/recipe-scrapers/commit/ffee963d04>`_
+
+  - Generating a new scraper class:
+
+    .. code:: shell
+
+        python generate.py <ClassName> <URL>
+
+    - **ClassName**: The name of the new scraper class.
+    - **URL**: The URL of an example recipe from the target site. The content will be stored in `test_data` to be used with the test class.
 
 For Devs / Contribute
 ---------------------

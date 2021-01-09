@@ -13,6 +13,7 @@ ON_EXCEPTION_RETURN_VALUES = {
     "reviews": None,
     "links": [],
     "language": "en",
+    "nutrients": {},
 }
 
 

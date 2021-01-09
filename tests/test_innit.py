@@ -46,6 +46,23 @@ class TestInnitScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
+    def test_nutrients(self):
+        self.assertEqual(
+            {
+                "sugarContent": "18 g",
+                "proteinContent": "32 g",
+                "fiberContent": "11 g",
+                "unsaturatedFatContent": "55 g",
+                "fatContent": "64 g",
+                "cholesterolContent": "0 mg",
+                "calories": "830 kcal",
+                "carbohydrateContent": "34 g",
+                "saturatedFatContent": "9 g",
+                "sodiumContent": "1060 mg",
+            },
+            self.harvester_class.nutrients(),
+        )
+
     def test_instructions(self):
         self.assertEqual(
             """Preheat

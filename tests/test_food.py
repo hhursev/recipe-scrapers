@@ -10,6 +10,12 @@ class TestFoodScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("food.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.food.com/recipe/chicken-noodle-soup-with-carrots-parsnips-and-dill-454415",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),

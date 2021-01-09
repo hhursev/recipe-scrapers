@@ -1,22 +1,28 @@
 import inspect
-from tldextract import TLDExtract
+from tld import get_tld
 
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
-from .g750g import G750g
+from .abril import Abril
 from .allrecipes import AllRecipes
+from .amazingribs import AmazingRibs
 from .ambitiouskitchen import AmbitiousKitchen
 from .acouplecooks import ACoupleCooks
 from .archanaskitchen import ArchanasKitchen
+from .atelierdeschefs import AtelierDesChefs
 from .averiecooks import AverieCooks
+from .bakingmischeif import BakingMischeif
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
 from .bettycrocker import BettyCrocker
+from .blueapron import BlueApron
 from .bonappetit import BonAppetit
 from .bowlofdelicious import BowlOfDelicious
 from .budgetbytes import BudgetBytes
+from .cdkitchen import CdKitchen
 from .chefkoch import Chefkoch
 from .closetcooking import ClosetCooking
+from .cookeatshare import CookEatShare
 from .cookieandkate import CookieAndKate
 from .cookpad import CookPad
 from .cookstr import Cookstr
@@ -26,6 +32,9 @@ from .cuisineaz import CuisineAZ
 from .cybercook import Cybercook
 from .delish import Delish
 from .domesticateme import DomesticateMe
+from .downshiftology import Downshiftology
+from .dr import Dr
+from .eatingbirdfood import EatingBirdFood
 from .eatsmarter import Eatsmarter
 from .eatwhattonight import EatWhatTonight
 from .epicurious import Epicurious
@@ -34,11 +43,14 @@ from .fifteenspatulas import FifteenSpatulas
 from .finedininglovers import FineDiningLovers
 from .fitmencook import FitMenCook
 from .food import Food
+from .foodandwine import FoodAndWine
 from .foodnetwork import FoodNetwork
 from .foodrepublic import FoodRepublic
+from .g750g import G750g
 from .geniuskitchen import GeniusKitchen
 from .giallozafferano import GialloZafferano
 from .gimmesomeoven import GimmeSomeOven
+from .globo import Globo
 from .gonnawantseconds import GonnaWantSeconds
 from .gousto import Gousto
 from .greatbritishchefs import GreatBritishChefs
@@ -58,6 +70,7 @@ from .kennymcgovern import KennyMcGovern
 from .kingarthur import KingArthur
 from .kochbar import Kochbar
 from .kuchniadomowa import KuchniaDomowa
+from .littlespicejar import LittleSpiceJar
 from .livelytable import LivelyTable
 from .lecremedelacrumb import LeCremeDeLaCrumb
 from .lovingitvegan import Lovingitvegan
@@ -75,10 +88,14 @@ from .nourishedbynutrition import NourishedByNutrition
 from .nutritionbynathalie import NutritionByNathalie
 from .nytimes import NYTimes
 from .ohsheglows import OhSheGlows
+from .paleorunningmomma import PaleoRunningMomma
 from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
+from .popsugar import PopSugar
 from .przepisy import Przepisy
 from .purelypope import PurelyPope
+from .purplecarrot import PurpleCarrot
+from .rachlmansfield import RachlMansfield
 from .realsimple import RealSimple
 from .recipietineats import RecipieTinEats
 from .seriouseats import SeriousEats
@@ -88,8 +105,11 @@ from .simplywhisked import SimplyWhisked
 from .skinnytaste import SkinnyTaste
 from .southernliving import SouthernLiving
 from .spendwithpennies import SpendWithPennies
+from .spruceeats import SpruceEats
 from .steamykitchen import SteamyKitchen
+from .streetkitchen import StreetKitchen
 from .sunbasket import SunBasket
+from .sweetpeasandsaffron import SweetPeasAndSaffron
 from .tastesoflizzyt import TastesOfLizzyT
 from .tasteofhome import TasteOfHome
 from .tasty import Tasty
@@ -113,20 +133,27 @@ from .yummly import Yummly
 
 
 SCRAPERS = {
+    Abril.host(): Abril,
     ACoupleCooks.host(): ACoupleCooks,
     AllRecipes.host(): AllRecipes,
+    AmazingRibs.host(): AmazingRibs,
     AmbitiousKitchen.host(): AmbitiousKitchen,
     ArchanasKitchen.host(): ArchanasKitchen,
+    AtelierDesChefs.host(): AtelierDesChefs,
     AverieCooks.host(): AverieCooks,
     BBCFood.host(): BBCFood,
     BBCFood.host(domain="co.uk"): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
+    BakingMischeif.host(): BakingMischeif,
     BettyCrocker.host(): BettyCrocker,
+    BlueApron.host(): BlueApron,
     BonAppetit.host(): BonAppetit,
     BowlOfDelicious.host(): BowlOfDelicious,
     BudgetBytes.host(): BudgetBytes,
+    CdKitchen.host(): CdKitchen,
     Chefkoch.host(): Chefkoch,
     ClosetCooking.host(): ClosetCooking,
+    CookEatShare.host(): CookEatShare,
     CookieAndKate.host(): CookieAndKate,
     CookPad.host(): CookPad,
     Cookstr.host(): Cookstr,
@@ -136,6 +163,9 @@ SCRAPERS = {
     Cybercook.host(): Cybercook,
     Delish.host(): Delish,
     DomesticateMe.host(): DomesticateMe,
+    Downshiftology.host(): Downshiftology,
+    Dr.host(): Dr,
+    EatingBirdFood.host(): EatingBirdFood,
     Eatsmarter.host(): Eatsmarter,
     Eatsmarter.host(domain="de"): Eatsmarter,
     EatWhatTonight.host(): EatWhatTonight,
@@ -145,12 +175,14 @@ SCRAPERS = {
     FineDiningLovers.host(): FineDiningLovers,
     FitMenCook.host(): FitMenCook,
     Food.host(): Food,
+    FoodAndWine.host(): FoodAndWine,
     FoodNetwork.host(): FoodNetwork,
     FoodRepublic.host(): FoodRepublic,
     G750g.host(): G750g,
     GeniusKitchen.host(): GeniusKitchen,
     GialloZafferano.host(): GialloZafferano,
     GimmeSomeOven.host(): GimmeSomeOven,
+    Globo.host(): Globo,
     GonnaWantSeconds.host(): GonnaWantSeconds,
     Gousto.host(): Gousto,
     GreatBritishChefs.host(): GreatBritishChefs,
@@ -172,9 +204,13 @@ SCRAPERS = {
     KingArthur.host(): KingArthur,
     Kochbar.host(): Kochbar,
     KuchniaDomowa.host(): KuchniaDomowa,
+    LittleSpiceJar.host(): LittleSpiceJar,
     LivelyTable.host(): LivelyTable,
     LeCremeDeLaCrumb.host(): LeCremeDeLaCrumb,
     Lovingitvegan.host(): Lovingitvegan,
+    PaleoRunningMomma.host(): PaleoRunningMomma,
+    RachlMansfield.host(): RachlMansfield,
+    SpruceEats.host(): SpruceEats,
     TheKitchn.host(): TheKitchn,
     TheNutritiousKitchen.host(): TheNutritiousKitchen,
     Marmiton.host(): Marmiton,
@@ -193,8 +229,10 @@ SCRAPERS = {
     OhSheGlows.host(): OhSheGlows,
     Panelinha.host(): Panelinha,
     PaniniHappy.host(): PaniniHappy,
+    PopSugar.host(): PopSugar,
     Przepisy.host(): Przepisy,
     PurelyPope.host(): PurelyPope,
+    PurpleCarrot.host(): PurpleCarrot,
     RealSimple.host(): RealSimple,
     RecipieTinEats.host(): RecipieTinEats,
     SeriousEats.host(): SeriousEats,
@@ -205,7 +243,9 @@ SCRAPERS = {
     SouthernLiving.host(): SouthernLiving,
     SpendWithPennies.host(): SpendWithPennies,
     SteamyKitchen.host(): SteamyKitchen,
+    StreetKitchen.host(): StreetKitchen,
     SunBasket.host(): SunBasket,
+    SweetPeasAndSaffron.host(): SweetPeasAndSaffron,
     TastesOfLizzyT.host(): TastesOfLizzyT,
     TasteOfHome.host(): TasteOfHome,
     Tasty.host(): Tasty,
@@ -249,9 +289,8 @@ class NoSchemaFoundInWildMode(Exception):
 
 
 def get_domain(url):
-    tldextract = TLDExtract(suffix_list_urls=None)
-    url_info = tldextract(url)
-    return "{}.{}".format(url_info.domain, url_info.suffix)
+    url_info = get_tld(url, as_object=True, search_private=False)
+    return url_info.fld
 
 
 def harvest(url, **options):

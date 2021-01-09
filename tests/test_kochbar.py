@@ -10,6 +10,12 @@ class TestKochbarScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("kochbar.de", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.kochbar.de/rezept/549118/Ligurisches-Huehnerragout-mit-Zucchini-Spezzatino-con-zucchine.html",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),

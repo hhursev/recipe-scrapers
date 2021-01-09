@@ -1,0 +1,1585 @@
+
+<!DOCTYPE html>
+<!--[if lte IE 7]> <html id='ie7' class='ie' xmlns:og='http://ogp.me/ns#' xmlns='http://www.w3.org/1999/xhtml' lang="en"> <![endif]-->
+<!--[if IE 8]> <html id='ie8' class='ie' xmlns:og='http://ogp.me/ns#' xmlns='http://www.w3.org/1999/xhtml' lang="en"> <![endif]-->
+<!--[if IE 9]> <html id='ie9' class='ie' xmlns:og='http://ogp.me/ns#' xmlns='http://www.w3.org/1999/xhtml' lang="en"> <![endif]-->
+<!--[if gt IE 9]> <html id='ie10' class='ie' xmlns:og='http://ogp.me/ns#' xmlns='http://www.w3.org/1999/xhtml' lang="en"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang='en' xmlns:og='http://ogp.me/ns#' xmlns='http://www.w3.org/1999/xhtml'>
+<!--<![endif]-->
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<link href='/apple-touch-icon-57x57.png' rel='apple-touch-icon' sizes='57x57'>
+<link href='/apple-touch-icon-60x60.png' rel='apple-touch-icon' sizes='60x60'>
+<link href='/apple-touch-icon-72x72.png' rel='apple-touch-icon' sizes='72x72'>
+<link href='/apple-touch-icon-76x76.png' rel='apple-touch-icon' sizes='76x76'>
+<link href='/apple-touch-icon-114x114.png' rel='apple-touch-icon' sizes='114x114'>
+<link href='/apple-touch-icon-120x120.png' rel='apple-touch-icon' sizes='120x120'>
+<link href='/apple-touch-icon-144x144.png' rel='apple-touch-icon' sizes='144x144'>
+<link href='/apple-touch-icon-152x152.png' rel='apple-touch-icon' sizes='152x152'>
+<link href='/apple-touch-icon-180x180.png' rel='apple-touch-icon' sizes='180x180'>
+<link href='/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png'>
+<link href='/favicon-96x96.png' rel='icon' sizes='96x96' type='image/png'>
+<link href='/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
+<link href='/favicon.ico' rel='shortcut icon'>
+<title>Recipe: BBQ Chickpeas &amp; Farro with Corn, Cucumbers &amp; Hard-Boiled Eggs - Blue Apron</title>
+<meta content='This farro salad boasts delicious contrast from tender chickpeas tossed in a savory-sweet barbecue sauce, crunchy marinated cucumbers, and bites of sweet corn (charred to lightly caramelize the kernels for even more flavor).&lt;a href=&quot;https://media.blueapron.com/recipes/24483/c_card_pdfs/1595434322-32-0002-6318/2PV3_BBQChickpeasFarro_WEB.pdf&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://media.blueapron.com/recipes/24483/c_card_pdfs/1595434322-32-0002-6318/2PV3_BBQChickpeasFarro_WEB.pdf&quot;&gt;&lt;strong&gt;CLICK FOR RECIPE CARD&lt;/strong&gt;&lt;/a&gt;' name='description'>
+<meta content='1703523' property='fb:admins'>
+<meta content='2474' property='fb:admins'>
+<meta content='268433919926057' property='fb:app_id'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+
+<link rel="stylesheet" media="print" href="https://media.blueapron.com/assets/recipe-print-54e16cdc3e546a0219560416e96f039c34bcbc3e21a6e231cfb30729310c7e93.css" />
+
+<!--[if lte IE 9]>
+<link rel="stylesheet" media="screen" href="https://media.blueapron.com/assets/app-ie9-45ca15bf13019100e5b1309e12aa01483879329cf06518dd56b8d673e64d911c.css" />
+<link rel="stylesheet" media="screen" href="https://media.blueapron.com/assets/marketing-c701f34637fe2e4d815177e806c8adcc9a71878e33bada8af7fd2e52827547d2.css" />
+<![endif]-->
+<!--[if gt IE 9]>
+<link rel="stylesheet" media="screen" href="https://media.blueapron.com/assets/app-aa53a2817a198ad9cb9290a32a4d76179443e57e5c2dd9c9a705fa03ac891145.css" />
+<![endif]-->
+<!--[if !IE]>-->
+<link rel="stylesheet" media="screen" href="https://media.blueapron.com/assets/app-aa53a2817a198ad9cb9290a32a4d76179443e57e5c2dd9c9a705fa03ac891145.css" />
+<!--<![endif]-->
+<!--[if lte IE 7]>
+<script src="https://media.blueapron.com/assets/json3-c98b21e5fa1a8054ebdf3119ef8f5e3566e52141194fa05059d006009e03fe43.js"></script>
+<![endif]-->
+<script>
+  (function(firebaseKey) {
+    if(!firebaseKey) {
+      console.log('Will not call firebase locally');
+      return;
+    }
+
+    var firebaseConfig = {
+      apiKey: firebaseKey,
+      authDomain: 'api-7986696721163969355-550138.firebaseapp.com',
+      databaseURL: 'https://api-7986696721163969355-550138.firebaseio.com',
+      projectId: 'api-7986696721163969355-550138',
+      storageBucket: 'api-7986696721163969355-550138.appspot.com',
+      messagingSenderId: '293181484224',
+      appId: '1:293181484224:web:380990b244c92884'
+    };
+
+    // First Delay Input (0.1.3) minified code
+    // https://github.com/GoogleChromeLabs/first-input-delay#first-input-delay
+    !function(n,e){var t,o,i,c=[],f={passive:!0,capture:!0},r=new Date,a="pointerup",u="pointercancel";function p(n,c){t||(t=c,o=n,i=new Date,w(e),s())}function s(){o>=0&&o<i-r&&(c.forEach(function(n){n(o,t)}),c=[])}function l(t){if(t.cancelable){var o=(t.timeStamp>1e12?new Date:performance.now())-t.timeStamp;"pointerdown"==t.type?function(t,o){function i(){p(t,o),r()}function c(){r()}function r(){e(a,i,f),e(u,c,f)}n(a,i,f),n(u,c,f)}(o,t):p(o,t)}}function w(n){["click","mousedown","keydown","touchstart","pointerdown"].forEach(function(e){n(e,l,f)})}w(n),self.perfMetrics=self.perfMetrics||{},self.perfMetrics.onFirstInputDelay=function(n){c.push(n),s()}}(addEventListener,removeEventListener);
+
+    // Initialize Firebase through performance only method
+    // for docs: https://firebase.google.com/docs/perf-mon/get-started-web#cdn_standalone-sdk
+    (function(sa,fbc){function load(f,c){var a=document.createElement('script');
+    a.async=1;a.src=f;var s=document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a,s);}load(sa);window.onload = function() {firebase.initializeApp(fbc).performance();};
+    })('https://www.gstatic.com/firebasejs/6.0.2/firebase-performance-standalone.js', firebaseConfig);
+  })('AIzaSyDhnk_MJD9mTE32QjuA5LkJ3DV6Omp-UuM')
+</script>
+
+<style>
+.async-hide { opacity: 0 !important}
+</style>
+<script>
+  (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+  h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+  (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+  })(window,document.documentElement,'async-hide','dataLayer',4000,
+  {'GTM-TWNDVHT':true});
+</script>
+<script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-33873510-1', 'auto');
+  ga('require', 'GTM-TWNDVHT');
+
+  var cookieName = "user_attributes"
+  var nameEQ = cookieName + "=";
+  var ca = document.cookie.split(';');
+  var userCookie;
+  for(var i=0;i < ca.length;i++) {
+      var c = ca[i];
+      while (c.charAt(0)==' ') c = c.substring(1,c.length);
+      if (c.indexOf(nameEQ) == 0) {
+        userCookie = c.substring(nameEQ.length,c.length);
+        break;
+      }
+  }
+
+  if(userCookie) {
+    var user = JSON.parse(decodeURIComponent(userCookie));
+    if(user && user.id){
+      ga('set', 'userId', user.id.toString());
+      ga('set', 'dimension1', user.id.toString());
+    }
+  }
+
+  ga('send', 'pageview');
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async="async"></script>
+
+<script src="https://media.blueapron.com/assets/application-8f27efdaf7871d2ad487e1fb0155e17dbc4e3e9e718696ba3cb76688c82d20c6.js"></script>
+<script>
+  (function(){
+    if ($.cookie('isMobileWeb')) { return };
+
+    var isMobileWeb = (MobileEsp.DetectMobileLong() || MobileEsp.DetectIos() || MobileEsp.DetectAndroid());
+
+    if (isMobileWeb) {
+      $.cookie('isMobileWeb', isMobileWeb, { path: '/' });
+    }
+  })();
+</script>
+<script>
+  if (!$.cookie('mobile_view')) {
+    (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode autoAppIndex banner closeBanner closeJourney creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode trackCommerceEvent logEvent disableTracking getBrowserFingerprintId".split(" "), 0);
+
+    branch.init('key_live_beisD6R9a2a4SJaAX3wWylhjamfM9kjy');
+  }
+
+  (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script");r.type="text/javascript";r.integrity="sha384-cukXwabQy+j/QA1+RqiXSzxhgQg5Rrn3zVszlwH3pWj/bXJxlA8Ge7NhcD6vP2Ik";r.crossOrigin="anonymous";r.async=true;r.src="https://cdn.amplitude.com/libs/amplitude-7.1.0-min.gz.js";r.onload=function(){if(!e.amplitude.runQueuedFunctions){console.log("[Amplitude] Error: could not load SDK")}};var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i);function s(e,t){e.prototype[t]=function(){this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}var o=function(){this._q=[];return this};var a=["add","append","clearAll","prepend","set","setOnce","unset"];for(var c=0;c<a.length;c++){s(o,a[c])}n.Identify=o;var u=function(){this._q=[];return this};var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"];for(var p=0;p<l.length;p++){s(u,l[p])}n.Revenue=u;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","enableTracking","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","onInit","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"];function v(e){function t(t){e[t]=function(){e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){e=(!e||e.length===0?"$default_instance":e).toLowerCase();if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]};e.amplitude=n})(window,document);
+  (function(){
+    var props = Blueapron.Utilities.shouldUpdateProps() ? Blueapron.Utilities.getUserProperties() : false ;
+    amplitude.getInstance().init("5aec0f0f4543600cc965331a8e46a2c6", props ? props.user_id : null, {
+      includeUtm: true,
+      includeReferrer: true,
+      includeGclid: true,
+      saveParamsReferrerOncePerSession: false
+    });
+    amplitude.getInstance().setUserProperties(props);
+  })();
+</script>
+<script src="https://cdn.optimizely.com/js/214661394.js"></script>
+<!--[if lte IE 7]>
+<script src="https://media.blueapron.com/assets/modal-ie-645cf777825fe6ccd7096f9b5f6dc40671724a6113097ff614974064e23ae180.js"></script>
+<![endif]-->
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="nNoWjCjRAJLASolVmGEJQ6ToD3QUAWssC/BBsdo0UVhte8DinR2/anfqouVdR5ahagM6OrnV+oOzm7wab7BWmQ==" />
+<meta content='Blue Apron' property='og:site_name'>
+<meta content='article' property='og:type'>
+<meta content='BBQ Chickpeas &amp; Farro with Corn, Cucumbers &amp; Hard-Boiled Eggs' property='og:title'>
+<meta content='This farro salad boasts delicious contrast from tender chickpeas tossed in a savory-sweet barbecue sauce, crunchy marinated cucumbers, and bites of sweet corn (charred to lightly caramelize the kernels for even more flavor).&lt;a href=&quot;https://media.blueapron.com/recipes/24483/c_card_pdfs/1595434322-32-0002-6318/2PV3_BBQChickpeasFarro_WEB.pdf&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://media.blueapron.com/recipes/24483/c_card_pdfs/1595434322-32-0002-6318/2PV3_BBQChickpeasFarro_WEB.pdf&quot;&gt;&lt;strong&gt;CLICK FOR RECIPE CARD&lt;/strong&gt;&lt;/a&gt;' property='og:description'>
+<meta content='https://www.blueapron.com/recipes/bbq-chickpeas-farro-with-corn-cucumbers-hard-boiled-eggs-3' property='og:url'>
+<link href='https://www.blueapron.com/recipes/bbq-chickpeas-farro-with-corn-cucumbers-hard-boiled-eggs-3' rel='canonical'>
+<script src="https://media.blueapron.com/assets/recipes/recipe-55e6105055c45ee62505f8722650f09aa32e8c4151f9a3fcbb0bf81d59f0e92a.js"></script>
+<meta content='https://media.blueapron.com/recipes/24483/c_main_dish_images/1593115477-32-0038-5165/0819_2PV2_BBQ-Chickpea_4449_CropRight_Web_high_feature.jpg' property='og:image'>
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='@blueapron' name='twitter:site'>
+<meta content='@blueapron' name='twitter:creator'>
+<meta content='BBQ Chickpeas &amp; Farro with Corn, Cucumbers &amp; Hard-Boiled Eggs' name='twitter:title'>
+<meta content='This farro salad boasts delicious contrast from tender chickpeas tossed in a savory-sweet barbecue sauce, crunchy marinated cucumbers, and bites of sweet corn (charred to lightly caramelize the kernels for even more flavor).&lt;a href=&quot;https://media.blueapron.com/recipes/24483/c_card_pdfs/1595434322-32-0002-6318/2PV3_BBQChickpeasFarro_WEB.pdf&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://media.blueapron.com/recipes/24483/c_card_pdfs/1595434322-32-0002-6318/2PV3_BBQChickpeasFarro_WEB.pdf&quot;&gt;&lt;strong&gt;CLICK FOR RECIPE CARD&lt;/strong&gt;&lt;/a&gt;' name='twitter:description'>
+<meta content='https://media.blueapron.com/recipes/24483/c_main_dish_images/1593115477-32-0038-5165/0819_2PV2_BBQ-Chickpea_4449_CropRight_Web_high_feature.jpg' name='twitter:image'>
+
+</head>
+<body class='recipe-page'>
+<script>
+  if(!window.dataLayer) { window.dataLayer = []; }
+  window.dataLayer.push({
+    recipeId: 24483
+  });
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWZPFP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-KWZPFP');</script>
+<!-- End Google Tag Manager -->
+
+<div class='snap-drawers hide' id='snap-drawers-container'>
+<div class='snap-drawer snap-drawer-right' id='right-drawer'>
+<div class='marketplace-cart' id='js-MarketCart'>
+<div class='cart-contents-area'>
+<div class='cart-title-hldr'>
+<h2 class='cart-title'>
+<span class='icon icon-basket'></span>
+<span class='title-text'>
+Your Blue Apron Basket
+<span class='basket-num hide'></span>
+</span>
+</h2>
+</div>
+<div class='cart-product-area'>
+<div class='cart-btn-hldr' id='js-TopCartBtn'>
+<div class='cart-btn js-CartCheckoutArea'>
+<a class="checkout-btn" href="/market/checkout">Checkout</a>
+<span class='checkout-btn-disabled'>Checkout</span>
+</div>
+<div class='cart-btn'>
+<span class='js-CloseCart continue-btn'>
+Continue Browsing
+</span>
+</div>
+</div>
+<div class='cart-items hldr' id='js-CartItemArea'>
+Loading...
+</div>
+<div class='cart-btn-hldr'>
+<div class='cart-btn js-CartCheckoutArea'>
+<a class="checkout-btn" href="/market/checkout">Checkout</a>
+<span class='checkout-btn-disabled'>Checkout</span>
+</div>
+<div class='cart-btn'>
+<span class='js-CloseCart continue-btn'>
+Continue Browsing
+</span>
+</div>
+</div>
+</div>
+<div class='cart-footer-hldr logged-out'>
+<p class='sign-up'>
+To manage your Blue Apron membership,
+<a href='/users/sign_in' id='js-CartLogin' target='_BLANK'>Log in</a>
+or
+<a href='/users/sign_up' id='js-CartSignup' target='_BLANK'>Sign up</a>
+here.
+</p>
+</div>
+</div>
+<div class='js-BackboneLoading backbone-loading'>
+<span class='spinner-area'>
+<span class='loader-txt'>Updating Your Basket&hellip;</span>
+</span>
+</div>
+</div>
+
+</div>
+<div class='mobile-only' id='mobile-nav-overlay'></div>
+<div aria-hidden='true' class='nav-mobile mobile-only' id='right-side-popup-menu'>
+<div class='nav-title logged-in nav-title-head'>
+<span class='close js-CloseCart'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1211 19 18 18"><path d="M1220 29.414l6.293 6.293a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414L1221.414 28l6.293-6.293a.999.999 0 1 0-1.414-1.414L1220 26.586l-6.293-6.293a.999.999 0 1 0-1.414 1.414l6.293 6.293-6.293 6.293a.999.999 0 1 0 1.414 1.414l6.293-6.293z" fill="#FFF"></path></svg>
+
+</span>
+</div>
+<div class='logged-out nav-title nav-title-head'>
+<h3>MENU</h3>
+<span class='close js-CloseCart'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1211 19 18 18"><path d="M1220 29.414l6.293 6.293a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414L1221.414 28l6.293-6.293a.999.999 0 1 0-1.414-1.414L1220 26.586l-6.293-6.293a.999.999 0 1 0-1.414 1.414l6.293 6.293-6.293 6.293a.999.999 0 1 0 1.414 1.414l6.293-6.293z" fill="#FFF"></path></svg>
+
+</span>
+</div>
+<ul class='nav-mobile-pills'>
+<li class='logged-in free-bird-hide user-active'>
+<a data-tracking-name="Current" href="/account#current">Current</a>
+</li>
+<li class='logged-in user-active'>
+<a data-tracking-name="Upcoming" href="/account#upcoming">Upcoming</a>
+</li>
+<li class='logged-in user-reactivate'>
+<a data-tracking-name="Reactivate" href="/account#upcoming">Reactivate Account</a>
+</li>
+<li class='logged-in free-bird-hide show-free-meals referrals-hide'>
+<a data-tracking-name="Invites" href="/account#invites">Free Meals
+<span class='notification-big'>
+<span class='notification'>
+<span></span>
+</span>
+</span>
+</a></li>
+<li class='logged-in free-bird-hide show-free-meals invites-hide'>
+<a data-tracking-name="Referrals" href="/account#referrals">Free Meals
+<span class='nav-invites notification-big'>
+<span class='notification referrals'>
+<span></span>
+</span>
+</span>
+</a></li>
+<li class='logged-out'>
+<a class="nav_home" data-tracking-name="Home" href="/">Home</a>
+</li>
+<li class='logged-out'>
+<a class="nav_on_the_menu" data-tracking-name="On The Menu" href="/pages/sample-recipes">On The Menu</a>
+</li>
+<li class='logged-out'>
+<a class="nav_pricing" data-tracking-name="Pricing" href="/pricing">Pricing</a>
+</li>
+<li class='js-hasWineSub'><a class="nav_wine_mobile" data-tracking-name="Wine" href="/wine">Wine</a></li>
+<li><a class="nav_gifts" data-tracking-name="Gifts" href="/gifts">Gifts</a></li>
+<li>
+<a class="nav_shop" data-tracking-name="Shop" href="/market">Market</a>
+</li>
+<li class='user-canceled'>
+<a data-tracking-name="Reactivate" href="/account#reactivate">Reactivate Account</a>
+</li>
+<li class='user-canceled'>
+<a data-tracking-name="News" href="/account#news">What&#39;s New</a>
+</li>
+<li class='logged-in sublist mt-10'>
+<a data-tracking-name="Recycle" href="/account#recycle">How To Recycle</a>
+</li>
+<li class='logged-in sublist'>
+<a data-tracking-name="Delivery History" href="/account#deliveryHistory">Delivery History</a>
+</li>
+<li class='logged-in sublist'>
+<a data-tracking-name="Account Settings" href="/account#setting">Account Settings</a>
+</li>
+<li class='logged-in sublist free-bird-hide'>
+<a data-tracking-name="Help Center &amp; FAQ" href="http://support.blueapron.com/">Help Center</a>
+</li>
+<li class='sign-out-wrap logged-in sublist'>
+<a class="js-signOut sign-out" data-tracking-name="Log Out" rel="nofollow" data-method="delete" href="/users/sign_out">Log Out</a>
+</li>
+<li class='sign-up logged-out'>
+<a class="js-SignUpBtn btn btn-orange btn--full" data-tracking-name="Sign Up" id="mobile-sign-up-link" href="/users/sign_up">Sign Up</a>
+</li>
+<li class='sign-in logged-out'>
+<a class="portal-sign-in btn btn--full btn--ghost" data-tracking-name="Log In" id="mobile-log-in-link" href="/users/sign_in">Log In</a>
+</li>
+</ul>
+</div>
+<script>
+  (function(){
+    $('.nav-mobile-pills a').click(function(e){
+      // remove active class which highlights nav item.
+      $('.header-nav a.current').removeClass('current');
+      $('.nav-mobile-pills a.current').removeClass('current');
+    });
+    // this is required to make the close btn work...investigate later.
+    $(".nav-mobile-pills .close").click(function(e){
+
+    });
+
+  })();
+</script>
+
+</div>
+<div class='snap-content' id='body-wrap-container'>
+<div class='js-CloseCart' id='cart-overlay'></div>
+<div id='body-wrap'>
+<header class='ios-app-hide' id='header-main'>
+<div class='container'>
+<div class='pull-right small-hide js-userLoading' id='member-portal'>
+<div class='js-UserNav welcome-bar logged-in'>
+<div class='member-name-hldr'>
+<span class='member-name pull-left mr-10'></span>
+<span class='user-nav-anchor'>
+&nbsp;
+<span class='icon-caret pull-left'>
+<svg height='7px' version='1.1' viewBox='1081 35 12 7' width='12px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<path d='M1087,42 C1086.744,42 1086.488,41.902 1086.293,41.707 L1082.293,37.707 C1081.902,37.316 1081.902,36.684 1082.293,36.293 C1082.684,35.902 1083.316,35.902 1083.707,36.293 L1087,39.586 L1090.293,36.293 C1090.684,35.902 1091.316,35.902 1091.707,36.293 C1092.098,36.684 1092.098,37.316 1091.707,37.707 L1087.707,41.707 C1087.512,41.902 1087.256,42 1087,42' fill='currentColor' id='chevron-nav' opacity='1' stroke='none'></path>
+</svg>
+</span>
+<div class='user-nav-container hide' id='js-UserAccountNav'>
+<div class='user-nav-box logged-in'>
+<ul class='user-nav'>
+<li class='nav-setting'>
+<a class="account-menu-hover" href="/account#setting">Account Settings</a>
+</li>
+<li class='nav-deliveryHistory'>
+<a class="account-menu-hover" href="/account#deliveryHistory">Delivery History</a>
+</li>
+<li class='nav-recycle'>
+<a class="account-menu-hover" href="/account#recycle">How To Recycle</a>
+</li>
+<li class='nav-logout'>
+<a class="js-signOut sign-out account-menu-hover" rel="nofollow" data-method="delete" href="/users/sign_out">Log Out</a>
+</li>
+</ul>
+</div>
+<div class='user-nav-box logged-out'>
+<ul class='user-nav'>
+<li class='nav-setting'>
+<a class="account-menu-hover" href="/account#setting">Account Settings</a>
+</li>
+<li class='nav-deliveryHistory'>
+<a class="account-menu-hover" href="/account#deliveryHistory">Order History</a>
+</li>
+<li class='nav-logout'>
+<a class="js-signOut sign-out hide account-menu-hover" rel="nofollow" data-method="delete" href="/users/sign_out">Log Out</a>
+</li>
+</ul>
+</div>
+</div>
+</span>
+<span class='guest-sign-in ml-5 hide'>
+<a class="btn btn--orange btn--header js-SignUpBtn" id="guest-sign-up-link" href="/users/sign_up">Sign Up</a>
+</span>
+</div>
+</div>
+<span class='notification' style='display:none;'>
+<span></span>
+</span>
+<div class='sign-in logged-out'>
+<a class="portal-sign-in test" id="log-in-link" href="/users/sign_in">Log In</a>
+<a class="btn btn--orange btn--header js-SignUpBtn" id="sign-up-link" href="/users/sign_up">Sign Up</a>
+</div>
+</div>
+
+<a class="logo logged-out" aria-label="Blue Apron homepage" href="/"><svg xmlns="http://www.w3.org/2000/svg" width="131" height="61" viewBox="32 22 131 61" class="full-logo"><desc>BA Sketch.</desc><path d="M161.883 70.62v-6.842c0-1.802-.409-3.243-1.226-4.322-.819-1.08-2.01-1.619-3.58-1.619-1.545 0-3.102.69-4.67 2.07-.47-1.335-1.388-2.003-2.756-2.003h-1.983l-.234.234v16.654c.38.068.794.118 1.244.151a18.557 18.557 0 0 0 2.754 0c.449-.033.863-.083 1.243-.15V63.644c.45-.401.885-.69 1.312-.868.425-.178.806-.268 1.143-.268.58 0 .973.179 1.176.535.201.357.301.912.301 1.67v7.108c0 1.09.213 1.903.638 2.437.427.533 1.221.8 2.387.8 1.187 0 2.206-.377 3.058-1.134-.538-.734-.807-1.836-.807-3.304zm-22.015-.517c-.315.857-.968 1.285-1.961 1.285-.497 0-.897-.111-1.202-.334-.303-.222-.54-.562-.71-1.018-.17-.456-.283-1.022-.34-1.702a29.735 29.735 0 0 1-.084-2.42c0-.6.035-1.163.102-1.685.068-.523.192-.985.372-1.385.181-.401.424-.718.728-.95.305-.235.705-.352 1.202-.352.947 0 1.578.418 1.893 1.252.317.834.476 2.052.476 3.655 0 1.58-.16 2.798-.476 3.654zm-1.911-12.466c-1.254 0-2.364.212-3.326.634a6.489 6.489 0 0 0-2.419 1.803c-.65.779-1.143 1.708-1.48 2.786-.335 1.08-.503 2.287-.503 3.621 0 1.313.168 2.515.503 3.605.337 1.09.836 2.02 1.496 2.788a6.771 6.771 0 0 0 2.42 1.785c.952.423 2.055.634 3.309.634s2.364-.205 3.327-.618c.962-.41 1.776-1 2.437-1.769.661-.767 1.165-1.696 1.512-2.786s.52-2.304.52-3.639c0-2.98-.806-5.273-2.419-6.875-1.367-1.312-3.16-1.969-5.377-1.969zm-9.811.267c-1.949 0-3.35 1.001-4.2 3.004-.807-1.87-2.242-2.881-4.302-3.038-.315.245-.628.64-.942 1.185-.312.546-.526 1.04-.638 1.485.85.646 1.277 1.803 1.277 3.472v10.78c.761.133 1.64.201 2.638.201.997 0 1.865-.068 2.605-.2V64.411c.716-1.135 1.635-1.701 2.756-1.701.76.088 1.332.2 1.713.333.403-.668.722-1.474.957-2.42.236-.945.353-1.763.353-2.453-.896-.179-1.636-.267-2.217-.267zm-18.483 13.35c-.604 0-1.332-.254-2.184-.767v-7.343c.694-.89 1.513-1.335 2.454-1.335 1.343 0 2.016 1.468 2.016 4.406 0 3.36-.762 5.04-2.286 5.04zm6.104-11.248c-.5-.756-1.11-1.339-1.824-1.751-.715-.413-1.542-.618-2.48-.618-1.83 0-3.383.634-4.657 1.903-.626-1.09-1.58-1.636-2.855-1.636h-1.379l-.234.234v23.63l.234.233h2.017c1.076 0 1.825-.233 2.252-.7.425-.467.638-1.28.638-2.436v-4.44c1.028.467 2.054.701 3.081.701.96 0 1.849-.206 2.663-.617a6.38 6.38 0 0 0 2.126-1.751c.604-.758 1.078-1.681 1.424-2.772.346-1.09.519-2.302.519-3.638 0-1.335-.129-2.536-.385-3.604-.257-1.069-.638-1.98-1.14-2.738zm-23.123 5.792c-.28-.011-.476-.018-.589-.018h-2.452l-1.345.034.773-2.57c.896-3.292 1.434-5.417 1.613-6.374h.202c.694 2.715 1.31 5.005 1.847 6.874l.571 2.07c-.133 0-.34-.006-.62-.016zM90.98 51.796c-1.164 0-2.184.067-3.058.2L80.53 74.392l.166.267c.674.245 1.547.368 2.623.368.962 0 1.713-.068 2.25-.2l1.446-4.84c.29.021.74.033 1.344.033h4.772c.582 0 1.019-.012 1.31-.034l.639 2.204c.336 1.134.74 1.901 1.21 2.302.47.4 1.288.601 2.453.601.985 0 1.87-.211 2.654-.634l-7.257-22.43c-.786-.155-1.839-.233-3.16-.233zm40.639-17.198c.345-.501.872-.751 1.584-.751.734 0 1.283.267 1.65.8.366.534.552 1.213.552 2.037v.367H131c.068-1.135.273-1.952.618-2.453zm-4.297 10.663a5.984 5.984 0 0 0 2.318 1.87c.953.444 2.135.667 3.546.667 2.598 0 4.794-.634 6.586-1.903-.179-1.29-.636-2.314-1.372-3.07-.915.344-1.724.591-2.426.742-.704.15-1.324.226-1.86.226-1.07 0-1.84-.276-2.31-.827-.468-.55-.724-1.32-.768-2.31h8.738c.29-.936.435-2.081.435-3.438 0-1.024-.162-1.97-.487-2.838a6.383 6.383 0 0 0-1.395-2.236 6.466 6.466 0 0 0-2.2-1.468c-.863-.356-1.832-.534-2.907-.534-1.278 0-2.393.222-3.343.667a6.4 6.4 0 0 0-2.353 1.835c-.616.779-1.075 1.698-1.378 2.755-.303 1.056-.454 2.207-.454 3.454 0 1.29.123 2.481.37 3.571.247 1.09.667 2.036 1.26 2.837zm-17.826-3.605c0 1.802.408 3.244 1.226 4.322.817 1.08 2.011 1.62 3.58 1.62 1.566 0 3.236-.79 5.006-2.37.806 1.491 2.128 2.269 3.965 2.337.336-.245.661-.63.974-1.154.314-.52.527-1.005.64-1.45-.628-.423-.941-1.235-.941-2.437V30.642c-.785-.134-1.67-.2-2.655-.2-.987 0-1.85.066-2.588.2v11.147c-.762.757-1.513 1.135-2.25 1.135-.763 0-1.234-.177-1.414-.533-.18-.356-.267-.924-.267-1.703v-7.075c0-1.09-.213-1.903-.64-2.437-.425-.534-1.231-.801-2.419-.801-1.187 0-2.194.368-3.023 1.102.537.779.806 1.89.806 3.337v6.842zm-.84 5.472c.067-.225.102-.708.102-1.448s-.136-1.481-.404-2.222h-.908c-.987 0-1.479-.521-1.479-1.565V25.864c0-1.154-.212-1.965-.638-2.433-.426-.466-1.166-.7-2.219-.7h-2.048l-.203.234v19.86c0 1.602.32 2.776.959 3.52.638.746 1.718 1.118 3.242 1.118 1.053 0 2.251-.111 3.596-.335zM88.124 37.25h2.773c1.181 0 2.045.322 2.59.967.547.646.82 1.403.82 2.27 0 .913-.212 1.624-.636 2.136a2.72 2.72 0 0 1-1.57.968 8.39 8.39 0 0 1-2.023.167 27.51 27.51 0 0 0-1.954 0v-6.508zm0-9.178c.289.022.628.033 1.019.033h1.352c1.045 0 1.79.25 2.236.75.445.5.67 1.13.67 1.887 0 .756-.219 1.396-.653 1.919-.433.523-1.185.784-2.253.784h-2.37v-5.373zm-.134 19.39c1.366.023 2.464.034 3.292.034 2.688 0 4.766-.551 6.235-1.652 1.467-1.102 2.2-2.798 2.2-5.09 0-.646-.107-1.273-.318-1.886a7.212 7.212 0 0 0-.855-1.702 6.035 6.035 0 0 0-1.291-1.369 5.139 5.139 0 0 0-1.593-.85c.871-.378 1.585-.99 2.144-1.836a4.868 4.868 0 0 0 .838-2.737c0-2.024-.7-3.542-2.1-4.556-1.4-1.012-3.321-1.52-5.763-1.52-.784 0-1.82.014-3.108.035-1.289.022-2.84.055-4.655.1l-.235.233V47.13l.235.233c1.949.045 3.607.079 4.974.1zM62.455 22.947A35.97 35.97 0 0 0 57.998 22l-.59 9.848H47.624L47.036 22c-1.52.225-3.004.542-4.455.95-.608 6.304 1.425 21.888-10.581 29.332v20.583s7.289 7.786 20.52 7.786c13.226 0 20.516-8.287 20.516-8.287V52.282c-12.01-7.444-9.978-23.03-10.581-29.335z" fill="#0F346C" fill-rule="evenodd"></path></svg>
+
+</a><a class="logo header-logo-small logged-in" aria-label="Blue Apron homepage" aria-hidden="true" href="/"><svg xmlns="http://www.w3.org/2000/svg" width="33" height="47" viewBox="0 0 33 47"><path d="M24.153.976a28.237 28.237 0 0 0-3.535-.754l-.467 7.842h-7.76L11.925.222C10.72.402 9.542.654 8.392.98 7.91 5.999 9.522 18.407 0 24.336v16.389s5.781 6.2 16.274 6.2c10.49 0 16.27-6.598 16.27-6.598V24.336c-9.524-5.929-7.912-18.34-8.39-23.36" fill="#0F346C" fill-rule="evenodd"></path></svg>
+
+</a><div class='mobile-container-right mobile-only'>
+<div class='basket-area mobile-only'>
+<div class='js-BasketView basket-hldr'>
+<span class='basket-ico'>
+<object data='https://media.blueapron.com/assets/svg/basket-0883f98e8a1f4c8f26db904bad9d91b80c6b85a1fd63bd242d8c776d01f8e4c4.svg' type='image/svg+xml'></object>
+</span>
+<span class='basket-num'>
+&nbsp;
+</span>
+</div>
+</div>
+<button aria-label='Open navigation menu' class='js-sideNavOpenLeft mobile-only' id='nav-hamburger'>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="32" viewBox="560 36 48 32" class="svg-hamburger"><desc>BA Sketchy/</desc><path d="M560 38a2 2 0 0 1 2.001-2H606a2 2 0 1 1 0 4H562A1.996 1.996 0 0 1 560 38zm0 14a2 2 0 0 1 2.001-2H606a2 2 0 1 1 0 4H562A1.996 1.996 0 0 1 560 52zm0 14a2 2 0 0 1 2.001-2H606a2 2 0 1 1 0 4H562A1.996 1.996 0 0 1 560 66z" fill="#737373" fill-rule="evenodd"></path></svg>
+
+</button>
+</div>
+<div class='nav-collapse collapse'>
+<nav class='js-userLoading' id='main-nav'>
+<ul class='nav nav-pills header-nav'>
+<li class='logged-in free-bird-hide user-active'><a data-tracking-name="Current" href="/account#current">Current</a></li>
+<li class='logged-in user-active'><a data-tracking-name="Upcoming" href="/account#upcoming">Upcoming</a></li>
+<li class='logged-in user-reactivate'><a data-tracking-name="Reactivate" href="/account#upcoming">Reactivate Account</a></li>
+<li class='logged-in free-bird-hide show-free-meals referrals-hide'>
+<a data-tracking-name="Invites" href="/account#invites">Free Meals
+<span class='notification-big'>
+<span class='notification'>
+<span></span>
+</span>
+</span>
+</a></li>
+<li class='logged-in free-bird-hide show-free-meals invites-hide'>
+<a data-tracking-name="Referrals" href="/account#referrals">Free Meals
+<span class='nav-invites notification-big'>
+<span class='notification referrals'>
+<span></span>
+</span>
+</span>
+</a></li>
+<li class='logged-out'><a class="nav_on_the_menu" data-tracking-name="On The Menu" href="/pages/sample-recipes">On The Menu</a></li>
+<li class='logged-out'><a class="nav_pricing" data-tracking-name="Pricing" href="/pricing">Pricing</a></li>
+<li class='js-hasWineSub free-bird-hide'><a class="nav_wine" data-tracking-name="Wine" href="/wine">Wine</a></li>
+<li><a class="nav_gifts" data-tracking-name="Gifts" href="/gifts">Gifts</a></li>
+<li><a class="nav_shop" data-tracking-name="Shop" href="/market">Market</a></li>
+<li class='js-BasketView basket-hldr desktop-basket'>
+<span class='basket-ico'></span>
+<span class='basket-num'>
+&nbsp;
+</span>
+</li>
+
+</ul>
+<div class='mobile-portal mobile-only'>
+<a id="my_account_nav_link_mobile" class="my-acct logged-in hide js-AccountLink" data-tracking-name="My Account" href="/account">My Account</a>
+<span class='notification logged-in hide'>
+<span></span>
+</span>
+<a class="mobile-sign-in logged-out" data-tracking-name="Log In" href="/users/sign_in">Log In</a>
+<a class="mobile-sign-in logged-out" data-tracking-name="Sign Up" href="/users/sign_up">Sign Up</a>
+<a class="js-signOut mobile-sign-out logged-in" data-tracking-name="Log Out" rel="nofollow" data-method="delete" href="/users/sign_out">Log Out</a>
+</div>
+</nav>
+</div>
+
+</div>
+</header>
+<div class='ios-app-hide' id='header-spacer'></div>
+<div id='signup-wine-modal'>
+<form action='/api/devise/registrations' id='signup-wine-form' method='post'>
+<div class='signup-close-btn signup-wine-close-btn'>
+&#215;
+</div>
+<div class='row'>
+<div class='col-sm-5 col-md-6 desktop-only'>
+<div class='wine-pour-container'>
+<div class='wine-pour-img'></div>
+</div>
+</div>
+<div class='col-xs-12 col-sm-7 col-md-6'>
+<div class='wine-form-container'>
+<div class='heading'>
+<h4 class='mt-20'>
+Get the perfect wine pairings
+</h4>
+<p class='mt-15 mb-20'>
+Enjoy delicious wines from top vineyards and winemakers. Six 500ml bottles arrive at your door every month.
+</p>
+</div>
+<div class='main'>
+<div class='row'>
+<div class='form-group control-group col-xs-9'>
+<label class='form-label' for='wine-signup-email'>Email Address</label>
+<input class='form-input' id='wine-signup-email' name='user[email]' type='email'>
+</div>
+<div class='form-group control-group col-xs-3'>
+<label class='form-label' for='wine-signup-state'>State</label>
+<select class='form-select' id='wine-signup-state' name='wine-state'>
+<option disabled='disabled' selected='selected' value=''></option>
+</select>
+</div>
+</div>
+<div class='row'>
+<div class='form-group control-group col-xs-12 hide winePassGroup'>
+<label class='form-label' for='wine-signup-password'>Create a Password</label>
+<input class='form-input' id='wine-signup-password' name='user[password]' placeholder='6 characters or more' type='password'>
+</div>
+</div>
+<div class='row mt-10'>
+<div class='form-group control-group col-xs-12'>
+<button class='btn btn--full' id='wine-signup-btn' type='submit'>Continue</button>
+</div>
+</div>
+</div>
+<div class='wine-signup-footer'>
+<div class='row'>
+<p>
+Already a member?
+<a class='wine-login' href='/users/sign_in'>
+Log In
+</a>
+</p>
+</div>
+</div>
+<div class='wine-signup-toc-container'>
+<div class='wine-signup-toc'>
+By clicking Continue, you agree to our
+<a href='/pages/terms'>Terms of Use<br/></a>
+and consent to our
+<a href='/pages/privacy'>Privacy Policy.</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</form>
+<div class='hide' id='signup-wine-error'>
+<div class='signup-close-btn signup-wine-close-btn'>
+&#215;
+</div>
+<div class='row'>
+<!-- desktop only -->
+<div class='col-sm-5 col-md-6 desktop-only'>
+<div class='wine-pour-container'>
+<div class='wine-pour-overlay'></div>
+<div class='wine-pour-img'></div>
+<div class='d3-wine-map usa-map'></div>
+<div class='supported-states-container'>
+<div class='head'>
+We ship wine to the following states:
+</div>
+<div class='states-supported'></div>
+</div>
+</div>
+</div>
+<div class='col-xs-12 col-sm-7 col-md-6'>
+<div class='wine-form-container'>
+<div class='heading'>
+<h4 class='mt-20'>
+We’re sorry…
+</h4>
+<p class='mt-15 mb-20'>
+Currently, we cannot ship wine to
+<span id='state-placeholder'>
+Alaska
+</span>
+<span id='apology-prompt'>
+Provide your email address and we will notify you when that changes.
+</span>
+</p>
+</div>
+<div class='marketplace-checkout-wine-only hide'>
+<button class='btn btn--full btn--gray' id='marketplace-state-continue' type='submit'>Continue</button>
+<div class='supported-states-container mt-20'>
+<div class='head'>
+We ship wine to the following states:
+</div>
+<div class='states-supported'></div>
+</div>
+</div>
+<div class='main'>
+<form id='signup-wine-notification-form'>
+<div class='row'>
+<div class='form-group-control-group col-xs-12'>
+<input aria-label='Wine signup notification email' class='form-input' id='wine-signup-notification-email' name='wine-email-notification' type='text'>
+</div>
+</div>
+<div class='row mt-10'>
+<div class='form-group-control-group col-xs-12'>
+<button class='btn btn--full' id='wine-notification-signup-btn' type='submit'>Notify Me</button>
+</div>
+</div>
+<div class='row desktop-only'>
+<div class='col-xs-12'>
+<div class='form-divider'>
+<div class='txt-box'>
+<span>or</span>
+</div>
+</div>
+</div>
+</div>
+</form>
+<!-- desktop only -->
+<form class='signup-diff-state-form desktop-only'>
+<div class='row'>
+<div class='form-group control-group col-xs-8'>
+<select aria-label='Select a different state' class='form-select' name='avail-states-select'>
+<option disabled='disabled' selected='select' value=''>Select a different state</option>
+</select>
+</div>
+<div class='form-group contol-group col-xs-4'>
+<button class='btn btn--full btn--gray' type='submit'>Continue</button>
+</div>
+</div>
+</form>
+<!-- mobile only -->
+<div class='mobile-only mt-10 mobile-wine'>
+<div class='row'>
+<div class='form-group control-grup col-xs-12'>
+<button class='btn btn--full btn--gray choose-state-mobile mt-5' type='submit'>Select a Different State</button>
+</div>
+</div>
+<div class='row'>
+<div class='col-xs-12'>
+<div class='supported-states-container'>
+<div class='head'>
+We ship wine to the following states:
+</div>
+<div class='states-supported'></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- mobile only -->
+<div class='hide mobile-wine' id='signup-wine-states-mobile'>
+<form class='signup-diff-state-form'>
+<div class='row'>
+<div class='col-xs-12'>
+<div class='heading txt-center'>
+Select a Different State
+</div>
+<div class='d3-wine-map usa-map'></div>
+</div>
+</div>
+<div class='row'>
+<div class='form-group control-group col-xs-12'>
+<select aria-label='Select a state' class='form-select' name='avail-states-select'>
+<option disabled='disabled' selected='select' value=''>Select state</option>
+</select>
+</div>
+</div>
+<div class='row'>
+<div class='form-group control-group col-xs-12'>
+<button class='btn btn--full mt-10' type='submit'>Continue</button>
+</div>
+</div>
+<div class='row'>
+<div class='col-xs-12'>
+<div class='supported-states-container'>
+<div class='head'>
+We ship wine to the following states:
+</div>
+<div class='states-supported'></div>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+
+
+<div class='recipe-page-main' id='main' role='main'>
+<div class='header-messages'>
+<div class='alert hide' id='messages'>
+<span class='close js-HideAlert'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1211 19 18 18"><path d="M1220 29.414l6.293 6.293a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414L1221.414 28l6.293-6.293a.999.999 0 1 0-1.414-1.414L1220 26.586l-6.293-6.293a.999.999 0 1 0-1.414 1.414l6.293 6.293-6.293 6.293a.999.999 0 1 0 1.414 1.414l6.293-6.293z" fill="#FFF"></path></svg>
+
+</span>
+<div class='content'></div>
+</div>
+<div class='modal hide fade' id='flash_modal' tabindex='-1'>
+<div class='modal-header'>
+<button class='close' data-dismiss='modal' type='button'>x</button>
+<div class='modal-header-content'></div>
+</div>
+<div class='modal-body'>
+<div class='message'></div>
+</div>
+</div>
+<div class='modal hide fade' id='error_modal' tabindex='-1'>
+<div class='modal-body'>
+<button class='close' data-dismiss='modal' type='button'>x</button>
+<h4>
+We were unable to process your request. Please refresh the page and try
+again.
+<br>
+<br>
+If the problem persists, please contact
+<a href='mailto:contact@blueapron.com'>contact@blueapron.com</a>
+</h4>
+<button class='btn btn-primary' data-dismiss='modal' type='button'>OK</button>
+</div>
+</div>
+
+</div>
+
+
+
+
+<span itemscope itemtype='http://schema.org/Recipe'>
+<meta content='2020-05-04' itemprop='datePublished'>
+<meta content='Blue Apron' itemprop='author'>
+<meta content='BBQ Chickpeas &amp; Farro with Corn, Cucumbers &amp; Hard-Boiled Eggs' itemprop='name'>
+<meta content='American' itemprop='keywords'>
+<meta content='Dinner' itemprop='recipeCategory'>
+<meta content='American' itemprop='recipeCuisine'>
+<meta content='https://media.blueapron.com/recipes/24483/c_main_dish_images/1593115477-32-0038-5165/0819_2PV2_BBQ-Chickpea_4449_CropRight_Web_high_feature.jpg' itemprop='image thumbnailUrl'>
+<span itemprop='aggregateRating' itemscope itemtype='http://schema.org/AggregateRating'>
+<meta content='2319' itemprop='ratingCount'>
+<meta content='4.32' itemprop='ratingValue'>
+</span>
+<!-- SECTION: RECIPE HERO -->
+<div class='container owl-container healthv2'>
+<section class='section-recipe recipe-main row'>
+<div class='ba-hero-image col-sm-6 col-sm-push-6'>
+<div class='ba-hero-image__hldr'>
+<img class="img-max" alt="BBQ Chickpeas &amp; Farro with Corn, Cucumbers &amp; Hard-Boiled Eggs" src="https://media.blueapron.com/recipes/24483/square_newsletter_images/1593115486-32-0039-4514/0819_2PV2_BBQ-Chickpea_4449_Square_Web.jpg?quality=80&amp;width=850" />
+</div>
+</div>
+<div class='col-sm-6 col-sm-pull-6'>
+<div class='p-15'>
+<div class='ba-recipe-title'>
+<h1 class='ba-recipe-title__main'>
+BBQ Chickpeas &amp; Farro
+</h1>
+<h2 class='ba-recipe-title__sub mt-10'>
+with Corn, Cucumbers &amp; Hard-Boiled Eggs
+</h2>
+<div class='ba-recipe-subtitle__cook-time'></div>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33px" height="33px" viewBox="0 0 33 33" version="1.1" class="icon-svg icon-svg--clock viewBox='0 0 17 17'">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="recipe-detail---desktop" transform="translate(-228.000000, -216.000000)" stroke="#0a9b3e">
+            <g id="Group-24" transform="translate(0.000000, 1.000000)">
+                <g id="beauty-+-romance" transform="translate(135.000000, 112.000000)">
+                    <g id="Group-5">
+                        <g id="icons-copy" transform="translate(72.000000, 103.000000)">
+                            <g id="cook">
+                                <g id="Group-2">
+                                    <g id="Group" transform="translate(22.000000, 1.000000)">
+                                        <circle id="Oval" cx="15.5" cy="15.5" r="15.5"></circle>
+                                        <path d="M15.5,4.5 L15.5,16.5" id="Line-4" stroke-linecap="square"></path>
+                                        <path d="M15.9644661,16.9644661 L22.3284271,23.3284271" id="Line-4" stroke-linecap="square"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg><span class='total-time'>30 min</span><span content='PT30M' itemprop='totalTime'></span>
+<span class='ba-recipe-subtitle__ww-badge'></span>
+</div>
+<div class='culinary-badges'>
+<span class='culinary-badge'>Vegetarian</span>
+<span class='ba-info-list__item-value culinary-badge__badge-info js-CulinaryBadgeInformation'>i</span>
+</div>
+<div class='hide' id='badge-info-container'>
+<div class='healthv2 badge-info-inner'>
+<div class='healthv2 culinary-badge-container'>
+<div class='healthv2 culinary-badge-title'>Wellness at Blue Apron</div>
+</div>
+<div class='healthv2 culinary-badge-container'>
+<div class='healthv2 culinary-badge-subtitle'>Find recipes that suit your lifestyle with our new nutritionist-approved dietary tags.</div>
+</div>
+<div class='healthv2 culinary-badge-container'>
+<div class='healthv2 culinary-badge-name'>
+Fri Delivery Only
+</div>
+<span class='healthv2 culinary-badge-desc'>
+Recipe only available for Friday delivery.
+</span>
+</div>
+<div class='healthv2 culinary-badge-container'>
+<div class='healthv2 culinary-badge-name'>
+WW™ Approved
+</div>
+<span class='healthv2 culinary-badge-desc'>
+Our recipes that have the WW™ Mark of Wellness make vegetables the star of your meal, utilize lean proteins, keep calorie counts in mind and limit saturated fat, sodium and added sugar, and use simple, wholesome ingredients to make dinnertime a nourishing and joyful experience. Smart Point Values ®  (SPVs) are assigned to recipes on an “as packaged” basis.  To learn more about WW™ visit our partner’s website at WW.com.
+</span>
+</div>
+<div class='healthv2 culinary-badge-container'>
+<div class='healthv2 culinary-badge-name'>
+Vegetarian
+</div>
+<span class='healthv2 culinary-badge-desc'>
+Our vegetarian recipes contain no meat, poultry, fish, or seafood, but may include eggs, and animal-based dairy products, such as cheese and sour cream, as well as honey.
+</span>
+</div>
+<div class='healthv2 culinary-badge-container'>
+<div class='healthv2 culinary-badge-name'>
+600 Calories Or Less
+</div>
+<span class='healthv2 culinary-badge-desc'>
+All of these delicious recipes come in at 600 calories or less per serving, ideal for those who choose to monitor their caloric intake, without sacrificing flavor. The US Food &amp; Drug Administration recommends a 2000 calorie daily intake for the general population. The 600 calorie cap equates to 30% of total 2000 calories per day based on 3 meals per day with 200 calories remaining for snack or beverage.
+</span>
+</div>
+<div class='healthv2 culinary-badge-container'>
+<div class='healthv2 culinary-badge-name'>
+Carb Conscious
+</div>
+<span class='healthv2 culinary-badge-desc'>
+Our Carb Conscious recipes provide a balanced approach to carbohydrate consumption by replacing refined carbohydrates from sources like white flour, rice, and cane sugar with high-fiber foods like fresh vegetables, fruits, and whole grains. Our Carb Conscious recipes have 42g or less of net carbohydrates (total carbohydrates minus dietary fiber) per serving, a 25% reduction in net carbs compared to the average Blue Apron recipe served in 2019. Due to the natural variation in size of and contribution of produce in our recipes, some recipes can be badged as Carb Conscious at 45g or less net carbs per serving.
+</span>
+</div>
+<div class='healthv2 culinary-badge-container'>
+<div class='healthv2 culinary-badge-name'>
+Mediterranean Diet
+</div>
+<span class='healthv2 culinary-badge-desc'>
+Our Mediterranean recipes are inspired by the Mediterranean Diet, a healthy eating plan recommended in the Dietary Guidelines for Americans published jointly every five years by the US Department of Agriculture (USDA) and the Department of Health &amp; Human Services (DHHS).  This eating plan highlights the flavors and cooking styles from countries along the Mediterranean Sea, including those in Europe, the Middle East, and North Africa. These recipes showcase a wide variety of vegetables, fruits, and whole grains, as well as lean proteins and moderate portions of dairy.
+</span>
+</div>
+<div class='healthv2 culinary-badge-container'>
+<div class='healthv2 culinary-badge-name'>
+Plant-Forward
+</div>
+<span class='healthv2 culinary-badge-desc'>
+Our Plant-Forward recipes are designed by our chefs to help support a flexible diet that emphasizes plant-based foods like fresh fruits and vegetables, whole grains, beans and other legumes like lentils and soy foods, and includes occasional, moderate portions of meat, poultry, fish, and seafood.
+</span>
+</div>
+<div class='healthv2 culinary-badge-container'>
+<div class='healthv2 culinary-badge-name'>
+Diabetes Friendly
+</div>
+<span class='healthv2 culinary-badge-desc'>
+Our diabetes friendly offering allows you to enjoy wholesome options while adhering to the guidelines set forth by the nutrition experts at our partner at  the American Diabetes Association. A recipe with this badge features non-starchy, fibrous vegetables with a limit on calories, total carbohydrates, saturated fat, added sugar and sodium. For those chefs following ADA guidelines, it is recommended that no additional salt be added to this recipe when prepared and for chefs to skip all salting steps of a recipe. See nutrition information on your current page or at blueapron.com for sodium “as packaged”. To find out more about the American Diabetes Association&#39;s guidelines visit  our partner’s website www.diabetes.org.
+</span>
+</div>
+</div>
+</div>
+<div class='recipe-main-list'>
+<ul class='ba-info-list ba-info-list--inline'>
+<li class='ba-info-list__item'>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="25px" viewBox="0 0 25 25" version="1.1" class="icon-svg icon-svg--serve">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>icon-servings</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Recipe-Detail_1440-Copy" transform="translate(-130.000000, -284.000000)" stroke="#002C9B" stroke-width="1.5">
+            <g id="icon-servings" transform="translate(130.000000, 285.000000)">
+                <path d="M3.2550842,22.3721251 C2.79899787,22.8354485 2.03885399,22.8354485 1.55236191,22.3721251 C1.09627558,21.9088018 1.09627558,21.1365963 1.55236191,20.6423847 L8.27203382,13.8160877 L9.97475611,15.5458281 L3.2550842,22.3721251 Z" id="Path" fill="#002C9B" fill-rule="nonzero" stroke-linejoin="round"></path>
+                <path d="M15.2653575,13.7851995 L21.9850294,20.6114965 C22.1978697,20.8277141 22.3498985,21.1365963 22.3498985,21.4763667 C22.3498985,21.8161371 22.2282755,22.0941311 21.9850294,22.3412369 C21.5289431,22.8045602 20.7383935,22.8045602 20.2823071,22.3412369 L13.5626352,15.5149399 L15.2653575,13.7851995 Z" id="Path" fill="#002C9B" fill-rule="nonzero" stroke-linejoin="round"></path>
+                <path d="M23.4740803,4.72408027 L18.7012079,9.58440135 C18.2147158,10.0786129 17.6066007,10.3257187 16.9376741,10.3257187 C16.2687474,10.3257187 15.6302266,10.0477247 15.1741403,9.58440135 L14.1707503,8.56509004 C13.1977662,7.54577872 13.1977662,5.93959119 14.1707503,4.9511681 L18.666388,0.397157191" id="Path" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
+                <path d="M1.43073888,1.46079905 C1.79560795,1.09014038 2.40372305,0.904811054 3.13346118,0.904811054 C3.71117053,0.904811054 4.34969139,1.02836394 5.07942951,1.24458149 C6.53890577,1.6770166 8.08959928,2.5418868 8.88014892,3.37586879 C9.6402928,4.14807433 10.0355676,5.13649743 10.0355676,6.21758519 C10.0355676,7.20600828 9.67069856,8.16354315 9.0321777,8.90486048 L8.72812014,9.21374269 C7.99838202,9.86239535 7.08620936,10.233054 6.08281944,10.233054 C5.018618,10.233054 4.04563384,9.8006189 3.28548996,9.05930158 C2.46453456,8.2253196 1.61317342,6.68090851 1.18749284,5.19827387 C0.701000759,3.46853346 0.792218025,2.14033992 1.43073888,1.46079905 Z" id="Path" fill="#002C9B" fill-rule="nonzero" stroke-linejoin="round"></path>
+                <path d="M9.15551839,9.44816054 L14.395213,14.6878552" id="Line" stroke-linecap="square"></path>
+                <path d="M9.15551839,2.00668896 L21.1828532,14.0340237" id="Line-Copy" stroke-linecap="round" stroke-linejoin="round" transform="translate(15.384615, 8.235786) scale(1, -1) translate(-15.384615, -8.235786) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
+
+<div class='ba-info-list__item-value'>
+<span itemprop='recipeYield'>2</span>
+Servings
+</div>
+</li>
+<li class='ba-info-list__item nutrition-list-value'>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="25px" viewBox="0 0 19 25" version="1.1" class="icon-svg icon-svg--nutrition">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>icon-nutrition</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Recipe-Detail_1440-Copy" transform="translate(-282.000000, -283.000000)" fill="#002C9B" fill-rule="nonzero">
+            <path d="M290.852468,292.25441 C290.810403,290.780509 289.991148,290.180123 288.875,289.25 C288.458333,288.902778 288.598499,288.541039 289.295496,288.164785 C289.569176,288.010967 289.785122,288.011248 290.031052,288.197344 C291.479707,289.295463 292.134442,290.476405 292.399951,291.968107 C292.402259,291.981074 292.404538,292.043876 292.406788,292.116547 C294.046122,291.635489 296.919676,290.62344 298.979167,292.257718 C301.198671,294.019824 300.976702,297.411701 300.397596,300.274765 C299.713877,303.658339 298.285352,305.401502 296.634612,307.25131 C295.015858,309.062197 293.216976,307.018819 291.423865,307.018819 C291.40679,307.018819 291.391639,307.009737 291.375285,307.007402 C291.359172,307.009737 291.34354,307.018819 291.326706,307.018819 C289.533595,307.018819 287.734952,309.062197 286.115958,307.25131 C284.465218,305.401502 283.036453,303.658339 282.352252,300.274765 C281.773147,297.411701 281.676709,294.019824 283.896454,292.257718 C286.187833,290.43926 289.389015,291.897212 290.852468,292.25441 Z M299.88316,283.412265 C299.280805,284.664627 295.667579,291.612932 291.312843,287.899497 C290.759735,282.010127 298.43753,282.977318 299.774276,283.189498 C299.883387,283.207218 299.933024,283.308621 299.88316,283.412265 Z" id="icon-nutrition"></path>
+        </g>
+    </g>
+</svg>
+
+<span class='ba-info-list__item-value'>
+<span class='recipe-estimated-calories-container'>
+Est.
+</span>
+<span itemprop='nutrition' itemscope itemtype='http://schema.org/NutritionInformation'>
+<span itemprop='calories'>730</span>
+</span>
+Cals<span class='desktop-only'>/serving</span></span>
+</li>
+<li class='ba-info-list__item'>
+<div class='ba-info-list__item-value js-NutritionCalories item-value--nutrition'>
+<span class='view-all'>View All</span>
+</div>
+<div class='hide' data-calories='730' data-url='https://media.blueapron.com/recipes/24483/facility/38/nutritional_label/1595012477-32-0018-3321/072720__202PV3__20BBQ_20Chickpeas_20__20Farro__20As_20Packaged__20National.png' id='recipe-nutrition-label-container'>
+<div class='nutrition-label-inner'>
+<img alt='Nutrition Label' id='recipe-nutrition-label-png' src='https://media.blueapron.com/recipes/24483/facility/38/nutritional_label/1595012477-32-0018-3321/072720__202PV3__20BBQ_20Chickpeas_20__20Farro__20As_20Packaged__20National.png'>
+<div class='nutrition-label-bottom'>
+<span class='pdf-icon mr-5'></span>
+<a download='nutritionlabel' href='https://media.blueapron.com/recipes/24483/facility/38/nutritional_label/1595012477-32-0018-3321/072720__202PV3__20BBQ_20Chickpeas_20__20Farro__20As_20Packaged__20National.png' id='recipe-nutrition-label-link'>Download</a>
+<p class='nutrition-label-legal'>Please note nutritional information, including ingredients and allergens, may differ from above based on your location. Location-specific nutritional information is available for viewing upon subscribing, or by logging in if you are already a subscriber.</p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class='recipe-main__description'>
+<p itemprop='description'>This farro salad boasts delicious contrast from tender chickpeas tossed in a savory-sweet barbecue sauce, crunchy marinated cucumbers, and bites of sweet corn (charred to lightly caramelize the kernels for even more flavor).<a href="https://media.blueapron.com/recipes/24483/c_card_pdfs/1595434322-32-0002-6318/2PV3_BBQChickpeasFarro_WEB.pdf"></a><br><a href="https://media.blueapron.com/recipes/24483/c_card_pdfs/1595434322-32-0002-6318/2PV3_BBQChickpeasFarro_WEB.pdf"><strong>CLICK FOR RECIPE CARD</strong></a></p>
+<a class="btn btn-orange get-cooking-btn" name="button" href="/users/sign_up"><span class='btn-txt'>Get Cooking</span>
+</a></div>
+</div>
+<div id='js-WinePairing'></div>
+</div>
+</section>
+<!-- SECTION: FRESH INGREDIENTS -->
+<section class='section-recipe recipe-ingredients p-15'>
+<div class='ba-section-title row'>
+<div class='col-xs-7'>
+<div class='ba-section-title__super'>
+fresh
+</div>
+<div class='ba-section-title__main'>
+ingredients
+</div>
+</div>
+</div>
+<div class='rec-area-content'>
+<div class='row'>
+<div class='ba-feature-image ingredients-img-hldr col-md-8'>
+<div class='ba-feature-image__hldr'>
+<img class="img-max" alt="BBQ Chickpeas &amp; Farro with Corn, Cucumbers &amp; Hard-Boiled Eggs" style="width: 100%" src="https://media.blueapron.com/recipes/24483/ingredient_images/1593115400-32-0048-7527/0727_2PV3_large_feature.png" />
+<div class='ing-modal' id='js-IngModal'>
+<div class='ing-modal-title'>
+<h5>Title</h5>
+<i class='close-icon js-IngModalClose'></i>
+</div>
+</div>
+</div>
+</div>
+<ul class='ba-info-list ba-info-list--stacked col-md-4'>
+<li class='ba-info-list__item' itemprop='recipeIngredient'>
+<div class='non-story' href='javascript:void(0)'>
+<span>
+2
+
+</span>
+Pasture-Raised Eggs
+</div>
+</li>
+<li class='ba-info-list__item' itemprop='recipeIngredient'>
+<div class='non-story' href='javascript:void(0)'>
+<span>
+1
+
+</span>
+15.5 -Ounce Can Chickpeas
+</div>
+</li>
+<li class='ba-info-list__item' itemprop='recipeIngredient'>
+<div class='non-story' href='javascript:void(0)'>
+<span>
+½
+cup
+</span>
+Semi-Pearled Farro
+</div>
+</li>
+<li class='ba-info-list__item' itemprop='recipeIngredient'>
+<div class='non-story' href='javascript:void(0)'>
+<span>
+2
+ears
+</span>
+Of Corn
+</div>
+</li>
+<li class='ba-info-list__item' itemprop='recipeIngredient'>
+<div class='non-story' href='javascript:void(0)'>
+<span>
+2
+
+</span>
+Persian Cucumbers
+</div>
+</li>
+<li class='ba-info-list__item' itemprop='recipeIngredient'>
+<div class='non-story' href='javascript:void(0)'>
+<span>
+1
+bunch
+</span>
+Chives
+</div>
+</li>
+<li class='ba-info-list__item' itemprop='recipeIngredient'>
+<div class='non-story' href='javascript:void(0)'>
+<span>
+¼
+cup
+</span>
+Barbecue Sauce
+</div>
+</li>
+<li class='ba-info-list__item' itemprop='recipeIngredient'>
+<div class='non-story' href='javascript:void(0)'>
+<span>
+1
+Tbsp
+</span>
+Apple Cider Vinegar
+</div>
+</li>
+<li class='ba-info-list__item' itemprop='recipeIngredient'>
+<div class='non-story' href='javascript:void(0)'>
+<span>
+1
+oz
+</span>
+Sliced Pickled Jalapeño Pepper
+</div>
+</li>
+<li class='ba-info-list__item' itemprop='recipeIngredient'>
+<div class='non-story' href='javascript:void(0)'>
+<span>
+1
+Tbsp
+</span>
+Barbecue Spice Blend (Smoked Paprika, Sweet Paprika, Ground Fennel Seeds, Ground Coriander, Garlic Powder &amp; Light Brown Sugar)
+</div>
+</li>
+<li class='ba-info-list__item' itemprop='recipeIngredient'>
+<div class='non-story' href='javascript:void(0)'>
+<span>
+2
+tsps
+</span>
+Honey
+</div>
+</li>
+<input id='last_index' type='hidden' value='0'>
+</ul>
+</div>
+</div>
+</section>
+<!-- SECTION: INSTRUCTIONS -->
+<section class='section-recipe recipe-instructions p-15'>
+<div class='ba-section-title row'>
+<div class='col-xs-8'>
+<div class='ba-section-title__super'>
+step-by-step
+</div>
+<div class='ba-section-title__main'>
+instructions
+</div>
+</div>
+<div class='col-xs-4 header-side-cta small-hide'>
+<a class='step-link js-StepLaunch header-cook-along-btn' href='#'>
+<span class='step-link-text'>Cook Along</span>
+<span class='cook-along-triangle-container'>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="13px" viewBox="2 -0.5 14 15" version="1.1" class="cook-along-triangle-svg">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cook-Along" transform="translate(-1272.000000, -257.000000)" fill="#FFFFFF">
+            <g id="instructions" transform="translate(135.000000, 234.000000)">
+                <g id="Group-7-Copy-10" transform="translate(963.000000, 3.000000)">
+                    <polygon id="Triangle" transform="translate(180.794872, 27.405983) rotate(90.000000) translate(-180.794872, -27.405983) " points="180.794872 20.6837607 188.034188 34.1282051 173.555556 34.1282051"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+
+</span>
+</a>
+</div>
+</div>
+<div class='step row'>
+<div class='col-md-6 col-xs-12'>
+<img alt="Cook the farro" class="img-max" src="https://media.blueapron.com/recipes/24483/recipe_steps/44188/1593115663-32-0072-9837/Farro_2_H_drain_med_WEB.jpg?width=512" />
+<div class='p-15' itemprop='recipeInstructions'>
+<div class='step-title-holder'>
+<span class='step-number'>1</span>
+<span class='step-title'>
+Cook the farro
+</span>
+</div>
+<div class='step-txt'>
+<p>Remove the <strong>honey</strong> from &nbsp;the refrigerator to bring to room temperature. Fill a medium pot 3/4 of the way up with salted water; cover and heat to boiling &nbsp;on high. Fill a separate, small pot 3/4 of the way up with salted water; cover and heat to boiling on high. Once the medium pot is boiling, add the <strong>farro</strong>. Cook, uncovered, 18 to 20 minutes, or until tender. Turn off the heat. Drain thoroughly and return to the pot.&nbsp;</p>
+</div>
+</div>
+</div>
+<div class='col-md-6 col-xs-12'>
+<img alt="Prepare the ingredients &amp; make the vinaigrette" class="img-max" src="https://media.blueapron.com/recipes/24483/recipe_steps/44189/1593115530-32-0040-7287/0819_2PV2_BBQ-Chickpeas_299_WEB_NoScallions.jpg?width=512" />
+<div class='p-15' itemprop='recipeInstructions'>
+<div class='step-title-holder'>
+<span class='step-number'>2</span>
+<span class='step-title'>
+Prepare the ingredients &amp; make the vinaigrette
+</span>
+</div>
+<div class='step-txt'>
+<p>Meanwhile, wash and dry the fresh produce. Remove the husks and silks from the <strong>corn</strong>; cut the kernels off the cobs. Drain and rinse the <strong>chickpeas</strong>. Halve the <strong>cucumbers</strong> lengthwise; thinly slice crosswise. Roughly chop the <strong>pepper</strong>; thoroughly wash your hands immediately after handing. In a bowl, combine the <strong>sliced cucumbers</strong>, a drizzle of <strong>olive oil</strong>, and <strong>as much of the chopped pepper as you&rsquo;d like</strong>, depending on how spicy you&rsquo;d like the dish to be; season with salt and pepper. Set aside to marinate, stirring occasionally, at least 10 minutes. Taste, then season with salt and pepper if desired.Thinly slice the <strong>chives</strong>. In a separate bowl, whisk together the <strong>honey</strong> (kneading the packet before opening), <strong>vinegar</strong>, and <strong>1 tablespoon of olive oil</strong>; season with salt and pepper.&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+<div class='step row'>
+<div class='col-md-6 col-xs-12'>
+<img alt="Cook &amp; slice the eggs" class="img-max" src="https://media.blueapron.com/recipes/24483/recipe_steps/44190/1593115608-32-0051-3490/2P_Eggs_peel_WEB.jpg?width=512" />
+<div class='p-15' itemprop='recipeInstructions'>
+<div class='step-title-holder'>
+<span class='step-number'>3</span>
+<span class='step-title'>
+Cook &amp; slice the eggs
+</span>
+</div>
+<div class='step-txt'>
+<p>While the cucumbers marinate, carefully add the <strong>eggs</strong> to the small pot of boiling water. Cook 9 minutes for hard-boiled. Drain and rinse under cold water 30 seconds to 1 minute to stop the cooking process. When cool enough to handle, peel the cooked eggs; thinly slice. Season with salt and pepper. &nbsp;</p>
+</div>
+</div>
+</div>
+<div class='col-md-6 col-xs-12'>
+<img alt="Char the corn" class="img-max" src="https://media.blueapron.com/recipes/24483/recipe_steps/44191/1593115546-32-0050-4090/0819_2PV2_BBQ-Chickpeas_304_Web.jpg?width=512" />
+<div class='p-15' itemprop='recipeInstructions'>
+<div class='step-title-holder'>
+<span class='step-number'>4</span>
+<span class='step-title'>
+Char the corn
+</span>
+</div>
+<div class='step-txt'>
+<p>In a large pan (nonstick, if you have one), heat <strong>2 teaspoons of olive oil</strong> on medium-high until hot. Add the <strong>corn kernels</strong> in an even layer; season with salt and pepper. Cook, without stirring, 3 to 4 minutes, or until charred (be careful, as the corn may pop as it cooks). Continue to cook, stirring occasionally, 1 to 2 minutes, or until softened. Transfer to a bowl. Wipe out the pan.</p>
+</div>
+</div>
+</div>
+</div>
+<div class='step row'>
+<div class='col-md-6 col-xs-12'>
+<img alt="Cook the chickpeas &amp; serve your dish" class="img-max" src="https://media.blueapron.com/recipes/24483/recipe_steps/44192/1593115542-32-0041-1321/0819_2PV2_BBQ-Chickpeas_316_Web.jpg?width=512" />
+<div class='p-15' itemprop='recipeInstructions'>
+<div class='step-title-holder'>
+<span class='step-number'>5</span>
+<span class='step-title'>
+Cook the chickpeas &amp; serve your dish
+</span>
+</div>
+<div class='step-txt'>
+<p>In the same pan, heat <strong>2 teaspoons of olive oil</strong> on medium-high until hot. Add the <strong>drained chickpeas</strong> and <strong>half the spice blend</strong> (you will have extra). Cook, stirring occasionally, 2 to 3 minutes, or until slightly softened. Add the <strong>barbecue sauce</strong> (carefully, as the liquid may splatter) and <strong>1/4 cup of water</strong>. Cook, stirring occasionally, 2 to 3 minutes, or until the sauce is thickened. Turn off the heat. Taste, then season with salt and pepper if desired. To the pot of <strong>cooked farro</strong>, add the <strong>vinaigrette</strong>; stir to combine. Taste, then season with salt and pepper if desired. Serve the <strong>finished farro</strong> topped with the <strong>sliced eggs</strong>, <strong>marinated cucumbers</strong>, <strong>cooked chickpeas</strong>, and <strong>charred corn</strong>. Garnish with the <strong>sliced chives</strong>. Enjoy!&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: FACEBOOK COMMENTS -->
+<section class='section-recipe recipe-comments p-15 js-jumpToSocialTarget'>
+<div class='row'>
+<div class='col-md-6'>
+<h3>Tips from Home Chefs</h3>
+<div class='fb-comments' data-href='http://www.blueapron.com/recipes/bbq-chickpeas-farro-with-corn-cucumbers-hard-boiled-eggs-3' data-num-posts='3' data-width='100%'></div>
+</div>
+<div class='recipe-comments--about col-md-6'>
+<h3>About Blue Apron</h3>
+<div class='mb-20'>
+<img class="img-flex" src="https://media.blueapron.com/assets/recipe-proto/ba-hero-e3e53456f4e7c275194e637656f22e5ab19e469194c2712fc7c1fc5164566fd9.jpg?width=600&amp;quality=80" alt="Ba hero" />
+</div>
+<p>
+Blue Apron delivers original, step-by-step recipes and fresh ingredients to customers nationwide. Our menus change every week, so with each delivery you learn to cook inventive new dishes with seasonal ingredients.  By letting us source these hard-to-find ingredients for you, you'll get food that is fresher and cheaper than you can get at your local supermarket, and there's no waste because we only send you what you need for each recipe.
+</p>
+<p>
+We named our company &ldquo;Blue Apron&rdquo; because chefs around the world wear blue aprons when they're learning to cook, and it has become a symbol of lifelong learning in cooking. We believe you're never done learning in the kitchen, so we design our menus to ensure you're always learning new cooking techniques, trying new cuisines, and using unique ingredients.
+</p>
+<p class='guest-only'>
+Blue Apron is a weekly subscription service with no commitment - you can skip a week or cancel at any time with a week's notice. We can't wait to cook with you!
+</p>
+<a class=" recipe-cta-btn hide btn btn-orange btn--full" id="js-BottomButton" href="/users/sign_up"><span class='btn-txt'>Get This Recipe Delivered</span>
+</a></div>
+</div>
+</section>
+</div>
+<div class='step-by-step-modal js-StepModal'>
+<div class='modal-bar'>
+<div class='bar-inner'>
+<h3 class='modal-step-title'>
+<div class='step-icon'></div>
+BBQ Chickpeas &amp; Farro
+</h3>
+<i class='close-icon js-StepModalClose'><U+F057></i>
+</div>
+</div>
+<div class='js-StepSlides'>
+<div class='slide-item'>
+<div class='instr-step odd-step'>
+<div class='instr-img-hldr'>
+<img alt="Cook the farro" class="img-max" src="https://media.blueapron.com/recipes/24483/recipe_steps/44188/1593115663-32-0072-9837/Farro_2_H_drain_med_WEB.jpg?width=512" />
+</div>
+<div class='instr-wrap' itemprop='recipeInstructions'>
+<div class='instr-title-hldr'>
+<span class='instr-num'>1</span>
+<span class='instr-title'>
+Cook the farro
+</span>
+</div>
+<div class='instr-txt'>
+<p>Remove the <strong>honey</strong> from &nbsp;the refrigerator to bring to room temperature. Fill a medium pot 3/4 of the way up with salted water; cover and heat to boiling &nbsp;on high. Fill a separate, small pot 3/4 of the way up with salted water; cover and heat to boiling on high. Once the medium pot is boiling, add the <strong>farro</strong>. Cook, uncovered, 18 to 20 minutes, or until tender. Turn off the heat. Drain thoroughly and return to the pot.&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+<div class='slide-item'>
+<div class='instr-step even-step'>
+<div class='instr-wrap' itemprop='recipeInstructions'>
+<div class='instr-title-hldr'>
+<span class='instr-num'>2</span>
+<span class='instr-title'>
+Prepare the ingredients &amp; make the vinaigrette
+</span>
+</div>
+<div class='instr-txt'>
+<p>Meanwhile, wash and dry the fresh produce. Remove the husks and silks from the <strong>corn</strong>; cut the kernels off the cobs. Drain and rinse the <strong>chickpeas</strong>. Halve the <strong>cucumbers</strong> lengthwise; thinly slice crosswise. Roughly chop the <strong>pepper</strong>; thoroughly wash your hands immediately after handing. In a bowl, combine the <strong>sliced cucumbers</strong>, a drizzle of <strong>olive oil</strong>, and <strong>as much of the chopped pepper as you&rsquo;d like</strong>, depending on how spicy you&rsquo;d like the dish to be; season with salt and pepper. Set aside to marinate, stirring occasionally, at least 10 minutes. Taste, then season with salt and pepper if desired.Thinly slice the <strong>chives</strong>. In a separate bowl, whisk together the <strong>honey</strong> (kneading the packet before opening), <strong>vinegar</strong>, and <strong>1 tablespoon of olive oil</strong>; season with salt and pepper.&nbsp;</p>
+</div>
+</div>
+<div class='instr-img-hldr'>
+<img alt="Prepare the ingredients &amp; make the vinaigrette" class="img-max" src="https://media.blueapron.com/recipes/24483/recipe_steps/44189/1593115530-32-0040-7287/0819_2PV2_BBQ-Chickpeas_299_WEB_NoScallions.jpg?width=512" />
+</div>
+</div>
+</div>
+<div class='slide-item'>
+<div class='instr-step odd-step'>
+<div class='instr-img-hldr'>
+<img alt="Cook &amp; slice the eggs" class="img-max" src="https://media.blueapron.com/recipes/24483/recipe_steps/44190/1593115608-32-0051-3490/2P_Eggs_peel_WEB.jpg?width=512" />
+</div>
+<div class='instr-wrap' itemprop='recipeInstructions'>
+<div class='instr-title-hldr'>
+<span class='instr-num'>3</span>
+<span class='instr-title'>
+Cook &amp; slice the eggs
+</span>
+</div>
+<div class='instr-txt'>
+<p>While the cucumbers marinate, carefully add the <strong>eggs</strong> to the small pot of boiling water. Cook 9 minutes for hard-boiled. Drain and rinse under cold water 30 seconds to 1 minute to stop the cooking process. When cool enough to handle, peel the cooked eggs; thinly slice. Season with salt and pepper. &nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+<div class='slide-item'>
+<div class='instr-step even-step'>
+<div class='instr-wrap' itemprop='recipeInstructions'>
+<div class='instr-title-hldr'>
+<span class='instr-num'>4</span>
+<span class='instr-title'>
+Char the corn
+</span>
+</div>
+<div class='instr-txt'>
+<p>In a large pan (nonstick, if you have one), heat <strong>2 teaspoons of olive oil</strong> on medium-high until hot. Add the <strong>corn kernels</strong> in an even layer; season with salt and pepper. Cook, without stirring, 3 to 4 minutes, or until charred (be careful, as the corn may pop as it cooks). Continue to cook, stirring occasionally, 1 to 2 minutes, or until softened. Transfer to a bowl. Wipe out the pan.</p>
+</div>
+</div>
+<div class='instr-img-hldr'>
+<img alt="Char the corn" class="img-max" src="https://media.blueapron.com/recipes/24483/recipe_steps/44191/1593115546-32-0050-4090/0819_2PV2_BBQ-Chickpeas_304_Web.jpg?width=512" />
+</div>
+</div>
+</div>
+<div class='slide-item'>
+<div class='instr-step odd-step'>
+<div class='instr-img-hldr'>
+<img alt="Cook the chickpeas &amp; serve your dish" class="img-max" src="https://media.blueapron.com/recipes/24483/recipe_steps/44192/1593115542-32-0041-1321/0819_2PV2_BBQ-Chickpeas_316_Web.jpg?width=512" />
+</div>
+<div class='instr-wrap' itemprop='recipeInstructions'>
+<div class='instr-title-hldr'>
+<span class='instr-num'>5</span>
+<span class='instr-title'>
+Cook the chickpeas &amp; serve your dish
+</span>
+</div>
+<div class='instr-txt'>
+<p>In the same pan, heat <strong>2 teaspoons of olive oil</strong> on medium-high until hot. Add the <strong>drained chickpeas</strong> and <strong>half the spice blend</strong> (you will have extra). Cook, stirring occasionally, 2 to 3 minutes, or until slightly softened. Add the <strong>barbecue sauce</strong> (carefully, as the liquid may splatter) and <strong>1/4 cup of water</strong>. Cook, stirring occasionally, 2 to 3 minutes, or until the sauce is thickened. Turn off the heat. Taste, then season with salt and pepper if desired. To the pot of <strong>cooked farro</strong>, add the <strong>vinaigrette</strong>; stir to combine. Taste, then season with salt and pepper if desired. Serve the <strong>finished farro</strong> topped with the <strong>sliced eggs</strong>, <strong>marinated cucumbers</strong>, <strong>cooked chickpeas</strong>, and <strong>charred corn</strong>. Garnish with the <strong>sliced chives</strong>. Enjoy!&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</span>
+<script>
+  var recipeDate = "07/27/20";
+  var recipeId = 24483;
+  var productId = 24761;
+  var recipeName = "BBQ Chickpeas &amp; Farro with Corn, Cucumbers &amp; Hard-Boiled Eggs";
+  var storyAry = [];
+  var gaRecipeInfo = ". Recipe: " + recipeId + ", Recipe Delivery: " + recipeDate;
+  var orderId = "573";
+
+  var cookie = $.cookie('user_attributes'),
+      user_id = "",
+      user;
+
+  if(user_id !== "") {
+    gaRecipeInfo += ", User: " + user_id;
+  }
+</script>
+<!-- / ==== Start Add Item to Cart ======================================= -->
+<!-- / ==== /End Add Item to Cart ======================================= -->
+
+</div>
+<div class='ios-app-hide' id='body-push'></div>
+</div>
+<footer class='footer ios-app-hide'>
+<div class='container' id='footer-content'>
+<div class='stay-connected'>
+<div class='row-fluid row-new'>
+<div class='join span2 col-md-2 outer-spacer user-logged-in'></div>
+<div class='span3 col-md-3 desktop-only'>
+<h3 class='epsilon footer-title'>
+Follow Us
+</h3>
+<ul class='socials'>
+<li><a class="fb" target="_BLANK" data-tracking-name="Like us on Facebook" href="http://www.facebook.com/blueapron">Like us on Facebook</a></li>
+<li><a class="tw" target="_BLANK" data-tracking-name="Follow us on Twitter" href="http://twitter.com/blueapron">Follow us on Twitter</a></li>
+<li><a class="ig" target="_BLANK" data-tracking-name="Follow us on Instagram" href="http://instagram.com/blueapron">Follow us on Instagram</a></li>
+<li><a class="pin" target="_BLANK" data-tracking-name="Check us out on Pinterest" href="http://pinterest.com/blueapron/">Check us out on Pinterest</a></li>
+</ul>
+</div>
+<div class='join span2 col-md-2 middle-spacer user-logged-in'></div>
+<div class='join span6 col-md-6 user-logged-out'>
+<div class='footer-newsletter-signup clearfix'>
+<h3 class='epsilon footer-title'>
+Discover What's Cookin'
+</h3>
+<div class='footer-newsletter-form-hldr'>
+<form id="recipe_newsletter_footer_form" class="csrf-ajax" action="/newsletter/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ScvezCsvW5XxXS6BfBJsp0GDkkZtm0u+/xS7G8H1odvt51GXnMrf3RMvI59IDTKalDPDT3pq+DlwdTG5rXv75Q==" />
+<input type="hidden" name="newsletter_subscriber[source]" id="newsletter_subscriber_source" value="Footer newsletter form" />
+<input type="hidden" name="newsletter_subscriber[receive_meat_fish]" id="newsletter_subscriber_receive_meat_fish" value="1" />
+<input type="text" name="newsletter_subscriber[email]" id="newsletter_subscriber_email" placeholder="Email Address" class="required email" data-validate="{required: true, email: true, messages: {email: &#39;Invalid email&#39;}}" aria-labelledby="recipe_newsletter_footer_form" />
+<button aria-labelledby='recipe_newsletter_footer_form' class='btn' value='submit'>Go</button>
+</form>
+
+</div>
+<p>Sign up for offers, recipes, news &amp; more</p>
+</div>
+</div>
+<div class='blog-preview span3 col-md-3 desktop-only'>
+<h3 class='epsilon footer-title'>
+<a href="https://blog.blueapron.com">From the Blog</a>
+</h3>
+<div class='head clearfix'>
+<a class="blog-preview-img" href="https://blog.blueapron.com/pumpkin-spice-snickerdoodles/"><img src="https://i1.wp.com/blog.blueapron.com/wp-content/uploads/2020/12/pumpkin-spice-snickerdoodles.jpg?resize=100%2C100&amp;ssl=1" alt="Pumpkin spice snickerdoodles" />
+</a><h4 class='blog-preview-text'>
+<a href="https://blog.blueapron.com/pumpkin-spice-snickerdoodles/">Pumpkin Spice Snickerdoodles</a>
+</h4>
+</div>
+</div>
+<div class='join span2 col-md-2 outer-spacer user-logged-in'></div>
+</div>
+</div>
+<ul class='socials-mobile small-only'>
+<li><a class="fb" target="_BLANK" data-tracking-name="Like us on Facebook" href="http://www.facebook.com/blueapron">Like us on Facebook</a></li>
+<li><a class="tw" target="_BLANK" data-tracking-name="Follow us on Twitter" href="http://twitter.com/blueapron">Follow us on Twitter</a></li>
+<li><a class="ig" target="_BLANK" data-tracking-name="Follow us on Instagram" href="http://instagram.com/blueapron">Follow us on Instagram</a></li>
+<li><a class="pin" target="_BLANK" data-tracking-name="Check us out on Pinterest" href="http://pinterest.com/blueapron/">Check us out on Pinterest</a></li>
+</ul>
+</div>
+<div class='footer-bottom row-fluid'>
+<div class='container clearfix'>
+<div class='row-new'>
+<ul class='footer-nav col-md-2 col-xs-12 nav nav-pills'>
+<li><a data-tracking-name="On The Menu" href="/pages/sample-recipes">On The Menu</a></li>
+<li><a data-tracking-name="Pricing" href="/pricing">Pricing</a></li>
+<li><a data-tracking-name="Our Vision" href="/pages/vision">Our Vision</a></li>
+<li><a data-tracking-name="Wine" href="/wine">Wine</a></li>
+<li><a data-tracking-name="Shop" href="/market">Market</a></li>
+<li><a data-tracking-name="Gifts" href="/gifts">Gifts</a></li>
+</ul>
+<ul class='footer-nav col-md-2 col-xs-12 nav nav-pills'>
+<li><a data-tracking-name="Blog" href="https://blog.blueapron.com">Blog</a></li>
+<li><a data-tracking-name="Cookbook" href="/cookbook">Cookbook</a></li>
+<li><a data-tracking-name="Suppliers" href="/pages/meet-our-recent-partners">Suppliers</a></li>
+<li><a data-tracking-name="Affiliates" href="/pages/affiliates">Affiliates</a></li>
+<li><a data-tracking-name="Supply Chains Act" href="/pages/supply-chain-disclosure">Supply Chains Act</a></li>
+<li><a data-tracking-name="Food Safety" href="http://blog.blueapron.com/foodsafety/">Food Safety</a></li>
+</ul>
+<ul class='footer-nav col-md-2 col-xs-12 nav nav-pills'>
+<li><a data-tracking-name="Careers" href="/pages/our-team">Careers</a></li>
+<li><a data-tracking-name="Press" href="https://press.blueapron.com/">Press</a></li>
+<li><a data-tracking-name="Our Team" href="/pages/our-team">Our Team</a></li>
+<li><a data-tracking-name="Investor Relations" href="https://investors.blueapron.com">Investor Relations</a></li>
+</ul>
+<div class='footer-nav col-md-3 col-xs-12 nav nav-pills support-info'>
+<span class='mr-10'>Customer Support:</span>
+<ul>
+<li><a data-tracking-name="Help Center &amp; FAQ" href="https://support.blueapron.com">Help Center &amp; FAQ</a></li>
+<li><a href="mailto:contact@blueapron.com">contact@blueapron.com</a></li>
+<li><a class="phone" data-tracking-name="Support Phone" href="tel:+16468914349">(646) 891-4349</a></li>
+</ul>
+</div>
+<div class='span4 col-md-3 col-xs-6 copy footer-copy'>
+<span>&copy; Blue Apron, LLC 2020</span>
+<ul>
+<li><a href="/pages/privacy#ccpa">Do Not &quot;Sell&quot; My Info</a></li>
+<li><a data-tracking-name="Privacy" href="/pages/privacy">Privacy</a></li>
+<li><a data-tracking-name="Terms" href="/pages/terms">Terms</a></li>
+</ul>
+<ul class='app-store-logos'>
+<li><a class="apple-app-store-logo" target="_blank" data-tracking-name="App Store" href="https://itunes.apple.com/us/app/blue-apron-fresh-ingredients-recipes-delivered/id976642810?mt=8"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 40" role="img" aria-labelledby="70ay2w70p0x5r2828uvye21fddgkvl8 cemwso1a34i9shiddeev9wffdmrapd8"><title id="70ay2w70p0x5r2828uvye21fddgkvl8">Apple Store</title><desc id="cemwso1a34i9shiddeev9wffdmrapd8">Download on the App Store</desc><path fill="#A6A6A6" d="M130.2 40H4.73C2.13 40 0 37.87 0 35.27V4.73C0 2.13 2.12 0 4.73 0H130.2c2.6 0 4.8 2.12 4.8 4.73v30.54c0 2.6-2.2 4.73-4.8 4.73z"></path><path d="M134.03 35.27c0 2.1-1.7 3.83-3.83 3.83H4.73C2.6 39.1.9 37.38.9 35.27V4.72C.9 2.63 2.6.9 4.72.9H130.2c2.12 0 3.83 1.7 3.83 3.83v30.54z"></path><g fill="#FFF"><path d="M30.13 19.78c-.03-3.22 2.64-4.8 2.76-4.86-1.52-2.2-3.86-2.5-4.7-2.53-1.95-.22-3.86 1.17-4.86 1.17-1.03 0-2.57-1.16-4.23-1.12-2.13.03-4.13 1.27-5.23 3.2-2.27 3.9-.58 9.68 1.6 12.85 1.08 1.55 2.35 3.3 4 3.23 1.63-.07 2.24-1.04 4.2-1.04 1.95 0 2.52 1.03 4.2 1 1.75-.04 2.85-1.57 3.9-3.14 1.25-1.78 1.76-3.53 1.78-3.62-.04-.02-3.4-1.3-3.42-5.16zM26.93 10.3c.87-1.1 1.47-2.57 1.3-4.08-1.26.05-2.84.87-3.75 1.94-.8.94-1.53 2.5-1.34 3.94 1.42.1 2.88-.72 3.8-1.8z"></path></g><g fill="#FFF"><path d="M53.65 31.5h-2.28l-1.24-3.9H45.8l-1.18 3.9h-2.2l4.27-13.3h2.64l4.3 13.3zm-3.9-5.55l-1.12-3.47c-.12-.35-.34-1.2-.67-2.5h-.04c-.13.56-.34 1.4-.63 2.5l-1.12 3.48h3.58zM64.66 26.6c0 1.62-.44 2.9-1.32 3.86-.8.84-1.77 1.26-2.94 1.26-1.27 0-2.17-.45-2.73-1.36h-.04v5.05H55.5V25.08c0-1.03-.03-2.08-.08-3.16h1.88l.12 1.53h.04c.7-1.15 1.8-1.72 3.23-1.72 1.13 0 2.07.46 2.83 1.35.75.9 1.13 2.08 1.13 3.54zm-2.17.07c0-.94-.22-1.7-.64-2.3-.46-.65-1.08-.96-1.86-.96-.52 0-1 .18-1.43.53-.43.35-.7.8-.84 1.37-.06.27-.1.48-.1.65v1.6c0 .7.22 1.3.65 1.77s.98.72 1.66.72c.8 0 1.43-.3 1.88-.92.45-.62.67-1.44.67-2.45zM75.7 26.6c0 1.62-.44 2.9-1.33 3.86-.78.84-1.77 1.26-2.94 1.26-1.26 0-2.17-.45-2.72-1.36h-.03v5.05h-2.13V25.08c0-1.03-.03-2.08-.08-3.16h1.87l.12 1.53h.04c.7-1.15 1.78-1.72 3.23-1.72 1.13 0 2.08.46 2.84 1.35.75.9 1.13 2.08 1.13 3.54zm-2.17.07c0-.94-.2-1.7-.64-2.3-.47-.65-1.08-.96-1.86-.96-.53 0-1 .18-1.43.53-.42.35-.7.8-.83 1.37-.07.27-.1.48-.1.65v1.6c0 .7.2 1.3.64 1.77.44.48 1 .72 1.68.72.8 0 1.43-.3 1.88-.92.44-.62.67-1.44.67-2.45zM88.04 27.77c0 1.13-.4 2.05-1.18 2.77-.87.77-2.08 1.16-3.63 1.16-1.43 0-2.58-.28-3.45-.83l.5-1.78c.93.56 1.96.84 3.08.84.8 0 1.43-.18 1.88-.54.44-.36.67-.85.67-1.45 0-.54-.18-1-.55-1.37-.36-.37-.98-.7-1.83-1.03-2.33-.87-3.5-2.14-3.5-3.8 0-1.1.4-2 1.23-2.7.8-.7 1.9-1.05 3.26-1.05 1.22 0 2.22.2 3.03.63L87 20.37c-.76-.4-1.6-.6-2.55-.6-.75 0-1.34.17-1.76.54-.37.34-.54.74-.54 1.22 0 .52.2.96.6 1.3.36.32 1 .66 1.94 1.03 1.15.46 2 1 2.53 1.62.54.6.8 1.38.8 2.3zM95.1 23.5h-2.36v4.67c0 1.18.4 1.77 1.24 1.77.38 0 .7-.03.95-.1l.06 1.62c-.43.16-1 .24-1.67.24-.84 0-1.5-.26-1.98-.77-.47-.5-.7-1.38-.7-2.6v-4.82h-1.4v-1.6h1.4v-1.75l2.1-.63v2.4h2.34v1.6zM105.7 26.63c0 1.47-.43 2.68-1.27 3.63-.9.97-2.06 1.46-3.52 1.46-1.4 0-2.52-.47-3.35-1.4s-1.26-2.1-1.26-3.53c0-1.5.42-2.72 1.3-3.67.85-.94 2-1.42 3.47-1.42 1.4 0 2.54.48 3.4 1.4.8.92 1.22 2.1 1.22 3.53zm-2.22.07c0-.9-.2-1.65-.57-2.28-.44-.77-1.08-1.15-1.9-1.15-.86 0-1.52.38-1.96 1.15-.4.63-.57 1.4-.57 2.32 0 .88.18 1.64.57 2.27.46.78 1.1 1.16 1.93 1.16.82 0 1.46-.4 1.92-1.17.38-.65.58-1.42.58-2.3zM112.62 23.78c-.2-.04-.44-.06-.67-.06-.75 0-1.33.3-1.74.85-.34.5-.52 1.14-.52 1.9v5.03h-2.13l.02-6.57c0-1.1-.03-2.1-.08-3.02h1.84l.08 1.85h.06c.23-.64.58-1.14 1.07-1.53.47-.34.98-.5 1.54-.5.18 0 .36 0 .52.03v2.03zM122.16 26.25c0 .38-.03.7-.08.97h-6.4c.03.95.34 1.67.93 2.17.55.44 1.25.66 2.1.66.95 0 1.8-.15 2.6-.45l.32 1.5c-.9.38-1.98.58-3.2.58-1.5 0-2.67-.44-3.52-1.3-.85-.9-1.27-2.06-1.27-3.54 0-1.44.4-2.65 1.18-3.6.84-1.03 1.96-1.55 3.37-1.55 1.38 0 2.43.5 3.14 1.53.57.82.86 1.82.86 3.02zm-2.04-.55c.02-.63-.12-1.18-.4-1.64-.38-.6-.95-.9-1.7-.9-.7 0-1.27.3-1.7.88-.36.46-.57 1-.64 1.66h4.44z"></path></g><g fill="#FFF"><path d="M49.05 10c0 1.2-.35 2.07-1.06 2.67-.66.55-1.6.82-2.8.82-.6 0-1.1-.04-1.52-.1V7c.55-.1 1.15-.13 1.8-.13 1.15 0 2 .25 2.6.74.64.56.97 1.36.97 2.4zm-1.1.04c0-.76-.2-1.35-.6-1.76-.42-.4-1-.6-1.78-.6-.33 0-.6 0-.85.06v4.9l.7.02c.8 0 1.43-.23 1.87-.67s.65-1.1.65-1.96zM54.9 11.04c0 .72-.2 1.32-.6 1.78-.45.48-1.02.72-1.74.72-.7 0-1.24-.23-1.65-.7-.4-.45-.6-1.03-.6-1.72 0-.73.2-1.33.63-1.8s1-.7 1.7-.7 1.26.23 1.68.7c.4.44.6 1 .6 1.72zm-1.08.03c0-.43-.1-.8-.28-1.12-.22-.37-.53-.56-.94-.56-.42 0-.74.18-.96.55-.2.3-.28.7-.28 1.14 0 .43.1.8.28 1.1.23.4.54.57.95.57.4 0 .7-.2.93-.57.2-.32.3-.7.3-1.13zM62.77 8.72l-1.48 4.7h-.97l-.6-2.03c-.17-.53-.3-1.03-.4-1.54-.1.52-.23 1.03-.4 1.53l-.64 2.03h-.98l-1.38-4.7H57l.55 2.23c.12.53.23 1.03.32 1.5.1-.38.22-.88.4-1.5l.67-2.24h.86l.64 2.2c.15.54.28 1.06.38 1.55h.02c.08-.48.18-1 .32-1.55l.58-2.2h1.02zM68.2 13.43h-1.05v-2.7c0-.83-.32-1.24-.95-1.24-.3 0-.56.1-.76.33-.2.23-.3.5-.3.8v2.8H64.1v-3.36c0-.42 0-.87-.03-1.35H65l.04.73h.03c.12-.22.3-.4.54-.56.3-.2.6-.28.96-.28.44 0 .8.14 1.1.43.36.35.54.87.54 1.56v2.83zM71.1 13.43h-1.06V6.56h1.05v6.87zM77.26 11.04c0 .72-.2 1.32-.62 1.78-.44.48-1 .72-1.73.72-.68 0-1.23-.23-1.64-.7-.4-.45-.62-1.03-.62-1.72 0-.73.2-1.33.64-1.8s1-.7 1.7-.7 1.26.23 1.68.7c.4.44.6 1 .6 1.72zm-1.1.03c0-.43-.08-.8-.27-1.12-.23-.37-.54-.56-.95-.56-.42 0-.74.18-.96.55-.2.3-.3.7-.3 1.14 0 .43.1.8.3 1.1.22.4.53.57.94.57.4 0 .7-.2.94-.57.2-.32.3-.7.3-1.13zM82.33 13.43h-.94l-.1-.54h-.02c-.32.42-.78.64-1.38.64-.44 0-.8-.14-1.07-.43-.25-.24-.37-.57-.37-.95 0-.57.24-1 .72-1.32.5-.3 1.16-.45 2.04-.44v-.1c0-.62-.33-.93-.98-.93-.47 0-.88.12-1.23.35l-.2-.7c.43-.26.97-.4 1.6-.4 1.24 0 1.86.65 1.86 1.95v1.74c0 .48.02.85.07 1.13zm-1.1-1.62v-.7c-1.14-.03-1.72.28-1.72.94 0 .24.07.43.2.55.14.1.32.17.52.17.23 0 .45-.07.64-.2.2-.16.32-.35.37-.57v-.2zM88.28 13.43h-.93l-.04-.75h-.02c-.3.57-.8.86-1.52.86-.57 0-1.04-.22-1.4-.67s-.58-1.02-.58-1.73c0-.77.2-1.4.62-1.86.4-.44.87-.66 1.45-.66.63 0 1.08.22 1.33.64h.02v-2.7h1.05v5.6c0 .46 0 .88.03 1.27zm-1.08-1.98v-.8c0-.13 0-.24-.03-.32-.06-.25-.2-.46-.38-.64-.2-.18-.44-.26-.7-.26-.4 0-.7.15-.93.46-.22.3-.34.7-.34 1.2 0 .46.1.84.32 1.13.23.3.54.47.92.47.34 0 .62-.13.83-.4.2-.23.3-.52.3-.86zM97.25 11.04c0 .72-.2 1.32-.62 1.78-.44.48-1 .72-1.73.72-.7 0-1.24-.23-1.65-.7-.4-.45-.62-1.03-.62-1.72 0-.73.2-1.33.64-1.8s1-.7 1.7-.7 1.26.23 1.68.7c.4.44.6 1 .6 1.72zm-1.1.03c0-.43-.08-.8-.27-1.12-.22-.37-.53-.56-.94-.56-.42 0-.74.18-.96.55-.2.3-.28.7-.28 1.14 0 .43.1.8.28 1.1.23.4.54.57.95.57.4 0 .7-.2.94-.57.2-.32.3-.7.3-1.13zM102.88 13.43h-1.04v-2.7c0-.83-.32-1.24-.96-1.24-.3 0-.56.1-.75.33s-.3.5-.3.8v2.8H98.8v-3.36c0-.42-.02-.87-.05-1.35h.92l.05.73h.03c.12-.22.3-.4.54-.56.28-.2.6-.28.94-.28.44 0 .8.14 1.1.43.36.35.54.87.54 1.56v2.83zM109.94 9.5h-1.16v2.3c0 .58.2.87.6.87.2 0 .36-.02.48-.05l.03.8c-.22.07-.5.1-.83.1-.4 0-.73-.12-.97-.37-.23-.25-.35-.67-.35-1.27V9.5h-.68v-.78h.68v-.87l1.03-.3v1.17h1.16v.78zM115.48 13.43h-1.05v-2.68c0-.84-.3-1.26-.94-1.26-.5-.02-.83.23-1 .72-.05.1-.06.23-.06.38v2.83h-1.05V6.56h1.04V9.4h.02c.33-.52.8-.78 1.4-.78.45 0 .8.14 1.1.43.35.35.52.88.52 1.58v2.8zM121.2 10.85c0 .2 0 .35-.03.48h-3.15c.02.46.17.82.46 1.06.27.2.6.32 1.03.32.47 0 .9-.07 1.28-.22l.16.73c-.44.2-.97.3-1.58.3-.73 0-1.3-.22-1.72-.65-.42-.43-.62-1-.62-1.74 0-.7.2-1.3.58-1.77.4-.5.95-.76 1.65-.76.67 0 1.2.27 1.54.77.27.4.4.9.4 1.48zm-1-.27c0-.3-.05-.58-.2-.8-.18-.3-.46-.44-.83-.44-.34 0-.62.14-.83.43-.18.22-.28.5-.32.8h2.2z"></path></g></svg>
+</a></li>
+<li><a class="play-store-logo" target="_blank" data-tracking-name="Play Store" href="https://play.google.com/store/apps/details?id=com.blueapron.blueapron.release"><img alt="Get it on Google Play" src="https://media.blueapron.com/assets/footer/play_store_badge_generic-59a6c4a20422c8cc477efb5d33564c6307f758eafb3c64307aa86e024f981dc7.png" /></a></li>
+</ul>
+</div>
+</div>
+<div class='row-new'>
+<div class='legal-disclaimer'>
+<p>If you are using a screen reader and are having problems using this website, please call <a href="tel:+18444628299">1-844-462-8299</a> for assistance.</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+</div>
+<script src="https://media.blueapron.com/assets/footer-5c62d0056b65a9018432a5bec5d1fd50195c8734f5cc02497b5bc332ea39c6f8.js"></script>
+<script src="https://media.blueapron.com/assets/marketplace/cart-6bf5aebe65f05645516c780d1f6b9a68915a369c2f349c3db853e9563f90d863.js"></script>
+<script>
+  var userLogged = $.cookie('user_attributes') ? true : false;
+
+  var share_click_action, save_variation, save_variation_not_logged, saveOptimizelyVariation;
+
+  if(!userLogged) {
+    share_click_action = function(suppress_message, share_source) {
+      Blueapron.Metrics.trackEvents({
+        category: "Share",
+        action: share_source,
+        attributes: {
+          share_source: share_source
+        }
+      });
+    }
+  } else {
+    share_click_action = function(suppress_message, share_source) {
+      Blueapron.Metrics.trackEvents({
+        category: "Share",
+        action: share_source,
+        attributes: {
+          share_source: share_source
+        }
+      });
+    }
+  }
+  save_variation = function(variation_id) {
+    $.ajax({
+      type: "POST",
+      url: "/save_test_variation",
+      dataType: "json",
+      data: {variation_id: variation_id}
+    });
+  }
+
+  save_variation_not_logged = function(variation_id) {
+    // If user is not logged in save variations the user participated in a cookie
+    var variations = $.cookie('site_test_participated') ? $.cookie('site_test_participated').split(',') : [];
+    if(_.indexOf(variations,variation_id) == '-1') {
+      variations.push(variation_id);
+      $.cookie('site_test_participated', variations.join(), { path: '/' });
+    }
+  }
+
+  saveOptimizelyVariation = function() {
+    var experiments = $.cookie('site_tests') ? $.cookie('site_tests').split('&') : [];
+    // Remove any experiments that are already captured in the session
+    // These experiments are currently being processed in delayed job
+    var session_experiments = [];
+    if (session_experiments.length > 0 && experiments.length > 0) {
+      for(var i=0; i < session_experiments.length; i++) {
+        var index = _.indexOf(experiments,session_experiments[i]);
+        experiments.splice(index, 1);
+      }
+    }
+
+
+    // If site_test_participated cookie exists
+    var site_test_participated = $.cookie('site_test_participated');
+    if (userLogged && site_test_participated) {
+      site_test_participated = site_test_participated.split(',');
+      for(var i=0;i<site_test_participated.length;i++) {
+        save_variation(site_test_participated[i]);
+      }
+      $.removeCookie('site_test_participated', { path:'/' });
+    }
+
+    if ($.isEmptyObject(experiments)) {
+      // do nothing
+    } else {
+      var optimizelyExperiments = Blueapron.Utilities.getEnabledTestsMap();
+      for (var i=0; i<experiments.length; i++) {
+        var experimentId = experiments[i];
+        if (optimizelyExperiments[experimentId]) {
+          var variationId = optimizelyExperiments[experimentId].id;
+          if (userLogged) {
+            save_variation(variationId);
+          } else {
+            save_variation_not_logged(variationId);
+          }
+        }
+      }
+    }
+  }
+
+  $(document).ready(function() {
+    saveOptimizelyVariation();
+  });
+</script>
+<script>
+  /*
+   * Third party Facebook
+   */
+
+  // Facbook Like
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '268433919926057',
+      version    : 'v2.7',
+      channelUrl : '//www.blueapron.com/channel.html', // Channel File
+      status     : true, // check login status
+      cookie     : true, // enable cookies to allow the server to access the session
+      xfbml      : true  // parse XFBML
+    });
+
+    // Additional initialization code here
+    FB.Event.subscribe('edge.create', function(response) {
+      if(_.indexOf(response,"projects") > 0) {
+        share_click_action(true, 'project-fb-widget-like');
+      }
+    });
+
+    FB.Event.subscribe('message.send', function(response) {
+      share_click_action(false, 'project-fb-widget-message');
+    });
+    // FB Auth status change callback
+    FB.Event.subscribe('auth.statusChange', window.fbAuthChange);
+    // FB object is ready
+    FB.Event.subscribe('xfbml.render', window.fbEnsureInit);
+  };
+
+  // Load the Facebook SDK Asynchronously
+  (function(d){
+     var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "https://connect.facebook.com/en_US/sdk.js";
+     ref.parentNode.insertBefore(js, ref);
+   }(document));
+</script>
+<script>
+  $(function() {
+    Blueapron.FlashMessage.check();
+    Blueapron.FlashMessage.check('gtm_events');
+
+    var nanigansConversion = $.cookie('nanigans_newsletter_conversion');
+    if (typeof nanigansConversion != 'undefined' && nanigansConversion != null) {
+      $.removeCookie('nanigans_newsletter_conversion');
+      dataLayer.push({
+        event: 'nanigansNewsletterConversion',
+        userEmail: nanigansConversion
+      });
+    }
+  });
+</script>
+
+</body>
+</html>

@@ -14,6 +14,12 @@ class TestMindmegetteScraper(ScraperTest):
     def test_language(self):
         self.assertEqual("hu", self.harvester_class.language())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.mindmegette.hu/tepsis-krumpli-ceklaval-es-repaval.recept/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(), "Tepsis krumpli céklával és répával"

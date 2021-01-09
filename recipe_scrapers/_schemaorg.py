@@ -74,6 +74,7 @@ class SchemaOrg:
             recipe_yield = str(yield_data[0])
         else:
             recipe_yield = str(yield_data)
+
         if len(recipe_yield) <= 3:  # probably just a number. append "servings"
             return recipe_yield + " serving(s)"
 
@@ -109,6 +110,14 @@ class SchemaOrg:
         return [
             normalize_string(ingredient) for ingredient in ingredients if ingredient
         ]
+
+    def nutrients(self):
+        nutrients = self.data.get("nutrition", {})
+        return {
+            normalize_string(nutrient): normalize_string(value)
+            for nutrient, value in nutrients.items()
+            if nutrient != "@type"
+        }
 
     def _extract_howto_instructions_text(self, schema_item):
         instructions_gist = []

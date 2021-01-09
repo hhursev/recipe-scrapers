@@ -10,6 +10,12 @@ class TestKuchniaDomowaScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("kuchnia-domowa.pl", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "http://www.kuchnia-domowa.pl/przepisy/dodatki-do-dan/548-mizeria",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual("Mizeria", self.harvester_class.title())
 
