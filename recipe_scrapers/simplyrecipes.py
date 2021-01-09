@@ -32,10 +32,15 @@ class SimplyRecipes(AbstractScraper):
         instructions_html = self.soup.find("div", {"class": "instructions"}).findAll(
             "p"
         )
+        instructions = [
+            normalize_string(instruction.get_text())
+            for instruction in instructions_html
+        ]
 
         return "\n".join(
             [
-                normalize_string(instruction.get_text())
-                for instruction in instructions_html
+                instruction
+                for instruction in instructions
+                if instruction and not instruction.isspace()
             ]
         )
