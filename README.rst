@@ -58,6 +58,7 @@ Note: ``scraper.links()`` returns a list of dictionaries containing all of the <
 Scrapers available for:
 -----------------------
 
+- `https://www.kwestiasmaku.com <https://www.kwestiasmaku.com>`_
 - `https://www.750g.com <https://www.750g.com>`_
 - `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_

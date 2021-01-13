@@ -70,6 +70,7 @@ from .kennymcgovern import KennyMcGovern
 from .kingarthur import KingArthur
 from .kochbar import Kochbar
 from .kuchniadomowa import KuchniaDomowa
+from .kwestiasmaku import KwestiaSmaku
 from .littlespicejar import LittleSpiceJar
 from .livelytable import LivelyTable
 from .lecremedelacrumb import LeCremeDeLaCrumb
@@ -204,6 +205,7 @@ SCRAPERS = {
     KingArthur.host(): KingArthur,
     Kochbar.host(): Kochbar,
     KuchniaDomowa.host(): KuchniaDomowa,
+    KwestiaSmaku.host(): KwestiaSmaku,
     LittleSpiceJar.host(): LittleSpiceJar,
     LivelyTable.host(): LivelyTable,
     LeCremeDeLaCrumb.host(): LeCremeDeLaCrumb,
