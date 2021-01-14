@@ -88,6 +88,7 @@ Scrapers available for:
 - `https://cuisineaz.com/ <https://cuisineaz.com>`_
 - `https://cybercook.com.br/ <https://cybercook.com.br/>`_
 - `https://delish.com/ <https://delish.com>`_
+- `https://www.domowe-wypieki.pl/ <https://www.domowe-wypieki.pl>`_
 - `https://domesticate-me.com/ <https://domesticate-me.com/>`_
 - `https://downshiftology.com/ <https://downshiftology.com/>`_
 - `https://www.dr.dk/ <https://www.dr.dk/>`_

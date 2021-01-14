@@ -1,6 +1,6 @@
 from ._abstract import AbstractScraper
 
-from ._utils import get_minutes, normalize_string, get_yields
+from ._utils import normalize_string, get_yields
 
 
 class Smaker(AbstractScraper):
@@ -8,7 +8,7 @@ class Smaker(AbstractScraper):
     def host(cls):
         return "smaker.pl"
 
-    def author(self):  # TODO
+    def author(self):
         return self.schema.author()
 
     def title(self):
@@ -42,9 +42,6 @@ class Smaker(AbstractScraper):
             instructions.append(normalize_string(instruction.get_text()))
 
         return "\n".join(instructions)
-
-    def ratings(self):
-        return self.schema.ratings()
 
     def description(self):
         d = normalize_string(self.soup.find("div", {"class": "userDescriptionHint"}).get_text())

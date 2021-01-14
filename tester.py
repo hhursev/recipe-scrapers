@@ -1,7 +1,7 @@
 from recipe_scrapers import scrape_me
 
 # give the url as a string, it can be url from any site listed below
-scraper = scrape_me('https://www.domowe-wypieki.pl/przepisy/ciasta/1232-tort-czekoladowy-number-cake-z-biszkoptu')
+scraper = scrape_me('https://www.domowe-wypieki.pl/przepisy/ciastka-male-wypieki/400-oponki-serowe')
 
 print(scraper.title())
 print(scraper.total_time())

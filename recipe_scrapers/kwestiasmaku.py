@@ -8,14 +8,8 @@ class KwestiaSmaku(AbstractScraper):
     def host(cls):
         return 'kwestiasmaku.com'
 
-    def author(self):
-        return ''
-
     def title(self):
         return self.schema.title()
-
-    def total_time(self):
-        return 0
 
     def yields(self):
         return get_yields(
@@ -39,6 +33,9 @@ class KwestiaSmaku(AbstractScraper):
 
         ingredients = []
 
+        if not containers:
+            return ingredients
+
         for container in containers:
             if container.name == "div":
                 ingredients.append(container.get_text())
@@ -55,6 +52,9 @@ class KwestiaSmaku(AbstractScraper):
             "class": "field field-name-field-przygotowanie field-type-text-long field-label-above"})
 
         instructions = []
+
+        if not containers:
+            return None
 
         for container in containers:
             if container.name == "div":
