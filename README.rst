@@ -58,7 +58,6 @@ Note: ``scraper.links()`` returns a list of dictionaries containing all of the <
 Scrapers available for:
 -----------------------
 
-- `https://www.kwestiasmaku.com <https://www.kwestiasmaku.com>`_
 - `https://www.750g.com <https://www.750g.com>`_
 - `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
@@ -129,6 +128,7 @@ Scrapers available for:
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
 - `https://kochbar.de/ <https://kochbar.de>`_
 - `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
+- `https://www.kwestiasmaku.com <https://www.kwestiasmaku.com>`_
 - `https://littlespicejar.com/ <https://littlespicejar.com>`_
 - `http://livelytable.com/ <http://livelytable.com/>`_
 - `https://lovingitvegan.com/ <https://lovingitvegan.com/>`_
@@ -162,6 +162,7 @@ Scrapers available for:
 - `https://simplyrecipes.com/ <https://simplyrecipes.co>`_
 - `https://simplywhisked.com/ <https://simplywhisked.com>`_
 - `https://skinnytaste.com/ <https://www.skinnytaste.com>`_
+- `https://smaker.pl/ <https://smaker.pl>`_
 - `https://southernliving.com/ <https://southernliving.com/>`_
 - `https://spendwithpennies.com/ <https://spendwithpennies.com/>`_
 - `https://www.thespruceeats.com/ <https://www.thespruceeats.com>`_

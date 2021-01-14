@@ -67,6 +67,9 @@ class KwestiaSmaku(AbstractScraper):
 
         return "\n".join([normalize_string(instruction) for instruction in instructions])
 
+    def ratings(self):
+        return self.schema.ratings()
+
     def description(self):
         d = normalize_string(
             self.soup.find("div", {

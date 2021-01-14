@@ -104,6 +104,7 @@ from .simplyquinoa import SimplyQuinoa
 from .simplyrecipes import SimplyRecipes
 from .simplywhisked import SimplyWhisked
 from .skinnytaste import SkinnyTaste
+from .smaker import Smaker
 from .southernliving import SouthernLiving
 from .spendwithpennies import SpendWithPennies
 from .spruceeats import SpruceEats
@@ -212,6 +213,8 @@ SCRAPERS = {
     Lovingitvegan.host(): Lovingitvegan,
     PaleoRunningMomma.host(): PaleoRunningMomma,
     RachlMansfield.host(): RachlMansfield,
+    Smaker.host(): Smaker,
+    Smaker.host(): Smaker,
     SpruceEats.host(): SpruceEats,
     TheKitchn.host(): TheKitchn,
     TheNutritiousKitchen.host(): TheNutritiousKitchen,
