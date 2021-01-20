@@ -182,6 +182,7 @@ Scrapers available for:
 - `https://tine.no/ <https://tine.no>`_
 - `https://tudogostoso.com.br/ <https://www.tudogostoso.com.br/>`_
 - `https://twopeasandtheirpod.com/ <http://twopeasandtheirpod.com>`_
+- 'https://vanillaandbean.com/ <https://vanillaandbean.com>'_
 - `https://vegolosi.it/ <https://vegolosi.it>`_
 - `https://watchwhatueat.com/ <https://watchwhatueat.com/>`_
 - `https://whatsgabycooking.com/ <https://whatsgabycooking.com>`_
