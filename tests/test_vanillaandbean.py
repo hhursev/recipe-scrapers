@@ -31,7 +31,7 @@ class TestVanillaAndBeanScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 C (100g) Whole Rolled Oats (plus 2 Tbs for the top)",
                 "1/2 C (105g) Water (room temperature)",
