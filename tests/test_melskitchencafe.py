@@ -29,7 +29,7 @@ class TestMelsKitchenCafeScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1/2 cup (4 ounces) water",
                 "2 cups (1 pound) sugar",
