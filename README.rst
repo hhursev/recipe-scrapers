@@ -134,7 +134,7 @@ Scrapers available for:
 - `https://lecremedelacrumb.com/ <https://lecremedelacrumb.com/>`_
 - `https://marmiton.org/ <https://marmiton.org/>`_
 - `https://matprat.no/ <https://matprat.no/>`_
-- 'https://www.melskitchencafe.com/ <https://www.melskitchencafe.com/>'_
+- `https://www.melskitchencafe.com/ <https://www.melskitchencafe.com/>`_
 - `http://mindmegette.hu/ <http://mindmegette.hu/>`_
 - `https://minimalistbaker.com/ <https://minimalistbaker.com/>`_
 - `https://misya.info/ <https://misya.info>`_
@@ -183,7 +183,7 @@ Scrapers available for:
 - `https://tine.no/ <https://tine.no>`_
 - `https://tudogostoso.com.br/ <https://www.tudogostoso.com.br/>`_
 - `https://twopeasandtheirpod.com/ <http://twopeasandtheirpod.com>`_
-- 'https://vanillaandbean.com/ <https://vanillaandbean.com>'_
+- `https://vanillaandbean.com/ <https://vanillaandbean.com>`_
 - `https://vegolosi.it/ <https://vegolosi.it>`_
 - `https://watchwhatueat.com/ <https://watchwhatueat.com/>`_
 - `https://whatsgabycooking.com/ <https://whatsgabycooking.com>`_
