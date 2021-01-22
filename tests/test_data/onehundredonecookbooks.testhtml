@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="https://www.101cookbooks.com/xmlrpc.php">
+		<title>Coconut Broccoli Soup Recipe - 101 Cookbooks</title><style id="rocket-critical-css">.wprm-recipe .wprm-nutrition-label{margin-top:10px}.wp-block-media-text .wp-block-media-text__media{grid-area:media-text-media;margin:0}.wp-block-media-text .wp-block-media-text__content{word-break:break-word;grid-area:media-text-content;padding:0 8%}.wprm-recipe-container .wprm-recipe-tastefully-simple span{margin:0;padding:0;line-height:inherit}.noochbutton svg.plusminus{stroke:#0B0B0B;border-bottom:0px;height:13px;width:13px;margin-top:-3px}.recipefooter .clearfix::after{content:none}.noochbutton span.minusopen{font-weight:500}.wprm-nutrition-label,html body .wprm-recipe-container .wprm-nutrition-label{margin-top:1rem;margin-left:1.25rem;font-size:.75rem;line-height:16px;text-align:left!important;color:#0B0B0B;letter-spacing:.05rem}@media only screen and (max-width:480px){.wprm-nutrition-label,html body .wprm-recipe-container .wprm-nutrition-label{margin-left:.4rem}}.wprm-nutrition-label .nutrition-item,.wprm-nutrition-label .nutrition-sub-item,html body .wprm-recipe-container .wprm-nutrition-label .nutrition-item,html body .wprm-recipe-container .wprm-nutrition-label .nutrition-sub-item{float:left;border-right:1px solid #0B0B0B;padding-right:12px;margin-left:12px;margin-bottom:8px}.nutrition-item.nobar{border-right:0px!important}.perserving{font-weight:bold}.wprm-nutrition-label .nutrition-sub-item,html body .wprm-recipe-container .wprm-nutrition-label .nutrition-sub-item{margin-left:14px}h1,h4,h5,p,ul{margin-top:0}p,ul{margin-bottom:1rem}body{text-align:left}h1,h4,h5,label{margin-bottom:.5rem}article,header,main,nav,section{display:block}label{display:inline-block}button,input{overflow:visible}.dropdown-menu,.nav,.navbar-nav{list-style:none}:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#007bff;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}*,::after,::before{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar}@-ms-viewport{width:device-width}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;background-color:#fff}a{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}img{vertical-align:middle;border-style:none}svg:not(:root){overflow:hidden}button{border-radius:0}button,input{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button{text-transform:none}[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none}.dropdown-item,.navbar-brand{white-space:nowrap}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}h1,h4,h5{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit}h1{font-size:2.5rem}h4{font-size:1.5rem}h5{font-size:1.25rem}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}.dropdown-item{font-weight:400}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.form-control{display:block;width:100%}.no-gutters{margin-right:0;margin-left:0}.no-gutters>[class*=col-]{padding-right:0;padding-left:0}.col-lg-4,.col-lg-8,.col-sm-12,.col-xl-4{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px}@media (min-width:576px){.col-sm-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}}@media (min-width:992px){.col-lg-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}.col-lg-8{-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%}}@media (min-width:1200px){.col-xl-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}}.form-control{padding:.375rem .75rem;font-size:1rem;line-height:1.5;color:#495057;background-color:#fff;background-clip:padding-box;border:1px solid #ced4da;border-radius:.25rem}.form-control::-ms-expand{background-color:transparent;border:0}.form-control::-webkit-input-placeholder{color:#6c757d;opacity:1}.form-control::-moz-placeholder{color:#6c757d;opacity:1}.form-control:-ms-input-placeholder{color:#6c757d;opacity:1}.form-control::-ms-input-placeholder{color:#6c757d;opacity:1}.dropdown{position:relative}.collapse:not(.show){display:none}.dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;display:none;float:left;min-width:10rem;padding:.5rem 0;margin:.125rem 0 0;font-size:1rem;color:#212529;text-align:left;background-color:#fff;background-clip:padding-box;border:1px solid rgba(0,0,0,.15);border-radius:.25rem}.nav{margin-bottom:0}.dropdown-item{display:block;width:100%;padding:.25rem 1.5rem;clear:both;color:#212529;text-align:inherit;background-color:transparent;border:0}.nav,.navbar{display:-ms-flexbox;-ms-flex-wrap:wrap}.nav{display:flex;flex-wrap:wrap;padding-left:0}.nav-link,.navbar{padding:.5rem 1rem}.nav-link{display:block}.navbar{position:relative;display:flex;flex-wrap:wrap;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between}.navbar-brand{display:inline-block;padding-top:.3125rem;padding-bottom:.3125rem;margin-right:1rem;font-size:1.25rem;line-height:inherit}.navbar-nav{display:-ms-flexbox}.navbar-nav{display:flex;-ms-flex-direction:column;flex-direction:column;padding-left:0;margin-bottom:0}.navbar-nav .nav-link{padding-right:0;padding-left:0}.navbar-nav .dropdown-menu{position:static;float:none}.navbar-collapse{-ms-flex-preferred-size:100%;flex-basis:100%;-ms-flex-positive:1;flex-grow:1;-ms-flex-align:left;align-items:left}.navbar-toggler{padding:.25rem .75rem;font-size:1.25rem;line-height:1;background-color:transparent;border:1px solid transparent;border-radius:.25rem}@media (min-width:992px){.navbar-expand-lg{-ms-flex-flow:row nowrap;flex-flow:row nowrap;-ms-flex-pack:start;justify-content:flex-start}.navbar-expand-lg .navbar-nav{-ms-flex-direction:row;flex-direction:row}.navbar-expand-lg .navbar-nav .dropdown-menu{position:absolute}.navbar-expand-lg .navbar-nav .nav-link{padding-right:.5rem;padding-left:.5rem}.navbar-expand-lg .navbar-collapse{display:-ms-flexbox!important;display:flex!important;-ms-flex-preferred-size:auto;flex-basis:auto}.navbar-expand-lg .navbar-toggler{display:none}}.clearfix::after{display:block;clear:both;content:""}.d-flex{display:-ms-flexbox!important;display:flex!important}.d-inline-flex{display:-ms-inline-flexbox!important;display:inline-flex!important}@media (min-width:992px){.d-lg-flex{display:-ms-flexbox!important;display:flex!important}}@media (min-width:1200px){.d-xl-flex{display:-ms-flexbox!important;display:flex!important}}.flex-row{-ms-flex-direction:row!important;flex-direction:row!important}.flex-wrap{-ms-flex-wrap:wrap!important;flex-wrap:wrap!important}.justify-content-center{-ms-flex-pack:center!important;justify-content:center!important}.align-items-center{-ms-flex-align:center!important;align-items:center!important}.fixed-top{position:fixed;right:0;left:0;z-index:1030}.fixed-top{top:0}body{margin:0}article,header,main,nav,section{display:block}a{background-color:transparent}img{border:0}svg:not(:root){overflow:hidden}button{overflow:visible}button{text-transform:none}button,input[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}body{background:#fff}img{height:auto;max-width:100%}.navbar-brand{height:auto}@media screen and (max-width:991px){.navbar-nav .dropdown-menu{border:medium none;margin-left:1.250rem;padding:0}}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden;word-wrap:normal!important}.site-content:before,.site-content:after{content:"";display:table;table-layout:fixed}.site-content:after{clear:both}#content.site-content{padding-bottom:3.75rem;max-width:1140px;margin:auto}@media (min-width:1024px){#content.site-content{padding-top:2rem}}.navbar-collapse{-ms-flex-align:left!important;align-items:left!important}h1,h4,h5,p,ul{margin-top:0}p,ul{margin-bottom:1rem}h1,h4,h5,label{margin-bottom:.5rem}.navbar-brand{line-height:inherit}button,input{overflow:visible}.dropdown{position:relative}.dropdown-menu{text-align:left}article,header,main,nav,section{display:block}label{display:inline-block}html{box-sizing:border-box;font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar}*,::after,::before{box-sizing:inherit}@-ms-viewport{width:device-width}body{margin:0;font-family:'Libre Franklin',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:1rem;font-weight:400;line-height:1.5;color:#212529;background-color:#fff}@font-face{font-family:schroedersdiet;src:url(https://www.101cookbooks.com/wp-content/themes/101cookbooks/inc/assets/fonts/schroeder-regular-webfont.woff2) format("woff2"),url(https://www.101cookbooks.com/wp-content/themes/101cookbooks/inc/assets/fonts/schroeder-regular-webfont.woff) format("woff");font-weight:400;font-style:normal}a{text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}img{vertical-align:middle;border-style:none}svg:not(:root){overflow:hidden}[role=button],a,button,input,label{-ms-touch-action:manipulation;touch-action:manipulation}button,input{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button{text-transform:none}[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}h1,h4,h5{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.1;color:inherit}h1{font-size:2.5rem}h4{font-size:1.5rem}h5{font-size:1.25rem}.container{margin-right:auto;margin-left:auto;padding-right:15px;padding-left:15px;width:100%}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:1023px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.no-gutters{margin-right:0;margin-left:0}.no-gutters>[class*=col-]{padding-right:0;padding-left:0}.col-lg-4,.col-lg-8,.col-sm-12,.col-xl-4{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px}@media (min-width:576px){.col-sm-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}}@media (min-width:1024px){.col-lg-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}.col-lg-8{-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%}}@media (min-width:1200px){.col-xl-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}}.collapse{display:none}.dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;display:none;float:left;min-width:10rem;padding:.5rem 0;margin:.125rem 0 0;font-size:1rem;color:#212529;list-style:none;background-color:#fff;background-clip:padding-box;border:1px solid rgba(0,0,0,.15);border-radius:.25rem}.mx-auto{margin-right:auto!important}.mx-auto{margin-left:auto!important}.dropdown-item{display:block;width:100%;padding:.25rem 1.5rem;clear:both;font-weight:400;color:#212529;text-align:inherit;white-space:nowrap;background:0 0;border:0}.nav,.navbar{display:-ms-flexbox;-ms-flex-wrap:wrap}.nav,.navbar-nav{margin-bottom:0;list-style:none}.nav{display:flex;flex-wrap:wrap;padding-left:0}.nav-link,.navbar{padding:.5rem 1rem}.nav-link{display:block}.navbar{position:relative;display:flex;flex-wrap:wrap;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between}.navbar-brand{display:inline-block;padding-top:.3125rem;padding-bottom:.3125rem;margin-right:1rem;font-size:1.25rem;white-space:nowrap}.navbar-nav{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;padding-left:0}.navbar-nav .nav-link{padding-right:0;padding-left:0}.navbar-nav .dropdown-menu{position:static;float:none}.navbar-collapse{-ms-flex-preferred-size:100%;flex-basis:100%;-ms-flex-align:left;align-items:left}.navbar-toggler{padding:.25rem .75rem;font-size:1.25rem;line-height:1;background:0 0;border:1px solid transparent;border-radius:.25rem}@media (min-width:1024px){.navbar-expand-lg{-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-ms-flex-pack:start;justify-content:flex-start}.navbar-expand-lg .navbar-nav{-ms-flex-direction:row;flex-direction:row}.navbar-expand-lg .navbar-nav .dropdown-menu{position:absolute}.navbar-expand-lg .navbar-nav .nav-link{padding-right:.5rem;padding-left:.5rem}.navbar-expand-lg .navbar-collapse{display:-ms-flexbox!important;display:flex!important}.navbar-expand-lg .navbar-toggler{display:none}.navbar-collapse{flex-basis:auto}}.fixed-top{position:fixed;right:0;left:0;z-index:1030}.flex-row{-ms-flex-direction:row!important;flex-direction:row!important}.flex-wrap{-ms-flex-wrap:wrap!important;flex-wrap:wrap!important}.justify-content-center{-ms-flex-pack:center!important;justify-content:center!important}.align-items-center{-ms-flex-align:center!important;align-items:center!important}@media (min-width:1024px){.flex-lg-column{-ms-flex-direction:column!important;flex-direction:column!important}}@media (min-width:1200px){.flex-xl-column{-ms-flex-direction:column!important;flex-direction:column!important}}.fixed-top{top:0}.navbar-toggler{margin-left:1rem;margin-top:-.5rem}button.navbar-toggler{position:relative}.navbar-toggler span{display:block;background-color:#181818;height:3px;width:25px;margin-top:4px;margin-bottom:4px;-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);transform:rotate(0);position:relative;left:0;opacity:1}a:link{color:#212121;border-bottom:2px solid #000;font-weight:500;text-decoration:none}a:visited{color:#212121;border-bottom:2px solid #dedede}.navbar{min-height:3.5rem}.navbar a:link{border-bottom:0}a.nav-link.plustoggle[aria-expanded="false"]{color:#000}a.nav-link.plustoggle[aria-expanded="false"] span.minusopen{display:none}span.plusclosed,span.minusopen{font-weight:700}ul.nav.navbar-nav{margin-left:2rem;margin-top:1.6rem}.navbar{background-color:rgba(255,255,255,.97);border-bottom:1px solid gray}.maincontent{top:3.6rem}.maincontent p{margin:1.4rem 1.8rem;font-size:.96rem;line-height:1.7rem;letter-spacing:.015rem}.maincontent h1{margin:1.2rem 1.8rem -.4rem;line-height:2.2rem;font-family:"schroedersdiet","Georgia",serif;text-align:left;font-size:1.9rem}a.navbar-brand{border:0;margin-right:.6rem}#logo{margin-right:1rem}#logo svg{width:13rem;height:auto}.addsearch{width:16rem;margin-top:2rem}input.addsearch{border-color:#979797!important;border-radius:.2rem;min-height:2.2rem;border:1px solid}input.addsearch{font-size:16px;background-color:#fff;background-image:url(https://www.101cookbooks.com/wp-content/themes/101cookbooks/inc/assets/images/search.svg);background-repeat:no-repeat;background-position:95% 50%}nav h5{font-family:'Libre Franklin',Helvetica,sans-serif;font-weight:100;font-size:1.2rem}div.extendednav{display:none}a.nav-link{font-size:1.12rem;font-weight:300}.mainimagewide img,.entrybody img{display:block;height:auto;max-width:100%;border:0}.entrybody p img{margin:auto}.categorylist .dropdown-item,.ingredientlist .dropdown-item{width:30%;padding:.55rem 1.5rem}.seasons .dropdown-item{width:45%;padding:.55rem 1.5rem}.mobilefollow{margin-bottom:2rem}.mobilefollow .followlink{font-size:.75rem;padding-right:1rem}.mobilefollow h5{margin-left:2rem}.moretoggle a[aria-expanded="false"] span.minusopen{display:none}@media (max-width:320px){#logo{margin-right:0}#logo svg{width:11rem}.categorylist .dropdown-item,.ingredientlist .dropdown-item{width:45%!important}}@media (max-width:414px){.container{padding:0}a.nav-link{font-size:1.3rem}#collapsingNavbar{overflow:scroll;height:90vh}.categorylist .dropdown-item,.ingredientlist .dropdown-item{width:32%;font-size:.75rem}.seasons .dropdown-item{width:45%;font-size:.75rem}.addsearch{margin-top:2rem;padding-left:1rem;margin-left:1rem}.sociallinks{justify-content:left!important;margin-left:2rem}.heidiphotodiv{display:none}}@media (max-width:812px){#collapsingNavbar{overflow:scroll;height:90vh}.sociallinks{justify-content:left!important;margin-left:2rem}.addsearch{margin-top:2rem;padding-left:1rem;margin-left:2rem!important}.mobiledivide{border-top:double #979797;margin-top:.5rem;margin-bottom:.5rem;min-height:.24rem;display:flex;align-items:center;justify-content:center;clear:both;width:75%;margin-left:2rem}.mycookbooklistmobile{padding-left:2rem}.mobilefollow .followlink{list-style:none}.mobilefollow h5{margin-top:.3rem}.nav-item.mobilenavhide{display:none}.mobilefollow p.newsletter{margin-left:2rem;margin-right:6rem;font-size:.85em;margin-bottom:.4rem}.mobilefollow .signupform{margin-left:2rem}.mobilefollow .signupform form{margin-bottom:.1rem}ul.nav.navbar-nav{margin-top:.2rem}}@media (min-width:415px){.mobiledivide{display:none}.container{padding:0}.navbar-toggler{margin-left:2rem}#logo{margin-right:2rem}.addsearch{margin:auto;margin-top:2rem}}@media (min-width:768px) and (max-width:1023px){div.container{max-width:680px}.categorylist .dropdown-item,.ingredientlist .dropdown-item{width:25%}.seasons .dropdown-item{width:45%}.addsearch{margin-left:2rem;margin-top:2rem}.sociallinks{justify-content:left!important;margin-left:2rem}}@media (min-width:1024px){.container{margin-top:0rem}.addsearch{margin-left:.4rem;margin-right:0;margin-top:2rem}.fixed-top{position:relative!important}.navbar{background-color:transparent;padding-top:0;border-bottom:0}div#logo{margin-top:-.5rem;margin-right:0;margin-left:.8rem}.maincontent{max-width:43rem}.maincontent p{margin:1.4rem 1.8rem;font-size:.96rem;line-height:1.7rem;letter-spacing:.015rem}.heidiphotodiv{background-size:260px 260px;width:260px;height:260px;background-image:url(https://images.101cookbooks.com/heidi.swanson.101cookbooks.2020.sq.jpg?w=580&auto=format)}nav h4{text-align:left}#logo{width:100%}#collapsingNavbar{overflow:visible;height:auto;flex-direction:column;align-items:left;width:100%}div.dropdown{width:auto;border:0;background:none;margin-top:1px}ul.nav.navbar-nav{margin-left:0}.maincontent{top:0}.extendednav p{font-size:.9rem;font-weight:100;padding:1rem .25rem 1rem 0;max-width:16rem}div.extendednav{margin-top:3rem;display:block!important}.mobilefollow{display:none}}#mailinglistinput{border-radius:.15em;width:60%;padding:.5rem .75rem;font-size:.8rem;line-height:1.25em;color:#495057;background-image:none;background-clip:padding-box;border:1px solid rgba(0,0,0,.15);border-radius:.25rem;float:left;height:40px}.joininput{float:left;line-height:1.25em;padding:.5rem .75rem;height:40px;margin-left:12px;color:#9B3A3A;border:0px;border-radius:.26em;text-transform:uppercase;font-size:.8em}.d-flex{display:-ms-flexbox!important;display:flex!important}.d-inline-flex{display:-ms-inline-flexbox!important;display:inline-flex!important}@media (min-width:1024px){.d-lg-flex{display:-ms-flexbox!important;display:flex!important}}@media (min-width:1200px){.d-xl-flex{display:-ms-flexbox!important;display:flex!important}}.navbar-collapse{-ms-flex-preferred-size:100%;flex-basis:100%;-ms-flex-positive:1;flex-grow:1;-ms-flex-align:left!important;align-items:left!important}.form-control{display:block}.form-control{width:100%;padding:.5rem .75rem;font-size:1rem;line-height:1.25;color:#495057;background-color:#fff;background-image:none;background-clip:padding-box;border:1px solid rgba(0,0,0,.15);border-radius:.25rem}.form-control::-ms-expand{background-color:transparent;border:0}.form-control::-webkit-input-placeholder{color:#868e96;opacity:1}.form-control:-ms-input-placeholder{color:#868e96;opacity:1}.clearfix::after{display:block;clear:both;content:""}@supports ((position:-webkit-sticky) or (position:sticky)){.sticky-topposition:-webkit-sticky;position:sticky;top:0;z-index:1020}.heidiico img{height:45px;width:45px}.recipefooter svg{stroke:#666;vertical-align:middle;max-height:1.2rem;margin-top:-2px}.entries .card-img-top img{max-width:100%}h4{font-weight:100;text-align:center;font-size:1.7rem;line-height:1.6rem;margin-bottom:2rem}h5{font-family:schroedersdiet,Georgia,Times,"Times New Roman",serif;text-align:left;font-size:1.6rem;letter-spacing:.01rem;line-height:2rem}.bookcover{max-width:175px}#commentspost input{background-color:#F5F5F5;border-color:#E8E8E8;border-radius:.2rem;font-size:.8rem}@media (min-width:415px){.maincontent h1{font-size:2.6rem;line-height:2.8rem;text-align:center}.entries .card-img-top img{max-width:100%}}.entrybody p img{margin-top:1.4rem}input.addsearch::-ms-clear{visibility:hidden}</style><link rel="preload" href="https://www.101cookbooks.com/wp-content/cache/min/1/1cdbcd74bf1b4dce3e824ae7ae339d8e.css" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" media="all" data-minify="1" />
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v13.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://www.101cookbooks.com/archives/coconut-broccoli-soup-recipe.html" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Coconut Broccoli Soup Recipe - 101 Cookbooks" />
+<meta property="og:description" content="Lunch at the studio today involved broccoli soup heated on a new hotplate - a simple broccoli and spinach affair made with a coconut milk broth, topped with good stuff like pan-fried tofu croutons, toasted almonds, and shredded scallions." />
+<meta property="og:url" content="https://www.101cookbooks.com/archives/coconut-broccoli-soup-recipe.html" />
+<meta property="og:site_name" content="101 Cookbooks" />
+<meta property="article:publisher" content="https://www.facebook.com/101cookbooks/" />
+<meta property="article:section" content="90+ Soup Recipes" />
+<meta property="article:published_time" content="2016-02-08T18:44:27+00:00" />
+<meta property="article:modified_time" content="2018-05-31T02:35:16+00:00" />
+<meta property="og:updated_time" content="2018-05-31T02:35:16+00:00" />
+<meta property="og:image" content="https://images.101cookbooks.com/coconut_broccoli_soup.jpg?w=680" />
+<meta property="og:image:secure_url" content="https://images.101cookbooks.com/coconut_broccoli_soup.jpg?w=680" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Lunch at the studio today involved broccoli soup heated on a new hotplate - a simple broccoli and spinach affair made with a coconut milk broth, topped with good stuff like pan-fried tofu croutons, toasted almonds, and shredded scallions." />
+<meta name="twitter:title" content="Coconut Broccoli Soup Recipe - 101 Cookbooks" />
+<meta name="twitter:site" content="@101cookbooks" />
+<meta name="twitter:image" content="https://images.101cookbooks.com/coconut_broccoli_soup.jpg?w=680" />
+<meta name="twitter:creator" content="@101cookbooks" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.101cookbooks.com/#website","url":"https://www.101cookbooks.com/","name":"101 Cookbooks","inLanguage":"en-US","description":"When you own over 100 cookbooks, it is time to stop buying, and start cooking. This site chronicles a cookbook collection, one recipe at a time.","potentialAction":[{"@type":"SearchAction","target":"https://www.101cookbooks.com/?s={search_term_string}","query-input":"required name=search_term_string"}]},{"@type":"ImageObject","@id":"https://www.101cookbooks.com/archives/coconut-broccoli-soup-recipe.html#primaryimage","inLanguage":"en-US","url":"https://www.101cookbooks.com/mt-static/images/food/coconut_broccoli_soup_2.jpg"},{"@type":"WebPage","@id":"https://www.101cookbooks.com/archives/coconut-broccoli-soup-recipe.html#webpage","url":"https://www.101cookbooks.com/archives/coconut-broccoli-soup-recipe.html","name":"Coconut Broccoli Soup Recipe - 101 Cookbooks","isPartOf":{"@id":"https://www.101cookbooks.com/#website"},"inLanguage":"en-US","primaryImageOfPage":{"@id":"https://www.101cookbooks.com/archives/coconut-broccoli-soup-recipe.html#primaryimage"},"datePublished":"2016-02-08T18:44:27+00:00","dateModified":"2018-05-31T02:35:16+00:00","author":{"@id":"https://www.101cookbooks.com/#/schema/person/35ff2518fa75cc01e9be68895cd07f81"},"potentialAction":[{"@type":"ReadAction","target":["https://www.101cookbooks.com/archives/coconut-broccoli-soup-recipe.html"]}]},{"@type":["Person"],"@id":"https://www.101cookbooks.com/#/schema/person/35ff2518fa75cc01e9be68895cd07f81","name":"Heidi Swanson","sameAs":[]}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//addsearch.com' />
+<link rel='dns-prefetch' href='//app.addsearch.com' />
+<link rel='dns-prefetch' href='//d20vwa69zln1wj.cloudfront.net' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="101 Cookbooks &raquo; Feed" href="https://www.101cookbooks.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="101 Cookbooks &raquo; Coconut Broccoli Soup Comments Feed" href="https://www.101cookbooks.com/archives/coconut-broccoli-soup-recipe.html/feed" />
+
+
+
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+
+
+
+
+
+
+
+
+
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://www.101cookbooks.com/wp-content/themes/101cookbooks/inc/assets/js/html5.js?ver=3.7.0'></script>
+<![endif]-->
+<link rel='https://api.w.org/' href='https://www.101cookbooks.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.101cookbooks.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.101cookbooks.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 5.2.1" />
+<link rel='shortlink' href='https://www.101cookbooks.com/?p=5514' />
+
+<style>
+.pom-small-grey {
+	background-image: url('/mt-static/images/2018/print.svg');
+   	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+stroke: #666;
+margin-top:-1px;
+
+}
+</style>
+<style type="text/css">
+.sfs-subscriber-count, .sfs-count, .sfs-count span, .sfs-stats { -webkit-box-sizing: initial; -moz-box-sizing: initial; box-sizing: initial; }
+.sfs-subscriber-count { width: 88px; overflow: hidden; height: 26px; color: #424242; font: 9px Verdana, Geneva, sans-serif; letter-spacing: 1px; }
+.sfs-count { width: 86px; height: 17px; line-height: 17px; margin: 0 auto; background: #ccc; border: 1px solid #909090; border-top-color: #fff; border-left-color: #fff; }
+.sfs-count span { display: inline-block; height: 11px; line-height: 12px; margin: 2px 1px 2px 2px; padding: 0 2px 0 3px; background: #e4e4e4; border: 1px solid #a2a2a2; border-bottom-color: #fff; border-right-color: #fff; }
+.sfs-stats { font-size: 6px; line-height: 6px; margin: 1px 0 0 1px; word-spacing: 2px; text-align: center; text-transform: uppercase; }
+</style>
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<style type='text/css'>img#wpstats{display:none}</style>    <style type="text/css">
+        #page-sub-header { background: #fff; }
+    </style>
+    		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<link rel="icon" href="https://www.101cookbooks.com/wp-content/uploads/2018/05/cropped-101fav-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.101cookbooks.com/wp-content/uploads/2018/05/cropped-101fav-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.101cookbooks.com/wp-content/uploads/2018/05/cropped-101fav-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.101cookbooks.com/wp-content/uploads/2018/05/cropped-101fav-1-270x270.png" />
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><script>
+/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+(function(w){"use strict";if(!w.loadCSS){w.loadCSS=function(){}}
+var rp=loadCSS.relpreload={};rp.support=(function(){var ret;try{ret=w.document.createElement("link").relList.supports("preload")}catch(e){ret=!1}
+return function(){return ret}})();rp.bindMediaToggle=function(link){var finalMedia=link.media||"all";function enableStylesheet(){link.media=finalMedia}
+if(link.addEventListener){link.addEventListener("load",enableStylesheet)}else if(link.attachEvent){link.attachEvent("onload",enableStylesheet)}
+setTimeout(function(){link.rel="stylesheet";link.media="only x"});setTimeout(enableStylesheet,3000)};rp.poly=function(){if(rp.support()){return}
+var links=w.document.getElementsByTagName("link");for(var i=0;i<links.length;i++){var link=links[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"&&!link.getAttribute("data-loadcss")){link.setAttribute("data-loadcss",!0);rp.bindMediaToggle(link)}}};if(!rp.support()){rp.poly();var run=w.setInterval(rp.poly,500);if(w.addEventListener){w.addEventListener("load",function(){rp.poly();w.clearInterval(run)})}else if(w.attachEvent){w.attachEvent("onload",function(){rp.poly();w.clearInterval(run)})}}
+if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}
+else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-283587-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-283587-2');
+</script>
+ <script>
+        window.adthrive = window.adthrive || {};
+        window.adthrive.cmd = window.adthrive.cmd || [];
+        window.adthrive.host = 'ads.adthrive.com';
+        window.adthrive.plugin = 'adthrive-ads-1.0.37';
+        window.adthrive.threshold = Math.floor(Math.random() * 100 + 1);
+
+        adtInited = !1;
+
+        function scrollAds() {
+            if (adtInited) return;
+            adtInited = !0;
+            console.log('load atads');
+            (function () {
+                var script = document.createElement('script');
+                script.async = true;
+                script.type = 'text/javascript';
+                  script.src = 'https://ads.adthrive.com/sites/58c84698158f6c10ae8b6afa/ads.min.js?threshold=' +
+                    window.adthrive.threshold;
+                                var node = document.getElementsByTagName('script')[0];
+                node.parentNode.insertBefore(script, node)
+            })()
+        }
+        if (window.innerWidth > 900) {
+            scrollAds()
+        };
+        document.addEventListener('scroll', function () {
+            if (window.scrollY > 2) scrollAds()
+        });
+        document.addEventListener('mousemove', scrollAds);
+        document.addEventListener('resize', scrollAds)
+    </script>
+
+
+
+
+</head>
+<body id="5514">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+	<div id="content" class="site-content">
+		<div class="container">
+			<div class="row mx-auto no-gutters">
+             <nav class="d-lg-flex flex-lg-column col-lg-4 col-xl-4 d-xl-flex fixed-top flex-xl-column navbar navbar-expand-lg navbar-toggleable-sm"><button aria-label="site navigation button" class="collapsed navbar-toggler navbar-toggler-right" data-target="#collapsingNavbar" data-toggle=collapse type=button><span></span> <span></span> <span></span></button> <div id="logo"><a href="https://www.101cookbooks.com/" class="navbar-brand" rel=home title="101 Cookbooks"><svg viewBox="68.5 85.8 383 45.7" width="13rem" xmlns="http://www.w3.org/2000/svg"><title>101 Cookbooks logo</title><path d="M76.4 100.3c0-2.4 0-5.3-0.1-8.6l5.2-1.3c-0.2 7.9-0.3 14.8-0.3 20.7 0 4.4 0 9 0.3 13.9h-5.4C76.3 119.7 76.4 111.4 76.4 100.3z"/><path d="M90.1 110.2c0-7 2.4-11.7 8-16.2 2.9-2.4 5.8-3.6 8.9-3.6 3.2 0 6.1 1.1 8.3 2.9 3.7 3.2 5.9 8 5.9 13.5 0 5.3-2.1 10-5.8 13.4 -3.8 3.6-7.2 5.7-11.1 5.7C96.1 125.9 90.1 119.7 90.1 110.2zM114.4 119.2c1.3-2.3 2.1-5.3 2.1-8.7 0-9.6-5.2-15.6-12.9-15.6 -3.4 0-6 1.1-6.7 2.3 -1.4 2.1-2.5 5.9-2.5 9.8 0 8.5 5.9 14.6 13.4 14.6C111.1 121.6 113.6 120.4 114.4 119.2z"/><path d="M130 100.3c0-2.4 0-5.3-0.1-8.6l5.2-1.3c-0.2 7.9-0.3 14.8-0.3 20.7 0 4.4 0 9 0.3 13.9h-5.4C129.9 119.7 130 111.4 130 100.3z"/><path d="M188.7 120.1c-4.8 3.4-7.5 5.9-11.3 5.9 -9.4 0-15.3-6.3-15.3-16 0-6.5 2.8-11.9 8.1-15.6 3.5-2.5 6.4-3.9 10-3.9 2.7 0 5.3 0.8 7.6 2.3l-3.4 4.1c-2.4-1.5-4.8-2.2-7.8-2.2 -3.2 0-5.6 0.8-6.4 1.4 -2.4 2-4.1 6-4.1 10.7 0 8.6 5.9 14.7 14.5 14.7 2.8 0 5.2-0.8 7.3-2.3L188.7 120.1z"/><path d="M193 110.2c0-7 2.4-11.7 8-16.2 2.9-2.4 5.8-3.6 8.9-3.6 3.2 0 6.1 1.1 8.3 2.9 3.7 3.2 5.9 8 5.9 13.5 0 5.3-2.1 10-5.8 13.4 -3.8 3.6-7.2 5.7-11.1 5.7C199 125.9 193 119.7 193 110.2zM217.3 119.2c1.3-2.3 2.1-5.3 2.1-8.7 0-9.6-5.2-15.6-12.9-15.6 -3.4 0-6 1.1-6.7 2.3 -1.4 2.1-2.5 5.9-2.5 9.8 0 8.5 5.9 14.6 13.4 14.6C214 121.6 216.5 120.4 217.3 119.2z"/><path d="M230 110.2c0-7 2.4-11.7 8-16.2 2.9-2.4 5.8-3.6 8.9-3.6 3.2 0 6.1 1.1 8.3 2.9 3.7 3.2 5.9 8 5.9 13.5 0 5.3-2.1 10-5.8 13.4 -3.8 3.6-7.2 5.7-11.1 5.7C236 125.9 230 119.7 230 110.2zM254.3 119.2c1.3-2.3 2.1-5.3 2.1-8.7 0-9.6-5.2-15.6-12.9-15.6 -3.4 0-6 1.1-6.7 2.3 -1.4 2.1-2.5 5.9-2.5 9.8 0 8.5 5.9 14.6 13.4 14.6C251.1 121.6 253.6 120.4 254.3 119.2z"/><path d="M268.8 108.2c0-6 0-11.7-0.3-17l5.8-0.2c-0.2 5.3-0.3 11.1-0.3 17.3l9-12c1.4-1.9 2.7-3.6 3.6-5l4-0.2 -12.5 15.9 13.2 16.4 -5.1 2.6c-3-4.2-5.1-7.1-6.3-8.6l-5.8-7.2h-0.2c0 4.3 0.1 9.3 0.3 14.9l-5.8 0.2C268.8 119.9 268.8 114.2 268.8 108.2z"/><path d="M298 108.2c0-6-0.1-11.7-0.3-17 5.3-0.1 8.4-0.2 9.1-0.2 3.7 0 6.2 0.3 7.8 1.2 2.3 1.4 3.5 3.6 3.5 6 0 3.7-2.3 6.8-6.9 8.9 5 1.2 7.6 4.2 7.6 8.1 0 5.7-5 9.9-13.1 9.9 -0.6 0-3.3-0.2-8-0.2C297.9 119.8 298 114.2 298 108.2zM305.9 106.4c1.1 0 2.3 0.1 3.6 0.4 2.4-1.6 3.7-3.8 3.7-6.4 0-4.1-2.8-6.5-7.9-6.5 -0.8 0-1.6 0-2.4 0.1v14.8L305.9 106.4zM308.5 123.3c0.4 0 0.8 0 1.3-0.1 2.4-1.6 3.6-3.9 3.6-6.7 0-4.3-3.6-7.1-10-7.1 -0.2 0-0.4 0-0.6 0V122.2C305.4 122.9 307.3 123.3 308.5 123.3z"/><path d="M325.1 110.2c0-7 2.4-11.7 8-16.2 2.9-2.4 5.8-3.6 8.9-3.6 3.2 0 6.1 1.1 8.3 2.9 3.7 3.2 5.9 8 5.9 13.5 0 5.3-2.1 10-5.8 13.4 -3.8 3.6-7.2 5.7-11.1 5.7C331.1 125.9 325.1 119.7 325.1 110.2zM349.3 119.2c1.3-2.3 2.1-5.3 2.1-8.7 0-9.6-5.2-15.6-12.9-15.6 -3.4 0-6 1.1-6.7 2.3 -1.4 2.1-2.5 5.9-2.5 9.8 0 8.5 5.9 14.6 13.4 14.6C346.1 121.6 348.6 120.4 349.3 119.2z"/><path d="M362.1 110.2c0-7 2.4-11.7 8-16.2 2.9-2.4 5.8-3.6 8.9-3.6 3.2 0 6.1 1.1 8.3 2.9 3.7 3.2 5.9 8 5.9 13.5 0 5.3-2.1 10-5.8 13.4 -3.8 3.6-7.2 5.7-11.1 5.7C368.1 125.9 362.1 119.7 362.1 110.2zM386.3 119.2c1.3-2.3 2.1-5.3 2.1-8.7 0-9.6-5.2-15.6-12.9-15.6 -3.4 0-6 1.1-6.7 2.3 -1.4 2.1-2.5 5.9-2.5 9.8 0 8.5 5.9 14.6 13.4 14.6C383.1 121.6 385.6 120.4 386.3 119.2z"/><path d="M400.9 108.2c0-6 0-11.7-0.3-17l5.8-0.2c-0.2 5.3-0.3 11.1-0.3 17.3l9-12c1.4-1.9 2.7-3.6 3.6-5l4-0.2 -12.5 15.9 13.2 16.4 -5.1 2.6c-3-4.2-5.1-7.1-6.3-8.6l-5.8-7.2h-0.2c0 4.3 0.1 9.3 0.3 14.9l-5.8 0.2C400.8 119.9 400.9 114.2 400.9 108.2z"/><path d="M433 118c1.7 2.9 3.6 4.2 6.5 4.2 0.5 0 1 0 1.4-0.1 0.8-1.3 1.2-2.9 1.2-4.8 0-3.6-1.8-4.8-5.5-6.6 -1.8-0.8-3.7-1.5-5.4-3.2 -1.5-1.5-2.2-3.5-2.2-5.8 0-3.5 1.5-6.5 4.7-9.2 1.5-1.2 3.9-2.2 6.1-2.2 2.5 0 4.8 1.4 6.4 4.2l-4.2 2.9c-1.7-2.4-3.6-3.6-6-3.6 -0.6 0-1.3 0.1-2.2 0.3 -0.9 1-1.3 2.4-1.3 4.2 0 2.4 1.6 4.7 4.5 6.2 2.5 1.3 4.7 2.1 6 3.2 1.9 1.6 2.9 3.7 2.9 6.2 0 3.6-1.4 6.7-4.2 9.1 -2 1.8-4.6 2.8-6.7 2.8 -2.8 0-5.2-1.7-6.7-5L433 118z"/></svg></a></div>
+
+	<div class="collapse navbar-collapse" id="collapsingNavbar">
+		<ul class="d-lg-flex flex-lg-column nav navbar-nav">
+			<li class="dropdown nav-item">
+				<div class="dropdown">
+					<a href=# class="nav-link plustoggle" aria-expanded=false aria-haspopup=true data-toggle=dropdown role=button>Categories <span class="plusclosed">+</span><span class="minusopen">-</span></a>
+
+				<div class="dropdown-menu categorylist" aria-labelledby=dropdownMenuLink>
+					<div class="d-flex flex-wrap">
+						<div class="dropdown-item"><a href="https://www.101cookbooks.com/whole_grain_recipes">Whole Grain</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/wfpb">WFPB</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/vegetarian_recipes">Vegetarian</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/vegan-recipes/">Vegan</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/soups">Soups</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/sides">Side Dishes</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/sandwiches">Sandwiches</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/salads">Salads</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/pasta">Pasta</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/quick_recipes">Quick</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/main_courses">Main Course</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/low_carb_recipes">Low Carb</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/instant_pot_recipes">Instant Pot</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/holiday_recipes">Holiday</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/high_protein_recipes">High Protein</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/gluten_free_recipes">Gluten Free</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/drink_recipes">Drinks</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/dinner_ideas">Dinner Ideas</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/desserts">Desserts</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/cookies">Cookies</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/chocolate_recipes">Chocolate</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/breakfast_brunch">Breakfast</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/baked_goods">Baking</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/appetizers">Appetizers</a> </div>
+
+					</div>
+				</div>
+				</div></li><li class="dropdown nav-item"> <div class="dropdown"><a href=# class="nav-link plustoggle" aria-expanded=false aria-haspopup=true data-toggle=dropdown role=button>Ingredients <span class="plusclosed">+</span><span class="minusopen">-</span></a> <div class="dropdown-menu ingredientlist" aria-labelledby="dropdownMenuLink">
+			<div class="d-flex flex-wrap">
+					<div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/avocado">avocado</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/egg">egg</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/herb">herb</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/kale">kale</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/lemon">lemon</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/lentil">lentil</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/quinoa">quinoa</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/pasta">pasta</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/tomato">tomato</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/turmeric">turmeric</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/yogurt">yogurt</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/zucchini">zucchini</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/arugula">arugula</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/asparagus">asparagus</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/basil">basil</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/broccoli">broccoli</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/buttermilk">buttermilk</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/cauliflower">cauliflower</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/chickpea">chickpea</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/chocolate">chocolate</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/curry">curry</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/tempeh">tempeh</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/ingredient/tofu">tofu</a> </div><div class="dropdown-item"><a href="/ingredient.html">ALL</a> </div>			</div>
+
+			</div></div>
+			</li>
+			<li class="dropdown nav-item mobilenavhide">
+				<div class="dropdown byseason">
+					<a href=# class="nav-link plustoggle" aria-expanded=false aria-haspopup=true data-toggle=dropdown role=button>By Season 	<span class=plusclosed>+</span><span class=minusopen>-</span>
+					</a>
+					<div class="dropdown-menu seasons" aria-labelledby=dropdownMenuLink>
+						<div class="d-flex flex-wrap">
+							<div class="dropdown-item"><a href="https://www.101cookbooks.com/spring">Spring</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/summer">Summer</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/fall">Fall</a> </div><div class="dropdown-item"><a href="https://www.101cookbooks.com/winter">Winter</a> </div>						</div>
+					</div>
+				</div>
+			</li>
+			<li class="nav-item mobilenavhide"><a href="https://www.101cookbooks.com/archives/cooking-with-natural-foods-recipe.html"
+	        class="nav-link">Natural Foods Basics</a></li>
+	<li class="nav-item mobilenavhide"><a href="https://www.101cookbooks.com/archives.html" class="nav-link">All Recipes Index</a>
+	</li>
+	<li class=nav-item><a href="https://www.101cookbooks.com/about/" class="nav-link">About</a></li>
+	</ul>
+	<div id="gcse"><input placeholder="find recipe" class="addsearch disabled"></div>
+	<div class="mobiledivide"></div>
+	<div class="mobilefollow">
+	    <h5>Follow</h5>
+	    <div class="align-items-center d-inline-flex flex-row justify-content-center sociallinks">
+	        <div class="followlink"><a href="https://instagram.com/heidijswanson/">Instagram</a> </div>
+	        <div class="followlink"><a href="https://www.youtube.com/channel/UCPyfGHoefipxv7Arp2sboJg">Youtube</a></div>
+	        <div class="followlink"><a href="https://www.facebook.com/101cookbooks">Facebook</a></div>
+	        <div class="followlink"><a href="https://pinterest.com/heidiswanson/">Pinterest</a></div>
+	    </div>
+
+
+    <h5>Newsletter</h5>
+    <p class="newsletter">A few times a month I send out new recipes, links & inspirations. </p>
+    <div class="signupform">
+        <form
+            action="//101cookbooks.us3.list-manage.com/subscribe/post?u=7ce250831f3a7c06b82a6c24c&amp;id=8e979ad22f&amp;EBOOK=weekexp&amp;LOCATION=centercol"
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" role="form"
+            novalidate="">
+	            <label for="mailinglistinputmob" class="visuallyhidden">Your email address: </label>
+	            <input type="email" value="" name="EMAIL" class="email form-control" id="mailinglistinputmob"
+                placeholder="your email please" required=""> <label class="joinicon"> <input type="submit" value="Join"
+                    name="subscribe"  alt="subscribe to our list" class="joininput"> </label>
+        </form>
+    </div>
+
+	<h5>My Cookbooks</h5>
+    <ul class="mycookbooklistmobile">
+        <li class="followlink"><a href="http://www.heidiswanson.com/super-natural-simple/">Super Natural Simple</a></li>
+        <li class="followlink"><a href="http://www.heidiswanson.com/near-far-cookbook/">Near & Far</a></li>
+        <li class="followlink"><a href="http://www.heidiswanson.com/super-natural-every-day/">Super Natural Every
+                Day</a></li>
+        <li class="followlink"><a
+                href="https://www.penguinrandomhouse.com/books/197932/super-natural-cooking-by-heidi-swanson/9781587612756/">Super
+                Natural Cooking</a></li>
+    </ul>
+	</div>
+
+
+	<div class=extendednav>
+	    <h4>Welcome!</h4>
+	    <div class="heidiphotodiv" aria-label="Heidi Swanson photo"></div>
+	    <p>I’m Heidi – This site celebrates cooking, and aspires to help you integrate the power of lots of vegetables and
+	        whole foods into your everyday meals. The recipes you’ll find here are vegetarian, often vegan, written with
+	        the home cook in mind.</p>
+
+			 <h5>Newsletter</h5>
+
+
+    <p class="newsletter">A few times a month I send out new recipes, links & inspirations. </p>
+    <div class="signupform">
+        <form
+            action="//101cookbooks.us3.list-manage.com/subscribe/post?u=7ce250831f3a7c06b82a6c24c&amp;id=8e979ad22f&amp;EBOOK=weekexp&amp;LOCATION=centercol"
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" role="form"
+            novalidate=""> <label for="mailinglistinput" class="visuallyhidden">Your email address: </label>
+	            <input type="email" value="" name="EMAIL" class="email form-control" id="mailinglistinput"
+                placeholder="your email please" required=""> <label class="joinicon"> <input type="submit" value="Join"
+                    name="subscribe"  alt="subscribe to our list" class="joininput"> </label>
+        </form>
+    </div>
+
+	    <h5 class="followheidi">Follow Heidi</h5>
+	    <ul>
+	        <li><a href="https://instagram.com/heidijswanson/">Instagram</a></li>
+	        <li><a href="https://www.youtube.com/channel/UCPyfGHoefipxv7Arp2sboJg">Youtube</a></li>
+	        <li><a href="https://www.facebook.com/101cookbooks">Facebook</a></li>
+	        <li><a href="https://pinterest.com/heidiswanson/">Pinterest</a></li>
+	        <li><a href="https://www.101cookbooks.com/feed">RSS Feed</a>
+	    </ul>
+
+	    <h5>Join Us</h5>
+    <p class="loans">Join the <a href="https://www.kiva.org/team/101_cookbooks/impact">101
+            Cookbooks / Kiva Lending Team</a>. We’ve loaned over $485,000 since
+        2008. Read about some of the entrepreneurs we’ve funded through Kiva
+        <a href="https://www.kiva.org/team/101_cookbooks/loans">here</a>.</p>
+
+
+
+<h5>My Cookbooks</h5>
+    <ul class="mycookbooklistmobile">
+        <li class="followlink"><a href="http://www.heidiswanson.com/super-natural-simple/">Super Natural Simple</a></li>
+        <li class="followlink"><a href="http://www.heidiswanson.com/near-far-cookbook/">Near & Far</a></li>
+        <li class="followlink"><a href="http://www.heidiswanson.com/super-natural-every-day/">Super Natural Every
+                Day</a></li>
+        <li class="followlink"><a
+                href="https://www.penguinrandomhouse.com/books/197932/super-natural-cooking-by-heidi-swanson/9781587612756/">Super
+                Natural Cooking</a></li>
+    </ul>
+
+	</div>
+	</div>
+	</nav>
+
+</aside><!-- #secondary -->
+
+	<section id="primary" class="maincontent recipepages content-area col-sm-12 col-lg-8">
+		<main id="main" class="site-main" role="main">
+
+
+
+<article id="post-5514" class="sdrecipe">
+
+		<div class="mainimagewide"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20680%200'%3E%3C/svg%3E" class="photo" alt="Coconut Broccoli Soup" width="680" data-pin-description="Coconut Broccoli Soup" data-lazy-src="https://images.101cookbooks.com/coconut_broccoli_soup.jpg?w=680&auto=format"><noscript><img src="https://images.101cookbooks.com/coconut_broccoli_soup.jpg?w=680&auto=format" class="photo" alt="Coconut Broccoli Soup" width="680" data-pin-description="Coconut Broccoli Soup"></noscript></div>
+	<header class="entry-header recipetitle">
+		<h1 class="entry-title">Coconut Broccoli Soup Recipe</h1>				</header><!-- .entry-header -->
+	<div class="entrybody jpibfi_container"><p>For the time being the <a href="http://www.quitokeeto.com">QUITOKEETO</a> studio has no kitchen. It has a warhorse of a sink with two of the legs truncated, but that's about it. If we want to expand our lunch options to warm or hot foods, appliances need to be involved. This has become a favorite topic of discussion. The question is: if you can only have three appliances, what are they? A hotplate seems to be the obvious first pick. A toaster oven and/or microwave also seem like contenders - but my argument is, we don't have either of those at home, so why would we have them at the studio? I'm lobbying for a wine refrigerator to stock with rosé for the summer, and a coffee grinder. This is a position that triggers much eye rolling. <a href="http://instagram.com/p/Vhd_wrN8ly/">Jack</a> thinks the waffle maker should live at the studio. While we figure out appliance #2 and #3, the hotplate was purchased, and made its efficient and unsexy debut this afternoon at lunch - reheating a pot of broccoli soup from its perch atop a beer garden bench. The soup - a simple broccoli and spinach affair - was made with coconut milk broth, double greens (broccoli & spinach), and was topped with good stuff like pan-fried tofu cubes, lots of toasted almonds, and shredded scallions. </p>
+<p><img border="0" width="620" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20620%200'%3E%3C/svg%3E" alt="Broccoli Soup Recipe" data-lazy-src="https://www.101cookbooks.com/mt-static/images/food/coconut_broccoli_soup_2.jpg"><noscript><img border="0" width="620" src="https://www.101cookbooks.com/mt-static/images/food/coconut_broccoli_soup_2.jpg" alt="Broccoli Soup Recipe"></noscript><img border="0" width="620" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20620%200'%3E%3C/svg%3E" alt="Broccoli Soup Recipe" data-lazy-src="https://www.101cookbooks.com/mt-static/images/food/coconut_broccoli_soup_3.jpg"><noscript><img border="0" width="620" src="https://www.101cookbooks.com/mt-static/images/food/coconut_broccoli_soup_3.jpg" alt="Broccoli Soup Recipe"></noscript><img border="0" width="620" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20620%200'%3E%3C/svg%3E" alt="Broccoli Soup Recipe" data-lazy-src="https://www.101cookbooks.com/mt-static/images/food/coconut_broccoli_soup_4.jpg"><noscript><img border="0" width="620" src="https://www.101cookbooks.com/mt-static/images/food/coconut_broccoli_soup_4.jpg" alt="Broccoli Soup Recipe"></noscript></p>
+<p>For those of you who like options: I blended the soup for dinner last night, so I could bring the leftovers to the studio in a jar for a quick reheated lunch. I think blended is the way to go, with broccoli soup, if you're going to enjoy leftovers. That said, if you're going to serve the soup immediately, you can play this soup entirely differently by leaving the broccoli florets whole - skip the blend. With the bright broccoli, and thin, white coconut broth, simply douse everything with a good amount of lime juice, and the soup takes on an entire (equally delicious) different personality - same toppings (tofu/almonds/scallions). Enjoy! xoh<br />
+</p>
+<div class=" newsletterebook">
+
+    <div class="infophoto">
+
+        <div class="infoblock d-flex">
+
+            <div class="mailingblurb">
+                <div class="titlebolder">MY NEWSLETTER + EBOOK</div>
+
+                <div class="mobilebookblurb">
+                    <div class="mobilecover"> <img
+                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                            class="weeknightcov lzyld" alt="weeknight express" nopin="nopin" data-lazy-src="https://images.101cookbooks.com/weeknight-expresscover.jpg?w=220"><noscript><img
+                            src="https://images.101cookbooks.com/weeknight-expresscover.jpg?w=220"
+                            class="weeknightcov lzyld" alt="weeknight express" nopin="nopin"></noscript></div>
+
+                    <div class="signblurb">
+                        <p class="copy">Sign up for my weekly-ish, ad-free newsletter, with recipes, inspirations, what
+                            I’m reading / watching / shopping. <br />
+                            (You’ll get a link for a free PDF e-book with 10 recipes)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="signupform">
+                <form
+                    action="//101cookbooks.us3.list-manage.com/subscribe/post?u=7ce250831f3a7c06b82a6c24c&amp;id=8e979ad22f&amp;EBOOK=weekexp&amp;LOCATION=centercol"
+                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                    role="form" novalidate=""> <label for="mailinglistpromo" class="visuallyhidden">Your email address
+                        please</label><input id="mailinglistpromo" type="email" value="" name="EMAIL"
+                        class="email form-control mailinglistinput" placeholder="your email please" required="">
+                        <label class="joinicon"><input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe" alt="subscribe to our list" class="joininput" >
+                        <label
+                        for="joinlistico" class="visuallyhidden">submit email to list</label>
+
+                    <svg id="joinlistico" class="submitico" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg></label>
+                    <div style="position: absolute; left: -5000px;"><input type="submit"
+                            name="b_7ce250831f3a7c06b82a6c24c_8e979ad22f" value=""></div>
+                </form>
+            </div>
+        </div>
+
+        <div class="photoblock"> <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                class="weeknightcov lzyld" alt="weeknight express" nopin="nopin" data-lazy-src="https://images.101cookbooks.com/weeknight-expresscover.jpg?w=220"><noscript><img src="https://images.101cookbooks.com/weeknight-expresscover.jpg?w=220"
+                class="weeknightcov lzyld" alt="weeknight express" nopin="nopin"></noscript></div>
+    </div>
+</div><div class="browsemore d-inline-flex flex-row w-100 justify-content-center align-items-center flex-wrap"><div class="browse p-1">browse <span class="morelabel">more</span>:</div><div class="browse1"><a href="https://www.101cookbooks.com/ingredient/broccoli">broccoli <span class="recipeslabel">Recipes</span></a></div><div class="browse2"><a href="https://www.101cookbooks.com/ingredient/coconut">coconut <span class="recipeslabel">Recipes</span></a></div><div class="browse3"><a href="https://www.101cookbooks.com/ingredient/spinach">spinach <span class="recipeslabel">Recipes</span></a></div></div>	</div><!-- .entry-content -->
+
+			<div class="sectiondivide"></div>
+			<div id="recipe">
+
+				<h1>Coconut Broccoli Soup</h1>
+<p><i>Because this soup has just a small list of ingredients, you want them all to shine. Look for deeply green, tight heads of broccoli. I typically avoid any heads that have yellowing florets or seem dried out. </i></p>
+<blockquote>
+<p> 1 14-ounce can of full fat coconut milk<br />
+3 cloves garlic, smashed <br />
+1 large yellow onion, chopped<br />
+1 small serrano chile, stemmed and chopped<br />
+2 teaspoons fine grain sea salt <br />
+ 4 1/2 cups water<br />
+2-3 large heads of broccoli (~1 1/2 lb.), cut into small florets<br />
+2-3 large handfuls of spinach</p>
+<p>to serve: lots of pan-fried tofu cubes, toasted almonds, scallions, chive flowers (optional)</p>
+</blockquote>
+<p>Scoop a big spoonful of thick coconut cream from the top of the coconut milk can. Add it to a large pan over medium-high heat. When hot, stir in the garlic, onions, chile, and salt. Sauté for a couple minutes, just long enough for everything to soften up. Add the remaining coconut milk, and the water, and bring to a simmer before adding the broccoli and spinach. Simmer just long enough for the broccoli to get tender throughout, 2 - 4 minutes. Immediately remove the soup from heat and puree with an immersion blender.  Add more water if you feel the need to thin the soup out. Taste and add more salt if needed.<br />
+Serve sprinkled with tofu cubes, toasted almonds, and lots of scallions. </p>
+<p>Makes a large pot - 8 servings or so. <br />
+</p>
+
+
+									<div class="recipetimes">
+						<p>
+													Prep time: <span class="preptime">10 minutes <span class="value-title" title="PT10M"></span></span>
+													- Cook time: <span class="cooktime">10 minutes<span class="value-title" title="PT10M"></span></span>
+												</p>
+					</div>
+
+				<div class="recipefooter">
+
+	<div class="d-flex justify-content-between p-3">
+		<div class="printrecipe" onclick="gtag('event', 'coconut-broccoli-soup-recipe', { 'send_to': 'UA-283587-2','event_category': 'printrecipe', 'event_label': 'print'});">
+
+			<div class='printomatic pom-small-grey ' id='id610' alt=' Print Recipe' title=' Print Recipe' data-print_target='#recipe'></div> <div class='printomatictext' id='id610' alt=' Print Recipe' title=' Print Recipe' data-print_target='#recipe'> Print Recipe</div><div style='clear: both;'></div>		</div>
+		<div class="recipedate">
+			<a href="https://www.101cookbooks.com/archives/coconut-broccoli-soup-recipe.html" aria-label="permament link to this entry">February 8, 2016</a>
+			<a href="https://www.101cookbooks.com/archives/coconut-broccoli-soup-recipe.html" aria-label="permament link to this entry" class="ico">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link-2"><title>permalink icon</title><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+			</a>
+		</div>
+	</div>
+
+
+<div class="instafooter p-3 d-flex justify-content-center"><div class="igico"><a href="https://www.instagram.com/heidijswanson/" class="ico" aria-label="101 Cookbooks on Instagram link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="instagram"><title>instagram icon</title><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg></a></div><div class="blurb">If you make this recipe, I'd love to see it - tag it <a href="https://www.instagram.com/heidijswanson/" class="emp" onclick="gtag('event', 'centercol', { 'send_to': 'UA-283587-2','event_category': '101social', 'event_label': 'ig'});">#101cookbooks</a> on Instagram!</div></div>
+</div><!-- end recipefooter -->
+</div>
+
+		<footer class="entry-footer">
+		<div class="sectiondivide"></div><div class="supernaturalbanner"><div class="infophoto"><div class="infoblock d-flex"> <svg version="1.1" viewBox="0 0 307 47" xmlns="http://www.w3.org/2000/svg" class="availablefont"><title>Available!</title> <g fill="none" fill-rule="evenodd"> <path d="m0.251 43.32c1.84-0.12 3.26-0.68999 4.26-1.71s1.9-2.65 2.7-4.89l9.24-25.44c-0.6-1.52-1.56-2.74-2.88-3.66 4.04-0.8 8.5-3.16 13.38-7.08l12.54 36.3c0.36 1.08 0.69 2.02 0.99 2.82s0.64 1.47 1.02 2.01 0.84 0.95 1.38 1.23 1.23 0.42 2.07 0.42v1.68h-23.04v-1.68h0.48c2.56 0 3.84-0.95999 3.84-2.88 0-0.64-0.16-1.44-0.48-2.4l-2.34-6.9h-11.64l-1.92 5.64c-0.16 0.44-0.29 0.92-0.39 1.44s-0.15 1.02-0.15 1.5c0 2.28 1.34 3.48 4.02 3.6v1.68h-13.08v-1.68zm22.44-14.46-4.98-14.46-5.1 14.46h10.08zm23.51-7.74c-0.24-0.48-0.48-0.91-0.72-1.29s-0.51-0.7-0.81-0.96-0.68-0.47-1.14-0.63-1.03-0.26-1.71-0.3v-1.68h19.98v1.68c-1.92 0-2.88 0.55999-2.88 1.68 0 0.32 0.05 0.61 0.15 0.87s0.21 0.51 0.33 0.75l5.04 10.74 4.68-9.6c0.32-0.64 0.48-1.34 0.48-2.1 0-1.56-1.1-2.34-3.3-2.34h-0.24v-1.68h10.74v1.68c-1.24 0.08-2.21 0.44-2.91 1.08s-1.39 1.64-2.07 3l-12.18 24.24-13.44-25.14zm50.09 20.1c-2.96 3.36-6.24 5.04-9.84 5.04-2.44 0-4.4-0.67999-5.88-2.04s-2.22-3.1-2.22-5.22c0-1.48 0.36-2.8 1.08-3.96s1.8-2.26 3.24-3.3 3.25-2.05 5.43-3.03 4.73-2.03 7.65-3.15v-2.1c0-2.12-0.27-3.67-0.81-4.65s-1.47-1.47-2.79-1.47c-1.04 0-1.9 0.31-2.58 0.93s-1.02 1.39-1.02 2.31c0 0.64 0.02 1.21 0.06 1.71s0.06 0.91 0.06 1.23c0 1.48-0.4 2.64-1.2 3.48s-1.84 1.26-3.12 1.26c-1.2 0-2.16-0.37-2.88-1.11s-1.08-1.73-1.08-2.97 0.31-2.42 0.93-3.54 1.52-2.1 2.7-2.94 2.6-1.51 4.26-2.01 3.53-0.75 5.61-0.75c2.32 0 4.37 0.29 6.15 0.87 1.78 0.58 3.23 1.39 4.35 2.43 1.16 1.12 1.88 2.35 2.16 3.69 0.28 1.34 0.42 2.91 0.42 4.71v8.34c0 2.16 0.16 3.77 0.48 4.83 0.32 1.06 0.92 1.59 1.8 1.59 0.32 0 0.68-0.16 1.08-0.48v1.92c-0.8 1-1.81 1.77-3.03 2.31s-2.59 0.81-4.11 0.81c-3.52 0-5.82-1.58-6.9-4.74zm-0.54-13.5c-1.76 0.68-3.1 1.77-4.02 3.27s-1.38 3.37-1.38 5.61c0 1.28 0.25 2.28 0.75 3s1.15 1.08 1.95 1.08c1.32 0 2.1-0.60999 2.34-1.83s0.36-3.07 0.36-5.55v-5.58zm21.77-18.78c0-1.68 0.55999-3.08 1.68-4.2s2.52-1.68 4.2-1.68 3.08 0.55999 4.2 1.68 1.68 2.52 1.68 4.2-0.56999 3.08-1.71 4.2-2.53 1.68-4.17 1.68c-1.68 0-3.08-0.55999-4.2-1.68s-1.68-2.52-1.68-4.2zm0.78 17.7c0-0.88-0.099999-1.53-0.3-1.95s-0.66-0.91-1.38-1.47l-3.18-2.58c4.64-1.48 10.02-3.46 16.14-5.94v24.36c0 1.48 0.26 2.55 0.78 3.21s1.42 1.01 2.7 1.05v1.68h-18.54v-1.68h0.18c1.32 0 2.25-0.33 2.79-0.99s0.81-1.75 0.81-3.27v-12.42zm21.53-11.64c0-0.88-0.099999-1.53-0.3-1.95s-0.66-0.91-1.38-1.47l-3.18-2.58c4.64-1.48 10.02-3.46 16.14-5.94v36c0 1.52 0.27 2.61 0.81 3.27s1.47 0.99 2.79 0.99h0.18v1.68h-18.84v-1.68h0.18c1.32 0 2.25-0.33 2.79-0.99s0.81-1.75 0.81-3.27v-24.06zm37.19 26.22c-2.96 3.36-6.24 5.04-9.84 5.04-2.44 0-4.4-0.67999-5.88-2.04s-2.22-3.1-2.22-5.22c0-1.48 0.36-2.8 1.08-3.96s1.8-2.26 3.24-3.3 3.25-2.05 5.43-3.03 4.73-2.03 7.65-3.15v-2.1c0-2.12-0.27-3.67-0.81-4.65s-1.47-1.47-2.79-1.47c-1.04 0-1.9 0.31-2.58 0.93s-1.02 1.39-1.02 2.31c0 0.64 0.02 1.21 0.06 1.71s0.06 0.91 0.06 1.23c0 1.48-0.4 2.64-1.2 3.48s-1.84 1.26-3.12 1.26c-1.2 0-2.16-0.37-2.88-1.11s-1.08-1.73-1.08-2.97 0.31-2.42 0.93-3.54 1.52-2.1 2.7-2.94 2.6-1.51 4.26-2.01 3.53-0.75 5.61-0.75c2.32 0 4.37 0.29 6.15 0.87s3.23 1.39 4.35 2.43c1.16 1.12 1.88 2.35 2.16 3.69s0.42 2.91 0.42 4.71v8.34c0 2.16 0.16 3.77 0.48 4.83s0.92 1.59 1.8 1.59c0.32 0 0.68-0.16 1.08-0.48v1.92c-0.8 1-1.81 1.77-3.03 2.31s-2.59 0.81-4.11 0.81c-3.52 0-5.82-1.58-6.9-4.74zm-0.54-13.5c-1.76 0.68-3.1 1.77-4.02 3.27s-1.38 3.37-1.38 5.61c0 1.28 0.25 2.28 0.75 3 0.5 0.72 1.15 1.08 1.95 1.08 1.32 0 2.1-0.60999 2.34-1.83s0.36-3.07 0.36-5.55v-5.58zm24.29 16.08c-0.28 0.4-0.53 0.7-0.75 0.9s-0.55 0.3-0.99 0.3h-1.98c0.52-1 0.78-2.26 0.78-3.78v-26.22c0-0.88-0.099999-1.53-0.3-1.95s-0.66-0.91-1.38-1.47l-3.18-2.58c1.72-0.52 3.9-1.28 6.54-2.28s5.78-2.22 9.42-3.66v15.6c0.92-1.2 2.07-2.11 3.45-2.73s2.91-0.93 4.59-0.93c1.8 0 3.46 0.38 4.98 1.14s2.85 1.83 3.99 3.21 2.03 3.04 2.67 4.98 0.96 4.07 0.96 6.39c0 2.4-0.37 4.56-1.11 6.48s-1.77 3.56-3.09 4.92-2.91 2.4-4.77 3.12-3.91 1.08-6.15 1.08c-5.08 0-8.76-2.18-11.04-6.54l-2.64 4.02zm12.36 0.42c0.92 0 1.65-0.25 2.19-0.75s0.95-1.27 1.23-2.31 0.46-2.34 0.54-3.9 0.12-3.4 0.12-5.52-0.04-3.96-0.12-5.52-0.26-2.86-0.54-3.9-0.69-1.81-1.23-2.31-1.27-0.75-2.19-0.75c-0.96 0-1.71 0.25-2.25 0.75s-0.95 1.27-1.23 2.31-0.46 2.34-0.54 3.9-0.12 3.4-0.12 5.52 0.04 3.96 0.12 5.52 0.26 2.86 0.54 3.9 0.69 1.81 1.23 2.31 1.29 0.75 2.25 0.75zm24.59-29.22c0-0.88-0.099999-1.53-0.3-1.95s-0.66-0.91-1.38-1.47l-3.18-2.58c4.64-1.48 10.02-3.46 16.14-5.94v36c0 1.52 0.27 2.61 0.81 3.27s1.47 0.99 2.79 0.99h0.18v1.68h-18.84v-1.68h0.18c1.32 0 2.25-0.33 2.79-0.99s0.81-1.75 0.81-3.27v-24.06zm32.09 10.68c1.04 0 1.93-0.02 2.67-0.06s1.34-0.16 1.8-0.36 0.8-0.53 1.02-0.99 0.33-1.09 0.33-1.89c0-3.48-1.26-5.22-3.78-5.22-1.68 0-2.89 0.69999-3.63 2.1s-1.11 3.54-1.11 6.42h2.7zm14.22 14.46c-1.68 2.04-3.59 3.57-5.73 4.59s-4.43 1.53-6.87 1.53c-2.24 0-4.33-0.45-6.27-1.35s-3.61-2.19-5.01-3.87c-2.32-2.72-3.48-6.04-3.48-9.96s1.14-7.4 3.42-10.44c1.24-1.68 2.91-3.05 5.01-4.11 2.1-1.06 4.27-1.59 6.51-1.59 1.88 0 3.59 0.3 5.13 0.9s2.86 1.45 3.96 2.55c1.1 1.1 1.95 2.45 2.55 4.05s0.9 3.38 0.9 5.34h-16.98c0.04 1.8 0.38 3.44 1.02 4.92s1.47 2.76 2.49 3.84 2.19 1.91 3.51 2.49c1.32 0.58 2.7 0.87 4.14 0.87 2.28 0 4.18-0.83999 5.7-2.52v2.76zm10.082 0.317c0-1.6127 0.55066-2.9795 1.652-4.1005s2.478-1.6815 4.13-1.6815c1.6127 0 2.9795 0.56049 4.1005 1.6815 1.121 1.121 1.6815 2.4878 1.6815 4.1005 0 1.652-0.55066 3.0287-1.652 4.13s-2.478 1.652-4.13 1.652-3.0287-0.55066-4.13-1.652-1.652-2.478-1.652-4.13zm4.897-8.614c0-2.2813-0.45233-4.4447-1.357-6.49-0.39334-0.944-0.83583-1.888-1.3275-2.832s-0.95383-1.947-1.3865-3.009-0.7965-2.2027-1.0915-3.422c-0.295-1.2193-0.4425-2.5567-0.4425-4.012 0-2.832 0.59983-5.0445 1.7995-6.6375 1.1997-1.593 2.7632-2.3895 4.6905-2.3895s3.4908 0.79649 4.6905 2.3895c1.1997 1.593 1.7995 3.8055 1.7995 6.6375 0 1.4553-0.1475 2.7927-0.4425 4.012-0.295 1.2193-0.65883 2.36-1.0915 3.422s-0.89483 2.065-1.3865 3.009-0.93416 1.888-1.3275 2.832c-0.90467 2.0453-1.357 4.2087-1.357 6.49h-1.77z" fill="#2F2F2F" /> </g> </svg><div class="availablestores"><div class="preorder">for pre-order 👏</div><div class="storelinks"><div class="d-flex flex-row justify-content-between"><div class="store"><a href="https://www.amazon.com/Super-Natural-Simple-Whole-Food-Vegetarian/dp/198485688X/">AMAZON</a></div><div class="store"><a href="https://www.indiebound.org/book/9781984856883">INDIEBOUND</a></div></div><div class="d-flex flex-row justify-content-between"><div class="store"><a href="https://www.barnesandnoble.com/w/super-natural-simple-heidi-swanson/1137252520">BARNES & NOBLE</a></div><div class="store"><a href="https://bookshop.org/books/super-natural-simple-whole-food-vegetarian-recipes-for-real-life-a-cookbook/9781984856883">BOOKSHOP.ORG</a></div></div><div class="d-flex flex-row justify-content-between"><div class="store" style="width:99%;margin-top: 1em; margin-left: auto; margin-right: auto;"> Also - pre-order in <a href="https://www.booktopia.com.au/super-natural-simple-heidi-swanson/book/9781743797242.html">AUS</a> & <a href="https://www.amazon.co.uk/Super-Natural-Simple-Vegetarian-Recipes/dp/1743797249">UK</a>!</div></div></div></div></div><div class="covercontainer"><div><a href="http://www.heidiswanson.com/super-natural-simple"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="bookcover lzyld" alt="weeknight express" nopin="nopin" data-lazy-src="https://images.101cookbooks.com/super-natural-simple-cover.2x.jpg?w=220"><noscript><img src="https://images.101cookbooks.com/super-natural-simple-cover.2x.jpg?w=220" class="bookcover lzyld" alt="weeknight express" nopin="nopin"></noscript></a></div></div></div></div><div class="browsemore followsocial d-inline-flex flex-row w-100 justify-content-center align-items-center flex-wrap"><div class="heidiico"><a href="https://www.instagram.com/heidijswanson/" onclick="_gaq.push(['_trackEvent','101social','centercol','ig']);" border="0"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="101cookbooks social icon" class="nopin" nopin=nopin data-lazy-src="https://images.101cookbooks.com/heidi-ico.jpg?auto=format"><noscript><img src="https://images.101cookbooks.com/heidi-ico.jpg?auto=format" alt="101cookbooks social icon" class="nopin" nopin=nopin></noscript></a></div><div class="browse p-1">Follow Me:</div><div class="browse1"><a href="https://www.instagram.com/heidijswanson/" onclick="_gaq.push(['_trackEvent','101social','centercol','ig']);">Instagram</a></div><div class="browse2"><a href="https://www.youtube.com/channel/UCPyfGHoefipxv7Arp2sboJg" onclick="_gaq.push(['_trackEvent','101social','centercol','yt']);">Youtube</a></div><div class="browse3"><a href="https://www.facebook.com/101cookbooks" onclick="_gaq.push(['_trackEvent','101social','centercol','fb']);">Facebook</a></div><div class="browse4"><a href="https://www.pinterest.com/heidiswanson/" onclick="_gaq.push(['_trackEvent','101social','centercol','pt']);">Pinterest</a></div></div>
+	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<div class="entries"><h4 id="related">Related Recipes</h4><div class="related card w-100"><div class="card-img-top"><a href="https://www.101cookbooks.com/archives/lentils-with-wineglazed-vegetables-recipe.html"><img src="https://images.101cookbooks.com/deborah_madison_lentils.jpg?w=680&auto=format" data-src="https://images.101cookbooks.com/deborah_madison_lentils.jpg?w=680&auto=format" alt="Lentils with Wine-Glazed Vegetables" border="0" class="lzyld"></a></div> <div class="card-body mr-auto"><h5><a href="https://www.101cookbooks.com/archives/lentils-with-wineglazed-vegetables-recipe.html">Lentils with Wine-Glazed Vegetables</a></h5><p>These simple, wine-glazed lentils, from Deborah Madison, saw me through my twenties, and then my thirties. I made them often in my first solo apartment in San Francisco. And, because they travel well, they've kept me well-fed on a range of flights...
+</p></div></div><div class="related card w-100"><div class="card-img-top"><a href="https://www.101cookbooks.com/archives/saffron-yellow-pepper-soup-recipe.html"><img src="https://images.101cookbooks.com/saffron_yellow_pepper_soup.jpg?w=680&auto=format" data-src="https://images.101cookbooks.com/saffron_yellow_pepper_soup.jpg?w=680&auto=format" alt="Saffron Yellow Pepper Soup" border="0" class="lzyld"></a></div> <div class="card-body mr-auto"><h5><a href="https://www.101cookbooks.com/archives/saffron-yellow-pepper-soup-recipe.html">Saffron Yellow Pepper Soup</a></h5><p>A preview of a little summer booklet we've been working on for QUITOKEETO, and a saffron yellow pepper soup from it - bright, and smooth, topped with feta, and pistachio.
+</p></div></div><!--end related recipes= --></div>
+<!-- build json recipe schema --><!-- Inserted by https://www.101cookbooks.com/archives/coconut-broccoli-soup-recipe.html --><script type="application/ld+json">{"@context":"http://schema.org","@type":"Recipe","mainEntityOfPage":"true","author":"Heidi Swanson","suitableForDiet":["Vegetarian"],"name":"Coconut Broccoli Soup","keywords":["almonds","broccoli","coconut milk","spinach","tofu"],"description":"Lunch at the studio today involved broccoli soup heated on a new hotplate - a simple broccoli and spinach affair made with a coconut milk broth, topped with good stuff like pan-fried tofu croutons, toasted almonds, and shredded scallions.
+","recipeCategory":"90+ Soup Recipes","datePublished":"2016-08-02","recipeIngredient":[""],"prepTime":"PT10M","cookTime":"PT10M","totalTime":"PT20M","recipeInstructions":"","image":["https://images.101cookbooks.com/coconut_broccoli_soup.jpg?w=680&auto=format"],"publisher":{"@type":"Organization","name":"101 Cookbooks","logo":{"@type":"ImageObject","url":"https://images.101cookbooks.com/101cookbooks.logo.png","width":453,"height":60},"url":"https://www.101cookbooks.com"}}</script><div id="commentspost">
+
+
+
+
+
+
+<div class="sectiondivide"></div>
+	    <p class="no-comments">Apologies, comments are closed.</p>
+
+
+
+
+        <h4 id="comments">Comments</h4>
+
+
+        <div class="firstcomments">
+            					<article class="comment card" id="comment-204888">
+						<div class="card-body">
+							<p class="card-text">Heidi, we also eat together at our little fiber mill. An outdoor kitchen is on our wish list for our next location. For now we have the requisite hot plate but more often use crock pots to reheat soups or even veggies like mashed potatoes. We also use a griddler for toasted sandwiches, pancakes and grilling.
+							</p>
+<div class="author card-subtitle">Sally <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+					<article class="comment card" id="comment-204887">
+						<div class="card-body">
+							<p class="card-text">LOVE the greens combination! I definitely vote for the wine refrigerator. At the end of the day, smashed grapes nurture the soul, celebrate, and add to creativity that abounds in your new space! Check out  'small combo oven' with convection, broiler, toaster all 'built-in'. Bonus: 'on shelf' footprint is small!
+							</p>
+<div class="author card-subtitle">savvy <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+					<article class="comment card" id="comment-204886">
+						<div class="card-body">
+							<p class="card-text">When I looked at the title I thought that coconut and broccoli sounded like a crazy idea...well...I thought again! I'll give it a  go at the weekend, ;)
+							</p>
+<div class="author card-subtitle"><a href='http://www.allnnothing.com' rel='external nofollow' class='url'>Joanna</a> <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+					<article class="comment card" id="comment-204885">
+						<div class="card-body">
+							<p class="card-text">can't wait to try this
+and I vote for an electric tea kettle
+(to go with the French press coffee) and for tea…
+							</p>
+<div class="author card-subtitle">subo <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+					<article class="comment card" id="comment-204884">
+						<div class="card-body">
+							<p class="card-text">Further proof that you can make delicious food anywhere you are. Plus, take great photos of it, too! xo
+							</p>
+<div class="author card-subtitle"><a href='http://www.dessertfortwo.com' rel='external nofollow' class='url'>DessertForTwo</a> <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+					<article class="comment card" id="comment-204883">
+						<div class="card-body">
+							<p class="card-text">Will be making this soon. All my favorite ingredients. Any tips on how to make nice crispy tofu cubes?
+<p><i>Hi Diane: Just throw the cubes into a wok or pan with a small splash of oil and tiny pinch of salt. Cook over med-high until they're nice and golden.</i></p>
+							</p>
+<div class="author card-subtitle">Diane <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+					<article class="comment card" id="comment-204882">
+						<div class="card-body">
+							<p class="card-text">I'm with you on the wine fridge, and you could actually put some cheese in there as well to go with your wine...a coffee maker grinder in one would be a good choice, could make tea as well and even hot water to rehydrate sun-dried tomatoes. I cooked while I remodeled my kitchen, we had a "garchen" a combo garage/kitchen. I had a hot plate, toaster oven, crockpot and rice cooker. Along with the BBQ grill, I was set!
+							</p>
+<div class="author card-subtitle"><a href='http://www.lindysez.com' rel='external nofollow' class='url'>LindySez</a> <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+					<article class="comment card" id="comment-204881">
+						<div class="card-body">
+							<p class="card-text">Here's another vote for the rose fridge!
+I look forward to trying this soup - it sounds grand. Thanks!
+							</p>
+<div class="author card-subtitle">poca <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+					<article class="comment card" id="comment-204880">
+						<div class="card-body">
+							<p class="card-text">Wow...i've never thought of using coconut milk with broccoli...sounds delicious!
+							</p>
+<div class="author card-subtitle"><a href='http://www.mmgood.com' rel='external nofollow' class='url'>patty</a> <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+					<article class="comment card" id="comment-204879">
+						<div class="card-body">
+							<p class="card-text">I love soup with coconut milk - I make a spicy butternut squash soup this way.  I wonder how this broccoli soup would be served chilled?  I'm going to try that for the summer :)
+							</p>
+<div class="author card-subtitle">cat b <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+					<article class="comment card" id="comment-204878">
+						<div class="card-body">
+							<p class="card-text">I vote for the pink wine refrigerator!
+Recipe looks yummy.
+							</p>
+<div class="author card-subtitle">chanda <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+					<article class="comment card" id="comment-204877">
+						<div class="card-body">
+							<p class="card-text">Wow -All I needed was to read the subject line of your email - - you had me at "coconut broccoli"!   Yum.
+							</p>
+<div class="author card-subtitle">Jenn <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+					<article class="comment card" id="comment-204876">
+						<div class="card-body">
+							<p class="card-text">Toaster oven... because this is a very different setting than home where you have an oven. On a cold day, a lovely piece of warm toast with your soup ... yes! A wine fridge would be nice, a bit of a uni-tasker perhaps, albeit a nice one.
+							</p>
+<div class="author card-subtitle">Mamakat <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+					<article class="comment card" id="comment-204875">
+						<div class="card-body">
+							<p class="card-text">This looks fantastic! I made a coconut and cauliflower soup last week, and it was delicious :D This is a little different though, so might have to give it a shot.
+I wish you all the best with Quitokeeto :D x
+							</p>
+<div class="author card-subtitle"><a href='http://julesthenorweegie.blogspot.co.uk/' rel='external nofollow' class='url'>Jules @ WolfItDown</a> <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+					<article class="comment card" id="comment-204874">
+						<div class="card-body">
+							<p class="card-text">This made my mouth water!  I can just imagine how creamy it would be.....and healthy to boot. Thanks for the recipe and I hope you work out your appliance connundrum!
+							</p>
+<div class="author card-subtitle"><a href='http://www.onesmallpot.com' rel='external nofollow' class='url'>Deepa@onesmallpot</a> <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+					<article class="comment card" id="comment-204873">
+						<div class="card-body">
+							<p class="card-text">But if you got a coffee grinder... Wouldn't you need a coffee maker? Btw this soup is happening (probably today).
+<i>HS: I'm a French Press fan! ;)</i>
+							</p>
+<div class="author card-subtitle"><a href='http://Http://privatelyiamjoy.blogspot.com' rel='external nofollow' class='url'>Joy</a> <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+					<article class="comment card" id="comment-204872">
+						<div class="card-body">
+							<p class="card-text">This is such a beautiful soup! I don't think I've ever combine broccoli and coconut before, but it sounds so completely lovely.
+It's after 1am and now I want broccoli soup---yikes!
+							</p>
+<div class="author card-subtitle"><a href='http://www.spachethespatula.com' rel='external nofollow' class='url'>Rachael | Spache the Spatula</a> <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+					<article class="comment card" id="comment-204871">
+						<div class="card-body">
+							<p class="card-text">I second the handheld grinder suggestion from Molly.  Hot plate, wine fridge, and toaster oven. Because you have an oven at home but not at the shop. And if you are packing darling chive blossoms in little metal tins to eat at "work," well then, the wine needs a similar treatment. ;)
+							</p>
+<div class="author card-subtitle"><a href='http://enchantedfig.blogspot.com/' rel='external nofollow' class='url'>Amanda</a> <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+					<article class="comment card" id="comment-204870">
+						<div class="card-body">
+							<p class="card-text">Very excited about this recipe! Thank you for yet another gem heidi. X
+							</p>
+<div class="author card-subtitle"><a href='http://www.eatthismyfriend.com' rel='external nofollow' class='url'>jade</a> <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+					<article class="comment card" id="comment-204869">
+						<div class="card-body">
+							<p class="card-text">Oh, I'm so with you on the coffee grinder. Though if you went with a handheld grinder, you could have all the benefits without using up an appliance. Something to consider :-)
+Separately, I adore broccoli soup, but with coconut broth? Brilliant. I imagine an extra throw of broccoli could be added, and pulled just shy of done, and tossed back on top, for additional garnish. I also imagine toasty flakes of unsweetened coconut chip. And those almonds. And lime. And a bowl, right here, now. Please? Thank you!<p>
+<i>HS: Love the idea of pulling some of the florets back to add after the puree - brilliant :) And yes please to toasted coconut!</i></p>
+							</p>
+<div class="author card-subtitle"><a href='http://www.remedialeating.com' rel='external nofollow' class='url'>molly</a> <span class="says"></span></div></div>
+ </article>
+            </li><!-- #comment-## -->
+        </div><!-- .comment-list -->
+
+                    <nav id="comment-nav-below" class="navigation comment-navigation" role="navigation">
+                <h2 class="screen-reader-text">Comment navigation</h2>
+                <div class="nav-links">
+
+                      <div class="navigation"><ol class="wp-paginate wpp-modern-grey font-inherit wp-paginate-comments"><li><span class="title">next:</span></li><li><span class='page current'>1</span></li><li><a href='https://www.101cookbooks.com/archives/coconut-broccoli-soup-recipe.html/comment-page-2#comments' title='2' class='page'>2</a></li><li><a href="https://www.101cookbooks.com/archives/coconut-broccoli-soup-recipe.html/comment-page-2#comments" class="next">&raquo;</a></li></ol></div>
+                </div><!-- .nav-links -->
+            </nav><!-- #comment-nav-below -->
+
+        <p class="no-comments">Comments are closed.</p>
+
+
+<div class="sectiondivide"></div>
+	    <p class="no-comments">Apologies, comments are closed.</p>
+
+
+
+
+
+
+</div><!-- #comments -->
+
+		<div class="sectiondivide"></div><h4>More Recipes</h4><div class="d-flex flex-wrap recipecat"><div class="list-item"><a href="https://www.101cookbooks.com/whole_grain_recipes">Whole Grain</a></div><div class="list-item"><a href="https://www.101cookbooks.com/wfpb">WFPB</a></div><div class="list-item"><a href="https://www.101cookbooks.com/vegetarian_recipes">Vegetarian</a></div><div class="list-item"><a href="https://www.101cookbooks.com/vegan-recipes/">Vegan</a></div><div class="list-item"><a href="https://www.101cookbooks.com/soups">Soups</a></div><div class="list-item"><a href="https://www.101cookbooks.com/sides">Side Dishes</a></div><div class="list-item"><a href="https://www.101cookbooks.com/sandwiches">Sandwiches</a></div><div class="list-item"><a href="https://www.101cookbooks.com/salads">Salads</a></div><div class="list-item"><a href="https://www.101cookbooks.com/pasta">Pasta</a></div><div class="list-item"><a href="https://www.101cookbooks.com/quick_recipes">Quick</a></div><div class="list-item"><a href="https://www.101cookbooks.com/main_courses">Main Course</a></div><div class="list-item"><a href="https://www.101cookbooks.com/low_carb_recipes">Low Carb</a></div><div class="list-item"><a href="https://www.101cookbooks.com/instant_pot_recipes">Instant Pot</a></div><div class="list-item"><a href="https://www.101cookbooks.com/holiday_recipes">Holiday</a></div><div class="list-item"><a href="https://www.101cookbooks.com/high_protein_recipes">High Protein</a></div><div class="list-item"><a href="https://www.101cookbooks.com/gluten_free_recipes">Gluten Free</a></div><div class="list-item"><a href="https://www.101cookbooks.com/drink_recipes">Drinks</a></div><div class="list-item"><a href="https://www.101cookbooks.com/dinner_ideas">Dinner Ideas</a></div><div class="list-item"><a href="https://www.101cookbooks.com/desserts">Desserts</a></div><div class="list-item"><a href="https://www.101cookbooks.com/cookies">Cookies</a></div><div class="list-item"><a href="https://www.101cookbooks.com/chocolate_recipes">Chocolate</a></div><div class="list-item"><a href="https://www.101cookbooks.com/breakfast_brunch">Breakfast</a></div><div class="list-item"><a href="https://www.101cookbooks.com/baked_goods">Baking</a></div><div class="list-item"><a href="https://www.101cookbooks.com/appetizers">Appetizers</a></div></div>
+		<div class="browsemore followsocial d-inline-flex flex-row w-100 justify-content-center align-items-center flex-wrap"><div class="heidiico"><a href="https://www.instagram.com/heidijswanson/" onclick="_gaq.push(['_trackEvent','101social','centercol','ig']);" border="0"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="101cookbooks social icon" class="nopin" nopin=nopin data-lazy-src="https://images.101cookbooks.com/heidi-ico.jpg?auto=format"><noscript><img src="https://images.101cookbooks.com/heidi-ico.jpg?auto=format" alt="101cookbooks social icon" class="nopin" nopin=nopin></noscript></a></div><div class="browse p-1">Follow Me:</div><div class="browse1"><a href="https://www.instagram.com/heidijswanson/" onclick="_gaq.push(['_trackEvent','101social','centercol','ig']);">Instagram</a></div><div class="browse2"><a href="https://www.youtube.com/channel/UCPyfGHoefipxv7Arp2sboJg" onclick="_gaq.push(['_trackEvent','101social','centercol','yt']);">Youtube</a></div><div class="browse3"><a href="https://www.facebook.com/101cookbooks" onclick="_gaq.push(['_trackEvent','101social','centercol','fb']);">Facebook</a></div><div class="browse4"><a href="https://www.pinterest.com/heidiswanson/" onclick="_gaq.push(['_trackEvent','101social','centercol','pt']);">Pinterest</a></div></div>
+		<h4>Popular Ingredients</h4><div class="d-flex flex-wrap ingredlist"><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/avocado">avocado</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/egg">egg</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/herb">herb</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/kale">kale</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/lemon">lemon</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/lentil">lentil</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/quinoa">quinoa</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/pasta">pasta</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/tomato">tomato</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/turmeric">turmeric</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/yogurt">yogurt</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/zucchini">zucchini</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/arugula">arugula</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/asparagus">asparagus</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/basil">basil</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/broccoli">broccoli</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/buttermilk">buttermilk</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/cauliflower">cauliflower</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/chickpea">chickpea</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/chocolate">chocolate</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/curry">curry</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/tempeh">tempeh</a></div><div class="list-item"><a href="https://www.101cookbooks.com/ingredient/tofu">tofu</a></div><div class="list-item"><a href="/ingredient.html">ALL</a></div></div>			<div class="sectiondivide"></div>
+
+ <footer><div class="legalfooter mx-auto">
+		<p class="copyright">&copy;  101 Cookbooks 2021</p><p>Use of this site constitutes acceptance of its <a href="https://www.101cookbooks.com/useragreement.html">User Agreement</a> and <a href="https://www.101cookbooks.com/privacy.html">Privacy Policy</a>.</p></div></footer>
+			<style>.adthrive-ccpa-link, .adthrive-footer-message>span {color:#000;!important;}</style>
+		</main><!-- #main -->
+	</section><!-- #primary -->
+
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</div><!-- #content -->
+</div><!-- #page -->
+
+
+<script type="text/javascript" async="" src="https://addsearch.com/searchui/v3/?key=b66f14cd9ae96c35951916ed27a428bc&amp;i=/archives/coconut-broccoli-soup-recipe.html"></script>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wprm_public = {"settings":{"features_comment_ratings":true},"home_url":"https:\/\/www.101cookbooks.com\/","ajax_url":"https:\/\/www.101cookbooks.com\/wp-admin\/admin-ajax.php","nonce":"8302ced63d"};
+/* ]]> */
+</script>
+
+
+
+
+
+
+
+<script type='text/javascript'async="async" src='https://addsearch.com/js/?key=b66f14cd9ae96c35951916ed27a428bc&#038;ver=0.0.0' defer></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var print_data = {"id610":{"pom_site_css":"https:\/\/www.101cookbooks.com\/wp-content\/themes\/101cookbooks\/style.css","pom_custom_css":".recipefooter,\r\n.adthrive-ad {\r\n    display: none;\r\n}\r\n\r\n#recipe {\r\n    max-width: 800px;\r\n    margin:auto;\r\n}\r\n\r\na {\r\n    color: #666666;\r\n}\r\n\r\na:hover {\r\n    color: #9F6C3C;\r\n}\r\n\r\na:visited {\r\n    color: #AF9277;\r\n}\r\n\r\n@font-face {\r\n    font-family: schroedersdiet;\r\n    src: url(\/2018\/schroeder-regular-webfont.woff2) format(\"woff2\"), url(\/2018\/schroeder-regular-webfont.woff) format(\"woff\");\r\n    font-weight: 400;\r\n    font-style: normal;\r\n}\r\n\r\nh3 {\r\n    font-family: \"schroedersdiet\", Georgia, Times, Times New Roman, serif;\r\n    font-size: .85em;\r\n    margin-top: 3px;\r\n    margin-bottom: 3px;\r\n    color: black;\r\n    line-height: 150%;\r\n}\r\n\r\n#recipe p {\r\n    \/* width: 500px; *\/\r\n    font-size: .9em;\r\n    font-family: 'Libre Franklin', Times, Times New Roman, serif;\r\n    color: black;\r\n    line-height: 152%;\r\n    margin-top: 7px;\r\n    margin-left: 11px;\r\n}\r\n\r\nh2 {\r\n    margin-top: 8px;\r\n    font-size: 1.45em;\r\n    font-family: \"schroedersdiet\", Georgia, Times, Times New Roman, serif;\r\n    font-weight: bold;\r\n    color: black;\r\n    margin-bottom: 11px;\r\n    padding-bottom: 3px;\r\n}\r\n\r\n#recipe {\r\n    background-color: #ffffff;\r\n    margin-left: 20px;\r\n    padding-top: 6px;\r\n    padding-left: 8px;\r\n    padding-right: 8px;\r\n    padding-bottom: 4px;\r\n    margin-top: 15px;\r\n    margin-bottom: 15px;\r\n    font-family: 'Libre Franklin', Helvetica, sans-serif;\r\n}\r\n\r\n#recipe h2,\r\n#recipe h1 {\r\n    font-family: \"schroedersdiet\", Georgia, Times, Times New Roman, serif;\r\n    font-size: 1.8em;\r\n    font-weight: normal;\r\n    color: black;\r\n    text-align: center;\r\n    letter-spacing: .02em;\r\n    margin-left: 15px;\r\n    border-bottom: 1px solid #cccccc;\r\n    margin-right: 45px;\r\n    line-height: 150%;\r\n    padding-bottom: 3px;\r\n    margin-top: 2px;\r\n    padding-top: 0px;\r\n    margin-bottom: 6px;\r\n}\r\n\r\n#recipe p {\r\n    font-family: 'Libre Franklin', Helvetica, sans-serif;\r\n    font-size: .9em;\r\n    color: black;\r\n    line-height: 1.25em;\r\n    margin-left: 15px;\r\n    margin-right: 45px;\r\n}\r\n\r\n#recipe blockquote p {\r\n    font-size: .90em;\r\n    width: 450px;\r\n    line-height: 1.75em;\r\n    color: black;\r\n    font-weight: normal;\r\n}\r\n\r\n#print-contentcol img {\r\n    max-width: 5.5in;\r\n}\r\n\r\n#print-contentcol {\r\n    float: left;\r\n    width: 635px;\r\n    padding-top: 20px;\r\n}\r\n\r\n#print-adcontentcol {\r\n    float: left;\r\n    margin-left: 15px;\r\n}\r\n\r\n#sitecredit {\r\n    font-size: .80em;\r\n    text-align: center;\r\n    color: #666666;\r\n}\r\n\r\n#printlogo {\r\n    margin-left: 220px;\r\n    margin-top: 28px;\r\n}\r\n\r\n#printbutton {\r\n    font-size: .70em;\r\n    font-family: 'Libre Franklin', Helvetica, sans-serif;\r\n    color: #666666;\r\n}\r\n\r\n.mainimg {\r\n    margin-top: 10px;\r\n    margin-left: 45px;\r\n}","pom_html_top":"<link href=\"https:\/\/fonts.googleapis.com\/css?family=Libre+Franklin:300,400,500\" rel=\"stylesheet\">\r\n","pom_html_bottom":"<p class=\"copyright\">\u00a9  101 Cookbooks 2018<\/p>\r\n<\/div>\r\n<\/div>","pom_do_not_print":"iframe","pom_pause_time":"5000","pom_close_after_print":""}};
+/* ]]> */
+</script>
+
+<script type='text/javascript' src='https://stats.wp.com/e-202103.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:8.3',blog:'146864163',post:'5514',tz:'-8',srv:'www.101cookbooks.com'} ]);
+	_stq.push([ 'clickTrackerInit', '146864163', '5514' ]);
+</script>
+<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:200,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://www.101cookbooks.com/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"></script><script>"use strict";var wprRemoveCPCSS=function wprRemoveCPCSS(){var elem;document.querySelector('link[data-rocket-async="style"][rel="preload"]')?setTimeout(wprRemoveCPCSS,200):(elem=document.getElementById("rocket-critical-css"))&&"remove"in elem&&elem.remove()};window.addEventListener?window.addEventListener("load",wprRemoveCPCSS):window.attachEvent&&window.attachEvent("onload",wprRemoveCPCSS);</script><script src="https://www.101cookbooks.com/wp-content/cache/min/1/8be726ca1180d53babceb78d2be2d36b.js" data-minify="1" defer></script><noscript><link rel="stylesheet" href="https://www.101cookbooks.com/wp-content/cache/min/1/1cdbcd74bf1b4dce3e824ae7ae339d8e.css" media="all" data-minify="1" /></noscript></body>
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1611152095 -->
