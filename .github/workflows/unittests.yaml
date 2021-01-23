@@ -30,6 +30,3 @@ jobs:
           coverage run -m unittest
       - name: coveralls.io
         uses: AndreMiras/coveralls-python-action@develop
-        with:
-          # coveralls repo token
-          github-token: "SmlfzlVJy4ow55rduU7IU5GmmFCfAdGeq"

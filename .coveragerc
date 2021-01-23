@@ -1,6 +1,7 @@
 [run]
 branch = True
 source = recipe_scrapers
+relative_files = True
 
 omit = recipe_scrapers/_abstract.py
        recipe_scrapers/__init__.py
