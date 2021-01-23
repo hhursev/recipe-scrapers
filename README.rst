@@ -1,24 +1,28 @@
 .. image:: https://img.shields.io/pypi/v/recipe-scrapers.svg?
     :target: https://pypi.org/project/recipe-scrapers/
     :alt: Version
-.. image:: https://travis-ci.com/hhursev/recipe-scrapers.svg?branch=master
-    :target: https://travis-ci.com/hhursev/recipe-scrapers
-    :alt: Travis
-.. image:: https://coveralls.io/repos/hhursev/recipe-scraper/badge.svg?branch=master&service=github
-    :target: https://coveralls.io/github/hhursev/recipe-scraper?branch=master
-    :alt: Coveralls
-.. image:: https://img.shields.io/github/license/hhursev/recipe-scrapers?
-    :target: https://github.com/hhursev/recipe-scrapers/blob/master/LICENSE
-    :alt: License
-.. image:: https://img.shields.io/github/stars/hhursev/recipe-scrapers?style=social
-    :target: https://github.com/hhursev/recipe-scrapers/
-    :alt: Github
-.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
-    :target: https://github.com/psf/black
-    :alt: Black formatted
 .. image:: https://pepy.tech/badge/recipe-scrapers
     :target: https://pepy.tech/project/recipe-scrapers
     :alt: Downloads
+.. image:: https://img.shields.io/github/license/hhursev/recipe-scrapers?
+    :target: https://github.com/hhursev/recipe-scrapers/blob/master/LICENSE
+    :alt: License
+.. image:: https://github.com/hhursev/recipe-scrapers/workflows/unittests/badge.svg?branch=master
+    :target: https://github.com/hhursev/recipe-scrapers/actions/
+    :alt: GitHub Actions Unittests
+.. image:: https://coveralls.io/repos/hhursev/recipe-scraper/badge.svg?branch=master&service=github
+    :target: https://coveralls.io/github/hhursev/recipe-scraper?branch=master
+    :alt: Coveralls
+.. image:: https://github.com/hhursev/recipe-scrapers/workflows/linters/badge.svg?branch=master
+    :target: https://github.com/hhursev/recipe-scrapers/actions/
+    :alt: GitHub Actions Linters
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/psf/black
+    :alt: Black formatted
+.. image:: https://img.shields.io/github/stars/hhursev/recipe-scrapers?style=social
+    :target: https://github.com/hhursev/recipe-scrapers/
+    :alt: Github
+
 
 ------
 
