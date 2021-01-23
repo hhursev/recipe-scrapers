@@ -89,6 +89,7 @@ from .nourishedbynutrition import NourishedByNutrition
 from .nutritionbynathalie import NutritionByNathalie
 from .nytimes import NYTimes
 from .ohsheglows import OhSheGlows
+from .onehundredonecookbooks import OneHundredOneCookBooks
 from .paleorunningmomma import PaleoRunningMomma
 from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
@@ -210,6 +211,7 @@ SCRAPERS = {
     LivelyTable.host(): LivelyTable,
     LeCremeDeLaCrumb.host(): LeCremeDeLaCrumb,
     Lovingitvegan.host(): Lovingitvegan,
+    OneHundredOneCookBooks.host(): OneHundredOneCookBooks,
     PaleoRunningMomma.host(): PaleoRunningMomma,
     RachlMansfield.host(): RachlMansfield,
     SpruceEats.host(): SpruceEats,
