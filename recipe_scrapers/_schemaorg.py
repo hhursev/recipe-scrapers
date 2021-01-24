@@ -21,10 +21,10 @@ class SchemaOrg:
 
         data = extruct.extract(page_data, syntaxes=SYNTAXES, uniform=True)
 
+        low_schema = {s.lower() for s in SCHEMA_NAMES}
         for syntax in SYNTAXES:
             for item in data.get(syntax, []):
                 in_context = SCHEMA_ORG_HOST in item.get("@context", "")
-                low_schema = [s.lower() for s in SCHEMA_NAMES]
                 if in_context and item.get("@type", "").lower() in low_schema:
                     self.format = syntax
                     self.data = item
@@ -34,7 +34,7 @@ class SchemaOrg:
                 elif in_context and "@graph" in item:
                     for graph_item in item.get("@graph", ""):
                         graph_item_type = graph_item.get("@type", "")
-                        if type(graph_item_type) != str:
+                        if not isinstance(graph_item_type, str):
                             continue
                         if graph_item_type.lower() in low_schema:
                             in_graph = SCHEMA_ORG_HOST in graph_item.get("@context", "")
@@ -45,7 +45,6 @@ class SchemaOrg:
                             elif graph_item_type.lower() == "recipe":
                                 self.data = graph_item
                                 return
-                            continue
 
     def language(self):
         return self.data.get("inLanguage") or self.data.get("language")
@@ -55,10 +54,9 @@ class SchemaOrg:
 
     def author(self):
         author = self.data.get("author")
-        if author is not None:
-            if type(author) == str:
-                return author
-            return author.get("name")
+        if author and isinstance(author, dict):
+            author = author.get("name")
+        return author
 
     def total_time(self):
         total_time = get_minutes(self.data.get("totalTime"))
@@ -70,10 +68,9 @@ class SchemaOrg:
 
     def yields(self):
         yield_data = self.data.get("recipeYield")
-        if isinstance(yield_data, list) and len(yield_data) > 0:
-            recipe_yield = str(yield_data[0])
-        else:
-            recipe_yield = str(yield_data)
+        if yield_data and isinstance(yield_data, list):
+            yield_data = yield_data[0]
+        recipe_yield = str(yield_data)
 
         if len(recipe_yield) <= 3:  # probably just a number. append "servings"
             return recipe_yield + " serving(s)"
@@ -89,17 +86,17 @@ class SchemaOrg:
         if image is None:
             raise SchemaOrgException("Image not found in SchemaOrg")
 
-        if type(image) == dict:
-            return image.get("url")
-        elif type(image) == list:
-            if type(image[0]) == dict:
-                return image[0].get("url")
-            return image[0]
+        if isinstance(image, list):
+            # Could contain a dict
+            image = image[0]
+
+        if isinstance(image, dict):
+            image = image.get("url")
 
         if "http://" not in image and "https://" not in image:
             # some sites give image path relative to the domain
             # in cases like this handle image url with class methods or og link
-            return ""
+            image = ""
 
         return image
 
@@ -142,7 +139,7 @@ class SchemaOrg:
     def instructions(self):
         instructions = self.data.get("recipeInstructions") or ""
 
-        if type(instructions) is list:
+        if isinstance(instructions, list):
             instructions_gist = []
             for schema_instruction_item in instructions:
                 instructions_gist += self._extract_howto_instructions_text(
@@ -156,7 +153,7 @@ class SchemaOrg:
         return instructions
 
     def ratings(self):
-        ratings = self.data.get("aggregateRating", None)
+        ratings = self.data.get("aggregateRating")
         if ratings is None:
             raise SchemaOrgException("No ratings data in SchemaOrg.")
 
