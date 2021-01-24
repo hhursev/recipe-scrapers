@@ -1,5 +1,6 @@
 import html
 import re
+from itertools import islice
 
 
 TIME_REGEX = re.compile(
@@ -100,3 +101,11 @@ def url_path_to_dict(path):
 
 def get_host_name(url):
     return url_path_to_dict(url.replace("://www.", "://"))["host"]
+
+
+# Taken from itertools doc page
+# https://docs.python.org/3/library/itertools.html#itertools-recipes
+# included in package: more-itertools
+def take(n, iterable):
+    "Return first n items of the iterable as a list"
+    return list(islice(iterable, n))
