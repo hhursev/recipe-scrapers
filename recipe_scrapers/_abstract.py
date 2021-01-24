@@ -9,7 +9,6 @@ from bs4 import BeautifulSoup
 from ._exception_handling import ExceptionHandlingMetaclass
 from ._schemaorg import SchemaOrg
 from ._decorators import Decorators
-from ._utils import take
 
 
 # some sites close their content for 'bots', so user-agent must be supplied
@@ -122,7 +121,7 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
             candidate_languages.pop("en", None)
 
         # Return the first candidate language
-        return take(1, candidate_languages.keys())[0]
+        return candidate_languages.popitem(last=False)[0]
 
     @Decorators.schema_org_priority
     def ingredients(self) -> Optional[List[str]]:
