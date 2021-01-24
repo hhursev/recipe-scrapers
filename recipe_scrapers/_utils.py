@@ -25,9 +25,9 @@ def get_minutes(element):
     else:
         time_text = element.get_text()
     if time_text.startswith("P") and "T" in time_text:
-        time_text = time_text.split("T", 1)[1]
+        time_text = time_text.split("T", 2)[1]
     if "-" in time_text:
-        time_text = time_text.split("-")[
+        time_text = time_text.split("-", 2)[
             1
         ]  # sometimes formats are like this: '12-15 minutes'
     if "h" in time_text:
@@ -54,7 +54,7 @@ def get_yields(element):
         serve_text = element.get_text()
 
     if SERVE_REGEX_TO.search(serve_text):
-        serve_text = serve_text.split(SERVE_REGEX_TO.split(serve_text)[1])[1]
+        serve_text = serve_text.split(SERVE_REGEX_TO.split(serve_text, 2)[1], 2)[1]
 
     matched = SERVE_REGEX_NUMBER.search(serve_text).groupdict().get("items") or 0
     servings = "{} serving(s)".format(matched)
