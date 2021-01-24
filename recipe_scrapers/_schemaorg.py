@@ -76,7 +76,7 @@ class SchemaOrg:
             return recipe_yield + " serving(s)"
 
         if "\n" in recipe_yield:
-            recipe_yield = recipe_yield.split("\n")[-1]
+            recipe_yield = recipe_yield.rsplit("\n", 1)[-1]
 
         return recipe_yield
 
