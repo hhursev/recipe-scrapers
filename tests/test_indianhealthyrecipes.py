@@ -29,7 +29,7 @@ class TestIndianHealthyRecipesScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 cups whole wheat flour (or all-purpose (refer notes))",
                 "2 ½ teaspoons baking powder",
