@@ -62,6 +62,7 @@ Note: ``scraper.links()`` returns a list of dictionaries containing all of the <
 Scrapers available for:
 -----------------------
 
+- `https://101cookbooks.com/ <https://101cookbooks.com/>`_
 - `https://www.750g.com <https://www.750g.com>`_
 - `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
@@ -123,8 +124,8 @@ Scrapers available for:
 - `https://hellofresh.co.uk/ <https://hellofresh.co.uk>`_
 - `https://www.hellofresh.de/ <https://www.hellofresh.de/>`_
 - `https://hostthetoast.com/ <https://hostthetoast.com/>`_
-- `https://101cookbooks.com/ <https://101cookbooks.com/>`_
 - `https://receitas.ig.com.br/ <https://receitas.ig.com.br>`_
+- `https://indianhealthyrecipes.com <https://www.indianhealthyrecipes.com>`_
 - `https://inspiralized.com/ <https://inspiralized.com>`_
 - `https://jamieoliver.com/ <https://jamieoliver.com>`_
 - `https://justbento.com/ <https://justbento.com>`_
