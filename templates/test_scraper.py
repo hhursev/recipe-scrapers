@@ -26,7 +26,7 @@ class TestTemplateScraper(ScraperTest):
         self.assertEqual("", self.harvester_class.image())
 
     def test_ingredients(self):
-        self.assertCountEqual([], self.harvester_class.ingredients())
+        self.assertEqual([], self.harvester_class.ingredients())
 
     def test_instructions(self):
         self.assertEqual("", self.harvester_class.instructions())
