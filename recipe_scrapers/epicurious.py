@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import normalize_string, get_yields
+from ._utils import normalize_string, get_yields, get_minutes
 
 
 class Epicurious(AbstractScraper):
@@ -11,7 +11,8 @@ class Epicurious(AbstractScraper):
         return normalize_string(self.soup.find("h1", {"itemprop": "name"}).get_text())
 
     def total_time(self):
-        return 0
+        total_time = self.soup.find("dd", {"class": "total-time"})
+        return get_minutes(total_time) if total_time else 0
 
     def yields(self):
         return get_yields(self.soup.find("dd", {"itemprop": "recipeYield"}))
