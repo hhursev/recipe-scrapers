@@ -10,46 +10,55 @@ class TestSteamyKitchenScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("steamykitchen.com", self.harvester_class.host())
 
-    def test_canonical_url(self):
-        self.assertEqual(
-            "https://steamykitchen.com/23936-hungarian-pork-stew-recipe-video.html",
-            self.harvester_class.canonical_url(),
-        )
+    def test_author(self):
+        self.assertEqual("Rylee Foer", self.harvester_class.author())
 
     def test_title(self):
-        self.assertEqual(self.harvester_class.title(), "Hungarian Pork Stew Recipe")
+        self.assertEqual(
+            "Instant Pot Vietnamese Chicken Pho", self.harvester_class.title()
+        )
 
     def test_total_time(self):
-        self.assertEqual(120, self.harvester_class.total_time())
+        self.assertEqual(40, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("10 serving(s)", self.harvester_class.yields())
+        self.assertEqual("4 serving(s)", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
-            "https://steamykitchen.com/wp-content/uploads/2012/11/pork-paprikash-recipe-featured-9514-180x220.jpg",
+            "https://steamykitchen.com/wp-content/uploads/2020/10/SteamyKitchen_2020_websmall.png",
             self.harvester_class.image(),
         )
 
     def test_ingredients(self):
-        self.assertListEqual(
+        self.assertEqual(
             [
-                "8 medium yellow onions, chopped to medium dice",
-                "1/3 cup canola/vegetable oil, plus more for frying",
-                "9 3/4-inch thick boneless center cut loin pork chops, trimmed of fat, sliced in half length-wise, pounded 1/4 inch thin (if you’re lucky enough to find the thin loin chops, you’ll only have to pound them thin)",
-                "1 tablespoon salt",
-                "1 tablespoon pepper",
-                "flour for dredging",
-                "3 tablespoons sweet Hungarian paprika",
-                "6-8 cups water, or enough to fully immerse all ingredients in the pot",
-                "Vegeta to taste, approximately 1 tablespoon (but if you can’t find it, just use vegetable/chicken soup seasoning packets)",
-                "1 cup sour cream",
+                "3 pounds bone-in chicken (either a whole chicken or bone-in parts: breast or thigh)",
+                "1 tablespoon cooking oil",
+                "2 teaspoons of whole coriander seeds (not ground coriander)",
+                "2 star anise pods",
+                '2" nub of ginger (peeled and sliced a few times)',
+                "1/2 onion",
+                "3 whole cloves garlic",
+                "3 tablespoons fish sauce",
+                "1 1/2 teaspoons sugar",
+                "1 package dried rice noodles (about 10-12 ounces, prepared according to package instructions, and drained)",
+                "1/2 onion (thinly sliced and soaked in cold water)",
+                "1 handful fresh cilantro (chopped)",
+                "few sprigs of Thai basil (or regular basil)",
+                "1 lime (in wedges)",
+                "1/2 pound fresh bean sprouts",
+                "1 jalapeno chile (sliced)",
+                "Sriracha and Hoisin Sauce",
             ],
             self.harvester_class.ingredients(),
         )
 
     def test_instructions(self):
-        return self.assertEqual(
-            "1. In a large pot (6 qt) over medium to medium-high heat, add onions and canola oil. Saute onions until they are translucent, but not browned. Add more oil when necessary to keep them slick in the process. When the onions have finished cooking, turn down heat to low, add paprika to mixture and stir to mix well.\n2. Season each side of the pork slices generously with salt and pepper. Dredge the slices in flour on each side.\n3. In a frying pan over medium-high to high heat, heat about an inch of canola or vegetable oil. Fry each slice of pork until just barely golden brown around the edges, about 1-2 minutes, flipping halfway through. If they are thin enough, this will be enough to cook them fully. Lay them between sheets of paper towel on a plate to catch excess oil.\n4. Cut each of the pork slices in half and place them back in the pot with the onions. Add enough water to the pot to cover the pork and onions. Cover pot and simmer on medium heat for 45 minutes to 1 hour. Stir occasionally.\n5. When the stew is thickened up a bit from the flour and the onions are starting to disappear, it is ready for the final seasoning. Add salt, pepper and Vegeta seasoning to taste. Add sour cream and stir until the stew is a rich, thick consistency.",
+        self.assertEqual(
+            'Make the Broth\nTurn the pressure cooker to "sauté" and heat the oil until smoking. Add the onion, ginger slices and cook until nicely browned, about 4 minutes. Add the garlic cloves, coriander, and star anise and sauté for another 2 minutes until fragrant.\nAdd in the chicken and 2 quarts of water to cover the chicken and seal the pot. Set to pressure and cook 20 minutes on high.\nMake your rice noodles while your broth is cooking.\nWhen the cooking is complete, carefully release the pressure then remove the lid once all pressure is released. Remove the chicken from the pot and transfer to a large bowl and let chicken cool off a bit. Strain all the spices from the broth and discard. Turn the pressure cooker on "boil" or "sauté" to keep the broth very hot.\nSeason broth with the fish sauce and sugar. Taste. If the broth is too bland, adjust with more fish sauce and sugar.\nRemove the chicken meat from bones, shred with fingers. Set aside.\nMake the Pho Bowls\nDrain the onions, Set your table with the onions, all of the herbs and condiments so that each person can customize their own bowl.\nDivide the chicken and prepared noodles amongst the bowls.\nReturn the pho broth to a boil. Ladle the hot pho broth into each bowl, and serve.',
             self.harvester_class.instructions(),
         )
+
+    def test_ratings(self):
+        self.assertEqual(None, self.harvester_class.ratings())
