@@ -1,9 +1,6 @@
 from recipe_scrapers.marthastewart import MarthaStewart
 from tests import ScraperTest
 
-from recipe_scrapers.marthastewart import MarthaStewart
-
-
 class TestMarthaStewart(ScraperTest):
 
     scraper_class = MarthaStewart
