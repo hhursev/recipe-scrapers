@@ -76,6 +76,7 @@ from .livelytable import LivelyTable
 from .lecremedelacrumb import LeCremeDeLaCrumb
 from .lovingitvegan import Lovingitvegan
 from .marmiton import Marmiton
+from .marthastewart import MarthaStewart
 from .matprat import Matprat
 from .melskitchencafe import MelsKitchenCafe
 from .mindmegette import Mindmegette
@@ -223,6 +224,7 @@ SCRAPERS = {
     TheKitchn.host(): TheKitchn,
     TheNutritiousKitchen.host(): TheNutritiousKitchen,
     Marmiton.host(): Marmiton,
+    MarthaStewart.host(): MarthaStewart,
     Matprat.host(): Matprat,
     MelsKitchenCafe.host(): MelsKitchenCafe,
     Mindmegette.host(): Mindmegette,
