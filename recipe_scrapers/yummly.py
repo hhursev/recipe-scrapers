@@ -11,12 +11,12 @@ class Yummly(AbstractScraper):
         return self.soup.find("h1").get_text()
 
     def total_time(self):
-        return get_minutes(self.soup.find("div", {"class": "recipe-summary-item unit"}))
+        return int(
+            self.soup.findAll("div", {"class": "recipe-summary-item"})[1].span.text
+        )
 
     def yields(self):
-        return get_yields(
-            self.soup.find("div", {"class": "servings"}).find("input").get("value")
-        )
+        return get_yields(self.soup.find("div", {"class": "servings"}).span.text)
 
     def ingredients(self):
         ingredients = self.soup.findAll("li", {"class": "IngredientLine"})
@@ -29,7 +29,8 @@ class Yummly(AbstractScraper):
                         """
                     span[class^=amount],
                     span[class^=unit],
-                    span[class^=ingredient]"""
+                    span[class^=ingredient],
+                    span[class^=remainder]"""
                     )
                 ]
             )
@@ -37,14 +38,9 @@ class Yummly(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions = self.soup.find("div", attrs={"class": "directions-wrapper"})
+        instructions = self.soup.findAll("li", attrs={"class": "prep-step"})
         return (
-            "\n".join(
-                [
-                    normalize_string(instr.get_text())
-                    for instr in instructions.findAll("span", attrs={"class": "step"})
-                ]
-            )
+            "\n".join([normalize_string(instr.get_text()) for instr in instructions])
             if instructions is not None
             else ""
         )
