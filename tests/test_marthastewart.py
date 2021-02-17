@@ -26,7 +26,7 @@ class TestMarthaStewart(ScraperTest):
         self.assertEqual(25, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual('4', self.harvester_class.yields())
+        self.assertEqual("4", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
@@ -56,7 +56,7 @@ class TestMarthaStewart(ScraperTest):
                 [
                     "In a shallow dish, whisk eggs with teaspoon salt; let stand 5 minutes. In another shallow dish, season flour with 1/4 teaspoon salt. In a third shallow dish, season breadcrumbs with 1 teaspoon salt.",
                     "In a large cast-iron skillet or other heavy deep skillet, heat oil over medium. Meanwhile, pat chicken dry with paper towels. Coat in flour, shaking off excess, then dip in egg (letting excess drip off). Dredge in breadcrumbs, turning twice and patting to adhere.",
-                    "Increase heat to medium-high. Working in batches, add chicken to skillet; cook, gently shaking skillet occasionally, until chicken is browned, about 4 minutes. Turn with tongs; cook until browned and opaque throughout, 2 to 3 minutes more (if browning too quickly, lower heat). Between batches, skim off brown crumbs from oil with a slotted spoon. Drain chicken on paper towels; season with salt."
+                    "Increase heat to medium-high. Working in batches, add chicken to skillet; cook, gently shaking skillet occasionally, until chicken is browned, about 4 minutes. Turn with tongs; cook until browned and opaque throughout, 2 to 3 minutes more (if browning too quickly, lower heat). Between batches, skim off brown crumbs from oil with a slotted spoon. Drain chicken on paper towels; season with salt.",
                 ]
             ),
             self.harvester_class.instructions(),
