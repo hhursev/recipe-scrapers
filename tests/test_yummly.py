@@ -28,9 +28,6 @@ class TestYummlyScraper(ScraperTest):
         self.assertEqual("4 serving(s)", self.harvester_class.yields())
 
     def test_ingredients(self):
-
-        print(">>>>", self.harvester_class.ingredients())
-
         self.assertSetEqual(
             set(
                 [
