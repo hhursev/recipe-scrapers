@@ -21,16 +21,12 @@ class RealSimple(AbstractScraper):
         )
 
     def ingredients(self):
-        ingredients = self.soup.find("ul", {"class": "ingredients-section"}).findAll(
-            "li"
-        )
+        ingredients = self.soup.find("div", {"class": "ingredients"}).findAll("li")
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
-        instructions = self.soup.find("ul", {"class": "instructions-section"}).findAll(
-            "li"
-        )
+        instructions = self.soup.findAll("div", {"class": "step"})
 
         return "\n".join(
             [

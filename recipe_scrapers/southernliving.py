@@ -20,11 +20,11 @@ class SouthernLiving(AbstractScraper):
         try:
             tt1 = self.soup.findAll("div", {"class": "recipe-meta-item"})
             for tt in tt1:
-                # Find the entry that has 'Total Time'
+                # Find the entry that has 'Total'
                 header = normalize_string(
                     tt.find("div", {"class": "recipe-meta-item-header"}).get_text()
                 )
-                if header == "Total Time":
+                if "total" in header.lower():
                     total_time = normalize_string(
                         tt.find("div", {"class": "recipe-meta-item-body"}).get_text()
                     )
@@ -71,26 +71,24 @@ class SouthernLiving(AbstractScraper):
         return lnk  # if image else None
 
     def ingredients(self):
-        ingredientsOuter = self.soup.find("div", {"class": "ingredients"})
+        ingredientsOuter = self.soup.find("ul", {"class": "ingredients-section"})
         ingGroup = []
         lines = ingredientsOuter.findAll("li")
         for li in lines:
-            ingGroup.append(li.get_text())
+            ingGroup.append(normalize_string(li.label.get_text()))
+
+        for i in ingGroup:
+            print(">>>", i)
 
         return ingGroup
 
     def instructions(self):
-        instructions = self.soup.find(
-            "div",
-            attrs={
-                "class": lambda e: e.startswith("recipe-instructions") if e else False
-            },
-        )
+        instructions = self.soup.find("ul", {"class": "instructions-section"})
 
         data = []
-        instruction = instructions.findAll("div", {"class": "step"})
+        instruction = instructions.findAll("li", {"class": "instructions-section-item"})
         for ins in instruction:
-            line = normalize_string(ins.get_text())
+            line = normalize_string(ins.find("div", {"class": "paragraph"}).get_text())
             data.append(line)
         return data
 

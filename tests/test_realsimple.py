@@ -30,7 +30,7 @@ class TestRealSimpleScraper(ScraperTest):
             [
                 "3 8-ounce packages cream cheese, at room temperature",
                 "4 eggs",
-                "1 ¼ cups sugar",
+                "1 1/4 cups sugar",
                 "2 teaspoons pure vanilla extract",
                 "1 prebaked Ginger Graham Cracker Crust",
                 "1 cup sour cream",
