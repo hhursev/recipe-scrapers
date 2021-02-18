@@ -66,21 +66,14 @@ class SouthernLiving(AbstractScraper):
             lnk = im["data-src"]
         except Exception:
             lnk = None
-        # print(lnk)
 
         return lnk  # if image else None
 
     def ingredients(self):
         ingredientsOuter = self.soup.find("ul", {"class": "ingredients-section"})
-        ingGroup = []
         lines = ingredientsOuter.findAll("li")
-        for li in lines:
-            ingGroup.append(normalize_string(li.label.get_text()))
 
-        for i in ingGroup:
-            print(">>>", i)
-
-        return ingGroup
+        return [normalize_string(li.label.get_text()) for li in lines]
 
     def instructions(self):
         instructions = self.soup.find("ul", {"class": "instructions-section"})
