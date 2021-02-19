@@ -81,6 +81,7 @@ Scrapers available for:
 - `https://bonappetit.com/ <https://bonappetit.com>`_
 - `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
+- `https://castironketo.net/ <https://castironketo.net/>`_
 - `https://cdkitchen.com/ <https://cdkitchen.com/>`_
 - `https://chefkoch.de/ <https://chefkoch.de>`_
 - `https://closetcooking.com/ <https://closetcooking.com>`_

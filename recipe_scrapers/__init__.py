@@ -19,6 +19,7 @@ from .blueapron import BlueApron
 from .bonappetit import BonAppetit
 from .bowlofdelicious import BowlOfDelicious
 from .budgetbytes import BudgetBytes
+from .castironketo import CastIronKeto
 from .cdkitchen import CdKitchen
 from .chefkoch import Chefkoch
 from .closetcooking import ClosetCooking
@@ -156,6 +157,7 @@ SCRAPERS = {
     BonAppetit.host(): BonAppetit,
     BowlOfDelicious.host(): BowlOfDelicious,
     BudgetBytes.host(): BudgetBytes,
+    CastIronKeto.host(): CastIronKeto,
     CdKitchen.host(): CdKitchen,
     Chefkoch.host(): Chefkoch,
     ClosetCooking.host(): ClosetCooking,
