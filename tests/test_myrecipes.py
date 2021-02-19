@@ -30,7 +30,7 @@ class TestMyRecipesScraper(ScraperTest):
 
     def test_yields(self):
         self.assertEqual(
-            "Serves 2 (serving size: 1 1/2 cups)", self.harvester_class.yields()
+            "2 serving(s)", self.harvester_class.yields()
         )
 
     def test_ingredients(self):

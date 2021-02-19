@@ -16,7 +16,7 @@ class TestG750gScraper(ScraperTest):
         )
 
     def test_yields(self):
-        self.assertEqual("6 personnes", self.harvester_class.yields())
+        self.assertEqual("6 serving(s)", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(

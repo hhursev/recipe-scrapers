@@ -28,7 +28,7 @@ class TestAbrilScraper(ScraperTest):
         self.assertEqual(30, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("4 porções", self.harvester_class.yields())
+        self.assertEqual("4 serving(s)", self.harvester_class.yields())
 
     def test_ingredients(self):
         self.assertCountEqual(

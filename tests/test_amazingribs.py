@@ -23,7 +23,7 @@ class TestAmazingRibsScraper(ScraperTest):
 
     def test_yields(self):
         self.assertEqual(
-            "2 pounds, about eight 6” links", self.harvester_class.yields()
+            "2 serving(s)", self.harvester_class.yields()
         )
 
     def test_ingredients(self):

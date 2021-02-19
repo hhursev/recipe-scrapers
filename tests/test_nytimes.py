@@ -32,7 +32,7 @@ class TestNYTimesScraper(ScraperTest):
 
     def test_yields(self):
         self.assertEqual(
-            "5 cups (about 120 to 160 crackers)", self.harvester_class.yields()
+            "160 item(s)", self.harvester_class.yields()
         )
 
     def test_ingredients(self):

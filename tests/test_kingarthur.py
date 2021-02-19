@@ -19,7 +19,7 @@ class TestKingArthurScraper(ScraperTest):
         self.assertEqual(self.harvester_class.title(), "Spiced Rye Ginger Cookies")
 
     def test_yields(self):
-        self.assertEqual("22 cookies", self.harvester_class.yields())
+        self.assertEqual("22 item(s)", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
