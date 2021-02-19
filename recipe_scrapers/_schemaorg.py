@@ -2,7 +2,7 @@
 # find a package that parses https://schema.org/Recipe properly (or create one ourselves).
 import extruct
 
-from ._utils import get_minutes, normalize_string
+from ._utils import get_minutes, get_yields, normalize_string
 
 SCHEMA_ORG_HOST = "schema.org"
 SCHEMA_NAMES = ["Recipe", "WebPage"]
@@ -72,14 +72,7 @@ class SchemaOrg:
         if yield_data and isinstance(yield_data, list):
             yield_data = yield_data[0]
         recipe_yield = str(yield_data)
-
-        if len(recipe_yield) <= 3:  # probably just a number. append "servings"
-            return recipe_yield + " serving(s)"
-
-        if "\n" in recipe_yield:
-            recipe_yield = recipe_yield.rsplit("\n", 1)[-1]
-
-        return recipe_yield
+        return get_yields(recipe_yield)
 
     def image(self):
         image = self.data.get("image")
