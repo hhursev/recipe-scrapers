@@ -64,10 +64,14 @@ class SchemaOrg:
 
     def total_time(self) -> Optional[int]:
         total_time = get_minutes(self.data.get("totalTime"))
-        if not total_time:
-            prep_time = get_minutes(self.data.get("prepTime")) or 0
-            cook_time = get_minutes(self.data.get("cookTime")) or 0
-            total_time = prep_time + cook_time
+        if total_time is None:
+            times = [get_minutes(self.data.get(p)) for p in ["prepTime", "cookTime"]]
+
+            total_time = (
+                None
+                if all([b is None for b in times])
+                else sum([t for t in times if t is not None])
+            )
         return total_time
 
     def yields(self) -> Optional[str]:
