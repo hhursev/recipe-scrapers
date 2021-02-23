@@ -89,7 +89,7 @@ class SouthernLiving(AbstractScraper):
         return data
 
     def instructions(self) -> Optional[str]:
-        data = self.instructions()
+        data = self._instructions_list()
         return "\n".join(data) if data else None
 
     def ratings(self) -> Optional[float]:

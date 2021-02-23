@@ -36,7 +36,7 @@ class SweetPeasAndSaffron(AbstractScraper):
         ]
         return [normalize_string(instruction) for instruction in instructions]
 
-    def instruction(self) -> Optional[str]:
+    def instructions(self) -> Optional[str]:
         data = self._instructions_list()
         return "\n".join(data) if data else None
 
