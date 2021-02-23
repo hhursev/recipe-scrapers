@@ -1,8 +1,8 @@
 import re
-
+from typing import List, Optional
 
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string, get_yields
+from ._utils import get_minutes, get_yields, normalize_string
 
 
 class HelloFresh(AbstractScraper):
@@ -10,17 +10,17 @@ class HelloFresh(AbstractScraper):
     def host(self, domain="com"):
         return f"hellofresh.{domain}"
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return self.soup.find("h1").get_text()
 
-    def total_time(self):
+    def total_time(self) -> Optional[int]:
         return get_minutes(
             self.soup.find(
                 "span", {"data-translation-id": "recipe-detail.preparation-time"}
             ).parent.parent
         )
 
-    def yields(self):
+    def yields(self) -> Optional[str]:
         return get_yields(
             self.soup.find(
                 "span",
@@ -30,7 +30,7 @@ class HelloFresh(AbstractScraper):
             .contents[0]
         )
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         ingredients_container = self.soup.find(
             "div", {"data-test-id": "recipeDetailFragment.ingredients"}
         )
@@ -49,7 +49,7 @@ class HelloFresh(AbstractScraper):
             )
         ]
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         instructions_regex = re.compile(r"recipeDetailFragment.instructions.step-(\d)")
 
         instructions_container = self.soup.findAll(
@@ -73,7 +73,7 @@ class HelloFresh(AbstractScraper):
             ]
         )
 
-    def image(self):
+    def image(self) -> Optional[str]:
         container = self.soup.find("div", {"class": "recipe-header-left"})
         if not container:
             return None

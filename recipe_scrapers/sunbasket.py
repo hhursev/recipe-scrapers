@@ -1,8 +1,8 @@
 import re
-
+from typing import List, Optional
 
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string, get_yields
+from ._utils import get_minutes, get_yields, normalize_string
 
 
 class SunBasket(AbstractScraper):
@@ -10,24 +10,24 @@ class SunBasket(AbstractScraper):
     def host(self, domain="com"):
         return f"sunbasket.{domain}"
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return self.soup.find("h1").get_text()
 
-    def total_time(self):
+    def total_time(self) -> Optional[int]:
         minutes_tag = self.soup.find("span", text=re.compile(r"Minutes"))
         return get_minutes(minutes_tag.parent.get_text())
 
-    def yields(self):
+    def yields(self) -> Optional[str]:
         yields_tag = self.soup.find("span", text=re.compile(r"Servings,"))
         return get_yields(yields_tag.parent.get_text())
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         ingredients_container = self.soup.find(class_="ingredients-list")
         ingredients = ingredients_container.findAll("li")
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         instructions_container = self.soup.find(
             "div", {"class": "instructions-container"}
         )
@@ -50,7 +50,7 @@ class SunBasket(AbstractScraper):
                 )
         return instruction_list
 
-    def image(self):
+    def image(self) -> Optional[str]:
         container = self.soup.find("div", {"class": "recipe-image-container"})
         if not container:
             return None

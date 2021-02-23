@@ -3,8 +3,11 @@
 # Freely released the code to recipe_scraper group
 # 9 February, 2020
 # =======================================================
+
+from typing import List, Optional
+
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string, get_yields
+from ._utils import get_minutes, get_yields, normalize_string
 
 
 class SouthernLiving(AbstractScraper):
@@ -12,10 +15,10 @@ class SouthernLiving(AbstractScraper):
     def host(cls):
         return "southernliving.com"
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return normalize_string(self.soup.find("h1").get_text())
 
-    def total_time(self):
+    def total_time(self) -> Optional[int]:
         total_time = 0
         try:
             tt1 = self.soup.findAll("div", {"class": "recipe-meta-item"})
@@ -35,7 +38,7 @@ class SouthernLiving(AbstractScraper):
         total = get_minutes(total_time)
         return total
 
-    def yields(self):
+    def yields(self) -> Optional[str]:
         try:
             yield1 = self.soup.findAll("div", {"class": "recipe-meta-item"})
             for y in yield1:
@@ -53,7 +56,7 @@ class SouthernLiving(AbstractScraper):
         total = get_yields(y)
         return total
 
-    def image(self):
+    def image(self) -> Optional[str]:
         try:
             image = self.soup.find(
                 "div", {"class": "image-container"}
@@ -69,13 +72,13 @@ class SouthernLiving(AbstractScraper):
 
         return lnk  # if image else None
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         ingredientsOuter = self.soup.find("ul", {"class": "ingredients-section"})
         lines = ingredientsOuter.findAll("li")
 
         return [normalize_string(li.label.get_text()) for li in lines]
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         instructions = self.soup.find("ul", {"class": "instructions-section"})
 
         data = []
@@ -85,7 +88,7 @@ class SouthernLiving(AbstractScraper):
             data.append(line)
         return data
 
-    def ratings(self):
+    def ratings(self) -> Optional[float]:
         # This site does not support ratings at this time
         r1 = None
         return r1

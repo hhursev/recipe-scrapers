@@ -3,6 +3,9 @@
 # Freely released the code to recipe_scraper group
 # 9 February, 2020
 # =======================================================
+
+from typing import List, Optional
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, normalize_string
 
@@ -12,10 +15,10 @@ class GonnaWantSeconds(AbstractScraper):
     def host(cls):
         return "gonnawantseconds.com"
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return normalize_string(self.soup.find("h1").get_text())
 
-    def total_time(self):
+    def total_time(self) -> Optional[int]:
         total_time = 0
         try:
             tt1 = self.soup.find(
@@ -43,7 +46,7 @@ class GonnaWantSeconds(AbstractScraper):
             total_time = tt2
         return total_time
 
-    def yields(self):
+    def yields(self) -> Optional[str]:
         recipe_yield = self.soup.find(
             "div",
             {
@@ -54,7 +57,7 @@ class GonnaWantSeconds(AbstractScraper):
             ry = normalize_string(recipe_yield[9:])
         return ry
 
-    def image(self):
+    def image(self) -> Optional[str]:
         image = self.soup.find(
             "div", {"class": "wprm-recipe-image wprm-block-image-normal"}
         )  # , 'src': True})
@@ -64,7 +67,7 @@ class GonnaWantSeconds(AbstractScraper):
         issrc = img["src"]
         return issrc if image else None
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         ingredientsOuter = self.soup.findAll(
             "div", {"class": "wprm-recipe-ingredient-group"}
         )
@@ -88,7 +91,7 @@ class GonnaWantSeconds(AbstractScraper):
                 ingGroup.append(x)
         return ingGroup
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         instructions = self.soup.findAll(
             "div", {"class": "wprm-recipe-instruction-group"}
         )
@@ -111,7 +114,7 @@ class GonnaWantSeconds(AbstractScraper):
                 data.append("\n".join([normalize_string(inst.text) for inst in ins]))
             return data
 
-    def ratings(self):
+    def ratings(self) -> Optional[float]:
         r1 = 0
         try:
             r1 = self.soup.find("div", {"class": "wprm-recipe-rating"})

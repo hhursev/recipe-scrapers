@@ -1,5 +1,7 @@
+from typing import List, Optional
+
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string, get_yields
+from ._utils import get_minutes, get_yields, normalize_string
 
 
 class TineNo(AbstractScraper):
@@ -7,10 +9,10 @@ class TineNo(AbstractScraper):
     def host(cls):
         return "tine.no"
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return self.soup.find("h1").get_text()
 
-    def total_time(self):
+    def total_time(self) -> Optional[int]:
         total_time = 0
         tt1 = self.soup.find("li", {"class": "m-recipe-overview__total-time"})
         if tt1:
@@ -23,7 +25,7 @@ class TineNo(AbstractScraper):
                 total_time = tt2
         return total_time
 
-    def yields(self):
+    def yields(self) -> Optional[str]:
         recipe_yield = self.soup.find("input", {"id": "portions"})
         if recipe_yield:
             return recipe_yield["value"]
@@ -34,7 +36,7 @@ class TineNo(AbstractScraper):
                 ).get_text()
             )
 
-    def image(self):
+    def image(self) -> Optional[str]:
         image = self.soup.find("img", {"id": "HeaderMediaContent"})
         if image:
             # tag = image.find('src')
@@ -42,7 +44,7 @@ class TineNo(AbstractScraper):
 
         return src if image else None
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         # site uses <section><section>...</section></section>
         ingredientsOuter = self.soup.findAll(
             "div", {"id": "ingredient-groups-container"}
@@ -77,7 +79,7 @@ class TineNo(AbstractScraper):
                     ingGroup += lst
         return ingGroup
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         instructions = self.soup.find("ol", {"class": "o-recipe-steps__step-groups"})
 
         ins = instructions.findAll("li", {"class": "o-recipe-steps__step-group"})

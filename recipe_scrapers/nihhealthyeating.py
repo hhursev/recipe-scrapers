@@ -1,5 +1,7 @@
+from typing import List, Optional
+
 from ._abstract import AbstractScraper
-from ._utils import normalize_string, get_minutes, get_yields
+from ._utils import get_minutes, get_yields, normalize_string
 
 
 class NIHHealthyEating(AbstractScraper):
@@ -7,15 +9,15 @@ class NIHHealthyEating(AbstractScraper):
     def host(cls):
         return "healthyeating.nhlbi.nih.gov"
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return self.soup.h1.get_text().strip()
 
-    def total_time(self):
+    def total_time(self) -> Optional[int]:
         time_table = self.soup.find("table", {"class": "recipe_time_table"})
 
         return sum([get_minutes(td) for td in time_table.find_all("td")])
 
-    def yields(self):
+    def yields(self) -> Optional[str]:
         time_table = self.soup.find("table", {"class": "recipe_time_table"})
 
         i = 0
@@ -28,12 +30,12 @@ class NIHHealthyEating(AbstractScraper):
             return ""
         return get_yields(time_table.find_all("td")[i])
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         ingredients = self.soup.find("div", {"id": "ingredients"}).findAll("p")
 
         return [normalize_string(paragraph.get_text()) for paragraph in ingredients]
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         instructions = self.soup.find("div", {"id": "recipe_directions"}).findAll(
             "div", {"class": "steptext"}
         )

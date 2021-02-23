@@ -3,8 +3,11 @@
 # Freely released the code to recipe_scraper group
 # 18 January, 2020
 # =======================================================
+
+from typing import List, Optional
+
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string, get_yields
+from ._utils import get_minutes, get_yields, normalize_string
 
 
 class BettyCrocker(AbstractScraper):
@@ -12,10 +15,10 @@ class BettyCrocker(AbstractScraper):
     def host(cls):
         return "bettycrocker.com"
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return self.soup.find("h1").get_text()
 
-    def total_time(self):
+    def total_time(self) -> Optional[int]:
         total_time = 0
         tt = self.soup.find("li", {"id": "gmi_rp_primaryAttributes_total"})
         if tt:
@@ -24,7 +27,7 @@ class BettyCrocker(AbstractScraper):
         total_time = tt2
         return total_time
 
-    def yields(self):
+    def yields(self) -> Optional[str]:
         recipe_yield = self.soup.find("li", {"id": "gmi_rp_primaryAttributes_servings"})
         if recipe_yield:
             y = recipe_yield.find(attrs={"class": "attributeValue"})
@@ -37,7 +40,7 @@ class BettyCrocker(AbstractScraper):
                 ).get_text()
             )
 
-    def image(self):
+    def image(self) -> Optional[str]:
         image = self.soup.find("div", {"class": "recipeImage"})
         if image:
             tag = image.find("meta")
@@ -45,7 +48,7 @@ class BettyCrocker(AbstractScraper):
 
         return src if image else None
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         ingredients = self.soup.findAll("div", {"class": "recipePartIngredient"})
 
         if not ingredients:
@@ -58,7 +61,7 @@ class BettyCrocker(AbstractScraper):
             not in ("Add all ingredients to list", "", "ADVERTISEMENT")
         ]
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         instructions = self.soup.findAll("li", {"class": "recipePartStep"})
         retstr = ""
         for instruction in instructions:
@@ -69,7 +72,7 @@ class BettyCrocker(AbstractScraper):
         instructions = retstr.strip()
         return instructions
 
-    def ratings(self):
+    def ratings(self) -> Optional[float]:
         r = self.soup.find("span", {"class": "ratingCount"}).get_text()
         if "\xa0Ratings" in r:
             r = r.replace("\xa0Ratings", "")

@@ -3,6 +3,9 @@
 # Freely released the code to recipe_scraper group
 # 6 February, 2020
 # =======================================================
+
+from typing import List, Optional
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, normalize_string
 
@@ -12,10 +15,10 @@ class GreatBritishChefs(AbstractScraper):
     def host(cls):
         return "greatbritishchefs.com"
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return normalize_string(self.soup.find("h1").get_text())
 
-    def total_time(self):
+    def total_time(self) -> Optional[int]:
         total_time = 0
         tt1 = self.soup.find("span", {"class": "RecipeAttributes__Time"})
         if tt1:
@@ -28,7 +31,7 @@ class GreatBritishChefs(AbstractScraper):
                 total_time = tt2
         return total_time
 
-    def yields(self):
+    def yields(self) -> Optional[str]:
         recipe_yield = self.soup.find("span", {"class": "RecipeAttributes__Serves"})
         if recipe_yield:
             yields = normalize_string(
@@ -36,7 +39,7 @@ class GreatBritishChefs(AbstractScraper):
             )
             return yields
 
-    def image(self):
+    def image(self) -> Optional[str]:
         image = self.soup.find("img", {"id": "head-media"}, "src")
         if image:
             src = image.get("src", None)
@@ -46,7 +49,7 @@ class GreatBritishChefs(AbstractScraper):
                 src = "http:" + src
         return src if image else None
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         ingredientsOuter = self.soup.find(
             "ul", {"class": "IngredientsList__ListContainer"}
         )
@@ -57,14 +60,14 @@ class GreatBritishChefs(AbstractScraper):
             ingGroup.append(x)
         return ingGroup
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         instructions = self.soup.find("div", {"class": "Method__List MethodList"})
 
         ins = instructions.findAll("div", {"class": "MethodList__StepText"})
 
         return "\n".join([normalize_string(inst.text) for inst in ins])
 
-    def ratings(self):
+    def ratings(self) -> Optional[float]:
         # This site does not support ratings at this time
         r1 = 0
         return r1

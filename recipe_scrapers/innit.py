@@ -1,3 +1,5 @@
+from typing import Any, Dict, List, Optional
+
 from ._abstract import AbstractScraper
 
 """
@@ -10,26 +12,26 @@ class Innit(AbstractScraper):
     def host(self, domain="com"):
         return f"innit.{domain}"
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return self.schema.title()
 
-    def total_time(self):
+    def total_time(self) -> Optional[int]:
         return self.schema.total_time()
 
-    def yields(self):
+    def yields(self) -> Optional[str]:
         return self.schema.yields()
 
-    def image(self):
+    def image(self) -> Optional[str]:
         return self.schema.image()
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         return self.schema.ingredients()
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         return self.schema.instructions()
 
-    def ratings(self):
+    def ratings(self) -> Optional[float]:
         return self.schema.ratings()
 
-    def nutrients(self):
+    def nutrients(self) -> Optional[Dict[str, Any]]:
         return self.schema.nutrients()
