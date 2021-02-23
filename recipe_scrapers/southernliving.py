@@ -78,7 +78,7 @@ class SouthernLiving(AbstractScraper):
 
         return [normalize_string(li.label.get_text()) for li in lines]
 
-    def instructions(self) -> Optional[str]:
+    def _instructions_list(self) -> Optional[List[str]]:
         instructions = self.soup.find("ul", {"class": "instructions-section"})
 
         data = []
@@ -87,6 +87,10 @@ class SouthernLiving(AbstractScraper):
             line = normalize_string(ins.find("div", {"class": "paragraph"}).get_text())
             data.append(line)
         return data
+
+    def instructions(self) -> Optional[str]:
+        data = self.instructions()
+        return "\n".join(data) if data else None
 
     def ratings(self) -> Optional[float]:
         # This site does not support ratings at this time

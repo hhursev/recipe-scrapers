@@ -34,10 +34,10 @@ class GreatBritishChefs(AbstractScraper):
     def yields(self) -> Optional[str]:
         recipe_yield = self.soup.find("span", {"class": "RecipeAttributes__Serves"})
         if recipe_yield:
-            yields = normalize_string(
+            recipe_yield = normalize_string(
                 recipe_yield.find("span", {"class": "header-attribute-text"}).get_text()
             )
-            return yields
+        return recipe_yield
 
     def image(self) -> Optional[str]:
         image = self.soup.find("img", {"id": "head-media"}, "src")

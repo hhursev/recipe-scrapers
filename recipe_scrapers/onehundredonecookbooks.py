@@ -24,7 +24,8 @@ class OneHundredOneCookBooks(AbstractScraper):
 
     def yields(self) -> Optional[str]:
         data = self.soup.find_all("p", limit=3, recursive=False)[-1].get_text()
-        return re.search("([0-9]+) servings", data).group(1)
+        extraction = re.search("([0-9]+) servings", data)
+        return extraction.group(1) if extraction else None
 
     def image(self) -> Optional[str]:
         return self.schema.image()

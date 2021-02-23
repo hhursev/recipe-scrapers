@@ -27,7 +27,7 @@ class SweetPeasAndSaffron(AbstractScraper):
             "div", {"class": "wprm-recipe-image wprm-block-image-normal"}
         ).find("img")["data-src"]
 
-    def instructions(self) -> Optional[str]:
+    def _instructions_list(self) -> Optional[List[str]]:
         instructions = [
             e.text
             for e in self.soup.find_all(
@@ -35,6 +35,10 @@ class SweetPeasAndSaffron(AbstractScraper):
             )
         ]
         return [normalize_string(instruction) for instruction in instructions]
+
+    def instruction(self) -> Optional[str]:
+        data = self._instructions_list()
+        return "\n".join(data) if data else None
 
     def ingredients(self) -> Optional[List[str]]:
         ingredient_amount = self.soup.find_all(
