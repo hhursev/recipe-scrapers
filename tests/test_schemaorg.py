@@ -13,7 +13,7 @@ class TestSchemaOrg(unittest.TestCase):
         for k in keys:
             if k in self.schema.data:
                 del self.schema.data[k]
-        self.assertEqual(self.schema.total_time(), 0)
+        self.assertEqual(self.schema.total_time(), None)
 
     def test_graph_schema_without_context(self):
         with open(

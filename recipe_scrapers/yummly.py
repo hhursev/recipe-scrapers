@@ -48,5 +48,5 @@ class Yummly(AbstractScraper):
                 ]
             )
             if instructions is not None
-            else ""
+            else None
         )

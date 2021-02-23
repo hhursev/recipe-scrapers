@@ -29,7 +29,7 @@ class Cookstr(AbstractScraper):
             serves = section.find(text="Serves")
             if serves:
                 return get_yields(serves.parent.parent)
-        raise Exception("Servings amount not found")
+        return None
 
     def ingredients(self) -> Optional[List[str]]:
         ingredients = self.soup.find("div", {"class": "recipeIngredients"})

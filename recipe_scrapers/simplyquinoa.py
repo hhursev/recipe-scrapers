@@ -37,11 +37,5 @@ class SimplyQuinoa(AbstractScraper):
         )
 
     def ratings(self) -> Optional[float]:
-        return round(
-            float(
-                self.soup.find(
-                    "span", {"class": "wprm-recipe-rating-average"}
-                ).get_text()
-            ),
-            2,
-        )
+        data = self.soup.find("span", {"class": "wprm-recipe-rating-average"})
+        return round(float(data.get_text()), 2) if data else None

@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.bonappetit import BonAppetit
+from tests import ScraperTest
 
 
 class TestBonAppetitScraper(ScraperTest):
@@ -22,7 +21,7 @@ class TestBonAppetitScraper(ScraperTest):
         )
 
     def test_total_time(self):
-        self.assertEqual(0, self.harvester_class.total_time())
+        self.assertEqual(None, self.harvester_class.total_time())
 
     def test_yields(self):
         self.assertEqual("4 servings ", self.harvester_class.yields())

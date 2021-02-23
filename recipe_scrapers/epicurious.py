@@ -14,7 +14,7 @@ class Epicurious(AbstractScraper):
 
     def total_time(self) -> Optional[int]:
         total_time = self.soup.find("dd", {"class": "total-time"})
-        return get_minutes(total_time) if total_time else 0
+        return get_minutes(total_time) if total_time else None
 
     def yields(self) -> Optional[str]:
         return get_yields(self.soup.find("dd", {"itemprop": "recipeYield"}))

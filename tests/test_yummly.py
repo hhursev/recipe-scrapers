@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.yummly import Yummly
+from tests import ScraperTest
 
 
 class TestYummlyScraper(ScraperTest):
@@ -40,4 +39,4 @@ class TestYummlyScraper(ScraperTest):
         )
 
     def test_instructions(self):
-        return self.assertEqual("", self.harvester_class.instructions())
+        return self.assertEqual(None, self.harvester_class.instructions())

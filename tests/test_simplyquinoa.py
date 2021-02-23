@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.simplyquinoa import SimplyQuinoa
+from tests import ScraperTest
 
 
 class TestSimplyQuinoaScraper(ScraperTest):
@@ -50,4 +49,5 @@ class TestSimplyQuinoaScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(0, self.harvester_class.ratings())
+        # Ratings value set to zero
+        self.assertEqual(0.0, self.harvester_class.ratings())

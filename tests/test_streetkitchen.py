@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.streetkitchen import StreetKitchen
+from tests import ScraperTest
 
 
 class TestStreetKitchenScraper(ScraperTest):
@@ -26,7 +25,7 @@ class TestStreetKitchenScraper(ScraperTest):
         )
 
     def test_total_time(self):
-        self.assertEqual(0, self.harvester_class.total_time())
+        self.assertEqual(None, self.harvester_class.total_time())
 
     def test_ingredients(self):
         self.assertListEqual(

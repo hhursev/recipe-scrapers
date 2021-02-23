@@ -13,7 +13,7 @@ class StreetKitchen(AbstractScraper):
         return self.soup.find("h1", {"class": "entry-title"}).get_text()
 
     def total_time(self) -> Optional[int]:
-        return 0
+        return None
 
     def image(self) -> Optional[str]:
         return (
