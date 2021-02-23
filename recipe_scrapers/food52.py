@@ -10,7 +10,6 @@ class Food52(AbstractScraper):
         return "food52.com"
 
     def title(self) -> Optional[str]:
-        print("title was called")
         return self.schema.title()
 
     def total_time(self) -> Optional[int]:
