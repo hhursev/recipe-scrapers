@@ -173,7 +173,7 @@ class SchemaOrg:
             ratings = ratings.get("ratingValue")
         return round(float(ratings), 2) if ratings is not None else None
 
-    def cuisine(self):
+    def cuisine(self) -> Optional[str]:
         cuisine = self.data.get("recipeCuisine")
         if isinstance(cuisine, list):
             return ",".join(cuisine)

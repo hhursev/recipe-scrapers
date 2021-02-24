@@ -33,7 +33,7 @@ class SchemaScraperFactory:
         def author(self) -> Optional[str]:
             return self.schema.author()
 
-        def cuisine(self):
+        def cuisine(self) -> Optional[str]:
             return self.schema.cuisine()
 
     @classmethod
