@@ -77,6 +77,7 @@ Scrapers available for:
 - `https://bbc.co.uk/ <http://bbc.co.uk/food/recipes>`_
 - `https://bbcgoodfood.com/ <https://bbcgoodfood.com>`_
 - `https://bettycrocker.com/ <https://bettycrocker.com>`_
+- `https://bigoven.com/ <https://bigoven.com>`_
 - `https://blueapron.com/ <https://blueapron.com>`_
 - `https://bonappetit.com/ <https://bonappetit.com>`_
 - `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
