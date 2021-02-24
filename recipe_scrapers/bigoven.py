@@ -24,7 +24,7 @@ class BigOven(AbstractScraper):
         return [
             normalize_string(row.span.text)
             for row in rows
-            if not "ingHeading" in row.span["class"]
+            if "ingHeading" not in row.span["class"]
         ]
 
     def instructions(self):
