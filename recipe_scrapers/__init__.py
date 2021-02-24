@@ -19,6 +19,7 @@ from .blueapron import BlueApron
 from .bonappetit import BonAppetit
 from .bowlofdelicious import BowlOfDelicious
 from .budgetbytes import BudgetBytes
+from .castironketo import CastIronKeto
 from .cdkitchen import CdKitchen
 from .chefkoch import Chefkoch
 from .closetcooking import ClosetCooking
@@ -43,6 +44,7 @@ from .fifteenspatulas import FifteenSpatulas
 from .finedininglovers import FineDiningLovers
 from .fitmencook import FitMenCook
 from .food import Food
+from .food52 import Food52
 from .foodandwine import FoodAndWine
 from .foodnetwork import FoodNetwork
 from .foodrepublic import FoodRepublic
@@ -157,6 +159,7 @@ SCRAPERS = {
     BonAppetit.host(): BonAppetit,
     BowlOfDelicious.host(): BowlOfDelicious,
     BudgetBytes.host(): BudgetBytes,
+    CastIronKeto.host(): CastIronKeto,
     CdKitchen.host(): CdKitchen,
     Chefkoch.host(): Chefkoch,
     ClosetCooking.host(): ClosetCooking,
@@ -182,6 +185,7 @@ SCRAPERS = {
     FineDiningLovers.host(): FineDiningLovers,
     FitMenCook.host(): FitMenCook,
     Food.host(): Food,
+    Food52.host(): Food52,
     FoodAndWine.host(): FoodAndWine,
     FoodNetwork.host(): FoodNetwork,
     FoodRepublic.host(): FoodRepublic,

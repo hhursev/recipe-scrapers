@@ -81,6 +81,7 @@ Scrapers available for:
 - `https://bonappetit.com/ <https://bonappetit.com>`_
 - `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
+- `https://castironketo.net/ <https://castironketo.net/>`_
 - `https://cdkitchen.com/ <https://cdkitchen.com/>`_
 - `https://chefkoch.de/ <https://chefkoch.de>`_
 - `https://closetcooking.com/ <https://closetcooking.com>`_
@@ -106,6 +107,7 @@ Scrapers available for:
 - `https://finedininglovers.com/ <https://www.finedininglovers.com>`_
 - `https://fitmencook.com/ <https://www.fitmencook.com>`_
 - `https://food.com/ <https://www.food.com>`_
+- `https://food52.com/ <https://www.food52.com>`_
 - `https://foodandwine.com/ <https://www.foodandwine.com>`_
 - `https://foodnetwork.com/ <https://www.foodnetwork.com>`_
 - `https://foodrepublic.com/ <https://foodrepublic.com>`_

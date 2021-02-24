@@ -11,36 +11,36 @@ class SimplyRecipes(AbstractScraper):
         return self.soup.find("h1").get_text()
 
     def total_time(self):
-        return sum(
-            [
-                get_minutes(self.soup.find("span", {"class": "preptime"})),
-                get_minutes(self.soup.find("span", {"class": "cooktime"})),
-            ]
+        return get_minutes(
+            self.soup.find("div", {"class": "total-time"})
+            .find("span", {"class": "meta-text__data"})
+            .text
         )
 
     def yields(self):
-        return get_yields(self.soup.find("span", {"class": "yield"}))
+        return get_yields(
+            normalize_string(
+                self.soup.find("div", {"class": "recipe-serving"})
+                .find("span", {"class": "meta-text__data"})
+                .text
+            )
+        )
 
     def ingredients(self):
-        ingredients = self.soup.find("div", {"class": "recipe-ingredients"}).findAll(
-            "li"
-        )
+        ingredients = self.soup.find("ul", {"class": "ingredient-list"}).findAll("li")
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
-        instructions_html = self.soup.find("div", {"class": "instructions"}).findAll(
-            "p"
-        )
-        instructions = [
-            normalize_string(instruction.get_text())
-            for instruction in instructions_html
-        ]
+        steps = self.soup.find(
+            "div", {"class": "structured-project__steps"}
+        ).ol.findAll("li")
 
         return "\n".join(
             [
-                instruction
-                for instruction in instructions
-                if instruction and not instruction.isspace()
+                normalize_string(
+                    step.h3.text + ": " + "".join([p.text for p in step.findAll("p")])
+                )
+                for step in steps
             ]
         )
