@@ -50,7 +50,7 @@ class SunBasket(AbstractScraper):
                 )
         return instruction_list
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         data = self._instructions_list()
         return "\n".join(data) if data else None
 
