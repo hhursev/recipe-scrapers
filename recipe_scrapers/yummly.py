@@ -1,7 +1,5 @@
-from typing import List, Optional
-
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
+from ._utils import get_yields, normalize_string
 
 
 class Yummly(AbstractScraper):
@@ -9,18 +7,18 @@ class Yummly(AbstractScraper):
     def host(cls):
         return "yummly.com"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         return self.soup.find("h1").get_text()
 
-    def total_time(self) -> Optional[int]:
-        return get_minutes(self.soup.find("div", {"class": "recipe-summary-item unit"}))
-
-    def yields(self) -> Optional[str]:
-        return get_yields(
-            self.soup.find("div", {"class": "servings"}).find("input").get("value")
+    def total_time(self):
+        return int(
+            self.soup.findAll("div", {"class": "recipe-summary-item"})[1].span.text
         )
 
-    def ingredients(self) -> Optional[List[str]]:
+    def yields(self):
+        return get_yields(self.soup.find("div", {"class": "servings"}).span.text)
+
+    def ingredients(self):
         ingredients = self.soup.findAll("li", {"class": "IngredientLine"})
 
         return [
@@ -31,22 +29,18 @@ class Yummly(AbstractScraper):
                         """
                     span[class^=amount],
                     span[class^=unit],
-                    span[class^=ingredient]"""
+                    span[class^=ingredient],
+                    span[class^=remainder]"""
                     )
                 ]
             )
             for ingredient in ingredients
         ]
 
-    def instructions(self) -> Optional[str]:
-        instructions = self.soup.find("div", attrs={"class": "directions-wrapper"})
+    def instructions(self):
+        instructions = self.soup.findAll("li", attrs={"class": "prep-step"})
         return (
-            "\n".join(
-                [
-                    normalize_string(instr.get_text())
-                    for instr in instructions.findAll("span", attrs={"class": "step"})
-                ]
-            )
+            "\n".join([normalize_string(instr.get_text()) for instr in instructions])
             if instructions is not None
-            else None
+            else ""
         )
