@@ -1,6 +1,7 @@
 # IF things in this file continue get messy (I'd say 300+ lines) it may be time to
 # find a package that parses https://schema.org/Recipe properly (or create one ourselves).
 
+from operator import is_not
 from typing import Any, Dict, List, Optional
 
 import extruct
@@ -63,15 +64,18 @@ class SchemaOrg:
         return author
 
     def total_time(self) -> Optional[int]:
-        total_time = get_minutes(self.data.get("totalTime"))
-        if total_time is None:
-            times = [get_minutes(self.data.get(p)) for p in ["prepTime", "cookTime"]]
+        def get_key_and_minutes(k):
+            return get_minutes(self.data.get(k))
 
-            total_time = (
-                None
-                if all([b is None for b in times])
-                else sum([t for t in times if t is not None])
+        def not_none(x) -> bool:
+            return is_not(x, None)
+
+        total_time = get_key_and_minutes("totalTime")
+        if total_time is None:
+            times: List[int] = list(
+                filter(not_none, map(get_key_and_minutes, ["prepTime", "cookTime"]))
             )
+            total_time = sum(times) if times else None
         return total_time
 
     def yields(self) -> Optional[str]:
