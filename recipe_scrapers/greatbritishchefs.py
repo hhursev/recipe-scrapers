@@ -69,8 +69,7 @@ class GreatBritishChefs(AbstractScraper):
 
     def ratings(self) -> Optional[float]:
         # This site does not support ratings at this time
-        r1 = 0
-        return r1
+        return None
 
     def description(self):
         d = normalize_string(

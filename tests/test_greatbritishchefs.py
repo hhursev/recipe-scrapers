@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.greatbritishchefs import GreatBritishChefs
+from tests import ScraperTest
 
 
 class TestGreatBritishChefsScraper(ScraperTest):
@@ -64,7 +63,7 @@ class TestGreatBritishChefsScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(0, self.harvester_class.ratings())
+        self.assertEqual(None, self.harvester_class.ratings())
 
     def test_description(self):
         self.assertEqual(
