@@ -47,6 +47,9 @@ def get_yields(element):
     :param element: Should be BeautifulSoup.TAG, in some cases not feasible and will then be text.
     :return: The number of servings or items.
     """
+    if element is None:
+        return None
+
     if isinstance(element, str):
         serve_text = element
     else:
