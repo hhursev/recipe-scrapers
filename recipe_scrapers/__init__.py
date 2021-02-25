@@ -25,6 +25,7 @@ from .chefkoch import Chefkoch
 from .closetcooking import ClosetCooking
 from .cookeatshare import CookEatShare
 from .cookieandkate import CookieAndKate
+from .cookinglight import CookingLight
 from .cookpad import CookPad
 from .cookstr import Cookstr
 from .copykat import CopyKat
@@ -165,6 +166,7 @@ SCRAPERS = {
     ClosetCooking.host(): ClosetCooking,
     CookEatShare.host(): CookEatShare,
     CookieAndKate.host(): CookieAndKate,
+    CookingLight.host(): CookingLight,
     CookPad.host(): CookPad,
     Cookstr.host(): Cookstr,
     CopyKat.host(): CopyKat,
