@@ -29,13 +29,16 @@ class BettyCrocker(AbstractScraper):
             "div", {"class": "recipePartIngredientGroup"}
         ).ul.findAll("li")
 
-        out = []
-        for ingredient in ingredients:
-            quantity = ingredient.find("div", {"class": "quantity"}).text
-            description = ingredient.find("div", {"class": "description"}).span.text
-            out.append(normalize_string(quantity + " " + description))
-
-        return "\n".join(out)
+        return "\n".join(
+            [
+                normalize_string(
+                    ingredient.find("div", {"class": "quantity"}).text
+                    + " "
+                    + ingredient.find("div", {"class": "description"}).span.text
+                )
+                for ingredient in ingredients
+            ]
+        )
 
     def instructions(self):
         instructions = self.soup.findAll("li", {"class": "recipePartStep"})
