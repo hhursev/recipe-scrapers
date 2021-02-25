@@ -1,0 +1,3463 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MWLCD7');</script>
+    <!-- End Google Tag Manager -->
+    
+    
+    
+    
+    
+    
+    
+
+    <script type="text/javascript">
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement("style");
+            msViewportStyle.appendChild(
+                document.createTextNode(
+                    "@-ms-viewport{width:auto!important}"
+                )
+            );
+            document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+        }
+        // Avoid `console` errors in browsers that lack a console.
+        (function () {
+            var method;
+            var noop = function () { };
+            var methods = [
+                'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+                'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+                'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+                'timeStamp', 'trace', 'warn'
+            ];
+            var length = methods.length;
+            var console = (window.console = window.console || {});
+
+            while (length--) {
+                method = methods[length];
+
+                // Only stub undefined methods.
+                if (!console[method]) {
+                    console[method] = noop;
+                }
+            }
+        }());
+    </script>
+    <meta charset="utf-8" />
+    <title>No-Knead Herb Focaccia</title>
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,800" rel="stylesheet" type="text/css" />
+    <link rel="alternate" type="application/rss+xml" title="BigOven Blog" href="http://blog.bigoven.com/feed/" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="google-site-verification" content="google-site-verification=i-dEpuwlmUOTCYcLJFaX5wwAw767IUbwAmxVwrY2Plg">
+    <meta property="fb:pages" content="57652644105" />
+
+            <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+        <meta name="apple-mobile-web-app-title" content="BigOven">
+    <meta property="fb:pages" content="57652644105" />
+    <link href="/bundles/jqueryuicss?v=I5yCEZAD2fgdIGudBjbIbhPW72Q4rs1hWM-SPn4mNuE1" rel="stylesheet"/>
+
+    <link href="/content/bootstrapbundle?v=Qdy1K03S7Rx2INJe8qJkNYt_INtDEy9ini0GC7R7HYw1" rel="stylesheet"/>
+
+    
+
+    <!-- Required Core stylesheet -->
+    <link href="/Content/glide/glide.core.min.css" rel="stylesheet"/>
+
+    <!-- Optional Theme stylesheet -->
+    <link href="/Content/glide/glide.theme.min.css" rel="stylesheet"/>
+
+
+
+
+    <script src="/bundles/bigovenfull?v=jS9jErsuM6v_1awIlL_9gBRxpkQbubHNRAbP23EH21A1"></script>
+
+    
+
+    <style>
+        @media all and (min-width: 975px) {
+            .mainContainer {
+                padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+            }
+
+            .grecaptcha-badge {
+                bottom: 100px !important;
+            }
+        }
+    </style>
+
+    
+
+    <script src="/Scripts/glide.min.js"></script>
+
+
+    <link rel="stylesheet" href="/content/videos/videoskin.css" />
+
+<script src="https://cdn.jwplayer.com/libraries/Pp6ZD921.js"></script>
+<script type="text/javascript" src="/Scripts/jwplayer-utils.js"></script>
+
+    <script>
+        function loadScript(url) {
+            var script = document.createElement('script'),
+                done = false,
+                head = document.getElementsByTagName("head")[0];
+            script.src = url;
+            script.onload = script.onreadystatechange = function () {
+                if (!done &&
+                    (!this.readyState ||
+                        this.readyState == "loaded" ||
+                        this.readyState == "complete")) {
+                    done = true;
+                    // IE memory leak
+                    script.onload = script.onreadystatechange = null;
+                    head.removeChild(script);
+                }
+            };
+            head.appendChild(script);
+        }
+
+    </script>
+
+        <script type="text/javascript" async="async" data-cfasync="false">
+            loadScript("https://ads.blogherads.com/static/blogherads.js");
+            loadScript("https://ads.blogherads.com/bh/17/172/172657/2602040/header.js");
+        </script>
+        <script type="text/javascript">
+            var blogherads = blogherads || {};
+            blogherads.adq = blogherads.adq || [];
+        </script>
+
+        <link rel="canonical" href="https://www.bigoven.com/recipe/no-knead-herb-focaccia/2719857" />
+        <link rel="amphtml" href="https://www.bigoven.com/recipe/no-knead-herb-focaccia/2719857/amp">
+    <meta name="keywords" />
+    <meta name="description" content="No-Knead Herb Focaccia recipe: Our No-Knead Herb Focaccia is impossibly easy. And impossibly delicious. It&#39;ll leave you scratching your head and wondering how so few ingredients and such little effort can produce something so exquisitely&#160;satisfying. But, don&#39;t take our word for it -- bake some up tonight." />
+    <meta name="apple-itunes-app" property="app-id=294363034,affiliate-data=pt=110417&ct=webrecipe,app-argument=bigoven://recipe/2719857" />
+    <meta property="og:description" content="Our No-Knead Herb Focaccia is impossibly easy. And impossibly delicious. It&amp;#39;ll leave you scratching your head and wondering how so few ingredients and such little effort can produce something so exquisitely&amp;#160;satisfying. But, don&amp;#39;t take our word for it -- bake some up tonight.&amp;#160; - No-Knead Herb Focaccia" />
+    <meta property="og:title" content="No-Knead Herb Focaccia" />
+    <meta property="og:site_name" content="BigOven.com" />
+    <meta property="og:image" content="https://bigoven-res.cloudinary.com/image/upload/t_recipe-1280/no-knead-herb-focaccia-79674b.jpg" og:image:width="1280" og:image:height="1280" />
+    <link rel="image_src" type="image/jpeg" href="https://bigoven-res.cloudinary.com/image/upload/t_recipe-1280/no-knead-herb-focaccia-79674b.jpg" />
+    <meta property="og:type" content="bigoven:recipe" />
+    <meta property="og:url" content="https://www.bigoven.com/recipe/no-knead-herb-focaccia/2719857" />
+    <meta property="fb:app_id" content="297564810272481" />
+    <link rel="alternate" href="android-app://com.bigoven.android/recipe/2719857" />
+    <link rel="alternate" href="ios-app://294363034/bigoven/recipe/2719857" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@bigoven">
+    <meta name="twitter:title" content="No-Knead Herb Focaccia">
+    <meta name="twitter:description" content="Our No-Knead Herb Focaccia is impossibly easy. And impossibly delicious. It&#39;ll leave you scratching your head and wondering how so few ingredients and such little effort can produce somethi...">
+    <meta name="twitter:creator" content="@bigoven">
+    <meta name="pinterest-rich-pin" content="false" />
+
+        <meta name="twitter:image:src" content="http://images.bigoven.com/image/upload/t_recipe-256/no-knead-herb-focaccia-79674b.jpg">
+    <meta name="twitter:domain" content="bigoven.com">
+    <meta name="twitter:app:name:iphone" content="BigOven">
+    <meta name="twitter:app:name:ipad" content="BigOven">
+    <meta name="twitter:app:name:googleplay" content="BigOven">
+    <meta name="twitter:app:url:iphone" content="bigoven://recipe/2719857">
+    <meta name="twitter:app:url:ipad" content="bigoven://recipe/2719857">
+    <meta name="twitter:app:url:googleplay" content="bigoven://recipe/2719857">
+    <meta name="twitter:app:id:iphone" content="294363034">
+    <meta name="twitter:app:id:ipad" content="294363034">
+    <meta name="twitter:app:id:googleplay" content="com.bigoven.android">
+        <meta name="twitter:image" content="http://images.bigoven.com/image/upload/t_recipe-256/no-knead-herb-focaccia-79674b.jpg" />
+    
+
+    <script type='text/javascript'>
+        var appInsights = window.appInsights || function (config) {
+            function r(config) { t[config] = function () { var i = arguments; t.queue.push(function () { t[config].apply(t, i) }) } }
+            var t = { config: config }, u = document, e = window, o = 'script', s = u.createElement(o), i, f; for (s.src = config.url || '//az416426.vo.msecnd.net/scripts/a/ai.0.js', u.getElementsByTagName(o)[0].parentNode.appendChild(s), t.cookie = u.cookie, t.queue = [], i = ['Event', 'Exception', 'Metric', 'PageView', 'Trace', 'Ajax']; i.length;)r('track' + i.pop()); return r('setAuthenticatedUserContext'), r('clearAuthenticatedUserContext'), config.disableExceptionTracking || (i = 'onerror', r('_' + i), f = e[i], e[i] = function (config, r, u, e, o) { var s = f && f(config, r, u, e, o); return s !== !0 && t['_' + i](config, r, u, e, o), s }), t
+        }({
+            instrumentationKey: 'af2e7a9e-8439-44b0-a567-c69062bd3811'
+        });
+
+        window.appInsights = appInsights;
+        appInsights.trackPageView();
+    </script>
+    <!-- Load script after page is loaded -->
+    <script>
+        function loadScript(url) {
+            var script = document.createElement('script'),
+                done = false,
+                head = document.getElementsByTagName("head")[0];
+            script.src = url;
+            script.onload = script.onreadystatechange = function () {
+                if (!done && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
+                    done = true;
+                    // IE memory leak
+                    script.onload = script.onreadystatechange = null;
+                    head.removeChild(script);
+                }
+            };
+            head.appendChild(script);
+        }
+    </script>
+
+    <!-- If User is not premium load ads script after page is loaded -->
+
+        <script type="text/javascript" async="async" data-cfasync="false">
+            loadScript("https://ads.blogherads.com/static/blogherads.js");
+            loadScript("https://ads.blogherads.com/bh/17/172/172657/2602040/header.js");
+        </script>
+        <script type="text/javascript">
+            var blogherads = blogherads || {};
+            blogherads.adq = blogherads.adq || [];
+        </script>
+</head>
+<body >
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWLCD7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWLCD7"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+ <!--[if lte IE 8]><div class="well"><p>Eegads! You're running a <b>very</b> outdated version of Internet Explorer. We strongly encourage you to <a href="https://www.microsoft.com/ie">upgrade to the latest version</a> or use a different browser like <a href="http://www.mozilla.org">Firefox</a> or <a href="http://www.google.com/chrome">Chrome</a>, as BigOven will function much better for you, and we may drop support for this browser version soon!</p></div><![endif]-->
+
+
+<style>
+    body {
+        font-family: 'Lato', 'Arial';
+    }
+
+    .navbar ~ .wrapper {
+        margin-top: 70px;
+    }
+
+    .navbar .dropdown-menu i {
+        margin-right: 4px;
+        position: relative;
+        top: 1px;
+        color: #444;
+    }
+
+    /*.profiler-results {display:none;}*/
+
+    .no-transition {
+        -webkit-transition: height 0;
+        -moz-transition: height 0;
+        -ms-transition: height 0;
+        -o-transition: height 0;
+        transition: height 0;
+    }
+
+    #txtSearchCollapse {
+        font-size: 16px;
+        margin-bottom: 0.3em;
+    }
+
+    #collapsedMenu {
+        padding-left: 0px;
+        margin-left: 14px;
+        margin-bottom: 1em;
+    }
+
+        #collapsedMenu li {
+            margin-top: 0.6em;
+            list-style-type: none;
+        }
+
+    .avatar-img {
+        margin-right: 5px;
+        height: 36px;
+        border-radius: 18px;
+        border: 1px solid #ccc;
+    }
+
+    @media screen and (max-width: 768px) {
+        .bigoven-logo {
+            /*width: 96px;*/
+            margin-bottom: 0px;
+        }
+
+
+    }
+
+    @media(min-width: 768px) and (max-width: 880px) {
+        a.r24.navbar-right.tip {
+            width: 90px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    }
+
+        @media screen and (min-width: 769px) {
+            .navbar {
+                min-height: 70px;
+            }
+        }
+
+        .dropdown-toggler {
+            margin-top: 4px;
+            font-size: 60%;
+        }
+
+        .avatar {
+            margin-top: 8px;
+        }
+
+
+
+        .nav-options {
+            margin-left: 1em;
+            margin-top: 0.5em;
+        }
+
+            .nav-options a {
+                color: #777;
+                font-size: 1em;
+                font-weight: bold;
+                padding-right: 1.3em;
+            }
+
+                .nav-options a:hover {
+                    color: #606060;
+                }
+
+                .nav-options a.nav-active {
+                    color: #e05050;
+                }
+
+        .badge-count {
+            border-radius: 50%;
+            behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+            position: relative;
+            left: -22px;
+            top: -17px;
+            font-size: 9px;
+            min-width: 14px;
+            display: inline-block;
+            line-height: 14px;
+            height: 14px;
+            background: #CA4B50;
+            color: #fff;
+            text-align: center;
+        }
+
+        .logo-inbox {
+            padding: 8px 0px 3px 4px;
+            margin-right: 8px;
+        }
+
+        #activity-dropdown {
+            width: 389px;
+        }
+
+            #activity-dropdown li {
+                padding-bottom: 9px;
+            }
+
+
+        .inbox-text {
+            white-space: normal;
+            font-size: smaller;
+        }
+
+        #activity-dropdown .first-col {
+            display: inline-block;
+            float: left;
+            margin-left: 0.3em;
+            max-width: 48px;
+            padding-top: 0.6em;
+        }
+
+        #activity-dropdown .middle-col {
+            display: inline-block;
+            margin-left: 0.5em;
+            font-size: 12px;
+            margin-top: 6px;
+            max-width: 62%;
+            padding-bottom: 0.4em;
+        }
+
+        #activity-dropdown .last-col {
+            display: inline-block;
+            float: right;
+            width: 48px;
+            margin-right: 0.8em;
+        }
+
+            #activity-dropdown .last-col img {
+                border-radius: 4px;
+                border: 2px solid #fff;
+            }
+
+                #activity-dropdown .last-col img:hover {
+                    border: 2px solid #cecece;
+                }
+
+            #activity-dropdown .last-col button, #activity-dropdown .last-col a {
+                margin-top: 4px;
+                width: 48px;
+            }
+
+        .search-icon {
+            position: absolute;
+            top: 12px;
+            left: 10px;
+            z-index: 9999;
+        }
+
+        #txtSearch {
+            width: 300px;
+            text-indent: 20px;
+            background-color: #fff;
+        }
+
+        .searchBox {
+            position: relative;
+            background-color: #fff;
+            height: 31px;
+            margin-top: 3px;
+        }
+
+        @media screen and (min-width: 762px) and (max-width: 1202px) {
+
+            .tti-hint {
+                width: 95px;
+            }
+
+            .searchBox {
+                height: 36px;
+                margin-top: 0px;
+                /*width: 70px;dim*/
+            }
+
+            .nav-options {
+                margin-left: 0 !important;
+            }
+
+            .navbar-ipad {
+                margin-right: 0px !important;
+            }
+
+            .btn-sign-in {
+                font-size: 10px;
+                margin-left: 0px !important;
+                width: 40px;
+            }
+
+            .btn-join {
+                font-size: 10px;
+                margin-left: 13px !important;
+                width: 65px;
+            }
+
+            .avatar-img {
+                margin-top: 4px;
+                margin-right: 5px;
+                height: 30px;
+                border-radius: 18px;
+                border: 1px solid #ccc;
+            }
+
+            .searchBox .tt-hint {
+                height: 44px;
+                width: 100%;
+                padding-left: 31px;
+                font-size: 16px;
+            }
+
+            .searchBox .tt-menu {
+                width: 100%;
+            }
+        }
+
+
+
+        .dropdown-toggler {
+            margin-top: 7px;
+            margin-left: 0px;
+        }
+
+        .nav-container {
+            max-width: 98%;
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1350px) {
+
+            #txtSearch {
+                width: 95px;
+            }
+
+            .searchBox {
+                height: 36px;
+                margin-top: 0px;
+                /*width: 70px;dim*/
+            }
+
+                .searchBox .tt-hint {
+                    height: 44px;
+                    width: 100%;
+                    padding-left: 31px;
+                    font-size: 16px;
+                }
+
+                .searchBox .tt-menu {
+                    width: 100%;
+                }
+        }
+
+        @media screen and (max-width: 889px) {
+            .nav-options a {
+                padding-right: .6em;
+                font-size: 1em;
+            }
+        }
+
+        .breadcrumb {
+            padding: 12px 0px 0px 34px;
+        }
+
+            .breadcrumb .ss-home, .breadcrumb .ss-openbook, .breadcrumb .ss-cart {
+                position: relative;
+                top: 2px;
+            }
+        /* @media only screen and (max-width: 1024px) { */
+        /*     .btn-join { */
+        /*         width: 67px; */
+        /*         margin-left: 3px !important; */
+        /*     } */
+        /*     .btn-sign-in { */
+        /*         width: 37px; */
+        /*     } */
+        /*     .buttons-wrapper { */
+        /*         margin: 0 !important; */
+        /*     } */
+        /*     .avatar-padding { */
+        /*         padding-left: 0px !important */
+        /*     } */
+        /*     .navbar-ipad { */
+        /*         margin-right: 0px !important; */
+        /*         padding-left: 8px !important; */
+        /*         top: -5px !important; */
+        /*     } */
+        /* } */
+        .btn-join {
+            background: #e05050;
+            color: #fff;
+            border-radius: 2px;
+            padding-bottom: 0.480em;
+            /*border: 1px solid #ced1ce;*/
+            -webkit-transition: background .2s ease-in;
+            -moz-transition: background .2s ease-in;
+            -o-transition: background .2s ease-in;
+            margin-left: 10px;
+        }
+
+            .btn-join:hover {
+                background: #e02b2b;
+                color: #fff;
+            }
+
+        .btn-sign-in {
+            color: #444;
+            padding-bottom: 0.480em;
+            -webkit-transition: background .2s ease-in;
+            -moz-transition: background .2s ease-in;
+            -o-transition: background .2s ease-in;
+            margin-left: 8px;
+        }
+
+            .btn-sign-in:hover {
+                background: #dee0de;
+                color: #444;
+            }
+
+        .tt-suggestion {
+            padding: 6px 14px;
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+        .navbar-toggle {
+            margin-right: 10px;
+        }
+
+        .navbar-fixed-top {
+            position: absolute;
+        }
+        /* TODO: Uncomment after adding timer */
+        /* .tooltipTools { */
+        /*     position: relative !important; */
+        /*     display: inline-block !important; */
+        /*     border-bottom: none; */
+        /* } */
+        /* */
+        /* .tooltipTools .tooltiptextTools { */
+        /*     visibility: hidden; */
+        /*     width: 120px; */
+        /*     background-color: black; */
+        /*     color: #fff; */
+        /*     text-align: center; */
+        /*     border-radius: 6px; */
+        /*     padding: 5px 0; */
+        /* */
+        /*     /* Position the tooltip !1! */
+        /*     position: absolute !important; */
+        /*     z-index: 9999 !important; */
+        /* } */
+        /* */
+        /* .tooltipTools:hover .tooltiptextTools { */
+        /*     visibility: visible !important; */
+        /* } */
+
+        /* a.tipTools { */
+        /*     position: relative; */
+        /* } */
+        /* */
+        /* a.tipTools span { */
+        /*     display: none; */
+        /*     position: absolute; */
+        /*     top: 58px; */
+        /*     left: 0px; */
+        /*     width: 77px; */
+        /*     padding: 5px; */
+        /*     z-index: 100; */
+        /*     background: #000; */
+        /*     color: #fff; */
+        /*     opacity: 0.7; */
+        /*     font-size: 12px; */
+        /*     font-weight: 200; */
+        /*     -moz-border-radius: 5px; /* this works only in camino/firefox !1! */
+        /*     -webkit-border-radius: 5px; /* this is just for Safari !1! */
+        /* } */
+        /* a.tipTools span:before{ */
+        /*     content:''; */
+        /*     display: block; */
+        /*     width: 0; */
+        /*     height: 0; */
+        /*     position: absolute; */
+        /*     border-top: 8px solid transparent; */
+        /*     border-bottom: 8px solid black; */
+        /*     border-right: 8px solid transparent; */
+        /*     border-left: 8px solid transparent; */
+        /*     left: 30px; */
+        /*     top: -15px; */
+        /* } */
+        /* */
+        /* a:hover.tipTools { */
+        /*     font-size: 99%; /* this is just for IE !1! */
+        /* } */
+        /* */
+        /* a:hover.tipTools span { */
+        /*     display: block; */
+        /* } */
+
+        .buttons-wrapper {
+            margin: 0 !important;
+        }
+
+        .home-icon {
+            position: relative;
+            top: 15px;
+            font-size: 20px;
+            color: #e05050;
+        }
+
+            .home-icon:hover {
+                color: #a55151;
+            }
+
+        @media only screen and (max-width: 360px) {
+
+            .search-input {
+                font-size: 12px !important;
+            }
+
+            .home-icon {
+                right: 10px;
+            }
+        }
+
+        @media only screen and (max-width: 375px) {
+
+            .search-input {
+                font-size: 14px !important;
+            }
+
+            .home-icon {
+                right: 10px;
+            }
+        }
+
+        @media only screen and (min-width: 568px) {
+
+            .home-icon {
+                left: 40px;
+            }
+        }
+
+        @media only screen and (min-width: 640px) {
+
+            .home-icon {
+                left: 40px;
+            }
+        }
+
+        @media only screen and (min-width: 731px) {
+
+            .home-icon {
+                left: 80px;
+            }
+        }
+
+        @media(min-width: 1201px) {
+            .navbar-right {
+                margin-right: 3px;
+            }
+        }
+</style>
+<script type="text/javascript" src="/assets/js/userstate.js"></script>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigationBar">
+    <div class="container nav-container">
+        <div class="navbar-header">
+            <div class="visible-xs">
+                <div class="col-xs-9">
+                    <form class="visible-xs" style="float: left;" role="search">
+                        <div>
+                            <div class="searchBox" style="margin-top: 9px; background-color: transparent;">
+                                <span style="margin-left: 5px; float: left; min-width: 98px;">
+                                    <input type="text" id="txtSearchCollapse" class="form-control search-input" placeholder="Find a recipe">
+                                </span>
+                                <span style="float: left; margin-left: -0.5em;">
+                                    <input type="button" onclick="doSearchCollapsed();" value="Go" class="btn btn-primary btnstateless" />
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-xs-1">
+                    <a href="/"><i class="ss-home home-icon"></i></a>
+                </div>
+            </div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand hidden-xs" href="/">
+                <img class="hidden-xs bigoven-logo" src="/assets/images/icons/bigOvn-logo.png" title="BigOven 500,000+ Recipes">
+            </a>
+
+
+        </div>
+        <div id="navbar" class="nav-collapse collapse no-transition">
+            <ul class="nav navbar-nav navbar-left navbar-choices">
+                <li>
+                    <div class="input-group nav-tool-bar-collapse visible-xs no-transition">
+                        <div>
+                            <div>
+                            </div>
+
+                            <ul id="collapsedMenu">
+                                <li class="visible-if-unauthenticated">
+                                    <a class="r24" href="javascript:void(0);" onclick="showLoginDialog('/myrecipes'); " style="margin-right: 22px;">My Recipes</a>
+                                </li>
+                                <li class="visible-if-authenticated">
+                                    <a class="r24" href="/myrecipes" style="margin-right: 22px;">My Recipes</a>
+                                </li>
+                                <li class="visible-if-authenticated">
+                                    <a class="r24" href="/grocery">Grocery List</a>
+                                </li>
+                                <li class="visible-if-unauthenticated">
+                                    <a class="r24" href="javascript:void(0);" onclick="showLoginDialog('/grocery'); ">Grocery List</a>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="visible-if-unauthenticated">
+                                    <a class="r24" href="/recipes/leftover">Use Up Leftovers</a>
+                                </li>
+                                
+                                
+                                
+                                
+                                <li class="visible-if-authenticated">
+                                    <a class="r24" href="/recipes/leftover">Use Up Leftovers</a>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                <li class="visible-if-authenticated">
+                                    <a class="r24" href="/videos">Videos</a>
+                                </li>
+                                <li class="visible-if-unauthenticated">
+                                    <a class="r24" href="/videos">Videos</a>
+                                </li>
+                                <li class="visible-if-authenticated">
+                                    <a href="/utils/redirect/myprofile">My Profile</a>
+                                </li>
+                                <li class="visible-if-authenticated" style="display: none; float: right; padding-bottom: 1em; padding-right: 0px;">
+                                    <a href="/account/logout">Sign out</a>
+                                </li>
+                                <li class="visible-if-unauthenticated pull-right">
+                                    <div class="input-group navbar-right nav-tool-bar">
+                                        <a href="https://www.bigoven.com/account/join" class="btn btnstateless btn-join">Join Free</a>
+                                        <a href="/account/login?ReturnUrl=%2frecipe%2fno-knead-herb-focaccia%2f2719857" class="btn btn-sign-in btnstateless">Sign In</a>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="visible-sm visible-md visible-lg">
+
+            <div class="nav navbar-nav navbar-left">
+                
+                <div class="nav-options">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="/plan" class="r24 navbar-right tip " data-toggle="tooltip" data-placement="bottom" title="Plan meals days, weeks or months in advance">
+                                Planner
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/grocery" class="r24 navbar-right tip " data-toggle="tooltip" data-placement="bottom" title="Build a sorted, mobile, shareable grocery list">
+                                Grocery List
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/myrecipes" class="r24 navbar-right tip " data-toggle="tooltip" data-placement="bottom" title="Organize all your recipes">
+                                My Recipes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/recipes" class="navbar-right tip                                                                                nav-active
+" data-toggle="tooltip" data-placement="bottom" title="Get seasonal recipe ideas and use up leftovers!">
+                                <span class="hidden-sm r24">Ideas</span><span class="visible-sm r24">Ideas</span>
+                            </a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+
+                        
+                        <li>
+                            <a href="/recipes/leftover" class="r24 navbar-right tip
+                                                " data-toggle="tooltip" data-placement="bottom" title="Use Up Leftovers!">
+                                Use Up Leftovers
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/videos"
+                               class="r24 navbar-right tip " data-toggle="tooltip" data-placement="bottom" title="BigOven Videos">
+                                Videos
+                            </a>
+                        </li>
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+
+            <ul class="nav navbar-nav navbar-right navbar-ipad">
+                    <li class="visible-if-unauthenticated" style="margin-top: 17px;">
+                        <div class="input-group navbar-right nav-tool-bar buttons-wrapper">
+                            
+                            
+                            <a href="https://www.bigoven.com/account/join" class="btn btnstateless btn-join">Join Free</a>
+                            <a href="/account/login?ReturnUrl=%2frecipe%2fno-knead-herb-focaccia%2f2719857" class="btn btn-sign-in btnstateless">Sign In</a>
+                        </div>
+                    </li>
+
+            </ul>
+
+                <ul class="nav navbar-nav hidden-xs hidden-sm hidden-md navbar-right">
+                    <li>
+                        <form class="navbar-form navbar-right navbar-search hidden-xs hidden-sm hidden-md" role="search">
+                            <div class="searchBox">
+                                <span class="ss ss-search search-icon"></span>
+                                <input type="text" id="txtSearch" class="form-control" placeholder="Search Recipes">
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+        </div>
+
+    </div>
+</nav>
+
+<script>
+    if (boUser == undefined) {
+        var boUser = {
+            "UserName": "Guest",
+            "UserID": -100,
+            "FirstName": "",
+            "LastName": "",
+            "PhotoUrl": "https://bigoven-res.cloudinary.com/image/upload/avatar/avatar-default.png",
+            "PremiumExpiryDate": "\/Date(1074556740000)\/"
+        }
+        if (establishingUser == undefined) {
+            var establishingUser = false;
+        }
+
+        function establishboUserFromViewBag(utilsMeObj, updateUI, callback) {
+            establishingUser = true;
+            boUser = utilsMeObj;
+            if (updateUI) {
+                $(document).ready(function() {
+                    updateUserUI(boUser);
+                });
+            }
+            if (callback !== undefined) {
+                establishingUser = false;
+                callback();
+            }
+            establishingUser = true;
+        }
+    }
+
+    $('.navbar-collapse').on('show.bs.collapse',
+        function() {
+            $(".wrapper").css("margin-top", "300px");
+        });
+    $('.navbar-collapse').on('hidden.bs.collapse',
+        function() {
+            $(".wrapper").css("margin-top", "0px");
+        });
+
+    $(document).ready(function() {
+        if ($(window).width() > 1023) {
+            $("#txtSearch").attr("placeholder", "Search 500,000+ Recipes");
+        } else {
+            $("#txtSearch").attr("placeholder", "Search Recipes");
+        }
+    });
+
+    var bestRecipes = new Bloodhound({
+        datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+        queryTokenizer: Bloodhound.tokenizers.whitespace,
+        remote: {
+            url: '/recipe/autocomplete?prefix=%QUERY',
+            wildcard: '%QUERY'
+        }
+    });
+
+    var suppressTabComplete = false;
+    var inboxCount = 0;
+
+    establishboUserFromViewBag({"UserID":0,"UserName":null,"ImageURL":"https://bigoven-res.cloudinary.com/image/upload/avatar-default.png","ImageURL48":"https://bigoven-res.cloudinary.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png","ImageURL64":"https://bigoven-res.cloudinary.com/image/upload/t_recipe-64,d_avatar-default.png/avatar-default.png","ImageURL128":"https://bigoven-res.cloudinary.com/image/upload/t_recipe-128,d_avatar-default.png/avatar-default.png","PhotoUrl":"https://photos.bigoven.com/photo/avatar/avatar-default.png","HomeUrl":"","IsPremium":false,"CreditBalance":0,"FullName":"","FirstName":null,"LastName":null,"MemberSince":"\/Date(1614183250672)\/","AboutMe":null,"TrySoonCount":0,"FavoritesCount":0,"AddedCount":0,"MenusCount":0,"PremiumExpiryDate":null,"OwnsDomain":null,"IsGroceryListFree":false,"IsMenuPlanFree":false,"GroceryListSponsor":"","MenuPlanSponsor":"","FBNotifyRecipeRaves":null,"FBNotifyPhotoApproved":null,"FBNotifyRecipePost":null,"FBNotifyMeWhenFriendsJoin":null,"FBNotifyIveFavorited":null,"FBNotifyIveTrySooned":null,"FBNotifyMenuSaved":null,"FBNotifyIveReviewed":null,"FBNotifyAddedMenu":null,"FBNotifyReviewReceived":null,"FBNotifyMedalReceived":null,"FBNotifyIveMade":null,"FacebookID":null,"OfflineAccessToken":null,"AdFreeEnabled":false,"PowerFeaturesEnabled":false,"IsCurator":false,"AmFollowing":null,"BackgroundUrl":null,"FollowingCount":0,"FollowersCount":0,"BOAuthToken":null,"UserLevel":"unauthenticated","PrivateRecipeCount":0,"PublicRecipeCount":0,"TotalRecipes":null,"LastChangeLogID":null,"UserType":0,"FriendlyName":"Guest","EatingStyle":null,"Email":null},
+        true,
+        function() {
+            if ((boUser.UserID) > 0) {
+                $.get("/utils/inboxunseen",
+                    function(data) {
+                        inboxCount = data.unseenCount;
+                        if (inboxCount > 0) {
+                            if (inboxCount > 99) {
+                                $(".badge-count").html("99+").show();
+                            } else {
+                                $(".badge-count").html(inboxCount).show();
+                            }
+                        }
+                    });
+
+                fillInbox([],
+                    function(inboxHtml, count) {
+                        if (count >= 2) {
+                            $("#activity-dropdown").html(inboxHtml +
+                                "<li><a onclick=\"window.location='/activity';\" href=\"/activity\"><div class=\"row\"><div class=\"col-xs-12\"><div class=\"text-center\"><i class=\"fa fa-bell-o\"></i> View all activity</div></div></a></li>");
+                        } else {
+                            $("#activity-dropdown").html(inboxHtml);
+                        }
+                    });
+            }
+            try {
+                var bo_userLevel = boUser.UserLevel;
+                ga('set', 'dimension1', bo_userLevel);
+            } catch (ex) {
+            }
+
+
+        });
+
+
+    $("#dropdownMenu1").on("shown.bs.dropdown",
+        function(event) {
+            updateFollowButtons();
+            $(".badge-count").html("").hide();
+            $.post("/utils/inbox/reset",
+                function() {
+
+                });
+        });
+
+    $("#txtSearch").typeahead(null,
+        {
+            name: 'best-recipes',
+            //display: 'value',
+            limit: 12,
+            minLength: 2,
+            source: bestRecipes,
+            templates: {
+                empty: [
+                    ''
+                ].join('\n'),
+                suggestion: function(data) {
+                    return '<div>' + data + '</div>';
+                }
+            }
+        });
+
+    $(document).on("typeahead:select",
+        function(event, suggestion) {
+            if ((event.target.id === "txtSearch") || (event.target.id === "txtSearchCollapse")) {
+                $(".search-icon").removeClass("ss-search").addClass("ss-stove");
+                doSimpleSearch(suggestion);
+                return;
+            }
+        });
+
+    $("#txtSearch").keydown(function(event) {
+        if (event.which === 13) {
+            var txt = $("#txtSearch").val();
+            $(".search-icon").removeClass("ss-search").addClass("ss-stove");
+            doSimpleSearch(txt);
+            event.preventDefault();
+            return;
+        }
+        return;
+    });
+
+    $("#txtSearchCollapse").keydown(function(event) {
+        if (event.which === 13) {
+            var txt = $("#txtSearchCollapse").val();
+            doSimpleSearch(txt);
+            event.preventDefault();
+            return;
+        }
+        return;
+    });
+
+    function doSearchCollapsed() {
+        var txt = $("#txtSearchCollapse").val();
+        doSimpleSearch(txt);
+        event.preventDefault();
+    }
+
+</script>
+
+
+
+
+<noscript>
+    <p style="padding: 7px 7px;">Hi, this web browser has Javascript disabled. As a result, several features will be disabled. Try visiting this page in a Javascript-enabled browser: <a href="/recipe/no-knead-herb-focaccia/2719857" target="_blank">https://www.bigoven.com/recipe/no-knead-herb-focaccia/2719857</a></noscript>
+<div class="wrapper">
+    <div >
+        
+    <ul class="breadcrumb"><li><a href="/"><i class="ss-home"></i></a></li><li><a href="/recipes">Recipes</a></li><li><a href="/recipes/bread">Bread</a></li><li><a href="/recipes/bread/yeast-bread">Yeast Bread</a></li></ul>
+
+    </div>
+    <div class="container" >
+        <div id="fb-root"></div>
+
+        
+
+
+
+
+<script>
+    $.cookie.defaults = { path: '/' };
+</script>
+
+<style>
+    span.fa.fa-camera.add_photo {
+        margin-left: -1em;
+    }
+
+    .pager li > a, .pager li > span {
+        background-color: #fff !important;
+    }
+
+    .recipe-container {
+        margin-top: 1em;
+        max-width: 1270px;
+        margin: 0 auto;
+    }
+
+    #tags_2_addTag {
+        position: relative;
+        top: -5px;
+    }
+
+    .col-flush-left {
+        padding-left: 0px;
+    }
+
+    .recipe-upper-row {
+        margin-bottom: 1em;
+    }
+
+    .recipe-instructions {
+        word-break: break-word;
+    }
+
+    .overview-notes {
+        word-break: break-word;
+    }
+
+    #recipe-review-list {
+        word-break: break-word;
+    }
+
+    .about-box {
+        word-break: break-word;
+    }
+
+    .icon-controls .btn {
+        width: 40px;
+        height: 40px;
+        border-radius: 0;
+    }
+
+        .icon-controls .btn i {
+            font-size: 16px;
+            position: relative;
+            top: 3px;
+            left: -1px;
+            color: #444;
+        }
+
+    /*video styling*/
+    .video-info-container {
+        background-color: #f2f2f2;
+        max-width: 1270px;
+        margin: 0 auto;
+    }
+
+    .row-user-controller {
+        margin-top: 50px;
+        padding: 20px 0 20px 0;
+    }
+
+    .video-recipe-user-description {
+        padding: 20px 0 20px 0;
+    }
+
+    .icon-controls {
+        text-align: right;
+    }
+
+    .user-control a {
+        color: #444;
+    }
+
+    .spacer5 {
+        height: 16px;
+    }
+
+    .under-line {
+        margin-top: 0.9em;
+        border-bottom: 1px solid #ccc;
+        max-width: 820px;
+        margin-left: 15px;
+        margin-bottom: 0.9em;
+    }
+
+    ul.pager {
+        background-color: white;
+        margin: 0;
+    }
+
+
+    /*Create @media*/
+    @media only screen and (min-width : 120px) and (max-width : 376px) {
+        .row-user-controller {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+            .row-user-controller > .user-control {
+                order: 2;
+            }
+
+            .row-user-controller > .soccial-btns {
+                order: 1;
+                margin-bottom: 2em;
+            }
+    }
+
+    @media only screen and (min-width : 320px) and (max-width : 639px) {
+        .icon-controls {
+            text-align: left;
+            margin-top: 10px;
+        }
+    }
+
+    @media only screen and (min-width: 667px) and (max-width: 991px) {
+        .recipe-container {
+            margin-top: 4em;
+        }
+
+        .icon-controls {
+            text-align: left;
+            margin-top: 10px;
+            margin-left: 7em;
+        }
+
+        .recipe-container h1 {
+            padding-left: 0.6em;
+        }
+
+        .under-line {
+            max-width: 680px;
+        }
+    }
+
+    @media only screen and (max-width: 991px) {
+        .icon-controls {
+            text-align: left;
+            margin-top: 10px;
+        }
+    }
+
+    /*Banner styling*/
+    .col-xs-12 > .find-rec {
+        padding: 0;
+    }
+
+        .col-xs-12 > .find-rec > .well > h1 {
+            color: #343843;
+            font-family: "Lato";
+            font-size: .9em;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: center;
+            margin: 0;
+        }
+
+        .col-xs-12 > .find-rec > .well > a {
+            text-decoration: none;
+        }
+
+            .col-xs-12 > .find-rec > .well > a > h1 {
+                color: #343843;
+                font-family: "Lato";
+                font-size: 1.1em;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: center;
+                margin: 0;
+                padding-bottom: .5em;
+            }
+
+    .banner {
+        padding: 0;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .homepage-category-img {
+        border-radius: 50%;
+    }
+
+    .banner-content > .banner-titles > h1 {
+        color: #343843;
+        font-family: "Lato";
+        font-size: 1em;
+        font-weight: 700;
+        text-align: center;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    .banner-content > .banner-titles > p {
+        color: #343843;
+        font-family: "Lato";
+        font-size: 1em;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 2em;
+    }
+
+        .banner-content > .banner-titles > p > a > span {
+            color: #d9534f;
+            font-family: "Lato";
+            font-size: 1em;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-decoration: none;
+        }
+</style>
+
+
+<div class="recipe-container modern">
+
+    <h1>No-Knead Herb Focaccia</h1>
+    <div class="recipe-controls row">
+        <div class="save-button rc-opt">
+            <div class="btn-group">
+                <button type="button" class="btn btn-lg btnstateless btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    SAVE RECIPE&nbsp;&nbsp;<span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="javascript:void(0);" onclick="addToTry(2719857)" rel-id="2719857" class="btn-save-try"><i style="margin: 0px 2px 0px 2px;" class="fa fa-bookmark"></i> WANT TO TRY</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" onclick="addFavorite(2719857)" rel-id="2719857" class="btn-save-favorite"><i class="ss ss-heart"></i> FAVORITE</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" onclick="addMadeRecipe(2719857);" rel-id="2719857" class="btn-save-made"><i class="ss ss-check"></i> MADE</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li class="r-state">
+                        <a href="javascript:void(0)" rel-id="2719857" onclick="addthisToFolder()" class="btn-save-folder"><i class="ss ss-folder"></i> CUSTOM FOLDER</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="recipe-rating rc-opt">
+            <span>
+                <a href="#reviews-section"><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i></a>
+            </span>
+                <span>
+                    <span>
+                        <span class="count" style="display: inline; position: relative; top: -2px;">1</span>
+                        <span class="rating" style="display: none;">5</span>
+                    </span>
+                </span>
+        </div>
+        <div class="ready-in rc-opt">
+            <i class="fa fa-clock-o"></i> Ready 12 hours 
+        </div>
+        <div class="yield">
+            <i class="ss ss-users" style="position: relative; bottom: -2px;" title="Recipe yield"></i> 24 Servings
+        </div>
+            <div class="trying light-med-grey hidden-xs"><i class="fa fa-bookmark" style="position: relative; bottom: 1px;" title="133 want to try"></i> 133 want to try</div>
+    </div>
+
+    <div class="layout">
+        <div class="row">
+            <div class="under-line"></div>
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 layout-left">
+
+
+
+
+<style>
+
+    .glide__track {
+        position: relative !important;
+        padding-bottom: 56.25% !important;
+        height: 0 !important;
+        overflow: hidden;
+    }
+
+    .img-resize.img-responsive {
+        position: absolute !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        object-position: center;
+    }
+
+</style>
+<div class="row video-info-container">
+
+    <!-- Glide -->
+    <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div id="RecipeVideo0"></div>
+                    </li>
+                <li class="glide__slide">
+                    <div id="imgId">
+                        <img alt="No-Knead Herb Focaccia" src="https://photos.bigoven.com/recipe/hero/no-knead-herb-focaccia-79674b.jpg" class="img-resize img-responsive" 
+                             style="width:50%" />
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- SLIDER BULLETS -->
+        
+
+        <!-- SLIDER NEXT/PREV -->
+        <!--<div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">< prev</button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next ></button>
+        </div>-->
+
+        <ul class="pager" data-glide-el="controls">
+            <li class="previous" data-glide-dir="<">
+                <a href="#" style="border: none !important; color: #000 !important;">
+                    <span class="glyphicon glyphicon-chevron-left"></span> Previous
+                </a>
+            </li>
+            <li class="next" data-glide-dir=">">
+                <a href="#" style="border: none !important; color: #000 !important;">
+                    Next <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+
+        var glide = new Glide('.glide', {
+            type: 'slider'
+        });
+
+        let activeJwPlayerDivSelector = '.glide__slide--active>div[id^="RecipeVideo"]';
+
+        glide.on('run.before', function () {
+            let activeJwPlayerDiv = document.querySelector(activeJwPlayerDivSelector);
+
+            if (activeJwPlayerDiv) {
+
+                let activeJwPlayer = jwplayer(activeJwPlayerDiv.id);
+                let activeJwPlayerState = activeJwPlayer.getState();
+
+                if (activeJwPlayerState === "playing" || activeJwPlayerState === "buffering") {
+                    activeJwPlayer.pause();
+                }
+            }
+        });
+
+        glide.on('run.after', function () {
+            let activeJwPlayerDiv = document.querySelector(activeJwPlayerDivSelector);
+
+            if (activeJwPlayerDiv) {
+
+                let activeJwPlayer = jwplayer(activeJwPlayerDiv.id);
+                let activeJwPlayerState = activeJwPlayer.getState();
+
+                if (activeJwPlayerState === "paused") {
+                    activeJwPlayer.play();
+                }
+            }
+        });
+
+        $(document).ready(() => {
+            
+            glide.on('build.after', function () {
+                var slideHeight = $('.glide__slide--active').outerHeight();
+                var glideTrack = $('.glide__track').outerHeight();
+                if (slideHeight != glideTrack) {
+                    var newHeight = slideHeight;
+                    $('.glide__track').css('height', newHeight);
+                }
+            });
+
+            glide.on('run.after', function () {
+                var slideHeight = $('.glide__slide--active').outerHeight();
+                var glideTrack = $('.glide__track').outerHeight();
+                if (slideHeight != glideTrack) {
+                    var newHeight = slideHeight;
+                    $('.glide__track').css('height', newHeight);
+                }
+            });
+        });
+
+        glide.mount();
+
+    </script>
+
+    <script>
+        $(document).ready(() => {
+                 setupJWPlayer("RecipeVideo0", "v6WUOZNJ"); 
+        });
+
+    </script>
+
+</div>
+<div class="spacer5"></div>
+<div class="container video-info-container">
+    <div class="row row-user-controller">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 user-control">
+
+            <div class="by-line">
+                <a class="author" href="/user/BigOvenEditorial">
+                    <img class="avatar-img-sm" src="https://bigoven-res.cloudinary.com/image/upload/h_48,w_48,c_fill/avatar/bigoveneditorial=f0de51.jpg" alt="BigOvenEditorial" /> by BigOvenEditorial
+                </a>
+
+</div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 soccial-btns">
+            <div class="icon-controls">
+                <a title="Add to Grocery" onclick="addToGrocery(2719857, 24, false);" class="btn btnstateless btn-default btn-add-grocery" rel-id="2719857">
+                    <i class="ss ss-cart"></i>
+                </a>
+                <a onclick="addToThePlan(2719857, 24)" title="Add to Plan" class="btn btnstateless btn-default btn-add-calendar" rel-id="2719857">
+                    <i class="ss ss-calendar"></i>
+                </a>
+                <a class="btn btnstateless btn-default btn-share share-icon" title="Share this recipe" rel-id="2719857">
+                    <i class="ss ss-share"></i>
+                </a>
+                <a title="Print-friendly format" href="https://www.bigoven.com/recipe/no-knead-herb-focaccia/2719857/print?resizeTo=24" class="btn btnstateless btn-default btn-print" rel-id="2719857">
+                    <i class="ss ss-print"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-12" style="margin-top: 0em; padding-right: 0px; border-bottom: 1px solid #ccc; max-width: 836px;  margin-bottom: 0.9em;"></div>
+    <div class="row video-recipe-user-description">
+        <div class="about-recipe col-xm-12 col-sm-12 col-md-12 col-lg-12">
+            <span id="subhead" class="summary" rel="2719857">
+
+                <p>Our No-Knead Herb Focaccia is impossibly easy. And impossibly delicious. It'll leave you scratching your head and wondering how so few ingredients and such little effort can produce something so exquisitely satisfying. But, don't take our word for it -- bake some up tonight.</p>
+
+                            </span>
+        </div>
+
+    </div>
+</div>
+
+                <div class="spacer5"></div>
+
+                    <div class="col-xs-12 find-rec">
+                        <div class="well">
+                            <h1>Still searching for what to cook ?</h1>
+                            <a href="#LatestRecipesWithVideos">
+                                <h1 style="color: #d9534f">Find the most delicious recipes here</h1>
+                            </a>
+                        </div>
+                    </div>
+                
+                <div>
+
+
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div class="recipe-tabs">
+
+                        <ul class="nav nav-tabs">
+
+                            <li class="nav active">
+                                <a href="#recipe-body" data-toggle="tab">Recipe</a>
+                            </li>
+                            <li class="nav" id="recipe-text-tab" style="display: none;">
+                                <a href="#recipe-text" data-toggle="tab">Text</a>
+                            </li>
+                            <li class="nav">
+                                <a href="#recipe-photos" data-toggle="tab">Photos</a>
+                            </li>
+                            <li class="nav">
+                                <a href="#recipe-nutrition" data-toggle="tab">
+                                    <span class="visible-xs">Nutr</span><span class="hidden-xs">Nutrition</span>
+                                </a>
+                            </li>
+                            <li class="nav">
+                                <a href="#recipe-notes" data-toggle="tab">Notes <span id="noteCount"></span></a>
+                            </li>
+                        </ul>
+                        <style>
+                            @media only screen and (min-width: 736px) {
+                                .timer-row {
+                                    /* float: right; */
+                                    padding-left: 65%;
+                                    margin-bottom: -25px;
+                                }
+
+                                .timer-display {
+                                    display: inline !important;
+                                }
+
+                                .timer-label {
+                                    padding-left: 67%;
+                                }
+
+                                #inputArea {
+                                    width: 260px;
+                                }
+
+                                #input {
+                                    margin-top: -2px;
+                                }
+
+                                .timer-display {
+                                    padding-right: 5px;
+                                }
+                            }
+
+                            .timer-wrapper {
+                                display: inline-table !important;
+                            }
+
+                            @media only screen and (max-width: 414px) {
+                                .timer-label {
+                                    padding-left: 15px;
+                                }
+
+                                .timer-row {
+                                    padding-bottom: 40px;
+                                    padding-left: 0px;
+                                }
+                            }
+                        </style>
+                        <script src="/assets/js/timer.js"></script>
+                        <div class="tab-content clearfix min-width-100">
+                            <div class="tab-pane active" id="recipe-body">
+                                <div class="ingredients">
+                                    <h2>INGREDIENTS</h2>
+                                    <ul class="ingredients-list">
+                                            <li>
+                                                <span class="ingredient  ">
+
+                                                        <span class="amount">1 packet</span>
+                                                            <span class="name">active dry <a href="http://www.bigoven.com/article/recipe/yeast" class="glosslink">yeast</a></span>
+                                                                <span>; </span>
+                                                            (or 2 &#188; teaspoons)
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="ingredient  ">
+
+                                                        <span class="amount">2 cups</span>
+                                                            <span class="name">warm water</span>
+                                                                <span>; </span>
+                                                            divided
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="ingredient  ">
+
+                                                        <span class="amount">2 teaspoons</span>
+                                                            <span class="name">granulated <a href="http://www.bigoven.com/article/recipe/sugar" class="glosslink">sugar</a></span>
+                                                            
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="ingredient  ">
+
+                                                        <span class="amount">5 &#189;  cups</span>
+                                                            <span class="name">bread <a href="http://www.bigoven.com/article/recipe/flour" class="glosslink">flour</a></span>
+                                                            
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="ingredient  ">
+
+                                                        <span class="amount">&#188; cup</span>
+                                                            <span class="name">extra-virgin <a href="http://www.bigoven.com/article/recipe/olive-oil" class="glosslink">olive oil</a></span>
+                                                                <span>; </span>
+                                                            (plus more to grease pans and dough)
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="ingredient  ">
+
+                                                        <span class="amount">1 tablespoon</span>
+                                                            <span class="name">sea salt (or <a href="http://www.bigoven.com/article/recipe/kosher-salt" class="glosslink">kosher salt</a>)</span>
+                                                            
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="ingredient  ">
+
+                                                        <span class="amount"> </span>
+                                                            <span class="name">flaky sea <a href="http://www.bigoven.com/article/recipe/salt" class="glosslink">salt</a></span>
+                                                                <span>; </span>
+                                                            (like Maldon)
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="ingredient                                                         ingHeading
+ ">
+
+                                                        <span class="amount"> </span>
+                                                            <span class="name">Herb Topping</span>
+                                                            
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="ingredient  ">
+
+                                                        <span class="amount">&#188; cup</span>
+                                                            <span class="name">extra-virgin <a href="http://www.bigoven.com/article/recipe/olive-oil" class="glosslink">olive oil</a></span>
+                                                            
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="ingredient  ">
+
+                                                        <span class="amount">4 sprigs</span>
+                                                            <span class="name">fresh <a href="http://www.bigoven.com/article/recipe/rosemary" class="glosslink">rosemary</a> leaves</span>
+                                                            
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="ingredient  ">
+
+                                                        <span class="amount">3  sprigs</span>
+                                                            <span class="name">fresh <a href="http://www.bigoven.com/article/recipe/thyme" class="glosslink">thyme</a> leaves</span>
+                                                            
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="ingredient  ">
+
+                                                        <span class="amount">2 sprigs</span>
+                                                            <span class="name">fresh <a href="http://www.bigoven.com/article/recipe/oregano" class="glosslink">oregano</a></span>
+                                                                <span>; </span>
+                                                            (or various herbs of choice)
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="ingredient  ">
+
+                                                        <span class="amount">&#188;  teaspoon</span>
+                                                            <span class="name">crushed <a href="http://www.bigoven.com/article/recipe/red-pepper" class="glosslink">red pepper</a></span>
+                                                            
+                                                </span>
+                                            </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pull-right" style="padding-right: 1.4em; padding-top: 1.02em;">
+                                    <div class="actionbar hidden-xs" id="actionBarDiv">
+
+                                        
+<div class="btn-group"><button type="button" class="btn btn-default dropdown-toggle btnstateless btnA" data-toggle="dropdown">Edit <span class="caret"></span></button><ul class="dropdown-menu" role="menu"><li><a href="/recipe/2719857/customize">Copy and Customize <img src="/assets/images/icons/badge-pro.png"></a></li><li class="divider"></li><li><a href="/pro">About BigOven Pro</a></li></ul></div>
+
+
+                                    </div>
+                                </div>
+
+                                <div class="pad-left resize-control">
+                                    <div class="servingSize">
+                                        <form id="resizeForm" action="/recipe/no-knead-herb-focaccia/2719857" method="post">
+                                            <div>
+
+                                                
+                                                <span style="float: left;">
+                                                    <input type="text" class="form-control" name="resizeTo" style="width: 60px; margin-right: 5px;" value="24" />
+                                                </span>
+                                                <span style="float: left; vertical-align: middle; margin: 3px 8px 0px 8px;">Servings</span>
+                                                <div style="float: left;">
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn btn-default dropdown-toggle btnstateless" data-toggle="dropdown">
+                                                            Resize <span class="caret"></span>
+                                                        </button>
+                                                        <ul class="dropdown-menu" role="menu">
+                                                            <li>
+                                                                <a href="javascript:void(0)" onclick="resizeRecipe(false);">as posted</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)" onclick="resizeRecipe(true);">to Metric</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <input type="hidden" name="usmetric" id="usmetric" value="                                                                                                              us
+" />
+                                                <input type="hidden" name="id" value="2719857" />
+                                                &nbsp;
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+
+                                <div class="pad-left">
+                                    <h2 style="margin-top: 1.4em;">INSTRUCTIONS</h2>
+                                    <div class="recipe-instructions">
+
+                                            <div id="instr" class="instructions"><p>Herb Topping:</p><p>
+In a small bowl, combine olive oil, herbs, and crushed red pepper. Set aside until ready.</p><p>
+For the dough:</p><p>
+1. In a small saucepan, warm 1 cup water to a lukewarm temperature of 105°F to 110°F on an instant-read thermometer. Pour water into the bowl of a stand mixer and gently whisk in yeast and sugar to dissolve. Allow the yeast to bloom briefly, about 5-10 minutes.</p><p>
+2. Add remaining cup water, flour, and sea salt. With the dough hook attachment on lowest speed, mix until a loose, craggy dough forms and then increase speed to medium-high and mix until a smooth dough begins to wrap around the hook, about 5 to 7 minutes. Turn off the mixer, cover bowl with a damp towel, and allow dough to rest for 10 to 15 minutes. Resume mixing on medium-high for 10 to 15 minutes until dough becomes very elastic and begins tugging away from the sides of the bowl. Dough will be quite sticky, but resist the urge to add additional flour -- dough.</p><p>
+3. For the first rise, drizzle ¼ cup olive oil into the mixing bowl and swirl the sides of the bowl to coat as well as the surface of the dough. Cover and allow to rise in a warm place until doubled in size, about 90 to 120 minutes.</p><p>
+4. Use this time to prepare your herb oil and prep your decorative toppings, if using.</p><p>
+5. For the second rise, drizzle another ¼ cup olive oil on a half sheet pan (or two quarter sheet pans). Then, with well-oiled hands, gingerly raise the dough from the mixing bowl and allow its weight to stretch the dough down upon itself. Repeat this stretching technique 4 to 6 times to help encourage extra rise. Transfer the dough to the sheet pan and stretch in all directions to coax it into rectangular submission. It will likely not comply straight away. Cover with oiled plastic wrap and, after a brief rest (about 10 to 15 minutes), stretch the dough a second time.</p><p>
+6. If you plan to delay baking, now is the time to cover the sheet pan with oiled plastic wrap and place in the refrigerator for up to 24 hours. Bring to room temperature about an hour before baking so that the dough has doubled in height.</p><p>
+7. While the dough is doubling, preheat the oven to 450°F. Arrange the oven racks to both their highest and lowest positions.</p><p>
+8. Once risen and ready to bake, uncover the dough and, with well-oiled hands, dimple the dough by plunging fingers spread wide downward into the bottom of the pan. Bubbles are good, but especially large ones can be gently deflated.</p><p>
+9. Drizzle the focaccia as desired. We recommend a bare minimum of ¼ extra-virgin olive oil and a generous flurry of flaky sea salt, but encourage you to gild the lily here with herbs and garlic aplenty.</p><p>
+10. Place focaccia on the lowest rack and bake until the edges begin to pull away from the sides and corners of the pan, about 15 to 20 minutes. Transfer to the top rack and continue baking until the top is golden brown and bubbles are very well browned, about 5 minutes. Cool in the pan briefly then transfer to a cooling rack until completely cooled.</p><p>
+Possible toppings to decorate:</p><p>
+red onions</p><p>
+shallots</p><p>
+chives</p><p>
+fresh sage</p><p>
+fresh thyme</p><p>
+fresh oregano</p><p>
+fresh dill</p><p>
+fresh parsley</p><p>
+fresh basil</p><p>
+mix of mini sweet peppers</p><p>
+bell peppers</p><p>
+banana peppers</p><p>
+jalapeno peppers</p><p>
+cherry tomatoes</p><p>
+kalamata olives, pitted</p></div>
+
+
+                                    </div>
+                                    <h2>NOTES</h2>
+                                    <div class="overview-notes">
+                                        <p>If ever there is a time to break out the really good bottle of extra-virgin olive oil, this is it!</p>
+                                    </div>
+                                    <div class="alert-editor">
+                                        <div>
+                                            <a href="/recipe/2719857/feedback"><i class="fa fa-comment-o" style="color: #444;"></i> Alert editor</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="recipe-text">
+                                <div class="pull-right" style="margin: 0.8em 1em;">
+                                    <button class="btn btn-copy-clipboard btnstateless btn-default" data-clipboard-target="#recipe-textarea"><i class="fa fa-clipboard"></i> Copy</button>
+                                </div>
+                                <textarea id="recipe-textarea" class="form-control">No-Knead Herb Focaccia
+
+1 packet active dry yeast (or 2 &#188; teaspoons)
+2 cups warm water divided
+2 teaspoons  granulated sugar 
+5 &#189;  cups bread flour 
+&#188; cup extra-virgin olive oil (plus more to grease pans and dough)
+1 tablespoon  sea salt (or kosher salt) 
+  flaky sea salt (like Maldon)
+  Herb Topping 
+&#188; cup extra-virgin olive oil 
+4 sprigs  fresh rosemary leaves 
+3  sprigs  fresh thyme leaves 
+2 sprigs fresh oregano (or various herbs of choice)
+&#188;  teaspoon crushed red pepper 
+
+Herb Topping:
+In a small bowl, combine olive oil, herbs, and crushed red pepper. Set aside until ready.
+
+For the dough:
+1. In a small saucepan, warm 1 cup water to a lukewarm temperature of 105&#176;F to 110&#176;F on an instant-read thermometer. Pour water into the bowl of a stand mixer and gently whisk in yeast and sugar to dissolve. Allow the yeast to bloom briefly, about 5-10 minutes.
+
+2. Add remaining cup water, flour, and sea salt. With the dough hook attachment on lowest speed, mix until a loose, craggy dough forms and then increase speed to medium-high and mix until a smooth dough begins to wrap around the hook, about 5 to 7 minutes. Turn off the mixer, cover bowl with a damp towel, and allow dough to rest for 10 to 15 minutes. Resume mixing on medium-high for 10 to 15 minutes until dough becomes very elastic and begins tugging away from the sides of the bowl. Dough will be quite sticky, but resist the urge to add additional flour -- dough.
+
+3. For the first rise, drizzle &#188; cup olive oil into the mixing bowl and swirl the sides of the bowl to coat as well as the surface of the dough. Cover and allow to rise in a warm place until doubled in size, about 90 to 120 minutes.
+
+4. Use this time to prepare your herb oil and prep your decorative toppings, if using.
+
+5. For the second rise, drizzle another &#188; cup olive oil on a half sheet pan (or two quarter sheet pans). Then, with well-oiled hands, gingerly raise the dough from the mixing bowl and allow its weight to stretch the dough down upon itself. Repeat this stretching technique 4 to 6 times to help encourage extra rise. Transfer the dough to the sheet pan and stretch in all directions to coax it into rectangular submission. It will likely not comply straight away. Cover with oiled plastic wrap and, after a brief rest (about 10 to 15 minutes), stretch the dough a second time.
+
+6. If you plan to delay baking, now is the time to cover the sheet pan with oiled plastic wrap and place in the refrigerator for up to 24 hours. Bring to room temperature about an hour before baking so that the dough has doubled in height.
+
+7. While the dough is doubling, preheat the oven to 450&#176;F. Arrange the oven racks to both their highest and lowest positions.
+
+8. Once risen and ready to bake, uncover the dough and, with well-oiled hands, dimple the dough by plunging fingers spread wide downward into the bottom of the pan. Bubbles are good, but especially large ones can be gently deflated.
+
+9. Drizzle the focaccia as desired. We recommend a bare minimum of &#188; extra-virgin olive oil and a generous flurry of flaky sea salt, but encourage you to gild the lily here with herbs and garlic aplenty.
+
+10. Place focaccia on the lowest rack and bake until the edges begin to pull away from the sides and corners of the pan, about 15 to 20 minutes. Transfer to the top rack and continue baking until the top is golden brown and bubbles are very well browned, about 5 minutes. Cool in the pan briefly then transfer to a cooling rack until completely cooled.
+
+Possible toppings to decorate:
+red onions
+shallots
+chives
+fresh sage
+fresh thyme
+fresh oregano
+fresh dill
+fresh parsley
+fresh basil
+mix of mini sweet peppers
+bell peppers
+banana peppers
+jalapeno peppers
+cherry tomatoes
+kalamata olives, pitted</textarea>
+                            </div>
+                            <div class="tab-pane" id="recipe-photos">
+                                <br />
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="pull-right">
+                                            <a href="/media/upload/recipe/image/2719857" class="btn btn-primary btnstateless"><span class="fa fa-camera add_photo"></span> Add Photo</a>
+                                            <br /><br />
+                                        </div>
+
+                                    </div>
+
+                                        <div id="1303153" style="float: left; min-height: 330px;">
+                                            <a class="fancybox" href="http://images.bigoven.com/image/upload/v1612532518/no-knead-herb-focaccia-79674b.jpg" rel="nofollow">
+                                                <img class="img-thumbnail" alt="no-knead-herb-focaccia-79674b.jpg" src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/no-knead-herb-focaccia-79674b.jpg" style="width: 200px; height: 200px;" />
+                                            </a>
+                                            <p class="caption" style="width: 220px;">
+                                                <br />
+                                                <a class="visible-if-admin" href="/media/editimagecaption/1303153">
+                                                    <img src="/assets/images/icons/edit16.png" alt="edit" />
+                                                </a>
+                                                <text>
+                                                    <img src='https://bigoven-res.cloudinary.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/bigoveneditorial=f0de51.jpg?.Replace("http://images.bigoven.com", "https://bigoven-res.cloudinary.com/") ' class="avatar-img" style="max-height: 24px;" /> BigOvenEditorial
+                                                </text>
+                                            </p>
+                                        </div>
+                                        <div id="1309991" style="float: left; min-height: 330px;">
+                                            <a class="fancybox" href="https://photos.bigoven.com/recipe/hero/no-knead-herb-focaccia-e0e50ecdc1045bc9696840e1.jpg" rel="nofollow">
+                                                <img class="img-thumbnail" alt="no-knead-herb-focaccia-e0e50ecdc1045bc9696840e1.jpg" src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/no-knead-herb-focaccia-e0e50ecdc1045bc9696840e1.jpg" style="width: 200px; height: 200px;" />
+                                            </a>
+                                            <p class="caption" style="width: 220px;">
+                                                <br />
+                                                <a class="visible-if-admin" href="/media/editimagecaption/1309991">
+                                                    <img src="/assets/images/icons/edit16.png" alt="edit" />
+                                                </a>
+                                                <text>
+                                                    <img src='https://bigoven-res.cloudinary.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/pierreregnier.jpg?.Replace("http://images.bigoven.com", "https://bigoven-res.cloudinary.com/") ' class="avatar-img" style="max-height: 24px;" /> pierreregnier
+                                                </text>
+                                            </p>
+                                        </div>
+                                        <div id="0" style="float: left; min-height: 330px;">
+                                            <a class="fancybox" href="https://bigoven-res.cloudinary.com/image/upload/no-knead-herb-focaccia-79674b.jpg            " rel="nofollow">
+                                                <img class="img-thumbnail" alt="no-knead-herb-focaccia-79674b.jpg" src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/no-knead-herb-focaccia-79674b.jpg" style="width: 200px; height: 200px;" />
+                                            </a>
+                                            <p class="caption" style="width: 220px;">
+                                                <br />
+                                                <a class="visible-if-admin" href="/media/editimagecaption/0">
+                                                    <img src="/assets/images/icons/edit16.png" alt="edit" />
+                                                </a>
+                                                <text>
+                                                    <img src='http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/bigoven.jpg?.Replace("http://images.bigoven.com", "https://bigoven-res.cloudinary.com/") ' class="avatar-img" style="max-height: 24px;" /> bigoven
+                                                </text>
+                                            </p>
+                                        </div>
+                                    <div style="clear: both;" class="centered">
+
+                                        <br />
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="recipe-nutrition">
+                                <div class="container">
+                                    <div>
+                                        <div class="visible-if-pro-member">
+                                            <div>
+    <h3>Nutrition</h3>
+    <p><a href="https://www.bigoven.com/recipe/no-knead-herb-focaccia/2719857/nutrition">View line-by-line Nutrition Insights&trade;</a>: Discover which ingredients contribute the calories/sodium/etc.</p>
+    <table>
+        <tr>
+            <td colspan="3">
+                <hr />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                Serving Size:&nbsp;1 Serving (21g)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                Recipe Makes:&nbsp;24 Servings
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <hr />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <b>Calories</b>:&nbsp;2
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                Calories from Fat:&nbsp;1 (50%)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <hr />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Amt Per Serving
+            </td>
+            <td>
+                % DV
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <hr />
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td style="width: 220px;">
+                <b>Total Fat&nbsp;0.1g</b>
+            </td>
+            <td>
+                0 %
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+                &nbsp;&nbsp;Saturated Fat&nbsp;0g
+            </td>
+            <td>
+                0 %
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+                &nbsp;&nbsp;Monounsaturated Fat&nbsp;0g
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+                &nbsp;&nbsp;Polyunsanturated Fat&nbsp;0g
+            </td>
+            <td>
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan="2">
+                <b>Cholesterol&nbsp;0.2mg</b>
+            </td>
+            <td>
+                0 %
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <b>Sodium&nbsp;1.2mg</b>
+            </td>
+            <td>
+                0 %
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <b>Potassium&nbsp;8.3mg</b>
+            </td>
+            <td>
+                0 %
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <b>Total Carbohydrate&nbsp;0.2g</b>
+            </td>
+            <td>
+                0 %
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+                &nbsp;&nbsp;Dietary Fiber&nbsp;0.1g
+            </td>
+            <td>
+                0 %
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+                &nbsp;&nbsp;Sugars, other&nbsp;0.1g
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <b>Protein&nbsp;0.1g</b>
+            </td>
+            <td>
+                0 %
+            </td>
+        </tr>
+        <!--
+        <tr>
+<td colspan="3">
+<hr />
+
+</td></tr>
+-->
+        <tr>
+            <td colspan="3">
+                <hr />
+                Powered by: USDA Nutrition Database
+                <p style="font-size:x-small;width:280px;color:#888888;">Disclaimer:  Nutrition facts are derived from linked ingredients (shown at left in colored bullets) and may or may not be complete.  Always consult a licensed nutritionist or doctor if you have a nutrition-related medical condition.</p>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+
+                                            <a href="/nutrition/about">About Our Nutrition Facts</a>
+                                            <br />
+                                            <br />
+                                        </div>
+                                        <div class="visible-if-not-pro-member">
+                                            <div>
+                                                <br />
+                                                    <p>
+                                                        <b>Calories per serving</b>:
+                                                        <span>
+                                                            <span>2</span>
+                                                        </span>
+                                                    </p>
+                                                    <p>
+                                                        Get detailed nutrition information, including item-by-item nutrition insights, so you can see where the calories, carbs, fat, sodium and more come from.
+                                                    </p>
+                                                    <br />
+                                                    <div class="centered">
+                                                        <a class="btn btn-success btn-lg" href="/pro">Get Detailed Nutrition Facts on Any Recipe</a>
+                                                    </div>
+                                                    <br />
+                                                <br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="recipe-notes">
+                                <div class="pad-left">
+                                    <div id="recipeId" rel-id="2719857" />
+
+                                    <div class="comment_form" style="margin-top: 0.8em;">
+
+
+                                        
+
+<style>
+    .editable:hover {
+        background-color:#fff;
+    }
+</style>
+<table id="notesTable">
+    <tr>
+        <th>Date</th>
+        <th style="width: 70%;">Notes</th>
+        <th></th>
+    </tr>
+    <tr id="addNoteForm">
+        <td class="hidden-xs" style="vertical-align: top;">
+            <input id="noteDate" type="text" name="date" class="form-control" style="cursor: pointer;width: 80px;" />
+        </td>
+        <td style="min-width: 160px;">
+            <textarea id="note" class="form-control" placeholder="My notes on this recipe" name="note" rows="3" style="font-size: 1.4em;height: 90px; width: 100%; float: left; clear: both;"></textarea>
+        </td>
+        <td style="vertical-align: top;">
+            <div class="visible-if-not-pro-member" style="display: none;">
+                <input type="button" id="submit2" class="btn btn-success btnstateless" style="width: 110px;" value="Add" onclick="javascsript:
+    window.location = '/pro';" />
+                <div class="caption" style="margin-left:0.4em; margin-top:0.4em;"><i class="fa fa-star"></i> Jot your own private notes with BigOven Pro</div>
+            </div>
+            <div class="visible-if-pro-member">
+                <input type="button" id="addNoteBtn" onclick="addNote();" class="btn btnstateless btn-primary" value="Add" style="float: right; width: 114px; margin-left: 10px;" />
+            </div>
+            <div id="Div1" style="display: none; float: right; margin-top: 6px;">
+                <img src="/assets/images/icons/ajax-loader.gif" />
+            </div>
+        </td>
+    </tr>
+</table>
+<script>
+    $(document).ready(function () {
+        var noteCount = '0';
+        if (noteCount != "0")
+        { $("#noteCount").html("("+noteCount+")"); }
+
+    });
+    $(".edit-note").click(function (e) {
+        e.stopPropagation();
+        var elId = "note-" + $(this).attr("rel");
+        $("#" + elId).editable('show');
+
+    });
+    
+</script>
+                                        <br />
+                                        <div></div>
+                                        <br />
+                                        <p>What would you serve with this? <a href="/recipe/link/2719857">Link in another recipe</a>.</p><br />
+
+                                        <div id="userTagEditor" class="visible-if-pro-member" style="display: none;">
+                                            <div>
+                                                <br />
+                                                <table style="width: 100%;">
+                                                    <tr>
+                                                        <td style="min-width: 70%; line-height: inherit;">
+                                                            <input style="width: 100%;" type="text" id="tags_2" name="userTagsEntered" value="" class="tags" />
+                                                        </td>
+                                                        <td style="float: right; padding-right: 6.8em;">
+                                                            <a style="color: #ccc;" href="/account/me#usertags" class="light-med-grey">
+                                                                <div class="btn btn-xs btn-default"><i class="fa fa-gear"></i> Manage my tags</div>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="banner" id="LatestRecipesWithVideos">
+
+                        <!--check this again-->
+                        <div class="container">
+                            <div class="banner-content">
+
+                                <div class="banner-titles">
+                                    <h1>What to make this  week</h1>
+                                    <p>
+                                        Keep an eye out for original recipes from the
+                                        <a href="https://bigovenkitchen.com" target="_blank">
+                                            <span> BigOven Kitchen</span>
+                                        </a> every week! 
+                                        <a href="/videos">
+                                            <span> SEE MORE >> </span>
+                                        </a>
+                                    </p>
+                                </div>
+
+                                <div class="banner-recipes">      
+                                        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 text-center" style="padding: .3em;">
+                                            <a href="/recipe/homemade-pierogies-with-bacon-jam/2737037">
+                                                <img alt="Homemade Pierogies with Bacon Jam" class="homepage-category-img"
+                                                     src="https://redirect.bigoven.com/pics/rs/120/homemade-pierogies-with-bacon--bd8917.jpg" />
+                                                <h4 style="margin-bottom: 0; font-size: 1em; color: #383838; font-weight: 400; height: 38px; text-align:center;">Homemade Pierogies with Bacon Jam</h4>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 text-center" style="padding: .3em;">
+                                            <a href="/recipe/mini-berry-pavlovas/2724171">
+                                                <img alt="Mini Berry Pavlovas" class="homepage-category-img"
+                                                     src="https://redirect.bigoven.com/pics/rs/120/mini-berry-pavlovas-4559ed.jpg" />
+                                                <h4 style="margin-bottom: 0; font-size: 1em; color: #383838; font-weight: 400; height: 38px; text-align:center;">Mini Berry Pavlovas</h4>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 text-center" style="padding: .3em;">
+                                            <a href="/recipe/ratatouille/2716707">
+                                                <img alt="Ratatouille " class="homepage-category-img"
+                                                     src="https://redirect.bigoven.com/pics/rs/120/ratatouille-b234dd.jpg" />
+                                                <h4 style="margin-bottom: 0; font-size: 1em; color: #383838; font-weight: 400; height: 38px; text-align:center;">Ratatouille </h4>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 text-center" style="padding: .3em;">
+                                            <a href="/recipe/gnocchi-with-crispy-brussels-and-pancetta/2716691">
+                                                <img alt="Gnocchi with Crispy Brussels and Pancetta " class="homepage-category-img"
+                                                     src="https://redirect.bigoven.com/pics/rs/120/gnocchi-with-crispy-brussels-a-cea0b6.png" />
+                                                <h4 style="margin-bottom: 0; font-size: 1em; color: #383838; font-weight: 400; height: 38px; text-align:center;">Gnocchi with Crispy Brussels and Pancetta </h4>
+                                            </a>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                <style>
+                    /* .row-flex { */
+                    /*     display: inline-flex; */
+                    /*     flex-direction: row; */
+                    /*align-content: space-around;*/
+                    /*align-self: auto;*/
+                    /*flex-wrap: wrap;*/
+                    /* } */
+                    @media only screen and (min-width : 320px) and (max-width : 639px) {
+                        .row-flex {
+                            display: grid !important;
+                        }
+                    }
+
+                    @media only screen and (min-width: 667px) and (max-width: 991px) {
+                        .recipe-mobile-view {
+                            width: 33.33% !important;
+                        }
+                    }
+
+                    @media only screen and (max-width: 991px) {
+                        .mobile-padding {
+                            padding: 1em;
+                        }
+                    }
+                </style>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="modern" style="padding-bottom: 12px; border-bottom: 1px solid #ccc; max-width: 300px; margin-bottom: 0.7em;">MORE IDEAS</h2>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="row row-flex">
+
+                                                <a href="https://www.bigoven.com/recipe/focaccia/783404"><div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 recipe-mobile-view mobile-padding"><div class="mini-tile-300x250"><img class="img-responsive" src="https://bigoven-res.cloudinary.com/image/upload/w_300,c_fill,h_250/focaccia-12.jpg"><div class="recipe-title" class=""><h2>Focaccia </h2></div><div class="by-line"><div><a href="https://www.bigoven.com/user/jenko1982"> <div><img class="img-responsive avatar-img" src="https://bigoven-res.cloudinary.com/image/upload/h_48,w_48,c_fill/avatar/avatar-default.png"><span>by jenko1982</span></div></a></div></div></div></div></a>
+                                                
+                                                <a href="https://www.bigoven.com/recipe/focaccia/2449221"><div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 recipe-mobile-view mobile-padding"><div class="mini-tile-300x250"><img class="img-responsive" src="https://bigoven-res.cloudinary.com/image/upload/w_300,c_fill,h_250/focaccia-2449221.jpg"><div class="recipe-title" class=""><h2>Focaccia</h2></div><div class="by-line"><div><a href="https://www.bigoven.com/user/jamieoliverrecipes"> <div><img class="img-responsive avatar-img" src="https://bigoven-res.cloudinary.com/image/upload/h_48,w_48,c_fill/avatar/avatar-default.png"><span>by jamieoliverrecipes</span></div></a></div></div></div></div></a>
+                                                
+                                                <a href="https://www.bigoven.com/recipe/focaccia/1666201"><div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 recipe-mobile-view mobile-padding"><div class="mini-tile-300x250"><img class="img-responsive" src="https://bigoven-res.cloudinary.com/image/upload/w_300,c_fill,h_250/focaccia-005b33-276931216060a09720a2056a.jpg"><div class="recipe-title" class=""><h2>Focaccia</h2></div><div class="by-line"><div><a href="https://www.bigoven.com/user/pamelasproductsrecipes"> <div><img class="img-responsive avatar-img" src="https://bigoven-res.cloudinary.com/image/upload/h_48,w_48,c_fill/avatar/avatar-default.png"><span>by pamelasproductsrecipes</span></div></a></div></div></div></div></a>
+                                                
+                                    </div>
+                            </div>
+                </div>
+                <div>
+                    <a name="reviews-section"></a>
+                    <div class="review-this">
+                        <div class="comment_form" style="clear: both;">
+
+                            <div class="container" style="padding-left: 5px;">
+                                <br />
+                                <div class="pull-left">
+                                    <h2 style="margin-top: 3px; margin-left: 4px;">REVIEW THIS RECIPE</h2>
+                                </div>
+                                <div class="pull-right">
+                                    <div>
+                                        <div style="margin-top: 2px;">
+                                            <input name="starrating" type="radio" class="star" value="1" title="Awful" />
+                                            <input name="starrating" type="radio" class="star" value="2" title="Poor" />
+                                            <input name="starrating" type="radio" class="star" value="3" title="OK" />
+                                            <input name="starrating" type="radio" class="star" value="4" title="Very Good" />
+                                            <input name="starrating" type="radio" class="star" value="5" title="Excellent" />
+                                            <input type="hidden" id="starRatingValue" name="starRatingValue" value="0" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <textarea id="mycomment" placeholder="What did you like? What didn't you like? What tip would you tell a friend to make it perfectly?" name="comment" rows="3"></textarea>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div>
+                                        <input type="hidden" class="form-control" value="checked" id="make-again" name="make-again" checked />
+                                    </div>
+                                    <div class="visible-if-authenticated" style="display: inline-block; float: left; margin-right: 1em;">
+                                        <div class="pad-left">
+                                            <button id="submit-review-button" onclick="verifyOneStarAndSubmit();" class="btnstateless btn btn-lg btn-primary pad-left" value="Add my review">Add My Review</button>
+                                        </div>
+                                    </div>
+                                    <div class="visible-if-unauthenticated">
+                                        <div class="pad-left">
+                                            <button class="btn btn-lg btn-primary pad-left" onclick="signInToAddReview();">Sign in to add review</button>
+                                        </div>
+                                    </div>
+                                    <div id="wait" style="display: none; float: left; margin-top: 4px;" />
+                                    <img src="/assets/images/icons/ajax-loader.gif" alt="loader" />
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <div class="light-accent-box">
+                    <h2>REVIEWS</h2>
+                </div>
+                <div id="recipe-review-list">
+                    
+
+
+<div class="reviews">
+                        <div class="review-block">
+                    <div id="review602d5785e0cc0f27c4f9657b">
+                        <div style="clear: both;">
+                            <div style="clear: both;" class="author-name">
+                                <img src="https://bigoven-res.cloudinary.com/image/upload/h_48,w_48,c_fill/avatar/lindahall3.jpg" class="avatar-img-sm" />
+                                <a href="/user/lindahall3">lindahall3</a>
+                                    <span class="stars" style="float: right; clear: both;">&nbsp;&nbsp;</span>
+                            </div>
+                            <div class="comment">
+                                    <span class="cannotEdit" style="font-size: 1em;" rel="311003">This looks wonderful and I want to make it, but a gluten free version? Is it possible?  What changes/adjustments would be needed? </span>
+                            </div>
+                        </div>
+
+                        <div class="below-review-bar">
+                            <div class="pull-left" style="color: #ccc;">
+6d                            </div>
+
+
+                        </div>
+                    </div>
+                    
+                    
+                    <!-- replies -->
+
+                                <a href="javascript:void(0);" onclick="$('#replies-602d5785e0cc0f27c4f9657b').toggle();" style="float:right;">1 reply</a><br />
+                            <div class="reply-list" id="replies-602d5785e0cc0f27c4f9657b" rel="602d5785e0cc0f27c4f9657b">
+
+                                            <div style="clear:both; margin-left: 1.2em;">
+                                                <img src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/bigoveneditorial=f0de51.jpg" style="width:24px; margin-right: 6px;" />
+                                                <a style="font-weight: bold;" href="/user/BigOvenEditorial">
+                                                    BigOvenEditorial
+                                                </a>
+
+                                                <span style="float:right; color: #ccc;">6d</span>
+                                            </div>
+                                                <div style="clear: both;" class="commentReplies">While it won’t be as supple or as elastic as conventional all-purpose, you should be able to swap out equal parts gluten-free all-purpose flour for this recipe. (We recommend Bob’s Red Mill or King Arthur flour.) You will, however, need to use a mixer in order to thoroughly work the dough as it will be quite dense and sticky. Let us know how you get on -- and happy baking!</div>
+                                <a href="javascript:void(0);" id="reply-btn-602d5785e0cc0f27c4f9657b" class="pull-right" onclick="replyMessageNew('reply-btn-602d5785e0cc0f27c4f9657b', 311003);">Reply</a>
+                                <br/>
+                            </div>
+
+                    </div>
+                    <div class="review-block">
+                    <div id="review601e57eb27d4377f840f0508">
+                        <div style="clear: both;">
+                            <div style="clear: both;" class="author-name">
+                                <img src="https://bigoven-res.cloudinary.com/image/upload/h_48,w_48,c_fill/avatar/pierreregnier.jpg" class="avatar-img-sm" />
+                                <a href="/user/pierreregnier">pierreregnier</a>
+                                    <span class="stars" style="float: right; clear: both;"><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i>&nbsp;&nbsp;</span>
+                            </div>
+                            <div class="comment">
+                                    <span class="cannotEdit" style="font-size: 1em;" rel="310742">This is incredibly simple to do, thanks a lot, I love Focaccia.</span>
+                            </div>
+                        </div>
+
+                        <div class="below-review-bar">
+                            <div class="pull-left" style="color: #ccc;">
+2w                            </div>
+                              <a href="javascript:void(0);" id="reply-btn-601e57eb27d4377f840f0508" class="pull-right accent" onclick="replyMessageNew('reply-btn-601e57eb27d4377f840f0508', 310742);">Reply</a>
+
+
+                        </div>
+                    </div>
+                    
+                    
+                    <!-- replies -->
+
+                            <div class="reply-list" id="replies-601e57eb27d4377f840f0508" rel="601e57eb27d4377f840f0508">
+
+                                <a href="javascript:void(0);" id="reply-btn-601e57eb27d4377f840f0508" class="pull-right" onclick="replyMessageNew('reply-btn-601e57eb27d4377f840f0508', 310742);">Reply</a>
+                                <br/>
+                            </div>
+
+                    </div>
+                    <div class="review-block">
+                    <div id="review601de3b8e0cc0f31e04f6a13">
+                        <div style="clear: both;">
+                            <div style="clear: both;" class="author-name">
+                                <img src="https://bigoven-res.cloudinary.com/image/upload/h_48,w_48,c_fill/avatar/kcinaz.jpg" class="avatar-img-sm" />
+                                <a href="/user/KCinAZ">KCinAZ</a>
+                                    <span class="stars" style="float: right; clear: both;">&nbsp;&nbsp;</span>
+                            </div>
+                            <div class="comment">
+                                    <span class="cannotEdit" style="font-size: 1em;" rel="310733">Please let me know what size sheet pan.</span>
+                            </div>
+                        </div>
+
+                        <div class="below-review-bar">
+                            <div class="pull-left" style="color: #ccc;">
+2w                            </div>
+
+
+                        </div>
+                    </div>
+                    
+                    
+                    <!-- replies -->
+
+                                <a href="javascript:void(0);" onclick="$('#replies-601de3b8e0cc0f31e04f6a13').toggle();" style="float:right;">1 reply</a><br />
+                            <div class="reply-list" id="replies-601de3b8e0cc0f31e04f6a13" rel="601de3b8e0cc0f31e04f6a13">
+
+                                            <div style="clear:both; margin-left: 1.2em;">
+                                                <img src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/bigoveneditorial=f0de51.jpg" style="width:24px; margin-right: 6px;" />
+                                                <a style="font-weight: bold;" href="/user/BigOvenEditorial">
+                                                    BigOvenEditorial
+                                                </a>
+
+                                                <span style="float:right; color: #ccc;">2w</span>
+                                            </div>
+                                                <div style="clear: both;" class="commentReplies">Hi there! We used a basic half-sheet (18x13) baking pan for this recipe, but you could split the dough into halves and bake on two (13x9) quarter sheet pans instead. </div>
+                                <a href="javascript:void(0);" id="reply-btn-601de3b8e0cc0f31e04f6a13" class="pull-right" onclick="replyMessageNew('reply-btn-601de3b8e0cc0f31e04f6a13', 310733);">Reply</a>
+                                <br/>
+                            </div>
+
+                    </div>
+</div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of Layout Div-->
+    <style>
+        .ad-possition {
+            height: 300px;
+        }
+
+        #sidebar {
+            float: left;
+        }
+
+        #skm-ad-flexrec-1 {
+            margin-top: 0;
+        }
+
+        #skm-ad-medrec-1 {
+            margin-bottom: 10px;
+        }
+    </style>
+
+    <!--Begining of Layout Right Div -->
+    <div class="col-xs-12 col-sm-4 layout-right">
+        <div id="sidebar" class="hidden-sm hidden-xs hidden-md visible-if-not-pro-member">
+            <!-- BLOGHER ADS Begin 300x250 ad -->
+            <div id="skm-ad-medrec-1" class="ad-possition"></div>
+            <script type="text/javascript">
+                blogherads.adq.push(['medrec', 'skm-ad-medrec-1']);
+            </script>
+            <!-- BLOGHER ADS End 300x250 ad -->
+            <!-- BLOGHER ADS Begin 300x600 ad -->
+            <div id="skm-ad-flexrec-1"></div>
+            <script type="text/javascript">
+                blogherads.adq.push(['flexrec', 'skm-ad-flexrec-1']);
+            </script>
+            <!-- BLOGHER ADS End 300x600 ad -->
+        </div>
+
+        <!--Wait for ads then load scroll script -->
+        <script>
+            var ads = ads || {};
+            ads.utils = {
+                init: function () {
+                    this.waitForIt('#skm-ad-flexrec-1', '#sidebar', ads.utils.adsPlacement);
+                },
+                waitForIt: function (el, container, action) {
+                    $el = (typeof (el) == 'object' && el instanceof jQuery) ? el : $(el);
+                    $container = (typeof (container) == 'object' && container instanceof jQuery)
+                        ? container
+                        : $(container);
+
+                    if ($container.length > 0) {
+                        var timeout = null;
+
+                        if (!timeout) {
+
+                            if ($el.length <= 0) {
+                                timeout = setTimeout(function () {
+                                    clearTimeout(timeout);
+                                    timeout = null;
+                                    ads.utils.waitForIt($el, $container, action);
+                                },
+                                    250);
+
+                            } else {
+                                action();
+
+                            }
+                        }
+
+                    }
+
+                },
+
+                adsPlacement: function () {
+                    //                    if (!!$('#skm-ad-flexrec-1').length) { // make sure "#sticky" element exists
+                    var el = $('#skm-ad-flexrec-1');
+                    var stickyTop = $('#skm-ad-flexrec-1').offset().top;
+                    var footerTop = $('#footer').offset().top;
+                    var bannerHeight = $('#banner_bottom').outerHeight();
+
+
+                    $(window).scroll(function () { // scroll event
+
+                        var stickyHeight = $('#skm-ad-flexrec-1').height();
+                        var limit = (footerTop - bannerHeight) - stickyHeight - 20;
+                        var windowTop = $(window).scrollTop();
+
+                        if (stickyTop < windowTop) {
+                            el.css({ position: 'fixed', top: 10 });
+                        } else {
+                            el.css('position', 'static');
+                        }
+
+                        if (limit < windowTop) {
+                            var diff = limit - windowTop;
+                            el.css({ top: diff });
+                        }
+                    });
+                    //                    }
+                }
+
+            };
+
+            if (document.readyState === 'complete') {
+                ads.utils.init();
+            } else {
+                $(document).ready(function () {
+                    ads.utils.init();
+                });
+            }
+        </script>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+</div>
+<!--End off class="recipe-container modern"-->
+
+
+    <div class="visible-if-admin">
+
+        <div style="margin-bottom: 2em;">
+            <h4>Tags [Admin]</h4>
+            <div style="clear: both; margin-top: 10px;">
+                <div id="editTagPanel" style="display: none; border: 1px dashed silver; padding: 10px;">
+                    <form action="/utils/posttags" method="post" id="tagform-full">
+                        <input type="hidden" name="recipeid" value="2719857" />
+                        <input type="text" id="tags_1" name="tagsEntered" value="white-meat-free,nut-free,contains-gluten,red-meat-free,shellfish-free,dairy-free,pescatarian" class="tags" />
+                        <p>The best tags are ones that the general public finds useful -- e.g., Simple, Vegan, Chocolate, Easy, Advance, etc.</p>
+                        <input type="submit" value="Submit" class="btn btn-primary btn-xs btnstateless" onclick=" hideEdit(); " />
+                        <input type="button" value="Cancel" class="btn btn-primary btn-xs btnstateless" onclick=" cancelEditTags(); " />
+
+                    </form>
+                </div>
+                <div class="tagsinput" id="tagDisplay">
+                    <span class="tag"><a href="/recipes/white-meat-free/tag">white-meat-free</a></span> <span class="tag"><a href="/recipes/nut-free/tag">nut-free</a></span> <span class="tag"><a href="/recipes/contains-gluten/tag">contains-gluten</a></span> <span class="tag"><a href="/recipes/red-meat-free/tag">red-meat-free</a></span> <span class="tag"><a href="/recipes/shellfish-free/tag">shellfish-free</a></span> <span class="tag"><a href="/recipes/dairy-free/tag">dairy-free</a></span> <span class="tag"><a href="/recipes/pescatarian/tag">pescatarian</a></span>
+                    <span style="background: none; background-image: none;">
+                        <a onclick="editTags();" class="btn btn-default btn-xs btnstateless" id="editTagLink">Edit Tags</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="admin-panel">
+            <a href="/recipe/zapcache/2719857" class="btn btn-default"><span class="fa fa-bolt"></span> Zap cache</a>
+            <a href="javascript:void(0);" onclick="killPhoto(2719857);" class="btn btn-default"><span class="fa fa-trash"></span> Kill HeroPhoto</a>
+
+            <a href="/recipe/2719857/bitflag" class="btn btn-default"><span class="fa fa-check-square"></span> Bitflags</a>
+            <a href="/admin/editreviews/2719857" class="btn btn-default"><span class="fa fa-star"></span> Edit Reviews</a>
+            <a href="/admin/senddmca/2719857" class="btn btn-default"><span class="fa fa-eject"></span> DMCA</a>
+            <a href="/admin/recipe/recalcrating/2719857" class="btn btn-default">Recalc Rating</a>
+            <a href="/admin/recipe/retag/2719857" class="btn btn-default">Queue TagBot</a>
+            <a href="javascript:void(0);" onclick="openSpotlightPanel(2719857);" class="btn btnstateless btn-default">+<span class="fa fa-lightbulb-o"></span> Spotlight</a>
+        </div>
+        <div id="spotlightPanel" style="margin-top: 1.5em;"></div>
+    </div>
+
+
+
+<script>
+
+    function showSuggestDescription() {
+        $(".about-recipe").html(
+            "<textarea id=\"suggested-description\" class=\"form-control\" rows=3 cols=60 style=\"margin-top:0.6em;\" placeholder=\"Know this recipe? Suggest a better 1-3 sentence summary. (What are the flavors? Who might enjoy it? When might you serve it? What would you serve it with? etc.)\"></textarea><div><a href=\"javascript:void(0);\" onclick=\"submitSuggestedDescription();\" class=\"btn btn-primary btn-xs\">Submit</a>&nbsp;&nbsp;<a href=\"javascript:void(0);\" onclick=\"cancelSuggestedDescription();\" class=\"btn btnstateless btn-default btn-xs\">Cancel</a></div>");
+        $("#suggested-description").focus();
+    }
+
+    function submitSuggestedDescription() {
+        var suggestedDescription = $("#suggested-description").val();
+        $.post("/utils/suggestrecipedescription",
+            { recipeId: 2719857, description: suggestedDescription },
+            function() {});
+        sweetAlert("Thanks!", "Submitted to editors. Thanks for helping make BigOven better!");
+        cancelSuggestedDescription();
+    }
+
+    function cancelSuggestedDescription() {
+        $(".about-recipe")
+            .html(
+                "(reload page)<a href=\"javascript:void(0);\" onclick=\"showSuggestDescription();\" class=\"pull-right text-smaller visible-if-authenticated\" style=\"color:#c3c3c3\">Suggest a better description</a>");
+    }
+
+    function editTags() {
+        $("#editTagPanel").show();
+        $("#tagDisplay").hide();
+    }
+
+    function cancelEditTags() {
+        $("#editTagPanel").hide();
+        $("#tagDisplay").show();
+    }
+
+    function removeTag(e) {
+    }
+
+    function updateUserTags() {
+        var userTags = $("#tags_2").val();
+        $.post("/utils/recipe/usertag",
+            { recipeId: 2719857, tags: userTags },
+            function() {
+            });
+
+    }
+
+    try {
+        $('#tags_1').tagsInput({ width: 'auto', interactive: true, onRemoveTag: removeTag, defaultText: 'Add a tag' });
+        $('#tags_2').tagsInput({
+            autocomplete_url: '/utils/usertags/autocomplete',
+            width: 'auto',
+            //interactive: true,
+            onRemoveTag: updateUserTags,
+            onAddTag: updateUserTags,
+            defaultText: 'Add tag'
+        });
+
+    } catch (e) {
+    };
+
+    function verifyOneStarAndSubmit() {
+        $("#wait").show();
+        var txt = $('textarea#mycomment').val();
+        if (txt == "") {
+            sweetAlert("Please enter a comment.");
+            $("#wait").hide();
+            return false;
+        }
+
+        rating = $(".star-rating-control").find('.star-rating-on').length;
+        $("#starRatingValue").attr('value', rating);
+
+        if (rating === 1) {
+            var ans = confirm(
+                "Giving a recipe 1-star means you made it and think it is AWFUL.  On BigOven, 1 star=Awful, 5 star=Excellent.\n\nIf you're simply remembering it for later, click Try to the right.  \n\nGive this recipe an AWFUL rating?");
+            if (!ans) return false;
+            if (ans === true) {
+                var text = $('textarea#mycomment').val();
+                if (text.length <= 30) {
+                    alert(
+                        "Before we can submit this rating, please enter a longer comment specifying what you didn't care for, and what might improve this recipe for other cooks consider this recipe.  Please be kind -- we email this to the cook who took the time to post this recipe.");
+                    $("#submitreview").show();
+                    $("#submitreview").button('reset');
+                    $("#wait").hide();
+                    return false;
+                }
+                submitReviewAndUpdate();
+                $("#wait").fadeOut();
+                return true;
+            }
+        }
+        submitReviewAndUpdate();
+        return true;
+    }
+
+    function signInToAddReview() {
+        window.location = "/account/login?ReturnUrl=%2frecipe%2fno-knead-herb-focaccia%2f2719857#reviews-section";
+    }
+
+    function submitReviewAndUpdate() {
+        $("#wait").show();
+        var comment = $("#mycomment").val();
+        $("#submit-review-button").attr("disabled");
+        var rating = $(".star-rating-control").find('.star-rating-on').length;
+
+        $.post("/utils/commentrating",
+            { recipeId: 2719857, notes: comment, rating: rating },
+            function(result) {
+                // update area
+                $.ajax({
+                        url: "/utils/reviewrepliesmodern?recipeid=2719857",
+                        type: "GET"
+                    })
+                    .done(function(partialViewResult) {
+                        $("#recipe-review-list").html(partialViewResult);
+                        $("#wait").hide();
+                        $("#mycomment").val("");
+                        $('.star-rating-control').rating('select', false);
+                        $("#submit-review-button").removeAttr("disabled");
+                    });
+            });
+    }
+
+
+</script>
+
+    <script type="application/ld+json">
+        {
+        "@context": "http://schema.org/",
+        "@type": "Recipe",
+        "name": "No-Knead Herb Focaccia",
+        "author": "BigOvenEditorial",
+        "image": "https://photos.bigoven.com/recipe/hero/no-knead-herb-focaccia-79674b.jpg",
+        "description": "&quot;Our No-Knead Herb Focaccia is impossibly easy. And impossibly delicious. It\u0027ll leave you scratching your head and wondering how so few ingredients and such little effort can produce something so exquisitely&#160;satisfying. But, don\u0027t take our word for it -- bake some up tonight.&#160;&quot;",
+            
+                "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5",
+                "reviewCount": "1",
+                "bestRating": "5",
+                "worstRating": "0"
+                },
+            
+        "prepTime": "PT25M",
+        "totalTime": "PT12H",
+        "recipeCategory": "Bread",
+        "recipeCuisine": "Italian",
+        "recipeYield": "24",
+        "keywords": "white meat free, nut free, contains gluten, red meat free, shellfish free, dairy free, pescatarian",
+        "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "2 calories",
+        "fatContent": "0.0816344254758325 g",
+        "carbohydrateContent": "0.199958265882293 g",
+        "cholesterolContent": "0.155729166219071 mg",
+        "fiberContent": "0.110702244487001 g",
+        "proteinContent": "0.133798586494011 g",
+        "saturatedFatContent": "0.0386162663043889 g",
+        "servingSize": "1 1 Serving (21g)",
+        "sodiumContent": "1.19938596631195 mg",
+        "sugarContent": "0.0892560213952928 g",
+        "transFatContent": "0.0131417293773331 g"
+        },
+        "recipeIngredient": ["1 packet active dry yeast (or 2 ¼ teaspoons)","2 cups warm water divided","2 teaspoons  granulated sugar ","5 ½  cups bread flour ","¼ cup extra-virgin olive oil (plus more to grease pans and dough)","1 tablespoon  sea salt (or kosher salt) ","  flaky sea salt (like Maldon)","  Herb Topping ","¼ cup extra-virgin olive oil ","4 sprigs  fresh rosemary leaves ","3  sprigs  fresh thyme leaves ","2 sprigs fresh oregano (or various herbs of choice)","¼  teaspoon crushed red pepper "]
+        ,
+        "recipeInstructions": [
+        "&quot;Herb Topping:\r\nIn a small bowl, combine olive oil, herbs, and crushed red pepper. Set aside until ready.\r\n\r\nFor the dough:\r\n1. In a small saucepan, warm 1 cup water to a lukewarm temperature of 105&#176;F to 110&#176;F on an instant-read thermometer. Pour water into the bowl of a stand mixer and gently whisk in yeast and sugar to dissolve. Allow the yeast to bloom briefly, about 5-10 minutes.\r\n\r\n2. Add remaining cup water, flour, and sea salt. With the dough hook attachment on lowest speed, mix until a loose, craggy dough forms and then increase speed to medium-high and mix until a smooth dough begins to wrap around the hook, about 5 to 7 minutes. Turn off the mixer, cover bowl with a damp towel, and allow dough to rest for 10 to 15 minutes. Resume mixing on medium-high for 10 to 15 minutes until dough becomes very elastic and begins tugging away from the sides of the bowl. Dough will be quite sticky, but resist the urge to add additional flour -- dough.\r\n\r\n3. For the first rise, drizzle &#188; cup olive oil into the mixing bowl and swirl the sides of the bowl to coat as well as the surface of the dough. Cover and allow to rise in a warm place until doubled in size, about 90 to 120 minutes.\r\n\r\n4. Use this time to prepare your herb oil and prep your decorative toppings, if using.\r\n\r\n5. For the second rise, drizzle another &#188; cup olive oil on a half sheet pan (or two quarter sheet pans). Then, with well-oiled hands, gingerly raise the dough from the mixing bowl and allow its weight to stretch the dough down upon itself. Repeat this stretching technique 4 to 6 times to help encourage extra rise. Transfer the dough to the sheet pan and stretch in all directions to coax it into rectangular submission. It will likely not comply straight away. Cover with oiled plastic wrap and, after a brief rest (about 10 to 15 minutes), stretch the dough a second time.\r\n\r\n6. If you plan to delay baking, now is the time to cover the sheet pan with oiled plastic wrap and place in the refrigerator for up to 24 hours. Bring to room temperature about an hour before baking so that the dough has doubled in height.\r\n\r\n7. While the dough is doubling, preheat the oven to 450&#176;F. Arrange the oven racks to both their highest and lowest positions.\r\n\r\n8. Once risen and ready to bake, uncover the dough and, with well-oiled hands, dimple the dough by plunging fingers spread wide downward into the bottom of the pan. Bubbles are good, but especially large ones can be gently deflated.\r\n\r\n9. Drizzle the focaccia as desired. We recommend a bare minimum of &#188; extra-virgin olive oil and a generous flurry of flaky sea salt, but encourage you to gild the lily here with herbs and garlic aplenty.\r\n\r\n10. Place focaccia on the lowest rack and bake until the edges begin to pull away from the sides and corners of the pan, about 15 to 20 minutes. Transfer to the top rack and continue baking until the top is golden brown and bubbles are very well browned, about 5 minutes. Cool in the pan briefly then transfer to a cooling rack until completely cooled.\r\n\r\nPossible toppings to decorate:\r\nred onions\r\nshallots\r\nchives\r\nfresh sage\r\nfresh thyme\r\nfresh oregano\r\nfresh dill\r\nfresh parsley\r\nfresh basil\r\nmix of mini sweet peppers\r\nbell peppers\r\nbanana peppers\r\njalapeno peppers\r\ncherry tomatoes\r\nkalamata olives, pitted&quot; "
+        ]
+        }
+    </script>
+
+<script>
+    function resizeRecipe(convertMetric) {
+        if (convertMetric) {
+            $("#usmetric").val('metric');
+            $("#resizeForm").submit();
+        } else {
+            $("#usmetric").val('us');
+            $("#resizeForm").submit();
+        }
+    }
+
+    function addthisToFolder() {
+        // populate folders
+        injectDialogIfNotPresent("myFoldersDlg");
+        $("#myFoldersDlg").modal();
+        $("#folderList").html("");
+        if (boUser.UserID > 0) {
+            $.get('/utils/myfolders',
+                function(data) {
+                    for (var i = 0; i < data.length; i++) {
+                        if (data[i].Name !== "Added") {
+                            $("#folderList")
+                                .append(
+                                    "<li class=\"folderLi\" style=\"list-style-type:none;\"><a href=\"javascript:void(0);\" onclick=\"addRecipeToFolder('" +
+                                    data[i].Name.replace(/'/g, "\\'") +
+                                    "');\"><span class=\"glyphicon glyphicon-folder-close pad15r\"></span>" +
+                                    data[i].Name +
+                                    " (" +
+                                    data[i].Count +
+                                    ")</a></li>");
+                        }
+                    }
+                    if (data.length === 0) {
+                        $("#folderMessage")
+                            .html(
+                                "<div class='well'><p>You have not created any custom recipe folders. Recipe folders are one of the time-saving features of <a href='/pro'>BigOven Pro</a> membership.</p></div>");
+                    }
+                });
+        }
+    }
+
+    function addRecipeToFolder(name) {
+        $("#myFoldersDlg").modal('hide');
+        $.post('/utils/addrecipetofolder',
+            { id: 2719857, folderName: name },
+            function(data) {
+                $(function() {
+                    new PNotify({
+                        title: 'Added to <i class="fa fa-folder-open"></i> ' + name,
+                        text: 'See <a href="/myrecipes">My Recipes</a>',
+                        width: 600
+                    });
+                });
+            });
+    }
+
+    try {
+        $("#noteDate").datepicker();
+        $("#noteDate").val('2/24/2021 ');
+    } catch (e) {
+    }
+
+    $(document).on(
+        'click',
+        '.share-icon',
+        function() {
+            shareRecipe(
+                2719857,
+                "No-Knead-Herb-Focaccia",
+                "https://photos.bigoven.com/recipe/hero/no-knead-herb-focaccia-79674b.jpg?h=320&amp;w=320",
+                "https://www.bigoven.com/recipe/no-knead-herb-focaccia/2719857");
+        });
+
+    function toggleMoreInfo() {
+        $(".info-box").css("overflow", "visible").css("max-height", "1200px");
+        $("#more-info-box").hide();
+    }
+
+    $(document).ready(function() {
+        // get state
+
+        var element = document.getElementsByClassName("info-box")[0];
+
+        if (element !== undefined && (element.offsetHeight < element.scrollHeight || element.offsetWidth < element.scrollWidth)) {
+            $("#more-info-box").show();
+        }
+        else {
+            // your element doesn't have overflow
+        }
+
+        if (false) {
+            if (false) {
+                // insert script
+                var clipboard = new Clipboard('.btn-copy-clipboard');
+                clipboard.on('success',
+                    function(e) {
+                        new PNotify({
+                            title: 'Recipe copied to clipboard',
+                            width: 600
+                        });
+                    });
+                $("#recipe-text-tab").show();
+            }
+        }
+
+
+        $.get("/utils/me/lists",
+            function(response) {
+                var favorites = response.favorites;
+                var trySoons = response.trySoons;
+                var isRecipeFavorite = favorites.indexOf(2719857) >= 0;
+                var isRecipeTry = trySoons.indexOf(2719857) >= 0;
+                if (isRecipeTry) {
+                    $(".btn-save-try[rel-id=" + 2719857 + "]").replaceWith(
+                        '<a href="javascript:void(0);" onclick="removeFromTry(' +
+                        2719857 +
+                        ')" rel-id="' +
+                        2719857 +
+                        '" class="btn-save-try active-on"><i style="margin: 0px 3px 0px 2px;" class="fa fa-bookmark"></i> WANT TO TRY</a>');
+                }
+                if (isRecipeFavorite) {
+                    $(".btn-save-favorite[rel-id=" + 2719857 + "]").replaceWith(
+                        '<a href="javascript:void(0);" onclick="removeFavorite(' +
+                        2719857 +
+                        ')" rel-id="' +
+                        2719857 +
+                        '" class="btn-save-favorite active-on"><i style="margin:0px 2px 0px 2px;" class="ss ss-heart"></i> FAVORITE</a>');
+                }
+            });
+
+        $.get("/utils/havemaderecipe?recipeId=" + 2719857,
+            function(response) {
+                var isRecipeMade = response;
+                if (isRecipeMade) {
+                    $(".btn-save-made[rel-id=" + 2719857 + "]").replaceWith(
+                        '<a href="javascript:void(0);" onclick="removeMadeRecipe(' +
+                        2719857 +
+                        ')" rel-id="' +
+                        2719857 +
+                        '" class="btn-save-made active-on"><i style="margin:0px 2px 0px 2px;" class="ss ss-check"></i> MADE</a>');
+                }
+            });
+
+
+        setTimeout(function() { $.post("/utils/signal/recipelongview", { recipeId: 2719857 }) }, 60000);
+
+        $.cookie("lastRecipeViewed", 2719857, { "path": "/" });
+
+        try {
+            $(".editableNote").editable({
+                url: "/utils/note/update",
+                title: "Enter notes",
+                rows: 10,
+                toggle: "manual"
+            });
+            $(".editable").editable({ rows: 10 });
+        } catch (e) {
+        }
+
+        $(document).on('click',
+            ".delete-note",
+            function() {
+                var noteId = $(this).attr("rel");
+                deleteNote(noteId);
+            });
+
+        $(document).on('click',
+            '#tags_2_tagsinput .tag',
+            function(el) {
+                var tagVal = el.target.innerHTML.replace(/&nbsp;/g, "").trim();
+                var url = "/recipes/search?userset=" + boUser.UserName + "&include_usertag=" + tagVal;
+                window.location = url;
+
+            });
+
+        $(document).on('click',
+            '.favorite-icon',
+            function() {
+                var recipeId = $(this).attr("rel");
+                if (recipeId == null) {
+                    return;
+                }
+                if ($(this).hasClass("on-state")) {
+                    removeFromFavorites(recipeId,
+                        boUser.UserID,
+                        boUser.UserName,
+                        "https://www.bigoven.com/recipe/no-knead-herb-focaccia/2719857",
+                        true);
+                    $(this).removeClass("on-state").addClass("off-state");
+                } else {
+                    if (paywallPhase > 1) {
+                        if (boUser != undefined) {
+                            if (enforcePaywall(boUser)) {
+                                if (boUser.TotalRecipes > maxRecipesForFreeMembers) {
+                                    showUpsellDialog("Time to Upgrade to BigOven Pro Membership",
+                                        "<p>Hope you're enjoying BigOven! You've hit your recipe limit as a free member (" +
+                                        maxRecipesForFreeMembers +
+                                        ").</p><p>Upgrade to BigOven Pro membership and keep unlimited recipes, plan ahead with Meal Planner, add private notes, scan recipes with RecipeScan, and enjoy an ad-free experience on web and mobile!</p>",
+                                        "Save unlimited recipes for just $2.99/mo",
+                                        "Free two-week trial. Pay by Amazon or with major credit card.");
+                                    $(this).children().first().fadeTo(250, 1, null);
+                                    $(this).removeClass("on-state").addClass("off-state");
+
+                                    return;
+                                }
+                            }
+                        }
+                    }
+                    $(this).removeClass("off-state").addClass("on-state");
+                    addToFavorites(recipeId,
+                        boUser.UserID,
+                        boUser.UserName,
+                        "https://www.bigoven.com/recipe/no-knead-herb-focaccia/2719857",
+                        true);
+
+                }
+            });
+
+        $(document).on('click',
+            '.try-icon',
+            function() {
+                var recipeId = $(this).attr("rel");
+                if (recipeId == null) {
+                    return;
+                }
+                if ($(this).hasClass("on-state")) {
+                    removeFromTrySoon(recipeId,
+                        boUser.UserID,
+                        boUser.UserName,
+                        "https://www.bigoven.com/recipe/no-knead-herb-focaccia/2719857",
+                        true);
+                    $(this).removeClass("on-state").addClass("off-state");
+                } else {
+                    if (paywallPhase > 1) {
+                        if (boUser != undefined) {
+                            if (enforcePaywall(boUser)) {
+                                if (boUser.TotalRecipes > maxRecipesForFreeMembers) {
+                                    showUpsellDialog("Time to Upgrade to BigOven Pro Membership",
+                                        "<p>Hope you're enjoying BigOven! You've hit your recipe limit as a free member (" +
+                                        maxRecipesForFreeMembers +
+                                        ").</p><p>Upgrade to BigOven Pro membership and keep unlimited recipes, plan ahead with Meal Planner, add private notes, scan recipes with RecipeScan, and enjoy an ad-free experience on web and mobile!</p>",
+                                        "Save unlimited recipes for just $2.99/mo",
+                                        "Free two-week trial. Pay by Amazon or with major credit card.");
+                                    $(this).children().first().fadeTo(250, 1, null);
+                                    return;
+                                }
+                            }
+                        }
+                    }
+                    $(this).removeClass("off-state").addClass("on-state");
+                    addToTrySoon(recipeId,
+                        boUser.UserID,
+                        boUser.UserName,
+                        "https://www.bigoven.com/recipe/no-knead-herb-focaccia/2719857",
+                        true);
+                }
+            });
+
+        $(document).on('change',
+            '#recipecategory',
+            function() {
+                var category = $("#primaryrecipecategory").val();
+                var subcategory = $("#recipecategory").val();
+                var microcategory = null;
+                var recipeId = 2719857;
+                setRecipeCategory(recipeId,
+                    category,
+                    subcategory,
+                    microcategory,
+                    function() {
+                        $("#catMsg").html("Thanks!");
+                        $("#primaryrecipecategory").parent().parent().fadeOut();
+                    });
+            });
+
+        if ($.cookie("bigovenapp") != undefined) {
+            tryDeepLink(2719857);
+        }
+
+
+        $('#myTab a').click(function(e) {
+            e.preventDefault();
+            $(this).tab('show');
+        });
+
+        $(document).bind('DOMSubtreeModified',
+            function() {
+                if (($('script[src*="onetsp"]').length > 0) || $('SCRIPT[src*="ziplist"]').length > 0) {
+                    $('script[src*="onetsp"]').remove();
+                    alert(
+                        "Sorry, that's not an authorized use of BigOven.  Please review our terms of use at www.bigoven.com/site/terms.\n\nLooking for an easy way to organize recipes and create portable grocery lists from your recipes?  Consider BigOven Pro!");
+                    window.location = "/pro";
+                }
+            });
+
+        $.removeCookie("lastRecipeTitle", { path: '/' });
+        $.removeCookie("lastRecipeID", { path: '/' });
+        $.removeCookie("lastRecipeURL", { path: '/' });
+        $.removeCookie("lastRecipeThumb120", { path: '/' });
+
+        $.cookie("lastRecipeTitle", 'No-Knead Herb Focaccia', { path: '/' });
+        $.cookie("lastRecipeID", 2719857, { path: '/' });
+        $.cookie("lastRecipeURL", document.URL, { path: '/' });
+            
+                $.cookie("lastRecipeThumb120", 'http://images.bigoven.com/image/upload/t_recipe-120/no-knead-herb-focaccia-79674b.jpg', { path: '/' });
+            
+
+        try {
+            $("#noteDate").datepicker();
+            $("#noteDate").val('2/24/2021 ');
+            $('.comment_form :radio.star').rating();
+        } catch (e) {
+        }
+
+    });
+
+</script>
+
+    </div>
+    
+</div>
+    
+
+
+
+<style>
+    .unbulleted-list {
+        list-style-type: none;
+        padding-left: 0px;
+    }
+
+        .unbulleted-list li {
+            margin-left: 0px;
+        }
+
+    a.she-knows-link {
+        color: rgb(255, 0, 51);
+    }
+
+        a.she-knows-link:hover {
+            color: rgba(255, 0, 0, 0.65);
+        }
+
+    .content {
+        padding: 16px;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+        .sticky + .content {
+            padding-top: 102px;
+        }
+    
+/*------Footer------*/
+    .footer {
+        font-weight: 500;
+        letter-spacing: 0.9px;
+        height: 56px;
+        width: 100%;
+        background-image: none;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-position: 0% 0%;
+        background: rgb(175, 175, 175);
+        
+        bottom: 0pt;
+        left: 0pt;
+        color: white;
+    }
+    .footer-main {
+       margin-top: 0px;
+    }
+
+    .footer-contents {
+        
+        font-size: 12px;
+        height:24px; /* Replace with the height your footer should be*/
+        margin:auto;
+        padding-top: 5px;
+    }
+    .footer-contents2 {
+        
+        font-size: 16px;
+        height:24px; /* Replace with the height your footer should be*/
+        margin:auto;
+        padding-top: 5px;
+    }
+    .a-footer {
+        color: white;
+        font-size: 12px;
+    }
+    .linksInFooter {
+        width: 800px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    @media only screen and (max-width: 600px) {
+        .a-footerSml {
+            font-size: 10px;
+        }
+        .footer-contentsSml {
+            font-size: 10px;
+        }
+        .footer-contents2Sml {
+            font-size: 15px;
+        }
+        .footer {
+           letter-spacing: 0.5px;
+
+        }
+        
+        /* .container { */
+        /*     padding-left: 0px !important; */
+        /*     padding-right: 0px !important; */
+        /*     max-width: 100% */
+        /* } */
+    }
+    @media only screen and (max-width: 375px) {
+            .a-footerSml {
+                font-size: 9px;
+            }
+            .footer-contentsSml {
+                font-size: 9px;
+            }
+            .footer-contents2Sml {
+                font-size: 13px;
+            }
+            .footer {
+                letter-spacing: 0.5px;
+    
+            }
+        }
+</style>
+
+
+
+
+    <div class="container-fluid tryProBanner visible-sm visible-xs" id="banner_bottom">
+        <span class="tryProText">"The Swiss Army Knife for Home Cooks" - Thrillist</span>
+        <a href="/mobile/getbyos" class="btn btn-primary tryProButton" style="position:relative;top:-10px;" data-loading-text="Try BigOven Pro Free">Download BigOven</a>
+    </div>
+<footer id="footer" class="footer-main">
+   <div class="container footerLinks">
+        <div class="col-xs-6 col-sm-3">
+            <h3>BigOven</h3>
+            <ul class="unbulleted-list">
+                <li><a href="/article/editorial/latest">Editorial</a></li>
+                <li><a href="/site/about">About</a></li>
+                <li><a href="https://bigovenkitchen.com" target="_blank">BigOven Kitchen</a></li>
+                <li><a href="/glossary">Cooking Glossary</a></li>
+                <li><a href="/site/press">Press</a></li>
+                <li><a href="/site/partners">Partners</a></li>
+                
+                <li><a href="/site/comments">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xs-6 col-sm-3">
+            <h3>Apps</h3>
+            <ul class="unbulleted-list">
+                <li><a href="https://geo.itunes.apple.com/us/app/bigoven-350-000+-recipes-grocery/id294363034?mt=8&ign-mpt=uo%3D4&at=1l3voKg&ct=footerweb">iPhone</a></li>
+                <li><a href="https://geo.itunes.apple.com/us/app/bigoven-350-000+-recipes-grocery/id294363034?mt=8&ign-mpt=uo%3D4&at=1l3voKg&ct=footerweb">iPad</a></li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.bigoven.android&referrer=utm_source%3Dbigoven%26utm_medium%3Dweb%26utm_content%3Dfooter">Android</a></li>
+                <li><a href="/clipper">BigOven Clipper</a></li>
+                <li><br></li>
+            </ul>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+            <h3>Social</h3>
+            <ul class="unbulleted-list">
+                <li><a href="http://twitter.com/bigoven"><i class="fa fa-twitter"></i> Twitter</a></li>
+                <li><a href="http://facebook.com/bigoven"><i class="fa fa-facebook"></i> Facebook</a></li>
+                <li><a href="http://instagram.com/bigoven"><i class="fa fa-instagram"></i> Instagram</a></li>
+                <li><a href="http://pinterest.com/bigoven"><i class="fa fa-pinterest"></i> Pinterest</a></li>
+                <li><a href="https://www.youtube.com/c/bigoven"><i class="fa fa-youtube"></i> Youtube</a></li>
+                
+            </ul>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+            <h3>Support</h3>
+            <ul class="unbulleted-list">
+                <li><a href="http://support.bigoven.com">Help</a></li>
+                <li><a href="/site/privacy">Privacy Policy</a></li>
+                <li><a href="/site/terms">Terms</a></li>
+                <li><a href="/site/copyright">Copyright/DMCA</a></li>
+                <li><a href="/site/advertise">Advertise</a></li>
+                <li><a href="https://api2.bigoven.com">Kitchen Cloud API</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container linksInFooter">
+            <p class="footer-contents footer-contentsSml">Ad Partners: <a class="a-footer a-footerSml" href="http://www.sheknows.com/" target="_blank"> SheKnows Media - Lifestyle </a> - <a class="a-footer a-footerSml" href="/site/advertise"> See Full Partners List</a></></p>
+            <p class="footer-contents2 footer-contents2Sml" style="color: black">AISLE AHEAD Inc. | Copyright &copy; 2021</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+   </footer>
+<script type="text/javascript">
+    if ($.cookie("bigovenapp") != undefined) {
+        var date = new Date();
+        date.setYear(3000);
+        $.cookie('bigoven-viewer', "app", { expires: date, path: '/' });
+    }
+    $(document).ready(function() {
+        $('.tip').tooltip();
+        initGlobals(297564810272481);
+        $(".btn:not('.btnstateless')").click(function() {
+            $(this).button('loading');
+        });
+        $("#txtSearch").keypress(function(e) {
+            if ((e.which && e.which === 13) || (e.keyCode && e.keyCode === 13)) {
+                $('#btnGo').button('loading');
+                doSimpleSearch($('#txtSearch').prop('value'));
+                return false;
+            } else {
+                return true;
+            }
+        });
+        $("#btnGo").click(function(e) {
+            $('#btnGo').button('loading');
+            doSimpleSearch($('#txtSearch').prop('value'));
+            return false;
+        });
+        $('.vimeo').fancybox({
+            helpers: {
+                media: {}
+            }
+        });
+        $(".alert").alert();
+    });
+</script>
+
+</body>
+</html>
