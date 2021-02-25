@@ -4,7 +4,7 @@
 # 18 January, 2020
 # =======================================================
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string, get_yields
+from ._utils import normalize_string
 
 
 class BettyCrocker(AbstractScraper):
