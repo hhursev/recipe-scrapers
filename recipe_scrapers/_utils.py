@@ -1,7 +1,6 @@
 import html
 import re
 
-
 TIME_REGEX = re.compile(
     r"(\D*(?P<hours>\d+)\s*(hours|hrs|hr|h|Hours|H|óra))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|Minutes|M|perc))?"
 )
@@ -9,7 +8,7 @@ TIME_REGEX = re.compile(
 SERVE_REGEX_NUMBER = re.compile(r"(\D*(?P<items>\d+)?\D*)")
 
 SERVE_REGEX_ITEMS = re.compile(
-    r"\bsandwiches\b |\btacquitos\b | \bmakes\b | \bcups\b | \bappetizer\b",
+    r"\bsandwiches\b |\btacquitos\b | \bmakes\b | \bcups\b | \bappetizer\b | \bporzioni\b",
     flags=re.I | re.X,
 )
 
