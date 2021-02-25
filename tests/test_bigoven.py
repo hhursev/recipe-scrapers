@@ -27,7 +27,7 @@ class TestBigOven(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://bigoven-res.cloudinary.com/image/upload/t_recipe-1280/no-knead-herb-focaccia-79674b.jpg",
+            "https://photos.bigoven.com/recipe/hero/no-knead-herb-focaccia-79674b.jpg",
             self.harvester_class.image(),
         )
 
