@@ -8,16 +8,16 @@ class BigOven(AbstractScraper):
         return "bigoven.com"
 
     def title(self):
-        return self.soup.find("div", {"class": "recipe-container"}).h1.text
+        return self.schema.title()
 
     def total_time(self):
-        return get_minutes(self.soup.find("div", {"class": "ready-in"}).text)
+        return self.schema.total_time()
 
     def yields(self):
         return get_yields(self.soup.find("div", {"class": "yield"}).text)
 
     def image(self):
-        return self.soup.find("link", {"rel": "image_src"})["href"]
+        return self.schema.image()
 
     def ingredients(self):
         rows = self.soup.find("ul", {"class": "ingredients-list"}).findAll("li")
