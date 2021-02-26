@@ -171,7 +171,11 @@ class SchemaOrg:
 
         if isinstance(ratings, dict):
             ratings = ratings.get("ratingValue")
-        return round(float(ratings), 2) if ratings is not None else None
+
+        if ratings is None:
+            raise SchemaOrgException("No ratingValue in SchemaOrg.")
+
+        return round(float(ratings), 2)
 
     def cuisine(self) -> Optional[str]:
         cuisine = self.data.get("recipeCuisine")
