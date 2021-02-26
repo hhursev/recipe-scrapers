@@ -33,7 +33,7 @@ class TestSouthernLiving(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 cup whole milk",
                 "3/4 cup salted butter, divided",
