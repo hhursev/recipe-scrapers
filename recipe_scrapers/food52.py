@@ -1,5 +1,5 @@
-from recipe_scrapers._utils import normalize_string, get_minutes
 from recipe_scrapers._abstract import AbstractScraper
+from recipe_scrapers._utils import get_minutes, normalize_string
 
 
 class Food52(AbstractScraper):
@@ -8,7 +8,6 @@ class Food52(AbstractScraper):
         return "food52.com"
 
     def title(self):
-        print("title was called")
         return self.schema.title()
 
     def total_time(self):

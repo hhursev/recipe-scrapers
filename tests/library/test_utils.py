@@ -27,3 +27,9 @@ class UtilsTest(unittest.TestCase):
         result = get_minutes(text)
 
         assert result == 70
+
+    def test_get_minutes_int_in_string_literal(self):
+        text = "90"
+        result = get_minutes(text)
+
+        assert result == 90

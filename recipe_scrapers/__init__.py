@@ -1,13 +1,14 @@
 import inspect
+
 from tld import get_tld
 
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 from .abril import Abril
+from .acouplecooks import ACoupleCooks
 from .allrecipes import AllRecipes
 from .amazingribs import AmazingRibs
 from .ambitiouskitchen import AmbitiousKitchen
-from .acouplecooks import ACoupleCooks
 from .archanaskitchen import ArchanasKitchen
 from .atelierdeschefs import AtelierDesChefs
 from .averiecooks import AverieCooks
@@ -15,6 +16,7 @@ from .bakingmischeif import BakingMischeif
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
 from .bettycrocker import BettyCrocker
+from .bigoven import BigOven
 from .blueapron import BlueApron
 from .bonappetit import BonAppetit
 from .bowlofdelicious import BowlOfDelicious
@@ -25,10 +27,12 @@ from .chefkoch import Chefkoch
 from .closetcooking import ClosetCooking
 from .cookeatshare import CookEatShare
 from .cookieandkate import CookieAndKate
+from .cookinglight import CookingLight
 from .cookpad import CookPad
 from .cookstr import Cookstr
 from .copykat import CopyKat
 from .countryliving import CountryLiving
+from .cucchiaio import Cucchiaio
 from .cuisineaz import CuisineAZ
 from .cybercook import Cybercook
 from .delish import Delish
@@ -73,9 +77,9 @@ from .kennymcgovern import KennyMcGovern
 from .kingarthur import KingArthur
 from .kochbar import Kochbar
 from .kuchniadomowa import KuchniaDomowa
+from .lecremedelacrumb import LeCremeDeLaCrumb
 from .littlespicejar import LittleSpiceJar
 from .livelytable import LivelyTable
-from .lecremedelacrumb import LeCremeDeLaCrumb
 from .lovingitvegan import Lovingitvegan
 from .marmiton import Marmiton
 from .marthastewart import MarthaStewart
@@ -116,8 +120,8 @@ from .steamykitchen import SteamyKitchen
 from .streetkitchen import StreetKitchen
 from .sunbasket import SunBasket
 from .sweetpeasandsaffron import SweetPeasAndSaffron
-from .tastesoflizzyt import TastesOfLizzyT
 from .tasteofhome import TasteOfHome
+from .tastesoflizzyt import TastesOfLizzyT
 from .tasty import Tasty
 from .tastykitchen import TastyKitchen
 from .theclevercarrot import TheCleverCarrot
@@ -140,10 +144,9 @@ from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
 from .yummly import Yummly
 
-
 SCRAPERS = {
-    Abril.host(): Abril,
     ACoupleCooks.host(): ACoupleCooks,
+    Abril.host(): Abril,
     AllRecipes.host(): AllRecipes,
     AmazingRibs.host(): AmazingRibs,
     AmbitiousKitchen.host(): AmbitiousKitchen,
@@ -155,6 +158,7 @@ SCRAPERS = {
     BBCGoodFood.host(): BBCGoodFood,
     BakingMischeif.host(): BakingMischeif,
     BettyCrocker.host(): BettyCrocker,
+    BigOven.host(): BigOven,
     BlueApron.host(): BlueApron,
     BonAppetit.host(): BonAppetit,
     BowlOfDelicious.host(): BowlOfDelicious,
@@ -164,21 +168,23 @@ SCRAPERS = {
     Chefkoch.host(): Chefkoch,
     ClosetCooking.host(): ClosetCooking,
     CookEatShare.host(): CookEatShare,
-    CookieAndKate.host(): CookieAndKate,
     CookPad.host(): CookPad,
+    CookieAndKate.host(): CookieAndKate,
+    CookingLight.host(): CookingLight,
     Cookstr.host(): Cookstr,
     CopyKat.host(): CopyKat,
     CountryLiving.host(): CountryLiving,
+    Cucchiaio.host(): Cucchiaio,
     CuisineAZ.host(): CuisineAZ,
     Cybercook.host(): Cybercook,
     Delish.host(): Delish,
     DomesticateMe.host(): DomesticateMe,
     Downshiftology.host(): Downshiftology,
     Dr.host(): Dr,
+    EatWhatTonight.host(): EatWhatTonight,
     EatingBirdFood.host(): EatingBirdFood,
     Eatsmarter.host(): Eatsmarter,
     Eatsmarter.host(domain="de"): Eatsmarter,
-    EatWhatTonight.host(): EatWhatTonight,
     Epicurious.host(): Epicurious,
     FarmhouseDelivery.host(): FarmhouseDelivery,
     FifteenSpatulas.host(): FifteenSpatulas,
@@ -197,9 +203,9 @@ SCRAPERS = {
     GonnaWantSeconds.host(): GonnaWantSeconds,
     Gousto.host(): Gousto,
     GreatBritishChefs.host(): GreatBritishChefs,
+    HEB.host(): HEB,
     HalfBakedHarvest.host(): HalfBakedHarvest,
     Hassanchef.host(): Hassanchef,
-    HEB.host(): HEB,
     HeinzBrasil.host(): HeinzBrasil,
     HelloFresh.host(): HelloFresh,
     HelloFresh.host(domain="co.uk"): HelloFresh,
@@ -216,17 +222,10 @@ SCRAPERS = {
     KingArthur.host(): KingArthur,
     Kochbar.host(): Kochbar,
     KuchniaDomowa.host(): KuchniaDomowa,
+    LeCremeDeLaCrumb.host(): LeCremeDeLaCrumb,
     LittleSpiceJar.host(): LittleSpiceJar,
     LivelyTable.host(): LivelyTable,
-    LeCremeDeLaCrumb.host(): LeCremeDeLaCrumb,
     Lovingitvegan.host(): Lovingitvegan,
-    OneHundredOneCookBooks.host(): OneHundredOneCookBooks,
-    PaleoRunningMomma.host(): PaleoRunningMomma,
-    RachlMansfield.host(): RachlMansfield,
-    SpruceEats.host(): SpruceEats,
-    SteamyKitchen.host(): SteamyKitchen,
-    TheKitchn.host(): TheKitchn,
-    TheNutritiousKitchen.host(): TheNutritiousKitchen,
     Marmiton.host(): Marmiton,
     MarthaStewart.host(): MarthaStewart,
     Matprat.host(): Matprat,
@@ -239,16 +238,19 @@ SCRAPERS = {
     MyBakingAddiction.host(): MyBakingAddiction,
     MyRecipes.host(): MyRecipes,
     NIHHealthyEating.host(): NIHHealthyEating,
+    NYTimes.host(): NYTimes,
     NourishedByNutrition.host(): NourishedByNutrition,
     NutritionByNathalie.host(): NutritionByNathalie,
-    NYTimes.host(): NYTimes,
     OhSheGlows.host(): OhSheGlows,
+    OneHundredOneCookBooks.host(): OneHundredOneCookBooks,
+    PaleoRunningMomma.host(): PaleoRunningMomma,
     Panelinha.host(): Panelinha,
     PaniniHappy.host(): PaniniHappy,
     PopSugar.host(): PopSugar,
     Przepisy.host(): Przepisy,
     PurelyPope.host(): PurelyPope,
     PurpleCarrot.host(): PurpleCarrot,
+    RachlMansfield.host(): RachlMansfield,
     RealSimple.host(): RealSimple,
     RecipieTinEats.host(): RecipieTinEats,
     SeriousEats.host(): SeriousEats,
@@ -258,15 +260,19 @@ SCRAPERS = {
     SkinnyTaste.host(): SkinnyTaste,
     SouthernLiving.host(): SouthernLiving,
     SpendWithPennies.host(): SpendWithPennies,
+    SpruceEats.host(): SpruceEats,
+    SteamyKitchen.host(): SteamyKitchen,
     StreetKitchen.host(): StreetKitchen,
     SunBasket.host(): SunBasket,
     SweetPeasAndSaffron.host(): SweetPeasAndSaffron,
-    TastesOfLizzyT.host(): TastesOfLizzyT,
     TasteOfHome.host(): TasteOfHome,
+    TastesOfLizzyT.host(): TastesOfLizzyT,
     Tasty.host(): Tasty,
     TastyKitchen.host(): TastyKitchen,
     TheCleverCarrot.host(): TheCleverCarrot,
     TheHappyFoodie.host(): TheHappyFoodie,
+    TheKitchn.host(): TheKitchn,
+    TheNutritiousKitchen.host(): TheNutritiousKitchen,
     ThePioneerWoman.host(): ThePioneerWoman,
     TheSpruceEats.host(): TheSpruceEats,
     TheVintageMixer.host(): TheVintageMixer,

@@ -1,15 +1,15 @@
 import html
 import re
 
-
 TIME_REGEX = re.compile(
-    r"(\D*(?P<hours>\d+)\s*(hours|hrs|hr|h|Hours|H|óra))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|Minutes|M|perc))?"
+    r"(\D*(?P<hours>\d+)\s*(hours|hrs|hr|h|óra))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|perc))?",
+    re.IGNORECASE,
 )
 
 SERVE_REGEX_NUMBER = re.compile(r"(\D*(?P<items>\d+)?\D*)")
 
 SERVE_REGEX_ITEMS = re.compile(
-    r"\bsandwiches\b |\btacquitos\b | \bmakes\b | \bcups\b | \bappetizer\b",
+    r"\bsandwiches\b |\btacquitos\b | \bmakes\b | \bcups\b | \bappetizer\b | \bporzioni\b",
     flags=re.I | re.X,
 )
 
@@ -19,6 +19,12 @@ SERVE_REGEX_TO = re.compile(r"\d+(\s+to\s+|-)\d+", flags=re.I | re.X)
 def get_minutes(element):
     if element is None:
         return None
+
+    # handle integer in string literal
+    try:
+        return int(element)
+    except Exception:
+        pass
 
     if isinstance(element, str):
         time_text = element
