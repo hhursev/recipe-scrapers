@@ -19,6 +19,12 @@ def get_minutes(element):
     if element is None:
         return None
 
+    # handle integer in string literal
+    try:
+        return int(element)
+    except Exception:
+        pass
+
     if isinstance(element, str):
         time_text = element
     else:
