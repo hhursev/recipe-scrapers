@@ -1,7 +1,6 @@
 import html
 import re
 
-
 TIME_REGEX = re.compile(
     r"(\D*(?P<hours>\d+)\s*(hours|hrs|hr|h|Hours|H|óra))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|Minutes|M|perc))?"
 )
@@ -19,6 +18,12 @@ SERVE_REGEX_TO = re.compile(r"\d+(\s+to\s+|-)\d+", flags=re.I | re.X)
 def get_minutes(element):
     if element is None:
         return None
+
+    # handle integer in string literal
+    try:
+        return int(element)
+    except Exception:
+        pass
 
     if isinstance(element, str):
         time_text = element
