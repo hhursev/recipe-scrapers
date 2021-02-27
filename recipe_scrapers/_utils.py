@@ -82,6 +82,7 @@ def normalize_string(string):
         unescaped_string.replace("\xa0", " ")
         .replace("\n", " ")  # &nbsp;
         .replace("\t", " ")
+        .replace("\r", " ")
         .strip(),
     )
 

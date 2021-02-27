@@ -150,7 +150,7 @@ class SchemaOrg:
                 normalize_string(instruction) for instruction in instructions_gist
             )
 
-        return instructions
+        return normalize_string(instructions)
 
     def ratings(self):
         ratings = self.data.get("aggregateRating")
