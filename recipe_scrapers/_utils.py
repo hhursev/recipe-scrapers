@@ -1,5 +1,6 @@
-import html
 import re
+from html.parser import HTMLParser
+from io import StringIO
 
 TIME_REGEX = re.compile(
     r"(\D*(?P<hours>\d+)\s*(hours|hrs|hr|h|óra))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|perc))?",
@@ -73,14 +74,28 @@ def get_yields(element):
     return servings
 
 
-def normalize_string(string):
-    # Convert all named and numeric character references (e.g. &gt;, &#62;)
-    unescaped_string = html.unescape(string)
+def normalize_string(string, strip_html=True):
+    # The goal here is to get this string as clean as possible. Address the following cases
+    #  - Remove leading/trailing whitespace
+    #  - Remove escaped whitespace characters from whole string (e.g \n, \t)
+    #  - Remove HTML Tags
+    #  - Convert all named and numeric character references (e.g. &gt;, &#62;)
+
+    # Deal with HTML and HTML Encoded Characters
+    string = strip_tags(
+        f"<tag>{string}<tag>"
+    )  # This is a workaround, since HTMLParser expects valid markup
+    string = strip_tags(
+        f"<tag>{string}<tag>"
+    )  # This is another workaround, handles "&amp;amp;"
+
+    # Clean string of whitespace
     return re.sub(
         r"\s+",
         " ",
-        unescaped_string.replace("\xa0", " ")
+        string.replace("\xa0", " ")
         .replace("\n", " ")  # &nbsp;
+        .replace("\r", " ")
         .replace("\t", " ")
         .strip(),
     )
@@ -106,3 +121,25 @@ def url_path_to_dict(path):
 
 def get_host_name(url):
     return url_path_to_dict(url.replace("://www.", "://"))["host"]
+
+
+# Taken from https://stackoverflow.com/questions/753052/strip-html-from-strings-in-python
+class MLStripper(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.reset()
+        self.strict = False  # this setting appears to do nothing
+        self.convert_charrefs = True
+        self.text = StringIO()
+
+    def handle_data(self, d):
+        self.text.write(d)
+
+    def get_data(self):
+        return self.text.getvalue()
+
+
+def strip_tags(html):
+    s = MLStripper()
+    s.feed(html)
+    return s.get_data()
