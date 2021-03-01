@@ -41,7 +41,7 @@ class SimplyRecipes(AbstractScraper):
         return "\n".join(
             [
                 normalize_string(
-                    step.h3.text + ": " + "".join([p.text for p in step.findAll("p")])
+                    step.div.text + ": " + "".join([p.text for p in step.findAll("p")])
                 )
                 for step in steps
             ]
