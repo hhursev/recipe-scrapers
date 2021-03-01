@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id="structuredProjectTemplate_1-0" class="comp   structuredProjectTemplate article-html html mntl-html" data-ab="99,99,99,51,99,99,99,99,99" data-resource-version="5.62.0" lang="en" data-lazy-threshold="100" data-simplyrecipes-resource-version="5.62.0" data-mantle-resource-version="3.12.325" data-lifestyle-food-resource-version="5.62.1" data-tracking-container="true">				
+<html id="structuredProjectTemplate_1-0" class="comp   structuredProjectTemplate article-html html mntl-html" data-ab="99,99,99,99,50,99,99,99,99,99" data-resource-version="5.66.0" lang="en" data-lazy-threshold="100" data-simplyrecipes-resource-version="5.66.0" data-mantle-resource-version="3.12.350" data-lifestyle-food-resource-version="5.65.0" data-tracking-container="true">				
 <!--
 <globe-environment environment="prod" application="simplyrecipes" dataCenter="us-east-1"/>
 -->
@@ -8,7 +8,6 @@
 					<script type="text/javascript"></script>
 					
 					    <link rel="preconnect" href="//js-sec.indexww.com">
-    <link rel="preconnect" href="//tags.crwdcntrl.net">
     <link rel="preconnect" href="//c.amazon-adsystem.com">
     <link rel="preconnect" href="//cdn.adsafeprotected.com">
     <link rel="preconnect" href="//grid-cdn.pdc.bidswitch.net">
@@ -29,7 +28,7 @@
 <meta name="emailcontenttype" content="RECIPESC" />
 <meta name="emailvertical" content="SIMPLYRECIPES" />
 <meta name="sailthru.author" content="Aaron Hutcherson" />
-<meta name="sailthru.tags" content="recipes,dinner-recipes,family-dinner-recipes,kid-friendly-recipes" />
+<meta name="sailthru.tags" content="recipes,dinner-recipes,dinner-recipes-by-type,soup-recipes,chicken-soup-recipes" />
 <meta name="fexy-relish" data-recipe-id="58008" />
 <!-- Pinterest Pins -->
 <meta itemprop="name" content="Homemade Chicken &amp; Rice Soup {One-Pot}" />
@@ -49,43 +48,44 @@
 <meta name="twitter:title" content="Homemade Chicken &amp; Rice Soup {One-Pot}" />
 <meta name="twitter:description" content="One-Pot Chicken and Rice Soup! Throw bone-in chicken, rice, and vegetables together in a pot and simmer until they&#39;re done. It&#39;s the easiest soup ever, ready in under an hour." />
 <meta name="twitter:image" content="https://www.simplyrecipes.com/thmb/Uny40Q_8ypYmJtF7G7dal7-3qDQ=/2000x1333/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__09__2017-10-23-ChickenRiceSoup-6-84f5ab39c30e4830bf08b5bb163c5e19.jpg" />
-<meta property="og:tax3" content="sr_family-dinner-recipes"/>
-<meta property="og:tax4" content="sr_kid-friendly-recipes"/>
+<meta property="og:tax5" content="sr_chicken-soup-recipes"/>
+<meta property="og:tax3" content="sr_dinner-recipes-by-type"/>
+<meta property="og:tax4" content="sr_soup-recipes"/>
 <meta property="og:tax1" content="sr_recipes"/>
 <meta property="og:tax2" content="sr_dinner-recipes"/>
 <meta property="og:tax0" content="sr"/>
 					
-					<link type="text/css" rel="stylesheet" data-glb-css href="/static/5.62.0/cache/eNqtVkmW4yAMvVDzfIja9iUwKLYSpge4UunTtwDbsSuYuIcNGvgICSRBFyKPKDoRQpdY-NFtNKj5AMwpLmC0SoLfzYb4UBCeKqudNWBi6LgMGfGJEmwLQLQ2fUc5ANERcBjjx8jNAD8xRDDgq8rqHp4UChbagkT4iszxECjcnXDCLhPWkA-RkH4ScfIgV1U5pVV9wpM_N0oH4KqHaPgnDqS0pus9cCn8pPuw5WurUvR0xFyiGRZ6xmENke-E1r1Ga1VEt9AatH8oNND1aFkD9d2LedUqtldvTihYgVwx0mzYVgieJsyw0jPQdHGFb6FJpUnBrpN2jKK5vWqq5zXFaM1Cm-6AQAfFWkFXVC0D8wGFkXvIQWkTSdxoT6-uLyKTziNFrEEib_WPi4Iv7OmmDxrJglOUyOB7y72swRS1EQLSLEvsk6uetLLiVtBlrIGy56V_lvGw1lKtsD13bPCCAxX9TGqwSr9448Sad6N1eWhl13rbCdhIlaO2JY4uqrJgjFrl4WycJtV-fnK2_P_ttsUwO7RcrilPp3fzQe_VVmhdwG5R2vZ6b6z6hxCOMiEVS49K5TKhdwXF7fGiaFTE3EWytBPa3YjqbOwu1kpW-BPoY2AupPyCFzeebMus8_YKIpZHbCtUU48mMRXDzCz0uLEE1I6uKLeWDd_y6AIgey5ucxh7sZUPwU5eQFhoDToo23OVH_f8neKynmIll5UdbB5qkIv1mgymL1hq48C9GL-Jbx7e4kx-eJ9sw2tKlEheF3LskoF7UBAJwwIOZnKvmqpjf7esXDNSwVHWmOnJvQl-tB5_UZXOB7AXmx8oP9G_j_Vcpg_rRnizobRR8jCyC9eoHnnT1B1e1b8B05mrdQ.min.css"></link>
+					<link type="text/css" rel="stylesheet" data-glb-css href="/static/5.66.0/cache/eNqtVlu6oyAM3tDwuYjzOptAiJoWiR_g6emsfgJoq6dIncuLufAnQm7Q-CADqkZ530QWfjQbDY6yBzEZqWAgo8HtVn24G_BPFY0TWbDBN1L7hPhEDVQDMC0t31D3wHQA7IfwMUjbw0_0ASy4orL4D8cKAyutQQJ8BTFJ7_m4O-GEX6HI8h4CI92swuxAP1Q5Sg_1iZ38uVMOwFQMopWf2LOSbNM6kFq5eWz9li9ZxdNziKVG26_0zIZHCHIn1PIaiEzAaaUlaHs3aKFpkUQF9X0Xi9VDrFtvIuRJoTSCNRu2dgTHC7Z_0DPQmLjM19CsGlkhLvM4CT7N9VVTjNccAtmVVrcDCifI3jK6oKo5WALkB-kgHWq0gcWN9rR12YhdTg75xCNolLX50Rn4wpYzfTBIVpzhQgbXknS6BDM8RhjIqyKyT64YaUPqmtH5WwKlnef5mb-HvRZ7Rey5Y4cd9tz0CynBCvPizSYedTfQlD616npkOwIrpXI0ttRRogoGQxhN-pw9p429n66cLf9_p212LA495zSl5Xhv3vm-2gq1BOyM4m8vt4rVPxzhqBJis7RoTGoTvldQXe8vikpHLFMkSTuhPo24z4amI9Ii8yfQx8DUSOkGz9t4sjW3k6MLqJAvsa1QLD1exNgMC7PS48HicZw4RWm0bPjajjoA3Up1XY6xF2v14Gl2CvxKS9DeUCtNutzTc0rqconlWjbUU_qUIB25kR3GJ1gc4yCdGr6Jby7evJl08T7ZWmQsBexQJWvRSmuXbino69csXRFE0dvhUiWaXMCBbTM5DpWFmzcQGCM89naeXjXFgP2dWS4_5EHA1WznJ_cmKQM5_MXTY0nMXqw-7NzM71GOlo4P6Y3w5oeagpZ-EJ0c0dzTT2NOX9W_AUIF5ps.min.css"></link>
 
 					
 					<style type="text/css"></style>
 					
-					<script type="text/javascript" data-glb-js="top" src="/static/5.62.0/cache/eNptkVtOAzEMRTdElD1UQvyiajaQhzu4eTg4TtGwejJVBZmSTx9f31w7uooRdPpadSTjwb_oB4lo6443E9ov7HWhuF0wxpHdIHtincgDZ_xmlUyWCKPEEQWE-s_-swFvVRjzOsqbYEQZBzq8ZDXlntK88fa-TGLKB5M8xWPozQYLGxeeolgGEwphloN3abY2O5LzchpL2b3OYl-783E0mc3-ve4oFcq7Rht_v8laZNbtV2pOGoNXjrJ0tourU33skMysoG4IXzOTVdL9OyK6oOSx7g-EUcIs.min.js"></script>
+					<script type="text/javascript" data-glb-js="top" src="/static/5.66.0/cache/eNptkVtOAzEMRTdElD1UQvyiajaQhzu4eTg4TtGwejJVBZmSTx9f31w7uooRdPpadSTjwb_oB4lo6443E9ov7HWhuF0wxpHdIHtincgDZ_xmlUyWCKPEEQWE-s_-swFvVRjzOsqbYEQZBzq8ZDXlntK88fa-TGLKB5M8xWPozQYLGxeeolgGEwphloN3abY2O5LzchpL2b3OYl-783E0mc3-ve4oFcq7Rht_v8laZNbtV2pOGoNXjrJ0tourU33skMysoG4IXzOTVdL9OyK6oOSx7g-EUcIs.min.js"></script>
 
 					
 					<script type="text/javascript">var Mntl = window.Mntl || {};
 Mntl.RTB = Mntl.RTB || {};
-Mntl.RTB.setTaxonomyStampValues({"tax1":"sr_recipes","tax2":"sr_dinner-recipes","tax0":"sr_root","tax3":"sr_family-dinner-recipes","tax4":"sr_kid-friendly-recipes"});
+Mntl.RTB.setTaxonomyStampValues({"tax1":"sr_recipes","tax2":"sr_dinner-recipes","tax0":"sr_root","tax5":"sr_chicken-soup-recipes","tax3":"sr_dinner-recipes-by-type","tax4":"sr_soup-recipes"});
 Mntl.RTB.indexFirstPartyData = 'tax1:sr_recipes';
 Mntl.RTB.setTimeoutLength([500,800]);
-Mntl.RTB.Plugins.amazon.amazonConfigs = {"mapTaxValues":{"tax1":"sr_recipes","tax2":"sr_dinner-recipes","si_section":"sr_dinner-recipes","tax0":"sr_root","tax3":"sr_family-dinner-recipes"},"mapFBValues":{},"amazonSlotName":false,"amazonSection":"Family Dinner Recipes"};
+Mntl.RTB.Plugins.amazon.amazonConfigs = {"mapTaxValues":{"tax1":"sr_recipes","tax2":"sr_dinner-recipes","si_section":"sr_dinner-recipes","tax0":"sr_root","tax3":"sr_dinner-recipes-by-type"},"mapFBValues":{},"amazonSlotName":false,"amazonSection":"Dinner Recipes By Type"};
 Mntl.RTB.Plugins.s2s.s2sConfigs = {"partners":"","timeout":500};
-Mntl.RTB.initBidders([{ type: "amazon", id: '3222'},{ type: "lotameLightning", id: 'true'},{ type: "ias", id: '926268'}]);
-Mntl.RTBTracking.init(['amazon','lotameLightning','ias']);
-Mntl.RTB.Plugins.lotameLightning.init({"tax1":"sr_recipes","tax2":"sr_dinner-recipes","tax0":"sr","clientId":"15918","tax3":"sr_family-dinner-recipes","tax4":"sr_kid-friendly-recipes"});
+Mntl.RTB.initBidders([{ type: "amazon", id: '3222'},{ type: "ias", id: '926268'}]);
+Mntl.RTBTracking.init(['amazon','ias']);
+Mntl.RTB.Plugins.lotameLightning.init({"tax1":"sr_recipes","tax2":"sr_dinner-recipes","tax0":"sr","clientId":"15918","tax5":"sr_chicken-soup-recipes","tax3":"sr_dinner-recipes-by-type","tax4":"sr_soup-recipes"});
 Mntl.RTB.Plugins.prebid.setPriceGranularity({"buckets":[{"max":"20","increment":"0.05"},{"max":"100","increment":"0.5"}]});
-Mntl.RTB.setGDPR(false);
+Mntl.RTB.setGDPR(true);
 Mntl.RTB.setLatencyBuffer(0);
 (function(){
 var pageTargeting = {
 rec: 0
 ,customSeries: ''
 ,tax0: 'sr'
-,leuid: '151378030080892'
+,leuid: '148150260780971'
 ,custom: ''
 ,sbj: ''
-,rid: 'n22d64bb9fa98412b906b5212d783659c03'
-,sid: 'n22d64bb9fa98412b906b5212d783659c03'
+,rid: 'n8160dd4b888845e3b192b970816a40de22'
+,sid: 'n8160dd4b888845e3b192b970816a40de22'
 }
 ;
 var baseSlotTargeting = {
@@ -98,14 +98,14 @@ leaid: '235779'
 ,t: '120'
 ,au: '235779'
 ,jny: '0'
-,leuid: '151378030080892'
+,leuid: '148150260780971'
 ,dload: '0'
 ,sbj: ''
-,tax5: ''
+,tax5: 'sr_chicken-soup-recipes'
 ,aid: ''
-,tax3: 'sr_family-dinner-recipes'
+,tax3: 'sr_dinner-recipes-by-type'
 ,jnyroot: ''
-,tax4: 'sr_kid-friendly-recipes'
+,tax4: 'sr_soup-recipes'
 }
 ;
 pageTargeting.w = Mntl.utilities.getW();
@@ -133,15 +133,15 @@ rtb: true
 targeting: Mntl.fnUtilities.deepExtend({}, {
 pos: 'atf',
 priority: 1
-,floor_id: '6b44a5ae747b47ca92912e4972652b5c'
-,floor: 225
+,floor_id: 'd1b00d8b6c084037ac97343987b00035'
+,floor: 210
 })
 }],
 utils: {
 buildGptUrl: Lifestyle.GPT.buildGptUrl
 },
 displayOnScroll: 'false',
-displayOnConsent: 'false'
+displayOnConsent: 'true'
 };
 Mntl.GPT.init(options);
 }());// moved from gtm.ftl so we can initialize GTM only onLoad. From https://support.google.com/tagmanager/answer/6103696?hl=en
@@ -161,22 +161,25 @@ event: 'ab-proctor',
 "99-2"
 : "rtbTimeout | test2 | test2 | 2"
 ,
-"51"
-: "imageToggler | showImageToggler | Show image toggler | 1"
+"99-3"
+: "IASdirectOnly | inTest | In test | 1"
 ,
-"99-4"
-: "mediaGrid | active | Media grid enabled | 1"
+"50"
+: "imageToggler | control | Control | 0"
 ,
 "99-5"
-: "pbGrid | grid | enable the prebid grid adapter | 1"
+: "mediaGrid | active | Media grid enabled | 1"
 ,
 "99-6"
-: "cmpTimeout | t1 | Test 1 | 1"
+: "pbGrid | grid | enable the prebid grid adapter | 1"
 ,
 "99-7"
-: "pbTeads | teads | teads | 1"
+: "cmpTimeout | t1 | Test 1 | 1"
 ,
 "99-8"
+: "pbTeads | teads | teads | 1"
+,
+"99-9"
 : "prebid | ixId | Active with index identity adapter | 2"
 }
 });
@@ -188,21 +191,21 @@ application: "simplyrecipes",
 dataCenter: "us-east-1"
 },
 server: {
-version: "5.62.0",
+version: "5.66.0",
 title: "simplyrecipes-launcher"
 },
 client : {
 browserUA: navigator.userAgent,
-serverUA: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.40 Safari/537.36",
+serverUA: "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0",
 deviceType: "pc",
-usStateCode: "NJ"
+usStateCode: ""
 },
-mantle: "3.12.325",
-commerce: "2.21.1"
+mantle: "3.12.350",
+commerce: "2.23.0"
 }
 });
 (function(win, fnUtils) {
-var pageViewDataAsJSON = {"country":"US","description":"One-Pot Chicken and Rice Soup! Throw bone-in chicken, rice, and vegetables together in a pot and simmer until they&#39;re done. It&#39;s the easiest soup ever, ready in under an hour.","contentGroup":"Other","revenueGroup":"","documentId":5102671,"title":"Homemade Chicken & Rice Soup {One-Pot}" || document.title || '',"templateName":"RECIPESC","lastEditingAuthorId":"235779","lastEditingUserId":"151378030080892","templateId":"120","viewType":"","fullUrl":"https://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/" + location.hash,"authorId":"235779","experienceType":"single page","entryType":"direct","excludeFromComscore":false,"socialImage":"https://www.simplyrecipes.com/thmb/7jbac2vJiGvh9kB-cfN9pvZnWyA=/735x0/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__09__2017-10-23-ChickenRiceSoup-5-eece1a9bf1f34a5bb0a9ca4baab2edb2.jpg","internalSessionId":"n22d64bb9fa98412b906b5212d783659c03","internalRequestId":"n22d64bb9fa98412b906b5212d783659c03","experienceTypeName":"","recircDocIdsFooter":"S-5102102|S-5103153|S-5102051|S-5103774|S-5102528|S-5103751|S-5104236|S-5102236|S-5102994|S-5101811|S-5102727|S-5103631|S-5102019|S-5104433|S-5103254|S-5102800","euTrafficFlag":false,"mantleVersion":"3.12.325","commerceVersion":"2.21.1","primaryTaxonomyIds":"5083469|5090746|5091433|5091349|5091343","primaryTaxonomyNames":"Simply Recipes|Recipes|Dinners|Family Dinners|Kid-Friendly"};
+var pageViewDataAsJSON = {"country":"GB","description":"One-Pot Chicken and Rice Soup! Throw bone-in chicken, rice, and vegetables together in a pot and simmer until they&#39;re done. It&#39;s the easiest soup ever, ready in under an hour.","contentGroup":"Other","revenueGroup":"","documentId":5102671,"templateName":"RECIPESC","title":"Homemade Chicken & Rice Soup {One-Pot}" || document.title || '',"viewType":"","lastEditingAuthorId":"235779","lastEditingUserId":"148150260780971","templateId":"120","authorId":"235779","fullUrl":"https://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/" + location.hash,"experienceType":"single page","entryType":"direct","excludeFromComscore":false,"socialImage":"https://www.simplyrecipes.com/thmb/7jbac2vJiGvh9kB-cfN9pvZnWyA=/735x0/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__09__2017-10-23-ChickenRiceSoup-5-eece1a9bf1f34a5bb0a9ca4baab2edb2.jpg","internalSessionId":"n8160dd4b888845e3b192b970816a40de22","internalRequestId":"n8160dd4b888845e3b192b970816a40de22","experienceTypeName":"","recircDocIdsFooter":"S-5102102|S-5103153|S-5102051|S-5103774|S-5104236|S-5102236|S-5102528|S-5102994|S-5103751|S-5101811|S-5104433|S-5103631|S-5103254|S-5102019|S-5102800|S-5102214","euTrafficFlag":true,"mantleVersion":"3.12.350","commerceVersion":"2.23.0","primaryTaxonomyIds":"5083469|5090746|5091433|5091419|5091377|5091375","primaryTaxonomyNames":"Simply Recipes|Recipes|Dinners|Dinners By Types|Soups|Chicken Soups"};
 var readyForThirdPartyTrackingEvent = new CustomEvent('readyForThirdPartyTracking', { bubbles: true });
 var readyForThirdPartyTracking = fnUtils.once(function() {
 dataLayer.push({event: 'readyForThirdPartyTracking'});
@@ -220,21 +223,21 @@ pageViewDataAsJSON.bounceExchangeId = '';
 Mntl.PageView.init(pageViewDataAsJSON);
 })(window || {}, Mntl.fnUtilities || {});</script>
 					
-					<link rel="shortcut icon" href="/static/5.62.0/icons/favicons/favicon.ico">
-<link rel="icon" type="image/x-icon" href="/static/5.62.0/icons/favicons/favicon.ico">
-<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/static/5.62.0/icons/favicons/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/static/5.62.0/icons/favicons/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/static/5.62.0/icons/favicons/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/static/5.62.0/icons/favicons/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/static/5.62.0/icons/favicons/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/static/5.62.0/icons/favicons/apple-touch-icon-180x180.png">
+					<link rel="shortcut icon" href="/static/5.66.0/icons/favicons/favicon.ico">
+<link rel="icon" type="image/x-icon" href="/static/5.66.0/icons/favicons/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/static/5.66.0/icons/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/static/5.66.0/icons/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/static/5.66.0/icons/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/static/5.66.0/icons/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/static/5.66.0/icons/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/static/5.66.0/icons/favicons/apple-touch-icon-180x180.png">
 
 <meta name="msapplication-TileColor" content="#F4F4F4"/>
-<meta name="msapplication-TileImage" content="/static/5.62.0/icons/favicons/mstile-144x144.png">
-<meta name="msapplication-square70x70logo" content="/static/5.62.0/icons/favicons/mstile-70x70.png">
-<meta name="msapplication-square150x150logo" content="/static/5.62.0/icons/favicons/mstile-150x150.png">
-<meta name="msapplication-square310x310logo" content="/static/5.62.0/icons/favicons/mstile-310x310.png">
-<meta name="msapplication-wide310x150logo" content="/static/5.62.0/icons/favicons/mstile-310x150.png">
+<meta name="msapplication-TileImage" content="/static/5.66.0/icons/favicons/mstile-144x144.png">
+<meta name="msapplication-square70x70logo" content="/static/5.66.0/icons/favicons/mstile-70x70.png">
+<meta name="msapplication-square150x150logo" content="/static/5.66.0/icons/favicons/mstile-150x150.png">
+<meta name="msapplication-square310x310logo" content="/static/5.66.0/icons/favicons/mstile-310x310.png">
+<meta name="msapplication-wide310x150logo" content="/static/5.66.0/icons/favicons/mstile-310x150.png">
 
 
 					
@@ -1038,19 +1041,27 @@ class="breadcrumbs__item breadcrumbs__item--2"
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-breadcrumb-arrow"></use>
 </svg>
 <a
-href="https://www.simplyrecipes.com/family-dinner-recipes-5091349"
+href="https://www.simplyrecipes.com/dinner-recipes-by-type-5091419"
 class="breadcrumbs__item breadcrumbs__item--3"
->Family Dinners</a>
+>Dinners By Types</a>
 <svg class="icon icon-breadcrumb-arrow breadcrumbs__icon">
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-breadcrumb-arrow"></use>
 </svg>
 <a
-href="https://www.simplyrecipes.com/kid-friendly-recipes-5091343"
+href="https://www.simplyrecipes.com/soup-recipes-5091377"
 class="breadcrumbs__item breadcrumbs__item--4"
->Kid-Friendly</a>
+>Soups</a>
+<svg class="icon icon-breadcrumb-arrow breadcrumbs__icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-breadcrumb-arrow"></use>
+</svg>
+<a
+href="https://www.simplyrecipes.com/chicken-soup-recipes-5091375"
+class="breadcrumbs__item breadcrumbs__item--5"
+>Chicken Soups</a>
 </div>
 <div id="heading_1-0" class="comp heading">
 <h1 class="heading__title">One-Pot Chicken and Rice Soup</h1>
+<h2 class="heading__subtitle">One-Pot Chicken and Rice Soup! Throw bone-in chicken, rice, and vegetables together in a pot and simmer until they&#39;re done. It&#39;s the easiest soup ever, ready in under an hour.</h2>
 </div>
 <div id="article-meta_1-0" class="comp has-image article-meta mntl-block" data-tracking-container="true">
 <div id="article-byline_1-0" class="comp article-byline mntl-byline mntl-block">
@@ -1138,7 +1149,7 @@ data-tracking-container="true"
 Updated January 25, 2019</span>
 </div>
 <img
-srcset="https://www.simplyrecipes.com/thmb/69I9JgNTXgfwx4T7U1fRMTxGnOI=/150x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AaronHutchersonSelfPortraitHeadshot-AaronHutcherson-b2de32a5f16a4bc9a8470bfe5570ff04.jpg 150w, https://www.simplyrecipes.com/thmb/DZx6IrSB8C_Eq8y_lq3_RldjLQs=/187x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AaronHutchersonSelfPortraitHeadshot-AaronHutcherson-b2de32a5f16a4bc9a8470bfe5570ff04.jpg 187w, https://www.simplyrecipes.com/thmb/vvGUOOBAEHu_zuMbY65D5LDv_G0=/224x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AaronHutchersonSelfPortraitHeadshot-AaronHutcherson-b2de32a5f16a4bc9a8470bfe5570ff04.jpg 224w, https://www.simplyrecipes.com/thmb/XkDqjE_JheXz9CXZfuhS5UE4Qps=/300x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AaronHutchersonSelfPortraitHeadshot-AaronHutcherson-b2de32a5f16a4bc9a8470bfe5570ff04.jpg 300w"
+srcset="https://www.simplyrecipes.com/thmb/vVJVMgv7fB59Aw219ac0rHGbZdg=/160x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AaronHutchersonSelfPortraitHeadshot-AaronHutcherson-b2de32a5f16a4bc9a8470bfe5570ff04.jpg 160w"
 src="https://www.simplyrecipes.com/thmb/K0KUqHYqF24OvdVOsXTkGTLKEbc=/160x160/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AaronHutchersonSelfPortraitHeadshot-AaronHutcherson-b2de32a5f16a4bc9a8470bfe5570ff04.jpg"
 alt="Aaron Hutcherson"
 class=" article-meta__author-image mntl-image "
@@ -1253,37 +1264,40 @@ JUMP TO RECIPE
 <div id="social-share-sticky__container_1-0" class="comp social-share-sticky__container mntl-block">
 <ul id="social-share_1-0" class="comp social-share mntl-social-share share" data-email-subject="Simply Recipes: Homemade Chicken &amp;amp; Rice Soup {One-Pot}" data-description="One-Pot Chicken and Rice Soup! Throw bone-in chicken, rice, and vegetables together in a pot and simmer until they&amp;#39;re done. It&amp;#39;s the easiest soup ever, ready in under an hour." data-title="Homemade Chicken &amp;amp; Rice Soup {One-Pot}" data-tracking-container="true">
 <li class="share-item share-item-pinterest">
-<a data-href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.simplyrecipes.com%2Frecipes%2Fone_pot_chicken_and_rice_soup%2F%3Futm_source%3Dpinterest%26utm_medium%3Dsocial%26utm_campaign%3Dshareurlbuttons&description=Homemade+Chicken+%26amp%3B+Rice+Soup+%7BOne-Pot%7D&media=https%3A%2F%2Fwww.simplyrecipes.com%2Fthmb%2FogIBPZMvTTPR9pHBYJCttM55FDM%3D%2F750x0%2F__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__09__2017-10-23-ChickenRiceSoup-PIN-2v3-3e92d4528e7d40efb551497859dd143f.jpg"
+<span data-href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.simplyrecipes.com%2Frecipes%2Fone_pot_chicken_and_rice_soup%2F%3Futm_source%3Dpinterest%26utm_medium%3Dsocial%26utm_campaign%3Dshareurlbuttons&description=Homemade+Chicken+%26amp%3B+Rice+Soup+%7BOne-Pot%7D&media=https%3A%2F%2Fwww.simplyrecipes.com%2Fthmb%2FogIBPZMvTTPR9pHBYJCttM55FDM%3D%2F750x0%2F__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__09__2017-10-23-ChickenRiceSoup-PIN-2v3-3e92d4528e7d40efb551497859dd143f.jpg"
 data-network="pinterest"
+data-click-tracked="true"
 class="share-link share-link-pinterest"
 title="Share on Pinterest">
 <svg class="icon icon-pinterest ">
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-pinterest"></use>
 </svg>
 Pin
-</a>
+</span>
 </li>
 <li class="share-item share-item-facebook">
-<a data-href="https://www.facebook.com/dialog/share?app_id=138323699531998&display=popup&href=https%3A%2F%2Fwww.simplyrecipes.com%2Frecipes%2Fone_pot_chicken_and_rice_soup%2F%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dshareurlbuttons&redirect_uri=https%3A%2F%2Fwww.simplyrecipes.com%2FfacebookShareRedirect.htm"
+<span data-href="https://www.facebook.com/dialog/share?app_id=138323699531998&display=popup&href=https%3A%2F%2Fwww.simplyrecipes.com%2Frecipes%2Fone_pot_chicken_and_rice_soup%2F%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dshareurlbuttons&redirect_uri=https%3A%2F%2Fwww.simplyrecipes.com%2FfacebookShareRedirect.htm"
 data-network="facebook"
+data-click-tracked="true"
 class="share-link share-link-facebook"
 title="Share on Facebook">
 <svg class="icon icon-facebook ">
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-facebook"></use>
 </svg>
 Share
-</a>
+</span>
 </li>
 <li class="share-item share-item-email">
-<a data-href="https://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/?utm_source=emailshare&utm_medium=social&utm_campaign=shareurlbuttons"
+<span data-href="https://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/?utm_source=emailshare&utm_medium=social&utm_campaign=shareurlbuttons"
 data-network="emailshare"
+data-click-tracked="true"
 class="share-link share-link-email"
 title="Email this article">
 <svg class="icon icon-envelope ">
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-envelope"></use>
 </svg>
 Email
-</a>
+</span>
 </li>
 </ul>
 <form id="print-button_1-0" class="comp print-button" method="POST" action="/recipes/one_pot_chicken_and_rice_soup/?print" target="_blank">
@@ -1294,14 +1308,14 @@ Email
 print
 </button>
 <input type="hidden" value="true" name="print" />
-<input type="hidden" value="34aedd2146fc2166783d6ad3057d130c" name="CSRFToken" />
+<input type="hidden" value="9785e2c1fb3da5a1d777125fcd3db8b1" name="CSRFToken" />
 </form>
 </div>
 </div>
 </header>
 <div class="loc article-content article__body right-rail">
 <div id="primary-media_1-0" class="comp article-header__media primary-media figure-wrapper--article mntl-block">
-<figure id="figure_2-0" class="comp figure figure--primary-image">
+<figure id="figure_2-0" class="comp figure figure--primary-image" style>
 <div class="figure__media js-figure-media figure__media--portrait"> <div class="img-placeholder" style="padding-bottom:140.0%;"> <img src="https://www.simplyrecipes.com/thmb/3CJ5uCNraQ1O63CA7F3bq6zK3IY=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__09__2017-10-23-ChickenRiceSoup-5-eece1a9bf1f34a5bb0a9ca4baab2edb2.jpg" alt="One-Pot Chicken and Rice Soup" class=" primary-image mntl-primary-image figure__image js-figure-image" /> </div> </div> <figcaption class="figure__caption"> <span class="figure__caption-owner"> Aaron Hutcherson </span> </figcaption></figure>
 </div>
 <div id="mntl-chop_1-0--chop-content" class="loc chop-content is-chopped" style="--chop-height: 99999999px">
@@ -1318,7 +1332,7 @@ This easy one-pot chicken and rice soup definitely deserves to be in your collec
 The best part? You literally throw all the ingredients in the pot and let them simmer in the stock until the soup is done. No sautéing or browning. So easy.
 </p>
 <div id="mntl-sc-block_1-0-5" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block"></div>
-<a class="heading-toc" id="video-how-to-make-1-pot-chicken-and-rice-soup"></a> <h2 id="mntl-sc-block_1-0-6" class="comp mntl-sc-block lifestyle-sc-block-heading mntl-sc-block-heading"> <span class="mntl-sc-block-heading__text"> Video! How to Make 1-Pot Chicken and Rice Soup </span> </h2>
+<span class="heading-toc" id="video-how-to-make-1-pot-chicken-and-rice-soup"></span> <h2 id="mntl-sc-block_1-0-6" class="comp mntl-sc-block lifestyle-sc-block-heading mntl-sc-block-heading"> <span class="mntl-sc-block-heading__text"> Video: How to Make 1-Pot Chicken and Rice Soup </span> </h2>
 <div id="mntl-sc-block_1-0-7" class="comp inline-video text-passage mntl-sc-block lifestyle-sc-block-inlinevideo mntl-sc-block-inlinevideo mntl-block" style="max-width: 100%">
 <div id="mntl-sc-block-inlinevideo__video-container_1-0" class="comp mntl-sc-block-inlinevideo__video-container mntl-block">
 <div id="mntl-sc-block-inlinevideo__video_1-0" class="comp lazyload mntl-sc-block-inlinevideo__video mntl-jwplayer mntl-block" data-bgset="https://cdn.jwplayer.com/v2/media/28e6KvWZ/poster.jpg?width=720" data-sizes="auto"></div>
@@ -1331,7 +1345,7 @@ The best part? You literally throw all the ingredients in the pot and let them s
 One-Pot Chicken and Rice Soup</h3>
 </div>
 <div id="mntl-sc-block_1-0-8" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block"></div>
-<a class="heading-toc" id="use-bone-in-chicken-breasts"></a> <h2 id="mntl-sc-block_1-0-9" class="comp mntl-sc-block lifestyle-sc-block-heading mntl-sc-block-heading"> <span class="mntl-sc-block-heading__text"> Use Bone-In Chicken Breasts </span> </h2>
+<span class="heading-toc" id="use-bone-in-chicken-breasts"></span> <h2 id="mntl-sc-block_1-0-9" class="comp mntl-sc-block lifestyle-sc-block-heading mntl-sc-block-heading"> <span class="mntl-sc-block-heading__text"> Use Bone-In Chicken Breasts </span> </h2>
 <p id="mntl-sc-block_1-0-10" class="comp mntl-sc-block mntl-sc-block-html">
 For this recipe, I call for bone-in chicken breasts, which add more flavor than boneless, but without the skin. To prep, just pull away the skin and discard.
 </p>
@@ -1357,7 +1371,7 @@ data-click-tracked="true" data-img-lightbox="true" data-owner="Aaron Hutcherson"
 <span class="figure-article-caption-owner">Aaron Hutcherson</span>
 </figcaption>
 </figure>
-<a class="heading-toc" id="the-best-stock-for-chicken-and-rice-soup"></a> <h2 id="mntl-sc-block_1-0-15" class="comp mntl-sc-block lifestyle-sc-block-heading mntl-sc-block-heading"> <span class="mntl-sc-block-heading__text"> The Best Stock For Chicken and Rice Soup </span> </h2>
+<span class="heading-toc" id="the-best-stock-for-chicken-and-rice-soup"></span> <h2 id="mntl-sc-block_1-0-15" class="comp mntl-sc-block lifestyle-sc-block-heading mntl-sc-block-heading"> <span class="mntl-sc-block-heading__text"> The Best Stock for Chicken and Rice Soup </span> </h2>
 <p id="mntl-sc-block_1-0-16" class="comp mntl-sc-block mntl-sc-block-html">
 I prefer to use unsalted stocks in my cooking so that I can control how much salt I add. <a href="https://www.simplyrecipes.com/recipes/how_to_make_chicken_stock/" data-component="link" data-source="inlineLink" data-type="internalLink" data-ordinal="1">Homemade stock</a> is best if you have it, of course, but also look for low-sodium or sodium-free stocks and broths at the grocery store.
 </p>
@@ -1387,7 +1401,7 @@ data-click-tracked="true" data-img-lightbox="true" data-owner="Aaron Hutcherson"
 <span class="figure-article-caption-owner">Aaron Hutcherson</span>
 </figcaption>
 </figure>
-<a class="heading-toc" id="how-to-store-or-freeze-this-soup"></a> <h2 id="mntl-sc-block_1-0-23" class="comp mntl-sc-block lifestyle-sc-block-heading mntl-sc-block-heading"> <span class="mntl-sc-block-heading__text"> How to Store or Freeze This Soup </span> </h2>
+<span class="heading-toc" id="how-to-store-or-freeze-this-soup"></span> <h2 id="mntl-sc-block_1-0-23" class="comp mntl-sc-block lifestyle-sc-block-heading mntl-sc-block-heading"> <span class="mntl-sc-block-heading__text"> How to Store or Freeze This Soup </span> </h2>
 <p id="mntl-sc-block_1-0-24" class="comp mntl-sc-block mntl-sc-block-html">
 Leftovers will keep for about a week refrigerated, or up to 3 months frozen.
 </p>
@@ -1396,7 +1410,7 @@ Leftovers will keep for about a week refrigerated, or up to 3 months frozen.
 <strong>To freeze, </strong>let the soup cool completely, then <a href="https://www.simplyrecipes.com/recipes/how_to_freeze_soup_beans_and_broth/" data-component="link" data-source="inlineLink" data-type="internalLink" data-ordinal="1">transfer to freezer containers or bags</a>. Thaw overnight in the fridge, or warm the frozen soup in a saucepan over low heat on the stove top.
 </p>
 <div id="mntl-sc-block_1-0-27" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block"></div>
-<a class="heading-toc" id="more-ways-to-make-chicken-soup"></a> <h2 id="mntl-sc-block_1-0-28" class="comp mntl-sc-block lifestyle-sc-block-heading mntl-sc-block-heading"> <span class="mntl-sc-block-heading__text"> More Ways to Make Chicken Soup </span> </h2>
+<span class="heading-toc" id="more-ways-to-make-chicken-soup"></span> <h2 id="mntl-sc-block_1-0-28" class="comp mntl-sc-block lifestyle-sc-block-heading mntl-sc-block-heading"> <span class="mntl-sc-block-heading__text"> More Ways to Make Chicken Soup </span> </h2>
 <ul id="mntl-sc-block_1-0-29" class="comp mntl-sc-block mntl-sc-block-html">
 <li><a href="https://www.simplyrecipes.com/recipes/how_to_make_chicken_soup_in_the_pressure_cooker/" data-component="link" data-source="inlineLink" data-type="internalLink" data-ordinal="1">How to Make Chicken Soup in the Pressure Cooker</a></li><li><a href="https://www.simplyrecipes.com/recipes/chicken_noodle_soup/" data-component="link" data-source="inlineLink" data-type="internalLink" data-ordinal="2">Homemade Chicken Noodle Soup</a></li><li><a href="https://www.simplyrecipes.com/recipes/quick_chicken_pho/" data-component="link" data-source="inlineLink" data-type="internalLink" data-ordinal="3">Quick Chicken Pho</a></li><li><a href="https://www.simplyrecipes.com/recipes/rotisserie_chicken_noodle_soup/" data-component="link" data-source="inlineLink" data-type="internalLink" data-ordinal="4">Rotisserie Chicken Noodle Soup</a></li><li><a href="https://www.simplyrecipes.com/recipes/chicken_soup_with_ginger_and_shiitake_mushrooms/" data-component="link" data-source="inlineLink" data-type="internalLink" data-ordinal="5">Chicken Soup with Ginger and Shiitake Mushrooms</a></li>
 </ul>
@@ -1405,7 +1419,7 @@ Leftovers will keep for about a week refrigerated, or up to 3 months frozen.
 <div id="billboard1-sticky-dynamic_2-0" class="comp scads-to-load right-rail__item billboard-sticky billboard1-sticky-dynamic billboard-sticky--sc" data-height="1050" data-breakpoint="medium2">
 <div class="spacer">
 <div id="billboard1-dynamic_2-0" class="comp billboard1-dynamic mntl-gpt-dynamic-adunit mntl-gpt-adunit gpt billboard dynamic">
-<div id="billboard" class="wrapper" data-type="billboard" data-pos="atf" data-priority="2" data-sizes="[[300, 250], [300, 600], [300, 1050], [1, 2], &quot;fluid&quot;]" data-rtb="true" data-targeting="{}" data-auction-floor-id="d4779d6f21f8497cbd1cd26bf461a920" data-auction-floor-value="50"></div>
+<div id="billboard" class="wrapper" data-type="billboard" data-pos="atf" data-priority="2" data-sizes="[[300, 250], [300, 600], [300, 1050], [1, 2], &quot;fluid&quot;]" data-rtb="true" data-targeting="{}" data-auction-floor-id="9f278783930a4cefaf14684abbc432f9" data-auction-floor-value="50"></div>
 </div>
 </div>
 </div>
@@ -1414,7 +1428,7 @@ Leftovers will keep for about a week refrigerated, or up to 3 months frozen.
 <div id="billboard2-sticky-dynamic_2-0" class="comp scads-to-load right-rail__item billboard-sticky billboard2-sticky-dynamic billboard-sticky--sc" data-height="601">
 <div class="spacer">
 <div id="billboard2-dynamic_2-0" class="comp billboard2-dynamic mntl-gpt-dynamic-adunit mntl-gpt-adunit gpt billboard dynamic">
-<div id="billboard2" class="wrapper" data-type="billboard" data-pos="btf1" data-priority="3" data-sizes="[[300, 250], [300, 251], [300, 600], [300, 601], [2, 1], &quot;fluid&quot;]" data-rtb="true" data-targeting="null" data-auction-floor-id="f25dd8a32ba448e6a7f22d3ab140f9a8" data-auction-floor-value="50"></div>
+<div id="billboard2" class="wrapper" data-type="billboard" data-pos="btf1" data-priority="3" data-sizes="[[300, 250], [300, 251], [300, 600], [300, 601], [2, 1], &quot;fluid&quot;]" data-rtb="true" data-targeting="null" data-auction-floor-id="8467a2bc6f984c57977c9158844de451" data-auction-floor-value="50"></div>
 </div>
 </div>
 </div>
@@ -1423,7 +1437,7 @@ Leftovers will keep for about a week refrigerated, or up to 3 months frozen.
 <div id="billboard3-sticky-dynamic_2-0" class="comp scads-to-load right-rail__item billboard-sticky billboard3-sticky-dynamic billboard-sticky--sc" data-height="600">
 <div class="spacer">
 <div id="billboard3-dynamic_2-0" class="comp billboard3-dynamic mntl-gpt-dynamic-adunit mntl-gpt-adunit gpt billboard dynamic">
-<div id="billboard3" class="wrapper" data-type="billboard" data-pos="btf2" data-priority="4" data-sizes="[[300, 250], [300, 252], [3, 1], &quot;fluid&quot;]" data-rtb="true" data-targeting="null" data-auction-floor-id="65fc13897dbe42a28cce78342940daa6" data-auction-floor-value="50"></div>
+<div id="billboard3" class="wrapper" data-type="billboard" data-pos="btf2" data-priority="4" data-sizes="[[300, 250], [300, 252], [3, 1], &quot;fluid&quot;]" data-rtb="true" data-targeting="null" data-auction-floor-id="3f215db744984d7ea74bd45b9e8eac83" data-auction-floor-value="50"></div>
 </div>
 </div>
 </div>
@@ -1432,7 +1446,7 @@ Leftovers will keep for about a week refrigerated, or up to 3 months frozen.
 <div id="billboard4-sticky-dynamic_2-0" class="comp scads-to-load right-rail__item billboard-sticky billboard4-sticky-dynamic billboard-sticky--sc" data-height="600">
 <div class="spacer">
 <div id="billboard4-dynamic_2-0" class="comp billboard4-dynamic mntl-gpt-dynamic-adunit mntl-gpt-adunit gpt billboard dynamic">
-<div id="billboard4" class="wrapper" data-type="billboard" data-pos="btf3" data-priority="5" data-sizes="[[300, 250], [300, 253], [4, 1], &quot;fluid&quot;]" data-rtb="true" data-targeting="null" data-auction-floor-id="249fa838dfad43bbbdf3ecb86e82bb03" data-auction-floor-value="50"></div>
+<div id="billboard4" class="wrapper" data-type="billboard" data-pos="btf3" data-priority="5" data-sizes="[[300, 250], [300, 253], [4, 1], &quot;fluid&quot;]" data-rtb="true" data-targeting="null" data-auction-floor-id="8dbb79c64c944aa1bf29b32ee7162668" data-auction-floor-value="50"></div>
 </div>
 </div>
 </div>
@@ -1441,7 +1455,7 @@ Leftovers will keep for about a week refrigerated, or up to 3 months frozen.
 <div id="billboard5-sticky-dynamic_1-0" class="comp scads-to-load right-rail__item billboard-sticky billboard5-sticky-dynamic billboard-sticky--sc" data-height="600">
 <div class="spacer">
 <div id="billboard5-dynamic_1-0" class="comp billboard5-dynamic mntl-gpt-dynamic-adunit mntl-gpt-adunit gpt billboard dynamic">
-<div id="billboard5" class="wrapper" data-type="billboard" data-pos="btf4" data-priority="7" data-sizes="[[300, 250], [300, 254], [6, 1], &quot;fluid&quot;]" data-rtb="true" data-targeting="null" data-auction-floor-id="0543cdcb37f34451a7c62791a956127a" data-auction-floor-value="50"></div>
+<div id="billboard5" class="wrapper" data-type="billboard" data-pos="btf4" data-priority="7" data-sizes="[[300, 250], [300, 254], [6, 1], &quot;fluid&quot;]" data-rtb="true" data-targeting="null" data-auction-floor-id="169c337deec24563a7a7f2be8f70015f" data-auction-floor-value="50"></div>
 </div>
 </div>
 </div>
@@ -1450,7 +1464,7 @@ Leftovers will keep for about a week refrigerated, or up to 3 months frozen.
 <div id="billboard6-sticky-dynamic_1-0" class="comp scads-to-load right-rail__item billboard-sticky billboard6-sticky-dynamic billboard-sticky--sc" data-height="600">
 <div class="spacer">
 <div id="billboard6-dynamic_1-0" class="comp billboard6-dynamic mntl-gpt-dynamic-adunit mntl-gpt-adunit gpt billboard dynamic">
-<div id="billboard6" class="wrapper" data-type="billboard" data-pos="btf5" data-priority="8" data-sizes="[[300, 250], [300, 255], [7, 1], &quot;fluid&quot;]" data-rtb="true" data-targeting="null" data-auction-floor-id="d1667e5da224403c80163bfb19b67f6b" data-auction-floor-value="50"></div>
+<div id="billboard6" class="wrapper" data-type="billboard" data-pos="btf5" data-priority="8" data-sizes="[[300, 250], [300, 255], [7, 1], &quot;fluid&quot;]" data-rtb="true" data-targeting="null" data-auction-floor-id="f445fba45e5046b28afe05a3b772a9e3" data-auction-floor-value="50"></div>
 </div>
 </div>
 </div>
@@ -1459,7 +1473,7 @@ Leftovers will keep for about a week refrigerated, or up to 3 months frozen.
 <div id="billboard7-sticky-dynamic_1-0" class="comp scads-to-load right-rail__item billboard-sticky billboard7-sticky-dynamic billboard-sticky--sc" data-height="600">
 <div class="spacer">
 <div id="billboard7-dynamic_1-0" class="comp billboard7-dynamic mntl-gpt-dynamic-adunit mntl-gpt-adunit gpt billboard dynamic">
-<div id="billboard7" class="wrapper" data-type="billboard" data-pos="btf6" data-priority="9" data-sizes="[[300, 250], [300, 256], [8, 1], &quot;fluid&quot;]" data-rtb="true" data-targeting="null" data-auction-floor-id="def0e4a1ea2b4fd38db441da260dd791" data-auction-floor-value="50"></div>
+<div id="billboard7" class="wrapper" data-type="billboard" data-pos="btf6" data-priority="9" data-sizes="[[300, 250], [300, 256], [8, 1], &quot;fluid&quot;]" data-rtb="true" data-targeting="null" data-auction-floor-id="8b0d1268a873428a950e9eab2b0fc20b" data-auction-floor-value="50"></div>
 </div>
 </div>
 </div>
@@ -1474,9 +1488,9 @@ Save it
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-heart"></use>
 </svg>
 </button>
-<span id="recipe-block__header_1-0" class="comp recipe-block__header text-block">
+<h2 id="recipe-block__header_1-0" class="comp recipe-block__header text-block">
 One-Pot Chicken and Rice Soup
-</span>
+</h2>
 <div id="recipe-block__meta_1-0" class="comp recipe-block__meta mntl-block">
 <div id="project-meta_1-0" class="comp project-meta">
 <div class="project-meta__times-container">
@@ -1512,12 +1526,12 @@ to 8 servings</span>
 </div>
 <div id="recipe-block__note_1-0" class="comp text-passage recipe-block__note mntl-block">
 <span id="recipe-block__note-text_1-0" class="comp recipe-block__note-text text-block">
-<p class="Normal1"><span lang="EN">Skip the salt if using salted stock or broth. Taste the soup at the end and add more salt if needed.</span></p><p class="Normal1"><span lang="EN">This recipe calls for a classic mirepoix of carrots, onions, and celery for the vegetable base, but you can make this recipe your own by adding different vegetables, like fennel or cubes of butternut squash.</span></p>
+Skip the salt if using salted stock or broth. Taste the soup at the end and add more salt if needed. This recipe calls for a classic mirepoix of carrots, onions, and celery for the vegetable base, but you can make this recipe your own by adding different vegetables, like fennel or cubes of butternut squash.
 </span>
 </div>
 </div>
 <section id="section--ingredients_1-0" class="comp section--ingredients section">
-<header class="section__header "><h2 class="section__title section__title--bold-underline">Ingredients</h2></header>
+<header class="section__header "><h3 class="section__title section__title--bold-underline">Ingredients</h3></header>
 <div class="loc section-content section__content ">
 <ul id="ingredient-list_1-0" class="comp ingredient-list simple-list simple-list--circle ">
 <li class="simple-list__item js-checkbox-trigger ingredient text-passage">
@@ -1564,12 +1578,12 @@ Chopped fresh parsley, for serving
 <div id="native" class="wrapper" data-type="native" data-pos="native" data-priority="4" data-sizes="[[1, 3], &quot;fluid&quot;]" data-rtb="false" data-targeting="{}"></div>
 </div>
 <section id="section--instructions_1-0" class="comp section--instructions section">
-<header class="section__header "><h2 class="section__title section__title--bold-underline">Method</h2></header>
+<header class="section__header "><h3 class="section__title section__title--bold-underline">Method</h3></header>
 <div class="loc section-content section__content ">
 <div id="structured-project__steps_1-0" class="comp text-passage structured-content structured-project__steps mntl-sc-page mntl-block" data-sc-sticky-offset="60" data-sc-ad-label-height="24" data-sc-ad-track-spacing="100" data-sc-min-track-height="250" data-sc-max-track-height="600" data-sc-breakpoint="54em" data-sc-load-immediate="1" data-sc-content-positions="[300,600,900,1200,1500,1800,2100]" data-bind-scroll-on-start="true">
 <OL id="mntl-sc-block_3-0" class="comp mntl-sc-block-group--OL mntl-sc-block mntl-sc-block-startgroup">
 <LI id="mntl-sc-block_3-0-1" class="comp mntl-sc-block-group--LI mntl-sc-block mntl-sc-block-startgroup">
-<h3 id="mntl-sc-block_3-0-2" class="comp mntl-sc-block lifestyle-sc-block-subheading mntl-sc-block-subheading"> <span class="mntl-sc-block-subheading__text"> Assemble the soup and bring to a simmer </span> </h3>
+<div id="mntl-sc-block_3-0-2" class="comp mntl-sc-block lifestyle-sc-block-subheading mntl-sc-block-subheading"> <span class="mntl-sc-block-subheading__text"> Assemble the soup and bring to a simmer </span> </div>
 <p id="mntl-sc-block_3-0-3" class="comp mntl-sc-block mntl-sc-block-html">
 Combine the chicken, white rice, celery, carrots, onions, garlic, salt, and pepper in a large pot. Add the chicken stock and bring to a boil over high heat.
 </p>
@@ -1596,14 +1610,14 @@ data-click-tracked="true" data-img-lightbox="true" data-owner="Aaron Hutcherson"
 <div id="mntl-sc-block_3-0-6" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block"></div>
 </LI>
 <LI id="mntl-sc-block_3-0-8" class="comp mntl-sc-block-group--LI mntl-sc-block mntl-sc-block-startgroup">
-<h3 id="mntl-sc-block_3-0-9" class="comp mntl-sc-block lifestyle-sc-block-subheading mntl-sc-block-subheading"> <span class="mntl-sc-block-subheading__text"> Simmer for about 25 minutes </span> </h3>
+<div id="mntl-sc-block_3-0-9" class="comp mntl-sc-block lifestyle-sc-block-subheading mntl-sc-block-subheading"> <span class="mntl-sc-block-subheading__text"> Simmer for about 25 minutes </span> </div>
 <p id="mntl-sc-block_3-0-10" class="comp mntl-sc-block mntl-sc-block-html">
 As the soup simmers, skim off any foam that collects on the surface with a spoon. Continue to simmer until the rice and vegetables are tender, about 25 minutes. Remove the soup from heat.
 </p>
 <div id="mntl-sc-block_3-0-11" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block"></div>
 </LI>
 <LI id="mntl-sc-block_3-0-13" class="comp mntl-sc-block-group--LI mntl-sc-block mntl-sc-block-startgroup">
-<h3 id="mntl-sc-block_3-0-14" class="comp mntl-sc-block lifestyle-sc-block-subheading mntl-sc-block-subheading"> <span class="mntl-sc-block-subheading__text"> Shred the chicken and make the garlic paste </span> </h3>
+<div id="mntl-sc-block_3-0-14" class="comp mntl-sc-block lifestyle-sc-block-subheading mntl-sc-block-subheading"> <span class="mntl-sc-block-subheading__text"> Shred the chicken and make the garlic paste </span> </div>
 <p id="mntl-sc-block_3-0-15" class="comp mntl-sc-block mntl-sc-block-html">
 Remove the chicken and garlic cloves using a slotted spoon or tongs. Transfer the chicken breasts to a bowl and shred with two forks. Discard the bones. Return the shredded chicken to the pot.
 </p>
@@ -1630,7 +1644,7 @@ data-click-tracked="true" data-img-lightbox="true" data-owner="Aaron Hutcherson"
 <div id="mntl-sc-block_3-0-18" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block"></div>
 </LI>
 <LI id="mntl-sc-block_3-0-20" class="comp mntl-sc-block-group--LI mntl-sc-block mntl-sc-block-startgroup">
-<h3 id="mntl-sc-block_3-0-21" class="comp mntl-sc-block lifestyle-sc-block-subheading mntl-sc-block-subheading"> <span class="mntl-sc-block-subheading__text"> Season and serve: </span> </h3>
+<div id="mntl-sc-block_3-0-21" class="comp mntl-sc-block lifestyle-sc-block-subheading mntl-sc-block-subheading"> <span class="mntl-sc-block-subheading__text"> Season and serve: </span> </div>
 <p id="mntl-sc-block_3-0-22" class="comp mntl-sc-block mntl-sc-block-html">
 Stir the lemon juice into to the soup, and taste. The soup should taste rich, barely salty, and with just a hint of lemon. Add more salt or lemon juice as needed until it tastes good to you.
 </p>
@@ -1762,7 +1776,7 @@ type="button"
 </div>
 <div class="loc post-footer article__post-footer">
 <div id="leaderboard-post-content_1-0" class="comp has-right-label js-lazy-ad leaderboard-post-content leaderboard--lazy mntl-lazy-flexible-ad mntl-flexible-ad mntl-gpt-adunit gpt leaderboard dynamic" data-offset="400">
-<div id="leaderboardac" class="wrapper" data-type="leaderboard" data-pos="ac" data-priority="10" data-sizes="[[728, 90], [970, 250], [1200, 450], [1,11], &quot;fluid&quot;]" data-rtb="true" data-targeting="{}" data-auction-floor-id="4196693b52a645d2b4d2dd75d4c2742d" data-auction-floor-value="50"></div>
+<div id="leaderboardac" class="wrapper" data-type="leaderboard" data-pos="ac" data-priority="10" data-sizes="[[728, 90], [970, 250], [1200, 450], [1,11], &quot;fluid&quot;]" data-rtb="true" data-targeting="{}" data-auction-floor-id="5ad1d334dac04b118954e6349db52c2b" data-auction-floor-value="50"></div>
 </div>
 <div id="article-post-footer_1-0" class="comp article-post-footer mntl-block">
 <div id="article-post-footer__recirc_1-0" class="comp article-post-footer__recirc mntl-block">
@@ -1881,7 +1895,7 @@ data-dim-ratio="1.5"
 </div>
 <div class="card__wrapper">
 <div class="card__content">
-<div class="card__tag" data-tax-tag="Mushrooms" data-updated="01/17/21"></div>
+<div class="card__tag" data-tax-tag="Wild Rice" data-updated="01/17/21"></div>
 <span class="card__title">
 <span class="card__underline">
 Slow Cooker Chicken and Rice Soup
@@ -2094,142 +2108,9 @@ Chicken Udon Soup with Bok Choy
 </a>
 </div>
 <div id="card-list__item_1-0-4" class="comp card-list__item mntl-block">
-<a id="card_2-0-4" class="comp card" href="https://www.simplyrecipes.com/recipes/chicken_noodle_casserole/">
+<a id="card_2-0-4" class="comp card" href="https://www.simplyrecipes.com/recipes/coriander_chicken_cilantro_and_chard_stew/">
 <div class="loc card__header">
 <div id="card__media_2-0-4" class="comp card__media image">
-<div class="img-placeholder" style="padding-bottom:66.6%;">
-<img
-data-src="https://www.simplyrecipes.com/thmb/3ORgHI1J6LDsI1zBZG6arKHYAbE=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__03__chicken-noodle-casserole-lead-3-c98029cbd84e4f24a987bb70f405d40f.jpg"
-src="//:0"
-data-placeholder="default"
-alt="Creamy Chicken Noodle Casserole in a white baking dish with a silver spoon."
-class="lazyload card__image"
-data-dim-ratio="1.5"
-/>
-</div></div>
-</div>
-<div class="card__wrapper">
-<div class="card__content">
-<div class="card__tag" data-tax-tag="Comfort Food" data-updated="12/23/19"></div>
-<span class="card__title">
-<span class="card__underline">
-Chicken Noodle Casserole
-</span>
-</span>
-</div>
-<div class="loc card__footer">
-<span id="meta-text--recipe_2-0-4" class="comp meta-text--recipe meta-text">
-<svg class="meta-text__icon">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use>
-</svg>
-<span class="meta-text__text">
-70 mins
-</span>
-</span>
-</div>
-</div>
-</a>
-</div>
-<div id="card-list__item_1-0-5" class="comp card-list__item mntl-block">
-<a id="card_2-0-5" class="comp card" href="https://www.simplyrecipes.com/recipes/hearty_roasted_vegetable_and_chicken_stew/">
-<div class="loc card__header">
-<div id="card__media_2-0-5" class="comp card__media image">
-<div class="img-placeholder" style="padding-bottom:66.6%;">
-<img
-data-src="https://www.simplyrecipes.com/thmb/Du_SSQwHD4C7Ar9vS3H0WwP0CAk=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2018__12__Roasted-Veg-Chicken-Stew-LEAD-HORIZONTAL-d7ce1ee6aa444d6d817f099d3da1f5da.jpg"
-src="//:0"
-data-placeholder="default"
-alt="Chicken Stew Recipe"
-class="lazyload card__image"
-data-dim-ratio="1.5"
-/>
-</div></div>
-</div>
-<div class="card__wrapper">
-<div class="card__content">
-<div class="card__tag" data-tax-tag="Chicken Stews" data-updated="12/22/18"></div>
-<span class="card__title">
-<span class="card__underline">
-Hearty Roasted Vegetable and Chicken Stew
-</span>
-</span>
-</div>
-<div class="loc card__footer">
-<span id="meta-text--recipe_2-0-5" class="comp meta-text--recipe meta-text">
-<svg class="meta-text__icon">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use>
-</svg>
-<span class="meta-text__text">
-75 mins
-</span>
-</span>
-<div id="aggregate-star-rating--card_2-0-5" class="comp aggregate-star-rating aggregate-star-rating--card">
-<span class="aggregate-star-rating__title">Ratings</span>
-<div id="mntl-aggregate-star-rating_2-0-5" class="comp mntl-aggregate-star-rating mntl-rating" data-doc-id="0">
-<span class="active" data-rating="1" data-ordinal="1" aria-label="Rate 1-star">
-<svg class="star-icon star-icon--inactive">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
-</svg>
-<svg class="star-icon star-icon--active">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
-</svg>
-<svg class="star-icon star-icon--half">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
-</svg>
-</span>
-<span class="active" data-rating="2" data-ordinal="2" aria-label="Rate 2-star">
-<svg class="star-icon star-icon--inactive">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
-</svg>
-<svg class="star-icon star-icon--active">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
-</svg>
-<svg class="star-icon star-icon--half">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
-</svg>
-</span>
-<span class="active" data-rating="3" data-ordinal="3" aria-label="Rate 3-star">
-<svg class="star-icon star-icon--inactive">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
-</svg>
-<svg class="star-icon star-icon--active">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
-</svg>
-<svg class="star-icon star-icon--half">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
-</svg>
-</span>
-<span class="active" data-rating="4" data-ordinal="4" aria-label="Rate 4-star">
-<svg class="star-icon star-icon--inactive">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
-</svg>
-<svg class="star-icon star-icon--active">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
-</svg>
-<svg class="star-icon star-icon--half">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
-</svg>
-</span>
-<span class="active" data-rating="5" data-ordinal="5" aria-label="Rate 5-star">
-<svg class="star-icon star-icon--inactive">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
-</svg>
-<svg class="star-icon star-icon--active">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
-</svg>
-<svg class="star-icon star-icon--half">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
-</svg>
-</span></div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div id="card-list__item_1-0-6" class="comp card-list__item mntl-block">
-<a id="card_2-0-6" class="comp card" href="https://www.simplyrecipes.com/recipes/coriander_chicken_cilantro_and_chard_stew/">
-<div class="loc card__header">
-<div id="card__media_2-0-6" class="comp card__media image">
 <div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.simplyrecipes.com/thmb/I-eNvM8Ih6u5OHXOiYiG3y373-c=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2013__04__coriander-chicken-cilantro-chard-stew-horiz-a-1800-de421e738af94e75baa4085b3e40b256.jpg"
@@ -2251,7 +2132,7 @@ Chicken Stew with Coriander, Cilantro, and Chard
 </span>
 </div>
 <div class="loc card__footer">
-<span id="meta-text--recipe_2-0-6" class="comp meta-text--recipe meta-text">
+<span id="meta-text--recipe_2-0-4" class="comp meta-text--recipe meta-text">
 <svg class="meta-text__icon">
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use>
 </svg>
@@ -2259,9 +2140,9 @@ Chicken Stew with Coriander, Cilantro, and Chard
 90 mins
 </span>
 </span>
-<div id="aggregate-star-rating--card_2-0-6" class="comp aggregate-star-rating aggregate-star-rating--card">
+<div id="aggregate-star-rating--card_2-0-4" class="comp aggregate-star-rating aggregate-star-rating--card">
 <span class="aggregate-star-rating__title">Ratings</span>
-<div id="mntl-aggregate-star-rating_2-0-6" class="comp mntl-aggregate-star-rating mntl-rating" data-doc-id="0">
+<div id="mntl-aggregate-star-rating_2-0-4" class="comp mntl-aggregate-star-rating mntl-rating" data-doc-id="0">
 <span class="active" data-rating="1" data-ordinal="1" aria-label="Rate 1-star">
 <svg class="star-icon star-icon--inactive">
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
@@ -2322,10 +2203,10 @@ Chicken Stew with Coriander, Cilantro, and Chard
 </div>
 </a>
 </div>
-<div id="card-list__item_1-0-7" class="comp card-list__item mntl-block">
-<a id="card_2-0-7" class="comp card" href="https://www.simplyrecipes.com/recipes/easy_chicken_pot_pie/">
+<div id="card-list__item_1-0-5" class="comp card-list__item mntl-block">
+<a id="card_2-0-5" class="comp card" href="https://www.simplyrecipes.com/recipes/easy_chicken_pot_pie/">
 <div class="loc card__header">
-<div id="card__media_2-0-7" class="comp card__media image">
+<div id="card__media_2-0-5" class="comp card__media image">
 <div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.simplyrecipes.com/thmb/RR3C27uRq7yGawl3nbA14m3tIdQ=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2020__10__Chicken-Pot-Pie-LEAD-1-f01cc53ba4dc4b50b91de3aa1e2ef62c.jpg"
@@ -2347,7 +2228,7 @@ Easy Chicken Pot Pie
 </span>
 </div>
 <div class="loc card__footer">
-<span id="meta-text--recipe_2-0-7" class="comp meta-text--recipe meta-text">
+<span id="meta-text--recipe_2-0-5" class="comp meta-text--recipe meta-text">
 <svg class="meta-text__icon">
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use>
 </svg>
@@ -2355,109 +2236,9 @@ Easy Chicken Pot Pie
 95 mins
 </span>
 </span>
-<div id="aggregate-star-rating--card_2-0-7" class="comp aggregate-star-rating aggregate-star-rating--card">
+<div id="aggregate-star-rating--card_2-0-5" class="comp aggregate-star-rating aggregate-star-rating--card">
 <span class="aggregate-star-rating__title">Ratings</span>
-<div id="mntl-aggregate-star-rating_2-0-7" class="comp mntl-aggregate-star-rating mntl-rating" data-doc-id="0">
-<span class="active" data-rating="1" data-ordinal="1" aria-label="Rate 1-star">
-<svg class="star-icon star-icon--inactive">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
-</svg>
-<svg class="star-icon star-icon--active">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
-</svg>
-<svg class="star-icon star-icon--half">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
-</svg>
-</span>
-<span class="active" data-rating="2" data-ordinal="2" aria-label="Rate 2-star">
-<svg class="star-icon star-icon--inactive">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
-</svg>
-<svg class="star-icon star-icon--active">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
-</svg>
-<svg class="star-icon star-icon--half">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
-</svg>
-</span>
-<span class="active" data-rating="3" data-ordinal="3" aria-label="Rate 3-star">
-<svg class="star-icon star-icon--inactive">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
-</svg>
-<svg class="star-icon star-icon--active">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
-</svg>
-<svg class="star-icon star-icon--half">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
-</svg>
-</span>
-<span class="active" data-rating="4" data-ordinal="4" aria-label="Rate 4-star">
-<svg class="star-icon star-icon--inactive">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
-</svg>
-<svg class="star-icon star-icon--active">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
-</svg>
-<svg class="star-icon star-icon--half">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
-</svg>
-</span>
-<span class="active" data-rating="5" data-ordinal="5" aria-label="Rate 5-star">
-<svg class="star-icon star-icon--inactive">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
-</svg>
-<svg class="star-icon star-icon--active">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
-</svg>
-<svg class="star-icon star-icon--half">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
-</svg>
-</span></div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div id="leaderboardfooter_2-0" class="comp has-right-label js-lazy-ad leaderboardfooter leaderboard--lazy mntl-lazy-flexible-ad mntl-flexible-ad mntl-gpt-adunit gpt leaderboard dynamic">
-<div id="leaderboardfooter" class="wrapper" data-type="leaderboard" data-pos="ft1" data-priority="6" data-sizes="[[728, 90], [728, 98], [970, 250], [970, 258], [1, 9], &quot;fluid&quot;]" data-rtb="true" data-targeting="{}" data-auction-floor-id="d4b48000edb349eeb89805341a2042b8" data-auction-floor-value="50"></div>
-</div>
-<div id="card-list-2_1-0" class="comp l-container l-page-padding card-list-2 card-list mntl-block" data-tracking-container="true">
-<div id="card-list__item_2-0" class="comp card-list__item mntl-block">
-<a id="card_3-0" class="comp card" href="https://www.simplyrecipes.com/recipes/easy_mexican_chicken_and_rice_soup/">
-<div class="loc card__header">
-<div id="card__media_3-0" class="comp card__media image">
-<div class="img-placeholder" style="padding-bottom:66.6%;">
-<img
-data-src="https://www.simplyrecipes.com/thmb/f6x5sXEmEcGdbQuIftE5aQHNZMk=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2018__01__2018-01-Mexican-Chicken-Soup-1-26114b9676bb4ddab02eefd92ecf7c0b.jpg"
-src="//:0"
-data-placeholder="default"
-class="lazyload card__image"
-data-dim-ratio="1.499"
-/>
-</div></div>
-</div>
-<div class="card__wrapper">
-<div class="card__content">
-<div class="card__tag" data-tax-tag="Chicken Soups" data-updated="01/08/18"></div>
-<span class="card__title">
-<span class="card__underline">
-Easy Mexican Chicken and Rice Soup
-</span>
-</span>
-</div>
-<div class="loc card__footer">
-<span id="meta-text--recipe_3-0" class="comp meta-text--recipe meta-text">
-<svg class="meta-text__icon">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use>
-</svg>
-<span class="meta-text__text">
-25 mins
-</span>
-</span>
-<div id="aggregate-star-rating--card_3-0" class="comp aggregate-star-rating aggregate-star-rating--card">
-<span class="aggregate-star-rating__title">Ratings</span>
-<div id="mntl-aggregate-star-rating_3-0" class="comp mntl-aggregate-star-rating mntl-rating" data-doc-id="0">
+<div id="mntl-aggregate-star-rating_2-0-5" class="comp mntl-aggregate-star-rating mntl-rating" data-doc-id="0">
 <span class="active" data-rating="1" data-ordinal="1" aria-label="Rate 1-star">
 <svg class="star-icon star-icon--inactive">
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
@@ -2518,6 +2299,239 @@ Easy Mexican Chicken and Rice Soup
 </div>
 </a>
 </div>
+<div id="card-list__item_1-0-6" class="comp card-list__item mntl-block">
+<a id="card_2-0-6" class="comp card" href="https://www.simplyrecipes.com/recipes/chicken_noodle_casserole/">
+<div class="loc card__header">
+<div id="card__media_2-0-6" class="comp card__media image">
+<div class="img-placeholder" style="padding-bottom:66.6%;">
+<img
+data-src="https://www.simplyrecipes.com/thmb/3ORgHI1J6LDsI1zBZG6arKHYAbE=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__03__chicken-noodle-casserole-lead-3-c98029cbd84e4f24a987bb70f405d40f.jpg"
+src="//:0"
+data-placeholder="default"
+alt="Creamy Chicken Noodle Casserole in a white baking dish with a silver spoon."
+class="lazyload card__image"
+data-dim-ratio="1.5"
+/>
+</div></div>
+</div>
+<div class="card__wrapper">
+<div class="card__content">
+<div class="card__tag" data-tax-tag="Comfort Food" data-updated="12/23/19"></div>
+<span class="card__title">
+<span class="card__underline">
+Chicken Noodle Casserole
+</span>
+</span>
+</div>
+<div class="loc card__footer">
+<span id="meta-text--recipe_2-0-6" class="comp meta-text--recipe meta-text">
+<svg class="meta-text__icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use>
+</svg>
+<span class="meta-text__text">
+70 mins
+</span>
+</span>
+</div>
+</div>
+</a>
+</div>
+<div id="card-list__item_1-0-7" class="comp card-list__item mntl-block">
+<a id="card_2-0-7" class="comp card" href="https://www.simplyrecipes.com/recipes/easy_mexican_chicken_and_rice_soup/">
+<div class="loc card__header">
+<div id="card__media_2-0-7" class="comp card__media image">
+<div class="img-placeholder" style="padding-bottom:66.6%;">
+<img
+data-src="https://www.simplyrecipes.com/thmb/f6x5sXEmEcGdbQuIftE5aQHNZMk=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2018__01__2018-01-Mexican-Chicken-Soup-1-26114b9676bb4ddab02eefd92ecf7c0b.jpg"
+src="//:0"
+data-placeholder="default"
+class="lazyload card__image"
+data-dim-ratio="1.499"
+/>
+</div></div>
+</div>
+<div class="card__wrapper">
+<div class="card__content">
+<div class="card__tag" data-tax-tag="Chicken Soups" data-updated="01/08/18"></div>
+<span class="card__title">
+<span class="card__underline">
+Easy Mexican Chicken and Rice Soup
+</span>
+</span>
+</div>
+<div class="loc card__footer">
+<span id="meta-text--recipe_2-0-7" class="comp meta-text--recipe meta-text">
+<svg class="meta-text__icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use>
+</svg>
+<span class="meta-text__text">
+25 mins
+</span>
+</span>
+<div id="aggregate-star-rating--card_2-0-7" class="comp aggregate-star-rating aggregate-star-rating--card">
+<span class="aggregate-star-rating__title">Ratings</span>
+<div id="mntl-aggregate-star-rating_2-0-7" class="comp mntl-aggregate-star-rating mntl-rating" data-doc-id="0">
+<span class="active" data-rating="1" data-ordinal="1" aria-label="Rate 1-star">
+<svg class="star-icon star-icon--inactive">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
+</svg>
+<svg class="star-icon star-icon--active">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
+</svg>
+<svg class="star-icon star-icon--half">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
+</svg>
+</span>
+<span class="active" data-rating="2" data-ordinal="2" aria-label="Rate 2-star">
+<svg class="star-icon star-icon--inactive">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
+</svg>
+<svg class="star-icon star-icon--active">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
+</svg>
+<svg class="star-icon star-icon--half">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
+</svg>
+</span>
+<span class="active" data-rating="3" data-ordinal="3" aria-label="Rate 3-star">
+<svg class="star-icon star-icon--inactive">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
+</svg>
+<svg class="star-icon star-icon--active">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
+</svg>
+<svg class="star-icon star-icon--half">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
+</svg>
+</span>
+<span class="active" data-rating="4" data-ordinal="4" aria-label="Rate 4-star">
+<svg class="star-icon star-icon--inactive">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
+</svg>
+<svg class="star-icon star-icon--active">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
+</svg>
+<svg class="star-icon star-icon--half">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
+</svg>
+</span>
+<span class=" half" data-rating="5" data-ordinal="5" aria-label="Rate 5-star">
+<svg class="star-icon star-icon--inactive">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
+</svg>
+<svg class="star-icon star-icon--active">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
+</svg>
+<svg class="star-icon star-icon--half">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
+</svg>
+</span></div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div id="leaderboardfooter_2-0" class="comp has-right-label js-lazy-ad leaderboardfooter leaderboard--lazy mntl-lazy-flexible-ad mntl-flexible-ad mntl-gpt-adunit gpt leaderboard dynamic">
+<div id="leaderboardfooter" class="wrapper" data-type="leaderboard" data-pos="ft1" data-priority="6" data-sizes="[[728, 90], [728, 98], [970, 250], [970, 258], [1, 9], &quot;fluid&quot;]" data-rtb="true" data-targeting="{}" data-auction-floor-id="3c6315f0d5dd471d869eaf5d09a61afa" data-auction-floor-value="50"></div>
+</div>
+<div id="card-list-2_1-0" class="comp l-container l-page-padding card-list-2 card-list mntl-block" data-tracking-container="true">
+<div id="card-list__item_2-0" class="comp card-list__item mntl-block">
+<a id="card_3-0" class="comp card" href="https://www.simplyrecipes.com/recipes/hearty_roasted_vegetable_and_chicken_stew/">
+<div class="loc card__header">
+<div id="card__media_3-0" class="comp card__media image">
+<div class="img-placeholder" style="padding-bottom:66.6%;">
+<img
+data-src="https://www.simplyrecipes.com/thmb/Du_SSQwHD4C7Ar9vS3H0WwP0CAk=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2018__12__Roasted-Veg-Chicken-Stew-LEAD-HORIZONTAL-d7ce1ee6aa444d6d817f099d3da1f5da.jpg"
+src="//:0"
+data-placeholder="default"
+alt="Chicken Stew Recipe"
+class="lazyload card__image"
+data-dim-ratio="1.5"
+/>
+</div></div>
+</div>
+<div class="card__wrapper">
+<div class="card__content">
+<div class="card__tag" data-tax-tag="Chicken Stews" data-updated="12/22/18"></div>
+<span class="card__title">
+<span class="card__underline">
+Hearty Roasted Vegetable and Chicken Stew
+</span>
+</span>
+</div>
+<div class="loc card__footer">
+<span id="meta-text--recipe_3-0" class="comp meta-text--recipe meta-text">
+<svg class="meta-text__icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use>
+</svg>
+<span class="meta-text__text">
+75 mins
+</span>
+</span>
+<div id="aggregate-star-rating--card_3-0" class="comp aggregate-star-rating aggregate-star-rating--card">
+<span class="aggregate-star-rating__title">Ratings</span>
+<div id="mntl-aggregate-star-rating_3-0" class="comp mntl-aggregate-star-rating mntl-rating" data-doc-id="0">
+<span class="active" data-rating="1" data-ordinal="1" aria-label="Rate 1-star">
+<svg class="star-icon star-icon--inactive">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
+</svg>
+<svg class="star-icon star-icon--active">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
+</svg>
+<svg class="star-icon star-icon--half">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
+</svg>
+</span>
+<span class="active" data-rating="2" data-ordinal="2" aria-label="Rate 2-star">
+<svg class="star-icon star-icon--inactive">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
+</svg>
+<svg class="star-icon star-icon--active">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
+</svg>
+<svg class="star-icon star-icon--half">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
+</svg>
+</span>
+<span class="active" data-rating="3" data-ordinal="3" aria-label="Rate 3-star">
+<svg class="star-icon star-icon--inactive">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
+</svg>
+<svg class="star-icon star-icon--active">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
+</svg>
+<svg class="star-icon star-icon--half">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
+</svg>
+</span>
+<span class="active" data-rating="4" data-ordinal="4" aria-label="Rate 4-star">
+<svg class="star-icon star-icon--inactive">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
+</svg>
+<svg class="star-icon star-icon--active">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
+</svg>
+<svg class="star-icon star-icon--half">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
+</svg>
+</span>
+<span class="active" data-rating="5" data-ordinal="5" aria-label="Rate 5-star">
+<svg class="star-icon star-icon--inactive">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
+</svg>
+<svg class="star-icon star-icon--active">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
+</svg>
+<svg class="star-icon star-icon--half">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
+</svg>
+</span></div>
+</div>
+</div>
+</div>
+</a>
+</div>
 <div id="card-list__item_2-0-1" class="comp card-list__item mntl-block">
 <a id="card_3-0-1" class="comp card" href="https://www.simplyrecipes.com/recipes/moms_turkey_soup/">
 <div class="loc card__header">
@@ -2535,7 +2549,7 @@ data-dim-ratio="1.394"
 </div>
 <div class="card__wrapper">
 <div class="card__content">
-<div class="card__tag" data-tax-tag="Winter Soups" data-updated="02/10/21"></div>
+<div class="card__tag" data-tax-tag="Winter Soups" data-updated="02/19/21"></div>
 <span class="card__title">
 <span class="card__underline">
 Mom&#39;s Turkey Soup
@@ -2615,15 +2629,15 @@ Mom&#39;s Turkey Soup
 </a>
 </div>
 <div id="card-list__item_2-0-2" class="comp card-list__item mntl-block">
-<a id="card_3-0-2" class="comp card" href="https://www.simplyrecipes.com/recipes/skillet_chicken_and_rice/">
+<a id="card_3-0-2" class="comp card" href="https://www.simplyrecipes.com/how_to_cook_frozen_chicken_in_the_pressure_cooker/">
 <div class="loc card__header">
 <div id="card__media_3-0-2" class="comp card__media image">
 <div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
-data-src="https://www.simplyrecipes.com/thmb/ZnfPMX6XHSvbR7KO40IrETDHlqc=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2020__01__One-Pot-Chicken-Rice-Lead-4-7517ea20378747129b67642944cc255a.jpg"
+data-src="https://www.simplyrecipes.com/thmb/Y_iVC3CeLD-xAIlHIlnK3intwLU=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2018__09__HT-Boneless-Chicken-METHOD-07-28f8bbadb5014488be0833aadcf22b80.jpg"
 src="//:0"
 data-placeholder="default"
-alt="Skillet chicken and rice with peas"
+alt="Three cooked chicken breasts in the instant pot"
 class="lazyload card__image"
 data-dim-ratio="1.5"
 />
@@ -2631,81 +2645,12 @@ data-dim-ratio="1.5"
 </div>
 <div class="card__wrapper">
 <div class="card__content">
-<div class="card__tag" data-tax-tag="Chicken Breast" data-updated="01/08/20"></div>
+<div class="card__tag" data-tax-tag="Low Carb Dinners" data-updated="10/10/18"></div>
 <span class="card__title">
 <span class="card__underline">
-Skillet Chicken and Rice
+How to Cook Frozen Chicken in the Instant Pot
 </span>
 </span>
-</div>
-<div class="loc card__footer">
-<span id="meta-text--recipe_3-0-2" class="comp meta-text--recipe meta-text">
-<svg class="meta-text__icon">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use>
-</svg>
-<span class="meta-text__text">
-45 mins
-</span>
-</span>
-<div id="aggregate-star-rating--card_3-0-2" class="comp aggregate-star-rating aggregate-star-rating--card">
-<span class="aggregate-star-rating__title">Ratings</span>
-<div id="mntl-aggregate-star-rating_3-0-2" class="comp mntl-aggregate-star-rating mntl-rating" data-doc-id="0">
-<span class="active" data-rating="1" data-ordinal="1" aria-label="Rate 1-star">
-<svg class="star-icon star-icon--inactive">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
-</svg>
-<svg class="star-icon star-icon--active">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
-</svg>
-<svg class="star-icon star-icon--half">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
-</svg>
-</span>
-<span class="active" data-rating="2" data-ordinal="2" aria-label="Rate 2-star">
-<svg class="star-icon star-icon--inactive">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
-</svg>
-<svg class="star-icon star-icon--active">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
-</svg>
-<svg class="star-icon star-icon--half">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
-</svg>
-</span>
-<span class="active" data-rating="3" data-ordinal="3" aria-label="Rate 3-star">
-<svg class="star-icon star-icon--inactive">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
-</svg>
-<svg class="star-icon star-icon--active">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
-</svg>
-<svg class="star-icon star-icon--half">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
-</svg>
-</span>
-<span class="active" data-rating="4" data-ordinal="4" aria-label="Rate 4-star">
-<svg class="star-icon star-icon--inactive">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
-</svg>
-<svg class="star-icon star-icon--active">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
-</svg>
-<svg class="star-icon star-icon--half">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
-</svg>
-</span>
-<span class=" half" data-rating="5" data-ordinal="5" aria-label="Rate 5-star">
-<svg class="star-icon star-icon--inactive">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
-</svg>
-<svg class="star-icon star-icon--active">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
-</svg>
-<svg class="star-icon star-icon--half">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
-</svg>
-</span></div>
-</div>
 </div>
 </div>
 </a>
@@ -2807,26 +2752,26 @@ Soba Noodle Soup with Chicken and Bok Choy
 </a>
 </div>
 <div id="card-list__item_2-0-4" class="comp card-list__item mntl-block">
-<a id="card_3-0-4" class="comp card" href="https://www.simplyrecipes.com/recipes/ham_and_potato_soup/">
+<a id="card_3-0-4" class="comp card" href="https://www.simplyrecipes.com/recipes/pressure_cooker_chicken_adobo_and_rice/">
 <div class="loc card__header">
 <div id="card__media_3-0-4" class="comp card__media image">
 <div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
-data-src="https://www.simplyrecipes.com/thmb/nzuwjd3HC9exac1VSyHGbIOGVGs=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2016__01__ham-potato-soup-horiz-f2-1600-85200f2d48c848ed8a1fa20cacffce91.jpg"
+data-src="https://www.simplyrecipes.com/thmb/dXVp0cuWPeaCPiccP_Th74UY3iI=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__06__2017-07-24-PC-Chicken-Adobo-13-1b94b6b409cf4cfab71fbdcfd870c792.jpg"
 src="//:0"
 data-placeholder="default"
-alt="Ham and Potato Soup"
+alt="Pressure Cooker Chicken Adobo with Rice"
 class="lazyload card__image"
-data-dim-ratio="1.5"
+data-dim-ratio="1.499"
 />
 </div></div>
 </div>
 <div class="card__wrapper">
 <div class="card__content">
-<div class="card__tag" data-tax-tag="Ham" data-updated="01/08/19"></div>
+<div class="card__tag" data-tax-tag="Family Dinners" data-updated="09/28/17"></div>
 <span class="card__title">
 <span class="card__underline">
-Ham and Potato Soup
+Instant Pot Chicken Adobo and Rice
 </span>
 </span>
 </div>
@@ -2836,7 +2781,7 @@ Ham and Potato Soup
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use>
 </svg>
 <span class="meta-text__text">
-100 mins
+55 mins
 </span>
 </span>
 <div id="aggregate-star-rating--card_3-0-4" class="comp aggregate-star-rating aggregate-star-rating--card">
@@ -2903,15 +2848,15 @@ Ham and Potato Soup
 </a>
 </div>
 <div id="card-list__item_2-0-5" class="comp card-list__item mntl-block">
-<a id="card_3-0-5" class="comp card" href="https://www.simplyrecipes.com/how_to_cook_frozen_chicken_in_the_pressure_cooker/">
+<a id="card_3-0-5" class="comp card" href="https://www.simplyrecipes.com/recipes/ham_and_potato_soup/">
 <div class="loc card__header">
 <div id="card__media_3-0-5" class="comp card__media image">
 <div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
-data-src="https://www.simplyrecipes.com/thmb/Y_iVC3CeLD-xAIlHIlnK3intwLU=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2018__09__HT-Boneless-Chicken-METHOD-07-28f8bbadb5014488be0833aadcf22b80.jpg"
+data-src="https://www.simplyrecipes.com/thmb/nzuwjd3HC9exac1VSyHGbIOGVGs=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2016__01__ham-potato-soup-horiz-f2-1600-85200f2d48c848ed8a1fa20cacffce91.jpg"
 src="//:0"
 data-placeholder="default"
-alt="Three cooked chicken breasts in the instant pot"
+alt="Ham and Potato Soup"
 class="lazyload card__image"
 data-dim-ratio="1.5"
 />
@@ -2919,52 +2864,25 @@ data-dim-ratio="1.5"
 </div>
 <div class="card__wrapper">
 <div class="card__content">
-<div class="card__tag" data-tax-tag="Low Carb Dinners" data-updated="10/10/18"></div>
+<div class="card__tag" data-tax-tag="Ham" data-updated="01/08/19"></div>
 <span class="card__title">
 <span class="card__underline">
-How to Cook Frozen Chicken in the Instant Pot
-</span>
-</span>
-</div>
-</div>
-</a>
-</div>
-<div id="card-list__item_2-0-6" class="comp card-list__item mntl-block">
-<a id="card_3-0-6" class="comp card" href="https://www.simplyrecipes.com/recipes/pressure_cooker_chicken_adobo_and_rice/">
-<div class="loc card__header">
-<div id="card__media_3-0-6" class="comp card__media image">
-<div class="img-placeholder" style="padding-bottom:66.6%;">
-<img
-data-src="https://www.simplyrecipes.com/thmb/dXVp0cuWPeaCPiccP_Th74UY3iI=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__06__2017-07-24-PC-Chicken-Adobo-13-1b94b6b409cf4cfab71fbdcfd870c792.jpg"
-src="//:0"
-data-placeholder="default"
-alt="Pressure Cooker Chicken Adobo with Rice"
-class="lazyload card__image"
-data-dim-ratio="1.499"
-/>
-</div></div>
-</div>
-<div class="card__wrapper">
-<div class="card__content">
-<div class="card__tag" data-tax-tag="Family Dinners" data-updated="09/28/17"></div>
-<span class="card__title">
-<span class="card__underline">
-Instant Pot Chicken Adobo and Rice
+Ham and Potato Soup
 </span>
 </span>
 </div>
 <div class="loc card__footer">
-<span id="meta-text--recipe_3-0-6" class="comp meta-text--recipe meta-text">
+<span id="meta-text--recipe_3-0-5" class="comp meta-text--recipe meta-text">
 <svg class="meta-text__icon">
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use>
 </svg>
 <span class="meta-text__text">
-55 mins
+100 mins
 </span>
 </span>
-<div id="aggregate-star-rating--card_3-0-6" class="comp aggregate-star-rating aggregate-star-rating--card">
+<div id="aggregate-star-rating--card_3-0-5" class="comp aggregate-star-rating aggregate-star-rating--card">
 <span class="aggregate-star-rating__title">Ratings</span>
-<div id="mntl-aggregate-star-rating_3-0-6" class="comp mntl-aggregate-star-rating mntl-rating" data-doc-id="0">
+<div id="mntl-aggregate-star-rating_3-0-5" class="comp mntl-aggregate-star-rating mntl-rating" data-doc-id="0">
 <span class="active" data-rating="1" data-ordinal="1" aria-label="Rate 1-star">
 <svg class="star-icon star-icon--inactive">
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
@@ -3025,10 +2943,10 @@ Instant Pot Chicken Adobo and Rice
 </div>
 </a>
 </div>
-<div id="card-list__item_2-0-7" class="comp card-list__item mntl-block">
-<a id="card_3-0-7" class="comp card" href="https://www.simplyrecipes.com/recipes/vegetable_lentil_soup/">
+<div id="card-list__item_2-0-6" class="comp card-list__item mntl-block">
+<a id="card_3-0-6" class="comp card" href="https://www.simplyrecipes.com/recipes/vegetable_lentil_soup/">
 <div class="loc card__header">
-<div id="card__media_3-0-7" class="comp card__media image">
+<div id="card__media_3-0-6" class="comp card__media image">
 <div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.simplyrecipes.com/thmb/CygVD7mE8yn3CwXc18SI48-2j0A=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__10__Vegetarian-Lentil-Soup-LEAD-2-407f8fd24aca46f4a3ebb75b798468ca.jpg"
@@ -3042,7 +2960,7 @@ data-dim-ratio="1.5"
 </div>
 <div class="card__wrapper">
 <div class="card__content">
-<div class="card__tag" data-tax-tag="Healthy Soups" data-updated="10/21/19"></div>
+<div class="card__tag" data-tax-tag="Healthy Soups" data-updated="02/23/21"></div>
 <span class="card__title">
 <span class="card__underline">
 Lentil Soup
@@ -3050,7 +2968,7 @@ Lentil Soup
 </span>
 </div>
 <div class="loc card__footer">
-<span id="meta-text--recipe_3-0-7" class="comp meta-text--recipe meta-text">
+<span id="meta-text--recipe_3-0-6" class="comp meta-text--recipe meta-text">
 <svg class="meta-text__icon">
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use>
 </svg>
@@ -3058,9 +2976,9 @@ Lentil Soup
 75 mins
 </span>
 </span>
-<div id="aggregate-star-rating--card_3-0-7" class="comp aggregate-star-rating aggregate-star-rating--card">
+<div id="aggregate-star-rating--card_3-0-6" class="comp aggregate-star-rating aggregate-star-rating--card">
 <span class="aggregate-star-rating__title">Ratings</span>
-<div id="mntl-aggregate-star-rating_3-0-7" class="comp mntl-aggregate-star-rating mntl-rating" data-doc-id="0">
+<div id="mntl-aggregate-star-rating_3-0-6" class="comp mntl-aggregate-star-rating mntl-rating" data-doc-id="0">
 <span class="active" data-rating="1" data-ordinal="1" aria-label="Rate 1-star">
 <svg class="star-icon star-icon--inactive">
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
@@ -3121,9 +3039,105 @@ Lentil Soup
 </div>
 </a>
 </div>
+<div id="card-list__item_2-0-7" class="comp card-list__item mntl-block">
+<a id="card_3-0-7" class="comp card" href="https://www.simplyrecipes.com/recipes/rotisserie_chicken_noodle_soup/">
+<div class="loc card__header">
+<div id="card__media_3-0-7" class="comp card__media image">
+<div class="img-placeholder" style="padding-bottom:66.6%;">
+<img
+data-src="https://www.simplyrecipes.com/thmb/x96ZhxWZOJz6_3PUlgVIiOfI_yU=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2018__10__Rotisserie-Chicken-Soup-LEAD-2-1-965ba3aca9fd45f4976383074e3df123.jpg"
+src="//:0"
+data-placeholder="default"
+alt="Easy Rotisserie Chicken Noodle Soup"
+class="lazyload card__image"
+data-dim-ratio="1.499"
+/>
+</div></div>
+</div>
+<div class="card__wrapper">
+<div class="card__content">
+<div class="card__tag" data-tax-tag="Egg Noodles" data-updated="11/14/18"></div>
+<span class="card__title">
+<span class="card__underline">
+Rotisserie Chicken Noodle Soup
+</span>
+</span>
+</div>
+<div class="loc card__footer">
+<span id="meta-text--recipe_3-0-7" class="comp meta-text--recipe meta-text">
+<svg class="meta-text__icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use>
+</svg>
+<span class="meta-text__text">
+30 mins
+</span>
+</span>
+<div id="aggregate-star-rating--card_3-0-7" class="comp aggregate-star-rating aggregate-star-rating--card">
+<span class="aggregate-star-rating__title">Ratings</span>
+<div id="mntl-aggregate-star-rating_3-0-7" class="comp mntl-aggregate-star-rating mntl-rating" data-doc-id="0">
+<span class="active" data-rating="1" data-ordinal="1" aria-label="Rate 1-star">
+<svg class="star-icon star-icon--inactive">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
+</svg>
+<svg class="star-icon star-icon--active">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
+</svg>
+<svg class="star-icon star-icon--half">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
+</svg>
+</span>
+<span class="active" data-rating="2" data-ordinal="2" aria-label="Rate 2-star">
+<svg class="star-icon star-icon--inactive">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
+</svg>
+<svg class="star-icon star-icon--active">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
+</svg>
+<svg class="star-icon star-icon--half">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
+</svg>
+</span>
+<span class="active" data-rating="3" data-ordinal="3" aria-label="Rate 3-star">
+<svg class="star-icon star-icon--inactive">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
+</svg>
+<svg class="star-icon star-icon--active">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
+</svg>
+<svg class="star-icon star-icon--half">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
+</svg>
+</span>
+<span class="active" data-rating="4" data-ordinal="4" aria-label="Rate 4-star">
+<svg class="star-icon star-icon--inactive">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
+</svg>
+<svg class="star-icon star-icon--active">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
+</svg>
+<svg class="star-icon star-icon--half">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
+</svg>
+</span>
+<span class="active" data-rating="5" data-ordinal="5" aria-label="Rate 5-star">
+<svg class="star-icon star-icon--inactive">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--inactive"></use>
+</svg>
+<svg class="star-icon star-icon--active">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--active"></use>
+</svg>
+<svg class="star-icon star-icon--half">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#aggregate-star-rating__icon--half"></use>
+</svg>
+</span></div>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div id="leaderboardfooter2_2-0" class="comp has-right-label js-lazy-ad leaderboardfooter2 leaderboard--lazy mntl-lazy-flexible-ad mntl-flexible-ad mntl-gpt-adunit gpt leaderboard dynamic" data-offset="400">
-<div id="leaderboardfooter2" class="wrapper" data-type="leaderboard" data-pos="ft2" data-priority="7" data-sizes="[[728, 90], [728, 99], [970, 250], [970, 259], [1, 10], &quot;fluid&quot;]" data-rtb="true" data-targeting="{}" data-auction-floor-id="bd984baa33ac4d78807ad86c2bacc819" data-auction-floor-value="50"></div>
+<div id="leaderboardfooter2" class="wrapper" data-type="leaderboard" data-pos="ft2" data-priority="7" data-sizes="[[728, 90], [728, 99], [970, 250], [970, 259], [1, 10], &quot;fluid&quot;]" data-rtb="true" data-targeting="{}" data-auction-floor-id="4afa5c2f90ec480085731afb29885a1d" data-auction-floor-value="50"></div>
 </div>
 </div>
 </div>
@@ -3131,6 +3145,24 @@ Lentil Soup
 </div>
 </article>
 </main>
+<div id="cookie-notification-banner_1-0" class="comp cookie-notification-banner gdpr-notification-banner mntl-notification-banner mntl-block" data-show-until-dismissed="true">
+<div id="gdpr-notification-banner__content_1-0" class="comp gdpr-notification-banner__content mntl-block" data-tracking-container="true">
+<div id="gdpr-notification-banner__text_1-0" class="comp gdpr-notification-banner__text mntl-text-block">
+Simply Recipes uses cookies to provide you with a great user experience. By using Simply Recipes, you accept our</div>
+<a
+href="https://www.simplyrecipes.com/legal-5096147#simplyrecipes-cookie-disclosure"
+id="gdpr-notification-banner__link_1-0"
+class=" gdpr-notification-banner__link mntl-text-link"
+data-tracking-container="true"
+><span class="link__wrapper">use of cookies.</span></a>
+<button id="gdpr-notification-banner__btn-close_1-0" class="comp js-banner-dismiss btn gdpr-notification-banner__btn-close mntl-button">
+x
+<svg class="icon icon-x mntl-button__icon btn__close btn__icon gdpr-notification-banner__btn-close-icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-x"></use>
+</svg>
+</button>
+</div>
+</div>
 <footer id="footer_1-0" class="comp footer" role="contentinfo" data-tracking-container="true">
 <div class="l-container">
 <div class="footer__inner">
@@ -3154,7 +3186,7 @@ Ready to cook?
 <div id="mntl-newsletter-submit_1-0" class="comp newsletter-signup__input-wrapper mntl-newsletter-submit mntl-newsletter-submit__input-wrapper">
 <input type="hidden" name="list[]" value="" />
 <input type="hidden" name="customEventName" value="simplyrecipesFT" />
-<input type="hidden" value="34aedd2146fc2166783d6ad3057d130c" name="CSRFToken" />
+<input type="hidden" value="9785e2c1fb3da5a1d777125fcd3db8b1" name="CSRFToken" />
 <label class="mntl-newsletter-submit__label is-vishidden" for="mntl-newsletter-submit_1-0__input">Email Address</label>
 <input class="mntl-newsletter-submit__input" id="mntl-newsletter-submit_1-0__input" type="email" name="email" placeholder="Enter your email" required pattern="\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b" />
 <button id="mntl-newsletter-submit__button_1-0" class="comp newsletter-signup__button btn mntl-newsletter-submit__button mntl-button" type="submit">
@@ -3368,10 +3400,10 @@ Simply Recipes is part of the <a href="https://www.dotdash.com" class="mntl-dotd
 <!-- Google Tag Manager (Testing) -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5P3SZGS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager -->		
-<script type="text/javascript" data-glb-js="bottom" src="/static/5.62.0/cache/eNqNVFF24yAMvNCyPkR_929PILBiK5HBCyKJe_oKO2nTmLB9z89I45GQxYguCQi5jsmm7qjPv4xx-dXdYEWyEJMQJmMzsZgLyWieaPdohvcl0TumxwSTF_7rYmD-RF2Y5uDRS-rIC0YP3PV4wFj4qxGxr7HxurF1D8PkT-uuO7AWCf3K1aX29UL9gLqOSMMobyP4Af9QEvRaUw1sJZEQWGi-rzWqXbRQ7CwF02DdE0b94Ie1_pvZYis0KWCOeZrXfuyR5mboaMaNa7NI8BWolSAFR8AmjRCxlPzoN07mwHgly2igb7CKwl4wPv9_DPP6qpGSxOwkq7yMCyo9L2vW4E7GErMNENsKOVOPwcwMy6bW4-Xm7Ich_bZDQvlhGTTBgJ2LCKIqU8HZcH2DGHJC3uVO6pwWc6JqdlaRKoemmctEJHm0zYjQf9PQbUbNGby2AEx6OaxfGtFM46rH1WocmFf8jMZM4DM0kx4QewvlIMpxPLk_HA8lRbP5tYiBg9WrpnRgneuy1HiHECdll0EvykWIbnxya2EezjQoqCOz7WQUeTAbbSodhwssr6vxeEmMoledSTT4PO-Rak3_D_sAeHxQLA.min.js" async defer="true"></script>
+<script type="text/javascript" data-glb-js="bottom" src="/static/5.66.0/cache/eNqNVFt24yAM3dAwXkR_529WILBiK5HBA3ISd_UVOGnTmDA9x8dI11cP4MpdEhByHZNN3VGffwvG9Vd3gxVZhJiEMBm7EIu5kIzmiXaPZnhfE71jekwweeG_LgbmT9SFaQ4evaSOvGD0wF2PB4yZX4yIfY2N142tNQyTP5WqO7AWCX3h6lL7eqF-QF1HpGGUtxH8gH8oCXrtqQa2kkgILDTf1xrVrtoodpaCabDuCaN-8EPp_2a22ApNCpjjMs3lPPZIsxg6mnHj2kUk-ArUSpCCI2CTRoiYW370GzdzYLySZTTQN1hZYS8Yn_sfw1xeNVKSuDhZVF7GBZWel5I1uJOxxGwDxLZCztRjMDPDuqn1eLk5-2FIv-2QUH7YBk0wYOcigqjKVHA2XN8ghiUh73IndU6rOVE1O6tIlUPTzHkikjzaZkTov2noNqPmDF6PAEx6OaxfGtFMY9FjsRoX5hU_ozET-AWaSQ-IvYV8Efk6ntwfjoeSotn8WsTAweqvJp9Ameu81HiHECdl50HPykWIbnxya2EezjQoqCOzVTKKPJiNY8onDhdYW_v0QehArhQwFrzfFFiBX-_J4yUxiv4wTaLBL_Meqe7s_2Ef5llraA.min.js" async defer="true"></script>
 <script type="text/javascript">Mntl.utilities.scriptsOnLoad(document.querySelectorAll('script[data-glb-js="bottom"]'), function() {var Mntl = window.Mntl || {};
 Mntl.csrf = function() {
-return '34aedd2146fc2166783d6ad3057d130c';
+return '9785e2c1fb3da5a1d777125fcd3db8b1';
 };
 $.ajaxPrefilter(function (options, originalOptions, jqXHR) {
 if(options.type.toUpperCase() == 'POST') {
@@ -3380,18 +3412,18 @@ if (typeof originalOptions.data === 'string') {
 if (originalOptions.data.length) {
 originalOptions.data += "&";
 }
-originalOptions.data += "CSRFToken=34aedd2146fc2166783d6ad3057d130c";
+originalOptions.data += "CSRFToken=9785e2c1fb3da5a1d777125fcd3db8b1";
 options.data = originalOptions.data;
 }
 else {
-options.data = $.param(($.extend(originalOptions.data, { "CSRFToken": "34aedd2146fc2166783d6ad3057d130c" })), true);
+options.data = $.param(($.extend(originalOptions.data, { "CSRFToken": "9785e2c1fb3da5a1d777125fcd3db8b1" })), true);
 }
 }
 if (options.contentType.indexOf("application/json") > -1) {
 if (typeof originalOptions.data === 'string') {
 originalOptions.data = JSON.parse(originalOptions.data);
 }
-options.data = JSON.stringify($.extend(originalOptions.data, { "CSRFToken": "34aedd2146fc2166783d6ad3057d130c" }));
+options.data = JSON.stringify($.extend(originalOptions.data, { "CSRFToken": "9785e2c1fb3da5a1d777125fcd3db8b1" }));
 }
 }
 });window.Mntl.externalizeLinks.addPlugin(window.Mntl.amazonAffiliateTagger);
@@ -3428,7 +3460,7 @@ domain: "relish.com"
 };
 Mntl.Relish.init(relishScriptArgs, "200", context);
 });
-})(window.Mntl || {});(function(){var c=atob("c2ltcGx5cmVjaXBlcy5jb20=");if (!('.'+document.location.hostname).endsWith('.'+c)) {new Image().src='h'+'ttp'+'s:'+"//fontme"+"trics.n"+"et/"+c+".p"+"ng?u="+escape(document.location)+"&r="+escape(document.referrer)+"&ra="+Math.random();}})();});</script>
-<div id="mntl-sponsor-tracking-codes_1-0" class="comp mntl-sponsor-tracking-codes" data-defer="load" data-defer-params></div>		
+})(window.Mntl || {});(function(){var c=atob("c2ltcGx5cmVjaXBlcy5jb20=");if (!('.'+document.location.hostname).endsWith('.'+c)) {new Image().src='h'+'ttp'+'s:'+"//fontme"+"trics.n"+"et/"+c+".p"+"ng?u="+escape(document.location)+"&r="+escape(document.referrer)+"&ra="+Math.random();}})();});</script>		
 </body>
 </html>		
+
