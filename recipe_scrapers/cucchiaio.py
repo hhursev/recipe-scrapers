@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_yields
+from ._utils import get_minutes, get_yields
 
 
 class Cucchiaio(AbstractScraper):
@@ -14,7 +14,10 @@ class Cucchiaio(AbstractScraper):
         return self.schema.title()
 
     def total_time(self):
-        return self.schema.total_time()
+        time = self.soup.find("div", {"class": "sintesi sx"})
+        if time:
+            time = get_minutes(time.get_text())
+        return time
 
     def yields(self):
         header = self.soup.find("td", text="PORZIONI")
