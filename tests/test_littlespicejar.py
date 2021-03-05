@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.littlespicejar import LittleSpiceJar
+from tests import ScraperTest
 
 
 class TestLittleSpiceJarScraper(ScraperTest):

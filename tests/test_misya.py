@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.misya import Misya
+from tests import ScraperTest
 
 
 class TestMisya(ScraperTest):

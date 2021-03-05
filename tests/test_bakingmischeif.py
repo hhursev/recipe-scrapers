@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.bakingmischeif import BakingMischeif
+from tests import ScraperTest
 
 
 class TestBakingMischeifScraper(ScraperTest):

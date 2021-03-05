@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.realsimple import RealSimple
+from tests import ScraperTest
 
 
 class TestRealSimpleScraper(ScraperTest):

@@ -3,6 +3,8 @@ from typing import List, Optional
 
 from ._abstract import AbstractScraper
 
+from ._abstract import AbstractScraper
+
 
 class OneHundredOneCookBooks(AbstractScraper):
     def __init__(self, *args, **kwargs):

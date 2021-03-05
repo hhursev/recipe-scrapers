@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.ambitiouskitchen import AmbitiousKitchen
+from tests import ScraperTest
 
 
 class TestAmbitiousKitchenScraper(ScraperTest):

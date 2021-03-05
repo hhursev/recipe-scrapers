@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.skinnytaste import SkinnyTaste
+from tests import ScraperTest
 
 
 class TestSkinnyTasteScraper(ScraperTest):

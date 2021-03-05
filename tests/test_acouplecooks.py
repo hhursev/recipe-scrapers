@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.acouplecooks import ACoupleCooks
+from tests import ScraperTest
 
 
 # test recipe's URL

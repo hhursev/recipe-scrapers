@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.globo import Globo
+from tests import ScraperTest
 
 
 class TestGloboScraper(ScraperTest):

@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.downshiftology import Downshiftology
+from tests import ScraperTest
 
 
 class TestDownshiftologyScraper(ScraperTest):

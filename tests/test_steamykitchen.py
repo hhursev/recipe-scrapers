@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.steamykitchen import SteamyKitchen
+from tests import ScraperTest
 
 
 class TestSteamyKitchenScraper(ScraperTest):

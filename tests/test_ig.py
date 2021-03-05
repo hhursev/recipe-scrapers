@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.ig import IG
+from tests import ScraperTest
 
 
 class TestIGScraper(ScraperTest):

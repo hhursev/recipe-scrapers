@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.mindmegette import Mindmegette
+from tests import ScraperTest
 
 
 class TestMindmegetteScraper(ScraperTest):

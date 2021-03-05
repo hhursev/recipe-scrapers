@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.vegrecipesofindia import VegRecipesOfIndia
+from tests import ScraperTest
 
 
 class TestVegRecipesOfIndiaScraper(ScraperTest):

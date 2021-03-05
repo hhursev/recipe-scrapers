@@ -1,7 +1,7 @@
 from typing import List, Optional
 
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
+from ._utils import get_minutes, normalize_string
 
 
 class Yummly(AbstractScraper):

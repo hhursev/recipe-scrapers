@@ -57,5 +57,4 @@ class TestMyRecipesScraper(ScraperTest):
         with raises(SchemaOrgException) as _:
             self.harvester_class.ratings()
 
-
 # https://www.myrecipes.com/recipe/cacio-e-pepe
