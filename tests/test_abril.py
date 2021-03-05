@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.abril import Abril
+from tests import ScraperTest
 
 
 class TestAbrilScraper(ScraperTest):

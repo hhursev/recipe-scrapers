@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.archanaskitchen import ArchanasKitchen
+from tests import ScraperTest
 
 
 class TestArchanasKitchenScraper(ScraperTest):

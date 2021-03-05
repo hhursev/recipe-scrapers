@@ -1,8 +1,6 @@
 import re
 
-
 from ._abstract import AbstractScraper
-
 
 BULLET_CHARACTER_ORD = 8226
 

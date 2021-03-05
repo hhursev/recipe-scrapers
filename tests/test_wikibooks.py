@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.wikicookbook import WikiCookbook
+from tests import ScraperTest
 
 
 class TestWikiCookbookScraper(ScraperTest):

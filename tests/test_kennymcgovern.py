@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.kennymcgovern import KennyMcGovern
+from tests import ScraperTest
 
 
 class TestKennyMcGovernScraper(ScraperTest):

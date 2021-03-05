@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.fitmencook import FitMenCook
+from tests import ScraperTest
 
 # test recipe's URL
 # https://fitmencook.com/healthy-chili-recipe/

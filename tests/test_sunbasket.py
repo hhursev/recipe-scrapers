@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.sunbasket import SunBasket
+from tests import ScraperTest
 
 
 class TestSunBasketScraper(ScraperTest):

@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.cdkitchen import CdKitchen
+from tests import ScraperTest
 
 
 class TestCdKitchen(ScraperTest):

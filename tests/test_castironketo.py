@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.castironketo import CastIronKeto
+from tests import ScraperTest
 
 
 class TestCastIronKetoScraper(ScraperTest):

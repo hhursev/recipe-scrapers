@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.rachlmansfield import RachlMansfield
+from tests import ScraperTest
 
 
 class TestRachlMansfieldScraper(ScraperTest):

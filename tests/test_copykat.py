@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.copykat import CopyKat
+from tests import ScraperTest
 
 
 class TestCopyKat(ScraperTest):

@@ -1,15 +1,14 @@
 from collections import OrderedDict
 from json.decoder import JSONDecodeError
+from typing import Any, Dict, List, Optional, Tuple, Union
 from urllib.parse import urljoin
-from typing import Tuple, Optional, Union, Any, Dict, List
 
 import requests
 from bs4 import BeautifulSoup
 
+from ._decorators import Decorators
 from ._exception_handling import ExceptionHandlingMetaclass
 from ._schemaorg import SchemaOrg
-from ._decorators import Decorators
-
 
 # some sites close their content for 'bots', so user-agent must be supplied
 HEADERS = {

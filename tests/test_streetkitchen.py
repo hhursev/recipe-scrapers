@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.streetkitchen import StreetKitchen
+from tests import ScraperTest
 
 
 class TestStreetKitchenScraper(ScraperTest):

@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.spendwithpennies import SpendWithPennies
+from tests import ScraperTest
 
 
 class TestSpendWithPenniesScraper(ScraperTest):

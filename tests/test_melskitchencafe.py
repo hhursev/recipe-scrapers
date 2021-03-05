@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.melskitchencafe import MelsKitchenCafe
+from tests import ScraperTest
 
 
 class TestMelsKitchenCafeScraper(ScraperTest):

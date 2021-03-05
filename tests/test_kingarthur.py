@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.kingarthur import KingArthur
+from tests import ScraperTest
 
 
 class TestKingArthurScraper(ScraperTest):

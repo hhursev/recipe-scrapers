@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.marmiton import Marmiton
+from tests import ScraperTest
 
 
 class TestMarmitonScraper(ScraperTest):

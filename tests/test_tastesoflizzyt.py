@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.tastesoflizzyt import TastesOfLizzyT
+from tests import ScraperTest
 
 
 class TestTastesOfLizzyTScraper(ScraperTest):

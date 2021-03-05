@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.heb import HEB
+from tests import ScraperTest
 
 
 class TestHEBScraper(ScraperTest):

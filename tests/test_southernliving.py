@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.southernliving import SouthernLiving
+from tests import ScraperTest
 
 
 class TestSouthernLiving(ScraperTest):

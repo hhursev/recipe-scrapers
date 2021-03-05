@@ -1,4 +1,5 @@
 import functools
+
 from language_tags import tags
 
 from ._schemaorg import SchemaOrgException

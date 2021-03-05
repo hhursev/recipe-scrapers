@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.vegolosi import Vegolosi
+from tests import ScraperTest
 
 
 class TestVegolosiScraper(ScraperTest):

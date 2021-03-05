@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.purelypope import PurelyPope
+from tests import ScraperTest
 
 
 class TestPurelyPopeScraper(ScraperTest):

@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.przepisy import Przepisy
+from tests import ScraperTest
 
 # test recipe's URL
 # https://www.przepisy.pl/przepis/placki-ziemniaczane

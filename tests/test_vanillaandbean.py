@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.vanillaandbean import VanillaAndBean
+from tests import ScraperTest
 
 
 class TestVanillaAndBeanScraper(ScraperTest):

@@ -1,6 +1,7 @@
 # IF things in this file continue get messy (I'd say 300+ lines) it may be time to
 # find a package that parses https://schema.org/Recipe properly (or create one ourselves).
 import extruct
+
 from ._utils import get_minutes, normalize_string
 
 SCHEMA_ORG_HOST = "schema.org"

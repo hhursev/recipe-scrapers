@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.budgetbytes import BudgetBytes
+from tests import ScraperTest
 
 
 class TestBudgetBytesScraper(ScraperTest):

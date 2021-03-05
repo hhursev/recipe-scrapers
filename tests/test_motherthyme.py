@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.motherthyme import MotherThyme
+from tests import ScraperTest
 
 
 class TestMotherThymeScraper(ScraperTest):
