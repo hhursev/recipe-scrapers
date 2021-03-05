@@ -18,3 +18,4 @@ repos:
     rev: 5.7.0
     hooks:
     - id: isort
+      args: ["--profile", "black", "--filter-files"]
