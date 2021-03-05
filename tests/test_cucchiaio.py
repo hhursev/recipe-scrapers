@@ -13,29 +13,46 @@ class TestCucchiaioScraper(ScraperTest):
         self.assertEqual("Il Cucchiaio d'Argento", self.harvester_class.author())
 
     def test_title(self):
-        self.assertEqual("Riso al latte di cocco", self.harvester_class.title())
+        self.assertEqual(
+            "Pesce spada al miele millefiori, pomodorini e patatine novelle",
+            self.harvester_class.title(),
+        )
 
     def test_total_time(self):
-        self.assertEqual(0, self.harvester_class.total_time())
+        self.assertEqual(30, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("6 item(s)", self.harvester_class.yields())
+        self.assertEqual("4 item(s)", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
-            "https://statics.cucchiaio.it/content/cucchiaio/it/ricette/2021/02/riso-al-latte-di-cocco/jcr:content/header-par/image-single.img10.jpg/1613547033182.jpg",
+            "https://statics.cucchiaio.it/content/cucchiaio/it/ricette/2017/10/pesce-spada-al-miele-millefiori-pomodorini-e-patatine-novelle/jcr:content/header-par/image-single.img10.jpg/1610381008015.jpg",
             self.harvester_class.image(),
         )
 
     def test_ingredients(self):
         self.assertEqual(
-            ["300 g di riso basmati", "1 bicchiere di latte di cocco"],
+            [
+                "4 fette di pesce spada di circa 200 g l'una",
+                "20 patatine novelle",
+                "1 spicchio d'aglio",
+                "1 grappolo di pomodorini",
+                "2 cucchiai di pinoli tostati",
+                "4-5 cucchiaini di miele millefiori",
+                "1 bicchiere di aceto di vino",
+                "foglioline di mirto",
+                "prezzemolo",
+                "erba cipollina",
+                "olio extravergine di oliva",
+                "sale",
+                "pepe",
+            ],
             self.harvester_class.ingredients(),
         )
 
     def test_instructions(self):
         self.assertEqual(
-            "1. Per preparare il riso al latte di cocco cominciate facendo cuocere il riso. Versatelo in una pentola coperto da due dita di acqua. Il riso cuocerà e assorbirà l'acqua. Il riso è pronto quando si disfa e raggiunge una consistenza simile a quella della nostra 'polenta'. Se l'acqua si assorbe ma il riso non risulta ancora ben cotto potete aggiungere acqua calda per proseguire la cottura. 10 minuti prima di toglierlo dal fuoco (deve essere già in parte 'disfatto') aggiungete il latte di cocco e proseguite la cottura.\n2. Una volta terminata la cottura, stendete il riso in una teglia, livellatelo e lasciate che raffreddi completamente.\n3. Una volta raffreddato, tagliate il riso al latte a quadrotti della dimensione che preferite e servitelo con il condimento che più vi piace.",
+            "1. Iniziate la preparazione del pesce spada al miele millefiori, pomodorini e patatine novelle mettendo a marinare le fette di pesce. Poggiatele su un piatto, aggiungete alcune foglie di mirto, l'aglio a fettine, un giro d'olio e lasciatele marinare per dieci minuti. In un tegame scaldate tre cucchiai d'olio, adagiatevi le fette di pesce spada e cuocetele per circa 2 minuti per lato o comunque fino a quando si forma una crosticina. Trasferitele su una teglia e passatele per circa 5 minuti in forno a 200°. Sfornatele e fatele riposare al caldo per una decina di minuti.\n2. Intanto tagliate a cubetti i pomodorini, cospargeteli con un po' di sale, un pizzico di pepe, prezzemolo ed erba cipollina tritati finemente. Preparate la salsina al miele: in una casseruola scaldate l'aceto facendolo ridurre di un quarto, aggiungete il miele millefiori e assaggiate per controllarne il sapore, se troppo agro aggiungete altro miele. Lasciate raffreddare.\n3. Infine, incorporate il tutto ai pomodori, mescolate bene, aggiungete olio, pinoli, regolate di sale e fate riposare. Sbollentate le patatine in acqua salata, asciugatele e insaporitele in una padella con un filo d’olio.\n4. Disponete le fette di pesce spada sul piatto da portata: completate con le patatine e cospargete su tutto la salsina al miele.",
             self.harvester_class.instructions(),
         )
 
