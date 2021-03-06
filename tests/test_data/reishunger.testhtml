@@ -1,0 +1,3119 @@
+<!doctype html>
+<html lang="de">
+<head>
+<script type="text/javascript">
+        // Duration in milliseconds to wait while the Kameleoon application file is loaded
+        var kameleoonLoadingTimeout = 1000;
+
+        window.kameleoonQueue = window.kameleoonQueue || [];
+        window.kameleoonStartLoadTime = new Date().getTime();
+        if (! document.getElementById("kameleoonLoadingStyleSheet") && ! window.kameleoonDisplayPageTimeOut)
+        {
+            var kameleoonS = document.getElementsByTagName("script")[0];
+            var kameleoonCc = "* { visibility: hidden !important; background-image: none !important; }";
+            var kameleoonStn = document.createElement("style");
+            kameleoonStn.type = "text/css";
+            kameleoonStn.id = "kameleoonLoadingStyleSheet";
+            if (kameleoonStn.styleSheet)
+            {
+                kameleoonStn.styleSheet.cssText = kameleoonCc;
+            }
+            else
+            {
+                kameleoonStn.appendChild(document.createTextNode(kameleoonCc));
+            }
+            kameleoonS.parentNode.insertBefore(kameleoonStn, kameleoonS);
+            window.kameleoonDisplayPage = function(fromEngine)
+            {
+                if (!fromEngine)
+                {
+                    window.kameleoonTimeout = true;
+                }
+                if (kameleoonStn.parentNode)
+                {
+                    kameleoonStn.parentNode.removeChild(kameleoonStn);
+                }
+            };
+            window.kameleoonDisplayPageTimeOut = window.setTimeout(window.kameleoonDisplayPage, kameleoonLoadingTimeout);
+        }
+    </script>
+<script type="text/javascript" src="//0qyfjdeian.kameleoon.eu/kameleoon.js" async="true"></script>
+<script type="text/javascript">
+        if( typeof Kameleoon != 'undefined' && typeof Kameleoon.API.CurrentVisit.triggeredExperiments[0] != 'undefined' ) {
+            var eN = Kameleoon.API.CurrentVisit.triggeredExperiments[0]['name'];
+            if( Kameleoon.API.Experiments.getByName(eN) != null ) {
+                var mouseflowPath = '/product-' + Kameleoon.API.Experiments.getByName(eN).associatedVariation.id;
+            }
+        }
+        window._mfq = window._mfq || [];
+        (function() {
+            var mf = document.createElement("script");
+            mf.type = "text/javascript"; mf.defer = true;
+            mf.src = "//cdn.mouseflow.com/projects/4ac2dc41-7c77-400e-9873-e97f192bd6ad.js";
+            document.getElementsByTagName("head")[0].appendChild(mf);
+        })();
+    </script>
+<meta charset="utf-8">
+<script>
+    window.getCookie = function (name) {
+        var nameEQ = encodeURIComponent(name) + '='
+        var ca = document.cookie.split(';')
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i]
+            while (c.charAt(0) === ' ') c = c.substring(1, c.length)
+            if (c.indexOf(nameEQ) === 0) return decodeURIComponent(c.substring(nameEQ.length, c.length))
+        }
+        return null
+    }
+
+    window.dataLayer = []
+    var customPath = 'https://www.reishunger.de/assets/font/'
+
+        if (window.getCookie('DO_NOT_TRACK') !== '1') {
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []
+            w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'})
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''
+            j.async = true
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+            f.parentNode.insertBefore(j, f)
+        })(window, document, 'script', 'dataLayer', 'GTM-MJL9CVR')
+    }
+    </script>
+<title>Rezept für Cremiges Erdnuss-Curry</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="shortcut icon" href="https://www.reishunger.de/asset/110/icon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="title" content="Rezept für Cremiges Erdnuss-Curry">
+<meta name="description" content="Cremiges Erdnuss-Curry ✓ Einfaches Rezept für leckeres cremiges Erdnuss-Curry ☆ Jetzt nachkochen!">
+<meta itemprop="image" content="https://www.reishunger.de/upload/123/19944/cremiges-erdnuss-curry.jpg">
+<meta property="fb:app_id" content="174547569344099" />
+<meta property="og:title" content="Rezept für Cremiges Erdnuss-Curry">
+<meta property="og:image" content="https://www.reishunger.de/upload/123/19944/cremiges-erdnuss-curry.jpg">
+<meta property="og:image:width" content="1800">
+<meta property="og:image:height" content="1200">
+<meta property="og:type" content="product">
+<meta property="og:site_name" content="https://www.reishunger.de">
+<meta name="og:description" content="Cremiges Erdnuss-Curry ✓ Einfaches Rezept für leckeres cremiges Erdnuss-Curry ☆ Jetzt nachkochen!">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@reishunger">
+<meta name="theme-color" content="#332833">
+<script src="https://www.reishunger.de/assets/js/MyFontsWebfontsKit.js?46abea031b77cae9a5bcb9aea70ec405" async></script>
+<link rel="stylesheet" href="https://www.reishunger.de/assets/css/compiled/core.css?e49e846e8a5af50c9fcacd1e606687c7" type="text/css" media="all">
+<link rel="stylesheet" href="https://www.reishunger.de/assets/css/compiled/shop.css?b1a30b03208a7c85eacded428774058f" type="text/css" media="all">
+<link rel='canonical' href='https://www.reishunger.de/rezepte/rezept/3035/cremiges-erdnuss-curry'><link rel='preconnect' href='https://www.google.de'><link rel='preconnect' href='https://www.google.com'><link rel='preconnect' href='https://www.google-analytics.com'><link rel='preconnect' href='https://www.googleadservices.com'><link rel='preconnect' href='https://www.facebook.com'><link rel='preconnect' href='https://connect.facebook.net'><link rel='preconnect' href='https://static.cleverpush.com'><link rel='preconnect' href='https://reishunger.postaffiliatepro.com'><link rel='preconnect' href='https://hello.myfonts.net'><link rel='preconnect' href='https://cm.g.doubleclick.net'><link rel='preconnect' href='https://stats.g.doubleclick.net'><link rel='preconnect' href='https://googleads.g.doubleclick.net'><link rel='preconnect' href='https://sslwidget.criteo.com'><link rel='preconnect' href='https://cx.atdmt.com'><link rel='preconnect' href='https://gum.criteo.com'><link rel='preconnect' href='https://static.criteo.net'><link rel='preconnect' href='https://ag.gbc.criteo.com'><link rel='preconnect' href='https://dis.eu.criteo.com'><link rel='preconnect' href='https://gem.gbc.criteo.com'>
+<link rel='alternate' hreflang='x-default' href='https://www.reishunger.de/rezepte/rezept/3035/cremiges-erdnuss-curry' /><link rel='alternate' hreflang='de-DE' href='https://www.reishunger.de/rezepte/rezept/3035/cremiges-erdnuss-curry' /><link rel='alternate' hreflang='de-CH' href='https://www.reishunger.com/ch/rezepte/rezept/3035/cremiges-erdnuss-curry' /><link rel='alternate' hreflang='de-AT' href='https://www.reishunger.com/at/rezepte/rezept/3035/cremiges-erdnuss-curry' />
+</head>
+<body class=" currency-EUR">
+<script>document.body.classList.add('from-' + (window.getCookie('from-country') || 'de'))</script>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJL9CVR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div class="nbg-brand-dark shippingBar">
+<div class="ncontainer">
+<div class="shippingbar">
+<span>
+<span><i class="fa fa-exchange"></i> 30 Tage <b>Rückgaberecht</b></span>
+</span>
+<span class="changeCountryWrapper text-left">
+<div toggle Toggle-6042e0f7d99da class="option text-strong">
+<svg class="icon icon-flag-at" width="17" height="12" viewBox="0 0 17 12" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 10.777c5.643 4.236 11.357-4.235 17 0V7.223c-5.643-4.236-11.357 4.235-17 0v3.554z" fill="#F0D953" /><path d="M0 7.777c5.643 4.236 11.357-4.235 17 0V4.223c-5.643-4.236-11.357 4.235-17 0v3.554z" fill="#C82C25" /><path d="M0 4.777c5.643 4.236 11.357-4.235 17 0V1.223c-5.643-4.236-11.357 4.235-17 0v3.554z" fill="#000" /></g></svg>Deutschland <i class="fa fa-angle-down"></i>
+</div>
+<div class="changeCountryWrapper-options">
+<a href="https://www.reishunger.com/ch/rezepte/rezept/3035/cremiges-erdnuss-curry?utm_source=reishunger-de&utm_medium=sprachwechsler" class="option text-white text-strong"><svg class="icon icon-flag-ch" width="17" height="12" viewBox="0 0 17 12" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 10.88c5.643 3.878 11.357-3.876 17 0V1.12c-5.643-3.876-11.357 3.877-17 0v9.762z" fill="#C6001E" /><path fill="#FFF" d="M5.568 6.036l2.112-.65V3.152L9.454 2.5v2.235l2.046-.649v1.878l-2.112.65v2.235L7.612 9.5V7.265L5.5 7.914z" /></g></svg>Schweiz</a>
+<a href="https://www.reishunger.com/at/rezepte/rezept/3035/cremiges-erdnuss-curry?utm_source=reishunger-de&utm_medium=sprachwechsler" class="option text-white text-strong"><svg class="icon icon-flag-at" width="17" height="12" viewBox="0 0 17 12" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 10.777c5.643 4.236 11.357-4.235 17 0V7.223c-5.643-4.236-11.357 4.235-17 0v3.554z" fill="#ED2923" /><path d="M0 7.777c5.643 4.236 11.357-4.235 17 0V4.223c-5.643-4.236-11.357 4.235-17 0v3.554z" fill="#FFF" /><path d="M0 4.777c5.643 4.236 11.357-4.235 17 0V1.223c-5.643-4.236-11.357 4.235-17 0v3.554z" fill="#ED2923" /></g></svg>Österreich</a>
+</div>
+</span>
+<span class="freeShippingInfos">
+<span class="freeShippingInfo-item">
+<span><svg class="icon icon-truck-speed" xmlns="http://www.w3.org/2000/svg" width="135.07" height="68.737" viewBox="-253.889 119.392 135.07 68.737"><path d="M-168.212 124.892v43.023h-44.622v-43.023h44.622m5.5-5.5h-55.622v54.023h55.622v-54.023zM-136.469 139.819l12.15 17.384v10.711h-27.562v-28.095h15.412m2.866-5.5h-23.778v39.095h38.562v-17.943l-14.784-21.152zM-205.238 173.415c0 8.126 6.588 14.714 14.714 14.714s14.714-6.588 14.714-14.714h-5.5c0 5.081-4.133 9.214-9.214 9.214s-9.214-4.133-9.214-9.214h-5.5zM-148.247 173.415c0 8.126 6.588 14.714 14.714 14.714s14.714-6.588 14.714-14.714h-5.5c0 5.081-4.133 9.214-9.214 9.214s-9.214-4.133-9.214-9.214h-5.5zM-243.986 130.559h17.926v5.5h-17.926zM-250.881 143.653h24.82v5.5h-24.82zM-253.889 155.938h27.829v5.5h-27.829z" /></svg> <b>Kostenloser Versand</b> ab 49 €</span>
+</span>
+</span>
+<span>
+<span>
+<div class="nrating">
+<span class="nrating-stars">
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</span>
+</div>
+<span>(4.82) <b>Trusted Shops</b></span>
+<span style="display: inline-block;padding:3px 0px 3px 2px;">
+<img alt="Trusted Shops" sizes="18px" srcset="https://www.reishunger.de/asset/111/trustedshops.png 18w, https://www.reishunger.de/asset/112/trustedshops.png 36w"> </span>
+</span>
+</span>
+</div>
+</div>
+</div>
+<header class="nbg-white mainNavigation" role="banner" sticky="all" sticky-prepend Sticky-6042e0f7dab8b>
+<div class="ncontainer">
+<div id="header" class="isCreativeMenuActive">
+<div id="logo">
+<a href="https://www.reishunger.de">
+<img alt="Reishunger Logo" src="https://www.reishunger.de/assets/img/logo-hor.svg?a7438d43a69293bff6bd8c84db82f8c0">
+</a>
+</div>
+<button class="nbtn" overlay-toggle="creativeNavMobile">
+<span class="burger-menu"><span>Menü</span></span>
+<span><i class="fa fa-angle-down"></i> Shop</span>
+</button>
+<ul id="bookmarks">
+<li>
+<a href="https://www.reishunger.de/navacopah" style="color: #007faa">Hilf mit!</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/rezepte">Rezepte</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/hilfe">Service</a>
+</li>
+</ul>
+<ul id="nav-user">
+<li id="desktop-search">
+</li>
+<li class="hide-mobile hidden logout-header-button">
+<form id="logout-form-header" action="https://www.reishunger.de/logout" method="POST" style="display: none;">
+<input type="hidden" name="_token" value=""> </form>
+<a class="nbtn nbtn-icon" href="#" onclick="event.preventDefault();document.getElementById('logout-form-header').submit();">
+<i class="fa fa-sign-out"></i>Logout
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/konto" class="nbtn nbtn-icon" NavUser-6042e0f7dace5><i class="fa fa-user"></i>Konto</a>
+</li>
+<li>
+<button class="nbtn nbtn-icon" Cart-6042e0f7dace7 badge><i class="fa fa-shopping-cart"></i> Warenkorb</button>
+</li>
+</ul>
+</div>
+</div>
+<style>
+    @media  screen and (min-width: 1060px) {
+        #navCreativeDesktop .noverlay {
+            border-top: 0;
+        }
+        #navCreativeDesktop .nmenuListBar,
+        #navCreativeDesktop ul.nmenuListRight {
+            display: flex;
+        }
+        #navCreativeDesktop ul.nmenuListRight li {
+            display: flex;
+            align-items: center;
+        }
+        #navCreativeDesktop ul.nmenuListLeft {
+            display: flex;
+            padding: 0;
+            width: 100%;
+        }
+        #navCreativeDesktop .nmenuListBar ul li {
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 16px;
+            cursor: pointer;
+            list-style-type: none;
+            white-space: nowrap;
+        }
+        #bookmarks > li > a {
+            font-size: 16px;
+            color: #AAAAAA;
+        }
+        #navCreativeDesktop a {
+            text-decoration: none;
+        }
+        #navCreativeDesktop a.custom-color:hover {
+            color: #897089 !important;
+        }
+        #navCreativeDesktop .nmenuListBar ul.nmenuListRight a {
+            display: flex;
+            align-items: center;
+        }
+        #navCreativeDesktop .nmenuListBar ul.nmenuListRight a .iconWrapper {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-left: 5px;
+            margin-top: -6px;
+        }
+        #navCreativeDesktop .nmenuListBar ul.nmenuListRight a:hover .iconWrapper {
+            background: #897089;
+        }
+        #navCreativeDesktop .nmenuListBar ul.nmenuListRight a img {
+            padding: 3px;
+            position: absolute;
+        }
+        #navCreativeDesktop .nmenuListBar a {
+            padding: 18px 0 10px;
+            display: block;
+            position: relative;
+        }
+        #navCreativeDesktop .nmenuListBar li.active a,
+        #navCreativeDesktop .nmenuListBar li:hover a,
+        #navCreativeDesktop .nmenuListBar li:focus a {
+            color: #897089;
+        }
+        #navCreativeDesktop .nmenuListBar li.active a::after,
+        #navCreativeDesktop .nmenuListBar ul.nmenuListRight li:hover a::after,
+        #navCreativeDesktop .nmenuListBar ul.nmenuListRight li:focus a::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 44px;
+            border-bottom: 2px solid #897089;
+        }
+        #navCreativeDesktop .nmenuListBar ul {
+            margin-bottom: 0;
+        }
+        #navCreativeDesktop .nmenuListBar  li {
+            padding: 0 15px;
+        }
+        #navCreativeDesktop .nmenuListBar ul.nmenuListLeft li:first-child,
+        #navCreativeDesktop .nmenuListBar ul.nmenuListRight li:first-child {
+            padding-left: 0;
+        }
+        #navCreativeDesktop .nmenuListBar ul.nmenuListLeft li:last-child,
+        #navCreativeDesktop .nmenuListBar ul.nmenuListRight li:last-child {
+            padding-right: 0;
+        }
+        #navCreativeDesktop .nmenuWrapper {
+            margin: 0 auto;
+            max-width: 1186px;
+            display: flex;
+        }
+        #navCreativeDesktop ul.nmenu {
+            display: inline-flex;
+            flex-wrap: wrap;
+            width: calc(75% + 45px);
+            flex: calc(75% + 45px);
+        }
+        #navCreativeDesktop ul.nmenu li {
+            max-width: calc(33.33% - 15px);
+            flex: 1 0 calc(33.33% - 15px);
+            margin-right: 15px;
+            margin-bottom: 15px;
+            min-height: 220px;
+            max-height: 220px;
+            background: #fff;
+            transition: all .3s ease;
+        }
+        #navCreativeDesktop ul.nmenu li:hover {
+            filter: brightness(90%);
+            transition: all .3s ease;
+        }
+        #navCreativeDesktop ul.nmenu li a {
+            padding: 15px 15px 10px 15px;
+            overflow: hidden;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            position: relative;
+        }
+        #navCreativeDesktop ul.nmenu li a .nlabel {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 14px;
+        }
+        #navCreativeDesktop ul.nmenu li a img {
+            max-height: 85%;
+            max-width: 100%;
+            object-fit: contain;
+        }
+        #navCreativeDesktop ul.nmenu li a span {
+            margin-bottom: 0;
+            margin-top: auto;
+            text-transform: uppercase;
+            font-weight: 900;
+            font-size: 16px;
+        }
+        #navCreativeDesktop ul.nmenu li a span > .fa-chevron-right {
+            font-size: 14px;
+        }
+        #navCreativeDesktop ul.nmenu li a.noImage span {
+            width: 70%;
+            margin: auto;
+        }
+        #navCreativeDesktop ul.nmenu li a.noImage span .hideArrow {
+            display: none;
+        }
+        #navCreativeDesktop ul.nmenu.fullWidth {
+            margin-right: -15px;
+            width: 100%;
+            flex: 100%;
+        }
+        #navCreativeDesktop ul.nmenu.fullWidth li {
+            max-width: calc(25% - 15px);
+            flex: calc(25% - 15px);
+        }
+        #navCreativeDesktop .menuTeaserWrapper {
+            flex: 25%;
+            transition: all .3s ease;
+        }
+        #navCreativeDesktop .menuTeaserWrapper:hover {
+            filter: brightness(80%);
+            transition: all .3s ease;
+        }
+        #navCreativeDesktop .menuTeaser {
+            padding-bottom: 15px !important;
+        }
+        #navCreativeDesktop .menuTeaser .herobar-d {
+            height: 100%;
+        }
+        #navCreativeDesktop .menuTeaser img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .isCreativeMenuActive > .nbtn {
+            display: none;
+        }
+
+        #navCreativeDesktop a.image_fullsize {
+            padding: 0 !important;
+        }
+        #navCreativeDesktop a.image_fullsize img {
+            height: 100% !important;
+            max-height: unset !important;
+            object-fit: cover !important;
+        }
+        #navCreativeDesktop a.image_fullsize span:last-child {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+        }
+    }
+    @media  screen and (max-width: 1100px) {
+
+        #navCreativeDesktop .nmenuListBar  li {
+            padding: 0 10px;
+        }
+    }
+    @media  screen and (min-width: 1200px) {
+        #navCreativeDesktop .nmenuListBar ul li,
+        #bookmarks > li > a {
+            font-size: 17px;
+        }
+    }
+</style>
+<div id="navCreativeDesktop" class="nbg-grey-light" DesktopMenu-6042e0f7dad27>
+<div class="ncontainer nmenuListBar">
+<ul class="nmenuListLeft">
+<li class="navCreative " overlay-toggle="nav-LSzO9AFMVJMYkpnj">
+<a href="https://www.reishunger.de/reiskocher/finde-deinen-reiskocher">Reiskocher</a>
+</li>
+<li class="navCreative " overlay-toggle="nav-IfdEyLQRoU1wGRui">
+<a href="https://www.reishunger.de/kategorie/197/reis">Reis</a>
+</li>
+<li class="navCreative " overlay-toggle="nav-EYuL5gBOinUbhvSh">
+<a href="https://www.reishunger.de/kategorie/198/kochwelten">Kochwelten</a>
+</li>
+<li class="navCreative " overlay-toggle="nav-hWMll4eYomr3p9fh">
+<a href="https://www.reishunger.de/kategorie/195/schnelle-kueche">Schnelle Küche</a>
+</li>
+<li class="navCreative " overlay-toggle="nav-YQ6VLe8PIOhyNlon">
+<a href="https://www.reishunger.de/kategorie/174/zutaten">Zutaten</a>
+</li>
+<li class="navCreative " overlay-toggle="nav-3wp0BFfadHf0Xbxw">
+<a href="https://www.reishunger.de/kategorie/182/snacks">Snacks</a>
+</li>
+</ul>
+<ul class="nmenuListRight">
+<li>
+<a class="ncolor-turquoise" href="https://www.reishunger.de/kategorie/165/starter-sets">Starter-Sets
+<span class="iconWrapper nbg-turquoise">
+<img src="https://www.reishunger.de/assets/img/icons/creativeNav/icon_StarterSets2.svg?8c15782b9d6199c08129076bbd985308" width="20" height="20" alt="Starter-Sets" />
+</span>
+</a>
+</li>
+<li>
+<a class="ncolor-red-light" href="https://www.reishunger.de/angebote">Angebote
+<span class="iconWrapper nbg-red-light">
+<img src="https://www.reishunger.de/assets/img/icons/creativeNav/icon_Angebote2.svg?447d0f3650cb920311e6765197185aa7" width="20" height="20" alt="Angebote" />
+</span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/neu">Neu
+<span class="iconWrapper nbg-brand-dark">
+<img src="https://www.reishunger.de/assets/img/icons/creativeNav/icon_Neu2.svg?3b062928a2efad56aae2478d18036ee0" width="20" height="20" alt="Neu" />
+</span>
+</a>
+</li>
+</ul>
+</div>
+<div class="noverlay" overlay="nav-LSzO9AFMVJMYkpnj" Overlay-6042e0f7dadb9>
+<nav style="background: #f5f5f5;">
+<div class="nmenuWrapper">
+<ul class="nmenu active ">
+<li>
+<a href="https://www.reishunger.de/reiskocher" class="image_fullsize " style="color: #4c3e4c">
+
+<img src="/public/5cUiCfqzfgJx7c1MCgRebphZfIp1K7AXjJSfWcON.jpeg" alt="Finde deinen Reiskocher">
+<span>Finde deinen Reiskocher <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/170/premium-reiskocher" class="image_fullsize " style="color: #4c3e4c">
+<img src="/public/cCRlz6nI95AaDKyVAFRYvVOT6SjDO5H6uTqeQTVJ.jpeg" alt="Premium-Reiskocher">
+<span>Premium-Reiskocher <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/168/einsteiger-modelle" class="image_fullsize " style="color: #4c3e4c">
+<img src="/public/R5K5JHUJat330AwZDVF7Y4MXuVMYToxiHkodrB2e.jpeg" alt="Einsteiger-Reiskocher">
+<span>Einsteiger-Reiskocher <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/169/reiskocher-zubehoer" class="image_fullsize " style="color: #4c3e4c">
+<img src="/public/6pJzDmwpRemLBQ6zjb3yl1TYC9sfNG3xI87nY2qI.jpeg" alt="Reiskocher Zubehör">
+<span>Reiskocher Zubehör <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/produkt/508/reis-waschschuessel" class="image_fullsize " style="color: #4c3e4c">
+<img src="/public/NyX50ZXLrQU5xMcrYhyLKiSykHxAIwCl4L8XRUDJ.jpeg" alt="Waschschüssel">
+<span>Waschschüssel <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/produkt/62/bambusdaempfer" class="image_fullsize " style="color: #4c3e4c">
+ <img src="/public/9sW4siuYWF50S5uh6RaTNSgDODDhIPgmYP0gXWSQ.jpeg" alt="Bambusdämpfer">
+<span>Bambusdämpfer <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+</ul>
+<div class="menuTeaserWrapper">
+<style>
+    .menuTeaser img {
+        height: auto;
+        width: 100%;
+    }
+</style>
+<a href="https://www.reishunger.de/reiskocher" id="herobar-reiskocher-vergleich" class="menuTeaser" style="display:block; height: 100%; padding-bottom: 25px;">
+<div style="display:block; height: 100%; position:relative;">
+<span class="herobar-d">
+<img alt="Reiskocher Vergleich" sizes="572px" srcset="https://www.reishunger.de/upload/1246/19581/reiskocher-vergleich.jpg 572w, https://www.reishunger.de/upload/1249/19581/reiskocher-vergleich.jpg 1144w"> </span>
+
+</div>
+</a>
+</div>
+</div>
+</nav>
+</div>
+<div class="noverlay" overlay="nav-IfdEyLQRoU1wGRui" Overlay-6042e0f7dc3ec>
+<nav style="background: #f5f5f5;">
+<div class="nmenuWrapper">
+<ul class="nmenu active ">
+<li>
+<a href="https://www.reishunger.de/kategorie/4/sortenreiner-reis" class="image_fullsize " style="color: #FFFFFF">
+<img src="/public/EsX8r8lam2cTfDJwXgx3n6FaYZXGCZTKoxHvcD7n.jpeg" alt="Alle Reissorten">
+<span>Alle Reissorten <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/151/produkte-aus-reis" class="image_fullsize " style="color: #FFFFFF">
+<span class="nlabel nlabel-red">Neue Produkte</span>
+<img src="/public/CBd2ZBEx6VCQ6W2fqDlB8QQ4icfQ9JHywIcihBAU.jpeg" alt="Produkte aus Reis">
+<span>Produkte aus Reis <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/162/bio-reis" class="image_fullsize " style="color: #FFFFFF">
+<img src="/public/9pRnhpEAYG7MWBpATz1rezoerMHukMgUKqzVMtJL.jpeg" alt="Bio-Reis">
+<span>Bio-Reis <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/164/vollkornreis" class="image_fullsize " style="color: #FFFFFF">
+<img src="/public/O1AtuopJZcLr6YUEH3uPNaQNRiyyUb5hCugAXTgC.jpeg" alt="Vollkornreis">
+<span>Vollkornreis <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/185/reispasta-entdecken" class="image_fullsize " style="color: #FFFFFF">
+<img src="/public/zQUl9TUkdnuuk0tINcrV6oA4kj91mLGLvKANwCN6.jpeg" alt="Reispasta">
+<span>Reispasta <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/197/reis" class=" noImage">
+<span>Alle Reiskategorien <i class="fa fa-chevron-right hideArrow"></i></span>
+</a>
+</li>
+</ul>
+<div class="menuTeaserWrapper">
+<style>
+    .menuTeaser img {
+        height: auto;
+        width: 100%;
+    }
+</style>
+<a href="https://www.reishunger.de/produkt/1538/bio-reisdrink" id="herobar-reisdrink" class="menuTeaser" style="display:block; height: 100%; padding-bottom: 25px;">
+<div style="display:block; height: 100%; position:relative;">
+<span class="herobar-d">
+<img alt="Reisdrink" sizes="572px" srcset="https://www.reishunger.de/upload/1246/19706/reisdrink.jpg 572w, https://www.reishunger.de/upload/1249/19706/reisdrink.jpg 1144w"> </span>
+
+</div>
+</a>
+</div>
+</div>
+</nav>
+</div>
+<div class="noverlay" overlay="nav-EYuL5gBOinUbhvSh" Overlay-6042e0f7dd054>
+<nav style="background: #f5f5f5;">
+<div class="nmenuWrapper">
+<ul class="nmenu active ">
+<li>
+<a href="https://www.reishunger.de/kategorie/43/currys-entdecken" class="image_fullsize " style="color: #FFFFFF">
+<span class="nlabel nlabel-red">Neue Produkte</span>
+<img src="/public/7et7KtyKNaaaddU9MftqhRVCtd2oW6EmAmkiVJjf.jpeg" alt="Curry">
+<span>Curry <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/187/sushi" class="image_fullsize " style="color: #FFFFFF">
+<img src="/public/89M8FNpQs2PsXpg016jcYPytnQCB7SpJ0Q0ebzCR.jpeg" alt="Sushi">
+<span>Sushi <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/37/indische-kueche" class="image_fullsize " style="color: #FFFFFF">
+<img src="/public/1mPrsjZKYsTX7ASxabRzdWlnYejfFlTVSGtt3n4c.jpeg" alt="Indische Küche">
+<span>Indische Küche <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/211/thai-kueche" class="image_fullsize " style="color: #FFFFFF">
+<span class="nlabel nlabel-red">Neue Produkte</span>
+<img src="/public/bZxumIoG6H32p1CDsmYmQAK7A7XOFNST5avIQ70q.jpeg" alt="Thai Küche">
+<span>Thai Küche <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/30/rezeptboxen" class="image_fullsize " style="color: #FFFFFF">
+<img src="/public/y7J0GnPBaEiwSqJSnWv7NMLwqrxe6yFjtsu1sfEh.jpeg" alt="Rezeptboxen">
+<span>Rezeptboxen <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/198/kochwelten" class=" noImage">
+<span>Alle Kochwelten <i class="fa fa-chevron-right hideArrow"></i></span>
+</a>
+</li>
+</ul>
+<div class="menuTeaserWrapper">
+<style>
+    .menuTeaser img {
+        height: auto;
+        width: 100%;
+    }
+</style>
+<a href="https://www.reishunger.de/kochbuch-fuer-deinen-reiskocher" id="herobar-reiskocher-kochbuch" class="menuTeaser" style="display:block; height: 100%; padding-bottom: 25px;">
+<div style="display:block; height: 100%; position:relative;">
+<span class="herobar-d">
+<img alt="Reiskocher Kochbuch" sizes="572px" srcset="https://www.reishunger.de/upload/1246/19974/reiskocher-kochbuch.jpg 572w, https://www.reishunger.de/upload/1249/19974/reiskocher-kochbuch.jpg 1144w"> </span>
+<span class="herobar-m">
+<img alt="Reiskocher Kochbuch" sizes="570px" srcset="https://www.reishunger.de/upload/1247/19975/reiskocher-kochbuch.jpg 570w, https://www.reishunger.de/upload/1248/19975/reiskocher-kochbuch.jpg 1140w"> </span>
+
+</div>
+</a>
+</div>
+</div>
+</nav>
+</div>
+<div class="noverlay" overlay="nav-hWMll4eYomr3p9fh" Overlay-6042e0f7dedfb>
+<nav style="background: #f5f5f5;">
+<div class="nmenuWrapper">
+<ul class="nmenu active ">
+<li>
+<a href="https://www.reishunger.de/kategorie/210/reisbecher" class="image_fullsize " style="color: #FFFFFF">
+<span class="nlabel nlabel-red">Neue Produkte</span>
+<img src="/public/CoU2DLE6ZXGN9m1wRtkPqHCWz7EjOS8jGq4SHuAn.jpeg" alt="Reisbecher">
+<span>Reisbecher <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/194/saucen" class="image_fullsize " style="color: #FFFFFF">
+<span class="nlabel nlabel-red">Neue Produkte</span>
+<img src="/public/3jbWLDUs5KnVCxEmSQp9GhwGv1X1XZ86c0Zo3E1K.jpeg" alt="Saucen">
+
+<span>Saucen <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/215/gedaempfter-reis" class="image_fullsize " style="color: #FFFFFF">
+<img src="/public/45A30QSA4ADlih1UUFzbS5ncPFDDunIn4DuRGUg2.jpeg" alt="2 Minuten Reis">
+<span>2 Minuten Reis <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/207/blitz-risotto" class="image_fullsize " style="color: #FFFFFF">
+<img src="/public/PsnPC5OvTRpnL2eeG2UmDhbpZ4D5yawKkaVSvor0.jpeg" alt="Blitz-Risotto">
+<span>Blitz-Risotto <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/206/blitz-milchreis" class="image_fullsize " style="color: #FFFFFF">
+<img src="/public/5wOxTSjunJhtcQnRm72amSTjwzUcqIACPaEwi3me.jpeg" alt="Blitz-Milchreis">
+<span>Blitz-Milchreis <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/195/schnelle-kueche" class=" noImage">
+<span>Alle Produkte <i class="fa fa-chevron-right hideArrow"></i></span>
+</a>
+</li>
+</ul>
+<div class="menuTeaserWrapper">
+<style>
+    .menuTeaser img {
+        height: auto;
+        width: 100%;
+    }
+</style>
+<a href="https://www.reishunger.de/kategorie/194/saucen" id="herobar-susse-saucen" class="menuTeaser" style="display:block; height: 100%; padding-bottom: 25px;">
+<div style="display:block; height: 100%; position:relative;">
+<span class="herobar-d">
+<img alt="Süße Saucen" sizes="572px" srcset="https://www.reishunger.de/upload/1246/19926/suesse-saucen.jpg 572w, https://www.reishunger.de/upload/1249/19926/suesse-saucen.jpg 1144w"> </span>
+
+</div>
+</a>
+</div>
+</div>
+ </nav>
+</div>
+<div class="noverlay" overlay="nav-YQ6VLe8PIOhyNlon" Overlay-6042e0f7df915>
+<nav style="background: #f5f5f5;">
+<div class="nmenuWrapper">
+<ul class="nmenu active ">
+<li>
+<a href="https://www.reishunger.de/kategorie/190/curry-pasten" class="image_fullsize " style="color: #FFFFFF">
+<img src="/public/vY42eSnTJwSCvd6YIMniafA3yuCYnSMQWW74OqcF.jpeg" alt="Pasten">
+<span>Pasten <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/192/oele" class="image_fullsize " style="color: #FFFFFF">
+<span class="nlabel nlabel-red">Neue Produkte</span>
+<img src="/public/o74HMPqhwv3OkQGPloJKGtY9S6GoY2W2OmNPmfl8.jpeg" alt="Öle">
+<span>Öle <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/191/reis-gewuerze" class="image_fullsize " style="color: #FFFFFF">
+<span class="nlabel nlabel-red">Neue Produkte</span>
+<img src="/public/fmR3SCKgvUjcDzIiQropzkYcGDOpAShBJplCTeGE.jpeg" alt="Gewürze">
+<span>Gewürze <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/193/kerne-samen-fruechte" class="image_fullsize " style="color: #FFFFFF">
+<img src="/public/QoYVALShicdGuGpJME77lfNVCWUk8KTZrwUTjGY9.jpeg" alt="Samen, Kerne & Früchte">
+<span>Samen, Kerne & Früchte <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/70/huelsenfruechte" class="image_fullsize " style="color: #FFFFFF">
+ <img src="/public/rrLX7GbqH61JMpsLnflqCvFiMDNPTbpHvm6IkRsu.jpeg" alt="Hülsenfrüchte">
+<span>Hülsenfrüchte <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/174/zutaten" class=" noImage">
+<span>Alle Zutaten <i class="fa fa-chevron-right hideArrow"></i></span>
+</a>
+</li>
+</ul>
+<div class="menuTeaserWrapper">
+<style>
+    .menuTeaser img {
+        height: auto;
+        width: 100%;
+    }
+</style>
+<a href="https://www.reishunger.de/produkt/1479/indian-curry-pasten-set" id="herobar-curry-pasten" class="menuTeaser" style="display:block; height: 100%; padding-bottom: 25px;">
+<div style="display:block; height: 100%; position:relative;">
+<span class="herobar-d">
+<img alt="Curry Pasten" sizes="572px" srcset="https://www.reishunger.de/upload/1246/19925/curry-pasten.jpg 572w, https://www.reishunger.de/upload/1249/19925/curry-pasten.jpg 1144w"> </span>
+
+</div>
+</a>
+</div>
+</div>
+</nav>
+</div>
+<div class="noverlay" overlay="nav-3wp0BFfadHf0Xbxw" Overlay-6042e0f7e048b>
+<nav style="background: #f5f5f5;">
+<div class="nmenuWrapper">
+<ul class="nmenu active ">
+<li>
+<a href="https://www.reishunger.de/kategorie/202/cracker" class="image_fullsize " style="color: #FFFFFF">
+<img src="/public/EWcdiqdsSyC7y1MJ7pwSMfPn62MPgNVQiDoJBwwh.jpeg" alt="Cracker">
+<span>Cracker <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/200/riegel" class="image_fullsize " style="color: #FFFFFF">
+<span class="nlabel nlabel-red">Neue Produkte</span>
+<img src="/public/wFBJGJYRmb84wOcL4XBzY1Qce3fFmDQ9PmK34KPD.jpeg" alt="Riegel">
+<span>Riegel <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+ <a href="https://www.reishunger.de/kategorie/214/schokolade" class="image_fullsize " style="color: #FFFFFF">
+<span class="nlabel nlabel-red">Neue Produkte</span>
+<img src="/public/mGMs995iPhRrkGrIwdSV1sNUKeYpRipEHlDD0bLI.jpeg" alt="Schokolade">
+<span>Schokolade <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/199/chips" class="image_fullsize " style="color: #FFFFFF">
+<img src="/public/lpusRhUmQDUZdfuCkHueYJYtoouMR5pMGxfPgJLB.jpeg" alt="Chips">
+<span>Chips <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/201/reiswaffeln" class="image_fullsize " style="color: #FFFFFF">
+<span class="nlabel nlabel-red">Neue Produkte</span>
+<img src="/public/rxgLzOrPj0lsJ82FcVWoF8GEgTdAA3HMnGvJpiEC.jpeg" alt="Reiswaffeln ">
+<span>Reiswaffeln <i class="fa fa-chevron-right "></i></span>
+</a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/182/snacks" class=" noImage">
+<span>Alle Snacks <i class="fa fa-chevron-right hideArrow"></i></span>
+</a>
+</li>
+</ul>
+<div class="menuTeaserWrapper">
+<style>
+    .menuTeaser img {
+        height: auto;
+        width: 100%;
+    }
+</style>
+<a href="https://www.reishunger.de/produkt/1537/reishunger-jutebeutel" id="herobar-jute-beutel" class="menuTeaser" style="display:block; height: 100%; padding-bottom: 25px;">
+<div style="display:block; height: 100%; position:relative;">
+<span class="herobar-d">
+<img alt="Jute Beutel" sizes="572px" srcset="https://www.reishunger.de/upload/1246/19584/jute-beutel.jpg 572w, https://www.reishunger.de/upload/1249/19584/jute-beutel.jpg 1144w"> </span>
+
+</div>
+</a>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<style>
+    @media  screen and (max-width: 1059px) {
+        #navCreativeMobile {
+            height: auto;
+            overflow: unset;
+        }
+        #navCreativeMobile li .fa-chevron-right {
+            font-size: 14px;
+        }
+        #navCreativeMobile [menu-next] a {
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        #navCreativeMobile [menu-next] a .iconWrapper {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-left: 5px;
+            margin-top: -6px;
+        }
+        #navCreativeMobile [menu-next] a:hover .iconWrapper {
+            background: #897089;
+        }
+        #navCreativeMobile [menu-next] a .iconWrapper img {
+            padding: 3px;
+        }
+        #navCreativeMobile [menu-next] i {
+            margin-left: auto;
+        }
+        #navCreativeMobile .menuTeaserWrapper {
+            display: flex;
+            margin: 10px;
+        }
+        #navCreativeMobile .menuTeaserWrapper a {
+            padding-bottom: 0 !important;
+            margin: 5px;
+            transition: all .3s ease;
+        }
+        #navCreativeMobile .menuTeaserWrapper a:hover {
+            filter: brightness(80%);
+            transition: all .3s ease;
+        }
+        #navCreativeMobile .menuTeaser .herobar-d {
+            display: none;
+        }
+        #navCreativeMobile [menu] {
+            display: block;
+            width: 100%;
+            text-transform: uppercase;
+            background: #f5f5f5;
+            padding-bottom: 30px;
+        }
+        #navCreativeMobile [menu] a {
+            padding: 0;
+        }
+        #navCreativeMobile [menu] li > span {
+            border-color: #AAAAAA;
+            padding: 0 15px;
+        }
+        #header.isCreativeMenuActive {
+            margin-left: -15px;
+        }
+        #navCreativeDesktop {
+            display: none;
+        }
+        #header.isCreativeMenuActive > [overlay-toggle="creativeNavMobile"] > span:first-child {
+            display: flex;
+        }
+        #header.isCreativeMenuActive > [overlay-toggle="creativeNavMobile"] > span:last-child {
+            display: none;
+        }
+    }
+    @media  screen and (min-width: 1060px) {
+        #navCreativeMobile {
+            display: none;
+        }
+    }
+    @media  screen and (min-width: 600px) {
+        #navCreativeMobile [menu] li.hide-desktop {
+            display: none;
+        }
+    }
+</style>
+<div class="noverlay" overlay="creativeNavMobile" overlay-no-scroll Overlay-6042e0f7e10cf id="navCreativeMobile" class="nbg-grey-light">
+<nav>
+<ul class="nmenu active" menu>
+<li>
+<span menu-next>
+<a href="https://www.reishunger.de/reiskocher/finde-deinen-reiskocher">Reiskocher <i class="fa fa-chevron-right"></i></a>
+</span>
+</li>
+<li>
+<span menu-next>
+<a href="https://www.reishunger.de/kategorie/197/reis">Reis <i class="fa fa-chevron-right"></i></a>
+</span>
+</li>
+<li>
+<span menu-next>
+<a href="https://www.reishunger.de/kategorie/198/kochwelten">Kochwelten <i class="fa fa-chevron-right"></i></a>
+</span>
+</li>
+<li>
+<span menu-next>
+<a href="https://www.reishunger.de/kategorie/195/schnelle-kueche">Schnelle Küche <i class="fa fa-chevron-right"></i></a>
+</span>
+</li>
+<li>
+<span menu-next>
+<a href="https://www.reishunger.de/kategorie/174/zutaten">Zutaten <i class="fa fa-chevron-right"></i></a>
+</span>
+</li>
+<li>
+<span menu-next>
+<a href="https://www.reishunger.de/kategorie/182/snacks">Snacks <i class="fa fa-chevron-right"></i></a>
+</span>
+</li>
+<li>
+<span menu-next>
+<a class="ncolor-turquoise" href="https://www.reishunger.de/kategorie/165/starter-sets">
+Starter-Sets
+<span class="iconWrapper nbg-turquoise">
+<img src="https://www.reishunger.de/assets/img/icons/creativeNav/icon_StarterSets2.svg?8c15782b9d6199c08129076bbd985308" width="20" height="20" alt="Starter-Sets" />
+</span>
+<i class="fa fa-chevron-right"></i>
+</a>
+</span>
+</li>
+<li>
+<span menu-next>
+<a class="ncolor-red-light" href="https://www.reishunger.de/angebote">
+Angebote
+<span class="iconWrapper nbg-red-light">
+<img src="https://www.reishunger.de/assets/img/icons/creativeNav/icon_Angebote2.svg?447d0f3650cb920311e6765197185aa7" width="20" height="20" alt="Angebote" />
+</span>
+<i class="fa fa-chevron-right"></i>
+</a>
+</span>
+</li>
+<li>
+<span menu-next>
+<a href="https://www.reishunger.de/neu">
+Neu
+<span class="iconWrapper nbg-brand-dark">
+<img src="https://www.reishunger.de/assets/img/icons/creativeNav/icon_Neu2.svg?3b062928a2efad56aae2478d18036ee0" width="20" height="20" alt="Neu" />
+</span>
+<i class="fa fa-chevron-right"></i>
+</a>
+</span>
+</li>
+<div class="menuTeaserWrapper">
+<style>
+    .menuTeaser img {
+        height: auto;
+        width: 100%;
+    }
+</style>
+<a href="https://www.reishunger.de/kochbuch-fuer-deinen-reiskocher" id="herobar-reiskocher-kochbuch" class="menuTeaser" style="display:block; height: 100%; padding-bottom: 25px;">
+<div style="display:block; height: 100%; position:relative;">
+<span class="herobar-d">
+<img alt="Reiskocher Kochbuch" sizes="572px" srcset="https://www.reishunger.de/upload/1246/19974/reiskocher-kochbuch.jpg 572w, https://www.reishunger.de/upload/1249/19974/reiskocher-kochbuch.jpg 1144w"> </span>
+<span class="herobar-m">
+<img alt="Reiskocher Kochbuch" sizes="570px" srcset="https://www.reishunger.de/upload/1247/19975/reiskocher-kochbuch.jpg 570w, https://www.reishunger.de/upload/1248/19975/reiskocher-kochbuch.jpg 1140w"> </span>
+
+</div>
+</a>
+</div>
+<li class="nbg-white">
+<span menu-next>
+<a href="https://www.reishunger.de/navacopah" style="color: #007faa">Hilf mit!</a>
+</span>
+</li>
+<li class="nbg-white">
+<span menu-next>
+<a href="https://www.reishunger.de/rezepte">Rezepte</a>
+</span>
+</li>
+<li class="nbg-white">
+<span menu-next>
+<a href="https://www.reishunger.de/hilfe">Service</a>
+</span>
+</li>
+<li class="nbg-white hide-desktop hidden logout-header-button">
+<form id="logout-form-burger-menu" action="https://www.reishunger.de/logout" method="POST" style="display: none;">
+<input type="hidden" name="_token" value=""> </form>
+<span menu-next>
+<a href="#" onclick="event.preventDefault();document.getElementById('logout-form-burger-menu').submit();">
+Abmelden <i class="fa fa-sign-out"></i>
+</a>
+</span>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<div id="mobile-search">
+<div class="search-wrapper">
+</div>
+</div>
+<div class="noverlay" overlay="search" Overlay-6042e0f7e2163>
+<div class="nbg-white" style="overflow-y: scroll">
+<div class="container container--wide">
+<button class="nbtn nbtn-white nbtn-sm" href="#" search-filter="all">Alles</button>
+<button class="nbtn nbtn-white nbtn-sm" href="#" search-filter="shop">Produkte</button>
+<button class="nbtn nbtn-white nbtn-sm" href="#" search-filter="recipes">Rezepte</button>
+<button class="nbtn nbtn-white nbtn-sm" href="#" search-filter="cms">Wissen</button>
+</div>
+<div class="tileys tileys-6"></div>
+</div>
+</div>
+<style>
+    #recipe-navigation {
+        font-size: 15px;
+    }
+    #recipe-navigation .ncontainer {
+        border-top: 1px solid #F5F5F5;
+    }
+
+    #recipe-navigation li:first-of-type .aktionsElement {
+        padding-top: 2px;
+    }
+
+    #recipe-navigation .aktionsElement {
+        text-transform: capitalize;
+        font-weight: normal;
+    }
+
+    #recipe-navigation .nmenubar {
+        border-top: none;
+        border-bottom: none;
+    }
+</style>
+<section id="recipe-navigation" class="bg-white hide-desktop">
+<div class="ncontainer" style=" overflow: hidden">
+<div class="nmenubar scrollbar" scrollbar Scrollbar-6042e0f7e21ba>
+<div class="scrollbar-container">
+<ul class="scrollbar-content">
+<li>
+<a class="aktionsElement" href="https://www.reishunger.de/kategorie/182/snacks">Snacks</a>
+</li>
+<li>
+<a class="aktionsElement" href="https://www.reishunger.de/kategorie/174/zutaten">Zutaten</a>
+</li>
+<li>
+<a class="aktionsElement" href="https://www.reishunger.de/kategorie/195/schnelle-kueche">Schnelle Küche</a>
+</li>
+<li>
+<a class="aktionsElement" href="https://www.reishunger.de/kategorie/198/kochwelten">Kochwelten</a>
+</li>
+<li>
+<a class="aktionsElement" href="https://www.reishunger.de/kategorie/197/reis">Reis</a>
+</li>
+<li>
+<a class="aktionsElement" href="https://www.reishunger.de/reiskocher/finde-deinen-reiskocher">Reiskocher</a>
+</li>
+</ul>
+<i class="scrollbar-left fa fa-angle-left active"></i>
+<i class="scrollbar-right fa fa-angle-right active"></i>
+</div>
+</div>
+</div>
+</section>
+<main id="content" role="main">
+<div id="content-body">
+<style>
+    [sticky]:not(.mainNavigation) {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    [sticky].sticky:not(.mainNavigation) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    [servings-decrease],
+    [servings-increase] {
+        position: relative;
+        width: 32px;
+        height: 32px;
+        border: none;
+        outline: none;
+    }
+
+    [servings-decrease]:hover,
+    [servings-increase]:hover {
+        background: #8ba136;
+    }
+
+    [servings-decrease]::before,
+    [servings-increase]::before,
+    [servings-increase]::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 10px;
+        height: 2px;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        z-index: 1
+    }
+
+    [servings-increase]::after {
+        transform: translate(-50%, -50%) rotate(90deg);
+    }
+
+    .conversation--message {
+        max-width: unset;
+    }
+
+    table tr {
+        padding: 2px 0;
+    }
+
+    table td {
+        border-color: #7b657b !important;
+    }
+
+    table tr:first-child > td {
+        border-top: 0;
+    }
+
+    table td:first-child {
+        font-size: 16px;
+    }
+
+    .nlist-badges p,
+    table td:last-child {
+        font-size: 16px;
+    }
+
+    .nutrient-salt .nutrient-value,
+    .nutrient-salt .nutrient-label,
+    .nutrient-label {
+        color: #fff;
+    }
+
+    [pmethod],
+    [preparation] {
+        display: none;
+    }
+
+    [pmethod]:hover,
+    [preparation]:hover {
+        cursor: pointer;
+    }
+
+    [pmethod].active,
+    [preparation].active {
+        display: inline-block;
+    }
+
+    b[preparation].active {
+        color: #897089;
+    }
+
+    .method-select:hover {
+        color: #897089;
+    }
+
+    .method-select.active {
+        background: #eee;
+    }
+
+    .method-select.active .fa {
+        transform: rotate(180deg);
+    }
+
+    [pmethod$="electrical"] {
+        order: 1;
+    }
+
+    [pmethod$="pot_steam"] {
+        order: 2;
+    }
+
+    [pmethod$="microwave"] {
+        order: 3;
+    }
+
+    [pmethod$="pot"] {
+        order: 4;
+    }
+
+    [overlay] .nbtn[pmethod].active,
+    [overlay] .nbtn[preparation].active {
+        color: #fff;
+        background: #4C3E4C;
+    }
+
+    [recipe-bookmark-status] {
+        display: none;
+    }
+
+    [recipe-bookmark-status].active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nrating {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #recipe-attributes {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        max-width: 476px;
+        white-space: nowrap;
+        margin: 0 auto;
+    }
+
+    #recipe-attributes svg {
+        height: auto;
+    }
+
+    .icon-clock3 {
+        max-width: 24px;
+    }
+
+    .icon-grains {
+        max-width: 18px;
+    }
+
+                    .icon-grains0 {
+            fill: #4C3E4C;
+        }
+                .icon-grains1 {
+            fill: #4C3E4C;
+        }
+
+    #recipe-attributes > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #conversation {
+        max-width: 550px;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .slideshow-default--controls--left,
+    .slideshow-default--controls--right {
+        opacity: 1;
+    }
+
+    .slideshow-default--controls--left::before,
+    .slideshow-default--controls--right::before {
+        background: rgba(76, 62, 76, 0.6);
+    }
+
+    .slideshow-default--controls--bullet:hover,
+    .slideshow-default--controls--bullet.active {
+        opacity: 0.6;
+    }
+
+    .slideshow-default--controls--magnifier {
+        opacity: 1;
+    }
+
+    #recipe-header > div:last-child {
+        padding-top: 5px;
+    }
+
+    #recipe-header .nbtn {
+        flex: 1;
+    }
+
+    #recipe-products {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1194px;
+        margin: 0 auto;
+    }
+
+    #recipe-products > div {
+        width: 100%;
+    }
+
+    .tileys {
+        justify-content: center;
+    }
+
+    h1.nh1 {
+        margin: 0.5em 0;
+    }
+
+    .preparation-method:not(.active) {
+        opacity: 0.2;
+    }
+
+    .preparation-method:not(.active):hover {
+        opacity: 0.5;
+    }
+
+    #banner-recipeauthor {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        margin-top: -125px;
+    }
+
+    #banner-recipeauthor > div {
+        position: relative;
+    }
+
+    #banner-recipeauthor > div:first-child {
+        display: none;
+    }
+
+    @media  screen and (min-width: 816px) {
+        #recipe-products > div {
+            width: auto;
+        }
+
+        .tileys {
+            justify-content: flex-start;
+        }
+    }
+
+    @media  screen and (min-width: 720px) {
+        .conversation--message-right {
+            display: none;
+        }
+
+        #banner-recipeauthor {
+            margin-top: 0;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+
+        #banner-recipeauthor > div:first-child {
+            display: block;
+            max-width: 400px;
+        }
+
+        #banner-recipeauthor > div:nht-child(2) {
+            min-width: 400px;
+        }
+
+        #banner-recipeauthor > div:first-child > img {
+            -webkit-transform: translate(-14%, 25%);
+            transform: translate(-14%, 25%);
+        }
+
+        #banner-recipeauthor > div:last-child > img {
+            -webkit-transform: translate(0, -25%);
+            transform: translate(0, -25%);
+        }
+    }
+
+    @media  screen and (min-width: 992px) {
+        #recipe-header h1.nh1 {
+            margin-right: 15px;
+        }
+
+        h1.nh1 {
+            margin-top: 0;
+        }
+
+        #recipe-header {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        #recipe-header .nbtn {
+            flex: none;
+        }
+
+        #recipe-header > div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        #recipe-header > div:first-child {
+            text-align: right;
+        }
+
+        .nrating {
+            flex-direction: row;
+            justify-content: flex-start;
+            max-width: 111px;
+        }
+
+        .nrating-stars {
+            justify-content: center;
+        }
+
+        .nrating-stars + .nrating-comments {
+            margin-left: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+
+        #recipe-attributes {
+            margin-left: 0;
+            width: 382px;
+            max-width: 100%;
+        }
+
+        #recipe-attributes > div {
+            display: block;
+            flex: none;
+        }
+
+        #conversation {
+            max-width: 679px;
+            margin-top: 0;
+        }
+
+        [intro-more] {
+            display: none !important;
+        }
+
+        [intro-more] + div {
+            display: block !important;
+            visibility: visible !important;
+        }
+
+        #banner-recipeauthor {
+            min-height: 359px;
+        }
+
+        #banner-recipeauthor > div:last-child,
+        #banner-recipeauthor > div:first-child {
+            width: 217px;
+        }
+
+        #banner-recipeauthor > div:first-child > img {
+            -webkit-transform: translate(-35%, 25%);
+            transform: translate(-35%, 25%);
+        }
+
+                    .row {
+                display: flex;
+            }
+
+            .row > div > .nbg-brand {
+                height: 100%;
+            }
+
+
+    }
+
+    @media  screen and (min-width: 1100px) {
+        #recipe-attributes {
+            width: 428px;
+        }
+    }
+
+    @media  screen and (min-width: 1200px) {
+        #recipe-attributes {
+            width: 478px;
+        }
+
+        #banner-recipeauthor {
+            min-height: unset;
+            height: 200px;
+        }
+
+        #banner-recipeauthor br {
+            display: none;
+        }
+
+        #banner-recipeauthor > div:first-child > img {
+            -webkit-transform: translate(-12%, 25%);
+            transform: translate(-12%, 25%);
+        }
+
+        #banner-recipeauthor > div:last-child > img {
+            -webkit-transform: translate(-15%, -25%);
+            transform: translate(-15%, -25%);
+        }
+    }
+
+    @media  screen and (max-width: 1186px) {
+        .recipe-preparation {
+            padding-bottom: 0;
+        }
+    }
+    .rotd-label {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        z-index: 1;
+    }
+
+    @media  screen and (min-width: 480px) and (max-width: 991px) {
+        .rotd-label-wrapper {
+            width: 450px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: -30px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .cups-conversion {
+        display: flex;
+        background-color:rgba(255, 255, 255, 0.2);
+        padding: 7px;
+        color: #332933;
+    }
+
+    .cups-conversion > div:first-child {
+        margin-right: 5px;
+    }
+
+    @media  screen and (max-width: 720px) {
+        .cups-conversion {
+            font-size: 0.9em;
+            margin: 0 5px;
+        }
+    }
+</style>
+<section class="nsection bg-white" style="border-top: 1px solid #f5f5f5; padding: 10px 0;" RecipePage-6042e0f78e04f data-recipe-id="3035">
+<div class="ncontainer" style=" overflow: hidden">
+<div id="recipe-header">
+<div>
+<div sticky Sticky-6042e0f78e063 style="display: flex;">
+<a href="https://www.reishunger.de/rezepte" class="nbtn nbtn-brand">Alle Rezepte</a>
+<span class="hide-mobile">
+<a href="https://www.reishunger.de/rezepte" id="searchrecipe" class="nbtn nbtn-grey-light nbtn-responsive" style="margin-left: 10px"><i class="fa fa-search"></i><span>Rezept suchen</span></a>
+</span>
+</div>
+</div>
+<div style="flex: 1">
+<h1 class="nh1">
+Cremiges Erdnuss-Curry </h1>
+<div id="recipe-attributes">
+<div>
+<svg class="icon icon-clock3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80.9 80.9"><g data-name="Gruppe 684"><g data-name="Ellipse 9" fill="none" stroke="#4c3e4c" stroke-width="2"><circle cx="40.5" cy="40.5" stroke="none" r="40.5" /><circle cx="40.5" cy="40.5" r="39.5" /></g><g data-name="Gruppe 285" fill="#4c3e4c"><path data-name="Pfad 109" d="M45 30c0 9-2 16-3 16s-3-7-3-16 1-17 3-17 3 8 3 17" /><path data-name="Pfad 110" d="M29 43c8 0 14 1 14 2s-6 3-14 3-14-1-14-3 6-2 14-2" /></g></g></svg>
+<span><span recipe-duration>20</span> Min.</span>
+</div>
+<div>
+<svg class="icon icon-grains" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59.8 77.9"><path class="icon-grains0" d="M13 39c0 21-3 39-6 39-4 0-7-18-7-39C0 17 3 0 7 0c3 0 6 17 6 39" fill="#4c3e4c" stroke="#4c3e4c" /><path class="icon-grains1" d="M36 39c0 21-3 38-6 38-4 0-7-17-7-38s3-38 7-38c3 0 6 17 6 38" fill="none" stroke="#4c3e4c" /><path class="icon-grains2" d="M59 39c0 21-3 38-6 38-4 0-6-17-6-38s2-38 6-38c3 0 6 17 6 38" fill="none" stroke="#4c3e4c" /></svg>
+<span>Normal </span>
+</div>
+<div>
+<div class="nrating">
+<span class="nrating-stars">
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+</span>
+<a href="#" class="nrating-comments" overlay-toggle="review-recipe" overlay-async-url="/api/review/overlay/recipe/3035">Rezept bewerten</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="nsection">
+<div class="ncontainer">
+<div class="row">
+<div class="col-xs-12 col-md-7 col-md-push-5">
+<div class="slideshow-default image first-slide" gallery="pswp-3035" SlideshowDefault-6042e0f790ed5>
+<div class="slideshow-default--top">
+<div class="slideshow-default--controls">
+<a href="#" class="slideshow-default--controls--open" slide="0" type="image" pswp-open>
+<span class="slideshow-default--controls--magnifier"></span>
+</a>
+<a href="#" class="slideshow-default--controls--left"></a>
+<a href="#" class="slideshow-default--controls--right"></a>
+<div class="slideshow-default--controls--bullets">
+<a href="#" class="slideshow-default--controls--bullet active " slide="0"></a>
+<a href="#" class="slideshow-default--controls--bullet  " slide="1"></a>
+</div>
+</div>
+<div class="slideshow-default--slides">
+<div class="slideshow-default--slide " slide="0">
+<figure itemscope itemtype="http://schema.org/ImageObject">
+<img alt="Cremiges Erdnuss-Curry" sizes="(min-width: 1200px ) 679px, (min-width: 992px ) calc(58.33vw - 30px), (min-width: 480px ) 450px, calc(100vw - 30px)" srcset="https://www.reishunger.de/upload/205/19944/cremiges-erdnuss-curry.jpg 450w, https://www.reishunger.de/upload/206/19944/cremiges-erdnuss-curry.jpg 564w, https://www.reishunger.de/upload/207/19944/cremiges-erdnuss-curry.jpg 679w, https://www.reishunger.de/upload/208/19944/cremiges-erdnuss-curry.jpg 900w, https://www.reishunger.de/upload/209/19944/cremiges-erdnuss-curry.jpg 1129w, https://www.reishunger.de/upload/210/19944/cremiges-erdnuss-curry.jpg 1358w" class=""> <figcaption class="hidden" itemprop="name">Cremiges Erdnuss-Curry </figcaption>
+<span class="hidden" itemprop="author">Luke</span>
+<meta class="hidden" itemprop="datePublished" content="23.02.2021">23.02.2021</meta>
+<span class="hidden" itemprop="description">Cremiges Erdnuss-Curry ✓ Einfaches Rezept für leckeres cremiges Erdnuss-Curry ☆ Jetzt nachkochen!</span>
+</figure>
+</div>
+<div class="slideshow-default--slide " slide="1">
+<figure itemscope itemtype="http://schema.org/ImageObject">
+<img sizes="(min-width: 1200px ) 679px, (min-width: 992px ) calc(58.33vw - 30px), (min-width: 480px ) 450px, calc(100vw - 30px)" srcset="https://www.reishunger.de/upload/205/19944/erdnusscurryjpg.jpg 450w, https://www.reishunger.de/upload/206/19944/erdnusscurryjpg.jpg 564w, https://www.reishunger.de/upload/207/19944/erdnusscurryjpg.jpg 679w, https://www.reishunger.de/upload/208/19944/erdnusscurryjpg.jpg 900w, https://www.reishunger.de/upload/209/19944/erdnusscurryjpg.jpg 1129w, https://www.reishunger.de/upload/210/19944/erdnusscurryjpg.jpg 1358w" class=""> <figcaption class="hidden" itemprop="name">Cremiges Erdnuss-Curry </figcaption>
+<span class="hidden" itemprop="author">Luke</span>
+<meta class="hidden" itemprop="datePublished" content="23.02.2021">23.02.2021</meta>
+<span class="hidden" itemprop="description">Cremiges Erdnuss-Curry ✓ Einfaches Rezept für leckeres cremiges Erdnuss-Curry ☆ Jetzt nachkochen!</span>
+</figure>
+</div>
+</div>
+</div>
+<div class="slideshow-default--thumbnails">
+<div class="slideshow-default--thumbnails-inner">
+<a href="#" class="slideshow-default--thumbnail active isDefaultImage" slide="0">
+<img alt="Cremiges Erdnuss-Curry" sizes="(min-width: 992px ) 100px" srcset="https://www.reishunger.de/upload/211/19944/cremiges-erdnuss-curry.jpg 100w, https://www.reishunger.de/upload/212/19944/cremiges-erdnuss-curry.jpg 200w" class=""> </a>
+<a href="#" class="slideshow-default--thumbnail  isDefaultImage" slide="1">
+<img sizes="(min-width: 992px ) 100px" srcset="https://www.reishunger.de/upload/211/19944/erdnusscurryjpg.jpg 100w, https://www.reishunger.de/upload/212/19944/erdnusscurryjpg.jpg 200w" class=""> </a>
+</div>
+</div>
+</div>
+<div id="pswp-3035" class="pswp" tabindex="-1" role="dialog" aria-hidden="true" data-pswp-items="[{&quot;src&quot;:&quot;https:\/\/www.reishunger.de\/upload\/1278\/19944\/erdnusscurryjpg.jpg&quot;,&quot;w&quot;:1500,&quot;h&quot;:1475,&quot;video&quot;:false},{&quot;src&quot;:&quot;https:\/\/www.reishunger.de\/upload\/1278\/19944\/erdnusscurryjpg.jpg&quot;,&quot;w&quot;:1500,&quot;h&quot;:1475,&quot;video&quot;:false}]">
+<div class="pswp__bg"></div>
+<div class="pswp__scroll-wrap">
+<div class="pswp__container">
+<div class="pswp__item"></div>
+<div class="pswp__item"></div>
+<div class="pswp__item"></div>
+</div>
+<div class="pswp__ui pswp__ui--hidden">
+<div class="pswp__top-bar">
+<div class="pswp__counter"></div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+<div class="pswp__preloader">
+<div class="pswp__preloader__icn">
+<div class="pswp__preloader__cut">
+<div class="pswp__preloader__donut"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class="pswp__share-tooltip"></div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+<div class="pswp__mobile-info">
+<p>Zum zoomen Doppeltippen.</p>
+</div>
+<div class="pswp__caption">
+<div class="pswp__caption__center"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="conversation">
+<div class="conversation--message conversation--message-left">
+<a href="https://www.reishunger.de/profil/2919eeb3c6714bf944f4332bdae5735a" class="conversation--message--author">Rezeptautor: <span>Luke</span></a>
+<div class="conversation--message--content">
+<div intro-more>Erdnuss-Curry ist mein absoluter Favorit unter den Currys. Die Soße ist super c... <b class="text-underline">weiterlesen <i class="fa fa-caret-down"></i></b></div>
+<div intro-less class="hidden">Erdnuss-Curry ist mein absoluter Favorit unter den Currys. Die Soße ist super cremig und vollmundig und der Erdnussgeschmack harmoniert perfekt mit den Kichererbsen und dem Tofu. Curry eignet sich auch sehr gut zum Vorbereiten und kann mit jeder Gemüsesorte ergänzt werden. <b class="hidden-md hidden-lg text-underline" style="margin-top: 5px;">Weniger anzeigen <i class="fa fa-caret-down" style="transform: rotate(180deg);"></i></b></div>
+</div>
+<a href="https://www.reishunger.de/profil/2919eeb3c6714bf944f4332bdae5735a"><div class="profile-noimage conversation--message--image" style="background: #4C3E4C; width: 30px; height: 30px; font-weight: bold; line-height: 30px; font-size: 12px">L</div></a>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-md-5 col-md-pull-7">
+<div class="nbg-brand ncolor-white ingredients-box" style="padding: 15px; max-width: 476px; margin: 0 auto;">
+<div style="display: flex; align-items: center; justify-content: space-between; padding: 8px">
+<h2 class="nh2" style="margin: 0">Zutaten</h2>
+<div style="display: flex; align-items: center; justify-content: center;">
+<button servings-decrease class="nbg-green" style="border-radius: 50%"></button>
+<span servings style="margin: 0 10px; min-width: 68px; text-align: center; font-size: 18px">2 Portionen</span>
+<button servings-increase class="nbg-green" style="border-radius: 50%"></button>
+</div>
+</div>
+<table class="table margin-md">
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+<span ingredient-amount>200</span>g </td>
+<td style="display: flex; align-items: flex-start; justify-content: space-between;">
+<div style="flex: 1;margin-right: 15px;">
+<a href="https://www.reishunger.de/produkt/20/basmati-reis" class="ncolor-green">Basmati Reis</a>
+<br>
+<small>Basmati Pusa 1121 aus Indien, Himalaya</small>
+</div>
+<button class="nbtn nbtn-green" overlay-toggle="quickadd" overlay-async-url="https://www.reishunger.de/api/quickadd/20" quickadd><i class="fa fa-cart-plus"></i></button>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+<span ingredient-amount>2</span> TL </td>
+<td style="display: flex; align-items: flex-start; justify-content: space-between;">
+<div style="flex: 1;margin-right: 15px;">
+<a href="https://www.reishunger.de/produkt/1526/erdnussoel" class="ncolor-green">Erdnussöl</a>
+<br>
+<small>Naturbelassenes Öl aus gerösteten Erdnüssen</small>
+</div>
+<button class="nbtn nbtn-green" overlay-toggle="quickadd" overlay-async-url="https://www.reishunger.de/api/quickadd/1526" quickadd><i class="fa fa-cart-plus"></i></button>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+<span ingredient-amount>100</span>g </td>
+<td><span class="hidden">g </span>Brokkolli</td>
+</tr>
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+<span ingredient-amount>200</span>g </td>
+<td><span class="hidden">g </span>Tofu</td>
+</tr>
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+<span ingredient-amount>1</span> </td>
+<td><span class="hidden"> </span>Dose Kichererbsen</td>
+</tr>
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+<span ingredient-amount>1</span> </td>
+<td><span class="hidden"> </span>rote Zwiebel</td>
+</tr>
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+eine halbe </td>
+<td><span class="hidden">eine halbe </span>Mango</td>
+</tr>
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+<span ingredient-amount>1</span> Stück </td>
+<td><span class="hidden"> Stck </span>Ingwer</td>
+</tr>
+<tr>
+<td colspan="2" style="font-size:21px; border-top: 0; padding-top: 15px; font-weight: bold">Die Soße</td>
+</tr>
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+<span ingredient-amount>250</span>ml </td>
+<td style="display: flex; align-items: flex-start; justify-content: space-between;">
+<div style="flex: 1;margin-right: 15px;">
+<a href="https://www.reishunger.de/produkt/414/kokosmilch" class="ncolor-green">Kokosmilch</a>
+<br>
+<small>Extra cremig mit 50% Kokosnussanteil</small>
+</div>
+<button class="nbtn nbtn-green" overlay-toggle="quickadd" overlay-async-url="https://www.reishunger.de/api/quickadd/414" quickadd><i class="fa fa-cart-plus"></i></button>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+<span ingredient-amount>25</span>g </td>
+<td style="display: flex; align-items: flex-start; justify-content: space-between;">
+<div style="flex: 1;margin-right: 15px;">
+<a href="https://www.reishunger.de/produkt/1415/rote-thai-curry-paste" class="ncolor-green">Rote Thai Curry Paste</a>
+<br>
+<small>Nach thailändischem Originalrezept</small>
+</div>
+<button class="nbtn nbtn-green" overlay-toggle="quickadd" overlay-async-url="https://www.reishunger.de/api/quickadd/1415" quickadd><i class="fa fa-cart-plus"></i></button>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+<span ingredient-amount>2</span> TL </td>
+<td style="display: flex; align-items: flex-start; justify-content: space-between;">
+<div style="flex: 1;margin-right: 15px;">
+<a href="https://www.reishunger.de/produkt/1369/bio-reissirup" class="ncolor-green">Bio Reissirup</a>
+<br>
+<small>Alternatives Süßungsmittel zu Kristallzucker aus Reis</small>
+</div>
+<button class="nbtn nbtn-green" overlay-toggle="quickadd" overlay-async-url="https://www.reishunger.de/api/quickadd/1369" quickadd><i class="fa fa-cart-plus"></i></button>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+<span ingredient-amount>1</span>-<span ingredient-amount>2</span> </td>
+<td style="display: flex; align-items: flex-start; justify-content: space-between;">
+<div style="flex: 1;margin-right: 15px;">
+<a href="https://www.reishunger.de/produkt/863/kurkuma" class="ncolor-green">Kurkuma</a>
+<br>
+<small>Gemahlenes Bio-Kurkuma für aromatische Würze</small>
+</div>
+<button class="nbtn nbtn-green" overlay-toggle="quickadd" overlay-async-url="https://www.reishunger.de/api/quickadd/863" quickadd><i class="fa fa-cart-plus"></i></button>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+<span ingredient-amount>3</span> EL </td>
+<td><span class="hidden"> EL </span>Wasser</td>
+</tr>
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+<span ingredient-amount>3</span> TL </td>
+<td><span class="hidden"> TL </span>Erdnussmus</td>
+</tr>
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+<span ingredient-amount>1</span> </td>
+<td><span class="hidden"> </span>Zitrone</td>
+</tr>
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+ein halber TL </td>
+<td><span class="hidden">ein halber TL </span>Salz</td>
+</tr>
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+<span ingredient-amount>2</span> TL </td>
+<td><span class="hidden"> TL </span>Reisessig</td>
+</tr>
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+eine Prise </td>
+<td><span class="hidden">eine Prise </span>Kreuzkümmel</td>
+</tr>
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+eine Prise </td>
+<td><span class="hidden">eine Prise </span>Paprika</td>
+</tr>
+<tr>
+<td style="font-weight: bold; white-space: nowrap;">
+eine Prise </td>
+<td><span class="hidden">eine Prise </span>Limettenpulver</td>
+</tr>
+</table>
+<div class="margin-md" style="display: flex; justify-content: space-between; align-items: center;">
+<button class="nbtn" style="font-weight: normal;" recipe-bookmark>
+<span recipe-bookmark-status class="active">
+<i class="fa fa-heart ncolor-brand-light" style="font-size: 1.5em; margin-bottom: 0.25em"></i>
+<i class="fa fa-heart ncolor-brand" style="font-size: 1.5em;margin-bottom: 0.25em;position: absolute;z-index: 1;left: 50%;transform: translateX(-50%) scale(0.8);"></i>
+<span class="ncolor-green">Merken</span>
+</span>
+<span recipe-bookmark-status>
+<i class="fa fa-heart ncolor-brand-light" style="font-size: 1.5em; margin-bottom: 0.25em"></i>
+<i class="fa fa-heart ncolor-brand" style="font-size: 1.5em;margin-bottom: 0.25em;position: absolute;z-index: 1;left: 50%;transform: translateX(-50%) scale(0.8);"></i>
+<span class="ncolor-green">Merken</span>
+</span>
+<span recipe-bookmark-status>
+<i class="fa fa-heart ncolor-green" style="font-size: 1.5em; margin-bottom: 0.25em"></i>
+<span class="ncolor-green">Gemerkt</span>
+</span>
+</button>
+<button style="display:flex; flex-direction: column; align-items: center; margin: 0 5px;font-weight: normal;" class="nbtn" overlay-toggle="recipeprint">
+<i class="fa fa-print ncolor-green" style="font-size: 1.5em; margin-bottom: 0.25em"></i>
+<span class="ncolor-green">Drucken</span>
+</button>
+<button toggle-share style="display:flex; flex-direction: column; align-items: center;font-weight: normal;" class="nbtn">
+<i class="fa fa-group ncolor-green" style="font-size: 1.5em; margin-bottom: 0.25em"></i>
+<span class="ncolor-green">Teilen</span>
+</button>
+</div>
+<div id="recipe-share" class="hidden">
+<div class="margin-md" style="display: flex; align-items: center; justify-content: flex-end;">
+<a class="icon-pinterest" OpenSocialPopup-6042e0f793ed0 style="margin-right: 10px" title="PinIt on Pinterest" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.reishunger.de%2Frezepte%2Frezept%2F3035%2Fcremiges-erdnuss-curry&media=https%3A%2F%2Fwww.reishunger.de%2Fupload%2F215%2F19944%2Fcremiges-erdnuss-curry.jpg&description=Cremiges+Erdnuss-Curry">
+<i class="fa fa-pinterest-square"></i>
+</a>
+<a class="icon-mail" style="margin-right: 10px" title="Share via Email" href="mailto:?subject=Schau dir mal dieses tolle Rezept an&body=https%3A%2F%2Fwww.reishunger.de%2Frezepte%2Frezept%2F3035%2Fcremiges-erdnuss-curry">
+<i class="fa fa-envelope"></i>
+</a>
+<button toggle-share class="nbtn nbtn-circle nbtn-brand"><i class="fa fa-times ncolor-white"></i></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="nsection recipe-preparation" readmore="800" ReadMore-6042e0f7947fd>
+<div class="ncontainer nbg-white" style="padding: 0 23px;">
+<div>
+<h2 class="nh2">Zubereitung</h2>
+<ol class="nlist-badges" recipe-text>
+<li>
+<p style="line-height: 1">Den Reis waschen und kochen. </p>
+</li>
+<li>
+<p style="line-height: 1">Das Öl in die Pfanne geben und erhitzen. <br />
+Die Zwiebel, den Ingwer (ca. 1 cm großes Stück), den Tofu und den Brokkoli kleinschneiden. Die Kichererbsen abgießen. <br />
+</p>
+</li>
+<li>
+<p style="line-height: 1">Zwiebel, den Ingwer und den Tofu in die Pfanne geben und für 3-4 Minuten auf mittlerer Hitze anbraten. <br />
+Den Brokkoli und die Kichererbsen hinzugeben, alles gut verrühren und alles weitere 4-5 Minuten anbraten. </p>
+</li>
+<li>
+<p style="line-height: 1">Die Mango in Würfel schneiden. Alle Zutaten für die Soße vermischen und zusammen mit der Mango in die Pfanne geben. Auf niedriger Hitze 3-4 Minuten köcheln lassen. </p>
+</li>
+</ol>
+</div>
+</div>
+</section>
+<section class="nsection nbg-green ncolor-white" style="overflow: hidden;">
+<div class="ncontainer">
+<div id="banner-recipeauthor">
+<div>
+<img alt="Reis Teller" sizes="(min-width: 720px ) 520px" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/asset/216/recipes%2Freis_teller_ingwer.png 520w, https://www.reishunger.de/asset/217/recipes%2Freis_teller_ingwer.png 1040w" class="lazyloadSrcset"> </div>
+<div class="text-center" style="z-index: 1">
+<h2 class="nh1-md">Werde Rezeptautor<br> bei Reishunger</h2>
+<p class="nh3" style="max-width: 480px; margin: 0 auto">Teile mit uns deine Lieblingsrezepte und inspiriere andere zum Nachkochen!</p>
+<a href="https://www.reishunger.de/werde-rezeptautor" class="margin-md nbtn nbtn-magenta">Jetzt Rezeptautor werden <i class="fa fa-chevron-right"></i></a>
+</div>
+<div>
+<img alt="Curry Bowl" sizes="(min-width: 1200px ) 270px, (min-width: 430px ) 400px, calc(100vw - 30px)" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/asset/218/recipes%2Fcurry_bowl_frei.png 270w, https://www.reishunger.de/asset/219/recipes%2Fcurry_bowl_frei.png 335w, https://www.reishunger.de/asset/220/recipes%2Fcurry_bowl_frei.png 400w, https://www.reishunger.de/asset/221/recipes%2Fcurry_bowl_frei.png 540w, https://www.reishunger.de/asset/222/recipes%2Fcurry_bowl_frei.png 670w, https://www.reishunger.de/asset/223/recipes%2Fcurry_bowl_frei.png 800w" class="lazyloadSrcset"> </div>
+</div>
+</div>
+</section>
+<section class="nsection nbg-white">
+<div id="recipe-products">
+<div>
+<div class="ncontainer">
+<h2 class="nh3" style="font-size: 21px">Gekocht mit</h2>
+</div>
+<div class="tileys tileys-6">
+<a href="https://www.reishunger.de/produkt/20/basmati-reis" class="tiley">
+<div class="tileybox">
+<img alt="Produktbild von " sizes="(min-width: 418px ) 135px, calc(50vw - 30px)" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/upload/179/7531/produktbild-von.jpg 135w, https://www.reishunger.de/upload/180/7531/produktbild-von.jpg 270w" class=" lazyloadSrcset"> <div class="tileybar">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: flex-start; height: 44px; background: #fff;border-radius: 2px;line-height: 1.1; padding: 5px">
+<div class="nprice"><em class="nprice-prefix">Ab</em> 5,29 <em>€</em></div>
+<span class="npriceperweight">
+<span>8,82 <em>€</em></span>
+<span class="slash">/</span>
+<span><em>kg</em></span>
+</span>
+</div>
+ <button class="nbtn nbtn-green" overlay-toggle="quickadd" overlay-async-url="https://www.reishunger.de/api/quickadd/20" quickadd>
+<i class="fa fa-cart-plus"></i>
+</button>
+</div>
+</div>
+<p class="tileytitle">Basmati Reis</p>
+</a>
+<a href="https://www.reishunger.de/produkt/1526/erdnussoel" class="tiley">
+<div class="tileybox">
+<img alt="Produktbild von " sizes="(min-width: 418px ) 135px, calc(50vw - 30px)" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/upload/179/18857/produktbild-von.jpg 135w, https://www.reishunger.de/upload/180/18857/produktbild-von.jpg 270w" class=" lazyloadSrcset"> <div class="tileybar">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: flex-start; height: 44px; background: #fff;border-radius: 2px;line-height: 1.1; padding: 5px">
+<div class="nprice"><em class="nprice-prefix">Ab</em> 8,49 <em>€</em></div>
+<span class="npriceperweight">
+<span>16,98 <em>€</em></span>
+<span class="slash">/</span>
+<span><em>L</em></span>
+</span>
+</div>
+<button class="nbtn nbtn-green" overlay-toggle="quickadd" overlay-async-url="https://www.reishunger.de/api/quickadd/1526" quickadd>
+<i class="fa fa-cart-plus"></i>
+</button>
+</div>
+</div>
+<p class="tileytitle">Erdnussöl</p>
+</a>
+<a href="https://www.reishunger.de/produkt/414/kokosmilch" class="tiley">
+<div class="tileybox">
+<img alt="Produktbild von " sizes="(min-width: 418px ) 135px, calc(50vw - 30px)" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/upload/179/15193/produktbild-von.jpg 135w, https://www.reishunger.de/upload/180/15193/produktbild-von.jpg 270w" class="filter-grey lazyloadSrcset"> <div class="tileybar">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: flex-start; height: 44px; background: #fff;border-radius: 2px;line-height: 1.1; padding: 5px">
+<div class="nprice"><em class="nprice-prefix">Ab</em> 1,69 <em>€</em></div>
+<span class="npriceperweight">
+<span>6,76 <em>€</em></span>
+<span class="slash">/</span>
+<span><em>L</em></span>
+</span>
+</div>
+<button class="nbtn nbtn-grey-outline" disabled>
+<i class="fa fa-cart-plus"></i>
+</button>
+</div>
+<div class="nlabel nlabel-white">Ausverkauft</div>
+</div>
+<p class="tileytitle">Kokosmilch</p>
+</a>
+<a href="https://www.reishunger.de/produkt/1415/rote-thai-curry-paste" class="tiley">
+<div class="tileybox">
+<img alt="Produktbild von " sizes="(min-width: 418px ) 135px, calc(50vw - 30px)" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/upload/179/19701/produktbild-von.jpg 135w, https://www.reishunger.de/upload/180/19701/produktbild-von.jpg 270w" class=" lazyloadSrcset"> <div class="tileybar">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: flex-start; height: 44px; background: #fff;border-radius: 2px;line-height: 1.1; padding: 5px">
+<div class="nprice"><em class="nprice-prefix">Ab</em> 1,49 <em>€</em></div>
+<span class="npriceperweight">
+<span>2,98 <em>€</em></span>
+<span class="slash">/</span>
+<span>100<em> g</em></span>
+</span>
+</div>
+<button class="nbtn nbtn-green" overlay-toggle="quickadd" overlay-async-url="https://www.reishunger.de/api/quickadd/1415" quickadd>
+<i class="fa fa-cart-plus"></i>
+</button>
+</div>
+</div>
+<p class="tileytitle">Rote Thai Curry Paste</p>
+</a>
+<a href="https://www.reishunger.de/produkt/1369/bio-reissirup" class="tiley">
+<div class="tileybox">
+<img alt="Produktbild von " sizes="(min-width: 418px ) 135px, calc(50vw - 30px)" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/upload/179/10234/produktbild-von.jpg 135w, https://www.reishunger.de/upload/180/10234/produktbild-von.jpg 270w" class=" lazyloadSrcset"> <div class="tileybar">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: flex-start; height: 44px; background: #fff;border-radius: 2px;line-height: 1.1; padding: 5px">
+<div class="nprice"><em class="nprice-prefix">Ab</em> 4,99 <em>€</em></div>
+<span class="npriceperweight">
+<span>14,26 <em>€</em></span>
+<span class="slash">/</span>
+<span><em>kg</em></span>
+</span>
+</div>
+<button class="nbtn nbtn-green" overlay-toggle="quickadd" overlay-async-url="https://www.reishunger.de/api/quickadd/1369" quickadd>
+<i class="fa fa-cart-plus"></i>
+</button>
+</div>
+</div>
+<p class="tileytitle">Bio Reissirup</p>
+</a>
+<a href="https://www.reishunger.de/produkt/863/kurkuma" class="tiley">
+<div class="tileybox">
+<img alt="Produktbild von " sizes="(min-width: 418px ) 135px, calc(50vw - 30px)" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/upload/179/16591/produktbild-von.jpg 135w, https://www.reishunger.de/upload/180/16591/produktbild-von.jpg 270w" class=" lazyloadSrcset"> <div class="tileybar">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: flex-start; height: 44px; background: #fff;border-radius: 2px;line-height: 1.1; padding: 5px">
+<div class="nprice"><em class="nprice-prefix">Ab</em> 6,19 <em>€</em></div>
+<span class="npriceperweight">
+<span>6,88 <em>€</em></span>
+<span class="slash">/</span>
+<span>100<em> g</em></span>
+</span>
+ </div>
+<button class="nbtn nbtn-green" overlay-toggle="quickadd" overlay-async-url="https://www.reishunger.de/api/quickadd/863" quickadd>
+<i class="fa fa-cart-plus"></i>
+</button>
+</div>
+</div>
+<p class="tileytitle">Kurkuma</p>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section class="nsection nbg-turquoise ncolor-white">
+<div class="ncontainer text-center">
+<div id="banner-newsletterrecipes">
+<h2 class="nh1">Rezepte per E-Mail erhalten</h2>
+<div id="banner-newsletterrecipes-image">
+<div class="circle circle-eyecatcher nbg-yellow ncolor-brand" style="position: absolute; top: 0; right: 0">
+<span>
+<strong>Gratis</strong>
+<span>Bei Newsletter<br>Anmeldung!</span>
+</span>
+</div>
+<img alt="Gratis bei Newsletter Anmeldung" sizes="290px" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/asset/224/newsletter%2FNewsletter-tanzbild_Jasmin_V2.png 290w, https://www.reishunger.de/asset/225/newsletter%2FNewsletter-tanzbild_Jasmin_V2.png 580w" class="lazyloadSrcset"> </div>
+<ul class="list-icons big text-left">
+<li><i class="fa fa-check ncolor-magenta"></i> Ein Willkommensgeschenk für jede Anmeldung</li>
+<li><i class="fa fa-check ncolor-magenta"></i> Tolle Angebote, Aktionen & Produktneuheiten</li>
+<li><i class="fa fa-check ncolor-magenta"></i> Leckere Rezeptideen aus unserer Reiswelt</li>
+</ul>
+<a href="https://www.reishunger.de/newsletter" class="nbtn nbtn-magenta">Zum Newsletter anmelden <i class="fa fa-envelope"></i></a>
+</div>
+</div>
+<style>
+        #banner-newsletterrecipes {
+            text-align: center;
+        }
+        #banner-newsletterrecipes ul {
+            display: none;
+        }
+        #banner-newsletterrecipes-image {
+            position: relative;
+            max-width: 290px;
+            margin: 0 auto
+        }
+        #banner-newsletterrecipes-image .circle {
+            z-index: 1;
+        }
+        @media  screen and (min-width: 992px) {
+            #banner-newsletterrecipes {
+                position: relative;
+                display: inline-flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 290px;
+                margin-left: 320px;
+                text-align: left;
+                align-items: flex-start;
+            }
+            #banner-newsletterrecipes ul {
+                display: block;
+                margin: 10px 0 20px 0;
+            }
+            #banner-newsletterrecipes-image {
+                position: absolute;
+                top: 0;
+                left: -320px;
+            }
+            #banner-newsletterrecipes-image img {
+                position: relative;
+                left: -50px;
+            }
+        }
+    </style>
+</section>
+<section class="nsection">
+<div class="ncontainer">
+<h2 class="nh2">Mehr Rezepte mit Basmati Reis</h2>
+</div>
+<div class="tiles">
+<div class="tile">
+<a href="https://www.reishunger.de/rezepte/rezept/3020/tajin-teriyaki-reis">
+<div class="tilebar">
+<span class="tiletitle" style="-webkit-box-orient: vertical;margin-top:0">Tajin-Teriyaki Reis</span>
+</div>
+<div class="tilebox">
+<div class="tilegallery">
+<img alt="Tajin-Teriyaki Reis" sizes="(min-width: 1216px ) 376px, (min-width: 960px ) calc(33.33333vw - 30px), (min-width: 640px ) calc(50vw - 30px), (min-width: 495px ) 465px, calc(100vw - 30px)" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/upload/115/19877/tajin-teriyaki-reis.jpg 376w, https://www.reishunger.de/upload/116/19877/tajin-teriyaki-reis.jpg 420w, https://www.reishunger.de/upload/117/19877/tajin-teriyaki-reis.jpg 465w, https://www.reishunger.de/upload/118/19877/tajin-teriyaki-reis.jpg 752w, https://www.reishunger.de/upload/119/19877/tajin-teriyaki-reis.jpg 841w, https://www.reishunger.de/upload/120/19877/tajin-teriyaki-reis.jpg 930w" class="lazyloadSrcset"> </div>
+</div>
+</a>
+<div class="tilebar">
+<div>
+<div style="display: flex">
+<div class="nrating">
+<span class="nrating-stars">
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+</span>
+</div>
+<span style="margin-right: 10px"><i class="fa fa-clock-o"></i> 25 Minuten</span>
+<span><i class="icon-difficulty icon-difficulty-1"></i> Normal</span>
+</div>
+</div>
+</div>
+</div>
+<div class="tile">
+<a href="https://www.reishunger.de/rezepte/rezept/3016/gerostete-kichererbsen-mit-basmati-reis-und-erdnuss-sauce">
+<div class="tilebar">
+<span class="tiletitle" style="-webkit-box-orient: vertical;margin-top:0">Geröstete Kichererbsen mit Basmati Reis und Erdnuss Sauce</span>
+</div>
+<div class="tilebox">
+<div class="tilegallery">
+<img alt="Geröstete Kichererbsen mit Basmati Reis und Erdnuss Sauce" sizes="(min-width: 1216px ) 376px, (min-width: 960px ) calc(33.33333vw - 30px), (min-width: 640px ) calc(50vw - 30px), (min-width: 495px ) 465px, calc(100vw - 30px)" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/upload/115/19868/gerostete-kichererbsen-mit-basmati-reis-und-erdnuss-sauce.jpg 376w, https://www.reishunger.de/upload/116/19868/gerostete-kichererbsen-mit-basmati-reis-und-erdnuss-sauce.jpg 420w, https://www.reishunger.de/upload/117/19868/gerostete-kichererbsen-mit-basmati-reis-und-erdnuss-sauce.jpg 465w, https://www.reishunger.de/upload/118/19868/gerostete-kichererbsen-mit-basmati-reis-und-erdnuss-sauce.jpg 752w, https://www.reishunger.de/upload/119/19868/gerostete-kichererbsen-mit-basmati-reis-und-erdnuss-sauce.jpg 841w, https://www.reishunger.de/upload/120/19868/gerostete-kichererbsen-mit-basmati-reis-und-erdnuss-sauce.jpg 930w" class="lazyloadSrcset"> </div>
+</div>
+</a>
+<div class="tilebar">
+<div>
+<div style="display: flex">
+<div class="nrating">
+<span class="nrating-stars">
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+</span>
+</div>
+<span style="margin-right: 10px"><i class="fa fa-clock-o"></i> 40 Minuten</span>
+<span><i class="icon-difficulty icon-difficulty-1"></i> Normal</span>
+</div>
+</div>
+</div>
+</div>
+<div class="tile">
+<a href="https://www.reishunger.de/rezepte/rezept/3014/djuvec-reis">
+<div class="tilebar">
+<span class="tiletitle" style="-webkit-box-orient: vertical;margin-top:0">Djuvec Reis</span>
+</div>
+<div class="tilebox">
+<div class="tilegallery">
+<img alt="Djuvec Reis" sizes="(min-width: 1216px ) 376px, (min-width: 960px ) calc(33.33333vw - 30px), (min-width: 640px ) calc(50vw - 30px), (min-width: 495px ) 465px, calc(100vw - 30px)" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/upload/115/19865/djuvec-reis.jpg 376w, https://www.reishunger.de/upload/116/19865/djuvec-reis.jpg 420w, https://www.reishunger.de/upload/117/19865/djuvec-reis.jpg 465w, https://www.reishunger.de/upload/118/19865/djuvec-reis.jpg 752w, https://www.reishunger.de/upload/119/19865/djuvec-reis.jpg 841w, https://www.reishunger.de/upload/120/19865/djuvec-reis.jpg 930w" class="lazyloadSrcset"> </div>
+</div>
+</a>
+<div class="tilebar">
+<div>
+<div style="display: flex">
+<div class="nrating">
+<span class="nrating-stars">
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="nrating-count">(1)</span>
+</span>
+</div>
+<span style="margin-right: 10px"><i class="fa fa-clock-o"></i> 30 Minuten</span>
+<span><i class="icon-difficulty icon-difficulty-0"></i> Einfach</span>
+</div>
+</div>
+</div>
+</div>
+<div class="tile">
+<a href="https://www.reishunger.de/rezepte/rezept/3011/wrap-veggie-bowl-mit-basmati-reis">
+<div class="tilebar">
+<span class="tiletitle" style="-webkit-box-orient: vertical;margin-top:0">Wrap Veggie Bowl mit Basmati Reis</span>
+</div>
+<div class="tilebox">
+<div class="tilegallery">
+<img alt="Wrap Veggie Bowl mit Basmati Reis" sizes="(min-width: 1216px ) 376px, (min-width: 960px ) calc(33.33333vw - 30px), (min-width: 640px ) calc(50vw - 30px), (min-width: 495px ) 465px, calc(100vw - 30px)" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/upload/115/19861/wrap-veggie-bowl-mit-basmati-reis.jpg 376w, https://www.reishunger.de/upload/116/19861/wrap-veggie-bowl-mit-basmati-reis.jpg 420w, https://www.reishunger.de/upload/117/19861/wrap-veggie-bowl-mit-basmati-reis.jpg 465w, https://www.reishunger.de/upload/118/19861/wrap-veggie-bowl-mit-basmati-reis.jpg 752w, https://www.reishunger.de/upload/119/19861/wrap-veggie-bowl-mit-basmati-reis.jpg 841w, https://www.reishunger.de/upload/120/19861/wrap-veggie-bowl-mit-basmati-reis.jpg 930w" class="lazyloadSrcset"> </div>
+</div>
+</a>
+<div class="tilebar">
+<div>
+<div style="display: flex">
+<div class="nrating">
+<span class="nrating-stars">
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+</span>
+</div>
+<span style="margin-right: 10px"><i class="fa fa-clock-o"></i> 40 Minuten</span>
+<span><i class="icon-difficulty icon-difficulty-1"></i> Normal</span>
+</div>
+</div>
+</div>
+</div>
+<div class="tile">
+<a href="https://www.reishunger.de/rezepte/rezept/3009/suesskartoffel-enchilada-mit-reis-to-go">
+<div class="tilebar">
+<span class="tiletitle" style="-webkit-box-orient: vertical;margin-top:0">Süßkartoffel-Enchilada mit Reis to go</span>
+</div>
+<div class="tilebox">
+<div class="tilegallery">
+<img alt="Süßkartoffel-Enchilada mit Reis to go" sizes="(min-width: 1216px ) 376px, (min-width: 960px ) calc(33.33333vw - 30px), (min-width: 640px ) calc(50vw - 30px), (min-width: 495px ) 465px, calc(100vw - 30px)" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/upload/115/19790/suesskartoffel-enchilada-mit-reis-to-go.jpg 376w, https://www.reishunger.de/upload/116/19790/suesskartoffel-enchilada-mit-reis-to-go.jpg 420w, https://www.reishunger.de/upload/117/19790/suesskartoffel-enchilada-mit-reis-to-go.jpg 465w, https://www.reishunger.de/upload/118/19790/suesskartoffel-enchilada-mit-reis-to-go.jpg 752w, https://www.reishunger.de/upload/119/19790/suesskartoffel-enchilada-mit-reis-to-go.jpg 841w, https://www.reishunger.de/upload/120/19790/suesskartoffel-enchilada-mit-reis-to-go.jpg 930w" class="lazyloadSrcset"> </div>
+</div>
+</a>
+<div class="tilebar">
+<div>
+<div style="display: flex">
+<div class="nrating">
+<span class="nrating-stars">
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+</span>
+</div>
+<span style="margin-right: 10px"><i class="fa fa-clock-o"></i> 30 Minuten</span>
+<span><i class="icon-difficulty icon-difficulty-1"></i> Normal</span>
+</div>
+</div>
+</div>
+</div>
+<div class="tile">
+<a href="https://www.reishunger.de/rezepte/rezept/2971/butter-tofu-curry">
+<div class="tilebar">
+<span class="tiletitle" style="-webkit-box-orient: vertical;margin-top:0">Butter Tofu Curry</span>
+</div>
+<div class="tilebox">
+<div class="tilegallery">
+<img alt="Butter Tofu Curry" sizes="(min-width: 1216px ) 376px, (min-width: 960px ) calc(33.33333vw - 30px), (min-width: 640px ) calc(50vw - 30px), (min-width: 495px ) 465px, calc(100vw - 30px)" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/upload/115/19652/butter-tofu-curry.jpg 376w, https://www.reishunger.de/upload/116/19652/butter-tofu-curry.jpg 420w, https://www.reishunger.de/upload/117/19652/butter-tofu-curry.jpg 465w, https://www.reishunger.de/upload/118/19652/butter-tofu-curry.jpg 752w, https://www.reishunger.de/upload/119/19652/butter-tofu-curry.jpg 841w, https://www.reishunger.de/upload/120/19652/butter-tofu-curry.jpg 930w" class="lazyloadSrcset"> </div>
+</div>
+</a>
+<div class="tilebar">
+<div>
+<div style="display: flex">
+<div class="nrating">
+<span class="nrating-stars">
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="nrating-count">(1)</span>
+</span>
+</div>
+<span style="margin-right: 10px"><i class="fa fa-clock-o"></i> 30 Minuten</span>
+<span><i class="icon-difficulty icon-difficulty-1"></i> Normal</span>
+</div>
+</div>
+</div>
+</div>
+ <div class="tile  tile-ghost-0"></div>
+</div>
+</section>
+<section id="comments" class="nsection nbg-white">
+<div class="ncontainer">
+<h2 class="nh2">Bewertungen & Kommentare</h2>
+<button class="nbtn nbtn-yellow" overlay-toggle="review-recipe" overlay-async-url="https://www.reishunger.de/api/review/overlay/recipe/3035">
+Rezept bewerten <i class="fa fa-comment"></i>
+</button>
+</div>
+</section>
+<div class="noverlay fade" overlay="recipeprint" Overlay-6042e0f7c143f>
+<div class="nmodal scalein nbg-white text-center" style="padding: 15px; max-width: 500px">
+<h2 class="nh2">Rezept drucken</h2>
+<form action="https://www.reishunger.de/rezepte/rezept/3035/cremiges-erdnuss-curry/print" method="get" class="form">
+<input type="hidden" name="preparation_method" value="">
+<button type="submit" class="nbtn nbtn-yellow" style="width: 100%">Jetzt drucken</button>
+</form>
+</div>
+<button class="nbtn" overlay-toggle="recipeprint"><i class="fa fa-times"></i></button>
+</div>
+<style>
+    .newsletterGewinnspiel .nmodal {
+        height: 100%;
+    }
+
+    .newsletterGewinnspiel .nmodal .row {
+        display: block;
+    }
+
+    .newsletterGewinnspiel .nmodal .imageObj {
+        height: 220px;
+        margin-bottom: 20px;
+    }
+
+    .newsletterGewinnspiel .nmodal .imageObjWrapper {
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .newsletterGewinnspiel .nmodal .imageObj img {
+        position: absolute;
+        bottom: 48px;
+    }
+
+    .newsletterGewinnspiel .nmodal .imageObj .RHheadline {
+        position: absolute;
+        bottom: -20px;
+        text-align: center;
+        padding: 14px 20px 10px;
+        margin-left: -15px;
+        width: 100%;
+        background: #ec761f;
+        color: #FFFFFF;
+    }
+
+    .newsletterGewinnspiel .nmodal .countdownObj {
+        padding-bottom: 15px;
+
+    }
+
+    .newsletterGewinnspiel .nmodal .countdownObj .countdown > span > span:first-child {
+        font-size: 26px;
+    }
+
+    .newsletterGewinnspiel .nmodal .contentText {
+        padding: 10px 15px 0;
+    }
+
+    .newsletterGewinnspiel .nmodal .contentText {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .newsletterGewinnspiel #newsletterForm {
+        padding: 0 15px;
+    }
+
+    .newsletterGewinnspiel #newsletterMailAddress {
+        margin-top: 10px;
+    }
+
+    .newsletterGewinnspiel .lawText {
+        line-height: 1.3rem;
+    }
+
+    .newsletterGewinnspiel #newsletterForm .newsletter-subscribe {
+        background-color: #9cb43c;
+        width: 100%;
+        margin: 10px 0 10px;
+    }
+
+    .newsletterGewinnspiel #newsletterForm .alert {
+        margin: 0;
+    }
+
+    .newsletterGewinnspiel #newsletterNoSubmit {
+        width: 100%;
+        margin-top: 0;
+    }
+    .newsletterGewinnspiel [overlay-toggle].nbtn {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        top: 10px;
+        right: 10px;
+        opacity: 0.8;
+        background: #ffffff;
+        color: #4c3e4c;
+        z-index: 1;
+    }
+
+    @media  screen and (min-width: 360px) {
+        .newsletterGewinnspiel .nmodal .imageObj {
+            height: 255px;
+        }
+
+        .newsletterGewinnspiel .nmodal .imageObj img {
+            bottom: 47px;
+        }
+    }
+
+    @media  screen and (min-width: 400px) {
+        .newsletterGewinnspiel .nmodal .imageObj {
+            height: 270px;
+        }
+
+        .newsletterGewinnspiel .nmodal .imageObj img {
+            bottom: 47px;
+        }
+    }
+
+    @media  screen and (min-width: 480px) {
+        .newsletterGewinnspiel .nmodal {
+            max-width: 480px;
+            height: auto;
+        }
+
+        .newsletterGewinnspiel .nmodal .imageObj {
+            height: 320px;
+        }
+
+        .newsletterGewinnspiel .nmodal .imageObj img {
+            bottom: 47px;
+        }
+    }
+
+    @media  screen and (min-width: 720px) {
+        .newsletterGewinnspiel .nh1 {
+            font-size: 30px;
+        }
+
+        .newsletterGewinnspiel .nmodal .imageObj img {
+            bottom: 62px;
+        }
+    }
+</style>
+<div class="noverlay fade newsletterGewinnspiel" overlay="newsletterGewinnspiel" is-exit-intent Overlay-6042e0f7c1499 overlay-locked>
+<div class="nmodal scalein nbg-white">
+<button class="nbtn close" overlay-toggle="newsletterGewinnspiel"><i class="fa fa-times"></i></button>
+<div class="row">
+<div class="col-xs-12 imageObj">
+<div class="imageObjWrapper">
+<img alt="Gewinne einen Digitalen Reiskocher" sizes="(min-width: 480px ) 480px, 100vw" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/asset/84/contests%2FLifestyle_DRK_Horizontal.jpg 320w, https://www.reishunger.de/asset/226/contests%2FLifestyle_DRK_Horizontal.jpg 400w, https://www.reishunger.de/asset/227/contests%2FLifestyle_DRK_Horizontal.jpg 480w, https://www.reishunger.de/asset/86/contests%2FLifestyle_DRK_Horizontal.jpg 640w, https://www.reishunger.de/asset/87/contests%2FLifestyle_DRK_Horizontal.jpg 800w, https://www.reishunger.de/asset/228/contests%2FLifestyle_DRK_Horizontal.jpg 960w" class="lazyloadSrcset"> </div>
+<span class="RHheadline nbg-yellow"><span class="text-upper nh1">Gewinne einen<br>Digitalen Reiskocher</span></span>
+</div>
+<div class="col-xs-12">
+<div class="contentText">
+<p class="margin-bottom-reset">Melde dich bis zum 18.04.2021 zum Newsletter an und mit etwas Glück gehört der Digitale Reiskocher in der Farbe deiner Wahl schon bald dir!</p>
+</div>
+</div>
+<div class="col-xs-12 contentForm">
+<form action="https://www.reishunger.de/api/newsletter/subscribe" id="newsletterForm" AsyncForm-6042e0f7c2417 role="form" data-msg=".newsletterForm-msg">
+<div style="display: none">Bitte nicht ausfüllen<input type="text" name="name"></div>
+<label class="sr-only" for="newsletterMailAddress">E-Mail-Adresse</label>
+<input type="email" placeholder="E-Mail-Adresse" class="form-control" name="email" id="newsletterMailAddress" required autocomplete>
+<input type="hidden" name="newsletterTag" value="DRK Gewinnspiel 9 Rezeptseiten">
+<div class="newsletterForm-msg container-padding-xs hidden"></div>
+<button type="submit" class="nbtn nbtn-magenta text-upper newsletter-subscribe" id="newsletterSubmit">Jetzt mitmachen</button>
+</form>
+</div>
+</div>
+<div class="col-xs-12">
+<button type="button" class="nbtn nbtn-grey-outline text-upper margin-md" id="newsletterNoSubmit">Ich möchte nix gewinnen</button>
+<p class="lawText"><small>Mit der Anmeldung zum Newsletter willigst du der Verarbeitung deiner Email-Adresse zwecks Newsletterversand zu. Weitere Informationen findest Du in unserer <a href="/datenschutz#7-newsletter" id="newsletterDatenschutzLink">Datenschutzerklärung</a>.</small></p>
+</div>
+</div>
+</div>
+<div AsyncOverlay-6042e0f7c244d class="noverlay fade ncolor-white" overlay="review-recipe" overlay-async overlay-locked review></div>
+<div AsyncOverlay-6042e0f7c244e class="noverlay fade ncolor-white" overlay="review-review" overlay-async overlay-locked review></div>
+<div AsyncOverlay-6042e0f7c244f class="noverlay fade ncolor-white" overlay="review-report" overlay-async overlay-locked review></div>
+</div>
+</main>
+<footer role="contentinfo">
+<div class="nbg-grey-light padding-xl">
+<div class="ncontainer">
+<div class="lists-menu">
+<div>
+<div class="list-menu">
+<div class="nh3" toggle Toggle-6042e0f7e22fa>Reissorten <i class="fa fa-caret-down"></i></div>
+<ul class="list-links">
+<li>
+<a href="https://www.reishunger.de/produkt/386/basmati-reis-bio">
+Basmati Reis </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/produkt/30/jasmin-reis">
+Jasmin Reis </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/produkt/27/risotto-reis-bio">
+Risotto Reis </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/produkt/23/milch-reis-bio">
+Milchreis </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/produkt/496/natur-reis-bio">
+Naturreis </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/produkt/107/roter-reis-bio">
+Roter Reis </a>
+</li>
+</ul>
+</div>
+</div>
+<div>
+<div class="list-menu">
+<div class="nh3" toggle Toggle-6042e0f7e2327>Reiskocher <i class="fa fa-caret-down"></i></div>
+<ul class="list-links">
+<li>
+<a href="https://www.reishunger.de/produkt/1376/digitaler-reishunger-reiskocher">
+Digitaler Reiskocher </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/169/reiskocher-zubehoer">
+Reiskocher Zubehör </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/produkt/1157/reishunger-reiskocher">
+Reishunger Reiskocher </a>
+</li>
+ <li>
+<a href="https://www.reishunger.de/produkt/492/mikrowellen-reiskocher">
+Mikrowellen Reiskocher </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/produkt/58/persischer-reiskocher">
+Persischer Reiskocher </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/reiskocher">
+Reiskocher Vergleich </a>
+</li>
+</ul>
+</div>
+</div>
+<div>
+<div class="list-menu">
+<div class="nh3" toggle Toggle-6042e0f7e2342>Bestseller <i class="fa fa-caret-down"></i></div>
+<ul class="list-links">
+<li>
+<a href="https://www.reishunger.de/kategorie/187/sushi">
+Sushi </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/43/currys-entdecken">
+Currys </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/30/rezeptboxen">
+Rezeptboxen </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/167/spar-sets">
+Spar Sets </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/165/starter-sets">
+Starter Sets </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/10/risottos">
+Blitz Risottos </a>
+</li>
+</ul>
+</div>
+</div>
+ <div>
+<div class="list-menu">
+<div class="nh3" toggle Toggle-6042e0f7e235a>Highlights <i class="fa fa-caret-down"></i></div>
+<ul class="list-links">
+<li>
+<a href="https://www.reishunger.de/kategorie/185/reispasta-entdecken">
+Reisnudeln </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/149/quinoa">
+Quinoa </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/191/reis-gewuerze">
+Reis Gewürze </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/produkt/414/kokosmilch">
+Kokosmilch </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/194/saucen">
+Saucen </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/kategorie/190/curry-pasten">
+Currypasten </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="nbg-white padding-md">
+<div class="ncontainer">
+<ul class="list-icons-only">
+<li>
+<a href="https://instagram.com/reishunger" target=_blank rel="noopener"><i class="fa fa-instagram"></i></a>
+</li>
+<li>
+<a href="https://www.facebook.com/Reishunger" target=_blank rel="noopener"><i class="fa fa-facebook"></i></a>
+</li>
+<li>
+<a href="https://www.youtube.com/user/reishungergmbh" target=_blank rel="noopener"><i class="fa fa-youtube"></i></a>
+</li>
+<li>
+<a href="https://www.pinterest.de/reishunger/" target=_blank rel="noopener"><i class="fa fa-pinterest-square"></i></a>
+</li>
+<li>
+<a href="https://www.reishunger.de/newsletter"><i class="fa fa-envelope"></i></a>
+</li>
+</ul>
+</div>
+</div>
+<div class="nbg-white padding-xl">
+<div class="ncontainer">
+<div class="lists-menu">
+<div>
+<div class="list-menu">
+<div class="nh3" toggle Toggle-6042e0f7e23d8>Reishunger <i class="fa fa-caret-down"></i></div>
+<ul class="list-links">
+<li>
+ <a href="https://www.reishunger.de/widerruf">
+Widerruf </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/agb">
+Nutzungsbedingungen und AGB </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/zahlungundversand">
+Zahlung und Versand </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/datenschutz">
+Datenschutz </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/impressum">
+Impressum </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/jobs">
+Jobs & Karriere </a>
+</li>
+</ul>
+</div>
+</div>
+<div>
+<div class="list-menu">
+<div class="nh3" toggle Toggle-6042e0f7e23f6>Service <i class="fa fa-caret-down"></i></div>
+<ul class="list-links">
+<li>
+<a href="https://www.reishunger.de/hilfe">
+FAQs </a>
+</li>
+<li>
+<a href="https://shop.spreadshirt.de/reishunger" target="_blank" rel="noopener">
+Shirts & Hoodies </a>
+</li>
+<li>
+<a href="https://affiliate.reishunger.de/" target="_blank" rel="noopener">
+Affiliate </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/reisfuerfirmen">
+ Firmengeschenke </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/riesenhunger">
+Gastronomie & Retail </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/wissen">
+Lexikon & Wissen </a>
+</li>
+</ul>
+</div>
+</div>
+<div>
+<div class="list-menu">
+<div class="nh3" toggle Toggle-6042e0f7e240c>Über uns <i class="fa fa-caret-down"></i></div>
+<ul class="list-links">
+<li>
+<a href="https://www.reishunger.de/presse">
+Presseinformationen </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/blog/tag/36/presse">
+Pressespiegel </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/freunde-werben-freunde">
+Freunde werben Freunde </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/cms/article/126/kooperation-mit-reishunger">
+Kooperationen </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/gutscheine-geschenke">
+Gutschein </a>
+</li>
+<li>
+<a href="https://www.reishunger.de/newsletter">
+Newsletter </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="nbg-white text-center" style="padding-bottom: 30px">
+<span>with <i class="fa fa-heart ncolor-red animation-pulse" style="display: inline-block;"></i> from Bremen</span>
+</div>
+<div class="nbg-grey-light" style="padding-bottom: 40px">
+<div class="ncontainer text-center">
+<style>
+    .paymentTrustBar {
+        margin-bottom: 50px;
+    }
+
+    .paymentTrustBar .trustBar-row {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+
+    .paymentTrustBar .trustBar-item {
+        background: #FFFFFF;
+        padding: 2px 5px;
+        margin: 0 5px;
+        min-width: 60px;
+    }
+
+    .paymentTrustBar .trustBar-item a {
+        display: flex;
+    }
+
+    .paymentTrustBar .trustBar-item.dpd {
+        margin-left: 5px;
+    }
+
+    .paymentTrustBar .trustBar-item img,
+    .paymentTrustBar .trustBar-item svg {
+        height: 30px;
+        width: auto;
+    }
+
+    .paymentTrustBar .trustBar-spacer {
+        display: flex;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    @media  screen and (min-width: 370px) {
+
+    }
+
+    @media  screen and (min-width: 600px) {
+        .paymentTrustBar .trustBar-item {
+            min-width: 75px;
+        }
+
+        .paymentTrustBar .trustBar-item img,
+        .paymentTrustBar .trustBar-item svg {
+            height: 40px;
+            width: auto;
+        }
+
+        .paymentTrustBar .trustBar-spacer {
+            display: none;
+        }
+
+        .paymentTrustBar .trustBar-item.dpd {
+            margin-left: 50px;
+        }
+    }
+
+    @media  screen and (max-width: 670px) {
+        .paymentTrustBar .trustBar-item.sofort {
+            display: none;
+        }
+    }
+</style>
+<div class="paymentTrustBar">
+<div class="trustBar-row">
+<div class="trustBar-item">
+
+<a href="https://www.reishunger.de/trustedshops" title="Kundenbewertungen von reishunger.de einsehen">
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="84" viewBox="0 0 112 56"><defs><clipPath id="a"><path d="M0 0h48.2v35H0z" transform="translate(56)" /></clipPath></defs><path fill="#FFF" d="M0 0h112v56H0z" /><path fill="#E5E5E5" d="M51 5h1v34.9h-1z" /><path fill="#E5E5E5" d="M111 0H0v56h1V1h110v55h1V0" /><path fill="#FFDB00" d="M97 46.5V53l-6.3-6.3L1 50v6h110V46" /><path d="M13.6 23.1c-.7 1-1.6 2-3 2-1.3 0-2.1-.9-2.1-2.3 0-2.2 1.7-4.5 4-4.5.8 0 1.9.4 1.9 1.3 0 1.7-2.7 2.3-4 2.7l-.2.8c0 .6.4 1.2 1 1.2.9 0 1.6-.9 2-1.5l.4.3zm-.7-3.7c0-.3-.2-.6-.5-.6-1.1 0-1.7 2.1-2 3 1.1-.4 2.5-1.2 2.5-2.4zm9 3.2h-1.3v-.9h3.6v.9h-1.3v3.8h-1v-3.8zm2.7-.8l1.4-.1c.7 0 1.2 0 1.5.3.3.3.5.6.5 1 0 .6-.4 1-.8 1.2.3.1.5.4.6.9l.4 1.3H27l-.4-1.1c0-.6-.3-.8-.7-.8h-.3v1.9h-1.1v-4.7zm1 2h.5c.5 0 .8-.3.8-.7 0-.4-.3-.6-.8-.7h-.4v1.4zm4-2.1v2.7c0 .8.3 1.2.9 1.2s.9-.4.9-1.2v-2.7h1v2.6c0 1.5-.7 2.2-2 2.2-1.1 0-1.8-.7-1.8-2.2v-2.6h1zm3.6 3.6c.3.1.7.3 1.1.3.5 0 .8-.2.8-.5s-.2-.5-.8-.7c-.8-.2-1.3-.7-1.3-1.4 0-.8.7-1.4 1.8-1.4.5 0 .9.1 1.2.3l-.3.8-1-.2c-.4 0-.6.2-.6.5s.2.4.8.6c.9.3 1.3.8 1.3 1.4 0 .8-.6 1.5-2 1.5-.5 0-1-.2-1.3-.3l.2-.9zm4.4-2.7h-1.2v-.9H40v.9h-1.3v3.8h-1v-3.8zm5.6 1.8h-1.8v1.1h2v.9h-3v-4.7h2.9v.9h-1.8v1h1.7v.8zm.8-2.6l1.5-.1c.9 0 1.4.1 1.9.5.5.3.8.9.8 1.7 0 1-.4 1.6-.8 2-.5.3-1.2.5-2.2.5H44v-4.6zm1.1 3.8h.4c1 0 1.5-.5 1.5-1.6 0-1-.5-1.5-1.4-1.5a2 2 0 0 0-.5 0v3zm-24.3 6c.2.2.6.3 1 .3.6 0 1-.4 1-.9s-.3-.8-1-1c-.6-.3-1-.6-1-1.2s.5-1.1 1.1-1.1h.1c.3 0 .6 0 .9.2l-.1.3c-.3-.2-.5-.2-.8-.2a1 1 0 0 0-1 .7c0 .5.3.8 1 1 .7.3 1 .6 1 1.3s-.4 1.2-1.3 1.2a2 2 0 0 1-1-.3v-.3zm3.5-3.8v1.9h2.4v-2h.3v4.4h-.3v-2.2h-2.4v2.2H24v-4.3h.3zm7.4 2c0 1.6-1 2.3-2 2.3S28 31.3 28 30c0-1.4.8-2.3 2-2.3 1 0 1.8.9 1.8 2.2zm-3.5.2c0 1 .6 1.9 1.6 1.9s1.6-1 1.6-2c0-.9-.5-2-1.6-2-1 0-1.6 1-1.6 2zm4.4-2.2h.9c.4 0 .8 0 1.1.3.2.2.4.5.4.8 0 .4-.1.7-.3.9-.4.3-.8.5-1.3.5h-.5V32h-.3v-4.3zm.3 2.2h.5c.8 0 1.3-.4 1.3-1s-.5-1-1.2-1h-.6v2zm2.9 1.6c.3.2.6.3 1 .3.6 0 1-.4 1-.9s-.3-.8-.9-1c-.7-.3-1.1-.6-1.1-1.2s.5-1.1 1.2-1.1c.3 0 .6 0 .9.2l-.1.3c-.3-.2-.5-.2-.8-.2-.4 0-.8.2-.9.7 0 .5.3.8.9 1 .7.3 1 .6 1 1.3s-.4 1.2-1.3 1.2c-.4 0-.7-.1-1-.3v-.3z" /><path d="M11.5 16.2a5.3 5.3 0 1 1 0 10.6 5.3 5.3 0 0 1 0-10.6m0-2.2C7.4 14 4 17.4 4 21.5S7.4 29 11.5 29s7.5-3.4 7.5-7.5-3.4-7.5-7.5-7.5z" /><path fill="#CCC" d="M60.5 6.5l1.2 2.3 2.6.4-2 1.9.5 2.5-2.3-1.2-2.3 1.2.4-2.5-1.9-1.9 2.6-.3m11.2-2.4l1.2 2.3 2.6.4-2 1.9.5 2.5-2.3-1.2-2.3 1.2.4-2.5-1.8-1.9 2.6-.3m12.1-2.4l1.2 2.3 2.6.4-2 1.9.5 2.5-2.3-1.2-2.3 1.2.4-2.5-1.8-1.9 2.6-.3m11.1-2.4l1.2 2.3 2.6.4-2 1.9.5 2.5-2.3-1.2-2.3 1.2.4-2.5-1.8-1.9 2.6-.3m11.1-2.4l1.2 2.3 2.6.4-2 1.9.5 2.5-2.3-1.2-2.3 1.2.4-2.5-1.8-1.9 2.6-.3" /><path fill="#ffdb00" d="M60.5 6.5l1.2 2.3 2.6.4-2 1.9.5 2.5-2.3-1.2-2.3 1.2.4-2.5-1.9-1.9 2.6-.3m11.2-2.4l1.2 2.3 2.6.4-2 1.9.5 2.5-2.3-1.2-2.3 1.2.4-2.5-1.8-1.9 2.6-.3m12.1-2.4l1.2 2.3 2.6.4-2 1.9.5 2.5-2.3-1.2-2.3 1.2.4-2.5-1.8-1.9 2.6-.3m11.1-2.4l1.2 2.3 2.6.4-2 1.9.5 2.5-2.3-1.2-2.3 1.2.4-2.5-1.8-1.9 2.6-.3m11.1-2.4l1.2 2.4 2.6.3-2 1.9.5 2.6-2.3-1.3-2.3 1.3.4-2.6-1.8-1.8 2.6-.4" clip-path="url(#a)" /><text font-family="arial,sans-serif" font-size="9" transform="translate(64 27.4)">Sehr gut</text><path fill="none" d="M55 31h52v9H55z" /><text font-family="arial,sans-serif" font-size="9" transform="translate(62.2 37.4)">4.82/5.00</text></svg>
+</a>
+</div>
+<div class="trustBar-item">
+<img sizes="160px" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/asset/113/trustBar%2FTuevSued%402x.png 160w, https://www.reishunger.de/asset/114/trustBar%2FTuevSued%402x.png 320w" class="lazyloadSrcset"> </div>
+<div class="trustBar-item">
+<img sizes="160px" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/asset/113/trustBar%2FBio%402x.png 160w, https://www.reishunger.de/asset/114/trustBar%2FBio%402x.png 320w" class="lazyloadSrcset"> </div>
+<div class="trustBar-item">
+<img sizes="160px" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/asset/113/trustBar%2FBio_EU%402x.png 160w, https://www.reishunger.de/asset/114/trustBar%2FBio_EU%402x.png 320w" class="lazyloadSrcset"> </div>
+</div>
+<div class="trustBar-row">
+<div class="trustBar-item">
+<img sizes="160px" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/asset/113/trustBar%2FPP_PayPal%402x.png 160w, https://www.reishunger.de/asset/114/trustBar%2FPP_PayPal%402x.png 320w" class="lazyloadSrcset"> </div>
+<div class="trustBar-item">
+<img sizes="160px" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/asset/113/trustBar%2FKlarna%402x.png 160w, https://www.reishunger.de/asset/114/trustBar%2FKlarna%402x.png 320w" class="lazyloadSrcset"> </div>
+<div class="trustBar-item">
+<img sizes="160px" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/asset/113/trustBar%2FVisa%402x.png 160w, https://www.reishunger.de/asset/114/trustBar%2FVisa%402x.png 320w" class="lazyloadSrcset"> </div>
+<div class="trustBar-item">
+<img sizes="160px" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/asset/113/trustBar%2FMastercard%402x.png 160w, https://www.reishunger.de/asset/114/trustBar%2FMastercard%402x.png 320w" class="lazyloadSrcset"> </div>
+<div class="trustBar-item sofort">
+<img sizes="160px" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/asset/113/trustBar%2FSofort_Ueberweisung%402x.png 160w, https://www.reishunger.de/asset/114/trustBar%2FSofort_Ueberweisung%402x.png 320w" class="lazyloadSrcset"> </div>
+<div class="trustBar-spacer"></div>
+<div class="trustBar-item dpd">
+<img sizes="160px" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/asset/113/trustBar%2Fdpd%402x.png 160w, https://www.reishunger.de/asset/114/trustBar%2Fdpd%402x.png 320w" class="lazyloadSrcset"> </div>
+<div class="trustBar-item">
+<img sizes="160px" srcset="https://www.reishunger.de/assets/img/noimg1w.png?f4585e4dc0a19cd25b84b5992a50bf31 1w" data-srcset="https://www.reishunger.de/asset/113/trustBar%2FDHL-GoGreen%402x.png 160w, https://www.reishunger.de/asset/114/trustBar%2FDHL-GoGreen%402x.png 320w" class="lazyloadSrcset"> </div>
+</div>
+</div>
+<ul class="list-no-style list-inline" style="margin-top: 15px">
+<li class="text-strong" style="display:block;">Wähle dein Land:</li>
+<li><a href="https://www.reishunger.de" class="country-link-de" style="display: inline !important;">Deutschland</a></li>
+<li><a href="https://www.reishunger.com/at" class="country-link-at" style="display: inline !important;">Österreich</a></li>
+<li><a href="https://www.reishunger.com/ch" class="country-link-ch" style="display: inline !important;">Schweiz</a></li>
+</ul>
+<ul class="list-no-style list-inline" style="margin-top: 15px">
+<li><a href="https://www.reishunger.de/datenschutz">Datenschutz</a></li>
+<li><a href="https://www.reishunger.de/impressum">Impressum</a></li>
+</ul>
+<p>Alle Preise sind inkl. MwSt. und zzgl. Versandkosten.</p>
+<p>© Copyright Reishunger 2021</p>
+</div>
+</div>
+</footer>
+<style>
+    #cookie-consent {
+        z-index: 999999999 !important;
+    }
+    .cookie-header-dark {
+        padding-left: 25px;
+    }
+    .cookie-consent-wrapper {
+        padding: 25px;
+    }
+    .cookie-consent-wrapper .flex-container {
+        display: flex;
+    }
+    .cookie-consent-wrapper button {
+        width: 100%;
+    }
+    .cookie-consent-wrapper .flex-container button:first-child {
+        margin-right: 10px;
+    }
+    .cookie-consent-wrapper .flex-container button:last-child {
+        margin-left: 10px;
+    }
+    .cookie-consent-group {
+        margin: 0 -25px;
+    }
+    .cookie-consent-group--head {
+        color: #FFF;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        background: #AAAAAA;
+        cursor: pointer;
+    }
+    .cookie-consent-group--head.active {
+        background: #9CB43C;
+    }
+    .cookie-consent-group--headline {
+        padding: 10px 25px;
+        width: 100%;
+    }
+    .cookie-consent-group--show {
+        padding: 0 5px;
+        border: 1px solid #FFF;
+        cursor: pointer;
+        position: absolute;
+        right: 25px;
+    }
+    .cookie-consent-group--detail {
+        display: none;
+    }
+    .cookie-consent-group--detail.active {
+        display: flex;
+    }
+    .cookie-consent-group--description {
+        margin: 15px 25px 0 25px;
+        text-align: left;
+        width: 100%;
+    }
+    .cookie-consent-group--action {
+        margin: 15px 0;
+    }
+    .cookie-consent-group--provider {
+        display: flex;
+        flex-direction: column;
+        margin: 15px 0;
+    }
+    .cookie-consent-group--provider .break {
+        flex-basis: 100%;
+        height: 0;
+    }
+    .cookie-consent-group--provider > div{
+        flex-grow: 1;
+    }
+
+    @media  screen and (max-width: 720px) {
+        .cookie-consent-wrapper .flex-container {
+            flex-direction: column;
+        }
+        .cookie-consent-wrapper .flex-container button {
+            margin-right: 0 !important;
+            margin-left: 0 !important;
+        }
+        .cookie-consent-wrapper .flex-container button:first-child {
+            margin-bottom: 15px;
+        }
+        .cookie-consent-wrapper .nbtn.nbtn-white {
+            font-size: 15px !important;
+        }
+    }
+</style>
+<div class="noverlay fade" id="cookie-consent">
+</div>
+<div class="noverlay fade" overlay="quickadd" overlay-locked AsyncOverlay-6042e0f7e65a3>
+<div class="nmodal" id="nmodal-quickadd"></div>
+</div>
+<style>
+    #notification-tastybox {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 5px 15px;
+        z-index: 70;
+        font-size: 18px;
+        box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, .15);
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+        transition: transform 0.2s;
+    }
+    #notification-tastybox.active-before {
+        display: flex;
+    }
+    #notification-tastybox.active {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+    @media  screen and (max-width: 730px) {
+        #notification-tastybox > div {
+            flex: 1;
+        }
+    }
+    @media  screen and (max-width: 550px) {
+        #notification-tastybox .seals {
+            display: none;
+        }
+        #notification-tastybox .countdown {
+            width: 100%;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 0 8px;
+        }
+    }
+</style>
+<div id="notification-tastybox" class="nbg-white">
+<div>
+<span style="white-space: nowrap;" class="nh3 text-upper">Tasty Box Aktion</span>
+<span style="white-space: nowrap;">
+<span class="nh3 text-upper ncolor-green">Gratis*</span>
+<span>statt <s>12,99 €</s></span>
+</span>
+</div>
+<div class="seals" style="margin: 5px 10px">
+<span class="seal seal-vegan"></span>
+<span class="seal seal-glutenfree"></span>
+</div>
+<div class="nh2 ncolor-green">
+<span class="countdown nodays nohours" countdown-deleteonfinish="self">
+<span class="days">
+<span countdown-days>00</span>
+<span>Tage</span>
+</span>
+<span class="hours">
+<span countdown-hours>00</span>
+<span>Std</span>
+</span>
+<span class="minutes">
+<span countdown-minutes>00</span>
+<span>Min</span>
+</span>
+<span class="seconds">
+<span countdown-seconds>00</span>
+<span>Sek</span>
+</span>
+</span>
+</div>
+<a class="nbtn nbtn-green nbtn-responsive" style="flex: 1; margin: 5px; max-width: 290px" href="https://www.reishunger.de/lp/kennenlern-deal#addcode"><i class="fa fa-chevron-right"></i><span>Jetzt sichern</span></a>
+</div>
+<div id="trusted-shops-badge" class="trusted-shops-badge" TrustedShopsBadge-6042e0f7eb54b>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 283 120" id="trusted-shops-badge-mobile">
+<rect width="221" height="118" x="61" y="1" fill="#fff" stroke="#E5E5E5" stroke-width="2" rx="8" />
+<path fill="#FFDC0F" d="M135 51l-4 9 8-5h2l7 5-3-9 8-6h-10l-3-8-3 8h-10l8 6zM163 51l-4 9 8-5h2l7 5-3-9 8-6h-10l-3-8-3 8h-10l8 6zM191 51l-4 9 8-5h2l7 5-3-9 8-6h-10l-3-8-3 8h-10l8 6zM219 51l-4 9 8-5h2l7 5-3-9 8-6h-10l-3-8-3 8h-10l8 6zM247 51l-4 9 8-5h2l7 5-3-9 8-6h-10l-3-8-3 8h-10l8 6z" />
+<path fill="#CCC" d="M261 48l4-3h-4v3z" />
+<path fill="#FFDC0F" d="M59 120h215c5 0 9-4 9-9V96h-22v20l-24-19-160 6-18 17z" />
+<circle cx="60" cy="60" r="60" fill="#FFDC0F" />
+<image href="https://www.reishunger.de/assets/img/trustedshops_180x180.png?40361f9aaf585cc7631fe2b4dc25caf5" width="94" height="94" x="13" y="13" />
+<text fill="#000">
+<tspan x="197" y="28">Sehr gut</tspan>
+</text>
+<text fill="#000">
+<tspan x="197" y="87">4.82/5.00</tspan>
+</text>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 184 336" id="trusted-shops-badge-desktop">
+<path fill="#fff" d="M0 0h184v336H0z" />
+<image href="https://www.reishunger.de/assets/img/trustedshops_180x180.png?40361f9aaf585cc7631fe2b4dc25caf5" width="100" height="100" x="42" y="20" />
+<path fill="#ffdc0f" d="M0 318v18h184v-26l-40.5 1.8V330l-21-17.3z" />
+<path stroke="#e5e5e5" stroke-width="2" d="M10 199h164" />
+<g fill="#ffdc0f">
+<path d="M144.5 223l-3.5 8 7-5h2l6.5 5-3-8 7.5-6h-9l-3-7.5-3 7.5h-9zM116.5 223l-3.5 8 7-5h2l6.5 5-3-8 7.5-6h-9l-3-7.5-3 7.5h-9zM87.5 223l-3.5 8 7-5h2l6.5 5-3-8 7.5-6h-9l-3-7.5-3 7.5h-9zM59.5 223l-3.5 8 7-5h2l6.5 5-3-8 7.5-6h-9l-3-7.5-3 7.5h-9zM30.5 223l-3.5 8 7-5h2l6.5 5-3-8 7.5-6h-9l-3-7.5-3 7.5h-9z" />
+</g>
+<circle cx="150" cy="12" r="2" fill="#c4c4c4" />
+<circle cx="158" cy="12" r="2" fill="#c4c4c4" />
+<circle cx="166" cy="12" r="2" fill="#c4c4c4" />
+<text fill="#000">
+<tspan x="92" y="153">Käuferschutz</tspan>
+<tspan x="92" y="181">inklusive</tspan>
+</text>
+<text fill="#000">
+<tspan x="92" y="264">Sehr gut</tspan>
+<tspan x="92" y="292">4.82/5.00</tspan>
+</text>
+</svg>
+</div>
+<span ssb-meta='{"trustedshop":{"count":23317,"value":4.8200000000000003}}'></span>
+<script>dataLayer.push({event: 'NonECRP', PageType: 'NonECRP'})</script>
+<script>
+    window.rh = {
+        domain_identifier: 'web',
+        shopDomain: 'https://www.reishunger.de/',
+        cdnDomain: 'https://www.reishunger.de/',
+        cookieDomain: '',
+        domain: 'https://www.reishunger.de//',
+
+        algolia: {
+            appid: 'RIJLNKB72D',
+            apiKey: '46346b3d19e23c55c7b923eaec186267',
+        },
+        currency: 'EUR',
+        locale: 'de-DE',
+        slug: 'de',
+        trusted_shop_id: 'X63AC85DEAE651A7B35474A86416AB731',
+
+        articleInfo: {},
+        ComponentClasses: {},
+        components: {"RecipePage":["RecipePage-6042e0f78e04f"],"Sticky":["Sticky-6042e0f78e063","Sticky-6042e0f7dab8b"],"SlideshowDefault":["SlideshowDefault-6042e0f790ed5"],"OpenSocialPopup":["OpenSocialPopup-6042e0f793ed0"],"ReadMore":["ReadMore-6042e0f7947fd"],"Overlay":["Overlay-6042e0f7c143f","Overlay-6042e0f7c1499","Overlay-6042e0f7dadb9","Overlay-6042e0f7dc3ec","Overlay-6042e0f7dd054","Overlay-6042e0f7dedfb","Overlay-6042e0f7df915","Overlay-6042e0f7e048b","Overlay-6042e0f7e10cf","Overlay-6042e0f7e2163"],"AsyncForm":["AsyncForm-6042e0f7c2417"],"AsyncOverlay":["AsyncOverlay-6042e0f7c244d","AsyncOverlay-6042e0f7c244e","AsyncOverlay-6042e0f7c244f","AsyncOverlay-6042e0f7e65a3"],"Toggle":["Toggle-6042e0f7d99da","Toggle-6042e0f7e22fa","Toggle-6042e0f7e2327","Toggle-6042e0f7e2342","Toggle-6042e0f7e235a","Toggle-6042e0f7e23d8","Toggle-6042e0f7e23f6","Toggle-6042e0f7e240c"],"NavUser":["NavUser-6042e0f7dace5"],"Cart":["Cart-6042e0f7dace7"],"DesktopMenu":["DesktopMenu-6042e0f7dad27"],"Scrollbar":["Scrollbar-6042e0f7e21ba"],"TrustedShopsBadge":["TrustedShopsBadge-6042e0f7eb54b"]}    }
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
+<script type="module">
+    </script>
+<script src="https://www.reishunger.de/assets/js/compiled/rezepte.js?d525e0cfa40cc733c9a6db4b201166ff"></script>
+<script src="https://www.reishunger.de/assets/js/compiled/sync.js?65004da21f335d7378039c64c692d0c8"></script>
+<script src="https://www.reishunger.de/assets/js/compiled/shop.js?c4ca26bbc84a3fc9ad83bd26b238a3ab"></script>
+<script src="https://shopshop.reishunger.de/v1/js/core.reishunger.js" async></script>
+<script>
+    {
+        document.getElementById('searchrecipe').addEventListener('click', (event) => {
+            event.preventDefault()
+            rhSearch.redirectType = 'recipes'
+            rhSearch.open()
+        })
+    }
+    </script>
+<script async>document.addEventListener('DOMContentLoaded', () => setTimeout(() => window.dispatchEvent(new CustomEvent('rhReady'))))</script>
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "https://www.reishunger.de/",
+        "name": "Reishunger",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.reishunger.de/suche/all/{search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Reishunger",
+        "url": "https://www.reishunger.de/",
+        "logo": "https://www.reishunger.de/asset/logo-hor.svg",
+        "contactPoint": [
+            {
+                "@type": "ContactPoint",
+                "telephone": "+49-421-2080-2491",
+                "contactType": "customer service"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.82",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": "23317"
+        }
+    }
+</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":0,"item":{"@type":"Thing","name":"Rezepte","@id":"https:\/\/www.reishunger.de\/rezepte"}}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Recipe","name":"Cremiges Erdnuss-Curry","image":{"@type":"ImageObject","url":"https:\/\/www.reishunger.de\/upload\/123\/19944\/cremiges-erdnuss-curry.jpg","width":1200,"height":630},"aggregateRating":{"@type":"AggregateRating","ratingValue":0,"ratingCount":0,"worstRating":0,"bestRating":5},"author":{"@type":"Person","name":"Luke"},"totalTime":"PT20M","datePublished":"2021-02-23T08:41:06+00:00","description":"Erdnuss-Curry ist mein absoluter Favorit unter den Currys. Die Soße ist super cremig und vollmundig und der Erdnussgeschmack harmoniert perfekt mit den Kichererbsen und dem Tofu. Curry eignet sich auch sehr gut zum Vorbereiten und kann mit jeder Gemüsesorte ergänzt werden.","keywords":"","recipeIngredient":{"0":"200g Basmati Reis","1":"2 TL Erdnussöl","2":"100g Brokkolli","3":"200g Tofu","4":"1 Dose Kichererbsen","5":"1 rote Zwiebel","6":"eine halbe Mango","7":"1 Stück Ingwer","9":"250ml Kokosmilch","10":"25g Rote Thai Curry Paste","11":"2 TL Bio Reissirup","12":"1-2 Kurkuma","13":"3 EL Wasser","14":"3 TL Erdnussmus","15":"1 Zitrone","16":"ein halber TL Salz","17":"2 TL Reisessig","18":"eine Prise Kreuzkümmel","19":"eine Prise Paprika","20":"eine Prise Limettenpulver"},"recipeYield":2}</script>
+</body>
+</html>
