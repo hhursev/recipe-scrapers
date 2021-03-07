@@ -181,6 +181,7 @@ Scrapers available for:
 - `https://steamykitchen.com/ <https://steamykitchen.com>`_
 - `https://streetkitchen.hu/ <https://streetkitchen.hu>`_
 - `https://sunbasket.com/ <https://sunbasket.com>`_
+- `https://sweetcsdesigns.com/ <https://www.sweetcsdesigns.com/>`_
 - `https://sweetpeasandsaffron.com/ <https://sweetpeasandsaffron.com/>`_
 - `https://tasteofhome.com <https://tasteofhome.com>`_
 - `https://tastesoflizzyt.com <https://tastesoflizzyt.com>`_
