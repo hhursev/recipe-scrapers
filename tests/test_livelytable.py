@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.livelytable import LivelyTable
+from tests import ScraperTest
 
 
 class TestLivelyTableScraper(ScraperTest):

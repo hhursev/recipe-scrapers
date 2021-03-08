@@ -1,6 +1,5 @@
-import logging
 import functools
-
+import logging
 
 ON_EXCEPTION_RETURN_VALUES = {
     "title": "",

@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.minimalistbaker import Minimalistbaker
+from tests import ScraperTest
 
 
 class TestMinimalistbakerScraper(ScraperTest):

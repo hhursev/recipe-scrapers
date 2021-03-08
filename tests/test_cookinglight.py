@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.cookinglight import CookingLight
+from tests import ScraperTest
 
 
 class TestCookingLight(ScraperTest):
@@ -24,8 +23,7 @@ class TestCookingLight(ScraperTest):
 
     def test_title(self):
         self.assertEqual(
-            self.harvester_class.title(),
-            "Avocado, Black Bean, and Charred Tomato Bowl",
+            self.harvester_class.title(), "Avocado, Black Bean, and Charred Tomato Bowl"
         )
 
     def test_total_time(self):

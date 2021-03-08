@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.myrecipes import MyRecipes
+from tests import ScraperTest
 
 
 class TestMyRecipesScraper(ScraperTest):

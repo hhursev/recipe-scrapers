@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.delish import Delish
+from tests import ScraperTest
 
 
 class TestDelishScraper(ScraperTest):

@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.justbento import JustBento
+from tests import ScraperTest
 
 
 class TestJustBentoScraper(ScraperTest):

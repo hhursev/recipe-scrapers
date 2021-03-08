@@ -1,5 +1,6 @@
-from ._abstract import AbstractScraper
 import re
+
+from ._abstract import AbstractScraper
 
 
 class OneHundredOneCookBooks(AbstractScraper):

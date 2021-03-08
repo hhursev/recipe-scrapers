@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.popsugar import PopSugar
+from tests import ScraperTest
 
 
 class TestPopSugarScraper(ScraperTest):

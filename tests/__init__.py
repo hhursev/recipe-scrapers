@@ -1,5 +1,6 @@
-import pytest
 import unittest
+
+import pytest
 
 
 class ScraperTest(unittest.TestCase):

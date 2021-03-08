@@ -1,5 +1,6 @@
-from ._abstract import AbstractScraper
 from bs4 import BeautifulSoup
+
+from ._abstract import AbstractScraper
 
 
 class BBCGoodFood(AbstractScraper):

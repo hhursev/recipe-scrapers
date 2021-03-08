@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.nihhealthyeating import NIHHealthyEating
+from tests import ScraperTest
 
 # test recipe's URL
 # https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?linkId=17&cId=10&rId=247

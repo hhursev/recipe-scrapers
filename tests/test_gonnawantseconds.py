@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.gonnawantseconds import GonnaWantSeconds
+from tests import ScraperTest
 
 
 class TestGonnaWantSeconds(ScraperTest):

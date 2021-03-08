@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import normalize_string, get_yields
+from ._utils import get_yields, normalize_string
 
 
 class Yummly(AbstractScraper):

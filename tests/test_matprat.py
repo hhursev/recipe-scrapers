@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.matprat import Matprat
+from tests import ScraperTest
 
 
 class TestMatprat(ScraperTest):

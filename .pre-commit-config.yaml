@@ -5,10 +5,6 @@ repos:
     -   id: check-yaml
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
--   repo: https://github.com/psf/black
-    rev: 19.3b0
-    hooks:
-    - id: black
 -   repo: https://gitlab.com/pycqa/flake8.git
     rev: 3.8.3
     hooks:
@@ -18,3 +14,8 @@ repos:
     rev: 5.7.0
     hooks:
     - id: isort
+      args: ["--profile", "black", "--filter-files"]
+-   repo: https://github.com/psf/black
+    rev: 19.3b0
+    hooks:
+    - id: black

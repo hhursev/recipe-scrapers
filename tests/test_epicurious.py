@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.epicurious import Epicurious
+from tests import ScraperTest
 
 
 class TestEpicurious(ScraperTest):

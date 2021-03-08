@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.yummly import Yummly
+from tests import ScraperTest
 
 
 class TestYummlyScraper(ScraperTest):

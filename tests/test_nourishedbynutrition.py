@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.nourishedbynutrition import NourishedByNutrition
+from tests import ScraperTest
 
 
 class TestNourishedByNutritionScraper(ScraperTest):
