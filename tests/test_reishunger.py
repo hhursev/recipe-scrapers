@@ -10,55 +10,48 @@ class TestReishungerScraper(ScraperTest):
         self.assertEqual("reishunger.de", self.harvester_class.host())
 
     def test_author(self):
-        self.assertEqual("Luke", self.harvester_class.author())
+        self.assertEqual("pommesherz", self.harvester_class.author())
 
     def test_title(self):
-        self.assertEqual("Cremiges Erdnuss-Curry", self.harvester_class.title())
+        self.assertEqual("Crispy Tofu Bowl", self.harvester_class.title())
 
     def test_total_time(self):
-        self.assertEqual(20, self.harvester_class.total_time())
+        self.assertEqual(60, self.harvester_class.total_time())
 
     def test_yields(self):
         self.assertEqual("2 serving(s)", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
-            "https://www.reishunger.de/upload/123/19944/cremiges-erdnuss-curry.jpg",
+            "https://www.reishunger.de/upload/123/17835/crispy-tofu-bowl.jpg",
             self.harvester_class.image(),
         )
 
     def test_ingredients(self):
         self.assertEqual(
             [
-                "200g Basmati Reis",
-                "2 TL Erdnussöl",
-                "100g Brokkolli",
-                "200g Tofu",
-                "1 Dose Kichererbsen",
-                "1 rote Zwiebel",
-                "eine halbe Mango",
-                "1 Stück Ingwer",
-                "250ml Kokosmilch",
-                "25g Rote Thai Curry Paste",
-                "2 TL Bio Reissirup",
-                "1-2 Kurkuma",
-                "3 EL Wasser",
-                "3 TL Erdnussmus",
-                "1 Zitrone",
-                "ein halber TL Salz",
-                "2 TL Reisessig",
-                "eine Prise Kreuzkümmel",
-                "eine Prise Paprika",
-                "eine Prise Limettenpulver",
+                "200 gr Bio Basmati Reis",
+                "50 ml Erdnuss Sauce",
+                "200 gr Tofu",
+                "etwas Paniermehl",
+                "etwas Mehl",
+                "1 Ei",
+                "100 gr Edamame",
+                "1 Möhre",
+                "1/4 Rotkohl",
+                "50 gr Zuckerschoten",
+                "5 Maiskölbchen",
+                "30 gr Sprossen",
+                "eine Handvoll Cashew Kerne",
             ],
             self.harvester_class.ingredients(),
         )
 
     def test_instructions(self):
         self.assertEqual(
-            "Den Reis waschen und kochen.\nDas Öl in die Pfanne geben und erhitzen. Die Zwiebel, den Ingwer (ca. 1 cm großes Stück), den Tofu und den Brokkoli kleinschneiden. Die Kichererbsen abgießen.\nZwiebel, den Ingwer und den Tofu in die Pfanne geben und für 3-4 Minuten auf mittlerer Hitze anbraten. Den Brokkoli und die Kichererbsen hinzugeben, alles gut verrühren und alles weitere 4-5 Minuten anbraten.\nDie Mango in Würfel schneiden. Alle Zutaten für die Soße vermischen und zusammen mit der Mango in die Pfanne geben. Auf niedriger Hitze 3-4 Minuten köcheln lassen.",
+            "Reis nach Anleitung im Digitalen Reiskocher oder Kochtopf kochen.\nGemüse schneiden und ca. 5 min blanchieren.\nDen Tofu in Stücke schneiden und in Mehl Ei und Paniermehl wälzen und kurz von allen Seiten anbraten.\nCashew Kerne in einer Pfanne kurz anrösten.\nDie Sauce erwärmen und den Tofu auf einen Spieß ziehen (optimal).\nAlles schön anrichten und mit den Sprossen toppen. Guten Reishunger! :-)",
             self.harvester_class.instructions(),
         )
 
     def test_ratings(self):
-        self.assertEqual(None, self.harvester_class.ratings())
+        self.assertEqual(4, self.harvester_class.ratings())

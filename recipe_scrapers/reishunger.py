@@ -23,10 +23,7 @@ class Reishunger(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        # For some reason it uses a dict with index: ingredient
-        # values instead of a list
-        data = self.schema.data.get("recipeIngredient")
-        return [normalize_string(v) for v in data.values()]
+        return self.schema.ingredients()
 
     def instructions(self):
         result = self.soup.find("section", {"class": "recipe-preparation"})
@@ -37,5 +34,11 @@ class Reishunger(AbstractScraper):
         return result
 
     def ratings(self):
-        # I cannot see a rating on the page.
-        return None
+        block = self.soup.find("div", {"id": "recipe-header"}).find(
+            "div", {"class": "nrating"}
+        )
+        if block:
+            cnt = len(block.findAll("span", {"class": "fa-star"}))
+            print(cnt)
+            return cnt
+        return block
