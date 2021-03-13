@@ -23,7 +23,11 @@ class TestCookstrScraper(ScraperTest):
 
     def test_total_yields(self):
         self.harvester_class.exception_handling = True
-        self.assertEqual("", self.harvester_class.yields())
+        self.assertEqual(None, self.harvester_class.yields())
+
+    def test_total_yields_raises_exception(self):
+        with self.assertRaises(Exception):
+            self.assertEqual(None, self.harvester_class.yields())
 
     def test_ingredients(self):
         self.assertCountEqual(

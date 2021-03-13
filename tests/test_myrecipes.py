@@ -5,7 +5,6 @@ from tests import ScraperTest
 class TestMyRecipesScraper(ScraperTest):
 
     scraper_class = MyRecipes
-    scraper_options = {"exception_handling": True}
 
     def test_host(self):
         self.assertEqual("myrecipes.com", self.harvester_class.host())
@@ -52,7 +51,13 @@ class TestMyRecipesScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(-1, self.harvester_class.ratings())
+        self.harvester_class.exception_handling = True
+        self.assertEqual(None, self.harvester_class.ratings())
+
+    def test_ratings_raises_exception(self):
+        self.harvester_class.exception_handling = False
+        with self.assertRaises(Exception):
+            self.assertEqual(None, self.harvester_class.yields())
 
 
 # https://www.myrecipes.com/recipe/cacio-e-pepe

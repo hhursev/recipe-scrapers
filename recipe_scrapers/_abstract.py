@@ -6,8 +6,7 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-from ._decorators import Decorators
-from ._exception_handling import ExceptionHandlingMetaclass
+from ._plugins import PluginsRunner
 from ._schemaorg import SchemaOrg
 
 # some sites close their content for 'bots', so user-agent must be supplied
@@ -16,7 +15,7 @@ HEADERS = {
 }
 
 
-class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
+class AbstractScraper(metaclass=PluginsRunner):
     def __init__(
         self,
         url,
@@ -61,32 +60,23 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
             return urljoin(self.url, canonical_link["href"])
         return self.url
 
-    @Decorators.normalize_string_output
-    @Decorators.schema_org_priority
     def title(self) -> Optional[str]:
         raise NotImplementedError("This should be implemented.")
 
-    @Decorators.schema_org_priority
     def total_time(self) -> Optional[int]:
         """ total time it takes to preparate the recipe in minutes """
         raise NotImplementedError("This should be implemented.")
 
-    @Decorators.schema_org_priority
     def yields(self) -> Optional[int]:
         """ The number of servings or items in the recipe """
         raise NotImplementedError("This should be implemented.")
 
-    @Decorators.schema_org_priority
-    @Decorators.og_image_get
     def image(self) -> Optional[str]:
         raise NotImplementedError("This should be implemented.")
 
-    @Decorators.schema_org_priority
     def nutrients(self) -> Optional[Dict[str, Any]]:
         raise NotImplementedError("This should be implemented.")
 
-    @Decorators.bcp47_validate
-    @Decorators.schema_org_priority
     def language(self) -> Optional[str]:
         """
         Human language the recipe is written in.
@@ -122,19 +112,15 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
         # Return the first candidate language
         return candidate_languages.popitem(last=False)[0]
 
-    @Decorators.schema_org_priority
     def ingredients(self) -> Optional[List[str]]:
         raise NotImplementedError("This should be implemented.")
 
-    @Decorators.schema_org_priority
     def instructions(self) -> Optional[str]:
         raise NotImplementedError("This should be implemented.")
 
-    @Decorators.schema_org_priority
     def ratings(self) -> Optional[float]:
         raise NotImplementedError("This should be implemented.")
 
-    @Decorators.schema_org_priority
     def author(self) -> Optional[str]:
         raise NotImplementedError("This should be implemented.")
 

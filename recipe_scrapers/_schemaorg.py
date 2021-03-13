@@ -55,6 +55,13 @@ class SchemaOrg:
 
     def author(self):
         author = self.data.get("author")
+        if (
+            author
+            and isinstance(author, list)
+            and len(author) >= 1
+            and isinstance(author[0], dict)
+        ):
+            author = author[0]
         if author and isinstance(author, dict):
             author = author.get("name")
         return author
@@ -69,9 +76,13 @@ class SchemaOrg:
 
     def yields(self):
         yield_data = self.data.get("recipeYield")
-        if yield_data and isinstance(yield_data, list):
-            yield_data = yield_data[0]
-        recipe_yield = str(yield_data)
+        if yield_data:
+            if isinstance(yield_data, list):
+                yield_data = yield_data[0]
+            recipe_yield = str(yield_data)
+
+        if yield_data is None:
+            raise SchemaOrgException("Yields not found in SchemaOrg")
 
         if len(recipe_yield) <= 3:  # probably just a number. append "servings"
             return recipe_yield + " serving(s)"
@@ -132,7 +143,7 @@ class SchemaOrg:
                     instructions_gist.append(schema_item.get("name"))
             instructions_gist.append(schema_item.get("text"))
         elif schema_item.get("@type") == "HowToSection":
-            instructions_gist.append(schema_item.get("name"))
+            instructions_gist.append(schema_item.get("name") or schema_item.get("Name"))
             for item in schema_item.get("itemListElement"):
                 instructions_gist += self._extract_howto_instructions_text(item)
         return instructions_gist

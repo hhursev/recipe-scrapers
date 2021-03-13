@@ -24,7 +24,12 @@ class TestLeCremeDeLaCrumbScraper(ScraperTest):
         self.assertEqual(35, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("None", self.harvester_class.yields())
+        self.harvester_class.exception_handling = True
+        self.assertEqual(None, self.harvester_class.yields())
+
+    def test_yields_raises_exception(self):
+        with self.assertRaises(Exception):
+            self.assertEqual(None, self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
