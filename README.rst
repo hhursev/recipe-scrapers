@@ -170,6 +170,7 @@ Scrapers available for:
 - `https://rachlmansfield.com/ <https://rachlmansfield.com>`_
 - `https://realsimple.com/ <https://www.realsimple.com>`_
 - `https://recipietineats.com/ <https://www.recipetineats.com/>`_
+- `https://reishunger.de/ <https://www.reishunger.de/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_
 - `https://simplyquinoa.com/ <https://simplyquinoa.com>`_
 - `https://simplyrecipes.com/ <https://simplyrecipes.co>`_
