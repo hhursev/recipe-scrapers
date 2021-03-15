@@ -2,13 +2,15 @@ import functools
 import logging
 
 from .._utils import normalize_string
+from ._interface import PluginInterface
 
 
-class NormalizeStringPlugin:
+class NormalizeStringPlugin(PluginInterface):
     """
     TODO: write docstring
     """
 
+    decorate_hosts = ("*",)
     run_on_methods = ("title",)
 
     @classmethod

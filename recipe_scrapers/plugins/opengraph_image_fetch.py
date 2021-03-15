@@ -1,12 +1,15 @@
 import functools
 import logging
 
+from ._interface import PluginInterface
 
-class OpenGraphImageFetchPlugin:
+
+class OpenGraphImageFetchPlugin(PluginInterface):
     """
     TODO: write docstring
     """
 
+    run_on_hosts = ("*",)
     run_on_methods = ("image",)
 
     @classmethod

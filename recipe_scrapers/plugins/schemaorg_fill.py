@@ -1,14 +1,17 @@
 import functools
 import logging
 
-# from .._schemaorg import SchemaOrgException
+from ._interface import PluginInterface
 
 
-class SchemaOrgFill:
+class SchemaOrgFill(PluginInterface):
     """
     TODO: write docstring
+
+    If data not found in html, auto-try with Schema.org if data available
     """
 
+    run_on_hosts = ("*",)
     run_on_methods = (
         "author",
         "title",

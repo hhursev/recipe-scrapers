@@ -1,6 +1,9 @@
+import os
 import unittest
 
 import pytest
+
+from recipe_scrapers.settings import settings
 
 
 class ScraperTest(unittest.TestCase):
@@ -9,8 +12,10 @@ class ScraperTest(unittest.TestCase):
     test_file_name = None
 
     def setUp(self):
-        options = {"exception_handling": False}
-        options.update(getattr(self, "scraper_options", {}))
+        os.environ[
+            "RECIPE_SCRAPERS_SETTINGS"
+        ] = "tests.test_data.test_settings_module.test_settings"
+        settings.configure()
 
         test_file_name = (
             self.test_file_name
@@ -20,7 +25,7 @@ class ScraperTest(unittest.TestCase):
         with open(
             "tests/test_data/{}.testhtml".format(test_file_name), encoding="utf-8"
         ) as testfile:
-            self.harvester_class = self.scraper_class(testfile, test=True, **options)
+            self.harvester_class = self.scraper_class(testfile)
             canonical_url = self.harvester_class.canonical_url()
             if self.online:
                 if not canonical_url:

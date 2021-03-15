@@ -1,10 +1,4 @@
-from .plugins import (  # SchemaOrgPrioriotyPlugin,
-    Bcp47ValidatePlugin,
-    ExceptionHandlingPlugin,
-    NormalizeStringPlugin,
-    OpenGraphImageFetchPlugin,
-    SchemaOrgFill,
-)
+from recipe_scrapers.settings import settings
 
 
 class PluginsRunner(type):
@@ -12,14 +6,7 @@ class PluginsRunner(type):
     TODO: write docstring
     """
 
-    plugins = (
-        ExceptionHandlingPlugin,
-        NormalizeStringPlugin,
-        OpenGraphImageFetchPlugin,
-        Bcp47ValidatePlugin,
-        SchemaOrgFill,
-        # SchemaOrgPrioriotyPlugin,
-    )
+    plugins = settings.plugins
 
     def __new__(cls, class_name, bases, attributes):
         for key, value in attributes.items():

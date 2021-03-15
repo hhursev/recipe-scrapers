@@ -1,4 +1,7 @@
+import os
+
 from recipe_scrapers.lecremedelacrumb import LeCremeDeLaCrumb
+from recipe_scrapers.settings import settings
 from tests import ScraperTest
 
 
@@ -28,6 +31,9 @@ class TestLeCremeDeLaCrumbScraper(ScraperTest):
         self.assertEqual(None, self.harvester_class.yields())
 
     def test_yields_raises_exception(self):
+        os.environ["RECIPE_SCRAPERS_SETTINGS"] = "recipe_scrapers.settings.default"
+        settings.configure()
+
         with self.assertRaises(Exception):
             self.assertEqual(None, self.harvester_class.yields())
 

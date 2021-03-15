@@ -7,14 +7,11 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
     scraper_class = FarmhouseDelivery
 
     def setUp(self):
-        options = {"exception_handling": False}
-        options.update(getattr(self, "scraper_options", {}))
-
         with open(
             "tests/test_data/{}_1.testhtml".format(self.scraper_class.__name__.lower()),
             encoding="utf-8",
         ) as testfile:
-            self.harvester_class = self.scraper_class(testfile, test=True, **options)
+            self.harvester_class = self.scraper_class(testfile)
 
     def test_host(self):
         self.assertEqual("recipes.farmhousedelivery.com", self.harvester_class.host())

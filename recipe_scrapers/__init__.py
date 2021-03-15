@@ -334,20 +334,18 @@ def harvest(url, **options):
 
 
 def scrape_me(url_path, **options):
-    host_name = (
-        get_host_name(url_path) if not options.get("test", False) else "test_wild_mode"
-    )
+    host_name = get_host_name(url_path)
 
     try:
         scraper = SCRAPERS[host_name]
     except KeyError:
-        if options.get("wild_mode", False):
+        if not options.get("wild_mode", False):
+            raise WebsiteNotImplementedError(host_name)
+        else:
             wild_scraper = SchemaScraperFactory.generate(url_path, **options)
             if not wild_scraper.schema.data:
                 raise NoSchemaFoundInWildMode(url_path)
             return wild_scraper
-        else:
-            raise WebsiteNotImplementedError(host_name)
 
     return scraper(url_path, **options)
 

@@ -2,13 +2,15 @@ import functools
 import logging
 
 from .._schemaorg import SchemaOrgException
+from ._interface import PluginInterface
 
 
-class SchemaOrgPrioriotyPlugin:
+class SchemaOrgPrioriotyPlugin(PluginInterface):
     """
     TODO: write docstring
     """
 
+    run_on_hosts = ("*",)
     run_on_methods = (
         "author",
         "title",

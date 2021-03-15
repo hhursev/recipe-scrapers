@@ -1,3 +1,4 @@
+import inspect
 from collections import OrderedDict
 from json.decoder import JSONDecodeError
 from typing import Any, Dict, List, Optional, Tuple, Union
@@ -6,7 +7,8 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-from ._plugins import PluginsRunner
+from recipe_scrapers.settings import settings
+
 from ._schemaorg import SchemaOrg
 
 # some sites close their content for 'bots', so user-agent must be supplied
@@ -15,30 +17,25 @@ HEADERS = {
 }
 
 
-class AbstractScraper(metaclass=PluginsRunner):
+class AbstractScraper:
     def __init__(
         self,
         url,
-        exception_handling: bool = True,
-        meta_http_equiv: bool = False,
         proxies: Optional[str] = None,  # allows us to specify optional proxy server
-        test: bool = False,
-        timeout: Union[
-            float, Tuple, None
+        timeout: Optional[
+            Union[float, Tuple, None]
         ] = None,  # allows us to specify optional timeout for request
-        wild_mode: bool = False,
+        exception_handling: bool = False,  # to be depricated
     ):
-        if test:  # when testing, we load a file
+        if settings.TEST_MODE:  # when testing, we load a file
             page_data = url.read()
-            url = None
+            url = "https://test.example.com/"
         else:
             page_data = requests.get(
                 url, headers=HEADERS, proxies=proxies, timeout=timeout
             ).content
 
-        self.wild_mode = wild_mode
         self.exception_handling = exception_handling
-        self.meta_http_equiv = meta_http_equiv
         self.soup = BeautifulSoup(page_data, "html.parser")
         self.url = url
 
@@ -48,6 +45,14 @@ class AbstractScraper(metaclass=PluginsRunner):
             self.schema = SchemaOrg(page_data)
         except JSONDecodeError:
             pass
+
+        # attach the plugins as instructed in settings.PLUGINS
+        for name, func in inspect.getmembers(self, inspect.ismethod):
+            current_method = getattr(self.__class__, name)
+            for plugin in reversed(settings.PLUGINS):
+                if plugin.should_run(self.host(), name):
+                    current_method = plugin.run(current_method)
+            setattr(self.__class__, name, current_method)
 
     @classmethod
     def host(cls) -> str:
@@ -97,7 +102,7 @@ class AbstractScraper(metaclass=PluginsRunner):
                     "content": True,
                 },
             )
-            if self.meta_http_equiv
+            if settings.META_HTTP_EQUIV
             else None
         )
         if meta_language:

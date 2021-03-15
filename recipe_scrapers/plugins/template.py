@@ -1,13 +1,15 @@
 import functools
-from typing import Tuple
+
+from recipe_scrapers.plugins._interface import PluginInterface
 
 
-class PluginTemplate:
+class TemplatePlugin(PluginInterface):
     """
     write docstring
     """
 
-    run_on_methods: Tuple = (
+    run_on_hosts = ("*",)
+    run_on_methods = (
         "title",
         # ... others
     )

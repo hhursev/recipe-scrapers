@@ -3,12 +3,15 @@ import logging
 
 from language_tags import tags
 
+from ._interface import PluginInterface
 
-class Bcp47ValidatePlugin:
+
+class Bcp47ValidatePlugin(PluginInterface):
     """
     TODO: write docstring
     """
 
+    run_on_hosts = ("*",)
     run_on_methods = ("language",)
 
     @classmethod
