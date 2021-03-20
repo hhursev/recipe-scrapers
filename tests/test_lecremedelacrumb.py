@@ -24,7 +24,9 @@ class TestLeCremeDeLaCrumbScraper(ScraperTest):
         self.assertEqual(35, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.skipTest(reason="Re-enable when harvester produces expected 'yields' output")
+        self.skipTest(
+            reason="Re-enable when harvester produces expected 'yields' output"
+        )
         self.assertEqual("None", self.harvester_class.yields())
 
     def test_image(self):
