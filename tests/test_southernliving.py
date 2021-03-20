@@ -1,4 +1,7 @@
+import os
+
 from recipe_scrapers._schemaorg import SchemaOrgException
+from recipe_scrapers.settings import settings
 from recipe_scrapers.southernliving import SouthernLiving
 from tests import ScraperTest
 
@@ -65,7 +68,12 @@ class TestSouthernLiving(ScraperTest):
             self.harvester_class.instructions(),
         )
 
-    def test_ratings(self):
+    def test_ratings_exception_handling(self):
+        self.assertEqual(None, self.harvester_class.ratings())
+
+    def test_ratings_raises_exception(self):
+        os.environ["RECIPE_SCRAPERS_SETTINGS"] = "recipe_scrapers.settings.default"
+        settings.configure()
         with self.assertRaises(SchemaOrgException):
             self.assertEqual(None, self.harvester_class.ratings())
 
