@@ -1,3 +1,5 @@
+from typing import List, Optional
+
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
@@ -7,16 +9,16 @@ class HeinzBrasil(AbstractScraper):
     def host(cls):
         return "heinzbrasil.com.br"
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return self.soup.find("h1", {"class": "krRDPrecName"}).get_text()
 
-    def total_time(self):
+    def total_time(self) -> Optional[int]:
         return 0
 
-    def image(self):
+    def image(self) -> Optional[str]:
         return self.soup.find("img", {"class": "krBanImg"})["src"]
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         ingredients = self.soup.findAll("div", {"class": "krRDPIngreListText"})
 
         return [
@@ -26,7 +28,7 @@ class HeinzBrasil(AbstractScraper):
             for ingredient in ingredients
         ]
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         instructions = (
             self.soup.find("div", {"class": "krRecipeMakeItText"})
             .findNext("div", {"class": "class"})

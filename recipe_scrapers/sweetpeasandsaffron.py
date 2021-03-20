@@ -1,3 +1,5 @@
+from typing import List, Optional
+
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
@@ -11,21 +13,21 @@ class SweetPeasAndSaffron(AbstractScraper):
     def host(cls):
         return "sweetpeasandsaffron.com"
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return self.soup.find("h2", {"class": "wprm-recipe-name"}).text
 
-    def total_time(self):
+    def total_time(self) -> Optional[int]:
         return self.soup.find("span", {"class": "wprm-recipe-total_time"}).text
 
-    def yields(self):
+    def yields(self) -> Optional[str]:
         return self.soup.find("span", {"class": "wprm-recipe-servings"}).text
 
-    def image(self):
+    def image(self) -> Optional[str]:
         return self.soup.find(
             "div", {"class": "wprm-recipe-image wprm-block-image-normal"}
         ).find("img")["data-src"]
 
-    def instructions(self):
+    def _instructions_list(self) -> Optional[List[str]]:
         instructions = [
             e.text
             for e in self.soup.find_all(
@@ -34,7 +36,11 @@ class SweetPeasAndSaffron(AbstractScraper):
         ]
         return [normalize_string(instruction) for instruction in instructions]
 
-    def ingredients(self):
+    def instructions(self) -> Optional[str]:
+        data = self._instructions_list()
+        return "\n".join(data) if data else None
+
+    def ingredients(self) -> Optional[List[str]]:
         ingredient_amount = self.soup.find_all(
             "span", {"class": "wprm-recipe-ingredient-amount"}
         )
@@ -50,8 +56,8 @@ class SweetPeasAndSaffron(AbstractScraper):
         ]
         return ingredients
 
-    def ratings(self):
+    def ratings(self) -> Optional[float]:
         return self.soup.find("span", {"class": "wprm-recipe-rating-average"}).text
 
-    def author(self):
+    def author(self) -> Optional[str]:
         return self.soup.find("span", {"class": "wprm-recipe-author"}).text

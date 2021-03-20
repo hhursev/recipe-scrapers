@@ -1,3 +1,5 @@
+from typing import List, Optional
+
 from ._abstract import AbstractScraper
 
 
@@ -6,7 +8,7 @@ class AllRecipes(AbstractScraper):
     def host(cls):
         return "allrecipes.com"
 
-    def author(self):
+    def author(self) -> Optional[str]:
         # NB: In the schema.org 'Recipe' type, the 'author' property is a
         # single-value type, not an ItemList.
         # allrecipes.com seems to render the author property as a list
@@ -17,25 +19,26 @@ class AllRecipes(AbstractScraper):
         # provides a (hopefully temporary!) allrecipes-specific workaround.
         author = self.schema.data.get("author")
         if author and isinstance(author, list) and len(author) == 1:
-            return author[0].get("name")
+            author = author[0].get("name")
+        return author
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return self.schema.title()
 
-    def total_time(self):
+    def total_time(self) -> Optional[int]:
         return self.schema.total_time()
 
-    def yields(self):
+    def yields(self) -> Optional[str]:
         return self.schema.yields()
 
-    def image(self):
+    def image(self) -> Optional[str]:
         return self.schema.image()
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         return self.schema.ingredients()
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         return self.schema.instructions()
 
-    def ratings(self):
+    def ratings(self) -> Optional[float]:
         return self.schema.ratings()

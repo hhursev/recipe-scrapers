@@ -1,5 +1,7 @@
+from typing import List, Optional
+
 from ._abstract import AbstractScraper
-from ._utils import get_yields, normalize_string
+from ._utils import get_minutes, get_yields, normalize_string
 
 
 class Yummly(AbstractScraper):
@@ -7,40 +9,42 @@ class Yummly(AbstractScraper):
     def host(cls):
         return "yummly.com"
 
-    def title(self):
-        return self.soup.find("h1").get_text()
+    def title(self) -> Optional[str]:
+        found = self.soup.find("h1")
+        return found.get_text() if found else None
 
-    def total_time(self):
-        return int(
-            self.soup.findAll("div", {"class": "recipe-summary-item"})[1].span.text
-        )
+    def total_time(self) -> Optional[int]:
+        data = self.soup.findAll("div", {"class": "recipe-summary-item"}, limit=2)
+        return get_minutes(data[1]) if data else None
 
-    def yields(self):
-        return get_yields(self.soup.find("div", {"class": "servings"}).span.text)
+    def yields(self) -> Optional[str]:
+        return get_yields(self.soup.find("div", {"class": "servings"}))
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         ingredients = self.soup.findAll("li", {"class": "IngredientLine"})
 
-        return [
-            " ".join(
-                [
+        return (
+            [
+                " ".join(
                     normalize_string(span.get_text())
                     for span in ingredient.select(
                         """
-                    span[class^=amount],
-                    span[class^=unit],
-                    span[class^=ingredient],
+                        span[class^=amount],
+                        span[class^=unit],
+                        span[class^=ingredient],
                     span[class^=remainder]"""
                     )
-                ]
-            )
-            for ingredient in ingredients
-        ]
+                )
+                for ingredient in ingredients
+            ]
+            if ingredients
+            else None
+        )
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         instructions = self.soup.findAll("li", attrs={"class": "prep-step"})
         return (
-            "\n".join([normalize_string(instr.get_text()) for instr in instructions])
-            if instructions is not None
-            else ""
+            "\n".join(normalize_string(instr.get_text()) for instr in instructions)
+            if instructions
+            else None
         )

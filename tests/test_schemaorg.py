@@ -13,6 +13,14 @@ class TestSchemaOrg(unittest.TestCase):
         for k in keys:
             if k in self.schema.data:
                 del self.schema.data[k]
+        self.assertEqual(self.schema.total_time(), None)
+
+    def test_total_time_with_schema__all_zeros(self):
+        keys = ["totalTime", "cookTime", "prepTime"]
+        for k in keys:
+            self.schema.data[k] = "PT0M"
+        self.assertEqual(self.schema.total_time(), 0)
+        del self.schema.data["totalTime"]
         self.assertEqual(self.schema.total_time(), 0)
 
     def test_graph_schema_without_context(self):

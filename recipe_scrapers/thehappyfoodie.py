@@ -1,3 +1,5 @@
+from typing import List, Optional
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -7,10 +9,10 @@ class TheHappyFoodie(AbstractScraper):
     def host(cls):
         return "thehappyfoodie.co.uk"
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return self.soup.find("h1", {"class": "main-title"}).get_text()
 
-    def total_time(self):
+    def total_time(self) -> Optional[int]:
         return get_minutes(
             self.soup.find("div", {"class": "recipe__data__total-time"})
         ) or sum(
@@ -24,12 +26,12 @@ class TheHappyFoodie(AbstractScraper):
             ]
         )
 
-    def yields(self):
+    def yields(self) -> Optional[str]:
         return get_yields(
             self.soup.find("div", {"class": "recipe__data__yield"}).get_text()
         )
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         ingredients = self.soup.find(
             "table", {"class": "recipe__ingredients-table"}
         ).findAll("tr")
@@ -51,7 +53,7 @@ class TheHappyFoodie(AbstractScraper):
             for amount, name in ingredients
         ]
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         instructions = self.soup.find("div", {"class": "recipe__instructions"}).findAll(
             "p"
         )

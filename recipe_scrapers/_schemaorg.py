@@ -1,5 +1,9 @@
 # IF things in this file continue get messy (I'd say 300+ lines) it may be time to
 # find a package that parses https://schema.org/Recipe properly (or create one ourselves).
+
+from operator import is_not
+from typing import Any, Dict, List, Optional
+
 import extruct
 
 from ._utils import get_minutes, normalize_string
@@ -47,27 +51,34 @@ class SchemaOrg:
                                 self.data = graph_item
                                 return
 
-    def language(self):
+    def language(self) -> Optional[str]:
         return self.data.get("inLanguage") or self.data.get("language")
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return normalize_string(self.data.get("name"))
 
-    def author(self):
+    def author(self) -> Optional[str]:
         author = self.data.get("author")
         if author and isinstance(author, dict):
             author = author.get("name")
         return author
 
-    def total_time(self):
-        total_time = get_minutes(self.data.get("totalTime"))
-        if not total_time:
-            prep_time = get_minutes(self.data.get("prepTime")) or 0
-            cook_time = get_minutes(self.data.get("cookTime")) or 0
-            total_time = prep_time + cook_time
+    def total_time(self) -> Optional[int]:
+        def get_key_and_minutes(k):
+            return get_minutes(self.data.get(k))
+
+        def not_none(x) -> bool:
+            return is_not(x, None)
+
+        total_time = get_key_and_minutes("totalTime")
+        if total_time is None:
+            times: List[int] = list(
+                filter(not_none, map(get_key_and_minutes, ["prepTime", "cookTime"]))
+            )
+            total_time = sum(times) if times else None
         return total_time
 
-    def yields(self):
+    def yields(self) -> Optional[str]:
         yield_data = self.data.get("recipeYield")
         if yield_data and isinstance(yield_data, list):
             yield_data = yield_data[0]
@@ -81,7 +92,7 @@ class SchemaOrg:
 
         return recipe_yield
 
-    def image(self):
+    def image(self) -> Optional[str]:
         image = self.data.get("image")
 
         if image is None:
@@ -101,7 +112,7 @@ class SchemaOrg:
 
         return image
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         ingredients = (
             self.data.get("recipeIngredient") or self.data.get("ingredients") or []
         )
@@ -109,7 +120,7 @@ class SchemaOrg:
             normalize_string(ingredient) for ingredient in ingredients if ingredient
         ]
 
-    def nutrients(self):
+    def nutrients(self) -> Optional[Dict[str, Any]]:
         nutrients = self.data.get("nutrition", {})
         return {
             normalize_string(nutrient): normalize_string(value)
@@ -137,7 +148,7 @@ class SchemaOrg:
                 instructions_gist += self._extract_howto_instructions_text(item)
         return instructions_gist
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         instructions = self.data.get("recipeInstructions") or ""
 
         if isinstance(instructions, list):
@@ -153,7 +164,7 @@ class SchemaOrg:
 
         return instructions
 
-    def ratings(self):
+    def ratings(self) -> Optional[float]:
         ratings = self.data.get("aggregateRating")
         if ratings is None:
             raise SchemaOrgException("No ratings data in SchemaOrg.")
@@ -166,7 +177,7 @@ class SchemaOrg:
 
         return round(float(ratings), 2)
 
-    def cuisine(self):
+    def cuisine(self) -> Optional[str]:
         cuisine = self.data.get("recipeCuisine")
         if isinstance(cuisine, list):
             return ",".join(cuisine)
