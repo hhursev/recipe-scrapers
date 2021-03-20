@@ -51,4 +51,4 @@ class SouthernLiving(AbstractScraper):
             "div",
             attrs={"class": lambda e: e.startswith("recipe-summary") if e else False},
         )
-        return des
+        return normalize_string(des.get_text())

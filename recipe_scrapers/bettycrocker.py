@@ -55,7 +55,5 @@ class BettyCrocker(AbstractScraper):
         )
 
     def ratings(self) -> Optional[float]:
-        r = self.soup.find("span", {"class": "ratingCount"}).get_text()
-        if "\xa0Ratings" in r:
-            r = r.replace("\xa0Ratings", "")
-        return int(r)
+        rating = self.soup.find("meta", {"itemprop": "ratingValue"})["content"]
+        return round(float(rating), 2)

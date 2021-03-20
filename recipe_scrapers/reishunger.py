@@ -39,6 +39,5 @@ class Reishunger(AbstractScraper):
         )
         if block:
             cnt = len(block.findAll("span", {"class": "fa-star"}))
-            print(cnt)
             return cnt
         return block
