@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.template import Template
+from tests import ScraperTest
 
 
 class TestTemplateScraper(ScraperTest):
@@ -11,25 +10,25 @@ class TestTemplateScraper(ScraperTest):
         self.assertEqual("example.com", self.harvester_class.host())
 
     def test_author(self):
-        self.assertEqual("", self.harvester_class.author())
+        self.assertEqual(None, self.harvester_class.author())
 
     def test_title(self):
-        self.assertEqual("", self.harvester_class.title())
+        self.assertEqual(None, self.harvester_class.title())
 
     def test_total_time(self):
-        self.assertEqual(0, self.harvester_class.total_time())
+        self.assertEqual(None, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("", self.harvester_class.yields())
+        self.assertEqual(None, self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEqual("", self.harvester_class.image())
+        self.assertEqual(None, self.harvester_class.image())
 
     def test_ingredients(self):
-        self.assertEqual([], self.harvester_class.ingredients())
+        self.assertEqual(None, self.harvester_class.ingredients())
 
     def test_instructions(self):
-        self.assertEqual("", self.harvester_class.instructions())
+        self.assertEqual(None, self.harvester_class.instructions())
 
     def test_ratings(self):
-        self.assertEqual(0, self.harvester_class.ratings())
+        self.assertEqual(None, self.harvester_class.ratings())

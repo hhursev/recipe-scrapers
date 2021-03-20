@@ -3,6 +3,9 @@
 # Freely released the code to recipe_scraper group
 # March 1st, 2020
 # ==========================================================
+
+from typing import List, Optional
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -12,20 +15,20 @@ class Delish(AbstractScraper):
     def host(cls):
         return "delish.com"
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return normalize_string(self.soup.find("h1").get_text())
 
     # Return total time to complete dish in minutes (includes prep time)
-    def total_time(self):
+    def total_time(self) -> Optional[int]:
         total_time_class = self.soup.find("span", {"class": "total-time-amount"})
         return get_minutes(total_time_class)
 
-    def yields(self):
+    def yields(self) -> Optional[str]:
         yields_class = self.soup.find("span", {"class": "yields-amount"})
 
         return get_yields(yields_class)
 
-    def image(self):
+    def image(self) -> Optional[str]:
         try:
             # Case when image is at the top of the recipe content div
             image = self.soup.find(
@@ -39,11 +42,11 @@ class Delish(AbstractScraper):
             image = self.soup.find("picture")
             return image.find("source")["data-srcset"] if image else None
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         ingredients = self.soup.findAll("div", {"class": "ingredient-item"})
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         instructions = self.soup.find("div", {"class": "direction-lists"}).findAll("li")
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]

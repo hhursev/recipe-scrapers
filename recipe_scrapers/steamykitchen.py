@@ -1,3 +1,5 @@
+from typing import List, Optional
+
 from ._abstract import AbstractScraper
 
 
@@ -6,28 +8,28 @@ class SteamyKitchen(AbstractScraper):
     def host(cls):
         return "steamykitchen.com"
 
-    def author(self):
+    def author(self) -> Optional[str]:
         return self.schema.author()
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return self.schema.title()
 
-    def total_time(self):
+    def total_time(self) -> Optional[int]:
         return self.schema.total_time()
 
-    def yields(self):
+    def yields(self) -> Optional[str]:
         return self.schema.yields()
 
-    def image(self):
+    def image(self) -> Optional[str]:
         # Recipe section and schema have no image so stealing from the page
         return self.soup.find("img")["src"]
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         return self.schema.ingredients()
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         return self.schema.instructions()
 
-    def ratings(self):
+    def ratings(self) -> Optional[float]:
         # Schema has no ratings and I can't see any near the recipe
         return None

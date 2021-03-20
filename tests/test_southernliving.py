@@ -1,3 +1,4 @@
+from recipe_scrapers._schemaorg import SchemaOrgException
 from recipe_scrapers.southernliving import SouthernLiving
 from tests import ScraperTest
 
@@ -65,7 +66,8 @@ class TestSouthernLiving(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(None, self.harvester_class.ratings())
+        with self.assertRaises(SchemaOrgException):
+            self.assertEqual(None, self.harvester_class.ratings())
 
     def test_description(self):
         self.assertEqual(

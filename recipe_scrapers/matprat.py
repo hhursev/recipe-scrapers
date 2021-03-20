@@ -1,3 +1,5 @@
+from typing import List, Optional
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -7,10 +9,10 @@ class Matprat(AbstractScraper):
     def host(cls):
         return "matprat.no"
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return self.soup.find("h1").get_text().strip()
 
-    def total_time(self):
+    def total_time(self) -> Optional[int]:
         total_time = 0
         tt = self.soup.find("span", {"data-epi-property-name": "RecipeTime"})
         if tt:
@@ -22,7 +24,7 @@ class Matprat(AbstractScraper):
                 total_time = tt2
         return total_time
 
-    def yields(self):
+    def yields(self) -> Optional[str]:
         recipe_yield = self.soup.find("input", {"id": "portionsInput"})
         if recipe_yield:
             return str(recipe_yield["value"]) + " serving(s)"
@@ -33,14 +35,14 @@ class Matprat(AbstractScraper):
                 ).get_text()
             )
 
-    def image(self):
+    def image(self) -> Optional[str]:
         image = self.soup.find("div", {"class": "responsive-image"})
         if image:
             tag = image.find("img")
             src = tag.get("src", None)
         return src if image else None
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         details = self.soup.find("div", {"class": "ingredients-list"})
         sections = details.findAll("h3", {"class": "ingredient-section-title"})
         ingredients = details.findAll("ul", {"class": "ingredientsList"})
@@ -59,13 +61,13 @@ class Matprat(AbstractScraper):
             cntr += 1
         return ilist
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         instructions = self.soup.find("div", {"class": "rich-text"})
         ins = instructions.findAll("li")
 
         return "\n".join([normalize_string(inst.text) for inst in ins])
 
-    def ratings(self):
+    def ratings(self) -> Optional[float]:
         r = self.soup.find("span", {"data-bind": "text: numberOfVotes"})
         return int(normalize_string(r.get_text()))
 

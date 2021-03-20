@@ -1,3 +1,5 @@
+from typing import List, Optional
+
 from ._abstract import AbstractScraper
 
 
@@ -6,17 +8,17 @@ class CookEatShare(AbstractScraper):
     def host(cls):
         return "cookeatshare.com"
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return self.schema.title()
 
-    def total_time(self):
-        return 0
+    def total_time(self) -> Optional[int]:
+        return None
 
-    def image(self):
+    def image(self) -> Optional[str]:
         return self.schema.image()
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         return self.schema.ingredients()
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         return self.schema.instructions()

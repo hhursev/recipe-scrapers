@@ -1,3 +1,4 @@
+from recipe_scrapers._schemaorg import SchemaOrgException
 from recipe_scrapers.myrecipes import MyRecipes
 from tests import ScraperTest
 
@@ -56,7 +57,7 @@ class TestMyRecipesScraper(ScraperTest):
 
     def test_ratings_raises_exception(self):
         self.harvester_class.exception_handling = False
-        with self.assertRaises(Exception):
+        with self.assertRaises(SchemaOrgException):
             self.assertEqual(None, self.harvester_class.yields())
 
 
