@@ -1,3 +1,5 @@
+from typing import List, Optional
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -7,16 +9,16 @@ class Przepisy(AbstractScraper):
     def host(cls):
         return "przepisy.pl"
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return self.soup.find("h1", {"class": "title"}).get_text()
 
-    def total_time(self):
+    def total_time(self) -> Optional[int]:
         return get_minutes(self.soup.find("div", {"class": "time-count"}))
 
-    def yields(self):
+    def yields(self) -> Optional[str]:
         return get_yields(self.soup.find("div", {"class": "person-count"}))
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         ingredients = self.soup.findAll("span", {"class": "text-bg-white"})
 
         return [
@@ -24,7 +26,7 @@ class Przepisy(AbstractScraper):
             for i, j in zip(ingredients[0::2], ingredients[1::2])
         ]
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         instructions = self.soup.findAll("p", {"class": "step-info-description"})
 
         return "\n".join(

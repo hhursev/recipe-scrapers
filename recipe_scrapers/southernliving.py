@@ -3,6 +3,9 @@
 # Freely released the code to recipe_scraper group
 # 9 February, 2020
 # =======================================================
+
+from typing import List, Optional
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -12,22 +15,22 @@ class SouthernLiving(AbstractScraper):
     def host(cls):
         return "southernliving.com"
 
-    def title(self):
+    def title(self) -> Optional[str]:
         return self.schema.title()
 
-    def total_time(self):
+    def total_time(self) -> Optional[int]:
         return get_minutes(self.schema.total_time())
 
-    def yields(self):
+    def yields(self) -> Optional[str]:
         return get_yields(self.schema.yields())
 
-    def image(self):
+    def image(self) -> Optional[str]:
         return self.schema.image()
 
-    def ingredients(self):
+    def ingredients(self) -> Optional[List[str]]:
         return self.schema.ingredients()
 
-    def instructions(self):
+    def instructions(self) -> Optional[str]:
         instructions = self.soup.find("ul", {"class": "instructions-section"}).findAll(
             "li", {"class": "instructions-section-item"}
         )
@@ -40,17 +43,12 @@ class SouthernLiving(AbstractScraper):
             ]
         )
 
-    def ratings(self):
-        try:
-            self.schema.ratings()
-        except Exception:
-            return None
+    def ratings(self) -> Optional[float]:
+        return self.schema.ratings()
 
     def description(self):
         des = self.soup.find(
             "div",
             attrs={"class": lambda e: e.startswith("recipe-summary") if e else False},
         )
-        d = normalize_string(des.get_text())
-
-        return d if d else None
+        return normalize_string(des.get_text())
