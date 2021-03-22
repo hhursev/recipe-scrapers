@@ -1,0 +1,843 @@
+<!DOCTYPE HTML ><html xmlns:math="java.lang.Math" xmlns:g="http://base.google.com/ns/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" lang="en"><head><META http-equiv="Content-Type" content="text/html; charset=UTF-8"><script>
+			        var cancn = "https://recipes.timesofindia.com/recipes/stuffed-tortellini/rs71330969.cms";
+			        var recipemsid = 71330969;
+                    var rtitle = "Stuffed Tortellini";
+                    window.msid = 71330969;
+                    var pagename = 'recipeshow';
+			        var creditedssoid = '0';
+			        var selectedserving = '4';
+			        var tempname = 'recipeshow';
+			        var recipevideoid = '';
+			        var perpetualmsids = '52759758,59309177,52478659,53809024,53519810,61024115,58605091,54715645,55603353,53110049<!--/perpetualrecipes.cms?msid=71330969&type=food&cuisines=Italian&ingredient=cherry tomatoes,pasta tortelleni,&courses=Main Dishes,Side Dishes,Appetizers&cuisinetype=Vegpotime:337-->';
+
+
+
+
+         var _winObject = window.location.href;
+         var _winObjectArr =  _winObject.split('?');
+         var _winObjectRest='';
+
+          if(_winObject.indexOf('?') >= -1)
+            {
+
+                _winObjectRest =  _winObjectArr[0];
+            }else{
+                _winObjectRest = _winObject;
+            }
+
+
+        if(cancn!='' && cancn != _winObjectRest){
+
+                if(_winObjectArr.length>1){
+                    newcancn  =  cancn+'?'+_winObjectArr[1];
+                }else{
+                    newcancn =  cancn;
+                }
+                window.location.replace(newcancn);
+
+        }
+
+
+			    </script><meta name="apple-mobile-web-app-capable" content="yes"><meta content="en" http-equiv="content-language"><meta content="text/html; charset=utf-8" http-equiv="Content-Type"><meta id="viewport" name="viewport" content="width=768, user-scalable=yes"><title>Stuffed Tortellini Recipe: How to Make Stuffed Tortellini Recipe | Homemade Stuffed Tortellini Recipe</title><meta property="og:title" content="Stuffed Tortellini Recipe: How to Make Stuffed Tortellini Recipe | Homemade Stuffed Tortellini Recipe"><meta property="twitter:title" content="Stuffed Tortellini Recipe: How to Make Stuffed Tortellini Recipe | Homemade Stuffed Tortellini Recipe"><meta name="description" content="Easy Stuffed Tortellini Recipe: Step by Step Stuffed Tortellini Recipe, Tips to make Stuffed Tortellini at home, Stuffed Tortellini Ingredients, Stuffed Tortellini Recipe video &amp; more at Times Food "><meta property="og:description" content="Easy Stuffed Tortellini Recipe: Step by Step Stuffed Tortellini Recipe, Tips to make Stuffed Tortellini at home, Stuffed Tortellini Ingredients, Stuffed Tortellini Recipe video &amp; more at Times Food "><meta property="twitter:description" content="Easy Stuffed Tortellini Recipe: Step by Step Stuffed Tortellini Recipe, Tips to make Stuffed Tortellini at home, Stuffed Tortellini Ingredients, Stuffed Tortellini Recipe video &amp; more at Times Food "><meta name="keywords" content="Stuffed Tortellini recipe, Italian, cook Stuffed Tortellini, Anniversary,Date,Birthday,Kitty Party,Game Night,Buffet,Pot Luck,Party"><meta value="summary_large_image" name="twitter:card"><link rel="canonical" href="https://recipes.timesofindia.com/recipes/stuffed-tortellini/rs71330969.cms"><link type="image/x-icon" href="https://recipes.timesofindia.com/icons/Fav_Recipe.ico" rel="shortcut icon"><link rel="amphtml" href="https://m.recipes.timesofindia.com/recipes/stuffed-tortellini/amp_recipeshow/71330969.cms"><link hreflang="en-IN" rel="alternate" href="https://recipes.timesofindia.com/recipes/stuffed-tortellini/rs71330969.cms"><link hreflang="en-us" rel="alternate" href="https://recipes.timesofindia.com/us/recipes/stuffed-tortellini/rs71330969.cms"><link hreflang="x-default" rel="alternate" href="https://recipes.timesofindia.com/recipes/stuffed-tortellini/rs71330969.cms"><link media="handheld" rel="alternate" href="https://m.recipes.timesofindia.com/recipes/stuffed-tortellini/rs71330969.cms"><link media="only screen and (max-width: 640px)" rel="alternate" href="https://m.recipes.timesofindia.com/recipes/stuffed-tortellini/rs71330969.cms"><meta property="og:image" content="https://static.toiimg.com/thumb/msid-71330969,width-1070,height-580,resizemode-75/71330969,pt-32,y_pad-40/71330969.jpg"><meta property="twitter:image" content="https://static.toiimg.com/thumb/msid-71330969,width-1070,height-580,resizemode-75/71330969,pt-32,y_pad-40/71330969.jpg"><link type="text/css" rel="stylesheet" href="/styleweb.cms?v=214&amp;minify=1"><link type="text/css" rel="stylesheet" href="/styleweb_navigation.cms?v=14&amp;minify=1"><link media="all" type="text/css" rel="stylesheet" href="/tinyscrollcss.cms"><meta content="26781952138" property="fb:pages"><script type="application/ld+json">
+                    {
+                      "@context": "https://schema.org",
+                      "@type": "Organization",
+                      "name":"Times Food",
+                      "url": "https://recipes.timesofindia.com",
+                      "logo":{
+                            "@type":"ImageObject",
+                            "url": "https://static.toiimg.com/thumb/65949362.cms?width=600&height=60",
+                            "width":600,
+                            "height":60
+                        }
+                    }
+                 </script><script>var geoloc = '';</script><script src="https://timesofindia.indiatimes.com/videos/jquery_1_11_0_min/version-13,minify-1.cms"></script><script src="https://timesofindia.indiatimes.com/requirejs/version-9,minify-1.cms"></script><link type="text/css" rel="stylesheet" href="/gdpr_css/version-26,minify-1.cms"><script type="text/javascript" src="/tinyscrolljs/version-4,minify-1.cms"></script><script src="/gdpr_js/version-25,minify-1.cms"></script><iframe style="display:none" width="1" height="1" id="__tiluuid_frame"></iframe><script>
+
+
+		//User Unification Start
+        var __tiluuid = localStorage.getItem('__til_uuid');
+        if (__tiluuid === null) {
+            function receiveMessage(evt) {
+                if (evt.origin === 'https://tilanalytics.timesinternet.in') {
+                    __tiluuid = evt.data;
+                    localStorage.setItem('__til_uuid', __tiluuid);
+                }
+            }
+        window.addEventListener('message', receiveMessage, false);
+        document.getElementById("__tiluuid_frame").src='https://tilanalytics.timesinternet.in/frame_v3.min.html';
+        }
+
+        //User Unification End
+
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-198011-4', 'auto', {'allowLinker': true});
+          ga('require', 'linker');
+          ga('linker:autoLink', ['timesofindia.com', 'indiatimes.com'] );
+          var __ssoid = document.cookie.match(/(?:\s)?ssoid=(\w+);?/);
+          var __prc = document.cookie.match(/(?:\s)?prc=(\w+);?/);
+          if(!!(__ssoid)) {
+                ga('set', 'userId', __ssoid[1]);
+                ga('set', 'dimension21', 1);
+                ga('set', 'dimension22', __ssoid[1]);
+                ga('set', 'dimension10', ((__prc && __prc[1]) ? __prc[1] : 0));
+            }
+          else{
+                /*For not logged-in user passing -1 - JIRA:TOIPR-45894*/
+                ga('set', 'dimension10', -1);
+                ga('set', 'dimension21', 0);
+            }
+          //Let's wait for EU
+              if (window.TimesGDPR && TimesGDPR.common.consentModule.gdprCallback){
+                TimesGDPR.common.consentModule.gdprCallback(function(dataObj){
+                    if (dataObj.isEUuser){
+                        ga('set', 'anonymizeIp', true);
+                    }
+                    ga('send', 'pageview', {'dimension28': __tiluuid});
+                });
+            }else{
+                /*
+                *geo ip call failed
+                * show EU
+                */
+                ga('set', 'anonymizeIp', true);
+                ga('send', 'pageview', {'dimension28': __tiluuid});
+            }
+          ga('require', 'displayfeatures');
+
+		</script><link media="screen" type="text/css" href="/comments_css.cms?version=9" rel="stylesheet"><script>
+	    	    function trim(str){return str.replace(/^\s\s*/, '').replace(/\s\s*$/, '');}
+
+               </script><script src="https://jssocdn.indiatimes.com/crosswalk/jsso_crosswalk_legacy_0.5.3.min.js" type="text/javascript"></script><script src="https://www.google.com/recaptcha/api.js"></script><script src="https://connect.facebook.net/en_US/sdk.js"></script><link href="/usermanagementcss/version-19,minify-1.cms" media="screen" type="text/css" rel="stylesheet"><script src="/etimes_login/version-136,minify-1.cms" type="text/javascript"></script><script src="/et_onetap_signin_js/version-26,minify-1.cms" type="text/javascript"></script><script>
+
+	        var globaluser;
+	        var ssoid = undefined;
+	        var profilePicImg = $('[data-profile="pic"] img');
+	        window.timesfood = window.timesfood || {};
+	        window.timesfood.mobile = window.timesfood.mobile || {};
+
+	        require(["jquery", "tiljs/login", "tiljs/event"], function($, login, event) {
+	                 event.subscribe("user.status", function(user) {
+
+	                     if(login.getUser()){
+	                        globaluser = login.getUser();
+	                        ssoid = cookies.get_cookie("ssoid");
+	                        timesfood.mobile.userid = cookies.get_cookie("ssoid");
+	                        profilePicImg.attr('src',login.getUser().getThumb());
+
+	                     }
+	                     else{
+	                        globaluser = '';
+	                        ssoid = cookies.get_cookie("ssoid");
+	                        timesfood.mobile.userid = cookies.get_cookie("ssoid");
+	                        profilePicImg.attr('src','https://static.toiimg.com/photo/29251859.cms');
+
+	                     }
+	                 });
+
+
+	             });
+
+	    </script><script src="/pnjs/version-35,minify-1.cms" type="text/javascript"></script><script>
+
+
+            function getSectionFromUrl(u){
+                    var section , subsection;
+                    var u = u.replace(".cms","");
+                    if(u.indexOf("https") >= 0){
+                        var u = (u.indexOf("?") >=0 ) ? u.split("?")[0] : u;
+                        var sourceString = u.replace('http://','').replace('https://','').split(/[/?#]/)[0];
+                        var domain = "https://" + sourceString + "/";
+                        var uripartArr  = u.replace(domain,"").split("/");
+                        section =  (uripartArr.length > 0 ) ? uripartArr[0] : "recipes";
+                        subsection = (uripartArr.length > 1 ) ? uripartArr[1] : "home";
+                    }
+                    else if(u.indexOf("/") == 0){
+                        var uripartArr  = u.split("/");
+                        section =  (uripartArr.length > 1 ) ? uripartArr[1] : "recipes";
+                        subsection =  (uripartArr.length > 2 ) ? uripartArr[2] : "home";
+                    }
+                    else{
+                        var uripartArr  = u.split("/");
+                        section =  (uripartArr.length > 0 ) ? uripartArr[0] : "recipes";
+                        subsection =  (uripartArr.length > 1 ) ? uripartArr[1] : "home";
+                    }
+                    if(section == "" || typeof section == "undefined"){
+                        return "home";
+                    }
+                    else if(section == "recipes"){
+                        return subsection;
+                    }
+                    else if(section == "articles" || section == "videos" || section == "beverages" || section == "boardroom-kitchen"){
+                        return section;
+                    }
+                    return subsection;
+
+                }
+            function hitCustomGrxPageview(url){
+                    if (typeof(grx) === "function") {
+                        grx('track', 'page_view', {url: url , subProject:'recipes', section:getSectionFromUrl(url)});
+                    }
+                }
+
+              // growthrx.in snippet common
+         (function (g, r, o, w, t, h, rx) {
+            g[t] = g[t] || function () {(g[t].q = g[t].q || []).push(arguments)
+            }, g[t].l = 1 * new Date();
+            g[t] = g[t] || {}, h = r.createElement(o), rx = r.getElementsByTagName(o)[0];
+            h.async = 1;h.src = w;rx.parentNode.insertBefore(h, rx)
+        })(window, document, 'script', 'https://static.growthrx.in/js/v2/web-sdk.js', 'grx');
+         grx('init', configSW.grx_projectcode); // project code changed from ETimes to TOI to maintain it with GA profile - By Yatin
+         grx('config','applicationServerKey',configSW.grx_applicationServerKey)
+         grx('registerPlugin', 'subscribeToken');
+         if(configSW.utm_enable)
+         grx('config','notification_params',{ utm_source:configSW.utmSource, utm_medium:((configSW.utmMedium.length) ? configSW.utmMedium : getBrowser()), utm_campaign:configSW.utmCampaign});
+         if( typeof pn_js!= "undefined" && pn_js ){
+            pn_js._grxShowWelcomeMessage();
+            pn_js._grxBindEvents();
+         }
+         grx('config','service_worker',configSW.swjs_path);
+         grx('set','subProject','recipes');
+         hitCustomGrxPageview(window.location.href)
+
+
+
+         </script><script src="/et_observer_api_js/version-1,minify-1.cms"></script><script src="/recipe_menu_js/version-1,minify-1.cms" defer></script><script src="/bt_js_ads.cms?version=41&amp;minify=1" type="text/javascript"></script><script src="/recipe_commentjs/version-80,minify-1.cms"></script><script src="/timespopupconstjs.cms?v=13&amp;minify=1"></script><script src="/gaeventtrackerjs/version-1,minify-1.cms"></script><script src="/stickyjsfood/version-2,minify-1.cms" type="text/javascript"></script><script type="text/javascript" src="/tinyscrolljs/version-1,minify-1.cms"></script><script src="/timesfoodjs/version-156,minify-1.cms"></script><script>
+		    $(document).ready(function(){
+    		    $(".tag_cloud_scroller").mCustomScrollbar({
+                        theme:"dark-3",
+                        scrollButtons:{ enable: false },
+                        scrollInertia: 0,
+                        mouseWheel:{ enable: true,scrollAmount: 52 },
+                        advanced:{
+                            updateOnContentResize:true
+                        }
+                });
+            });
+		</script><script type="application/ld+json">
+                    {
+
+                    "@context": "http://schema.org/",
+                    "@type": "Recipe",
+                    "url":"https://recipes.timesofindia.com/recipes/stuffed-tortellini/rs71330969.cms",
+                    "name": "Stuffed Tortellini Recipe",
+                    "image": "https://static.toiimg.com/thumb/71330969.cms?width=1200&height=900",
+                      "author": {
+                        "@type": "Thing",
+                        "name": "TNN"
+                      },
+
+
+                    "datePublished": "2019-09-27T15:59:22+05:30",
+                    "description": "Channel your inner Italian soul by indulging in this amazing pasta recipe prepared using tortellini. It's a ring-shaped pasta, which is also known as belly button because of its resemblance to a navel. It's a delicious pasta recipe that you can prepare in the comfort of your home. Stuffed Tortellini is an Italian speciality, and is prepared using roasted cherry tomatoes being coated with seasoned oil and mixing them with the pesto sauce with tortellini pasta. Be it a nice hot appetizer or a comforting weekend meal in your bed, this palatable stuffed tortellini recipe will make you love it in one go. The spicy pesto sauce gives a fiery and sizzling twist to the tortellini, making it even more irresistible for all the foodies. Check out this super-duper scrumptious and quick tortellini recipe which comes out in just half an hour and tastes delicious. If you have your friends coming over to your place in half an hour and you are confused about the special menu, don’t think anything else and just run to the kitchen and start preparing with this indulgence. Give a delicious feast to your friends and family members with the heavenly flavours of this pasta and watch them shower you with loads of compliments and praises. A beyond perfect recipe for when you are enjoying kitty party, birthday party, anniversary party, pot luck or game night. This exotic Italian recipe will bring out the Italiano within you and make all of you go, Mama Mia. (Recipe: Chef Dinesh Pandey, The Green Bistro)",
+
+
+                        "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": "5",
+
+                          "reviewCount": "2",
+
+                        "worstRating" : "1",
+                        "bestRating":"5"
+                      },
+                    "prepTime": "PT15M",
+                    "totalTime": "PT35M",
+                    "keywords": "Stuffed Tortellini recipe, Italian, cook Stuffed Tortellini, Anniversary,Date,Birthday,Kitty Party,Game Night,Buffet,Pot Luck,Party",
+                    "recipeYield": "4",
+                    "recipeCategory": "Side Dishes",
+                    "recipeCuisine": "Italian",
+                    "nutrition": {
+                        "@type": "NutritionInformation",
+                        "servingSize": "1 bowl",
+                        "calories": "331 cal"
+                      },
+                      "recipeIngredient":["500 grams cherry tomatoes ","4 tablespoon extra virgin olive oil ","1 teaspoon spice oregano ","0 As required salt ","0 As required black pepper ","250 grams pasta tortelleni ","2 cloves garlic ","2 teaspoon pesto sauce ","1/4 cup parmesan cheese ","6 Numbers basil ","0 As required water "],
+
+                      "recipeInstructions":[{"@type": "HowToStep","text":"To prepare this palatable dish, preheat the oven at 200 degrees Celsius. Meanwhile, spread a baking sheet, place cherry tomatoes topped with a drizzle of 2 tablespoons of extra virgin olive oil. Season the tomatoes with salt, black pepper, and oregano spice. Make sure the tomatoes are evenly coated with the seasoned oil by rolling them over and over inside the baking sheet itself."},{"@type": "HowToStep","text":"By now, the oven should be ready to roast. Place the baking sheet with tomatoes inside the oven and roast the tomatoes for 15 minutes or until they start to burst out."},{"@type": "HowToStep","text":"While the tomatoes are roasting in the oven, put a large pan over medium flame and boil water in it. Add the tortellini pasta with a pinch of salt and a little olive oil. Once cooked, drain the water and keep the pasta aside until required."},{"@type": "HowToStep","text":"Now, heat 2 tablespoons of extra virgin olive oil in a skillet over low-medium heat. After the oil turns hot, add minced garlic and saute until it turns golden brown. Turn off the flame and to the garlic, add roasted tomatoes and pesto sauce. Using a fork, stab the tomatoes to break them open. Stir the mixture and then add cooked tortellini. Pour some more pesto sauce over the tortellini and continue stirring. Sprinkle shredded parmesan cheese and garnish with torn or chopped basil leaves."}]
+                 }</script><script type="application/ld+json">{
+                    "@context": "http://schema.org/",
+                    "@type": "creativework",
+                    "headline": "Stuffed Tortellini Recipe",
+                    "datemodified": "2020-03-13T12:45:32+05:30",
+                    "text": ""
+
+                 }</script><script type="application/ld+json">[{"@context" : "http://schema.org/","@type" : "UserComments","commentText" : "Now thats called comfort food.","commentTime" : "13 Mar, 2020 01:40 PM","creator" :{ "@type": "Person","name":"pooja Daswani"}
+
+
+                                        },{"@context" : "http://schema.org/","@type" : "UserComments","commentText" : "Perfect weekend food paired with a glass of wine!","commentTime" : "02 Oct, 2019 11:35 PM","creator" :{ "@type": "Person","name":"Pooja Daswani"}
+
+
+                                        }]</script><style>
+                    .mCSB_container a{color:#3ca2c8 !important;}
+                    .mCSB_container a:hover{#ff394a !important;}
+                    .addcollection_popup.rsuifixed{min-height:auto; width:350px; margin-left:-175px;}
+                    .addcollection_popup.rsuifixed .midtb{text-align:center!important}
+                    .addcollection_popup.rsuifixed .collection_heading{display:none;}
+                    .addcollection_popup.rsuifixed .cancelbtn{float:none!important; display:inline-block!important;}
+                    /*.addcollection_popup.rsuifixed{min-height:auto; width:auto; left:10px; margin:0; top:10px; border-radius:3px;}
+                    .addcollection_popup.rsuifixed .midtb{margin:15px 40px!important; font-size:16px;}
+                    .addcollection_popup.rsuifixed .collection_heading, .addcollection_popup.rsuifixed .cancelbtn, .addcollection_popup.rsuifixed br{display:none;}*/
+                </style><script>
+
+            window.getccpaCookie = function(name){
+        	  var re = new RegExp(name + "=([^;]+)");
+              var value = re.exec(document.cookie);
+              return (value != null) ? unescape(value[1]) : null;
+        	};
+
+
+              (function(){
+                let dsmiparam = "";
+                if (getccpaCookie("_col_ccds")) {
+                  dsmiparam = "dsmi=" + getccpaCookie("_col_ccds") + "&" ;
+                }
+                const ccaudUrl = "https://ade.clmbtech.com/cde/ae/65615/var=_ccaud?"+dsmiparam+"_u="+encodeURIComponent(window.location.href);
+                const ccaudjs = document.createElement("script");
+                ccaudjs.src = ccaudUrl;
+                ccaudjs.async = true;
+                document.head.appendChild(ccaudjs);
+              })()
+
+
+    </script><script type="application/javascript">
+            function loadDynamicJS(file) {
+                var jsElm = document.createElement("script");
+                jsElm.type = "application/javascript";
+                jsElm.src = file;
+                if (typeof jsElm!="undefined") document.getElementsByTagName("head")[0].appendChild(jsElm)
+            }
+
+
+            if (window.TimesGDPR  && TimesGDPR.common.consentModule.gdprCallback){
+                    TimesGDPR.common.consentModule.gdprCallback(function(dataObj){
+                       if(dataObj.userRegion == 'CA'){
+                            loadDynamicJS("https://static.clmbtech.com/ase/65615/2608/aa.js");
+                            setTimeout(function(){document.getElementById("ccpadnt").style.display = "inline-block"},1000);
+                       }
+                       else if (dataObj.isEUuser && dataObj.consentGiven && !parseInt(readCookie("optout"))){
+                            loadDynamicJS("https://static.clmbtech.com/ase/65615/2608/aa.js")
+                       }
+                       else if(!dataObj.isEUuser){
+                            loadDynamicJS("https://static.clmbtech.com/ase/65615/2608/aa.js")
+                       }
+                       else{
+                            //do nothing
+                            // ccaud added with ccpa implementation
+                       }
+                    });
+                }
+                else{
+                    loadDynamicJS("https://static.clmbtech.com/ase/65615/2608/aa.js")
+                }
+
+
+
+
+        </script><link media="all" type="text/css" rel="stylesheet" href="/stylenewcomments/v-21,minify-1.cms">
+                    <script>var w=window;if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document;AKSB=w.AKSB||{},AKSB.q=AKSB.q||[],AKSB.mark=AKSB.mark||function(e,_){AKSB.q.push(["mark",e,_||(new Date).getTime()])},AKSB.measure=AKSB.measure||function(e,_,t){AKSB.q.push(["measure",e,_,t||(new Date).getTime()])},AKSB.done=AKSB.done||function(e){AKSB.q.push(["done",e])},AKSB.mark("firstbyte",(new Date).getTime()),AKSB.prof={custid:"495787",ustr:"",originlat:"0",clientrtt:"95",ghostip:"23.62.101.7",ipv6:false,pct:"10",clientip:"111.92.45.168",requestid:"21e25488",region:"20716",protocol:"",blver:14,akM:"dscj",akN:"ae",akTT:"O",akTX:"1",akTI:"21e25488",ai:"325947",ra:"false",pmgn:"",pmgi:"",pmp:"",qc:""},function(e){var _=d.createElement("script");_.async="async",_.src=e;var t=d.getElementsByTagName("script"),t=t[t.length-1];t.parentNode.insertBefore(_,t)}(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")}</script>
+                    </head><body style="height:100%;"><div style="display:none" class="" id="login-popup"><button class="close-btn" type="button">+</button><div id="user-sign-in"></div></div><div class="city_overlay"></div><div style="display:none; left:50%; transform:translate(0,-50%); margin-left:-200px; width:400px; position:fixed;" class="reminder_popup etreminder"><div class="reminderpopupIn clearfix"><div class="tvpopup_heading"><div class="close_popup"><a href="javascript://" id="closePopup" class="tv_sprite">&times;</a></div><span data-plugin="titleval" class="spanh2">Thanks For Rating</span></div><div style="display:block;" class="tv_popup_mid tv_popup_done"><div class="messageSent"><span><i class="ent_sprite"></i></span><div data-plugin="descriptionval" class="spanh2">Reminder Successfully Set!</div></div></div></div></div><div class="cmt_slide_outer"></div><div class="comments_container" data-isratingset="yes"><span class="spanh2"><label for="comment-input">Comments
+                    <span class="count_color">(<span data-plugin="commentscount">0</span>)</span></label><div class="sortby clearfix"><label for="comment_sort">Sort: </label><select id="comment_sort"><option value="newest">Newest</option><option value="agree">UpVoted</option><option value="oldest">Oldest</option><option value="discussed">Discussed</option><option value="disagree">Down Voted</option></select></div><a class="close_cmnts photo_sprite" data-plugin="closecomments" href="javascript:void(0)">closecomments</a></span><div class="comment_box clearfix"><div data-profile="pic" class="user_cmt_pic"><img src="https://static.toiimg.com/photo/29251859.cms" alt=""></div><div class="user_cmt_box"><div style="display:none;" class="commentsrating clearfix"><span class="text_chgrat">Your Rating: </span><div class="rate_widget" data-msid="71330969"><a data-rating="1" href="javascript://" class="mainrating one-stars">1</a><a data-rating="2" href="javascript://" class="mainrating two-stars">2</a><a data-rating="3" href="javascript://" class="mainrating three-stars">3</a><a data-rating="4" href="javascript://" class="mainrating four-stars">4</a><a data-rating="5" href="javascript://" class="mainrating five-stars">5</a></div><span class="commentsratingvalue ratingtext"></span></div><input value="0" class="hiddenrating" type="hidden"><div data-plugin="videoshowele" class="textareabindbox"><textarea row="4" col="50" class="cmt_textbox placeholder" data-plugin="comment-textarea" placeholder="Write your comment here..."></textarea><input data-plugin="comment-post" type="button" value="Send" name="" data-ga="true" data-action="UserReviews_SubmitReview" data-label="Fantasy Island" data-value="" class="rate_submit_btn tvguide_submit"></div></div></div><div data-plugin="recipeshowele" class="textareabindbox"><div class="suggestion_tagslist">
+                                   (Tap and add)<ul><li>Nice recipe</li><li>Will try out</li><li>Worth trying</li><li>Wonderful recipe</li><li>That&rsquo;s yummy</li><li>Looks delicious</li><li>I enjoyed this recipe</li><li>Helpful recipe</li></ul></div><textarea row="4" col="50" class="cmt_textbox placeholder" data-plugin="comment-textarea" placeholder="Write your comment here..."></textarea><div class="rgtsubmitbtn"><input data-plugin="comment-post" type="button" value="Send" name="" data-ga="true" data-action="UserReviews_SubmitReview" data-label="Fantasy Island" data-value="" class="rate_submit_btn tvguide_submit"><span>Submit</span></div></div><div style="display:none;" class="successMessage" id="successMessage"></div><div style="display:none;" data-plugin="obscenecmt" class="smsblock clearfix"><p>Refrain from posting comments that are obscene, defamatory or inflammatory, and do not indulge in personal attacks, name calling or inciting hatred against any community. <strong>Help us delete comments</strong> that do not follow these guidelines <strong>by marking them offensive</strong>. Let's work together to keep the conversation civil.</p></div><div data-plugin="commentsdata" class="clearfix"></div><div id="loader6" class="moreloader" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="enable-background:new 0 0 50 50;" viewBox="0 0 50 50" height="80px" width="80px" y="0px" x="0px" id="loader-2" version="1.1">
+<path d="M43.935,25.145c0-10.318-8.364-18.683-18.683-18.683c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615c8.072,0,14.615,6.543,14.615,14.615H43.935z" fill="#000" transform="rotate(330.399 25 25)">
+<animateTransform repeatCount="indefinite" dur="0.9s" to="360 25 25" from="0 25 25" type="rotate" attributeName="transform" attributeType="xml"/>
+</path>
+</svg></div></div><div class="fix_wrapper clearfix text-center"><div class="text-center" data-adsslot="/7176/Recipes/Recipes_ROS_Articles_AS/Recipes_ROS_Artcles_AS_Innov1" data-size="" id="div-gpt-ad-1568380425015-0-"></div></div><div class="fix_wrapper clearfix text-center"><div class="text-center topheaderads" data-adsslot="/7176/Recipes/Recipes_ROS_Articles_AS/Recipes_ROS_ATF_Articles_AS_728" data-size="[[728, 90], [980, 200]]" id="div-gpt-ad-1548675173703-0-"></div></div><script id="ctn_rlist" type="text/x-jquery-tmpl"><a style="margin-top:0px;" target="_blank" href="~url~"><img data-new="" src="~wideImg~" pg="new_rlist_native#~pos~"><div><div class="brandtext">Ad: ~brandtext~</div><div class="title">~name~</div><div class="iconcls">Recommended By
+						<span class="hovercol"></span></div></div></a></script><script id="ctn_rlist1" type="text/x-jquery-tmpl"><a style="margin-top:0px;" target="_blank" href="~url~"><img data-new="" src="~wideImg~" pg="new_rlist_native#~pos~"><div><div class="title">~name~</div><div class="brandtext">Ad: ~brandtext~</div><div class="iconcls">Recommended By
+						<span class="hovercol"></span></div></div></a></script><script id="ctn_rlist2" type="text/x-jquery-tmpl"><a style="margin-top:0px;" target="_blank" href="~url~"><img data-new="" src="~wideImg~" pg="new_rlist_native#~pos~"><div><div class="title">~name~</div><div class="desc">~desc~</div><div class="brandtext">Ad: ~brandtext~</div><div class="iconcls">Recommended By
+						<span class="hovercol"></span></div></div></a></script><script id="ctn_rlist3" type="text/x-jquery-tmpl"><a style="margin-top:0px;" target="_blank" href="~url~"><img data-new="" src="~wideImg~" pg="new_rlist_native#~pos~"><div><div class="title">~name~</div><div class="desc">~desc~</div><div class="brandtext">Ad: ~brandtext~</div><div class="iconcls">Recommended By
+						<span class="hovercol"></span></div></div></a></script><div style="display:none;" class="morephoto_overlay"></div><div style="display:none;" type="addtocol" data-id="addcolpopup71330969" class="rate_popup boxsizeui commentlistWrapper"><span class="spanh2"><span>Add to collections</span></span><a class="close_rating_popup web_recipe_sprite" href="javascript://"></a><div class="clearfix"><div class="lft_addcol_col"><img alt="" src="https://static.toiimg.com/photo/54692498.cms?width=270&amp;height=270"><span class="spanh3">Stuffed Tortellini</span></div><div class="rgt_addcol_col "><div class="input_file_outer clearfix"><input type="text" class="lftxt" data-id="collection-name" placeholder="Create a new collection..."><div class="rgtxt" data-id="post-collection">Add</div></div><div class="collection_list clearfix"><ul></ul></div><div class="clear"></div><a data-id="recipe-to-collection" class="savebtn disabled" href="javascript://">Save</a></div></div></div><div data-seo="recipes/stuffed-tortellini" id="mainwrapper71330969" data-msid="71330969" data-title="Stuffed Tortellini" style="background:#fff" class="main_wrapper"><div style="display:none;" type="rating" data-id="ratingpopup71330969" class="rate_popup commentlistWrapper"><span class="spanh2"><span>Stuffed Tortellini</span></span><a class="close_rating_popup web_recipe_sprite" href="javascript://"></a><div class="pd40 pd60 clearfix"><div class="pictxtalignflex"><div data-profile="pic" class="rate_user_pic"><img src="https://mytimes.indiatimes.com/image/thumb/2/6881860"></div><div class="userratetxt"><span class="text_chgrat" id="textchgrat">Your Rating
+
+                        </span><div class="ratetxt clearfix"><div data-msid="71330969" class="rate_widget urratingblue"><a data-rating="1" class="mainrating one-stars" href="javascript://">1</a><a data-rating="2" class="mainrating two-stars" href="javascript://">2</a><a data-rating="3" class="mainrating three-stars" href="javascript://">3</a><a data-rating="4" class="mainrating four-stars" href="javascript://">4</a><a data-rating="5" class="mainrating five-stars" href="javascript://">5</a></div><small class="ratingtext">Good</small><span class="rate_value" id="ratevalue">0</span><span id="ratevaluetxt" class="ratevalue_txt"></span><input type="hidden" value="Rate This Movie" data-plugin="comment-rating" class="ratedd newtextbox" readonly></div></div></div><div style="display:none;" class="successMessage" id="successMessage">Your Rating has been successfully submitted.</div><div class="clearfix"><div class="write_cmt_heading"><div style="position:relative; top:2px;     background:#FFF; display:inline-block; padding:0 15px;">Write a review <span>(Optional)</span></div></div><div class="rate_comment_textarea clearfix"><div class="w100p fl"><div class="textareabindbox clearfix"><div class="suggestion_tagslist">
+                                    (Tap and add)<ul><li>Nice recipe</li><li>Will try out</li><li>Worth trying</li><li>Wonderful recipe</li><li>That&rsquo;s yummy</li><li>Looks delicious</li><li>I enjoyed this recipe</li><li>Helpful recipe</li></ul></div><textarea id="review" data-plugin="comment-input" placeholder="Add your comment here" row="" col=""></textarea><div class="rgtsubmitbtn"><a class="rate_sbmt_btn" href="javascript://" pg="food#comment_food_web~comment" data-plugin="Onpagebox">Submit</a><span>Submit</span></div></div><div class="comment-footer clearfix"><span class="char-count">Characters Remaining: <span data-plugin="comment-input-remaining" data-maxchar="3000">3000</span></span></div></div></div></div><div style="display:none;" class="thxnmsg" id="thanksmsg"><img alt="" src="https://static.toiimg.com/photo/65670713.cms"><br><br><br>Your Rating has been successfully submitted.</div></div></div><div id="div-gpt-ad-1593164828127-0" data-adsSlot="/7176/Recipes/Recipes_ROS/Recipes_ROS_Andbeyond_1x1" data-size="[1, 1]"></div><script type="text/javascript" src="/google_ads/ads/ve-1.cms"></script><script type="text/javascript">
+
+                 var _0xe1c9=["\x3B\x20","\x73\x70\x6C\x69\x74","\x63\x6F\x6F\x6B\x69\x65","\x6C\x65\x6E\x67\x74\x68","\x3D","\x69\x6E\x64\x65\x78\x4F\x66","","\x6A\x6F\x69\x6E","\x73\x70\x6C\x69\x63\x65","\x3A","\x68\x6F\x73\x74","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x2F","\x67\x65\x74\x54\x69\x6D\x65","\x73\x65\x74\x54\x69\x6D\x65","\x65\x78\x70\x69\x72\x65\x73\x3D","\x74\x6F\x55\x54\x43\x53\x74\x72\x69\x6E\x67","\x3B\x20\x64\x6F\x6D\x61\x69\x6E\x3D","\x3B\x20\x70\x61\x74\x68\x3D","\x67\x61","\x73\x65\x6E\x64","\x65\x76\x65\x6E\x74","\x42\x6C\x6F\x63\x6B\x65\x72","\x46\x6F\x75\x6E\x64","\x30\x2E\x30\x34","\x63\x73\x73","\x65\x61\x63\x68","\x64\x69\x76\x2C\x20\x70\x2C\x20\x73\x70\x61\x6E\x2C\x20\x63\x65\x6E\x74\x65\x72\x2C\x20\x63\x6F\x6E\x74\x65\x6E\x74","\x63\x68\x69\x6C\x64\x72\x65\x6E","\x62\x6F\x64\x79","\x23\x62\x6C\x63\x6F\x6E\x74\x65\x6E\x74","\x23\x62\x6C\x77\x72\x61\x70\x70\x65\x72","\x24","\x66\x6E","\x6A\x71\x75\x65\x72\x79","\x70\x72\x65\x70\x65\x6E\x64","\x73\x68\x6F\x77","\x23\x62\x6C\x63\x6F\x6E\x74\x65\x6E\x74\x2C\x23\x62\x6C\x77\x72\x61\x70\x70\x65\x72","\x68\x69\x64\x65","\x23\x6E\x6F\x74\x69\x66\x79\x6D\x61\x69\x6E\x2C\x2E\x54\x50\x42\x6F\x74\x74\x6F\x6D\x50\x6F\x70\x2C\x75\x6C\x2E\x61\x72\x74\x69\x63\x6C\x65\x73","\x6F\x76\x65\x72\x66\x6C\x6F\x77","\x73\x74\x79\x6C\x65","\x68\x69\x64\x64\x65\x6E","\x73\x63\x72\x6F\x6C\x6C\x54\x6F\x70","\x64\x6F\x63\x75\x6D\x65\x6E\x74\x45\x6C\x65\x6D\x65\x6E\x74","\x61\x64\x62\x6C\x6F\x63\x6B\x65\x72","\x66\x6F\x75\x6E\x64","\x5B\x6E\x61\x74\x69\x76\x65\x20\x63\x6F\x64\x65\x5D","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x73\x63\x72\x6F\x6C\x6C","\x6D\x6F\x75\x73\x65\x6D\x6F\x76\x65","\x72\x65\x66\x65\x72\x72\x65\x72","\x66\x61\x63\x65\x62\x6F\x6F\x6B\x2E\x63\x6F\x6D","\x68\x72\x65\x66","\x75\x74\x6D\x5F\x73\x6F\x75\x72\x63\x65\x3D\x66\x61\x63\x65\x62\x6F\x6F\x6B","\x6F\x6E\x65\x72\x72\x6F\x72","\x6F\x6E\x6C\x6F\x61\x64","\x52\x65\x6D\x6F\x76\x65\x64","\x73\x72\x63","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x74\x69\x6D\x65\x73\x6F\x66\x69\x6E\x64\x69\x61\x2E\x69\x6E\x64\x69\x61\x74\x69\x6D\x65\x73\x2E\x63\x6F\x6D\x2F\x61\x64\x2D\x62\x61\x6E\x6E\x65\x72\x2D\x7A\x65\x64\x6F\x2F\x70\x68\x6F\x74\x6F\x2F\x32\x37\x35\x38\x39\x35\x38\x36\x2E\x63\x6D\x73"];(function(_0xdf87x1,_0xdf87x2){var _0xdf87x3=false;function _0xdf87x4(_0xdf87x5){var _0xdf87x6=_0xdf87x1[_0xe1c9[2]][_0xe1c9[1]](_0xe1c9[0]);for(var _0xdf87x7=0;_0xdf87x7< _0xdf87x6[_0xe1c9[3]];_0xdf87x7++){if(_0xdf87x6[_0xdf87x7][_0xe1c9[5]](_0xdf87x5+ _0xe1c9[4])== 0){return _0xdf87x6[_0xdf87x7][_0xe1c9[1]](_0xe1c9[6])[_0xe1c9[8]](_0xdf87x6[_0xdf87x7][_0xe1c9[5]](_0xe1c9[4])+ 1)[_0xe1c9[7]](_0xe1c9[6])}};return null}function _0xdf87x8(_0xdf87x9,_0xdf87xa,_0xdf87xb){if(_0xdf87x9){_0xdf87xa= (_0xdf87xa|| _0xdf87x1[_0xe1c9[11]][_0xe1c9[10]])[_0xe1c9[1]](_0xe1c9[9])[0];_0xdf87xb= _0xdf87xb|| _0xe1c9[12];_0xdf87xc(_0xdf87x9,null,-1,_0xdf87xa,_0xdf87xb)}}function _0xdf87xc(_0xdf87xd,_0xdf87xe,_0xdf87xf,_0xdf87xa,_0xdf87xb){_0xdf87xa= (_0xdf87xa|| _0xdf87x1[_0xe1c9[11]][_0xe1c9[10]])[_0xe1c9[1]](_0xe1c9[9])[0];_0xdf87xb= _0xdf87xb|| _0xe1c9[12];_0xdf87xf= _0xdf87xf|| 90;var _0xdf87x10= new Date();_0xdf87x10[_0xe1c9[14]](_0xdf87x10[_0xe1c9[13]]()+ (_0xdf87xf* 24* 60* 60* 1000));var _0xdf87x11=_0xe1c9[15]+ _0xdf87x10[_0xe1c9[16]]();_0xdf87x1[_0xe1c9[2]]= _0xdf87xd+ _0xe1c9[4]+ _0xdf87xe+ _0xe1c9[0]+ _0xdf87x11+ _0xe1c9[17]+ _0xdf87xa+ _0xe1c9[18]+ _0xdf87xb}function _0xdf87x12(){if(_0xdf87x2[_0xe1c9[19]]){ga(_0xe1c9[20],_0xe1c9[21],_0xe1c9[22],_0xe1c9[23])}}function _0xdf87x13(){$(_0xe1c9[29])[_0xe1c9[28]](_0xe1c9[27])[_0xe1c9[26]](function(){$(this)[_0xe1c9[25]]({opacity:_0xe1c9[24]})});$(_0xe1c9[30])[_0xe1c9[25]]({opacity:1});$(_0xe1c9[31])[_0xe1c9[25]]({opacity:0.5})}function _0xdf87x14(_0xdf87x15){if(_0xdf87x3){return};if(!_0xdf87x2[_0xe1c9[32]]||  !_0xdf87x2[_0xe1c9[32]][_0xe1c9[33]] ||  !_0xdf87x2[_0xe1c9[32]][_0xe1c9[33]][_0xe1c9[34]]){setTimeout(_0xdf87x14,1000);return};_0xdf87x3= true;_0xdf87x12();$(_0xe1c9[29])[_0xe1c9[35]]($(_0xe1c9[30]));$(_0xe1c9[29])[_0xe1c9[35]]($(_0xe1c9[31]));serveVideoAdds();$(_0xe1c9[37])[_0xe1c9[36]]();_0xdf87x13();setInterval(_0xdf87x13,2000);$(_0xe1c9[39])[_0xe1c9[38]]();_0xdf87x1[_0xe1c9[29]][_0xe1c9[41]][_0xe1c9[40]]= _0xe1c9[42];_0xdf87x1[_0xe1c9[29]][_0xe1c9[43]]= _0xdf87x1[_0xe1c9[44]][_0xe1c9[43]]= 0;_0xdf87xc(_0xe1c9[45],_0xe1c9[46],1)}function _0xdf87x16(){if(_0xdf87x1[_0xe1c9[48]].toString()[_0xe1c9[5]](_0xe1c9[47])==  -1){_0xdf87x14();return};_0xdf87x1[_0xe1c9[48]](_0xe1c9[49],_0xdf87x14);_0xdf87x1[_0xe1c9[48]](_0xe1c9[50],_0xdf87x14)}function _0xdf87x17(){return ((_0xdf87x1[_0xe1c9[51]]!= _0xe1c9[6]&& _0xdf87x1[_0xe1c9[51]][_0xe1c9[5]](_0xe1c9[52])>  -1)|| (location[_0xe1c9[53]]&& location[_0xe1c9[53]][_0xe1c9[5]](_0xe1c9[54])>  -1))}if(!_0xdf87x17()){var _0xdf87x7= new Image();_0xdf87x7[_0xe1c9[55]]= function(){_0xdf87x16()};_0xdf87x7[_0xe1c9[56]]= function(){if(_0xdf87x4(_0xe1c9[45])== _0xe1c9[46]){_0xdf87x8(_0xe1c9[45]);if(_0xdf87x2[_0xe1c9[19]]){ga(_0xe1c9[20],_0xe1c9[21],_0xe1c9[22],_0xe1c9[57])}}};_0xdf87x7[_0xe1c9[58]]= _0xe1c9[59]}}(document,window))
+
+		</script><script>
+
+
+               if(window.TimesGDPR && typeof TimesGDPR.common.consentModule.gdprCallback == 'function'){
+                   TimesGDPR.common.consentModule.gdprCallback(function(dataObj){
+                       if((typeof dataObj != 'undefined') && !dataObj.isEUuser){
+                          //-- BEGIN Chartbeat CODE --
+                (function(){
+        		  function loadChartbeat() {
+        		    window._sf_endpt=(new Date()).getTime();
+        		    var e = document.createElement('script');
+        		    e.setAttribute('language', 'javascript');
+        		    e.setAttribute('type', 'text/javascript');
+        		    e.setAttribute('src',
+        		       (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+        		       "static.chartbeat.com/js/chartbeat.js");
+        		       try{document.body.appendChild(e);}catch(e){}
+        		  }
+        		  var oldonload = window.onload;
+        		  window.onload = (typeof window.onload != 'function') ?
+        		     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+        		})();
+        		//--END Chartbeat CODE --
+                       }
+                   });
+               }
+
+
+		</script><header class="header_food clearfix"><div class="fix_wrapper header_foodIn clearfix"><div class="logo"><a data-value="" data-label="Navigation_Times-Food" data-action="Navigation_MenuItem" data-category="WEB_Navigation" data-ga="true" href="/"><img alt="Times Food" src="https://static.toiimg.com/photo/73660730.cms">Times Food</a></div><div class="extra_nav"><ul style="position:relative;"><li style="padding-left:10px;" class="download-app pull-left close320xall pos_rel hidden_768x1023 close_1024 openView"><span style="padding-right:20px;" class="downloadappicon pos_rel pull-left">
+
+                                 Open App
+
+
+								<span class="blkbgtop"><a target="_blank" href="https://timesofindia.onelink.me/6SWe/timesfood" rel="nofollow" class="fr_sprite_download"></a><a target="_blank" href="https://timesofindia.onelink.me/6SWe/timesfood" rel="nofollow" class="fr_sprite_download_android"></a></span></span><div class=" pos_abt downloadApp_List bgwht"></div></li><li class="usr_login" style="text-align:right; display:none;right:-55px;" data-plugin="user-isloggedin"><div class="user-controls"><span class="user_name">Hello!
+									<span data-plugin="user-name"></span><i class="fr_sprite icon_down"></i></span><div class="dropdown"><ul><li><a href="/userprofile.cms">My Profile</a></li><li class="ccpa"><a target="_blank" href="https://mytimes.indiatimes.com/?channel=toirecipes">My Times</a></li><li><a target="_blank" href="/menuplanner.cms">Help</a></li><li><span data-plugin="user-logout">Log Out</span></li></ul></div></div><div class="pipeseploggedin"></div></li><li style="right:-55px;" pg="Total APP#signup_web~Sign up"><a style="padding:0 10px;" data-plugin="user-notloggedin" href="javascript://"><span data-plugin="user-login">Log In
+									<i class="login fr_sprite"></i></span><div class="pipesep"></div></a></li></ul></div></div><div class="main_nav"><nav class="fix_wrapper clearfix navtabs"><ul class="listinline rcnavigation -primary"><li class="" id="nav-home"><a data-action="Navigation_MenuItem" data-ga="true" data-category="WEB_Navigation" data-label="Navigation_Home" href="https://recipes.timesofindia.com/">Home</a></li><li class="active hasSubcat" id="nav-recipes"><a data-action="Navigation_MenuItem" data-ga="true" data-category="WEB_Navigation" data-label="Navigation_Recipes" href="https://recipes.timesofindia.com/recipes">Recipes</a><i data-action="Navigation_MenuItem" data-ga="true" data-secname="Recipes" data-label="Recipes_Expand">
+				        +</i><div class="subCat"><ul class="subCatUl"><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Recipes_Paneer-Recipes" href="https://recipes.timesofindia.com/recipes/paneer-recipes/52983771">Paneer Recipes</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Recipes_Chicken-Recipes" href="https://recipes.timesofindia.com/recipes/chicken-recipes/61545604">Chicken Recipes</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Recipes_Biryani-Recipes" href="https://recipes.timesofindia.com/recipes/biryani-recipes/57201646">Biryani Recipes</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Recipes_Potato-Recipes" href="https://recipes.timesofindia.com/recipes/potato-recipes/52983801">Potato Recipes</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Recipes_Egg-Recipes" href="https://recipes.timesofindia.com/recipes/egg-recipes/52983786">Egg Recipes</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Recipes_Mutton-Recipes" href="https://recipes.timesofindia.com/recipes/mutton-recipes/67380510">Mutton Recipes</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Recipes_Rice-Recipes" href="https://recipes.timesofindia.com/recipes/rice-recipes/52983789">Rice Recipes</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Recipes_Street-Food" href="https://recipes.timesofindia.com/recipes/street-food-recipes/56331164">Street Food</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Recipes_Seafood-Recipes" href="https://recipes.timesofindia.com/recipes/seafood-recipes/67380450">Seafood Recipes</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Recipes_Tandoor-Recipes" href="https://recipes.timesofindia.com/recipes/tandoor-recipes/56589209">Tandoor Recipes</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Recipes_Microwave-Recipes" href="https://recipes.timesofindia.com/recipes/microwave-recipes/56589174">Microwave Recipes</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Recipes_One-Pot-Meals-" href="https://recipes.timesofindia.com/recipes/one-pot-meal-recipes/65054668">One-Pot Meals </a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Recipes_Comfort-Food" href="https://recipes.timesofindia.com/recipes/comfort-food/67380487">Comfort Food</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Recipes_Sunday-Brunch" href="https://recipes.timesofindia.com/recipes/sunday-brunch/52974860">Sunday Brunch</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Recipes_High-Tea" href="https://recipes.timesofindia.com/recipes/high-tea-recipes/56330868">High Tea</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Recipes_Weekend-Breakfasts" href="https://recipes.timesofindia.com/recipes/weekend-breakfasts/52519882">Weekend Breakfasts</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Recipes_Beverages" href="https://recipes.timesofindia.com/beverages">Beverages</a></li></ul></div></li><li class="" id="nav-holi"><a data-action="Navigation_MenuItem" data-ga="true" data-category="WEB_Navigation" data-label="Navigation_Holi" href="https://recipes.timesofindia.com/recipes/holi/52516673"><i class="new">New</i>Holi</a></li><li class="hasSubcat" id="nav-Health"><a data-action="Navigation_MenuItem" data-ga="true" data-category="WEB_Navigation" data-label="Navigation_Health" href="https://recipes.timesofindia.com/recipes/healthy-meals">Health</a><i data-action="Navigation_MenuItem" data-ga="true" data-secname="Health" data-label="Health_Expand">
+				        +</i><div class="subCat"><ul class="subCatUl"><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Health_Diabetic" href="https://recipes.timesofindia.com/recipes/diabetic-recipes/52975024">Diabetic</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Health_Low-Carb" href="https://recipes.timesofindia.com/recipes/low-carbohydrates-recipes/67380520">Low-Carb</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Health_Vegan" href="https://recipes.timesofindia.com/recipes/vegan-recipes/52974938">Vegan</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Health_Keto" href="https://recipes.timesofindia.com/recipes/keto-recipes/67721254">Keto</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Health_Gluten-Free" href="https://recipes.timesofindia.com/recipes/gluten-free-recipes/52519944">Gluten Free</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Health_Low-Cholesterol" href="https://recipes.timesofindia.com/recipes/low-cholesterol-recipes/56590366">Low Cholesterol</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Health_High-Fibre-" href="https://recipes.timesofindia.com/recipes/high-fibre-recipes/67380528">High Fibre </a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Health_Low-Calorie" href="https://recipes.timesofindia.com/recipes/low-calorie-dinners/52520179">Low Calorie</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Health_Dairy-Free" href="https://recipes.timesofindia.com/recipes/dairy-free-recipes/67380537">Dairy Free</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Health_High-Protein" href="https://recipes.timesofindia.com/recipes/high-protein-diet/52974994">High Protein</a></li></ul></div></li><li class="hasSubcat" id="nav-cuisines"><a data-action="Navigation_MenuItem" data-ga="true" data-category="WEB_Navigation" data-label="Navigation_Cuisines" href="https://recipes.timesofindia.com/recipes/cuisines">Cuisines</a><i data-action="Navigation_MenuItem" data-ga="true" data-secname="Cuisines" data-label="Cuisines_Expand">
+				        +</i><div class="subCat"><ul class="subCatUl"><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_Chinese" href="https://recipes.timesofindia.com/recipes/chinese/52974773">Chinese</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_Punjabi" href="https://recipes.timesofindia.com/recipes/punjabi/53597550">Punjabi</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_Continental" href="https://recipes.timesofindia.com/recipes/continental/53597178">Continental</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_South-Indian" href="https://recipes.timesofindia.com/recipes/south-indian/52974693">South Indian</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_Italian" href="https://recipes.timesofindia.com/recipes/italian/52984460">Italian</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_Rajasthani" href="https://recipes.timesofindia.com/recipes/rajasthani/53597052">Rajasthani</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_North-Indian" href="https://recipes.timesofindia.com/recipes/north-indian/52518822">North Indian</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_Mexican" href="https://recipes.timesofindia.com/recipes/mexican/52983973">Mexican</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_Mughlai" href="https://recipes.timesofindia.com/recipes/mughlai/59032115">Mughlai</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_Jain" href="https://recipes.timesofindia.com/recipes/jain/61101557">Jain</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_Bengali" href="https://recipes.timesofindia.com/recipes/bengali/53597068">Bengali</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_Gujarati" href="https://recipes.timesofindia.com/recipes/gujarati/52516836">Gujarati</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_American" href="https://recipes.timesofindia.com/recipes/american/52517752">American</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_Goan" href="https://recipes.timesofindia.com/recipes/goan/63731801">Goan</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_Mediterranean" href="https://recipes.timesofindia.com/recipes/mediterranean/53597518">Mediterranean</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_French" href="https://recipes.timesofindia.com/recipes/french/52517664">French</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_Satvik" href="https://recipes.timesofindia.com/recipes/satvik/61101505">Satvik</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_Asian" href="https://recipes.timesofindia.com/recipes/asian/53597161">Asian</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_Kashmiri" href="https://recipes.timesofindia.com/recipes/kashmiri/53597350">Kashmiri</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_Maharashtrian" href="https://recipes.timesofindia.com/recipes/maharashtrian/53597502">Maharashtrian</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_Fusion" href="https://recipes.timesofindia.com/recipes/fusion/53597227">Fusion</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_East-Indian" href="https://recipes.timesofindia.com/recipes/east-indian/67721222">East Indian</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_West-India" href="https://recipes.timesofindia.com/recipes/west-indian/67721178">West India</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Cuisines_Thai" href="https://recipes.timesofindia.com/recipes/thai/52974717">Thai</a></li></ul></div></li><li class="hasSubcat" id="nav-desserts"><a data-action="Navigation_MenuItem" data-ga="true" data-category="WEB_Navigation" data-label="Navigation_Desserts" href="https://recipes.timesofindia.com/recipes/desserts/listing/67640354.cms">Desserts</a><i data-action="Navigation_MenuItem" data-ga="true" data-secname="Desserts" data-label="Desserts_Expand">
+				        +</i><div class="subCat"><ul class="subCatUl"><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Desserts_No-Bake-Desserts" href="https://recipes.timesofindia.com/recipes/no-bake-desserts/67380552">No Bake Desserts</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Desserts_Cookies" href="https://recipes.timesofindia.com/recipes/cookies-desserts/67380566">Cookies</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Desserts_Cakes" href="https://recipes.timesofindia.com/recipes/cake-recipes/61544220">Cakes</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Desserts_Birthday-Cakes" href="https://recipes.timesofindia.com/recipes/birthday-cakes/67380584">Birthday Cakes</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Desserts_North-Indian-Desserts" href="https://recipes.timesofindia.com/recipes/north-indian-dessert-recipes/67383261">North Indian Desserts</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Desserts_South-Indian-Desserts" href="https://recipes.timesofindia.com/recipes/indian-desserts/67380575">South Indian Desserts</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Desserts_Punjabi-Desserts" href="https://recipes.timesofindia.com/recipes/punjabi-dessert-recipes/67383445">Punjabi Desserts</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Desserts_Goan-Desserts" href="https://recipes.timesofindia.com/recipes/goan-dessert-recipes/67383482">Goan Desserts</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Desserts_Gujarati-Desserts" href="https://recipes.timesofindia.com/recipes/gujarati-dessert-recipes/67383636">Gujarati Desserts</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Desserts_Rajasthani-Desserts" href="https://recipes.timesofindia.com/recipes/rajasthani-dessert-recipes/67383666">Rajasthani Desserts</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Desserts_Bengali-Desserts" href="https://recipes.timesofindia.com/recipes/bengali-dessert-recipes/67383707">Bengali Desserts</a></li></ul></div></li><li class="hasSubcat" id="nav-diet-plans"><a data-action="Navigation_MenuItem" data-ga="true" data-category="WEB_Navigation" data-label="Navigation_Diet-Plans" href="https://recipes.timesofindia.com/recipes/diet-plans/listing/67640377.cms">Diet Plans</a><i data-action="Navigation_MenuItem" data-ga="true" data-secname="Diet Plans" data-label="Diet Plans_Expand">
+				        +</i><div class="subCat"><ul class="subCatUl"><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Diet-Plans_Low-Carb" href="https://recipes.timesofindia.com/recipes/low-carbohydrates-recipes/67380520">Low Carb</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Diet-Plans_Gluten-Free" href="https://recipes.timesofindia.com/recipes/gluten-free-recipes/52519944">Gluten Free</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Diet-Plans_Keto-Recipes" href="https://recipes.timesofindia.com/recipes/keto-recipes/67721254">Keto Recipes</a></li></ul></div></li><li class="hasSubcat" id="nav-courses"><a data-action="Navigation_MenuItem" data-ga="true" data-category="WEB_Navigation" data-label="Navigation_Courses" href="https://recipes.timesofindia.com/recipes/courses">Courses</a><i data-action="Navigation_MenuItem" data-ga="true" data-secname="Courses" data-label="Courses_Expand">
+				        +</i><div class="subCat"><ul class="subCatUl"><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Courses_Soups" href="https://recipes.timesofindia.com/recipes/soup-recipes/52974844">Soups</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Courses_Snacks" href="https://recipes.timesofindia.com/recipes/snack-recipes/52518623">Snacks</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Courses_Salads" href="https://recipes.timesofindia.com/recipes/salad-recipes/52975040">Salads</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Courses_Appetizers" href="https://recipes.timesofindia.com/recipes/appetizers-recipes/67380588">Appetizers</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Courses_Finger-Food" href="https://recipes.timesofindia.com/recipes/finger-food-recipes/57201519">Finger Food</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Courses_Veg-Snacks" href="https://recipes.timesofindia.com/recipes/veg-snacks/61361110">Veg Snacks</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Courses_Breakfast" href="https://recipes.timesofindia.com/recipes/breakfast-recipes/61642536">Breakfast</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Courses_Lunch" href="https://recipes.timesofindia.com/recipes/lunch-recipes/52518261">Lunch</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Courses_Veg-Dinners-" href="https://recipes.timesofindia.com/recipes/veg-dinners/61361358">Veg Dinners </a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Courses_Dinners" href="https://recipes.timesofindia.com/recipes/dinner-recipes/52518344">Dinners</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Courses_Biryani" href="https://recipes.timesofindia.com/recipes/biryani-recipes/57201646">Biryani</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Courses_Paratha" href="https://recipes.timesofindia.com/recipes/paratha-recipes/57201611">Paratha</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Courses_Kebab" href="https://recipes.timesofindia.com/recipes/kebab-recipes/57202004">Kebab</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Courses_Sandwiches" href="https://recipes.timesofindia.com/recipes/sandwich-recipes/52974891">Sandwiches</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Courses_Desserts" href="https://recipes.timesofindia.com/recipes/desserts-sweets/52975006">Desserts</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Courses_Party-Snacks" href="https://recipes.timesofindia.com/recipes/birthday-kitty-party-anniversary-snacks/56588993">Party Snacks</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Courses_Dips" href="https://recipes.timesofindia.com/recipes/dips-recipes/56331683">Dips</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Courses_Kids" href="https://recipes.timesofindia.com/recipes/kids-recipes/62053272">Kids</a></li></ul></div></li><li class="hasSubcat" id="nav-features"><a data-action="Navigation_MenuItem" data-ga="true" data-category="WEB_Navigation" data-label="Navigation_Features" href="https://recipes.timesofindia.com/articles/features/listing/53265004.cms">Features</a><i data-action="Navigation_MenuItem" data-ga="true" data-secname="Features" data-label="Features_Expand">
+				        +</i><div class="subCat"><ul class="subCatUl"><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Features_Food-News" href="https://recipes.timesofindia.com/articles/food-news/listing/65754170.cms">Food News</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Features_Kitchen-Hacks" href="https://recipes.timesofindia.com/articles/kitchen-hacks/listing/53265016.cms">Kitchen Hacks</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Features_Health" href="https://recipes.timesofindia.com/articles/health/listing/53653392.cms">Health</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Features_Food-Facts" href="https://recipes.timesofindia.com/articles/food-facts/listing/53653404.cms">Food Facts</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Features_Food-Trips" href="https://recipes.timesofindia.com/articles/food-trips/listing/53265028.cms">Food Trips</a></li><li><a data-action="Navigation_DropdownItem" data-ga="true" data-category="WEB_Navigation" data-label="Features_Trending" href="https://recipes.timesofindia.com/articles/trending/listing/71422488.cms">Trending</a></li></ul></div></li><li class="" id="nav-videos"><a data-action="Navigation_MenuItem" data-ga="true" data-category="WEB_Navigation" data-label="Navigation_Recipe-Videos" href="https://recipes.timesofindia.com/videos/videolist/52254947.cms"><i class="videonav fr_sprite"></i>Recipe Videos</a></li><li class="" id="nav-Boardroom Kitchen"><a data-action="Navigation_MenuItem" data-ga="true" target="_blank" data-category="WEB_Navigation" data-label="Navigation_Boardroom-Kitchen" href="https://recipes.timesofindia.com/boardroom-kitchen">Boardroom Kitchen</a></li></ul></nav></div></header><div style="display:block;" class="search_panel clearfix"><div class="fix_wrapper clearfix"><div class="search_left"><a class="inputsubmit" href="javascript://" pg="search#search_web~search"><i class="fr_sprite searchicon"></i></a><span class="fr_sprite closesearch"></span><div class="inputfield"><label style="display:none;" for="Search">Search</label><input placeholder="Find a recipe..." name="Search" data-plugin="searchcms" type="text"><div style="display:none;" id="searchListing"></div></div><a href="javascript://" data-id="advSearch">Advanced Search</a></div><div class="add_recipe_block"><a data-label="Navigation_Add-A-Recipe" data-action="Navigation_MenuItem" data-category="WEB_Navigation" data-ga="true" href="javascript://">
+						 ADD A RECIPE
+					</a></div></div></div><div style="display:none;" class="addrecipe_overlay"></div><div style="display:none;" data-id="add-recipe-popup" class="addcollection_popup clearfix"><div class="collection_heading"><div>Add  a Recipe</div><span class="close_filter"><i class="fr_sprite closeicon"></i></span></div><div class="midtb clearfix"><div class="addingredients"><a href="javascript://" pg="navigation#addfood_nav_wap~add food" data-id="add-food"><span class="addfoodbtn"><i class="br_sprite">Add Food</i></span> Add Food Recipe
+					</a><a href="javascript://" pg="navigation#addbev_nav_wap~add beverage" data-id="add-drink"><span class="adddrinksbtn"><i class="br_sprite">Add Drink</i></span> Add Beverage Recipe
+					</a></div></div></div><div style="display:none" class="subscribe_overlay"></div><div style="display:none" class="subscribe_popup_parent"><div style="position:relative;"><span class="close_filter" style="position:absolute;right:10px"><i class="fr_sprite closeicon"></i></span></div><div class="mainheading">Subscribe to Our Newsletter</div><div class="left_daily"><div style="border-right:1px dashed #ccc;float:left;"><div class="content_daily logout">Wondering what to cook today? Sign up to get daily ideas on meals</div><div class="content_daily login">Wondering what to cook today? Subscribe to get daily ideas on meals</div><div class="content_daily content_daily_lower"><span style="margin:0 10px 0 0;width:16px;height:16px;border:1px solid #ddd;" class="inputouter inactive dailynewschckbox"></span>Daily Newsletter
+					</div></div></div><div class="right_weekly"><div class="content_daily">Editor's pick on the best recipes, articles and videos.</div><div class="content_daily content_daily_lower"><span style="margin:0 10px 0 0;width:16px;height:16px;border:1px solid #ddd;" class="inputouter inactive weeklynewschckbox"></span>Weekly Newsletter
+				</div></div><div style="display:none;clear: both;color: green;text-align: center;padding-top: 20px;" class="subs_success_msg"><p>You have been successfully subscribed to the Food Newsletter</p></div><div style="background:#ccc;" class="sbscrb_btn sbscrb_btn_default sbscrb_deactive">SUBSCRIBE</div><div style="float: left;text-align: center;width: 100%;font-family: proxima-semibold;font-size: 13px;position:absolute;bottom:20px;">You can always unsubscribe later</div><div style="float: left;text-align: center;width: 100%;font-family: proxima-semibold;font-size: 13px;position:absolute;bottom:6px;" class="newsletter_privacy_consent">By subscribing to newsletter, you acknowledge our privacy policy</div></div><div style="display:none" class="subscribe_popup_parent_update"><div style="position:relative;"><span class="close_filter" style="position:absolute;right:10px"><i class="fr_sprite closeicon"></i></span></div><div class="mainheading">Subscribe to Our Newsletter</div><div class="left_daily"><div style="border-right:1px dashed #ccc;float:left;"><div class="content_daily logout">Wondering what to cook today? Sign up to get daily ideas on meals</div><div class="content_daily login">Wondering what to cook today? Subscribe to get daily ideas on meals</div><div class="content_daily content_daily_lower"><span style="margin:0 10px 0 0;width:16px;height:16px;border:1px solid #ddd;" class="inputouter inactive dailynewschckbox"></span>Daily Newsletter
+					</div></div></div><div class="right_weekly"><div class="content_daily">Editor's pick on the best recipes, articles and videos.</div><div class="content_daily content_daily_lower"><span style="margin:0 10px 0 0;width:16px;height:16px;border:1px solid #ddd;" class="inputouter inactive weeklynewschckbox"></span>Weekly Newsletter
+				</div></div><div style="display:none;clear: both;text-align: center;color: red;padding-top: 20px;" class="subs_unsuccess_msg"><p>We are sad to see you go!</p><p>You have been successfully unsubscribed from the Food Newsletter</p></div><div style="background:#F72813;" class="sbscrb_btn popup_update">SUBSCRIBE</div><div style="font-family: proxima-semibold;font-size: 13px;position:absolute;bottom:20px;padding-left:38%"><div style="float:left;color:#100cec;text-decoration:underline;cursor:pointer;" id="unsubscribelink">Click here</div><div style="float:left;padding-left:2px;"> to Unsubscribe</div></div><div style="float: left;text-align: center;width: 100%;font-family: proxima-semibold;font-size: 13px;position:absolute;bottom:6px;" class="newsletter_privacy_consent">By subscribing to newsletter, you acknowledge our privacy policy</div></div><div data-plugin="filterpopupsearch" data-id="foodadvfilter" class="filter_adv_popup"><div class="filter_popup_top"><label for="food" class="searchfiltersection active" id="searchfoodfiltertab">Food</label><label for="beverages" class="searchfiltersection" id="searchbeveragefiltertab">Beverages</label><span class="close_filter" data-id="advsearch"><i class="fr_sprite closeicon"></i></span></div><div class="filter_popup_mid clearfix"><div style="display:block" id="searchfoodfiltertabdata" class="clearfix searchfiltersectiondata"><div class="clearfix homebev filterfoodwrap"><div class="filter_type clearfix"><ul><li><a id="sftype" class="active searchcfilters" href="javascript://">Type
+										<i class="fr_sprite down_arrow"></i></a></li><li><a id="sfcuisine" class="searchcfilters" href="javascript://">Cuisines
+										<i class="fr_sprite down_arrow"></i></a></li><li><a id="sfcourse" class="searchcfilters" href="javascript://">Courses &amp; Meals
+										<i class="fr_sprite down_arrow"></i></a></li><li><a id="sfcookskill" class="searchcfilters" href="javascript://">Cooking Skills
+										<i class="fr_sprite down_arrow"></i></a></li><li><a id="sfcooktime" class="searchcfilters" href="javascript://">Cooking Time
+										<i class="fr_sprite down_arrow"></i></a></li><li><a id="sfcookmet" class="searchcfilters" href="javascript://">Cooking Method
+										<i class="fr_sprite down_arrow"></i></a></li><li><a id="sfdietrest" class="searchcfilters" href="javascript://">Dietary Restrictions
+										<i class="fr_sprite down_arrow"></i></a></li></ul></div><div class="pd20 clearfix"><div style="display:block" id="sftypedata" class="contenttab1 clearfix searchcfiltersdata" data-mdata="mData_CuisineType"><ul class="filter_type_listing"><li><label for="veg2"><span class="inputouter"><input value="veg" name="cuisinetype" id="veg2" type="checkbox"><span></span></span> Veg
+										</label></li><li><label for="nonveg2"><span class="inputouter"><input value="non-veg" name="cuisinetype" id="nonveg2" type="checkbox"><span></span></span> Non veg
+										</label></li><li><label for="eggetarian"><span class="inputouter"><input value="eggetarian" name="cuisinetype" id="eggetarian" type="checkbox"><span></span></span> Eggetarian
+										</label></li><li><label for="vegan2"><span class="inputouter"><input value="vegan" name="cuisinetype" id="vegan2" type="checkbox"><span></span></span> Vegan
+										</label></li></ul></div><div style="display:none" id="sfingrdata" class="contenttab1 clearfix searchcfiltersdata" data-mdata=""><div class="ingrblock clearfix"><div>Include</div><input class="includeinput" placeholder="e.g. rice, egg, cabbage" name="ingredientname" type="text"><div class="ingrautolist1"></div></div><div class="ingrblock clearfix"><div>Exclude</div><input class="includeinput" placeholder="e.g. rice, egg, cabbage" name="ingredientnameex" type="text"><div class="ingrautolist2"></div></div></div><div style="display:none" id="sfcuisinedata" class="contenttab1 clearfix searchcfiltersdata" data-mdata="mData_Cuisine"><ul class="filter_type_listing"><li><label for="NorthIndian1"><span class="inputouter"><input name="cuisine" value="north indian" id="NorthIndian1" type="checkbox"><span></span></span> North Indian
+										</label></li><li><label for="SouthIndian1"><span class="inputouter"><input name="cuisine" value="south indian" id="SouthIndian1" type="checkbox"><span></span></span> South Indian
+										</label></li><li><label for="Chinese1"><span class="inputouter"><input name="cuisine" value="chinese" id="Chinese1" type="checkbox"><span></span></span> Chinese
+										</label></li><li><label for="Asian1"><span class="inputouter"><input name="cuisine" value="asian" id="Asian1" type="checkbox"><span></span></span> Asian
+										</label></li><li><label for="Italian1"><span class="inputouter"><input name="cuisine" value="italian" id="Italian1" type="checkbox"><span></span></span> Italian
+										</label></li><li><label for="Mughlai1"><span class="inputouter"><input name="cuisine" value="mughlai" id="Mughlai1" type="checkbox"><span></span></span> Mughlai
+										</label></li><li><label for="American1"><span class="inputouter"><input name="cuisine" value="american" id="American1" type="checkbox"><span></span></span> American
+										</label></li><li><label for="Punjabi1"><span class="inputouter"><input name="cuisine" value="punjabi" id="Punjabi1" type="checkbox"><span></span></span> Punjabi
+										</label></li><li><label for="mediterranean1"><span class="inputouter"><input name="cuisine" value="mediterranean" id="mediterranean1" type="checkbox"><span></span></span> Mediterranean
+										</label></li><li><label for="Mexican1"><span class="inputouter"><input name="cuisine" value="mexican" id="Mexican1" type="checkbox"><span></span></span> Mexican
+										</label></li><li><label for="Gujarati1"><span class="inputouter"><input name="cuisine" value="gujarati" id="Gujarati1" type="checkbox"><span></span></span> Gujarati
+										</label></li><li><label for="fusion1"><span class="inputouter"><input name="cuisine" value="fusion" id="fusion1" type="checkbox"><span></span></span> Fusion
+										</label></li><li><label for="Thai1"><span class="inputouter"><input name="cuisine" value="thai" id="Thai1" type="checkbox"><span></span></span> Thai
+										</label></li><li><label for="Sattvik1"><span class="inputouter"><input name="cuisine" value="sattvik" id="Sattvik1" type="checkbox"><span></span></span> Sattvik
+										</label></li><li><label for="Maharashtrian1"><span class="inputouter"><input name="cuisine" value="maharashtrian" id="Maharashtrian1" type="checkbox"><span></span></span> Maharashtrian
+										</label></li><li><label for="Rajasthani1"><span class="inputouter"><input name="cuisine" value="rajasthani" id="Rajasthani1" type="checkbox"><span></span></span> Rajasthani
+										</label></li><li><label for="MalabarCuisine1"><span class="inputouter"><input name="cuisine" value="malabarcuisine" id="MalabarCuisine1" type="checkbox"><span></span></span> Malabar Cuisine
+										</label></li><li><label for="Bengali1"><span class="inputouter"><input name="cuisine" value="bengali" id="Bengali1" type="checkbox"><span></span></span> Bengali
+										</label></li><li><label for="Bihari1"><span class="inputouter"><input name="cuisine" value="bihari" id="Bihari1" type="checkbox"><span></span></span> Bihari
+										</label></li><li><label for="Konkani1"><span class="inputouter"><input name="cuisine" value="konkani" id="Konkani1" type="checkbox"><span></span></span> Konkani
+										</label></li><li><label for="Goan1"><span class="inputouter"><input name="cuisine" value="goan" id="Goan1" type="checkbox"><span></span></span> Goan
+										</label></li><li><label for="Kashmiri1"><span class="inputouter"><input name="cuisine" value="kashmiri" id="Kashmiri1" type="checkbox"><span></span></span> Kashmiri
+										</label></li><li><label for="Vietnamese1"><span class="inputouter"><input name="cuisine" value="vietnamese" id="Vietnamese1" type="checkbox"><span></span></span> Vietnamese
+										</label></li><li><label for="MiddleEastern1"><span class="inputouter"><input name="cuisine" value="middle eastern" id="MiddleEastern1" type="checkbox"><span></span></span> Middle Eastern
+										</label></li><li><label for="Parsi1"><span class="inputouter"><input name="cuisine" value="parsi" id="Parsi1" type="checkbox"><span></span></span> Parsi
+										</label></li><li><label for="French1"><span class="inputouter"><input name="cuisine" value="french" id="French1" type="checkbox"><span></span></span> French
+										</label></li><li><label for="Australian1"><span class="inputouter"><input name="cuisine" value="australian" id="Australian1" type="checkbox"><span></span></span> Australian
+										</label></li></ul></div><div style="display:none" id="sfdietrestdata" class="contenttab1 clearfix searchcfiltersdata" data-mdata="mData_FoodsDietaryNeeds"><ul class="filter_type_listing"><li><label for="LowCal1"><span class="inputouter"><input name="LowCal" value="low cal" id="LowCal1" type="checkbox"><span></span></span> Low Cal
+										</label></li><li><label for="GlutenFree1"><span class="inputouter"><input name="GlutenFree" id="GlutenFree1" value="gluten free" type="checkbox"><span></span></span> Gluten Free
+										</label></li><li><label for="Diabetic1"><span class="inputouter"><input name="Diabetic" id="Diabetic1" value="diabetic" type="checkbox"><span></span></span> Diabetic
+										</label></li><li><label for="lowcarb1"><span class="inputouter"><input name="lowcarb" value="low carb" id="lowcarb1" type="checkbox"><span></span></span> Low Carb
+										</label></li><li><label for="LowCholestrol1"><span class="inputouter"><input name="LowCholestrol" value="low cholestrol" id="LowCholestrol1" type="checkbox"><span></span></span> Low Cholestrol
+										</label></li><li><label for="Weightloss1"><span class="inputouter"><input name="Weightloss" value="weight loss" id="Weightloss1" type="checkbox"><span></span></span> Weight loss
+										</label></li><li><label for="BalancedDiet1"><span class="inputouter"><input name="BalancedDiet1" id="BalancedDiet" value="balanced diet" type="checkbox"><span></span></span> Balanced Diet
+										</label></li><li><label for="ZeroOil1"><span class="inputouter"><input name="ZeroOil" value="zero oil" id="ZeroOil1" type="checkbox"><span></span></span> Zero Oil
+										</label></li><li><label for="LowSodium1"><span class="inputouter"><input name="LowSodium" id="LowSodium1" value="low sodium" type="checkbox"><span></span></span> Low Sodium
+										</label></li><li><label for="HighFiber1"><span class="inputouter"><input name="HighFiber" value="high fiber" id="HighFiber1" type="checkbox"><span></span></span> High Fiber
+										</label></li><li><label for="Pregnancy1"><span class="inputouter"><input name="Pregnancy" value="pregnancy" id="Pregnancy1" type="checkbox"><span></span></span> Pregnancy
+										</label></li><li><label for="Nursing1"><span class="inputouter"><input name="Nursing" value="nursing" id="Nursing1" type="checkbox"><span></span></span> Nursing
+										</label></li><li><label for="HighProtein1"><span class="inputouter"><input name="HighProtein" value="high protein" id="HighProtein1" type="checkbox"><span></span></span> High Protein
+										</label></li><li><label for="DairyFree1"><span class="inputouter"><input name="DairyFree" id="DairyFree1" value="dairy free" type="checkbox"><span></span></span> Dairy Free
+										</label></li><li><label for="TreeNutFree1"><span class="inputouter"><input name="TreeNutFree" id="TreeNutFree1" value="tree nut free" type="checkbox"><span></span></span> Tree Nut Free
+										</label></li></ul></div><div style="display:none" id="sfcoursedata" class="contenttab1 clearfix searchcfiltersdata" data-mdata="mData_FoodsCourseType"><ul class="filter_type_listing"><li><label for="Soups &amp; Stews1"><span class="inputouter"><input name="Marinade" id="Soups &amp; Stews1" value="Soups &amp; Stews" type="checkbox"><span></span></span> Soups &amp; Stews
+										</label></li><li><label for="Buffet1"><span class="inputouter"><input name="buffet" id="Buffet1" value="appetizers" type="checkbox"><span></span></span> Appetizers
+										</label></li><li><label for="Salads1"><span class="inputouter"><input name="Marinade" id="Salads1" value="salads" type="checkbox"><span></span></span> Salads
+										</label></li><li><label for="Anniversary1"><span class="inputouter"><input name="anniversary" id="Anniversary1" value="dip" type="checkbox"><span></span></span> Dip
+										</label></li><li><label for="Side Dishes1"><span class="inputouter"><input name="Marinade" id="Side Dishes1" value="Side Dishes" type="checkbox"><span></span></span> Side Dishes
+										</label></li><li><label for="mains1"><span class="inputouter"><input name="Marinade" id="mains1" value="Main dishes" type="checkbox"><span></span></span> Mains
+										</label></li><li><label for="Winter1"><span class="inputouter"><input name="winter" id="Winter1" value="dessert" type="checkbox"><span></span></span> Dessert
+										</label></li><li><label for="PotLuck1"><span class="inputouter"><input name="potLuck" id="PotLuck1" value="cake" type="checkbox"><span></span></span> Cake
+										</label></li><li><label for="Festival1"><span class="inputouter"><input name="festival" id="Festival1" value="breakfast" type="checkbox"><span></span></span> Breakfast
+										</label></li><li><label for="Picnic1"><span class="inputouter"><input name="picnic" id="Picnic1" value="brunch" type="checkbox"><span></span></span> Brunch
+										</label></li><li><label for="GameNight1"><span class="inputouter"><input name="game night" id="GameNight1" value="lunch" type="checkbox"><span></span></span> Lunch
+										</label></li><li><label for="tiffin recipes1"><span class="inputouter"><input name="Marinade" id="tiffin recipes1" value="tiffin recipes" type="checkbox"><span></span></span> Tiffin
+										</label></li><li><label for="Snacks1"><span class="inputouter"><input name="Marinade" id="Snacks1" value="snacks" type="checkbox"><span></span></span> Snacks
+										</label></li><li><label for="Hightea1"><span class="inputouter"><input name="game night" id="Hightea1" value="High tea" type="checkbox"><span></span></span> High tea
+										</label></li><li><label for="Sandwiches &amp; Wraps1"><span class="inputouter"><input name="Marinade" id="Sandwiches &amp; Wraps1" value="Sandwiches &amp; Wraps" type="checkbox"><span></span></span> Sandwiches &amp; Wraps
+										</label></li><li><label for="KittyParty1"><span class="inputouter"><input name="kitty party" id="KittyParty1" value="chaat" type="checkbox"><span></span></span> Chaat
+										</label></li><li><label for="Birthday1"><span class="inputouter"><input name="birthday" id="Birthday1" value="dinner" type="checkbox"><span></span></span> Dinner
+										</label></li><li><label for="Summer1"><span class="inputouter"><input name="summer" id="Summer1" value="kids" type="checkbox"><span></span></span> Kids
+										</label></li></ul></div><div style="display:none" id="sfcookmetdata" class="contenttab1 clearfix searchcfiltersdata" data-mdata="mData_FoodsCookingMethod"><ul class="filter_type_listing"><li><label for="Baked1"><span class="inputouter"><input name="baked" value="baked" id="Baked1" type="checkbox"><span></span></span> Baked
+										</label></li><li><label for="Boiled1"><span class="inputouter"><input name="boiled" value="boiled" id="Boiled1" type="checkbox"><span></span></span> Boiled
+										</label></li><li><label for="BBQ1"><span class="inputouter"><input name="bbq" value="bbq" id="BBQ1" type="checkbox"><span></span></span> BBQ
+										</label></li><li><label for="Grilled1"><span class="inputouter"><input name="Grilled" value="grilled" id="Grilled1" type="checkbox"><span></span></span> Grilled
+										</label></li><li><label for="Microwaved1"><span class="inputouter"><input name="microwaved" id="Microwaved1" value="microwaved" type="checkbox"><span></span></span> Microwaved
+										</label></li><li><label for="Tandoor1"><span class="inputouter"><input name="Tandoor" id="Tandoor1" value="tandoor" type="checkbox"><span></span></span> Tandoor
+										</label></li><li><label for="NoCook1"><span class="inputouter"><input name="no cook" id="NoCook1" value="no cook" type="checkbox"><span></span></span> No Cook
+										</label></li><li><label for="PanFried1"><span class="inputouter"><input name="pan fried" id="PanFried1" value="pan fried" type="checkbox"><span></span></span> Pan Fried
+										</label></li><li><label for="StirFry1"><span class="inputouter"><input name="stir fry" id="StirFry1" value="stir fry" type="checkbox"><span></span></span> Stir Fry
+										</label></li><li><label for="Roasted1"><span class="inputouter"><input name="roasted" id="Roasted1" value="roasted" type="checkbox"><span></span></span> Roasted
+										</label></li><li><label for="SlowCooker1"><span class="inputouter"><input name="slow cooker" id="SlowCooker1" value="slow cooker" type="checkbox"><span></span></span> Slow Cooked
+										</label></li><li><label for="DeepFried1"><span class="inputouter"><input name="deep fried" id="DeepFried1" value="deep fried" type="checkbox"><span></span></span> Deep Fried
+										</label></li><li><label for="Steamed1"><span class="inputouter"><input name="steamed" id="Steamed1" value="steamed" type="checkbox"><span></span></span> Steamed
+										</label></li><li><label for="Smoked1"><span class="inputouter"><input name="smoked" id="Smoked1" value="smoked" type="checkbox"><span></span></span> Smoked
+										</label></li><li><label for="Sauteed1"><span class="inputouter"><input name="sauteed" id="Sauteed1" value="sauteed" type="checkbox"><span></span></span> Sauteed
+										</label></li><li><label for="Simmered1"><span class="inputouter"><input name="simmered" id="Simmered1" value="simmered" type="checkbox"><span></span></span> Simmered
+										</label></li></ul></div><div style="display:none" id="sfcookskilldata" class="contenttab1 clearfix searchcfiltersdata" data-mdata="mData_FoodsCookingSkill"><ul class="filter_type_listing"><li><label for="basic"><span class="inputouter"><input value="easy" name="Basic" id="basic" type="checkbox"><span></span></span> Easy
+										</label></li><li><label for="intermediate"><span class="inputouter"><input value="intermediate" name="Intermediate" id="intermediate" type="checkbox"><span></span></span> Intermediate
+										</label></li><li><label for="expert"><span class="inputouter"><input value="expert" name="Expert" id="expert" type="checkbox"><span></span></span> Expert
+										</label></li></ul></div><div style="display:none" id="sfcooktimedata" class="contenttab1 clearfix searchcfiltersdata" data-mdata="total_cooking_time"><ul class="filter_type_listing"><li><label for="within30min"><input value="30" name="within30min" id="within30min" type="radio"> Within 30 min
+										</label></li><li><label for="within1hr"><input value="60" name="within30min" id="within1hr" type="radio"> Within 1 hr
+										</label></li><li><label for="within1.5hr"><input value="90" name="within30min" id="within1.5hr" type="radio"> Within 1.5 hr
+										</label></li><li><label for="within2hr"><input value="120" name="within30min" id="within2hr" type="radio"> Within 2 hr
+										</label></li></ul></div></div></div></div><div style="display:none" id="searchbeveragefiltertabdata" class="contenttab1 clearfix searchfiltersectiondata"><div class="filter_type" id="sbevtypedata"><ul class="radio_lnt"><li><label for="alcohol"><input value="52986087" name="bevs" id="alcohol" type="radio"> Cocktail
+								</label></li><li><label for="nonalcohol"><input value="52986098" name="bevs" id="nonalcohol" type="radio"> Non Alcoholic
+								</label></li></ul></div><div class="clearfix homebev filterbevwrap"><div class="leftnav"><ul><li style="display:none;" data-bevtype="alco"><a href="javascript://" class="sbevfilters active" id="sbevbase">Base
+										<br>Alcohol
+									</a></li><li style="display:none;" data-bevtype="nonalco"><a href="javascript://" class="sbevfilters active" id="sbevcategory">Category</a></li><li style="display:none;" data-bevtype="alco"><a id="sbevflavor1" class="sbevfilters" href="javascript://">By flavor
+										<br>profile
+									</a></li><li style="display:none;" data-bevtype="nonalco"><a id="sbevflavor2" class="sbevfilters" href="javascript://">By flavor
+										<br>profile
+									</a></li></ul></div><div class="rightnav"><div style="display:none" id="sbevflavor1data" data-bevtype="alco" class="contenttab1 clearfix sbevfiltersdata" data-mdata="mData_FoodFlavour"><ul class="filter_type_listing"><li><label for="Bitter"><span class="inputouter"><input value="bitter" name="flavors" id="Bitter" type="checkbox"><span></span></span> Bitter
+										</label></li><li><label for="Creamy"><span class="inputouter"><input value="creamy" name="flavors" id="Creamy" type="checkbox"><span></span></span> Creamy
+										</label></li><li><label for="Fruity"><span class="inputouter"><input value="fruity" name="flavors" id="Fruity" type="checkbox"><span></span></span> Fruity
+										</label></li><li><label for="Salty"><span class="inputouter"><input value="salty" name="flavors" id="Salty" type="checkbox"><span></span></span> Salty
+										</label></li><li><label for="Sour"><span class="inputouter"><input value="sour" name="flavors" id="Sour" type="checkbox"><span></span></span> Sour
+										</label></li><li><label for="Spicy"><span class="inputouter"><input value="spicy" name="flavors" id="Spicy" type="checkbox"><span></span></span> Spicy
+										</label></li><li><label for="Sweet"><span class="inputouter"><input value="sweet" name="flavors" id="Sweet" type="checkbox"><span></span></span> Sweet
+										</label></li></ul></div><div style="display:none" id="sbevbasedata" data-bevtype="alco" class="contenttab1 clearfix sbevfiltersdata" data-mdata="mData_FoodsMainIngredient"><div class="clearfix"><div style="padding:0 0 20px 15px;" class="clear"><b>Liquors</b></div><ul class="filter_type_listing"><li><label for="Beer"><span class="inputouter"><input name="Beer" id="Beer" value="Beer" type="checkbox"><span></span></span> Beer
+											</label></li><li><label for="Black Rum"><span class="inputouter"><input name="Black Rum" id="Black Rum" value="Black Rum" type="checkbox"><span></span></span> Black Rum
+											</label></li><li><label for="Brandy"><span class="inputouter"><input name="Brandy" id="Brandy" value="Brandy" type="checkbox"><span></span></span> Brandy
+											</label></li><li><label for="Bourbon Whiskey"><span class="inputouter"><input name="Bourbon Whiskey" id="Bourbon Whiskey" value="Bourbon Whiskey" type="checkbox"><span></span></span> Bourbon Whiskey
+											</label></li><li><label for="Gin"><span class="inputouter"><input name="Gin" id="Gin" value="Gin" type="checkbox"><span></span></span> Gin
+											</label></li><li><label for="Ginger Beer"><span class="inputouter"><input name="Ginger Beer" id="Ginger Beer" value="Ginger Beer" type="checkbox"><span></span></span> Ginger Beer
+											</label></li><li><label for="Irish Whiskey"><span class="inputouter"><input name="Irish Whiskey" id="Irish Whiskey" value="Irish Whiskey" type="checkbox"><span></span></span> Irish Whiskey
+											</label></li><li><label for="Malibu White Rum"><span class="inputouter"><input name="Malibu White Rum" id="Malibu White Rum" value="Malibu White Rum" type="checkbox"><span></span></span> Malibu White Rum
+											</label></li><li><label for="Port Wine"><span class="inputouter"><input name="Port Wine" id="Port Wine" value="Port Wine" type="checkbox"><span></span></span> Port Wine
+											</label></li><li><label for="Red Wine"><span class="inputouter"><input name="Red Wine" id="Red Wine" value="Red Wine" type="checkbox"><span></span></span> Red Wine
+											</label></li><li><label for="Scotch Whiskey"><span class="inputouter"><input name="Scotch Whiskey" id="Scotch Whiskey" value="Scotch Whiskey" type="checkbox"><span></span></span> Scotch Whiskey
+											</label></li><li><label for="Single Malt Whiskey"><span class="inputouter"><input name="Single Malt Whiskey" id="Single Malt Whiskey" value="Single Malt Whiskey" type="checkbox"><span></span></span> Single Malt Whiskey
+											</label></li><li><label for="Sloe Gin"><span class="inputouter"><input name="Sloe Gin" id="Sloe Gin" value="Sloe Gin" type="checkbox"><span></span></span> Sloe Gin
+											</label></li><li><label for="Tequilla"><span class="inputouter"><input name="Tequilla" id="Tequilla" value="Tequilla" type="checkbox"><span></span></span> Tequilla
+											</label></li><li><label for="Dry Vermouth"><span class="inputouter"><input name="Dry Vermouth" id="Dry Vermouth" value="Dry Vermouth" type="checkbox"><span></span></span> Dry Vermouth
+											</label></li><li><label for="Vodka"><span class="inputouter"><input name="Vodka" id="Vodka" value="Vodka" type="checkbox"><span></span></span> Vodka
+											</label></li><li><label for="White Rum"><span class="inputouter"><input name="White Rum" id="White Rum" value="White Rum" type="checkbox"><span></span></span> White Rum
+											</label></li><li><label for="Dry White Wine"><span class="inputouter"><input name="Dry White Wine" id="Dry White Wine" value="Dry White Wine" type="checkbox"><span></span></span> Dry White Wine
+											</label></li></ul></div><div class="clear"></div><div class="clearfix"><div style="padding:0 0 20px 15px;" class="clear"><b>Liqueurs</b></div><ul class="filter_type_listing"><li><label for="Amaretto"><span class="inputouter"><input name="Amaretto" id="Amaretto" value="Amaretto" type="checkbox"><span></span></span> Amaretto
+											</label></li><li><label for="Apple Liqueur"><span class="inputouter"><input name="Apple Liqueur" id="Apple Liqueur" value="Apple Liqueur" type="checkbox"><span></span></span> Apple Liqueur
+											</label></li><li><label for="Baileys Irish Cream"><span class="inputouter"><input name="Baileys Irish Cream" id="Baileys Irish Cream" value="Baileys Irish Cream" type="checkbox"><span></span></span> Baileys Irish Cream
+											</label></li><li><label for="Bitters"><span class="inputouter"><input name="Bitters" id="Bitters" value="Bitters" type="checkbox"><span></span></span> Bitters
+											</label></li><li><label for="Cointreu"><span class="inputouter"><input name="Cointreu" id="Cointreu" value="Cointreu" type="checkbox"><span></span></span> Cointreu
+											</label></li><li><label for="Expresso Liqueur"><span class="inputouter"><input name="Expresso Liqueur" id="Expresso Liqueur" value="Expresso Liqueur" type="checkbox"><span></span></span> Expresso Liqueur
+											</label></li><li><label for="Ginger Liqueur"><span class="inputouter"><input name="Ginger Liqueur" id="Ginger Liqueur" value="Ginger Liqueur" type="checkbox"><span></span></span> Ginger Liqueur
+											</label></li><li><label for="Herbal Liqueur"><span class="inputouter"><input name="Herbal Liqueur" id="Herbal Liqueur" value="Herbal Liqueur" type="checkbox"><span></span></span> Herbal Liqueur
+											</label></li><li><label for="Kahlua"><span class="inputouter"><input name="Kahlua" id="Kahlua" value="Kahlua" type="checkbox"><span></span></span> Kahlua
+											</label></li><li><label for="Lemon Liqueur"><span class="inputouter"><input name="Lemon Liqueur" id="Lemon Liqueur" value="Lemon Liqueur" type="checkbox"><span></span></span> Lemon Liqueur
+											</label></li><li><label for="Limoncello"><span class="inputouter"><input name="Limoncello" id="Limoncello" value="Limoncello" type="checkbox"><span></span></span> Limoncello
+											</label></li><li><label for="Peach Schnapps"><span class="inputouter"><input name="Peach Schnapps" id="Peach Schnapps" value="Peach Schnapps" type="checkbox"><span></span></span> Peach Schnapps
+											</label></li><li><label for="Sweet Herbal Liqueur"><span class="inputouter"><input name="Sweet Herbal Liqueur" id="Sweet Herbal Liqueur" value="Sweet Herbal Liqueur" type="checkbox"><span></span></span> Sweet Herbal Liqueur
+											</label></li><li><label for="Triple Sec"><span class="inputouter"><input name="Triple Sec" id="Triple Sec" value="Triple Sec" type="checkbox"><span></span></span> Triple Sec
+											</label></li><li><label for="Whiskey Based Liqueur"><span class="inputouter"><input name="Whiskey Based Liqueur" id="Whiskey Based Liqueur" value="Whiskey Based Liqueur" type="checkbox"><span></span></span> Whiskey Based Liqueur
+											</label></li></ul></div></div><div style="display:none" id="sbevflavor2data" data-bevtype="nonalco" class="contenttab1 clearfix sbevfiltersdata" data-mdata="mData_FoodFlavour"><ul class="filter_type_listing"><li><label for="Bitter"><span class="inputouter"><input value="bitter" name="flavors" id="Bitter" type="checkbox"><span></span></span> Bitter
+										</label></li><li><label for="Creamy"><span class="inputouter"><input value="creamy" name="flavors" id="Creamy" type="checkbox"><span></span></span> Creamy
+										</label></li><li><label for="Fruity"><span class="inputouter"><input value="fruity" name="flavors" id="Fruity" type="checkbox"><span></span></span> Fruity
+										</label></li><li><label for="Salty"><span class="inputouter"><input value="salty" name="flavors" id="Salty" type="checkbox"><span></span></span> Salty
+										</label></li><li><label for="Sour"><span class="inputouter"><input value="sour" name="flavors" id="Sour" type="checkbox"><span></span></span> Sour
+										</label></li><li><label for="Spicy"><span class="inputouter"><input value="spicy" name="flavors" id="Spicy" type="checkbox"><span></span></span> Spicy
+										</label></li><li><label for="Sweet"><span class="inputouter"><input value="sweet" name="flavors" id="Sweet" type="checkbox"><span></span></span> Sweet
+										</label></li></ul></div><div style="display:none" id="sbevcategorydata" data-bevtype="nonalco" class="contenttab1 clearfix sbevfiltersdata" data-mdata="mData_FoodCategory"><ul class="filter_type_listing"><li><label for="Coffees"><span class="inputouter"><input value="coffees" name="cats" id="Coffees" type="checkbox"><span></span></span> Coffees
+										</label></li><li><label for="Juices"><span class="inputouter"><input value="juices" name="cats" id="Juices" type="checkbox"><span></span></span> Juices
+										</label></li><li><label for="Mocktails"><span class="inputouter"><input value="mocktails" name="cats" id="Mocktails" type="checkbox"><span></span></span> Mocktails
+										</label></li><li><label for="Shakes"><span class="inputouter"><input value="shakes" name="cats" id="Shakes" type="checkbox"><span></span></span> Shakes
+										</label></li><li><label for="Smoothies"><span class="inputouter"><input value="smoothies" name="cats" id="Smoothies" type="checkbox"><span></span></span> Smoothies
+										</label></li><li><label for="Teas"><span class="inputouter"><input value="teas" name="cats" id="Teas" type="checkbox"><span></span></span> Teas
+										</label></li></ul></div></div></div></div></div><div class="clear"></div><div class="ctn_block clearfix"><a data-id="filter-clear" href="javascript://">Clear All</a><a href="javascript://" class="btn_apply_filter disabled" data-plugin="apply-advance-filters" pg="search#advancefil_web~advance filter">Apply Filters</a></div></div><div class="filter_popup_overlay" style="display:none;" data-id="advSrchOverlay"></div><script>
+		    try {
+		        var mQuery = new URLSearchParams(location.search).get("query");
+		        var mAlcoholId = $('#searchbeveragefiltertabdata').find('#sbevtypedata input#alcohol').attr('value');
+		        var mNonalcoholId = $('#searchbeveragefiltertabdata').find('#sbevtypedata input#nonalcohol').attr('value');
+		        var mDataType = new URLSearchParams(location.search).get("fq_mdata").split('~~~');
+    		    var selections = new URLSearchParams(location.search).get("datavalue").split('~~~').reduce((resarr, item) => {
+                    let splitbyOR = item.split('OR');
+                    splitbyOR = splitbyOR.map((item) => {
+                        item = String.prototype.trim.call(item);
+                        item = item.replace('(','');
+                        item = item.replace(')','');
+                        item = item.replace('[','');
+                        item = item.replace(']','');
+                        item = item.split('"').join('');
+                        if(item.indexOf('TO') > 0) { item = item.split('TO')[1].trim(); }
+                        return item;
+                    });
+                    resarr.push(splitbyOR);
+                    return resarr;
+                }, []);
+                selections.forEach((arr, index) => {
+                    arr.forEach(item => {
+                        if(document.querySelector('.filter_adv_popup div[data-mdata="'+mDataType[index]+'"] input[value="'+item+'"]')) {
+                            if(mDataType[index] === "mData_FoodFlavour" && (mQuery == mNonalcoholId || mDataType.indexOf('mData_FoodCategory') !== -1)) {
+                                document.querySelector('.filter_adv_popup div[data-mdata="'+mDataType[index]+'"][data-bevtype="nonalco"] input[value="'+item+'"]').checked = true;
+                            }
+                            else if(mDataType[index] === "mData_FoodFlavour" && (mQuery == mAlcoholId || mDataType.indexOf('mData_FoodsMainIngredient') !== -1)) {
+                                document.querySelector('.filter_adv_popup div[data-mdata="'+mDataType[index]+'"][data-bevtype="alco"] input[value="'+item+'"]').checked = true;
+                            }
+                        else {
+                            document.querySelector('.filter_adv_popup div[data-mdata="'+mDataType[index]+'"] input[value="'+item+'"]').checked = true;
+                            }
+                        }
+                    });
+                });
+                if(selections.length > 0) {
+                    $('a[data-id="filter-clear"]').removeClass('disabled')
+                }
+            } catch (error) {
+            }
+		</script><div id="fb-root"></div><script>
+
+            var readCookie=function(name) {
+                var nameEQ = name + "=";
+                var ca = document.cookie.split(';');
+                for(var i=0;i < ca.length;i++) {
+                    var c = ca[i];
+                    while (c.charAt(0)==' ') c = c.substring(1,c.length);
+                    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+                }
+                return null;
+            }
+
+
+		</script><div style="background:#fff" class="middle_food"><div class="fix_wrapper clearfix"><div class="breadcrumb clearfix"><ul typeof="BreadcrumbList" vocab="http://schema.org/"><li typeof="ListItem" property="itemListElement"><a typeof="WebPage" property="item" href="https://recipes.timesofindia.com"><span property="name">Times Food</span></a><meta content="1" property="position"></li><li typeof="ListItem" property="itemListElement"><a typeof="WebPage" property="item" href="https://recipes.timesofindia.com/recipes"><span property="name">Recipes</span></a><meta content="2" property="position"></li><li><span>Stuffed Tortellini</span></li></ul></div><aside class="left_mid"><h1 class="nheadingrs">Stuffed Tortellini Recipe<span class="rsvegnonveg veg"><span class="veg"></span></span></h1><div class="authorview nauthorviewrs clearfix"><div class="av_i"><span>by <span class="removeborder">TNN</span></span></div><span class="av_i">
+                                   Updated : Mar 13, 2020, 12:45 IST</span></div><div class="ngetrecipositionrs"><span data-id="readerrating" class="liveratingbox71330969"><span class="ratingavg">Avg. Rating</span><div class="getreciposition"><input class="hiddenratevalue" type="hidden" value="0"><span style="float:left; margin:1px 0 3px;" class="sprite_rating"><span style="width:0%;float:left;" class="sprite_rating_grey"></span></span></div><span class="ratingcount">0</span><span class="ratingbox"><a data-rating="" data-msid="71330969" class="ratingicon" href="javascript://"><span class="rateratedtext"> Rate </span></a></span><div style="display:none;" class="urtaginblue"><span class="ratingavg1">Your Rating</span><span class="sprite_rating_blue"><span style="width:0%;" class="sprite_rating_bluegrey"></span></span></div><!--/getreciperating.cms?msid=71330969&tempn=recipeshowpotime:18--></span><span data-plugin="invokecomments" id="invokecomments-71330969" class="commentsbox"><a data-msid="71330969" id="commenticon" href="javascript://"><i class="web_recipe_sprite cmtsicon"></i> Comments <span>(<span data-plugin="commentscount">2</span>)</span></a></span><div class="leftshare" pg="food#share_food_web~share"><div class="social_links liveblogSocial"><div class="social-icons clearfix"><ul><li>SHARE</li><li class="hide"><a rel="nofollow" data-href="ga" href="javascript:void(0);" pg="food#share_food_web~share" class="fb mobile-sprite track web_recipe_sprite" data-track="Share_facebook" data-share-url="https://recipes.timesofindia.com/recipes/stuffed-tortellini/rs71330969.cms">Facebook</a></li><li class="hide"><a rel="nofollow" data-href="ga" href="javascript:void(0);" pg="food#share_food_web~share" class="twitter mobile-sprite track web_recipe_sprite" data-track="Share_twitter" data-share-url="https://recipes.timesofindia.com/recipes/stuffed-tortellini/rs71330969.cms" data-src="https://recipes.timesofindia.com/recipes/stuffed-tortellini/rs71330969.cms">Twitter</a></li><li class="hide"><a rel="nofollow" data-href="ga" href="javascript:void(0);" pg="food#share_food_web~share" class="pinterest mobile-sprite track web_recipe_sprite" data-track="Share_pinterest" data-share-url="https://recipes.timesofindia.com/recipes/stuffed-tortellini/rs71330969.cms">Pinit</a></li><li><a class="printicon web_recipe_sprite" onclick="window.print();" href="javascript://"><span>Print</span></a></li></ul></div></div><!--/tinyurl_social_icons_ps.cms?fixedicn=yes&floaticn=no&sharetitle=&url=https://recipes.timesofindia.com/recipes/stuffed-tortellini/rs71330969.cmspotime:66--></div></div><div class="clear"></div><div class="topfeature ntopfeaturers clearfix"><div class="lftImg"><img class="postSlikeLoadImage" src="https://static.toiimg.com/thumb/71330969.cms?imgsize=1158708&amp;width=509&amp;height=340" alt="Stuffed Tortellini" name="Stuffed Tortellini" title="Stuffed Tortellini"><script src="https://timesofindia.indiatimes.com/video_comscore_api/version-3.cms"></script><script src="//ade.clmbtech.com/cde/ae/2658/var=_ccaud"></script><script src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script><script type="text/javascript" src="//tvid.in/sdk/loader.js"></script><script src="/player_js_v3/version-40,minify-1.cms" type="text/javascript"></script></div><div id="rgtcontent71330969" class="rgtcontent" data-arttitle="Stuffed Tortellini Recipe" data-artauthor="by TNN"><div class="time_calor1 clearfix"><ul><li class="totaltime">Total Time<span>35m</span></li><li class="preptime">Prep Time<span>15 m</span></li><li class="calories">Calories<span>331</span></li></ul></div><span class="boxbookmark"><a href="javascript://" class="likeunlikebox" pg="Recipe#like_food_web~Like" data-activity="Food" data-msid="71330969"><i class="web_recipe_sprite likeicon heartIcon" data-activity="Food" data-msid="71330969"></i><span class="likeunlike">Bookmark</span></a></span><span class="boxbookmark"><a href="javascript://" data-msid="71330969" id="addtocollection71330969" data-id="addcolpopup"><i class="web_recipe_sprite addcollicon"></i> Add To Collection</a></span></div><div class="clear"></div><div class="rgtcontentscroll summeryhtcontent"><div class="summeryhtcontentin"><artsyn><p>Channel your inner Italian soul by indulging in this amazing pasta recipe prepared using tortellini. It's a ring-shaped pasta, which is also known as belly button because of its resemblance to a navel. It's a delicious pasta recipe that you can prepare in the comfort of your home. Stuffed Tortellini is an Italian speciality, and is prepared using roasted cherry tomatoes being coated with seasoned oil and mixing them with the pesto sauce with tortellini pasta. Be it a nice hot appetizer or a comforting weekend meal in your bed, this palatable stuffed tortellini recipe will make you love it in one go. The spicy pesto sauce gives a fiery and sizzling twist to the tortellini, making it even more irresistible for all the foodies. Check out this super-duper scrumptious and quick tortellini recipe which comes out in just half an hour and tastes delicious. If you have your friends coming over to your place in half an hour and you are confused about the special menu, don&rsquo;t think anything else and just run to the kitchen and start preparing with this indulgence. Give a delicious feast to your friends and family members with the heavenly flavours of this pasta and watch them shower you with loads of compliments and praises. A beyond perfect recipe for when you are enjoying kitty party, birthday party, anniversary party, pot luck or game night. This exotic Italian recipe will bring out the Italiano within you and make all of you go, Mama Mia. (Recipe: Chef Dinesh Pandey, The Green Bistro)</p></artsyn></div><a class="summeryreadmore" href="javascript://">Read more</a><a style="display:none;" class="summeryreadless" href="javascript://">Read less</a></div></div><div class="tab_search clearfix"><span class="spanul"><h2><a id="tabrecipe1" class="recipetabs" href="javascript://">Ingredients of Stuffed Tortellini</a></h2></span><div class="servingselect"><select data-msid="71330969" onchange="ga('send','event','recipeshow','Servings change ','Serving_WEB')" name="" data-plugin="convert"><option value="4">4 Servings</option><option value="1">1 Serving</option><option value="2">2 Servings</option><option value="3">3 Servings</option><option value="4">4 Servings</option><option value="5">5 Servings</option><option value="6">6 Servings</option><option value="7">7 Servings</option><option value="8">8 Servings</option><option value="9">9 Servings</option><option value="10">10 Servings</option><option value="11">11 Servings</option><option value="12">12 Servings</option><option value="13">13 Servings</option><option value="14">14 Servings</option><option value="15">15 Servings</option><option value="16">16 Servings</option><option value="17">17 Servings</option><option value="18">18 Servings</option><option value="19">19 Servings</option><option value="20">20 Servings</option></select></div></div><div class="recipetabsdata ingredients_lilsting clearfix" id="ingredata"><ul data-convert="mainingriedient"><li class="clearfix" quantity="500" unit="grams" displayname="cherry tomatoes" suffix=""><label class="clearfix" for="1"><span class="inputouter"><input name="" type="checkbox" id="1"><span></span></span>500 gm  cherry tomatoes</label></li><li class="clearfix" quantity="1" unit="teaspoon" displayname="spice oregano" suffix=""><label class="clearfix" for="3"><span class="inputouter"><input name="" type="checkbox" id="3"><span></span></span>1 teaspoon  spice oregano</label></li><li class="clearfix" quantity="0" unit="As required" displayname="black pepper" suffix=""><label class="clearfix" for="5"><span class="inputouter"><input name="" type="checkbox" id="5"><span></span></span>  black pepper as required</label></li><li class="clearfix" quantity="2" unit="cloves" displayname="garlic" suffix=""><label class="clearfix" for="7"><span class="inputouter"><input name="" type="checkbox" id="7"><span></span></span>2 cloves  garlic</label></li><li class="clearfix" quantity="1/4" unit="cup" displayname="parmesan cheese" suffix=""><label class="clearfix" for="9"><span class="inputouter"><input name="" type="checkbox" id="9"><span></span></span>1/4 cup  parmesan cheese</label></li><li class="clearfix" quantity="0" unit="As required" displayname="water" suffix=""><label class="clearfix" for="11"><span class="inputouter"><input name="" type="checkbox" id="11"><span></span></span>  water as required</label></li></ul><ul data-convert="mainingriedient"><li class="clearfix" quantity="4" unit="tablespoon" displayname="extra virgin olive oil" suffix=""><label class="clearfix" for="2"><span class="inputouter"><input name="" type="checkbox" id="2"><span></span></span>4 tablespoon  extra virgin olive oil</label></li><li class="clearfix" quantity="0" unit="As required" displayname="salt" suffix=""><label class="clearfix" for="4"><span class="inputouter"><input name="" type="checkbox" id="4"><span></span></span>  salt as required</label></li><li class="clearfix" quantity="250" unit="grams" displayname="pasta tortelleni" suffix=""><label class="clearfix" for="6"><span class="inputouter"><input name="" type="checkbox" id="6"><span></span></span>250 gm  pasta tortelleni</label></li><li class="clearfix" quantity="2" unit="teaspoon" displayname="pesto sauce" suffix=""><label class="clearfix" for="8"><span class="inputouter"><input name="" type="checkbox" id="8"><span></span></span>2 teaspoon  pesto sauce</label></li><li class="clearfix" quantity="6" unit="Numbers" displayname="basil" suffix=""><label class="clearfix" for="10"><span class="inputouter"><input name="" type="checkbox" id="10"><span></span></span>6  basil</label></li></ul></div><div class="box2ads adstext"><div data-adsslot="/7176/Recipes/Recipes_ROS_Articles_AS/Recipes_ROS_MTF_Artcles_AS_300" data-size="[300,250]" class="adsgreyback " id="div-gpt-ad-1568380287215-1-02735"></div><div data-adsslot="/7176/Recipes/Recipes_ROS_Articles_AS/Recipes_ROS_MTF1_Artcles_AS_300" data-size="[300,250]" class="adsgreyback" id="div-gpt-ad-1568380325412-1-71558"></div></div><div class="recipetabsdata" id="stepsdata71330969"><h3 data-msid="71330969" class="methodheading">How to make Stuffed Tortellini</h3><div class="steps_listings clearfix"><ul><li><span class="story_right" style="width:100%"><h4 class="stephead">Step 1 Coat the tomatoes evenly with seasoned oil</h4><p>To prepare this palatable dish, preheat the oven at 200 degrees Celsius. Meanwhile, spread a baking sheet, place cherry tomatoes topped with a drizzle of 2 tablespoons of extra virgin olive oil. Season the tomatoes with salt, black pepper, and oregano spice. Make sure the tomatoes are evenly coated with the seasoned oil by rolling them over and over inside the baking sheet itself.</p></span></li><li><span class="story_right" style="width:100%"><h5 class="stephead">Step 2 Roast the tomatoes in oven for 15 minutes</h5><p>By now, the oven should be ready to roast. Place the baking sheet with tomatoes inside the oven and roast the tomatoes for 15 minutes or until they start to burst out.</p></span></li><li><span class="story_right" style="width:100%"><h6 class="stephead">Step 3 Cook the tortellini and drain the excess water</h6><p>While the tomatoes are roasting in the oven, put a large pan over medium flame and boil water in it. Add the tortellini pasta with a pinch of salt and a little olive oil. Once cooked, drain the water and keep the pasta aside until required.</p></span></li><li><span class="story_right" style="width:100%"><h6 class="stephead">Step 4 Saute garlic and assemble all the remaining ingredients</h6><p>Now, heat 2 tablespoons of extra virgin olive oil in a skillet over low-medium heat. After the oil turns hot, add minced garlic and saute until it turns golden brown. Turn off the flame and to the garlic, add roasted tomatoes and pesto sauce. Using a fork, stab the tomatoes to break them open. Stir the mixture and then add cooked tortellini. Pour some more pesto sauce over the tortellini and continue stirring. Sprinkle shredded parmesan cheese and garnish with torn or chopped basil leaves.</p></span></li></ul></div></div><div id="ratecomments71330969" class="rate_comments newuicmtbox clearfix commentlistWrapper"><div class="commentsectionwebrecipe" data-plugin="invokecomments">Comments<span>(<span data-plugin="commentscount">2</span>)</span></div><div class="clearfix"><div data-visited="false" class="ratetxt ratingtopflex"><div data-profile="pic" class="rate_user_pic"><img src="https://mytimes.indiatimes.com/image/thumb/2/6881860"></div><span class="text_chgrat" id="textchgrat">Rate this Recipe </span><div class="ratetxt clearfix"><div data-msid="71330969" class="rate_widget urratingblue"><a data-rating="1" class="mainrating one-stars" href="javascript://">1</a><a data-rating="2" class="mainrating two-stars" href="javascript://">2</a><a data-rating="3" class="mainrating three-stars" href="javascript://">3</a><a data-rating="4" class="mainrating four-stars" href="javascript://">4</a><a data-rating="5" class="mainrating five-stars" href="javascript://">5</a></div><small class="ratingtext"></small><span class="rate_value" id="ratevalue">0</span><span id="ratevaluetxt" class="ratevalue_txt"></span><input type="hidden" value="Rate This Movie" data-plugin="comment-rating" class="ratedd newtextbox" readonly></div></div><div style="display:none;" class="successMessage" id="successMessage">Your Rating has been successfully submitted.</div><div class="clearfix"><div class="write_cmt_heading"><div style="position:relative; top:2px;     background:#FFF; display:inline-block; padding:0 15px;">Write a review <span>(Optional)</span></div></div><div class="rate_comment_textarea clearfix"><div class="w100p fl"><div class="textareabindbox clearfix"><div class="suggestion_tagslist">
+                                    (Tap and add)<ul><li>Nice recipe</li><li>Will try out</li><li>Worth trying</li><li>Wonderful recipe</li><li>That&rsquo;s yummy</li><li>Looks delicious</li><li>I enjoyed this recipe</li><li>Helpful recipe</li></ul></div><textarea id="review" data-plugin="comment-input" placeholder="Add your comment here" row="" col=""></textarea><div class="rgtsubmitbtn"><a class="rate_sbmt_btn" href="javascript://" pg="food#comment_food_web~comment" data-plugin="Onpagebox">Submit</a><span>Submit</span></div></div></div></div></div><div style="display:none;" class="thxnmsg" id="thanksmsg"><img alt="" src="https://static.toiimg.com/photo/65670713.cms"><br><br><br>Your Rating has been successfully submitted.</div></div></div><div style="margin:15px 0px 10px; float:left;cursor:pointer;background:#fff;font-size:0;" class="w100p fl subscribewidget"><img class="horizontalWidget" src="https://static.toiimg.com/photo/75731794.cms" id="susbcribe_normal"><img style="display:none;" src="https://static.toiimg.com/photo/62082317.cms" id="susbcribe_success"></div><div class="box2ads adstext"><div data-adsslot="/7176/Recipes/Recipes_ROS_Articles_AS/Recipes_ROS_MTF_Artcles_AS_300" data-size="[300,250]" class="adsgreyback " id="div-gpt-ad-1568380287215-1-65779"></div><div data-adsslot="/7176/Recipes/Recipes_ROS_Articles_AS/Recipes_ROS_MTF1_Artcles_AS_300" data-size="[300,250]" class="adsgreyback" id="div-gpt-ad-1568380325412-1-60048"></div></div><div data-count="0" class="youMayLike"><div class="right_heading">Recipes you may like</div><div class="clearfix w100p fl pos_rel"><span class="prebtn recipe_left_arrow disabled"><span></span></span><span class="nxtbtn recipe_right_arrow"><span></span></span><div class="clearfix w100p fl pos_rel" id="ryml"><ul class="recipe_like_listing"><li onclick="ga('send','event','recipeshow','View related','related_recipe_1_Web')" class="recipemainli" data-msid="62411210"><span class="posrel"><a href="/recipes/cheese-tortellini/rs62411210.cms"><img src="https://static.toiimg.com/thumb/52882425.cms?width=573&amp;height=382" data-src="https://static.toiimg.com/thumb/62411210.cms?width=573&amp;height=382" alt="Cheese Tortellini" title="Cheese Tortellini"></a></span><a href="/recipes/cheese-tortellini/rs62411210.cms"><div class="h2">Cheese Tortellini</div><div class="nrecipe_vegnonveg"><span class="duration">25m</span><span class="vegnonveg"><span class="nonveg"></span></span><!--/embedmoreextrainfo.cms?msid=62411210potime:43--></div></a></li><li onclick="ga('send','event','recipeshow','View related','related_recipe_1_Web')" class="recipemainli" data-msid="70531871"><span class="posrel"><a href="/recipes/pasta-primavera/rs70531871.cms"><img src="https://static.toiimg.com/thumb/52882425.cms?width=573&amp;height=382" data-src="https://static.toiimg.com/thumb/70531871.cms?width=573&amp;height=382" alt="Pasta Primavera" title="Pasta Primavera"></a></span><a href="/recipes/pasta-primavera/rs70531871.cms"><div class="h2">Pasta Primavera</div><div class="nrecipe_vegnonveg"><span class="duration">20m</span><span class="vegnonveg"><span class="veg"></span></span><!--/embedmoreextrainfo.cms?msid=70531871potime:101--></div></a></li><li onclick="ga('send','event','recipeshow','View related','related_recipe_1_Web')" class="recipemainli" data-msid="67161073"><span class="posrel"><a href="/recipes/pesto-and-macadamia-crusted-sole/rs67161073.cms"><img src="https://static.toiimg.com/thumb/52882425.cms?width=573&amp;height=382" data-src="https://static.toiimg.com/thumb/67161073.cms?width=573&amp;height=382" alt="Pesto and Macadamia Crusted Sole" title="Pesto and Macadamia Crusted Sole"></a></span><a href="/recipes/pesto-and-macadamia-crusted-sole/rs67161073.cms"><div class="h2">Pesto and Macadamia Crusted Sole</div><div class="nrecipe_vegnonveg"><span class="duration">25m</span><span class="vegnonveg"><span class="nonveg"></span></span><!--/embedmoreextrainfo.cms?msid=67161073potime:33--></div></a></li><li onclick="ga('send','event','recipeshow','View related','related_recipe_1_Web')" class="recipemainli" data-msid="69783517"><span class="posrel"><a href="/recipes/cheesy-pop-pasta/rs69783517.cms"><img src="https://static.toiimg.com/thumb/52882425.cms?width=573&amp;height=382" data-src="https://static.toiimg.com/thumb/69783517.cms?width=573&amp;height=382" alt="Cheesy Pop Pasta" title="Cheesy Pop Pasta"></a></span><a href="/recipes/cheesy-pop-pasta/rs69783517.cms"><div class="h2">Cheesy Pop Pasta</div><div class="nrecipe_vegnonveg"><span class="duration">30m</span><span class="vegnonveg"><span class="veg"></span></span><!--/embedmoreextrainfo.cms?msid=69783517potime:42--></div></a></li></ul></div></div><!--/recipemaylikevideos.cms?msid=71330969potime:48--></div><div data-count="0" class="relatedVideos"><!-- could not get data --> <!--/similarvideos.cms?msid=71330969&type=videos&ingredient=cherry tomatoes,pasta tortelleni&cuisines=Italian&courses=Main Dishes,Side Dishes,Appetizerspotime:152--></div><div class="box2ads adstext"><div data-adsslot="/7176/Recipes/Recipes_ROS_Articles_AS/Recipes_ROS_MTF_Artcles_AS_300" data-size="[300,250]" class="adsgreyback " id="div-gpt-ad-1568380287215-1-64825"></div><div data-adsslot="/7176/Recipes/Recipes_ROS_Articles_AS/Recipes_ROS_MTF1_Artcles_AS_300" data-size="[300,250]" class="adsgreyback" id="div-gpt-ad-1568380325412-1-96952"></div></div><div data-msid="71330969" class="nextstorylabel clear"><div class="nextstoryIndicator" style="display:none">Next Recipe</div></div><div class="columbiaAds KfUpyiGa vertical"><div class="right_heading"><div>Promoted Stories</div></div><div data-native-tmpl="ctn_rlist2" data-cb="processCtnAds" data-slot="237796" data-index="1" data-ad-id="237796" data-position="2313" id="237796-1" class="bottomnative colombia"></div></div></aside><aside class="right_mid"><div id="sparent"><div data-adsslot="/7176/Recipes/Recipes_ROS_Articles_AS/Recipes_ROS_ATF_Artcles_AS_300" data-size="[300, 250]" data-adsrefresh="1" class="adsgreyback" id="div-gpt-ad-1568379244881-2-00115"></div><div style="margin:15px 0px 10px; float:left;cursor:pointer;background:#fff;font-size:0;" class="w100p fl subscribewidget"><img src="https://static.toiimg.com/photo/74694524.cms" id="susbcribe_normal"><img style="display:none;" src="https://static.toiimg.com/photo/62082317.cms" id="susbcribe_success"></div><div class="right_heading"><span>Latest Recipes</span></div><div class="related_listings1"><ul class="recipe_like_listing"><li data-msid="81627838" class="recipemainli pos_rel" number="1"><span class="posrel"><a href="https://recipes.timesofindia.com/recipes/leftover-chapati-crackers/rs81627838.cms"><img src="https://static.toiimg.com/photo/52882425.cms" data-src="https://static.toiimg.com/thumb/81627838.cms?width=573&amp;height=382" alt="Leftover Chapati Crackers"></a></span><div class="nrecipe_vegnonveg lstrecipe nopad0"><span class="vegnonveg"><span class="veg"></span></span></div><a href="https://recipes.timesofindia.com/recipes/leftover-chapati-crackers/rs81627838.cms"><span class="spanh3">Leftover Chapati Crackers</span></a></li><li data-msid="81601456" class="recipemainli pos_rel" number="2"><span class="posrel"><a href="https://recipes.timesofindia.com/recipes/vegetable-chapati-noodles/rs81601456.cms"><img src="https://static.toiimg.com/photo/52882425.cms" data-src="https://static.toiimg.com/thumb/81601456.cms?width=573&amp;height=382" alt="Vegetable Chapati Noodles"></a></span><div class="nrecipe_vegnonveg lstrecipe nopad0"><span class="vegnonveg"><span class="veg"></span></span></div><a href="https://recipes.timesofindia.com/recipes/vegetable-chapati-noodles/rs81601456.cms"><span class="spanh3">Vegetable Chapati Noodles</span></a></li><li data-msid="81587002" class="recipemainli pos_rel" number="3"><span class="posrel"><a href="https://recipes.timesofindia.com/recipes/boondi-raita/rs81587002.cms"><img src="https://static.toiimg.com/photo/52882425.cms" data-src="https://static.toiimg.com/thumb/81587002.cms?width=573&amp;height=382" alt="Boondi Raita"></a></span><div class="nrecipe_vegnonveg lstrecipe nopad0"><span class="vegnonveg"><span class="veg"></span></span></div><a href="https://recipes.timesofindia.com/recipes/boondi-raita/rs81587002.cms"><span class="spanh3">Boondi Raita</span></a></li><li data-msid="81584160" class="recipemainli pos_rel" number="4"><span class="posrel"><a href="https://recipes.timesofindia.com/recipes/sooji-cheela/rs81584160.cms"><img src="https://static.toiimg.com/photo/52882425.cms" data-src="https://static.toiimg.com/thumb/81584160.cms?width=573&amp;height=382" alt="Sooji Cheela"></a></span><div class="nrecipe_vegnonveg lstrecipe nopad0"><span class="vegnonveg"><span class="veg"></span></span></div><a href="https://recipes.timesofindia.com/recipes/sooji-cheela/rs81584160.cms"><span class="spanh3">Sooji Cheela</span></a></li></ul></div><!--/featuredtnnarticles.cms?secname=Latest%20Recipepotime:3--><div class="right_heading"><span>Featured Recipes</span></div><div class="related_listings"><ul><li number="1"><a href="/recipes/vegetable-chapati-noodles/rs81601456.cms"><span class="story_left"><img src="https://static.toiimg.com/photo/52882425.cms" data-src="https://static.toiimg.com/thumb/81601456.cms?width=100&amp;height=75" alt="Vegetable Chapati Noodles"></span><span class="story_right">Vegetable Chapati Noodles</span></a></li><li number="2"><a href="/recipes/oreo-chocolate-mousse/rs81426939.cms"><span class="story_left"><img src="https://static.toiimg.com/photo/52882425.cms" data-src="https://static.toiimg.com/thumb/81426939.cms?width=100&amp;height=75" alt="Oreo Chocolate Mousse"></span><span class="story_right">Oreo Chocolate Mousse</span></a></li><li number="3"><a href="/recipes/vegetable-dalia/rs81526753.cms"><span class="story_left"><img src="https://static.toiimg.com/photo/52882425.cms" data-src="https://static.toiimg.com/thumb/81526753.cms?width=100&amp;height=75" alt="Vegetable Dalia"></span><span class="story_right">Vegetable Dalia</span></a></li><li number="4"><a href="/recipes/chicken-tikka/rs53221979.cms"><span class="story_left"><img src="https://static.toiimg.com/photo/52882425.cms" data-src="https://static.toiimg.com/thumb/53221979.cms?width=100&amp;height=75" alt="Chicken Tikka"></span><span class="story_right">Chicken Tikka</span></a></li><li number="5"><a href="/recipes/asian-glazed-potatoes/rs81567370.cms"><span class="story_left"><img src="https://static.toiimg.com/photo/52882425.cms" data-src="https://static.toiimg.com/thumb/81567370.cms?width=100&amp;height=75" alt="Asian Glazed Potatoes"></span><span class="story_right">Asian Glazed Potatoes</span></a></li></ul></div><!--/featuredarticles.cms?msid=52433056potime:2--><div class="clear"></div><div data-adsslot="/7176/Recipes/Recipes_ROS_Articles_AS/Recipes_ROS_BTF_Artcles_AS_300" data-size="[300, 250]" class="adsgreyback" id="div-gpt-ad-1568380365048-0-88496"></div><div class="clear"></div><div class="section_box item_listings1"><div class="wht_box clearfix"><div class="right_heading">Popular Recipes</div><div class="tag_cloud_scroller"><a class="tag_cloud_link" href="https://recipes.timesofindia.com/recipes/chicken-biryani/rs53096628.cms"><span>Chicken Biryani Recipe</span></a><a class="tag_cloud_link" href="https://recipes.timesofindia.com/recipes/chicken-curry/rs58394256.cms"><span>Chicken Curry Recipe</span></a><a class="tag_cloud_link" href="https://recipes.timesofindia.com/recipes/shahi-paneer/rs52446409.cms"><span>Shahi Paneer Recipe</span></a><a class="tag_cloud_link" href="https://recipes.timesofindia.com/recipes/pav-bhaji/rs52416693.cms"><span>Pav Bhaji Recipe</span></a><a class="tag_cloud_link" href="https://recipes.timesofindia.com/recipes/aloo-paratha/rs53109843.cms"><span>Aloo Paratha Recipe</span></a><a class="tag_cloud_link" href="https://recipes.timesofindia.com/recipes/chilli-paneer/rs53252190.cms"><span>Chilli Paneer Recipe</span></a><a class="tag_cloud_link" href="https://recipes.timesofindia.com/recipes/butter-murukku/rs60459010.cms"><span>Butter Murukku Recipe</span></a><a class="tag_cloud_link" href="https://recipes.timesofindia.com/recipes/sabudana-tikki/rs54898398.cms"><span>Sabudana Tikki</span></a><a class="tag_cloud_link" href="https://recipes.timesofindia.com/recipes/chola-bhatura/rs53314156.cms"><span>Chola Bhatura Recipe</span></a><a class="tag_cloud_link" href="https://recipes.timesofindia.com/recipes/gajar-ka-halwa/rs53317590.cms"><span>Gajar Ka Halwa Recipe</span></a><a class="tag_cloud_link" href="https://recipes.timesofindia.com/recipes/baked-potatoes-for-breakfast/rs60911691.cms"><span>Breakfast Recipe</span></a><a class="tag_cloud_link" href="https://recipes.timesofindia.com/recipes/masala-chicken/rs54673639.cms"><span>Chicken Recipe</span></a><a class="tag_cloud_link" href="https://recipes.timesofindia.com/recipes/desserts-sweets/52975006"><span>Sweets Recipes</span></a><a class="tag_cloud_link" href="https://recipes.timesofindia.com/recipes/red-sauce-pasta/rs54311206.cms"><span>Pasta Recipe</span></a><a class="tag_cloud_link" href="https://recipes.timesofindia.com/recipes/chilli-chicken/rs53094926.cms"><span>Chilli Chicken Recipe</span></a><a class="tag_cloud_link" href="https://recipes.timesofindia.com/recipes/heart-cake/rs67880850.cms"><span>Heart Cake Recipe</span></a></div></div></div><!--/et_capsules_widget.cms?secname=Recipe%20SEO&msid=59899162potime:1--></div><div id="rightplaceHolder"></div></aside></div></div></div><div class="recipedivider" id="ajaxcontent"></div><div xmlns:math="java.lang.Math" data-rmsticky="true" class="fl w100p footer_parent bg_12"><div class="upper_half_footer w100p fl"><div class="main_heading fl">TIMES FOOD</div><div class="ftr_subheader"><a href="https://recipes.timesofindia.com/menuplanner.cms"><div class="abt_us linksinfo">FAQ's</div></a><a href="https://recipes.timesofindia.com/feedbackform.cms"><div class="abt_us linksinfo">Feedback</div></a><a href="https://recipes.timesofindia.com/authorlist.cms?msid=65795496"><div class="abt_us linksinfo">Authors</div></a><a href="https://recipes.timesofindia.com/terms-and-conditions/articleshow/54046592.cms"><div class="cntct_us linksinfo">Terms and Conditions</div></a><a href="https://recipes.timesofindia.com/privacypolicy.cms"><div class="linksinfo">Privacy Policy</div></a><a href="https://recipes.timesofindia.com/aboutus/61592752.cms"><div class="abt_us linksinfo">About us</div></a><a href="https://recipes.timesofindia.com/contactus/61820617.cms"><div class="abt_us linksinfo">Contact us</div></a><a style="display:none;" class="hidecookie" href="https://recipes.timesofindia.com/cookiepolicy.cms"><div class="abt_us linksinfo">Cookie Policy</div></a><a data-subscribe="true" href="https://recipes.timesofindia.com/#newsletter"><div class="abt_us linksinfo">Subscribe</div></a><a href="https://recipes.timesofindia.com/gstandrssfeed.cms?tag=rec"><div class="abt_us linksinfo">RSS</div></a><span id="ccpadnt" style="display:none;"><a href="https://recipes.timesofindia.com/donotsell.cms?tag=rec"><div class="abt_us linksinfo">Do Not Sell</div></a></span></div><div class="social_share_footer"><div class="follow_us_title">Follow us on</div><a href="https://www.facebook.com/TimesOfIndiaFood/" target="_blank" rel="nofollow"><img border="0" alt="Facebook" src="https://static.toiimg.com/photo/59985282.cms" style="height:20px;width:20px;padding-right:5px;"></a><a style="padding:10px 5px" href="https://twitter.com/toifood" target="_blank" rel="nofollow"><img border="0" alt="Twitter" src="https://static.toiimg.com/photo/59985292.cms" style="height:20px;width:20px;"></a><a style="padding:10px 10px" href="https://www.instagram.com/toifood/" target="_blank" rel="nofollow"><img border="0" alt="Instagram" src="https://static.toiimg.com/photo/60881951.cms" style="height:17px;width:17px;"></a></div></div><div class="w100p fl lower_half_footer"><div class="w100p fl pc_parent"><div xmlns:math="java.lang.Math" class="w100p fl popular_heading"><span>Popular Picks</span></div><div class="popular_items_children"><a class="items_popular" href="https://recipes.timesofindia.com/recipes/muradabadi-chicken-biryani/rs69038542.cms">Muradabadi Chicken Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/keema/rs53991547.cms">Keema recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/holi/52516673">Holi Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/beverage/non-alcoholic/virgin-mojito/rs54525751.cms">Virgin Mojito Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/beverage/non-alcoholic/lemon-mint-juice/rs53629795.cms">Lemon Mint Juice Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/beverage/non-alcoholic/kashmiri-kahwa-tea/rs53927160.cms">Kashmiri Kahwa Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/beverage/non-alcoholic/amla-juice/rs56167617.cms">Amla Juice Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/beverage/non-alcoholic/lemongrass-juice/rs53840869.cms">Lemon Grass Juice Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/beverage/cocktails/bloodhound/rs56036742.cms">Bloodhound Cocktail Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/beverage/non-alcoholic/ginger-lemon-juice/rs53843446.cms">Lemon Ginger Juice Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/beverage/non-alcoholic/black-tea/rs57668781.cms">Black Tea Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/gobhi-paratha/rs53335308.cms">Gobhi Paratha Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/mediterranean-greek-salad/rs58895943.cms">Greek Salad recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/beverage/non-alcoholic/apple-shake/rs53807488.cms">Apple Shake Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/beverage/non-alcoholic/ginger-tea/rs53825471.cms">Ginger Tea Recipe</a></div><style>
+            .popular_heading{text-transform:uppercase;font-family:'proxima-extrabold1', calibri;font-size:12px;color:#fff;letter-spacing:0.6px;text-align:left;padding-bottom:10px;padding-top:15px;}
+            .items_popular,.items_pipe_sep{text-transform: capitalize;
+    font-family: 'proxima-regular1', calibri;
+    font-size: 11px;
+    letter-spacing: 0.8px;
+    line-height: 15px;
+    color: #ededed;
+    padding-right: 5px;
+    padding-left: 0;
+    border-right: none;
+    width: 50%;
+    float: left;
+    padding-bottom: 8px;
+     display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+    }
+
+           .items_pipe_sep{padding-left:15px;padding-right:15px;}
+           .popular_heading{padding-right:10px;}
+
+
+
+
+    .popular_heading span{
+        background: #121212;
+    padding-right: 8px;
+    }
+
+    </style><!--/footer_widget.cms?msid=60794015potime:2--></div><div class="w100p fl pr_parent"><div xmlns:math="java.lang.Math" class="w100p fl popular_heading"><span>Popular Recipes</span></div><div class="popular_items_children"><a class="items_popular" href="https://recipes.timesofindia.com/recipes/kadhai-chicken/rs53523514.cms">Kadhai Chicken Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/aloo-paratha/rs53109843.cms">Aloo Paratha Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/beverage/non-alcoholic/cold-coffee/rs53842591.cms">Cold Coffee recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/punjabi-rajma/rs52292650.cms">Rajma Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/rasam/rs53552165.cms">Rasam Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/rasgulla/rs52743612.cms">Rasgulla Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/khichdi/rs74297416.cms">Khichdi Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/gulab-jamun/rs63799510.cms">Gulab Jamun Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/samosa/rs61050397.cms">Samosa recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/lemon-rice/rs53870704.cms">Lemon Rice Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/upma/rs53111410.cms">Upma Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/vegetable-biryani-by-pankaj-bhadouria/rs53098310.cms">Veg Biryani Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/chicken-65/rs53683545.cms">Chicken 65 recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/chocolate-cake/rs53096885.cms">Chocolate Cake Recipe</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/chicken-manchurian/rs53241077.cms">Chicken Manchurian Recipe</a></div><style>
+            .popular_heading{text-transform:uppercase;font-family:'proxima-extrabold1', calibri;font-size:12px;color:#fff;letter-spacing:0.6px;text-align:left;padding-bottom:10px;padding-top:15px;}
+            .items_popular,.items_pipe_sep{text-transform: capitalize;
+    font-family: 'proxima-regular1', calibri;
+    font-size: 11px;
+    letter-spacing: 0.8px;
+    line-height: 15px;
+    color: #ededed;
+    padding-right: 5px;
+    padding-left: 0;
+    border-right: none;
+    width: 50%;
+    float: left;
+    padding-bottom: 8px;
+     display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+    }
+
+           .items_pipe_sep{padding-left:15px;padding-right:15px;}
+           .popular_heading{padding-right:10px;}
+
+
+
+
+    .popular_heading span{
+        background: #121212;
+    padding-right: 8px;
+    }
+
+    </style><!--/footer_widget.cms?msid=60794019potime:1--></div><div class="w100p fl pv_parent"><div xmlns:math="java.lang.Math" class="w100p fl popular_heading"><span>Recipe Videos</span></div><div class="popular_items_children"><a class="items_popular" href="https://recipes.timesofindia.com/videos/watch-how-to-make-aloo-paratha-recipe/videoshow/72018833.cms">Aloo Paratha Recipe Video</a><a class="items_popular" href="https://recipes.timesofindia.com/videos/how-to-make-chicken-biryani/videoshow/55663510.cms">Chicken Biryani Recipe Video</a><a class="items_popular" href="https://recipes.timesofindia.com/videos/how-to-make-mumbai-pav-bhaji-nbsp/videoshow/55599074.cms">Pav Bhaji Recipe Video</a><a class="items_popular" href="https://recipes.timesofindia.com/videos/watch-how-to-make-shahi-paneer/videoshow/72018945.cms">Shahi Paneer Recipe Video</a><a class="items_popular" href="https://recipes.timesofindia.com/videos/how-to-make-chicken-pizza/videoshow/56064151.cms">Chicken Pizza Recipe Video</a><a class="items_popular" href="https://recipes.timesofindia.com/videos/watch-how-to-make-paneer-biryani/videoshow/72994456.cms">Paneer Biryani Recipe Video</a><a class="items_popular" href="https://recipes.timesofindia.com/videos/watch-handy-tips-to-clean-your-kitchen-this-diwali/videoshow/79159407.cms">Diwali Cleaning Tips</a><a class="items_popular" href="https://recipes.timesofindia.com/videos/how-to-make-vegetable-samosa/videoshow/57716773.cms">Samosa Recipe Video</a><a class="items_popular" href="https://recipes.timesofindia.com/videos/easy-tips-to-cook-the-perfect-pasta/videoshow/57251583.cms">Perfect Pasta Tips</a><a class="items_popular" href="https://recipes.timesofindia.com/videos/how-to-make-methi-paratha/videoshow/73008067.cms">Methi Paratha Recipe Video</a><a class="items_popular" href="https://recipes.timesofindia.com/videos/watch-how-to-make-gondh-ke-laddoo/videoshow/73225990.cms">Gondh ke Laddoo Recipe Video</a><a class="items_popular" href="https://recipes.timesofindia.com/videos/watch-how-to-make-chicken-masala-recipe-in-video/videoshow/71833557.cms">Chicken Masala Recipe Video</a><a class="items_popular" href="https://recipes.timesofindia.com/videos/watch-how-to-make-andhra-mutton-roast/videoshow/72994383.cms">Andhra Mutton Roast Recipe Video</a><a class="items_popular" href="https://recipes.timesofindia.com/videos/how-to-make-kerala-fish/videoshow/70838704.cms">Kerala Fish Recipe Video</a><a class="items_popular" href="https://recipes.timesofindia.com/videos/how-to-make-nachos-pizza/videoshow/67058098.cms">Nachos Pizza Recipe Video</a></div><style>
+            .popular_heading{text-transform:uppercase;font-family:'proxima-extrabold1', calibri;font-size:12px;color:#fff;letter-spacing:0.6px;text-align:left;padding-bottom:10px;padding-top:15px;}
+            .items_popular,.items_pipe_sep{text-transform: capitalize;
+    font-family: 'proxima-regular1', calibri;
+    font-size: 11px;
+    letter-spacing: 0.8px;
+    line-height: 15px;
+    color: #ededed;
+    padding-right: 5px;
+    padding-left: 0;
+    border-right: none;
+    width: 50%;
+    float: left;
+    padding-bottom: 8px;
+     display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+    }
+
+           .items_pipe_sep{padding-left:15px;padding-right:15px;}
+           .popular_heading{padding-right:10px;}
+
+
+
+
+    .popular_heading span{
+        background: #121212;
+    padding-right: 8px;
+    }
+
+    </style><!--/footer_widget.cms?msid=60794079potime:5--></div><div class="w100p fl pv_parent"><div xmlns:math="java.lang.Math" class="w100p fl popular_heading"><span>Cuisines</span></div><div class="popular_items_children"><a class="items_popular" href="https://recipes.timesofindia.com/recipes/thai/52974717">Thai Food Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/jain/61101557">Jain Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/chinese/52974773">Chinese Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/asian/53597161">Asian Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/bengali/53597068">Bengali Food Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/punjabi/53597550">Punjabi Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/mughlai/59032115">Mughlai Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/italian/52984460">Italian Food Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/mexican/52983973">Mexican Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/north-indian/52518822">North Indian Food Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/rajasthani/53597052">Rajasthani Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/fsdfds/52974693">South Indian Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/continental/53597178">Continental Food Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/satvik/61101505">Satvik Recipes</a></div><style>
+            .popular_heading{text-transform:uppercase;font-family:'proxima-extrabold1', calibri;font-size:12px;color:#fff;letter-spacing:0.6px;text-align:left;padding-bottom:10px;padding-top:15px;}
+            .items_popular,.items_pipe_sep{text-transform: capitalize;
+    font-family: 'proxima-regular1', calibri;
+    font-size: 11px;
+    letter-spacing: 0.8px;
+    line-height: 15px;
+    color: #ededed;
+    padding-right: 5px;
+    padding-left: 0;
+    border-right: none;
+    width: 50%;
+    float: left;
+    padding-bottom: 8px;
+     display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+    }
+
+           .items_pipe_sep{padding-left:15px;padding-right:15px;}
+           .popular_heading{padding-right:10px;}
+
+
+
+
+    .popular_heading span{
+        background: #121212;
+    padding-right: 8px;
+    }
+
+    </style><!--/footer_widget.cms?msid=71424995potime:5--></div><div class="w100p fl pv_parent"><div xmlns:math="java.lang.Math" class="w100p fl popular_heading"><span>Courses &amp; Meals</span></div><div class="popular_items_children"><a class="items_popular" href="https://recipes.timesofindia.com/recipes/salad-recipes/52975040">Salad Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/desserts-sweets/52975006">Desserts &amp; Sweets</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/kebab-recipes/57202004">Kebab Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/paratha-recipes/57201611">Paratha Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/biryani-recipes/57201646">Biryani Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/dinner-recipes/52518344">Dinner Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/veg-dinners/61361358">Veg Dinners</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/lunch-recipes/52518261">Lunch Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/breakfast-recipes/61642536">Breakfast Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/veg-snacks/61361110">Veg Snacks</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/finger-food-recipes/57201519">Finger Food Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/appetizers-recipes/67380588">Appetizer Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/snack-recipes/52518623">Snack Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/soup-recipes/52974844">Soup Recipes</a></div><style>
+            .popular_heading{text-transform:uppercase;font-family:'proxima-extrabold1', calibri;font-size:12px;color:#fff;letter-spacing:0.6px;text-align:left;padding-bottom:10px;padding-top:15px;}
+            .items_popular,.items_pipe_sep{text-transform: capitalize;
+    font-family: 'proxima-regular1', calibri;
+    font-size: 11px;
+    letter-spacing: 0.8px;
+    line-height: 15px;
+    color: #ededed;
+    padding-right: 5px;
+    padding-left: 0;
+    border-right: none;
+    width: 50%;
+    float: left;
+    padding-bottom: 8px;
+     display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+    }
+
+           .items_pipe_sep{padding-left:15px;padding-right:15px;}
+           .popular_heading{padding-right:10px;}
+
+
+
+
+    .popular_heading span{
+        background: #121212;
+    padding-right: 8px;
+    }
+
+    </style><!--/footer_widget.cms?msid=71424964potime:9--></div><div class="w100p fl pv_parent"><div xmlns:math="java.lang.Math" class="w100p fl popular_heading"><span>Courses &amp; Meals</span></div><div class="popular_items_children"><a class="items_popular" href="https://recipes.timesofindia.com/recipes/cookies/67380566">Cookies</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/dinner-recipes/52518344">Dinner Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/paratha-recipes/57201611">Paratha Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/salad-recipes/52975040">Salad Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/soup-recipes/52974844">Snack Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/soup-recipes/52974844">Soup Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/dip-recipes/56331683">Dip Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/birthday-kitty-party-anniversary-snacks/56588993">Party Snacks Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/desserts-sweets/52975006">Desserts &amp; Sweets</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/sandwich-recipes/52974891">Sandwich Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/kebab-recipes/57202004">Kebab Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/appetizers-recipes/67380588">Appetizer Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/veg-snacks/61361110">Veg Snacks</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/breakfast-recipes/61642536">Breakfast Recipes</a><a class="items_popular" href="https://recipes.timesofindia.com/recipes/biryani-recipes/57201646">Biryani Recipes</a></div><style>
+            .popular_heading{text-transform:uppercase;font-family:'proxima-extrabold1', calibri;font-size:12px;color:#fff;letter-spacing:0.6px;text-align:left;padding-bottom:10px;padding-top:15px;}
+            .items_popular,.items_pipe_sep{text-transform: capitalize;
+    font-family: 'proxima-regular1', calibri;
+    font-size: 11px;
+    letter-spacing: 0.8px;
+    line-height: 15px;
+    color: #ededed;
+    padding-right: 5px;
+    padding-left: 0;
+    border-right: none;
+    width: 50%;
+    float: left;
+    padding-bottom: 8px;
+     display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+    }
+
+           .items_pipe_sep{padding-left:15px;padding-right:15px;}
+           .popular_heading{padding-right:10px;}
+
+
+
+
+    .popular_heading span{
+        background: #121212;
+    padding-right: 8px;
+    }
+
+    </style><!--/footer_widget.cms?msid=71424928potime:2--></div></div><div class="footer_cpyright_parent w100p fl"><script>
+
+              function pingIbeat() {
+                    window._pg_endpt=(new Date()).getTime();
+                    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+                    s.src = (document.location.protocol == "https:" ? "https://" : "http://") + "agi-static.indiatimes.com/cms-common/ibeat.min.js";
+                    el.parentNode.insertBefore(s, el);
+                }
+                (function() {
+                    if(window.TimesGDPR && typeof TimesGDPR.common.consentModule.gdprCallback == 'function'){
+                        TimesGDPR.common.consentModule.gdprCallback(function(dataObj){
+                        if((typeof dataObj != 'undefined') && dataObj.isEUuser){
+                             if(dataObj.consentGiven){
+                                _ibeat_track = {
+                                    "sCookie": true
+                                    }
+                                }
+                             else{
+                                _ibeat_track = {
+                                    "sCookie": false
+                                    }
+                             }
+
+                          }
+                        });
+                    }
+                    pingIbeat();
+
+                })();
+
+		</script><div class="footer_cpyright">Copyright 2021 Bennett coleman and co. ltd.All rights reserved.The Times of India. | For reprint rights: Times syndication service</div></div></div><!--/footer_wap.cms?potime:4--><script src="/newcomments_script/version-47,minify-1.cms"></script></body></html>
