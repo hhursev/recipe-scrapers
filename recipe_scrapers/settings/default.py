@@ -1,6 +1,7 @@
 from recipe_scrapers.plugins import (  # SchemaOrgPrioriotyPlugin,
     Bcp47ValidatePlugin,
     ExceptionHandlingPlugin,
+    HTMLTagStripper,
     NormalizeStringPlugin,
     OpenGraphImageFetchPlugin,
     SchemaOrgFill,
@@ -8,6 +9,7 @@ from recipe_scrapers.plugins import (  # SchemaOrgPrioriotyPlugin,
 
 PLUGINS = (
     ExceptionHandlingPlugin,
+    HTMLTagStripper,
     NormalizeStringPlugin,
     OpenGraphImageFetchPlugin,
     Bcp47ValidatePlugin,
