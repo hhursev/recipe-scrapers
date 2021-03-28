@@ -3,8 +3,6 @@ import unittest
 
 import pytest
 
-from recipe_scrapers.settings import settings
-
 
 class ScraperTest(unittest.TestCase):
 
@@ -15,7 +13,6 @@ class ScraperTest(unittest.TestCase):
         os.environ[
             "RECIPE_SCRAPERS_SETTINGS"
         ] = "tests.test_data.test_settings_module.test_settings"
-        settings.configure()
 
         test_file_name = (
             self.test_file_name

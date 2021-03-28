@@ -1,7 +1,6 @@
 import os
 
 from recipe_scrapers.cookstr import Cookstr
-from recipe_scrapers.settings import settings
 from tests import ScraperTest
 
 
@@ -30,7 +29,6 @@ class TestCookstrScraper(ScraperTest):
 
     def test_total_yields_raises_exception(self):
         os.environ["RECIPE_SCRAPERS_SETTINGS"] = "recipe_scrapers.settings.default"
-        settings.configure()
 
         with self.assertRaises(Exception):
             self.assertEqual(None, self.harvester_class.yields())

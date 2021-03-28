@@ -2,7 +2,6 @@ import os
 
 from recipe_scrapers._schemaorg import SchemaOrgException
 from recipe_scrapers.myrecipes import MyRecipes
-from recipe_scrapers.settings import settings
 from tests import ScraperTest
 
 
@@ -59,7 +58,6 @@ class TestMyRecipesScraper(ScraperTest):
 
     def test_ratings_raises_exception(self):
         os.environ["RECIPE_SCRAPERS_SETTINGS"] = "recipe_scrapers.settings.default"
-        settings.configure()
         with self.assertRaises(SchemaOrgException):
             self.assertEqual(None, self.harvester_class.ratings())
 

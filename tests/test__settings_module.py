@@ -8,7 +8,6 @@ class SettingsModuleTest(unittest.TestCase):
     def test_default_settings(self):
 
         os.environ["RECIPE_SCRAPERS_SETTINGS"] = "recipe_scrapers.settings.default"
-        settings.configure()
 
         self.assertTrue(
             len(settings.PLUGINS) > 0,
@@ -29,7 +28,6 @@ class SettingsModuleTest(unittest.TestCase):
         os.environ[
             "RECIPE_SCRAPERS_SETTINGS"
         ] = "tests.test_data.test_settings_module.test_settings"
-        settings.configure()
 
         self.assertTrue(
             settings.EXCEPTION_HANDLING,
