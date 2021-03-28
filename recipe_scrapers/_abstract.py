@@ -25,7 +25,7 @@ class AbstractScraper:
         timeout: Optional[
             Union[float, Tuple, None]
         ] = None,  # allows us to specify optional timeout for request
-        exception_handling: bool = False,  # to be depricated
+        exception_handling: bool = False,  # to be deprecated
     ):
         if settings.TEST_MODE:  # when testing, we load a file
             page_data = url.read()

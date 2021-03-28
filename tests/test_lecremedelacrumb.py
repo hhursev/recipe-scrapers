@@ -26,7 +26,8 @@ class TestLeCremeDeLaCrumbScraper(ScraperTest):
         self.assertEqual(35, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.harvester_class.exception_handling = True
+        # by default we have EXCEPTION_HANDLING set to True in test_settings.py
+        # thus exception is handled and None return
         self.assertEqual(None, self.harvester_class.yields())
 
     def test_yields_raises_exception(self):

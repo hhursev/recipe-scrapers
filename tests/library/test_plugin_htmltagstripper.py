@@ -1,6 +1,6 @@
 import unittest
 
-from recipe_scrapers.plugins import HTMLTagStripper
+from recipe_scrapers.plugins import HTMLTagStripperPlugin
 
 
 class TestHTMLTagStripperPlugin(unittest.TestCase):
@@ -49,7 +49,9 @@ class TestHTMLTagStripperPlugin(unittest.TestCase):
         # is changed as the plugin kicks in
         name = "sample_ingredients_method"
         setattr(
-            self.__class__, name, HTMLTagStripper.run(getattr(self.__class__, name))
+            self.__class__,
+            name,
+            HTMLTagStripperPlugin.run(getattr(self.__class__, name)),
         )
 
         return self.assertEqual(
@@ -86,7 +88,9 @@ class TestHTMLTagStripperPlugin(unittest.TestCase):
         # is changed as the plugin kicks in
         name = "sample_instructions_method"
         setattr(
-            self.__class__, name, HTMLTagStripper.run(getattr(self.__class__, name))
+            self.__class__,
+            name,
+            HTMLTagStripperPlugin.run(getattr(self.__class__, name)),
         )
 
         return self.assertEqual(

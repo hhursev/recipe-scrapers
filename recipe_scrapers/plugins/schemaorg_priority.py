@@ -1,13 +1,23 @@
 import functools
-import logging
+
+from recipe_scrapers.settings import settings
 
 from .._schemaorg import SchemaOrgException
 from ._interface import PluginInterface
 
 
-class SchemaOrgPrioriotyPlugin(PluginInterface):
+class SchemaOrgPriorityPlugin(PluginInterface):
     """
-    TODO: write docstring
+    Plugin that if put into use will check if there's Schema.org
+    available on the page being scraped.
+
+    If Schema.org is available, it will ignore the methods in the
+    site-specific scraper and use the SchemaOrg instead.
+
+    If SchemaOrg raises SchemaOrgException for some reason, the plugin
+    will fallback to the method used in the site-specific scraper.
+
+    In the ideal future every site implements Schema.org, but we are no there yet.
     """
 
     run_on_hosts = ("*",)
@@ -33,7 +43,7 @@ class SchemaOrgPrioriotyPlugin(PluginInterface):
             function = getattr(self.schema, decorated.__name__)
             if self.schema.data and function:
                 # TODO: write logging. Configure logging.
-                logging.debug("TODO: write", exc_info=True)
+                settings.logger.debug("TODO: write", exc_info=True)
                 try:
                     return function(*args, **kwargs)
                 except SchemaOrgException:

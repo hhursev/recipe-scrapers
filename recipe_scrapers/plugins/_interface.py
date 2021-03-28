@@ -1,6 +1,12 @@
 class PluginInterface:
     """
-    TODO: write docstring
+    Interface that all "Plugins" (including the ones written by programmers
+    using the package) should implement.
+
+    Every plugin should have the following 2 methods implemented:
+
+    - should_run
+    - run
     """
 
     run_on_hosts = ("*",)

@@ -3,7 +3,12 @@ import logging
 from html.parser import HTMLParser
 from io import StringIO
 
+from recipe_scrapers.settings import settings
+
 from ._interface import PluginInterface
+
+logging.basicConfig()
+logger = logging.getLogger(__name__)
 
 
 # Taken from @jksimoniii 's PR:
@@ -43,7 +48,15 @@ def stripper(string):
     return string
 
 
-class HTMLTagStripper(PluginInterface):
+class HTMLTagStripperPlugin(PluginInterface):
+    """
+    Run the output from the methods listed through the stripper function
+    defined above.
+
+    It is intended to strip away <html><tags></tags></html> seen inside the strings.
+    We do not want em.
+    """
+
     decorate_hosts = ("*",)
     run_on_methods = ("title", "instructions", "ingredients")
 
@@ -51,9 +64,14 @@ class HTMLTagStripper(PluginInterface):
     def run(cls, decorated):
         @functools.wraps(decorated)
         def decorated_method_wrapper(self, *args, **kwargs):
-            decorated_func_result = decorated(self, *args, **kwargs)
+            logger.setLevel(settings.LOG_LEVEL)
+            class_name = self.__class__.__name__
+            method_name = decorated.__name__
+            logger.debug(
+                f"Decorating: {class_name}.{method_name}() with HTMLTagStripperPlugin plugin."
+            )
 
-            logging.debug("TODO: write", exc_info=True)
+            decorated_func_result = decorated(self, *args, **kwargs)
 
             if type(decorated_func_result) is list:
                 return [stripper(item) for item in decorated_func_result]
