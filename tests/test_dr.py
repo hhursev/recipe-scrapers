@@ -25,7 +25,7 @@ class TestDrMeScraper(ScraperTest):
         )
 
     def test_language(self):
-        self.assertEqual("da-DK", self.harvester_class.language())
+        self.assertEqual("da-dk", self.harvester_class.language())
 
     def test_ingredients(self):
         self.assertCountEqual(

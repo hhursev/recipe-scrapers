@@ -1,3 +1,5 @@
+# if you wish to use this plugin make sure you
+# pip install language-tags>=1.0.0
 import functools
 import logging
 

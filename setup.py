@@ -1,5 +1,6 @@
 import os
-from setuptools import setup, find_packages
+
+from setuptools import find_packages, setup
 
 about = {}
 here = os.path.abspath(os.path.dirname(__file__))
@@ -22,13 +23,7 @@ setup(
     keywords="python recipes scraper harvest recipe-scraper recipe-scrapers",
     long_description=README,
     long_description_content_type="text/x-rst",
-    install_requires=[
-        "beautifulsoup4>=4.6.0",
-        "extruct>=0.8.0",
-        "language-tags>=1.0.0",
-        "requests>=2.19.1",
-        "tld>=0.12.3",
-    ],
+    install_requires=["beautifulsoup4>=4.6.0", "extruct>=0.8.0", "requests>=2.19.1"],
     packages=find_packages(),
     package_data={"": ["LICENSE"]},
     include_package_data=True,

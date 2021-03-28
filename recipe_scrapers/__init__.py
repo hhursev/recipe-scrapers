@@ -1,7 +1,3 @@
-import inspect
-
-from tld import get_tld
-
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 from .abril import Abril
@@ -318,25 +314,6 @@ class NoSchemaFoundInWildMode(Exception):
         return f"No Recipe Schema found at {self.url}"
 
 
-def get_domain(url):
-    url_info = get_tld(url, as_object=True, search_private=False)
-    return url_info.fld
-
-
-def harvest(url, **options):
-    domain = get_domain(url)
-    if domain not in SCRAPERS:
-        raise WebsiteNotImplementedError(domain)
-
-    scraper = SCRAPERS[domain]
-    options = {
-        option: value
-        for option, value in options.items()
-        if option in inspect.signature(scraper).parameters
-    }
-    return scraper(url, **options)
-
-
 def scrape_me(url_path, **options):
     host_name = get_host_name(url_path)
 
@@ -352,6 +329,28 @@ def scrape_me(url_path, **options):
             return wild_scraper
 
     return scraper(url_path, **options)
+
+
+# import inspect
+# from tld import get_tld
+# def get_domain(url):
+#     url_info = get_tld(url, as_object=True, search_private=False)
+#     return url_info.fld
+#
+#
+# def harvest(url, **options):
+#     domain = get_domain(url)
+#     if domain not in SCRAPERS:
+#         raise WebsiteNotImplementedError(domain)
+#
+#     scraper = SCRAPERS[domain]
+#     options = {
+#         option: value
+#         for option, value in options.items()
+#         if option in inspect.signature(scraper).parameters
+#     }
+#     return scraper(url, **options)
+#
 
 
 __all__ = ["scrape_me"]
