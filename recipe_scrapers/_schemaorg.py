@@ -1,22 +1,16 @@
 # IF things in this file continue get messy (I'd say 300+ lines) it may be time to
 # find a package that parses https://schema.org/Recipe properly (or create one ourselves).
-
-from operator import is_not
 from typing import Any, Dict, List, Optional
 
 import extruct
 
+from ._exceptions import SchemaOrgException
 from ._utils import get_minutes, normalize_string
 
 SCHEMA_ORG_HOST = "schema.org"
 SCHEMA_NAMES = ["Recipe", "WebPage"]
 
 SYNTAXES = ["json-ld", "microdata"]
-
-
-class SchemaOrgException(Exception):
-    def __init__(self, message):
-        super().__init__(message)
 
 
 class SchemaOrg:
@@ -71,18 +65,16 @@ class SchemaOrg:
         return author
 
     def total_time(self) -> Optional[int]:
-        def get_key_and_minutes(k):
-            return get_minutes(self.data.get(k))
+        if not (self.data.keys() & {"totalTime", "prepTime", "cookTime"}):
+            raise SchemaOrgException("Cooking time information not found in SchemaOrg")
 
-        def not_none(x) -> bool:
-            return is_not(x, None)
+        def get_key_and_minutes(k):
+            return get_minutes(self.data.get(k), return_zero_on_not_found=True)
 
         total_time = get_key_and_minutes("totalTime")
-        if total_time is None:
-            times: List[int] = list(
-                filter(not_none, map(get_key_and_minutes, ["prepTime", "cookTime"]))
-            )
-            total_time = sum(times) if times else None
+        if not total_time:
+            times: List[int] = list(map(get_key_and_minutes, ["prepTime", "cookTime"]))
+            total_time = sum(times)
         return total_time
 
     def yields(self) -> Optional[str]:

@@ -25,7 +25,6 @@ class AbstractScraper:
         timeout: Optional[
             Union[float, Tuple, None]
         ] = None,  # allows us to specify optional timeout for request
-        exception_handling: bool = False,  # to be deprecated
     ):
         if settings.TEST_MODE:  # when testing, we load a file
             page_data = url.read()
@@ -35,7 +34,6 @@ class AbstractScraper:
                 url, headers=HEADERS, proxies=proxies, timeout=timeout
             ).content
 
-        self.exception_handling = exception_handling
         self.soup = BeautifulSoup(page_data, "html.parser")
         self.url = url
 

@@ -39,20 +39,7 @@ ON_EXCEPTION_RETURN_VALUES = {
     "language": None,
     "nutrients": None,
 }
-# LEGACY VALUES: (before v13) it used to be like this:
-# ON_EXCEPTION_RETURN_VALUES = {
-#     "title": "",
-#     "total_time": 0,
-#     "yields": "",
-#     "image": "",
-#     "ingredients": [],
-#     "instructions": "",
-#     "ratings": -1,
-#     "reviews": None,
-#     "links": [],
-#     "language": "en",
-#     "nutrients": {},
-# }
+
 
 TEST_MODE = False
 

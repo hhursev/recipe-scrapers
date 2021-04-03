@@ -1,6 +1,6 @@
 import os
 
-from recipe_scrapers._schemaorg import SchemaOrgException
+from recipe_scrapers._exceptions import SchemaOrgException
 from recipe_scrapers.myrecipes import MyRecipes
 from tests import ScraperTest
 

@@ -2,7 +2,7 @@ import functools
 
 from recipe_scrapers.settings import settings
 
-from .._schemaorg import SchemaOrgException
+from .._exceptions import SchemaOrgException
 from ._interface import PluginInterface
 
 
