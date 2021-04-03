@@ -1,4 +1,4 @@
-from recipe_scrapers.plugins import (  # SchemaOrgPrioriotyPlugin,; Bcp47ValidatePlugin,
+from recipe_scrapers.plugins import (  # SchemaOrgPriorityPlugin,; Bcp47ValidatePlugin,
     ExceptionHandlingPlugin,
     HTMLTagStripperPlugin,
     NormalizeStringPlugin,
@@ -16,14 +16,14 @@ PLUGINS = (
     OpenGraphImageFetchPlugin,
     SchemaOrgFillPlugin,
     # Bcp47ValidatePlugin,
-    # SchemaOrgPrioriotyPlugin,
+    # SchemaOrgPriorityPlugin,
 )
 
-META_HTTP_EQUIV = False
+META_HTTP_EQUIV = True
 
 
-EXCEPTION_HANDLING = False
-# Applicable only if EXCEPTION_HANDLING is True, otherwise ignored
+SUPPRESS_EXCEPTIONS = False
+# Applicable only if SUPPRESS_EXCEPTIONS is True, otherwise ignored
 # silence <anyScraper>.[method]() exception and return the value
 # as listed in the config here.
 ON_EXCEPTION_RETURN_VALUES = {
