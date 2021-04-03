@@ -15,14 +15,14 @@ class SettingsModuleTest(unittest.TestCase):
         )
 
         self.assertFalse(
-            settings.EXCEPTION_HANDLING,
-            "EXCEPTION_HANDLING should be set to False in the project's default settings",
+            settings.SUPPRESS_EXCEPTIONS,
+            "SUPPRESS_EXCEPTIONS should be set to False in the project's default settings",
         )
 
     def test_settings_change_when_new_module_set(self):
         self.assertFalse(
-            settings.EXCEPTION_HANDLING,
-            "EXCEPTION_HANDLING should be set to False in the project's default settings",
+            settings.SUPPRESS_EXCEPTIONS,
+            "SUPPRESS_EXCEPTIONS should be set to False in the project's default settings",
         )
 
         os.environ[
@@ -30,6 +30,6 @@ class SettingsModuleTest(unittest.TestCase):
         ] = "tests.test_data.test_settings_module.test_settings"
 
         self.assertTrue(
-            settings.EXCEPTION_HANDLING,
-            "EXCEPTION_HANDLING should be set to True after settings are changed with the testing ones",
+            settings.SUPPRESS_EXCEPTIONS,
+            "SUPPRESS_EXCEPTIONS should be set to True after settings are changed with the testing ones",
         )

@@ -1,14 +1,13 @@
-EXCEPTION_HANDLING = True
+SUPPRESS_EXCEPTIONS = True
 
-# for example add "inner-most" plugin like this
+
+# the most powerful feature is adding custom plugins
+# for example to add "inner-most" plugin:
 # PLUGINS += (
 #     "path.to.my.custom_plugin"
 # )
-# add "outer-most" plugin like this
+#
+# and to add "outer-most" plugin:
 # PLUGINS = (
 #     "path.to.my.custom_plugin",
 # ) + PLUGINS
-
-
-# Check tests/test_data/test_settings_module/test_settings.py for another example
-# used in unittests to switch settings runtime

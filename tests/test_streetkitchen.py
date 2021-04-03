@@ -5,7 +5,6 @@ from tests import ScraperTest
 class TestStreetKitchenScraper(ScraperTest):
 
     scraper_class = StreetKitchen
-    scraper_options = {"meta_http_equiv": True}
 
     def test_host(self):
         self.assertEqual("https://streetkitchen.hu", self.harvester_class.host())

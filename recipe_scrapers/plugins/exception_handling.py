@@ -11,14 +11,14 @@ logger = logging.getLogger(__name__)
 
 class ExceptionHandlingPlugin(PluginInterface):
     """
-    Plugin that is used only if settings.EXCEPTION_HANDLING is set to True.
+    Plugin that is used only if settings.SUPPRESS_EXCEPTIONS is set to True.
 
     The outer-most plugin and decorator.
 
     If ANY of the methods listed raises ANY kind of exception, silence it
     and return the respective value from settings.ON_EXCEPTION_RETURN_VALUES
 
-    If settings.EXCEPTION_HANDLING is set to False this plugin is ignored and
+    If settings.SUPPRESS_EXCEPTIONS is set to False this plugin is ignored and
     does nothing. (In other words exceptions won't be handled and will bubble up
     to program's explosion. Left to the end-user to handle them on his own).
     """
@@ -42,7 +42,7 @@ class ExceptionHandlingPlugin(PluginInterface):
     def run(cls, decorated):
         @functools.wraps(decorated)
         def decorated_method_wrapper(self, *args, **kwargs):
-            if self.exception_handling or settings.EXCEPTION_HANDLING:
+            if settings.SUPPRESS_EXCEPTIONS:
                 logger.setLevel(settings.LOG_LEVEL)
                 class_name = self.__class__.__name__
                 method_name = decorated.__name__
