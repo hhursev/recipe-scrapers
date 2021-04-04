@@ -25,7 +25,7 @@ class NoSchemaFoundInWildMode(RecipeScrapersExceptions):
 
 
 class ElementNotFoundInHtml(RecipeScrapersExceptions):
-    """ Error when we can locate the HTML element on the page """
+    """ Error when we cannot locate the HTML element on the page """
 
     def __init__(self, element):
         self.element = element
