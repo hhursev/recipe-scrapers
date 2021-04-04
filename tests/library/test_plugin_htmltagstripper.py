@@ -9,20 +9,15 @@ class TestHTMLTagStripperPlugin(unittest.TestCase):
             "3 tbsp. <p>extra-virgin olive oil, divided</p>",
             "<p>Juice of 1 lemon</p>",
             "3 <p>cloves garlic, minced</p>",
-            "1 tsp. <p>dried oregano</p>",
-            "1 lb. <p>chicken thighs</p>",
-            "<p>kosher salt</p>",
-            "<p>Freshly ground black pepper</p>",
-            "1/2 lb. <p>asparagus, ends removed</p>",
-            "1 <p>zucchini, sliced into half moons</p>",
-            "1 <p>lemon, sliced</p>",
         ]
+
+    def sample_title_method(self, *args, **kwargs):
+        return "Sticky Pomegranate &amp;amp; Black Pepper Chicken Wing"
 
     def sample_instructions_method(self, *args, **kwargs):
         return """
             blah blah \n\n
             blah <p>should remove ps</p>
-            blah blah \n\n
         """
 
     def test_sample_ingredients_method(self):
@@ -33,13 +28,6 @@ class TestHTMLTagStripperPlugin(unittest.TestCase):
                 "3 tbsp. <p>extra-virgin olive oil, divided</p>",
                 "<p>Juice of 1 lemon</p>",
                 "3 <p>cloves garlic, minced</p>",
-                "1 tsp. <p>dried oregano</p>",
-                "1 lb. <p>chicken thighs</p>",
-                "<p>kosher salt</p>",
-                "<p>Freshly ground black pepper</p>",
-                "1/2 lb. <p>asparagus, ends removed</p>",
-                "1 <p>zucchini, sliced into half moons</p>",
-                "1 <p>lemon, sliced</p>",
             ],
             "Original method should be as defined in the test class",
         )
@@ -60,13 +48,6 @@ class TestHTMLTagStripperPlugin(unittest.TestCase):
                 "3 tbsp. extra-virgin olive oil, divided",
                 "Juice of 1 lemon",
                 "3 cloves garlic, minced",
-                "1 tsp. dried oregano",
-                "1 lb. chicken thighs",
-                "kosher salt",
-                "Freshly ground black pepper",
-                "1/2 lb. asparagus, ends removed",
-                "1 zucchini, sliced into half moons",
-                "1 lemon, sliced",
             ],
             "Result must have html tags stripped when invoked after plugin used",
         )
@@ -78,7 +59,6 @@ class TestHTMLTagStripperPlugin(unittest.TestCase):
             """
             blah blah \n\n
             blah <p>should remove ps</p>
-            blah blah \n\n
         """,
             "Original method should be as defined in the test class",
         )
@@ -98,7 +78,29 @@ class TestHTMLTagStripperPlugin(unittest.TestCase):
             """
             blah blah \n\n
             blah should remove ps
-            blah blah \n\n
         """,
+            "Result must have html tags stripped when invoked after plugin used",
+        )
+
+    def test_sample_title_method(self):
+        self.assertEqual(
+            self.sample_title_method(),
+            "Sticky Pomegranate &amp;amp; Black Pepper Chicken Wing",
+            "Original method should be as defined in the test class",
+        )
+
+        # we "decorate" our  sample_instructions_method as we would in _abstract.py with the
+        # HTMLTagStripper plugin if it is used. Note how the result returned from the method
+        # is changed as the plugin kicks in
+        name = "sample_title_method"
+        setattr(
+            self.__class__,
+            name,
+            HTMLTagStripperPlugin.run(getattr(self.__class__, name)),
+        )
+
+        return self.assertEqual(
+            self.sample_title_method(),
+            "Sticky Pomegranate & Black Pepper Chicken Wing",
             "Result must have html tags stripped when invoked after plugin used",
         )
