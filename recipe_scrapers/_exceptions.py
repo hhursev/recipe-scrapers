@@ -25,7 +25,7 @@ class NoSchemaFoundInWildMode(RecipeScrapersExceptions):
 
 
 class ElementNotFoundInHtml(RecipeScrapersExceptions):
-    """ Error when wild_mode fails to locate schema at the url """
+    """ Error when we can locate the HTML element on the page """
 
     def __init__(self, element):
         self.element = element
@@ -36,5 +36,7 @@ class ElementNotFoundInHtml(RecipeScrapersExceptions):
 
 
 class SchemaOrgException(RecipeScrapersExceptions):
+    """ Error in parsing or missing portion of the Schema.org data org the page """
+
     def __init__(self, message):
         super().__init__(message)
