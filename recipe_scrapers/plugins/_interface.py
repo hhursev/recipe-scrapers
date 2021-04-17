@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from collections.abc import Iterable
+from typing import Iterable
 
 
 class PluginInterface(ABC):
