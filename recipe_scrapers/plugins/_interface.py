@@ -1,4 +1,8 @@
-class PluginInterface:
+from abc import ABC, abstractmethod
+from collections.abc import Iterable
+
+
+class PluginInterface(ABC):
     """
     Interface that all "Plugins" (including the ones written by programmers
     using the package) should implement.
@@ -9,10 +13,11 @@ class PluginInterface:
     - run
     """
 
-    run_on_hosts = ("*",)
-    run_on_methods = ("title",)
+    run_on_hosts: Iterable[str] = ("*",)
+    run_on_methods: Iterable[str] = ("title",)
 
     @classmethod
+    @abstractmethod
     def run(cls, decorated):
         pass
 
