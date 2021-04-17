@@ -1,5 +1,3 @@
-from typing import List, Optional
-
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -9,10 +7,10 @@ class ThePioneerWoman(AbstractScraper):
     def host(cls):
         return "thepioneerwoman.com"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         return self.soup.find("h3", {"class": "recipe-title"}).get_text()
 
-    def total_time(self) -> Optional[int]:
+    def total_time(self):
         return sum(
             [
                 get_minutes(dd)
@@ -22,15 +20,15 @@ class ThePioneerWoman(AbstractScraper):
             ]
         )
 
-    def yields(self) -> Optional[str]:
+    def yields(self):
         return get_yields(self.soup.find("span", {"itemprop": "recipeYield"}))
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         ingredients = self.soup.find("ul", {"class": "list-ingredients"}).findAll("li")
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         instructions = self.soup.findAll("div", {"class": "panel-body"})[-1]
 
         return normalize_string(instructions.get_text()).replace(".", ".\n")

@@ -1,5 +1,3 @@
-from typing import List, Optional
-
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -9,17 +7,17 @@ class SimplyRecipes(AbstractScraper):
     def host(cls):
         return "simplyrecipes.com"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         return self.soup.find("h1").get_text()
 
-    def total_time(self) -> Optional[int]:
+    def total_time(self):
         return get_minutes(
             self.soup.find("div", {"class": "total-time"})
             .find("span", {"class": "meta-text__data"})
             .text
         )
 
-    def yields(self) -> Optional[str]:
+    def yields(self):
         return get_yields(
             normalize_string(
                 self.soup.find("div", {"class": "recipe-serving"})
@@ -28,12 +26,12 @@ class SimplyRecipes(AbstractScraper):
             )
         )
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         ingredients = self.soup.find("ul", {"class": "ingredient-list"}).findAll("li")
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         steps = self.soup.find(
             "div", {"class": "structured-project__steps"}
         ).ol.findAll("li")

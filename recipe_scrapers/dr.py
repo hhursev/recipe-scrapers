@@ -1,5 +1,3 @@
-from typing import List, Optional
-
 from ._abstract import AbstractScraper
 
 
@@ -8,19 +6,19 @@ class Dr(AbstractScraper):
     def host(cls):
         return "dr.dk"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         return self.schema.title()
 
-    def total_time(self) -> Optional[int]:
+    def total_time(self):
         return self.schema.total_time()
 
-    def yields(self) -> Optional[str]:
+    def yields(self):
         return self.schema.yields()
 
-    def image(self) -> Optional[str]:
+    def image(self):
         return self.schema.image()
 
-    def language(self) -> Optional[str]:
+    def language(self):
         meta_language = self.soup.find(
             "meta",
             attrs={"name": lambda x: x and x.lower() == "language", "content": True},
@@ -28,8 +26,8 @@ class Dr(AbstractScraper):
 
         return meta_language.get("content")
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         return self.schema.ingredients()
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         return self.schema.instructions()

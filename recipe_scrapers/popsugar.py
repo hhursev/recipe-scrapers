@@ -1,5 +1,3 @@
-from typing import List, Optional
-
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -9,27 +7,27 @@ class PopSugar(AbstractScraper):
     def host(cls):
         return "popsugar.com"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         title = self._context().find("h2", {"class": "recipe-title"}).get_text()
         return normalize_string(title)
 
-    def total_time(self) -> Optional[int]:
+    def total_time(self):
         anchor = self._context().find(text="Total Time")
         time = anchor.parent.findNext("dd").get_text()
         return get_minutes(time)
 
-    def yields(self) -> Optional[str]:
+    def yields(self):
         anchor = self._context().find(text="Yield")
         serves = anchor.parent.findNext("dd").get_text()
         return get_yields(serves)
 
-    def image(self) -> Optional[str]:
+    def image(self):
         article = self.soup.find("article")
         if article:
             article = article.get("data-share-image")
         return article
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         container = self._context().find("h3", text="Ingredients").parent
         entries = container.findAll("li")
 
@@ -51,7 +49,7 @@ class PopSugar(AbstractScraper):
 
         return ingredients
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         container = self._context().find("h3", text="Directions").parent
         return "\n".join([entry.get_text() for entry in container.findAll("li")])
 

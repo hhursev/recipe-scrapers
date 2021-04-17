@@ -1,5 +1,3 @@
-from typing import List, Optional
-
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -9,16 +7,16 @@ class Mindmegette(AbstractScraper):
     def host(cls):
         return "www.mindmegette.hu"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         return self.soup.find("h1", {"class": "title"}).get_text()
 
-    def total_time(self) -> Optional[int]:
+    def total_time(self):
         item_sibling = self.soup.find("span", {"class": "spriteTime"})
         time = item_sibling.find_next().get_text()
 
         return get_minutes(time)
 
-    def image(self) -> Optional[str]:
+    def image(self):
         image_relative_url = self.soup.find("img", {"itemprop": "image", "src": True})[
             "src"
         ]
@@ -28,7 +26,7 @@ class Mindmegette(AbstractScraper):
 
         return image_relative_url
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         ingredients = []
         shopping_cart = self.soup.find("ul", {"class": "shopingCart"}).findAll("li")
 
@@ -45,7 +43,7 @@ class Mindmegette(AbstractScraper):
 
         return ingredients
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         instructions = self.soup.find("div", {"class": "instructions"}).findAll("li")
 
         instructions_arr = []
@@ -56,7 +54,7 @@ class Mindmegette(AbstractScraper):
 
         return "\n".join(instructions_arr)
 
-    def yields(self) -> Optional[str]:
+    def yields(self):
         item_sibling = self.soup.find("span", {"class": "spritePortion"})
         portion = item_sibling.find_next().get_text()
 

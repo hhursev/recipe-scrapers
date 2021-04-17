@@ -1,5 +1,3 @@
-from typing import List, Optional
-
 from ._abstract import AbstractScraper
 
 
@@ -8,17 +6,17 @@ class BonAppetit(AbstractScraper):
     def host(cls):
         return "bonappetit.com"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         return self.schema.title()
 
-    def total_time(self) -> Optional[int]:
+    def total_time(self):
         return None
 
-    def yields(self) -> Optional[str]:
+    def yields(self):
         return self.schema.yields()
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         return self.schema.ingredients()
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         return self.schema.instructions()

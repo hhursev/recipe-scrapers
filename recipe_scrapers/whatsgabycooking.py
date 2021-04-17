@@ -1,5 +1,3 @@
-from typing import List, Optional
-
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, normalize_string
 
@@ -9,16 +7,16 @@ class WhatsGabyCooking(AbstractScraper):
     def host(cls):
         return "whatsgabycooking.com"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         return self.soup.find("h1", {"class": "entry-title"}).get_text()
 
-    def total_time(self) -> Optional[int]:
+    def total_time(self):
         return get_minutes(self.soup.find("p", {"class": "header-recipe-time"}))
 
-    def yields(self) -> Optional[str]:
+    def yields(self):
         return ""
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         ingredients = self.soup.findAll("li", {"class": "wprm-recipe-ingredient"})
 
         return [
@@ -27,7 +25,7 @@ class WhatsGabyCooking(AbstractScraper):
             if len(ingredient) > 0
         ]
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         instructions = self.soup.findAll("li", {"class": "wprm-recipe-instruction"})
 
         return "\n".join(

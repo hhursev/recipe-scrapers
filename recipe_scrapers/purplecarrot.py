@@ -1,5 +1,3 @@
-from typing import Any, Dict, List, Optional
-
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
@@ -9,23 +7,23 @@ class PurpleCarrot(AbstractScraper):
     def host(cls):
         return "purplecarrot.com"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         return self.schema.title()
 
-    def total_time(self) -> Optional[int]:
+    def total_time(self):
         return self.schema.total_time()
 
-    def yields(self) -> Optional[str]:
+    def yields(self):
         return self.schema.yields()
 
-    def image(self) -> Optional[str]:
+    def image(self):
         return self.schema.image()
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         return self.schema.ingredients()
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         return normalize_string(self.schema.instructions())
 
-    def nutrients(self) -> Optional[Dict[str, Any]]:
+    def nutrients(self):
         return self.schema.nutrients()

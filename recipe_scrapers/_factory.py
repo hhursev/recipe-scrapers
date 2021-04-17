@@ -1,5 +1,3 @@
-from typing import List, Optional
-
 from ._abstract import AbstractScraper
 from ._utils import get_host_name
 
@@ -9,31 +7,31 @@ class SchemaScraperFactory:
         def host(self) -> str:
             return get_host_name(self.url)
 
-        def title(self) -> Optional[str]:
+        def title(self):
             return self.schema.title()
 
-        def total_time(self) -> Optional[int]:
+        def total_time(self):
             return self.schema.total_time()
 
-        def yields(self) -> Optional[str]:
+        def yields(self):
             return self.schema.yields()
 
-        def image(self) -> Optional[str]:
+        def image(self):
             return self.schema.image()
 
-        def ingredients(self) -> Optional[List[str]]:
+        def ingredients(self):
             return self.schema.ingredients()
 
-        def instructions(self) -> Optional[str]:
+        def instructions(self):
             return self.schema.instructions()
 
-        def ratings(self) -> Optional[float]:
+        def ratings(self):
             return self.schema.ratings()
 
-        def author(self) -> Optional[str]:
+        def author(self):
             return self.schema.author()
 
-        def cuisine(self) -> Optional[str]:
+        def cuisine(self):
             return self.schema.cuisine()
 
     @classmethod

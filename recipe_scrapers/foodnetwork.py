@@ -1,5 +1,3 @@
-from typing import List, Optional
-
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -9,27 +7,27 @@ class FoodNetwork(AbstractScraper):
     def host(cls):
         return "foodnetwork.com"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         return self.soup.find("h1").get_text().strip()
 
-    def total_time(self) -> Optional[int]:
+    def total_time(self):
         return get_minutes(
             self.soup.find("span", {"class": "m-RecipeInfo__a-Description--Total"})
         )
 
-    def yields(self) -> Optional[str]:
+    def yields(self):
         return get_yields(
             self.soup.find("ul", {"class": "o-RecipeInfo__m-Yield"}).find(
                 "span", {"class": "o-RecipeInfo__a-Description"}
             )
         )
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         ingredients = self.soup.findAll("p", {"class": "o-Ingredients__a-Ingredient"})
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         instructions = self.soup.findAll("li", {"class": "o-Method__m-Step"})
 
         return "\n".join(

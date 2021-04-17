@@ -1,5 +1,4 @@
 import re
-from typing import List, Optional
 
 from bs4 import Tag
 
@@ -17,10 +16,10 @@ class FarmhouseDelivery(AbstractScraper):
     def host(self, domain="com"):
         return f"recipes.farmhousedelivery.{domain}"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         return self.soup.find("h1", {"class": "entry-title"}).get_text(strip=True)
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         # Style 1
         ingredients_marker = self.soup.find("p", text=re.compile(r"Ingredients:"))
         if ingredients_marker is not None:
@@ -56,7 +55,7 @@ class FarmhouseDelivery(AbstractScraper):
 
         return None
 
-    def _instructions_list(self) -> Optional[List[str]]:
+    def _instructions_list(self):
         # Style 1
         instructions_marker = self.soup.find("p", text=re.compile(r"Instructions:"))
         if instructions_marker is not None:
@@ -91,11 +90,11 @@ class FarmhouseDelivery(AbstractScraper):
 
         return None
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         data = self._instructions_list()
         return "\n".join(data) if data else None
 
-    def image(self) -> Optional[str]:
+    def image(self):
         container = self.soup.find("div", {"class": "entry-content"})
         if not container:
             return None

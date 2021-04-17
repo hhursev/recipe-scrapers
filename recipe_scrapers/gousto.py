@@ -1,5 +1,3 @@
-from typing import List, Optional
-
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -9,15 +7,15 @@ class Gousto(AbstractScraper):
     def host(cls):
         return "gousto.co.uk"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         return self.soup.find("h1", {"class": "indivrecipe-title"}).get_text()
 
-    def total_time(self) -> Optional[int]:
+    def total_time(self):
         return get_minutes(
             self.soup.find("p", {"class": "recipehighlight-box-value"}).parent
         )
 
-    def yields(self) -> Optional[str]:
+    def yields(self):
         yields = (
             self.soup.find("div", {"id": "ingredients"})
             .find("div", {"class": "panel-subheading"})
@@ -26,7 +24,7 @@ class Gousto(AbstractScraper):
 
         return get_yields("{} servings".format(yields))
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         # TODO: Fix append
         container = self.soup.find("div", {"id": "ingredients"})
 
@@ -51,7 +49,7 @@ class Gousto(AbstractScraper):
 
         return ingredients
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         instructions = self.soup.find("div", {"id": "instructions"}).find_all(
             "div", {"class": "indivrecipe-cooking-text-wrapper"}
         )
@@ -64,7 +62,7 @@ class Gousto(AbstractScraper):
             normalize_string(instruction) for instruction in instr_container
         )
 
-    def ratings(self) -> Optional[float]:
+    def ratings(self):
         ratings = self.soup.find("div", {"class": "star-overflow"}).find(
             "img", alt=True
         )

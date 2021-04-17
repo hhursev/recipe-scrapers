@@ -1,5 +1,3 @@
-from typing import List, Optional
-
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -9,12 +7,12 @@ class Cookstr(AbstractScraper):
     def host(cls):
         return "cookstr.com"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         return normalize_string(
             self.soup.find("h1", {"class": "articleHeadline"}).get_text()
         )
 
-    def total_time(self) -> Optional[int]:
+    def total_time(self):
         sections = self.soup.findAll("div", {"class": "articleAttrSection"})
         total_time = 0
         for section in sections:
@@ -23,7 +21,7 @@ class Cookstr(AbstractScraper):
                 total_time += get_minutes(time.parent.parent)
         return total_time
 
-    def yields(self) -> Optional[str]:
+    def yields(self):
         sections = self.soup.findAll("span", {"class": "attrLabel"})
         for section in sections:
             serves = section.find(text="Serves")
@@ -31,7 +29,7 @@ class Cookstr(AbstractScraper):
                 return get_yields(serves.parent.parent)
         raise Exception("Servings amount not found")
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         ingredients = self.soup.find("div", {"class": "recipeIngredients"})
 
         return [
@@ -39,7 +37,7 @@ class Cookstr(AbstractScraper):
             for ingredient in ingredients.findAll("li")
         ]
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         instructions = self.soup.find("div", {"class": "stepByStepInstructionsDiv"})
 
         return "\n".join(

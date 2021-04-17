@@ -1,5 +1,3 @@
-from typing import List, Optional
-
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -9,7 +7,7 @@ class Vegolosi(AbstractScraper):
     def host(cls):
         return "vegolosi.it"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         return self.soup.find("h1").get_text().strip()
 
     def preparation_time(self):
@@ -26,14 +24,14 @@ class Vegolosi(AbstractScraper):
 
         return sum([get_minutes(element) for element in possible_time_info_elements])
 
-    def total_time(self) -> Optional[int]:
+    def total_time(self):
         possible_time_info_elements = self.soup.findAll(
             "span", {"class": "tasty-recipes-total-time"}
         )
 
         return sum([get_minutes(element) for element in possible_time_info_elements])
 
-    def yields(self) -> Optional[str]:
+    def yields(self):
         possible_yields_info_elements = self.soup.findAll(
             "span", {"class": "tasty-recipes-yield"}
         )
@@ -42,7 +40,7 @@ class Vegolosi(AbstractScraper):
                 return get_yields(element)
         return ""
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         ingredients = self.soup.select(".tasty-recipe-ingredients > ul > li")
 
         if not ingredients:
@@ -50,7 +48,7 @@ class Vegolosi(AbstractScraper):
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
 
         instructions = self.soup.findAll("div", {"class": "tasty-recipe-instructions"})
 
@@ -58,7 +56,7 @@ class Vegolosi(AbstractScraper):
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
 
-    def ratings(self) -> Optional[float]:
+    def ratings(self):
         return round(
             float(
                 self.soup.find("div", {"class": "tasty-recipe-rating rating_panel"})

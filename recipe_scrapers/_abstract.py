@@ -1,7 +1,7 @@
 import inspect
 from collections import OrderedDict
 from json.decoder import JSONDecodeError
-from typing import Any, Dict, List, Optional, Tuple, Union
+from typing import Optional, Tuple, Union
 from urllib.parse import urljoin
 
 import requests
@@ -63,24 +63,24 @@ class AbstractScraper:
             return urljoin(self.url, canonical_link["href"])
         return self.url
 
-    def title(self) -> Optional[str]:
+    def title(self):
         raise NotImplementedError("This should be implemented.")
 
-    def total_time(self) -> Optional[int]:
+    def total_time(self):
         """ total time it takes to preparate the recipe in minutes """
         raise NotImplementedError("This should be implemented.")
 
-    def yields(self) -> Optional[int]:
+    def yields(self):
         """ The number of servings or items in the recipe """
         raise NotImplementedError("This should be implemented.")
 
-    def image(self) -> Optional[str]:
+    def image(self):
         raise NotImplementedError("This should be implemented.")
 
-    def nutrients(self) -> Optional[Dict[str, Any]]:
+    def nutrients(self):
         raise NotImplementedError("This should be implemented.")
 
-    def language(self) -> Optional[str]:
+    def language(self):
         """
         Human language the recipe is written in.
 
@@ -115,27 +115,27 @@ class AbstractScraper:
         # Return the first candidate language
         return candidate_languages.popitem(last=False)[0]
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         raise NotImplementedError("This should be implemented.")
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         raise NotImplementedError("This should be implemented.")
 
-    def ratings(self) -> Optional[float]:
+    def ratings(self):
         raise NotImplementedError("This should be implemented.")
 
-    def author(self) -> Optional[str]:
+    def author(self):
         raise NotImplementedError("This should be implemented.")
 
-    def reviews(self) -> Optional[Any]:
+    def reviews(self):
         raise NotImplementedError("This should be implemented.")
 
-    def links(self) -> Optional[List[str]]:
+    def links(self):
         invalid_href = {"#", ""}
         links_html = self.soup.findAll("a", href=True)
 
         return [link.attrs for link in links_html if link["href"] not in invalid_href]
 
-    def site_name(self) -> Optional[str]:
+    def site_name(self):
         meta = self.soup.find("meta", property="og:site_name")
         return meta.get("content") if meta else None

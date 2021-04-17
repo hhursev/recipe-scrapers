@@ -1,5 +1,3 @@
-from typing import List, Optional
-
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -9,34 +7,34 @@ class Epicurious(AbstractScraper):
     def host(cls):
         return "epicurious.com"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         return normalize_string(self.soup.find("h1", {"itemprop": "name"}).get_text())
 
-    def total_time(self) -> Optional[int]:
+    def total_time(self):
         total_time = self.soup.find("dd", {"class": "total-time"})
 
         return get_minutes(total_time)
 
-    def yields(self) -> Optional[str]:
+    def yields(self):
         return get_yields(self.soup.find("dd", {"itemprop": "recipeYield"}))
 
-    def image(self) -> Optional[str]:
+    def image(self):
         image = self.soup.find("img", {"class": "photo", "srcset": True})
         return image["srcset"] if image else None
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         ingredients = self.soup.findAll("li", {"itemprop": "ingredients"})
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         instructions = self.soup.findAll("li", {"class": "preparation-step"})
 
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
 
-    def ratings(self) -> Optional[float]:
+    def ratings(self):
         rating = self.soup.find("span", {"class": "rating"})
         rating = rating.get_text().split("/")[0] if rating is not None else None
         rating = float(rating) if rating is not None else None

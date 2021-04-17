@@ -1,5 +1,4 @@
 import re
-from typing import List, Optional
 
 from ._abstract import AbstractScraper
 
@@ -13,22 +12,22 @@ class NutritionByNathalie(AbstractScraper):
     def host(cls):
         return "nutritionbynathalie.com"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         return self.soup.find("h1").get_text()
 
-    def total_time(self) -> Optional[int]:
+    def total_time(self):
         return 0
 
-    def yields(self) -> Optional[str]:
+    def yields(self):
         return None
 
-    def image(self) -> Optional[str]:
+    def image(self):
         try:
             return self.soup.find("img", {"id": re.compile(r"^innercomp_")})["src"]
         except Exception:
             return None
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         ingredients = []
 
         elements = self.soup.find_all(text=self.ingredientMatch)
@@ -46,7 +45,7 @@ class NutritionByNathalie(AbstractScraper):
 
         return ingredients
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         title = self.soup.find(text="Directions:").find_parent("p")
 
         instructions = []
@@ -55,5 +54,5 @@ class NutritionByNathalie(AbstractScraper):
 
         return "\n".join(instructions)
 
-    def ratings(self) -> Optional[float]:
+    def ratings(self):
         return None

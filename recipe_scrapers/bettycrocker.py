@@ -4,7 +4,6 @@
 # 18 January, 2020
 # =======================================================
 
-from typing import List, Optional
 
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
@@ -15,19 +14,19 @@ class BettyCrocker(AbstractScraper):
     def host(cls):
         return "bettycrocker.com"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         return self.schema.title()
 
-    def total_time(self) -> Optional[int]:
+    def total_time(self):
         return self.schema.total_time()
 
-    def yields(self) -> Optional[str]:
+    def yields(self):
         return self.schema.yields()
 
-    def image(self) -> Optional[str]:
+    def image(self):
         return self.schema.image()
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         ingredients = self.soup.find(
             "div", {"class": "recipePartIngredientGroup"}
         ).ul.findAll("li")
@@ -41,7 +40,7 @@ class BettyCrocker(AbstractScraper):
             for ingredient in ingredients
         ]
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         instructions = self.soup.findAll("li", {"class": "recipePartStep"})
         return "\n".join(
             [
@@ -54,6 +53,6 @@ class BettyCrocker(AbstractScraper):
             ]
         )
 
-    def ratings(self) -> Optional[float]:
+    def ratings(self):
         rating = self.soup.find("meta", {"itemprop": "ratingValue"})["content"]
         return round(float(rating), 2)

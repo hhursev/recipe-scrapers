@@ -1,5 +1,3 @@
-from typing import List, Optional
-
 from bs4 import BeautifulSoup
 
 from ._abstract import AbstractScraper
@@ -10,22 +8,22 @@ class BBCGoodFood(AbstractScraper):
     def host(cls):
         return "bbcgoodfood.com"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         return self.schema.title()
 
-    def total_time(self) -> Optional[int]:
+    def total_time(self):
         return self.schema.total_time()
 
-    def yields(self) -> Optional[str]:
+    def yields(self):
         return self.schema.yields()
 
-    def image(self) -> Optional[str]:
+    def image(self):
         return self.schema.image()
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         return self.schema.ingredients()
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         inst = str(self.schema.instructions())
         instSoup = BeautifulSoup(inst, features="html.parser")
         return instSoup.text

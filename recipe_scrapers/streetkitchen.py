@@ -1,5 +1,3 @@
-from typing import List, Optional
-
 from ._abstract import AbstractScraper
 from ._utils import get_yields, normalize_string
 
@@ -9,20 +7,20 @@ class StreetKitchen(AbstractScraper):
     def host(cls):
         return "https://streetkitchen.hu"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         return self.soup.find("h1", {"class": "entry-title"}).get_text()
 
-    def total_time(self) -> Optional[int]:
+    def total_time(self):
         return None
 
-    def image(self) -> Optional[str]:
+    def image(self):
         return (
             self.soup.find("div", {"class": "article-featured-image-bg"})
             .find("noscript")
             .find("img")["src"]
         )
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         ingredients = []
         ingredient_group = self.soup.find("div", {"class": "ingredient-group"}).findAll(
             "dd"
@@ -33,7 +31,7 @@ class StreetKitchen(AbstractScraper):
 
         return ingredients
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         instructions = self.soup.find("div", {"class": "the-content-div"}).findAll("p")[
             :-1
         ]  # the last paragraph is advertisement, not instructions
@@ -42,7 +40,7 @@ class StreetKitchen(AbstractScraper):
             instructions_arr.append(instruction.get_text())
         return "\n".join(instructions_arr)
 
-    def yields(self) -> Optional[str]:
+    def yields(self):
         return get_yields(
             self.soup.find("span", {"class": "quantity-number"}).get_text()
         )

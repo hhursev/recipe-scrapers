@@ -1,5 +1,3 @@
-from typing import List, Optional
-
 from recipe_scrapers._abstract import AbstractScraper
 from recipe_scrapers._utils import get_minutes, normalize_string
 
@@ -9,10 +7,10 @@ class Food52(AbstractScraper):
     def host(cls):
         return "food52.com"
 
-    def title(self) -> Optional[str]:
+    def title(self):
         return self.schema.title()
 
-    def total_time(self) -> Optional[int]:
+    def total_time(self):
         ul = self.soup.find("ul", {"class": "recipe__details"})
         total = 0
         for li in ul.find_all("li"):
@@ -20,16 +18,16 @@ class Food52(AbstractScraper):
                 total += get_minutes(list(li.children)[2].strip())
         return total
 
-    def yields(self) -> Optional[str]:
+    def yields(self):
         return self.schema.yields()
 
-    def image(self) -> Optional[str]:
+    def image(self):
         return self.schema.image()
 
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         return self.schema.ingredients()
 
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         instructions = self.soup.findAll("li", {"class": "recipe__list-step"})
 
         return "\n".join(
@@ -39,5 +37,5 @@ class Food52(AbstractScraper):
             ]
         )
 
-    def ratings(self) -> Optional[float]:
+    def ratings(self):
         return self.schema.ratings()
