@@ -1,5 +1,4 @@
 from ._abstract import AbstractScraper
-from ._utils import normalize_string
 
 
 class Abril(AbstractScraper):
@@ -23,4 +22,4 @@ class Abril(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        return normalize_string(self.schema.instructions())
+        return self.schema.instructions()

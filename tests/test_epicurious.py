@@ -12,7 +12,7 @@ class TestEpicurious(ScraperTest):
     def test_canonical_url(self):
         # TODO: Find a way to supply original content base URL at test-time (via WARC-file?)
         self.assertEqual(
-            "epicurious.testhtml_files/ramen-noodle-bowl-with-escarole-and-spicy-tofu-crum_002.html",
+            "https://test.example.com/epicurious.testhtml_files/ramen-noodle-bowl-with-escarole-and-spicy-tofu-crum_002.html",
             self.harvester_class.canonical_url(),
         )
 
@@ -23,7 +23,7 @@ class TestEpicurious(ScraperTest):
         )
 
     def test_total_time(self):
-        self.assertEqual(0, self.harvester_class.total_time())
+        self.assertEqual(None, self.harvester_class.total_time())
 
     def test_yields(self):
         self.assertEqual("2 serving(s)", self.harvester_class.yields())

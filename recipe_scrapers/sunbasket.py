@@ -26,7 +26,7 @@ class SunBasket(AbstractScraper):
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
-    def instructions(self):
+    def _instructions_list(self):
         instructions_container = self.soup.find(
             "div", {"class": "instructions-container"}
         )
@@ -48,6 +48,10 @@ class SunBasket(AbstractScraper):
                     f"{step_number}: {step_name} - {step_instructions}"
                 )
         return instruction_list
+
+    def instructions(self):
+        data = self._instructions_list()
+        return "\n".join(data) if data else None
 
     def image(self):
         container = self.soup.find("div", {"class": "recipe-image-container"})

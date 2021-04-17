@@ -10,7 +10,7 @@ class CookEatShare(AbstractScraper):
         return self.schema.title()
 
     def total_time(self):
-        return 0
+        return None
 
     def image(self):
         return self.schema.image()

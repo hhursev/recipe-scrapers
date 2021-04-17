@@ -20,13 +20,7 @@ class AtelierDesChefs(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        # clean the text : remove trailing newlines, and consecutives newlines
-        instructions = self.soup.find(
-            "ul", {"class": "recipe-steps arial marginT20"}
-        ).text.splitlines()
-        return "\n".join(
-            [paragraph for paragraph in instructions if len(paragraph) > 0]
-        )
+        return self.schema.instructions()
 
     def ratings(self):
         return self.schema.ratings()

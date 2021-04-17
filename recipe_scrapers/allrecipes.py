@@ -17,7 +17,8 @@ class AllRecipes(AbstractScraper):
         # provides a (hopefully temporary!) allrecipes-specific workaround.
         author = self.schema.data.get("author")
         if author and isinstance(author, list) and len(author) == 1:
-            return author[0].get("name")
+            author = author[0].get("name")
+        return author
 
     def title(self):
         return self.schema.title()

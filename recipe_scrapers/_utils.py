@@ -1,6 +1,8 @@
 import html
 import re
 
+from ._exceptions import ElementNotFoundInHtml
+
 TIME_REGEX = re.compile(
     r"(\D*(?P<hours>\d+)\s*(hours|hrs|hr|h|óra))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|perc))?",
     re.IGNORECASE,
@@ -16,9 +18,12 @@ SERVE_REGEX_ITEMS = re.compile(
 SERVE_REGEX_TO = re.compile(r"\d+(\s+to\s+|-)\d+", flags=re.I | re.X)
 
 
-def get_minutes(element):
+def get_minutes(element, return_zero_on_not_found=False):
     if element is None:
-        return None
+        # to be removed
+        if return_zero_on_not_found:
+            return 0
+        raise ElementNotFoundInHtml(element)
 
     # handle integer in string literal
     try:
@@ -54,6 +59,9 @@ def get_yields(element):
     :param element: Should be BeautifulSoup.TAG, in some cases not feasible and will then be text.
     :return: The number of servings or items.
     """
+    if element is None:
+        raise ElementNotFoundInHtml(element)
+
     if isinstance(element, str):
         serve_text = element
     else:

@@ -24,7 +24,8 @@ class PopSugar(AbstractScraper):
     def image(self):
         article = self.soup.find("article")
         if article:
-            return article["data-share-image"]
+            article = article.get("data-share-image")
+        return article
 
     def ingredients(self):
         container = self._context().find("h3", text="Ingredients").parent

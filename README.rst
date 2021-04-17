@@ -57,7 +57,21 @@ then:
     scraper.nutrients()  # if available
 
 
-Note: ``scraper.links()`` returns a list of dictionaries containing all of the <a> tag attributes. The attribute names are the dictionary keys.
+Notes:
+
+- Starting from v13.0.0 the packaged stopped suppressing scraper exceptions by default. If you want the previous behaviour
+
+.. code:: python
+
+    import os
+    from recipe_scrapers import scrape_me
+
+    os.environ["RECIPE_SCRAPERS_SETTINGS"] = "recipe_scrapers.settings.v12_settings"
+
+    scraper = scrape_me(...)  # etc.
+
+- ``scraper.links()`` returns a list of dictionaries containing all of the <a> tag attributes. The attribute names are the dictionary keys.
+
 
 Scrapers available for:
 -----------------------

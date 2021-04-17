@@ -55,7 +55,7 @@ class FarmhouseDelivery(AbstractScraper):
 
         return None
 
-    def instructions(self):
+    def _instructions_list(self):
         # Style 1
         instructions_marker = self.soup.find("p", text=re.compile(r"Instructions:"))
         if instructions_marker is not None:
@@ -89,6 +89,10 @@ class FarmhouseDelivery(AbstractScraper):
             return instructions
 
         return None
+
+    def instructions(self):
+        data = self._instructions_list()
+        return "\n".join(data) if data else None
 
     def image(self):
         container = self.soup.find("div", {"class": "entry-content"})

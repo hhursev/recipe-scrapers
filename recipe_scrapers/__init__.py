@@ -1,7 +1,4 @@
-import inspect
-
-from tld import get_tld
-
+from ._exceptions import NoSchemaFoundInWildMode, WebsiteNotImplementedError
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 from .abril import Abril
@@ -298,60 +295,19 @@ SCRAPERS = {
 }
 
 
-class WebsiteNotImplementedError(NotImplementedError):
-    """ Error when website is not supported by this library. """
-
-    def __init__(self, domain):
-        self.domain = domain
-
-    def __str__(self):
-        return f"Website ({self.domain}) is not supported"
-
-
-class NoSchemaFoundInWildMode(Exception):
-    """ Error when wild_mode fails to locate schema at the url """
-
-    def __init__(self, url):
-        self.url = url
-
-    def __str__(self):
-        return f"No Recipe Schema found at {self.url}"
-
-
-def get_domain(url):
-    url_info = get_tld(url, as_object=True, search_private=False)
-    return url_info.fld
-
-
-def harvest(url, **options):
-    domain = get_domain(url)
-    if domain not in SCRAPERS:
-        raise WebsiteNotImplementedError(domain)
-
-    scraper = SCRAPERS[domain]
-    options = {
-        option: value
-        for option, value in options.items()
-        if option in inspect.signature(scraper).parameters
-    }
-    return scraper(url, **options)
-
-
 def scrape_me(url_path, **options):
-    host_name = (
-        get_host_name(url_path) if not options.get("test", False) else "test_wild_mode"
-    )
+    host_name = get_host_name(url_path)
 
     try:
         scraper = SCRAPERS[host_name]
     except KeyError:
-        if options.get("wild_mode", False):
+        if not options.get("wild_mode", False):
+            raise WebsiteNotImplementedError(host_name)
+        else:
             wild_scraper = SchemaScraperFactory.generate(url_path, **options)
             if not wild_scraper.schema.data:
                 raise NoSchemaFoundInWildMode(url_path)
             return wild_scraper
-        else:
-            raise WebsiteNotImplementedError(host_name)
 
     return scraper(url_path, **options)
 
