@@ -126,6 +126,7 @@ Scrapers available for:
 - `https://foodandwine.com/ <https://www.foodandwine.com>`_
 - `https://foodnetwork.com/ <https://www.foodnetwork.com>`_
 - `https://foodrepublic.com/ <https://foodrepublic.com>`_
+- `https://www.forksoverknives.com/ <https://www.forksoverknives.com/>`_
 - `https://www.750g.com <https://www.750g.com>`_
 - `https://geniuskitchen.com/ <https://geniuskitchen.com>`_
 - `https://giallozafferano.it/ <https://giallozafferano.it>`_
