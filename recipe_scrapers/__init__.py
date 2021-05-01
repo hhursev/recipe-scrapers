@@ -106,6 +106,7 @@ from .purplecarrot import PurpleCarrot
 from .rachlmansfield import RachlMansfield
 from .realsimple import RealSimple
 from .recipietineats import RecipieTinEats
+from .redhousespice import RedHouseSpice
 from .reishunger import Reishunger
 from .saveur import Saveur
 from .seriouseats import SeriousEats
@@ -256,6 +257,7 @@ SCRAPERS = {
     RachlMansfield.host(): RachlMansfield,
     RealSimple.host(): RealSimple,
     RecipieTinEats.host(): RecipieTinEats,
+    RedHouseSpice.host(): RedHouseSpice,
     Reishunger.host(): Reishunger,
     Saveur.host(): Saveur,
     SeriousEats.host(): SeriousEats,
