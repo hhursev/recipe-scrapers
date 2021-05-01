@@ -54,7 +54,7 @@ class AbstractScraper:
 
     @classmethod
     def host(cls) -> str:
-        """ get the host of the url, so we can use the correct scraper """
+        """get the host of the url, so we can use the correct scraper"""
         raise NotImplementedError("This should be implemented.")
 
     def canonical_url(self):
@@ -67,11 +67,11 @@ class AbstractScraper:
         raise NotImplementedError("This should be implemented.")
 
     def total_time(self):
-        """ total time it takes to preparate the recipe in minutes """
+        """total time it takes to preparate the recipe in minutes"""
         raise NotImplementedError("This should be implemented.")
 
     def yields(self):
-        """ The number of servings or items in the recipe """
+        """The number of servings or items in the recipe"""
         raise NotImplementedError("This should be implemented.")
 
     def image(self):
