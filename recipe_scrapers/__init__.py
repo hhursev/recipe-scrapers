@@ -4,6 +4,7 @@ from ._utils import get_host_name
 from .abril import Abril
 from .acouplecooks import ACoupleCooks
 from .allrecipes import AllRecipes
+from .alltomat import AllTomat
 from .amazingribs import AmazingRibs
 from .ambitiouskitchen import AmbitiousKitchen
 from .archanaskitchen import ArchanasKitchen
@@ -151,6 +152,7 @@ SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
     Abril.host(): Abril,
     AllRecipes.host(): AllRecipes,
+    AllTomat.host(): AllTomat,
     AmazingRibs.host(): AmazingRibs,
     AmbitiousKitchen.host(): AmbitiousKitchen,
     ArchanasKitchen.host(): ArchanasKitchen,
