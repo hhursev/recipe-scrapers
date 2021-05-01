@@ -13,7 +13,7 @@ from ._schemaorg import SchemaOrg
 
 # some sites close their content for 'bots', so user-agent must be supplied
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"
 }
 
 
