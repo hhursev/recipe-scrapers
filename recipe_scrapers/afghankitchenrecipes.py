@@ -35,11 +35,19 @@ class AfghanKitchenRecipes(AbstractScraper):
 
     def ingredients(self):
         ingredient_elements = self.soup.findAll("li", {"class": "ingredient"})
-        return [element.get_text() for element in ingredient_elements if element.get_text()]
+        return [
+            element.get_text() for element in ingredient_elements if element.get_text()
+        ]
 
     def instructions(self):
         instruction_elements = self.soup.findAll("p", {"class": "instructions"})
-        return "\n".join([element.get_text().strip() for element in instruction_elements if element.get_text()])
+        return "\n".join(
+            [
+                element.get_text().strip()
+                for element in instruction_elements
+                if element.get_text()
+            ]
+        )
 
     def ratings(self):
         rating = self.soup.find("meta", {"itemprop": "ratingValue"})
