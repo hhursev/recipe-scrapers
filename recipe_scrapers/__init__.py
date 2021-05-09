@@ -153,7 +153,7 @@ from .yummly import Yummly
 SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
     Abril.host(): Abril,
-    AfghanKitchenRecipes.host(): afghankitchenrecipes,
+    AfghanKitchenRecipes.host(): AfghanKitchenRecipes,
     AllRecipes.host(): AllRecipes,
     AllTomat.host(): AllTomat,
     AmazingRibs.host(): AmazingRibs,
