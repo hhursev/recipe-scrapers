@@ -3,6 +3,7 @@ from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 from .abril import Abril
 from .acouplecooks import ACoupleCooks
+from .afghankitchenrecipes import afghankitchenrecipes
 from .allrecipes import AllRecipes
 from .alltomat import AllTomat
 from .amazingribs import AmazingRibs
@@ -303,6 +304,7 @@ SCRAPERS = {
     WikiCookbook.host(): WikiCookbook,
     Yemek.host(): Yemek,
     Yummly.host(): Yummly,
+    afghankitchenrecipes.host(): afghankitchenrecipes,
 }
 
 
