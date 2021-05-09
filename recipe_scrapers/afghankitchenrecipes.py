@@ -2,7 +2,7 @@ from ._abstract import AbstractScraper
 from ._utils import get_yields
 
 
-class afghankitchenrecipes(AbstractScraper):
+class AfghanKitchenRecipes(AbstractScraper):
     @classmethod
     def host(cls):
         return "afghankitchenrecipes.com"
