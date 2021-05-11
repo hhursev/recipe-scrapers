@@ -25,7 +25,7 @@ class TestKuchniaDomowaScraper(ScraperTest):
         self.assertEqual("pl-pl", self.harvester_class.language())
 
     def test_yields(self):
-        self.assertEqual("ok. 4- 5", self.harvester_class.yields())
+        self.assertEqual("4 serving(s)", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
