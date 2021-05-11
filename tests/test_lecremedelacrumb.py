@@ -1,5 +1,3 @@
-import os
-
 from recipe_scrapers.lecremedelacrumb import LeCremeDeLaCrumb
 from tests import ScraperTest
 
