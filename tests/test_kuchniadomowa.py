@@ -22,7 +22,7 @@ class TestKuchniaDomowaScraper(ScraperTest):
         self.assertEqual(30, self.harvester_class.total_time())
 
     def test_language(self):
-        self.assertEqual("pl-PL", self.harvester_class.language())
+        self.assertEqual("pl-pl", self.harvester_class.language())
 
     def test_yields(self):
         self.assertEqual("4 serving(s)", self.harvester_class.yields())

@@ -18,7 +18,7 @@ class TestFood52(ScraperTest):
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            "Sticky Pomegranate &amp; Black Pepper Chicken Wings",
+            "Sticky Pomegranate & Black Pepper Chicken Wings",
         )
 
     def test_total_time(self):

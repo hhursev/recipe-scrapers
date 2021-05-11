@@ -57,7 +57,21 @@ then:
     scraper.nutrients()  # if available
 
 
-Note: ``scraper.links()`` returns a list of dictionaries containing all of the <a> tag attributes. The attribute names are the dictionary keys.
+Notes:
+
+- Starting from v13.0.0 the packaged stopped suppressing scraper exceptions by default. If you want the previous behaviour
+
+.. code:: python
+
+    import os
+    from recipe_scrapers import scrape_me
+
+    os.environ["RECIPE_SCRAPERS_SETTINGS"] = "recipe_scrapers.settings.v12_settings"
+
+    scraper = scrape_me(...)  # etc.
+
+- ``scraper.links()`` returns a list of dictionaries containing all of the <a> tag attributes. The attribute names are the dictionary keys.
+
 
 Scrapers available for:
 -----------------------
@@ -65,6 +79,7 @@ Scrapers available for:
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
 - `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
+- `https://alltommat.se/ <https://alltommat.se/>`_
 - `https://amazingribs.com/ <https://amazingribs.com/>`_
 - `https://ambitiouskitchen.com/ <https://ambitiouskitchen.com>`_
 - `https://archanaskitchen.com/ <https://archanaskitchen.com/>`_
@@ -112,6 +127,7 @@ Scrapers available for:
 - `https://foodandwine.com/ <https://www.foodandwine.com>`_
 - `https://foodnetwork.com/ <https://www.foodnetwork.com>`_
 - `https://foodrepublic.com/ <https://foodrepublic.com>`_
+- `https://www.forksoverknives.com/ <https://www.forksoverknives.com/>`_
 - `https://www.750g.com <https://www.750g.com>`_
 - `https://geniuskitchen.com/ <https://geniuskitchen.com>`_
 - `https://giallozafferano.it/ <https://giallozafferano.it>`_
@@ -127,6 +143,7 @@ Scrapers available for:
 - `https://hellofresh.com/ <https://hellofresh.com>`_
 - `https://hellofresh.co.uk/ <https://hellofresh.co.uk>`_
 - `https://www.hellofresh.de/ <https://www.hellofresh.de/>`_
+- `https://www.hellofresh.fr/ <https://www.hellofresh.de/>`_
 - `https://hostthetoast.com/ <https://hostthetoast.com/>`_
 - `https://101cookbooks.com/ <https://101cookbooks.com/>`_
 - `https://receitas.ig.com.br/ <https://receitas.ig.com.br>`_
@@ -170,7 +187,9 @@ Scrapers available for:
 - `https://rachlmansfield.com/ <https://rachlmansfield.com>`_
 - `https://realsimple.com/ <https://www.realsimple.com>`_
 - `https://recipietineats.com/ <https://www.recipetineats.com/>`_
+- `https://redhousespice.com/ <https://redhousespice.com/>`_
 - `https://reishunger.de/ <https://www.reishunger.de/>`_
+- `https://www.saveur.com/ <https://www.saveur.com/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_
 - `https://simplyquinoa.com/ <https://simplyquinoa.com>`_
 - `https://simplyrecipes.com/ <https://simplyrecipes.co>`_
@@ -208,6 +227,7 @@ Scrapers available for:
 - `https://www.wholefoodsmarket.com/ <https://www.wholefoodsmarket.com/>`_
 - `https://www.wholefoodsmarket.co.uk/ <https://www.wholefoodsmarket.co.uk/>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
+- `https://yemek.com/ <https://yemek.com>`_
 - `https://yummly.com/ <https://yummly.com>`_
 
 

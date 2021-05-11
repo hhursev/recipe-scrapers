@@ -11,17 +11,25 @@ class SeriousEats(AbstractScraper):
         return self.soup.find("h1").get_text()
 
     def total_time(self):
-        return get_minutes(self.soup.findAll("span", {"class": "info"})[2])
+        return get_minutes(
+            self.soup.find("div", {"class": "total-time"}).find(
+                "span", {"class": "meta-text__data"}
+            )
+        )
 
     def yields(self):
-        return get_yields(self.soup.find("span", {"class": "info yield"}))
+        return get_yields(
+            self.soup.find("div", {"class": "recipe-yield"}).find(
+                "span", {"class": "meta-text__data"}
+            )
+        )
 
     def ingredients(self):
         ingredients = self.soup.findAll("li", {"class": "ingredient"})
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
-        instructions = self.soup.findAll("li", {"class": "recipe-procedure"})
+        instructions = self.soup.findAll("li", {"class": "mntl-sc-block-group--LI"})
 
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]

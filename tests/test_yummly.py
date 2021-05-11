@@ -27,20 +27,18 @@ class TestYummlyScraper(ScraperTest):
         self.assertEqual("4 serving(s)", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertSetEqual(
-            set(
-                [
-                    "4 pieces naan",
-                    "2 tablespoons extra-virgin olive oil",
-                    "3 cloves garlic",
-                    "1 cup shredded mozzarella cheese (or shredded pizza blend cheese, 1 cup is 4 oz.)",
-                    "4 ounces ricotta cheese (4 oz. is 1 scant cup)",
-                    "1 1/2 teaspoons Italian seasoning",
-                    "2 tablespoons shaved Parmesan cheese (for serving)",
-                    "basil leaves (for garnish, optional)",
-                ]
-            ),
-            set(self.harvester_class.ingredients()),
+        self.assertEqual(
+            [
+                "4 pieces naan",
+                "2 tablespoons extra-virgin olive oil",
+                "3 cloves garlic",
+                "1 cup shredded mozzarella cheese (or shredded pizza blend cheese, 1 cup is 4 oz.)",
+                "4 ounces ricotta cheese (4 oz. is 1 scant cup)",
+                "1 1/2 teaspoons Italian seasoning",
+                "2 tablespoons shaved Parmesan cheese (for serving)",
+                "basil leaves (for garnish, optional)",
+            ],
+            self.harvester_class.ingredients(),
         )
 
     def test_instructions(self):

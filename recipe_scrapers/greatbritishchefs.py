@@ -3,6 +3,8 @@
 # Freely released the code to recipe_scraper group
 # 6 February, 2020
 # =======================================================
+
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, normalize_string
 
@@ -31,10 +33,10 @@ class GreatBritishChefs(AbstractScraper):
     def yields(self):
         recipe_yield = self.soup.find("span", {"class": "RecipeAttributes__Serves"})
         if recipe_yield:
-            yields = normalize_string(
+            recipe_yield = normalize_string(
                 recipe_yield.find("span", {"class": "header-attribute-text"}).get_text()
             )
-            return yields
+        return recipe_yield
 
     def image(self):
         image = self.soup.find("img", {"id": "head-media"}, "src")
@@ -66,8 +68,7 @@ class GreatBritishChefs(AbstractScraper):
 
     def ratings(self):
         # This site does not support ratings at this time
-        r1 = 0
-        return r1
+        return None
 
     def description(self):
         d = normalize_string(

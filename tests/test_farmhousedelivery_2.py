@@ -7,14 +7,11 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
     scraper_class = FarmhouseDelivery
 
     def setUp(self):
-        options = {"exception_handling": False}
-        options.update(getattr(self, "scraper_options", {}))
-
         with open(
             "tests/test_data/{}_2.testhtml".format(self.scraper_class.__name__.lower()),
             encoding="utf-8",
         ) as testfile:
-            self.harvester_class = self.scraper_class(testfile, test=True, **options)
+            self.harvester_class = self.scraper_class(testfile)
 
     def test_host(self):
         self.assertEqual("recipes.farmhousedelivery.com", self.harvester_class.host())
@@ -51,15 +48,17 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            [
-                "❶ Preheat your oven to 400°F.",
-                "❷ In a medium sized mixing bowl, whisk together olive oil, lemon juice, mustard, garlic, salt , pepper and rosemary.",
-                "❸ Layer potatoes, radishes and onions on a baking sheet. Lightly drizzle with the tinest bit of olive oil. The chicken thighs will drip fat for cooking, so we don’t want to overdo it with the oil.",
-                "❹ Pat chicken thighs dry and rub with seasoning mixture. Be sure to get in under the skin too.",
-                "❺ Place chicken thighs over your vegetable layer.",
-                "❻ Roast for 55 minutes, then broil for 3 minutes for an extra crisp factor! Enjoy!",
-                "– For more lifestyle tips and recipes from Rebecca, you can find her on Instagram at @xxrlilly",
-            ],
+            "\n".join(
+                [
+                    "❶ Preheat your oven to 400°F.",
+                    "❷ In a medium sized mixing bowl, whisk together olive oil, lemon juice, mustard, garlic, salt , pepper and rosemary.",
+                    "❸ Layer potatoes, radishes and onions on a baking sheet. Lightly drizzle with the tinest bit of olive oil. The chicken thighs will drip fat for cooking, so we don’t want to overdo it with the oil.",
+                    "❹ Pat chicken thighs dry and rub with seasoning mixture. Be sure to get in under the skin too.",
+                    "❺ Place chicken thighs over your vegetable layer.",
+                    "❻ Roast for 55 minutes, then broil for 3 minutes for an extra crisp factor! Enjoy!",
+                    "– For more lifestyle tips and recipes from Rebecca, you can find her on Instagram at @xxrlilly",
+                ]
+            ),
             self.harvester_class.instructions(),
         )
 

@@ -7,14 +7,11 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
     scraper_class = FarmhouseDelivery
 
     def setUp(self):
-        options = {"exception_handling": False}
-        options.update(getattr(self, "scraper_options", {}))
-
         with open(
             "tests/test_data/{}_1.testhtml".format(self.scraper_class.__name__.lower()),
             encoding="utf-8",
         ) as testfile:
-            self.harvester_class = self.scraper_class(testfile, test=True, **options)
+            self.harvester_class = self.scraper_class(testfile)
 
     def test_host(self):
         self.assertEqual("recipes.farmhousedelivery.com", self.harvester_class.host())
@@ -47,9 +44,11 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            [
-                "Saute onions & garlic in olive oil in a large skillet until they take on a little color. Add jalapeno and continue cooking for 1-2 minutes. Add chopped greens, season with salt and pepper to taste and cover until greens are just wilted. Add cream and bring to a simmer. Crack eggs on top of greens, cover and cook until eggs are cooked to your preference. Serve in wide bowls with a dollop of yogurt and a drizzle of hot sauce and thick slices of warm bread on the side."
-            ],
+            "\n".join(
+                [
+                    "Saute onions & garlic in olive oil in a large skillet until they take on a little color. Add jalapeno and continue cooking for 1-2 minutes. Add chopped greens, season with salt and pepper to taste and cover until greens are just wilted. Add cream and bring to a simmer. Crack eggs on top of greens, cover and cook until eggs are cooked to your preference. Serve in wide bowls with a dollop of yogurt and a drizzle of hot sauce and thick slices of warm bread on the side."
+                ]
+            ),
             self.harvester_class.instructions(),
         )
 

@@ -1,45 +1,39 @@
+import inspect
 from collections import OrderedDict
 from json.decoder import JSONDecodeError
-from typing import Any, Dict, List, Optional, Tuple, Union
+from typing import Optional, Tuple, Union
 from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
 
-from ._decorators import Decorators
-from ._exception_handling import ExceptionHandlingMetaclass
+from recipe_scrapers.settings import settings
+
 from ._schemaorg import SchemaOrg
 
 # some sites close their content for 'bots', so user-agent must be supplied
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"
 }
 
 
-class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
+class AbstractScraper:
     def __init__(
         self,
         url,
-        exception_handling: bool = True,
-        meta_http_equiv: bool = False,
         proxies: Optional[str] = None,  # allows us to specify optional proxy server
-        test: bool = False,
-        timeout: Union[
-            float, Tuple, None
+        timeout: Optional[
+            Union[float, Tuple, None]
         ] = None,  # allows us to specify optional timeout for request
-        wild_mode: bool = False,
     ):
-        if test:  # when testing, we load a file
+        if settings.TEST_MODE:  # when testing, we load a file
             page_data = url.read()
-            url = None
+            url = "https://test.example.com/"
         else:
             page_data = requests.get(
                 url, headers=HEADERS, proxies=proxies, timeout=timeout
             ).content
 
-        self.wild_mode = wild_mode
-        self.exception_handling = exception_handling
-        self.meta_http_equiv = meta_http_equiv
         self.soup = BeautifulSoup(page_data, "html.parser")
         self.url = url
 
@@ -50,9 +44,17 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
         except JSONDecodeError:
             pass
 
+        # attach the plugins as instructed in settings.PLUGINS
+        for name, func in inspect.getmembers(self, inspect.ismethod):
+            current_method = getattr(self.__class__, name)
+            for plugin in reversed(settings.PLUGINS):
+                if plugin.should_run(self.host(), name):
+                    current_method = plugin.run(current_method)
+            setattr(self.__class__, name, current_method)
+
     @classmethod
     def host(cls) -> str:
-        """ get the host of the url, so we can use the correct scraper """
+        """get the host of the url, so we can use the correct scraper"""
         raise NotImplementedError("This should be implemented.")
 
     def canonical_url(self):
@@ -61,33 +63,24 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
             return urljoin(self.url, canonical_link["href"])
         return self.url
 
-    @Decorators.normalize_string_output
-    @Decorators.schema_org_priority
-    def title(self) -> Optional[str]:
+    def title(self):
         raise NotImplementedError("This should be implemented.")
 
-    @Decorators.schema_org_priority
-    def total_time(self) -> Optional[int]:
-        """ total time it takes to preparate the recipe in minutes """
+    def total_time(self):
+        """total time it takes to preparate the recipe in minutes"""
         raise NotImplementedError("This should be implemented.")
 
-    @Decorators.schema_org_priority
-    def yields(self) -> Optional[int]:
-        """ The number of servings or items in the recipe """
+    def yields(self):
+        """The number of servings or items in the recipe"""
         raise NotImplementedError("This should be implemented.")
 
-    @Decorators.schema_org_priority
-    @Decorators.og_image_get
-    def image(self) -> Optional[str]:
+    def image(self):
         raise NotImplementedError("This should be implemented.")
 
-    @Decorators.schema_org_priority
-    def nutrients(self) -> Optional[Dict[str, Any]]:
+    def nutrients(self):
         raise NotImplementedError("This should be implemented.")
 
-    @Decorators.bcp47_validate
-    @Decorators.schema_org_priority
-    def language(self) -> Optional[str]:
+    def language(self):
         """
         Human language the recipe is written in.
 
@@ -107,7 +100,7 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
                     "content": True,
                 },
             )
-            if self.meta_http_equiv
+            if settings.META_HTTP_EQUIV
             else None
         )
         if meta_language:
@@ -122,31 +115,27 @@ class AbstractScraper(metaclass=ExceptionHandlingMetaclass):
         # Return the first candidate language
         return candidate_languages.popitem(last=False)[0]
 
-    @Decorators.schema_org_priority
-    def ingredients(self) -> Optional[List[str]]:
+    def ingredients(self):
         raise NotImplementedError("This should be implemented.")
 
-    @Decorators.schema_org_priority
-    def instructions(self) -> Optional[str]:
+    def instructions(self):
         raise NotImplementedError("This should be implemented.")
 
-    @Decorators.schema_org_priority
-    def ratings(self) -> Optional[float]:
+    def ratings(self):
         raise NotImplementedError("This should be implemented.")
 
-    @Decorators.schema_org_priority
-    def author(self) -> Optional[str]:
+    def author(self):
         raise NotImplementedError("This should be implemented.")
 
-    def reviews(self) -> Optional[Any]:
+    def reviews(self):
         raise NotImplementedError("This should be implemented.")
 
-    def links(self) -> Optional[List[str]]:
+    def links(self):
         invalid_href = {"#", ""}
         links_html = self.soup.findAll("a", href=True)
 
         return [link.attrs for link in links_html if link["href"] not in invalid_href]
 
-    def site_name(self) -> Optional[str]:
+    def site_name(self):
         meta = self.soup.find("meta", property="og:site_name")
         return meta.get("content") if meta else None

@@ -3,6 +3,8 @@
 # Freely released the code to recipe_scraper group
 # 18 January, 2020
 # =======================================================
+
+
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
@@ -29,16 +31,14 @@ class BettyCrocker(AbstractScraper):
             "div", {"class": "recipePartIngredientGroup"}
         ).ul.findAll("li")
 
-        return "\n".join(
-            [
-                normalize_string(
-                    ingredient.find("div", {"class": "quantity"}).text
-                    + " "
-                    + ingredient.find("div", {"class": "description"}).span.text
-                )
-                for ingredient in ingredients
-            ]
-        )
+        return [
+            normalize_string(
+                ingredient.find("div", {"class": "quantity"}).text
+                + " "
+                + ingredient.find("div", {"class": "description"}).span.text
+            )
+            for ingredient in ingredients
+        ]
 
     def instructions(self):
         instructions = self.soup.findAll("li", {"class": "recipePartStep"})
@@ -54,9 +54,5 @@ class BettyCrocker(AbstractScraper):
         )
 
     def ratings(self):
-        try:
-            cnt = self.soup.find("meta", {"itemprop": "ratingCount"})["content"]
-            rating = self.soup.find("meta", {"itemprop": "ratingValue"})["content"]
-            return {"count": int(cnt), "rating": round(float(rating), 2)}
-        except Exception:
-            return None
+        rating = self.soup.find("meta", {"itemprop": "ratingValue"})["content"]
+        return round(float(rating), 2)

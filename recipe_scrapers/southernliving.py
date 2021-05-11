@@ -3,6 +3,8 @@
 # Freely released the code to recipe_scraper group
 # 9 February, 2020
 # =======================================================
+
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -41,16 +43,11 @@ class SouthernLiving(AbstractScraper):
         )
 
     def ratings(self):
-        try:
-            self.schema.ratings()
-        except Exception:
-            return None
+        return self.schema.ratings()
 
     def description(self):
         des = self.soup.find(
             "div",
             attrs={"class": lambda e: e.startswith("recipe-summary") if e else False},
         )
-        d = normalize_string(des.get_text())
-
-        return d if d else None
+        return normalize_string(des.get_text())

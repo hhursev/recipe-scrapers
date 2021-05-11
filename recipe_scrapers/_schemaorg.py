@@ -1,18 +1,16 @@
 # IF things in this file continue get messy (I'd say 300+ lines) it may be time to
 # find a package that parses https://schema.org/Recipe properly (or create one ourselves).
+
+
 import extruct
 
+from ._exceptions import SchemaOrgException
 from ._utils import get_minutes, get_yields, normalize_string
 
 SCHEMA_ORG_HOST = "schema.org"
 SCHEMA_NAMES = ["Recipe", "WebPage"]
 
 SYNTAXES = ["json-ld", "microdata"]
-
-
-class SchemaOrgException(Exception):
-    def __init__(self, message):
-        super().__init__(message)
 
 
 class SchemaOrg:
@@ -55,16 +53,28 @@ class SchemaOrg:
 
     def author(self):
         author = self.data.get("author")
+        if (
+            author
+            and isinstance(author, list)
+            and len(author) >= 1
+            and isinstance(author[0], dict)
+        ):
+            author = author[0]
         if author and isinstance(author, dict):
             author = author.get("name")
         return author
 
     def total_time(self):
-        total_time = get_minutes(self.data.get("totalTime"))
+        if not (self.data.keys() & {"totalTime", "prepTime", "cookTime"}):
+            raise SchemaOrgException("Cooking time information not found in SchemaOrg")
+
+        def get_key_and_minutes(k):
+            return get_minutes(self.data.get(k), return_zero_on_not_found=True)
+
+        total_time = get_key_and_minutes("totalTime")
         if not total_time:
-            prep_time = get_minutes(self.data.get("prepTime")) or 0
-            cook_time = get_minutes(self.data.get("cookTime")) or 0
-            total_time = prep_time + cook_time
+            times = list(map(get_key_and_minutes, ["prepTime", "cookTime"]))
+            total_time = sum(times)
         return total_time
 
     def yields(self):
@@ -125,7 +135,7 @@ class SchemaOrg:
                     instructions_gist.append(schema_item.get("name"))
             instructions_gist.append(schema_item.get("text"))
         elif schema_item.get("@type") == "HowToSection":
-            instructions_gist.append(schema_item.get("name"))
+            instructions_gist.append(schema_item.get("name") or schema_item.get("Name"))
             for item in schema_item.get("itemListElement"):
                 instructions_gist += self._extract_howto_instructions_text(item)
         return instructions_gist

@@ -40,11 +40,12 @@ class JustBento(AbstractScraper):
             if instructions and element.name != "p":
                 break
             if element.name == "p":
-                instructions.append(element)
+                instructions.append(element.get_text())
+            instructions = [
+                normalize_string(instruction) for instruction in instructions
+            ]
 
-        return "\n".join(
-            [normalize_string(instruction.get_text()) for instruction in instructions]
-        )
+        return "\n".join(instructions) if instructions else None
 
     def image(self):
         image = self.soup.find("div", {"class": "field-name-body"}).find(

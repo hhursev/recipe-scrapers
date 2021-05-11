@@ -3,6 +3,8 @@
 # Freely released the code to recipe_scraper group
 # 9 February, 2020
 # =======================================================
+
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, normalize_string
 
@@ -88,7 +90,7 @@ class GonnaWantSeconds(AbstractScraper):
                 ingGroup.append(x)
         return ingGroup
 
-    def instructions(self):
+    def _instructions_list(self):
         instructions = self.soup.findAll(
             "div", {"class": "wprm-recipe-instruction-group"}
         )
@@ -110,12 +112,16 @@ class GonnaWantSeconds(AbstractScraper):
 
                 data.append("\n".join([normalize_string(inst.text) for inst in ins]))
             return data
+        return None
+
+    def instructions(self):
+        data = self._instructions_list()
+        return "\n".join(data) if data else None
 
     def ratings(self):
-        r1 = 0
         try:
-            r1 = self.soup.find("div", {"class": "wprm-recipe-rating"})
-            stars = r1.findAll(
+            found = self.soup.find("div", {"class": "wprm-recipe-rating"})
+            stars = found.findAll(
                 "span",
                 attrs={
                     "class": lambda e: e.endswith("wprm-rating-star-full")
@@ -125,7 +131,7 @@ class GonnaWantSeconds(AbstractScraper):
             )
         except Exception:
             stars = []
-        return len(stars)
+        return round(float(len(stars)), 2) if stars else None
 
     def description(self):
         d = normalize_string(self.soup.find("span", {"style": "display: block;"}).text)
