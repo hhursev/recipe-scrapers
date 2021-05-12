@@ -4,6 +4,7 @@ from ._utils import get_host_name
 from .abril import Abril
 from .acouplecooks import ACoupleCooks
 from .allrecipes import AllRecipes
+from .alltomat import AllTomat
 from .amazingribs import AmazingRibs
 from .ambitiouskitchen import AmbitiousKitchen
 from .archanaskitchen import ArchanasKitchen
@@ -106,8 +107,10 @@ from .purplecarrot import PurpleCarrot
 from .rachlmansfield import RachlMansfield
 from .realsimple import RealSimple
 from .recipietineats import RecipieTinEats
+from .redhousespice import RedHouseSpice
 from .reishunger import Reishunger
 from .sallysbakingaddiction import SallysBakingAddiction
+from .saveur import Saveur
 from .seriouseats import SeriousEats
 from .simplyquinoa import SimplyQuinoa
 from .simplyrecipes import SimplyRecipes
@@ -144,12 +147,14 @@ from .watchwhatueat import WatchWhatUEat
 from .whatsgabycooking import WhatsGabyCooking
 from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
+from .yemek import Yemek
 from .yummly import Yummly
 
 SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
     Abril.host(): Abril,
     AllRecipes.host(): AllRecipes,
+    AllTomat.host(): AllTomat,
     AmazingRibs.host(): AmazingRibs,
     AmbitiousKitchen.host(): AmbitiousKitchen,
     ArchanasKitchen.host(): ArchanasKitchen,
@@ -213,6 +218,7 @@ SCRAPERS = {
     HelloFresh.host(): HelloFresh,
     HelloFresh.host(domain="co.uk"): HelloFresh,
     HelloFresh.host(domain="de"): HelloFresh,
+    HelloFresh.host(domain="fr"): HelloFresh,
     Hostthetoast.host(): Hostthetoast,
     HundredAndOneCookbooks.host(): HundredAndOneCookbooks,
     IG.host(): IG,
@@ -256,8 +262,10 @@ SCRAPERS = {
     RachlMansfield.host(): RachlMansfield,
     RealSimple.host(): RealSimple,
     RecipieTinEats.host(): RecipieTinEats,
+    RedHouseSpice.host(): RedHouseSpice,
     Reishunger.host(): Reishunger,
     SallysBakingAddiction.host(): SallysBakingAddiction,
+    Saveur.host(): Saveur,
     SeriousEats.host(): SeriousEats,
     SimplyQuinoa.host(): SimplyQuinoa,
     SimplyRecipes.host(): SimplyRecipes,
@@ -295,6 +303,7 @@ SCRAPERS = {
     WholeFoods.host(): WholeFoods,
     WholeFoods.host(domain="co.uk"): WholeFoods,
     WikiCookbook.host(): WikiCookbook,
+    Yemek.host(): Yemek,
     Yummly.host(): Yummly,
 }
 

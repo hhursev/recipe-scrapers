@@ -8,7 +8,7 @@ class RecipeScrapersExceptions(Exception):
 
 
 class WebsiteNotImplementedError(RecipeScrapersExceptions):
-    """ Error when website is not supported by this library. """
+    """Error when website is not supported by this library."""
 
     def __init__(self, domain):
         message = f"Website ({self.domain}) not supported."
@@ -16,7 +16,7 @@ class WebsiteNotImplementedError(RecipeScrapersExceptions):
 
 
 class NoSchemaFoundInWildMode(RecipeScrapersExceptions):
-    """ Error when wild_mode fails to locate schema at the url """
+    """Error when wild_mode fails to locate schema at the url"""
 
     def __init__(self, url):
         message = f"No Recipe Schema found at {self.url}."
@@ -25,7 +25,7 @@ class NoSchemaFoundInWildMode(RecipeScrapersExceptions):
 
 
 class ElementNotFoundInHtml(RecipeScrapersExceptions):
-    """ Error when we cannot locate the HTML element on the page """
+    """Error when we cannot locate the HTML element on the page"""
 
     def __init__(self, element):
         self.element = element
@@ -36,7 +36,7 @@ class ElementNotFoundInHtml(RecipeScrapersExceptions):
 
 
 class SchemaOrgException(RecipeScrapersExceptions):
-    """ Error in parsing or missing portion of the Schema.org data org the page """
+    """Error in parsing or missing portion of the Schema.org data org the page"""
 
     def __init__(self, message):
         super().__init__(message)

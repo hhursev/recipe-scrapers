@@ -13,7 +13,7 @@ from ._schemaorg import SchemaOrg
 
 # some sites close their content for 'bots', so user-agent must be supplied
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"
 }
 
 
@@ -54,7 +54,7 @@ class AbstractScraper:
 
     @classmethod
     def host(cls) -> str:
-        """ get the host of the url, so we can use the correct scraper """
+        """get the host of the url, so we can use the correct scraper"""
         raise NotImplementedError("This should be implemented.")
 
     def canonical_url(self):
@@ -67,11 +67,11 @@ class AbstractScraper:
         raise NotImplementedError("This should be implemented.")
 
     def total_time(self):
-        """ total time it takes to preparate the recipe in minutes """
+        """total time it takes to preparate the recipe in minutes"""
         raise NotImplementedError("This should be implemented.")
 
     def yields(self):
-        """ The number of servings or items in the recipe """
+        """The number of servings or items in the recipe"""
         raise NotImplementedError("This should be implemented.")
 
     def image(self):
