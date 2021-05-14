@@ -4,6 +4,12 @@ from ._utils import get_host_name
 
 class SchemaScraperFactory:
     class SchemaScraper(AbstractScraper):
+        def nutrients(self):
+            return self.nutrients()
+
+        def reviews(self):
+            return self.reviews()
+
         def host(self) -> str:
             return get_host_name(self.url)
 

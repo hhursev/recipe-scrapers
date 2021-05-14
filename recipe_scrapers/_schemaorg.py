@@ -71,10 +71,7 @@ class SchemaOrg:
         def get_key_and_minutes(k):
             return get_minutes(self.data.get(k), return_zero_on_not_found=True)
 
-        total_time = get_key_and_minutes("totalTime")
-        if not total_time:
-            times = list(map(get_key_and_minutes, ["prepTime", "cookTime"]))
-            total_time = sum(times)
+        total_time = list(map(get_key_and_minutes, ["prepTime", "cookTime"]))
         return total_time
 
     def yields(self):
