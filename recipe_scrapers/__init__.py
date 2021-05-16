@@ -118,7 +118,6 @@ from .simplywhisked import SimplyWhisked
 from .skinnytaste import SkinnyTaste
 from .southernliving import SouthernLiving
 from .spendwithpennies import SpendWithPennies
-from .spruceeats import SpruceEats
 from .steamykitchen import SteamyKitchen
 from .streetkitchen import StreetKitchen
 from .sunbasket import SunBasket
@@ -133,6 +132,7 @@ from .thehappyfoodie import TheHappyFoodie
 from .thekitchn import TheKitchn
 from .thenutritiouskitchen import TheNutritiousKitchen
 from .thepioneerwoman import ThePioneerWoman
+from .thespruceeats import TheSpruceEats
 from .thespruceeats import TheSpruceEats
 from .thevintagemixer import TheVintageMixer
 from .thewoksoflife import Thewoksoflife
@@ -273,7 +273,6 @@ SCRAPERS = {
     SkinnyTaste.host(): SkinnyTaste,
     SouthernLiving.host(): SouthernLiving,
     SpendWithPennies.host(): SpendWithPennies,
-    SpruceEats.host(): SpruceEats,
     SteamyKitchen.host(): SteamyKitchen,
     StreetKitchen.host(): StreetKitchen,
     SunBasket.host(): SunBasket,
@@ -288,6 +287,7 @@ SCRAPERS = {
     TheKitchn.host(): TheKitchn,
     TheNutritiousKitchen.host(): TheNutritiousKitchen,
     ThePioneerWoman.host(): ThePioneerWoman,
+    TheSpruceEats.host(): TheSpruceEats,
     TheSpruceEats.host(): TheSpruceEats,
     TheVintageMixer.host(): TheVintageMixer,
     Thewoksoflife.host(): Thewoksoflife,
