@@ -35,9 +35,12 @@ class TheSpruceEats(AbstractScraper):
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
-        instructions = self.soup.find(
-            "ol", {"class": "comp mntl-sc-block-group--OL mntl-sc-block mntl-sc-block-startgroup"}
-        ).findAll("li")
+        nested_instructions = self.soup.find("section", {"class": "section--instructions"}).find_all("ol")
+
+        instructions = []
+        for each_instruction in nested_instructions:
+            instructions = instructions + (each_instruction.find_all("li"))
+        
         return "\n".join(
             [
                 normalize_string(instruction.find("p").get_text())
