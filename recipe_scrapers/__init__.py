@@ -3,6 +3,7 @@ from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 from .abril import Abril
 from .acouplecooks import ACoupleCooks
+from .afghankitchenrecipes import AfghanKitchenRecipes
 from .allrecipes import AllRecipes
 from .alltomat import AllTomat
 from .amazingribs import AmazingRibs
@@ -152,6 +153,7 @@ from .yummly import Yummly
 SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
     Abril.host(): Abril,
+    AfghanKitchenRecipes.host(): AfghanKitchenRecipes,
     AllRecipes.host(): AllRecipes,
     AllTomat.host(): AllTomat,
     AmazingRibs.host(): AmazingRibs,
