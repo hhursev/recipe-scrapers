@@ -16,9 +16,7 @@ class TestTheSpruceEatsScraper(ScraperTest):
         )
 
     def test_title(self):
-        self.assertEqual(
-            self.harvester_class.title(), "Homemade Doner Kebab"
-        )
+        self.assertEqual(self.harvester_class.title(), "Homemade Doner Kebab")
 
     def test_total_time(self):
         self.assertEqual(140, self.harvester_class.total_time())
@@ -50,7 +48,7 @@ class TestTheSpruceEatsScraper(ScraperTest):
                 "1 large tomato, sliced",
                 "1/2 medium English cucumber, sliced",
                 "1/4 large red onion, peeled and sliced",
-                "Tzatziki sauce or tahini sauce"
+                "Tzatziki sauce or tahini sauce",
             ],
             self.harvester_class.ingredients(),
         )
