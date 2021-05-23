@@ -29,11 +29,17 @@ class TheSpruceEats(AbstractScraper):
         return image["src"] if image else None
 
     def ingredients(self):
-        # ingredients = self.soup.findAll("li", {"class": "ingredient"})
+        """
+        It uses two class to get the ingredient list items since sometimes 'ingredient' class is
+        present for simple recipes but if the recipe contains 2 or more sub-recipe / nested recipe
+        than 'structured-ingredients__list-item' class is present.
+        In any case only one class is present.
+        """
         ingredients = self.soup.find(
             "section",
-            {"class": "comp section--fixed-width section--ingredients section"},
-        ).find_all("li", {"class": "structured-ingredients__list-item"})
+            {"class": "section--ingredients"},
+        ).find_all("li", {"class": ["structured-ingredients__list-item", "ingredient"]})
+
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
