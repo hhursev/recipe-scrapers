@@ -1,5 +1,3 @@
-import os
-
 from recipe_scrapers.farmhousedelivery import FarmhouseDelivery
 from tests import ScraperTest
 
