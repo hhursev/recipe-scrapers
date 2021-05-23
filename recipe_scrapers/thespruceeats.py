@@ -30,8 +30,8 @@ class TheSpruceEats(AbstractScraper):
 
     def ingredients(self):
         """
-        It uses two class to get the ingredient list items since sometimes 'ingredient' class is 
-        present for simple recipes but if the recipe contains 2 or more sub-recipe / nested recipe 
+        It uses two class to get the ingredient list items since sometimes 'ingredient' class is
+        present for simple recipes but if the recipe contains 2 or more sub-recipe / nested recipe
         than 'structured-ingredients__list-item' class is present.
         In any case only one class is present.
         """
