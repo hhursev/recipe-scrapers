@@ -1,3 +1,5 @@
+import os
+
 from recipe_scrapers.farmhousedelivery import FarmhouseDelivery
 from tests import ScraperTest
 
@@ -7,6 +9,10 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
     scraper_class = FarmhouseDelivery
 
     def setUp(self):
+        os.environ[
+            "RECIPE_SCRAPERS_SETTINGS"
+        ] = "tests.test_data.test_settings_module.test_settings"
+
         with open(
             "tests/test_data/{}_2.testhtml".format(self.scraper_class.__name__.lower()),
             encoding="utf-8",
