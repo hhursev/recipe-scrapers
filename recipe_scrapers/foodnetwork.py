@@ -23,7 +23,7 @@ class FoodNetwork(AbstractScraper):
         )
 
     def ingredients(self):
-        ingredients = self.soup.findAll("p", {"class": "o-Ingredients__a-Ingredient"})
+        ingredients = self.soup.findAll(lambda tag: tag.name == 'p' and tag.get('class') == ['o-Ingredients__a-Ingredient'])
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
