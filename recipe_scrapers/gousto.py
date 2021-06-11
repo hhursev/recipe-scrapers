@@ -7,8 +7,8 @@ class Gousto(AbstractScraper):
     def host(cls):
         return "gousto.co.uk"
 
-    def title(self):
-        return self.soup.find("h1", {"class": "indivrecipe-title"}).get_text()
+    def title(self):  # div[class*="RecipeHero_title"]>h1
+        return self.soup.select_one('div[class*="RecipeHero_title"]>h1').text
 
     def total_time(self):
         return get_minutes(
