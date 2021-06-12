@@ -38,7 +38,6 @@ class Vegolosi(AbstractScraper):
         for element in possible_yields_info_elements:
             if "persone" in element.get_text():
                 return get_yields(element)
-        return ""
 
     def ingredients(self):
         ingredients = self.soup.select(".tasty-recipe-ingredients > ul > li")
