@@ -139,6 +139,7 @@ from .thewoksoflife import Thewoksoflife
 from .timesofindia import TimesOfIndia
 from .tineno import TineNo
 from .tudogostoso import TudoGostoso
+from .usdamyplate import USDAMyPlate
 from .twopeasandtheirpod import TwoPeasAndTheirPod
 from .vanillaandbean import VanillaAndBean
 from .vegolosi import Vegolosi
@@ -295,6 +296,7 @@ SCRAPERS = {
     TineNo.host(): TineNo,
     TudoGostoso.host(): TudoGostoso,
     TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
+    USDAMyPlate.host(): USDAMyPlate,
     VanillaAndBean.host(): VanillaAndBean,
     VegRecipesOfIndia.host(): VegRecipesOfIndia,
     Vegolosi.host(): Vegolosi,
