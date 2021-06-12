@@ -40,8 +40,6 @@ class USDAMyPlate(AbstractScraper):
                 return get_yields(spans[i + 1])
             i += 1
 
-        return ""
-
     def image(self):
         div = self.soup.find(
             "div",
