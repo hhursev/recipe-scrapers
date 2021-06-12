@@ -14,7 +14,7 @@ class WhatsGabyCooking(AbstractScraper):
         return get_minutes(self.soup.find("p", {"class": "header-recipe-time"}))
 
     def yields(self):
-        return ""
+        return self.schema.yields()
 
     def ingredients(self):
         ingredients = self.soup.findAll("li", {"class": "wprm-recipe-ingredient"})
