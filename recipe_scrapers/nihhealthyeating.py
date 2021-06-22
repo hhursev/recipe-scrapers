@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
+from ._exceptions import ElementNotFoundInHtml, OptionalElementNotFoundInHtml
 
 
 class NIHHealthyEating(AbstractScraper):
@@ -15,15 +16,19 @@ class NIHHealthyEating(AbstractScraper):
         # This content must be present for all recipes on this website.
         time_table = self.soup.find("table", {"class": "recipe_time_table"})
 
-        if time_table is not None:
-            return sum([get_minutes(td) for td in time_table.find_all("td")])
+        if time_table is None:
+            raise ElementNotFoundInHtml("Table with times was not found.")
+
+        return sum([get_minutes(td) for td in time_table.find_all("td")])
 
     def yields(self):
         # This content must be present for all recipes on this website.
         time_table = self.soup.find("table", {"class": "recipe_time_table"})
 
         if time_table is None:
-            return
+            raise ElementNotFoundInHtml(
+                "Table with the number of servings that the recipe yields was not found."
+            )
 
         i = 0
         for t in time_table.findAll("th"):
@@ -32,7 +37,10 @@ class NIHHealthyEating(AbstractScraper):
             i += 1
 
         if i >= len(time_table.findAll("td")):
-            return
+            raise ElementNotFoundInHtml(
+                "Table cells with servings that the recipe yields were not found."
+            )
+
         return get_yields(time_table.find_all("td")[i])
 
     def image(self):
@@ -40,14 +48,16 @@ class NIHHealthyEating(AbstractScraper):
         img = self.soup.find("img", {"class": "recipe_image", "src": True})
 
         if img is None:
-            return " "
+            raise OptionalElementNotFoundInHtml("Optional image tag was not found.")
 
         image_relative_url = img.get("src")
 
-        if image_relative_url is not None:
-            image_relative_url = f"https://{self.host()}{image_relative_url}"
-        else:
-            image_relative_url = " "
+        if image_relative_url is None:
+            raise OptionalElementNotFoundInHtml(
+                "Optional image tag's source was not found."
+            )
+
+        image_relative_url = f"https://{self.host()}{image_relative_url}"
 
         return image_relative_url
 
@@ -56,7 +66,7 @@ class NIHHealthyEating(AbstractScraper):
         ingredients_div = self.soup.find("div", {"id": "ingredients"})
 
         if ingredients_div is None:
-            return []
+            raise ElementNotFoundInHtml("Ingredients not found.")
 
         ingredients_p = ingredients_div.findAll("p")
         ingredients = [normalize_string(para.get_text()) for para in ingredients_p]
@@ -70,7 +80,7 @@ class NIHHealthyEating(AbstractScraper):
         directions_div = self.soup.find("div", {"id": "recipe_directions"})
 
         if directions_div is None:
-            return ""
+            raise ElementNotFoundInHtml("Instructions not found.")
 
         instructions = directions_div.findAll("div", {"class": "steptext"})
 
