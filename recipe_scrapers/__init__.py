@@ -140,8 +140,8 @@ from .thewoksoflife import Thewoksoflife
 from .timesofindia import TimesOfIndia
 from .tineno import TineNo
 from .tudogostoso import TudoGostoso
-from .usdamyplate import USDAMyPlate
 from .twopeasandtheirpod import TwoPeasAndTheirPod
+from .usdamyplate import USDAMyPlate
 from .vanillaandbean import VanillaAndBean
 from .vegolosi import Vegolosi
 from .vegrecipesofindia import VegRecipesOfIndia

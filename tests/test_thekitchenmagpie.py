@@ -2,8 +2,7 @@ from recipe_scrapers.thekitchenmagpie import TheKitchenMagPie
 from tests import ScraperTest
 
 
-class TestAmazingRibsScraper(ScraperTest):
-
+class TestTheKitchenMagPie(ScraperTest):
     scraper_class = TheKitchenMagPie
 
     def test_host(self):
@@ -27,12 +26,15 @@ class TestAmazingRibsScraper(ScraperTest):
     def test_ingredients(self):
         self.assertCountEqual(
             [
-             '16 ounces of canned salmon (drained)',
-             '1 cup seasoned fine breadcrumbs',
-             '½ cup onion (finely chopped)',
-             '1 tsp dill weed', '2 large eggs (beaten)',
-             '1 tablespoon lemon juice', '½ tsp salt',
-             '¼ tsp black pepper'],
+                "16 ounces of canned salmon (drained)",
+                "1 cup seasoned fine breadcrumbs",
+                "½ cup onion (finely chopped)",
+                "1 tsp dill weed",
+                "2 large eggs (beaten)",
+                "1 tablespoon lemon juice",
+                "½ tsp salt",
+                "¼ tsp black pepper",
+            ],
             self.harvester_class.ingredients(),
         )
 
