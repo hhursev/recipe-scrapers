@@ -12,6 +12,7 @@ from .archanaskitchen import ArchanasKitchen
 from .atelierdeschefs import AtelierDesChefs
 from .averiecooks import AverieCooks
 from .bakingmischeif import BakingMischeif
+from .bakingsense import BakingSense
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
 from .bettycrocker import BettyCrocker
@@ -139,8 +140,8 @@ from .thewoksoflife import Thewoksoflife
 from .timesofindia import TimesOfIndia
 from .tineno import TineNo
 from .tudogostoso import TudoGostoso
-from .usdamyplate import USDAMyPlate
 from .twopeasandtheirpod import TwoPeasAndTheirPod
+from .usdamyplate import USDAMyPlate
 from .vanillaandbean import VanillaAndBean
 from .vegolosi import Vegolosi
 from .vegrecipesofindia import VegRecipesOfIndia
@@ -165,6 +166,7 @@ SCRAPERS = {
     BBCFood.host(): BBCFood,
     BBCFood.host(domain="co.uk"): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
+    BakingSense.host(): BakingSense,
     BakingMischeif.host(): BakingMischeif,
     BettyCrocker.host(): BettyCrocker,
     BigOven.host(): BigOven,
