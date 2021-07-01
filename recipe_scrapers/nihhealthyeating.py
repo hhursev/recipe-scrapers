@@ -1,6 +1,6 @@
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
-from ._exceptions import ElementNotFoundInHtml, OptionalElementNotFoundInHtml
+from ._exceptions import ElementNotFoundInHtml
 
 
 class NIHHealthyEating(AbstractScraper):
@@ -48,14 +48,12 @@ class NIHHealthyEating(AbstractScraper):
         img = self.soup.find("img", {"class": "recipe_image", "src": True})
 
         if img is None:
-            raise OptionalElementNotFoundInHtml("Optional image tag was not found.")
+            return " "
 
         image_relative_url = img.get("src")
 
         if image_relative_url is None:
-            raise OptionalElementNotFoundInHtml(
-                "Optional image tag's source was not found."
-            )
+            return " "
 
         image_relative_url = f"https://{self.host()}{image_relative_url}"
 

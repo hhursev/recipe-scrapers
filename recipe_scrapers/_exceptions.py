@@ -35,15 +35,6 @@ class ElementNotFoundInHtml(RecipeScrapersExceptions):
         super().__init__(message)
 
 
-class OptionalElementNotFoundInHtml(RecipeScrapersExceptions):
-    """Error when we cannot locate an optional HTML element on the page"""
-
-    def __init__(self, element):
-        self.element = element
-        message = "Optional element not found in html (self.soup.find returned None). Check traceback."
-        super().__init__(message)
-
-
 class SchemaOrgException(RecipeScrapersExceptions):
     """Error in parsing or missing portion of the Schema.org data org the page"""
 
