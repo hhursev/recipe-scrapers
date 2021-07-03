@@ -91,6 +91,7 @@ from .misya import Misya
 from .momswithcrockpots import MomsWithCrockPots
 from .motherthyme import MotherThyme
 from .mybakingaddiction import MyBakingAddiction
+from .mykitchen101 import MyKitchen101
 from .myrecipes import MyRecipes
 from .nihhealthyeating import NIHHealthyEating
 from .nourishedbynutrition import NourishedByNutrition
@@ -139,8 +140,8 @@ from .thewoksoflife import Thewoksoflife
 from .timesofindia import TimesOfIndia
 from .tineno import TineNo
 from .tudogostoso import TudoGostoso
-from .usdamyplate import USDAMyPlate
 from .twopeasandtheirpod import TwoPeasAndTheirPod
+from .usdamyplate import USDAMyPlate
 from .vanillaandbean import VanillaAndBean
 from .vegolosi import Vegolosi
 from .vegrecipesofindia import VegRecipesOfIndia
@@ -247,6 +248,7 @@ SCRAPERS = {
     MomsWithCrockPots.host(): MomsWithCrockPots,
     MotherThyme.host(): MotherThyme,
     MyBakingAddiction.host(): MyBakingAddiction,
+    MyKitchen101.host(): MyKitchen101,
     MyRecipes.host(): MyRecipes,
     NIHHealthyEating.host(): NIHHealthyEating,
     NYTimes.host(): NYTimes,
