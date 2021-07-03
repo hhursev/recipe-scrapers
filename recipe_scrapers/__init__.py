@@ -92,6 +92,7 @@ from .momswithcrockpots import MomsWithCrockPots
 from .motherthyme import MotherThyme
 from .mybakingaddiction import MyBakingAddiction
 from .mykitchen101 import MyKitchen101
+from .mykitchen101en import MyKitchen101en
 from .myrecipes import MyRecipes
 from .nihhealthyeating import NIHHealthyEating
 from .nourishedbynutrition import NourishedByNutrition
@@ -249,6 +250,7 @@ SCRAPERS = {
     MotherThyme.host(): MotherThyme,
     MyBakingAddiction.host(): MyBakingAddiction,
     MyKitchen101.host(): MyKitchen101,
+    MyKitchen101en.host(): MyKitchen101en,
     MyRecipes.host(): MyRecipes,
     NIHHealthyEating.host(): NIHHealthyEating,
     NYTimes.host(): NYTimes,
