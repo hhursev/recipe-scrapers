@@ -22,4 +22,4 @@ class HelloFresh(AbstractScraper):
         return self.schema.instructions()
 
     def image(self):
-        self.schema.image()
+        return self.schema.image()
