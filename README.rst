@@ -211,6 +211,7 @@ Scrapers available for:
 - `https://tastykitchen.com/ <https://tastykitchen.com>`_
 - `https://theclevercarrot.com/ <https://theclevercarrot.com>`_
 - `https://thehappyfoodie.co.uk/ <https://thehappyfoodie.co.uk>`_
+- `https://www.thekitchenmagpie.com/ <https://www.thekitchenmagpie.com>`_
 - `https://thekitchn.com/ <https://thekitchn.com/>`_
 - `https://thenutritiouskitchen.co/ <https://thenutritiouskitchen.co/>`_
 - `https://thepioneerwoman.com/ <https://thepioneerwoman.com>`_

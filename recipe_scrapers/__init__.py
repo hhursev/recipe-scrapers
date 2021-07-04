@@ -130,6 +130,7 @@ from .tasty import Tasty
 from .tastykitchen import TastyKitchen
 from .theclevercarrot import TheCleverCarrot
 from .thehappyfoodie import TheHappyFoodie
+from .thekitchenmagpie import TheKitchenMagPie
 from .thekitchn import TheKitchn
 from .thenutritiouskitchen import TheNutritiousKitchen
 from .thepioneerwoman import ThePioneerWoman
@@ -139,8 +140,8 @@ from .thewoksoflife import Thewoksoflife
 from .timesofindia import TimesOfIndia
 from .tineno import TineNo
 from .tudogostoso import TudoGostoso
-from .usdamyplate import USDAMyPlate
 from .twopeasandtheirpod import TwoPeasAndTheirPod
+from .usdamyplate import USDAMyPlate
 from .vanillaandbean import VanillaAndBean
 from .vegolosi import Vegolosi
 from .vegrecipesofindia import VegRecipesOfIndia
@@ -286,6 +287,7 @@ SCRAPERS = {
     TastyKitchen.host(): TastyKitchen,
     TheCleverCarrot.host(): TheCleverCarrot,
     TheHappyFoodie.host(): TheHappyFoodie,
+    TheKitchenMagPie.host(): TheKitchenMagPie,
     TheKitchn.host(): TheKitchn,
     TheNutritiousKitchen.host(): TheNutritiousKitchen,
     ThePioneerWoman.host(): ThePioneerWoman,
