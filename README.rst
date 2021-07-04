@@ -86,6 +86,7 @@ Scrapers available for:
 - `https://archanaskitchen.com/ <https://archanaskitchen.com/>`_
 - `https://www.atelierdeschefs.fr/ <https://www.atelierdeschefs.fr/>`_
 - `https://averiecooks.com/ <https://www.averiecooks.com/>`_
+- `https://baking-sense.com/ <https://baking-sense.com/>`_
 - `https://bakingmischief.com/ <https://bakingmischief.com/>`_
 - `https://bbc.com/ <https://bbc.com/food/recipes>`_
 - `https://bbc.co.uk/ <http://bbc.co.uk/food/recipes>`_
@@ -212,6 +213,7 @@ Scrapers available for:
 - `https://tastykitchen.com/ <https://tastykitchen.com>`_
 - `https://theclevercarrot.com/ <https://theclevercarrot.com>`_
 - `https://thehappyfoodie.co.uk/ <https://thehappyfoodie.co.uk>`_
+- `https://www.thekitchenmagpie.com/ <https://www.thekitchenmagpie.com>`_
 - `https://thekitchn.com/ <https://thekitchn.com/>`_
 - `https://thenutritiouskitchen.co/ <https://thenutritiouskitchen.co/>`_
 - `https://thepioneerwoman.com/ <https://thepioneerwoman.com>`_
