@@ -23,3 +23,6 @@ class HelloFresh(AbstractScraper):
 
     def image(self):
         return self.schema.image()
+
+    def nutrients(self):
+        return self.schema.nutrients()
