@@ -153,6 +153,7 @@ Scrapers available for:
 - `https://inspiralized.com/ <https://inspiralized.com>`_
 - `https://jamieoliver.com/ <https://jamieoliver.com>`_
 - `https://justbento.com/ <https://justbento.com>`_
+- `https://joyfoodsunshine.com/ <https://joyfoodsunshine.com>`_
 - `https://kennymcgovern.com/ <https://kennymcgovern.com>`_
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
 - `https://kochbar.de/ <https://kochbar.de>`_
