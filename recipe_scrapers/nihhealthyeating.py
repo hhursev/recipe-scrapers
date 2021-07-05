@@ -48,12 +48,12 @@ class NIHHealthyEating(AbstractScraper):
         img = self.soup.find("img", {"class": "recipe_image", "src": True})
 
         if img is None:
-            return " "
+            raise ElementNotFoundInHtml("Image not found.")
 
         image_relative_url = img.get("src")
 
         if image_relative_url is None:
-            return " "
+            raise ElementNotFoundInHtml("Image not found.")
 
         image_relative_url = f"https://{self.host()}{image_relative_url}"
 
