@@ -23,7 +23,8 @@
           "nutrition": {
             "@type": "NutritionInformation",
             "calories": "240 calories",
-            "fatContent": "9 grams fat"
+            "fatContent": "9 grams fat",
+            "servingSize": null
           },
           "prepTime": "PT15M",
           "recipeInstructions": "Preheat the oven to 350 degrees. Mix in the ingredients in a bowl. Add the flour last. Pour the mixture into a loaf pan and bake for one hour.",
