@@ -38,9 +38,6 @@ class AbstractScraper:
         self.wild_mode = wild_mode
         self.soup = BeautifulSoup(page_data, "html.parser")
         self.url = url
-
-        # Attempt to read Schema.org data. Gracefully fail if it raises an exception parsing the JSON.
-        # The scraper subclass can use BeautifulSoup to extract the information.
         self.schema = SchemaOrg(page_data)
 
         # attach the plugins as instructed in settings.PLUGINS
