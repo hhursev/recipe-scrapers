@@ -1,6 +1,5 @@
 import inspect
 from collections import OrderedDict
-from json.decoder import JSONDecodeError
 from typing import Optional, Tuple, Union
 from urllib.parse import urljoin
 
