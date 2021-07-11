@@ -41,10 +41,7 @@ class AbstractScraper:
 
         # Attempt to read Schema.org data. Gracefully fail if it raises an exception parsing the JSON.
         # The scraper subclass can use BeautifulSoup to extract the information.
-        try:
-            self.schema = SchemaOrg(page_data)
-        except JSONDecodeError:
-            pass
+        self.schema = SchemaOrg(page_data)
 
         # attach the plugins as instructed in settings.PLUGINS
         for name, func in inspect.getmembers(self, inspect.ismethod):

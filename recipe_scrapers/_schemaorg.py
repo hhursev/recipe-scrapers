@@ -18,7 +18,7 @@ class SchemaOrg:
         self.format = None
         self.data = {}
 
-        data = extruct.extract(page_data, syntaxes=SYNTAXES, uniform=True)
+        data = extruct.extract(page_data, syntaxes=SYNTAXES, errors='log', uniform=True)
 
         low_schema = {s.lower() for s in SCHEMA_NAMES}
         for syntax in SYNTAXES:
