@@ -117,7 +117,7 @@ class SchemaOrg:
         return {
             normalize_string(nutrient): normalize_string(value)
             for nutrient, value in nutrients.items()
-            if nutrient != "@type"
+            if nutrient != "@type" and value is not None
         }
 
     def _extract_howto_instructions_text(self, schema_item):
