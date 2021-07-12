@@ -6,7 +6,6 @@ import pytest
 
 class ScraperTest(unittest.TestCase):
 
-    maxDiff = None
     online = False
     test_file_name = None
 
