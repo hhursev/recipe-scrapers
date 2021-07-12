@@ -37,7 +37,6 @@ class TestNYTimesScraper(ScraperTest):
         self.assertEqual("160 item(s)", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.maxDiff = None
         self.assertCountEqual(
             [
                 "1 1/2 cups/190 grams unbleached all-purpose flour (see Tip)",

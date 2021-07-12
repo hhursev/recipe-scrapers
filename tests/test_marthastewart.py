@@ -6,8 +6,6 @@ class TestMarthaStewart(ScraperTest):
 
     scraper_class = MarthaStewart
 
-    maxDiff = None
-
     def test_host(self):
         self.assertEqual("marthastewart.com", self.harvester_class.host())
 

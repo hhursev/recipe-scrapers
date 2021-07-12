@@ -6,8 +6,6 @@ class TestKitchnScraper(ScraperTest):
 
     scraper_class = TheKitchn
 
-    maxDiff = None
-
     def test_host(self):
         self.assertEqual("thekitchn.com", self.harvester_class.host())
 
