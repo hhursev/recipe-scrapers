@@ -50,7 +50,6 @@ class TestDrMeScraper(ScraperTest):
         )
 
     def test_instructions(self):
-        self.maxDiff = None
         return self.assertEqual(
             """Opskriften giver cirka 16 styks, afhængig af størrelsen.
 
