@@ -51,3 +51,20 @@ class TestHelloFreshScraper(ScraperTest):
             """a) Pour the boiling water into a large saucepan and bring back to the boil on high heat. b) When boiling, add the rice and cook for 8-10 mins, then drain in a sieve and set aside.\na) Meanwhile, trim the carrot then grate on the coarse side of your grater (no need to peel). b) Trim the spring onion then finely slice. Roughly chop the peanuts. Zest the lime then chop into wedges. c) Chop the pork into 2cm chunks. iIMPORTANT: Remember to wash your hands after handling raw meat.\na) In a small bowl, stir together the easy ginger, ketjap manis, soy sauce, honey and the juice of half the lime. Set aside.\na) Heat a splash of oil in a large frying pan on high heat. b) When hot, add the pork and stir-fry until browned all over, 4-5 mins.\na) Lower the heat to medium then pour the sauce into the pan. b) Cook, coating the pork in the sticky sauce, for 2-3 mins.iIMPORTANT: The pork is cooked when it is no longer pink in the middle. c) Meanwhile, in a large bowl gently toss together the rice, lime zest, carrot, half the spring onion and half the peanuts. Season to taste with salt and pepper if needed.\na) Serve the sticky pork on top of the veggie rice. b) Finish by pouring any sauce left in the pan over the top and scattering over the remaining peanuts and spring onion. c) Top with the remaining lime wedges. ENJOY!""",
             self.harvester_class.instructions(),
         )
+
+    def test_nutrients(self):
+        self.assertEqual(
+            {
+                "calories": "668 kcal",
+                "fatContent": "20 g",
+                "saturatedFatContent": "6 g",
+                "carbohydrateContent": "83 g",
+                "sugarContent": "20 g",
+                "proteinContent": "38 g",
+                "fiberContent": "0 g",
+                "cholesterolContent": "0 mg",
+                "sodiumContent": "3.25 g",
+                "servingSize": "360",
+            },
+            self.harvester_class.nutrients(),
+        )
