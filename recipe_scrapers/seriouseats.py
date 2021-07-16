@@ -7,6 +7,10 @@ class SeriousEats(AbstractScraper):
     def host(cls):
         return "seriouseats.com"
 
+    def author(self):
+        author = self.soup.find("meta", {"name": "sailthru.author"})
+        return author["content"] if author else None
+
     def title(self):
         return self.soup.find("h1").get_text()
 
