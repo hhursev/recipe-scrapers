@@ -15,6 +15,9 @@ class TestSeriousEats(ScraperTest):
             self.harvester_class.canonical_url(),
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Daniel Gritzer")
+
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(), "Homemade Preserved Horseradish Recipe"
