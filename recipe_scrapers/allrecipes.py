@@ -1,8 +1,8 @@
-from ._abstract import AbstractScraper
 import inspect
 import logging
 import re
 
+from ._abstract import AbstractScraper
 
 logging.basicConfig()
 logger = logging.getLogger(__name__)
@@ -10,12 +10,23 @@ logger = logging.getLogger(__name__)
 
 UNITIZERX = re.compile(r"^([0-9.]+)\s*([^0-9.]*)$")
 EXT_NUTRS_SEL = "section.recipe-nutrition.nutrition-section div.nutrition-row"
-EXT_NUTRS_CLASH = "Extended nutrient name clashes with basic nutrient:" \
-                  "%s = %s vs %s"
+EXT_NUTRS_CLASH = "Extended nutrient name clashes with basic nutrient:" "%s = %s vs %s"
 EXT_NUTR_PCT = "Got unit type from a percentage value: %s = %s (%s)"
-DICT_FIELDS = ['author', 'canonical_url', 'image', 'ingredients',
-               'instructions', 'language', 'links', 'ratings',
-               'site_name', 'title', 'total_time', 'url', 'yields']
+DICT_FIELDS = [
+    "author",
+    "canonical_url",
+    "image",
+    "ingredients",
+    "instructions",
+    "language",
+    "links",
+    "ratings",
+    "site_name",
+    "title",
+    "total_time",
+    "url",
+    "yields",
+]
 
 
 class AllRecipes(AbstractScraper):
@@ -67,11 +78,11 @@ class AllRecipes(AbstractScraper):
         for node in self.soup.select(EXT_NUTRS_SEL):
             tupl = list(node.stripped_strings)
             if len(tupl) >= 2:
-                name = tupl[0].strip(':')
+                name = tupl[0].strip(":")
                 ext_nutrs[name] = tupl[1]
                 if len(tupl) == 3:
-                    if '%' in tupl[2]:
-                        ext_nutrs[name + '%'] = tupl[2].strip(' %')
+                    if "%" in tupl[2]:
+                        ext_nutrs[name + "%"] = tupl[2].strip(" %")
                     else:
                         unhandled(node)
             else:
@@ -93,9 +104,9 @@ class AllRecipes(AbstractScraper):
         for name, value in self.nutrients().items():
             try:
                 new_value = UNITIZERX.match(value).groups()
-            except AttributeError as excep:
+            except AttributeError:
                 new_value = (value, None)
-            if name.endswith('%'):
+            if name.endswith("%"):
                 if new_value[1]:
                     logger.warn(EXT_NUTR_PCT, name, value, str(new_value[1]))
                 else:
@@ -103,7 +114,7 @@ class AllRecipes(AbstractScraper):
 
             # Special cases: transfer unit types found in name
             if not new_value[1]:
-                if 'calories' in name:
+                if "calories" in name:
                     new_value = (value, "calories")
             unitized[name] = (float(new_value[0]), new_value[1])
         return unitized
@@ -122,9 +133,9 @@ class AllRecipes(AbstractScraper):
             else:
                 logger.warn("Expected attrib not found: %s", attrib_name)
         if html:
-            obj['html'] = str(self.soup)
+            obj["html"] = str(self.soup)
         if unitized:
-            obj['nutrients'] = self.nutrients_unitized()
+            obj["nutrients"] = self.nutrients_unitized()
         else:
-            obj['nutrients'] = self.nutrients()
+            obj["nutrients"] = self.nutrients()
         return obj
