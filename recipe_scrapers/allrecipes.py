@@ -8,7 +8,6 @@ logging.basicConfig()
 logger = logging.getLogger(__name__)
 
 
-UNITIZERX = re.compile(r"^([0-9.]+)\s*([^0-9.]*)$")
 EXT_NUTRS_SEL = "section.recipe-nutrition.nutrition-section div.nutrition-row"
 EXT_NUTRS_CLASH = "Extended nutrient name clashes with basic nutrient:" "%s = %s vs %s"
 EXT_NUTR_PCT = "Got unit type from a percentage value: %s = %s (%s)"
@@ -101,9 +100,10 @@ class AllRecipes(AbstractScraper):
 
     def nutrients_unitized(self):
         unitized = {}
+        unitizer_rx = re.compile(r"^([0-9.]+)\s*([^0-9.]*)$")
         for name, value in self.nutrients().items():
             try:
-                new_value = UNITIZERX.match(value).groups()
+                new_value = unitizer_rx.match(value).groups()
             except AttributeError:
                 new_value = (value, None)
             if name.endswith("%"):
