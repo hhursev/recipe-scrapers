@@ -4,7 +4,7 @@ from ._abstract import AbstractScraper
 class DomesticateMe(AbstractScraper):
     @classmethod
     def host(cls):
-        return "domesticate-me.com/"
+        return "domesticate-me.com"
 
     def title(self):
         return self.schema.title()
