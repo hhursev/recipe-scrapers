@@ -7,11 +7,11 @@ class TestWholeFoodsScraper(ScraperTest):
     scraper_class = WholeFoods
 
     def test_host(self):
-        self.assertEqual("www.wholefoodsmarket.com", self.harvester_class.host())
+        self.assertEqual("wholefoodsmarket.com", self.harvester_class.host())
 
     def test_host_domain(self):
         self.assertEqual(
-            "www.wholefoodsmarket.co.uk", self.harvester_class.host(domain="co.uk")
+            "wholefoodsmarket.co.uk", self.harvester_class.host(domain="co.uk")
         )
 
     def test_title(self):
