@@ -5,7 +5,7 @@ from ._utils import get_minutes, get_yields, normalize_string
 class HEB(AbstractScraper):
     @classmethod
     def host(self, domain="com"):
-        return f"www.heb.{domain}"
+        return f"heb.{domain}"
 
     def title(self):
         return self.soup.find("h1", {"class": "title"}).get_text()

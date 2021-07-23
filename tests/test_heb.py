@@ -7,7 +7,7 @@ class TestHEBScraper(ScraperTest):
     scraper_class = HEB
 
     def test_host(self):
-        self.assertEqual("www.heb.com", self.harvester_class.host())
+        self.assertEqual("heb.com", self.harvester_class.host())
 
     def test_canonical_url(self):
         self.assertEqual(

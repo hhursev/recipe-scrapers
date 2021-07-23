@@ -7,7 +7,7 @@ class TestStreetKitchenScraper(ScraperTest):
     scraper_class = StreetKitchen
 
     def test_host(self):
-        self.assertEqual("https://streetkitchen.hu", self.harvester_class.host())
+        self.assertEqual("streetkitchen.hu", self.harvester_class.host())
 
     def test_language(self):
         self.assertEqual("hu", self.harvester_class.language())
