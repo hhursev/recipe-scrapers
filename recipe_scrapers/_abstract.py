@@ -61,10 +61,21 @@ class AbstractScraper:
     def title(self):
         raise NotImplementedError("This should be implemented.")
 
-    def total_time(self):
-        """total time it takes to preparate the recipe in minutes"""
+    def category(self):
         raise NotImplementedError("This should be implemented.")
 
+    def total_time(self):
+        """ total time it takes to preparate the recipe in minutes """
+        raise NotImplementedError("This should be implemented.")
+
+    def cook_time(self):
+        """ cook time it takes to preparate the recipe in minutes """
+        raise NotImplementedError("This should be implemented.")
+
+    def prep_time(self):
+        """ prep time it takes to preparate the recipe in minutes """
+        raise NotImplementedError("This should be implemented.")
+        
     def yields(self):
         """The number of servings or items in the recipe"""
         raise NotImplementedError("This should be implemented.")
