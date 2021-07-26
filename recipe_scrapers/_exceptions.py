@@ -11,6 +11,7 @@ class WebsiteNotImplementedError(RecipeScrapersExceptions):
     """Error when website is not supported by this library."""
 
     def __init__(self, domain):
+        self.domain = domain
         message = f"Website ({self.domain}) not supported."
         super().__init__(message)
 
@@ -19,8 +20,8 @@ class NoSchemaFoundInWildMode(RecipeScrapersExceptions):
     """Error when wild_mode fails to locate schema at the url"""
 
     def __init__(self, url):
-        message = f"No Recipe Schema found at {self.url}."
         self.url = url
+        message = f"No Recipe Schema found at {self.url}."
         super().__init__(message)
 
 
