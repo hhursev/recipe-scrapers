@@ -1,5 +1,8 @@
+import json
+
+import regex as re
+
 from ._abstract import AbstractScraper
-from ._utils import normalize_string
 
 
 class Koket(AbstractScraper):
@@ -23,19 +26,26 @@ class Koket(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        ingredients = self.soup.find_all("span", {"class": "ingredient"})
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        jsData = re.search(
+            r'(?<=<script id="__NEXT_DATA__" type="application\/json">)(.*?)(?=<\/script>)',
+            str(self.soup),
+        )
+        data = json.loads(jsData.group(0))
+        return data["props"]["pageProps"]["item"]["ingredients"]
 
     def instructions(self):
-        instructions = []
-        for instruction in self.soup.find("section", {"id": "step-by-step"}).find_all(
-            "span"
-        ):
-            try:
-                instructions.append(instruction.find("b").next_sibling.next_sibling)
-            except AttributeError:
-                instructions.append(instruction.get_text())
-        return instructions
+        jsData = re.search(
+            r'(?<=<script id="__NEXT_DATA__" type="application\/json">)(.*?)(?=<\/script>)',
+            str(self.soup),
+        )
+        data = json.loads(jsData.group(0))
+        return data["props"]["pageProps"]["item"]["cooking_steps"]
 
     def ratings(self):
-        return self.schema.ratings()
+        jsData = re.search(
+            r'(?<=<script id="__NEXT_DATA__" type="application\/json">)(.*?)(?=<\/script>)',
+            str(self.soup),
+        )
+        data = json.loads(jsData.group(0))
+        data = data["props"]["pageProps"]["item"]
+        return [data["rating_value"], data["rating_count"]]
