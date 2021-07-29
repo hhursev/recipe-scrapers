@@ -79,6 +79,7 @@ from .justbento import JustBento
 from .kennymcgovern import KennyMcGovern
 from .kingarthur import KingArthur
 from .kochbar import Kochbar
+from .koket import Koket
 from .kuchniadomowa import KuchniaDomowa
 from .lecremedelacrumb import LeCremeDeLaCrumb
 from .littlespicejar import LittleSpiceJar
@@ -243,6 +244,7 @@ SCRAPERS = {
     KennyMcGovern.host(): KennyMcGovern,
     KingArthur.host(): KingArthur,
     Kochbar.host(): Kochbar,
+    Koket.host(): Koket,
     KuchniaDomowa.host(): KuchniaDomowa,
     LeCremeDeLaCrumb.host(): LeCremeDeLaCrumb,
     LittleSpiceJar.host(): LittleSpiceJar,
