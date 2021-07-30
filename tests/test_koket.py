@@ -264,23 +264,57 @@ class TestKoketScraper(ScraperTest):
         )
 
     def test_instructions(self):
+        json_data = [
+            {"type": "header", "name": "Blommande äpplen"},
+            {"type": "instruction", "name": "\nSätt ugnen på 220 grader."},
+            {
+                "type": "instruction",
+                "name": "Skär av toppen på äpplena och gröp ur kärnhuset uppifrån, utan att göra hål i botten. Skär två cirklar runt hålet.",
+            },
+            {
+                "type": "instruction",
+                "name": "Lägg äpplet upp och ner och skär snitt uppifrån och ner. ",
+            },
+            {
+                "type": "instruction",
+                "name": "Lägg äpplena i en ugnsfast form med botten neråt.",
+            },
+            {"type": "instruction", "name": "Lägg i en kola i varje äpple."},
+            {
+                "type": "instruction",
+                "name": "Smält smöret och blanda ihop med salt, kanel och rörsocker.",
+            },
+            {
+                "type": "instruction",
+                "name": "Pensla äpplena med smörblandningen och sätt in i ugnen. Efter ca 20 minuter är de klara och har slagit ut som en blomma.",
+            },
+            {
+                "type": "instruction",
+                "name": "Under tiden så grovhacka nötterna och rosta i en torr panna tillsammans med salt. Det går fort så ha koll! ",
+            },
+            {
+                "type": "instruction",
+                "name": "Servera de varma äpplena med en kula vaniljglass, kolasås (se recept nedan) och strö över de rostade nötterna.",
+            },
+            {"type": "header", "name": "Kolsås"},
+            {"type": "instruction", "name": "Blanda alla ingredienser i en kastrull."},
+            {
+                "type": "instruction",
+                "name": "Låt koka under omrörning tills den har en gyllene färg.",
+            },
+            {
+                "type": "instruction",
+                "name": "Låt den svalna lite och servera!\xa0Förvara inte i kylen. Då stelnar den.",
+            },
+        ]
+
         self.assertEqual(
-            [
-                "Blommande äpplen\nSätt ugnen på 220 grader.",
-                "Skär av toppen på äpplena och gröp ur kärnhuset uppifrån, utan att göra hål i botten. Skär två cirklar runt hålet.",
-                "Lägg äpplet upp och ner och skär snitt uppifrån och ner. ",
-                "Lägg äpplena i en ugnsfast form med botten neråt.",
-                "Lägg i en kola i varje äpple.",
-                "Smält smöret och blanda ihop med salt, kanel och rörsocker.",
-                "Pensla äpplena med smörblandningen och sätt in i ugnen. Efter ca 20 minuter är de klara och har slagit ut som en blomma.",
-                "Under tiden så grovhacka nötterna och rosta i en torr panna tillsammans med salt. Det går fort så ha koll! ",
-                "Servera de varma äpplena med en kula vaniljglass, kolasås (se recept nedan) och strö över de rostade nötterna.",
-                "KolsåsBlanda alla ingredienser i en kastrull.",
-                "Låt koka under omrörning tills den har en gyllene färg.",
-                "Låt den svalna lite och servera!\xa0Förvara inte i kylen. Då stelnar den.",
-            ],
+            [str(json_element) for json_element in json_data],
             self.harvester_class.instructions(),
         )
 
         def test_ratings(self):
-            self.assertEqual([4.7, 14], self.harvester_class.ratings())
+            rating_dict = self.harvester_class.ratings()
+            self.assertEqual(
+                [4.7, 14], [rating_dict["rating_value"], rating_dict["rating_count"]]
+            )
