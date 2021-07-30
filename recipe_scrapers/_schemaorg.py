@@ -86,13 +86,11 @@ class SchemaOrg:
     def cook_time(self):
         if not (self.data.keys() & {"cookTime"}):
             raise SchemaOrgException("Cooktime information not found in SchemaOrg")
-
         return get_minutes(self.data.get("cookTime"), return_zero_on_not_found=True)
 
     def prep_time(self):
         if not (self.data.keys() & {"prepTime"}):
             raise SchemaOrgException("Preptime information not found in SchemaOrg")
-
         return get_minutes(self.data.get("prepTime"), return_zero_on_not_found=True)
 
     def yields(self):
@@ -198,6 +196,8 @@ class SchemaOrg:
 
     def cuisine(self):
         cuisine = self.data.get("recipeCuisine")
-        if isinstance(cuisine, list):
+        if cuisine is None:
+            raise SchemaOrgException("No cuisine data in SchemaOrg.")
+        elif isinstance(cuisine, list):
             return ",".join(cuisine)
         return cuisine
