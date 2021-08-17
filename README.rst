@@ -187,6 +187,7 @@ Scrapers available for:
 - `https://www.panelinha.com.br/ <https://www.panelinha.com.br>`_
 - `https://paninihappy.com/ <https://paninihappy.com>`_
 - `https://popsugar.com/ <https://popsugar.com>`_
+- `https://practicalselfreliance.com/ <https://practicalselfreliance.com>`_
 - `https://www.primaledgehealth.com/ <https://www.primaledgehealth.com/>`_
 - `https://przepisy.pl/ <https://przepisy.pl>`_
 - `https://purelypope.com/ <https://purelypope.com>`_
