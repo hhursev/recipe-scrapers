@@ -63,6 +63,7 @@ from .gousto import Gousto
 from .greatbritishchefs import GreatBritishChefs
 from .halfbakedharvest import HalfBakedHarvest
 from .hassenchef import Hassanchef
+from .headbangerskitchen import HeadbangersKitchen
 from .heb import HEB
 from .heinzbrasil import HeinzBrasil
 from .hellofresh import HelloFresh
@@ -225,6 +226,7 @@ SCRAPERS = {
     HEB.host(): HEB,
     HalfBakedHarvest.host(): HalfBakedHarvest,
     Hassanchef.host(): Hassanchef,
+    HeadbangersKitchen.host(): HeadbangersKitchen,
     HeinzBrasil.host(): HeinzBrasil,
     HelloFresh.host(): HelloFresh,
     HelloFresh.host(domain="co.uk"): HelloFresh,
