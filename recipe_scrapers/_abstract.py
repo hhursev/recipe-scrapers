@@ -40,12 +40,14 @@ class AbstractScraper:
         self.schema = SchemaOrg(page_data)
 
         # attach the plugins as instructed in settings.PLUGINS
-        for name, func in inspect.getmembers(self, inspect.ismethod):
-            current_method = getattr(self.__class__, name)
-            for plugin in reversed(settings.PLUGINS):
-                if plugin.should_run(self.host(), name):
-                    current_method = plugin.run(current_method)
-            setattr(self.__class__, name, current_method)
+        if not hasattr(self.__class__, "plugins_initialized"):
+            for name, func in inspect.getmembers(self, inspect.ismethod):
+                current_method = getattr(self.__class__, name)
+                for plugin in reversed(settings.PLUGINS):
+                    if plugin.should_run(self.host(), name):
+                        current_method = plugin.run(current_method)
+                setattr(self.__class__, name, current_method)
+            setattr(self.__class__, "plugins_initialized", True)
 
     @classmethod
     def host(cls) -> str:
