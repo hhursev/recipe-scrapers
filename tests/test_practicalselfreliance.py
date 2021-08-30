@@ -21,6 +21,9 @@ class TestPracticalSelfRelianceScraper(ScraperTest):
     def test_yields(self):
         self.assertEqual("4 serving(s)", self.harvester_class.yields())
 
+    def test_total_time(self):
+        self.assertEqual(150, self.harvester_class.total_time())
+
     def test_image(self):
         self.assertEqual(
             "https://i0.wp.com/practicalselfreliance.com/wp-content/uploads/2021/02/Zucchini-Relish-21.jpg?resize=720%2C720&ssl=1",
