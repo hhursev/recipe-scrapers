@@ -107,6 +107,7 @@ from .paleorunningmomma import PaleoRunningMomma
 from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
 from .popsugar import PopSugar
+from .practicalselfreliance import PracticalSelfReliance
 from .primaledgehealth import PrimalEdgeHealth
 from .przepisy import Przepisy
 from .purelypope import PurelyPope
@@ -271,6 +272,7 @@ SCRAPERS = {
     Panelinha.host(): Panelinha,
     PaniniHappy.host(): PaniniHappy,
     PopSugar.host(): PopSugar,
+    PracticalSelfReliance.host(): PracticalSelfReliance,
     PrimalEdgeHealth.host(): PrimalEdgeHealth,
     Przepisy.host(): Przepisy,
     PurelyPope.host(): PurelyPope,
