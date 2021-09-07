@@ -159,6 +159,7 @@ from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
 from .yemek import Yemek
 from .yummly import Yummly
+from .zeitwochenmarkt import ZeitWochenmarkt
 
 SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
@@ -325,6 +326,7 @@ SCRAPERS = {
     WikiCookbook.host(): WikiCookbook,
     Yemek.host(): Yemek,
     Yummly.host(): Yummly,
+    ZeitWochenmarkt.host(): ZeitWochenmarkt,
 }
 
 
