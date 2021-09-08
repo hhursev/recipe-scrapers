@@ -16,12 +16,10 @@ class TestZeitWochenmarktScraper(ScraperTest):
         self.assertEqual("Kohlrabi-Fenchel-Carpaccio", self.harvester_class.title())
 
     def test_total_time(self):
-        return
-        self.assertEqual("unter 30 Minuten", self.harvester_class.total_time())
+        self.assertEqual(30, self.harvester_class.total_time())
 
     def test_yields(self):
-        return
-        self.assertEqual("Für 2 Personen", self.harvester_class.yields())
+        self.assertEqual("2 serving(s)", self.harvester_class.yields())
 
     def test_language(self):
         self.assertEqual("de", self.harvester_class.language())
@@ -50,8 +48,6 @@ class TestZeitWochenmarktScraper(ScraperTest):
         )
 
     def test_instructions(self):
-        return
         instructions = """Den Kohlrabi schälen, den Fenchel waschen. Beide vom unteren Strunk befreien. Den Kohlrabi einmal von der Spitze zum Boden in der Mitte durchschneiden. Nun beide Gemüse mit einem scharfen und stabilen Messer hauchdünn schneiden, bessere Ergebnisse erzielt man auf einer Mandoline. Idealerweise sind die Scheiben so dünn, dass man fast hindurchschauen kann.
-
 Nun aus dem Olivenöl, dem Zitronensaft und Honig ein Dressing zusammenrühren, mit Salz und Pfeffer abschmecken. Die dünnen Gemüsescheiben fächerartig auf einen großen Teller legen, den Käse zerreißen und darauf verteilen. Das Dressing darübergeben und mit Basilikum und Pistazien servieren."""
         self.assertEqual(instructions, self.harvester_class.instructions())
