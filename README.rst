@@ -101,6 +101,7 @@ Scrapers available for:
 - `https://cdkitchen.com/ <https://cdkitchen.com/>`_
 - `https://chefkoch.de/ <https://chefkoch.de>`_
 - `https://closetcooking.com/ <https://closetcooking.com>`_
+- `https://comidinhasdochef.com/ <https://comidinhasdochef.com/>`_
 - `https://cookeatshare.com/ <https://cookeatshare.com/>`_
 - `https://cookieandkate.com/ <https://cookieandkate.com/>`_
 - `https://cookinglight.com/ <https://cookinglight.com/>`_
