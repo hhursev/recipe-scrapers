@@ -38,11 +38,10 @@ class Panelinha(AbstractScraper):
         if not instructions:
             instructions = self.soup.find(
                 "h4", string="Modo de preparo"
-            ).nextSibling.p.contents
-            instructions = filter(lambda x: isinstance(x, str), instructions)
-            instructions = [
+            ).nextSibling.p.strings
+            instructions = (
                 normalize_string(instruction.get_text()) for instruction in instructions
-            ]
+            )
             instructions = map(
                 lambda step: INSTRUCTIONS_NUMBERING_REGEX.sub("", step), instructions
             )
