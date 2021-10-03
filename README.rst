@@ -208,6 +208,7 @@ Scrapers available for:
 - `https://skinnytaste.com/ <https://www.skinnytaste.com>`_
 - `https://southernliving.com/ <https://southernliving.com/>`_
 - `https://spendwithpennies.com/ <https://spendwithpennies.com/>`_
+- `https://www.springlane.de <https://www.springlane.de>`_
 - `https://steamykitchen.com/ <https://steamykitchen.com>`_
 - `https://streetkitchen.hu/ <https://streetkitchen.hu>`_
 - `https://sunbasket.com/ <https://sunbasket.com>`_
