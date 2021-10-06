@@ -93,6 +93,7 @@ from .mindmegette import Mindmegette
 from .minimalistbaker import Minimalistbaker
 from .misya import Misya
 from .momswithcrockpots import MomsWithCrockPots
+from .monsieurcuisine import MonsieurCuisine
 from .motherthyme import MotherThyme
 from .mybakingaddiction import MyBakingAddiction
 from .mykitchen101 import MyKitchen101
@@ -261,6 +262,7 @@ SCRAPERS = {
     Minimalistbaker.host(): Minimalistbaker,
     Misya.host(): Misya,
     MomsWithCrockPots.host(): MomsWithCrockPots,
+    MonsieurCuisine.host(): MonsieurCuisine,
     MotherThyme.host(): MotherThyme,
     MyBakingAddiction.host(): MyBakingAddiction,
     MyKitchen101.host(): MyKitchen101,
