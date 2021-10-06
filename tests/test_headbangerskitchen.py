@@ -27,18 +27,21 @@ class TestHeadbangersKitchenScraper(ScraperTest):
     def test_yields(self):
         self.assertEqual("1 serving(s)", self.harvester_class.yields())
 
-    # def test_image(self):
-    #     self.assertEqual(None, self.harvester_class.image())
+    def test_image(self):
+        self.assertEqual(
+            "https://headbangerskitchen.com/wp-content/uploads/2020/11/KETOMASALAOMELET-Vertical.jpg",
+            self.harvester_class.image(),
+        )
 
     def test_ingredients(self):
         self.assertEqual(
             [
-                "\n3 Eggs",
+                "3 Eggs",
                 "20 grams Cheese",
                 "20 grams Red onion",
-                "1 Tbsp Heavy Whipping Cream",
-                "1/2 Tsp Turmeric Order online",
-                "1/2 Tsp Kashmiri Red Chilli Powder Order online",
+                "1 Tbsp Heavy Whipping Cream ( Order online )",
+                "1/2 Tsp Tumeric ( Order online )",
+                "1/2 Tsp Kashmiri Red Chilli Powder ( Order online )",
                 "1 Tbsp Ghee",
                 "salt and pepper to taste",
                 "1 Tsp Coriander",
@@ -48,9 +51,9 @@ class TestHeadbangersKitchenScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            """Crack the 3 eggs into a bowl and add in the chopped onion, coriander, salt, pepper, tumeric, chilli powder and heavy cream and beat well. Heat the ghee in a frying pan and once melted add in the beaten eggs. Grate in the cheese and cover and cook for about 4 minutes. Fold the egg and finish cooking. Serve with a side of salad.""",
+            "Crack the 3 eggs into a bowl and add in the chopped onion, coriander, salt, pepper, tumeric, chilli powder and heavy cream and beat well.\nHeat the ghee in a frying pan and once melted add in the beaten eggs. Grate in the cheese and cover and cook for about 4 minutes. Fold the egg and finish cooking.\nServe with a side of salad.",
             self.harvester_class.instructions(),
         )
 
-    # def test_ratings(self):
-    #     self.assertEqual(None, self.harvester_class.ratings())
+    def test_ratings(self):
+        self.assertEqual(4.33, self.harvester_class.ratings())
