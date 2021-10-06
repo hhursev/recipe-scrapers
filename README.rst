@@ -155,6 +155,7 @@ Scrapers available for:
 - `https://jamieoliver.com/ <https://jamieoliver.com>`_
 - `https://jimcooksfoodgood.com/ <https://jimcooksfoodgood.com/>`_
 - `https://joyfoodsunshine.com/ <https://joyfoodsunshine.com>`_
+- `https://justataste.com/ <https://justataste.com>`_
 - `https://justbento.com/ <https://justbento.com>`_
 - `https://kennymcgovern.com/ <https://kennymcgovern.com>`_
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
@@ -172,6 +173,7 @@ Scrapers available for:
 - `https://minimalistbaker.com/ <https://minimalistbaker.com/>`_
 - `https://misya.info/ <https://misya.info>`_
 - `https://momswithcrockpots.com/ <https://momswithcrockpots.com>`_
+_ `https://monsieur-cuisine.com/ <https://monsieur-cuisine.com>`_
 - `http://motherthyme.com/ <http://motherthyme.com/>`_
 - `https://mybakingaddiction.com/ <https://mybakingaddiction.com>`_
 - `https://mykitchen101.com/ <https://mykitchen101.com>`_
