@@ -24,10 +24,15 @@ class SchemaOrg:
         for syntax in SYNTAXES:
             for item in data.get(syntax, []):
                 in_context = SCHEMA_ORG_HOST in item.get("@context", "")
-                if in_context and item.get("@type", "").lower() in low_schema:
+                item_type = item.get("@type","")
+                if isinstance(item_type, list):
+                    for type in item_type:
+                        if type.lower() in low_schema:
+                            item_type = type.lower()
+                if in_context and item_type.lower() in low_schema:
                     self.format = syntax
                     self.data = item
-                    if item.get("@type").lower() == "webpage":
+                    if item_type.lower() == "webpage":
                         self.data = self.data.get("mainEntity")
                     return
                 elif in_context and "@graph" in item:
