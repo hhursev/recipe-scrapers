@@ -151,6 +151,7 @@ Scrapers available for:
 - `https://receitas.ig.com.br/ <https://receitas.ig.com.br>`_
 - `https://indianhealthyrecipes.com <https://www.indianhealthyrecipes.com>`_
 - `https://www.innit.com/ <https://www.innit.com/>`_
+- `https://headbangerskitchen.com/ <https://www.headbangerskitchen.com/>`_
 - `https://inspiralized.com/ <https://inspiralized.com>`_
 - `https://jamieoliver.com/ <https://jamieoliver.com>`_
 - `https://jimcooksfoodgood.com/ <https://jimcooksfoodgood.com/>`_
