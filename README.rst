@@ -141,6 +141,7 @@ Scrapers available for:
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
 - `https://halfbakedharvest.com/ <https://www.halfbakedharvest.com/>`_
 - `https://www.hassanchef.com/ <https://www.hassanchef.com/>`_
+- `https://headbangerskitchen.com/ <https://www.headbangerskitchen.com/>`_
 - `https://www.heb.com/ <https://www.heb.com/recipe/landing>`_
 - `https://heinzbrasil.com.br/ <https://heinzbrasil.com.br>`_
 - `https://hellofresh.com/ <https://hellofresh.com>`_
@@ -151,7 +152,6 @@ Scrapers available for:
 - `https://receitas.ig.com.br/ <https://receitas.ig.com.br>`_
 - `https://indianhealthyrecipes.com <https://www.indianhealthyrecipes.com>`_
 - `https://www.innit.com/ <https://www.innit.com/>`_
-- `https://headbangerskitchen.com/ <https://www.headbangerskitchen.com/>`_
 - `https://inspiralized.com/ <https://inspiralized.com>`_
 - `https://jamieoliver.com/ <https://jamieoliver.com>`_
 - `https://jimcooksfoodgood.com/ <https://jimcooksfoodgood.com/>`_
@@ -174,7 +174,7 @@ Scrapers available for:
 - `https://minimalistbaker.com/ <https://minimalistbaker.com/>`_
 - `https://misya.info/ <https://misya.info>`_
 - `https://momswithcrockpots.com/ <https://momswithcrockpots.com>`_
-_ `https://monsieur-cuisine.com/ <https://monsieur-cuisine.com>`_
+- `https://monsieur-cuisine.com/ <https://monsieur-cuisine.com>`_
 - `http://motherthyme.com/ <http://motherthyme.com/>`_
 - `https://mybakingaddiction.com/ <https://mybakingaddiction.com>`_
 - `https://mykitchen101.com/ <https://mykitchen101.com>`_
