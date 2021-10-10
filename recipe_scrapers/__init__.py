@@ -77,6 +77,7 @@ from .inspiralized import Inspiralized
 from .jamieoliver import JamieOliver
 from .jimcooksfoodgood import JimCooksFoodGood
 from .joyfoodsunshine import Joyfoodsunshine
+from .justataste import JustATaste
 from .justbento import JustBento
 from .kennymcgovern import KennyMcGovern
 from .kingarthur import KingArthur
@@ -247,6 +248,7 @@ SCRAPERS = {
     JamieOliver.host(): JamieOliver,
     JimCooksFoodGood.host(): JimCooksFoodGood,
     Joyfoodsunshine.host(): Joyfoodsunshine,
+    JustATaste.host(): JustATaste,
     JustBento.host(): JustBento,
     KennyMcGovern.host(): KennyMcGovern,
     KingArthur.host(): KingArthur,
