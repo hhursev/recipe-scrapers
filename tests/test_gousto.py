@@ -10,7 +10,6 @@ class TestGoustoScraper(ScraperTest):
         self.assertEqual("gousto.co.uk", self.harvester_class.host())
 
     def test_canonical_url(self):
-        print(self.harvester_class.canonical_url())
         self.assertEqual(
             "https://test.example.com/", self.harvester_class.canonical_url()
         )
@@ -25,7 +24,6 @@ class TestGoustoScraper(ScraperTest):
         self.assertEqual("2 serving(s)", self.harvester_class.yields())
 
     def test_ingredients(self):
-        print("ingredients list", self.harvester_class.ingredients())
         self.assertCountEqual(
             [
                 "1 onion",
@@ -36,10 +34,7 @@ class TestGoustoScraper(ScraperTest):
                 "2 British pork loin steaks",
                 "1 pot of double cream (227ml)",
                 "1/2 beef stock cube",
-                "200g linguine"
-                # "Olive oil",
-                # "pepper",
-                # "salt",
+                "200g linguine",
             ],
             self.harvester_class.ingredients(),
         )
