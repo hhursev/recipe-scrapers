@@ -1,10 +1,13 @@
 from ._abstract import AbstractScraper
 
 
-class Gousto(AbstractScraper):
+class HeadbangersKitchen(AbstractScraper):
     @classmethod
     def host(cls):
-        return "gousto.co.uk"
+        return "headbangerskitchen.com"
+
+    def author(self):
+        return self.schema.author()
 
     def title(self):
         return self.schema.title()

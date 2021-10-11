@@ -64,6 +64,7 @@ from .gousto import Gousto
 from .greatbritishchefs import GreatBritishChefs
 from .halfbakedharvest import HalfBakedHarvest
 from .hassenchef import Hassanchef
+from .headbangerskitchen import HeadbangersKitchen
 from .heb import HEB
 from .heinzbrasil import HeinzBrasil
 from .hellofresh import HelloFresh
@@ -76,6 +77,7 @@ from .inspiralized import Inspiralized
 from .jamieoliver import JamieOliver
 from .jimcooksfoodgood import JimCooksFoodGood
 from .joyfoodsunshine import Joyfoodsunshine
+from .justataste import JustATaste
 from .justbento import JustBento
 from .kennymcgovern import KennyMcGovern
 from .kingarthur import KingArthur
@@ -231,6 +233,7 @@ SCRAPERS = {
     HEB.host(): HEB,
     HalfBakedHarvest.host(): HalfBakedHarvest,
     Hassanchef.host(): Hassanchef,
+    HeadbangersKitchen.host(): HeadbangersKitchen,
     HeinzBrasil.host(): HeinzBrasil,
     HelloFresh.host(): HelloFresh,
     HelloFresh.host(domain="co.uk"): HelloFresh,
@@ -245,6 +248,7 @@ SCRAPERS = {
     JamieOliver.host(): JamieOliver,
     JimCooksFoodGood.host(): JimCooksFoodGood,
     Joyfoodsunshine.host(): Joyfoodsunshine,
+    JustATaste.host(): JustATaste,
     JustBento.host(): JustBento,
     KennyMcGovern.host(): KennyMcGovern,
     KingArthur.host(): KingArthur,

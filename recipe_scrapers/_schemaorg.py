@@ -24,7 +24,7 @@ class SchemaOrg:
         for syntax in SYNTAXES:
             for item in data.get(syntax, []):
                 in_context = SCHEMA_ORG_HOST in item.get("@context", "")
-                item_type = item.get("@type","")
+                item_type = item.get("@type", "")
                 if isinstance(item_type, list):
                     for type in item_type:
                         if type.lower() in low_schema:
