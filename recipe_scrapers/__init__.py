@@ -41,6 +41,7 @@ from .domesticateme import DomesticateMe
 from .downshiftology import Downshiftology
 from .dr import Dr
 from .eatingbirdfood import EatingBirdFood
+from .eatingwell import EatingWell
 from .eatsmarter import Eatsmarter
 from .eatwhattonight import EatWhatTonight
 from .epicurious import Epicurious
@@ -209,6 +210,7 @@ SCRAPERS = {
     Dr.host(): Dr,
     EatWhatTonight.host(): EatWhatTonight,
     EatingBirdFood.host(): EatingBirdFood,
+    EatingWell.host(): EatingWell,
     Eatsmarter.host(): Eatsmarter,
     Eatsmarter.host(domain="de"): Eatsmarter,
     Epicurious.host(): Epicurious,
