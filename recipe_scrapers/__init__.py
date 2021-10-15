@@ -162,6 +162,7 @@ from .watchwhatueat import WatchWhatUEat
 from .whatsgabycooking import WhatsGabyCooking
 from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
+from .woop import Woop
 from .yemek import Yemek
 from .yummly import Yummly
 from .zeitwochenmarkt import ZeitWochenmarkt
