@@ -20,6 +20,9 @@ class TestSallysBlogScraper(ScraperTest):
             self.harvester_class.title(), "Chili con Carne vom Grill mit Brotsticks und geröstetem Knoblauch"
         )
 
+    def test_total_time(self):
+        self.assertEqual(20, self.harvester_class.total_time())
+
     def test_yields(self):
         self.assertEqual("8 Person", self.harvester_class.yields())
 
