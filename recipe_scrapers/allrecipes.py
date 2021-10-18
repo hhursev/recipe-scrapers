@@ -23,6 +23,12 @@ class AllRecipes(AbstractScraper):
     def title(self):
         return self.schema.title()
 
+    def cook_time(self):
+        return self.schema.cook_time()
+        
+    def prep_time(self):
+        return self.schema.prep_time()
+
     def total_time(self):
         return self.schema.total_time()
 
