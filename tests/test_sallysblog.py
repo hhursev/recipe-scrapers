@@ -17,7 +17,8 @@ class TestSallysBlogScraper(ScraperTest):
 
     def test_title(self):
         self.assertEqual(
-            self.harvester_class.title(), "Chili con Carne vom Grill mit Brotsticks und geröstetem Knoblauch"
+            self.harvester_class.title(),
+            "Chili con Carne vom Grill mit Brotsticks und geröstetem Knoblauch",
         )
 
     def test_total_time(self):
@@ -57,7 +58,7 @@ class TestSallysBlogScraper(ScraperTest):
                 "3 Knollen Knoblauch",
                 "3 Esslöffel Olivenöl",
                 "0,25 TL Salz",
-                "1 Pr. Pfeffer"
+                "1 Pr. Pfeffer",
             ],
             self.harvester_class.ingredients(),
         )
