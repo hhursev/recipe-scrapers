@@ -32,7 +32,7 @@ class EatingWell(AbstractScraper):
         div = self.soup.findAll("div", {"class": "recipe-meta-item"})
         d = {
             normalize_string(key): normalize_string(value)
-            for key, value in [i.text.split(":") for i in div]
+            for key, value in (i.text.split(":") for i in div)
             if value is not None
         }
         return get_yields(d.get("Servings"))
