@@ -15,5 +15,5 @@ class TestExceptions(unittest.TestCase):
     def test_NoSchemaFoundInWildMode(self):
         exception = NoSchemaFoundInWildMode("example.com")
 
-        self.assertEquals(exception.url, "example.com")
-        self.assertEquals(exception.message, "No Recipe Schema found at example.com.")
+        self.assertEqual(exception.url, "example.com")
+        self.assertEqual(exception.message, "No Recipe Schema found at example.com.")
