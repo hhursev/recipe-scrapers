@@ -159,6 +159,7 @@ Scrapers available for:
 - `https://joyfoodsunshine.com/ <https://joyfoodsunshine.com>`_
 - `https://justataste.com/ <https://justataste.com>`_
 - `https://justbento.com/ <https://justbento.com>`_
+- `https://www.justonecookbook.com/ <https://https://www.justonecookbook.com>`_
 - `https://kennymcgovern.com/ <https://kennymcgovern.com>`_
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
 - `https://kochbar.de/ <https://kochbar.de>`_
