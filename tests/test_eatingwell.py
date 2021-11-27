@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.eatingwell import EatingWell
+from tests import ScraperTest
 
 
 class TestEatingWell(ScraperTest):
@@ -11,8 +10,7 @@ class TestEatingWell(ScraperTest):
 
     def test_title(self):
         self.assertEqual(
-            self.harvester_class.title(),
-            "Cheesy Ground Beef & Cauliflower Casserole",
+            self.harvester_class.title(), "Cheesy Ground Beef & Cauliflower Casserole"
         )
 
     def test_yields(self):
@@ -46,7 +44,6 @@ class TestEatingWell(ScraperTest):
         )
 
     def test_instructions(self):
-        print(self.harvester_class.instructions())
         return self.assertEqual(
             """Position rack in upper third of oven. Preheat broiler to high.
 Heat oil in a large oven-safe skillet over medium heat. Add onion and bell pepper; cook, stirring, until softened, about 5 minutes. Add beef and cauliflower; cook, stirring and breaking the beef up into smaller pieces, until it is no longer pink, 5 to 7 minutes. Stir in garlic, chili powder, cumin, oregano, salt and chipotle; cook until fragrant, about 1 minute. Add tomatoes and their juices; bring to a simmer and cook, stirring occasionally, until liquid is reduced and the cauliflower is tender, about 3 minutes more. Remove from heat.
@@ -55,8 +52,4 @@ Sprinkle cheese over the beef mixture and top with sliced jalapeños. Broil unti
         )
 
     def test_total_time(self):
-        print(self.harvester_class.instructions())
-        return self.assertEqual(
-            30,
-            self.harvester_class.total_time(),
-        )
+        return self.assertEqual(30, self.harvester_class.total_time())

@@ -3,7 +3,7 @@ import re
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, normalize_string
 
-INSTRUCTIONS_NUMBERING_REGEX = re.compile(r"^\d{1,2}\.\s*")
+INSTRUCTIONS_NUMBERING_REGEX = re.compile(r"^\d{1,2}\.\s*")  # noqa
 
 
 class Panelinha(AbstractScraper):
@@ -30,6 +30,7 @@ class Panelinha(AbstractScraper):
         instructions = self.soup.find(
             "h4", string="Modo de preparo"
         ).nextSibling.findAll("li")
+
         instructions = [
             normalize_string(instruction.get_text()) for instruction in instructions
         ]
@@ -39,9 +40,11 @@ class Panelinha(AbstractScraper):
             instructions = self.soup.find(
                 "h4", string="Modo de preparo"
             ).nextSibling.p.strings
+
             instructions = (
-                normalize_string(instruction.get_text()) for instruction in instructions
+                normalize_string(instruction) for instruction in instructions
             )
+
             instructions = map(
                 lambda step: INSTRUCTIONS_NUMBERING_REGEX.sub("", step), instructions
             )
