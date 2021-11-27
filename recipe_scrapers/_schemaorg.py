@@ -57,10 +57,10 @@ class SchemaOrg:
         return normalize_string(self.data.get("name"))
 
     def category(self):
-        cuisine = self.data.get("recipeCategory")
-        if isinstance(cuisine, list):
-            return ",".join(cuisine)
-        return cuisine
+        category = self.data.get("recipeCategory")
+        if isinstance(category, list):
+            return ",".join(category)
+        return category
 
     def author(self):
         author = self.data.get("author")
