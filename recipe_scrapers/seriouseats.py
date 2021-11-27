@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
+from ._utils import get_yields
 
 
 class SeriousEats(AbstractScraper):
@@ -8,18 +8,13 @@ class SeriousEats(AbstractScraper):
         return "seriouseats.com"
 
     def author(self):
-        author = self.soup.find("meta", {"name": "sailthru.author"})
-        return author["content"] if author else None
+        return self.schema.author()
 
     def title(self):
-        return self.soup.find("h1").get_text()
+        return self.schema.title()
 
     def total_time(self):
-        return get_minutes(
-            self.soup.find("div", {"class": "total-time"}).find(
-                "span", {"class": "meta-text__data"}
-            )
-        )
+        return self.schema.total_time()
 
     def yields(self):
         return get_yields(
@@ -29,21 +24,10 @@ class SeriousEats(AbstractScraper):
         )
 
     def ingredients(self):
-        ingredients = self.soup.findAll(
-            "li", {"class": ["ingredient", "structured-ingredients__list-item"]}
-        )
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        return self.schema.ingredients()
 
     def instructions(self):
-        instructions = self.soup.findAll("li", {"class": "mntl-sc-block-group--LI"})
-
-        return "\n".join(
-            [normalize_string(instruction.get_text()) for instruction in instructions]
-        )
+        return self.schema.instructions()
 
     def ratings(self):
-        rating = self.soup.find("meta", {"property": "og:rating"})
-        rating = (
-            round(float(rating["content"]), 2) if rating and rating["content"] else -1.0
-        )
-        return rating
+        return self.schema.ratings()
