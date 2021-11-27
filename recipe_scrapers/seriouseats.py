@@ -29,7 +29,9 @@ class SeriousEats(AbstractScraper):
         )
 
     def ingredients(self):
-        ingredients = self.soup.findAll("li", {"class": "ingredient"})
+        ingredients = self.soup.findAll(
+            "li", {"class": ["ingredient", "structured-ingredients__list-item"]}
+        )
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
