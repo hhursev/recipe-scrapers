@@ -1,6 +1,5 @@
 import json
-
-import regex as re
+import re
 
 from ._abstract import AbstractScraper
 
