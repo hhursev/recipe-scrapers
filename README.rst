@@ -249,6 +249,7 @@ Scrapers available for:
 - `https://www.wholefoodsmarket.com/ <https://www.wholefoodsmarket.com/>`_
 - `https://www.wholefoodsmarket.co.uk/ <https://www.wholefoodsmarket.co.uk/>`_
 - `https://woop.co.nz/ <https://woop.co.nz/>`_
+- `https://woolworths.com.au/shop/recipes <https://www.woolworths.com.au/shop/recipes/` _
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `https://yemek.com/ <https://yemek.com>`_
 - `https://yummly.com/ <https://yummly.com>`_

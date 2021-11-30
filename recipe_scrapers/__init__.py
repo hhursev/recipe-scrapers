@@ -166,6 +166,7 @@ from .watchwhatueat import WatchWhatUEat
 from .whatsgabycooking import WhatsGabyCooking
 from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
+from .woolworths import Woolworths
 from .woop import Woop
 from .yemek import Yemek
 from .yummly import Yummly
@@ -344,6 +345,7 @@ SCRAPERS = {
     WholeFoods.host(domain="co.uk"): WholeFoods,
     Woop.host: Woop,
     WikiCookbook.host(): WikiCookbook,
+    Woolworths.host(): Woolworths,
     Yemek.host(): Yemek,
     Yummly.host(): Yummly,
     ZeitWochenmarkt.host(): ZeitWochenmarkt,
