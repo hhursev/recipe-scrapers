@@ -44,6 +44,3 @@ class Springlane(AbstractScraper):
 
     def ratings(self):
         return self.schema.ratings()
-
-    def reviews(self):
-        return self.schema.reviews()

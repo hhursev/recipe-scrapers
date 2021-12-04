@@ -78,6 +78,3 @@ class TestSpringlaneScraper(ScraperTest):
 
     def test_ratings(self):
         self.assertEqual(None, self.harvester_class.ratings())
-
-    def test_reviews(self):
-        self.assertEqual(None, self.harvester_class.reviews())
