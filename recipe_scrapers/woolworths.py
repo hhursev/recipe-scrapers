@@ -1,8 +1,4 @@
-import inspect
 import json
-from typing import Optional, Tuple, Union
-
-import requests
 
 from recipe_scrapers.settings import settings
 
@@ -10,54 +6,23 @@ from ._abstract import AbstractScraper
 from ._schemaorg import SchemaOrg
 from ._utils import url_path_to_dict
 
-# some sites close their content for 'bots', so user-agent must be supplied
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"
-}
-
 
 class Woolworths(AbstractScraper):
-    def __init__(
-        self,
-        url,
-        proxies: Optional[str] = None,  # allows us to specify optional proxy server
-        timeout: Optional[
-            Union[float, Tuple, None]
-        ] = None,  # allows us to specify optional timeout for request
-        wild_mode: Optional[bool] = False,
-    ):
-        if settings.TEST_MODE:  # when testing, we load a file
-            page_data = url.read()
-            url = "https://test.example.com/"
-        else:
-            # get the actual URL based on the provided input
+    def __init__(self, url, *args, **kwargs):
+        if not settings.TEST_MODE:
             target = url_path_to_dict(url)["path"].split("/")[-1]
-            url = "https://foodhub.woolworths.com.au/content/woolworths-foodhub/en/{0}.model.json".format(
-                target
-            )
-            page_data = requests.get(
-                url, headers=HEADERS, proxies=proxies, timeout=timeout
-            ).content
+            url = f"https://foodhub.woolworths.com.au/content/woolworths-foodhub/en/{target}.model.json"
 
-        self.url = url
-        page_data = (
-            json.loads(page_data)
+        super().__init__(url=url, *args, **kwargs)
+
+        self.page_data = (
+            json.loads(self.page_data)
             .get(":items")
             .get("root")
             .get(":items")
             .get("recipe_seo_data")
         )
-        self.schema = SchemaOrg(page_data, raw=True)
-
-        # attach the plugins as instructed in settings.PLUGINS
-        if not hasattr(self.__class__, "plugins_initialized"):
-            for name, func in inspect.getmembers(self, inspect.ismethod):
-                current_method = getattr(self.__class__, name)
-                for plugin in reversed(settings.PLUGINS):
-                    if plugin.should_run(self.host(), name):
-                        current_method = plugin.run(current_method)
-                setattr(self.__class__, name, current_method)
-            setattr(self.__class__, "plugins_initialized", True)
+        self.schema = SchemaOrg(self.page_data, raw=True)
 
     @classmethod
     def host(cls):
@@ -105,14 +70,8 @@ class Woolworths(AbstractScraper):
     def author(self):
         return self.schema.author()
 
-    def reviews(self):
-        return self.schema.reviews()
-
-    def links(self):
-        return []
+    def cuisine(self):
+        return self.schema.cuisine()
 
     def site_name(self):
         return "Woolworths | Fresh Ideas For You"
-
-    def cuisine(self):
-        return self.schema.cuisine()

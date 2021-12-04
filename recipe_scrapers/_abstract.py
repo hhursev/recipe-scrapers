@@ -27,17 +27,17 @@ class AbstractScraper:
         wild_mode: Optional[bool] = False,
     ):
         if settings.TEST_MODE:  # when testing, we load a file
-            page_data = url.read()
+            self.page_data = url.read()
             url = "https://test.example.com/"
         else:
-            page_data = requests.get(
+            self.page_data = requests.get(
                 url, headers=HEADERS, proxies=proxies, timeout=timeout
             ).content
 
         self.wild_mode = wild_mode
-        self.soup = BeautifulSoup(page_data, "html.parser")
+        self.soup = BeautifulSoup(self.page_data, "html.parser")
         self.url = url
-        self.schema = SchemaOrg(page_data)
+        self.schema = SchemaOrg(self.page_data)
 
         # attach the plugins as instructed in settings.PLUGINS
         if not hasattr(self.__class__, "plugins_initialized"):
