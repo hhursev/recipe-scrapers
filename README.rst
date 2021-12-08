@@ -253,6 +253,7 @@ Scrapers available for:
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `https://yemek.com/ <https://yemek.com>`_
 - `https://yummly.com/ <https://yummly.com>`_
+- `https://zenbelly.com/ <https://zenbelly.com>`_
 
 
 Contribute

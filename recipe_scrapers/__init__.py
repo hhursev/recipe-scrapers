@@ -171,6 +171,7 @@ from .woop import Woop
 from .yemek import Yemek
 from .yummly import Yummly
 from .zeitwochenmarkt import ZeitWochenmarkt
+from .zenbelly import ZenBelly
 
 SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
@@ -349,6 +350,7 @@ SCRAPERS = {
     Yemek.host(): Yemek,
     Yummly.host(): Yummly,
     ZeitWochenmarkt.host(): ZeitWochenmarkt,
+    ZenBelly.host(): ZenBelly,
 }
 
 
