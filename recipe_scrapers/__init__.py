@@ -344,7 +344,7 @@ SCRAPERS = {
     WhatsGabyCooking.host(): WhatsGabyCooking,
     WholeFoods.host(): WholeFoods,
     WholeFoods.host(domain="co.uk"): WholeFoods,
-    Woop.host: Woop,
+    Woop.host(): Woop,
     WikiCookbook.host(): WikiCookbook,
     Woolworths.host(): Woolworths,
     Yemek.host(): Yemek,
