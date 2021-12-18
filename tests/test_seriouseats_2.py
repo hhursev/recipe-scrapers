@@ -28,9 +28,6 @@ class TestSeriousEats(ScraperTest):
         )
 
     def test_total_time(self):
-        self.skipTest(
-            reason="minValue and maxValue within totalTime schema.org element are not yet handled"
-        )
         self.assertEqual(15, self.harvester_class.total_time())
 
     def test_yields(self):
