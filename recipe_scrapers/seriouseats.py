@@ -17,8 +17,10 @@ class SeriousEats(AbstractScraper):
         return self.schema.total_time()
 
     def yields(self):
+        recipe_servings = self.soup.find("div", {"class": "recipe-serving"})
+        recipe_yield = self.soup.find("div", {"class": "recipe-yield"})
         return get_yields(
-            self.soup.find("div", {"class": "recipe-yield"}).find(
+            (recipe_servings or recipe_yield).find(
                 "span", {"class": "meta-text__data"}
             )
         )
