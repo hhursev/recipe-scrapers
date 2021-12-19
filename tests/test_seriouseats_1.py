@@ -6,6 +6,10 @@ class TestSeriousEats(ScraperTest):
 
     scraper_class = SeriousEats
 
+    @property
+    def test_file_name(self):
+        return "{}_1".format(self.scraper_class.__name__.lower())
+
     def test_host(self):
         self.assertEqual("seriouseats.com", self.harvester_class.host())
 
@@ -27,7 +31,7 @@ class TestSeriousEats(ScraperTest):
         self.assertEqual(150, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("2 serving(s)", self.harvester_class.yields())
+        self.assertEqual("20 serving(s)", self.harvester_class.yields())
 
     def test_image(self):
         # image has hash keys in it so the full url isn't consistent
