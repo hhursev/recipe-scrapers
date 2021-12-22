@@ -204,6 +204,7 @@ Scrapers available for:
 - `https://purplecarrot.com/ <https://purplecarrot.com>`_
 - `https://rachlmansfield.com/ <https://rachlmansfield.com>`_
 - `https://rainbowplantlife.com/ <https://rainbowplantlife.com/>`_
+- `https://realfood.tesco.com/ <https://realfood.tesco.com>`_
 - `https://realsimple.com/ <https://www.realsimple.com>`_
 - `https://recipietineats.com/ <https://www.recipetineats.com/>`_
 - `https://redhousespice.com/ <https://redhousespice.com/>`_

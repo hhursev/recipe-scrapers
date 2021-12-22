@@ -121,6 +121,7 @@ from .purelypope import PurelyPope
 from .purplecarrot import PurpleCarrot
 from .rachlmansfield import RachlMansfield
 from .rainbowplantlife import RainbowPlantLife
+from .realfoodtesco import RealFoodTesco
 from .realsimple import RealSimple
 from .recipietineats import RecipieTinEats
 from .redhousespice import RedHouseSpice
@@ -299,7 +300,9 @@ SCRAPERS = {
     PurpleCarrot.host(): PurpleCarrot,
     RachlMansfield.host(): RachlMansfield,
     RainbowPlantLife.host(): RainbowPlantLife,
+    RealFoodTesco.host(): RealFoodTesco,
     RealSimple.host(): RealSimple,
+    RealFoodTesco.host(): RealFoodTesco,
     RecipieTinEats.host(): RecipieTinEats,
     RedHouseSpice.host(): RedHouseSpice,
     Reishunger.host(): Reishunger,
