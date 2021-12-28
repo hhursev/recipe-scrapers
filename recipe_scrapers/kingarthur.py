@@ -1,4 +1,7 @@
+from bs4 import BeautifulSoup
+
 from ._abstract import AbstractScraper
+from ._utils import normalize_string
 
 
 class KingArthur(AbstractScraper):
@@ -22,7 +25,10 @@ class KingArthur(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        return self.schema.instructions()
+        schema_instructions = self.schema.instructions()
+        soup = BeautifulSoup(schema_instructions, "html.parser")
+        instruction_elms = soup.findAll("p")
+        return "\n".join([normalize_string(elm.get_text()) for elm in instruction_elms])
 
     def ratings(self):
         return self.schema.ratings()
