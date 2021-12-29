@@ -27,32 +27,33 @@ class BettyCrocker(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        ingredients = self.soup.find(
-            "div", {"class": "recipePartIngredientGroup"}
-        ).ul.findAll("li")
+        ingredients = self.soup.find("div", {"class": "recipeIngredients"}).ul.findAll(
+            "li"
+        )
 
         return [
             normalize_string(
-                ingredient.find("div", {"class": "quantity"}).text
+                ingredient.find("span", {"class": "quantity"}).text
                 + " "
-                + ingredient.find("div", {"class": "description"}).span.text
+                + ingredient.find("span", {"class": "description"}).text
             )
             for ingredient in ingredients
         ]
 
     def instructions(self):
-        instructions = self.soup.findAll("li", {"class": "recipePartStep"})
+        instructions = self.soup.find("div", {"class": "recipeSteps"}).ul.findAll("li")
+
         return "\n".join(
             [
                 normalize_string(
-                    instruction.find(
-                        "div", {"class": "recipePartStepDescription"}
-                    ).get_text()
+                    instruction.find("div", {"class": "stepDescription"}).get_text()
                 )
                 for instruction in instructions
             ]
         )
 
     def ratings(self):
-        rating = self.soup.find("meta", {"itemprop": "ratingValue"})["content"]
+        rating = self.soup.find("div", {"class": "ratingCountContainer"}).find(
+            "span", {"class": "stars"}
+        )["aria-label"]
         return round(float(rating), 2)
