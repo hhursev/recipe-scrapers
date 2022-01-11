@@ -5,15 +5,15 @@
     :target: https://pepy.tech/project/recipe-scrapers
     :alt: Downloads
 .. image:: https://img.shields.io/github/license/hhursev/recipe-scrapers?
-    :target: https://github.com/hhursev/recipe-scrapers/blob/master/LICENSE
+    :target: https://github.com/hhursev/recipe-scrapers/blob/main/LICENSE
     :alt: License
-.. image:: https://github.com/hhursev/recipe-scrapers/workflows/unittests/badge.svg?branch=master
+.. image:: https://github.com/hhursev/recipe-scrapers/workflows/unittests/badge.svg?branch=main
     :target: https://github.com/hhursev/recipe-scrapers/actions/
     :alt: GitHub Actions Unittests
-.. image:: https://coveralls.io/repos/hhursev/recipe-scraper/badge.svg?branch=master&service=github
-    :target: https://coveralls.io/github/hhursev/recipe-scraper?branch=master
+.. image:: https://coveralls.io/repos/hhursev/recipe-scraper/badge.svg?branch=main&service=github
+    :target: https://coveralls.io/github/hhursev/recipe-scraper?branch=main
     :alt: Coveralls
-.. image:: https://github.com/hhursev/recipe-scrapers/workflows/linters/badge.svg?branch=master
+.. image:: https://github.com/hhursev/recipe-scrapers/workflows/linters/badge.svg?branch=main
     :target: https://github.com/hhursev/recipe-scrapers/actions/
     :alt: GitHub Actions Linters
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
