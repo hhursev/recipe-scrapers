@@ -6,7 +6,6 @@
 
 
 from ._abstract import AbstractScraper
-from ._utils import normalize_string
 
 
 class BettyCrocker(AbstractScraper):
@@ -27,32 +26,10 @@ class BettyCrocker(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        ingredients = self.soup.find(
-            "div", {"class": "recipePartIngredientGroup"}
-        ).ul.findAll("li")
-
-        return [
-            normalize_string(
-                ingredient.find("div", {"class": "quantity"}).text
-                + " "
-                + ingredient.find("div", {"class": "description"}).span.text
-            )
-            for ingredient in ingredients
-        ]
+        return self.schema.ingredients()
 
     def instructions(self):
-        instructions = self.soup.findAll("li", {"class": "recipePartStep"})
-        return "\n".join(
-            [
-                normalize_string(
-                    instruction.find(
-                        "div", {"class": "recipePartStepDescription"}
-                    ).get_text()
-                )
-                for instruction in instructions
-            ]
-        )
+        return self.schema.instructions()
 
     def ratings(self):
-        rating = self.soup.find("meta", {"itemprop": "ratingValue"})["content"]
-        return round(float(rating), 2)
+        return self.schema.ratings()
