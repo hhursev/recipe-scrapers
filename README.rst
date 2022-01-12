@@ -168,6 +168,7 @@ Scrapers available for:
 - `https://kochbar.de/ <https://kochbar.de>`_
 - `http://koket.se/ <http://koket.se>`_
 - `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
+- `https://www.kwestiasmaku.com/ <https://www.kwestiasmaku.com/>`_
 - `https://lecremedelacrumb.com/ <https://lecremedelacrumb.com/>`_
 - `https://littlespicejar.com/ <https://littlespicejar.com>`_
 - `http://livelytable.com/ <http://livelytable.com/>`_

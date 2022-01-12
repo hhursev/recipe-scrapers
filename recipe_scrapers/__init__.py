@@ -87,6 +87,7 @@ from .kingarthur import KingArthur
 from .kochbar import Kochbar
 from .koket import Koket
 from .kuchniadomowa import KuchniaDomowa
+from .kwestiasmaku import KwestiaSmaku
 from .lecremedelacrumb import LeCremeDeLaCrumb
 from .littlespicejar import LittleSpiceJar
 from .livelytable import LivelyTable
@@ -267,6 +268,7 @@ SCRAPERS = {
     Kochbar.host(): Kochbar,
     Koket.host(): Koket,
     KuchniaDomowa.host(): KuchniaDomowa,
+    KwestiaSmaku.host(): KwestiaSmaku,
     LeCremeDeLaCrumb.host(): LeCremeDeLaCrumb,
     LittleSpiceJar.host(): LittleSpiceJar,
     LivelyTable.host(): LivelyTable,
