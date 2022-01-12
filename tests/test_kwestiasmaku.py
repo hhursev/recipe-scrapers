@@ -22,7 +22,10 @@ class TestKwestiaSmakuScraper(ScraperTest):
         self.assertEqual("2 serving(s)", self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEqual("https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/pieczony-kalafior-01_0.jpg", self.harvester_class.image())
+        self.assertEqual(
+            "https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/pieczony-kalafior-01_0.jpg",
+            self.harvester_class.image(),
+        )
 
     def test_ingredients(self):
         self.assertEqual(
@@ -34,18 +37,18 @@ class TestKwestiaSmakuScraper(ScraperTest):
                 "1 łyżeczka czarnuszki",
                 "sól morska",
                 "sos czosnkowy lub ser feta",
-                "natka pietruszki"
+                "natka pietruszki",
             ],
-            self.harvester_class.ingredients()
+            self.harvester_class.ingredients(),
         )
 
     def test_instructions(self):
         self.assertEqual(
-            "Odciąć liście z kalafiora, przekroić na pół i wyciąć nadmiar głąba. Główkę kalafiora rozdzielić na różyczki lub pokroić na cząstki.\n" \
-            "Położyć na dużej blaszce (np. z wyposażenia piekarnika) wyłożonej papierem do pieczenia. Piekarnik nagrzać do 200 stopni C.\n" \
-            "Kalafiora polać oliwą, posypać pieprzem, kurkumą i czarnuszką, a następnie dokładnie wymieszać i rozłożyć na całej powierzchni blachy.\n" \
-            "Wstawić do nagrzanego piekarnika i piec przez 30 minut. Po upieczeniu doprawić solą i posiekaną natką pietruszki.", 
-            self.harvester_class.instructions()
+            "Odciąć liście z kalafiora, przekroić na pół i wyciąć nadmiar głąba. Główkę kalafiora rozdzielić na różyczki lub pokroić na cząstki.\n"
+            "Położyć na dużej blaszce (np. z wyposażenia piekarnika) wyłożonej papierem do pieczenia. Piekarnik nagrzać do 200 stopni C.\n"
+            "Kalafiora polać oliwą, posypać pieprzem, kurkumą i czarnuszką, a następnie dokładnie wymieszać i rozłożyć na całej powierzchni blachy.\n"
+            "Wstawić do nagrzanego piekarnika i piec przez 30 minut. Po upieczeniu doprawić solą i posiekaną natką pietruszki.",
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):

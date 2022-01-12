@@ -8,23 +8,35 @@ class KwestiaSmaku(AbstractScraper):
         return "kwestiasmaku.com"
 
     def author(self):
-        return normalize_string(self.soup.find("span", {"itemprop": "author"}).get_text())
+        return normalize_string(
+            self.soup.find("span", {"itemprop": "author"}).get_text()
+        )
 
     def title(self):
         return normalize_string(self.soup.find("div", {"itemprop": "name"}).get_text())
 
     def yields(self):
-        return get_yields(self.soup.find("div", {"class": "field-name-field-ilosc-porcji"}))
+        return get_yields(
+            self.soup.find("div", {"class": "field-name-field-ilosc-porcji"})
+        )
 
     def image(self):
-        return self.soup.find("div", {"class": "view-zdjecia"}).find("li", {"class": "first"}).img["src"]
+        return (
+            self.soup.find("div", {"class": "view-zdjecia"})
+            .find("li", {"class": "first"})
+            .img["src"]
+        )
 
     def ingredients(self):
-        ingredients = self.soup.find("div", {"class": "field-name-field-skladniki"}).find_all("li")
+        ingredients = self.soup.find(
+            "div", {"class": "field-name-field-skladniki"}
+        ).find_all("li")
         return [normalize_string(i.get_text()) for i in ingredients]
 
     def instructions(self):
-        instructions = self.soup.find("div", {"class": "field-name-field-przygotowanie"}).find_all("li")
+        instructions = self.soup.find(
+            "div", {"class": "field-name-field-przygotowanie"}
+        ).find_all("li")
         return "\n".join([normalize_string(i.get_text()) for i in instructions])
 
     def ratings(self):
