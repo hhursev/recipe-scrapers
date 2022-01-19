@@ -46,6 +46,9 @@ class OpenGraphImageFetchPlugin(PluginInterface):
                 image = self.soup.find(
                     "meta", {"property": "og:image", "content": True}
                 )
-                return image.get("content")
+                if image is not None:
+                    return image.get("content")
+                else:
+                    return None
 
         return decorated_method_wrapper
