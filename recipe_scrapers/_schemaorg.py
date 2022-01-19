@@ -14,7 +14,11 @@ SYNTAXES = ["json-ld", "microdata"]
 
 
 class SchemaOrg:
-    def __init__(self, page_data):
+    def __init__(self, page_data, raw=False):
+        if raw:
+            self.format = "raw"
+            self.data = page_data
+            return
         self.format = None
         self.data = {}
 
@@ -24,10 +28,15 @@ class SchemaOrg:
         for syntax in SYNTAXES:
             for item in data.get(syntax, []):
                 in_context = SCHEMA_ORG_HOST in item.get("@context", "")
-                if in_context and item.get("@type", "").lower() in low_schema:
+                item_type = item.get("@type", "")
+                if isinstance(item_type, list):
+                    for type in item_type:
+                        if type.lower() in low_schema:
+                            item_type = type.lower()
+                if in_context and item_type.lower() in low_schema:
                     self.format = syntax
                     self.data = item
-                    if item.get("@type").lower() == "webpage":
+                    if item_type.lower() == "webpage":
                         self.data = self.data.get("mainEntity")
                     return
                 elif in_context and "@graph" in item:
@@ -55,10 +64,10 @@ class SchemaOrg:
         return normalize_string(name)
 
     def category(self):
-        cuisine = self.data.get("recipeCategory")
-        if isinstance(cuisine, list):
-            return ",".join(cuisine)
-        return cuisine
+        category = self.data.get("recipeCategory")
+        if isinstance(category, list):
+            return ",".join(category)
+        return category
 
     def author(self):
         author = self.data.get("author")
@@ -78,7 +87,14 @@ class SchemaOrg:
             raise SchemaOrgException("Cooking time information not found in SchemaOrg")
 
         def get_key_and_minutes(k):
-            return get_minutes(self.data.get(k), return_zero_on_not_found=True)
+            source = self.data.get(k)
+            # Workaround: strictly speaking schema.org does not provide for minValue (and maxValue) properties on objects of type Duration; they are however present on objects with type QuantitativeValue
+            # Refs:
+            #  - https://schema.org/Duration
+            #  - https://schema.org/QuantitativeValue
+            if type(source) == dict and "minValue" in source:
+                source = source["minValue"]
+            return get_minutes(source, return_zero_on_not_found=True)
 
         total_time = get_key_and_minutes("totalTime")
         if not total_time:

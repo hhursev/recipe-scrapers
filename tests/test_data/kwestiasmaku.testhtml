@@ -1,0 +1,1185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "https://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="pl" dir="ltr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product# content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam-cell.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"208bcba312",applicationID:"506413377"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(10),c=t(11),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(12);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],7:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(9),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],8:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],9:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],10:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],11:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],12:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(10),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!P++){var t=M.info=NREUM.info,e=g.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(O,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+M.offset],null,"api"),c("timing",["load",n]);var r=g.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=v+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===g.readyState&&o()}function o(){c("mark",["domContent",a()+M.offset],null,"api")}var a=t(5),c=t("handle"),f=t(10),u=t("ee"),s=t(8),d=t(6),p=t(2),l=t(3),v=p.getConfiguration("ssl")===!1?"http":"https",m=window,g=m.document,y="addEventListener",h="attachEvent",w=m.XMLHttpRequest,b=w&&w.prototype,E=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:w,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,O={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1214.min.js"},T=w&&b&&b[y]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:T,userAgent:s,disabled:E};if(!E){t(1),t(7),g[y]?(g[y]("DOMContentLoaded",o,l(!1)),m[y]("load",r,l(!1))):(g[h]("onreadystatechange",i),m[h]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var P=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(11),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://www.kwestiasmaku.com/sites/all/themes/custom/kwestiasmaku/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="Pieczony kalafior - to pyszna i zdrowa przekąska lub dodatek do obiadu. Różyczki kalafiora pieczone w piekarniku aż będą zrumienione i chrupiące. Kalafior doprawiony jest kurkumą, oliwą i czarnuszką." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.kwestiasmaku.com/przepis/pieczony-kalafior" />
+<link rel="shortlink" href="https://www.kwestiasmaku.com/node/191178" />
+<meta property="og:site_name" content="Kwestia Smaku" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.kwestiasmaku.com/przepis/pieczony-kalafior" />
+<meta property="og:title" content="Pieczony kalafior" />
+<meta property="og:updated_time" content="2022-01-12T16:38:40+01:00" />
+<meta property="og:image" content="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/pieczony-kalafior-00_1.jpg" />
+<meta property="article:published_time" content="2022-01-10T17:13:44+01:00" />
+<meta property="article:modified_time" content="2022-01-12T16:38:40+01:00" />
+  <title>Pieczony kalafior | Kwestia Smaku</title>
+  <link type="text/css" rel="stylesheet" href="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/css/css_RBXAX6Jc2_9IkmJkbhi8yHUwSNNl0hbQXdUCjTYq2r0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/css/css_y7FWIH_3-zP14zOD-NZbPiVlbYlPiLRIAgyafK4zNqE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/css/css_L2WwUt1KDsmMYM_cOrTr08tS7XYyL-b5mMJbdF_OKNs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.0.2/css/bootstrap.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/css/css_QgjuN2F_CicvxOwNt2FkxFXihf4h5fDnhph5hAFWNck.css" media="all" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic&subset=latin-ext' rel='stylesheet' type='text/css'>
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/js/js_wKyFX46tVKJtPKN12qNjRfS4aubW4G2u7LK22vlDiKo.js"></script>
+<script src="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/js/js_WjYIwDcd8S9y_HYALPzWGqd0YBbJofPcIXfAfrycA5g.js"></script>
+<script src="//cdn.jsdelivr.net/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+<script src="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/js/js_N3noI4QT39uRaBDppVYaxFyc3qNv0j9A8ZPDzgcy_h0.js"></script>
+<script src="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/js/js_Hr8nESKS9WNVE16PXt8bB2Xzy2uHtED9rvkvsVMZMQM.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-2538986-1", {"cookieDomain":"auto"});ga("send", "pageview");</script>
+<script src="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/js/js_QwNN-JdAEdJ7FW58qqObESLBwrQxseWoGc6C_gzQKYg.js"></script>
+<script src="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/js/js_7ZqCMhvhmHYhJMKpZsqw9UwXgOOKOLRfzW64PHgpZ3g.js"></script>
+<script src="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/js/js_j2JbIq1-YgSokm28rCE_yoLC9cFO2L86MT2R1A2oQ-w.js"></script>
+<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+<script src="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/js/js_CpHi6DOpgxXrYPHbNJuaqsa2Skb1wnw5tIqyCv0RLLk.js"></script>
+<script src="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/js/js_RTuBpQq0tjz3T7c0A0JzjOJXTQv6oT57aBmXihz8LFs.js"></script>
+<script src="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/js/js_oYVKp-cluFZQnjxYMtXDmhZY3bwT8PYHYk6oiRMAQDw.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"kwestiasmaku","theme_token":"_ZOZ0afMFdJI4fQ3MOQbRsBAHB9T1BVSd2fagCo_Xfs","jquery_version":"1.8","js":{"sites\/all\/modules\/custom\/cookiec\/js\/cookiec.js":1,"sites\/all\/modules\/custom\/ks_layout\/js\/nosleep-recipt.js":1,"sites\/all\/libraries\/fastclick\/fastclick.js":1,"0":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/nosleep.js\/dist\/NoSleep.min.js":1,"sites\/all\/libraries\/mobile-detect.js\/mobile-detect.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.0.2\/js\/bootstrap.min.js":1,"sites\/all\/modules\/custom\/ks_fivestar\/js\/ks_fivestar_mods.js":1,"sites\/all\/modules\/custom\/ks_layout\/js\/jquery.sticky.js":1,"public:\/\/languages\/pl_e1qqs8kzMMbcRYZHuXtwyAuYGzssr9RXkGkK7HFKFlA.js":1,"sites\/all\/modules\/geo_filter\/geo_filter.js":1,"sites\/all\/modules\/custom\/ks_note\/js\/ks_note.js":1,"sites\/all\/modules\/flag\/theme\/flag.js":1,"misc\/autocomplete.js":1,"sites\/all\/modules\/search_api_autocomplete\/search_api_autocomplete.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_progress.js":1,"sites\/all\/libraries\/chosen\/chosen.jquery.min.js":1,"sites\/all\/modules\/custom\/ks_layout\/js\/calculator.js":1,"sites\/all\/modules\/custom\/ks_layout\/js\/jquery.matchHeight-min.js":1,"sites\/all\/modules\/field_group\/field_group.js":1,"sites\/all\/modules\/fivestar\/js\/fivestar.js":1,"https:\/\/cdn.lightwidget.com\/widgets\/lightwidget.js":1,"sites\/all\/modules\/chosen\/chosen.js":1,"sites\/all\/themes\/custom\/kwestiasmaku\/js\/adv.js":1,"sites\/all\/themes\/custom\/kwestiasmaku\/js\/ks.js":1,"sites\/all\/themes\/custom\/kwestiasmaku\/js\/menu.js":1,"sites\/all\/themes\/custom\/kwestiasmaku\/js\/scrollbar.js":1,"sites\/all\/themes\/custom\/kwestiasmaku\/js\/scrolling.js":1,"sites\/all\/themes\/custom\/kwestiasmaku\/js\/responsive\/breakpoints.js":1,"sites\/all\/themes\/custom\/kwestiasmaku\/js\/misc\/autocomplete.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/ajax.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/libraries\/chosen\/chosen.css":1,"sites\/all\/modules\/chosen\/css\/chosen-drupal.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/custom\/cookiec\/css\/cookiec.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/flag\/theme\/flag.css":1,"sites\/all\/modules\/search_api_autocomplete\/search_api_autocomplete.css":1,"public:\/\/icon\/icomoon\/hearts_colection\/style.css":1,"sites\/all\/modules\/fivestar\/css\/fivestar.css":1,"sites\/all\/modules\/fivestar\/widgets\/kwestiasmaku_2\/kwestiasmaku_2.css":1,"public:\/\/icon\/icomoon\/ks\/style.css":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.0.2\/css\/bootstrap.min.css":1,"sites\/all\/themes\/bootstrap\/css\/3.0.2\/overrides.min.css":1,"sites\/all\/themes\/custom\/kwestiasmaku\/css\/style.css":1,"sites\/all\/themes\/custom\/kwestiasmaku\/css\/menu.css":1}},"cookiec":{"popup_enabled":true,"popup_agreed_enabled":false,"popup_hide_agreed":true,"popup_html_info":"\n\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      Ta strona wykorzystuje pliki cookie aby personalizowa\u0107 tre\u015b\u0107, reklamy i analizowa\u0107 ruch w witrynie. Pozostaj\u0105c na tej stronie, zgadzasz si\u0119 na korzystanie z plik\u00f3w cookie. \u003Ca href=\u0022\/cookies\u0022\u003EDowiedz si\u0119 wi\u0119cej\u003C\/a\u003E    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button\u0022\u003EX\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","popup_html_agreed":"\n\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content agreed\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      Zgadzam si\u0119    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022hide-popup-button\u0022\u003EHide this message \u003C\/button\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button\u0022 \u003EMore information on cookies\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","popup_width":"100%","popup_delay":0,"popup_link":"\/cookies","popup_position":"top","popup_language":"pl"},"flag":{"anonymous":true,"templates":{"zapamietane_przepisy_191178":"\u003Cspan class=\u0022flag-wrapper flag-zapamietane-przepisy flag-zapamietane-przepisy-191178 flag-wrapper-unflag\u0022\u003E\n      \u003Cspan class=\u0022flag unflag-disabled\u0022\u003EZaloguj si\u0119 aby zapami\u0119tywa\u0107 przepisy\u003C\/span\u003E\n    \u003C\/span\u003E\n"}},"facetapi":{"view_args":{"zdjecia:entity_view_1":["191178","191178"],"zdjecia_uzytkonikow:block_1":["191178"]},"exposed_input":{"zdjecia:entity_view_1":[],"zdjecia_uzytkonikow:block_1":[]},"view_path":{"zdjecia:entity_view_1":"node\/191178","zdjecia_uzytkonikow:block_1":null},"view_dom_id":{"zdjecia:entity_view_1":"4867409fcf77dc00a459a7f623e0c76d","zdjecia_uzytkonikow:block_1":"6827eac4c038053d24a7d95308598909"}},"search_api_autocomplete":{"selector":":submit"},"urlIsAjaxTrusted":{"\/szukaj":true},"better_exposed_filters":{"views":{"zdjecia_uzytkonikow":{"displays":{"block_1":{"filters":[]}}}}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"chosen":{"selector":"select:visible","minimum_single":25,"minimum_multiple":25,"minimum_width":700,"options":{"disable_search":false,"disable_search_threshold":0,"search_contains":false,"placeholder_text_multiple":"Choose some options","placeholder_text_single":"Choose an option","no_results_text":"No results match","inherit_select_classes":true}},"calculator":{"link-show-calculator":{"html":"\u003Cdiv id=\u0022calculator\u0022 style=\u0022display: none;\u0022\u003E\n\n  \u003Cdiv class=\u0022container\u0022\u003E\n    \u003Cdiv class=\u0022col-xs-12 col-sm-12 col-md-11 column calculator-title\u0022\u003E\n      \u003Ch2 class=\u0022title\u0022\u003EPrzelicznik kuchenny\u003C\/h2\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\n  \u003Cdiv class=\u0022container\u0022\u003E\n    \u003Cdiv class=\u0022col-xs-12 col-md-8 column calculator-kitchen-container\u0022\u003E\n      \u003Cdiv class=\u0022calculator-kitchen row\u0022\u003E\n        \u003Cdiv class=\u0022calculator-kitchen-fields col-sm-8 col-xs-12\u0022\u003E\n          \u003Cdiv class=\u0022calculator-kitchen-products row\u0022\u003E\n            \u003Cdiv class=\u0022select-product pull-left\u0022\u003E\u003C\/div\u003E\n            \u003Cdiv class=\u0022popular-products pull-left\u0022\u003Enp.\u003C\/div\u003E\n            \u003Cdiv class=\u0022calculator-kitchen-message pull-left\u0022\u003E\u0026nbsp;\u003C\/div\u003E\n          \u003C\/div\u003E\n          \u003Cdiv class=\u0022calculator-row calculator-row-1 row col-sm-8\u0022\u003E\n            \u003Ch3\u003EObj\u0119to\u015b\u0107\u003C\/h3\u003E\n            \u003Cdiv class=\u0022calculator-row-field col-xs-6\u0022\u003E\n              \u003Cinput type=\u0022number\u0022 min=\u00220\u0022 name=\u0022calculator_kitchen_volume\u0022 id=\u0022calculator_kitchen_volume\u0022 size=\u00224\u0022 value=\u0022\u0022 class=\u0022calculator-row-field-volume\u0022 \/\u003E\n              \u003Clabel class=\u0022caculator-kitchen-field-label\u0022 for=\u0022calculator_kitchen_volume\u0022\u003EMl\u003C\/label\u003E\n            \u003C\/div\u003E\n            \u003Cdiv class=\u0022calculator-row-field col-xs-6\u0022\u003E\n              \u003Cinput type=\u0022number\u0022 min=\u00220\u0022 step=\u0022any\u0022 name=\u0022calculator_kitchen_spoons\u0022 id=\u0022calculator_kitchen_spoons\u0022 size=\u00224\u0022 value=\u0022\u0022 class=\u0022calculator-row-field-volume\u0022 \/\u003E\n              \u003Clabel class=\u0022caculator-kitchen-field-label\u0022 for=\u0022calculator_kitchen_spoons\u0022\u003E\u0141y\u017cek\u003C\/label\u003E\n            \u003C\/div\u003E\n            \u003Cdiv class=\u0022calculator-row-field col-xs-6\u0022\u003E\n              \u003Cinput type=\u0022number\u0022 min=\u00220\u0022 step=\u0022any\u0022 name=\u0022calculator_kitchen_glasses\u0022 id=\u0022calculator_kitchen_glasses\u0022 size=\u00224\u0022 value=\u0022\u0022 class=\u0022calculator-row-field-volume\u0022 \/\u003E\n              \u003Clabel class=\u0022caculator-kitchen-field-label\u0022 for=\u0022calculator_kitchen_glasses\u0022\u003ESzklanek\u003C\/label\u003E\n            \u003C\/div\u003E\n            \u003Cdiv class=\u0022calculator-row-field col-xs-6\u0022\u003E\n              \u003Cinput type=\u0022number\u0022 min=\u00220\u0022 step=\u0022any\u0022 name=\u0022calculator_kitchen_teaspoons\u0022 id=\u0022calculator_kitchen_teaspoons\u0022 size=\u00224\u0022 value=\u0022\u0022 class=\u0022calculator-row-field-volume\u0022 \/\u003E\n              \u003Clabel class=\u0022caculator-kitchen-field-label\u0022 for=\u0022calculator_kitchen_teaspoons\u0022\u003E\u0141y\u017ceczek\u003C\/label\u003E\n            \u003C\/div\u003E\n          \u003C\/div\u003E\n          \u003Cdiv class=\u0022calculator-row calculator-row-2 row col-sm-4\u0022\u003E\n            \u003Ch3\u003EWaga\u003C\/h3\u003E\n            \u003Cdiv class=\u0022calculator-row-field col-xs-12\u0022\u003E\n              \u003Cinput type=\u0022number\u0022 min=\u00220\u0022 name=\u0022calculator_kitchen_weight\u0022 id=\u0022calculator_kitchen_weight\u0022 size=\u00224\u0022 value=\u0022\u0022 class=\u0022calculator-row-field-weight\u0022 \/\u003E\n              \u003Clabel class=\u0022caculator-kitchen-field-label\u0022 for=\u0022calculator_kitchen_weight\u0022\u003EGram\u003C\/label\u003E\n            \u003C\/div\u003E\n          \u003C\/div\u003E\n        \u003C\/div\u003E\n        \u003Cdiv class=\u0022calculator-kitchen-help col-sm-4\u0022\u003E\n          \u003Ch3 class=\u0022help-title\u0022\u003ESprawd\u017a ile wa\u017cy m\u0105ka, cukier, itp.\u003C\/h3\u003E\n          \u003Cp\u003EWybierz produkt i podaj jego obj\u0119to\u015b\u0107 w ml, lub skorzystaj z miar obj\u0119to\u015bci jak szklanka (250 ml), \u0142y\u017cka (15 ml) czy \u0142y\u017ceczka (5 ml).\u003C\/p\u003E\n          \u003Cp\u003EMo\u017cesz te\u017c przelicza\u0107 w drug\u0105 stron\u0119 - poda\u0107 wag\u0119 aby pozna\u0107 obj\u0119to\u015b\u0107 produktu.\u003C\/p\u003E\n        \u003C\/div\u003E\n      \u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\n  \u003Cdiv class=\u0022container\u0022\u003E\n    \u003Cdiv class=\u0022col-xs-12 col-sm-12 col-md-11 column\u0022\u003E\n      \u003Ch2 class=\u0022title\u0022\u003EPrzelicznik foremek\u003C\/h2\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\n  \u003Cdiv class=\u0022container\u0022\u003E\n    \u003Cdiv class=\u0022col-xs-12 col-sm-6 col-md-4 column column-1 provision\u0022\u003E\n      \u003Cdiv class=\u0022item-1 clearfix\u0022\u003E\n        \u003Cspan class=\u0022title\u0022\u003EW przepisie jest:\u003C\/span\u003E\n        \u003Cspan class=\u0022content\u0022\u003E\n          \u003Cinput type=\u0022radio\u0022 name=\u0022field-is\u0022 id=\u0022field-is-cake-tin\u0022 value=\u0022cake_tin\u0022 checked=\u0022checked\u0022 \/\u003E \u003Clabel for=\u0022field-is-cake-tin\u0022\u003EForemka\u003C\/label\u003E\n          \u003Cinput type=\u0022radio\u0022 name=\u0022field-is\u0022 id=\u0022field-is-cake-stand\u0022 value=\u0022cake_stand\u0022 \/\u003E \u003Clabel for=\u0022field-is-cake-stand\u0022\u003ETortownica\u003C\/label\u003E\n        \u003C\/span\u003E\n      \u003C\/div\u003E\n      \u003Cdiv class=\u0022item-2 clearfix\u0022\u003E\n        \u003Cspan class=\u0022title\u0022\u003EO wymiarach:\u003C\/span\u003E\n        \u003Cspan class=\u0022content\u0022\u003E\n          \u003Cinput type=\u0022number\u0022 min=\u00220\u0022 name=\u0022size\u0022 id=\u0022size\u0022 size=\u00224\u0022 value=\u0022\u0022 \/\u003E\n          \u003Cspan class=\u0022size_cake_tin\u0022\u003E x \u003Cinput type=\u0022number\u0022 min=\u00220\u0022 name=\u0022size-y\u0022 id=\u0022size_y\u0022 size=\u00224\u0022 value=\u0022\u0022 \/\u003E\u003C\/span\u003E cm\n        \u003C\/span\u003E\n      \u003C\/div\u003E\n    \u003C\/div\u003E\n\n    \u003Cdiv class=\u0022col-xs-12 col-sm-6 col-md-4 column column-2 home-has\u0022\u003E\n      \u003Cdiv class=\u0022item-1 clearfix\u0022\u003E\n        \u003Cspan class=\u0022title\u0022\u003EW domu mam:\u003C\/span\u003E\n        \u003Cspan class=\u0022content\u0022\u003E\n          \u003Cinput type=\u0022radio\u0022 name=\u0022field-home-is\u0022 id=\u0022field-home-is-cake-tin\u0022 value=\u0022cake_tin\u0022 checked=\u0022checked\u0022 \/\u003E \u003Clabel for=\u0022field-home-is-cake-tin\u0022\u003EForemka\u003C\/label\u003E\n          \u003Cinput type=\u0022radio\u0022 name=\u0022field-home-is\u0022 id=\u0022field-home-is-cake-stand\u0022 value=\u0022cake_stand\u0022 \/\u003E \u003Clabel for=\u0022field-home-is-cake-stand\u0022\u003ETortownica\u003C\/label\u003E\n        \u003C\/span\u003E\n      \u003C\/div\u003E\n      \u003Cdiv class=\u0022item-2 clearfix\u0022\u003E\n        \u003Cspan class=\u0022title\u0022\u003EO wymiarach:\u003C\/span\u003E\n        \u003Cspan class=\u0022content\u0022\u003E\n          \u003Cinput type=\u0022number\u0022 min=\u00220\u0022 name=\u0022home-size\u0022 id=\u0022home_size\u0022 size=\u00224\u0022 value=\u0022\u0022 \/\u003E\n          \u003Cspan class=\u0022size_cake_tin\u0022\u003E x \u003Cinput type=\u0022number\u0022 min=\u00220\u0022 name=\u0022home-size-y\u0022 id=\u0022home_size_y\u0022 size=\u00224\u0022 value=\u0022\u0022 \/\u003E\u003C\/span\u003E cm\n        \u003C\/span\u003E\n      \u003C\/div\u003E\n    \u003C\/div\u003E\n\n    \u003Cdiv class=\u0022col-xs-12 col-sm-12 col-md-3 column column-3 button-results\u0022\u003E\n      \u003Cdiv id=\u0022results\u0022\u003E\n        \u003Cinput type=\u0022button\u0022 id=\u0022calculation\u0022 value=\u0022Przelicz\u0022 \/\u003E\n      \u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\n  \u003Cdiv class=\u0022container\u0022\u003E\n    \u003Cdiv class=\u0022col-xs-12 col-sm-12 col-md-11 column column-4 results\u0022\u003E\n      \u003Cdiv id=\u0022result-value\u0022\u003E\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\n  \u003Cdiv class=\u0022container\u0022\u003E\n    \u003Cdiv class=\u0022col-xs-12 col-sm-12 col-md-11 column column-5 calculations\u0022\u003E\n      \u003Cdiv id=\u0022calculation-items\u0022\u003E\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\n\u003C\/div\u003E\n","id":"#calculator","prepend_element":".pas_slider_sg","products":{"bread_crumbs":{"density":"0.64","title":"Bu\u0142ka tarta","weight":0},"sugar":{"density":"0.96","title":"Cukier","weight":1,"popular":{"weight":2}},"powdered_sugar":{"density":"0.64","title":"Cukier puder","weight":2,"popular":{"weight":3}},"natural_yogurt":{"density":"1.1","title":"Jogurt naturalny","weight":3},"dulce_de_leche":{"density":"1.2","title":"Kajmak","weight":4},"kakao":{"density":"0.36","title":"Kakao","weight":5},"groats_bulgur":{"density":"0.88","title":"Kasza bulgur","weight":6},"kasha":{"density":"0.86","title":"Kasza gryczana","weight":7},"millet":{"density":"0.92","title":"Kasza jaglana","weight":8},"farina":{"density":"0.8","title":"Kasza manna","weight":9},"pearl_barley":{"density":"0.88","title":"Kasza p\u0119czak","weight":10},"quinoa":{"density":"0.8","title":"Komosa ry\u017cowa","weight":11},"couscous":{"density":"0.76","title":"Kuskus","weight":12},"papaver":{"density":"0.6","title":"Mak","weight":13},"buckwheat_flour":{"density":"0.68","title":"M\u0105ka gryczana","weight":14},"wheat_flour":{"density":"0.64","title":"M\u0105ka pszenna","weight":15,"popular":{"weight":1}},"rice_flour":{"density":"0.72","title":"M\u0105ka ry\u017cowa","weight":16},"chickpea_flour":{"density":"0.48","title":"M\u0105ka z ciecierzycy","weight":17},"potato_starch":{"density":"0.72","title":"M\u0105ka ziemniaczana","weight":18},"buttermilk":{"density":"1.06","title":"Ma\u015blanka","weight":19},"butter":{"density":"0.96","title":"Mas\u0142o","weight":20},"peanut_butter":{"density":"1.08","title":"Mas\u0142o orzechowe","weight":21},"ground_almonds":{"density":"0.40","title":"Mielone migda\u0142y","weight":22},"honey":{"density":"1.40","title":"Mi\u00f3d","weight":23},"milk":{"density":"1.04","title":"Mleko","weight":24},"oil":{"density":"0.92","title":"Olej","weight":25},"almond_flakes":{"density":"0.48","title":"P\u0142atki migda\u0142\u00f3w","weight":26},"rolled_oats":{"density":"0.44","title":"P\u0142atki owsiane","weight":27},"rice":{"density":"0.88","title":"Ry\u017c","weight":28},"cream_18":{"density":"1.04","title":"\u015amietanka 18%","weight":29},"cream_30":{"density":"1.04","title":"\u015amietanka 30%","weight":30},"lens":{"density":"0.86","title":"Soczewica","weight":31},"coconut_shreds":{"density":"0.36","title":"Wi\u00f3rki kokosowe","weight":32},"water":{"density":"1","title":"Woda","weight":33}}}},"field_group":{"html-element":"full","div":"full"},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-191178 node-type-przepis" >
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.7";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Przejdź do treści</a>
+  </div>
+
+    
+<div class="menu-container">
+
+</div>
+<div class="main-cont">
+<div class="page-container">
+    <div class="page-hide-overlay"></div>
+    <div class="pas_banner_top">
+      <div class="container">
+               </div>
+    </div>
+    <div class="pas-menu">
+        <div class="container">
+              <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-collapsemenu"></span>
+                <span class="button-menu">Menu</span>
+              </button>
+            <div class="navbar-collapse collapse">
+                <div class="main-menu" role="navigation">
+                       <div class="region region-pas-menu">
+    <section id="block-ks-menu-ks-menu" class="block block-ks-menu clearfix">
+
+      
+  <ul class="depth_-1 menu"><li class="has-children">
+  <div class="field field-name-field-ikona field-type-icon-field field-label-hidden">
+    <span class="icon icomoon icon-naskroty" aria-hidden="true"></span>  </div>
+<a href="/przepisy/na-skroty">Na skróty</a><ul class="depth_0"><li class=""><a href="/przepisy/hity-kwestii-smaku">Hity Kwestii Smaku</a><ul class="depth_1"></ul>
+</li>
+<li class="has-children"><a href="/przepisy/znane-i-lubiane">Znane i lubiane</a><ul class="depth_1"><li class=""><a href="/przepisy/filety-z-kurczaka">Filety drobiowe</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/tag/poledwiczki-wieprzowe">Polędwiczki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/schab">Schab</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/kotlety">Kotlety</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/dania_dla_dwojga/burgery_domowe/przepisy.html">Burgery</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/pulpeciki">Pulpeciki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/potrawy-tradycyjne">Potrawy tradycyjne</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/popularne-ciasta">Popularne ciasta</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/przepisy/znane-i-lubiane">Więcej...</a></li>
+</ul>
+</li>
+<li class=""><a href="/przepisy/szybki-obiad">Szybki obiad</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/przepisy/szybkie-ciasto">Szybkie ciasto</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/przepisy/obiad-na-niedziele">Obiad na niedzielę</a><ul class="depth_1"></ul>
+</li>
+<li class="has-children"><a href="/przepisy/bar-mleczny">Bar mleczny</a><ul class="depth_1"><li class=""><a href="/przepisy/nalesniki">Naleśniki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/pierogi">Pierogi</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/kluski-slaskie">Kluski śląskie</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/placki">Placki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/omlety">Omlety</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/przepisy/bar-mleczny">Więcej...</a></li>
+</ul>
+</li>
+<li class="has-children"><a href="/kuchnia_polska/drozdzowe_wypieki/przepisy.html">Drożdżowe</a><ul class="depth_1"><li class="has-children"><a href="/blog-kulinarny/category/domowe-pieczywo">Pieczywo</a><ul class="depth_2"><li class=""><a href="/blog-kulinarny/category/domowe-pieczywo/chleb">Chleb</a><ul class="depth_3"></ul>
+</li>
+<li class=""><a href="/przepisy/bulki">Bułki</a><ul class="depth_3"></ul>
+</li>
+<li class=""><a href="/przepisy/ciabatta">Ciabatta</a><ul class="depth_3"></ul>
+</li>
+</ul>
+</li>
+<li class=""><a href="/przepisy/drozdzowki">Drożdżówki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/category/brioche">Brioche</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/focaccia">Focaccia</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/kuchnia_wloska/pizza/pizza.html">Pizza</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/kuchnia_polska/drozdzowe_wypieki/przepisy.html">Więcej...</a></li>
+</ul>
+</li>
+<li class="has-children"><a href="/przepisy/z-jednej-patelni">Z jednej patelni</a><ul class="depth_1"><li class=""><a href="/przepisy/kaszotto">Kaszotto</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/stir-fry">Stir-fry</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/curry">Curry</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/frittata">Frittata</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/paella">Paella</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/risotto">Risotto</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/przepisy/z-jednej-patelni">Więcej...</a></li>
+</ul>
+</li>
+<li class="has-children"><a href="/przepisy/jednogarnkowe">Jednogarnkowe</a><ul class="depth_1"><li class=""><a href="/przepisy/leczo">Leczo</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/bigos">Bigos</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/category/gulasz">Gulasze</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/chili-con-carne">Chili con carne</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/category/casserole">Casserole</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/biryani">Biryani</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/tagine">Tagine</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/przepisy/jednogarnkowe">Więcej...</a></li>
+</ul>
+</li>
+<li class="has-children"><a href="/przepisy/zapiekanka">Zapiekanki</a><ul class="depth_1"><li class=""><a href="/przepisy/zapiekane-nalesniki">Zapiekane naleśniki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/zapiekanka-makaronowa">Zapiekanka makaronowa</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/faszerowane-papryki">Faszerowana papryka</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/przepisy/zapiekanka">Więcej...</a></li>
+</ul>
+</li>
+<li class="has-children"><a href="/przepisy/kuchnie-swiata">Kuchnie świata</a><ul class="depth_1"><li class=""><a href="/kuchnia_polska/polski_fusion.html">Kuchnia polska</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/kuchnia_wloska/wloskie_smaki.html">Kuchnia włoska</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/kuchnia_francuska/francuski_obiad.html">Kuchnia francuska</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/kuchnia_hiszpanska/przepisy.html">Kuchnia hiszpańska</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/kuchnia-marokanska">Kuchnia marokańska</a><ul class="depth_2"></ul>
+</li>
+<li class="has-children"><a href="/przepisy/kuchnia-indyjska">Kuchnia indyjska</a><ul class="depth_2"><li class=""><a href="/przepisy/dal">Dal</a><ul class="depth_3"></ul>
+</li>
+</ul>
+</li>
+<li class=""><a href="/przepisy/kuchnia-chinska">Kuchnia chińska</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/kuchnia-tajska">Kuchnia tajska</a><ul class="depth_2"></ul>
+</li>
+<li class="has-children"><a href="/kuchnia_meksykanska/przepisy.html">Kuchnia meksykańska</a><ul class="depth_2"><li class=""><a href="/blog-kulinarny/category/tacos">Tacos</a><ul class="depth_3"></ul>
+</li>
+<li class=""><a href="/przepisy/quesadilla">Quesadilla</a><ul class="depth_3"></ul>
+</li>
+</ul>
+</li>
+<li class="depth_1"><a href="/przepisy/kuchnie-swiata">Więcej...</a></li>
+</ul>
+</li>
+<li class=""><a href="/dania_dla_dwojga/sosy/przepisy.html">Sosy</a><ul class="depth_1"></ul>
+</li>
+</ul>
+</li>
+<li class="has-children">
+  <div class="field field-name-field-ikona field-type-icon-field field-label-hidden">
+    <span class="icon icomoon icon-poradnia" aria-hidden="true"></span>  </div>
+<a href="/przepisy/posilki">Posiłki</a><ul class="depth_0"><li class="has-children"><a href="/dania_dla_dwojga/sniadania/przepisy.html">Śniadania</a><ul class="depth_1"><li class=""><a href="/przepisy/platki">Płatki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/jaglanka">Jaglanka</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/budyn-jaglany">Budyń jaglany</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/pasty-kanapkowe">Pasty kanapkowe</a><ul class="depth_2"></ul>
+</li>
+<li class="has-children"><a href="/dania_dla_dwojga/sniadania/jajo_sniadanie/przepisy.html">Jajka na śniadanie</a><ul class="depth_2"><li class=""><a href="/przepisy/szakszuka">Szakszuka</a><ul class="depth_3"></ul>
+</li>
+<li class=""><a href="/przepisy/pasta-jajeczna">Pasta jajeczna</a><ul class="depth_3"></ul>
+</li>
+</ul>
+</li>
+<li class=""><a href="/przepisy/sniadania-bez-chleba">Śniadania bez chleba</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/dania_dla_dwojga/sniadania/przepisy.html">Więcej...</a></li>
+</ul>
+</li>
+<li class="has-children"><a href="/przepisy/lunche">Lunche</a><ul class="depth_1"><li class=""><a href="/przepisy/lunche-do-pracy">Lunch do pracy</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/kanapki">Kanapki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/wrapy">Wrapy</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/spring-rolls">Spring rolls</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/przepisy/lunche">Więcej...</a></li>
+</ul>
+</li>
+<li class="has-children"><a href="/kuchnia_polska/zupy/przepisy.html">Zupy</a><ul class="depth_1"><li class=""><a href="/przepisy/zupa-pomidorowa">Zupa pomidorowa</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/zupa-z-dyni">Zupa z dyni</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/zupy-krem">Zupy krem</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/zupy-orientalne">Zupy orientalne</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/zupy-polskie">Zupy polskie</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/category/zupy/zupa-rybna">Zupy rybne</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/category/na-upaly/chlodniki">Chłodniki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/kuchnia_polska/buliony/przepisy.html">Buliony</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/kuchnia_polska/zupy/przepisy.html">Więcej...</a></li>
+</ul>
+</li>
+<li class="has-children"><a href="/przepisy/salatki">Sałatki</a><ul class="depth_1"><li class=""><a href="/przepisy/salatki-warstwowe">Sałatki warstwowe</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/salatki-z-kurczakiem">Sałatki z kurczakiem</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/salatki-z-jajkami">Sałatki z jajkami</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/salatki-sledziowe">Sałatki śledziowe</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/category/salatka-z-truskawkami">Sałatki z truskawkami</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/przepisy/salatki">Więcej...</a></li>
+</ul>
+</li>
+<li class=""><a href="/blog-kulinarny/category/dodatki/surowki">Surówki</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/dania_dla_dwojga/tarty_tartaletki_quiche/przepisy.html">Tarty</a><ul class="depth_1"></ul>
+</li>
+<li class="has-children"><a href="/pasta/pasta.html">Makarony</a><ul class="depth_1"><li class=""><a href="/przepisy/makaron-ze-szpinakiem">Makaron ze szpinakiem</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/category/lasagne">Lasagne</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/pasta/makaron_muszle/przepisy.html">Muszle nadziewane</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/pasta/pasta.html">Więcej...</a></li>
+</ul>
+</li>
+<li class=""><a href="/blog-kulinarny/category/dania-obiadowe">Dania główne</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/category/dodatki">Dodatki</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/przepisy/podwieczorki">Podwieczorki</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/drinki/drinki_bezalkoholowe/przepisy.html">Napoje</a><ul class="depth_1"></ul>
+</li>
+<li class="has-children"><a href="/przepisy/kolacje">Kolacje</a><ul class="depth_1"><li class=""><a href="/przepisy/lekkie-kolacje">Lekkie kolacje</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/kolacje-na-cieplo">Kolacje na ciepło</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/przepisy/kolacje">Więcej...</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="has-children">
+  <div class="field field-name-field-ikona field-type-icon-field field-label-hidden">
+    <span class="icon icomoon icon-glownyskladnik" aria-hidden="true"></span>  </div>
+<a href="/przepisy/skladniki">Składniki</a><ul class="depth_0"><li class="has-children"><a href="/przepisy/kasze">Kasze</a><ul class="depth_1"><li class=""><a href="/blog-kulinarny/tag/kasza-jaglana">Kasza jaglana</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/tag/kasza-gryczana">Kasza gryczana</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/tag/kasza-jeczmienna">Kasza jęczmienna</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/kasza-peczak">Kasza pęczak</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/przepisy/kasze">Więcej...</a></li>
+</ul>
+</li>
+<li class="has-children"><a href="/przepisy/ziarna">Ziarna</a><ul class="depth_1"><li class=""><a href="/dania_dla_dwojga/ryz/przepisy.html">Ryż</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/dania_dla_dwojga/kuskus/przepisy.html">Kuskus</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/bulgur">Bulgur</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/tag/quinoa">Komosa ryżowa</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/przepisy/ziarna">Więcej...</a></li>
+</ul>
+</li>
+<li class=""><a href="/blog-kulinarny/tag/jajka">Jajka</a><ul class="depth_1"></ul>
+</li>
+<li class="has-children"><a href="/przepisy/mieso">Mięso</a><ul class="depth_1"><li class=""><a href="/przepisy/mieso-mielone">Mięso mielone</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/kuchnia_polska/kurczak/przepisy.html">Kurczak</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/kuchnia_polska/indyk/przepisy.html">Indyk</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/kuchnia_polska/wolowina/przepisy.html">Wołowina</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/kuchnia_polska/wieprzowina/przepisy.html">Wieprzowina</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/kuchnia_polska/cielecina/przepisy.html">Cielęcina</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/kuchnia_polska/jagniecina/przepisy.html">Jagnięcina</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/kuchnia_polska/kaczka/przepisy.html">Kaczka</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/kuchnia_polska/ges/przepisy.html">Gęś</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/podroby">Podroby</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/pasztety">Pasztet</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/pieczone-miesa">Pieczone mięso</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/przepisy/mieso">Więcej...</a></li>
+</ul>
+</li>
+<li class="has-children"><a href="/zielony_srodek/zielony_srodek.html">Warzywa</a><ul class="depth_1"><li class=""><a href="/zielony_srodek/baklazan/przepisy.html">Bakłażan</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/bataty/przepisy.html">Bataty</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/bob/przepisy.html">Bób</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/botwinka/przepisy.html">Botwinka</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/brokuly/przepisy.html">Brokuły</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/buraczki/przepisy.html">Buraczki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/ciecierzyca/przepisy.html">Ciecierzyca</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/cukinia/przepisy.html">Cukinia</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/dynia/przepisy.html">Dynia</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/fasolka/przepisy.html">Fasolka szparagowa</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/jarmuz/przepisy.html">Jarmuż</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/kalafior/przepisy.html">Kalafior</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/kapusta/przepisy.html">Kapusta</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/mloda-kapusta">Młoda kapusta</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/kapusta-pekinska">Kapusta pekińska</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/kukurydza/kukurydza.html">Kukurydza</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/marchewka/przepisy.html">Marchewka</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/ogorek/przepisy.html">Ogórek</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/papryka/przepisy.html">Papryka</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/pomidory/przepisy.html">Pomidory</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/pory/przepisy.html">Por</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/rabarbar/przepisy.html">Rabarbar</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/seler/przepisy.html">Seler korzeniowy</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/soczewica/przepisy.html">Soczewica</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/szparagi/przepisy.html">Szparagi</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/szpinak/przepisy.html">Szpinak</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/ziemniaki/przepisy.html">Ziemniaki</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/zielony_srodek/zielony_srodek.html">Więcej...</a></li>
+</ul>
+</li>
+<li class="has-children"><a href="/przepisy/owoce">Owoce</a><ul class="depth_1"><li class=""><a href="/zielony_srodek/ananas/przepisy.html">Ananas</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/arbuz/przepisy.html">Arbuz</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/awokado/przepisy.html">Awokado</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/banany/przepisy.html">Banany</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/brzoskwinie/przepisy.html">Brzoskwinie</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/cytryny">Cytryny</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/tag/czarna-porzeczka">Czarna porzeczka</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/tag/czerwona-porzeczka">Czerwona porzeczka</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/czeresnie/przepisy.html">Czereśnie</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/figi_w_roli_glownej/figi_w_roli_glownej.html">Figi</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/granat/przepisy.html">Granat</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/grejpfrut">Grejpfrut</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/gruszki/przepisy.html">Gruszki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/salatki_jablka/salatki_jablka.html">Jabłka</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/jagody/przepisy.html">Jagody</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/tag/kiwi">Kiwi</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/maliny/przepisy.html">Maliny</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/mango/przepisy.html">Mango</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/pomarancze/przepisy.html">Pomarańcze</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/sliwki/przepisy.html">Śliwki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/truskawki/przepisy.html">Truskawki</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/przepisy/owoce">Więcej...</a></li>
+</ul>
+</li>
+<li class="has-children"><a href="/zielony_srodek/grzyby/przepisy.html">Grzyby</a><ul class="depth_1"><li class=""><a href="/przepisy/borowiki">Borowiki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/boczniaki">Boczniaki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/zielony_srodek/kurki/przepisy.html">Kurki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/pieczarki">Pieczarki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/rydze">Rydze</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/zielony_srodek/grzyby/przepisy.html">Więcej...</a></li>
+</ul>
+</li>
+<li class="has-children"><a href="/ryby_i_owoce_morza/ryby_i_owoce_morza.html">Ryby</a><ul class="depth_1"><li class=""><a href="/przepisy/barramundi">Barramundi</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/ryby_i_owoce_morza/dorada/przepisy.html">Dorada</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/ryby_i_owoce_morza/dorsz/przepisy.html">Dorsz</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/ryby_i_owoce_morza/losos/przepisy.html">Łosoś</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/losos-wedzony">Łosoś wędzony</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/ryby_i_owoce_morza/pstrag/przepisy.html">Pstrąg</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/ryby_i_owoce_morza/sandacz/przepisy.html">Sandacz</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/ryby_i_owoce_morza/sola/przepisy.html">Sola</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/ryby_i_owoce_morza/sledzie/przepisy.html">Śledzie</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/ryby_i_owoce_morza/tunczyk/przepisy.html">Tuńczyk</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/ryby_i_owoce_morza/ryby_i_owoce_morza.html">Więcej...</a></li>
+</ul>
+</li>
+<li class="has-children"><a href="/przepisy/owoce-morza">Owoce morza</a><ul class="depth_1"><li class=""><a href="/ryby_i_owoce_morza/kalmary/przepisy.html">Kalmary</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/ryby_i_owoce_morza/krewetki/przepisy.html">Krewetki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/ryby_i_owoce_morza/mule/przepisy.html">Małże</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/ryby_i_owoce_morza/osmiornica/przepisy.html">Ośmiornica</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/ryby_i_owoce_morza/przegrzebki/przegrzebki.html">Przegrzebki</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/przepisy/owoce-morza">Więcej...</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="has-children">
+  <div class="field field-name-field-ikona field-type-icon-field field-label-hidden">
+    <span class="icon icomoon icon-dietetyczne" aria-hidden="true"></span>  </div>
+<a href="/przepisy/na-zdrowie">Na zdrowie</a><ul class="depth_0"><li class=""><a href="/blog-kulinarny/category/przepisy-fit">Przepisy fit</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/category/weganskie">Wegańskie</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/category/wegetarianskie">Wegetariańskie</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/przepisy/pe%C5%82noziarniste">Pełnoziarniste</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/category/bezglutenowe">Bezglutenowe</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/category/paleo">Paleo</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/category/smoothie">Smoothies</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/przepisy/fitburgery">Fitburgery</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/przepisy/na-parze">Na parze</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/przepisy/w-papilotach">W papilotach</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/przepisy/wolnowar">Wolnowar</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/przepisy/spiralizer">Spiralizer</a><ul class="depth_1"></ul>
+</li>
+</ul>
+</li>
+<li class="has-children">
+  <div class="field field-name-field-ikona field-type-icon-field field-label-hidden">
+    <span class="icon icomoon icon-okolicznosciowe" aria-hidden="true"></span>  </div>
+<a href="/przepisy/okazje">Okazje</a><ul class="depth_0"><li class=""><a href="/przepisy/uroczysty-obiad">Świąteczny obiad</a><ul class="depth_1"></ul>
+</li>
+<li class="has-children"><a href="/dania_dla_dwojga/party/party.html">Przyjęcia i imprezy</a><ul class="depth_1"><li class=""><a href="/przepisy/koreczki">Koreczki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/roladki-z-tortilli">Roladki z tortilli</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/dania_dla_dwojga/party/party.html">Więcej...</a></li>
+</ul>
+</li>
+<li class=""><a href="/dania_dla_dwojga/dania.html">Kolacja we dwoje</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/category/dla-dzieci">Dla dzieci</a><ul class="depth_1"></ul>
+</li>
+<li class="has-children"><a href="/kuchnia_polska/wigilia/przepisy.html">Wigilia i Święta</a><ul class="depth_1"><li class=""><a href="/przepisy/potrawy-wigilijne">Dania wigilijne</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/makowce">Makowce</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/pierniki">Pierniki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/pierniczki">Pierniczki</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/kuchnia_polska/wigilia/przepisy.html">Więcej...</a></li>
+</ul>
+</li>
+<li class=""><a href="/przepisy/sylwester">Sylwester</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/dania_dla_dwojga/walentynki/przepisy.html">Walentynki</a><ul class="depth_1"></ul>
+</li>
+<li class="has-children"><a href="/kuchnia_polska/tlusty_czwartek/przepisy.html">Tłusty Czwartek</a><ul class="depth_1"><li class=""><a href="/przepisy/faworki">Faworki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/paczki">Pączki</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/kuchnia_polska/tlusty_czwartek/przepisy.html">Więcej...</a></li>
+</ul>
+</li>
+<li class="has-children"><a href="/kuchnia_polska/wielkanoc/przepisy.html">Wielkanoc</a><ul class="depth_1"><li class=""><a href="/kuchnia_polska/jajka_faszerowane/jajka_faszerowane.html">Jajka faszerowane</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/desery/babka/babka.html">Babki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/desery/mazurki/mazurki.html">Mazurki wielkanocne</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/kuchnia_polska/wielkanoc/przepisy.html">Więcej...</a></li>
+</ul>
+</li>
+<li class=""><a href="/kuchnia_polska/majowka/przepisy.html">Majówka</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/przepisy/komunia">Komunia</a><ul class="depth_1"></ul>
+</li>
+<li class="has-children"><a href="/kuchnia_polska/dania_z_grilla/przepisy.html">Grill</a><ul class="depth_1"><li class=""><a href="/dania_dla_dwojga/szaszlyki/szaszlyki.html">Szaszłyki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/kuchnia_angielska/steki/przepisy.html">Steki</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/kuchnia_polska/dania_z_grilla/przepisy.html">Więcej...</a></li>
+</ul>
+</li>
+<li class=""><a href="/blog-kulinarny/category/na-upaly">Na upały</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/drinki/przepisy.html">Drinki</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/category/przetwory">Przetwory</a><ul class="depth_1"></ul>
+</li>
+</ul>
+</li>
+<li class="has-children">
+  <div class="field field-name-field-ikona field-type-icon-field field-label-hidden">
+    <span class="icon icomoon icon-desery" aria-hidden="true"></span>  </div>
+<a href="/desery/desery.html">Desery</a><ul class="depth_0"><li class=""><a href="/desery/bez-pieczenia">Desery bez pieczenia</a><ul class="depth_1"></ul>
+</li>
+<li class="has-children"><a href="/desery/mini-desery">Mini desery</a><ul class="depth_1"><li class=""><a href="/desery/mini-serniczki">Mini serniczki</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/desery/mini-desery">Więcej...</a></li>
+</ul>
+</li>
+<li class=""><a href="/desery/bezy/przepisy.html">Bezy</a><ul class="depth_1"></ul>
+</li>
+<li class="has-children"><a href="/desery/ciasta/przepisy.html">Ciasta</a><ul class="depth_1"><li class=""><a href="/desery/brownie/przepisy.html">Brownie</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/szarlotki">Szarlotki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/ciasta-bez-pieczenia">Ciasta bez pieczenia</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/ciasta-czekoladowe">Ciasta czekoladowe</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/ciasta-drozdzowe">Ciasta drożdżowe</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/ciasta-jogurtowe">Ciasta jogurtowe</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/ciasta-kostki">Ciasta kostki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/ciasta-kruche">Ciasta kruche</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/ciasto-z-truskawkami">Ciasta z truskawkami</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/ciasta-z-owocami">Ciasta z owocami</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/ciasta-tradycyjne">Ciasta tradycyjne</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/desery/ciasta/przepisy.html">Więcej...</a></li>
+</ul>
+</li>
+<li class=""><a href="/desery/ciasteczka/ciasteczka.html">Ciasteczka</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/desery/czekolada/przepisy.html">Czekolada</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/dania_dla_dwojga/gofry/przepisy.html">Gofry</a><ul class="depth_1"></ul>
+</li>
+<li class="has-children"><a href="/desery/lody/przepisy.html">Lody</a><ul class="depth_1"><li class=""><a href="/desery/semifreddo/semifreddo.html">Semifreddo</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/desery/lody/przepisy.html">Więcej...</a></li>
+</ul>
+</li>
+<li class=""><a href="/desery/muffiny_cupcakes/przepisy.html">Muffiny i babeczki</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/desery/panna_cotta_przepisy/przepisy.html">Panna Cotta</a><ul class="depth_1"></ul>
+</li>
+<li class="has-children"><a href="/desery/serniki/przepisy.html">Serniki</a><ul class="depth_1"><li class=""><a href="/przepisy/deserniki">Deserniki</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/serniki-z-musem">Serniki z musem</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/przepisy/sernikobrownie">Sernikobrownie</a><ul class="depth_2"></ul>
+</li>
+<li class=""><a href="/blog-kulinarny/category/sernik-na-zimno">Sernik na zimno</a><ul class="depth_2"></ul>
+</li>
+<li class="depth_1"><a href="/desery/serniki/przepisy.html">Więcej...</a></li>
+</ul>
+</li>
+<li class=""><a href="/desery/tarty/przepisy.html">Tarty deserowe</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/desery/tiramisu/przepisy.html">Tiramisu</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/desery/torty/torty.html">Torty</a><ul class="depth_1"></ul>
+</li>
+<li class=""><a href="/desery/trufle/przepisy.html">Trufle</a><ul class="depth_1"></ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</section>
+<section id="block-menu-block-5" class="block block-menu-block clearfix">
+
+      
+  <div class="menu-block-wrapper menu-block-5 menu-name-user-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li class="first leaf menu-mlid-709"><a href="/user/login?current=node/191178">Zaloguj</a></li>
+<li class="leaf menu-mlid-710"><a href="/user/register">Załóż konto</a></li>
+<li class="leaf menu-mlid-2149"><a href="/user/Anonymous/ulubione" class="log yes-log"><span class="icon icomoon icon-ulubione-heart" aria-hidden="true"></span><span class="title">Ulubione przepisy</span></a></li>
+<li class="last leaf menu-mlid-2500"><a href="/user?current=node/191178" class="log no-log"><span class="icon icomoon icon-ulubione-heart" aria-hidden="true"></span><span class="title">Ulubione przepisy</span></a></li>
+</ul></div>
+
+</section>
+  </div>
+                </div>
+            </div>
+            <div class="pastop-right">
+                  <div class="region region-pas-top-right">
+    <section id="block-block-2" class="block block-block clearfix">
+
+      
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fkwestiasmaku&amp;width=135&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:135px; height:21px;" allowtransparency="true"></iframe>
+
+</section>
+<section id="block-menu-block-6" class="block block-menu-block clearfix">
+
+      
+  <div class="menu-block-wrapper menu-block-6 menu-name-menu-ulubione parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li class="first leaf menu-mlid-2180"><a href="/user/Anonymous/ulubione" class="yes-log"><span class="icon icomoon icon-ulubione" aria-hidden="true"></span><span class="title">Ulubione</span></a></li>
+<li class="last leaf menu-mlid-2501"><a href="/user?current=node/191178" class="no-log"><span class="icon icomoon icon-ulubione" aria-hidden="true"></span><span class="title">Ulubione</span></a></li>
+</ul></div>
+
+</section>
+  </div>
+            </div>
+
+        </div>
+    </div>
+
+    <header id="navbar" role="banner" class="navbar container navbar-default">
+        <div class="row">
+
+        <div class="navbar-header col-xs-12 col-sm-12 col-md-9 col-srodek">
+
+            <div class="navbar-header-logo">
+
+                            <a class="logo navbar-btn pull-left" href="/" title="Kwestia Smaku - Wyjątkowo na co dzień">
+                <img src="https://www.kwestiasmaku.com/sites/all/themes/custom/kwestiasmaku/logo.png" alt="Kwestia Smaku - Wyjątkowo na co dzień" width="327px"/>
+              </a>
+              
+                                      </div>
+          <div class="navbar-header-search">
+              <div class="region region-header-search">
+    <section id="block-views-exp-wyniki-wyszukiwania-page" class="block block-views clearfix">
+
+      
+  <form action="/szukaj" method="get" id="views-exposed-form-wyniki-wyszukiwania-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-search-api-views-fulltext-wrapper" class="views-exposed-widget views-widget-filter-search_api_views_fulltext">
+                        <div class="views-widget">
+          <div class="form-item form-item-search-api-views-fulltext form-type-textfield form-autocomplete form-group"><div class="input-group"><input class="auto_submit form-control form-text" data-min-autocomplete-length="3" type="text" id="edit-search-api-views-fulltext" name="search_api_views_fulltext" value="" size="30" maxlength="128" /><span class="input-group-addon"><span class="icon glyphicon glyphicon-refresh" aria-hidden="true"></span></span></div><input type="hidden" id="edit-search-api-views-fulltext-autocomplete" value="https://www.kwestiasmaku.com/?q=ks_search_api_autocomplete/search_api_views_wyniki_wyszukiwania/search_api_viewed%20title" disabled="disabled" class="autocomplete" /></div>        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <button type="submit" id="edit-submit-wyniki-wyszukiwania" name="" value="." class="btn btn-default form-submit">.</button>
+    </div>
+      </div>
+</div>
+</div></form>
+</section>
+  </div>
+           </div>
+
+        </div>
+
+
+
+        
+        <div class="navbar-header-right col-xs-12 col-sm-12 col-md-3 col-prawa">
+            <nav role="navigation">
+                 
+
+                                    <ul class="menu nav navbar-nav secondary"><li class="first leaf"><a href="/user/login?current=node/191178">Zaloguj</a></li>
+<li class="leaf"><a href="/user/register">Załóż konto</a></li>
+<li class="leaf"><a href="/user/Anonymous/ulubione" class="log yes-log"><span class="icon icomoon icon-ulubione-heart" aria-hidden="true"></span><span class="title">Ulubione przepisy</span></a></li>
+<li class="last leaf"><a href="/user?current=node/191178" class="log no-log"><span class="icon icomoon icon-ulubione-heart" aria-hidden="true"></span><span class="title">Ulubione przepisy</span></a></li>
+</ul>                 
+            </nav>
+         </div>
+
+                    </div>
+      </header>
+
+
+    <div class="pas_slider">
+        <div class="container">
+        <div class="row">
+            <section class="col-xs-12 col-sm-12 col-md-9 col-srodek">
+                  <div class="region region-pas-slider">
+    <section id="block-ks-layout-horizontal-links" class="block block-ks-layout pull-left horizontal-links special-links clearfix">
+
+      
+  <div class="special-links-row pull-left"><a href="/blog-kulinarny">Blog</a></div><div class="special-links-row pull-left"><a href="/przelicznik" class="calculator-toggle" id="link-show-calculator">Przelicznik</a></div><div class="season-links-row pull-left"><a href="/przepisy/szybki-obiad?sort_by=votingapi_cache_count">Szybki obiad</a></div><div class="season-links-row pull-left"><a href="/przepisy/ramen">Ramen</a></div>
+</section>
+  </div>
+            </section>
+            <section class="col-xs-12 col-sm-12 col-md-3 col-prawa">
+                            </section>
+        </div>
+        </div>
+    </div>
+
+
+    <div class="pas_slider_sg">
+        <div class="row">
+            <section class="col-xs-12 col-sm-12 col-md-12">
+                            </section>
+        </div>
+    </div>
+
+    <div class="main-container container">
+
+      <header role="banner" id="page-header">
+              </header> <!-- /#page-header -->
+
+      <div class="row">
+
+        
+        <section  class="col-xs-12 col-sm-12 col-md-9 col-srodek">
+                              
+            <a id="main-content"></a>
+                                <h1 class="page-header">Pieczony kalafior</h1>
+                    
+                                                     
+
+                      <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  
+
+<div itemscope itemtype="https://schema.org/Recipe"  about="/przepis/pieczony-kalafior" typeof="sioc:Item foaf:Document" class="node node-przepis node-promoted view-mode-full">
+        <div class="row row-1">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="group-top field-group-div">
+  <div class="field field-name-zdjecie-z-linikem-do-bloga field-type-ds field-label-hidden">
+    <a href="/blog-kulinarny/pieczony-kalafior"><img src="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/pieczony-kalafior_0.jpg" alt="Wpis na blogu" width="700" height="250" /></a>  </div>
+<div class="group-ikony field-group-div">
+  <div class="field field-name-ulubione-anonymous field-type-ds field-label-hidden">
+    <span class="flag-wrapper flag-zapamietane-przepisy flag-zapamietane-przepisy-19412 flag-wrapper-flag"><a href='#' title="Zapamiętuje przepis" class="flag flag-action" rel="nofollow"><span>Zapisz</span>      <span class="count">(345)</span></a></span>  </div>
+
+  <div class="field field-name-drukuj field-type-ds field-label-hidden">
+    <p><a alt="Drukuj przepis" onclick="window.print()" title="Drukuj przepis">Drukuj</a></p>
+  </div>
+
+  <div class="field field-name-link-do-bloga field-type-ds field-label-hidden">
+    <a href="/blog-kulinarny/pieczony-kalafior">Czytaj opinie</a>  </div>
+</div><div class="group-udostepnij field-group-div"><div class="description">Spodobał Ci się ten przepis? Udostępnij go!</div>
+  <div class="field field-name-facebook-share field-type-ds field-label-hidden">
+    <div class="fb-share-button" data-href="http://www.kwestiasmaku.com/przepis/pieczony-kalafior" data-layout="button_count" data-size="large" data-mobile-iframe="false"></div>  </div>
+</div><div class="group-ocena field-group-div">
+  <div class="field field-name-field-ocena field-type-fivestar field-label-hidden">
+    <div class="clearfix fivestar-average-stars fivestar-smart-stars fivestar-average-text"><div class="fivestar-static-item"><div class="form-item form-type-item form-group"><div class='fivestar-summary-wrapper'><span class='fivestar-summary-description'>Oceń przepis aby doradzić innym!</span><div class="fivestar-summary fivestar-summary-average-count"><span class="average-rating">Średnia: <span >5</span></span> <span class="total-votes">(<span >3</span> głosów)</span></div></div><div class="fivestar-kwestiasmaku_2 fivestar-widget-wrapper" data-average-stars="5"><div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix"><div class="star star-1 star-odd star-first"><span class="on">5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on"></span></div></div></div></div></div></div>  </div>
+</div></div>
+  <div class="field field-name-schema-recipe field-type-ds field-label-hidden">
+    <img itemprop="image" src="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/pieczony-kalafior-00_1.jpg">
+<span itemprop="description">To sprawdzony sposób na pieczonego kalafiora :) smakowity w wersji z kurkumą i czarnuszką, ale równie dobry z innym zestawem ziół. Sprawdzą się oregano, rozmaryn, papryka, ale również garam masala oraz przyprawa curry. Warto dodać kurkumę dla koloru. W zasadzie do zapamiętania są tutaj parametry pieczenia, a mianowicie 200 stopni C - 30 minut. Kalafiora pieczemy na dużej blaszce.
+Kalafiora można posypać po upieczeniu zieleniną, można podać z pokruszoną fetą lub sosem czosnkowym. Sprawdzi się jako przekąska lub dodatek np. do sałatki.
+</span>
+<span itemprop="commentCount">0</span>
+<div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+<span itemprop="reviewCount">3</span>
+<span itemprop="ratingValue">5</span>
+</div>
+<span itemprop="author">kwestiasmaku</span>  </div>
+<div itemprop=name><h1 class="przepis page-header">Pieczony kalafior</h1></div>
+  <h2 class="field field-name-field-podtytul field-type-text field-label-hidden">
+    Pieczone różyczki kalafiora na chrupiąco - idealna zdrowa przekąska!  </h2>
+<div id="node-przepis-full-group-kategorie" class="group-kategorie field-group-div">
+<ul class="field field-name-field-przepisy field-type-taxonomy-term-reference field-label-hidden">
+
+      <li>
+      <a href="/blog-kulinarny/category/dodatki" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Dodatki</a>    </li>
+      <li>
+      <a href="/zielony_srodek/kalafior/przepisy.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Kalafior</a>    </li>
+      <li>
+      <a href="/blog-kulinarny/category/przepisy-fit" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Przepisy fit</a>    </li>
+      <li>
+      <a href="/blog-kulinarny/category/weganskie" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Wegańskie</a>    </li>
+      <li>
+      <a href="/blog-kulinarny/category/wegetarianskie" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Wegetariańskie</a>    </li>
+      <li>
+      <a href="/dania_dla_dwojga/party/party.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Przyjęcia i imprezy</a>    </li>
+  
+</ul>
+<div class="group-tagi field-group-div">
+  <div class="field field-name-field-tagi field-type-taxonomy-term-reference field-label-hidden">
+    <a href="/tags/czarnuszka" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">czarnuszka</a>  </div>
+  <div class="field field-name-field-tagi field-type-taxonomy-term-reference field-label-hidden">
+    <a href="/tags/kurkuma" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">kurkuma</a>  </div>
+</div></div>
+  <div class="field field-name-field-uwagi-wstepne field-type-text-long field-label-hidden">
+    <p><span style="text-align: justify;">Zamiast kurkumy i czarnuszki możemy użyć innych przypraw np.:</span></p>
+<ul><li>
+		<span style="text-align: justify;">kuminu (lub garam masali)</span></li>
+	<li>
+		<span style="text-align: justify;">oregano i papryki</span></li>
+	<li>
+		<span style="text-align: justify;">przyprawy curry</span></li>
+</ul>  </div>
+
+  <div class="field field-name-block-banner-top field-type-ds field-label-hidden">
+    <section id="block-block-5" class="block block-block block-adv-banner-top clearfix">
+
+      
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Banner top -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5185607170940675"
+     data-ad-slot="6880544183"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</section>
+  </div>
+
+  <div class="field field-name-form-add-note field-type-ds field-label-hidden">
+    <div class="note-body note-body-empty"></div>  </div>
+      </div>
+    </div>
+        <div class="row row-2">
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <div class="group-skladniki field-group-div"><h3><span>Składniki</span></h3>
+  <div class="field field-name-field-ilosc-porcji field-type-text field-label-hidden">
+    2 - 4 porcje  </div>
+
+  <div class="field field-name-field-skladniki field-type-text-long field-label-hidden">
+    <ul><li>
+		1 kalafior</li>
+	<li>
+		4 łyżki oliwy z pierwszego tłoczenia</li>
+	<li>
+		świeżo zmielony pieprz</li>
+	<li>
+		1 i 1/2 łyżeczki kurkumy</li>
+	<li>
+		1 łyżeczka czarnuszki</li>
+	<li>
+		sól morska</li>
+</ul><div class="wyroznione">
+	do podania</div>
+<ul><li>
+		<a href="https://www.kwestiasmaku.com/przepis/sos-czosnkowy">sos czosnkowy</a> lub ser feta</li>
+	<li>
+		natka pietruszki</li>
+</ul>  </div>
+</div>      </div>
+      <div class="col-xs-12 col-sm-8 col-md-8">
+        <div class="group-przepis field-group-div">  <h3 class="field-label">
+    Przygotowanie  </h3>
+
+  <div class="field field-name-field-przygotowanie field-type-text-long field-label-above">
+    <ul><li>
+		Odciąć liście z kalafiora, przekroić na pół i wyciąć nadmiar głąba. Główkę kalafiora rozdzielić na różyczki lub pokroić na cząstki.</li>
+	<li>
+		Położyć na dużej blaszce (np. z wyposażenia piekarnika) wyłożonej papierem do pieczenia. Piekarnik nagrzać do <strong>200 stopni C.</strong></li>
+	<li>
+		Kalafiora polać oliwą, posypać pieprzem, kurkumą i czarnuszką, a następnie dokładnie wymieszać i rozłożyć na całej powierzchni blachy.</li>
+	<li>
+		Wstawić do nagrzanego piekarnika i piec przez <strong>30 minut.</strong> Po upieczeniu doprawić solą i posiekaną natką pietruszki.</li>
+</ul>  </div>
+</div><div class="group-wskazowki field-group-div">  <h3 class="field-label">
+    Propozycja podania  </h3>
+
+  <div class="field field-name-field-propozycja-podania field-type-text-long field-label-above">
+    <ul><li>
+		<a href="https://www.kwestiasmaku.com/przepis/sos-czosnkowy" style="text-align: justify;">sos czosnkowy</a> lub pokruszony ser feta</li>
+	<li>
+		posiekana natka pietruszki</li>
+</ul>  </div>
+  <h3 class="field-label">
+    Wskazówki  </h3>
+
+  <div class="field field-name-field-wskazowki field-type-text-long field-label-above">
+    <p>Upieczonego kalafiora można wykorzystać także np. w tego typu <a href="https://www.kwestiasmaku.com/przepis/salatka-z-pieczonych-burakow-batatow-i-jarmuzu">sałatce</a>.</p>
+  </div>
+</div><div class="group-note field-group-div">
+  <div class="field field-name-add-note field-type-ds field-label-hidden">
+    <a class='toggle-note-button' href='#'>Dodaj notatkę</a>  </div>
+</div>      </div>
+    </div>
+        <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="view view-zdjecia view-id-zdjecia view-display-id-entity_view_1 view-dom-id-4867409fcf77dc00a459a7f623e0c76d">
+      
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div>        <div><ul><li class="first last"><img typeof="foaf:Image" class="img-responsive" src="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/pieczony-kalafior-01_0.jpg" width="798" height="532" alt="Pieczony kalafior" title="Pieczony kalafior" />
+Pieczony kalafior </li>
+</ul></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>       </div>
+    </div>
+  </div>
+
+
+<!-- Needed to activate display suite support on forms -->
+
+</section>
+  </div>
+        </section>
+
+                  <aside class="col-xs-12 col-sm-12 col-md-3 col-prawa" role="complementary">
+              <div class="region region-sidebar-second">
+    <section id="block-block-3" class="block block-block clearfix">
+
+      
+  <style type='text/css'>
+@media (max-width: 991px) { .ads1 { display: none; } .ads2{display:block;} }
+@media (min-width:992px) {.ads1{display:block;} .ads2{display:none;}}
+</style>
+
+<script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'></script>
+
+<ins class='adsbygoogle ads1'
+     data-ad-client='ca-pub-5185607170940675'
+     data-ad-slot='9738108981'
+     data-ad-format='auto'></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'></script>
+
+    <ins class='adsbygoogle ads2'
+    data-ad-client='ca-pub-5185607170940675'
+    data-ad-slot='5238369386'
+    data-ad-format='auto'></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</section>
+  </div>
+          </aside>  <!-- /#sidebar-second -->
+        
+      </div>
+    </div>
+
+</div>
+<div class="pas_srodek">
+    <div class="container">
+        <div class="page-hide-overlay"></div>
+    <div class="row">
+        <section class="col-xs-12 col-sm-12 col-md-9 col-srodek">
+              <div class="region region-pas-srodek">
+    <section id="block-block-12" class="block block-block block-adv-banner-bottom clearfix">
+
+      
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Dolny pas -->
+<ins class="adsbygoogle" style="display:block"
+data-ad-client="ca-pub-5185607170940675"
+data-ad-slot="2073174982"
+data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</section>
+<section id="block-application-ks-related-content" class="block block-application clearfix">
+
+        <h2 class="block-title">zobacz także</h2>
+    
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- See also -->
+          <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-5185607170940675"
+          data-ad-slot="3663573384"
+          data-ad-format="autorelaxed"></ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+</section>
+  </div>
+        </section>
+        <section class="col-xs-12 col-sm-12 col-md-3 col-prawa">
+            <div class="content-prawa">
+                        </div>
+        </section>
+    </div>
+        </div>
+</div>
+<div class="pas_dolny">
+    <div class="container">
+        <div class="page-hide-overlay"></div>
+    <div class="row">
+        <section class="col-xs-12 col-sm-6 col-md-4">
+              <div class="region region-pas-dolny-left">
+    <section id="block-application-fb-footer-widget" class="block block-application clearfix">
+
+      
+  <div class="fb-page" data-href="https://www.facebook.com/kwestiasmaku/" data-tabs="timeline" data-width="336" data-height="280" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/kwestiasmaku/"><a href="https://www.facebook.com/kwestiasmaku/">Kwestia Smaku</a></blockquote></div></div>
+</section>
+  </div>
+        </section>
+        <section class="col-xs-12 col-sm-6 col-md-4">
+              <div class="region region-pas-dolny">
+    <section id="block-block-16" class="block block-block clearfix">
+
+      
+  <p><a href="https://www.kwestiasmaku.com/blog-kulinarny/feed">Bądź na bieżąco</a></p>
+
+</section>
+<section id="block-menu-block-1" class="block block-menu-block clearfix">
+
+      
+  <div class="menu-block-wrapper menu-block-1 menu-name-menu-social-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li class="first leaf menu-mlid-873"><a href="https://www.facebook.com/kwestiasmaku" target="_blank"><span class="icon icomoon icon-facebook" aria-hidden="true"></span><span class="title">Facebook</span></a></li>
+<li class="leaf menu-mlid-876"><a href="https://instagram.com/kwestiasmakucom" target="_blank"><span class="icon icomoon icon-instagram" aria-hidden="true"></span><span class="title">Instagram</span></a></li>
+<li class="leaf menu-mlid-875"><a href="https://pinterest.com/kwestiasmaku" target="_blank"><span class="icon icomoon icon-pinterest" aria-hidden="true"></span><span class="title">Pinterest</span></a></li>
+<li class="last leaf menu-mlid-877"><a href="https://twitter.com/kwestiasmaku" target="_blank"><span class="icon icomoon icon-twitter" aria-hidden="true"></span><span class="title">Twitter</span></a></li>
+</ul></div>
+
+</section>
+  </div>
+        </section>
+        <section class="col-xs-12 col-sm-12 col-md-4">
+              <div class="region region-pas-dolny-right">
+    <section id="block-ks-layout-instagram" class="block block-ks-layout instagram-widget clearfix">
+
+      
+  <iframe src="https://cdn.lightwidget.com/widgets/f149e4abf1adac14d9d00bbed816edad9016a447.html"
+        scrolling="no"
+        allowtransparency="true"
+        class="lightwidget-widget"
+        style="width:100%;border:0;overflow:hidden;"></iframe>
+
+</section>
+  </div>
+        </section>
+    </div>
+        </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="page-hide-overlay"></div>
+    <div class="region region-footer">
+    <section id="block-ks-layout-footer" class="block block-ks-layout clearfix">
+
+      
+  <p>
+  <img typeof="foaf:Image" class="img-responsive" src="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/images/logo_white.png" alt="Kwestia Smaku" /><span class="date">© 2007-2022 kwestiasmaku.com</span><span class="reserved">Wszystkie prawa zastrzeżone</span><span class="copy">Kopiowanie i rozpowszechnianie bez zgody kwestiasmaku.com zabronione</span>
+</p>
+
+</section>
+<section id="block-menu-block-7" class="block block-menu-block clearfix">
+
+      
+  <div class="menu-block-wrapper menu-block-7 menu-name-menu-menu-dodatkowe parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li class="first leaf menu-mlid-408"><a href="/blog-kulinarny">Blog</a></li>
+<li class="leaf menu-mlid-3110"><a href="/przelicznik">Przelicznik</a></li>
+<li class="leaf menu-mlid-2495"><a href="https://aspiroproject.pl" id="ksemail">Kontakt</a></li>
+<li class="last leaf menu-mlid-3112"><a href="/regulamin-i-polityka-prywatnosci">Regulamin</a></li>
+</ul></div>
+
+</section>
+<section id="block-block-6" class="block block-block clearfix">
+
+      
+  <div class="do_gory" style="display: block;">
+	<a href="#navbar" target="_self" title="top"></a></div>
+
+</section>
+  </div>
+    </div>
+</footer>
+
+    </div>  <script src="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/js/js_552yQ9FfPPb1NEwmowTjJ51LtX1HnPxE_xAzL13MTkk.js"></script>
+<script>jQuery(document).ready(function() {
+        FastClick.attach(document.body);
+      });</script>
+<script src="https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/js/js_L50O_PWoAuMOxVjnzZCkNSSmI0kFwhZsO1_KS8WnGKw.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"208bcba312","applicationID":"506413377,506413378","transactionName":"NlxQNkUHWUFSUUVbDA8WZxBeSV5cV1dJHBMJSQ==","queueTime":0,"applicationTime":6,"atts":"GhtTQA0dSk8=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script></body>
+</html>

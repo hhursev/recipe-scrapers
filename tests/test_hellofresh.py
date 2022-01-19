@@ -68,3 +68,9 @@ class TestHelloFreshScraper(ScraperTest):
             },
             self.harvester_class.nutrients(),
         )
+
+    def test_cuisine(self):
+        self.assertEqual("Thai", self.harvester_class.cuisine())
+
+    def test_category(self):
+        self.assertEqual("main course", self.harvester_class.category())

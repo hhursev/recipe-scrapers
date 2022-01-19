@@ -21,6 +21,12 @@ class TestAllRecipesScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Four Cheese Margherita Pizza")
 
+    def test_cook_time(self):
+        self.assertEqual(10, self.harvester_class.cook_time())
+
+    def test_prep_time(self):
+        self.assertEqual(15, self.harvester_class.prep_time())
+
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())
 
@@ -58,3 +64,11 @@ class TestAllRecipesScraper(ScraperTest):
 
     def test_ratings(self):
         self.assertEqual(4.8, self.harvester_class.ratings())
+
+    def test_cuisine(self):
+        self.assertEqual("", self.harvester_class.cuisine())
+
+    def test_category(self):
+        self.assertEqual(
+            "World Cuisine Recipes,European,Italian", self.harvester_class.category()
+        )
