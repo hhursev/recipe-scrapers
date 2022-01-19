@@ -25,6 +25,7 @@ from .castironketo import CastIronKeto
 from .cdkitchen import CdKitchen
 from .chefkoch import Chefkoch
 from .closetcooking import ClosetCooking
+from .comidinhasdochef import ComidinhasDoChef
 from .cookeatshare import CookEatShare
 from .cookieandkate import CookieAndKate
 from .cookinglight import CookingLight
@@ -40,6 +41,7 @@ from .domesticateme import DomesticateMe
 from .downshiftology import Downshiftology
 from .dr import Dr
 from .eatingbirdfood import EatingBirdFood
+from .eatingwell import EatingWell
 from .eatsmarter import Eatsmarter
 from .eatwhattonight import EatWhatTonight
 from .epicurious import Epicurious
@@ -53,6 +55,7 @@ from .foodandwine import FoodAndWine
 from .foodnetwork import FoodNetwork
 from .foodrepublic import FoodRepublic
 from .forksoverknives import ForksOverKnives
+from .franzoesischkochen import FranzoesischKochen
 from .g750g import G750g
 from .geniuskitchen import GeniusKitchen
 from .giallozafferano import GialloZafferano
@@ -63,6 +66,7 @@ from .gousto import Gousto
 from .greatbritishchefs import GreatBritishChefs
 from .halfbakedharvest import HalfBakedHarvest
 from .hassenchef import Hassanchef
+from .headbangerskitchen import HeadbangersKitchen
 from .heb import HEB
 from .heinzbrasil import HeinzBrasil
 from .hellofresh import HelloFresh
@@ -75,11 +79,15 @@ from .inspiralized import Inspiralized
 from .jamieoliver import JamieOliver
 from .jimcooksfoodgood import JimCooksFoodGood
 from .joyfoodsunshine import Joyfoodsunshine
+from .justataste import JustATaste
 from .justbento import JustBento
+from .justonecookbook import JustOneCookbook
 from .kennymcgovern import KennyMcGovern
 from .kingarthur import KingArthur
 from .kochbar import Kochbar
+from .koket import Koket
 from .kuchniadomowa import KuchniaDomowa
+from .kwestiasmaku import KwestiaSmaku
 from .lecremedelacrumb import LeCremeDeLaCrumb
 from .littlespicejar import LittleSpiceJar
 from .livelytable import LivelyTable
@@ -92,6 +100,7 @@ from .mindmegette import Mindmegette
 from .minimalistbaker import Minimalistbaker
 from .misya import Misya
 from .momswithcrockpots import MomsWithCrockPots
+from .monsieurcuisine import MonsieurCuisine
 from .motherthyme import MotherThyme
 from .mybakingaddiction import MyBakingAddiction
 from .mykitchen101 import MyKitchen101
@@ -114,11 +123,13 @@ from .purelypope import PurelyPope
 from .purplecarrot import PurpleCarrot
 from .rachlmansfield import RachlMansfield
 from .rainbowplantlife import RainbowPlantLife
+from .realfoodtesco import RealFoodTesco
 from .realsimple import RealSimple
 from .recipietineats import RecipieTinEats
 from .redhousespice import RedHouseSpice
 from .reishunger import Reishunger
 from .sallysbakingaddiction import SallysBakingAddiction
+from .sallysblog import SallysBlog
 from .saveur import Saveur
 from .seriouseats import SeriousEats
 from .simplyquinoa import SimplyQuinoa
@@ -127,6 +138,7 @@ from .simplywhisked import SimplyWhisked
 from .skinnytaste import SkinnyTaste
 from .southernliving import SouthernLiving
 from .spendwithpennies import SpendWithPennies
+from .springlane import Springlane
 from .steamykitchen import SteamyKitchen
 from .streetkitchen import StreetKitchen
 from .sunbasket import SunBasket
@@ -157,8 +169,12 @@ from .watchwhatueat import WatchWhatUEat
 from .whatsgabycooking import WhatsGabyCooking
 from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
+from .woolworths import Woolworths
+from .woop import Woop
 from .yemek import Yemek
 from .yummly import Yummly
+from .zeitwochenmarkt import ZeitWochenmarkt
+from .zenbelly import ZenBelly
 
 SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
@@ -186,6 +202,7 @@ SCRAPERS = {
     CdKitchen.host(): CdKitchen,
     Chefkoch.host(): Chefkoch,
     ClosetCooking.host(): ClosetCooking,
+    ComidinhasDoChef.host(): ComidinhasDoChef,
     CookEatShare.host(): CookEatShare,
     CookPad.host(): CookPad,
     CookieAndKate.host(): CookieAndKate,
@@ -202,6 +219,7 @@ SCRAPERS = {
     Dr.host(): Dr,
     EatWhatTonight.host(): EatWhatTonight,
     EatingBirdFood.host(): EatingBirdFood,
+    EatingWell.host(): EatingWell,
     Eatsmarter.host(): Eatsmarter,
     Eatsmarter.host(domain="de"): Eatsmarter,
     Epicurious.host(): Epicurious,
@@ -215,6 +233,7 @@ SCRAPERS = {
     FoodNetwork.host(): FoodNetwork,
     FoodRepublic.host(): FoodRepublic,
     ForksOverKnives.host(): ForksOverKnives,
+    FranzoesischKochen.host(): FranzoesischKochen,
     G750g.host(): G750g,
     GeniusKitchen.host(): GeniusKitchen,
     GialloZafferano.host(): GialloZafferano,
@@ -226,6 +245,7 @@ SCRAPERS = {
     HEB.host(): HEB,
     HalfBakedHarvest.host(): HalfBakedHarvest,
     Hassanchef.host(): Hassanchef,
+    HeadbangersKitchen.host(): HeadbangersKitchen,
     HeinzBrasil.host(): HeinzBrasil,
     HelloFresh.host(): HelloFresh,
     HelloFresh.host(domain="co.uk"): HelloFresh,
@@ -240,11 +260,15 @@ SCRAPERS = {
     JamieOliver.host(): JamieOliver,
     JimCooksFoodGood.host(): JimCooksFoodGood,
     Joyfoodsunshine.host(): Joyfoodsunshine,
+    JustATaste.host(): JustATaste,
     JustBento.host(): JustBento,
+    JustOneCookbook.host(): JustOneCookbook,
     KennyMcGovern.host(): KennyMcGovern,
     KingArthur.host(): KingArthur,
     Kochbar.host(): Kochbar,
+    Koket.host(): Koket,
     KuchniaDomowa.host(): KuchniaDomowa,
+    KwestiaSmaku.host(): KwestiaSmaku,
     LeCremeDeLaCrumb.host(): LeCremeDeLaCrumb,
     LittleSpiceJar.host(): LittleSpiceJar,
     LivelyTable.host(): LivelyTable,
@@ -257,6 +281,7 @@ SCRAPERS = {
     Minimalistbaker.host(): Minimalistbaker,
     Misya.host(): Misya,
     MomsWithCrockPots.host(): MomsWithCrockPots,
+    MonsieurCuisine.host(): MonsieurCuisine,
     MotherThyme.host(): MotherThyme,
     MyBakingAddiction.host(): MyBakingAddiction,
     MyKitchen101.host(): MyKitchen101,
@@ -279,11 +304,14 @@ SCRAPERS = {
     PurpleCarrot.host(): PurpleCarrot,
     RachlMansfield.host(): RachlMansfield,
     RainbowPlantLife.host(): RainbowPlantLife,
+    RealFoodTesco.host(): RealFoodTesco,
     RealSimple.host(): RealSimple,
+    RealFoodTesco.host(): RealFoodTesco,
     RecipieTinEats.host(): RecipieTinEats,
     RedHouseSpice.host(): RedHouseSpice,
     Reishunger.host(): Reishunger,
     SallysBakingAddiction.host(): SallysBakingAddiction,
+    SallysBlog.host(): SallysBlog,
     Saveur.host(): Saveur,
     SeriousEats.host(): SeriousEats,
     SimplyQuinoa.host(): SimplyQuinoa,
@@ -292,6 +320,7 @@ SCRAPERS = {
     SkinnyTaste.host(): SkinnyTaste,
     SouthernLiving.host(): SouthernLiving,
     SpendWithPennies.host(): SpendWithPennies,
+    Springlane.host(): Springlane,
     SteamyKitchen.host(): SteamyKitchen,
     StreetKitchen.host(): StreetKitchen,
     SunBasket.host(): SunBasket,
@@ -322,9 +351,13 @@ SCRAPERS = {
     WhatsGabyCooking.host(): WhatsGabyCooking,
     WholeFoods.host(): WholeFoods,
     WholeFoods.host(domain="co.uk"): WholeFoods,
+    Woop.host(): Woop,
     WikiCookbook.host(): WikiCookbook,
+    Woolworths.host(): Woolworths,
     Yemek.host(): Yemek,
     Yummly.host(): Yummly,
+    ZeitWochenmarkt.host(): ZeitWochenmarkt,
+    ZenBelly.host(): ZenBelly,
 }
 
 

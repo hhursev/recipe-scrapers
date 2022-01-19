@@ -1,0 +1,885 @@
+<!doctype html>
+<html lang="en">
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# product: http://ogp.me/ns/product#">
+        <script>
+    var BASE_URL = 'https://woop.co.nz/';
+    var require = {
+        "baseUrl": "https://woop.co.nz/static/version1634033223/frontend/Overdose/woop/en_NZ"
+    };
+</script>
+        <meta charset="utf-8"/><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-1de253074e8c0090a70",applicationID:"446081971"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[u.now()].concat(f(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(8),f=t(9),c=t("ee").get("tracer"),u=t("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){s[e]=i(p+e,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){function r(){return f.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,f=t(10);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],4:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],5:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof m&&!g){var e=Math.round(t.timeStamp),n={type:t.type};e<=p.now()?n.fid=p.now()-e:e>p.offset&&e<=Date.now()?(e-=p.offset,n.fid=p.now()-e):e=p.now(),g=!0,d("timing",["fi",e,n])}}function f(t){"hidden"===t&&d("pageHide",[p.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,u,s,d=t("handle"),p=t("loader"),l=t(7),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,h=["click","keydown","mousedown","pointerdown","touchstart"];h.forEach(function(t){document.addEventListener(t,a,!1)})}l(f)}},{}],6:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],7:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],8:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],9:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],10:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var f=e(i),c=v(n),u=c.length,s=0;s<u;s++)c[s].apply(f,r);var p=d[w[n]];return p&&p.push([b,n,r,f]),f}}function o(t,e){y[t]=v(t).concat(e)}function m(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function v(t){return y[t]||[]}function g(t){return p[t]=p[t]||i(n)}function h(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var y={},w={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:e,buffer:h,abort:f,aborted:!1};return b}function o(t){return u(t,c,a)}function a(){return new r}function f(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",u=t("gos"),s=t(8),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!R++){var t=M.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();f("mark",["onload",n+M.offset],null,"api"),f("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===v.readyState&&o()}function o(){f("mark",["domContent",a()+M.offset],null,"api")}var a=t(3),f=t("handle"),c=t(8),u=t("ee"),s=t(6),d=t(4),p=t(2),l=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,g="addEventListener",h="attachEvent",y=m.XMLHttpRequest,w=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1210.min.js"},O=y&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(5),v[g]?(v[g]("DOMContentLoaded",o,!1),m[g]("load",r,!1)):(v[h]("onreadystatechange",i),m[h]("onload",r)),f("mark",["firstbyte",a.getLastTimestamp()],null,"api");var R=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,c],s],t)}f(n+"start",[o,a,c],s,u);try{return p=e.apply(a,o)}catch(m){throw f(n+"err",[o,a,m],s,u),m}finally{f(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var f,c,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)c=e[u],f=t[c],a(f)||(t[c]=n(f,s?c+r:r,i,c,o))}function f(n,r,o,a){if(!m||e){var f=m;m=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}m=f}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function f(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function c(t,e,n){var r=t[e];t[e]=f(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(9),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;e.exports=r,e.exports.wrapFunction=f,e.exports.wrapInPlace=c,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<meta name="title" content="Pan-seared beef"/>
+<meta name="keywords" content="Magento, Varien, E-commerce"/>
+<meta name="robots" content="INDEX,FOLLOW"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="format-detection" content="telephone=no"/>
+<title>Pan-seared beef</title>
+<link  rel="stylesheet" type="text/css"  media="all" href="https://woop.co.nz/static/version1634033223/frontend/Overdose/woop/en_NZ/mage/calendar.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://woop.co.nz/static/version1634033223/frontend/Overdose/woop/en_NZ/css/styles-m.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://woop.co.nz/static/version1634033223/frontend/Overdose/woop/en_NZ/Magefan_Blog/css/blog-m.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://woop.co.nz/static/version1634033223/frontend/Overdose/woop/en_NZ/Magefan_Blog/css/blog-new.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://woop.co.nz/static/version1634033223/frontend/Overdose/woop/en_NZ/Magefan_Blog/css/blog-custom.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://woop.co.nz/static/version1634033223/frontend/Overdose/woop/en_NZ/mage/gallery/gallery.css" />
+<link  rel="stylesheet" type="text/css"  media="screen and (min-width: 768px)" href="https://woop.co.nz/static/version1634033223/frontend/Overdose/woop/en_NZ/css/styles-l.css" />
+<link  rel="stylesheet" type="text/css"  media="print" href="https://woop.co.nz/static/version1634033223/frontend/Overdose/woop/en_NZ/css/print.css" />
+<script  type="text/javascript"  src="https://woop.co.nz/static/version1634033223/frontend/Overdose/woop/en_NZ/requirejs/require.js"></script>
+<script  type="text/javascript"  src="https://woop.co.nz/static/version1634033223/frontend/Overdose/woop/en_NZ/mage/requirejs/mixins.js"></script>
+<script  type="text/javascript"  src="https://woop.co.nz/static/version1634033223/frontend/Overdose/woop/en_NZ/requirejs-config.js"></script>
+<script  type="text/javascript"  src="https://woop.co.nz/static/version1634033223/frontend/Overdose/woop/en_NZ/mage/polyfill.js"></script>
+<link  rel="canonical" href="https://woop.co.nz/pan-seared-beef-309-2-b.html" />
+<link  rel="icon" type="image/x-icon" href="https://woop.co.nz/media/favicon/default/woop.png" />
+<link  rel="shortcut icon" type="image/x-icon" href="https://woop.co.nz/media/favicon/default/woop.png" />
+<meta name="google-site-verification" content="k3jr5knDjqmM81lBBYFnGsNTa2OJB7Q-0ygqo8HIs4Q" />
+
+<!-- Hotjar Tracking Code for https://woop.co.nz/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:169284,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/6330092.js"></script>
+<!-- End of HubSpot Embed Code -->                    <!-- GOOGLE TAG MANAGER -->
+            <script type="text/x-magento-init">
+            {
+                "*": {
+                    "Magento_GoogleTagManager/js/google-tag-manager": {
+                        "isCookieRestrictionModeEnabled": 0,
+                        "currentWebsite": 1,
+                        "cookieName": "user_allowed_save_cookie",
+                        "gtmAccountId": "GTM\u002DP7TF7HH",
+                        "storeCurrencyCode": "NZD",
+                        "ordersData": []                    }
+                }
+            }
+            </script>
+            <!-- END GOOGLE TAG MANAGER -->
+            <link rel="stylesheet" type="text/css" media="all" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"/>    <script data-cfasync="false">ju_options = {forcejquery: false};
+        window.ju_num = "04D63708-8DAE-4237-AFD9-7647371E20B6";
+        window.asset_host = '//cdn.jst.ai/';
+        (function (i, s, o, g, r, a, m) {
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            };
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', asset_host + 'vck.js', 'juapp');</script>
+    <script type="text/javascript">
+        function send20GiftPost() {
+            var url = '/justuno/data/gift';
+            window.jQuery.ajax({
+                url: url,
+                data: {
+                    form_key: window.jQuery.mage.cookies.get('form_key')
+                },
+                type: 'post',
+                dataType: 'json',
+                success: (function (response) {
+                }).bind(this)
+            });
+        }
+    </script>
+<!-- BEGIN SOLVE WEB SDK INITIALIZATION CODE -->
+<script>!function(e,o){try{window._solve||(window._solve=e,document.head.appendChild(document.createElement("script")).src=o),window.solve||(window.solve={ready:[].push.bind(window._solve.ready=[])})}catch(e){console.error(e)}}({apiKey:"solve-key-a23974e1-d175-4a44-98a9-951440483977",apiUrl:"https://prod-00.woop.solvestack.net"},"https://static.prod-00.woop.solvestack.net/sdk/sdk.js")</script><!-- END SOLVE WEB SDK INITIALIZATION CODE -->
+
+<meta property="og:type" content="product"/>
+<meta property="og:title" content="Pan-seared beef"/>
+<meta property="og:description" content="with sesame drizzle and kimchi fried rice"/>
+<meta property="og:image" content="https://woop.co.nz/media/catalog/product/cache/f4f005ad5960ef8c7b8a08a9a3fc244e/b/-/b-pan-seared-beef_s64dydtpoves1rbu.jpg"/>
+<meta property="og:site_name" content="WOOP!"/>
+<meta property="product:price:amount" content="1"/>
+<meta property="product:price:currency" content="NZD"/>
+<meta name="solve:interests" content="default category" />
+    </head>
+    <body data-container="body"
+          data-mage-init='{"loaderAjax": {}, "loader": { "icon": "https://woop.co.nz/static/version1634033223/frontend/Overdose/woop/en_NZ/images/loader-2.gif"}}'
+          class="catalog-product-view product-pan-seared-beef-309-2-b page-layout-2columns-left">
+        <script>
+    window.sliderConfig = {"tabs":{"16355":{"id":"16355","label":"Foodie","slogan":"Vibrant recipes inspired from around the world.","subtitle":"Globally inspired recipes","forbidden":"Foodie for 1 person is only available for 4 recipes"},"16358":{"id":"16358","label":"Classic","slogan":"Family friendly recipes that will be loved by everyone.","subtitle":"Family kid friendly recipes","forbidden":"Classic is only available for 4 people"},"16361":{"id":"16361","label":"Balance","slogan":"Healthy balanced recipes averaging 550 Kcal","subtitle":"Healthy balanced recipes averaging 550 Kcal","forbidden":"Balance for 1 person is only available for 4 recipes"},"16636":{"id":"16636","label":"Vegetarian","slogan":"Delicious & healthy vegetarian recipes that are quick to prepare.","subtitle":"Delicious & healthy vegetarian recipes","forbidden":"Vegetarian for 1 person is only available for 4 recipes"},"16639":{"id":"16639","label":"Gluten free","slogan":"Gluten free recipes inspired from around the world.","subtitle":"Globally inspired gluten free recipes","forbidden":"Gluten free is only available for 3 recipes"}},"head":{"info_text":"Your First Week Of Recipes","date_text":"For delivery on {date}","additional_info_text":".","help_text":"See your first week of recipes"},"cut_off_position":"after"};
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_PageBuilder/js/widget-initializer": {
+                "config": {"[data-content-type=\"slider\"][data-appearance=\"default\"]":{"Overdose_PageBuilderAddons\/js\/content-type\/slider\/appearance\/default\/widget":false},"[data-content-type=\"map\"]":{"Magento_PageBuilder\/js\/content-type\/map\/appearance\/default\/widget":false},"[data-content-type=\"row\"]":{"Magento_PageBuilder\/js\/content-type\/row\/appearance\/default\/widget":false},"[data-content-type=\"tabs\"]":{"Magento_PageBuilder\/js\/content-type\/tabs\/appearance\/default\/widget":false},"[data-content-type=\"slide\"]":{"Magento_PageBuilder\/js\/content-type\/slide\/appearance\/default\/widget":{"buttonSelector":".pagebuilder-slide-button","showOverlay":"hover","dataRole":"slide"}},"[data-content-type=\"banner\"]":{"Magento_PageBuilder\/js\/content-type\/banner\/appearance\/default\/widget":{"buttonSelector":".pagebuilder-banner-button","showOverlay":"hover","dataRole":"banner"}},"[data-content-type=\"buttons\"]":{"Magento_PageBuilder\/js\/content-type\/buttons\/appearance\/inline\/widget":false},"[data-content-type=\"products\"][data-appearance=\"carousel\"]":{"Magento_PageBuilder\/js\/content-type\/products\/appearance\/carousel\/widget":false},"[data-content-type=\"od_curtains\"]":{"Overdose_PageBuilderCurtainSlider\/js\/content-type\/od-curtains\/appearance\/default\/widget":false}},
+                "breakpoints": {"desktop":{"conditions":{"min-width":"1024px"},"options":{"products":{"default":{"slidesToShow":"5"}}}},"tablet":{"conditions":{"max-width":"1024px","min-width":"768px"},"options":{"products":{"default":{"slidesToShow":"4"},"continuous":{"slidesToShow":"3"}}}},"mobile":{"conditions":{"max-width":"767px","min-width":"640px"},"options":{"products":{"default":{"slidesToShow":"3"}}}},"mobile-small":{"conditions":{"max-width":"640px"},"options":{"products":{"default":{"slidesToShow":"2"},"continuous":{"slidesToShow":"1"}}}}}            }
+        }
+    }
+</script>
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "mage/cookies": {
+                "expires": null,
+                "path": "\u002F",
+                "domain": ".woop.co.nz",
+                "secure": false,
+                "lifetime": "31536000"
+            }
+        }
+    }
+</script>
+    <noscript>
+        <div class="message global noscript">
+            <div class="content">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong>
+                    <span>For the best experience on our site, be sure to turn on Javascript in your browser.</span>
+                </p>
+            </div>
+        </div>
+    </noscript>
+<script>
+    require.config({
+        map: {
+            '*': {
+                wysiwygAdapter: 'mage/adminhtml/wysiwyg/tiny_mce/tinymce4Adapter'
+            }
+        }
+    });
+</script>
+
+<script>
+    window.cookiesConfig = window.cookiesConfig || {};
+    window.cookiesConfig.secure = true;
+</script>
+<script>
+    require.config({
+        paths: {
+            googleMaps: 'https\u003A\u002F\u002Fmaps.googleapis.com\u002Fmaps\u002Fapi\u002Fjs\u003Fv\u003D3\u0026key\u003D'
+        },
+        config: {
+            'Magento_PageBuilder/js/utils/map': {
+                style: ''
+            },
+            'Magento_PageBuilder/js/content-type/map/preview': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwoop.co.nz\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+            'Magento_PageBuilder/js/form/element/map': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwoop.co.nz\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+        }
+    });
+</script>
+
+<script>
+    require.config({
+        shim: {
+            'Magento_PageBuilder/js/utils/map': {
+                deps: ['googleMaps']
+            }
+        }
+    });
+</script>
+    <!-- GOOGLE TAG MANAGER -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7TF7HH"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- END GOOGLE TAG MANAGER -->
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_GoogleTagManager/js/google-tag-manager-cart": {
+                "blockNames": ["category.products.list","product.info.upsell","catalog.product.related","checkout.cart.crosssell","search_result_list"],
+                "cookieAddToCart": "add_to_cart",
+                "cookieRemoveFromCart": "remove_from_cart"
+            }
+        }
+    }
+</script>
+
+    <script>
+        require.config({
+            paths: {
+                'dmpt':  "//r3-t.trackedlink.net/_dmpt"
+            }
+        });
+    </script>
+    <script type="text/x-magento-init">
+        {
+            "*": {
+                "dmpt": {}
+            }
+        }
+    </script>
+<script type="text/x-magento-init">
+    {"*": {"Dotdigitalgroup_Email/js/webBehaviorTracking": {"id": "DM-5108198354-03"}}}
+</script>
+<div class="page-wrapper"><header class="page-header"><div class="header content"><span data-action="toggle-nav" class="action nav-toggle"><span>Toggle Nav</span></span>
+<a
+    class="logo"
+    href="https://woop.co.nz/"
+    title=""
+    aria-label="store logo">
+    <img src="https://woop.co.nz/static/version1634033223/frontend/Overdose/woop/en_NZ/images/logo.svg"
+         title=""
+         alt=""
+                            />
+</a>
+    <div class="sections nav-sections">
+        <span class="close-mobile-menu" data-action="toggle-nav"></span>
+                <div class="section-items nav-sections-items"
+             data-mage-init='&#x7B;&quot;tabs&quot;&#x3A;&#x7B;&quot;openedState&quot;&#x3A;&quot;active&quot;&#x7D;&#x7D;'>
+                                            <div class="section-item-content nav-sections-item-content"
+                     id="store.menu"
+                     data-role="content">
+                    
+<nav class="navigation" data-action="navigation">
+    <div class="navigation-check" data-bind="scope: 'customer'">
+        <div data-bind="afterRender: isVisible" style="display: none;">
+            <!-- ko if: customer().firstname  -->
+                <div class="display-block" data-content-type="row" data-appearance="full-bleed" data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-video-fallback-src="" data-element="main" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;"><div data-content-type="html" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-decoded="true"><ul>
+<li><a href="https://woop.co.nz/customer/account/dashboard/">Dashboard</a></li>
+<li><a href="https://woop.co.nz/customer/account/mydeliveries/">My Deliveries</a></li>
+<li><a href="https://woop.co.nz/customer/account/myrecipes/">My Recipes</a></li>
+<li><a href="https://woop.co.nz/customer/account/referral/">Refer a Friend</a></li>
+<li><a href="https://woop.co.nz/sustainability/">Sustainability</a></li>
+<li><a href="https://woop.co.nz/christmas-box/">Christmas</a></li>
+</ul></div></div>            <!-- /ko -->
+            <!-- ko ifnot: customer().firstname  -->
+                <div data-content-type="row" data-appearance="full-bleed" data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-video-fallback-src="" data-element="main" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: contain; background-repeat: no-repeat; background-attachment: scroll; text-align: left; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;"><div data-content-type="html" data-appearance="default" data-element="main" style="text-align: left; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-decoded="true"><ul>
+<li><a href="https://woop.co.nz/menu-and-plans/">Menu & Plans</a></li>
+<li><a href="https://woop.co.nz/how-it-works/">How It Works</a></li>
+<li><a href="https://woop.co.nz/sustainability/">Sustainability</a></li>
+<li><a href="https://woop.co.nz/christmas-box/">Christmas</a></li>
+<li><a href="https://woop.co.nz/covid19/">Covid-19</a></li>
+</ul></div></div>            <!-- /ko -->
+        </div>
+    </div>
+    <ul class="woop-authorization-link not-logged" data-bind="scope: 'customer'">
+    <!-- ko if: customer().firstname  -->
+    <li class="user-initials" style="display:none;"
+             data-bind="{style: {display:'inline-block'}, text: userInitials()}"></li>
+    <li class="user-data"><a href="#" style="display:none;"
+            data-bind="style: {display:'inline-block'}">
+            <span
+                data-bind="text: new String('Hi %1').replace('%1', customer().firstname)"></span></a>
+        <div class="level0 submenu ui-menu" role="menu" aria-hidden="true" aria-expanded="false">
+            <ul>
+                <li>
+                    <a href="https://woop.co.nz/sales/recipeOrder/history/">Order History</a>
+                </li>
+                <li><a href="https://woop.co.nz/customer/account/index/">ACCOUNT DETAILS</a></li>
+                <li><a href="https://help.woop.co.nz/">Help</a></li>
+                <li class="user-logout"><a href="https://woop.co.nz/customer/account/logout/"
+                        style="display:none;"
+                        data-bind="style: {display:'block'}">Log Out</a>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <!-- /ko -->
+    <!-- ko ifnot: customer().firstname  -->
+        <li><a href="https://woop.co.nz/customer/account/login/">Log In</a></li>
+        <li><a href="https://woop.co.nz/signup/" class="get-start-link">GET STARTED</a></li>
+    <!-- /ko -->
+</ul>
+<script type="text/x-magento-init">
+  {
+    ".woop-authorization-link": {
+      "Magento_Ui/js/core/app": {
+        "components": {
+          "customer": {
+            "component": "Magento_Customer/js/view/customer"
+          }
+        }
+      }
+    }
+  }
+</script>
+</nav>
+
+<script type="text/x-magento-init">
+    {
+        ".navigation-check": {
+          "Magento_Ui/js/core/app": {
+            "components": {
+              "customer": {
+                "component": "Magento_Customer/js/view/customer"
+              }
+            }
+          }
+        },
+         ".navigation > ul": {
+            "menu": {
+                "responsive":true,
+                 "expanded":true,
+                 "position":{"my":"left top","at":"left bottom"}
+            }
+        }
+    }
+</script>                </div>
+                    </div>
+    </div>
+</div></header><script>
+    window.woopConfig = {"weeks":{"21":297,"22":298,"23":299,"24":300,"25":301,"26":302,"27":303,"28":304,"29":305,"30":306,"31":307,"32":308,"33":309,"34":310,"35":311,"36":312,"37":313,"38":314,"39":315,"40":316,"41":317,"42":318,"43":319,"44":320,"45":321,"46":322,"47":323,"48":324,"49":325,"50":326,"51":327,"52":328,"1":329,"2":330,"3":331,"4":332,"5":333,"6":334,"7":335,"8":336,"9":337,"10":338,"11":339,"12":340,"13":341,"14":342,"15":343,"16":344,"17":345,"18":346}};
+</script>
+<div class="notification-block messages" data-bind="scope: 'woop_messages'">
+    <!-- ko template: getTemplate() --><!-- /ko -->
+</div>
+<script type="text/x-magento-init">
+{
+    "*": {
+        "Magento_Ui/js/core/app": {
+            "components": {
+                "woop_messages": {
+                    "component": "Overdose_Woop/js/view/messages"
+                }
+            }
+        }
+    }
+}
+</script>
+<div class="page messages"><div data-placeholder="messages"></div>
+<div data-bind="scope: 'messages'">
+    <!-- ko if: cookieMessages && cookieMessages.length > 0 -->
+    <div role="alert" data-bind="foreach: { data: cookieMessages, as: 'message' }" class="messages">
+        <div data-bind="attr: {
+            class: 'page-message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }, visible: $parent.isVisible(message.type)">
+            <div class="text" data-bind="html: message.text"></div>
+            <div class="close" data-bind="attr: {'data-id': 'message-' + message.type}, click: $parent.removeMessage.bind(message.type)"></div>
+        </div>
+    </div>
+    <!-- /ko -->
+    <!-- ko if: messages().messages && messages().messages.length > 0 -->
+    <div role="alert" data-bind="foreach: { data: messages().messages, as: 'message' }" class="messages">
+        <div data-bind="attr: {
+            class: 'page-message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }, visible: $parent.isVisible(message.type)">
+            <div class="text" data-bind="html: message.text"></div>
+            <div class="close" data-bind="attr: {'data-id': 'message-' + message.type}, click: $parent.removeMessage.bind(message.type)"></div>
+        </div>
+    </div>
+    <!-- /ko -->
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                        "messages": {
+                            "component": "Magento_Theme/js/view/messages"
+                        }
+                    }
+                }
+            }
+    }
+</script>
+</div><main id="maincontent" class="page-main"><a id="contentarea" tabindex="-1"></a>
+<div class="columns"><div class="column main"><div class="block-information">
+    <div class="block-content">
+        <a class="action back" href="https://woop.co.nz/ourrecipes/">
+            <span>Back to Recipes</span>
+        </a>
+        <div class="product-reviews-summary" style="display: none;">
+            <div class="rating-summary">
+                <span class="title"><span>Your Rating:</span></span>
+                <div class="rating-result">
+                    <span class="rating-percent" style="width: 0;"><span><span class="rating-value" >0</span>% of <span >100</span></span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    require([
+        'jquery',
+        'mage/url',
+        'domReady!',
+        'mage/cookies'
+    ], function($, urlBuilder) {
+        $.ajax({
+            url: urlBuilder.build('recipes/ajax/customer'),
+            data: {
+                form_key: $.mage.cookies.get('form_key'),
+                product_id: "18656"
+            },
+            type: 'post',
+            dataType: 'json',
+            success: (function (response) {
+                if (!response.error) {
+                    if (response.customer) {
+                        $('.block-information .back').attr("href", urlBuilder.build('customer/account/myrecipes/'));
+                        $('.product-reviews-summary').show();
+                        $('.page-footer').hide();
+                        if (response.rating > 0) {
+                            $('.rating-percent').css('width', response.rating + '%');
+                            $('.rating-percent').find('.rating-value').html(response.rating);
+                        }
+                    }
+                }
+            }).bind(this)
+        });
+    });
+</script>
+<div class="product media"><a id="gallery-prev-area" tabindex="-1"></a>
+<div class="action-skip-wrapper"><a class="action skip gallery-next-area"
+   href="#gallery-next-area">
+    <span>
+        Skip to the end of the images gallery    </span>
+</a>
+</div>
+
+<div class="gallery-placeholder _block-content-loading" data-gallery-role="gallery-placeholder" style="background: url(https://woop.co.nz/media/catalog/product/cache/900b7bc4c72456d01ec519bdae116ec7/b/-/b-pan-seared-beef_s64dydtpoves1rbu.jpg) center; background-size: cover;">
+
+</div>
+
+
+<script type="text/x-magento-init">
+    {
+        "[data-gallery-role=gallery-placeholder]": {
+            "Magento_ProductVideo/js/fotorama-add-video-events": {
+                "videoData": [{"mediaType":"image","videoUrl":null,"isBase":false},{"mediaType":"image","videoUrl":null,"isBase":false},{"mediaType":"image","videoUrl":null,"isBase":false},{"mediaType":"image","videoUrl":null,"isBase":false},{"mediaType":"image","videoUrl":null,"isBase":false},{"mediaType":"image","videoUrl":null,"isBase":false},{"mediaType":"image","videoUrl":null,"isBase":true}],
+                "videoSettings": [{"playIfBase":"0","showRelated":"0","videoAutoRestart":"0"}],
+                "optionsVideoData": []            }
+        }
+    }
+</script>
+<div class="action-skip-wrapper"><a class="action skip gallery-prev-area"
+   href="#gallery-prev-area">
+    <span>
+        Skip to the beginning of the images gallery    </span>
+</a>
+</div><a id="gallery-next-area" tabindex="-1"></a>
+</div><div class="page-title-wrapper&#x20;product">
+    <h1 class="page-title"
+                >
+        <span class="base" data-ui-id="page-title-wrapper" >Pan-seared beef </span>    </h1>
+    
+    <div class="product attribute short-description">
+        <div class="value" >with sesame drizzle and kimchi fried rice</div>
+    </div>
+</div>
+<div class="cook-time" data-product-id="18656">
+    <p>Ready in around 20 mins</p>
+</div>
+<div class="product-info"><div class="top">    <div class="product attribute recipe-origins">
+        <strong class="type">RECIPE FACT:</strong>
+        <div class="value">Kimchi is a fermented food which means it contains probiotics that could have benefits for gut health.</div>
+    </div>
+<div class="product attribute nutritional-info">
+    <div class="container">
+                    <strong class="type">Nutritional Info:</strong>
+                                    <div class="value" ><ul> <li>Energy: 2322kj (554Kcal)</li> <li>Protein: 43g</li> <li>Carbohydrate: 43g</li> <li>Fat: 23g</li> <li>Contains: Soy, Sesame, Gluten, Milk, Egg</li> </ul> 
+
+
+
+
+
+</div>
+            </div>
+    </div>
+</div><div class="bottom"><div class="product attribute serving-amount">
+    <strong class="type">Serving Amount:</strong>
+    <div class="value">Serves 2 people</div>
+</div>
+<div class="share-product-block"><div class="product-social-wrapper">
+    <strong class="type">
+        Share Via:    </strong>
+    <div>
+        <div class="product-social-links">
+
+<a class="action mailto" href="mailto:?subject=Woop%27s%20recipe%20for%20Pan-seared%20beef%20&body=Pan-seared%20beef%20%20with%20sesame%20drizzle%20and%20kimchi%20fried%20rice%0AClick%20to%20view%20recipe%3A%20%3Ca%20href%3D%27https%3A%2F%2Fwoop.co.nz%2Fpan-seared-beef-309-2-b.html%27%3Ehttps%3A%2F%2Fwoop.co.nz%2Fpan-seared-beef-309-2-b.html%3C%2Fa%3E"  title="Share via email"></a>
+<a class="action add-to-facebook" href="https://www.facebook.com/sharer/sharer.php?u=" onclick='javascript:window.open(this.href,"","width=640,height=480,left=0,top=0,location=no,status=yes,scrollbars=yes,resizable=yes");return false' title="Share on facebook"></a>
+<a class="action pinterest" href="https://www.pinterest.com/pin/create/button/"
+   data-pin-do="buttonBookmark"
+   data-pin-custom="true">
+</a>
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+</div>    </div>
+</div>
+<div class="download-pdf">
+    <strong class="type">
+        Download PDF:    </strong>
+    <div>
+        <a href="#" class="action download">
+            <span>
+                Download            </span>
+        </a>
+    </div>
+</div>
+<script type="text/x-magento-init">
+    {
+        ".download": {
+            "Overdose_Recipes/js/download-pdf": {
+                "product_id": "18656"
+            }
+        }
+    }
+</script></div></div></div><div class="cooking-attribute product"><div class="product attribute cooking-instructions">
+    <div class="container">
+                    <strong class="type">Cooking Instructions:</strong>
+                                    <div class="value" ><ul> <li> <h5> 1. TO PREPARE THE VEGETABLES: </h5> <p> Slice the capsicum into ½ cm slices. Cut the root end off the bok choy, discard and slice into 1 cm slices. Finely slice the kimchi.</p> </li> <li> <h5> 2. TO COOK THE KIMCHI RICE: </h5> <p> Spray a non-stick frying pan with oil and place over a medium-high heat. Once hot add the sliced capsicum and cook for 2-3 mins stirring occasionally to create a char. Open the bag of steamed brown rice, squeezing gently on the bag to break up any large clumps and add to the pan with the bok choy, edamame and peas and cook for 1-2 mins. Pour in the Korean seasoning and add half the kimchi, stir and cook for 1-2 mins. Season with salt to taste, remove from the pan and cover to keep warm.</p> </li> <li> <h5> 3. TO COOK THE BEEF SIRLOIN: </h5> <p> Remove the beef sirloin from its packaging and pat dry with a paper towel. Respray the pan with oil and place over a high heat. Season the beef with salt and pepper and place in the hot pan. Cook for 2-3 mins each side for medium-rare, a little longer for well done. Rest for 1-2 mins before slicing. </p> </li> <li> <h5> TO SERVE: </h5> <p> Spoon kimchi fried rice onto plates and top with sliced beef sirloin. Dollop with sesame drizzle and sprinkle remaining kimchi and sesame sprinkle on top.</p> </li> <li> <h5> </h5> <p> </p> </li> <li> <h5> </h5> <p> </p> </li> </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+            </div>
+    </div>
+<div class="product attribute ingredients">
+    <div class="container">
+                    <strong class="type">Ingredients</strong>
+                            <span class="delivery-title">In your box:</span>
+                            <div class="value" ><ul> <li>1 pack of beef sirloin</li><li>1 pack of steamed brown rice</li><li>1 pot of Korean seasoning</li><li>1 pot of sesame drizzle</li><li>1 pot of kimchi</li><li>1 sachet of sesame sprinkle</li><li>1 pot of edamame and peas</li><li>1 capsicum</li><li>1 bag of bok choy</li><li></li><li></li></ul>
+
+
+
+
+
+
+
+
+</div>
+            </div>
+    </div>
+</div><div class="recipe-bottom-block"><div class="recipe-bottom-text" data-content-type="row" data-appearance="full-width" data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-element="main" style="justify-content: center; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px;"><div class="row-full-width-inner" data-element="inner"><h1 data-content-type="heading" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px;">SHARE YOUR
+CREATION WITH US!</h1><div data-content-type="text" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;"></div></div></div><div class="recipe-bottom-images-block" data-content-type="row" data-appearance="full-width" data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-element="main" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px;"><div class="row-full-width-inner" data-element="inner"><figure data-content-type="image" data-appearance="full-width" data-element="main" style="margin: 0px; padding: 0px; border-style: none;"><img class="pagebuilder-mobile-hidden" src="https://woop.co.nz/media/wysiwyg/Bitmap_3_.png" alt="" title="" data-element="desktop_image" style="border-style: none; border-width: 1px; border-radius: 0px; max-width: 100%; height: auto;"><img class="pagebuilder-mobile-only" src="https://woop.co.nz/media/wysiwyg/Bitmap_3_.png" alt="" title="" data-element="mobile_image" style="border-style: none; border-width: 1px; border-radius: 0px; max-width: 100%; height: auto;"></figure><figure data-content-type="image" data-appearance="full-width" data-element="main" style="margin: 0px; padding: 0px; border-style: none;"><img class="pagebuilder-mobile-hidden" src="https://woop.co.nz/media/wysiwyg/Bitmap_4_.png" alt="" title="" data-element="desktop_image" style="border-style: none; border-width: 1px; border-radius: 0px; max-width: 100%; height: auto;"><img class="pagebuilder-mobile-only" src="https://woop.co.nz/media/wysiwyg/Bitmap_4_.png" alt="" title="" data-element="mobile_image" style="border-style: none; border-width: 1px; border-radius: 0px; max-width: 100%; height: auto;"></figure><figure data-content-type="image" data-appearance="full-width" data-element="main" style="margin: 0px; padding: 0px; border-style: none;"><img class="pagebuilder-mobile-hidden" src="https://woop.co.nz/media/wysiwyg/Bitmap_5_.png" alt="" title="" data-element="desktop_image" style="border-style: none; border-width: 1px; border-radius: 0px; max-width: 100%; height: auto;"><img class="pagebuilder-mobile-only" src="https://woop.co.nz/media/wysiwyg/Bitmap_5_.png" alt="" title="" data-element="mobile_image" style="border-style: none; border-width: 1px; border-radius: 0px; max-width: 100%; height: auto;"></figure><figure data-content-type="image" data-appearance="full-width" data-element="main" style="margin: 0px; padding: 0px; border-style: none;"><img class="pagebuilder-mobile-hidden" src="https://woop.co.nz/media/wysiwyg/Bitmap_6_.png" alt="" title="" data-element="desktop_image" style="border-style: none; border-width: 1px; border-radius: 0px; max-width: 100%; height: auto;"><img class="pagebuilder-mobile-only" src="https://woop.co.nz/media/wysiwyg/Bitmap_6_.png" alt="" title="" data-element="mobile_image" style="border-style: none; border-width: 1px; border-radius: 0px; max-width: 100%; height: auto;"></figure><div data-content-type="text" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;"><p>use the hashtag #woopnz to be featured</p></div></div></div></div>    <div class="product info detailed">
+                <div class="product data items" data-mage-init='{"tabs":{"openedState":"active"}}'>
+                                                    </div>
+    </div>
+<input name="form_key" type="hidden" value="NTj9KOP68tRcjf2q" /><div id="authenticationPopup" data-bind="scope:'authenticationPopup'" style="display: none;">
+    <script>
+        window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/woop.co.nz\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/woop.co.nz\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/woop.co.nz\/"};
+    </script>
+    <!-- ko template: getTemplate() --><!-- /ko -->
+    <script type="text/x-magento-init">
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"},"msp_recaptcha":{"component":"MSP_ReCaptcha\/js\/reCaptcha","displayArea":"additional-login-form-fields","configSource":"checkoutConfig","reCaptchaId":"msp-recaptcha-popup-login","zone":"login","badge":"inline","settings":{"siteKey":"6LdDUtIZAAAAADd03zcTbBWmUbxCeuHOrzlg93Kk","size":"invisible","badge":"bottomright","theme":null,"lang":null,"enabled":{"login":true,"create":false,"forgot":true,"contact":true,"review":false,"newsletter":true,"sendfriend":false,"paypal":false}}},"amazon-button":{"component":"Amazon_Login\/js\/view\/login-button-wrapper","sortOrder":"0","displayArea":"additional-login-form-fields","config":{"tooltip":"Securely login into our website using your existing Amazon details.","componentDisabled":true}}}}}}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fwoop.co.nz\u002Fstatic\u002Fversion1634033223\u002Ffrontend\u002FOverdose\u002Fwoop\u002Fen_NZ\u002Fimages\u002Floader\u002D1.gif"
+            }
+        }
+    </script>
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/section-config": {
+                "sections": {"stores\/store\/switch":["*"],"stores\/store\/switchrequest":["*"],"directory\/currency\/switch":["*"],"*":["messages"],"customer\/account\/logout":["*","recently_viewed_product","recently_compared_product","persistent"],"customer\/account\/loginpost":["*"],"customer\/account\/createpost":["*"],"customer\/account\/editpost":["*"],"customer\/ajax\/login":["checkout-data","cart","captcha","subscription","calendar-data-week","accountaddresses"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"checkout\/cart\/add":["cart","directory-data"],"checkout\/cart\/delete":["cart"],"checkout\/cart\/updatepost":["cart"],"checkout\/cart\/updateitemoptions":["cart"],"checkout\/cart\/couponpost":["cart"],"checkout\/cart\/estimatepost":["cart"],"checkout\/cart\/estimateupdatepost":["cart"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items","accountaddresses"],"checkout\/sidebar\/removeitem":["cart"],"checkout\/sidebar\/updateitemqty":["cart"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","last-ordered-items","instant-purchase"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data","instant-purchase"],"authorizenet\/directpost_payment\/place":["cart","checkout-data"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"customer_order\/cart\/updatefaileditemoptions":["cart"],"checkout\/cart\/updatefaileditemoptions":["cart"],"customer_order\/cart\/advancedadd":["cart"],"checkout\/cart\/advancedadd":["cart"],"checkout\/cart\/removeallfailed":["cart"],"customer_order\/cart\/addfaileditems":["cart"],"checkout\/cart\/addfaileditems":["cart"],"customer_order\/sku\/uploadfile":["cart"],"paypal\/express\/placeorder":["cart","checkout-data"],"paypal\/payflowexpress\/placeorder":["cart","checkout-data"],"paypal\/express\/onauthorization":["cart","checkout-data"],"customer\/address\/*":["instant-purchase"],"customer\/account\/*":["instant-purchase"],"vault\/cards\/deleteaction":["instant-purchase"],"wishlist\/index\/copyitem":["wishlist"],"wishlist\/index\/copyitems":["wishlist"],"wishlist\/index\/deletewishlist":["wishlist","multiplewishlist"],"wishlist\/index\/createwishlist":["multiplewishlist"],"wishlist\/index\/editwishlist":["multiplewishlist"],"wishlist\/index\/moveitem":["wishlist"],"wishlist\/index\/moveitems":["wishlist"],"wishlist\/search\/addtocart":["cart","wishlist"],"multishipping\/checkout\/overviewpost":["cart"],"braintree\/paypal\/placeorder":["cart","checkout-data"],"persistent\/index\/unsetcookie":["persistent"],"giftregistry\/index\/cart":["cart"],"giftregistry\/view\/addtocart":["cart"],"review\/product\/post":["review"],"customer\/action\/activateplan":["subscription","calendar-data-week"],"customer\/action\/cancelplan":["subscription","calendar-data-week"],"customer\/action\/pauseplan":["subscription","calendar-data-week"],"customer\/action\/savepreference":["subscription","calendar-data-week"],"customer\/ajax\/retrycard":["subscription","calendar-data-week"],"review\/ajax\/post":["calendar-data-week"],"offer_pricing\/ajax\/saveselectedoffer":["offer-list-block"],"ewayrapid\/mycards\/save":["subscription","calendar-data-week"],"rest\/v1\/schedule\/schedule\/my\/status\/*":["calendar-data-week"],"rest\/v1\/schedule\/schedule\/my\/deliverydate\/*":["calendar-data-week"],"rest\/default\/v1\/subscriber\/subscription\/my\/*\/addon":["calendar-data-week"],"signup\/index\/register":["*"]},
+                "clientSideSections": ["checkout-data","cart-data","chatData"],
+                "baseUrls": ["https:\/\/woop.co.nz\/"],
+                "sectionNames": ["messages","customer","compare-products","last-ordered-items","cart","directory-data","captcha","wishlist","instant-purchase","multiplewishlist","persistent","review","chatData","accountaddresses","coupon-data","calendar-data-week","subscription","campaign-reward-data","loyalty-reward","offer-list-block","recently_viewed_product","recently_compared_product","product_data_storage","paypal-billing-agreement"]            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/customer-data": {
+                "sectionLoadUrl": "https\u003A\u002F\u002Fwoop.co.nz\u002Fcustomer\u002Fsection\u002Fload\u002F",
+                "expirableSectionLifetime": 60,
+                "expirableSectionNames": ["cart","persistent","subscription","calendar-data-week"],
+                "cookieLifeTime": "31536000",
+                "updateSessionUrl": "https\u003A\u002F\u002Fwoop.co.nz\u002Fcustomer\u002Faccount\u002FupdateSession\u002F",
+                "sectionLifetimeByName": "\u005B\u007B\u0022section\u0022\u003A\u0022subscription\u0022,\u0022lifetime\u0022\u003A10\u007D,\u007B\u0022section\u0022\u003A\u0022calendar\u002Ddata\u002Dweek\u0022,\u0022lifetime\u0022\u003A10\u007D\u005D"
+            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/invalidation-processor": {
+                "invalidationRules": {
+                    "website-rule": {
+                        "Magento_Customer/js/invalidation-rules/website-rule": {
+                            "scopeConfig": {
+                                "websiteId": "1"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/woop.co.nz\/page_cache\/block\/render\/id\/18656\/","handles":["default","catalog_product_view","catalog_product_view_type_simple","catalog_product_view_id_18656","catalog_product_view_sku_RecipeJ_2_w309"],"originalRequest":{"route":"catalog","controller":"product","action":"view","uri":"\/pan-seared-beef-309-2-b.html"},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+<script type="text/x-magento-init">
+{
+    "*": {
+        "Magento_Banner/js/model/banner":
+            {"sectionLoadUrl":"https:\/\/woop.co.nz\/banner\/ajax\/load\/","cacheTtl":30000}        }
+}
+</script>
+
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "requireCookie": {"noCookieUrl":"https:\/\/woop.co.nz\/cookie\/index\/noCookies\/","triggers":[".review .action.submit"],"isRedirectCmsPage":true}        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+                "Magento_Catalog/js/product/view/provider": {
+                    "data": {"items":{"18656":{"add_to_cart_button":{"post_data":"{\"action\":\"https:\\\/\\\/woop.co.nz\\\/checkout\\\/cart\\\/add\\\/uenc\\\/%25uenc%25\\\/product\\\/18656\\\/\",\"data\":{\"product\":\"18656\",\"uenc\":\"%uenc%\"}}","url":"https:\/\/woop.co.nz\/checkout\/cart\/add\/uenc\/%25uenc%25\/product\/18656\/","required_options":false},"add_to_compare_button":{"post_data":null,"url":"{\"action\":\"https:\\\/\\\/woop.co.nz\\\/catalog\\\/product_compare\\\/add\\\/\",\"data\":{\"product\":\"18656\",\"uenc\":\"aHR0cHM6Ly93b29wLmNvLm56L3Bhbi1zZWFyZWQtYmVlZi0zMDktMi1iLmh0bWw,\"}}","required_options":null},"price_info":{"final_price":1,"max_price":1,"max_regular_price":1,"minimal_regular_price":1,"special_price":null,"minimal_price":1,"regular_price":1,"formatted_prices":{"final_price":"<span class=\"price\">$1.00<\/span>","max_price":"<span class=\"price\">$1.00<\/span>","minimal_price":"<span class=\"price\">$1.00<\/span>","max_regular_price":"<span class=\"price\">$1.00<\/span>","minimal_regular_price":null,"special_price":null,"regular_price":"<span class=\"price\">$1.00<\/span>"},"extension_attributes":{"msrp":{"msrp_price":"<span class=\"price\">$0.00<\/span>","is_applicable":"","is_shown_price_on_gesture":"","msrp_message":"","explanation_message":"Our price is lower than the manufacturer&#039;s &quot;minimum advertised price.&quot; As a result, we cannot show you the price in catalog or the product page. <br><br> You have no obligation to purchase the product once you know the price. You can simply remove the item from your cart."},"tax_adjustments":{"final_price":1,"max_price":1,"max_regular_price":1,"minimal_regular_price":1,"special_price":1,"minimal_price":1,"regular_price":1,"formatted_prices":{"final_price":"<span class=\"price\">$1.00<\/span>","max_price":"<span class=\"price\">$1.00<\/span>","minimal_price":"<span class=\"price\">$1.00<\/span>","max_regular_price":"<span class=\"price\">$1.00<\/span>","minimal_regular_price":null,"special_price":"<span class=\"price\">$1.00<\/span>","regular_price":"<span class=\"price\">$1.00<\/span>"}},"weee_attributes":[],"weee_adjustment":"<span class=\"price\">$1.00<\/span>"}},"images":[{"url":"https:\/\/woop.co.nz\/media\/catalog\/product\/cache\/29973cc5c7d7e3102acd24c554374be9\/b\/-\/b-pan-seared-beef_s64dydtpoves1rbu.jpg","code":"recently_viewed_products_grid_content_widget","height":300,"width":240,"label":"Pan-seared beef ","resized_width":240,"resized_height":300},{"url":"https:\/\/woop.co.nz\/media\/catalog\/product\/cache\/27068e68555b5c1b3b68037e7bae4364\/b\/-\/b-pan-seared-beef_s64dydtpoves1rbu.jpg","code":"recently_viewed_products_list_content_widget","height":340,"width":270,"label":"Pan-seared beef ","resized_width":270,"resized_height":340},{"url":"https:\/\/woop.co.nz\/media\/catalog\/product\/cache\/ae727f690ec70705c3c840cc829cba7e\/b\/-\/b-pan-seared-beef_s64dydtpoves1rbu.jpg","code":"recently_viewed_products_images_names_widget","height":90,"width":86,"label":"Pan-seared beef ","resized_width":86,"resized_height":90},{"url":"https:\/\/woop.co.nz\/media\/catalog\/product\/cache\/29973cc5c7d7e3102acd24c554374be9\/b\/-\/b-pan-seared-beef_s64dydtpoves1rbu.jpg","code":"recently_compared_products_grid_content_widget","height":300,"width":240,"label":"Pan-seared beef ","resized_width":240,"resized_height":300},{"url":"https:\/\/woop.co.nz\/media\/catalog\/product\/cache\/27068e68555b5c1b3b68037e7bae4364\/b\/-\/b-pan-seared-beef_s64dydtpoves1rbu.jpg","code":"recently_compared_products_list_content_widget","height":340,"width":270,"label":"Pan-seared beef ","resized_width":270,"resized_height":340},{"url":"https:\/\/woop.co.nz\/media\/catalog\/product\/cache\/ae727f690ec70705c3c840cc829cba7e\/b\/-\/b-pan-seared-beef_s64dydtpoves1rbu.jpg","code":"recently_compared_products_images_names_widget","height":90,"width":86,"label":"Pan-seared beef ","resized_width":86,"resized_height":90}],"url":"https:\/\/woop.co.nz\/pan-seared-beef-309-2-b.html","id":18656,"name":"Pan-seared beef ","type":"simple","is_salable":"1","store_id":1,"currency_code":"NZD","extension_attributes":{"wishlist_button":{"post_data":null,"url":"{\"action\":\"https:\\\/\\\/woop.co.nz\\\/wishlist\\\/index\\\/add\\\/\",\"data\":{\"product\":18656,\"uenc\":\"aHR0cHM6Ly93b29wLmNvLm56L3Bhbi1zZWFyZWQtYmVlZi0zMDktMi1iLmh0bWw,\"}}","required_options":null},"review_html":"    <div class=\"product-reviews-summary short empty\">\n        <div class=\"reviews-actions\">\n            <a class=\"action add\" href=\"https:\/\/woop.co.nz\/pan-seared-beef-309-2-b.html#review-form\">\n                Be the first to review this product            <\/a>\n        <\/div>\n    <\/div>\n","ddg_sku":"RecipeJ_2_w309","ddg_image":"https:\/\/woop.co.nz\/media\/catalog\/product\/cache\/c024c37220f3751af163717b1e0819c3\/b\/-\/b-pan-seared-beef_s64dydtpoves1rbu.jpg","ddg_categories":["Default Category"]}}},"store":"1","currency":"NZD","productCurrentScope":"website"}            }
+        }
+    }
+</script>
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Product","name":"Pan-seared beef","sku":"RecipeJ_2_w309","model":"Pan-seared beef","description":"with sesame drizzle and kimchi fried rice","gtin8":"RecipeJ_2_w309","offers":{"@type":"Offer","url":"https:\/\/woop.co.nz\/pan-seared-beef-309-2-b.html","price":"1.00","priceCurrency":"NZD","priceValidUntil":"2030-01-01","sku":"RecipeJ_2_w309","gtin":"RecipeJ_2_w309"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.21","ratingCount":85,"bestRating":5,"reviewCount":85}}</script><script>
+    require([
+        'jquery',
+        'slickSlider'
+    ], function ($) {
+        $(function () {
+            $('.customer-testimonials .testimonials-slides-wrapper').not('.slick-initialized').slick({
+                speed: 300,
+                infinite: false,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                swipe: false,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            arrows: false,
+                            dots: true,
+                            swipe: true,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            swipe: true,
+                            arrows: false,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            dots: true
+                        }
+                    }
+                ]
+            });
+        });
+    });
+</script>
+</div></div></main><footer class="page-footer"><div class="footer content"><div class="footer-top-block"><div class="block newsletter">
+    <div class="title"><strong>Newsletter</strong></div>
+    <div class="content">
+        <form class="form subscribe"
+            novalidate
+            action="https://woop.co.nz/newsletter/subscriber/new/"
+            method="post"
+            data-mage-init='{"validation": {"errorClass": "mage-error"}}'
+            id="newsletter-validate-detail">
+            <div class="field newsletter">
+                <div class="control">
+                    <label for="newsletter">
+                        <p class="label">
+                            SIGN-UP FOR UPDATES AND SPECIAL OFFERS                        </p>
+                        <div class="newsletter-input-wrapper">
+                            <div class="single-input-wrapper">
+                                <input name="email" type="email" id="newsletter"
+                                    placeholder="Email Address"
+                                    data-mage-init='{"mage/trim-input":{}}'
+                                    data-validate="{required:true, 'validate-email':true}"
+                                />
+                            </div>
+                            <div class="single-input-wrapper">
+                                <input name="name" type="text" id="name-newsletter"
+                                    placeholder="First Name"
+                                    data-mage-init='{"mage/trim-input":{}}'
+                                    data-validate="{required:true, 'validate-no-empty':true}"
+                                />
+                            </div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="action subscribe primary button-primary-large"
+                    title="Go"
+                    type="submit"
+                    aria-label="Subscribe">
+                    <span>Go</span>
+                </button>
+            </div>
+        </form>
+    </div>
+    <div class="as-see-in">
+                <div data-content-type="row" data-appearance="full-bleed" data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-element="main" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;"><div data-content-type="html" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-decoded="true"><h5>AS SEEN IN…</h5>
+<ul>
+<li><a href="http://www.stuff.co.nz/business/small-business/71649804/Woop-takes-on-My-Food-Bag-in-fight-for-country-s-kitchens" target="none"><img src="https://woop.co.nz/media/stuff.png" alt="stuff"></a></li>
+<li><a href="http://fresh.co.nz/world-on-our-plate/" target="none"><img src="https://woop.co.nz/media/fresh.png" alt="fresh"></a></li>
+<li><a href="http://www.fmcgbusiness.co.nz/woop-brings-the-world-to-your-plate/" target="none"><img src="https://woop.co.nz/media/fmcg.png" alt="fmcg"></a></li>
+<li><a href="https://www.nzherald.co.nz/small-business-sme/news/article.cfm?c_id=85&objectid=11600713" target="none"><img src="https://woop.co.nz/media/new-zealand.png" alt="new-zealand"></a></li>
+</ul></div></div>    </div>
+</div>
+
+<div class="woop-footer-links js-footer-middle">
+    <div class="woop-footer-links-block paragraph-large">
+        <div data-role="collapsible">
+            <h6>ABOUT WOOP</h6>
+        </div>
+        <div data-role="content">
+            <div data-content-type="row" data-appearance="full-bleed" data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-element="main" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;"><div data-content-type="html" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-decoded="true"><ul>
+<li><a title="Menu &amp; Plans" href="/menu-and-plans">Menu &amp; Plans</a></li>
+<li><a title="How it Works" href="/how-it-works">How it Works</a></li>
+<li><a title="Our Philosphy" href="/our-philosophy">Our Philosphy</a></li>
+<li><a title="Gift Card" href="/gift-card">Gift Card</a></li>
+<li><a title="Blog" href="/blog">Blog</a></li>
+<li><a title="Careers at Woop" href="/careers-at-woop">Careers at Woop</a></li>
+<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe18SXnW0BWBlRiMBSlf7DQIDJJlqtbZggybMBeECQ00WNHBw/viewform">Community Outreach</a></li>
+</ul></div></div>        </div>
+    </div>
+    <div class="woop-footer-links-block paragraph-large">
+        <div data-role="collapsible">
+            <h6>HELP</h6>
+        </div>
+        <div data-role="content">
+            <div data-content-type="row" data-appearance="contained" data-element="main"><div data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-element="inner" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;"><div data-content-type="html" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-decoded="true"><ul>
+<li><a title="FAQs" href="https://help.woop.co.nz/">FAQs</a></li>
+<li><a title="Delivery Areas" href="/delivery-areas">Delivery Areas</a></li>
+<li>09 283 0400</li>
+<li>info@woop.co.nz</li>
+</ul></div></div></div>        </div>
+    </div>
+    <div class="woop-footer-links-block paragraph-large">
+        <div>
+            <h6>FOLLOW US</h6>
+        </div>
+        <div>
+            <div data-content-type="row" data-appearance="contained" data-element="main"><div data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-element="inner" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;"><div data-content-type="html" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-decoded="true"><ul>
+<li><a title="Faceboook" href="https://www.facebook.com/woopnz"><img src="https://woop.co.nz/media/facebook.png" alt=""></a></li>
+<li><a title="Instagram" href="https://www.instagram.com/woop_nz/"><img src="https://woop.co.nz/media/instagram.png" alt=""></a></li>
+</ul></div></div></div>        </div>
+    </div>
+</div>
+<script type="text/x-magento-init">
+    {
+        ".js-footer-middle": {
+            "footer-links-toggle": {
+                "active-item": "0, 1"
+            }
+        }
+    }
+</script></div><div class="footer-bottom-block">
+    <a href="/" class="footer-logo"><img src="https://woop.co.nz/static/version1634033223/frontend/Overdose/woop/en_NZ/images/logo.svg"
+            alt="woop"></a>
+    <div class="copyright">
+        <div class="woop-full-width" data-content-type="row" data-appearance="full-bleed" data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-element="main" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; text-align: left; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;"><div data-content-type="html" data-appearance="default" data-element="main" style="text-align: left; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-decoded="true"><ul>
+<li><strong style="font-weight: 600;margin-right: 6px;">CONTACT US</strong></li>
+<li>
+<p>09 283 0400</p>
+or email
+<p style="text-transform: none;">info@woop.co.nz</p>
+</li>
+</ul>
+<ul>
+<li><a title="Privacy Policy" href="https://woop.co.nz/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a></li>
+<li><a title="Terms &amp; Conditions" href="https://woop.co.nz/terms-conditions/" target="_blank" rel="noopener">Terms &amp; Conditions</a></li>
+</ul></div></div>    </div>
+</div>
+<div
+    class="field-recaptcha"
+    id="msp-recaptcha-58312e2256fb5bcda606e9b5046e00ef-container"
+    data-bind="scope:'msp-recaptcha-58312e2256fb5bcda606e9b5046e00ef'"
+>
+    <!-- ko template: getTemplate() --><!-- /ko -->
+</div>
+
+<script type="text/javascript">
+    require(['jquery', 'domReady!'], function ($) {
+        $('#msp-recaptcha-58312e2256fb5bcda606e9b5046e00ef-container')
+            .appendTo('#newsletter-validate-detail');
+    });
+</script>
+
+<script type="text/x-magento-init">
+{
+    "#msp-recaptcha-58312e2256fb5bcda606e9b5046e00ef-container": {
+        "Magento_Ui/js/core/app": {"components":{"msp-recaptcha-58312e2256fb5bcda606e9b5046e00ef":{"component":"MSP_ReCaptcha\/js\/reCaptcha","reCaptchaId":"msp-recaptcha-58312e2256fb5bcda606e9b5046e00ef","zone":"newsletter","badge":"bottomright","settings":{"siteKey":"6LdDUtIZAAAAADd03zcTbBWmUbxCeuHOrzlg93Kk","size":"invisible","badge":"bottomright","theme":null,"lang":null,"enabled":{"login":true,"create":false,"forgot":true,"contact":true,"review":false,"newsletter":true,"sendfriend":false,"paypal":false}}}}}    }
+}
+</script>
+</div></footer><script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "storage-manager": {
+                            "component": "Magento_Catalog/js/storage-manager",
+                            "appendTo": "",
+                            "storagesConfiguration" : {"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/woop.co.nz\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/woop.co.nz\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/woop.co.nz\/rest\/default\/V1\/products-render-info"},"requestConfig":{"syncUrl":"https:\/\/woop.co.nz\/catalog\/product\/frontend_action_synchronize\/"},"allowToSendRequest":null}}                        }
+                    }
+                }
+            }
+        }
+</script>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7TF7HH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
+<script>
+  TrackJS.install({
+    token: "f605b5ab6cfc48f1bb4ca9cfea27c27d",
+    application: "woop-m2"
+    // for more configuration options, see https://docs.trackjs.com
+  });
+</script>
+
+    <script type="text/x-magento-init">
+    {
+        "*": {
+            "Dotdigitalgroup_Email/js/emailCapture":{
+                "type":"newsletter",
+                "url":"https://woop.co.nz/connector/ajax/emailcapture/",
+                "enabled": "1"
+            }
+        }
+    }
+
+
+    </script>
+
+
+
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_GoogleTagManager/js/actions/product-detail": {
+                "id": "RecipeJ_2_w309",
+                "name": "Pan\u002Dseared\u0020beef\u0020",
+                "category": ""
+            }
+        }
+    }
+</script>
+</div>    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-1de253074e8c0090a70","applicationID":"446081971","transactionName":"Y1VSYUEDXhBZURBZVlofcVZHC18NF1EFRFhYX1caQxBfB01REB9PXVVH","queueTime":0,"applicationTime":846,"atts":"TxJRFwkZTR4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

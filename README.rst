@@ -5,15 +5,15 @@
     :target: https://pepy.tech/project/recipe-scrapers
     :alt: Downloads
 .. image:: https://img.shields.io/github/license/hhursev/recipe-scrapers?
-    :target: https://github.com/hhursev/recipe-scrapers/blob/master/LICENSE
+    :target: https://github.com/hhursev/recipe-scrapers/blob/main/LICENSE
     :alt: License
-.. image:: https://github.com/hhursev/recipe-scrapers/workflows/unittests/badge.svg?branch=master
+.. image:: https://github.com/hhursev/recipe-scrapers/workflows/unittests/badge.svg?branch=main
     :target: https://github.com/hhursev/recipe-scrapers/actions/
     :alt: GitHub Actions Unittests
-.. image:: https://coveralls.io/repos/hhursev/recipe-scraper/badge.svg?branch=master&service=github
-    :target: https://coveralls.io/github/hhursev/recipe-scraper?branch=master
+.. image:: https://coveralls.io/repos/hhursev/recipe-scraper/badge.svg?branch=main&service=github
+    :target: https://coveralls.io/github/hhursev/recipe-scraper?branch=main
     :alt: Coveralls
-.. image:: https://github.com/hhursev/recipe-scrapers/workflows/linters/badge.svg?branch=master
+.. image:: https://github.com/hhursev/recipe-scrapers/workflows/linters/badge.svg?branch=main
     :target: https://github.com/hhursev/recipe-scrapers/actions/
     :alt: GitHub Actions Linters
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
@@ -22,6 +22,9 @@
 .. image:: https://img.shields.io/github/stars/hhursev/recipe-scrapers?style=social
     :target: https://github.com/hhursev/recipe-scrapers/
     :alt: Github
+.. image:: https://img.shields.io/lgtm/grade/python/g/hhursev/recipe-scrapers.svg?logo=lgtm&logoWidth=18
+    :target: https://lgtm.com/projects/g/hhursev/recipe-scrapers/context:python
+    :alt: Looks Good To Me
 
 
 ------
@@ -101,6 +104,7 @@ Scrapers available for:
 - `https://cdkitchen.com/ <https://cdkitchen.com/>`_
 - `https://chefkoch.de/ <https://chefkoch.de>`_
 - `https://closetcooking.com/ <https://closetcooking.com>`_
+- `https://comidinhasdochef.com/ <https://comidinhasdochef.com/>`_
 - `https://cookeatshare.com/ <https://cookeatshare.com/>`_
 - `https://cookieandkate.com/ <https://cookieandkate.com/>`_
 - `https://cookinglight.com/ <https://cookinglight.com/>`_
@@ -116,6 +120,7 @@ Scrapers available for:
 - `https://downshiftology.com/ <https://downshiftology.com/>`_
 - `https://www.dr.dk/ <https://www.dr.dk/>`_
 - `https://www.eatingbirdfood.com/ <https://www.eatingbirdfood.com>`_
+- `https://www.eatingwell.com/ <https://www.eatingwell.com>`_
 - `https://eatsmarter.com/ <https://eatsmarter.com/>`_
 - `https://eatsmarter.de/ <https://eatsmarter.de/>`_
 - `https://eatwhattonight.com/ <https://eatwhattonight.com/>`_
@@ -140,6 +145,7 @@ Scrapers available for:
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
 - `https://halfbakedharvest.com/ <https://www.halfbakedharvest.com/>`_
 - `https://www.hassanchef.com/ <https://www.hassanchef.com/>`_
+- `https://headbangerskitchen.com/ <https://www.headbangerskitchen.com/>`_
 - `https://www.heb.com/ <https://www.heb.com/recipe/landing>`_
 - `https://heinzbrasil.com.br/ <https://heinzbrasil.com.br>`_
 - `https://hellofresh.com/ <https://hellofresh.com>`_
@@ -154,11 +160,15 @@ Scrapers available for:
 - `https://jamieoliver.com/ <https://jamieoliver.com>`_
 - `https://jimcooksfoodgood.com/ <https://jimcooksfoodgood.com/>`_
 - `https://joyfoodsunshine.com/ <https://joyfoodsunshine.com>`_
+- `https://justataste.com/ <https://justataste.com>`_
 - `https://justbento.com/ <https://justbento.com>`_
+- `https://www.justonecookbook.com/ <https://https://www.justonecookbook.com>`_
 - `https://kennymcgovern.com/ <https://kennymcgovern.com>`_
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
 - `https://kochbar.de/ <https://kochbar.de>`_
+- `http://koket.se/ <http://koket.se>`_
 - `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
+- `https://www.kwestiasmaku.com/ <https://www.kwestiasmaku.com/>`_
 - `https://lecremedelacrumb.com/ <https://lecremedelacrumb.com/>`_
 - `https://littlespicejar.com/ <https://littlespicejar.com>`_
 - `http://livelytable.com/ <http://livelytable.com/>`_
@@ -171,6 +181,7 @@ Scrapers available for:
 - `https://minimalistbaker.com/ <https://minimalistbaker.com/>`_
 - `https://misya.info/ <https://misya.info>`_
 - `https://momswithcrockpots.com/ <https://momswithcrockpots.com>`_
+- `https://monsieur-cuisine.com/ <https://monsieur-cuisine.com>`_
 - `http://motherthyme.com/ <http://motherthyme.com/>`_
 - `https://mybakingaddiction.com/ <https://mybakingaddiction.com>`_
 - `https://mykitchen101.com/ <https://mykitchen101.com>`_
@@ -194,11 +205,13 @@ Scrapers available for:
 - `https://purplecarrot.com/ <https://purplecarrot.com>`_
 - `https://rachlmansfield.com/ <https://rachlmansfield.com>`_
 - `https://rainbowplantlife.com/ <https://rainbowplantlife.com/>`_
+- `https://realfood.tesco.com/ <https://realfood.tesco.com>`_
 - `https://realsimple.com/ <https://www.realsimple.com>`_
 - `https://recipietineats.com/ <https://www.recipetineats.com/>`_
 - `https://redhousespice.com/ <https://redhousespice.com/>`_
 - `https://reishunger.de/ <https://www.reishunger.de/>`_
 - `https://sallysbakingaddiction.com <https://sallysbakingaddiction.com/>`_
+- `https://sallys-blog.de <https://sallys-blog.de/>`_
 - `https://www.saveur.com/ <https://www.saveur.com/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_
 - `https://simplyquinoa.com/ <https://simplyquinoa.com>`_
@@ -207,6 +220,7 @@ Scrapers available for:
 - `https://skinnytaste.com/ <https://www.skinnytaste.com>`_
 - `https://southernliving.com/ <https://southernliving.com/>`_
 - `https://spendwithpennies.com/ <https://spendwithpennies.com/>`_
+- `https://www.springlane.de <https://www.springlane.de>`_
 - `https://steamykitchen.com/ <https://steamykitchen.com>`_
 - `https://streetkitchen.hu/ <https://streetkitchen.hu>`_
 - `https://sunbasket.com/ <https://sunbasket.com>`_
@@ -236,9 +250,12 @@ Scrapers available for:
 - `https://whatsgabycooking.com/ <https://whatsgabycooking.com>`_
 - `https://www.wholefoodsmarket.com/ <https://www.wholefoodsmarket.com/>`_
 - `https://www.wholefoodsmarket.co.uk/ <https://www.wholefoodsmarket.co.uk/>`_
+- `https://woop.co.nz/ <https://woop.co.nz/>`_
+- `https://woolworths.com.au/shop/recipes <https://www.woolworths.com.au/shop/recipes/>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `https://yemek.com/ <https://yemek.com>`_
 - `https://yummly.com/ <https://yummly.com>`_
+- `https://zenbelly.com/ <https://zenbelly.com>`_
 
 
 Contribute

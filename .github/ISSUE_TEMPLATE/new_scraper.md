@@ -17,4 +17,4 @@ Can you write Python and would you like to help add the scraper yourself?  We'd 
 
 - [ ] I'd like to try adding this scraper myself
 - [ ] I'd like guidance to help me develop a scraper
-- [ ] I'd prefer if the `recipe-scrapers` team try to add this
+- [ ] I'd prefer if the `recipe-scrapers` community try to add this
