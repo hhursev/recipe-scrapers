@@ -217,3 +217,9 @@ class SchemaOrg:
         elif isinstance(cuisine, list):
             return ",".join(cuisine)
         return cuisine
+
+    def description(self):
+        description = self.data.get("description")
+        if description is None:
+            raise SchemaOrgException("No description data in SchemaOrg.")
+        return normalize_string(description)

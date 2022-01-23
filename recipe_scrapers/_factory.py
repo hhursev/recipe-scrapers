@@ -43,6 +43,9 @@ class SchemaScraperFactory:
         def cuisine(self):
             return self.schema.cuisine()
 
+        def description(self):
+            return self.schema.description()
+
     @classmethod
     def generate(cls, url, **options):
         return cls.SchemaScraper(url, **options)
