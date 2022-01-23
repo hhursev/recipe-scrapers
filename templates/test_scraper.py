@@ -32,3 +32,6 @@ class TestTemplateScraper(ScraperTest):
 
     def test_ratings(self):
         self.assertEqual(None, self.harvester_class.ratings())
+
+    def test_cuisine(self):
+        self.assertEqual(None, self.harvester_class.cuisine())

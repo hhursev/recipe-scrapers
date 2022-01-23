@@ -135,6 +135,9 @@ class AbstractScraper:
     def author(self):
         raise NotImplementedError("This should be implemented.")
 
+    def cuisine(self):
+        raise NotImplementedError("This should be implemented.")
+
     def reviews(self):
         raise NotImplementedError("This should be implemented.")
 
