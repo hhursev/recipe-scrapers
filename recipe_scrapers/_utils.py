@@ -114,3 +114,26 @@ def url_path_to_dict(path):
 
 def get_host_name(url):
     return url_path_to_dict(url.replace("://www.", "://"))["host"]
+
+
+def change_keys(obj, convert):
+    """
+    Recursively goes through the dictionary obj and replaces keys with the convert function
+
+    Useful for fixing incorrect property keys, e.g. in JSON-LD dictionaries
+
+    Credit: StackOverflow user 'baldr'
+    (https://web.archive.org/web/20201022163147/https://stackoverflow.com/questions/11700705/python-recursively-replace
+        -character-in-keys-of-nested-dictionary/33668421)
+    """
+    if isinstance(obj, (str, int, float)):
+        return obj
+    if isinstance(obj, dict):
+        new = obj.__class__()
+        for k, v in obj.items():
+            new[convert(k)] = change_keys(v, convert)
+    elif isinstance(obj, (list, set, tuple)):
+        new = obj.__class__(change_keys(v, convert) for v in obj)
+    else:
+        return obj
+    return new
