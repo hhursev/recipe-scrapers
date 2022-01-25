@@ -15,6 +15,9 @@ class TestTemplateScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(None, self.harvester_class.title())
 
+    def test_category(self):
+        self.assertEqual(None, self.harvester_class.category())
+
     def test_total_time(self):
         self.assertEqual(None, self.harvester_class.total_time())
 
@@ -32,3 +35,9 @@ class TestTemplateScraper(ScraperTest):
 
     def test_ratings(self):
         self.assertEqual(None, self.harvester_class.ratings())
+
+    def test_cuisine(self):
+        self.assertEqual(None, self.harvester_class.cuisine())
+
+    def test_description(self):
+        self.assertEqual(None, self.harvester_class.description())

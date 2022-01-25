@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestTineNoScraper(ScraperTest):
-
     scraper_class = TineNo
 
     def test_host(self):
@@ -15,14 +14,20 @@ class TestTineNoScraper(ScraperTest):
             self.harvester_class.canonical_url(),
         )
 
+    def test_author(self):
+        self.assertEqual("TINE", self.harvester_class.author())
+
     def test_title(self):
-        self.assertEqual(self.harvester_class.title(), "Rask kylling tikka masala")
+        self.assertEqual("Rask kylling tikka masala", self.harvester_class.title())
+
+    def test_category(self):
+        self.assertEqual("middag", self.harvester_class.category())
 
     def test_total_time(self):
         self.assertEqual(30, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("4", self.harvester_class.yields())
+        self.assertEqual("4 serving(s)", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
@@ -31,43 +36,43 @@ class TestTineNoScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
-                "Ris:",
                 "4 dl basmatiris",
-                "Tikka masala:",
                 "400 g kyllingfileter",
-                "1 ss TINE Meierismørtil steking",
+                "1 ss TINE® Meierismør til steking",
                 "1 stk paprika",
-                "½ dl chili",
+                "0.5 dl chili",
                 "3 stk vårløk",
                 "1 ts hvitløksfedd",
-                "1 ss hakket, friskingefær",
-                "½ dl hakket, friskkoriander",
+                "1 ss hakket, frisk ingefær",
+                "0.5 dl hakket, frisk koriander",
                 "2 ts garam masala",
-                "3 dl TINE Lett Crème Fraîche 18 %",
+                "3 dl TINE® Lett Crème Fraîche 18 %",
                 "3 ss tomatpuré",
-                "½ ts salt",
-                "¼ ts pepper",
-                "Raita:",
-                "½ dl slangeagurk",
-                "3 dl TINE Yoghurt Naturell",
-                "½ dl friskmynte",
+                "0.5 ts salt",
+                "0.25 ts pepper",
+                "0.5 dl slangeagurk",
+                "3 dl TINE® Yoghurt Naturell",
+                "0.5 dl frisk mynte",
                 "1 ts hvitløksfedd",
-                "½ ts salt",
-                "¼ ts pepper",
+                "0.5 ts salt",
+                "0.25 ts pepper",
             ],
             self.harvester_class.ingredients(),
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            "Kok ris etter anvisningen på pakken.\nTikka masala: Del kylling i biter. Brun kyllingen i smør i en stekepanne på middels varme. Rens og hakk paprika, chili, vårløk og hvitløk og ha det i stekepannen sammen med kyllingen. Rens og finhakk ingefær og frisk koriander. Krydre med garam masala, koriander og ingefær. Hell i crème fraîche og tomatpuré, og la småkoke i 5 minutter. Smak til med salt og pepper.\nRaita: Riv agurk og bland den med yoghurt. Hakk mynte og hvitløk og bland det i. Smak til med salt og pepper.",
+            "Kok ris etter anvisningen på pakken.\nTikka masala:\nDel kylling i biter. Brun kyllingen i smør i en stekepanne på middels varme.\nRens og hakk paprika, chili, vårløk og hvitløk og ha det i stekepannen sammen med kyllingen. Rens og finhakk ingefær og frisk koriander. Krydre med garam masala, koriander og ingefær.\nHell i crème fraîche og tomatpuré, og la småkoke i 5 minutter. Smak til med salt og pepper.\nRaita:\nRiv agurk og bland den med yoghurt. Hakk mynte og hvitløk og bland det i. Smak til med salt og pepper.",
             self.harvester_class.instructions(),
         )
 
     def test_ratings(self):
         self.assertEqual(3.9, self.harvester_class.ratings())
+
+    def test_cuisine(self):
+        self.assertEqual("indisk", self.harvester_class.cuisine())
 
     def test_description(self):
         self.assertEqual(
