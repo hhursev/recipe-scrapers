@@ -301,7 +301,7 @@ Assuming you have ``>=python3.7`` installed, navigate to the directory where you
     source .venv/bin/activate &&
     pip install -r requirements-dev.txt &&
     pre-commit install &&
-    python run_tests &&
+    python run_tests
 
 In case you want to run a single unittest for a newly developed scraper
 
