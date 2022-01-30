@@ -27,7 +27,7 @@ jobs:
           pip install -r requirements-dev.txt
       - name: Unittest and Coverage Report
         run: |
-          coverage run -m unittest
+          python run_tests.py
       - name: coveralls.io
         uses: AndreMiras/coveralls-python-action@develop
         with:

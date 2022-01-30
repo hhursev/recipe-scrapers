@@ -292,7 +292,7 @@ If you want a scraper for a new site added
 For Devs / Contribute
 ---------------------
 
-Assuming you have ``python3`` installed, navigate to the directory where you want this project to live in and drop these lines
+Assuming you have ``>=python3.7`` installed, navigate to the directory where you want this project to live in and drop these lines
 
 .. code:: shell
 
@@ -302,8 +302,7 @@ Assuming you have ``python3`` installed, navigate to the directory where you wan
     source .venv/bin/activate &&
     pip install -r requirements-dev.txt &&
     pre-commit install &&
-    python -m coverage run -m unittest &&
-    python -m coverage report
+    python run_tests
 
 In case you want to run a single unittest for a newly developed scraper
 
