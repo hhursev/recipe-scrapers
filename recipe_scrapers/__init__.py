@@ -128,6 +128,7 @@ from .realsimple import RealSimple
 from .recipietineats import RecipieTinEats
 from .redhousespice import RedHouseSpice
 from .reishunger import Reishunger
+from .rezeptwelt import Rezeptwelt
 from .sallysbakingaddiction import SallysBakingAddiction
 from .sallysblog import SallysBlog
 from .saveur import Saveur
@@ -310,6 +311,7 @@ SCRAPERS = {
     RecipieTinEats.host(): RecipieTinEats,
     RedHouseSpice.host(): RedHouseSpice,
     Reishunger.host(): Reishunger,
+    Rezeptwelt.host(): Rezeptwelt,
     SallysBakingAddiction.host(): SallysBakingAddiction,
     SallysBlog.host(): SallysBlog,
     Saveur.host(): Saveur,

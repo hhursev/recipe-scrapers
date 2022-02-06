@@ -210,6 +210,7 @@ Scrapers available for:
 - `https://recipietineats.com/ <https://www.recipetineats.com/>`_
 - `https://redhousespice.com/ <https://redhousespice.com/>`_
 - `https://reishunger.de/ <https://www.reishunger.de/>`_
+- `https://rezeptwelt.de/ <https://rezeptwelt.de>`_
 - `https://sallysbakingaddiction.com <https://sallysbakingaddiction.com/>`_
 - `https://sallys-blog.de <https://sallys-blog.de/>`_
 - `https://www.saveur.com/ <https://www.saveur.com/>`_
