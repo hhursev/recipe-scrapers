@@ -12,7 +12,7 @@ class Rezeptwelt(AbstractScraper):
         return normalize_string(self.soup.find("span", {"id": "viewRecipeAuthor"}).text)
 
     def title(self):
-        return self.schema.title()
+        return self.soup.find("meta", {"property": "og:title"})["content"]
 
     def category(self):
         return self.schema.category()
@@ -37,7 +37,7 @@ class Rezeptwelt(AbstractScraper):
         for i in content:
             steps = i.findAll("span", {"itemprop": "text"})
             for step in steps:
-                res = res + normalize_string(step.text) + "\n"
+                res += normalize_string(step.text) + "\n"
         return res
 
     def ratings(self):
@@ -53,3 +53,6 @@ class Rezeptwelt(AbstractScraper):
         return self.schema.description().replace(
             " Mehr Thermomix ® Rezepte auf www.rezeptwelt.de", ""
         )
+
+    def language(self):
+        return self.soup.find("meta", {"property": "og:locale"})["content"]

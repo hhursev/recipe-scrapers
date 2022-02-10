@@ -61,3 +61,6 @@ class TestRezeptweltScraper(ScraperTest):
             "Nudelsalat, ein Rezept der Kategorie sonstige Hauptgerichte.",
             self.harvester_class.description(),
         )
+
+    def test_language(self):
+        self.assertEqual("de_DE", self.harvester_class.language())
