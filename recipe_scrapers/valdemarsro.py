@@ -2,19 +2,17 @@ from ._abstract import AbstractScraper
 from ._utils import normalize_string
 from ._exceptions import ElementNotFoundInHtml
 
-from bs4 import BeautifulSoup
-import requests
 import re
 
-# class Valdemarsro(AbstractScraper):
-class Valdemarsro():
+
+class Valdemarsro(AbstractScraper):
     @classmethod
     def host(cls):
         return "valdemarsro.dk"
 
     def title(self):
         return self.soup.h1.get_text().strip()
-    
+
     def category(self):
         category_group_element = self.soup.find(
             "div",
@@ -25,8 +23,8 @@ class Valdemarsro():
 
         categories = [a.get_text() for a in category_group_element.find_all(
             lambda a: not "/tag/" in a.attrs["href"]
-            )
-        ]
+        )
+                      ]
         return ",".join(categories)
 
     def get_time(self, label):
@@ -49,7 +47,7 @@ class Valdemarsro():
             "((?P<hours>\d+) timer?\s*)?((?P<minutes>\d+)\s*min.)?",
             time_text
         )
-        
+
         minutes = int(matched.groupdict().get("minutes") or 0)
         minutes += 60 * int(matched.groupdict().get("hours") or 0)
 
@@ -82,8 +80,7 @@ class Valdemarsro():
             }
         )
         image_element = parent_element.find(
-            lambda x:
-                not x.has_attr("class"))
+            lambda x: not x.has_attr("class"))
         image_url = image_element["src"]
         return image_url
 
@@ -121,19 +118,18 @@ class Valdemarsro():
         )
 
         description_paragraph_elements = description_element.find_all(
-            lambda tag:
-                tag.name == "p" and not " også:" in tag.get_text(),
-            recursive = False
+            lambda tag: tag.name == "p" and not " også:" in tag.get_text(),
+            recursive=False
         )
 
         description_paragraphs = [p.get_text().strip() for p in description_paragraph_elements]
 
         tips_element = self.soup.select(
-                    "#after-recipe > div.col.sidebar-on-right > div > div.content > ul:nth-child(6) > li"
-                )
+            "#after-recipe > div.col.sidebar-on-right > div > div.content > ul:nth-child(6) > li"
+        )
 
         tips_list = [tag.get_text().strip() for tag in tips_element]
 
-        description = "\n\n".join(description_paragraphs + [""] + tips_list)
+        description = "\n\n".join(description_paragraphs + ["----------"] + tips_list)
 
         return description

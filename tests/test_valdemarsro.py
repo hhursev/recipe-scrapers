@@ -2,7 +2,7 @@ from recipe_scrapers.valdemarsro import Valdemarsro
 from tests import ScraperTest
 
 
-class TestWoolworthsScraper(ScraperTest):
+class TestValdemarsroScraper(ScraperTest):
 
     scraper_class = Valdemarsro
 
@@ -16,7 +16,7 @@ class TestWoolworthsScraper(ScraperTest):
         )
 
     def test_category(self):
-        self.assertEqual("Nem Hverdagsmad,Opskrifter,Opskrifter til børn - Hverdagsfavoritter små børn,Tilbehør Aftensmad,Vegetar", self.harvester_class.category())
+        self.assertEqual("Bålmad,Familiefavoritter,Madpandekager og madvafler,Nem Hverdagsmad,Opskrifter,Opskrifter til børn - Hverdagsfavoritter børn,Pandekager,Tilbehør Aftensmad,Vegetar", self.harvester_class.category())
 
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())
@@ -49,8 +49,8 @@ class TestWoolworthsScraper(ScraperTest):
     def test_instructions(self):
         self.assertEqual(
             """Pisk æg og mælk sammen med salt, grahamsmel og hvedemel.
-            
-            Smelt lidt smør eller kom lidt olie på en pande og steg 10 madpandekager en ad gangen, på begge sider, til de er flotte lysebrune.""",
+
+Smelt lidt smør eller kom lidt olie på en pande og steg 10 madpandekager en ad gangen, på begge sider, til de er flotte lysebrune.""",
             self.harvester_class.instructions(),
         )
 
@@ -70,7 +70,7 @@ dejen kan holde sig i køleskab i 2-3 dage. Pisk den blot hurtigt op med et pisk
 
 Kom alt fra stegte krydrede kyllingestykker, falafler og andre grønne deller i. En krydret omgang hakket oksekød eller bagte rodfrugter skåret i små tern. Drys gerne med lidt ost og server med cremede dips, som fx guacamole eller hummus.
 
-De færdige pandekager kan fryses. Pak dem ind i madpapir og en stor frysepose og lad dem tø langsomt op. Lun dem i en forvarmet ovn ved 125 grader, mellem to tallerkener og gerne med damp, hvis du har en ovn med dampfunktion.""", self.harvester_class.decription())
+De færdige pandekager kan fryses. Pak dem ind i madpapir og en stor frysepose og lad dem tø langsomt op. Lun dem i en forvarmet ovn ved 125 grader, mellem to tallerkener og gerne med damp, hvis du har en ovn med dampfunktion.""", self.harvester_class.description())
 
     def test_language(self):
         self.assertEqual("da", self.harvester_class.language())
