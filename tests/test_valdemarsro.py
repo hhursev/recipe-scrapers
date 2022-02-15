@@ -16,7 +16,10 @@ class TestValdemarsroScraper(ScraperTest):
         )
 
     def test_category(self):
-        self.assertEqual("Bålmad,Familiefavoritter,Madpandekager og madvafler,Nem Hverdagsmad,Opskrifter,Opskrifter til børn - Hverdagsfavoritter børn,Pandekager,Tilbehør Aftensmad,Vegetar", self.harvester_class.category())
+        self.assertEqual(
+            "Bålmad,Familiefavoritter,Madpandekager og madvafler,Nem Hverdagsmad,Opskrifter,Opskrifter til børn - Hverdagsfavoritter børn,Pandekager,Tilbehør Aftensmad,Vegetar",
+            self.harvester_class.category(),
+        )
 
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())
@@ -36,12 +39,12 @@ class TestValdemarsroScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                '4 æg',
-                '4 dl mælk',
-                '1 nip salt',
-                '125 g hvedemel',
-                '50 g grahamsmel',
-                '1 spsk smør, til stegning'
+                "4 æg",
+                "4 dl mælk",
+                "1 nip salt",
+                "125 g hvedemel",
+                "50 g grahamsmel",
+                "1 spsk smør, til stegning",
             ],
             self.harvester_class.ingredients(),
         )
@@ -58,7 +61,8 @@ Smelt lidt smør eller kom lidt olie på en pande og steg 10 madpandekager en ad
         self.assertEqual("Ann-Christine Hellerup Brandt", self.harvester_class.author())
 
     def test_description(self):
-        self.assertEqual("""Klassiske madpandekager er nemme og lækre til at fylde med alverdens gode sager og kan nydes til både frokost og aftensmad.
+        self.assertEqual(
+            """Klassiske madpandekager er nemme og lækre til at fylde med alverdens gode sager og kan nydes til både frokost og aftensmad.
 
 Man kan både fylde madpandekager ved bordet ala wraps eller man kan fylde dem med gode sager, rulle dem sammen og komme dem i et fad. Fordel lidt god friskrevet ost over og gratiner dem i ovnen. De er skønne at spise med en salat og dip til.
 
@@ -70,12 +74,12 @@ dejen kan holde sig i køleskab i 2-3 dage. Pisk den blot hurtigt op med et pisk
 
 Kom alt fra stegte krydrede kyllingestykker, falafler og andre grønne deller i. En krydret omgang hakket oksekød eller bagte rodfrugter skåret i små tern. Drys gerne med lidt ost og server med cremede dips, som fx guacamole eller hummus.
 
-De færdige pandekager kan fryses. Pak dem ind i madpapir og en stor frysepose og lad dem tø langsomt op. Lun dem i en forvarmet ovn ved 125 grader, mellem to tallerkener og gerne med damp, hvis du har en ovn med dampfunktion.""", self.harvester_class.description())
+De færdige pandekager kan fryses. Pak dem ind i madpapir og en stor frysepose og lad dem tø langsomt op. Lun dem i en forvarmet ovn ved 125 grader, mellem to tallerkener og gerne med damp, hvis du har en ovn med dampfunktion.""",
+            self.harvester_class.description(),
+        )
 
     def test_language(self):
         self.assertEqual("da", self.harvester_class.language())
 
     def test_site_name(self):
-        self.assertEqual(
-            "Valdemarsro", self.harvester_class.site_name()
-        )
+        self.assertEqual("Valdemarsro", self.harvester_class.site_name())
