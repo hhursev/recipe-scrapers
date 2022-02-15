@@ -78,7 +78,7 @@ class Valdemarsro(AbstractScraper):
 
         instructions_list = [tag.get_text() for tag in instruction_elements]
 
-        return "\n\n".join(instructions_list)
+        return "\n".join(instructions_list)
 
     def author(self):
         return "Ann-Christine Hellerup Brandt"
@@ -95,6 +95,6 @@ class Valdemarsro(AbstractScraper):
             p.get_text().strip() for p in description_paragraph_elements
         ]
 
-        description = "\n\n".join(description_paragraphs)
+        description = "\n".join(description_paragraphs)
 
         return description

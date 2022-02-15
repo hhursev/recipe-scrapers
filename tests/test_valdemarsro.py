@@ -52,7 +52,6 @@ class TestValdemarsroScraper(ScraperTest):
     def test_instructions(self):
         self.assertEqual(
             """Pisk æg og mælk sammen med salt, grahamsmel og hvedemel.
-
 Smelt lidt smør eller kom lidt olie på en pande og steg 10 madpandekager en ad gangen, på begge sider, til de er flotte lysebrune.""",
             self.harvester_class.instructions(),
         )
@@ -63,9 +62,7 @@ Smelt lidt smør eller kom lidt olie på en pande og steg 10 madpandekager en ad
     def test_description(self):
         self.assertEqual(
             """Klassiske madpandekager er nemme og lækre til at fylde med alverdens gode sager og kan nydes til både frokost og aftensmad.
-
 Man kan både fylde madpandekager ved bordet ala wraps eller man kan fylde dem med gode sager, rulle dem sammen og komme dem i et fad. Fordel lidt god friskrevet ost over og gratiner dem i ovnen. De er skønne at spise med en salat og dip til.
-
 Jeg deler en masse ekstra tips til min opskrift på madpandekager under opskriften""",
             self.harvester_class.description(),
         )
