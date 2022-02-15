@@ -19,7 +19,7 @@ class Valdemarsro(AbstractScraper):
         categories = [
             a.get_text()
             for a in category_group_element.find_all(
-                lambda a: not "/tag/" in a.attrs["href"]
+                lambda a: "/tag/" not in a.attrs["href"]
             )
         ]
         return ",".join(categories)
@@ -35,7 +35,7 @@ class Valdemarsro(AbstractScraper):
         time_text = time_text_element.getText()
 
         matched = re.search(
-            "((?P<hours>\d+) timer?\s*)?((?P<minutes>\d+)\s*min.)?", time_text
+            r"((?P<hours>\d+) timer?\s*)?((?P<minutes>\d+)\s*min.)?", time_text
         )
 
         minutes = int(matched.groupdict().get("minutes") or 0)
@@ -87,7 +87,7 @@ class Valdemarsro(AbstractScraper):
         description_element = self.soup.find("div", {"itemprop": "description"})
 
         description_paragraph_elements = description_element.find_all(
-            lambda tag: tag.name == "p" and not " også:" in tag.get_text(),
+            lambda tag: tag.name == "p" and " også:" not in tag.get_text(),
             recursive=False,
         )
 
