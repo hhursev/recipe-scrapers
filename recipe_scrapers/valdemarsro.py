@@ -95,12 +95,6 @@ class Valdemarsro(AbstractScraper):
             p.get_text().strip() for p in description_paragraph_elements
         ]
 
-        tips_element = self.soup.select(
-            "#after-recipe > div.col.sidebar-on-right > div > div.content > ul:nth-child(6) > li"
-        )
-
-        tips_list = [tag.get_text().strip() for tag in tips_element]
-
-        description = "\n\n".join(description_paragraphs + ["----------"] + tips_list)
+        description = "\n\n".join(description_paragraphs)
 
         return description

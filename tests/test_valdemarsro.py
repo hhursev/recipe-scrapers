@@ -66,15 +66,7 @@ Smelt lidt smør eller kom lidt olie på en pande og steg 10 madpandekager en ad
 
 Man kan både fylde madpandekager ved bordet ala wraps eller man kan fylde dem med gode sager, rulle dem sammen og komme dem i et fad. Fordel lidt god friskrevet ost over og gratiner dem i ovnen. De er skønne at spise med en salat og dip til.
 
-Jeg deler en masse ekstra tips til min opskrift på madpandekager under opskriften
-
-----------
-
-dejen kan holde sig i køleskab i 2-3 dage. Pisk den blot hurtigt op med et piskeris, så er der klar til endnu en omgang pandekager. Hvis man laver en dobbeltportion, så kan dejen også strækkes til fx to forskellige retter med forskelligt fyld.
-
-Kom alt fra stegte krydrede kyllingestykker, falafler og andre grønne deller i. En krydret omgang hakket oksekød eller bagte rodfrugter skåret i små tern. Drys gerne med lidt ost og server med cremede dips, som fx guacamole eller hummus.
-
-De færdige pandekager kan fryses. Pak dem ind i madpapir og en stor frysepose og lad dem tø langsomt op. Lun dem i en forvarmet ovn ved 125 grader, mellem to tallerkener og gerne med damp, hvis du har en ovn med dampfunktion.""",
+Jeg deler en masse ekstra tips til min opskrift på madpandekager under opskriften""",
             self.harvester_class.description(),
         )
 
