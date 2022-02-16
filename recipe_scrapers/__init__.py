@@ -163,6 +163,7 @@ from .tineno import TineNo
 from .tudogostoso import TudoGostoso
 from .twopeasandtheirpod import TwoPeasAndTheirPod
 from .usdamyplate import USDAMyPlate
+from .valdemarsro import Valdemarsro
 from .vanillaandbean import VanillaAndBean
 from .vegolosi import Vegolosi
 from .vegrecipesofindia import VegRecipesOfIndia
@@ -346,6 +347,7 @@ SCRAPERS = {
     TudoGostoso.host(): TudoGostoso,
     TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
     USDAMyPlate.host(): USDAMyPlate,
+    Valdemarsro.host(): Valdemarsro,
     VanillaAndBean.host(): VanillaAndBean,
     VegRecipesOfIndia.host(): VegRecipesOfIndia,
     Vegolosi.host(): Vegolosi,
