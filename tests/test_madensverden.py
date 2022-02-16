@@ -74,6 +74,9 @@ Stil rabarbertriflierne i køleskabet, og lad dem trække i mindst en time før 
             self.harvester_class.instructions(),
         )
 
+    def test_ratings(self):
+        self.assertEqual(4.69, self.harvester_class.ratings())
+
     def test_author(self):
         self.assertEqual("Holger Rørby Madsen", self.harvester_class.author())
 
