@@ -28,7 +28,7 @@ class TestMadensVerdenScraper(ScraperTest):
         self.assertEqual(15, self.harvester_class.cook_time())
 
     def test_prep_time(self):
-        self.assertEqual(15, self.harvester_class.cook_time())
+        self.assertEqual(15, self.harvester_class.prep_time())
 
     def test_yields(self):
         self.assertEqual("6 serving(s)", self.harvester_class.yields())
