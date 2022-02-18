@@ -27,9 +27,6 @@ class SundPaaBudget(AbstractScraper):
     def image(self):
         return self.schema.image()
 
-    def nutrients(self):
-        return self.schema.nutrients()
-
     def ingredients(self):
         return self.schema.ingredients()
 
@@ -41,9 +38,6 @@ class SundPaaBudget(AbstractScraper):
 
     def author(self):
         return self.schema.author()
-
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         # Schema returns empty string
