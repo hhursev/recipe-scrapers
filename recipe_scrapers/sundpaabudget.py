@@ -41,4 +41,4 @@ class SundPaaBudget(AbstractScraper):
 
     def description(self):
         # Schema returns empty string
-        return self.soup.find("div", {"class": "entry-content"}).find("p").get_text()
+        return self.soup.head.find("meta", {"property": "og:description"})["content"]
