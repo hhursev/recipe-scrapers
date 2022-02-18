@@ -39,12 +39,6 @@ class TestSundPaaBudgetScraper(ScraperTest):
             self.harvester_class.image(),
         )
 
-    def test_nutrients(self):
-        self.assertEqual(
-            {},
-            self.harvester_class.nutrients(),
-        )
-
     def test_ingredients(self):
         self.assertEqual(
             [
@@ -80,9 +74,6 @@ Smag til med salt og peber.""",
 
     def test_author(self):
         self.assertEqual("Britt // Sund på budget", self.harvester_class.author())
-
-    def test_cuisine(self):
-        self.assertEqual("", self.harvester_class.cuisine())
 
     def test_description(self):
         self.assertEqual(
