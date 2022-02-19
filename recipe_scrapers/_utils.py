@@ -3,8 +3,19 @@ import re
 
 from ._exceptions import ElementNotFoundInHtml
 
+FRACTIONS = {
+    "¼": 0.25,
+    "½": 0.50,
+    "¾": 0.75,
+    "⅓": 0.33,
+    "⅔": 0.66,
+    "⅕": 0.20,
+    "⅖": 0.40,
+    "⅗": 0.60,
+}
+
 TIME_REGEX = re.compile(
-    r"(\D*(?P<hours>\d+)\s*(hours|hrs|hr|h|óra))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|perc))?",
+    r"(\D*(?P<hours>[\d.\s/?¼½¾⅓⅔⅕⅖⅗]+)\s*(hours|hrs|hr|h|óra))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|perc))?",
     re.IGNORECASE,
 )
 
@@ -41,13 +52,39 @@ def get_minutes(element, return_zero_on_not_found=False):
         time_text = time_text.split("-", 2)[
             1
         ]  # sometimes formats are like this: '12-15 minutes'
+    if " to " in time_text:
+        time_text = time_text.split("to", 2)[
+            1
+        ]  # sometimes formats are like this: '12 to 15 minutes'
     if "h" in time_text:
         time_text = time_text.replace("h", "hours") + "minutes"
 
     matched = TIME_REGEX.search(time_text)
 
     minutes = int(matched.groupdict().get("minutes") or 0)
-    minutes += 60 * int(matched.groupdict().get("hours") or 0)
+    hours_matched = matched.groupdict().get("hours")
+
+    if hours_matched:
+        hours_matched = hours_matched.strip()
+        if any([symbol in FRACTIONS.keys() for symbol in hours_matched]):
+            hours = 0
+            for fraction, value in FRACTIONS.items():
+                if fraction in hours_matched:
+                    hours += value
+                    hours_matched = hours_matched.replace(fraction, "")
+            hours += int(hours_matched) if hours_matched else 0
+        elif "/" in hours_matched:
+            # for example "1 1/2" is matched
+            hours_matched_split = hours_matched.split(" ")
+            hours = 0
+            if len(hours_matched_split) == 2:
+                hours += int(hours_matched_split[0])
+            fraction = hours_matched_split[-1:][0].split("/")
+            hours += float(int(fraction[0]) / int(fraction[1]))
+        else:
+            hours = float(hours_matched)
+
+        minutes += round(60 * hours, 0)
 
     return minutes
 
