@@ -25,3 +25,47 @@ class TestUtils(unittest.TestCase):
     def test_get_minutes_int_in_string_literal(self):
         text = "90"
         self.assertEqual(90, get_minutes(text))
+
+    def test_get_minutes_fraction_in_hours_with_dot_notation(self):
+        text = "1.5 hours"
+        self.assertEqual(90, get_minutes(text))
+
+    def test_get_minutes_fraction_with_fraction_unicode_character_halves(self):
+        text = "1½ hours"
+        self.assertEqual(90, get_minutes(text))
+
+    def test_get_minutes_fraction_with_fraction_unicode_character_three_fours(self):
+        text = "1¾ hours"
+        self.assertEqual(105, get_minutes(text))
+
+    def test_get_minutes_fraction_with_fraction_unicode_character_one_fours(self):
+        text = "1¼ hours"
+        self.assertEqual(75, get_minutes(text))
+
+    def test_get_minutes_fraction_with_fraction_unicode_character_two_thirds(self):
+        text = "1⅔ hours"
+        self.assertEqual(100, get_minutes(text))
+
+    def test_get_minutes_fraction_with_fraction_digits_with_slash(self):
+        text = "1 1/2 hours"
+        self.assertEqual(90, get_minutes(text))
+
+    def test_get_minutes_fraction_with_fraction_digits_with_slash_three_fours(self):
+        text = "1 3/4 hours"
+        self.assertEqual(105, get_minutes(text))
+
+    def test_get_minutes_fraction_with_fraction_digits_with_slash_one_fours(self):
+        text = "1 1/4 hours"
+        self.assertEqual(75, get_minutes(text))
+
+    def test_get_minutes_fraction_with_fraction_digits_with_slash_two_thirds(self):
+        text = "1 2/3 hours"
+        self.assertEqual(100, get_minutes(text))
+
+    def test_get_minutes_handles_dashes(self):
+        text = "15 - 20 minutes"
+        self.assertEqual(20, get_minutes(text))
+
+    def test_get_minutes_handles_to(self):
+        text = "15 to 20 minutes"
+        self.assertEqual(20, get_minutes(text))
