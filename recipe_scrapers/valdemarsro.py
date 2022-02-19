@@ -1,8 +1,8 @@
-from ._abstract import AbstractScraper
-from ._utils import normalize_string
-from ._exceptions import ElementNotFoundInHtml
-
 import re
+
+from ._abstract import AbstractScraper
+from ._exceptions import ElementNotFoundInHtml
+from ._utils import normalize_string
 
 
 class Valdemarsro(AbstractScraper):

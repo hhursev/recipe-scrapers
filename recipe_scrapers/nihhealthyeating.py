@@ -1,6 +1,6 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
 from ._exceptions import ElementNotFoundInHtml
+from ._utils import get_minutes, get_yields, normalize_string
 
 
 class NIHHealthyEating(AbstractScraper):

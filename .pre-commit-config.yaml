@@ -1,21 +1,22 @@
+exclude: 'tests/test_data/'
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.3.0
+    rev: v4.1.0
     hooks:
     -   id: check-yaml
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
 -   repo: https://gitlab.com/pycqa/flake8.git
-    rev: 3.8.3
+    rev: 3.9.2
     hooks:
     - id: flake8
       additional_dependencies: [flake8-use-fstring]
 -   repo: https://github.com/pycqa/isort
-    rev: 5.7.0
+    rev: 5.10.1
     hooks:
     - id: isort
       args: ["--profile", "black", "--filter-files"]
 -   repo: https://github.com/psf/black
-    rev: 19.3b0
+    rev: 22.1.0
     hooks:
     - id: black

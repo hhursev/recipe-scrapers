@@ -1,10 +1,11 @@
 # generate generates a new recipe scraper.
 import ast
-import requests
 import sys
 
-from recipe_scrapers._utils import get_host_name
+import requests
+
 from recipe_scrapers._abstract import HEADERS
+from recipe_scrapers._utils import get_host_name
 
 template_class_name = "Template"
 template_host_name = "example.com"
