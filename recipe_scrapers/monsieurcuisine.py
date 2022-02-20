@@ -20,8 +20,11 @@ class MonsieurCuisine(AbstractScraper):
             "div", {"class": "recipe-duration-total"}
         )
 
-        minutes = get_minutes(container.b.get_text().replace(":", "h"))
-        return minutes
+        total_time = container.b.get_text()
+        total_time_hours = total_time.split(":")[0]
+        total_time_mins = total_time.split(":")[1]
+
+        return get_minutes(f"{total_time_hours}h and {total_time_mins}mins")
 
     def yields(self):
         container = self.soup.find("div", {"class": "recipe--info"}).find(

@@ -57,7 +57,7 @@ def get_minutes(element, return_zero_on_not_found=False):
             1
         ]  # sometimes formats are like this: '12 to 15 minutes'
     if "h" in time_text:
-        time_text = time_text.replace("h", "hours") + "minutes"
+        time_text = time_text.replace("h", "hours")
 
     matched = TIME_REGEX.search(time_text)
 

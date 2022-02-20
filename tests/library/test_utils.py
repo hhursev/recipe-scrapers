@@ -6,9 +6,11 @@ from recipe_scrapers._utils import get_minutes
 class TestUtils(unittest.TestCase):
     def test_get_minutes_english_description(self):
         text = "1 hour 15 mins"
-        result = get_minutes(text)
+        self.assertEqual(75, get_minutes(text))
 
-        assert result == 75
+    def test_get_minutes_english_description_with_and(self):
+        text = "1h and 15mins"
+        self.assertEqual(75, get_minutes(text))
 
     def test_get_minutes_english_abbreviation(self):
         text = "3h10m"
