@@ -31,9 +31,16 @@ class MonsieurCuisine(AbstractScraper):
         return get_yields(container.get_text())
 
     def image(self):
-        container = self.soup.find("meta", {"property": "og:image"})
+        container = self.soup.find("div", {"class", "flexed-image-preview"})
+        container = container.find("figure")
+        container = container and container.find("img")
+        if container and container.has_attr("src"):
+            container = container["src"]
 
-        return container.get("content")
+        if not container:
+            return None
+
+        return "https://www." + self.host() + container
 
     def ingredients(self):
         container = self.soup.find(
