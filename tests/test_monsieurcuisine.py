@@ -23,7 +23,7 @@ class TestMonsieurCuisineScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://www.monsieur-cuisine.com/fileadmin/import/23055FR/23055_Rezeptfoto_01.jpg",
+            "https://www.monsieur-cuisine.com/fileadmin/_processed_/e/8/csm_23055_Rezeptfoto_01_2fae43be2a.jpg",
             self.harvester_class.image(),
         )
 
