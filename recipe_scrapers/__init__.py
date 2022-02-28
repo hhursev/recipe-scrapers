@@ -273,6 +273,7 @@ SCRAPERS = {
     Kochbar.host(): Kochbar,
     Koket.host(): Koket,
     KptnCook.host(): KptnCook,
+    KptnCook.host(subdomain="sharing"): KptnCook,
     KuchniaDomowa.host(): KuchniaDomowa,
     KwestiaSmaku.host(): KwestiaSmaku,
     LeCremeDeLaCrumb.host(): LeCremeDeLaCrumb,
