@@ -90,6 +90,7 @@ from .kptncook import KptnCook
 from .kuchniadomowa import KuchniaDomowa
 from .kwestiasmaku import KwestiaSmaku
 from .lecremedelacrumb import LeCremeDeLaCrumb
+from .lekkerensimpel import LekkerEnSimpel
 from .littlespicejar import LittleSpiceJar
 from .livelytable import LivelyTable
 from .lovingitvegan import Lovingitvegan
@@ -277,6 +278,7 @@ SCRAPERS = {
     KuchniaDomowa.host(): KuchniaDomowa,
     KwestiaSmaku.host(): KwestiaSmaku,
     LeCremeDeLaCrumb.host(): LeCremeDeLaCrumb,
+    LekkerEnSimpel.host(): LekkerEnSimpel,
     LittleSpiceJar.host(): LittleSpiceJar,
     LivelyTable.host(): LivelyTable,
     Lovingitvegan.host(): Lovingitvegan,
