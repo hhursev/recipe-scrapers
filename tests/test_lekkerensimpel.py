@@ -45,3 +45,6 @@ class TestLekkerEnSimpelScraper(ScraperTest):
             "Een heerlijke poké bowl met kip, avocado, peen julienne en edamame bonen. Een makkelijk gerecht dat in 30 minuten op tafel staat én waarmee je heel goed kunt variëren. Voeg bijvoorbeeld eens stukjes mango toe of vervang de kip door zalm. Neem ook eens een kijkje bij onze sushi recepten.",
             self.harvester_class.description(),
         )
+
+    def test_language(self):
+        self.assertEqual("nl-NL", self.harvester_class.language())

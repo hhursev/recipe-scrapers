@@ -50,3 +50,6 @@ class LekkerEnSimpel(AbstractScraper):
     def description(self):
         description = self.soup.find("div", {"class": "entry__content"}).find("p").text
         return normalize_string(description) if description else None
+
+    def language(self):
+        return "nl-NL"
