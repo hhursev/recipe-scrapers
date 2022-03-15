@@ -38,6 +38,7 @@ from .cucchiaio import Cucchiaio
 from .cuisineaz import CuisineAZ
 from .cybercook import Cybercook
 from .delish import Delish
+from .ditchthecarbs import DitchTheCarbs
 from .domesticateme import DomesticateMe
 from .downshiftology import Downshiftology
 from .dr import Dr
@@ -222,6 +223,7 @@ SCRAPERS = {
     CuisineAZ.host(): CuisineAZ,
     Cybercook.host(): Cybercook,
     Delish.host(): Delish,
+    DitchTheCarbs.host(): DitchTheCarbs,
     DomesticateMe.host(): DomesticateMe,
     Downshiftology.host(): Downshiftology,
     Dr.host(): Dr,
