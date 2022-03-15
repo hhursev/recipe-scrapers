@@ -82,6 +82,7 @@ Scrapers available for:
 - `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
 - `http://www.afghankitchenrecipes.com/ <http://www.afghankitchenrecipes.com/>`_
+- `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
 - `https://alltommat.se/ <https://alltommat.se/>`_
 - `https://amazingribs.com/ <https://amazingribs.com/>`_
