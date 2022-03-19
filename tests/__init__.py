@@ -9,6 +9,7 @@ class ScraperTest(unittest.TestCase):
     maxDiff = None
     online = False
     test_file_name = None
+    test_file_extension = "testhtml"
 
     def setUp(self):
         os.environ[
@@ -21,7 +22,8 @@ class ScraperTest(unittest.TestCase):
             else self.scraper_class.__name__.lower()
         )
         with open(
-            "tests/test_data/{}.testhtml".format(test_file_name), encoding="utf-8"
+            f"tests/test_data/{test_file_name}.{self.test_file_extension}",
+            encoding="utf-8",
         ) as testfile:
             self.harvester_class = self.scraper_class(testfile)
             canonical_url = self.harvester_class.canonical_url()
