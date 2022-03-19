@@ -13,7 +13,7 @@ class GoustoJson(AbstractScraper):
     """
 
     def __init__(self, url, *args, **kwargs):
-        if not settings.TEST_MODE:
+        if not settings.TEST_MODE:  # pragma: no cover
             recipe_slug = url_path_to_dict(url).get("path").split("/")[-1]
             url = f"https://production-api.gousto.co.uk/cmsreadbroker/v1/recipe/{recipe_slug}"
 

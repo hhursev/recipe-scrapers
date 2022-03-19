@@ -17,6 +17,12 @@ class TestGoustoScraper(ScraperTest):
             "Malaysian-Style Coconut Meat-Free Chicken With Pickled Cucumber",
         )
 
+    def test_image(self):
+        self.assertEqual(
+            "https://s3-eu-west-1.amazonaws.com/s3-gousto-production-media/cms/mood-image/1930--Malaysian-Coconut-Chicken--Pickled-Cucumber-1636110687600.jpg",
+            self.harvester_class.image(),
+        )
+
     def test_total_time(self):
         self.assertEqual(35, self.harvester_class.total_time())
 
