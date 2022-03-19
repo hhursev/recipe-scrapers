@@ -9,7 +9,7 @@ from ._utils import url_path_to_dict
 
 class Woolworths(AbstractScraper):
     def __init__(self, url, *args, **kwargs):
-        if not settings.TEST_MODE:
+        if not settings.TEST_MODE:  # pragma: no cover
             target = url_path_to_dict(url)["path"].split("/")[-1]
             url = f"https://foodhub.woolworths.com.au/content/woolworths-foodhub/en/{target}.model.json"
 
