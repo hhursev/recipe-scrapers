@@ -1,4 +1,4 @@
-from recipe_scrapers.plugins import (  # SchemaOrgPriorityPlugin,; Bcp47ValidatePlugin,
+from recipe_scrapers.plugins import (
     ExceptionHandlingPlugin,
     HTMLTagStripperPlugin,
     NormalizeStringPlugin,
@@ -15,8 +15,6 @@ PLUGINS = (
     NormalizeStringPlugin,
     OpenGraphImageFetchPlugin,
     SchemaOrgFillPlugin,
-    # Bcp47ValidatePlugin,
-    # SchemaOrgPriorityPlugin,
 )
 
 META_HTTP_EQUIV = True
