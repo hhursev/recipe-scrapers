@@ -52,3 +52,15 @@ Heat a skillet over medium heat. Add oil and garlic, sauté a 30 seconds, add sp
 Place chicken on a baking sheet, divide spinach evenly between the 6 pieces and place on top. Top each with 1/2 oz mozzarella, roasted peppers and bake until melted, about 3 minutes.""",
             self.harvester_class.instructions(),
         )
+
+    def test_total_time(self):
+        self.assertEqual(
+            17,
+            self.harvester_class.total_time(),
+        )
+
+    def test_ratings(self):
+        self.assertEqual(
+            5,
+            self.harvester_class.ratings(),
+        )
