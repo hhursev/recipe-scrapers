@@ -4,6 +4,8 @@
 
 import extruct
 
+from recipe_scrapers.settings import settings
+
 from ._exceptions import SchemaOrgException
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -22,7 +24,12 @@ class SchemaOrg:
         self.format = None
         self.data = {}
 
-        data = extruct.extract(page_data, syntaxes=SYNTAXES, errors="log", uniform=True)
+        data = extruct.extract(
+            page_data,
+            syntaxes=SYNTAXES,
+            errors="log" if settings.LOG_LEVEL <= 10 else "ignore",
+            uniform=True,
+        )
 
         low_schema = {s.lower() for s in SCHEMA_NAMES}
         for syntax in SYNTAXES:
