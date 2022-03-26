@@ -154,6 +154,7 @@ Scrapers available for:
 - `https://hellofresh.co.uk/ <https://hellofresh.co.uk>`_
 - `https://www.hellofresh.de/ <https://www.hellofresh.de/>`_
 - `https://www.hellofresh.fr/ <https://www.hellofresh.fr/>`_
+- `https://www.homechef.com/ <https://www.homechef.com/>`_
 - `https://hostthetoast.com/ <https://hostthetoast.com/>`_
 - `https://receitas.ig.com.br/ <https://receitas.ig.com.br>`_
 - `https://indianhealthyrecipes.com <https://www.indianhealthyrecipes.com>`_
