@@ -28,7 +28,10 @@ class TestLAtelierDeRoxaneScraper(ScraperTest):
         self.assertEqual("Recette cake marbré", self.harvester_class.title())
 
     def test_description(self):
-        self.assertEqual("Je pense que nous avons déjà tous acheté, au moins une fois, un cake Savane au supermarché ! Un délicieux marbré, moelleux à souhait au bon goût de vanille et cacao. Aujourd’hui, je te propose une recette facile et rapide pour réaliser ce fameux cake marbré maison ! Réalise cette recette et tu n’achèteras plus l’industriel 😉", self.harvester_class.description())
+        self.assertEqual(
+            "Je pense que nous avons déjà tous acheté, au moins une fois, un cake Savane au supermarché ! Un délicieux marbré, moelleux à souhait au bon goût de vanille et cacao. Aujourd’hui, je te propose une recette facile et rapide pour réaliser ce fameux cake marbré maison ! Réalise cette recette et tu n’achèteras plus l’industriel 😉",
+            self.harvester_class.description(),
+        )
 
     def test_total_time(self):
         self.assertEqual(60, self.harvester_class.total_time())
@@ -52,7 +55,7 @@ class TestLAtelierDeRoxaneScraper(ScraperTest):
                 "250 g de farine",
                 "150 g de lait",
                 "150 g de chocolat noir fondu",
-                "1 càc d'arôme ou poudre de vanille"
+                "1 càc d'arôme ou poudre de vanille",
             ],
             self.harvester_class.ingredients(),
         )

@@ -8,16 +8,18 @@ class LAtelierDeRoxane(AbstractScraper):
         return "latelierderoxane.com"
 
     def image(self):
-        image = self.soup.find("img", {"class": "attachment-single size-single wp-post-image"})
-        return image['src'] if image else None
+        image = self.soup.find(
+            "img", {"class": "attachment-single size-single wp-post-image"}
+        )
+        return image["src"] if image else None
 
     def title(self):
         div = self.soup.find("div", {"class": "bloc_titreh1 bloc_blog"})
-        return div.find('h1').get_text()
+        return div.find("h1").get_text()
 
     def description(self):
         div = self.soup.find("div", {"class": "bloc_chapeau bloc_blog"})
-        return div.find('p').get_text()
+        return div.find("p").get_text()
 
     def total_time(self):
         return get_minutes(self.get_bloc_temps_value_by_index(0))
@@ -39,8 +41,10 @@ class LAtelierDeRoxane(AbstractScraper):
         return formatted_ingredients
 
     def instructions(self):
-        instruction_bloc = self.soup.find("div", {"class": "bloc_texte_simple bloc_blog"})
-        instructions = instruction_bloc.find_all('li')
+        instruction_bloc = self.soup.find(
+            "div", {"class": "bloc_texte_simple bloc_blog"}
+        )
+        instructions = instruction_bloc.find_all("li")
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
