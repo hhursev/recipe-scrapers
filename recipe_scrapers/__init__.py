@@ -92,6 +92,7 @@ from .koket import Koket
 from .kptncook import KptnCook
 from .kuchniadomowa import KuchniaDomowa
 from .kwestiasmaku import KwestiaSmaku
+from .latelierderoxane import LAtelierDeRoxane
 from .lecremedelacrumb import LeCremeDeLaCrumb
 from .lekkerensimpel import LekkerEnSimpel
 from .littlespicejar import LittleSpiceJar
@@ -284,6 +285,7 @@ SCRAPERS = {
     KptnCook.host(subdomain="sharing"): KptnCook,
     KuchniaDomowa.host(): KuchniaDomowa,
     KwestiaSmaku.host(): KwestiaSmaku,
+    LAtelierDeRoxane.host(): LAtelierDeRoxane,
     LeCremeDeLaCrumb.host(): LeCremeDeLaCrumb,
     LekkerEnSimpel.host(): LekkerEnSimpel,
     LittleSpiceJar.host(): LittleSpiceJar,
