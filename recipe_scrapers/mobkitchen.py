@@ -10,12 +10,8 @@ class MobKitchen(AbstractScraper):
         super().__init__(*args, **kwargs)
 
         recipe_schema = None
-        for schema in self.soup.head.find_all(
-            "script", type="application/ld+json"
-        ):
-            recipe_schema = schema.find(
-                string=re.compile("\"@type\":\"Recipe\"")
-            )
+        for schema in self.soup.head.find_all("script", type="application/ld+json"):
+            recipe_schema = schema.find(string=re.compile('"@type":"Recipe"'))
 
             if recipe_schema:
                 break
@@ -24,8 +20,8 @@ class MobKitchen(AbstractScraper):
 
         # MobKitchen don't follow the Recipe schema correctly, so this fixes
         # the formatting so the Schema is parsed correctly.
-        for instruction in recipe_schema['recipeInstructions']:
-            instruction['text'] = instruction['text']['result']
+        for instruction in recipe_schema["recipeInstructions"]:
+            instruction["text"] = instruction["text"]["result"]
 
         self.schema = SchemaOrg(recipe_schema, raw=True)
 
