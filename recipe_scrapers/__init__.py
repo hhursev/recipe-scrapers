@@ -106,6 +106,7 @@ from .melskitchencafe import MelsKitchenCafe
 from .mindmegette import Mindmegette
 from .minimalistbaker import Minimalistbaker
 from .misya import Misya
+from .mobkitchen import MobKitchen
 from .momswithcrockpots import MomsWithCrockPots
 from .monsieurcuisine import MonsieurCuisine
 from .motherthyme import MotherThyme
@@ -299,6 +300,7 @@ SCRAPERS = {
     Mindmegette.host(): Mindmegette,
     Minimalistbaker.host(): Minimalistbaker,
     Misya.host(): Misya,
+    MobKitchen.host(): MobKitchen,
     MomsWithCrockPots.host(): MomsWithCrockPots,
     MonsieurCuisine.host(): MonsieurCuisine,
     MotherThyme.host(): MotherThyme,
