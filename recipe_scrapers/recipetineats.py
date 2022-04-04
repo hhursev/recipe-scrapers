@@ -1,10 +1,10 @@
 from ._abstract import AbstractScraper
 
 
-class RecipieTinEats(AbstractScraper):
+class RecipeTinEats(AbstractScraper):
     @classmethod
     def host(cls):
-        return "recipietineats.com"
+        return "recipetineats.com"
 
     def title(self):
         return self.schema.title()
