@@ -1,13 +1,13 @@
-from recipe_scrapers.recipietineats import RecipieTinEats
+from recipe_scrapers.recipetineats import RecipeTinEats
 from tests import ScraperTest
 
 
-class TestRecipieTinEatsScraper(ScraperTest):
+class TestRecipeTinEatsScraper(ScraperTest):
 
-    scraper_class = RecipieTinEats
+    scraper_class = RecipeTinEats
 
     def test_host(self):
-        self.assertEqual("recipietineats.com", self.harvester_class.host())
+        self.assertEqual("recipetineats.com", self.harvester_class.host())
 
     def test_canonical_url(self):
         self.assertEqual(
