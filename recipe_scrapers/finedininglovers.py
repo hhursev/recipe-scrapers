@@ -8,7 +8,7 @@ class FineDiningLovers(AbstractScraper):
         return "finedininglovers.com"
 
     def title(self):
-        return self.soup.find("div", {"class": "recipe-detail"}).find("h3").get_text()
+        return self.soup.find("h1", {"class": "recipe-full-class"}).get_text()
 
     def total_time(self):
         return get_minutes(self.soup.find("div", {"class": "timing"}))
