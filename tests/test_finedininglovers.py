@@ -27,25 +27,25 @@ class TestFineDiningLoversScraper(ScraperTest):
     def test_ingredients(self):
         self.assertCountEqual(
             [
-                "zucchini 4 each, large",
-                "basil 20 g, fresh",
+                "Zucchini 4 each, large",
+                "Basil 20 g, fresh",
                 "Pine nuts 70 g",
-                "Extra-virgin olive oil 120 ml",
-                "Yeast flakes 6 g",
+                "Extra virgin olive oil 120 ml",
+                "Yeast Flakes 6 g",
                 "Garlic 1/2 clove",
-                "salt 1 pinch",
-                "Tomato 200 g",
-                "Sundried tomato 4 each",
-                "Extra-virgin olive oil 30 ml",
-                "salt 1 pinch",
+                "Salt 1 pinch",
+                "Tomatoes 200 g",
+                "Sun Dried Tomatoes 4 each",
+                "Extra virgin olive oil 30 ml",
+                "Salt 1 pinch",
                 "Pepper 1 pinch",
                 "Brown sugar 1 pinch",
-                "Dried oregano to taste",
-                "Macadamia nuts 150 g (not roasted, unsalted)",
-                "Yeast flakes 6 g",
-                "salt 1 pinch",
-                "lime 1 (juice only, filtered)",
-                "water 50 ml (filtered)",
+                "Oregano to taste",
+                "Macadamia Nuts 150 g (not roasted, unsalted)",
+                "Yeast Flakes 6 g",
+                "Salt 1 pinch",
+                "Limes 1 (juice only, filtered)",
+                "50 ml (filtered)",
             ],
             self.harvester_class.ingredients(),
         )
@@ -58,6 +58,6 @@ class TestFineDiningLoversScraper(ScraperTest):
 
     def test_image(self):
         return self.assertEqual(
-            "https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/recipe_full_desktop/public/Original_2242_zucchini-lasagna-raw-vegan.jpg",
+            "https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/recipes_1200_800_fallback/public/Original_2242_zucchini-lasagna-raw-vegan.jpg",
             self.harvester_class.image(),
         )
