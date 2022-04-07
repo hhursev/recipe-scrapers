@@ -1,4 +1,5 @@
 import re
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes
 
@@ -28,7 +29,7 @@ class CookingCircle(AbstractScraper):
             if li.span.get_text().lower() == "total time:":
                 totalTime = li.span.find_next().get_text()
 
-        if totalTime != None:
+        if totalTime is not None:
             totalTime = re.findall("[0-9]+", totalTime)[0]
         return get_minutes(totalTime)
 

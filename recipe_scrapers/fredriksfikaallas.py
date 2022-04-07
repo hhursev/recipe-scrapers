@@ -33,7 +33,7 @@ class FredriksFikaAllas(AbstractScraper):
         contentRows = content.parent.text.split("\n")
 
         for i in contentRows:
-            if not "Ingredienser" in i:
+            if "Ingredienser" not in i:
                 ingredients.append(i.replace("\r", "").replace("Gör så här:", ""))
             if "Gör så här" in i:
                 break
