@@ -16,38 +16,41 @@ class FredriksFikaAllas(AbstractScraper):
         return self.soup.find("div", {"class": "c-post_title"}).get_text()
 
     def category(self):
-        return self.soup.find("div", {"class": "c-post_author__category"}).get_text().replace("i ", "").strip()
+        return (
+            self.soup.find("div", {"class": "c-post_author__category"})
+            .get_text()
+            .replace("i ", "")
+            .strip()
+        )
 
     def image(self):
         return self.schema.image()
 
     def ingredients(self):
         ingredients = []
-        content = self.soup.find("strong", text=re.compile(
-            "Ingredienser"))
+        content = self.soup.find("strong", text=re.compile("Ingredienser"))
 
-        contentRows = content.parent.text.split('\n')
+        contentRows = content.parent.text.split("\n")
 
         for i in contentRows:
-            if not 'Ingredienser' in i:
-                ingredients.append(i.replace('\r', '').replace('Gör så här:', ''))
-            if 'Gör så här' in i:
+            if not "Ingredienser" in i:
+                ingredients.append(i.replace("\r", "").replace("Gör så här:", ""))
+            if "Gör så här" in i:
                 break
 
         return ingredients
 
     def instructions(self):
         instructions = []
-        content = self.soup.find("strong", text=re.compile(
-            "Gör så här"))
+        content = self.soup.find("strong", text=re.compile("Gör så här"))
 
-        contentRows = content.parent.text.split('\n')
+        contentRows = content.parent.text.split("\n")
 
         fillData = False
         for i in contentRows:
             if fillData:
-                instructions.append(i.replace('\r', ''))
-            if 'Gör så här' in i:
+                instructions.append(i.replace("\r", ""))
+            if "Gör så här" in i:
                 fillData = True
 
         return "\n".join(instructions)

@@ -20,19 +20,23 @@ class TestFredriksFikaAllasScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://files.allas.se/uploads/sites/25/2015/08/10072015-_MG_0917-860x573.jpg", self.harvester_class.image())
+            "https://files.allas.se/uploads/sites/25/2015/08/10072015-_MG_0917-860x573.jpg",
+            self.harvester_class.image(),
+        )
 
     def test_ingredients(self):
-        self.assertEqual([
-            '1 dl havregryn',
-            '5 dl vatten',
-            '50 g smör',
-            '0,5 dl ljus sirap',
-            '2 tsk salt',
-            '50 g jäst',
-            '9-12 dl rågsikt'
-        ],
-            self.harvester_class.ingredients())
+        self.assertEqual(
+            [
+                "1 dl havregryn",
+                "5 dl vatten",
+                "50 g smör",
+                "0,5 dl ljus sirap",
+                "2 tsk salt",
+                "50 g jäst",
+                "9-12 dl rågsikt",
+            ],
+            self.harvester_class.ingredients(),
+        )
 
     def test_instructions(self):
         self.assertEqual(
@@ -43,5 +47,6 @@ class TestFredriksFikaAllasScraper(ScraperTest):
 5. Låt jäsa 30 minuter.
 6. Ha upp degen på ett bakbord och knåda den lite. Kavla ut degen ca 0,5 cm hög. Stansa ut rundlar och lägg på bakplåtspapperklädd plåt. Nagga tekakorna med en gaffel.
 7. Låt jäsa under en handduk ca 30 minuter. Sätt ugnen på 225 grader.
-8. Baka mitt i ugnen i 6-8 minuter tills de får en gyllene färg.Ett bra tips att använda som utstickare när du gör tekakor är en innerkruka som är väl rengjord såklart. Perfekt tekakestorlek!""", self.harvester_class.instructions()
+8. Baka mitt i ugnen i 6-8 minuter tills de får en gyllene färg.Ett bra tips att använda som utstickare när du gör tekakor är en innerkruka som är väl rengjord såklart. Perfekt tekakestorlek!""",
+            self.harvester_class.instructions(),
         )
