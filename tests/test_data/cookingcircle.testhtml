@@ -1,0 +1,2672 @@
+
+<!doctype html>
+<html lang="x-default">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript">
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}});
+</script>
+
+	<title>Vegan Lemon Cupcakes &ndash; </title>
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+	<link rel="pingback" href="https://cookingcircle.com/xmlrpc.php">
+	<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<link rel="canonical" href="https://cookingcircle.com/recipe/vegan-lemon-cupcakes/" />
+<meta property="og:url" content="https://cookingcircle.com/recipe/vegan-lemon-cupcakes/" />
+<meta property="og:site_name" content="Cooking Circle" />
+<meta property="og:locale" content="en_UN" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Vegan Lemon Cupcakes - Cooking Circle" />
+<meta property="og:image" content="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2022/02/23144350/Vegan-Lemon-Cupcakes-2220x1000.jpg" /><meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Vegan Lemon Cupcakes - Cooking Circle" />
+<meta name="twitter:image:src" content="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2022/02/23144350/Vegan-Lemon-Cupcakes-2220x1000.jpg" />
+<link rel='dns-prefetch' href='//cookingcircle.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Cooking Circle &raquo; Vegan Lemon Cupcakes Comments Feed" href="https://cookingcircle.com/recipe/vegan-lemon-cupcakes/feed/" />
+<link rel='stylesheet' id='wp-components-css'  href='https://cookingcircle.com/wp-includes/css/dist/components/style.min.css?ver=5.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-editor-css'  href='https://cookingcircle.com/wp-includes/css/dist/block-editor/style.min.css?ver=5.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-nux-css'  href='https://cookingcircle.com/wp-includes/css/dist/nux/style.min.css?ver=5.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-reusable-blocks-css'  href='https://cookingcircle.com/wp-includes/css/dist/reusable-blocks/style.min.css?ver=5.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-editor-css'  href='https://cookingcircle.com/wp-includes/css/dist/editor/style.min.css?ver=5.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bynder_block-cgb-style-css-css'  href='https://cookingcircle.com/wp-content/plugins/bynder/dist/blocks.style.build.css' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='wordpress-multilingual-multisite-public-css'  href='https://cookingcircle.com/wp-content/plugins/wordpress-multilingual-multisite/assets/css/wordpress-multilingual-multisite-public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wordpress-multilingual-multisite-flag-icon-css'  href='https://cookingcircle.com/wp-content/plugins/wordpress-multilingual-multisite/assets/css/flag-icon-css/css/flag-icon.min.css?ver=3.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='cc-styles-css'  href='https://cookingcircle.com/wp-content/themes/cooking-circle/assets/css/cc.min.css?ver=1648729941' type='text/css' media='all' />
+<link rel='stylesheet' id='cc-fonts-css'  href='https://fonts.googleapis.com/css2?family=Open+Sans%3Aital%2Cwght%400%2C400%3B0%2C600%3B0%2C700%3B0%2C800%3B1%2C400&#038;display=swap&#038;ver=5.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='cc-print-css'  href='https://cookingcircle.com/wp-content/themes/cooking-circle/assets/css/cc-print.css?ver=1648729941' type='text/css' media='print' />
+<script type='text/javascript' src='https://code.jquery.com/jquery-3.5.1.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://code.jquery.com/jquery-migrate-3.0.0.min.js?ver=3.0.0' id='jquery-migrate-js'></script>
+<script type='text/javascript' defer='defer' src='https://cookingcircle.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.5.16' id='gform_json-js'></script>
+<script type='text/javascript' id='gform_gravityforms-js-extra'>
+/* <![CDATA[ */
+var gform_i18n = {"datepicker":{"days":{"monday":"Mon","tuesday":"Tue","wednesday":"Wed","thursday":"Thu","friday":"Fri","saturday":"Sat","sunday":"Sun"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+/* ]]> */
+</script>
+<script type='text/javascript' id='gform_gravityforms-js-before'>
+
+</script>
+<script type='text/javascript' defer='defer' src='https://cookingcircle.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.5.16' id='gform_gravityforms-js'></script>
+<link rel="https://api.w.org/" href="https://cookingcircle.com/wp-json/" /><link rel="alternate" type="application/json" href="https://cookingcircle.com/wp-json/wp/v2/recipe/6426" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cookingcircle.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cookingcircle.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.9.2" />
+<link rel='shortlink' href='https://cookingcircle.com/?p=6426' />
+<link rel="alternate" type="application/json+oembed" href="https://cookingcircle.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcookingcircle.com%2Frecipe%2Fvegan-lemon-cupcakes%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://cookingcircle.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcookingcircle.com%2Frecipe%2Fvegan-lemon-cupcakes%2F&#038;format=xml" />
+<meta name="framework" content="weLaunch 4.1.24" /><link rel="alternate" hreflang="x-default" href="https://cookingcircle.com/recipe/vegan-lemon-cupcakes/" />
+<link rel="alternate" hreflang="de-DE" href="https://cookingcircle.com/de/recipe/vegan-lemon-cupcakes/" />
+<link rel="alternate" hreflang="fr-FR" href="https://cookingcircle.com/fr/recipe/vegan-lemon-cupcakes/" />
+<link rel="alternate" hreflang="it-IT" href="https://cookingcircle.com/it/recipe/vegan-lemon-cupcakes/" />
+<link rel="alternate" hreflang="es-ES" href="https://cookingcircle.com/es/recipe/vegan-lemon-cupcakes/" />
+<link rel="icon" href="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170119/cropped-Ninja-logo-square-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170119/cropped-Ninja-logo-square-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170119/cropped-Ninja-logo-square-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170119/cropped-Ninja-logo-square-270x270.jpg" />
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P9FCJDL');</script>
+<!-- End Google Tag Manager --></head>
+
+<body class="recipe-template-default single single-recipe postid-6426">
+
+<header class="header">
+	<div class="container-fluid">
+		
+<div class="header-bar">
+			<a class="header-bar__logo" href="https://cookingcircle.com" aria-label="Visit homepage">
+				<figure class="brand-logo" style="background-image: url('https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2021/09/24151110/Ninja-CookingCircle-Logo-Stacked-Web.svg');">
+		Cooking Circle	</figure>
+			</a>
+			<div class="header-bar__tools">
+					<form role="search" method="get" class="search-form" action="https://cookingcircle.com/">
+				<div class="form-group mb-0 mr-md-4">
+					<label class="sr-only" for="headerSearchInput"></label>
+					<input name="s" class="form-control form-control-lg" id="headerSearchInput" type="search" value="" placeholder="Search for recipes">
+					
+					<button type="submit" class="btn btn-search" id="headerSearchBtn" aria-label="Search"></button>
+				</div>
+			</form>
+		
+						<button class="btn btn-icon btn-icon--lg btn-bookmark mr-2 mr-md-4"
+						  aria-label="Login or register"
+						  type="button"
+						  data-toggle="modal"
+						  data-target="#loginModal"></button>
+						<button class="btn btn-icon btn-icon--lg btn-toggle"
+				  id="navOpenBtn"
+				  aria-label="Open menu"
+				  type="button"></button>
+	</div>
+</div>
+	</div>
+</header>
+
+<main class="main">
+		<article itemscope itemtype="http://schema.org/Recipe">
+
+			
+<meta itemprop="image" content="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2022/02/23144350/Vegan-Lemon-Cupcakes-2220x1000.jpg">
+<meta itemprop="name" content="Vegan Lemon Cupcakes">
+
+<meta itemprop="aggregateRating" content="">
+<meta itemprop="cookTime" content="PT30M">
+<meta itemprop="datePublished" content="2022-02-23T14:50:14+0000">
+<meta itemprop="description" content="">
+<meta itemprop="keywords" content="BN800EU, BN800UK, Food processor">
+<meta itemprop="prepTime" content="PT5M">
+<meta itemprop="recipeCategory" content="30 mins or less">
+<meta itemprop="recipeIngredient" content="125ml non dairy milk, 1 tsp apple cider vinegar, 60ml olive oil, 100g caster sugar, 96g gluten free self raising flour, 1 tsp baking powder, 50g oat flour, 1 zest from lemon, 120g icing sugar, 112g vegan stick butter, 1/4 tsp blue spirulina, 1/2 tsp pink pitaya powder">
+<meta itemprop="recipeInstructions" content="[{"@type":"HowToStep","text":"Preheat your oven to 180c and line a cupcake tray with cases."},{"@type":"HowToStep","text":"Combine the non-dairy milk and cider vinegar, then set aside and allow to thicken."},{"@type":"HowToStep","text":"In your Ninja food processor, add in all of your dry ingredients and pulse to combine."},{"@type":"HowToStep","text":"Pour in the oil, milk mixture and lemon zest and blend for a few seconds to create a smooth batter."},{"@type":"HowToStep","text":"Transfer this into your cupcake cases (makes around 6 cupcakes) and bake in the oven for 25 minutes or until cooked through."},{"@type":"HowToStep","text":"Whilst allowing your cupcakes to cool, use an electric mixer to cream the butter until light and fluffy."},{"@type":"HowToStep","text":"Gradually add in the sugar and powders whilst mixing until fully combined."},{"@type":"HowToStep","text":"Once cooled, pipe the butter cream into each of your cakes and decorate."}]">
+<meta itemprop="recipeYield" content="6">
+<meta itemprop="totalTime" content="PT30M">
+
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						
+<header class="single-hero" style="background-image: url(https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2022/02/23144350/Vegan-Lemon-Cupcakes-2220x1000.jpg)">
+		
+	<div class="single-hero__title">
+					<h6 class="text-uppercase mb-1"><a href="https://cookingcircle.com/recipe_cat/desserts/">Desserts</a>, <a href="https://cookingcircle.com/recipe_cat/vegan/">Vegan</a></h6>
+		
+		<h1 class="text-uppercase">Vegan Lemon Cupcakes</h1>
+	</div>
+
+	<div class="single-hero__footer">
+		
+		<a class="single-hero__author-link" href="https://cookingcircle.com/author/charlotte_robertsmail-com/" aria-label="View recipes">
+				
+	<div class="recipe-author">
+		<figure class="mb-0 mr-2">
+			<img class="img-roundel img-fluid"
+			     alt="Charlotte Roberts"
+			     width="50"
+			     height="50"
+			     src="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170126/Charley-profile-pic-50x50.jpg"
+			     srcset="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170126/Charley-profile-pic-50x50.jpg 1x, https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170126/Charley-profile-pic-100x100.jpg 2x"/>
+		</figure>
+		<h6 class="mb-0">
+			<span class="font-weight-normal mb-1 mb-md-0 glossary-translate">
+				Recipe by			</span>
+			<span class="text-uppercase glossary-ignore">Charlotte Roberts</span></h6>
+	</div>
+			</a>
+
+		<div class="position-relative">
+			<div class="tooltip tooltip--click tooltip--idea"
+		     data-id="tooltipCookingMode">
+			<button class="tooltip__close"
+			        aria-label="Close"
+			        type="button"></button>
+			<h4 class="tooltip__heading h3 text-uppercase mb-2 glossary-translate">Tip: Cooking Mode</h4>
+			<p class="mb-0">Try our super simple cooking mode. Ideal when you’re busy running around the kitchen</p>
+		</div>
+			<button class="btn btn-start-cooking glossary-translate"
+	        aria-label="Start cooking"
+	        data-toggle="modal"
+	        data-target="#cookingModeModal"
+	        type="button">Start cooking</button>
+</div>
+	</div>
+
+	<ul class="single-hero__extras">
+		<li><button class="btn btn-icon btn-print"
+        aria-label="Print recipe"
+        type="button"
+        onclick="window.print();"></button>
+</li>
+		<li>	<button class="btn btn-icon btn-bookmark"
+	        aria-label="Log in to bookmark recipe"
+	        type="button"
+	        data-bookmark="6426"
+	        data-toggle="modal"
+	        data-target="#loginModal"></button>
+	</li>
+	</ul>
+</header>					</div>
+				</div>
+
+				
+				<div class="row align-items-center">
+					<div class="col-12 col-lg-auto flex-lg-grow-1">
+						<div class="single-method-overview">
+	<div class="row align-items-center justify-content-between">
+		<div class="col-12 col-md-6">
+			<div class="single-method-overview__method single-method-overview__method--no-dropdown">
+				<h4 class="h6 mb-0 d-block text-uppercase color-primary glossary-translate">Cooking method:</h4>
+										<h5 class="h3 mb-0 text-uppercase">Food Processor</h5>
+									</div>
+		</div>
+		<div class="col-12 col-md-auto">
+			<ul class="single-method-overview__times">
+				<li>
+					<span class="h6 mb-0 d-block text-uppercase color-primary glossary-translate">Prep Time:</span>
+					<span class="h3 mb-0 d-block text-uppercase">5 mins</span>
+				</li>
+
+				
+				<li>
+					<span class="h6 mb-0 d-block text-uppercase color-primary glossary-translate">Total time:</span>
+					
+							<span class="single-method-overview__total-time h3 mb-0 text-uppercase" data-method-type="food-processor" style="">30 mins</span>
+
+											</li>
+			</ul>
+		</div>
+	</div>
+</div>
+					</div>
+					<div class="col-12 col-lg-auto">
+						<ul class="single-skill-serves">
+	<li class="single-skill-serves__skill">
+		<span class="single-skill-serves__item-wrap">
+			<span class="h6 mb-0 d-block text-uppercase glossary-translate">Skill</span>
+			<span class="h3 mb-0 d-block text-uppercase ">Easy</span>
+		</span>
+	</li>
+	<li class="single-skill-serves__serves">
+		<span class="single-skill-serves__item-wrap">
+			<span class="h6 mb-0 d-block text-uppercase glossary-translate">Serves</span>
+			<span class="h3 mb-0 d-block text-uppercase">6 people</span>
+		</span>
+	</li>
+</ul>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12 col-lg-6">
+						<div class="single-summary">
+	<h2 class="text-uppercase mb-6">Vegan Lemon Cupcakes</h2>
+	</div>
+							<div class="single-utensils">
+		<h2 class="text-uppercase mb-5 glossary-translate">Utensils required</h2>
+		<ul class="tags-list">
+								<li>
+						<a class="tags-list__tag"
+						   href="https://cookingcircle.com/utensil/ninja-food-processor-bn800/"
+						   aria-label="View recipes">Ninja 3-in-1 Food Processor with Auto-IQ BN800</a>
+					</li>
+							</ul>
+	</div>
+						</div>
+					<div class="col-12 col-lg-5 offset-lg-1">
+													<div class="single-tags">
+		<h2 class="text-uppercase mb-5 glossary-translate">Recipe tags</h2>
+		<ul class="tags-list">
+			
+					<li>
+						<a class="tags-list__tag"
+						   href="https://cookingcircle.com/recipetag/food-processor/"
+						   aria-label="View recipes">Food processor</a>
+					</li>
+
+							</ul>
+	</div>
+						</div>
+				</div>
+
+				
+				<div class="row">
+					<div class="col-12 col-lg-5">
+						
+	<div class="single-ingredients">
+		
+		<h2 class="text-uppercase mb-4">Ingredients</h2>
+
+				
+					<div class="single-ingredients__tabs">
+				<button class="btn btn-tab btn-tab--active glossary-translate"
+				        data-unit="metric"
+				        aria-label="Metric"
+				        type="button">Metric</button>
+				<button class="btn btn-tab  glossary-translate"
+				        data-unit="imperial"
+				        aria-label="Imperial"
+				        type="button">Imperial</button>
+			</div>
+		
+		
+			<div class="single-ingredients__group" data-unit="metric">
+									
+					<div class="single-ingredients__item">
+
+													<h4 class="single-ingredients__title">For the base</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="125ml-non-dairy-milk">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">125ml</span>
+																		
+									non dairy milk								</li>
+															<li  data-slug="1-tsp-apple-cider-vinegar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									apple cider vinegar								</li>
+															<li  data-slug="60ml-olive-oil">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">60ml</span>
+																		
+									olive oil								</li>
+															<li  data-slug="100g-caster-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">100g</span>
+																		
+									caster sugar								</li>
+															<li  data-slug="96g-gluten-free-self-raising-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">96g</span>
+																		
+									gluten free self raising flour								</li>
+															<li  data-slug="1-tsp-baking-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									baking powder								</li>
+															<li  data-slug="50g-oat-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">50g</span>
+																		
+									oat flour								</li>
+															<li  data-slug="1-zest-from-lemon">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1</span>
+																		
+									zest from lemon								</li>
+													</ul>
+					</div>
+									
+					<div class="single-ingredients__item">
+
+													<h4 class="single-ingredients__title">For the frosting</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="120g-icing-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">120g</span>
+																		
+									icing sugar								</li>
+															<li  data-slug="112g-vegan-stick-butter">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">112g</span>
+																		
+									vegan stick butter								</li>
+															<li  data-slug="1-4-tsp-blue-spirulina">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/4 tsp</span>
+																		
+									blue spirulina								</li>
+															<li  data-slug="1-2-tsp-pink-pitaya-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/2 tsp</span>
+																		
+									pink pitaya powder								</li>
+													</ul>
+					</div>
+				
+			</div>
+				
+					<div class="single-ingredients__group" data-unit="imperial"style="display: none;">
+									
+					<div class="single-ingredients__item">
+													<h4 class="single-ingredients__title">For the base</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="125ml-non-dairy-milk">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">4.38fl. oz</span>
+																		
+									non dairy milk								</li>
+															<li  data-slug="1-tsp-apple-cider-vinegar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									apple cider vinegar								</li>
+															<li  data-slug="60ml-olive-oil">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">2.1fl. oz</span>
+																		
+									olive oil								</li>
+															<li  data-slug="100g-caster-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.5oz</span>
+																		
+									caster sugar								</li>
+															<li  data-slug="96g-gluten-free-self-raising-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.36oz</span>
+																		
+									gluten free self raising flour								</li>
+															<li  data-slug="1-tsp-baking-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									baking powder								</li>
+															<li  data-slug="50g-oat-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1.75oz</span>
+																		
+									oat flour								</li>
+															<li  data-slug="1-zest-from-lemon">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1</span>
+																		
+									zest from lemon								</li>
+													</ul>
+					</div>
+
+									
+					<div class="single-ingredients__item">
+													<h4 class="single-ingredients__title">For the frosting</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="120g-icing-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">4.2oz</span>
+																		
+									icing sugar								</li>
+															<li  data-slug="112g-vegan-stick-butter">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.92oz</span>
+																		
+									vegan stick butter								</li>
+															<li  data-slug="1-4-tsp-blue-spirulina">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/4 tsp</span>
+																		
+									blue spirulina								</li>
+															<li  data-slug="1-2-tsp-pink-pitaya-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/2 tsp</span>
+																		
+									pink pitaya powder								</li>
+													</ul>
+					</div>
+
+							</div>
+			</div>
+
+						
+<div class="single-cooking-mode">
+	<h2 class="text-uppercase mb-4 glossary-translate">Cooking mode</h2>
+
+			<p class="mb-6">When entering cooking mode - We will enable your screen to stay ‘always on’ to avoid any unnecessary interruptions whilst you cook!</p>
+	
+	<div class="position-relative">
+		<button class="btn btn-start-cooking glossary-translate"
+	        aria-label="Start cooking"
+	        data-toggle="modal"
+	        data-target="#cookingModeModal"
+	        type="button">Start cooking</button>
+</div>
+</div>
+					</div>
+					<div class="col-12 col-lg-7">
+						
+	<div class="single-method">
+		<div class="row align-items-center justify-content-between mb-6">
+			<div class="col-12 col-md-5">
+				<h2 class="mb-2 mb-md-0 text-uppercase">Method</h2>
+			</div>
+
+					</div>
+
+						
+				<ul class="single-method__method"
+				    data-method-type="food-processor"
+				    style="">
+												<li>
+								<h6 class="text-uppercase color-primary mb-1">Step 1</h6>
+								<p>Preheat your oven to 180c and line a cupcake tray with cases.</p>
+							</li>
+							
+														<li>
+								<h6 class="text-uppercase color-primary mb-1">Step 2</h6>
+								<p>Combine the non-dairy milk and cider vinegar, then set aside and allow to thicken. </p>
+							</li>
+							
+														<li>
+								<h6 class="text-uppercase color-primary mb-1">Step 3</h6>
+								<p>In your Ninja food processor, add in all of your dry ingredients and pulse to combine.</p>
+							</li>
+							
+														<li>
+								<h6 class="text-uppercase color-primary mb-1">Step 4</h6>
+								<p>Pour in the oil, milk mixture and lemon zest and blend for a few seconds to create a smooth batter.</p>
+							</li>
+							
+														<li>
+								<h6 class="text-uppercase color-primary mb-1">Step 5</h6>
+								<p>Transfer this into your cupcake cases (makes around 6 cupcakes) and bake in the oven for 25 minutes or until cooked through.</p>
+							</li>
+							
+														<li>
+								<h6 class="text-uppercase color-primary mb-1">Step 6</h6>
+								<p>Whilst allowing your cupcakes to cool, use an electric mixer to cream the butter until light and fluffy.</p>
+							</li>
+							
+														<li>
+								<h6 class="text-uppercase color-primary mb-1">Step 7</h6>
+								<p>Gradually add in the sugar and powders whilst mixing until fully combined.</p>
+							</li>
+							
+														<li>
+								<h6 class="text-uppercase color-primary mb-1">Step 8</h6>
+								<p>Once cooled, pipe the butter cream into each of your cakes and decorate. </p>
+							</li>
+							
+											</ul>
+
+					</div>
+						</div>
+				</div>
+
+				
+	<section class="share-post mt-10">
+		
+		<h2 class="text-uppercase text-center glossary-translate">Share this recipe</h2>
+
+		<ul class="social-icons">
+							<li class="social-item">
+										<a class="social-icon twitter" href="https://twitter.com/intent/tweet?text=Vegan%20Lemon%20Cupcakes&amp;url=https://cookingcircle.com/?p=6426&amp;via=" target="_blank">twitter</a>
+				</li>
+							<li class="social-item">
+										<a class="social-icon facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://cookingcircle.com/recipe/vegan-lemon-cupcakes/" target="_blank">facebook</a>
+				</li>
+							<li class="social-item">
+										<a class="social-icon pinterest" href="https://pinterest.com/pin/create/link/?url=https://cookingcircle.com/recipe/vegan-lemon-cupcakes/&media=https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2022/02/23144350/Vegan-Lemon-Cupcakes-2220x1000.jpg&description=Vegan+Lemon+Cupcakes: " target="_blank">pinterest</a>
+				</li>
+							<li class="social-item">
+										<a class="social-icon yummly" href="https://www.yummly.com/urb/verify?url=https://cookingcircle.com/recipe/vegan-lemon-cupcakes/" target="_blank">yummly</a>
+				</li>
+							<li class="social-item">
+										<a class="social-icon email" href="mailto:?subject=Vegan%20Lemon%20Cupcakes&body=Check%20out%20this%20recipe!%20https://cookingcircle.com/recipe/vegan-lemon-cupcakes/" target="_blank">email</a>
+				</li>
+					</ul>
+	</section>
+	
+	
+				<div class="row">
+					<div class="col-12">
+							<div class="single-related-recipes">
+		<h2 class="text-uppercase text-center glossary-translate">Related recipes</h2>
+		<div class="row">
+								<div class="col-12 col-lg-4">
+						
+	<div class="recipe-card">
+		<a class="recipe-card__link"
+		   href="https://cookingcircle.com/recipe/banana-cupcakes/"
+		   aria-label="Banana Cupcakes">
+			<header class="recipe-card__header" style="background-image: url(https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2022/01/12124636/banana-cupcakes-1-700x400.jpeg)">
+				
+					
+	<div class="recipe-author">
+		<figure class="mb-0 mr-2">
+			<img class="img-roundel img-fluid"
+			     alt="The Healthy Beard"
+			     width="50"
+			     height="50"
+			     src="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170120/Tiago-square-50x50.jpg"
+			     srcset="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170120/Tiago-square-50x50.jpg 1x, https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170120/Tiago-square-100x100.jpg 2x"/>
+		</figure>
+		<h6 class="mb-0">
+			<span class="font-weight-normal mb-1 mb-md-0 glossary-translate">
+				Recipe by			</span>
+			<span class="text-uppercase glossary-ignore">The Healthy Beard</span></h6>
+	</div>
+				</header>
+
+			
+			<div class="recipe-card__content">
+									<h6 class="text-uppercase mb-0 color-primary">Baking, Desserts, Vegetarian</h6>
+									<h4 class="color-black">Banana Cupcakes</h4>
+					
+	<ul class="recipe-info">
+		<li>
+							<span class="recipe-info__key glossary-translate">Time</span>
+				<span class="recipe-info__value">55 mins</span>
+					</li>
+		<li>
+			<span class="recipe-info__key glossary-translate">Serves</span>
+			<span class="recipe-info__value">5</span>
+		</li>
+		<li>
+			<span class="recipe-info__key glossary-translate">Skill</span>
+			<span class="recipe-info__value">Easy</span>
+		</li>
+	</ul>
+				</div>
+		</a>
+					<button class="btn btn-icon btn-bookmark"
+	        aria-label="Log in to bookmark recipe"
+	        type="button"
+	        data-bookmark="5966"
+	        data-toggle="modal"
+	        data-target="#loginModal"></button>
+		</div>
+
+						</div>
+										<div class="col-12 col-lg-4">
+						
+	<div class="recipe-card">
+		<a class="recipe-card__link"
+		   href="https://cookingcircle.com/recipe/pumpkin-cupcakes/"
+		   aria-label="Pumpkin Cupcakes">
+			<header class="recipe-card__header" style="background-image: url(https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2021/10/15080234/pumpkin-muffins-7-1-700x400.jpg)">
+				
+					
+	<div class="recipe-author">
+		<figure class="mb-0 mr-2">
+			<img class="img-roundel img-fluid"
+			     alt="Ninja Kitchen"
+			     width="50"
+			     height="50"
+			     src="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170122/Ninja-logo-square-50x50.jpg"
+			     srcset="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170122/Ninja-logo-square-50x50.jpg 1x, https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170122/Ninja-logo-square-100x100.jpg 2x"/>
+		</figure>
+		<h6 class="mb-0">
+			<span class="font-weight-normal mb-1 mb-md-0 glossary-translate">
+				Recipe by			</span>
+			<span class="text-uppercase glossary-ignore">Ninja Kitchen</span></h6>
+	</div>
+				</header>
+
+			
+			<div class="recipe-card__content">
+									<h6 class="text-uppercase mb-0 color-primary">Desserts</h6>
+									<h4 class="color-black">Pumpkin Cupcakes</h4>
+					
+	<ul class="recipe-info">
+		<li>
+							<span class="recipe-info__key glossary-translate">Time</span>
+				<span class="recipe-info__value">35 mins</span>
+					</li>
+		<li>
+			<span class="recipe-info__key glossary-translate">Serves</span>
+			<span class="recipe-info__value">12</span>
+		</li>
+		<li>
+			<span class="recipe-info__key glossary-translate">Skill</span>
+			<span class="recipe-info__value">Easy</span>
+		</li>
+	</ul>
+				</div>
+		</a>
+					<button class="btn btn-icon btn-bookmark"
+	        aria-label="Log in to bookmark recipe"
+	        type="button"
+	        data-bookmark="4737"
+	        data-toggle="modal"
+	        data-target="#loginModal"></button>
+		</div>
+
+						</div>
+										<div class="col-12 col-lg-4">
+						
+	<div class="recipe-card">
+		<a class="recipe-card__link"
+		   href="https://cookingcircle.com/recipe/vegan-chocolate-cupcakes/"
+		   aria-label="Vegan Chocolate Cupcakes">
+			<header class="recipe-card__header" style="background-image: url(https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2021/07/23132719/Vegan-chocolate-cupcakes-1-700x400.jpg)">
+				
+					
+	<div class="recipe-author">
+		<figure class="mb-0 mr-2">
+			<img class="img-roundel img-fluid"
+			     alt="Charlotte Roberts"
+			     width="50"
+			     height="50"
+			     src="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170126/Charley-profile-pic-50x50.jpg"
+			     srcset="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170126/Charley-profile-pic-50x50.jpg 1x, https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170126/Charley-profile-pic-100x100.jpg 2x"/>
+		</figure>
+		<h6 class="mb-0">
+			<span class="font-weight-normal mb-1 mb-md-0 glossary-translate">
+				Recipe by			</span>
+			<span class="text-uppercase glossary-ignore">Charlotte Roberts</span></h6>
+	</div>
+				</header>
+
+			
+			<div class="recipe-card__content">
+									<h6 class="text-uppercase mb-0 color-primary">Baking, Desserts, Vegan, Vegetarian</h6>
+									<h4 class="color-black">Vegan Chocolate Cupcakes</h4>
+					
+	<ul class="recipe-info">
+		<li>
+							<span class="recipe-info__key glossary-translate">Time</span>
+				<span class="recipe-info__value">30 mins</span>
+					</li>
+		<li>
+			<span class="recipe-info__key glossary-translate">Serves</span>
+			<span class="recipe-info__value">6</span>
+		</li>
+		<li>
+			<span class="recipe-info__key glossary-translate">Skill</span>
+			<span class="recipe-info__value">Easy</span>
+		</li>
+	</ul>
+				</div>
+		</a>
+					<button class="btn btn-icon btn-bookmark"
+	        aria-label="Log in to bookmark recipe"
+	        type="button"
+	        data-bookmark="3824"
+	        data-toggle="modal"
+	        data-target="#loginModal"></button>
+		</div>
+
+						</div>
+							</div>
+	</div>
+						</div>
+				</div>
+
+							</div>
+		</article>
+		
+</main>
+<footer class="footer">
+	<div class="footer__upper">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					
+<div class="marketing-subscribe ajax-send-container">
+			<h2 class="text-uppercase mb-4 glossary-translate">Join our mailing list</h2>
+				<p class="color-grey-3 glossary-translate">Keep me updated with the latest news, tips and competitions from Ninja</p>
+			<form class="marketing-subscribe__form position-relative">
+		<input type="hidden" id="ninja_newsletter" value="true" />
+		<input type="hidden" id="origin" value="cooking_circle_signups" />
+
+		
+		<div class="fields-wrapper">
+			<div class="form-group">
+				<label class="sr-only glossary-translate" for="email">Email address</label>
+				<input class="form-control border-no-radius" id="email" type="email" placeholder="Email address" value="" autocomplete="email" required />
+			</div>
+
+			
+							<div class="custom-control custom-checkbox form-group">
+					<input type="checkbox" name="sharkninja_offers" id="sharkninja_offers" class="custom-control-input" autocomplete="off">
+					<label class="custom-control-label glossary-translate" for="sharkninja_offers">
+						Offers from SharkNinja					</label>
+				</div>
+			
+			<button type="button" class="btn btn-primary btn-outline btn-min-width ajax-send glossary-translate" 
+				data-ajaxaction="bronto_contact" 
+				data-nonce="1f22559087" 
+				data-sendfields="1"
+				data-sendtrigger="vnm_bronto_signup_sending"
+				data-sendtriggerparams=".marketing-subscribe__form"
+				data-successtrigger="vnm_bronto_signup_success"
+				data-failtrigger="vnm_bronto_signup_fail">
+					Submit			</button>
+
+			<div class="form-group mt-0 glossary-translate">
+				<a href="javascript:void(0);" class="unsubscribe-link underline mt-2 color-grey-3 d-inline-block" data-toggle="modal" data-target="#unsubscribeModal">
+					Unsubscribe				</a>
+			</div>
+
+			<div class="spinner-border position-absolute" role="status">
+				<span class="sr-only">Sending...</span>
+			</div>
+		</div>
+		
+		<div class="response"></div>
+	</form>
+</div>
+
+
+<div class="modal modal-login modal-unsubscribe fade" id="unsubscribeModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			
+			<div class="modal-header">
+				<button type="button" class="btn btn-close close glossary-translate" data-dismiss="modal" aria-label="Close">
+					Close				</button>
+			</div>
+
+			<div class="modal-body">
+				
+				<div id="bronto-form-unsubscribe" class="modal-login__text position-relative">
+					<div class="ajax-fade-content">
+						<h2 class="glossary-translate">
+							Please enter your email address						</h2>
+						
+						<p class="glossary-translate">
+							This will open your Subscription Preferences Form, where you will be able to unsubscribe from all or change your marketing communication preferences with SharkNinja.						</p>
+						
+						<hr />
+						
+						<div class="row no-gutters ajax-send-container">
+							<div class="col-12 col-lg-6">
+								<label class="sr-only glossary-translate" for="email">Email address</label>
+								<input class="form-control border-no-radius" id="email" type="email" placeholder="Email address" value="" autocomplete="email" required />
+							</div>
+							
+							<div class="col-12 col-lg-6">
+								<a href="javascript:void(0);" class="btn btn-primary btn-outline btn-min-width ajax-send glossary-translate" 
+									data-ajaxaction="get_bronto_form" 
+									data-sendfields="1" 
+									data-nonce="c7c6d86902" 
+									data-sendtrigger="vnm_ajax_sending" 
+									data-sendtriggerparams="#bronto-form-unsubscribe" 
+									data-successtrigger="show_bronto_unsubscribe_form"
+									>
+										Submit								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="spinner-border position-absolute" role="status">
+						<span class="sr-only">Loading...</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer__lower">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+									</div>
+			</div>
+			<div class="row justify-content-between">
+				<div class="col-12 col-md-auto order-md-2">
+					<ul id="menu-footer" class="footer__menu"><li id="menu-item-858" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-858"><a href="https://cookingcircle.com/terms-of-use/">Terms of Use</a></li>
+<li id="menu-item-855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-855"><a href="https://cookingcircle.com/terms-of-recipe-use/">Terms of Recipe Use</a></li>
+<li id="menu-item-856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-856"><a href="https://cookingcircle.com/cookie-notice/">Cookie Notice</a></li>
+<li id="menu-item-857" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-857"><a href="https://cookingcircle.com/privacy-policy-2/">Privacy Policy</a></li>
+</ul>				</div>
+				<div class="col-12 col-md-auto order-md-1">
+					<p class="mb-0">&copy; Cooking Circle 2022</p>
+					
+					<p class="footer-credit"><a href="https://wepixel.co.uk">Designed &amp; built by WePixel</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+        <a class="country_selector_dropdown">
+            <div class="country_selector_dropbtn"><img src="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2022/03/22131534/gb.svg" class="wordpress-multilingual-multisite-country-selector-flag" />English</div>
+    	</a>
+            <div class="country_selector_dropdown-content">
+	        <ul class="wordpress-multilingual-multisite-country-selector"><li><a href="https://cookingcircle.com/recipe/vegan-lemon-cupcakes/"><img src="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2022/03/22131534/gb.svg" class="wordpress-multilingual-multisite-country-selector-flag" />English</a></li><li><a href="https://cookingcircle.com/de/recipe/vegan-lemon-cupcakes/"><span class="flag-icon flag-icon-de"></span>Deutsch</a></li><li><a href="https://cookingcircle.com/fr/recipe/vegan-lemon-cupcakes/"><span class="flag-icon flag-icon-fr"></span>Français</a></li><li><a href="https://cookingcircle.com/it/recipe/vegan-lemon-cupcakes/"><span class="flag-icon flag-icon-it"></span>italiano</a></li><li><a href="https://cookingcircle.com/es/recipe/vegan-lemon-cupcakes/"><span class="flag-icon flag-icon-es"></span>español</a></li></ul>
+	        </div>	<nav class="navigation">
+		<button class="btn btn-close glossary-translate"
+		        aria-label="Close menu"
+		        id="navCloseBtn"
+		        type="button">
+			Close		</button>
+		<ul id="menu-menu" class="navigation__menu"><li id="menu-item-789" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-789"><a href="https://cookingcircle.com/">Home</a></li>
+<li id="menu-item-860" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-860"><a href="/recipe/">Recipes</a></li>
+<li id="menu-item-2880" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2880"><a href="https://cookingcircle.com/add-recipe/">Submit your Recipe</a></li>
+<li id="menu-item-2219" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2219"><a href="https://cookingcircle.com/my-account/">My Account</a></li>
+<li id="menu-item-859" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-859"><a href="https://cookingcircle.com/about/">About Cooking Circle</a></li>
+<li id="menu-item-791" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-791"><a href="https://cookingcircle.com/contributors/">Contributors</a></li>
+</ul>	</nav>
+	
+<div class="modal fade single-cooking-mode-modal" id="cookingModeModal" tabindex="-1" role="dialog" aria-labelledby="cookingModeModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-full" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="btn btn-close close glossary-translate" data-dismiss="modal" aria-label="Close">
+					Close				</button>
+			</div>
+
+			<div class="modal-body">
+				<div class="single-cooking-mode-modal__wrap">
+					
+					
+								<div class="single-cooking-mode-modal__slider-wrap"
+								     data-method-type="food-processor"
+								     style="">
+									<div class="slider"
+									     data-id="53cee"
+									     data-loop="false">
+										
+										<div>
+											
+<header class="single-hero" style="background-image: url(https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2022/02/23144350/Vegan-Lemon-Cupcakes-2220x1000.jpg)">
+		
+	<div class="single-hero__title">
+					<h6 class="text-uppercase mb-1"><a href="https://cookingcircle.com/recipe_cat/desserts/">Desserts</a>, <a href="https://cookingcircle.com/recipe_cat/vegan/">Vegan</a></h6>
+		
+		<h1 class="text-uppercase">Vegan Lemon Cupcakes</h1>
+	</div>
+
+	<div class="single-hero__footer">
+		
+		<a class="single-hero__author-link" href="https://cookingcircle.com/author/charlotte_robertsmail-com/" aria-label="View recipes">
+				
+	<div class="recipe-author">
+		<figure class="mb-0 mr-2">
+			<img class="img-roundel img-fluid"
+			     alt="Charlotte Roberts"
+			     width="50"
+			     height="50"
+			     src="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170126/Charley-profile-pic-50x50.jpg"
+			     srcset="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170126/Charley-profile-pic-50x50.jpg 1x, https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170126/Charley-profile-pic-100x100.jpg 2x"/>
+		</figure>
+		<h6 class="mb-0">
+			<span class="font-weight-normal mb-1 mb-md-0 glossary-translate">
+				Recipe by			</span>
+			<span class="text-uppercase glossary-ignore">Charlotte Roberts</span></h6>
+	</div>
+			</a>
+
+		<div class="position-relative">
+			<div class="tooltip tooltip--click tooltip--idea"
+		     data-id="tooltipCookingMode">
+			<button class="tooltip__close"
+			        aria-label="Close"
+			        type="button"></button>
+			<h4 class="tooltip__heading h3 text-uppercase mb-2 glossary-translate">Tip: Cooking Mode</h4>
+			<p class="mb-0">Try our super simple cooking mode. Ideal when you’re busy running around the kitchen</p>
+		</div>
+			<button class="btn btn-start-cooking glossary-translate"
+	        aria-label="Start cooking"
+	        data-toggle="modal"
+	        data-target="#cookingModeModal"
+	        type="button">Start cooking</button>
+</div>
+	</div>
+
+	<ul class="single-hero__extras">
+		<li><button class="btn btn-icon btn-print"
+        aria-label="Print recipe"
+        type="button"
+        onclick="window.print();"></button>
+</li>
+		<li>	<button class="btn btn-icon btn-bookmark"
+	        aria-label="Log in to bookmark recipe"
+	        type="button"
+	        data-bookmark="6426"
+	        data-toggle="modal"
+	        data-target="#loginModal"></button>
+	</li>
+	</ul>
+</header>										</div>
+
+																						<div>
+													<div class="row">
+														<div class="col-12 col-lg-7">
+															<div class="single-cooking-mode-modal__step">
+																<h2 class="mb-4">
+																	Step 1 of 8																</h2>
+
+																<p>Preheat your oven to 180c and line a cupcake tray with cases.</p>
+															</div>
+														</div>
+
+														<div class="col-12 col-lg-5">
+															<div class="single-cooking-mode-modal__ingredients" data-i="1"
+															     data-current="">
+															     																
+	<div class="single-ingredients">
+		
+		<h2 class="text-uppercase mb-4">Ingredients</h2>
+
+				
+					<div class="single-ingredients__tabs">
+				<button class="btn btn-tab btn-tab--active glossary-translate"
+				        data-unit="metric"
+				        aria-label="Metric"
+				        type="button">Metric</button>
+				<button class="btn btn-tab  glossary-translate"
+				        data-unit="imperial"
+				        aria-label="Imperial"
+				        type="button">Imperial</button>
+			</div>
+		
+		
+			<div class="single-ingredients__group" data-unit="metric">
+									
+					<div class="single-ingredients__item">
+
+													<h4 class="single-ingredients__title">For the base</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="125ml-non-dairy-milk">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">125ml</span>
+																		
+									non dairy milk								</li>
+															<li  data-slug="1-tsp-apple-cider-vinegar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									apple cider vinegar								</li>
+															<li  data-slug="60ml-olive-oil">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">60ml</span>
+																		
+									olive oil								</li>
+															<li  data-slug="100g-caster-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">100g</span>
+																		
+									caster sugar								</li>
+															<li  data-slug="96g-gluten-free-self-raising-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">96g</span>
+																		
+									gluten free self raising flour								</li>
+															<li  data-slug="1-tsp-baking-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									baking powder								</li>
+															<li  data-slug="50g-oat-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">50g</span>
+																		
+									oat flour								</li>
+															<li  data-slug="1-zest-from-lemon">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1</span>
+																		
+									zest from lemon								</li>
+													</ul>
+					</div>
+									
+					<div class="single-ingredients__item">
+
+													<h4 class="single-ingredients__title">For the frosting</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="120g-icing-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">120g</span>
+																		
+									icing sugar								</li>
+															<li  data-slug="112g-vegan-stick-butter">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">112g</span>
+																		
+									vegan stick butter								</li>
+															<li  data-slug="1-4-tsp-blue-spirulina">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/4 tsp</span>
+																		
+									blue spirulina								</li>
+															<li  data-slug="1-2-tsp-pink-pitaya-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/2 tsp</span>
+																		
+									pink pitaya powder								</li>
+													</ul>
+					</div>
+				
+			</div>
+				
+					<div class="single-ingredients__group" data-unit="imperial"style="display: none;">
+									
+					<div class="single-ingredients__item">
+													<h4 class="single-ingredients__title">For the base</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="125ml-non-dairy-milk">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">4.38fl. oz</span>
+																		
+									non dairy milk								</li>
+															<li  data-slug="1-tsp-apple-cider-vinegar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									apple cider vinegar								</li>
+															<li  data-slug="60ml-olive-oil">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">2.1fl. oz</span>
+																		
+									olive oil								</li>
+															<li  data-slug="100g-caster-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.5oz</span>
+																		
+									caster sugar								</li>
+															<li  data-slug="96g-gluten-free-self-raising-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.36oz</span>
+																		
+									gluten free self raising flour								</li>
+															<li  data-slug="1-tsp-baking-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									baking powder								</li>
+															<li  data-slug="50g-oat-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1.75oz</span>
+																		
+									oat flour								</li>
+															<li  data-slug="1-zest-from-lemon">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1</span>
+																		
+									zest from lemon								</li>
+													</ul>
+					</div>
+
+									
+					<div class="single-ingredients__item">
+													<h4 class="single-ingredients__title">For the frosting</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="120g-icing-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">4.2oz</span>
+																		
+									icing sugar								</li>
+															<li  data-slug="112g-vegan-stick-butter">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.92oz</span>
+																		
+									vegan stick butter								</li>
+															<li  data-slug="1-4-tsp-blue-spirulina">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/4 tsp</span>
+																		
+									blue spirulina								</li>
+															<li  data-slug="1-2-tsp-pink-pitaya-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/2 tsp</span>
+																		
+									pink pitaya powder								</li>
+													</ul>
+					</div>
+
+							</div>
+			</div>
+
+															</div>
+														</div>
+													</div>
+												</div>
+																								<div>
+													<div class="row">
+														<div class="col-12 col-lg-7">
+															<div class="single-cooking-mode-modal__step">
+																<h2 class="mb-4">
+																	Step 2 of 8																</h2>
+
+																<p>Combine the non-dairy milk and cider vinegar, then set aside and allow to thicken. </p>
+															</div>
+														</div>
+
+														<div class="col-12 col-lg-5">
+															<div class="single-cooking-mode-modal__ingredients" data-i="2"
+															     data-current="">
+															     																
+	<div class="single-ingredients">
+		
+		<h2 class="text-uppercase mb-4">Ingredients</h2>
+
+				
+					<div class="single-ingredients__tabs">
+				<button class="btn btn-tab btn-tab--active glossary-translate"
+				        data-unit="metric"
+				        aria-label="Metric"
+				        type="button">Metric</button>
+				<button class="btn btn-tab  glossary-translate"
+				        data-unit="imperial"
+				        aria-label="Imperial"
+				        type="button">Imperial</button>
+			</div>
+		
+		
+			<div class="single-ingredients__group" data-unit="metric">
+									
+					<div class="single-ingredients__item">
+
+													<h4 class="single-ingredients__title">For the base</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="125ml-non-dairy-milk">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">125ml</span>
+																		
+									non dairy milk								</li>
+															<li  data-slug="1-tsp-apple-cider-vinegar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									apple cider vinegar								</li>
+															<li  data-slug="60ml-olive-oil">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">60ml</span>
+																		
+									olive oil								</li>
+															<li  data-slug="100g-caster-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">100g</span>
+																		
+									caster sugar								</li>
+															<li  data-slug="96g-gluten-free-self-raising-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">96g</span>
+																		
+									gluten free self raising flour								</li>
+															<li  data-slug="1-tsp-baking-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									baking powder								</li>
+															<li  data-slug="50g-oat-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">50g</span>
+																		
+									oat flour								</li>
+															<li  data-slug="1-zest-from-lemon">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1</span>
+																		
+									zest from lemon								</li>
+													</ul>
+					</div>
+									
+					<div class="single-ingredients__item">
+
+													<h4 class="single-ingredients__title">For the frosting</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="120g-icing-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">120g</span>
+																		
+									icing sugar								</li>
+															<li  data-slug="112g-vegan-stick-butter">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">112g</span>
+																		
+									vegan stick butter								</li>
+															<li  data-slug="1-4-tsp-blue-spirulina">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/4 tsp</span>
+																		
+									blue spirulina								</li>
+															<li  data-slug="1-2-tsp-pink-pitaya-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/2 tsp</span>
+																		
+									pink pitaya powder								</li>
+													</ul>
+					</div>
+				
+			</div>
+				
+					<div class="single-ingredients__group" data-unit="imperial"style="display: none;">
+									
+					<div class="single-ingredients__item">
+													<h4 class="single-ingredients__title">For the base</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="125ml-non-dairy-milk">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">4.38fl. oz</span>
+																		
+									non dairy milk								</li>
+															<li  data-slug="1-tsp-apple-cider-vinegar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									apple cider vinegar								</li>
+															<li  data-slug="60ml-olive-oil">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">2.1fl. oz</span>
+																		
+									olive oil								</li>
+															<li  data-slug="100g-caster-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.5oz</span>
+																		
+									caster sugar								</li>
+															<li  data-slug="96g-gluten-free-self-raising-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.36oz</span>
+																		
+									gluten free self raising flour								</li>
+															<li  data-slug="1-tsp-baking-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									baking powder								</li>
+															<li  data-slug="50g-oat-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1.75oz</span>
+																		
+									oat flour								</li>
+															<li  data-slug="1-zest-from-lemon">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1</span>
+																		
+									zest from lemon								</li>
+													</ul>
+					</div>
+
+									
+					<div class="single-ingredients__item">
+													<h4 class="single-ingredients__title">For the frosting</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="120g-icing-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">4.2oz</span>
+																		
+									icing sugar								</li>
+															<li  data-slug="112g-vegan-stick-butter">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.92oz</span>
+																		
+									vegan stick butter								</li>
+															<li  data-slug="1-4-tsp-blue-spirulina">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/4 tsp</span>
+																		
+									blue spirulina								</li>
+															<li  data-slug="1-2-tsp-pink-pitaya-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/2 tsp</span>
+																		
+									pink pitaya powder								</li>
+													</ul>
+					</div>
+
+							</div>
+			</div>
+
+															</div>
+														</div>
+													</div>
+												</div>
+																								<div>
+													<div class="row">
+														<div class="col-12 col-lg-7">
+															<div class="single-cooking-mode-modal__step">
+																<h2 class="mb-4">
+																	Step 3 of 8																</h2>
+
+																<p>In your Ninja food processor, add in all of your dry ingredients and pulse to combine.</p>
+															</div>
+														</div>
+
+														<div class="col-12 col-lg-5">
+															<div class="single-cooking-mode-modal__ingredients" data-i="3"
+															     data-current="">
+															     																
+	<div class="single-ingredients">
+		
+		<h2 class="text-uppercase mb-4">Ingredients</h2>
+
+				
+					<div class="single-ingredients__tabs">
+				<button class="btn btn-tab btn-tab--active glossary-translate"
+				        data-unit="metric"
+				        aria-label="Metric"
+				        type="button">Metric</button>
+				<button class="btn btn-tab  glossary-translate"
+				        data-unit="imperial"
+				        aria-label="Imperial"
+				        type="button">Imperial</button>
+			</div>
+		
+		
+			<div class="single-ingredients__group" data-unit="metric">
+									
+					<div class="single-ingredients__item">
+
+													<h4 class="single-ingredients__title">For the base</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="125ml-non-dairy-milk">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">125ml</span>
+																		
+									non dairy milk								</li>
+															<li  data-slug="1-tsp-apple-cider-vinegar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									apple cider vinegar								</li>
+															<li  data-slug="60ml-olive-oil">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">60ml</span>
+																		
+									olive oil								</li>
+															<li  data-slug="100g-caster-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">100g</span>
+																		
+									caster sugar								</li>
+															<li  data-slug="96g-gluten-free-self-raising-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">96g</span>
+																		
+									gluten free self raising flour								</li>
+															<li  data-slug="1-tsp-baking-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									baking powder								</li>
+															<li  data-slug="50g-oat-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">50g</span>
+																		
+									oat flour								</li>
+															<li  data-slug="1-zest-from-lemon">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1</span>
+																		
+									zest from lemon								</li>
+													</ul>
+					</div>
+									
+					<div class="single-ingredients__item">
+
+													<h4 class="single-ingredients__title">For the frosting</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="120g-icing-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">120g</span>
+																		
+									icing sugar								</li>
+															<li  data-slug="112g-vegan-stick-butter">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">112g</span>
+																		
+									vegan stick butter								</li>
+															<li  data-slug="1-4-tsp-blue-spirulina">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/4 tsp</span>
+																		
+									blue spirulina								</li>
+															<li  data-slug="1-2-tsp-pink-pitaya-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/2 tsp</span>
+																		
+									pink pitaya powder								</li>
+													</ul>
+					</div>
+				
+			</div>
+				
+					<div class="single-ingredients__group" data-unit="imperial"style="display: none;">
+									
+					<div class="single-ingredients__item">
+													<h4 class="single-ingredients__title">For the base</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="125ml-non-dairy-milk">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">4.38fl. oz</span>
+																		
+									non dairy milk								</li>
+															<li  data-slug="1-tsp-apple-cider-vinegar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									apple cider vinegar								</li>
+															<li  data-slug="60ml-olive-oil">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">2.1fl. oz</span>
+																		
+									olive oil								</li>
+															<li  data-slug="100g-caster-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.5oz</span>
+																		
+									caster sugar								</li>
+															<li  data-slug="96g-gluten-free-self-raising-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.36oz</span>
+																		
+									gluten free self raising flour								</li>
+															<li  data-slug="1-tsp-baking-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									baking powder								</li>
+															<li  data-slug="50g-oat-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1.75oz</span>
+																		
+									oat flour								</li>
+															<li  data-slug="1-zest-from-lemon">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1</span>
+																		
+									zest from lemon								</li>
+													</ul>
+					</div>
+
+									
+					<div class="single-ingredients__item">
+													<h4 class="single-ingredients__title">For the frosting</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="120g-icing-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">4.2oz</span>
+																		
+									icing sugar								</li>
+															<li  data-slug="112g-vegan-stick-butter">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.92oz</span>
+																		
+									vegan stick butter								</li>
+															<li  data-slug="1-4-tsp-blue-spirulina">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/4 tsp</span>
+																		
+									blue spirulina								</li>
+															<li  data-slug="1-2-tsp-pink-pitaya-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/2 tsp</span>
+																		
+									pink pitaya powder								</li>
+													</ul>
+					</div>
+
+							</div>
+			</div>
+
+															</div>
+														</div>
+													</div>
+												</div>
+																								<div>
+													<div class="row">
+														<div class="col-12 col-lg-7">
+															<div class="single-cooking-mode-modal__step">
+																<h2 class="mb-4">
+																	Step 4 of 8																</h2>
+
+																<p>Pour in the oil, milk mixture and lemon zest and blend for a few seconds to create a smooth batter.</p>
+															</div>
+														</div>
+
+														<div class="col-12 col-lg-5">
+															<div class="single-cooking-mode-modal__ingredients" data-i="4"
+															     data-current="">
+															     																
+	<div class="single-ingredients">
+		
+		<h2 class="text-uppercase mb-4">Ingredients</h2>
+
+				
+					<div class="single-ingredients__tabs">
+				<button class="btn btn-tab btn-tab--active glossary-translate"
+				        data-unit="metric"
+				        aria-label="Metric"
+				        type="button">Metric</button>
+				<button class="btn btn-tab  glossary-translate"
+				        data-unit="imperial"
+				        aria-label="Imperial"
+				        type="button">Imperial</button>
+			</div>
+		
+		
+			<div class="single-ingredients__group" data-unit="metric">
+									
+					<div class="single-ingredients__item">
+
+													<h4 class="single-ingredients__title">For the base</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="125ml-non-dairy-milk">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">125ml</span>
+																		
+									non dairy milk								</li>
+															<li  data-slug="1-tsp-apple-cider-vinegar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									apple cider vinegar								</li>
+															<li  data-slug="60ml-olive-oil">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">60ml</span>
+																		
+									olive oil								</li>
+															<li  data-slug="100g-caster-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">100g</span>
+																		
+									caster sugar								</li>
+															<li  data-slug="96g-gluten-free-self-raising-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">96g</span>
+																		
+									gluten free self raising flour								</li>
+															<li  data-slug="1-tsp-baking-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									baking powder								</li>
+															<li  data-slug="50g-oat-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">50g</span>
+																		
+									oat flour								</li>
+															<li  data-slug="1-zest-from-lemon">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1</span>
+																		
+									zest from lemon								</li>
+													</ul>
+					</div>
+									
+					<div class="single-ingredients__item">
+
+													<h4 class="single-ingredients__title">For the frosting</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="120g-icing-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">120g</span>
+																		
+									icing sugar								</li>
+															<li  data-slug="112g-vegan-stick-butter">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">112g</span>
+																		
+									vegan stick butter								</li>
+															<li  data-slug="1-4-tsp-blue-spirulina">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/4 tsp</span>
+																		
+									blue spirulina								</li>
+															<li  data-slug="1-2-tsp-pink-pitaya-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/2 tsp</span>
+																		
+									pink pitaya powder								</li>
+													</ul>
+					</div>
+				
+			</div>
+				
+					<div class="single-ingredients__group" data-unit="imperial"style="display: none;">
+									
+					<div class="single-ingredients__item">
+													<h4 class="single-ingredients__title">For the base</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="125ml-non-dairy-milk">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">4.38fl. oz</span>
+																		
+									non dairy milk								</li>
+															<li  data-slug="1-tsp-apple-cider-vinegar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									apple cider vinegar								</li>
+															<li  data-slug="60ml-olive-oil">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">2.1fl. oz</span>
+																		
+									olive oil								</li>
+															<li  data-slug="100g-caster-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.5oz</span>
+																		
+									caster sugar								</li>
+															<li  data-slug="96g-gluten-free-self-raising-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.36oz</span>
+																		
+									gluten free self raising flour								</li>
+															<li  data-slug="1-tsp-baking-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									baking powder								</li>
+															<li  data-slug="50g-oat-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1.75oz</span>
+																		
+									oat flour								</li>
+															<li  data-slug="1-zest-from-lemon">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1</span>
+																		
+									zest from lemon								</li>
+													</ul>
+					</div>
+
+									
+					<div class="single-ingredients__item">
+													<h4 class="single-ingredients__title">For the frosting</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="120g-icing-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">4.2oz</span>
+																		
+									icing sugar								</li>
+															<li  data-slug="112g-vegan-stick-butter">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.92oz</span>
+																		
+									vegan stick butter								</li>
+															<li  data-slug="1-4-tsp-blue-spirulina">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/4 tsp</span>
+																		
+									blue spirulina								</li>
+															<li  data-slug="1-2-tsp-pink-pitaya-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/2 tsp</span>
+																		
+									pink pitaya powder								</li>
+													</ul>
+					</div>
+
+							</div>
+			</div>
+
+															</div>
+														</div>
+													</div>
+												</div>
+																								<div>
+													<div class="row">
+														<div class="col-12 col-lg-7">
+															<div class="single-cooking-mode-modal__step">
+																<h2 class="mb-4">
+																	Step 5 of 8																</h2>
+
+																<p>Transfer this into your cupcake cases (makes around 6 cupcakes) and bake in the oven for 25 minutes or until cooked through.</p>
+															</div>
+														</div>
+
+														<div class="col-12 col-lg-5">
+															<div class="single-cooking-mode-modal__ingredients" data-i="5"
+															     data-current="">
+															     																
+	<div class="single-ingredients">
+		
+		<h2 class="text-uppercase mb-4">Ingredients</h2>
+
+				
+					<div class="single-ingredients__tabs">
+				<button class="btn btn-tab btn-tab--active glossary-translate"
+				        data-unit="metric"
+				        aria-label="Metric"
+				        type="button">Metric</button>
+				<button class="btn btn-tab  glossary-translate"
+				        data-unit="imperial"
+				        aria-label="Imperial"
+				        type="button">Imperial</button>
+			</div>
+		
+		
+			<div class="single-ingredients__group" data-unit="metric">
+									
+					<div class="single-ingredients__item">
+
+													<h4 class="single-ingredients__title">For the base</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="125ml-non-dairy-milk">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">125ml</span>
+																		
+									non dairy milk								</li>
+															<li  data-slug="1-tsp-apple-cider-vinegar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									apple cider vinegar								</li>
+															<li  data-slug="60ml-olive-oil">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">60ml</span>
+																		
+									olive oil								</li>
+															<li  data-slug="100g-caster-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">100g</span>
+																		
+									caster sugar								</li>
+															<li  data-slug="96g-gluten-free-self-raising-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">96g</span>
+																		
+									gluten free self raising flour								</li>
+															<li  data-slug="1-tsp-baking-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									baking powder								</li>
+															<li  data-slug="50g-oat-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">50g</span>
+																		
+									oat flour								</li>
+															<li  data-slug="1-zest-from-lemon">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1</span>
+																		
+									zest from lemon								</li>
+													</ul>
+					</div>
+									
+					<div class="single-ingredients__item">
+
+													<h4 class="single-ingredients__title">For the frosting</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="120g-icing-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">120g</span>
+																		
+									icing sugar								</li>
+															<li  data-slug="112g-vegan-stick-butter">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">112g</span>
+																		
+									vegan stick butter								</li>
+															<li  data-slug="1-4-tsp-blue-spirulina">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/4 tsp</span>
+																		
+									blue spirulina								</li>
+															<li  data-slug="1-2-tsp-pink-pitaya-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/2 tsp</span>
+																		
+									pink pitaya powder								</li>
+													</ul>
+					</div>
+				
+			</div>
+				
+					<div class="single-ingredients__group" data-unit="imperial"style="display: none;">
+									
+					<div class="single-ingredients__item">
+													<h4 class="single-ingredients__title">For the base</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="125ml-non-dairy-milk">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">4.38fl. oz</span>
+																		
+									non dairy milk								</li>
+															<li  data-slug="1-tsp-apple-cider-vinegar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									apple cider vinegar								</li>
+															<li  data-slug="60ml-olive-oil">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">2.1fl. oz</span>
+																		
+									olive oil								</li>
+															<li  data-slug="100g-caster-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.5oz</span>
+																		
+									caster sugar								</li>
+															<li  data-slug="96g-gluten-free-self-raising-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.36oz</span>
+																		
+									gluten free self raising flour								</li>
+															<li  data-slug="1-tsp-baking-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									baking powder								</li>
+															<li  data-slug="50g-oat-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1.75oz</span>
+																		
+									oat flour								</li>
+															<li  data-slug="1-zest-from-lemon">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1</span>
+																		
+									zest from lemon								</li>
+													</ul>
+					</div>
+
+									
+					<div class="single-ingredients__item">
+													<h4 class="single-ingredients__title">For the frosting</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="120g-icing-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">4.2oz</span>
+																		
+									icing sugar								</li>
+															<li  data-slug="112g-vegan-stick-butter">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.92oz</span>
+																		
+									vegan stick butter								</li>
+															<li  data-slug="1-4-tsp-blue-spirulina">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/4 tsp</span>
+																		
+									blue spirulina								</li>
+															<li  data-slug="1-2-tsp-pink-pitaya-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/2 tsp</span>
+																		
+									pink pitaya powder								</li>
+													</ul>
+					</div>
+
+							</div>
+			</div>
+
+															</div>
+														</div>
+													</div>
+												</div>
+																								<div>
+													<div class="row">
+														<div class="col-12 col-lg-7">
+															<div class="single-cooking-mode-modal__step">
+																<h2 class="mb-4">
+																	Step 6 of 8																</h2>
+
+																<p>Whilst allowing your cupcakes to cool, use an electric mixer to cream the butter until light and fluffy.</p>
+															</div>
+														</div>
+
+														<div class="col-12 col-lg-5">
+															<div class="single-cooking-mode-modal__ingredients" data-i="6"
+															     data-current="">
+															     																
+	<div class="single-ingredients">
+		
+		<h2 class="text-uppercase mb-4">Ingredients</h2>
+
+				
+					<div class="single-ingredients__tabs">
+				<button class="btn btn-tab btn-tab--active glossary-translate"
+				        data-unit="metric"
+				        aria-label="Metric"
+				        type="button">Metric</button>
+				<button class="btn btn-tab  glossary-translate"
+				        data-unit="imperial"
+				        aria-label="Imperial"
+				        type="button">Imperial</button>
+			</div>
+		
+		
+			<div class="single-ingredients__group" data-unit="metric">
+									
+					<div class="single-ingredients__item">
+
+													<h4 class="single-ingredients__title">For the base</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="125ml-non-dairy-milk">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">125ml</span>
+																		
+									non dairy milk								</li>
+															<li  data-slug="1-tsp-apple-cider-vinegar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									apple cider vinegar								</li>
+															<li  data-slug="60ml-olive-oil">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">60ml</span>
+																		
+									olive oil								</li>
+															<li  data-slug="100g-caster-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">100g</span>
+																		
+									caster sugar								</li>
+															<li  data-slug="96g-gluten-free-self-raising-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">96g</span>
+																		
+									gluten free self raising flour								</li>
+															<li  data-slug="1-tsp-baking-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									baking powder								</li>
+															<li  data-slug="50g-oat-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">50g</span>
+																		
+									oat flour								</li>
+															<li  data-slug="1-zest-from-lemon">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1</span>
+																		
+									zest from lemon								</li>
+													</ul>
+					</div>
+									
+					<div class="single-ingredients__item">
+
+													<h4 class="single-ingredients__title">For the frosting</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="120g-icing-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">120g</span>
+																		
+									icing sugar								</li>
+															<li  data-slug="112g-vegan-stick-butter">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">112g</span>
+																		
+									vegan stick butter								</li>
+															<li  data-slug="1-4-tsp-blue-spirulina">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/4 tsp</span>
+																		
+									blue spirulina								</li>
+															<li  data-slug="1-2-tsp-pink-pitaya-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/2 tsp</span>
+																		
+									pink pitaya powder								</li>
+													</ul>
+					</div>
+				
+			</div>
+				
+					<div class="single-ingredients__group" data-unit="imperial"style="display: none;">
+									
+					<div class="single-ingredients__item">
+													<h4 class="single-ingredients__title">For the base</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="125ml-non-dairy-milk">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">4.38fl. oz</span>
+																		
+									non dairy milk								</li>
+															<li  data-slug="1-tsp-apple-cider-vinegar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									apple cider vinegar								</li>
+															<li  data-slug="60ml-olive-oil">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">2.1fl. oz</span>
+																		
+									olive oil								</li>
+															<li  data-slug="100g-caster-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.5oz</span>
+																		
+									caster sugar								</li>
+															<li  data-slug="96g-gluten-free-self-raising-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.36oz</span>
+																		
+									gluten free self raising flour								</li>
+															<li  data-slug="1-tsp-baking-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									baking powder								</li>
+															<li  data-slug="50g-oat-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1.75oz</span>
+																		
+									oat flour								</li>
+															<li  data-slug="1-zest-from-lemon">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1</span>
+																		
+									zest from lemon								</li>
+													</ul>
+					</div>
+
+									
+					<div class="single-ingredients__item">
+													<h4 class="single-ingredients__title">For the frosting</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="120g-icing-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">4.2oz</span>
+																		
+									icing sugar								</li>
+															<li  data-slug="112g-vegan-stick-butter">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.92oz</span>
+																		
+									vegan stick butter								</li>
+															<li  data-slug="1-4-tsp-blue-spirulina">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/4 tsp</span>
+																		
+									blue spirulina								</li>
+															<li  data-slug="1-2-tsp-pink-pitaya-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/2 tsp</span>
+																		
+									pink pitaya powder								</li>
+													</ul>
+					</div>
+
+							</div>
+			</div>
+
+															</div>
+														</div>
+													</div>
+												</div>
+																								<div>
+													<div class="row">
+														<div class="col-12 col-lg-7">
+															<div class="single-cooking-mode-modal__step">
+																<h2 class="mb-4">
+																	Step 7 of 8																</h2>
+
+																<p>Gradually add in the sugar and powders whilst mixing until fully combined.</p>
+															</div>
+														</div>
+
+														<div class="col-12 col-lg-5">
+															<div class="single-cooking-mode-modal__ingredients" data-i="7"
+															     data-current="">
+															     																
+	<div class="single-ingredients">
+		
+		<h2 class="text-uppercase mb-4">Ingredients</h2>
+
+				
+					<div class="single-ingredients__tabs">
+				<button class="btn btn-tab btn-tab--active glossary-translate"
+				        data-unit="metric"
+				        aria-label="Metric"
+				        type="button">Metric</button>
+				<button class="btn btn-tab  glossary-translate"
+				        data-unit="imperial"
+				        aria-label="Imperial"
+				        type="button">Imperial</button>
+			</div>
+		
+		
+			<div class="single-ingredients__group" data-unit="metric">
+									
+					<div class="single-ingredients__item">
+
+													<h4 class="single-ingredients__title">For the base</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="125ml-non-dairy-milk">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">125ml</span>
+																		
+									non dairy milk								</li>
+															<li  data-slug="1-tsp-apple-cider-vinegar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									apple cider vinegar								</li>
+															<li  data-slug="60ml-olive-oil">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">60ml</span>
+																		
+									olive oil								</li>
+															<li  data-slug="100g-caster-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">100g</span>
+																		
+									caster sugar								</li>
+															<li  data-slug="96g-gluten-free-self-raising-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">96g</span>
+																		
+									gluten free self raising flour								</li>
+															<li  data-slug="1-tsp-baking-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									baking powder								</li>
+															<li  data-slug="50g-oat-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">50g</span>
+																		
+									oat flour								</li>
+															<li  data-slug="1-zest-from-lemon">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1</span>
+																		
+									zest from lemon								</li>
+													</ul>
+					</div>
+									
+					<div class="single-ingredients__item">
+
+													<h4 class="single-ingredients__title">For the frosting</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="120g-icing-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">120g</span>
+																		
+									icing sugar								</li>
+															<li  data-slug="112g-vegan-stick-butter">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">112g</span>
+																		
+									vegan stick butter								</li>
+															<li  data-slug="1-4-tsp-blue-spirulina">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/4 tsp</span>
+																		
+									blue spirulina								</li>
+															<li  data-slug="1-2-tsp-pink-pitaya-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/2 tsp</span>
+																		
+									pink pitaya powder								</li>
+													</ul>
+					</div>
+				
+			</div>
+				
+					<div class="single-ingredients__group" data-unit="imperial"style="display: none;">
+									
+					<div class="single-ingredients__item">
+													<h4 class="single-ingredients__title">For the base</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="125ml-non-dairy-milk">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">4.38fl. oz</span>
+																		
+									non dairy milk								</li>
+															<li  data-slug="1-tsp-apple-cider-vinegar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									apple cider vinegar								</li>
+															<li  data-slug="60ml-olive-oil">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">2.1fl. oz</span>
+																		
+									olive oil								</li>
+															<li  data-slug="100g-caster-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.5oz</span>
+																		
+									caster sugar								</li>
+															<li  data-slug="96g-gluten-free-self-raising-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.36oz</span>
+																		
+									gluten free self raising flour								</li>
+															<li  data-slug="1-tsp-baking-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									baking powder								</li>
+															<li  data-slug="50g-oat-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1.75oz</span>
+																		
+									oat flour								</li>
+															<li  data-slug="1-zest-from-lemon">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1</span>
+																		
+									zest from lemon								</li>
+													</ul>
+					</div>
+
+									
+					<div class="single-ingredients__item">
+													<h4 class="single-ingredients__title">For the frosting</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="120g-icing-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">4.2oz</span>
+																		
+									icing sugar								</li>
+															<li  data-slug="112g-vegan-stick-butter">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.92oz</span>
+																		
+									vegan stick butter								</li>
+															<li  data-slug="1-4-tsp-blue-spirulina">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/4 tsp</span>
+																		
+									blue spirulina								</li>
+															<li  data-slug="1-2-tsp-pink-pitaya-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/2 tsp</span>
+																		
+									pink pitaya powder								</li>
+													</ul>
+					</div>
+
+							</div>
+			</div>
+
+															</div>
+														</div>
+													</div>
+												</div>
+																								<div>
+													<div class="row">
+														<div class="col-12 col-lg-7">
+															<div class="single-cooking-mode-modal__step">
+																<h2 class="mb-4">
+																	Step 8 of 8																</h2>
+
+																<p>Once cooled, pipe the butter cream into each of your cakes and decorate. </p>
+															</div>
+														</div>
+
+														<div class="col-12 col-lg-5">
+															<div class="single-cooking-mode-modal__ingredients" data-i="8"
+															     data-current="">
+															     																
+	<div class="single-ingredients">
+		
+		<h2 class="text-uppercase mb-4">Ingredients</h2>
+
+				
+					<div class="single-ingredients__tabs">
+				<button class="btn btn-tab btn-tab--active glossary-translate"
+				        data-unit="metric"
+				        aria-label="Metric"
+				        type="button">Metric</button>
+				<button class="btn btn-tab  glossary-translate"
+				        data-unit="imperial"
+				        aria-label="Imperial"
+				        type="button">Imperial</button>
+			</div>
+		
+		
+			<div class="single-ingredients__group" data-unit="metric">
+									
+					<div class="single-ingredients__item">
+
+													<h4 class="single-ingredients__title">For the base</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="125ml-non-dairy-milk">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">125ml</span>
+																		
+									non dairy milk								</li>
+															<li  data-slug="1-tsp-apple-cider-vinegar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									apple cider vinegar								</li>
+															<li  data-slug="60ml-olive-oil">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">60ml</span>
+																		
+									olive oil								</li>
+															<li  data-slug="100g-caster-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">100g</span>
+																		
+									caster sugar								</li>
+															<li  data-slug="96g-gluten-free-self-raising-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">96g</span>
+																		
+									gluten free self raising flour								</li>
+															<li  data-slug="1-tsp-baking-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									baking powder								</li>
+															<li  data-slug="50g-oat-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">50g</span>
+																		
+									oat flour								</li>
+															<li  data-slug="1-zest-from-lemon">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1</span>
+																		
+									zest from lemon								</li>
+													</ul>
+					</div>
+									
+					<div class="single-ingredients__item">
+
+													<h4 class="single-ingredients__title">For the frosting</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="120g-icing-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">120g</span>
+																		
+									icing sugar								</li>
+															<li  data-slug="112g-vegan-stick-butter">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">112g</span>
+																		
+									vegan stick butter								</li>
+															<li  data-slug="1-4-tsp-blue-spirulina">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/4 tsp</span>
+																		
+									blue spirulina								</li>
+															<li  data-slug="1-2-tsp-pink-pitaya-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/2 tsp</span>
+																		
+									pink pitaya powder								</li>
+													</ul>
+					</div>
+				
+			</div>
+				
+					<div class="single-ingredients__group" data-unit="imperial"style="display: none;">
+									
+					<div class="single-ingredients__item">
+													<h4 class="single-ingredients__title">For the base</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="125ml-non-dairy-milk">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">4.38fl. oz</span>
+																		
+									non dairy milk								</li>
+															<li  data-slug="1-tsp-apple-cider-vinegar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									apple cider vinegar								</li>
+															<li  data-slug="60ml-olive-oil">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">2.1fl. oz</span>
+																		
+									olive oil								</li>
+															<li  data-slug="100g-caster-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.5oz</span>
+																		
+									caster sugar								</li>
+															<li  data-slug="96g-gluten-free-self-raising-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.36oz</span>
+																		
+									gluten free self raising flour								</li>
+															<li  data-slug="1-tsp-baking-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1 tsp</span>
+																		
+									baking powder								</li>
+															<li  data-slug="50g-oat-flour">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1.75oz</span>
+																		
+									oat flour								</li>
+															<li  data-slug="1-zest-from-lemon">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1</span>
+																		
+									zest from lemon								</li>
+													</ul>
+					</div>
+
+									
+					<div class="single-ingredients__item">
+													<h4 class="single-ingredients__title">For the frosting</h4>
+						
+						<ul class="single-ingredients__list">
+															<li  data-slug="120g-icing-sugar">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">4.2oz</span>
+																		
+									icing sugar								</li>
+															<li  data-slug="112g-vegan-stick-butter">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">3.92oz</span>
+																		
+									vegan stick butter								</li>
+															<li  data-slug="1-4-tsp-blue-spirulina">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/4 tsp</span>
+																		
+									blue spirulina								</li>
+															<li  data-slug="1-2-tsp-pink-pitaya-powder">
+									
+																			<span class="color-primary font-weight-semi-bold mr-2">1/2 tsp</span>
+																		
+									pink pitaya powder								</li>
+													</ul>
+					</div>
+
+							</div>
+			</div>
+
+															</div>
+														</div>
+													</div>
+												</div>
+																					</div>
+								</div>
+
+								
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal modal-login fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="btn btn-close btn-close--white close glossary-translate" data-dismiss="modal" aria-label="Close">
+					Close				</button>
+			</div>
+			<div class="modal-body">
+				<div class="row no-gutters">
+					<div class="col-12 col-lg-6 modal-login__column position-relative">
+						<form class="modal-login__text ajax-fade-content">
+															<h2 class="text-uppercase mb-4 glossary-translate">My account</h2>
+								<p>Get the most out of Cooking Circle.</p>
+<p>Register an account to bookmark your favourite recipes, submit your own, &amp; search for recipes for your Ninja</p>
+							<div class="ajax-send-container">
+
+								<input type="hidden" name="bookmark" data-id="bookmark" value="" />
+
+								<div class="form-group">
+									<label for="user_login glossary-translate">Enter your email</label>
+									<input class="form-control border-no-radius" type="text" name="user_login" id="user_login" placeholder="Email address" autocomplete="email" />
+								</div>
+								<div class="form-group">
+									<label for="user_password glossary-translate">Password</label>
+									<input class="form-control border-no-radius" type="password" name="user_password" id="user_password" placeholder="Enter or create your password" />
+								</div>
+								<div class="row no-gutters align-items-center justify-content-between">
+									<div class="">
+										<div class="reset-password-wrapper">
+											<a href="https://cookingcircle.com/reset-password" class="unsubscribe-link color-grey-3 d-block mb-6 mb-md-0 glossary-translate">
+												Lost your password?											</a>
+										</div>
+									</div>
+									
+									<div class="">	
+										<button type="submit" class="btn btn-secondary text-uppercase login-button ajax-send glossary-translate"
+												data-login="Log in / Register"
+												data-loginaction="vnmLogin_loginOrRegister"
+												data-register="Complete Registration"
+												data-login="Log in"
+												data-ajaxaction="vnmLogin_loginOrRegister" 												data-nonce="820e8ae012"
+												data-sendfields="1" 
+												data-sendtrigger="vnm_login_logging_in" 
+												data-sendtriggerparams=".modal-login__column" 
+												data-bookmarks-url="https://cookingcircle.com/my-account/">
+											Log in / Register										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="modal-login__message mt-4"></div>
+						</form>
+
+						<div class="spinner-border position-absolute" role="status">
+							<span class="sr-only">Sending...</span>
+						</div>
+					</div>
+
+					<div class="d-none d-lg-block col-lg-6">
+						<div class="modal-login__background"
+							 style="background-image: url(https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170129/photo-of-grilled-barbecue-3186654.jpg)">
+							<figure class="mb-0">
+								<img class="img-fluid"
+									 alt=""
+									 width="222"
+									 height="193"
+									 src="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170128/Click-2.png"/>
+							</figure>
+															<h6 class="h3 color-white mb-0 mt-6 text-uppercase position-relative">Join Cooking Circle<br />
+today</h6>
+														</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal modal-video fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="close-wrapper">
+				<button type="button" class="btn video-close btn-close btn-close--white close glossary-translate" data-dismiss="modal" aria-label="Close">
+					Close				</button>
+			</div>
+
+			<div class="modal-body">
+				
+				<div class="iframe"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type='text/javascript' src='https://cookingcircle.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://cookingcircle.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' src='https://cookingcircle.com/wp-includes/js/dist/dom-ready.min.js?ver=ecda74de0221e1c2ce5c57cbb5af09d5' id='wp-dom-ready-js'></script>
+<script type='text/javascript' src='https://cookingcircle.com/wp-includes/js/dist/hooks.min.js?ver=1e58c8c5a32b2e97491080c5b10dc71c' id='wp-hooks-js'></script>
+<script type='text/javascript' src='https://cookingcircle.com/wp-includes/js/dist/i18n.min.js?ver=30fcecb428a0e8383d3776bcdd3a7834' id='wp-i18n-js'></script>
+<script type='text/javascript' id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type='text/javascript' id='wp-a11y-js-translations'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script type='text/javascript' src='https://cookingcircle.com/wp-includes/js/dist/a11y.min.js?ver=68e470cf840f69530e9db3be229ad4b6' id='wp-a11y-js'></script>
+<script type='text/javascript' src='https://cookingcircle.com/wp-content/plugins/vnmLogin//assets/js/members-only.js?ver=1648729935' id='members-only-js'></script>
+<script type='text/javascript' id='vnm-ajax-button-js-extra'>
+/* <![CDATA[ */
+var ajaxObject = {"ajaxurl":"https:\/\/cookingcircle.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cookingcircle.com/wp-content/plugins/vnmLogin//assets/js/vnm.ajax-button.js?ver=1648729935' id='vnm-ajax-button-js'></script>
+<script type='text/javascript' src='https://cookingcircle.com/wp-content/plugins/vnmRecipes//assets/js/search.js?ver=1648729935' id='vnmrecipes-facetwp-search-js'></script>
+<script type='text/javascript' src='https://cookingcircle.com/wp-content/themes/cooking-circle/assets/js/cc.min.js?ver=1.0.0' id='cc-scripts-js'></script>
+<script type='text/javascript' src='https://cookingcircle.com/wp-content/plugins/woocommerce-bronto/classes/../assets/js/bronto.js?ver=1648729935' id='wc_bronto_script-js'></script>
+
+
+<div class="btn-bookmark-message" data-added="Added to" data-removed="Removed from" data-url="https://cookingcircle.com/my-account/bookmarks/"></div>
+<div class="btn-product-message" data-added="Added to My Products" data-removed="Removed from My Products"></div>
+</body>
+</html>
