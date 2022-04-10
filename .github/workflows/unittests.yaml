@@ -28,18 +28,7 @@ jobs:
       - name: Unittest and Coverage Report
         run: |
           python run_tests.py
-      - name: Coveralls Parallel
+      - name: coveralls.io
         uses: AndreMiras/coveralls-python-action@develop
         with:
           github-token: "SmlfzlVJy4ow55rduU7IU5GmmFCfAdGeq"
-          parallel: true
-          flag-name: run-${{ matrix.test_number }}
-  finish:
-    needs: test
-    runs-on: ubuntu-latest
-    steps:
-    - name: Coveralls Finished
-      uses: AndreMiras/coveralls-python-action@develop
-      with:
-        github-token: "SmlfzlVJy4ow55rduU7IU5GmmFCfAdGeq"
-        parallel-finished: true
