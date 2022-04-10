@@ -28,20 +28,8 @@ jobs:
       - name: Unittest and Coverage Report
         run: |
           python run_tests.py
-          coverage xml
-      - name: Coveralls Parallel
-        uses: coverallsapp/github-action@master
+      - name: coveralls.io
+        uses: AndreMiras/coveralls-python-action@develop
         with:
-          github-token: "SmlfzlVJy4ow55rduU7IU5GmmFCfAdGeq"
-          parallel: true
-          flag-name: run-${{ matrix.test_number }}
-          path-to-lcov: "coverage.xml"
-  finish:
-    needs: test
-    runs-on: ubuntu-latest
-    steps:
-    - name: Coveralls Finished
-      uses: coverallsapp/github-action@master
-      with:
-        github-token: "SmlfzlVJy4ow55rduU7IU5GmmFCfAdGeq"
-        parallel-finished: true
+          # coveralls repo token
+          github-token: ${{ secrets.COVERALLS_REPO_TOKEN }}
