@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
+from ._utils import normalize_string
 
 
 class TheHappyFoodie(AbstractScraper):
@@ -8,40 +8,31 @@ class TheHappyFoodie(AbstractScraper):
         return "thehappyfoodie.co.uk"
 
     def title(self):
-        return self.soup.find("h1", {"class": "main-title"}).get_text()
+        return self.schema.title()
+
+    def category(self):
+        return self.schema.category()
 
     def total_time(self):
-        return get_minutes(
-            self.soup.find("div", {"class": "recipe__data__total-time"})
-        ) or sum(
-            [
-                get_minutes(
-                    self.soup.find("div", {"class": "recipe__data__prep-time"})
-                ),
-                get_minutes(
-                    self.soup.find("div", {"class": "recipe__data__cook-time"})
-                ),
-            ]
-        )
+        return self.schema.total_time()
 
     def yields(self):
-        return get_yields(
-            self.soup.find("div", {"class": "recipe__data__yield"}).get_text()
-        )
+        return self.schema.yields()
+
+    def image(self):
+        return self.schema.image()
 
     def ingredients(self):
         ingredients = self.soup.find(
-            "table", {"class": "recipe__ingredients-table"}
+            "div", {"class": "hf-ingredients__container"}
         ).findAll("tr")
 
+        amount = 0
+        ingredient_name = 1
         ingredients = [
             (
-                ingredient.find(
-                    "td", {"class": "recipe__ingredients__amount"}
-                ).get_text(),
-                ingredient.find(
-                    "td", {"class": "recipe__ingredients__name"}
-                ).get_text(),
+                ingredient.find_all("td")[amount].get_text(),
+                ingredient.find_all("td")[ingredient_name].get_text(),
             )
             for ingredient in ingredients
         ]
@@ -52,10 +43,10 @@ class TheHappyFoodie(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions = self.soup.find("div", {"class": "recipe__instructions"}).findAll(
-            "p"
-        )
+        return self.schema.instructions()
 
-        return "\n".join(
-            normalize_string(instruction.get_text()) for instruction in instructions
-        )
+    def author(self):
+        return self.schema.author()
+
+    def cuisine(self):
+        return self.schema.cuisine()
