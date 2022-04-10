@@ -1,27 +1,27 @@
+.. image:: https://img.shields.io/github/stars/hhursev/recipe-scrapers?style=social
+    :target: https://github.com/hhursev/recipe-scrapers/
+    :alt: Github
 .. image:: https://img.shields.io/pypi/v/recipe-scrapers.svg?
     :target: https://pypi.org/project/recipe-scrapers/
     :alt: Version
 .. image:: https://pepy.tech/badge/recipe-scrapers
     :target: https://pepy.tech/project/recipe-scrapers
     :alt: Downloads
-.. image:: https://img.shields.io/github/license/hhursev/recipe-scrapers?
-    :target: https://github.com/hhursev/recipe-scrapers/blob/main/LICENSE
-    :alt: License
 .. image:: https://github.com/hhursev/recipe-scrapers/workflows/unittests/badge.svg?branch=main
     :target: https://github.com/hhursev/recipe-scrapers/actions/
     :alt: GitHub Actions Unittests
 .. image:: https://coveralls.io/repos/hhursev/recipe-scraper/badge.svg?branch=main&service=github
     :target: https://coveralls.io/github/hhursev/recipe-scraper?branch=main
     :alt: Coveralls
+.. image:: https://img.shields.io/github/license/hhursev/recipe-scrapers?
+    :target: https://github.com/hhursev/recipe-scrapers/blob/main/LICENSE
+    :alt: License
 .. image:: https://github.com/hhursev/recipe-scrapers/workflows/linters/badge.svg?branch=main
     :target: https://github.com/hhursev/recipe-scrapers/actions/
     :alt: GitHub Actions Linters
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/psf/black
     :alt: Black formatted
-.. image:: https://img.shields.io/github/stars/hhursev/recipe-scrapers?style=social
-    :target: https://github.com/hhursev/recipe-scrapers/
-    :alt: Github
 .. image:: https://img.shields.io/lgtm/grade/python/g/hhursev/recipe-scrapers.svg?logo=lgtm&logoWidth=18
     :target: https://lgtm.com/projects/g/hhursev/recipe-scrapers/context:python
     :alt: Looks Good To Me
@@ -61,17 +61,6 @@ then:
 
 
 Notes:
-
-- Starting from v13.0.0 the packaged stopped suppressing scraper exceptions by default. If you want the previous behaviour
-
-.. code:: python
-
-    import os
-    from recipe_scrapers import scrape_me
-
-    os.environ["RECIPE_SCRAPERS_SETTINGS"] = "recipe_scrapers.settings.v12_settings"
-
-    scraper = scrape_me(...)  # etc.
 
 - ``scraper.links()`` returns a list of dictionaries containing all of the <a> tag attributes. The attribute names are the dictionary keys.
 
@@ -277,8 +266,6 @@ Scrapers available for:
 Contribute
 ----------
 
-Part of the reason I want this open sourced is because if a site makes a design change, the scraper for it should be modified.
-
 If you spot a design change (or something else) that makes the scraper unable to work for a given site - please fire an issue asap.
 
 If you are programmer PRs with fixes are warmly welcomed and acknowledged with a virtual beer.
@@ -290,12 +277,8 @@ If you want a scraper for a new site added
 - Open an `Issue <https://github.com/hhursev/recipe-scraper/issues/new>`_ providing us the site name, as well as a recipe link from it.
 - You are a developer and want to code the scraper on your own:
 
-  - If Schema is available on the site - `you can do this <https://github.com/hhursev/recipe-scrapers/pull/176>`_
-
-    - `How do I know if a schema is available on my site? <#faq>`_
-
+  - If `Schema is available <#faq>`_ on the site - `you can go like this. <https://github.com/hhursev/recipe-scrapers/pull/176>`_
   - Otherwise, scrape the HTML - `like this <https://github.com/hhursev/recipe-scrapers/commit/ffee963d04>`_
-
   - Generating a new scraper class:
 
     .. code:: shell
