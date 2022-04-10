@@ -35,6 +35,7 @@ jobs:
           github-token: "SmlfzlVJy4ow55rduU7IU5GmmFCfAdGeq"
           parallel: true
           flag-name: run-${{ matrix.test_number }}
+          path-to-lcov: "coverage.xml"
   finish:
     needs: test
     runs-on: ubuntu-latest
