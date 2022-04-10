@@ -117,6 +117,7 @@ Scrapers available for:
 - `https://cucchiaio.it/ <https://cucchiaio.it>`_
 - `https://cuisineaz.com/ <https://cuisineaz.com>`_
 - `https://cybercook.com.br/ <https://cybercook.com.br/>`_
+- `https://www.davidlebovitz.com/ <https://www.davidlebovitz.com/>`_
 - `https://delish.com/ <https://delish.com>`_
 - `https://www.ditchthecarbs.com/ <https://www.ditchthecarbs.com>`_
 - `https://domesticate-me.com/ <https://domesticate-me.com/>`_
