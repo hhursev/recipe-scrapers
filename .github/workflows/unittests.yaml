@@ -32,4 +32,4 @@ jobs:
         uses: AndreMiras/coveralls-python-action@develop
         with:
           # coveralls repo token
-          github-token: ${{ secrets.COVERALLS_REPO_TOKEN }}
+          github-token: "SmlfzlVJy4ow55rduU7IU5GmmFCfAdGeq"
