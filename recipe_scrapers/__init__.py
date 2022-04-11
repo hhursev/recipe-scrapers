@@ -19,6 +19,7 @@ from .bbcgoodfood import BBCGoodFood
 from .bettycrocker import BettyCrocker
 from .bigoven import BigOven
 from .blueapron import BlueApron
+from .bodybuilding import Bodybuilding
 from .bonappetit import BonAppetit
 from .bowlofdelicious import BowlOfDelicious
 from .budgetbytes import BudgetBytes
@@ -210,6 +211,7 @@ SCRAPERS = {
     BettyCrocker.host(): BettyCrocker,
     BigOven.host(): BigOven,
     BlueApron.host(): BlueApron,
+    Bodybuilding.host(): Bodybuilding,
     BonAppetit.host(): BonAppetit,
     BowlOfDelicious.host(): BowlOfDelicious,
     BudgetBytes.host(): BudgetBytes,
