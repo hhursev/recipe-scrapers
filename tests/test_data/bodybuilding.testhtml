@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+
+
+
+
+
+
+<head><meta name="bb:detected-locale" content="en-SE"><meta name="bb:locale" content="en-US"><link rel="bb:typeahead-root" href="https://shared-search.bodybuilding.com">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="bb:dotcms:useLatestWrapperHTML" content="true">
+    
+    <meta name="bb:dotcms-template" content="/includes/preact/header.vtl">
+    <title>Spicy Beans and Rice | Bodybuilding.com</title>
+    
+            <!--[startOfHeadMarkup]--><!--ver[41.24.5]-->  <script data-name="bb-wrapper:gdpr" data-module="@bbcom/bb-consent@2.2.6">!function(){"use strict";function e(e){var n=document.cookie.match("(^|;)\\s*"+e+"\\s*=\\s*([^;]+)");return n?n.pop():void 0}var i=null;function n(){var n=[],t=!1,o={resolve:function(e){return i=e,t=!0,n.forEach(function(e){e(i)}),o},then:function(e){return t&&e(i),n.push(e),o}};return o}var t=e("onetrust-user"),o=e("onetrust-jwt");t&&o&&(window.OneTrust={dataSubjectParams:{id:t,token:o}});var r,a=n(),c=n(),d="initial",s="updated";window.bbConsentHandler=(r=d,function(){var e=window.OnetrustActiveGroups;return e?(r!==d&&(c.resolve(e),r=s),r===d&&(a.resolve(e),r="loaded"),{isLoaded:r!==d,isUpdated:r===s}):(console.warn("bb-consent: no consent data"),{isLoaded:!1,isUpdated:!1})});var u={necessary:"C0001",performance:"C0002",experience:"C0003",targeting:"C0004",social:"C0005"},p=function(e,n){return-1!==e.indexOf(u[n])},m=function(n,t){if("necessary"===n)return t(!0);a.then(function(e){t("all"===n?{necessary:!0,experience:p(e,"experience"),social:p(e,"social"),performance:p(e,"performance"),targeting:p(e,"targeting")}:p(e,n))})},v=!1;a.then(function(){v=!0});var l=window.dataLayer||[],f=0,b={bbZone1:void 0,bbZone2:void 0,bbZone3:void 0,bbZone4:void 0,isExit:void 0,exitType:void 0,position:void 0,promoType:void 0,promoId:void 0,resultCount:void 0,id:void 0,elementId:void 0,elementClass:void 0,elementType:void 0,eventType:void 0,name:void 0,href:void 0,x:void 0,y:void 0,width:void 0,height:void 0,itemSource:{version:"__VERSION__"},navigation:{target:void 0}};function w(e,n,t,o,i,r,a){if(++f,(r=Object.assign({},{itemSource:a},b,r)).itemSource.name||(r.itemSource.name="not-provided",r.itemSource.stack=new Error("").stack),r.eventNumber=f,!r.mark&&"function"==typeof window.performance.mark){var c=e+n+f;window.performance.mark(c),r.mark=window.performance.getEntriesByName(c)[0].startTime}var d={event:"bbEvent."+e,bbEvent:{event:e,category:n,action:t,label:o,fields:r}};return"number"==typeof i?d.bbEvent.value=i:i&&window.console.warn("Attempt to set value with type %s! Value must be a number! Stack: %s",typeof i,(new Error).stack),l.push(d),d}!window.performance||window.performance.mark,!window.performance||window.performance.measure,window.bbGetConsent=m,window.bbIsConsentKnown=function(e){return a.then(function(){e(v)}),v},m("all",function(n){var t=[];Object.keys(u).forEach(function(e){t.push("bb-consent-is-allowed-"+e+"--"+n[e])}),function(e){(document.attachEvent?"complete"===document.readyState:"loading"!==document.readyState)?e():document.addEventListener("DOMContentLoaded",e)}(function(){document.body.className+=" ",document.body.className+=t.join(" ")})}),c.then(function(){var n,e=function(e){var n=document.querySelector('link[rel="bb:cms-api-root"]');if(n)return n.href}();n=e||(console.warn('bb-consent: Missing `link[rel="bb:cms-api-root"]`'),"https://cms-api.bodybuilding.com/"),m("all",function(e){!function(e,n,t){void 0===t&&(t=!1);var o=new XMLHttpRequest;o.open("POST",e),o.withCredentials=t,o.setRequestHeader("Content-Type","application/json;charset=UTF-8"),o.send(JSON.stringify(n))}(n+"cookies",e,!0)})}),a.then(function(e){w("cmp.load","OneTrust","cmp.loaded","Consent Status",e?1:0)}),c.then(function(){w("cmp.update","OneTrust","cmp.updated","Settings"),m("all",function(e){w("cmp.update.experience","OneTrust","cmp.updated","Experience",e.experience?1:0),w("cmp.update.social","OneTrust","cmp.updated","Social",e.social?1:0)})})}()</script><script>window.admiral=function(){console.error("bb-wrapper: window.admiral deprecated:",arguments)}</script><script data-name="bb-wrapper:onetrust">function OptanonWrapper(){window.bbConsentHandler()}"app-ios"!==navigator.userAgent.toLowerCase()?document.write('<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" charset="UTF-8" data-domain-script="25c70b8a-74e7-45dc-b494-671dfec9b52b"><\/script>'):(window.OnetrustActiveGroups=",C0001,",OptanonWrapper())</script><style data-name="bb-wrapper:optimize-page-hiding-css">.async-hide{opacity:0!important}</style><script data-name="bb-wrapper:optimize-page-hiding">!function(e,t,m,a,n,i,u,s,d){t.className+=" "+m;var l=!1;i.start=1*new Date,i.end=u=function(){t.className=t.className.replace(RegExp(" ?"+m),""),l=!0},(e[a]=e[a]||[]).hide=i,e[a].push({event:"measurement.start",measurement:{variable:"optimize.hide",timestamp:Date.now()}}),setTimeout(function(){l||e[a].push({event:"measurement.end",measurement:{type:["offset","duration"],variable:"optimize.hide",label:"timed out",timestamp:Date.now()}}),u(),i.end=null},2e3),i.timeout=2e3}(window,document.documentElement,"async-hide","dataLayer",0,{"GTM-N5PGSVQ":!0})</script><script data-name="bb-wrapper:analytics-n-optimize-init">!function(e,a,g,m,t,i,n){e.GoogleAnalyticsObject=t,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,i=a.createElement(g),n=a.getElementsByTagName(g)[0],i.async=1,i.src="https://www.google-analytics.com/analytics.js",n.parentNode.insertBefore(i,n)}(window,document,"script",0,"ga"),ga("create","UA-55035870-1","auto"),ga("require","GTM-N5PGSVQ"),ga("set",{anonymizeIp:!0,forceSSL:!0})</script><!--end[startOfHeadMarkup]-->
+    
+        
+
+            <meta name="template" content="recipe">
+    
+            <meta name="robots" content="index,follow">
+	
+    <meta name="layout" content="responsive">
+    <link rel="dns-prefetch" href="https://api.bodybuilding.com">
+    <link rel="dns-prefetch" href="https://artifacts.bbcomcdn.com">
+
+    <meta property="og:site_name" content="Bodybuilding.com">
+    <meta property="og:determiner" content="auto">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:see_also" content="https://www.bodybuilding.com/fun/whats-new.html">
+    <link rel="publisher" href="https://plus.google.com/+bodybuildingcom">
+    <meta name="twitter:site" content="Bodybuildingcom">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" content="bodybuilding.com">
+    <meta name="twitter:app:id:iphone" content="981971812">
+    <meta name="twitter:app:id:ipad" content="981971812">
+    <meta name="twitter:app:id:googleplay" content="com.bodybuilding.store">
+	<meta property="fb:app_id" content="197335844169">
+    <meta property="fb:profile_id" content="55409478056">
+    <meta name="application-name" content="Bodybuilding.com">
+        <link rel="alternate" type="application/rss+xml" title="Bodybuilding.com Latest Articles" href="https://www.bodybuilding.com/rss/articles">
+
+                <link rel="bb:simple-signup-api-root" href="https://simple-signup.bodybuilding.com/">
+        <link rel="bb:simple-track-api-root" href="https://simpletrack-api.bodybuilding.com/">
+        <link rel="bb:cms-api-root" href="https://cms-api.bodybuilding.com/">
+        <link rel="bb:profile-api-root" href="https://profile-api.bodybuilding.com/">
+        <link rel="bb:subscription-api-root" href="https://subscription-api.bodybuilding.com/">
+    
+        
+    	    <meta property="og:type" content="website">
+	
+        
+        
+    
+        
+                <link rel="canonical" href="https://www.bodybuilding.com/recipes/spicy-beans-and-rice">
+    
+                <meta property="og:url" content="https://www.bodybuilding.com/recipes/spicy-beans-and-rice">
+        <meta name="twitter:url" content="https://www.bodybuilding.com/recipes/spicy-beans-and-rice">
+    
+                <meta property="og:title" content="Spicy Beans and Rice | Bodybuilding.com">
+        <meta name="twitter:title" content="Spicy Beans and Rice | Bodybuilding.com">
+    
+        
+                        <meta property="og:updated_time" content="2021-10-11T12:34:37Z">
+                <meta property="article:published_time" content="2021-10-11T00:00:00Z">
+    
+    
+    
+        
+                    <script>
+        (function() {
+            // Set data layer variables to undefined initially
+            var coreDataLayer={bbWrapperVersion:void 0,bbMetaEnvironment:void 0,bbClient:{name:void 0,version:void 0,spa:void 0},bbServer:{name:void 0,version:void 0,host:void 0},bbPageViewId:void 0,bbPageName:void 0,bbPageSiteSection:void 0,bbPageType:void 0,bbPageSubType:void 0,bbContentType:void 0,bbContentTemplate:void 0,bbContentAuthor:void 0,bbContentIsMultiPage:void 0,bbContentMultiPageType:void 0,bbContentMultiPageIndex:void 0,bbContentPublishDate:void 0,bbContentModifiedDate:void 0,bbContentArticleWords:void 0,bbContentSummaryWords:void 0,bbContentHeaderWidth:void 0,bbContentHeaderHeight:void 0,bbContentHeaderX:void 0,bbContentheaderY:void 0,bbContentHeaderRotator:void 0,bbContentHeaderIsVideo:void 0,bbContentSupportingBrand:void 0,bbContentFeaturedAthelete:void 0,bbContentCommunityAuthor:void 0,bbArticleTitle:void 0,bbArticleList:void 0,bbArticleCategory:void 0,bbArticleRatingCount:void 0,bbArticleRating:void 0,bbReadTimeEstimate:void 0,bbPageTargetTimeOnPage:void 0,bbPageSharesFb:void 0,bbPageSharesInstagram:void 0,bbPageSharesTwitter:void 0,bbAdCount:void 0,bbPageHasVideo:void 0,bbPageTitleWordCount:void 0,bbPageInfiniteScroll:void 0,bbVideoName:void 0,bbVideoLength:void 0,bbVideoId:void 0,bbVideoPlayerType:void 0};function generateUuid(){var e=Date.now();return"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,function(o){var b=(e+16*Math.random())%16|0;return e=Math.floor(e/16),("x"===o?b:3&b|8).toString(16)})}
+
+			coreDataLayer.bbWrapperVersion = '41.24.5';
+            coreDataLayer.bbMetaEnvironment = 'prod';
+            coreDataLayer.bbServer.name = 'cms';
+            coreDataLayer.bbServer.version = '4.1.1';
+            coreDataLayer.bbServer.host = '127.0.0.1';
+            coreDataLayer.bbPageSiteSection = 'content';
+            coreDataLayer.bbPageInfiniteScroll = false;
+            coreDataLayer.bbPageViewId = generateUuid();
+
+                            coreDataLayer.bbPageName = 'Recipe: spicy-beans-and-rice';
+            
+                            coreDataLayer.bbPageType = 'detail';
+            
+                            coreDataLayer.bbPageSubType = 'recipe';
+            
+                            coreDataLayer.bbContentType = 'recipe';
+            
+                            coreDataLayer.bbContentTemplate = 'BBCOM Recipe Article';
+            
+                            coreDataLayer.bbClient.name = 'cms-app';
+            
+                            
+coreDataLayer.bbClient.version = '9.2.4';
+
+            
+                            coreDataLayer.bbClient.spa = false;
+            
+                            coreDataLayer.bbPageGated = false;
+            
+            
+            
+            
+            
+                            coreDataLayer.bbContentPublishDate = '2021-10-11 00:00:00.0';
+            
+                            coreDataLayer.bbContentModifiedDate = '2021-10-11 12:34:37.0';
+            
+                            coreDataLayer.bbAdCount = 3;
+            			
+			
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push(coreDataLayer);
+        })();
+    </script>
+
+    
+<script src='https://artifacts.bbcomcdn.com/@bbcom/bb-analytics/2.6.3/bb-analytics-inline.min.js'></script>
+
+
+	    <!--[gtmMarkup]--><!--ver[41.24.5]--><script data-name="bb-wrapper:gtm-init">!function(e,t,a,m,n){e[m]=e[m]||[],e[m].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var g=t.getElementsByTagName(a)[0],r=t.createElement(a);r.async=!0,r.src="https://www.googletagmanager.com/gtm.js?id=GTM-MHRD92",g.parentNode.insertBefore(r,g)}(window,document,"script","dataLayer")</script><!--end[gtmMarkup]-->
+
+
+	<link rel="icon" href="https://www.bodybuilding.com/images/bb-favicon-16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="https://www.bodybuilding.com/images/bb-favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="https://www.bodybuilding.com/images/bb-favicon-48.png" sizes="48x48" type="image/png">
+    <link rel="icon" href="https://www.bodybuilding.com/images/bb-favicon-62.png" sizes="62x62" type="image/png">
+
+	<script>
+    /*<![CDATA[*/
+        (function () {
+            var oldIeVersion,
+				addIsIEClass = function (ver) {
+					var root = document.documentElement;
+					root.className = root.className + ' is-ie' + ver;
+				};
+
+            oldIeVersion = 0;
+
+            if (navigator.userAgent.match(/Trident\/7/)) {
+                addIsIEClass(11);
+            }
+        })();
+
+        if (window.console) {
+            console.debug = console.debug || function noop() {};
+        }
+    /*]]>*/
+    </script>
+  <style data-font="RBNo2">
+    @font-face {
+      font-family: "RBNo2";
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url("https://artifacts.bbcomcdn.com/bb-resources/2.12.4/fonts/RBNo2.1a.woff2") format("woff2"),
+      url("https://artifacts.bbcomcdn.com/bb-resources/2.12.4/fonts/RBNo2.1a.woff") format("woff");
+    }
+    :root {
+      --body-font-family: 'Proxima Nova', sans-serif;
+      --label-font-family: 'Proxima Nova', sans-serif;
+      --input-font-family: 'Proxima Nova', sans-serif;
+      --h1-font-family: 'RBNo2', sans-serif;
+      --h2-font-family: 'RBNo2', sans-serif;
+      --h3-font-family: 'RBNo2', sans-serif;
+      --h4-font-family: 'Proxima Nova', sans-serif;
+      --h5-font-family: 'Proxima Nova', sans-serif;
+      --h6-font-family: 'Proxima Nova', sans-serif;
+      --h7-font-family: 'Proxima Nova', sans-serif;
+      --h8-font-family: 'Proxima Nova', sans-serif;
+      --p-font-family: 'Proxima Nova', sans-serif;
+      --buttons-font-family: 'Proxima Nova', sans-serif;
+      --body-copy-font-family: 'Proxima Nova', sans-serif;
+    }
+  </style>
+                
+        <link
+            data-name="bb-wrapper:styles-critical"
+            rel="stylesheet"
+            type="text/css"
+            href="https://artifacts.bbcomcdn.com/@bbcom/bb-wrapper/41.24.5/styles/bb-wrapper-critical.min.css"
+            media="all" />
+    
+
+                
+                        
+<link id=cmsAppFrontendStyles rel=stylesheet href=https://artifacts.bbcomcdn.com/cms-app/9.2.4/frontend-edge-article-page.min.css>
+
+    
+    <!-- [START] ad js -->
+    <script data-name="dotcms:ad-globals-to-avoid-exceptions">
+        window.gptadslots = window.gptadslots || [];
+        window.googletag = window.googletag || {};
+        window.googletag.cmd = window.googletag.cmd || [];
+        var freestar = freestar || {};
+        freestar.queue = freestar.queue || [];
+        freestar.config = freestar.config || {};
+        freestar.config.enabled_slots = [];
+    </script>
+            <link rel="stylesheet" href="https://a.pub.network/core/pubfig/cls.css">
+<script data-name="dotcms:ad-global-freestar" data-cfasync="false" type="text/javascript">
+  var freestar = freestar || {};
+  freestar.queue = freestar.queue || [];
+  freestar.config = freestar.config || {};
+  freestar.config.enabled_slots = [];
+  freestar.queue.push(function() {
+    freestar.newStickyFooter();
+});
+  freestar.initCallback = function () {
+    if (freestar.config.enabled_slots.length === 0) { 
+      freestar.initCallbackCalled = false;
+      return;
+    }
+    if (window.bbGetConsent) {
+      window.bbGetConsent('targeting', function(haveConsentForSocial) {
+        if (haveConsentForSocial) {
+          console.log('Consent: freestar (ads) personalized');
+          googletag.pubads().setRequestNonPersonalizedAds(0);
+        } else {
+          console.log('Consent: freestar (ads) non-personalized');
+          googletag.pubads().setRequestNonPersonalizedAds(1);
+        }
+        freestar.newAdSlots(freestar.config.enabled_slots);
+      });
+    }
+  };
+  
+      
+  var dotCmsParameters = {
+      templateType: 'edge-recipe-page',
+      urlShortPath: 'spicy-beans-and-rice',
+      urlPath: '/recipes/spicy-beans-and-rice',
+      urlFull: 'https://www.bodybuilding.com/recipes/spicy-beans-and-rice',
+      slug: '',
+      adURL: 'spicy-beans-and-rice'
+  };
+  
+  var metaElem = document.querySelector('meta[name="bb:entitlements"]');
+  var hasAllAccess = metaElem && metaElem.getAttribute('content') === 'All Access' ? "true" : "false";
+  googletag.cmd.push(function() {
+          googletag.pubads()
+        .setTargeting('URL',['spicy-beans-and-rice'])
+        .setTargeting('section',[''])
+        .setTargeting('hasAllAccess', [hasAllAccess])
+        .setTargeting('Category',['side-dishes, vegetarian-1, high-protein'])
+        .setTargeting('template','recipe');
+      });
+</script>
+<script src="https://a.pub.network/bodybuilding-com/pubfig.min.js" async></script>        <!-- [END] ad js -->
+    
+    <!-- [BEGIN] amp -->
+              <!-- ampMap exists -->
+                          <!-- ampMap.amp_map type is com.dotmarketing.util.json.JSONObject -->
+            <!-- ampMap.amp_map exists urlFull = [https://www.bodybuilding.com/recipes/spicy-beans-and-rice], ampKey=https://amp.bodybuilding.com/recipes/spicy-beans-and-rice -->
+                           <!-- containsValue is false -->
+                                  <!-- [END]amp -->
+
+</head>    <body class="Wr__body BbBody BBCMS__body bbcom-recipe-article-page" lang="en">
+
+<noscript>
+    	    <iframe height="0" width="0" style="display:none;visibility:hidden" src="https://www.googletagmanager.com/ns.html?id=GTM-MHRD92"></iframe>
+	</noscript>
+
+
+            <header class="BbHeader" data-bb-zone1="header" data-bb-zone2="header" id="BbWrapperHeader">
+            <!--[headerNavMarkup]--><!-- Generated on Mon Oct 11 12:34:38 MDT 2021 --> <div class="BbHeaderNav"><div id="BbWrapperNavigation"><nav style="display:none"><ul>  <li><a href="https://www.bodybuilding.com/?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/"> Shop </a><ul>  <li>  <a href="https://shop.bodybuilding.com/collections/protein?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/protein"> Protein </a>   <ul><li>  <a href="https://shop.bodybuilding.com/collections/protein?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/protein"> Protein </a>   </li>  <li><a href="https://shop.bodybuilding.com/collections/whey-protein-blend?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/whey-protein-blend"> Whey Protein </a></li>  <li><a href="https://shop.bodybuilding.com/collections/whey-protein-isolate?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/whey-protein-isolate"> Whey Protein Isolate </a></li>  <li><a href="https://shop.bodybuilding.com/collections/mass-weight-gainer?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/mass-weight-gainer"> Weight Gainers </a></li>  <li><a href="https://shop.bodybuilding.com/collections/casein-protein?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/casein-protein"> Casein Protein </a></li>  <li><a href="https://shop.bodybuilding.com/collections/egg-protein?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/egg-protein"> Egg Protein </a></li>  <li><a href="https://shop.bodybuilding.com/collections/plant-vegan-soy-protein?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/plant-vegan-soy-protein"> Plant Protein </a></li>  <li><a href="https://shop.bodybuilding.com/collections/meal-replacement?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/meal-replacement"> Meal Replacements </a></li>  <li><a href="https://shop.bodybuilding.com/collections/ready-to-drink-protein?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/ready-to-drink-protein"> Ready To Drink Shakes </a></li>  <li><a href="https://shop.bodybuilding.com/collections/protein-bars?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/protein-bars"> Protein Bars </a></li>  <li><a href="https://shop.bodybuilding.com/collections/convenience-food-and-drink?sort_by=relevency&page_number=1&bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/convenience-food-and-drink?sort_by=relevency&page_number=1"> Protein Pantry </a></li>  </ul></li>  <li>  <a href="https://shop.bodybuilding.com/collections/performance-supplements?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/performance-supplements"> Performance </a>   <ul><li>  <a href="https://shop.bodybuilding.com/collections/performance-supplements?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/performance-supplements"> Performance </a>   </li>  <li><a href="https://shop.bodybuilding.com/collections/pre-workout?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/pre-workout"> Pre-Workout </a></li>  <li><a href="https://shop.bodybuilding.com/search?context=all&q=stim+free+pre-workout&selected_tab=Products&bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/search?context=all&q=stim+free+pre-workout&selected_tab=Products"> Stim-Free Pre </a></li>  <li><a href="https://shop.bodybuilding.com/collections/intra-workout?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/intra-workout"> Intra-Workout </a></li>  <li><a href="https://shop.bodybuilding.com/collections/post-workout?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/post-workout"> Post-Workout Recovery </a></li>  <li><a href="https://shop.bodybuilding.com/collections/creatine?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/creatine"> Creatine </a></li>  <li><a href="https://shop.bodybuilding.com/collections/bcaa-amino-acids?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/bcaa-amino-acids"> BCAA </a></li>  <li><a href="https://shop.bodybuilding.com/collections/testosterone-boosters?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/testosterone-boosters"> Testosterone Boosters </a></li>  <li><a href="https://shop.bodybuilding.com/collections/energy-endurance?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/energy-endurance"> Energy &amp; Endurance </a></li>  <li><a href="https://shop.bodybuilding.com/collections/energy-drinks?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/energy-drinks"> Energy Drinks </a></li>  <li><a href="https://shop.bodybuilding.com/collections/mental-focus-nootropics?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/mental-focus-nootropics"> Gaming &amp; Focus </a></li>  </ul></li>  <li>  <a href="https://shop.bodybuilding.com/collections/weight-management?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/weight-management"> Weight Management </a>   <ul><li>  <a href="https://shop.bodybuilding.com/collections/weight-management?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/weight-management"> Weight Management </a>   </li>  <li><a href="https://shop.bodybuilding.com/collections/fat-burners?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/fat-burners"> Fat Burners </a></li>  <li><a href="https://shop.bodybuilding.com/collections/appetite-control?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/appetite-control"> Appetite Control </a></li>  <li><a href="https://shop.bodybuilding.com/collections/cla?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/cla"> CLA </a></li>  <li><a href="https://shop.bodybuilding.com/collections/l-carnitine?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/l-carnitine"> L-Carnitine </a></li>  <li><a href="https://shop.bodybuilding.com/collections/keto?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/keto"> Keto </a></li>  <li><a href="https://shop.bodybuilding.com/collections/low-carb-food?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/low-carb-food"> Low Carb Protein </a></li>  <li><a href="https://shop.bodybuilding.com/collections/mass-weight-gainer?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/mass-weight-gainer"> Mass Gainers </a></li>  <li><a href="https://shop.bodybuilding.com/collections/convenience-food-and-drink?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/convenience-food-and-drink"> Convenience Food &amp; Drink </a></li>  <li><a href="https://shop.bodybuilding.com/collections/meal-replacement?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/meal-replacement"> Meal Management </a></li>  </ul></li>  <li>  <a href="https://shop.bodybuilding.com/collections/vitamins-and-wellness?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/vitamins-and-wellness"> Vitamins &amp; Health </a>   <ul><li>  <a href="https://shop.bodybuilding.com/collections/vitamins-and-wellness?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/vitamins-and-wellness"> Vitamins &amp; Health </a>   </li>  <li><a href="https://shop.bodybuilding.com/collections/multivitamins?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/multivitamins"> Multi-Vitamins </a></li>  <li><a href="https://shop.bodybuilding.com/collections/immune-system-support?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/immune-system-support"> Immune Health </a></li>  <li><a href="https://shop.bodybuilding.com/collections/greens-superfoods?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/greens-superfoods"> Greens &amp; Superfoods </a></li>  <li><a href="https://shop.bodybuilding.com/collections/cbd?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/cbd"> CBD </a></li>  <li><a href="https://shop.bodybuilding.com/collections/probiotics?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/probiotics"> Probiotics </a></li>  <li><a href="https://shop.bodybuilding.com/collections/fish-oil-omegas?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/fish-oil-omegas"> Fish Oil &amp; Omegas </a></li>  <li><a href="https://shop.bodybuilding.com/collections/joint-support?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/joint-support"> Joint Support </a></li>  <li><a href="https://shop.bodybuilding.com/collections/collagen?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/collagen"> Collagen </a></li>  <li><a href="https://shop.bodybuilding.com/collections/mental-focus-nootropics?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/mental-focus-nootropics"> Mental Focus </a></li>  <li><a href="https://shop.bodybuilding.com/collections/stress-sleep-aids?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/stress-sleep-aids"> Stress Relief &amp; Sleep Aids </a></li>  <li><a href="https://shop.bodybuilding.com/collections/mens-health?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/mens-health"> Men&#x27;s Health </a></li>  <li><a href="https://shop.bodybuilding.com/collections/womens-health?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/womens-health"> Women&#x27;s Health </a></li>  </ul></li>  <li>  <a href="https://shop.bodybuilding.com/collections/shop-all-clothing-accessories?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/shop-all-clothing-accessories"> Clothing &amp; Accessories </a>   <ul><li>  <a href="https://shop.bodybuilding.com/collections/shop-all-clothing-accessories?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/shop-all-clothing-accessories"> Clothing &amp; Accessories </a>   </li>  <li><a href="https://shop.bodybuilding.com/collections/garage-gym-equipment?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/garage-gym-equipment"> Home Gym Equipment </a></li>  <li><a href="https://shop.bodybuilding.com/collections/dumbbells?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/dumbbells"> Dumbbells </a></li>  <li><a href="https://shop.bodybuilding.com/collections/workout-clothes?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/workout-clothes"> Clothing </a></li>  <li><a href="https://shop.bodybuilding.com/collections/gym-bag-backpacks?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/gym-bag-backpacks"> Gym Bags &amp; Duffels </a></li>  <li><a href="https://shop.bodybuilding.com/collections/shakers-blenders?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/shakers-blenders"> Shakers &amp; Water Bottles </a></li>  <li><a href="https://shop.bodybuilding.com/collections/food-weight-scales?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/food-weight-scales"> Scales &amp; Body Measurement </a></li>  <li><a href="https://shop.bodybuilding.com/collections/hats-socks-shoes?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/hats-socks-shoes"> Hats, Socks &amp; Shoes </a></li>  <li><a href="https://shop.bodybuilding.com/collections/weightlifting-belts?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/weightlifting-belts"> Weight Lifting Belts </a></li>  <li><a href="https://shop.bodybuilding.com/collections/workout-gloves?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/workout-gloves"> Gloves </a></li>  <li><a href="https://shop.bodybuilding.com/collections/straps-wraps-hooks-grips?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/straps-wraps-hooks-grips"> Straps, Wraps &amp; Grips </a></li>  <li><a href="https://shop.bodybuilding.com/collections/resistance-bands?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/resistance-bands"> Resistance Bands </a></li>  <li><a href="https://shop.bodybuilding.com/collections/massage-recovery-tools?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/massage-recovery-tools"> Mobility &amp; Recovery </a></li>  </ul></li>  <li>  <a href="https://www.bodybuilding.com/store/coupons_promos.html?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/store/coupons_promos.html"> Brands </a>   <ul><li>  <a href="https://www.bodybuilding.com/store/coupons_promos.html?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/store/coupons_promos.html"> Brands </a>   </li>  <li><a href="https://shop.bodybuilding.com/collections/bodybuilding-signature-series?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/bodybuilding-signature-series"> Bodybuilding.com Signature </a></li>  <li><a href="https://shop.bodybuilding.com/collections/jym-supplement-science?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/jym-supplement-science"> JYM Supplement Science </a></li>  <li><a href="https://shop.bodybuilding.com/collections/evlution-nutrition?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/evlution-nutrition"> EVLUTION NUTRITION </a></li>  <li><a href="https://shop.bodybuilding.com/collections/dymatize?sort_by=relevency&page_number=1&bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/dymatize?sort_by=relevency&page_number=1"> DYMATIZE </a></li>  <li><a href="https://www.bodybuilding.com/fun/we-are-animal.html?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/fun/we-are-animal.html"> ANIMAL </a></li>  <li><a href="https://www.bodybuilding.com/fun/pharmafreak.html?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/fun/pharmafreak.html"> PharmaFreak </a></li>  <li><a href="https://shop.bodybuilding.com/collections/under-armour?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/under-armour"> Under Armour </a></li>  <li><a href="https://shop.bodybuilding.com/collections/reebok?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/reebok"> Reebok </a></li>  <li><a href="https://www.bodybuilding.com/fun/hydrojug.html?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/fun/hydrojug.html"> Hydrojug </a></li>  </ul></li>  <li>  <a href="https://shop.bodybuilding.com/?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/"> Store </a>   <ul><li>  <a href="https://shop.bodybuilding.com/?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/"> Store </a>   </li>  <li><a href="https://shop.bodybuilding.com/?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/"> Shop Store </a></li>  <li><a href="https://shop.bodybuilding.com/collections/new-arrivals?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/new-arrivals"> New Arrivals </a></li>  <li><a href="https://www.bodybuilding.com/store/top50.htm?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/store/top50.htm"> Top 50 </a></li>  <li><a href="https://www.bodybuilding.com/store/coupons_promos.html?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/store/coupons_promos.html"> Sales &amp; Specials </a></li>  </ul></li>  <li>  <a href="https://shop.bodybuilding.com/collections/bodybuilding-com-exclusives?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/bodybuilding-com-exclusives"> BBcom Exclusives </a>   <ul><li>  <a href="https://shop.bodybuilding.com/collections/bodybuilding-com-exclusives?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/bodybuilding-com-exclusives"> BBcom Exclusives </a>   </li>  <li><a href="https://shop.bodybuilding.com/collections/bodybuilding-com-exclusives?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/collections/bodybuilding-com-exclusives"> BBcom Exclusives </a></li>  <li><a href="https://marketing.bodybuilding.com/marketing/campaign/mens-center?bbsrc=hbs" data-orig-url="https://marketing.bodybuilding.com/marketing/campaign/mens-center"> Men&#x27;s Center </a></li>  <li><a href="https://marketing.bodybuilding.com/marketing/campaign/WomensCenter?bbsrc=hbs" data-orig-url="https://marketing.bodybuilding.com/marketing/campaign/WomensCenter"> Women&#x27;s Center </a></li>  <li><a href="https://shop.bodybuilding.com/products/bodybuilding-store-gift-card?bbsrc=hbs" data-orig-url="https://shop.bodybuilding.com/products/bodybuilding-store-gift-card"> Gift Cards </a></li>  <li><a href="https://marketing.bodybuilding.com/marketing/campaign/military?bbsrc=hbs" data-orig-url="https://marketing.bodybuilding.com/marketing/campaign/military"> Military Discount </a></li>  <li><a href="https://marketing.bodybuilding.com/marketing/campaign/persona-vitamins?bbsrc=hbs" data-orig-url="https://marketing.bodybuilding.com/marketing/campaign/persona-vitamins"> Persona - Vitamin Packs Made for You </a></li>  </ul></li>  </ul></li>  <li><a href="https://www.bodybuilding.com/fun/whats-new.html?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/fun/whats-new.html"> Articles </a><ul>  <li>  <a href="https://www.bodybuilding.com/category/training?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/training"> Training </a>   <ul><li>  <a href="https://www.bodybuilding.com/category/training?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/training"> Training </a>   </li>  <li><a href="https://www.bodybuilding.com/exercises/?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/exercises/"> Exercise Guides </a></li>  <li><a href="https://www.bodybuilding.com/category/build-muscle?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/build-muscle"> Build Muscle </a></li>  <li><a href="https://www.bodybuilding.com/category/lose-fat?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/lose-fat"> Weight Loss </a></li>  <li><a href="https://www.bodybuilding.com/category/programs?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/programs"> Programs </a></li>  <li><a href="https://www.bodybuilding.com/category/cardio?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/cardio"> Cardio </a></li>  <li><a href="https://www.bodybuilding.com/category/crossfit?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/crossfit"> CrossFit </a></li>  <li><a href="https://www.bodybuilding.com/fun/other7.htm?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/fun/other7.htm"> 1-Rep Max Calculator </a></li>  </ul></li>  <li>  <a href="https://www.bodybuilding.com/category/workouts?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/workouts"> Workouts </a>   <ul><li>  <a href="https://www.bodybuilding.com/category/workouts?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/workouts"> Workouts </a>   </li>  <li><a href="https://www.bodybuilding.com/topic/chest?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/topic/chest"> Chest Workouts </a></li>  <li><a href="https://www.bodybuilding.com/topic/shoulders?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/topic/shoulders"> Shoulder Workouts </a></li>  <li><a href="https://www.bodybuilding.com/topic/back?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/topic/back"> Back Workouts </a></li>  <li><a href="https://www.bodybuilding.com/topic/biceps?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/topic/biceps"> Biceps Workouts </a></li>  <li><a href="https://www.bodybuilding.com/topic/tricep?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/topic/tricep"> Triceps Workouts </a></li>  <li><a href="https://www.bodybuilding.com/topic/legs?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/topic/legs"> Leg Workouts </a></li>  </ul></li>  <li>  <a href="https://www.bodybuilding.com/category/nutrition?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/nutrition"> Nutrition </a>   <ul><li>  <a href="https://www.bodybuilding.com/category/nutrition?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/nutrition"> Nutrition </a>   </li>  <li><a href="https://www.bodybuilding.com/recipes?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/recipes"> Recipes </a></li>  <li><a href="https://www.bodybuilding.com/category/nutrition-tips?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/nutrition-tips"> Nutrition Tips </a></li>  <li><a href="https://www.bodybuilding.com/category/diet-plans?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/diet-plans"> Diet Plans </a></li>  <li><a href="https://www.bodybuilding.com/category/meal-planning?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/meal-planning"> Meal Planning </a></li>  <li><a href="https://www.bodybuilding.com/category/supplementation?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/supplementation"> Supplementation </a></li>  <li><a href="https://www.bodybuilding.com/fun/macronutrients_calculator.htm?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/fun/macronutrients_calculator.htm"> Macro Calculator </a></li>  </ul></li>  <li>  <a href="https://www.bodybuilding.com/category/motivation?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/motivation"> Other Topics </a>   <ul><li>  <a href="https://www.bodybuilding.com/category/motivation?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/motivation"> Other Topics </a>   </li>  <li><a href="https://www.bodybuilding.com/fun/videos.html?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/fun/videos.html"> Videos </a></li>  <li><a href="https://www.bodybuilding.com/category/motivation?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/motivation"> Motivation </a></li>  <li><a href="https://www.bodybuilding.com/category/transformations?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/transformations"> Transformations </a></li>  <li><a href="https://www.bodybuilding.com/topic/beginner?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/topic/beginner"> Beginners </a></li>  <li><a href="https://www.bodybuilding.com/category/powerlifting?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/category/powerlifting"> Powerlifting </a></li>  <li><a href="https://www.bodybuilding.com/topic/strongman?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/topic/strongman"> Strongman </a></li>  <li><a href="https://www.bodybuilding.com/podcast?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/podcast"> Podcast Interviews </a></li>  </ul></li>  </ul></li>  <li><a href="https://www.bodybuilding.com/workout-plans/?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/"> Workout Plans </a><ul>  <li>  <a href="https://www.bodybuilding.com/workout-plans/goal/build-muscle?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/goal/build-muscle"> Build Muscle Plans </a>   <ul><li>  <a href="https://www.bodybuilding.com/workout-plans/goal/build-muscle?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/goal/build-muscle"> Build Muscle Plans </a>   </li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/jim-stoppanis-12-week-shortcut-to-size?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/jim-stoppanis-12-week-shortcut-to-size"> Shortcut to Size </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/kris-gethins-12-week-muscle-building-trainer?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/kris-gethins-12-week-muscle-building-trainer"> Kris Gethin Muscle Building </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/modern-physique-steve-cooks-8-week-training-plan?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/modern-physique-steve-cooks-8-week-training-plan"> Modern Physique </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/fst-7-big-and-ripped-8-weeks-to-an-olympia-winning-physique?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/fst-7-big-and-ripped-8-weeks-to-an-olympia-winning-physique"> FST-7 </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/living-large-jay-cutlers-8-week-mass-building-trainer?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/living-large-jay-cutlers-8-week-mass-building-trainer"> Living Large </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/project-mass-jake-wilsons-14-week-muscle-building-trainer?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/project-mass-jake-wilsons-14-week-muscle-building-trainer"> Project Mass </a></li>  </ul></li>  <li>  <a href="https://www.bodybuilding.com/workout-plans/goal/lose-weight?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/goal/lose-weight"> Weight Loss Plans </a>   <ul><li>  <a href="https://www.bodybuilding.com/workout-plans/goal/lose-weight?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/goal/lose-weight"> Weight Loss Plans </a>   </li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/jim-stoppanis-six-week-shortcut-to-shred?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/jim-stoppanis-six-week-shortcut-to-shred"> Shortcut To Shred </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/jamie-easons-livefit-trainer-your-12-week-transformation-plan?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/jamie-easons-livefit-trainer-your-12-week-transformation-plan"> LiveFit </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/fyr-hannah-edens-30-day-fitness-plan?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/fyr-hannah-edens-30-day-fitness-plan"> FYR </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/lee-labradas-12-week-lean-body-trainer?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/lee-labradas-12-week-lean-body-trainer"> Lean Body </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/12-week-hardcore-daily-trainer-with-kris-gethin?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/12-week-hardcore-daily-trainer-with-kris-gethin"> Kris Gethin 12-Week Hardcore </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/Kris-Gethins-4-Weeks2Shred?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/Kris-Gethins-4-Weeks2Shred"> 4Weeks2Shred </a></li>  </ul></li>  <li>  <a href="https://www.bodybuilding.com/workout-plans/goal/get-fit?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/goal/get-fit"> Get Fit Plans </a>   <ul><li>  <a href="https://www.bodybuilding.com/workout-plans/goal/get-fit?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/goal/get-fit"> Get Fit Plans </a>   </li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/james-grage-rewired-9-week-fitness-trainer?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/james-grage-rewired-9-week-fitness-trainer"> Rewired </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/bill-phillips-back-to-fit-12-week-trainer?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/bill-phillips-back-to-fit-12-week-trainer"> Back To Fit </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/the-ultimate-30-day-beginners-guide-to-fitness?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/the-ultimate-30-day-beginners-guide-to-fitness"> Ultimate 30-Day </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/get-ripped-stay-big-365-circuit-trainer-with-julien-greaux?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/get-ripped-stay-big-365-circuit-trainer-with-julien-greaux"> Get Ripped, Stay Big </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/the-7-day-six-pack?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/the-7-day-six-pack"> The 7-Day Six-Pack </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/the-total-body-dumbbell-fix?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/the-total-body-dumbbell-fix"> Total-Body Dumbbell Fix </a></li>  </ul></li>  <li>  <a href="https://www.bodybuilding.com/workout-plans/?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/"> Newest Plans </a>   <ul><li>  <a href="https://www.bodybuilding.com/workout-plans/?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/"> Newest Plans </a>   </li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/combat-fit-8-week-acft-training-plan?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/combat-fit-8-week-acft-training-plan"> Combat Fit </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/ready-for-anything-volume-2-full-body-kettlebell-workouts?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/ready-for-anything-volume-2-full-body-kettlebell-workouts"> Full-Body Kettlebell Workouts </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/ready-for-anything-volume-1-beginner-kettlebell-workouts?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/ready-for-anything-volume-1-beginner-kettlebell-workouts"> Beginner Kettlebell Workouts </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/your-transformation-starts-here-volume-3?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/your-transformation-starts-here-volume-3"> Start Transforming 3 </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/your-transformation-starts-here-volume-2?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/your-transformation-starts-here-volume-2"> Start Transforming 2 </a></li>  <li><a href="https://www.bodybuilding.com/workout-plans/about/your-transformation-starts-here-volume-1?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/workout-plans/about/your-transformation-starts-here-volume-1"> Start Transforming 1 </a></li>  </ul></li>  </ul></li>  <li><a href="https://bodyspace.bodybuilding.com?bbsrc=hbs" data-orig-url="https://bodyspace.bodybuilding.com"> Community </a><ul>  <li>  <a href="https://bodyspace.bodybuilding.com?bbsrc=hbs" data-orig-url="https://bodyspace.bodybuilding.com"> Bodyspace </a>   <ul><li>  <a href="https://bodyspace.bodybuilding.com?bbsrc=hbs" data-orig-url="https://bodyspace.bodybuilding.com"> Bodyspace </a>   </li>  <li><a href="https://bodyspace.bodybuilding.com/photos/?bbsrc=hbs" data-orig-url="https://bodyspace.bodybuilding.com/photos/"> Photo Galleries </a></li>  <li><a href="https://bodyspace.bodybuilding.com/fitboard/?bbsrc=hbs" data-orig-url="https://bodyspace.bodybuilding.com/fitboard/"> Fitboard </a></li>  <li><a href="https://bodyspace.bodybuilding.com/member-search?bbsrc=hbs" data-orig-url="https://bodyspace.bodybuilding.com/member-search"> Member Search </a></li>  <li><a href="https://www.bodybuilding.com/fun/fitness-apps.html?bbsrc=hbs" data-orig-url="https://www.bodybuilding.com/fun/fitness-apps.html"> Mobile Fitness Apps </a></li>  <li><a href="https://my.bodybuilding.com/community/my-bodyspace/?bbsrc=hbs" data-orig-url="https://my.bodybuilding.com/community/my-bodyspace/"> Dashboard </a></li>  <li><a href="https://bodyspace.bodybuilding.com/community/motivation?bbsrc=hbs" data-orig-url="https://bodyspace.bodybuilding.com/community/motivation"> BodySpace Motivation </a></li>  </ul></li>  <li>  <a href="https://forum.bodybuilding.com/?bbsrc=hbs" data-orig-url="https://forum.bodybuilding.com/"> Forums </a>   <ul><li>  <a href="https://forum.bodybuilding.com/?bbsrc=hbs" data-orig-url="https://forum.bodybuilding.com/"> Forums </a>   </li>  <li><a href="https://forum.bodybuilding.com/forumdisplay.php?f=1&bbsrc=hbs" data-orig-url="https://forum.bodybuilding.com/forumdisplay.php?f=1"> Supplements </a></li>  <li><a href="https://forum.bodybuilding.com/forumdisplay.php?f=8&bbsrc=hbs" data-orig-url="https://forum.bodybuilding.com/forumdisplay.php?f=8"> Workout Programs </a></li>  <li><a href="https://forum.bodybuilding.com/forumdisplay.php?f=9&bbsrc=hbs" data-orig-url="https://forum.bodybuilding.com/forumdisplay.php?f=9"> Exercises </a></li>  <li><a href="https://forum.bodybuilding.com/forumdisplay.php?f=13&bbsrc=hbs" data-orig-url="https://forum.bodybuilding.com/forumdisplay.php?f=13"> Nutrition </a></li>  <li><a href="https://forum.bodybuilding.com/forumdisplay.php?f=16&bbsrc=hbs" data-orig-url="https://forum.bodybuilding.com/forumdisplay.php?f=16"> Lose Fat </a></li>  </ul></li>  <li>  <a href="https://bodyspace.bodybuilding.com/workouts/bodyspace-landing?bbsrc=hbs" data-orig-url="https://bodyspace.bodybuilding.com/workouts/bodyspace-landing"> BodySpace Programs </a>   <ul><li>  <a href="https://bodyspace.bodybuilding.com/workouts/bodyspace-landing?bbsrc=hbs" data-orig-url="https://bodyspace.bodybuilding.com/workouts/bodyspace-landing"> BodySpace Programs </a>   </li>  <li><a href="https://bodyspace.bodybuilding.com/workouts/search-workout-programs?bbsrc=hbs" data-orig-url="https://bodyspace.bodybuilding.com/workouts/search-workout-programs"> Find a Program </a></li>  <li><a href="https://bodyspace.bodybuilding.com/workouts/search-workouts?bbsrc=hbs" data-orig-url="https://bodyspace.bodybuilding.com/workouts/search-workouts"> Find a Workout </a></li>  <li><a href="https://my.bodybuilding.com/workouts/build-workout-program?bbsrc=hbs" data-orig-url="https://my.bodybuilding.com/workouts/build-workout-program"> Build a Program </a></li>  <li><a href="https://my.bodybuilding.com/workouts/build-workout?bbsrc=hbs" data-orig-url="https://my.bodybuilding.com/workouts/build-workout"> Build a Workout </a></li>  <li><a href="https://my.bodybuilding.com/workouts/track-workout?bbsrc=hbs" data-orig-url="https://my.bodybuilding.com/workouts/track-workout"> Track a Workout </a></li>  <li><a href="https://my.bodybuilding.com/workouts/calendar?bbsrc=hbs" data-orig-url="https://my.bodybuilding.com/workouts/calendar"> BodyCalendar </a></li>  </ul></li>  <li>  <a href="https://www.instagram.com/bodybuildingcom?bbsrc=hbs" data-orig-url="https://www.instagram.com/bodybuildingcom"> Get Social </a>   <ul><li>  <a href="https://www.instagram.com/bodybuildingcom?bbsrc=hbs" data-orig-url="https://www.instagram.com/bodybuildingcom"> Get Social </a>   </li>  <li><a href="https://www.instagram.com/bodybuildingcom/?bbsrc=hbs" data-orig-url="https://www.instagram.com/bodybuildingcom/"> Instagram </a></li>  <li><a href="https://www.facebook.com/Bodybuildingcom/?bbsrc=hbs" data-orig-url="https://www.facebook.com/Bodybuildingcom/"> Facebook </a></li>  <li><a href="https://www.youtube.com/bodybuildingcom?bbsrc=hbs" data-orig-url="https://www.youtube.com/bodybuildingcom"> YouTube </a></li>  <li><a href="https://www.twitter.com/Bodybuildingcom?bbsrc=hbs" data-orig-url="https://www.twitter.com/Bodybuildingcom"> Twitter </a></li>  <li><a href="https://www.pinterest.com/Bodybuildingcom/?bbsrc=hbs" data-orig-url="https://www.pinterest.com/Bodybuildingcom/"> Pinterest </a></li>  <li><a href="https://www.linkedin.com/company/bodybuilding-com/?bbsrc=hbs" data-orig-url="https://www.linkedin.com/company/bodybuilding-com/"> LinkedIn </a></li>  </ul></li>  </ul></li>  </ul><ul><li><a href="https://bodybuilding.kustomer.help">Help Center</a></li><li><a href="tel:1-866-236-8417">Customer Support 1-866-236-8417 </a></li><li><div class="BbWrapperCountrySelectLink"></div></li><li><a href="https://www.bodybuilding.com/store/orderstatus.htm">Order Status</a></li></ul></nav></div></div> <!--end[headerNavMarkup]-->
+            <!--[headerLogoMarkup]--><div class="BbHeaderLogo  "><a id="BbWrapperLogo" href="https://www.bodybuilding.com" class="Logo" data-bb-label="home">  <img src="https://artifacts.bbcomcdn.com/@bbcom/bb-wrapper/41.24.5/images/logo-white.svg" class="Logo-img" alt="Bodybuilding.com Logo">  </a></div><!--end[headerLogoMarkup]-->
+            <!--[headerUserMenusMarkup]--><div class="BbHeaderQuickLinks"><div id="BbWrapperSalesAndSpecials"></div><div id="BbWrapperTop50Products"></div><div id="BbWrapperNewAndTrending"></div><div class="BbHeaderQuickLinks-divider"></div><div id="BbWrapperCountrySelect"></div><div id="BbWrapperProfile"><a class="QuickLink QuickLink--profile QuickLink--row QuickLink--gteMobile" href="https://www.bodybuilding.com/combined-signin"><img class="QuickLink-icon QuickLink-icon--gray" src="https://artifacts.bbcomcdn.com/@bbcom/bb-wrapper/41.24.5/images/profile-link--blue.svg"> <span class="QuickLink-label QuickLink-label--gteDesktop QuickLink-label--gray">Account</span></a></div><div id="BbWrapperMiniCart"><a class="MiniCart" href="https://shop.bodybuilding.com/cart" rel="cart nofollow"><img class="MiniCart-icon" src="https://artifacts.bbcomcdn.com/@bbcom/bb-wrapper/41.24.5/images/mini-cart--blue.svg"> <span class="MiniCart-label">Cart</span></a></div></div><!--end[headerUserMenusMarkup]-->
+            <!--[headerSearchMarkup]--><div class="BbHeaderSearch"><form id="BbWrapperTypeahead" action="https://shop.bodybuilding.com/search" autocomplete="off" class="TypeaheadForm" name="siteSearch" role="search"><input type="hidden" name="selected_tab" value="Products"> <input autocomplete="off" id="BbWrapperTypeaheadInput" name="q" placeholder="Search product, brands, articles" class="TypeaheadForm-input" type="search">  <button type="submit" class="TypeaheadForm-submitBtn bb-btn--plain" tabIndex="-1"><img class="TypeaheadForm-submitBtnIcon" src="https://artifacts.bbcomcdn.com/@bbcom/bb-wrapper/41.24.5/images/search--white.svg" alt="Submit Icon"></button></form><script data-name="bb-wrapper:typeahead-empty-input-check">!function(){var e=document.getElementById("BbWrapperTypeahead"),t=document.getElementById("BbWrapperTypeaheadInput");e&&t&&e.addEventListener("submit",function(e){t.value||e.preventDefault()})}()</script></div><!--end[headerSearchMarkup]-->
+        </header>
+    
+
+
+                                                                          
+                    
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "Spicy Beans and Rice",
+  "url": "https://www.bodybuilding.com/recipes/spicy-beans-and-rice",
+  "author": {
+    "@type": "Person",
+    "name": "Shannon Clark"
+  },
+  "image": [
+    "https://www.bodybuilding.com/images/2021/october/spicy-beans-and-rice-header-960x540.jpg",
+            "https://www.bodybuilding.com/images/2021/october/spicy-beans-and-rice-square-600x600.jpg"
+      ],
+  "datePublished": "2021-10-11 00:00:00.0",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bodybuilding.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.bodybuilding.com/images/icons/bb-logo-clean.png",
+      "width": 666,
+      "height": 422
+    }
+  },
+  "description": "This one-dish meal has it all\u2014flavorful wild rice, protein-rich beans, heart-healthy vegetables, and just the perfect amount of spice to make you come back for more every time. This dish is also quick and easy to prepare, making it ideal for those who just don\'t have time to dedicate hours to preparing lunch or dinner.",
+  "prepTime": "PT15M",
+  "cookTime": "PT60M",
+  "totalTime": "PT75M",
+  "recipeYield": "4 servings",
+  "recipeCuisine": "American",
+  "keywords": "Side Dishes, Vegetarian, High-Protein",
+  "nutrition": {
+    "@type": "NutritionInformation",
+            "calories": "350 calories",
+                "carbohydrateContent": "51 g",
+                "proteinContent": "14 g",
+                "fatContent": "10 g",
+        "servingSize": "4 servings"
+  },
+  "recipeIngredient": ["1 tbsp olive oil", "2 clove garlic, minced", "1 whole red onion, diced", "1 stalk, medium (7-1\/2\" - 8\" long) celery, peeled and chopped", "1 cup mushrooms, sliced", "1 15 oz. can red kidney beans", "1 tbsp hot sauce", "1 tsp paprika", "2.5 cup low-sodium vegetable broth", "1 tsp vegetable bouillon", "1 cup wild rice, uncooked", "1 tbsp grass-fed butter", "1 tbsp green onion, chopped", "1  salt and pepper to taste"],
+  "recipeCategory": "Side Dishes,Vegetarian,High-Protein",
+  "recipeInstructions": [
+          {
+        "@type": "HowToStep",
+        "text": "Dice the celery, red onion, and mushrooms."
+      },          {
+        "@type": "HowToStep",
+        "text": "Heat the butter in a skillet over medium heat. Add all of the vegetables and stir-fry for 3-4 minutes or until vegetables are tender. Set aside."
+      },          {
+        "@type": "HowToStep",
+        "text": "Bring broth to a boil in a large pot. Stir in wild rice, hot sauce, paprika, and bouillon and cook 45-60 minutes or until rice is tender."
+      },          {
+        "@type": "HowToStep",
+        "text": "Add olive oil and garlic to a skillet and quickly saut\u00E9. Remember that garlic burns quickly, so it is important to keep a close eye on it. Add in the cooked rice, beans, and cooked vegetables."
+      },          {
+        "@type": "HowToStep",
+        "text": "Stir-fry for 3-5 minutes to crisp up the rice and serve. Garnish with chopped green onion."
+      },          {
+        "@type": "HowToStep",
+        "text": "Optional: Add any other vegetables you prefer."
+      }      ]
+}
+</script>
+
+<div id="js-bbcom-app" class="BBCMS__wrapper BBCMS__wrapper--recipe" data-bb-zone1="page-content">
+
+    <div class="BBCMS__container__header" data-bb-zone2="heading">
+                <div class="ad-container ad-container--horizontal ad-container--top" data-bb-zone2="ad">
+          <div align="center" data-freestar-ad="__320x100 __1170x250" id="bodybuilding_content_leaderboard_1">
+            <script data-cfasync="false" type="text/javascript">
+              freestar.config.enabled_slots.push({ placementName: "bodybuilding_content_leaderboard_1", slotId: "bodybuilding_content_leaderboard_1" });
+            </script>
+          </div>
+        </div>
+
+                <div class="bb-recipe-headline">
+            <div class="bb-recipe-headline_meta">
+                <h1 class="bb-recipe-headline-title">Spicy Beans and Rice</h1>
+
+                                <div class="bb-recipe-article__meta">
+                    <span>Nutrition / <span class="bb-recipe-article__meta-here">Recipes</span></span>
+                                        <span class="bb-recipe-article__meta-date">
+                        <time datetime="2021-10-11"></time>October 11, 2021</time>
+                    </span>
+                                    </div>
+            </div>
+            <bb-share-buttons type="jumbo-counter" class="bb-recipe__share-buttons"></bb-share-buttons>
+        </div>
+    </div>
+
+    <div>
+        <div class="BBCMS__container">
+            <div id="content-area" class="BBCMS__container__main">
+            <div class="BBCMS__container__left">
+                <div class="BBCMS__content">
+                    <main role="main" id="main">
+
+                        <div class="bb-recipe" data-bb-zone2="body">
+                                                            <div class="bb-recipe-header-image">
+                                    <img src="https://www.bodybuilding.com/images/2021/october/spicy-beans-and-rice-header-960x540.jpg" alt="Spicy Beans and Rice">
+                                </div>
+                            
+                            <div class="bb-recipe-header">
+                                <a href="/author/shannon-clark" class="bb-recipe-author-image">
+                                    <img src="https://www.bodybuilding.com/images/authors/shannon-clark-writer-box_200x114.jpg" alt="Shannon Clark and Danielle Christine">                                </a>
+                                <div class="bb-recipe-author">
+                                    <span class="bb-recipe-author-name">Shannon Clark and Danielle Christine</span>                                                                    </div>
+                                <div class="bb-recipe-author-association-logo">
+                                                                </div>
+                                    <a class="bb-recipe-save-article"><span class="bb-recipe-header-label">Save Article</span></a>
+            <a class="bb-recipe-print-pdf" href="https://www.bodybuilding.com/documents/2021/spicy-beans-and-rice.pdf"><span class="bb-recipe-header-label">Print PDF</span></a>
+                                </div>
+
+                            <div class="bb-recipe__meta">
+                                <div class="bb-recipe__meta-nutrient">
+                                    <span class="bb-recipe__meta-nutrient-value">350</span>
+                                    <span class="bb-recipe__meta-nutrient-label">Calories</span>
+                                </div>
+                                <div class="bb-recipe__meta-nutrient">
+                                    <span class="bb-recipe__meta-nutrient-value">51 g</span>
+                                    <span class="bb-recipe__meta-nutrient-label">Carbs</span>
+                                </div>
+                                <div class="bb-recipe__meta-nutrient">
+                                    <span class="bb-recipe__meta-nutrient-value">14 g</span>
+                                    <span class="bb-recipe__meta-nutrient-label">Protein</span>
+                                </div>
+                                <div class="bb-recipe__meta-nutrient">
+                                    <span class="bb-recipe__meta-nutrient-value">10 g</span>
+                                    <span class="bb-recipe__meta-nutrient-label">Fat</span>
+                                </div>
+                                <div class="bb-recipe__meta-time">
+                                    <div class="bb-recipe__meta-top-label">Total Time</div>
+                                    <div class="bb-recipe__meta-bottom-value">
+                                        <div class="bb-recipe__meta-icon bb-recipe__meta-icon--time"></div>
+                                        <div class="bb-recipe__meta-value-text">
+                                            <time datetime="PT75M">75 min.</time>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bb-recipe__meta-servings">
+                                    <div class="bb-recipe__meta-top-label">Servings</div>
+                                    <div class="bb-recipe__meta-bottom-value">
+                                        <div class="bb-recipe__meta-icon bb-recipe__meta-icon--servings"></div>
+                                        <div class="bb-recipe__meta-value-text">4 servings</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p class="BBCMS__content--article-description">
+                                <strong>This one-dish meal has it all&mdash;flavorful wild rice, protein-rich beans, heart-healthy vegetables, and just the perfect amount of spice to make you come back for more every time. This dish is also quick and easy to prepare, making it ideal for those who just don't have time to dedicate hours to preparing lunch or dinner.</strong>
+                            </p>
+
+                            <div class="bb-recipe__recipe">
+                                <div class="bb-recipe-column">
+                                                                    <h3 class="bb-recipe__heading">
+                                                                                    Ingredients
+                                                                            </h3>
+                                    <ul class="bb-recipe__ingredient-list">
+                                                                                    <li class="bb-recipe__ingredient-list-item">
+                                                1
+                                                                                                    tbsp
+                                                
+                                                
+                                                
+                                                    olive oil
+                                                
+                                                                                            </li>
+                                                                                    <li class="bb-recipe__ingredient-list-item">
+                                                2
+                                                                                                    clove
+                                                
+                                                
+                                                
+                                                    garlic, minced
+                                                
+                                                                                            </li>
+                                                                                    <li class="bb-recipe__ingredient-list-item">
+                                                1
+                                                
+                                                
+                                                
+                                                    red onion, diced
+                                                
+                                                                                            </li>
+                                                                                    <li class="bb-recipe__ingredient-list-item">
+                                                1
+                                                                                                    stalk, medium (7-1/2" - 8" long)
+                                                
+                                                
+                                                
+                                                    celery, peeled and chopped
+                                                
+                                                                                            </li>
+                                                                                    <li class="bb-recipe__ingredient-list-item">
+                                                1
+                                                                                                    cup
+                                                
+                                                
+                                                
+                                                    mushrooms, sliced
+                                                
+                                                                                            </li>
+                                                                                    <li class="bb-recipe__ingredient-list-item">
+                                                1
+                                                                                                    15 oz. can
+                                                
+                                                
+                                                
+                                                    red kidney beans
+                                                
+                                                                                            </li>
+                                                                                    <li class="bb-recipe__ingredient-list-item">
+                                                1
+                                                                                                    tbsp
+                                                
+                                                
+                                                
+                                                    hot sauce
+                                                
+                                                                                            </li>
+                                                                                    <li class="bb-recipe__ingredient-list-item">
+                                                1
+                                                                                                    tsp
+                                                
+                                                
+                                                
+                                                    paprika
+                                                
+                                                                                            </li>
+                                                                                    <li class="bb-recipe__ingredient-list-item">
+                                                2½
+                                                                                                    cup
+                                                
+                                                
+                                                
+                                                    low-sodium vegetable broth
+                                                
+                                                                                            </li>
+                                                                                    <li class="bb-recipe__ingredient-list-item">
+                                                1
+                                                                                                    tsp
+                                                
+                                                
+                                                
+                                                    vegetable bouillon
+                                                
+                                                                                            </li>
+                                                                                    <li class="bb-recipe__ingredient-list-item">
+                                                1
+                                                                                                    cup
+                                                
+                                                
+                                                
+                                                    wild rice, uncooked
+                                                
+                                                                                            </li>
+                                                                                    <li class="bb-recipe__ingredient-list-item">
+                                                1
+                                                                                                    tbsp
+                                                
+                                                
+                                                
+                                                    grass-fed butter
+                                                
+                                                                                            </li>
+                                                                                    <li class="bb-recipe__ingredient-list-item">
+                                                1
+                                                                                                    tbsp
+                                                
+                                                
+                                                
+                                                    green onion, chopped
+                                                
+                                                                                            </li>
+                                                                                    <li class="bb-recipe__ingredient-list-item">
+                                                1
+                                                                                                    
+                                                
+                                                
+                                                
+                                                    salt and pepper to taste
+                                                
+                                                                                            </li>
+                                                                            </ul>
+                                
+                                <div class="bb-recipe__desktop-tags">
+                                    <h3 class="bb-recipe__heading">Recipe Tags</h3>
+                                        <div class="bb-recipe__topics noskimwords noskimlinks noskim">
+                    <div class="bb-recipe__topic"><a href="https://search.bodybuilding.com/slp/full?context=all&query=side-dishes">Side Dishes</a></div>
+                    <div class="bb-recipe__topic"><a href="https://search.bodybuilding.com/slp/full?context=all&query=vegetarian-1">Vegetarian</a></div>
+                    <div class="bb-recipe__topic"><a href="https://search.bodybuilding.com/slp/full?context=all&query=high-protein">High-Protein</a></div>
+            </div>
+                                </div>
+                            </div>
+
+                            <div class="bb-recipe-column bb-recipe__directions">
+                                <h3 class="bb-recipe__heading">Directions</h3>
+                                <div class="bb-recipe__directions-timing">
+                                    <div class="bb-recipe__directions-timing--prep"><span class="bb-recipe__timing-label">Prep:</span> <time datetime="PT15M">15 min.</time></div>
+                                    <div class="bb-recipe__directions-timing--cook"><span class="bb-recipe__timing-label">Cook:</span> <time datetime="PT60M">60 min.</time></div>
+                                    <div class="bb-recipe__directions-timing--totes"><span class="bb-recipe__timing-label">Total:</span> <time datetime="PT75M">75 min.</time></div>
+                                </div>
+                                <ol class="bb-recipe__directions-list">
+                                                                    <li class="bb-recipe__directions-list-item">Dice the celery, red onion, and mushrooms.</li>
+                                                                    <li class="bb-recipe__directions-list-item">Heat the butter in a skillet over medium heat. Add all of the vegetables and stir-fry for 3-4 minutes or until vegetables are tender. Set aside.</li>
+                                                                    <li class="bb-recipe__directions-list-item">Bring broth to a boil in a large pot. Stir in wild rice, hot sauce, paprika, and bouillon and cook 45-60 minutes or until rice is tender.</li>
+                                                                    <li class="bb-recipe__directions-list-item">Add olive oil and garlic to a skillet and quickly saut&eacute;. Remember that garlic burns quickly, so it is important to keep a close eye on it. Add in the cooked rice, beans, and cooked vegetables.</li>
+                                                                    <li class="bb-recipe__directions-list-item">Stir-fry for 3-5 minutes to crisp up the rice and serve. Garnish with chopped green onion.</li>
+                                                                    <li class="bb-recipe__directions-list-item">Optional: Add any other vegetables you prefer.</li>
+                                                                </ol>
+                            </div>
+
+                            <div class="bb-recipe__mobile-tags">
+                                <h3 class="bb-recipe__heading">Recipe Tags</h3>
+                                    <div class="bb-recipe__topics noskimwords noskimlinks noskim">
+                    <div class="bb-recipe__topic"><a href="https://search.bodybuilding.com/slp/full?context=all&query=side-dishes">Side Dishes</a></div>
+                    <div class="bb-recipe__topic"><a href="https://search.bodybuilding.com/slp/full?context=all&query=vegetarian-1">Vegetarian</a></div>
+                    <div class="bb-recipe__topic"><a href="https://search.bodybuilding.com/slp/full?context=all&query=high-protein">High-Protein</a></div>
+            </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+                <aside id="right-sidebar" class="BBCMS__rsb" data-bb-zone2="right-rail">
+            <div class="ad-container ad-container--rsb" data-bb-zone2="ad">
+              <div align="center" data-freestar-ad="__300x600" id="bodybuilding_content_sidebar_2">
+                <script data-cfasync="false" type="text/javascript">
+                  freestar.config.enabled_slots.push({ placementName: "bodybuilding_content_sidebar_2", slotId: "bodybuilding_content_sidebar_2" });
+                </script>
+              </div>
+            </div>
+        </aside>
+
+        </div>
+
+        <div class="BBCMS__horizontal-ads BBCMS__horizontal-ads--above-comments">
+            <div class="ad-container ad-container--horizontal ad-container--bottom" data-bb-zone2="ad">
+              <div align="center" data-freestar-ad="__320x100 __1170x250" id="bodybuilding_content_leaderboard_2">
+                <script data-cfasync="false" type="text/javascript">
+                  freestar.config.enabled_slots.push({ placementName: "bodybuilding_content_leaderboard_2", slotId: "bodybuilding_content_leaderboard_2" });
+                </script>
+              </div>
+            </div>
+        </div>
+
+        <div id="footer-content-area" class="BBCMS__container__footer">
+            <div class="BBCMS__article--footer"></div>
+            <aside id="right-sidebar-2" class="BBCMS__rsb--2"></aside>
+        </div>
+
+        <div class="BBCMS__horizontal-ads BBCMS__horizontal-ads--bottom"></div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--[footerMarkup]--><!-- Generated on Mon Oct 11 12:34:38 MDT 2021 --><footer class="BbFooter" data-bb-zone1="footer">  <div class="BbFooterSection1 BbBox"><div class="BbFooterSection1-col BbFooterSection1-col--help"><div class="BbFooterHeading">Need Help?</div><ul class="BbFooterList"><li class="BbFooterList-item"><a class="BbFooterLink" href="https://bodybuilding.kustomer.help" target="_self">Help Center</a></li><li class="BbFooterList-item"><a class="BbFooterLink" href="mailto:support@bodybuilding.com" target="_self" data-bb-action="email" data-bb-label="customer service">Email Support</a></li><li class="BbFooterList-item"><span id="BbWrapperLiveChatPlaceholder"><a href="#" class="BbFooterLink">Live Chat</a> </span><span id="BbWrapperLiveChat"></span></li><li class="BbFooterList-item bb-hide" bb-store-include="vitalize-bodybuilding,bodybuilding-dev"><a class="BbFooterLink" href="https://shop.bodybuilding.com/products/bodybuilding-store-gift-card?variant=39381925101727&skuid=GIFT_CARD_25" target="_self">Gift Certificates</a></li><li class="BbFooterList-item"><a href="https://www.bodybuilding.com/help/feedback?type=feedback" class="BbFooterLink">Send Us Feedback</a></li></ul></div><div class="BbFooterSection1-col BbFooterSection1-col--ordersShipping"><div class="BbFooterHeading">Orders &amp; Shipping</div><ul class="BbFooterList"><li class="BbFooterList-item"><a class="BbFooterLink" href="https://www.bodybuilding.com/store/orderstatus.htm" target="_self">Order Status</a></li><li class="BbFooterList-item"><a class="BbFooterLink" href="https://bodybuilding.kustomer.help/en_us/product-returns-B1B2ZSDtw" target="_self">Returns/Exchanges</a></li><li class="BbFooterList-item"><a class="BbFooterLink" href="https://bodybuilding.kustomer.help/en_us/categories/domestic-shipping-SyywsRLFP" target="_self">Shipping Support</a></li>  <li class="BbFooterList-item BbFooterLink"><div class="BbWrapperCountrySelectLink"></div></li>  </ul></div><div class="BbFooterSection1-col"><div class="BbFooterHeading">Connect With Us</div><ul class="BbFooterImageList"><li class="BbFooterImageList-item"><a class="BbFooterLink" href="https://www.facebook.com/Bodybuildingcom">  <div class="Icon-facebook"><img width="34" height="34" src="https://artifacts.bbcomcdn.com/@bbcom/bb-wrapper/41.24.13/images/facebook.svg"></div>  </a></li><li class="BbFooterImageList-item"><a class="BbFooterLink" href="https://www.youtube.com/user/bodybuildingcomvideo">  <div class="Icon-youtube"><img width="34" height="34" src="https://artifacts.bbcomcdn.com/@bbcom/bb-wrapper/41.24.13/images/youtube.svg"></div>  </a></li><li class="BbFooterImageList-item"><a class="BbFooterLink" href="https://twitter.com/bodybuildingcom">  <div class="Icon-twitter"><img width="34" height="34" src="https://artifacts.bbcomcdn.com/@bbcom/bb-wrapper/41.24.13/images/twitter.svg"></div>  </a></li><li class="BbFooterImageList-item"><a class="BbFooterLink" href="https://www.pinterest.com/Bodybuildingcom/">  <div class="Icon-pinterest"><img width="34" height="34" src="https://artifacts.bbcomcdn.com/@bbcom/bb-wrapper/41.24.13/images/pinterest.svg"></div>  </a></li><li class="BbFooterImageList-item BbFooterImageList-item--instagramLink"><a class="BbFooterLink" href="https://www.instagram.com/bodybuildingcom/">  <div class="Icon-instagram"><img width="34" height="34" src="https://artifacts.bbcomcdn.com/@bbcom/bb-wrapper/41.24.13/images/instagram.svg"></div>  </a></li></ul></div>  <div class="BbFooterSection1-col BbFooterSection1-col--newsletter"><div class="BbFooterHeading">Join Our Newsletter</div><div class="BbFooter-bodyText BbFooter-newsletterText">Be the first to receive exciting news, features, and special offers from Bodybuilding.com!</div><div class="BbFooter-newsletterForm"><div id="BbWrapperNewsletterSignup"><div class="NewsletterSignup"><div class="NewsletterSignup-form"><input type="email" id="BbWrapperNewsletterSignupInput" class="bb-input NewsletterForm-input"> <button class="bb-flat-btn NewsletterForm-btn">Send</button></div></div></div></div></div>  </div>  <div class="BbFooterSection2"><ul class="BbFooterPaymentsList">   <li class="BbFooterPaymentsList-item Icon-visa"></li>  <li class="BbFooterPaymentsList-item Icon-amex"></li>  <li class="BbFooterPaymentsList-item Icon-master-card"></li>  <li class="BbFooterPaymentsList-item Icon-discover"></li>  <li class="BbFooterPaymentsList-item Icon-jcb"></li>  <li class="BbFooterPaymentsList-item Icon-paypal"></li>  <li class="BbFooterPaymentsList-item Icon-amazon-pay"></li>   </ul><div class="BbFooterSiteLinksGroup"><ul class="BbFooterSiteLinksList"><li class="BbFooterSiteLinksList-item"><a class="BbFooterSiteLinksList-link" href="https://www.bodybuilding.com/fun/bbcomcareer.htm" data-bb-label="careers">Careers</a></li><li class="BbFooterSiteLinksList-item"><a class="BbFooterSiteLinksList-link" href="https://bodybuilding.kustomer.help/terms-of-use-Byaiex75D">Terms of Use</a></li><li class="BbFooterSiteLinksList-item"><a class="BbFooterSiteLinksList-link" href="https://bodybuilding.kustomer.help/en_us/privacy-policy-rkOJgx7cP">Privacy Policy</a></li><li class="BbFooterSiteLinksList-item BbFooterSiteLinksList-item--first-last BbFooterSiteLinksList-item--last"><a class="BbFooterSiteLinksList-link" href="https://bodybuilding.kustomer.help/en_us/california-supply-chain-act-SksUEy9wd">CA Supply Chain Act</a></li></ul><ul class="BbFooterSiteLinksList"><li class="BbFooterSiteLinksList-item"><a class="BbFooterSiteLinksList-link" href="https://bodybuilding.kustomer.help/en_us/web-accessibility-statement-r1oaMbXqP">Accessibility Statement</a></li><li class="BbFooterSiteLinksList-item"><a class="BbFooterSiteLinksList-link" href="https://www.bodybuilding.com/fun/about.html">About Us</a></li><li class="BbFooterSiteLinksList-item"><a class="BbFooterSiteLinksList-link" href="https://www.bodybuilding.com/site-map/">Site Map</a></li><li class="BbFooterSiteLinksList-item BbFooterSiteLinksList-item--first-last BbFooterSiteLinksList-item--last"><a class="BbFooterSiteLinksList-link" href="https://www.bodybuilding.com/store/affiliate.htm">Affiliates</a></li></ul><ul class="BbFooterSiteLinksList">  <li id="BbWrapperConsentTrigger" style="display:none" class="BbFooterSiteLinksList-item BbFooterSiteLinksList-link"></li>  <li class="BbFooterSiteLinksList-item"><a class="BbFooterSiteLinksList-link" href="https://www.bodybuilding.com/fun/advertise-with-us.html" data-bb-category="affiliate" data-bb-action="inquiry" data-bb-label="Advertise With Us">Advertise with Us</a></li><li class="BbFooterSiteLinksList-item BbFooterSiteLinksList-item--last"><a class="BbFooterSiteLinksList-link" href="https://bodybuilding.kustomer.help">Help</a></li></ul></div><div class="BbFooterCopyright BbFooter-bodyText"> © 2022 Bodybuilding.com. All rights reserved. Bodybuilding.com℠ and BodySpace® are trademarks of Bodybuilding.com. </div><div class="BbFooterDisclaimer BbFooter-bodyText">Always consult with a qualified healthcare professional prior to beginning any diet or exercise program or taking any dietary supplement. The content on our website is for informational and educational purposes only and is not intended as medical advice or to replace a relationship with a qualified healthcare professional.</div><div class="BbFooterAddress BbFooter-bodyText">  <address class="bb-address">Bodybuilding.com<br class="BbFooterAddress-br"><span class="BbFooterAddress-mailing">5777 N Meeker Ave,&nbsp;Boise, ID&nbsp;83713-1520&nbsp;USA </span>  <br class="BbFooterAddress-br"><span class="BbFooterAddress-phone"><a class="BbFooterAddress-phoneLink" href="tel:1-866-236-8417"> 1-866-236-8417 </a></span>  </address></div></div></footer>  <script data-name="bb-wrapper:certona">window.addEventListener&&window.certona&&window.addEventListener("load",function(){window.certona.devicetype||(window.certona.devicetype=992<=window.screen.width?"desktop":768<=window.screen.width?"tablet":"mobile"),window.certona.countrycode||(window.certona.countrycode=(document.documentElement.lang.split("-")[1]||"US").substr(0,2)),__bbLoadScript("https://edge1.certona.net/cd/384a8c0b/bodybuilding.com/scripts/resonance.js")},!1)</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "https://www.bodybuilding.com",
+  "name": "Bodybuilding.com",
+  "logo": "https://www.bodybuilding.com/images/icons/bbcom-b-logo-648.png",
+  "sameAs": [
+    "https://www.facebook.com/Bodybuildingcom",
+    "https://www.youtube.com/user/bodybuildingcomvideo",
+    "https://www.pinterest.com/Bodybuildingcom/",
+    "https://www.instagram.com/bodybuildingcom/"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "5777 N. Meeker Ave.",
+    "addressLocality": "Boise",
+    "addressRegion": "ID",
+    "postalCode": "83713",
+    "addressCountry": "USA"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "(+)1-866-236-8417",
+      "contactType": "customer service"
+    }
+  ]
+}</script><!--end[footerMarkup]-->
+
+
+
+
+
+    <link
+        data-name="bb-wrapper:styles-non-critical"
+        rel="stylesheet"
+        type="text/css"
+        href="https://artifacts.bbcomcdn.com/@bbcom/bb-wrapper/41.24.5/styles/bb-wrapper-non-critical.min.css"
+        media="all" />
+
+
+<style>figure{margin:0}</style>
+
+
+
+
+
+
+<!--[javascriptInitMarkup]--><!-- Generated on Mon Oct 11 12:34:38 MDT 2021 --> <script data-name="bb-wrapper:navigation-data">window.__BB_NAVIGATION_OBJECT__= {"children":[{"bbcom":true,"children":[{"bbcom":true,"children":[{"bbcom":true,"name":"Whey Protein","store":false,"hashId":"nav1001","url":"https://shop.bodybuilding.com/collections/whey-protein-blend"},{"bbcom":true,"name":"Whey Protein Isolate","store":false,"hashId":"nav1002","url":"https://shop.bodybuilding.com/collections/whey-protein-isolate"},{"bbcom":true,"name":"Weight Gainers","store":false,"hashId":"nav1003","url":"https://shop.bodybuilding.com/collections/mass-weight-gainer"},{"bbcom":true,"name":"Casein Protein","store":false,"hashId":"nav1004","url":"https://shop.bodybuilding.com/collections/casein-protein"},{"bbcom":true,"name":"Egg Protein","store":false,"hashId":"nav1006","url":"https://shop.bodybuilding.com/collections/egg-protein"},{"bbcom":true,"name":"Plant Protein","store":false,"hashId":"nav1007","url":"https://shop.bodybuilding.com/collections/plant-vegan-soy-protein"},{"bbcom":true,"name":"Meal Replacements","store":false,"hashId":"nav1009","url":"https://shop.bodybuilding.com/collections/meal-replacement"},{"bbcom":true,"name":"Ready To Drink Shakes","store":false,"hashId":"nav1010","url":"https://shop.bodybuilding.com/collections/ready-to-drink-protein"},{"bbcom":true,"name":"Protein Bars","store":false,"hashId":"nav1011","url":"https://shop.bodybuilding.com/collections/protein-bars"},{"bbcom":true,"name":"Protein Pantry","store":false,"hashId":"v88wxwr","url":"https://shop.bodybuilding.com/collections/convenience-food-and-drink?sort_by=relevency&page_number=1"}],"name":"Protein","linkText":"Shop All Protein","store":false,"featuredArticles":{"children":[{"imageUrl":"https://www.bodybuilding.com/images/merch/550boxes/01-01-signature-proteins-flyout.jpg","name":"Signature Series","hashId":"74w4dvj","breadcrumbs":[],"url":"https://shop.bodybuilding.com/collections/bodybuilding-signature-series"},{"imageUrl":"https://www.bodybuilding.com/images/lpimages/2019/aug/navigation-updates-protein-category-product-global.jpg","name":"Pro JYM Protein Powder","hashId":"ayrbdxw","breadcrumbs":[],"url":"https://shop.bodybuilding.com/products/jym-supplement-science-pro-jym-protein"},{"imageUrl":"https://www.bodybuilding.com/images/merch/550boxes/01-01-exclusive-proteins-flyout.jpg","name":"Only on Bodybuilding.com","hashId":"n6a9w7k","breadcrumbs":[],"url":"https://shop.bodybuilding.com/collections/bodybuilding-exclusives"},{"imageUrl":"https://www.bodybuilding.com/images/2021/january/best-proteins-of-2021-header-830x467.jpg","name":"Best Protein Powders of 2021","hashId":"g5bj9xq","breadcrumbs":[],"url":"https://www.bodybuilding.com/content/the-best-protein-powders-of-2021.html"}],"name":"Protein Features"},"hashId":"nav1079","url":"https://shop.bodybuilding.com/collections/protein"},{"bbcom":true,"children":[{"bbcom":true,"name":"Pre-Workout","store":false,"hashId":"nav1013","url":"https://shop.bodybuilding.com/collections/pre-workout"},{"bbcom":true,"name":"Stim-Free Pre","store":false,"hashId":"3685qzm","url":"https://shop.bodybuilding.com/search?context=all&q=stim+free+pre-workout&selected_tab=Products"},{"bbcom":true,"name":"Intra-Workout","store":false,"hashId":"nav1014","url":"https://shop.bodybuilding.com/collections/intra-workout"},{"bbcom":true,"name":"Post-Workout Recovery","store":false,"hashId":"nav1015","url":"https://shop.bodybuilding.com/collections/post-workout"},{"bbcom":true,"name":"Creatine","store":false,"hashId":"nav1021","url":"https://shop.bodybuilding.com/collections/creatine"},{"bbcom":true,"name":"BCAA","store":false,"hashId":"nav1019","url":"https://shop.bodybuilding.com/collections/bcaa-amino-acids"},{"bbcom":true,"name":"Testosterone Boosters","store":false,"hashId":"nav1017","url":"https://shop.bodybuilding.com/collections/testosterone-boosters"},{"bbcom":true,"name":"Energy & Endurance","store":false,"hashId":"nav1016","url":"https://shop.bodybuilding.com/collections/energy-endurance"},{"bbcom":true,"name":"Energy Drinks","store":false,"hashId":"nav1023","url":"https://shop.bodybuilding.com/collections/energy-drinks"},{"bbcom":true,"name":"Gaming & Focus","store":false,"hashId":"nav1024","url":"https://shop.bodybuilding.com/collections/mental-focus-nootropics"}],"name":"Performance","linkText":"Shop All Performance","store":false,"featuredArticles":{"children":[{"imageUrl":"https://www.bodybuilding.com/images/merch/550boxes/01-01-stim-free-pre-workout-flyout.jpg","name":"Non-Stim Pre-Workout","hashId":"rxz5a3m","url":"https://shop.bodybuilding.com/search?context=all&q=stim+free+pre-workout&selected_tab=Products"},{"imageUrl":"https://www.bodybuilding.com/images/2021/june/Kaged_HydraCharge%20Amped_Fly%20Out_June%2017.png","name":"NEW! Kaged Muscle Hydra Charge Amped","hashId":"8z9ak28","url":"https://shop.bodybuilding.com/collections/new-arrivals/products/kaged-muscle-hydra-charge-amped"},{"imageUrl":"https://www.bodybuilding.com/images/2021/april/the-right-supplements-for-every-workout-header-v2-830x467.jpg","name":"The Right Supplements for Every Type of Workout","hashId":"adwmxn7","url":"https://www.bodybuilding.com/content/the-right-supplements-for-every-type-of-workout.html"},{"imageUrl":"https://www.bodybuilding.com/images/2021/april/its-time-for-bodybuilders-to-get-serious-about-endurance-header-830x467.jpg","name":"It's Time for Bodybuilders to Get Serious About Endurance","hashId":"prw2772","url":"https://www.bodybuilding.com/content/its-time-for-bodybuilders-to-get-serious-about-endurance.html"}],"name":"Performance Features"},"hashId":"nav1080","url":"https://shop.bodybuilding.com/collections/performance-supplements"},{"bbcom":true,"children":[{"bbcom":true,"name":"Fat Burners","store":false,"hashId":"nav1026","url":"https://shop.bodybuilding.com/collections/fat-burners"},{"bbcom":true,"name":"Appetite Control","store":false,"hashId":"nav1027","url":"https://shop.bodybuilding.com/collections/appetite-control"},{"bbcom":true,"name":"CLA","store":false,"hashId":"nav1028","url":"https://shop.bodybuilding.com/collections/cla"},{"bbcom":true,"name":"L-Carnitine","store":false,"hashId":"nav1029","url":"https://shop.bodybuilding.com/collections/l-carnitine"},{"bbcom":true,"name":"Keto","store":false,"hashId":"nav1030","url":"https://shop.bodybuilding.com/collections/keto"},{"bbcom":true,"name":"Low Carb Protein","store":false,"hashId":"nav1031","url":"https://shop.bodybuilding.com/collections/low-carb-food"},{"bbcom":true,"name":"Mass Gainers","store":false,"hashId":"nav1032","url":"https://shop.bodybuilding.com/collections/mass-weight-gainer"},{"bbcom":true,"name":"Convenience Food & Drink","store":false,"hashId":"nav1033","url":"https://shop.bodybuilding.com/collections/convenience-food-and-drink"},{"bbcom":true,"name":"Meal Management","store":false,"hashId":"nav1034","url":"https://shop.bodybuilding.com/collections/meal-replacement"}],"name":"Weight Management","linkText":"Shop All Weight Management","store":false,"featuredArticles":{"children":[{"imageUrl":"https://www.bodybuilding.com/images/lpimages/2019/aug/navigation-updates-weight-management-category-brand-global.jpg","name":"Signature Series","hashId":"z8n5mxz","url":"https://shop.bodybuilding.com/search?context=all&q=signature+series&selected_tab=Products&filter_Brands=Bodybuilding.com%20Signature&filter_Category=CLA,L-Carnitine"},{"imageUrl":"https://www.bodybuilding.com/images/merch/550boxes/05-29-flyout-fatburner.jpg","name":"Fat Burners from EVL","hashId":"amvz4b4","url":"https://shop.bodybuilding.com/search?context=all&q=evl+fat+burners&selected_tab=Products&sort_by=relevance&filter_Brands=EVLUTION%20NUTRITION"},{"imageUrl":"https://www.bodybuilding.com/images/2021/april/best-weight-loss-supplements-of-2021-header-830x467.jpg","name":"The Best Weight Loss Supplements","hashId":"xv49q2e","url":"https://www.bodybuilding.com/content/the-best-weight-loss-supplements.html"},{"imageUrl":"https://www.bodybuilding.com/images/2021/april/best-fat-burners-of-2021-header-830x467.jpg","name":"The Best Fat Burners","hashId":"wgx2qqy","url":"https://www.bodybuilding.com/content/the-best-fat-burners.html"}],"name":"Weight Management Features"},"hashId":"nav1081","url":"https://shop.bodybuilding.com/collections/weight-management"},{"bbcom":true,"children":[{"bbcom":true,"name":"Multi-Vitamins","store":false,"hashId":"nav1036","url":"https://shop.bodybuilding.com/collections/multivitamins"},{"bbcom":true,"name":"Immune Health","store":false,"hashId":"nav1037","url":"https://shop.bodybuilding.com/collections/immune-system-support"},{"bbcom":true,"name":"Greens & Superfoods","store":false,"hashId":"nav1038","url":"https://shop.bodybuilding.com/collections/greens-superfoods"},{"bbcom":true,"name":"CBD","store":false,"hashId":"navcbd","url":"https://shop.bodybuilding.com/collections/cbd"},{"bbcom":true,"name":"Probiotics","store":false,"hashId":"nav1039","url":"https://shop.bodybuilding.com/collections/probiotics"},{"bbcom":true,"name":"Fish Oil & Omegas","store":false,"hashId":"nav1040","url":"https://shop.bodybuilding.com/collections/fish-oil-omegas"},{"bbcom":true,"name":"Joint Support","store":false,"hashId":"nav1041","url":"https://shop.bodybuilding.com/collections/joint-support"},{"bbcom":true,"name":"Collagen","store":false,"hashId":"qnrn3wr","url":"https://shop.bodybuilding.com/collections/collagen"},{"bbcom":true,"name":"Mental Focus","store":false,"hashId":"nav1042","url":"https://shop.bodybuilding.com/collections/mental-focus-nootropics"},{"bbcom":true,"name":"Stress Relief & Sleep Aids","store":false,"hashId":"nav1043","url":"https://shop.bodybuilding.com/collections/stress-sleep-aids"},{"bbcom":true,"name":"Men's Health","store":false,"hashId":"nav1044","url":"https://shop.bodybuilding.com/collections/mens-health"},{"bbcom":true,"name":"Women's Health","store":false,"hashId":"nav1045","url":"https://shop.bodybuilding.com/collections/womens-health"}],"name":"Vitamins & Health","linkText":"Shop All Vitamins & Health","store":false,"featuredArticles":{"children":[{"imageUrl":"https://www.bodybuilding.com/images/2021/06-23-irwin-naturals-cbd-flyout.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA6J6SNFWRUBOBUIV5%2F20210622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210622T215640Z&X-Amz-Expires=3600&X-Amz-Signature=88768e5aa81a2432a2d94bc7e11a12fdec211dc3c251efbcef85bdf7d28944c0&X-Amz-SignedHeaders=host","name":"CBD","hashId":"489zd5d","breadcrumbs":[],"url":"https://shop.bodybuilding.com/collections/cbd"},{"imageUrl":"https://www.bodybuilding.com/images/lpimages/2019/oct/persona-550x420-new-brand.jpg","name":"Persona Personalized Vitamin Packs","hashId":"8dy678z","url":"https://marketing.bodybuilding.com/marketing/campaign/persona-vitamins"},{"imageUrl":"https://www.bodybuilding.com/images/merch/550boxes/01-01-signature-vitamins-flyout.jpg","name":"Signature Series Vitamins","hashId":"8r2k9vx","url":"https://shop.bodybuilding.com/search?context=all&q=vitamins&selected_tab=Products&sort_by=relevance&filter_Brands=Bodybuilding.com%20Signature&page_number=1"},{"imageUrl":"https://www.bodybuilding.com/images/2021/april/everything-you-need-to-know-about-greens-supplements-header-830x467.jpg","name":"Everything you need to know About Green Supplements","hashId":"nep685x","url":"https://www.bodybuilding.com/content/everything-you-need-to-know-about-greens-supplements.html"}],"name":"Vitamins & Health Features"},"hashId":"nav1082","url":"https://shop.bodybuilding.com/collections/vitamins-and-wellness"},{"bbcom":true,"children":[{"bbcom":true,"name":"Home Gym Equipment","store":false,"hashId":"nav1047","url":"https://shop.bodybuilding.com/collections/garage-gym-equipment"},{"bbcom":true,"name":"Dumbbells","store":false,"hashId":"nav1048","url":"https://shop.bodybuilding.com/collections/dumbbells"},{"bbcom":true,"name":"Clothing","store":false,"hashId":"nav1049","url":"https://shop.bodybuilding.com/collections/workout-clothes"},{"bbcom":true,"name":"Gym Bags & Duffels","store":false,"hashId":"nav1050","url":"https://shop.bodybuilding.com/collections/gym-bag-backpacks"},{"bbcom":true,"name":"Shakers & Water Bottles","store":false,"hashId":"nav1051","url":"https://shop.bodybuilding.com/collections/shakers-blenders"},{"bbcom":true,"name":"Scales & Body Measurement","store":false,"hashId":"nav1052","url":"https://shop.bodybuilding.com/collections/food-weight-scales"},{"bbcom":true,"name":"Hats, Socks & Shoes","store":false,"hashId":"nav1053","url":"https://shop.bodybuilding.com/collections/hats-socks-shoes"},{"bbcom":true,"name":"Weight Lifting Belts","store":false,"hashId":"nav1054","url":"https://shop.bodybuilding.com/collections/weightlifting-belts"},{"bbcom":true,"name":"Gloves","store":false,"hashId":"nav1055","url":"https://shop.bodybuilding.com/collections/workout-gloves"},{"bbcom":true,"name":"Straps, Wraps & Grips","store":false,"hashId":"nav1056","url":"https://shop.bodybuilding.com/collections/straps-wraps-hooks-grips"},{"bbcom":true,"name":"Resistance Bands","store":false,"hashId":"nav1057","url":"https://shop.bodybuilding.com/collections/resistance-bands"},{"bbcom":true,"name":"Mobility & Recovery","store":false,"hashId":"nav1058","url":"https://shop.bodybuilding.com/collections/massage-recovery-tools"}],"name":"Clothing & Accessories","linkText":"Shop All Clothing","store":false,"featuredArticles":{"children":[{"imageUrl":"https://www.bodybuilding.com/images/merch/550boxes/ua-just-dropped-flyout.jpg","name":"UA x BB Collab Collection","hashId":"5p5vaye","breadcrumbs":[],"url":"https://marketing.bodybuilding.com/marketing/campaign/under-armour"},{"imageUrl":"https://www.bodybuilding.com/images/2021/10-20-bbcom-halloween-collection-flyout.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA6J6SNFWRUBOBUIV5%2F20211021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211021T143857Z&X-Amz-Expires=3600&X-Amz-Signature=2e52f5ea8505601ce837fb161aa9535f66a94cd2e1d603430f6790a23691403f&X-Amz-SignedHeaders=host","name":"NEW Halloween Collection","hashId":"ydg5q6x","url":"https://shop.bodybuilding.com/collections/workout-clothes?sort_by=relevency&page_number=1"},{"imageUrl":"https://www.bodybuilding.com/images/2021/10-24-hydrojug-flyout.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA6J6SNFWRUBOBUIV5%2F20211022%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211022T173808Z&X-Amz-Expires=3600&X-Amz-Signature=f709e0b300b16fda0575351b1deaa191c918679f7b3ff91e4db29a432ccf0e6d&X-Amz-SignedHeaders=host","name":"Hydrojug is HERE!","hashId":"6y4634r","url":"https://shop.bodybuilding.com/collections/hydrojug?sort_by=relevency&page_number=1"},{"imageUrl":"https://www.bodybuilding.com/images/2021/gear-500x281-fly-out3%20%28002%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA6J6SNFWRUBOBUIV5%2F20210820%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210820T192135Z&X-Amz-Expires=3600&X-Amz-Signature=63af3e7ecbcf747d6a907600afa357c35b482e42f5d137099be8bb000eda26cd&X-Amz-SignedHeaders=host","name":"Build Your Garage Gym ","hashId":"qy7wgyp","url":"https://shop.bodybuilding.com/collections/garage-gym-equipment?sort_by=relevency&page_number=1"}],"name":"Clothing & Accessory Features"},"hashId":"nav1083","url":"https://shop.bodybuilding.com/collections/shop-all-clothing-accessories"},{"bbcom":true,"children":[{"bbcom":true,"name":"Bodybuilding.com Signature","store":false,"hashId":"nav1060","url":"https://shop.bodybuilding.com/collections/bodybuilding-signature-series"},{"bbcom":true,"name":"JYM Supplement Science","store":false,"hashId":"nav1061","url":"https://shop.bodybuilding.com/collections/jym-supplement-science"},{"bbcom":true,"name":"EVLUTION NUTRITION","store":false,"hashId":"nav1063","url":"https://shop.bodybuilding.com/collections/evlution-nutrition"},{"bbcom":true,"name":"DYMATIZE","store":false,"hashId":"kxyj367","url":"https://shop.bodybuilding.com/collections/dymatize?sort_by=relevency&page_number=1"},{"bbcom":true,"name":"ANIMAL","store":false,"hashId":"4qd5z45","url":"https://www.bodybuilding.com/fun/we-are-animal.html"},{"bbcom":true,"name":"PharmaFreak","store":false,"hashId":"99pqed2","url":"https://www.bodybuilding.com/fun/pharmafreak.html"},{"bbcom":true,"name":"Under Armour","store":false,"hashId":"nav1066","url":"https://shop.bodybuilding.com/collections/under-armour"},{"bbcom":true,"name":"Reebok","store":false,"hashId":"nav1070","url":"https://shop.bodybuilding.com/collections/reebok"},{"bbcom":true,"name":"Hydrojug","store":false,"hashId":"757584w","url":"https://www.bodybuilding.com/fun/hydrojug.html"}],"name":"Brands","store":true,"hashId":"nav1084","url":"https://www.bodybuilding.com/store/coupons_promos.html"},{"bbcom":true,"children":[{"bbcom":true,"name":"Shop Store","store":false,"hashId":"nav1071","url":"https://shop.bodybuilding.com/"},{"bbcom":true,"name":"New Arrivals","store":false,"hashId":"nav1072","url":"https://shop.bodybuilding.com/collections/new-arrivals"},{"bbcom":true,"name":"Top 50","store":true,"hashId":"nav1074","url":"https://www.bodybuilding.com/store/top50.htm"},{"bbcom":true,"name":"Sales & Specials","store":true,"hashId":"nav1075","url":"https://www.bodybuilding.com/store/coupons_promos.html"}],"name":"Store","store":false,"hashId":"nav1085","url":"https://shop.bodybuilding.com/"},{"bbcom":true,"children":[{"bbcom":true,"name":"BBcom Exclusives","store":false,"hashId":"nav1076","url":"https://shop.bodybuilding.com/collections/bodybuilding-com-exclusives"},{"bbcom":true,"name":"Men's Center","store":false,"hashId":"nav1077","url":"https://marketing.bodybuilding.com/marketing/campaign/mens-center"},{"bbcom":true,"name":"Women's Center","store":false,"hashId":"nav1078","url":"https://marketing.bodybuilding.com/marketing/campaign/WomensCenter"},{"bbcom":true,"name":"Gift Cards","store":false,"hashId":"nav1079","url":"https://shop.bodybuilding.com/products/bodybuilding-store-gift-card"},{"bbcom":true,"name":"Military Discount","store":false,"hashId":"nav1080","url":"https://marketing.bodybuilding.com/marketing/campaign/military"},{"bbcom":true,"name":"Persona - Vitamin Packs Made for You","store":false,"hashId":"ayqewp7","url":"https://marketing.bodybuilding.com/marketing/campaign/persona-vitamins"}],"name":"BBcom Exclusives","store":false,"hashId":"nav1086","url":"https://shop.bodybuilding.com/collections/bodybuilding-com-exclusives"}],"name":"Shop","section":"STORE","store":true,"featuredArticles":{"children":[]},"hashId":"pmb2x67","url":"https://www.bodybuilding.com/"},{"bbcom":true,"children":[{"bbcom":true,"children":[{"bbcom":true,"name":"Exercise Guides","store":false,"hashId":"26bw5vj","url":"https://www.bodybuilding.com/exercises/"},{"bbcom":true,"name":"Build Muscle","store":false,"hashId":"z348pk4","url":"https://www.bodybuilding.com/category/build-muscle"},{"bbcom":true,"name":"Weight Loss","store":false,"hashId":"wyy2w6b","url":"https://www.bodybuilding.com/category/lose-fat"},{"bbcom":true,"name":"Programs","store":false,"hashId":"kpkpdar","url":"https://www.bodybuilding.com/category/programs"},{"bbcom":true,"name":"Cardio","store":false,"hashId":"82zaz4z","url":"https://www.bodybuilding.com/category/cardio"},{"bbcom":true,"name":"CrossFit","store":false,"hashId":"bmndex6","url":"https://www.bodybuilding.com/category/crossfit"},{"bbcom":true,"name":"1-Rep Max Calculator","store":false,"hashId":"rgdvdan","url":"https://www.bodybuilding.com/fun/other7.htm"}],"name":"Training","linkText":"View All Training Articles","store":false,"hashId":"mmbzjgb","url":"https://www.bodybuilding.com/category/training"},{"bbcom":true,"children":[{"bbcom":true,"name":"Chest Workouts","store":false,"hashId":"mbgvarg","url":"https://www.bodybuilding.com/topic/chest"},{"bbcom":true,"name":"Shoulder Workouts","store":false,"hashId":"dpjjb78","url":"https://www.bodybuilding.com/topic/shoulders"},{"bbcom":true,"name":"Back Workouts","store":false,"hashId":"pw6k5d3","url":"https://www.bodybuilding.com/topic/back"},{"bbcom":true,"name":"Biceps Workouts","store":false,"hashId":"pynknzw","url":"https://www.bodybuilding.com/topic/biceps"},{"bbcom":true,"name":"Triceps Workouts","store":false,"hashId":"37zjd38","url":"https://www.bodybuilding.com/topic/tricep"},{"bbcom":true,"name":"Leg Workouts","store":false,"hashId":"e55v7bn","url":"https://www.bodybuilding.com/topic/legs"}],"name":"Workouts","linkText":"View All Workouts","store":false,"hashId":"x3zgx2k","url":"https://www.bodybuilding.com/category/workouts"},{"bbcom":true,"children":[{"bbcom":true,"name":"Recipes","store":false,"hashId":"zxakdvm","url":"https://www.bodybuilding.com/recipes"},{"bbcom":true,"name":"Nutrition Tips","store":false,"hashId":"8ye472e","url":"https://www.bodybuilding.com/category/nutrition-tips"},{"bbcom":true,"name":"Diet Plans","store":false,"hashId":"aagx2pb","url":"https://www.bodybuilding.com/category/diet-plans"},{"bbcom":true,"name":"Meal Planning","store":false,"hashId":"n5w4gy6","url":"https://www.bodybuilding.com/category/meal-planning"},{"bbcom":true,"name":"Supplementation","store":false,"hashId":"3brk4r8","url":"https://www.bodybuilding.com/category/supplementation"},{"bbcom":true,"name":"Macro Calculator","store":false,"hashId":"2prmw2r","url":"https://www.bodybuilding.com/fun/macronutrients_calculator.htm"}],"name":"Nutrition","linkText":"View All Nutrition","store":false,"hashId":"r9992g7","url":"https://www.bodybuilding.com/category/nutrition"},{"bbcom":true,"children":[{"bbcom":true,"name":"Videos","store":false,"hashId":"rv7we62","url":"https://www.bodybuilding.com/fun/videos.html"},{"bbcom":true,"name":"Motivation","store":false,"hashId":"jzkjrzk","url":"https://www.bodybuilding.com/category/motivation"},{"bbcom":true,"name":"Transformations","store":false,"hashId":"9d8m77k","url":"https://www.bodybuilding.com/category/transformations"},{"bbcom":true,"name":"Beginners","store":false,"hashId":"a752dq4","url":"https://www.bodybuilding.com/topic/beginner"},{"bbcom":true,"name":"Powerlifting","store":false,"hashId":"j9kpvkd","url":"https://www.bodybuilding.com/category/powerlifting"},{"bbcom":true,"name":"Strongman","store":false,"hashId":"x3nqqg2","url":"https://www.bodybuilding.com/topic/strongman"},{"bbcom":true,"name":"Podcast Interviews","store":false,"hashId":"8zvmgym","url":"https://www.bodybuilding.com/podcast"}],"name":"Other Topics","linkText":"View All Other Topics","store":false,"hashId":"dx9adr4","url":"https://www.bodybuilding.com/category/motivation"}],"name":"Articles","section":"ARTICLES","linkText":"Newest Articles","store":false,"featuredArticles":{"children":[{"imageUrl":"https://www.bodybuilding.com/images/2020/august/2020-bodybuilding-supp-awards-header-280x158.jpg","name":"2020 Bodybuilding.com Supplement Awards","hashId":"v3k6qk5","url":"https://www.bodybuilding.com/content/the-2020-bodybuildingcom-supplement-awards.html"},{"imageUrl":"https://www.bodybuilding.com/images/2020/august/7-healthy-foods-summer-road-trip-header-280x158.jpg","name":"7 Healthy Foods For A Summer Road Trip","hashId":"3jxmm8k","url":"https://www.bodybuilding.com/content/7-healthy-foods-to-take-on-your-summer-road-trip.html"},{"imageUrl":"https://www.bodybuilding.com/images/2021/january/01-21-video-portal-header-280x158.jpg","name":"Bodybuilding.com Fitness Videos","hashId":"2rm5pm9","url":"https://www.bodybuilding.com/fun/videos.html"},{"imageUrl":"https://www.bodybuilding.com/images/2020/july/boosting-immunity-through-herbs-and-nutrition-header-280x158.jpg","name":"Boost Immunity Through Herbs & Nutrition","hashId":"g8qe56d","breadcrumbs":[],"url":"https://www.bodybuilding.com/content/boosting-immunity-through-herbs-and-nutrition.html"}],"name":"Featured Articles"},"hashId":"4yypya5","url":"https://www.bodybuilding.com/fun/whats-new.html"},{"bbcom":true,"children":[{"bbcom":true,"children":[{"bbcom":true,"name":"Shortcut to Size","store":false,"hashId":"3y9b5x9","url":"https://www.bodybuilding.com/workout-plans/about/jim-stoppanis-12-week-shortcut-to-size"},{"bbcom":true,"name":"Kris Gethin Muscle Building","store":false,"hashId":"9m6ge42","url":"https://www.bodybuilding.com/workout-plans/about/kris-gethins-12-week-muscle-building-trainer"},{"bbcom":true,"name":"Modern Physique","store":false,"hashId":"ymwx7rd","url":"https://www.bodybuilding.com/workout-plans/about/modern-physique-steve-cooks-8-week-training-plan"},{"bbcom":true,"name":"FST-7","store":false,"hashId":"d6wyz4b","url":"https://www.bodybuilding.com/workout-plans/about/fst-7-big-and-ripped-8-weeks-to-an-olympia-winning-physique"},{"bbcom":true,"name":"Living Large","store":false,"hashId":"xvpkg8a","url":"https://www.bodybuilding.com/workout-plans/about/living-large-jay-cutlers-8-week-mass-building-trainer"},{"bbcom":true,"name":"Project Mass","store":false,"hashId":"dgkdrn3","url":"https://www.bodybuilding.com/workout-plans/about/project-mass-jake-wilsons-14-week-muscle-building-trainer"}],"name":"Build Muscle Plans","linkText":"View All Build Muscle Plans","store":false,"hashId":"mvr53xm","url":"https://www.bodybuilding.com/workout-plans/goal/build-muscle"},{"bbcom":true,"children":[{"bbcom":true,"name":"Shortcut To Shred","store":false,"hashId":"8zpqzgg","url":"https://www.bodybuilding.com/workout-plans/about/jim-stoppanis-six-week-shortcut-to-shred"},{"bbcom":true,"name":"LiveFit","store":false,"hashId":"pazry3x","url":"https://www.bodybuilding.com/workout-plans/about/jamie-easons-livefit-trainer-your-12-week-transformation-plan"},{"bbcom":true,"name":"FYR","store":false,"hashId":"a5v72y6","url":"https://www.bodybuilding.com/workout-plans/about/fyr-hannah-edens-30-day-fitness-plan"},{"bbcom":true,"name":"Lean Body","store":false,"hashId":"pnz57k5","url":"https://www.bodybuilding.com/workout-plans/about/lee-labradas-12-week-lean-body-trainer"},{"bbcom":true,"name":"Kris Gethin 12-Week Hardcore","store":false,"hashId":"dgzxx68","url":"https://www.bodybuilding.com/workout-plans/about/12-week-hardcore-daily-trainer-with-kris-gethin"},{"bbcom":true,"name":"4Weeks2Shred","store":false,"hashId":"nqvj3ww","url":"https://www.bodybuilding.com/workout-plans/about/Kris-Gethins-4-Weeks2Shred"}],"name":"Weight Loss Plans","linkText":"View All Weight Loss Plans","store":false,"hashId":"3rxr4a5","url":"https://www.bodybuilding.com/workout-plans/goal/lose-weight"},{"bbcom":true,"children":[{"bbcom":true,"name":"Rewired","store":false,"hashId":"ppmwz3p","url":"https://www.bodybuilding.com/workout-plans/about/james-grage-rewired-9-week-fitness-trainer"},{"bbcom":true,"name":"Back To Fit","store":false,"hashId":"zmabr52","url":"https://www.bodybuilding.com/workout-plans/about/bill-phillips-back-to-fit-12-week-trainer"},{"bbcom":true,"name":"Ultimate 30-Day","store":false,"hashId":"2y7ekkr","url":"https://www.bodybuilding.com/workout-plans/about/the-ultimate-30-day-beginners-guide-to-fitness"},{"bbcom":true,"name":"Get Ripped, Stay Big","store":false,"hashId":"m2w7ddd","url":"https://www.bodybuilding.com/workout-plans/about/get-ripped-stay-big-365-circuit-trainer-with-julien-greaux"},{"bbcom":true,"name":"The 7-Day Six-Pack","store":false,"hashId":"kgv3q5q","url":"https://www.bodybuilding.com/workout-plans/about/the-7-day-six-pack"},{"bbcom":true,"name":"Total-Body Dumbbell Fix","store":false,"hashId":"krekrbp","url":"https://www.bodybuilding.com/workout-plans/about/the-total-body-dumbbell-fix"}],"name":"Get Fit Plans","linkText":"View All Get Fit Plans","store":false,"hashId":"rxzjr8w","url":"https://www.bodybuilding.com/workout-plans/goal/get-fit"},{"bbcom":true,"children":[{"bbcom":true,"name":"Combat Fit","store":false,"hashId":"gr3n8v3","url":"https://www.bodybuilding.com/workout-plans/about/combat-fit-8-week-acft-training-plan"},{"bbcom":true,"name":"Full-Body Kettlebell Workouts","store":false,"hashId":"nvegke6","url":"https://www.bodybuilding.com/workout-plans/about/ready-for-anything-volume-2-full-body-kettlebell-workouts"},{"bbcom":true,"name":"Beginner Kettlebell Workouts","store":false,"hashId":"25bxya8","url":"https://www.bodybuilding.com/workout-plans/about/ready-for-anything-volume-1-beginner-kettlebell-workouts"},{"bbcom":true,"name":"Start Transforming 3","store":false,"hashId":"8yp6979","url":"https://www.bodybuilding.com/workout-plans/about/your-transformation-starts-here-volume-3"},{"bbcom":true,"name":"Start Transforming 2","store":false,"hashId":"xmk65g9","url":"https://www.bodybuilding.com/workout-plans/about/your-transformation-starts-here-volume-2"},{"bbcom":true,"name":"Start Transforming 1","store":false,"hashId":"566dq2r","url":"https://www.bodybuilding.com/workout-plans/about/your-transformation-starts-here-volume-1"}],"name":"Newest Plans","linkText":"View All Newest Plans","featuredWorkoutPlans":{"children":[]},"store":false,"hashId":"67jb8kr","url":"https://www.bodybuilding.com/workout-plans/"}],"name":"Workout Plans","section":"WORKOUT_PLANS","linkText":"All Workout Plans","store":false,"featuredArticles":{"children":[{"imageUrl":"https://www.bodybuilding.com/images/2020/july/103-workout-plans-that-give-results-header-280x158.jpg","name":"98 Workout Plans That Give Results","hashId":"vwgvdvj","breadcrumbs":[],"url":"https://www.bodybuilding.com/content/workout-plans-that-give-results.html"},{"imageUrl":"https://www.bodybuilding.com/images/2020/june/combat-fit-main-header-1920x1080-280x158.jpg","name":"Combat Fit: 8-Week ACFT Training Plan","hashId":"z3djmad","url":"https://www.bodybuilding.com/workout-plans/about/combat-fit-8-week-acft-training-plan"},{"imageUrl":"https://www.bodybuilding.com/images/2020/july/5-full-body-workouts-you-can-do-at-the-gym-header-280x158.jpg","name":"5 Full-Body Workouts To Do at the Gym","hashId":"5xk99wa","url":"https://www.bodybuilding.com/content/5-full-body-workouts-you-can-do-at-the-gym.html"},{"imageUrl":"https://www.bodybuilding.com/images/2020/july/5-full-body-workouts-you-can-do-at-home-header-280x158.jpg","name":"5 Full-Body Workouts To Do at Home","hashId":"vej7ew7","url":"https://www.bodybuilding.com/content/5-full-body-workouts-you-can-do-at-home.html"}],"name":"Featured Workout Plans"},"hashId":"z4e78x6","url":"https://www.bodybuilding.com/workout-plans/"},{"bbcom":true,"children":[{"bbcom":true,"children":[{"bbcom":true,"name":"Photo Galleries","store":false,"hashId":"3kwmg55","url":"https://bodyspace.bodybuilding.com/photos/"},{"bbcom":true,"name":"Fitboard","store":false,"hashId":"j8qn38p","url":"https://bodyspace.bodybuilding.com/fitboard/"},{"bbcom":true,"name":"Member Search","store":false,"hashId":"4vy34rd","url":"https://bodyspace.bodybuilding.com/member-search"},{"bbcom":true,"name":"Mobile Fitness Apps","store":false,"hashId":"aabknr4","url":"https://www.bodybuilding.com/fun/fitness-apps.html"},{"bbcom":true,"name":"Dashboard","store":false,"hashId":"y2pk3m8","url":"https://my.bodybuilding.com/community/my-bodyspace/"},{"bbcom":true,"name":"BodySpace Motivation","store":false,"hashId":"37k7zxq","url":"https://bodyspace.bodybuilding.com/community/motivation"}],"name":"Bodyspace","store":false,"hashId":"bvvambb","url":"https://bodyspace.bodybuilding.com"},{"bbcom":true,"children":[{"bbcom":true,"name":"Supplements","store":false,"hashId":"kr6jn66","url":"https://forum.bodybuilding.com/forumdisplay.php?f=1"},{"bbcom":true,"name":"Workout Programs","store":false,"hashId":"8b2zkxp","url":"https://forum.bodybuilding.com/forumdisplay.php?f=8"},{"bbcom":true,"name":"Exercises","store":false,"hashId":"93ag53v","url":"https://forum.bodybuilding.com/forumdisplay.php?f=9"},{"bbcom":true,"name":"Nutrition","store":false,"hashId":"pjnxdj2","url":"https://forum.bodybuilding.com/forumdisplay.php?f=13"},{"bbcom":true,"name":"Lose Fat","store":false,"hashId":"bz3e3rd","url":"https://forum.bodybuilding.com/forumdisplay.php?f=16"}],"name":"Forums","store":false,"hashId":"q3g553y","url":"https://forum.bodybuilding.com/"},{"bbcom":true,"children":[{"bbcom":true,"name":"Find a Program","store":false,"hashId":"qgjab9z","url":"https://bodyspace.bodybuilding.com/workouts/search-workout-programs"},{"bbcom":true,"name":"Find a Workout","store":false,"hashId":"d2rmqq3","url":"https://bodyspace.bodybuilding.com/workouts/search-workouts"},{"bbcom":true,"name":"Build a Program","store":false,"hashId":"y84a4ey","url":"https://my.bodybuilding.com/workouts/build-workout-program"},{"bbcom":true,"name":"Build a Workout","store":false,"hashId":"gamgdpp","url":"https://my.bodybuilding.com/workouts/build-workout"},{"bbcom":true,"name":"Track a Workout","store":false,"hashId":"yvb639a","url":"https://my.bodybuilding.com/workouts/track-workout"},{"bbcom":true,"name":"BodyCalendar","store":false,"hashId":"46w9nr2","url":"https://my.bodybuilding.com/workouts/calendar"}],"name":"BodySpace Programs","store":false,"hashId":"p8rdd6k","url":"https://bodyspace.bodybuilding.com/workouts/bodyspace-landing"},{"bbcom":false,"children":[{"bbcom":false,"name":"Instagram","store":false,"hashId":"6bbmq9e","url":"https://www.instagram.com/bodybuildingcom/"},{"bbcom":false,"name":"Facebook","store":false,"hashId":"53272dm","url":"https://www.facebook.com/Bodybuildingcom/"},{"bbcom":false,"name":"YouTube","store":false,"hashId":"ea3d2p6","url":"https://www.youtube.com/bodybuildingcom"},{"bbcom":false,"name":"Twitter","store":false,"hashId":"bj8vr4m","url":"https://www.twitter.com/Bodybuildingcom"},{"bbcom":false,"name":"Pinterest","store":false,"hashId":"7gwkbz5","url":"https://www.pinterest.com/Bodybuildingcom/"},{"bbcom":false,"name":"LinkedIn","store":false,"hashId":"m5yaede","url":"https://www.linkedin.com/company/bodybuilding-com/"}],"name":"Get Social","store":false,"hashId":"3bkyd64","url":"https://www.instagram.com/bodybuildingcom"}],"name":"Community","section":"COMMUNITY","linkText":"Go To Community","store":false,"featuredArticles":{"children":[{"imageUrl":"https://www.bodybuilding.com/images/2020/july/chad-belding-is-one-fit-duck-hunter-header-b-280x158.jpg","name":"Chad Belding Is One Fit Duck Hunter","hashId":"xyzynya","url":"https://www.bodybuilding.com/content/chad-belding-is-one-fit-duck-hunter.html"},{"imageUrl":"https://www.bodybuilding.com/images/2020/june/kaged-titan-fit-header-280x158.jpg","name":"How Doc Thor Trained for The Titan Games","hashId":"9xn4aad","url":"https://www.bodybuilding.com/content/titan-fit-how-doc-thor-trained-for-the-titan-games-2020.html"},{"imageUrl":"https://www.bodybuilding.com/images/2020/june/instant-upgrades-for-your-home-workout-header-280x158.jpg","name":"3 Instant Upgrades for Home Workouts","hashId":"j8d9x69","url":"https://www.bodybuilding.com/content/3-instant-upgrades-for-your-home-bodyweight-workouts.html"},{"imageUrl":"https://www.bodybuilding.com/images/2020/june/v-is-for-vitiligo-and-victory-header-280x158.jpg","name":"How to Thrive with Vitiligo","hashId":"y5dvk5n","url":"https://www.bodybuilding.com/content/how-3-health-and-wellness-pros-have-thrived-with-vitiligo.html"}],"name":"Featured Member Stories"},"hashId":"q29gqe9","url":"https://bodyspace.bodybuilding.com"}]},window.__BB_RESOURCE_MODEL__={customerServiceNumber:"1-866-236-8417",changeLocaleHref:"https://www.bodybuilding.com/store/common/store/change-store.jsp",storeFlagHref:"https://artifacts.bbcomcdn.com/bb-resources/2.12.4/flags/4x3/us.svg",storeName:"United States",cartHref:"https://shop.bodybuilding.com/cart",storeHomeHref:"https://www.bodybuilding.com/store/",changeLocaleHref:"https://www.bodybuilding.com/store/common/store/change-store.jsp",orderStatusHref:"https://www.bodybuilding.com/store/orderstatus.htm"}</script><script data-name="bb-wrapper:load-script-fn">function __bbLoadScript(e,d,n){if(n&&window[n]&&d)return d();var t=document.createElement("script");t.src=e,d&&t.addEventListener("load",d),document.head.appendChild(t)}</script><script data-name="bb-wrapper:redesign-wrapper">!function(){console.log("CTCHO-2482: Wrapper Redesign"),window.__BB_REDESIGN_WRAPPER_DEPLOYED__=!0,"app-ios"===navigator.userAgent&&(window.isp_is_mobile=!0,Object.defineProperty(window,"isp_is_mobile",{get:function(){return!0},set:function(e){return!0},enumerable:!0,configurable:!0})),window.WRAPPER_TEST_BASEURL="https://bbcom-stage-content-cache.s3-us-west-2.amazonaws.com/www.bodybuilding.com/pages/rebrand-2021";var e=document.createElement("link");e.rel="stylesheet",e.href=WRAPPER_TEST_BASEURL+"/index.css",document.head.appendChild(e);var n=document.querySelector(".BbHeader"),o=document.querySelector("footer.BbFooter");if(n&&o){n.id="BbHeader",n.classList.add("w21-BbHeader"),n.innerHTML="",n.classList.remove("BbHeader"),o.innerHTML="";var t=document.createElement("div");t.id="BbFooter",t.classList.add("w21-BbFooter"),document.body.appendChild(t);var d=document.createElement("script");d.src=WRAPPER_TEST_BASEURL+"/index.js",document.head.appendChild(d)}else console.log("CTCHO-2482: Did not find header and footer",n,o)}()</script><script data-name="bb-wrapper:scripts2import">window.__BB_WRAPPER_SCRIPTS2IMPORT__=window.__BB_WRAPPER_SCRIPTS2IMPORT__||[]</script><script data-name="bb-wrapper:loader:es6">window.__BB_WRAPPER_BASE_URL__ = 'https://artifacts.bbcomcdn.com/@bbcom/bb-wrapper/41.24.13/esm/';
+  __BB_WRAPPER_SCRIPTS2IMPORT__.forEach(function(scriptConfig) {
+    import(scriptConfig.esm);
+  });
+  window.__SUPPORTS_DYNAMIC_IMPORT__ = true;</script><script data-name="bb-wrapper:loader:systemjs">if (!window.__SUPPORTS_DYNAMIC_IMPORT__) {
+    window.__BB_WRAPPER_BASE_URL__ = 'https://artifacts.bbcomcdn.com/@bbcom/bb-wrapper/41.24.13/system/';
+    __bbLoadScript('https://artifacts.bbcomcdn.com/@bbcom/bb-polyfill/4.1.1/systemjs-with-polyfills.min.js', function() {
+      __BB_WRAPPER_SCRIPTS2IMPORT__.forEach(function(scriptConfig) {
+        System.import(scriptConfig.system);
+      })
+    }, 'System');
+  }</script><script src="https://bodybuilding.usablenet.com/pt/start" async></script><!--end[javascriptInitMarkup]-->
+
+	<script defer=defer data-name=script:jquery src=https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js></script>
+    <script defer=defer data-name=script:angular src=https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.20/angular.min.js></script>
+	
+<script defer=defer src=https://artifacts.bbcomcdn.com/cms-app/9.2.4/frontend.min.js></script>
+
+
+</body>
+</html>

@@ -88,6 +88,7 @@ Scrapers available for:
 - `https://bigoven.com/ <https://bigoven.com>`_
 - `https://blueapron.com/ <https://blueapron.com>`_
 - `https://bonappetit.com/ <https://bonappetit.com>`_
+- `https://www.bodybuilding.com/ <https://www.bodybuilding.com/>`_
 - `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
 - `https://castironketo.net/ <https://castironketo.net/>`_
