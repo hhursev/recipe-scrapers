@@ -32,9 +32,14 @@ class FineDiningLovers(AbstractScraper):
         instructions_parent = self.soup.find(
             "div", {"class": "field--name-field-recipe-para-steps"}
         )
-        instructions = instructions_parent.findAll(
-            "div", {"class": "paragraph--type--recipe-step"}
-        )
+
+        if instructions_parent is not None:
+            instructions = instructions_parent.findAll(
+                "div", {"class": "paragraph--type--recipe-step"}
+            )
+        else:
+            instructions_parent = self.soup.find("div", {"class": "ante-body"})
+            instructions = instructions_parent.findAll({"li", "p"})
 
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
