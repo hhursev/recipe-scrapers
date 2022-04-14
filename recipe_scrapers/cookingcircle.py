@@ -64,4 +64,4 @@ class CookingCircle(AbstractScraper):
         for li in ulList:
             instructions.append(li.get_text().strip().replace("\n", " "))
 
-        return instructions
+        return "\n".join(instructions)
