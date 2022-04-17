@@ -106,6 +106,7 @@ from .madensverden import MadensVerden
 from .marmiton import Marmiton
 from .marthastewart import MarthaStewart
 from .matprat import Matprat
+from .meljoulwan import Meljoulwan
 from .melskitchencafe import MelsKitchenCafe
 from .mindmegette import Mindmegette
 from .minimalistbaker import Minimalistbaker
@@ -304,6 +305,7 @@ SCRAPERS = {
     Marmiton.host(): Marmiton,
     MarthaStewart.host(): MarthaStewart,
     Matprat.host(): Matprat,
+    Meljoulwan.host(): Meljoulwan,
     MelsKitchenCafe.host(): MelsKitchenCafe,
     Mindmegette.host(): Mindmegette,
     Minimalistbaker.host(): Minimalistbaker,
