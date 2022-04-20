@@ -89,4 +89,4 @@ class Meljoulwan(AbstractScraper):
                 + ". "
                 + li.findChild("div", {"class": "num-list-copy"}).get_text().strip()
             )
-        return instructions
+        return "\n".join(instructions)
