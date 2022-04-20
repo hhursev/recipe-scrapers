@@ -19,7 +19,7 @@ class TestDavidLebovivtzScraper(ScraperTest):
         self.assertEqual(None, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("0 serving(s)", self.harvester_class.yields())
+        self.assertEqual("0 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(

@@ -31,7 +31,7 @@ class TestSeriousEats(ScraperTest):
         self.assertEqual(150, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("20 serving(s)", self.harvester_class.yields())
+        self.assertEqual("20 servings", self.harvester_class.yields())
 
     def test_image(self):
         # image has hash keys in it so the full url isn't consistent

@@ -19,7 +19,7 @@ class TestDitchTheCarbs(ScraperTest):
         self.assertEqual(self.harvester_class.title(), "Keto Hamburger Buns")
 
     def test_yields(self):
-        self.assertEqual("4 serving(s)", self.harvester_class.yields())
+        self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(

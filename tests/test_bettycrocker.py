@@ -22,7 +22,7 @@ class TestBettyCrocker(ScraperTest):
         self.assertEqual(290, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("24 serving(s)", self.harvester_class.yields())
+        self.assertEqual("24 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(

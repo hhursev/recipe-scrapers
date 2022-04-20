@@ -19,7 +19,7 @@ class TestPracticalSelfRelianceScraper(ScraperTest):
         self.assertEqual(self.harvester_class.title(), "Zucchini Relish")
 
     def test_yields(self):
-        self.assertEqual("4 serving(s)", self.harvester_class.yields())
+        self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_total_time(self):
         self.assertEqual(150, self.harvester_class.total_time())
