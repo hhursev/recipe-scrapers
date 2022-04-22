@@ -19,7 +19,7 @@ class TestZenBellyScraper(ScraperTest):
         self.assertEqual(self.harvester_class.title(), "Paleo Gingerbread")
 
     def test_yields(self):
-        self.assertEqual("20 serving(s)", self.harvester_class.yields())
+        self.assertEqual("20 servings", self.harvester_class.yields())
 
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())

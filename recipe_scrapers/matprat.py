@@ -25,7 +25,9 @@ class Matprat(AbstractScraper):
     def yields(self):
         recipe_yield = self.soup.find("input", {"id": "portionsInput"})
         if recipe_yield:
-            return str(recipe_yield["value"]) + " serving(s)"
+            return str(recipe_yield["value"]) + " serving{}".format(
+                "s" if int(recipe_yield["value"]) > 1 else ""
+            )
         else:
             return get_yields(
                 self.soup.find(

@@ -25,7 +25,7 @@ class TestHeadbangersKitchenScraper(ScraperTest):
         self.assertEqual(10, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("1 serving(s)", self.harvester_class.yields())
+        self.assertEqual("1 serving", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(

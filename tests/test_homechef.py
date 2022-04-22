@@ -22,7 +22,7 @@ class TestHomeChefScraper(ScraperTest):
         self.assertEqual(35, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("2 serving(s)", self.harvester_class.yields())
+        self.assertEqual("2 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(

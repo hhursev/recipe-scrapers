@@ -21,7 +21,7 @@ class TestJustOneCookbook(ScraperTest):
         )
 
     def test_yields(self):
-        self.assertEqual("6 serving(s)", self.harvester_class.yields())
+        self.assertEqual("6 servings", self.harvester_class.yields())
 
     def test_total_time(self):
         self.assertEqual(30, self.harvester_class.total_time())

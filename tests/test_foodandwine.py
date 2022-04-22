@@ -19,7 +19,7 @@ class TestFoodAndWineScraper(ScraperTest):
         self.assertEqual("Kwame’s Pepper Shrimp", self.harvester_class.title())
 
     def test_yields(self):
-        self.assertEqual("4 serving(s)", self.harvester_class.yields())
+        self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(

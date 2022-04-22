@@ -22,7 +22,7 @@ class TestCopyKat(ScraperTest):
         self.assertEqual(40, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("10 serving(s)", self.harvester_class.yields())
+        self.assertEqual("10 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(

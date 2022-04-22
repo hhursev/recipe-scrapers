@@ -108,12 +108,12 @@ def get_yields(element):
         serve_text = serve_text.split(SERVE_REGEX_TO.split(serve_text, 2)[1], 2)[1]
 
     matched = SERVE_REGEX_NUMBER.search(serve_text).groupdict().get("items") or 0
-    servings = "{} serving(s)".format(matched)
+    servings = "{} serving{}".format(matched, "" if int(matched) == 1 else "s")
 
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
         # This assumes if object(s), like sandwiches, it is 1 person.
         # Issue: "Makes one 9-inch pie, (realsimple-testcase, gives "9 items")
-        servings = "{} item(s)".format(matched)
+        servings = "{} item{}".format(matched, "" if int(matched) == 1 else "s")
 
     return servings
 
