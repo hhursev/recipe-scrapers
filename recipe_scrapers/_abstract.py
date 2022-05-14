@@ -25,10 +25,10 @@ class AbstractScraper:
             Union[float, Tuple, None]
         ] = None,  # allows us to specify optional timeout for request
         wild_mode: Optional[bool] = False,
+        html: Union[str, None] = None,
     ):
-        if settings.TEST_MODE:  # when testing, we load a file
-            self.page_data = url.read()
-            url = "https://test.example.com/"
+        if html:
+            self.page_data = html
         else:
             self.page_data = requests.get(
                 url, headers=HEADERS, proxies=proxies, timeout=timeout
