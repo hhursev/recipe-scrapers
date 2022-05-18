@@ -169,6 +169,7 @@ Scrapers available for:
 - `https://www.kwestiasmaku.com/ <https://www.kwestiasmaku.com/>`_
 - `https://www.latelierderoxane.com <https://www.latelierderoxane.com/blog/recettes/>`_
 - `https://lecremedelacrumb.com/ <https://lecremedelacrumb.com/>`_
+- `https://www.lecker.de <https://www.lecker.de/rezepte>`_
 - `https://lekkerensimpel.com <https://lekkerensimpel.com>`_
 - `https://littlespicejar.com/ <https://littlespicejar.com>`_
 - `http://livelytable.com/ <http://livelytable.com/>`_
