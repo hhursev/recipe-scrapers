@@ -8,7 +8,7 @@ class TestWildMode(ScraperTest):
 
     def setUp(self):
         with open("tests/test_data/wild_mode.testhtml", encoding="utf-8") as testfile:
-            self.harvester_class = self.scraper_class.generate(testfile)
+            self.harvester_class = self.scraper_class.generate("", html=testfile)
 
     def test_host(self):
         # let this one pass
