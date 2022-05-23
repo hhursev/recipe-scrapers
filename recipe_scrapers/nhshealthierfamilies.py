@@ -13,8 +13,10 @@ class NHSHealthierFamilies(AbstractScraper):
         return "NHS Better Health"
 
     def title(self):
-        raw_title = normalize_string(self.soup.find("h1").get_text())
-        return raw_title.removesuffix(" recipe")
+        title = normalize_string(self.soup.find("h1").get_text())
+        if title.endswith(" recipe"):
+            title = title[:-7]
+        return title
 
     def _get_recipe_metadata(self):
         container = self.soup.find("div", {"class": "bh-recipe__description"})
