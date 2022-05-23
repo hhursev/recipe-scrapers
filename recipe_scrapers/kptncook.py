@@ -18,7 +18,8 @@ KPTN_DEFAULT_LANGUAGE = "en"
 class KptnCook(AbstractScraper):
     def __init__(self, url, *args, **kwargs):
         if settings.TEST_MODE:  # pragma: no cover
-            self.recipe_json = json.loads(url.read())[0]
+            html = kwargs["html"]
+            self.recipe_json = json.loads(html)[0]
             self.lang = KPTN_DEFAULT_LANGUAGE
             self.final_url = "https://mobile.kptncook.com/recipe/pinterest/Low-Carb-Tarte-Flamb%C3%A9e-with-Serrano-Ham-%26-Cream-Cheese/315c3c32?lang=en"
         else:

@@ -25,7 +25,9 @@ class ScraperTest(unittest.TestCase):
             f"tests/test_data/{test_file_name}.{self.test_file_extension}",
             encoding="utf-8",
         ) as testfile:
-            self.harvester_class = self.scraper_class(testfile)
+            self.harvester_class = self.scraper_class(
+                url="https://test.example.com/", html=testfile.read()
+            )
             canonical_url = self.harvester_class.canonical_url()
             if self.online:
                 if not canonical_url:

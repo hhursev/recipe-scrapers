@@ -1,3 +1,7 @@
+import contextlib
+from typing import Optional
+
+from ._abstract import AbstractScraper
 from ._exceptions import NoSchemaFoundInWildMode, WebsiteNotImplementedError
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
@@ -417,5 +421,39 @@ def scrape_me(url_path, **options):
     return scraper(url_path, **options)
 
 
-__all__ = ["scrape_me"]
+def scrape_html(html: str, org_url: Optional[str] = None, **options) -> AbstractScraper:
+    """
+    takes a string of html and returns a scraper object. if the org_url is specified
+    then the scraper will use that url to resolve a defined scraper, otherwise it will
+    fall back to wild mode. If no schema is found in wild mode then a
+    NoSchemaFoundInWildMode exception will be raised.
+
+    Args:
+        html (str): raw HTML in text form
+        org_url (Optional[str], optional): Original URL of the HTML. Defaults to None.
+
+    Raises:
+        NoSchemaFoundInWildMode: If no schema is found in wild mode.
+
+    Returns:
+        AbstractScraper:
+    """
+    host_name = get_host_name(org_url) if org_url else None
+
+    if host_name:
+        with contextlib.suppress(KeyError):
+            scraper = SCRAPERS[host_name]
+
+    if not scraper:
+        wild_scraper = SchemaScraperFactory.generate(url=org_url, html=html, **options)
+
+        if not wild_scraper.schema.data:
+            raise NoSchemaFoundInWildMode(org_url)
+
+        return wild_scraper
+
+    return scraper(url=org_url, html=html, **options)
+
+
+__all__ = ["scrape_me", "scrape_html"]
 name = "recipe_scrapers"
