@@ -20,9 +20,9 @@ class NHSHealthierFamilies(AbstractScraper):
         container = self.soup.find("div", {"class": "bh-recipe__description"})
         descriptions = container.findAll("p")
         content = "".join([description.get_text() for description in descriptions])
-        prep_time = re.search("Prep: (\d+) mins", content)
-        cook_time = re.search("Cook: (\d+) mins", content)
-        recipe_yields = re.search("Serves (\d+)", content)
+        prep_time = re.search(r"Prep: (\d+) mins", content)
+        cook_time = re.search(r"Cook: (\d+) mins", content)
+        recipe_yields = re.search(r"Serves (\d+)", content)
         return {
             "prep_time": get_minutes(prep_time.group(0)) if prep_time else None,
             "cook_time": get_minutes(cook_time.group(0)) if cook_time else None,
