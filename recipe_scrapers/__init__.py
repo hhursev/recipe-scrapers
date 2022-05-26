@@ -414,12 +414,13 @@ SCRAPERS = {
 def scrape_me(url_path, **options):
     host_name = get_host_name(url_path)
 
-    robot_parser = RobotFileParser(urljoin(url_path, "/robots.txt"))
-    robot_parser.read()
+    if not options.pop("ignore_robots_txt", False):
+        robot_parser = RobotFileParser(urljoin(url_path, "/robots.txt"))
+        robot_parser.read()
 
-    user_agent = HEADERS.get("User-Agent", "*")
-    if not robot_parser.can_fetch(user_agent, url_path):
-        raise DisallowedByRobotsTXT(url_path)
+        user_agent = HEADERS.get("User-Agent", "*")
+        if not robot_parser.can_fetch(user_agent, url_path):
+            raise DisallowedByRobotsTXT(url_path)
 
     try:
         scraper = SCRAPERS[host_name]
