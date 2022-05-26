@@ -41,3 +41,12 @@ class SchemaOrgException(RecipeScrapersExceptions):
 
     def __init__(self, message):
         super().__init__(message)
+
+
+class DisallowedByRobotsTXT(RecipeScrapersExceptions):
+    """Retrieval of the URL is disallowed by the host's robots.txt file"""
+
+    def __init__(self, url):
+        self.url = url
+        message = f"Retrieval of {self.url} is disallowed by the host's robots.txt file"
+        super().__init__(message)
