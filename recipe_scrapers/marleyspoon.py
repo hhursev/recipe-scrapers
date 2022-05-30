@@ -2,13 +2,14 @@ import json
 import re
 import requests
 
-from recipe_scrapers.settings import settings
-
 from ._abstract import AbstractScraper, HEADERS
 from ._exceptions import ElementNotFoundInHtml
 from ._utils import normalize_string
 
-pattern = re.compile('gon\.current_brand=\"(?P<brand>[^"]+?)\";.*?gon\.current_country=\"(?P<country>[^"]+?)\";.*?;gon\.api_token=\"(?P<token>[^"]+?)\";.*?gon\.api_host=\"(?P<host>[^"]+?)\";')
+pattern = re.compile("gon\\.current_brand=\"(?P<brand>[^\"]+?)\".*?"
+                     "gon\\.current_country=\"(?P<country>[^\"]+?)\".*?"
+                     "gon\\.api_token=\"(?P<token>[^\"]+?)\".*?"
+                     "gon\\.api_host=\"(?P<host>[^\"]+?)\".*?")
 
 prep_dict = {
     "time_level_1": 10,
@@ -19,34 +20,41 @@ prep_dict = {
     "time_level_6": 60,
 }
 
+
 class Marleyspoon(AbstractScraper):
     def __init__(self, url, proxies=None, timeout=None, *args, **kwargs):
         super().__init__(url=url, proxies=proxies, timeout=timeout, *args, **kwargs)
 
-        if not settings.TEST_MODE:  # pragma: no cover
-            api_url = None
-            api_token = None
-
-            scripts = self.soup.find_all('script')
-            for script in scripts:
-                matches = pattern.search(str(script.string))
-                if matches:
-                    data = matches.groupdict()
-                    api_url = f'{data["host"]}/recipes/113813?brand={data["brand"]}&country={data["country"]}&product_type=web'.replace(
-                        "\\", "")
-                    api_token = f'Bearer {data["token"]}'
-
-            if api_url is None or api_token is None:
-                raise ElementNotFoundInHtml("Required script not found.")
-
+        if url != "https://test.example.com/":  # skip during the test, we will test the method separately
+            # The website's html does not contain any recipe data, but it loads it with a json request.
+            # We read the request parameters from html and preform additional request it to fetch recipe data.
+            api_url, api_token = self._get_json_params()
             self.page_data = requests.get(
                 api_url, headers={"authorization": api_token, **HEADERS}, proxies=proxies, timeout=timeout
             ).content
 
         self.data = json.loads(self.page_data)
 
+    def _get_json_params(self):
+        api_url = None
+        api_token = None
+
+        scripts = self.soup.find_all("script")
+        for script in scripts:
+            matches = pattern.search(str(script.string))
+            if matches:
+                data = matches.groupdict()
+                api_url = (f"{data['host']}/recipes/113813?brand={data['brand']}&country={data['country']}"
+                           f"&product_type=web").replace("\\", "")
+                api_token = f"Bearer {data['token']}"
+
+        if api_url is None or api_token is None:
+            raise ElementNotFoundInHtml("Required script not found.")
+
+        return api_url, api_token
+
     @classmethod
-    def host(self, domain="com"):
+    def host(cls, domain="com"):
         return f"marleyspoon.{domain}"
 
     def title(self):
@@ -91,5 +99,5 @@ class Marleyspoon(AbstractScraper):
 
     def links(self):
         links = super().links()
-        links.append(self.data.get("recipe_card_url"))
+        links.append({"href": self.data.get("recipe_card_url")})
         return links
