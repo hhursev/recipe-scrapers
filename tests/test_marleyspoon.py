@@ -10,13 +10,19 @@ class TestMarleySpoonScraper(ScraperTest):
     test_file_extension = "testjson"
 
     def test__get_json_params(self):
-        with open(f"tests/test_data/{self.test_file_name}.testhtml", encoding="utf-8") as testfile:
+        with open(
+            f"tests/test_data/{self.test_file_name}.testhtml", encoding="utf-8"
+        ) as testfile:
+            self.harvester_class.url = "https://marleyspoon.de/menu/113813-glasierte-veggie-burger-mit-roestkartoffeln-und-apfel-gurken-salat"
             self.harvester_class.soup = BeautifulSoup(testfile.read(), "html.parser")
 
-        self.assertEqual((
-            "https://api.marleyspoon.com/recipes/113813?brand=ms&country=de&product_type=web",
-            "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtcyIsImNvdW50cnkiOiJkZSIsImJyYW5kIjoibXMiLCJ0cyI6MTY1Mzg4ODg3NiwicmFuZG9tX2lkIjoiMGY4YjZkIn0.quv6_xQk0EjwKmHn7u_CltqMkPuNen-N6kncGHTjcbg",
-        ), self.harvester_class._get_json_params())
+        self.assertEqual(
+            (
+                "https://api.marleyspoon.com/recipes/113813?brand=ms&country=de&product_type=web",
+                "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtcyIsImNvdW50cnkiOiJkZSIsImJyYW5kIjoibXMiLCJ0cyI6MTY1Mzg4ODg3NiwicmFuZG9tX2lkIjoiMGY4YjZkIn0.quv6_xQk0EjwKmHn7u_CltqMkPuNen-N6kncGHTjcbg",
+            ),
+            self.harvester_class._get_json_params(),
+        )
 
     def test_host(self):
         self.assertEqual("marleyspoon.com", self.harvester_class.host())
@@ -68,7 +74,7 @@ class TestMarleySpoonScraper(ScraperTest):
                 "Salz",
                 "Zucker",
                 "Olivenöl",
-                "Essig"
+                "Essig",
             ],
             self.harvester_class.ingredients(),
         )
@@ -76,7 +82,7 @@ class TestMarleySpoonScraper(ScraperTest):
     def test_instructions(self):
         return self.assertEqual(
             "Den Backofen auf 240°C (220°C Umluft) vorheizen. Die __Kartoffeln samt Schale__ in ca. 1cm breite Spalten schneiden und auf einem mit Backpapier ausgelegten Backblech mit 1EL Olivenöl sowie 1/2TL Salz vermengen. Die __Kartoffeln__ im Ofen auf mittlerer Schiene 20–25Min. goldbraun rösten, zwischendurch einmal wenden.\n2EL Olivenöl, 1EL hellen Essig, 1/2TL Senf, 1/2TL Honig und 1 kräftige Prise Salz zu einem __Dressing__ verrühren. Den __Apfel__ vierteln, entkernen und in ca. 1cm große Würfel schneiden. Die __1/2 der Gurke__ ebenfalls in ca. 1cm große Würfel schneiden. Den __Sellerie__ in dünne Scheiben schneiden. Die __Apfel-__ und __Gurkenwürfel__ und den __Sellerie__ mit dem __Dressing__ vermengen.\nDie __restliche Gurke__ mit einem Sparschäler in breite Streifen schneiden. 1EL hellen Essig, 1TL Zucker und 1 kräftigen Prise Salz verrühren, bis sich Zucker und Salz aufgelöst haben. Mit den __Gurkenstreifen__ vermengen und beiseitestellen.\nDie __Sojasauce__ mit 2TL Honig und 1EL hellem Essig verrühren. Getrennt davon die __Sriracha-Sauce__ mit 2EL Mayonnaise verrühren. __Tipp:__ Wenn Kinder mitessen, ggf. weniger __Sriracha-Sauce__ verwenden oder diese separat servieren. Die __Burgerbrötchen__ auf einem Backrost 2–3Min. im Ofen aufbacken.\nDie __Pattys__ in einer mittelgroßen Pfanne mit 1EL Olivenöl bei mittlerer Hitze auf jeder Seite 1–2Min. goldbraun braten. Die __Soja-Würzsauce__ dazugeben, 1–2Min. köcheln lassen und die __Pattys__ in der __Glasur__ wenden, sodass sie vollständig damit bedeckt sind.\nDie __Brötchen__ aufschneiden, mit dem __Dip__ bestreichen und nach Geschmack mit den __Pattys__, den __Gurkenstreifen__ und je ca. __1EL Apfel-Gurken-Salat__ belegen. Den __restlichen Salat__ mit den __Erdnüssen__ bestreuen und zu den __Burgern__, den __Röstkartoffeln__ und ggf. __übrigen Gurkenstreifen__ servieren. Ggf. __übrigen Dip__ oder mehr Mayonnaise nach Geschmack dazu reichen.",
-             self.harvester_class.instructions(),
+            self.harvester_class.instructions(),
         )
 
     def test_author(self):
@@ -85,9 +91,14 @@ class TestMarleySpoonScraper(ScraperTest):
     def test_description(self):
         self.assertEqual(
             "Heute gibt’s Burgergenuss auf hohem Niveau: Die saftigen Pattys werden in einer würzig-süßen Glasur gebraten, ehe sie mit eingelegten Gurkenstreifen, pikantem Sriracha-Dip und knackigem Salat mit frisch-fruchtigem Apfel und würzigem Sellerie das Burgerbrötchen zieren. Der Salat fungiert übrigens – schick mit Erdnüssen bestreut – neben knusprigen Ofenkartoffeln auch noch zusätzlich als Beilage. Lass es dir schmecken!",
-             self.harvester_class.description()
+            self.harvester_class.description(),
         )
 
     def test_links(self):
         expected = "https://marleyspoon.com/media/pdf/recipe_cards/113813/R-113813_-_Glasierte_Veggie-Burger-CV.pdf"
-        self.assertTrue(any(link["href"] == expected for link in self.harvester_class.links()))
+        self.assertTrue(
+            any(link["href"] == expected for link in self.harvester_class.links())
+        )
+
+    def test_language(self):
+        self.assertEqual("de", self.harvester_class.language())

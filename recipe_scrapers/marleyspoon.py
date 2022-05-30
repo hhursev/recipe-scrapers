@@ -6,10 +6,13 @@ from ._abstract import AbstractScraper, HEADERS
 from ._exceptions import ElementNotFoundInHtml
 from ._utils import normalize_string
 
-SCRIPT_PATTERN = re.compile("gon\\.current_brand=\"(?P<brand>[^\"]+?)\".*?"
-                            "gon\\.current_country=\"(?P<country>[^\"]+?)\".*?"
-                            "gon\\.api_token=\"(?P<token>[^\"]+?)\".*?"
-                            "gon\\.api_host=\"(?P<host>[^\"]+?)\".*?")
+ID_PATTERN = re.compile("/(\d+)-")
+SCRIPT_PATTERN = re.compile(
+    'gon\\.current_brand="(?P<brand>[^"]+?)".*?'
+    'gon\\.current_country="(?P<country>[^"]+?)".*?'
+    'gon\\.api_token="(?P<token>[^"]+?)".*?'
+    'gon\\.api_host="(?P<host>[^"]+?)".*?'
+)
 
 PREPARATION_DICT = {  # these values I was able to retrieve from website
     "time_level_1": 10,  # on the website they are displayed like `5-10 minutes`, I used avg or similar rounded value
@@ -24,28 +27,40 @@ class MarleySpoon(AbstractScraper):
     def __init__(self, url, proxies=None, timeout=None, *args, **kwargs):
         super().__init__(url=url, proxies=proxies, timeout=timeout, *args, **kwargs)
 
-        if url != "https://test.example.com/":  # skip during the test, we will test the method separately
+        # skip during the test, we will test the method separately
+        if url != "https://test.example.com/":  # pragma: no cover
             # The website's html does not contain any recipe data, but it loads it with a json request.
             # We read the request parameters from html and preform additional request it to fetch recipe data.
             api_url, api_token = self._get_json_params()
             self.page_data = requests.get(
-                api_url, headers={"authorization": api_token, **HEADERS}, proxies=proxies, timeout=timeout
+                api_url,
+                headers={"authorization": api_token, **HEADERS},
+                proxies=proxies,
+                timeout=timeout,
             ).content
 
         self.data = json.loads(self.page_data)
 
     def _get_json_params(self):
+        recipe_id = None
         api_url = None
         api_token = None
+
+        match = ID_PATTERN.search(self.canonical_url())
+        if match:
+            recipe_id = match.group(1)
 
         scripts = self.soup.find_all("script")
         for script in scripts:
             matches = SCRIPT_PATTERN.search(str(script.string))
             if matches:
                 data = matches.groupdict()
-                api_url = (f"{data['host']}/recipes/113813?brand={data['brand']}&country={data['country']}"
-                           f"&product_type=web").replace("\\", "")
+                host = data["host"].replace("\\", "")
+                api_url = f"{host}/recipes/{recipe_id}?brand={data['brand']}&country={data['country']}&product_type=web"
                 api_token = f"Bearer {data['token']}"
+
+        if recipe_id is None:
+            raise ElementNotFoundInHtml("Recipe ID is unknown.")
 
         if api_url is None or api_token is None:
             raise ElementNotFoundInHtml("Required script not found.")
@@ -63,6 +78,8 @@ class MarleySpoon(AbstractScraper):
         return PREPARATION_DICT.get(self.data.get("preparation_time"), 60)
 
     def yields(self):
+        # The backend of MarleySpoon always returns ingredients for 2 servings
+        # This conclusion is made based on personal observations and available plans https://marleyspoon.com/select-plan
         return "2 servings"
 
     def image(self):
@@ -98,5 +115,14 @@ class MarleySpoon(AbstractScraper):
 
     def links(self):
         links = super().links()
+        # this is a useful link to a print card, maybe someone needs it
         links.append({"href": self.data.get("recipe_card_url")})
         return links
+
+    def language(self):
+        try:
+            # in normal scenario, there will be html `lang` tag and language can be retrieved from it
+            return super().language()
+        except AttributeError:
+            # but during the test, we load json as main resource, but using the `country` property, we can guess it
+            return self.data.get("country")
