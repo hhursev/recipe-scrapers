@@ -26,9 +26,6 @@ class TestKitchenStoriesScraper(ScraperTest):
     def test_prep_time(self):
         self.assertEqual(20, self.harvester_class.prep_time())
 
-    def test_yields(self):
-        self.assertEqual("0 servings", self.harvester_class.yields())
-
     def test_image(self):
         self.assertEqual(
             "https://images.kitchenstories.io/wagtailOriginalImages/R2630-photo-final-1.jpg",
@@ -74,4 +71,10 @@ class TestKitchenStoriesScraper(ScraperTest):
         self.assertEqual("International", self.harvester_class.cuisine())
 
     def test_description(self):
-        self.assertEqual("This recipe gives homemade strawberry jam an exciting update: Matcha!", self.harvester_class.description())
+        self.assertEqual(
+            "This recipe gives homemade strawberry jam an exciting update: Matcha!",
+            self.harvester_class.description(),
+        )
+
+    def test_language(self):
+        self.assertEqual("en", self.harvester_class.language())

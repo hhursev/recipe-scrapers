@@ -21,9 +21,6 @@ class KitchenStories(AbstractScraper):
     def prep_time(self):
         return self.schema.prep_time()
 
-    def yields(self):
-        return self.schema.yields()
-
     def image(self):
         return self.schema.image()
 
