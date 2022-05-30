@@ -6,18 +6,17 @@ from ._abstract import AbstractScraper, HEADERS
 from ._exceptions import ElementNotFoundInHtml
 from ._utils import normalize_string
 
-pattern = re.compile("gon\\.current_brand=\"(?P<brand>[^\"]+?)\".*?"
-                     "gon\\.current_country=\"(?P<country>[^\"]+?)\".*?"
-                     "gon\\.api_token=\"(?P<token>[^\"]+?)\".*?"
-                     "gon\\.api_host=\"(?P<host>[^\"]+?)\".*?")
+SCRIPT_PATTERN = re.compile("gon\\.current_brand=\"(?P<brand>[^\"]+?)\".*?"
+                            "gon\\.current_country=\"(?P<country>[^\"]+?)\".*?"
+                            "gon\\.api_token=\"(?P<token>[^\"]+?)\".*?"
+                            "gon\\.api_host=\"(?P<host>[^\"]+?)\".*?")
 
-prep_dict = {
-    "time_level_1": 10,
+PREPARATION_DICT = {  # these values I was able to retrieve from website
+    "time_level_1": 10,  # on the website they are displayed like `5-10 minutes`, I used avg or similar rounded value
     "time_level_2": 15,
     "time_level_3": 20,
     "time_level_4": 25,
     "time_level_5": 35,
-    "time_level_6": 60,
 }
 
 
@@ -41,7 +40,7 @@ class Marleyspoon(AbstractScraper):
 
         scripts = self.soup.find_all("script")
         for script in scripts:
-            matches = pattern.search(str(script.string))
+            matches = SCRIPT_PATTERN.search(str(script.string))
             if matches:
                 data = matches.groupdict()
                 api_url = (f"{data['host']}/recipes/113813?brand={data['brand']}&country={data['country']}"
@@ -61,7 +60,7 @@ class Marleyspoon(AbstractScraper):
         return self.data.get("name_with_subtitle")
 
     def total_time(self):
-        return prep_dict[self.data.get("preparation_time")]
+        return PREPARATION_DICT.get(self.data.get("preparation_time"), 60)
 
     def yields(self):
         return "2 servings"
