@@ -20,7 +20,7 @@ PREPARATION_DICT = {  # these values I was able to retrieve from website
 }
 
 
-class Marleyspoon(AbstractScraper):
+class MarleySpoon(AbstractScraper):
     def __init__(self, url, proxies=None, timeout=None, *args, **kwargs):
         super().__init__(url=url, proxies=proxies, timeout=timeout, *args, **kwargs)
 

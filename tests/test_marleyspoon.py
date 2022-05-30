@@ -1,11 +1,11 @@
-from recipe_scrapers.marleyspoon import Marleyspoon
+from recipe_scrapers.marleyspoon import MarleySpoon
 from tests import ScraperTest
 from bs4 import BeautifulSoup
 
 
-class TestMarleyspoonScraper(ScraperTest):
+class TestMarleySpoonScraper(ScraperTest):
 
-    scraper_class = Marleyspoon
+    scraper_class = MarleySpoon
     test_file_name = "marleyspoon"
     test_file_extension = "testjson"
 
