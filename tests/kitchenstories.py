@@ -1,10 +1,10 @@
-from recipe_scrapers.kitchenstories import Kitchenstories
+from recipe_scrapers.kitchenstories import KitchenStories
 from tests import ScraperTest
 
 
-class TestKitchenstoriesScraper(ScraperTest):
+class TestKitchenStoriesScraper(ScraperTest):
 
-    scraper_class = Kitchenstories
+    scraper_class = KitchenStories
 
     def test_host(self):
         self.assertEqual("kitchenstories.com", self.harvester_class.host())

@@ -1,7 +1,7 @@
 from ._abstract import AbstractScraper
 
 
-class Kitchenstories(AbstractScraper):
+class KitchenStories(AbstractScraper):
     @classmethod
     def host(cls):
         return "kitchenstories.com"

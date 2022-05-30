@@ -95,6 +95,7 @@ from .justbento import JustBento
 from .justonecookbook import JustOneCookbook
 from .kennymcgovern import KennyMcGovern
 from .kingarthur import KingArthur
+from .kitchenstories import KitchenStories
 from .kochbar import Kochbar
 from .koket import Koket
 from .kptncook import KptnCook
@@ -296,6 +297,7 @@ SCRAPERS = {
     JustOneCookbook.host(): JustOneCookbook,
     KennyMcGovern.host(): KennyMcGovern,
     KingArthur.host(): KingArthur,
+    KitchenStories.host(): KitchenStories,
     Kochbar.host(): Kochbar,
     Koket.host(): Koket,
     KptnCook.host(): KptnCook,
