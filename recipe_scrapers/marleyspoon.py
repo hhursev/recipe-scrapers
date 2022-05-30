@@ -1,0 +1,95 @@
+import json
+import re
+import requests
+
+from recipe_scrapers.settings import settings
+
+from ._abstract import AbstractScraper, HEADERS
+from ._exceptions import ElementNotFoundInHtml
+from ._utils import normalize_string
+
+pattern = re.compile('gon\.current_brand=\"(?P<brand>[^"]+?)\";.*?gon\.current_country=\"(?P<country>[^"]+?)\";.*?;gon\.api_token=\"(?P<token>[^"]+?)\";.*?gon\.api_host=\"(?P<host>[^"]+?)\";')
+
+prep_dict = {
+    "time_level_1": 10,
+    "time_level_2": 15,
+    "time_level_3": 20,
+    "time_level_4": 25,
+    "time_level_5": 35,
+    "time_level_6": 60,
+}
+
+class Marleyspoon(AbstractScraper):
+    def __init__(self, url, proxies=None, timeout=None, *args, **kwargs):
+        super().__init__(url=url, proxies=proxies, timeout=timeout, *args, **kwargs)
+
+        if not settings.TEST_MODE:  # pragma: no cover
+            api_url = None
+            api_token = None
+
+            scripts = self.soup.find_all('script')
+            for script in scripts:
+                matches = pattern.search(str(script.string))
+                if matches:
+                    data = matches.groupdict()
+                    api_url = f'{data["host"]}/recipes/113813?brand={data["brand"]}&country={data["country"]}&product_type=web'.replace(
+                        "\\", "")
+                    api_token = f'Bearer {data["token"]}'
+
+            if api_url is None or api_token is None:
+                raise ElementNotFoundInHtml("Required script not found.")
+
+            self.page_data = requests.get(
+                api_url, headers={"authorization": api_token, **HEADERS}, proxies=proxies, timeout=timeout
+            ).content
+
+        self.data = json.loads(self.page_data)
+
+    @classmethod
+    def host(self, domain="com"):
+        return f"marleyspoon.{domain}"
+
+    def title(self):
+        return self.data.get("name_with_subtitle")
+
+    def total_time(self):
+        return prep_dict[self.data.get("preparation_time")]
+
+    def yields(self):
+        return "2 servings"
+
+    def image(self):
+        return self.data.get("image").get("large")
+
+    def nutrients(self):
+        return self.data.get("nutrition")
+
+    def ingredients(self):
+        ingredients = [
+            normalize_string(ingredient.get("name"))
+            for ingredient in self.data.get("ingredients")
+        ]
+        assumed = [
+            normalize_string(ingredient.get("name"))
+            for ingredient in self.data.get("assumed_ingredients")
+        ]
+        return ingredients + assumed
+
+    def instructions(self):
+        return "\n".join(
+            [
+                normalize_string(instruction.get("description"))
+                for instruction in self.data.get("steps")
+            ]
+        )
+
+    def author(self):
+        return self.data.get("chef").get("name")
+
+    def description(self):
+        return self.data.get("description")
+
+    def links(self):
+        links = super().links()
+        links.append(self.data.get("recipe_card_url"))
+        return links
