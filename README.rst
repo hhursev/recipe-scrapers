@@ -175,6 +175,7 @@ Scrapers available for:
 - `https://www.justonecookbook.com/ <https://https://www.justonecookbook.com>`_
 - `https://kennymcgovern.com/ <https://kennymcgovern.com>`_
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
+- `https://www.kitchenstories.com/ <https://www.kitchenstories.com>`_
 - `https://kochbar.de/ <https://kochbar.de>`_
 - `http://koket.se/ <http://koket.se>`_
 - `https://www.kptncook.com/ <https://www.kptncook.com>`_
