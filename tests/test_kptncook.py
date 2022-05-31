@@ -1,10 +1,18 @@
+import responses
+
 from recipe_scrapers.kptncook import KptnCook
+
 from tests import ScraperTest
 
 
 class TestKptnCookScraper(ScraperTest):
 
     scraper_class = KptnCook
+
+    @property
+    def expected_requests(self):
+        yield responses.GET, "https://mobile.kptncook.com/recipe/pinterest/Low-Carb-Tarte-Flamb%C3%A9e-with-Serrano-Ham-%26-Cream-Cheese/315c3c32?lang=en", "tests/test_data/kptncook.testhtml"
+        yield responses.POST, "https://mobile.kptncook.com/recipes/search?kptnkey=6q7QNKy-oIgk-IMuWisJ-jfN7s6&lang=en", "tests/test_data/kptncook.testhtml"
 
     def test_host(self):
         self.assertEqual("mobile.kptncook.com", self.harvester_class.host())

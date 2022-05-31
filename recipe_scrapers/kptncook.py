@@ -17,35 +17,30 @@ KPTN_DEFAULT_LANGUAGE = "en"
 
 class KptnCook(AbstractScraper):
     def __init__(self, url, *args, **kwargs):
-        if settings.TEST_MODE:  # pragma: no cover
-            html = kwargs["html"]
-            self.recipe_json = json.loads(html)[0]
-            self.lang = KPTN_DEFAULT_LANGUAGE
-            self.final_url = "https://mobile.kptncook.com/recipe/pinterest/Low-Carb-Tarte-Flamb%C3%A9e-with-Serrano-Ham-%26-Cream-Cheese/315c3c32?lang=en"
+        super().__init__(url, *args, **kwargs)
+        if urlparse(url).hostname == "mobile.kptncook.com":
+            parsed_url = urlparse(url)
         else:
-            if urlparse(url).hostname == "mobile.kptncook.com":
-                parsed_url = urlparse(url)
-            else:
-                # If it's a sharing.kptncook.com/* link we first need to follow the http forwards to get the recipe ID
-                recipe_request = requests.get(url, headers=HEADERS)
-                parsed_url = urlparse(recipe_request.url)
-            # Extract language from URL
-            query = parse_qs(parsed_url.query)
-            self.lang = query["lang"][0] if "lang" in query else KPTN_DEFAULT_LANGUAGE
+            # If it's a sharing.kptncook.com/* link we first need to follow the http forwards to get the recipe ID
+            recipe_request = requests.get(url, headers=HEADERS)
+            parsed_url = urlparse(recipe_request.url)
+        # Extract language from URL
+        query = parse_qs(parsed_url.query)
+        self.lang = query["lang"][0] if "lang" in query else KPTN_DEFAULT_LANGUAGE
 
-            # Build final recipe url (of type mobile.kptncook.com/*)
-            self.final_url = "".join(
-                ["https://", parsed_url.hostname, parsed_url.path, f"?lang={self.lang}"]
-            )
-            # Extract recipe id from the url path
-            recipe_uid = parsed_url.path.split("/")[-1]
+        # Build final recipe url (of type mobile.kptncook.com/*)
+        self.final_url = "".join(
+            ["https://", parsed_url.hostname, parsed_url.path, f"?lang={self.lang}"]
+        )
+        # Extract recipe id from the url path
+        recipe_uid = parsed_url.path.split("/")[-1]
 
-            # Request the final recipe json from the kptncook api
-            api_url = f"https://mobile.kptncook.com/recipes/search?kptnkey=6q7QNKy-oIgk-IMuWisJ-jfN7s6&lang={self.lang}"
-            json_request_body = [{"uid": recipe_uid}]
-            self.recipe_json = json.loads(
-                requests.post(api_url, headers=HEADERS, json=json_request_body).content
-            )[0]
+        # Request the final recipe json from the kptncook api
+        api_url = f"https://mobile.kptncook.com/recipes/search?kptnkey=6q7QNKy-oIgk-IMuWisJ-jfN7s6&lang={self.lang}"
+        json_request_body = [{"uid": recipe_uid}]
+        self.recipe_json = json.loads(
+            requests.post(api_url, headers=HEADERS, json=json_request_body).content
+        )[0]
 
     @classmethod
     def host(self, subdomain="mobile"):

@@ -1,5 +1,5 @@
 import os
-from typing import Dict
+from typing import Tuple
 import unittest
 
 import responses
@@ -13,13 +13,14 @@ class ScraperTest(unittest.TestCase):
     test_file_extension = "testhtml"
 
     @property
-    def expected_requests(self) -> Dict[str, str]:
+    def expected_requests(self) -> Tuple[str, str, str]:
         """
-        A mapping of expected HTTP GET URLs to filenames that contain response content.
+        Descriptions of the expected requests that the scraper-under-test will make, as
+        tuples of: HTTP method, URL, path-to-content-file
         """
         filename = self.test_file_name or self.scraper_class.__name__.lower()
         path = f"tests/test_data/{filename}.{self.test_file_extension}"
-        yield "https://test.example.com", path
+        yield responses.GET, "https://test.example.com", path
 
     def setUp(self):
         os.environ[
@@ -28,10 +29,10 @@ class ScraperTest(unittest.TestCase):
 
         with responses.RequestsMock() as rsps:
             start_url = None
-            for url, path in self.expected_requests:
+            for method, url, path in self.expected_requests:
                 start_url = start_url or url
                 content = open(path, encoding="utf-8").read()
-                response = responses.Response(responses.GET, url, body=content)
+                response = responses.Response(method, url, body=content)
                 response.passthrough = self.online
                 rsps.add(response)
 

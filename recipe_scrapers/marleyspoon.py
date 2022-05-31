@@ -27,17 +27,15 @@ class MarleySpoon(AbstractScraper):
     def __init__(self, url, proxies=None, timeout=None, *args, **kwargs):
         super().__init__(url=url, proxies=proxies, timeout=timeout, *args, **kwargs)
 
-        # skip during the test, we will test the method separately
-        if url != "https://test.example.com/":  # pragma: no cover
-            # The website's html does not contain any recipe data, but it loads it with a json request.
-            # We read the request parameters from html and preform additional request it to fetch recipe data.
-            api_url, api_token = self._get_json_params()
-            self.page_data = requests.get(
-                api_url,
-                headers={"authorization": api_token, **HEADERS},
-                proxies=proxies,
-                timeout=timeout,
-            ).content
+        # The website's html does not contain any recipe data, but it loads it with a json request.
+        # We read the request parameters from html and preform additional request it to fetch recipe data.
+        api_url, api_token = self._get_json_params()
+        self.page_data = requests.get(
+            api_url,
+            headers={"authorization": api_token, **HEADERS},
+            proxies=proxies,
+            timeout=timeout,
+        ).content
 
         self.data = json.loads(self.page_data)
 
