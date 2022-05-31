@@ -3,8 +3,6 @@ from urllib.parse import parse_qs, urlparse
 
 import requests
 
-from recipe_scrapers.settings import settings
-
 from ._abstract import AbstractScraper
 
 HEADERS = {
