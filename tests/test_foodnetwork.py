@@ -1,4 +1,7 @@
+from responses import GET
+
 from recipe_scrapers.foodnetwork import FoodNetwork
+
 from tests import ScraperTest
 
 
@@ -6,13 +9,16 @@ class TestFoodNetworkScraper(ScraperTest):
 
     scraper_class = FoodNetwork
 
+    @property
+    def expected_requests(self):
+        yield GET, "https://www.foodnetwork.com/recipes/tyler-florence/chicken-marsala-recipe-1951778", "tests/test_data/foodnetwork.testhtml"
+
     def test_host(self):
         self.assertEqual("foodnetwork.com", self.harvester_class.host())
 
     def test_canonical_url(self):
-        # TODO: Find a way to supply original content base URL at test-time (via WARC-file?)
         self.assertEqual(
-            "https://test.example.com/foodnetwork.testhtml_files/chicken-marsala-recipe-1951778.html",
+            "http://www.foodnetwork.com/recipes/tyler-florence/chicken-marsala-recipe-1951778",
             self.harvester_class.canonical_url(),
         )
 
