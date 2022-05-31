@@ -6,7 +6,7 @@ from ._abstract import AbstractScraper, HEADERS
 from ._exceptions import ElementNotFoundInHtml
 from ._utils import normalize_string
 
-ID_PATTERN = re.compile("/(\d+)-")
+ID_PATTERN = re.compile(r"/(\d+)-")
 SCRIPT_PATTERN = re.compile(
     'gon\\.current_brand="(?P<brand>[^"]+?)".*?'
     'gon\\.current_country="(?P<country>[^"]+?)".*?'
