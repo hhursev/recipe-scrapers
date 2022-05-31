@@ -102,7 +102,7 @@ class MarleySpoon(AbstractScraper):
     def instructions(self):
         return "\n".join(
             [
-                normalize_string(instruction.get("description"))
+                normalize_string(instruction.get("description").replace("__", ""))
                 for instruction in self.data.get("steps")
             ]
         )
