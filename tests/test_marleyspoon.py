@@ -1,4 +1,3 @@
-from bs4 import BeautifulSoup
 import responses
 
 from recipe_scrapers.marleyspoon import MarleySpoon
