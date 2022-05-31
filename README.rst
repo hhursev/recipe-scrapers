@@ -189,6 +189,9 @@ Scrapers available for:
 - `http://livelytable.com/ <http://livelytable.com/>`_
 - `https://lovingitvegan.com/ <https://lovingitvegan.com/>`_
 - `https://madensverden.dk/ <https://madensverden.dk/>`_
+- `https://marleyspoon.com.au/ <https://marleyspoon.com.au/>`_
+- `https://marleyspoon.com/ <https://marleyspoon.com/>`_
+- `https://marleyspoon.de/ <https://marleyspoon.de/>`_
 - `https://marmiton.org/ <https://marmiton.org/>`_
 - `https://www.marthastewart.com/ <https://www.marthastewart.com/>`_
 - `https://matprat.no/ <https://matprat.no/>`_
