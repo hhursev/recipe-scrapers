@@ -192,6 +192,10 @@ Scrapers available for:
 - `https://marleyspoon.com.au/ <https://marleyspoon.com.au/>`_
 - `https://marleyspoon.com/ <https://marleyspoon.com/>`_
 - `https://marleyspoon.de/ <https://marleyspoon.de/>`_
+- `https://marleyspoon.at/ <https://marleyspoon.at/>`_
+- `https://marleyspoon.be/ <https://marleyspoon.be/>`_
+- `https://marleyspoon.nl/ <https://marleyspoon.nl/>`_
+- `https://marleyspoon.se/ <https://marleyspoon.se/>`_
 - `https://marmiton.org/ <https://marmiton.org/>`_
 - `https://www.marthastewart.com/ <https://www.marthastewart.com/>`_
 - `https://matprat.no/ <https://matprat.no/>`_
