@@ -21,6 +21,12 @@ class TestAllRecipesScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Four Cheese Margherita Pizza")
 
+    def test_description(self):
+        self.assertEqual(
+            self.harvester_class.description(),
+            "This is a fantastic version of an Italian classic. The feta cheese adds a rich flavor that brings this dish to life. Incredibly easy and incredibly delicious!",
+        )
+
     def test_cook_time(self):
         self.assertEqual(10, self.harvester_class.cook_time())
 
