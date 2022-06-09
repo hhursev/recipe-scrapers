@@ -19,7 +19,10 @@ class TestChefkochScraper(ScraperTest):
         self.assertEqual(self.harvester_class.title(), "Hackbraten supersaftig")
 
     def test_description(self):
-        self.assertEqual(self.harvester_class.description(), "Hackbraten supersaftig - saftiger Hackbraten mit viel Soße. Über 1110 Bewertungen und für lecker befunden. Mit ► Portionsrechner ► Kochbuch ► Video-Tipps!")
+        self.assertEqual(
+            self.harvester_class.description(),
+            "Hackbraten supersaftig - saftiger Hackbraten mit viel Soße. Über 1110 Bewertungen und für lecker befunden. Mit ► Portionsrechner ► Kochbuch ► Video-Tipps!",
+        )
 
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())
