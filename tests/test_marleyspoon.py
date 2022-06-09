@@ -1,21 +1,20 @@
+import responses
+
 from recipe_scrapers.marleyspoon import MarleySpoon
+
 from tests import ScraperTest
-from bs4 import BeautifulSoup
 
 
 class TestMarleySpoonScraper(ScraperTest):
 
     scraper_class = MarleySpoon
-    test_file_name = "marleyspoon"
-    test_file_extension = "testjson"
+
+    @property
+    def expected_requests(self):
+        yield responses.GET, "https://marleyspoon.de/menu/113813-glasierte-veggie-burger-mit-roestkartoffeln-und-apfel-gurken-salat", "tests/test_data/marleyspoon.testhtml"
+        yield responses.GET, "https://api.marleyspoon.com/recipes/113813?brand=ms&country=de&product_type=web", "tests/test_data/marleyspoon.testjson"
 
     def test__get_json_params(self):
-        with open(
-            f"tests/test_data/{self.test_file_name}.testhtml", encoding="utf-8"
-        ) as testfile:
-            self.harvester_class.url = "https://marleyspoon.de/menu/113813-glasierte-veggie-burger-mit-roestkartoffeln-und-apfel-gurken-salat"
-            self.harvester_class.soup = BeautifulSoup(testfile.read(), "html.parser")
-
         self.assertEqual(
             (
                 "https://api.marleyspoon.com/recipes/113813?brand=ms&country=de&product_type=web",
@@ -101,4 +100,4 @@ class TestMarleySpoonScraper(ScraperTest):
         )
 
     def test_language(self):
-        self.assertEqual("de", self.harvester_class.language())
+        self.assertEqual("de-DE", self.harvester_class.language())
