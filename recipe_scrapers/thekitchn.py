@@ -1,5 +1,4 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
 
 
 class TheKitchn(AbstractScraper):
@@ -8,25 +7,22 @@ class TheKitchn(AbstractScraper):
         return "thekitchn.com"
 
     def title(self):
-        return self.soup.find("h2", {"class": "Recipe__title"}).get_text()
+        return self.schema.title()
 
     def total_time(self):
-        elements = self.soup.findAll("p", {"class": "Recipe__timeEntry"})
-        return sum([get_minutes(element) for element in elements])
+        return self.schema.total_time()
 
     def yields(self):
-        return get_yields(
-            self.soup.find("p", {"class": "jsx-1778438071 Recipe__yield"})
-        )
+        return self.schema.yields()
+
+    def image(self):
+        return self.schema.image()
 
     def ingredients(self):
-        ingredients = self.soup.findAll("li", {"class": "Recipe__ingredient"})
-
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        return self.schema.ingredients()
 
     def instructions(self):
-        instructions = self.soup.findAll("li", {"class": "Recipe__instructionStep"})
+        return self.schema.instructions()
 
-        return "\n".join(
-            [normalize_string(instruction.get_text()) for instruction in instructions]
-        )
+    def ratings(self):
+        return self.schema.ratings()
