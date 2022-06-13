@@ -452,6 +452,7 @@ def scrape_html(html: str, org_url: Optional[str] = None, **options) -> Abstract
     """
     host_name = get_host_name(org_url) if org_url else None
 
+    scraper = None
     if host_name:
         with contextlib.suppress(KeyError):
             scraper = SCRAPERS[host_name]
