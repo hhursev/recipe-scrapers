@@ -1,14 +1,8 @@
 import contextlib
 from typing import Optional
-from urllib.parse import urljoin
-from urllib.robotparser import RobotFileParser
 
-from ._abstract import AbstractScraper, HEADERS
-from ._exceptions import (
-    DisallowedByRobotsTXT,
-    NoSchemaFoundInWildMode,
-    WebsiteNotImplementedError,
-)
+from ._abstract import AbstractScraper
+from ._exceptions import NoSchemaFoundInWildMode, WebsiteNotImplementedError
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 from .abril import Abril
@@ -413,13 +407,6 @@ SCRAPERS = {
 
 def scrape_me(url_path, **options):
     host_name = get_host_name(url_path)
-
-    robot_parser = RobotFileParser(urljoin(url_path, "/robots.txt"))
-    robot_parser.read()
-
-    user_agent = HEADERS.get("User-Agent", "*")
-    if not robot_parser.can_fetch(user_agent, url_path):
-        raise DisallowedByRobotsTXT(url_path)
 
     try:
         scraper = SCRAPERS[host_name]
