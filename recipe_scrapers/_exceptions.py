@@ -51,7 +51,7 @@ class DisallowedByRobotsTXT(RecipeScrapersExceptions):
         message = str().join(
             (
                 f"Retrieval of {self.url} is disallowed by the host's robots.txt file; ",
-                "you can choose to skip this check by using the `ignore_robots_txt` option",
+                f"you can choose to skip this check by using the `ignore_robots_txt` option",
             )
         )
         super().__init__(message)
