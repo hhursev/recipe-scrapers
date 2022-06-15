@@ -1,10 +1,10 @@
-from recipe_scrapers.allrecipes import AllRecipes
+from recipe_scrapers.allrecipes import AllRecipesCurated, AllRecipesUser
 from tests import ScraperTest
 
 
-class TestAllRecipesScraper(ScraperTest):
+class TestAllRecipesCuratedScraper(ScraperTest):
 
-    scraper_class = AllRecipes
+    scraper_class = AllRecipesCurated
 
     def test_host(self):
         self.assertEqual("allrecipes.com", self.harvester_class.host())

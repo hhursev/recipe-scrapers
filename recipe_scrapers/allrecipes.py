@@ -1,7 +1,19 @@
 from ._abstract import AbstractScraper
+from ._utils import get_minutes, get_yields, normalize_string
 
 
-class AllRecipes(AbstractScraper):
+class AllRecipes:
+    @classmethod
+    def host(cls):
+        return "allrecipes.com"
+
+    def __new__(cls, url, *args, **kwargs):
+        if AllRecipesUser.host() in url:
+            return AllRecipesUser(url, *args, **kwargs)
+        return AllRecipesCurated(url, *args, **kwargs)
+
+
+class AllRecipesCurated(AbstractScraper):
     @classmethod
     def host(cls):
         return "allrecipes.com"
