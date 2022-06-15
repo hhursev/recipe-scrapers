@@ -21,11 +21,23 @@ class TestAllRecipesCuratedScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Four Cheese Margherita Pizza")
 
+    def test_description(self):
+        self.assertEqual(
+            self.harvester_class.description(),
+            "This is a fantastic version of an Italian classic. The feta cheese adds a rich flavor that brings this dish to life. Incredibly easy and incredibly delicious!",
+        )
+
+    def test_cook_time(self):
+        self.assertEqual(10, self.harvester_class.cook_time())
+
+    def test_prep_time(self):
+        self.assertEqual(15, self.harvester_class.prep_time())
+
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("2 serving(s)", self.harvester_class.yields())
+        self.assertEqual("2 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
@@ -59,6 +71,14 @@ class TestAllRecipesCuratedScraper(ScraperTest):
     def test_ratings(self):
         self.assertEqual(4.8, self.harvester_class.ratings())
 
+    def test_cuisine(self):
+        self.assertEqual("", self.harvester_class.cuisine())
+
+    def test_category(self):
+        self.assertEqual(
+            "World Cuisine Recipes,European,Italian", self.harvester_class.category()
+        )
+
 
 class TestAllRecipesUserScraper(ScraperTest):
 
@@ -72,8 +92,8 @@ class TestAllRecipesUserScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-        "https://www.allrecipes.com/cook/1052065/recipe/78989010-fddc-3e4a-b54f-10e3ad110564",
-        self.harvester_class.canonical_url(),
+            "https://www.allrecipes.com/cook/1052065/recipe/78989010-fddc-3e4a-b54f-10e3ad110564",
+            self.harvester_class.canonical_url(),
         )
 
     def test_title(self):
@@ -93,15 +113,17 @@ class TestAllRecipesUserScraper(ScraperTest):
 
     def test_ingredients(self):
         self.assertCountEqual(
-            ["2 tablespoons white sugar",
-             "1 tablespoon brown sugar",
-             "1 1/2 tsp garlic powder",
-             "1 1/2 tsp chili powder",
-             "1 1/2 tsp paprika",
-             "1 1/2 tsp ground cumin",
-             "1 tsp salt",
-             "1 tsp onion powder",
-             "1 1/2 tsp ground black pepper"],
+            [
+                "2 tablespoons white sugar",
+                "1 tablespoon brown sugar",
+                "1 1/2 tsp garlic powder",
+                "1 1/2 tsp chili powder",
+                "1 1/2 tsp paprika",
+                "1 1/2 tsp ground cumin",
+                "1 tsp salt",
+                "1 tsp onion powder",
+                "1 1/2 tsp ground black pepper",
+            ],
             self.harvester_class.ingredients(),
         )
 

@@ -8,7 +8,7 @@ class FineDiningLovers(AbstractScraper):
         return "finedininglovers.com"
 
     def title(self):
-        return self.soup.find("div", {"class": "recipe-detail"}).find("h3").get_text()
+        return self.soup.find("h1", {"class": "recipe-full-class"}).get_text()
 
     def total_time(self):
         return get_minutes(self.soup.find("div", {"class": "timing"}))
@@ -32,9 +32,14 @@ class FineDiningLovers(AbstractScraper):
         instructions_parent = self.soup.find(
             "div", {"class": "field--name-field-recipe-para-steps"}
         )
-        instructions = instructions_parent.findAll(
-            "div", {"class": "paragraph--type--recipe-step"}
-        )
+
+        if instructions_parent is not None:
+            instructions = instructions_parent.findAll(
+                "div", {"class": "paragraph--type--recipe-step"}
+            )
+        else:
+            instructions_parent = self.soup.find("div", {"class": "ante-body"})
+            instructions = instructions_parent.findAll({"li", "p"})
 
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]

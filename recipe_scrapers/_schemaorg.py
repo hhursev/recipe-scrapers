@@ -4,6 +4,8 @@
 
 import extruct
 
+from recipe_scrapers.settings import settings
+
 from ._exceptions import SchemaOrgException
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -14,20 +16,34 @@ SYNTAXES = ["json-ld", "microdata"]
 
 
 class SchemaOrg:
-    def __init__(self, page_data):
+    def __init__(self, page_data, raw=False):
+        if raw:
+            self.format = "raw"
+            self.data = page_data
+            return
         self.format = None
         self.data = {}
 
-        data = extruct.extract(page_data, syntaxes=SYNTAXES, uniform=True)
+        data = extruct.extract(
+            page_data,
+            syntaxes=SYNTAXES,
+            errors="log" if settings.LOG_LEVEL <= 10 else "ignore",
+            uniform=True,
+        )
 
         low_schema = {s.lower() for s in SCHEMA_NAMES}
         for syntax in SYNTAXES:
             for item in data.get(syntax, []):
                 in_context = SCHEMA_ORG_HOST in item.get("@context", "")
-                if in_context and item.get("@type", "").lower() in low_schema:
+                item_type = item.get("@type", "")
+                if isinstance(item_type, list):
+                    for type in item_type:
+                        if type.lower() in low_schema:
+                            item_type = type.lower()
+                if in_context and item_type.lower() in low_schema:
                     self.format = syntax
                     self.data = item
-                    if item.get("@type").lower() == "webpage":
+                    if item_type.lower() == "webpage":
                         self.data = self.data.get("mainEntity")
                     return
                 elif in_context and "@graph" in item:
@@ -51,6 +67,12 @@ class SchemaOrg:
     def title(self):
         return normalize_string(self.data.get("name"))
 
+    def category(self):
+        category = self.data.get("recipeCategory")
+        if isinstance(category, list):
+            return ",".join(category)
+        return category
+
     def author(self):
         author = self.data.get("author")
         if (
@@ -69,13 +91,30 @@ class SchemaOrg:
             raise SchemaOrgException("Cooking time information not found in SchemaOrg")
 
         def get_key_and_minutes(k):
-            return get_minutes(self.data.get(k), return_zero_on_not_found=True)
+            source = self.data.get(k)
+            # Workaround: strictly speaking schema.org does not provide for minValue (and maxValue) properties on objects of type Duration; they are however present on objects with type QuantitativeValue
+            # Refs:
+            #  - https://schema.org/Duration
+            #  - https://schema.org/QuantitativeValue
+            if type(source) == dict and "minValue" in source:
+                source = source["minValue"]
+            return get_minutes(source, return_zero_on_not_found=True)
 
         total_time = get_key_and_minutes("totalTime")
         if not total_time:
             times = list(map(get_key_and_minutes, ["prepTime", "cookTime"]))
             total_time = sum(times)
         return total_time
+
+    def cook_time(self):
+        if not (self.data.keys() & {"cookTime"}):
+            raise SchemaOrgException("Cooktime information not found in SchemaOrg")
+        return get_minutes(self.data.get("cookTime"), return_zero_on_not_found=True)
+
+    def prep_time(self):
+        if not (self.data.keys() & {"prepTime"}):
+            raise SchemaOrgException("Preptime information not found in SchemaOrg")
+        return get_minutes(self.data.get("prepTime"), return_zero_on_not_found=True)
 
     def yields(self):
         yield_data = self.data.get("recipeYield")
@@ -114,10 +153,19 @@ class SchemaOrg:
 
     def nutrients(self):
         nutrients = self.data.get("nutrition", {})
+
+        # Some recipes contain null or numbers which breaks normalize_string()
+        # We'll ignore null and convert numbers to a string, like Schema validator does
+        for key, val in nutrients.copy().items():
+            if val is None:
+                del nutrients[key]
+            elif type(val) in [int, float]:
+                nutrients[key] = str(val)
+
         return {
             normalize_string(nutrient): normalize_string(value)
             for nutrient, value in nutrients.items()
-            if nutrient != "@type"
+            if nutrient != "@type" and value is not None
         }
 
     def _extract_howto_instructions_text(self, schema_item):
@@ -171,6 +219,14 @@ class SchemaOrg:
 
     def cuisine(self):
         cuisine = self.data.get("recipeCuisine")
-        if isinstance(cuisine, list):
+        if cuisine is None:
+            raise SchemaOrgException("No cuisine data in SchemaOrg.")
+        elif isinstance(cuisine, list):
             return ",".join(cuisine)
         return cuisine
+
+    def description(self):
+        description = self.data.get("description")
+        if description is None:
+            raise SchemaOrgException("No description data in SchemaOrg.")
+        return normalize_string(description)

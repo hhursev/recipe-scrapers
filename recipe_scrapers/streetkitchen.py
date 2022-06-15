@@ -5,7 +5,7 @@ from ._utils import get_yields, normalize_string
 class StreetKitchen(AbstractScraper):
     @classmethod
     def host(cls):
-        return "https://streetkitchen.hu"
+        return "streetkitchen.hu"
 
     def title(self):
         return self.soup.find("h1", {"class": "entry-title"}).get_text()

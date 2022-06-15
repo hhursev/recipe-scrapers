@@ -22,7 +22,7 @@ class TestBettyCrocker(ScraperTest):
         self.assertEqual(290, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("24 serving(s)", self.harvester_class.yields())
+        self.assertEqual("24 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
@@ -33,7 +33,7 @@ class TestBettyCrocker(ScraperTest):
     def test_ingredients(self):
         return self.assertEqual(
             [
-                "1 can (8 oz) Pillsbury™ refrigerated crescent dough sheet",
+                "1 can (8 oz) refrigerated Pillsbury™ Original Crescent Dough Sheet",
                 "2 boxes (3.4 oz each) Jell-O™ vanilla-flavor instant pudding & pie filling mix",
                 "3 cups cold half-and-half",
                 "1 1/2 cups semisweet chocolate chips",

@@ -16,7 +16,7 @@ class TestDrMeScraper(ScraperTest):
         self.assertEqual(120, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("8 serving(s)", self.harvester_class.yields())
+        self.assertEqual("8 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
@@ -50,7 +50,6 @@ class TestDrMeScraper(ScraperTest):
         )
 
     def test_instructions(self):
-        self.maxDiff = None
         return self.assertEqual(
             """Opskriften giver cirka 16 styks, afhængig af størrelsen.
 

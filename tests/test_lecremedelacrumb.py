@@ -23,12 +23,6 @@ class TestLeCremeDeLaCrumbScraper(ScraperTest):
     def test_total_time(self):
         self.assertEqual(35, self.harvester_class.total_time())
 
-    def test_yields(self):
-        self.skipTest(
-            reason="Re-enable when harvester produces expected 'yields' output"
-        )
-        self.assertEqual("None", self.harvester_class.yields())
-
     def test_image(self):
         self.assertEqual(
             "https://www.lecremedelacrumb.com/wp-content/uploads/2019/01/instant-pot-shredded-chicken-tacos-5.jpg",

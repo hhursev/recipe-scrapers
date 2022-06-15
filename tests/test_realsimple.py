@@ -22,7 +22,7 @@ class TestRealSimpleScraper(ScraperTest):
         self.assertEqual(540, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("9 item(s)", self.harvester_class.yields())
+        self.assertEqual("9 items", self.harvester_class.yields())
 
     def test_ingredients(self):
         self.assertCountEqual(

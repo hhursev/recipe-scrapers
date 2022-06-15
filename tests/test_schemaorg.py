@@ -25,6 +25,13 @@ class TestSchemaOrg(unittest.TestCase):
         del self.schema.data["totalTime"]
         self.assertEqual(self.schema.total_time(), 0)
 
+    def test_nutrient_retrieval(self):
+        expected_nutrients = {
+            "calories": "240 calories",
+            "fatContent": "9 grams fat",
+        }
+        self.assertEqual(self.schema.nutrients(), expected_nutrients)
+
     def test_graph_schema_without_context(self):
         with open(
             "tests/test_data/schemaorg_graph.testhtml", encoding="utf-8"

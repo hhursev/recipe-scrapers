@@ -22,7 +22,7 @@ class TestDelishScraper(ScraperTest):
         self.assertEqual(self.harvester_class.total_time(), 60)
 
     def test_yields(self):
-        self.assertEqual(self.harvester_class.yields(), "8 serving(s)")
+        self.assertEqual(self.harvester_class.yields(), "8 servings")
 
     def test_image(self):
         self.assertEqual(
@@ -79,7 +79,7 @@ class TestDelishRogueOlScraper(ScraperTest):
         self.assertEqual(self.harvester_class.total_time(), 25)
 
     def test_yields(self):
-        self.assertEqual(self.harvester_class.yields(), "10 serving(s)")
+        self.assertEqual(self.harvester_class.yields(), "10 servings")
 
     def test_ingredients(self):
         self.assertEqual(

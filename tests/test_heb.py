@@ -7,7 +7,7 @@ class TestHEBScraper(ScraperTest):
     scraper_class = HEB
 
     def test_host(self):
-        self.assertEqual("www.heb.com", self.harvester_class.host())
+        self.assertEqual("heb.com", self.harvester_class.host())
 
     def test_canonical_url(self):
         self.assertEqual(
@@ -22,7 +22,7 @@ class TestHEBScraper(ScraperTest):
         self.assertEqual(60, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("8 serving(s)", self.harvester_class.yields())
+        self.assertEqual("8 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
         self.assertEqual(

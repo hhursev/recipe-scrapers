@@ -8,7 +8,9 @@ class TestWildMode(ScraperTest):
 
     def setUp(self):
         with open("tests/test_data/wild_mode.testhtml", encoding="utf-8") as testfile:
-            self.harvester_class = self.scraper_class.generate(testfile)
+            self.harvester_class = self.scraper_class.generate(
+                url="https://test.example.com/", html=testfile.read()
+            )
 
     def test_host(self):
         # let this one pass
@@ -26,7 +28,7 @@ class TestWildMode(ScraperTest):
         )
 
     def test_yields(self):
-        self.assertEqual("4 serving(s)", self.harvester_class.yields())
+        self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
@@ -66,3 +68,27 @@ class TestWildMode(ScraperTest):
             """BLISTER TOMATOES\nIn a large skillet, heat oil over medium-high heat. Add tomatoes (whole) and sear, stirring occasionally, until they burst and soften, about 7 minutes. Turn heat off. Chop if extra-large.\nMAKE RISOTTO\nAt the same time, in a large heavy-bottomed pot or dutch oven, heat the olive oil over medium heat and add the onions. Saute until golden about 10-12 minutes. Add garlic and thyme, saute 2 more minutes until fragrant.\nAdd the rice, saute 1 minute, stirring. Add 2 cups warm stock (enough to cover the rice), saffron and smoked paprika, stir and bring to a simmer. Simmer until most of the liquid is absorbed. Add 1 cup broth and the tomatoes and all their juices. Stir until all the liquid is absorbed. Continue adding broth 1 cup at a time, letting the rice absorb it slowly, stirring often over med-low heat, until the rice is plumped, slightly al dente, yet creamy, about 20-25 minutes. You may not need all 8 cups. ( I used 6 3/4).\nStir in the butter and parmesan. Season generously with salt, pepper, and optional chili flakes. Taste, adjust salt. If bland, it probably needs more salt.\nServe\nas a flavorful side or vegetarian main, garnishing with fresh parsley and lemon zest.\nOptional Seared Prawns:\nIf adding the prawns, mix spices and salt in a bowl. Coat shrimp with the spices. Heat 2-3 tablespoons oil in a skillet (you may need to do this in batches) over medium-high heat, sear each side 2-3 minutes or until cooked through. Top the risotto with the seared prawns.""",
             self.harvester_class.instructions(),
         )
+
+    def test_ratings(self):
+        return self.assertEqual(4.9, self.harvester_class.ratings())
+
+    def test_cuisine(self):
+        return self.assertEqual("Spanish", self.harvester_class.cuisine())
+
+    def test_description(self):
+        return self.assertEqual(
+            "Summer Tomato Risotto with juicy vine-ripened tomatoes, and infused with saffron, can be served as a vegetarian main or side dish, or topped off with smoky shrimp.",
+            self.harvester_class.description(),
+        )
+
+    def test_total_time(self):
+        return self.assertEqual(60, self.harvester_class.total_time())
+
+    def test_cook_time(self):
+        return self.assertEqual(45, self.harvester_class.cook_time())
+
+    def test_prep_time(self):
+        return self.assertEqual(15, self.harvester_class.prep_time())
+
+    def test_author(self):
+        return self.assertEqual("Sylvia Fountaine", self.harvester_class.author())

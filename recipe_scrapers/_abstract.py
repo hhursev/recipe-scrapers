@@ -1,6 +1,5 @@
 import inspect
 from collections import OrderedDict
-from json.decoder import JSONDecodeError
 from typing import Optional, Tuple, Union
 from urllib.parse import urljoin
 
@@ -26,33 +25,29 @@ class AbstractScraper:
             Union[float, Tuple, None]
         ] = None,  # allows us to specify optional timeout for request
         wild_mode: Optional[bool] = False,
+        html: Union[str, None] = None,
     ):
-        if settings.TEST_MODE:  # when testing, we load a file
-            page_data = url.read()
-            url = "https://test.example.com/"
+        if html:
+            self.page_data = html
         else:
-            page_data = requests.get(
+            self.page_data = requests.get(
                 url, headers=HEADERS, proxies=proxies, timeout=timeout
             ).content
 
         self.wild_mode = wild_mode
-        self.soup = BeautifulSoup(page_data, "html.parser")
+        self.soup = BeautifulSoup(self.page_data, "html.parser")
         self.url = url
-
-        # Attempt to read Schema.org data. Gracefully fail if it raises an exception parsing the JSON.
-        # The scraper subclass can use BeautifulSoup to extract the information.
-        try:
-            self.schema = SchemaOrg(page_data)
-        except JSONDecodeError:
-            pass
+        self.schema = SchemaOrg(self.page_data)
 
         # attach the plugins as instructed in settings.PLUGINS
-        for name, func in inspect.getmembers(self, inspect.ismethod):
-            current_method = getattr(self.__class__, name)
-            for plugin in reversed(settings.PLUGINS):
-                if plugin.should_run(self.host(), name):
-                    current_method = plugin.run(current_method)
-            setattr(self.__class__, name, current_method)
+        if not hasattr(self.__class__, "plugins_initialized"):
+            for name, func in inspect.getmembers(self, inspect.ismethod):
+                current_method = getattr(self.__class__, name)
+                for plugin in reversed(settings.PLUGINS):
+                    if plugin.should_run(self.host(), name):
+                        current_method = plugin.run(current_method)
+                setattr(self.__class__, name, current_method)
+            setattr(self.__class__, "plugins_initialized", True)
 
     @classmethod
     def host(cls) -> str:
@@ -68,8 +63,19 @@ class AbstractScraper:
     def title(self):
         raise NotImplementedError("This should be implemented.")
 
+    def category(self):
+        raise NotImplementedError("This should be implemented.")
+
     def total_time(self):
-        """total time it takes to preparate the recipe in minutes"""
+        """total time it takes to preparate and cook the recipe in minutes"""
+        raise NotImplementedError("This should be implemented.")
+
+    def cook_time(self):
+        """cook time of the recipe in minutes"""
+        raise NotImplementedError("This should be implemented.")
+
+    def prep_time(self):
+        """preparation time of the recipe in minutes"""
         raise NotImplementedError("This should be implemented.")
 
     def yields(self):
@@ -127,6 +133,12 @@ class AbstractScraper:
         raise NotImplementedError("This should be implemented.")
 
     def author(self):
+        raise NotImplementedError("This should be implemented.")
+
+    def cuisine(self):
+        raise NotImplementedError("This should be implemented.")
+
+    def description(self):
         raise NotImplementedError("This should be implemented.")
 
     def reviews(self):

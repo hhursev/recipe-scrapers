@@ -1,0 +1,1014 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+
+<script type="text/javascript" async=true>
+        (function() {
+            var host = window.location.hostname;
+            var element = document.createElement('script');
+            var firstScript = document.getElementsByTagName('script')[0];
+            var url = 'https://quantcast.mgr.consensu.org'
+                .concat('/choice/', 'JJ82wP4cephAY', '/', host, '/choice.js')
+            var uspTries = 0;
+            var uspTriesLimit = 3;
+            element.async = true;
+            element.type = 'text/javascript';
+            element.src = url;
+
+            firstScript.parentNode.insertBefore(element, firstScript);
+
+            function makeStub() {
+                var TCF_LOCATOR_NAME = '__tcfapiLocator';
+                var queue = [];
+                var win = window;
+                var cmpFrame;
+
+                function addFrame() {
+                    var doc = win.document;
+                    var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+                    if (!otherCMP) {
+                        if (doc.body) {
+                            var iframe = doc.createElement('iframe');
+
+                            iframe.style.cssText = 'display:none';
+                            iframe.name = TCF_LOCATOR_NAME;
+                            doc.body.appendChild(iframe);
+                        } else {
+                            setTimeout(addFrame, 5);
+                        }
+                    }
+                    return !otherCMP;
+                }
+
+                function tcfAPIHandler() {
+                    var gdprApplies;
+                    var args = arguments;
+
+                    if (!args.length) {
+                        return queue;
+                    } else if (args[0] === 'setGdprApplies') {
+                        if (
+                            args.length > 3 &&
+                            args[2] === 2 &&
+                            typeof args[3] === 'boolean'
+                        ) {
+                            gdprApplies = args[3];
+                            if (typeof args[2] === 'function') {
+                                args[2]('set', true);
+                            }
+                        }
+                    } else if (args[0] === 'ping') {
+                        var retr = {
+                            gdprApplies: gdprApplies,
+                            cmpLoaded: false,
+                            cmpStatus: 'stub'
+                        };
+
+                        if (typeof args[2] === 'function') {
+                            args[2](retr);
+                        }
+                    } else {
+                        queue.push(args);
+                    }
+                }
+
+                function postMessageEventHandler(event) {
+                    var msgIsString = typeof event.data === 'string';
+                    var json = {};
+
+                    try {
+                        if (msgIsString) {
+                            json = JSON.parse(event.data);
+                        } else {
+                            json = event.data;
+                        }
+                    } catch (ignore) {}
+
+                    var payload = json.__tcfapiCall;
+
+                    if (payload) {
+                        window.__tcfapi(
+                            payload.command,
+                            payload.version,
+                            function(retValue, success) {
+                                var returnMsg = {
+                                    __tcfapiReturn: {
+                                        returnValue: retValue,
+                                        success: success,
+                                        callId: payload.callId
+                                    }
+                                };
+                                if (msgIsString) {
+                                    returnMsg = JSON.stringify(returnMsg);
+                                }
+                                if (event && event.source && event.source.postMessage) {
+                                    event.source.postMessage(returnMsg, '*');
+                                }
+                            },
+                            payload.parameter
+                        );
+                    }
+                }
+
+                while (win) {
+                    try {
+                        if (win.frames[TCF_LOCATOR_NAME]) {
+                            cmpFrame = win;
+                            break;
+                        }
+                    } catch (ignore) {}
+
+                    if (win === window.top) {
+                        break;
+                    }
+                    win = win.parent;
+                }
+                if (!cmpFrame) {
+                    addFrame();
+                    win.__tcfapi = tcfAPIHandler;
+                    win.addEventListener('message', postMessageEventHandler, false);
+                }
+            };
+
+            makeStub();
+
+            var uspStubFunction = function() {
+                var arg = arguments;
+                if (typeof window.__uspapi !== uspStubFunction) {
+                    setTimeout(function() {
+                        if (typeof window.__uspapi !== 'undefined') {
+                            window.__uspapi.apply(window.__uspapi, arg);
+                        }
+                    }, 500);
+                }
+            };
+
+            var checkIfUspIsReady = function() {
+                uspTries++;
+                if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+                    console.warn('USP is not accessible');
+                } else {
+                    clearInterval(uspInterval);
+                }
+            };
+
+            if (typeof window.__uspapi === 'undefined') {
+                window.__uspapi = uspStubFunction;
+                var uspInterval = setInterval(checkIfUspIsReady, 6000);
+            }
+        })();
+    </script>
+
+<script src="//onstuimig-tag-manager.s3.eu-central-1.amazonaws.com/base/adf-tm-base-min.js" async></script>
+<meta name='robots' content='max-image-preview:large, index, follow, max-snippet:-1, max-video-preview:-1' />
+
+<title>Poké bowl met kip en avocado | In 30 min. klaar! | Lekker en Simpel</title><style id="rocket-critical-css">:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-20:#005a87}.wp-block-image{margin-bottom:1em}.wp-block-image img{max-width:100%}.main-navigation ul.menu,.main-navigation ul li .sub-menu{margin-bottom:0;margin-left:0;padding-left:0;list-style:none}html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}a{background-color:transparent}img{border-style:none}button,input{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button{text-transform:none}[type=submit],button{-webkit-appearance:button}[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body,figure,h1,h2,p,ul{margin:0;padding:0}li>ul{margin-bottom:0}html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}[type=submit],button{-webkit-appearance:none;-moz-appearance:none;border:0;margin:0;padding:0;font:inherit}.screen-reader-text{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}[data-animation]{opacity:0}@media (-ms-high-contrast:active),(-ms-high-contrast:none){[data-animation]{opacity:1!important}}@supports not (display:grid){[data-animation]{opacity:1!important}}@media (prefers-reduced-motion:reduce){[data-animation]{animation-duration:1ms!important;animation-delay:1ms!important}}:root{--block-width:75rem;--block-spacing:1.33333rem;--block-spacing-large:1.77778rem;--block-padding:0.88889rem}@media print,screen and (min-width:40em){:root{--block-spacing:1.77778rem;--block-spacing-large:3.55556rem}}html{overflow-y:scroll;min-height:100%}body{overflow-x:hidden}form{margin-bottom:0}img{display:inline-block;vertical-align:middle;max-width:100%;height:auto;-ms-interpolation-mode:bicubic;box-sizing:inherit}.image-placeholder{background-color:#f5f5f5;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='30' height='32' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M0 .178h29.995v25.617H0z'/%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg transform='translate(0 6)'%3E%3Cmask id='b' fill='%23fff'%3E%3Cuse xlink:href='%23a'/%3E%3C/mask%3E%3Cpath d='M29.995 11.777c0 7.742-6.715 14.018-14.998 14.018C6.715 25.795 0 19.52 0 11.777c0-3.72 1.55-7.1 4.077-9.608a6.844 6.844 0 015.939-1.9 30.65 30.65 0 004.981.392A30.896 30.896 0 0019.98.27a6.844 6.844 0 015.939 1.899c2.528 2.509 4.077 5.889 4.077 9.608' fill='%23E6E6E6' mask='url(https://www.lekkerensimpel.com/wp-content/themes/vo-theme/%23b)'/%3E%3C/g%3E%3Cpath d='M10.12 8.136c1.702 1.152 8.058 1.152 9.76 0 2.177-1.473 3.525-3.357 3.01-4.208-.513-.85-2.695-.346-4.872 1.127a13.2 13.2 0 00-.488.347c-.338.254-.802-.001-.802-.44v-.011C16.728 2.216 15.954 0 15 0s-1.728 2.216-1.728 4.95v.013c0 .438-.464.692-.802.44-.157-.119-.32-.235-.488-.348-2.177-1.473-4.358-1.978-4.873-1.127-.514.851.834 2.735 3.01 4.208' fill='%23DCDCDC'/%3E%3Cpath d='M19.88 7.168c-1.702 1.11-8.058 1.11-9.76 0-2.177-1.418-3.525-3.23-3.01-4.05A.64.64 0 017.205 3c.427.875 1.494 1.968 2.914 2.893C11.822 7 18.178 7 19.88 5.893 21.3 4.968 22.367 3.875 22.795 3a.654.654 0 01.096.118c.514.82-.834 2.632-3.01 4.05' fill='%23D1D1D1'/%3E%3C/g%3E%3C/svg%3E");background-repeat:no-repeat;background-position:50%}.site-content{margin:var(--block-spacing) 0}body{font-family:Karla,Helvetica,sans-serif;font-size:1.125rem;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.h1,h1{text-transform:uppercase;font-family:Raleway,Helvetica,sans-serif;margin-bottom:.5rem;letter-spacing:.16667rem;font-size:1.44444rem}@media print,screen and (min-width:40em){.h1,h1{letter-spacing:.27778rem;font-size:2.22222rem}}h2{letter-spacing:.16667rem;font-size:1.33333rem}h2{text-transform:uppercase;font-family:Raleway,Helvetica,sans-serif;margin-bottom:.5rem}p{color:#333;line-height:1.55556rem;margin-bottom:1rem}p:last-child{margin-bottom:0}ul{margin:0 0 1rem 1rem}.grid-container{max-width:75rem}.grid-container{padding-right:.83333rem;padding-left:.83333rem;margin-left:auto;margin-right:auto}.grid-x{display:flex;flex-flow:row wrap}.cell{flex:0 0 auto;min-height:0;min-width:0;width:100%}.grid-x>.small-6{flex-basis:auto}@media print,screen and (min-width:40em){.grid-x>.medium-4,.grid-x>.medium-8{flex-basis:auto}}@media print,screen and (min-width:64em){.grid-x>.large-4{flex-basis:auto}}.grid-x>.small-6{flex:0 0 auto}.grid-x>.small-6{width:50%}@media print,screen and (min-width:40em){.grid-x>.medium-4,.grid-x>.medium-8{flex:0 0 auto}.grid-x>.medium-4{width:33.33333%}.grid-x>.medium-8{width:66.66667%}}@media print,screen and (min-width:64em){.grid-x>.large-4{flex:0 0 auto}.grid-x>.large-4{width:33.33333%}}.grid-margin-x{margin-left:-.83333rem;margin-right:-.83333rem}.grid-margin-x>.cell{width:calc(100% - 1.66667rem);margin-left:.83333rem;margin-right:.83333rem}.grid-margin-x>.small-6{width:calc(50% - 1.66667rem)}.grid-container:not(.full)>.grid-padding-x{margin-right:-.83333rem;margin-left:-.83333rem}.grid-padding-x>.cell{padding-right:.83333rem;padding-left:.83333rem}@media print,screen and (min-width:40em){.medium-order-1{order:1}.medium-order-2{order:2}}@media print,screen and (max-width:39.99875em){.hide-for-small-only{display:none!important}}@media screen and (max-width:0em),screen and (min-width:40em){.show-for-small-only{display:none!important}}button{background:transparent;outline:none}.header{display:flex;max-width:var(--block-width);margin-left:auto;margin-right:auto;padding:1.33333rem var(--block-padding);align-items:center;background:#fff;z-index:1;flex-direction:row;position:relative}.header__button{display:inline-block;font-size:1rem;color:#000;margin:0 1.33333rem 0 0;line-height:2em}.site-branding{flex:2}.site-branding .site-title{font-size:1.11111rem}.site-branding .site-title a{color:#333;text-decoration:none;display:flex;align-items:center}.site-branding .site-title span{display:block;padding:.44444rem 0 0 .88889rem}@media print,screen and (min-width:64em){.site-branding .site-title{font-size:0;margin:0}}.site-branding .site-title svg{width:35px;height:auto;display:block}@media print,screen and (min-width:64em){.site-branding .site-title svg{width:50px}}.header-search{position:absolute;top:0;left:0;width:100%;z-index:99;transform:translateY(-100%);height:100%}.header-search__form{max-width:100vw;display:flex;align-items:center;padding:1.33333rem var(--block-padding);height:100%;font-size:1rem}@media print,screen and (min-width:40em){.header-search__form{max-width:var(--block-width);margin-left:auto;margin-right:auto}}.header-search__form form{display:flex;margin:0 .88889rem;align-items:center;flex-grow:1}.header-search__form form input[type=text]{padding:0;width:100%;flex-grow:1;border:0}.header-search__form form input[type=text]::-webkit-input-placeholder{color:#333}.header-search__form form input[type=text]:-moz-placeholder,.header-search__form form input[type=text]::-moz-placeholder{color:#333}.header-search__form form input[type=text]:-ms-input-placeholder{color:#333}.header-search__form form input[type=submit]{display:none}.search-toggle{font-size:1rem}.main-navigation{display:flex;flex-direction:row}.main-navigation ul.menu{opacity:0;transform:translateY(40px)}.main-navigation ul.menu{width:100%;position:absolute;left:0;background:#fff;visibility:hidden}@media print,screen and (min-width:64em){.main-navigation ul.menu{display:flex;align-items:center;justify-content:center;position:relative;opacity:1;visibility:visible;transform:translateY(0)}}.main-navigation ul.menu li{position:relative}.main-navigation ul.menu li a{margin:0 .88889rem;font-size:1rem;letter-spacing:.13889rem;text-transform:uppercase;font-weight:700;display:block;text-decoration:none;color:#333;border-bottom:2px solid transparent;padding:.22222rem 0}@media print,screen and (min-width:64em){.main-navigation ul.menu li a{margin:0 1.33333rem}}.main-navigation ul li.toggle-submenu{position:relative}.main-navigation ul li.toggle-submenu:before{content:"+";display:inline-block;height:15px;width:15px;border-radius:50%;background:#ef565c;color:#fff;text-align:center;line-height:13px;margin:0 0 0 .88889rem;font-size:14px;position:absolute;right:15px}.main-navigation ul li.toggle-submenu a{display:inline-block;position:static}.main-navigation ul li.toggle-submenu .sub-menu .toggle-submenu:before{display:none}@media print,screen and (min-width:64em){.main-navigation ul li.toggle-submenu:before{display:none}}.main-navigation ul li .sub-menu{background:#f5f5f5;font-size:0;opacity:0;visibility:hidden;height:0;overflow:hidden}@media print,screen and (min-width:64em){.main-navigation ul li .sub-menu{position:absolute;transform:translate(-50%,10px);left:50%;min-width:280px;padding:.88889rem 0;height:auto;overflow:visible}.main-navigation ul li .sub-menu:before{content:"";display:block;width:15px;height:15px;background:#f5f5f5;position:absolute;top:-6px;left:50%;transform:translateX(-50%) rotate(45deg)}.main-navigation ul li .sub-menu .sub-menu{transform:translate(100%,-40px);background:#ef565c;left:0;width:100%}.main-navigation ul li .sub-menu .sub-menu:before{background:#ef565c;top:20px;left:-6px;transform:rotate(45deg)}.main-navigation ul li .sub-menu .sub-menu a{color:#fff}}.main-navigation ul li .sub-menu li .sub-menu{margin:0 0 0 .88889rem}@media print,screen and (min-width:64em){.main-navigation ul li .sub-menu li .sub-menu{margin:0}}.main-navigation ul li .sub-menu li a{font-size:.88889rem;color:#707070}.menu-toggle{width:25px;margin:0 .88889rem 0 0;position:relative}@media print,screen and (min-width:64em){.menu-toggle{display:none}}.menu-toggle span{display:block;height:3px;width:100%;background:#000;margin:.22222rem 0}.menu-toggle span:first-child{width:70%}.menu-toggle span:last-child{width:50%}.social-list li span{display:none}.hero,.hero__image{position:relative}.hero__image{min-height:180px;max-height:300px;overflow:hidden}@media print,screen and (min-width:40em){.hero__image{min-height:230px;max-height:300px}}.hero__image:after{content:"";display:block;padding-bottom:30%}.hero__image img{width:100%;height:auto;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)}.hero__inner{height:100%;top:0;background-image:linear-gradient(180deg,transparent,rgba(0,0,0,.4))}.hero__content,.hero__inner{position:absolute;width:100%;left:0}.hero__content{bottom:0;padding:1.77778rem 0}.hero__title{color:#fff}.entry__content>*+*{margin-top:var(--block-spacing);margin-bottom:var(--block-spacing)}.comment-form p input{width:100%}.comment-form .form-submit input{display:inline-block;vertical-align:middle;font:inherit;text-align:center;padding:.55556rem .88889rem;text-decoration:none;color:#fff;border:1px solid #ef565c;background:#ef565c;border-radius:1px;font-weight:700;text-transform:uppercase;letter-spacing:1px;width:auto}[data-tab-toggle]{display:none}@media print,screen and (min-width:40em){[data-tab-toggle]{display:block}}[data-tab-toggle][data-tab-toggle-active]{display:block}img[data-lazy-src]{border:0;opacity:0}input[type=text]{background:#fff;border:1px solid #707070;padding:10px 15px;box-shadow:none;border-radius:1px;box-sizing:border-box;outline:none;-webkit-appearance:none;-moz-appearance:none;appearance:none}input[type=text]::-webkit-input-placeholder{color:#707070}input[type=text]:-moz-placeholder,input[type=text]::-moz-placeholder{color:#707070}input[type=text]:-ms-input-placeholder{color:#707070}.like-no-ajax{position:absolute;z-index:99;font-size:1.11111rem;background:#fff;box-shadow:0 15px 20px rgba(0,0,0,.1);height:36px;width:36px;text-align:center;top:.88889rem;right:.88889rem}.like-no-ajax{color:#ef565c}.cookbooks .cookbooks__title{margin:15px 0}.cookbooks .cookbooks__inner .cookbook__item{padding-bottom:1.66667rem}</style><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Karla%3A400%2C700%7CRaleway%3A700&#038;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla%3A400%2C700%7CRaleway%3A700&#038;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="preload" href="https://fonts.googleapis.com/css?family=Karla%3A400%2C700%7CRaleway%3A700&#038;display=swap" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" /></noscript>
+<meta name="description" content="Heerlijke poke bowl met kip, avocado, peen julienne en edamame bonen. Een makkelijk gerecht dat in 30 minuten op tafel staat. Eet smakelijk!" />
+<link rel="canonical" href="https://www.lekkerensimpel.com/poke-bowl-met-kip/" />
+<meta property="og:locale" content="nl_NL" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Poké bowl met kip en avocado | In 30 min. klaar! | Lekker en Simpel" />
+<meta property="og:description" content="Heerlijke poke bowl met kip, avocado, peen julienne en edamame bonen. Een makkelijk gerecht dat in 30 minuten op tafel staat. Eet smakelijk!" />
+<meta property="og:url" content="https://www.lekkerensimpel.com/poke-bowl-met-kip/" />
+<meta property="og:site_name" content="Lekker en Simpel" />
+<meta property="article:publisher" content="https://www.facebook.com/lekkerensimpelnl" />
+<meta property="article:published_time" content="2022-03-08T05:00:00+00:00" />
+<meta property="article:modified_time" content="2022-02-15T09:33:00+00:00" />
+<meta property="og:image" content="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1.jpg" />
+<meta property="og:image:width" content="2000" />
+<meta property="og:image:height" content="1333" />
+<meta name="twitter:label1" content="Geschreven door">
+<meta name="twitter:data1" content="Lekker en Simpel">
+<meta name="twitter:label2" content="Geschatte leestijd">
+<meta name="twitter:data2" content="3 minuten">
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.lekkerensimpel.com/#organization","name":"Lekker en Simpel","url":"https://www.lekkerensimpel.com/","sameAs":["https://www.facebook.com/lekkerensimpelnl","https://www.instagram.com/lekkerensimpel/","https://www.youtube.com/lekkerensimpel","https://nl.pinterest.com/lekkerensimpel/"],"logo":{"@type":"ImageObject","@id":"https://www.lekkerensimpel.com/#logo","inLanguage":"nl","url":"https://www.lekkerensimpel.com/wp-content/uploads/2021/11/1041c.png","width":1111,"height":1082,"caption":"Lekker en Simpel"},"image":{"@id":"https://www.lekkerensimpel.com/#logo"}},{"@type":"WebSite","@id":"https://www.lekkerensimpel.com/#website","url":"https://www.lekkerensimpel.com/","name":"Lekker en Simpel","description":"Elke dag weer nieuwe lekkere, snelle en simpele recepten op Lekker en Simpel.","publisher":{"@id":"https://www.lekkerensimpel.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://www.lekkerensimpel.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"nl"},{"@type":"ImageObject","@id":"https://www.lekkerensimpel.com/poke-bowl-met-kip/#primaryimage","inLanguage":"nl","url":"https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1.jpg","width":2000,"height":1333},{"@type":"WebPage","@id":"https://www.lekkerensimpel.com/poke-bowl-met-kip/#webpage","url":"https://www.lekkerensimpel.com/poke-bowl-met-kip/","name":"Pok\u00e9 bowl met kip en avocado | In 30 min. klaar! | Lekker en Simpel","isPartOf":{"@id":"https://www.lekkerensimpel.com/#website"},"primaryImageOfPage":{"@id":"https://www.lekkerensimpel.com/poke-bowl-met-kip/#primaryimage"},"datePublished":"2022-03-08T05:00:00+00:00","dateModified":"2022-02-15T09:33:00+00:00","description":"Heerlijke poke bowl met kip, avocado, peen julienne en edamame bonen. Een makkelijk gerecht dat in 30 minuten op tafel staat. Eet smakelijk!","breadcrumb":{"@id":"https://www.lekkerensimpel.com/poke-bowl-met-kip/#breadcrumb"},"inLanguage":"nl","potentialAction":[{"@type":"ReadAction","target":["https://www.lekkerensimpel.com/poke-bowl-met-kip/"]}]},{"@type":"BreadcrumbList","@id":"https://www.lekkerensimpel.com/poke-bowl-met-kip/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://www.lekkerensimpel.com/","url":"https://www.lekkerensimpel.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://www.lekkerensimpel.com/poke-bowl-met-kip/","url":"https://www.lekkerensimpel.com/poke-bowl-met-kip/","name":"Pok\u00e9 bowl met kip"}}]},{"@type":"Article","@id":"https://www.lekkerensimpel.com/poke-bowl-met-kip/#article","isPartOf":{"@id":"https://www.lekkerensimpel.com/poke-bowl-met-kip/#webpage"},"author":{"@id":"https://www.lekkerensimpel.com/#/schema/person/e47d035d8c308aeae2e21bfb3fccb604"},"headline":"Pok\u00e9 bowl met kip","datePublished":"2022-03-08T05:00:00+00:00","dateModified":"2022-02-15T09:33:00+00:00","mainEntityOfPage":{"@id":"https://www.lekkerensimpel.com/poke-bowl-met-kip/#webpage"},"commentCount":0,"publisher":{"@id":"https://www.lekkerensimpel.com/#organization"},"image":{"@id":"https://www.lekkerensimpel.com/poke-bowl-met-kip/#primaryimage"},"keywords":"Kip gerechten,avocado","articleSection":"Lente recepten,Zomer recepten,Aziatische recepten,Snelle recepten,Vlees recepten,Hoofdgerechten,Bowl recepten,Rijst recepten,Sushi recepten","inLanguage":"nl","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://www.lekkerensimpel.com/poke-bowl-met-kip/#respond"]}]},{"@type":"Person","@id":"https://www.lekkerensimpel.com/#/schema/person/e47d035d8c308aeae2e21bfb3fccb604","name":"Lekker en Simpel","image":{"@type":"ImageObject","@id":"https://www.lekkerensimpel.com/#personlogo","inLanguage":"nl","url":"https://secure.gravatar.com/avatar/c55867405eaefa2ca193d82cc8c81654?s=96&d=identicon&r=g","caption":"Lekker en Simpel"},"description":"Sofie en Jorrit - 26 &amp; 28 jaar - houden van lekkere en simpele gerechten en zijn hier dagelijks mee bezig - Eigenaar van de website Lekker en Simpel en het gelijknamige kookboek"}]}</script>
+
+<link rel='dns-prefetch' href='//polyfill.io' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//m9m6e2w5.stackpathcdn.com' />
+<link rel='dns-prefetch' href='//cdn.shareaholic.net' />
+<link rel='dns-prefetch' href='//www.shareaholic.net' />
+<link rel='dns-prefetch' href='//analytics.shareaholic.com' />
+<link rel='dns-prefetch' href='//recs.shareaholic.com' />
+<link rel='dns-prefetch' href='//partner.shareaholic.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Lekker en Simpel &raquo; Feed" href="https://www.lekkerensimpel.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Lekker en Simpel &raquo; Reactiesfeed" href="https://www.lekkerensimpel.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Lekker en Simpel &raquo; Poké bowl met kip Reactiesfeed" href="https://www.lekkerensimpel.com/poke-bowl-met-kip/feed/" />
+
+<link rel='preload' href='//cdn.shareaholic.net/assets/pub/shareaholic.js' as='script' />
+<script data-no-minify='1' data-cfasync='false'>
+_SHR_SETTINGS = {"endpoints":{"local_recs_url":"https:\/\/www.lekkerensimpel.com\/wp-admin\/admin-ajax.php?action=shareaholic_permalink_related","ajax_url":"https:\/\/www.lekkerensimpel.com\/wp-admin\/admin-ajax.php"},"site_id":"16c090a38c676d83df2977324084a1e3","url_components":{"year":"2022","monthnum":"03","day":"08","hour":"06","minute":"00","second":"00","post_id":"66134","postname":"poke-bowl-met-kip","category":"oosterse-recepten"}};
+</script>
+<script data-no-minify='1' data-cfasync='false' src='//cdn.shareaholic.net/assets/pub/shareaholic.js' data-shr-siteid='16c090a38c676d83df2977324084a1e3' async></script>
+
+<meta name='shareaholic:site_name' content='Lekker en Simpel' />
+<meta name='shareaholic:language' content='nl' />
+<meta name='shareaholic:url' content='https://www.lekkerensimpel.com/poke-bowl-met-kip/' />
+<meta name='shareaholic:keywords' content='tag:avocado, tag:kip gerechten, tag:poké bowl met kip, cat:lente recepten, cat:zomer recepten, cat:aziatische recepten, cat:snelle recepten, cat:vlees recepten, cat:hoofdgerechten, cat:bowl recepten, cat:rijst recepten, cat:sushi recepten, type:post' />
+<meta name='shareaholic:article_published_time' content='2022-03-08T06:00:00+01:00' />
+<meta name='shareaholic:article_modified_time' content='2022-02-15T10:33:00+01:00' />
+<meta name='shareaholic:shareable_page' content='true' />
+<meta name='shareaholic:article_author_name' content='Lekker en Simpel' />
+<meta name='shareaholic:site_id' content='16c090a38c676d83df2977324084a1e3' />
+<meta name='shareaholic:wp_version' content='9.7.3' />
+<meta name='shareaholic:image' content='https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1-640x427.jpg' />
+
+
+<script src="//www.googletagmanager.com/gtag/js?id=UA-28278410-1" data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '8.3.4';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStrs = [
+															'ga-disable-UA-28278410-1',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for ( var index = 0; index < disableStrs.length; index++ ) {
+						if ( document.cookie.indexOf( disableStrs[ index ] + '=true' ) > -1 ) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if ( __gtagTrackerIsOptedOut() ) {
+					for ( var index = 0; index < disableStrs.length; index++ ) {
+						window[ disableStrs[ index ] ] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for ( var index = 0; index < disableStrs.length; index++ ) {
+						document.cookie = disableStrs[ index ] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[ disableStrs[ index ] ] = true;
+					}
+				}
+
+				if ( 'undefined' === typeof gaOptout ) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if ( mi_track_user ) {
+					function __gtagDataLayer() {
+						dataLayer.push( arguments );
+					}
+
+					function __gtagTracker( type, name, parameters ) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply( null, arguments );
+							return;
+						}
+
+						if ( type === 'event' ) {
+							
+															parameters.send_to = monsterinsights_frontend.ua;
+								__gtagDataLayer( type, name, parameters );
+													} else {
+							__gtagDataLayer.apply( null, arguments );
+						}
+					}
+					__gtagTracker( 'js', new Date() );
+					__gtagTracker( 'set', {
+						'developer_id.dZGIzZG' : true,
+											} );
+															__gtagTracker( 'config', 'UA-28278410-1', {"forceSSL":"true","anonymize_ip":"true"} );
+										window.gtag = __gtagTracker;											(function () {
+							/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+							/* ga and __gaTracker compatibility shim. */
+							var noopfn = function () {
+								return null;
+							};
+							var newtracker = function () {
+								return new Tracker();
+							};
+							var Tracker = function () {
+								return null;
+							};
+							var p = Tracker.prototype;
+							p.get = noopfn;
+							p.set = noopfn;
+							p.send = function (){
+								var args = Array.prototype.slice.call(arguments);
+								args.unshift( 'send' );
+								__gaTracker.apply(null, args);
+							};
+							var __gaTracker = function () {
+								var len = arguments.length;
+								if ( len === 0 ) {
+									return;
+								}
+								var f = arguments[len - 1];
+								if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+									if ( 'send' === arguments[0] ) {
+										var hitConverted, hitObject = false, action;
+										if ( 'event' === arguments[1] ) {
+											if ( 'undefined' !== typeof arguments[3] ) {
+												hitObject = {
+													'eventAction': arguments[3],
+													'eventCategory': arguments[2],
+													'eventLabel': arguments[4],
+													'value': arguments[5] ? arguments[5] : 1,
+												}
+											}
+										}
+										if ( 'pageview' === arguments[1] ) {
+											if ( 'undefined' !== typeof arguments[2] ) {
+												hitObject = {
+													'eventAction': 'page_view',
+													'page_path' : arguments[2],
+												}
+											}
+										}
+										if ( typeof arguments[2] === 'object' ) {
+											hitObject = arguments[2];
+										}
+										if ( typeof arguments[5] === 'object' ) {
+											Object.assign( hitObject, arguments[5] );
+										}
+										if ( 'undefined' !== typeof arguments[1].hitType ) {
+											hitObject = arguments[1];
+											if ( 'pageview' === hitObject.hitType ) {
+												hitObject.eventAction = 'page_view';
+											}
+										}
+										if ( hitObject ) {
+											action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+											hitConverted = mapArgs( hitObject );
+											__gtagTracker( 'event', action, hitConverted );
+										}
+									}
+									return;
+								}
+
+								function mapArgs( args ) {
+									var arg, hit = {};
+									var gaMap = {
+										'eventCategory': 'event_category',
+										'eventAction': 'event_action',
+										'eventLabel': 'event_label',
+										'eventValue': 'event_value',
+										'nonInteraction': 'non_interaction',
+										'timingCategory': 'event_category',
+										'timingVar': 'name',
+										'timingValue': 'value',
+										'timingLabel': 'event_label',
+										'page' : 'page_path',
+										'location' : 'page_location',
+										'title' : 'page_title',
+									};
+									for ( arg in args ) {
+																				if ( ! ( ! args.hasOwnProperty(arg) || ! gaMap.hasOwnProperty(arg) ) ) {
+											hit[gaMap[arg]] = args[arg];
+										} else {
+											hit[arg] = args[arg];
+										}
+									}
+									return hit;
+								}
+
+								try {
+									f.hitCallback();
+								} catch ( ex ) {
+								}
+							};
+							__gaTracker.create = newtracker;
+							__gaTracker.getByName = newtracker;
+							__gaTracker.getAll = function () {
+								return [];
+							};
+							__gaTracker.remove = noopfn;
+							__gaTracker.loaded = true;
+							window['__gaTracker'] = __gaTracker;
+						})();
+									} else {
+										console.log( "" );
+					( function () {
+							function __gtagTracker() {
+								return null;
+							}
+							window['__gtagTracker'] = __gtagTracker;
+							window['gtag'] = __gtagTracker;
+					} )();
+									}
+			</script>
+
+<link rel='preload' href='https://www.lekkerensimpel.com/wp-includes/css/dist/block-library/style.min.css' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--dark-gray: #333333;--wp--preset--color--light-gray: #F5F5F5;--wp--preset--color--red: #EF565C;--wp--preset--color--green: #74C664;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link data-minify="1" rel='preload' href='https://www.lekkerensimpel.com/wp-content/cache/min/1/wp-content/plugins/newsletter/style.css?ver=1645527624' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" type='text/css' media='all' />
+<link data-minify="1" rel='preload' href='https://www.lekkerensimpel.com/wp-content/cache/min/1/wp-content/plugins/wp-gdpr-compliance/Assets/css/front.css?ver=1645527624' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" type='text/css' media='all' />
+<style id='wpgdprc-front-css-inline-css' type='text/css'>
+:root{--wp-gdpr--bar--background-color: #000000;--wp-gdpr--bar--color: #ffffff;--wp-gdpr--button--background-color: #000000;--wp-gdpr--button--background-color--darken: #000000;--wp-gdpr--button--color: #ffffff;}
+</style>
+<link data-minify="1" rel='preload' href='https://www.lekkerensimpel.com/wp-content/cache/min/1/wp-content/themes/vo-theme/style.css?ver=1645527624' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" type='text/css' media='all' />
+<style id='rocket-lazyload-inline-css' type='text/css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://www.lekkerensimpel.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
+</style>
+<script type='text/javascript' id='monsterinsights-frontend-script-js-extra'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/www.lekkerensimpel.com","hash_tracking":"false","ua":"UA-28278410-1","v4_id":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.lekkerensimpel.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=8.3.4' id='monsterinsights-frontend-script-js'></script>
+<script type='text/javascript' src='https://www.lekkerensimpel.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.lekkerensimpel.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='wpgdprc-front-js-js-extra'>
+/* <![CDATA[ */
+var wpgdprcFront = {"ajaxUrl":"https:\/\/www.lekkerensimpel.com\/wp-admin\/admin-ajax.php","ajaxNonce":"beef5f0bec","ajaxArg":"security","pluginPrefix":"wpgdprc","blogId":"1","isMultiSite":"","locale":"nl_NL","showModal":"","cookieName":"wpgdprc-consent","consentVersion":"","path":"\/","prefix":"wpgdprc"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.lekkerensimpel.com/wp-content/plugins/wp-gdpr-compliance/Assets/js/front.min.js?ver=1645525048' id='wpgdprc-front-js-js'></script>
+<script data-minify="1" type='text/javascript' src='https://www.lekkerensimpel.com/wp-content/cache/min/1/v3/polyfill.min.js?ver=1645527624' id='polyfill-io-js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.lekkerensimpel.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.lekkerensimpel.com/wp-includes/wlwmanifest.xml" />
+<link rel='shortlink' href='https://www.lekkerensimpel.com/?p=66134' />
+<link rel="alternate" type="application/json+oembed" href="https://www.lekkerensimpel.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.lekkerensimpel.com%2Fpoke-bowl-met-kip%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.lekkerensimpel.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.lekkerensimpel.com%2Fpoke-bowl-met-kip%2F&#038;format=xml" />
+<script>document.createElement( "picture" );if(!window.HTMLPictureElement && document.addEventListener) {window.addEventListener("DOMContentLoaded", function() {var s = document.createElement("script");s.src = "https://www.lekkerensimpel.com/wp-content/plugins/webp-express/js/picturefill.min.js";document.body.appendChild(s);});}</script>
+<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:2770149,hjsv:5};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
+<link rel="icon" href="https://www.lekkerensimpel.com/wp-content/uploads/2015/03/1041c-54f48e32_site_icon-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://www.lekkerensimpel.com/wp-content/uploads/2015/03/1041c-54f48e32_site_icon-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.lekkerensimpel.com/wp-content/uploads/2015/03/1041c-54f48e32_site_icon-300x300.png" />
+<meta name="msapplication-TileImage" content="https://www.lekkerensimpel.com/wp-content/uploads/2015/03/1041c-54f48e32_site_icon-300x300.png" />
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><script>
+/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+(function(w){"use strict";if(!w.loadCSS){w.loadCSS=function(){}}
+var rp=loadCSS.relpreload={};rp.support=(function(){var ret;try{ret=w.document.createElement("link").relList.supports("preload")}catch(e){ret=!1}
+return function(){return ret}})();rp.bindMediaToggle=function(link){var finalMedia=link.media||"all";function enableStylesheet(){link.media=finalMedia}
+if(link.addEventListener){link.addEventListener("load",enableStylesheet)}else if(link.attachEvent){link.attachEvent("onload",enableStylesheet)}
+setTimeout(function(){link.rel="stylesheet";link.media="only x"});setTimeout(enableStylesheet,3000)};rp.poly=function(){if(rp.support()){return}
+var links=w.document.getElementsByTagName("link");for(var i=0;i<links.length;i++){var link=links[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"&&!link.getAttribute("data-loadcss")){link.setAttribute("data-loadcss",!0);rp.bindMediaToggle(link)}}};if(!rp.support()){rp.poly();var run=w.setInterval(rp.poly,500);if(w.addEventListener){w.addEventListener("load",function(){rp.poly();w.clearInterval(run)})}else if(w.attachEvent){w.attachEvent("onload",function(){rp.poly();w.clearInterval(run)})}}
+if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}
+else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
+</script></head>
+<body class="post-template-default single single-post postid-66134 single-format-standard">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+<a class="skip-link screen-reader-text" href="#main-content">Meteen naar de content</a>
+<header id="top-header" class="header header--page" data-animation>
+<div class="header-search">
+<div class="header-search__form">
+<i class="fas fa-search"></i>
+<form method="get" id="searchform" action="https://www.lekkerensimpel.com/">
+<input type="text" class="header-search__field" name="s" id="s" placeholder="Waar ben je naar opzoek?" />
+<input type="submit" class="submit" name="submit" id="searchsubmit" value="Zoeken" />
+</form>
+<button class="search-close-toggle" aria-controls="search-field" aria-expanded="false">
+<i class="fas fa-times"></i>
+</button>
+</div>
+</div>
+<div class="site-branding">
+<div class="h1 site-title">
+<a href="https://www.lekkerensimpel.com/" rel="home">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 147 157"><defs><path id="a" d="M0 .869h146.974V126H0z" /></defs><g fill="none" fill-rule="evenodd"><g transform="translate(0 30.543)"><mask id="b" fill="#fff"><use xlink:href="#a" /></mask><path fill="#EF565C" d="M146.975 57.525c0 37.817-32.901 68.475-73.487 68.475C32.9 126-.002 95.342-.002 57.525 0 39.36 7.59 22.848 19.978 10.592a33.602 33.602 0 0129.099-9.275c7.398 1.225 15.674 1.91 24.41 1.91S90.5 2.541 97.9 1.316a33.603 33.603 0 0129.097 9.275c12.389 12.256 19.979 28.767 19.979 46.933" mask="url(#b)" /></g><path fill="#74C664" d="M48.943 38.667c8.562 5.474 40.527 5.474 49.09 0 10.946-7 17.724-15.955 15.14-19.999-2.586-4.043-13.559-1.646-24.507 5.355a65.106 65.106 0 00-2.454 1.651c-1.702 1.204-4.036-.006-4.034-2.089v-.056C82.178 10.533 78.288 0 73.488 0c-4.8 0-8.692 10.533-8.692 23.528v.057c.002 2.083-2.332 3.291-4.034 2.09a62.395 62.395 0 00-2.454-1.652c-10.948-7-21.92-9.398-24.506-5.355-2.587 4.044 4.193 12.997 15.141 20" /><path fill="#1A914A" d="M98.03 38.666c-8.56 5.476-40.524 5.476-49.085 0-10.949-7.001-17.728-15.953-15.143-19.997.14-.215.3-.413.484-.585 2.15 4.32 7.517 9.716 14.66 14.284 8.56 5.472 40.523 5.472 49.084 0 7.14-4.568 12.508-9.964 14.66-14.285.181.174.342.372.481.586 2.586 4.043-4.192 12.995-15.14 19.997" /></g></svg> <span>
+Lekker en Simpel </span>
+</a>
+</div>
+</div>
+<nav id="site-navigation" class="main-navigation">
+<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+<span></span>
+<span></span>
+<span></span>
+</button>
+<ul id="primary-menu" class="menu">
+<li id="menu-item-19489" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-19489"><a href="https://www.lekkerensimpel.com/">Home</a></li>
+<li id="menu-item-52654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children toggle-submenu menu-item-52654"><a href="https://www.lekkerensimpel.com/recepten/">Recepten</a>
+<ul class="sub-menu">
+<li id="menu-item-24093" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-24093"><a href="https://www.lekkerensimpel.com/ontbijtrecepten/">Ontbijt ideeën</a></li>
+<li id="menu-item-24092" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-24092"><a href="https://www.lekkerensimpel.com/lunchrecepten/">lunchgerechten</a></li>
+<li id="menu-item-24702" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-24702"><a href="https://www.lekkerensimpel.com/tussendoortjes/">Tussendoortjes</a></li>
+<li id="menu-item-51797" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51797"><a href="https://www.lekkerensimpel.com/tag/voorgerecht/">Voorgerechten</a></li>
+<li id="menu-item-24248" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-24248"><a href="https://www.lekkerensimpel.com/hoofdgerechten/">Hoofdgerechten</a></li>
+<li id="menu-item-51761" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51761"><a href="https://www.lekkerensimpel.com/bijgerechten/">Bijgerechten</a></li>
+<li id="menu-item-24088" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-24088"><a href="https://www.lekkerensimpel.com/nagerechten/">Desserts</a></li>
+<li id="menu-item-24081" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-24081"><a href="https://www.lekkerensimpel.com/salades/">Salade recepten</a></li>
+<li id="menu-item-51759" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51759"><a href="https://www.lekkerensimpel.com/hoofdgerechten/soep/">Soepen</a></li>
+<li id="menu-item-24089" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-24089"><a href="https://www.lekkerensimpel.com/dranken/">Dranken</a></li>
+<li id="menu-item-24087" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-24087"><a href="https://www.lekkerensimpel.com/bakken/">Bakrecepten</a></li>
+</ul>
+</li>
+<li id="menu-item-34397" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children toggle-submenu menu-item-34397"><a href="https://www.lekkerensimpel.com/themas/">Thema&#8217;s</a>
+<ul class="sub-menu">
+<li id="menu-item-51762" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children toggle-submenu menu-item-51762"><a href="#">Seizoenen</a>
+<ul class="sub-menu">
+<li id="menu-item-50802" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-50802"><a href="https://www.lekkerensimpel.com/herfst-recepten/">Herfstrecepten</a></li>
+<li id="menu-item-50801" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-50801"><a href="https://www.lekkerensimpel.com/winter-recepten/">Winterrecepten</a></li>
+<li id="menu-item-51763" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-51763"><a href="https://www.lekkerensimpel.com/lente-recepten/">Lenterecepten</a></li>
+<li id="menu-item-51764" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-51764"><a href="https://www.lekkerensimpel.com/zomer-recepten/">Zomerrecepten</a></li>
+</ul>
+</li>
+<li id="menu-item-51765" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children toggle-submenu menu-item-51765"><a href="#">Feestdagen</a>
+<ul class="sub-menu">
+<li id="menu-item-50798" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-50798"><a href="https://www.lekkerensimpel.com/sinterklaas-recepten/">Sinterklaas recepten</a></li>
+<li id="menu-item-50799" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children toggle-submenu menu-item-50799"><a href="https://www.lekkerensimpel.com/kerstrecepten/">Kerstrecepten</a>
+<ul class="sub-menu">
+<li id="menu-item-59205" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-59205"><a href="https://www.lekkerensimpel.com/voorgerecht-kerst/">Voorgerechten Kerst</a></li>
+<li id="menu-item-59206" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-59206"><a href="https://www.lekkerensimpel.com/hoofdgerecht-kerst/">Hoofdgerechten Kerst</a></li>
+<li id="menu-item-59207" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-59207"><a href="https://www.lekkerensimpel.com/nagerecht-kerst/">Nagerechten Kerst</a></li>
+</ul>
+</li>
+<li id="menu-item-51766" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51766"><a href="https://www.lekkerensimpel.com/oud-en-nieuw/">Oud-en-nieuwrecepten</a></li>
+<li id="menu-item-51767" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51767"><a href="https://www.lekkerensimpel.com/paasrecepten/">Paasrecepten</a></li>
+<li id="menu-item-51768" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51768"><a href="https://www.lekkerensimpel.com/oranje-recepten/">Oranje recepten</a></li>
+</ul>
+</li>
+<li id="menu-item-51769" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children toggle-submenu menu-item-51769"><a href="#">Keukens</a>
+<ul class="sub-menu">
+<li id="menu-item-34401" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-34401"><a href="https://www.lekkerensimpel.com/italiaanse-recepten/">Italiaanse recepten</a></li>
+<li id="menu-item-51770" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51770"><a href="https://www.lekkerensimpel.com/griekse-recepten/">Griekse recepten</a></li>
+<li id="menu-item-34402" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-34402"><a href="https://www.lekkerensimpel.com/mexicaanse-recepten/">Mexicaanse recepten</a></li>
+<li id="menu-item-51771" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51771"><a href="https://www.lekkerensimpel.com/amerikaanse-recepten/">Amerikaanse recepten</a></li>
+<li id="menu-item-51772" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-51772"><a href="https://www.lekkerensimpel.com/oosterse-recepten/">Aziatische recepten</a></li>
+<li id="menu-item-51773" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51773"><a href="https://www.lekkerensimpel.com/hollandse-recepten/">Hollandse recepten</a></li>
+<li id="menu-item-59208" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-59208"><a href="https://www.lekkerensimpel.com/franse-keuken/">Franse recepten</a></li>
+<li id="menu-item-59209" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-59209"><a href="https://www.lekkerensimpel.com/indische-gerechten/">Indische recepten</a></li>
+<li id="menu-item-59210" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-59210"><a href="https://www.lekkerensimpel.com/marokkaanse-gerechten/">Marokkaanse recepten</a></li>
+</ul>
+</li>
+<li id="menu-item-51774" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children toggle-submenu menu-item-51774"><a href="#">Overig</a>
+<ul class="sub-menu">
+<li id="menu-item-49322" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-49322"><a href="https://www.lekkerensimpel.com/snelle-recepten/">Snelle recepten</a></li>
+<li id="menu-item-51798" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51798"><a href="https://www.lekkerensimpel.com/tag/stamppot/">Stamppot recepten</a></li>
+<li id="menu-item-51781" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51781"><a href="https://www.lekkerensimpel.com/hoofdgerechten/ovenschotels/">Ovenschotels</a></li>
+<li id="menu-item-56257" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56257"><a href="https://www.lekkerensimpel.com/pizza-recepten/">Pizza recepten</a></li>
+<li id="menu-item-64188" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-64188"><a href="https://www.lekkerensimpel.com/bowl-recepten/">Bowl recepten</a></li>
+<li id="menu-item-51799" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51799"><a href="https://www.lekkerensimpel.com/tag/hartige-taart/">Hartige taarten</a></li>
+<li id="menu-item-51775" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51775"><a href="https://www.lekkerensimpel.com/tapas-recepten/">Tapas recepten</a></li>
+<li id="menu-item-51776" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51776"><a href="https://www.lekkerensimpel.com/barbecue-recepten/">Barbecue recepten</a></li>
+<li id="menu-item-51777" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51777"><a href="https://www.lekkerensimpel.com/high-tea-recepten/">High tea recepten</a></li>
+<li id="menu-item-51778" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51778"><a href="https://www.lekkerensimpel.com/kinderrecepten/">Kinderrecepten</a></li>
+<li id="menu-item-51779" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51779"><a href="https://www.lekkerensimpel.com/familie-recepten/">Familie recepten</a></li>
+<li id="menu-item-58237" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-58237"><a href="https://www.lekkerensimpel.com/gourmet-recepten/">Gourmet recepten</a></li>
+<li id="menu-item-51780" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51780"><a href="https://www.lekkerensimpel.com/campingrecepten/">Camping recepten</a></li>
+<li id="menu-item-56894" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56894"><a href="https://www.lekkerensimpel.com/smoothie-recepten/">Smoothie recepten</a></li>
+</ul>
+</li>
+<li id="menu-item-51782" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children toggle-submenu menu-item-51782"><a href="#">Dieet</a>
+<ul class="sub-menu">
+<li id="menu-item-51783" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51783"><a href="https://www.lekkerensimpel.com/hoofdgerechten/vegetarische-recepten/">Vegetarische recepten</a></li>
+<li id="menu-item-51784" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51784"><a href="https://www.lekkerensimpel.com/vegan-recepten/">Vegan recepten</a></li>
+<li id="menu-item-51785" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51785"><a href="https://www.lekkerensimpel.com/koolhydraatarme-recepten/">Koolhydraatarme recepten</a></li>
+<li id="menu-item-54783" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-54783"><a href="https://www.lekkerensimpel.com/tag/gezonde-recepten/">Gezonde recepten</a></li>
+<li id="menu-item-55738" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-55738"><a href="https://www.lekkerensimpel.com/slanke-recepten/">Slanke recepten</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-51786" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children toggle-submenu menu-item-51786"><a href="#">Zoek op ingrediënt</a>
+<ul class="sub-menu">
+<li id="menu-item-51787" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51787"><a href="https://www.lekkerensimpel.com/tag/kip/">Kip</a></li>
+<li id="menu-item-51788" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51788"><a href="https://www.lekkerensimpel.com/tag/gehakt/">Gehakt</a></li>
+<li id="menu-item-51789" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-51789"><a href="https://www.lekkerensimpel.com/hoofdgerechten/vlees/">Vlees</a></li>
+<li id="menu-item-51790" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51790"><a href="https://www.lekkerensimpel.com/hoofdgerechten/vis/">Vis</a></li>
+<li id="menu-item-51791" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51791"><a href="https://www.lekkerensimpel.com/hoofdgerechten/aardappel-recepten/">Aardappel</a></li>
+<li id="menu-item-51792" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51792"><a href="https://www.lekkerensimpel.com/hoofdgerechten/wraps/">Wraps</a></li>
+<li id="menu-item-51793" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-51793"><a href="https://www.lekkerensimpel.com/hoofdgerechten/rijst/">Rijst</a></li>
+<li id="menu-item-51794" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51794"><a href="https://www.lekkerensimpel.com/hoofdgerechten/pasta/">Pasta</a></li>
+<li id="menu-item-51795" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51795"><a href="https://www.lekkerensimpel.com/tag/brood/">Brood</a></li>
+<li id="menu-item-59213" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59213"><a href="https://www.lekkerensimpel.com/tag/couscous/">Couscous</a></li>
+<li id="menu-item-59211" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-59211"><a href="https://www.lekkerensimpel.com/recepten-met-ei/">Ei</a></li>
+</ul>
+</li>
+<li id="menu-item-22866" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children toggle-submenu menu-item-22866"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/inspiratie/">Inspiratie</a>
+<ul class="sub-menu">
+<li id="menu-item-66874" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66874"><a href="https://www.lekkerensimpel.com/boni/">Lekker en Simpel bij Boni</a></li>
+<li id="menu-item-29575" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29575"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/inspiratie/weekmenu/">Weekmenu&#8217;s</a></li>
+<li id="menu-item-22869" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22869"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/inspiratie/kooktips2/">Kooktips</a></li>
+<li id="menu-item-22867" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22867"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/inspiratie/achterdeschermen/">Kijkje achter de schermen</a></li>
+</ul>
+</li>
+<li id="menu-item-51796" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children toggle-submenu menu-item-51796"><a href="#">Profiel</a>
+<ul class="sub-menu">
+<li id="menu-item-30176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30176"><a href="https://www.lekkerensimpel.com/profiel/">Mijn favoriete recepten</a></li>
+<li id="menu-item-30173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30173"><a href="https://www.lekkerensimpel.com/registreren/">Profiel aanmaken</a></li>
+<li id="menu-item-51837" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51837"><a href="https://www.lekkerensimpel.com/login/">Login</a></li>
+</ul>
+</li>
+<li id="menu-item-13982" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13982"><a href="https://www.lekkerensimpel.com/contact/">Contact</a></li>
+</ul>
+<a class="header__button" href="https://www.lekkerensimpel.com/login/">
+<i class="fas fa-heart"></i>
+</a>
+<button class="search-toggle" aria-controls="search-field" aria-expanded="false">
+<i class="fas fa-search"></i>
+</button>
+</nav>
+</header>
+<div class="hero">
+<a href="https://www.lekkerensimpel.com/login/" class="like-no-ajax next-to-title" data-post_id="66134"><i class="fas fa-heart"></i></a> <div class="hero__image image-placeholder">
+<picture><source data-lazy-srcset="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1-1920x920.jpg.webp" type="image/webp"><img width="1920" height="920" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%20920'%3E%3C/svg%3E" class="attachment-hero size-hero webpexpress-processed" alt="" data-lazy-src="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1-1920x920.jpg"><noscript><img width="1920" height="920" src="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1-1920x920.jpg" class="attachment-hero size-hero webpexpress-processed" alt=""></noscript></picture> </div>
+<div class="hero__inner">
+<div class="hero__content">
+<div class="grid-container">
+<h1 class="hero__title">Poké bowl met kip</h1>
+</div>
+</div>
+</div>
+</div>
+<main id="main-content" class="site-content">
+<div id="adf-billboard" style="text-align:center; margin:0 auto;"></div>
+<article id="post-66134" class="entry post-66134 post type-post status-publish format-standard has-post-thumbnail hentry category-lente-recepten category-zomer-recepten category-oosterse-recepten category-snelle-recepten category-vlees category-hoofdgerechten category-bowl-recepten category-rijst category-sushi-recepten tag-kip tag-avocado meals_categories-hoofdgerecht dish_categories-rijst nc-is-auto-shared">
+<div class="grid-container">
+<div class="show-for-small-only">
+<div class="recipe__meta">
+<ul>
+<li>
+<span class="recipe__meta-icon">
+<i class="fas fa-utensils"></i>
+</span>
+<span class="recipe__meta-title">
+Hoofdgerecht </span>
+</li>
+<li>
+<span class="recipe__meta-icon">
+<i class="fas fa-user"></i>
+</span>
+<span class="recipe__meta-title">
+2 personen </span>
+</li>
+<li>
+<span class="recipe__meta-icon">
+<i class="fas fa-clock"></i>
+</span>
+<span class="recipe__meta-title">
+35 min. bereidingstijd </span>
+</li>
+</ul>
+</div>
+</div>
+<div class="tab-toggle">
+
+</div>
+<div class="grid-x grid-padding-x">
+<div class="cell medium-8 medium-order-2" data-tab-toggle="Recept" data-tab-toggle-active>
+<div class="entry__content" data-allow-full-width="false">
+<figure class="wp-block-image size-full is-style-default"><a href="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1.jpg"><picture><source data-lazy-srcset="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1.jpg.webp 2000w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1-300x200.jpg.webp 300w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1-1024x682.jpg.webp 1024w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1-768x512.jpg.webp 768w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1-1536x1024.jpg.webp 1536w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1-640x427.jpg.webp 640w" sizes="(max-width: 2000px) 100vw, 2000px" type="image/webp"><img width="2000" height="1333" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202000%201333'%3E%3C/svg%3E" alt="poke bowl met kip" class="wp-image-66550 webpexpress-processed" data-lazy-srcset="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1.jpg 2000w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1-300x200.jpg 300w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1-1024x682.jpg 1024w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1-768x512.jpg 768w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1-1536x1024.jpg 1536w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1-640x427.jpg 640w" data-lazy-sizes="(max-width: 2000px) 100vw, 2000px" data-lazy-src="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1.jpg"><noscript><img width="2000" height="1333" src="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1.jpg" alt="poke bowl met kip" class="wp-image-66550 webpexpress-processed" srcset="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1.jpg 2000w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1-300x200.jpg 300w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1-1024x682.jpg 1024w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1-768x512.jpg 768w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1-1536x1024.jpg 1536w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1-640x427.jpg 640w" sizes="(max-width: 2000px) 100vw, 2000px"></noscript></picture></a></figure>
+<p>Een heerlijke poké bowl met kip, avocado, peen julienne en edamame bonen. Een makkelijk gerecht dat in 30 minuten op tafel staat én waarmee je heel goed kunt variëren. Voeg bijvoorbeeld eens stukjes mango toe of vervang de kip door zalm. Neem ook eens een kijkje bij onze <a href="https://www.lekkerensimpel.com/sushi-recepten/">sushi recepten</a>.</p>
+<div class="monsterinsights-inline-popular-posts monsterinsights-inline-popular-posts-beta monsterinsights-popular-posts-styled"><div class="monsterinsights-inline-popular-posts-image"><picture><source data-lazy-srcset="https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440-300x200.jpg.webp 300w, https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440-1024x682.jpg.webp 1024w, https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440-768x512.jpg.webp 768w, https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440-1536x1024.jpg.webp 1536w, https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440-640x427.jpg.webp 640w, https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440.jpg.webp 2000w" type="image/webp"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-lazy-srcset=" https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440-300x200.jpg 300w, https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440-1024x682.jpg 1024w, https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440-768x512.jpg 768w, https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440-1536x1024.jpg 1536w, https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440-640x427.jpg 640w, https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440.jpg 2000w " alt="Pompoensoep met appel" class="webpexpress-processed" data-lazy-src="https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440-300x200.jpg"><noscript><img src="https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440-300x200.jpg" srcset=" https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440-300x200.jpg 300w, https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440-1024x682.jpg 1024w, https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440-768x512.jpg 768w, https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440-1536x1024.jpg 1536w, https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440-640x427.jpg 640w, https://www.lekkerensimpel.com/wp-content/uploads/2022/01/588A9440.jpg 2000w " alt="Pompoensoep met appel" class="webpexpress-processed"></noscript></picture></div><div class="monsterinsights-inline-popular-posts-text"><span class="monsterinsights-inline-popular-posts-label">Populair recept!</span><div class="monsterinsights-inline-popular-posts-post"><a class="monsterinsights-inline-popular-posts-title" href="https://www.lekkerensimpel.com/pompoensoep-met-appel/">Pompoensoep met appel</a></div></div></div><p></p>
+<h2 id="h-aan-de-slag-met-de-poke-bowl-met-kip">aan de slag met de poke bowl met kip!</h2>
+<p>Begin met het maken van de sushirijst. Wij houden hiervoor dit <a href="https://www.lekkerensimpel.com/sushirijst-recept/">sushirijst recept</a> aan. Tip: heb je weinig tijd? Gebruik dan pandan rijst in plaats van sushi rijst. Dit is een stuk sneller klaar 😉</p>
+<ol><li>Was de sushi rijst goed voordat je &#8216;m gaat koken. Als het water helder blijft (en dus niet meer troebel is), is de rijst goed gewassen. Laat de rijst vervolgens even uitlekken.</li><li>Doe rijst met 375 ml koud water in een pan. Breng het water aan de kook en kook de rijst 2 minuten op hoog vuur. Daarna kook je de rijst nog 12 minuten op een zacht vuurtje met de deksel op de pan. Let op: laat de deksel tijdens het koken op de pan staan! Daarna zet je het vuur uit en leg je een schone theedoek over de pan. Zet de deksel vervolgens op de theedoek en laat de rijst zo nog 15 minuten staan.</li><li>Laat de rijst afkoelen tot kamertemperatuur.&nbsp;</li><li>Maak ondertussen de sushi azijn als je die niet kant-en-klaar hebt gekocht. Hiervoor doe je 1,5 eetlepel rijstazijn, 1 tl suiker en een snuf zout in een kleine pan. Verwarm dit totdat de suiker is opgelost. Laat dit vervolgens afkoelen en meng dit daarna door de sushi rijst.</li></ol>
+<p>Snijd de avocado en komkommer in plakjes/reepjes. Giet een scheutje olie in een koekenpan en bak de kipschnitzels volgens de instructies op het pak. Tip: maak ook eens de <a href="https://www.lekkerensimpel.com/zelfgemaakte-kipschnitzel/">kipschnitzels</a> zelf. Snijd de kipschnitzels daarna in plakjes. Verdeel de rijst over twee kommen. Verdeel de komkommer, kip, peen julienne, avocado en gebakken uitjes hier overheen. Als laatste verdeel je wat Japanse mayonaise en sojasaus over het geheel. </p>
+<p>Tip: ook lekker met stukjes mango. <br>Tip: ook lekker met edamame bonen.</p>
+<figure class="wp-block-image size-full is-style-default"><a href="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-scaled.jpg"><picture><source data-lazy-srcset="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-scaled.jpg.webp 1707w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-200x300.jpg.webp 200w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-683x1024.jpg.webp 683w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-768x1152.jpg.webp 768w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-1024x1536.jpg.webp 1024w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-1365x2048.jpg.webp 1365w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-640x960.jpg.webp 640w" sizes="(max-width: 1707px) 100vw, 1707px" type="image/webp"><img width="1707" height="2560" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201707%202560'%3E%3C/svg%3E" alt="poke bowl met kip" class="wp-image-66549 webpexpress-processed" data-lazy-srcset="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-scaled.jpg 1707w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-200x300.jpg 200w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-683x1024.jpg 683w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-768x1152.jpg 768w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-1024x1536.jpg 1024w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-1365x2048.jpg 1365w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-640x960.jpg 640w" data-lazy-sizes="(max-width: 1707px) 100vw, 1707px" data-lazy-src="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-scaled.jpg"><noscript><img width="1707" height="2560" src="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-scaled.jpg" alt="poke bowl met kip" class="wp-image-66549 webpexpress-processed" srcset="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-scaled.jpg 1707w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-200x300.jpg 200w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-683x1024.jpg 683w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-768x1152.jpg 768w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-1024x1536.jpg 1024w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-1365x2048.jpg 1365w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2366-1-640x960.jpg 640w" sizes="(max-width: 1707px) 100vw, 1707px"></noscript></picture></a></figure>
+<p>Bewaar het recept voor de poke bowl met kip op&nbsp;<a href="https://nl.pinterest.com/lekkerensimpel/" target="_blank" rel="noreferrer noopener">Pinterest</a>!</p>
+<figure class="wp-block-image size-full is-style-default"><a href="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-scaled.jpg"><picture><source data-lazy-srcset="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-scaled.jpg.webp 1707w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-200x300.jpg.webp 200w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-683x1024.jpg.webp 683w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-768x1152.jpg.webp 768w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-1024x1536.jpg.webp 1024w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-1365x2048.jpg.webp 1365w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-640x960.jpg.webp 640w" sizes="(max-width: 1707px) 100vw, 1707px" type="image/webp"><img width="1707" height="2560" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201707%202560'%3E%3C/svg%3E" alt="poke bowl met kip" class="wp-image-66548 webpexpress-processed" data-lazy-srcset="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-scaled.jpg 1707w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-200x300.jpg 200w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-683x1024.jpg 683w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-768x1152.jpg 768w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-1024x1536.jpg 1024w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-1365x2048.jpg 1365w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-640x960.jpg 640w" data-lazy-sizes="(max-width: 1707px) 100vw, 1707px" data-lazy-src="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-scaled.jpg"><noscript><img width="1707" height="2560" src="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-scaled.jpg" alt="poke bowl met kip" class="wp-image-66548 webpexpress-processed" srcset="https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-scaled.jpg 1707w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-200x300.jpg 200w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-683x1024.jpg 683w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-768x1152.jpg 768w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-1024x1536.jpg 1024w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-1365x2048.jpg 1365w, https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2334-1-640x960.jpg 640w" sizes="(max-width: 1707px) 100vw, 1707px"></noscript></picture></a></figure>
+<div class="wp-block-vo-heading-line"><div class="block-title h2">ook lekker:</div></div>
+<div class="wp-block-vo-recipes">
+<div class="grid-x grid-margin-x grid-margin-y">
+<div class="cell large-6 medium-6 small-12">
+<article id="post-64350" class="post-item post-64350 post type-post status-publish format-standard has-post-thumbnail hentry category-kerstrecepten category-voorgerecht-kerst category-salades category-sushi-recepten tag-voorgerecht tag-avocado tag-komkommer meals_categories-salade nc-is-auto-shared">
+<a href="https://www.lekkerensimpel.com/sushi-salade-in-een-glaasje/" rel="bookmark" class="post-item__anchor"></a>
+<div class="post-item__image image-placeholder">
+<picture><source data-lazy-srcset="https://www.lekkerensimpel.com/wp-content/uploads/2021/12/588A6874-720x400.jpg.webp" type="image/webp"><img width="720" height="400" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%20400'%3E%3C/svg%3E" class="attachment-post-item-thumbnail size-post-item-thumbnail wp-post-image webpexpress-processed" alt="Sushi salade in een glaasje" data-lazy-src="https://www.lekkerensimpel.com/wp-content/uploads/2021/12/588A6874-720x400.jpg"><noscript><img width="720" height="400" src="https://www.lekkerensimpel.com/wp-content/uploads/2021/12/588A6874-720x400.jpg" class="attachment-post-item-thumbnail size-post-item-thumbnail wp-post-image webpexpress-processed" alt="Sushi salade in een glaasje"></noscript></picture>
+<a href="https://www.lekkerensimpel.com/login/" class="like-no-ajax next-to-title" data-post_id="64350"><i class="fas fa-heart"></i></a> </div>
+<div class="post-item__inner">
+<header class="post-item__header">
+<h4 class="post-item__title">sushi salade in een glaasje</h4> </header>
+</div>
+</article>
+</div>
+<div class="cell large-6 medium-6 small-12">
+<article id="post-53979" class="post-item post-53979 post type-post status-publish format-standard has-post-thumbnail hentry category-oosterse-recepten category-snelle-recepten category-pizza-recepten category-vlees category-hoofdgerechten category-rijst category-sushi-recepten tag-rijst tag-avocado tag-komkommer tag-sushi meals_categories-hoofdgerecht dish_categories-vlees nc-is-auto-shared">
+<a href="https://www.lekkerensimpel.com/sushi-pizza/" rel="bookmark" class="post-item__anchor"></a>
+<div class="post-item__image image-placeholder">
+<picture><source data-lazy-srcset="https://www.lekkerensimpel.com/wp-content/uploads/2016/10/IMG_5850-2-720x400.jpg.webp" type="image/webp"><img width="720" height="400" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%20400'%3E%3C/svg%3E" class="attachment-post-item-thumbnail size-post-item-thumbnail wp-post-image webpexpress-processed" alt="" loading="lazy" data-lazy-src="https://www.lekkerensimpel.com/wp-content/uploads/2016/10/IMG_5850-2-720x400.jpg"><noscript><img width="720" height="400" src="https://www.lekkerensimpel.com/wp-content/uploads/2016/10/IMG_5850-2-720x400.jpg" class="attachment-post-item-thumbnail size-post-item-thumbnail wp-post-image webpexpress-processed" alt="" loading="lazy"></noscript></picture>
+<a href="https://www.lekkerensimpel.com/login/" class="like-no-ajax next-to-title" data-post_id="53979"><i class="fas fa-heart"></i></a> </div>
+<div class="post-item__inner">
+<header class="post-item__header">
+<h4 class="post-item__title">Sushi pizza</h4> </header>
+</div>
+</article>
+</div>
+</div>
+</div>
+<div style='display:none;' class='shareaholic-canvas' data-app='share_buttons' data-title='Poké bowl met kip' data-link='https://www.lekkerensimpel.com/poke-bowl-met-kip/' data-app-id-name='post_below_content'></div> </div>
+</div>
+<div class="cell medium-4 large-4 medium-order-1">
+<div class="entry__sidebar" data-tab-toggle="Benodigdheden">
+<div class="hide-for-small-only">
+<div class="recipe__meta">
+<ul>
+<li>
+<span class="recipe__meta-icon">
+<i class="fas fa-utensils"></i>
+</span>
+<span class="recipe__meta-title">
+Hoofdgerecht </span>
+</li>
+<li>
+<span class="recipe__meta-icon">
+<i class="fas fa-user"></i>
+</span>
+<span class="recipe__meta-title">
+2 personen </span>
+</li>
+<li>
+<span class="recipe__meta-icon">
+<i class="fas fa-clock"></i>
+</span>
+<span class="recipe__meta-title">
+35 min. bereidingstijd </span>
+</li>
+</ul>
+</div>
+</div>
+<div class="recipe__necessities">
+<div class="recipe__sidebar-title h3">Benodigdheden</div>
+<ul>
+<li>
+<span class="value">
+200 </span>
+ <span class="measure">
+gr </span>
+<span class="ingredient">
+sushi rijst </span>
+</li>
+<li>
+<span class="value">
+2 </span>
+<span class="measure">
+el </span>
+<span class="ingredient">
+sushi azijn </span>
+<span class="description">
+of 1,5 el rijstazijn, 1 tl suiker en een snuf zout </span>
+</li>
+<li>
+<span class="value">
+2 </span>
+<span class="ingredient">
+krokante kipschnitzels </span>
+</li>
+<li>
+<span class="value">
+1 </span>
+<span class="ingredient">
+avocado </span>
+</li>
+<li>
+<span class="value">
+100 </span>
+<span class="measure">
+gr </span>
+<span class="ingredient">
+peen julienne </span>
+</li>
+<li>
+<span class="value">
+0.5 </span>
+<span class="ingredient">
+komkommer </span>
+</li>
+<li>
+<span class="value">
+2 </span>
+<span class="measure">
+el </span>
+<span class="ingredient">
+gebakken uitjes </span>
+</li>
+<li>
+<span class="ingredient">
+Japanse mayonaise </span>
+</li>
+<li>
+<span class="ingredient">
+sojasaus </span>
+</li>
+</ul>
+</div>
+</div>
+<div class="cookbooks">
+<h2 class="cookbooks__title">Onze kookboeken</h2>
+<div class="cookbooks__inner">
+<div class="grid-x grid-margin-x">
+<div class="cell small-6 cookbook__item"><a href="https://bit.ly/3zJQtlD" target="_blank"><picture><source data-lazy-srcset="https://www.lekkerensimpel.com/wp-content/uploads/2021/09/LS-OP-VEGA-COVER-def.jpg.webp" type="image/webp"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="webpexpress-processed" data-lazy-src="https://www.lekkerensimpel.com/wp-content/uploads/2021/09/LS-OP-VEGA-COVER-def.jpg"><noscript><img src="https://www.lekkerensimpel.com/wp-content/uploads/2021/09/LS-OP-VEGA-COVER-def.jpg" class="webpexpress-processed"></noscript></picture></a></div><div class="cell small-6 cookbook__item"><a href="https://bit.ly/3xSsAbS" target="_blank"><picture><source data-lazy-srcset="https://www.lekkerensimpel.com/wp-content/uploads/2021/05/LS-OP-REIS-COVER.jpg.webp" type="image/webp"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="webpexpress-processed" data-lazy-src="https://www.lekkerensimpel.com/wp-content/uploads/2021/05/LS-OP-REIS-COVER.jpg"><noscript><img src="https://www.lekkerensimpel.com/wp-content/uploads/2021/05/LS-OP-REIS-COVER.jpg" class="webpexpress-processed"></noscript></picture></a></div><div class="cell small-6 cookbook__item"><a href="https://www.bol.com/nl/f/-/9300000001952086/?Referrer=ADVNLPPcef2a700cdbf929700ba5fa316000010823&utm_source=10823&utm_medium=Affiliates&utm_campaign=CPS&utm_content=txl" target="_blank"><picture><source data-lazy-srcset="https://www.lekkerensimpel.com/wp-content/uploads/2016/10/LS-ZOET-COVER.jpg.webp" type="image/webp"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="webpexpress-processed" data-lazy-src="https://www.lekkerensimpel.com/wp-content/uploads/2016/10/LS-ZOET-COVER.jpg"><noscript><img src="https://www.lekkerensimpel.com/wp-content/uploads/2016/10/LS-ZOET-COVER.jpg" class="webpexpress-processed"></noscript></picture></a></div><div class="cell small-6 cookbook__item"><a href="https://www.bol.com/nl/p/lekker-simpel-elke-dag/9200000115140306/?Referrer=ADVNLPPcef2a200cdbf9297004d7c8bd0000010823&utm_source=10823&utm_medium=Affiliates&utm_campaign=CPS&utm_content=txl" target="_blank"><picture><source data-lazy-srcset="https://www.lekkerensimpel.com/wp-content/uploads/2016/10/LS-ORIGINALS-COVER-1.jpg.webp" type="image/webp"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="webpexpress-processed" data-lazy-src="https://www.lekkerensimpel.com/wp-content/uploads/2016/10/LS-ORIGINALS-COVER-1.jpg"><noscript><img src="https://www.lekkerensimpel.com/wp-content/uploads/2016/10/LS-ORIGINALS-COVER-1.jpg" class="webpexpress-processed"></noscript></picture></a></div><div class="cell small-6 cookbook__item"><a href="https://www.bol.com/nl/p/lekker-simpel-1x-kopen-5x-koken/9200000078238152/?Referrer=ADVNLPPcef2a500cdbf929700eab86a3c000010823&utm_source=10823&utm_medium=Affiliates&utm_campaign=CPS&utm_content=txl" target="_blank"><picture><source data-lazy-srcset="https://www.lekkerensimpel.com/wp-content/uploads/2016/10/Schermafbeelding-2017-08-03-om-11.50.28-1.jpg.webp" type="image/webp"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="webpexpress-processed" data-lazy-src="https://www.lekkerensimpel.com/wp-content/uploads/2016/10/Schermafbeelding-2017-08-03-om-11.50.28-1.jpg"><noscript><img src="https://www.lekkerensimpel.com/wp-content/uploads/2016/10/Schermafbeelding-2017-08-03-om-11.50.28-1.jpg" class="webpexpress-processed"></noscript></picture></a></div><div class="cell small-6 cookbook__item"><a href="https://www.bol.com/nl/p/lekker-simpel/9200000059528035/?Referrer=ADVNLPPcef2a700cdbf92970004c5a006000010823&utm_source=10823&utm_medium=Affiliates&utm_campaign=CPS&utm_content=txl" target="_blank"><picture><source data-lazy-srcset="https://www.lekkerensimpel.com/wp-content/uploads/2016/10/LEKKER-EN-SIMPEL-COVER-2-1.jpg.webp" type="image/webp"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="webpexpress-processed" data-lazy-src="https://www.lekkerensimpel.com/wp-content/uploads/2016/10/LEKKER-EN-SIMPEL-COVER-2-1.jpg"><noscript><img src="https://www.lekkerensimpel.com/wp-content/uploads/2016/10/LEKKER-EN-SIMPEL-COVER-2-1.jpg" class="webpexpress-processed"></noscript></picture></a></div><div class="cell small-6 cookbook__item"><a href="https://partner.bol.com/click/click?p=2&t=url&s=10823&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Fmijn-receptenboek%2F9300000016272172%2F&name=Mijn%20receptenboek%2C%20Sofie%20Chanou" target="_blank"><picture><source data-lazy-srcset="https://www.lekkerensimpel.com/wp-content/uploads/2020/11/LS-KOOKSCHRIFT.jpg.webp" type="image/webp"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="webpexpress-processed" data-lazy-src="https://www.lekkerensimpel.com/wp-content/uploads/2020/11/LS-KOOKSCHRIFT.jpg"><noscript><img src="https://www.lekkerensimpel.com/wp-content/uploads/2020/11/LS-KOOKSCHRIFT.jpg" class="webpexpress-processed"></noscript></picture></a></div> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div class="related-posts">
+<div class="grid-container">
+<div data-widget="plista_widget_belowArticle"></div>
+<script type="text/javascript">
+            if (!window.PLISTA || !PLISTA.publickey) {
+                window.PLISTA = {
+                    publickey: "818aaddfb3e43e6ce1a1eb1f",
+                    item: {
+                        objectid: "66134>", //unique ID, alphanumeric
+                        title: "Poké bowl met kip", //max 255 characters
+                        text: "Een heerlijke poké bowl met kip, avocado, peen julienne en edamame bonen. Een makkelijk gerecht dat in 30 minuten op tafel staat én waarmee je heel goed kunt variëren. Voeg bijvoorbeeld eens stukjes mango toe of vervang de kip door [...]", //max 255 characters
+                        url: "https://www.lekkerensimpel.com/poke-bowl-met-kip/", //max 1024 characters
+                        img: "https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1.jpg", //max 255 characters
+                        category: "Lente recepten'",
+                        created_at: "1646719200" //UNIX timestamp
+                    }
+                };
+                (function(){var n="script",d=document,s=d.createElement(n),s0=d.getElementsByTagName(n)[0];
+                    s.async="async";s.type="text/javascript";s.src=(d.location.protocol==="https:" ? "https:" : "http:")+"//static.plista.com/async.js";
+                    s0.parentNode.insertBefore(s,s0)}());
+            }
+        </script>
+</div>
+</div>
+<div class="comments" id="comments">
+<div class="grid-container">
+<div class="grid-x grid-margin-x align-center">
+<div class="cell small-12 medium-8">
+<div class="comments__inner">
+<div class="comments__title h2">
+Laat een reactie achter </div>
+<div id="respond" class="comment-respond">
+<h3 id="reply-title" class="comment-reply-title">Geef een antwoord <small><a rel="nofollow" id="cancel-comment-reply-link" href="/poke-bowl-met-kip/#respond" style="display:none;">Antwoord annuleren</a></small></h3><form action="https://www.lekkerensimpel.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Het e-mailadres wordt niet gepubliceerd.</span> <span class="required-field-message" aria-hidden="true">Vereiste velden zijn gemarkeerd met <span class="required" aria-hidden="true">*</span></span></p><p class="comment-form-comment"><label for="comment">Reactie <span class="required" aria-hidden="true">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required></textarea></p><p class="comment-form-author"><label for="author">Naam <span class="required" aria-hidden="true">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required /></p>
+<p class="comment-form-email"><label for="email">E-mail <span class="required" aria-hidden="true">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required /></p>
+<p class="comment-form-url"><label for="url">Site</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Mijn naam, e-mail en site bewaren in deze browser voor de volgende keer wanneer ik een reactie plaats.</label></p>
+<p class="wpgdprc-checkbox comment-form-wpgdprc">
+<input type="checkbox" name="wpgdprc" id="wpgdprc" value="1" />
+<label for="wpgdprc">
+Wanneer je dit formulier gebruikt, ga je akkoord met de opslag en verwerking van jouw gegevens door deze website.
+<abbr class="wpgdprc-required" title="Je moet dit selectievakje accepteren">*</abbr>
+</label>
+</p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Reactie plaatsen" /> <input type='hidden' name='comment_post_ID' value='66134' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="cc5cd8a7f0" /></p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="35" /><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="adf-billboard2" style="text-align:center; margin:0 auto;"></div>
+</main>
+<footer class="site-footer">
+<div class="grid-container">
+<div class="grid-x grid-padding-x grid-margin-y">
+<div class="cell large-2 medium-4 small-6">
+<aside id="text-57" class="widget widget_text"><div class="widget__title">Recepten</div> <div class="textwidget"><div align="center">
+<div align="center"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/ontbijtrecepten/" data-mce-href="https://www.lekkerensimpel.com/lekker-en-simpel/ontbijtrecepten/">Ontbijt</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/lunchrecepten" data-mce-href="https://www.lekkerensimpel.com/lekker-en-simpel/lunchrecepten">Lunch</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/tussendoortjes/" data-mce-href="https://www.lekkerensimpel.com/lekker-en-simpel/tussendoortjes/">Tussendoortjes</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/tag/voorgerecht/" data-mce-href="https://www.lekkerensimpel.com/tag/voorgerecht/">Voorgerechten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/bijgerechten/" data-mce-href="https://www.lekkerensimpel.com/bijgerechten/">Bijgerechten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/hoofdgerechten/" data-mce-href="https://www.lekkerensimpel.com/lekker-en-simpel/hoofdgerechten/">Hoofdgerechten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/nagerechten/" data-mce-href="https://www.lekkerensimpel.com/lekker-en-simpel/nagerechten/">Desserts</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/salades/" data-mce-href="https://www.lekkerensimpel.com/lekker-en-simpel/salades/">Salades</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/dranken/" data-mce-href="https://www.lekkerensimpel.com/lekker-en-simpel/dranken/">Dranken</a></div>
+</div>
+<div align="center"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/bakken/" data-mce-href="https://www.lekkerensimpel.com/lekker-en-simpel/bakken/">Bakrecepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/salades/dressings/" data-mce-href="https://www.lekkerensimpel.com/lekker-en-simpel/salades/dressings/">Dressings en sauzen</a></div>
+<div align="center"></div>
+</div>
+</aside><aside id="text-46" class="widget widget_text"><div class="widget__title">Seizoenen</div> <div class="textwidget"><div align="center"><a href="https://www.lekkerensimpel.com/herfst-recepten/">Herfst recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/winter-recepten/">Winter recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/lente-recepten/">Lente recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/zomer-recepten/">Zomer recepten</a></div>
+</div>
+</aside> </div>
+<div class="cell large-2 medium-4 small-6">
+<aside id="text-54" class="widget widget_text"><div class="widget__title">Thema&#8217;s</div> <div class="textwidget"><div align="center"><a href="https://www.lekkerensimpel.com/snelle-recepten/">Snelle recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/recepten-weinig-ingredienten/">Recepten met weinig ingrediënten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/hoofdgerechten/soep/">Soep recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/kinderrecepten/">Kinderrecepten</a></div>
+<div align="center"><a href="http://lekkerensimpel.com/familie-recepten">Familierecepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/campingrecepten/">Campingrecepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/stamppot-recepten/">Stamppot recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/hamburger-recepten/">Hamburger recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/bowl-recepten/">Bowl recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/gourmet-recepten/">Gourmetten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/cake-recepten/">Cake recepten</a><br />
+<a href="https://www.lekkerensimpel.com/pizza-recepten/">Pizza recepten</a><br />
+<a href="https://www.lekkerensimpel.com/lekker-en-simpel/hoofdgerechten/ovenschotels/">Ovenschotels</a></div>
+<div align="center"><a href="http://lekkerensimpel.com/tag/hartige-taart">Hartige taarten</a></div>
+<div align="center">
+<div align="center"><a href="https://www.lekkerensimpel.com/tapas-recepten/">Tapas recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/themas/barbecue/">Barbecue recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/high-tea-recepten/">High-tea recepten</a></div>
+</div>
+<div align="center"><a href="https://www.lekkerensimpel.com/sushi-recepten/">Sushi recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/smoothie-recepten/">Smoothie recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/omelet-recepten/">Omelet recepten</a></div>
+</div>
+</aside> </div>
+<div class="cell large-2 medium-4 small-6">
+<aside id="text-55" class="widget widget_text"><div class="widget__title">Keukens</div> <div class="textwidget"><div align="center"><a href="https://www.lekkerensimpel.com/italiaanse-recepten">Italiaanse recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/griekse-recepten/">Griekse recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/mexicaanse-recepten/">Mexicaanse recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/amerikaanse-recepten/">Amerikaanse recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/oosterse-recepten/">Oosterse recepten</a><br />
+<a href="https://www.lekkerensimpel.com/hollandse-recepten/">Hollandse recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/spaanse-recepten/">Spaanse recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/indische-gerechten/">Indische gerechten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/marokkaanse-gerechten/">Marokkaanse gerechten</a><br />
+<a href="https://www.lekkerensimpel.com/oosterse-recepten/">Franse keuken</a></div>
+</div>
+</aside> </div>
+<div class="cell large-2 medium-4 small-6">
+<aside id="text-56" class="widget widget_text"><div class="widget__title">Ingrediënten</div> <div class="textwidget"><div align="center"><a href="https://www.lekkerensimpel.com/hoofdgerechten/aardappel-recepten/">Aardappel recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/tag/avocado">Avocado</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/tag/bladerdeeg/">Bladerdeeg</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/tag/brood/">Brood</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/tag/bloemkool/">Bloemkool</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/tag/broccoli/">Courgette</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/tag/couscous/">Couscous recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/recepten-met-ei/">Recepten met ei</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/tag/gehakt/">Gehakt recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/tag/kip/">Kip recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/tag/noedels/">Noedels</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/tag/paprika">Paprika</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/hoofdgerechten/pasta/">Pasta recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/tag/pesto">Pesto</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/tag/prei">Prei</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/hoofdgerechten/rijst/">Rijst recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/spaghetti-recepten/">Spaghetti</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/tag/tomaat">Tomaat</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/tag/tonijn/">Tonijn</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/hoofdgerechten/wraps-hoofdgerechten/">Wraps</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/tag/zalm">Zalm</a></div>
+<div align="center">
+<div align="center"></div>
+<div align="center"></div>
+<div align="center"></div>
+</div>
+</div>
+</aside> </div>
+<div class="cell large-2 medium-4 small-6">
+<aside id="text-47" class="widget widget_text"><div class="widget__title">Feestdagen</div> <div class="textwidget"><div align="center"><a href="https://www.lekkerensimpel.com/sinterklaas-recepten/">Sinterklaas recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/kerstrecepten/">Kerstrecepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/oud-en-nieuw/">Oud-en-nieuw recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/paasrecepten/">Paasrecepten</a></div>
+<div align="center"><a href="http://lekkerensimpel.com/oranje-recepten/">Koningsdag recepten</a></div>
+</div>
+</aside><aside id="text-59" class="widget widget_text"><div class="widget__title">Dieet</div> <div class="textwidget"><div align="center"><a href="https://www.lekkerensimpel.com/tag/gezonde-recepten/">Gezonde recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/slanke-recepten/">Slanke recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/koolhydraatarme-recepten/">Koolhydraatarme recepten</a></div>
+</div>
+</aside><aside id="text-60" class="widget widget_text"><div class="widget__title">Vlees, vis, vega(n)</div> <div class="textwidget"><div align="center">
+<div align="center"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/hoofdgerechten/vlees/">Vlees recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/hoofdgerechten/vis/">Vis recepten</a></div>
+<div align="center"><a href="https://www.lekkerensimpel.com/lekker-en-simpel/hoofdgerechten/vegetarisch-hoofdgerechten/">Vegetarische recepten</a><br />
+<a href="https://www.lekkerensimpel.com/vegan-recepten/">Vegan recepten</a></div>
+</div>
+<div align="center"></div>
+</div>
+</aside> </div>
+<div class="cell large-2 medium-4 small-6">
+<ul class="social-list"><li><a href="https://www.facebook.com/LekkerEnSimpelNL/" target="_blank"><i class="fab fa-facebook-square"></i> <span>Facebook</span> </a></li><li><a href="https://twitter.com/lekkerensimpel" target="_blank"><i class="fab fa-twitter-square"></i> <span>Twitter</span> </a></li><li><a href="https://www.instagram.com/lekkerensimpel/" target="_blank"><i class="fab fa-instagram-square"></i> <span>Instagram</span> </a></li><li><a href="https://www.youtube.com/lekkerensimpel" target="_blank"><i class="fab fa-youtube-square"></i> <span>Youtube</span> </a></li><li><a href="https://www.pinterest.com/lekkerensimpel/" target="_blank"><i class="fab fa-pinterest-square"></i> <span>Pinterest</span> </a></li></ul> </div>
+</div>
+<div class="site-footer__copyright">
+Copyright &copy; 2022 - Lekker en Simpel </div>
+</div>
+</footer>
+<link rel='preload' href='https://www.lekkerensimpel.com/wp-content/plugins/google-analytics-for-wordpress/assets/css/frontend.min.css?ver=8.3.4' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" type='text/css' media='all' />
+<style id='monsterinsights-popular-posts-style-inline-css' type='text/css'>
+.monsterinsights-inline-popular-posts.monsterinsights-popular-posts-styled.monsterinsights-inline-popular-posts-beta .monsterinsights-inline-popular-posts-label {}
+</style>
+<script data-minify="1" type='text/javascript' src='https://www.lekkerensimpel.com/wp-content/cache/min/1/wp-content/plugins/page-links-to/dist/new-tab.js?ver=1645527624' id='page-links-to-js'></script>
+<script type='text/javascript' src='https://www.lekkerensimpel.com/wp-includes/js/comment-reply.min.js' id='comment-reply-js'></script>
+<script type='text/javascript' id='vo.app-js-extra'>
+/* <![CDATA[ */
+var vo = {"ajaxURL":"https:\/\/www.lekkerensimpel.com\/wp-admin\/admin-ajax.php","ajaxSecurity":"6ab4650c60","pageNr":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.lekkerensimpel.com/wp-content/themes/vo-theme/assets/js/app.min.js?ver=1646217243' id='vo.app-js'></script>
+<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://www.lekkerensimpel.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.5/lazyload.min.js"></script><script>function lazyLoadThumb(e){var t='<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="play Youtube video"></button>';return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?'':'&'+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var e,t,p,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)e=document.createElement("div"),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query", a[t].dataset.query),e.setAttribute("data-src", a[t].dataset.src),e.innerHTML=lazyLoadThumb(a[t].dataset.id),a[t].appendChild(e),p=e.querySelector('.play'),p.onclick=lazyLoadYoutubeIframe});</script><script>"use strict";var wprRemoveCPCSS=function wprRemoveCPCSS(){var elem;document.querySelector('link[data-rocket-async="style"][rel="preload"]')?setTimeout(wprRemoveCPCSS,200):(elem=document.getElementById("rocket-critical-css"))&&"remove"in elem&&elem.remove()};window.addEventListener?window.addEventListener("load",wprRemoveCPCSS):window.attachEvent&&window.attachEvent("onload",wprRemoveCPCSS);</script><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla%3A400%2C700%7CRaleway%3A700&#038;display=swap" /><link rel='stylesheet' id='wp-block-library-css'  href='https://www.lekkerensimpel.com/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='newsletter-css'  href='https://www.lekkerensimpel.com/wp-content/cache/min/1/wp-content/plugins/newsletter/style.css?ver=1645527624' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='wpgdprc-front-css-css'  href='https://www.lekkerensimpel.com/wp-content/cache/min/1/wp-content/plugins/wp-gdpr-compliance/Assets/css/front.css?ver=1645527624' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='vo.stylesheet-css'  href='https://www.lekkerensimpel.com/wp-content/cache/min/1/wp-content/themes/vo-theme/style.css?ver=1645527624' type='text/css' media='all' /><link rel='stylesheet' id='monsterinsights-popular-posts-style-css'  href='https://www.lekkerensimpel.com/wp-content/plugins/google-analytics-for-wordpress/assets/css/frontend.min.css?ver=8.3.4' type='text/css' media='all' /></noscript></body>
+</html>

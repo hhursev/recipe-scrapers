@@ -1,5 +1,4 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
 
 
 class ThePioneerWoman(AbstractScraper):
@@ -8,27 +7,40 @@ class ThePioneerWoman(AbstractScraper):
         return "thepioneerwoman.com"
 
     def title(self):
-        return self.soup.find("h3", {"class": "recipe-title"}).get_text()
+        return self.schema.title()
 
     def total_time(self):
-        return sum(
-            [
-                get_minutes(dd)
-                for dd in self.soup.find(
-                    "div", {"class": "recipe-summary-time"}
-                ).findAll("dd")
-            ]
-        )
+        return self.schema.total_time()
 
     def yields(self):
-        return get_yields(self.soup.find("span", {"itemprop": "recipeYield"}))
+        return self.schema.yields()
+
+    def image(self):
+        return self.schema.image()
 
     def ingredients(self):
-        ingredients = self.soup.find("ul", {"class": "list-ingredients"}).findAll("li")
-
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        return self.schema.ingredients()
 
     def instructions(self):
-        instructions = self.soup.findAll("div", {"class": "panel-body"})[-1]
+        return self.schema.instructions()
 
-        return normalize_string(instructions.get_text()).replace(".", ".\n")
+    def category(self):
+        return self.schema.category()
+
+    def cook_time(self):
+        return self.schema.cook_time()
+
+    def prep_time(self):
+        return self.schema.prep_time()
+
+    def ratings(self):
+        return self.schema.ratings()
+
+    def author(self):
+        return self.schema.author()
+
+    def cuisine(self):
+        return self.schema.cuisine()
+
+    def description(self):
+        return self.schema.description()

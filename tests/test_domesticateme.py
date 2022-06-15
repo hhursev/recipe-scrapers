@@ -7,7 +7,7 @@ class TestDomesticateMeScraper(ScraperTest):
     scraper_class = DomesticateMe
 
     def test_host(self):
-        self.assertEqual("https://domesticate-me.com/", self.harvester_class.host())
+        self.assertEqual("domesticate-me.com", self.harvester_class.host())
 
     def test_canonical_url(self):
         self.assertEqual(
@@ -21,7 +21,7 @@ class TestDomesticateMeScraper(ScraperTest):
         )
 
     def test_yields(self):
-        self.assertEqual("4 serving(s)", self.harvester_class.yields())
+        self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(

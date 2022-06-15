@@ -22,7 +22,7 @@ class TestSimplyWhiskedScraper(ScraperTest):
         self.assertEqual(45, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("8 serving(s)", self.harvester_class.yields())
+        self.assertEqual("8 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
         self.assertCountEqual(
@@ -50,4 +50,10 @@ class TestSimplyWhiskedScraper(ScraperTest):
         return self.assertEqual(
             "In a large stockpot or dutch oven *affiliate link, heat olive oil to medium-high. Add the bell pepper, onion, celery and garlic. Sauté until onions are translucent, about 5 minutes.\nAdd ground chicken. Breaking up the meat as chicken browns, cook until no longer pink, about 5 minutes.\nAdd water, tomatoes, beans, chili powder, cumin, bay leaf, buffalo sauce, and salt & pepper. Bring to a simmer.\nCover and allow chili to cook for at least 15 minutes, simmering to desired thickness.\nBefore serving, remove bay leaf and adjust seasoning with salt & pepper, to taste.",
             self.harvester_class.instructions(),
+        )
+
+    def test_image(self):
+        return self.assertEqual(
+            "https://www.simplywhisked.com/wp-content/uploads/2016/02/Buffalo-Chicken-Chili-4-1-225x225.jpg",
+            self.harvester_class.image(),
         )

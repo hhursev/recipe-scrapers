@@ -1,5 +1,3 @@
-from bs4 import BeautifulSoup
-
 from ._abstract import AbstractScraper
 
 
@@ -24,6 +22,4 @@ class BBCGoodFood(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        inst = str(self.schema.instructions())
-        instSoup = BeautifulSoup(inst, features="html.parser")
-        return instSoup.text
+        return self.schema.instructions()

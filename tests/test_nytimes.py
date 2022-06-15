@@ -31,13 +31,9 @@ class TestNYTimesScraper(ScraperTest):
         self.assertEqual(45, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.skipTest(
-            reason="Re-enable when harvester produces expected 'yields' output"
-        )
-        self.assertEqual("160 item(s)", self.harvester_class.yields())
+        self.assertEqual("160 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.maxDiff = None
         self.assertCountEqual(
             [
                 "1 1/2 cups/190 grams unbleached all-purpose flour (see Tip)",
