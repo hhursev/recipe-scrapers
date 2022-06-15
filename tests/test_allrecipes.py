@@ -103,7 +103,7 @@ class TestAllRecipesUserScraper(ScraperTest):
         self.assertEqual(5, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("1 serving(s)", self.harvester_class.yields())
+        self.assertEqual("1 serving", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
@@ -135,3 +135,9 @@ class TestAllRecipesUserScraper(ScraperTest):
 
     def test_ratings(self):
         return self.assertIsNone(self.harvester_class.ratings())
+
+    def test_cuisine(self):
+        self.assertEqual("", self.harvester_class.cuisine())
+
+    def test_category(self):
+        self.assertEqual("", self.harvester_class.category())

@@ -136,17 +136,46 @@ class AllRecipesUser(AbstractScraper):
         lacks_rating = self.soup.find("a", {"class": "no-ratings"})
         if lacks_rating:
             return None
-        ratings = self.soup.find()
+
+        ratings = self.soup.find("span", {"class": "review-star-text"})
+        return float(ratings.text.strip("Ratings:").strip("stars"))
 
     def author(self):
         author = self.soup.find("span", {"class": "author-name"}).text
         return author
 
     def reviews(self):
-        return self.soup.find("span", {"class": "review-star-text"})
+        """Return a list of dictionaries containing reviews.
+
+        Each dictionary contains the author, datePublished, reviewRating, reviewBody.
+        These keys follow the JSON-LD format.
+        """
+        reviews = []
+        for element in zip(
+            self.soup.findAll("span", {"class": "reviewer__name"}),  # name
+            self.soup.findAll("span", {"class": "feedback__reviewDate"}),  # date
+            self.soup.findAll("span", {"class": "review-star-text"}),  # rating
+            self.soup.findAll("div", {"class": "feedback__reviewBody"}),  # comment
+        ):
+            name, date, rating, comment = element
+            name = normalize_string(name.text)
+            date = date.text
+            # The value is "Ratings: 4 stars"
+            rating = float(rating.text.strip("Ratings:").strip("stars"))
+            comment = normalize_string(comment.text)
+
+            reviews.append(
+                {
+                    "author": name,
+                    "datePublished": date,
+                    "reviewRating": rating,
+                    "reviewBody": comment,
+                }
+            )
+        return reviews
 
     def cuisine(self):
-        return None
+        return ""
 
     def category(self):
-        return None
+        return ""
