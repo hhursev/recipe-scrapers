@@ -58,3 +58,58 @@ class TestAllRecipesScraper(ScraperTest):
 
     def test_ratings(self):
         self.assertEqual(4.8, self.harvester_class.ratings())
+
+
+class TestAllRecipesUserScraper(ScraperTest):
+
+    scraper_class = AllRecipesUser
+
+    def test_host(self):
+        self.assertEqual("allrecipes.com/cook", self.harvester_class.host())
+
+    def test_author(self):
+        self.assertEqual("AOSWALT", self.harvester_class.author())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+        "https://www.allrecipes.com/cook/1052065/recipe/78989010-fddc-3e4a-b54f-10e3ad110564",
+        self.harvester_class.canonical_url(),
+        )
+
+    def test_title(self):
+        self.assertEqual(self.harvester_class.title(), "Amy's Fabulous Meat Rub")
+
+    def test_total_time(self):
+        self.assertEqual(5, self.harvester_class.total_time())
+
+    def test_yields(self):
+        self.assertEqual("1 serving(s)", self.harvester_class.yields())
+
+    def test_image(self):
+        self.assertEqual(
+            "https://www.allrecipes.com/img/misc/og-default.png",
+            self.harvester_class.image(),
+        )
+
+    def test_ingredients(self):
+        self.assertCountEqual(
+            ["2 tablespoons white sugar",
+             "1 tablespoon brown sugar",
+             "1 1/2 tsp garlic powder",
+             "1 1/2 tsp chili powder",
+             "1 1/2 tsp paprika",
+             "1 1/2 tsp ground cumin",
+             "1 tsp salt",
+             "1 tsp onion powder",
+             "1 1/2 tsp ground black pepper"],
+            self.harvester_class.ingredients(),
+        )
+
+    def test_instructions(self):
+        return self.assertEqual(
+            "In a small bowl, combine all ingredients. Rub down your choice of meat, and let marinate for at least an hour.",
+            self.harvester_class.instructions(),
+        )
+
+    def test_ratings(self):
+        return self.assertIsNone(self.harvester_class.ratings())

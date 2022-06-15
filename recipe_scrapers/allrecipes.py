@@ -40,3 +40,80 @@ class AllRecipes(AbstractScraper):
 
     def ratings(self):
         return self.schema.ratings()
+
+
+class AllRecipesUser(AbstractScraper):
+    """Parse "unpublished" personal recipes on AllRecipes.com.
+
+    Unpublised recipes are not structured, unlike curated recipes.
+    Certain information is not always available, as it relies on what the
+    users provided.
+    """
+    @classmethod
+    def host(cls):
+        return "allrecipes.com/cook"
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+        # meta contains servings and yields, as well as preparation, cooking,
+        # and total times
+        # Possible keys are 'servings', 'yield', 'cook', 'prep', 'total'
+        meta = zip(
+            self.soup.findAll('div', {'class': 'recipe-meta-item-header'}),
+            self.soup.findAll('div', {'class': 'recipe-meta-item-body'})
+        )
+        self.meta = {k.text.lower().strip(':'): normalize_string(v.text)
+                     for k, v in meta}
+
+    def title(self):
+        title = self.soup.find('h1', {'class': 'heading-content'}).text
+        return title
+
+    def total_time(self):
+        if 'total' in self.meta:
+            total_time = get_minutes(self.meta['total'],
+                                     return_zero_on_not_found=True)
+        else:
+            total_time = (get_minutes(self.meta.get('cook', 0)) +
+                          get_minutes(self.meta.get('prep', 0)))
+        return total_time
+
+    def yields(self):
+        yield_data = self.meta.get('yield')
+        if yield_data is None:
+            yield_data = self.meta.get('servings')
+        return get_yields(yield_data)
+
+    def image(self):
+        image = self.soup.find('div',
+                               {'class': 'lead-media', 'data-src': True})
+        image = image.get('data-src')
+        return image
+
+    def nutrients(self):
+        raise NotImplementedError("Not available for personal recipes.")
+
+    def ingredients(self):
+        ingredients = self.soup.findAll('span',
+                                        {'class': 'ingredients-item-name'})
+        ingredients = [normalize_string(i.text) for i in ingredients]
+        return ingredients
+
+    def instructions(self):
+        instructions = self.soup.findAll('div', {'class': 'paragraph'})
+        instructions = "\n".join(normalize_string(i.text) for i in instructions)
+        return instructions
+
+    def ratings(self):
+        lacks_rating = self.soup.find('a', {'class': 'no-ratings'})
+        if lacks_rating:
+            return None
+        ratings = self.soup.find()
+
+    def author(self):
+        author = self.soup.find('span', {'class': 'author-name'}).text
+        return author
+
+    def reviews(self):
+        return self.soup.find('span', {'class': 'review-star-text'})
