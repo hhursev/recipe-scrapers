@@ -92,7 +92,7 @@ class AllRecipesUser(AbstractScraper):
             self.soup.findAll("div", {"class": "recipe-meta-item-body"}),
         )
         self.meta = {
-            k.text.lower().strip(":"): normalize_string(v.text) for k, v in meta
+            k.text.lower().rstrip(":"): normalize_string(v.text) for k, v in meta
         }
 
     def title(self):
@@ -138,7 +138,7 @@ class AllRecipesUser(AbstractScraper):
             return None
 
         ratings = self.soup.find("span", {"class": "review-star-text"})
-        return float(ratings.text.strip("Ratings:").strip("stars"))
+        return float(ratings.text.lstrip("Ratings:").rstrip("stars"))
 
     def author(self):
         author = self.soup.find("span", {"class": "author-name"}).text
@@ -161,7 +161,7 @@ class AllRecipesUser(AbstractScraper):
             name = normalize_string(name.text)
             date = date.text
             # The value is "Ratings: 4 stars"
-            rating = float(rating.text.strip("Ratings:").strip("stars"))
+            rating = float(rating.text.lstrip("Ratings:").rstrip("stars"))
             comment = normalize_string(comment.text)
 
             reviews.append(
