@@ -175,7 +175,7 @@ class AllRecipesUser(AbstractScraper):
         return reviews
 
     def cuisine(self):
-        return ""
+        return None
 
     def category(self):
-        return ""
+        return None

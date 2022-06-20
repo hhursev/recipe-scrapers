@@ -137,7 +137,7 @@ class TestAllRecipesUserScraper(ScraperTest):
         return self.assertIsNone(self.harvester_class.ratings())
 
     def test_cuisine(self):
-        self.assertEqual("", self.harvester_class.cuisine())
+        self.assertEqual(None, self.harvester_class.cuisine())
 
     def test_category(self):
-        self.assertEqual("", self.harvester_class.category())
+        self.assertEqual(None, self.harvester_class.category())
