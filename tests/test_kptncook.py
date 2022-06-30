@@ -1,7 +1,6 @@
 import responses
 
 from recipe_scrapers.kptncook import KptnCook
-
 from tests import ScraperTest
 
 
@@ -69,10 +68,10 @@ class TestKptnCookScraper(ScraperTest):
         self.assertEqual(instructions, self.harvester_class.instructions())
 
     def test_ratings(self):
-        self.assertEqual("", self.harvester_class.ratings())
+        self.assertEqual(None, self.harvester_class.ratings())
 
     def test_cuisine(self):
-        self.assertEqual("", self.harvester_class.cuisine())
+        self.assertEqual(None, self.harvester_class.cuisine())
 
     def test_description(self):
         self.assertEqual(
