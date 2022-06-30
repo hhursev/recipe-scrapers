@@ -1,4 +1,3 @@
-import json
 from urllib.parse import parse_qs, urlparse
 
 import requests
@@ -16,12 +15,7 @@ KPTN_DEFAULT_LANGUAGE = "en"
 class KptnCook(AbstractScraper):
     def __init__(self, url, *args, **kwargs):
         super().__init__(url, *args, **kwargs)
-        if urlparse(url).hostname == "mobile.kptncook.com":
-            parsed_url = urlparse(url)
-        else:
-            # If it's a sharing.kptncook.com/* link we first need to follow the http forwards to get the recipe ID
-            recipe_request = requests.get(url, headers=HEADERS)
-            parsed_url = urlparse(recipe_request.url)
+        parsed_url = urlparse(self.url)
         # Extract language from URL
         query = parse_qs(parsed_url.query)
         self.lang = query["lang"][0] if "lang" in query else KPTN_DEFAULT_LANGUAGE
@@ -36,9 +30,9 @@ class KptnCook(AbstractScraper):
         # Request the final recipe json from the kptncook api
         api_url = f"https://mobile.kptncook.com/recipes/search?kptnkey=6q7QNKy-oIgk-IMuWisJ-jfN7s6&lang={self.lang}"
         json_request_body = [{"uid": recipe_uid}]
-        self.recipe_json = json.loads(
-            requests.post(api_url, headers=HEADERS, json=json_request_body).content
-        )[0]
+        self.recipe_json = requests.post(
+            api_url, headers=HEADERS, json=json_request_body
+        ).json()[0]
 
     @classmethod
     def host(self, subdomain="mobile"):
@@ -103,10 +97,10 @@ class KptnCook(AbstractScraper):
         return "\n".join(step["title"] for step in self.recipe_json["steps"])
 
     def ratings(self):
-        return ""
+        return None
 
     def cuisine(self):
-        return ""
+        return None
 
     def description(self):
         return self.recipe_json["authorComment"]
