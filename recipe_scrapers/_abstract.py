@@ -36,7 +36,6 @@ class AbstractScraper:
                 headers=HEADERS,
                 proxies=proxies,
                 timeout=timeout,
-                allow_redirects=True,
             )
             self.page_data = resp.content
             self.url = resp.url
