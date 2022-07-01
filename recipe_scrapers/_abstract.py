@@ -29,14 +29,19 @@ class AbstractScraper:
     ):
         if html:
             self.page_data = html
+            self.url = url
         else:
-            self.page_data = requests.get(
-                url, headers=HEADERS, proxies=proxies, timeout=timeout
-            ).content
+            resp = requests.get(
+                url,
+                headers=HEADERS,
+                proxies=proxies,
+                timeout=timeout,
+            )
+            self.page_data = resp.content
+            self.url = resp.url
 
         self.wild_mode = wild_mode
         self.soup = BeautifulSoup(self.page_data, "html.parser")
-        self.url = url
         self.schema = SchemaOrg(self.page_data)
 
         # attach the plugins as instructed in settings.PLUGINS
