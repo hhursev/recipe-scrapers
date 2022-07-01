@@ -33,7 +33,15 @@ class SchemaOrg:
 
         low_schema = {s.lower() for s in SCHEMA_NAMES}
         for syntax in SYNTAXES:
-            for item in data.get(syntax, []):
+            # make sure entries of type Recipe are always parsed first
+            syntax_data = data.get(syntax, [])
+            try:
+                index = [x.get("@type", "") for x in syntax_data].index("Recipe")
+                syntax_data.insert(0, syntax_data.pop(index))
+            except ValueError:
+                pass
+
+            for item in syntax_data:
                 in_context = SCHEMA_ORG_HOST in item.get("@context", "")
                 item_type = item.get("@type", "")
                 if isinstance(item_type, list):
