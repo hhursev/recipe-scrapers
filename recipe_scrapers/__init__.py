@@ -20,7 +20,6 @@ from .bakingmischeif import BakingMischeif
 from .bakingsense import BakingSense
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
-from .bettybossi import BettyBossi
 from .bettycrocker import BettyCrocker
 from .bigoven import BigOven
 from .blueapron import BlueApron
@@ -220,7 +219,6 @@ SCRAPERS = {
     BBCGoodFood.host(): BBCGoodFood,
     BakingSense.host(): BakingSense,
     BakingMischeif.host(): BakingMischeif,
-    BettyBossi.host(): BettyBossi,
     BettyCrocker.host(): BettyCrocker,
     BigOven.host(): BigOven,
     BlueApron.host(): BlueApron,
