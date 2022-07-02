@@ -15,7 +15,7 @@ class TestComidinhasDoChefScraper(ScraperTest):
         self.assertEqual("Pernil de Cordeiro com Vinho", self.harvester_class.title())
 
     def test_total_time(self):
-        self.assertEqual(None, self.harvester_class.total_time())
+        self.assertEqual(105, self.harvester_class.total_time())
 
     def test_yields(self):
         self.assertEqual("6 porções", self.harvester_class.yields())
