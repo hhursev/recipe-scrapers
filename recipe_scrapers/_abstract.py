@@ -1,6 +1,6 @@
 import inspect
 from collections import OrderedDict
-from typing import Optional, Tuple, Union
+from typing import Dict, Optional, Tuple, Union
 from urllib.parse import urljoin
 
 import requests
@@ -20,7 +20,9 @@ class AbstractScraper:
     def __init__(
         self,
         url,
-        proxies: Optional[str] = None,  # allows us to specify optional proxy server
+        proxies: Optional[
+            Dict[str, str]
+        ] = None,  # allows us to specify optional proxy server
         timeout: Optional[
             Union[float, Tuple, None]
         ] = None,  # allows us to specify optional timeout for request
