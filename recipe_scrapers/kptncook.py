@@ -13,8 +13,8 @@ KPTN_DEFAULT_LANGUAGE = "en"
 
 
 class KptnCook(AbstractScraper):
-    def __init__(self, url, *args, **kwargs):
-        super().__init__(url, *args, **kwargs)
+    def __init__(self, url, proxies=None, timeout=None, *args, **kwargs):
+        super().__init__(url, proxies=proxies, timeout=timeout, *args, **kwargs)
         parsed_url = urlparse(self.url)
         # Extract language from URL
         query = parse_qs(parsed_url.query)
@@ -31,7 +31,11 @@ class KptnCook(AbstractScraper):
         api_url = f"https://mobile.kptncook.com/recipes/search?kptnkey=6q7QNKy-oIgk-IMuWisJ-jfN7s6&lang={self.lang}"
         json_request_body = [{"uid": recipe_uid}]
         self.recipe_json = requests.post(
-            api_url, headers=HEADERS, json=json_request_body
+            api_url,
+            headers=HEADERS,
+            proxies=proxies,
+            timeout=timeout,
+            json=json_request_body,
         ).json()[0]
 
     @classmethod
