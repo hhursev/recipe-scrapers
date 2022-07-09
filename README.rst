@@ -87,6 +87,7 @@ Scrapers available for:
 - `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
 - `https://alltommat.se/ <https://alltommat.se/>`_
+- `https://altonbrown.com/ <https://altonbrown.com/>`_
 - `https://amazingribs.com/ <https://amazingribs.com/>`_
 - `https://ambitiouskitchen.com/ <https://ambitiouskitchen.com>`_
 - `https://archanaskitchen.com/ <https://archanaskitchen.com/>`_

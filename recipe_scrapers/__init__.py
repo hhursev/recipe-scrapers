@@ -11,6 +11,7 @@ from .afghankitchenrecipes import AfghanKitchenRecipes
 from .akispetretzikis import AkisPetretzikis
 from .allrecipes import AllRecipes
 from .alltomat import AllTomat
+from .altonbrown import AltonBrown
 from .amazingribs import AmazingRibs
 from .ambitiouskitchen import AmbitiousKitchen
 from .archanaskitchen import ArchanasKitchen
@@ -210,6 +211,7 @@ SCRAPERS = {
     AkisPetretzikis.host(): AkisPetretzikis,
     AllRecipes.host(): AllRecipes,
     AllTomat.host(): AllTomat,
+    AltonBrown.host(): AltonBrown,
     AmazingRibs.host(): AmazingRibs,
     AmbitiousKitchen.host(): AmbitiousKitchen,
     ArchanasKitchen.host(): ArchanasKitchen,
