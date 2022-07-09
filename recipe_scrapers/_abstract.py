@@ -19,7 +19,7 @@ HEADERS = {
 class AbstractScraper:
     def __init__(
         self,
-        url,
+        url: Union[str, None],
         proxies: Optional[
             Dict[str, str]
         ] = None,  # allows us to specify optional proxy server

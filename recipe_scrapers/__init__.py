@@ -84,8 +84,8 @@ from .hellofresh import HelloFresh
 from .homechef import HomeChef
 from .hostthetoast import Hostthetoast
 from .hundredandonecookbooks import HundredAndOneCookbooks
-from .imworthy import ImWorthy
 from .ig import IG
+from .imworthy import ImWorthy
 from .indianhealthyrecipes import IndianHealthyRecipes
 from .innit import Innit
 from .inspiralized import Inspiralized
@@ -454,7 +454,8 @@ def scrape_html(html: str, org_url: Optional[str] = None, **options) -> Abstract
     Returns:
         AbstractScraper:
     """
-    host_name = get_host_name(org_url) if org_url else None
+
+    host_name = get_host_name(org_url) if org_url is not None else None
 
     scraper = None
     if host_name:
