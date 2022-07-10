@@ -112,6 +112,7 @@ from .littlespicejar import LittleSpiceJar
 from .livelytable import LivelyTable
 from .lovingitvegan import Lovingitvegan
 from .madensverden import MadensVerden
+from .madewithlau import MadeWithLau
 from .marleyspoon import MarleySpoon
 from .marmiton import Marmiton
 from .marthastewart import MarthaStewart
@@ -319,6 +320,7 @@ SCRAPERS = {
     LivelyTable.host(): LivelyTable,
     Lovingitvegan.host(): Lovingitvegan,
     MadensVerden.host(): MadensVerden,
+    MadeWithLau.host(): MadeWithLau,
     MarleySpoon.host(): MarleySpoon,
     MarleySpoon.host(domain="de"): MarleySpoon,
     MarleySpoon.host(domain="com.au"): MarleySpoon,
