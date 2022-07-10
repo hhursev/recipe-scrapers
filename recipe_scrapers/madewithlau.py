@@ -56,7 +56,10 @@ class MadeWithLau(AbstractScraper):
         instructions = [
             p
             for pair in zip(headers, step_sets)
-            for p in [pair[0], *pair[1].find("div")]
+            for p in [
+                pair[0],
+                *(pair[1].find("div") if pair[1].find("div") else pair[1]),
+            ]
         ]
 
         return "\n".join(
