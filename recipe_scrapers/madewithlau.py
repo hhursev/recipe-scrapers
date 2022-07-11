@@ -58,7 +58,7 @@ class MadeWithLau(AbstractScraper):
             for pair in zip(headers, step_sets)
             for p in [
                 pair[0],
-                *(pair[1].find("div") if pair[1].find("div") else pair[1]),
+                *(pair[1].find("div") or pair[1]),
             ]
         ]
 
