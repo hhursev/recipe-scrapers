@@ -136,6 +136,13 @@ class AbstractScraper:
     def instructions(self):
         raise NotImplementedError("This should be implemented.")
 
+    def instructions_list(self):
+        return [
+            instruction
+            for instruction in self.instructions().split("\n")
+            if instruction
+        ]
+
     def ratings(self):
         raise NotImplementedError("This should be implemented.")
 
