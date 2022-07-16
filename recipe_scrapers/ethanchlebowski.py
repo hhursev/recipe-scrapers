@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 
+
 class EthanChlebowski(AbstractScraper):
     @classmethod
     def host(cls):
