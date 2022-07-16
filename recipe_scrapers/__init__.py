@@ -56,6 +56,7 @@ from .eatingwell import EatingWell
 from .eatsmarter import Eatsmarter
 from .eatwhattonight import EatWhatTonight
 from .epicurious import Epicurious
+from .ethanchlebowski import EthanChlebowski
 from .farmhousedelivery import FarmhouseDelivery
 from .fifteenspatulas import FifteenSpatulas
 from .finedininglovers import FineDiningLovers
@@ -259,6 +260,7 @@ SCRAPERS = {
     Eatsmarter.host(): Eatsmarter,
     Eatsmarter.host(domain="de"): Eatsmarter,
     Epicurious.host(): Epicurious,
+    EthanChlebowski.host(): EthanChlebowski,
     FarmhouseDelivery.host(): FarmhouseDelivery,
     FifteenSpatulas.host(): FifteenSpatulas,
     FineDiningLovers.host(): FineDiningLovers,
