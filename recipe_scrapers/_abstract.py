@@ -134,9 +134,11 @@ class AbstractScraper:
         raise NotImplementedError("This should be implemented.")
 
     def instructions(self) -> str:
+        """instructions to prepare the recipe"""
         raise NotImplementedError("This should be implemented.")
 
     def instructions_list(self) -> List:
+        """instructions to prepare the recipe"""
         return [
             instruction
             for instruction in self.instructions().split("\n")
