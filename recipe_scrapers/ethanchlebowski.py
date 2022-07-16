@@ -38,4 +38,4 @@ class EthanChlebowski(AbstractScraper):
         return None
 
     def description(self):
-        return None
+        return self.soup.head.find("meta", {"property": "og:description"})["content"] 
