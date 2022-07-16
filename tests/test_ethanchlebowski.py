@@ -56,4 +56,7 @@ class TestEthanChlebowskiScraper(ScraperTest):
         self.assertEqual(None, self.harvester_class.cuisine())
 
     def test_description(self):
-        self.assertEqual("Huevos rancheros are one of the simplest and most common breakfasts in Mexico, all you have to do is make the salsa ranchera, pair it with some fried tortillas and eggs and it's ready.", self.harvester_class.description())
+        self.assertEqual(
+            "Huevos rancheros are one of the simplest and most common breakfasts in Mexico, all you have to do is make the salsa ranchera, pair it with some fried tortillas and eggs and it's ready.",
+            self.harvester_class.description(),
+        )
