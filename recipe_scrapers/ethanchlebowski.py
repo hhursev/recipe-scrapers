@@ -29,7 +29,7 @@ class EthanChlebowski(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        return self.schema.instructions().split("\n")
+        return self.schema.instructions()
 
     def ratings(self):
         return None
