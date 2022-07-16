@@ -1,6 +1,6 @@
 import inspect
 from collections import OrderedDict
-from typing import Dict, Optional, Tuple, Union
+from typing import Dict, List, Optional, Tuple, Union
 from urllib.parse import urljoin
 
 import requests
@@ -133,10 +133,10 @@ class AbstractScraper:
     def ingredients(self):
         raise NotImplementedError("This should be implemented.")
 
-    def instructions(self):
+    def instructions(self) -> str:
         raise NotImplementedError("This should be implemented.")
 
-    def instructions_list(self):
+    def instructions_list(self) -> List:
         return [
             instruction
             for instruction in self.instructions().split("\n")
