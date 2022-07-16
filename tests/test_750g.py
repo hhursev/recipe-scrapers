@@ -43,14 +43,18 @@ class TestG750gScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            """Étape 1 : Cuisson des carottes\nDécoupez les carottes en rondelles et faites-les revenir à feu moyen à l'huile d'olive avec les graines de coriandre grossièrement concassées.
-\nDéglacez au jus d'orange.
-\nAjoutez la branche de thym ainsi que l'assaisonnement.
-\nLaissez cuire avec un couvercle une dizaine de minutes puis laissez refroidir. Étape 2 : Préparation de la salade\nRâpez les carottes.
-\nDans un saladier, mélangez les carottes râpées, les carottes cuites, le fenouil et les oranges en cubes.
-\nAjoutez la vinaigrette et mélangez.
-\nAjoutez la coriandre ciselée et le piment d'espelette.""",
-            self.harvester_class.instructions(),
+            [
+                "Étape 1 : Cuisson des carottes",
+                "Découpez les carottes en rondelles et faites-les revenir à feu moyen à l'huile d'olive avec les graines de coriandre grossièrement concassées.",
+                "Déglacez au jus d'orange.",
+                "Ajoutez la branche de thym ainsi que l'assaisonnement.",
+                "Laissez cuire avec un couvercle une dizaine de minutes puis laissez refroidir. Étape 2 : Préparation de la salade",
+                "Râpez les carottes.",
+                "Dans un saladier, mélangez les carottes râpées, les carottes cuites, le fenouil et les oranges en cubes.",
+                "Ajoutez la vinaigrette et mélangez.",
+                "Ajoutez la coriandre ciselée et le piment d'espelette.",
+            ],
+            self.harvester_class.instructions_list(),
         )
