@@ -34,10 +34,16 @@ class TestLekkerEnSimpelScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
-        self.assertIn(
-            "Een heerlijke poké bowl met kip, avocado",
-            self.harvester_class.instructions(),
+    def test_instructions_list(self):
+        self.assertEqual(
+            [
+                "Een heerlijke poké bowl met kip, avocado, peen julienne en edamame bonen. Een makkelijk gerecht dat in 30 minuten op tafel staat én waarmee je heel goed kunt variëren. Voeg bijvoorbeeld eens stukjes mango toe of vervang de kip door zalm. Neem ook eens een kijkje bij onze sushi recepten.",
+                "Begin met het maken van de sushirijst. Wij houden hiervoor dit sushirijst recept aan. Tip: heb je weinig tijd? Gebruik dan pandan rijst in plaats van sushi rijst. Dit is een stuk sneller klaar 😉",
+                "Snijd de avocado en komkommer in plakjes/reepjes. Giet een scheutje olie in een koekenpan en bak de kipschnitzels volgens de instructies op het pak. Tip: maak ook eens de kipschnitzels zelf. Snijd de kipschnitzels daarna in plakjes. Verdeel de rijst over twee kommen. Verdeel de komkommer, kip, peen julienne, avocado en gebakken uitjes hier overheen. Als laatste verdeel je wat Japanse mayonaise en sojasaus over het geheel.",
+                "Tip: ook lekker met stukjes mango. Tip: ook lekker met edamame bonen.",
+                "Bewaar het recept voor de poke bowl met kip op Pinterest!",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_description(self):
