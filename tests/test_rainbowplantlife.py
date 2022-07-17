@@ -53,19 +53,17 @@ class TestRainbowPlantLifeScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertEqual(
-            "\n".join(
-                [
-                    "Arrange a rack in the middle of your oven and preheat it to 375°F/190°C.",
-                    "Cut the peaches in half and remove the pits, then cut the peaches into 1/4-1/2 inch thick slices (3/4 cm - 1 1/4 cm). Transfer the peaches to a medium or large bowl. Add the blueberries, coconut sugar, cinnamon, nutmeg, ginger, and cardamom (if using), and toss gently to combine. Set aside for 30 minutes to allow the fruit to absorb the flavors.",
-                    "Heat a skillet over medium heat, then add the Plant Butter. Once the butter is melted, stir it often and swirl the pan to ensure even browning and cooking, until it foams and then eventually browns. You might want to stand back to avoid splatter. The browning process should take 5-8 minutes. Take the browned butter off the heat and immediately pour brown into a 2-quart/2-liter baking pan. See note below on alternative pan sizes.*",
-                    "In a medium or large bowl, combine the flour, oats, cane sugar, salt, and baking powder. Whisk in the oat milk and vanilla extract and almond extract (if using) until well combined. Using a ladle or measuring cup, ladle the batter on top of the brown butter. Ladling, instead of pouring all of the batter on top at once, helps the butter swirl and mix into batter. Top the cobbler with the peach-blueberry mixture.",
-                    "Bake the cobbler for 45-50 minutes, rotating the pan 180° halfway through to ensure even browning, until the top is deeply golden brown and bubbling. Mine took exactly 45 minutes.",
-                    "Allow the cobbler to cool slightly before serving. Serve warm and, if desired, with vegan vanilla ice cream on top.",
-                ]
-            ),
-            self.harvester_class.instructions(),
+            [
+                "Arrange a rack in the middle of your oven and preheat it to 375°F/190°C.",
+                "Cut the peaches in half and remove the pits, then cut the peaches into 1/4-1/2 inch thick slices (3/4 cm - 1 1/4 cm). Transfer the peaches to a medium or large bowl. Add the blueberries, coconut sugar, cinnamon, nutmeg, ginger, and cardamom (if using), and toss gently to combine. Set aside for 30 minutes to allow the fruit to absorb the flavors.",
+                "Heat a skillet over medium heat, then add the Plant Butter. Once the butter is melted, stir it often and swirl the pan to ensure even browning and cooking, until it foams and then eventually browns. You might want to stand back to avoid splatter. The browning process should take 5-8 minutes. Take the browned butter off the heat and immediately pour brown into a 2-quart/2-liter baking pan. See note below on alternative pan sizes.*",
+                "In a medium or large bowl, combine the flour, oats, cane sugar, salt, and baking powder. Whisk in the oat milk and vanilla extract and almond extract (if using) until well combined. Using a ladle or measuring cup, ladle the batter on top of the brown butter. Ladling, instead of pouring all of the batter on top at once, helps the butter swirl and mix into batter. Top the cobbler with the peach-blueberry mixture.",
+                "Bake the cobbler for 45-50 minutes, rotating the pan 180° halfway through to ensure even browning, until the top is deeply golden brown and bubbling. Mine took exactly 45 minutes.",
+                "Allow the cobbler to cool slightly before serving. Serve warm and, if desired, with vegan vanilla ice cream on top.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):

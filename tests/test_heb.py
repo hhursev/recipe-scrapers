@@ -35,17 +35,15 @@ class TestHEBScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertEqual(
-            "\n".join(
-                [
-                    "Preheat oven to 400˚F. Cut spaghetti squash in half from top to bottom (lengthwise).",
-                    "Place the spaghetti squash halves, cut side down onto a sheet pan. Roast for 30-45 minutes or until a knife can pierce the outside of skin easily, like a baked potato.",
-                    "Once Squash is fully cooked and soft remove it from oven and let it cool for 10 minutes before scooping out meat of squash. In a serving bowl scoop or with a fork scrape out squash and add truffle salt, butter and truffle oil.",
-                    "Toss all ingredients together until butter is fully melted. Season to taste if needed and serve warm.",
-                ]
-            ),
-            self.harvester_class.instructions(),
+            [
+                "Preheat oven to 400˚F. Cut spaghetti squash in half from top to bottom (lengthwise).",
+                "Place the spaghetti squash halves, cut side down onto a sheet pan. Roast for 30-45 minutes or until a knife can pierce the outside of skin easily, like a baked potato.",
+                "Once Squash is fully cooked and soft remove it from oven and let it cool for 10 minutes before scooping out meat of squash. In a serving bowl scoop or with a fork scrape out squash and add truffle salt, butter and truffle oil.",
+                "Toss all ingredients together until butter is fully melted. Season to taste if needed and serve warm.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_image(self):

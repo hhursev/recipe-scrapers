@@ -50,22 +50,20 @@ class TestAkisPetretzikisScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertEqual(
-            "\n".join(
-                [
-                    "Place a frying pan over high heat and add 2-3 tablespoons olive oil.",
-                    "Cut the chicken into 2-3 cm pieces and add them into a bowl. Add salt, pepper, the flour, and mix.",
-                    "Transfer the chicken to the hot pan and sauté for 3-4 minutes until golden.",
-                    "Place a pot over high heat and add 2 tablespoons olive oil.",
-                    "Finely chop the onions and the garlic, add them to the pot, and sauté.",
-                    "Add the artichokes, the chicken, and deglaze the pot with the wine.",
-                    "Add the lemon juice, the water, the chicken stock pot, the tarragon, and mix.",
-                    "Cover with the lid and simmer over medium heat for 20-25 minutes.",
-                    "Serve with pepper, olive oil, lemon slices, and parsley.",
-                ]
-            ),
-            self.harvester_class.instructions(),
+            [
+                "Place a frying pan over high heat and add 2-3 tablespoons olive oil.",
+                "Cut the chicken into 2-3 cm pieces and add them into a bowl. Add salt, pepper, the flour, and mix.",
+                "Transfer the chicken to the hot pan and sauté for 3-4 minutes until golden.",
+                "Place a pot over high heat and add 2 tablespoons olive oil.",
+                "Finely chop the onions and the garlic, add them to the pot, and sauté.",
+                "Add the artichokes, the chicken, and deglaze the pot with the wine.",
+                "Add the lemon juice, the water, the chicken stock pot, the tarragon, and mix.",
+                "Cover with the lid and simmer over medium heat for 20-25 minutes.",
+                "Serve with pepper, olive oil, lemon slices, and parsley.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):

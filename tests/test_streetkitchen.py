@@ -46,12 +46,14 @@ class TestStreetKitchenScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "A csirkemellet felszeleteljük, sózzuk, borsozzuk és bebundázzuk: először lisztbe, majd tojásba és a végén zsemlemorzsa helyett, finomra reszelt trappista sajtba forgatjuk és egy kb. 20×10-es tepsibe rakjuk.\n"
-            + "A tejfölt kikeverjük a vízzel, sózzuk, borsozzuk, belereszeljük a fokhagymát, megszórjuk a felaprított kaporral és alaposan elkeverjük. Ráöntjük a húsra és 180 fokra előmelegített sütőben 15 percig sütjük. Ezután felvesszük 200 fokra a sütő hőmérsékletét és addig sütjük amíg kicsit aranybarna nem lesz a teteje.\n"
-            + "A rizst az olajon 2 percig pirítjuk. Felöntjük forró vízzel, megsózzukk és lefedve felforraljuk. Ezután alacsony lángon készre főzzük. A végén a fedőt még 5 percig rajta hagyjuk. A tejfölös sajtos csirkét  a rizzsel tálaljuk.",
-            self.harvester_class.instructions(),
+            [
+                "A csirkemellet felszeleteljük, sózzuk, borsozzuk és bebundázzuk: először lisztbe, majd tojásba és a végén zsemlemorzsa helyett, finomra reszelt trappista sajtba forgatjuk és egy kb. 20×10-es tepsibe rakjuk.",
+                "A tejfölt kikeverjük a vízzel, sózzuk, borsozzuk, belereszeljük a fokhagymát, megszórjuk a felaprított kaporral és alaposan elkeverjük. Ráöntjük a húsra és 180 fokra előmelegített sütőben 15 percig sütjük. Ezután felvesszük 200 fokra a sütő hőmérsékletét és addig sütjük amíg kicsit aranybarna nem lesz a teteje.",
+                "A rizst az olajon 2 percig pirítjuk. Felöntjük forró vízzel, megsózzukk és lefedve felforraljuk. Ezután alacsony lángon készre főzzük. A végén a fedőt még 5 percig rajta hagyjuk. A tejfölös sajtos csirkét  a rizzsel tálaljuk.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_yields(self):

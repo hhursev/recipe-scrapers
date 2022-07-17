@@ -47,7 +47,11 @@ class TestZeitWochenmarktScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
-        instructions = """Den Kohlrabi schälen, den Fenchel waschen. Beide vom unteren Strunk befreien. Den Kohlrabi einmal von der Spitze zum Boden in der Mitte durchschneiden. Nun beide Gemüse mit einem scharfen und stabilen Messer hauchdünn schneiden, bessere Ergebnisse erzielt man auf einer Mandoline. Idealerweise sind die Scheiben so dünn, dass man fast hindurchschauen kann.
-Nun aus dem Olivenöl, dem Zitronensaft und Honig ein Dressing zusammenrühren, mit Salz und Pfeffer abschmecken. Die dünnen Gemüsescheiben fächerartig auf einen großen Teller legen, den Käse zerreißen und darauf verteilen. Das Dressing darübergeben und mit Basilikum und Pistazien servieren."""
-        self.assertEqual(instructions, self.harvester_class.instructions())
+    def test_instructions_list(self):
+        self.assertEqual(
+            [
+                "Den Kohlrabi schälen, den Fenchel waschen. Beide vom unteren Strunk befreien. Den Kohlrabi einmal von der Spitze zum Boden in der Mitte durchschneiden. Nun beide Gemüse mit einem scharfen und stabilen Messer hauchdünn schneiden, bessere Ergebnisse erzielt man auf einer Mandoline. Idealerweise sind die Scheiben so dünn, dass man fast hindurchschauen kann.",
+                "Nun aus dem Olivenöl, dem Zitronensaft und Honig ein Dressing zusammenrühren, mit Salz und Pfeffer abschmecken. Die dünnen Gemüsescheiben fächerartig auf einen großen Teller legen, den Käse zerreißen und darauf verteilen. Das Dressing darübergeben und mit Basilikum und Pistazien servieren.",
+            ],
+            self.harvester_class.instructions_list(),
+        )

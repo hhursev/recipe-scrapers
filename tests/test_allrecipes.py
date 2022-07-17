@@ -131,10 +131,12 @@ class TestAllRecipesUserScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "In a small bowl, combine all ingredients. Rub down your choice of meat, and let marinate for at least an hour.",
-            self.harvester_class.instructions(),
+            [
+                "In a small bowl, combine all ingredients. Rub down your choice of meat, and let marinate for at least an hour.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):

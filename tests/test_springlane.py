@@ -67,13 +67,13 @@ class TestSpringlaneScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertEqual(
-            "Sahne steif schlagen und mit Mascarpone und Puderzucker verr\u00fchren. Espresso kochen und abk\u00fchlen lassen.\n"
-            + "H\u00e4lfte der L\u00f6ffelbiskuits in die Auflaufform geben. 75 ml Espresso dar\u00fcbertr\u00e4ufeln. "
-            + "H\u00e4lfte der Creme auf den L\u00f6ffelbiskuits verstreichen. "
-            + "Restliche L\u00f6ffelbiskuits, Espresso und Creme daraufgeben, mindestens 4 Stunden kaltstellen. Vor dem Servieren mit Kakaopulver best\u00e4uben.",
-            self.harvester_class.instructions(),
+            [
+                "Sahne steif schlagen und mit Mascarpone und Puderzucker verr\u00fchren. Espresso kochen und abk\u00fchlen lassen.",
+                "H\u00e4lfte der L\u00f6ffelbiskuits in die Auflaufform geben. 75 ml Espresso dar\u00fcbertr\u00e4ufeln. H\u00e4lfte der Creme auf den L\u00f6ffelbiskuits verstreichen. Restliche L\u00f6ffelbiskuits, Espresso und Creme daraufgeben, mindestens 4 Stunden kaltstellen. Vor dem Servieren mit Kakaopulver best\u00e4uben.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):

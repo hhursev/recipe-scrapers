@@ -52,16 +52,14 @@ class TestZenBellyScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "\n".join(
-                [
-                    "Preheat the oven to 350ºF. Grease a 9×13-inch cake pan.",
-                    "In a large bowl, whisk together the almond flour, tapioca starch, coconut flour, baking soda, ground ginger, cinnamon, allspice, cardamom, and salt.",
-                    "In a medium heat proof bowl, whisk together the coconut sugar, molasses, fresh ginger, and boiling water. Once it’s lukewarm (the molasses and coconut sugar should take the temperature down enough), whisk in the eggs.",
-                    "Pour the wet ingredients into the dry ingredients and whisk until there are no lumps.",
-                    "Pour into the prepared pan and bake for 28-35 minutes*",
-                ]
-            ),
-            self.harvester_class.instructions(),
+            [
+                "Preheat the oven to 350ºF. Grease a 9×13-inch cake pan.",
+                "In a large bowl, whisk together the almond flour, tapioca starch, coconut flour, baking soda, ground ginger, cinnamon, allspice, cardamom, and salt.",
+                "In a medium heat proof bowl, whisk together the coconut sugar, molasses, fresh ginger, and boiling water. Once it’s lukewarm (the molasses and coconut sugar should take the temperature down enough), whisk in the eggs.",
+                "Pour the wet ingredients into the dry ingredients and whisk until there are no lumps.",
+                "Pour into the prepared pan and bake for 28-35 minutes*",
+            ],
+            self.harvester_class.instructions_list(),
         )

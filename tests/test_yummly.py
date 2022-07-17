@@ -41,14 +41,12 @@ class TestYummlyScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "\n".join(
-                [
-                    "Preheat oven to 425°F.",
-                    "Line a baking sheet with parchment paper.",
-                    "Arrange the naan on the baking sheet. Drizzle an equal amount of olive oil over the surface of each piece.",
-                ]
-            ),
-            self.harvester_class.instructions(),
+            [
+                "Preheat oven to 425°F.",
+                "Line a baking sheet with parchment paper.",
+                "Arrange the naan on the baking sheet. Drizzle an equal amount of olive oil over the surface of each piece.",
+            ],
+            self.harvester_class.instructions_list(),
         )

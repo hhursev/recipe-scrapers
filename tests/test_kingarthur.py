@@ -121,8 +121,19 @@ class TestKingArthurScraperBeautifulBuns(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            """Weigh your flour; or measure it by gently spooning it into a cup, then sweeping off any excess.\nTo make the dough: Mix and knead all of the dough ingredients — by hand, mixer, or bread machine — to make a soft, smooth dough.\nCover the dough and let it rise until it's nearly doubled in bulk, about 1 to 2 hours.\nTo shape the buns: Gently deflate the dough and divide it into eight pieces (about 100g each); to make smaller or larger buns see "tips," below. Shape each piece into a ball.\nFlatten each dough ball with the palm of your hand until it's about 3" across.\nPlace the buns on a lightly greased or parchment-lined baking sheet. Cover and let rise until noticeably puffy, about an hour. Toward the end of the rising time, preheat the oven to 375°F.\nBrush the buns with about half of the melted butter. To make seeded buns, brush the egg white/water mixture right over the melted butter; it'll make the seeds adhere. Sprinkle buns with the seeds of your choice.\nTo bake the buns: Bake the buns for 15 to 18 minutes, until golden. Remove them from the oven and brush with the remaining melted butter; this will give the buns a satiny, buttery crust. If you've made seeded buns apply the melted butter carefully, to avoid brushing the seeds off the buns.\nCool the buns on a rack before slicing in half, horizontally. Use as a base for burgers (beef or plant-based) or any favorite sandwich filling.\nStorage information: Store leftover buns, well-wrapped, at room temperature for several days; freeze for longer storage.""",
-            self.harvester_class.instructions(),
+            [
+                "Weigh your flour; or measure it by gently spooning it into a cup, then sweeping off any excess.",
+                "To make the dough: Mix and knead all of the dough ingredients — by hand, mixer, or bread machine — to make a soft, smooth dough.",
+                "Cover the dough and let it rise until it's nearly doubled in bulk, about 1 to 2 hours.",
+                'To shape the buns: Gently deflate the dough and divide it into eight pieces (about 100g each); to make smaller or larger buns see "tips," below. Shape each piece into a ball.',
+                "Flatten each dough ball with the palm of your hand until it's about 3\" across.",
+                "Place the buns on a lightly greased or parchment-lined baking sheet. Cover and let rise until noticeably puffy, about an hour. Toward the end of the rising time, preheat the oven to 375°F.",
+                "Brush the buns with about half of the melted butter. To make seeded buns, brush the egg white/water mixture right over the melted butter; it'll make the seeds adhere. Sprinkle buns with the seeds of your choice.",
+                "To bake the buns: Bake the buns for 15 to 18 minutes, until golden. Remove them from the oven and brush with the remaining melted butter; this will give the buns a satiny, buttery crust. If you've made seeded buns apply the melted butter carefully, to avoid brushing the seeds off the buns.",
+                "Cool the buns on a rack before slicing in half, horizontally. Use as a base for burgers (beef or plant-based) or any favorite sandwich filling.",
+                "Storage information: Store leftover buns, well-wrapped, at room temperature for several days; freeze for longer storage.",
+            ],
+            self.harvester_class.instructions_list(),
         )

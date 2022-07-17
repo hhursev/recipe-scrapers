@@ -46,18 +46,18 @@ class TestPanelinhaScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
-        expected_instructions = (
-            "Coloque a lentilha numa tigela funda e cubra com 1 xícara (chá) de água fervente. Deixe de molho enquanto prepara os outros ingredientes.\n"
-            "Descasque e fatie a cebola em meias-luas médias. Descasque e pique fino o alho. Corte os bifes de frango em tirinhas de cerca de 1 cm x 7 cm.\n"
-            "Leve ao fogo médio uma panela média. Quando aquecer, junte 1 colher (sopa) de azeite e a cebola fatiada. Tempere com uma pitada de sal e de açúcar e abaixe o fogo. Deixe cozinhar por cerca de 10 minutos, mexendo de vez enquanto, até a cebola ficar bem dourada - não aumente o fogo para acelerar o processo, caso contrário, a cebola pode queimar em vez de caramelizar.\n"
-            "Transfira a cebola para uma tigela e aumente o fogo para médio. Acrescente o restante do azeite e doure as tirinhas de frango aos poucos - se colocar todas ao mesmo tempo, elas vão soltar o próprio líquido e cozinhar no vapor, em vez de dourar. Tempere com uma pitada de sal e mexa aos poucos para dourar por igual.\n"
-            "Junte a cebola dourada e o alho e misture por apenas 1 minuto. Acrescente o arroz, 1 colher (chá) de sal e a pimenta síria. Mexa bem para envolver os grãos nos temperos.\n"
-            "Numa peneira, escorra a lentilha e junte à panela. Cubra com 2 xícaras (chá) de água, misture e deixe cozinhar. Assim que começar a ferver, diminua o fogo e deixe cozinhar com a tampa entreaberta até a água secar, por cerca de 20 minutos.\n"
-            "Desligue o fogo e mantenha a panela tampada por 5 minutos antes de servir, para que os grãos terminem de cozinhar no próprio vapor. Divida o arroz em dois pratos e salpique com as nozes. Sirva a seguir com iogurte natural."
-        )
+    def test_instructions_list(self):
+        expected_instructions = [
+            "Coloque a lentilha numa tigela funda e cubra com 1 xícara (chá) de água fervente. Deixe de molho enquanto prepara os outros ingredientes.",
+            "Descasque e fatie a cebola em meias-luas médias. Descasque e pique fino o alho. Corte os bifes de frango em tirinhas de cerca de 1 cm x 7 cm.",
+            "Leve ao fogo médio uma panela média. Quando aquecer, junte 1 colher (sopa) de azeite e a cebola fatiada. Tempere com uma pitada de sal e de açúcar e abaixe o fogo. Deixe cozinhar por cerca de 10 minutos, mexendo de vez enquanto, até a cebola ficar bem dourada - não aumente o fogo para acelerar o processo, caso contrário, a cebola pode queimar em vez de caramelizar.",
+            "Transfira a cebola para uma tigela e aumente o fogo para médio. Acrescente o restante do azeite e doure as tirinhas de frango aos poucos - se colocar todas ao mesmo tempo, elas vão soltar o próprio líquido e cozinhar no vapor, em vez de dourar. Tempere com uma pitada de sal e mexa aos poucos para dourar por igual.",
+            "Junte a cebola dourada e o alho e misture por apenas 1 minuto. Acrescente o arroz, 1 colher (chá) de sal e a pimenta síria. Mexa bem para envolver os grãos nos temperos.",
+            "Numa peneira, escorra a lentilha e junte à panela. Cubra com 2 xícaras (chá) de água, misture e deixe cozinhar. Assim que começar a ferver, diminua o fogo e deixe cozinhar com a tampa entreaberta até a água secar, por cerca de 20 minutos.",
+            "Desligue o fogo e mantenha a panela tampada por 5 minutos antes de servir, para que os grãos terminem de cozinhar no próprio vapor. Divida o arroz em dois pratos e salpique com as nozes. Sirva a seguir com iogurte natural.",
+        ]
 
         return self.assertEqual(
             expected_instructions,
-            self.harvester_class.instructions(),
+            self.harvester_class.instructions_list(),
         )

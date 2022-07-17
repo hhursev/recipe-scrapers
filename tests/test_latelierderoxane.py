@@ -60,25 +60,23 @@ class TestLAtelierDeRoxaneScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertEqual(
-            "\n".join(
-                [
-                    "Préchauffe le four à 165°.",
-                    "Dans le bol de ton robot, verse les œufs, le sucre et fouette pendant 5 minutes. Ton mélange doit s’éclaircir et doubler de volume. Tu peux également utiliser un batteur électrique.",
-                    "Ajoute le beurre fondu, la levure, la farine et fouette le tout.",
-                    "Verse le lait et fouette à nouveau jusqu’à l’obtention d’un mélange homogène.",
-                    "Sépare la préparation dans deux bols différents de manière égale.",
-                    "Ajoute l’arôme ou la poudre de vanille dans le premier bol et mélange le tout.",
-                    "Verse le chocolat fondu dans le second bol et mélange à la maryse pour bien l’incorporer.",
-                    "Beurre ton moule à cake.",
-                    "Verse, dans le fond du moule, la moitié de la pâte à la vanille puis la moitié de la pâte au chocolat.",
-                    "Renouvèle la même opération une deuxième fois.",
-                    "Enfourne pendant 45 min. Vérifie la cuisson à l’aide d’un couteau, la lame doit ressortir sèche.",
-                    "Laisse tiédir ton cake et démoule-le.",
-                ]
-            ),
-            self.harvester_class.instructions(),
+            [
+                "Préchauffe le four à 165°.",
+                "Dans le bol de ton robot, verse les œufs, le sucre et fouette pendant 5 minutes. Ton mélange doit s’éclaircir et doubler de volume. Tu peux également utiliser un batteur électrique.",
+                "Ajoute le beurre fondu, la levure, la farine et fouette le tout.",
+                "Verse le lait et fouette à nouveau jusqu’à l’obtention d’un mélange homogène.",
+                "Sépare la préparation dans deux bols différents de manière égale.",
+                "Ajoute l’arôme ou la poudre de vanille dans le premier bol et mélange le tout.",
+                "Verse le chocolat fondu dans le second bol et mélange à la maryse pour bien l’incorporer.",
+                "Beurre ton moule à cake.",
+                "Verse, dans le fond du moule, la moitié de la pâte à la vanille puis la moitié de la pâte au chocolat.",
+                "Renouvèle la même opération une deuxième fois.",
+                "Enfourne pendant 45 min. Vérifie la cuisson à l’aide d’un couteau, la lame doit ressortir sèche.",
+                "Laisse tiédir ton cake et démoule-le.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_site_name(self):

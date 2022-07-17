@@ -46,9 +46,14 @@ class TestRezeptweltScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
-        expected = "Käse und Gemüse in den Mixtopf geben, 5 Sek./Stufe 5 zerkleinern (auf das laufende Messer fallen lassen, Stufe 5) und in eine Schüssel umfüllen.\nGekochte Nudeln, Gemüsebrühe und als Salatsauce Knoblauchaioli unterheben, durchziehen lassen und vor dem Servieren abschmecken.\n"
-        self.assertEqual(expected, self.harvester_class.instructions())
+    def test_instructions_list(self):
+        self.assertEqual(
+            [
+                "Käse und Gemüse in den Mixtopf geben, 5 Sek./Stufe 5 zerkleinern (auf das laufende Messer fallen lassen, Stufe 5) und in eine Schüssel umfüllen.",
+                "Gekochte Nudeln, Gemüsebrühe und als Salatsauce Knoblauchaioli unterheben, durchziehen lassen und vor dem Servieren abschmecken.",
+            ],
+            self.harvester_class.instructions_list(),
+        )
 
     def test_ratings(self):
         self.assertEqual(4.04, self.harvester_class.ratings())

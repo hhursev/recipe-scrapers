@@ -47,17 +47,15 @@ class TestNHSHealthierFamiliesScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertEqual(
-            "\n".join(
-                [
-                    "Heat a large saucepan and add the minced beef, a handful at a time, cooking it until browned. Add the onion and garlic, then cook for another 2 to 3 minutes.",
-                    "Add the chopped tomatoes, tomato purée, spices, red pepper, mushrooms, kidney beans and stock. Stir well, bring to the boil, then lower the heat and simmer gently for 15 to 20 minutes.",
-                    "Meanwhile, cook the rice according to pack instructions.",
-                    "Season the chilli with pepper and serve with the boiled rice.",
-                ]
-            ),
-            self.harvester_class.instructions(),
+            [
+                "Heat a large saucepan and add the minced beef, a handful at a time, cooking it until browned. Add the onion and garlic, then cook for another 2 to 3 minutes.",
+                "Add the chopped tomatoes, tomato purée, spices, red pepper, mushrooms, kidney beans and stock. Stir well, bring to the boil, then lower the heat and simmer gently for 15 to 20 minutes.",
+                "Meanwhile, cook the rice according to pack instructions.",
+                "Season the chilli with pepper and serve with the boiled rice.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_description(self):
