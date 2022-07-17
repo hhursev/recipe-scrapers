@@ -44,22 +44,22 @@ class TestComidinhasDoChefScraper(ScraperTest):
         self.assertEqual(expected_ingredients, self.harvester_class.ingredients())
 
     def test_instructions_list(self):
-        expected_instructions = [
-            "Limpe bem o pernil e faça furos com uma faca para que o tempero penetre bem;",
-            "Em seguida acomode o perfil em um saco próprio para alimentos e coloque o suco de limão siciliano por cima do pernil;",
-            "Adicione as raspas de limão, a cebola picada, as cabeças de alho, a pimenta do reino, o sal, as hortelãs, o alecrim, o tomilho e o vinho branco;",
-            "Amarre o saco e vá misturando bem;",
-            "Deixe o pernil para marinar de um dia para o outro;",
-            "Dica : Na metade desse tempo vire o pernil para que fique bem temperado;",
-            "No dia seguinte com o pernil já bem temperado pegue uma forma, forre com papel alumínio e acomode as batatas cortadas em rodelas por toda a forma;",
-            "Coloque o pernil em cima das batatas e coloque as cabeças de alho também na forma;",
-            "Use um pouco do tempero para regar o pernil, fazendo com que ele fique ainda mais suculento;",
-            "Em seguida cubra a forma com papel alumínio e leve para assar em forno pré aquecido a 220º C por cerca de 01 hora e meia;",
-            "Após esse tempo retire o papel alumínio e leve novamente para assar até dourar bem o pernil;",
-            "Em seguida retire do forno e prontinho, já pode servir.",
-        ]
         self.assertEqual(
-            expected_instructions, self.harvester_class.instructions_list()
+            [
+                "Limpe bem o pernil e faça furos com uma faca para que o tempero penetre bem;",
+                "Em seguida acomode o perfil em um saco próprio para alimentos e coloque o suco de limão siciliano por cima do pernil;",
+                "Adicione as raspas de limão, a cebola picada, as cabeças de alho, a pimenta do reino, o sal, as hortelãs, o alecrim, o tomilho e o vinho branco;",
+                "Amarre o saco e vá misturando bem;",
+                "Deixe o pernil para marinar de um dia para o outro;",
+                "Dica : Na metade desse tempo vire o pernil para que fique bem temperado;",
+                "No dia seguinte com o pernil já bem temperado pegue uma forma, forre com papel alumínio e acomode as batatas cortadas em rodelas por toda a forma;",
+                "Coloque o pernil em cima das batatas e coloque as cabeças de alho também na forma;",
+                "Use um pouco do tempero para regar o pernil, fazendo com que ele fique ainda mais suculento;",
+                "Em seguida cubra a forma com papel alumínio e leve para assar em forno pré aquecido a 220º C por cerca de 01 hora e meia;",
+                "Após esse tempo retire o papel alumínio e leve novamente para assar até dourar bem o pernil;",
+                "Em seguida retire do forno e prontinho, já pode servir.",
+            ],
+            self.harvester_class.instructions_list()
         )
 
     def test_ratings(self):
