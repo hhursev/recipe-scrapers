@@ -42,10 +42,14 @@ class TestMonsieurCuisineScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertEqual(
-            "Rincer et sécher la coriandre. Dans le bol mixeur, hacher finement les tiges entières avec la touche Turbo/7 secondes. Rincer les tomates, les couper en deux en ôtant le pédoncule et les épépiner. Les ajouter dans le bol mixeur et les hacher grossièrement 8 secondes/vitesse 5. Réserver dans un saladier.\nPeler l’oignon, le couper en deux, puis le hacher finement touche Turbo/7 secondes. Peler l’avocat et détacher la chair du noyau. L’ajouter avec le jus de citron vert, la harissa, le sel et le poivre. Puis mixer 8 secondes/vitesse 6. Ajouter enfin les tomates et mixer le tout avec le programme Sens inverse/10 secondes/vitesse 2.\nDresser le guacamole dans un saladier et servir.",
-            self.harvester_class.instructions(),
+            [
+                "Rincer et sécher la coriandre. Dans le bol mixeur, hacher finement les tiges entières avec la touche Turbo/7 secondes. Rincer les tomates, les couper en deux en ôtant le pédoncule et les épépiner. Les ajouter dans le bol mixeur et les hacher grossièrement 8 secondes/vitesse 5. Réserver dans un saladier.",
+                "Peler l’oignon, le couper en deux, puis le hacher finement touche Turbo/7 secondes. Peler l’avocat et détacher la chair du noyau. L’ajouter avec le jus de citron vert, la harissa, le sel et le poivre. Puis mixer 8 secondes/vitesse 6. Ajouter enfin les tomates et mixer le tout avec le programme Sens inverse/10 secondes/vitesse 2.",
+                "Dresser le guacamole dans un saladier et servir.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):

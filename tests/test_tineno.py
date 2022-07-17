@@ -62,10 +62,18 @@ class TestTineNoScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "Kok ris etter anvisningen på pakken.\nTikka masala:\nDel kylling i biter. Brun kyllingen i smør i en stekepanne på middels varme.\nRens og hakk paprika, chili, vårløk og hvitløk og ha det i stekepannen sammen med kyllingen. Rens og finhakk ingefær og frisk koriander. Krydre med garam masala, koriander og ingefær.\nHell i crème fraîche og tomatpuré, og la småkoke i 5 minutter. Smak til med salt og pepper.\nRaita:\nRiv agurk og bland den med yoghurt. Hakk mynte og hvitløk og bland det i. Smak til med salt og pepper.",
-            self.harvester_class.instructions(),
+            [
+                "Kok ris etter anvisningen på pakken.",
+                "Tikka masala:",
+                "Del kylling i biter. Brun kyllingen i smør i en stekepanne på middels varme.",
+                "Rens og hakk paprika, chili, vårløk og hvitløk og ha det i stekepannen sammen med kyllingen. Rens og finhakk ingefær og frisk koriander. Krydre med garam masala, koriander og ingefær.",
+                "Hell i crème fraîche og tomatpuré, og la småkoke i 5 minutter. Smak til med salt og pepper.",
+                "Raita:",
+                "Riv agurk og bland den med yoghurt. Hakk mynte og hvitløk og bland det i. Smak til med salt og pepper.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):

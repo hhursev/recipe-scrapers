@@ -62,38 +62,40 @@ class TestInnitScraper(ScraperTest):
             self.harvester_class.nutrients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertEqual(
-            """Preheat
-Preheat the oven to 425F.
-Line sheet pan with foil.
-Sear Tofu
-Drain, pat dry & prepare tofu.
-Heat pan on high heat for 2 minutes.
-Cook for 7 min or until golden brown on all sides, seasoning half way.
-Remove from pan.
-Bake Broccoli
-Toss broccoli with oil & salt.
-Bake for 22 minutes.
-Simmer Carrots & Ginger
-Prepare ingredients.
-Pre-heat pan. Add all ingredients; cover with water.
-Cook until soft, about 5 minutes.
-Blend Dressing Ingredients
-Transfer carrot-ginger mixture to blender.
-Add orange juice/zest, miso, sesame oil, honey, rice vinegar.
-Blend until smooth.
-Let cool in fridge for 10 minutes. Fold in chives & season.
-Flavor Beets
-Toss beets in oil. Season with salt, pepper & parsley.
-Toast Sunflower Seeds
-Combine ingredients.
-Toast in oven for 5 - 7 min or until golden brown.
-Mixed Greens
-Wash greens & dry.
-Serve and Enjoy!
-Pair with your favorite music!""",
-            self.harvester_class.instructions(),
+            [
+                "Preheat",
+                "Preheat the oven to 425F.",
+                "Line sheet pan with foil.",
+                "Sear Tofu",
+                "Drain, pat dry & prepare tofu.",
+                "Heat pan on high heat for 2 minutes.",
+                "Cook for 7 min or until golden brown on all sides, seasoning half way.",
+                "Remove from pan.",
+                "Bake Broccoli",
+                "Toss broccoli with oil & salt.",
+                "Bake for 22 minutes.",
+                "Simmer Carrots & Ginger",
+                "Prepare ingredients.",
+                "Pre-heat pan. Add all ingredients; cover with water.",
+                "Cook until soft, about 5 minutes.",
+                "Blend Dressing Ingredients",
+                "Transfer carrot-ginger mixture to blender.",
+                "Add orange juice/zest, miso, sesame oil, honey, rice vinegar.",
+                "Blend until smooth.",
+                "Let cool in fridge for 10 minutes. Fold in chives & season.",
+                "Flavor Beets",
+                "Toss beets in oil. Season with salt, pepper & parsley.",
+                "Toast Sunflower Seeds",
+                "Combine ingredients.",
+                "Toast in oven for 5 - 7 min or until golden brown.",
+                "Mixed Greens",
+                "Wash greens & dry.",
+                "Serve and Enjoy!",
+                "Pair with your favorite music!",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_image(self):

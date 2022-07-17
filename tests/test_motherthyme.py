@@ -46,10 +46,25 @@ class TestMotherThymeScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "Oatmeal\nIn a large saucepan add milk, sugars, vanilla and salt and bring to a boil over medium heat.\nStir in oats, return to a boil and continue to cook, stirring occasionally for 3-5 minutes until oatmeal begins to thicken.\nCover and remove from heat. Let sit for about 3 minutes.\nTopping\nIn a small bowl mix butter, brown sugar and cinnamon until combined.\nGlaze\nMicrowave cream cheese in a small bowl for about 10 seconds until just melted.\nStir in confectioners' sugar until combined.\nStir in milk and vanilla until creamy.\nNote: Add in a little more confectioners' sugar if glaze is too thin or a little more milk if glaze is too thick until desired consistency.\nAssemble\nPlace desired amount of oatmeal in serving bowl. Drizzle with some of the cinnamon sugar topping and then drizzle on top of that some of the cream cheese glaze.\nServe warm.",
-            self.harvester_class.instructions(),
+            [
+                "Oatmeal",
+                "In a large saucepan add milk, sugars, vanilla and salt and bring to a boil over medium heat.",
+                "Stir in oats, return to a boil and continue to cook, stirring occasionally for 3-5 minutes until oatmeal begins to thicken.",
+                "Cover and remove from heat. Let sit for about 3 minutes.",
+                "Topping",
+                "In a small bowl mix butter, brown sugar and cinnamon until combined.",
+                "Glaze",
+                "Microwave cream cheese in a small bowl for about 10 seconds until just melted.",
+                "Stir in confectioners' sugar until combined.",
+                "Stir in milk and vanilla until creamy.",
+                "Note: Add in a little more confectioners' sugar if glaze is too thin or a little more milk if glaze is too thick until desired consistency.",
+                "Assemble",
+                "Place desired amount of oatmeal in serving bowl. Drizzle with some of the cinnamon sugar topping and then drizzle on top of that some of the cream cheese glaze.",
+                "Serve warm.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):

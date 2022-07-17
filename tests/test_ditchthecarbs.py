@@ -43,8 +43,20 @@ class TestDitchTheCarbs(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "Preheat your oven to 375°F/190°C. In a small bowl mix together your egg and apple cider vinegar. Set aside until ready to use.\nMix\nAdd your flax seen to a grinder or blender, coarsely grind. Pour the flax seed in a microwave safe bowl. Add the almond flour and shredded mozzarella cheese to the bowl and mix. Then add your cream cheese to the bowl. There is no need to mix the cream cheese in just yet.\nMicrowave\nPlace your bowl with the cheese in the microwave. Melt your cheese for 1 minute, remove the bowl and mix with a silicone spatula. If your cheese is not completely melted yet microwave for 30 more seconds until your cheese is completely melted.\nMix\nWhile your mozzarella dough is still hot add your baking powder. Mix and fold together. Add the egg/vinegar mixture to your dough. Fold in with your silicone spatula.\nRoll your dough into a ball and cut into 4 equal sections. Roll each section into a ball and then flatten the top and bottom of the ball to shape into a hamburger bun.\nPlace on a baking sheet lined with baking paper. Brush the olive oil over your buns and sprinkle the tops with sesame seeds. Bake in the oven at 375°F/190°C for 12-15 minutes. Your burger buns will be done when the tops are golden brown and the dough is cooked in the centre.\nBake\nRemove the buns from the oven and let them cool on a wire rack or towel for 5 minutes before slicing and serving.",
-            self.harvester_class.instructions(),
+            [
+                "Preheat your oven to 375°F/190°C. In a small bowl mix together your egg and apple cider vinegar. Set aside until ready to use.",
+                "Mix",
+                "Add your flax seen to a grinder or blender, coarsely grind. Pour the flax seed in a microwave safe bowl. Add the almond flour and shredded mozzarella cheese to the bowl and mix. Then add your cream cheese to the bowl. There is no need to mix the cream cheese in just yet.",
+                "Microwave",
+                "Place your bowl with the cheese in the microwave. Melt your cheese for 1 minute, remove the bowl and mix with a silicone spatula. If your cheese is not completely melted yet microwave for 30 more seconds until your cheese is completely melted.",
+                "Mix",
+                "While your mozzarella dough is still hot add your baking powder. Mix and fold together. Add the egg/vinegar mixture to your dough. Fold in with your silicone spatula.",
+                "Roll your dough into a ball and cut into 4 equal sections. Roll each section into a ball and then flatten the top and bottom of the ball to shape into a hamburger bun.",
+                "Place on a baking sheet lined with baking paper. Brush the olive oil over your buns and sprinkle the tops with sesame seeds. Bake in the oven at 375°F/190°C for 12-15 minutes. Your burger buns will be done when the tops are golden brown and the dough is cooked in the centre.",
+                "Bake",
+                "Remove the buns from the oven and let them cool on a wire rack or towel for 5 minutes before slicing and serving.",
+            ],
+            self.harvester_class.instructions_list(),
         )

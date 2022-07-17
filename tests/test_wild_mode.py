@@ -63,10 +63,21 @@ class TestWildMode(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            """BLISTER TOMATOES\nIn a large skillet, heat oil over medium-high heat. Add tomatoes (whole) and sear, stirring occasionally, until they burst and soften, about 7 minutes. Turn heat off. Chop if extra-large.\nMAKE RISOTTO\nAt the same time, in a large heavy-bottomed pot or dutch oven, heat the olive oil over medium heat and add the onions. Saute until golden about 10-12 minutes. Add garlic and thyme, saute 2 more minutes until fragrant.\nAdd the rice, saute 1 minute, stirring. Add 2 cups warm stock (enough to cover the rice), saffron and smoked paprika, stir and bring to a simmer. Simmer until most of the liquid is absorbed. Add 1 cup broth and the tomatoes and all their juices. Stir until all the liquid is absorbed. Continue adding broth 1 cup at a time, letting the rice absorb it slowly, stirring often over med-low heat, until the rice is plumped, slightly al dente, yet creamy, about 20-25 minutes. You may not need all 8 cups. ( I used 6 3/4).\nStir in the butter and parmesan. Season generously with salt, pepper, and optional chili flakes. Taste, adjust salt. If bland, it probably needs more salt.\nServe\nas a flavorful side or vegetarian main, garnishing with fresh parsley and lemon zest.\nOptional Seared Prawns:\nIf adding the prawns, mix spices and salt in a bowl. Coat shrimp with the spices. Heat 2-3 tablespoons oil in a skillet (you may need to do this in batches) over medium-high heat, sear each side 2-3 minutes or until cooked through. Top the risotto with the seared prawns.""",
-            self.harvester_class.instructions(),
+            [
+                "BLISTER TOMATOES",
+                "In a large skillet, heat oil over medium-high heat. Add tomatoes (whole) and sear, stirring occasionally, until they burst and soften, about 7 minutes. Turn heat off. Chop if extra-large.",
+                "MAKE RISOTTO",
+                "At the same time, in a large heavy-bottomed pot or dutch oven, heat the olive oil over medium heat and add the onions. Saute until golden about 10-12 minutes. Add garlic and thyme, saute 2 more minutes until fragrant.",
+                "Add the rice, saute 1 minute, stirring. Add 2 cups warm stock (enough to cover the rice), saffron and smoked paprika, stir and bring to a simmer. Simmer until most of the liquid is absorbed. Add 1 cup broth and the tomatoes and all their juices. Stir until all the liquid is absorbed. Continue adding broth 1 cup at a time, letting the rice absorb it slowly, stirring often over med-low heat, until the rice is plumped, slightly al dente, yet creamy, about 20-25 minutes. You may not need all 8 cups. ( I used 6 3/4).",
+                "Stir in the butter and parmesan. Season generously with salt, pepper, and optional chili flakes. Taste, adjust salt. If bland, it probably needs more salt.",
+                "Serve",
+                "as a flavorful side or vegetarian main, garnishing with fresh parsley and lemon zest.",
+                "Optional Seared Prawns:",
+                "If adding the prawns, mix spices and salt in a bowl. Coat shrimp with the spices. Heat 2-3 tablespoons oil in a skillet (you may need to do this in batches) over medium-high heat, sear each side 2-3 minutes or until cooked through. Top the risotto with the seared prawns.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):

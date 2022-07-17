@@ -40,10 +40,19 @@ class TestPingoDoceScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertEqual(
-            "Coza o tamboril já cortado em cubos. Reserve a água de cozedura.\nNum tacho largo refogue em azeite as cebolas, os alhos e os coentros picados.\nQuando a cebola estiver translúcida, junte ao refogado o pimento em tiras, o tomate em cubos e a malagueta picada, envolvendo bem os ingredientes.\nDilua a polpa de tomate na água de cozedura do tamboril e vá acrescentando, aos poucos, ao refogado.\nDepois de lavado, junte o arroz e tempere de sal e pimenta.\nA meio da cozedura do arroz, adicione o tamboril, previamente cozido, e o miolo de camarão.\nPor fim, envolva a manteiga, polvilhe com a hortelã picada.\nSirva o seu arroz de tamboril com fatias de pão torrado.",
-            self.harvester_class.instructions(),
+            [
+                "Coza o tamboril já cortado em cubos. Reserve a água de cozedura.",
+                "Num tacho largo refogue em azeite as cebolas, os alhos e os coentros picados.",
+                "Quando a cebola estiver translúcida, junte ao refogado o pimento em tiras, o tomate em cubos e a malagueta picada, envolvendo bem os ingredientes.",
+                "Dilua a polpa de tomate na água de cozedura do tamboril e vá acrescentando, aos poucos, ao refogado.",
+                "Depois de lavado, junte o arroz e tempere de sal e pimenta.",
+                "A meio da cozedura do arroz, adicione o tamboril, previamente cozido, e o miolo de camarão.",
+                "Por fim, envolva a manteiga, polvilhe com a hortelã picada.",
+                "Sirva o seu arroz de tamboril com fatias de pão torrado.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):

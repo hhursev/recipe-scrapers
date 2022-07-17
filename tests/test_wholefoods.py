@@ -37,16 +37,18 @@ class TestWholeFoodsScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertEqual(
-            """In a large skillet, heat 1 teaspoon olive oil over medium-high heat until hot.
-Add kale, garlic, salt and pepper. Cover and cook, stirring occasionally, until kale begins to wilt, about 5 minutes.
-Uncover, reduce heat to medium and continue to cook, stirring frequently, until kale is very soft, about 5 minutes.
-Arrange 4 bread slices on a work surface. Top each with one slice of cheese, an even layer of the kale, another slice of cheese, and then a piece of bread.
-Brush both sides of each sandwich with remaining olive oil.
-Heat a large nonstick skillet over medium heat until hot.
-Place stacked sandwiches in the pan and cook until bread is golden brown and cheese has melted, pressing flat with a spatula occasionally, 4 to 5 minutes per side. Serve immediately. Depending on the size of your skillet, you might need to cook these in batches. If so, the first batch can be kept warm in a 200°F oven while finishing the second batch.""",
-            self.harvester_class.instructions(),
+            [
+                "In a large skillet, heat 1 teaspoon olive oil over medium-high heat until hot.",
+                "Add kale, garlic, salt and pepper. Cover and cook, stirring occasionally, until kale begins to wilt, about 5 minutes.",
+                "Uncover, reduce heat to medium and continue to cook, stirring frequently, until kale is very soft, about 5 minutes.",
+                "Arrange 4 bread slices on a work surface. Top each with one slice of cheese, an even layer of the kale, another slice of cheese, and then a piece of bread.",
+                "Brush both sides of each sandwich with remaining olive oil.",
+                "Heat a large nonstick skillet over medium heat until hot.",
+                "Place stacked sandwiches in the pan and cook until bread is golden brown and cheese has melted, pressing flat with a spatula occasionally, 4 to 5 minutes per side. Serve immediately. Depending on the size of your skillet, you might need to cook these in batches. If so, the first batch can be kept warm in a 200°F oven while finishing the second batch.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_image(self):

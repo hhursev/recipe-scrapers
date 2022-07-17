@@ -45,8 +45,16 @@ class TestNIHHealthyEatingRecipesScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "Preheat oven to 400 °F.\nSpray baking dish with cooking spray.\nArrange fillets in the baking dish. The dish should be large enough so the fillets do not overlap.\nMix remaining ingredients, except parsley and lemon wedges, in a bowl.\nSpoon the tomato mixture evenly over the fillets.\nBake uncovered 15 to 20 minutes or until the fish flakes easily with a fork.\nGarnish with parsley and a lemon wedge, and serve.",
-            self.harvester_class.instructions(),
+            [
+                "Preheat oven to 400 °F.",
+                "Spray baking dish with cooking spray.",
+                "Arrange fillets in the baking dish. The dish should be large enough so the fillets do not overlap.",
+                "Mix remaining ingredients, except parsley and lemon wedges, in a bowl.",
+                "Spoon the tomato mixture evenly over the fillets.",
+                "Bake uncovered 15 to 20 minutes or until the fish flakes easily with a fork.",
+                "Garnish with parsley and a lemon wedge, and serve.",
+            ],
+            self.harvester_class.instructions_list(),
         )

@@ -53,8 +53,16 @@ class TestEatWhatTonight(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "Heat up oil and saute garlics, white parts of spring onion and ginger till fragrant.⁣\nAdd in marinated chicken with the light soya sauce and mix well.⁣\nAdd in water.\nFollowed by the rest of the seasoning and allow the sauce to cook on high heat.⁣\nAdd in green parts of spring onions.\nAdd in sauce thickening.\nWhen sauce has thickened, add in shaoxing wine and remove from heat.⁣Serve hot immediately with rice.",
-            self.harvester_class.instructions(),
+            [
+                "Heat up oil and saute garlics, white parts of spring onion and ginger till fragrant.\u2063",
+                "Add in marinated chicken with the light soya sauce and mix well.\u2063",
+                "Add in water.",
+                "Followed by the rest of the seasoning and allow the sauce to cook on high heat.\u2063",
+                "Add in green parts of spring onions.",
+                "Add in sauce thickening.",
+                "When sauce has thickened, add in shaoxing wine and remove from heat.\u2063Serve hot immediately with rice.",
+            ],
+            self.harvester_class.instructions_list(),
         )

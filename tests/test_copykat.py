@@ -46,10 +46,16 @@ class TestCopyKat(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "In a small bowl add flour, salt, and pepper. Stir the salt and pepper into the flour. Cut and trim roast into small bite-sized pieces. Dredge beef pieces in seasoned flour shake off excess flour.\nSet the Instant Pot to saute, add oil. When the oil has heated drop in several pieces of the beef. Cook seasoned beef on all sides until lightly browned. Cook beef in small batches. When all of the beef is cooked add it back to the Instant Pot.\nAdd 1 cup of onion, two teaspoons of Gravy Master, and beef stock. Place lid on high and cook for 15 minutes on high pressure. Release pot after cooking with either a quick release or a natural release.\nSlow cooker directions\nPlease use the same ingredients as listed below. For this recipe season your flour as mentioned in the recipe, then brown the meat in a large skillet in small batches with some vegetable oil. Add the beef broth you will simmer for 4 to 6 hours on low. If the liquid hasn't thickened up to your desire, you can thicken it up by mixing 1 tablespoon of butter and one tablespoon of flour that has been mixed together. Stir this in to the beef broth, and it will thicken up the liquid in the slow cooker.",
-            self.harvester_class.instructions(),
+            [
+                "In a small bowl add flour, salt, and pepper. Stir the salt and pepper into the flour. Cut and trim roast into small bite-sized pieces. Dredge beef pieces in seasoned flour shake off excess flour.",
+                "Set the Instant Pot to saute, add oil. When the oil has heated drop in several pieces of the beef. Cook seasoned beef on all sides until lightly browned. Cook beef in small batches. When all of the beef is cooked add it back to the Instant Pot.",
+                "Add 1 cup of onion, two teaspoons of Gravy Master, and beef stock. Place lid on high and cook for 15 minutes on high pressure. Release pot after cooking with either a quick release or a natural release.",
+                "Slow cooker directions",
+                "Please use the same ingredients as listed below. For this recipe season your flour as mentioned in the recipe, then brown the meat in a large skillet in small batches with some vegetable oil. Add the beef broth you will simmer for 4 to 6 hours on low. If the liquid hasn't thickened up to your desire, you can thicken it up by mixing 1 tablespoon of butter and one tablespoon of flour that has been mixed together. Stir this in to the beef broth, and it will thicken up the liquid in the slow cooker.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):

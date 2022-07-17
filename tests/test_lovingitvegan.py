@@ -43,8 +43,12 @@ class TestLovingitveganScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "Add the soy milk to your blender jug and then the frozen bananas, cashews, kale, dates, minced ginger, cinnamon and fresh lime juice. Top with ice cubes.\nBlend until very smooth.\nPour out into glasses and serve.",
-            self.harvester_class.instructions(),
+            [
+                "Add the soy milk to your blender jug and then the frozen bananas, cashews, kale, dates, minced ginger, cinnamon and fresh lime juice. Top with ice cubes.",
+                "Blend until very smooth.",
+                "Pour out into glasses and serve.",
+            ],
+            self.harvester_class.instructions_list(),
         )

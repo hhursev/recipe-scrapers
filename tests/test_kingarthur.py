@@ -52,10 +52,23 @@ class TestKingArthurScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            """Preheat the oven to 325°F. Lightly grease (or line with parchment) two baking sheets.\nWeigh your flour; or measure it by gently spooning it into a cup, then sweeping off any excess.\nIn a medium bowl, whisk together the flour, baking soda, salt, and spices. Set aside.\nIn a large mixing bowl, using either a hand whisk, an electric mixer, or a stand mixer, whisk the sugar and oil until combined.\nAdd the egg and whisk until smooth.\nStir in the molasses.\nAdd the dry ingredients to the bowl and stir until well combined.\nUse a spoon (or a tablespoon cookie scoop) to portion 1 1/4" balls of dough.\nRoll the dough balls in granulated or sparkling sugar to coat before placing onto the prepared baking sheets. Leave 2" between them on all sides; they'll spread as they bake.\nBake the cookies for 12 to 15 minutes, until they're puffed and their edges are set.\nRemove the cookies from the oven, and cool completely right on the pan.\nStore cookies, well wrapped, at room temperature for several days; freeze for longer storage.""",
-            self.harvester_class.instructions(),
+            [
+                "Preheat the oven to 325°F. Lightly grease (or line with parchment) two baking sheets.",
+                "Weigh your flour; or measure it by gently spooning it into a cup, then sweeping off any excess.",
+                "In a medium bowl, whisk together the flour, baking soda, salt, and spices. Set aside.",
+                "In a large mixing bowl, using either a hand whisk, an electric mixer, or a stand mixer, whisk the sugar and oil until combined.",
+                "Add the egg and whisk until smooth.",
+                "Stir in the molasses.",
+                "Add the dry ingredients to the bowl and stir until well combined.",
+                'Use a spoon (or a tablespoon cookie scoop) to portion 1 1/4" balls of dough.',
+                "Roll the dough balls in granulated or sparkling sugar to coat before placing onto the prepared baking sheets. Leave 2\" between them on all sides; they'll spread as they bake.",
+                "Bake the cookies for 12 to 15 minutes, until they're puffed and their edges are set.",
+                "Remove the cookies from the oven, and cool completely right on the pan.",
+                "Store cookies, well wrapped, at room temperature for several days; freeze for longer storage.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
 

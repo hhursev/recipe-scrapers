@@ -55,8 +55,14 @@ class TestChefkochScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "Die Semmeln in Scheiben schneiden und mit Wasser \u00fcbergie\u00dfen, quellen lassen. Gut ausdr\u00fccken. Die Gew\u00fcrzgurken in sehr feine W\u00fcrfel schneiden. Zwiebeln ebenfalls in feine W\u00fcrfel schneiden.\n\n1 EL Butter erhitzen und die Zwiebeln glasig anschwitzen. Petersilie dazugeben. Zwiebel-Petersilienmischung in eine Sch\u00fcssel geben, Semmeln, Gew\u00fcrzgurken, Hackfleisch, Eier und Zitronensaft zuf\u00fcgen. Alles mit Salz, Cayennepfeffer und schwarzem Pfeffer w\u00fcrzen und kr\u00e4ftig durchkneten. \n\nDie restliche Butter schmelzen, eine Form fetten. Den Fleischteig zu einem Laib formen und in die Form legen. Auf der unteren Schiene 30 Minuten (Umluft 180\u00b0C) backen, dabei immer mit der fl\u00fcssigen Butter bestreichen. \n\nDie Fleischbr\u00fche erhitzen und mit der Sahne, der Cr\u00e8me fra\u00eeche und dem Paprikapulver verr\u00fchren. (Wer sehr viel So\u00dfe mag, kann die So\u00dfenmenge einfach verdoppeln). Die So\u00dfe \u00fcber den Hackbraten gie\u00dfen und weitere 10 - 15 Minuten garen. \n\nDazu passen hervorragend Salzkartoffeln.",
-            self.harvester_class.instructions(),
+            [
+                "Die Semmeln in Scheiben schneiden und mit Wasser \\u00fcbergie\\u00dfen, quellen lassen. Gut ausdr\\u00fccken. Die Gew\\u00fcrzgurken in sehr feine W\\u00fcrfel schneiden. Zwiebeln ebenfalls in feine W\\u00fcrfel schneiden.",
+                "1 EL Butter erhitzen und die Zwiebeln glasig anschwitzen. Petersilie dazugeben. Zwiebel-Petersilienmischung in eine Sch\\u00fcssel geben, Semmeln, Gew\\u00fcrzgurken, Hackfleisch, Eier und Zitronensaft zuf\\u00fcgen. Alles mit Salz, Cayennepfeffer und schwarzem Pfeffer w\\u00fcrzen und kr\\u00e4ftig durchkneten. ",
+                "Die restliche Butter schmelzen, eine Form fetten. Den Fleischteig zu einem Laib formen und in die Form legen. Auf der unteren Schiene 30 Minuten (Umluft 180\\u00b0C) backen, dabei immer mit der fl\\u00fcssigen Butter bestreichen. ",
+                "Die Fleischbr\\u00fche erhitzen und mit der Sahne, der Cr\\u00e8me fra\\u00eeche und dem Paprikapulver verr\\u00fchren. (Wer sehr viel So\\u00dfe mag, kann die So\\u00dfenmenge einfach verdoppeln). Die So\\u00dfe \\u00fcber den Hackbraten gie\\u00dfen und weitere 10 - 15 Minuten garen. ",
+                "Dazu passen hervorragend Salzkartoffeln.",
+            ],
+            self.harvester_class.instructions_list(),
         )

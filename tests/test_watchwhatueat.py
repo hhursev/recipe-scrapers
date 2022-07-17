@@ -52,8 +52,18 @@ class TestWatchWhatUEatScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "In a small bowl combine all the ingredients listed under marinade.\nCut leaves from the bottom of the cauliflower head. Carefully trim the stem flush without cutting the florets. It will help the cauliflower to sit flat on the trivet.\nRub the prepared garlic-herb marinade on the cauliflower head evenly.\nFor the gravy heat oil in saute mode of the Instant Pot. Add onion and whole garlic cloves; cook until translucent.\nThen add vegetable stock, thyme and lemon juice. Place the trivet into the Instant Pot.\nPut the whole cauliflower head on the trivet. Cook for 3 min on manual high-pressure mode. Allow pressure to release naturally for 5 min and then quick release the remaining pressure.\nCarefully transfer the cauliflower to an oven-safe dish or tray. Optionally, broil it 3-4 min in the oven to get a nice crust.\nTurn on the saute mode in the Instant Pot. Add flour to the gravy base and blend everything using a hand blender until it gets to a smooth consistency. Add salt and pepper according to taste.\nCook the gravy for 3-4 min and serve warm with the cooked cauliflower.",
-            self.harvester_class.instructions(),
+            [
+                "In a small bowl combine all the ingredients listed under marinade.",
+                "Cut leaves from the bottom of the cauliflower head. Carefully trim the stem flush without cutting the florets. It will help the cauliflower to sit flat on the trivet.",
+                "Rub the prepared garlic-herb marinade on the cauliflower head evenly.",
+                "For the gravy heat oil in saute mode of the Instant Pot. Add onion and whole garlic cloves; cook until translucent.",
+                "Then add vegetable stock, thyme and lemon juice. Place the trivet into the Instant Pot.",
+                "Put the whole cauliflower head on the trivet. Cook for 3 min on manual high-pressure mode. Allow pressure to release naturally for 5 min and then quick release the remaining pressure.",
+                "Carefully transfer the cauliflower to an oven-safe dish or tray. Optionally, broil it 3-4 min in the oven to get a nice crust.",
+                "Turn on the saute mode in the Instant Pot. Add flour to the gravy base and blend everything using a hand blender until it gets to a smooth consistency. Add salt and pepper according to taste.",
+                "Cook the gravy for 3-4 min and serve warm with the cooked cauliflower.",
+            ],
+            self.harvester_class.instructions_list(),
         )

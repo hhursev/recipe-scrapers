@@ -49,8 +49,16 @@ class TestTheNutritiousKitchenScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "Preheat oven to 350 degrees Fahrenheit. Line an 8×8 baking tray with parchment paper and set aside.\nIn a large bowl whisk together almond flour, cassava, sea salt + cinnamon. In a separate bowl whisk pecan butter, melted coconut oil + maple syrup until a thick glaze forms.\nPour into dry ingredients and mix together with a frosting spatula until dough forms. Press into baking tray, reserving about 1/4 cup for the topping. Use hands to spread out if needed.\nIn a microwave-safe bowl, heat up figs for about 1 minute then crush with a fork to make quick “jam”. Mix in optional tbsp of maple syrup.\nLayer jam then the remaining dough into “crumbles” Top with pecans.\nBake for about 20-25 minutes depending on your oven. Allow to cool in pan then cool completely on a rack before slicing into 12 squares.\nStore covered in the fridge up to 5 days. They are great served chilled or warm!",
-            self.harvester_class.instructions(),
+            [
+                "Preheat oven to 350 degrees Fahrenheit. Line an 8×8 baking tray with parchment paper and set aside.",
+                "In a large bowl whisk together almond flour, cassava, sea salt + cinnamon. In a separate bowl whisk pecan butter, melted coconut oil + maple syrup until a thick glaze forms.",
+                "Pour into dry ingredients and mix together with a frosting spatula until dough forms. Press into baking tray, reserving about 1/4 cup for the topping. Use hands to spread out if needed.",
+                "In a microwave-safe bowl, heat up figs for about 1 minute then crush with a fork to make quick “jam”. Mix in optional tbsp of maple syrup.",
+                "Layer jam then the remaining dough into “crumbles” Top with pecans.",
+                "Bake for about 20-25 minutes depending on your oven. Allow to cool in pan then cool completely on a rack before slicing into 12 squares.",
+                "Store covered in the fridge up to 5 days. They are great served chilled or warm!",
+            ],
+            self.harvester_class.instructions_list(),
         )

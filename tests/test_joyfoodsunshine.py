@@ -46,10 +46,24 @@ class TestJoyfoodsunshineScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertEqual(
-            "Preheat oven to 450 degrees F. Grease a pizza pan or large jelly roll pan and set aside.\nPut warm water into a large mixing bowl.\nAdd sugar and yeast and stir to combine.\nLet mixture sit for 5 minutes, or until it becomes frothy and bubbles form.\nAdd olive oil and gently stir to combine.\nAdd 2 cups of flour and salt and mix with a spatula until a ball begins to form (dough will still be slightly sticky). Add more flour as needed to form a dough ball.\nTransfer to a floured surface and knead into a smooth dough, adding up to ½ cup extra flour if needed.\nRoll dough into your desired shape and gently transfer to your prepared pan.\nTo ensure the dough doesn't form air pockets, use a fork to prick to the dough all around (gently so you do not poke holes all the way through the crust).\nBake on the lower rack of your preheated oven for 5 minutes and remove from your oven. (this is just to very slightly prebake the dough). If you notice air bubbles forming, poke them with a fork to let the air out.\nAdd pizza sauce and toppings of choice!\nBake on the lower rack of your oven for around 15-20 minutes until the crust looks crispy and lightly browned.\nLet cool, cut and serve.",
-            self.harvester_class.instructions(),
+            [
+                "Preheat oven to 450 degrees F. Grease a pizza pan or large jelly roll pan and set aside.",
+                "Put warm water into a large mixing bowl.",
+                "Add sugar and yeast and stir to combine.",
+                "Let mixture sit for 5 minutes, or until it becomes frothy and bubbles form.",
+                "Add olive oil and gently stir to combine.",
+                "Add 2 cups of flour and salt and mix with a spatula until a ball begins to form (dough will still be slightly sticky). Add more flour as needed to form a dough ball.",
+                "Transfer to a floured surface and knead into a smooth dough, adding up to ½ cup extra flour if needed.",
+                "Roll dough into your desired shape and gently transfer to your prepared pan.",
+                "To ensure the dough doesn't form air pockets, use a fork to prick to the dough all around (gently so you do not poke holes all the way through the crust).",
+                "Bake on the lower rack of your preheated oven for 5 minutes and remove from your oven. (this is just to very slightly prebake the dough). If you notice air bubbles forming, poke them with a fork to let the air out.",
+                "Add pizza sauce and toppings of choice!",
+                "Bake on the lower rack of your oven for around 15-20 minutes until the crust looks crispy and lightly browned.",
+                "Let cool, cut and serve.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):

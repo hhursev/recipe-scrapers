@@ -54,10 +54,16 @@ class TestArchanasKitchenScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "We begin making the Classic Greek salad Recipe by washing the lettuce thoroughly and draining off any excess water. Tear them into bite size pieces and keep it aside.\nCut all the vegetables and keep it ready, add all the salad ingredients(lettuce,cucumber, tomatoes,red onion) except feta & olives into a large mixing bowl.\nIn another bowl whisk in the dressing ingredients till it combines. Drizzle this on top of the salad mixture and give it a toss.Check for salt and pepper and add if required.\nServe the salad on a flat plate topped up with some crumbled feta cheese and olives.\nServe the Classic Greek salad Recipe as a Party Appetizer followed by a Vegan Moussaka to relish a Greek Meal.",
-            self.harvester_class.instructions(),
+            [
+                "We begin making the Classic Greek salad Recipe by washing the lettuce thoroughly and draining off any excess water. Tear them into bite size pieces and keep it aside.",
+                "Cut all the vegetables and keep it ready, add all the salad ingredients(lettuce,cucumber, tomatoes,red onion) except feta & olives into a large mixing bowl.",
+                "In another bowl whisk in the dressing ingredients till it combines. Drizzle this on top of the salad mixture and give it a toss.Check for salt and pepper and add if required.",
+                "Serve the salad on a flat plate topped up with some crumbled feta cheese and olives.",
+                "Serve the Classic Greek salad Recipe as a Party Appetizer followed by a Vegan Moussaka to relish a Greek Meal.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):

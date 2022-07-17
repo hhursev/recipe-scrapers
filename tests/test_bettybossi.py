@@ -53,10 +53,15 @@ class TestBettyBossiScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertEqual(
-            "Écraser les biscuits dans un sachet en plastique à l’aide d’un rouleau à pâtisserie, mélanger avec le beurre. Répartir sur le fond du moule préparé, bien tasser avec le dos d’une cuillère ou le fond d’un verre, réserver au frais.\nBien mélanger au fouet le fromage frais, le mascarpone et le séré. Incorporer les œufs et tous les ingrédients, farine comprise.\nBien égoutter les myrtilles et mixer les myrtilles avec le reste des ingrédients, étaler sur le fond de petits-beurre, répartir dessus l’appareil au fromage frais.\nCuisson: env. 50 min dans la moitié inférieure du four préchauffé à 180° C. Laisser tiédir ensuite env. 1 h dans le four éteint, en maintenant la porte entrouverte avec le manche d’une spatule en bois. Retirer, laisser refroidir sur une grille. Ôter le bord du moule.",
-            self.harvester_class.instructions(),
+            [
+                "Écraser les biscuits dans un sachet en plastique à l’aide d’un rouleau à pâtisserie, mélanger avec le beurre. Répartir sur le fond du moule préparé, bien tasser avec le dos d’une cuillère ou le fond d’un verre, réserver au frais.",
+                "Bien mélanger au fouet le fromage frais, le mascarpone et le séré. Incorporer les œufs et tous les ingrédients, farine comprise.",
+                "Bien égoutter les myrtilles et mixer les myrtilles avec le reste des ingrédients, étaler sur le fond de petits-beurre, répartir dessus l’appareil au fromage frais.",
+                "Cuisson: env. 50 min dans la moitié inférieure du four préchauffé à 180° C. Laisser tiédir ensuite env. 1 h dans le four éteint, en maintenant la porte entrouverte avec le manche d’une spatule en bois. Retirer, laisser refroidir sur une grille. Ôter le bord du moule.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):

@@ -34,10 +34,10 @@ class TestLekkerEnSimpelScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertIn(
-            "Een heerlijke poké bowl met kip, avocado",
-            self.harvester_class.instructions(),
+            ["Een heerlijke poké bowl met kip, avocado"],
+            self.harvester_class.instructions_list(),
         )
 
     def test_description(self):

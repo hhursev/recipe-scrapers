@@ -46,8 +46,10 @@ class TestFoodAndWineScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "Melt butter in a large pot over medium. Add garlic, chile, and ginger; cook, stirring often, until aromatic and tender, about 5 minutes. Add lime juice, vinegar, and thyme; bring to a simmer over medium. Increase heat to medium-high; add shrimp, and cook, stirring often, until shrimp are opaque and cooked through, about 5 minutes. Remove from heat. Sprinkle with salt, and serve immediately.",
-            self.harvester_class.instructions(),
+            [
+                "Melt butter in a large pot over medium. Add garlic, chile, and ginger; cook, stirring often, until aromatic and tender, about 5 minutes. Add lime juice, vinegar, and thyme; bring to a simmer over medium. Increase heat to medium-high; add shrimp, and cook, stirring often, until shrimp are opaque and cooked through, about 5 minutes. Remove from heat. Sprinkle with salt, and serve immediately."
+            ],
+            self.harvester_class.instructions_list(),
         )

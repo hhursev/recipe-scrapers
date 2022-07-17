@@ -57,8 +57,16 @@ class TestMyBakingAddictionScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "Preheat oven to 350°F. Spray two 8x4-inch loaf pans with Pillsbury® Baking Spray with Flour.\nIn a medium bowl, sift together the flour, cocoa, salt, baking soda, baking powder and cinnamon.\nIn a large bowl with an electric mixer, mix the coconut oil and sugars until combined. Mix in the sour cream. Add in the eggs and vanilla and mix until thoroughly incorporated.\nSlowly add dry ingredients to wet ingredients and mix until just combined.\nAdd in the zucchini and mix for about 1 minute, or until the batter is moistened and the zucchini is evenly incorporated into the batter. Stir in the chocolate chips and shredded coconut.\nSpread the batter into the prepared pans and bake in preheated oven for 55-60 minutes, or until a toothpick inserted into the center comes out clean.\nCool bread in pan for 1/2 hour. Remove bread to a wire rack to cool completely.",
-            self.harvester_class.instructions(),
+            [
+                "Preheat oven to 350°F. Spray two 8x4-inch loaf pans with Pillsbury® Baking Spray with Flour.",
+                "In a medium bowl, sift together the flour, cocoa, salt, baking soda, baking powder and cinnamon.",
+                "In a large bowl with an electric mixer, mix the coconut oil and sugars until combined. Mix in the sour cream. Add in the eggs and vanilla and mix until thoroughly incorporated.",
+                "Slowly add dry ingredients to wet ingredients and mix until just combined.",
+                "Add in the zucchini and mix for about 1 minute, or until the batter is moistened and the zucchini is evenly incorporated into the batter. Stir in the chocolate chips and shredded coconut.",
+                "Spread the batter into the prepared pans and bake in preheated oven for 55-60 minutes, or until a toothpick inserted into the center comes out clean.",
+                "Cool bread in pan for 1/2 hour. Remove bread to a wire rack to cool completely.",
+            ],
+            self.harvester_class.instructions_list(),
         )

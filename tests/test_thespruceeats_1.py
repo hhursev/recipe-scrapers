@@ -57,8 +57,17 @@ class TestTheSpruceEatsScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "Gather the ingredients.\nPreheat the oven to 350 F.\nIn a large bowl, combine the ground lamb, egg, garlic, ground cumin, ground coriander, smoked paprika, dried oregano, salt, and black pepper.\nPlace the mixture into an oiled 9 x 5-inch loaf pan and cook in the oven for approximately 30 minutes or until the top is a light golden brown.\nYou can slice the loaf immediately if you like but, for best results, cool completely, wrap in aluminum foil, and refrigerate until firm.\nTo reheat, add a little olive oil to a large skillet, slice the loaf very thinly and crisp up the slices in the hot pan for a few minutes.\nAssemble the sandwiches with pita, warmed and toasted through. Spread on some tzatziki or tahini sauce, add lettuce, tomato, cucumber, onion, and top with more sauce.\nServe and enjoy.",
-            self.harvester_class.instructions(),
+            [
+                "Gather the ingredients.",
+                "Preheat the oven to 350 F.",
+                "In a large bowl, combine the ground lamb, egg, garlic, ground cumin, ground coriander, smoked paprika, dried oregano, salt, and black pepper.",
+                "Place the mixture into an oiled 9 x 5-inch loaf pan and cook in the oven for approximately 30 minutes or until the top is a light golden brown.",
+                "You can slice the loaf immediately if you like but, for best results, cool completely, wrap in aluminum foil, and refrigerate until firm.",
+                "To reheat, add a little olive oil to a large skillet, slice the loaf very thinly and crisp up the slices in the hot pan for a few minutes.",
+                "Assemble the sandwiches with pita, warmed and toasted through. Spread on some tzatziki or tahini sauce, add lettuce, tomato, cucumber, onion, and top with more sauce.",
+                "Serve and enjoy.",
+            ],
+            self.harvester_class.instructions_list(),
         )

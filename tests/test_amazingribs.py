@@ -45,8 +45,13 @@ class TestAmazingRibsScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "Method\n\n1) Prep. Put the whole black peppercorns into a plastic bag and smash the heck outta them with a small frying pan until you have chunks of cracked peppercorns. Mix them with the rest of the black pepper, paprika, garlic powder, salt, sage, and chile powder in a small bowl. Remove the seeds and stems from the jalapeno and mince it into tiny bits. Peel the onion and garlic and mince them too. Now, go to our article on the Science of Making Sausage and follow steps (1) through (16).\n\n17) Smoke. Set up your grill or smoker and maintain a steady 225ºF. Smoke the sausages at 225°F until they hit 160°F internal temperature, about 1 to 2 hours. As long as they hit that internal temp, you can experiment with the time to get your preferred level of smoke on the sausage.\n\n18) Serve. You can serve Hot Guts nekkid on a plate with some saltine crackers and hot sauce (traditional Texas style) or with some potatoes and a salad, or on a bun, or incorporate them into a dish like German Potato Salad or Choucroute Garnie, the classic Alsatian hot dish of sauerkraut, potatoes, various charcuterie, and mustard.",
-            self.harvester_class.instructions(),
+            [
+                "Method",
+                "1) Prep. Put the whole black peppercorns into a plastic bag and smash the heck outta them with a small frying pan until you have chunks of cracked peppercorns. Mix them with the rest of the black pepper, paprika, garlic powder, salt, sage, and chile powder in a small bowl. Remove the seeds and stems from the jalapeno and mince it into tiny bits. Peel the onion and garlic and mince them too. Now, go to our article on the Science of Making Sausage and follow steps (1) through (16).",
+                "17) Smoke. Set up your grill or smoker and maintain a steady 225ºF. Smoke the sausages at 225°F until they hit 160°F internal temperature, about 1 to 2 hours. As long as they hit that internal temp, you can experiment with the time to get your preferred level of smoke on the sausage.",
+                "18) Serve. You can serve Hot Guts nekkid on a plate with some saltine crackers and hot sauce (traditional Texas style) or with some potatoes and a salad, or on a bun, or incorporate them into a dish like German Potato Salad or Choucroute Garnie, the classic Alsatian hot dish of sauerkraut, potatoes, various charcuterie, and mustard.",
+            ],
+            self.harvester_class.instructions_list(),
         )

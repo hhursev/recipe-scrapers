@@ -38,8 +38,15 @@ class TestTheKitchenMagPie(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "Preheat your oven to 375 °F. Grease a baking sheet and set aside.\nDrain the salmon well and if desired, remove any skin and bones from the salmon. You can leave them in, some people love those the best! They will bake right in, don't worry.\nFlake the salmon with a fork and then mix with the breadcrumbs, onion, dill, egg, lemon juice, salt and pepper.\nWith clean hands, shape into a loaf on the greased baking sheet.\nBake for 40-50 minutes OR until nicely browned AND reaches an internal temperature of at least 165 °F.\nLet cool for 5 minutes, then slice and serve. Garnish with fresh parsley and lemon wedges. This is excellent with lemon juice squeezed on top!",
-            self.harvester_class.instructions(),
+            [
+                "Preheat your oven to 375 °F. Grease a baking sheet and set aside.",
+                "Drain the salmon well and if desired, remove any skin and bones from the salmon. You can leave them in, some people love those the best! They will bake right in, don't worry.",
+                "Flake the salmon with a fork and then mix with the breadcrumbs, onion, dill, egg, lemon juice, salt and pepper.",
+                "With clean hands, shape into a loaf on the greased baking sheet.",
+                "Bake for 40-50 minutes OR until nicely browned AND reaches an internal temperature of at least 165 °F.",
+                "Let cool for 5 minutes, then slice and serve. Garnish with fresh parsley and lemon wedges. This is excellent with lemon juice squeezed on top!",
+            ],
+            self.harvester_class.instructions_list(),
         )

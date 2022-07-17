@@ -42,8 +42,20 @@ class SweetCsDesignsScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "Using a mandoline, slice the potatoes into fries. I don't worry too much about the size of fry I am making- some are bigger, and some are smaller. That's fine!\nNext, place your spuds in a nice cool water bath. Completely submerge the fries in water.\nLet fries sit one hour. This helps to remove excess starch and will help the fries crisp up more in the oven.\nPreheat air fryer to 375 degrees.\nAfter an hour, drain the water, and pat fries dry with a paper towel.\nToss with a couple tablespoons of olive oil, salt and pepper.\nAdd fries to bottom of air fryer basket, making sure they are all on the same level (don't stack them on top of each other.)\nCook 13 minutes, until crispy and golden brown.\nPlace on a baking sheet lined with paper towels and a cooling rack over it.\nPlace in warm oven (set to the minimum temperature, not over 250 degrees) and let rest while other batches of fries are cooking.\nServe hot and enjoy.",
-            self.harvester_class.instructions(),
+            [
+                "Using a mandoline, slice the potatoes into fries. I don't worry too much about the size of fry I am making- some are bigger, and some are smaller. That's fine!",
+                "Next, place your spuds in a nice cool water bath. Completely submerge the fries in water.",
+                "Let fries sit one hour. This helps to remove excess starch and will help the fries crisp up more in the oven.",
+                "Preheat air fryer to 375 degrees.",
+                "After an hour, drain the water, and pat fries dry with a paper towel.",
+                "Toss with a couple tablespoons of olive oil, salt and pepper.",
+                "Add fries to bottom of air fryer basket, making sure they are all on the same level (don't stack them on top of each other.)",
+                "Cook 13 minutes, until crispy and golden brown.",
+                "Place on a baking sheet lined with paper towels and a cooling rack over it.",
+                "Place in warm oven (set to the minimum temperature, not over 250 degrees) and let rest while other batches of fries are cooking.",
+                "Serve hot and enjoy.",
+            ],
+            self.harvester_class.instructions_list(),
         )

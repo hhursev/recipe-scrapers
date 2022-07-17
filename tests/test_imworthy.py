@@ -48,10 +48,15 @@ class TestImWorthyScraper(ScraperTest):
         ]
         self.assertEqual(ingredients, self.harvester_class.ingredients())
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertEqual(
-            "In separate bowls: mix the wet & dry ingredients.\nAdd the wet ingredients to the dry ingredients and stir until combined. Let the pancake batter rest for 5 minutes to thicken while you heat the pan according the next steps below.\nAdd the oil to a nonstick pan over medium heat. Once the pan is hot pour the batter into the pan using a 1/4 measuring cup (for easy clean up). Cook on each side for about 2-5 minutes (depends on your pan) or until you see little bubbles form on top, then flip and let them cook for another couple of minutes.\nServe with your favorite toppings. Some suggestions include maple syrup, coconut whip cream, fresh berries, or vegan butter.",
-            self.harvester_class.instructions(),
+            [
+                "In separate bowls: mix the wet & dry ingredients.",
+                "Add the wet ingredients to the dry ingredients and stir until combined. Let the pancake batter rest for 5 minutes to thicken while you heat the pan according the next steps below.",
+                "Add the oil to a nonstick pan over medium heat. Once the pan is hot pour the batter into the pan using a 1/4 measuring cup (for easy clean up). Cook on each side for about 2-5 minutes (depends on your pan) or until you see little bubbles form on top, then flip and let them cook for another couple of minutes.",
+                "Serve with your favorite toppings. Some suggestions include maple syrup, coconut whip cream, fresh berries, or vegan butter.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):

@@ -34,8 +34,11 @@ class TestCookEatShare(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            'Place potatoes and carrots in bottom of 11" x 7 1/2" x 1 3/4" baking dish. Trim fat from steaks. In large skillet, cook trimmings till about 2 Tbsp. oil accumulates; throw away trimmings.\nIn warm oil, brown steaks well on both sides. In small saucepan, bring to boil. Spoon 1/2 of onion soup mix over the potatoes and carrots; top with steaks. Spoon remaining soup mix over. Cover, bake in 350 degree oven for 1 hour. Uncover and bake 10 min more. Makes 4 servings.',
-            self.harvester_class.instructions(),
+            [
+                'Place potatoes and carrots in bottom of 11" x 7 1/2" x 1 3/4" baking dish. Trim fat from steaks. In large skillet, cook trimmings till about 2 Tbsp. oil accumulates; throw away trimmings.',
+                "In warm oil, brown steaks well on both sides. In small saucepan, bring to boil. Spoon 1/2 of onion soup mix over the potatoes and carrots; top with steaks. Spoon remaining soup mix over. Cover, bake in 350 degree oven for 1 hour. Uncover and bake 10 min more. Makes 4 servings.",
+            ],
+            self.harvester_class.instructions_list(),
         )

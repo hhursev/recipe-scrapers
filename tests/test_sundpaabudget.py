@@ -59,14 +59,16 @@ class TestSundPaaBudgetScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertEqual(
-            """Rengør og hak løg, peberfrugt og tomater i tern.
-Opvarm olie i en stor gryde og svits kyllingekebaben et par minutter. Tilsæt grøntsagerne og lad det svitse med yderligere 2 minutter.
-Tilsæt spaghetti, flødeost, vand, bouillonterning og krydderier.
-Lad retten simre ved middelvarme til spaghettien er aldente og vandet er kogt næsten ind til en cremet sauce.
-Smag til med salt og peber.""",
-            self.harvester_class.instructions(),
+            [
+                "Rengør og hak løg, peberfrugt og tomater i tern.",
+                "Opvarm olie i en stor gryde og svits kyllingekebaben et par minutter. Tilsæt grøntsagerne og lad det svitse med yderligere 2 minutter.",
+                "Tilsæt spaghetti, flødeost, vand, bouillonterning og krydderier.",
+                "Lad retten simre ved middelvarme til spaghettien er aldente og vandet er kogt næsten ind til en cremet sauce.",
+                "Smag til med salt og peber.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):

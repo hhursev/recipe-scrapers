@@ -40,10 +40,14 @@ class TestCdKitchen(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "Combine seasoning ingredients. Brush 1/2 of seasoning on veal steaks. Toss remaining seasoning with potatoes.\nPlace steaks and potatoes on rack in broiler pan so surface of veal is 3 to 4 inches from heat. Squeeze juice from lemon wedges over steaks and potatoes; place wedges on rack. Broil 26 to 28 minutes for medium doneness, turning steaks, potatoes and lemon once. Remove steaks.\nContinue broiling potatoes and lemon 3 to 5 minutes or until lightly browned. Carve veal; season with salt. Serve with potatoes, lemon and peas.",
-            self.harvester_class.instructions(),
+            [
+                "Combine seasoning ingredients. Brush 1/2 of seasoning on veal steaks. Toss remaining seasoning with potatoes.",
+                "Place steaks and potatoes on rack in broiler pan so surface of veal is 3 to 4 inches from heat. Squeeze juice from lemon wedges over steaks and potatoes; place wedges on rack. Broil 26 to 28 minutes for medium doneness, turning steaks, potatoes and lemon once. Remove steaks.",
+                "Continue broiling potatoes and lemon 3 to 5 minutes or until lightly browned. Carve veal; season with salt. Serve with potatoes, lemon and peas.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_image(self):

@@ -51,8 +51,10 @@ class TestIGScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertEqual(
-            "Em uma panela com o azeite, refogue a cebola e o alho até que a cebola comece a murchar. Junte os cogumelos, o limão, e o catchup. Cozinhe por 5 a 10 minutos. Adicione o caldo e cozinhe por mais 5 minutos. Junte a maisena e deixe ferver até engrossar ligeiramente. Por último, adicione o creme de leite, tempere e junte a salsinha. Sirva com arroz e batata palha.",
-            self.harvester_class.instructions(),
+            [
+                "Em uma panela com o azeite, refogue a cebola e o alho até que a cebola comece a murchar. Junte os cogumelos, o limão, e o catchup. Cozinhe por 5 a 10 minutos. Adicione o caldo e cozinhe por mais 5 minutos. Junte a maisena e deixe ferver até engrossar ligeiramente. Por último, adicione o creme de leite, tempere e junte a salsinha. Sirva com arroz e batata palha."
+            ],
+            self.harvester_class.instructions_list(),
         )

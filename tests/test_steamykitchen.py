@@ -53,10 +53,22 @@ class TestSteamyKitchenScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertEqual(
-            'Make the Broth\nTurn the pressure cooker to "sauté" and heat the oil until smoking. Add the onion, ginger slices and cook until nicely browned, about 4 minutes. Add the garlic cloves, coriander, and star anise and sauté for another 2 minutes until fragrant.\nAdd in the chicken and 2 quarts of water to cover the chicken and seal the pot. Set to pressure and cook 20 minutes on high.\nMake your rice noodles while your broth is cooking.\nWhen the cooking is complete, carefully release the pressure then remove the lid once all pressure is released. Remove the chicken from the pot and transfer to a large bowl and let chicken cool off a bit. Strain all the spices from the broth and discard. Turn the pressure cooker on "boil" or "sauté" to keep the broth very hot.\nSeason broth with the fish sauce and sugar. Taste. If the broth is too bland, adjust with more fish sauce and sugar.\nRemove the chicken meat from bones, shred with fingers. Set aside.\nMake the Pho Bowls\nDrain the onions, Set your table with the onions, all of the herbs and condiments so that each person can customize their own bowl.\nDivide the chicken and prepared noodles amongst the bowls.\nReturn the pho broth to a boil. Ladle the hot pho broth into each bowl, and serve.',
-            self.harvester_class.instructions(),
+            [
+                "Make the Broth",
+                'Turn the pressure cooker to "sauté" and heat the oil until smoking. Add the onion, ginger slices and cook until nicely browned, about 4 minutes. Add the garlic cloves, coriander, and star anise and sauté for another 2 minutes until fragrant.',
+                "Add in the chicken and 2 quarts of water to cover the chicken and seal the pot. Set to pressure and cook 20 minutes on high.",
+                "Make your rice noodles while your broth is cooking.",
+                'When the cooking is complete, carefully release the pressure then remove the lid once all pressure is released. Remove the chicken from the pot and transfer to a large bowl and let chicken cool off a bit. Strain all the spices from the broth and discard. Turn the pressure cooker on "boil" or "sauté" to keep the broth very hot.',
+                "Season broth with the fish sauce and sugar. Taste. If the broth is too bland, adjust with more fish sauce and sugar.",
+                "Remove the chicken meat from bones, shred with fingers. Set aside.",
+                "Make the Pho Bowls",
+                "Drain the onions, Set your table with the onions, all of the herbs and condiments so that each person can customize their own bowl.",
+                "Divide the chicken and prepared noodles amongst the bowls.",
+                "Return the pho broth to a boil. Ladle the hot pho broth into each bowl, and serve.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):

@@ -40,8 +40,17 @@ class TestPurelyPopeScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "Instructions\n\nBrussel Sprout Time!\n\nPreheat oven to 350 degrees.\nWhisk the sauce (coconut aminos, sriracha, maple syrup & sesame oil) together in a large bowl.\nToss in brussel sprouts and coat mixture evenly over the brussels.\nRoast for 30 minutes.\nTurn oven to broil for 2-3 minutes to crisp (watch carefully to not burn.)\nTop with everything or sesame seeds.",
-            self.harvester_class.instructions(),
+            [
+                "Instructions",
+                "Brussel Sprout Time!",
+                "Preheat oven to 350 degrees.",
+                "Whisk the sauce (coconut aminos, sriracha, maple syrup & sesame oil) together in a large bowl.",
+                "Toss in brussel sprouts and coat mixture evenly over the brussels.",
+                "Roast for 30 minutes.",
+                "Turn oven to broil for 2-3 minutes to crisp (watch carefully to not burn.)",
+                "Top with everything or sesame seeds.",
+            ],
+            self.harvester_class.instructions_list(),
         )

@@ -49,10 +49,14 @@ class TestHeadbangersKitchenScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertEqual(
-            "Crack the 3 eggs into a bowl and add in the chopped onion, coriander, salt, pepper, tumeric, chilli powder and heavy cream and beat well.\nHeat the ghee in a frying pan and once melted add in the beaten eggs. Grate in the cheese and cover and cook for about 4 minutes. Fold the egg and finish cooking.\nServe with a side of salad.",
-            self.harvester_class.instructions(),
+            [
+                "Crack the 3 eggs into a bowl and add in the chopped onion, coriander, salt, pepper, tumeric, chilli powder and heavy cream and beat well.",
+                "Heat the ghee in a frying pan and once melted add in the beaten eggs. Grate in the cheese and cover and cook for about 4 minutes. Fold the egg and finish cooking.",
+                "Serve with a side of salad.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):

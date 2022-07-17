@@ -43,12 +43,14 @@ class TestEatingWell(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            """Position rack in upper third of oven. Preheat broiler to high.
-Heat oil in a large oven-safe skillet over medium heat. Add onion and bell pepper; cook, stirring, until softened, about 5 minutes. Add beef and cauliflower; cook, stirring and breaking the beef up into smaller pieces, until it is no longer pink, 5 to 7 minutes. Stir in garlic, chili powder, cumin, oregano, salt and chipotle; cook until fragrant, about 1 minute. Add tomatoes and their juices; bring to a simmer and cook, stirring occasionally, until liquid is reduced and the cauliflower is tender, about 3 minutes more. Remove from heat.
-Sprinkle cheese over the beef mixture and top with sliced jalapeños. Broil until the cheese is melted and browned in spots, 2 to 3 minutes.""",
-            self.harvester_class.instructions(),
+            [
+                "Position rack in upper third of oven. Preheat broiler to high.",
+                "Heat oil in a large oven-safe skillet over medium heat. Add onion and bell pepper; cook, stirring, until softened, about 5 minutes. Add beef and cauliflower; cook, stirring and breaking the beef up into smaller pieces, until it is no longer pink, 5 to 7 minutes. Stir in garlic, chili powder, cumin, oregano, salt and chipotle; cook until fragrant, about 1 minute. Add tomatoes and their juices; bring to a simmer and cook, stirring occasionally, until liquid is reduced and the cauliflower is tender, about 3 minutes more. Remove from heat.",
+                "Sprinkle cheese over the beef mixture and top with sliced jalapeños. Broil until the cheese is melted and browned in spots, 2 to 3 minutes.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_total_time(self):

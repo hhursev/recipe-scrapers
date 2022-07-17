@@ -44,10 +44,17 @@ class TestBudgetBytesScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "Mince the garlic, grate the ginger, and dice the onion. Add the olive oil, garlic, and ginger to a deep skillet, Dutch oven, or soup pot. Sauté the garlic and ginger over medium heat for 1 minute, or just until the garlic becomes soft and fragrant.\nAdd the diced onion to the skillet and continue to sauté over medium until the onion is soft and translucent. Add the curry powder and continue to sauté for about one minute more to toast the spices.\nAdd the dry lentils and vegetable broth to the skillet. Stir to dissolve any browned bits from the bottom of the skillet. Place a lid on top, turn the heat up to medium-high, and bring the broth to a boil. Once boiling, turn the heat down to low, and let it simmer for 20 minutes, stirring occasionally.\nAfter simmering for 20 minutes the lentils should be tender and most of the broth absorbed. Add the can of coconut milk and stir to combine. Turn the heat back up to medium and allow the skillet to come back up to a simmer. Let it simmer without a lid for an additional 10 minutes, stirring often, to thicken the mixture.\nOnce thickened, turn the heat off. Add the fresh spinach and stir gently until the spinach has wilted. Taste the mixture and adjust the salt or curry powder to your liking, if needed.\nServe over a bowl of rice, and top with chopped cilantro if desired.",
-            self.harvester_class.instructions(),
+            [
+                "Mince the garlic, grate the ginger, and dice the onion. Add the olive oil, garlic, and ginger to a deep skillet, Dutch oven, or soup pot. Sauté the garlic and ginger over medium heat for 1 minute, or just until the garlic becomes soft and fragrant.",
+                "Add the diced onion to the skillet and continue to sauté over medium until the onion is soft and translucent. Add the curry powder and continue to sauté for about one minute more to toast the spices.",
+                "Add the dry lentils and vegetable broth to the skillet. Stir to dissolve any browned bits from the bottom of the skillet. Place a lid on top, turn the heat up to medium-high, and bring the broth to a boil. Once boiling, turn the heat down to low, and let it simmer for 20 minutes, stirring occasionally.",
+                "After simmering for 20 minutes the lentils should be tender and most of the broth absorbed. Add the can of coconut milk and stir to combine. Turn the heat back up to medium and allow the skillet to come back up to a simmer. Let it simmer without a lid for an additional 10 minutes, stirring often, to thicken the mixture.",
+                "Once thickened, turn the heat off. Add the fresh spinach and stir gently until the spinach has wilted. Taste the mixture and adjust the salt or curry powder to your liking, if needed.",
+                "Serve over a bowl of rice, and top with chopped cilantro if desired.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):

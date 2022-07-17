@@ -52,8 +52,10 @@ class TestPurpleCarrotScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         return self.assertEqual(
-            "1 - Start the lentils. 2 - Roast the cauliflower . 3 - Prepare the toppings. 4 - Make the curried balsamic vinaigrette. 5 - Make the salad. 6 - Serve.",
-            self.harvester_class.instructions(),
+            [
+                "1 - Start the lentils. 2 - Roast the cauliflower . 3 - Prepare the toppings. 4 - Make the curried balsamic vinaigrette. 5 - Make the salad. 6 - Serve."
+            ],
+            self.harvester_class.instructions_list(),
         )

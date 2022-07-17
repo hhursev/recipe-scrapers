@@ -47,16 +47,18 @@ class TestMobKitchenScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertEqual(
-            """Combine the plain flour, a pinch of salt and hot water (from the kettle) in a bowl and mix with a wooden spoon. Once it is cool enough to handle, knead the dough for 5 minutes until smooth. Pour in a tablespoon of oil and knead through. Cover and rest for 10 minutes
-Meanwhile, prepare the garlic chilli oil. Grate the garlic into a small microwaveable bowl with the chilli powder, ¼ teaspoon salt and 2 tablespoons of oil. Microwave for 1 minute to soften and cook the garlic.
-Roughly chop your coriander and finely slice your spring onions.
-Divide the dough into quarters, and then the quarters into halves to form eight even balls.
-Roll two balls into large circles about 2mm thick so they are about the same size. Spread ½ a teaspoon of the chilli garlic paste on to one circle, sprinkle on a handful of shredded mozzarella and shredded cheddar. Sprinkle on your coriander and spring onions, then press a second dough circle on top – you can use some water along the edges to help it stick if you need it too
-Heat up a frying pan and pour in a small glug of oil. Slap on the paratha and cook on a high heat on both sides for 2 minutes. Flip using a large spatula.
-Cut into quarters and serve whilst still hot and oozing with cheese.""",
-            self.harvester_class.instructions(),
+            [
+                "Combine the plain flour, a pinch of salt and hot water (from the kettle) in a bowl and mix with a wooden spoon. Once it is cool enough to handle, knead the dough for 5 minutes until smooth. Pour in a tablespoon of oil and knead through. Cover and rest for 10 minutes",
+                "Meanwhile, prepare the garlic chilli oil. Grate the garlic into a small microwaveable bowl with the chilli powder, ¼ teaspoon salt and 2 tablespoons of oil. Microwave for 1 minute to soften and cook the garlic.",
+                "Roughly chop your coriander and finely slice your spring onions.",
+                "Divide the dough into quarters, and then the quarters into halves to form eight even balls.",
+                "Roll two balls into large circles about 2mm thick so they are about the same size. Spread ½ a teaspoon of the chilli garlic paste on to one circle, sprinkle on a handful of shredded mozzarella and shredded cheddar. Sprinkle on your coriander and spring onions, then press a second dough circle on top – you can use some water along the edges to help it stick if you need it too",
+                "Heat up a frying pan and pour in a small glug of oil. Slap on the paratha and cook on a high heat on both sides for 2 minutes. Flip using a large spatula.",
+                "Cut into quarters and serve whilst still hot and oozing with cheese.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):

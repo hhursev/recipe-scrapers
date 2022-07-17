@@ -47,12 +47,14 @@ class TestRealFoodTescoScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions(self):
+    def test_instructions_list(self):
         self.assertEqual(
-            """Preheat the oven to gas 7, 220°C, fan 200°C. Toss the cauliflower with ½ tbsp oil and ½ tbsp ras el hanout in a baking dish, then roast for 20-25 mins until tender and golden.
-Meanwhile, heat ½ tbsp oil in a large, lidded saucepan over a medium heat. Add the onions, carrot and garlic and cook for 5 mins, then stir in ½ tbsp ras el hanout and cook for 1 min. Add the tomatoes, chickpeas, olives and 200ml boiling water and bring to the boil. Reduce the heat to low, cover and simmer for 15-20 mins until the veg is cooked through and the sauce has thickened. Remove from the heat and stir in the cauliflower.
-Put the couscous in a heatproof bowl, pour over the stock, cover and set aside for 5 mins, then fluff up with a fork. Divide between 4 plates and top with the tagine, yogurt and parsley to serve.""",
-            self.harvester_class.instructions(),
+            [
+                "Preheat the oven to gas 7, 220°C, fan 200°C. Toss the cauliflower with ½ tbsp oil and ½ tbsp ras el hanout in a baking dish, then roast for 20-25 mins until tender and golden.",
+                "Meanwhile, heat ½ tbsp oil in a large, lidded saucepan over a medium heat. Add the onions, carrot and garlic and cook for 5 mins, then stir in ½ tbsp ras el hanout and cook for 1 min. Add the tomatoes, chickpeas, olives and 200ml boiling water and bring to the boil. Reduce the heat to low, cover and simmer for 15-20 mins until the veg is cooked through and the sauce has thickened. Remove from the heat and stir in the cauliflower.",
+                "Put the couscous in a heatproof bowl, pour over the stock, cover and set aside for 5 mins, then fluff up with a fork. Divide between 4 plates and top with the tagine, yogurt and parsley to serve.",
+            ],
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):
