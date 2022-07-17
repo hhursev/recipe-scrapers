@@ -59,7 +59,7 @@ class TestComidinhasDoChefScraper(ScraperTest):
                 "Após esse tempo retire o papel alumínio e leve novamente para assar até dourar bem o pernil;",
                 "Em seguida retire do forno e prontinho, já pode servir.",
             ],
-            self.harvester_class.instructions_list()
+            self.harvester_class.instructions_list(),
         )
 
     def test_ratings(self):
