@@ -52,23 +52,10 @@ class TestKingArthurScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Preheat the oven to 325°F. Lightly grease (or line with parchment) two baking sheets.",
-                "Weigh your flour; or measure it by gently spooning it into a cup, then sweeping off any excess.",
-                "In a medium bowl, whisk together the flour, baking soda, salt, and spices. Set aside.",
-                "In a large mixing bowl, using either a hand whisk, an electric mixer, or a stand mixer, whisk the sugar and oil until combined.",
-                "Add the egg and whisk until smooth.",
-                "Stir in the molasses.",
-                "Add the dry ingredients to the bowl and stir until well combined.",
-                'Use a spoon (or a tablespoon cookie scoop) to portion 1 1/4" balls of dough.',
-                "Roll the dough balls in granulated or sparkling sugar to coat before placing onto the prepared baking sheets. Leave 2\" between them on all sides; they'll spread as they bake.",
-                "Bake the cookies for 12 to 15 minutes, until they're puffed and their edges are set.",
-                "Remove the cookies from the oven, and cool completely right on the pan.",
-                "Store cookies, well wrapped, at room temperature for several days; freeze for longer storage.",
-            ],
-            self.harvester_class.instructions_list(),
+            """Preheat the oven to 325°F. Lightly grease (or line with parchment) two baking sheets.\nWeigh your flour; or measure it by gently spooning it into a cup, then sweeping off any excess.\nIn a medium bowl, whisk together the flour, baking soda, salt, and spices. Set aside.\nIn a large mixing bowl, using either a hand whisk, an electric mixer, or a stand mixer, whisk the sugar and oil until combined.\nAdd the egg and whisk until smooth.\nStir in the molasses.\nAdd the dry ingredients to the bowl and stir until well combined.\nUse a spoon (or a tablespoon cookie scoop) to portion 1 1/4" balls of dough.\nRoll the dough balls in granulated or sparkling sugar to coat before placing onto the prepared baking sheets. Leave 2" between them on all sides; they'll spread as they bake.\nBake the cookies for 12 to 15 minutes, until they're puffed and their edges are set.\nRemove the cookies from the oven, and cool completely right on the pan.\nStore cookies, well wrapped, at room temperature for several days; freeze for longer storage.""",
+            self.harvester_class.instructions(),
         )
 
 
@@ -121,19 +108,8 @@ class TestKingArthurScraperBeautifulBuns(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Weigh your flour; or measure it by gently spooning it into a cup, then sweeping off any excess.",
-                "To make the dough: Mix and knead all of the dough ingredients — by hand, mixer, or bread machine — to make a soft, smooth dough.",
-                "Cover the dough and let it rise until it's nearly doubled in bulk, about 1 to 2 hours.",
-                'To shape the buns: Gently deflate the dough and divide it into eight pieces (about 100g each); to make smaller or larger buns see "tips," below. Shape each piece into a ball.',
-                "Flatten each dough ball with the palm of your hand until it's about 3\" across.",
-                "Place the buns on a lightly greased or parchment-lined baking sheet. Cover and let rise until noticeably puffy, about an hour. Toward the end of the rising time, preheat the oven to 375°F.",
-                "Brush the buns with about half of the melted butter. To make seeded buns, brush the egg white/water mixture right over the melted butter; it'll make the seeds adhere. Sprinkle buns with the seeds of your choice.",
-                "To bake the buns: Bake the buns for 15 to 18 minutes, until golden. Remove them from the oven and brush with the remaining melted butter; this will give the buns a satiny, buttery crust. If you've made seeded buns apply the melted butter carefully, to avoid brushing the seeds off the buns.",
-                "Cool the buns on a rack before slicing in half, horizontally. Use as a base for burgers (beef or plant-based) or any favorite sandwich filling.",
-                "Storage information: Store leftover buns, well-wrapped, at room temperature for several days; freeze for longer storage.",
-            ],
-            self.harvester_class.instructions_list(),
+            """Weigh your flour; or measure it by gently spooning it into a cup, then sweeping off any excess.\nTo make the dough: Mix and knead all of the dough ingredients — by hand, mixer, or bread machine — to make a soft, smooth dough.\nCover the dough and let it rise until it's nearly doubled in bulk, about 1 to 2 hours.\nTo shape the buns: Gently deflate the dough and divide it into eight pieces (about 100g each); to make smaller or larger buns see "tips," below. Shape each piece into a ball.\nFlatten each dough ball with the palm of your hand until it's about 3" across.\nPlace the buns on a lightly greased or parchment-lined baking sheet. Cover and let rise until noticeably puffy, about an hour. Toward the end of the rising time, preheat the oven to 375°F.\nBrush the buns with about half of the melted butter. To make seeded buns, brush the egg white/water mixture right over the melted butter; it'll make the seeds adhere. Sprinkle buns with the seeds of your choice.\nTo bake the buns: Bake the buns for 15 to 18 minutes, until golden. Remove them from the oven and brush with the remaining melted butter; this will give the buns a satiny, buttery crust. If you've made seeded buns apply the melted butter carefully, to avoid brushing the seeds off the buns.\nCool the buns on a rack before slicing in half, horizontally. Use as a base for burgers (beef or plant-based) or any favorite sandwich filling.\nStorage information: Store leftover buns, well-wrapped, at room temperature for several days; freeze for longer storage.""",
+            self.harvester_class.instructions(),
         )

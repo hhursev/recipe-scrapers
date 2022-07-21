@@ -58,13 +58,15 @@ class TestSeriousEats(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "In a 12-inch stainless steel skillet, melt 2 tablespoons of butter over medium heat, and swirl pan until foaming subsides. Add celery, shallots, half the parsley (1/4 cup; 15g), garlic, Thai chili (if using), and a couple healthy grinds of black pepper to pan and cook, stirring occasionally, until vegetables are soft and mixture is fragrant, 1 to 2 minutes. Add bottled clam juice along with liquid from canned clams but not the clam meat. Increase heat to high and bring mixture to a boil, then reduce heat to a simmer until liquid is slightly reduced and vegetables have infused broth, about 5 minutes—there should be enough liquid in the pan to fully submerge the pound of cooked pasta. Turn off heat and add clam meat and soy sauce.",
-                'In a pot of salted, boiling water, cook spaghetti, stirring frequently, until about 4 minutes shy of the way you like your pasta cooked (some would say "al dente"). When spaghetti is almost at that point of doneness, bring pan of clam sauce to a boil over high heat.',
-                "Using tongs, transfer spaghetti to pan with clam sauce, distributing pasta so it is mostly submerged in sauce. Cook, tossing and stirring occasionally, until pasta is cooked to your liking and sauce has thickened slightly, about 4 minutes. Taste for seasoning, and add salt if necessary.",
-                "Turn off heat, add remaining butter and parsley, and toss and stir spaghetti vigorously to incorporate parsley and emulsify butter into sauce. Divide pasta among four serving plates, spooning sauce and clams evenly over each portion. Garnish with celery leaves, and serve immediately, passing lemon wedges, for squeezing, at the table.",
-            ],
-            self.harvester_class.instructions_list(),
+            "\n".join(
+                [
+                    "In a 12-inch stainless steel skillet, melt 2 tablespoons of butter over medium heat, and swirl pan until foaming subsides. Add celery, shallots, half the parsley (1/4 cup; 15g), garlic, Thai chili (if using), and a couple healthy grinds of black pepper to pan and cook, stirring occasionally, until vegetables are soft and mixture is fragrant, 1 to 2 minutes. Add bottled clam juice along with liquid from canned clams but not the clam meat. Increase heat to high and bring mixture to a boil, then reduce heat to a simmer until liquid is slightly reduced and vegetables have infused broth, about 5 minutes—there should be enough liquid in the pan to fully submerge the pound of cooked pasta. Turn off heat and add clam meat and soy sauce.",
+                    'In a pot of salted, boiling water, cook spaghetti, stirring frequently, until about 4 minutes shy of the way you like your pasta cooked (some would say "al dente"). When spaghetti is almost at that point of doneness, bring pan of clam sauce to a boil over high heat.',
+                    "Using tongs, transfer spaghetti to pan with clam sauce, distributing pasta so it is mostly submerged in sauce. Cook, tossing and stirring occasionally, until pasta is cooked to your liking and sauce has thickened slightly, about 4 minutes. Taste for seasoning, and add salt if necessary.",
+                    "Turn off heat, add remaining butter and parsley, and toss and stir spaghetti vigorously to incorporate parsley and emulsify butter into sauce. Divide pasta among four serving plates, spooning sauce and clams evenly over each portion. Garnish with celery leaves, and serve immediately, passing lemon wedges, for squeezing, at the table.",
+                ]
+            ),
+            self.harvester_class.instructions(),
         )

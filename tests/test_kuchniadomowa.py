@@ -47,14 +47,8 @@ class TestKuchniaDomowaScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Ogórki umyć, osuszyć, obrać i pokroić w jak najcieńsze plasterki.",
-                "Plasterki umieścić w misce i posypać 1 łyżeczką soli. Wymieszać i pozostawić na ok. 15 minut.",
-                "W międzyczasie śmietanę przełożyć do miseczki. Przyprawić sokiem z cytryny, cukrem, pieprzem i posiekanym koperkiem. Wymieszać.",
-                "Po 15 minutach odlać wodę, którą puściły ogórki. (Lekko je odcisnąć, ale nie za mocno, aby mizeria nie wyszła za sucha).",
-                "Dodać przygotowaną śmietanę i wymieszać.",
-            ],
-            self.harvester_class.instructions_list(),
+            "Ogórki umyć, osuszyć, obrać i pokroić w jak najcieńsze plasterki.\nPlasterki umieścić w misce i posypać 1 łyżeczką soli. Wymieszać i pozostawić na ok. 15 minut.\nW międzyczasie śmietanę przełożyć do miseczki. Przyprawić sokiem z cytryny, cukrem, pieprzem i posiekanym koperkiem. Wymieszać.\nPo 15 minutach odlać wodę, którą puściły ogórki. (Lekko je odcisnąć, ale nie za mocno, aby mizeria nie wyszła za sucha).\nDodać przygotowaną śmietanę i wymieszać.",
+            self.harvester_class.instructions(),
         )

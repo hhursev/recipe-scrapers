@@ -55,17 +55,15 @@ class TestBodybuildingScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "1. Dice the celery, red onion, and mushrooms.",
-                "2. Heat the butter in a skillet over medium heat. Add all of the vegetables and stir-fry for 3-4 minutes or until vegetables are tender. Set aside.",
-                "3. Bring broth to a boil in a large pot. Stir in wild rice, hot sauce, paprika, and bouillon and cook 45-60 minutes or until rice is tender.",
-                "4. Add olive oil and garlic to a skillet and quickly sauté. Remember that garlic burns quickly, so it is important to keep a close eye on it. Add in the cooked rice, beans, and cooked vegetables.",
-                "5. Stir-fry for 3-5 minutes to crisp up the rice and serve. Garnish with chopped green onion.",
-                "6. Optional: Add any other vegetables you prefer.",
-            ],
-            self.harvester_class.instructions_list(),
+            """1. Dice the celery, red onion, and mushrooms.
+2. Heat the butter in a skillet over medium heat. Add all of the vegetables and stir-fry for 3-4 minutes or until vegetables are tender. Set aside.
+3. Bring broth to a boil in a large pot. Stir in wild rice, hot sauce, paprika, and bouillon and cook 45-60 minutes or until rice is tender.
+4. Add olive oil and garlic to a skillet and quickly sauté. Remember that garlic burns quickly, so it is important to keep a close eye on it. Add in the cooked rice, beans, and cooked vegetables.
+5. Stir-fry for 3-5 minutes to crisp up the rice and serve. Garnish with chopped green onion.
+6. Optional: Add any other vegetables you prefer.""",
+            self.harvester_class.instructions(),
         )
 
     def test_description(self):

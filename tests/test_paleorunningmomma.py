@@ -53,16 +53,10 @@ class TestPaleoRunningMommaScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "In a large deep skillet, melt 2 tablespoons of the ghee over medium-high heat.",
-                "Add the steak in a single layer, season with salt and pepper, and let it cook for 3 minutes to brown. Flip, and cook on the other side until browned, another 2 minutes. Then remove steak from pan with a slotted spoon, transfer to a plate, and set aside.",
-                "Lower the heat to medium and the remaining 3 tablespoons of ghee to the skillet. Once it has melted, add the onions and sauté for about 3 minutes, until soft and fragrant. Add mushrooms and sauté for an additional 5-7 minutes, stirring occasionally, or until the mushrooms are cooked and the onions are soft, then add the garlic and sauté 1 minute, stirring occasionally.",
-                "In a bowl or large measuring cup, whisk in together the beef broth, coconut aminos and arrowroot until smooth. Pour the mixture into the skillet and stir well to combine. Simmer for about 5 minutes, stirring occasionally. Meanwhile, in a separate small bowl whisk together the coconut cream, lemon juice, mustard and a pinch of sea salt. Stir the coconut cream mixture plus the cooked steak into the skillet and stir until combined. Taste and season with additional salt and pepper if needed, and cook just long enough to heat through.",
-                "Garnish with parsley, if desired, and serve over cauliflower rice or your favorite veggie noodles. Enjoy!",
-            ],
-            self.harvester_class.instructions_list(),
+            "In a large deep skillet, melt 2 tablespoons of the ghee over medium-high heat.\nAdd the steak in a single layer, season with salt and pepper, and let it cook for 3 minutes to brown. Flip, and cook on the other side until browned, another 2 minutes. Then remove steak from pan with a slotted spoon, transfer to a plate, and set aside.\nLower the heat to medium and the remaining 3 tablespoons of ghee to the skillet. Once it has melted, add the onions and sauté for about 3 minutes, until soft and fragrant. Add mushrooms and sauté for an additional 5-7 minutes, stirring occasionally, or until the mushrooms are cooked and the onions are soft, then add the garlic and sauté 1 minute, stirring occasionally.\nIn a bowl or large measuring cup, whisk in together the beef broth, coconut aminos and arrowroot until smooth. Pour the mixture into the skillet and stir well to combine. Simmer for about 5 minutes, stirring occasionally. Meanwhile, in a separate small bowl whisk together the coconut cream, lemon juice, mustard and a pinch of sea salt. Stir the coconut cream mixture plus the cooked steak into the skillet and stir until combined. Taste and season with additional salt and pepper if needed, and cook just long enough to heat through.\nGarnish with parsley, if desired, and serve over cauliflower rice or your favorite veggie noodles. Enjoy!",
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):

@@ -46,12 +46,14 @@ class TestMarthaStewart(ScraperTest):
             set(self.harvester_class.ingredients()),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "In a shallow dish, whisk eggs with teaspoon salt; let stand 5 minutes. In another shallow dish, season flour with 1/4 teaspoon salt. In a third shallow dish, season breadcrumbs with 1 teaspoon salt.",
-                "In a large cast-iron skillet or other heavy deep skillet, heat oil over medium. Meanwhile, pat chicken dry with paper towels. Coat in flour, shaking off excess, then dip in egg (letting excess drip off). Dredge in breadcrumbs, turning twice and patting to adhere.",
-                "Increase heat to medium-high. Working in batches, add chicken to skillet; cook, gently shaking skillet occasionally, until chicken is browned, about 4 minutes. Turn with tongs; cook until browned and opaque throughout, 2 to 3 minutes more (if browning too quickly, lower heat). Between batches, skim off brown crumbs from oil with a slotted spoon. Drain chicken on paper towels; season with salt.",
-            ],
-            self.harvester_class.instructions_list(),
+            "\n".join(
+                [
+                    "In a shallow dish, whisk eggs with teaspoon salt; let stand 5 minutes. In another shallow dish, season flour with 1/4 teaspoon salt. In a third shallow dish, season breadcrumbs with 1 teaspoon salt.",
+                    "In a large cast-iron skillet or other heavy deep skillet, heat oil over medium. Meanwhile, pat chicken dry with paper towels. Coat in flour, shaking off excess, then dip in egg (letting excess drip off). Dredge in breadcrumbs, turning twice and patting to adhere.",
+                    "Increase heat to medium-high. Working in batches, add chicken to skillet; cook, gently shaking skillet occasionally, until chicken is browned, about 4 minutes. Turn with tongs; cook until browned and opaque throughout, 2 to 3 minutes more (if browning too quickly, lower heat). Between batches, skim off brown crumbs from oil with a slotted spoon. Drain chicken on paper towels; season with salt.",
+                ]
+            ),
+            self.harvester_class.instructions(),
         )

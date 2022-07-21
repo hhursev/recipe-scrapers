@@ -47,20 +47,10 @@ class TestDownshiftologyScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "Make marinade",
-                "To make the marinade, whisk together the olive oil, red wine vinegar, lemon juice, Dijon mustard, minced garlic, dried oregano, salt, and pepper.",
-                "Marinate chicken",
-                "Place chicken pieces in a glass dish and pour the marinade over the chicken. Cover and marinate in the fridge for at least one hour.",
-                "Thread skewers",
-                "Light a gas or charcoal grill on medium-high heat. Thread the skewers with pieces of red onion, chicken, zucchini, and bell pepper. You can alternate the order.",
-                "Grill kabobs",
-                "Place the kabobs on the preheated grill, and cook about 5-7 minutes per side. The kabobs are done when the chicken is cooked through and the vegetables are lightly charred, about 15 minutes.",
-                "Serve with lemon wedges and tzatziki sauce.",
-            ],
-            self.harvester_class.instructions_list(),
+            "Make marinade\nTo make the marinade, whisk together the olive oil, red wine vinegar, lemon juice, Dijon mustard, minced garlic, dried oregano, salt, and pepper.\nMarinate chicken\nPlace chicken pieces in a glass dish and pour the marinade over the chicken. Cover and marinate in the fridge for at least one hour.\nThread skewers\nLight a gas or charcoal grill on medium-high heat. Thread the skewers with pieces of red onion, chicken, zucchini, and bell pepper. You can alternate the order.\nGrill kabobs\nPlace the kabobs on the preheated grill, and cook about 5-7 minutes per side. The kabobs are done when the chicken is cooked through and the vegetables are lightly charred, about 15 minutes.\nServe with lemon wedges and tzatziki sauce.",
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):

@@ -39,17 +39,10 @@ class TestMomsWithCrockPotsScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Cook the macaroni following package directions. Drain in a colander and rinse with hot water. Drain well.",
-                "Generously butter the sides and bottom of a 3 1/2- to 4-quart slow cooker (I use about 2 tablespoons of butter).",
-                "Combine the macaroni with the remaining ingredients in the slow cooker and blend well. Cover the slow cooker and cook on LOW for 2 1/2 to 3 1/2 hours, stirring a few times.",
-                "If desired, spoon the cooked macaroni and cheese mixture into a baking dish, sprinkle with a little more cheese, and put under the broiler for a minute or 2, just until cheese is melted.",
-                'When the macaroni and cheese is done, feel free to spoon into a baking dish, top with a little more cheese, and put under the broiler for a minute or two for that "fresh from the oven" look.',
-                "Use a gluten free pasta",
-            ],
-            self.harvester_class.instructions_list(),
+            'Cook the macaroni following package directions. Drain in a colander and rinse with hot water. Drain well.\nGenerously butter the sides and bottom of a 3 1/2- to 4-quart slow cooker (I use about 2 tablespoons of butter).\nCombine the macaroni with the remaining ingredients in the slow cooker and blend well. Cover the slow cooker and cook on LOW for 2 1/2 to 3 1/2 hours, stirring a few times.\nIf desired, spoon the cooked macaroni and cheese mixture into a baking dish, sprinkle with a little more cheese, and put under the broiler for a minute or 2, just until cheese is melted.\nWhen the macaroni and cheese is done, feel free to spoon into a baking dish, top with a little more cheese, and put under the broiler for a minute or two for that "fresh from the oven" look.\nUse a gluten free pasta',
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):

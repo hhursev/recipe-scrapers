@@ -43,14 +43,8 @@ class TestMelsKitchenCafeScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Lightly butter an 8X8- or 9X9-inch pan and set aside.",
-                "In a heavy-bottomed 4-quart saucepan, combine the water, sugar, condensed milk, corn syrup, and butter. Bring the mixture to a boil over medium heat, stirring constantly with a heat-resistant rubber spatula. Clip a candy thermometer to the side of the pan, ensuring that the tip of the thermometer isn’t touching the bottom of the pan and is inserted at least 1-2 inches into the liquid (or according to your thermometer’s directions).",
-                "Continue stirring gently while the mixture boils and cooks, until the caramels reach 242-244 degrees F. If the caramels seem to be scorching on the bottom of the pan, moderate the heat to a lower temperature. You can also test the caramels using a spoon and dropping a pea-sized amount of the hot caramel into cold water. If the cooled piece of caramel is firm but not hard, the caramel is properly cooked.",
-                "Remove the pot from the heat and stir in the anise extract, food coloring, vanilla extract and salt. Pour the caramels into the prepared pan and allow to cool completely to room temperature, at least 2 hours.",
-                "When cool, remove the sheet of caramels from the pan. Cut the caramels into pieces using a large knife or bench scraper. Wrap each caramel square in a bit of wax paper, twisting the ends to secure.",
-            ],
-            self.harvester_class.instructions_list(),
+            "Lightly butter an 8X8- or 9X9-inch pan and set aside.\nIn a heavy-bottomed 4-quart saucepan, combine the water, sugar, condensed milk, corn syrup, and butter. Bring the mixture to a boil over medium heat, stirring constantly with a heat-resistant rubber spatula. Clip a candy thermometer to the side of the pan, ensuring that the tip of the thermometer isn’t touching the bottom of the pan and is inserted at least 1-2 inches into the liquid (or according to your thermometer’s directions).\nContinue stirring gently while the mixture boils and cooks, until the caramels reach 242-244 degrees F. If the caramels seem to be scorching on the bottom of the pan, moderate the heat to a lower temperature. You can also test the caramels using a spoon and dropping a pea-sized amount of the hot caramel into cold water. If the cooled piece of caramel is firm but not hard, the caramel is properly cooked.\nRemove the pot from the heat and stir in the anise extract, food coloring, vanilla extract and salt. Pour the caramels into the prepared pan and allow to cool completely to room temperature, at least 2 hours.\nWhen cool, remove the sheet of caramels from the pan. Cut the caramels into pieces using a large knife or bench scraper. Wrap each caramel square in a bit of wax paper, twisting the ends to secure.",
+            self.harvester_class.instructions(),
         )

@@ -55,25 +55,10 @@ class TestVegRecipesOfIndiaScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "making sarson ka saag",
-                "Firstly clean and chop all the greens. then wash the greens well.",
-                "In a pressure cooker or pan add all the ingredients listed under saag except for maize flour.",
-                "Cover the pressure cook and cook for 6-7 minutes or more.",
-                "If cooking in a pan, then cover and let the greens cook till done. Do check occasionally.",
-                "Pour the greens along with the stock and maize flour in a blender. blend till smooth.",
-                "In another pan, pour the pureed greens.",
-                "Simmer for a good 25-30 minutes.",
-                "tempering for sarson ka saag",
-                "In another small pan, heat oil or ghee",
-                "Add the chopped onions and fry them till light brown.",
-                "Add the prepared saag. Stir and simmer for a couple of minutes.",
-                "Stir ocaasionally.",
-                "Serve sarson ka saag hot with some chopped onions, whole green chilies and a dollop of butter on the saag with makki di roti",
-            ],
-            self.harvester_class.instructions_list(),
+            "making sarson ka saag\nFirstly clean and chop all the greens. then wash the greens well.\nIn a pressure cooker or pan add all the ingredients listed under saag except for maize flour.\nCover the pressure cook and cook for 6-7 minutes or more.\nIf cooking in a pan, then cover and let the greens cook till done. Do check occasionally.\nPour the greens along with the stock and maize flour in a blender. blend till smooth.\nIn another pan, pour the pureed greens.\nSimmer for a good 25-30 minutes.\ntempering for sarson ka saag\nIn another small pan, heat oil or ghee\nAdd the chopped onions and fry them till light brown.\nAdd the prepared saag. Stir and simmer for a couple of minutes.\nStir ocaasionally.\nServe sarson ka saag hot with some chopped onions, whole green chilies and a dollop of butter on the saag with makki di roti",
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):

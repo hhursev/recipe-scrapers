@@ -45,14 +45,10 @@ class TestGimmeSomeOvenScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Add the wine, brandy, orange juice, diced orange, diced apple, diced lemon and cinnamon stick to a large pitcher. Stir to combine. Taste and add in a few tablespoons of sweetener, if desired.",
-                "Cover and refrigerate for at least 30 minutes or up to 4 hours.",
-                "Serve the sangria over ice, topping off each glass with a splash of bubbly soda (or sparkling water) if desired.",
-            ],
-            self.harvester_class.instructions_list(),
+            "Add the wine, brandy, orange juice, diced orange, diced apple, diced lemon and cinnamon stick to a large pitcher. Stir to combine. Taste and add in a few tablespoons of sweetener, if desired.\nCover and refrigerate for at least 30 minutes or up to 4 hours.\nServe the sangria over ice, topping off each glass with a splash of bubbly soda (or sparkling water) if desired.",
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):

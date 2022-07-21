@@ -64,23 +64,25 @@ class TestSweetPeasAndSaffron(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "(Optional but adds extra flavor). Select the 'sauté' function on the Instant Pot. Add the butter and melt. Add the steel cut oats and sauté, stirring occasionally for 5 or so minutes, until fragrant and golden.",
-                "Add the water, vanilla and cinnamon (and other ingredients as needed for flavor variations)",
-                "Cook on high pressure for 2 minutes, followed by natural pressure release (let the Instant Pot sit for 20 minutes up to 120 minutes).",
-                "Remove lid and stir in maple syrup and any other ingredients for the flavor variations.",
-                "(Optional but adds extra flavor). Heat a pan over medium heat. Add the butter and melt. Add the steel cut oats and sauté, stirring occasionally for 5 or so minutes, until fragrant and golden.",
-                "Spray the inside of your slow cooker with cooking spray or use a slow cooker liner. Transfer steel cut oats and add the water, vanilla and cinnamon (and other ingredients as needed for flavor variations)",
-                "Cover and cook on low for 6-8 hours.",
-                "Stir in maple syrup and any other ingredients for the flavor variations.",
-                "Heat a 4 quart pot over medium heat. Add the butter and melt. Add the steel cut oats and sauté, stirring occasionally for 5 or so minutes, until fragrant and golden.",
-                "Add the water, vanilla and cinnamon (and other ingredients as needed for flavor variations).",
-                "Reduce heat and simmer, stirring occasionally, for 25-35 minutes.",
-                "Remove from heat and stir in maple syrup and any other ingredients for the flavor variations.",
-            ],
-            self.harvester_class.instructions_list(),
+            "\n".join(
+                [
+                    "(Optional but adds extra flavor). Select the 'sauté' function on the Instant Pot. Add the butter and melt. Add the steel cut oats and sauté, stirring occasionally for 5 or so minutes, until fragrant and golden.",
+                    "Add the water, vanilla and cinnamon (and other ingredients as needed for flavor variations)",
+                    "Cook on high pressure for 2 minutes, followed by natural pressure release (let the Instant Pot sit for 20 minutes up to 120 minutes).",
+                    "Remove lid and stir in maple syrup and any other ingredients for the flavor variations.",
+                    "(Optional but adds extra flavor). Heat a pan over medium heat. Add the butter and melt. Add the steel cut oats and sauté, stirring occasionally for 5 or so minutes, until fragrant and golden.",
+                    "Spray the inside of your slow cooker with cooking spray or use a slow cooker liner. Transfer steel cut oats and add the water, vanilla and cinnamon (and other ingredients as needed for flavor variations)",
+                    "Cover and cook on low for 6-8 hours.",
+                    "Stir in maple syrup and any other ingredients for the flavor variations.",
+                    "Heat a 4 quart pot over medium heat. Add the butter and melt. Add the steel cut oats and sauté, stirring occasionally for 5 or so minutes, until fragrant and golden.",
+                    "Add the water, vanilla and cinnamon (and other ingredients as needed for flavor variations).",
+                    "Reduce heat and simmer, stirring occasionally, for 25-35 minutes.",
+                    "Remove from heat and stir in maple syrup and any other ingredients for the flavor variations.",
+                ]
+            ),
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):

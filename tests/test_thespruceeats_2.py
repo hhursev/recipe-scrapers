@@ -58,33 +58,8 @@ class TestTheSpruceEatsScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Gather the ingredients.",
-                "In a large saucepan, melt butter over medium-low heat.",
-                "Add onion, celery, carrots, and ham.",
-                "Cook, stirring frequently until onions are tender, about 5 minutes.",
-                "Add the garlic and continue cooking for 1 to 2 minutes longer.",
-                "Add vegetable broth, water, and potatoes.",
-                "Cover and cook for about 25 minutes, until potatoes are tender.",
-                "Whisk flour into the heavy cream until smooth.",
-                "Stir into the hot mixture.",
-                "Stir in the half-and-half or milk. Taste and add salt and pepper, as desired. Continue cooking until hot.",
-                "Using a potato masher or fork, mash the potatoes slightly to thicken; add more milk if the soup is too thick.",
-                "Serve the potato soup garnished with parsley, sliced green onions or chives, or a little bit of shredded cheese.",
-                "Gather the ingredients.",
-                "In a large saucepan, melt butter over medium-low heat.",
-                "Add onion, celery, carrots, and ham.",
-                "Cook, stirring frequently until onions are tender, about 5 minutes.",
-                "Add the garlic and continue cooking for 1 to 2 minutes longer.",
-                "Then transfer the cooked vegetables to the slow cooker and add the broth, water, and potatoes.",
-                "Cover and cook on HIGH for about 2 to 3 hours, or until the potatoes are very tender.",
-                "Whisk flour into the heavy cream until smooth.",
-                "Stir the flour-cream mixture into the slow cooker.",
-                "Stir in the half-and-half or milk. Taste and add salt and pepper, as desired. Continue cooking until hot.",
-                "Using a potato masher or fork, mash the potatoes slightly to thicken; add more milk if the soup is too thick.",
-                "Serve the potato soup garnished with parsley, sliced green onions or chives, or a little bit of shredded cheese.",
-            ],
-            self.harvester_class.instructions_list(),
+            "Gather the ingredients.\nIn a large saucepan, melt butter over medium-low heat.\nAdd onion, celery, carrots, and ham.\nCook, stirring frequently until onions are tender, about 5 minutes.\nAdd the garlic and continue cooking for 1 to 2 minutes longer.\nAdd vegetable broth, water, and potatoes.\nCover and cook for about 25 minutes, until potatoes are tender.\nWhisk flour into the heavy cream until smooth.\nStir into the hot mixture.\nStir in the half-and-half or milk. Taste and add salt and pepper, as desired. Continue cooking until hot.\nUsing a potato masher or fork, mash the potatoes slightly to thicken; add more milk if the soup is too thick.\nServe the potato soup garnished with parsley, sliced green onions or chives, or a little bit of shredded cheese.\nGather the ingredients.\nIn a large saucepan, melt butter over medium-low heat.\nAdd onion, celery, carrots, and ham.\nCook, stirring frequently until onions are tender, about 5 minutes.\nAdd the garlic and continue cooking for 1 to 2 minutes longer.\nThen transfer the cooked vegetables to the slow cooker and add the broth, water, and potatoes.\nCover and cook on HIGH for about 2 to 3 hours, or until the potatoes are very tender.\nWhisk flour into the heavy cream until smooth.\nStir the flour-cream mixture into the slow cooker.\nStir in the half-and-half or milk. Taste and add salt and pepper, as desired. Continue cooking until hot.\nUsing a potato masher or fork, mash the potatoes slightly to thicken; add more milk if the soup is too thick.\nServe the potato soup garnished with parsley, sliced green onions or chives, or a little bit of shredded cheese.",
+            self.harvester_class.instructions(),
         )

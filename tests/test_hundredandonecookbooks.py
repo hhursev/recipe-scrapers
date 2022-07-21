@@ -45,12 +45,8 @@ class TestHundredAndOneCookbooksScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Combine the water, sugar, rosemary, and bay in a small saucepan over medium heat. Bring to a simmer for 3-5 minutes, or long enough for the sugar to dissolve, stirring occasionally. Remove from the heat and let infuse for 10 minutes. Strain into a jar to cool completely.",
-                "In the meantime, juice and strain your oranges, you'll need 3 tablespoons / 1.5 ounces of juice for each drink.",
-                "To make each drink you're going to combine equal parts gin, juice, and tonic water with a bit of syrup and ice. So, its 3 tablespoons / 1 1/2 oz gin, 3 tablespoons / 1 1/2 oz freshly squeezed blood orange juice, and 1-2 teaspoons of the rosemary syrup in each tall glass (I used kolsch glasses here). Stir to combine, fill each glass 2/3 full with ice and top off with 3 tablespoons / 1 1/2 oz tonic water. Stir again and you're set.",
-            ],
-            self.harvester_class.instructions_list(),
+            "Combine the water, sugar, rosemary, and bay in a small saucepan over medium heat. Bring to a simmer for 3-5 minutes, or long enough for the sugar to dissolve, stirring occasionally. Remove from the heat and let infuse for 10 minutes. Strain into a jar to cool completely.\nIn the meantime, juice and strain your oranges, you'll need 3 tablespoons / 1.5 ounces of juice for each drink.\nTo make each drink you're going to combine equal parts gin, juice, and tonic water with a bit of syrup and ice. So, its 3 tablespoons / 1 1/2 oz gin, 3 tablespoons / 1 1/2 oz freshly squeezed blood orange juice, and 1-2 teaspoons of the rosemary syrup in each tall glass (I used kolsch glasses here). Stir to combine, fill each glass 2/3 full with ice and top off with 3 tablespoons / 1 1/2 oz tonic water. Stir again and you're set.",
+            self.harvester_class.instructions(),
         )

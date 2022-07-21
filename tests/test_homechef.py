@@ -46,31 +46,10 @@ class TestHomeChefScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "Cook the Pasta",
-                "Once water in medium pot is boiling, add pasta and cook until al dente, 10-12 minutes.",
-                "Reserve 1/2 cup pasta cooking water. Drain pasta in a colander and set aside.",
-                "While pasta cooks, prepare ingredients.",
-                "Prepare the Ingredients",
-                'Cut mushrooms into 1/4" slices.',
-                "Halve and juice lemon.",
-                "Mince garlic.",
-                "Crisp the Prosciutto",
-                "Remove prosciutto from refrigerator. Line a plate with a paper towel.",
-                "Place a large non-stick pan over medium heat and add 1/2 tsp. olive oil. Working in batches, add prosciutto to hot pan in a single layer. Cook until crispy, 1-2 minutes per side.",
-                "Transfer prosciutto to towel-lined plate. When cool enough to handle, break into bite-sized pieces. Reserve pan; no need to wipe clean.",
-                "Cook the Mushrooms",
-                "Return pan used to crisp prosciutto to medium-high heat and add 1 tsp. olive oil.",
-                "Add mushrooms and a pinch of salt and pepper to hot pan. Stir occasionally until beginning to brown, 3-4 minutes.",
-                "Add garlic and stir constantly until aromatic, 30-60 seconds.",
-                "Make Sauce and Finish Dish",
-                "Stir pasta, butter, a pinch of salt, and half the reserved pasta cooking water into hot pan until butter is melted. Stir in peas and half the cheese (reserve remaining for garnish) until cheese melts, 30-60 seconds.",
-                "Remove from burner and stir in sour cream, 2 tsp. lemon juice, half the prosciutto (reserve remaining for garnish), 1/4 tsp. salt, and a pinch of pepper. If sauce is too thick, add additional pasta cooking water, 1 Tbsp. at a time, until desired consistency is reached.",
-                "Plate dish as pictured on front of card, garnishing with remaining prosciutto and remaining cheese. Bon appétit!",
-            ],
-            self.harvester_class.instructions_list(),
+            """Cook the Pasta\n\nOnce water in medium pot is boiling, add pasta and cook until al dente, 10-12 minutes.\n\nReserve 1/2 cup pasta cooking water. Drain pasta in a colander and set aside.\n\nWhile pasta cooks, prepare ingredients.\nPrepare the Ingredients\n\nCut mushrooms into 1/4" slices.\n\nHalve and juice lemon.\n\nMince garlic.\nCrisp the Prosciutto\n\nRemove prosciutto from refrigerator. Line a plate with a paper towel.\n\nPlace a large non-stick pan over medium heat and add 1/2 tsp. olive oil. Working in batches, add prosciutto to hot pan in a single layer. Cook until crispy, 1-2 minutes per side.\n\nTransfer prosciutto to towel-lined plate. When cool enough to handle, break into bite-sized pieces. Reserve pan; no need to wipe clean.\nCook the Mushrooms\n\nReturn pan used to crisp prosciutto to medium-high heat and add 1 tsp. olive oil.\n\nAdd mushrooms and a pinch of salt and pepper to hot pan. Stir occasionally until beginning to brown, 3-4 minutes.\n\nAdd garlic and stir constantly until aromatic, 30-60 seconds.\nMake Sauce and Finish Dish\n\nStir pasta, butter, a pinch of salt, and half the reserved pasta cooking water into hot pan until butter is melted. Stir in peas and half the cheese (reserve remaining for garnish) until cheese melts, 30-60 seconds.\n\nRemove from burner and stir in sour cream, 2 tsp. lemon juice, half the prosciutto (reserve remaining for garnish), 1/4 tsp. salt, and a pinch of pepper. If sauce is too thick, add additional pasta cooking water, 1 Tbsp. at a time, until desired consistency is reached.\n\nPlate dish as pictured on front of card, garnishing with remaining prosciutto and remaining cheese. Bon appétit!""",
+            self.harvester_class.instructions(),
         )
 
     def test_description(self):

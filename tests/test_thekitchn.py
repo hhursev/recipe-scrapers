@@ -52,16 +52,18 @@ class TestKitchnScraper(ScraperTest):
             set(self.harvester_class.ingredients()),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Cook the beef for the filling. Heat the oil in a large skillet over medium-high heat until shimmering. Add the ground beef and cook until the meat begins to brown, about 5 minutes. Add the shallot and garlic, cook until the shallot is translucent and the beef is cooked through, about 5 minutes more. Transfer to a large bowl and set aside to cool to room temperature.",
-                "Heat the oven to 375ºF and prepare the baking dish. Arrange a rack in the middle of the the oven and heat the oven to 375ºF. Meanwhile, bring a large pot of heavily salted water to a boil. Coat a 9x13-inch baking dish with cooking spray. Spread about 1 1/2 cups of the marinara sauce in the bottom of the dish and set aside.",
-                "Boil the manicotti shells. Add the manicotti to the water and boil until they are al dente, about 8 minutes. Drain and set aside.",
-                "Mix up the filling. Add the ricotta, half of mozzarella, half of the Parmesan, half of the parsley, the egg, and the salt to the cooled beef mixture and stir to combine well.",
-                "Fill the shells. Transfer the beef and cheese mixture to a piping bag or gallon size ziptop bag. Snip off a 1/2-inch hole in one bottom corner of the bag, then pipe the filling into each manicotti tube (about generous 1/3 cup each). Nestle each filled manicotti in the sauce, packed them tightly together in a single layer.",
-                "Top the filled shells with the remaining sauce and cheeses. Pour the remaining 1 1/2 cups sauce evenly over the manicotti and sprinkle with the remaining mozzarella and Parmesan.",
-                "Bake for 35 to 40 minutes. Bake uncovered until the sauce is bubbly, the cheese is browned, and the noodles are very tender, 35 to 40. Let cool for about 10 minutes before serving. Sprinkle with the remaining parsley just before serving.",
-            ],
-            self.harvester_class.instructions_list(),
+            "\n".join(
+                [
+                    "Cook the beef for the filling. Heat the oil in a large skillet over medium-high heat until shimmering. Add the ground beef and cook until the meat begins to brown, about 5 minutes. Add the shallot and garlic, cook until the shallot is translucent and the beef is cooked through, about 5 minutes more. Transfer to a large bowl and set aside to cool to room temperature.",
+                    "Heat the oven to 375ºF and prepare the baking dish. Arrange a rack in the middle of the the oven and heat the oven to 375ºF. Meanwhile, bring a large pot of heavily salted water to a boil. Coat a 9x13-inch baking dish with cooking spray. Spread about 1 1/2 cups of the marinara sauce in the bottom of the dish and set aside.",
+                    "Boil the manicotti shells. Add the manicotti to the water and boil until they are al dente, about 8 minutes. Drain and set aside.",
+                    "Mix up the filling. Add the ricotta, half of mozzarella, half of the Parmesan, half of the parsley, the egg, and the salt to the cooled beef mixture and stir to combine well.",
+                    "Fill the shells. Transfer the beef and cheese mixture to a piping bag or gallon size ziptop bag. Snip off a 1/2-inch hole in one bottom corner of the bag, then pipe the filling into each manicotti tube (about generous 1/3 cup each). Nestle each filled manicotti in the sauce, packed them tightly together in a single layer.",
+                    "Top the filled shells with the remaining sauce and cheeses. Pour the remaining 1 1/2 cups sauce evenly over the manicotti and sprinkle with the remaining mozzarella and Parmesan.",
+                    "Bake for 35 to 40 minutes. Bake uncovered until the sauce is bubbly, the cheese is browned, and the noodles are very tender, 35 to 40. Let cool for about 10 minutes before serving. Sprinkle with the remaining parsley just before serving.",
+                ]
+            ),
+            self.harvester_class.instructions(),
         )

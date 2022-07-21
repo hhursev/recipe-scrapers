@@ -46,14 +46,8 @@ class TestWhatsGabyCookingScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Preheat the oven to 375 degrees F.",
-                "Cook the quinoa according to the package directions. Once cooked, remove from heat and transfer the cooked quinoa into a large bowl.",
-                "Fold in 1 1/2 cups of the shredded colby jack cheese, ½ cup of the shredded mozzarella, black beans, corn, green chiles and salsa. Season the entire mixture with salt and pepper and stir to combine.",
-                "Lightly spray a medium sized skillet with non-stick spray, and transfer the mixture into the skillet. Top with the remaining shredded cheeses and bake for about 20-25 minutes until the top layer of cheese is bubbly and melted.",
-                "Remove the baking dish from the oven and garnish with green onions and cilantro and serve.",
-            ],
-            self.harvester_class.instructions_list(),
+            "Preheat the oven to 375 degrees F.\nCook the quinoa according to the package directions. Once cooked, remove from heat and transfer the cooked quinoa into a large bowl.\nFold in 1 1/2 cups of the shredded colby jack cheese, ½ cup of the shredded mozzarella, black beans, corn, green chiles and salsa. Season the entire mixture with salt and pepper and stir to combine.\nLightly spray a medium sized skillet with non-stick spray, and transfer the mixture into the skillet. Top with the remaining shredded cheeses and bake for about 20-25 minutes until the top layer of cheese is bubbly and melted.\nRemove the baking dish from the oven and garnish with green onions and cilantro and serve.",
+            self.harvester_class.instructions(),
         )

@@ -45,14 +45,8 @@ class TestCookstrScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Preheat the oven to 350°F. Lightly grease a 9-inch cake pan with coconut oil or line a 12-cup muffin tin with paper liners.",
-                "In a large bowl, sift the dry cake mix ingredients using a fine-mesh sieve.",
-                "In a medium bowl, mix together the coffee, almond milk, oil, maple syrup, and vinegar.",
-                "Add the liquid ingredients to the bowl with the cake mix and whisk gently until there are no large clumps remaining.",
-                "Pour the batter into the prepared pan. Bake for 22 to 27 minutes in the cake pan or 20 to 25 minutes in the muffin tin. The cake/cupcakes can be stored in an airtight container in the fridge for up to 5 days or frozen for 2 to 3 months.",
-            ],
-            self.harvester_class.instructions_list(),
+            "Preheat the oven to 350°F. Lightly grease a 9-inch cake pan with coconut oil or line a 12-cup muffin tin with paper liners.\nIn a large bowl, sift the dry cake mix ingredients using a fine-mesh sieve.\nIn a medium bowl, mix together the coffee, almond milk, oil, maple syrup, and vinegar.\nAdd the liquid ingredients to the bowl with the cake mix and whisk gently until there are no large clumps remaining.\nPour the batter into the prepared pan. Bake for 22 to 27 minutes in the cake pan or 20 to 25 minutes in the muffin tin. The cake/cupcakes can be stored in an airtight container in the fridge for up to 5 days or frozen for 2 to 3 months.",
+            self.harvester_class.instructions(),
         )

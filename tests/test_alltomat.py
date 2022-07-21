@@ -43,14 +43,10 @@ class TestAllTomatScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "Värm vatten och mjölk till 37°. Rör ut jästen med lite av vätskan och tillsätt socker, salt, ägg och mjöl, spara ca 1/2 dl till utbakning. Arbeta degen i maskin ca 5 min. Klicka ner smöret mot slutet. Låt jäsa övertäckt ca 1 timme.",
-                "Arbeta degen lätt i maskinen. Ta upp på mjölad arbetsbänk. Dela degen i 12 bitar. Forma bitarna till runda bullar och platta ut dem lätt. Lägg dem på en plåt med bakplåtspapper. Låt jäsa övertäckta ytterligare ca 1 timme. Sätt ugnen på 200°.",
-                "Pensla bröden med uppvispat ägg och grädda mitt i ugnen ca 15 min. Låt svalna på galler.",
-            ],
-            self.harvester_class.instructions_list(),
+            """Värm vatten och mjölk till 37°. Rör ut jästen med lite av vätskan och tillsätt socker, salt, ägg och mjöl, spara ca 1/2 dl till utbakning. Arbeta degen i maskin ca 5 min. Klicka ner smöret mot slutet. Låt jäsa övertäckt ca 1 timme.\nArbeta degen lätt i maskinen. Ta upp på mjölad arbetsbänk. Dela degen i 12 bitar. Forma bitarna till runda bullar och platta ut dem lätt. Lägg dem på en plåt med bakplåtspapper. Låt jäsa övertäckta ytterligare ca 1 timme. Sätt ugnen på 200°.\nPensla bröden med uppvispat ägg och grädda mitt i ugnen ca 15 min. Låt svalna på galler.""",
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):

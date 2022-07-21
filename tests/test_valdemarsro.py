@@ -49,13 +49,11 @@ class TestValdemarsroScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "Pisk æg og mælk sammen med salt, grahamsmel og hvedemel.",
-                "Smelt lidt smør eller kom lidt olie på en pande og steg 10 madpandekager en ad gangen, på begge sider, til de er flotte lysebrune.",
-            ],
-            self.harvester_class.instructions_list(),
+            """Pisk æg og mælk sammen med salt, grahamsmel og hvedemel.
+Smelt lidt smør eller kom lidt olie på en pande og steg 10 madpandekager en ad gangen, på begge sider, til de er flotte lysebrune.""",
+            self.harvester_class.instructions(),
         )
 
     def test_author(self):

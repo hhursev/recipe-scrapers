@@ -48,14 +48,8 @@ class TestWikiCookbookScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Preheat oven to 350 °F (180 °C).",
-                "Blend all ingredients, except the pie shell, together.",
-                "Pour into the unbaked pie shell.",
-                "Bake at 350 °F (180 °C) for 45 minutes.",
-                "Let cool and serve.",
-            ],
-            self.harvester_class.instructions_list(),
+            "Preheat oven to 350 °F (180 °C).\nBlend all ingredients, except the pie shell, together.\nPour into the unbaked pie shell.\nBake at 350 °F (180 °C) for 45 minutes.\nLet cool and serve.",
+            self.harvester_class.instructions(),
         )

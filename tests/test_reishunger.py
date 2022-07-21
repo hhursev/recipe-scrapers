@@ -47,17 +47,10 @@ class TestReishungerScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "Reis nach Anleitung im Digitalen Reiskocher oder Kochtopf kochen.",
-                "Gemüse schneiden und ca. 5 min blanchieren.",
-                "Den Tofu in Stücke schneiden und in Mehl Ei und Paniermehl wälzen und kurz von allen Seiten anbraten.",
-                "Cashew Kerne in einer Pfanne kurz anrösten.",
-                "Die Sauce erwärmen und den Tofu auf einen Spieß ziehen (optimal).",
-                "Alles schön anrichten und mit den Sprossen toppen. Guten Reishunger! :-)",
-            ],
-            self.harvester_class.instructions_list(),
+            "Reis nach Anleitung im Digitalen Reiskocher oder Kochtopf kochen.\nGemüse schneiden und ca. 5 min blanchieren.\nDen Tofu in Stücke schneiden und in Mehl Ei und Paniermehl wälzen und kurz von allen Seiten anbraten.\nCashew Kerne in einer Pfanne kurz anrösten.\nDie Sauce erwärmen und den Tofu auf einen Spieß ziehen (optimal).\nAlles schön anrichten und mit den Sprossen toppen. Guten Reishunger! :-)",
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):

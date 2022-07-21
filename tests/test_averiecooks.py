@@ -43,12 +43,10 @@ class TestAverieCooksScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "To a high-sided medium/large kettle (use one bigger than you think you need), add the vinegar, 1/2 cup sugar, and heat over medium to medium-high until mixture boils and can sustain a fast rolling boil. Boil for about 15 to 20 minutes, or until reduced by about 80% and has thickened and is syrupy; stir intermittently and keep an eye on it so it doesn't bubble over.",
-                "When the sauce looks like it's about halfway done, taste the sauce, and if it's too vinegary and bitter for you, add part of or all of the remaining sugar. I personally use almost 1 cup. Sauce will thicken up more as it cools. Alternatively, you can use store bought balsamic glaze.",
-                "To a medium bowl, add all the remaining ingredients, stir to combine, and drizzle as much of the balsamic reduction as desired. You will have lots of balsamic reduction leftover, but it will keep for weeks in a sealed container in the fridge. As long as you're going to the trouble to make it, you may as well have extra for future recipes, because it's great drizzled over chicken, salmon, etc.",
-            ],
-            self.harvester_class.instructions_list(),
+            """To a high-sided medium/large kettle (use one bigger than you think you need), add the vinegar, 1/2 cup sugar, and heat over medium to medium-high until mixture boils and can sustain a fast rolling boil. Boil for about 15 to 20 minutes, or until reduced by about 80% and has thickened and is syrupy; stir intermittently and keep an eye on it so it doesn't bubble over.
+When the sauce looks like it's about halfway done, taste the sauce, and if it's too vinegary and bitter for you, add part of or all of the remaining sugar. I personally use almost 1 cup. Sauce will thicken up more as it cools. Alternatively, you can use store bought balsamic glaze.
+To a medium bowl, add all the remaining ingredients, stir to combine, and drizzle as much of the balsamic reduction as desired. You will have lots of balsamic reduction leftover, but it will keep for weeks in a sealed container in the fridge. As long as you're going to the trouble to make it, you may as well have extra for future recipes, because it's great drizzled over chicken, salmon, etc.""",
+            self.harvester_class.instructions(),
         )

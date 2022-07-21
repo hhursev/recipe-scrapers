@@ -49,15 +49,10 @@ class TestEatingBirdFoodScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "Heat oil in a large skillet over medium heat. Add onion, bell pepper and garlic to the skillet and cook until onions are soft and fragrant — about 5 to 10 minutes.",
-                "Add cumin, paprika, cayenne, curry, turmeric, salt and pepper. Give the mixture a stir and cook for about 1 minute more. Add diced tomatoes to the skillet and bring sauce to a boil. Reduce heat to a simmer and cook until the sauce thickens up a bit, about 10 minutes. Add feta cheese to the tomato mixture and stir.",
-                "Crack eggs into tomato sauce. You should be able to fit 4-5 eggs in a large skillet. Cover and let the eggs cook for about 5 minutes, or until the egg whites are completely cooked through. Remove skillet from heat, uncover and let sit for a 1-2 minutes before serving.",
-                "Spoon 1-2 eggs along with a big serving of tomato sauce on to each plate. Garnish with extra feta cheese and fresh cilantro and parsley. Serve with toast, veggies or over a whole grain like quinoa or brown rice for a complete meal.",
-            ],
-            self.harvester_class.instructions_list(),
+            "Heat oil in a large skillet over medium heat. Add onion, bell pepper and garlic to the skillet and cook until onions are soft and fragrant — about 5 to 10 minutes.\nAdd cumin, paprika, cayenne, curry, turmeric, salt and pepper. Give the mixture a stir and cook for about 1 minute more. Add diced tomatoes to the skillet and bring sauce to a boil. Reduce heat to a simmer and cook until the sauce thickens up a bit, about 10 minutes. Add feta cheese to the tomato mixture and stir.\nCrack eggs into tomato sauce. You should be able to fit 4-5 eggs in a large skillet. Cover and let the eggs cook for about 5 minutes, or until the egg whites are completely cooked through. Remove skillet from heat, uncover and let sit for a 1-2 minutes before serving.\nSpoon 1-2 eggs along with a big serving of tomato sauce on to each plate. Garnish with extra feta cheese and fresh cilantro and parsley. Serve with toast, veggies or over a whole grain like quinoa or brown rice for a complete meal.",
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):

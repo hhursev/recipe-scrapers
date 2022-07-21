@@ -43,13 +43,8 @@ class TestNutritionByNathalieScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Heat a pan on medium heat with oil.",
-                "Add the cauliflower and allow it to cook for about 5 minutes (should be nearly fully cooked).",
-                "Turn heat down to low and add turmeric, cayenne, garlic powder, salsa, salt and pepper and continue to cook until done (about 2-3 more minutes).",
-                "Stir in vegan cream cheese and cilantro. Serve immediately and enjoy!",
-            ],
-            self.harvester_class.instructions_list(),
+            "Heat a pan on medium heat with oil.\nAdd the cauliflower and allow it to cook for about 5 minutes (should be nearly fully cooked).\nTurn heat down to low and add turmeric, cayenne, garlic powder, salsa, salt and pepper and continue to cook until done (about 2-3 more minutes).\nStir in vegan cream cheese and cilantro. Serve immediately and enjoy!",
+            self.harvester_class.instructions(),
         )

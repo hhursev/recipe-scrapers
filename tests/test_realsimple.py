@@ -37,15 +37,8 @@ class TestRealSimpleScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "Make the Ginger Graham Cracker Crust.",
-                "Preheat oven to 325° F.",
-                "In a large mixing bowl, beat the cream cheese until smooth, about 1 minute. Beat in the eggs one at a time. Add 1 cup of the sugar and 1 teaspoon of the vanilla and mix until well combined.",
-                "Pour the batter into the crust and bake until set, 45 to 50 minutes.",
-                "In a small bowl, whisk together the sour cream and the remaining sugar and vanilla. Pour the mixture over the cheesecake, spreading it to the edge. Bake 5 minutes.",
-                "Cool and refrigerate overnight before serving.",
-            ],
-            self.harvester_class.instructions_list(),
+            "Make the Ginger Graham Cracker Crust.\nPreheat oven to 325° F.\nIn a large mixing bowl, beat the cream cheese until smooth, about 1 minute. Beat in the eggs one at a time. Add 1 cup of the sugar and 1 teaspoon of the vanilla and mix until well combined.\nPour the batter into the crust and bake until set, 45 to 50 minutes.\nIn a small bowl, whisk together the sour cream and the remaining sugar and vanilla. Pour the mixture over the cheesecake, spreading it to the edge. Bake 5 minutes.\nCool and refrigerate overnight before serving.",
+            self.harvester_class.instructions(),
         )

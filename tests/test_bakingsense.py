@@ -51,19 +51,8 @@ class TestBakingSense(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Preheat the oven to 350°F. Generously butter and flour a 12 cup Bundt pan.",
-                "Whisk together the eggs, yolks, vanilla and the discard, set aside.",
-                "Sift the flour, sugar, baking powder and salt into a mixer bowl. Mix on low speed to combine the dry ingredients. With the mixer running, toss the chunks of butter into the flour mixture.",
-                "Add the buttermilk and increase the speed to medium. Mix on medium high for 2 minutes to aerate the batter. Scrape the bowl and beater.",
-                "Add the egg mixture in 3 batches, scraping the bowl between each addition. Pour the batter into the prepared pan.",
-                "Bake until the cake springs back when lightly pressed or a toothpick inserted into the center comes out clean, about 40 minutes.",
-                "Cool for 10 minutes in the pan. Invert the cake onto a cooling rack set over a clean sheet pan. Cool until slightly warm before glazing.",
-                "Combine the sugar, vanilla and buttermilk in a small bowl and whisk until smooth.",
-                "Pour the glaze over the still slightly warm cake. You can scoop up the glaze from the sheet pan and use it to fill in any gaps in the glaze or leave it with the drips.",
-                "Cool completely and allow the glaze to set. Transfer to a serving plate.",
-            ],
-            self.harvester_class.instructions_list(),
+            "Preheat the oven to 350°F. Generously butter and flour a 12 cup Bundt pan.\nWhisk together the eggs, yolks, vanilla and the discard, set aside.\nSift the flour, sugar, baking powder and salt into a mixer bowl. Mix on low speed to combine the dry ingredients. With the mixer running, toss the chunks of butter into the flour mixture.\nAdd the buttermilk and increase the speed to medium. Mix on medium high for 2 minutes to aerate the batter. Scrape the bowl and beater.\nAdd the egg mixture in 3 batches, scraping the bowl between each addition. Pour the batter into the prepared pan.\nBake until the cake springs back when lightly pressed or a toothpick inserted into the center comes out clean, about 40 minutes.\nCool for 10 minutes in the pan. Invert the cake onto a cooling rack set over a clean sheet pan. Cool until slightly warm before glazing.\nCombine the sugar, vanilla and buttermilk in a small bowl and whisk until smooth.\nPour the glaze over the still slightly warm cake. You can scoop up the glaze from the sheet pan and use it to fill in any gaps in the glaze or leave it with the drips.\nCool completely and allow the glaze to set. Transfer to a serving plate.",
+            self.harvester_class.instructions(),
         )

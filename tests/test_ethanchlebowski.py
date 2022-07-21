@@ -44,16 +44,10 @@ class TestEthanChlebowskiScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
-        self.assertEqual(
-            [
-                "Heat the salsa ranchera in the microwave or a pan until warmed through.",
-                "Set a pan over medium-high heat and add a little bit of oil. Once hot, lightly fry the corn tortillas similar to enchiladas where they are still malleable or until crisp. Drain on a paper towel. Low-calorie option - Spritz with baking spray and toast tortillas under the broiler.",
-                "In the same pan and oil, fry the eggs sunny side up basting them with oil as needed. Low-calorie option - Poach the eggs in water.",
-                "Place the cooked eggs over the tortillas and spoon the warmed sauce over the whites. Top with some crumbling cheese and cilantro. Serve with seasoned pintos beans if you would like! Slice the yolk open and mix with the sauce to enjoy.",
-            ],
-            self.harvester_class.instructions_list(),
-        )
+    def test_instructions(self):
+        test_instructions = "Heat the salsa ranchera in the microwave or a pan until warmed through.\nSet a pan over medium-high heat and add a little bit of oil. Once hot, lightly fry the corn tortillas similar to enchiladas where they are still malleable or until crisp. Drain on a paper towel. Low-calorie option - Spritz with baking spray and toast tortillas under the broiler.\nIn the same pan and oil, fry the eggs sunny side up basting them with oil as needed. Low-calorie option - Poach the eggs in water.\nPlace the cooked eggs over the tortillas and spoon the warmed sauce over the whites. Top with some crumbling cheese and cilantro. Serve with seasoned pintos beans if you would like! Slice the yolk open and mix with the sauce to enjoy."
+
+        self.assertEqual(test_instructions, self.harvester_class.instructions())
 
     def test_ratings(self):
         self.assertEqual(None, self.harvester_class.ratings())

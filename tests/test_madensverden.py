@@ -62,18 +62,16 @@ class TestMadensVerdenScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "Start med at lave rabarberkompot. Rabarber snittes i tynde skiver, som koges i en kasserolle sammen med sukker og vaniljesukker. Kogetiden er cirka 10 minutter, og du skal ikke tilsætte vand, da rabarberne kaster rigeligt med væske af sig. Lad kompotten køle af.",
-                "Cremen laves ved at piske æggeblommer sammen med sukker og majsstivelse i en kasserolle. Koges op med sødmælken indtil den har den rette konsistens, og du skal piske i den undervejs så cremen ikke brænder på. Lad den køle lidt af.",
-                "Fløden piskes til en let flødeskum.",
-                "Anret nu trifli med rabarber i portionsglas.",
-                "Først med et lag creme nederst, så knuste makroner og ovenpå det den lækre rabarberkompot.",
-                "Slut af med flødeskum og pynt med mandelflager.",
-                "Stil rabarbertriflierne i køleskabet, og lad dem trække i mindst en time før servering.",
-            ],
-            self.harvester_class.instructions_list(),
+            """Start med at lave rabarberkompot. Rabarber snittes i tynde skiver, som koges i en kasserolle sammen med sukker og vaniljesukker. Kogetiden er cirka 10 minutter, og du skal ikke tilsætte vand, da rabarberne kaster rigeligt med væske af sig. Lad kompotten køle af.
+Cremen laves ved at piske æggeblommer sammen med sukker og majsstivelse i en kasserolle. Koges op med sødmælken indtil den har den rette konsistens, og du skal piske i den undervejs så cremen ikke brænder på. Lad den køle lidt af.
+Fløden piskes til en let flødeskum.
+Anret nu trifli med rabarber i portionsglas.
+Først med et lag creme nederst, så knuste makroner og ovenpå det den lækre rabarberkompot.
+Slut af med flødeskum og pynt med mandelflager.
+Stil rabarbertriflierne i køleskabet, og lad dem trække i mindst en time før servering.""",
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):

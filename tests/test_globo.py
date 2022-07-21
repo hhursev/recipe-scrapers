@@ -46,13 +46,8 @@ class TestGloboScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "1. Em uma panela a fogo médio, acrescente o óleo e o caldo de galinha e, dissolva o caldo. Logo em seguida coloque o frango picado em cubos na panela e deixe cozinhar, sempre dando uma olhadinha para não queimar.",
-                "2. Assim que o frango estiver bem cozido, acrescente o molho de tomate, o ketchup, a mostarda e champignon a gosto.",
-                "3. Abaixe o fogo e coloque o creme de leite e mexa bem até se tornar um creme homogêneo.",
-                "4. Está pronto para servir.",
-            ],
-            self.harvester_class.instructions_list(),
+            "1. Em uma panela a fogo médio, acrescente o óleo e o caldo de galinha e, dissolva o caldo. Logo em seguida coloque o frango picado em cubos na panela e deixe cozinhar, sempre dando uma olhadinha para não queimar.\n2. Assim que o frango estiver bem cozido, acrescente o molho de tomate, o ketchup, a mostarda e champignon a gosto.\n3. Abaixe o fogo e coloque o creme de leite e mexa bem até se tornar um creme homogêneo.\n4. Está pronto para servir.",
+            self.harvester_class.instructions(),
         )

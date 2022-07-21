@@ -47,12 +47,14 @@ class TestTastyKitchenScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Note: this is a very large batch. Recommend using a 12-cup food processor, or you can process the ingredients in batches and then mix everything together in a large mixing bowl.",
-                "Combine whole tomatoes, Rotel, onion, jalapeno, garlic, sugar, salt, cumin, lime juice, and cilantro in a blender or food processor. Pulse until you get the salsa to the consistency you’d like—I do about 10 to 15 pulses. Test seasonings with a tortilla chip and adjust as needed.",
-                "Refrigerate salsa for at least an hour. Serve with tortilla chips or cheese nachos.",
-            ],
-            self.harvester_class.instructions_list(),
+            "\n".join(
+                [
+                    "Note: this is a very large batch. Recommend using a 12-cup food processor, or you can process the ingredients in batches and then mix everything together in a large mixing bowl.",
+                    "Combine whole tomatoes, Rotel, onion, jalapeno, garlic, sugar, salt, cumin, lime juice, and cilantro in a blender or food processor. Pulse until you get the salsa to the consistency you’d like—I do about 10 to 15 pulses. Test seasonings with a tortilla chip and adjust as needed.",
+                    "Refrigerate salsa for at least an hour. Serve with tortilla chips or cheese nachos.",
+                ]
+            ),
+            self.harvester_class.instructions(),
         )

@@ -61,20 +61,18 @@ class TestGonnaWantSeconds(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "Preheat oven to 350 degrees. Spray a 9X13 inch baking dish with nonstick cooking spray; set aside",
-                "Make Filling and Roll:",
-                "Add oil to a large skillet and saute onion until it's translucent and soft. Add taco seasoning, salt, pepper, and Rotel and stir to combine. Add shredded chicken and toss to evenly coat with onion and seasoning mixture. Remove from the heat, cover, and set aside.",
-                "In a medium bowl, stir together 1 cup Monterey Jack and 1/2 cup sour cream until evenly combined.",
-                "Fill tortillas with a layer of the chicken mixture then a layer of the cheese mixture and roll each one and place seam side down, in the prepared pan.",
-                "Make Sauce:",
-                "Melt the butter in a skillet. Sprinkle flour over melted butter and whisk to combine. Cook for 1 minute to remove the flour taste. Remove the skillet from heat and whisk in broth.",
-                "Place back on the heat and cook until the mixture has thickened and is bubbly. Cool sauce for 3-5 minutes. (Don't skip this step- if the sauce is too hot and you add the sour cream it will curdle it-yuck!) Add sour cream and chilies and stir until sauce is smooth and sour cream is completely dissolved.",
-                "Pour sauce over enchiladas and add remaining cheese over top. Bake in preheated oven for 20-25 minutes or until enchiladas are heated through and sauce is bubbly. Turn on the broiler and broil until the top is nicely golden. Garnish with chopped cilantro or green onions and serve.",
-            ],
-            self.harvester_class.instructions_list(),
+            "\n".join(
+                [
+                    "Preheat oven to 350 degrees. Spray a 9X13 inch baking dish with nonstick cooking spray; set aside",
+                    "Make Filling and Roll:",
+                    "Add oil to a large skillet and saute onion until it's translucent and soft. Add taco seasoning, salt, pepper, and Rotel and stir to combine. Add shredded chicken and toss to evenly coat with onion and seasoning mixture. Remove from the heat, cover, and set aside.\nIn a medium bowl, stir together 1 cup Monterey Jack and 1/2 cup sour cream until evenly combined.\nFill tortillas with a layer of the chicken mixture then a layer of the cheese mixture and roll each one and place seam side down, in the prepared pan.",
+                    "Make Sauce:",
+                    "Melt the butter in a skillet. Sprinkle flour over melted butter and whisk to combine. Cook for 1 minute to remove the flour taste. Remove the skillet from heat and whisk in broth.\nPlace back on the heat and cook until the mixture has thickened and is bubbly. Cool sauce for 3-5 minutes. (Don't skip this step- if the sauce is too hot and you add the sour cream it will curdle it-yuck!) Add sour cream and chilies and stir until sauce is smooth and sour cream is completely dissolved.\nPour sauce over enchiladas and add remaining cheese over top. Bake in preheated oven for 20-25 minutes or until enchiladas are heated through and sauce is bubbly. Turn on the broiler and broil until the top is nicely golden. Garnish with chopped cilantro or green onions and serve.",
+                ]
+            ),
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):

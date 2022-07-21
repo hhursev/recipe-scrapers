@@ -55,14 +55,12 @@ class TestWoolworthsScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "Bring a medium saucepan of water to the boil over high heat. Cook asparagus and snow peas for 2 minutes or until just tender. Drain. Refresh under cold water. Drain.",
-                "Meanwhile, to make the vinaigrette, whisk all the ingredients together in a small jug until combined, then season.",
-                "Arrange lettuce, asparagus, snow peas and radish on a platter. Scatter over feta, drizzle with dressing, top with basil and almonds, then serve.",
-            ],
-            self.harvester_class.instructions_list(),
+            """Bring a medium saucepan of water to the boil over high heat. Cook asparagus and snow peas for 2 minutes or until just tender. Drain. Refresh under cold water. Drain.
+Meanwhile, to make the vinaigrette, whisk all the ingredients together in a small jug until combined, then season.
+Arrange lettuce, asparagus, snow peas and radish on a platter. Scatter over feta, drizzle with dressing, top with basil and almonds, then serve.""",
+            self.harvester_class.instructions(),
         )
 
     def test_cuisine(self):

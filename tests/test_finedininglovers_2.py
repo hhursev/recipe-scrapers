@@ -42,17 +42,10 @@ class TestFineDiningLoversScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "To prepare the avocado dip with blue cheese start squashing the cheese with a fork whilst adding the cream.",
-                "Stir in the shallot.",
-                "Drizzle the avocado fruit with lemon juice.",
-                "Squash with a fork and mix in with the cheese mixture.",
-                "Season with salt, ground white pepper and a pinch of nutmeg, then fill in small cups or glasses.",
-                "Serve the avocado and blue cheese dip with 5 grissini sticks.",
-            ],
-            self.harvester_class.instructions_list(),
+            "To prepare the avocado dip with blue cheese start squashing the cheese with a fork whilst adding the cream.\nStir in the shallot.\nDrizzle the avocado fruit with lemon juice.\nSquash with a fork and mix in with the cheese mixture.\nSeason with salt, ground white pepper and a pinch of nutmeg, then fill in small cups or glasses.\nServe the avocado and blue cheese dip with 5 grissini sticks.",
+            self.harvester_class.instructions(),
         )
 
     def test_image(self):

@@ -50,14 +50,10 @@ class TestDavidLebovivtzScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "Wipe the mushrooms clean. Slice off a bit of the stem end (the funky parts) and slice them. Heat the olive oil and butter in a skillet or wide saucepan. Add the onions and garlic, and cook, stirring frequently, until the onions become translucent, 5 to 6 minutes. Add the mushrooms and cook, stirring occasionally, until they’re soft and cooked through, another 5 to 8 minutes. Remove from heat.",
-                "In a food processor, combine the cooked lentils, nuts, lemon juice, soy sauce, rosemary, thyme, sage or parsley, Cognac (if using), brown sugar, and cayenne. Scrape in the cooked mushroom mixture and process until completely smooth. Taste, and add salt, pepper, and additional cognac, soy sauce, or lemon juice, if it needs balancing.",
-                "Scrape the pâté into a small serving bowl and refrigerate for a few hours, until firm.",
-            ],
-            self.harvester_class.instructions_list(),
+            """Wipe the mushrooms clean. Slice off a bit of the stem end (the funky parts) and slice them. Heat the olive oil and butter in a skillet or wide saucepan. Add the onions and garlic, and cook, stirring frequently, until the onions become translucent, 5 to 6 minutes. Add the mushrooms and cook, stirring occasionally, until they’re soft and cooked through, another 5 to 8 minutes. Remove from heat.\nIn a food processor, combine the cooked lentils, nuts, lemon juice, soy sauce, rosemary, thyme, sage or parsley, Cognac (if using), brown sugar, and cayenne. Scrape in the cooked mushroom mixture and process until completely smooth. Taste, and add salt, pepper, and additional cognac, soy sauce, or lemon juice, if it needs balancing.\nScrape the pâté into a small serving bowl and refrigerate for a few hours, until firm.""",
+            self.harvester_class.instructions(),
         )
 
     def test_description(self):

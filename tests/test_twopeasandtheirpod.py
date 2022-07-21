@@ -49,16 +49,10 @@ class TestTwoPeasAndTheirPodScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Preheat the oven to 425 degrees F. Spray a large baking sheet with nonstick cooking spray and set aside.",
-                "In a medium bowl, combine the shredded chicken with the cumin, chili powder, salt, garlic powder, paprika, and fresh lime juice. Stir until chicken is well coated with the seasonings. Stir in the shredded cheese.",
-                "Get two paper towels damp and place two tortillas at a time in between the paper towels. Place in the microwave for 20-30 seconds. Remove from the microwave and roll up the taquitos.",
-                "Place a heaping tablespoon of the chicken and cheese mixture in the center of the tortilla and roll it up tightly. Place the tacquito, seam side down on the prepared baking sheet. Continue rolling taquitos until the tortillas and filling are gone. You should have about 20 taquitos.",
-                "Spray the taquitos generously with nonstick cooking spray. Bake for 15-20 minutes or until taquitos are golden brown and crispy. Remove from the oven and serve warm with desired toppings.",
-            ],
-            self.harvester_class.instructions_list(),
+            "Preheat the oven to 425 degrees F. Spray a large baking sheet with nonstick cooking spray and set aside.\nIn a medium bowl, combine the shredded chicken with the cumin, chili powder, salt, garlic powder, paprika, and fresh lime juice. Stir until chicken is well coated with the seasonings. Stir in the shredded cheese.\nGet two paper towels damp and place two tortillas at a time in between the paper towels. Place in the microwave for 20-30 seconds. Remove from the microwave and roll up the taquitos.\nPlace a heaping tablespoon of the chicken and cheese mixture in the center of the tortilla and roll it up tightly. Place the tacquito, seam side down on the prepared baking sheet. Continue rolling taquitos until the tortillas and filling are gone. You should have about 20 taquitos.\nSpray the taquitos generously with nonstick cooking spray. Bake for 15-20 minutes or until taquitos are golden brown and crispy. Remove from the oven and serve warm with desired toppings.",
+            self.harvester_class.instructions(),
         )
 
     def test_image(self):

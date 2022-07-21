@@ -42,15 +42,13 @@ class TestKwestiaSmakuScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "Odciąć liście z kalafiora, przekroić na pół i wyciąć nadmiar głąba. Główkę kalafiora rozdzielić na różyczki lub pokroić na cząstki.",
-                "Położyć na dużej blaszce (np. z wyposażenia piekarnika) wyłożonej papierem do pieczenia. Piekarnik nagrzać do 200 stopni C.",
-                "Kalafiora polać oliwą, posypać pieprzem, kurkumą i czarnuszką, a następnie dokładnie wymieszać i rozłożyć na całej powierzchni blachy.",
-                "Wstawić do nagrzanego piekarnika i piec przez 30 minut. Po upieczeniu doprawić solą i posiekaną natką pietruszki.",
-            ],
-            self.harvester_class.instructions_list(),
+            "Odciąć liście z kalafiora, przekroić na pół i wyciąć nadmiar głąba. Główkę kalafiora rozdzielić na różyczki lub pokroić na cząstki.\n"
+            "Położyć na dużej blaszce (np. z wyposażenia piekarnika) wyłożonej papierem do pieczenia. Piekarnik nagrzać do 200 stopni C.\n"
+            "Kalafiora polać oliwą, posypać pieprzem, kurkumą i czarnuszką, a następnie dokładnie wymieszać i rozłożyć na całej powierzchni blachy.\n"
+            "Wstawić do nagrzanego piekarnika i piec przez 30 minut. Po upieczeniu doprawić solą i posiekaną natką pietruszki.",
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):

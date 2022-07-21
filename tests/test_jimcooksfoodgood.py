@@ -44,14 +44,16 @@ class TestJimCooksFoodGoodScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "Preheat oven to 400 deg F. Cut potatoes into rough bitesize chunks, it doesn't have to be exact. Arrange on two non-stick sprayed baking sheets, season with 1/2 of the salt, and roast for 30 minutes.",
-                "As potatoes cook, roughly chop the pickles, capers, rosemary, scallions, and parsley. Combine thoroughly with vinegar, mustard, oil, remaining teaspoon of salt, and some heavy grinds of black pepper.",
-                "When potatoes are cooked, immediately transfer to very large mixing bowl. Add the dressing slowly as you mix; the potatoes should gently break apart, which is a good thing. Serve warm or at room temperature.",
-            ],
-            self.harvester_class.instructions_list(),
+            "\n".join(
+                [
+                    "Preheat oven to 400 deg F. Cut potatoes into rough bitesize chunks, it doesn't have to be exact. Arrange on two non-stick sprayed baking sheets, season with 1/2 of the salt, and roast for 30 minutes.",
+                    "As potatoes cook, roughly chop the pickles, capers, rosemary, scallions, and parsley. Combine thoroughly with vinegar, mustard, oil, remaining teaspoon of salt, and some heavy grinds of black pepper.",
+                    "When potatoes are cooked, immediately transfer to very large mixing bowl. Add the dressing slowly as you mix; the potatoes should gently break apart, which is a good thing. Serve warm or at room temperature.",
+                ]
+            ),
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):

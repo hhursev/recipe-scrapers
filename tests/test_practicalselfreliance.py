@@ -46,24 +46,8 @@ class TestPracticalSelfRelianceScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Wash vegetables.",
-                "Remove stem and blossom ends from zucchini and dice into 1/4 to 1/2 inch pieces. Measure 2 cups.",
-                "Peel and dice onion. Measure 1 cup.",
-                "Peel and dice onion. Measure 1 cup.",
-                "Stem and seed peppers, then dice. Measure 1...",
-                "Stem and seed peppers, then dice. Measure 1 cup.",
-                "Important, don't skip this step! Combine diced vegetables in a large bowl and sprinkle salt over the top. Stir gently to distribute the salt, then add water until vegetables are completely submerged. Allow the vegetables to soak in the saltwater for 2 hours, then drain completely.",
-                "Prepare a water bath canner (optional, only if canning).",
-                "In a separate saucepan or stockpot, bring vinegar, sugar, and spices to a gentle simmer (180 degrees F). Do not add salt, the salt is only used to soak veggies before draining.",
-                "Add drained vegetables to the simmering vinegar/spices and gently simmer for 10 minutes.",
-                "Pack hot relish into prepared half-pint or pint jars, leaving 1/2 inch headspace.",
-                "If not canning, just seal jars and allow them to cool on the counter before storing in the refrigerator.",
-                "If canning, de-bubble jars, wipe rims, and adjust headspace to ensure 1/2 inch. Seal with 2 part canning lids.",
-                "Process in a water bath canner for 10 minutes, then turn off the heat. Allow the jars to sit in the canner for another 5 minutes to cool slightly, then remove the jars to cool on a towel on the counter.",
-                "Leave the jars undisturbed for 24 hours, then check seals. Store any unsealed jars in the refrigerator for immediate use. Properly canned and sealed jars should maintain peak quality on the pantry shelf for 12-18 months.",
-            ],
-            self.harvester_class.instructions_list(),
+            "Wash vegetables.\nRemove stem and blossom ends from zucchini and dice into 1/4 to 1/2 inch pieces. Measure 2 cups.\nPeel and dice onion. Measure 1 cup.\nPeel and dice onion. Measure 1 cup.\nStem and seed peppers, then dice. Measure 1...\nStem and seed peppers, then dice. Measure 1 cup.\nImportant, don't skip this step! Combine diced vegetables in a large bowl and sprinkle salt over the top. Stir gently to distribute the salt, then add water until vegetables are completely submerged. Allow the vegetables to soak in the saltwater for 2 hours, then drain completely.\nPrepare a water bath canner (optional, only if canning).\nIn a separate saucepan or stockpot, bring vinegar, sugar, and spices to a gentle simmer (180 degrees F). Do not add salt, the salt is only used to soak veggies before draining.\nAdd drained vegetables to the simmering vinegar/spices and gently simmer for 10 minutes.\nPack hot relish into prepared half-pint or pint jars, leaving 1/2 inch headspace.\nIf not canning, just seal jars and allow them to cool on the counter before storing in the refrigerator.\nIf canning, de-bubble jars, wipe rims, and adjust headspace to ensure 1/2 inch. Seal with 2 part canning lids.\nProcess in a water bath canner for 10 minutes, then turn off the heat. Allow the jars to sit in the canner for another 5 minutes to cool slightly, then remove the jars to cool on a towel on the counter.\nLeave the jars undisturbed for 24 hours, then check seals. Store any unsealed jars in the refrigerator for immediate use. Properly canned and sealed jars should maintain peak quality on the pantry shelf for 12-18 months.",
+            self.harvester_class.instructions(),
         )

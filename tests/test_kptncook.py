@@ -63,20 +63,9 @@ class TestKptnCookScraper(ScraperTest):
         ]
         self.assertEqual(ingredients, self.harvester_class.ingredients())
 
-    def test_instructions_list(self):
-        self.assertEqual(
-            [
-                "All set?",
-                "Preheat oven to 360°F (conventional, recommended) or 325°F (fan).",
-                "Mix curd, eggs, chili flakes, herbes de Provence, salt, and pepper to a bowl and mix.",
-                "Place the mass on a lined baking sheet, spread thinly (make sure the layer is very thin) and bake for 10-15 min.",
-                "Wash and slice cherry tomatoes.",
-                "Wash and drain arugula.",
-                "Remove the base from the oven and spread with cream cheese. Top with tomatoes and Serrano ham, and bake for another 5 min.",
-                "Remove the tarte flambée from the oven, top with arugula, and enjoy.",
-            ],
-            self.harvester_class.instructions_list(),
-        )
+    def test_instructions(self):
+        instructions = "All set?\nPreheat oven to 360°F (conventional, recommended) or 325°F (fan).\nMix curd, eggs, chili flakes, herbes de Provence, salt, and pepper to a bowl and mix.\nPlace the mass on a lined baking sheet, spread thinly (make sure the layer is very thin) and bake for 10-15 min.\nWash and slice cherry tomatoes.\nWash and drain arugula.\nRemove the base from the oven and spread with cream cheese. Top with tomatoes and Serrano ham, and bake for another 5 min.\nRemove the tarte flambée from the oven, top with arugula, and enjoy."
+        self.assertEqual(instructions, self.harvester_class.instructions())
 
     def test_ratings(self):
         self.assertEqual(None, self.harvester_class.ratings())

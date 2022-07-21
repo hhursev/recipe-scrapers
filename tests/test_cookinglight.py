@@ -50,13 +50,15 @@ class TestCookingLight(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Step 1 Place the black beans in a pile in the corner of a shallow bowl. Heat a small skillet over medium-high. Add the oil to the pan; swirl to coat. Add the tomatoes; cook until charred but not collapsing, about 3 minutes, shaking the pan once to turn the tomatoes. Place the tomatoes next to the beans in the bowl.",
-                "Step 2 Add the corn to the pan; cook until heated through, 2 to 3 minutes. Place the corn next to the tomatoes. Add the avocado slices, radish slices, and cilantro to the bowl. Sprinkle with the salt and pepper.",
-            ],
-            self.harvester_class.instructions_list(),
+            "\n".join(
+                [
+                    "Step 1 Place the black beans in a pile in the corner of a shallow bowl. Heat a small skillet over medium-high. Add the oil to the pan; swirl to coat. Add the tomatoes; cook until charred but not collapsing, about 3 minutes, shaking the pan once to turn the tomatoes. Place the tomatoes next to the beans in the bowl.",
+                    "Step 2 Add the corn to the pan; cook until heated through, 2 to 3 minutes. Place the corn next to the tomatoes. Add the avocado slices, radish slices, and cilantro to the bowl. Sprinkle with the salt and pepper.",
+                ]
+            ),
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):

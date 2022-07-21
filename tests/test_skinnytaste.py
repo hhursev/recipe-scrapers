@@ -45,14 +45,12 @@ class TestSkinnyTasteScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Preheat oven to 400°F. Season chicken with salt and pepper. Lightly spray a grill or grill pan with oil. Cook chicken until no longer pink, about 2 to 3 minutes per side.",
-                "Heat a skillet over medium heat. Add oil and garlic, sauté a 30 seconds, add spinach, salt and pepper. Cook until heated through, 2 to 3 minutes.",
-                "Place chicken on a baking sheet, divide spinach evenly between the 6 pieces and place on top. Top each with 1/2 oz mozzarella, roasted peppers and bake until melted, about 3 minutes.",
-            ],
-            self.harvester_class.instructions_list(),
+            """Preheat oven to 400°F. Season chicken with salt and pepper. Lightly spray a grill or grill pan with oil. Cook chicken until no longer pink, about 2 to 3 minutes per side.
+Heat a skillet over medium heat. Add oil and garlic, sauté a 30 seconds, add spinach, salt and pepper. Cook until heated through, 2 to 3 minutes.
+Place chicken on a baking sheet, divide spinach evenly between the 6 pieces and place on top. Top each with 1/2 oz mozzarella, roasted peppers and bake until melted, about 3 minutes.""",
+            self.harvester_class.instructions(),
         )
 
     def test_total_time(self):

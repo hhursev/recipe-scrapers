@@ -41,14 +41,8 @@ class TestACoupleCooks(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "If frozen, thaw the shrimp (see the notes above).",
-                "Mince the garlic.",
-                "Pat the shrimp dry. In a medium bowl, mix the shrimp with the garlic and salt.",
-                "In a large skillet, heat the butter on medium high heat. Cook the shrimp for 1 to 2 minutes per side until opaque and cooked through, turning them with tongs.",
-                "Spritz with juice of the lemon wedges and serve immediately.",
-            ],
-            self.harvester_class.instructions_list(),
+            "If frozen, thaw the shrimp (see the notes above).\nMince the garlic.\nPat the shrimp dry. In a medium bowl, mix the shrimp with the garlic and salt.\nIn a large skillet, heat the butter on medium high heat. Cook the shrimp for 1 to 2 minutes per side until opaque and cooked through, turning them with tongs.\nSpritz with juice of the lemon wedges and serve immediately.",
+            self.harvester_class.instructions(),
         )

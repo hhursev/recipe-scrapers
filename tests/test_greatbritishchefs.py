@@ -56,15 +56,10 @@ class TestGreatBritishChefsScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "To begin, heat a splash of olive oil in a large pan and add the mince. Cook until nicely browned – you may need to do this in batches to avoid overcrowding the mince",
-                "Decant the mince into a bowl and sweat the onions, garlic, carrot and potato in the same pan you used to brown the mince. Add the bay leaf and spices",
-                "Once the onions are translucent, return the mince to the pan and add the tomato purée, raisins, chicken stock and tomatillo salsa. Turn down the heat and simmer for 30 minutes",
-                "Season with the honey, lime juice and salt. Stir through the coriander and serve with rice or as a taco filling",
-            ],
-            self.harvester_class.instructions_list(),
+            "To begin, heat a splash of olive oil in a large pan and add the mince. Cook until nicely browned – you may need to do this in batches to avoid overcrowding the mince\nDecant the mince into a bowl and sweat the onions, garlic, carrot and potato in the same pan you used to brown the mince. Add the bay leaf and spices\nOnce the onions are translucent, return the mince to the pan and add the tomato purée, raisins, chicken stock and tomatillo salsa. Turn down the heat and simmer for 30 minutes\nSeason with the honey, lime juice and salt. Stir through the coriander and serve with rice or as a taco filling",
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):

@@ -43,18 +43,20 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "❶ Preheat your oven to 400°F.",
-                "❷ In a medium sized mixing bowl, whisk together olive oil, lemon juice, mustard, garlic, salt , pepper and rosemary.",
-                "❸ Layer potatoes, radishes and onions on a baking sheet. Lightly drizzle with the tinest bit of olive oil. The chicken thighs will drip fat for cooking, so we don’t want to overdo it with the oil.",
-                "❹ Pat chicken thighs dry and rub with seasoning mixture. Be sure to get in under the skin too.",
-                "❺ Place chicken thighs over your vegetable layer.",
-                "❻ Roast for 55 minutes, then broil for 3 minutes for an extra crisp factor! Enjoy!",
-                "– For more lifestyle tips and recipes from Rebecca, you can find her on Instagram at @xxrlilly",
-            ],
-            self.harvester_class.instructions_list(),
+            "\n".join(
+                [
+                    "❶ Preheat your oven to 400°F.",
+                    "❷ In a medium sized mixing bowl, whisk together olive oil, lemon juice, mustard, garlic, salt , pepper and rosemary.",
+                    "❸ Layer potatoes, radishes and onions on a baking sheet. Lightly drizzle with the tinest bit of olive oil. The chicken thighs will drip fat for cooking, so we don’t want to overdo it with the oil.",
+                    "❹ Pat chicken thighs dry and rub with seasoning mixture. Be sure to get in under the skin too.",
+                    "❺ Place chicken thighs over your vegetable layer.",
+                    "❻ Roast for 55 minutes, then broil for 3 minutes for an extra crisp factor! Enjoy!",
+                    "– For more lifestyle tips and recipes from Rebecca, you can find her on Instagram at @xxrlilly",
+                ]
+            ),
+            self.harvester_class.instructions(),
         )
 
     def test_image(self):

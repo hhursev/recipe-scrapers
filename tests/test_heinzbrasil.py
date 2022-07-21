@@ -44,10 +44,8 @@ class TestHeinzBrasilScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "Frite a carne, a cebola e os pimentões na manteiga com o azeite, mexendo bem. Despeje as especiarias mexicanas e o café. Adicione o milho, o feijão, os tomates picados e o Ketchup Heinz. Cozinhe por 5 minutos. Sirva com um bom pedaço de pão e gruyère."
-            ],
-            self.harvester_class.instructions_list(),
+            "Frite a carne, a cebola e os pimentões na manteiga com o azeite, mexendo bem. Despeje as especiarias mexicanas e o café. Adicione o milho, o feijão, os tomates picados e o Ketchup Heinz. Cozinhe por 5 minutos. Sirva com um bom pedaço de pão e gruyère.",
+            self.harvester_class.instructions(),
         )

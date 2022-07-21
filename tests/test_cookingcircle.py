@@ -45,17 +45,19 @@ class TestCookingCircleScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "Step 1 Preheat your oven to 180c and line a cupcake tray with cases.",
-                "Step 2 Combine the non-dairy milk and cider vinegar, then set aside and allow to thicken.",
-                "Step 3 In your Ninja food processor, add in all of your dry ingredients and pulse to combine.",
-                "Step 4 Pour in the oil, milk mixture and lemon zest and blend for a few seconds to create a smooth batter.",
-                "Step 5 Transfer this into your cupcake cases (makes around 6 cupcakes) and bake in the oven for 25 minutes or until cooked through.",
-                "Step 6 Whilst allowing your cupcakes to cool, use an electric mixer to cream the butter until light and fluffy.",
-                "Step 7 Gradually add in the sugar and powders whilst mixing until fully combined.",
-                "Step 8 Once cooled, pipe the butter cream into each of your cakes and decorate.",
-            ],
-            self.harvester_class.instructions_list(),
+            "\n".join(
+                [
+                    "Step 1 Preheat your oven to 180c and line a cupcake tray with cases.",
+                    "Step 2 Combine the non-dairy milk and cider vinegar, then set aside and allow to thicken.",
+                    "Step 3 In your Ninja food processor, add in all of your dry ingredients and pulse to combine.",
+                    "Step 4 Pour in the oil, milk mixture and lemon zest and blend for a few seconds to create a smooth batter.",
+                    "Step 5 Transfer this into your cupcake cases (makes around 6 cupcakes) and bake in the oven for 25 minutes or until cooked through.",
+                    "Step 6 Whilst allowing your cupcakes to cool, use an electric mixer to cream the butter until light and fluffy.",
+                    "Step 7 Gradually add in the sugar and powders whilst mixing until fully combined.",
+                    "Step 8 Once cooled, pipe the butter cream into each of your cakes and decorate.",
+                ]
+            ),
+            self.harvester_class.instructions(),
         )

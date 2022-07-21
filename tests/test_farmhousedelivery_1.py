@@ -39,12 +39,14 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "Saute onions & garlic in olive oil in a large skillet until they take on a little color. Add jalapeno and continue cooking for 1-2 minutes. Add chopped greens, season with salt and pepper to taste and cover until greens are just wilted. Add cream and bring to a simmer. Crack eggs on top of greens, cover and cook until eggs are cooked to your preference. Serve in wide bowls with a dollop of yogurt and a drizzle of hot sauce and thick slices of warm bread on the side."
-            ],
-            self.harvester_class.instructions_list(),
+            "\n".join(
+                [
+                    "Saute onions & garlic in olive oil in a large skillet until they take on a little color. Add jalapeno and continue cooking for 1-2 minutes. Add chopped greens, season with salt and pepper to taste and cover until greens are just wilted. Add cream and bring to a simmer. Crack eggs on top of greens, cover and cook until eggs are cooked to your preference. Serve in wide bowls with a dollop of yogurt and a drizzle of hot sauce and thick slices of warm bread on the side."
+                ]
+            ),
+            self.harvester_class.instructions(),
         )
 
     def test_image(self):

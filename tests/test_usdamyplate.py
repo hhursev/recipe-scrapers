@@ -45,17 +45,8 @@ class TestUSDAMyPlateRecipesScraper(ScraperTest):
             self.harvester_class.image(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Wash hands with soap and water.",
-                "Preheat oven to 350 degrees F. Lightly grease a 9x13-inch baking pan.",
-                "Combine figs, walnuts, sugar, orange juice and hot water in a mixing bowl and set aside.",
-                "Mix together margarine or butter and brown sugar until creamy. Add egg and mix until smooth.",
-                "Mix flour and baking soda. Stir into egg mixture. Blend in oats to make soft dough.",
-                "Reserve 1 cup of dough for topping. With floured fingertips, press the remaining dough into a thin layer on the bottom of the baking pan.",
-                "Spread fig mixture evenly over the dough. Crumble reserved dough over top, allowing fig mixture to show.",
-                "Bake 30 minutes or until golden brown. Cool completely in baking pan. Cut into 24 bars (about 2.5 x 2 inches).",
-            ],
-            self.harvester_class.instructions_list(),
+            "Wash hands with soap and water.\nPreheat oven to 350 degrees F. Lightly grease a 9x13-inch baking pan.\nCombine figs, walnuts, sugar, orange juice and hot water in a mixing bowl and set aside.\nMix together margarine or butter and brown sugar until creamy. Add egg and mix until smooth.\nMix flour and baking soda. Stir into egg mixture. Blend in oats to make soft dough.\nReserve 1 cup of dough for topping. With floured fingertips, press the remaining dough into a thin layer on the bottom of the baking pan.\nSpread fig mixture evenly over the dough. Crumble reserved dough over top, allowing fig mixture to show.\nBake 30 minutes or until golden brown. Cool completely in baking pan. Cut into 24 bars (about 2.5 x 2 inches).",
+            self.harvester_class.instructions(),
         )

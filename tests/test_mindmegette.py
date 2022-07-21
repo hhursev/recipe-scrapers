@@ -42,15 +42,13 @@ class TestMindmegetteScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "A zöldségeket megpucoljuk és megmossuk.",
-                "A burgonyát vastagabb szeletekre vágjuk, a répákat hosszában elfelezzük, a lilahagymát félbe vagy negyedbe vágjuk, a céklát szeleteljük, a fokhagymát egészben hagyjuk.",
-                "Az összes, előkészített zöldséget egy tepsibe tesszük, meglocsoljuk olívaolajjal, sózzuk és borsozzuk, kézzel összeforgatjuk az egészet, majd friss rozmaringot teszünk rá.",
-                "Lefedjük alufóliával, 180 fokon 20 percig sütjük, majd fólia nélkül, amíg minden zöldség meg nem puhul. Grill funkció esetén az utolsó 5 percben meg is piríthatjuk. Sült húsok mellé kiváló, laktató köret.",
-            ],
-            self.harvester_class.instructions_list(),
+            "A zöldségeket megpucoljuk és megmossuk.\n"
+            + "A burgonyát vastagabb szeletekre vágjuk, a répákat hosszában elfelezzük, a lilahagymát félbe vagy negyedbe vágjuk, a céklát szeleteljük, a fokhagymát egészben hagyjuk.\n"
+            + "Az összes, előkészített zöldséget egy tepsibe tesszük, meglocsoljuk olívaolajjal, sózzuk és borsozzuk, kézzel összeforgatjuk az egészet, majd friss rozmaringot teszünk rá.\n"
+            + "Lefedjük alufóliával, 180 fokon 20 percig sütjük, majd fólia nélkül, amíg minden zöldség meg nem puhul. Grill funkció esetén az utolsó 5 percben meg is piríthatjuk. Sült húsok mellé kiváló, laktató köret.",
+            self.harvester_class.instructions(),
         )
 
     def test_yields(self):

@@ -52,16 +52,18 @@ class TestFranzoesischKochenScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "1- Die Schalotten schälen und in dünnen Scheiben schneiden....",
-                "2- In einer großen Pfanne 2-3 EL Entenfett (aus den Confit Dose) geben ... und erhitzen...",
-                "3- In einer kleinen Pfanne die gehobelten Mandeln kurz anbraten. Auf die Seite stellen.",
-                "4- Die Feigen in kleinen Scheiben schneiden und in einer Pfanne mit ein bisschen Rotwein (oder Wasser) und dem Kardamom köcheln lassen...",
-                "5- Den Blätterteig ausrollen, halbieren und in einen 20 cm Ring (oder eine Backform legen).",
-            ],
-            self.harvester_class.instructions_list(),
+            "\n".join(
+                [
+                    "1- Die Schalotten schälen und in dünnen Scheiben schneiden....",
+                    "2- In einer großen Pfanne 2-3 EL Entenfett (aus den Confit Dose) geben ... und erhitzen...",
+                    "3- In einer kleinen Pfanne die gehobelten Mandeln kurz anbraten. Auf die Seite stellen.",
+                    "4- Die Feigen in kleinen Scheiben schneiden und in einer Pfanne mit ein bisschen Rotwein (oder Wasser) und dem Kardamom köcheln lassen...",
+                    "5- Den Blätterteig ausrollen, halbieren und in einen 20 cm Ring (oder eine Backform legen).",
+                ]
+            ),
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):

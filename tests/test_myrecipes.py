@@ -45,12 +45,10 @@ class TestMyRecipesScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Add pasta to a large skillet over high; cover with water, and add 1 teaspoon of the salt. Bring to a boil, and cook, stirring occasionally, until nearly tender, about 6 minutes. Meanwhile, heat oil in a medium skillet over medium; stir in black pepper, and cook until toasted, about 1 minute. Remove from heat. Whisk 3 tablespoons of the pasta cooking water into oil and pepper. Using tongs, transfer pasta into oil and pepper mixture, reserving pasta cooking water in skillet. Cook over low, stirring constantly, while sprinkling in cheese. Add more cooking water as needed, 1 tablespoon at a time, to create a creamy sauce. Stir in remaining 1/2 teaspoon salt. Divide pasta between 2 bowls, and garnish with pepper and cheese. Serve immediately."
-            ],
-            self.harvester_class.instructions_list(),
+            "Add pasta to a large skillet over high; cover with water, and add 1 teaspoon of the salt. Bring to a boil, and cook, stirring occasionally, until nearly tender, about 6 minutes. Meanwhile, heat oil in a medium skillet over medium; stir in black pepper, and cook until toasted, about 1 minute. Remove from heat. Whisk 3 tablespoons of the pasta cooking water into oil and pepper. Using tongs, transfer pasta into oil and pepper mixture, reserving pasta cooking water in skillet. Cook over low, stirring constantly, while sprinkling in cheese. Add more cooking water as needed, 1 tablespoon at a time, to create a creamy sauce. Stir in remaining 1/2 teaspoon salt. Divide pasta between 2 bowls, and garnish with pepper and cheese. Serve immediately.",
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):

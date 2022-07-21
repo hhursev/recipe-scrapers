@@ -41,10 +41,8 @@ class TestClosetCooking(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Toast almonds in a dry pan until golden and fragrant. Place into a bowl to cool. Rinse and thinly slice celery. Cut olives into slices. Squeeze orange juice from one orange. Peel remaining oranges well and fillet, cut fillets into pieces. Repeat the same steps with grapefruit. Separate endive into individual leaves, rinse and spin dry, cut into strips. Peel and pit avocado, cut pulp into small cubes. Combine avocado cubes with orange juice in a bowl. Add all remaining prepared salad ingredients, drizzle with oil and toss salad carefully. Arrange on plates and serve."
-            ],
-            self.harvester_class.instructions_list(),
+            "Toast almonds in a dry pan until golden and fragrant. Place into a bowl to cool. Rinse and thinly slice celery. Cut olives into slices. Squeeze orange juice from one orange. Peel remaining oranges well and fillet, cut fillets into pieces. Repeat the same steps with grapefruit. Separate endive into individual leaves, rinse and spin dry, cut into strips. Peel and pit avocado, cut pulp into small cubes. Combine avocado cubes with orange juice in a bowl. Add all remaining prepared salad ingredients, drizzle with oil and toss salad carefully. Arrange on plates and serve.",
+            self.harvester_class.instructions(),
         )

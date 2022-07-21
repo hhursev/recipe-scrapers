@@ -50,15 +50,8 @@ class TestLivelyTableScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Place shrimp in a medium, nonreactive bowl.",
-                "In a small bowl, combine chipotle, garlic powder, and cumin. Sprinkle over shrimp. Add oil and lime juice and stir well until shrimp are evenly coated. Set aside while you prepare the cilantro jalapeño sauce.",
-                "In a food processor or blender, combine jalapeño, cilantro, yogurt, and lime juice. Process until smooth and pour into a small bowl for serving.",
-                "Prepare remaining taco toppings.",
-                "Heat a large non-stick skillet over medium heat. Add shrimp and cook about 3 minutes per side or until cooked through.",
-                "Serve with warm corn tortillas and top as desired. Enjoy!",
-            ],
-            self.harvester_class.instructions_list(),
+            "Place shrimp in a medium, nonreactive bowl.\nIn a small bowl, combine chipotle, garlic powder, and cumin. Sprinkle over shrimp. Add oil and lime juice and stir well until shrimp are evenly coated. Set aside while you prepare the cilantro jalapeño sauce.\nIn a food processor or blender, combine jalapeño, cilantro, yogurt, and lime juice. Process until smooth and pour into a small bowl for serving.\nPrepare remaining taco toppings.\nHeat a large non-stick skillet over medium heat. Add shrimp and cook about 3 minutes per side or until cooked through.\nServe with warm corn tortillas and top as desired. Enjoy!",
+            self.harvester_class.instructions(),
         )

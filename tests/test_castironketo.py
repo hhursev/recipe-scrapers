@@ -47,14 +47,8 @@ class TestCastIronKetoScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         return self.assertEqual(
-            [
-                "Preheat the oven to 425° F.",
-                "Place the chicken in the bottom of a 10” or larger cast iron skillet. Top with green onions.",
-                "Combine the garlic salt, onion powder, paprika, cream cheese, heavy cream, and chicken bone broth in a small bowl. Mix until combined.",
-                "Pour the cream cheese mixture over the chicken then top with the slices of jalapeno. Sprinkle the cheddar cheese over the top then top with the crumbled bacon.",
-                "Transfer the skillet to the oven and bake for 15 minutes until the cheese is bubbly. Serve immediately.",
-            ],
-            self.harvester_class.instructions_list(),
+            "Preheat the oven to 425° F.\nPlace the chicken in the bottom of a 10” or larger cast iron skillet. Top with green onions.\nCombine the garlic salt, onion powder, paprika, cream cheese, heavy cream, and chicken bone broth in a small bowl. Mix until combined.\nPour the cream cheese mixture over the chicken then top with the slices of jalapeno. Sprinkle the cheddar cheese over the top then top with the crumbled bacon.\nTransfer the skillet to the oven and bake for 15 minutes until the cheese is bubbly. Serve immediately.",
+            self.harvester_class.instructions(),
         )

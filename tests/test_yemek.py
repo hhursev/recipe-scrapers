@@ -55,18 +55,10 @@ class TestYemekScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_instructions_list(self):
+    def test_instructions(self):
         self.assertEqual(
-            [
-                "Patatesleri bir tencerede haşlayın. Haşlandıktan sonra suyunu süzüp tereyağı ve tuzla tatlandırıp püre haline getirin. Kişi sayısına göre eşit parçalara bölüp top haline getirin.",
-                "Tavukları pişireceğiniz tavayı ısıtın ve sıvı yağ ekleyip tavukları suyunu salıp çekene dek pişirin.",
-                "Soğanları da tavukların üzerine ekleyip 2-3 dakika soteleyin. Ardından kapya biberi de ilave edip kavurun ve mantarları ekleyip suyunu salıp çekmesini bekleyin. Ara ara karıştırın.",
-                "Tuz, karabiber ve kırmızı biberi de ilave edip karıştırın ve son olarak suyunu ilave edip kısık ateşte 10 dakika kadar pişirin.",
-                "Sos için, tereyağını bir sos tenceresinde eritin ve sıvı yağ ekleyin. Üzerine un ve köriyi ilave edip 2-3 dakika kavurun. Sütü de yavaş yavaş ilave edip sürekli olarak karıştırın. Kaynamaya ve kıvamı koyulaşmaya başladıktan sonra altını kısıp 5 dakika daha pişirip ocaktan alın. Beklerken çok koyulaşırsa su veya sütle açın.",
-                "Fırını 200 dereceye ayarlayın.",
-                "Borcama pişirdiğiniz sebzeli tavuğu yayın. Üzerine hazırladığınız patates toplarını, aralarında boşluk olacak şekilde dizin. Her bir patates topunun üzerine köri sosundan eşit miktarda dökün. Son olarak üzerlerine rendelenmiş mozarella ilave edip 200 derece fırında üzerleri kızarana dek 15 dakika pişirin.",
-            ],
-            self.harvester_class.instructions_list(),
+            """Patatesleri bir tencerede haşlayın. Haşlandıktan sonra suyunu süzüp tereyağı ve tuzla tatlandırıp püre haline getirin. Kişi sayısına göre eşit parçalara bölüp top haline getirin.\nTavukları pişireceğiniz tavayı ısıtın ve sıvı yağ ekleyip tavukları suyunu salıp çekene dek pişirin.\nSoğanları da tavukların üzerine ekleyip 2-3 dakika soteleyin. Ardından kapya biberi de ilave edip kavurun ve mantarları ekleyip suyunu salıp çekmesini bekleyin. Ara ara karıştırın.\nTuz, karabiber ve kırmızı biberi de ilave edip karıştırın ve son olarak suyunu ilave edip kısık ateşte 10 dakika kadar pişirin.\nSos için, tereyağını bir sos tenceresinde eritin ve sıvı yağ ekleyin. Üzerine un ve köriyi ilave edip 2-3 dakika kavurun. Sütü de yavaş yavaş ilave edip sürekli olarak karıştırın. Kaynamaya ve kıvamı koyulaşmaya başladıktan sonra altını kısıp 5 dakika daha pişirip ocaktan alın. Beklerken çok koyulaşırsa su veya sütle açın.\nFırını 200 dereceye ayarlayın.\nBorcama pişirdiğiniz sebzeli tavuğu yayın. Üzerine hazırladığınız patates toplarını, aralarında boşluk olacak şekilde dizin. Her bir patates topunun üzerine köri sosundan eşit miktarda dökün. Son olarak üzerlerine rendelenmiş mozarella ilave edip 200 derece fırında üzerleri kızarana dek 15 dakika pişirin.""",
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):
