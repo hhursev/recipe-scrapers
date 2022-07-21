@@ -9,6 +9,7 @@ from .abril import Abril
 from .acouplecooks import ACoupleCooks
 from .afghankitchenrecipes import AfghanKitchenRecipes
 from .akispetretzikis import AkisPetretzikis
+from .albertheijn import AlbertHeijn
 from .allrecipes import AllRecipes
 from .alltomat import AllTomat
 from .altonbrown import AltonBrown
@@ -212,6 +213,7 @@ SCRAPERS = {
     Abril.host(): Abril,
     AfghanKitchenRecipes.host(): AfghanKitchenRecipes,
     AkisPetretzikis.host(): AkisPetretzikis,
+    AlbertHeijn.host(): AlbertHeijn,
     AllRecipes.host(): AllRecipes,
     AllTomat.host(): AllTomat,
     AltonBrown.host(): AltonBrown,
