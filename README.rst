@@ -53,7 +53,7 @@ then:
     scraper.total_time()
     scraper.yields()
     scraper.ingredients()
-    scraper.instructions()
+    scraper.instructions()  # or alternatively for results as a Python list: scraper.instructions_list()
     scraper.image()
     scraper.host()
     scraper.links()

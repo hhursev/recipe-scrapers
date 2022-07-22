@@ -31,6 +31,7 @@ ON_EXCEPTION_RETURN_VALUES = {
     "image": None,
     "ingredients": None,
     "instructions": None,
+    "instructions_list": None,
     "ratings": None,
     "reviews": None,
     "links": None,
