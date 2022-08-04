@@ -40,6 +40,7 @@ from .cookieandkate import CookieAndKate
 from .cookingcircle import CookingCircle
 from .cookinglight import CookingLight
 from .cookpad import CookPad
+from .coop import Coop
 from .cookstr import Cookstr
 from .copykat import CopyKat
 from .countryliving import CountryLiving
@@ -246,6 +247,7 @@ SCRAPERS = {
     CookingCircle.host(): CookingCircle,
     CookingLight.host(): CookingLight,
     Cookstr.host(): Cookstr,
+    Coop.host(): Coop,
     CopyKat.host(): CopyKat,
     CountryLiving.host(): CountryLiving,
     Cucchiaio.host(): Cucchiaio,
