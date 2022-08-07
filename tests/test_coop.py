@@ -2,7 +2,7 @@ from recipe_scrapers.coop import Coop
 from tests import ScraperTest
 
 
-class TestTemplateScraper(ScraperTest):
+class TestCoopScraper(ScraperTest):
 
     scraper_class = Coop
 
