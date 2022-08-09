@@ -92,6 +92,7 @@ Scrapers available for:
 - `https://amazingribs.com/ <https://amazingribs.com/>`_
 - `https://ambitiouskitchen.com/ <https://ambitiouskitchen.com>`_
 - `https://archanaskitchen.com/ <https://archanaskitchen.com/>`_
+- `https://www.arla.se/ <https://www.arla.se/>`_
 - `https://www.atelierdeschefs.fr/ <https://www.atelierdeschefs.fr/>`_
 - `https://averiecooks.com/ <https://www.averiecooks.com/>`_
 - `https://baking-sense.com/ <https://baking-sense.com/>`_

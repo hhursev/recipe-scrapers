@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+<html lang="sv" dir="ltr">
+<head>
+    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" data-domain-script="459efdf2-da30-4466-9e0b-54954e95b859"></script>
+     <script>
+        var isCustomCookieScriptRun = false
+        function openCookiePopup() {
+            var banner = document.getElementById("onetrust-banner-sdk");
+            if (banner) {
+                banner.style = "display: none !important;";
+            }
+            var prefpc = document.getElementById("onetrust-pc-sdk");
+            var filter = document.getElementsByClassName("onetrust-pc-dark-filter")[0];
+            prefpc.style = "display: flex !important;";
+            filter.style = "display: block !important;";
+
+        }
+
+        function reOpenCookiePopup() {
+            var banner = document.getElementById("onetrust-consent-sdk");
+            banner.style = "display: flex !important;";
+            var prefpc = document.getElementById("onetrust-pc-sdk");
+            var filter = document.getElementsByClassName("onetrust-pc-dark-filter")[0];
+            prefpc.style = "display: flex !important;";
+            filter.style = "display: block !important;";
+        }
+
+        function OptanonWrapper() {
+            if (!isCustomCookieScriptRun) {
+                isCustomCookieScriptRun = true
+                var accept = document.getElementById('accept-recommended-btn-handler');
+                var nothanks = document.querySelector('.ot-btn-container');
+                var btndiv = document.createElement('div');
+                btndiv.className = 'ontrust-content-buttons'
+
+                var content = document.getElementById('ot-pc-content');
+                content.appendChild(btndiv)
+                btndiv.appendChild(accept)
+                btndiv.appendChild(nothanks)
+
+                var firstAccordionItem = content.querySelector('.ot-always-active')
+                var disabledCheckbox = document.createElement('div')
+                disabledCheckbox.className = 'ot-tgl ot-always-active-tgl'
+                disabledCheckbox.innerHTML = '<input type="checkbox" checked aria-checked="true" role="switch" class="category-switch-handler"> <label class="ot-switch"><span class="ot-switch-nob"></span> <span class="ot-label-txt">Mandatory Cookies</span></label>'
+                firstAccordionItem.parentNode.appendChild(disabledCheckbox)
+
+                var modal = document.getElementById('onetrust-pc-sdk');
+                var backButtonContainer = modal.querySelector('#ot-lst-cnt')
+                var originalBackButton = modal.querySelector('.back-btn-handler');
+                var goBackButton = document.createElement('button');
+                goBackButton.className = 'onetrust-pc-sdk__back-button'
+                goBackButton.innerHTML = '<span class="onetrust-pc-sdk__back-button-arrow"></span>' + 'Spara'
+                backButtonContainer.appendChild(goBackButton)
+                goBackButton.addEventListener('click', function (e) {
+                    e.preventDefault()
+                    originalBackButton.click()
+                })
+            }
+
+            if (!getOpCookie("OptanonAlertBoxClosed")) {
+                openCookiePopup()
+            } else {
+                var mainModal = document.getElementById('onetrust-consent-sdk')
+                mainModal.style.display = 'none'
+            }
+
+            if (Optanon && !Optanon.IsAlertBoxClosed()) {
+                Optanon.OnConsentChanged(function () {
+                    if (document.activeElement) {
+                        document.activeElement.blur();
+                    }
+                });
+            }
+        }
+
+        function getOpCookie(name) {
+            var value = "; " + document.cookie;
+            var parts = value.split("; " + name + "=");
+            if (parts.length == 2)
+                return parts.pop().split(";").shift();
+        }
+    </script>
+
+    <script>
+gtmData = {"brandName":"Arla","breadCrumb":["Recept & mat","Reuben sandwich"],"pageID":"27","pageName":"(Recept)","pageTitle":"Reuben sandwich - Recept","primaryCategory":"Recept & mat","pageType":"RecipePageType","language":"sv","geoRegion":"US","loginStatus":"False","loginUserType":"privat","userId":"","sysEnv":"Responsive","destinationURL":"https://www.arla.se/recept/reuben-sandwich/","destinationPath":"/recept/reuben-sandwich/","hostname":"www.arla.se","brandName":"Arla Mat","recipeName":"Reuben sandwich","recipeMealOrBaking":"Non-baking recipe","recipeArlaProducts":"Arla Präst ost, Arla Svenskt Smör","productName":"Arla Präst ost, Arla Svenskt Smör","productBrand":"Arla Präst, Arla","recipeMealType":"Huvudrätt, Förrätt, Mellanmål","recipeMainIngredient":"Kött","recipeType":"Mackor","recipeID":"235235459","recipeOccasion":"Smårätter, Brunch","recipeWayOfCooking":"Grilla","recipeAttribute":"Budget","recipeCalories":738,"recipeCookingTime":40,"recipePublishDate":"2020-06-14","publishDate":"2020-06-14"}; dataLayer = []; dataLayer.push(gtmData); digitalData = dataLayer;
+gtmSettings = {"enableEnhancedEcommerce":true,"currency":null};
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KBPZ34');</script>
+<!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reuben sandwich - Recept | Arla</title>
+
+    <meta name="description" content="En reuben sandwich &#xE4;r en amerikansk macka, vanligtvis med pastrami - men vi anv&#xE4;nder svensk oxbringa, saltgurka och s&#xE5; kallad rysk dressing. ">
+    <meta name="keywords" content="grilla,budget,huvudr&#xE4;tt,f&#xF6;rr&#xE4;tt,mellanm&#xE5;l,mackor,sm&#xE5;r&#xE4;tter,brunch,k&#xF6;tt,oxbringa,ost,pr&#xE4;st&#xAE;,br&#xF6;d,sm&#xF6;r,konserverade gr&#xF6;nsaker,gr&#xF6;nsaker,paprika,l&#xF6;k">
+    <meta name="robots" content="all">
+    <meta name="google-site-verification" content="VML8UFpyddw4W2uYByJeDiugf5BzDG3NSunX-T8PsZU">
+    <meta name="apple-itunes-app" content="app-id=415895347, app-argument=https://www.arla.se/recept/reuben-sandwich/"/>
+    <link rel="canonical" href="https://www.arla.se/recept/reuben-sandwich/">
+
+    <meta property="og:title" content="Reuben sandwich">
+    <meta property="og:type" content="artikel">
+    <meta property="og:url" content="https://www.arla.se/recept/reuben-sandwich/">
+    <meta property="og:site_name" content="Arla">
+    <meta property="og:description" content="En reuben sandwich &#xE4;r en amerikansk macka, vanligtvis med pastrami - men vi anv&#xE4;nder svensk oxbringa, saltgurka och s&#xE5; kallad rysk dressing. ">
+        <meta property="og:image" content="https://cdn-rdb.arla.com/Files/arla-se/235235459/f96b874a-5b9c-4936-b3e2-5071e76136c0.jpg?mode=crop&amp;w=1200&amp;h=630&amp;scale=both&amp;format=jpg&amp;quality=80&amp;ak=f525e733&amp;hm=35af1404">
+            <meta property="og:image:width" content="1200">
+            <meta property="og:image:height" content="630">
+        <meta property="og:locale" content="sv_se">
+<meta name="msapplication-TileColor" content="#ffffff"/>
+<meta name="msapplication-TileImage" content="arla-touch-icon-144x144-precomposed.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/arla-touch-icon-144x144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/arla-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/arla-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="/arla-touch-icon-57x57-precomposed.png">
+<link rel="shortcut icon" href="/favicon.png" type="image/png">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">    <script type="application/ld+json">
+    [
+{"@context":"https://schema.org/","type":"Organization","url":"https://www.arla.se/","logo":"https://www.arla.se/UI/img/arla-logo@2x.02d13ae2.png","@type":"Organization"},{"@context":"https://schema.org/","type":"BreadcrumbList","itemListElement":[{"type":"ListItem","position":1,"name":"Arla","item":"https://www.arla.se/","@type":"ListItem"},{"type":"ListItem","position":2,"name":"Recept & mat","item":"https://www.arla.se/recept/","@type":"ListItem"},{"type":"ListItem","position":3,"name":"Reuben sandwich","item":"https://www.arla.se/recept/reuben-sandwich/","@type":"ListItem"}],"@type":"BreadcrumbList"},{"@context":"https://schema.org/","type":"Recipe","name":"Reuben sandwich","image":"https://cdn-rdb.arla.com/Files/arla-se/235235459/f96b874a-5b9c-4936-b3e2-5071e76136c0.jpg?mode=crop&w=1200&h=630&scale=both&format=jpg&quality=80&ak=f525e733&hm=35af1404","author":{"type":"Person","name":"Arla Mat","@type":"Person"},"description":"En reuben sandwich är en amerikansk macka, vanligtvis med pastrami - men vi använder svensk oxbringa, saltgurka och så kallad rysk dressing. ","totalTime":"PT40M","recipeYield":"4","recipeCategory":"Brunch, Förrätt, Huvudrätt, Mellanmål","recipeCuisine":"Amerikansk","keywords":"Reuben sandwich","nutrition":{"type":"NutritionInformation","calories":"738 kcal","carbohydrateContent":"49 g","fatContent":"48 g","fiberContent":"","proteinContent":"28 g","@type":"NutritionInformation"},"recipeIngredient":["200 g kokt rimmad oxbringa, eller corned beef","1 dl surkål","1 dl riven Arla Präst® ost","8 skivor surdegsbröd","50 g Arla® Svenskt Smör, smält","2 saltgurkor","½ gul paprika","1 schalottenlök","1 dl majonnäs","1 msk chilisås","1 tsk paprikapulver","1 tsk dijonsenap","½ krm tabasco"],"recipeInstructions":[{"type":"HowToSection","name":"Dressing:","itemListElement":[{"type":"HowToStep","text":"Börja med dressingen. Finhacka paprika och lök. Blanda med övriga ingredienser och ställ åt sidan.","url":"https://www.arla.se/recept/reuben-sandwich/#step1-1","@type":"HowToStep"}],"@type":"HowToSection"},{"type":"HowToSection","name":null,"itemListElement":[{"type":"HowToStep","text":"Skär köttet i tunna skivor. Låt surkålen rinna av ordentligt och blanda med osten.","url":"https://www.arla.se/recept/reuben-sandwich/#step2-1","@type":"HowToStep"},{"type":"HowToStep","text":" Pensla bröden med smör på båda sidor. Lägg surkål och ost på hälften av bröden. Lägg på köttet. Klicka dressingen över köttet och lägg på resterande bröd.","url":"https://www.arla.se/recept/reuben-sandwich/#step2-2","@type":"HowToStep"},{"type":"HowToStep","text":"Grilla på båda sidor i en het grillpanna eller smörgåsgrill.","url":"https://www.arla.se/recept/reuben-sandwich/#step2-3","@type":"HowToStep"},{"type":"HowToStep","text":"Dela grillspett på mitten och trä genom mackorna. Skär saltgurkorna på längden och fäst på grillspetten.","url":"https://www.arla.se/recept/reuben-sandwich/#step2-4","@type":"HowToStep"}],"@type":"HowToSection"}],"aggregateRating":{"type":"AggregateRating","ratingValue":"4.5","ratingCount":"3","@type":"AggregateRating"},"video":null,"@type":"Recipe"}    ]
+    </script>
+
+    <link rel="preload" href="/UI/fonts/arlainterface-regular-webfont.e079b236.woff2" as="font" crossorigin="anonymous"/>
+    <link rel="preload" href="/UI/fonts/arlainterface-bold-webfont.651e8286.woff2" as="font" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://images.arla.com" crossorigin>
+    <link rel="dns-prefetch" href="https://images.arla.com">
+    <link href="/UI/css/chunk-2424b68e.7b4bcf2b.css" rel="prefetch"><link href="/UI/css/chunk-2605a076.81a36e92.css" rel="prefetch"><link href="/UI/css/chunk-313e871e.0e6b1a73.css" rel="prefetch"><link href="/UI/css/chunk-468da482.30c340d3.css" rel="prefetch"><link href="/UI/css/chunk-5ee17a0f.50f9600a.css" rel="prefetch"><link href="/UI/css/chunk-ca926026.9f89dabb.css" rel="prefetch"><link href="/UI/js/chunk-11ff7b87.fef6e38b.js" rel="prefetch"><link href="/UI/js/chunk-1676ddf2.1ba76f74.js" rel="prefetch"><link href="/UI/js/chunk-1679bda7.e913bdae.js" rel="prefetch"><link href="/UI/js/chunk-223c36fc.89f90f98.js" rel="prefetch"><link href="/UI/js/chunk-2424b68e.4b052bac.js" rel="prefetch"><link href="/UI/js/chunk-2605a076.e609ee5d.js" rel="prefetch"><link href="/UI/js/chunk-282c7700.8f93ea86.js" rel="prefetch"><link href="/UI/js/chunk-2d0a349d.23671316.js" rel="prefetch"><link href="/UI/js/chunk-2d0c94a1.7a8d0e31.js" rel="prefetch"><link href="/UI/js/chunk-2d0cbc74.d210f888.js" rel="prefetch"><link href="/UI/js/chunk-2d0cbcff.ea5ca92a.js" rel="prefetch"><link href="/UI/js/chunk-2d0dab7e.c6317311.js" rel="prefetch"><link href="/UI/js/chunk-2d216238.074b5163.js" rel="prefetch"><link href="/UI/js/chunk-2d21e91b.fe9a8f28.js" rel="prefetch"><link href="/UI/js/chunk-313e871e.f655f2f2.js" rel="prefetch"><link href="/UI/js/chunk-3dc5c61c.fb861243.js" rel="prefetch"><link href="/UI/js/chunk-468da482.bcfece5c.js" rel="prefetch"><link href="/UI/js/chunk-4695ee7a.cbcefc56.js" rel="prefetch"><link href="/UI/js/chunk-4fe13a9b.77ac2cc6.js" rel="prefetch"><link href="/UI/js/chunk-5ee17a0f.6cb6bd26.js" rel="prefetch"><link href="/UI/js/chunk-617c6183.5b47d7d0.js" rel="prefetch"><link href="/UI/js/chunk-657dd984.f29de430.js" rel="prefetch"><link href="/UI/js/chunk-77f7aee2.b2209d3a.js" rel="prefetch"><link href="/UI/js/chunk-ad9ee5ec.d3db0d10.js" rel="prefetch"><link href="/UI/js/chunk-ca926026.e2abf4df.js" rel="prefetch"><link href="/UI/js/chunk-f577a6e0.25dc710b.js" rel="prefetch"><link href="/UI/css/cvi.63bd271d.css" rel="preload" as="style"><link href="/UI/js/cvi-vendors.c773ffad.js" rel="preload" as="script"><link href="/UI/js/cvi.8e95d530.js" rel="preload" as="script"><link href="/UI/css/cvi.63bd271d.css" rel="stylesheet">
+    
+
+
+<script type="text/plain" class="optanon-category-C0002">
+    !function(T,l,y){var S=T.location,u="script",k="instrumentationKey",D="ingestionendpoint",C="disableExceptionTracking",E="ai.device.",I="toLowerCase",b="crossOrigin",w="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"4",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[I](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,p,l,u;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][I]()]=i[1])}if(!e[D]){var r=e.endpointsuffix,o=r?e.location:null;e[D]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[k]||d[k]||"",p=s[D],l=p?p+"/v2/track":config.endpointUrl,(u=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=l,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),u.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,l)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:w,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(w,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(u,l))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(u);n.src=h;var e=y[b];return!e&&""!==e||"undefined"==n[b]||(n[b]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(u)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[C]&&!0!==s[C]){method="onerror",t(["_"+method]);var c=T[method];T[method]=function(e,t,n,a,i){var r=c&&c(e,t,n,a,i);return!0!==r&&m["_"+method]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);(T[t]=n).queue&&0===n.queue.length&&n.trackPageView({})}(window,document,{
+src: "https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js",
+cfg: { 
+    instrumentationKey: '9625e5ba-6826-45a6-9baa-7588395449f8'
+}});
+    
+</script>
+
+    <script>
+        document.documentElement.classList.add('no-touch');
+        window.addEventListener('touchstart', function onFirstTouch() {
+            document.documentElement.classList.remove('no-touch');
+            window.removeEventListener('touchstart', onFirstTouch, false);
+        }, false);
+    </script>
+    <link rel="prefetch" href="//www.youtube.com/iframe_api" as="script"/>
+</head>
+<body class="">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBPZ34"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="c-site-wrapper">
+    
+<header class="c-header u-flex">
+    <a class="c-header__logo u-ml--s" href="/">
+        <img width="55" height="36" src="/UI/img/arla-logo.e700c018.svg" alt="Arla">
+    </a>
+<nav class="c-main-menu u-hidden-print" data-vue="WebCoreMainMenu" data-model="{&quot;sections&quot;:[{&quot;title&quot;:&quot;Uppt&#xE4;ck&quot;,&quot;url&quot;:&quot;/&quot;,&quot;isActive&quot;:true,&quot;enableServerSideRendering&quot;:false,&quot;subsections&quot;:[{&quot;title&quot;:&quot;Utforska&quot;,&quot;links&quot;:[{&quot;href&quot;:&quot;/&quot;,&quot;text&quot;:&quot;Start&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/arlakadabra/&quot;,&quot;text&quot;:&quot;Arlakadabra&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/event-sponsring/&quot;,&quot;text&quot;:&quot;Event &amp; sponsring&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/halsa/&quot;,&quot;text&quot;:&quot;H&#xE4;lsa&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/nyhetsbrev/&quot;,&quot;text&quot;:&quot;Nyhetsbrev&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/artiklar/&quot;,&quot;text&quot;:&quot;Artiklar&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}}]},{&quot;title&quot;:&quot;Aktuellt&quot;,&quot;links&quot;:[{&quot;href&quot;:&quot;/produkter/nya-produkter/&quot;,&quot;text&quot;:&quot;Nya produkter&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/recept/nytt/&quot;,&quot;text&quot;:&quot;Nya recept&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{&quot;title&quot;:&quot;Nya recept&quot;}},{&quot;href&quot;:&quot;/hallbarhet/djuromsorg/quiz/&quot;,&quot;text&quot;:&quot;Det stora ko-quizet&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/arlakadabra/mjolkbaksidor/&quot;,&quot;text&quot;:&quot;Mj&#xF6;lkbaksidor&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}}]},{&quot;title&quot;:&quot;Letade du efter?&quot;,&quot;links&quot;:[{&quot;href&quot;:&quot;/recept/&quot;,&quot;text&quot;:&quot;Recept &amp; mat&quot;,&quot;isActive&quot;:true,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/&quot;,&quot;text&quot;:&quot;Produkter&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/om-arla/jobb-karriar/&quot;,&quot;text&quot;:&quot;Jobb &amp; karri&#xE4;r&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/om-arla/kontakta-oss/&quot;,&quot;text&quot;:&quot;Kontakta oss&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}}]}]},{&quot;title&quot;:&quot;Recept &amp; mat&quot;,&quot;url&quot;:&quot;/recept/&quot;,&quot;isActive&quot;:false,&quot;enableServerSideRendering&quot;:false,&quot;subsections&quot;:[{&quot;title&quot;:&quot;Recept och inspiration&quot;,&quot;links&quot;:[{&quot;href&quot;:&quot;/recept/&quot;,&quot;text&quot;:&quot;Recept och mat&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/recept/inspiration/&quot;,&quot;text&quot;:&quot;Inspiration&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/recept/samling/nytt/&quot;,&quot;text&quot;:&quot;Nya recept&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{&quot;title&quot;:&quot;Nya recept&quot;}},{&quot;href&quot;:&quot;/recept/teman/&quot;,&quot;text&quot;:&quot;Alla teman&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/recept/index/&quot;,&quot;text&quot;:&quot;Receptindex&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/recept/kokbocker-och-broschyrer/pdf/&quot;,&quot;text&quot;:&quot;Arla Mat-broschyrer&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}}]},{&quot;title&quot;:&quot;Planering och tj&#xE4;nster&quot;,&quot;links&quot;:[{&quot;href&quot;:&quot;/recept/veckomatsedlar/&quot;,&quot;text&quot;:&quot;Veckomatsedlar&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/recept/veckomatsedlar/maltidsplaneraren/&quot;,&quot;text&quot;:&quot;M&#xE5;ltidsplaneraren&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{&quot;title&quot;:&quot;Matsedelsplaneraren&quot;}},{&quot;href&quot;:&quot;/recept/tom-din-kyl/&quot;,&quot;text&quot;:&quot;T&#xF6;m din kyl&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{&quot;title&quot;:&quot;T&#xF6;m din kyl&quot;,&quot;target&quot;:&quot;_top&quot;}}]},{&quot;title&quot;:&quot;Uppt&#xE4;ck&quot;,&quot;links&quot;:[{&quot;href&quot;:&quot;/recept/matkanalen/&quot;,&quot;text&quot;:&quot;Matkanalen av Arla&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/recept/arla-mat-app/&quot;,&quot;text&quot;:&quot;Arla Mat-appen&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/recept/om-arla-mat/&quot;,&quot;text&quot;:&quot;Om Arla Mat&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}}]}]},{&quot;title&quot;:&quot;Produkter&quot;,&quot;url&quot;:&quot;/produkter/&quot;,&quot;isActive&quot;:false,&quot;enableServerSideRendering&quot;:false,&quot;subsections&quot;:[{&quot;title&quot;:&quot;&#xD6;versikt&quot;,&quot;links&quot;:[{&quot;href&quot;:&quot;/produkter/&quot;,&quot;text&quot;:&quot;Produkter&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/nya-produkter/&quot;,&quot;text&quot;:&quot;Nya produkter&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/ekologiskt/&quot;,&quot;text&quot;:&quot;Ekologiska produkter&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/laktosfritt/&quot;,&quot;text&quot;:&quot;Laktosfria produkter&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/forpackningar/&quot;,&quot;text&quot;:&quot;F&#xF6;rpackningar&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/mjolk/&quot;,&quot;text&quot;:&quot;Mj&#xF6;lk&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/yoghurt/&quot;,&quot;text&quot;:&quot;Yoghurt&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/ost/&quot;,&quot;text&quot;:&quot;Ost&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/kvarg/&quot;,&quot;text&quot;:&quot;Kvarg&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/arla-koket/creme-fraiche/&quot;,&quot;text&quot;:&quot;Cr&#xE8;me Fraiche&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/smor-matfett/&quot;,&quot;text&quot;:&quot;Sm&#xF6;r &amp; matfett&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/#produktgrupper&quot;,&quot;text&quot;:&quot;Fler produktgrupper&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}}]},{&quot;title&quot;:&quot;Varum&#xE4;rken &amp; produkter&quot;,&quot;links&quot;:[{&quot;href&quot;:&quot;/produkter/varumarken/&quot;,&quot;text&quot;:&quot;V&#xE5;ra varum&#xE4;rken&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/arla-brand/&quot;,&quot;text&quot;:&quot;Arla&#xAE;&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/arla-ko/&quot;,&quot;text&quot;:&quot;Arla Ko&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/arla-ko/laktosfri/&quot;,&quot;text&quot;:&quot;Arla Laktosfri&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/arla-koket/&quot;,&quot;text&quot;:&quot;Arla K&#xF6;ket&#xAE;&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/dofilus/&quot;,&quot;text&quot;:&quot;Arla Dofilus&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/arla-brand/kefir/&quot;,&quot;text&quot;:&quot;Arla&#xAE; Kefir&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/arla-latte-art/&quot;,&quot;text&quot;:&quot;Arla Latte Art&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/onaka/&quot;,&quot;text&quot;:&quot;Arla&#xAE; Onaka&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/arla-protein/&quot;,&quot;text&quot;:&quot;Arla Protein&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/apetina/&quot;,&quot;text&quot;:&quot;Apetina&#xAE;&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/boxholms/&quot;,&quot;text&quot;:&quot;Boxholms&#xAE; ost&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/bregott/&quot;,&quot;text&quot;:&quot;Bregott&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}}]},{&quot;title&quot;:null,&quot;links&quot;:[{&quot;href&quot;:&quot;/produkter/castello/&quot;,&quot;text&quot;:&quot;Castello&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/dreamy-dessert/&quot;,&quot;text&quot;:&quot;Dreamy Dessert&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/gefleortens/&quot;,&quot;text&quot;:&quot;Gefleortens&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/kelda/&quot;,&quot;text&quot;:&quot;Kelda&#xAE;&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/keso-cottage-cheese/&quot;,&quot;text&quot;:&quot;KESO&#xAE; cottage cheese&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/klover/&quot;,&quot;text&quot;:&quot;Kl&#xF6;ver&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/kvibille/&quot;,&quot;text&quot;:&quot;Kvibille&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/latt--lagom/&quot;,&quot;text&quot;:&quot;L&#xE4;tt &amp; Lagom&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/pucko/&quot;,&quot;text&quot;:&quot;Pucko&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/svenskt-smor/&quot;,&quot;text&quot;:&quot;Svenskt Sm&#xF6;r&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/wastgota-kloster/&quot;,&quot;text&quot;:&quot;W&#xE4;stg&#xF6;ta Kloster&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/yalla/&quot;,&quot;text&quot;:&quot;Yalla!&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/yoggi/&quot;,&quot;text&quot;:&quot;Yoggi&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}}]}]},{&quot;title&quot;:&quot;H&#xE5;llbarhet&quot;,&quot;url&quot;:&quot;/hallbarhet/&quot;,&quot;isActive&quot;:false,&quot;enableServerSideRendering&quot;:false,&quot;subsections&quot;:[{&quot;title&quot;:&quot;&#xD6;verblick&quot;,&quot;links&quot;:[{&quot;href&quot;:&quot;/hallbarhet/&quot;,&quot;text&quot;:&quot;H&#xE5;llbarhet&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/hallbarhet/djuromsorg/&quot;,&quot;text&quot;:&quot;Arla och djuromsorg&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/hallbarhet/arlagarden/&quot;,&quot;text&quot;:&quot;Arlag&#xE5;rden&#xAE; &#x2013; kvalitet p&#xE5; g&#xE5;rden&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/hallbarhet/ansvar-csr/&quot;,&quot;text&quot;:&quot;V&#xE5;rt ansvar (CSR)&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}}]},{&quot;title&quot;:&quot;Planeten&quot;,&quot;links&quot;:[{&quot;href&quot;:&quot;/hallbarhet/garden/&quot;,&quot;text&quot;:&quot;H&#xE5;llbara g&#xE5;rdar&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/hallbarhet/transporter/&quot;,&quot;text&quot;:&quot;H&#xE5;llbara transporter&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/hallbarhet/mejeriet/&quot;,&quot;text&quot;:&quot;H&#xE5;llbara mejerier&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/produkter/forpackningar/&quot;,&quot;text&quot;:&quot;H&#xE5;llbara f&#xF6;rpackningar&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/hallbarhet/klimatberakningar/&quot;,&quot;text&quot;:&quot;Klimatber&#xE4;kningar&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/hallbarhet/handavtryck/&quot;,&quot;text&quot;:&quot;Fr&#xE5;n fotavtryck till handavtryck&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/hallbarhet/ekologiskt/&quot;,&quot;text&quot;:&quot;Ekologiskt&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}}]}]},{&quot;title&quot;:&quot;Om Arla&quot;,&quot;url&quot;:&quot;/om-arla/&quot;,&quot;isActive&quot;:false,&quot;enableServerSideRendering&quot;:false,&quot;subsections&quot;:[{&quot;title&quot;:&quot; &#xD6;verblick &quot;,&quot;links&quot;:[{&quot;href&quot;:&quot;/om-arla/&quot;,&quot;text&quot;:&quot;Om Arla&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/om-arla/fragor-och-svar/&quot;,&quot;text&quot;:&quot;Vanliga fr&#xE5;gor och svar&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/om-arla/nyheter-press/&quot;,&quot;text&quot;:&quot;Nyheter &amp; press&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/om-arla/jobb-karriar/&quot;,&quot;text&quot;:&quot;Jobb &amp; karri&#xE4;r&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/om-arla/kontakta-oss/&quot;,&quot;text&quot;:&quot;Kontakta oss&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}}]},{&quot;title&quot;:&quot;Kooperativet &quot;,&quot;links&quot;:[{&quot;href&quot;:&quot;/om-arla/bondeagda/&quot;,&quot;text&quot;:&quot;Bonde&#xE4;gda Arla&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/om-arla/koncernen/&quot;,&quot;text&quot;:&quot;Koncernen Arla&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/om-arla/arlas-historia/&quot;,&quot;text&quot;:&quot;Arlas historia&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/om-arla/mjolkpriset/&quot;,&quot;text&quot;:&quot;Mj&#xF6;lkpriset&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/om-arla/mejerier/&quot;,&quot;text&quot;:&quot;V&#xE5;ra mejerier&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/om-arla/bonden-korna-garden/&quot;,&quot;text&quot;:&quot;Bonden, korna &amp; bondg&#xE5;rden&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/om-arla/agare/&quot;,&quot;text&quot;:&quot;F&#xF6;r &#xE4;gare&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}}]},{&quot;title&quot;:&quot;Mer om Arla&quot;,&quot;links&quot;:[{&quot;href&quot;:&quot;/hallbarhet/&quot;,&quot;text&quot;:&quot;H&#xE5;llbarhet i framtidens mejeri&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/hallbarhet/djuromsorg/&quot;,&quot;text&quot;:&quot;Arla och djuromsorg&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}},{&quot;href&quot;:&quot;/hallbarhet/djuromsorg/nya-kolivet/&quot;,&quot;text&quot;:&quot;Det nya kolivet&quot;,&quot;isActive&quot;:false,&quot;attributes&quot;:{}}]}]}]}">
+    <ul class="c-main-menu__list u-bare-list">
+            <li class="c-main-menu__item">
+                <a class="c-main-menu__item-link is-active" href="/">Uppt&#xE4;ck</a>
+            </li>
+            <li class="c-main-menu__item">
+                <a class="c-main-menu__item-link " href="/recept/">Recept &amp; mat</a>
+            </li>
+            <li class="c-main-menu__item">
+                <a class="c-main-menu__item-link " href="/produkter/">Produkter</a>
+            </li>
+            <li class="c-main-menu__item">
+                <a class="c-main-menu__item-link " href="/hallbarhet/">H&#xE5;llbarhet</a>
+            </li>
+            <li class="c-main-menu__item">
+                <a class="c-main-menu__item-link " href="/om-arla/">Om Arla</a>
+            </li>
+    </ul>
+</nav>
+    <div data-vue="WebCoreServiceMenu" data-model="{&quot;languageSelector&quot;:null,&quot;quickSearch&quot;:{&quot;title&quot;:&quot;S&#xF6;k&quot;,&quot;url&quot;:&quot;/sok/&quot;,&quot;inputPlaceholder&quot;:&quot;S&#xF6;k recept, produkt eller annat&quot;,&quot;autocompleteDisabled&quot;:true},&quot;profileMenu&quot;:{&quot;isAuthenticated&quot;:false,&quot;title&quot;:&quot;Logga in&quot;,&quot;url&quot;:&quot;#login&quot;,&quot;logoutUrl&quot;:null,&quot;logoutUrlText&quot;:null,&quot;settingsUrl&quot;:null,&quot;settingsUrlText&quot;:null,&quot;myPagesUrl&quot;:null,&quot;favoriteRecipesFormat&quot;:null,&quot;favoriteRecipeCount&quot;:0,&quot;foodMoversPageUrl&quot;:null,&quot;foodMoversPageText&quot;:null,&quot;recipeSavedText&quot;:null},&quot;loginPanel&quot;:{&quot;heading&quot;:&quot;Mina sidor&quot;,&quot;description&quot;:null,&quot;facebookSignInText&quot;:&quot;Logga in med Facebook&quot;,&quot;facebookSignInUrl&quot;:&quot;/WebAppsCVI/CustomerAccount/FacebookSignIn?locale=sv&amp;redirectUri=%2Frecept%2Freuben-sandwich%2F&quot;,&quot;appleSignInText&quot;:&quot;Logga in med Apple&quot;,&quot;appleSignInUrl&quot;:&quot;/WebAppsCVI/CustomerAccount/AppleSignIn?locale=sv&amp;redirectUri=%2Frecept%2Freuben-sandwich%2F&quot;,&quot;googleSignInText&quot;:&quot;Logga in med Google&quot;,&quot;googleSignInUrl&quot;:&quot;/WebAppsCVI/CustomerAccount/GoogleSignIn?locale=sv&amp;redirectUri=%2Frecept%2Freuben-sandwich%2F&quot;,&quot;emailSignInText&quot;:&quot;Anv&#xE4;nd din email&quot;,&quot;emailSignInUrl&quot;:&quot;/WebAppsCVI/CustomerAccount/EmailSignIn?locale=sv&amp;redirectUri=%2Frecept%2Freuben-sandwich%2F&quot;,&quot;signUpText&quot;:&quot;Bli medlem!&quot;,&quot;signUpUrl&quot;:&quot;/WebAppsCVI/CustomerAccount/SignUp?locale=sv&amp;redirectUri=%2Frecept%2Freuben-sandwich%2F&quot;,&quot;resetPasswordText&quot;:&quot;Gl&#xF6;mt ditt l&#xF6;senord?&quot;,&quot;resetPasswordUrl&quot;:&quot;/WebAppsCVI/CustomerAccount/ResetPassword?locale=sv&amp;redirectUri=%2Frecept%2Freuben-sandwich%2F&quot;,&quot;favoriteRecipes&quot;:{&quot;favoriteRecipeCountTextFormat&quot;:&quot;Sparade recept ({favoriteRecipeCount})&quot;,&quot;loginToSaveFavoriteRecipesText&quot;:&quot;Logga in f&#xF6;r att spara recept permanent&quot;}},&quot;shoppingCartPanel&quot;:{&quot;recipeInBasketText&quot;:&quot;Recept&quot;,&quot;noRecipesAddedHtml&quot;:&quot;&lt;p&gt;Inga recept har lagts till &amp;auml;nnu&lt;/p&gt;&quot;,&quot;seeBasketText&quot;:&quot;Se ink&#xF6;pslista&quot;,&quot;shoppingListUrl&quot;:&quot;/recept/inkopslista/&quot;,&quot;mealPlan&quot;:{&quot;undoButtonText&quot;:&quot;&#xC5;ngra&quot;,&quot;labelText&quot;:&quot;Matsedel&quot;,&quot;dragAndDropHelpText&quot;:&quot;du kan &#xE4;ndra ordningen p&#xE5; recepten&quot;,&quot;unsortedRecipesPlaceholder&quot;:&quot;Osorterad receptlista&quot;,&quot;weekDays&quot;:[&quot;m&#xE5;ndag&quot;,&quot;tisdag&quot;,&quot;onsdag&quot;,&quot;torsdag&quot;,&quot;fredag&quot;,&quot;l&#xF6;rdag&quot;,&quot;s&#xF6;ndag&quot;],&quot;tagUids&quot;:[],&quot;searchRecipeLink&quot;:{&quot;url&quot;:&quot;/recept/&quot;,&quot;text&quot;:&quot;S&#xF6;k&quot;,&quot;openInNewWindow&quot;:false},&quot;addRecipeButtonText&quot;:&quot;L&#xE4;gg till recept&quot;},&quot;shoppingList&quot;:{&quot;undoButtonText&quot;:&quot;&#xC5;ngra&quot;},&quot;panelLink&quot;:{&quot;title&quot;:&quot;Ink&#xF6;pslista&quot;,&quot;url&quot;:&quot;/recept/inkopslista/&quot;}}}"></div>
+    <script>
+        var shoppingCartLink = '/recept/inkopslista/'
+    </script>
+    <div data-scroll-lock-fill-gap></div>
+</header>
+
+    
+
+<div class="c-recipe" data-placement="recipe_page">
+    <div class="c-recipe__hero">
+        <div class="c-recipe__image">
+    <picture class="c-recipe__image-ratio-holder">
+            <source media="(min-width: 1200px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/235235459/f96b874a-5b9c-4936-b3e2-5071e76136c0.jpg?w=1269&amp;h=715&amp;mode=crop&amp;ak=f525e733&amp;hm=b762ca1a">
+            <source media="(min-width: 992px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/235235459/f96b874a-5b9c-4936-b3e2-5071e76136c0.jpg?w=800&amp;h=539&amp;mode=crop&amp;ak=f525e733&amp;hm=12e25aea, https://cdn-rdb.arla.com/Files/arla-se/235235459/f96b874a-5b9c-4936-b3e2-5071e76136c0.jpg?w=1600&amp;h=1078&amp;mode=crop&amp;ak=f525e733&amp;hm=a6677d03 2x">
+            <source media="(min-width: 768px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/235235459/f96b874a-5b9c-4936-b3e2-5071e76136c0.jpg?w=991&amp;h=694&amp;mode=crop&amp;ak=f525e733&amp;hm=2e02cf51, https://cdn-rdb.arla.com/Files/arla-se/235235459/f96b874a-5b9c-4936-b3e2-5071e76136c0.jpg?w=1982&amp;h=1388&amp;mode=crop&amp;ak=f525e733&amp;hm=7777c49c 2x">
+        <img src="https://cdn-rdb.arla.com/Files/arla-se/235235459/f96b874a-5b9c-4936-b3e2-5071e76136c0.jpg?w=375&amp;h=265&amp;mode=crop&amp;ak=f525e733&amp;hm=fffc6ca6" srcset="https://cdn-rdb.arla.com/Files/arla-se/235235459/f96b874a-5b9c-4936-b3e2-5071e76136c0.jpg?w=750&amp;h=530&amp;mode=crop&amp;ak=f525e733&amp;hm=3e8bc5cb 2x" alt="Reuben sandwich"
+                              importance="high"
+        >
+    </picture>
+        </div>
+        <div class="o-content-box c-recipe__details">
+            <div class="u-flex u-flex-align-center u-mb--s u-mb--m@mobile u-hidden-print">
+
+<ul class="c-breadcrumbs u-flex u-flex-wrap u-bare-list u-hidden-print">
+    <li class="c-breadcrumbs__item u-flex-inline u-flex-align-center">
+        <a href="/">Arla</a>
+    </li>
+    <li class="c-breadcrumbs__item u-flex-inline u-flex-align-center">
+        <a href="/recept/">Recept &amp; mat</a>
+    </li>
+    <li class="c-breadcrumbs__item u-flex-inline u-flex-align-center">
+        <a href="https://www.arla.se/recept/reuben-sandwich/">Reuben sandwich</a>
+    </li>
+</ul>
+            </div>
+
+            <h1 class="u-text-break u-mb--xs u-mb--s@mobile">Reuben sandwich</h1>
+            <div class="u-flex u-flex-wrap u-flex-align-center u-mb--s u-mb--m@mobile">
+                    <div class="u-flex u-flex-align-center u-flex-wrap u-mr--a">
+                        <div class="u-flex u-flex-align-center u-mt--s u-mt--s@mobile">
+<svg class="c-icon-24 c-icon-stroke-black u-mr--xs">
+    <use xlink:href="/UI/img/sprite.388a6814.svg#icon-stopwatch"></use>
+</svg>
+                                <span class="c-label--m u-mt--xxs u-mr--s">40 min</span>
+                                    <span class="c-tag u-mr--xs">Huvudr&#xE4;tt</span>
+                                    <span class="c-tag u-mr--xs">F&#xF6;rr&#xE4;tt</span>
+                                    <span class="c-tag u-mr--xs">Mellanm&#xE5;l</span>
+                        </div>
+                    </div>
+                <div class="c-recipe__rating u-mt--s u-mt--s@mobile">
+                    <div data-vue="RecipeRating" data-model="{&quot;recipeId&quot;:235235459,&quot;isAuthenticated&quot;:false,&quot;averageRounded&quot;:4.5,&quot;count&quot;:3,&quot;addRatingButtonText&quot;:&quot;S&#xE4;tt betyg!&quot;,&quot;changeRatingButtonText&quot;:&quot;&#xC4;ndra ditt betyg&quot;,&quot;ratingModalTitle&quot;:&quot;Betyg&quot;,&quot;saveRatingButtonText&quot;:&quot;R&#xF6;sta&quot;,&quot;reCaptchaSiteKey&quot;:&quot;6LdzXPwUAAAAAB63NCiTcNW4P1ujDPJGCH3w_Wwn&quot;,&quot;ratingLabels&quot;:[&quot;Mycket d&#xE5;ligt!&quot;,&quot;D&#xE5;ligt&quot;,&quot;Bra&quot;,&quot;Mycket bra&quot;,&quot;Utm&#xE4;rkt!&quot;]}"></div>
+                </div>
+            </div>
+            <div class="c-recipe__description u-mt--s@mobile"><p>En reuben sandwich är en amerikansk macka, vanligtvis med pastrami - men vi använder svensk oxbringa, saltgurka och så kallad rysk dressing. </p></div>
+
+                 <div class="c-recipe__related-recipes-mobile u-mt--s u-hidden@tablet-desktop u-hidden-print">
+                     <strong class="u-text-uppercase u-flex-inline u-font-size-medium u-mb--xs">Andra goda f&#xF6;rslag</strong>
+                     <div class="c-carousel">
+                         <div class="c-carousel__container">
+                             <div class="c-carousel__container--wrapper four-column">
+                                 <div class="c-carousel__wrapper swiper-wrapper">
+                                         <div class="swiper-slide">
+
+<div class="c-card c-card--horizontal">
+    <a
+        class="u-flex c-card__image-wrap"
+        data-track-enhanced-ecommerce
+        data-tracking-event="mobileRelatedRecommendation"
+        data-tracking-title="Pannkakor"
+        data-js-initialize="vt.EnhancedEcommerce" data-track-enhanced-ecommerce data-tracking="{&quot;cookingTime&quot;:45,&quot;mealType&quot;:null,&quot;ingredientCount&quot;:5,&quot;arlaProductCount&quot;:2,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;3249856695&quot;,&quot;name&quot;:&quot;Pannkakor&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}"
+        href="https://www.arla.se/recept/pannkaka/">
+
+    <picture class="c-card__image">
+        <img src="https://cdn-rdb.arla.com/Files/arla-se/3249856695/32b74f1c-1632-4aee-aa3b-8fd449494835.jpg?w=76&amp;h=76&amp;mode=crop&amp;ak=f525e733&amp;hm=08465086" srcset="https://cdn-rdb.arla.com/Files/arla-se/3249856695/32b74f1c-1632-4aee-aa3b-8fd449494835.jpg?w=152&amp;h=152&amp;mode=crop&amp;ak=f525e733&amp;hm=3465f677 2x" alt="Pannkakor"
+                              loading="lazy"
+        >
+    </picture>
+    </a>
+
+
+    <div class="c-card__content">
+
+        <div class="c-card__cooking-time u-mb--xxs">
+            <span class="c-label--s u-text-dark-gray u-font-bold">45 min</span>
+        </div>
+
+        <div class="c-card__actions">
+                <div data-vue="RecipeSaveAction"
+                    data-is-button="true"
+                    data-class="u-mb--xs"
+                    data-icon-color="white" data-recipe-name="Pannkakor" data-model="{&quot;recipeUid&quot;:&quot;rdb:3249856695&quot;,&quot;isFavorite&quot;:false,&quot;isAuthenticated&quot;:false,&quot;addButtonText&quot;:&quot;Favoriter&quot;,&quot;addedButtonText&quot;:&quot;Favoriter&quot;}"></div>
+                <div data-vue="PurchaseBuyButton" data-size="small" data-model="{&quot;uid&quot;:&quot;3249856695&quot;,&quot;portionCount&quot;:8,&quot;trackingData&quot;:{&quot;cookingTime&quot;:45,&quot;mealType&quot;:null,&quot;ingredientCount&quot;:5,&quot;arlaProductCount&quot;:2,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;3249856695&quot;,&quot;name&quot;:&quot;Pannkakor&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}}"></div>
+        </div>
+
+        <a
+            href="https://www.arla.se/recept/pannkaka/"
+            data-tracking-event="mobileRelatedRecommendation"
+            data-tracking-title="Pannkakor"
+            class="c-card__title u-text-break u-mr--s u-text-nounderline u-font-bold u-mb--xxs u-font-size-h6">Pannkakor</a>
+
+<div class="c-rating-static c-rating--s c-rating--s@mobile u-flex u-flex-align-center">
+    <div class="c-rating-static__stars u-mr--xs">
+        <div class="c-rating-static__unselected">
+            <div class="c-rating-static__selected"
+                 style="width:80%"></div>
+        </div>
+    </div>
+    <span class="u-font-size-medium u-mr--xs">(8785)</span>
+</div>
+    </div>
+    <span class="c-card__arrow u-hidden-print">
+<svg class="c-icon-16 c-icon-stroke-black">
+    <use xlink:href="/UI/img/sprite.388a6814.svg#icon-arrow-right-1"></use>
+</svg>
+    </span>
+</div>
+                                         </div>
+                                         <div class="swiper-slide">
+
+<div class="c-card c-card--horizontal">
+    <a
+        class="u-flex c-card__image-wrap"
+        data-track-enhanced-ecommerce
+        data-tracking-event="mobileRelatedRecommendation"
+        data-tracking-title="Lasagne"
+        data-js-initialize="vt.EnhancedEcommerce" data-track-enhanced-ecommerce data-tracking="{&quot;cookingTime&quot;:60,&quot;mealType&quot;:&quot;Huvudrätt&quot;,&quot;ingredientCount&quot;:14,&quot;arlaProductCount&quot;:3,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;1929641482&quot;,&quot;name&quot;:&quot;Lasagne&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}"
+        href="https://www.arla.se/recept/lasagne/">
+
+    <picture class="c-card__image">
+        <img src="https://cdn-rdb.arla.com/Files/arla-se/1929641482/1cf8a65e-5a57-44f2-a1b3-dc1460a358e1.jpg?crop=(1386,0,-1719,0)&amp;w=76&amp;h=76&amp;mode=crop&amp;ak=f525e733&amp;hm=68a79790" srcset="https://cdn-rdb.arla.com/Files/arla-se/1929641482/1cf8a65e-5a57-44f2-a1b3-dc1460a358e1.jpg?crop=(1386,0,-1719,0)&amp;w=152&amp;h=152&amp;mode=crop&amp;ak=f525e733&amp;hm=ac01ce74 2x" alt="Lasagne"
+                              loading="lazy"
+        >
+    </picture>
+    </a>
+
+
+    <div class="c-card__content">
+
+        <div class="c-card__cooking-time u-mb--xxs">
+            <span class="c-label--s u-text-dark-gray u-font-bold">1 tim </span>
+        </div>
+
+        <div class="c-card__actions">
+                <div data-vue="RecipeSaveAction"
+                    data-is-button="true"
+                    data-class="u-mb--xs"
+                    data-icon-color="white" data-recipe-name="Lasagne" data-model="{&quot;recipeUid&quot;:&quot;rdb:1929641482&quot;,&quot;isFavorite&quot;:false,&quot;isAuthenticated&quot;:false,&quot;addButtonText&quot;:&quot;Favoriter&quot;,&quot;addedButtonText&quot;:&quot;Favoriter&quot;}"></div>
+                <div data-vue="PurchaseBuyButton" data-size="small" data-model="{&quot;uid&quot;:&quot;1929641482&quot;,&quot;portionCount&quot;:4,&quot;trackingData&quot;:{&quot;cookingTime&quot;:60,&quot;mealType&quot;:&quot;Huvudr&#xE4;tt&quot;,&quot;ingredientCount&quot;:14,&quot;arlaProductCount&quot;:3,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;1929641482&quot;,&quot;name&quot;:&quot;Lasagne&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}}"></div>
+        </div>
+
+        <a
+            href="https://www.arla.se/recept/lasagne/"
+            data-tracking-event="mobileRelatedRecommendation"
+            data-tracking-title="Lasagne"
+            class="c-card__title u-text-break u-mr--s u-text-nounderline u-font-bold u-mb--xxs u-font-size-h6">Lasagne</a>
+
+<div class="c-rating-static c-rating--s c-rating--s@mobile u-flex u-flex-align-center">
+    <div class="c-rating-static__stars u-mr--xs">
+        <div class="c-rating-static__unselected">
+            <div class="c-rating-static__selected"
+                 style="width:70%"></div>
+        </div>
+    </div>
+    <span class="u-font-size-medium u-mr--xs">(2565)</span>
+</div>
+    </div>
+    <span class="c-card__arrow u-hidden-print">
+<svg class="c-icon-16 c-icon-stroke-black">
+    <use xlink:href="/UI/img/sprite.388a6814.svg#icon-arrow-right-1"></use>
+</svg>
+    </span>
+</div>
+                                         </div>
+                                         <div class="swiper-slide">
+
+<div class="c-card c-card--horizontal">
+    <a
+        class="u-flex c-card__image-wrap"
+        data-track-enhanced-ecommerce
+        data-tracking-event="mobileRelatedRecommendation"
+        data-tracking-title="V&#xE4;sterbottenpaj"
+        data-js-initialize="vt.EnhancedEcommerce" data-track-enhanced-ecommerce data-tracking="{&quot;cookingTime&quot;:60,&quot;mealType&quot;:&quot;Huvudrätt&quot;,&quot;ingredientCount&quot;:9,&quot;arlaProductCount&quot;:3,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;1653621897&quot;,&quot;name&quot;:&quot;Västerbottenpaj&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}"
+        href="https://www.arla.se/recept/vasterbottenpaj/">
+
+    <picture class="c-card__image">
+        <img src="https://cdn-rdb.arla.com/Files/arla-se/1653621897/905309ac-1c39-4682-9afd-fdd295d8a321.jpg?w=76&amp;h=76&amp;mode=crop&amp;ak=f525e733&amp;hm=08465086" srcset="https://cdn-rdb.arla.com/Files/arla-se/1653621897/905309ac-1c39-4682-9afd-fdd295d8a321.jpg?w=152&amp;h=152&amp;mode=crop&amp;ak=f525e733&amp;hm=3465f677 2x" alt="V&#xE4;sterbottenpaj"
+                              loading="lazy"
+        >
+    </picture>
+    </a>
+
+
+    <div class="c-card__content">
+
+        <div class="c-card__cooking-time u-mb--xxs">
+            <span class="c-label--s u-text-dark-gray u-font-bold">1 tim </span>
+        </div>
+
+        <div class="c-card__actions">
+                <div data-vue="RecipeSaveAction"
+                    data-is-button="true"
+                    data-class="u-mb--xs"
+                    data-icon-color="white" data-recipe-name="V&#xE4;sterbottenpaj" data-model="{&quot;recipeUid&quot;:&quot;rdb:1653621897&quot;,&quot;isFavorite&quot;:false,&quot;isAuthenticated&quot;:false,&quot;addButtonText&quot;:&quot;Favoriter&quot;,&quot;addedButtonText&quot;:&quot;Favoriter&quot;}"></div>
+                <div data-vue="PurchaseBuyButton" data-size="small" data-model="{&quot;uid&quot;:&quot;1653621897&quot;,&quot;portionCount&quot;:6,&quot;trackingData&quot;:{&quot;cookingTime&quot;:60,&quot;mealType&quot;:&quot;Huvudr&#xE4;tt&quot;,&quot;ingredientCount&quot;:9,&quot;arlaProductCount&quot;:3,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;1653621897&quot;,&quot;name&quot;:&quot;V&#xE4;sterbottenpaj&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}}"></div>
+        </div>
+
+        <a
+            href="https://www.arla.se/recept/vasterbottenpaj/"
+            data-tracking-event="mobileRelatedRecommendation"
+            data-tracking-title="V&#xE4;sterbottenpaj"
+            class="c-card__title u-text-break u-mr--s u-text-nounderline u-font-bold u-mb--xxs u-font-size-h6">V&#xE4;sterbottenpaj</a>
+
+<div class="c-rating-static c-rating--s c-rating--s@mobile u-flex u-flex-align-center">
+    <div class="c-rating-static__stars u-mr--xs">
+        <div class="c-rating-static__unselected">
+            <div class="c-rating-static__selected"
+                 style="width:60%"></div>
+        </div>
+    </div>
+    <span class="u-font-size-medium u-mr--xs">(2025)</span>
+</div>
+    </div>
+    <span class="c-card__arrow u-hidden-print">
+<svg class="c-icon-16 c-icon-stroke-black">
+    <use xlink:href="/UI/img/sprite.388a6814.svg#icon-arrow-right-1"></use>
+</svg>
+    </span>
+</div>
+                                         </div>
+                                         <div class="swiper-slide">
+
+<div class="c-card c-card--horizontal">
+    <a
+        class="u-flex c-card__image-wrap"
+        data-track-enhanced-ecommerce
+        data-tracking-event="mobileRelatedRecommendation"
+        data-tracking-title="Stuvade makaroner"
+        data-js-initialize="vt.EnhancedEcommerce" data-track-enhanced-ecommerce data-tracking="{&quot;cookingTime&quot;:15,&quot;mealType&quot;:null,&quot;ingredientCount&quot;:7,&quot;arlaProductCount&quot;:3,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;3153926565&quot;,&quot;name&quot;:&quot;Stuvade makaroner&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}"
+        href="https://www.arla.se/recept/stuvade-makaroner/">
+
+    <picture class="c-card__image">
+        <img src="https://cdn-rdb.arla.com/Files/arla-se/3153926565/144a99e8-0f5b-4c7a-8d05-739a09349150.jpg?w=76&amp;h=76&amp;mode=crop&amp;ak=f525e733&amp;hm=08465086" srcset="https://cdn-rdb.arla.com/Files/arla-se/3153926565/144a99e8-0f5b-4c7a-8d05-739a09349150.jpg?w=152&amp;h=152&amp;mode=crop&amp;ak=f525e733&amp;hm=3465f677 2x" alt="Stuvade makaroner"
+                              loading="lazy"
+        >
+    </picture>
+    </a>
+
+
+    <div class="c-card__content">
+
+        <div class="c-card__cooking-time u-mb--xxs">
+            <span class="c-label--s u-text-dark-gray u-font-bold">15 min</span>
+        </div>
+
+        <div class="c-card__actions">
+                <div data-vue="RecipeSaveAction"
+                    data-is-button="true"
+                    data-class="u-mb--xs"
+                    data-icon-color="white" data-recipe-name="Stuvade makaroner" data-model="{&quot;recipeUid&quot;:&quot;rdb:3153926565&quot;,&quot;isFavorite&quot;:false,&quot;isAuthenticated&quot;:false,&quot;addButtonText&quot;:&quot;Favoriter&quot;,&quot;addedButtonText&quot;:&quot;Favoriter&quot;}"></div>
+                <div data-vue="PurchaseBuyButton" data-size="small" data-model="{&quot;uid&quot;:&quot;3153926565&quot;,&quot;portionCount&quot;:4,&quot;trackingData&quot;:{&quot;cookingTime&quot;:15,&quot;mealType&quot;:null,&quot;ingredientCount&quot;:7,&quot;arlaProductCount&quot;:3,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;3153926565&quot;,&quot;name&quot;:&quot;Stuvade makaroner&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}}"></div>
+        </div>
+
+        <a
+            href="https://www.arla.se/recept/stuvade-makaroner/"
+            data-tracking-event="mobileRelatedRecommendation"
+            data-tracking-title="Stuvade makaroner"
+            class="c-card__title u-text-break u-mr--s u-text-nounderline u-font-bold u-mb--xxs u-font-size-h6">Stuvade makaroner</a>
+
+<div class="c-rating-static c-rating--s c-rating--s@mobile u-flex u-flex-align-center">
+    <div class="c-rating-static__stars u-mr--xs">
+        <div class="c-rating-static__unselected">
+            <div class="c-rating-static__selected"
+                 style="width:80%"></div>
+        </div>
+    </div>
+    <span class="u-font-size-medium u-mr--xs">(1781)</span>
+</div>
+    </div>
+    <span class="c-card__arrow u-hidden-print">
+<svg class="c-icon-16 c-icon-stroke-black">
+    <use xlink:href="/UI/img/sprite.388a6814.svg#icon-arrow-right-1"></use>
+</svg>
+    </span>
+</div>
+                                         </div>
+                                         <div class="swiper-slide">
+
+<div class="c-card c-card--horizontal">
+    <a
+        class="u-flex c-card__image-wrap"
+        data-track-enhanced-ecommerce
+        data-tracking-event="mobileRelatedRecommendation"
+        data-tracking-title="Tacopaj"
+        data-js-initialize="vt.EnhancedEcommerce" data-track-enhanced-ecommerce data-tracking="{&quot;cookingTime&quot;:65,&quot;mealType&quot;:&quot;Huvudrätt&quot;,&quot;ingredientCount&quot;:16,&quot;arlaProductCount&quot;:6,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;4287675424&quot;,&quot;name&quot;:&quot;Tacopaj&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}"
+        href="https://www.arla.se/recept/tacopaj/">
+
+    <picture class="c-card__image">
+        <img src="https://cdn-rdb.arla.com/Files/arla-se/4287675424/64f6a3c3-a309-45ee-a1d1-3a15a980e181.jpg?w=76&amp;h=76&amp;mode=crop&amp;ak=f525e733&amp;hm=08465086" srcset="https://cdn-rdb.arla.com/Files/arla-se/4287675424/64f6a3c3-a309-45ee-a1d1-3a15a980e181.jpg?w=152&amp;h=152&amp;mode=crop&amp;ak=f525e733&amp;hm=3465f677 2x" alt="Tacopaj"
+                              loading="lazy"
+        >
+    </picture>
+    </a>
+
+
+    <div class="c-card__content">
+
+        <div class="c-card__cooking-time u-mb--xxs">
+            <span class="c-label--s u-text-dark-gray u-font-bold">60&#x2B; min</span>
+        </div>
+
+        <div class="c-card__actions">
+                <div data-vue="RecipeSaveAction"
+                    data-is-button="true"
+                    data-class="u-mb--xs"
+                    data-icon-color="white" data-recipe-name="Tacopaj" data-model="{&quot;recipeUid&quot;:&quot;rdb:4287675424&quot;,&quot;isFavorite&quot;:false,&quot;isAuthenticated&quot;:false,&quot;addButtonText&quot;:&quot;Favoriter&quot;,&quot;addedButtonText&quot;:&quot;Favoriter&quot;}"></div>
+                <div data-vue="PurchaseBuyButton" data-size="small" data-model="{&quot;uid&quot;:&quot;4287675424&quot;,&quot;portionCount&quot;:6,&quot;trackingData&quot;:{&quot;cookingTime&quot;:65,&quot;mealType&quot;:&quot;Huvudr&#xE4;tt&quot;,&quot;ingredientCount&quot;:16,&quot;arlaProductCount&quot;:6,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;4287675424&quot;,&quot;name&quot;:&quot;Tacopaj&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}}"></div>
+        </div>
+
+        <a
+            href="https://www.arla.se/recept/tacopaj/"
+            data-tracking-event="mobileRelatedRecommendation"
+            data-tracking-title="Tacopaj"
+            class="c-card__title u-text-break u-mr--s u-text-nounderline u-font-bold u-mb--xxs u-font-size-h6">Tacopaj</a>
+
+<div class="c-rating-static c-rating--s c-rating--s@mobile u-flex u-flex-align-center">
+    <div class="c-rating-static__stars u-mr--xs">
+        <div class="c-rating-static__unselected">
+            <div class="c-rating-static__selected"
+                 style="width:80%"></div>
+        </div>
+    </div>
+    <span class="u-font-size-medium u-mr--xs">(3833)</span>
+</div>
+    </div>
+    <span class="c-card__arrow u-hidden-print">
+<svg class="c-icon-16 c-icon-stroke-black">
+    <use xlink:href="/UI/img/sprite.388a6814.svg#icon-arrow-right-1"></use>
+</svg>
+    </span>
+</div>
+                                         </div>
+                                 </div>
+                             </div>
+                             <div class="c-carousel-pagination u-flex u-flex-justify-center u-flex-align-center u-mt--xs"></div>
+                         </div>
+                     </div>
+                 </div>
+            <div class="u-flex u-flex-direction-column@mobile">
+                    <div class="u-flex u-flex-align-center u-mt--s u-mb--s">
+    <picture class="c-approval-badge u-mr--xs">
+        <img src="https://cdn-rdb.arla.com/Files/arla-se/313572606/13a1977c-f861-4f88-850f-dbb2f063e666.png?mode=crop&amp;w=64&amp;h=64&amp;ak=f525e733&amp;hm=3279754f" srcset="https://cdn-rdb.arla.com/Files/arla-se/313572606/13a1977c-f861-4f88-850f-dbb2f063e666.png?mode=crop&amp;w=128&amp;h=128&amp;ak=f525e733&amp;hm=d8b195ae 2x" alt="Provlagat av Arla Mat"
+                     >
+    </picture>
+                            <span class="u-font-bold u-font-size-medium">Provlagat av Arla Mat</span>
+                    </div>
+            </div>
+
+            <div class="c-buy-button-wrap--recipe-page u-hidden-print ">
+                <div data-vue="RecipeActionsWrapper" data-recipe-name="Reuben sandwich" data-vendors-title="" data-model="{&quot;save&quot;:{&quot;recipeUid&quot;:&quot;rdb:235235459&quot;,&quot;isFavorite&quot;:false,&quot;isAuthenticated&quot;:false,&quot;addButtonText&quot;:&quot;Favoriter&quot;,&quot;addedButtonText&quot;:&quot;Favoriter&quot;},&quot;share&quot;:{&quot;name&quot;:&quot;Reuben sandwich&quot;,&quot;label&quot;:&quot;Dela&quot;,&quot;copyLinkText&quot;:&quot;Kopiera l&#xE4;nk&quot;,&quot;optionalUrl&quot;:null},&quot;print&quot;:{&quot;printItemLabel&quot;:&quot;Skriv ut&quot;},&quot;buyButton&quot;:{&quot;button&quot;:{&quot;uid&quot;:&quot;235235459&quot;,&quot;portionCount&quot;:4,&quot;trackingData&quot;:{&quot;cookingTime&quot;:40,&quot;mealType&quot;:&quot;Huvudr&#xE4;tt&quot;,&quot;ingredientCount&quot;:13,&quot;arlaProductCount&quot;:2,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;235235459&quot;,&quot;name&quot;:&quot;Reuben sandwich&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}},&quot;text&quot;:&quot;L&#xE4;gg i ink&#xF6;pslista&quot;,&quot;addedText&quot;:&quot;L&#xE4;gg i ink&#xF6;pslista&quot;}}"></div>
+            </div>
+
+        </div>
+    </div>
+    <div class="c-recipe__content">
+        <div class="o-content-box c-recipe__instructions">
+            <div class="c-recipe__instructions-inner u-flex">
+                <div class="c-recipe__how-to">
+                    <div class="c-recipe__instructions-steps">
+                        <div data-vue="RecipeCookingInstructions" data-model="{&quot;title&quot;:&quot;G&#xF6;r s&#xE5; h&#xE4;r&quot;,&quot;sections&quot;:[{&quot;title&quot;:&quot;Dressing:&quot;,&quot;steps&quot;:[{&quot;text&quot;:&quot;B&#xF6;rja med dressingen. Finhacka paprika och l&#xF6;k. Blanda med &#xF6;vriga ingredienser och st&#xE4;ll &#xE5;t sidan.&quot;}]},{&quot;title&quot;:null,&quot;steps&quot;:[{&quot;text&quot;:&quot;Sk&#xE4;r k&#xF6;ttet i tunna skivor. L&#xE5;t surk&#xE5;len rinna av ordentligt och blanda med osten.&quot;},{&quot;text&quot;:&quot; Pensla br&#xF6;den med sm&#xF6;r p&#xE5; b&#xE5;da sidor. L&#xE4;gg surk&#xE5;l och ost p&#xE5; h&#xE4;lften av br&#xF6;den. L&#xE4;gg p&#xE5; k&#xF6;ttet. Klicka dressingen &#xF6;ver k&#xF6;ttet och l&#xE4;gg p&#xE5; resterande br&#xF6;d.&quot;},{&quot;text&quot;:&quot;Grilla p&#xE5; b&#xE5;da sidor i en het grillpanna eller sm&#xF6;rg&#xE5;sgrill.&quot;},{&quot;text&quot;:&quot;Dela grillspett p&#xE5; mitten och tr&#xE4; genom mackorna. Sk&#xE4;r saltgurkorna p&#xE5; l&#xE4;ngden och f&#xE4;st p&#xE5; grillspetten.&quot;}]}],&quot;endText&quot;:&quot;Klart!&quot;}"></div>
+                        <strong class="c-recipe__instructions-label u-flex u-font-size-h3 u-m--0">
+<svg class="c-icon-32 c-icon-stroke-black u-mr--s u-hidden-print">
+    <use xlink:href="/UI/img/sprite.388a6814.svg#icon-pasta-bowl-warm"></use>
+</svg>
+                            Klart!
+                        </strong>
+                    </div>
+                        <div class="u-mt--l u-hidden-print">
+                            <div data-vue="RecipeEditorialCard" data-model="{&quot;type&quot;:&quot;page&quot;,&quot;imageResizer&quot;:{&quot;name&quot;:&quot;Cms&quot;},&quot;kicker&quot;:&quot;Nyhetsbrev&quot;,&quot;heading&quot;:&quot;Prenumerera p&#xE5; v&#xE5;rt nyhetsbrev! Recept, inspiration och sp&#xE4;nnande nyheter.&quot;,&quot;image&quot;:{&quot;url&quot;:&quot;https://adn-editor.arla.com/api/assets/arla-se/08371bda-714d-4cb6-a1fb-898babdca68f/&quot;,&quot;width&quot;:0,&quot;height&quot;:0,&quot;focusPointX&quot;:null,&quot;focusPointY&quot;:null},&quot;url&quot;:&quot;https://www.arla.se/nyhetsbrev/&quot;,&quot;openInNewWindow&quot;:false,&quot;trackingData&quot;:{&quot;type&quot;:&quot;DisplayItem&quot;,&quot;id&quot;:&quot;64cf78f8-f3f9-4595-aadf-61898e6dd424&quot;,&quot;name&quot;:&quot;Nyhetsbrev&quot;,&quot;category&quot;:&quot;Editorial&quot;,&quot;position&quot;:&quot;AGP_Recipe_Editorial_HowTo&quot;,&quot;variant&quot;:null,&quot;creative&quot;:&quot;08371bda-714d-4cb6-a1fb-898babdca68f&quot;}}"></div>
+                        </div>
+<div class="c-recipe__nutrition-values u-mt--l u-hidden-print">
+    <div class="c-recipe__nutrition-values-inner">
+        <h3>N&#xE4;ringsv&#xE4;rden</h3>
+        <h5>Energi:</h5>
+        <p class="u-mb--m">738 kcal</p>
+        <h5 class="u-mt--m"></h5>
+        <table class="u-mt--s">
+            
+            
+            	    <tr>
+	        <td>Protein:</td>
+	        <td class="u-text-align--right">28 g</td>
+	    </tr>
+
+            	    <tr>
+	        <td>Kolhydrater:</td>
+	        <td class="u-text-align--right">49 g</td>
+	    </tr>
+
+            	    <tr>
+	        <td>Fett:</td>
+	        <td class="u-text-align--right">48 g</td>
+	    </tr>
+
+            
+        </table>
+    </div>
+</div>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="o-content-box c-recipe__ingredients"
+             data-scroll-to="Ingredienser"
+             data-anchor="anchor"
+             data-tracking-event-name="subnavIngredients">
+            <div class="c-recipe__ingredients-inner">
+                <h3 class="u-mb--m">Ingredienser</h3>
+                <div data-vue="RecipePortionSelector" data-model="{&quot;isScalable&quot;:true,&quot;notScalablePortionText&quot;:null,&quot;portionCount&quot;:4,&quot;options&quot;:[{&quot;text&quot;:&quot;1 st&quot;,&quot;value&quot;:1},{&quot;text&quot;:&quot;2 st&quot;,&quot;value&quot;:2},{&quot;text&quot;:&quot;4 st&quot;,&quot;value&quot;:4},{&quot;text&quot;:&quot;6 st&quot;,&quot;value&quot;:6},{&quot;text&quot;:&quot;8 st&quot;,&quot;value&quot;:8},{&quot;text&quot;:&quot;10 st&quot;,&quot;value&quot;:10},{&quot;text&quot;:&quot;12 st&quot;,&quot;value&quot;:12},{&quot;text&quot;:&quot;14 st&quot;,&quot;value&quot;:14}],&quot;portionInfoText&quot;:null,&quot;warningText&quot;:&quot;N&#xE4;r du &#xE4;ndrar antal portioner kan tillagningstid och proportioner beh&#xF6;va justeras.&quot;}"></div>
+                <div data-vue="RecipeIngredientList" data-model="{&quot;recipeId&quot;:235235459,&quot;ingredientGroups&quot;:[{&quot;title&quot;:null,&quot;ingredients&quot;:[{&quot;formattedName&quot;:&quot;Kokt rimmad oxbringa, eller corned beef&quot;,&quot;formattedAmount&quot;:&quot;200 g&quot;,&quot;isArlaProduct&quot;:false},{&quot;formattedName&quot;:&quot;Surk&#xE5;l&quot;,&quot;formattedAmount&quot;:&quot;1 dl&quot;,&quot;isArlaProduct&quot;:false},{&quot;formattedName&quot;:&quot;Riven Arla Pr&#xE4;st&#xAE; ost&quot;,&quot;formattedAmount&quot;:&quot;1 dl&quot;,&quot;isArlaProduct&quot;:true,&quot;pageUrl&quot;:&quot;/produkter/arla-ko/prast-ost-ca720g-827341/&quot;,&quot;thumbnailUrl&quot;:&quot;https://images.opv.se/v120/thumbnails/px500/7tznxp4tzjm6lkhuptgllhbzae000000.Png?width=48&amp;height=48&amp;rmode=max&amp;preset=recipe-ingredient-thumbnail&quot;,&quot;thumbnail2xUrl&quot;:&quot;https://images.opv.se/v120/thumbnails/px500/7tznxp4tzjm6lkhuptgllhbzae000000.Png?width=96&amp;height=96&amp;rmode=max&amp;preset=recipe-ingredient-thumbnail-2x&quot;},{&quot;formattedName&quot;:&quot;Surdegsbr&#xF6;d&quot;,&quot;formattedAmount&quot;:&quot;8 skivor&quot;,&quot;isArlaProduct&quot;:false},{&quot;formattedName&quot;:&quot;Arla&#xAE; Svenskt Sm&#xF6;r, sm&#xE4;lt&quot;,&quot;formattedAmount&quot;:&quot;50 g&quot;,&quot;isArlaProduct&quot;:true,&quot;pageUrl&quot;:&quot;/produkter/svenskt-smor/normalsaltat-smor-82-500g-516/&quot;,&quot;thumbnailUrl&quot;:&quot;https://images.opv.se/v120/thumbnails/px500/pipfpj6koijgub2i3g5n3fadbe000000.Png?width=48&amp;height=48&amp;rmode=max&amp;preset=recipe-ingredient-thumbnail&quot;,&quot;thumbnail2xUrl&quot;:&quot;https://images.opv.se/v120/thumbnails/px500/pipfpj6koijgub2i3g5n3fadbe000000.Png?width=96&amp;height=96&amp;rmode=max&amp;preset=recipe-ingredient-thumbnail-2x&quot;},{&quot;formattedName&quot;:&quot;Saltgurkor&quot;,&quot;formattedAmount&quot;:&quot;2&quot;,&quot;isArlaProduct&quot;:false}]},{&quot;title&quot;:&quot;Dressing:&quot;,&quot;ingredients&quot;:[{&quot;formattedName&quot;:&quot;Gul paprika&quot;,&quot;formattedAmount&quot;:&quot;&#xBD;&quot;,&quot;isArlaProduct&quot;:false},{&quot;formattedName&quot;:&quot;Schalottenl&#xF6;k&quot;,&quot;formattedAmount&quot;:&quot;1&quot;,&quot;isArlaProduct&quot;:false},{&quot;formattedName&quot;:&quot;Majonn&#xE4;s&quot;,&quot;formattedAmount&quot;:&quot;1 dl&quot;,&quot;isArlaProduct&quot;:false},{&quot;formattedName&quot;:&quot;Chilis&#xE5;s&quot;,&quot;formattedAmount&quot;:&quot;1 msk&quot;,&quot;isArlaProduct&quot;:false},{&quot;formattedName&quot;:&quot;Paprikapulver&quot;,&quot;formattedAmount&quot;:&quot;1 tsk&quot;,&quot;isArlaProduct&quot;:false},{&quot;formattedName&quot;:&quot;Dijonsenap&quot;,&quot;formattedAmount&quot;:&quot;1 tsk&quot;,&quot;isArlaProduct&quot;:false},{&quot;formattedName&quot;:&quot;Tabasco&quot;,&quot;formattedAmount&quot;:&quot;&#xBD; krm&quot;,&quot;isArlaProduct&quot;:false}]}]}"></div>
+                    <div class="u-mt--l">
+                        <div data-vue="RecipeActionsWrapper" data-recipe-name="Reuben sandwich" data-only-logos="true" data-vendors-title=""  data-model="{&quot;save&quot;:{&quot;recipeUid&quot;:&quot;rdb:235235459&quot;,&quot;isFavorite&quot;:false,&quot;isAuthenticated&quot;:false,&quot;addButtonText&quot;:&quot;Favoriter&quot;,&quot;addedButtonText&quot;:&quot;Favoriter&quot;},&quot;share&quot;:{&quot;name&quot;:&quot;Reuben sandwich&quot;,&quot;label&quot;:&quot;Dela&quot;,&quot;copyLinkText&quot;:&quot;Kopiera l&#xE4;nk&quot;,&quot;optionalUrl&quot;:null},&quot;print&quot;:{&quot;printItemLabel&quot;:&quot;Skriv ut&quot;},&quot;buyButton&quot;:{&quot;button&quot;:{&quot;uid&quot;:&quot;235235459&quot;,&quot;portionCount&quot;:4,&quot;trackingData&quot;:{&quot;cookingTime&quot;:40,&quot;mealType&quot;:&quot;Huvudr&#xE4;tt&quot;,&quot;ingredientCount&quot;:13,&quot;arlaProductCount&quot;:2,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;235235459&quot;,&quot;name&quot;:&quot;Reuben sandwich&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}},&quot;text&quot;:&quot;L&#xE4;gg i ink&#xF6;pslista&quot;,&quot;addedText&quot;:&quot;L&#xE4;gg i ink&#xF6;pslista&quot;}}"></div>
+                    </div>
+            </div>
+        </div>
+    </div>
+<div class="c-recipe__related-recipes o-content-box u-hidden-print" data-placement="related_recipes" data-heading="Andra goda f&#xF6;rslag">
+    <h5 class="u-font-size-h3">Andra goda f&#xF6;rslag</h5>
+    <ul class="c-related-recipes u-flex u-flex-wrap u-bare-list">
+            <li>
+
+<div class="c-card c-card--vertical">
+    <a
+        class="u-flex c-card__image-wrap c-card__image-wrap--large"
+        data-track-enhanced-ecommerce
+        data-tracking-event="recipeActionRelatedRecipeClick"
+        data-tracking-title="Pannkakor"
+        data-js-initialize="vt.EnhancedEcommerce" data-track-enhanced-ecommerce data-tracking="{&quot;cookingTime&quot;:45,&quot;mealType&quot;:null,&quot;ingredientCount&quot;:5,&quot;arlaProductCount&quot;:2,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;3249856695&quot;,&quot;name&quot;:&quot;Pannkakor&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}"
+        href="https://www.arla.se/recept/pannkaka/">
+
+    <picture class="c-card__image c-card__image--large">
+            <source media="(min-width: 1200px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/3249856695/32b74f1c-1632-4aee-aa3b-8fd449494835.jpg?w=377&amp;h=213&amp;mode=crop&amp;ak=f525e733&amp;hm=0ad5c932">
+            <source media="(min-width: 992px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/3249856695/32b74f1c-1632-4aee-aa3b-8fd449494835.jpg?w=347&amp;h=196&amp;mode=crop&amp;ak=f525e733&amp;hm=d0272267, https://cdn-rdb.arla.com/Files/arla-se/3249856695/32b74f1c-1632-4aee-aa3b-8fd449494835.jpg?w=694&amp;h=392&amp;mode=crop&amp;ak=f525e733&amp;hm=7950fcf5 2x">
+            <source media="(min-width: 768px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/3249856695/32b74f1c-1632-4aee-aa3b-8fd449494835.jpg?w=278&amp;h=157&amp;mode=crop&amp;ak=f525e733&amp;hm=7b8e4bfb, https://cdn-rdb.arla.com/Files/arla-se/3249856695/32b74f1c-1632-4aee-aa3b-8fd449494835.jpg?w=556&amp;h=314&amp;mode=crop&amp;ak=f525e733&amp;hm=ec37fe0d 2x">
+        <img src="https://cdn-rdb.arla.com/Files/arla-se/3249856695/32b74f1c-1632-4aee-aa3b-8fd449494835.jpg?w=212&amp;h=120&amp;mode=crop&amp;ak=f525e733&amp;hm=caa68da6" srcset="https://cdn-rdb.arla.com/Files/arla-se/3249856695/32b74f1c-1632-4aee-aa3b-8fd449494835.jpg?w=424&amp;h=240&amp;mode=crop&amp;ak=f525e733&amp;hm=3954cc74 2x" alt="Pannkakor"
+                              loading="lazy"
+        >
+    </picture>
+    </a>
+
+
+    <div class="c-card__content">
+
+        <div class="c-card__cooking-time u-mb--xxs">
+            <span class="c-label--s u-text-dark-gray u-font-bold">45 min</span>
+        </div>
+
+        <div class="c-card__actions">
+                <div data-vue="RecipeSaveAction"
+                    data-is-button="true"
+                    data-class="u-mb--xs"
+                    data-icon-color="white" data-recipe-name="Pannkakor" data-model="{&quot;recipeUid&quot;:&quot;rdb:3249856695&quot;,&quot;isFavorite&quot;:false,&quot;isAuthenticated&quot;:false,&quot;addButtonText&quot;:&quot;Favoriter&quot;,&quot;addedButtonText&quot;:&quot;Favoriter&quot;}"></div>
+                <div data-vue="PurchaseBuyButton" data-size="small" data-model="{&quot;uid&quot;:&quot;3249856695&quot;,&quot;portionCount&quot;:8,&quot;trackingData&quot;:{&quot;cookingTime&quot;:45,&quot;mealType&quot;:null,&quot;ingredientCount&quot;:5,&quot;arlaProductCount&quot;:2,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;3249856695&quot;,&quot;name&quot;:&quot;Pannkakor&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}}"></div>
+        </div>
+
+        <a
+            href="https://www.arla.se/recept/pannkaka/"
+            data-tracking-event="recipeActionRelatedRecipeClick"
+            data-tracking-title="Pannkakor"
+            class="c-card__title u-text-break u-mr--s u-text-nounderline u-font-bold u-mb--xs u-font-size-h4">Pannkakor</a>
+
+<div class="c-rating-static c-rating--s@mobile u-flex u-flex-align-center">
+    <div class="c-rating-static__stars u-mr--xs">
+        <div class="c-rating-static__unselected">
+            <div class="c-rating-static__selected"
+                 style="width:80%"></div>
+        </div>
+    </div>
+    <span class="u-font-size-medium u-mr--xs">(8785)</span>
+</div>
+    </div>
+    <span class="c-card__arrow c-card__arrow--large u-hidden-print">
+<svg class="c-icon-24 c-icon-stroke-black">
+    <use xlink:href="/UI/img/sprite.388a6814.svg#icon-arrow-right-1"></use>
+</svg>
+    </span>
+</div>
+            </li>
+            <li>
+
+<div class="c-card c-card--vertical">
+    <a
+        class="u-flex c-card__image-wrap c-card__image-wrap--large"
+        data-track-enhanced-ecommerce
+        data-tracking-event="recipeActionRelatedRecipeClick"
+        data-tracking-title="Lasagne"
+        data-js-initialize="vt.EnhancedEcommerce" data-track-enhanced-ecommerce data-tracking="{&quot;cookingTime&quot;:60,&quot;mealType&quot;:&quot;Huvudrätt&quot;,&quot;ingredientCount&quot;:14,&quot;arlaProductCount&quot;:3,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;1929641482&quot;,&quot;name&quot;:&quot;Lasagne&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}"
+        href="https://www.arla.se/recept/lasagne/">
+
+    <picture class="c-card__image c-card__image--large">
+            <source media="(min-width: 1200px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/1929641482/1cf8a65e-5a57-44f2-a1b3-dc1460a358e1.jpg?crop=(0,196,0,-301)&amp;w=377&amp;h=213&amp;mode=crop&amp;ak=f525e733&amp;hm=bd10b9c7">
+            <source media="(min-width: 992px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/1929641482/1cf8a65e-5a57-44f2-a1b3-dc1460a358e1.jpg?crop=(0,197,0,-302)&amp;w=347&amp;h=196&amp;mode=crop&amp;ak=f525e733&amp;hm=3f6c2cbc, https://cdn-rdb.arla.com/Files/arla-se/1929641482/1cf8a65e-5a57-44f2-a1b3-dc1460a358e1.jpg?crop=(0,197,0,-302)&amp;w=694&amp;h=392&amp;mode=crop&amp;ak=f525e733&amp;hm=e203feed 2x">
+            <source media="(min-width: 768px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/1929641482/1cf8a65e-5a57-44f2-a1b3-dc1460a358e1.jpg?crop=(0,197,0,-302)&amp;w=278&amp;h=157&amp;mode=crop&amp;ak=f525e733&amp;hm=6f4818e1, https://cdn-rdb.arla.com/Files/arla-se/1929641482/1cf8a65e-5a57-44f2-a1b3-dc1460a358e1.jpg?crop=(0,197,0,-302)&amp;w=556&amp;h=314&amp;mode=crop&amp;ak=f525e733&amp;hm=b995b54a 2x">
+        <img src="https://cdn-rdb.arla.com/Files/arla-se/1929641482/1cf8a65e-5a57-44f2-a1b3-dc1460a358e1.jpg?crop=(0,192,0,-297)&amp;w=212&amp;h=120&amp;mode=crop&amp;ak=f525e733&amp;hm=28cf0a30" srcset="https://cdn-rdb.arla.com/Files/arla-se/1929641482/1cf8a65e-5a57-44f2-a1b3-dc1460a358e1.jpg?crop=(0,192,0,-297)&amp;w=424&amp;h=240&amp;mode=crop&amp;ak=f525e733&amp;hm=0993d6ff 2x" alt="Lasagne"
+                              loading="lazy"
+        >
+    </picture>
+    </a>
+
+
+    <div class="c-card__content">
+
+        <div class="c-card__cooking-time u-mb--xxs">
+            <span class="c-label--s u-text-dark-gray u-font-bold">1 tim </span>
+        </div>
+
+        <div class="c-card__actions">
+                <div data-vue="RecipeSaveAction"
+                    data-is-button="true"
+                    data-class="u-mb--xs"
+                    data-icon-color="white" data-recipe-name="Lasagne" data-model="{&quot;recipeUid&quot;:&quot;rdb:1929641482&quot;,&quot;isFavorite&quot;:false,&quot;isAuthenticated&quot;:false,&quot;addButtonText&quot;:&quot;Favoriter&quot;,&quot;addedButtonText&quot;:&quot;Favoriter&quot;}"></div>
+                <div data-vue="PurchaseBuyButton" data-size="small" data-model="{&quot;uid&quot;:&quot;1929641482&quot;,&quot;portionCount&quot;:4,&quot;trackingData&quot;:{&quot;cookingTime&quot;:60,&quot;mealType&quot;:&quot;Huvudr&#xE4;tt&quot;,&quot;ingredientCount&quot;:14,&quot;arlaProductCount&quot;:3,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;1929641482&quot;,&quot;name&quot;:&quot;Lasagne&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}}"></div>
+        </div>
+
+        <a
+            href="https://www.arla.se/recept/lasagne/"
+            data-tracking-event="recipeActionRelatedRecipeClick"
+            data-tracking-title="Lasagne"
+            class="c-card__title u-text-break u-mr--s u-text-nounderline u-font-bold u-mb--xs u-font-size-h4">Lasagne</a>
+
+<div class="c-rating-static c-rating--s@mobile u-flex u-flex-align-center">
+    <div class="c-rating-static__stars u-mr--xs">
+        <div class="c-rating-static__unselected">
+            <div class="c-rating-static__selected"
+                 style="width:70%"></div>
+        </div>
+    </div>
+    <span class="u-font-size-medium u-mr--xs">(2565)</span>
+</div>
+    </div>
+    <span class="c-card__arrow c-card__arrow--large u-hidden-print">
+<svg class="c-icon-24 c-icon-stroke-black">
+    <use xlink:href="/UI/img/sprite.388a6814.svg#icon-arrow-right-1"></use>
+</svg>
+    </span>
+</div>
+            </li>
+            <li>
+
+<div class="c-card c-card--vertical">
+    <a
+        class="u-flex c-card__image-wrap c-card__image-wrap--large"
+        data-track-enhanced-ecommerce
+        data-tracking-event="recipeActionRelatedRecipeClick"
+        data-tracking-title="V&#xE4;sterbottenpaj"
+        data-js-initialize="vt.EnhancedEcommerce" data-track-enhanced-ecommerce data-tracking="{&quot;cookingTime&quot;:60,&quot;mealType&quot;:&quot;Huvudrätt&quot;,&quot;ingredientCount&quot;:9,&quot;arlaProductCount&quot;:3,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;1653621897&quot;,&quot;name&quot;:&quot;Västerbottenpaj&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}"
+        href="https://www.arla.se/recept/vasterbottenpaj/">
+
+    <picture class="c-card__image c-card__image--large">
+            <source media="(min-width: 1200px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/1653621897/905309ac-1c39-4682-9afd-fdd295d8a321.jpg?w=377&amp;h=213&amp;mode=crop&amp;ak=f525e733&amp;hm=0ad5c932">
+            <source media="(min-width: 992px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/1653621897/905309ac-1c39-4682-9afd-fdd295d8a321.jpg?w=347&amp;h=196&amp;mode=crop&amp;ak=f525e733&amp;hm=d0272267, https://cdn-rdb.arla.com/Files/arla-se/1653621897/905309ac-1c39-4682-9afd-fdd295d8a321.jpg?w=694&amp;h=392&amp;mode=crop&amp;ak=f525e733&amp;hm=7950fcf5 2x">
+            <source media="(min-width: 768px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/1653621897/905309ac-1c39-4682-9afd-fdd295d8a321.jpg?w=278&amp;h=157&amp;mode=crop&amp;ak=f525e733&amp;hm=7b8e4bfb, https://cdn-rdb.arla.com/Files/arla-se/1653621897/905309ac-1c39-4682-9afd-fdd295d8a321.jpg?w=556&amp;h=314&amp;mode=crop&amp;ak=f525e733&amp;hm=ec37fe0d 2x">
+        <img src="https://cdn-rdb.arla.com/Files/arla-se/1653621897/905309ac-1c39-4682-9afd-fdd295d8a321.jpg?w=212&amp;h=120&amp;mode=crop&amp;ak=f525e733&amp;hm=caa68da6" srcset="https://cdn-rdb.arla.com/Files/arla-se/1653621897/905309ac-1c39-4682-9afd-fdd295d8a321.jpg?w=424&amp;h=240&amp;mode=crop&amp;ak=f525e733&amp;hm=3954cc74 2x" alt="V&#xE4;sterbottenpaj"
+                              loading="lazy"
+        >
+    </picture>
+    </a>
+
+
+    <div class="c-card__content">
+
+        <div class="c-card__cooking-time u-mb--xxs">
+            <span class="c-label--s u-text-dark-gray u-font-bold">1 tim </span>
+        </div>
+
+        <div class="c-card__actions">
+                <div data-vue="RecipeSaveAction"
+                    data-is-button="true"
+                    data-class="u-mb--xs"
+                    data-icon-color="white" data-recipe-name="V&#xE4;sterbottenpaj" data-model="{&quot;recipeUid&quot;:&quot;rdb:1653621897&quot;,&quot;isFavorite&quot;:false,&quot;isAuthenticated&quot;:false,&quot;addButtonText&quot;:&quot;Favoriter&quot;,&quot;addedButtonText&quot;:&quot;Favoriter&quot;}"></div>
+                <div data-vue="PurchaseBuyButton" data-size="small" data-model="{&quot;uid&quot;:&quot;1653621897&quot;,&quot;portionCount&quot;:6,&quot;trackingData&quot;:{&quot;cookingTime&quot;:60,&quot;mealType&quot;:&quot;Huvudr&#xE4;tt&quot;,&quot;ingredientCount&quot;:9,&quot;arlaProductCount&quot;:3,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;1653621897&quot;,&quot;name&quot;:&quot;V&#xE4;sterbottenpaj&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}}"></div>
+        </div>
+
+        <a
+            href="https://www.arla.se/recept/vasterbottenpaj/"
+            data-tracking-event="recipeActionRelatedRecipeClick"
+            data-tracking-title="V&#xE4;sterbottenpaj"
+            class="c-card__title u-text-break u-mr--s u-text-nounderline u-font-bold u-mb--xs u-font-size-h4">V&#xE4;sterbottenpaj</a>
+
+<div class="c-rating-static c-rating--s@mobile u-flex u-flex-align-center">
+    <div class="c-rating-static__stars u-mr--xs">
+        <div class="c-rating-static__unselected">
+            <div class="c-rating-static__selected"
+                 style="width:60%"></div>
+        </div>
+    </div>
+    <span class="u-font-size-medium u-mr--xs">(2025)</span>
+</div>
+    </div>
+    <span class="c-card__arrow c-card__arrow--large u-hidden-print">
+<svg class="c-icon-24 c-icon-stroke-black">
+    <use xlink:href="/UI/img/sprite.388a6814.svg#icon-arrow-right-1"></use>
+</svg>
+    </span>
+</div>
+            </li>
+            <li>
+
+<div class="c-card c-card--vertical">
+    <a
+        class="u-flex c-card__image-wrap c-card__image-wrap--large"
+        data-track-enhanced-ecommerce
+        data-tracking-event="recipeActionRelatedRecipeClick"
+        data-tracking-title="Stuvade makaroner"
+        data-js-initialize="vt.EnhancedEcommerce" data-track-enhanced-ecommerce data-tracking="{&quot;cookingTime&quot;:15,&quot;mealType&quot;:null,&quot;ingredientCount&quot;:7,&quot;arlaProductCount&quot;:3,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;3153926565&quot;,&quot;name&quot;:&quot;Stuvade makaroner&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}"
+        href="https://www.arla.se/recept/stuvade-makaroner/">
+
+    <picture class="c-card__image c-card__image--large">
+            <source media="(min-width: 1200px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/3153926565/144a99e8-0f5b-4c7a-8d05-739a09349150.jpg?w=377&amp;h=213&amp;mode=crop&amp;ak=f525e733&amp;hm=0ad5c932">
+            <source media="(min-width: 992px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/3153926565/144a99e8-0f5b-4c7a-8d05-739a09349150.jpg?w=347&amp;h=196&amp;mode=crop&amp;ak=f525e733&amp;hm=d0272267, https://cdn-rdb.arla.com/Files/arla-se/3153926565/144a99e8-0f5b-4c7a-8d05-739a09349150.jpg?w=694&amp;h=392&amp;mode=crop&amp;ak=f525e733&amp;hm=7950fcf5 2x">
+            <source media="(min-width: 768px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/3153926565/144a99e8-0f5b-4c7a-8d05-739a09349150.jpg?w=278&amp;h=157&amp;mode=crop&amp;ak=f525e733&amp;hm=7b8e4bfb, https://cdn-rdb.arla.com/Files/arla-se/3153926565/144a99e8-0f5b-4c7a-8d05-739a09349150.jpg?w=556&amp;h=314&amp;mode=crop&amp;ak=f525e733&amp;hm=ec37fe0d 2x">
+        <img src="https://cdn-rdb.arla.com/Files/arla-se/3153926565/144a99e8-0f5b-4c7a-8d05-739a09349150.jpg?w=212&amp;h=120&amp;mode=crop&amp;ak=f525e733&amp;hm=caa68da6" srcset="https://cdn-rdb.arla.com/Files/arla-se/3153926565/144a99e8-0f5b-4c7a-8d05-739a09349150.jpg?w=424&amp;h=240&amp;mode=crop&amp;ak=f525e733&amp;hm=3954cc74 2x" alt="Stuvade makaroner"
+                              loading="lazy"
+        >
+    </picture>
+    </a>
+
+
+    <div class="c-card__content">
+
+        <div class="c-card__cooking-time u-mb--xxs">
+            <span class="c-label--s u-text-dark-gray u-font-bold">15 min</span>
+        </div>
+
+        <div class="c-card__actions">
+                <div data-vue="RecipeSaveAction"
+                    data-is-button="true"
+                    data-class="u-mb--xs"
+                    data-icon-color="white" data-recipe-name="Stuvade makaroner" data-model="{&quot;recipeUid&quot;:&quot;rdb:3153926565&quot;,&quot;isFavorite&quot;:false,&quot;isAuthenticated&quot;:false,&quot;addButtonText&quot;:&quot;Favoriter&quot;,&quot;addedButtonText&quot;:&quot;Favoriter&quot;}"></div>
+                <div data-vue="PurchaseBuyButton" data-size="small" data-model="{&quot;uid&quot;:&quot;3153926565&quot;,&quot;portionCount&quot;:4,&quot;trackingData&quot;:{&quot;cookingTime&quot;:15,&quot;mealType&quot;:null,&quot;ingredientCount&quot;:7,&quot;arlaProductCount&quot;:3,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;3153926565&quot;,&quot;name&quot;:&quot;Stuvade makaroner&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}}"></div>
+        </div>
+
+        <a
+            href="https://www.arla.se/recept/stuvade-makaroner/"
+            data-tracking-event="recipeActionRelatedRecipeClick"
+            data-tracking-title="Stuvade makaroner"
+            class="c-card__title u-text-break u-mr--s u-text-nounderline u-font-bold u-mb--xs u-font-size-h4">Stuvade makaroner</a>
+
+<div class="c-rating-static c-rating--s@mobile u-flex u-flex-align-center">
+    <div class="c-rating-static__stars u-mr--xs">
+        <div class="c-rating-static__unselected">
+            <div class="c-rating-static__selected"
+                 style="width:80%"></div>
+        </div>
+    </div>
+    <span class="u-font-size-medium u-mr--xs">(1781)</span>
+</div>
+    </div>
+    <span class="c-card__arrow c-card__arrow--large u-hidden-print">
+<svg class="c-icon-24 c-icon-stroke-black">
+    <use xlink:href="/UI/img/sprite.388a6814.svg#icon-arrow-right-1"></use>
+</svg>
+    </span>
+</div>
+            </li>
+            <li>
+
+<div class="c-card c-card--vertical">
+    <a
+        class="u-flex c-card__image-wrap c-card__image-wrap--large"
+        data-track-enhanced-ecommerce
+        data-tracking-event="recipeActionRelatedRecipeClick"
+        data-tracking-title="Tacopaj"
+        data-js-initialize="vt.EnhancedEcommerce" data-track-enhanced-ecommerce data-tracking="{&quot;cookingTime&quot;:65,&quot;mealType&quot;:&quot;Huvudrätt&quot;,&quot;ingredientCount&quot;:16,&quot;arlaProductCount&quot;:6,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;4287675424&quot;,&quot;name&quot;:&quot;Tacopaj&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}"
+        href="https://www.arla.se/recept/tacopaj/">
+
+    <picture class="c-card__image c-card__image--large">
+            <source media="(min-width: 1200px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/4287675424/64f6a3c3-a309-45ee-a1d1-3a15a980e181.jpg?w=377&amp;h=213&amp;mode=crop&amp;ak=f525e733&amp;hm=0ad5c932">
+            <source media="(min-width: 992px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/4287675424/64f6a3c3-a309-45ee-a1d1-3a15a980e181.jpg?w=347&amp;h=196&amp;mode=crop&amp;ak=f525e733&amp;hm=d0272267, https://cdn-rdb.arla.com/Files/arla-se/4287675424/64f6a3c3-a309-45ee-a1d1-3a15a980e181.jpg?w=694&amp;h=392&amp;mode=crop&amp;ak=f525e733&amp;hm=7950fcf5 2x">
+            <source media="(min-width: 768px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/4287675424/64f6a3c3-a309-45ee-a1d1-3a15a980e181.jpg?w=278&amp;h=157&amp;mode=crop&amp;ak=f525e733&amp;hm=7b8e4bfb, https://cdn-rdb.arla.com/Files/arla-se/4287675424/64f6a3c3-a309-45ee-a1d1-3a15a980e181.jpg?w=556&amp;h=314&amp;mode=crop&amp;ak=f525e733&amp;hm=ec37fe0d 2x">
+        <img src="https://cdn-rdb.arla.com/Files/arla-se/4287675424/64f6a3c3-a309-45ee-a1d1-3a15a980e181.jpg?w=212&amp;h=120&amp;mode=crop&amp;ak=f525e733&amp;hm=caa68da6" srcset="https://cdn-rdb.arla.com/Files/arla-se/4287675424/64f6a3c3-a309-45ee-a1d1-3a15a980e181.jpg?w=424&amp;h=240&amp;mode=crop&amp;ak=f525e733&amp;hm=3954cc74 2x" alt="Tacopaj"
+                              loading="lazy"
+        >
+    </picture>
+    </a>
+
+
+    <div class="c-card__content">
+
+        <div class="c-card__cooking-time u-mb--xxs">
+            <span class="c-label--s u-text-dark-gray u-font-bold">60&#x2B; min</span>
+        </div>
+
+        <div class="c-card__actions">
+                <div data-vue="RecipeSaveAction"
+                    data-is-button="true"
+                    data-class="u-mb--xs"
+                    data-icon-color="white" data-recipe-name="Tacopaj" data-model="{&quot;recipeUid&quot;:&quot;rdb:4287675424&quot;,&quot;isFavorite&quot;:false,&quot;isAuthenticated&quot;:false,&quot;addButtonText&quot;:&quot;Favoriter&quot;,&quot;addedButtonText&quot;:&quot;Favoriter&quot;}"></div>
+                <div data-vue="PurchaseBuyButton" data-size="small" data-model="{&quot;uid&quot;:&quot;4287675424&quot;,&quot;portionCount&quot;:6,&quot;trackingData&quot;:{&quot;cookingTime&quot;:65,&quot;mealType&quot;:&quot;Huvudr&#xE4;tt&quot;,&quot;ingredientCount&quot;:16,&quot;arlaProductCount&quot;:6,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;4287675424&quot;,&quot;name&quot;:&quot;Tacopaj&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}}"></div>
+        </div>
+
+        <a
+            href="https://www.arla.se/recept/tacopaj/"
+            data-tracking-event="recipeActionRelatedRecipeClick"
+            data-tracking-title="Tacopaj"
+            class="c-card__title u-text-break u-mr--s u-text-nounderline u-font-bold u-mb--xs u-font-size-h4">Tacopaj</a>
+
+<div class="c-rating-static c-rating--s@mobile u-flex u-flex-align-center">
+    <div class="c-rating-static__stars u-mr--xs">
+        <div class="c-rating-static__unselected">
+            <div class="c-rating-static__selected"
+                 style="width:80%"></div>
+        </div>
+    </div>
+    <span class="u-font-size-medium u-mr--xs">(3833)</span>
+</div>
+    </div>
+    <span class="c-card__arrow c-card__arrow--large u-hidden-print">
+<svg class="c-icon-24 c-icon-stroke-black">
+    <use xlink:href="/UI/img/sprite.388a6814.svg#icon-arrow-right-1"></use>
+</svg>
+    </span>
+</div>
+            </li>
+            <li>
+
+<div class="c-card c-card--vertical">
+    <a
+        class="u-flex c-card__image-wrap c-card__image-wrap--large"
+        data-track-enhanced-ecommerce
+        data-tracking-event="recipeActionRelatedRecipeClick"
+        data-tracking-title="Falukorv i ugn"
+        data-js-initialize="vt.EnhancedEcommerce" data-track-enhanced-ecommerce data-tracking="{&quot;cookingTime&quot;:35,&quot;mealType&quot;:&quot;Huvudrätt&quot;,&quot;ingredientCount&quot;:10,&quot;arlaProductCount&quot;:3,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;2233954929&quot;,&quot;name&quot;:&quot;Falukorv i ugn&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}"
+        href="https://www.arla.se/recept/falukorv-i-ugn/">
+
+    <picture class="c-card__image c-card__image--large">
+            <source media="(min-width: 1200px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/2233954929/adcf0766-fd8e-4328-af56-71532495e3ad.jpg?w=377&amp;h=213&amp;mode=crop&amp;ak=f525e733&amp;hm=0ad5c932">
+            <source media="(min-width: 992px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/2233954929/adcf0766-fd8e-4328-af56-71532495e3ad.jpg?w=347&amp;h=196&amp;mode=crop&amp;ak=f525e733&amp;hm=d0272267, https://cdn-rdb.arla.com/Files/arla-se/2233954929/adcf0766-fd8e-4328-af56-71532495e3ad.jpg?w=694&amp;h=392&amp;mode=crop&amp;ak=f525e733&amp;hm=7950fcf5 2x">
+            <source media="(min-width: 768px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/2233954929/adcf0766-fd8e-4328-af56-71532495e3ad.jpg?w=278&amp;h=157&amp;mode=crop&amp;ak=f525e733&amp;hm=7b8e4bfb, https://cdn-rdb.arla.com/Files/arla-se/2233954929/adcf0766-fd8e-4328-af56-71532495e3ad.jpg?w=556&amp;h=314&amp;mode=crop&amp;ak=f525e733&amp;hm=ec37fe0d 2x">
+        <img src="https://cdn-rdb.arla.com/Files/arla-se/2233954929/adcf0766-fd8e-4328-af56-71532495e3ad.jpg?w=212&amp;h=120&amp;mode=crop&amp;ak=f525e733&amp;hm=caa68da6" srcset="https://cdn-rdb.arla.com/Files/arla-se/2233954929/adcf0766-fd8e-4328-af56-71532495e3ad.jpg?w=424&amp;h=240&amp;mode=crop&amp;ak=f525e733&amp;hm=3954cc74 2x" alt="Falukorv i ugn"
+                              loading="lazy"
+        >
+    </picture>
+    </a>
+
+
+    <div class="c-card__content">
+
+        <div class="c-card__cooking-time u-mb--xxs">
+            <span class="c-label--s u-text-dark-gray u-font-bold">35 min</span>
+        </div>
+
+        <div class="c-card__actions">
+                <div data-vue="RecipeSaveAction"
+                    data-is-button="true"
+                    data-class="u-mb--xs"
+                    data-icon-color="white" data-recipe-name="Falukorv i ugn" data-model="{&quot;recipeUid&quot;:&quot;rdb:2233954929&quot;,&quot;isFavorite&quot;:false,&quot;isAuthenticated&quot;:false,&quot;addButtonText&quot;:&quot;Favoriter&quot;,&quot;addedButtonText&quot;:&quot;Favoriter&quot;}"></div>
+                <div data-vue="PurchaseBuyButton" data-size="small" data-model="{&quot;uid&quot;:&quot;2233954929&quot;,&quot;portionCount&quot;:4,&quot;trackingData&quot;:{&quot;cookingTime&quot;:35,&quot;mealType&quot;:&quot;Huvudr&#xE4;tt&quot;,&quot;ingredientCount&quot;:10,&quot;arlaProductCount&quot;:3,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;2233954929&quot;,&quot;name&quot;:&quot;Falukorv i ugn&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}}"></div>
+        </div>
+
+        <a
+            href="https://www.arla.se/recept/falukorv-i-ugn/"
+            data-tracking-event="recipeActionRelatedRecipeClick"
+            data-tracking-title="Falukorv i ugn"
+            class="c-card__title u-text-break u-mr--s u-text-nounderline u-font-bold u-mb--xs u-font-size-h4">Falukorv i ugn</a>
+
+<div class="c-rating-static c-rating--s@mobile u-flex u-flex-align-center">
+    <div class="c-rating-static__stars u-mr--xs">
+        <div class="c-rating-static__unselected">
+            <div class="c-rating-static__selected"
+                 style="width:70%"></div>
+        </div>
+    </div>
+    <span class="u-font-size-medium u-mr--xs">(115)</span>
+</div>
+    </div>
+    <span class="c-card__arrow c-card__arrow--large u-hidden-print">
+<svg class="c-icon-24 c-icon-stroke-black">
+    <use xlink:href="/UI/img/sprite.388a6814.svg#icon-arrow-right-1"></use>
+</svg>
+    </span>
+</div>
+            </li>
+            <li>
+
+<div class="c-card c-card--vertical">
+    <a
+        class="u-flex c-card__image-wrap c-card__image-wrap--large"
+        data-track-enhanced-ecommerce
+        data-tracking-event="recipeActionRelatedRecipeClick"
+        data-tracking-title="Pannkakssmet"
+        data-js-initialize="vt.EnhancedEcommerce" data-track-enhanced-ecommerce data-tracking="{&quot;cookingTime&quot;:15,&quot;mealType&quot;:&quot;Mellanmål&quot;,&quot;ingredientCount&quot;:5,&quot;arlaProductCount&quot;:2,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;609531043&quot;,&quot;name&quot;:&quot;Pannkakssmet&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}"
+        href="https://www.arla.se/recept/pannkakssmet/">
+
+    <picture class="c-card__image c-card__image--large">
+            <source media="(min-width: 1200px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/609531043/ecc8c017-b878-40ff-86ef-ea77261434ff.jpg?w=377&amp;h=213&amp;mode=crop&amp;ak=f525e733&amp;hm=0ad5c932">
+            <source media="(min-width: 992px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/609531043/ecc8c017-b878-40ff-86ef-ea77261434ff.jpg?w=347&amp;h=196&amp;mode=crop&amp;ak=f525e733&amp;hm=d0272267, https://cdn-rdb.arla.com/Files/arla-se/609531043/ecc8c017-b878-40ff-86ef-ea77261434ff.jpg?w=694&amp;h=392&amp;mode=crop&amp;ak=f525e733&amp;hm=7950fcf5 2x">
+            <source media="(min-width: 768px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/609531043/ecc8c017-b878-40ff-86ef-ea77261434ff.jpg?w=278&amp;h=157&amp;mode=crop&amp;ak=f525e733&amp;hm=7b8e4bfb, https://cdn-rdb.arla.com/Files/arla-se/609531043/ecc8c017-b878-40ff-86ef-ea77261434ff.jpg?w=556&amp;h=314&amp;mode=crop&amp;ak=f525e733&amp;hm=ec37fe0d 2x">
+        <img src="https://cdn-rdb.arla.com/Files/arla-se/609531043/ecc8c017-b878-40ff-86ef-ea77261434ff.jpg?w=212&amp;h=120&amp;mode=crop&amp;ak=f525e733&amp;hm=caa68da6" srcset="https://cdn-rdb.arla.com/Files/arla-se/609531043/ecc8c017-b878-40ff-86ef-ea77261434ff.jpg?w=424&amp;h=240&amp;mode=crop&amp;ak=f525e733&amp;hm=3954cc74 2x" alt="Pannkakssmet"
+                              loading="lazy"
+        >
+    </picture>
+    </a>
+
+
+    <div class="c-card__content">
+
+        <div class="c-card__cooking-time u-mb--xxs">
+            <span class="c-label--s u-text-dark-gray u-font-bold">15 min</span>
+        </div>
+
+        <div class="c-card__actions">
+                <div data-vue="RecipeSaveAction"
+                    data-is-button="true"
+                    data-class="u-mb--xs"
+                    data-icon-color="white" data-recipe-name="Pannkakssmet" data-model="{&quot;recipeUid&quot;:&quot;rdb:609531043&quot;,&quot;isFavorite&quot;:false,&quot;isAuthenticated&quot;:false,&quot;addButtonText&quot;:&quot;Favoriter&quot;,&quot;addedButtonText&quot;:&quot;Favoriter&quot;}"></div>
+                <div data-vue="PurchaseBuyButton" data-size="small" data-model="{&quot;uid&quot;:&quot;609531043&quot;,&quot;portionCount&quot;:8,&quot;trackingData&quot;:{&quot;cookingTime&quot;:15,&quot;mealType&quot;:&quot;Mellanm&#xE5;l&quot;,&quot;ingredientCount&quot;:5,&quot;arlaProductCount&quot;:2,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;609531043&quot;,&quot;name&quot;:&quot;Pannkakssmet&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}}"></div>
+        </div>
+
+        <a
+            href="https://www.arla.se/recept/pannkakssmet/"
+            data-tracking-event="recipeActionRelatedRecipeClick"
+            data-tracking-title="Pannkakssmet"
+            class="c-card__title u-text-break u-mr--s u-text-nounderline u-font-bold u-mb--xs u-font-size-h4">Pannkakssmet</a>
+
+<div class="c-rating-static c-rating--s@mobile u-flex u-flex-align-center">
+    <div class="c-rating-static__stars u-mr--xs">
+        <div class="c-rating-static__unselected">
+            <div class="c-rating-static__selected"
+                 style="width:80%"></div>
+        </div>
+    </div>
+    <span class="u-font-size-medium u-mr--xs">(322)</span>
+</div>
+    </div>
+    <span class="c-card__arrow c-card__arrow--large u-hidden-print">
+<svg class="c-icon-24 c-icon-stroke-black">
+    <use xlink:href="/UI/img/sprite.388a6814.svg#icon-arrow-right-1"></use>
+</svg>
+    </span>
+</div>
+            </li>
+            <li>
+
+<div class="c-card c-card--vertical">
+    <a
+        class="u-flex c-card__image-wrap c-card__image-wrap--large"
+        data-track-enhanced-ecommerce
+        data-tracking-event="recipeActionRelatedRecipeClick"
+        data-tracking-title="K&#xF6;ttf&#xE4;rslimpa"
+        data-js-initialize="vt.EnhancedEcommerce" data-track-enhanced-ecommerce data-tracking="{&quot;cookingTime&quot;:60,&quot;mealType&quot;:&quot;Huvudrätt&quot;,&quot;ingredientCount&quot;:11,&quot;arlaProductCount&quot;:2,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;3006202692&quot;,&quot;name&quot;:&quot;Köttfärslimpa&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}"
+        href="https://www.arla.se/recept/kottfarslimpa/">
+
+    <picture class="c-card__image c-card__image--large">
+            <source media="(min-width: 1200px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/3006202692/7abef9ec-a218-4962-8757-7abaa407b389.jpg?w=377&amp;h=213&amp;mode=crop&amp;ak=f525e733&amp;hm=0ad5c932">
+            <source media="(min-width: 992px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/3006202692/7abef9ec-a218-4962-8757-7abaa407b389.jpg?w=347&amp;h=196&amp;mode=crop&amp;ak=f525e733&amp;hm=d0272267, https://cdn-rdb.arla.com/Files/arla-se/3006202692/7abef9ec-a218-4962-8757-7abaa407b389.jpg?w=694&amp;h=392&amp;mode=crop&amp;ak=f525e733&amp;hm=7950fcf5 2x">
+            <source media="(min-width: 768px)" srcset="https://cdn-rdb.arla.com/Files/arla-se/3006202692/7abef9ec-a218-4962-8757-7abaa407b389.jpg?w=278&amp;h=157&amp;mode=crop&amp;ak=f525e733&amp;hm=7b8e4bfb, https://cdn-rdb.arla.com/Files/arla-se/3006202692/7abef9ec-a218-4962-8757-7abaa407b389.jpg?w=556&amp;h=314&amp;mode=crop&amp;ak=f525e733&amp;hm=ec37fe0d 2x">
+        <img src="https://cdn-rdb.arla.com/Files/arla-se/3006202692/7abef9ec-a218-4962-8757-7abaa407b389.jpg?w=212&amp;h=120&amp;mode=crop&amp;ak=f525e733&amp;hm=caa68da6" srcset="https://cdn-rdb.arla.com/Files/arla-se/3006202692/7abef9ec-a218-4962-8757-7abaa407b389.jpg?w=424&amp;h=240&amp;mode=crop&amp;ak=f525e733&amp;hm=3954cc74 2x" alt="K&#xF6;ttf&#xE4;rslimpa"
+                              loading="lazy"
+        >
+    </picture>
+    </a>
+
+
+    <div class="c-card__content">
+
+        <div class="c-card__cooking-time u-mb--xxs">
+            <span class="c-label--s u-text-dark-gray u-font-bold">1 tim </span>
+        </div>
+
+        <div class="c-card__actions">
+                <div data-vue="RecipeSaveAction"
+                    data-is-button="true"
+                    data-class="u-mb--xs"
+                    data-icon-color="white" data-recipe-name="K&#xF6;ttf&#xE4;rslimpa" data-model="{&quot;recipeUid&quot;:&quot;rdb:3006202692&quot;,&quot;isFavorite&quot;:false,&quot;isAuthenticated&quot;:false,&quot;addButtonText&quot;:&quot;Favoriter&quot;,&quot;addedButtonText&quot;:&quot;Favoriter&quot;}"></div>
+                <div data-vue="PurchaseBuyButton" data-size="small" data-model="{&quot;uid&quot;:&quot;3006202692&quot;,&quot;portionCount&quot;:4,&quot;trackingData&quot;:{&quot;cookingTime&quot;:60,&quot;mealType&quot;:&quot;Huvudr&#xE4;tt&quot;,&quot;ingredientCount&quot;:11,&quot;arlaProductCount&quot;:2,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;3006202692&quot;,&quot;name&quot;:&quot;K&#xF6;ttf&#xE4;rslimpa&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}}"></div>
+        </div>
+
+        <a
+            href="https://www.arla.se/recept/kottfarslimpa/"
+            data-tracking-event="recipeActionRelatedRecipeClick"
+            data-tracking-title="K&#xF6;ttf&#xE4;rslimpa"
+            class="c-card__title u-text-break u-mr--s u-text-nounderline u-font-bold u-mb--xs u-font-size-h4">K&#xF6;ttf&#xE4;rslimpa</a>
+
+<div class="c-rating-static c-rating--s@mobile u-flex u-flex-align-center">
+    <div class="c-rating-static__stars u-mr--xs">
+        <div class="c-rating-static__unselected">
+            <div class="c-rating-static__selected"
+                 style="width:70%"></div>
+        </div>
+    </div>
+    <span class="u-font-size-medium u-mr--xs">(1682)</span>
+</div>
+    </div>
+    <span class="c-card__arrow c-card__arrow--large u-hidden-print">
+<svg class="c-icon-24 c-icon-stroke-black">
+    <use xlink:href="/UI/img/sprite.388a6814.svg#icon-arrow-right-1"></use>
+</svg>
+    </span>
+</div>
+            </li>
+    </ul>
+    <div class="u-flex u-flex-justify-center u-mt--s">
+        <a href="/recept/" class="c-button c-button--dark" data-tracking-event="recipeActionRelatedRecipeSeeAll">
+            Fler recept
+<svg class="c-icon-16 c-icon-stroke-white u-ml--xs">
+    <use xlink:href="/UI/img/sprite.388a6814.svg#icon-arrow-right"></use>
+</svg>
+        </a>
+    </div>
+</div>
+    
+
+        <div data-vue="WebCoreComments" data-model="{&quot;isEnabled&quot;:true,&quot;lazyLoadEnabled&quot;:true,&quot;title&quot;:&quot;Kommentarer&quot;,&quot;seeCommentsButtonText&quot;:&quot;Visa kommentarer&quot;,&quot;cookieConsent&quot;:{&quot;noCookieWarningText&quot;:&quot;&lt;p&gt;Du m&amp;aring;ste f&amp;ouml;lja till&amp;aring;ta f&amp;ouml;ljande cookies f&amp;ouml;r att anv&amp;auml;nda den h&amp;auml;r funktionen:&lt;/p&gt;&quot;,&quot;changeCookieSettingsText&quot;:&quot;&#xC4;ndra cookie-inst&#xE4;llningar&quot;,&quot;oneTrustRequiredCategories&quot;:{&quot;Funktionella cookies&quot;:&quot;C0003&quot;,&quot;Riktade cookies&quot;:&quot;C0004&quot;}}}"></div>
+    <div data-vue="RecipeStickyBar"
+         data-card="{&quot;type&quot;:&quot;recipe&quot;,&quot;uid&quot;:&quot;235235459&quot;,&quot;title&quot;:&quot;Reuben sandwich&quot;,&quot;url&quot;:&quot;https://www.arla.se/recept/reuben-sandwich/&quot;,&quot;imageResizer&quot;:{&quot;name&quot;:&quot;Recipe&quot;},&quot;picture&quot;:{&quot;url&quot;:&quot;https://cdn-rdb.arla.com/Files/arla-se/235235459/f96b874a-5b9c-4936-b3e2-5071e76136c0.jpg&quot;,&quot;width&quot;:2400,&quot;height&quot;:1500,&quot;focusPointX&quot;:null,&quot;focusPointY&quot;:null},&quot;cookingTimeText&quot;:&quot;40 min&quot;,&quot;ratingAverageRounded&quot;:4.5,&quot;ratingCount&quot;:3,&quot;buyButton&quot;:{&quot;uid&quot;:&quot;235235459&quot;,&quot;portionCount&quot;:4,&quot;trackingData&quot;:{&quot;cookingTime&quot;:40,&quot;mealType&quot;:&quot;Huvudr&#xE4;tt&quot;,&quot;ingredientCount&quot;:13,&quot;arlaProductCount&quot;:2,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;235235459&quot;,&quot;name&quot;:&quot;Reuben sandwich&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}},&quot;actionSave&quot;:{&quot;recipeUid&quot;:&quot;rdb:235235459&quot;,&quot;isFavorite&quot;:false,&quot;isAuthenticated&quot;:false,&quot;addButtonText&quot;:&quot;Favoriter&quot;,&quot;addedButtonText&quot;:&quot;Favoriter&quot;},&quot;enableActionSave&quot;:true,&quot;trackingData&quot;:{&quot;cookingTime&quot;:40,&quot;mealType&quot;:&quot;Huvudr&#xE4;tt&quot;,&quot;ingredientCount&quot;:13,&quot;arlaProductCount&quot;:2,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;235235459&quot;,&quot;name&quot;:&quot;Reuben sandwich&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null},&quot;showAsNew&quot;:false,&quot;showAsNewLabel&quot;:&quot;Nytt&quot;}"
+         data-action-bar="{&quot;save&quot;:{&quot;recipeUid&quot;:&quot;rdb:235235459&quot;,&quot;isFavorite&quot;:false,&quot;isAuthenticated&quot;:false,&quot;addButtonText&quot;:&quot;Favoriter&quot;,&quot;addedButtonText&quot;:&quot;Favoriter&quot;},&quot;share&quot;:{&quot;name&quot;:&quot;Reuben sandwich&quot;,&quot;label&quot;:&quot;Dela&quot;,&quot;copyLinkText&quot;:&quot;Kopiera l&#xE4;nk&quot;,&quot;optionalUrl&quot;:null},&quot;print&quot;:{&quot;printItemLabel&quot;:&quot;Skriv ut&quot;},&quot;buyButton&quot;:{&quot;button&quot;:{&quot;uid&quot;:&quot;235235459&quot;,&quot;portionCount&quot;:4,&quot;trackingData&quot;:{&quot;cookingTime&quot;:40,&quot;mealType&quot;:&quot;Huvudr&#xE4;tt&quot;,&quot;ingredientCount&quot;:13,&quot;arlaProductCount&quot;:2,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;235235459&quot;,&quot;name&quot;:&quot;Reuben sandwich&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}},&quot;text&quot;:&quot;L&#xE4;gg i ink&#xF6;pslista&quot;,&quot;addedText&quot;:&quot;L&#xE4;gg i ink&#xF6;pslista&quot;}}"></div>
+
+    <div data-vue="RecipeMobileSubMenu"
+        data-model="{&quot;save&quot;:{&quot;recipeUid&quot;:&quot;rdb:235235459&quot;,&quot;isFavorite&quot;:false,&quot;isAuthenticated&quot;:false,&quot;addButtonText&quot;:&quot;Favoriter&quot;,&quot;addedButtonText&quot;:&quot;Favoriter&quot;},&quot;share&quot;:{&quot;name&quot;:&quot;Reuben sandwich&quot;,&quot;label&quot;:&quot;Dela&quot;,&quot;copyLinkText&quot;:&quot;Kopiera l&#xE4;nk&quot;,&quot;optionalUrl&quot;:null},&quot;print&quot;:{&quot;printItemLabel&quot;:&quot;Skriv ut&quot;},&quot;buyButton&quot;:{&quot;button&quot;:{&quot;uid&quot;:&quot;235235459&quot;,&quot;portionCount&quot;:4,&quot;trackingData&quot;:{&quot;cookingTime&quot;:40,&quot;mealType&quot;:&quot;Huvudr&#xE4;tt&quot;,&quot;ingredientCount&quot;:13,&quot;arlaProductCount&quot;:2,&quot;type&quot;:&quot;Product&quot;,&quot;id&quot;:&quot;235235459&quot;,&quot;name&quot;:&quot;Reuben sandwich&quot;,&quot;category&quot;:null,&quot;position&quot;:null,&quot;variant&quot;:null,&quot;creative&quot;:null}},&quot;text&quot;:&quot;L&#xE4;gg i ink&#xF6;pslista&quot;,&quot;addedText&quot;:&quot;L&#xE4;gg i ink&#xF6;pslista&quot;}}">
+    </div>
+</div>
+
+    
+    
+
+<div class="content-area-item-small-logo-icon-cards content-block ">
+<div class="c-ribbon-deck u-text-align--center u-hidden-print" style="--bg-color: #384241">
+
+
+    <a href="/arlakadabra/" class="c-ribbon-deck__card u-text-nounderline c-ribbon-deck__card--light">
+        	    <div class="c-ribbon-deck__card-container u-mb--s">
+    <picture class="c-ribbon-deck__card__picture">
+        <img src="/4a9c18/globalassets/settings/sidfot/footer-arlakadabra-pyssel-200x200.png?width=125&amp;height=46&amp;rmode=max" srcset="/4a9c18/globalassets/settings/sidfot/footer-arlakadabra-pyssel-200x200.png?width=250&amp;height=92&amp;rmode=max 2x" alt="Arlakadabra &#x2013; pyssel och kul"
+                              loading="lazy"
+        >
+    </picture>
+	    </div>
+	    <strong class="u-font-size-small u-text-uppercase">Arlakadabra &#x2013; pyssel och kul</strong>
+
+    </a>
+
+
+
+    <a href="https://www.falbygdensost.se/" target="_blank" rel="noopener" class="c-ribbon-deck__card u-text-nounderline c-ribbon-deck__card--light">
+        	    <div class="c-ribbon-deck__card-container u-mb--s">
+    <picture class="c-ribbon-deck__card__picture">
+        <img src="/49b89c/globalassets/settings/sidfot/falbygdens-ost-footer-250x92.png?width=125&amp;height=46&amp;rmode=max" srcset="/49b89c/globalassets/settings/sidfot/falbygdens-ost-footer-250x92.png?width=250&amp;height=92&amp;rmode=max 2x" alt="Falbygdens ost &#x2013; ostbutik med hemleverans"
+                              loading="lazy"
+        >
+    </picture>
+	    </div>
+	    <strong class="u-font-size-small u-text-uppercase">Falbygdens ost &#x2013; ostbutik med hemleverans</strong>
+
+    </a>
+
+
+
+    <a href="/recept/arla-mat-app/" class="c-ribbon-deck__card u-text-nounderline c-ribbon-deck__card--light">
+        	    <div class="c-ribbon-deck__card-container u-mb--s">
+    <picture class="c-ribbon-deck__card__picture">
+        <img src="/4a4af8/globalassets/logotyper/460x460/arlamat_logo_final-460x460.png?width=125&amp;height=46&amp;rmode=max" srcset="/4a4af8/globalassets/logotyper/460x460/arlamat_logo_final-460x460.png?width=250&amp;height=92&amp;rmode=max 2x" alt="Arla Mat &#x2013; receptapp"
+                              loading="lazy"
+        >
+    </picture>
+	    </div>
+	    <strong class="u-font-size-small u-text-uppercase">Arla Mat &#x2013; receptapp</strong>
+
+    </a>
+
+
+
+    <a href="/nyhetsbrev/" class="c-ribbon-deck__card u-text-nounderline c-ribbon-deck__card--light">
+        	    <div class="c-ribbon-deck__card-container u-mb--s">
+    <picture class="c-ribbon-deck__card__picture">
+        <img src="/4a243f/globalassets/settings/sidfot/nyhetsbrev-5-ikoner-200x200.png?width=125&amp;height=46&amp;rmode=max" srcset="/4a243f/globalassets/settings/sidfot/nyhetsbrev-5-ikoner-200x200.png?width=250&amp;height=92&amp;rmode=max 2x" alt="Nyhetsbrev"
+                              loading="lazy"
+        >
+    </picture>
+	    </div>
+	    <strong class="u-font-size-small u-text-uppercase">Nyhetsbrev</strong>
+
+    </a>
+
+
+
+    <a href="https://www.arlawebbshop.se/en" target="_blank" rel="noopener" class="c-ribbon-deck__card u-text-nounderline c-ribbon-deck__card--light">
+        	    <div class="c-ribbon-deck__card-container u-mb--s">
+    <picture class="c-ribbon-deck__card__picture">
+        <img src="/4a9c18/globalassets/settings/sidfot/footer-arlas-webbshop-sidfot-ikon-200x200.png?width=125&amp;height=46&amp;rmode=max" srcset="/4a9c18/globalassets/settings/sidfot/footer-arlas-webbshop-sidfot-ikon-200x200.png?width=250&amp;height=92&amp;rmode=max 2x" alt="Arlas webbshop"
+                              loading="lazy"
+        >
+    </picture>
+	    </div>
+	    <strong class="u-font-size-small u-text-uppercase">Arlas webbshop</strong>
+
+    </a>
+
+
+
+    <a href="https://konsumentkontakt.arla.se/org/arla/" target="_blank" rel="noopener" class="c-ribbon-deck__card u-text-nounderline c-ribbon-deck__card--light">
+        	    <div class="c-ribbon-deck__card-container u-mb--s">
+    <picture class="c-ribbon-deck__card__picture">
+        <img src="/4a9c18/globalassets/settings/sidfot/footer-kundo-sidfot-ikon-200x200.png?width=125&amp;height=46&amp;rmode=max" srcset="/4a9c18/globalassets/settings/sidfot/footer-kundo-sidfot-ikon-200x200.png?width=250&amp;height=92&amp;rmode=max 2x" alt="Konsumentforum"
+                              loading="lazy"
+        >
+    </picture>
+	    </div>
+	    <strong class="u-font-size-small u-text-uppercase">Konsumentforum</strong>
+
+    </a>
+
+</div>
+</div>
+<div class="c-footer u-flex u-flex-direction-column u-hidden-print">
+    <div class="o-content-box c-footer__top u-flex">
+        <div class="c-footer__column">
+            <h5 class="u-mb--m">Arla Foods</h5>
+                <pre>Arla Foods AB&#xA;PO BOX 4083&#xA;169 04  Solna</pre>
+                <div>
+                    Telefon:
+                    <a href="tel:08&#x2212;789 50 00">08&#x2212;789 50 00</a>
+                </div>
+                <div>
+                    <a href="/om-arla/kontakta-oss/">Kontakta oss</a>
+                </div>
+        </div>
+            <div class="c-footer__column">
+                <h5 class="u-mb--m">Arla.se</h5>
+                    <ul class="c-footer__list u-bare-list u-mb--m u-mb--m@mobile">
+                            <li>
+                                <a href="/" title="Start">Start</a>
+                            </li>
+                            <li>
+                                <a href="/recept/" title="Recept &amp; mat">Recept &amp; mat</a>
+                            </li>
+                            <li>
+                                <a href="/produkter/" title="Produkter">Produkter</a>
+                            </li>
+                            <li>
+                                <a href="/halsa/" title="H&#xE4;lsa">H&#xE4;lsa</a>
+                            </li>
+                            <li>
+                                <a href="/arlakadabra/" title="Arlakadabra">Arlakadabra</a>
+                            </li>
+                            <li>
+                                <a href="/event-sponsring/" title="Event &amp; sponsring">Event &amp; sponsring</a>
+                            </li>
+                            <li>
+                                <a href="/aktuellt/" title="Aktuellt">Aktuellt</a>
+                            </li>
+                            <li>
+                                <a href="/om-arla/" title="Om Arla">Om Arla</a>
+                            </li>
+                            <li>
+                                <a href="/om-arla/nyheter-press/" title="Nyheter &amp; press">Nyheter &amp; press</a>
+                            </li>
+                            <li>
+                                <a href="/om-arla/jobb-karriar/" title="Jobb &amp; karri&#xE4;r">Jobb &amp; karri&#xE4;r</a>
+                            </li>
+                            <li>
+                                <a href="/om-arla/kontakta-oss/" title="Kontakta oss">Kontakta oss</a>
+                            </li>
+                    </ul>
+                    <a href="/om-arla/kontakta-oss/arla-i-andra-lander/">Arla in other countries</a>
+            </div>
+            <div class="c-footer__column">
+                <h5 class="u-mb--m">Fler Arlasajter</h5>
+                <ul class="c-footer__list u-bare-list u-mb--m u-mb--m@mobile">
+                        <li>
+                            <a href="/om-arla/agare/" title="F&#xF6;r &#xE4;gare">F&#xF6;r &#xE4;gare</a>
+                        </li>
+                        <li>
+                            <a href="https://kund.arla.se/" title="Arlas kundportal" target="_blank">Arlas kundportal</a>
+                        </li>
+                        <li>
+                            <a href="http://www.arla.com/" title="Arla.com" target="_blank">Arla.com</a>
+                        </li>
+                        <li>
+                            <a href="https://www.falbygdensost.se/" title="Falbygdens Ost" target="_blank">Falbygdens Ost</a>
+                        </li>
+                        <li>
+                            <a href="http://www.arlawebbshop.se/" title="Arlas webbshop" target="_blank">Arlas webbshop</a>
+                        </li>
+                        <li>
+                            <a href="https://assetfarm.arla.com/" title="Bildbank" target="_blank">Bildbank</a>
+                        </li>
+                </ul>
+            </div>
+            <div class="c-footer__column">
+                <h5 class="u-mb--m">F&#xF6;lj oss</h5>
+                <ul class="c-footer__list u-bare-list u-flex u-flex-align-center">
+                        <li class="u-mr--s">
+                            <a href="http://www.facebook.com/arlasverige" title="Facebook" rel="noopener" target="_blank">
+                                <img width="24" height="24" loading="lazy" class="c-footer__social-icon" src="/48f150/globalassets/settings/sociala-medier/facebook-light-gray.svg" alt="Facebook">
+                            </a>
+                        </li>
+                        <li class="u-mr--s">
+                            <a href="https://www.instagram.com/arlasverige/" title="Instagram" rel="noopener" target="_blank">
+                                <img width="24" height="24" loading="lazy" class="c-footer__social-icon" src="/48f150/globalassets/settings/sociala-medier/instagram-light-gray.svg" alt="Instagram">
+                            </a>
+                        </li>
+                        <li class="u-mr--s">
+                            <a href="https://www.youtube.com/user/ArlaSverige" title="Youtube" rel="noopener" target="_blank">
+                                <img width="24" height="24" loading="lazy" class="c-footer__social-icon" src="/48f150/globalassets/settings/sociala-medier/youtube-light-gray.svg" alt="Youtube">
+                            </a>
+                        </li>
+                        <li class="u-mr--s">
+                            <a href="http://twitter.com/arlasverige" title="Twitter" rel="noopener" target="_blank">
+                                <img width="24" height="24" loading="lazy" class="c-footer__social-icon" src="/48f150/globalassets/settings/sociala-medier/twitter-light-gray.svg" alt="Twitter">
+                            </a>
+                        </li>
+                </ul>
+            </div>
+    </div>
+    <div class="o-content-box--side c-footer__bottom u-flex">
+        <span class="c-footer__copyrights">&#xA9; 2022 Arla Foods</span>
+            <ul class="c-footer__bottom-navigation u-flex">
+                    <li>
+                        <a onclick="reOpenCookiePopup();return false;" href="#">&#xC4;ndra cookie-inst&#xE4;llningar</a>
+                    </li>
+
+                    <li>
+                        <a href="/integritetspolicy/" >Integritetspolicy</a>
+                    </li>
+                    <li>
+                        <a href="/cookie-policy/" title="Cookie-policy">Om cookies</a>
+                    </li>
+            </ul>
+    </div>
+</div>
+
+</div>
+<script>
+    var recentRecipes = {
+        cookieName: 'RecentRecipes-sv',
+        maximumAmountOfRecipes: 20
+    };
+</script>
+
+<script>
+var disqus_config = function() {
+      this.page.remote_auth_s3 = '';
+      this.page.api_key = 'kjBxdM5x7gYWLT9vFIVzIPmtiCDnpFq3NLCi0r1ByMmgVFbv7TJO5lyw764Gr9iA';
+    }, disqus_shortname = 'arlase', disqus_developer = 0, disqus_identifier = 'recipe:235235459';</script>
+<script src="/UI/js/cvi-vendors.c773ffad.js"></script><script src="/UI/js/cvi.8e95d530.js"></script>
+
+<script type="text/plain" class="optanon-category-C0002">
+// recipe print google optimize hotfix
+(function() {
+var css = '@media print { .ads-wrapper {display: none ;}}',
+    head = document.head || document.getElementsByTagName('head')[0],
+    style = document.createElement('style');
+head.appendChild(style);
+style.type = 'text/css';
+style.appendChild(document.createTextNode(css));
+})();
+</script>
+
+<script src="/Util/Find/epi-util/find.js"></script>
+<script>
+if(typeof FindApi === 'function'){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApiBaseUrl('/find_v2/');api.processEventFromCurrentUri();api.bindWindowEvents();api.bindAClickEvent();api.sendBufferedEvents();}
+</script>
+
+
+
+</body>
+</html>
