@@ -7,19 +7,7 @@ class Coop(AbstractScraper):
         return "coop.se"
 
     def author(self):
-        author = self.schema.author()
-        if author is None:
-            author = self.schema.data.get("Author")
-            if (
-                author
-                and isinstance(author, list)
-                and len(author) >= 1
-                and isinstance(author[0], dict)
-            ):
-                author = author[0]
-            if author and isinstance(author, dict):
-                author = author.get("name")
-        return author
+        return self.schema.author()
 
     def title(self):
         return self.schema.title()
