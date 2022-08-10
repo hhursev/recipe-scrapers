@@ -191,7 +191,9 @@ class SchemaOrg:
                     instructions_gist.append(schema_item.get("name"))
             instructions_gist.append(schema_item.get("text"))
         elif schema_item.get("@type") == "HowToSection":
-            instructions_gist.append(schema_item.get("name") or schema_item.get("Name"))
+            name = schema_item.get("name") or schema_item.get("Name")
+            if name is not None:
+                instructions_gist.append(name)
             for item in schema_item.get("itemListElement"):
                 instructions_gist += self._extract_howto_instructions_text(item)
         return instructions_gist
