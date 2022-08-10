@@ -23,7 +23,7 @@ class Coop(AbstractScraper):
 
     def image(self):
         image = self.schema.image()
-        if image is None or image == '':
+        if image is None or image == "":
             image = self.schema.data.get("image")
             if (
                 image
