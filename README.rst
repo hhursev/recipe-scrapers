@@ -169,6 +169,7 @@ Scrapers available for:
 - `https://www.hellofresh.nl/ <https://www.hellofresh.nl/>`_
 - `https://www.homechef.com/ <https://www.homechef.com/>`_
 - `https://hostthetoast.com/ <https://hostthetoast.com/>`_
+- `https://www.ica.se/ <https://www.ica.se/>`_
 - `https://receitas.ig.com.br/ <https://receitas.ig.com.br>`_
 - `https://www.im-worthy.com/ <https://www.im-worthy.com>`_
 - `https://indianhealthyrecipes.com <https://www.indianhealthyrecipes.com>`_
