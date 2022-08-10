@@ -82,7 +82,7 @@ class SchemaOrg:
         return category
 
     def author(self):
-        author = self.data.get("author")
+        author = self.data.get("author") or self.data.get("Author")
         if (
             author
             and isinstance(author, list)
