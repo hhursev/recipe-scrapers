@@ -11,7 +11,7 @@ class ComidinhasDoChef(AbstractScraper):
         return self.soup.find("span", {"class": "theauthor"}).get_text(strip=True)
 
     def title(self):
-        return self.soup.find("h1", {"class": "title"}).get_text()
+        return self.soup.find("h1", {"class": "t-secondary"}).get_text()
 
     def total_time(self):
         return self.schema.total_time()
