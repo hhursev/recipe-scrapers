@@ -49,14 +49,19 @@ class GreatBritishChefs(AbstractScraper):
         return src if image else None
 
     def ingredients(self):
-        ingredientsOuter = self.soup.find(
+        ingredientsOuter = self.soup.findAll(
             "ul", {"class": "IngredientsList__ListContainer"}
         )
         ingGroup = []
-        ingredparts = ingredientsOuter.findAll("li")
+        ingredparts = []
+
+        for subheader in ingredientsOuter:
+            ingredparts.extend(subheader.findAll("li"))
+
         for i in ingredparts:
             x = normalize_string(i.get_text())
-            ingGroup.append(x)
+            if x != "":  # Some recipes include an empty li
+                ingGroup.append(x)
         return ingGroup
 
     def instructions(self):
