@@ -60,7 +60,7 @@ class GreatBritishChefs(AbstractScraper):
 
         for i in ingredparts:
             x = normalize_string(i.get_text())
-            if x != "": # Some recipes include an empty li
+            if x != "":  # Some recipes include an empty li
                 ingGroup.append(x)
         return ingGroup
 
