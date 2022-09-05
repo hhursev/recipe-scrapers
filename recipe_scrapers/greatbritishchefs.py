@@ -56,7 +56,7 @@ class GreatBritishChefs(AbstractScraper):
         ingredparts = []
 
         for subheader in ingredientsOuter:
-            ingredparts.extend(subheader.findAll('li'))
+            ingredparts.extend(subheader.findAll("li"))
 
         for i in ingredparts:
             x = normalize_string(i.get_text())
