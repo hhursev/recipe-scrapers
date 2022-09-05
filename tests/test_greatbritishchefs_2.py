@@ -53,7 +53,7 @@ class TestGreatBritishChefsScraper(ScraperTest):
                 "100g of button mushrooms, sliced",
                 "100g of girolles, sliced",
                 "1 handful of porcini mushroom",
-                "6 sage leaves"
+                "6 sage leaves",
             ],
             self.harvester_class.ingredients(),
         )
