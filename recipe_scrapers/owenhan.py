@@ -7,7 +7,7 @@ class OwenHan(AbstractScraper):
         return "owen-han.com"
 
     def author(self):
-        return "Owen Han"
+        return self.schema.author()
 
     def title(self):
         return self.soup.find("h1", {"class": "entry-title"}).text
