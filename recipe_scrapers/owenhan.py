@@ -13,7 +13,7 @@ class OwenHan(AbstractScraper):
         return self.soup.find("h1", {"class": "entry-title"}).text
 
     def image(self):
-        return self.soup.find("link", {"rel": "image_src"})["href"]
+        return self.schema.image()
 
     def ingredients(self):
         return [x for x in map(lambda x: x.text, self.soup.select("ul > li"))]
