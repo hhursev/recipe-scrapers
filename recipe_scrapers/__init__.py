@@ -41,8 +41,8 @@ from .cookieandkate import CookieAndKate
 from .cookingcircle import CookingCircle
 from .cookinglight import CookingLight
 from .cookpad import CookPad
-from .coop import Coop
 from .cookstr import Cookstr
+from .coop import Coop
 from .copykat import CopyKat
 from .countryliving import CountryLiving
 from .cucchiaio import Cucchiaio
@@ -142,6 +142,7 @@ from .nutritionbynathalie import NutritionByNathalie
 from .nytimes import NYTimes
 from .ohsheglows import OhSheGlows
 from .onehundredonecookbooks import OneHundredOneCookBooks
+from .owenhan import OwenHan
 from .paleorunningmomma import PaleoRunningMomma
 from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
@@ -363,6 +364,7 @@ SCRAPERS = {
     NutritionByNathalie.host(): NutritionByNathalie,
     OhSheGlows.host(): OhSheGlows,
     OneHundredOneCookBooks.host(): OneHundredOneCookBooks,
+    OwenHan.host(): OwenHan,
     PaleoRunningMomma.host(): PaleoRunningMomma,
     Panelinha.host(): Panelinha,
     PaniniHappy.host(): PaniniHappy,
