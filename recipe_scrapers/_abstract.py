@@ -140,7 +140,7 @@ class AbstractScraper:
         """instructions to prepare the recipe"""
         raise NotImplementedError("This should be implemented.")
 
-    def instructions_list(self) -> List:
+    def instructions_list(self) -> List[str]:
         """instructions to prepare the recipe"""
         return [
             instruction

@@ -1,5 +1,6 @@
 import importlib
 import os
+from typing import Any
 
 
 class RecipeScraperSettings:
@@ -27,12 +28,12 @@ class RecipeScraperSettings:
     as they find fit.
     """
 
-    def __init__(self, *args, **kwargs):
+    def __init__(self, *args: Any, **kwargs: Any):
         self._configured = False
         self._user_settings = False
         super().__init__(*args, **kwargs)
 
-    def __getattribute__(self, item):
+    def __getattribute__(self, item: Any) -> Any:
         if item.startswith("_"):
             return super().__getattribute__(item)
 
@@ -47,7 +48,7 @@ class RecipeScraperSettings:
 
         return super().__getattribute__(item)
 
-    def _configure(self):
+    def _configure(self) -> None:
         # configure the default settings by default
         if not getattr(self, "_configured"):
             default_settings = importlib.import_module(
@@ -62,7 +63,7 @@ class RecipeScraperSettings:
         user_settings = os.environ.get("RECIPE_SCRAPERS_SETTINGS", False)
         if user_settings != getattr(self, "_user_settings"):
             setattr(self, "_user_settings", user_settings)
-            user_settings = importlib.import_module(user_settings)
+            user_settings = importlib.import_module(user_settings)  # type: ignore [arg-type,assignment]
             for item in dir(user_settings):
                 if item.isupper():
                     setattr(self, item, getattr(user_settings, item))
