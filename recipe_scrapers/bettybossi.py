@@ -24,10 +24,10 @@ class BettyBossi(AbstractScraper):
             Dict[str, str]
         ] = None,  # allows us to specify optional proxy server
         timeout: Optional[
-            Union[float, Tuple, None]
+            Union[float, Tuple[float, float], Tuple[float, None]]
         ] = None,  # allows us to specify optional timeout for request
         wild_mode: Optional[bool] = False,
-        html: Union[str, None] = None,
+        html: Union[str, bytes, None] = None,
     ):
         if html is None:
             with Session() as session:

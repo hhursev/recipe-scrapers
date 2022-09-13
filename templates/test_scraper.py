@@ -1,4 +1,4 @@
-from recipe_scrapers.template import Template
+from recipe_scrapers.template import Template  # type: ignore [import]
 from tests import ScraperTest
 
 
