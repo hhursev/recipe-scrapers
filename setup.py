@@ -32,7 +32,7 @@ setup(
         "types-requests>=2.28.10",
     ],
     packages=find_packages(),
-    package_data={"": ["LICENSE"], "": ["py.typed"]},
+    package_data={"": ["LICENSE", "py.typed"]},
     include_package_data=True,
     classifiers=[
         "Programming Language :: Python :: 3",

@@ -1,3 +1,4 @@
+from __future__ import annotations
 import contextlib
 from typing import Any, Optional
 
@@ -438,7 +439,7 @@ SCRAPERS = {
 }
 
 
-def scrape_me(url_path: str, **options: Any) -> AbstractScraper:
+def scrape_me(url_path: str, **options: dict[str, Any]) -> AbstractScraper:
     host_name = get_host_name(url_path)
 
     try:
@@ -457,7 +458,7 @@ def scrape_me(url_path: str, **options: Any) -> AbstractScraper:
 
 
 def scrape_html(
-    html: str, org_url: Optional[str] = None, **options: Any
+    html: str, org_url: Optional[str] = None, **options: dict[str, Any]
 ) -> AbstractScraper:
     """
     takes a string of html and returns a scraper object. if the org_url is specified
