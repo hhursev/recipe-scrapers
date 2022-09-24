@@ -1,3 +1,4 @@
+# mypy: disallow_untyped_defs=False
 # delish.py
 # Written by J. Kwon
 # Freely released the code to recipe_scraper group

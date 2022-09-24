@@ -1,3 +1,4 @@
+# mypy: disallow_untyped_defs=False
 from typing import Optional, Union, Tuple, Dict
 from requests import Session
 

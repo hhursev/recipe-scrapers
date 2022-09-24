@@ -1,3 +1,4 @@
+# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._exceptions import SchemaOrgException
 from ._utils import normalize_string

@@ -1,3 +1,4 @@
+# mypy: disallow_untyped_defs=False
 class RecipeScrapersExceptions(Exception):
     def __init__(self, message):
         self.message = message

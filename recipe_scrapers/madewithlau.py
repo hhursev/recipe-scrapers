@@ -1,3 +1,4 @@
+# mypy: disallow_untyped_defs=False
 import re
 
 from ._abstract import AbstractScraper
