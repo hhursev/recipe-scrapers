@@ -1,3 +1,4 @@
+# mypy: disallow_untyped_defs=False
 from urllib.parse import parse_qs, urlparse
 
 import requests

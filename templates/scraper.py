@@ -1,4 +1,4 @@
-from ._abstract import AbstractScraper
+from ._abstract import AbstractScraper  # type: ignore [import]
 
 
 class Template(AbstractScraper):

@@ -1,3 +1,4 @@
+# mypy: disallow_untyped_defs=False
 from html import unescape
 
 from ._abstract import AbstractScraper

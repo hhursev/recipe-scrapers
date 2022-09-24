@@ -1,10 +1,11 @@
+# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._utils import get_host_name
 
 
 class SchemaScraperFactory:
     class SchemaScraper(AbstractScraper):
-        def host(self) -> str:
+        def host(self) -> str:  # type: ignore [override]
             return get_host_name(self.url) if self.url is not None else ""
 
         def title(self):

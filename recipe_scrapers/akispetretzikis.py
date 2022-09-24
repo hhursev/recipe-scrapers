@@ -1,3 +1,4 @@
+# mypy: disallow_untyped_defs=False
 import json
 
 from ._abstract import AbstractScraper

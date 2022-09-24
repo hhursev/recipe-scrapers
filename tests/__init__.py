@@ -1,5 +1,5 @@
 import os
-from typing import Tuple
+from typing import Any, Iterator, Optional, Tuple
 import unittest
 
 import responses
@@ -9,11 +9,12 @@ class ScraperTest(unittest.TestCase):
 
     maxDiff = None
     online = False
-    test_file_name = None
+    test_file_name: Optional[str] = None
     test_file_extension = "testhtml"
+    scraper_class: Any
 
     @property
-    def expected_requests(self) -> Tuple[str, str, str]:
+    def expected_requests(self) -> Iterator[Tuple[str, str, str]]:
         """
         Descriptions of the expected requests that the scraper-under-test will make, as
         tuples of: HTTP method, URL, path-to-content-file

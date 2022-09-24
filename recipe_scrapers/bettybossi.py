@@ -1,3 +1,4 @@
+# mypy: disallow_untyped_defs=False
 from typing import Optional, Union, Tuple, Dict
 from requests import Session
 
@@ -19,16 +20,16 @@ class BettyBossi(AbstractScraper):
 
     def __init__(
         self,
-        url,
+        url: str,
         proxies: Optional[
             Dict[str, str]
         ] = None,  # allows us to specify optional proxy server
         timeout: Optional[
-            Union[float, Tuple, None]
+            Union[float, Tuple[float, float], Tuple[float, None]]
         ] = None,  # allows us to specify optional timeout for request
         wild_mode: Optional[bool] = False,
-        html: Union[str, None] = None,
-    ):
+        html: Union[str, bytes, None] = None,
+    ) -> None:
         if html is None:
             with Session() as session:
                 session.proxies.update(proxies or {})
