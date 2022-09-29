@@ -364,7 +364,7 @@ If you're using this library to collect large numbers of recipes from the web, p
 
 Python's standard library provides a ``robots.txt`` `parser <https://docs.python.org/3/library/urllib.robotparser.html>`_ that may be helpful to automatically follow common instructions specified by websites for web crawlers.
 
-Another parser option -- particularly if you find that many web requests from ``urllib.robotparser`` are blocked -- is the [`robotsexclusionparser`](https://pypi.org/project/robotexclusionrulesparser/) library.
+Another parser option -- particularly if you find that many web requests from ``urllib.robotparser`` are blocked -- is the `robotsexclusionparser <https://pypi.org/project/robotexclusionrulesparser/>`_ library.
 
 
 Special thanks to:
