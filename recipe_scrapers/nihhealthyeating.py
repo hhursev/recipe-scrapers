@@ -90,34 +90,47 @@ class NIHHealthyEating(AbstractScraper):
     def nutrients(self):
         res = []
         nutrition = []
-        
-        for s in self.soup.find('div', {
-            'id': 'nutrition_info'
-        }).find('table').find_all('tr'):
-            for element in s.findChildren('td'):
-                if element.text.strip() != '':
-                    res.append(element.text.strip())
-        
+
+        for s in (
+            self.soup.find("div", {"id": "nutrition_info"}).find("table").find_all("tr")
+        ):
+            for element in s.findChildren("td"):
+                if element.text.strip() != "":
+                    res.append(normalize_string(element.get_text()))
         r = range(0, len(res), 2)
+
         for i in r:
-            nutrition.append(res[i:i + 2])
-        
+            nutrition.append(res[i : i + 2])
+
         return nutrition
-        
+
     def description(self):
-        return self.soup.find('p', {'class': 'recipe_detail_subtext'}).text.strip()
-    
+        return normalize_string(
+            self.soup.find("p", {"class": "recipe_detail_subtext"}).text.strip()
+        )
+
     def prep_time(self):
-        return self.soup.find('table', {
-            'class': 'recipe_time_table'
-        }).find_all('td')[0].text.strip()
-        
+        return get_minutes(
+            self.soup.find("table", {"class": "recipe_time_table"})
+            .find_all("td")[0]
+            .text.strip()
+        )
+
     def cook_time(self):
-        return self.soup.find('table', {
-            'class': 'recipe_time_table'
-        }).find_all('td')[1].text.strip()
-    
+        return get_minutes(
+            self.soup.find("table", {"class": "recipe_time_table"})
+            .find_all("td")[1]
+            .text.strip()
+        )
+
+    def serving_size(self):
+        return normalize_string(
+            self.soup.find("table", {"class": "recipe_time_table"})
+            .find_all("td")[3]
+            .text.strip()
+        )
+
     def recipe_source(self):
-        return self.soup.find('div', {
-            'id': 'Recipe_Source'
-        }).text.split(": ")[1].strip()
+        return normalize_string(
+            self.soup.find("div", {"id": "Recipe_Source"}).text.split(": ")[1].strip()
+        )
