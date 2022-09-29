@@ -43,19 +43,18 @@ class TestNIHHealthyEatingRecipesScraper(ScraperTest):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_nutrients(self):
-        self.assertCountEqual(
-            [
-                ["calories", "265"],
-                ["Total fat", "16 g"],
-                ["Saturated fat", "2 g"],
-                ["Cholesterol", "58 mg"],
-                ["Sodium", "172 mg"],
-                ["Total fiber", "3 g"],
-                ["Protein", "22 g"],
-                ["Carbohydrates", "9 g"],
-                ["Potassium", "635 mg"],
-                ["Percent Daily Values are based on a 2,000 calorie diet."],
-            ],
+        self.assertDictEqual(
+            {
+                "calories": "265",
+                "Total fat": "16 g",
+                "Saturated fat": "2 g",
+                "Cholesterol": "58 mg",
+                "Sodium": "172 mg",
+                "Total fiber": "3 g",
+                "Protein": "22 g",
+                "Carbohydrates": "9 g",
+                "Potassium": "635 mg",
+            },
             self.harvester_class.nutrients(),
         )
 

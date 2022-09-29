@@ -88,19 +88,20 @@ class NIHHealthyEating(AbstractScraper):
         )
 
     def nutrients(self):
-        res = []
-        nutrition = []
+        elements = []
+        nutrition = {}
 
-        for s in (
-            self.soup.find("div", {"id": "nutrition_info"}).find("table").find_all("tr")
-        ):
-            for element in s.findChildren("td"):
-                if element.text.strip() != "":
-                    res.append(normalize_string(element.get_text()))
-        r = range(0, len(res), 2)
+        for s in self.soup.find('div', {
+                'id': 'nutrition_info'
+        }).find('table').find_all('tr'):
+            for element in s.find_all('td'):
+                if element.text.strip() != '':
+                    elements.append(element.text.strip())
 
-        for i in r:
-            nutrition.append(res[i : i + 2])
+        for i in range(0, len(elements), 2):
+            if len(elements) > i + 1:
+                k, v = elements[i], elements[i + 1]
+                nutrition[k] = v
 
         return nutrition
 
