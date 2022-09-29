@@ -358,7 +358,8 @@ FAQ
     scraper.instructions()  # etc.
 
 Netiquette
----
+----------
+
 If you're using this library to collect large numbers of recipes from the web, please use the software responsibly and try to avoid creating high volumes of network traffic.
 
 Python's standard library provides a ``robots.txt`` `parser <https://docs.python.org/3/library/urllib.robotparser.html>`_ that may be helpful to automatically follow common instructions specified by websites for web crawlers.
