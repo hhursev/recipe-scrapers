@@ -91,12 +91,12 @@ class NIHHealthyEating(AbstractScraper):
         elements = []
         nutrition = {}
 
-        for s in self.soup.find('div', {
-                'id': 'nutrition_info'
-        }).find('table').find_all('tr'):
-            for element in s.find_all('td'):
-                if element.text.strip() != '':
-                    elements.append(element.text.strip())
+        for s in (
+            self.soup.find("div", {"id": "nutrition_info"}).find("table").find_all("tr")
+        ):
+            for element in s.find_all("td"):
+                if element.text.strip() != "":
+                    elements.append(normalize_string(element.get_text()))
 
         for i in range(0, len(elements), 2):
             if len(elements) > i + 1:

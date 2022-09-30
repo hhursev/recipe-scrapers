@@ -43,7 +43,7 @@ class TestNIHHealthyEatingRecipesScraper(ScraperTest):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_nutrients(self):
-        self.assertDictEqual(
+        self.assertCountEqual(
             {
                 "calories": "265",
                 "Total fat": "16 g",
