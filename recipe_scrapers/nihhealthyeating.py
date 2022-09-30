@@ -104,7 +104,7 @@ class NIHHealthyEating(AbstractScraper):
             )
             res = {normalize_string(ingredients_h4_sections[0].text.strip()): items}
             section.append(res)
-            return section + ingredients_list[:-1]
+            return ingredients_list[:-1] + section
 
         return ingredients_list
 
