@@ -160,5 +160,7 @@ class NIHHealthyEating(AbstractScraper):
                             "url": link.get("href"),
                         }
                     )
+        else:
+            return None
 
         return recipe_cards
