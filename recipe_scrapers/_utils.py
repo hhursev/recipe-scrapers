@@ -33,7 +33,7 @@ SERVE_REGEX_ITEMS = re.compile(
 SERVE_REGEX_TO = re.compile(r"\d+(\s+to\s+|-)\d+", flags=re.I | re.X)
 
 
-def get_minutes(element, return_zero_on_not_found=False):
+def get_minutes(element, return_zero_on_not_found=False):  # noqa: C901: TODO
     if element is None:
         # to be removed
         if return_zero_on_not_found:
