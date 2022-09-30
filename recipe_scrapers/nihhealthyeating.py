@@ -67,6 +67,33 @@ class NIHHealthyEating(AbstractScraper):
         # This content must be present for recipes on this website.
         ingredients_div = self.soup.find("div", {"id": "ingredients"})
 
+        # More than one lists of ingredients
+        # https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?linkId=11&cId=1&rId=5
+        ingredients_h4_sections = ingredients_div.find_all("h4")
+        section = []
+
+        if len(ingredients_h4_sections) >= 2:
+            ingredients_sections = ingredients_div.find_all("tr")
+            for ingredients_section in ingredients_sections:
+                items = ingredients_section.find("p").text.strip().split("\n")
+                res = {
+                    normalize_string(ingredients_section.find("h4").text.strip()): items
+                }
+                section.append(res)
+
+        # Edge case: ingredents are a mix for single main ingredients and a single sub section
+        # https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?linkId=0&cId=10&rId=163
+        if len(ingredients_h4_sections) == 1:
+            items = (
+                ingredients_div.find("h4")
+                .find_next_sibling("p")
+                .text.strip()
+                .split("\n")
+            )
+            res = {normalize_string(ingredients_h4_sections[0].text.strip()): items}
+            section.append(res)
+            return section
+
         if ingredients_div is None:
             raise ElementNotFoundInHtml("Ingredients not found.")
 
@@ -75,7 +102,7 @@ class NIHHealthyEating(AbstractScraper):
 
         return [
             ing for ing in ingredients if not ing.lower().startswith("recipe cards")
-        ]
+        ] + section
 
     def instructions(self):
         # This content must be present for recipes on this website.
@@ -161,6 +188,5 @@ class NIHHealthyEating(AbstractScraper):
                         }
                     )
         else:
-            return None
-
+            raise ElementNotFoundInHtml("Recipe cards not found.")
         return recipe_cards
