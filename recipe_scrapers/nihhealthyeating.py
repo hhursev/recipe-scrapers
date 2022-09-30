@@ -88,6 +88,9 @@ class NIHHealthyEating(AbstractScraper):
 
         ingredients_p = ingredients_div.findAll("p")
         ingredients = [normalize_string(para.get_text()) for para in ingredients_p]
+        ingredients_list = [
+            ing for ing in ingredients if not ing.lower().startswith("recipe cards")
+        ]
 
         # Edge case: ingredents are a mix for single main ingredients and a single sub section
         # https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?linkId=0&cId=10&rId=163
@@ -101,11 +104,9 @@ class NIHHealthyEating(AbstractScraper):
             )
             res = {normalize_string(ingredients_h4_sections[0].text.strip()): items}
             section.append(res)
-            return section + ingredients
+            return section + ingredients_list[:-1]
 
-        return [
-            ing for ing in ingredients if not ing.lower().startswith("recipe cards")
-        ]
+        return ingredients_list
 
     def instructions(self):
         # This content must be present for recipes on this website.
