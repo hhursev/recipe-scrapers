@@ -66,11 +66,15 @@ class NIHHealthyEating(AbstractScraper):
     def ingredients(self):
         # This content must be present for recipes on this website.
         ingredients_div = self.soup.find("div", {"id": "ingredients"})
-
-        # More than one lists of ingredients
-        # https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?linkId=11&cId=1&rId=5
-        ingredients_h4_sections = ingredients_div.find_all("h4")
         section = []
+
+        if ingredients_div is None:
+            raise ElementNotFoundInHtml("Ingredients not found.")
+
+        # Find more than one lists of ingredients
+        ingredients_h4_sections = ingredients_div.find_all("h4")
+
+        # https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?linkId=11&cId=1&rId=5
 
         if len(ingredients_h4_sections) >= 2:
             ingredients_sections = ingredients_div.find_all("tr")
@@ -80,9 +84,14 @@ class NIHHealthyEating(AbstractScraper):
                     normalize_string(ingredients_section.find("h4").text.strip()): items
                 }
                 section.append(res)
+                return section
+
+        ingredients_p = ingredients_div.findAll("p")
+        ingredients = [normalize_string(para.get_text()) for para in ingredients_p]
 
         # Edge case: ingredents are a mix for single main ingredients and a single sub section
         # https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?linkId=0&cId=10&rId=163
+
         if len(ingredients_h4_sections) == 1:
             items = (
                 ingredients_div.find("h4")
@@ -92,17 +101,11 @@ class NIHHealthyEating(AbstractScraper):
             )
             res = {normalize_string(ingredients_h4_sections[0].text.strip()): items}
             section.append(res)
-            return section
-
-        if ingredients_div is None:
-            raise ElementNotFoundInHtml("Ingredients not found.")
-
-        ingredients_p = ingredients_div.findAll("p")
-        ingredients = [normalize_string(para.get_text()) for para in ingredients_p]
+            return section + ingredients.pop()
 
         return [
             ing for ing in ingredients if not ing.lower().startswith("recipe cards")
-        ] + section
+        ]
 
     def instructions(self):
         # This content must be present for recipes on this website.
