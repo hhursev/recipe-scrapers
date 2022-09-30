@@ -87,3 +87,24 @@ class TestNIHHealthyEatingRecipesScraper(ScraperTest):
             "Preheat oven to 400 °F.\nSpray baking dish with cooking spray.\nArrange fillets in the baking dish. The dish should be large enough so the fillets do not overlap.\nMix remaining ingredients, except parsley and lemon wedges, in a bowl.\nSpoon the tomato mixture evenly over the fillets.\nBake uncovered 15 to 20 minutes or until the fish flakes easily with a fork.\nGarnish with parsley and a lemon wedge, and serve.",
             self.harvester_class.instructions(),
         )
+
+    def test_recipe_source(self):
+        self.assertEqual(
+            "Delicious Heart Healthy Latino Recipes",
+            self.harvester_class.recipe_source(),
+        )
+
+    def test_recipe_cards(self):
+        self.assertEqual(
+            [
+                {
+                    "size": '4" x 6" (353 KB)',
+                    "url": "http://www.nhlbi.nih.gov/health/public/heart/obesity/wecan/downloads/baked-tilapia-4x6.pdf",
+                },
+                {
+                    "size": '8.5" x 11" (403 KB)',
+                    "url": "http://www.nhlbi.nih.gov/health/public/heart/obesity/wecan/downloads/baked-tilapia-letter.pdf",
+                },
+            ],
+            self.harvester_class.recipe_cards(),
+        )

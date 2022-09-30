@@ -3,6 +3,9 @@ from ._abstract import AbstractScraper
 from ._exceptions import ElementNotFoundInHtml
 from ._utils import get_minutes, get_yields, normalize_string
 
+import re
+from bs4 import Tag
+
 
 class NIHHealthyEating(AbstractScraper):
     @classmethod
@@ -135,3 +138,27 @@ class NIHHealthyEating(AbstractScraper):
         return normalize_string(
             self.soup.find("div", {"id": "Recipe_Source"}).text.split(": ")[1].strip()
         )
+
+    def recipe_cards(self):
+        recipe_cards_maker = self.soup.find(
+            "strong", string=re.compile(r"Recipe Cards:")
+        )
+        if recipe_cards_maker is not None:
+            recipe_cards = []
+            recipe_cards_maker_siblings = recipe_cards_maker.next_siblings
+            for recipe_cards_maker_sibling in recipe_cards_maker_siblings:
+                link = recipe_cards_maker_sibling.find("a")
+                if (
+                    isinstance(recipe_cards_maker_sibling, Tag)
+                    and recipe_cards_maker_sibling.name == "li"
+                ):
+                    recipe_cards.append(
+                        {
+                            "size": normalize_string(
+                                recipe_cards_maker_sibling.get_text()
+                            ),
+                            "url": link.get("href"),
+                        }
+                    )
+
+        return recipe_cards
