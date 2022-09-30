@@ -84,7 +84,7 @@ class NIHHealthyEating(AbstractScraper):
                     normalize_string(ingredients_section.find("h4").text.strip()): items
                 }
                 section.append(res)
-                return section
+            return section
 
         ingredients_p = ingredients_div.findAll("p")
         ingredients = [normalize_string(para.get_text()) for para in ingredients_p]
