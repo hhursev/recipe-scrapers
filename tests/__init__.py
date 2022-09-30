@@ -32,9 +32,9 @@ class ScraperTest(unittest.TestCase):
             start_url = None
             for method, url, path in self.expected_requests:
                 start_url = start_url or url
-                content = open(path, encoding="utf-8").read()
-                response = responses.Response(method, url, body=content)
-                response.passthrough = self.online
-                rsps.add(response)
+                with open(path, encoding="utf-8") as f:
+                    response = responses.Response(method, url, body=f.read())
+                    response.passthrough = self.online
+                    rsps.add(response)
 
             self.harvester_class = self.scraper_class(url=start_url)
