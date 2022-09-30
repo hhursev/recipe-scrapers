@@ -24,19 +24,20 @@ class TheHappyFoodie(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        ingredients = self.soup.find(
+        ingredient_elements = self.soup.find(
             "div", {"class": "hf-ingredients__container"}
         ).findAll("tr")
 
         amount = 0
         ingredient_name = 1
-        ingredients = [
-            (
-                ingredient.find_all("td")[amount].get_text(),
-                ingredient.find_all("td")[ingredient_name].get_text(),
-            )
-            for ingredient in ingredients
-        ]
+        ingredients = []
+        for e in ingredient_elements:
+            if e.get('class'):
+                continue
+            ingredients.append((
+                e.find_all("td")[amount].get_text(),
+                e.find_all("td")[ingredient_name].get_text(),
+            ))
 
         return [
             normalize_string("{} {}".format(amount, name))
