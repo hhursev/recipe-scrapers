@@ -32,6 +32,7 @@ class TheHappyFoodie(AbstractScraper):
         ingredient_name = 1
         ingredients = []
         for e in ingredient_elements:
+            # Skip elements that look like section headings (for example, 'For the sauce:')
             if e.get("class"):
                 continue
             ingredients.append(
