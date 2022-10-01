@@ -12,11 +12,11 @@ class FineDiningLovers(AbstractScraper):
         """
         finedinginglovers features recipes and articles. Depending on what is requested the parser needs to handle fields differently.
         """
-        return 'finedininglovers.com/article/' in self.canonical_url()
+        return "finedininglovers.com/article/" in self.canonical_url()
 
     def title(self):
         if self._is_article():
-            return self.soup.find('div', {'class': 'title'}).find("h1").get_text()
+            return self.soup.find("div", {"class": "title"}).find("h1").get_text()
         return self.soup.find("h1", {"class": "recipe-full-class"}).get_text()
 
     def total_time(self):
@@ -35,7 +35,9 @@ class FineDiningLovers(AbstractScraper):
 
     def ingredients(self):
         if self._is_article():
-            return []  # ingredients in articles are just normal text and cant be extracted
+            return (
+                []
+            )  # ingredients in articles are just normal text and cant be extracted
         ingredients_parent = self.soup.find("div", {"class": "ingredients-box"})
         ingredients = ingredients_parent.findAll(
             "div", {"class": "paragraph--type--recipe-ingredient"}

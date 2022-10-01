@@ -20,7 +20,9 @@ class TestFineDiningLoversScraper(ScraperTest):
         )
 
     def test_title(self):
-        self.assertEqual(self.harvester_class.title(), "The Ultimate Black Forest Cake Recipe")
+        self.assertEqual(
+            self.harvester_class.title(), "The Ultimate Black Forest Cake Recipe"
+        )
 
     def test_total_time(self):
         self.assertEqual(0, self.harvester_class.total_time())
@@ -35,7 +37,10 @@ class TestFineDiningLoversScraper(ScraperTest):
         )
 
     def test_instructions(self):
-        return self.assertIn('The black forest cake or gateau, a classic German cake synonymous with the 1980s', self.harvester_class.instructions())
+        return self.assertIn(
+            "The black forest cake or gateau, a classic German cake synonymous with the 1980s",
+            self.harvester_class.instructions(),
+        )
 
     def test_image(self):
         return self.assertEqual(
