@@ -1,5 +1,4 @@
 # mypy: disallow_untyped_defs=False
-import re
 
 from ._abstract import AbstractScraper
 
@@ -30,21 +29,10 @@ class Reishunger(AbstractScraper):
     def instructions(self):
         elements = self.soup.findAll("div", {"class": "flex flex-col"})
 
-        for (
-            e
-        ) in (
-            elements
-        ):  # for recipes that do NOT allow to switch between different cooking methods
+        # for recipes that do NOT allow to switch between different cooking methods
+        for e in elements:
             if "Zubereitung" in e.get_text():
                 return e.get_text()
-
-        result = self.soup.find(
-            "div",
-            {
-                "x-data": "{ isMobile: window.innerWidth < 720, tab: 'kochtopf' }"  # noqa
-            },
-        )  # for recipes that offer multiple cooking methods
-        return re.sub(r"\n{3,}", "\n", result.get_text())
 
     def ratings(self):
         block = self.soup.find("div", {"class": "nrating"})
