@@ -10,7 +10,7 @@ class FineDiningLovers(AbstractScraper):
 
     def _is_article(self):
         """
-        finedinginglovers features recipes and articles. Depending on what is requested the parser needs to handle fields differently.
+        helper method to determine how the current page is structured - we handle 'recipe' and 'article' pages differently
         """
         return "finedininglovers.com/article/" in self.canonical_url()
 
