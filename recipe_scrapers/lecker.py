@@ -27,10 +27,7 @@ class Lecker(AbstractScraper):
         return self.schema.cook_time()
 
     def total_time(self):
-        try:
-            return self.schema.total_time()
-        except SchemaOrgException:
-            return 0
+        return self.schema.total_time()
 
     def yields(self):
         return self.schema.yields()
