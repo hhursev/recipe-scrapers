@@ -6,6 +6,10 @@ class TestLeckerScraper(ScraperTest):
 
     scraper_class = Lecker
 
+    @property
+    def test_file_name(self):
+        return "{}_1".format(self.scraper_class.__name__.lower())
+
     def test_host(self):
         self.assertEqual("lecker.de", self.harvester_class.host())
 
