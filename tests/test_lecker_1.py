@@ -66,7 +66,7 @@ class TestLeckerScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.1, self.harvester_class.ratings())
+        self.assertEqual(3.9, self.harvester_class.ratings())
 
     def test_nutrients(self):
         self.assertEqual(

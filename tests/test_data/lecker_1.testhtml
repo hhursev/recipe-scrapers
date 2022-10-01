@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--[if IE 8]>
 <html id="html" class="ie8"><![endif]-->
@@ -6,7 +7,7 @@
 <!--[if gt IE 9]><!-->
 <html id="html"><!--<![endif]-->
 		<head profile="http://www.w3.org/1999/xhtml/vocab">
-        
+
 
 <script type="text/javascript">
   !function () { var e = function () { var e, t = "__tcfapiLocator", a = [], n = window; for (; n;) { try { if (n.frames[t]) { e = n; break } } catch (e) { } if (n === window.top) break; n = n.parent } e || (!function e() { var a = n.document, r = !!n.frames[t]; if (!r) if (a.body) { var i = a.createElement("iframe"); i.style.cssText = "display:none", i.name = t, a.body.appendChild(i) } else setTimeout(e, 5); return !r }(), n.__tcfapi = function () { for (var e, t = arguments.length, n = new Array(t), r = 0; r < t; r++)n[r] = arguments[r]; if (!n.length) return a; if ("setGdprApplies" === n[0]) n.length > 3 && 2 === parseInt(n[1], 10) && "boolean" == typeof n[3] && (e = n[3], "function" == typeof n[2] && n[2]("set", !0)); else if ("ping" === n[0]) { var i = { gdprApplies: e, cmpLoaded: !1, cmpStatus: "stub" }; "function" == typeof n[2] && n[2](i) } else a.push(n) }, n.addEventListener("message", (function (e) { var t = "string" == typeof e.data, a = {}; try { a = t ? JSON.parse(e.data) : e.data } catch (e) { } var n = a.__tcfapiCall; n && window.__tcfapi(n.command, n.version, (function (a, r) { var i = { __tcfapiReturn: { returnValue: a, success: r, callId: n.callId } }; t && (i = JSON.stringify(i)), e.source.postMessage(i, "*") }), n.parameter) }), !1)) }; "undefined" != typeof module ? module.exports = e : e() }();
@@ -18,8 +19,10 @@
     config: {
       accountId: 375,
       propertyId: 1715,
-      privacyManagerId: 645858,
-      baseEndpoint: 'https://privacy.lecker.de'
+      privacyManagerId: 692209,
+      baseEndpoint: 'https://privacy.lecker.de',
+      targetingParams: {
+        hidePrivacyManager: false      }
     }
   }
 
@@ -33,16 +36,49 @@
 
 <script type="text/javascript">
   window.openPrivacyManager = function() {
-    window._sp_.loadPrivacyManagerModal(645858)
+    window._sp_.loadPrivacyManagerModal(692209)
   }
 </script>
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+      <!-- Google Tag Manager -->
+              <script>
+          (function () {
+            const readCookie = function (name) {
+              var name = name + "=";
+              var decodedCookie = decodeURIComponent(document.cookie);
+              var ca = decodedCookie.split(';');
+              for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                  c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                  return c.substring(name.length, c.length);
+                }
+              }
+              return null;
+            };
+
+            var gtm = function () {
+              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
                 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-M64G4V');</script>
-        <!-- End Google Tag Manager -->
+              })(window,document,'script','dataLayer','GTM-M64G4V')
+            }
+
+            if (readCookie('euconsent-v2') !== null && typeof google_tag_manager !== 'object') {
+              gtm()
+            }
+
+            window.__tcfapi('addEventListener', 2, (tcData, success) => {
+              if (success && tcData.eventStatus === 'useractioncomplete') {
+                gtm()
+              }
+            })
+          }())
+        </script>
+            <!-- End Google Tag Manager -->
 		<meta charset="utf-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
@@ -51,8 +87,8 @@
 <link rel="shortlink" href="/node/79685" />
 <script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","url":"https:\/\/www.lecker.de","name":"lecker.de","alternateName":"Lecker Kochrezepte"}</script>
 <script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Organization","url":"https:\/\/www.lecker.de","name":"lecker.de","alternateName":"Lecker Kochrezepte","logo":{"@type":"ImageObject","url":"https:\/\/www.lecker.de\/assets\/lecker-logo.png","width":187,"height":60},"sameAs":["http:\/\/www.facebook.com\/lecker","http:\/\/www.twitter.com\/lecker_de","http:\/\/plus.google.com\/+LECKERde","http:\/\/www.instagram.com\/lecker_magazin","http:\/\/www.youtube.com\/LECKERde","http:\/\/de.pinterest.com\/leckerde\/"]}</script>
-<script type="application/ld+json">[{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Rezepte","url":"https:\/\/www.lecker.de\/rezepte"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Kochen","url":"https:\/\/www.lecker.de\/kochen"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Backen","url":"https:\/\/www.lecker.de\/backen"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Fr\u00fchling","url":"https:\/\/www.lecker.de\/rezepte\/fruehling"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Spargel","url":"https:\/\/www.lecker.de\/spargel"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Erdbeeren","url":"https:\/\/www.lecker.de\/rezepte\/erdbeer"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Grillen","url":"https:\/\/www.lecker.de\/grillen"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Getr\u00e4nke","url":"https:\/\/www.lecker.de\/getraenke"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Topfkino","url":"https:\/\/www.lecker.de\/topfkino"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Apps","url":"https:\/\/www.lecker.de\/app-fuer-ios-und-android-lecker-rezepte-fuer-jeden-tag-50486.html"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Gewinnspiele","url":"https:\/\/www.lecker.de\/gewinnspiele"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Abo","url":"https:\/\/www.bauer-plus.de\/lecker-navi"}]</script>
-<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Recipe","name":"Gem\u00fcsepfanne mit H\u00e4hnchen, Zuckerschoten und Brokkoli","image":"https:\/\/images.lecker.de\/,id=7e976162,b=lecker,w=610,cg=c.jpg","author":{"@context":"http:\/\/schema.org","@type":"Organization","url":"https:\/\/www.lecker.de","name":"lecker.de","alternateName":"Lecker Kochrezepte","logo":{"@type":"ImageObject","url":"https:\/\/www.lecker.de\/assets\/lecker-logo.png","width":187,"height":60},"sameAs":["http:\/\/www.facebook.com\/lecker","http:\/\/www.twitter.com\/lecker_de","http:\/\/plus.google.com\/+LECKERde","http:\/\/www.instagram.com\/lecker_magazin","http:\/\/www.youtube.com\/LECKERde","http:\/\/de.pinterest.com\/leckerde\/"]},"datePublished":"2020-05-19","dateModified":"2021-12-14T11:25:53+01:00","description":"Unser beliebtes Rezept f\u00fcr Gem\u00fcsepfanne mit H\u00e4hnchen, Zuckerschoten und Brokkoli und mehr als 65.000 weitere kostenlose Rezepte auf LECKER.de.","aggregateRating":{"@type":"AggregateRating","ratingValue":4.1,"ratingCount":"72","itemReviewed":"Recipe","bestRating":5,"worstRating":1},"prepTime":null,"cookTime":"PT25M","totalTime":"PT25M","recipeYield":"4 Personen","nutrition":{"calories":260,"carbohydrateContent":7,"fatContent":7,"proteinContent":38,"servingSize":"1 Portion","@type":"NutritionInformation"},"recipeInstructions":[{"@type":"HowToStep","name":"Schritt 1","text":"Brokkoli putzen und in kleinen R\u00f6schen vom Strunk schneiden. Zuckerschoten putzen. Lauchzwiebeln putzen und in ca. 10 cm lange St\u00fccke schneiden.","url":"https:\/\/www.lecker.de\/gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html#step1"},{"@type":"HowToStep","name":"Schritt 2","text":"Brokkoli, Zuckerschoten und Lauchzwiebeln in reichlich kochendem Salzwasser 2\u20133 Minuten garen. Herausnehmen und mit kaltem Wasser absp\u00fclen. Auf ein Sieb gie\u00dfen und gut abtropfen lassen.","url":"https:\/\/www.lecker.de\/gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html#step2"},{"@type":"HowToStep","name":"Schritt 3","text":"Fleisch trocken tupfen und in W\u00fcrfel (ca. 1,5 x 1,5 cm) schneiden. \u00d6l in einer weiten Pfanne oder einem Wok erhitzen. Fleisch darin, unter Wenden, ca. 3 Minuten kr\u00e4ftig anbraten. Hitze reduzieren und weitere ca. 2 Minuten braten. Gem\u00fcse, Sojaso\u00dfe und Br\u00fche zuf\u00fcgen und 3\u20134 Minuten d\u00fcnsten. Dabei gelegentlich wenden.","url":"https:\/\/www.lecker.de\/gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html#step3"},{"@type":"HowToStep","name":"Schritt 4","text":"Koriander waschen und trocken sch\u00fctteln und, bis auf einige Bl\u00e4tter zum Garnieren, samt Stiel grob hacken. Sesam und Koriander zur Gem\u00fcsepfanne geben und untermischen. Mit Salz und Pfeffer abschmecken und mit Koriander garnieren.","url":"https:\/\/www.lecker.de\/gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html#step4"}],"recipeIngredient":["1 Brokkoli","150 g Zuckerschoten","2 Lauchzwiebeln","4 kleine H\u00e4hnchenbrustfilets (\u00e0 ca. 140 g)","2 EL Sonnenblumen\u00f6l","4 EL Sojaso\u00dfe","50 ml Gem\u00fcsebr\u00fche","6 Stiele Koriander","1 EL Sesamsaat"],"recipeCategory":"Hauptgericht","keywords":"low carb,Mittag,Abendbrot,salzig,Sonstiges,Fleisch & Gefl\u00fcgel"}</script>
+<script type="application/ld+json">[{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Rezepte","url":"https:\/\/www.lecker.de\/rezepte"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Kochen","url":"https:\/\/www.lecker.de\/kochen"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Backen","url":"https:\/\/www.lecker.de\/backen"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Einmachen","url":"https:\/\/www.lecker.de\/rezepte\/einmachen"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"\u00c4pfel","url":"https:\/\/www.lecker.de\/rezepte\/apfel"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"K\u00fcrbis","url":"https:\/\/www.lecker.de\/rezepte\/kuerbis"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Herbst","url":"https:\/\/www.lecker.de\/rezepte\/herbst"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Getr\u00e4nke","url":"https:\/\/www.lecker.de\/getraenke"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Topfkino","url":"https:\/\/www.lecker.de\/topfkino"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Apps","url":"https:\/\/www.lecker.de\/app-fuer-ios-und-android-lecker-rezepte-fuer-jeden-tag-50486.html"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Gewinnspiele","url":"https:\/\/www.lecker.de\/gewinnspiele"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":"Abo","url":"https:\/\/www.bauer-plus.de\/lecker-navi"}]</script>
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Recipe","name":"Gem\u00fcsepfanne mit H\u00e4hnchen, Zuckerschoten und Brokkoli","image":"https:\/\/images.lecker.de\/,id=7e976162,b=lecker,w=610,cg=c.jpg","author":{"@context":"http:\/\/schema.org","@type":"Organization","url":"https:\/\/www.lecker.de","name":"lecker.de","alternateName":"Lecker Kochrezepte","logo":{"@type":"ImageObject","url":"https:\/\/www.lecker.de\/assets\/lecker-logo.png","width":187,"height":60},"sameAs":["http:\/\/www.facebook.com\/lecker","http:\/\/www.twitter.com\/lecker_de","http:\/\/plus.google.com\/+LECKERde","http:\/\/www.instagram.com\/lecker_magazin","http:\/\/www.youtube.com\/LECKERde","http:\/\/de.pinterest.com\/leckerde\/"]},"datePublished":"2020-05-19","dateModified":"2021-12-14T11:25:53+01:00","description":"Unser beliebtes Rezept f\u00fcr Gem\u00fcsepfanne mit H\u00e4hnchen, Zuckerschoten und Brokkoli und mehr als 65.000 weitere kostenlose Rezepte auf LECKER.de.","aggregateRating":{"@type":"AggregateRating","ratingValue":3.9,"ratingCount":"88","itemReviewed":"Recipe","bestRating":5,"worstRating":1},"prepTime":null,"cookTime":"PT25M","totalTime":"PT25M","recipeYield":"4 Personen","nutrition":{"calories":260,"carbohydrateContent":7,"fatContent":7,"proteinContent":38,"servingSize":"1 Portion","@type":"NutritionInformation"},"recipeInstructions":[{"@type":"HowToStep","name":"Schritt 1","text":"Brokkoli putzen und in kleinen R\u00f6schen vom Strunk schneiden. Zuckerschoten putzen. Lauchzwiebeln putzen und in ca. 10 cm lange St\u00fccke schneiden.","url":"https:\/\/www.lecker.de\/gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html#step1"},{"@type":"HowToStep","name":"Schritt 2","text":"Brokkoli, Zuckerschoten und Lauchzwiebeln in reichlich kochendem Salzwasser 2\u20133 Minuten garen. Herausnehmen und mit kaltem Wasser absp\u00fclen. Auf ein Sieb gie\u00dfen und gut abtropfen lassen.","url":"https:\/\/www.lecker.de\/gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html#step2"},{"@type":"HowToStep","name":"Schritt 3","text":"Fleisch trocken tupfen und in W\u00fcrfel (ca. 1,5 x 1,5 cm) schneiden. \u00d6l in einer weiten Pfanne oder einem Wok erhitzen. Fleisch darin, unter Wenden, ca. 3 Minuten kr\u00e4ftig anbraten. Hitze reduzieren und weitere ca. 2 Minuten braten. Gem\u00fcse, Sojaso\u00dfe und Br\u00fche zuf\u00fcgen und 3\u20134 Minuten d\u00fcnsten. Dabei gelegentlich wenden.","url":"https:\/\/www.lecker.de\/gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html#step3"},{"@type":"HowToStep","name":"Schritt 4","text":"Koriander waschen und trocken sch\u00fctteln und, bis auf einige Bl\u00e4tter zum Garnieren, samt Stiel grob hacken. Sesam und Koriander zur Gem\u00fcsepfanne geben und untermischen. Mit Salz und Pfeffer abschmecken und mit Koriander garnieren.","url":"https:\/\/www.lecker.de\/gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html#step4"}],"recipeIngredient":["1 Brokkoli","150 g Zuckerschoten","2 Lauchzwiebeln","4 kleine H\u00e4hnchenbrustfilets (\u00e0 ca. 140 g)","2 EL Sonnenblumen\u00f6l","4 EL Sojaso\u00dfe","50 ml Gem\u00fcsebr\u00fche","6 Stiele Koriander","1 EL Sesamsaat"],"recipeCategory":"Hauptgericht","keywords":"low carb,Mittag,Abendbrot,salzig,Sonstiges,Fleisch & Gefl\u00fcgel"}</script>
 <link rel="shortcut icon" href="https://www.lecker.de/sites/all/themes/lecker/favicon.ico" type="image/vnd.microsoft.icon" />
 <link rel="preload" href="//data-7dd74630af.lecker.de/iomm/latest/manager/base/es6/bundle.js" as="script" id="IOMmBundle" />
 <title>Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli Rezept  | LECKER</title>
@@ -123,23 +159,22 @@
 
     <link rel="preload" href="https://www.lecker.de/assets/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" as="style">
 <link rel="preload" href="https://www.lecker.de/assets/css/css_RBXAX6Jc2_9IkmJkbhi8yHUwSNNl0hbQXdUCjTYq2r0.css" as="style">
-<link rel="preload" href="https://www.lecker.de/assets/css/css_VgNj24sP4tNaaqG0GejTC_i5Mxe-qdvoBTa8W5A2Kpo.css" as="style">
-<link rel="preload" href="https://www.lecker.de/assets/css/css_rsYi7uszwSUn0JjaELiiYcixksg1wXUzCOUnGRiXGC8.css" as="style">
-<link rel="preload" href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&amp;family=Karma:wght@700&amp;family=Lato:ital,wght@0,400;0,700;1,400&amp;display=swap" as="style">
-<link rel="preload" href="https://www.lecker.de/assets/css/css_w-Z52SGOg20y7fAsA2XG6cp9nVgZxzBP3lAIrUpsFV0.css" as="style">
+<link rel="preload" href="https://www.lecker.de/assets/css/css_zpjEQhK0ZXPjsJbeoXoOzsQ6q6DijhRAmTeTS8VVv8M.css" as="style">
+<link rel="preload" href="https://www.lecker.de/assets/css/css_E6DE28Qqv64TufSkB_FMJJ--TlmMuGoh9dZV9lj2CZM.css" as="style">
+<link rel="preload" href="https://www.lecker.de/assets/css/css__2VTzp713iqIpggj0JzwiKPwze4-dbct5gqlV_x_pLU.css" as="style">
 <link rel="preload" href="https://privacy.lecker.de/wrapperMessagingWithoutDetection.js" type=" as="script">
 <link rel="preload" href="https://www.lecker.de/assets/js/js_s5koNMBdK4BqfHyHNPWCXIL2zD0jFcPyejDZsryApj0.js" as="script">
 <link rel="preload" href="https://www.lecker.de/assets/js/js_glhZx5Po2oJucPz05LIyzFxg0EgE2qbTTc8rGoETXgM.js" as="script">
 <link rel="preload" href="https://www.lecker.de/assets/js/js_lZ4QRi_TeVCzgONS8kRTX4f1kL2_1QA8Pra6eIg3VpU.js" as="script">
 <link rel="preload" href="https://www.lecker.de/assets/js/js_k4RI1mrgICFk6s6dKb8ZXrkXyQHY361ZAm_PwqfB1oc.js" as="script">
-<link rel="preload" href="https://www.lecker.de/assets/js/js_Dn44yNTUfd1ILOCm6ZIFORUQY3y8qxjMeBZtFIG_xyA.js" as="script">
-<link rel="preload" href="https://cdn.stroeerdigitalgroup.de/metatag/live/bauer-lecker/metaTag.min.js" as="script">
-<link rel="preload" href="https://www.lecker.de/assets/js/js_EhDRY18rxupktBk-4pny4NoEBjz1facMMBg0llMJwQw.js" as="script">
+<link rel="preload" href="https://www.lecker.de/assets/js/js_Md9VygYx8a6Mh3MyTphZlcVFahrK_nMIEzqSPQAFS28.js" as="script">
+<link rel="preload" href="sites/all/modules/composer/dikr_responsive_ads/js/dikr_responsive_ads_loader.min.js" as="script">
+<link rel="preload" href="https://www.lecker.de/assets/js/js_FhvC54XXhhqWiPg1DgHJOriSTfPfA2-QpTZYy_lsVEQ.js" as="script">
 <link rel="preload" href="//data-7dd74630af.lecker.de/iomm/latest/bootstrap/loader.js" as="script">
-<link rel="preload" href="//script.ioam.de/iam.js" as="script">
-<link rel="preload" href="https://www.lecker.de/assets/js/js_Y4-Qvi0rg8rHklAhq81ILXOtGe95M91gS49U2Vt5chQ.js" as="script">
-<link rel="preload" href="https://www.lecker.de/sites/all/themes/lecker/js/angular.package.js?rbpm0a" as="script">
-<link rel="preload" href="https://www.lecker.de/assets/js/js_u_kUq_nvMudPqzNL6FdRCJ77JsO5dDJl5MlTz2-TNS4.js" as="script">
+<link rel="preload" href="https://www.lecker.de/assets/js/js_iuLCwBW5HxhSapcaHykLgpdop8rJNRUpInV2z4O2DHg.js" as="script">
+<link rel="preload" href="https://www.lecker.de/assets/js/js_k9ZBkHohXjZrGR0JI_odcLBsY2B_z-J_t7a9pe0qhE0.js" as="script">
+<link rel="preload" href="https://www.lecker.de/sites/all/themes/lecker/js/angular.package.js?rim29h" as="script">
+<link rel="preload" href="https://www.lecker.de/assets/js/js_Qo6F9OtgSS3qI0mvnZbjSNdkM74B08AcT-oeZUm-KhY.js" as="script">
 <link rel="preload" href="https://www.lecker.de/sites/all/themes/lecker/fonts/lecker_iconfont.woff?40" as="font" type="font/woff" crossorigin>
 <style type="text/css">
   @font-face {
@@ -157,10 +192,9 @@
 
 		<link type="text/css" rel="stylesheet" href="https://www.lecker.de/assets/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
 <link type="text/css" rel="stylesheet" href="https://www.lecker.de/assets/css/css_RBXAX6Jc2_9IkmJkbhi8yHUwSNNl0hbQXdUCjTYq2r0.css" media="all" />
-<link type="text/css" rel="stylesheet" href="https://www.lecker.de/assets/css/css_VgNj24sP4tNaaqG0GejTC_i5Mxe-qdvoBTa8W5A2Kpo.css" media="all" />
-<link type="text/css" rel="stylesheet" href="https://www.lecker.de/assets/css/css_rsYi7uszwSUn0JjaELiiYcixksg1wXUzCOUnGRiXGC8.css" media="all" />
-<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&amp;family=Karma:wght@700&amp;family=Lato:ital,wght@0,400;0,700;1,400&amp;display=swap" media="all" />
-<link type="text/css" rel="stylesheet" href="https://www.lecker.de/assets/css/css_w-Z52SGOg20y7fAsA2XG6cp9nVgZxzBP3lAIrUpsFV0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.lecker.de/assets/css/css_zpjEQhK0ZXPjsJbeoXoOzsQ6q6DijhRAmTeTS8VVv8M.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.lecker.de/assets/css/css_E6DE28Qqv64TufSkB_FMJJ--TlmMuGoh9dZV9lj2CZM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.lecker.de/assets/css/css__2VTzp713iqIpggj0JzwiKPwze4-dbct5gqlV_x_pLU.css" media="all" />
 		<script type="text/javascript" src="https://www.lecker.de/assets/js/js_s5koNMBdK4BqfHyHNPWCXIL2zD0jFcPyejDZsryApj0.js"></script>
 <script type="text/javascript" src="https://www.lecker.de/assets/js/js_glhZx5Po2oJucPz05LIyzFxg0EgE2qbTTc8rGoETXgM.js"></script>
 <script type="text/javascript" src="https://www.lecker.de/assets/js/js_lZ4QRi_TeVCzgONS8kRTX4f1kL2_1QA8Pra6eIg3VpU.js"></script>
@@ -187,76 +221,120 @@ var afsMode = new afs(true, false);
     }
 //--><!]]>
 </script>
-<script type="text/javascript" src="https://www.lecker.de/assets/js/js_Dn44yNTUfd1ILOCm6ZIFORUQY3y8qxjMeBZtFIG_xyA.js"></script>
+<script type="text/javascript" src="https://www.lecker.de/assets/js/js_Md9VygYx8a6Mh3MyTphZlcVFahrK_nMIEzqSPQAFS28.js"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
 (function() {
-     var s   = document.createElement('script');
-     s.type  = 'text/javascript';
-     s.async = true;
-     s.src   = 'https://d.nativendo.de/cds/delivery/init';
-     var sc  = document.getElementsByTagName('script')[0];
-     sc.parentNode.insertBefore(s, sc);
-    })();
-//--><!]]>
-</script>
-<script type="text/javascript" src="https://cdn.stroeerdigitalgroup.de/metatag/live/bauer-lecker/metaTag.min.js"></script>
-<script type="text/javascript" src="https://www.lecker.de/assets/js/js_EhDRY18rxupktBk-4pny4NoEBjz1facMMBg0llMJwQw.js"></script>
-<script type="text/javascript" src="//data-7dd74630af.lecker.de/iomm/latest/bootstrap/loader.js"></script>
-<script type="text/javascript" src="//script.ioam.de/iam.js"></script>
-<script type="text/javascript">
-<!--//--><![CDATA[//><!--
-var iom = iom || {c:function(){}};
-//--><!]]>
-</script>
-<script type="text/javascript" src="https://www.lecker.de/assets/js/js_Y4-Qvi0rg8rHklAhq81ILXOtGe95M91gS49U2Vt5chQ.js"></script>
-<script type="text/javascript">
-<!--//--><![CDATA[//><!--
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function()
-{ (i[r].q=i[r].q||[]).push(arguments)}
-,i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-if ('undefined' !== typeof(ga)) {
-  var _customTask = function() {
-    return function(model) {
-      // Add the PII pattern
-      var piiRegex = /([^=&?/]+(@|%40|%2540)[^&?]+)/g
-      var globalSendTaskName = '_' + model.get('trackingId') + '_sendHitTask'
-      // Fetch reference to the original sendHitTask
-      var originalSendTask = window[globalSendTaskName] = window[globalSendTaskName] || model.get('sendHitTask')
-      // Overwrite sendHitTask with PII purger
-      model.set('sendHitTask', function (sendModel) {
-        sendModel.set(
-          'hitPayload',
-          sendModel.get('hitPayload').replace(piiRegex, ''),
-          true
-        )
-        originalSendTask(sendModel)
-      })
-    };
+  var readCookie = function (name) {
+    var name = name + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return null;
   };
-  ga('create', 'UA-16281452-2', 'lecker.de');
-  ga('set', 'anonymizeIp', true);
-  ga('set', 'dimension1', 'Lecker');ga('set', 'dimension2', 'Rezepte');ga('set', 'dimension3', 'Einzelrezepte');ga('set', 'dimension15', 'none');ga('set', 'dimension44', 'non-amp');ga('set', 'dimension32', 'lecker|rezepte|einzelrezepte');ga('set', 'dimension4', 'Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli');ga('set', 'dimension8', 'recipe');ga('set', 'dimension10', 'anonym');ga('set', 'dimension12', '2020-05-19 14:48:30');ga('set', 'dimension13', '2021-12-14 11:25:53');ga('set', 'dimension14', '79685');ga('set', 'dimension42', '');ga('set', 'dimension48', '0');ga('set', 'dimension70', '0');ga('set', 'dimension49', '0');ga('set', 'dimension57', '0');ga('set', 'dimension69', '0');ga('set', 'dimension58', '0');ga('set', 'dimension40', 'low_carb|mittag|abendbrot|hauptgericht|salzig|sonstiges|fleisch_&_gefluegel');  ga('set', 'customTask', _customTask());
-  if (typeof sourcepoint !== 'undefined') {
+
+  var nativendoInit = function () {
+    var s   = document.createElement('script');
+    s.type  = 'text/javascript';
+    s.async = true;
+    s.src   = 'https://d.nativendo.de/cds/delivery/init';
+    var sc  = document.getElementsByTagName('script')[0];
+    sc.parentNode.insertBefore(s, sc);
+  }
+
+  if (readCookie('euconsent-v2') !== null && typeof nativendo !== 'object') {
+    nativendoInit();
+  }
+
+  window.__tcfapi('addEventListener', 2, (tcData, success) => {
+    if (success && tcData.eventStatus === 'useractioncomplete') {
+      if (typeof nativendo !== 'object') {
+        nativendoInit();
+      }
+    }
+  });
+})();
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var dikr_responsive_ads_cdn = "https://cdn.stroeerdigitalgroup.de/metatag/live/bauer-lecker/metaTag.min.js";
+//--><!]]>
+</script>
+<script type="text/javascript" src="sites/all/modules/composer/dikr_responsive_ads/js/dikr_responsive_ads_loader.min.js"></script>
+<script type="text/javascript" src="https://www.lecker.de/assets/js/js_FhvC54XXhhqWiPg1DgHJOriSTfPfA2-QpTZYy_lsVEQ.js"></script>
+<script type="text/javascript" src="//data-7dd74630af.lecker.de/iomm/latest/bootstrap/loader.js"></script>
+<script type="text/javascript" src="https://www.lecker.de/assets/js/js_iuLCwBW5HxhSapcaHykLgpdop8rJNRUpInV2z4O2DHg.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function () {
+  var gaInit = function () {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function()
+    { (i[r].q=i[r].q||[]).push(arguments)}
+      ,i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    if ('undefined' !== typeof(ga)) {
+      var _customTask = function() {
+        return function(model) {
+          // Add the PII pattern
+          var piiRegex = /([^=&?/]+(@|%40|%2540)[^&?]+)/g
+          var globalSendTaskName = '_' + model.get('trackingId') + '_sendHitTask'
+          // Fetch reference to the original sendHitTask
+          var originalSendTask = window[globalSendTaskName] = window[globalSendTaskName] || model.get('sendHitTask')
+          // Overwrite sendHitTask with PII purger
+          model.set('sendHitTask', function (sendModel) {
+            sendModel.set(
+              'hitPayload',
+              sendModel.get('hitPayload').replace(piiRegex, ''),
+              true
+            )
+            originalSendTask(sendModel)
+          })
+        };
+      };
+      ga('create', 'UA-16281452-2', 'lecker.de');
+      ga('set', 'anonymizeIp', true);
+      ga('set', 'dimension1', 'Lecker');ga('set', 'dimension2', 'Rezepte');ga('set', 'dimension3', 'Einzelrezepte');ga('set', 'dimension15', 'none');ga('set', 'dimension44', 'non-amp');ga('set', 'dimension32', 'lecker|rezepte|einzelrezepte');ga('set', 'dimension4', 'Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli');ga('set', 'dimension8', 'recipe');ga('set', 'dimension10', 'anonym');ga('set', 'dimension12', '2020-05-19 14:48:30');ga('set', 'dimension13', '2021-12-14 11:25:53');ga('set', 'dimension14', '79685');ga('set', 'dimension42', '');ga('set', 'dimension48', '0');ga('set', 'dimension70', '0');ga('set', 'dimension49', '0');ga('set', 'dimension57', '0');ga('set', 'dimension69', '0');ga('set', 'dimension58', '0');ga('set', 'dimension40', 'low_carb|mittag|abendbrot|hauptgericht|salzig|sonstiges|fleisch_&_gefluegel');      ga('set', 'customTask', _customTask());
+
+      ga('set', 'dimension67', 'cleverpush|pinterest|vibrant');ga('send', 'pageview');
+    }
+  }
+
+  if (typeof sourcepoint !== 'undefined' && typeof ga === 'undefined') {
     sourcepoint.hasVendorConsent('5e542b3a4cd8884eb41b5a72')
       .then(resolve => {
         if (resolve) {
-          ga('set', 'dimension67', 'cleverpush|pinterest|vibrant');ga('send', 'pageview');
+          gaInit()
         }
       })
       .catch(error => {
         console.log(error)
       })
   }
-}
+
+  window.__tcfapi('addEventListener', 2, (tcData, success) => {
+    if (success && tcData.eventStatus === 'useractioncomplete' && typeof ga === 'undefined') {
+      gaInit();
+    }
+  })
+}())
 
 //--><!]]>
 </script>
+<script type="text/javascript" src="https://www.lecker.de/assets/js/js_k9ZBkHohXjZrGR0JI_odcLBsY2B_z-J_t7a9pe0qhE0.js"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"lecker","theme_token":"p5EPfkpiU0g_mA1EiY5KpOkj7cV2fWYZVBSQTvLwXyI","jquery_version":"1.10","js":{"0":1,"1":1,"sites\/all\/themes\/lecker\/js\/angular.package.js":1,"2":1,"sites\/all\/modules\/composer\/bdu_taboola\/js\/taboola_push.js":1,"sites\/all\/themes\/lecker\/js\/vendor\/plugins.js":1,"sites\/all\/themes\/lecker\/js\/script.js":1,"sites\/all\/modules\/composer\/dikr_responsive_ads\/js\/dikr_responsive_ads_stroeer.min.js":1,"3":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"sites\/all\/libraries\/chosen\/chosen.jquery.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/themes\/lecker\/js-drupal\/teaserlist_ads.js":1,"sites\/all\/themes\/lecker\/js-drupal\/search.js":1,"sites\/all\/themes\/lecker\/js-drupal\/appview.js":1,"sites\/all\/modules\/composer\/dikr_responsive_ads\/js\/dikr_responsive_ads_stroeer_bgclick.min.js":1,"4":1,"public:\/\/languages\/de_T91tDSDmkm0UIULWE5fGQJpzvtaCxiSVlstncf7hEwM.js":1,"sites\/all\/modules\/composer\/bdu_taboola\/js\/taboola_createElement.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contrib\/fivestar\/js\/fivestar.ajax.js":1,"sites\/all\/modules\/contrib\/fivestar\/js\/fivestar.js":1,"sites\/all\/modules\/composer\/dikr_social_sharing\/js\/share_base.js":1,"sites\/all\/modules\/composer\/dikr_social_sharing\/js\/share_facebook.js":1,"sites\/all\/modules\/composer\/dikr_social_sharing\/js\/share_pinterest.js":1,"5":1,"https:\/\/cdn.stroeerdigitalgroup.de\/metatag\/live\/bauer-lecker\/metaTag.min.js":1,"sites\/all\/themes\/lecker\/js-drupal\/recipe.js":1,"sites\/all\/modules\/composer\/xcel_piano\/xcel_piano.js":1,"misc\/autocomplete.js":1,"\/\/data-7dd74630af.lecker.de\/iomm\/latest\/bootstrap\/loader.js":1,"\/\/script.ioam.de\/iam.js":1,"6":1,"sites\/all\/modules\/custom\/fivestar_theme\/js\/fivestar_theme.js":1,"sites\/all\/modules\/composer\/xcel_cookie_consent\/dist\/js\/script.min.js":1,"sites\/all\/modules\/composer\/bdu_metainfo\/modules\/bdu_ivw\/js\/mobile-detect.min.js":1,"sites\/all\/modules\/composer\/bdu_metainfo\/modules\/bdu_ivw\/js\/bdu_screen.js":1,"sites\/all\/modules\/contrib\/chosen\/chosen.js":1,"7":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/chosen\/chosen.css":1,"sites\/all\/modules\/contrib\/chosen\/css\/chosen-drupal.css":1,"sites\/all\/modules\/composer\/bdu_service_integration\/bdu_service_integration.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/composer\/xcel_adm_tool\/xcel_adm_tool.css":1,"sites\/all\/modules\/composer\/xcel_cookie_consent\/dist\/css\/xcel-cookie-consent.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/themes\/lecker\/templates\/layouts\/page_standard\/page_standard.css":1,"sites\/all\/modules\/custom\/fivestar_theme\/theme\/lecker-small\/lecker-small.css":1,"sites\/all\/modules\/contrib\/fivestar\/css\/fivestar.css":1,"sites\/all\/modules\/custom\/fivestar_theme\/theme\/lecker\/lecker.css":1,"sites\/all\/modules\/custom\/wysiwyg_settings\/css\/wysiwyg.css":1,"sites\/all\/modules\/composer\/xcel_piano\/xcel_piano.css":1,"sites\/all\/modules\/custom\/newsletter_settings\/newsletter_settings.css":1,"https:\/\/fonts.googleapis.com\/css2?family=Alfa+Slab+One\u0026family=Karma:wght@700\u0026family=Lato:ital,wght@0,400;0,700;1,400\u0026display=swap":1,"sites\/all\/themes\/bdu_default\/dist\/css\/style.css":1,"sites\/all\/themes\/lecker\/css\/style.css":1}},"amazonWidget":{"bundle":{"autocompletePath":"\/bdu_amazon_widget\/bundle\/autocomplete"}},"inlineteaser":{"autocomplete_path":"\/brv_teaser\/inlineteaser\/autocomplete","view_modes":"[[\u0022Amazon Teaser (Content)\u0022,\u0022teaser_amaz_content\u0022],[\u0022Carousel (Content)\u0022,\u0022t_crsl_content\u0022],[\u0022HTML Teaser (Content)\u0022,\u0022teaser_html_content\u0022],[\u0022Link Box (Content)\u0022,\u0022teaser_lb_content\u0022],[\u0022Teaser Headline (Content)\u0022,\u0022teaser_head_content\u0022],[\u0022Teaser L (Content)\u0022,\u0022teaser_l_content\u0022],[\u0022Teaser M (Content)\u0022,\u0022teaser_m_content\u0022],[\u0022Teaser M 2-Columns (Content)\u0022,\u0022teaser_m2col_content\u0022],[\u0022Teaser M No-Text (Content)\u0022,\u0022teaser_mnt_content\u0022],[\u0022Teaser S (Content)\u0022,\u0022teaser_s_content\u0022],[\u0022Teaser S 2-Columns (Content)\u0022,\u0022teaser_s2col_content\u0022]]","default_view_mode":""},"inlineform":{"autocomplete_path":"\/inlineform\/autocomplete"},"bdu_taboola":{"contenttype":"article","clientId":"strer-network"},"chosen":{"selector":"select:visible","minimum_single":20,"minimum_multiple":20,"minimum_width":200,"options":{"allow_single_deselect":false,"disable_search":false,"disable_search_threshold":0,"search_contains":true,"placeholder_text_multiple":"Choose some options","placeholder_text_single":"Choose an option","no_results_text":"No results match","inherit_select_classes":true}},"ajax":{"edit-vote--4":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html":true,"0":true},"responsive_ads_adtag":"rezepte","dikr_responsive_ads_custom_params":{"kvpagetype":"recipe_default","kvrcpcategory":"poultry:sauce:bread:vegetables","kvrcppreparations":"boil:fry","kvrcpdrinks":"tea","kvrcpcountry":"asian","kvrcpmeal":"maindish:dessert"},"responsive_ads_tabletad":true,"dikr_responsive_ads_publisher_id":"","dikr_responsive_ads_keywords":"","xcelPiano":{"emailFieldName":"zw1hawwymdiylze1lza1","apiKey":"gYhpBgjPWEC4xEckqhppuCkPth4CtDRa3FW53wKQeAKNttZ2wySERVDJtv6H","mailingListId":799,"messages":{"EMAIL_MISSING":"Bitte eine E-Mail-Adresse eingeben.","EMAIL_INVALID":"Bitte eine g\u00fcltige E-Mail-Adresse eingeben.","FORM_ERROR":"Die Newsletter-Anmeldung ist derzeit leider nicht m\u00f6glich, bitte sp\u00e4ter erneut versuchen.","FORM_SUCCESS":"Die Registrierung war erfolgreich. Vielen Dank f\u00fcr die Anmeldung!"}},"sourcepointVendorsIds":{"cleverpush":"5e77928e9cb08971eb078f60","amazon":"5e7e1298b8e05c5a7d171cee","facebook":"5e716fc09a0b5040d575080f","instagram":"5e7e5243b8e05c1c467daa57","pinterest":"5e839a38b8e05c4e491e738e","spotify":"5e7ad2ef1affb21bd098ccef","twitter":"5e71760b69966540e4554f01","youtube":"5e7ac3fae30e7d1bc1ebf5e8","jotform":"5f599f539e649e174868e2c9","kr3m":"5e717c3a9a0b5040d5750816","tipser":"5f599f768d26e98912df9316","tipsershop":"5f599f768d26e98912df9316","vibrant":"5e837054a10b3a1d0843ff32","tiktok":"5e7f6927b8e05c4e491e7380","longtail":"5f22ce19edb00a1a846a6f8f","classic-trader":"60101a71d691600912ce5d84"},"additionalConsentCookieName":"euconsent-v2-embeds"});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"lecker","theme_token":"wdGf8MyrO-0oDyjQHzCjX1x9kUdWtfL-rnU-_2cHXb4","jquery_version":"1.10","js":{"0":1,"sites\/all\/themes\/lecker\/js\/angular.package.js":1,"1":1,"sites\/all\/modules\/composer\/bdu_taboola\/js\/taboola_push.js":1,"sites\/all\/themes\/lecker\/js\/vendor\/plugins.js":1,"sites\/all\/themes\/lecker\/js\/script.js":1,"sites\/all\/modules\/composer\/dikr_responsive_ads\/js\/dikr_responsive_ads_stroeer.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"sites\/all\/libraries\/chosen\/chosen.jquery.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/themes\/lecker\/js-drupal\/teaserlist_ads.js":1,"sites\/all\/themes\/lecker\/js-drupal\/search.js":1,"sites\/all\/themes\/lecker\/js-drupal\/appview.js":1,"sites\/all\/modules\/composer\/dikr_responsive_ads\/js\/dikr_responsive_ads_stroeer_bgclick.min.js":1,"2":1,"public:\/\/languages\/de__F4oDqkAM0N-jF0IUrNohzs3PEF9IrP0XAKQo48tMaY.js":1,"misc\/autocomplete.js":1,"sites\/all\/modules\/composer\/bdu_taboola\/js\/taboola_createElement.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contrib\/fivestar\/js\/fivestar.ajax.js":1,"sites\/all\/modules\/contrib\/fivestar\/js\/fivestar.js":1,"sites\/all\/modules\/composer\/dikr_social_sharing\/js\/share_base.js":1,"sites\/all\/modules\/composer\/dikr_social_sharing\/js\/share_facebook.js":1,"sites\/all\/modules\/composer\/dikr_social_sharing\/js\/share_pinterest.js":1,"3":1,"4":1,"sites\/all\/modules\/composer\/dikr_responsive_ads\/js\/dikr_responsive_ads_loader.min.js":1,"sites\/all\/themes\/lecker\/js-drupal\/recipe.js":1,"\/\/data-7dd74630af.lecker.de\/iomm\/latest\/bootstrap\/loader.js":1,"sites\/all\/modules\/custom\/fivestar_theme\/js\/fivestar_theme.js":1,"sites\/all\/modules\/composer\/xcel_adblock_detect\/dist\/js\/script.min.js":1,"sites\/all\/modules\/composer\/xcel_cookie_consent\/dist\/js\/script.min.js":1,"sites\/all\/modules\/composer\/bdu_metainfo\/modules\/bdu_infonline_manager\/js\/mobile-detect.min.js":1,"sites\/all\/modules\/composer\/bdu_metainfo\/modules\/bdu_infonline_manager\/js\/bdu_screen.js":1,"sites\/all\/modules\/contrib\/chosen\/chosen.js":1,"sites\/all\/modules\/composer\/bdu_amazon_widget\/js\/slick.min.js":1,"5":1,"sites\/all\/modules\/composer\/bdu_amazon_widget\/js\/slick.config.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/chosen\/chosen.css":1,"sites\/all\/modules\/contrib\/chosen\/css\/chosen-drupal.css":1,"sites\/all\/modules\/composer\/bdu_service_integration\/bdu_service_integration.css":1,"sites\/all\/modules\/composer\/brv_content\/admin.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/composer\/xcel_adblock_detect\/dist\/css\/styles.css":1,"sites\/all\/modules\/composer\/xcel_adm_tool\/xcel_adm_tool.css":1,"sites\/all\/modules\/composer\/xcel_cookie_consent\/dist\/css\/xcel-cookie-consent.css":1,"sites\/all\/modules\/composer\/xcel_pur\/xcel-pur.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/themes\/lecker\/templates\/layouts\/page_standard\/page_standard.css":1,"sites\/all\/modules\/custom\/wysiwyg_settings\/css\/wysiwyg.css":1,"sites\/all\/modules\/custom\/fivestar_theme\/theme\/lecker-small\/lecker-small.css":1,"sites\/all\/modules\/contrib\/fivestar\/css\/fivestar.css":1,"sites\/all\/modules\/custom\/fivestar_theme\/theme\/lecker\/lecker.css":1,"sites\/all\/modules\/composer\/bdu_amazon_widget\/css\/amazonwrapper.css":1,"sites\/all\/themes\/bdu_default\/dist\/css\/style.css":1,"sites\/all\/themes\/lecker\/css\/style.css":1}},"amazonWidget":{"bundle":{"autocompletePath":"\/bdu_amazon_widget\/bundle\/autocomplete"},"manual":{"autocompletePath":"\/bdu_amazon_widget\/manual\/autocomplete"}},"inlineteaser":{"autocomplete_path":"\/brv_teaser\/inlineteaser\/autocomplete","view_modes":"[[\u0022Amazon Teaser (Content)\u0022,\u0022teaser_amaz_content\u0022],[\u0022Carousel (Content)\u0022,\u0022t_crsl_content\u0022],[\u0022HTML Teaser (Content)\u0022,\u0022teaser_html_content\u0022],[\u0022Link Box (Content)\u0022,\u0022teaser_lb_content\u0022],[\u0022Teaser Headline (Content)\u0022,\u0022teaser_head_content\u0022],[\u0022Teaser L (Content)\u0022,\u0022teaser_l_content\u0022],[\u0022Teaser M (Content)\u0022,\u0022teaser_m_content\u0022],[\u0022Teaser M 2-Columns (Content)\u0022,\u0022teaser_m2col_content\u0022],[\u0022Teaser M No-Text (Content)\u0022,\u0022teaser_mnt_content\u0022],[\u0022Teaser S (Content)\u0022,\u0022teaser_s_content\u0022],[\u0022Teaser S 2-Columns (Content)\u0022,\u0022teaser_s2col_content\u0022]]","default_view_mode":""},"inlineform":{"autocomplete_path":"\/inlineform\/autocomplete"},"bdu_taboola":{"contenttype":"article","clientId":"strer-network"},"chosen":{"selector":"select:visible","minimum_single":20,"minimum_multiple":20,"minimum_width":200,"options":{"allow_single_deselect":false,"disable_search":false,"disable_search_threshold":0,"search_contains":true,"placeholder_text_multiple":"Choose some options","placeholder_text_single":"Choose an option","no_results_text":"No results match","inherit_select_classes":true}},"ajax":{"edit-vote--4":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html":true},"responsive_ads_adtag":"rezepte","dikr_responsive_ads_custom_params":{"kvpagetype":"recipe_default","kvrcpcategory":"poultry:sauce:bread:vegetables","kvrcppreparations":"boil:fry","kvrcpdrinks":"tea","kvrcpcountry":"asian","kvrcpmeal":"maindish:dessert"},"responsive_ads_tabletad":true,"dikr_responsive_ads_publisher_id":"","dikr_responsive_ads_keywords":"","sourcepointVendorsIds":{"cleverpush":"5e77928e9cb08971eb078f60","amazon":"5e7e1298b8e05c5a7d171cee","facebook":"5e716fc09a0b5040d575080f","instagram":"5e7e5243b8e05c1c467daa57","pinterest":"5e839a38b8e05c4e491e738e","spotify":"5e7ad2ef1affb21bd098ccef","twitter":"5e71760b69966540e4554f01","youtube":"5e7ac3fae30e7d1bc1ebf5e8","jotform":"5f599f539e649e174868e2c9","kr3m":"5e717c3a9a0b5040d5750816","tipser":"5f599f768d26e98912df9316","tipsershop":"5f599f768d26e98912df9316","vibrant":"5e837054a10b3a1d0843ff32","tiktok":"5e7f6927b8e05c4e491e7380","longtail":"5f22ce19edb00a1a846a6f8f","classic-trader":"60101a71d691600912ce5d84"},"additionalConsentCookieName":"euconsent-v2-embeds"});
 //--><!]]>
 </script>
 
@@ -265,7 +343,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie"
 	<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-79685 node-type-recipe " ng-app="app" ng-strict-di>
 
       <script type="text/plain" data-vendor="cleverpush" data-type="script" data-content="&lt;script src=&quot;https://static.cleverpush.com/channel/loader/3d4kuKRucRnSFv6Wj.js&quot; async&gt;&lt;/script&gt;"></script>
-  
+
   <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M64G4V"
                       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -273,53 +351,75 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie"
 		<script type="text/javascript">
 <!--//--><![CDATA[//><!--
 
-           bdu_screen_init();
-           
-           if (bdu_screen == 'smartphone') {
-                var iam_data = { 
-"st":"moblecke",
-"cp":"LE_Rezepte_Einzel", 
-"sv":"mo",
-"sc":"yes"
-} 
-iom.h(iam_data);
-            } else {
-                var iam_data = { 
-"st":"leckerde",
-"cp":"LE_Rezepte_Einzel", 
-"sv":"in",
-"sc":"yes"
-} 
-iom.c(iam_data);
-            }
-//--><!]]>
-</script>
-<script type="text/javascript">
-<!--//--><![CDATA[//><!--
-
         bdu_screen_init();
         if (bdu_screen !== 'smartphone') {
-          IOMm('configure', { st: 'leckerde', dn: 'data-7dd74630af.lecker.de' });
+          IOMm('configure', { st: 'leckerde', dn: 'data-7dd74630af.lecker.de', mh: 5 });
           IOMm('pageview', { cp: 'LE_Rezepte_Einzel' });
         } else {
-          IOMm('configure', { st: 'moblecke', dn: 'data-7dd74630af.lecker.de' });
+          IOMm('configure', { st: 'moblecke', dn: 'data-7dd74630af.lecker.de', mh: 5 });
           IOMm('pageview', { cp: 'LE_Rezepte_Einzel' });
         }
 
 //--><!]]>
 </script>
 		<!-- action show register modal -->
-		
+
 		<!-- action show login modal -->
-		
+
 		<!-- user activation -->
-		
+
 		<!-- lost password reset -->
-		
+
 		<div class="adAnything dikr-responsive-ads-slot dikr-responsive-ads-analyse"></div>
 
-    
-		
+    <div class="adblock js-adblock">
+  <div class="adblock-warning">
+    <img class="adblock-warning__close js-adblock-close-button" src="sites/all/modules/composer/xcel_adblock_detect/dist/image/close.svg" alt="close" />
+
+
+          <div class="adblock-warning__header">
+        Schön, dass du auf unserer Seite bist! Wir wollen dir auch weiterhin beste Unterhaltung und tollen Service bieten.
+      </div>
+      <div class="adblock-warning__text">
+        Danke, dass du uns dabei unterstützt.
+        Dafür musst du nur für www.lecker.de deinen Ad-Blocker deaktivieren.<br> Geht auch ganz einfach:
+      </div>
+
+      <ul class="adblock-warning__list" >
+        <li>
+          <img src="sites/all/modules/composer/xcel_adblock_detect/dist/image/adblock.png" alt="adblock" />
+          1. Klicke neben der Adresszeile rechts auf das Ad-Blocker-Symbol.
+        </li>
+        <li>
+          <img src="sites/all/modules/composer/xcel_adblock_detect/dist/image/adblock-deactivate.png" alt="adblock deactivate" />
+          2. Wähle die Option "Deaktivieren auf: www.lecker.de".
+        </li>
+      </ul>
+        <div class="adblock-warning__footer">Schon fertig!</div>
+  </div>
+</div>
+
+
+<script type="text/javascript">
+  window.xcelAdblockDetect = window.xcelAdblockDetect || {}
+
+  const adblock = document.querySelector('.js-adblock')
+  const closeButton = adblock.querySelector('.js-adblock-close-button')
+
+  const toggleWarning = (setCookie = false) => {
+    adblock.classList.toggle('adblock--show')
+
+    if (setCookie && !xcelAdblockDetect.getCookie()) {
+      xcelAdblockDetect.setCookie()
+    }
+  }
+
+  closeButton.addEventListener('click', () => toggleWarning(true));
+
+  window.xcelAdblockDetect.toggleWarning = toggleWarning
+</script>
+
+
 <div class="outerWrapper">
 	<!-- ad column top  -->
 	<div class="adRowTopWrapper">
@@ -376,48 +476,48 @@ iom.c(iam_data);
 					<div class="header-navbar--border-bottom">
 						<ul class="list list--navi-1st-lvl list--burger-dotted-divided">
 
-							
+
 <li class="list--burger-no-divider js-dropdown-hover">
   <a href="/rezepte" class="item"><span>Rezepte</span></a>
-  
+
   <a href="#dropdown" class="list-link--dropdown js-dropdown-toggle"><span class="icon icon-arrow_dropdownburger"></span></a>
 
   <div class="header-dropdown">
     <ul class="list list--navi-2nd-lvl list--dotted-divided">
-       <li><a href="/rezepte" title=""><span>Übersicht</span></a></li><li><a href="/rezepte/rezeptgalerien" title=""><span>Rezept-Galerien</span></a></li><li><a href="/videos" title="Kochrezepte und Backrezepte als Video"><span>Rezeptvideos</span></a></li><li><a href="/tagesrezept" title=""><span>Tagesrezept</span></a></li><li><a href="/rezepte-der-woche" title="Rezepte der Woche"><span>Rezepte der Woche</span></a></li><li><a href="/rezepte/saisonale-rezepte" title=""><span>Rezepte der Saison</span></a></li><li><a href="/rezepte-fuer-jeden-tag" title="Rezepte für jeden Tag"><span>Rezepte für jeden Tag</span></a></li><li><a href="/rezepte/schnelle-gerichte" title=""><span>Schnelle Rezepte</span></a></li><li><a href="/rezepte/klassisch" title=""><span>Klassische Rezepte</span></a></li><li><a href="/kochen-fuer-die-familie" title="Kochen für die Familie"><span>Kochen für die Familie</span></a></li><li><a href="/gesund-fruehstuecken" title="Gesund frühstücken"><span>Gesund frühstücken</span></a></li><li><a href="/rezepte/vegetarische-kueche" title="Vegetarische Küche"><span>Vegetarische Küche</span></a></li><li><a href="/taxonomy/term/3787/" title="Vegane Küche"><span>Vegane Küche</span></a></li><li><a href="https://www.lecker.de/wellbeing" title=""><span>Wellbeing</span></a></li><li><a href="https://www.lecker.de/kaese-genuss-mit-alpenhain" title=""><span>Käse-Genuss</span></a></li>    </ul>
+       <li><a href="/rezepte" title=""><span>Übersicht</span></a></li><li><a href="/rezepte/rezeptgalerien" title=""><span>Rezept-Galerien</span></a></li><li><a href="/videos" title="Kochrezepte und Backrezepte als Video"><span>Rezeptvideos</span></a></li><li><a href="/tagesrezept" title=""><span>Tagesrezept</span></a></li><li><a href="/rezepte-der-woche" title="Rezepte der Woche"><span>Rezepte der Woche</span></a></li><li><a href="/rezepte/saisonale-rezepte" title=""><span>Rezepte der Saison</span></a></li><li><a href="/rezepte-fuer-jeden-tag" title="Rezepte für jeden Tag"><span>Rezepte für jeden Tag</span></a></li><li><a href="/rezepte/schnelle-gerichte" title=""><span>Schnelle Rezepte</span></a></li><li><a href="/rezepte/klassisch" title=""><span>Klassische Rezepte</span></a></li><li><a href="/kochen-fuer-die-familie" title="Kochen für die Familie"><span>Kochen für die Familie</span></a></li><li><a href="/gesund-fruehstuecken" title="Gesund frühstücken"><span>Gesund frühstücken</span></a></li><li><a href="/rezepte/vegetarische-kueche" title="Vegetarische Küche"><span>Vegetarische Küche</span></a></li><li><a href="/taxonomy/term/3787/" title="Vegane Küche"><span>Vegane Küche</span></a></li><li><a href="https://www.lecker.de/wellbeing" title=""><span>Wellbeing</span></a></li>    </ul>
 
     <div class="header-teaser">
       <div class="header-teaser__col-left">
         <div class="header-teaser__box">
                       <div class="box w-100 teaser teaser--full-1col">
-  <a href="/kartoffelsalat-rezepte-die-besten-ideen-51420.html">
+  <a href="/flammkuchen-rezepte-koestlichen-variationen-51518.html">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/lecker/rezeptsammlungen/kartoffelsalat/kartoffelsalat-rezepte-q11.jpg?itok=SXnAa5-M" width="135" height="135" alt="Kartoffelsalat-Rezepte - von klassisch bis mediterran" title="Kartoffelsalat-Rezepte - von klassisch bis mediterran -  " />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/flammkuchen-kuerbis-spinat-hack-f9468104.jpg?itok=wO82Pq1M" width="135" height="135" alt="Flammkuchen mit Kürbis" title="Flammkuchen mit Kürbis - House of Food / Bauer Food Experts KG" />
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
-      Kartoffelsalat    </div>
-    <p class="js-ellipsis">Er ist der Star auf Partys und Grillfesten! Hier sind unsere besten Ideen.</p>
-    <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
+      Flammkuchen    </div>
+    <p class="js-ellipsis">Dünner knuspriger Boden und vielfältige Beläge - entdecke unsere neuen Ideen!</p>
+    <div class="teaser__optical-link">Zu den Rezepten <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
   </div>
                   </div>
         <div class="header-teaser__box">
                       <div class="box w-100 teaser teaser--full-1col">
-  <a href="/tiramisu-rezepte-klassiker-und-neue-ideen-83767.html">
+  <a href="/sossen-drei-rezepte-fuer-alle-faelle-50072.html">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/limoncello-tiramisu-b.jpg?itok=v4BZXb4v" width="135" height="135" alt="Limoncello-Tiramisu Rezept" title="Limoncello-Tiramisu Rezept - ShowHeroes" />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/grundrezept-tomatensosse-f4524935_0.jpeg?itok=DRfY3b8Y" width="135" height="135" alt="Grundrezept Tomatensoße" title="Grundrezept Tomatensoße - House of Food / Bauer Food Experts KG" />
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
-      Tiramisu    </div>
-    <p class="js-ellipsis">Du liebst Tiramisu? Dann solltest du dir diese Rezepte ansehen!</p>
-    <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
+      Soßen-Rezepte    </div>
+    <p class="js-ellipsis">Ciao Instant-Pulver - dank unserer Rezepte musst du nie wieder zur Tüte greifen.</p>
+    <div class="teaser__optical-link">Zu den Rezepten <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
   </div>
@@ -425,24 +525,24 @@ iom.c(iam_data);
       </div>
       <div class="header-teaser__col-right">
         <div class="header-teaser__box">
-          
-            
+
+
             <div class="teaser teaser--vertical-ho box w-3 ">
-  <a href="/schnelles-abendessen-blitz-rezepte-zum-feierabend-59380.html">
+  <a href="/wraps-rezepte-fuer-lecker-gefuellte-teigrollen-51611.html">
   <figure class="image">
 
-          <img src="https://www.lecker.de/assets/styles/300x225/public/field/image/schnelles-abendessen-b19.jpg?itok=GXQbtsGG" width="300" height="225" alt="Schnelles Abendessen: Tomaten-Pesto-Crostini" title="Schnelles Abendessen: Tomaten-Pesto-Crostini - House of Food / Bauer Food Experts KG" />    
+          <img src="https://www.lecker.de/assets/styles/300x225/public/field/image/wraps-b16.jpg?itok=HO1afOFd" width="300" height="225" alt="Gefüllte Wraps - die leckersten Rezeptideen" title="Gefüllte Wraps - die leckersten Rezeptideen - House of Food / Bauer Food Experts KG" />
     <div class="title">
               <div class="headline">
-          Schnelle Abendessen        </div>
+          Wraps - köstlich gewickelte Leckereien        </div>
           </div>
 
-    
-    
-    
+
+
+
   </figure>
   <div class="text">
-    <p class="js-ellipsis">Wenn der Tag stressig war, ist ein schnelles Abendessen ideal. Diese Gerichte sind in max. 30 Minuten fertig!</p>
+    <p class="js-ellipsis">Lass dich von Wraps um den Finger wickeln! Die Rollen sind ideal als Snack oder geselliges Abendessen.</p>
     <div class="teaser__optical-link">Zu den Rezepten <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
@@ -454,12 +554,12 @@ iom.c(iam_data);
 
   </div>
 
- 
+
 </li>
 
 <li class="list--burger-no-divider js-dropdown-hover">
   <a href="/kochen" class="item"><span>Kochen</span></a>
-  
+
   <a href="#dropdown" class="list-link--dropdown js-dropdown-toggle"><span class="icon icon-arrow_dropdownburger"></span></a>
 
   <div class="header-dropdown">
@@ -470,16 +570,16 @@ iom.c(iam_data);
       <div class="header-teaser__col-left">
         <div class="header-teaser__box">
                       <div class="box w-100 teaser teaser--full-1col">
-  <a href="/schnelle-ofengerichte-ruck-zuck-wohlfuehlessen-77026.html">
+  <a href="/familienessen-rezepte-die-allen-schmecken-59528.html">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/field/image/schnelle-ofengerichte-b4.jpg?itok=YH46ciH7" width="135" height="135" alt="Schnelle Ofengerichte" title="Schnelle Ofengerichte - House of Food / Bauer Food Experts KG" />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/wikingertopf-b.jpg?itok=EP082pQD" width="135" height="135" alt="Wikingertopf Rezept" title="Wikingertopf Rezept - ShowHeroes" />
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
-      Blitz-Ofenessen    </div>
-    <p class="js-ellipsis">Schnelle Ofengerichte für einen entspannten Feierabend.</p>
+      Familienessen    </div>
+    <p class="js-ellipsis">Leckere Kochideen, die der ganzen Rasselbande schmecken.</p>
     <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
@@ -487,17 +587,17 @@ iom.c(iam_data);
                   </div>
         <div class="header-teaser__box">
                       <div class="box w-100 teaser teaser--full-1col">
-  <a href="/fischgerichte-mit-schlemmer-garantie-51855.html">
+  <a href="/brunch-rezepte-fuer-gemuetliche-vormittage-51757.html">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/fischfilet-in-senfhuelle-f9045701.jpg?itok=4AmvqqLQ" width="135" height="135" alt="Fischfilet in Senfhülle" title="Fischfilet in Senfhülle - House of Food / Bauer Food Experts KG" />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/brunch-rezepte-b3.jpg?itok=kyYSVSXh" width="135" height="135" alt="Brunch Rezepte" title="Brunch Rezepte - House of Food / Bauer Food Experts KG" />
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
-      Fischgerichte    </div>
-    <p class="js-ellipsis">Rezeptideen mit Fisch laden zum Schlemmen ein!</p>
-    <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
+      Brunch-Rezepte    </div>
+    <p class="js-ellipsis">Die besten Brunch-Rezepte von Eiersalat bis Pfannkuchen!</p>
+    <div class="teaser__optical-link">Zu den Rezepten <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
   </div>
@@ -505,24 +605,24 @@ iom.c(iam_data);
       </div>
       <div class="header-teaser__col-right">
         <div class="header-teaser__box">
-          
-            
+
+
             <div class="teaser teaser--vertical-ho box w-3 ">
-  <a href="/kochen-fuer-kinder-die-schoensten-rezept-ideen-51468.html">
+  <a href="/guenstig-kochen-preiswerte-gerichte-fuer-jeden-tag-51824.html">
   <figure class="image">
 
-          <img src="https://www.lecker.de/assets/styles/300x225/public/field/image/suesse-pfannkuchen-b2.jpg?itok=1ouHOb8p" width="300" height="225" alt="Süße Pfannkuchen: Bananen-Pfannkuchen" title="Süße Pfannkuchen: Bananen-Pfannkuchen - House of Food / Bauer Food Experts KG" />    
+          <img src="https://www.lecker.de/assets/styles/300x225/public/field/image/guenstig-kochen-b1.jpg?itok=XJvdr-Di" width="300" height="225" alt="Günstig kochen: Kartoffelstampf mit Tomaten und Speck" title="Günstig kochen - preiswerte Gerichte für jeden Tag - House of Food / Bauer Food Experts KG" />
     <div class="title">
               <div class="headline">
-          Kochen für Kinder        </div>
+          Günstig kochen        </div>
           </div>
 
-    
-    
-    
+
+
+
   </figure>
   <div class="text">
-    <p class="js-ellipsis">Kreative Rezept-Ideen für jeden Tag, die deine Kleinen mit Genuss verspeisen werden.</p>
+    <p class="js-ellipsis">Großer Genuss für kleines Geld: Entdecke unsere besten Rezepten für maximal 2,50 Euro pro Portion.</p>
     <div class="teaser__optical-link">Zu den Rezepten <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
@@ -534,12 +634,12 @@ iom.c(iam_data);
 
   </div>
 
- 
+
 </li>
 
 <li class="list--burger-no-divider js-dropdown-hover">
   <a href="/backen" class="item"><span>Backen</span></a>
-  
+
   <a href="#dropdown" class="list-link--dropdown js-dropdown-toggle"><span class="icon icon-arrow_dropdownburger"></span></a>
 
   <div class="header-dropdown">
@@ -550,16 +650,16 @@ iom.c(iam_data);
       <div class="header-teaser__col-left">
         <div class="header-teaser__box">
                       <div class="box w-100 teaser teaser--full-1col">
-  <a href="/kastenkuchen-suesses-mit-ecken-und-kanten-59351.html">
+  <a href="https://www.lecker.de/rezepte/apfelkuchen">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/field/image/kastenkuchen-b.jpg?itok=6yUEvVQ1" width="135" height="135" alt="Kastenkuchen" title="Kastenkuchen - House of Food / Bauer Food Experts KG" />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/field/image/apfelkuchen-rezepte-b.jpg?itok=fFyE1XmT" width="135" height="135" alt="Apfelkuchen-Rezepte" title="Apfelkuchen-Rezepte - House of Food / Bauer Food Experts KG" />
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
-      Kastenkuchen    </div>
-    <p class="js-ellipsis">Köstliche Kuchen mit Ecken und Kanten.</p>
+      Beste Apfelkuchen    </div>
+    <p class="js-ellipsis">Jetzt ist genau die richtige Zeit für diese saftigen Traumkuchen!</p>
     <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
@@ -567,16 +667,16 @@ iom.c(iam_data);
                   </div>
         <div class="header-teaser__box">
                       <div class="box w-100 teaser teaser--full-1col">
-  <a href="/kuchen-ohne-backen-echte-kuehlschrankkuchen-51739.html">
+  <a href="/ruehrkuchen-die-besten-rezepte-fuer-gugelhupf-co-51534.html">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/field/image/kuchen-ohne-backen-b18.jpg?itok=aoFsVra-" width="135" height="135" alt="Kuchen ohne Backen" title="Kuchen ohne Backen - House of Food / Bauer Food Experts KG" />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/field/image/ruehrkuchen-b14.jpg?itok=Ox4iqdmL" width="135" height="135" alt="Rührkuchen - die besten Rezepte" title="Rührkuchen - die besten Rezepte - House of Food / Bauer Food Experts KG" />
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
-      Coole Cakes    </div>
-    <p class="js-ellipsis">Die besten Rezepte für Kuchen ohne Backen.</p>
+      Rührkuchen    </div>
+    <p class="js-ellipsis">Alle Zutaten verrühren, in die Backform geben und backen - fertig!</p>
     <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
@@ -585,24 +685,24 @@ iom.c(iam_data);
       </div>
       <div class="header-teaser__col-right">
         <div class="header-teaser__box">
-          
-            
+
+
             <div class="teaser teaser--vertical-ho box w-3 ">
-  <a href="/rezepte/rhabarberkuchen">
+  <a href="/zwetschgenkuchen-klassiker-und-neue-ideen-51808.html">
   <figure class="image">
 
-          <img src="https://www.lecker.de/assets/styles/300x225/public/rhabarberkuchen-b11.jpg?itok=XvuFTGcG" width="300" height="225" alt="Rhabarberkuchen mit Baiser" title="Rhabarberkuchen mit Baiser - House of Food / Bauer Food Experts KG" />    
+          <img src="https://www.lecker.de/assets/styles/300x225/public/field/image/zwetschgenkuchen-b6.jpg?itok=QLca3izh" width="300" height="225" alt="Zwetschgenkuchen Rezepte" title="Zwetschgenkuchen Rezepte" />
     <div class="title">
               <div class="headline">
-          Rhabarberkuchen backen        </div>
+          Zwetschgenkuchen        </div>
           </div>
 
-    
-    
-    
+
+
+
   </figure>
   <div class="text">
-    <p class="js-ellipsis">Klassische Rezepte und neue Backideen, mit Baiser, Streuseln oder Creme-Topping - die besten Rezepte.</p>
+    <p class="js-ellipsis">Endlich gibt's wieder Zwetschgenkuchen! Von Juli bis September habe die süßen Zwetschgen Saison.</p>
     <div class="teaser__optical-link">Zu den Rezepten <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
@@ -614,50 +714,50 @@ iom.c(iam_data);
 
   </div>
 
- 
+
 </li>
 
 <li class="list--burger-no-divider js-dropdown-hover">
-  <a href="/rezepte/fruehling" class="item"><span>Frühling</span></a>
-  
+  <a href="https://www.lecker.de/rezepte/einmachen" class="item"><span>Einmachen</span></a>
+
   <a href="#dropdown" class="list-link--dropdown js-dropdown-toggle"><span class="icon icon-arrow_dropdownburger"></span></a>
 
   <div class="header-dropdown">
     <ul class="list list--navi-2nd-lvl list--dotted-divided">
-       <li><a href="/rezepte/fruehling" title=""><span>Übersicht</span></a></li><li><a href="/kraeuter" title=""><span>Kräuter</span></a></li><li><a href="/rezepte/maifest" title=""><span>Maifest</span></a></li><li><a href="/rezepte/moehren" title=""><span>Möhren</span></a></li><li><a href="/rezepte/rhabarber" title=""><span>Rhabarber</span></a></li>    </ul>
+       <li><a href="https://www.lecker.de/rezepte/einmachen" title=""><span>Übersicht</span></a></li>    </ul>
 
     <div class="header-teaser">
       <div class="header-teaser__col-left">
         <div class="header-teaser__box">
                       <div class="box w-100 teaser teaser--full-1col">
-  <a href="/fruehlingskuchen-die-schoensten-rezepte-51679.html">
+  <a href="/birnen-einkochen-81879.html">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/field/image/fruehlingskuchen-b13.jpg?itok=x1errbU0" width="135" height="135" alt="Frühlingskuchen: Mandarinen-Schmetterlingsschnitten" title="Mandarinen-Schmetterlingsschnitten - House of Food / Bauer Food Experts KG" />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/birnen-einkochen-rezept-b.jpg?itok=ChWVoIR9" width="135" height="135" alt="Birnen einkochen Rezept" title="Birnen einkochen Rezept - House of Food / Bauer Food Experts KG" />
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
-      Frühlingskuchen    </div>
-    <p class="js-ellipsis">Jetzt ist Zeit für leuchtende und saftige Frühlingskuchen.</p>
-    <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
+      Birnen einkochen    </div>
+    <p class="js-ellipsis">Die Bäume hängen voller Birnen - und das Einkochen ist so einfach!</p>
+    <div class="teaser__optical-link">Zur Anleitung <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
   </div>
                   </div>
         <div class="header-teaser__box">
                       <div class="box w-100 teaser teaser--full-1col">
-  <a href="/rhabarber-dessert-fabelhafte-variationen-51408.html">
+  <a href="/pflaumen-einkochen-84172.html">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/field/image/quarkcreme-mit-ingwer-rhabarber-lecker-06-2019-b.jpg?itok=yLoM8Nue" width="135" height="135" alt="Rhabarber-Dessert" title="Rhabarber-Dessert - House of Food / Bauer Food Experts KG" />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/pflaumen-einkochen-f4549403.jpg?itok=lxi2Rue_" width="135" height="135" alt="Eingekochte Pflaumen im Glas" title="Eingekochte Pflaumen im Glas - House of Food / Bauer Food Experts KG" />
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
-      Rhabarberdesserts    </div>
-    <p class="js-ellipsis">Die aromatischen Stangen schmecken im Nachtisch einfach köstlich!</p>
-    <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
+      Pflaumen einkochen    </div>
+    <p class="js-ellipsis">Im Spätsommer ist Pflaumenzeit. So kochst du die Früchte ein!</p>
+    <div class="teaser__optical-link">Zur Anleitung <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
   </div>
@@ -665,25 +765,25 @@ iom.c(iam_data);
       </div>
       <div class="header-teaser__col-right">
         <div class="header-teaser__box">
-          
-            
+
+
             <div class="teaser teaser--vertical-ho box w-3 ">
-  <a href="rezepte/fruehlingssuppe">
+  <a href="/apfelmus-einkochen-84151.html">
   <figure class="image">
 
-          <img src="https://www.lecker.de/assets/styles/300x225/public/field/image/fruehlingssuppe-b6_0.jpg?itok=JG8R_Mfa" width="300" height="225" alt="Frühlingssuppe" title="Frühlingssuppe - Food &amp; Foto Experts" />    
+          <img src="https://www.lecker.de/assets/styles/300x225/public/apfelmus-einfuellen_1.jpg?itok=8OySDUIy" width="300" height="225" alt="Apfelmus einfüllen" title="Apfelmus einfüllen" />
     <div class="title">
               <div class="headline">
-          Frühlingssuppen        </div>
+          Apfelmus einkochen        </div>
           </div>
 
-    
-    
-    
+
+
+
   </figure>
   <div class="text">
-    <p class="js-ellipsis">Jetzt erobern junges Gemüse und aromatische Wildkräuter unsere Suppentöpfe!</p>
-    <div class="teaser__optical-link">Zu den Rezepten <span class="icon icon-arrow_link"></span></div>
+    <p class="js-ellipsis">Wir erklären 2 einfache Methoden, mit denen du das Saisonobst einkochen und so monatelang konservieren kannst.</p>
+    <div class="teaser__optical-link">Zur Anleitung <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
   </div>
@@ -694,49 +794,49 @@ iom.c(iam_data);
 
   </div>
 
- 
+
 </li>
 
 <li class="list--burger-no-divider js-dropdown-hover">
-  <a href="/spargel" class="item"><span>Spargel</span></a>
-  
+  <a href="https://www.lecker.de/rezepte/apfel" class="item"><span>Äpfel</span></a>
+
   <a href="#dropdown" class="list-link--dropdown js-dropdown-toggle"><span class="icon icon-arrow_dropdownburger"></span></a>
 
   <div class="header-dropdown">
     <ul class="list list--navi-2nd-lvl list--dotted-divided">
-       <li><a href="/spargel" title="Spargel"><span>Übersicht</span></a></li><li><a href="/rezepte/spargel-gerichte" title=""><span>Spargelgerichte</span></a></li><li><a href="https://www.lecker.de/spargel-kochen-so-gehts-richtig-71311.html" title=""><span>Spargel kochen</span></a></li><li><a href="https://www.lecker.de/gruener-spargel-3-arten-der-zubereitung-71215.html" title=""><span>Grünen Spargel zubereiten</span></a></li><li><a href="https://www.lecker.de/spargelcremesuppe-11294.html" title=""><span>Spargelcremesuppe</span></a></li><li><a href="https://www.lecker.de/spargel-im-backofen-garen-so-gehts-50310.html" title=""><span>Ofenspargel</span></a></li><li><a href="https://www.lecker.de/rezepte/spargelsalat" title=""><span>Spargelsalat</span></a></li><li><a href="https://www.lecker.de/sossen-zu-spargel-6-neue-rezepte-zum-ausprobieren-68122.html" title=""><span>Spargelsoßen</span></a></li>    </ul>
+       <li><a href="https://www.lecker.de/rezepte/apfel" title=""><span>Übersicht</span></a></li><li><a href="https://www.lecker.de/rezepte/apfelkuchen" title=""><span>Apfelkuchen</span></a></li><li><a href="https://www.lecker.de/rezepte/apfeltarte" title=""><span>Apfeltarte</span></a></li><li><a href="https://www.lecker.de/rezepte/apfeltorte" title=""><span>Apfeltorte</span></a></li><li><a href="https://www.lecker.de/rezepte/apfelpfannkuchen" title=""><span>Apfelpfannkuchen</span></a></li>    </ul>
 
     <div class="header-teaser">
       <div class="header-teaser__col-left">
         <div class="header-teaser__box">
                       <div class="box w-100 teaser teaser--full-1col">
-  <a href="/spargel-rezepte-das-beste-mit-weissem-spargel-51412.html">
+  <a href="/apfelmus-81936.html">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/field/image/spargel-rezepte-b16.jpg?itok=6vqNOKEk" width="135" height="135" alt="Spargel-Rezepte: Spargelplatte mit Schwarzwälder Soße" title="Spargelplatte mit Schwarzwälder Soße - House of Food / Bauer Food Experts KG" />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/apfelmus-kochen.jpg?itok=7VxwyEJM" width="135" height="135" alt="Apfelmus kochen" title="Apfelmus kochen" />
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
-      Weißer Spargel    </div>
-    <p class="js-ellipsis">Für Genießer: So schmeckt die Spargel-Saison!</p>
-    <div class="teaser__optical-link">Zu den Rezepten <span class="icon icon-arrow_link"></span></div>
+      Apfelmus kochen    </div>
+    <p class="js-ellipsis">So einfach kannst du Apfelmus selber machen.</p>
+    <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
   </div>
                   </div>
         <div class="header-teaser__box">
                       <div class="box w-100 teaser teaser--full-1col">
-  <a href="/gruener-spargel-rezepte-mit-saisongemuese-51411.html">
+  <a href="/apfel-crumble-15969.html">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/field/image/gruener-spargel-b16.jpg?itok=XXEfIYcG" width="135" height="135" alt="Grüner Spargel - Rezepte mit Saisongemüse" title="Grüner Spargel - Rezepte mit Saisongemüse - House of Food / Bauer Food Experts KG" />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/apfel-crumble-b.jpg?itok=rSww-TNh" width="135" height="135" alt="Apfel-Crumble" title="Apfel-Crumble - iStock/SMarina" />
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
-      Grüner Spargel    </div>
-    <p class="js-ellipsis">Rezepte für Quiche, Salat, Pasta, mit Fleisch oder Fisch.</p>
+      Apfel-Crumble    </div>
+    <p class="js-ellipsis">Innen saftig, außen schön knusprig!</p>
     <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
@@ -745,24 +845,24 @@ iom.c(iam_data);
       </div>
       <div class="header-teaser__col-right">
         <div class="header-teaser__box">
-          
-            
+
+
             <div class="teaser teaser--vertical-ho box w-3 ">
-  <a href="/spargel-rezepte-vegetarisch-68114.html">
+  <a href="/rezepte/apfelkuchen">
   <figure class="image">
 
-          <img src="https://www.lecker.de/assets/styles/300x225/public/field/image/spargel-rezepte-vegetarisch-b2.jpg?itok=2VVFFWMI" width="300" height="225" alt="Spargel-Rezepte vegetarisch: Spargel-Platte mit Bratkartoffeln" title="Spargel-Platte mit Bratkartoffeln - House of Food / Bauer Food Experts KG" />    
+          <img src="https://www.lecker.de/assets/styles/300x225/public/field/image/apfelkuchen-rezepte-b.jpg?itok=wfxtXv3U" width="300" height="225" alt="Apfelkuchen-Rezepte" title="Apfelkuchen-Rezepte - House of Food / Bauer Food Experts KG" />
     <div class="title">
               <div class="headline">
-          Vegetarische Spargel-Rezepte        </div>
+          Die besten Apfelkuchen        </div>
           </div>
 
-    
-    
-    
+
+
+
   </figure>
   <div class="text">
-    <p class="js-ellipsis">Die Möglichkeiten, Spargel-Rezepte vegetarisch zuzubereiten, sind wunderbar vielfältig!</p>
+    <p class="js-ellipsis">Aus Rührteig, mit Pudding und Streuseln oder in der gedeckten Variante - unsere besten Apfelkuchen-Rezepte!</p>
     <div class="teaser__optical-link">Zu den Rezepten <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
@@ -774,32 +874,32 @@ iom.c(iam_data);
 
   </div>
 
- 
+
 </li>
 
 <li class="list--burger-no-divider js-dropdown-hover">
-  <a href="/rezepte/erdbeer" class="item"><span>Erdbeeren</span></a>
-  
+  <a href="/rezepte/kuerbis" class="item"><span>Kürbis</span></a>
+
   <a href="#dropdown" class="list-link--dropdown js-dropdown-toggle"><span class="icon icon-arrow_dropdownburger"></span></a>
 
   <div class="header-dropdown">
     <ul class="list list--navi-2nd-lvl list--dotted-divided">
-       <li><a href="/rezepte/erdbeer" title=""><span>Übersicht</span></a></li><li><a href="/rezepte/erdbeerkuchen" title=""><span>Erdbeerkuchen</span></a></li><li><a href="/rezepte/erdbeertorte" title=""><span>Erdbeertorte</span></a></li>    </ul>
+       <li><a href="https://www.lecker.de/rezepte/kuerbis" title=""><span>Übersicht</span></a></li><li><a href="https://www.lecker.de/rezepte/kuerbis-auflauf" title=""><span>Kürbis-Auflauf</span></a></li><li><a href="/rezepte/kuerbiskuchen" title="Kürbiskuchen-Rezepte"><span>Kürbiskuchen</span></a></li><li><a href="https://www.lecker.de/rezepte/butternut" title=""><span>Butternut-Rezepte</span></a></li><li><a href="https://www.lecker.de/hokkaido-rezepte-mit-dem-lieblingskuerbis-51517.html" title=""><span>Hokkaido-Rezepte</span></a></li>    </ul>
 
     <div class="header-teaser">
       <div class="header-teaser__col-left">
         <div class="header-teaser__box">
                       <div class="box w-100 teaser teaser--full-1col">
-  <a href="/erdbeeren-lagern-so-bleiben-sie-lange-frisch-74197.html">
+  <a href="/hokkaido-rezepte-mit-dem-lieblingskuerbis-51517.html">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/field/image/erdbeeren-lagern-b.jpg?itok=ExjtcFVF" width="135" height="135" alt="Erdbeeren lagern " title="Erdbeeren lagern  - Food &amp; Foto Experts" />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/field/image/hokkaido-rezepte-b12.jpg?itok=Od0jIOxm" width="135" height="135" alt="Hokkaido-Rezepte: Gefüllter Hokkaido" title="Hokkaido-Rezepte: Gefüllter Hokkaido - House of Food / Bauer Food Experts KG" />
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
-      Erdbeeren lagern    </div>
-    <p class="js-ellipsis">So bleiben die roten Früchte lange frisch.</p>
+      Hokkaido-Rezepte    </div>
+    <p class="js-ellipsis">Der beliebte Kürbis kommt in unseren Rezepten ganz groß raus.</p>
     <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
@@ -807,16 +907,17 @@ iom.c(iam_data);
                   </div>
         <div class="header-teaser__box">
                       <div class="box w-100 teaser teaser--full-1col">
-  <a href="/erdbeerbowle-das-beste-rezept-83835.html">
+  <a href="/kuerbis-aus-dem-ofen-so-einfach-gehts-69390.html">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/erdbeerbowle-b.jpg?itok=nPiHd938" width="135" height="135" alt="Erdbeerbowle" title="Erdbeerbowle - House of Food / Bauer Food Experts KG" />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/field/image/kuerbis-aus-dem-ofen.jpg?itok=I4UzSmsP" width="135" height="135" alt="Kürbis aus dem Ofen" title="Kürbis aus dem Ofen - StefanieB. / fotolia.com" />
+          <span class="icon icon-play"></span>
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
-      Erdbeerbowle    </div>
-    <p class="js-ellipsis">Spritzig und erfrischend: So geht Erdbeerbowle!</p>
+      Ofen-Kürbis    </div>
+    <p class="js-ellipsis">Im Ofen bekommt der Kürbis ein tolles Röstaroma!</p>
     <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
@@ -825,24 +926,24 @@ iom.c(iam_data);
       </div>
       <div class="header-teaser__col-right">
         <div class="header-teaser__box">
-          
-            
+
+
             <div class="teaser teaser--vertical-ho box w-3 ">
-  <a href="/erdbeer-desserts-rezepte-mit-frischen-sommerfruechten-51434.html">
+  <a href="/kuerbissuppe-die-besten-rezepte-51346.html">
   <figure class="image">
 
-          <img src="https://www.lecker.de/assets/styles/300x225/public/field/image/erdbeer-dessert-b19.jpg?itok=afjta8le" width="300" height="225" alt="Erdbeer-Dessert: Erdbeer-Schichtspektakel mit Madeleines" title="Erdbeer-Dessert: Erdbeer-Schichtspektakel mit Madeleines - House of Food / Bauer Food Experts KG" />    
+          <img src="https://www.lecker.de/assets/styles/300x225/public/klassische-kuerbissuppe-b.jpg?itok=h-baFIwH" width="300" height="225" alt="Klassische Kürbissuppe Rezept" title="Klassische Kürbissuppe Rezept - ShowHeroes" />
     <div class="title">
               <div class="headline">
-          Himmlische Erdbeer-Desserts        </div>
+          Die besten Kürbissuppen        </div>
           </div>
 
-    
-    
-    
+
+
+
   </figure>
   <div class="text">
-    <p class="js-ellipsis">Zur Erdbeerzeit wird der Nachtisch zu einem besonderen Highlight: Ein Erdbeer-Dessert mit frischen, süßen Erdbeeren und sahniger Creme oder Baiser...</p>
+    <p class="js-ellipsis">Entdecke vielfältige Kürbissuppen-Rezepte mit Hokkaido, Butternut &amp; Co.</p>
     <div class="teaser__optical-link">Zu den Rezepten <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
@@ -854,49 +955,49 @@ iom.c(iam_data);
 
   </div>
 
- 
+
 </li>
 
 <li class="list--burger-no-divider js-dropdown-hover">
-  <a href="/grillen" class="item"><span>Grillen</span></a>
-  
+  <a href="/rezepte/herbst" class="item"><span>Herbst</span></a>
+
   <a href="#dropdown" class="list-link--dropdown js-dropdown-toggle"><span class="icon icon-arrow_dropdownburger"></span></a>
 
   <div class="header-dropdown">
     <ul class="list list--navi-2nd-lvl list--dotted-divided">
-       <li><a href="/taxonomy/term/3396/" title="Grillen Übersichtsseite"><span>Übersicht</span></a></li><li><a href="/taxonomy/term/3773/" title="Grillrezepte"><span>Grillrezepte</span></a></li><li><a href="https://www.lecker.de/salate-zum-grillen-das-schmeckt-zu-wuerstchen-steak-co-51417.html" title="Salate zum Grillen"><span>Salate zum Grillen</span></a></li><li><a href="https://www.lecker.de/beilagen-zum-grillen-salate-dips-und-co-51451.html" title="Beilagen zum Grillen"><span>Beilagen zum Grillen</span></a></li>    </ul>
+       <li><a href="/rezepte/herbst" title="Herbst-Rezepte"><span>Übersicht</span></a></li><li><a href="/rezepte/pflaumen" title="Pflaumen"><span>Pflaumen</span></a></li><li><a href="/rezepte/pilze" title="Rezepte mit Pilzen"><span>Pilze</span></a></li><li><a href="/rezepte/muscheln" title="Rezepte mit Muscheln"><span>Muscheln</span></a></li><li><a href="/rezepte/quitten" title="Quitten"><span>Quitten</span></a></li><li><a href="/rezepte/auflauf-rezepte" title="Auflauf-Rezepte"><span>Auflauf-Rezepte</span></a></li><li><a href="/rezepte/suppen-rezepte" title="Suppen-Rezepte"><span>Suppen-Rezepte</span></a></li><li><a href="/oktoberfest" title="Oktoberfest"><span>Oktoberfest</span></a></li>    </ul>
 
     <div class="header-teaser">
       <div class="header-teaser__col-left">
         <div class="header-teaser__box">
                       <div class="box w-100 teaser teaser--full-1col">
-  <a href="/vegetarisch-grillen-gemuese-und-kaese-vom-rost-51426.html">
+  <a href="/tellerrand-top-5-herbstsuppen-die-du-jetzt-unbedingt-ausprobieren-musst-69456.html">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/lecker/rezeptsammlungen/grillen2010/vegetarischgrillen/vegetarisch-grillen-q5.jpg?itok=CFV4tm_K" width="135" height="135" alt="Vegetarisch grillen - Gemüse und Käse vom Rost" title="Vegetarisch grillen - Gemüse und Käse vom Rost -  " />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/field/image/herbstsuppen-b.jpg?itok=h0go29JY" width="135" height="135" alt="Herbstsuppen" title="Herbstsuppen - House of Food / Bauer Food Experts KG" />
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
-      Veggie-Grillen    </div>
-    <p class="js-ellipsis">Leckere Rezept-Ideen zum Grillen mit Gemüse, Käse &amp; Co.</p>
-    <div class="teaser__optical-link">Zu den Rezepten <span class="icon icon-arrow_link"></span></div>
+      Herbstsuppen    </div>
+    <p class="js-ellipsis">An ungemütlichen Herbsttagen hebt eine heiße Suppe schnell die Stimmung.</p>
+    <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
   </div>
                   </div>
         <div class="header-teaser__box">
                       <div class="box w-100 teaser teaser--full-1col">
-  <a href="/brot-zum-grillen-die-besten-rezepte-71822.html">
+  <a href="/kasseler-kochen-deftige-rezepte-fuer-jeden-geschmack-51601.html">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/field/image/brot-zum-grillen-b3.jpg?itok=wZgd5unn" width="135" height="135" alt="Brot zum Grillen" title="Brot zum Grillen - Food &amp; Foto Experts" />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/field/image/kasseler-kochen-b2.jpg?itok=F18a4Etw" width="135" height="135" alt="Kasseler kochen - Rezepte" title="Kasseler kochen - Rezepte - House of Food / Bauer Food Experts KG" />
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
-      Brot zum Grillen    </div>
-    <p class="js-ellipsis">Ob Focaccia, Ciabatta oder Baguette - selbstgebacken ist's köstlich!</p>
+      Kasseler kochen    </div>
+    <p class="js-ellipsis">Probiere einen deutschen Klassiker unter den deftigen Fleischgerichten!</p>
     <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
@@ -905,24 +1006,24 @@ iom.c(iam_data);
       </div>
       <div class="header-teaser__col-right">
         <div class="header-teaser__box">
-          
-            
+
+
             <div class="teaser teaser--vertical-ho box w-3 ">
-  <a href="/grillideen-fuer-raffinierte-rezepte-vom-rost-51419.html">
+  <a href="/herbstsalat-rezepte-mit-saison-lieblingen-59361.html">
   <figure class="image">
 
-          <img src="https://www.lecker.de/assets/styles/300x225/public/bbq-zwiebelbomben-b3.jpg?itok=rIJ1Phis" width="300" height="225" alt="BBQ-Zwiebelbomben" title="BBQ-Zwiebelbomben - ShowHeroes" />    
+          <img src="https://www.lecker.de/assets/styles/300x225/public/field/image/herbstsalat-b13.jpg?itok=7vCCehax" width="300" height="225" alt="Herbstsalat" title="Herbstsalat" />
     <div class="title">
               <div class="headline">
-          Grillideen - raffinierte Rezepte vom Rost        </div>
+          Herbstsalat - Rezepte mit Saison-Lieblingen         </div>
           </div>
 
-    
-    
-    
+
+
+
   </figure>
   <div class="text">
-    <p class="js-ellipsis">Unsere riesige Auswahl an Rezept-Ideen sorgt für ordentlich Abwechslung beim Grillen!</p>
+    <p class="js-ellipsis">Probiere mal unsere tollen Salate mit Kürbis, Rote Bete, Nüssen, Käse, Äpfeln und Birnen. So abwechslungsreich!</p>
     <div class="teaser__optical-link">Zu den Rezepten <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
@@ -934,12 +1035,12 @@ iom.c(iam_data);
 
   </div>
 
- 
+
 </li>
 
 <li class="list--burger-no-divider js-dropdown-hover">
   <a href="/getraenke" class="item"><span>Getränke</span></a>
-  
+
   <a href="#dropdown" class="list-link--dropdown js-dropdown-toggle"><span class="icon icon-arrow_dropdownburger"></span></a>
 
   <div class="header-dropdown">
@@ -950,11 +1051,28 @@ iom.c(iam_data);
       <div class="header-teaser__col-left">
         <div class="header-teaser__box">
                       <div class="box w-100 teaser teaser--full-1col">
+  <a href="/smoothie-rezepte-einfach-und-gesund-51471.html">
+  <figure class="image">
+          <img src="https://www.lecker.de/assets/styles/135x135/public/rote-bete-apfel-smoothie-b-f5913101.jpg?itok=SOzUd1Wv" width="135" height="135" alt="Rote-Bete-Apfel-Smoothie Rezept" title="Rote-Bete-Apfel-Smoothie Rezept - House of Food / Bauer Food Experts KG" />
+
+
+      </figure>
+  <div class="text">
+    <div class="title js-ellipsis">
+      Smoothie-Rezepte    </div>
+    <p class="js-ellipsis">Smoothie-Rezepte sind einfach gemacht und richtig gesund.</p>
+    <div class="teaser__optical-link">Zu den Rezepten <span class="icon icon-arrow_link"></span></div>
+  </div>
+  </a>
+  </div>
+                  </div>
+        <div class="header-teaser__box">
+                      <div class="box w-100 teaser teaser--full-1col">
   <a href="/gin-cocktails-und-longdrinks-die-besten-rezepte-74593.html">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/pink-gin-tonic-b.jpg?itok=ESnCp1wI" width="135" height="135" alt="Pink Gin Tonic" title="Pink Gin Tonic - Fever-Tree" />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/pink-gin-tonic-b.jpg?itok=ESnCp1wI" width="135" height="135" alt="Pink Gin Tonic" title="Pink Gin Tonic - Fever-Tree" />
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
@@ -965,45 +1083,28 @@ iom.c(iam_data);
   </a>
   </div>
                   </div>
-        <div class="header-teaser__box">
-                      <div class="box w-100 teaser teaser--full-1col">
-  <a href="/smoothie-rezepte-einfach-und-gesund-51471.html">
-  <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/gelber-power-smoothie-f9962801.jpg?itok=BdOH7rtR" width="135" height="135" alt="Gelber Power-Smoothie" title="Gelber Power-Smoothie - House of Food / Bauer Food Experts KG" />    
-    
-    
-      </figure>
-  <div class="text">
-    <div class="title js-ellipsis">
-      Smoothies    </div>
-    <p class="js-ellipsis">Smoothie-Rezepte sind einfach gemacht und richtig gesund.</p>
-    <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
-  </div>
-  </a>
-  </div>
-                  </div>
       </div>
       <div class="header-teaser__col-right">
         <div class="header-teaser__box">
-          
-            
+
+
             <div class="teaser teaser--vertical-ho box w-3 ">
-  <a href="/bowle-fruchtiger-spass-im-glas-51475.html">
+  <a href="/aperitifs-rezepte-fuer-begruessungsdrinks-59358.html">
   <figure class="image">
 
-          <img src="https://www.lecker.de/assets/styles/300x225/public/field/image/bowle-b13.jpg?itok=6FUJktnL" width="300" height="225" alt="Kirsch-Wodka-Bowle" title="Kirsch-Wodka-Bowle - House of Food / Bauer Food Experts KG" />    
+          <img src="https://www.lecker.de/assets/styles/300x225/public/bellini-b.jpg?itok=i905X9fJ" width="300" height="225" alt="Bellini Rezept" title="Bellini Rezept - iStock/etorres69" />
     <div class="title">
               <div class="headline">
-          Bowle - fruchtiger Spaß im Glas        </div>
+          Aperitifs        </div>
           </div>
 
-    
-    
-    
+
+
+
   </figure>
   <div class="text">
-    <p class="js-ellipsis">Unsere Bowle-Kreationen machen so richtig Lust auf das erfrischende Mixgetränk.</p>
-    <div class="teaser__optical-link">Zu den Rezepten <span class="icon icon-arrow_link"></span></div>
+    <p class="js-ellipsis">Wenn Gäste kommen, sind Aperitifs ideal, um in einen schönen Abend zu starten. Hier findest du die besten Rezepte.</p>
+    <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
   </div>
@@ -1014,12 +1115,12 @@ iom.c(iam_data);
 
   </div>
 
- 
+
 </li>
 <li><a href="/topfkino" title="Topfkino"><span>Topfkino</span></a></li>
 <li class="list--burger-no-divider js-dropdown-hover">
   <a href="/app-fuer-ios-und-android-lecker-rezepte-fuer-jeden-tag-50486.html" class="item"><span>Apps</span></a>
-  
+
   <a href="#dropdown" class="list-link--dropdown js-dropdown-toggle"><span class="icon icon-arrow_dropdownburger"></span></a>
 
   <div class="header-dropdown">
@@ -1032,9 +1133,9 @@ iom.c(iam_data);
                       <div class="box w-100 teaser teaser--full-1col">
   <a href="/app-fuer-ios-und-android-lecker-rezepte-fuer-jeden-tag-50486.html">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/le_leckerapp_welt_ios.jpg?itok=bOi7tkRv" width="135" height="135" alt="LECKER iphone-App" title="LECKER iphone-App" />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/le_leckerapp_welt_ios.jpg?itok=bOi7tkRv" width="135" height="135" alt="LECKER iphone-App" title="LECKER iphone-App" />
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
@@ -1049,9 +1150,9 @@ iom.c(iam_data);
                       <div class="box w-100 teaser teaser--full-1col">
   <a href="/app-fuer-ios-und-android-lecker-rezepte-fuer-jeden-tag-50486.html">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/le_leckerapp_welt_android.jpg?itok=576LHM_t" width="135" height="135" alt="LECKER Android-App" title="LECKER Android-App" />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/le_leckerapp_welt_android.jpg?itok=576LHM_t" width="135" height="135" alt="LECKER Android-App" title="LECKER Android-App" />
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
@@ -1065,21 +1166,21 @@ iom.c(iam_data);
       </div>
       <div class="header-teaser__col-right">
         <div class="header-teaser__box">
-          
-            
+
+
             <div class="teaser teaser--vertical-ho box w-3 ">
   <a href="/mein-lecker-kochbuch-die-app-fuers-ipad-77341.html">
   <figure class="image">
 
-          <img src="https://www.lecker.de/assets/styles/300x225/public/field/image/mein-lecker-kochbuch-app.jpg?itok=frIr8zgJ" width="300" height="225" alt="Mein LECKER Kochbuch-App" title="Mein LECKER Kochbuch-App" />    
+          <img src="https://www.lecker.de/assets/styles/300x225/public/field/image/mein-lecker-kochbuch-app.jpg?itok=frIr8zgJ" width="300" height="225" alt="Mein LECKER Kochbuch-App" title="Mein LECKER Kochbuch-App" />
     <div class="title">
               <div class="headline">
           Mein LECKER-Kochbuch        </div>
           </div>
 
-    
-    
-    
+
+
+
   </figure>
   <div class="text">
     <p class="js-ellipsis">Die ePaper-App "Mein LECKER Kochbuch" ist Rezeptsammlung und Zeitschriftenkiosk zugleich.</p>
@@ -1094,17 +1195,17 @@ iom.c(iam_data);
 
   </div>
 
- 
+
 </li>
 
 <li class="list--burger-no-divider js-dropdown-hover">
-  <a href="/gewinnspiele" class="item"><span>Gewinnspiele</span></a>
-  
+  <a href="https://www.lecker.de/gewinnspiele" class="item"><span>Gewinnspiele</span></a>
+
   <a href="#dropdown" class="list-link--dropdown js-dropdown-toggle"><span class="icon icon-arrow_dropdownburger"></span></a>
 
   <div class="header-dropdown">
     <ul class="list list--navi-2nd-lvl list--dotted-divided">
-       <li><a href="/gewinnspiele" title=""><span>Übersicht</span></a></li><li><a href="http://gewinnspiel.lecker.de/" title=""><span>Täglich neu</span></a></li><li><a href="/spiele-lecker-playground-59848.html"><span>Spiele</span></a></li>    </ul>
+       <li><a href="https://www.lecker.de/gewinnspiele" title=""><span>Übersicht</span></a></li><li><a href="https://gewinnspiel.lecker.de/" title=""><span>Täglich neu</span></a></li><li><a href="/spiele-lecker-playground-59848.html"><span>Spiele</span></a></li>    </ul>
 
     <div class="header-teaser">
       <div class="header-teaser__col-left">
@@ -1112,9 +1213,9 @@ iom.c(iam_data);
                       <div class="box w-100 teaser teaser--full-1col">
   <a href="/spiele-lecker-playground">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/gewinnspiel_spielewelt_b.jpg?itok=Jg2rCqBJ" width="135" height="135" alt="Spiele" title="Spiele" />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/gewinnspiel_spielewelt_b.jpg?itok=Jg2rCqBJ" width="135" height="135" alt="Spiele" title="Spiele" />
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
@@ -1130,21 +1231,21 @@ iom.c(iam_data);
       </div>
       <div class="header-teaser__col-right">
         <div class="header-teaser__box">
-          
-            
+
+
             <div class="teaser teaser--vertical-ho box w-3 ">
   <a href="/gewinnspiele">
   <figure class="image">
 
-          <img src="https://www.lecker.de/assets/styles/300x225/public/le_spiele_gewinnspiele_lecker.png?itok=VkKMUJuN" width="300" height="225" alt="Gewinnspiele" title="Gewinnspiele" />    
+          <img src="https://www.lecker.de/assets/styles/300x225/public/le_spiele_gewinnspiele_lecker.png?itok=VkKMUJuN" width="300" height="225" alt="Gewinnspiele" title="Gewinnspiele" />
     <div class="title">
               <div class="headline">
           Gewinnspiele - mitmachen und gewinnen!        </div>
           </div>
 
-    
-    
-    
+
+
+
   </figure>
   <div class="text">
     <p class="js-ellipsis">Tolle Gewinnspiele mit Preisen wie Reisen, Kochbüchern, Küchengeräten und vielem mehr!</p>
@@ -1159,12 +1260,12 @@ iom.c(iam_data);
 
   </div>
 
- 
+
 </li>
 
 <li class="list--burger-no-divider js-dropdown-hover">
   <a href="https://www.bauer-plus.de/lecker-navi" class="item"><span>Abo</span></a>
-  
+
   <a href="#dropdown" class="list-link--dropdown js-dropdown-toggle"><span class="icon icon-arrow_dropdownburger"></span></a>
 
   <div class="header-dropdown">
@@ -1177,9 +1278,9 @@ iom.c(iam_data);
                       <div class="box w-100 teaser teaser--full-1col">
   <a href="https://www.bauer-plus.de/lecker-teaser_ma" rel="nofollow">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/navilayer_abo_probeabo_v2.jpg?itok=ZZ05pQlq" width="135" height="135" alt="LECKER Probeabo" title="LECKER Probeabo" />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/navilayer_abo_probeabo_v2.jpg?itok=ZZ05pQlq" width="135" height="135" alt="LECKER Probeabo" title="LECKER Probeabo" />
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
@@ -1194,9 +1295,9 @@ iom.c(iam_data);
                       <div class="box w-100 teaser teaser--full-1col">
   <a href="https://www.bauer-plus.de/lecker-teaser_bundle">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/135x135/public/navilayer_abo_praemienabo_v2.jpg?itok=zLBDJ-Dx" width="135" height="135" alt="LECKER Prämienabo" title="LECKER Prämienabo" />    
-    
-    
+          <img src="https://www.lecker.de/assets/styles/135x135/public/navilayer_abo_praemienabo_v2.jpg?itok=zLBDJ-Dx" width="135" height="135" alt="LECKER Prämienabo" title="LECKER Prämienabo" />
+
+
       </figure>
   <div class="text">
     <div class="title js-ellipsis">
@@ -1210,25 +1311,25 @@ iom.c(iam_data);
       </div>
       <div class="header-teaser__col-right">
         <div class="header-teaser__box">
-          
-            
+
+
             <div class="teaser teaser--vertical-ho box w-3 ">
   <a href="https://www.bauer-plus.de/lecker-teaser_geschenk" rel="nofollow">
   <figure class="image">
 
-          <img src="https://www.lecker.de/assets/styles/300x225/public/lecker_navi_teaser_muttertag22.jpg?itok=rDTNg6S5" width="300" height="225" alt="LECKER Geschenk-Abo" title="LECKER Geschenk-Abo" />    
+          <img src="https://www.lecker.de/assets/styles/300x225/public/navilayer_abo_geschenkabo.jpg?itok=sl82cYA1" width="300" height="225" alt="LECKER Geschenk-Abo" title="LECKER Geschenk-Abo" />
     <div class="title">
               <div class="headline">
-          Muttertag-Special!        </div>
+          Jetzt Gratis-Monate sichern        </div>
           </div>
 
-    
-    
-    
+
+
+
   </figure>
   <div class="text">
     <p class="js-ellipsis"></p>
-    <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
+    <div class="teaser__optical-link">Abonnement verschenken <span class="icon icon-arrow_link"></span></div>
   </div>
   </a>
   </div>
@@ -1239,7 +1340,7 @@ iom.c(iam_data);
 
   </div>
 
- 
+
 </li>
 
 						</ul>
@@ -1266,35 +1367,35 @@ iom.c(iam_data);
 <li><span><b>Einzelrezepte</b></span></li>
 <li class="bp-3-min"><span>Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli</span></li>
 </ul>
-		
+
 					<div class="tabs">
 							</div>
-		
-		
-    
+
+
+
 		<!-- page content -->
 		<!-- 1st grid level container -->
 <div class="gridContainer">
 	<div class="row">
 		<div class="col col-6 main">
 
-			
-			
+
+
 
 
 
 <article class="article recipe" data-io-article-url="https://www.lecker.de/gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html">
-  
+
   <header class="article-header">
     <h1>Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli</h1>
-    
+
     <div class="fivestar-lecker-display">
-      <a class="js-fivestar-anchor-link" href="#rate"><div class="clearfix fivestar-average-stars"><div class="fivestar-static-item"> <div class="fivestar-lecker-small"><div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix"><div class="star star-1 star-odd star-first"><span class="on">4.055555</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on" style="width: 5.5555%"></span></div></div></div>
+      <a class="js-fivestar-anchor-link" href="#rate"><div class="clearfix fivestar-average-stars"><div class="fivestar-static-item"> <div class="fivestar-lecker-small"><div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix"><div class="star star-1 star-odd star-first"><span class="on">3.94318</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on" style="width: 94.318%"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div></div>
 <div class="description"><div class="fivestar-summary fivestar-summary-"></div></div>
 </div></div></a>
       <div class="fivestar-lecker-display__summary">
         <div>
-  (<span>72</span>) <span>4.1</span>
+  (<span>88</span>) <span>3.9</span>
   Sterne  von 5</div>      </div>
 
       <div class="clear"></div>
@@ -1303,9 +1404,9 @@ iom.c(iam_data);
 
       <figure class="article-figure article-figure--default-image">
       <img src="https://images.lecker.de/gemuesepfanne-mit-haehnchen-zuckerschoten-brokkoli-f9045302,id=7e976162,b=lecker,w=610,cg=c.jpg" title="Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli Rezept" />
-      
+
     </figure>
-  
+
 	<div class="social-bar clear">
 		<div class="social-bar__right sharingList" data-behavior="share_element">
 			<a href="https://www.pinterest.com/pin/create/button/"
@@ -1325,53 +1426,53 @@ iom.c(iam_data);
 	</div>
 
   <!-- rating -->
-  
+
       <p>Schlank in der Kalorienzahl, besonders üppig im Geschmack: Die asiatische Gemüsepfanne mit grünem Gemüse sorgt für federleichte Frühlingsgefühle.</p>
-  
-  
+
+
         <div class="typo--headline headline headline--left-simple noPrintContent">
     Noch mehr Lieblingsrezepte:
   </div>
   <div class="teaser teaser--triple">
           <div class="teaser teaser--3col box w-2">
-        <a href="/schnelles-mittagessen-maximal-30-minuten-fertig-51874.html">
+        <a href="/hokkaido-rezepte-mit-dem-lieblingskuerbis-51517.html">
           <figure class="image">
-            <img alt="Schnelles Mittagessen - in 30 Minuten auf dem Tisch" src="https://www.lecker.de/assets/styles/300x225/public/field/image/schnelles-mittagessen-b25.jpg?itok=e_-2UKMG"/>
+            <img alt="Hokkaido-Rezepte: Gefüllter Hokkaido" src="https://www.lecker.de/assets/styles/300x225/public/field/image/hokkaido-rezepte-b12.jpg?itok=_CFMwctW"/>
           </figure>
           <div class="text">
             <div class="title">
-              <h2>Schnelles Mittagessen - in 30 Minuten fertig!</h2>
+              <h2>Hokkaido - Rezepte mit dem Lieblingskürbis</h2>
             </div>
           </div>
         </a>
       </div>
           <div class="teaser teaser--3col box w-2">
-        <a href="/was-koche-ich-heute-abend-59390.html">
+        <a href="/familienessen-rezepte-die-allen-schmecken-59528.html">
           <figure class="image">
-            <img alt="Was koche ich heute Abend?" src="https://www.lecker.de/assets/styles/300x225/public/field/image/was-koche-ich-heute-abend-b16.jpg?itok=iUAwI8oJ"/>
+            <img alt="Familienessen - Gerichte, die allen schmecken" src="https://www.lecker.de/assets/styles/300x225/public/field/image/familienessen-b11.jpg?itok=TvsSOm96"/>
           </figure>
           <div class="text">
             <div class="title">
-              <h2>Was koche ich heute Abend?</h2>
+              <h2>Familienessen - Gerichte, die allen schmecken</h2>
             </div>
           </div>
         </a>
       </div>
           <div class="teaser teaser--3col box w-2">
-        <a href="/one-pot-rezepte-alles-aus-einem-topf-59410.html">
+        <a href="/schnelles-abendessen-blitz-rezepte-zum-feierabend-59380.html">
           <figure class="image">
-            <img alt="One-Pot-Rezepte - Gerichte aus einem Topf" src="https://www.lecker.de/assets/styles/300x225/public/field/image/one-pot-rezepte-b7.jpg?itok=h4QOdEQ5"/>
+            <img alt="Schnelles Abendessen: Tomaten-Pesto-Crostini" src="https://www.lecker.de/assets/styles/300x225/public/field/image/schnelles-abendessen-b19.jpg?itok=GXQbtsGG"/>
           </figure>
           <div class="text">
             <div class="title">
-              <h2>One-Pot-Rezepte – Gerichte aus einem Topf</h2>
+              <h2>Schnelles Abendessen – Blitz-Rezepte zum Feierabend</h2>
             </div>
           </div>
         </a>
       </div>
       </div>
-  
-  
+
+
       <h2 class="headline headline--dotted"><span>Zutaten</span></h2>
           <section class="ingredients">
                 <form class="form ingredients__form showOnPrePrintHideOnPrint">
@@ -1500,7 +1601,7 @@ iom.c(iam_data);
                 </li>
                                               </ul>
       </section>
-      
+
   <div class="adAnything dikr-responsive-ads-slot dikr-responsive-ads-mca2"></div>
 
       <h2 class="headline headline--dotted"><span>Zubereitung</span></h2>
@@ -1516,7 +1617,7 @@ iom.c(iam_data);
             <span class="icon icon-kochmuetze"></span>
             <span>leicht</span>
           </div>
-              
+
                       <dl class="list list--preparation">
                                     <dt id="step1">1.</dt>
               <dd>
@@ -1533,14 +1634,14 @@ iom.c(iam_data);
                                                       </dl>
           </div>
 
-  
+
   <div class="clear"></div>
 
-        
-  <div class="fivestar-lecker-stars js-fivestar-lecker-stars">
-    <span class="fivestar-lecker-stars__label">Rezept bewerten: </span> <form class="fivestar-widget" action="/gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html" method="post" id="fivestar-custom-widget--2" accept-charset="UTF-8"><div><div  class="clearfix fivestar-average-stars fivestar-form-item fivestar-lecker stars">  <select id="edit-vote--4" name="vote" class="form-select"><option value="-">Bewertung auswählen</option><option value="20">Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli 1/5 vergeben</option><option value="40">Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli 2/5 vergeben</option><option value="60">Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli 3/5 vergeben</option><option value="80">Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli 4/5 vergeben</option><option value="100" selected="selected">Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli 5/5 vergeben</option></select>
 
-</div><button class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--2" name="op" value="Bewerten">Bewerten</button><input type="hidden" name="form_build_id" value="form-u3ZKny1FwFZW1eRr7V5uLjwTdxBdute_ODW1bRJVtAs" />
+  <div class="fivestar-lecker-stars js-fivestar-lecker-stars">
+    <span class="fivestar-lecker-stars__label">Rezept bewerten: </span> <form class="fivestar-widget" action="/gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html" method="post" id="fivestar-custom-widget--2" accept-charset="UTF-8"><div><div  class="clearfix fivestar-average-stars fivestar-form-item fivestar-lecker stars">  <select id="edit-vote--4" name="vote" class="form-select"><option value="-">Bewertung auswählen</option><option value="20">Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli 1/5 vergeben</option><option value="40">Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli 2/5 vergeben</option><option value="60">Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli 3/5 vergeben</option><option value="80" selected="selected">Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli 4/5 vergeben</option><option value="100">Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli 5/5 vergeben</option></select>
+
+</div><button class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--2" name="op" value="Bewerten">Bewerten</button><input type="hidden" name="form_build_id" value="form-XjK2rhqcmoTOfBkRIDYI2JXFlXx5JJPydaQQZ17qdcM" />
 <input type="hidden" name="form_id" value="fivestar_custom_widget" />
 </div></form>    <div class="clear fivestar-lecker-stars__anchor" id="rate"></div>
   </div>
@@ -1554,10 +1655,11 @@ iom.c(iam_data);
         <ul class="list list--nutrients">
           <li>260 kcal</li>                    <li>38 g Eiwei&szlig;</li>          <li>7 g Fett</li>          <li>7 g Kohlenhydrate</li>        </ul>
       </div>
-      
+
       <div id="bakh-teaser-native" class="bakh bakh-teaser bakh-teaser-native"></div>
     <div id="dikr-teaser-native" class="bakh bakh-teaser bakh-teaser-native"></div>
-  
+
+
       <h2 class="headline headline--dotted list--tags-headline"><span>Kategorien & Tags</span></h2>
     <ul class="list list--tags">
                 <li><a href="suche-rezept/low carb">low carb</a></li>
@@ -1568,9 +1670,9 @@ iom.c(iam_data);
                 <li><a href="suche-rezept/sonstiges">Sonstiges</a></li>
                 <li><a href="suche-rezept/fleisch & geflügel">Fleisch & Geflügel</a></li>
                 </ul>
-  
-  
-  
+
+
+
   <script type="text/plain" data-vendor="pinterest" data-type="script" data-content="&lt;script async defer src=&quot;//assets.pinterest.com/js/pinit.js&quot;&gt;&lt;/script&gt;"></script>
 
 <div class="social-bar clear">
@@ -1602,26 +1704,27 @@ iom.c(iam_data);
 
 <div class="social-bar-sticky">
           <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.lecker.de%2Fgemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html"  data-shared-url="https://www.lecker.de/gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html" data-share-provider="facebook" class="icon icon-facebook" target="_blank"></a>
-  
+
           <a href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.lecker.de%2Fgemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html"  data-shared-url="https://www.lecker.de/gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html" data-share-provider="pinterest" data-pin-do="buttonPin" data-pin-media="https://images.lecker.de/gemuesepfanne-mit-haehnchen-zuckerschoten-brokkoli-f9045302,id=7e976162,b=lecker,w=610,cg=c.jpg" data-pin-custom="true" class="icon" target="_blank">
       <span class="icon icon-pinterest"></span>
     </a>
-  
+
       <a href="whatsapp://send?text=Gem%C3%BCsepfanne+mit+H%C3%A4hnchen%2C+Zuckerschoten+und+Brokkoli%0Ahttps%3A%2F%2Fwww.lecker.de%2Fgemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html" class="icon icon-whatsapp"></a>
-  
+
   <a href="mailto:?subject=Schau%20mal,%20was%20ich%20bei%20LECKER%20gesehen%20habe...&body=Gem%C3%BCsepfanne%20mit%20H%C3%A4hnchen%2C%20Zuckerschoten%20und%20Brokkoli%0D%0Ahttps://www.lecker.de/gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html%3futm_source=E-Mail%26utm_medium=referral%26utm_campaign=mailto%0D%0A%0D%0AAbonnieren%20Sie%20jetzt%20auch%20unseren%20Newsletter%20unter%20http://www.lecker.de/newsletter%20und%20erhalten%20Sie%20zukünftig%20Ihre%20tägliche%20Portion%20LECKER.de%20frei%20Haus!" class="icon icon-mail"></a>
   <a href="gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html?print=1" class="icon icon-print"></a>
         <favorites-multiselect favors-count-request="false" recipe-list="false" asset-id="'5ec3d1bfdd8c967c7f9ac090'" class="btnCookbookAlternative">
         <favorites-multiselect-button-asset-alternative></favorites-multiselect-button-asset-alternative>
       </favorites-multiselect>
   </div>
+
   <div id="nativendo-artikel"></div>
 
 <div id="nativendo-placement-610x240"></div>
   <div class="adAnything dikr-responsive-ads-slot dikr-responsive-ads-mca2"></div>
 
-  
-  
+
+
         <div class="taboolaWrapper">
         <div id="taboola-below-article-thumbnails" class="taboola"></div>
 <script type="text/javascript">
@@ -1651,17 +1754,67 @@ iom.c(iam_data);
 
 		</div>
 		<div class="col col-3 aside">
-			
+
 
 
     <section class="box adBox w-100">
         <div class="adAnything dikr-responsive-ads-slot dikr-responsive-ads-ca teaser"></div>
     </section>
 
-  
+
     <div class="box w-100 teaser-box">
         <span class="headline headline--dividing-line">Ähnliche Rezepte</span>
 
+                    <div class="teaser teaser--community teaser--text-height-75">
+                <a href="/cheeseburger-suppe-84257.html">
+                <figure class="image">
+                    <img src="https://images.lecker.de/cheeseburger-suppe-b,id=539899e9,b=lecker,w=160,h=120,cg=c.jpg" title="Cheeseburger-Suppe Rezept" />                </figure>
+                <div class="text js-ellipsis">
+                    <div class="title"> Cheeseburger-Suppe </div>
+                    <div class="teaser__optical-link">Zum Rezept <span class="icon icon-arrow_link"></span></div>
+                </div>
+                </a>
+            </div>
+                    <div class="teaser teaser--community teaser--text-height-75">
+                <a href="/kuerbiskerne-roesten-so-gehts-84230.html">
+                <figure class="image">
+                    <img src="https://images.lecker.de/kuerbiskerne-roesten-f5126903-b,id=51b17898,b=lecker,w=160,h=120,cg=c.jpg" title="Kürbiskerne rösten Rezept" />                </figure>
+                <div class="text js-ellipsis">
+                    <div class="title"> Kürbiskerne rösten - so geht's </div>
+                    <div class="teaser__optical-link">Zum Rezept <span class="icon icon-arrow_link"></span></div>
+                </div>
+                </a>
+            </div>
+                    <div class="teaser teaser--community teaser--text-height-75">
+                <a href="/wikingertopf-84179.html">
+                <figure class="image">
+                    <img src="https://images.lecker.de/wikingertopf-b,id=4426c8d0,b=lecker,w=160,h=120,cg=c.jpg" title="Wikingertopf Rezept" />                </figure>
+                <div class="text js-ellipsis">
+                    <div class="title"> Wikingertopf </div>
+                    <div class="teaser__optical-link">Zum Rezept <span class="icon icon-arrow_link"></span></div>
+                </div>
+                </a>
+            </div>
+                    <div class="teaser teaser--community teaser--text-height-75">
+                <a href="/vegetarische-hochzeitssuppe-83873.html">
+                <figure class="image">
+                    <img src="https://images.lecker.de/vegetarische-hochzeitssuppe-foodundfoto-2022,id=60881bc0,b=lecker,w=160,h=120,cg=c.jpg" title="Vegetarische Hochzeitssuppe Rezept" />                </figure>
+                <div class="text js-ellipsis">
+                    <div class="title">   Vegetarische Hochzeitssuppe </div>
+                    <div class="teaser__optical-link">Zum Rezept <span class="icon icon-arrow_link"></span></div>
+                </div>
+                </a>
+            </div>
+                    <div class="teaser teaser--community teaser--text-height-75">
+                <a href="/rhabarber-tarte-83864.html">
+                <figure class="image">
+                    <img src="https://images.lecker.de/rhabarber-tarte-2022,id=d9d9493f,b=lecker,w=160,h=120,cg=c.jpg" title="Rhabarber-Tarte Rezept" />                </figure>
+                <div class="text js-ellipsis">
+                    <div class="title">  Rhabarber-Tarte </div>
+                    <div class="teaser__optical-link">Zum Rezept <span class="icon icon-arrow_link"></span></div>
+                </div>
+                </a>
+            </div>
                     <div class="teaser teaser--community teaser--text-height-75">
                 <a href="/eierlikoer-erdbeer-torte-83841.html">
                 <figure class="image">
@@ -1672,68 +1825,35 @@ iom.c(iam_data);
                 </div>
                 </a>
             </div>
-                    <div class="teaser teaser--community teaser--text-height-75">
-                <a href="/indische-pfannkuchen-mit-linsen-dal-83834.html">
-                <figure class="image">
-                    <img src="https://images.lecker.de/indische-pfannkuchen-mit-linsen-da-kug-05-2020-f8554201,id=8f306a97,b=lecker,w=160,h=120,cg=c.jpg" title="Indische Pfannkuchen mit Linsen-Dal Rezept" />                </figure>
-                <div class="text js-ellipsis">
-                    <div class="title"> Indische Pfannkuchen mit Linsen-Dal </div>
-                    <div class="teaser__optical-link">Zum Rezept <span class="icon icon-arrow_link"></span></div>
-                </div>
-                </a>
-            </div>
-                    <div class="teaser teaser--community teaser--text-height-75">
-                <a href="/spargel-aus-dem-backofen-83826.html">
-                <figure class="image">
-                    <img src="https://images.lecker.de/spargel-im-backofen-b-f3803202,id=737ca208,b=lecker,w=160,h=120,cg=c.jpg" title="Spargel aus dem Backofen Rezept" />                </figure>
-                <div class="text js-ellipsis">
-                    <div class="title"> Spargel aus dem Backofen </div>
-                    <div class="teaser__optical-link">Zum Rezept <span class="icon icon-arrow_link"></span></div>
-                </div>
-                </a>
-            </div>
-                    <div class="teaser teaser--community teaser--text-height-75">
-                <a href="/spargel-paella-83668.html">
-                <figure class="image">
-                    <img src="https://images.lecker.de/spargel-paella-f10028203,id=7716abba,b=lecker,w=160,h=120,cg=c.jpg" title="Spargel-Paella Rezept" />                </figure>
-                <div class="text js-ellipsis">
-                    <div class="title"> Spargel-Paella </div>
-                    <div class="teaser__optical-link">Zum Rezept <span class="icon icon-arrow_link"></span></div>
-                </div>
-                </a>
-            </div>
-                    <div class="teaser teaser--community teaser--text-height-75">
-                <a href="/weisser-spargel-lachs-salat-83662.html">
-                <figure class="image">
-                    <img src="https://images.lecker.de/weiser-spargel-lachs-salat-f10027803,id=4a2fe6db,b=lecker,w=160,h=120,cg=c.jpg" title="Weißer Spargel-Lachs-Salat Rezept" />                </figure>
-                <div class="text js-ellipsis">
-                    <div class="title"> Weißer Spargel-Lachs-Salat </div>
-                    <div class="teaser__optical-link">Zum Rezept <span class="icon icon-arrow_link"></span></div>
-                </div>
-                </a>
-            </div>
-                    <div class="teaser teaser--community teaser--text-height-75">
-                <a href="/gratinierte-spargel-schnitzelroellchen-la-cordon-bleu-mit-jaeger-hollandaise-83661.html">
-                <figure class="image">
-                    <img src="https://images.lecker.de/gratinierte-spargel-schnitzelrollchen-a-la-cordon-bleu-mit-jager-hollandise-f9648704,id=e0adf019,b=lecker,w=160,h=120,cg=c.jpg" title="Gratinierte Spargel-Schnitzelröllchen à la Cordon Bleu mit Jäger-Hollandaise Rezept" />                </figure>
-                <div class="text js-ellipsis">
-                    <div class="title"> Gratinierte Spargel-Schnitzelröllchen à la Cordon Bleu mit Jäger-Hollandaise </div>
-                    <div class="teaser__optical-link">Zum Rezept <span class="icon icon-arrow_link"></span></div>
-                </div>
-                </a>
-            </div>
             </div>
     <span class="divider divider--dotted"></span>
 <div class="teaser box w-100 teaser--image-ho">
-  <a href="/lecker-special-022022-easy-peasy-83786.html">
+  <a href="https://www.aurea.de/?utm_source=LEC&utm_campaign=lec-sidebar">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/300x225/public/field/image/teaserset_lesh0222_aufmacher_1320x992.jpg?itok=X93xfW7z" width="300" height="225" alt="LECKER Special 2/22" title="LECKER Special 2/22 - House of Food / Bauer Food Experts KG" />        <div class="title">
-      <h2>LECKER-Special 02/2022: Easy Peasy</h2>
+          <img src="https://www.lecker.de/assets/styles/300x225/public/auera_markenteaser_lecker.png?itok=UC4rA-jh" width="300" height="225" alt="Aurea" title="Aurea - iStock/PeopleImages" />        <div class="title">
+      <h2>Deine persönliche Beratung fürs Leben</h2>
     </div>
 
-    
-    
-    
+
+
+
+  </figure>
+  <div class="text">
+    <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
+  </div>
+  </a>
+  </div>
+    <span class="divider divider--dotted"></span>
+<div class="teaser box w-100 teaser--image-ho">
+  <a href="/lecker-102022-kuerbis-kann-auch-anders-84221.html">
+  <figure class="image">
+          <img src="https://www.lecker.de/assets/styles/300x225/public/field/image/teaserset_1022_aufmacherbild.jpg?itok=ZI6ZB1_B" width="300" height="225" alt="LECKER 10/2022" title="LECKER 10/2022 - House of Food / Bauer Food Experts KG" />        <div class="title">
+      <h2>LECKER 10/2022: Kürbis kann auch anders!</h2>
+    </div>
+
+
+
+
   </figure>
   <div class="text">
     <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
@@ -1741,31 +1861,15 @@ iom.c(iam_data);
   </a>
   </div>
 <div class="teaser box w-100 teaser--image-ho">
-  <a href="/lecker-62022-schnell-mal-nach-italien-83785.html">
+  <a href="/lecker-special-032022-bakery-84120.html">
   <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/300x225/public/field/image/teaserset_0622_aufmacher.jpg?itok=i6sSc3Wl" width="300" height="225" alt="LECKER 6/2022" title="LECKER 6/2022 - House of Food / Bauer Food Experts KG" />        <div class="title">
-      <h2>LECKER 6/2022: Schnell mal nach Italien</h2>
+          <img src="https://www.lecker.de/assets/styles/300x225/public/field/image/teaserset_lesh0322_bakery_aufmacher_1320x992.jpg?itok=X6LxwZaS" width="300" height="225" alt="LECKER-Special 03/2022" title="LECKER-Special 03/2022 - House of Food / Bauer Food Experts KG" />        <div class="title">
+      <h2>LECKER-Special 03/2022: Bakery</h2>
     </div>
 
-    
-    
-    
-  </figure>
-  <div class="text">
-    <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
-  </div>
-  </a>
-  </div>
-<div class="teaser box w-100 teaser--image-ho">
-  <a href="https://www.bauer-plus.de/lecker-sidebar">
-  <figure class="image">
-          <img src="https://www.lecker.de/assets/styles/300x225/public/lecker_sidebar_banner_0.jpg?itok=LsYk31Xz" width="300" height="225" alt="LECKER Abo Osteraktion" title="LECKER Abo Osteraktion - House of Food / Bauer Food Experts KG" />        <div class="title">
-      <h2>Jetzt verschenken!</h2>
-    </div>
 
-    
-    
-    
+
+
   </figure>
   <div class="text">
     <div class="teaser__optical-link">weiterlesen <span class="icon icon-arrow_link"></span></div>
@@ -1786,22 +1890,24 @@ iom.c(iam_data);
           <li><a href="https://www.lecker.de/menuevorschlaege"  configurable_rel="1">Menüvorschläge<span class="icon icon-arrow_link"></span></a></li>
       </ul>
 </section><span class="headline headline--dotted">
-    <span>Im Winter</span>
+    <span>Im Herbst</span>
 </span>
 
 <section>
   <ul class="list list--text-links">
-          <li><a href="https://www.lecker.de/rezepte/winter-rezepte"  configurable_rel="1">Winter-Rezepte<span class="icon icon-arrow_link"></span></a></li>
-          <li><a href="https://www.lecker.de/rezepte/suppen-rezepte"  configurable_rel="1">Suppen-Rezepte<span class="icon icon-arrow_link"></span></a></li>
+          <li><a href="https://www.lecker.de/rezepte/herbst"  configurable_rel="1">Herbst<span class="icon icon-arrow_link"></span></a></li>
+          <li><a href="https://www.lecker.de/rezepte/apfel"  configurable_rel="1">Äpfel<span class="icon icon-arrow_link"></span></a></li>
+          <li><a href="https://www.lecker.de/rezepte/pilze"  configurable_rel="1">Pilze<span class="icon icon-arrow_link"></span></a></li>
+          <li><a href="https://www.lecker.de/rezepte/kuerbis"  configurable_rel="1">Kürbis<span class="icon icon-arrow_link"></span></a></li>
+          <li><a href="https://www.lecker.de/rezepte/muscheln"  configurable_rel="1">Muscheln<span class="icon icon-arrow_link"></span></a></li>
+          <li><a href="https://www.lecker.de/rezepte/quitten"  configurable_rel="1">Quitten<span class="icon icon-arrow_link"></span></a></li>
+          <li><a href="https://www.lecker.de/rezepte/kartoffeln"  configurable_rel="1">Kartoffeln<span class="icon icon-arrow_link"></span></a></li>
           <li><a href="https://www.lecker.de/rezepte/auflauf-rezepte"  configurable_rel="1">Auflauf-Rezepte<span class="icon icon-arrow_link"></span></a></li>
-          <li><a href="https://www.lecker.de/rezepte/raclette"  configurable_rel="1">Raclette<span class="icon icon-arrow_link"></span></a></li>
-          <li><a href="https://www.lecker.de/rezepte/fondue"  configurable_rel="1">Fondue<span class="icon icon-arrow_link"></span></a></li>
-          <li><a href="https://www.lecker.de/rezepte/kohl"  configurable_rel="1">Kohl-Küche<span class="icon icon-arrow_link"></span></a></li>
-          <li><a href="https://www.lecker.de/rezepte/schnelle-gerichte"  configurable_rel="1">Schnelle Rezepte<span class="icon icon-arrow_link"></span></a></li>
-          <li><a href="https://www.lecker.de/rezepte/party"  configurable_rel="1">Party<span class="icon icon-arrow_link"></span></a></li>
-          <li><a href="https://www.lecker.de/rezepte/silvester-rezepte"  configurable_rel="1">Silvester<span class="icon icon-arrow_link"></span></a></li>
-          <li><a href="https://www.lecker.de/rezepte/valentinstag"  configurable_rel="1">Valentinstag<span class="icon icon-arrow_link"></span></a></li>
-          <li><a href="https://www.lecker.de/karneval-bunte-rezepte-fuers-buffet-51572.html"  configurable_rel="1">Karneval Rezepte<span class="icon icon-arrow_link"></span></a></li>
+          <li><a href="https://www.lecker.de/rezepte/suppen-rezepte"  configurable_rel="1">Suppen-Rezepte<span class="icon icon-arrow_link"></span></a></li>
+          <li><a href="https://www.lecker.de/kochen/fleisch-kochen"  configurable_rel="1">Fleisch kochen<span class="icon icon-arrow_link"></span></a></li>
+          <li><a href="https://www.lecker.de/rezepte/klassisch"  configurable_rel="1">Klassiker<span class="icon icon-arrow_link"></span></a></li>
+          <li><a href="https://www.lecker.de/oktoberfest"  configurable_rel="1">Oktoberfest<span class="icon icon-arrow_link"></span></a></li>
+          <li><a href="https://www.lecker.de/halloween"  configurable_rel="1">Halloween<span class="icon icon-arrow_link"></span></a></li>
       </ul>
 </section>
     <section class="box adBox w-100">
@@ -1829,25 +1935,27 @@ iom.c(iam_data);
 					</a>
 				</div>
 
-				<div class="footer-gridbox">
-					<section>
-												<div class="js-interactiveTeaser newsletterSubscription newsletterSubscriptionFooter">
-							<form class="js-interactiveTeaser newsletterSubscription newsletterSubscriptionFooter" action="" method="post" id="xcel-piano-form" accept-charset="UTF-8"><div><div class="xcel-piano-form-message"></div><div class="bduv-inline-block"> <input placeholder="Meine E-Mail-Adresse" autocomplete="off" class="newsletterSubscription__input newsletterSubscription__email form__row form-text form-text" type="text" id="edit-zw1hawwymdiylze1lza1" name="zw1hawwymdiylze1lza1" value="" size="30" maxlength="128" />
-</div><div class="xcel-piano-form-hp-wrapper"> <input autocomplete="off" type="text" id="edit-email" name="email" value="" size="60" maxlength="128" class="form-text" />
- <input autocomplete="off" type="text" id="edit-fname" name="fname" value="" size="60" maxlength="128" class="form-text" />
- <input autocomplete="off" type="text" id="edit-lname" name="lname" value="" size="60" maxlength="128" class="form-text" />
-</div><button type="submit" class="newsletterSubscription__submit newsletterSubscription__input form-submit" id="edit-submit" name="op" value="Anmelden">Anmelden</button><input type="hidden" name="form_build_id" value="form-JVjRAyGFIAhyOwAE8tVxXPM2eHojIcRYAqGDenzetIM" />
-<input type="hidden" name="form_id" value="xcel_piano_form" />
-</div></form>						</div>
-					</section>
-				</div>
+        <div class="footer-gridbox">
+          <section>
+            <div class="js-interactiveTeaser newsletterSubscription newsletterSubscriptionFooter">
+              <button
+                  type="button"
+                  class="newsletterSubscription__submit newsletterSubscription__input form-submit"
+                  value="Kostenlose Newsletter Anmeldung"
+                  onclick="window.location.href='/newsletter'"
+              >
+                Kostenlose Newsletter Anmeldung
+              </button>
+            </div>
+          </section>
+        </div>
 
 				<div class="footer-gridbox footer-gridbox--last">
 
 					<div class="footer-divider bp-4-max"></div>
 
 					<section class="footerMenu">
-						<ul class="list list--footer-menu"><li><a href="https://www.lecker.de/jetzt-fuer-den-lecker-newsletter-anmelden-80437.html">Newsletter</a></li>
+						<ul class="list list--footer-menu"><li><a href="https://www.lecker.de/newsletter">Newsletter</a></li>
 <li><a href="https://baueradvance.com/de/brands/brands-detail/lecker-online.html">Mediadaten</a></li>
 <li><a href="/ueber-uns-74840.html">Über uns</a></li>
 <li><a href="/kontakt-59702.html">Kontakt</a></li>
@@ -1892,7 +2000,7 @@ iom.c(iam_data);
 </div>
 
 
-		<script type="text/javascript" src="https://www.lecker.de/sites/all/themes/lecker/js/angular.package.js?rbpm0a"></script>
+		<script type="text/javascript" src="https://www.lecker.de/sites/all/themes/lecker/js/angular.package.js?rim29h"></script>
 <script type="text/plain" data-vendor="vibrant" data-type="script" data-content="&lt;script type=&quot;text/javascript&quot;&gt;
 &lt;!--//--&gt;&lt;![CDATA[//&gt;&lt;!--
 (function(d, s) {
@@ -1905,24 +2013,31 @@ iom.c(iam_data);
 })(document, 'script');
 //--&gt;&lt;!]]&gt;
 &lt;/script&gt;"></script>
-<script type="text/javascript" src="https://www.lecker.de/assets/js/js_u_kUq_nvMudPqzNL6FdRCJ77JsO5dDJl5MlTz2-TNS4.js"></script>
-<script type="text/javascript">
-<!--//--><![CDATA[//><!--
-(function(src) {
-      var a = document.createElement('script');
-      a.type = 'text/javascript';
-      a.async = true;
-      a.src = src;
-      var b = document.getElementsByTagName('script')[0];
-      b.parentNode.insertBefore(a, b)
-    })('//experience.tinypass.com/xbuilder/experience/load?aid=KQBgCJf4pu');
-//--><!]]>
-</script>
+<script type="text/javascript" src="https://www.lecker.de/assets/js/js_Qo6F9OtgSS3qI0mvnZbjSNdkM74B08AcT-oeZUm-KhY.js"></script>
 
 		<div class="adAnything dikr-responsive-ads-slot dikr-responsive-ads-ist"></div>
 
 		<div id="fb-root"></div>
 
-    	</body>
+    <script type="text/javascript">
+  window.isMobile = function() {
+    let check = false;
+    (function(a){if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4))) check = true;})(navigator.userAgent||navigator.vendor||window.opera);
+    return check;
+  };
+
+  if (window.__tcfapi !== 'undefined' && xcelAdblockDetect !== 'undefined' && !xcelAdblockDetect.getCookie() && !isMobile()) {
+    window.__tcfapi('addEventListener', 2, async (tcData, success) => {
+      if (success && (tcData.eventStatus === 'tcloaded' || tcData.eventStatus === 'useractioncomplete')) {
+        xcelAdblockDetect.detectAny().then((detected) => {
+          if (detected) {
+            xcelAdblockDetect.toggleWarning()
+          }
+        })
+      }
+    })
+  }
+</script>
+	</body>
 </html>
 
