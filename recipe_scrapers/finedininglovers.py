@@ -10,8 +10,7 @@ class FineDiningLovers(AbstractScraper):
 
     def _is_article(self):
         """
-        finedinginglovers has recipes both as articles and recipes. articles have a different layout and lack some features recipes have
-        if the scraper detects an article it tries to return as much as possible
+        finedinginglovers features recipes and articles. Depending on what is requested the parser needs to handle fields differently.
         """
         return 'finedininglovers.com/article/' in self.canonical_url()
 
