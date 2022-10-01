@@ -32,12 +32,14 @@ class TheHappyFoodie(AbstractScraper):
         ingredient_name = 1
         ingredients = []
         for e in ingredient_elements:
-            if e.get('class'):
+            if e.get("class"):
                 continue
-            ingredients.append((
-                e.find_all("td")[amount].get_text(),
-                e.find_all("td")[ingredient_name].get_text(),
-            ))
+            ingredients.append(
+                (
+                    e.find_all("td")[amount].get_text(),
+                    e.find_all("td")[ingredient_name].get_text(),
+                )
+            )
 
         return [
             normalize_string("{} {}".format(amount, name))
