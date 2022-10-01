@@ -35,9 +35,8 @@ class FineDiningLovers(AbstractScraper):
 
     def ingredients(self):
         if self._is_article():
-            return (
-                []
-            )  # ingredients in articles are just normal text and cant be extracted
+            # TODO: can we identify a common structure for ingredient lists in articles?
+            return None
         ingredients_parent = self.soup.find("div", {"class": "ingredients-box"})
         ingredients = ingredients_parent.findAll(
             "div", {"class": "paragraph--type--recipe-ingredient"}
