@@ -7,4 +7,5 @@ max-complexity = 18
 select = B,C,E,F,W,T4,B9
 exclude =
     tests/test_data/*
+    ./.venv/
     ./venv/
