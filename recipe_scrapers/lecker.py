@@ -15,7 +15,13 @@ class Lecker(AbstractScraper):
         try:
             return self.schema.title()
         except TypeError:
-            return self.soup.find('header', {'class': 'article-header article-header--article'}).find('h1').get_text()
+            return (
+                self.soup.find(
+                    "header", {"class": "article-header article-header--article"}
+                )
+                .find("h1")
+                .get_text()
+            )
 
     def category(self):
         return self.schema.category()
@@ -42,9 +48,9 @@ class Lecker(AbstractScraper):
         if self.schema.instructions():
             return self.schema.instructions()
         else:
-            divs = self.soup.find_all('div', {'class': 'js-quizToggle'})
+            divs = self.soup.find_all("div", {"class": "js-quizToggle"})
             for d in divs:
-                if d.find('span', 'article__shifted-jump-label'):
+                if d.find("span", "article__shifted-jump-label"):
                     return d.get_text()
 
     def ratings(self):
