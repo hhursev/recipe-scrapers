@@ -81,5 +81,5 @@ class TestUtils(unittest.TestCase):
 
     def test_get_minutes_handles_iso8601(self):
         for text, expected_minutes in self.iso8601_fixtures.items():
-            with self.subTest(text=text, expected_minutes=expected_minutes):
+            with self.subTest(text=text):
                 self.assertEqual(expected_minutes, get_minutes(text))
