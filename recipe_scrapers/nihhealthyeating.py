@@ -74,6 +74,7 @@ class NIHHealthyEating(AbstractScraper):
         # Find more than one lists of ingredients
         ingredients_h4_sections = ingredients_div.find_all("h4")
 
+        # Ingredients are broken down into sections
         # https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?linkId=11&cId=1&rId=5
 
         if len(ingredients_h4_sections) >= 2:
@@ -86,6 +87,7 @@ class NIHHealthyEating(AbstractScraper):
                 section.append(res)
             return section
 
+        # Default case
         ingredients_p = ingredients_div.findAll("p")
         ingredients = [normalize_string(para.get_text()) for para in ingredients_p]
         ingredients_list = [
