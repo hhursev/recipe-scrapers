@@ -32,7 +32,7 @@ class Reishunger(AbstractScraper):
         # for recipes that do NOT allow to switch between different cooking methods
         for e in elements:
             if "Zubereitung" in e.get_text():
-                return e.get_text()
+                return e.get_text().replace("\xa0", " ")
 
     def ratings(self):
         block = self.soup.find("div", {"class": "nrating"})
