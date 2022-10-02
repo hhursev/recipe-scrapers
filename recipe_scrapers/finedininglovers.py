@@ -36,7 +36,7 @@ class FineDiningLovers(AbstractScraper):
     def ingredients(self):
         if self._is_article():
             # TODO: can we identify a common structure for ingredient lists in articles?
-            return None
+            return []
         ingredients_parent = self.soup.find("div", {"class": "ingredients-box"})
         ingredients = ingredients_parent.findAll(
             "div", {"class": "paragraph--type--recipe-ingredient"}
@@ -46,7 +46,11 @@ class FineDiningLovers(AbstractScraper):
 
     def instructions(self):
         if self._is_article():
-            return self.soup.find("div", {"class": "field--name-body"}).get_text()
+            return (
+                self.soup.find("div", {"class": "field--name-body"})
+                .get_text()
+                .replace("\xa0", " ")
+            )
 
         instructions_parent = self.soup.find(
             "div", {"class": "field--name-field-recipe-para-steps"}
