@@ -192,5 +192,5 @@ class NIHHealthyEating(AbstractScraper):
                         }
                     )
         else:
-            raise ElementNotFoundInHtml("Recipe cards not found.")
+            return None
         return recipe_cards

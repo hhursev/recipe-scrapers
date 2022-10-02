@@ -108,3 +108,70 @@ class TestNIHHealthyEatingRecipesScraper(ScraperTest):
             ],
             self.harvester_class.recipe_cards(),
         )
+
+
+# test recipe's URL
+# https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?linkId=11&cId=1&rId=5
+
+
+class TestNIHHealthyEatingRecipesVariationScraper(ScraperTest):
+
+    scraper_class = NIHHealthyEating
+    test_file_name = "nihhealthyeatingvariation"
+
+    def test_host(self):
+        self.assertEqual("healthyeating.nhlbi.nih.gov", self.harvester_class.host())
+
+    def test_title(self):
+        self.assertEqual(
+            self.harvester_class.title(),
+            "Broiled Sirloin With Spicy Mustard and Apple Chutney",
+        )
+
+    def test_ingredients(self):
+        self.assertEqual(
+            [
+                "{'For chutney:': ['1 Granny Smith apple, rinsed, peeled, cored, and diced (about 1 C)', '2 Tbsp shallots, minced', '1 Tbsp garlic, minced (about 2–3 cloves)', '½ C canned no-salt-added diced tomatoes', '2 oz golden seedless raisins (about ½ C)', '¼ C apple cider vinegar', '2 Tbsp maple syrup']}",
+                "{'For steak:': ['4 beef top sirloin steaks, lean\\xa0(3 oz each)', '¼ tsp salt', '¼ tsp ground black pepper', '1 Tbsp olive oil']}",
+                "{'For mustard dressing:': ['2 C low-sodium beef broth', '2 Tbsp Dijon mustard', '2 Tbsp cornstarch']}",
+            ],
+            self.harvester_class.ingredients(),
+        )
+
+    def test_recipe_cards(self):
+        self.assertEqual(None, self.harvester_class.recipe_cards())
+
+
+# test recipe's URL
+# https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?linkId=0&cId=10&rId=163
+
+
+class TestNIHHealthyEatingRecipesEdgeCaseScraper(ScraperTest):
+
+    scraper_class = NIHHealthyEating
+    test_file_name = "nihhealthyeatingedgecase"
+
+    def test_host(self):
+        self.assertEqual("healthyeating.nhlbi.nih.gov", self.harvester_class.host())
+
+    def test_title(self):
+        self.assertEqual(self.harvester_class.title(), "Fruit Skewers With Yogurt Dip")
+
+    def test_recipe_source(self):
+        self.assertEqual(
+            "Deliciously Healthy Family Meals",
+            self.harvester_class.recipe_source(),
+        )
+
+    def test_ingredients(self):
+        self.assertEqual(
+            [
+                "1 C strawberries, rinsed, stems removed, and cut in half",
+                "1 C fresh pineapple, diced (or canned pineapple chunks in juice, drained)",
+                "½ C blackberries",
+                "1 tangerine or Clementine, peeled and cut into 8 segments",
+                "8 6-inch wooden skewers",
+                "{'For dip:': ['1 C strawberries, rinsed, stems removed, and cut in half', '¼ C fat-free plain yogurt', '1/8 tsp vanilla extract', '1 Tbsp honey']}",
+            ],
+            self.harvester_class.ingredients(),
+        )
