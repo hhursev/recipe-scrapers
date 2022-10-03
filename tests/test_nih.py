@@ -88,12 +88,6 @@ class TestNIHHealthyEatingRecipesScraper(ScraperTest):
             self.harvester_class.instructions(),
         )
 
-    def test_recipe_source(self):
-        self.assertEqual(
-            "Delicious Heart Healthy Latino Recipes",
-            self.harvester_class.recipe_source(),
-        )
-
     def test_recipe_cards(self):
         self.assertEqual(
             [
