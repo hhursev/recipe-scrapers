@@ -30,9 +30,9 @@ class Reishunger(AbstractScraper):
         elements = self.soup.findAll("div", {"class": "flex flex-col"})
 
         # for recipes that do NOT allow to switch between different cooking methods
-        for e in elements:
-            if "Zubereitung" in e.get_text():
-                return e.get_text().replace("\xa0", " ")
+        for element in elements:
+            if "Zubereitung" in element.get_text():
+                return element.get_text().replace("\xa0", " ")
 
     def ratings(self):
         block = self.soup.find("div", {"class": "nrating"})
