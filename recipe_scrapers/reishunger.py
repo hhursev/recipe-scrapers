@@ -26,13 +26,51 @@ class Reishunger(AbstractScraper):
     def ingredients(self):
         return self.schema.ingredients()
 
-    def instructions(self):
-        elements = self.soup.findAll("div", {"class": "flex flex-col"})
+    def _trim_instruction(self, instruction):
+        instruction = instruction.strip()
+        while instruction != instruction.replace("\n\n", "\n"):
+            instruction = instruction.replace("\n\n", "\n")
+        return instruction
 
-        # for recipes that do NOT allow to switch between different cooking methods
-        for element in elements:
-            if "Zubereitung" in element.get_text():
-                return element.get_text().replace("\xa0", " ")
+    def instructions(self):
+        # find the "instructions" heading (Zubereitung in German)
+        for heading in self.soup.findAll("h3"):
+            if "Zubereitung" in heading.get_text():
+                break
+
+        results = []
+
+        # locate the first recipe instruction
+        content_area = heading.parent.parent
+        step = content_area.find("div", {"class": "leading-normal"})
+
+        # iterate through each step in the recipe
+        while step:
+
+            # check whether the instruction has a list of preparations
+            # fixme: this can throw an exception if 'step' is not a bs4 Tag
+            try:
+                preparations = step.find("div", {"preparation": True})
+            except Exception:
+                preparations = None
+
+            # if it does, add every preparation step as an instruction entry
+            if preparations:
+                for preparation in preparations.find("div", {"id": True}):
+                    instruction = self._trim_instruction(preparation.text)
+                    results.append(instruction)
+
+            # otherwise, add only one instruction entry
+            else:
+                instruction = self._trim_instruction(step.text)
+                results.append(instruction)
+
+            # continue on to the next instruction
+            step = step.next_sibling
+
+        # filter out empty lines
+        results = [instruction for instruction in results if instruction]
+        return "\n".join(results)
 
     def ratings(self):
         block = self.soup.find("div", {"class": "nrating"})
