@@ -1,6 +1,7 @@
 # mypy: disallow_untyped_defs=False
 
 from ._abstract import AbstractScraper
+from ._utils import normalize_string
 
 
 class Reishunger(AbstractScraper):
@@ -25,12 +26,6 @@ class Reishunger(AbstractScraper):
 
     def ingredients(self):
         return self.schema.ingredients()
-
-    def _trim_instruction(self, instruction):
-        instruction = instruction.strip()
-        while instruction != instruction.replace("\n\n", "\n"):
-            instruction = instruction.replace("\n\n", "\n")
-        return instruction
 
     def instructions(self):
         # find the "instructions" heading (Zubereitung in German)
@@ -57,12 +52,12 @@ class Reishunger(AbstractScraper):
             # if it does, add every preparation step as an instruction entry
             if preparations:
                 for preparation in preparations.find("div", {"id": True}):
-                    instruction = self._trim_instruction(preparation.text)
+                    instruction = normalize_string(preparation.text)
                     results.append(instruction)
 
             # otherwise, add only one instruction entry
             else:
-                instruction = self._trim_instruction(step.text)
+                instruction = normalize_string(step.text)
                 results.append(instruction)
 
             # continue on to the next instruction

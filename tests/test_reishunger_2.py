@@ -57,7 +57,7 @@ class TestReishungerScraper(ScraperTest):
             "\n".join(
                 [
                     "1. Schritt",
-                    "Zubereitung im\nKochtopf\nReis waschen. Den Reis mit kaltem Wasser bedecken. Mit den Händen den Reis in kreisenden Bewegungen waschen. Durch die überschüssige Stärke wird das Wasser trüb. Nun das Wasser abgießen und den Vorgang wiederholen bis das Wasser klar bleibt.\nReis in einen Kochtopf geben.\nWasser dazugeben. Nach Belieben salzen.\nReis 10 Minuten einweichen lassen.\nHerd auf die höchste Hitzestufe stellen und Reis aufkochen lassen.\nSobald das Wasser kocht, den Herd auf die mittlere Hitzestufe stellen und den Reis ca. 15 Minuten bei geschlossenem Deckel köcheln lassen bis das Wasser komplett aufgesogen wurde.\nNach Belieben ein Stück Butter hinzufügen.",
+                    "Zubereitung im Kochtopf Reis waschen. Den Reis mit kaltem Wasser bedecken. Mit den Händen den Reis in kreisenden Bewegungen waschen. Durch die überschüssige Stärke wird das Wasser trüb. Nun das Wasser abgießen und den Vorgang wiederholen bis das Wasser klar bleibt. Reis in einen Kochtopf geben. Wasser dazugeben. Nach Belieben salzen. Reis 10 Minuten einweichen lassen. Herd auf die höchste Hitzestufe stellen und Reis aufkochen lassen. Sobald das Wasser kocht, den Herd auf die mittlere Hitzestufe stellen und den Reis ca. 15 Minuten bei geschlossenem Deckel köcheln lassen bis das Wasser komplett aufgesogen wurde. Nach Belieben ein Stück Butter hinzufügen.",
                     "2. Schritt",
                     "Zwiebeln und Knoblauch klein schneiden und in Kokosöl in einer Pfanne kurz anbraten.",
                     "3. Schritt",
