@@ -51,7 +51,7 @@ class Reishunger(AbstractScraper):
 
             # if it does, add every preparation step as an instruction entry
             if preparations:
-                for preparation in preparations.find("div", {"id": True}):
+                for preparation in preparations.findAll("div", {"id": True}):
                     instruction = normalize_string(preparation.text)
                     results.append(instruction)
 
