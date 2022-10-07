@@ -16,7 +16,6 @@ SYNTAXES = ["json-ld", "microdata"]
 
 
 class SchemaOrg:
-
     def __init__(self, page_data, raw=False):
         if raw:
             self.format = "raw"
