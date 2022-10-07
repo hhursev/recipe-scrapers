@@ -15,11 +15,48 @@ class TestNIHHealthyEatingRecipesScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Baked Tilapia With Tomatoes")
 
+    def test_description(self):
+        self.assertEqual(
+            "This dish is easy to prepare, low in calories, and economical.",
+            self.harvester_class.description(),
+        )
+
+    def test_recipe_source(self):
+        self.assertEqual(
+            "Delicious Heart Healthy Latino Recipes",
+            self.harvester_class.recipe_source(),
+        )
+
     def test_total_time(self):
         self.assertEqual(35, self.harvester_class.total_time())
 
+    def test_prep_time(self):
+        self.assertEqual(10, self.harvester_class.prep_time())
+
+    def test_cook_time(self):
+        self.assertEqual(25, self.harvester_class.cook_time())
+
+    def test_serving_size(self):
+        self.assertEqual("1 fillet", self.harvester_class.serving_size())
+
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())
+
+    def test_nutrients(self):
+        self.assertEqual(
+            {
+                "calories": "265",
+                "Total fat": "16 g",
+                "Saturated fat": "2 g",
+                "Cholesterol": "58 mg",
+                "Sodium": "172 mg",
+                "Total fiber": "3 g",
+                "Protein": "22 g",
+                "Carbohydrates": "9 g",
+                "Potassium": "635 mg",
+            },
+            self.harvester_class.nutrients(),
+        )
 
     def test_image(self):
         self.assertEqual(

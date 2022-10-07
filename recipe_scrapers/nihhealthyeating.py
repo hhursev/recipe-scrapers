@@ -1,3 +1,4 @@
+# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._exceptions import ElementNotFoundInHtml
 from ._utils import get_minutes, get_yields, normalize_string
@@ -84,4 +85,53 @@ class NIHHealthyEating(AbstractScraper):
 
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
+        )
+
+    def nutrients(self):
+        elements = []
+        nutrition = {}
+
+        for s in (
+            self.soup.find("div", {"id": "nutrition_info"}).find("table").find_all("tr")
+        ):
+            for element in s.find_all("td"):
+                if element.text.strip() != "":
+                    elements.append(normalize_string(element.get_text()))
+
+        for i in range(0, len(elements), 2):
+            if len(elements) > i + 1:
+                k, v = elements[i], elements[i + 1]
+                nutrition[k] = v
+
+        return nutrition
+
+    def description(self):
+        return normalize_string(
+            self.soup.find("p", {"class": "recipe_detail_subtext"}).text.strip()
+        )
+
+    def prep_time(self):
+        return get_minutes(
+            self.soup.find("table", {"class": "recipe_time_table"})
+            .find_all("td")[0]
+            .text.strip()
+        )
+
+    def cook_time(self):
+        return get_minutes(
+            self.soup.find("table", {"class": "recipe_time_table"})
+            .find_all("td")[1]
+            .text.strip()
+        )
+
+    def serving_size(self):
+        return normalize_string(
+            self.soup.find("table", {"class": "recipe_time_table"})
+            .find_all("td")[3]
+            .text.strip()
+        )
+
+    def recipe_source(self):
+        return normalize_string(
+            self.soup.find("div", {"id": "Recipe_Source"}).text.split(": ")[1].strip()
         )

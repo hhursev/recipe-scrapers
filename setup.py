@@ -1,8 +1,9 @@
 import os
+from typing import Dict
 
 from setuptools import find_packages, setup
 
-about = {}
+about: Dict[str, str] = {}
 here = os.path.abspath(os.path.dirname(__file__))
 with open(
     os.path.join(here, "recipe_scrapers", "__version__.py"), "r", encoding="utf-8"
@@ -23,9 +24,15 @@ setup(
     keywords="python recipes scraper harvest recipe-scraper recipe-scrapers",
     long_description=README,
     long_description_content_type="text/x-rst",
-    install_requires=["beautifulsoup4>=4.10.0", "extruct>=0.8.0", "requests>=2.19.1"],
+    install_requires=[
+        "beautifulsoup4>=4.10.0",
+        "extruct>=0.8.0",
+        "requests>=2.19.1",
+        "types-beautifulsoup4>=4.11.6",
+        "types-requests>=2.28.10",
+    ],
     packages=find_packages(),
-    package_data={"": ["LICENSE"]},
+    package_data={"": ["LICENSE", "py.typed"]},
     include_package_data=True,
     classifiers=[
         "Programming Language :: Python :: 3",

@@ -25,3 +25,4 @@ jobs:
         run: |
           black --check .
           flake8 --count .
+          mypy recipe_scrapers tests

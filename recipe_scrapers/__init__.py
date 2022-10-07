@@ -1,5 +1,6 @@
+from __future__ import annotations
 import contextlib
-from typing import Optional
+from typing import Any, Optional
 
 from ._abstract import AbstractScraper
 from ._exceptions import NoSchemaFoundInWildMode, WebsiteNotImplementedError
@@ -440,7 +441,7 @@ SCRAPERS = {
 }
 
 
-def scrape_me(url_path, **options):
+def scrape_me(url_path: str, **options: dict[str, Any]) -> AbstractScraper:
     host_name = get_host_name(url_path)
 
     try:
@@ -458,7 +459,9 @@ def scrape_me(url_path, **options):
     return scraper(url_path, **options)
 
 
-def scrape_html(html: str, org_url: Optional[str] = None, **options) -> AbstractScraper:
+def scrape_html(
+    html: str, org_url: Optional[str] = None, **options: dict[str, Any]
+) -> AbstractScraper:
     """
     takes a string of html and returns a scraper object. if the org_url is specified
     then the scraper will use that url to resolve a defined scraper, otherwise it will

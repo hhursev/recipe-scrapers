@@ -1,3 +1,4 @@
+# mypy: disallow_untyped_defs=False
 # copykat.py
 # Written by G.D. Wallters
 # Freely released the code to recipe_scraper group
