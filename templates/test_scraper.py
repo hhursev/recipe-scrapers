@@ -1,4 +1,4 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
 
 from recipe_scrapers.template import Template  # type: ignore [import]
 from tests import ScraperTest
