@@ -136,6 +136,7 @@ Scrapers available for:
 - `https://eatsmarter.com/ <https://eatsmarter.com/>`_
 - `https://eatsmarter.de/ <https://eatsmarter.de/>`_
 - `https://eatwhattonight.com/ <https://eatwhattonight.com/>`_
+- `https://emmikochteinfach.de/ <https://emmikochteinfach.de/>`_
 - `https://ethanchlebowski.com/ <https://ethanchlebowski.com>`_
 - `https://epicurious.com/ <https://epicurious.com>`_
 - `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
@@ -251,6 +252,7 @@ Scrapers available for:
 - `https://sallys-blog.de <https://sallys-blog.de/>`_
 - `https://www.saveur.com/ <https://www.saveur.com/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_
+- `https://simple-veganista.com/ <https://simple-veganista.com/>`_
 - `https://simplyquinoa.com/ <https://simplyquinoa.com>`_
 - `https://simplyrecipes.com/ <https://simplyrecipes.co>`_
 - `https://simplywhisked.com/ <https://simplywhisked.com>`_

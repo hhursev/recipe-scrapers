@@ -1,12 +1,11 @@
 # mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
 
 
-class Template(AbstractScraper):
+class EmmiKochtEinfach(AbstractScraper):
     @classmethod
     def host(cls):
-        return "example.com"
+        return "emmikochteinfach.de"
 
     def author(self):
         return self.schema.author()
