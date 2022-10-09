@@ -252,6 +252,7 @@ Scrapers available for:
 - `https://sallys-blog.de <https://sallys-blog.de/>`_
 - `https://www.saveur.com/ <https://www.saveur.com/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_
+- `https://simple-veganista.com/ <https://simple-veganista.com/>`_
 - `https://simplyquinoa.com/ <https://simplyquinoa.com>`_
 - `https://simplyrecipes.com/ <https://simplyrecipes.co>`_
 - `https://simplywhisked.com/ <https://simplywhisked.com>`_

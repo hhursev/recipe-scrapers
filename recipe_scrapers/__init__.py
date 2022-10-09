@@ -1,4 +1,5 @@
 from __future__ import annotations
+
 import contextlib
 from typing import Any, Optional
 
@@ -167,6 +168,7 @@ from .sallysbakingaddiction import SallysBakingAddiction
 from .sallysblog import SallysBlog
 from .saveur import Saveur
 from .seriouseats import SeriousEats
+from .simpleveganista import SimpleVeganista
 from .simplyquinoa import SimplyQuinoa
 from .simplyrecipes import SimplyRecipes
 from .simplywhisked import SimplyWhisked
@@ -391,6 +393,7 @@ SCRAPERS = {
     SallysBlog.host(): SallysBlog,
     Saveur.host(): Saveur,
     SeriousEats.host(): SeriousEats,
+    SimpleVeganista.host(): SimpleVeganista,
     SimplyQuinoa.host(): SimplyQuinoa,
     SimplyRecipes.host(): SimplyRecipes,
     SimplyWhisked.host(): SimplyWhisked,
