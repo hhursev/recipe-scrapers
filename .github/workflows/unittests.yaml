@@ -32,7 +32,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
       # 2022-10-10: setup.py-compiled lxml fails to parse test_wild_mode.testhtml on macos-11 (20221002.2) runner
       - name: "Workaround: force installation of binary wheel variant of lxml"
-        if: ${{ lxml-binary-wheel-workaround }}
+        if: ${{ matrix.lxml-binary-wheel-workaround }}
         run: pip install --only-binary=lxml lxml
       - name: Install dependencies
         run: |
