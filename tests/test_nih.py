@@ -1,4 +1,4 @@
-from recipe_scrapers.nihhealthyeating import NIHHealthyEating
+from recipe_scrapers.nihhealthyeating import IngredientGroup, NIHHealthyEating
 from tests import ScraperTest
 
 # test recipe's URL
@@ -122,12 +122,59 @@ class TestNIHHealthyEatingRecipesVariationScraper(ScraperTest):
             "Broiled Sirloin With Spicy Mustard and Apple Chutney",
         )
 
+    def test_ingredient_groups(self):
+        self.assertEqual(
+            [
+                IngredientGroup(
+                    ingredients=[
+                        "1 Granny Smith apple, rinsed, peeled, cored, and diced (about 1 C)",
+                        "2 Tbsp shallots, minced",
+                        "1 Tbsp garlic, minced (about 2–3 cloves)",
+                        "½ C canned no-salt-added diced tomatoes",
+                        "2 oz golden seedless raisins (about ½ C)",
+                        "¼ C apple cider vinegar",
+                        "2 Tbsp maple syrup",
+                    ],
+                    subproduct="For chutney:",
+                ),
+                IngredientGroup(
+                    ingredients=[
+                        "4 beef top sirloin steaks, lean\xa0(3 oz each)",
+                        "¼ tsp salt",
+                        "¼ tsp ground black pepper",
+                        "1 Tbsp olive oil",
+                    ],
+                    subproduct="For steak:",
+                ),
+                IngredientGroup(
+                    ingredients=[
+                        "2 C low-sodium beef broth",
+                        "2 Tbsp Dijon mustard",
+                        "2 Tbsp cornstarch",
+                    ],
+                    subproduct="For mustard dressing:",
+                ),
+            ],
+            self.harvester_class.ingredient_groups(),
+        )
+
     def test_ingredients(self):
         self.assertEqual(
             [
-                "{'For chutney:': ['1 Granny Smith apple, rinsed, peeled, cored, and diced (about 1 C)', '2 Tbsp shallots, minced', '1 Tbsp garlic, minced (about 2–3 cloves)', '½ C canned no-salt-added diced tomatoes', '2 oz golden seedless raisins (about ½ C)', '¼ C apple cider vinegar', '2 Tbsp maple syrup']}",
-                "{'For steak:': ['4 beef top sirloin steaks, lean\\xa0(3 oz each)', '¼ tsp salt', '¼ tsp ground black pepper', '1 Tbsp olive oil']}",
-                "{'For mustard dressing:': ['2 C low-sodium beef broth', '2 Tbsp Dijon mustard', '2 Tbsp cornstarch']}",
+                "1 Granny Smith apple, rinsed, peeled, cored, and diced (about 1 C)",
+                "2 Tbsp shallots, minced",
+                "1 Tbsp garlic, minced (about 2–3 cloves)",
+                "½ C canned no-salt-added diced tomatoes",
+                "2 oz golden seedless raisins (about ½ C)",
+                "¼ C apple cider vinegar",
+                "2 Tbsp maple syrup",
+                "4 beef top sirloin steaks, lean\xa0(3 oz each)",
+                "¼ tsp salt",
+                "¼ tsp ground black pepper",
+                "1 Tbsp olive oil",
+                "2 C low-sodium beef broth",
+                "2 Tbsp Dijon mustard",
+                "2 Tbsp cornstarch",
             ],
             self.harvester_class.ingredients(),
         )
@@ -157,15 +204,44 @@ class TestNIHHealthyEatingRecipesEdgeCaseScraper(ScraperTest):
             self.harvester_class.recipe_source(),
         )
 
+    def test_ingredient_groups(self):
+        self.assertEqual(
+            [
+                IngredientGroup(
+                    ingredients=[
+                        "1 C strawberries, rinsed, stems removed, and cut in half",
+                        "¼ C fat-free plain yogurt",
+                        "1/8 tsp vanilla extract",
+                        "1 Tbsp honey",
+                    ],
+                    subproduct="For dip:",
+                ),
+                IngredientGroup(
+                    ingredients=[
+                        "1 C strawberries, rinsed, stems removed, and cut in half",
+                        "1 C fresh pineapple, diced (or canned pineapple chunks in juice, drained)",
+                        "½ C blackberries",
+                        "1 tangerine or Clementine, peeled and cut into 8 segments",
+                        "8 6-inch wooden skewers",
+                    ],
+                    subproduct=None,
+                ),
+            ],
+            self.harvester_class.ingredient_groups(),
+        )
+
     def test_ingredients(self):
         self.assertEqual(
             [
+                "1 C strawberries, rinsed, stems removed, and cut in half",
+                "¼ C fat-free plain yogurt",
+                "1/8 tsp vanilla extract",
+                "1 Tbsp honey",
                 "1 C strawberries, rinsed, stems removed, and cut in half",
                 "1 C fresh pineapple, diced (or canned pineapple chunks in juice, drained)",
                 "½ C blackberries",
                 "1 tangerine or Clementine, peeled and cut into 8 segments",
                 "8 6-inch wooden skewers",
-                "{'For dip:': ['1 C strawberries, rinsed, stems removed, and cut in half', '¼ C fat-free plain yogurt', '1/8 tsp vanilla extract', '1 Tbsp honey']}",
             ],
             self.harvester_class.ingredients(),
         )

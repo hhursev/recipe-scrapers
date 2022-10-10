@@ -1,10 +1,17 @@
 # mypy: disallow_untyped_defs=False
+from attr import dataclass
 from ._abstract import AbstractScraper
 from ._exceptions import ElementNotFoundInHtml
 from ._utils import get_minutes, get_yields, normalize_string
 
 import re
 from bs4 import Tag
+
+
+@dataclass
+class IngredientGroup:
+    ingredients: list[str]
+    subproduct: str = None  # the part of the recipe that these ingredients are used for - for example, "dipping sauce"
 
 
 class NIHHealthyEating(AbstractScraper):
@@ -63,7 +70,7 @@ class NIHHealthyEating(AbstractScraper):
 
         return image_relative_url
 
-    def ingredients(self):
+    def ingredient_groups(self) -> list[IngredientGroup]:
         # This content must be present for recipes on this website.
         ingredients_div = self.soup.find("div", {"id": "ingredients"})
         section = []
@@ -81,9 +88,10 @@ class NIHHealthyEating(AbstractScraper):
             ingredients_sections = ingredients_div.find_all("tr")
             for ingredients_section in ingredients_sections:
                 items = ingredients_section.find("p").text.strip().split("\n")
-                res = {
-                    normalize_string(ingredients_section.find("h4").text.strip()): items
-                }
+                # create ingredient group for each section
+                res = IngredientGroup(
+                    items, normalize_string(ingredients_section.find("h4").text.strip())
+                )
                 section.append(res)
             return section
 
@@ -104,11 +112,20 @@ class NIHHealthyEating(AbstractScraper):
                 .text.strip()
                 .split("\n")
             )
-            res = {normalize_string(ingredients_h4_sections[0].text.strip()): items}
-            section.append(res)
-            return ingredients_list[:-1] + section
+            group = IngredientGroup(
+                items, normalize_string(ingredients_h4_sections[0].text.strip())
+            )
+            section.append(group)
+            section.append(IngredientGroup(ingredients_list[:-1]))
+            return section
 
-        return ingredients_list
+        return [IngredientGroup(ingredients_list)]
+
+    def ingredients(self) -> list[str]:
+        results = []
+        for ingredient_group in self.ingredient_groups():
+            results.extend(ingredient_group.ingredients)
+        return results
 
     def instructions(self):
         # This content must be present for recipes on this website.
