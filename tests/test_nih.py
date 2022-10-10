@@ -178,6 +178,13 @@ class TestNIHHealthyEatingRecipesVariationScraper(ScraperTest):
             ],
             self.harvester_class.ingredients(),
         )
+        # check length of ingredients() === sum of lengths of ingredient_groups()
+        self.assertEqual(
+            len(self.harvester_class.ingredients()),
+            sum(
+                [len(ig.ingredients) for ig in self.harvester_class.ingredient_groups()]
+            ),
+        )
 
     def test_recipe_cards(self):
         self.assertEqual(None, self.harvester_class.recipe_cards())
@@ -244,4 +251,11 @@ class TestNIHHealthyEatingRecipesEdgeCaseScraper(ScraperTest):
                 "8 6-inch wooden skewers",
             ],
             self.harvester_class.ingredients(),
+        )
+        # check length of ingredients() === sum of lengths of ingredient_groups()
+        self.assertEqual(
+            len(self.harvester_class.ingredients()),
+            sum(
+                [len(ig.ingredients) for ig in self.harvester_class.ingredient_groups()]
+            ),
         )
