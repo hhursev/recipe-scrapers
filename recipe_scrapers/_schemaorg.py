@@ -4,7 +4,6 @@
 
 
 import extruct
-from extruct.utils import parse_html
 
 from recipe_scrapers.settings import settings
 
@@ -25,9 +24,6 @@ class SchemaOrg:
             return
         self.format = None
         self.data = {}
-
-        print(len(page_data))
-        print(len(parse_html(page_data)))
 
         data = extruct.extract(
             page_data,
