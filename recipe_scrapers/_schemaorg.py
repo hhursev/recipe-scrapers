@@ -27,7 +27,7 @@ class SchemaOrg:
         self.data = {}
 
         print(len(page_data))
-        print(len(parse_html(page_data, encoding="UTF-8")))
+        print(len(parse_html(page_data)))
 
         data = extruct.extract(
             page_data,
