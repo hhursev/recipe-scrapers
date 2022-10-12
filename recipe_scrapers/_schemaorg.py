@@ -126,7 +126,6 @@ class SchemaOrg:
         return author
 
     def total_time(self):
-        print(self.data)
         if not (self.data.keys() & {"totalTime", "prepTime", "cookTime"}):
             raise SchemaOrgException("Cooking time information not found in SchemaOrg")
 
