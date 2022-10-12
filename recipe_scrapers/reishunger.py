@@ -36,11 +36,10 @@ class Reishunger(AbstractScraper):
         results = []
 
         # locate the first recipe instruction
-        content_area = heading.parent.parent
-        step = content_area.find("div", {"class": "leading-normal"})
+        step1 = heading.parent.parent.find("div", {"class": "leading-normal"})
 
         # iterate through each step in the recipe
-        while step:
+        for step in step1.next_siblings:
 
             # check whether the instruction has a list of preparations
             # fixme: this can throw an exception if 'step' is not a bs4 Tag
