@@ -36,8 +36,7 @@ class NutritionByNathalie(AbstractScraper):
             title = outerElement.find_parent("p")
             if not title:
                 continue
-            element = title.nextSibling
-            while element:
+            for element in title.next_siblings:
                 ingredient = element.get_text()
                 if len(ingredient) == 0 or ord(ingredient[0]) != BULLET_CHARACTER_ORD:
                     break
