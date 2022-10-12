@@ -57,8 +57,9 @@ class Reishunger(AbstractScraper):
 
             # otherwise, add only one instruction entry
             else:
-                instruction = normalize_string(step.text)
-                results.append(instruction)
+                if step.find("p"):
+                    instruction = normalize_string(step.text)
+                    results.append(instruction)
 
             # continue on to the next instruction
             step = step.next_sibling
