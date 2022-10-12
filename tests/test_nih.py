@@ -135,7 +135,7 @@ class TestNIHHealthyEatingRecipesVariationScraper(ScraperTest):
                         "¼ C apple cider vinegar",
                         "2 Tbsp maple syrup",
                     ],
-                    subproduct="For chutney:",
+                    purpose="For chutney:",
                 ),
                 IngredientGroup(
                     ingredients=[
@@ -144,7 +144,7 @@ class TestNIHHealthyEatingRecipesVariationScraper(ScraperTest):
                         "¼ tsp ground black pepper",
                         "1 Tbsp olive oil",
                     ],
-                    subproduct="For steak:",
+                    purpose="For steak:",
                 ),
                 IngredientGroup(
                     ingredients=[
@@ -152,7 +152,7 @@ class TestNIHHealthyEatingRecipesVariationScraper(ScraperTest):
                         "2 Tbsp Dijon mustard",
                         "2 Tbsp cornstarch",
                     ],
-                    subproduct="For mustard dressing:",
+                    purpose="For mustard dressing:",
                 ),
             ],
             self.harvester_class.ingredient_groups(),
@@ -221,7 +221,7 @@ class TestNIHHealthyEatingRecipesEdgeCaseScraper(ScraperTest):
                         "1/8 tsp vanilla extract",
                         "1 Tbsp honey",
                     ],
-                    subproduct="For dip:",
+                    purpose="For dip:",
                 ),
                 IngredientGroup(
                     ingredients=[
@@ -231,7 +231,7 @@ class TestNIHHealthyEatingRecipesEdgeCaseScraper(ScraperTest):
                         "1 tangerine or Clementine, peeled and cut into 8 segments",
                         "8 6-inch wooden skewers",
                     ],
-                    subproduct=None,
+                    purpose="",
                 ),
             ],
             self.harvester_class.ingredient_groups(),

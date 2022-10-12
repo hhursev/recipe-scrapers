@@ -1,17 +1,17 @@
 # mypy: disallow_untyped_defs=False
+from typing import List
 from attr import dataclass
 from ._abstract import AbstractScraper
 from ._exceptions import ElementNotFoundInHtml
 from ._utils import get_minutes, get_yields, normalize_string
 
-import re
-from bs4 import Tag
-
 
 @dataclass
 class IngredientGroup:
-    ingredients: list[str]
-    subproduct: str = None  # the part of the recipe that these ingredients are used for - for example, "dipping sauce"
+    ingredients: List[str]
+    purpose: str = (
+        ""  # this group of ingredients is {purpose} (e.g. "For the dressing")
+    )
 
 
 class NIHHealthyEating(AbstractScraper):
@@ -70,7 +70,7 @@ class NIHHealthyEating(AbstractScraper):
 
         return image_relative_url
 
-    def ingredient_groups(self) -> list[IngredientGroup]:
+    def ingredient_groups(self) -> List[IngredientGroup]:
         # This content must be present for recipes on this website.
         ingredients_div = self.soup.find("div", {"id": "ingredients"})
         section = []
@@ -121,7 +121,7 @@ class NIHHealthyEating(AbstractScraper):
 
         return [IngredientGroup(ingredients_list)]
 
-    def ingredients(self) -> list[str]:
+    def ingredients(self) -> List[str]:
         results = []
         for ingredient_group in self.ingredient_groups():
             results.extend(ingredient_group.ingredients)
@@ -190,26 +190,20 @@ class NIHHealthyEating(AbstractScraper):
         )
 
     def recipe_cards(self):
-        recipe_cards_maker = self.soup.find(
-            "strong", string=re.compile(r"Recipe Cards:")
-        )
-        if recipe_cards_maker is not None:
-            recipe_cards = []
-            recipe_cards_maker_siblings = recipe_cards_maker.next_siblings
-            for recipe_cards_maker_sibling in recipe_cards_maker_siblings:
-                link = recipe_cards_maker_sibling.find("a")
-                if (
-                    isinstance(recipe_cards_maker_sibling, Tag)
-                    and recipe_cards_maker_sibling.name == "li"
-                ):
-                    recipe_cards.append(
-                        {
-                            "size": normalize_string(
-                                recipe_cards_maker_sibling.get_text()
-                            ),
-                            "url": link.get("href"),
-                        }
-                    )
-        else:
+        recipe_cards_maker = self.soup.find("strong", string="Recipe Cards:")
+
+        if recipe_cards_maker is None:
             return None
+
+        recipe_cards = []
+        recipe_cards_maker_siblings = recipe_cards_maker.next_siblings
+        for recipe_cards_maker_sibling in recipe_cards_maker_siblings:
+            link = recipe_cards_maker_sibling.find("a")
+            if recipe_cards_maker_sibling.name == "li":
+                recipe_cards.append(
+                    {
+                        "size": normalize_string(recipe_cards_maker_sibling.get_text()),
+                        "url": link.get("href"),
+                    }
+                )
         return recipe_cards
