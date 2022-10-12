@@ -31,7 +31,7 @@ class NutritionByNathalie(AbstractScraper):
     def ingredients(self):
         ingredients = []
 
-        elements = self.soup.find_all(text=self.ingredientMatch)
+        elements = self.soup.find_all(string=self.ingredientMatch)
         for outerElement in elements:
             title = outerElement.find_parent("p")
             if not title:
@@ -47,7 +47,7 @@ class NutritionByNathalie(AbstractScraper):
         return ingredients
 
     def instructions(self):
-        title = self.soup.find(text="Directions:").find_parent("p")
+        title = self.soup.find(string="Directions:").find_parent("p")
 
         instructions = []
         for child in title.nextSibling.find_all("li"):

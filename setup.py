@@ -27,6 +27,7 @@ setup(
     install_requires=[
         "beautifulsoup4>=4.10.0",
         "extruct>=0.8.0",
+        "isodate>=0.6.1",
         "requests>=2.19.1",
         "types-beautifulsoup4>=4.11.6",
         "types-requests>=2.28.10",

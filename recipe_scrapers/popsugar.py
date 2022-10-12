@@ -13,12 +13,12 @@ class PopSugar(AbstractScraper):
         return normalize_string(title)
 
     def total_time(self):
-        anchor = self._context().find(text="Total Time")
+        anchor = self._context().find(string="Total Time")
         time = anchor.parent.findNext("dd").get_text()
         return get_minutes(time)
 
     def yields(self):
-        anchor = self._context().find(text="Yield")
+        anchor = self._context().find(string="Yield")
         serves = anchor.parent.findNext("dd").get_text()
         return get_yields(serves)
 
@@ -29,7 +29,7 @@ class PopSugar(AbstractScraper):
         return article
 
     def ingredients(self):
-        container = self._context().find("h3", text="Ingredients").parent
+        container = self._context().find("h3", string="Ingredients").parent
         entries = container.findAll("li")
 
         ingredients = []
@@ -51,7 +51,7 @@ class PopSugar(AbstractScraper):
         return ingredients
 
     def instructions(self):
-        container = self._context().find("h3", text="Directions").parent
+        container = self._context().find("h3", string="Directions").parent
         return "\n".join([entry.get_text() for entry in container.findAll("li")])
 
     def _context(self):
