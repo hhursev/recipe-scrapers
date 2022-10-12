@@ -55,17 +55,11 @@ class TestReishungerScraper(ScraperTest):
         self.assertEqual(
             "\n".join(
                 [
-                    "1. Schritt",
                     "Reis nach Anleitung im Digitalen Reiskocher oder Kochtopf kochen.",
-                    "2. Schritt",
                     "Gemüse schneiden und ca. 5 min blanchieren.",
-                    "3. Schritt",
                     "Den Tofu in Stücke schneiden und in Mehl Ei und Paniermehl wälzen und kurz von allen Seiten anbraten.",
-                    "4. Schritt",
                     "Cashew Kerne in einer Pfanne kurz anrösten.",
-                    "5. Schritt",
                     "Die Sauce erwärmen und den Tofu auf einen Spieß ziehen (optimal).",
-                    "6. Schritt",
                     "Alles schön anrichten und mit den Sprossen toppen. Guten Reishunger! :-)",
                 ]
             ),
