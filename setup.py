@@ -26,7 +26,6 @@ setup(
     long_description_content_type="text/x-rst",
     install_requires=[
         "beautifulsoup4>=4.10.0",
-        "extruct>=0.8.0",
         "html5lib>=1.1",
         "requests>=2.19.1",
         "types-beautifulsoup4>=4.11.6",
