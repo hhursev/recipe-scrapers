@@ -1,5 +1,5 @@
 # mypy: disallow_untyped_defs=False
-from typing import List
+from typing import List, Optional
 from attr import dataclass
 from ._abstract import AbstractScraper
 from ._exceptions import ElementNotFoundInHtml
@@ -9,9 +9,9 @@ from ._utils import get_minutes, get_yields, normalize_string
 @dataclass
 class IngredientGroup:
     ingredients: List[str]
-    purpose: str = (
-        ""  # this group of ingredients is {purpose} (e.g. "For the dressing")
-    )
+    purpose: Optional[
+        str
+    ] = None  # this group of ingredients is {purpose} (e.g. "For the dressing")
 
 
 class NIHHealthyEating(AbstractScraper):

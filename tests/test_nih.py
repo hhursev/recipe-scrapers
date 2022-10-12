@@ -231,7 +231,7 @@ class TestNIHHealthyEatingRecipesEdgeCaseScraper(ScraperTest):
                         "1 tangerine or Clementine, peeled and cut into 8 segments",
                         "8 6-inch wooden skewers",
                     ],
-                    purpose="",
+                    purpose=None,
                 ),
             ],
             self.harvester_class.ingredient_groups(),
