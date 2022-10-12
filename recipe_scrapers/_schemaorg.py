@@ -94,7 +94,7 @@ class SchemaOrg:
                     microdata[name].append(value)
 
         # Flatten the value list for microdata properties that only appear once
-        for key, values in self.data.items():
+        for key, values in microdata.items():
             if len(values) == 1:
                 microdata[key] = values[0]
 
@@ -126,6 +126,7 @@ class SchemaOrg:
         return author
 
     def total_time(self):
+        print(self.data)
         if not (self.data.keys() & {"totalTime", "prepTime", "cookTime"}):
             raise SchemaOrgException("Cooking time information not found in SchemaOrg")
 
