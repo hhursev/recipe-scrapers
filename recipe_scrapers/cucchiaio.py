@@ -21,7 +21,7 @@ class Cucchiaio(AbstractScraper):
         return 0
 
     def yields(self):
-        header = self.soup.find("td", text="PORZIONI")
+        header = self.soup.find("td", string="PORZIONI")
         if header:
             value = header.find_next("td")
             return get_yields(value)

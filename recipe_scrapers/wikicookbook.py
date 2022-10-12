@@ -38,3 +38,25 @@ class WikiCookbook(AbstractScraper):
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
+
+    def description(self):
+        paragraphs = list()
+        for tag in self.soup.find(class_="mw-parser-output"):
+            try:
+                # get all paragraphs except for links
+                if (
+                    tag.text.strip()
+                    and tag.name == "p"
+                    and not tag.find("span", {"id": "displaytitle"})
+                ):
+                    paragraphs.append(tag)
+                # End at the TOC or second section
+                if tag.attrs.get("id") == "toc" or tag.name == "h2":
+                    break
+            except AttributeError:
+                # Ignore tags that are not <p> but raise errors
+                pass
+
+        return "\n\n".join(
+            [normalize_string(paragraph.get_text()) for paragraph in paragraphs]
+        )

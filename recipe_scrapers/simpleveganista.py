@@ -3,10 +3,10 @@
 from ._abstract import AbstractScraper
 
 
-class Template(AbstractScraper):
+class SimpleVeganista(AbstractScraper):
     @classmethod
     def host(cls):
-        return "example.com"
+        return "simple-veganista.com"
 
     def author(self):
         return self.schema.author()

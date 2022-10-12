@@ -1,4 +1,5 @@
 from __future__ import annotations
+
 import contextlib
 from typing import Any, Optional
 
@@ -59,6 +60,7 @@ from .eatingbirdfood import EatingBirdFood
 from .eatingwell import EatingWell
 from .eatsmarter import Eatsmarter
 from .eatwhattonight import EatWhatTonight
+from .emmikochteinfach import EmmiKochtEinfach
 from .epicurious import Epicurious
 from .ethanchlebowski import EthanChlebowski
 from .farmhousedelivery import FarmhouseDelivery
@@ -166,6 +168,7 @@ from .sallysbakingaddiction import SallysBakingAddiction
 from .sallysblog import SallysBlog
 from .saveur import Saveur
 from .seriouseats import SeriousEats
+from .simpleveganista import SimpleVeganista
 from .simplyquinoa import SimplyQuinoa
 from .simplyrecipes import SimplyRecipes
 from .simplywhisked import SimplyWhisked
@@ -269,6 +272,7 @@ SCRAPERS = {
     EatingWell.host(): EatingWell,
     Eatsmarter.host(): Eatsmarter,
     Eatsmarter.host(domain="de"): Eatsmarter,
+    EmmiKochtEinfach.host(): EmmiKochtEinfach,
     Epicurious.host(): Epicurious,
     EthanChlebowski.host(): EthanChlebowski,
     FarmhouseDelivery.host(): FarmhouseDelivery,
@@ -389,6 +393,7 @@ SCRAPERS = {
     SallysBlog.host(): SallysBlog,
     Saveur.host(): Saveur,
     SeriousEats.host(): SeriousEats,
+    SimpleVeganista.host(): SimpleVeganista,
     SimplyQuinoa.host(): SimplyQuinoa,
     SimplyRecipes.host(): SimplyRecipes,
     SimplyWhisked.host(): SimplyWhisked,
