@@ -15,14 +15,14 @@ jobs:
         os: [ubuntu-latest, macos-latest, windows-latest]
         python-version: ["3.7", "3.8", "3.9", "3.10", "3.11.0-rc.1"]
         exclude:
+          # 1. lxml built-from-source fails or produces unreliable results on these platforms
+          # 2. binary wheels are less likely to be available for release candidate versions of Python
+          # 3. GitHub Actions cancels all jobs in a batch when a single job fails
+          #    ... so skip these platforms
           - os: macos-latest
             python-version: "3.11.0-rc.1"
           - os: windows-latest
             python-version: "3.11.0-rc.1"
-        include:
-          - os: macos-latest
-            python-version: "3.10"
-            lxml-binary-wheel-workaround: true
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3
@@ -30,9 +30,11 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
-      # 2022-10-10: setup.py-compiled lxml fails to parse test_wild_mode.testhtml on macos-11 (20221002.2) runner
-      - name: "Workaround: force installation of binary wheel variant of lxml"
-        if: ${{ matrix.lxml-binary-wheel-workaround }}
+      # The system-provided libxml2 on MacOS is typically outdated and this can lead to lxml parsing issues
+      # Using PyPi-provided binary wheels instead resolves this
+      # We are affected by https://bugs.launchpad.net/lxml/+bug/1949271 in test_wild_mode when using system-provided libxml2 on MacOS
+      - name: Install lxml from wheel on MacOS
+        if: ${{ matrix.os == 'macos-latest' }}
         run: pip install --only-binary=lxml lxml
       - name: Install dependencies
         run: |
