@@ -2,18 +2,58 @@
 # IF things in this file continue get messy (I'd say 300+ lines) it may be time to
 # find a package that parses https://schema.org/Recipe properly (or create one ourselves).
 
+from collections import defaultdict
+import json
 
-import extruct
-
-from recipe_scrapers.settings import settings
+import html5lib
 
 from ._exceptions import SchemaOrgException
 from ._utils import get_minutes, get_yields, normalize_string
 
-SCHEMA_ORG_HOST = "schema.org"
-SCHEMA_NAMES = ["Recipe", "WebPage"]
 
-SYNTAXES = ["json-ld", "microdata"]
+class Extractor:
+    def __init__(self, page_data):
+        self.tree = html5lib.parse(page_data)
+
+    @property
+    def linked_data(self):
+        for element in self.tree.findall(
+            path=".//script[@type='application/ld+json']",
+            namespaces={"": "http://www.w3.org/1999/xhtml"},
+        ):
+            try:
+                yield json.loads(element.text, strict=False)
+            except Exception:
+                pass
+
+    @property
+    def microdata(self):
+        yield from self.tree.findall(
+            path=".//*[@itemscope]",
+            namespaces={"": "http://www.w3.org/1999/xhtml"},
+        )
+
+
+def chunked_text(node):
+    if node.text:
+        yield node.text
+    if isinstance(node.tag, str) and node.tag.endswith("}br"):
+        yield "\n"
+    for child in node:
+        prev = None
+        for chunk in chunked_text(child):
+            if chunk == prev == "\n":
+                continue
+            yield chunk
+            prev = chunk
+    if node.tail:
+        if node.tail[0].isspace():
+            trimmed = node.tail.lstrip()
+            if trimmed and not trimmed[0] == ",":
+                yield " "
+            yield trimmed
+        else:
+            yield node.tail
 
 
 class SchemaOrg:
@@ -25,50 +65,40 @@ class SchemaOrg:
         self.format = None
         self.data = {}
 
-        data = extruct.extract(
-            page_data,
-            syntaxes=SYNTAXES,
-            errors="log" if settings.LOG_LEVEL <= 10 else "ignore",
-            uniform=True,
-        )
-
-        low_schema = {s.lower() for s in SCHEMA_NAMES}
-        for syntax in SYNTAXES:
-            # make sure entries of type Recipe are always parsed first
-            syntax_data = data.get(syntax, [])
-            try:
-                index = [x.get("@type", "") for x in syntax_data].index("Recipe")
-                syntax_data.insert(0, syntax_data.pop(index))
-            except ValueError:
-                pass
-
-            for item in syntax_data:
-                in_context = SCHEMA_ORG_HOST in item.get("@context", "")
-                item_type = item.get("@type", "")
-                if isinstance(item_type, list):
-                    for type in item_type:
-                        if type.lower() in low_schema:
-                            item_type = type.lower()
-                if in_context and item_type.lower() in low_schema:
-                    self.format = syntax
-                    self.data = item
-                    if item_type.lower() == "webpage":
-                        self.data = self.data.get("mainEntity")
+        extractor = Extractor(page_data)
+        for element in extractor.linked_data:
+            if isinstance(element, dict) and "@graph" in element:
+                graph_nodes = element["@graph"]
+            elif isinstance(element, list):
+                graph_nodes = element
+            else:
+                graph_nodes = [element]
+            for node in graph_nodes:
+                node_type = str().join(node.get("@type", [])).lower()
+                if node_type == "recipe":
+                    self.data = node
                     return
-                elif in_context and "@graph" in item:
-                    for graph_item in item.get("@graph", ""):
-                        graph_item_type = graph_item.get("@type", "")
-                        if not isinstance(graph_item_type, str):
-                            continue
-                        if graph_item_type.lower() in low_schema:
-                            in_graph = SCHEMA_ORG_HOST in graph_item.get("@context", "")
-                            self.format = syntax
-                            if graph_item_type.lower() == "webpage" and in_graph:
-                                self.data = self.data.get("mainEntity")
-                                return
-                            elif graph_item_type.lower() == "recipe":
-                                self.data = graph_item
-                                return
+
+        microdata = defaultdict(list)
+        for element in extractor.microdata:
+            if "recipe" in element.attrib["itemtype"].lower():
+                for node in element.findall(
+                    path=".//html:*[@itemprop]",
+                    namespaces={"html": "http://www.w3.org/1999/xhtml"},
+                ):
+                    name = node.attrib["itemprop"]
+                    if "content" in node.attrib:
+                        value = node.attrib["content"]
+                    else:
+                        value = str().join(chunked_text(node)).strip()
+                    microdata[name].append(value)
+
+        # Flatten the value list for microdata properties that only appear once
+        for key, values in self.data.items():
+            if len(values) == 1:
+                microdata[key] = values[0]
+
+        self.data = microdata
 
     def language(self):
         return self.data.get("inLanguage") or self.data.get("language")

@@ -1,17 +1,15 @@
 # mypy: disallow_untyped_defs=False
-import extruct
 
 from ._abstract import AbstractScraper
+from ._schemaorg import Extractor
 from ._utils import normalize_string
 
 
 class ZeitWochenmarkt(AbstractScraper):
     def __init__(self, url, **kwargs):
         AbstractScraper.__init__(self, url, **kwargs)
-        data = extruct.extract(
-            self.soup.prettify(), syntaxes=["json-ld"], errors="log", uniform=True
-        )
-        for item in data["json-ld"]:
+        extractor = Extractor(self.page_data)
+        for item in extractor.linked_data:
             if item.get("@type") == "ItemList":
                 self.schema.data = item["itemListElement"][0]["item"]
 

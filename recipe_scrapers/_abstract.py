@@ -43,7 +43,7 @@ class AbstractScraper:
                 proxies=proxies,
                 timeout=timeout,
             )
-            self.page_data = resp.content
+            self.page_data = resp.text
             self.url = resp.url
 
         self.wild_mode = wild_mode
