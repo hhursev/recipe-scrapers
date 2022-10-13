@@ -43,5 +43,7 @@ jobs:
       - name: Unittest and Coverage Report
         run: |
           python run_tests.py
-      - name: coveralls.io
+      # Provide code coverage reports on Linux
+      - if: ${{ matrix.os == 'ubuntu-latest' }}
+        name: coveralls.io
         uses: AndreMiras/coveralls-python-action@develop
