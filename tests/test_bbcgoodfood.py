@@ -26,7 +26,7 @@ class TestBBCGoodFoodScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-405483_12-cee017a.jpg",
+            "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-405483_12-cee017a.jpg?resize=768,574",
             self.harvester_class.image(),
         )
 
@@ -36,17 +36,17 @@ class TestBBCGoodFoodScraper(ScraperTest):
                 "250g self-raising flour",
                 "25g cocoa powder",
                 "175g light muscovado sugar",
-                "85g unsalted butter, melted",
+                "85g unsalted butter , melted",
                 "5 tbsp vegetable or sunflower oil",
                 "150g pot fat-free natural yogurt",
                 "1 tsp vanilla extract",
                 "3 large eggs",
-                "85g unsalted butter, softened",
+                "85g unsalted butter , softened",
                 "1 tbsp milk",
                 "½ tsp vanilla extract",
-                "200g icing sugar, sifted",
-                "food colourings(optional)",
-                "sweetsand sprinkles, to decorate",
+                "200g icing sugar , sifted",
+                "food colourings (optional)",
+                "sweets and sprinkles, to decorate",
             ],
             self.harvester_class.ingredients(),
         )
@@ -59,6 +59,6 @@ class TestBBCGoodFoodScraper(ScraperTest):
 
     def test_description(self):
         self.assertEqual(
-            "<p>Let your little monsters do their worst, decorating these spooky Halloween treats</p>",
+            "Let your little monsters do their worst, decorating these spooky Halloween treats",
             self.harvester_class.description(),
         )
