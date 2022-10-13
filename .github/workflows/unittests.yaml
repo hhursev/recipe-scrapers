@@ -43,5 +43,3 @@ jobs:
       - name: Unittest and Coverage Report
         run: |
           python run_tests.py
-      - name: coveralls.io
-        uses: AndreMiras/coveralls-python-action@develop
