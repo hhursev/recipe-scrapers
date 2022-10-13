@@ -1,7 +1,17 @@
 # mypy: disallow_untyped_defs=False
+from typing import List, Optional
+from attr import dataclass
 from ._abstract import AbstractScraper
 from ._exceptions import ElementNotFoundInHtml
 from ._utils import get_minutes, get_yields, normalize_string
+
+
+@dataclass
+class IngredientGroup:
+    ingredients: List[str]
+    purpose: Optional[
+        str
+    ] = None  # this group of ingredients is {purpose} (e.g. "For the dressing")
 
 
 class NIHHealthyEating(AbstractScraper):
@@ -11,7 +21,7 @@ class NIHHealthyEating(AbstractScraper):
 
     def title(self):
         # This content must be present for all recipes on this website.
-        return self.soup.h1.get_text().strip()
+        return normalize_string(self.soup.h1.get_text())
 
     def total_time(self):
         # This content must be present for all recipes on this website.
@@ -60,19 +70,65 @@ class NIHHealthyEating(AbstractScraper):
 
         return image_relative_url
 
-    def ingredients(self):
+    def ingredient_groups(self) -> List[IngredientGroup]:
         # This content must be present for recipes on this website.
         ingredients_div = self.soup.find("div", {"id": "ingredients"})
+        section = []
 
         if ingredients_div is None:
             raise ElementNotFoundInHtml("Ingredients not found.")
 
+        # Find more than one lists of ingredients
+        ingredients_h4_sections = ingredients_div.find_all("h4")
+
+        # Ingredients are broken down into sections
+        # https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?linkId=11&cId=1&rId=5
+
+        if len(ingredients_h4_sections) >= 2:
+            ingredients_sections = ingredients_div.find_all("tr")
+            for ingredients_section in ingredients_sections:
+                items = ingredients_section.find("p").get_text().strip().split("\n")
+                # create ingredient group for each section
+                res = IngredientGroup(
+                    ingredients=items,
+                    purpose=normalize_string(ingredients_section.find("h4").get_text()),
+                )
+                section.append(res)
+            return section
+
+        # Default case
         ingredients_p = ingredients_div.findAll("p")
         ingredients = [normalize_string(para.get_text()) for para in ingredients_p]
-
-        return [
+        ingredients_list = [
             ing for ing in ingredients if not ing.lower().startswith("recipe cards")
         ]
+
+        # Edge case: ingredents are a mix for single main ingredients and a single sub section
+        # https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?linkId=0&cId=10&rId=163
+
+        if len(ingredients_h4_sections) == 1:
+            items = (
+                ingredients_div.find("h4")
+                .find_next_sibling("p")
+                .get_text()
+                .strip()
+                .split("\n")
+            )
+            group = IngredientGroup(
+                purpose=normalize_string(ingredients_h4_sections[0].get_text()),
+                ingredients=items,
+            )
+            section.append(group)
+            section.append(IngredientGroup(ingredients=ingredients_list[:-1]))
+            return section
+
+        return [IngredientGroup(ingredients_list)]
+
+    def ingredients(self) -> List[str]:
+        results = []
+        for ingredient_group in self.ingredient_groups():
+            results.extend(ingredient_group.ingredients)
+        return results
 
     def instructions(self):
         # This content must be present for recipes on this website.
@@ -95,7 +151,7 @@ class NIHHealthyEating(AbstractScraper):
             self.soup.find("div", {"id": "nutrition_info"}).find("table").find_all("tr")
         ):
             for element in s.find_all("td"):
-                if element.text.strip() != "":
+                if element.get_text().strip() != "":
                     elements.append(normalize_string(element.get_text()))
 
         for i in range(0, len(elements), 2):
@@ -107,31 +163,50 @@ class NIHHealthyEating(AbstractScraper):
 
     def description(self):
         return normalize_string(
-            self.soup.find("p", {"class": "recipe_detail_subtext"}).text.strip()
+            self.soup.find("p", {"class": "recipe_detail_subtext"}).get_text()
         )
 
     def prep_time(self):
         return get_minutes(
             self.soup.find("table", {"class": "recipe_time_table"})
             .find_all("td")[0]
-            .text.strip()
+            .get_text()
         )
 
     def cook_time(self):
         return get_minutes(
             self.soup.find("table", {"class": "recipe_time_table"})
             .find_all("td")[1]
-            .text.strip()
+            .get_text()
         )
 
     def serving_size(self):
         return normalize_string(
             self.soup.find("table", {"class": "recipe_time_table"})
             .find_all("td")[3]
-            .text.strip()
+            .get_text()
         )
 
     def recipe_source(self):
         return normalize_string(
-            self.soup.find("div", {"id": "Recipe_Source"}).text.split(": ")[1].strip()
+            self.soup.find("div", {"id": "Recipe_Source"}).get_text().split(": ")[1]
         )
+
+    def recipe_cards(self):
+        recipe_cards_maker = self.soup.find("strong", string="Recipe Cards:")
+
+        if recipe_cards_maker is None:
+            return None
+
+        recipe_cards = []
+        recipe_cards_maker_siblings = recipe_cards_maker.next_siblings
+        for recipe_cards_maker_sibling in recipe_cards_maker_siblings:
+            link = recipe_cards_maker_sibling.find("a")
+            if recipe_cards_maker_sibling.name == "li":
+                recipe_cards.append(
+                    {
+                        "size": normalize_string(recipe_cards_maker_sibling.get_text()),
+                        "url": link.get("href"),
+                    }
+                )
+        return recipe_cards
