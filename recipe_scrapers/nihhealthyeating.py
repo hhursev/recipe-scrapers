@@ -21,7 +21,7 @@ class NIHHealthyEating(AbstractScraper):
 
     def title(self):
         # This content must be present for all recipes on this website.
-        return self.soup.h1.get_text().strip()
+        return normalize_string(self.soup.h1.text)
 
     def total_time(self):
         # This content must be present for all recipes on this website.
@@ -91,9 +91,7 @@ class NIHHealthyEating(AbstractScraper):
                 # create ingredient group for each section
                 res = IngredientGroup(
                     ingredients=items,
-                    purpose=normalize_string(
-                        ingredients_section.find("h4").text.strip()
-                    ),
+                    purpose=normalize_string(ingredients_section.find("h4").text),
                 )
                 section.append(res)
             return section
@@ -116,7 +114,7 @@ class NIHHealthyEating(AbstractScraper):
                 .split("\n")
             )
             group = IngredientGroup(
-                purpose=normalize_string(ingredients_h4_sections[0].text.strip()),
+                purpose=normalize_string(ingredients_h4_sections[0].text),
                 ingredients=items,
             )
             section.append(group)
@@ -164,33 +162,33 @@ class NIHHealthyEating(AbstractScraper):
 
     def description(self):
         return normalize_string(
-            self.soup.find("p", {"class": "recipe_detail_subtext"}).text.strip()
+            self.soup.find("p", {"class": "recipe_detail_subtext"}).text
         )
 
     def prep_time(self):
         return get_minutes(
             self.soup.find("table", {"class": "recipe_time_table"})
             .find_all("td")[0]
-            .text.strip()
+            .text
         )
 
     def cook_time(self):
         return get_minutes(
             self.soup.find("table", {"class": "recipe_time_table"})
             .find_all("td")[1]
-            .text.strip()
+            .text
         )
 
     def serving_size(self):
         return normalize_string(
             self.soup.find("table", {"class": "recipe_time_table"})
             .find_all("td")[3]
-            .text.strip()
+            .text
         )
 
     def recipe_source(self):
         return normalize_string(
-            self.soup.find("div", {"id": "Recipe_Source"}).text.split(": ")[1].strip()
+            self.soup.find("div", {"id": "Recipe_Source"}).text.split(": ")[1]
         )
 
     def recipe_cards(self):
