@@ -29,7 +29,7 @@ class FredriksFikaAllas(AbstractScraper):
 
     def ingredients(self):
         ingredients = []
-        content = self.soup.find("strong", text=re.compile("Ingredienser"))
+        content = self.soup.find("strong", string=re.compile("Ingredienser"))
 
         contentRows = content.parent.text.split("\n")
 
@@ -43,7 +43,7 @@ class FredriksFikaAllas(AbstractScraper):
 
     def instructions(self):
         instructions = []
-        content = self.soup.find("strong", text=re.compile("Gör så här"))
+        content = self.soup.find("strong", string=re.compile("Gör så här"))
 
         contentRows = content.parent.text.split("\n")
 
