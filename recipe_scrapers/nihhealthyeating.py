@@ -90,7 +90,10 @@ class NIHHealthyEating(AbstractScraper):
                 items = ingredients_section.find("p").text.strip().split("\n")
                 # create ingredient group for each section
                 res = IngredientGroup(
-                    items, normalize_string(ingredients_section.find("h4").text.strip())
+                    ingredients=items,
+                    purpose=normalize_string(
+                        ingredients_section.find("h4").text.strip()
+                    ),
                 )
                 section.append(res)
             return section
@@ -113,10 +116,11 @@ class NIHHealthyEating(AbstractScraper):
                 .split("\n")
             )
             group = IngredientGroup(
-                items, normalize_string(ingredients_h4_sections[0].text.strip())
+                purpose=normalize_string(ingredients_h4_sections[0].text.strip()),
+                ingredients=items,
             )
             section.append(group)
-            section.append(IngredientGroup(ingredients_list[:-1]))
+            section.append(IngredientGroup(ingredients=ingredients_list[:-1]))
             return section
 
         return [IngredientGroup(ingredients_list)]
