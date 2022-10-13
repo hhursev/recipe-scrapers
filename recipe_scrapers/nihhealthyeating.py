@@ -21,7 +21,7 @@ class NIHHealthyEating(AbstractScraper):
 
     def title(self):
         # This content must be present for all recipes on this website.
-        return normalize_string(self.soup.h1.text)
+        return normalize_string(self.soup.h1.get_text())
 
     def total_time(self):
         # This content must be present for all recipes on this website.
@@ -87,11 +87,11 @@ class NIHHealthyEating(AbstractScraper):
         if len(ingredients_h4_sections) >= 2:
             ingredients_sections = ingredients_div.find_all("tr")
             for ingredients_section in ingredients_sections:
-                items = ingredients_section.find("p").text.strip().split("\n")
+                items = ingredients_section.find("p").get_text().strip().split("\n")
                 # create ingredient group for each section
                 res = IngredientGroup(
                     ingredients=items,
-                    purpose=normalize_string(ingredients_section.find("h4").text),
+                    purpose=normalize_string(ingredients_section.find("h4").get_text()),
                 )
                 section.append(res)
             return section
@@ -110,11 +110,12 @@ class NIHHealthyEating(AbstractScraper):
             items = (
                 ingredients_div.find("h4")
                 .find_next_sibling("p")
-                .text.strip()
+                .get_text()
+                .strip()
                 .split("\n")
             )
             group = IngredientGroup(
-                purpose=normalize_string(ingredients_h4_sections[0].text),
+                purpose=normalize_string(ingredients_h4_sections[0].get_text()),
                 ingredients=items,
             )
             section.append(group)
@@ -150,7 +151,7 @@ class NIHHealthyEating(AbstractScraper):
             self.soup.find("div", {"id": "nutrition_info"}).find("table").find_all("tr")
         ):
             for element in s.find_all("td"):
-                if element.text.strip() != "":
+                if element.get_text().strip() != "":
                     elements.append(normalize_string(element.get_text()))
 
         for i in range(0, len(elements), 2):
@@ -162,33 +163,33 @@ class NIHHealthyEating(AbstractScraper):
 
     def description(self):
         return normalize_string(
-            self.soup.find("p", {"class": "recipe_detail_subtext"}).text
+            self.soup.find("p", {"class": "recipe_detail_subtext"}).get_text()
         )
 
     def prep_time(self):
         return get_minutes(
             self.soup.find("table", {"class": "recipe_time_table"})
             .find_all("td")[0]
-            .text
+            .get_text()
         )
 
     def cook_time(self):
         return get_minutes(
             self.soup.find("table", {"class": "recipe_time_table"})
             .find_all("td")[1]
-            .text
+            .get_text()
         )
 
     def serving_size(self):
         return normalize_string(
             self.soup.find("table", {"class": "recipe_time_table"})
             .find_all("td")[3]
-            .text
+            .get_text()
         )
 
     def recipe_source(self):
         return normalize_string(
-            self.soup.find("div", {"id": "Recipe_Source"}).text.split(": ")[1]
+            self.soup.find("div", {"id": "Recipe_Source"}).get_text().split(": ")[1]
         )
 
     def recipe_cards(self):
