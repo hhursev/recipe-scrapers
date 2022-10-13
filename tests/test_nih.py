@@ -8,6 +8,7 @@ from tests import ScraperTest
 class TestNIHHealthyEatingRecipesScraper(ScraperTest):
 
     scraper_class = NIHHealthyEating
+    test_file_name = "nihhealthyeating_1"
 
     def test_host(self):
         self.assertEqual("healthyeating.nhlbi.nih.gov", self.harvester_class.host())
@@ -111,7 +112,7 @@ class TestNIHHealthyEatingRecipesScraper(ScraperTest):
 class TestNIHHealthyEatingRecipesVariationScraper(ScraperTest):
 
     scraper_class = NIHHealthyEating
-    test_file_name = "nihhealthyeatingvariation"
+    test_file_name = "nihhealthyeating_2"
 
     def test_host(self):
         self.assertEqual("healthyeating.nhlbi.nih.gov", self.harvester_class.host())
@@ -197,7 +198,7 @@ class TestNIHHealthyEatingRecipesVariationScraper(ScraperTest):
 class TestNIHHealthyEatingRecipesEdgeCaseScraper(ScraperTest):
 
     scraper_class = NIHHealthyEating
-    test_file_name = "nihhealthyeatingedgecase"
+    test_file_name = "nihhealthyeating_3"
 
     def test_host(self):
         self.assertEqual("healthyeating.nhlbi.nih.gov", self.harvester_class.host())
