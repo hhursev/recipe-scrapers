@@ -1,5 +1,7 @@
 # mypy: allow-untyped-defs
 
+from bs4 import BeautifulSoup
+
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
@@ -39,13 +41,13 @@ class LeanAndGreenRecipes(AbstractScraper):
         return self.schema.ratings()
 
     def cuisine(self):
-        cuisine = self.schema.cuisine()
-        return cuisine[cuisine.find(">") + 1 :].replace("</a>", "")
+        soup = BeautifulSoup(str(self.schema.cuisine()), features="html.parser")
+        return soup.get_text()
 
     def description(self):
-        return (
-            self.schema.description()
-            .replace("</p> <p>", "\n")
-            .replace("<p>", "")
-            .replace("</p>", "")
+        descriptions = self.soup.find(
+            "div", {"class": "block-field-blocknoderecipebody"}
+        ).find_all("p")
+        return "\n".join(
+            [normalize_string(description.get_text()) for description in descriptions]
         )
