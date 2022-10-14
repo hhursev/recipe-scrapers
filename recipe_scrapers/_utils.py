@@ -1,9 +1,10 @@
 # mypy: disallow_untyped_defs=False
 
 import html
-import isodate
 import math
 import re
+
+import isodate
 
 from ._exceptions import ElementNotFoundInHtml
 
@@ -19,7 +20,7 @@ FRACTIONS = {
 }
 
 TIME_REGEX = re.compile(
-    r"(\D*(?P<hours>[\d.\s/?¼½¾⅓⅔⅕⅖⅗]+)\s*(hours|hrs|hr|h|óra))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|perc))?",
+    r"(\D*(?P<hours>[\d.\s/?¼½¾⅓⅔⅕⅖⅗]+)\s*(hours|hrs|hr|h|óra|:))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|perc)?)?",
     re.IGNORECASE,
 )
 
