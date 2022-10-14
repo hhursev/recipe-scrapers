@@ -52,3 +52,6 @@ class TestWeightwatchersScraper(ScraperTest):
             "18 Uhr und alle haben Hunger? Dann koche rasch das Würstchengulasch und alle sind happy.",
             self.harvester_class.description(),
         )
+
+    def test_difficulty(self):
+        self.assertEqual("Leicht", self.harvester_class.difficulty())

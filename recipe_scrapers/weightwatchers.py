@@ -30,22 +30,29 @@ class Weightwatchers(AbstractScraper):
     def cook_time(self):
         return get_minutes(
             self.soup.find("div", {"class": "styles_container__3N3E8"})
-            .find("div", string=re.compile(r"minutes Preparation Time"))
+            .find("div", string=re.compile(r"minutes Cook Time"))
             .previous_sibling
         )
 
     def prep_time(self):
         return get_minutes(
             self.soup.find("div", {"class": "styles_container__3N3E8"})
-            .find("div", string=re.compile(r"minutes Cook Time"))
+            .find("div", string=re.compile(r"minutes Preparation Time"))
             .previous_sibling
         )
 
     def yields(self):
         return get_yields(
+            self.soup.find("div", {"class": "styles_container__3N3E8"}).find(
+                "div", string=re.compile(r"Serves \d+ people")
+            )
+        )
+
+    def difficulty(self):
+        return (
             self.soup.find("div", {"class": "styles_container__3N3E8"})
-            .find("div", string=re.compile(r"Serves *{0..9} people"))
-            .previous_sibling
+            .find("div", string=re.compile(r"Difficulty Level:"))
+            .previous_sibling.get_text()
         )
 
     def image(self):
