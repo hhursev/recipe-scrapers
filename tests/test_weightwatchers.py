@@ -6,6 +6,9 @@ from tests import ScraperTest
 
 class TestWeightwatchersScraper(ScraperTest):
 
+    # Test-Url:
+    # https://cmx.weightwatchers.de/details/WWRECIPE:5667ab72a29713e4335bb342
+
     scraper_class = Weightwatchers
 
     def test_host(self):
@@ -32,20 +35,17 @@ class TestWeightwatchersScraper(ScraperTest):
     def test_yields(self):
         self.assertEqual("2 servings", self.harvester_class.yields())
 
-    # def test_image(self):
-    #    self.assertEqual(None, self.harvester_class.image())
+    def test_image(self):
+        self.assertEqual(
+            "https://cmx.weightwatchers.com/assets-proxy/weight-watchers/image/upload/t_WINE_EXTRALARGE/i34cskr1hxegmxqukawd.jpg",
+            self.harvester_class.image(),
+        )
 
     # def test_ingredients(self):
     #    self.assertEqual(None, self.harvester_class.ingredients())
 
     # def test_instructions(self):
     #    self.assertEqual(None, self.harvester_class.instructions())
-
-    # def test_ratings(self):
-    #    self.assertEqual(None, self.harvester_class.ratings())
-
-    # def test_cuisine(self):
-    #    self.assertEqual(None, self.harvester_class.cuisine())
 
     def test_description(self):
         self.assertEqual(

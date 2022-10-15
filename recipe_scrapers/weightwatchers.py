@@ -56,19 +56,21 @@ class Weightwatchers(AbstractScraper):
         )
 
     def image(self):
-        return self.schema.image()
+        backgroundImgStyle = self.soup.find("div", {"class": "styles_image__2dnNm"})[
+            "style"
+        ]
+        return (
+            re.compile(r'url\("(?P<imgurl>\S*)"\);')
+            .search(backgroundImgStyle)
+            .groupdict()
+            .get("imgurl")
+        )
 
     def ingredients(self):
         return self.schema.ingredients()
 
     def instructions(self):
         return self.schema.instructions()
-
-    def ratings(self):
-        return self.schema.ratings()
-
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return self.soup.find("div", {"class": "copy-1"}).get_text().strip()
