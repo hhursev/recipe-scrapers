@@ -1,6 +1,7 @@
 # mypy: disallow_untyped_defs=False
+from dataclasses import dataclass
 from typing import List, Optional
-from attr import dataclass
+
 from ._abstract import AbstractScraper
 from ._exceptions import ElementNotFoundInHtml
 from ._utils import get_minutes, get_yields, normalize_string
