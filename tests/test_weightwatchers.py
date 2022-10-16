@@ -41,11 +41,27 @@ class TestWeightwatchersScraper(ScraperTest):
             self.harvester_class.image(),
         )
 
-    # def test_ingredients(self):
-    #    self.assertEqual(None, self.harvester_class.ingredients())
+    def test_ingredients(self):
+        self.assertEqual(
+            [
+                "2Stück Geflügelwürstchen",
+                "1Stück, klein Zwiebel",
+                "Champignons, frisch 200g, braun",
+                "Nudeln, trocken, jede Sorte 120g, Spiralnudeln",
+                "Salz/Jodsalz 1Prise(n)",
+                "Pflanzenöl, Rapsöl/Sonnenblumenöl 2TL",
+                "Tomaten, passiert 400g",
+                "Pfeffer 1Prise(n)",
+                "Paprikapulver 1⁄2TL",
+            ],
+            self.harvester_class.ingredients(),
+        )
 
-    # def test_instructions(self):
-    #    self.assertEqual(None, self.harvester_class.instructions())
+    def test_instructions(self):
+        self.assertEqual(
+            "Würstchen in Scheiben schneiden. Zwiebel schälen und würfeln. Champignons trocken abreiben und vierteln. Nudeln nach Packungsanweisung in Salzwasser garen.\nÖl in einem Topf erhitzen und Zwiebelwürfel darin andünsten. Würstchenscheiben und Champignonviertel zufügen und ca. 3 Minuten anbraten. Mit Tomaten ablöschen, aufkochen und ca. 5 Minuten köcheln lassen. Würstchengulasch mit Salz, Pfeffer und Paprikapulver würzen. Nudeln abgießen, untermischen und in einer Frischhaltedose transportieren. Würstchengulasch erwärmen und servieren.",
+            self.harvester_class.instructions(),
+        )
 
     def test_description(self):
         self.assertEqual(

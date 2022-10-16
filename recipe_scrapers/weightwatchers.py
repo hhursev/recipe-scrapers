@@ -3,7 +3,7 @@
 import re
 
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields
+from ._utils import get_minutes, get_yields, normalize_string
 
 
 class Weightwatchers(AbstractScraper):
@@ -70,7 +70,15 @@ class Weightwatchers(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        return self.schema.instructions()
+        instructions = self.soup.find(
+            "h3", {"id": "food-detail-recipe-instruction-header"}
+        ).parent.find("ol")
+        return "\n".join(
+            [
+                normalize_string(instruction.get_text())
+                for instruction in instructions.find_all("div", {"class": "copy-1"})
+            ]
+        )
 
     def description(self):
         return self.soup.find("div", {"class": "copy-1"}).get_text().strip()
