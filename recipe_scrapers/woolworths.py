@@ -13,7 +13,7 @@ class Woolworths(AbstractScraper):
         target = url_path_to_dict(url)["path"].split("/")[-1]
         data_url = f"https://foodhub.woolworths.com.au/content/woolworths-foodhub/en/{target}.model.json"
 
-        recipe_json = (
+        self.page_data = (
             requests.get(
                 data_url,
                 headers=HEADERS,
@@ -26,7 +26,7 @@ class Woolworths(AbstractScraper):
             .get(":items")
             .get("recipe_seo_data")
         )
-        self.schema = SchemaOrg(recipe_json, raw=True)
+        self.schema = SchemaOrg(self.page_data, raw=True)
 
     @classmethod
     def host(cls):
