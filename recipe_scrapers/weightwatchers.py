@@ -110,3 +110,22 @@ class Weightwatchers(AbstractScraper):
 
     def description(self):
         return self.soup.find("div", {"class": "copy-1"}).get_text().strip()
+
+    def nutrients(self):
+        result = (
+            self.soup.find(
+                "img", {"class": "styles_positivePointsIcon__2XYyV"}
+            ).next_sibling.get_text()
+            + " personal points"
+        )
+        veggiepoints = self.soup.find(
+            "div", {"class": "styles_vegetableServings__2YSPy"}
+        )
+        if veggiepoints:
+            result += "\n" + normalize_string(
+                veggiepoints.find(
+                    "div", {"class": "styles_container__2p-YG"}
+                ).next_sibling.get_text()
+            )
+
+        return result

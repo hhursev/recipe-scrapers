@@ -71,3 +71,9 @@ class TestWeightwatchersScraper(ScraperTest):
 
     def test_difficulty(self):
         self.assertEqual("Leicht", self.harvester_class.difficulty())
+
+    def test_nutrients(self):
+        self.assertEqual(
+            "12 personal points\n+2 Punkte von 2 Portion(en) Gemüse",
+            self.harvester_class.nutrients(),
+        )
