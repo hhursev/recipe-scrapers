@@ -66,8 +66,36 @@ class Weightwatchers(AbstractScraper):
             .get("imgurl")
         )
 
+    def __parseIngridient(self, ingridient):
+        ingridientName = normalize_string(
+            ingridient.find("div", {"class": "styles_ingredientName__1Vffd"})
+            .find("div")
+            .get_text()
+        )
+        portionParts = ingridient.find(
+            "div", {"class": "styles_portion__2NQyq"}
+        ).find_all("span")
+        amount = (
+            normalize_string(portionParts[0].get_text())
+            + " "
+            + normalize_string(portionParts[1].get_text())
+        )
+
+        if portionParts[2].get_text():
+            ingridientName += "; " + normalize_string(
+                portionParts[2].get_text()
+            ).replace(", ", "")
+
+        return amount + " " + ingridientName
+
     def ingredients(self):
-        return self.schema.ingredients()
+        result = []
+        ingridients = self.soup.find(
+            "h3", {"id": "food-detail-recipe-ingredients-header"}
+        ).parent.find_all("div", {"class": "styles_name__1OYVU"})
+        for ingridient in ingridients:
+            result.append(self.__parseIngridient(ingridient))
+        return result
 
     def instructions(self):
         instructions = self.soup.find(

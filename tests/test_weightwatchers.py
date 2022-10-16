@@ -44,15 +44,15 @@ class TestWeightwatchersScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "2Stück Geflügelwürstchen",
-                "1Stück, klein Zwiebel",
-                "Champignons, frisch 200g, braun",
-                "Nudeln, trocken, jede Sorte 120g, Spiralnudeln",
-                "Salz/Jodsalz 1Prise(n)",
-                "Pflanzenöl, Rapsöl/Sonnenblumenöl 2TL",
-                "Tomaten, passiert 400g",
-                "Pfeffer 1Prise(n)",
-                "Paprikapulver 1⁄2TL",
+                "2 Stück Geflügelwürstchen",
+                "1 Stück, klein Zwiebel/n",
+                "200 g Champignons, frisch; braun",
+                "120 g Nudeln, trocken, jede Sorte; Spiralnudeln",
+                "1 Prise(n) Salz/Jodsalz",
+                "2 TL Pflanzenöl, Rapsöl/Sonnenblumenöl",
+                "400 g Tomaten, passiert",
+                "1 Prise(n) Pfeffer",
+                "1⁄2 TL Paprikapulver",
             ],
             self.harvester_class.ingredients(),
         )
