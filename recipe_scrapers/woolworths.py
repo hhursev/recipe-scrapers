@@ -19,7 +19,8 @@ class Woolworths(AbstractScraper):
                 headers=HEADERS,
                 proxies=proxies,
                 timeout=timeout,
-            ).json()
+            )
+            .json()
             .get(":items")
             .get("root")
             .get(":items")
