@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._utils import normalize_string
 
 
 class JustOneCookbook(AbstractScraper):
@@ -7,8 +9,14 @@ class JustOneCookbook(AbstractScraper):
     def host(cls):
         return "justonecookbook.com"
 
+    def author(self):
+        return self.schema.author()
+
     def title(self):
         return self.schema.title()
+
+    def category(self):
+        return self.schema.category()
 
     def total_time(self):
         return self.schema.total_time()
@@ -20,7 +28,20 @@ class JustOneCookbook(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        return self.schema.ingredients()
+        ingredients = self.soup.find_all("li", {"class": "wprm-recipe-ingredient"})
+        return [
+            normalize_string(ingredient.get_text().replace("▢", ""))
+            for ingredient in ingredients
+        ]
 
     def instructions(self):
         return self.schema.instructions()
+
+    def ratings(self):
+        return self.schema.ratings()
+
+    def cuisine(self):
+        return self.schema.cuisine()
+
+    def description(self):
+        return self.schema.description()
