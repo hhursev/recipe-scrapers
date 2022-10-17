@@ -26,7 +26,7 @@ jobs:
         include:
           - toxenv: py
           - os: macos-latest
-            toxenv: darwin
+            toxenv: py-darwin
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3
