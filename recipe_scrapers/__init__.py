@@ -145,6 +145,7 @@ from .nourishedbynutrition import NourishedByNutrition
 from .nutritionbynathalie import NutritionByNathalie
 from .nytimes import NYTimes
 from .ohsheglows import OhSheGlows
+from .omnivorescookbook import OmnivoresCookbook
 from .onehundredonecookbooks import OneHundredOneCookBooks
 from .owenhan import OwenHan
 from .paleorunningmomma import PaleoRunningMomma
@@ -371,6 +372,7 @@ SCRAPERS = {
     NourishedByNutrition.host(): NourishedByNutrition,
     NutritionByNathalie.host(): NutritionByNathalie,
     OhSheGlows.host(): OhSheGlows,
+    OmnivoresCookbook.host(): OmnivoresCookbook,
     OneHundredOneCookBooks.host(): OneHundredOneCookBooks,
     OwenHan.host(): OwenHan,
     PaleoRunningMomma.host(): PaleoRunningMomma,
