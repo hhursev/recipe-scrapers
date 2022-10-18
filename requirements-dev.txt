@@ -1,4 +1,3 @@
--e .
 pre-commit>=2.6.0
 tox>=3.26.0
 # language-tags>=1.0.0
