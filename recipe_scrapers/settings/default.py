@@ -37,9 +37,6 @@ ON_EXCEPTION_RETURN_VALUES = {
 }
 
 
-TEST_MODE = False
-
-
 # logging.DEBUG     # 10
 # logging.INFO      # 20
 # logging.WARNING   # 30
