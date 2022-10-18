@@ -12,7 +12,7 @@ class TestWeightwatchersScraper(ScraperTest):
     scraper_class = Weightwatchers
 
     def test_host(self):
-        self.assertEqual("weightwatchers.de", self.harvester_class.host())
+        self.assertEqual("www.weightwatchers.com", self.harvester_class.host())
 
     def test_author(self):
         self.assertEqual("WeightWatchers", self.harvester_class.author())

@@ -209,6 +209,7 @@ from .vegolosi import Vegolosi
 from .vegrecipesofindia import VegRecipesOfIndia
 from .watchwhatueat import WatchWhatUEat
 from .weightwatchers import Weightwatchers
+from .weightwatcherspublic import weightwatchersPublic
 from .whatsgabycooking import WhatsGabyCooking
 from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
@@ -447,6 +448,7 @@ SCRAPERS = {
     Yummly.host(): Yummly,
     ZeitWochenmarkt.host(): ZeitWochenmarkt,
     ZenBelly.host(): ZenBelly,
+    weightwatchersPublic.host(): weightwatchersPublic,
 }
 
 
