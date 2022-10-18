@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "recipe-scrapers"
+version = "14.19.0"
+description = "Python package, scraping recipes from all over the internet"
+authors = ["Hristo Harsev <r+pypi@hharsev.com>"]
+readme = "README.rst"
+homepage = "https://github.com/hhursev/recipe-scrapers/"
+keywords = ["python", "recipes", "scraper", "harvest", "recipe-scraper", "recipe-scrapers"]
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Topic :: Internet :: WWW/HTTP",
+]
+
+[tool.poetry.dependencies]
+python = ">= 3.6"
+beautifulsoup4 = ">= 4.10.0"
+extruct = ">= 0.8.0"
+isodate = ">= 0.6.1"
+requests = ">= 2.19.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
