@@ -17,9 +17,6 @@ PLUGINS = (
     SchemaOrgFillPlugin,
 )
 
-META_HTTP_EQUIV = True
-
-
 SUPPRESS_EXCEPTIONS = False
 # Applicable only if SUPPRESS_EXCEPTIONS is True, otherwise ignored
 # silence <anyScraper>.[method]() exception and return the value
