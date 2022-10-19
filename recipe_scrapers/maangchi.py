@@ -29,14 +29,7 @@ class Maangchi(AbstractScraper):
         after = self.soup.find("h4", string="Ingredients:").find_all_next("li")
         lstBfr = [normalize_string(b.get_text()) for b in before]
         lstAfr = [normalize_string(a.get_text()) for a in after]
-        lst = []
-
-        # iterate to reverse the list
-        for i in lstBfr:
-            # reversing the list
-            lst.insert(0, i)
-        lstBfr = lst
-
+        lstBfr.reverse()
         return [x for x in lstBfr if x in lstAfr]
 
     def instructions(self):
