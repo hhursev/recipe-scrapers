@@ -74,34 +74,43 @@ class Weightwatchers(AbstractScraper):
 
         return None
 
-    def __parseIngridient(self, ingridient):
-        ingridientName = normalize_string(
+    def _findIngridientTags(self):
+        return self.soup.find(
+            "h3", {"id": "food-detail-recipe-ingredients-header"}
+        ).parent.find_all("div", {"class": "styles_name__1OYVU"})
+
+    def _extractIngridientName(self, ingridient):
+        return normalize_string(
             ingridient.find("div", {"class": "styles_ingredientName__1Vffd"})
             .find("div")
             .get_text()
         )
-        portionParts = ingridient.find(
-            "div", {"class": "styles_portion__2NQyq"}
-        ).find_all("span")
-        amount = (
-            normalize_string(portionParts[0].get_text())
-            + " "
-            + normalize_string(portionParts[1].get_text())
+
+    def _extractPortionParts(self, ingridient):
+        tags = ingridient.find("div", {"class": "styles_portion__2NQyq"}).find_all(
+            "span"
         )
 
-        if portionParts[2].get_text():
-            ingridientName += "; " + normalize_string(
-                portionParts[2].get_text()
-            ).replace(", ", "")
+        return (
+            normalize_string(tags[0].get_text()),
+            normalize_string(tags[1].get_text()),
+            normalize_string(tags[2].get_text().replace(", ", "")) if tags[2] else None,
+        )
 
-        return amount + " " + ingridientName
+    def __parseIngridient(self, ingridient):
+        ingridientName = self._extractIngridientName(ingridient)
+        amount, unit, comment = self._extractPortionParts(ingridient)
+
+        if comment:
+            return amount + " " + unit + " " + ingridientName + "; " + comment
+        else:
+            return amount + " " + unit + " " + ingridientName
 
     def ingredients(self):
         result = []
-        ingridients = self.soup.find(
-            "h3", {"id": "food-detail-recipe-ingredients-header"}
-        ).parent.find_all("div", {"class": "styles_name__1OYVU"})
-        for ingridient in ingridients:
+        ingridientTags = self._findIngridientTags()
+
+        for ingridient in ingridientTags:
             result.append(self.__parseIngridient(ingridient))
         return result
 

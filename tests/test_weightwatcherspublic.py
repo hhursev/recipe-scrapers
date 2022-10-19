@@ -45,7 +45,7 @@ class TestweightwatchersPublicScraper(ScraperTest):
         self.assertEqual(
             [
                 "800 g Kartoffeln; vorwiegend festkochend",
-                "2 Stück, mittelgroß Zwiebel/n",
+                "2 Stück Zwiebel/n; mittelgroß",
                 "2 Stück Paprika; rot",
                 "2 Stück Paprika; grün",
                 "1 EL Petersilie; gehackt",
@@ -63,6 +63,9 @@ class TestweightwatchersPublicScraper(ScraperTest):
             ],
             self.harvester_class.ingredients(),
         )
+
+    def test_ingredientsCount(self):
+        self.assertEqual(16, len(self.harvester_class.ingredients()))
 
     def test_instructions(self):
         self.assertEqual(

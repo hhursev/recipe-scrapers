@@ -57,6 +57,9 @@ class TestWeightwatchersScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
+    def test_ingredientsCount(self):
+        self.assertEqual(9, len(self.harvester_class.ingredients()))
+
     def test_instructions(self):
         self.assertEqual(
             "Würstchen in Scheiben schneiden. Zwiebel schälen und würfeln. Champignons trocken abreiben und vierteln. Nudeln nach Packungsanweisung in Salzwasser garen.\nÖl in einem Topf erhitzen und Zwiebelwürfel darin andünsten. Würstchenscheiben und Champignonviertel zufügen und ca. 3 Minuten anbraten. Mit Tomaten ablöschen, aufkochen und ca. 5 Minuten köcheln lassen. Würstchengulasch mit Salz, Pfeffer und Paprikapulver würzen. Nudeln abgießen, untermischen und in einer Frischhaltedose transportieren. Würstchengulasch erwärmen und servieren.",

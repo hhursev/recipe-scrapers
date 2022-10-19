@@ -33,3 +33,32 @@ class weightwatchersPublic(Weightwatchers):
         return self._getInstructions(
             "h2", "class", "InstructionsFood_headline__vw7cn", "span"
         )
+
+    def _findIngridientTags(self):
+        return (
+            self.soup.find("div", {"class": "IngredientsCard_card__VSY4x"})
+            .find("div", {"data-e2e-name": "vertical_list_items"})
+            .find_all("div", recursive=False)
+        )
+
+    def _extractIngridientName(self, ingridient):
+        return normalize_string(
+            ingridient.find("p", {"data-e2e-name": "ingredient_name"}).get_text()
+        )
+
+    def _extractPortionParts(self, ingridient):
+        tags = ingridient.find(
+            "p", {"data-e2e-name": "ingredient_description"}
+        ).find_all("span")
+
+        comment = None
+        unit = None
+        if len(tags) > 2:
+            comment = normalize_string(tags[2].get_text().replace(", ", "", 1))
+            unit = normalize_string(tags[1].get_text())
+        else:
+            descriptionParts = normalize_string(tags[1].get_text()).split(", ", 1)
+            unit = descriptionParts[0]
+            comment = descriptionParts[1] if len(descriptionParts) > 1 else None
+
+        return (normalize_string(tags[0].get_text()), unit, comment)
