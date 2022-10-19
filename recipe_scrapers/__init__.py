@@ -120,6 +120,7 @@ from .lekkerensimpel import LekkerEnSimpel
 from .littlespicejar import LittleSpiceJar
 from .livelytable import LivelyTable
 from .lovingitvegan import Lovingitvegan
+from .maangchi import Maangchi
 from .madensverden import MadensVerden
 from .madewithlau import MadeWithLau
 from .marleyspoon import MarleySpoon
@@ -145,6 +146,7 @@ from .nourishedbynutrition import NourishedByNutrition
 from .nutritionbynathalie import NutritionByNathalie
 from .nytimes import NYTimes
 from .ohsheglows import OhSheGlows
+from .omnivorescookbook import OmnivoresCookbook
 from .onehundredonecookbooks import OneHundredOneCookBooks
 from .owenhan import OwenHan
 from .paleorunningmomma import PaleoRunningMomma
@@ -341,6 +343,7 @@ SCRAPERS = {
     LittleSpiceJar.host(): LittleSpiceJar,
     LivelyTable.host(): LivelyTable,
     Lovingitvegan.host(): Lovingitvegan,
+    Maangchi.host(): Maangchi,
     MadensVerden.host(): MadensVerden,
     MadeWithLau.host(): MadeWithLau,
     MarleySpoon.host(): MarleySpoon,
@@ -373,6 +376,7 @@ SCRAPERS = {
     NourishedByNutrition.host(): NourishedByNutrition,
     NutritionByNathalie.host(): NutritionByNathalie,
     OhSheGlows.host(): OhSheGlows,
+    OmnivoresCookbook.host(): OmnivoresCookbook,
     OneHundredOneCookBooks.host(): OneHundredOneCookBooks,
     OwenHan.host(): OwenHan,
     PaleoRunningMomma.host(): PaleoRunningMomma,

@@ -4,10 +4,10 @@ from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
 
-class JustOneCookbook(AbstractScraper):
+class OmnivoresCookbook(AbstractScraper):
     @classmethod
     def host(cls):
-        return "justonecookbook.com"
+        return "omnivorescookbook.com"
 
     def author(self):
         return self.schema.author()
@@ -28,17 +28,10 @@ class JustOneCookbook(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        lis = self.soup.find_all("li", {"class": "wprm-recipe-ingredient"})
-        ingredients = []
-        for ingredient in lis:
-            spans = ingredient.findAll(
-                "span", class_=lambda x: x != "wprm-checkbox-container"
-            )[1:]
-            ingredient = []
-            for span in spans:
-                ingredient.append(normalize_string(span.get_text()))
-            ingredients.append(" ".join(ingredient))
-        return ingredients
+        ingredients = self.soup.find(
+            "ul", {"class": "wprm-recipe-ingredients"}
+        ).find_all("li")
+        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
         return self.schema.instructions()
@@ -50,4 +43,4 @@ class JustOneCookbook(AbstractScraper):
         return self.schema.cuisine()
 
     def description(self):
-        return self.schema.description()
+        return self.soup.head.find("meta", {"property": "og:description"})["content"]

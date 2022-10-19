@@ -1,3 +1,4 @@
+from responses import GET
 from recipe_scrapers.woolworths import Woolworths
 from tests import ScraperTest
 
@@ -5,6 +6,11 @@ from tests import ScraperTest
 class TestWoolworthsScraper(ScraperTest):
 
     scraper_class = Woolworths
+
+    @property
+    def expected_requests(self):
+        yield GET, "https://www.woolworths.com.au/shop/recipes/asparagus-salad-with-lemon-vinaigrette", "tests/test_data/woolworths.testhtml"
+        yield GET, "https://foodhub.woolworths.com.au/content/woolworths-foodhub/en/asparagus-salad-with-lemon-vinaigrette.model.json", "tests/test_data/woolworths.testhtml"
 
     def test_host(self):
         self.assertEqual("woolworths.com.au", self.harvester_class.host())
