@@ -43,4 +43,4 @@ class OmnivoresCookbook(AbstractScraper):
         return self.schema.cuisine()
 
     def description(self):
-        return self.schema.description()
+        return self.soup.head.find("meta", {"property": "og:description"})["content"]

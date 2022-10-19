@@ -61,6 +61,6 @@ class TestOmnivoresCookbookScraper(ScraperTest):
 
     def test_description(self):
         self.assertEqual(
-            "A super quick and easy stir fried bok choy with tofu puffs that only uses five ingredients and takes 15 minutes to prep and cook. The crisp bok choy is lightly caramelized and combined with tender tofu in a savory and slightly sweet sauce. It is surprisingly satisfying to eat as a side dish, and sometimes I serve it as a light main dish for lunch over steamed rice. {Vegan, Gluten-Free Adaptable}To make the dish gluten-free, use tamari to replace light soy sauce.",
+            "A super quick and easy stir fried bok choy with tofu puffs that only uses five ingredients and takes 15 minutes to prep and cook.",
             self.harvester_class.description(),
         )
