@@ -1,41 +1,30 @@
 # mypy: allow-untyped-defs
 
-from ._utils import get_minutes, get_yields
+from ._utils import normalize_string
 from .weightwatchers import Weightwatchers
 
 
+# collect the differences between public and non-public weightwatcher recipes in this class
 class weightwatchersPublic(Weightwatchers):
     @classmethod
     def host(cls):
         return "www.weightwatchers.com"
 
-    def __findDataContainer(self):
+    def _findDataContainer(self):
         return self.soup.find("div", {"class": "HorizontalList_list__GESs0"})
 
-    def __extractItemField(self, item):
+    def _extractItemField(self, item):
         return item.find("div", {"data-e2e-name": "attribute_item_value"})
 
-    def total_time(self):
-        return get_minutes(
-            self.__extractItemField(self.__findDataContainer().contents[0])
-        )
+    def image(self):
+        return self.soup.find("img", {"class": "FoodMasthead_heroImage__BjVdZ"})["src"]
 
-    def cook_time(self):
-        return get_minutes(
-            self.__extractItemField(self.__findDataContainer().contents[2])
-        )
+    def nutrients(self):
+        return self.soup.find("div", {"class": "Coin_text__3UOb0"})["aria-label"]
 
-    def prep_time(self):
-        return get_minutes(
-            self.__extractItemField(self.__findDataContainer().contents[1])
+    def description(self):
+        return normalize_string(
+            self.soup.find("div", {"data-e2e-name": "food_masthead_detail_description"})
+            .find("div", {"class": "ReadMoreLess_collapsed__IAzxP"})
+            .get_text()
         )
-
-    def yields(self):
-        return get_yields(
-            self.__extractItemField(self.__findDataContainer().contents[3])
-        )
-
-    def difficulty(self):
-        return self.__extractItemField(
-            self.__findDataContainer().contents[4]
-        ).get_text()

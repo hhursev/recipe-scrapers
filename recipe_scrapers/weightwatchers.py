@@ -17,57 +17,62 @@ class Weightwatchers(AbstractScraper):
     def title(self):
         return self.soup.find("h1").get_text().strip()
 
-    def __findDataContainer(self):
-        return self.soup.find("div", {"class": "styles_container__3N3E8"})
-
     def category(self):
         return "WeightWatchers"
 
+    # cooking times, yield, difficulty are in a common div in public and non-public recipes
+    # but class of that block and sub elements are different
+    # so finding the block and extracting a value will be overridden in class for public recipes,
+    # but picking the data item based on order is don in this base class (total_time(), cook_time() and so on)
+    def _findDataContainer(self):
+        return self.soup.find("div", {"class": "styles_container__3N3E8"})
+
+    def _extractItemField(self, item):
+        return item.contents[1]
+
     def total_time(self):
         return get_minutes(
-            self.__findDataContainer()
-            .find("div", string=re.compile(r"minutes Total Time"))
-            .previous_sibling
-        )
-
-    def cook_time(self):
-        return get_minutes(
-            self.__findDataContainer()
-            .find("div", string=re.compile(r"minutes Cook Time"))
-            .previous_sibling
+            self._extractItemField(self._findDataContainer().contents[0])
         )
 
     def prep_time(self):
         return get_minutes(
-            self.__findDataContainer()
-            .find("div", string=re.compile(r"minutes Preparation Time"))
-            .previous_sibling
+            self._extractItemField(self._findDataContainer().contents[1])
+        )
+
+    def cook_time(self):
+        return get_minutes(
+            self._extractItemField(self._findDataContainer().contents[2])
         )
 
     def yields(self):
-        return get_yields(
-            self.__findDataContainer().find(
-                "div", string=re.compile(r"Serves \d+ people")
-            )
-        )
+        return get_yields(self._extractItemField(self._findDataContainer().contents[3]))
 
     def difficulty(self):
-        return (
-            self.__findDataContainer()
-            .find("div", string=re.compile(r"Difficulty Level:"))
-            .previous_sibling.get_text()
-        )
+        return self._extractItemField(self._findDataContainer().contents[4]).get_text()
+
+    #   Alternative way to extract data based on description instead of position
+    #    def total_time(self):
+    #        return get_minutes(
+    #            self.__findDataContainer()
+    #            .find("div", string=re.compile(r"minutes Total Time"))
+    #            .previous_sibling
+    #        )
 
     def image(self):
         backgroundImgStyle = self.soup.find("div", {"class": "styles_image__2dnNm"})[
             "style"
         ]
-        return (
-            re.compile(r'url\("(?P<imgurl>\S*)"\);')
-            .search(backgroundImgStyle)
-            .groupdict()
-            .get("imgurl")
-        )
+
+        if backgroundImgStyle:
+            return (
+                re.compile(r'url\("(?P<imgurl>\S*)"\);')
+                .search(backgroundImgStyle)
+                .groupdict()
+                .get("imgurl")
+            )
+
+        return None
 
     def __parseIngridient(self, ingridient):
         ingridientName = normalize_string(
