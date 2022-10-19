@@ -77,6 +77,6 @@ class TestWeightwatchersScraper(ScraperTest):
 
     def test_nutrients(self):
         self.assertEqual(
-            "12 personal points\n+2 Punkte von 2 Portion(en) Gemüse",
+            "earn 12 personal points\n+2 Punkte von 2 Portion(en) Gemüse",
             self.harvester_class.nutrients(),
         )
