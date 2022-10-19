@@ -105,15 +105,20 @@ class Weightwatchers(AbstractScraper):
             result.append(self.__parseIngridient(ingridient))
         return result
 
-    def instructions(self):
+    def _getInstructions(self, headertag, headerattribute, headervalue, instructiontag):
         instructions = self.soup.find(
-            "h3", {"id": "food-detail-recipe-instruction-header"}
+            headertag, {headerattribute: headervalue}
         ).parent.find("ol")
         return "\n".join(
             [
                 normalize_string(instruction.get_text())
-                for instruction in instructions.find_all("div", {"class": "copy-1"})
+                for instruction in instructions.find_all(instructiontag)
             ]
+        )
+
+    def instructions(self):
+        return self._getInstructions(
+            "h3", "id", "food-detail-recipe-instruction-header", "div"
         )
 
     def description(self):

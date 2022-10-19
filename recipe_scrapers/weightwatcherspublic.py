@@ -28,3 +28,8 @@ class weightwatchersPublic(Weightwatchers):
             .find("div", {"class": "ReadMoreLess_collapsed__IAzxP"})
             .get_text()
         )
+
+    def instructions(self):
+        return self._getInstructions(
+            "h2", "class", "InstructionsFood_headline__vw7cn", "span"
+        )
