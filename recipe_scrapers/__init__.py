@@ -120,6 +120,7 @@ from .lekkerensimpel import LekkerEnSimpel
 from .littlespicejar import LittleSpiceJar
 from .livelytable import LivelyTable
 from .lovingitvegan import Lovingitvegan
+from .maangchi import Maangchi
 from .madensverden import MadensVerden
 from .madewithlau import MadeWithLau
 from .marleyspoon import MarleySpoon
@@ -340,6 +341,7 @@ SCRAPERS = {
     LittleSpiceJar.host(): LittleSpiceJar,
     LivelyTable.host(): LivelyTable,
     Lovingitvegan.host(): Lovingitvegan,
+    Maangchi.host(): Maangchi,
     MadensVerden.host(): MadensVerden,
     MadeWithLau.host(): MadeWithLau,
     MarleySpoon.host(): MarleySpoon,

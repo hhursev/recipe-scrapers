@@ -198,6 +198,7 @@ Scrapers available for:
 - `https://littlespicejar.com/ <https://littlespicejar.com>`_
 - `http://livelytable.com/ <http://livelytable.com/>`_
 - `https://lovingitvegan.com/ <https://lovingitvegan.com/>`_
+- `https://www.maangchi.com <https://www.maangchi.com>`_
 - `https://madensverden.dk/ <https://madensverden.dk/>`_
 - `https://www.madewithlau.com/ <https://www.madewithlau.com/>`_
 - `https://marleyspoon.com.au/ <https://marleyspoon.com.au/>`_
