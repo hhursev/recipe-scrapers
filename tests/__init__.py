@@ -8,7 +8,6 @@ import responses
 class ScraperTest(unittest.TestCase):
 
     maxDiff = None
-    online = False
     test_file_name: Optional[str] = None
     test_file_extension = "testhtml"
     scraper_class: Any
@@ -33,8 +32,6 @@ class ScraperTest(unittest.TestCase):
             for method, url, path in self.expected_requests:
                 start_url = start_url or url
                 with open(path, encoding="utf-8") as f:
-                    response = responses.Response(method, url, body=f.read())
-                    response.passthrough = self.online
-                    rsps.add(response)
+                    rsps.add(method, url, body=f.read())
 
             self.harvester_class = self.scraper_class(url=start_url)
