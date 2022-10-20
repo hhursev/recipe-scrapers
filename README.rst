@@ -343,13 +343,13 @@ Assuming you have ``>=python3.7`` installed, navigate to the directory where you
     source .venv/bin/activate &&
     pip install -r requirements-dev.txt &&
     pre-commit install &&
-    python run_tests.py
+    python -m unittest
 
 In case you want to run a single unittest for a newly developed scraper
 
 .. code:: shell
 
-    python -m coverage run -m unittest tests.test_myscraper
+    python -m unittest tests.test_myscraper
 
 FAQ
 ---
