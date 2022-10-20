@@ -1,7 +1,7 @@
 # mypy: disallow_untyped_defs=False
 import requests
 
-from ._abstract import AbstractScraper, HEADERS
+from ._abstract import HEADERS, AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string, url_path_to_dict
 
 

@@ -1,6 +1,6 @@
 import os
-from typing import Any, Iterator, Optional, Tuple
 import unittest
+from typing import Any, Iterator, Optional, Tuple
 
 import responses
 
