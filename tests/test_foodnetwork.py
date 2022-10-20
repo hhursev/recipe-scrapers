@@ -1,7 +1,6 @@
 from responses import GET
 
 from recipe_scrapers.foodnetwork import FoodNetwork
-
 from tests import ScraperTest
 
 

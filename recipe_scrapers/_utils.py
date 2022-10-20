@@ -1,9 +1,10 @@
 # mypy: disallow_untyped_defs=False
 
 import html
-import isodate
 import math
 import re
+
+import isodate
 
 from ._exceptions import ElementNotFoundInHtml
 

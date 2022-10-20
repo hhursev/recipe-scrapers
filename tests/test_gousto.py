@@ -1,7 +1,6 @@
 from responses import GET
 
 from recipe_scrapers.gousto import Gousto
-
 from tests import ScraperTest
 
 
