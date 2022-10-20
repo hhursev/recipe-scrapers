@@ -349,7 +349,7 @@ In case you want to run a single unittest for a newly developed scraper
 
 .. code:: shell
 
-    python -m coverage run -m unittest tests.test_myscraper
+    python -m unittest tests.test_myscraper
 
 FAQ
 ---
