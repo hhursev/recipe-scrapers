@@ -1,23 +1,26 @@
 # mypy: disallow_untyped_defs=False
-import json
+import requests
 
-from recipe_scrapers.settings import settings
-
-from ._abstract import AbstractScraper
+from ._abstract import AbstractScraper, HEADERS
 from ._schemaorg import SchemaOrg
 from ._utils import url_path_to_dict
 
 
 class Woolworths(AbstractScraper):
-    def __init__(self, url, *args, **kwargs):
-        if not settings.TEST_MODE:  # pragma: no cover
-            target = url_path_to_dict(url)["path"].split("/")[-1]
-            url = f"https://foodhub.woolworths.com.au/content/woolworths-foodhub/en/{target}.model.json"
-
+    def __init__(self, url, proxies=None, timeout=None, *args, **kwargs):
         super().__init__(url=url, *args, **kwargs)
 
+        target = url_path_to_dict(url)["path"].split("/")[-1]
+        data_url = f"https://foodhub.woolworths.com.au/content/woolworths-foodhub/en/{target}.model.json"
+
         self.page_data = (
-            json.loads(self.page_data)
+            requests.get(
+                data_url,
+                headers=HEADERS,
+                proxies=proxies,
+                timeout=timeout,
+            )
+            .json()
             .get(":items")
             .get("root")
             .get(":items")

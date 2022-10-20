@@ -198,6 +198,7 @@ Scrapers available for:
 - `https://littlespicejar.com/ <https://littlespicejar.com>`_
 - `http://livelytable.com/ <http://livelytable.com/>`_
 - `https://lovingitvegan.com/ <https://lovingitvegan.com/>`_
+- `https://www.maangchi.com <https://www.maangchi.com>`_
 - `https://madensverden.dk/ <https://madensverden.dk/>`_
 - `https://www.madewithlau.com/ <https://www.madewithlau.com/>`_
 - `https://marleyspoon.com.au/ <https://marleyspoon.com.au/>`_
@@ -229,6 +230,7 @@ Scrapers available for:
 - `https://nutritionbynathalie.com/blog <https://nutritionbynathalie.com/blog>`_
 - `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
 - `https://ohsheglows.com/ <https://ohsheglows.com>`_
+- `https://omnivorescookbook.com <https://omnivorescookbook.com>`_
 - `https://owen-han.com/ <https://owen-han.com>`_
 - `https://101cookbooks.com/ <https://101cookbooks.com/>`_
 - `https://www.paleorunningmomma.com/ <https://www.paleorunningmomma.com>`_
