@@ -1,8 +1,9 @@
 # mypy: disallow_untyped_defs=False
-from typing import Optional, Union, Tuple, Dict
+from typing import Dict, Optional, Tuple, Union
+
 from requests import Session
 
-from ._abstract import AbstractScraper, HEADERS
+from ._abstract import HEADERS, AbstractScraper
 
 
 class BettyBossi(AbstractScraper):

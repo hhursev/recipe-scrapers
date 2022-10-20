@@ -1,9 +1,10 @@
 # mypy: disallow_untyped_defs=False
 import json
 import re
+
 import requests
 
-from ._abstract import AbstractScraper, HEADERS
+from ._abstract import HEADERS, AbstractScraper
 from ._exceptions import ElementNotFoundInHtml
 from ._utils import normalize_string
 

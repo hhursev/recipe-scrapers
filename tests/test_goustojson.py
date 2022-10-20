@@ -1,4 +1,5 @@
 from responses import GET
+
 from recipe_scrapers.goustojson import GoustoJson
 from tests import ScraperTest
 
