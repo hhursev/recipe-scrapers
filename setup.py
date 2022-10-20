@@ -29,8 +29,6 @@ setup(
         "extruct>=0.8.0",
         "isodate>=0.6.1",
         "requests>=2.19.1",
-        "types-beautifulsoup4>=4.11.6",
-        "types-requests>=2.28.10",
     ],
     packages=find_packages(),
     package_data={"": ["LICENSE", "py.typed"]},
