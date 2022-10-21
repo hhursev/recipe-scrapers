@@ -59,7 +59,6 @@ class SchemaOrg:
                         if not isinstance(graph_item_type, str):
                             continue
                         if graph_item_type.lower() in low_schema:
-                            in_graph = SCHEMA_ORG_HOST in graph_item.get("@context", "")
                             self.format = syntax
                             if graph_item_type.lower() == "recipe":
                                 self.data = graph_item
