@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -36,5 +36,6 @@ class HundredAndOneCookbooks(AbstractScraper):
         )
 
     @opengraph_fallback
+    @schemaorg_fallback
     def image(self):
         pass

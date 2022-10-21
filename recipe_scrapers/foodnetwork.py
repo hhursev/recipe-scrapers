@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 
 
 class FoodNetwork(AbstractScraper):
@@ -28,5 +28,6 @@ class FoodNetwork(AbstractScraper):
         return self.schema.instructions()
 
     @opengraph_fallback
+    @schemaorg_fallback
     def image(self):
         pass
