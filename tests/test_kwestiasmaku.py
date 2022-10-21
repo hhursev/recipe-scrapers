@@ -15,9 +15,6 @@ class TestKwestiaSmakuScraper(ScraperTest):
     def test_title(self):
         self.assertEqual("Pieczony kalafior", self.harvester_class.title())
 
-    def test_total_time(self):
-        self.assertEqual(None, self.harvester_class.total_time())
-
     def test_yields(self):
         self.assertEqual("2 servings", self.harvester_class.yields())
 
