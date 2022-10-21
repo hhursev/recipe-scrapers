@@ -1,9 +1,11 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from typing import Dict, Optional, Tuple, Union
 
 from requests import Session
 
 from ._abstract import HEADERS, AbstractScraper
+from ._decorators import opengraph_fallback
 
 
 class BettyBossi(AbstractScraper):
@@ -57,6 +59,7 @@ class BettyBossi(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
+    @opengraph_fallback
     def image(self):
         return self.schema.image()
 

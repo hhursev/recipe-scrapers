@@ -1,9 +1,11 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 import re
 
 from bs4 import Tag
 
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import normalize_string
 
 """
@@ -95,6 +97,7 @@ class FarmhouseDelivery(AbstractScraper):
         data = self._instructions_list()
         return "\n".join(data) if data else None
 
+    @opengraph_fallback
     def image(self):
         container = self.soup.find("div", {"class": "entry-content"})
         if not container:

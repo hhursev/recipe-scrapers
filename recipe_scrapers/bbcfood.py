@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -34,6 +36,7 @@ class BBCFood(AbstractScraper):
         author = container.a
         return author.text if author else None
 
+    @opengraph_fallback
     def image(self):
         container = self.soup.find(True, {"class": "recipe-media__image"})
         if not container:

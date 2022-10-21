@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -41,6 +43,7 @@ class USDAMyPlate(AbstractScraper):
                 return get_yields(spans[i + 1])
             i += 1
 
+    @opengraph_fallback
     def image(self):
         div = self.soup.find(
             "div",

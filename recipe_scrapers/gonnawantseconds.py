@@ -1,4 +1,5 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 # gonnawantseconds.py
 # Written by G.D. Wallters
 # Freely released the code to recipe_scraper group
@@ -7,6 +8,7 @@
 
 
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, normalize_string
 
 
@@ -57,6 +59,7 @@ class GonnaWantSeconds(AbstractScraper):
             ry = normalize_string(recipe_yield[9:])
         return ry
 
+    @opengraph_fallback
     def image(self):
         image = self.soup.find(
             "div", {"class": "wprm-recipe-image wprm-block-image-normal"}

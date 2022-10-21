@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 
 
 class HelloFresh(AbstractScraper):
@@ -25,6 +27,7 @@ class HelloFresh(AbstractScraper):
     def instructions(self):
         return self.schema.instructions()
 
+    @opengraph_fallback
     def image(self):
         return self.schema.image()
 

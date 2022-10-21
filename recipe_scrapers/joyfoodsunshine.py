@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -28,6 +30,7 @@ class Joyfoodsunshine(AbstractScraper):
 
         return self.schema.ingredients()
 
+    @opengraph_fallback
     def image(self):
         # span class = wprm-recipe-image find src
         return self.schema.image()

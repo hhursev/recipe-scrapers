@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -38,6 +40,7 @@ class HEB(AbstractScraper):
         data = self._instructions_list()
         return "\n".join(data) if data else None
 
+    @opengraph_fallback
     def image(self):
         container = self.soup.find("div", {"class": "recipeimage"})
         if not container:

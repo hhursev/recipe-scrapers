@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -47,3 +49,7 @@ class Cookstr(AbstractScraper):
                 for instruction in instructions.findAll("p")
             ]
         )
+
+    @opengraph_fallback
+    def image(self):
+        pass

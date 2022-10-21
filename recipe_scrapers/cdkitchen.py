@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 
 
 class CdKitchen(AbstractScraper):
@@ -22,5 +24,6 @@ class CdKitchen(AbstractScraper):
     def instructions(self):
         return self.schema.instructions()
 
+    @opengraph_fallback
     def image(self):
         return self.schema.image()

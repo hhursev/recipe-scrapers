@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -22,6 +24,7 @@ class TastyKitchen(AbstractScraper):
     def yields(self):
         return get_yields(self.soup.find("span", {"itemprop": "yield"}))
 
+    @opengraph_fallback
     def image(self):
         image = self.soup.find("img", {"class": "the_recipe_image", "src": True})
         return image["src"] if image else None

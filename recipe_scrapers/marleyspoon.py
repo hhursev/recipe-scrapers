@@ -1,10 +1,12 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 import json
 import re
 
 import requests
 
 from ._abstract import HEADERS, AbstractScraper
+from ._decorators import opengraph_fallback
 from ._exceptions import ElementNotFoundInHtml
 from ._utils import normalize_string
 
@@ -82,6 +84,7 @@ class MarleySpoon(AbstractScraper):
         # This conclusion is made based on personal observations and available plans https://marleyspoon.com/select-plan
         return "2 servings"
 
+    @opengraph_fallback
     def image(self):
         return self.data.get("image").get("large")
 

@@ -1,7 +1,9 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 import re
 
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._exceptions import ElementNotFoundInHtml
 from ._utils import normalize_string
 
@@ -58,6 +60,7 @@ class Valdemarsro(AbstractScraper):
         yields_text = yields_element.getText().strip()
         return yields_text
 
+    @opengraph_fallback
     def image(self):
         parent_element = self.soup.find("div", {"class": "recipe-image"})
         image_element = parent_element.find(lambda x: not x.has_attr("class"))

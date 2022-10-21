@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_yields, normalize_string
 
 
@@ -17,6 +19,7 @@ class CookingLight(AbstractScraper):
     def yields(self):
         return get_yields(self.schema.yields())
 
+    @opengraph_fallback
     def image(self):
         return self.schema.image()
 

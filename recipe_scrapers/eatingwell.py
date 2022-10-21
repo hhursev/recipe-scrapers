@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -11,6 +13,7 @@ class EatingWell(AbstractScraper):
     def title(self):
         return self.schema.title()
 
+    @opengraph_fallback
     def image(self):
         return self.schema.image()
 

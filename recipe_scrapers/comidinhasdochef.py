@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import normalize_string
 
 
@@ -21,6 +23,7 @@ class ComidinhasDoChef(AbstractScraper):
         yields = self.soup.find("span", {"itemprop": "recipeYield"})
         return yields.get_text() if yields else None
 
+    @opengraph_fallback
     def image(self):
         return self.schema.image()
 

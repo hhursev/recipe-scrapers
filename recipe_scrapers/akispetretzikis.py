@@ -1,7 +1,9 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 import json
 
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._exceptions import SchemaOrgException
 from ._utils import normalize_string
 
@@ -38,6 +40,7 @@ class AkisPetretzikis(AbstractScraper):
     def yields(self):
         return self.recipe_json["props"]["pageProps"]["ssRecipe"]["data"]["shares"]
 
+    @opengraph_fallback
     def image(self):
         return self.schema.image()
 

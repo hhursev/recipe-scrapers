@@ -1,4 +1,5 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 # southernliving.com scraper
 # Written by G.D. Wallters
 # Freely released the code to recipe_scraper group
@@ -7,6 +8,7 @@
 
 
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -24,6 +26,7 @@ class SouthernLiving(AbstractScraper):
     def yields(self):
         return get_yields(self.schema.yields())
 
+    @opengraph_fallback
     def image(self):
         return self.schema.image()
 

@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 
 
 # TODO: Remove? Switching over to GoustoJson 2022-08-01
@@ -17,6 +19,7 @@ class Gousto(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
+    @opengraph_fallback
     def image(self):
         return self.schema.image()
 

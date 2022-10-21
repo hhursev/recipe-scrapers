@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 
 
 class SteamyKitchen(AbstractScraper):
@@ -19,6 +21,7 @@ class SteamyKitchen(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
+    @opengraph_fallback
     def image(self):
         # Recipe section and schema have no image so stealing from the page
         return self.soup.find("img")["src"]

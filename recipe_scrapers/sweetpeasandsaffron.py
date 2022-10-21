@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import normalize_string
 
 
@@ -21,6 +23,7 @@ class SweetPeasAndSaffron(AbstractScraper):
     def yields(self):
         return self.soup.find("span", {"class": "wprm-recipe-servings"}).text
 
+    @opengraph_fallback
     def image(self):
         return self.soup.find(
             "div", {"class": "wprm-recipe-image wprm-block-image-normal"}

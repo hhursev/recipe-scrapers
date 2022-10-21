@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 
 """
     Note that innit hosts recipes for several companies.  I found it while looking at centralmarket.com
@@ -20,6 +22,7 @@ class Innit(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
+    @opengraph_fallback
     def image(self):
         return self.schema.image()
 

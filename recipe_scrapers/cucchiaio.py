@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields
 
 
@@ -27,6 +29,7 @@ class Cucchiaio(AbstractScraper):
             return get_yields(value)
         return None
 
+    @opengraph_fallback
     def image(self):
         data = self.soup.find("div", {"class": "auto"}).find("img", {"class": "image"})
         if data:

@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -40,6 +42,10 @@ class GeniusKitchen(AbstractScraper):
                 directions.append(normalize_string(direction.get_text()))
 
         return "\n".join(directions)
+
+    @opengraph_fallback
+    def image(self):
+        pass
 
     def ratings(self):
         rating = self.soup.find("span", {"class": "sr-only"}).get_text()

@@ -3,6 +3,7 @@
 from bs4 import BeautifulSoup
 
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import normalize_string
 
 
@@ -23,6 +24,7 @@ class LeanAndGreenRecipes(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
+    @opengraph_fallback
     def image(self):
         return self.schema.image()
 

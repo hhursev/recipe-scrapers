@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from recipe_scrapers._abstract import AbstractScraper
+from recipe_scrapers._decorators import opengraph_fallback
 from recipe_scrapers._utils import get_minutes, normalize_string
 
 
@@ -22,6 +24,7 @@ class Food52(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
+    @opengraph_fallback
     def image(self):
         return self.schema.image()
 

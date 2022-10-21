@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -30,3 +32,7 @@ class ClosetCooking(AbstractScraper):
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
+
+    @opengraph_fallback
+    def image(self):
+        pass

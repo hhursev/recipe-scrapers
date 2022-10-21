@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, normalize_string
 
 
@@ -30,3 +32,7 @@ class TudoGostoso(AbstractScraper):
             normalize_string(instruction.get_text())
             for instruction in instructions_html
         )
+
+    @opengraph_fallback
+    def image(self):
+        pass

@@ -1,6 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, normalize_string
 
 
@@ -43,5 +44,6 @@ class SallysBlog(AbstractScraper):
             ]
         )
 
+    @opengraph_fallback
     def image(self):
-        return self.opengraph.image()
+        pass

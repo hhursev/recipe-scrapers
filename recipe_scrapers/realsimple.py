@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -36,3 +38,7 @@ class RealSimple(AbstractScraper):
                 if instruction.find("p") is not None
             ]
         )
+
+    @opengraph_fallback
+    def image(self):
+        pass

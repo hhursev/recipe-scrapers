@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_yields, normalize_string
 
 
@@ -21,6 +23,7 @@ class KwestiaSmaku(AbstractScraper):
             self.soup.find("div", {"class": "field-name-field-ilosc-porcji"})
         )
 
+    @opengraph_fallback
     def image(self):
         return (
             self.soup.find("div", {"class": "view-zdjecia"})

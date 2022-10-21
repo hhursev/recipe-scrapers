@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -17,6 +19,7 @@ class Mindmegette(AbstractScraper):
 
         return get_minutes(time)
 
+    @opengraph_fallback
     def image(self):
         image_relative_url = self.soup.find("img", {"itemprop": "image", "src": True})[
             "src"

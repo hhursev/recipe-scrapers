@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes
 
 
@@ -31,6 +33,10 @@ class MarthaStewart(AbstractScraper):
 
     def instructions(self):
         return self.schema.instructions()
+
+    @opengraph_fallback
+    def image(self):
+        pass
 
     def ratings(self):
         return self.schema.ratings()

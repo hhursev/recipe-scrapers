@@ -1,7 +1,9 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 import re
 
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, normalize_string
 
 INSTRUCTIONS_NUMBERING_REGEX = re.compile(r"^\d{1,2}\.\s*")  # noqa
@@ -56,3 +58,7 @@ class Panelinha(AbstractScraper):
         return normalize_string(
             self.soup.find("span", string="Serve").nextSibling.get_text()
         )
+
+    @opengraph_fallback
+    def image(self):
+        pass

@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 
 
 class FranzoesischKochen(AbstractScraper):
@@ -22,6 +24,7 @@ class FranzoesischKochen(AbstractScraper):
         # TODO: can recipe yields / servings be retrieved from these pages?
         return None
 
+    @opengraph_fallback
     def image(self):
         return self.schema.image()
 

@@ -1,4 +1,5 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 # delish.py
 # Written by J. Kwon
 # Freely released the code to recipe_scraper group
@@ -7,6 +8,7 @@
 
 
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -28,6 +30,7 @@ class Delish(AbstractScraper):
 
         return get_yields(yields_class)
 
+    @opengraph_fallback
     def image(self):
         try:
             # Case when image is at the top of the recipe content div

@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -34,8 +36,9 @@ class Woop(AbstractScraper):
         normalized = [normalize_string(i.text) for i in li]
         return "\n".join([i for i in normalized if i])
 
+    @opengraph_fallback
     def image(self):
-        return self.opengraph.image()
+        pass
 
     def nutrients(self):
         div = self.soup.findAll("div", {"class": "nutritional-info"})[0]

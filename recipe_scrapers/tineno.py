@@ -1,7 +1,9 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 import re
 
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import change_keys
 
 
@@ -36,6 +38,7 @@ class TineNo(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
+    @opengraph_fallback
     def image(self):
         image = self.soup.find("img", {"id": "HeaderMediaContent"})
         if not image:

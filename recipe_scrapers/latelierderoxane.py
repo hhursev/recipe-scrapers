@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -8,6 +10,7 @@ class LAtelierDeRoxane(AbstractScraper):
     def host(cls):
         return "latelierderoxane.com"
 
+    @opengraph_fallback
     def image(self):
         image = self.soup.find(
             "img", {"class": "attachment-single size-single wp-post-image"}

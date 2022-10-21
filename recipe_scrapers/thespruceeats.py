@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, normalize_string
 
 
@@ -25,6 +27,7 @@ class TheSpruceEats(AbstractScraper):
             .get_text()
         )
 
+    @opengraph_fallback
     def image(self):
         image = self.soup.find("img", {"class": "primary-image"})
         return image["src"] if image else None

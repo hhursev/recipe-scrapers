@@ -1,6 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 
 
 class ArchanasKitchen(AbstractScraper):
@@ -23,8 +24,9 @@ class ArchanasKitchen(AbstractScraper):
     def instructions(self):
         return self.schema.instructions()
 
+    @opengraph_fallback
     def image(self):
-        return self.opengraph.image()
+        pass
 
     def ratings(self):
         return self.schema.ratings()

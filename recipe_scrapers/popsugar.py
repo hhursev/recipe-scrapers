@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -22,6 +24,7 @@ class PopSugar(AbstractScraper):
         serves = anchor.parent.findNext("dd").get_text()
         return get_yields(serves)
 
+    @opengraph_fallback
     def image(self):
         article = self.soup.find("article")
         if article:

@@ -1,7 +1,9 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 import re
 
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 
 
 class OneHundredOneCookBooks(AbstractScraper):
@@ -27,6 +29,7 @@ class OneHundredOneCookBooks(AbstractScraper):
         extraction = re.search("([0-9]+) servings", data)
         return extraction.group(1) if extraction else None
 
+    @opengraph_fallback
     def image(self):
         return self.schema.image()
 

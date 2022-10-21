@@ -1,4 +1,5 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 # GreatBritishChefs.com scraper
 # Written by G.D. Wallters
 # Freely released the code to recipe_scraper group
@@ -7,6 +8,7 @@
 
 
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, normalize_string
 
 
@@ -39,6 +41,7 @@ class GreatBritishChefs(AbstractScraper):
             )
         return recipe_yield
 
+    @opengraph_fallback
     def image(self):
         image = self.soup.find("img", {"id": "head-media"}, "src")
         if image:

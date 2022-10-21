@@ -1,7 +1,9 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 import re
 
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -40,6 +42,7 @@ class NHSHealthierFamilies(AbstractScraper):
         metadata = self._get_recipe_metadata()
         return metadata["yields"]
 
+    @opengraph_fallback
     def image(self):
         return self.soup.find("img", {"class": "nhsuk-image__img"})["src"]
 

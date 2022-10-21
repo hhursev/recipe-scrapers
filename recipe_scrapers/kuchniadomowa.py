@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 
 
 class KuchniaDomowa(AbstractScraper):
@@ -10,6 +12,7 @@ class KuchniaDomowa(AbstractScraper):
     def title(self):
         return self.soup.find("h2").get_text().strip()
 
+    @opengraph_fallback
     def image(self):
         urls = self.soup.findAll("img", {"class": "article-img", "id": "article-img-1"})
         return f"https:{urls[1]['src']}"

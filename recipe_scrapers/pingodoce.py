@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields
 
 
@@ -29,3 +31,7 @@ class PingoDoce(AbstractScraper):
 
     def description(self):
         return self.schema.description()
+
+    @opengraph_fallback
+    def image(self):
+        pass

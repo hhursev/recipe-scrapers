@@ -1,7 +1,9 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 import re
 
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 
 BULLET_CHARACTER_ORD = 8226
 
@@ -22,6 +24,7 @@ class NutritionByNathalie(AbstractScraper):
     def yields(self):
         return None
 
+    @opengraph_fallback
     def image(self):
         try:
             return self.soup.find("img", {"id": re.compile(r"^innercomp_")})["src"]

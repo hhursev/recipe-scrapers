@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields
 
 
@@ -38,6 +40,7 @@ class Bodybuilding(AbstractScraper):
             .get_text()
         )
 
+    @opengraph_fallback
     def image(self):
         container = self.soup.find("div", {"class": "bb-recipe-header-image"})
         if not container:

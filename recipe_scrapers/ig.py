@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_yields, normalize_string
 
 
@@ -25,6 +27,7 @@ class IG(AbstractScraper):
         else:
             return get_yields(container.find("span", {"class": "valor"}).get_text())
 
+    @opengraph_fallback
     def image(self):
         container = self.soup.find("div", {"class": "box-img-receita"})
         if not container:

@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -46,6 +48,7 @@ class FineDiningLovers(AbstractScraper):
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
 
+    @opengraph_fallback
     def image(self):
         image = self.soup.select_one(".image-zone picture img")
         image_url = image["data-src"].split("?")[0]
