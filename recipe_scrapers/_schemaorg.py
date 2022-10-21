@@ -126,6 +126,8 @@ class SchemaOrg:
         return get_minutes(self.data.get("prepTime"), return_zero_on_not_found=True)
 
     def yields(self):
+        if not (self.data.keys() & {"recipeYield", "yield"}):
+            raise SchemaOrgException("Servings information not found in SchemaOrg")
         yield_data = self.data.get("recipeYield") or self.data.get("yield")
         if yield_data and isinstance(yield_data, list):
             yield_data = yield_data[0]

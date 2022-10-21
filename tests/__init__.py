@@ -1,4 +1,3 @@
-import os
 import unittest
 from typing import Any, Iterator, Optional, Tuple
 
@@ -23,10 +22,6 @@ class ScraperTest(unittest.TestCase):
         yield responses.GET, "https://test.example.com", path
 
     def setUp(self):
-        os.environ[
-            "RECIPE_SCRAPERS_SETTINGS"
-        ] = "tests.test_data.test_settings_module.test_settings"
-
         with responses.RequestsMock() as rsps:
             start_url = None
             for method, url, path in self.expected_requests:

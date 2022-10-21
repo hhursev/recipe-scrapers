@@ -82,9 +82,6 @@ Arrange lettuce, asparagus, snow peas and radish on a platter. Scatter over feta
     def test_language(self):
         self.assertEqual("en-AU", self.harvester_class.language())
 
-    def test_ratings(self):
-        self.assertEqual(None, self.harvester_class.ratings())
-
     def test_site_name(self):
         self.assertEqual(
             "Woolworths | Fresh Ideas For You", self.harvester_class.site_name()
