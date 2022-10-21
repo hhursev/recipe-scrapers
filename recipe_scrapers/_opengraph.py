@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 
 from ._abstract import AbstractScraper
 
+
 class OpenGraph(AbstractScraper):
     def __init__(self, page_data, raw=False):
         if raw:
@@ -13,7 +14,5 @@ class OpenGraph(AbstractScraper):
         self.soup = BeautifulSoup(page_data, "html.parser")
 
     def image(self):
-        image = self.soup.find(
-            "meta", {"property": "og:image", "content": True}
-        )
+        image = self.soup.find("meta", {"property": "og:image", "content": True})
         return image.get("content")

@@ -1,4 +1,7 @@
+# mypy: allow-untyped-defs
+
 from functools import wraps
+
 
 def opengraph_fallback(scraper_field):
     @wraps(scraper_field)
@@ -15,7 +18,9 @@ def opengraph_fallback(scraper_field):
         except NotImplementedError as e:
             msg = f"OpenGraph extractor does not implement '{field}' field"
             raise NotImplementedError(msg) from e
+
     return wrapper
+
 
 def schemaorg_fallback(scraper_field):
     @wraps(scraper_field)
@@ -32,4 +37,5 @@ def schemaorg_fallback(scraper_field):
         except NotImplementedError as e:
             msg = f"Schema.org extractor does not implement '{field}' field"
             raise NotImplementedError(msg) from e
+
     return wrapper

@@ -51,6 +51,7 @@ class AbstractScraper:
         # TODO: only construct parsers for which there is relevant content on-page
         from ._opengraph import OpenGraph
         from ._schemaorg import SchemaOrg
+
         self.opengraph = OpenGraph(self.page_data)
         self.schema = SchemaOrg(self.page_data)
 

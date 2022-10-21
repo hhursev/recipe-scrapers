@@ -1,7 +1,7 @@
 import unittest
 
 from recipe_scrapers._abstract import AbstractScraper
-from recipe_scrapers._decorators import opengraph_fallback, schemaorg_fallback
+from recipe_scrapers._decorators import opengraph_fallback
 
 
 class DecoratorTest(unittest.TestCase):
