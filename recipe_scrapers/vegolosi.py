@@ -13,6 +13,9 @@ class Vegolosi(AbstractScraper):
     def title(self):
         return self.soup.find("h1").get_text().strip()
 
+    def author(self):
+        return self.schema.author().strip()
+
     def preparation_time(self):
         possible_time_info_elements = self.soup.findAll(
             "span", {"class": "tasty-recipes-prep-time"}

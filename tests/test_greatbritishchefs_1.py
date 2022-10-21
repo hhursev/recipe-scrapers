@@ -22,6 +22,9 @@ class TestGreatBritishChefsScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Picadillo")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Great British Chefs")
+
     def test_total_time(self):
         self.assertEqual(50, self.harvester_class.total_time())
 

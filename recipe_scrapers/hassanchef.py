@@ -4,13 +4,16 @@ from ._abstract import AbstractScraper
 from ._decorators import opengraph_fallback
 
 
-class Hassanchef(AbstractScraper):
+class HassanChef(AbstractScraper):
     @classmethod
     def host(cls):
         return "hassanchef.com"
 
     def title(self):
         return self.schema.title()
+
+    def author(self):
+        return self.schema.author().title()
 
     def total_time(self):
         return self.schema.total_time()

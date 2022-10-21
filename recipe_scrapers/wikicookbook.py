@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import schemaorg_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -10,6 +12,10 @@ class WikiCookbook(AbstractScraper):
 
     def title(self):
         return self.soup.find("h1").get_text().replace("Cookbook:", "")
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     def total_time(self):
         return get_minutes(self.soup.find("th", string="Time").find_next_sibling("td"))

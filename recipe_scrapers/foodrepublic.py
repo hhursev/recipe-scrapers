@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -12,6 +12,10 @@ class FoodRepublic(AbstractScraper):
 
     def title(self):
         return self.soup.find("h3", {"class": "recipe-title"}).get_text()
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     def total_time(self):
         return sum(

@@ -3,7 +3,7 @@
 import re
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -14,6 +14,10 @@ class SunBasket(AbstractScraper):
 
     def title(self):
         return self.soup.find("h1").get_text()
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     def total_time(self):
         minutes_tag = self.soup.find("span", string=re.compile(r"Minutes"))

@@ -13,6 +13,10 @@ class MyBakingAddiction(AbstractScraper):
     def title(self):
         return self.soup.find("h1").get_text()
 
+    @schemaorg_fallback
+    def author(self):
+        pass
+
     def total_time(self):
         return get_minutes(
             self.soup.find("div", {"class": "mv-create-time-total"}).get_text()

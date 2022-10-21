@@ -21,6 +21,9 @@ class TestBlueApronScraper(ScraperTest):
             self.harvester_class.title(),
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Blue Apron")
+
     def test_yields(self):
         self.assertEqual("2 servings", self.harvester_class.yields())
 

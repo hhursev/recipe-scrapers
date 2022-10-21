@@ -8,7 +8,7 @@
 
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 
 
 class BettyCrocker(AbstractScraper):
@@ -18,6 +18,10 @@ class BettyCrocker(AbstractScraper):
 
     def title(self):
         return self.schema.title()
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     def total_time(self):
         return self.schema.total_time()

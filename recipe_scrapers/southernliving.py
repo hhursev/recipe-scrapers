@@ -8,7 +8,7 @@
 
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -19,6 +19,10 @@ class SouthernLiving(AbstractScraper):
 
     def title(self):
         return self.schema.title()
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     def total_time(self):
         return get_minutes(self.schema.total_time())

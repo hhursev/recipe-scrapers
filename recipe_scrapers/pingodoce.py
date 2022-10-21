@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 from ._utils import get_minutes, get_yields
 
 
@@ -12,6 +12,10 @@ class PingoDoce(AbstractScraper):
 
     def title(self):
         return self.schema.title()
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     def total_time(self):
         return get_minutes(self.soup.findAll("div", {"class": "info"})[0])

@@ -24,6 +24,9 @@ class TestPrzepisyScraper(ScraperTest):
     def test_title(self):
         self.assertEqual("Placki ziemniaczane", self.harvester_class.title())
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "przepisy.pl")
+
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())
 

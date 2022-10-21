@@ -13,6 +13,9 @@ class EatingWell(AbstractScraper):
     def title(self):
         return self.schema.title()
 
+    def author(self):
+        return self.soup.find("span", {"class": "author-name"}).get_text()
+
     @opengraph_fallback
     def image(self):
         return self.schema.image()

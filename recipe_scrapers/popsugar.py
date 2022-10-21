@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -13,6 +13,10 @@ class PopSugar(AbstractScraper):
     def title(self):
         title = self._context().find("h2", {"class": "recipe-title"}).get_text()
         return normalize_string(title)
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     def total_time(self):
         anchor = self._context().find(string="Total Time")

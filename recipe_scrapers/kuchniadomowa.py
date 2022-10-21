@@ -13,6 +13,10 @@ class KuchniaDomowa(AbstractScraper):
         return self.soup.find("h2").get_text().strip()
 
     @schemaorg_fallback
+    def author(self):
+        pass
+
+    @schemaorg_fallback
     def total_time(self):
         pass
 

@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import schemaorg_fallback
 from ._utils import get_minutes, normalize_string
 
 
@@ -12,6 +14,10 @@ class JustBento(AbstractScraper):
         expected_prefix = "Recipe: "
         title = self.soup.find("meta", {"property": "og:title", "content": True})
         return title.get("content").replace(expected_prefix, "")
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     def total_time(self):
         time = self.soup.find(

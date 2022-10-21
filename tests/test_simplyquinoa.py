@@ -18,6 +18,9 @@ class TestSimplyQuinoaScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "The Best Quinoa Flour Pancakes")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Alyssa")
+
     def test_total_time(self):
         self.assertEqual(20, self.harvester_class.total_time())
 

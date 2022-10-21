@@ -1,8 +1,10 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from dataclasses import dataclass
 from typing import List, Optional
 
 from ._abstract import AbstractScraper
+from ._decorators import schemaorg_fallback
 from ._exceptions import ElementNotFoundInHtml
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -23,6 +25,10 @@ class NIHHealthyEating(AbstractScraper):
     def title(self):
         # This content must be present for all recipes on this website.
         return normalize_string(self.soup.h1.get_text())
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     def total_time(self):
         # This content must be present for all recipes on this website.

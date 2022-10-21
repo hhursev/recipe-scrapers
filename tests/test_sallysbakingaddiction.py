@@ -20,6 +20,9 @@ class TestSallysBakingAddictionScraper(ScraperTest):
             self.harvester_class.title(), "Rosemary Garlic Pull Apart Bread"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Sally")
+
     def test_yields(self):
         self.assertEqual("1 serving", self.harvester_class.yields())
 

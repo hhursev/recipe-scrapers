@@ -18,6 +18,9 @@ class TestGloboScraper(ScraperTest):
     def test_title(self):
         self.assertEqual("Strogonoff de Frango Simples", self.harvester_class.title())
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Alm3")
+
     def test_yields(self):
         self.assertEqual("8 servings", self.harvester_class.yields())
 

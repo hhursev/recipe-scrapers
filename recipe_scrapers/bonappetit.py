@@ -12,6 +12,10 @@ class BonAppetit(AbstractScraper):
     def title(self):
         return self.schema.title()
 
+    @schemaorg_fallback
+    def author(self):
+        pass
+
     def total_time(self):
         return None
 

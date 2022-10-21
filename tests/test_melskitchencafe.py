@@ -18,6 +18,9 @@ class TestMelsKitchenCafeScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Licorice Caramels")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Mel")
+
     def test_yields(self):
         self.assertEqual("8 servings", self.harvester_class.yields())
 

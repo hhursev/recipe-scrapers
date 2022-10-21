@@ -20,6 +20,9 @@ class TestCookieAndKateScraper(ScraperTest):
             self.harvester_class.title(), "Broccoli, Cheddar & Spinach Frittata"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Cookie and Kate")
+
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())
 

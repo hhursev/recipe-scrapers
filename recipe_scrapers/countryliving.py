@@ -13,6 +13,9 @@ class CountryLiving(AbstractScraper):
     def title(self):
         return self.soup.find("h1", {"class": "content-hed recipe-hed"}).get_text()
 
+    def author(self):
+        return self.soup.find("span", {"rel": "author"}).get_text()
+
     def total_time(self):
         return get_minutes(
             self.soup.find("span", {"class": "total-time-amount"}).parent

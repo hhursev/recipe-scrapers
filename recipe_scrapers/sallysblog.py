@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 from ._utils import get_minutes, normalize_string
 
 
@@ -14,6 +14,10 @@ class SallysBlog(AbstractScraper):
         return normalize_string(
             self.soup.find("h1", {"class": "blog--detail-headline"}).get_text()
         )
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     def total_time(self):
         return get_minutes(self.soup.find("span", {"id": "zubereitungszeit"}))

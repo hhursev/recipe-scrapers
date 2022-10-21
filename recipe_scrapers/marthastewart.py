@@ -13,6 +13,10 @@ class MarthaStewart(AbstractScraper):
     def title(self):
         return self.schema.title()
 
+    @schemaorg_fallback
+    def author(self):
+        pass
+
     def total_time(self):
         s = (
             self.soup.findAll("div", {"class": "two-subcol-content-wrapper"})[0]

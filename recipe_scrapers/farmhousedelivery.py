@@ -5,7 +5,7 @@ import re
 from bs4 import Tag
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 from ._utils import normalize_string
 
 """
@@ -21,6 +21,10 @@ class FarmhouseDelivery(AbstractScraper):
 
     def title(self):
         return self.soup.find("h1", {"class": "entry-title"}).get_text(strip=True)
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     def ingredients(self):
         # Style 1

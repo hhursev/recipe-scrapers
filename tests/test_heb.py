@@ -18,6 +18,9 @@ class TestHEBScraper(ScraperTest):
     def test_title(self):
         self.assertEqual("Truffled Spaghetti Squash", self.harvester_class.title())
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "H-E-B")
+
     def test_total_time(self):
         self.assertEqual(60, self.harvester_class.total_time())
 

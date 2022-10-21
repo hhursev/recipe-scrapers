@@ -23,6 +23,9 @@ class TestMindmegetteScraper(ScraperTest):
             self.harvester_class.title(), "Tepsis krumpli céklával és répával"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "MME")
+
     def test_total_time(self):
         self.assertEqual(45, self.harvester_class.total_time())
 

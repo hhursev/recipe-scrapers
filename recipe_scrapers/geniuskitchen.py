@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -14,6 +14,10 @@ class GeniusKitchen(AbstractScraper):
         return (
             self.soup.find("title").get_text().replace(" Recipe - Genius Kitchen", "")
         )
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     def total_time(self):
         return get_minutes(self.soup.find("td", {"class": "time"}))

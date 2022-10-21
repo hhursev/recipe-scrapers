@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -12,6 +12,10 @@ class TwoPeasAndTheirPod(AbstractScraper):
 
     def title(self):
         return self.soup.find("h2", {"class": "wprm-recipe-name"}).get_text()
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     def total_time(self):
         minutes = self.soup.select_one(".wprm-recipe-total_time").get_text()

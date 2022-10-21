@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -20,6 +20,10 @@ class LAtelierDeRoxane(AbstractScraper):
     def title(self):
         div = self.soup.find("div", {"class": "bloc_titreh1 bloc_blog"})
         return div.find("h1").get_text()
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     def description(self):
         div = self.soup.find("div", {"class": "bloc_chapeau bloc_blog"})

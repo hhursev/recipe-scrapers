@@ -1,7 +1,9 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 import requests
 
 from ._abstract import HEADERS, AbstractScraper
+from ._decorators import schemaorg_fallback
 from ._utils import get_minutes, get_yields, normalize_string, url_path_to_dict
 
 
@@ -35,6 +37,10 @@ class GoustoJson(AbstractScraper):
 
     def title(self):
         return self.data.get("title")
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     def total_time(self):
         return get_minutes(sorted(self.data.get("prep_times").values())[-1])

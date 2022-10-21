@@ -14,6 +14,9 @@ class Yummly(AbstractScraper):
         found = self.soup.find("h1")
         return found.get_text() if found else None
 
+    def author(self):
+        return self.soup.find("a", {"class": "markdown-link"}).get_text()
+
     def total_time(self):
         data = self.soup.findAll("div", {"class": "recipe-summary-item"}, limit=2)
         return get_minutes(data[1]) if data else None

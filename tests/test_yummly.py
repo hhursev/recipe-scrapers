@@ -20,6 +20,9 @@ class TestYummlyScraper(ScraperTest):
             self.harvester_class.title(), "Easy White Cheese & Garlic Pizzas"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Sara Mellas")
+
     def test_total_time(self):
         self.assertEqual(25, self.harvester_class.total_time())
 

@@ -21,6 +21,9 @@ class TestFood52(ScraperTest):
             "Sticky Pomegranate & Black Pepper Chicken Wings",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Sohla El-Waylly")
+
     def test_total_time(self):
         self.assertEqual(1520, self.harvester_class.total_time())
 

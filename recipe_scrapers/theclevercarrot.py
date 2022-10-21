@@ -12,6 +12,9 @@ class TheCleverCarrot(AbstractScraper):
     def title(self):
         return self.schema.title()
 
+    def author(self):
+        return self.schema.author().strip()
+
     def total_time(self):
         return self.schema.total_time()
 

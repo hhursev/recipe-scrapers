@@ -13,6 +13,9 @@ class Przepisy(AbstractScraper):
     def title(self):
         return self.soup.find("h1", {"class": "title"}).get_text()
 
+    def author(self):
+        return self.schema.author().strip()
+
     def total_time(self):
         return get_minutes(self.soup.find("div", {"class": "time-count"}))
 

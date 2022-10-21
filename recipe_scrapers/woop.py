@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -13,6 +13,10 @@ class Woop(AbstractScraper):
     def title(self):
         found = self.soup.find("meta", {"property": "og:title"})
         return normalize_string(found["content"])
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     def ingredients(self):
         div = self.soup.findAll("div", {"class": "ingredients"})[0]

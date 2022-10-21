@@ -3,7 +3,7 @@
 import re
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 
 BULLET_CHARACTER_ORD = 8226
 
@@ -17,6 +17,10 @@ class NutritionByNathalie(AbstractScraper):
 
     def title(self):
         return self.soup.find("h1").get_text()
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     def total_time(self):
         return 0

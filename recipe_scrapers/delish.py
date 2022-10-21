@@ -8,7 +8,7 @@
 
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -19,6 +19,10 @@ class Delish(AbstractScraper):
 
     def title(self):
         return normalize_string(self.soup.find("h1").get_text())
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     # Return total time to complete dish in minutes (includes prep time)
     def total_time(self):
