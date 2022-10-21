@@ -10,9 +10,6 @@ from bs4 import BeautifulSoup
 
 from recipe_scrapers.settings import settings
 
-from ._opengraph import OpenGraph
-from ._schemaorg import SchemaOrg
-
 # some sites close their content for 'bots', so user-agent must be supplied
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"
@@ -52,6 +49,8 @@ class AbstractScraper:
         self.soup = BeautifulSoup(self.page_data, "html.parser")
 
         # TODO: only construct parsers for which there is relevant content on-page
+        from ._opengraph import OpenGraph
+        from ._schemaorg import SchemaOrg
         self.opengraph = OpenGraph(self.page_data)
         self.schema = SchemaOrg(self.page_data)
 

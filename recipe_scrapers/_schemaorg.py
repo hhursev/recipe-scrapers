@@ -1,12 +1,13 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 # IF things in this file continue get messy (I'd say 300+ lines) it may be time to
 # find a package that parses https://schema.org/Recipe properly (or create one ourselves).
-
 
 import extruct
 
 from recipe_scrapers.settings import settings
 
+from ._abstract import AbstractScraper
 from ._exceptions import SchemaOrgException
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -16,7 +17,7 @@ SCHEMA_NAMES = ["Recipe", "WebPage"]
 SYNTAXES = ["json-ld", "microdata"]
 
 
-class SchemaOrg:
+class SchemaOrg(AbstractScraper):
     def __init__(self, page_data, raw=False):
         if raw:
             self.format = "raw"

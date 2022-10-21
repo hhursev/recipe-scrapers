@@ -1,6 +1,10 @@
+# mypy: allow-untyped-defs
+
 from bs4 import BeautifulSoup
 
-class OpenGraph:
+from ._abstract import AbstractScraper
+
+class OpenGraph(AbstractScraper):
     def __init__(self, page_data, raw=False):
         if raw:
             self.format = "raw"
