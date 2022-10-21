@@ -48,7 +48,7 @@ class AbstractScraper:
         self.wild_mode = wild_mode
         self.soup = BeautifulSoup(self.page_data, "html.parser")
 
-        # TODO: only construct parsers for which there is relevant content on-page
+        # TODO: only construct parsers when they are required for retrieval of a field value
         from ._opengraph import OpenGraph
         from ._schemaorg import SchemaOrg
 
