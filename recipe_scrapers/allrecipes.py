@@ -1,5 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -115,6 +116,7 @@ class AllRecipesUser(AbstractScraper):
             yield_data = self.meta.get("servings")
         return get_yields(yield_data)
 
+    @opengraph_fallback
     def image(self):
         image = self.soup.find("div", {"class": "lead-media", "data-src": True})
         image = image.get("data-src")

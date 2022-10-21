@@ -1,7 +1,9 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 import re
 
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import get_minutes, get_yields
 
 
@@ -62,6 +64,7 @@ class Meljoulwan(AbstractScraper):
 
         return get_yields(matches.group(1))
 
+    @opengraph_fallback
     def image(self):
         return self.schema.image()
 

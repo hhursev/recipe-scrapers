@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import normalize_string
 
 
@@ -24,6 +26,7 @@ class LekkerEnSimpel(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
+    @opengraph_fallback
     def image(self):
         image = self.soup.find("meta", {"property", "og:image"})
         return image["content"] if image else None

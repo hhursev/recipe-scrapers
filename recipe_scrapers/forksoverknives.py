@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 from ._utils import normalize_string
 
 
@@ -25,6 +27,7 @@ class ForksOverKnives(AbstractScraper):
         # Get the first string after "Makes".
         return yields.split(" ", 1)[1]
 
+    @opengraph_fallback
     def image(self):
         return self.schema.image()
 

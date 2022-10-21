@@ -1,4 +1,5 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
 
 
@@ -21,6 +22,9 @@ class ArchanasKitchen(AbstractScraper):
 
     def instructions(self):
         return self.schema.instructions()
+
+    def image(self):
+        return self.opengraph.image()
 
     def ratings(self):
         return self.schema.ratings()

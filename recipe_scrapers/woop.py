@@ -34,6 +34,9 @@ class Woop(AbstractScraper):
         normalized = [normalize_string(i.text) for i in li]
         return "\n".join([i for i in normalized if i])
 
+    def image(self):
+        return self.opengraph.image()
+
     def nutrients(self):
         div = self.soup.findAll("div", {"class": "nutritional-info"})[0]
         li = div.findChildren("li")

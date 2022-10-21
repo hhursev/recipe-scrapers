@@ -1,4 +1,5 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, normalize_string
 
@@ -41,3 +42,6 @@ class SallysBlog(AbstractScraper):
                 for instruction in instructions
             ]
         )
+
+    def image(self):
+        return self.opengraph.image()

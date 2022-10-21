@@ -1,4 +1,5 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 import inspect
 from collections import OrderedDict
 from typing import Dict, List, Optional, Tuple, Union
@@ -9,6 +10,7 @@ from bs4 import BeautifulSoup
 
 from recipe_scrapers.settings import settings
 
+from ._opengraph import OpenGraph
 from ._schemaorg import SchemaOrg
 
 # some sites close their content for 'bots', so user-agent must be supplied
@@ -48,6 +50,9 @@ class AbstractScraper:
 
         self.wild_mode = wild_mode
         self.soup = BeautifulSoup(self.page_data, "html.parser")
+
+        # TODO: only construct parsers for which there is relevant content on-page
+        self.opengraph = OpenGraph(self.page_data)
         self.schema = SchemaOrg(self.page_data)
 
         # attach the plugins as instructed in settings.PLUGINS

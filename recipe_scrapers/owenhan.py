@@ -1,5 +1,7 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
+from ._decorators import opengraph_fallback
 
 
 class OwenHan(AbstractScraper):
@@ -13,6 +15,7 @@ class OwenHan(AbstractScraper):
     def title(self):
         return self.soup.find("h1", {"class": "entry-title"}).text
 
+    @opengraph_fallback
     def image(self):
         return self.schema.image()
 
