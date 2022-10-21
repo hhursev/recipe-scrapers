@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 from ._utils import normalize_string
 
 
@@ -9,6 +9,10 @@ class TasteOfHome(AbstractScraper):
     @classmethod
     def host(cls):
         return "tasteofhome.com"
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     def title(self):
         return self.schema.title()

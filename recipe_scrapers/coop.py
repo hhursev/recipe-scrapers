@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 
 
 class Coop(AbstractScraper):
@@ -20,6 +20,10 @@ class Coop(AbstractScraper):
 
     def cook_time(self):
         return self.schema.cook_time()
+
+    @schemaorg_fallback
+    def total_time(self):
+        pass
 
     def yields(self):
         return self.schema.yields()

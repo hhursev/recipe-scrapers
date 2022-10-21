@@ -1,13 +1,17 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 
 
 class AmbitiousKitchen(AbstractScraper):
     @classmethod
     def host(cls):
         return "ambitiouskitchen.com"
+
+    @schemaorg_fallback
+    def author(self):
+        pass
 
     def title(self):
         return self.schema.title()

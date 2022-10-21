@@ -2,7 +2,6 @@ from recipe_scrapers.plugins import (
     ExceptionHandlingPlugin,
     HTMLTagStripperPlugin,
     NormalizeStringPlugin,
-    SchemaOrgFillPlugin,
 )
 
 # Plugins to be attached.
@@ -12,7 +11,6 @@ PLUGINS = (
     ExceptionHandlingPlugin,
     HTMLTagStripperPlugin,
     NormalizeStringPlugin,
-    SchemaOrgFillPlugin,
 )
 
 SUPPRESS_EXCEPTIONS = False

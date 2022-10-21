@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._decorators import opengraph_fallback
+from ._decorators import opengraph_fallback, schemaorg_fallback
 
 
 class Food(AbstractScraper):
@@ -27,3 +27,7 @@ class Food(AbstractScraper):
 
     def instructions(self):
         return self.schema.instructions()
+
+    @schemaorg_fallback
+    def ratings(self):
+        pass

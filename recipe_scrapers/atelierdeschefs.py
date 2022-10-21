@@ -9,6 +9,10 @@ class AtelierDesChefs(AbstractScraper):
     def host(cls):
         return "atelierdeschefs.fr"
 
+    @schemaorg_fallback
+    def author(self):
+        pass
+
     def title(self):
         return self.schema.title()
 
