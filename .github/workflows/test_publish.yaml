@@ -1,4 +1,4 @@
-name: "Test Publishing"
+name: test_publish
 
 
 # Will attempt to build + publish package in test.pypi.org
@@ -7,14 +7,10 @@ name: "Test Publishing"
 # pip install --index-url https://test.pypi.org/simple/ --no-deps recipe-scrapers
 #
 # or by inspecting the files: https://test.pypi.org/project/recipe-scrapers/#files
-on:
-  workflow_dispatch:
-  push:
-    branches:
-      - "issue-617/tox-plus-setuptools-pyproject"
+on: workflow_dispatch
 
 jobs:
-  publish:
+  test_publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
