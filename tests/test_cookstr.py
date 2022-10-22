@@ -1,5 +1,3 @@
-import os
-
 from recipe_scrapers.cookstr import Cookstr
 from tests import ScraperTest
 
@@ -23,14 +21,8 @@ class TestCookstrScraper(ScraperTest):
     def test_total_time(self):
         self.assertEqual(60, self.harvester_class.total_time())
 
-    def test_total_yields(self):
-        self.assertEqual(None, self.harvester_class.yields())
-
     def test_total_yields_raises_exception(self):
-        os.environ["RECIPE_SCRAPERS_SETTINGS"] = "recipe_scrapers.settings.default"
-
-        with self.assertRaises(Exception):
-            self.assertEqual(None, self.harvester_class.yields())
+        self.assertRaises(Exception, self.harvester_class.yields)
 
     def test_ingredients(self):
         self.assertCountEqual(

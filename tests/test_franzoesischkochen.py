@@ -65,6 +65,3 @@ class TestFranzoesischKochenScraper(ScraperTest):
             ),
             self.harvester_class.instructions(),
         )
-
-    def test_ratings(self):
-        self.assertEqual(None, self.harvester_class.ratings())
