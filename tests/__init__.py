@@ -11,22 +11,23 @@ class ScraperTest(unittest.TestCase):
     test_file_extension = "testhtml"
     scraper_class: Any
 
-    @property
-    def expected_requests(self) -> Iterator[Tuple[str, str, str]]:
+    @classmethod
+    def expected_requests(cls) -> Iterator[Tuple[str, str, str]]:
         """
         Descriptions of the expected requests that the scraper-under-test will make, as
         tuples of: HTTP method, URL, path-to-content-file
         """
-        filename = self.test_file_name or self.scraper_class.__name__.lower()
-        path = f"tests/test_data/{filename}.{self.test_file_extension}"
+        filename = cls.test_file_name or cls.scraper_class.__name__.lower()
+        path = f"tests/test_data/{filename}.{cls.test_file_extension}"
         yield responses.GET, "https://test.example.com", path
 
-    def setUp(self):
+    @classmethod
+    def setUpClass(cls):
         with responses.RequestsMock() as rsps:
             start_url = None
-            for method, url, path in self.expected_requests:
+            for method, url, path in cls.expected_requests():
                 start_url = start_url or url
                 with open(path, encoding="utf-8") as f:
                     rsps.add(method, url, body=f.read())
 
-            self.harvester_class = self.scraper_class(url=start_url)
+            cls.harvester_class = cls.scraper_class(url=start_url)
