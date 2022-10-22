@@ -43,3 +43,21 @@ jobs:
         with:
           # coveralls repo token
           github-token: "SmlfzlVJy4ow55rduU7IU5GmmFCfAdGeq"
+
+  # After unit tests succeed, attempt a time-travel regression test
+  timetravel:
+    needs: test
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        python-version: ["3.10"]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install tox
+      - run: export SOURCE_DATE_EPOCH=$(date +%s)
+      - run: tox -e py
