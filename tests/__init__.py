@@ -11,7 +11,7 @@ class ScraperTest(unittest.TestCase):
     maxDiff = None
     test_file_name: Optional[str] = None
     test_file_extension = "testhtml"
-    timestamp: Optional[int] = None
+    last_updated: Optional[int] = None
     scraper_class: Any
 
     PLACEHOLDER_URL = "https://test.example.com"
@@ -66,8 +66,8 @@ class ScraperTest(unittest.TestCase):
 
         # When configured, use public temporal scraper for a given point-in-time
         if settings.TIMETRAVEL:
-            if cls.timestamp is None:
-                msg = f"Time travel is opt-in; skipping {cls} because it has no 'timestamp' attribute"
+            if cls.last_updated is None:
+                msg = f"Time travel is opt-in; skipping {cls} because it has no 'last_updated' attribute"
                 raise unittest.SkipTest(msg)
 
             canonical_url = cls.harvester_class.canonical_url()
