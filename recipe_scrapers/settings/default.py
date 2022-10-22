@@ -1,3 +1,6 @@
+import os
+from datetime import datetime, timezone
+
 from recipe_scrapers.plugins import (
     ExceptionHandlingPlugin,
     HTMLTagStripperPlugin,
@@ -44,3 +47,11 @@ ON_EXCEPTION_RETURN_VALUES = {
 # logging.CRITICAL  # 50
 # https://docs.python.org/3/howto/logging.html
 LOG_LEVEL = 30
+
+# Optionally configure time travel to replicate scraper behaviour as of a point-in-time
+_source_date_epoch = os.environ.get("SOURCE_DATE_EPOCH")
+TIMETRAVEL = (
+    datetime.fromtimestamp(int(_source_date_epoch), timezone.utc)
+    if _source_date_epoch
+    else None
+)
