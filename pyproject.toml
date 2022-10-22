@@ -6,9 +6,9 @@ build-backend = "setuptools.build_meta"
 name = "recipe_scrapers"
 description = "Python package, scraping recipes from all over the internet"
 authors = [
-    { name = "Hristo Harsev", email = "r+pypi@hharsev.com" },
+    {name = "Hristo Harsev", email = "r+pypi@hharsev.com"},
 ]
-urls = { Homepage = "https://github.com/hhursev/recipe-scrapers/" }
+urls = {Homepage = "https://github.com/hhursev/recipe-scrapers/"}
 keywords = ["python", "recipes", "scraper", "harvest", "recipe-scraper", "recipe-scrapers"]
 license = {text = "MIT License"}
 classifiers = [
