@@ -67,7 +67,7 @@ class ScraperTest(unittest.TestCase):
         # When configured, use public temporal scraper for a given point-in-time
         if settings.TIMETRAVEL:
             if cls.timestamp is None:
-                msg = "Time travel is opt-in; skipping {cls} because it has no 'timestamp' attribute"
+                msg = f"Time travel is opt-in; skipping {cls} because it has no 'timestamp' attribute"
                 raise unittest.SkipTest(msg)
 
             canonical_url = cls.harvester_class.canonical_url()
