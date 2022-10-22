@@ -11,6 +11,7 @@ class ScraperTest(unittest.TestCase):
     maxDiff = None
     test_file_name: Optional[str] = None
     test_file_extension = "testhtml"
+    timestamp: Optional[int] = None
     scraper_class: Any
 
     PLACEHOLDER_URL = "https://test.example.com"
@@ -63,13 +64,15 @@ class ScraperTest(unittest.TestCase):
 
             cls.harvester_class = cls.scraper_class(url=start_url)
 
-        # When configured, use public temporal data for a given point-in-time
+        # When configured, use public temporal scraper for a given point-in-time
         if settings.TIMETRAVEL:
+            if cls.timestamp is None:
+                msg = "Time travel is opt-in; skipping {cls} because it has no 'timestamp' attribute"
+                raise unittest.SkipTest(msg)
+
             canonical_url = cls.harvester_class.canonical_url()
             if canonical_url == cls.PLACEHOLDER_URL:
-                raise unittest.SkipTest(
-                    "Couldn't determine the canonical URL for a scraper during archive-based testing"
-                )
-            cls.harvester_class = cls.TemporalScraper(
-                cls=cls.scraper_class, url=canonical_url
-            )
+                msg = "Couldn't determine the canonical URL for a scraper during archive-based testing"
+                raise unittest.SkipTest(msg)
+
+            cls.harvester_class = cls.TemporalScraper(cls.scraper_class, canonical_url)
