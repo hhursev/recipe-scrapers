@@ -5,10 +5,7 @@ from tests import ScraperTest
 class TestGreatBritishChefsScraper(ScraperTest):
 
     scraper_class = GreatBritishChefs
-
-    @property
-    def test_file_name(self):
-        return "{}_2".format(self.scraper_class.__name__.lower())
+    test_file_name = "greatbritishchefs_2"
 
     def test_host(self):
         self.assertEqual("greatbritishchefs.com", self.harvester_class.host())

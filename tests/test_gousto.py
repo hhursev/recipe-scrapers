@@ -8,8 +8,8 @@ class TestGoustoScraper(ScraperTest):
 
     scraper_class = Gousto
 
-    @property
-    def expected_requests(self):
+    @classmethod
+    def expected_requests(cls):
         yield GET, "https://gousto.co.uk/cookbook/creamy-pork-tagliatelle", "tests/test_data/gousto.testhtml"
 
     def test_host(self):

@@ -4,10 +4,7 @@ from tests import ScraperTest
 
 class TestReishungerScraper(ScraperTest):
     scraper_class = Reishunger
-
-    @property
-    def test_file_name(self):
-        return "{}_2".format(self.scraper_class.__name__.lower())
+    test_file_name = "reishunger_2"
 
     def test_host(self):
         self.assertEqual("reishunger.de", self.harvester_class.host())
