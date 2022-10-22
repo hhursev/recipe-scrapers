@@ -10,7 +10,7 @@ authors = [
 ]
 urls = { Homepage = "https://github.com/hhursev/recipe-scrapers/" }
 keywords = ["python", "recipes", "scraper", "harvest", "recipe-scraper", "recipe-scrapers"]
-license = { file = "LICENSE" }
+license = {text = "MIT License"}
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
