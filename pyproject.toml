@@ -29,6 +29,7 @@ dependencies = [
 
 [tool.setuptools.packages.find]
 include = ["recipe_scrapers", "recipe_scrapers.*"]
+exclude = ["tests", "tests.*"]
 
 [tool.setuptools.dynamic]
 readme = {file = "README.rst"}
