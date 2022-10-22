@@ -5,6 +5,7 @@ from tests import ScraperTest
 class TestBBCFoodScraper(ScraperTest):
 
     scraper_class = BBCFood
+    timestamp = 1665683863
 
     def test_host(self):
         self.assertEqual("bbc.com", self.harvester_class.host())
@@ -17,7 +18,7 @@ class TestBBCFoodScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "http://www.bbc.co.uk/food/recipes/baileysandchocolatec_72293",
+            "https://www.bbc.co.uk/food/recipes/baileysandchocolatec_72293",
             self.harvester_class.canonical_url(),
         )
 
@@ -34,7 +35,7 @@ class TestBBCFoodScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://ichef.bbci.co.uk/food/ic/food_16x9_608/recipes/baileysandchocolatec_72293_16x9.jpg",
+            "https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/baileysandchocolatec_72293_16x9.jpg",
             self.harvester_class.image(),
         )
 
