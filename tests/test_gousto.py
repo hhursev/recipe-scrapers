@@ -10,7 +10,7 @@ class TestGoustoScraper(ScraperTest):
 
     @property
     def expected_requests(self):
-        yield GET, "https://www.foodnetwork.com/recipes/tyler-florence/chicken-marsala-recipe-1951778", "tests/test_data/gousto.testhtml"
+        yield GET, "https://gousto.co.uk/cookbook/creamy-pork-tagliatelle", "tests/test_data/gousto.testhtml"
 
     def test_host(self):
         self.assertEqual("gousto.co.uk", self.harvester_class.host())
