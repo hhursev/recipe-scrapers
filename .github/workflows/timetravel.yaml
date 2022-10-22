@@ -24,4 +24,4 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - run: pip install tox
       - run: export SOURCE_DATE_EPOCH=$(date +%s)
-      - run: tox -e ${{ matrix.toxenv }}
+      - run: tox -e py
