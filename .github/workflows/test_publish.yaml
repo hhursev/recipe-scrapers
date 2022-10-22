@@ -9,6 +9,9 @@ name: "Test Publishing"
 # or by inspecting the files: https://test.pypi.org/project/recipe-scrapers/#files
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - "issue-617/tox-plus-setuptools-pyproject"
 
 jobs:
   publish:
