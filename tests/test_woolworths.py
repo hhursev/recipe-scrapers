@@ -8,8 +8,8 @@ class TestWoolworthsScraper(ScraperTest):
 
     scraper_class = Woolworths
 
-    @property
-    def expected_requests(self):
+    @classmethod
+    def expected_requests(cls):
         yield GET, "https://www.woolworths.com.au/shop/recipes/asparagus-salad-with-lemon-vinaigrette", "tests/test_data/woolworths.testhtml"
         yield GET, "https://foodhub.woolworths.com.au/content/woolworths-foodhub/en/asparagus-salad-with-lemon-vinaigrette.model.json", "tests/test_data/woolworths.testhtml"
 
