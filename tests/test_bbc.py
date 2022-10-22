@@ -5,6 +5,7 @@ from tests import ScraperTest
 class TestBBCFoodScraper(ScraperTest):
 
     scraper_class = BBCFood
+    last_updated = 1650618477
 
     def test_host(self):
         self.assertEqual("bbc.com", self.harvester_class.host())
