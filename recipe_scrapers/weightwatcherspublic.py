@@ -1,11 +1,11 @@
 # mypy: allow-untyped-defs
 
 from ._utils import normalize_string
-from .weightwatchers import Weightwatchers
+from .weightwatchers import WeightWatchers
 
 
 # collect the differences between public and non-public weightwatcher recipes in this class
-class weightwatchersPublic(Weightwatchers):
+class WeightWatchersPublic(WeightWatchers):
     @classmethod
     def host(cls):
         return "www.weightwatchers.com"
@@ -20,7 +20,9 @@ class weightwatchersPublic(Weightwatchers):
         return self.soup.find("img", {"class": "FoodMasthead_heroImage__BjVdZ"})["src"]
 
     def nutrients(self):
-        return self.soup.find("div", {"class": "Coin_text__3UOb0"})["aria-label"]
+        return {
+            "points": self.soup.find("div", {"class": "Coin_text__3UOb0"})["aria-label"]
+        }
 
     def description(self):
         return normalize_string(

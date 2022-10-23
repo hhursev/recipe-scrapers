@@ -1,6 +1,6 @@
 # mypy: allow-untyped-defs
 
-from recipe_scrapers.weightwatchers import Weightwatchers
+from recipe_scrapers.weightwatchers import WeightWatchers
 from tests import ScraperTest
 
 
@@ -9,7 +9,7 @@ class TestWeightwatchersScraper(ScraperTest):
     # Test-Url:
     # https://cmx.weightwatchers.de/details/WWRECIPE:5667ab72a29713e4335bb342
 
-    scraper_class = Weightwatchers
+    scraper_class = WeightWatchers
 
     def test_host(self):
         self.assertEqual("www.weightwatchers.com", self.harvester_class.host())
@@ -76,7 +76,8 @@ class TestWeightwatchersScraper(ScraperTest):
         self.assertEqual("Leicht", self.harvester_class.difficulty())
 
     def test_nutrients(self):
-        self.assertEqual(
-            "earn 12 personal points\n+2 Punkte von 2 Portion(en) Gemüse",
-            self.harvester_class.nutrients(),
-        )
+        expected_nutrients = {
+            "personal points": "earn 12 personal points",
+            "positive points": "+2 Punkte von 2 Portion(en) Gemüse",
+        }
+        self.assertEqual(self.harvester_class.nutrients(), expected_nutrients)

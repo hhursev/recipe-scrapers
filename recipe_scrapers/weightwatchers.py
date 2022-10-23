@@ -6,7 +6,7 @@ from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
 
-class Weightwatchers(AbstractScraper):
+class WeightWatchers(AbstractScraper):
     @classmethod
     def host(cls):
         return "www.weightwatchers.com"
@@ -66,8 +66,7 @@ class Weightwatchers(AbstractScraper):
 
         if backgroundImgStyle:
             return (
-                re.compile(r'url\("(?P<imgurl>\S*)"\);')
-                .search(backgroundImgStyle)
+                re.search(r'url\("(?P<imgurl>\S*)"\);', backgroundImgStyle)
                 .groupdict()
                 .get("imgurl")
             )
@@ -102,17 +101,15 @@ class Weightwatchers(AbstractScraper):
         amount, unit, comment = self._extractPortionParts(ingridient)
 
         if comment:
-            return amount + " " + unit + " " + ingridientName + "; " + comment
+            return f"{amount} {unit} {ingridientName}; {comment}"
         else:
-            return amount + " " + unit + " " + ingridientName
+            return f"{amount} {unit} {ingridientName}"
 
     def ingredients(self):
-        result = []
-        ingridientTags = self._findIngridientTags()
-
-        for ingridient in ingridientTags:
-            result.append(self.__parseIngridient(ingridient))
-        return result
+        return [
+            self.__parseIngridient(ingridient)
+            for ingridient in self._findIngridientTags()
+        ]
 
     def _getInstructions(self, headertag, headerattribute, headervalue, instructiontag):
         instructions = self.soup.find(
@@ -134,16 +131,19 @@ class Weightwatchers(AbstractScraper):
         return self.soup.find("div", {"class": "copy-1"}).get_text().strip()
 
     def nutrients(self):
-        result = (
+        result = {}
+
+        result["personal points"] = (
             self.soup.find("div", {"class": "styles_points__2gv9n"})
             .find("div", {"class": "styles_container__2p-YG"})
             .get_text()
         )
+
         veggiepoints = self.soup.find(
             "div", {"class": "styles_vegetableServings__2YSPy"}
         )
         if veggiepoints:
-            result += "\n" + normalize_string(
+            result["positive points"] = normalize_string(
                 veggiepoints.find(
                     "div", {"class": "styles_container__2p-YG"}
                 ).next_sibling.get_text()
