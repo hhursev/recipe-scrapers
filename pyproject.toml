@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recipe_scrapers"
+description = "Python package, scraping recipes from all over the internet"
+authors = [
+    {name = "Hristo Harsev", email = "r+pypi@hharsev.com"},
+]
+urls = {Homepage = "https://github.com/hhursev/recipe-scrapers/"}
+keywords = ["python", "recipes", "scraper", "harvest", "recipe-scraper", "recipe-scrapers"]
+license = {text = "MIT License"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Topic :: Internet :: WWW/HTTP",
+]
+dynamic = ["version", "readme"]
+requires-python = ">= 3.6"
+dependencies = [
+    "beautifulsoup4 >= 4.10.0",
+    "extruct >= 0.8.0",
+    "isodate >= 0.6.1",
+    "requests >= 2.19.1",
+]
+
+[tool.setuptools.packages.find]
+include = ["recipe_scrapers", "recipe_scrapers.*"]
+exclude = ["tests", "tests.*"]
+
+[tool.setuptools.dynamic]
+readme = {file = "README.rst"}
+version = {attr = "recipe_scrapers.__version__.__version__"}
+
+[tool.setuptools.package-data]
+recipe_scrapers = ["py.typed"]
