@@ -43,9 +43,6 @@ class SouthernLiving(AbstractScraper):
             ]
         )
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def description(self):
         des = self.soup.find(
             "div",

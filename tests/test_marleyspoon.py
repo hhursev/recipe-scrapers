@@ -1,7 +1,6 @@
 import responses
 
 from recipe_scrapers.marleyspoon import MarleySpoon
-
 from tests import ScraperTest
 
 
@@ -9,8 +8,8 @@ class TestMarleySpoonScraper(ScraperTest):
 
     scraper_class = MarleySpoon
 
-    @property
-    def expected_requests(self):
+    @classmethod
+    def expected_requests(cls):
         yield responses.GET, "https://marleyspoon.de/menu/113813-glasierte-veggie-burger-mit-roestkartoffeln-und-apfel-gurken-salat", "tests/test_data/marleyspoon.testhtml"
         yield responses.GET, "https://api.marleyspoon.com/recipes/113813?brand=ms&country=de&product_type=web", "tests/test_data/marleyspoon.testjson"
 

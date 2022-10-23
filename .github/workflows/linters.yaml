@@ -17,12 +17,5 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements-dev.txt
-      - name: black and flake checks
-        run: |
-          black --check .
-          flake8 --count .
-          mypy recipe_scrapers tests
+      - run: pip install tox
+      - run: tox -e lint

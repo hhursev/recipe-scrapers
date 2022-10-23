@@ -52,8 +52,6 @@ class SchemaOrg:
                 if in_context and item_type.lower() in low_schema:
                     self.format = syntax
                     self.data = item
-                    if item_type.lower() == "webpage":
-                        self.data = self.data.get("mainEntity")
                     return
                 elif in_context and "@graph" in item:
                     for graph_item in item.get("@graph", ""):
@@ -61,12 +59,8 @@ class SchemaOrg:
                         if not isinstance(graph_item_type, str):
                             continue
                         if graph_item_type.lower() in low_schema:
-                            in_graph = SCHEMA_ORG_HOST in graph_item.get("@context", "")
                             self.format = syntax
-                            if graph_item_type.lower() == "webpage" and in_graph:
-                                self.data = self.data.get("mainEntity")
-                                return
-                            elif graph_item_type.lower() == "recipe":
+                            if graph_item_type.lower() == "recipe":
                                 self.data = graph_item
                                 return
 
@@ -126,6 +120,8 @@ class SchemaOrg:
         return get_minutes(self.data.get("prepTime"), return_zero_on_not_found=True)
 
     def yields(self):
+        if not (self.data.keys() & {"recipeYield", "yield"}):
+            raise SchemaOrgException("Servings information not found in SchemaOrg")
         yield_data = self.data.get("recipeYield") or self.data.get("yield")
         if yield_data and isinstance(yield_data, list):
             yield_data = yield_data[0]

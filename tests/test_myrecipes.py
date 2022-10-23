@@ -1,6 +1,3 @@
-import os
-
-from recipe_scrapers._exceptions import SchemaOrgException
 from recipe_scrapers.myrecipes import MyRecipes
 from tests import ScraperTest
 
@@ -51,13 +48,8 @@ class TestMyRecipesScraper(ScraperTest):
             self.harvester_class.instructions(),
         )
 
-    def test_ratings(self):
-        self.assertEqual(None, self.harvester_class.ratings())
-
     def test_ratings_raises_exception(self):
-        os.environ["RECIPE_SCRAPERS_SETTINGS"] = "recipe_scrapers.settings.default"
-        with self.assertRaises(SchemaOrgException):
-            self.assertEqual(None, self.harvester_class.ratings())
+        self.assertRaises(Exception, self.harvester_class.ratings)
 
 
 # https://www.myrecipes.com/recipe/cacio-e-pepe

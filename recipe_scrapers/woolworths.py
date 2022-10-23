@@ -1,7 +1,7 @@
 # mypy: disallow_untyped_defs=False
 import requests
 
-from ._abstract import AbstractScraper, HEADERS
+from ._abstract import HEADERS, AbstractScraper
 from ._schemaorg import SchemaOrg
 from ._utils import url_path_to_dict
 
@@ -67,9 +67,6 @@ class Woolworths(AbstractScraper):
 
     def instructions(self):
         return self.schema.instructions()
-
-    def ratings(self):
-        return self.schema.ratings()
 
     def author(self):
         return self.schema.author()

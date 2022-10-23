@@ -23,6 +23,10 @@ jobs:
             python-version: "3.11.0-rc.1"
           - os: windows-latest
             python-version: "3.11.0-rc.1"
+        include:
+          - toxenv: py
+          - os: macos-latest
+            toxenv: py-darwin
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3
@@ -30,19 +34,8 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
-      # The system-provided libxml2 on MacOS is typically outdated and this can lead to lxml parsing issues
-      # Using PyPi-provided binary wheels instead resolves this
-      # We are affected by https://bugs.launchpad.net/lxml/+bug/1949271 in test_wild_mode when using system-provided libxml2 on MacOS
-      - name: Install lxml from wheel on MacOS
-        if: ${{ matrix.os == 'macos-latest' }}
-        run: pip install --only-binary=lxml lxml
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements-dev.txt
-      - name: Unittest and Coverage Report
-        run: |
-          python run_tests.py
+      - run: pip install tox
+      - run: tox -e ${{ matrix.toxenv }}
       # Provide code coverage reports on Linux
       - if: ${{ matrix.os == 'ubuntu-latest' }}
         name: coveralls.io
