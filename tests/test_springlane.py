@@ -75,6 +75,3 @@ class TestSpringlaneScraper(ScraperTest):
             + "Restliche L\u00f6ffelbiskuits, Espresso und Creme daraufgeben, mindestens 4 Stunden kaltstellen. Vor dem Servieren mit Kakaopulver best\u00e4uben.",
             self.harvester_class.instructions(),
         )
-
-    def test_ratings(self):
-        self.assertEqual(None, self.harvester_class.ratings())

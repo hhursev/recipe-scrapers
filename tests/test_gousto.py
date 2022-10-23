@@ -1,7 +1,6 @@
 from responses import GET
 
 from recipe_scrapers.gousto import Gousto
-
 from tests import ScraperTest
 
 
@@ -9,9 +8,9 @@ class TestGoustoScraper(ScraperTest):
 
     scraper_class = Gousto
 
-    @property
-    def expected_requests(self):
-        yield GET, "https://www.foodnetwork.com/recipes/tyler-florence/chicken-marsala-recipe-1951778", "tests/test_data/gousto.testhtml"
+    @classmethod
+    def expected_requests(cls):
+        yield GET, "https://gousto.co.uk/cookbook/creamy-pork-tagliatelle", "tests/test_data/gousto.testhtml"
 
     def test_host(self):
         self.assertEqual("gousto.co.uk", self.harvester_class.host())

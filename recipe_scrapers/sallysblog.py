@@ -41,3 +41,7 @@ class SallysBlog(AbstractScraper):
                 for instruction in instructions
             ]
         )
+
+    def image(self):
+        image = self.soup.find("meta", {"property", "og:image"})
+        return image["content"] if image else None

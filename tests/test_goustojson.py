@@ -1,4 +1,5 @@
 from responses import GET
+
 from recipe_scrapers.goustojson import GoustoJson
 from tests import ScraperTest
 
@@ -7,8 +8,8 @@ class TestGoustoScraper(ScraperTest):
 
     scraper_class = GoustoJson
 
-    @property
-    def expected_requests(self):
+    @classmethod
+    def expected_requests(cls):
         yield GET, "https://www.gousto.co.uk/cookbook/recipes/malaysian-style-coconut-meat-free-chicken-pickled-cucumber", "tests/test_data/gousto.testjson"
         yield GET, "https://production-api.gousto.co.uk/cmsreadbroker/v1/recipe/malaysian-style-coconut-meat-free-chicken-pickled-cucumber", "tests/test_data/gousto.testjson"
 

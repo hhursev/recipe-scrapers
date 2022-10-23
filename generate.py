@@ -1,3 +1,5 @@
+# mypy: allow-untyped-defs
+
 # generate generates a new recipe scraper.
 import ast
 import sys

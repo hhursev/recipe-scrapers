@@ -1,11 +1,16 @@
-name: publish
+name: test_publish
 
-on:
-  release:
-    types: [published]
+
+# Will attempt to build + publish package in test.pypi.org
+#
+# the build can be tested if it works as expected by installing the package with:
+# pip install --index-url https://test.pypi.org/simple/ --no-deps recipe-scrapers
+#
+# or by inspecting the files: https://test.pypi.org/project/recipe-scrapers/#files
+on: workflow_dispatch
 
 jobs:
-  publish:
+  test_publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -21,8 +26,10 @@ jobs:
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           user: __token__
-          password: ${{ secrets.PYPI_API_TOKEN }}
+          password: ${{ secrets.TEST_PYPI_API_TOKEN }}
+          repository_url: https://test.pypi.org/legacy/
           verbose: true
+          skip_existing: true
       - name: Check setuptools and build versions used
         run: |
           pip list | grep setuptools
