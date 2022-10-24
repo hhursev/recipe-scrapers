@@ -64,9 +64,10 @@ class SchemaOrg:
                         return
 
                 if self._contains_schematype(item, "WebPage"):
-                    if self._contains_schematype(item.get("mainEntity", {}), "Recipe"):
+                    main_entity = item.get("mainEntity", {})
+                    if self._contains_schematype(main_entity, "Recipe"):
                         self.format = syntax
-                        self.data = item["mainEntity"]
+                        self.data = main_entity
                         return
 
     def language(self):
