@@ -62,6 +62,7 @@ class SchemaOrg:
                             continue
                         if graph_item_type.lower() in low_schema:
                             in_graph = SCHEMA_ORG_HOST in graph_item.get("@context", "")
+                        if in_context and graph_item_type.lower() in low_schema:
                             self.format = syntax
                             if graph_item_type.lower() == "webpage" and in_graph:
                                 self.data = self.data.get("mainEntity")
