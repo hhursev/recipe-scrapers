@@ -1,3 +1,5 @@
+from responses import GET
+
 from recipe_scrapers.goustojson import GoustoJson
 from tests import ScraperTest
 
@@ -5,8 +7,11 @@ from tests import ScraperTest
 class TestGoustoScraper(ScraperTest):
 
     scraper_class = GoustoJson
-    test_file_name = "gousto"
-    test_file_extension = "testjson"
+
+    @classmethod
+    def expected_requests(cls):
+        yield GET, "https://www.gousto.co.uk/cookbook/recipes/malaysian-style-coconut-meat-free-chicken-pickled-cucumber", "tests/test_data/gousto.testjson"
+        yield GET, "https://production-api.gousto.co.uk/cmsreadbroker/v1/recipe/malaysian-style-coconut-meat-free-chicken-pickled-cucumber", "tests/test_data/gousto.testjson"
 
     def test_host(self):
         self.assertEqual("gousto.co.uk", self.harvester_class.host())

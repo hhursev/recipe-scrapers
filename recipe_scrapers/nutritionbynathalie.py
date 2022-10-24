@@ -31,13 +31,12 @@ class NutritionByNathalie(AbstractScraper):
     def ingredients(self):
         ingredients = []
 
-        elements = self.soup.find_all(text=self.ingredientMatch)
+        elements = self.soup.find_all(string=self.ingredientMatch)
         for outerElement in elements:
             title = outerElement.find_parent("p")
             if not title:
                 continue
-            element = title.nextSibling
-            while element:
+            for element in title.next_siblings:
                 ingredient = element.get_text()
                 if len(ingredient) == 0 or ord(ingredient[0]) != BULLET_CHARACTER_ORD:
                     break
@@ -47,7 +46,7 @@ class NutritionByNathalie(AbstractScraper):
         return ingredients
 
     def instructions(self):
-        title = self.soup.find(text="Directions:").find_parent("p")
+        title = self.soup.find(string="Directions:").find_parent("p")
 
         instructions = []
         for child in title.nextSibling.find_all("li"):

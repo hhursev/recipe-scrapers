@@ -191,12 +191,14 @@ Scrapers available for:
 - `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
 - `https://www.kwestiasmaku.com/ <https://www.kwestiasmaku.com/>`_
 - `https://www.latelierderoxane.com <https://www.latelierderoxane.com/blog/recettes/>`_
+- `https://leanandgreenrecipes.net <https://leanandgreenrecipes.net>`_
 - `https://lecremedelacrumb.com/ <https://lecremedelacrumb.com/>`_
 - `https://www.lecker.de <https://www.lecker.de/rezepte>`_
 - `https://lekkerensimpel.com <https://lekkerensimpel.com>`_
 - `https://littlespicejar.com/ <https://littlespicejar.com>`_
 - `http://livelytable.com/ <http://livelytable.com/>`_
 - `https://lovingitvegan.com/ <https://lovingitvegan.com/>`_
+- `https://www.maangchi.com <https://www.maangchi.com>`_
 - `https://madensverden.dk/ <https://madensverden.dk/>`_
 - `https://www.madewithlau.com/ <https://www.madewithlau.com/>`_
 - `https://marleyspoon.com.au/ <https://marleyspoon.com.au/>`_
@@ -228,6 +230,7 @@ Scrapers available for:
 - `https://nutritionbynathalie.com/blog <https://nutritionbynathalie.com/blog>`_
 - `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
 - `https://ohsheglows.com/ <https://ohsheglows.com>`_
+- `https://omnivorescookbook.com <https://omnivorescookbook.com>`_
 - `https://owen-han.com/ <https://owen-han.com>`_
 - `https://101cookbooks.com/ <https://101cookbooks.com/>`_
 - `https://www.paleorunningmomma.com/ <https://www.paleorunningmomma.com>`_
@@ -248,6 +251,7 @@ Scrapers available for:
 - `https://redhousespice.com/ <https://redhousespice.com/>`_
 - `https://reishunger.de/ <https://www.reishunger.de/>`_
 - `https://rezeptwelt.de/ <https://rezeptwelt.de>`_
+- `https://rosannapansino.com <https://rosannapansino.com>`_
 - `https://sallysbakingaddiction.com <https://sallysbakingaddiction.com/>`_
 - `https://sallys-blog.de <https://sallys-blog.de/>`_
 - `https://www.saveur.com/ <https://www.saveur.com/>`_
@@ -338,14 +342,13 @@ Assuming you have ``>=python3.7`` installed, navigate to the directory where you
     python3 -m venv .venv &&
     source .venv/bin/activate &&
     pip install -r requirements-dev.txt &&
-    pre-commit install &&
-    python run_tests.py
+    python -m unittest
 
 In case you want to run a single unittest for a newly developed scraper
 
 .. code:: shell
 
-    python -m coverage run -m unittest tests.test_myscraper
+    python -m unittest tests.test_myscraper
 
 FAQ
 ---

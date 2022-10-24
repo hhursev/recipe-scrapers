@@ -2,25 +2,24 @@
 # IF things in this file continue get messy (I'd say 300+ lines) it may be time to
 # find a package that parses https://schema.org/Recipe properly (or create one ourselves).
 
-from collections import defaultdict
 import json
+from collections import defaultdict
 
-import html5lib
+import htmlement
 
 from ._exceptions import SchemaOrgException
 from ._utils import get_minutes, get_yields, normalize_string
 
+SCHEMA_ORG_HOST = "schema.org"
+
 
 class Extractor:
     def __init__(self, page_data):
-        self.tree = html5lib.parse(page_data)
+        self.tree = htmlement.fromstring(page_data)
 
     @property
     def linked_data(self):
-        for element in self.tree.findall(
-            path=".//script[@type='application/ld+json']",
-            namespaces={"": "http://www.w3.org/1999/xhtml"},
-        ):
+        for element in self.tree.findall(".//script[@type='application/ld+json']"):
             try:
                 yield json.loads(element.text, strict=False)
             except Exception:
@@ -28,16 +27,13 @@ class Extractor:
 
     @property
     def microdata(self):
-        yield from self.tree.findall(
-            path=".//*[@itemscope]",
-            namespaces={"": "http://www.w3.org/1999/xhtml"},
-        )
+        yield from self.tree.findall(path=".//*[@itemscope]")
 
 
 def chunked_text(node):
     if node.text:
         yield node.text
-    if isinstance(node.tag, str) and node.tag.endswith("}br"):
+    if isinstance(node.tag, str) and node.tag == "br":
         yield "\n"
     for child in node:
         prev = None
@@ -57,6 +53,12 @@ def chunked_text(node):
 
 
 class SchemaOrg:
+    @staticmethod
+    def _contains_schematype(item, schematype):
+        itemtype = item.get("@type", "")
+        itemtypes = itemtype if isinstance(itemtype, list) else [itemtype]
+        return schematype.lower() in "\n".join(itemtypes).lower()
+
     def __init__(self, page_data, raw=False):
         if raw:
             self.format = "raw"
@@ -82,10 +84,7 @@ class SchemaOrg:
         microdata = defaultdict(list)
         for element in extractor.microdata:
             if "recipe" in element.attrib["itemtype"].lower():
-                for node in element.findall(
-                    path=".//html:*[@itemprop]",
-                    namespaces={"html": "http://www.w3.org/1999/xhtml"},
-                ):
+                for node in element.findall(".//*[@itemprop]"):
                     name = node.attrib["itemprop"]
                     if "content" in node.attrib:
                         value = node.attrib["content"]
@@ -156,6 +155,8 @@ class SchemaOrg:
         return get_minutes(self.data.get("prepTime"), return_zero_on_not_found=True)
 
     def yields(self):
+        if not (self.data.keys() & {"recipeYield", "yield"}):
+            raise SchemaOrgException("Servings information not found in SchemaOrg")
         yield_data = self.data.get("recipeYield") or self.data.get("yield")
         if yield_data and isinstance(yield_data, list):
             yield_data = yield_data[0]

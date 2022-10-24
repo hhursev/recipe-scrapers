@@ -5,6 +5,7 @@ from tests import ScraperTest
 class TestReishungerScraper(ScraperTest):
 
     scraper_class = Reishunger
+    test_file_name = "reishunger_1"
 
     def test_host(self):
         self.assertEqual("reishunger.de", self.harvester_class.host())
@@ -23,7 +24,7 @@ class TestReishungerScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://www.reishunger.de/upload/123/17835/crispy-tofu-bowl.jpg",
+            "https://cdn.reishunger.com/crispy-tofu-bowl.jpg?quality=85",
             self.harvester_class.image(),
         )
 
@@ -49,9 +50,18 @@ class TestReishungerScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            "Reis nach Anleitung im Digitalen Reiskocher oder Kochtopf kochen.\nGemüse schneiden und ca. 5 min blanchieren.\nDen Tofu in Stücke schneiden und in Mehl Ei und Paniermehl wälzen und kurz von allen Seiten anbraten.\nCashew Kerne in einer Pfanne kurz anrösten.\nDie Sauce erwärmen und den Tofu auf einen Spieß ziehen (optimal).\nAlles schön anrichten und mit den Sprossen toppen. Guten Reishunger! :-)",
+            "\n".join(
+                [
+                    "Reis nach Anleitung im Digitalen Reiskocher oder Kochtopf kochen.",
+                    "Gemüse schneiden und ca. 5 min blanchieren.",
+                    "Den Tofu in Stücke schneiden und in Mehl Ei und Paniermehl wälzen und kurz von allen Seiten anbraten.",
+                    "Cashew Kerne in einer Pfanne kurz anrösten.",
+                    "Die Sauce erwärmen und den Tofu auf einen Spieß ziehen (optimal).",
+                    "Alles schön anrichten und mit den Sprossen toppen. Guten Reishunger! :-)",
+                ]
+            ),
             self.harvester_class.instructions(),
         )
 
     def test_ratings(self):
-        self.assertEqual(4, self.harvester_class.ratings())
+        self.assertEqual(5, self.harvester_class.ratings())

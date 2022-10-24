@@ -24,3 +24,6 @@ class BBCGoodFood(AbstractScraper):
 
     def instructions(self):
         return self.schema.instructions()
+
+    def description(self):
+        return self.schema.description()

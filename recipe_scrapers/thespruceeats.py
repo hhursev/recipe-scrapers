@@ -13,14 +13,14 @@ class TheSpruceEats(AbstractScraper):
 
     def total_time(self):
         return get_minutes(
-            self.soup.find("span", text="Total: ").find_next_sibling(
+            self.soup.find("span", string="Total: ").find_next_sibling(
                 "span", {"class": "meta-text__data"}
             )
         )
 
     def yields(self):
         return (
-            self.soup.find("span", text="Servings: ")
+            self.soup.find("span", string="Servings: ")
             .find_next_sibling("span", {"class": "meta-text__data"})
             .get_text()
         )

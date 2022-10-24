@@ -111,16 +111,12 @@ class AbstractScraper:
 
         # Deprecated: check for a meta http-equiv header
         # See: https://www.w3.org/International/questions/qa-http-and-lang
-        meta_language = (
-            self.soup.find(
-                "meta",
-                {
-                    "http-equiv": lambda x: x and x.lower() == "content-language",
-                    "content": True,
-                },
-            )
-            if settings.META_HTTP_EQUIV
-            else None
+        meta_language = self.soup.find(
+            "meta",
+            {
+                "http-equiv": lambda x: x and x.lower() == "content-language",
+                "content": True,
+            },
         )
         if meta_language:
             language = meta_language.get("content").split(",", 1)[0]
