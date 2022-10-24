@@ -58,20 +58,20 @@ class SchemaOrg:
                     if item_type.lower() == "webpage":
                         self.data = self.data.get("mainEntity")
                     return
-                elif "@graph" in item:
-                    for graph_item in item.get("@graph", ""):
-                        graph_item_type = graph_item.get("@type", "")
-                        if not isinstance(graph_item_type, str):
-                            continue
-                        if graph_item_type.lower() in low_schema:
-                            in_graph = SCHEMA_ORG_HOST in graph_item.get("@context", "")
-                            self.format = syntax
-                            if graph_item_type.lower() == "webpage" and in_graph:
-                                self.data = self.data.get("mainEntity")
-                                return
-                            elif graph_item_type.lower() == "recipe":
-                                self.data = graph_item
-                                return
+
+                for graph_item in item.get("@graph", []):
+                    graph_item_type = graph_item.get("@type", "")
+                    if not isinstance(graph_item_type, str):
+                        continue
+                    if graph_item_type.lower() in low_schema:
+                        in_graph = SCHEMA_ORG_HOST in graph_item.get("@context", "")
+                        self.format = syntax
+                        if graph_item_type.lower() == "webpage" and in_graph:
+                            self.data = self.data.get("mainEntity")
+                            return
+                        elif graph_item_type.lower() == "recipe":
+                            self.data = graph_item
+                            return
 
     def language(self):
         return self.data.get("inLanguage") or self.data.get("language")
