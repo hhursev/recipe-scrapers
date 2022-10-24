@@ -11,7 +11,6 @@ from ._exceptions import SchemaOrgException
 from ._utils import get_minutes, get_yields, normalize_string
 
 SCHEMA_ORG_HOST = "schema.org"
-SCHEMA_NAMES = ["Recipe", "WebPage"]
 
 SYNTAXES = ["json-ld", "microdata"]
 
