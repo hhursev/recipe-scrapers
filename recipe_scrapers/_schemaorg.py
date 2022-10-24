@@ -17,6 +17,13 @@ SYNTAXES = ["json-ld", "microdata"]
 
 
 class SchemaOrg:
+
+    @staticmethod
+    def _contains_schematype(item, schematype):
+        itemtype = item.get("@type", "")
+        itemtypes = itemtype if isinstance(itemtype, list) else [itemtype]
+        return schematype.lower() in "\n".join(itemtypes).lower()
+
     def __init__(self, page_data, raw=False):
         if raw:
             self.format = "raw"
@@ -45,24 +52,19 @@ class SchemaOrg:
                 if SCHEMA_ORG_HOST not in item.get("@context", ""):
                     continue
 
-                def contains_schematype(item, schematype):
-                    itemtype = item.get("@type", "")
-                    itemtypes = itemtype if isinstance(itemtype, list) else [itemtype]
-                    return schematype.lower() in "\n".join(itemtypes).lower()
-
-                if contains_schematype(item, "Recipe"):
+                if self._contains_schematype(item, "Recipe"):
                     self.format = syntax
                     self.data = item
                     return
 
                 for graph_item in item.get("@graph", []):
-                    if contains_schematype(graph_item, "Recipe"):
+                    if self._contains_schematype(graph_item, "Recipe"):
                         self.format = syntax
                         self.data = graph_item
                         return
 
-                if contains_schematype(item, "WebPage"):
-                    if contains_schematype(item.get("mainEntity", {}), "Recipe"):
+                if self._contains_schematype(item, "WebPage"):
+                    if self._contains_schematype(item.get("mainEntity", {}), "Recipe"):
                         self.format = syntax
                         self.data = item["mainEntity"]
                         return
