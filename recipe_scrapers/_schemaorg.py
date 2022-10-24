@@ -50,17 +50,20 @@ class SchemaOrg:
                 if SCHEMA_ORG_HOST not in item.get("@context", ""):
                     continue
 
+                # If the item itself is a recipe, then use it directly as our datasource
                 if self._contains_schematype(item, "Recipe"):
                     self.format = syntax
                     self.data = item
                     return
 
+                # Check for recipe items within the item's entity graph
                 for graph_item in item.get("@graph", []):
                     if self._contains_schematype(graph_item, "Recipe"):
                         self.format = syntax
                         self.data = graph_item
                         return
 
+                # If the item is a webpage and describes a recipe entity, use the entity as our datasource
                 if self._contains_schematype(item, "WebPage"):
                     main_entity = item.get("mainEntity", {})
                     if self._contains_schematype(main_entity, "Recipe"):
