@@ -11,12 +11,17 @@ from ._exceptions import SchemaOrgException
 from ._utils import get_minutes, get_yields, normalize_string
 
 SCHEMA_ORG_HOST = "schema.org"
-SCHEMA_NAMES = ["Recipe", "WebPage"]
 
 SYNTAXES = ["json-ld", "microdata"]
 
 
 class SchemaOrg:
+    @staticmethod
+    def _contains_schematype(item, schematype):
+        itemtype = item.get("@type", "")
+        itemtypes = itemtype if isinstance(itemtype, list) else [itemtype]
+        return schematype.lower() in "\n".join(itemtypes).lower()
+
     def __init__(self, page_data, raw=False):
         if raw:
             self.format = "raw"
@@ -32,7 +37,6 @@ class SchemaOrg:
             uniform=True,
         )
 
-        low_schema = {s.lower() for s in SCHEMA_NAMES}
         for syntax in SYNTAXES:
             # make sure entries of type Recipe are always parsed first
             syntax_data = data.get(syntax, [])
@@ -43,32 +47,29 @@ class SchemaOrg:
                 pass
 
             for item in syntax_data:
-                in_context = SCHEMA_ORG_HOST in item.get("@context", "")
-                item_type = item.get("@type", "")
-                if isinstance(item_type, list):
-                    for type in item_type:
-                        if type.lower() in low_schema:
-                            item_type = type.lower()
-                if in_context and item_type.lower() in low_schema:
+                if SCHEMA_ORG_HOST not in item.get("@context", ""):
+                    continue
+
+                # If the item itself is a recipe, then use it directly as our datasource
+                if self._contains_schematype(item, "Recipe"):
                     self.format = syntax
                     self.data = item
-                    if item_type.lower() == "webpage":
-                        self.data = self.data.get("mainEntity")
                     return
-                elif in_context and "@graph" in item:
-                    for graph_item in item.get("@graph", ""):
-                        graph_item_type = graph_item.get("@type", "")
-                        if not isinstance(graph_item_type, str):
-                            continue
-                        if graph_item_type.lower() in low_schema:
-                            in_graph = SCHEMA_ORG_HOST in graph_item.get("@context", "")
-                            self.format = syntax
-                            if graph_item_type.lower() == "webpage" and in_graph:
-                                self.data = self.data.get("mainEntity")
-                                return
-                            elif graph_item_type.lower() == "recipe":
-                                self.data = graph_item
-                                return
+
+                # Check for recipe items within the item's entity graph
+                for graph_item in item.get("@graph", []):
+                    if self._contains_schematype(graph_item, "Recipe"):
+                        self.format = syntax
+                        self.data = graph_item
+                        return
+
+                # If the item is a webpage and describes a recipe entity, use the entity as our datasource
+                if self._contains_schematype(item, "WebPage"):
+                    main_entity = item.get("mainEntity", {})
+                    if self._contains_schematype(main_entity, "Recipe"):
+                        self.format = syntax
+                        self.data = main_entity
+                        return
 
     def language(self):
         return self.data.get("inLanguage") or self.data.get("language")
