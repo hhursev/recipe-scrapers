@@ -42,8 +42,7 @@ class SchemaOrg:
                 pass
 
             for item in syntax_data:
-                in_context = SCHEMA_ORG_HOST in item.get("@context", "")
-                if not in_context:
+                if SCHEMA_ORG_HOST not in item.get("@context", ""):
                     continue
 
                 def contains_schematype(item, schematype):
