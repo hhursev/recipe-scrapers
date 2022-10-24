@@ -17,7 +17,6 @@ SYNTAXES = ["json-ld", "microdata"]
 
 
 class SchemaOrg:
-
     @staticmethod
     def _contains_schematype(item, schematype):
         itemtype = item.get("@type", "")
