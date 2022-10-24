@@ -32,7 +32,6 @@ class SchemaOrg:
             uniform=True,
         )
 
-        low_schema = {s.lower() for s in SCHEMA_NAMES}
         for syntax in SYNTAXES:
             # make sure entries of type Recipe are always parsed first
             syntax_data = data.get(syntax, [])
@@ -47,31 +46,27 @@ class SchemaOrg:
                 if not in_context:
                     continue
 
-                item_type = item.get("@type", "")
-                if isinstance(item_type, list):
-                    for type in item_type:
-                        if type.lower() in low_schema:
-                            item_type = type.lower()
-                if item_type.lower() in low_schema:
+                def contains_schematype(item, schematype):
+                    itemtype = item.get("@type", "")
+                    itemtypes = itemtype if isinstance(itemtype, list) else [itemtype]
+                    return schematype.lower() in "\n".join(itemtypes).lower()
+
+                if contains_schematype(item, "Recipe"):
                     self.format = syntax
                     self.data = item
-                    if item_type.lower() == "webpage":
-                        self.data = self.data.get("mainEntity")
                     return
 
                 for graph_item in item.get("@graph", []):
-                    graph_item_type = graph_item.get("@type", "")
-                    if not isinstance(graph_item_type, str):
-                        continue
-                    if graph_item_type.lower() in low_schema:
-                        in_graph = SCHEMA_ORG_HOST in graph_item.get("@context", "")
+                    if contains_schematype(graph_item, "Recipe"):
                         self.format = syntax
-                        if graph_item_type.lower() == "webpage" and in_graph:
-                            self.data = self.data.get("mainEntity")
-                            return
-                        elif graph_item_type.lower() == "recipe":
-                            self.data = graph_item
-                            return
+                        self.data = graph_item
+                        return
+
+                if contains_schematype(item, "WebPage"):
+                    if contains_schematype(item.get("mainEntity", {}), "Recipe"):
+                        self.format = syntax
+                        self.data = item["mainEntity"]
+                        return
 
     def language(self):
         return self.data.get("inLanguage") or self.data.get("language")
