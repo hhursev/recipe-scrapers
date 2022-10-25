@@ -10,10 +10,7 @@ class TestWeightwatchersScraper(ScraperTest):
     # https://cmx.weightwatchers.de/details/WWRECIPE:562a9bc8a43e6bde2cf369df
 
     scraper_class = WeightWatchers
-
-    @property
-    def test_file_name(self):
-        return "{}_2".format(self.scraper_class.__name__.lower())
+    test_file_name = "weightwatchers_2"
 
     def test_host(self):
         self.assertEqual("www.weightwatchers.com", self.harvester_class.host())

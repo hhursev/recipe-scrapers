@@ -89,12 +89,20 @@ class WeightWatchers(AbstractScraper):
         tags = ingridient.find("div", {"class": "styles_portion__2NQyq"}).find_all(
             "span"
         )
-
-        return (
-            normalize_string(tags[0].get_text()),
-            normalize_string(tags[1].get_text()),
-            normalize_string(tags[2].get_text().replace(", ", "")) if tags[2] else None,
-        )
+        try:
+            return (
+                normalize_string(tags[0].get_text()),
+                normalize_string(tags[1].get_text()),
+                normalize_string(tags[2].get_text().replace(", ", ""))
+                if tags[2]
+                else None,
+            )
+        except IndexError:
+            return (
+                normalize_string(tags[0].get_text()),
+                normalize_string(tags[1].get_text()),
+                None,
+            )
 
     def __parseIngridient(self, ingridient):
         ingridientName = self._extractIngridientName(ingridient)
