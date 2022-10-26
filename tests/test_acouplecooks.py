@@ -22,6 +22,9 @@ class TestACoupleCooks(ScraperTest):
             "Garlic Butter Shrimp (Fast & Easy Dinner!)", self.harvester_class.title()
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Sonja Overhiser")
+
     def test_total_time(self):
         self.assertEqual(8, self.harvester_class.total_time())
 

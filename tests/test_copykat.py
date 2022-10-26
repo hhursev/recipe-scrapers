@@ -18,6 +18,9 @@ class TestCopyKat(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Make Tender Beef Tips in Gravy")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Stephanie Manley")
+
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())
 

@@ -18,6 +18,9 @@ class TestSimplyWhiskedScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Buffalo Chicken Chili")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Melissa Belanger")
+
     def test_total_time(self):
         self.assertEqual(45, self.harvester_class.total_time())
 

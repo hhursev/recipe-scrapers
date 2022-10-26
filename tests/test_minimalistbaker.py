@@ -21,6 +21,9 @@ class TestMinimalistbakerScraper(ScraperTest):
             "Cashew Ricotta Cheese (Soy-Free, Fast, Easy!)",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Minimalist Baker")
+
     def test_yields(self):
         self.assertEqual("8 servings", self.harvester_class.yields())
 

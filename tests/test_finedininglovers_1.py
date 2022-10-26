@@ -19,6 +19,9 @@ class TestFineDiningLoversScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Zucchini Raw Vegan Lasagna")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Uno Cookbook,")
+
     def test_total_time(self):
         self.assertEqual(50, self.harvester_class.total_time())
 

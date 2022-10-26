@@ -18,6 +18,9 @@ class TestFoodAndWineScraper(ScraperTest):
     def test_title(self):
         self.assertEqual("Kwame’s Pepper Shrimp", self.harvester_class.title())
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Kwame Onwuachi")
+
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())
 

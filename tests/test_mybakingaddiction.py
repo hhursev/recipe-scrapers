@@ -26,6 +26,9 @@ class TestMyBakingAddictionScraper(ScraperTest):
             self.harvester_class.title(), "Chocolate Coconut Zucchini Bread"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Jamie")
+
     def test_ratings(self):
         self.assertEqual(self.harvester_class.ratings(), 4.4)
 

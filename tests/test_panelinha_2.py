@@ -12,6 +12,9 @@ class TestPanelinhaScraper(ScraperTest):
     def test_title(self):
         self.assertEqual("Arroz sírio com frango", self.harvester_class.title())
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Panelinha")
+
     def test_total_time(self):
         self.assertEqual(0, self.harvester_class.total_time())
 

@@ -18,6 +18,9 @@ class TestZenBellyScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Paleo Gingerbread")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Simone Miller")
+
     def test_yields(self):
         self.assertEqual("20 servings", self.harvester_class.yields())
 

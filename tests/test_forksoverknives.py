@@ -2,7 +2,7 @@ from recipe_scrapers.forksoverknives import ForksOverKnives
 from tests import ScraperTest
 
 
-class TestTimesOfIndiaScraper(ScraperTest):
+class TestForksOverKnives(ScraperTest):
 
     scraper_class = ForksOverKnives
 

@@ -24,6 +24,9 @@ class TestNYTimesScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Cacio e Pepe Crackers")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Laurie Ellen Pellicano")
+
     def test_ratings(self):
         self.assertEqual(self.harvester_class.ratings(), 4.0)
 

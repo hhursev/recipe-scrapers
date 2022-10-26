@@ -18,6 +18,9 @@ class TestBBCGoodFoodScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Monster cupcakes")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Good Food team")
+
     def test_total_time(self):
         self.assertEqual(50, self.harvester_class.total_time())
 

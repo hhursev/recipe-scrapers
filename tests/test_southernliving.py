@@ -20,6 +20,9 @@ class TestSouthernLiving(ScraperTest):
             self.harvester_class.title(), "Spicy Sausage-and-Cheddar Kolaches Recipe"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Paige Grandjean")
+
     def test_total_time(self):
         self.assertEqual(180, self.harvester_class.total_time())
 

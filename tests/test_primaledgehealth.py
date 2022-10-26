@@ -20,6 +20,9 @@ class TestPrimalEdgeHealthScraper(ScraperTest):
             self.harvester_class.title(), "No Bake Custard (Keto & Carnivore-Friendly)"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Jessica Haggard")
+
     def test_yields(self):
         self.assertEqual("2 servings", self.harvester_class.yields())
 

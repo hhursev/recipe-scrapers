@@ -1,10 +1,10 @@
-from recipe_scrapers.hassenchef import Hassanchef
+from recipe_scrapers.hassanchef import HassanChef
 from tests import ScraperTest
 
 
-class TestClosetCooking(ScraperTest):
+class TestHassanChef(ScraperTest):
 
-    scraper_class = Hassanchef
+    scraper_class = HassanChef
 
     def test_host(self):
         self.assertEqual("hassanchef.com", self.harvester_class.host())
@@ -17,6 +17,9 @@ class TestClosetCooking(ScraperTest):
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Chicken lollipop recipe")
+
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Mobasir Hassan")
 
     def test_total_time(self):
         self.assertEqual(30, self.harvester_class.total_time())
