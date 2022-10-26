@@ -1,4 +1,5 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
 
 
@@ -9,6 +10,12 @@ class SpendWithPennies(AbstractScraper):
 
     def title(self):
         return self.schema.title()
+
+    def author(self):
+        if type(self.page_data) == bytes and b"Holly Nilsson" in self.page_data:
+            return "Holly Nilsson"
+        if type(self.page_data) == str and "Holly Nilsson" in self.page_data:
+            return "Holly Nilsson"
 
     def total_time(self):
         return self.schema.total_time()
