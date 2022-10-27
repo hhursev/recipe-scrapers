@@ -156,6 +156,7 @@ class AbstractScraper(ABC):
         raise NotImplementedError("This should be implemented.")
 
     def author(self):
+        # question: should we make this a required field (abstractmethod)?
         raise NotImplementedError("This should be implemented.")
 
     def cuisine(self):
