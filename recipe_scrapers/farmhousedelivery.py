@@ -20,6 +20,10 @@ class FarmhouseDelivery(AbstractScraper):
     def title(self):
         return self.soup.find("h1", {"class": "entry-title"}).get_text(strip=True)
 
+    def total_time(self):
+        # TODO: add implementation
+        raise NotImplementedError("This should be implemented.")
+
     def ingredients(self):
         # Style 1
         ingredients_marker = self.soup.find("p", string=re.compile(r"Ingredients:"))

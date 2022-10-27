@@ -18,6 +18,10 @@ class MyKitchen101(AbstractScraper):
     def title(self):
         return self.soup.find("h1", {"class": "entry-title"}).get_text()
 
+    def total_time(self):
+        # TODO: add implementation
+        raise NotImplementedError("This should be implemented.")
+
     def yields(self):
         return get_yields(self.soup.find("p", string=re.compile("分量：")).get_text())
 

@@ -1,6 +1,8 @@
-# mypy: disallow_untyped_defs=False
-import inspect
+# mypy: allow-untyped-defs
+
+from abc import ABC, abstractmethod
 from collections import OrderedDict
+import inspect
 from typing import Dict, List, Optional, Tuple, Union
 from urllib.parse import urljoin
 
@@ -17,7 +19,7 @@ HEADERS = {
 }
 
 
-class AbstractScraper:
+class AbstractScraper(ABC):
     page_data: Union[str, bytes]
 
     def __init__(
@@ -61,6 +63,7 @@ class AbstractScraper:
             setattr(self.__class__, "plugins_initialized", True)
 
     @classmethod
+    @abstractmethod
     def host(cls) -> str:
         """get the host of the url, so we can use the correct scraper"""
         raise NotImplementedError("This should be implemented.")
@@ -71,12 +74,14 @@ class AbstractScraper:
             return urljoin(self.url, canonical_link["href"])
         return self.url
 
+    @abstractmethod
     def title(self):
         raise NotImplementedError("This should be implemented.")
 
     def category(self):
         raise NotImplementedError("This should be implemented.")
 
+    @abstractmethod
     def total_time(self):
         """total time it takes to preparate and cook the recipe in minutes"""
         raise NotImplementedError("This should be implemented.")
@@ -130,9 +135,11 @@ class AbstractScraper:
         # Return the first candidate language
         return candidate_languages.popitem(last=False)[0]
 
+    @abstractmethod
     def ingredients(self):
         raise NotImplementedError("This should be implemented.")
 
+    @abstractmethod
     def instructions(self) -> str:
         """instructions to prepare the recipe"""
         raise NotImplementedError("This should be implemented.")

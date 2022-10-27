@@ -13,6 +13,10 @@ class OwenHan(AbstractScraper):
     def title(self):
         return self.soup.find("h1", {"class": "entry-title"}).text
 
+    def total_time(self):
+        # TODO: add implementation
+        raise NotImplementedError("This should be implemented.")
+
     def image(self):
         return self.schema.image()
 

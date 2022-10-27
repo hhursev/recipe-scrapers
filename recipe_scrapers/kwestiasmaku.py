@@ -16,6 +16,10 @@ class KwestiaSmaku(AbstractScraper):
     def title(self):
         return normalize_string(self.soup.find("div", {"itemprop": "name"}).get_text())
 
+    def total_time(self):
+        # TODO: add implementation
+        raise NotImplementedError("This should be implemented.")
+
     def yields(self):
         return get_yields(
             self.soup.find("div", {"class": "field-name-field-ilosc-porcji"})

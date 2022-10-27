@@ -18,6 +18,10 @@ class Maangchi(AbstractScraper):
     def category(self):
         return self.schema.category()
 
+    def total_time(self):
+        # TODO: add implementation
+        raise NotImplementedError("This should be implemented.")
+
     def yields(self):
         return self.schema.yields()
 

@@ -24,6 +24,10 @@ class FredriksFikaAllas(AbstractScraper):
             .strip()
         )
 
+    def total_time(self):
+        # TODO: add implementation
+        raise NotImplementedError("This should be implemented.")
+
     def image(self):
         return self.schema.image()
 

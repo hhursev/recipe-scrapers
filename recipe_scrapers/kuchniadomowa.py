@@ -10,9 +10,17 @@ class KuchniaDomowa(AbstractScraper):
     def title(self):
         return self.soup.find("h2").get_text().strip()
 
+    def total_time(self):
+        # TODO: add implementation
+        raise NotImplementedError("This should be implemented.")
+
     def image(self):
         urls = self.soup.findAll("img", {"class": "article-img", "id": "article-img-1"})
         return f"https:{urls[1]['src']}"
+
+    def ingredients(self):
+        # TODO: add implementation
+        raise NotImplementedError("This should be implemented.")
 
     def instructions(self):
         instructions = self.soup.find("div", {"id": "recipe-instructions"}).findAll(
