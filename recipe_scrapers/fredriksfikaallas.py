@@ -1,7 +1,9 @@
 # mypy: disallow_untyped_defs=False
+
 import re
 
 from ._abstract import AbstractScraper
+from ._exceptions import RecipeScrapersExceptions
 
 
 class FredriksFikaAllas(AbstractScraper):
@@ -25,8 +27,7 @@ class FredriksFikaAllas(AbstractScraper):
         )
 
     def total_time(self):
-        # TODO: add implementation
-        raise NotImplementedError("This should be implemented.")
+        raise RecipeScrapersExceptions(f"{self.host} does not provide time information.")
 
     def image(self):
         return self.schema.image()

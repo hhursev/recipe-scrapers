@@ -1,6 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
+from ._exceptions import RecipeScrapersExceptions
 from ._utils import normalize_string
 
 
@@ -13,8 +14,7 @@ class RosannaPansino(AbstractScraper):
         return self.soup.find("meta", {"property": "og:title"})["content"]
 
     def total_time(self):
-        # TODO: add implementation
-        raise NotImplementedError("This should be implemented.")
+        raise RecipeScrapersExceptions(f"{self.host} does not provide time information.")
 
     def image(self):
         return self.schema.image()

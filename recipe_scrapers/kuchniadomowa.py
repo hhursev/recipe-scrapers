@@ -1,5 +1,7 @@
 # mypy: disallow_untyped_defs=False
+
 from ._abstract import AbstractScraper
+from ._exceptions import RecipeScrapersExceptions
 
 
 class KuchniaDomowa(AbstractScraper):
@@ -11,8 +13,7 @@ class KuchniaDomowa(AbstractScraper):
         return self.soup.find("h2").get_text().strip()
 
     def total_time(self):
-        # TODO: add implementation
-        raise NotImplementedError("This should be implemented.")
+        return self.schema.total_time()
 
     def image(self):
         urls = self.soup.findAll("img", {"class": "article-img", "id": "article-img-1"})

@@ -1,3 +1,4 @@
+from recipe_scrapers._exceptions import RecipeScrapersExceptions
 from recipe_scrapers.mykitchen101en import MyKitchen101en
 from tests import ScraperTest
 
@@ -14,6 +15,9 @@ class TestMyKitchen101enScraper(ScraperTest):
 
     def test_title(self):
         self.assertEqual("Mini Baked Egg Sponge Cakes", self.harvester_class.title())
+
+    def test_total_time(self):
+        self.assertRaises(RecipeScrapersExceptions, self.harvester_class.total_time)
 
     def test_yields(self):
         self.assertEqual("30 servings", self.harvester_class.yields())

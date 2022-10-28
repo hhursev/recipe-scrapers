@@ -1,4 +1,5 @@
 # mypy: disallow_untyped_defs=False
+
 from ._abstract import AbstractScraper
 
 
@@ -17,8 +18,7 @@ class Coop(AbstractScraper):
         return self.schema.category()
 
     def total_time(self):
-        # TODO: add implementation
-        raise NotImplementedError("This should be implemented.")
+        return self.schema.total_time()
 
     def cook_time(self):
         return self.schema.cook_time()

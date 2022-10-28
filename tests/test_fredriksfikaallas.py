@@ -1,3 +1,4 @@
+from recipe_scrapers._exceptions import RecipeScrapersExceptions
 from recipe_scrapers.fredriksfikaallas import FredriksFikaAllas
 from tests import ScraperTest
 
@@ -14,6 +15,9 @@ class TestFredriksFikaAllasScraper(ScraperTest):
 
     def test_title(self):
         self.assertEqual("Mormors bästa tekakor", self.harvester_class.title())
+
+    def test_total_time(self):
+        self.assertRaises(RecipeScrapersExceptions, self.harvester_class.total_time)
 
     def test_category(self):
         self.assertEqual("Fredriks bröd", self.harvester_class.category())
