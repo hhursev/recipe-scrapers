@@ -1,5 +1,4 @@
 # mypy: disallow_untyped_defs=False
-
 import inspect
 from abc import ABC, abstractmethod
 from collections import OrderedDict

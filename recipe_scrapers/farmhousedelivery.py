@@ -1,5 +1,4 @@
 # mypy: disallow_untyped_defs=False
-
 import re
 
 from bs4 import Tag
