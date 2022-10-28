@@ -24,6 +24,9 @@ class TestInspiralizedScraper(ScraperTest):
             "Brussels Sprouts and Apple Salad with Parmesan",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Ali Maffucci")
+
     def test_total_time(self):
         self.assertEqual(15, self.harvester_class.total_time())
 

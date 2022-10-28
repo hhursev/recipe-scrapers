@@ -1,4 +1,5 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -10,6 +11,9 @@ class CountryLiving(AbstractScraper):
 
     def title(self):
         return self.soup.find("h1", {"class": "content-hed recipe-hed"}).get_text()
+
+    def author(self):
+        return self.soup.find("span", {"rel": "author"}).get_text()
 
     def total_time(self):
         return get_minutes(

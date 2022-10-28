@@ -21,6 +21,9 @@ class TestTastyScraper(ScraperTest):
             "Red Wine-Braised Short Ribs With Cashew Cauliflower Mash Recipe by Tasty",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Crystal Hatch")
+
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())
 

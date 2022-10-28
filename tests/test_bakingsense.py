@@ -20,6 +20,9 @@ class TestBakingSense(ScraperTest):
             self.harvester_class.title(), "Sourdough Bundt Cake with Buttermilk Glaze"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Eileen Gray")
+
     def test_total_time(self):
         self.assertEqual(60, self.harvester_class.total_time())
 

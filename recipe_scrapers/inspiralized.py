@@ -1,4 +1,5 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -10,6 +11,10 @@ class Inspiralized(AbstractScraper):
 
     def title(self):
         return self.soup.find("h2").get_text()
+
+    def author(self):
+        if self.soup.find(string="Ali Maffucci"):
+            return "Ali Maffucci"
 
     def total_time(self):
         return get_minutes(self.soup.find("span", {"itemprop": "totalTime"}))

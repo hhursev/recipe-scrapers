@@ -18,6 +18,9 @@ class TestGeniusKitchenScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Quiche Lorraine Cups")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Bergy")
+
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())
 

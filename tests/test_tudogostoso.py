@@ -18,6 +18,9 @@ class TestTudoGostosoScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Caipirinha - Original")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Daniela Belizario")
+
     def test_total_time(self):
         self.assertEqual(5, self.harvester_class.total_time())
 

@@ -18,6 +18,9 @@ class TestRealSimpleScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Vanilla Cheesecake")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Frank Mentasana")
+
     def test_total_time(self):
         self.assertEqual(540, self.harvester_class.total_time())
 

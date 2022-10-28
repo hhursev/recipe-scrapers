@@ -1,4 +1,5 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -10,6 +11,11 @@ class FineDiningLovers(AbstractScraper):
 
     def title(self):
         return self.soup.find("h1", {"class": "recipe-full-class"}).get_text()
+
+    def author(self):
+        container = self.soup.find("div", {"class": "author-name"})
+        if container:
+            return container.find("a").get_text()
 
     def total_time(self):
         return get_minutes(self.soup.find("div", {"class": "timing"}))

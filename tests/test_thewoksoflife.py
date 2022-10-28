@@ -20,6 +20,9 @@ class TestThewoksoflifeScraper(ScraperTest):
             self.harvester_class.title(), "The Perfect Whole Wheat Mantou Recipe"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Judy")
+
     def test_yields(self):
         self.assertEqual("12 servings", self.harvester_class.yields())
 

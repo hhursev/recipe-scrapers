@@ -18,6 +18,9 @@ class TestKitchnScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Beef & Cheese Manicotti")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Meghan Splawn")
+
     def test_total_time(self):
         self.assertEqual(65, self.harvester_class.total_time())
 

@@ -18,6 +18,9 @@ class TestMotherThymeScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Cinnamon Roll Oatmeal")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Jenn (Mother Thyme)")
+
     def test_total_time(self):
         self.assertEqual(30, self.harvester_class.total_time())
 
