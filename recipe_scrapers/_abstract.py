@@ -1,8 +1,8 @@
 # mypy: disallow_untyped_defs=False
 
+import inspect
 from abc import ABC, abstractmethod
 from collections import OrderedDict
-import inspect
 from typing import Dict, List, Optional, Tuple, Union
 from urllib.parse import urljoin
 

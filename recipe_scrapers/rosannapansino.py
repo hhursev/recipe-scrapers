@@ -14,7 +14,9 @@ class RosannaPansino(AbstractScraper):
         return self.soup.find("meta", {"property": "og:title"})["content"]
 
     def total_time(self):
-        raise RecipeScrapersExceptions(f"{self.host} does not provide time information.")
+        raise RecipeScrapersExceptions(
+            f"{self.host} does not provide time information."
+        )
 
     def image(self):
         return self.schema.image()

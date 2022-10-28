@@ -16,7 +16,9 @@ class DavidLebovitz(AbstractScraper):
         return self.schema.title()
 
     def total_time(self):
-        raise RecipeScrapersExceptions(f"{self.host} does not provide time information.")
+        raise RecipeScrapersExceptions(
+            f"{self.host} does not provide time information."
+        )
 
     def image(self):
         return self.schema.image()

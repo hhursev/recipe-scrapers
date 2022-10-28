@@ -20,7 +20,9 @@ class Maangchi(AbstractScraper):
         return self.schema.category()
 
     def total_time(self):
-        raise RecipeScrapersExceptions(f"{self.host} does not provide time information.")
+        raise RecipeScrapersExceptions(
+            f"{self.host} does not provide time information."
+        )
 
     def yields(self):
         return self.schema.yields()

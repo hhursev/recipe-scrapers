@@ -23,7 +23,9 @@ class FarmhouseDelivery(AbstractScraper):
         return self.soup.find("h1", {"class": "entry-title"}).get_text(strip=True)
 
     def total_time(self):
-        raise RecipeScrapersExceptions(f"{self.host} does not provide time information.")
+        raise RecipeScrapersExceptions(
+            f"{self.host} does not provide time information."
+        )
 
     def ingredients(self):
         # Style 1

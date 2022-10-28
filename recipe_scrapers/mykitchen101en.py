@@ -21,7 +21,9 @@ class MyKitchen101en(AbstractScraper):
         return self.soup.find("h1", {"class": "entry-title"}).get_text()
 
     def total_time(self):
-        raise RecipeScrapersExceptions(f"{self.host} does not provide time information.")
+        raise RecipeScrapersExceptions(
+            f"{self.host} does not provide time information."
+        )
 
     def yields(self):
         return get_yields(self.soup.find("p", string=re.compile("Yields: ")).get_text())

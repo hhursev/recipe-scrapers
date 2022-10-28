@@ -19,7 +19,9 @@ class KwestiaSmaku(AbstractScraper):
         return normalize_string(self.soup.find("div", {"itemprop": "name"}).get_text())
 
     def total_time(self):
-        raise RecipeScrapersExceptions(f"{self.host} does not provide time information.")
+        raise RecipeScrapersExceptions(
+            f"{self.host} does not provide time information."
+        )
 
     def yields(self):
         return get_yields(
