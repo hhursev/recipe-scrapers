@@ -28,7 +28,7 @@ class FredriksFikaAllas(AbstractScraper):
 
     def total_time(self):
         raise RecipeScrapersExceptions(
-            f"{self.host} does not provide time information."
+            f"{self.host()} does not provide time information."
         )
 
     def image(self):
