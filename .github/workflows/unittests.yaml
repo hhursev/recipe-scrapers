@@ -21,13 +21,18 @@ jobs:
           # ... so skip these platforms, and include with experimental flag
           - os: windows-latest
             python-version: "3.11"
+          - os: macos-latest
+            python-version: "3.11"
           # include the problematic platforms with experimental flag set true
-          # that way we can observe them and them failing won't mark the whole workflow as a fail
+          # that way we can observe and them failing won't mark the whole workflow as a fail
         include:
           - os: windows-latest
             python-version: "3.11"
             experimental: true
-          # mark toxenv as py-darwin on macos (check tox.ini)
+          - os: macos-latest
+            python-version: "3.11"
+            experimental: true
+          # set toxenv to py-darwin on macos (check tox.ini)
           - toxenv: py
           - os: macos-latest
             toxenv: py-darwin
