@@ -311,7 +311,7 @@ Scrapers available for:
 - `https://zeit.de/ (wochenmarkt) <https://www.zeit.de/zeit-magazin/wochenmarkt/index>`_
 - `https://zenbelly.com/ <https://zenbelly.com>`_
 
-(*) offline saved files only
+(*) offline saved files only. Page requires login
 
 Contribute
 ----------
