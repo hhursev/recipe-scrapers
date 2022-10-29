@@ -10,6 +10,8 @@ on:
 
 jobs:
   test:
+    runs-on: ${{ matrix.os }}
+    continue-on-error: ${{ matrix.experimental }}
     strategy:
       fail-fast: false
       matrix:
@@ -36,7 +38,6 @@ jobs:
           - toxenv: py
           - os: macos-latest
             toxenv: py-darwin
-    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3
       - name: Set up Python
