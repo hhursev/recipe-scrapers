@@ -20,9 +20,6 @@ class TestCountryLivingScraper(ScraperTest):
             self.harvester_class.title(), "Roasted Mushroom and Bacon Dutch Baby"
         )
 
-    def test_author(self):
-        self.assertEqual(self.harvester_class.author(), "Erika Dugan")
-
     def test_total_time(self):
         self.assertEqual(70, self.harvester_class.total_time())
 

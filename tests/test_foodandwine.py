@@ -21,12 +21,9 @@ class TestFoodAndWineScraper(ScraperTest):
     def test_author(self):
         self.assertEqual(self.harvester_class.author(), "Kwame Onwuachi")
 
-    def test_yields(self):
-        self.assertEqual("4 servings", self.harvester_class.yields())
-
     def test_image(self):
         self.assertEqual(
-            "https://www.foodandwine.com/thmb/HqymMKs4lU2apjkFDz38ud1ZzVU=/1333x1333/smart/filters:no_upscale()/pepper-shrimp-FT-RECIPE0920-9b30018088cc419f88c91fa33564075c.jpg",
+            "https://www.foodandwine.com/thmb/BZ8hhoqmF0B8KlP_pHSEsxjhxnQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/pepper-shrimp-FT-RECIPE0920-9b30018088cc419f88c91fa33564075c.jpg",
             self.harvester_class.image(),
         )
 

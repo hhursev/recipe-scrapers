@@ -11,9 +11,6 @@ class CountryLiving(AbstractScraper):
     def title(self):
         return self.schema.title()
 
-    def author(self):
-        return self.soup.find("span", {"rel": "author"}).get_text()
-
     def total_time(self):
         return self.schema.total_time()
 

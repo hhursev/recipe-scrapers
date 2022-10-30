@@ -19,7 +19,7 @@ class CuisineAZScraper(ScraperTest):
         self.assertEqual(self.harvester_class.title(), "Filet de saumon au four")
 
     def test_author(self):
-        self.assertEqual(self.harvester_class.author(), "CuisineAZ.com")
+        self.assertEqual(self.harvester_class.author(), "Cuisine AZ")
 
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())
