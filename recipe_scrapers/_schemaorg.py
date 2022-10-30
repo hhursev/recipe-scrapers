@@ -3,6 +3,8 @@
 # find a package that parses https://schema.org/Recipe properly (or create one ourselves).
 
 
+from itertools import chain
+
 import extruct
 
 from recipe_scrapers.settings import settings
@@ -159,6 +161,10 @@ class SchemaOrg:
         ingredients = (
             self.data.get("recipeIngredient") or self.data.get("ingredients") or []
         )
+
+        if ingredients and isinstance(ingredients[0], list):
+            ingredients = list(chain(*ingredients))  # flatten
+
         return [
             normalize_string(ingredient) for ingredient in ingredients if ingredient
         ]
@@ -205,6 +211,9 @@ class SchemaOrg:
     def instructions(self):
         instructions = self.data.get("recipeInstructions") or ""
 
+        if instructions and isinstance(instructions[0], list):
+            instructions = list(chain(*instructions))  # flatten
+
         if isinstance(instructions, list):
             instructions_gist = []
             for schema_instruction_item in instructions:
@@ -243,4 +252,6 @@ class SchemaOrg:
         description = self.data.get("description")
         if description is None:
             raise SchemaOrgException("No description data in SchemaOrg.")
+        if description and isinstance(description, list):
+            description = description[0]
         return normalize_string(description)

@@ -27,7 +27,7 @@ class TestClosetCooking(ScraperTest):
         self.assertEqual("5 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 tablespoon oil",
                 "1 pound chicken, boneless and skinless, diced",

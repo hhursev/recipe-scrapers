@@ -1,6 +1,5 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
-from ._utils import get_yields
 
 
 class SeriousEats(AbstractScraper):
@@ -18,11 +17,7 @@ class SeriousEats(AbstractScraper):
         return self.schema.total_time()
 
     def yields(self):
-        recipe_servings = self.soup.find("div", {"class": "recipe-serving"})
-        recipe_yield = self.soup.find("div", {"class": "recipe-yield"})
-        return get_yields(
-            (recipe_servings or recipe_yield).find("span", {"class": "meta-text__data"})
-        )
+        return self.schema.yields()
 
     def ingredients(self):
         return self.schema.ingredients()

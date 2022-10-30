@@ -31,7 +31,7 @@ class TestBBCGoodFoodScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "250g self-raising flour",
                 "25g cocoa powder",

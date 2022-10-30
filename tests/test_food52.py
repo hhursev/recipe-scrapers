@@ -28,7 +28,7 @@ class TestFood52(ScraperTest):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 to 2 1/4 pounds chicken wings",
                 "1 tablespoon kosher salt",

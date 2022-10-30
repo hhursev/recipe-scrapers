@@ -31,7 +31,7 @@ class TestPaleoRunningMommaScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "5 Tbsp ghee (divided)",
                 "1.5 lb top sirloin or tenderloin (thinly sliced into 1/2” x 2” strips)",

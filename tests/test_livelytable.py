@@ -28,7 +28,7 @@ class TestLivelyTableScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 lb raw large shrimp, peeled and deveined",
                 "1/2 tsp chipotle powder",

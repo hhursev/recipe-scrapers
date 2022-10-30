@@ -34,7 +34,7 @@ class TestArchanasKitchenScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "4 tablespoons Extra Virgin Olive Oil",
                 "4 tablespoons Lemon juice",

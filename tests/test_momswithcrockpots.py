@@ -25,7 +25,7 @@ class TestMomsWithCrockPotsScraper(ScraperTest):
         self.assertEqual("6 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "8 ounces macaroni",
                 "2 teaspoons olive oil",

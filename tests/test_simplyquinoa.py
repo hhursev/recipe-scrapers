@@ -16,7 +16,7 @@ class TestSimplyQuinoaScraper(ScraperTest):
         )
 
     def test_title(self):
-        self.assertEqual(self.harvester_class.title(), "The Best Quinoa Flour Pancakes")
+        self.assertEqual(self.harvester_class.title(), "The Best Gluten-Free Pancakes")
 
     def test_total_time(self):
         self.assertEqual(20, self.harvester_class.total_time())
@@ -25,13 +25,13 @@ class TestSimplyQuinoaScraper(ScraperTest):
         self.assertEqual("14 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 cup quinoa flour",
                 "1 cup oat flour",
                 "2 teaspoons baking powder",
-                "1 1/4 cup almond milk (or milk of choice)",
-                "2 large eggs (or flax eggs)",
+                "1 1/4 cup almond milk ((or milk of choice))",
+                "2 large eggs ((or flax eggs))",
                 "2 tablespoons maple syrup",
                 "2 tablespoons oil",
                 "1/3 cup blueberries",
@@ -49,5 +49,4 @@ class TestSimplyQuinoaScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        # Ratings value set to zero
-        self.assertEqual(0.0, self.harvester_class.ratings())
+        self.assertEqual(5.0, self.harvester_class.ratings())

@@ -31,7 +31,7 @@ class TestHalfBakedHarvestScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 pound dry orzo pasta",
                 "3 ounces prosciutto, torn",

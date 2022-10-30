@@ -25,17 +25,17 @@ class TestGoustoScraper(ScraperTest):
         self.assertEqual("2 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
-                "1 onion",
-                "150g chestnut mushrooms",
-                "1 garlic clove",
                 "10g fresh parsley",
-                "30g rennet-free parmesan",
-                "2 British pork loin steaks",
-                "1 pot of double cream (227ml)",
                 "1/2 beef stock cube",
+                "1 pot of double cream (227ml)",
                 "200g linguine",
+                "2 British pork loin steaks",
+                "30g rennet-free parmesan",
+                "1 garlic clove",
+                "150g chestnut mushrooms",
+                "1 onion",
             ],
             self.harvester_class.ingredients(),
         )

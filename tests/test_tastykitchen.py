@@ -31,7 +31,7 @@ class TestTastyKitchenScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 can (28 Ounce) Whole Tomatoes With Juice",
                 "2 cans (10 Ounce) Rotel (diced Tomatoes And Green Chilies)",

@@ -28,7 +28,7 @@ class TestPurelyPopeScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 cups brussel sprouts, stems removed & cut in half",
                 "2 tbsp coconut aminos",

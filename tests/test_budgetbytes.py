@@ -27,7 +27,7 @@ class TestBudgetBytesScraper(ScraperTest):
         self.assertEqual("4 items", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 Tbsp olive oil ($0.24)",
                 "2 cloves garlic ($0.16)",

@@ -122,6 +122,7 @@ Scrapers available for:
 - `https://www.coop.se/ <https://www.coop.se/>`_
 - `https://copykat.com/ <https://copykat.com>`_
 - `https://countryliving.com/ <https://countryliving.com>`_
+- `https://creativecanning.com/ <https://creativecanning.com>`_
 - `https://cucchiaio.it/ <https://cucchiaio.it>`_
 - `https://cuisineaz.com/ <https://cuisineaz.com>`_
 - `https://cybercook.com.br/ <https://cybercook.com.br/>`_
@@ -253,7 +254,6 @@ Scrapers available for:
 - `https://rezeptwelt.de/ <https://rezeptwelt.de>`_
 - `https://rosannapansino.com <https://rosannapansino.com>`_
 - `https://sallysbakingaddiction.com <https://sallysbakingaddiction.com/>`_
-- `https://sallys-blog.de <https://sallys-blog.de/>`_
 - `https://www.saveur.com/ <https://www.saveur.com/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_
 - `https://simple-veganista.com/ <https://simple-veganista.com/>`_

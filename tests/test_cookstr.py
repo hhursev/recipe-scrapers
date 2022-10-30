@@ -25,7 +25,7 @@ class TestCookstrScraper(ScraperTest):
         self.assertRaises(Exception, self.harvester_class.yields)
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 recipe Chocolate Cake Mix",
                 "1/2 cup coffee or water",

@@ -28,7 +28,7 @@ class TestRecipeTinEatsScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1/2 cup / 100g brown sugar, tightly packed",
                 "1 tbsp water",

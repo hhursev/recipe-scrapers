@@ -34,7 +34,7 @@ class TestKingArthurScraper(ScraperTest):
         self.assertEqual(4.80, self.harvester_class.ratings())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 cups (212g) medium rye flour",
                 "1 teaspoon baking soda",
@@ -92,7 +92,7 @@ class TestKingArthurScraperBeautifulBuns(ScraperTest):
         self.assertEqual(4.70, self.harvester_class.ratings())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "3 1/2 cups (420g) King Arthur Unbleached All-Purpose Flour",
                 "3/4 to 1 cup (170g to 227g) water lukewarm*",

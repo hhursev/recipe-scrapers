@@ -16,7 +16,7 @@ class TestPanelinhaScraper(ScraperTest):
         self.assertEqual(0, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("Até 2 porções", self.harvester_class.yields())
+        self.assertEqual("2 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
@@ -25,7 +25,7 @@ class TestPanelinhaScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 bifes de filé de peito de frango (cerca de 240 g)",
                 "⅓ de xícara (chá) de arroz",

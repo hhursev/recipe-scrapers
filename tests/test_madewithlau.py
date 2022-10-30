@@ -43,7 +43,7 @@ class TestMadeWithLauScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "16 oz firm tofu",
                 "3 stalks green onion",

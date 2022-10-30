@@ -31,7 +31,7 @@ class TestKochbarScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "250 g Hühnerbrust, ohne Knochen",
                 "3 mittelgross Knoblauchzehen, frisch",

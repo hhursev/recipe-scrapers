@@ -19,22 +19,22 @@ class TestMelsKitchenCafeScraper(ScraperTest):
         self.assertEqual(self.harvester_class.title(), "Licorice Caramels")
 
     def test_yields(self):
-        self.assertEqual("8 servings", self.harvester_class.yields())
+        self.assertEqual("50 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
-            "https://www.melskitchencafe.com/wp-content/uploads/2013/12/licorice-caramels3-320x320.jpg",
+            "https://www.melskitchencafe.com/wp-content/uploads/2013/12/licorice-caramels3.jpg",
             self.harvester_class.image(),
         )
 
     def test_ingredients(self):
         self.assertEqual(
             [
-                "1/2 cup (4 ounces) water",
-                "2 cups (1 pound) sugar",
-                "1 can (14 ounce) sweetened condensed milk",
-                "1 cup (12 ounces) light corn syrup",
-                "1 1/2 sticks butter",
+                "1/2 cup water",
+                "2 cups sugar",
+                "1 (14-ounce) can sweetened condensed milk",
+                "1 cup light corn syrup",
+                "3/4 cup salted butter",
                 "2 teaspoons anise extract (see note)",
                 "1/2 teaspoon black food coloring paste (optional; see note)",
                 "1/4 teaspoon vanilla extract",

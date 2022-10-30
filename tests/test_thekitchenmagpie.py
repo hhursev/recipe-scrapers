@@ -24,7 +24,7 @@ class TestTheKitchenMagPie(ScraperTest):
         self.assertEqual("8 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "16 ounces of canned salmon (drained)",
                 "1 cup seasoned fine breadcrumbs",

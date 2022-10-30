@@ -22,7 +22,7 @@ class TestCookEatShare(ScraperTest):
         self.assertEqual(None, self.harvester_class.total_time())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 '4 med. potatoes, pared & cut lengthwise, in 1/4" slices',
                 "1 lg. carrot, pared & sliced",

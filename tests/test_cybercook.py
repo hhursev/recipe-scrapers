@@ -31,24 +31,24 @@ class TestCybercook(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
-                "200 gr de molho de tomate",
-                "1 unidade de cebola picada",
-                "2 dentes de alho",
-                "1 lata de creme de leite sem soro",
-                "600 gr de peito de frango sem osso",
-                "2 colheres (sopa) de óleo de soja",
-                "sal a gosto",
-                "pimenta-do-reino branca a gosto",
-                "100 gr de champignon em conserva",
+                "Molho de tomate 200 gramas",
+                "Cebola 1 unidade",
+                "Alho 2 dentes",
+                "Creme de Leite 1 lata",
+                "Peito de Frango 600 gramas",
+                "Óleo de soja 2 colheres (sopa)",
+                "Sal a gosto",
+                "Pimenta-do-Reino Branca a gosto",
+                "Champignon em conserva 100 gramas",
             ],
             self.harvester_class.ingredients(),
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            "Primeiro corte o frango em cubinhos.\nEm uma panela média, coloque o óleo, a cebola e espere dourar.\nDepois coloque o frango o tablete de caldo de galinha e o sal a gosto, aqueça até o ponto de fritura.\nMexa bem e tampe meia panela para que crie água, espere.\nSumir a água e começar a fritura.\nQuando o frango já tiver dourado, acrescente o molho de tomate.\nDepois coloque a lata de creme de leite e mexa até espalhar, com a mesma lata encha de água.\nMexa mais uma vez até misturar e deixe levantar fervura.\nAcrescente o oregano e pronto.\nO strogonoff está pronto para ser servido.",
+            "Primeiro corte o frango em cubinhos.\nEm uma panela média, coloque o óleo, o alho e a cebola e espere dourar.\nDepois coloque o frango e o sal e a pimenta a gosto, aqueça até o ponto de fritura.\nMexa bem e tampe meia panela para que crie água, espere.\nSumir a água e começar a fritura.\nQuando o frango já tiver dourado, acrescente o molho de tomate e o champignon.\nDepois coloque a lata de creme de leite e mexa até espalhar, com a mesma lata encha de água.\nMexa mais uma vez até misturar e deixe levantar fervura.\nO strogonoff está pronto para ser servido.",
             self.harvester_class.instructions(),
         )
 

@@ -28,7 +28,7 @@ class TestHostthetoastScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1/4 cup warm water",
                 "1 tablespoon sugar",

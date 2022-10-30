@@ -169,7 +169,6 @@ from .reishunger import Reishunger
 from .rezeptwelt import Rezeptwelt
 from .rosannapansino import RosannaPansino
 from .sallysbakingaddiction import SallysBakingAddiction
-from .sallysblog import SallysBlog
 from .saveur import Saveur
 from .seriouseats import SeriousEats
 from .simpleveganista import SimpleVeganista
@@ -383,6 +382,7 @@ SCRAPERS = {
     PingoDoce.host(): PingoDoce,
     PopSugar.host(): PopSugar,
     PracticalSelfReliance.host(): PracticalSelfReliance,
+    PracticalSelfReliance.host(domain="creativecanning.com"): PracticalSelfReliance,
     PrimalEdgeHealth.host(): PrimalEdgeHealth,
     Przepisy.host(): Przepisy,
     PurelyPope.host(): PurelyPope,
@@ -398,7 +398,6 @@ SCRAPERS = {
     Rezeptwelt.host(): Rezeptwelt,
     RosannaPansino.host(): RosannaPansino,
     SallysBakingAddiction.host(): SallysBakingAddiction,
-    SallysBlog.host(): SallysBlog,
     Saveur.host(): Saveur,
     SeriousEats.host(): SeriousEats,
     SimpleVeganista.host(): SimpleVeganista,

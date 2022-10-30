@@ -2,7 +2,7 @@ from recipe_scrapers.hassenchef import Hassanchef
 from tests import ScraperTest
 
 
-class TestClosetCooking(ScraperTest):
+class TestHassanchef(ScraperTest):
 
     scraper_class = Hassanchef
 
@@ -25,7 +25,7 @@ class TestClosetCooking(ScraperTest):
         self.assertEqual("2 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "For chicken lollipop dry",
                 "6-8 pieces of chicken wings.",

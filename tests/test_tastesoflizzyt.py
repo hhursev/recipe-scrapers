@@ -25,10 +25,10 @@ class TestTastesOfLizzyTScraper(ScraperTest):
         self.assertEqual("60 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 cup shortening",
-                "1 cup brown sugar packed",
+                "1 cup brown sugar (packed)",
                 "1 cup molasses",
                 "1 cup buttermilk",
                 "5 1/2 cups flour",

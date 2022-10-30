@@ -31,7 +31,7 @@ class TestEpicurious(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 (5.5-ounce) servings fresh or dried ramen noodles",
                 "4 cups torn escarole",

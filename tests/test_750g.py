@@ -25,7 +25,7 @@ class TestG750gScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "500g de carottes",
                 "3 jus d'orange",

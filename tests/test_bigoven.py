@@ -31,7 +31,7 @@ class TestBigOven(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 packet active dry yeast ; (or 2 ¼ teaspoons)",
                 "2 cups warm water ; divided",

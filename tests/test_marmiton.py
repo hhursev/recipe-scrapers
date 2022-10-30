@@ -25,7 +25,7 @@ class TestMarmitonScraper(ScraperTest):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "350 g d'aubergine",
                 "350 g de courgette",

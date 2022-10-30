@@ -31,7 +31,7 @@ class TestMinimalistbakerScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 \u00bc cup raw cashews",
                 "1 Tbsp lemon juice",

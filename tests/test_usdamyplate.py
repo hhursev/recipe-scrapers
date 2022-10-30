@@ -22,7 +22,7 @@ class TestUSDAMyPlateRecipesScraper(ScraperTest):
         self.assertEqual("24 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "3 cups dried figs (chopped, 16 ounces)",
                 "1/2 cup walnuts (chopped)",

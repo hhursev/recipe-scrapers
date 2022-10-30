@@ -38,7 +38,7 @@ class TestWildMode(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 lb cherry or grape tomatoes",
                 "1 tablespoon olive oil",

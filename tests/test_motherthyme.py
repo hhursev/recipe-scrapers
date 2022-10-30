@@ -25,7 +25,7 @@ class TestMotherThymeScraper(ScraperTest):
         self.assertEqual("2 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 3/4 cup milk",
                 "2 tablespoons brown sugar",
@@ -34,11 +34,11 @@ class TestMotherThymeScraper(ScraperTest):
                 "1/4 teaspoon salt",
                 "1 1/2 cups old-fashioned rolled oats",
                 "Topping",
-                "2 tablespoons butter melted",
+                "2 tablespoons butter (melted)",
                 "3 tablespoons packed light brown sugar",
                 "1 1/2 teaspoons cinnamon",
                 "Glaze",
-                "1 ounce cream cheese softened",
+                "1 ounce cream cheese (softened)",
                 "1 tablespoon milk",
                 "1/8 teaspoon vanilla extract",
                 "5 tablespoons confectioners' sugar",

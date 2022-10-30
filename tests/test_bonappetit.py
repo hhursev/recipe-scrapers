@@ -16,9 +16,7 @@ class TestBonAppetitScraper(ScraperTest):
         )
 
     def test_title(self):
-        self.assertEqual(
-            self.harvester_class.title(), "Pork Chops with Celery and Almond Salad"
-        )
+        self.assertEqual(self.harvester_class.title(), "Pork Chops with Celery Salad")
 
     def test_total_time(self):
         self.assertEqual(None, self.harvester_class.total_time())
@@ -28,12 +26,12 @@ class TestBonAppetitScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://assets.bonappetit.com/photos/59e4d7dc3279981dd6c79847/16:9/w_1000,c_limit/pork-chops-with-celery-and-almond-salad.jpg",
+            "https://assets.bonappetit.com/photos/59e4d7dc3279981dd6c79847/5:7/w_1936,h_2710,c_limit/pork-chops-with-celery-and-almond-salad.jpg",
             self.harvester_class.image(),
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "¼ cup dried unsweetened cranberries",
                 "3 tablespoons unseasoned rice vinegar",

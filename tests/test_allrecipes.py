@@ -46,7 +46,7 @@ class TestAllRecipesCuratedScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "¼ cup olive oil",
                 "1 tablespoon minced garlic",
@@ -112,7 +112,7 @@ class TestAllRecipesUserScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 tablespoons white sugar",
                 "1 tablespoon brown sugar",

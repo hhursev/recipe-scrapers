@@ -31,7 +31,7 @@ class TestAbrilScraper(ScraperTest):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "500 gramas de alcatra cortada em tirinhas",
                 "1/4 xícara (chá) de manteiga",

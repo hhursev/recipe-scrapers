@@ -31,7 +31,7 @@ class TestKennyMcGovernScraper(ScraperTest):
         self.assertEqual("1 serving", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "8 tablespoons panko breadcrumbs",
                 "4 tablespoons plain flour",

@@ -31,7 +31,7 @@ class TestMisya(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 di uova",
                 "2 di tuorli",

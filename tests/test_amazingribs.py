@@ -25,7 +25,7 @@ class TestAmazingRibsScraper(ScraperTest):
         self.assertEqual("2 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 teaspoons whole black peppercorns",
                 "2 teaspoons fresh ground black pepper",

@@ -25,7 +25,7 @@ class TestSimplyWhiskedScraper(ScraperTest):
         self.assertEqual("8 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 tablespoons olive oil",
                 "1 small onion, chopped (about 1 cup)",

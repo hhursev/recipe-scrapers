@@ -36,21 +36,23 @@ class TestImWorthyScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        ingredients = [
-            "1/2 cup almond flour",
-            "1 cup oat flour (or all-purpose flour)",
-            "1/2-1 cup non-dairy milk (plus more, if needed)",
-            "2 tsp baking powder",
-            "1/2 tsp cinnamon (optional) (can sub for vanilla extract)",
-            "pinch of salt",
-            "1 tbsp unsweetened apple sauce or maple syrup (optional)",
-            "1 tsp grapeseed oil (for cooking. Add more, if needed. can sub for coconut or avocado oil)",
-        ]
-        self.assertEqual(ingredients, self.harvester_class.ingredients())
+        self.assertEqual(
+            [
+                "1/2 cup almond flour",
+                "1 cup *oat flour (or use all-purpose flour)",
+                "1/2-1 cup non-dairy milk (plus more, if needed)",
+                "2 tsp baking powder",
+                "1/2 tsp cinnamon (optional) (can sub for vanilla extract)",
+                "pinch of salt",
+                "1 tbsp unsweetened apple sauce or maple syrup (optional)",
+                "1 tsp grapeseed oil (for cooking. Add more, if needed. Can sub for coconut or avocado oil)",
+            ],
+            self.harvester_class.ingredients(),
+        )
 
     def test_instructions(self):
         self.assertEqual(
-            "In separate bowls: mix the wet & dry ingredients.\nAdd the wet ingredients to the dry ingredients and stir until combined. Let the pancake batter rest for 5 minutes to thicken while you heat the pan according the next steps below.\nAdd the oil to a nonstick pan over medium heat. Once the pan is hot pour the batter into the pan using a 1/4 measuring cup (for easy clean up). Cook on each side for about 2-5 minutes (depends on your pan) or until you see little bubbles form on top, then flip and let them cook for another couple of minutes.\nServe with your favorite toppings. Some suggestions include maple syrup, coconut whip cream, fresh berries, or vegan butter.",
+            "In separate bowls: mix the wet & dry ingredients.\nAdd the wet ingredients to the dry ingredients and stir until combined. Start with 1/2 cup milk and add more until the batter is slightly lumpy & creamy. (It should not be runny. If runny, add more oat/all-purpose flour. If too thick, add more non-dairy milk.)\nLet the pancake batter rest for 5 minutes to thicken while you heat the pan according to the next steps below.\nAdd the oil to a nonstick pan over medium heat. Once the pan is hot pour the batter into the pan using a 1/4 measuring cup (for easy clean up).\nCook on each side for about 2-5 minutes (depends on your pan) or until you see little bubbles form on top, then flip and let them cook for another couple of minutes.\nServe with your favorite toppings. Some suggestions include maple syrup, coconut whip cream, fresh berries, or vegan butter.",
             self.harvester_class.instructions(),
         )
 

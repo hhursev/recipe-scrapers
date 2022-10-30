@@ -30,7 +30,7 @@ class TestThewoksoflifeScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 \u2154 cups warm milk ((400 ml))",
                 "1 teaspoon active dry yeast ((3 grams))",

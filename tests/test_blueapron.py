@@ -34,7 +34,7 @@ class TestBlueApronScraper(ScraperTest):
         self.assertEqual(30, self.harvester_class.total_time())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 Pasture-Raised Eggs",
                 "1 15.5 -Ounce Can Chickpeas",
