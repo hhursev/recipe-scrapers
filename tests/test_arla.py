@@ -28,7 +28,7 @@ class TestArlaScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://cdn-rdb.arla.com/Files/arla-se/235235459/f96b874a-5b9c-4936-b3e2-5071e76136c0.jpg?mode=crop&w=1200&h=630&scale=both&format=jpg&quality=80&ak=f525e733&hm=35af1404",
+            "https://cdn-rdb.arla.com/Files/arla-se/235235459/f96b874a-5b9c-4936-b3e2-5071e76136c0.jpg?mode=crop&w=1300&h=525&ak=f525e733&hm=1de43e21",
             self.harvester_class.image(),
         )
 
@@ -41,7 +41,7 @@ class TestArlaScraper(ScraperTest):
                 "8 skivor surdegsbröd",
                 "50 g Arla® Svenskt Smör, smält",
                 "2 saltgurkor",
-                "½ gul paprika",
+                "½ grön paprika",
                 "1 schalottenlök",
                 "1 dl majonnäs",
                 "1 msk chilisås",
@@ -54,14 +54,7 @@ class TestArlaScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            "Dressing:\nBörja med dressingen. Finhacka paprika och lök. Blanda med övr"
-            "iga ingredienser och ställ åt sidan.\nSkär köttet i tunna skivor. Låt sur"
-            "kålen rinna av ordentligt och blanda med osten.\nPensla bröden med smör p"
-            "å båda sidor. Lägg surkål och ost på hälften av bröden. Lägg på köttet. K"
-            "licka dressingen över köttet och lägg på resterande bröd.\nGrilla på båda"
-            " sidor i en het grillpanna eller smörgåsgrill.\nDela grillspett på mitten"
-            " och trä genom mackorna. Skär saltgurkorna på längden och fäst på grillsp"
-            "etten.",
+            "Dressing:\nBörja med dressingen. Finhacka paprika och lök. Blanda med övriga ingredienser och ställ åt sidan.\nSista instruktionen\nSkär köttet i tunna skivor. Låt surkålen rinna av ordentligt och blanda med osten.\nPensla bröden med smör på båda sidor. Lägg surkål och ost på hälften av bröden. Lägg på köttet. Klicka dressingen över köttet och lägg på resterande bröd.\nGrilla på båda sidor i en het grillpanna eller smörgåsgrill.\nDela grillspett på mitten och trä genom mackorna. Skär saltgurkorna på längden och fäst på grillspetten.",
             self.harvester_class.instructions(),
         )
 

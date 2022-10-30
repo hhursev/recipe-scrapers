@@ -37,7 +37,7 @@ class TestKuchniaDomowaScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "600 g świeżych ogórków gruntowych (lub długich, szklarniowych)*",
                 "300 g gęstej, kwaśnej śmietany 18% lub jogurtu typu greckiego",

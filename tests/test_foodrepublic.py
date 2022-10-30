@@ -25,7 +25,7 @@ class TestFoodRepublicScraper(ScraperTest):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "12 spears Dutch white asparagus",
                 "1/2 each Meyer lemon, orange and grapefruit",

@@ -31,7 +31,7 @@ class TestNourishedByNutritionScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 cups shredded cooked chicken breast",
                 "2 cups salsa verde, divided",

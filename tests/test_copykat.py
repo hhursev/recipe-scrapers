@@ -16,7 +16,9 @@ class TestCopyKat(ScraperTest):
         )
 
     def test_title(self):
-        self.assertEqual(self.harvester_class.title(), "Make Tender Beef Tips in Gravy")
+        self.assertEqual(
+            self.harvester_class.title(), "Make Tender Beef Tips and Gravy"
+        )
 
     def test_author(self):
         self.assertEqual(self.harvester_class.author(), "Stephanie Manley")
@@ -29,12 +31,12 @@ class TestCopyKat(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://copykat.com/wp-content/uploads/2016/05/Beef-Tips-in-the-Instant-Pot-2-1.jpg",
+            "https://copykat.com/wp-content/uploads/2020/11/Beef-Tips-and-Gravy-Pin2.jpg",
             self.harvester_class.image(),
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 cup flour",
                 "1 teaspoon salt",
@@ -44,14 +46,14 @@ class TestCopyKat(ScraperTest):
                 "1 tablespoon vegetable oil",
                 "2 teaspoons gravy master",
                 "1 cup onions (chopped)",
-                "16 ounces noodles",
+                "16 ounces noodles (or rice for serving)",
             ],
             self.harvester_class.ingredients(),
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            "In a small bowl add flour, salt, and pepper. Stir the salt and pepper into the flour. Cut and trim roast into small bite-sized pieces. Dredge beef pieces in seasoned flour shake off excess flour.\nSet the Instant Pot to saute, add oil. When the oil has heated drop in several pieces of the beef. Cook seasoned beef on all sides until lightly browned. Cook beef in small batches. When all of the beef is cooked add it back to the Instant Pot.\nAdd 1 cup of onion, two teaspoons of Gravy Master, and beef stock. Place lid on high and cook for 15 minutes on high pressure. Release pot after cooking with either a quick release or a natural release.\nSlow cooker directions\nPlease use the same ingredients as listed below. For this recipe season your flour as mentioned in the recipe, then brown the meat in a large skillet in small batches with some vegetable oil. Add the beef broth you will simmer for 4 to 6 hours on low. If the liquid hasn't thickened up to your desire, you can thicken it up by mixing 1 tablespoon of butter and one tablespoon of flour that has been mixed together. Stir this in to the beef broth, and it will thicken up the liquid in the slow cooker.",
+            "In a small bowl add flour, salt, and pepper. Stir the salt and pepper into the flour. Cut and trim roast into small bite-sized pieces. Dredge beef pieces in seasoned flour shake off excess flour.\nInstant Pot Directions\nSet the Instant Pot to saute, add oil. When the oil has heated drop in several pieces of the beef. Cook seasoned beef on all sides until lightly browned. Cook beef in small batches. When all of the beef is cooked add it back to the Instant Pot.\nAdd 1 cup of onion, two teaspoons of Gravy Master, and beef stock. Place lid on high and cook for 15 minutes on high pressure. Release pot after cooking with either a quick release or a natural release.\nSlow Cooker Directions\nBrown the beef in a large skillet in small batches with some vegetable oil. Add the browned beef, beef broth, onion, and Gravy Master to the slow cooker. Cook for 4 to 6 hours on low.\nIf the liquid hasn't thickened up to your desired consistency, you can thicken it up by mixing 1 tablespoon of butter and one tablespoon of flour together. Stir this into the liquid and it will thicken up the gravy in the slow cooker.\nServing\nPrepare noodles or rice according to package instructions.\nServe beef tips and gravy over noodles or rice.",
             self.harvester_class.instructions(),
         )
 
@@ -60,6 +62,6 @@ class TestCopyKat(ScraperTest):
 
     def test_description(self):
         self.assertEqual(
-            "You can make amazingly tender beef tips in gravy.",
+            "You can make amazingly tender beef tips and gravy in an Instant Pot or slow cooker.",
             self.harvester_class.description(),
         )

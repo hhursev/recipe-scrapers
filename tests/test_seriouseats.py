@@ -5,7 +5,6 @@ from tests import ScraperTest
 class TestSeriousEats(ScraperTest):
 
     scraper_class = SeriousEats
-    test_file_name = "seriouseats_1"
 
     def test_host(self):
         self.assertEqual("seriouseats.com", self.harvester_class.host())
@@ -25,20 +24,19 @@ class TestSeriousEats(ScraperTest):
         )
 
     def test_total_time(self):
-        self.assertEqual(150, self.harvester_class.total_time())
+        self.assertEqual(200, self.harvester_class.total_time())
 
     def test_yields(self):
         self.assertEqual("20 servings", self.harvester_class.yields())
 
     def test_image(self):
-        # image has hash keys in it so the full url isn't consistent
-        # i.e. https://www.seriouseats.com/thmb/gnvQg8_1sB7B1moyDaadHT3pQJo=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__07__20150727-horseradish-vicky-wasik-14-2819caaee55a40cfab06ef8cd257094d.jpg
-        self.assertTrue(
-            "decorative-pie-crust-vicky-wasik" in self.harvester_class.image()
+        self.assertEqual(
+            "https://www.seriouseats.com/thmb/lDOD3TgZPxywf6S8Ca8N00raHvo=/1125x1125/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__09__20160712-blind-bake-pie-crust-vicky-wasik-10-306bb1237a62413fa754cac8e53db637.jpg",
+            self.harvester_class.image(),
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "8 ounces low-protein all-purpose flour, such as Gold Medal Blue Label (1 2/3 cups; 225g), plus more for dusting",
                 "1/2 ounce sugar (1 tablespoon; 15g)",

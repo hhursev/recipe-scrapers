@@ -28,7 +28,7 @@ class TestBakingMischeifScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 boneless 2-3 pound chuck roast ( trimmed and cut into fist-size chunks)",
                 "Salt and pepper",

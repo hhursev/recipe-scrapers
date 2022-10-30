@@ -30,16 +30,16 @@ class TestEatSmarter(ScraperTest):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
-                "2 tablespoons Sliced almonds",
+                "2 Tbsps slivered almonds",
                 "2 stalks Celery",
-                "2 ounces green Olives (pitted)",
+                "2 ozs green Olives (pitted)",
                 "3 Oranges",
                 "1 pink Grapefruit",
-                "1 Belgian endive",
+                "1 Endive",
                 "1 Avocado",
-                "2 tablespoons Olive oil",
+                "2 Tbsps olive oil",
             ],
             self.harvester_class.ingredients(),
         )

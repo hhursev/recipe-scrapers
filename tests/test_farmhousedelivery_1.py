@@ -12,7 +12,7 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://recipes.farmhousedelivery.com/green-shakshuka/",
+            "http://recipes.farmhousedelivery.com/green-shakshuka/",
             self.harvester_class.canonical_url(),
         )
 
@@ -48,6 +48,6 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "http://recipes.farmhousedelivery.com/wp-content/uploads/2020/04/no-blob_clean-handle-1024x683.jpg",
+            "http://recipesfhd.wpengine.com/wp-content/uploads/2020/04/no-blob_clean-handle-1024x683.jpg",
             self.harvester_class.image(),
         )

@@ -38,7 +38,7 @@ class TestAmbitiousKitchenScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "For the noodles:",
                 "10 lasagna noodles",

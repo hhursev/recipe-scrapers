@@ -5,7 +5,6 @@ from tests import ScraperTest
 class TestTheSpruceEatsScraper(ScraperTest):
 
     scraper_class = TheSpruceEats
-    test_file_name = "thespruceeats_1"
 
     def test_host(self):
         self.assertEqual("thespruceeats.com", self.harvester_class.host())
@@ -27,28 +26,30 @@ class TestTheSpruceEatsScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://www.thespruceeats.com/thmb/64k5P_k2qFJCa0tjuXIrZ4yDlU8=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/aqIMG_1498fsq-5b343910c9e77c001a218bd0.jpg",
+            "https://www.thespruceeats.com/thmb/cvoXe0xiaLRO4FO8T8OTXWSw5K0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/aqIMG_1498fsq-5b343910c9e77c001a218bd0.jpg",
             self.harvester_class.image(),
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
+                "For the Kebab:",
                 "1 pound ground lamb (or 1/2 pound each of ground lamb and ground beef)",
-                "1 large egg",
-                "4 clove garlic, peeled and finely minced",
+                "1 egg",
+                "4 cloves garlic (peeled and finely minced)",
                 "1 teaspoon ground cumin",
                 "1 teaspoon ground coriander",
                 "1 teaspoon smoked paprika",
                 "1 teaspoon dried oregano",
-                "1/2 teaspoon kosher salt",
+                "1/2 teaspoon salt",
                 "1/4 teaspoon ground black pepper",
-                "1 tablespoon oil, more for the pan",
-                "4 large pita, naan, or flatbread",
-                "1 cup assorted lettuce leaves",
-                "1 large tomato, sliced",
-                "1/2 medium English cucumber, sliced",
-                "1/4 large red onion, peeled and sliced",
+                "1 tablespoon oil (for the skillet, plus extra for the pan)",
+                "For the Sandwich:",
+                "4 rounds of pita (or naan or flatbread)",
+                "1 cup assorted lettuce",
+                "1 large tomato (sliced)",
+                "1/2 seedless English cucumber (sliced)",
+                "1/4 large red onion (peeled and sliced)",
                 "Tzatziki sauce or tahini sauce",
             ],
             self.harvester_class.ingredients(),

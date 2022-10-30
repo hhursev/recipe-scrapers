@@ -34,7 +34,7 @@ class TestGimmeSomeOvenScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 bottles Spanish red wine (Rioja wine is most popular)",
                 "1/2 cup brandy",

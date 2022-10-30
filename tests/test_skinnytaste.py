@@ -34,7 +34,7 @@ class TestSkinnyTasteScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "24 oz 3 large chicken breasts sliced in half lengthwise to make 6",
                 "kosher salt and pepper to taste",

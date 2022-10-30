@@ -11,7 +11,7 @@ class TestMadensVerdenScraper(ScraperTest):
 
     def test_title(self):
         self.assertEqual(
-            "Rabarbertrifli - nem trifli med rabarber og makron",
+            "Rabarbertrifli",
             self.harvester_class.title(),
         )
 
@@ -64,18 +64,12 @@ class TestMadensVerdenScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            """Start med at lave rabarberkompot. Rabarber snittes i tynde skiver, som koges i en kasserolle sammen med sukker og vaniljesukker. Kogetiden er cirka 10 minutter, og du skal ikke tilsætte vand, da rabarberne kaster rigeligt med væske af sig. Lad kompotten køle af.
-Cremen laves ved at piske æggeblommer sammen med sukker og majsstivelse i en kasserolle. Koges op med sødmælken indtil den har den rette konsistens, og du skal piske i den undervejs så cremen ikke brænder på. Lad den køle lidt af.
-Fløden piskes til en let flødeskum.
-Anret nu trifli med rabarber i portionsglas.
-Først med et lag creme nederst, så knuste makroner og ovenpå det den lækre rabarberkompot.
-Slut af med flødeskum og pynt med mandelflager.
-Stil rabarbertriflierne i køleskabet, og lad dem trække i mindst en time før servering.""",
+            "Start med at lave rabarberkompot. Rabarber snittes i tynde skiver, som koges i en kasserolle sammen med sukker og vaniljesukker. Kogetiden er cirka 10 minutter, og du skal ikke tilsætte vand, da rabarberne kaster rigeligt med væske af sig. Lad kompotten køle af.\nCremen laves ved at piske æggeblommer sammen med sukker og majsstivelse i en kasserolle. Koges op med sødmælken indtil den har den rette konsistens, og du skal piske i den undervejs så cremen ikke brænder på. Lad den køle lidt af.\nFløden piskes til en let flødeskum.\nAnret nu trifli med rabarber i portionsglas.\nFørst med et lag creme nederst, så knuste makroner og ovenpå det den lækre rabarberkompot.\nSlut af med flødeskum og pynt med mandelflager.\nStil rabarbertriflierne i køleskabet, og lad dem trække i mindst en time før servering.",
             self.harvester_class.instructions(),
         )
 
     def test_ratings(self):
-        self.assertEqual(4.69, self.harvester_class.ratings())
+        self.assertEqual(4.77, self.harvester_class.ratings())
 
     def test_author(self):
         self.assertEqual("Holger Rørby Madsen", self.harvester_class.author())
@@ -85,7 +79,7 @@ Stil rabarbertriflierne i køleskabet, og lad dem trække i mindst en time før 
 
     def test_description(self):
         self.assertEqual(
-            "Rabarbertrifli er en populær dessert, der også laves med knuste makroner og letpisket flødeskum. Den lækre trifli med rabarber kan laves god tid i forvejen.",
+            "Rabarbertrifli er en populær dessert, der laves med knuste makroner og flødeskum. Den lækre trifli med rabarber kan laves god tid i forvejen.",
             self.harvester_class.description(),
         )
 

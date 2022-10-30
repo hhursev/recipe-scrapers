@@ -66,7 +66,7 @@ class TestNIHHealthyEatingRecipesScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "Cooking spray",
                 "4 tilapia fillets",

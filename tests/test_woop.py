@@ -21,7 +21,7 @@ class TestWoopScraper(ScraperTest):
         self.assertEqual("2 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 pack of beef sirloin",
                 "1 pack of steamed brown rice",

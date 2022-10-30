@@ -40,7 +40,7 @@ class TestOhSheGlowsScraper(ScraperTest):
         self.assertEqual("8 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 batch Flourless Peanut Butter Cookies, divided",
                 "2 (14-ounce/398 mL) cans full-fat coconut milk*",

@@ -36,7 +36,7 @@ class TestWatchWhatUEatScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 large cauliflower head",
                 "3-4 garlic cloves finely chopped",

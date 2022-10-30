@@ -29,7 +29,7 @@ class TestSimplyRecipesScraper(ScraperTest):
         self.assertEqual("8 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 bone-in chicken breasts, skin removed (1 to 1 1/2 pounds)",
                 "1 cup long-grain white rice, like basmati",

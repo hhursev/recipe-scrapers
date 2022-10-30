@@ -31,7 +31,7 @@ class TestThePioneerWomanScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 stick butter",
                 "1 whole large onion, halved and sliced",
