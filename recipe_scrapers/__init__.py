@@ -172,6 +172,7 @@ from .sallysbakingaddiction import SallysBakingAddiction
 from .saveur import Saveur
 from .seriouseats import SeriousEats
 from .simpleveganista import SimpleVeganista
+from .simplycookit import SimplyCookit
 from .simplyquinoa import SimplyQuinoa
 from .simplyrecipes import SimplyRecipes
 from .simplywhisked import SimplyWhisked
@@ -402,6 +403,7 @@ SCRAPERS = {
     Saveur.host(): Saveur,
     SeriousEats.host(): SeriousEats,
     SimpleVeganista.host(): SimpleVeganista,
+    SimplyCookit.host(): SimplyCookit,
     SimplyQuinoa.host(): SimplyQuinoa,
     SimplyRecipes.host(): SimplyRecipes,
     SimplyWhisked.host(): SimplyWhisked,
