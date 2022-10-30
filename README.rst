@@ -260,6 +260,7 @@ Scrapers available for:
 - `https://simplyquinoa.com/ <https://simplyquinoa.com>`_
 - `https://simplyrecipes.com/ <https://simplyrecipes.co>`_
 - `https://simplywhisked.com/ <https://simplywhisked.com>`_
+- `https://simply-cookit.com/ <https://simply-cookit.com>`_
 - `https://skinnytaste.com/ <https://www.skinnytaste.com>`_
 - `https://southernliving.com/ <https://southernliving.com/>`_
 - `https://spendwithpennies.com/ <https://spendwithpennies.com/>`_
