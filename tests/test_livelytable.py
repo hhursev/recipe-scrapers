@@ -18,6 +18,9 @@ class TestLivelyTableScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Easy Chipotle Shrimp Tacos")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Kaleigh")
+
     def test_yields(self):
         self.assertEqual("6 servings", self.harvester_class.yields())
 
@@ -28,7 +31,7 @@ class TestLivelyTableScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 lb raw large shrimp, peeled and deveined",
                 "1/2 tsp chipotle powder",

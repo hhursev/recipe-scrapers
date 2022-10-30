@@ -1,4 +1,5 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
 from ._utils import get_yields, normalize_string
 
@@ -10,6 +11,13 @@ class IG(AbstractScraper):
 
     def title(self):
         return self.soup.find("h2", {"itemprop": "name"}).get_text()
+
+    def author(self):
+        nav = self.soup.find("nav", {"class": "nav-mais-receitas"})
+        if nav:
+            first = nav.find("li", {"class": "first"})
+            if first:
+                return first.find("a").get_text()
 
     def total_time(self):
         container = self.soup.find("div", {"class": "box-info-preparacao"})

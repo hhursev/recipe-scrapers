@@ -69,3 +69,44 @@ class USDAMyPlate(AbstractScraper):
         instructions = div.find("div", {"class", "field__item"})
 
         return "\n".join(instructions.stripped_strings)
+
+    def nutrients(self):
+        nutrition = {}
+
+        table = self.soup.find(
+            "form", {"class": "mp-recipe-full__nutrition-form"}
+        ).find("table")
+        rows = table.find_all("tr")
+
+        elements = []
+        for row in rows:
+            cols = row.find_all("td")
+            cols = [ele.text.strip() for ele in cols]
+            elements.append([ele for ele in cols if ele])
+
+        for el in elements:
+            if len(el) > 1:
+                nutrition[el[0]] = el[1]
+
+        return nutrition
+
+    def serving_size(self):
+        return normalize_string(
+            self.soup.find("div", {"class": "field--name-field-recipe-serving-size"})
+            .find("span", {"class": "field__item"})
+            .get_text()
+        )
+
+    def description(self):
+        return normalize_string(
+            self.soup.find("div", {"class": "mp-recipe-full__description"})
+            .find("p")
+            .get_text()
+        )
+
+    def recipe_source(self):
+        return normalize_string(
+            self.soup.find("span", {"class": "field--name-field-source"})
+            .find("p")
+            .get_text()
+        )

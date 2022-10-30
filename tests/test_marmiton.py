@@ -18,6 +18,9 @@ class TestMarmitonScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Ratatouille")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Mirabelle")
+
     def test_total_time(self):
         self.assertEqual(80, self.harvester_class.total_time())
 
@@ -25,7 +28,7 @@ class TestMarmitonScraper(ScraperTest):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "350 g d'aubergine",
                 "350 g de courgette",

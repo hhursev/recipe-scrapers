@@ -34,7 +34,7 @@ class TestJoyfoodsunshineScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "▢ 1 cup warm water 105-110 degrees F",
                 "▢ 1 TBS sugar",

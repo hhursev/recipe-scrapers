@@ -18,6 +18,9 @@ class TestTastesOfLizzyTScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Soft Gingerbread Cookies")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Lizzy T")
+
     def test_total_time(self):
         self.assertEqual(27, self.harvester_class.total_time())
 
@@ -25,10 +28,10 @@ class TestTastesOfLizzyTScraper(ScraperTest):
         self.assertEqual("60 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 cup shortening",
-                "1 cup brown sugar packed",
+                "1 cup brown sugar (packed)",
                 "1 cup molasses",
                 "1 cup buttermilk",
                 "5 1/2 cups flour",

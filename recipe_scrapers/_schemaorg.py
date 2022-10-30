@@ -3,6 +3,8 @@
 # find a package that parses https://schema.org/Recipe properly (or create one ourselves).
 
 
+from itertools import chain
+
 import extruct
 
 from recipe_scrapers.settings import settings
@@ -11,12 +13,17 @@ from ._exceptions import SchemaOrgException
 from ._utils import get_minutes, get_yields, normalize_string
 
 SCHEMA_ORG_HOST = "schema.org"
-SCHEMA_NAMES = ["Recipe", "WebPage"]
 
 SYNTAXES = ["json-ld", "microdata"]
 
 
 class SchemaOrg:
+    @staticmethod
+    def _contains_schematype(item, schematype):
+        itemtype = item.get("@type", "")
+        itemtypes = itemtype if isinstance(itemtype, list) else [itemtype]
+        return schematype.lower() in "\n".join(itemtypes).lower()
+
     def __init__(self, page_data, raw=False):
         if raw:
             self.format = "raw"
@@ -32,7 +39,6 @@ class SchemaOrg:
             uniform=True,
         )
 
-        low_schema = {s.lower() for s in SCHEMA_NAMES}
         for syntax in SYNTAXES:
             # make sure entries of type Recipe are always parsed first
             syntax_data = data.get(syntax, [])
@@ -43,32 +49,29 @@ class SchemaOrg:
                 pass
 
             for item in syntax_data:
-                in_context = SCHEMA_ORG_HOST in item.get("@context", "")
-                item_type = item.get("@type", "")
-                if isinstance(item_type, list):
-                    for type in item_type:
-                        if type.lower() in low_schema:
-                            item_type = type.lower()
-                if in_context and item_type.lower() in low_schema:
+                if SCHEMA_ORG_HOST not in item.get("@context", ""):
+                    continue
+
+                # If the item itself is a recipe, then use it directly as our datasource
+                if self._contains_schematype(item, "Recipe"):
                     self.format = syntax
                     self.data = item
-                    if item_type.lower() == "webpage":
-                        self.data = self.data.get("mainEntity")
                     return
-                elif in_context and "@graph" in item:
-                    for graph_item in item.get("@graph", ""):
-                        graph_item_type = graph_item.get("@type", "")
-                        if not isinstance(graph_item_type, str):
-                            continue
-                        if graph_item_type.lower() in low_schema:
-                            in_graph = SCHEMA_ORG_HOST in graph_item.get("@context", "")
-                            self.format = syntax
-                            if graph_item_type.lower() == "webpage" and in_graph:
-                                self.data = self.data.get("mainEntity")
-                                return
-                            elif graph_item_type.lower() == "recipe":
-                                self.data = graph_item
-                                return
+
+                # Check for recipe items within the item's entity graph
+                for graph_item in item.get("@graph", []):
+                    if self._contains_schematype(graph_item, "Recipe"):
+                        self.format = syntax
+                        self.data = graph_item
+                        return
+
+                # If the item is a webpage and describes a recipe entity, use the entity as our datasource
+                if self._contains_schematype(item, "WebPage"):
+                    main_entity = item.get("mainEntity", {})
+                    if self._contains_schematype(main_entity, "Recipe"):
+                        self.format = syntax
+                        self.data = main_entity
+                        return
 
     def language(self):
         return self.data.get("inLanguage") or self.data.get("language")
@@ -93,7 +96,8 @@ class SchemaOrg:
             author = author[0]
         if author and isinstance(author, dict):
             author = author.get("name")
-        return author
+        if author:
+            return author.strip()
 
     def total_time(self):
         if not (self.data.keys() & {"totalTime", "prepTime", "cookTime"}):
@@ -126,6 +130,8 @@ class SchemaOrg:
         return get_minutes(self.data.get("prepTime"), return_zero_on_not_found=True)
 
     def yields(self):
+        if not (self.data.keys() & {"recipeYield", "yield"}):
+            raise SchemaOrgException("Servings information not found in SchemaOrg")
         yield_data = self.data.get("recipeYield") or self.data.get("yield")
         if yield_data and isinstance(yield_data, list):
             yield_data = yield_data[0]
@@ -156,6 +162,10 @@ class SchemaOrg:
         ingredients = (
             self.data.get("recipeIngredient") or self.data.get("ingredients") or []
         )
+
+        if ingredients and isinstance(ingredients[0], list):
+            ingredients = list(chain(*ingredients))  # flatten
+
         return [
             normalize_string(ingredient) for ingredient in ingredients if ingredient
         ]
@@ -202,6 +212,9 @@ class SchemaOrg:
     def instructions(self):
         instructions = self.data.get("recipeInstructions") or ""
 
+        if instructions and isinstance(instructions[0], list):
+            instructions = list(chain(*instructions))  # flatten
+
         if isinstance(instructions, list):
             instructions_gist = []
             for schema_instruction_item in instructions:
@@ -240,4 +253,6 @@ class SchemaOrg:
         description = self.data.get("description")
         if description is None:
             raise SchemaOrgException("No description data in SchemaOrg.")
+        if description and isinstance(description, list):
+            description = description[0]
         return normalize_string(description)

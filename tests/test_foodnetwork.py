@@ -1,7 +1,6 @@
 from responses import GET
 
 from recipe_scrapers.foodnetwork import FoodNetwork
-
 from tests import ScraperTest
 
 
@@ -9,8 +8,8 @@ class TestFoodNetworkScraper(ScraperTest):
 
     scraper_class = FoodNetwork
 
-    @property
-    def expected_requests(self):
+    @classmethod
+    def expected_requests(cls):
         yield GET, "https://www.foodnetwork.com/recipes/tyler-florence/chicken-marsala-recipe-1951778", "tests/test_data/foodnetwork.testhtml"
 
     def test_host(self):
@@ -18,7 +17,7 @@ class TestFoodNetworkScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "http://www.foodnetwork.com/recipes/tyler-florence/chicken-marsala-recipe-1951778",
+            "https://foodnetwork.co.uk/recipes/chicken-marsala/?utm_source=foodnetwork.com&utm_medium=domestic",
             self.harvester_class.canonical_url(),
         )
 
@@ -26,39 +25,37 @@ class TestFoodNetworkScraper(ScraperTest):
         self.assertEqual(self.harvester_class.title(), "Chicken Marsala")
 
     def test_author(self):
-        self.assertEqual(self.harvester_class.author(), "Tyler Florence")
+        self.assertEqual(self.harvester_class.author(), "Food Network")
 
     def test_total_time(self):
-        self.assertEqual(40, self.harvester_class.total_time())
+        self.assertEqual(20, self.harvester_class.total_time())
 
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
-            "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/4/10/1/FO1D47_24021_s4x3.jpg.rend.hgtvcom.406.305.suffix/1431766598136.jpeg",
+            "https://d2v9mhsiek5lbq.cloudfront.net/eyJidWNrZXQiOiJsb21hLW1lZGlhLXVrIiwia2V5IjoiZm9vZG5ldHdvcmstaW1hZ2UtZGVmYXVsdC1wbGFjZWhvbGRlci5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJ3aWR0aCI6MTkyMCwiaGVpZ2h0IjoxMDgwfSwianBlZyI6eyJxdWFsaXR5Ijo3NSwicHJvZ3Jlc3NpdmUiOnRydWV9fX0=",
             self.harvester_class.image(),
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
-                "4 skinless, boneless, chicken breasts (about 1 1/2 pounds)",
-                "All-purpose flour, for dredging",
-                "Kosher salt and freshly ground black pepper",
-                "1/4 cup extra-virgin olive oil",
-                "4 ounces prosciutto, thinly sliced",
-                "8 ounces crimini or porcini mushrooms, stemmed and halved",
-                "1/2 cup sweet Marsala wine",
-                "1/2 cup chicken stock",
-                "2 tablespoon unsalted butter",
-                "1/4 cup chopped flat-leaf parsley",
+                "4 (225g) boneless skinless chicken breasts",
+                "Plain flour, for dredging, plus 2 tbsp",
+                "85g butter",
+                "1 tbsp olive oil",
+                "80g sliced mushrooms",
+                "2 tbsp minced garlic",
+                "4 tbsp Marsala wine",
+                "500ml beef stock",
             ],
             self.harvester_class.ingredients(),
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            "Put the chicken breasts side by side on a cutting board and lay a piece of plastic wrap over them; pound with a flat meat mallet, until they are about 1/4-inch thick. Put some flour in a shallow platter and season with a fair amount of salt and pepper; mix with a fork to distribute evenly.\nHeat the oil over medium-high flame in a large skillet. When the oil is nice and hot, dredge both sides of the chicken cutlets in the seasoned flour, shaking off the excess. Slip the cutlets into the pan and fry for 5 minutes on each side until golden, turning once – do this in batches if the pieces don't fit comfortably in the pan. Remove the chicken to a large platter in a single layer to keep warm.\nLower the heat to medium and add the prosciutto to the drippings in the pan, saute for 1 minute to render out some of the fat. Now, add the mushrooms and saute until they are nicely browned and their moisture has evaporated, about 5 minutes; season with salt and pepper. Pour the Marsala in the pan and boil down for a few seconds to cook out the alcohol. Add the chicken stock and simmer for a minute to reduce the sauce slightly. Stir in the butter and return the chicken to the pan; simmer gently for 1 minute to heat the chicken through. Season with salt and pepper and garnish with chopped parsley before serving.",
+            "1) Put the chicken breasts between 2 pieces of waxed paper and flatten with a meat pounder until thin. Cut each chicken breast into 4 pieces.\n\n2) Add some flour to a shallow bowl. Dredge the chicken in the flour and shake off the excess flour.\n\n3) Add the butter and olive oil to a large saute pan over high heat and heat until it sizzles, do NOT let it brown. Add the chicken and saute until brown on both sides.\n\n4) Stir in the sliced mushrooms and saute briefly, then add the garlic. Add the Marsala and simmer for 3 minutes, then stir in the remaining 2 tbsp of flour.\n\n5) Pour in the beef stock and leave to simmer until the sauce thickens, about 3 to 5 minutes. Transfer the chicken to a serving platter and serve.\n\nThis recipe was provided by professional chefs and has been scaled down from a bulk recipe provided by a restaurant. The Food Network kitchens chefs have not tested this recipe, in the proportions indicated, and therefore we cannot make any representation as to the results.",
             self.harvester_class.instructions(),
         )

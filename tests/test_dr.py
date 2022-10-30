@@ -12,6 +12,9 @@ class TestDrMeScraper(ScraperTest):
     def test_title(self):
         self.assertEqual("Millionaires’ Shortbread", self.harvester_class.title())
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Brdr. Price")
+
     def test_total_time(self):
         self.assertEqual(120, self.harvester_class.total_time())
 
@@ -28,7 +31,7 @@ class TestDrMeScraper(ScraperTest):
         self.assertEqual("da-dk", self.harvester_class.language())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "130 g mel",
                 "50 g farin",

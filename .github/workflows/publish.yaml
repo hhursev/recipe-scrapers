@@ -15,11 +15,15 @@ jobs:
           python-version: "3.x"
       - name: Build the package
         run: |
-          python -m pip install --user --upgrade setuptools wheel
-          python setup.py sdist bdist_wheel
+          python -m pip install --upgrade build
+          python -m build .
       - name: Publish a Python distribution to PyPI
-        uses: pypa/gh-action-pypi-publish@master
+        uses: pypa/gh-action-pypi-publish@release/v1
         with:
           user: __token__
           password: ${{ secrets.PYPI_API_TOKEN }}
           verbose: true
+      - name: Check setuptools and build versions used
+        run: |
+          pip list | grep setuptools
+          pip list | grep build

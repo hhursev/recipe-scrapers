@@ -15,6 +15,9 @@ class TestG750gScraper(ScraperTest):
             "Salade de carottes cuites et crues à l'orange",
         )
 
+    def test_author(self):
+        self.assertEqual("750g La Table", self.harvester_class.author())
+
     def test_yields(self):
         self.assertEqual("6 servings", self.harvester_class.yields())
 
@@ -25,7 +28,7 @@ class TestG750gScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "500g de carottes",
                 "3 jus d'orange",

@@ -18,6 +18,9 @@ class TestAmazingRibsScraper(ScraperTest):
     def test_title(self):
         self.assertEqual("Texas Hot Guts Recipe", self.harvester_class.title())
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Meathead Goldwyn")
+
     def test_total_time(self):
         self.assertEqual(165, self.harvester_class.total_time())
 
@@ -25,7 +28,7 @@ class TestAmazingRibsScraper(ScraperTest):
         self.assertEqual("2 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 teaspoons whole black peppercorns",
                 "2 teaspoons fresh ground black pepper",

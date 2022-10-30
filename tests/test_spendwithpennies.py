@@ -16,7 +16,10 @@ class TestSpendWithPenniesScraper(ScraperTest):
         )
 
     def test_title(self):
-        self.assertEqual(self.harvester_class.title(), "Chocolate Pudding Cake")
+        self.assertEqual(self.harvester_class.title(), "Gooey Chocolate Pudding Cake")
+
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Holly Nilsson")
 
     def test_total_time(self):
         self.assertEqual(35, self.harvester_class.total_time())
@@ -31,19 +34,19 @@ class TestSpendWithPenniesScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
-                "3/4 cup all-purpose flour",
-                "1/2 cup sugar",
-                "1/2 cup unsweetened cocoa powder",
-                "1 1/2 teaspoons baking powder",
-                "2/3 cup milk",
+                "¾ cup all-purpose flour",
+                "½ cup sugar",
+                "½ cup unsweetened cocoa powder",
+                "1 ½ teaspoons baking powder",
+                "⅔ cup milk",
                 "2 tablespoons vegetable oil",
                 "1 teaspoon vanilla",
-                "2/3 cup brown sugar (packed)",
-                "1/4 cup cocoa powder",
-                "1/4 cup miniature semisweet chocolate chips",
-                "1 1/4 cups very hot water",
+                "⅔ cup brown sugar (packed)",
+                "¼ cup cocoa powder",
+                "¼ cup miniature semisweet chocolate chips",
+                "1 ¼ cups very hot water",
             ],
             self.harvester_class.ingredients(),
         )
@@ -55,4 +58,4 @@ class TestSpendWithPenniesScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(5.0, self.harvester_class.ratings())
+        self.assertEqual(4.9, self.harvester_class.ratings())

@@ -18,6 +18,9 @@ class TestAbrilScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Estrogonofe de carne")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "CLAUDIA")
+
     def test_image(self):
         self.assertEqual(
             "https://claudia.abril.com.br/wp-content/uploads/2020/02/receita-estrogonofe-de-carne.jpg?quality=85&strip=info&w=620&h=372&crop=1",
@@ -31,7 +34,7 @@ class TestAbrilScraper(ScraperTest):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "500 gramas de alcatra cortada em tirinhas",
                 "1/4 xícara (chá) de manteiga",

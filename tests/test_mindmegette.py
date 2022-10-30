@@ -5,7 +5,6 @@ from tests import ScraperTest
 class TestMindmegetteScraper(ScraperTest):
 
     scraper_class = Mindmegette
-    scraper_options = {"meta_http_equiv": True}
 
     def test_host(self):
         self.assertEqual("www.mindmegette.hu", self.harvester_class.host())
@@ -23,6 +22,9 @@ class TestMindmegetteScraper(ScraperTest):
         self.assertEqual(
             self.harvester_class.title(), "Tepsis krumpli céklával és répával"
         )
+
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "MME")
 
     def test_total_time(self):
         self.assertEqual(45, self.harvester_class.total_time())

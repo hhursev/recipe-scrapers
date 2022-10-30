@@ -1,3 +1,5 @@
+from responses import GET
+
 from recipe_scrapers.woolworths import Woolworths
 from tests import ScraperTest
 
@@ -5,6 +7,11 @@ from tests import ScraperTest
 class TestWoolworthsScraper(ScraperTest):
 
     scraper_class = Woolworths
+
+    @classmethod
+    def expected_requests(cls):
+        yield GET, "https://www.woolworths.com.au/shop/recipes/asparagus-salad-with-lemon-vinaigrette", "tests/test_data/woolworths.testhtml"
+        yield GET, "https://foodhub.woolworths.com.au/content/woolworths-foodhub/en/asparagus-salad-with-lemon-vinaigrette.model.json", "tests/test_data/woolworths.testhtml"
 
     def test_host(self):
         self.assertEqual("woolworths.com.au", self.harvester_class.host())
@@ -74,9 +81,6 @@ Arrange lettuce, asparagus, snow peas and radish on a platter. Scatter over feta
 
     def test_language(self):
         self.assertEqual("en-AU", self.harvester_class.language())
-
-    def test_ratings(self):
-        self.assertEqual(None, self.harvester_class.ratings())
 
     def test_site_name(self):
         self.assertEqual(

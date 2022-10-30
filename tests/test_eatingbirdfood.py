@@ -28,7 +28,7 @@ class TestEatingBirdFoodScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 Tablespoons olive oil",
                 "1 large onion, chopped",

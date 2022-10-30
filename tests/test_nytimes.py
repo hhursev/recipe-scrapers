@@ -24,6 +24,9 @@ class TestNYTimesScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Cacio e Pepe Crackers")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Laurie Ellen Pellicano")
+
     def test_ratings(self):
         self.assertEqual(self.harvester_class.ratings(), 4.0)
 
@@ -34,7 +37,7 @@ class TestNYTimesScraper(ScraperTest):
         self.assertEqual("160 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 1/2 cups/190 grams unbleached all-purpose flour (see Tip)",
                 "1 tablespoon freshly ground black pepper, plus more for finishing",

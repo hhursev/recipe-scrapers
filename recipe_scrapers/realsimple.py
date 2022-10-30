@@ -1,6 +1,8 @@
 # mypy: disallow_untyped_defs=False
+import re
+
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
+from ._utils import get_yields
 
 
 class RealSimple(AbstractScraper):
@@ -8,31 +10,22 @@ class RealSimple(AbstractScraper):
     def host(cls):
         return "realsimple.com"
 
+    def author(self):
+        return self.schema.author()
+
     def title(self):
-        return self.soup.find("h1").get_text(strip=True)
+        return self.schema.title()
 
     def total_time(self):
-        return get_minutes(self.soup.findAll("div", {"class": "recipe-meta-item"})[1])
+        return self.schema.total_time()
 
     def yields(self):
         return get_yields(
-            self.soup.findAll("div", {"class": "recipe-meta-item"})[2]
-            .find("div", {"class": "recipe-meta-item-body"})
-            .get_text()
+            self.soup.find("div", string=re.compile(r"Yield:")).parent.get_text()
         )
 
     def ingredients(self):
-        ingredients = self.soup.find("div", {"class": "ingredients"}).findAll("li")
-
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        return self.schema.ingredients()
 
     def instructions(self):
-        instructions = self.soup.findAll("div", {"class": "step"})
-
-        return "\n".join(
-            [
-                normalize_string(instruction.find("p").get_text())
-                for instruction in instructions
-                if instruction.find("p") is not None
-            ]
-        )
+        return self.schema.instructions()

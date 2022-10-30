@@ -1,4 +1,5 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -11,6 +12,9 @@ class Yummly(AbstractScraper):
     def title(self):
         found = self.soup.find("h1")
         return found.get_text() if found else None
+
+    def author(self):
+        return self.soup.find("a", {"class": "markdown-link"}).get_text()
 
     def total_time(self):
         data = self.soup.findAll("div", {"class": "recipe-summary-item"}, limit=2)

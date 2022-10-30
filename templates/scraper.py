@@ -1,4 +1,6 @@
-from ._abstract import AbstractScraper  # type: ignore [import]
+# mypy: allow-untyped-defs
+
+from ._abstract import AbstractScraper
 
 
 class Template(AbstractScraper):

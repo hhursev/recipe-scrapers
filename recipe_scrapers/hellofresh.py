@@ -17,7 +17,10 @@ class HelloFresh(AbstractScraper):
         return self.schema.yields()
 
     def ingredients(self):
-        return self.schema.ingredients()
+        if not self._serving_one_on_page():
+            return self.schema.ingredients()
+        else:
+            return [f"2 * {ingredient}" for ingredient in self.schema.ingredients()]
 
     def instructions(self):
         return self.schema.instructions()
@@ -33,3 +36,19 @@ class HelloFresh(AbstractScraper):
 
     def category(self):
         return self.schema.category()
+
+    def _serving_one_on_page(self):
+        # ad-hoc solution for https://github.com/hhursev/recipe-scrapers/issues/527
+        try:
+            return (
+                self.soup.find("div", {"data-test-id": "serving-amount-container"})
+                .find("div", {"class": "fela-_txm046"})
+                .select("div[class*=ds]")[0]
+                .get_text()
+                == "1"
+            )
+        except (AttributeError, IndexError):
+            # AttributeError if .find(..) method errored
+            # IndexError if the .select(..)[0] did not work as expected
+            # both cases to fall back to default behaviour
+            return True

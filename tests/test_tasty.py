@@ -21,17 +21,20 @@ class TestTastyScraper(ScraperTest):
             "Red Wine-Braised Short Ribs With Cashew Cauliflower Mash Recipe by Tasty",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Crystal Hatch")
+
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
-            "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/236025.jpg",
+            "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/236025.jpg?resize=1200:*",
             self.harvester_class.image(),
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "3 lb bone in beef short ribs, cut into 2-inch pieces",
                 "1 tablespoon kosher salt",
@@ -63,6 +66,6 @@ class TestTastyScraper(ScraperTest):
 
     def test_ratings(self):
         self.assertEqual(
-            93,
+            4.7,
             self.harvester_class.ratings(),
         )

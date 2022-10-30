@@ -59,9 +59,6 @@ Cut into quarters and serve whilst still hot and oozing with cheese.""",
             self.harvester_class.instructions(),
         )
 
-    def test_ratings(self):
-        self.assertEqual(None, self.harvester_class.ratings())
-
     def test_cuisine(self):
         self.assertEqual("Indian", self.harvester_class.cuisine())
 

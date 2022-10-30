@@ -1,6 +1,10 @@
 # mypy: disallow_untyped_defs=False
+
 import html
+import math
 import re
+
+import isodate
 
 from ._exceptions import ElementNotFoundInHtml
 
@@ -16,7 +20,7 @@ FRACTIONS = {
 }
 
 TIME_REGEX = re.compile(
-    r"(\D*(?P<hours>[\d.\s/?¼½¾⅓⅔⅕⅖⅗]+)\s*(hours|hrs|hr|h|óra))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|perc))?",
+    r"(\D*(?P<days>\d+)\s*(days|D))?(\D*(?P<hours>[\d.\s/?¼½¾⅓⅔⅕⅖⅗]+)\s*(hours|hrs|hr|h|óra|:))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|perc|$))?",
     re.IGNORECASE,
 )
 
@@ -30,7 +34,7 @@ SERVE_REGEX_ITEMS = re.compile(
 SERVE_REGEX_TO = re.compile(r"\d+(\s+to\s+|-)\d+", flags=re.I | re.X)
 
 
-def get_minutes(element, return_zero_on_not_found=False):
+def get_minutes(element, return_zero_on_not_found=False):  # noqa: C901: TODO
     if element is None:
         # to be removed
         if return_zero_on_not_found:
@@ -47,6 +51,15 @@ def get_minutes(element, return_zero_on_not_found=False):
         time_text = element
     else:
         time_text = element.get_text()
+
+    # attempt iso8601 duration parsing
+    if time_text.startswith("PT"):
+        try:
+            duration = isodate.parse_duration(time_text)
+            return math.ceil(duration.total_seconds() / 60)
+        except Exception:
+            pass
+
     if time_text.startswith("P") and "T" in time_text:
         time_text = time_text.split("T", 2)[1]
     if "-" in time_text:
@@ -64,7 +77,11 @@ def get_minutes(element, return_zero_on_not_found=False):
 
     minutes = int(matched.groupdict().get("minutes") or 0)
     hours_matched = matched.groupdict().get("hours")
+    days_matched = matched.groupdict().get("days")
 
+    # workaround for formats like: 0D4H45M, that are not a valid iso8601 it seems
+    if days_matched:
+        minutes += 60 * 60 * float(days_matched.strip())
     if hours_matched:
         hours_matched = hours_matched.strip()
         if any([symbol in FRACTIONS.keys() for symbol in hours_matched]):
