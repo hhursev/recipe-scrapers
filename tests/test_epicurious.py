@@ -21,6 +21,9 @@ class TestEpicurious(ScraperTest):
             "Ramen Noodle Bowl with Escarole and Spicy Tofu Crumbles",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Claire Saffitz")
+
     def test_yields(self):
         self.assertEqual("2 servings", self.harvester_class.yields())
 

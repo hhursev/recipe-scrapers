@@ -18,6 +18,9 @@ class TestHeinzBrasilScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Chili com carne")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Kraft Heinz")
+
     def test_image(self):
         self.assertEqual(
             "//d36rz30b5p7lsd.cloudfront.net/heinzbrasilbr/recipes/img/1e1fccb2d38d8b3e3611aa5c99706523.jpeg",

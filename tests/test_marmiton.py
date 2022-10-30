@@ -18,6 +18,9 @@ class TestMarmitonScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Ratatouille")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Mirabelle")
+
     def test_total_time(self):
         self.assertEqual(80, self.harvester_class.total_time())
 

@@ -18,6 +18,9 @@ class TestRecipeTinEatsScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Vietnamese Caramel Pork")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Nagi")
+
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())
 

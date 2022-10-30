@@ -18,6 +18,9 @@ class TestNourishedByNutritionScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Salsa Verde Chicken Enchiladas")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Jessica Bippen")
+
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())
 

@@ -20,6 +20,9 @@ class TestAverieCooksScraper(ScraperTest):
             self.harvester_class.title(), "Balsamic Watermelon Cucumber Salad"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Averie Sunshine")
+
     def test_yields(self):
         self.assertEqual("2 servings", self.harvester_class.yields())
 

@@ -21,6 +21,9 @@ class TestVegolosiScraper(ScraperTest):
             "Polpette di tofu e piselli con salsa allo zafferano",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Vegolosi.it")
+
     def test_total_time(self):
         self.assertEqual(30, self.harvester_class.total_time())
 

@@ -19,6 +19,9 @@ class TestHelloFreshScraperAdHoc(ScraperTest):
             self.harvester_class.title(),
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "HelloFresh")
+
     def test_total_time(self):
         self.assertEqual(35, self.harvester_class.total_time())
 

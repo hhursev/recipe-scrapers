@@ -20,6 +20,9 @@ class TestBudgetBytesScraper(ScraperTest):
             self.harvester_class.title(), "Creamy Coconut Curry Lentils with Spinach"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Beth - Budget Bytes")
+
     def test_total_time(self):
         self.assertEqual(45, self.harvester_class.total_time())
 

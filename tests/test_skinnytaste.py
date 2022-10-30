@@ -21,6 +21,9 @@ class TestSkinnyTasteScraper(ScraperTest):
             "Grilled Chicken with Spinach and Melted Mozzarella",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Gina")
+
     def test_yields(self):
         self.assertEqual("6 servings", self.harvester_class.yields())
 

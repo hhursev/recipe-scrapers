@@ -21,6 +21,9 @@ class TestGonnaWantSeconds(ScraperTest):
             "White Chicken Enchiladas",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Kathleen")
+
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())
 

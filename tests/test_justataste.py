@@ -15,6 +15,9 @@ class TestJustATasteScraper(ScraperTest):
             "Baked Chicken and Cheese Taquitos (Oven or Air Fryer)",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Kelly Senyei")
+
     def test_yields(self):
         self.assertEqual("6 servings", self.harvester_class.yields())
 

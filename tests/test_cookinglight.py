@@ -26,6 +26,9 @@ class TestCookingLight(ScraperTest):
             self.harvester_class.title(), "Avocado, Black Bean, and Charred Tomato Bowl"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Cooking Light")
+
     def test_total_time(self):
         self.assertEqual(10, self.harvester_class.total_time())
 

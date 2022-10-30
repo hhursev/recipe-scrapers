@@ -27,6 +27,9 @@ class TestOhSheGlowsScraper(ScraperTest):
             "Obsession-Worthy Peanut Butter Cookie Ice Cream",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Angela Liddon")
+
     def test_ratings(self):
         self.assertEqual(self.harvester_class.ratings(), 4.67)
 

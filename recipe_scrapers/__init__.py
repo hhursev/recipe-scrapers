@@ -84,7 +84,7 @@ from .gonnawantseconds import GonnaWantSeconds
 from .goustojson import GoustoJson
 from .greatbritishchefs import GreatBritishChefs
 from .halfbakedharvest import HalfBakedHarvest
-from .hassenchef import Hassanchef
+from .hassanchef import HassanChef
 from .headbangerskitchen import HeadbangersKitchen
 from .heb import HEB
 from .heinzbrasil import HeinzBrasil
@@ -176,6 +176,7 @@ from .simplyquinoa import SimplyQuinoa
 from .simplyrecipes import SimplyRecipes
 from .simplywhisked import SimplyWhisked
 from .skinnytaste import SkinnyTaste
+from .smulweb import Smulweb
 from .southernliving import SouthernLiving
 from .spendwithpennies import SpendWithPennies
 from .springlane import Springlane
@@ -209,6 +210,8 @@ from .vanillaandbean import VanillaAndBean
 from .vegolosi import Vegolosi
 from .vegrecipesofindia import VegRecipesOfIndia
 from .watchwhatueat import WatchWhatUEat
+from .weightwatchers import WeightWatchers
+from .weightwatcherspublic import WeightWatchersPublic
 from .whatsgabycooking import WhatsGabyCooking
 from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
@@ -300,7 +303,7 @@ SCRAPERS = {
     GreatBritishChefs.host(): GreatBritishChefs,
     HEB.host(): HEB,
     HalfBakedHarvest.host(): HalfBakedHarvest,
-    Hassanchef.host(): Hassanchef,
+    HassanChef.host(): HassanChef,
     HeadbangersKitchen.host(): HeadbangersKitchen,
     HeinzBrasil.host(): HeinzBrasil,
     HelloFresh.host(): HelloFresh,
@@ -405,6 +408,7 @@ SCRAPERS = {
     SimplyRecipes.host(): SimplyRecipes,
     SimplyWhisked.host(): SimplyWhisked,
     SkinnyTaste.host(): SkinnyTaste,
+    Smulweb.host(): Smulweb,
     SouthernLiving.host(): SouthernLiving,
     SpendWithPennies.host(): SpendWithPennies,
     Springlane.host(): Springlane,
@@ -438,6 +442,8 @@ SCRAPERS = {
     VegRecipesOfIndia.host(): VegRecipesOfIndia,
     Vegolosi.host(): Vegolosi,
     WatchWhatUEat.host(): WatchWhatUEat,
+    WeightWatchers.host(): WeightWatchers,
+    WeightWatchersPublic.host(): WeightWatchersPublic,
     WhatsGabyCooking.host(): WhatsGabyCooking,
     WholeFoods.host(): WholeFoods,
     WholeFoods.host(domain="co.uk"): WholeFoods,

@@ -18,6 +18,9 @@ class TestSunBasketScraper(ScraperTest):
             self.harvester_class.title(),
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Sun Basket")
+
     def test_total_time(self):
         self.assertEqual(15, self.harvester_class.total_time())
 

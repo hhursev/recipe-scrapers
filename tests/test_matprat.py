@@ -20,6 +20,9 @@ class TestMatprat(ScraperTest):
             self.harvester_class.title(), "Butter chicken - indisk smørkylling"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "MatPrat")
+
     def test_total_time(self):
         self.assertEqual(160, self.harvester_class.total_time())
 

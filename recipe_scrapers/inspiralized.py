@@ -1,4 +1,5 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
 
 
@@ -9,6 +10,10 @@ class Inspiralized(AbstractScraper):
 
     def title(self):
         return self.schema.title()
+
+    def author(self):
+        if self.soup.find(string="Ali Maffucci"):
+            return "Ali Maffucci"
 
     def total_time(self):
         return self.schema.total_time()

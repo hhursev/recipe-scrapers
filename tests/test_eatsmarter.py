@@ -2,7 +2,7 @@ from recipe_scrapers.eatsmarter import Eatsmarter
 from tests import ScraperTest
 
 
-class TestEatsmarterCooking(ScraperTest):
+class TestEatSmarter(ScraperTest):
 
     scraper_class = Eatsmarter
 
@@ -19,6 +19,9 @@ class TestEatsmarterCooking(ScraperTest):
         self.assertEqual(
             self.harvester_class.title(), "Citrus Avocado Salad with Almonds"
         )
+
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "EAT SMARTER")
 
     def test_total_time(self):
         self.assertEqual(20, self.harvester_class.total_time())

@@ -20,6 +20,9 @@ class TestDomesticateMeScraper(ScraperTest):
             self.harvester_class.title(), "The Dude Diet: Buffalo Chicken Quinoa Bake"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Serena Wolf")
+
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())
 

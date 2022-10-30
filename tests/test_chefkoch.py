@@ -18,6 +18,9 @@ class TestChefkochScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Hackbraten supersaftig")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Delphinella")
+
     def test_description(self):
         self.assertEqual(
             self.harvester_class.description(),

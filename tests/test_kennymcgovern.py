@@ -18,6 +18,9 @@ class TestKennyMcGovernScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Crispy Chicken Strips")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Kenny McGovern")
+
     def test_image(self):
         self.assertEqual(
             self.harvester_class.image(),

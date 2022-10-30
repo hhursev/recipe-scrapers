@@ -1,4 +1,5 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
 
 
@@ -9,6 +10,9 @@ class Epicurious(AbstractScraper):
 
     def title(self):
         return self.schema.title()
+
+    def author(self):
+        return self.soup.find("a", {"itemprop": "author"}).get_text()
 
     def total_time(self):
         return self.schema.total_time()

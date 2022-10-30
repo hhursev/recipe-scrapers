@@ -1,4 +1,5 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
 
 
@@ -9,6 +10,11 @@ class FineDiningLovers(AbstractScraper):
 
     def title(self):
         return self.schema.title()
+
+    def author(self):
+        container = self.soup.find("div", {"class": "author-name"})
+        if container:
+            return container.find("a").get_text()
 
     def total_time(self):
         return self.schema.total_time()

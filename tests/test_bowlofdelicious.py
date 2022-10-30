@@ -20,6 +20,9 @@ class TestBowlOfDeliciousScraper(ScraperTest):
             self.harvester_class.title(), "Six-Minute Seared Ahi Tuna Steaks"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Elizabeth Lindemann")
+
     def test_yields(self):
         self.assertEqual("2 servings", self.harvester_class.yields())
 

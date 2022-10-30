@@ -17,6 +17,9 @@ class TestTheKitchenMagPie(ScraperTest):
     def test_title(self):
         self.assertEqual("Salmon Loaf", self.harvester_class.title())
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Karlynn Johnston")
+
     def test_total_time(self):
         self.assertEqual(70, self.harvester_class.total_time())
 

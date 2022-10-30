@@ -96,7 +96,8 @@ class SchemaOrg:
             author = author[0]
         if author and isinstance(author, dict):
             author = author.get("name")
-        return author
+        if author:
+            return author.strip()
 
     def total_time(self):
         if not (self.data.keys() & {"totalTime", "prepTime", "cookTime"}):

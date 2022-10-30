@@ -21,6 +21,9 @@ class TestTheVintageMixerScraper(ScraperTest):
             "Gluten Free and Sugar Free Cherry Baby Smash Cake",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Becky")
+
     def test_total_time(self):
         self.assertEqual(35, self.harvester_class.total_time())
 

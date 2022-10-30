@@ -20,6 +20,9 @@ class TestPracticalSelfRelianceScraper(ScraperTest):
             self.harvester_class.title(), "Zucchini Relish Recipe for Canning"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Ashley Adamant")
+
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())
 

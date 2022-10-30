@@ -21,6 +21,9 @@ class TestFoodScraper(ScraperTest):
             "Chicken Noodle Soup With Carrots, Parsnips and Dill",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "JackieOhNo")
+
     def test_total_time(self):
         self.assertEqual(45, self.harvester_class.total_time())
 

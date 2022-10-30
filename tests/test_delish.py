@@ -18,6 +18,9 @@ class TestDelishScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Pumpkin Cheesecake Roll")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Lena Abraham")
+
     def test_total_time(self):
         self.assertEqual(self.harvester_class.total_time(), 60)
 

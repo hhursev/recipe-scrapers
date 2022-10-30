@@ -18,6 +18,9 @@ class TestIGScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Estrogonofe de cogumelos")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Fabiana Badra")
+
     def test_total_time(self):
         self.assertEqual(30, self.harvester_class.total_time())
 

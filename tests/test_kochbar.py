@@ -21,6 +21,9 @@ class TestKochbarScraper(ScraperTest):
             "Ligurisches Hühnerragout mit Zucchini – Spezzatino con zucchine",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Antareja")
+
     def test_yields(self):
         self.assertEqual("2 servings", self.harvester_class.yields())
 
