@@ -1,6 +1,7 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._exceptions import SchemaOrgException
+from ._utils import normalize_string
 
 
 class Lecker(AbstractScraper):
@@ -51,7 +52,7 @@ class Lecker(AbstractScraper):
             divs = self.soup.find_all("div", {"class": "js-quizToggle"})
             for d in divs:
                 if d.find("span", "article__shifted-jump-label"):
-                    return d.get_text()
+                    return normalize_string(d.get_text())
 
     def ratings(self):
         return self.schema.ratings()

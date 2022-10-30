@@ -1,3 +1,4 @@
+# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
@@ -36,12 +37,9 @@ class SimplyCookit(AbstractScraper):
         instructions = []
         for li in self.soup.find("ul", {"class": "recipe_steps"}).findAll("li"):
             li.find("span", {"class": "number"}).clear()
-            instructions.append(li.get_text())
+            instructions.append(normalize_string(li.get_text()))
 
         return "\n".join(instructions)
-
-    def ratings(self):
-        return self.schema.ratings()
 
     def cuisine(self):
         return self.schema.cuisine()
