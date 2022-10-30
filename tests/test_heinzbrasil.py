@@ -28,7 +28,7 @@ class TestHeinzBrasilScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 kg de carne moída",
                 "1 cebola picada",

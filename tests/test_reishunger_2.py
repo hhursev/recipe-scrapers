@@ -70,4 +70,4 @@ class TestReishungerScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4, self.harvester_class.ratings())
+        self.assertEqual(5, self.harvester_class.ratings())

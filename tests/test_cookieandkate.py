@@ -30,7 +30,7 @@ class TestCookieAndKateScraper(ScraperTest):
         self.assertEqual("8 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "8 SimplyNature Organic Cage Free Eggs",
                 "½ cup milk of choice",

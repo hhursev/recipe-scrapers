@@ -39,7 +39,7 @@ class TestBBCFoodScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "100g/3½oz butter",
                 "250g/8¾oz digestive biscuits, crushed",

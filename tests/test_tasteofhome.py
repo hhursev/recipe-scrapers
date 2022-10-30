@@ -34,7 +34,7 @@ class TestTasteOfHomeScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "4 whole cloves",
                 "4 whole peppercorns",

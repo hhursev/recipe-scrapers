@@ -5,7 +5,6 @@ from tests import ScraperTest
 class TestGreatBritishChefsScraper(ScraperTest):
 
     scraper_class = GreatBritishChefs
-    test_file_name = "greatbritishchefs_1"
 
     def test_host(self):
         self.assertEqual("greatbritishchefs.com", self.harvester_class.host())
@@ -26,18 +25,17 @@ class TestGreatBritishChefsScraper(ScraperTest):
         self.assertEqual(50, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("4", self.harvester_class.yields())
+        self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
-            "http://gbc-cdn-public-media.azureedge.net/img73858.768x512.jpg",
+            "https://media-cdn.greatbritishchefs.com/media/mwtkdmv3/img73858.jpg?mode=crop&width=768&height=512",
             self.harvester_class.image(),
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
-                "Picadillo",
                 "500g of beef mince",
                 "1 onion, diced",
                 "2 garlic cloves, sliced",
@@ -66,11 +64,8 @@ class TestGreatBritishChefsScraper(ScraperTest):
             self.harvester_class.instructions(),
         )
 
-    def test_ratings(self):
-        self.assertEqual(None, self.harvester_class.ratings())
-
     def test_description(self):
         self.assertEqual(
-            "This simple picadillo recipe has the perfect balance of sweetness and spice. A pleasing tanginess comes from the addition of vibrant tomatillo salsa for a great depth of flavour. Serve in tacos or with rice for a hearty Mexican-inspired midweek meal.",
+            "This simple picadillo recipe has the perfect balance of sweetness and spice. A pleasing tanginess comes from the addition of vibrant tomatillo salsa for a great depth of flavour.",
             self.harvester_class.description(),
         )

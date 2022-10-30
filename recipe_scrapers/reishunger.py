@@ -68,8 +68,4 @@ class Reishunger(AbstractScraper):
         return "\n".join(results)
 
     def ratings(self):
-        block = self.soup.find("div", {"class": "nrating"})
-        if block:
-            cnt = len(block.findAll("span", {"class": "fa-star"}))
-            return cnt
-        return block
+        return self.schema.ratings()

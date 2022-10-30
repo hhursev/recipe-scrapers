@@ -33,7 +33,7 @@ class TestLeCremeDeLaCrumbScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "3-4 medium to large boneless skinless chicken breasts",
                 "1 cup chicken broth or water",

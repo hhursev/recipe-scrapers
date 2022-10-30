@@ -28,7 +28,7 @@ class TestDownshiftologyScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1/4 cup olive oil",
                 "2 tablespoons red wine vinegar",

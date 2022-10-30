@@ -28,7 +28,7 @@ class TestLittleSpiceJarScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "Cooking spray, for pan",
                 "1 cup panko bread crumbs",

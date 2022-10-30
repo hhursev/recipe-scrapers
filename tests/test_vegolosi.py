@@ -31,7 +31,7 @@ class TestVegolosiScraper(ScraperTest):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "250 g tofu al naturale",
                 "150 g piselli lessati",

@@ -28,7 +28,7 @@ class TestCdKitchen(ScraperTest):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 veal shoulder arm or blade steaks, cut 1 inch thick",
                 "2 baking potatoes, cut lengthwise into 8 wedges",

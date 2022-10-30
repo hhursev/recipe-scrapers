@@ -16,7 +16,7 @@ class TestDitchTheCarbs(ScraperTest):
         )
 
     def test_title(self):
-        self.assertEqual(self.harvester_class.title(), "Keto Hamburger Buns")
+        self.assertEqual(self.harvester_class.title(), "Keto Hamburger Buns Recipe")
 
     def test_author(self):
         self.assertEqual(self.harvester_class.author(), "Libby Jenkinson")

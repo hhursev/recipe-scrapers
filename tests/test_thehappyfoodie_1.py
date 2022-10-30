@@ -23,7 +23,7 @@ class TestTheHappyFoodie(ScraperTest):
         self.assertEqual("6 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "150ml red wine",
                 "100g tomato paste",

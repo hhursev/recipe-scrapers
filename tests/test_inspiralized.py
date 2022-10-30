@@ -30,18 +30,15 @@ class TestInspiralizedScraper(ScraperTest):
     def test_total_time(self):
         self.assertEqual(15, self.harvester_class.total_time())
 
-    def test_yields(self):
-        self.assertEqual("4 servings", self.harvester_class.yields())
-
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "3 tablespoons extra virgin olive oil",
                 "3 tablespoons apple cider vinegar",
                 "2.5 teaspoons honey",
                 "salt and pepper",
                 "4 cups shredded brussels sprouts",
-                "1 medium apple, Blade D",
+                "1 medium apple (Blade D)",
                 "1/4 cup chopped raw almonds (for extra flavor, toast these first)",
                 "1/3 cup shaved Parmesan",
             ],

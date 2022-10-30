@@ -39,7 +39,7 @@ class TestDomesticateMeScraper(ScraperTest):
         self.assertEqual(4.5, self.harvester_class.ratings())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 cup quinoa",
                 "1½ cups low-sodium chicken broth",

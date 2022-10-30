@@ -31,7 +31,7 @@ class TestFoodScraper(ScraperTest):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "8 cups low sodium chicken broth",
                 "1 onion, chopped",

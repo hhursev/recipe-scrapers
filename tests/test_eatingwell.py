@@ -26,7 +26,7 @@ class TestEatingWell(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 tablespoon extra-virgin olive oil",
                 "½ cup chopped onion",

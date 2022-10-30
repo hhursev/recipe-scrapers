@@ -36,7 +36,7 @@ class SweetCsDesignsScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "3 large russet potatoes",
                 "2-3 tablespoons olive oil",

@@ -34,7 +34,7 @@ class TestSpendWithPenniesScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "¾ cup all-purpose flour",
                 "½ cup sugar",
