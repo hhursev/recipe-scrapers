@@ -3,7 +3,6 @@
 import html
 import math
 import re
-from json import JSONEncoder
 
 import isodate
 
@@ -193,25 +192,3 @@ def change_keys(obj, convert):
     else:
         return obj
     return new
-
-
-class ScraperJSONEncoder(JSONEncoder):
-    """
-    Custom JSONEncoder that can be used to json dump a scraper by:
-    json.dumps(scraper, cls=ScraperJSONEncoder, indent=True)
-    """
-
-    def default(self, o):
-        json_dict = {}
-        public_method_names = [
-            method
-            for method in dir(o)
-            if callable(getattr(o, method))
-            if not method.startswith("_") and method not in ["soup", "links"]
-        ]
-        for method in public_method_names:
-            try:
-                json_dict[method] = getattr(o, method)()
-            except Exception:
-                pass
-        return json_dict

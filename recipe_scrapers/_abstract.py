@@ -169,3 +169,18 @@ class AbstractScraper:
     def site_name(self):
         meta = self.soup.find("meta", property="og:site_name")
         return meta.get("content") if meta else None
+
+    def to_json(self):
+        json_dict = {}
+        public_method_names = [
+            method
+            for method in dir(self)
+            if callable(getattr(self, method))
+            if not method.startswith("_") and method not in ["soup", "links", "to_json"]
+        ]
+        for method in public_method_names:
+            try:
+                json_dict[method] = getattr(self, method)()
+            except Exception:
+                pass
+        return json_dict
