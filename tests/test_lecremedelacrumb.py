@@ -20,6 +20,9 @@ class TestLeCremeDeLaCrumbScraper(ScraperTest):
             self.harvester_class.title(), "Instant Pot Shredded Chicken Tacos"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Tiffany")
+
     def test_total_time(self):
         self.assertEqual(35, self.harvester_class.total_time())
 
@@ -30,7 +33,7 @@ class TestLeCremeDeLaCrumbScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "3-4 medium to large boneless skinless chicken breasts",
                 "1 cup chicken broth or water",

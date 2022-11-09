@@ -18,6 +18,9 @@ class TestMotherThymeScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Cinnamon Roll Oatmeal")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Jenn (Mother Thyme)")
+
     def test_total_time(self):
         self.assertEqual(30, self.harvester_class.total_time())
 
@@ -25,7 +28,7 @@ class TestMotherThymeScraper(ScraperTest):
         self.assertEqual("2 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 3/4 cup milk",
                 "2 tablespoons brown sugar",
@@ -34,11 +37,11 @@ class TestMotherThymeScraper(ScraperTest):
                 "1/4 teaspoon salt",
                 "1 1/2 cups old-fashioned rolled oats",
                 "Topping",
-                "2 tablespoons butter melted",
+                "2 tablespoons butter (melted)",
                 "3 tablespoons packed light brown sugar",
                 "1 1/2 teaspoons cinnamon",
                 "Glaze",
-                "1 ounce cream cheese softened",
+                "1 ounce cream cheese (softened)",
                 "1 tablespoon milk",
                 "1/8 teaspoon vanilla extract",
                 "5 tablespoons confectioners' sugar",

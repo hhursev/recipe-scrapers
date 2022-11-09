@@ -20,6 +20,9 @@ class TestBudgetBytesScraper(ScraperTest):
             self.harvester_class.title(), "Creamy Coconut Curry Lentils with Spinach"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Beth - Budget Bytes")
+
     def test_total_time(self):
         self.assertEqual(45, self.harvester_class.total_time())
 
@@ -27,7 +30,7 @@ class TestBudgetBytesScraper(ScraperTest):
         self.assertEqual("4 items", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 Tbsp olive oil ($0.24)",
                 "2 cloves garlic ($0.16)",

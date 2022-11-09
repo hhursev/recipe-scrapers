@@ -27,7 +27,7 @@ class TestCountryLivingScraper(ScraperTest):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 lb. mixed mushrooms (such as cremini, beech, or shiitake), roughly chopped 4 slices bacon, sliced",
                 "3 large eggs",

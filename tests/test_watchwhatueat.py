@@ -21,6 +21,11 @@ class TestWatchWhatUEatScraper(ScraperTest):
             "Garlic And Herb Instant Pot Cauliflower With Delicious Gravy",
         )
 
+    def test_author(self):
+        self.assertEqual(
+            self.harvester_class.author(), "Swati Kadam Gulati | Watch What U Eat"
+        )
+
     def test_yields(self):
         self.assertEqual("5 servings", self.harvester_class.yields())
 
@@ -31,7 +36,7 @@ class TestWatchWhatUEatScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 large cauliflower head",
                 "3-4 garlic cloves finely chopped",

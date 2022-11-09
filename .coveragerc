@@ -7,7 +7,6 @@ relative_files = True
 omit = recipe_scrapers/__version__.py
        recipe_scrapers/plugins/template.py
        recipe_scrapers/settings/template.py
-       recipe_scrapers/settings/v12_settings.py
 
 exclude_lines =
     pragma: no cover

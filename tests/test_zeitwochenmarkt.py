@@ -15,6 +15,9 @@ class TestZeitWochenmarktScraper(ScraperTest):
     def test_title(self):
         self.assertEqual("Kohlrabi-Fenchel-Carpaccio", self.harvester_class.title())
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Angelika Schwaff")
+
     def test_total_time(self):
         self.assertEqual(30, self.harvester_class.total_time())
 

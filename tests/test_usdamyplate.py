@@ -22,7 +22,7 @@ class TestUSDAMyPlateRecipesScraper(ScraperTest):
         self.assertEqual("24 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "3 cups dried figs (chopped, 16 ounces)",
                 "1/2 cup walnuts (chopped)",
@@ -49,4 +49,40 @@ class TestUSDAMyPlateRecipesScraper(ScraperTest):
         return self.assertEqual(
             "Wash hands with soap and water.\nPreheat oven to 350 degrees F. Lightly grease a 9x13-inch baking pan.\nCombine figs, walnuts, sugar, orange juice and hot water in a mixing bowl and set aside.\nMix together margarine or butter and brown sugar until creamy. Add egg and mix until smooth.\nMix flour and baking soda. Stir into egg mixture. Blend in oats to make soft dough.\nReserve 1 cup of dough for topping. With floured fingertips, press the remaining dough into a thin layer on the bottom of the baking pan.\nSpread fig mixture evenly over the dough. Crumble reserved dough over top, allowing fig mixture to show.\nBake 30 minutes or until golden brown. Cool completely in baking pan. Cut into 24 bars (about 2.5 x 2 inches).",
             self.harvester_class.instructions(),
+        )
+
+    def test_nutrients(self):
+        self.assertEqual(
+            {
+                "Total Calories": "206",
+                "Total Fat": "6 g",
+                "Saturated Fat": "1 g",
+                "Cholesterol": "8 mg",
+                "Sodium": "66 mg",
+                "Dietary Fiber": "3 g",
+                "Protein": "3 g",
+                "Carbohydrates": "37 g",
+                "Potassium": "225 mg",
+                "Calcium": "55 mg",
+                "Vitamin D": "0 mcg",
+                "Iron": "1 mg",
+                "Total Sugars": "24 g",
+                "Added Sugars included": "11 g",
+            },
+            self.harvester_class.nutrients(),
+        )
+
+    def test_serving_size(self):
+        self.assertEqual("1 bar", self.harvester_class.serving_size())
+
+    def test_description(self):
+        self.assertEqual(
+            "Fig bars are a great on-the-go snack. The sweet, nutty flavors in these bars are sure to be a hit with all ages.",
+            self.harvester_class.description(),
+        )
+
+    def test_recipe_source(self):
+        self.assertEqual(
+            "Fabulous Fig Bars from Food Hero, Oregon State University, Cooperative Extension Service.",
+            self.harvester_class.recipe_source(),
         )

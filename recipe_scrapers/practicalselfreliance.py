@@ -4,8 +4,8 @@ from ._abstract import AbstractScraper
 
 class PracticalSelfReliance(AbstractScraper):
     @classmethod
-    def host(cls):
-        return "practicalselfreliance.com"
+    def host(cls, domain="practicalselfreliance.com"):
+        return domain
 
     def title(self):
         return self.schema.title()

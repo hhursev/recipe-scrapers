@@ -1,7 +1,6 @@
 from responses import GET
 
 from recipe_scrapers.gousto import Gousto
-
 from tests import ScraperTest
 
 
@@ -9,15 +8,18 @@ class TestGoustoScraper(ScraperTest):
 
     scraper_class = Gousto
 
-    @property
-    def expected_requests(self):
-        yield GET, "https://www.foodnetwork.com/recipes/tyler-florence/chicken-marsala-recipe-1951778", "tests/test_data/gousto.testhtml"
+    @classmethod
+    def expected_requests(cls):
+        yield GET, "https://gousto.co.uk/cookbook/creamy-pork-tagliatelle", "tests/test_data/gousto.testhtml"
 
     def test_host(self):
         self.assertEqual("gousto.co.uk", self.harvester_class.host())
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Creamy Pork Tagliatelle")
+
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Gousto")
 
     def test_total_time(self):
         self.assertEqual(35, self.harvester_class.total_time())
@@ -26,17 +28,17 @@ class TestGoustoScraper(ScraperTest):
         self.assertEqual("2 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
-                "1 onion",
-                "150g chestnut mushrooms",
-                "1 garlic clove",
                 "10g fresh parsley",
-                "30g rennet-free parmesan",
-                "2 British pork loin steaks",
-                "1 pot of double cream (227ml)",
                 "1/2 beef stock cube",
+                "1 pot of double cream (227ml)",
                 "200g linguine",
+                "2 British pork loin steaks",
+                "30g rennet-free parmesan",
+                "1 garlic clove",
+                "150g chestnut mushrooms",
+                "1 onion",
             ],
             self.harvester_class.ingredients(),
         )

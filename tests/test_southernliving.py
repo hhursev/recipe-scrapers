@@ -1,6 +1,3 @@
-import os
-
-from recipe_scrapers._exceptions import SchemaOrgException
 from recipe_scrapers.southernliving import SouthernLiving
 from tests import ScraperTest
 
@@ -22,6 +19,9 @@ class TestSouthernLiving(ScraperTest):
         self.assertEqual(
             self.harvester_class.title(), "Spicy Sausage-and-Cheddar Kolaches Recipe"
         )
+
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Paige Grandjean")
 
     def test_total_time(self):
         self.assertEqual(180, self.harvester_class.total_time())
@@ -67,13 +67,8 @@ class TestSouthernLiving(ScraperTest):
             self.harvester_class.instructions(),
         )
 
-    def test_ratings_exception_handling(self):
-        self.assertEqual(None, self.harvester_class.ratings())
-
     def test_ratings_raises_exception(self):
-        os.environ["RECIPE_SCRAPERS_SETTINGS"] = "recipe_scrapers.settings.default"
-        with self.assertRaises(SchemaOrgException):
-            self.assertEqual(None, self.harvester_class.ratings())
+        self.assertRaises(Exception, self.harvester_class.ratings)
 
     def test_description(self):
         self.assertEqual(

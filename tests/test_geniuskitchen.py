@@ -18,20 +18,23 @@ class TestGeniusKitchenScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Quiche Lorraine Cups")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Bergy")
+
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("6 servings", self.harvester_class.yields())
+        self.assertEqual("12 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "12 cooked crepes (, see All Purpose Dinner Crepes Batter)",
                 "4 slices bacon, cooked crisp &,crumbled",
                 "1 cup swiss cheese, grated",
                 "2 tablespoons flour",
-                "1⁄4 teaspoon salt",
+                "1/4 teaspoon salt",
                 "2 eggs",
                 "1 cup milk",
             ],

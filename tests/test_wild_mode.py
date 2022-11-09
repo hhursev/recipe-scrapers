@@ -6,9 +6,10 @@ class TestWildMode(ScraperTest):
 
     scraper_class = SchemaScraperFactory
 
-    def setUp(self):
+    @classmethod
+    def setUpClass(cls):
         with open("tests/test_data/wild_mode.testhtml", encoding="utf-8") as testfile:
-            self.harvester_class = self.scraper_class.generate(
+            cls.harvester_class = cls.scraper_class.generate(
                 url="https://test.example.com/", html=testfile.read()
             )
 
@@ -37,7 +38,7 @@ class TestWildMode(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 lb cherry or grape tomatoes",
                 "1 tablespoon olive oil",

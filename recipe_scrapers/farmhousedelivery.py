@@ -22,7 +22,7 @@ class FarmhouseDelivery(AbstractScraper):
 
     def ingredients(self):
         # Style 1
-        ingredients_marker = self.soup.find("p", text=re.compile(r"Ingredients:"))
+        ingredients_marker = self.soup.find("p", string=re.compile(r"Ingredients:"))
         if ingredients_marker is not None:
             ingredients_marker_siblings = ingredients_marker.next_siblings
             for ingredients_marker_sibling in ingredients_marker_siblings:
@@ -37,7 +37,7 @@ class FarmhouseDelivery(AbstractScraper):
                     ]
 
         # Style 2
-        ingredients_marker = self.soup.find("p", text=re.compile(r"Ingredients"))
+        ingredients_marker = self.soup.find("p", string=re.compile(r"Ingredients"))
         if ingredients_marker is not None:
             ingredients = []
             ingredients_marker_siblings = ingredients_marker.next_siblings
@@ -58,7 +58,7 @@ class FarmhouseDelivery(AbstractScraper):
 
     def _instructions_list(self):
         # Style 1
-        instructions_marker = self.soup.find("p", text=re.compile(r"Instructions:"))
+        instructions_marker = self.soup.find("p", string=re.compile(r"Instructions:"))
         if instructions_marker is not None:
             instructions_marker_siblings = instructions_marker.next_siblings
             for instructions_marker_sibling in instructions_marker_siblings:
@@ -74,7 +74,7 @@ class FarmhouseDelivery(AbstractScraper):
                     ]
 
         # Style 2
-        instructions_marker = self.soup.find("p", text=re.compile(r"Instructions"))
+        instructions_marker = self.soup.find("p", string=re.compile(r"Instructions"))
         if instructions_marker is not None:
             instructions = []
             instructions_marker_siblings = instructions_marker.next_siblings

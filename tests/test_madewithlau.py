@@ -10,7 +10,6 @@ class TestMadeWithLauScraper(ScraperTest):
         self.assertEqual("madewithlau.com", self.harvester_class.host())
 
     def test_author(self):
-        print(self.harvester_class.host())
         self.assertEqual("Made With Lau", self.harvester_class.author())
 
     def test_title(self):
@@ -44,7 +43,7 @@ class TestMadeWithLauScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "16 oz firm tofu",
                 "3 stalks green onion",

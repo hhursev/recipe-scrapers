@@ -13,6 +13,9 @@ class TestEatingWell(ScraperTest):
             self.harvester_class.title(), "Cheesy Ground Beef & Cauliflower Casserole"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Carolyn Casner")
+
     def test_yields(self):
         self.assertEqual("6 servings", self.harvester_class.yields())
 
@@ -23,7 +26,7 @@ class TestEatingWell(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 tablespoon extra-virgin olive oil",
                 "½ cup chopped onion",

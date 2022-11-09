@@ -18,6 +18,9 @@ class TestGimmeSomeOvenScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Sangria")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Ali")
+
     def test_total_time(self):
         self.assertEqual(10, self.harvester_class.total_time())
 
@@ -31,7 +34,7 @@ class TestGimmeSomeOvenScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 bottles Spanish red wine (Rioja wine is most popular)",
                 "1/2 cup brandy",

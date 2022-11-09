@@ -20,6 +20,9 @@ class SweetCsDesignsScraper(ScraperTest):
             self.harvester_class.title(), "The Best Easy Air Fryer French Fries Recipe"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Courtney O'Dell")
+
     def test_total_time(self):
         self.assertEqual(65, self.harvester_class.total_time())
 
@@ -33,7 +36,7 @@ class SweetCsDesignsScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "3 large russet potatoes",
                 "2-3 tablespoons olive oil",

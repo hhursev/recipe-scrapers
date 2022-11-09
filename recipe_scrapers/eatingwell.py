@@ -1,4 +1,5 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -10,6 +11,9 @@ class EatingWell(AbstractScraper):
 
     def title(self):
         return self.schema.title()
+
+    def author(self):
+        return self.soup.find("span", {"class": "author-name"}).get_text()
 
     def image(self):
         return self.schema.image()

@@ -9,10 +9,9 @@ class LAtelierDeRoxane(AbstractScraper):
         return "latelierderoxane.com"
 
     def image(self):
-        image = self.soup.find(
-            "img", {"class": "attachment-single size-single wp-post-image"}
+        return self.soup.find("meta", {"property": "og:image", "content": True}).get(
+            "content"
         )
-        return image["src"] if image else None
 
     def title(self):
         div = self.soup.find("div", {"class": "bloc_titreh1 bloc_blog"})
@@ -38,7 +37,7 @@ class LAtelierDeRoxane(AbstractScraper):
         raw_ingredients = self.soup.find_all("div", {"class": "ingredient"})
         formatted_ingredients = []
         for ingredient in raw_ingredients:
-            formatted_ingredients.append(ingredient.get_text())
+            formatted_ingredients.append(normalize_string(ingredient.get_text()))
         return formatted_ingredients
 
     def instructions(self):

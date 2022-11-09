@@ -21,6 +21,9 @@ class TestFoodScraper(ScraperTest):
             "Chicken Noodle Soup With Carrots, Parsnips and Dill",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "JackieOhNo")
+
     def test_total_time(self):
         self.assertEqual(45, self.harvester_class.total_time())
 
@@ -28,7 +31,7 @@ class TestFoodScraper(ScraperTest):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "8 cups low sodium chicken broth",
                 "1 onion, chopped",

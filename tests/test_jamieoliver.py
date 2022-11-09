@@ -18,6 +18,9 @@ class TestJamieOliverScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Bloomin' brilliant brownies")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Jamie Oliver")
+
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())
 
@@ -31,7 +34,7 @@ class TestJamieOliverScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "200 g quality dark chocolate (70%)",
                 "250 g unsalted butter",

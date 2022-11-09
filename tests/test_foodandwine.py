@@ -16,14 +16,14 @@ class TestFoodAndWineScraper(ScraperTest):
         )
 
     def test_title(self):
-        self.assertEqual("Kwame’s Pepper Shrimp", self.harvester_class.title())
+        self.assertEqual("Kwame's Pepper Shrimp", self.harvester_class.title())
 
-    def test_yields(self):
-        self.assertEqual("4 servings", self.harvester_class.yields())
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Kwame Onwuachi")
 
     def test_image(self):
         self.assertEqual(
-            "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2020%2F08%2F21%2Fpepper-shrimp-FT-RECIPE0920.jpg",
+            "https://www.foodandwine.com/thmb/BZ8hhoqmF0B8KlP_pHSEsxjhxnQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/pepper-shrimp-FT-RECIPE0920-9b30018088cc419f88c91fa33564075c.jpg",
             self.harvester_class.image(),
         )
 
@@ -31,7 +31,7 @@ class TestFoodAndWineScraper(ScraperTest):
         self.assertEqual(20, self.harvester_class.total_time())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1/2 cup unsalted butter (4 ounces)",
                 "5 large garlic cloves, minced",
