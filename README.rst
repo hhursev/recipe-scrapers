@@ -160,6 +160,7 @@ Scrapers available for:
 - `https://gousto.co.uk/ <https://gousto.co.uk>`_
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
 - `https://halfbakedharvest.com/ <https://www.halfbakedharvest.com/>`_
+- `https://handletheheat.com/ <https://handletheheat.com/>`_
 - `https://www.hassanchef.com/ <https://www.hassanchef.com/>`_
 - `https://headbangerskitchen.com/ <https://www.headbangerskitchen.com/>`_
 - `https://www.heb.com/ <https://www.heb.com/recipe/landing>`_
