@@ -1,7 +1,8 @@
-# mypy: disallow_untyped_defs=False
+from __future__ import annotations
+
 import inspect
 from collections import OrderedDict
-from typing import Dict, List, Optional, Tuple, Union
+from typing import Any, Dict, List, Optional, Tuple, Union
 from urllib.parse import urljoin
 
 import requests
@@ -65,41 +66,41 @@ class AbstractScraper:
         """get the host of the url, so we can use the correct scraper"""
         raise NotImplementedError("This should be implemented.")
 
-    def canonical_url(self):
+    def canonical_url(self) -> str | None:
         canonical_link = self.soup.find("link", {"rel": "canonical", "href": True})
         if canonical_link:
             return urljoin(self.url, canonical_link["href"])
         return self.url
 
-    def title(self):
+    def title(self) -> str | None:
         raise NotImplementedError("This should be implemented.")
 
-    def category(self):
+    def category(self) -> str | None:
         raise NotImplementedError("This should be implemented.")
 
-    def total_time(self):
+    def total_time(self) -> float | None:
         """total time it takes to preparate and cook the recipe in minutes"""
         raise NotImplementedError("This should be implemented.")
 
-    def cook_time(self):
+    def cook_time(self) -> float | None:
         """cook time of the recipe in minutes"""
         raise NotImplementedError("This should be implemented.")
 
-    def prep_time(self):
+    def prep_time(self) -> float | None:
         """preparation time of the recipe in minutes"""
         raise NotImplementedError("This should be implemented.")
 
-    def yields(self):
+    def yields(self) -> str | None:
         """The number of servings or items in the recipe"""
         raise NotImplementedError("This should be implemented.")
 
-    def image(self):
+    def image(self) -> str | None:
         raise NotImplementedError("This should be implemented.")
 
-    def nutrients(self):
+    def nutrients(self) -> dict[str, str | None]:
         raise NotImplementedError("This should be implemented.")
 
-    def language(self):
+    def language(self) -> str | list[str] | None:
         """
         Human language the recipe is written in.
 
@@ -130,7 +131,7 @@ class AbstractScraper:
         # Return the first candidate language
         return candidate_languages.popitem(last=False)[0]
 
-    def ingredients(self):
+    def ingredients(self) -> str | None:
         raise NotImplementedError("This should be implemented.")
 
     def instructions(self) -> str:
@@ -145,27 +146,27 @@ class AbstractScraper:
             if instruction
         ]
 
-    def ratings(self):
+    def ratings(self) -> float | None:
         raise NotImplementedError("This should be implemented.")
 
-    def author(self):
+    def author(self) -> str | None:
         raise NotImplementedError("This should be implemented.")
 
-    def cuisine(self):
+    def cuisine(self) -> str | None:
         raise NotImplementedError("This should be implemented.")
 
-    def description(self):
+    def description(self) -> str | None:
         raise NotImplementedError("This should be implemented.")
 
-    def reviews(self):
+    def reviews(self) -> list[dict[str, Any]]:
         raise NotImplementedError("This should be implemented.")
 
-    def links(self):
+    def links(self) -> list[str]:
         invalid_href = {"#", ""}
         links_html = self.soup.findAll("a", href=True)
 
         return [link.attrs for link in links_html if link["href"] not in invalid_href]
 
-    def site_name(self):
+    def site_name(self) -> Union[str, List[str], None]:
         meta = self.soup.find("meta", property="og:site_name")
         return meta.get("content") if meta else None

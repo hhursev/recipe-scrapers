@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import contextlib
-from typing import Any, Optional
+from typing import Any, Dict, Optional, Tuple, Type, Union, cast
 
 from ._abstract import AbstractScraper
 from ._exceptions import NoSchemaFoundInWildMode, WebsiteNotImplementedError
@@ -223,13 +223,13 @@ from .yummly import Yummly
 from .zeitwochenmarkt import ZeitWochenmarkt
 from .zenbelly import ZenBelly
 
-SCRAPERS = {
+SCRAPERS: Dict[str, Type[AbstractScraper]] = {
     ACoupleCooks.host(): ACoupleCooks,
     Abril.host(): Abril,
     AfghanKitchenRecipes.host(): AfghanKitchenRecipes,
     AkisPetretzikis.host(): AkisPetretzikis,
     AlbertHeijn.host(): AlbertHeijn,
-    AllRecipes.host(): AllRecipes,
+    AllRecipes.host(): cast(Type[AbstractScraper], AllRecipes),
     AllTomat.host(): AllTomat,
     AltonBrown.host(): AltonBrown,
     AmazingRibs.host(): AmazingRibs,
@@ -459,26 +459,37 @@ SCRAPERS = {
 }
 
 
-def scrape_me(url_path: str, **options: dict[str, Any]) -> AbstractScraper:
+def scrape_me(
+    url_path: str,
+    proxies: Optional[Dict[str, str]] = None,
+    timeout: Optional[Union[float, Tuple[float, float], Tuple[float, None]]] = None,
+    wild_mode: Optional[bool] = None,
+    html: Union[str, bytes, None] = None,
+) -> AbstractScraper:
     host_name = get_host_name(url_path)
 
     try:
         scraper = SCRAPERS[host_name]
     except KeyError:
-        if not options.get("wild_mode", False):
+        if not wild_mode:
             raise WebsiteNotImplementedError(host_name)
         else:
-            options.pop("wild_mode")
-            wild_scraper = SchemaScraperFactory.generate(url_path, **options)
+            wild_scraper = SchemaScraperFactory.generate(
+                url_path, proxies, timeout, wild_mode, html
+            )
             if not wild_scraper.schema.data:
                 raise NoSchemaFoundInWildMode(url_path)
             return wild_scraper
 
-    return scraper(url_path, **options)
+    return scraper(url_path, proxies, timeout, wild_mode, html)
 
 
 def scrape_html(
-    html: str, org_url: Optional[str] = None, **options: dict[str, Any]
+    html: str | bytes,
+    org_url: Optional[str] = None,
+    proxies: Optional[Dict[str, str]] = None,
+    timeout: Optional[Union[float, Tuple[float, float], Tuple[float, None]]] = None,
+    wild_mode: Optional[bool] = None,
 ) -> AbstractScraper:
     """
     takes a string of html and returns a scraper object. if the org_url is specified
@@ -505,14 +516,26 @@ def scrape_html(
             scraper = SCRAPERS[host_name]
 
     if not scraper:
-        wild_scraper = SchemaScraperFactory.generate(url=org_url, html=html, **options)
+        wild_scraper = SchemaScraperFactory.generate(
+            url=org_url,
+            html=html,
+            proxies=proxies,
+            timeout=timeout,
+            wild_mode=wild_mode,
+        )
 
         if not wild_scraper.schema.data:
             raise NoSchemaFoundInWildMode(org_url)
 
         return wild_scraper
 
-    return scraper(url=org_url, html=html, **options)
+    return scraper(
+        url=org_url,
+        html=html,
+        proxies=proxies,
+        timeout=timeout,
+        wild_mode=wild_mode,
+    )
 
 
 __all__ = ["scrape_me", "scrape_html"]
