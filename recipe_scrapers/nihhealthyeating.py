@@ -2,7 +2,6 @@ from __future__ import annotations
 
 # mypy: disallow_untyped_defs=False
 from dataclasses import dataclass
-from typing import List, Optional
 
 from ._abstract import AbstractScraper
 from ._exceptions import ElementNotFoundInHtml
