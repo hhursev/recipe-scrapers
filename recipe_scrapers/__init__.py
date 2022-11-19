@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import contextlib
-from typing import Any, Dict, Optional, Tuple, Type, Union, cast
+from typing import Dict, Type, cast
 
 from ._abstract import AbstractScraper
 from ._exceptions import NoSchemaFoundInWildMode, WebsiteNotImplementedError
@@ -461,10 +461,10 @@ SCRAPERS: Dict[str, Type[AbstractScraper]] = {
 
 def scrape_me(
     url_path: str,
-    proxies: Optional[Dict[str, str]] = None,
-    timeout: Optional[Union[float, Tuple[float, float], Tuple[float, None]]] = None,
-    wild_mode: Optional[bool] = None,
-    html: Union[str, bytes, None] = None,
+    proxies: dict[str, str] | None = None,
+    timeout: float | tuple[float, float] | tuple[float, None] | None = None,
+    wild_mode: bool | None = None,
+    html: str | bytes | None = None,
 ) -> AbstractScraper:
     host_name = get_host_name(url_path)
 
@@ -486,10 +486,10 @@ def scrape_me(
 
 def scrape_html(
     html: str | bytes,
-    org_url: Optional[str] = None,
-    proxies: Optional[Dict[str, str]] = None,
-    timeout: Optional[Union[float, Tuple[float, float], Tuple[float, None]]] = None,
-    wild_mode: Optional[bool] = None,
+    org_url: str | None = None,
+    proxies: dict[str, str] | None = None,
+    timeout: float | tuple[float, float] | tuple[float, None] | None = None,
+    wild_mode: bool | None = None,
 ) -> AbstractScraper:
     """
     takes a string of html and returns a scraper object. if the org_url is specified

@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 # mypy: disallow_untyped_defs=False
 from dataclasses import dataclass
 from typing import List, Optional
@@ -9,10 +11,10 @@ from ._utils import get_minutes, get_yields, normalize_string
 
 @dataclass
 class IngredientGroup:
-    ingredients: List[str]
-    purpose: Optional[
-        str
-    ] = None  # this group of ingredients is {purpose} (e.g. "For the dressing")
+    ingredients: list[str]
+    purpose: str | None = (
+        None  # this group of ingredients is {purpose} (e.g. "For the dressing")
+    )
 
 
 class NIHHealthyEating(AbstractScraper):
@@ -71,7 +73,7 @@ class NIHHealthyEating(AbstractScraper):
 
         return image_relative_url
 
-    def ingredient_groups(self) -> List[IngredientGroup]:
+    def ingredient_groups(self) -> list[IngredientGroup]:
         # This content must be present for recipes on this website.
         ingredients_div = self.soup.find("div", {"id": "ingredients"})
         section = []
@@ -125,7 +127,7 @@ class NIHHealthyEating(AbstractScraper):
 
         return [IngredientGroup(ingredients_list)]
 
-    def ingredients(self) -> List[str]:
+    def ingredients(self) -> list[str]:
         results = []
         for ingredient_group in self.ingredient_groups():
             results.extend(ingredient_group.ingredients)

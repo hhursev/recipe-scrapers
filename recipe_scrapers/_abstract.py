@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import inspect
 from collections import OrderedDict
-from typing import Any, Dict, List, Optional, Tuple, Union
+from typing import Any
 from urllib.parse import urljoin
 
 import requests
@@ -19,19 +19,19 @@ HEADERS = {
 
 
 class AbstractScraper:
-    page_data: Union[str, bytes]
+    page_data: str | bytes
 
     def __init__(
         self,
-        url: Union[str, None],
-        proxies: Optional[
-            Dict[str, str]
-        ] = None,  # allows us to specify optional proxy server
-        timeout: Optional[
-            Union[float, Tuple[float, float], Tuple[float, None]]
-        ] = None,  # allows us to specify optional timeout for request
-        wild_mode: Optional[bool] = False,
-        html: Union[str, bytes, None] = None,
+        url: str | None,
+        proxies: dict[str, str]
+        | None = None,  # allows us to specify optional proxy server
+        timeout: float
+        | tuple[float, float]
+        | tuple[float, None]
+        | None = None,  # allows us to specify optional timeout for request
+        wild_mode: bool | None = False,
+        html: str | bytes | None = None,
     ):
         if html:
             self.page_data = html
@@ -138,7 +138,7 @@ class AbstractScraper:
         """instructions to prepare the recipe"""
         raise NotImplementedError("This should be implemented.")
 
-    def instructions_list(self) -> List[str]:
+    def instructions_list(self) -> list[str]:
         """instructions to prepare the recipe"""
         return [
             instruction
@@ -167,6 +167,6 @@ class AbstractScraper:
 
         return [link.attrs for link in links_html if link["href"] not in invalid_href]
 
-    def site_name(self) -> Union[str, List[str], None]:
+    def site_name(self) -> str | list[str] | None:
         meta = self.soup.find("meta", property="og:site_name")
         return meta.get("content") if meta else None

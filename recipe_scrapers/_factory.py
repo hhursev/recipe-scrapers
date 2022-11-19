@@ -52,11 +52,11 @@ class SchemaScraperFactory:
     @classmethod
     def generate(
         cls,
-        url: Union[str, None],
-        proxies: Optional[Dict[str, str]] = None,
-        timeout: Optional[Union[float, Tuple[float, float], Tuple[float, None]]] = None,
-        wild_mode: Optional[bool] = None,
-        html: Union[str, bytes, None] = None,
+        url: str | None,
+        proxies: dict[str, str] | None = None,
+        timeout: float | tuple[float, float] | tuple[float, None] | None = None,
+        wild_mode: bool | None = None,
+        html: str | bytes | None = None,
     ) -> SchemaScraper:
         return cls.SchemaScraper(
             url,
