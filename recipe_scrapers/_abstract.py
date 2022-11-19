@@ -69,7 +69,7 @@ class AbstractScraper:
     def canonical_url(self) -> str | None:
         canonical_link = self.soup.find("link", {"rel": "canonical", "href": True})
         if canonical_link:
-            return urljoin(self.url, canonical_link["href"])
+            return urljoin(self.url, canonical_link["href"])  # type: ignore[type-var,return-value,index]
         return self.url
 
     def title(self) -> str | None:
@@ -131,7 +131,7 @@ class AbstractScraper:
         # Return the first candidate language
         return candidate_languages.popitem(last=False)[0]
 
-    def ingredients(self) -> str | None:
+    def ingredients(self) -> list[str] | None:
         raise NotImplementedError("This should be implemented.")
 
     def instructions(self) -> str:
