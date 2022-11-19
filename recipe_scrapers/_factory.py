@@ -1,5 +1,6 @@
 from __future__ import annotations
-from typing import Optional, Dict, Union, Tuple
+
+from typing import Dict, Optional, Tuple, Union
 
 from ._abstract import AbstractScraper
 from ._utils import get_host_name
