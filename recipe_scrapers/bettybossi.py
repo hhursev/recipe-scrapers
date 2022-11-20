@@ -1,11 +1,10 @@
 from __future__ import annotations
 
-# mypy: disallow_untyped_defs=False
-from typing import Dict, Optional, Tuple, Union
-
 from requests import Session
 
 from ._abstract import HEADERS, AbstractScraper
+
+# mypy: disallow_untyped_defs=False
 
 
 class BettyBossi(AbstractScraper):
