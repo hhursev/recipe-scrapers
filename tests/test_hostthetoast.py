@@ -18,6 +18,9 @@ class TestHostthetoastScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Homemade Garlic Naan")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Morgan")
+
     def test_yields(self):
         self.assertEqual("12 servings", self.harvester_class.yields())
 
@@ -28,7 +31,7 @@ class TestHostthetoastScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1/4 cup warm water",
                 "1 tablespoon sugar",

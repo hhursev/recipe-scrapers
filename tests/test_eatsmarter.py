@@ -2,7 +2,7 @@ from recipe_scrapers.eatsmarter import Eatsmarter
 from tests import ScraperTest
 
 
-class TestClosetCooking(ScraperTest):
+class TestEatSmarter(ScraperTest):
 
     scraper_class = Eatsmarter
 
@@ -20,6 +20,9 @@ class TestClosetCooking(ScraperTest):
             self.harvester_class.title(), "Citrus Avocado Salad with Almonds"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "EAT SMARTER")
+
     def test_total_time(self):
         self.assertEqual(20, self.harvester_class.total_time())
 
@@ -27,16 +30,16 @@ class TestClosetCooking(ScraperTest):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
-                "2 tablespoons Sliced almonds",
+                "2 Tbsps slivered almonds",
                 "2 stalks Celery",
-                "2 ounces green Olives (pitted)",
+                "2 ozs green Olives (pitted)",
                 "3 Oranges",
                 "1 pink Grapefruit",
-                "1 Belgian endive",
+                "1 Endive",
                 "1 Avocado",
-                "2 tablespoons Olive oil",
+                "2 Tbsps olive oil",
             ],
             self.harvester_class.ingredients(),
         )

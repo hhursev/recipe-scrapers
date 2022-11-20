@@ -33,7 +33,7 @@ class TestPaniniHappyScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "4 tablespoons unsalted butter, divided",
                 "4 cups prepared macaroni and cheese, warmed",

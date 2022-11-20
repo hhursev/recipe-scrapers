@@ -21,6 +21,9 @@ class TestPurpleCarrotScraper(ScraperTest):
             self.harvester_class.title(),
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Purple Carrot")
+
     def test_yields(self):
         self.assertEqual("2 servings", self.harvester_class.yields())
 
@@ -34,7 +37,7 @@ class TestPurpleCarrotScraper(ScraperTest):
         self.assertEqual(30, self.harvester_class.total_time())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "¾ cup brown lentils",
                 "6 oz cauliflower florets",

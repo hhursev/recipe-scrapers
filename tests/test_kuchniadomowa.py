@@ -18,6 +18,9 @@ class TestKuchniaDomowaScraper(ScraperTest):
     def test_title(self):
         self.assertEqual("Mizeria", self.harvester_class.title())
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Kuchnia Domowa")
+
     def test_total_time(self):
         self.assertEqual(30, self.harvester_class.total_time())
 
@@ -34,7 +37,7 @@ class TestKuchniaDomowaScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "600 g świeżych ogórków gruntowych (lub długich, szklarniowych)*",
                 "300 g gęstej, kwaśnej śmietany 18% lub jogurtu typu greckiego",

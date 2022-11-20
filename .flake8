@@ -6,5 +6,6 @@ max-line-length = 88
 max-complexity = 18
 select = B,C,E,F,W,T4,B9
 exclude =
+    ./.tox/
     ./.venv/
     ./venv/

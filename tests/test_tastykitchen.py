@@ -18,6 +18,9 @@ class TestTastyKitchenScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Restaurant Style Salsa")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Ree | The Pioneer Woman")
+
     def test_total_time(self):
         self.assertEqual(10, self.harvester_class.total_time())
 
@@ -31,7 +34,7 @@ class TestTastyKitchenScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 can (28 Ounce) Whole Tomatoes With Juice",
                 "2 cans (10 Ounce) Rotel (diced Tomatoes And Green Chilies)",

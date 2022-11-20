@@ -20,6 +20,9 @@ class TestVanillaAndBeanScraper(ScraperTest):
             self.harvester_class.title(), "Maple Oat Sourdough Sandwich Bread"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Traci York | Vanilla And Bean")
+
     def test_yields(self):
         self.assertEqual("1 serving", self.harvester_class.yields())
 

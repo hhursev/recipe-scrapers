@@ -1,6 +1,7 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._exceptions import SchemaOrgException
+from ._utils import normalize_string
 
 
 class Lecker(AbstractScraper):
@@ -12,7 +13,16 @@ class Lecker(AbstractScraper):
         return self.schema.author()
 
     def title(self):
-        return self.schema.title()
+        try:
+            return self.schema.title()
+        except TypeError:
+            return (
+                self.soup.find(
+                    "header", {"class": "article-header article-header--article"}
+                )
+                .find("h1")
+                .get_text()
+            )
 
     def category(self):
         return self.schema.category()
@@ -36,7 +46,13 @@ class Lecker(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        return self.schema.instructions()
+        if self.schema.instructions():
+            return self.schema.instructions()
+        else:
+            divs = self.soup.find_all("div", {"class": "js-quizToggle"})
+            for d in divs:
+                if d.find("span", "article__shifted-jump-label"):
+                    return normalize_string(d.get_text())
 
     def ratings(self):
         return self.schema.ratings()

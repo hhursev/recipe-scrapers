@@ -16,14 +16,17 @@ class TestGloboScraper(ScraperTest):
         )
 
     def test_title(self):
-        self.assertEqual("Strogonoff de Frango Simples", self.harvester_class.title())
+        self.assertEqual("Strogonoff de frango", self.harvester_class.title())
+
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Alm3")
 
     def test_yields(self):
         self.assertEqual("8 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
-            "https://s2.glbimg.com/idlMgKR80VkIYBguqV_c2gOTHCQ=/696x390/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2020/4/r/9xz2kyQHKWlgkAthy9tA/estrogonofe-de-frango.jpg",
+            "https://s2.glbimg.com/hXxPtwuPHqQUp2w3pdklGQHBznM=/696x390/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2022/8/O/xH9h1GSnW1LhMobyL7hQ/strogonoff-de-frango-receita.jpg",
             self.harvester_class.image(),
         )
 
@@ -31,23 +34,22 @@ class TestGloboScraper(ScraperTest):
         self.assertEqual(50, self.harvester_class.total_time())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
-                "1 quilo de peito de frango sem pele",
-                "1 tablete de caldo de galinha",
                 "3 colheres de sopa de óleo",
-                "2 latas de creme de leite sem soro",
+                "1 tablete de caldo de galinha",
+                "1 quilo de peito de frango em cubos",
                 "2 colheres de sopa de molho de tomate",
-                "2 colheres de sopa de ketchup",
                 "2 colheres de sopa de mostarda",
-                "Champignon",
-                "Batata palha e arroz branco para acompanhar",
+                "2 colheres de sopa de ketchup",
+                "Champignon a gosto",
+                "1 lata de creme de leite sem soro",
             ],
             self.harvester_class.ingredients(),
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            "1. Em uma panela a fogo médio, acrescente o óleo e o caldo de galinha e, dissolva o caldo. Logo em seguida coloque o frango picado em cubos na panela e deixe cozinhar, sempre dando uma olhadinha para não queimar.\n2. Assim que o frango estiver bem cozido, acrescente o molho de tomate, o ketchup, a mostarda e champignon a gosto.\n3. Abaixe o fogo e coloque o creme de leite e mexa bem até se tornar um creme homogêneo.\n4. Está pronto para servir.",
+            "1 Em uma panela, coloque 3 colheres de sopa de óleo e 1 tablete de caldo de galinha. Espere aquecer para dissolver o tablete.\n2 Em seguida, adicione 1 quilo de peito de frango em cubos e deixe dourar.\n3 Depois, acrescente 2 colheres de sopa de molho de tomate, 2 colheres de sopa de mostarda, 2 colheres de sopa de ketchup e champignon a gosto. Misture.\n4 Desligue o fogo e acrescente 1 lata de creme de leite. Misture novamente.\n5 Sirva em seguida.",
             self.harvester_class.instructions(),
         )

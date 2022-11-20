@@ -18,6 +18,9 @@ class TestSimplyRecipesScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "One-Pot Chicken and Rice Soup")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Aaron Hutcherson")
+
     def test_total_time(self):
         self.assertEqual(45, self.harvester_class.total_time())
 
@@ -26,7 +29,7 @@ class TestSimplyRecipesScraper(ScraperTest):
         self.assertEqual("8 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 bone-in chicken breasts, skin removed (1 to 1 1/2 pounds)",
                 "1 cup long-grain white rice, like basmati",

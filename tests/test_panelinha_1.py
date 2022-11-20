@@ -5,10 +5,7 @@ from tests import ScraperTest
 class TestPanelinhaScraper(ScraperTest):
 
     scraper_class = Panelinha
-
-    @property
-    def test_file_name(self):
-        return "{}_1".format(self.scraper_class.__name__.lower())
+    test_file_name = "panelinha_1"
 
     def test_host(self):
         self.assertEqual("panelinha.com.br", self.harvester_class.host())
@@ -16,14 +13,17 @@ class TestPanelinhaScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Rosbife")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Panelinha")
+
     def test_total_time(self):
         self.assertEqual(60, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("Até 4 porções", self.harvester_class.yields())
+        self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 peça de filé mignon para rosbife (cerca de 750 g)",
                 "1 colher (chá) de mostarda amarela em pó",

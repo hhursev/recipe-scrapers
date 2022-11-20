@@ -11,12 +11,17 @@ class TestPracticalSelfRelianceScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://practicalselfreliance.com/zucchini-relish/",
+            "https://creativecanning.com/zucchini-relish/",
             self.harvester_class.canonical_url(),
         )
 
     def test_title(self):
-        self.assertEqual(self.harvester_class.title(), "Zucchini Relish")
+        self.assertEqual(
+            self.harvester_class.title(), "Zucchini Relish Recipe for Canning"
+        )
+
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Ashley Adamant")
 
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())
@@ -26,7 +31,7 @@ class TestPracticalSelfRelianceScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://i0.wp.com/practicalselfreliance.com/wp-content/uploads/2021/02/Zucchini-Relish-21.jpg?resize=720%2C720&ssl=1",
+            "https://creativecanning.com/wp-content/uploads/2021/02/Zucchini-Relish-61-720x720.jpg",
             self.harvester_class.image(),
         )
 

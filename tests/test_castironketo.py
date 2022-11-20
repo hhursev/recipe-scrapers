@@ -20,6 +20,9 @@ class TestCastIronKetoScraper(ScraperTest):
             self.harvester_class.title(), "Keto Jalapeño Popper Casserole with Chicken"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Cast Iron Keto")
+
     def test_yields(self):
         self.assertEqual("6 servings", self.harvester_class.yields())
 

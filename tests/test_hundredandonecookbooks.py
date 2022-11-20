@@ -18,6 +18,9 @@ class TestHundredAndOneCookbooksScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Blood Orange Gin Sparkler")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Heidi Swanson")
+
     def test_total_time(self):
         self.assertEqual(15, self.harvester_class.total_time())
 
@@ -26,12 +29,12 @@ class TestHundredAndOneCookbooksScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://images.101cookbooks.com/gin_sparkler.jpg?w=680&auto=format",
+            "https://images.101cookbooks.com/gin_sparkler.jpg?w=1200&auto=format",
             self.harvester_class.image(),
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 cups / 480 ml water",
                 "1 cup / 6.5 oz / 185 g sugar",

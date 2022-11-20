@@ -31,7 +31,7 @@ class TestRachlMansfieldScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 cup tahini*",
                 "1/4 cup maple syrup",

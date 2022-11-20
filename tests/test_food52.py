@@ -21,6 +21,9 @@ class TestFood52(ScraperTest):
             "Sticky Pomegranate & Black Pepper Chicken Wings",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Sohla El-Waylly")
+
     def test_total_time(self):
         self.assertEqual(1520, self.harvester_class.total_time())
 
@@ -28,7 +31,7 @@ class TestFood52(ScraperTest):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 to 2 1/4 pounds chicken wings",
                 "1 tablespoon kosher salt",

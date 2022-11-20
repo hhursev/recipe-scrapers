@@ -21,6 +21,9 @@ class TestHalfBakedHarvestScraper(ScraperTest):
             "Brown Butter Corn and Feta Orzo with Crispy Prosciutto",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "halfbakedharvest")
+
     def test_yields(self):
         self.assertEqual("6 servings", self.harvester_class.yields())
 
@@ -31,7 +34,7 @@ class TestHalfBakedHarvestScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 pound dry orzo pasta",
                 "3 ounces prosciutto, torn",

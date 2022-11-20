@@ -21,6 +21,9 @@ class TestKochbarScraper(ScraperTest):
             "Ligurisches Hühnerragout mit Zucchini – Spezzatino con zucchine",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Antareja")
+
     def test_yields(self):
         self.assertEqual("2 servings", self.harvester_class.yields())
 
@@ -31,7 +34,7 @@ class TestKochbarScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "250 g Hühnerbrust, ohne Knochen",
                 "3 mittelgross Knoblauchzehen, frisch",

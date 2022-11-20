@@ -18,6 +18,9 @@ class TestMisya(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Tortino cuore caldo")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Flavia Imperatore")
+
     def test_total_time(self):
         self.assertEqual(35, self.harvester_class.total_time())
 
@@ -31,7 +34,7 @@ class TestMisya(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 di uova",
                 "2 di tuorli",

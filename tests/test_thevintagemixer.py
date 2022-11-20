@@ -21,6 +21,9 @@ class TestTheVintageMixerScraper(ScraperTest):
             "Gluten Free and Sugar Free Cherry Baby Smash Cake",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Becky")
+
     def test_total_time(self):
         self.assertEqual(35, self.harvester_class.total_time())
 
@@ -31,7 +34,7 @@ class TestTheVintageMixerScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 tablespoons coconut flour, +1 teaspoon",
                 "1/4 cup almond flour",

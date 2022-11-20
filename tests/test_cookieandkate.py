@@ -20,6 +20,9 @@ class TestCookieAndKateScraper(ScraperTest):
             self.harvester_class.title(), "Broccoli, Cheddar & Spinach Frittata"
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Cookie and Kate")
+
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())
 
@@ -27,7 +30,7 @@ class TestCookieAndKateScraper(ScraperTest):
         self.assertEqual("8 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "8 SimplyNature Organic Cage Free Eggs",
                 "½ cup milk of choice",

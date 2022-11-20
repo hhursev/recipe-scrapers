@@ -2,25 +2,18 @@
 import re
 
 from ._abstract import AbstractScraper
+from ._utils import normalize_string
 
 BULLET_CHARACTER_ORD = 8226
 
 
 class NutritionByNathalie(AbstractScraper):
-    ingredientMatch = re.compile(r"Ingredients:")
-
     @classmethod
     def host(cls):
         return "nutritionbynathalie.com"
 
     def title(self):
         return self.soup.find("h1").get_text()
-
-    def total_time(self):
-        return 0
-
-    def yields(self):
-        return None
 
     def image(self):
         try:
@@ -30,30 +23,22 @@ class NutritionByNathalie(AbstractScraper):
 
     def ingredients(self):
         ingredients = []
-
-        elements = self.soup.find_all(string=self.ingredientMatch)
-        for outerElement in elements:
-            title = outerElement.find_parent("p")
-            if not title:
-                continue
-            element = title.nextSibling
-            while element:
-                ingredient = element.get_text()
-                if len(ingredient) == 0 or ord(ingredient[0]) != BULLET_CHARACTER_ORD:
-                    break
+        element = self.soup.find(string=re.compile(r"Ingredients:"))
+        parent_div = element.find_parent("div")
+        paragraphs = parent_div.find_all("p")
+        for paragraph in paragraphs:
+            ingredient = paragraph.get_text()
+            if ord(ingredient[0]) == BULLET_CHARACTER_ORD:
                 ingredients.append(ingredient[2:])
-                element = element.nextSibling
 
         return ingredients
 
     def instructions(self):
-        title = self.soup.find(string="Directions:").find_parent("p")
+        element = self.soup.find(string=re.compile("Directions:"))
+        parent_div = element.find_parent("div")
+        li_items = parent_div.find_all("li")
 
-        instructions = []
-        for child in title.nextSibling.find_all("li"):
-            instructions.append(child.get_text())
-
-        return "\n".join(instructions)
+        return "\n".join([normalize_string(li_item.get_text()) for li_item in li_items])
 
     def ratings(self):
         return None

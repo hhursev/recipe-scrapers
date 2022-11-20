@@ -34,7 +34,7 @@ class TestTheNutritiousKitchenScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "2 cups finely ground almond flour",
                 "3 TBSP cassava flour or coconut flour",

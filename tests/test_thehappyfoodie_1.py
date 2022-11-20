@@ -5,10 +5,7 @@ from tests import ScraperTest
 class TestTheHappyFoodie(ScraperTest):
 
     scraper_class = TheHappyFoodie
-
-    @property
-    def test_file_name(self):
-        return "{}_1".format(self.scraper_class.__name__.lower())
+    test_file_name = "thehappyfoodie_1"
 
     def test_host(self):
         self.assertEqual("thehappyfoodie.co.uk", self.harvester_class.host())
@@ -26,7 +23,7 @@ class TestTheHappyFoodie(ScraperTest):
         self.assertEqual("6 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "150ml red wine",
                 "100g tomato paste",

@@ -15,6 +15,9 @@ class TestInnitScraper(ScraperTest):
             self.harvester_class.title(),
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Innit Inc")
+
     def test_total_time(self):
         self.assertEqual(51, self.harvester_class.total_time())
 

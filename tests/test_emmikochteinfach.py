@@ -32,7 +32,7 @@ class TestEmmiKochtEinfachScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "600 g Rindergulasch (ca. 3x3 cm große Stücke, gegebenenfalls selbst kleiner schneiden)",
                 "400 ml Rinderfond (selbstgemacht oder aus dem Glas)",

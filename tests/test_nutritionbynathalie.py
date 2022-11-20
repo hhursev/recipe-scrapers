@@ -11,24 +11,21 @@ class TestNutritionByNathalieScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://www.nutritionbynathalie.com/single-post/2020/07/30/Mexican-Cauliflower-Rice",
+            "https://www.nutritionbynathalie.com/single-post/2020/07/30/mexican-cauliflower-rice",
             self.harvester_class.canonical_url(),
         )
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Mexican Cauliflower Rice")
 
-    def test_yields(self):
-        self.assertEqual(None, self.harvester_class.yields())
-
     def test_image(self):
         self.assertEqual(
-            "https://static.wixstatic.com/media/d3b5ba_7ae468273837425aa869486557b06bac~mv2.jpg/v1/fill/w_473,h_565,al_c,q_80,usm_0.66_1.00_0.01/d3b5ba_7ae468273837425aa869486557b06bac~mv2.jpg",
+            "https://static.wixstatic.com/media/d3b5ba_7ae468273837425aa869486557b06bac~mv2.jpg/v1/fit/w_1000%2Ch_1000%2Cal_c%2Cq_80/file.jpg",
             self.harvester_class.image(),
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 bag fresh or frozen cauliflower rice (if using fresh cauliflower rice, add olive oil, avocado oil or coconut oil to pan)",
                 "1-2 Tbsp olive oil",

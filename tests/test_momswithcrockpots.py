@@ -18,6 +18,9 @@ class TestMomsWithCrockPotsScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Crockpot Macaroni & Cheese")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Karen McCormick")
+
     def test_total_time(self):
         self.assertEqual(225, self.harvester_class.total_time())
 
@@ -25,7 +28,7 @@ class TestMomsWithCrockPotsScraper(ScraperTest):
         self.assertEqual("6 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "8 ounces macaroni",
                 "2 teaspoons olive oil",

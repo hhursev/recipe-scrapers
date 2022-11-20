@@ -27,6 +27,9 @@ class TestOhSheGlowsScraper(ScraperTest):
             "Obsession-Worthy Peanut Butter Cookie Ice Cream",
         )
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Angela Liddon")
+
     def test_ratings(self):
         self.assertEqual(self.harvester_class.ratings(), 4.67)
 
@@ -37,7 +40,7 @@ class TestOhSheGlowsScraper(ScraperTest):
         self.assertEqual("8 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 batch Flourless Peanut Butter Cookies, divided",
                 "2 (14-ounce/398 mL) cans full-fat coconut milk*",

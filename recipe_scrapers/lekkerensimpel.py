@@ -29,18 +29,10 @@ class LekkerEnSimpel(AbstractScraper):
         return image["content"] if image else None
 
     def ingredients(self):
-        ingredients = self.soup.find("div", {"class": "recipe__necessities"}).find_all(
-            "li"
-        )
-        return [normalize_string(i.get_text()) for i in ingredients]
+        return self.schema.ingredients()
 
     def instructions(self):
-        instructions = self.soup.find("div", {"class": "entry__content"}).find_all("p")
-        return "\n".join(
-            [normalize_string(i.get_text()) for i in instructions]
-            if instructions
-            else None
-        )
+        return self.schema.instructions()
 
     def ratings(self):
         return self.schema.ratings()
@@ -49,8 +41,7 @@ class LekkerEnSimpel(AbstractScraper):
         return self.schema.cuisine()
 
     def description(self):
-        description = self.soup.find("div", {"class": "entry__content"}).find("p").text
-        return normalize_string(description) if description else None
+        return self.schema.description()
 
     def language(self):
         return "nl-NL"

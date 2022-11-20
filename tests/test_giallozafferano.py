@@ -18,6 +18,9 @@ class TestGialloZafferanoScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Bavarese alle fragole")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "GialloZafferano")
+
     def test_total_time(self):
         self.assertEqual(45, self.harvester_class.total_time())
 
@@ -25,7 +28,7 @@ class TestGialloZafferanoScraper(ScraperTest):
         self.assertEqual("10 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "Latte intero 200 ml",
                 "Tuorli 3",

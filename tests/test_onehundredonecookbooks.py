@@ -28,7 +28,7 @@ class TestOneHundredOneCookBooksScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "1 14-ounce can of full fat coconut milk",
                 "3 cloves garlic, smashed",

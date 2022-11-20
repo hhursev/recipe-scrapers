@@ -5,17 +5,14 @@ from tests import ScraperTest
 class TestFarmhouseDeliveryScraper(ScraperTest):
 
     scraper_class = FarmhouseDelivery
-
-    @property
-    def test_file_name(self):
-        return "{}_2".format(self.scraper_class.__name__.lower())
+    test_file_name = "farmhousedelivery_2"
 
     def test_host(self):
         self.assertEqual("recipes.farmhousedelivery.com", self.harvester_class.host())
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://recipes.farmhousedelivery.com/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/",
+            "http://recipes.farmhousedelivery.com/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/",
             self.harvester_class.canonical_url(),
         )
 
@@ -61,6 +58,6 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "http://recipes.farmhousedelivery.com/wp-content/uploads/2019/05/FHD-Chic-Thigh-Recipe-225x300.jpeg",
+            "http://recipesfhd.wpengine.com/wp-content/uploads/2019/05/FHD-Chic-Thigh-Recipe-225x300.jpeg",
             self.harvester_class.image(),
         )

@@ -17,6 +17,9 @@ class TestTheKitchenMagPie(ScraperTest):
     def test_title(self):
         self.assertEqual("Salmon Loaf", self.harvester_class.title())
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Karlynn Johnston")
+
     def test_total_time(self):
         self.assertEqual(70, self.harvester_class.total_time())
 
@@ -24,7 +27,7 @@ class TestTheKitchenMagPie(ScraperTest):
         self.assertEqual("8 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "16 ounces of canned salmon (drained)",
                 "1 cup seasoned fine breadcrumbs",
