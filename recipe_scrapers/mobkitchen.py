@@ -18,12 +18,6 @@ class MobKitchen(AbstractScraper):
                 break
 
         recipe_schema = json.loads(recipe_schema)
-
-        # MobKitchen don't follow the Recipe schema correctly, so this fixes
-        # the formatting so the Schema is parsed correctly.
-        for instruction in recipe_schema["recipeInstructions"]:
-            instruction["text"] = instruction["text"]["result"]
-
         self.schema = SchemaOrg(recipe_schema, raw=True)
 
     @classmethod
