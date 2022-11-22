@@ -84,6 +84,7 @@ from .gonnawantseconds import GonnaWantSeconds
 from .goustojson import GoustoJson
 from .greatbritishchefs import GreatBritishChefs
 from .halfbakedharvest import HalfBakedHarvest
+from .handletheheat import HandleTheHeat
 from .hassanchef import HassanChef
 from .headbangerskitchen import HeadbangersKitchen
 from .heb import HEB
@@ -305,6 +306,7 @@ SCRAPERS = {
     GreatBritishChefs.host(): GreatBritishChefs,
     HEB.host(): HEB,
     HalfBakedHarvest.host(): HalfBakedHarvest,
+    HandleTheHeat.host(): HandleTheHeat,
     HassanChef.host(): HassanChef,
     HeadbangersKitchen.host(): HeadbangersKitchen,
     HeinzBrasil.host(): HeinzBrasil,
