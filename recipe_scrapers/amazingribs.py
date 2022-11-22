@@ -1,11 +1,19 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow_untyped_defs
+
 from ._abstract import AbstractScraper
+from ._utils import normalize_string
 
 
 class AmazingRibs(AbstractScraper):
     @classmethod
     def host(cls):
         return "amazingribs.com"
+
+    def author(self):
+        author_container = self.soup.find("p", {"class": "author-attribution"})
+        if author_container and author_container.find("a"):
+            return normalize_string(author_container.find("a").text)
+        return self.schema.author()
 
     def title(self):
         return self.schema.title()
