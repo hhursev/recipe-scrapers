@@ -187,6 +187,7 @@ from .steamykitchen import SteamyKitchen
 from .streetkitchen import StreetKitchen
 from .sunbasket import SunBasket
 from .sundpaabudget import SundPaaBudget
+from .sunset import Sunset
 from .sweetcsdesigns import SweetCsDesigns
 from .sweetpeasandsaffron import SweetPeasAndSaffron
 from .tasteofhome import TasteOfHome
@@ -422,6 +423,7 @@ SCRAPERS = {
     StreetKitchen.host(): StreetKitchen,
     SunBasket.host(): SunBasket,
     SundPaaBudget.host(): SundPaaBudget,
+    Sunset.host(): Sunset,
     SweetCsDesigns.host(): SweetCsDesigns,
     SweetPeasAndSaffron.host(): SweetPeasAndSaffron,
     TasteOfHome.host(): TasteOfHome,
