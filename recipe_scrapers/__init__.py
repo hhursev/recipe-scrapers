@@ -157,6 +157,7 @@ from .pingodoce import PingoDoce
 from .popsugar import PopSugar
 from .practicalselfreliance import PracticalSelfReliance
 from .primaledgehealth import PrimalEdgeHealth
+from .projectgezond import ProjectGezond
 from .przepisy import Przepisy
 from .purelypope import PurelyPope
 from .purplecarrot import PurpleCarrot
@@ -391,6 +392,7 @@ SCRAPERS = {
     PracticalSelfReliance.host(): PracticalSelfReliance,
     PracticalSelfReliance.host(domain="creativecanning.com"): PracticalSelfReliance,
     PrimalEdgeHealth.host(): PrimalEdgeHealth,
+    ProjectGezond.host(): ProjectGezond,
     Przepisy.host(): Przepisy,
     PurelyPope.host(): PurelyPope,
     PurpleCarrot.host(): PurpleCarrot,
