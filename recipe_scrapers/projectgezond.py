@@ -13,11 +13,11 @@ class ProjectGezond(AbstractScraper):
         return "Project Gezond"
 
     def title(self):
-        return self.soup.find("h1", {"class": "entry-title"}).get_text()
+        return self.soup.find("h1", {"class": "entry-title"}).text
 
     def category(self):
         return [
-            element.get_text()
+            element.text
             for element in self.soup.find("span", {"class": "meta-category"}).find_all(
                 "a", {"class": lambda x: x is not None and x.startswith("category")}
             )
@@ -27,44 +27,44 @@ class ProjectGezond(AbstractScraper):
         time_element = self.soup.find("em", string="Bereidingstijd:").parent
         return "".join(
             [
-                element.get_text()
+                element.text
                 for element in time_element.children
-                if element.get_text() != "Bereidingstijd:"
+                if element.text != "Bereidingstijd:"
             ]
         ).strip()
 
     def yields(self):
+        # Match everything in the h2 with 'Dit heb je nodig'
+        # The text inside the parentheses contains the yield for the ingredients that are listed
         return re.search(
-            r"\(([^)]+)",
+            r"Dit heb je nodig \(([^)]+)",
             self.soup.find(
                 "h2", string=lambda x: x.startswith("Dit heb je nodig")
-            ).get_text(),
+            ).text,
         ).group(1)
 
     def image(self):
         return self.schema.image()
 
     def ingredients(self):
-        # Sadly, there is no other way to find the start of the ingredients than to look for the string content
         ingredients_table = self.soup.find(
             "h2", string=lambda x: x.startswith("Dit heb je nodig")
         ).next_sibling.next_sibling
         ingredients = [
-            ingredient.get_text()
+            ingredient.text
             for ingredient in ingredients_table
-            if ingredient.get_text().strip()
+            if ingredient.text.strip()
         ]
         return ingredients
 
     def instructions(self):
-        # Sadly, there is no other way to find the start of the instructions than to look for the string content
         instructions_table = self.soup.find(
             "h2", string=lambda x: x.startswith("Zo maak je het")
         ).next_sibling.next_sibling.next_sibling.next_sibling
         instructions = [
-            instruction.get_text()
+            instruction.text
             for instruction in instructions_table
-            if instruction.get_text().strip()
+            if instruction.text.strip()
         ]
         return "\n".join(instructions).strip()
 
@@ -84,9 +84,9 @@ class ProjectGezond(AbstractScraper):
         description = ""
         for content_element in content_start.children:
             # If we reach this, the ingredients are listed and the description is complete
-            if content_element.get_text().startswith("Dit heb je nodig"):
+            if content_element.text.startswith("Dit heb je nodig"):
                 break
 
-            description += content_element.get_text()
+            description += content_element.text
 
         return description.strip()
