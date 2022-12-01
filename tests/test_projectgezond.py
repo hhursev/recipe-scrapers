@@ -18,7 +18,7 @@ class TestProjectGezondScraper(ScraperTest):
         self.assertEqual("Boeuf bourguignon", self.harvester_class.title())
 
     def test_category(self):
-        self.assertEqual(["Diner", "Kerstrecepten"], self.harvester_class.category())
+        self.assertEqual("Diner, Kerstrecepten", self.harvester_class.category())
 
     def test_total_time(self):
         self.assertEqual("30 minuten + 2 uur stoven", self.harvester_class.total_time())

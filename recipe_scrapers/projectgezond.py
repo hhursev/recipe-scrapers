@@ -16,12 +16,16 @@ class ProjectGezond(AbstractScraper):
         return self.soup.find("h1", {"class": "entry-title"}).text
 
     def category(self):
-        return [
-            element.text
-            for element in self.soup.find("span", {"class": "meta-category"}).find_all(
-                "a", {"class": lambda x: x is not None and x.startswith("category")}
-            )
-        ]
+        return ", ".join(
+            [
+                element.text
+                for element in self.soup.find(
+                    "span", {"class": "meta-category"}
+                ).find_all(
+                    "a", {"class": lambda x: x is not None and x.startswith("category")}
+                )
+            ]
+        )
 
     def total_time(self):
         time_element = self.soup.find("em", string="Bereidingstijd:").parent
