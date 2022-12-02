@@ -13,7 +13,7 @@ class fok_Schema(SchemaOrg):
 
     def category(self):
         cat = super().category()
-        r = re.compile('.*<a href="\S+">(.*)</a>')
+        r = re.compile('.*<a href="\S+">(.+)</a>')
         m = r.match(cat)
         if m:
             return normalize_string(m[1])
