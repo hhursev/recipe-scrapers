@@ -4,7 +4,7 @@ from ._utils import normalize_string
 from ._schemaorg import SchemaOrg
 from typing import Dict, List, Optional, Tuple, Union
 
-import re, html
+import re
 
 class fok_Schema(SchemaOrg):
     def __init__(self, page_data, raw=False):
@@ -15,7 +15,7 @@ class fok_Schema(SchemaOrg):
         r = re.compile('.*<a href="\S+">(.*)</a>')
         m = r.match(cat)
         if m:
-            return html.unescape(m[1])
+            return normalize_string(m[1])
         return cat
 
 
