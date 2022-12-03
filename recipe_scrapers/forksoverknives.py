@@ -3,8 +3,8 @@ from ._abstract import AbstractScraper
 from ._utils import normalize_string
 from ._schemaorg import SchemaOrg
 from typing import Dict, List, Optional, Tuple, Union
-
 import re
+
 
 class fok_Schema(SchemaOrg):
     def __init__(self, page_data, raw=False):
@@ -36,7 +36,9 @@ class ForksOverKnives(AbstractScraper):
         wild_mode: Optional[bool] = False,
         html: Union[str, bytes, None] = None,
     ):
-        super().__init__(url=url, proxies=proxies, timeout=timeout, wild_mode=wild_mode, html=html)
+        super().__init__(
+            url=url, proxies=proxies, timeout=timeout, wild_mode=wild_mode, html=html
+        )
         self.schema = fok_Schema(self.page_data)
 
     def author(self):
