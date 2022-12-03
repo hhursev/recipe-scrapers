@@ -1,9 +1,10 @@
 # mypy: disallow_untyped_defs=False
-from ._abstract import AbstractScraper
-from ._utils import normalize_string
-from ._schemaorg import SchemaOrg
-from typing import Dict, List, Optional, Tuple, Union
 import re
+from typing import Dict, List, Optional, Tuple, Union
+
+from ._abstract import AbstractScraper
+from ._schemaorg import SchemaOrg
+from ._utils import normalize_string
 
 
 class fok_Schema(SchemaOrg):
