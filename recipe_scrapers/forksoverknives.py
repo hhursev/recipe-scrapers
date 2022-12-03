@@ -1,6 +1,6 @@
 # mypy: disallow_untyped_defs=False
 import re
-from typing import Dict, List, Optional, Tuple, Union
+from typing import Dict, Optional, Tuple, Union
 
 from ._abstract import AbstractScraper
 from ._schemaorg import SchemaOrg
@@ -13,7 +13,7 @@ class fok_Schema(SchemaOrg):
 
     def category(self):
         cat = super().category()
-        r = re.compile('.*<a href="\S+">(.+)</a>')
+        r = re.compile('.*<a href=".+">(.+)</a>')
         m = r.match(cat)
         if m:
             return normalize_string(m[1])
