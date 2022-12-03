@@ -78,3 +78,6 @@ class ForksOverKnives(AbstractScraper):
         ratings = ratings[1:]
         # return the first element
         return float(ratings.split()[0])
+
+    def category(self):
+        return self.schema.category()
