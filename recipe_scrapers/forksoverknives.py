@@ -8,8 +8,6 @@ from ._utils import normalize_string
 
 
 class fok_Schema(SchemaOrg):
-    def __init__(self, page_data, raw=False):
-        super().__init__(page_data)
 
     def category(self):
         cat = super().category()
