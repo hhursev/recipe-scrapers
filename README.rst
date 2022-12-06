@@ -242,6 +242,7 @@ Scrapers available for:
 - `https://popsugar.com/ <https://popsugar.com>`_
 - `https://practicalselfreliance.com/ <https://practicalselfreliance.com>`_
 - `https://www.primaledgehealth.com/ <https://www.primaledgehealth.com/>`_
+- `https://www.projectgezond.nl/ <https://www.projectgezond.nl/>`_
 - `https://przepisy.pl/ <https://przepisy.pl>`_
 - `https://purelypope.com/ <https://purelypope.com>`_
 - `https://purplecarrot.com/ <https://purplecarrot.com>`_
