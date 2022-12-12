@@ -107,6 +107,7 @@ Scrapers available for:
 - `https://bonappetit.com/ <https://bonappetit.com>`_
 - `https://www.bodybuilding.com/ <https://www.bodybuilding.com/>`_
 - `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
+- `https://briceletbaklava.ch/ <https://briceletbaklava.ch/>`_
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
 - `https://castironketo.net/ <https://castironketo.net/>`_
 - `https://cdkitchen.com/ <https://cdkitchen.com/>`_
