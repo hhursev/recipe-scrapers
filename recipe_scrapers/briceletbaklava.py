@@ -30,7 +30,7 @@ class BricelEtBaklava(AbstractScraper):
     def ingredients(self):
         post = self.soup.find('div', {'class' : 'Post-body'})
         sections = post.find_all('div', {'class' : 'ob-section ob-section-html'})
-        return '\n'.join([normalize_string(ingredient.get_text()) for ingredient in sections[1].find_all('b')])
+        return [normalize_string(ingredient.get_text()) for ingredient in sections[1].find_all('b')]
 
     def description(self):
         return normalize_string(self.soup.find('div', {'class': 'ob-section ob-section-html'}).get_text())
