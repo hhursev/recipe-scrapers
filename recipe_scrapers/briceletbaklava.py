@@ -13,7 +13,7 @@ class BricelEtBaklava(AbstractScraper):
         return self.soup.find('h1', {'class' : 'Post-title'}).get_text().strip()
 
     def category(self):
-        return '\n'.join([normalize_string(category.get_text()) for category in self.soup.find_all('a', {'class' : 'Post-tag'})])
+        return [normalize_string(category.get_text()) for category in self.soup.find_all('a', {'class' : 'Post-tag'})]
 
     def yields(self):
         post = self.soup.find('div', {'class' : 'Post-body'})
@@ -25,7 +25,7 @@ class BricelEtBaklava(AbstractScraper):
 
     def instructions(self):
         post = self.soup.find('div', {'class' : 'Post-body'})
-        return '\n'.join([normalize_string(instruction.get_text()) for instruction in post.find_all('ul')])
+        return [normalize_string(instruction.get_text()) for instruction in post.find_all('ul')]
 
     def ingredients(self):
         post = self.soup.find('div', {'class' : 'Post-body'})
@@ -34,6 +34,6 @@ class BricelEtBaklava(AbstractScraper):
 
     def description(self):
         return normalize_string(self.soup.find('div', {'class': 'ob-section ob-section-html'}).get_text())
-    
+
     def author(self):
         return 'Michel/Bricelet & Baklava'
