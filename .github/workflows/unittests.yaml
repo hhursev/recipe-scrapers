@@ -11,22 +11,22 @@ on:
 jobs:
   test:
     strategy:
+      fail-fast: false
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
-        python-version: ["3.7", "3.8", "3.9", "3.10", "3.11.0-rc.1"]
+        python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
         exclude:
-          # 1. lxml built-from-source fails or produces unreliable results on these platforms
-          # 2. binary wheels are less likely to be available for release candidate versions of Python
-          # 3. GitHub Actions cancels all jobs in a batch when a single job fails
-          #    ... so skip these platforms
-          - os: macos-latest
-            python-version: "3.11.0-rc.1"
+          #  lxml built-from-source fails or produces unreliable results on these platforms
+          # ... so skip these platforms
           - os: windows-latest
-            python-version: "3.11.0-rc.1"
+            python-version: "3.11"
+          - os: macos-latest
+            python-version: "3.11"
         include:
+          # set toxenv to workaround-darwin on macos (check tox.ini)
           - toxenv: py
           - os: macos-latest
-            toxenv: py-darwin
+            toxenv: workaround-darwin
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3
@@ -36,8 +36,8 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - run: pip install tox
       - run: tox -e ${{ matrix.toxenv }}
-      # Provide code coverage reports on Linux
-      - if: ${{ matrix.os == 'ubuntu-latest' }}
+      # Provide code coverage reports if Linux and last py version
+      - if: matrix.os == 'ubuntu-latest' && matrix.python-version == '3.11'
         name: coveralls.io
         uses: AndreMiras/coveralls-python-action@develop
         with:

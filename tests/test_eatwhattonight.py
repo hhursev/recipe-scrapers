@@ -34,7 +34,7 @@ class TestEatWhatTonight(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "180g boneless chicken, diced (marinate with 2 tsp light soya sauce, 1/2 tsp sugar and pinch of pepper for 30mins)⁣",
                 "1 thumb sized ginger, thinly sliced⁣",

@@ -1,13 +1,5 @@
 # mypy: disallow_untyped_defs=False
-# delish.py
-# Written by J. Kwon
-# Freely released the code to recipe_scraper group
-# March 1st, 2020
-# ==========================================================
-
-
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
 
 
 class Delish(AbstractScraper):
@@ -16,38 +8,19 @@ class Delish(AbstractScraper):
         return "delish.com"
 
     def title(self):
-        return normalize_string(self.soup.find("h1").get_text())
+        return self.schema.title()
 
-    # Return total time to complete dish in minutes (includes prep time)
     def total_time(self):
-        total_time_class = self.soup.find("span", {"class": "total-time-amount"})
-        return get_minutes(total_time_class)
+        return self.schema.total_time()
 
     def yields(self):
-        yields_class = self.soup.find("span", {"class": "yields-amount"})
-
-        return get_yields(yields_class)
+        return self.schema.yields()
 
     def image(self):
-        try:
-            # Case when image is at the top of the recipe content div
-            image = self.soup.find(
-                "div", {"class": "content-lede-image-wrap aspect-ratio-1x1"}
-            ).find("img")
-            return image["data-src"] if image else None
-
-        except Exception:
-            # If the image is not at the top, it will be found at the
-            # bottom of the recipe content div
-            image = self.soup.find("picture")
-            return image.find("source")["data-srcset"] if image else None
+        return self.schema.image()
 
     def ingredients(self):
-        ingredients = self.soup.findAll("div", {"class": "ingredient-item"})
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        return self.schema.ingredients()
 
     def instructions(self):
-        instructions = self.soup.find("div", {"class": "direction-lists"}).findAll("li")
-        return "\n".join(
-            [normalize_string(instruction.get_text()) for instruction in instructions]
-        )
+        return self.schema.instructions()

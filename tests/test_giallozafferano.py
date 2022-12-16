@@ -28,7 +28,7 @@ class TestGialloZafferanoScraper(ScraperTest):
         self.assertEqual("10 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "Latte intero 200 ml",
                 "Tuorli 3",

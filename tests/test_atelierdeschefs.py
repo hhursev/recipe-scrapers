@@ -28,7 +28,7 @@ class TestAtelierDesChefsScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "Lait 1/2 \u00e9cr\u00e9m\u00e9 : 25 cl",
                 "Beurre doux : 120 g",

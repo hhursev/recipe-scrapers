@@ -34,7 +34,7 @@ class TestIGScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "3 colheres (sopa) de azeite",
                 "1 cebola roxa cortada em cubos",

@@ -2,9 +2,10 @@ from recipe_scrapers.lecker import Lecker
 from tests import ScraperTest
 
 
-class TestLeckerScraper(ScraperTest):
+class TestLeckerScraper1(ScraperTest):
 
     scraper_class = Lecker
+    test_file_name = "lecker_1"
 
     def test_host(self):
         self.assertEqual("lecker.de", self.harvester_class.host())
@@ -62,7 +63,7 @@ class TestLeckerScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.1, self.harvester_class.ratings())
+        self.assertEqual(3.9, self.harvester_class.ratings())
 
     def test_nutrients(self):
         self.assertEqual(

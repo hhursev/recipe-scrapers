@@ -1,6 +1,5 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
 
 
 class TwoPeasAndTheirPod(AbstractScraper):
@@ -9,34 +8,19 @@ class TwoPeasAndTheirPod(AbstractScraper):
         return "twopeasandtheirpod.com"
 
     def title(self):
-        return self.soup.find("h2", {"class": "wprm-recipe-name"}).get_text()
+        return self.schema.title()
 
     def total_time(self):
-        minutes = self.soup.select_one(".wprm-recipe-total_time").get_text()
-        unit = self.soup.select_one(".wprm-recipe-total_time-unit").get_text()
-
-        return get_minutes("{} {}".format(minutes, unit))
+        return self.schema.total_time()
 
     def yields(self):
-        return get_yields(
-            self.soup.select_one(
-                "div.wprm-recipe-details-container dl:nth-of-type(5) dd"
-            ).get_text()
-        )
+        return self.schema.yields()
 
     def ingredients(self):
-        ingredients = self.soup.findAll("li", {"class": "wprm-recipe-ingredient"})
-
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        return self.schema.ingredients()
 
     def instructions(self):
-        instructions = self.soup.select(".wprm-recipe-instruction-text")
-
-        return "\n".join(
-            [normalize_string(instruction.get_text()) for instruction in instructions]
-        )
+        return self.schema.instructions()
 
     def image(self):
-        image = self.soup.find("div", {"class": "wprm-recipe-image"}).find("img")
-
-        return image["src"] if image else None
+        return self.schema.image()

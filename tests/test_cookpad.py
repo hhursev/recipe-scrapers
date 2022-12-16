@@ -15,7 +15,7 @@ class TestCookPadScraper(ScraperTest):
         )
 
     def test_title(self):
-        self.assertEqual(self.harvester_class.title(), "30分で簡単本格バターチキンカレー")
+        self.assertEqual(self.harvester_class.title(), "30分で簡単♡本格バターチキンカレー♡")
 
     def test_author(self):
         self.assertEqual(self.harvester_class.author(), "reoririna")
@@ -30,7 +30,7 @@ class TestCookPadScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "♥鶏モモ肉 500g前後",
                 "♥玉ねぎ 2個",

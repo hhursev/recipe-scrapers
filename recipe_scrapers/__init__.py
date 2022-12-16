@@ -32,6 +32,7 @@ from .blueapron import BlueApron
 from .bodybuilding import Bodybuilding
 from .bonappetit import BonAppetit
 from .bowlofdelicious import BowlOfDelicious
+from .briceletbaklava import BricelEtBaklava
 from .budgetbytes import BudgetBytes
 from .castironketo import CastIronKeto
 from .cdkitchen import CdKitchen
@@ -84,6 +85,7 @@ from .gonnawantseconds import GonnaWantSeconds
 from .goustojson import GoustoJson
 from .greatbritishchefs import GreatBritishChefs
 from .halfbakedharvest import HalfBakedHarvest
+from .handletheheat import HandleTheHeat
 from .hassanchef import HassanChef
 from .headbangerskitchen import HeadbangersKitchen
 from .heb import HEB
@@ -156,6 +158,7 @@ from .pingodoce import PingoDoce
 from .popsugar import PopSugar
 from .practicalselfreliance import PracticalSelfReliance
 from .primaledgehealth import PrimalEdgeHealth
+from .projectgezond import ProjectGezond
 from .przepisy import Przepisy
 from .purelypope import PurelyPope
 from .purplecarrot import PurpleCarrot
@@ -169,15 +172,16 @@ from .reishunger import Reishunger
 from .rezeptwelt import Rezeptwelt
 from .rosannapansino import RosannaPansino
 from .sallysbakingaddiction import SallysBakingAddiction
-from .sallysblog import SallysBlog
 from .saveur import Saveur
 from .seriouseats import SeriousEats
 from .simpleveganista import SimpleVeganista
+from .simplycookit import SimplyCookit
 from .simplyquinoa import SimplyQuinoa
 from .simplyrecipes import SimplyRecipes
 from .simplywhisked import SimplyWhisked
 from .skinnytaste import SkinnyTaste
 from .smulweb import Smulweb
+from .southerncastiron import SouthernCastIron
 from .southernliving import SouthernLiving
 from .spendwithpennies import SpendWithPennies
 from .springlane import Springlane
@@ -185,6 +189,7 @@ from .steamykitchen import SteamyKitchen
 from .streetkitchen import StreetKitchen
 from .sunbasket import SunBasket
 from .sundpaabudget import SundPaaBudget
+from .sunset import Sunset
 from .sweetcsdesigns import SweetCsDesigns
 from .sweetpeasandsaffron import SweetPeasAndSaffron
 from .tasteofhome import TasteOfHome
@@ -248,6 +253,7 @@ SCRAPERS = {
     Bodybuilding.host(): Bodybuilding,
     BonAppetit.host(): BonAppetit,
     BowlOfDelicious.host(): BowlOfDelicious,
+    BricelEtBaklava.host(): BricelEtBaklava,
     BudgetBytes.host(): BudgetBytes,
     CastIronKeto.host(): CastIronKeto,
     CdKitchen.host(): CdKitchen,
@@ -302,6 +308,7 @@ SCRAPERS = {
     GreatBritishChefs.host(): GreatBritishChefs,
     HEB.host(): HEB,
     HalfBakedHarvest.host(): HalfBakedHarvest,
+    HandleTheHeat.host(): HandleTheHeat,
     HassanChef.host(): HassanChef,
     HeadbangersKitchen.host(): HeadbangersKitchen,
     HeinzBrasil.host(): HeinzBrasil,
@@ -384,7 +391,9 @@ SCRAPERS = {
     PingoDoce.host(): PingoDoce,
     PopSugar.host(): PopSugar,
     PracticalSelfReliance.host(): PracticalSelfReliance,
+    PracticalSelfReliance.host(domain="creativecanning.com"): PracticalSelfReliance,
     PrimalEdgeHealth.host(): PrimalEdgeHealth,
+    ProjectGezond.host(): ProjectGezond,
     Przepisy.host(): Przepisy,
     PurelyPope.host(): PurelyPope,
     PurpleCarrot.host(): PurpleCarrot,
@@ -399,15 +408,16 @@ SCRAPERS = {
     Rezeptwelt.host(): Rezeptwelt,
     RosannaPansino.host(): RosannaPansino,
     SallysBakingAddiction.host(): SallysBakingAddiction,
-    SallysBlog.host(): SallysBlog,
     Saveur.host(): Saveur,
     SeriousEats.host(): SeriousEats,
     SimpleVeganista.host(): SimpleVeganista,
+    SimplyCookit.host(): SimplyCookit,
     SimplyQuinoa.host(): SimplyQuinoa,
     SimplyRecipes.host(): SimplyRecipes,
     SimplyWhisked.host(): SimplyWhisked,
     SkinnyTaste.host(): SkinnyTaste,
     Smulweb.host(): Smulweb,
+    SouthernCastIron.host(): SouthernCastIron,
     SouthernLiving.host(): SouthernLiving,
     SpendWithPennies.host(): SpendWithPennies,
     Springlane.host(): Springlane,
@@ -415,6 +425,7 @@ SCRAPERS = {
     StreetKitchen.host(): StreetKitchen,
     SunBasket.host(): SunBasket,
     SundPaaBudget.host(): SundPaaBudget,
+    Sunset.host(): Sunset,
     SweetCsDesigns.host(): SweetCsDesigns,
     SweetPeasAndSaffron.host(): SweetPeasAndSaffron,
     TasteOfHome.host(): TasteOfHome,

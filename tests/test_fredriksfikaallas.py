@@ -10,8 +10,11 @@ class TestFredriksFikaAllasScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("fredriksfika.allas.se", self.harvester_class.host())
 
-    def test_author(self):
-        self.assertEqual("Fredrik Nylén", self.harvester_class.author())
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://fredriksfika.allas.se/fredriks-brod/mormors-basta-tekakor/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual("Mormors bästa tekakor", self.harvester_class.title())
@@ -24,7 +27,7 @@ class TestFredriksFikaAllasScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://files.allas.se/uploads/sites/25/2015/08/10072015-_MG_0917-860x573.jpg",
+            "https://files-aller-blogger-platform.aws.aller.com/uploads/sites/87/2015/08/10072015-_MG_0917-860x573.jpg?fit=crop&h=630&w=1200&ar=1.91:1",
             self.harvester_class.image(),
         )
 
@@ -44,13 +47,6 @@ class TestFredriksFikaAllasScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            """1. Koka en gröt på havregryn och 2,5 dl vatten.
-2. Smält smöret i gröten, samt blanda i resten av vattnet, sirapen och saltet.
-3. Smula jästen i en bunke, ha i grötblandningen och rör tills jästen löst upp sig.
-4. Blanda i mjölet och arbeta degen ihop till en deg, mjölmängden varierar på hur länge man kokat gröten så därav kan det variera. Degen ska gå att ta på utan att den klibbar på fingrarna.
-5. Låt jäsa 30 minuter.
-6. Ha upp degen på ett bakbord och knåda den lite. Kavla ut degen ca 0,5 cm hög. Stansa ut rundlar och lägg på bakplåtspapperklädd plåt. Nagga tekakorna med en gaffel.
-7. Låt jäsa under en handduk ca 30 minuter. Sätt ugnen på 225 grader.
-8. Baka mitt i ugnen i 6-8 minuter tills de får en gyllene färg.Ett bra tips att använda som utstickare när du gör tekakor är en innerkruka som är väl rengjord såklart. Perfekt tekakestorlek!""",
+            "1. Koka en gröt på havregryn och 2,5 dl vatten.\n2. Smält smöret i gröten, samt blanda i resten av vattnet, sirapen och saltet.\n3. Smula jästen i en bunke, ha i grötblandningen och rör tills jästen löst upp sig.\n4.\n Blanda i mjölet och arbeta degen ihop till en deg, mjölmängden varierar\n på hur länge man kokat gröten så därav kan det variera. Degen ska gå\natt ta på utan att den klibbar på fingrarna.\n5. Låt jäsa 30 minuter.\n6.\n Ha upp degen på ett bakbord och knåda den lite. Kavla ut degen ca 0,5\ncm hög. Stansa ut rundlar och lägg på bakplåtspapperklädd plåt. Nagga\ntekakorna med en gaffel.\n7. Låt jäsa under en handduk ca 30 minuter. Sätt ugnen på 225 grader.\n8. Baka mitt i ugnen i 6-8 minuter tills de får en gyllene färg.",
             self.harvester_class.instructions(),
         )

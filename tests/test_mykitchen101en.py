@@ -14,7 +14,7 @@ class TestMyKitchen101enScraper(ScraperTest):
         self.assertEqual("Mykitchen101en Team", self.harvester_class.author())
 
     def test_title(self):
-        self.assertEqual("Mini Baked Egg Sponge Cakes", self.harvester_class.title())
+        self.assertEqual("Baked Mini Egg Sponge Cakes", self.harvester_class.title())
 
     def test_total_time(self):
         self.assertRaises(RecipeScrapersExceptions, self.harvester_class.total_time)
@@ -24,7 +24,7 @@ class TestMyKitchen101enScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://mykitchen101en.com/wp-content/uploads/2020/11/mini-baked-egg-sponge-cake-mykitchen101en-feature1.jpg",
+            "https://mykitchen101en.com/wp-content/uploads/2020/11/mini-baked-egg-sponge-cake-mykitchen101en-feature.jpg",
             self.harvester_class.image(),
         )
 
@@ -43,6 +43,6 @@ class TestMyKitchen101enScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            "1 Preheat oven to 200°C/395°F.\n2 Beat eggs lightly, add in salt and sugar, beat until combined.\n3 Combine 1 Liter of plain water with 400 ml of hot water (from electric thermo pot) in a large steel bowl to yield warm water with temperature about 45°C/113°F.\n4 Dip mixing bowl in warm water bath, beat egg mixture over medium-high speed until stiff (about 5 minutes). (Reminder: Beating egg mixture over warm water will shorten the time for it to become stiff.)\n5 Combine plain flour and cornstarch, sift twice.\n6 Add flour to egg mixture gradually, mix over low speed, fold until well mixed with spatula. Add in melted butter gradually, fold gently until mixed with spatula.\n7 Pour batter into piping bags.\n8 Line mini muffin pans (diameter = 4.8 cm, depth = 2.2 cm) with cupcake liners, fill with batter until 80% full.\n9 Bake in the preheated oven at 190°C/375°F for 20-22 minutes, until golden brown. (Reminder: The heat for different oven is different, the suggested time is only for reference, adjust the baking time base on your oven if necessary. If the 1st batch has 24 pieces of cakes, the 2nd batch will only have 6 pieces, then the baking time for 2nd batch can be shortened, just bake until they are golden brown.)\n10 Unmould and cool egg sponge cakes on wire rack.",
+            "Preheat oven to 200°C/395°F.\nBeat eggs & sugar\nBeat eggs lightly, add in salt and sugar, beat until combined.\nPrepare warm water\nCombine 1 Liter of plain water with 400 ml of hot water (from electric thermo pot) in a large steel bowl to yield warm water with temperature about 45°C/113°F.\nbeat egg mixture until stiff\nDip mixing bowl in warm water bath, beat egg mixture over medium-high speed until stiff (about 5 minutes). (Reminder: Beating egg mixture over warm water will shorten the time for it to become stiff.)\nSift flour\nCombine plain flour and cornstarch, sift twice.\nAdd flour to egg mixture, add in melted butter\nAdd flour to egg mixture gradually, mix over low speed, fold until well mixed with spatula. Add in melted butter gradually, fold gently until mixed with spatula.\nPour batter into piping bags.\nFill batter in mini muffin pans\nLine mini muffin pans (diameter = 4.8 cm, depth = 2.2 cm) with cupcake liners, fill with batter until 80% full.\nBake in the preheated oven at 190°C/375°F for 20-22 minutes, until golden brown. (Reminder: The heat for different oven is different, the suggested time is only for reference, adjust the baking time base on your oven if necessary. If the 1st batch has 24 pieces of cakes, the 2nd batch will only have 6 pieces, then the baking time for 2nd batch can be shortened, just bake until they are golden brown.)\nUnmould & cool\nUnmould and cool mini egg sponge cakes on wire rack.",
             self.harvester_class.instructions(),
         )

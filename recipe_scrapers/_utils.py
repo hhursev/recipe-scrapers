@@ -20,7 +20,7 @@ FRACTIONS = {
 }
 
 TIME_REGEX = re.compile(
-    r"(\D*(?P<hours>[\d.\s/?¼½¾⅓⅔⅕⅖⅗]+)\s*(hours|hrs|hr|h|óra))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|perc))?",
+    r"(\D*(?P<days>\d+)\s*(days|D))?(\D*(?P<hours>[\d.\s/?¼½¾⅓⅔⅕⅖⅗]+)\s*(hours|hrs|hr|h|óra|:))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|perc|$))?",
     re.IGNORECASE,
 )
 
@@ -77,7 +77,11 @@ def get_minutes(element, return_zero_on_not_found=False):  # noqa: C901: TODO
 
     minutes = int(matched.groupdict().get("minutes") or 0)
     hours_matched = matched.groupdict().get("hours")
+    days_matched = matched.groupdict().get("days")
 
+    # workaround for formats like: 0D4H45M, that are not a valid iso8601 it seems
+    if days_matched:
+        minutes += 60 * 60 * float(days_matched.strip())
     if hours_matched:
         hours_matched = hours_matched.strip()
         if any([symbol in FRACTIONS.keys() for symbol in hours_matched]):

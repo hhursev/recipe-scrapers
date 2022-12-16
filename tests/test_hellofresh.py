@@ -35,16 +35,17 @@ class TestHelloFreshScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "300 milliliter(s) Water",
                 "150 grams Basmati Rice",
+                "1 unit(s) Echalion Shallot",
+                "2 unit(s) Garlic Clove",
+                "¼ unit(s) Red Chilli",
                 "2 unit(s) Spring Onion",
-                "1 pack(s) Green Beans",
+                "150 grams Green Beans",
                 "300 grams Pork Mince",
-                "3 tbsp Ketjap Manis",
-                "1.5 tbsp Soy Sauce",
-                "½ bunch(es) Fresh Thai Basil",
-                "2 clove Garlic",
-                "Salted Peanuts",
+                "50 grams Ketjap Manis",
+                "25 milliliter(s) Soy Sauce",
+                "6 grams Fresh Thai Basil",
+                "300 milliliter(s) Water for the Rice",
             ],
             self.harvester_class.ingredients(),
         )
@@ -64,8 +65,6 @@ class TestHelloFreshScraper(ScraperTest):
                 "carbohydrateContent": "83 g",
                 "sugarContent": "20 g",
                 "proteinContent": "38 g",
-                "fiberContent": "0 g",
-                "cholesterolContent": "0 mg",
                 "sodiumContent": "3.25 g",
                 "servingSize": "360",
             },

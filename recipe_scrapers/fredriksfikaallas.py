@@ -10,20 +10,11 @@ class FredriksFikaAllas(AbstractScraper):
     def host(cls):
         return "fredriksfika.allas.se"
 
-    def author(self):
-        author = self.soup.find("div", {"class": "c-post_author__name"}).get_text()
-        return author.replace("Av:", "").strip()
-
     def title(self):
-        return self.soup.find("div", {"class": "c-post_title"}).get_text()
+        return self.soup.find("h1").get_text()
 
     def category(self):
-        return (
-            self.soup.find("div", {"class": "c-post_author__category"})
-            .get_text()
-            .replace("i ", "")
-            .strip()
-        )
+        return self.soup.find("div", {"class": "post_category"}).get_text()
 
     def total_time(self):
         raise RecipeScrapersExceptions(
@@ -31,13 +22,14 @@ class FredriksFikaAllas(AbstractScraper):
         )
 
     def image(self):
-        return self.schema.image()
+        return self.soup.find("meta", {"property": "og:image", "content": True}).get(
+            "content"
+        )
 
     def ingredients(self):
         ingredients = []
         content = self.soup.find("strong", string=re.compile("Ingredienser"))
-
-        contentRows = content.parent.text.split("\n")
+        contentRows = str(content.parent).split("<br/>")
 
         for i in contentRows:
             if "Ingredienser" not in i:
@@ -51,7 +43,7 @@ class FredriksFikaAllas(AbstractScraper):
         instructions = []
         content = self.soup.find("strong", string=re.compile("Gör så här"))
 
-        contentRows = content.parent.text.split("\n")
+        contentRows = str(content.parent).split("<br/>")
 
         fillData = False
         for i in contentRows:

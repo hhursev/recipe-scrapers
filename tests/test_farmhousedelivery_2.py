@@ -13,7 +13,7 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://recipes.farmhousedelivery.com/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/",
+            "http://recipes.farmhousedelivery.com/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/",
             self.harvester_class.canonical_url(),
         )
 
@@ -62,6 +62,6 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "http://recipes.farmhousedelivery.com/wp-content/uploads/2019/05/FHD-Chic-Thigh-Recipe-225x300.jpeg",
+            "http://recipesfhd.wpengine.com/wp-content/uploads/2019/05/FHD-Chic-Thigh-Recipe-225x300.jpeg",
             self.harvester_class.image(),
         )

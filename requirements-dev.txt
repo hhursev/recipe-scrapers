@@ -3,3 +3,5 @@ coverage>=4.5.1
 responses>=0.21.0
 # language-tags>=1.0.0
 # tld>=0.12.3
+types-beautifulsoup4>=4.10.0
+types-requests>=2.19.1

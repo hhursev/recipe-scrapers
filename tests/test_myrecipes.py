@@ -34,7 +34,7 @@ class TestMyRecipesScraper(ScraperTest):
         self.assertEqual("2 items", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertCountEqual(
+        self.assertEqual(
             [
                 "6 oz. bucatini pasta",
                 "1 1/2 tsp. kosher salt, divided",
