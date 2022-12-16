@@ -1,3 +1,4 @@
+from recipe_scrapers._exceptions import RecipeScrapersExceptions
 from recipe_scrapers.farmhousedelivery import FarmhouseDelivery
 from tests import ScraperTest
 
@@ -18,6 +19,9 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
 
     def test_title(self):
         self.assertEqual("Green Shakshuka", self.harvester_class.title())
+
+    def test_total_time(self):
+        self.assertRaises(RecipeScrapersExceptions, self.harvester_class.total_time)
 
     def test_ingredients(self):
         self.assertEqual(

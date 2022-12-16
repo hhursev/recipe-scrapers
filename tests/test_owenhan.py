@@ -1,3 +1,4 @@
+from recipe_scrapers._exceptions import RecipeScrapersExceptions
 from recipe_scrapers.owenhan import OwenHan
 from tests import ScraperTest
 
@@ -14,6 +15,9 @@ class TestOwenHanScraper(ScraperTest):
 
     def test_title(self):
         self.assertEqual("Chicken Bacon Ranch", self.harvester_class.title())
+
+    def test_total_time(self):
+        self.assertRaises(RecipeScrapersExceptions, self.harvester_class.total_time)
 
     def test_image(self):
         self.assertEqual(

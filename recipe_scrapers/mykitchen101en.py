@@ -1,5 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._exceptions import RecipeScrapersExceptions
 
 
 class MyKitchen101en(AbstractScraper):
@@ -12,6 +13,11 @@ class MyKitchen101en(AbstractScraper):
 
     def title(self):
         return self.schema.title()
+
+    def total_time(self):
+        raise RecipeScrapersExceptions(
+            f"{self.host()} does not provide time information."
+        )
 
     def yields(self):
         return self.schema.yields()

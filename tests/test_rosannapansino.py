@@ -1,5 +1,6 @@
 # mypy: allow-untyped-defs
 
+from recipe_scrapers._exceptions import RecipeScrapersExceptions
 from recipe_scrapers.rosannapansino import RosannaPansino
 from tests import ScraperTest
 
@@ -13,6 +14,9 @@ class TestRosannaPansinoScraper(ScraperTest):
 
     def test_title(self):
         self.assertEqual("Marshmallow Fondant", self.harvester_class.title())
+
+    def test_total_time(self):
+        self.assertRaises(RecipeScrapersExceptions, self.harvester_class.total_time)
 
     def test_image(self):
         self.assertEqual(

@@ -2,6 +2,7 @@
 import re
 
 from ._abstract import AbstractScraper
+from ._exceptions import RecipeScrapersExceptions
 
 
 class FredriksFikaAllas(AbstractScraper):
@@ -14,6 +15,11 @@ class FredriksFikaAllas(AbstractScraper):
 
     def category(self):
         return self.soup.find("div", {"class": "post_category"}).get_text()
+
+    def total_time(self):
+        raise RecipeScrapersExceptions(
+            f"{self.host()} does not provide time information."
+        )
 
     def image(self):
         return self.soup.find("meta", {"property": "og:image", "content": True}).get(

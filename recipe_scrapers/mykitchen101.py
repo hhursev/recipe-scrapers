@@ -4,6 +4,7 @@ import re
 from bs4 import BeautifulSoup
 
 from ._abstract import AbstractScraper
+from ._exceptions import RecipeScrapersExceptions
 from ._utils import get_yields, normalize_string
 
 
@@ -17,6 +18,11 @@ class MyKitchen101(AbstractScraper):
 
     def title(self):
         return self.soup.find("h1", {"class": "entry-title"}).get_text()
+
+    def total_time(self):
+        raise RecipeScrapersExceptions(
+            f"{self.host()} does not provide time information."
+        )
 
     def yields(self):
         return get_yields(self.soup.find("p", string=re.compile("分量：")).get_text())

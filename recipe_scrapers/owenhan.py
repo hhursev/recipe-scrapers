@@ -1,5 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._exceptions import RecipeScrapersExceptions
 
 
 class OwenHan(AbstractScraper):
@@ -12,6 +13,11 @@ class OwenHan(AbstractScraper):
 
     def title(self):
         return self.soup.find("h1", {"class": "entry-title"}).text
+
+    def total_time(self):
+        raise RecipeScrapersExceptions(
+            f"{self.host()} does not provide time information."
+        )
 
     def image(self):
         return self.schema.image()

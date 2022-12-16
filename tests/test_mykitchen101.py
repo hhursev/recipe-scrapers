@@ -1,3 +1,4 @@
+from recipe_scrapers._exceptions import RecipeScrapersExceptions
 from recipe_scrapers.mykitchen101 import MyKitchen101
 from tests import ScraperTest
 
@@ -14,6 +15,9 @@ class TestMyKitchen101Scraper(ScraperTest):
 
     def test_title(self):
         self.assertEqual("古早味迷你烤鸡蛋糕", self.harvester_class.title())
+
+    def test_total_time(self):
+        self.assertRaises(RecipeScrapersExceptions, self.harvester_class.total_time)
 
     def test_yields(self):
         self.assertEqual("30 servings", self.harvester_class.yields())
