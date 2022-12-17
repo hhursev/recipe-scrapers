@@ -21,6 +21,7 @@ class SchemaOrgFillPlugin(PluginInterface):
     run_on_methods = (
         "author",
         "title",
+        "category",
         "total_time",
         "yields",
         "image",
