@@ -10,7 +10,8 @@ class TestWildMode(ScraperTest):
     def setUpClass(cls):
         with open("tests/test_data/wild_mode.testhtml", encoding="utf-8") as testfile:
             cls.harvester_class = cls.scraper_class.generate(
-                url="https://test.example.com/", html=testfile.read()
+                html=testfile.read(),
+                url="https://www.feastingathome.com/tomato-risotto/",
             )
 
     def test_host(self):
