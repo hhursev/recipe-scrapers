@@ -1,5 +1,3 @@
-from responses import GET
-
 from recipe_scrapers.foodnetwork import FoodNetwork
 from tests import ScraperTest
 
@@ -10,7 +8,7 @@ class TestFoodNetworkScraper(ScraperTest):
 
     @classmethod
     def expected_requests(cls):
-        yield GET, "https://www.foodnetwork.com/recipes/tyler-florence/chicken-marsala-recipe-1951778", "tests/test_data/foodnetwork.testhtml"
+        yield "tests/test_data/foodnetwork.testhtml"
 
     def test_host(self):
         self.assertEqual("foodnetwork.com", self.harvester_class.host())
