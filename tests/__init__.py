@@ -24,10 +24,9 @@ class ScraperTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         with responses.RequestsMock() as rsps:
-            start_url = None
+            start_url = f"https://{cls.scraper_class.host()}/"
             for method, url, path in cls.expected_requests():
-                start_url = start_url or url
                 with open(path, encoding="utf-8") as f:
-                    rsps.add(method, url, body=f.read())
+                    html = f.read()
 
-            cls.harvester_class = cls.scraper_class(url=start_url)
+            cls.harvester_class = cls.scraper_class(url=start_url, html=html)

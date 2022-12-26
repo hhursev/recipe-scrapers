@@ -40,14 +40,19 @@ then:
 
 .. code:: python
 
-    from recipe_scrapers import scrape_me
+    import requests
+    from recipe_scrapers import scrape_html
 
     # give the url as a string, it can be url from any site listed below
-    scraper = scrape_me('https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/')
+    url = "https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/"
+    html = requests.get(url).content
+    scraper = scrape_html(html=html, org_url=url)
 
     # Q: What if the recipe site I want to extract information from is not listed below?
     # A: You can give it a try with the wild_mode option! If there is Schema/Recipe available it will work just fine.
-    scraper = scrape_me('https://www.feastingathome.com/tomato-risotto/', wild_mode=True)
+    url = 'https://www.feastingathome.com/tomato-risotto/'
+    html = requests.get(url).content
+    scraper = scrape_html(html=html, org_url=url, wild_mode=True)
 
     scraper.title()
     scraper.total_time()
@@ -58,19 +63,6 @@ then:
     scraper.host()
     scraper.links()
     scraper.nutrients()  # if available
-
-    # Starting from version 14.0.0 you also have an option to scrape from html-like content
-    import requests
-    from recipe_scrapers import scrape_html
-
-    url = "https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/"
-    html = requests.get(url).content
-
-    scraper = scrape_html(html=html, org_url=url)
-
-    scraper.title()
-    scraper.total_time()
-    # etc...
 
 
 Notes:
@@ -100,7 +92,6 @@ Scrapers available for:
 - `https://bbc.com/ <https://bbc.com/food/recipes>`_
 - `https://bbc.co.uk/ <http://bbc.co.uk/food/recipes>`_
 - `https://bbcgoodfood.com/ <https://bbcgoodfood.com>`_
-- `https://bettybossi.ch/ <https://bettybossi.ch>`_
 - `https://bettycrocker.com/ <https://bettycrocker.com>`_
 - `https://bigoven.com/ <https://bigoven.com>`_
 - `https://blueapron.com/ <https://blueapron.com>`_
@@ -140,7 +131,6 @@ Scrapers available for:
 - `https://eatwhattonight.com/ <https://eatwhattonight.com/>`_
 - `https://emmikochteinfach.de/ <https://emmikochteinfach.de/>`_
 - `https://ethanchlebowski.com/ <https://ethanchlebowski.com>`_
-- `https://epicurious.com/ <https://epicurious.com>`_
 - `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
 - `https://fifteenspatulas.com/ <https://www.fifteenspatulas.com/>`_
 - `https://finedininglovers.com/ <https://www.finedininglovers.com>`_
@@ -148,7 +138,6 @@ Scrapers available for:
 - `https://food.com/ <https://www.food.com>`_
 - `https://food52.com/ <https://www.food52.com>`_
 - `https://foodandwine.com/ <https://www.foodandwine.com>`_
-- `https://foodnetwork.com/ <https://www.foodnetwork.com>`_
 - `https://foodrepublic.com/ <https://foodrepublic.com>`_
 - `https://www.forksoverknives.com/ <https://www.forksoverknives.com/>`_
 - `https://fredriksfika.allas.se/ <https://fredriksfika.allas.se/>`_
@@ -190,7 +179,6 @@ Scrapers available for:
 - `https://www.kitchenstories.com/ <https://www.kitchenstories.com>`_
 - `https://kochbar.de/ <https://kochbar.de>`_
 - `http://koket.se/ <http://koket.se>`_
-- `https://www.kptncook.com/ <https://www.kptncook.com>`_
 - `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
 - `https://www.kwestiasmaku.com/ <https://www.kwestiasmaku.com/>`_
 - `https://www.latelierderoxane.com <https://www.latelierderoxane.com/blog/recettes/>`_
@@ -204,13 +192,6 @@ Scrapers available for:
 - `https://www.maangchi.com <https://www.maangchi.com>`_
 - `https://madensverden.dk/ <https://madensverden.dk/>`_
 - `https://www.madewithlau.com/ <https://www.madewithlau.com/>`_
-- `https://marleyspoon.com.au/ <https://marleyspoon.com.au/>`_
-- `https://marleyspoon.com/ <https://marleyspoon.com/>`_
-- `https://marleyspoon.de/ <https://marleyspoon.de/>`_
-- `https://marleyspoon.at/ <https://marleyspoon.at/>`_
-- `https://marleyspoon.be/ <https://marleyspoon.be/>`_
-- `https://marleyspoon.nl/ <https://marleyspoon.nl/>`_
-- `https://marleyspoon.se/ <https://marleyspoon.se/>`_
 - `https://marmiton.org/ <https://marmiton.org/>`_
 - `https://www.marthastewart.com/ <https://www.marthastewart.com/>`_
 - `https://matprat.no/ <https://matprat.no/>`_
@@ -304,7 +285,6 @@ Scrapers available for:
 - `https://www.wholefoodsmarket.com/ <https://www.wholefoodsmarket.com/>`_
 - `https://www.wholefoodsmarket.co.uk/ <https://www.wholefoodsmarket.co.uk/>`_
 - `https://woop.co.nz/ <https://woop.co.nz/>`_
-- `https://woolworths.com.au/shop/recipes <https://www.woolworths.com.au/shop/recipes/>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `https://yemek.com/ <https://yemek.com>`_
 - `https://yummly.com/ <https://yummly.com>`_

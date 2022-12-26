@@ -1,11 +1,9 @@
 # mypy: disallow_untyped_defs=False
 import inspect
-from abc import ABC, abstractmethod
 from collections import OrderedDict
 from typing import Dict, List, Optional, Tuple, Union
 from urllib.parse import urljoin
 
-import requests
 from bs4 import BeautifulSoup
 
 from recipe_scrapers.settings import settings
@@ -18,7 +16,7 @@ HEADERS = {
 }
 
 
-class AbstractScraper(ABC):
+class AbstractScraper:
     page_data: Union[str, bytes]
 
     def __init__(
@@ -33,20 +31,8 @@ class AbstractScraper(ABC):
         wild_mode: Optional[bool] = False,
         html: Union[str, bytes, None] = None,
     ):
-        if html:
-            self.page_data = html
-            self.url = url
-        else:
-            assert url is not None, "url required for fetching recipe data"
-            resp = requests.get(
-                url,
-                headers=HEADERS,
-                proxies=proxies,
-                timeout=timeout,
-            )
-            self.page_data = resp.content
-            self.url = resp.url
-
+        self.page_data = html
+        self.url = url
         self.wild_mode = wild_mode
         self.soup = BeautifulSoup(self.page_data, "html.parser")
         self.schema = SchemaOrg(self.page_data)
@@ -62,7 +48,6 @@ class AbstractScraper(ABC):
             setattr(self.__class__, "plugins_initialized", True)
 
     @classmethod
-    @abstractmethod
     def host(cls) -> str:
         """get the host of the url, so we can use the correct scraper"""
         raise NotImplementedError("This should be implemented.")
@@ -73,14 +58,12 @@ class AbstractScraper(ABC):
             return urljoin(self.url, canonical_link["href"])
         return self.url
 
-    @abstractmethod
     def title(self):
         raise NotImplementedError("This should be implemented.")
 
     def category(self):
         raise NotImplementedError("This should be implemented.")
 
-    @abstractmethod
     def total_time(self):
         """total time it takes to preparate and cook the recipe in minutes"""
         raise NotImplementedError("This should be implemented.")
@@ -134,11 +117,9 @@ class AbstractScraper(ABC):
         # Return the first candidate language
         return candidate_languages.popitem(last=False)[0]
 
-    @abstractmethod
     def ingredients(self):
         raise NotImplementedError("This should be implemented.")
 
-    @abstractmethod
     def instructions(self) -> str:
         """instructions to prepare the recipe"""
         raise NotImplementedError("This should be implemented.")
@@ -155,7 +136,6 @@ class AbstractScraper(ABC):
         raise NotImplementedError("This should be implemented.")
 
     def author(self):
-        # question: should we make this a required field (abstractmethod)?
         raise NotImplementedError("This should be implemented.")
 
     def cuisine(self):
