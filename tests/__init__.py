@@ -1,5 +1,5 @@
 import unittest
-from typing import Any, Iterator, Optional, Tuple
+from typing import Any, Iterator, Optional
 
 
 class ScraperTest(unittest.TestCase):
