@@ -345,6 +345,7 @@ SCRAPERS = {
     Maangchi.host(): Maangchi,
     MadensVerden.host(): MadensVerden,
     MadeWithLau.host(): MadeWithLau,
+    Marmiton.host(): Marmiton,
     MarthaStewart.host(): MarthaStewart,
     Matprat.host(): Matprat,
     Meljoulwan.host(): Meljoulwan,
