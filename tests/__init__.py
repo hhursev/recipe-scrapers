@@ -10,7 +10,7 @@ class ScraperTest(unittest.TestCase):
     scraper_class: Any
 
     @classmethod
-    def expected_requests(cls) -> Iterator[Tuple[str, str, str]]:
+    def expected_requests(cls) -> Iterator[str]:
         """
         Descriptions of the expected requests that the scraper-under-test will make, as
         tuples of: HTTP method, URL, path-to-content-file
