@@ -1,8 +1,6 @@
 import unittest
 from typing import Any, Iterator, Optional, Tuple
 
-import responses
-
 
 class ScraperTest(unittest.TestCase):
 
@@ -18,16 +16,13 @@ class ScraperTest(unittest.TestCase):
         tuples of: HTTP method, URL, path-to-content-file
         """
         filename = cls.test_file_name or cls.scraper_class.__name__.lower()
-        path = f"tests/test_data/{filename}.{cls.test_file_extension}"
-        yield responses.GET, "https://test.example.com", path
+        yield f"tests/test_data/{filename}.{cls.test_file_extension}"
 
     @classmethod
     def setUpClass(cls):
-        with responses.RequestsMock() as rsps:
-            start_url = None
-            for method, url, path in cls.expected_requests():
-                start_url = start_url or url
-                with open(path, encoding="utf-8") as f:
-                    rsps.add(method, url, body=f.read())
+        start_url = f"https://{cls.scraper_class.host()}/"
+        for path in cls.expected_requests():
+            with open(path, encoding="utf-8") as f:
+                html = f.read()
 
-            cls.harvester_class = cls.scraper_class(url=start_url)
+        cls.harvester_class = cls.scraper_class(url=start_url, html=html)

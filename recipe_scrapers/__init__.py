@@ -25,7 +25,6 @@ from .bakingmischeif import BakingMischeif
 from .bakingsense import BakingSense
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
-from .bettybossi import BettyBossi
 from .bettycrocker import BettyCrocker
 from .bigoven import BigOven
 from .blueapron import BlueApron
@@ -82,7 +81,6 @@ from .giallozafferano import GialloZafferano
 from .gimmesomeoven import GimmeSomeOven
 from .globo import Globo
 from .gonnawantseconds import GonnaWantSeconds
-from .goustojson import GoustoJson
 from .greatbritishchefs import GreatBritishChefs
 from .halfbakedharvest import HalfBakedHarvest
 from .handletheheat import HandleTheHeat
@@ -111,7 +109,6 @@ from .kingarthur import KingArthur
 from .kitchenstories import KitchenStories
 from .kochbar import Kochbar
 from .koket import Koket
-from .kptncook import KptnCook
 from .kuchniadomowa import KuchniaDomowa
 from .kwestiasmaku import KwestiaSmaku
 from .latelierderoxane import LAtelierDeRoxane
@@ -125,7 +122,6 @@ from .lovingitvegan import Lovingitvegan
 from .maangchi import Maangchi
 from .madensverden import MadensVerden
 from .madewithlau import MadeWithLau
-from .marleyspoon import MarleySpoon
 from .marmiton import Marmiton
 from .marthastewart import MarthaStewart
 from .matprat import Matprat
@@ -221,7 +217,6 @@ from .weightwatcherspublic import WeightWatchersPublic
 from .whatsgabycooking import WhatsGabyCooking
 from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
-from .woolworths import Woolworths
 from .woop import Woop
 from .yemek import Yemek
 from .yummly import Yummly
@@ -248,7 +243,6 @@ SCRAPERS = {
     BBCGoodFood.host(): BBCGoodFood,
     BakingSense.host(): BakingSense,
     BakingMischeif.host(): BakingMischeif,
-    BettyBossi.host(): BettyBossi,
     BettyCrocker.host(): BettyCrocker,
     BigOven.host(): BigOven,
     BlueApron.host(): BlueApron,
@@ -306,7 +300,6 @@ SCRAPERS = {
     GimmeSomeOven.host(): GimmeSomeOven,
     Globo.host(): Globo,
     GonnaWantSeconds.host(): GonnaWantSeconds,
-    GoustoJson.host(): GoustoJson,
     GreatBritishChefs.host(): GreatBritishChefs,
     HEB.host(): HEB,
     HalfBakedHarvest.host(): HalfBakedHarvest,
@@ -339,8 +332,6 @@ SCRAPERS = {
     KitchenStories.host(): KitchenStories,
     Kochbar.host(): Kochbar,
     Koket.host(): Koket,
-    KptnCook.host(): KptnCook,
-    KptnCook.host(subdomain="sharing"): KptnCook,
     KuchniaDomowa.host(): KuchniaDomowa,
     KwestiaSmaku.host(): KwestiaSmaku,
     LAtelierDeRoxane.host(): LAtelierDeRoxane,
@@ -354,14 +345,6 @@ SCRAPERS = {
     Maangchi.host(): Maangchi,
     MadensVerden.host(): MadensVerden,
     MadeWithLau.host(): MadeWithLau,
-    MarleySpoon.host(): MarleySpoon,
-    MarleySpoon.host(domain="de"): MarleySpoon,
-    MarleySpoon.host(domain="com.au"): MarleySpoon,
-    MarleySpoon.host(domain="be"): MarleySpoon,
-    MarleySpoon.host(domain="nl"): MarleySpoon,
-    MarleySpoon.host(domain="at"): MarleySpoon,
-    MarleySpoon.host(domain="se"): MarleySpoon,
-    Marmiton.host(): Marmiton,
     MarthaStewart.host(): MarthaStewart,
     Matprat.host(): Matprat,
     Meljoulwan.host(): Meljoulwan,
@@ -461,7 +444,6 @@ SCRAPERS = {
     WholeFoods.host(domain="co.uk"): WholeFoods,
     Woop.host(): Woop,
     WikiCookbook.host(): WikiCookbook,
-    Woolworths.host(): Woolworths,
     Yemek.host(): Yemek,
     Yummly.host(): Yummly,
     ZeitWochenmarkt.host(): ZeitWochenmarkt,
