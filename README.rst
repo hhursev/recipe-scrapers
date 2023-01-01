@@ -173,7 +173,7 @@ Scrapers available for:
 - `https://joyfoodsunshine.com/ <https://joyfoodsunshine.com>`_
 - `https://justataste.com/ <https://justataste.com>`_
 - `https://justbento.com/ <https://justbento.com>`_
-- `https://www.justonecookbook.com/ <https://https://www.justonecookbook.com>`_
+- `https://www.justonecookbook.com/ <https://www.justonecookbook.com>`_
 - `https://kennymcgovern.com/ <https://kennymcgovern.com>`_
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
 - `https://www.kitchenstories.com/ <https://www.kitchenstories.com>`_
@@ -220,7 +220,7 @@ Scrapers available for:
 - `https://www.paleorunningmomma.com/ <https://www.paleorunningmomma.com>`_
 - `https://www.panelinha.com.br/ <https://www.panelinha.com.br>`_
 - `https://paninihappy.com/ <https://paninihappy.com>`_
-- `https://https://www.pingodoce.pt/ <https://www.pingodoce.pt>`_
+- `https://www.pingodoce.pt/ <https://www.pingodoce.pt>`_
 - `https://popsugar.com/ <https://popsugar.com>`_
 - `https://practicalselfreliance.com/ <https://practicalselfreliance.com>`_
 - `https://www.primaledgehealth.com/ <https://www.primaledgehealth.com/>`_
