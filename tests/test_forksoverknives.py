@@ -18,6 +18,9 @@ class TestForksOverKnives(ScraperTest):
             self.harvester_class.title(),
         )
 
+    def test_category(self):
+        self.assertEqual("Pasta & Noodles", self.harvester_class.category())
+
     def test_total_time(self):
         self.assertEqual(30, self.harvester_class.total_time())
 
