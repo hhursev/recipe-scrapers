@@ -256,6 +256,7 @@ Scrapers available for:
 - `https://reishunger.de/ <https://www.reishunger.de/>`_
 - `https://rezeptwelt.de/ <https://rezeptwelt.de>`_
 - `https://rosannapansino.com <https://rosannapansino.com>`_
+- `https://rutgerbakt.nl/ <https://rutgerbakt.nl/>`_
 - `https://sallysbakingaddiction.com <https://sallysbakingaddiction.com/>`_
 - `https://www.saveur.com/ <https://www.saveur.com/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_
