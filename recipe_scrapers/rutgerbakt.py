@@ -72,22 +72,16 @@ class RutgerBakt(AbstractScraper):
                 break
 
         # This function iterates over every next element after the heading.
-        def parseInstructions(element, instructions):
-            try:
-                instruction = element.find_next_sibling()
-                if instruction.name in ["p", "h2", "h3", "h4"]:
-                    if not any(
-                        item in instruction.text.lower()
-                        for item in ["foto: ", "foto's: ", "foto’s: "]
-                    ):
-                        trimmed = instruction.text.replace("\n", " ")
-                        instructions.append(trimmed.strip())
-                    return parseInstructions(instruction, instructions)
-
-                else:
-                    return instructions
-            except AttributeError:
-                return instructions
+        def parseInstructions(element):
+            for instruction in element.next_siblings:
+                if instruction.name not in ["p", "h2", "h3", "h4"]:
+                    continue
+                if any(
+                    item in instruction.text.lower()
+                    for item in ["foto: ", "foto's: ", "foto’s: "]
+                ):
+                    continue
+                yield instruction.text.replace("\n", " ").strip()
 
         instructions = parseInstructions(heading, [])
         return "\n".join(instructions)
