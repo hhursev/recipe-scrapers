@@ -63,12 +63,9 @@ class RutgerBakt(AbstractScraper):
         # I split the heading into words so I keep word boundaries in check.
         headings.reverse()
         for heading in headings:
-            keyword_found = False
-            for keyword in ["recept", "bereiding", "maken", "maak"]:
-                if keyword in heading.getText().lower().split(" "):
-                    keyword_found = True
-                    break
-            if keyword_found:
+            tokens = heading.getText().lower().split(" ")
+            keywords = ["recept", "bereiding", "maken", "maak"]
+            if any(keyword in tokens for keyword in keywords):
                 break
 
         # This function iterates over every next element after the heading.
