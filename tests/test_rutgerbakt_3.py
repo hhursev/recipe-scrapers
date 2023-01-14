@@ -21,7 +21,7 @@ class TestRutgerBaktScraper(ScraperTest):
         self.assertEqual(45, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual(1, self.harvester_class.yields())
+        self.assertEqual(None, self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual("https://rutgerbakt.nl/wp-content/uploads/2016/11/banketstaaf-1-e1478017268526-1920x1080-c-default.jpg", self.harvester_class.image())

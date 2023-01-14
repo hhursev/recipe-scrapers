@@ -23,7 +23,7 @@ class RutgerBakt(AbstractScraper):
 
     def yields(self):
         # The yields are all over the place. There is no way to parse this.
-        return 1
+        return None
 
     def image(self):
         return self.schema.image()
@@ -32,15 +32,15 @@ class RutgerBakt(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        # find the "instructions" heading It is not really clear when that is. So several steps need to be taken.
+        # Find the "instructions" heading It is not really clear when that is. So several steps need to be taken.
         
-        # 1. Filter the headings.
+        # 1. Filter all the headings.
         # Some h2 headers contain photos. Those are not what we want.
         def filterHeading(headings_old):
             headings_new = []
             for heading in headings_old:
                 if "class" in heading.attrs:
-                    if any(["photo" in attr.lower() for attr in heading.attrs["class"]]):
+                    if any("photo" in attr.lower() for attr in heading.attrs["class"]):
                         continue
                 headings_new.append(heading)
             return headings_new
@@ -53,21 +53,20 @@ class RutgerBakt(AbstractScraper):
         # I split the heading into words so I keep word boundaries in check.
         headings.reverse()
         for heading in headings:
-            signal_found=False
-            for signal in ["recept", "bereiding", "maken", "maak"]:
-                if signal in heading.getText().lower().split(" "):
-                    signal_found=True
+            keyword_found=False
+            for keyword in ["recept", "bereiding", "maken", "maak"]:
+                if keyword in heading.getText().lower().split(" "):
+                    keyword_found=True
                     break
-            if signal_found:
+            if keyword_found:
                 break 
     
-        # This function iterates over every next "p" or "h2" element after the heading.
-        # It stores the text, or an image in the instructions list.
-        def parseInstructions(element, instructions=[]):
+        # This function iterates over every next element after the heading.
+        def parseInstructions(element, instructions):
             try:
                 instruction = element.find_next_sibling()
                 if instruction.name in ["p", "h2", "h3", "h4"]:
-                    if not any([item in instruction.text.lower() for item in ["foto: ", "foto's: ", "foto’s: "]]):
+                    if not any(item in instruction.text.lower() for item in ["foto: ", "foto's: ", "foto’s: "]):
                         instructions.append(instruction.text.replace("\n", " ").strip())
                     return parseInstructions(instruction, instructions)
 
