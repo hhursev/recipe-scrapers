@@ -38,7 +38,7 @@ class RutgerBakt(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        # Find the "instructions" heading It is not really clear when that is.
+        # Find the "instructions" heading. It is not really clear when that is.
         # So several steps need to be taken.
 
         # 1. Filter all the headings.
@@ -80,12 +80,12 @@ class RutgerBakt(AbstractScraper):
                     continue
                 yield instruction.text.replace("\n", " ").strip()
 
-        instructions = parseInstructions(heading, [])
+        instructions = parseInstructions(heading)
         return "\n".join(instructions)
 
     def ratings(self):
         return self.schema.ratings()
 
     def description(self):
-        # assuming the first paragraph is the description.
+        # Assuming the first paragraph is the description.
         return self.soup.find("p").text.replace("\n", " ")
