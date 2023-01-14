@@ -12,10 +12,16 @@ class RutgerBakt(AbstractScraper):
         return "Rutger van den Broek"
 
     def title(self):
-        return self.schema.title().replace(" – recept", "").replace(" – Recept","")
+        titleRaw = self.schema.title()
+        return titleRaw.replace(" – recept", "").replace(" – Recept", "")
 
     def category(self):
-        category = self.url.split("rutgerbakt.nl/")[-1].split("/")[0].replace("-recepten", "").replace("-", " ")
+        category = (
+            self.url.split("rutgerbakt.nl/")[-1]
+            .split("/")[0]
+            .replace("-recepten", "")
+            .replace("-", " ")
+        )
         return category
 
     def total_time(self):
@@ -32,15 +38,17 @@ class RutgerBakt(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        # Find the "instructions" heading It is not really clear when that is. So several steps need to be taken.
-        
+        # Find the "instructions" heading It is not really clear when that is.
+        # So several steps need to be taken.
+
         # 1. Filter all the headings.
         # Some h2 headers contain photos. Those are not what we want.
         def filterHeading(headings_old):
             headings_new = []
             for heading in headings_old:
                 if "class" in heading.attrs:
-                    if any("photo" in attr.lower() for attr in heading.attrs["class"]):
+                    hClass = heading.attrs["class"]
+                    if any("photo" in attr.lower() for attr in hClass):
                         continue
                 headings_new.append(heading)
             return headings_new
@@ -48,29 +56,35 @@ class RutgerBakt(AbstractScraper):
         headings = filterHeading(self.soup.find_all("h2"))
 
         # 2. Find the instructions heading
-        # Usually the last heading are the instructions (therefore headings.reverse()). 
-        # But it's double checked whether the heading contains any of the key words.
+        # Usually the last heading are the instructions
+        # (therefore headings.reverse()).
+        # But it's double checked whether the heading contains any of
+        # the keywords.
         # I split the heading into words so I keep word boundaries in check.
         headings.reverse()
         for heading in headings:
-            keyword_found=False
+            keyword_found = False
             for keyword in ["recept", "bereiding", "maken", "maak"]:
                 if keyword in heading.getText().lower().split(" "):
-                    keyword_found=True
+                    keyword_found = True
                     break
             if keyword_found:
-                break 
-    
+                break
+
         # This function iterates over every next element after the heading.
         def parseInstructions(element, instructions):
             try:
                 instruction = element.find_next_sibling()
                 if instruction.name in ["p", "h2", "h3", "h4"]:
-                    if not any(item in instruction.text.lower() for item in ["foto: ", "foto's: ", "foto’s: "]):
-                        instructions.append(instruction.text.replace("\n", " ").strip())
+                    if not any(
+                        item in instruction.text.lower()
+                        for item in ["foto: ", "foto's: ", "foto’s: "]
+                    ):
+                        trimmed = instruction.text.replace("\n", " ")
+                        instructions.append(trimmed.strip())
                     return parseInstructions(instruction, instructions)
 
-                else: 
+                else:
                     return instructions
             except AttributeError:
                 return instructions
@@ -78,10 +92,9 @@ class RutgerBakt(AbstractScraper):
         instructions = parseInstructions(heading, [])
         return "\n".join(instructions)
 
-
     def ratings(self):
         return self.schema.ratings()
 
     def description(self):
         # assuming the first paragraph is the description.
-        return self.soup.find("p").text.replace("\n"," ")
+        return self.soup.find("p").text.replace("\n", " ")
