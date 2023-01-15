@@ -1,4 +1,6 @@
 # mypy: disallow_untyped_defs=False
+from typing import List
+
 from ._abstract import AbstractScraper
 
 
@@ -12,9 +14,6 @@ class Chefkoch(AbstractScraper):
 
     def description(self):
         return self.schema.description()
-
-    def total_time(self):
-        return self.schema.total_time()
 
     def yields(self):
         return self.schema.yields()
@@ -30,3 +29,12 @@ class Chefkoch(AbstractScraper):
 
     def ratings(self):
         return self.schema.ratings()
+
+    def total_time(self):
+        return self.schema.total_time()
+
+    def cook_time(self):
+        return self.schema.cook_time()
+
+    def prep_time(self):
+        return self.schema.prep_time()

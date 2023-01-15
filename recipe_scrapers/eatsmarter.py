@@ -1,5 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._exceptions import SchemaOrgException
 
 
 class Eatsmarter(AbstractScraper):
@@ -9,9 +10,6 @@ class Eatsmarter(AbstractScraper):
 
     def title(self):
         return self.schema.title()
-
-    def total_time(self):
-        return self.schema.total_time()
 
     def yields(self):
         return self.schema.yields()
@@ -27,3 +25,18 @@ class Eatsmarter(AbstractScraper):
 
     def ratings(self):
         return self.schema.ratings()
+
+    def total_time(self):
+        return self.schema.total_time()
+
+    def cook_time(self):
+        try:
+            return self.schema.cook_time()
+        except SchemaOrgException:
+            return 0
+
+    def prep_time(self):
+        try:
+            return self.schema.prep_time()
+        except SchemaOrgException:
+            return 0
