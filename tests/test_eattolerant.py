@@ -21,7 +21,7 @@ class TestEatTolerant(ScraperTest):
         )
 
     def test_author(self):
-        self.assertEqual(self.harvester_class.author(), "EAT SMARTER")
+        self.assertEqual(self.harvester_class.author(), "eat Tolerant")
 
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())
