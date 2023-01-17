@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestEatTolerant(ScraperTest):
-
     scraper_class = EatTolerant
 
     def test_host(self):
@@ -20,14 +19,20 @@ class TestEatTolerant(ScraperTest):
             self.harvester_class.title(), "Vegane Rotkohlsuppe mit Kokosmilch"
         )
 
-    def test_author(self):
-        self.assertEqual(self.harvester_class.author(), "eat Tolerant")
+    def test_description(self):
+        self.assertEqual(
+            self.harvester_class.description(), "Vegane Rotkohlsuppe mit Kokosmilch"
+        )
 
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())
 
     def test_yields(self):
         self.assertEqual("2 servings", self.harvester_class.yields())
+
+    def test_image(self):
+        self.assertEqual("https://eattolerant.de/wp-content/uploads/2022/01/Vegane-Rotkohlsuppe-13-768x512.jpg",
+                         self.harvester_class.image())
 
     def test_ingredients(self):
         self.assertEqual(
