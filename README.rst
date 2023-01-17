@@ -160,6 +160,7 @@ Scrapers available for:
 - `https://www.hellofresh.de/ <https://www.hellofresh.de/>`_
 - `https://www.hellofresh.fr/ <https://www.hellofresh.fr/>`_
 - `https://www.hellofresh.nl/ <https://www.hellofresh.nl/>`_
+- `https://www.hellofresh.ie/ <https://www.hellofresh.ie/>`_
 - `https://www.homechef.com/ <https://www.homechef.com/>`_
 - `https://hostthetoast.com/ <https://hostthetoast.com/>`_
 - `https://www.ica.se/ <https://www.ica.se/>`_
