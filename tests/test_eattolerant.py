@@ -52,6 +52,6 @@ class TestEatTolerant(ScraperTest):
 
     def test_instructions(self):
         return self.assertEqual(
-            "Die äußeren Blätter vom Rotkohl entfernen, anschließend halbieren, großzügig den Strunk entfernen und in kleine Stücke schneiden.\n\nDen Apfel sowie die Kartoffeln waschen und schälen, ebenfalls in kleine Stücke schneiden.\n\nDie Zwiebel in Würfel schneiden und den Ingwer fein reiben.\n\nDas Kokosöl in einem Top erhitzen, anschließend die Zwiebel und den Rotkohl kurz darin anbraten. Währenddessen mit Salz würzen.\n\nDie Apfel- und Kartoffelstücke zugeben, ebenfalls kurz anbraten.\n\nDie Gemüsebrühe, Kokosmilch und den Ingwer zugeben und die Suppe ca. 25 Minuten köcheln lassen. Kurz vor Ende der Garzeit den Verjus sowie Zucker zugeben. Anschließend fein pürieren und sofort servieren.\n\n",
+            "Die äußeren Blätter vom Rotkohl entfernen, anschließend halbieren, großzügig den Strunk entfernen und in kleine Stücke schneiden.\nDen Apfel sowie die Kartoffeln waschen und schälen, ebenfalls in kleine Stücke schneiden.\nDie Zwiebel in Würfel schneiden und den Ingwer fein reiben.\nDas Kokosöl in einem Top erhitzen, anschließend die Zwiebel und den Rotkohl kurz darin anbraten. Währenddessen mit Salz würzen.\nDie Apfel- und Kartoffelstücke zugeben, ebenfalls kurz anbraten.\nDie Gemüsebrühe, Kokosmilch und den Ingwer zugeben und die Suppe ca. 25 Minuten köcheln lassen. Kurz vor Ende der Garzeit den Verjus sowie Zucker zugeben. Anschließend fein pürieren und sofort servieren.",
             self.harvester_class.instructions(),
         )
