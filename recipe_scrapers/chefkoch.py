@@ -1,6 +1,4 @@
 # mypy: disallow_untyped_defs=False
-from typing import List
-
 from ._abstract import AbstractScraper
 
 

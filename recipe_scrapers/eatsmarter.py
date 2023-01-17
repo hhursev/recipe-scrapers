@@ -33,10 +33,10 @@ class Eatsmarter(AbstractScraper):
         try:
             return self.schema.cook_time()
         except SchemaOrgException:
-            return 0
+            return None
 
     def prep_time(self):
         try:
             return self.schema.prep_time()
         except SchemaOrgException:
-            return 0
+            return None

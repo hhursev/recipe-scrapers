@@ -51,7 +51,7 @@ class TestEatSmarter(ScraperTest):
         self.assertEqual(20, self.harvester_class.total_time())
 
     def test_cook_time(self):
-        return self.assertEqual(0.0, self.harvester_class.cook_time())
+        return self.assertEqual(None, self.harvester_class.cook_time())
 
     def test_prep_time(self):
-        return self.assertEqual(0.0, self.harvester_class.prep_time())
+        return self.assertEqual(None, self.harvester_class.prep_time())
