@@ -16,9 +16,6 @@ class EmmiKochtEinfach(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 
@@ -39,3 +36,12 @@ class EmmiKochtEinfach(AbstractScraper):
 
     def description(self):
         return self.schema.description()
+
+    def total_time(self):
+        return self.schema.total_time()
+
+    def cook_time(self):
+        return self.schema.cook_time()
+
+    def prep_time(self):
+        return self.schema.prep_time()
