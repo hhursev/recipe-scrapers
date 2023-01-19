@@ -472,6 +472,15 @@ SCRAPERS = {
 }
 
 
+def get_supported_urls() -> set[str]:
+    return set(SCRAPERS.keys())
+
+
+def scraper_exists_for(url_path: str) -> bool:
+    host_name = get_host_name(url_path)
+    return host_name in get_supported_urls()
+
+
 def scrape_me(url_path: str, **options: dict[str, Any]) -> AbstractScraper:
     host_name = get_host_name(url_path)
 
