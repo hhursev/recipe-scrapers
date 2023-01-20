@@ -11,7 +11,7 @@ class TestMainMethods(unittest.TestCase):
         self.assertIn(get_host_name("https://www.hellofresh.nl/"), urls)
         self.assertIn(get_host_name("https://hellofresh.com/"), urls)
 
-    def test_ScraperExistsFor(self):
+    def test_scraper_exists_for(self):
         self.assertFalse(scraper_exists_for("example.com"))
         self.assertTrue(scraper_exists_for("https://www.hellofresh.nl/"))
         self.assertTrue(
