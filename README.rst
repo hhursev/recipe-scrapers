@@ -386,3 +386,8 @@ Special thanks to:
 ------------------
 
 All the `contributors that helped improving <https://github.com/hhursev/recipe-scrapers/graphs/contributors>`_  the package. You are awesome!
+
+
+.. image:: https://api.codacy.com/project/badge/Grade/452d8e5c3f0c4ea885082b254917fc1e
+   :alt: Codacy Badge
+   :target: https://app.codacy.com/gh/hhursev/recipe-scrapers?utm_source=github.com&utm_medium=referral&utm_content=hhursev/recipe-scrapers&utm_campaign=Badge_Grade_Settings
