@@ -16,15 +16,12 @@
 .. image:: https://img.shields.io/github/license/hhursev/recipe-scrapers?
     :target: https://github.com/hhursev/recipe-scrapers/blob/main/LICENSE
     :alt: License
-.. image:: https://github.com/hhursev/recipe-scrapers/workflows/linters/badge.svg?branch=main
-    :target: https://github.com/hhursev/recipe-scrapers/actions/
-    :alt: GitHub Actions Linters
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/psf/black
     :alt: Black formatted
-.. image:: https://img.shields.io/lgtm/grade/python/g/hhursev/recipe-scrapers.svg?logo=lgtm&logoWidth=18
-    :target: https://lgtm.com/projects/g/hhursev/recipe-scrapers/context:python
-    :alt: Looks Good To Me
+.. image:: https://app.codacy.com/project/badge/Grade/3ee8da77aaa3475a8085ca22287dea89
+    :target: https://app.codacy.com/gh/hhursev/recipe-scrapers/dashboard
+    :alt: Codacy Badge
 
 
 ------
