@@ -5,7 +5,7 @@ from recipe_scrapers._utils import get_host_name
 
 
 class TestMainMethods(unittest.TestCase):
-    def test_GetSupportedUrls(self):
+    def test_get_supported_urls(self):
         urls = get_supported_urls()
         self.assertGreater(len(urls), 200)
         self.assertIn(get_host_name("https://www.hellofresh.nl/"), urls)
