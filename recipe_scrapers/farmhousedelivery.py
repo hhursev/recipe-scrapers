@@ -14,7 +14,7 @@ from ._utils import normalize_string
 
 class FarmhouseDelivery(AbstractScraper):
     @classmethod
-    def host(self, domain="com"):
+    def host(cls, domain="com"):
         return f"recipes.farmhousedelivery.{domain}"
 
     def title(self):

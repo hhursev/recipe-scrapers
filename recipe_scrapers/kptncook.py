@@ -40,7 +40,7 @@ class KptnCook(AbstractScraper):
         ).json()[0]
 
     @classmethod
-    def host(self, subdomain="mobile"):
+    def host(cls, subdomain="mobile"):
         return f"{subdomain}.kptncook.com"
 
     def author(self):

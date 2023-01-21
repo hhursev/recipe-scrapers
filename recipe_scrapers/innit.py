@@ -8,7 +8,7 @@ from ._abstract import AbstractScraper
 
 class Innit(AbstractScraper):
     @classmethod
-    def host(self, domain="com"):
+    def host(cls, domain="com"):
         return f"innit.{domain}"
 
     def title(self):
