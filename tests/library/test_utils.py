@@ -83,3 +83,38 @@ class TestUtils(unittest.TestCase):
         for text, expected_minutes in self.iso8601_fixtures.items():
             with self.subTest(text=text):
                 self.assertEqual(expected_minutes, get_minutes(text))
+
+    def test_list_public_methods(self):
+        from recipe_scrapers import AbstractScraper
+
+        public_method_names = [
+            method
+            for method in dir(AbstractScraper)
+            if callable(getattr(AbstractScraper, method))
+            if not method.startswith("_") and method not in ["soup", "links", "to_json"]
+        ]
+        self.assertEqual(
+            [
+                "author",
+                "canonical_url",
+                "category",
+                "cook_time",
+                "cuisine",
+                "description",
+                "host",
+                "image",
+                "ingredients",
+                "instructions",
+                "instructions_list",
+                "language",
+                "nutrients",
+                "prep_time",
+                "ratings",
+                "reviews",
+                "site_name",
+                "title",
+                "total_time",
+                "yields",
+            ],
+            public_method_names,
+        )
