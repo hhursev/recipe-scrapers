@@ -82,14 +82,16 @@ class WeightWatchers(AbstractScraper):
             "h3", {"id": "food-detail-recipe-ingredients-header"}
         ).parent.find_all("div", {"class": "styles_name__1OYVU"})
 
-    def _extract_ingredient_name(self, ingridient):
+    @staticmethod
+    def _extract_ingredient_name(ingredient):
         return normalize_string(
-            ingridient.find("div", {"class": "styles_ingredientName__1Vffd"})
+            ingredient.find("div", {"class": "styles_ingredientName__1Vffd"})
             .find("div")
             .get_text()
         )
 
-    def _extract_portion_parts(self, ingredient):
+    @staticmethod
+    def _extract_portion_parts(ingredient):
         tags = ingredient.find("div", {"class": "styles_portion__2NQyq"}).find_all(
             "span"
         )
@@ -109,8 +111,8 @@ class WeightWatchers(AbstractScraper):
             )
 
     def __parse_ingredient(self, ingredient):
-        ingredient_name = self._extract_ingredient_name(ingredient)
-        amount, unit, comment = self._extract_portion_parts(ingredient)
+        ingredient_name = self.__class__._extract_ingredient_name(ingredient)
+        amount, unit, comment = self.__class__._extract_portion_parts(ingredient)
 
         if comment:
             return f"{amount} {unit} {ingredient_name}; {comment}"

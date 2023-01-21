@@ -43,12 +43,14 @@ class WeightWatchersPublic(WeightWatchers):
             .find_all("div", recursive=False)
         )
 
-    def _extract_ingredient_name(self, ingredient):
+    @staticmethod
+    def _extract_ingredient_name(ingredient):
         return normalize_string(
             ingredient.find("p", {"data-e2e-name": "ingredient_name"}).get_text()
         )
 
-    def _extract_portion_parts(self, ingredient):
+    @staticmethod
+    def _extract_portion_parts(ingredient):
         tags = ingredient.find(
             "p", {"data-e2e-name": "ingredient_description"}
         ).find_all("span")
