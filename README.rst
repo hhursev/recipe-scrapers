@@ -36,24 +36,28 @@ then:
 
     from recipe_scrapers import scrape_me
 
-    # give the url as a string, it can be url from any site listed below
     scraper = scrape_me('https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/')
 
     # Q: What if the recipe site I want to extract information from is not listed below?
     # A: You can give it a try with the wild_mode option! If there is Schema/Recipe available it will work just fine.
     scraper = scrape_me('https://www.feastingathome.com/tomato-risotto/', wild_mode=True)
 
+    scraper.host()
     scraper.title()
     scraper.total_time()
-    scraper.yields()
-    scraper.ingredients()
-    scraper.instructions()  # or alternatively for results as a Python list: scraper.instructions_list()
     scraper.image()
-    scraper.host()
+    scraper.ingredients()
+    scraper.instructions()
+    scraper.instructions_list()
+    scraper.yields()
+    scraper.to_json()
     scraper.links()
     scraper.nutrients()  # if available
 
-    # Starting from version 14.0.0 you also have an option to scrape from html-like content
+You also have an option to scrape html-like content
+
+.. code:: python
+
     import requests
     from recipe_scrapers import scrape_html
 
@@ -65,7 +69,6 @@ then:
     scraper.title()
     scraper.total_time()
     # etc...
-
 
 Notes:
 
@@ -384,3 +387,10 @@ Special thanks to:
 ------------------
 
 All the `contributors that helped improving <https://github.com/hhursev/recipe-scrapers/graphs/contributors>`_  the package. You are awesome!
+
+
+Extra:
+------
+| You want to gather recipes data?
+| You have an idea you want to implement?
+| Check out `our "Share a project" wall <https://github.com/hhursev/recipe-scrapers/issues/9>`_ - it may save you time and spark ideas!
