@@ -23,9 +23,9 @@ class FredriksFikaAllas(AbstractScraper):
     def ingredients(self):
         ingredients = []
         content = self.soup.find("strong", string=re.compile("Ingredienser"))
-        contentRows = str(content.parent).split("<br/>")
+        content_rows = str(content.parent).split("<br/>")
 
-        for i in contentRows:
+        for i in content_rows:
             if "Ingredienser" not in i:
                 ingredients.append(i.replace("\r", "").replace("Gör så här:", ""))
             if "Gör så här" in i:
@@ -37,13 +37,13 @@ class FredriksFikaAllas(AbstractScraper):
         instructions = []
         content = self.soup.find("strong", string=re.compile("Gör så här"))
 
-        contentRows = str(content.parent).split("<br/>")
+        content_rows = str(content.parent).split("<br/>")
 
-        fillData = False
-        for i in contentRows:
-            if fillData:
+        fill_data = False
+        for i in content_rows:
+            if fill_data:
                 instructions.append(i.replace("\r", ""))
             if "Gör så här" in i:
-                fillData = True
+                fill_data = True
 
         return "\n".join(instructions)

@@ -8,11 +8,11 @@ from recipe_scrapers import (
 
 
 class TestExceptions(unittest.TestCase):
-    def test_WebsiteNotImplementedError(self):
+    def test_website_not_implemented_error(self):
         with self.assertRaises(WebsiteNotImplementedError):
             scrape_me("https://example.com/recipe")
 
-    def test_NoSchemaFoundInWildMode(self):
+    def test_no_schema_found_in_wild_mode_error(self):
         exception = NoSchemaFoundInWildMode("example.com")
 
         self.assertEqual(exception.url, "example.com")

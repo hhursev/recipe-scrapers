@@ -5,7 +5,7 @@ from ._exceptions import SchemaOrgException
 
 class Eatsmarter(AbstractScraper):
     @classmethod
-    def host(self, domain="com"):
+    def host(cls, domain="com"):
         return f"eatsmarter.{domain}"
 
     def title(self):
