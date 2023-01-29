@@ -34,21 +34,7 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
-      - run: pip install tox
-      - run: tox -e ${{ matrix.toxenv }}
-      # Provide code coverage reports if Linux and last py version
-      - if: matrix.os == 'ubuntu-latest' && matrix.python-version == '3.11'
-        name: coveralls.io
-        uses: AndreMiras/coveralls-python-action@develop
-        with:
-          # coveralls repo token
-          github-token: "SmlfzlVJy4ow55rduU7IU5GmmFCfAdGeq"
-      - if: ${{ !github.event.pull_request.head.repo.fork }} && matrix.os == 'ubuntu-latest' && matrix.python-version == '3.11'
-        name: Create coverage xml report (needed for codacy)
-        run: pip install coverage && coverage xml
-      - if: ${{ !github.event.pull_request.head.repo.fork }} && matrix.os == 'ubuntu-latest' && matrix.python-version == '3.11'
-        name: Report code coverage to codacy
-        uses: codacy/codacy-coverage-reporter-action@v1
-        with:
-          project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
-          coverage-reports: "coverage.xml"
+      - name: Run Tests
+        run: |
+          pip install tox
+          tox -e ${{ matrix.toxenv }}
