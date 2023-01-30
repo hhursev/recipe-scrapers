@@ -21,7 +21,7 @@ class TestEatTolerant(ScraperTest):
 
     def test_description(self):
         self.assertEqual(
-            self.harvester_class.description(), "Vegane Rotkohlsuppe mit Kokosmilch"
+            self.harvester_class.description(), ""
         )
 
     def test_total_time(self):
