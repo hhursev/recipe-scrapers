@@ -43,6 +43,7 @@ class TestEatTolerant(ScraperTest):
                 "1 Zwiebel",
                 "1 kleines Stück Ingwer",
                 "500 ml Gemüsebrühe",
+                "200 ml Kokosmilch",
                 "1 TL Zucker",
                 "20 ml Verjus Sauer",
                 "3 EL Kokosöl",
