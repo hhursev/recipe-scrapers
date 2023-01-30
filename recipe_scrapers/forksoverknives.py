@@ -8,7 +8,6 @@ from ._utils import normalize_string
 
 
 class FOKSchema(SchemaOrg):
-
     def category(self):
         cat = super().category()
         r = re.compile('.*<a href=".+">(.+)</a>')
