@@ -20,9 +20,7 @@ class TestEatTolerant(ScraperTest):
         )
 
     def test_description(self):
-        self.assertEqual(
-            self.harvester_class.description(), ""
-        )
+        self.assertEqual(self.harvester_class.description(), "")
 
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())
@@ -31,8 +29,10 @@ class TestEatTolerant(ScraperTest):
         self.assertEqual("2 servings", self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEqual("https://eattolerant.de/wp-content/uploads/2022/01/Vegane-Rotkohlsuppe-13-scaled.jpg",
-                         self.harvester_class.image())
+        self.assertEqual(
+            "https://eattolerant.de/wp-content/uploads/2022/01/Vegane-Rotkohlsuppe-13-scaled.jpg",
+            self.harvester_class.image(),
+        )
 
     def test_ingredients(self):
         self.assertEqual(
