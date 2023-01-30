@@ -27,14 +27,14 @@ class Meljoulwan(AbstractScraper):
         )
 
     def category(self):
-        ulList = (
+        ul_list = (
             self.soup.find("div", {"class": "post-info"})
             .findChild("div", {"class", "post-category"})
             .findChildren("a")
         )
 
         categories = []
-        for li in ulList:
+        for li in ul_list:
             if li.get_text() != "Blog":
                 categories.append(li.get_text())
         return ",".join(categories)
@@ -66,24 +66,24 @@ class Meljoulwan(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        ulList = self.soup.find("div", {"class": "tabbed-list"}).findChildren("ul")
+        ul_list = self.soup.find("div", {"class": "tabbed-list"}).findChildren("ul")
 
         ingredients = []
-        for ul in ulList:
-            liList = ul.findChildren("li")
-            for li in liList:
+        for ul in ul_list:
+            li_list = ul.findChildren("li")
+            for li in li_list:
                 ingredients.append(li.get_text().strip())
 
         return ingredients
 
     def instructions(self):
-        ulList = self.soup.find("div", {"class": "numbered-list"}).findChildren(
+        ul_list = self.soup.find("div", {"class": "numbered-list"}).findChildren(
             "div", {"class", "num-list-group"}
         )
 
         count = 0
         instructions = []
-        for li in ulList:
+        for li in ul_list:
             count += 1
             instructions.append(
                 str(count)

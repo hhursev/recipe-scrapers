@@ -1,17 +1,22 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 
 
-class Chefkoch(AbstractScraper):
+class BiancaZapatka(AbstractScraper):
     @classmethod
     def host(cls):
-        return "chefkoch.de"
+        return "biancazapatka.com"
+
+    def author(self):
+        return self.schema.author()
 
     def title(self):
         return self.schema.title()
 
-    def description(self):
-        return self.schema.description()
+    def category(self):
+        return self.schema.category()
+
+    def total_time(self):
+        return self.schema.total_time()
 
     def yields(self):
         return self.schema.yields()
@@ -28,11 +33,8 @@ class Chefkoch(AbstractScraper):
     def ratings(self):
         return self.schema.ratings()
 
-    def total_time(self):
-        return self.schema.total_time()
+    def cuisine(self):
+        return self.schema.cuisine()
 
-    def cook_time(self):
-        return self.schema.cook_time()
-
-    def prep_time(self):
-        return self.schema.prep_time()
+    def description(self):
+        return self.schema.description()

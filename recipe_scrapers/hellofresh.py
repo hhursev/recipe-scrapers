@@ -4,7 +4,7 @@ from ._abstract import AbstractScraper
 
 class HelloFresh(AbstractScraper):
     @classmethod
-    def host(self, domain="com"):
+    def host(cls, domain="com"):
         return f"hellofresh.{domain}"
 
     def title(self):

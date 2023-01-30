@@ -7,7 +7,7 @@ from ._utils import get_minutes, get_yields, normalize_string
 
 class SunBasket(AbstractScraper):
     @classmethod
-    def host(self, domain="com"):
+    def host(cls, domain="com"):
         return f"sunbasket.{domain}"
 
     def title(self):

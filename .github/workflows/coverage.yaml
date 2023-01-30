@@ -1,0 +1,38 @@
+name: coverage
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+      - name: run unittests
+        run: |
+          pip install tox
+          tox -e py
+      - name: (coveralls.io) Report code coverage
+        uses: AndreMiras/coveralls-python-action@develop
+        with:
+          github-token: "SmlfzlVJy4ow55rduU7IU5GmmFCfAdGeq"
+      - if: github.event_name == 'push'
+        name: (codacy) Create coverage xml report
+        run: |
+          pip install coverage
+          coverage xml
+      - if: github.event_name == 'push'
+        name: (codacy) Report code coverage
+        uses: codacy/codacy-coverage-reporter-action@v1
+        with:
+          project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
+          coverage-reports: "coverage.xml"

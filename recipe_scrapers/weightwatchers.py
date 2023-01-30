@@ -24,69 +24,75 @@ class WeightWatchers(AbstractScraper):
     # but class of that block and sub elements are different
     # so finding the block and extracting a value will be overridden in class for public recipes,
     # but picking the data item based on order is don in this base class (total_time(), cook_time() and so on)
-    def _findDataContainer(self):
+    def _find_data_container(self):
         return self.soup.find("div", {"class": "styles_container__3N3E8"})
 
-    def _extractItemField(self, item):
+    def _extract_item_field(self, item):
         return item.contents[1]
 
     def total_time(self):
         return get_minutes(
-            self._extractItemField(self._findDataContainer().contents[0])
+            self._extract_item_field(self._find_data_container().contents[0])
         )
 
     def prep_time(self):
         return get_minutes(
-            self._extractItemField(self._findDataContainer().contents[1])
+            self._extract_item_field(self._find_data_container().contents[1])
         )
 
     def cook_time(self):
         return get_minutes(
-            self._extractItemField(self._findDataContainer().contents[2])
+            self._extract_item_field(self._find_data_container().contents[2])
         )
 
     def yields(self):
-        return get_yields(self._extractItemField(self._findDataContainer().contents[3]))
+        return get_yields(
+            self._extract_item_field(self._find_data_container().contents[3])
+        )
 
     def difficulty(self):
-        return self._extractItemField(self._findDataContainer().contents[4]).get_text()
+        return self._extract_item_field(
+            self._find_data_container().contents[4]
+        ).get_text()
 
     #   Alternative way to extract data based on description instead of position
     #    def total_time(self):
     #        return get_minutes(
-    #            self.__findDataContainer()
+    #            self.__find_data_container()
     #            .find("div", string=re.compile(r"minutes Total Time"))
     #            .previous_sibling
     #        )
 
     def image(self):
-        backgroundImgStyle = self.soup.find("div", {"class": "styles_image__2dnNm"})[
-            "style"
-        ]
+        background_image_style = self.soup.find(
+            "div", {"class": "styles_image__2dnNm"}
+        )["style"]
 
-        if backgroundImgStyle:
+        if background_image_style:
             return (
-                re.search(r'url\("(?P<imgurl>\S*)"\);', backgroundImgStyle)
+                re.search(r'url\("(?P<imgurl>\S*)"\);', background_image_style)
                 .groupdict()
                 .get("imgurl")
             )
 
         return None
 
-    def _findIngridientTags(self):
+    def _find_ingredient_tags(self):
         return self.soup.find(
             "h3", {"id": "food-detail-recipe-ingredients-header"}
         ).parent.find_all("div", {"class": "styles_name__1OYVU"})
 
-    def _extractIngridientName(self, ingridient):
+    @staticmethod
+    def _extract_ingredient_name(ingredient):
         return normalize_string(
-            ingridient.find("div", {"class": "styles_ingredientName__1Vffd"})
+            ingredient.find("div", {"class": "styles_ingredientName__1Vffd"})
             .find("div")
             .get_text()
         )
 
-    def _extractPortionParts(self, ingridient):
-        tags = ingridient.find("div", {"class": "styles_portion__2NQyq"}).find_all(
+    @staticmethod
+    def _extract_portion_parts(ingredient):
+        tags = ingredient.find("div", {"class": "styles_portion__2NQyq"}).find_all(
             "span"
         )
         try:
@@ -104,34 +110,36 @@ class WeightWatchers(AbstractScraper):
                 None,
             )
 
-    def __parseIngridient(self, ingridient):
-        ingridientName = self._extractIngridientName(ingridient)
-        amount, unit, comment = self._extractPortionParts(ingridient)
+    def __parse_ingredient(self, ingredient):
+        ingredient_name = self.__class__._extract_ingredient_name(ingredient)
+        amount, unit, comment = self.__class__._extract_portion_parts(ingredient)
 
         if comment:
-            return f"{amount} {unit} {ingridientName}; {comment}"
+            return f"{amount} {unit} {ingredient_name}; {comment}"
         else:
-            return f"{amount} {unit} {ingridientName}"
+            return f"{amount} {unit} {ingredient_name}"
 
     def ingredients(self):
         return [
-            self.__parseIngridient(ingridient)
-            for ingridient in self._findIngridientTags()
+            self.__parse_ingredient(ingredient)
+            for ingredient in self._find_ingredient_tags()
         ]
 
-    def _getInstructions(self, headertag, headerattribute, headervalue, instructiontag):
+    def _get_instructions(
+        self, header_tag, header_attribute, header_value, instruction_tag
+    ):
         instructions = self.soup.find(
-            headertag, {headerattribute: headervalue}
+            header_tag, {header_attribute: header_value}
         ).parent.find("ol")
         return "\n".join(
             [
                 normalize_string(instruction.get_text())
-                for instruction in instructions.find_all(instructiontag)
+                for instruction in instructions.find_all(instruction_tag)
             ]
         )
 
     def instructions(self):
-        return self._getInstructions(
+        return self._get_instructions(
             "h3", "id", "food-detail-recipe-instruction-header", "div"
         )
 

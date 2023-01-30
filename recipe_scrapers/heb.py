@@ -5,7 +5,7 @@ from ._utils import get_minutes, get_yields, normalize_string
 
 class HEB(AbstractScraper):
     @classmethod
-    def host(self, domain="com"):
+    def host(cls, domain="com"):
         return f"heb.{domain}"
 
     def title(self):

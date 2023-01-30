@@ -27,6 +27,7 @@ from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
 from .bettybossi import BettyBossi
 from .bettycrocker import BettyCrocker
+from .biancazapatka import BiancaZapatka
 from .bigoven import BigOven
 from .blueapron import BlueApron
 from .bodybuilding import Bodybuilding
@@ -252,6 +253,7 @@ SCRAPERS = {
     BakingMischeif.host(): BakingMischeif,
     BettyBossi.host(): BettyBossi,
     BettyCrocker.host(): BettyCrocker,
+    BiancaZapatka.host(): BiancaZapatka,
     BigOven.host(): BigOven,
     BlueApron.host(): BlueApron,
     Bodybuilding.host(): Bodybuilding,
@@ -322,6 +324,7 @@ SCRAPERS = {
     HelloFresh.host(domain="de"): HelloFresh,
     HelloFresh.host(domain="fr"): HelloFresh,
     HelloFresh.host(domain="nl"): HelloFresh,
+    HelloFresh.host(domain="ie"): HelloFresh,
     HomeChef.host(): HomeChef,
     Hostthetoast.host(): Hostthetoast,
     HundredAndOneCookbooks.host(): HundredAndOneCookbooks,
@@ -471,6 +474,15 @@ SCRAPERS = {
     ZeitWochenmarkt.host(): ZeitWochenmarkt,
     ZenBelly.host(): ZenBelly,
 }
+
+
+def get_supported_urls() -> set[str]:
+    return set(SCRAPERS.keys())
+
+
+def scraper_exists_for(url_path: str) -> bool:
+    host_name = get_host_name(url_path)
+    return host_name in get_supported_urls()
 
 
 def scrape_me(url_path: str, **options: dict[str, Any]) -> AbstractScraper:

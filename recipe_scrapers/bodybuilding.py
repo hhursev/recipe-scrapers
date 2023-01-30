@@ -15,12 +15,12 @@ class Bodybuilding(AbstractScraper):
         return self.soup.find("h1", {"class": "bb-recipe-headline-title"}).get_text()
 
     def category(self):
-        tagList = self.soup.find(
+        tag_list = self.soup.find(
             "div", {"class": "bb-recipe__desktop-tags"}
         ).findChildren("div", {"class": "bb-recipe__topic"})
 
         categories = []
-        for tag in tagList:
+        for tag in tag_list:
             categories.append(tag.get_text())
         return ",".join(categories)
 
@@ -47,24 +47,24 @@ class Bodybuilding(AbstractScraper):
         return image["src"] if image else None
 
     def ingredients(self):
-        ulList = self.soup.find(
+        ul_list = self.soup.find(
             "ul", {"class": "bb-recipe__ingredient-list"}
         ).findChildren("li")
 
         ingredients = []
-        for li in ulList:
+        for li in ul_list:
             ingredients.append(" ".join(li.get_text().split()))
         return ingredients
 
     def instructions(self):
-        olList = self.soup.find(
+        ol_list = self.soup.find(
             "ol", {"class": "bb-recipe__directions-list"}
         ).findChildren("li")
 
         count = 0
         instructions = []
 
-        for li in olList:
+        for li in ol_list:
             count += 1
             instructions.append(str(count) + ". " + " ".join(li.get_text().split()))
 

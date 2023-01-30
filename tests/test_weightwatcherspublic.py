@@ -64,7 +64,7 @@ class TestweightwatchersPublicScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
-    def test_ingredientsCount(self):
+    def test_ingredients_count(self):
         self.assertEqual(16, len(self.harvester_class.ingredients()))
 
     def test_instructions(self):
