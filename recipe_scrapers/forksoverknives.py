@@ -7,7 +7,7 @@ from ._schemaorg import SchemaOrg
 from ._utils import normalize_string
 
 
-class fok_Schema(SchemaOrg):
+class FOKSchema(SchemaOrg):
 
     def category(self):
         cat = super().category()
@@ -38,7 +38,7 @@ class ForksOverKnives(AbstractScraper):
         super().__init__(
             url=url, proxies=proxies, timeout=timeout, wild_mode=wild_mode, html=html
         )
-        self.schema = fok_Schema(self.page_data)
+        self.schema = FOKSchema(self.page_data)
 
     def author(self):
         author = self.soup.find("div", attrs={"class": "post-info"}).find("a")
