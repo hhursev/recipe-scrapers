@@ -60,6 +60,7 @@ from .dr import Dr
 from .eatingbirdfood import EatingBirdFood
 from .eatingwell import EatingWell
 from .eatsmarter import Eatsmarter
+from .eattolerant import EatTolerant
 from .eatwhattonight import EatWhatTonight
 from .emmikochteinfach import EmmiKochtEinfach
 from .epicurious import Epicurious
@@ -282,6 +283,7 @@ SCRAPERS = {
     EatingWell.host(): EatingWell,
     Eatsmarter.host(): Eatsmarter,
     Eatsmarter.host(domain="de"): Eatsmarter,
+    EatTolerant.host(): EatTolerant,
     EmmiKochtEinfach.host(): EmmiKochtEinfach,
     Epicurious.host(): Epicurious,
     EthanChlebowski.host(): EthanChlebowski,
