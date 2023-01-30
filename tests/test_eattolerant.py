@@ -31,7 +31,7 @@ class TestEatTolerant(ScraperTest):
         self.assertEqual("2 servings", self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEqual("https://eattolerant.de/wp-content/uploads/2022/01/Vegane-Rotkohlsuppe-13-768x512.jpg",
+        self.assertEqual("https://eattolerant.de/wp-content/uploads/2022/01/Vegane-Rotkohlsuppe-13-scaled.jpg",
                          self.harvester_class.image())
 
     def test_ingredients(self):
