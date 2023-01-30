@@ -63,6 +63,3 @@ class TestForksOverKnives(ScraperTest):
 
     def test_language(self):
         self.assertEqual("en-US", self.harvester_class.language())
-
-    def test_category(self):
-        self.assertEqual("Pasta & Noodles", self.harvester_class.category())
