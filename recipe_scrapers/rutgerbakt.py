@@ -12,8 +12,8 @@ class RutgerBakt(AbstractScraper):
         return "Rutger van den Broek"
 
     def title(self):
-        titleRaw = self.schema.title()
-        return titleRaw.replace(" – recept", "").replace(" – Recept", "")
+        title_raw = self.schema.title()
+        return title_raw.replace(" – recept", "").replace(" – Recept", "")
 
     def category(self):
         category = (
@@ -43,17 +43,17 @@ class RutgerBakt(AbstractScraper):
 
         # 1. Filter all the headings.
         # Some h2 headers contain photos. Those are not what we want.
-        def filterHeading(headings_old):
+        def filter_heading(headings_old):
             headings_new = []
-            for heading in headings_old:
-                if "class" in heading.attrs:
-                    hClass = heading.attrs["class"]
-                    if any("photo" in attr.lower() for attr in hClass):
+            for _heading in headings_old:
+                if "class" in _heading.attrs:
+                    h_class = _heading.attrs["class"]
+                    if any("photo" in attr.lower() for attr in h_class):
                         continue
-                headings_new.append(heading)
+                headings_new.append(_heading)
             return headings_new
 
-        headings = filterHeading(self.soup.find_all("h2"))
+        headings = filter_heading(self.soup.find_all("h2"))
 
         # 2. Find the instructions heading
         # Usually the last heading are the instructions
@@ -69,7 +69,7 @@ class RutgerBakt(AbstractScraper):
                 break
 
         # This function iterates over every next element after the heading.
-        def parseInstructions(element):
+        def parse_instructions(element):
             for instruction in element.next_siblings:
                 if instruction.name not in ["p", "h2", "h3", "h4"]:
                     continue
@@ -80,7 +80,7 @@ class RutgerBakt(AbstractScraper):
                     continue
                 yield instruction.text.replace("\n", " ").strip()
 
-        instructions = parseInstructions(heading)
+        instructions = parse_instructions(heading)
         return "\n".join(instructions)
 
     def ratings(self):

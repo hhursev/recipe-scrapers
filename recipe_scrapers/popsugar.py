@@ -33,17 +33,17 @@ class PopSugar(AbstractScraper):
         entries = container.findAll("li")
 
         ingredients = []
-        skipNext = False
+        skip_next = False
         for entry in entries:
             for item in entry.contents:
-                if skipNext:
-                    skipNext = False
+                if skip_next:
+                    skip_next = False
                     continue
 
                 # Each item is an ingredient entry unless it is a tag. The tags are filtered from the ingredient
                 # list. If the tag is a <b> tag the next item is also ignored in order to skip headings.
                 if item.name is not None:
-                    skipNext = item.name == "b"
+                    skip_next = item.name == "b"
                     continue
 
                 ingredients.append(normalize_string(item))

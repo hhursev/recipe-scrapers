@@ -16,15 +16,9 @@
 .. image:: https://img.shields.io/github/license/hhursev/recipe-scrapers?
     :target: https://github.com/hhursev/recipe-scrapers/blob/main/LICENSE
     :alt: License
-.. image:: https://github.com/hhursev/recipe-scrapers/workflows/linters/badge.svg?branch=main
-    :target: https://github.com/hhursev/recipe-scrapers/actions/
-    :alt: GitHub Actions Linters
-.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
-    :target: https://github.com/psf/black
-    :alt: Black formatted
-.. image:: https://img.shields.io/lgtm/grade/python/g/hhursev/recipe-scrapers.svg?logo=lgtm&logoWidth=18
-    :target: https://lgtm.com/projects/g/hhursev/recipe-scrapers/context:python
-    :alt: Looks Good To Me
+.. image:: https://app.codacy.com/project/badge/Grade/3ee8da77aaa3475a8085ca22287dea89
+    :target: https://app.codacy.com/gh/hhursev/recipe-scrapers/dashboard
+    :alt: Codacy Badge
 
 
 ------
@@ -61,9 +55,9 @@ then:
     scraper.instructions()  # or alternatively for results as a Python list: scraper.instructions_list()
     scraper.image()
     scraper.host()
+    scraper.to_json()
     scraper.links()
     scraper.nutrients()  # if available
-
 
 Notes:
 
@@ -93,6 +87,7 @@ Scrapers available for:
 - `https://bbc.co.uk/ <http://bbc.co.uk/food/recipes>`_
 - `https://bbcgoodfood.com/ <https://bbcgoodfood.com>`_
 - `https://bettycrocker.com/ <https://bettycrocker.com>`_
+- `https://biancazapatka.com/ <https://biancazapatka.com>`_
 - `https://bigoven.com/ <https://bigoven.com>`_
 - `https://blueapron.com/ <https://blueapron.com>`_
 - `https://bonappetit.com/ <https://bonappetit.com>`_
@@ -331,7 +326,10 @@ Assuming you have ``>=python3.7`` installed, navigate to the directory where you
     cd recipe-scrapers &&
     python3 -m venv .venv &&
     source .venv/bin/activate &&
+    python -m pip install --upgrade pip &&
     pip install -r requirements-dev.txt &&
+    pip install pre-commit &&
+    pre-commit install &&
     python -m unittest
 
 In case you want to run a single unittest for a newly developed scraper
@@ -366,3 +364,10 @@ Special thanks to:
 ------------------
 
 All the `contributors that helped improving <https://github.com/hhursev/recipe-scrapers/graphs/contributors>`_  the package. You are awesome!
+
+
+Extra:
+------
+| You want to gather recipes data?
+| You have an idea you want to implement?
+| Check out `our "Share a project" wall <https://github.com/hhursev/recipe-scrapers/issues/9>`_ - it may save you time and spark ideas!
