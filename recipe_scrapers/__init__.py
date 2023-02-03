@@ -76,6 +76,7 @@ from .foodandwine import FoodAndWine
 from .foodnetwork import FoodNetwork
 from .foodrepublic import FoodRepublic
 from .forksoverknives import ForksOverKnives
+from .forktospoon import ForkToSpoon
 from .franzoesischkochen import FranzoesischKochen
 from .fredriksfikaallas import FredriksFikaAllas
 from .g750g import G750g
@@ -159,6 +160,7 @@ from .paninihappy import PaniniHappy
 from .pingodoce import PingoDoce
 from .popsugar import PopSugar
 from .practicalselfreliance import PracticalSelfReliance
+from .pressureluckcooking import PressureLuckCooking
 from .primaledgehealth import PrimalEdgeHealth
 from .projectgezond import ProjectGezond
 from .przepisy import Przepisy
@@ -302,6 +304,7 @@ SCRAPERS = {
     FoodAndWine.host(): FoodAndWine,
     FoodNetwork.host(): FoodNetwork,
     FoodRepublic.host(): FoodRepublic,
+    ForkToSpoon.host(): ForkToSpoon,
     ForksOverKnives.host(): ForksOverKnives,
     FranzoesischKochen.host(): FranzoesischKochen,
     FredriksFikaAllas.host(): FredriksFikaAllas,
@@ -400,6 +403,7 @@ SCRAPERS = {
     PopSugar.host(): PopSugar,
     PracticalSelfReliance.host(): PracticalSelfReliance,
     PracticalSelfReliance.host(domain="creativecanning.com"): PracticalSelfReliance,
+    PressureLuckCooking.host(): PressureLuckCooking,
     PrimalEdgeHealth.host(): PrimalEdgeHealth,
     ProjectGezond.host(): ProjectGezond,
     Przepisy.host(): Przepisy,
