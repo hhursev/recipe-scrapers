@@ -98,6 +98,7 @@ Scrapers available for:
 - `https://castironketo.net/ <https://castironketo.net/>`_
 - `https://cdkitchen.com/ <https://cdkitchen.com/>`_
 - `https://chefkoch.de/ <https://chefkoch.de>`_
+- `https://www.chefnini.com/ <https://www.chefnini.com/>`_
 - `https://closetcooking.com/ <https://closetcooking.com>`_
 - `https://comidinhasdochef.com/ <https://comidinhasdochef.com/>`_
 - `https://cookeatshare.com/ <https://cookeatshare.com/>`_
@@ -135,6 +136,7 @@ Scrapers available for:
 - `https://foodandwine.com/ <https://www.foodandwine.com>`_
 - `https://foodrepublic.com/ <https://foodrepublic.com>`_
 - `https://www.forksoverknives.com/ <https://www.forksoverknives.com/>`_
+- `https://forktospoon.com/ <https://forktospoon.com/>`_
 - `https://fredriksfika.allas.se/ <https://fredriksfika.allas.se/>`_
 - `https://www.750g.com <https://www.750g.com>`_
 - `https://geniuskitchen.com/ <https://geniuskitchen.com>`_
@@ -219,6 +221,7 @@ Scrapers available for:
 - `https://www.pingodoce.pt/ <https://www.pingodoce.pt>`_
 - `https://popsugar.com/ <https://popsugar.com>`_
 - `https://practicalselfreliance.com/ <https://practicalselfreliance.com>`_
+- `https://pressureluckcooking.com/ <https://pressureluckcooking.com/>`_
 - `https://www.primaledgehealth.com/ <https://www.primaledgehealth.com/>`_
 - `https://www.projectgezond.nl/ <https://www.projectgezond.nl/>`_
 - `https://przepisy.pl/ <https://przepisy.pl>`_

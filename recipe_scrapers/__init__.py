@@ -37,6 +37,7 @@ from .budgetbytes import BudgetBytes
 from .castironketo import CastIronKeto
 from .cdkitchen import CdKitchen
 from .chefkoch import Chefkoch
+from .chefnini import Chefnini
 from .closetcooking import ClosetCooking
 from .comidinhasdochef import ComidinhasDoChef
 from .cookeatshare import CookEatShare
@@ -75,6 +76,7 @@ from .foodandwine import FoodAndWine
 from .foodnetwork import FoodNetwork
 from .foodrepublic import FoodRepublic
 from .forksoverknives import ForksOverKnives
+from .forktospoon import ForkToSpoon
 from .franzoesischkochen import FranzoesischKochen
 from .fredriksfikaallas import FredriksFikaAllas
 from .g750g import G750g
@@ -155,6 +157,7 @@ from .paninihappy import PaniniHappy
 from .pingodoce import PingoDoce
 from .popsugar import PopSugar
 from .practicalselfreliance import PracticalSelfReliance
+from .pressureluckcooking import PressureLuckCooking
 from .primaledgehealth import PrimalEdgeHealth
 from .projectgezond import ProjectGezond
 from .przepisy import Przepisy
@@ -258,6 +261,7 @@ SCRAPERS = {
     CastIronKeto.host(): CastIronKeto,
     CdKitchen.host(): CdKitchen,
     Chefkoch.host(): Chefkoch,
+    Chefnini.host(): Chefnini,
     ClosetCooking.host(): ClosetCooking,
     ComidinhasDoChef.host(): ComidinhasDoChef,
     CookEatShare.host(): CookEatShare,
@@ -296,6 +300,7 @@ SCRAPERS = {
     FoodAndWine.host(): FoodAndWine,
     FoodNetwork.host(): FoodNetwork,
     FoodRepublic.host(): FoodRepublic,
+    ForkToSpoon.host(): ForkToSpoon,
     ForksOverKnives.host(): ForksOverKnives,
     FranzoesischKochen.host(): FranzoesischKochen,
     FredriksFikaAllas.host(): FredriksFikaAllas,
@@ -384,6 +389,7 @@ SCRAPERS = {
     PopSugar.host(): PopSugar,
     PracticalSelfReliance.host(): PracticalSelfReliance,
     PracticalSelfReliance.host(domain="creativecanning.com"): PracticalSelfReliance,
+    PressureLuckCooking.host(): PressureLuckCooking,
     PrimalEdgeHealth.host(): PrimalEdgeHealth,
     ProjectGezond.host(): ProjectGezond,
     Przepisy.host(): Przepisy,
@@ -468,7 +474,7 @@ def scraper_exists_for(url_path: str) -> bool:
     return host_name in get_supported_urls()
 
 
-def scrape_me(url_path: str, **options: dict[str, Any]) -> AbstractScraper:
+def scrape_me(url_path: str, **options: Any) -> AbstractScraper:
     host_name = get_host_name(url_path)
 
     try:
