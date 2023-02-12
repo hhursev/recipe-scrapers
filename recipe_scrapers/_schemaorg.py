@@ -10,7 +10,7 @@ import extruct
 from recipe_scrapers.settings import settings
 
 from ._exceptions import SchemaOrgException
-from ._utils import get_minutes, get_yields, normalize_string
+from ._utils import get_minutes, get_yields, normalize_ingredients, normalize_string
 
 SCHEMA_ORG_HOST = "schema.org"
 
@@ -166,9 +166,7 @@ class SchemaOrg:
         if ingredients and isinstance(ingredients[0], list):
             ingredients = list(chain(*ingredients))  # flatten
 
-        return [
-            normalize_string(ingredient) for ingredient in ingredients if ingredient
-        ]
+        return normalize_ingredients(ingredients)
 
     def nutrients(self):
         nutrients = self.data.get("nutrition", {})

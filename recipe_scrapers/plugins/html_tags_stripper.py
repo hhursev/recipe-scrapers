@@ -75,7 +75,10 @@ class HTMLTagStripperPlugin(PluginInterface):
             decorated_func_result = decorated(self, *args, **kwargs)
 
             if type(decorated_func_result) is list:
-                return [stripper(item) for item in decorated_func_result]
+                return [
+                    stripper(item) if type(item) is str else item
+                    for item in decorated_func_result
+                ]
             else:
                 return stripper(decorated_func_result)
 

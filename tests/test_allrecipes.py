@@ -48,16 +48,36 @@ class TestAllRecipesCuratedScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "¼ cup olive oil",
-                "1 tablespoon minced garlic",
-                "½ teaspoon sea salt",
-                "8 Roma tomatoes, sliced",
-                "2 (12 inch) pre-baked pizza crusts",
-                "8 ounces shredded Mozzarella cheese",
-                "4 ounces shredded Fontina cheese",
-                "10 fresh basil leaves, washed, dried",
-                "½ cup freshly grated Parmesan cheese",
-                "½ cup crumbled feta cheese",
+                {"name": "olive oil", "quantity": 0.25, "unit": "cup"},
+                {"name": "minced garlic", "quantity": 1.0, "unit": "tablespoon"},
+                {"name": "sea salt", "quantity": 0.5, "unit": "teaspoon"},
+                {
+                    "name": "Roma tomatoes, sliced",
+                    "quantity": 8.0,
+                    "unit": "dimensionless",
+                },
+                {
+                    "name": "(1 inch) pre-baked pizza crusts",
+                    "quantity": 2.0,
+                    "unit": "dimensionless",
+                },
+                {
+                    "name": "shredded Mozzarella cheese",
+                    "quantity": 8.0,
+                    "unit": "ounce",
+                },
+                {"name": "shredded Fontina cheese", "quantity": 4.0, "unit": "ounce"},
+                {
+                    "name": "fresh basil leaves, washed, dried",
+                    "quantity": 10.0,
+                    "unit": "dimensionless",
+                },
+                {
+                    "name": "freshly grated Parmesan cheese",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                },
+                {"name": "crumbled feta cheese", "quantity": 0.5, "unit": "cup"},
             ],
             self.harvester_class.ingredients(),
         )
@@ -114,15 +134,15 @@ class TestAllRecipesUserScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "2 tablespoons white sugar",
-                "1 tablespoon brown sugar",
-                "1 1/2 tsp garlic powder",
-                "1 1/2 tsp chili powder",
-                "1 1/2 tsp paprika",
-                "1 1/2 tsp ground cumin",
-                "1 tsp salt",
-                "1 tsp onion powder",
-                "1 1/2 tsp ground black pepper",
+                {"name": "white sugar", "quantity": 2.0, "unit": "tablespoon"},
+                {"name": "brown sugar", "quantity": 1.0, "unit": "tablespoon"},
+                {"name": "garlic powder", "quantity": 1.5, "unit": "teaspoon"},
+                {"name": "chili powder", "quantity": 1.5, "unit": "teaspoon"},
+                {"name": "paprika", "quantity": 1.5, "unit": "teaspoon"},
+                {"name": "ground cumin", "quantity": 1.5, "unit": "teaspoon"},
+                {"name": "salt", "quantity": 1.0, "unit": "teaspoon"},
+                {"name": "onion powder", "quantity": 1.0, "unit": "teaspoon"},
+                {"name": "ground black pepper", "quantity": 1.5, "unit": "teaspoon"},
             ],
             self.harvester_class.ingredients(),
         )

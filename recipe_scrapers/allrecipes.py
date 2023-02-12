@@ -1,6 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
+from ._utils import get_minutes, get_yields, normalize_ingredients, normalize_string
 
 
 class AllRecipes:
@@ -126,7 +126,7 @@ class AllRecipesUser(AbstractScraper):
     def ingredients(self):
         ingredients = self.soup.findAll("span", {"class": "ingredients-item-name"})
         ingredients = [normalize_string(i.text) for i in ingredients]
-        return ingredients
+        return normalize_ingredients(ingredients)
 
     def instructions(self):
         instructions = self.soup.findAll("div", {"class": "paragraph"})
