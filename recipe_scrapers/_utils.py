@@ -157,7 +157,7 @@ def normalize_ingredients(ingredients):
         p_ing = p_ing[0] if len(p_ing) > 0 else None
         n_ingredients.append(
             {
-                "name": normalize_string(ingredient.replace(p_ing.surface, ""))
+                "name": normalize_string(ingredient.replace(p_ing.surface, "", 1))
                 if p_ing
                 else ingredient,
                 "quantity": p_ing.value if p_ing else None,

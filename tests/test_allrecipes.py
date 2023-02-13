@@ -57,7 +57,7 @@ class TestAllRecipesCuratedScraper(ScraperTest):
                     "unit": "dimensionless",
                 },
                 {
-                    "name": "(1 inch) pre-baked pizza crusts",
+                    "name": "(12 inch) pre-baked pizza crusts",
                     "quantity": 2.0,
                     "unit": "dimensionless",
                 },
