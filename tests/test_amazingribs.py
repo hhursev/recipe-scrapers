@@ -30,20 +30,48 @@ class TestAmazingRibsScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "2 teaspoons whole black peppercorns",
-                "2 teaspoons fresh ground black pepper",
-                "1 tablespoon mild American paprika",
-                "2 teaspoons garlic powder",
-                "2 teaspoons Morton Coarse Kosher Salt",
-                "2 teaspoons rubbed sage",
-                "2 teaspoons cayenne, chipotle, or other hot chile powder or flakes",
-                "1 medium green jalapeño",
-                "½ small onion",
-                "3 garlic cloves",
-                "20 ounces ground pork butt",
-                "12 ounces ground beef chuck",
-                "⅓ cup very cold water",
-                "4 feet pork sausage casings",
+                {
+                    "name": "whole black peppercorns",
+                    "quantity": 2.0,
+                    "unit": "teaspoon",
+                },
+                {
+                    "name": "fresh ground black pepper",
+                    "quantity": 2.0,
+                    "unit": "teaspoon",
+                },
+                {
+                    "name": "mild American paprika",
+                    "quantity": 1.0,
+                    "unit": "tablespoon",
+                },
+                {"name": "garlic powder", "quantity": 2.0, "unit": "teaspoon"},
+                {
+                    "name": "Morton Coarse Kosher Salt",
+                    "quantity": 2.0,
+                    "unit": "teaspoon",
+                },
+                {"name": "rubbed sage", "quantity": 2.0, "unit": "teaspoon"},
+                {
+                    "name": "cayenne, chipotle, or other hot chile powder or flakes",
+                    "quantity": 2.0,
+                    "unit": "teaspoon",
+                },
+                {
+                    "name": "medium green jalapeño",
+                    "quantity": 1.0,
+                    "unit": "dimensionless",
+                },
+                {"name": "small onion", "quantity": 0.5, "unit": "dimensionless"},
+                {"name": "garlic cloves", "quantity": 3.0, "unit": "dimensionless"},
+                {"name": "ground pork butt", "quantity": 20.0, "unit": "ounce"},
+                {"name": "ground beef chuck", "quantity": 12.0, "unit": "ounce"},
+                {
+                    "name": "very cold water",
+                    "quantity": 0.3333333333333333,
+                    "unit": "cup",
+                },
+                {"name": "pork sausage casings", "quantity": 4.0, "unit": "foot"},
             ],
             self.harvester_class.ingredients(),
         )

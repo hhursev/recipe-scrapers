@@ -34,12 +34,20 @@ class TestACoupleCooks(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "1 pound large shrimp, deveined (peeled or unpeeled)",
-                "3 garlic cloves",
-                "1/2 teaspoon kosher salt",
-                "3 tablespoons butter",
-                "2 lemon wedges",
-                "Fresh cilantro or parsley, for garnish",
+                {
+                    "name": "large shrimp, deveined (peeled or unpeeled)",
+                    "quantity": 1.0,
+                    "unit": "pound sterling",
+                },
+                {"name": "garlic cloves", "quantity": 3.0, "unit": "dimensionless"},
+                {"name": "kosher salt", "quantity": 0.5, "unit": "teaspoon"},
+                {"name": "butter", "quantity": 3.0, "unit": "tablespoon"},
+                {"name": "lemon wedges", "quantity": 2.0, "unit": "dimensionless"},
+                {
+                    "name": "Fresh cilantro or parsley, for garnish",
+                    "quantity": None,
+                    "unit": None,
+                },
             ],
             self.harvester_class.ingredients(),
         )

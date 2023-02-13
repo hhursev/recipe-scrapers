@@ -33,15 +33,31 @@ class TestAltonBrownScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "1 cup (2 sticks) unsalted butter, at room temperature, plus extra for the pan",
-                "1 cup all-purpose flour, plus extra for the pan",
-                "1 cup cake flour",
-                "1 tablespoon baking powder",
-                "1 1/2 cups plus 3 tablespoons sugar",
-                "1/4 teaspoon fine sea salt",
-                "8 large egg yolks, at room temperature",
-                "1 1/4 cups whole milk, at room temperature",
-                "1 teaspoon vanilla extract",
+                {
+                    "name": "1 cup (2 sticks) unsalted butter, at room temperature, plus extra for the pan",
+                    "quantity": 1.0,
+                    "unit": "cup",
+                },
+                {
+                    "name": "all-purpose flour, plus extra for the pan",
+                    "quantity": 1.0,
+                    "unit": "cup",
+                },
+                {"name": "cake flour", "quantity": 1.0, "unit": "cup"},
+                {"name": "baking powder", "quantity": 1.0, "unit": "tablespoon"},
+                {"name": "plus 3 tablespoons sugar", "quantity": 1.5, "unit": "cup"},
+                {"name": "fine sea salt", "quantity": 0.25, "unit": "teaspoon"},
+                {
+                    "name": "large egg yolks, at room temperature",
+                    "quantity": 8.0,
+                    "unit": "dimensionless",
+                },
+                {
+                    "name": "whole milk, at room temperature",
+                    "quantity": 1.25,
+                    "unit": "cup",
+                },
+                {"name": "vanilla extract", "quantity": 1.0, "unit": "teaspoon"},
             ],
             self.harvester_class.ingredients(),
         )
