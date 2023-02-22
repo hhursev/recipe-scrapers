@@ -330,6 +330,7 @@ SCRAPERS = {
     HelloFresh.host(domain="fr"): HelloFresh,
     HelloFresh.host(domain="nl"): HelloFresh,
     HelloFresh.host(domain="ie"): HelloFresh,
+    HelloFresh.host(domain="at"): HelloFresh,
     HomeChef.host(): HomeChef,
     Hostthetoast.host(): Hostthetoast,
     HundredAndOneCookbooks.host(): HundredAndOneCookbooks,
