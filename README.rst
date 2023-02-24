@@ -154,6 +154,7 @@ Scrapers available for:
 - `https://fredriksfika.allas.se/ <https://fredriksfika.allas.se/>`_
 - `https://www.750g.com <https://www.750g.com>`_
 - `https://geniuskitchen.com/ <https://geniuskitchen.com>`_
+- `https://www.gesund-aktiv.com/ <https://www.gesund-aktiv.com>`_
 - `https://giallozafferano.it/ <https://giallozafferano.it>`_
 - `https://gimmesomeoven.com/ <https://www.gimmesomeoven.com/>`_
 - `https://recietas.globo.com/ <https://www.receitas.globo.com/>`_

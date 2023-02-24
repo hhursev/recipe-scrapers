@@ -82,6 +82,7 @@ from .franzoesischkochen import FranzoesischKochen
 from .fredriksfikaallas import FredriksFikaAllas
 from .g750g import G750g
 from .geniuskitchen import GeniusKitchen
+from .gesundaktiv import GesundAktiv
 from .giallozafferano import GialloZafferano
 from .gimmesomeoven import GimmeSomeOven
 from .globo import Globo
@@ -480,6 +481,7 @@ SCRAPERS = {
     Yummly.host(): Yummly,
     ZeitWochenmarkt.host(): ZeitWochenmarkt,
     ZenBelly.host(): ZenBelly,
+    GesundAktiv.host(): GesundAktiv,
 }
 
 
