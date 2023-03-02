@@ -1,6 +1,5 @@
-from tests import ScraperTest
-
 from recipe_scrapers.godt import Godt
+from tests import ScraperTest
 
 
 class TestGodtScraper(ScraperTest):
@@ -12,7 +11,8 @@ class TestGodtScraper(ScraperTest):
 
     def test_title(self):
         self.assertEqual(
-            self.harvester_class.title(), "Grove pannekaker",
+            self.harvester_class.title(),
+            "Grove pannekaker",
         )
 
     def test_yields(self):
