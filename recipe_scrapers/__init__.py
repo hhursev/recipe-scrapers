@@ -81,9 +81,11 @@ from .franzoesischkochen import FranzoesischKochen
 from .fredriksfikaallas import FredriksFikaAllas
 from .g750g import G750g
 from .geniuskitchen import GeniusKitchen
+from .gesundaktiv import GesundAktiv
 from .giallozafferano import GialloZafferano
 from .gimmesomeoven import GimmeSomeOven
 from .globo import Globo
+from .godt import Godt
 from .gonnawantseconds import GonnaWantSeconds
 from .greatbritishchefs import GreatBritishChefs
 from .halfbakedharvest import HalfBakedHarvest
@@ -309,6 +311,7 @@ SCRAPERS = {
     GialloZafferano.host(): GialloZafferano,
     GimmeSomeOven.host(): GimmeSomeOven,
     Globo.host(): Globo,
+    Godt.host(): Godt,
     GonnaWantSeconds.host(): GonnaWantSeconds,
     GreatBritishChefs.host(): GreatBritishChefs,
     HEB.host(): HEB,
@@ -463,6 +466,7 @@ SCRAPERS = {
     Yummly.host(): Yummly,
     ZeitWochenmarkt.host(): ZeitWochenmarkt,
     ZenBelly.host(): ZenBelly,
+    GesundAktiv.host(): GesundAktiv,
 }
 
 
