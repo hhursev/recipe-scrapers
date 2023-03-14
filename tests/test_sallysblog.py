@@ -27,7 +27,10 @@ class TestSallysBlogScraper(ScraperTest):
         self.assertEqual("6", self.harvester_class.yields())
 
     def test_image(self):
-        pass  # todo
+        self.assertEqual(
+            self.harvester_class.image(),
+            "https://img2.storyblok.com/300x300//f/130848/2999x2000/1d3e98afdd/0k1a5313.jpg&w=640&q=100 640w",
+        )
 
     def test_ingredients(self):
         self.assertEqual(
