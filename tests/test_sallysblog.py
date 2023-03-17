@@ -29,7 +29,7 @@ class TestSallysBlogScraper(ScraperTest):
     def test_image(self):
         self.assertEqual(
             self.harvester_class.image(),
-            "https://img2.storyblok.com/300x300//f/130848/2999x2000/1d3e98afdd/0k1a5313.jpg&w=640&q=100 640w",
+            "https://img2.storyblok.com/950x650/f/130848/799x533/a857be2418/1840_27760_sally-brokkoli-schinken-nudeln-rezept_6.jpg",
         )
 
     def test_ingredients(self):
