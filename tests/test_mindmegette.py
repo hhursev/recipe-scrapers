@@ -7,7 +7,7 @@ class TestMindmegetteScraper(ScraperTest):
     scraper_class = Mindmegette
 
     def test_host(self):
-        self.assertEqual("www.mindmegette.hu", self.harvester_class.host())
+        self.assertEqual("mindmegette.hu", self.harvester_class.host())
 
     def test_language(self):
         self.assertEqual("hu", self.harvester_class.language())
