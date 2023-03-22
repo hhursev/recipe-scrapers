@@ -58,6 +58,6 @@ class TestMindmegetteScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://www.mindmegette.hu/images/283/O/tepsis-ceklas.jpg",
+            "https://mindmegette.hu/images/283/O/tepsis-ceklas.jpg",
             self.harvester_class.image(),
         )
