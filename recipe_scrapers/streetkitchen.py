@@ -22,23 +22,24 @@ class StreetKitchen(AbstractScraper):
         )
 
     def ingredients(self):
+        ingredients_raw = self.soup.findAll("dd")
         ingredients = []
-        ingredient_group = self.soup.find("div", {"class": "ingredient-group"}).findAll(
-            "dd"
-        )
-
-        for ingredient in ingredient_group:
+        # There are separate sets of ingredients for desktop and mobile view
+        for ingredient in ingredients_raw[: int(len(ingredients_raw) / 2)]:
             ingredients.append(normalize_string(ingredient.get_text()).strip())
-
         return ingredients
 
     def instructions(self):
-        instructions = self.soup.find("div", {"class": "the-content-div"}).findAll("p")[
-            :-1
-        ]  # the last paragraph is advertisement, not instructions
+        instructions = self.soup.find("div", {"class": "the-content-div"}).findAll("p")
+
         instructions_arr = []
         for instruction in instructions:
-            instructions_arr.append(instruction.get_text())
+            text = instruction.get_text()
+            # From the point we encounter "If you liked..." it's just ads.
+            if text.startswith("Ha tetszett a"):
+                break
+            instructions_arr.append(normalize_string(text))
+
         return "\n".join(instructions_arr)
 
     def yields(self):
