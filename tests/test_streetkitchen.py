@@ -14,13 +14,13 @@ class TestStreetKitchenScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://streetkitchen.hu/hust-hussal/kapros-tejfolos-sajtos-csirke-rizzsel/",
+            "https://streetkitchen.hu/husvet/husveti-fofogasok/sertesszuz-cukorborsos-ujburgonya-salataval/",
             self.harvester_class.canonical_url(),
         )
 
     def test_title(self):
         self.assertEqual(
-            self.harvester_class.title(), "Kapros tejfölös sajtos csirke rizzsel"
+            self.harvester_class.title(), "Sertésszűz cukorborsós újburgonya-salátával"
         )
 
     def test_total_time(self):
@@ -29,28 +29,35 @@ class TestStreetKitchenScraper(ScraperTest):
     def test_ingredients(self):
         self.assertListEqual(
             [
-                "250 g csirkemell",
+                "500 g újburgonya",
+                "2 ek olaj",
+                "200 g cukorborsó",
                 "só, bors",
-                "2 db tojás",
-                "100 g liszt",
-                "150 g trappista sajt",
-                "300 g tejföl",
-                "50 ml víz",
-                "1 csokor friss kapor",
                 "2 gerezd fokhagyma",
-                "100 g rizs",
-                "200 ml meleg víz",
-                "1 tk só",
-                "1 ek olaj",
+                "50 g vaj",
+                "½ db citrom leve",
+                "2 - 3 ek tejföl",
+                "1 tk ecetes torma (üveges)",
+                "1 kis csokor petrezselyem",
+                "1 kis csokor snidling",
+                "400 g sertésszűz",
+                "só, bors",
+                "2 ek olaj",
+                "2 gerezd fokhagyma (héjastul)",
+                "2 - 3 ág rozmaring",
+                "50 g vaj",
             ],
             self.harvester_class.ingredients(),
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            "A csirkemellet felszeleteljük, sózzuk, borsozzuk és bebundázzuk: először lisztbe, majd tojásba és a végén zsemlemorzsa helyett, finomra reszelt trappista sajtba forgatjuk és egy kb. 20×10-es tepsibe rakjuk.\n"
-            + "A tejfölt kikeverjük a vízzel, sózzuk, borsozzuk, belereszeljük a fokhagymát, megszórjuk a felaprított kaporral és alaposan elkeverjük. Ráöntjük a húsra és 180 fokra előmelegített sütőben 15 percig sütjük. Ezután felvesszük 200 fokra a sütő hőmérsékletét és addig sütjük amíg kicsit aranybarna nem lesz a teteje.\n"
-            + "A rizst az olajon 2 percig pirítjuk. Felöntjük forró vízzel, megsózzukk és lefedve felforraljuk. Ezután alacsony lángon készre főzzük. A végén a fedőt még 5 percig rajta hagyjuk. A tejfölös sajtos csirkét  a rizzsel tálaljuk.",
+            "A burgonyát félbevágjuk, sós vízben puhára főzzük, majd leszűrjük.\n"
+            "A húst sózzuk, borsozzuk, és egy serpenyőben 2 kanál olajon, nagyon magas hőfokon kérgesítjük, a vége előtt pár perccel hozzáadunk 2 gerezd héjas fokhagymát, 2 ág rozmaringot és 50 gramm vajat, majd a vaj barnulásáig pirítjuk tovább.\n"
+            "Egy tepsire tesszük, és 170 fokra előmelegített sütőbe helyezzük 10-15 percre. Amikor készre sült a hús, kivesszük, és 5-10 percig pihentetjük.\n"
+            "A megfőtt burgonyát 2 evőkanál olajon, magas hőfokon lepirítjuk, majd mikor már kapott egy kis piros színt, rádobjuk a cukorborsót, sózzuk, borsozzuk, majd mehet rá 2 gerezd szeletelt fokhagyma, 50 "
+            "gramm vaj, fél citrom leve, és további kb. 3 percig pirítjuk. Jöhet rá 2-3 evőkanál tejföl, az ecetes torma, illetve a finomra aprított petrezselyem és snidling.\n"
+            "Tálalásnál, ha szeretnénk, adhatunk még hozzá tejfölt. A sertésszűz mellé kínáljuk.",
             self.harvester_class.instructions(),
         )
 
@@ -59,6 +66,6 @@ class TestStreetKitchenScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://485744-1530733-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/03/kapros-tejfolos-csirke-talalasa.jpg",
+            "https://streetkitchen.hu/wp-content/uploads/2021/03/sertesszuz-cukorborsos-ujburgonya-salataval-1.jpg",
             self.harvester_class.image(),
         )
