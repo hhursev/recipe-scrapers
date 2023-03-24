@@ -232,6 +232,7 @@ Scrapers available for:
 - `https://www.myplate.gov/ <https://www.myplate.gov/>`_
 - `https://myrecipes.com/ <https://myrecipes.com>`_
 - `https://healthyeating.nhlbi.nih.gov/ <https://healthyeating.nhlbi.nih.gov>`_
+- `https://www.nosalty.hu/ <https://www.nosalty.hu>`_
 - `https://nourishedbynutrition.com/ <https://nourishedbynutrition.com/>`_
 - `https://nutritionbynathalie.com/blog <https://nutritionbynathalie.com/blog>`_
 - `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
