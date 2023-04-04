@@ -22,6 +22,15 @@ class TestSimplyRecipes2(ScraperTest):
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Parsnip Lobster Rolls")
 
+    def test_author(self):
+        self.assertEqual(self.harvester_class.author(), "Isa Chandra Moskowitz")
+
+    def test_total_time(self):
+        self.assertEqual(45, self.harvester_class.total_time())
+
+    def test_yields(self):
+        self.assertEqual("6 servings", self.harvester_class.yields())
+
     def test_ingredients(self):
         self.assertEqual(
             [
@@ -42,4 +51,17 @@ class TestSimplyRecipes2(ScraperTest):
                 "1/4 cup (11 g) thickly sliced chives",
             ],
             self.harvester_class.ingredients(),
+        )
+
+    def test_instructions(self):
+        return self.assertEqual(
+            "\n".join(
+                [
+                    "Roast the parsnips: Preheat the oven to 425°F (220°C). Line a large baking sheet with parchment paper. Drizzle the olive oil, salt, and pepper on the baking pan. Toss the parsnips in the oil to coat. Bake for about 20 minutes, flipping occasionally, until the parsnips are tender inside and golden brown in some spots. Let cool.",
+                    "Make the dressing and assemble the salad: In a large mixing bowl, stir together the mayo, lemon juice, kelp powder, capers, chives, and salt. Fold in the celery and the cooled parsnips. Chill the salad for about 20 minutes.",
+                    "Toast the buns: Preheat a large skillet, preferably cast-iron, over medium heat. Butter the outside of each hot dog bun. Place them in the skillet and toast until golden brown, about 2 minutes for each side.",
+                    "Assemble: Fill the buns with salad. Sprinkle with paprika and additional chives. Serve with plenty of napkins.",
+                ]
+            ),
+            self.harvester_class.instructions(),
         )
