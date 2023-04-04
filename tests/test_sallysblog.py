@@ -27,7 +27,10 @@ class TestSallysBlogScraper(ScraperTest):
         self.assertEqual("6", self.harvester_class.yields())
 
     def test_image(self):
-        pass  # todo
+        self.assertEqual(
+            self.harvester_class.image(),
+            "https://img2.storyblok.com/950x650/f/130848/799x533/a857be2418/1840_27760_sally-brokkoli-schinken-nudeln-rezept_6.jpg",
+        )
 
     def test_ingredients(self):
         self.assertEqual(

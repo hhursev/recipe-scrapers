@@ -1,3 +1,5 @@
+from urllib.parse import unquote
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, normalize_string
 
@@ -11,7 +13,12 @@ class SallysBlog(AbstractScraper):
         return normalize_string(self.soup.head.find("title").get_text())
 
     def image(self):
-        raise NotImplementedError()  # todo: probably better to return URLs than base64 content
+        image_element = self.soup.find("div", {"class": "images-wrap"}).findAll(
+            "img", {"sizes": "100vw"}
+        )[0]
+        image_src = image_element["src"]
+        image_url = unquote(image_src).split("url=")[1].split("&")[0]
+        return image_url
 
     def total_time(self):
         heading = self.soup.find("p", string="Zubereitungszeit")
