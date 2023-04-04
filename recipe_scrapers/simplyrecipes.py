@@ -28,9 +28,14 @@ class SimplyRecipes(AbstractScraper):
         )
 
     def ingredients(self):
-        ingredients = self.soup.find(
+        ingredient_sections = self.soup.findAll(
             "ul", {"class": "structured-ingredients__list"}
-        ).findAll("li")
+        )
+        ingredients = [
+            ingredient
+            for section in ingredient_sections
+            for ingredient in section.findAll("li")
+        ]
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
