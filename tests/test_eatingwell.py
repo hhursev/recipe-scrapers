@@ -21,15 +21,15 @@ class TestEatingWell(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2021%2F08%2F16%2Fcheesy-ground-beef-and-cauliflower-casserole.jpg",
+            "https://www.eatingwell.com/thmb/32d8L6W6cwt652tjjXAHosP3ViE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cheesy-ground-beef-and-cauliflower-casserole-8791b22c92404d958e2ac5aa92af8aa7.jpg",
             self.harvester_class.image(),
         )
 
     def test_ingredients(self):
         self.assertEqual(
-            [
+                       [
                 "1 tablespoon extra-virgin olive oil",
-                "½ cup chopped onion",
+                "0.5 cup chopped onion",
                 "1 medium green bell pepper, chopped",
                 "1 pound lean ground beef",
                 "3 cups bite-size cauliflower florets",
@@ -37,11 +37,11 @@ class TestEatingWell(ScraperTest):
                 "2 tablespoons chili powder",
                 "2 teaspoons ground cumin",
                 "1 teaspoon dried oregano",
-                "½ teaspoon salt",
-                "¼ teaspoon ground chipotle",
+                "0.5 teaspoon salt",
+                "0.25 teaspoon ground chipotle",
                 "1 (15 ounce) can no-salt-added petite-diced tomatoes",
                 "2 cups shredded extra-sharp Cheddar cheese",
-                "⅓ cup sliced pickled jalapeños",
+                "0.333 cup sliced pickled jalapeños",
             ],
             self.harvester_class.ingredients(),
         )
