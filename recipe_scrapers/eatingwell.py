@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
+
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
 
 
 class EatingWell(AbstractScraper):
@@ -13,7 +13,7 @@ class EatingWell(AbstractScraper):
         return self.schema.title()
 
     def author(self):
-        return self.soup.find("span", {"class": "author-name"}).get_text()
+        return self.schema.author()
 
     def image(self):
         return self.schema.image()
@@ -25,19 +25,7 @@ class EatingWell(AbstractScraper):
         return self.schema.instructions()
 
     def total_time(self):
-        div = self.soup.findAll("div", {"class": "recipe-meta-item"})
-        d = {
-            normalize_string(key): normalize_string(value)
-            for key, value in [i.text.split(":") for i in div]
-            if value is not None
-        }
-        return get_minutes(d.get("total"))
+        return self.schema.total_time()
 
     def yields(self):
-        div = self.soup.findAll("div", {"class": "recipe-meta-item"})
-        d = {
-            normalize_string(key): normalize_string(value)
-            for key, value in (i.text.split(":") for i in div)
-            if value is not None
-        }
-        return get_yields(d.get("Servings"))
+        return self.schema.yields()
