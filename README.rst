@@ -250,7 +250,7 @@ Scrapers available for:
 - `https://simplyrecipes.com/ <https://simplyrecipes.co>`_
 - `https://simplywhisked.com/ <https://simplywhisked.com>`_
 - `https://simply-cookit.com/ <https://simply-cookit.com>`_
-- `https://skinnytaste.com/ <https://www.skinnytaste.com>`
+- `https://skinnytaste.com/ <https://www.skinnytaste.com>`_
 - `https://sobors.hu/ <https://sobors.hu>`_
 - `https://www.southerncastiron.com/ <https://www.southerncastiron.com>`_
 - `https://southernliving.com/ <https://southernliving.com/>`_
