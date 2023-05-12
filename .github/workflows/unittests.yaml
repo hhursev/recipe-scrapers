@@ -14,19 +14,10 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest, macos-13, windows-latest]
-        python-version: ["3.7", "3.8", "3.9", "3.10", "3.11", "3.12"]
-#        exclude:
-#          #  lxml built-from-source fails or produces unreliable results on these platforms
-#          # ... so skip these platforms
-#          - os: windows-latest
-#            python-version: "3.11"
-#          - os: macos-latest
-#            python-version: "3.11"
-#        include:
-#          # set toxenv to workaround-darwin on macos (check tox.ini)
-#          - toxenv: py
-#          - os: macos-latest
-#            toxenv: workaround-darwin
+        python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
+        exclude:
+          - os: macos-13
+            python-version: "3.11"
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3
@@ -38,4 +29,3 @@ jobs:
         run: |
           pip install tox
           tox
-#          tox -e ${{ matrix.toxenv }}
