@@ -49,7 +49,7 @@ class TestUSAPearsScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            "To prepare pears, melt butter in a large skillet over medium heat. Stir in spices and cook for 30 seconds or until aromatic. Add pears and cook for 15 minutes or until tender, stirring frequently. Stir in lemon juice.\n\nServe with nonfat vanilla yogurt or frozen yogurt and top with walnuts",
+            "To prepare pears, melt butter in a large skillet over medium heat. Stir in spices and cook for 30 seconds or until aromatic. Add pears and cook for 15 minutes or until tender, stirring frequently. Stir in lemon juice.\n\nServe with nonfat vanilla yogurt or frozen yogurt and top with walnuts.",
             self.harvester_class.instructions(),
         )
 
