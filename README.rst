@@ -323,6 +323,7 @@ Scrapers available for:
 
 (*) offline saved files only
 
+
 Contribute
 ----------
 
@@ -348,6 +349,7 @@ If you want a scraper for a new site added
     - **ClassName**: The name of the new scraper class.
     - **URL**: The URL of an example recipe from the target site. The content will be stored in `test_data` to be used with the test class.
 
+
 For Devs / Contribute
 ---------------------
 
@@ -357,7 +359,7 @@ Assuming you have ``>=python3.7`` installed, navigate to the directory where you
 
     git clone git@github.com:hhursev/recipe-scrapers.git &&
     cd recipe-scrapers &&
-    python3 -m venv .venv &&
+    python -m venv .venv &&
     source .venv/bin/activate &&
     python -m pip install --upgrade pip &&
     pip install -r requirements-dev.txt &&
@@ -370,6 +372,7 @@ In case you want to run a single unittest for a newly developed scraper
 .. code:: shell
 
     python -m unittest tests.test_myscraper
+
 
 FAQ
 ---
@@ -397,6 +400,9 @@ Special thanks to:
 ------------------
 
 All the `contributors that helped improving <https://github.com/hhursev/recipe-scrapers/graphs/contributors>`_  the package. You are awesome!
+
+.. image:: https://contrib.rocks/image?repo=hhursev/recipe-scrapers
+   :target: https://github.com/hhursev/recipe-scrapers/graphs/contributors
 
 
 Extra:
