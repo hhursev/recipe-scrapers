@@ -144,6 +144,7 @@ Scrapers available for:
 - `https://giallozafferano.it/ <https://giallozafferano.it>`_
 - `https://gimmesomeoven.com/ <https://www.gimmesomeoven.com/>`_
 - `https://godt.no/ <https://godt.no/>`_
+- `https://goodfooddiscoveries.com/ <https://goodfooddiscoveries.com/>`_
 - `https://recietas.globo.com/ <https://www.receitas.globo.com/>`_
 - `https://gonnawantseconds.com/ <https://gonnawantseconds.com>`_
 - `https://gousto.co.uk/ <https://gousto.co.uk>`_
@@ -281,6 +282,7 @@ Scrapers available for:
 - `https://tine.no/ <https://tine.no>`_
 - `https://tudogostoso.com.br/ <https://www.tudogostoso.com.br/>`_
 - `https://twopeasandtheirpod.com/ <http://twopeasandtheirpod.com>`_
+- `https://usapears.org/ <https://usapears.org>`_
 - `https://www.valdemarsro.dk/ <https://www.valdemarsro.dk/>`_
 - `https://vanillaandbean.com/ <https://vanillaandbean.com>`_
 - `https://vegolosi.it/ <https://vegolosi.it>`_
@@ -298,6 +300,7 @@ Scrapers available for:
 - `https://zenbelly.com/ <https://zenbelly.com>`_
 
 (*) offline saved files only. Page requires login
+
 
 Contribute
 ----------
@@ -324,6 +327,7 @@ If you want a scraper for a new site added
     - **ClassName**: The name of the new scraper class.
     - **URL**: The URL of an example recipe from the target site. The content will be stored in `test_data` to be used with the test class.
 
+
 For Devs / Contribute
 ---------------------
 
@@ -333,7 +337,7 @@ Assuming you have ``>=python3.7`` installed, navigate to the directory where you
 
     git clone git@github.com:hhursev/recipe-scrapers.git &&
     cd recipe-scrapers &&
-    python3 -m venv .venv &&
+    python -m venv .venv &&
     source .venv/bin/activate &&
     python -m pip install --upgrade pip &&
     pip install -r requirements-dev.txt &&
@@ -346,6 +350,7 @@ In case you want to run a single unittest for a newly developed scraper
 .. code:: shell
 
     python -m unittest tests.test_myscraper
+
 
 FAQ
 ---
@@ -373,6 +378,9 @@ Special thanks to:
 ------------------
 
 All the `contributors that helped improving <https://github.com/hhursev/recipe-scrapers/graphs/contributors>`_  the package. You are awesome!
+
+.. image:: https://contrib.rocks/image?repo=hhursev/recipe-scrapers
+   :target: https://github.com/hhursev/recipe-scrapers/graphs/contributors
 
 
 Extra:

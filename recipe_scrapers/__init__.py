@@ -87,6 +87,7 @@ from .gimmesomeoven import GimmeSomeOven
 from .globo import Globo
 from .godt import Godt
 from .gonnawantseconds import GonnaWantSeconds
+from .goodfooddiscoveries import GoodFoodDiscoveries
 from .greatbritishchefs import GreatBritishChefs
 from .halfbakedharvest import HalfBakedHarvest
 from .handletheheat import HandleTheHeat
@@ -217,6 +218,7 @@ from .timesofindia import TimesOfIndia
 from .tineno import TineNo
 from .tudogostoso import TudoGostoso
 from .twopeasandtheirpod import TwoPeasAndTheirPod
+from .usapears import USAPears
 from .usdamyplate import USDAMyPlate
 from .valdemarsro import Valdemarsro
 from .vanillaandbean import VanillaAndBean
@@ -316,6 +318,7 @@ SCRAPERS = {
     Globo.host(): Globo,
     Godt.host(): Godt,
     GonnaWantSeconds.host(): GonnaWantSeconds,
+    GoodFoodDiscoveries.host(): GoodFoodDiscoveries,
     GreatBritishChefs.host(): GreatBritishChefs,
     HEB.host(): HEB,
     HalfBakedHarvest.host(): HalfBakedHarvest,
@@ -466,6 +469,7 @@ SCRAPERS = {
     TineNo.host(): TineNo,
     TudoGostoso.host(): TudoGostoso,
     TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
+    USAPears.host(): USAPears,
     USDAMyPlate.host(): USDAMyPlate,
     Valdemarsro.host(): Valdemarsro,
     VanillaAndBean.host(): VanillaAndBean,
