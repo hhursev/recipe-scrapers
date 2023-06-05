@@ -88,6 +88,7 @@ from .gimmesomeoven import GimmeSomeOven
 from .globo import Globo
 from .godt import Godt
 from .gonnawantseconds import GonnaWantSeconds
+from .goodfooddiscoveries import GoodFoodDiscoveries
 from .goustojson import GoustoJson
 from .greatbritishchefs import GreatBritishChefs
 from .halfbakedharvest import HalfBakedHarvest
@@ -323,6 +324,7 @@ SCRAPERS = {
     Globo.host(): Globo,
     Godt.host(): Godt,
     GonnaWantSeconds.host(): GonnaWantSeconds,
+    GoodFoodDiscoveries.host(): GoodFoodDiscoveries,
     GoustoJson.host(): GoustoJson,
     GreatBritishChefs.host(): GreatBritishChefs,
     HEB.host(): HEB,
