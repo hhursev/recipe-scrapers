@@ -92,6 +92,7 @@ Scrapers available for:
 - `https://blueapron.com/ <https://blueapron.com>`_
 - `https://bonappetit.com/ <https://bonappetit.com>`_
 - `https://www.bodybuilding.com/ <https://www.bodybuilding.com/>`_
+- `https://bongeats.com/ <https://bongeats.com/>`_
 - `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
 - `https://briceletbaklava.ch/ <https://briceletbaklava.ch/>`_
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
