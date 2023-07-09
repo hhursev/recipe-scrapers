@@ -14,7 +14,7 @@ class TestHelloFreshScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://www.hellofresh.co.uk/recipes/thai-style-pork-stir-fry-wk-49-5a01c742450cfa39e02c5642",
+            "https://www.hellofresh.co.uk/recipes/thai-style-pork-rice-bowl-5feb63f527c560013957dd24",
             self.harvester_class.canonical_url(),
         )
 
