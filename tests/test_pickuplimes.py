@@ -1,5 +1,6 @@
 # mypy: allow-untyped-defs
 
+from recipe_scrapers._grouping_utils import IngredientGroup
 from recipe_scrapers.pickuplimes import PickUpLimes
 from tests import ScraperTest
 
@@ -57,6 +58,31 @@ class TestPickUpLimesScraper(ScraperTest):
                 "2 cup ginger ale",
             ],
             self.harvester_class.ingredients(),
+        )
+
+    def test_ingredient_groups(self):
+        self.assertEqual(
+            [
+                IngredientGroup(
+                    ingredients=[
+                        "½ cup water",
+                        "¼ cup maple syrup",
+                        "4 sprig fresh thyme",
+                        "½ tsp ground cinnamon",
+                        "2 Tbsp freshly grated ginger",
+                        "½ lemon",
+                        "2 cup ice cube",
+                        "2 cup orange juice",
+                        "2 cup ginger ale",
+                    ],
+                    purpose=None,
+                ),
+                IngredientGroup(
+                    ingredients=["½ tsp ground cinnamon", "4 sprig fresh thyme"],
+                    purpose="Optional garnish",
+                ),
+            ],
+            self.harvester_class.ingredient_groups(),
         )
 
     def test_instructions(self):
