@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 
 from recipe_scrapers.settings import settings
 
+from ._grouping_utils import IngredientGroup
 from ._schemaorg import SchemaOrg
 
 # some sites close their content for 'bots', so user-agent must be supplied
@@ -132,6 +133,9 @@ class AbstractScraper:
 
     def ingredients(self):
         raise NotImplementedError("This should be implemented.")
+
+    def ingredient_groups(self):
+        return [IngredientGroup(purpose=None, ingredients=self.ingredients())]
 
     def instructions(self) -> str:
         """instructions to prepare the recipe"""
