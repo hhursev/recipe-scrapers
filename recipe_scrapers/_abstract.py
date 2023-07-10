@@ -184,7 +184,10 @@ class AbstractScraper:
         ]
         for method in public_method_names:
             try:
-                json_dict[method] = getattr(self, method)()
+                if method == "ingredient_groups":
+                    json_dict[method] = [i.__dict__ for i in getattr(self, method)()]
+                else:
+                    json_dict[method] = getattr(self, method)()
             except Exception:
                 pass
         return json_dict
