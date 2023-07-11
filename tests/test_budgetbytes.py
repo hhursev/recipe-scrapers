@@ -1,9 +1,9 @@
+from recipe_scrapers._grouping_utils import IngredientGroup
 from recipe_scrapers.budgetbytes import BudgetBytes
 from tests import ScraperTest
 
 
 class TestBudgetBytesScraper(ScraperTest):
-
     scraper_class = BudgetBytes
 
     def test_host(self):
@@ -11,47 +11,66 @@ class TestBudgetBytesScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://www.budgetbytes.com/creamy-coconut-curry-lentils-with-spinach/",
+            "https://www.budgetbytes.com/smash-burger/",
             self.harvester_class.canonical_url(),
         )
 
     def test_title(self):
+        self.assertEqual(self.harvester_class.title(), "Smash Burgers")
+
+    def test_image(self):
         self.assertEqual(
-            self.harvester_class.title(), "Creamy Coconut Curry Lentils with Spinach"
+            self.harvester_class.image(),
+            "https://www.budgetbytes.com/wp-content/uploads/2023/05/Smash-Burger-plated.jpg",
         )
 
     def test_author(self):
-        self.assertEqual(self.harvester_class.author(), "Beth - Budget Bytes")
+        self.assertEqual(self.harvester_class.author(), None)
 
     def test_total_time(self):
-        self.assertEqual(45, self.harvester_class.total_time())
+        self.assertEqual(40, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("4 items", self.harvester_class.yields())
+        self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
         self.assertEqual(
             [
-                "2 Tbsp olive oil ($0.24)",
-                "2 cloves garlic ($0.16)",
-                "1 tsp grated fresh ginger ($0.10)",
-                "1 small yellow onion ($0.21)",
-                "1 Tbsp curry powder* ($0.30)",
-                "1 cup brown lentils (dry) ($0.67)",
-                "2 cups vegetable broth** ($0.26)",
-                "1 13oz. can coconut milk ($1.99)",
-                "3 cups fresh baby spinach ($1.61)",
-                "4 cups cooked rice ($0.60)",
-                "1/4 cup chopped fresh cilantro ($0.15)",
+                "1 lb ground beef ($6.99)",
+                "4 Tbsp frozen salted butter, divided ($0.56)",
+                "3 tsp Homemade Burger Seasoning ($0.33)",
+                "4 burger buns ($2.99)",
+                "4 leaves iceberg lettuce ($0.37)",
+                "1 tomato, sliced into thin rounds ($0.45)",
+                "1/4 small red onion, sliced into thin rounds ($0.16)",
             ],
             self.harvester_class.ingredients(),
         )
 
+    def test_ingredient_groups(self):
+        self.assertEqual(
+            [
+                IngredientGroup(
+                    ingredients=[
+                        "1 lb ground beef ($6.99)",
+                        "4 Tbsp frozen salted butter, divided ($0.56)",
+                        "3 tsp Homemade Burger Seasoning ($0.33)",
+                        "4 burger buns ($2.99)",
+                        "4 leaves iceberg lettuce ($0.37)",
+                        "1 tomato, sliced into thin rounds ($0.45)",
+                        "1/4 small red onion, sliced into thin rounds ($0.16)",
+                    ],
+                    purpose=None,
+                ),
+            ],
+            self.harvester_class.ingredient_groups(),
+        )
+
     def test_instructions(self):
         return self.assertEqual(
-            "Mince the garlic, grate the ginger, and dice the onion. Add the olive oil, garlic, and ginger to a deep skillet, Dutch oven, or soup pot. Sauté the garlic and ginger over medium heat for 1 minute, or just until the garlic becomes soft and fragrant.\nAdd the diced onion to the skillet and continue to sauté over medium until the onion is soft and translucent. Add the curry powder and continue to sauté for about one minute more to toast the spices.\nAdd the dry lentils and vegetable broth to the skillet. Stir to dissolve any browned bits from the bottom of the skillet. Place a lid on top, turn the heat up to medium-high, and bring the broth to a boil. Once boiling, turn the heat down to low, and let it simmer for 20 minutes, stirring occasionally.\nAfter simmering for 20 minutes the lentils should be tender and most of the broth absorbed. Add the can of coconut milk and stir to combine. Turn the heat back up to medium and allow the skillet to come back up to a simmer. Let it simmer without a lid for an additional 10 minutes, stirring often, to thicken the mixture.\nOnce thickened, turn the heat off. Add the fresh spinach and stir gently until the spinach has wilted. Taste the mixture and adjust the salt or curry powder to your liking, if needed.\nServe over a bowl of rice, and top with chopped cilantro if desired.",
+            "Separate the ground beef into four equal portions.\nGrate 1/2 tablespoon of frozen butter onto each portion. Wrap the meat around the butter and shape it into a ball. Chill the beef until you are ready to cook. Place an ungreased cast iron skillet over high heat. Turn on your exhaust fan. Open a window.\nWhen the skillet is smoking hot, sprinkle a 3/4 teaspoon of burger seasoning all over the beef ball, then place it in the pan.\nSmash down with a spatula and keep the spatula on the burger as it cooks. When you see the top of the patty change color (about 2 minutes), carefully work the spatula under the patty. Take your time with this step, as the patty will be stuck to the pan.*\nWhen you have loosened the patty, flip it and smash it again. Cook for 2 minutes more, remove the patty from the pan, and rest it on a cooling rack. Wipe the pan down with a paper towel and cook the remaining patties.\nWhile the patties rest, place a rack in the top third of your oven and put it on broil. Melt the remaining 2 tablespoons of butter and brush it onto the inside of the buns. Place them buttered side up on a sheet pan and toast in the oven for a few minutes until golden.\nAssemble the burgers. Place the burger on the bottom bun and top with onion rounds, tomato slices, and lettuce. Add the top bun and enjoy the crispiest, smokiest, burger ever!",
             self.harvester_class.instructions(),
         )
 
     def test_ratings(self):
-        self.assertEqual(5.0, self.harvester_class.ratings())
+        self.assertEqual(4.23, self.harvester_class.ratings())
