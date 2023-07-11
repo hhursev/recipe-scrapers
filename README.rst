@@ -47,6 +47,7 @@ then:
     scraper.total_time()
     scraper.image()
     scraper.ingredients()
+    scraper.ingredient_groups()
     scraper.instructions()
     scraper.instructions_list()
     scraper.yields()
