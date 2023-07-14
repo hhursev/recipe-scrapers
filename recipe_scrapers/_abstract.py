@@ -134,7 +134,7 @@ class AbstractScraper:
     def ingredients(self):
         raise NotImplementedError("This should be implemented.")
 
-    def ingredient_groups(self):
+    def ingredient_groups(self) -> List[IngredientGroup]:
         return [IngredientGroup(purpose=None, ingredients=self.ingredients())]
 
     def instructions(self) -> str:
