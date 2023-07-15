@@ -1,8 +1,8 @@
 from recipe_scrapers.halfbakedharvest import HalfBakedHarvest
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestHalfBakedHarvestScraper(ScraperTest):
+class TestHalfBakedHarvestScraper(AbstractTest.ScraperTest):
 
     scraper_class = HalfBakedHarvest
 

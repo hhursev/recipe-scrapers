@@ -2,10 +2,10 @@
 
 from recipe_scrapers._grouping_utils import IngredientGroup
 from recipe_scrapers.pickuplimes import PickUpLimes
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestPickUpLimesScraper(ScraperTest):
+class TestPickUpLimesScraper(AbstractTest.ScraperTest):
     scraper_class = PickUpLimes
 
     def test_host(self):

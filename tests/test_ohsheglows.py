@@ -1,8 +1,8 @@
 from recipe_scrapers.ohsheglows import OhSheGlows
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestOhSheGlowsScraper(ScraperTest):
+class TestOhSheGlowsScraper(AbstractTest.ScraperTest):
 
     scraper_class = OhSheGlows
 

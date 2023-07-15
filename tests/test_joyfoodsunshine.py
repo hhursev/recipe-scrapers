@@ -1,8 +1,8 @@
 from recipe_scrapers.joyfoodsunshine import Joyfoodsunshine
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestJoyfoodsunshineScraper(ScraperTest):
+class TestJoyfoodsunshineScraper(AbstractTest.ScraperTest):
 
     scraper_class = Joyfoodsunshine
 

@@ -1,8 +1,8 @@
 from recipe_scrapers.eatsmarter import Eatsmarter
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestEatSmarter(ScraperTest):
+class TestEatSmarter(AbstractTest.ScraperTest):
 
     scraper_class = Eatsmarter
 

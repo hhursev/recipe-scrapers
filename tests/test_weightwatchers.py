@@ -1,10 +1,10 @@
 # mypy: allow-untyped-defs
 
 from recipe_scrapers.weightwatchers import WeightWatchers
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestWeightwatchersScraper(ScraperTest):
+class TestWeightwatchersScraper(AbstractTest.ScraperTest):
 
     # Test-Url:
     # https://cmx.weightwatchers.de/details/WWRECIPE:5667ab72a29713e4335bb342

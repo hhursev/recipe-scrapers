@@ -1,8 +1,8 @@
 from recipe_scrapers.pingodoce import PingoDoce
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestPingoDoceScraper(ScraperTest):
+class TestPingoDoceScraper(AbstractTest.ScraperTest):
 
     scraper_class = PingoDoce
 

@@ -1,8 +1,8 @@
 from recipe_scrapers.hostthetoast import Hostthetoast
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestHostthetoastScraper(ScraperTest):
+class TestHostthetoastScraper(AbstractTest.ScraperTest):
 
     scraper_class = Hostthetoast
 

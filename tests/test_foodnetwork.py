@@ -1,10 +1,10 @@
 from responses import GET
 
 from recipe_scrapers.foodnetwork import FoodNetwork
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestFoodNetworkScraper(ScraperTest):
+class TestFoodNetworkScraper(AbstractTest.ScraperTest):
 
     scraper_class = FoodNetwork
 

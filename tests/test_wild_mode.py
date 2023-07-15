@@ -1,8 +1,8 @@
 from recipe_scrapers._factory import SchemaScraperFactory
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestWildMode(ScraperTest):
+class TestWildMode(AbstractTest.ScraperTest):
 
     scraper_class = SchemaScraperFactory
 

@@ -1,8 +1,8 @@
 from recipe_scrapers.handletheheat import HandleTheHeat
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestHandleTheHeatScraper(ScraperTest):
+class TestHandleTheHeatScraper(AbstractTest.ScraperTest):
 
     scraper_class = HandleTheHeat
 

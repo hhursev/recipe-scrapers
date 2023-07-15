@@ -1,8 +1,8 @@
 from recipe_scrapers.bigoven import BigOven
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestBigOven(ScraperTest):
+class TestBigOven(AbstractTest.ScraperTest):
 
     scraper_class = BigOven
 

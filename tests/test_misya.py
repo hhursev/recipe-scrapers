@@ -1,8 +1,8 @@
 from recipe_scrapers.misya import Misya
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestMisya(ScraperTest):
+class TestMisya(AbstractTest.ScraperTest):
 
     scraper_class = Misya
 

@@ -1,8 +1,8 @@
 from recipe_scrapers import EatTolerant
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestEatTolerant(ScraperTest):
+class TestEatTolerant(AbstractTest.ScraperTest):
     scraper_class = EatTolerant
 
     def test_host(self):

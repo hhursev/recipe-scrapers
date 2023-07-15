@@ -1,8 +1,8 @@
 from recipe_scrapers.nytimes import NYTimes
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestNYTimesScraper(ScraperTest):
+class TestNYTimesScraper(AbstractTest.ScraperTest):
 
     scraper_class = NYTimes
 

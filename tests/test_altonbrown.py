@@ -1,8 +1,8 @@
 from recipe_scrapers.altonbrown import AltonBrown
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestAltonBrownScraper(ScraperTest):
+class TestAltonBrownScraper(AbstractTest.ScraperTest):
 
     scraper_class = AltonBrown
 

@@ -1,8 +1,8 @@
 from recipe_scrapers.marmiton import Marmiton
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestMarmitonScraper(ScraperTest):
+class TestMarmitonScraper(AbstractTest.ScraperTest):
 
     scraper_class = Marmiton
 

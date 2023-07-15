@@ -1,8 +1,8 @@
 from recipe_scrapers.giallozafferano import GialloZafferano
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestGialloZafferanoScraper(ScraperTest):
+class TestGialloZafferanoScraper(AbstractTest.ScraperTest):
 
     scraper_class = GialloZafferano
 

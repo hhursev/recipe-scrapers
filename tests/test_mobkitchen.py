@@ -1,8 +1,8 @@
 from recipe_scrapers.mobkitchen import MobKitchen
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestMobKitchenScraper(ScraperTest):
+class TestMobKitchenScraper(AbstractTest.ScraperTest):
 
     scraper_class = MobKitchen
 

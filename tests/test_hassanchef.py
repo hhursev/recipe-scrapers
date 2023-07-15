@@ -1,8 +1,8 @@
 from recipe_scrapers.hassanchef import HassanChef
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestHassanChef(ScraperTest):
+class TestHassanChef(AbstractTest.ScraperTest):
 
     scraper_class = HassanChef
 

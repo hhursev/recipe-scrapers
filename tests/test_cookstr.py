@@ -1,8 +1,8 @@
 from recipe_scrapers.cookstr import Cookstr
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestCookstrScraper(ScraperTest):
+class TestCookstrScraper(AbstractTest.ScraperTest):
 
     scraper_class = Cookstr
 

@@ -1,8 +1,8 @@
 from recipe_scrapers.ambitiouskitchen import AmbitiousKitchen
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestAmbitiousKitchenScraper(ScraperTest):
+class TestAmbitiousKitchenScraper(AbstractTest.ScraperTest):
 
     scraper_class = AmbitiousKitchen
 

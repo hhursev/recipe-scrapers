@@ -1,8 +1,8 @@
 from recipe_scrapers.springlane import Springlane
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestSpringlaneScraper(ScraperTest):
+class TestSpringlaneScraper(AbstractTest.ScraperTest):
 
     scraper_class = Springlane
 

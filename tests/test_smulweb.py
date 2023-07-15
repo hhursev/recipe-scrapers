@@ -1,10 +1,10 @@
 # mypy: allow-untyped-defs
 
 from recipe_scrapers.smulweb import Smulweb
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestSmulwebScraper(ScraperTest):
+class TestSmulwebScraper(AbstractTest.ScraperTest):
 
     scraper_class = Smulweb
 

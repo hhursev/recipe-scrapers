@@ -1,8 +1,8 @@
 from recipe_scrapers.justbento import JustBento
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestJustBentoScraper(ScraperTest):
+class TestJustBentoScraper(AbstractTest.ScraperTest):
 
     scraper_class = JustBento
 

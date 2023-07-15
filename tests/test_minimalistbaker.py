@@ -1,8 +1,8 @@
 from recipe_scrapers.minimalistbaker import Minimalistbaker
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestMinimalistbakerScraper(ScraperTest):
+class TestMinimalistbakerScraper(AbstractTest.ScraperTest):
 
     scraper_class = Minimalistbaker
 

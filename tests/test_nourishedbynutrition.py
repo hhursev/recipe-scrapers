@@ -1,8 +1,8 @@
 from recipe_scrapers.nourishedbynutrition import NourishedByNutrition
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestNourishedByNutritionScraper(ScraperTest):
+class TestNourishedByNutritionScraper(AbstractTest.ScraperTest):
 
     scraper_class = NourishedByNutrition
 

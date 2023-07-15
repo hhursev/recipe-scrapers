@@ -1,8 +1,8 @@
 from recipe_scrapers.mindmegette import Mindmegette
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestMindmegetteScraper(ScraperTest):
+class TestMindmegetteScraper(AbstractTest.ScraperTest):
 
     scraper_class = Mindmegette
 

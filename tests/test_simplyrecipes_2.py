@@ -1,8 +1,8 @@
 from recipe_scrapers.simplyrecipes import SimplyRecipes
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestSimplyRecipes2(ScraperTest):
+class TestSimplyRecipes2(AbstractTest.ScraperTest):
     """
     Scrape simplyrecipes.com recipe with multiple ingredient sections.
     """

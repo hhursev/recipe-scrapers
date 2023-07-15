@@ -1,8 +1,8 @@
 from recipe_scrapers.simplyquinoa import SimplyQuinoa
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestSimplyQuinoaScraper(ScraperTest):
+class TestSimplyQuinoaScraper(AbstractTest.ScraperTest):
 
     scraper_class = SimplyQuinoa
 

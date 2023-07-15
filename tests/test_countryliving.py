@@ -1,8 +1,8 @@
 from recipe_scrapers.countryliving import CountryLiving
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestCountryLivingScraper(ScraperTest):
+class TestCountryLivingScraper(AbstractTest.ScraperTest):
 
     scraper_class = CountryLiving
 

@@ -1,8 +1,8 @@
 from recipe_scrapers.spendwithpennies import SpendWithPennies
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestSpendWithPenniesScraper(ScraperTest):
+class TestSpendWithPenniesScraper(AbstractTest.ScraperTest):
 
     scraper_class = SpendWithPennies
 

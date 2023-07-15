@@ -1,8 +1,8 @@
 from recipe_scrapers.reishunger import Reishunger
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestReishungerScraper(ScraperTest):
+class TestReishungerScraper(AbstractTest.ScraperTest):
 
     scraper_class = Reishunger
     test_file_name = "reishunger_1"

@@ -1,8 +1,8 @@
 from recipe_scrapers.lecker import Lecker
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestLeckerScraper2(ScraperTest):
+class TestLeckerScraper2(AbstractTest.ScraperTest):
 
     scraper_class = Lecker
     test_file_name = "lecker_2"

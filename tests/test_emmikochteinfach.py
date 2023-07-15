@@ -1,8 +1,8 @@
 from recipe_scrapers.emmikochteinfach import EmmiKochtEinfach
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestEmmiKochtEinfachScraper(ScraperTest):
+class TestEmmiKochtEinfachScraper(AbstractTest.ScraperTest):
     scraper_class = EmmiKochtEinfach
 
     def test_host(self):

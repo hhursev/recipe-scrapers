@@ -1,8 +1,8 @@
 from recipe_scrapers.woop import Woop
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestWoopScraper(ScraperTest):
+class TestWoopScraper(AbstractTest.ScraperTest):
     scraper_class = Woop
 
     def test_host(self):

@@ -1,10 +1,10 @@
 from recipe_scrapers.acouplecooks import ACoupleCooks
-from tests import ScraperTest
+from tests import AbstractTest
 
 
 # test recipe's URL
 # https://www.acouplecooks.com/garlic-butter-shrimp/
-class TestACoupleCooks(ScraperTest):
+class TestACoupleCooks(AbstractTest.ScraperTest):
 
     scraper_class = ACoupleCooks
 

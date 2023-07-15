@@ -1,8 +1,8 @@
 from recipe_scrapers.matprat import Matprat
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestMatprat(ScraperTest):
+class TestMatprat(AbstractTest.ScraperTest):
 
     scraper_class = Matprat
 

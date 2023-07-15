@@ -1,8 +1,8 @@
 from recipe_scrapers.littlespicejar import LittleSpiceJar
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestLittleSpiceJarScraper(ScraperTest):
+class TestLittleSpiceJarScraper(AbstractTest.ScraperTest):
 
     scraper_class = LittleSpiceJar
 

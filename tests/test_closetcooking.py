@@ -1,8 +1,8 @@
 from recipe_scrapers.closetcooking import ClosetCooking
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestClosetCooking(ScraperTest):
+class TestClosetCooking(AbstractTest.ScraperTest):
 
     scraper_class = ClosetCooking
 

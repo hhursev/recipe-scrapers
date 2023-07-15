@@ -1,8 +1,8 @@
 from recipe_scrapers.alltomat import AllTomat
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestAllTomatScraper(ScraperTest):
+class TestAllTomatScraper(AbstractTest.ScraperTest):
 
     scraper_class = AllTomat
 

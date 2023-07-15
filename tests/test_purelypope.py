@@ -1,8 +1,8 @@
 from recipe_scrapers.purelypope import PurelyPope
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestPurelyPopeScraper(ScraperTest):
+class TestPurelyPopeScraper(AbstractTest.ScraperTest):
 
     scraper_class = PurelyPope
 

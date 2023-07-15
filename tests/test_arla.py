@@ -1,8 +1,8 @@
 from recipe_scrapers.arla import Arla
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestArlaScraper(ScraperTest):
+class TestArlaScraper(AbstractTest.ScraperTest):
 
     scraper_class = Arla
 

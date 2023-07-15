@@ -1,8 +1,8 @@
 from recipe_scrapers.coop import Coop
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestCoopScraper(ScraperTest):
+class TestCoopScraper(AbstractTest.ScraperTest):
 
     scraper_class = Coop
 

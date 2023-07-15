@@ -1,8 +1,8 @@
 from recipe_scrapers.fifteenspatulas import FifteenSpatulas
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestFifteenSpatulasScraper(ScraperTest):
+class TestFifteenSpatulasScraper(AbstractTest.ScraperTest):
 
     scraper_class = FifteenSpatulas
 

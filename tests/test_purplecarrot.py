@@ -1,8 +1,8 @@
 from recipe_scrapers.purplecarrot import PurpleCarrot
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestPurpleCarrotScraper(ScraperTest):
+class TestPurpleCarrotScraper(AbstractTest.ScraperTest):
 
     scraper_class = PurpleCarrot
 

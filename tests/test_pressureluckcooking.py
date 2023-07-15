@@ -1,12 +1,12 @@
 # mypy: allow-untyped-defs
 
 from recipe_scrapers.pressureluckcooking import PressureLuckCooking
-from tests import ScraperTest
+from tests import AbstractTest
 
 # Data from https://pressureluckcooking.com/instant-pot-jeffreys-favorite-chicken/
 
 
-class TestPressureLuckCookingScraper(ScraperTest):
+class TestPressureLuckCookingScraper(AbstractTest.ScraperTest):
 
     scraper_class = PressureLuckCooking
 

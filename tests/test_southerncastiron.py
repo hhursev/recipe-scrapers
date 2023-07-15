@@ -1,8 +1,8 @@
 from recipe_scrapers.southerncastiron import SouthernCastIron
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestSouthernCastIronScraper(ScraperTest):
+class TestSouthernCastIronScraper(AbstractTest.ScraperTest):
 
     scraper_class = SouthernCastIron
 

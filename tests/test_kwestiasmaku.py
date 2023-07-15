@@ -1,8 +1,8 @@
 from recipe_scrapers.kwestiasmaku import KwestiaSmaku
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestKwestiaSmakuScraper(ScraperTest):
+class TestKwestiaSmakuScraper(AbstractTest.ScraperTest):
 
     scraper_class = KwestiaSmaku
 

@@ -1,10 +1,10 @@
 import responses
 
 from recipe_scrapers.kptncook import KptnCook
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestKptnCookScraper(ScraperTest):
+class TestKptnCookScraper(AbstractTest.ScraperTest):
 
     scraper_class = KptnCook
 

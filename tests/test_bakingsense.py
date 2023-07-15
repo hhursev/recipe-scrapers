@@ -1,8 +1,8 @@
 from recipe_scrapers.bakingsense import BakingSense
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestBakingSense(ScraperTest):
+class TestBakingSense(AbstractTest.ScraperTest):
 
     scraper_class = BakingSense
 

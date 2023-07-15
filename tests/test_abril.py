@@ -1,8 +1,8 @@
 from recipe_scrapers.abril import Abril
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestAbrilScraper(ScraperTest):
+class TestAbrilScraper(AbstractTest.ScraperTest):
 
     scraper_class = Abril
 

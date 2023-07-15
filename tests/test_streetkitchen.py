@@ -1,8 +1,8 @@
 from recipe_scrapers.streetkitchen import StreetKitchen
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestStreetKitchenScraper(ScraperTest):
+class TestStreetKitchenScraper(AbstractTest.ScraperTest):
 
     scraper_class = StreetKitchen
 

@@ -1,11 +1,11 @@
 from recipe_scrapers.przepisy import Przepisy
-from tests import ScraperTest
+from tests import AbstractTest
 
 # test recipe's URL
 # https://www.przepisy.pl/przepis/placki-ziemniaczane
 
 
-class TestPrzepisyScraper(ScraperTest):
+class TestPrzepisyScraper(AbstractTest.ScraperTest):
 
     scraper_class = Przepisy
 

@@ -1,8 +1,8 @@
 from recipe_scrapers.tastykitchen import TastyKitchen
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestTastyKitchenScraper(ScraperTest):
+class TestTastyKitchenScraper(AbstractTest.ScraperTest):
 
     scraper_class = TastyKitchen
 

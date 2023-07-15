@@ -1,8 +1,8 @@
 from recipe_scrapers.practicalselfreliance import PracticalSelfReliance
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestPracticalSelfRelianceScraper(ScraperTest):
+class TestPracticalSelfRelianceScraper(AbstractTest.ScraperTest):
 
     scraper_class = PracticalSelfReliance
 

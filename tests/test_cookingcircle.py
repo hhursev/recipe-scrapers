@@ -1,8 +1,8 @@
 from recipe_scrapers.cookingcircle import CookingCircle
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestCookingCircleScraper(ScraperTest):
+class TestCookingCircleScraper(AbstractTest.ScraperTest):
 
     scraper_class = CookingCircle
 

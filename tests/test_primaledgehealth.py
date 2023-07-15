@@ -1,8 +1,8 @@
 from recipe_scrapers.primaledgehealth import PrimalEdgeHealth
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestPrimalEdgeHealthScraper(ScraperTest):
+class TestPrimalEdgeHealthScraper(AbstractTest.ScraperTest):
 
     scraper_class = PrimalEdgeHealth
 

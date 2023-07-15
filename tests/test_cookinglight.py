@@ -1,8 +1,8 @@
 from recipe_scrapers.cookinglight import CookingLight
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestCookingLight(ScraperTest):
+class TestCookingLight(AbstractTest.ScraperTest):
 
     scraper_class = CookingLight
 

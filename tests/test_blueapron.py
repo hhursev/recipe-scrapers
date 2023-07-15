@@ -1,8 +1,8 @@
 from recipe_scrapers.blueapron import BlueApron
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestBlueApronScraper(ScraperTest):
+class TestBlueApronScraper(AbstractTest.ScraperTest):
 
     scraper_class = BlueApron
 

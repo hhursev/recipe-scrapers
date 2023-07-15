@@ -1,10 +1,10 @@
 import responses
 
 from recipe_scrapers.marleyspoon import MarleySpoon
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestMarleySpoonScraper(ScraperTest):
+class TestMarleySpoonScraper(AbstractTest.ScraperTest):
 
     scraper_class = MarleySpoon
 

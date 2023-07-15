@@ -1,8 +1,8 @@
 from recipe_scrapers.castironketo import CastIronKeto
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestCastIronKetoScraper(ScraperTest):
+class TestCastIronKetoScraper(AbstractTest.ScraperTest):
 
     scraper_class = CastIronKeto
 

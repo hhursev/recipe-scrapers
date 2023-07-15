@@ -1,8 +1,8 @@
 from recipe_scrapers.meljoulwan import Meljoulwan
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestMeljoulwanScraper(ScraperTest):
+class TestMeljoulwanScraper(AbstractTest.ScraperTest):
 
     scraper_class = Meljoulwan
 

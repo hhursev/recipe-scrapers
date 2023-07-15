@@ -1,8 +1,8 @@
 from recipe_scrapers.watchwhatueat import WatchWhatUEat
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestWatchWhatUEatScraper(ScraperTest):
+class TestWatchWhatUEatScraper(AbstractTest.ScraperTest):
 
     scraper_class = WatchWhatUEat
 

@@ -1,8 +1,8 @@
 from recipe_scrapers.nosalty import NoSalty
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestNoSaltyScraper(ScraperTest):
+class TestNoSaltyScraper(AbstractTest.ScraperTest):
 
     scraper_class = NoSalty
 

@@ -1,8 +1,8 @@
 from recipe_scrapers.latelierderoxane import LAtelierDeRoxane
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestLAtelierDeRoxaneScraper(ScraperTest):
+class TestLAtelierDeRoxaneScraper(AbstractTest.ScraperTest):
 
     scraper_class = LAtelierDeRoxane
 

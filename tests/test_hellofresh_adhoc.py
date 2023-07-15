@@ -1,8 +1,8 @@
 from recipe_scrapers.hellofresh import HelloFresh
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestHelloFreshScraperAdHoc(ScraperTest):
+class TestHelloFreshScraperAdHoc(AbstractTest.ScraperTest):
 
     scraper_class = HelloFresh
     test_file_name = "hellofresh_adhoc"

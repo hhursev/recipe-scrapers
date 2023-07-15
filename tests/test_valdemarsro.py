@@ -1,8 +1,8 @@
 from recipe_scrapers.valdemarsro import Valdemarsro
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestValdemarsroScraper(ScraperTest):
+class TestValdemarsroScraper(AbstractTest.ScraperTest):
 
     scraper_class = Valdemarsro
 

@@ -1,10 +1,10 @@
 from responses import GET
 
 from recipe_scrapers.woolworths import Woolworths
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestWoolworthsScraper(ScraperTest):
+class TestWoolworthsScraper(AbstractTest.ScraperTest):
 
     scraper_class = Woolworths
 

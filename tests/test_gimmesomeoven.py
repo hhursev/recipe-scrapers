@@ -1,8 +1,8 @@
 from recipe_scrapers.gimmesomeoven import GimmeSomeOven
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestGimmeSomeOvenScraper(ScraperTest):
+class TestGimmeSomeOvenScraper(AbstractTest.ScraperTest):
 
     scraper_class = GimmeSomeOven
 

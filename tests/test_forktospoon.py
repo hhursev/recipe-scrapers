@@ -1,12 +1,12 @@
 # mypy: allow-untyped-defs
 
 from recipe_scrapers.forktospoon import ForkToSpoon
-from tests import ScraperTest
+from tests import AbstractTest
 
 # Based on https://forktospoon.com/air-fryer-parmesan-tomatoes/
 
 
-class TestForkToSpoonScraper(ScraperTest):
+class TestForkToSpoonScraper(AbstractTest.ScraperTest):
 
     scraper_class = ForkToSpoon
 

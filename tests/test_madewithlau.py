@@ -1,8 +1,8 @@
 from recipe_scrapers.madewithlau import MadeWithLau
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestMadeWithLauScraper(ScraperTest):
+class TestMadeWithLauScraper(AbstractTest.ScraperTest):
 
     scraper_class = MadeWithLau
 

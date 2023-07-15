@@ -1,8 +1,8 @@
 from recipe_scrapers.farmhousedelivery import FarmhouseDelivery
-from tests import ScraperTest
+from tests import AbstractTest
 
 
-class TestFarmhouseDeliveryScraper(ScraperTest):
+class TestFarmhouseDeliveryScraper(AbstractTest.ScraperTest):
 
     scraper_class = FarmhouseDelivery
     test_file_name = "farmhousedelivery_2"
