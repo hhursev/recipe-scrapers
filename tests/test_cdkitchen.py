@@ -1,8 +1,8 @@
 from recipe_scrapers.cdkitchen import CdKitchen
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestCdKitchen(AbstractTest.ScraperTest):
+class TestCdKitchen(ScraperTest):
 
     scraper_class = CdKitchen
 

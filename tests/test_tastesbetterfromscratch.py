@@ -1,8 +1,8 @@
 from recipe_scrapers.tastesbetterfromscratch import TastesBetterFromScratch
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestTastesBetterFromScratch(AbstractTest.ScraperTest):
+class TestTastesBetterFromScratch(ScraperTest):
 
     scraper_class = TastesBetterFromScratch
 

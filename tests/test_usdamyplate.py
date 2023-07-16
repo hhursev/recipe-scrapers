@@ -1,11 +1,11 @@
 from recipe_scrapers.usdamyplate import USDAMyPlate
-from tests import AbstractTest
+from tests import ScraperTest
 
 # test recipe's URL
 # https://www.myplate.gov/recipes/supplemental-nutrition-assistance-program-snap/fabulous-fig-bars
 
 
-class TestUSDAMyPlateRecipesScraper(AbstractTest.ScraperTest):
+class TestUSDAMyPlateRecipesScraper(ScraperTest):
 
     scraper_class = USDAMyPlate
 

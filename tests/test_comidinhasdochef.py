@@ -1,8 +1,8 @@
 from recipe_scrapers.comidinhasdochef import ComidinhasDoChef
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestComidinhasDoChefScraper(AbstractTest.ScraperTest):
+class TestComidinhasDoChefScraper(ScraperTest):
     scraper_class = ComidinhasDoChef
 
     def test_host(self):

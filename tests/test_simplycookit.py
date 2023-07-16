@@ -1,10 +1,10 @@
 # mypy: disallow_untyped_defs=False
 
 from recipe_scrapers.simplycookit import SimplyCookit
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestSimplyCookitScraper(AbstractTest.ScraperTest):
+class TestSimplyCookitScraper(ScraperTest):
     scraper_class = SimplyCookit
 
     def test_host(self):

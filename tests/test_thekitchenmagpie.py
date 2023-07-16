@@ -1,8 +1,8 @@
 from recipe_scrapers.thekitchenmagpie import TheKitchenMagPie
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestTheKitchenMagPie(AbstractTest.ScraperTest):
+class TestTheKitchenMagPie(ScraperTest):
     scraper_class = TheKitchenMagPie
 
     def test_host(self):

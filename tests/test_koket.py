@@ -1,8 +1,8 @@
 from recipe_scrapers.koket import Koket
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestKoketScraper(AbstractTest.ScraperTest):
+class TestKoketScraper(ScraperTest):
 
     scraper_class = Koket
 

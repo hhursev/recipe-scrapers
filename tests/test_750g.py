@@ -1,8 +1,8 @@
 from recipe_scrapers.g750g import G750g
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestG750gScraper(AbstractTest.ScraperTest):
+class TestG750gScraper(ScraperTest):
 
     scraper_class = G750g
 

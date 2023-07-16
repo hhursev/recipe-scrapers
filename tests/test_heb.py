@@ -1,8 +1,8 @@
 from recipe_scrapers.heb import HEB
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestHEBScraper(AbstractTest.ScraperTest):
+class TestHEBScraper(ScraperTest):
 
     scraper_class = HEB
 

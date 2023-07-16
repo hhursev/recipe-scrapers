@@ -1,8 +1,8 @@
 from recipe_scrapers.globo import Globo
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestGloboScraper(AbstractTest.ScraperTest):
+class TestGloboScraper(ScraperTest):
 
     scraper_class = Globo
 

@@ -1,8 +1,8 @@
 from recipe_scrapers.godt import Godt
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestGodtScraper(AbstractTest.ScraperTest):
+class TestGodtScraper(ScraperTest):
 
     scraper_class = Godt
 

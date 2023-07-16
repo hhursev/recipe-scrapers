@@ -1,11 +1,11 @@
 from recipe_scrapers.zeitwochenmarkt import ZeitWochenmarkt
-from tests import AbstractTest
+from tests import ScraperTest
 
 # test recipe's URL
 # https://www.zeit.de/zeit-magazin/wochenmarkt/2021-08/kohlrabi-fenchel-carpaccio-fior-di-latte-rezept
 
 
-class TestZeitWochenmarktScraper(AbstractTest.ScraperTest):
+class TestZeitWochenmarktScraper(ScraperTest):
 
     scraper_class = ZeitWochenmarkt
 

@@ -1,8 +1,8 @@
 from recipe_scrapers.geniuskitchen import GeniusKitchen
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestGeniusKitchenScraper(AbstractTest.ScraperTest):
+class TestGeniusKitchenScraper(ScraperTest):
 
     scraper_class = GeniusKitchen
 

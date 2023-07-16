@@ -1,8 +1,8 @@
 from recipe_scrapers.sallysblog import SallysBlog
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestSallysBlogScraper(AbstractTest.ScraperTest):
+class TestSallysBlogScraper(ScraperTest):
     scraper_class = SallysBlog
 
     def test_host(self):

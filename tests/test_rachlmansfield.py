@@ -1,8 +1,8 @@
 from recipe_scrapers.rachlmansfield import RachlMansfield
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestRachlMansfieldScraper(AbstractTest.ScraperTest):
+class TestRachlMansfieldScraper(ScraperTest):
 
     scraper_class = RachlMansfield
 

@@ -1,8 +1,8 @@
 from recipe_scrapers.zenbelly import ZenBelly
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestZenBellyScraper(AbstractTest.ScraperTest):
+class TestZenBellyScraper(ScraperTest):
 
     scraper_class = ZenBelly
 

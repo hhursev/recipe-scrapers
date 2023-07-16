@@ -1,8 +1,8 @@
 from recipe_scrapers.melskitchencafe import MelsKitchenCafe
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestMelsKitchenCafeScraper(AbstractTest.ScraperTest):
+class TestMelsKitchenCafeScraper(ScraperTest):
 
     scraper_class = MelsKitchenCafe
 

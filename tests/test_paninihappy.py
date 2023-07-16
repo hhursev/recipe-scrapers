@@ -1,8 +1,8 @@
 from recipe_scrapers.paninihappy import PaniniHappy
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestPaniniHappyScraper(AbstractTest.ScraperTest):
+class TestPaniniHappyScraper(ScraperTest):
 
     scraper_class = PaniniHappy
 

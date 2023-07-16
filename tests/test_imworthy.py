@@ -1,8 +1,8 @@
 from recipe_scrapers.imworthy import ImWorthy
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestImWorthyScraper(AbstractTest.ScraperTest):
+class TestImWorthyScraper(ScraperTest):
 
     scraper_class = ImWorthy
 

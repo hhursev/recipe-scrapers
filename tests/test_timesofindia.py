@@ -1,8 +1,8 @@
 from recipe_scrapers.timesofindia import TimesOfIndia
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestTimesOfIndiaScraper(AbstractTest.ScraperTest):
+class TestTimesOfIndiaScraper(ScraperTest):
 
     scraper_class = TimesOfIndia
 

@@ -1,11 +1,11 @@
 from recipe_scrapers.nihhealthyeating import IngredientGroup, NIHHealthyEating
-from tests import AbstractTest
+from tests import ScraperTest
 
 # test recipe's URL
 # https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?cId=0&rId=188
 
 
-class TestNIHHealthyEatingRecipesScraper(AbstractTest.ScraperTest):
+class TestNIHHealthyEatingRecipesScraper(ScraperTest):
 
     scraper_class = NIHHealthyEating
     test_file_name = "nihhealthyeating_1"
@@ -109,7 +109,7 @@ class TestNIHHealthyEatingRecipesScraper(AbstractTest.ScraperTest):
 # https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?linkId=11&cId=1&rId=5
 
 
-class TestNIHHealthyEatingRecipesVariationScraper(AbstractTest.ScraperTest):
+class TestNIHHealthyEatingRecipesVariationScraper(ScraperTest):
 
     scraper_class = NIHHealthyEating
     test_file_name = "nihhealthyeating_2"
@@ -195,7 +195,7 @@ class TestNIHHealthyEatingRecipesVariationScraper(AbstractTest.ScraperTest):
 # https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?linkId=0&cId=10&rId=163
 
 
-class TestNIHHealthyEatingRecipesEdgeCaseScraper(AbstractTest.ScraperTest):
+class TestNIHHealthyEatingRecipesEdgeCaseScraper(ScraperTest):
 
     scraper_class = NIHHealthyEating
     test_file_name = "nihhealthyeating_3"

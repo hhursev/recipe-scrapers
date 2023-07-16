@@ -1,10 +1,10 @@
 # mypy: allow-untyped-defs
 
 from recipe_scrapers.usapears import USAPears
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestUSAPearsScraper(AbstractTest.ScraperTest):
+class TestUSAPearsScraper(ScraperTest):
 
     scraper_class = USAPears
 

@@ -1,8 +1,8 @@
 from recipe_scrapers.eatingwell import EatingWell
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestEatingWell(AbstractTest.ScraperTest):
+class TestEatingWell(ScraperTest):
     scraper_class = EatingWell
 
     def test_host(self):

@@ -1,8 +1,8 @@
 from recipe_scrapers.motherthyme import MotherThyme
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestMotherThymeScraper(AbstractTest.ScraperTest):
+class TestMotherThymeScraper(ScraperTest):
 
     scraper_class = MotherThyme
 

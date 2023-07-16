@@ -1,8 +1,8 @@
 from recipe_scrapers.simplywhisked import SimplyWhisked
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestSimplyWhiskedScraper(AbstractTest.ScraperTest):
+class TestSimplyWhiskedScraper(ScraperTest):
 
     scraper_class = SimplyWhisked
 

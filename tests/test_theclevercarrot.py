@@ -1,8 +1,8 @@
 from recipe_scrapers.theclevercarrot import TheCleverCarrot
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestTheCleverCarrotScraper(AbstractTest.ScraperTest):
+class TestTheCleverCarrotScraper(ScraperTest):
 
     scraper_class = TheCleverCarrot
 

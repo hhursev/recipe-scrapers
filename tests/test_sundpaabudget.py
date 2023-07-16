@@ -1,8 +1,8 @@
 from recipe_scrapers.sundpaabudget import SundPaaBudget
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestSundPaaBudgetScraper(AbstractTest.ScraperTest):
+class TestSundPaaBudgetScraper(ScraperTest):
 
     scraper_class = SundPaaBudget
 

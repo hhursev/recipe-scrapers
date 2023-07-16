@@ -1,8 +1,8 @@
 from recipe_scrapers.kennymcgovern import KennyMcGovern
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestKennyMcGovernScraper(AbstractTest.ScraperTest):
+class TestKennyMcGovernScraper(ScraperTest):
 
     scraper_class = KennyMcGovern
 

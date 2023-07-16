@@ -1,8 +1,8 @@
 from recipe_scrapers.nhshealthierfamilies import NHSHealthierFamilies
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestNHSHealthierFamiliesScraper(AbstractTest.ScraperTest):
+class TestNHSHealthierFamiliesScraper(ScraperTest):
 
     scraper_class = NHSHealthierFamilies
 

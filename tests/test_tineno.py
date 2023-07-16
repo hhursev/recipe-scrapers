@@ -1,8 +1,8 @@
 from recipe_scrapers.tineno import TineNo
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestTineNoScraper(AbstractTest.ScraperTest):
+class TestTineNoScraper(ScraperTest):
     scraper_class = TineNo
 
     def test_host(self):

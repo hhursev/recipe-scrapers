@@ -1,8 +1,8 @@
 from recipe_scrapers.cookieandkate import CookieAndKate
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestCookieAndKateScraper(AbstractTest.ScraperTest):
+class TestCookieAndKateScraper(ScraperTest):
 
     scraper_class = CookieAndKate
 

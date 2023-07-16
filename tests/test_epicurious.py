@@ -1,8 +1,8 @@
 from recipe_scrapers.epicurious import Epicurious
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestEpicurious(AbstractTest.ScraperTest):
+class TestEpicurious(ScraperTest):
 
     scraper_class = Epicurious
 

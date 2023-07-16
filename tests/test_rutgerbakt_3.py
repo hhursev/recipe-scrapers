@@ -1,10 +1,10 @@
 # mypy: allow-untyped-defs
 
 from recipe_scrapers.rutgerbakt import RutgerBakt
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestRutgerBaktScraper(AbstractTest.ScraperTest):
+class TestRutgerBaktScraper(ScraperTest):
     scraper_class = RutgerBakt
     test_file_name = "rutgerbakt_3"
 

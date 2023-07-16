@@ -1,8 +1,8 @@
 from recipe_scrapers.justataste import JustATaste
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestJustATasteScraper(AbstractTest.ScraperTest):
+class TestJustATasteScraper(ScraperTest):
 
     scraper_class = JustATaste
 

@@ -1,8 +1,8 @@
 from recipe_scrapers.panelinha import Panelinha
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestPanelinhaScraper(AbstractTest.ScraperTest):
+class TestPanelinhaScraper(ScraperTest):
 
     scraper_class = Panelinha
     test_file_name = "panelinha_1"

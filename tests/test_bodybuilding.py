@@ -1,8 +1,8 @@
 from recipe_scrapers.bodybuilding import Bodybuilding
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestBodybuildingScraper(AbstractTest.ScraperTest):
+class TestBodybuildingScraper(ScraperTest):
 
     scraper_class = Bodybuilding
 

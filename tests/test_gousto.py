@@ -1,10 +1,10 @@
 from responses import GET
 
 from recipe_scrapers.gousto import Gousto
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestGoustoScraper(AbstractTest.ScraperTest):
+class TestGoustoScraper(ScraperTest):
 
     scraper_class = Gousto
 

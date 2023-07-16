@@ -1,8 +1,8 @@
 from recipe_scrapers.sweetcsdesigns import SweetCsDesigns
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class SweetCsDesignsScraper(AbstractTest.ScraperTest):
+class SweetCsDesignsScraper(ScraperTest):
 
     scraper_class = SweetCsDesigns
 

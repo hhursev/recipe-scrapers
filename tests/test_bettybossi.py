@@ -1,8 +1,8 @@
 from recipe_scrapers.bettybossi import BettyBossi
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestBettyBossiScraper(AbstractTest.ScraperTest):
+class TestBettyBossiScraper(ScraperTest):
 
     scraper_class = BettyBossi
 

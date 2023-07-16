@@ -1,8 +1,8 @@
 from recipe_scrapers.copykat import CopyKat
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestCopyKat(AbstractTest.ScraperTest):
+class TestCopyKat(ScraperTest):
 
     scraper_class = CopyKat
 

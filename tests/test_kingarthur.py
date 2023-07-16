@@ -1,8 +1,8 @@
 from recipe_scrapers.kingarthur import KingArthur
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestKingArthurScraper(AbstractTest.ScraperTest):
+class TestKingArthurScraper(ScraperTest):
 
     scraper_class = KingArthur
 
@@ -62,7 +62,7 @@ class TestKingArthurScraper(AbstractTest.ScraperTest):
         )
 
 
-class TestKingArthurScraperBeautifulBuns(AbstractTest.ScraperTest):
+class TestKingArthurScraperBeautifulBuns(ScraperTest):
 
     scraper_class = KingArthur
     test_file_name = "kingarthur_beautiful_buns"

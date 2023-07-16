@@ -1,8 +1,8 @@
 from recipe_scrapers.sobors import SoBors
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestSoBorsScraper(AbstractTest.ScraperTest):
+class TestSoBorsScraper(ScraperTest):
 
     scraper_class = SoBors
 

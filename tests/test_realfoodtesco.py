@@ -1,8 +1,8 @@
 from recipe_scrapers.realfoodtesco import RealFoodTesco
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestRealFoodTescoScraper(AbstractTest.ScraperTest):
+class TestRealFoodTescoScraper(ScraperTest):
 
     scraper_class = RealFoodTesco
 

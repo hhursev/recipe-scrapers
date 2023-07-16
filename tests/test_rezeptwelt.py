@@ -1,8 +1,8 @@
 from recipe_scrapers.rezeptwelt import Rezeptwelt
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestRezeptweltScraper(AbstractTest.ScraperTest):
+class TestRezeptweltScraper(ScraperTest):
 
     scraper_class = Rezeptwelt
 

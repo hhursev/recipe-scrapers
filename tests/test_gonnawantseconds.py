@@ -1,8 +1,8 @@
 from recipe_scrapers.gonnawantseconds import GonnaWantSeconds
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestGonnaWantSeconds(AbstractTest.ScraperTest):
+class TestGonnaWantSeconds(ScraperTest):
 
     scraper_class = GonnaWantSeconds
 

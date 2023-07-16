@@ -1,11 +1,11 @@
 from recipe_scrapers.bongeats import BongEats
-from tests import AbstractTest
+from tests import ScraperTest
 
 # test recipe's URL
 # https://www.bongeats.com/recipe/lau-chingri
 
 
-class TestBongEatsScraper(AbstractTest.ScraperTest):
+class TestBongEatsScraper(ScraperTest):
 
     scraper_class = BongEats
 

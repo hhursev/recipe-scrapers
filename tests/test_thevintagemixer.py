@@ -1,8 +1,8 @@
 from recipe_scrapers.thevintagemixer import TheVintageMixer
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestTheVintageMixerScraper(AbstractTest.ScraperTest):
+class TestTheVintageMixerScraper(ScraperTest):
 
     scraper_class = TheVintageMixer
 

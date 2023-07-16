@@ -1,8 +1,8 @@
 from recipe_scrapers.yummly import Yummly
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestYummlyScraper(AbstractTest.ScraperTest):
+class TestYummlyScraper(ScraperTest):
 
     scraper_class = Yummly
 

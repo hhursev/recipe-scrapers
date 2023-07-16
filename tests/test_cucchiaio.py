@@ -1,8 +1,8 @@
 from recipe_scrapers.cucchiaio import Cucchiaio
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestCucchiaioScraper(AbstractTest.ScraperTest):
+class TestCucchiaioScraper(ScraperTest):
 
     scraper_class = Cucchiaio
 

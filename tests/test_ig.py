@@ -1,8 +1,8 @@
 from recipe_scrapers.ig import IG
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestIGScraper(AbstractTest.ScraperTest):
+class TestIGScraper(ScraperTest):
 
     scraper_class = IG
 

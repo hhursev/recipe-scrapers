@@ -1,8 +1,8 @@
 from recipe_scrapers.thewoksoflife import Thewoksoflife
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestThewoksoflifeScraper(AbstractTest.ScraperTest):
+class TestThewoksoflifeScraper(ScraperTest):
 
     scraper_class = Thewoksoflife
 

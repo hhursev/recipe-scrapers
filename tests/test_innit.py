@@ -1,8 +1,8 @@
 from recipe_scrapers.innit import Innit
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestInnitScraper(AbstractTest.ScraperTest):
+class TestInnitScraper(ScraperTest):
 
     scraper_class = Innit
 

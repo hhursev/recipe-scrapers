@@ -1,8 +1,8 @@
 from recipe_scrapers.inspiralized import Inspiralized
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestInspiralizedScraper(AbstractTest.ScraperTest):
+class TestInspiralizedScraper(ScraperTest):
 
     scraper_class = Inspiralized
 

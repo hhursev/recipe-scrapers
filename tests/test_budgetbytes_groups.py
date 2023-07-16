@@ -1,9 +1,9 @@
 from recipe_scrapers._grouping_utils import IngredientGroup
 from recipe_scrapers.budgetbytes import BudgetBytes
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestBudgetBytesScraper(AbstractTest.ScraperTest):
+class TestBudgetBytesScraper(ScraperTest):
     scraper_class = BudgetBytes
     test_file_name = "budgetbytes_groups"
 

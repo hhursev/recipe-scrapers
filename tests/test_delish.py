@@ -1,8 +1,8 @@
 from recipe_scrapers.delish import Delish
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestDelishScraper(AbstractTest.ScraperTest):
+class TestDelishScraper(ScraperTest):
 
     scraper_class = Delish
 

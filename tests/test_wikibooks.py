@@ -1,8 +1,8 @@
 from recipe_scrapers.wikicookbook import WikiCookbook
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestWikiCookbookScraper(AbstractTest.ScraperTest):
+class TestWikiCookbookScraper(ScraperTest):
 
     scraper_class = WikiCookbook
 

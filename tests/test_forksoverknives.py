@@ -1,8 +1,8 @@
 from recipe_scrapers.forksoverknives import ForksOverKnives
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestForksOverKnives(AbstractTest.ScraperTest):
+class TestForksOverKnives(ScraperTest):
 
     scraper_class = ForksOverKnives
 

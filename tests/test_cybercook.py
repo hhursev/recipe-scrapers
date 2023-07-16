@@ -1,8 +1,8 @@
 from recipe_scrapers.cybercook import Cybercook
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestCybercook(AbstractTest.ScraperTest):
+class TestCybercook(ScraperTest):
 
     scraper_class = Cybercook
 

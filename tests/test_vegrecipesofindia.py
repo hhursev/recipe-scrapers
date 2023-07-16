@@ -1,8 +1,8 @@
 from recipe_scrapers.vegrecipesofindia import VegRecipesOfIndia
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestVegRecipesOfIndiaScraper(AbstractTest.ScraperTest):
+class TestVegRecipesOfIndiaScraper(ScraperTest):
 
     scraper_class = VegRecipesOfIndia
 

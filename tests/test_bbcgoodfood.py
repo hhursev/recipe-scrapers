@@ -1,9 +1,9 @@
 from recipe_scrapers._grouping_utils import IngredientGroup
 from recipe_scrapers.bbcgoodfood import BBCGoodFood
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestBBCGoodFoodScraper(AbstractTest.ScraperTest):
+class TestBBCGoodFoodScraper(ScraperTest):
     scraper_class = BBCGoodFood
 
     def test_host(self):

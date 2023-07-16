@@ -1,11 +1,11 @@
 from recipe_scrapers.fitmencook import FitMenCook
-from tests import AbstractTest
+from tests import ScraperTest
 
 # test recipe's URL
 # https://fitmencook.com/healthy-chili-recipe/
 
 
-class TestFitMenCookScraper(AbstractTest.ScraperTest):
+class TestFitMenCookScraper(ScraperTest):
 
     scraper_class = FitMenCook
 

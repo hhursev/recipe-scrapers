@@ -1,8 +1,8 @@
 from recipe_scrapers.redhousespice import RedHouseSpice
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestRedHouseSpiceScraper(AbstractTest.ScraperTest):
+class TestRedHouseSpiceScraper(ScraperTest):
 
     scraper_class = RedHouseSpice
 

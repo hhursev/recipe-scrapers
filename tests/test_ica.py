@@ -1,8 +1,8 @@
 from recipe_scrapers.ica import Ica
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestIcaScraper(AbstractTest.ScraperTest):
+class TestIcaScraper(ScraperTest):
 
     scraper_class = Ica
 

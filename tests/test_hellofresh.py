@@ -1,8 +1,8 @@
 from recipe_scrapers.hellofresh import HelloFresh
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestHelloFreshScraper(AbstractTest.ScraperTest):
+class TestHelloFreshScraper(ScraperTest):
 
     scraper_class = HelloFresh
 

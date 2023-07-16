@@ -1,8 +1,8 @@
 from recipe_scrapers.vanillaandbean import VanillaAndBean
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestVanillaAndBeanScraper(AbstractTest.ScraperTest):
+class TestVanillaAndBeanScraper(ScraperTest):
 
     scraper_class = VanillaAndBean
 

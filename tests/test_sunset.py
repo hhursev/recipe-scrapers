@@ -1,8 +1,8 @@
 from recipe_scrapers.sunset import Sunset
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestSunsetScraper(AbstractTest.ScraperTest):
+class TestSunsetScraper(ScraperTest):
 
     scraper_class = Sunset
 

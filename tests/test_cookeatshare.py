@@ -1,8 +1,8 @@
 from recipe_scrapers.cookeatshare import CookEatShare
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestCookEatShare(AbstractTest.ScraperTest):
+class TestCookEatShare(ScraperTest):
 
     scraper_class = CookEatShare
 

@@ -1,8 +1,8 @@
 from recipe_scrapers.realsimple import RealSimple
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestRealSimpleScraper(AbstractTest.ScraperTest):
+class TestRealSimpleScraper(ScraperTest):
 
     scraper_class = RealSimple
 

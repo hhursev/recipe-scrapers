@@ -1,8 +1,8 @@
 from recipe_scrapers.livelytable import LivelyTable
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestLivelyTableScraper(AbstractTest.ScraperTest):
+class TestLivelyTableScraper(ScraperTest):
 
     scraper_class = LivelyTable
 

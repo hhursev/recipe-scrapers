@@ -1,9 +1,9 @@
 from recipe_scrapers._grouping_utils import IngredientGroup
 from recipe_scrapers.rainbowplantlife import RainbowPlantLife
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestRainbowPlantLifeScraper(AbstractTest.ScraperTest):
+class TestRainbowPlantLifeScraper(ScraperTest):
     scraper_class = RainbowPlantLife
 
     def test_host(self):

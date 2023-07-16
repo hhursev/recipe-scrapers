@@ -1,10 +1,10 @@
 # mypy: allow-untyped-defs
 
 from recipe_scrapers.chefnini import Chefnini
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestChefniniScraper(AbstractTest.ScraperTest):
+class TestChefniniScraper(ScraperTest):
     scraper_class = Chefnini
 
     def test_host(self):

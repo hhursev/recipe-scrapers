@@ -1,8 +1,8 @@
 from recipe_scrapers.downshiftology import Downshiftology
-from tests import AbstractTest
+from tests import ScraperTest
 
 
-class TestDownshiftologyScraper(AbstractTest.ScraperTest):
+class TestDownshiftologyScraper(ScraperTest):
 
     scraper_class = Downshiftology
 
