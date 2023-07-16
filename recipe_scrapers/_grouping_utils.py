@@ -31,7 +31,9 @@ def score_sentence_similarity(first: str, second: str) -> float:
     Returns
     -------
     float
-        Description
+        Similarity score between 0 and 1.
+        0 means the two strings do not share any bigrams.
+        1 means the two strings are identical.
     """
 
     if first == second:
