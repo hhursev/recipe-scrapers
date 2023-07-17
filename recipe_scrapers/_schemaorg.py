@@ -166,6 +166,9 @@ class SchemaOrg:
         if ingredients and isinstance(ingredients[0], list):
             ingredients = list(chain(*ingredients))  # flatten
 
+        if ingredients and isinstance(ingredients, str):
+            ingredients = [ingredients]
+
         return [
             normalize_string(ingredient) for ingredient in ingredients if ingredient
         ]
