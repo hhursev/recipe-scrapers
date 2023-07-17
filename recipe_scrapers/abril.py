@@ -24,6 +24,3 @@ class Abril(AbstractScraper):
 
     def instructions(self):
         return self.schema.instructions()
-
-    def nutrients(self):
-        return "abril"
