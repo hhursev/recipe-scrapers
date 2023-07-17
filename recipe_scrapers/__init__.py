@@ -150,6 +150,7 @@ from .mybakingaddiction import MyBakingAddiction
 from .mykitchen101 import MyKitchen101
 from .mykitchen101en import MyKitchen101en
 from .myrecipes import MyRecipes
+from .nibbledish import NibbleDish
 from .nhshealthierfamilies import NHSHealthierFamilies
 from .nihhealthyeating import NIHHealthyEating
 from .nourishedbynutrition import NourishedByNutrition
@@ -413,6 +414,7 @@ SCRAPERS = {
     MyKitchen101.host(): MyKitchen101,
     MyKitchen101en.host(): MyKitchen101en,
     MyRecipes.host(): MyRecipes,
+    NibbleDish.host(): NibbleDish,
     NHSHealthierFamilies.host(): NHSHealthierFamilies,
     NIHHealthyEating.host(): NIHHealthyEating,
     NYTimes.host(): NYTimes,
