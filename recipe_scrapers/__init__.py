@@ -150,8 +150,8 @@ from .mybakingaddiction import MyBakingAddiction
 from .mykitchen101 import MyKitchen101
 from .mykitchen101en import MyKitchen101en
 from .myrecipes import MyRecipes
-from .nibbledish import NibbleDish
 from .nhshealthierfamilies import NHSHealthierFamilies
+from .nibbledish import NibbleDish
 from .nihhealthyeating import NIHHealthyEating
 from .nourishedbynutrition import NourishedByNutrition
 from .nutritionbynathalie import NutritionByNathalie
