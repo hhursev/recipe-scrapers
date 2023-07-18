@@ -3,14 +3,15 @@ from tests import ScraperTest
 
 
 class TestTheExpertGuidesScraper(ScraperTest):
-
     scraper_class = TheExpertGuides
 
     def test_host(self):
         self.assertEqual("theexpertguides.com", self.harvester_class.host())
 
     def test_title(self):
-        self.assertEqual("Coconut Milk Pasta Sauce Recipe", self.harvester_class.title())
+        self.assertEqual(
+            "Coconut Milk Pasta Sauce Recipe", self.harvester_class.title()
+        )
 
     def test_author(self):
         self.assertEqual("Anne Maxwell", self.harvester_class.author())
@@ -32,22 +33,23 @@ class TestTheExpertGuidesScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://theexpertguides.com/wp-content/uploads/2022/08/pexels-photo-1487511-1.webp", self.harvester_class.image()
+            "https://theexpertguides.com/wp-content/uploads/2022/08/pexels-photo-1487511-1.webp",
+            self.harvester_class.image(),
         )
-    
+
     def test_language(self):
         self.assertEqual("en-US", self.harvester_class.language())
 
     def test_ingredients(self):
         self.assertEqual(
             [
-                '1 lb pasta of your choice',
-                '4-5 garlic cloves (minced )',
-                '1 can chopped tomatoes',
-                '1 can coconut milk',
-                '1/2 cup vegetable stock',
-                'Fresh basil and oregano',
-                '2 tbsp olive oil',
+                "1 lb pasta of your choice",
+                "4-5 garlic cloves (minced )",
+                "1 can chopped tomatoes",
+                "1 can coconut milk",
+                "1/2 cup vegetable stock",
+                "Fresh basil and oregano",
+                "2 tbsp olive oil",
             ],
             self.harvester_class.ingredients(),
         )
@@ -63,17 +65,17 @@ Bring the sauce to a boil and cook for 10 minutes on medium heat without the lid
 Add chopped basil and dried oregano with salt and pepper to taste.
 Combine the cooked pasta in the sauce, and serve hot."""
         self.assertEqual(test_instructions, self.harvester_class.instructions())
-    
+
     def test_cuisine(self):
         self.assertEqual("Italian", self.harvester_class.cuisine())
 
     def test_nutrients(self):
         self.assertEqual(
             {
-                'calories': '638 kcal',
-                'servingSize': '1 serving',
+                "calories": "638 kcal",
+                "servingSize": "1 serving",
             },
-            self.harvester_class.nutrients()
+            self.harvester_class.nutrients(),
         )
 
     def test_description(self):
