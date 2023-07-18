@@ -41,12 +41,12 @@ class TestTheExpertGuidesScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                '1 lb pasta of your choice', 
-                '4-5 garlic cloves (minced )', 
-                '1 can chopped tomatoes', 
-                '1 can coconut milk', 
-                '1/2 cup vegetable stock', 
-                'Fresh basil and oregano', 
+                '1 lb pasta of your choice',
+                '4-5 garlic cloves (minced )',
+                '1 can chopped tomatoes',
+                '1 can coconut milk',
+                '1/2 cup vegetable stock',
+                'Fresh basil and oregano',
                 '2 tbsp olive oil',
             ],
             self.harvester_class.ingredients(),
@@ -70,7 +70,7 @@ Combine the cooked pasta in the sauce, and serve hot."""
     def test_nutrients(self):
         self.assertEqual(
             {
-                'calories': '638 kcal', 
+                'calories': '638 kcal',
                 'servingSize': '1 serving',
             },
             self.harvester_class.nutrients()
