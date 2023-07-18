@@ -4,6 +4,9 @@
 .. image:: https://img.shields.io/pypi/v/recipe-scrapers.svg?
     :target: https://pypi.org/project/recipe-scrapers/
     :alt: Version
+.. image:: https://img.shields.io/pypi/pyversions/recipe-scrapers
+    :target: https://pypi.org/project/recipe-scrapers/
+    :alt: PyPI - Python Version
 .. image:: https://pepy.tech/badge/recipe-scrapers
     :target: https://pepy.tech/project/recipe-scrapers
     :alt: Downloads
@@ -212,6 +215,7 @@ Scrapers available for:
 - `https://www.myplate.gov/ <https://www.myplate.gov/>`_
 - `https://myrecipes.com/ <https://myrecipes.com>`_
 - `https://healthyeating.nhlbi.nih.gov/ <https://healthyeating.nhlbi.nih.gov>`_
+- `https://nibbledish.com/ <https://nibbledish.com>`_
 - `https://www.nosalty.hu/ <https://www.nosalty.hu>`_
 - `https://nourishedbynutrition.com/ <https://nourishedbynutrition.com/>`_
 - `https://nutritionbynathalie.com/blog <https://nutritionbynathalie.com/blog>`_
@@ -272,6 +276,7 @@ Scrapers available for:
 - `https://tasty.co <https://tasty.co>`_
 - `https://tastykitchen.com/ <https://tastykitchen.com>`_
 - `https://theclevercarrot.com/ <https://theclevercarrot.com>`_
+- `https://theexpertguides.com/ <https://theexpertguides.com>`_
 - `https://thehappyfoodie.co.uk/ <https://thehappyfoodie.co.uk>`_
 - `https://www.thekitchenmagpie.com/ <https://www.thekitchenmagpie.com>`_
 - `https://thekitchn.com/ <https://thekitchn.com/>`_

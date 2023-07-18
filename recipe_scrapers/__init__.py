@@ -147,6 +147,7 @@ from .mykitchen101 import MyKitchen101
 from .mykitchen101en import MyKitchen101en
 from .myrecipes import MyRecipes
 from .nhshealthierfamilies import NHSHealthierFamilies
+from .nibbledish import NibbleDish
 from .nihhealthyeating import NIHHealthyEating
 from .nourishedbynutrition import NourishedByNutrition
 from .nutritionbynathalie import NutritionByNathalie
@@ -208,6 +209,7 @@ from .tastesoflizzyt import TastesOfLizzyT
 from .tasty import Tasty
 from .tastykitchen import TastyKitchen
 from .theclevercarrot import TheCleverCarrot
+from .theexpertguides import TheExpertGuides
 from .thehappyfoodie import TheHappyFoodie
 from .thekitchenmagpie import TheKitchenMagPie
 from .thekitchn import TheKitchn
@@ -397,6 +399,7 @@ SCRAPERS = {
     MyKitchen101.host(): MyKitchen101,
     MyKitchen101en.host(): MyKitchen101en,
     MyRecipes.host(): MyRecipes,
+    NibbleDish.host(): NibbleDish,
     NHSHealthierFamilies.host(): NHSHealthierFamilies,
     NIHHealthyEating.host(): NIHHealthyEating,
     NYTimes.host(): NYTimes,
@@ -461,6 +464,7 @@ SCRAPERS = {
     Tasty.host(): Tasty,
     TastyKitchen.host(): TastyKitchen,
     TheCleverCarrot.host(): TheCleverCarrot,
+    TheExpertGuides.host(): TheExpertGuides,
     TheHappyFoodie.host(): TheHappyFoodie,
     TheKitchenMagPie.host(): TheKitchenMagPie,
     TheKitchn.host(): TheKitchn,
