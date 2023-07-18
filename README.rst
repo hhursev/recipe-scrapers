@@ -4,6 +4,9 @@
 .. image:: https://img.shields.io/pypi/v/recipe-scrapers.svg?
     :target: https://pypi.org/project/recipe-scrapers/
     :alt: Version
+.. image:: https://img.shields.io/pypi/pyversions/recipe-scrapers
+    :target: https://pypi.org/project/recipe-scrapers/
+    :alt: PyPI - Python Version
 .. image:: https://pepy.tech/badge/recipe-scrapers
     :target: https://pepy.tech/project/recipe-scrapers
     :alt: Downloads
