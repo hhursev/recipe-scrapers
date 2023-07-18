@@ -68,10 +68,13 @@ Combine the cooked pasta in the sauce, and serve hot."""
         self.assertEqual("Italian", self.harvester_class.cuisine())
 
     def test_nutrients(self):
-        self.assertEqual({
-            'calories': '638 kcal', 
-            'servingSize': '1 serving'
-            }, self.harvester_class.nutrients())
+        self.assertEqual(
+            {
+                'calories': '638 kcal', 
+                'servingSize': '1 serving',
+            },
+            self.harvester_class.nutrients()
+        )
 
     def test_description(self):
         self.assertEqual(
