@@ -213,6 +213,7 @@ from .tastesoflizzyt import TastesOfLizzyT
 from .tasty import Tasty
 from .tastykitchen import TastyKitchen
 from .theclevercarrot import TheCleverCarrot
+from .theexpertguides import TheExpertGuides
 from .thehappyfoodie import TheHappyFoodie
 from .thekitchenmagpie import TheKitchenMagPie
 from .thekitchn import TheKitchn
@@ -479,6 +480,7 @@ SCRAPERS = {
     Tasty.host(): Tasty,
     TastyKitchen.host(): TastyKitchen,
     TheCleverCarrot.host(): TheCleverCarrot,
+    TheExpertGuides.host(): TheExpertGuides,
     TheHappyFoodie.host(): TheHappyFoodie,
     TheKitchenMagPie.host(): TheKitchenMagPie,
     TheKitchn.host(): TheKitchn,
