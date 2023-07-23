@@ -26,7 +26,6 @@ class TestChefSavvyScraper(ScraperTest):
     def test_yields(self):
         expected_yields = "4 servings"
         actual_yields = self.harvester_class.yields()
-        print("Actual Yields:", actual_yields)  # Add this line for debugging
         self.assertEqual(expected_yields, actual_yields)
 
     def test_instructions(self):
