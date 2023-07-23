@@ -269,7 +269,6 @@ Scrapers available for:
 - `https://redhousespice.com/ <https://redhousespice.com/>`_
 - `https://reishunger.de/ <https://www.reishunger.de/>`_
 - `https://rezeptwelt.de/ <https://rezeptwelt.de>`_
-- `https://ricetta.it/ <https://ricetta.it>`_
 - `https://rosannapansino.com <https://rosannapansino.com>`_
 - `https://rutgerbakt.nl/ <https://rutgerbakt.nl/>`_
 - `https://sallysbakingaddiction.com <https://sallysbakingaddiction.com/>`_
