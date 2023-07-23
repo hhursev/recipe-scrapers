@@ -27,20 +27,19 @@ class TestChefSavvyScraper(ScraperTest):
         expected_yields = "4 servings"
         self.assertEqual(expected_yields, self.harvester_class.yields())
 
+    def test_instructions(self):
+        expected_instructions = """Add steak, broth, soy sauce, garlic, oyster sauce, brown sugar, and sesame oil to a slow cooker. Stir to combine.
+        Cook on low for 4-5 hours or until steak is tender.
+        Reserve 1/4 cup of the cooking liquid and whisk in the cornstarch to the reserved liquid.
+        Slowly stir the cornstarch mixture into the slow cooker along with the broccoli and continue cooking on low for an additional 30 minutes or until sauce has thickened and broccoli is tender.
+        Serve immediately with rice and enjoy!"""
 
-def test_instructions(self):
-    expected_instructions = """Add steak, broth, soy sauce, garlic, oyster sauce, brown sugar, and sesame oil to a slow cooker. Stir to combine.
-Cook on low for 4-5 hours or until steak is tender.
-Reserve 1/4 cup of the cooking liquid and whisk in the cornstarch to the reserved liquid.
-Slowly stir the cornstarch mixture into the slow cooker along with the broccoli and continue cooking on low for an additional 30 minutes or until sauce has thickened and broccoli is tender.
-Serve immediately with rice and enjoy!"""
+        # Normalize the line endings and remove leading/trailing whitespaces
+        actual_instructions = (
+            self.harvester_class.instructions().strip().replace("\r\n", "\n")
+        )
 
-    # Normalize the line endings and remove leading/trailing whitespaces
-    actual_instructions = (
-        self.harvester_class.instructions().strip().replace("\r\n", "\n")
-    )
-
-    self.assertMultiLineEqual(expected_instructions, actual_instructions)
+        self.assertEqual(expected_instructions, actual_instructions)
 
     def test_ratings(self):
         self.assertEqual(4.67, self.harvester_class.ratings())
