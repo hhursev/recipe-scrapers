@@ -40,6 +40,7 @@ from .castironketo import CastIronKeto
 from .cdkitchen import CdKitchen
 from .chefkoch import Chefkoch
 from .chefnini import Chefnini
+from .chefsavvy import ChefSavvy
 from .closetcooking import ClosetCooking
 from .comidinhasdochef import ComidinhasDoChef
 from .cookeatshare import CookEatShare
@@ -278,6 +279,7 @@ SCRAPERS = {
     BudgetBytes.host(): BudgetBytes,
     CastIronKeto.host(): CastIronKeto,
     CdKitchen.host(): CdKitchen,
+    ChefSavvy.host(): ChefSavvy,
     Chefkoch.host(): Chefkoch,
     Chefnini.host(): Chefnini,
     ClosetCooking.host(): ClosetCooking,
