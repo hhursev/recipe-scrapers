@@ -64,3 +64,6 @@ class TestRicettaScraper(ScraperTest):
     def test_description(self):
         expected_description = "Le lasagne al radicchio e formaggio sono un primo piatto invernale molto gustoso, adatto anche a chi segue una dieta vegetariana. Prepariamole insieme."
         self.assertEqual(expected_description, self.harvester_class.description())
+
+    def test_language(self):
+        self.assertEqual("it", self.harvester_class.language())
