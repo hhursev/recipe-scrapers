@@ -39,6 +39,7 @@ from .castironketo import CastIronKeto
 from .cdkitchen import CdKitchen
 from .chefkoch import Chefkoch
 from .chefnini import Chefnini
+from .chefsavvy import ChefSavvy
 from .closetcooking import ClosetCooking
 from .comidinhasdochef import ComidinhasDoChef
 from .cookeatshare import CookEatShare
@@ -178,6 +179,7 @@ from .recipetineats import RecipeTinEats
 from .redhousespice import RedHouseSpice
 from .reishunger import Reishunger
 from .rezeptwelt import Rezeptwelt
+from .ricetta import Ricetta
 from .rosannapansino import RosannaPansino
 from .rutgerbakt import RutgerBakt
 from .sallysbakingaddiction import SallysBakingAddiction
@@ -272,6 +274,7 @@ SCRAPERS = {
     BudgetBytes.host(): BudgetBytes,
     CastIronKeto.host(): CastIronKeto,
     CdKitchen.host(): CdKitchen,
+    ChefSavvy.host(): ChefSavvy,
     Chefkoch.host(): Chefkoch,
     Chefnini.host(): Chefnini,
     ClosetCooking.host(): ClosetCooking,
@@ -433,6 +436,7 @@ SCRAPERS = {
     RedHouseSpice.host(): RedHouseSpice,
     Reishunger.host(): Reishunger,
     Rezeptwelt.host(): Rezeptwelt,
+    Ricetta.host(): Ricetta,
     RosannaPansino.host(): RosannaPansino,
     RutgerBakt.host(): RutgerBakt,
     SallysBakingAddiction.host(): SallysBakingAddiction,

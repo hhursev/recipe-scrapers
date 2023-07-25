@@ -103,6 +103,7 @@ Scrapers available for:
 - `https://cdkitchen.com/ <https://cdkitchen.com/>`_
 - `https://chefkoch.de/ <https://chefkoch.de>`_
 - `https://www.chefnini.com/ <https://www.chefnini.com/>`_
+- `https://chefsavvy.com/ <https://chefsavvy.com/>`_
 - `https://closetcooking.com/ <https://closetcooking.com>`_
 - `https://comidinhasdochef.com/ <https://comidinhasdochef.com/>`_
 - `https://cookeatshare.com/ <https://cookeatshare.com/>`_
@@ -246,6 +247,7 @@ Scrapers available for:
 - `https://redhousespice.com/ <https://redhousespice.com/>`_
 - `https://reishunger.de/ <https://www.reishunger.de/>`_
 - `https://rezeptwelt.de/ <https://rezeptwelt.de>`_
+- `https://ricetta.it/ <https://ricetta.it>`_
 - `https://rosannapansino.com <https://rosannapansino.com>`_
 - `https://rutgerbakt.nl/ <https://rutgerbakt.nl/>`_
 - `https://sallysbakingaddiction.com <https://sallysbakingaddiction.com/>`_
