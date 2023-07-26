@@ -134,6 +134,7 @@ from .lovingitvegan import Lovingitvegan
 from .maangchi import Maangchi
 from .madensverden import MadensVerden
 from .madewithlau import MadeWithLau
+from .madsvin import Madsvin
 from .marleyspoon import MarleySpoon
 from .marmiton import Marmiton
 from .marthastewart import MarthaStewart
@@ -394,6 +395,7 @@ SCRAPERS = {
     Maangchi.host(): Maangchi,
     MadensVerden.host(): MadensVerden,
     MadeWithLau.host(): MadeWithLau,
+    Madsvin.host(): Madsvin,
     MarleySpoon.host(): MarleySpoon,
     MarleySpoon.host(domain="de"): MarleySpoon,
     MarleySpoon.host(domain="com.au"): MarleySpoon,
