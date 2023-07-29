@@ -36,7 +36,6 @@ class Kochbucher(AbstractScraper):
                 ]
                 return ingredients_list
 
-
     def instructions(self):
         zubereitung_heading = self.soup.find("p", string="Zubereitung")
         if zubereitung_heading is not None:
