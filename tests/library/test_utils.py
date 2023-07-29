@@ -103,6 +103,7 @@ class TestUtils(unittest.TestCase):
                 "description",
                 "host",
                 "image",
+                "ingredient_groups",
                 "ingredients",
                 "instructions",
                 "instructions_list",

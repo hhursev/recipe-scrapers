@@ -1,9 +1,9 @@
+from recipe_scrapers._grouping_utils import IngredientGroup
 from recipe_scrapers.rainbowplantlife import RainbowPlantLife
 from tests import ScraperTest
 
 
 class TestRainbowPlantLifeScraper(ScraperTest):
-
     scraper_class = RainbowPlantLife
 
     def test_host(self):
@@ -51,6 +51,35 @@ class TestRainbowPlantLifeScraper(ScraperTest):
                 "For serving: vegan vanilla ice cream ((optional))",
             ],
             self.harvester_class.ingredients(),
+        )
+
+    def test_ingredient_groups(self):
+        self.assertEqual(
+            [
+                IngredientGroup(
+                    ingredients=[
+                        "1 pound (454g) ripe but relatively firm peaches",
+                        "1/2 cup (75-85g) fresh blueberries",
+                        "1/3 cup (45g) brown sugar or coconut sugar",
+                        "1 teaspoon ground cinnamon",
+                        "1/4 teaspoon nutmeg ((I recommend freshly grated nutmeg))",
+                        "Scant 1/2 teaspoon ground ginger",
+                        "2 pinches of ground cardamom ((optional))",
+                        "10 tablespoons (140g) vegan butter*",
+                        "1 1/2 cups (180g) all-purpose flour",
+                        "Scant 2/3 cup (60g) (old-fashioned rolled oats)",
+                        "1 cup (200g) organic cane sugar",
+                        "1/4 - 1/2 teaspoon kosher salt",
+                        "2 teaspoons baking powder",
+                        "1 1/3 cups (320 mL) full-fat oat milk***",
+                        "1 1/2 teaspoons pure vanilla extract",
+                        "1/4 teaspoon pure almond extract ((optional))",
+                        "For serving: vegan vanilla ice cream ((optional))",
+                    ],
+                    purpose=None,
+                )
+            ],
+            self.harvester_class.ingredient_groups(),
         )
 
     def test_instructions(self):
