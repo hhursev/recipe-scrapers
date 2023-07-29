@@ -199,6 +199,7 @@ Scrapers available for:
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
 - `https://www.kitchenstories.com/ <https://www.kitchenstories.com>`_
 - `https://kochbar.de/ <https://kochbar.de>`_
+- `https://kochbucher.com/ <https://kochbucher.com/>`_
 - `http://koket.se/ <http://koket.se>`_
 - `https://www.kptncook.com/ <https://www.kptncook.com>`_
 - `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
