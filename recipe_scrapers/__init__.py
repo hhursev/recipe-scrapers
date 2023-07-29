@@ -232,6 +232,7 @@ from .usapears import USAPears
 from .usdamyplate import USDAMyPlate
 from .valdemarsro import Valdemarsro
 from .vanillaandbean import VanillaAndBean
+from .vegetarbloggen import Vegetarbloggen
 from .vegolosi import Vegolosi
 from .vegrecipesofindia import VegRecipesOfIndia
 from .watchwhatueat import WatchWhatUEat
@@ -502,6 +503,7 @@ SCRAPERS = {
     Valdemarsro.host(): Valdemarsro,
     VanillaAndBean.host(): VanillaAndBean,
     VegRecipesOfIndia.host(): VegRecipesOfIndia,
+    Vegetarbloggen.host(): Vegetarbloggen,
     Vegolosi.host(): Vegolosi,
     WatchWhatUEat.host(): WatchWhatUEat,
     WeightWatchers.host(): WeightWatchers,

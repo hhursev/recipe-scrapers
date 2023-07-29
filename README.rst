@@ -317,6 +317,7 @@ Scrapers available for:
 - `https://usapears.org/ <https://usapears.org>`_
 - `https://www.valdemarsro.dk/ <https://www.valdemarsro.dk/>`_
 - `https://vanillaandbean.com/ <https://vanillaandbean.com>`_
+- `https://www.vegetarbloggen.no/ <https://www.vegetarbloggen.no/>`_
 - `https://vegolosi.it/ <https://vegolosi.it>`_
 - `https://vegrecipesofindia.com/ <https://www.vegrecipesofindia.com/>`_
 - `https://watchwhatueat.com/ <https://watchwhatueat.com/>`_
