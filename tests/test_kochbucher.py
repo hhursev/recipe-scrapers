@@ -57,3 +57,7 @@ class TestKochbucherScraper(ScraperTest):
         ]
         instructions_list = self.harvester_class.instructions()
         self.assertEqual(expected_instructions, instructions_list)
+
+    def test_language(self):
+        self.assertEqual("de", self.harvester_class.language())
+
