@@ -60,5 +60,3 @@ class TestKochbucherScraper(ScraperTest):
 
     def language(self):
         return "de"
-
-
