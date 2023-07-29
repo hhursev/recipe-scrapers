@@ -64,5 +64,5 @@ class TestVegetarbloggenScraper(ScraperTest):
         actual_instructions = self.harvester_class.instructions().strip()
         self.assertEqual(expected_instructions, actual_instructions)
 
-    def test_language(self):
-        self.assertEqual("no", self.harvester_class.language())
+    def language(self):
+        return "no"
