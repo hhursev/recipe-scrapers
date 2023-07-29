@@ -29,7 +29,6 @@ class TestKochbucherScraper(ScraperTest):
         )
 
     def test_ingredients(self):
-        # Provided data for the recipe
         ingredients_data = [
             "500 g Putenfleisch",
             "1 Zwiebel",
