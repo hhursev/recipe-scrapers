@@ -15,8 +15,6 @@ class Kochbucher(AbstractScraper):
         category_element = self.soup.find("span", {"class": "post-head-cat"})
         if category_element is not None:
             return category_element.get_text()
-        else:
-            return None  # Return an empty list if not found
 
     def author(self):
         author_element = self.soup.find(
@@ -24,8 +22,6 @@ class Kochbucher(AbstractScraper):
         )
         if author_element is not None:
             return author_element.get_text()
-        else:
-            return None  # Return an empty list if not found
 
     def ingredients(self):
         zutaten_heading = self.soup.find("p", string="Zutaten")
@@ -40,7 +36,6 @@ class Kochbucher(AbstractScraper):
                 ]
                 return ingredients_list
 
-        return []  # Return an empty list if not found
 
     def instructions(self):
         zubereitung_heading = self.soup.find("p", string="Zubereitung")
@@ -55,4 +50,3 @@ class Kochbucher(AbstractScraper):
                         for instruction in instructions_list
                         if instruction
                     ]
-        return []  # Return an empty list if not found
