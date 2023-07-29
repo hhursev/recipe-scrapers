@@ -12,7 +12,7 @@ class TestTherecipecriticScraper(ScraperTest):
         self.assertEqual("therecipecritic.com", self.harvester_class.host())
 
     def test_author(self):
-        self.assertEqual("Alyssa Rivers", self.harvester_class.author())
+        self.assertEqual("The Recipe Critic", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual("Burrata Appetizer", self.harvester_class.title())

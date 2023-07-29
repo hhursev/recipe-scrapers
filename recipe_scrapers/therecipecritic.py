@@ -9,7 +9,7 @@ class Therecipecritic(AbstractScraper):
         return "therecipecritic.com"
 
     def author(self):
-        return "Alyssa Rivers"
+        return "The Recipe Critic"
 
     def title(self):
         return self.schema.title()
