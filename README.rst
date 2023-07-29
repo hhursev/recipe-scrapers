@@ -307,6 +307,7 @@ Scrapers available for:
 - `https://thekitchn.com/ <https://thekitchn.com/>`_
 - `https://thenutritiouskitchen.co/ <https://thenutritiouskitchen.co/>`_
 - `https://thepioneerwoman.com/ <https://thepioneerwoman.com>`_
+- `https://therecipecritic.com/ <https://therecipecritic.com>`_
 - `https://thespruceeats.com/ <https://thespruceeats.com/>`_
 - `https://thevintagemixer.com/ <https://thevintagemixer.com>`_
 - `https://thewoksoflife.com/ <https://thewoksoflife.com/>`_
