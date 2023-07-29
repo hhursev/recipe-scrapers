@@ -306,6 +306,7 @@ Scrapers available for:
 - `https://thehappyfoodie.co.uk/ <https://thehappyfoodie.co.uk>`_
 - `https://www.thekitchenmagpie.com/ <https://www.thekitchenmagpie.com>`_
 - `https://thekitchn.com/ <https://thekitchn.com/>`_
+- `https://themodernproper.com/ <https://themodernproper.com/>`_
 - `https://thenutritiouskitchen.co/ <https://thenutritiouskitchen.co/>`_
 - `https://thepioneerwoman.com/ <https://thepioneerwoman.com>`_
 - `https://therecipecritic.com/ <https://therecipecritic.com>`_
