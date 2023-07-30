@@ -324,6 +324,7 @@ Scrapers available for:
 - `https://vegrecipesofindia.com/ <https://www.vegrecipesofindia.com/>`_
 - `https://watchwhatueat.com/ <https://watchwhatueat.com/>`_
 - `https://www.weightwatchers.com/ <https://www.weightwatchers.com/>`_ (*)
+- `https://www.wellplated.com/ <https://www.wellplated.com/>`_
 - `https://whatsgabycooking.com/ <https://whatsgabycooking.com>`_
 - `https://www.wholefoodsmarket.com/ <https://www.wholefoodsmarket.com/>`_
 - `https://www.wholefoodsmarket.co.uk/ <https://www.wholefoodsmarket.co.uk/>`_
