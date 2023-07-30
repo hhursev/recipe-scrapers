@@ -229,6 +229,7 @@ Scrapers available for:
 - `https://www.melskitchencafe.com/ <https://www.melskitchencafe.com/>`_
 - `http://mindmegette.hu/ <http://mindmegette.hu/>`_
 - `https://minimalistbaker.com/ <https://minimalistbaker.com/>`_
+- `https://ministryofcurry.com/ <hhttps://ministryofcurry.com/>`_
 - `https://misya.info/ <https://misya.info>`_
 - `https://www.mobkitchen.co.uk/ <https://www.mobkitchen.co.uk/>`_
 - `https://momswithcrockpots.com/ <https://momswithcrockpots.com>`_
