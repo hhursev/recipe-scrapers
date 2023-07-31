@@ -109,6 +109,7 @@ from .imworthy import ImWorthy
 from .indianhealthyrecipes import IndianHealthyRecipes
 from .innit import Innit
 from .inspiralized import Inspiralized
+from .izzycooking import IzzyCooking
 from .jamieoliver import JamieOliver
 from .jimcooksfoodgood import JimCooksFoodGood
 from .joyfoodsunshine import Joyfoodsunshine
@@ -371,6 +372,7 @@ SCRAPERS = {
     IndianHealthyRecipes.host(): IndianHealthyRecipes,
     Innit.host(): Innit,
     Inspiralized.host(): Inspiralized,
+    IzzyCooking.host(): IzzyCooking,
     JamieOliver.host(): JamieOliver,
     JimCooksFoodGood.host(): JimCooksFoodGood,
     Joyfoodsunshine.host(): Joyfoodsunshine,
