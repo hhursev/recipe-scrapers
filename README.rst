@@ -106,6 +106,7 @@ Scrapers available for:
 - `https://biancazapatka.com/ <https://biancazapatka.com>`_
 - `https://bigoven.com/ <https://bigoven.com>`_
 - `https://blueapron.com/ <https://blueapron.com>`_
+- `https://bluejeanchef.com/ <https://bluejeanchef.com/>`_
 - `https://bonappetit.com/ <https://bonappetit.com>`_
 - `https://www.bodybuilding.com/ <https://www.bodybuilding.com/>`_
 - `https://bongeats.com/ <https://bongeats.com/>`_
