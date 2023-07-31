@@ -218,6 +218,7 @@ from .tastykitchen import TastyKitchen
 from .theclevercarrot import TheCleverCarrot
 from .theexpertguides import TheExpertGuides
 from .thehappyfoodie import TheHappyFoodie
+from .thekitchencommunity import TheKitchenCommunity
 from .thekitchenmagpie import TheKitchenMagPie
 from .thekitchn import TheKitchn
 from .thenutritiouskitchen import TheNutritiousKitchen
@@ -490,6 +491,7 @@ SCRAPERS = {
     TheCleverCarrot.host(): TheCleverCarrot,
     TheExpertGuides.host(): TheExpertGuides,
     TheHappyFoodie.host(): TheHappyFoodie,
+    TheKitchenCommunity.host(): TheKitchenCommunity,
     TheKitchenMagPie.host(): TheKitchenMagPie,
     TheKitchn.host(): TheKitchn,
     TheNutritiousKitchen.host(): TheNutritiousKitchen,
