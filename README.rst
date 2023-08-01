@@ -189,6 +189,7 @@ Scrapers available for:
 - `https://indianhealthyrecipes.com <https://www.indianhealthyrecipes.com>`_
 - `https://www.innit.com/ <https://www.innit.com/>`_
 - `https://inspiralized.com/ <https://inspiralized.com>`_
+- `https://izzycooking.com/ <https://izzycooking.com/>`_
 - `https://jamieoliver.com/ <https://jamieoliver.com>`_
 - `https://jimcooksfoodgood.com/ <https://jimcooksfoodgood.com/>`_
 - `https://joyfoodsunshine.com/ <https://joyfoodsunshine.com>`_
