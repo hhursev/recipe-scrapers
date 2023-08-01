@@ -224,6 +224,7 @@ from .theexpertguides import TheExpertGuides
 from .thehappyfoodie import TheHappyFoodie
 from .thekitchenmagpie import TheKitchenMagPie
 from .thekitchn import TheKitchn
+from .themodernproper import TheModernProper
 from .thenutritiouskitchen import TheNutritiousKitchen
 from .thepioneerwoman import ThePioneerWoman
 from .therecipecritic import Therecipecritic
@@ -500,6 +501,7 @@ SCRAPERS = {
     TheHappyFoodie.host(): TheHappyFoodie,
     TheKitchenMagPie.host(): TheKitchenMagPie,
     TheKitchn.host(): TheKitchn,
+    TheModernProper.host(): TheModernProper,
     TheNutritiousKitchen.host(): TheNutritiousKitchen,
     ThePioneerWoman.host(): ThePioneerWoman,
     TheSpruceEats.host(): TheSpruceEats,
