@@ -217,6 +217,7 @@ Scrapers available for:
 - `https://www.maangchi.com <https://www.maangchi.com>`_
 - `https://madensverden.dk/ <https://madensverden.dk/>`_
 - `https://www.madewithlau.com/ <https://www.madewithlau.com/>`_
+- `https://madsvin.com/ <https://madsvin.com/>`_
 - `https://marleyspoon.com.au/ <https://marleyspoon.com.au/>`_
 - `https://marleyspoon.com/ <https://marleyspoon.com/>`_
 - `https://marleyspoon.de/ <https://marleyspoon.de/>`_
