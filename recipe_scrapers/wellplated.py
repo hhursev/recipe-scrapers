@@ -28,8 +28,6 @@ class WellPlated(AbstractScraper):
 
     def instructions(self):
         instructions = self.schema.instructions()
-        if isinstance(instructions, list):
-            instructions = "\n".join(instructions)
         return instructions
 
     def ratings(self):
