@@ -309,6 +309,7 @@ Scrapers available for:
 - `https://theexpertguides.com/ <https://theexpertguides.com>`_
 - `https://thehappyfoodie.co.uk/ <https://thehappyfoodie.co.uk>`_
 - `https://www.thekitchenmagpie.com/ <https://www.thekitchenmagpie.com>`_
+- `https://thekitchencommunity.org/ <hhttps://thekitchencommunity.org/>`_
 - `https://thekitchn.com/ <https://thekitchn.com/>`_
 - `https://themodernproper.com/ <https://themodernproper.com/>`_
 - `https://thenutritiouskitchen.co/ <https://thenutritiouskitchen.co/>`_
