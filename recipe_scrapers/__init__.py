@@ -143,6 +143,7 @@ from .meljoulwan import Meljoulwan
 from .melskitchencafe import MelsKitchenCafe
 from .mindmegette import Mindmegette
 from .minimalistbaker import Minimalistbaker
+from .ministryofcurry import MinistryOfCurry
 from .misya import Misya
 from .mobkitchen import MobKitchen
 from .momswithcrockpots import MomsWithCrockPots
@@ -412,6 +413,7 @@ SCRAPERS = {
     MelsKitchenCafe.host(): MelsKitchenCafe,
     Mindmegette.host(): Mindmegette,
     Minimalistbaker.host(): Minimalistbaker,
+    MinistryOfCurry.host(): MinistryOfCurry,
     Misya.host(): Misya,
     MobKitchen.host(domain="mob.co.uk"): MobKitchen,
     MobKitchen.host(domain="mobkitchen.co.uk"): MobKitchen,
