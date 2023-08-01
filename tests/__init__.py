@@ -20,9 +20,38 @@ class ScraperTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
+        if cls == ScraperTest:
+            # Only modify setUpClass if subclass of ScraperTest
+            return super().setUpClass()
+
         start_url = f"https://{cls.scraper_class.host()}/"
         for path in cls.expected_requests():
             with open(path, encoding="utf-8") as f:
                 html = f.read()
 
         cls.harvester_class = cls.scraper_class(url=start_url, html=html)
+
+    def run(self, result=None):
+        """
+        Python's unittest (default) test runner will want to run tests
+        from a class/module if there are test_* methods in it.
+
+        We don't want this to be the case with ScraperTest though.
+        We also don't want to flood our logs with loads of "skips".
+
+        Overwrite the default built-in runner in this case
+        and make it not attempting a run at all.
+        """
+        if self.__class__ == ScraperTest:
+            return None
+
+        super().run(result)
+
+    def test_consistent_ingredients_lists(self):
+        # Assert that the ingredients returned by the ingredient_groups() function
+        # are the same as the ingredients return by the ingredients() function.
+        grouped = []
+        for group in self.harvester_class.ingredient_groups():
+            grouped.extend(group.ingredients)
+
+        self.assertEqual(sorted(self.harvester_class.ingredients()), sorted(grouped))

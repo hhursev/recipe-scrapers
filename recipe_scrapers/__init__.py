@@ -29,6 +29,7 @@ from .bettycrocker import BettyCrocker
 from .biancazapatka import BiancaZapatka
 from .bigoven import BigOven
 from .blueapron import BlueApron
+from .bluejeanchef import BlueJeanChef
 from .bodybuilding import Bodybuilding
 from .bonappetit import BonAppetit
 from .bongeats import BongEats
@@ -107,6 +108,7 @@ from .imworthy import ImWorthy
 from .indianhealthyrecipes import IndianHealthyRecipes
 from .innit import Innit
 from .inspiralized import Inspiralized
+from .izzycooking import IzzyCooking
 from .jamieoliver import JamieOliver
 from .jimcooksfoodgood import JimCooksFoodGood
 from .joyfoodsunshine import Joyfoodsunshine
@@ -117,6 +119,7 @@ from .kennymcgovern import KennyMcGovern
 from .kingarthur import KingArthur
 from .kitchenstories import KitchenStories
 from .kochbar import Kochbar
+from .kochbucher import Kochbucher
 from .koket import Koket
 from .kuchniadomowa import KuchniaDomowa
 from .kwestiasmaku import KwestiaSmaku
@@ -131,6 +134,7 @@ from .lovingitvegan import Lovingitvegan
 from .maangchi import Maangchi
 from .madensverden import MadensVerden
 from .madewithlau import MadeWithLau
+from .madsvin import Madsvin
 from .marmiton import Marmiton
 from .marthastewart import MarthaStewart
 from .matprat import Matprat
@@ -138,6 +142,7 @@ from .meljoulwan import Meljoulwan
 from .melskitchencafe import MelsKitchenCafe
 from .mindmegette import Mindmegette
 from .minimalistbaker import Minimalistbaker
+from .ministryofcurry import MinistryOfCurry
 from .misya import Misya
 from .mobkitchen import MobKitchen
 from .momswithcrockpots import MomsWithCrockPots
@@ -213,10 +218,13 @@ from .tastykitchen import TastyKitchen
 from .theclevercarrot import TheCleverCarrot
 from .theexpertguides import TheExpertGuides
 from .thehappyfoodie import TheHappyFoodie
+from .thekitchencommunity import TheKitchenCommunity
 from .thekitchenmagpie import TheKitchenMagPie
 from .thekitchn import TheKitchn
+from .themodernproper import TheModernProper
 from .thenutritiouskitchen import TheNutritiousKitchen
 from .thepioneerwoman import ThePioneerWoman
+from .therecipecritic import Therecipecritic
 from .thespruceeats import TheSpruceEats
 from .thevintagemixer import TheVintageMixer
 from .thewoksoflife import Thewoksoflife
@@ -228,6 +236,7 @@ from .usapears import USAPears
 from .usdamyplate import USDAMyPlate
 from .valdemarsro import Valdemarsro
 from .vanillaandbean import VanillaAndBean
+from .vegetarbloggen import Vegetarbloggen
 from .vegolosi import Vegolosi
 from .vegrecipesofindia import VegRecipesOfIndia
 from .watchwhatueat import WatchWhatUEat
@@ -266,6 +275,7 @@ SCRAPERS = {
     BiancaZapatka.host(): BiancaZapatka,
     BigOven.host(): BigOven,
     BlueApron.host(): BlueApron,
+    BlueJeanChef.host(): BlueJeanChef,
     Bodybuilding.host(): Bodybuilding,
     BonAppetit.host(): BonAppetit,
     BowlOfDelicious.host(): BowlOfDelicious,
@@ -361,6 +371,7 @@ SCRAPERS = {
     IndianHealthyRecipes.host(): IndianHealthyRecipes,
     Innit.host(): Innit,
     Inspiralized.host(): Inspiralized,
+    IzzyCooking.host(): IzzyCooking,
     JamieOliver.host(): JamieOliver,
     JimCooksFoodGood.host(): JimCooksFoodGood,
     Joyfoodsunshine.host(): Joyfoodsunshine,
@@ -371,6 +382,7 @@ SCRAPERS = {
     KingArthur.host(): KingArthur,
     KitchenStories.host(): KitchenStories,
     Kochbar.host(): Kochbar,
+    Kochbucher.host(): Kochbucher,
     Koket.host(): Koket,
     KuchniaDomowa.host(): KuchniaDomowa,
     KwestiaSmaku.host(): KwestiaSmaku,
@@ -385,6 +397,7 @@ SCRAPERS = {
     Maangchi.host(): Maangchi,
     MadensVerden.host(): MadensVerden,
     MadeWithLau.host(): MadeWithLau,
+    Madsvin.host(): Madsvin,
     Marmiton.host(): Marmiton,
     MarthaStewart.host(): MarthaStewart,
     Matprat.host(): Matprat,
@@ -392,6 +405,7 @@ SCRAPERS = {
     MelsKitchenCafe.host(): MelsKitchenCafe,
     Mindmegette.host(): Mindmegette,
     Minimalistbaker.host(): Minimalistbaker,
+    MinistryOfCurry.host(): MinistryOfCurry,
     Misya.host(): Misya,
     MobKitchen.host(domain="mob.co.uk"): MobKitchen,
     MobKitchen.host(domain="mobkitchen.co.uk"): MobKitchen,
@@ -470,12 +484,15 @@ SCRAPERS = {
     TheCleverCarrot.host(): TheCleverCarrot,
     TheExpertGuides.host(): TheExpertGuides,
     TheHappyFoodie.host(): TheHappyFoodie,
+    TheKitchenCommunity.host(): TheKitchenCommunity,
     TheKitchenMagPie.host(): TheKitchenMagPie,
     TheKitchn.host(): TheKitchn,
+    TheModernProper.host(): TheModernProper,
     TheNutritiousKitchen.host(): TheNutritiousKitchen,
     ThePioneerWoman.host(): ThePioneerWoman,
     TheSpruceEats.host(): TheSpruceEats,
     TheVintageMixer.host(): TheVintageMixer,
+    Therecipecritic.host(): Therecipecritic,
     Thewoksoflife.host(): Thewoksoflife,
     TimesOfIndia.host(): TimesOfIndia,
     TineNo.host(): TineNo,
@@ -486,6 +503,7 @@ SCRAPERS = {
     Valdemarsro.host(): Valdemarsro,
     VanillaAndBean.host(): VanillaAndBean,
     VegRecipesOfIndia.host(): VegRecipesOfIndia,
+    Vegetarbloggen.host(): Vegetarbloggen,
     Vegolosi.host(): Vegolosi,
     WatchWhatUEat.host(): WatchWhatUEat,
     WeightWatchers.host(): WeightWatchers,

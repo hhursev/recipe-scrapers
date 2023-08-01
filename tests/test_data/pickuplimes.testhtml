@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Cinnamon-Spiced Orange &amp; Thyme Mocktail | Pick Up Limes</title>
+<title>Vegan &quot;Honey&quot; Mustard Tofu Wraps | Pick Up Limes</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -17,35 +18,35 @@
 <link rel="manifest" href="/static/favicon/site.b9aa277fcfc3.webmanifest">
 <meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="/static/css/pul_website_styles.8375b49bc24d.css">
+<link rel="stylesheet" href="/static/css/pul_website_styles.6d50e715b762.css">
 <link rel="stylesheet" href="/static/css/up_btn.1ae2f271b26a.css">
 <script src="/static/javascript/jquery-3.5.1.min.dc5e7f18c8d3.js" defer></script>
 <script src="/static/javascript/bootstrap.bundle.min.7f389f5d2622.js" defer></script>
-<script src="/static/javascript/nav_scroll.004aaf6b0a25.js" defer></script>
+<script src="/static/javascript/nav_scroll.9c9387db218e.js" defer></script>
 <script src="/static/javascript/up_btn.52f28d1ec96e.js" defer></script>
 <script src="/static/javascript/general.d0bfb9371e93.js" defer></script>
-<script id="ez-consent" type="text/javascript" src="https://cdn.jsdelivr.net/npm/ez-consent@1/dist/ez-consent.min.js"></script>
-<script src="/static/javascript/cookies_consent.eb4413704ac4.js" defer></script>
-<link rel="stylesheet" href="/static/css/cookies_consent.dc6734e0eebb.css">
-<meta name="description" content="The sweet oranges bring a lovely citrus flavour to this drink, while the cinnamon gives a hint of warmth and the thyme brings a savoury taste. This drink fits perfectly into any season, but when the glass is decorated well, it will turn this mocktail into an extra festive one." />
+<meta name="description" content="These wraps are not only visually appealing but also full of surprising flavours. We prepare our own crunchy tofu strips, sweet and tangy honey mustard sauce, and vegan coleslaw. Paired with a medley of fresh and crisp vegetables, you&#39;ve got yourself a wrap that&#39;s nothing short of perfection!" />
 <meta property="og:site_name" content="Pick Up Limes">
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Cinnamon-Spiced Orange &amp; Thyme Mocktail" />
-<meta property="og:description" content="The sweet oranges bring a lovely citrus flavour to this drink, while the cinnamon gives a hint of warmth and the thyme brings a savoury taste. This drink fits perfectly into any season, but when the glass is decorated well, it will turn this mocktail into an extra festive one." />
-<meta property="og:image" content="https://cdn.pickuplimes.com/cache/59/fa/59fa54fe5af3fcf01f0df5cd6d6522e4.jpg">
-<meta property="og:url" content="http://www.pickuplimes.com/recipe/cinnamon-spiced-orange-thyme-mocktail-1258">
+<meta property="og:title" content="Vegan &quot;Honey&quot; Mustard Tofu Wraps" />
+<meta property="og:description" content="These wraps are not only visually appealing but also full of surprising flavours. We prepare our own crunchy tofu strips, sweet and tangy honey mustard sauce, and vegan coleslaw. Paired with a medley of fresh and crisp vegetables, you&#39;ve got yourself a wrap that&#39;s nothing short of perfection!" />
+<meta property="og:image" content="https://cdn.pickuplimes.com/cache/3e/4e/3e4e431703ab68a88c5a29a397a275eb.jpg">
+<meta property="og:url" content="http://www.pickuplimes.com/recipe/vegan-honey-mustard-tofu-wraps-1448">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image:alt" content="A close-up photo of Cinnamon-Spiced Orange &amp; Thyme Mocktail">
-<link rel="stylesheet" href="/static/css/recipe_styles.5eda8085bf90.css">
+<meta name="twitter:image:alt" content="A close-up photo of Vegan &quot;Honey&quot; Mustard Tofu Wraps">
+<meta name="apple-itunes-app" content="app-id=1618589011, app-argument=http://www.pickuplimes.com/recipe/vegan-honey-mustard-tofu-wraps-1448">
+<link rel="stylesheet" href="/static/css/recipe_styles.39ab89cfd91d.css">
 <link rel="stylesheet" href="/static/css/carousel.d20d9026fecb.css">
 <link rel="stylesheet" href="/static/css/comment_styles.6fa6930380ad.css">
-<link rel="stylesheet" href="/static/css/share_socials_styles.5e28d212fd65.css">
+<link rel="stylesheet" href="/static/css/share_socials_styles.eb00218710b4.css">
+<script async src="https://cdn.fuseplatform.net/publift/tags/2/3214/fuse.js"></script>
 <script src="/static/javascript/recipe_detail_script.6ddc5748cfee.js" defer></script>
 <script src="/static/javascript/share_socials_script.6aa3d30e0300.js" defer></script>
 <script src="/static/javascript/carousel.9dbcd7e5d603.js" defer></script>
 <script src="/static/javascript/recipe_allergens_2.63a75017707e.js" defer></script>
 <script src="/static/javascript/comment_script.e6c8e95e1dd5.js" defer></script>
-<script src="/static/javascript/recipe_amazon_fresh.fa5d7005fa90.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/qrcode-svg@1.1.0/lib/qrcode.min.js"></script>
+<script src="/static/javascript/recipe_qr.f9a10a818707.js" defer></script>
 <script src="//assets.pinterest.com/js/pinit.js" async defer></script>
 <script async data-pin-hover="true" data-pin-tall="true" data-pin-round="true" src="//assets.pinterest.com/js/pinit.js"></script>
 
@@ -55,50 +56,62 @@
   "@type": "Recipe",
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingCount": "9",
-    "ratingValue": "4.9"
+    "ratingCount": "25",
+    "ratingValue": "4.8"
   },
-  "name": "Cinnamon-Spiced Orange &amp; Thyme Mocktail",
-  "image": [ "https://cdn.pickuplimes.com/cache/42/6f/426f6a364519b60424e36e0563858649.jpg",
-             "https://cdn.pickuplimes.com/cache/6b/b1/6bb12cbddca597d2ec418f394ab4154b.jpg",
-             "https://cdn.pickuplimes.com/cache/2d/c2/2dc230cef3ef5b1f54d656f97c708108.jpg"
+  "name": "Vegan &quot;Honey&quot; Mustard Tofu Wraps",
+  "image": [ "https://cdn.pickuplimes.com/cache/8e/5b/8e5b4da2c59d5acde583334469ed79bf.jpg",
+             "https://cdn.pickuplimes.com/cache/90/fd/90fd10d2a226d747e7d14f9a73b90660.jpg",
+             "https://cdn.pickuplimes.com/cache/e2/ba/e2bab670e0279fe5fc67a5e5253dde6a.jpg"
   ],
   
   "author": {
     "@type": "Person",
     "name": "Pick Up Limes"
   },
-  "datePublished": "Dec. 19, 2022, 1:26 p.m.",
-  "description": "The sweet oranges bring a lovely citrus flavour to this drink, while the cinnamon gives a hint of warmth and the thyme brings a savoury taste. This drink fits perfectly into any season, but when the glass is decorated well, it will turn this mocktail into an extra festive one.",
-  "prepTime": "PT10M",
-  "cookTime": "PT05M",
-  "totalTime": "PT20M",
-  "recipeYield": "4 servings",
-  "recipeCategory": "Drink",
-  "recipeCuisine": "",
-  "keywords": "10 ingredients or less, soy free, peanut free, tree nut free, sesame free, gluten free, vegan, vegetarian, plant-based",
+  "datePublished": "June 25, 2023, 4:18 p.m.",
+  "description": "These wraps are not only visually appealing but also full of surprising flavours. We prepare our own crunchy tofu strips, sweet and tangy honey mustard sauce, and vegan coleslaw. Paired with a medley of fresh and crisp vegetables, you&#39;ve got yourself a wrap that&#39;s nothing short of perfection!",
+  "prepTime": "PT20M",
+  "cookTime": "PT10M",
+  "totalTime": "PT30M",
+  "recipeYield": "5 wraps",
+  "recipeCategory": "Main",
+  "recipeCuisine": "American-inspired",
+  "keywords": "peanut free, tree nut free, sesame free, vegan, vegetarian, plant-based",
   "recipeIngredient": [
-        "&#189; cup water",
-"&#188; cup maple syrup",
-"4 sprig fresh thyme",
-"&#189; tsp ground cinnamon",
-"2 Tbsp freshly grated ginger",
-"&#189; lemon",
-"2 cup ice cube",
-"2 cup orange juice",
-"2 cup ginger ale"
+        "15.873 oz firm tofu",
+"&#188; cup cornstarch",
+"2 Tbsp cold water",
+" sodium-reduced soy sauce",
+"&#8532; cup panko breadcrumbs",
+"2 Tbsp nutritional yeast flakes",
+"&#189; tsp garlic powder",
+"&#189; tsp smoked sweet paprika powder",
+"2 Tbsp vegetable oil",
+"&#8531; cup maple syrup",
+"&#8531; cup dijon mustard",
+"&#188; cup vegan mayonnaise",
+" apple cider vinegar",
+"&#188; tsp salt",
+"1 cup shredded red cabbage",
+"1 cup shredded green cabbage",
+"1 carrot",
+"5 large soft tortilla",
+"&#189; head butter lettuce",
+"2 medium tomato"
        ]
 }
 </script>
 
 <script src="/static/javascript/recipe_instacart.4384b8b03f2f.js" defer></script>
-<scrip async src="https://www.googletagmanager.com/gtag/js?id=G-0M0C61LDG0"></scrip>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6114487152877035" crossorigin="anonymous"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FN241LRYSD"></script>
 <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-0M0C61LDG0');
+
+      gtag('config', 'G-FN241LRYSD');
     </script>
 </head>
 <body>
@@ -133,6 +146,9 @@
 </a>
 <div class="collapse navbar-collapse w-100">
 <ul class="nav navbar-nav ml-auto topnav">
+<li class="nav-item">
+<a class="nav-link pulse" href="/mobile-app">App</a>
+</li>
 <li class="nav-item">
 <a class="nav-link" href="/shop/?filter=Kitchen">Shop</a>
 </li>
@@ -191,11 +207,21 @@
 
 <div class="row">
 
-<div class="col-lg-5" id="main-image-container" style="padding-right: 0rem; padding-left: 0rem; display: flex; align-items: center;">
-<img class="img-fluid" style="width: 100%;" src="https://cdn.pickuplimes.com/cache/fe/b5/feb5282f764dedfbf20d36b7fd0adcdb.jpg" srcset="  https://cdn.pickuplimes.com/cache/fe/b5/feb5282f764dedfbf20d36b7fd0adcdb.jpg 1280w,
-      https://cdn.pickuplimes.com/cache/e1/e2/e1e21b3e6ef8fc0b194ae79f6ac863a5.jpg 800w,
-      https://cdn.pickuplimes.com/cache/16/1e/161ec1cc8da0d6dc5621c747f6fd24a4.jpg 500w,
-      https://cdn.pickuplimes.com/cache/ff/3d/ff3d8d3070c0d8029b1ce04b974f84a3.jpg 349w" alt="Main image of Cinnamon-Spiced Orange &amp; Thyme Mocktail" sizes="(max-width: 768px) 90vw, 40vw">
+<div class="col-lg-5" id="main-image-container">
+<div id="main-image-inner-cnt">
+<img class="img-fluid" style="width: 100%;" src="https://cdn.pickuplimes.com/cache/e8/00/e800c2a06ce383a8e2ddab009da13838.jpg" srcset="  https://cdn.pickuplimes.com/cache/e8/00/e800c2a06ce383a8e2ddab009da13838.jpg 1280w,
+      https://cdn.pickuplimes.com/cache/8b/20/8b204679c9962959868ccf27d2466d2e.jpg 800w,
+      https://cdn.pickuplimes.com/cache/97/9d/979d97e954be26d7e3d28a47ffc2a547.jpg 500w,
+      https://cdn.pickuplimes.com/cache/d2/ae/d2ae6c46ffa6ee42ccd50d444e45af3b.jpg 349w" alt="Main image of Vegan &quot;Honey&quot; Mustard Tofu Wraps" sizes="(max-width: 768px) 90vw, 40vw">
+<div id="qr-btn-cnt">
+<div id="qr-btn" class="btn">
+<p>View on phone</p>
+</div>
+</div>
+<div id="qr-cnt">
+<div id="qr-code"></div>
+</div>
+</div>
 </div>
 
 <div class="col-lg-1 space-cols" id="header-space-col"></div>
@@ -203,30 +229,25 @@
 <div class="col-lg-5" id="header-info-col" align="left">
 <div>
 <header>
-<h1>Cinnamon-Spiced Orange &amp; Thyme Mocktail</h1>
-<div class="badge badge-d-red total_time_add" data-value="1200">
+<h1>Vegan &quot;Honey&quot; Mustard Tofu Wraps</h1>
+<div class="badge badge-d-red total_time_add" data-value="1800">
 <p>
 <svg width=".9em" height=".9em" viewBox="0 0 16 16" class="bi bi-clock" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z" />
 <path fill-rule="evenodd" d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
 </svg>
-20 min
+30 min
 </p>
 </div>
-<a href="/recipe/?meal_type=9&filter=Filter">
+<a href="/recipe/?meal_type=2&filter=Filter">
 <div class="badge badge-d-green">
-<p>Drink</p>
-</div>
-</a>
-<a href="/recipe/?specific_type=6&filter=Filter">
-<div class="badge badge-d-green">
-<p>10 ingredients or less</p>
+<p>Main</p>
 </div>
 </a>
 <div id="socials-parent-cont">
 
 <div class="share-icon">
-<a href="https://facebook.com/sharer/sharer.php?u=www.pickuplimes.com/recipe/cinnamon-spiced-orange-thyme-mocktail-1258" target="_blank" rel="noopener" aria-label="Share this recipe on Facebook.">
+<a href="https://facebook.com/sharer/sharer.php?u=www.pickuplimes.com/recipe/vegan-honey-mustard-tofu-wraps-1448" target="_blank" rel="noopener" aria-label="Share this recipe on Facebook.">
 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
 <title>Facebook icon</title><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z" /></svg>
 </a>
@@ -242,7 +263,7 @@
 </div>
 
 <div class="share-icon">
-<a href="https://twitter.com/intent/tweet/?text=&amp;url=www.pickuplimes.com/recipe/cinnamon-spiced-orange-thyme-mocktail-1258" target="_blank" rel="noopener" aria-label="Share this recipe on Twitter.">
+<a href="https://twitter.com/intent/tweet/?text=&amp;url=www.pickuplimes.com/recipe/vegan-honey-mustard-tofu-wraps-1448" target="_blank" rel="noopener" aria-label="Share this recipe on Twitter.">
 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
 <title>Twitter icon</title><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z" />
 </svg>
@@ -251,7 +272,7 @@
 </div>
 
 <div class="share-icon">
-<a href="/cdn-cgi/l/email-protection#9ca3efe9fef6f9ffe8a1bafdf1eca7fef3f8e5a1ebebebb2ecf5fff7e9ecf0f5f1f9efb2fff3f1b3eef9fff5ecf9b3fff5f2f2fdf1f3f2b1efecf5fff9f8b1f3eefdf2fbf9b1e8f4e5f1f9b1f1f3fff7e8fdf5f0b1adaea9a4" target="_self" rel="noopener" aria-label="Send link to this recipe by email.">
+<a href="/cdn-cgi/l/email-protection#56692523343c3335226b70373b266d3439322f6b21212178263f353d23263a3f3b33257835393b792433353f26337920333137387b3e3938332f7b3b2325223724327b223930237b21243726257b6762626e" target="_self" rel="noopener" aria-label="Send link to this recipe by email.">
 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
 <title>Email icon</title><path d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17 0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1 0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08 0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z" />
 </svg>
@@ -286,22 +307,23 @@
 </svg>
 </label>
 </form>
-<p class="icon-sub-text">support</p>
+<p class="icon-sub-text mb-0">support</p>
 </div>
 </div>
-<span class="abstract-text" align="left">The sweet oranges bring a lovely citrus flavour to this drink, while the cinnamon gives a hint of warmth and the thyme brings a savoury taste. This drink fits perfectly into any season, but when the glass is decorated well, it will turn this mocktail into an extra festive one.</span>
+<span class="abstract-text" align="left">These wraps are not only visually appealing but also full of surprising flavours. We prepare our own crunchy tofu strips, sweet and tangy honey mustard sauce, and vegan coleslaw. Paired with a medley of fresh and crisp vegetables, you've got yourself a wrap that's nothing short of perfection!</span>
 </header>
 <div id="recipe-info-container" class="row" style="padding-top: 30px;" align="center">
 <div class="col servings-scaling">
-<h3 class="servings-header" value="4">
-Servings</h3>
+<h3 class="servings-header" value="5">
+<span style="text-transform: capitalize;">wraps</span>
+</h3>
 <div class="input-group">
 <span class="input-group-btn">
 <button type="button" class="btn btn-left btn-d-green-open btn-number" data-type="minus" data-field="quant[1]">
 <span class="glyphicon glyphicon-minus">-</span>
 </button>
 </span>
-<input type="text" name="quant[1]" class="form-control input-number" value="4" min="1" max="999" aria-label="Number of servings input">
+<input type="text" name="quant[1]" class="form-control input-number" value="5" min="1" max="999" aria-label="Number of servings input">
 <span class="input-group-btn">
 <button type="button" class="btn btn-right btn-d-green-open btn-number" data-type="plus" data-field="quant[1]">
 <span class="glyphicon glyphicon-plus">+</span>
@@ -309,20 +331,45 @@ Servings</h3>
 </span>
 </div>
 </div>
-<div class="col"><h3>Total</h3><span style="font-weight: 400;">20 min</span></div>
-<div class="col"><h3>Prep</h3> 10 min</div>
-<div class="col"><h3>Cook</h3> 5 min</div>
-<div class="col"><h3>Cool</h3> 5 min</div>
+<div class="col"><h3>Total</h3><span style="font-weight: 400;">30 min</span></div>
+<div class="col"><h3>Prep</h3> 20 min</div>
+<div class="col"><h3>Cook</h3> 10 min</div>
 </div>
 
 <div id="allergen-info-container" style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+<div class="allergy-info-cont" style="background-color: var(--col-red-5)">
+<h3 class="allergen-title">Contains</h3>
+<div style="display: flex; justify-content: space-evenly;">
+<div class="allergen-icon-cont" id="soy-not-free" state="0">
+<img data-pin-nopin="true" class="allergen-not-free allergen-img" src="/static/images/allergy_symbols/Soy_icon_v03_200.abfad0d53965.png" alt="Soy symbol" title="Soy symbol">
+<p class="allergen-info">soy</p>
+<div style="position: absolute; right: 0; bottom: 0;" class="badge badge-circle badge-d-red badge-icon-container" title="show"><div style="position: absolute; top: 50%;left: 50%; transform: translate(-50%, -50%);">
+<svg width="1.2em" height="1.2em" viewBox="0 0 16 16" class="bi bi-eye" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.134 13.134 0 0 0 1.66 2.043C4.12 11.332 5.88 12.5 8 12.5c2.12 0 3.879-1.168 5.168-2.457A13.134 13.134 0 0 0 14.828 8a13.133 13.133 0 0 0-1.66-2.043C11.879 4.668 10.119 3.5 8 3.5c-2.12 0-3.879 1.168-5.168 2.457A13.133 13.133 0 0 0 1.172 8z" />
+<path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+</svg>
+</div></div>
+</div>
+</div>
+</div>
+<div class="allergy-info-cont" style="background-color: var(--col-red-4);">
+<h3 class="allergen-title">Swap out</h3>
+<div style="display: flex; justify-content: space-evenly;">
+<div class="allergen-icon-cont" state="3" id="gluten-free-possible">
+<img data-pin-nopin="true" class="allergen-free-possible allergen-img" src="/static/images/allergy_symbols/Gluten_icon_v01_200.e97ca7118e0d.png" alt="Gluten symbol" title="Gluten symbol">
+<p class="allergen-info">gluten</p>
+<div class="badge badge-circle badge-d-green badge-icon-container" title="swap out"><div style="position: absolute; top: 50%;left: 50%; transform: translate(-50%, -50%);">
+<svg width="1.2em" height="1.2em" viewBox="0 0 15 15" class="bi bi-arrow-repeat" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z" />
+<path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z" />
+</svg>
+</div></div>
+</div>
+</div>
+</div>
 <div class="allergy-info-cont" style="background-color: var(--col-green-5);">
 <h3 class="allergen-title">Free from</h3>
 <div style="display: flex; justify-content: space-evenly;">
-<div class="allergen-icon-cont">
-<img data-pin-nopin="true" class="allergen-free allergen-img" src="/static/images/allergy_symbols/Soy_icon_v03_200.abfad0d53965.png" alt="Soy symbol" title="Soy symbol">
-<p class="allergen-info">soy</p>
-</div>
 <div class="allergen-icon-cont">
 <img data-pin-nopin="true" class="allergen-free allergen-img" src="/static/images/allergy_symbols/Peanut_icon_v02_200.b4c263b0de8e.png" alt="Peanut symbol" title="Peanut symbol">
 <p class="allergen-info">peanut</p>
@@ -334,10 +381,6 @@ Servings</h3>
 <div class="allergen-icon-cont">
 <img data-pin-nopin="true" class="allergen-free allergen-img" src="/static/images/allergy_symbols/Sesame_icon_v01_200.6b6fe61f49f8.png" alt="Sesame symbol" title="Sesame symbol">
 <p class="allergen-info">sesame</p>
-</div>
-<div class="allergen-icon-cont">
-<img data-pin-nopin="true" class="allergen-free allergen-img" src="/static/images/allergy_symbols/Gluten_icon_v01_200.e97ca7118e0d.png" alt="Gluten symbol" title="Gluten symbol">
-<p class="allergen-info">gluten</p>
 </div>
 </div>
 </div>
@@ -352,12 +395,8 @@ Servings</h3>
 <div class="mobile row row-pt pb-4" align="left">
 <div class="col-md-1"></div>
 <div class="col-md-10">
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6114487152877035" crossorigin="anonymous"></script>
 
-<ins class="adsbygoogle" style="display:block" align="center" data-ad-client="ca-pub-6114487152877035" data-ad-slot="2657519558" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+<div data-fuse="22907156297" style="min-height: 50px"></div>
 </div>
 <div class="col-md-1"></div>
 </div>
@@ -377,7 +416,7 @@ Servings</h3>
 <div id="side-social-rounded-bg">
 
 <div class="share-icon">
-<a href="https://facebook.com/sharer/sharer.php?u=www.pickuplimes.com/recipe/cinnamon-spiced-orange-thyme-mocktail-1258" target="_blank" rel="noopener" aria-label="Share this recipe on Facebook.">
+<a href="https://facebook.com/sharer/sharer.php?u=www.pickuplimes.com/recipe/vegan-honey-mustard-tofu-wraps-1448" target="_blank" rel="noopener" aria-label="Share this recipe on Facebook.">
 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
 <title>Facebook icon</title><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z" /></svg>
 </a>
@@ -393,7 +432,7 @@ Servings</h3>
 </div>
 
 <div class="share-icon">
-<a href="https://twitter.com/intent/tweet/?text=&amp;url=www.pickuplimes.com/recipe/cinnamon-spiced-orange-thyme-mocktail-1258" target="_blank" rel="noopener" aria-label="Share this recipe on Twitter.">
+<a href="https://twitter.com/intent/tweet/?text=&amp;url=www.pickuplimes.com/recipe/vegan-honey-mustard-tofu-wraps-1448" target="_blank" rel="noopener" aria-label="Share this recipe on Twitter.">
 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
 <title>Twitter icon</title><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z" />
 </svg>
@@ -402,7 +441,7 @@ Servings</h3>
 </div>
 
 <div class="share-icon">
-<a href="/cdn-cgi/l/email-protection#0d327e786f67686e79302b6c607d366f626974307a7a7a237d646e66787d616460687e236e6260227f686e647d68226e6463636c606263207e7d646e686920627f6c636a682079657460682060626e66796c6461203c3f3835" target="_self" rel="noopener" aria-label="Send link to this recipe by email.">
+<a href="/cdn-cgi/l/email-protection#c3fcb0b6a1a9a6a0b7fee5a2aeb3f8a1aca7bafeb4b4b4edb3aaa0a8b6b3afaaaea6b0eda0acaeecb1a6a0aab3a6ecb5a6a4a2adeeabacada6baeeaeb6b0b7a2b1a7eeb7aca5b6eeb4b1a2b3b0eef2f7f7fb" target="_self" rel="noopener" aria-label="Send link to this recipe by email.">
 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
 <title>Email icon</title><path d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17 0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1 0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08 0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z" />
 </svg>
@@ -437,7 +476,7 @@ Servings</h3>
 </svg>
 </label>
 </form>
-<p class="icon-sub-text">support</p>
+<p class="icon-sub-text mb-0">support</p>
 </div>
 </div>
 </div>
@@ -445,19 +484,19 @@ Servings</h3>
 </div>
 </div>
 
-<div class="col-lg-4 pt-4 pb-4 ingredientlist" num_lists="1">
+<div class="col-lg-4 pt-4 pb-4 ingredientlist" num_lists="3">
 <section style="position: sticky; top: 10rem;">
 <h2>Ingredients</h2>
+<h3 class="pt-3">Tofu tenders</h3>
 <ul class="list-unstyled pl-4 ingredient-list-1">
 <li>
 <div class="ingredient-container" state="1">
-<span class="ingredient-amount-text-1" type="cup" value="0.5">
-&#189;
-cup
+<span class="ingredient-amount-text-1" type="oz" value="15.873">
+16 oz
 </span>
-<span class="ingredient-amount-metric-text-1" value="120.0" type="liquid">(120 mL)</span>
-<div class="ingredient" data-num="11" data-name="water">
-<span class="ingredient-name-text">water</span>
+<span class="ingredient-amount-metric-text-1" value="450.0" type="solid">(450 g)</span>
+<div class="ingredient" data-num="11" data-name="firm tofu" data-soy-free="0" data-amz-name="firm tofu" data-amz-brand="None" data-amz-asin="None">
+<span class="ingredient-name-text">firm tofu</span><span>, pressed</span>
 </div>
 </div>
 </li>
@@ -467,120 +506,241 @@ cup
 &#188;
 cup
 </span>
-<span class="ingredient-amount-metric-text-2" value="60.0" type="liquid">(60 mL)</span>
-<div class="ingredient" data-num="12" data-name="maple syrup" data-amz-name="maple syrup" data-amz-brand="365 by Whole Foods Market" data-amz-asin="B074HBWKFN">
+<span class="ingredient-amount-metric-text-2" value="32.0" type="solid">(32 g)</span>
+<div class="ingredient" data-num="12" data-name="cornstarch" data-amz-name="cornstarch" data-amz-brand="ARGO" data-amz-asin="B00JPT9BFW" data-plural-name="cornstarch">
+<span class="ingredient-name-text">cornstarch</span>
+</div>
+</div>
+</li>
+<li>
+<div class="ingredient-container" state="1">
+<span class="ingredient-amount-text-3" type="cup" value="0.125">
+2 Tbsp
+</span>
+<span class="ingredient-amount-metric-text-3" value="30.0" type="liquid">(30 mL)</span>
+<div class="ingredient" data-num="13" data-name="cold water" data-amz-name="water" data-amz-brand="None" data-amz-asin="None" data-plural-name="cold water">
+<span class="ingredient-name-text">cold water</span>
+</div>
+</div>
+</li>
+<li>
+<div class="ingredient-container" state="1">
+<span class="ingredient-amount-text-4" type="cup" value="0.041666666666666664">
+2 tsp
+</span>
+<span class="ingredient-amount-metric-text-4" value="10.0" type="liquid">(10 mL)</span>
+<div class="ingredient" data-num="14" data-name="sodium-reduced soy sauce" data-soy-free="0" data-gluten-free="0" data-amz-name="soy sauce" data-amz-brand="Kikkoman" data-amz-asin="B000RYD8P8">
+<a class="link" target="_blank" rel="noopener" rel="noreferrer" href="https://amzn.to/38Qkq7U"><span class="ingredient-name-text">sodium-reduced soy sauce</span></a>
+</div>
+</div>
+<div class="subs-btn" state="0" title="show substitutes">
+
+<i class="fa fa-chevron-down" style="font-size: 11px;"></i>
+<i class="fa fa-chevron-up hidden" style="font-size: 11px;"></i>
+</div>
+<div class="substitute hidden" data-num="14" data-soy-free="0">
+<a class="link" href="https://amzn.to/37SIzfk">tamari</a></div>
+</li>
+<li>
+<div class="ingredient-container" state="1">
+<span class="ingredient-amount-text-5" type="cup" value="0.6666666666666666">
+&#8532;
+cup
+</span>
+<span class="ingredient-amount-metric-text-5" value="53.33333333333333" type="solid">(53 g)</span>
+<div class="ingredient" data-num="15" data-name="panko breadcrumbs" data-gluten-free="0" data-amz-name="panko breadcrumbs" data-amz-brand="None" data-amz-asin="None">
+<span class="ingredient-name-text">panko breadcrumbs</span>
+</div>
+</div>
+<div class="subs-btn" state="0" title="show substitutes">
+
+<i class="fa fa-chevron-down" style="font-size: 11px;"></i>
+<i class="fa fa-chevron-up hidden" style="font-size: 11px;"></i>
+</div>
+<div class="substitute hidden" data-num="15">
+gluten-free breadcrumbs</div>
+</li>
+<li>
+<div class="ingredient-container" state="1">
+<span class="ingredient-amount-text-6" type="cup" value="0.125">
+2 Tbsp
+</span>
+<span class="ingredient-amount-metric-text-6" value="4.5" type="solid">(4 g)</span>
+<div class="ingredient" data-num="16" data-name="nutritional yeast flakes" data-amz-name="nutritional yeast" data-amz-brand="None" data-amz-asin="None">
+<a class="link" target="_blank" rel="noopener" rel="noreferrer" href="https://amzn.to/37JgEi1"><span class="ingredient-name-text">nutritional yeast flakes</span></a>
+</div>
+</div>
+</li>
+<li>
+<div class="ingredient-container" state="1">
+<span class="ingredient-amount-text-7" type="cup" value="0.010416666666666666">
+&#189; tsp
+</span>
+<span class="ingredient-amount-metric-text-7" value="1.6166666666666665" type="solid"></span>
+<div class="ingredient" data-num="17" data-name="garlic powder" data-amz-name="garlic powder" data-amz-brand="365 by Whole Foods Market" data-amz-asin="B00JJZ57FK" data-plural-name="garlic powder">
+<span class="ingredient-name-text">garlic powder</span>
+</div>
+</div>
+</li>
+<li>
+<div class="ingredient-container" state="1">
+<span class="ingredient-amount-text-8" type="cup" value="0.010416666666666666">
+&#189; tsp
+</span>
+<span class="ingredient-amount-metric-text-8" value="1.1333333333333333" type="solid"></span>
+<div class="ingredient" data-num="18" data-name="smoked sweet paprika powder" data-amz-name="smoked sweet paprika powder" data-amz-brand="McCormick Gourmet" data-amz-asin="B007WWO4XS" data-plural-name="smoked sweet paprika powder">
+<a class="link" target="_blank" rel="noopener" rel="noreferrer" href="https://amzn.to/36oXv3z"><span class="ingredient-name-text">smoked sweet paprika powder</span></a>
+</div>
+</div>
+</li>
+<li>
+<div class="ingredient-container" state="1">
+<span class="ingredient-amount-text-9" type="cup" value="0.125">
+2 Tbsp
+</span>
+<span class="ingredient-amount-metric-text-9" value="30.0" type="liquid">(30 mL)</span>
+<div class="ingredient" data-num="19" data-name="vegetable oil" data-amz-name="vegetable oil" data-amz-brand="365 by Whole Foods Market" data-amz-asin="B074H5J3M5">
+<span class="ingredient-name-text">vegetable oil</span>
+</div>
+</div>
+</li>
+</ul>
+<h3 class="pt-3">Honey mustard</h3>
+<ul class="list-unstyled pl-4 ingredient-list-2">
+<li>
+<div class="ingredient-container" state="1">
+<span class="ingredient-amount-text-1" type="cup" value="0.3333333333333333">
+&#8531;
+cup
+</span>
+<span class="ingredient-amount-metric-text-1" value="80.0" type="liquid">(80 mL)</span>
+<div class="ingredient" data-num="21" data-name="maple syrup" data-amz-name="maple syrup" data-amz-brand="365 by Whole Foods Market" data-amz-asin="B074HBWKFN">
 <a class="link" target="_blank" rel="noopener" rel="noreferrer" href="https://amzn.to/2MH3oxF"><span class="ingredient-name-text">maple syrup</span></a>
 </div>
 </div>
 </li>
 <li>
 <div class="ingredient-container" state="1">
-<span class="ingredient-amount-text-3" type="quantity" value="4.0">
-4
+<span class="ingredient-amount-text-2" type="cup" value="0.3333333333333333">
+&#8531;
+cup
 </span>
-<div class="ingredient" data-num="13" data-name="sprig fresh thyme" data-amz-name="fresh thyme" data-amz-brand="None" data-amz-asin="None" data-plural-name="sprigs fresh thyme">
-<span class="ingredient-name-text">sprigs fresh thyme</span>
+<span class="ingredient-amount-metric-text-2" value="80.0" type="liquid">(80 mL)</span>
+<div class="ingredient" data-num="22" data-name="dijon mustard" data-amz-name="Dijon mustard" data-amz-brand="365 by Whole Foods Market" data-amz-asin="B074J6RQZB" data-plural-name="dijon mustard">
+<span class="ingredient-name-text">dijon mustard</span>
 </div>
 </div>
 </li>
 <li>
 <div class="ingredient-container" state="1">
+<span class="ingredient-amount-text-3" type="cup" value="0.25">
+&#188;
+cup
+</span>
+<span class="ingredient-amount-metric-text-3" value="60.0" type="liquid">(60 mL)</span>
+<div class="ingredient" data-num="23" data-name="vegan mayonnaise" data-amz-name="vegan mayo" data-amz-brand="None" data-amz-asin="None">
+<a class="link" target="_blank" rel="noopener" rel="noreferrer" href="/recipe/homemade-vegan-mayonnaise-946"><span class="ingredient-name-text">vegan mayonnaise</span></a>
+</div>
+</div>
+</li>
+<li>
+<div class="ingredient-container" state="1">
+<span class="ingredient-amount-text-4" type="cup" value="0.020833333333333332">
+1 tsp
+</span>
+<span class="ingredient-amount-metric-text-4" value="5.0" type="liquid">(5 mL)</span>
+<div class="ingredient" data-num="24" data-name="apple cider vinegar" data-amz-name="apple cider vinegar" data-amz-brand="Spectrum" data-amz-asin="B0797JRGHN" data-plural-name="apple cider vinegar">
+<a class="link" target="_blank" rel="noopener" rel="noreferrer" href="https://amzn.to/37G2gXO"><span class="ingredient-name-text">apple cider vinegar</span></a>
+</div>
+</div>
+</li>
+<li>
+<div class="ingredient-container" state="1">
+<span class="ingredient-amount-text-5" type="cup" value="0.005208333333333333">
+&#188; tsp
+</span>
+<span class="ingredient-amount-metric-text-5" value="1.5208333333333333" type="solid"></span>
+<div class="ingredient" data-num="25" data-name="salt" data-amz-name="salt" data-amz-brand="Morton Salt" data-amz-asin="B000Q3CJGO">
+<span class="ingredient-name-text">salt</span>
+</div>
+</div>
+</li>
+</ul>
+<h3 class="pt-3">Assembly</h3>
+<ul class="list-unstyled pl-4 ingredient-list-3">
+<li>
+<div class="ingredient-container" state="1">
+<span class="ingredient-amount-text-1" type="cup" value="1.0">
+1
+ cup
+</span>
+<span class="ingredient-amount-metric-text-1" value="70.0" type="solid">(70 g)</span>
+<div class="ingredient" data-num="31" data-name="shredded red cabbage" data-amz-name="red cabbage" data-amz-brand="None" data-amz-asin="None">
+<span class="ingredient-name-text">shredded red cabbage</span>
+</div>
+</div>
+</li>
+<li>
+<div class="ingredient-container" state="1">
+<span class="ingredient-amount-text-2" type="cup" value="1.0">
+1
+cup
+</span>
+<span class="ingredient-amount-metric-text-2" value="64.0" type="solid">(64 g)</span>
+<div class="ingredient" data-num="32" data-name="shredded green cabbage" data-amz-name="green cabbage" data-amz-brand="None" data-amz-asin="None" data-plural-name="shredded green cabbage">
+<span class="ingredient-name-text">shredded green cabbage</span>
+</div>
+</div>
+</li>
+<li>
+<div class="ingredient-container" state="1">
+<span class="ingredient-amount-text-3" type="quantity" value="1.0">
+1
+</span>
+<div class="ingredient" data-num="33" data-name="carrot" data-amz-name="carrots" data-amz-brand="None" data-amz-asin="None" data-plural-name="carrots">
+<span class="ingredient-name-text">carrot</span><span>, grated</span>
+</div>
+</div>
+</li>
+<li>
+<div class="ingredient-container" state="1">
+<span class="ingredient-amount-text-4" type="quantity" value="5.0">
+5
+</span>
+<div class="ingredient" data-num="34" data-name="large soft tortilla" data-gluten-free="0" data-amz-name="tortilla" data-amz-brand="None" data-amz-asin="None" data-plural-name="large soft tortillas">
+<span class="ingredient-name-text">large soft tortillas</span>
+</div>
+</div>
+<div class="subs-btn" state="0" title="show substitutes">
 
-<span class="ingredient-amount-text-4" type="cup" value="0.010416666666666666">
-&#189; tsp
-</span>
-<span class="ingredient-amount-metric-text-4" value="1.2999999999999998" type="solid"></span>
-<div class="ingredient" data-num="14" data-name="ground cinnamon" data-amz-name="Ground Cinnamon" data-amz-brand="McCormick" data-amz-asin="B000V87EHI" data-plural-name="ground cinnamon">
-<span class="ingredient-name-text">ground cinnamon</span>
+<i class="fa fa-chevron-down" style="font-size: 11px;"></i>
+<i class="fa fa-chevron-up hidden" style="font-size: 11px;"></i>
 </div>
-</div>
+<div class="substitute hidden" data-num="34">
+large gluten-free tortillas</div>
 </li>
 <li>
 <div class="ingredient-container" state="1">
-<span class="ingredient-amount-text-5" type="cup" value="0.125">
-2 Tbsp
-</span>
-<span class="ingredient-amount-metric-text-5" value="12.0" type="solid">(12 g)</span>
-<div class="ingredient" data-num="15" data-name="freshly grated ginger" data-amz-name="ginger" data-amz-brand="None" data-amz-asin="None" data-plural-name="freshly grated ginger">
-<span class="ingredient-name-text">freshly grated ginger</span>
-</div>
-</div>
-</li>
-<li>
-<div class="ingredient-container" state="1">
-<span class="ingredient-amount-text-6" type="quantity" value="0.5">
+<span class="ingredient-amount-text-5" type="quantity" value="0.5">
 &#189;
 </span>
-<div class="ingredient" data-num="16" data-name="lemon" data-amz-name="lemons" data-amz-brand="None" data-amz-asin="None" data-plural-name="lemons">
-<span class="ingredient-name-text">lemon</span><span>, juiced</span>
-</div>
-</div>
-<div class="subs-btn" state="0" title="show substitutes">
-
-<i class="fa fa-chevron-down" style="font-size: 11px;"></i>
-<i class="fa fa-chevron-up hidden" style="font-size: 11px;"></i>
-</div>
-<div class="substitute hidden" data-num="16">
-lime</div>
-</li>
-<li>
-<div class="ingredient-container" state="1">
-<span class="ingredient-amount-text-7" type="cup" value="2.0">
-2
-cups
-</span>
-<span class="ingredient-amount-metric-text-7" value="222.0" type="solid">(222 g)</span>
-<div class="ingredient" data-num="17" data-name="ice cube" data-amz-name="ice cubes" data-amz-brand="None" data-amz-asin="None" data-plural-name="ice cubes">
-<span class="ingredient-name-text">ice cubes</span><span>, plus more for shaking</span>
+<div class="ingredient" data-num="35" data-name="head butter lettuce" data-amz-name="butter lettuce" data-amz-brand="None" data-amz-asin="None" data-plural-name="heads butter lettuce">
+<span class="ingredient-name-text">head butter lettuce</span>
 </div>
 </div>
 </li>
 <li>
 <div class="ingredient-container" state="1">
-<span class="ingredient-amount-text-8" type="cup" value="2.0">
+<span class="ingredient-amount-text-6" type="quantity" value="2.0">
 2
-cups
 </span>
-<span class="ingredient-amount-metric-text-8" value="480.0" type="liquid">(480 mL)</span>
-<div class="ingredient" data-num="18" data-name="orange juice" data-amz-name="orange juice" data-amz-brand="None" data-amz-asin="None" data-plural-name="orange juice">
-<span class="ingredient-name-text">orange juice</span>
+<div class="ingredient" data-num="36" data-name="medium tomato" data-amz-name="tomato" data-amz-brand="None" data-amz-asin="None" data-plural-name="medium tomatoes">
+<span class="ingredient-name-text">medium tomatoes</span>
 </div>
 </div>
-</li>
-<li>
-<div class="ingredient-container" state="1">
-<span class="ingredient-amount-text-9" type="cup" value="2.0">
-2
-cups
-</span>
-<span class="ingredient-amount-metric-text-9" value="480.0" type="liquid">(480 mL)</span>
-<div class="ingredient" data-num="19" data-name="ginger ale" data-amz-name="carbonated ginger soda" data-amz-brand="None" data-amz-asin="None">
-<span class="ingredient-name-text">ginger ale</span>
-</div>
-</div>
-<div class="subs-btn" state="0" title="show substitutes">
-
-<i class="fa fa-chevron-down" style="font-size: 11px;"></i>
-<i class="fa fa-chevron-up hidden" style="font-size: 11px;"></i>
-</div>
-<div class="substitute hidden" data-num="19">
-ginger beer</div>
 </li>
 </ul>
 
-<h3 class="pt-3">Optional garnish</h3>
-<ul class="list-unstyled pl-4 ingredient-list-1">
-<li>
-<div class="ingredient-container" state="1">
-cinnamon stick
-</div>
-</li>
-<li>
-<div class="ingredient-container" state="1">
-sprig fresh thyme
-</div>
-</li>
-</ul>
 <div style="scale: 0.85; justify-content: center; align-items: center; display: flex;" id="shop-with-instacart-v1" data-affiliate_id="1990" data-source_origin="affiliate_hub" data-affiliate_platform="recipe_widget" \>
 </section>
 </div>
@@ -592,29 +752,43 @@ sprig fresh thyme
 <h2>Directions</h2>
 <ol>
 <li>
-<span class="direction" state="1">Add the water, maple syrup, thyme sprigs, and cinnamon to a <a class="link" target="_blank" rel="noopener" rel="noreferrer" href="https://amzn.to/3hCeVOu">small pan</a>. Bring to a simmer.</span>
+<span class="direction" state="1">Cut the tofu into 3-inch x ½ inch (8 cm x 1 cm) sticks.</span>
 </li>
 <li>
-<span class="direction" state="1">Reduce the heat to low and let it steep for about 3 minutes. Then let it cool to room temperature.</span>
+<span class="direction" state="1">In a medium bowl, mix together the cornstarch, water and soy sauce.</span>
 </li>
 <li>
-<span class="direction" state="1">Fill a shaker or mason jar halfway with ice cubes and strain in the thyme syrup. Add the grated ginger and lemon juice and shake well for 10 seconds.</span>
- </li>
-<li>
-<span class="direction" state="1">Divide the ice cubes between your cups, strain the contents from the shaker over top, and add the orange juice and ginger ale in equal parts.</span>
+<span class="direction" state="1">In another bowl, mix together the breadcrumbs, nutritional yeast, garlic and paprika powders.</span>
 </li>
 <li>
-<span class="direction" state="1">Garnish as desired, and enjoy!</span>
+<span class="direction" state="1">Dip the tofu sticks in the wet mixture, and then into the breadcrumbs to coat. Transfer to a plate.</span>
+</li>
+<li>
+<span class="direction" state="1">Heat a <a class="link" target="_blank" rel="noopener" rel="noreferrer" href="https://amzn.to/3f4ZYTy">large pan</a> over medium-high heat and add the oil. Cook the tofu for 1 - 2 minutes on each side, or until golden on all sides.</span>
+</li>
+<li>
+<span class="direction" state="1">Mix together the maple syrup and mustard in a medium bowl.</span>
+</li>
+<li>
+<span class="direction" state="1">Use a <a class="link" target="_blank" rel="noopener" rel="noreferrer" href="https://amzn.to/3Agkjkr">silicone pastry brush</a> to coat each cooked tofu strip in the maple-mustard sauce.</span>
+</li>
+<li>
+<span class="direction" state="1">Mix the leftover maple-mustard sauce together with the mayo, vinegar and salt.</span>
+</li>
+<li>
+<span class="direction" state="1">Add the shredded cabbage and carrot to the bowl with the mustard sauce and mix together.</span>
+</li>
+<li>
+<span class="direction" state="1">Assemble the wraps by filling each tortilla with lettuce, tomato, cabbage mix and tofu tenders.</span>
+</li>
+<li>
+<span class="direction" state="1">Fold and roll up like a burrito. Then toast them in a pan if desired and enjoy!</span>
 </li>
 </ol>
-<h3 class="pt-4">Notes</h3>
-<ul class="noteslist">
-<li>To turn this mocktail into a cocktail, simply add your favourite whiskey to the shaker.</li>
-</ul>
 <h3 class="pt-4">Storage</h3>
 <ul class="noteslist">
-<li>The syrup can be stored in an <a class="link" target="_blank" rel="noopener" rel="noreferrer" href="https://amzn.to/3JnAf6r">airtight container</a> or <a class="link" target="_blank" rel="noopener" rel="noreferrer" href="https://amzn.to/2tekWbH">mason jar</a> in the fridge for up to 5 days.</li>
-<li>The assembled drink is best when enjoyed immediately.</li>
+<li>The assembled wraps are best when enjoyed immediately. </li>
+<li>The tofu tenders can be stored separately from the coleslaw and the other ingredients in <a class="link" target="_blank" rel="noopener" rel="noreferrer" href="https://amzn.to/3JnAf6r">airtight container</a>s in the fridge for up to 3 days.</li>
 </ul>
 <div align="center" style="padding: 1.5rem 0 1.5rem 0;">
 <div class="print-btn btn btn-d-green" style="position: relative;">
@@ -652,12 +826,10 @@ Print
 <div class="row row-pt pb-4" align="left">
 <div class="col-md-1"></div>
 <div class="col-md-10">
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6114487152877035" crossorigin="anonymous"></script>
 
-<ins class="adsbygoogle" style="display:block" align="center" data-ad-client="ca-pub-6114487152877035" data-ad-slot="1289060933" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+<div class="not-mobile" style="min-height: 250px" data-fuse="22907156300"></div>
+
+<div class="mobile" style="min-height: 250px" data-fuse="22907156309"></div>
 </div>
 <div class="col-md-1"></div>
 </div>
@@ -665,14 +837,73 @@ Print
 <div class="row row-pt pb-4" align="left">
 
 <div class="col-md-1"></div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/static/javascript/recipe_plate_method.f7a8c0797c5c.js" defer></script>
+<script id="pm-grains" type="application/json">{"pm_grains": 33 }</script>
+<script id="pm-fruit" type="application/json">{"pm_fruits_and_vegetables": 53 }</script>
+<script id="pm-proteins" type="application/json">{"pm_proteins": 14 }</script>
+<div class="col-md-4 pt-4">
+<section>
+<h3>Plate method</h3>
+<p>The <a class="link" target="_blank" href="/article/the-plate-method-26">Plate Method</a> is a visual tool that helps us ensure our dietary needs are on track. Touch the image below to see how this recipe measures up.</p>
+<div class="row pt-4">
+<div class="col-9">
+<div class="pm-container">
+<div class="rotate-box">
+<div class="pm-box proteins" style="background:url( '/static/images/plate_method/pm_proteins.f55deb27c62c.jpg' ) center/cover; z-index: 1"></div>
+</div>
+<div class="pm-box fruits-and-vegetables" style="background:url( '/static/images/plate_method/pm_veggies.fe2b3efbb245.jpg' ) center/cover;z-index: 2;"></div>
+<div class="pm-box grains" style="background:url( '/static/images/plate_method/pm_grains.6c420ba75adc.jpg' ) center/cover; z-index: 3;"></div>
+</div>
+</div>
+<div class="col-3">
+<div class="pm-side-images">
+<div class="pm-box-2 calcium " style="background:url( '/static/images/plate_method/plate_method_calcium.72daa639ee6f.jpg' ) center/cover;"></div>
+<div class="pm-box-2 fat " style="background:url( '/static/images/plate_method/plate_method_fat.b7362082a9c5.jpg' ) center/cover;"></div>
+</div>
+</div>
+</div>
+<div class="pm-card-container" state="0" style="height: 0;">
+<div class="pm-card pm-grains-ingredients pt-4" style="position: absolute; z-index: 4;">
+<h5>Grains & Starches <span class="pm-perc">33%</span></h5>
+<p style="display: inline"> <span class="col-green-3">&#x2022;</span> panko breadcrumbs</p>
 
-<div class="col-md-10 pt-4">
+<p style="display: inline"> <span class="col-green-3">&#x2022;</span> large soft tortilla</p>
+</div>
+<div class="pm-card pm-proteins-ingredients pt-4" style="position: absolute; z-index: 4;">
+<h5>Proteins <span class="pm-perc">14%</span></h5>
+<p style="display: inline"> <span class="col-green-3">&#x2022;</span> firm tofu</p>
+<p style="display: inline"> <span class="col-green-3">&#x2022;</span> nutritional yeast flakes</p>
+</div>
+<div class="pm-card pm-fruits-and-vegetables-ingredients pt-4" style="position: absolute; z-index: 4;">
+<h5>Fruits & Veggies <span class="pm-perc">53%</span></h5>
+<p style="display: inline"> <span class="col-green-3">&#x2022;</span> shredded red cabbage</p>
+<p style="display: inline"> <span class="col-green-3">&#x2022;</span> shredded green cabbage</p>
+<p style="display: inline"> <span class="col-green-3">&#x2022;</span> carrot</p>
+<p style="display: inline"> <span class="col-green-3">&#x2022;</span> head butter lettuce</p>
+<p style="display: inline"> <span class="col-green-3">&#x2022;</span> medium tomato</p>
+</div>
+<div class="pm-card pm-calcium-ingredients pt-4" style="position: absolute; z-index: 4;">
+<h5>Calcium</h5>
+<p style="display: inline"> <span class="col-green-3">&#x2022;</span> firm tofu</p>
+</div>
+<div class="pm-card pm-fat-ingredients pt-4" style="position: absolute; z-index: 4;">
+<h5>Fat</h5>
+<p style="display: inline"> <span class="col-green-3">&#x2022;</span> vegetable oil</p>
+<p style="display: inline"> <span class="col-green-3">&#x2022;</span> vegan mayonnaise</p>
+</div>
+</div>
+</section>
+</div>
+
+<div class="col-md-1"></div>
+
+<div class="col-md-5 pt-4">
 <section>
 <div id="nut-info" style="display: none;">
 <h3>Nutrition per
-serving
+<span style="text-transform: lowercase;">wrap</span>
 </h3>
-<p>Calories 153 kcal</p>
+<p>Calories 545 kcal</p>
 <hr>
 <div class="row">
 <div class="col">
@@ -680,19 +911,19 @@ serving
 <tbody>
 <tr>
 <td scope="row" data-label="nutrient"><strong>Total fat</strong></td>
-<td data-label="value">0.3 g</td>
+<td data-label="value">18.3 g</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Omega-3</td>
-<td data-label="value">0.0 g</td>
+<td data-label="value">0.7 g</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Omega-6</td>
-<td data-label="value">0.0 g</td>
+<td data-label="value">5.3 g</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Saturated fat</td>
-<td data-label="value">0.0 g</td>
+<td data-label="value">3.3 g</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Trans fat</td>
@@ -701,7 +932,7 @@ serving
 <tr>
 <td scope="row" data-label="nutrient"><strong>Cholesterol</strong></td>
 <td data-label="value">0.0 mg</td>
- </tr>
+</tr>
 </tbody>
 </table>
 </div>
@@ -710,27 +941,27 @@ serving
 <tbody>
 <tr>
 <td scope="row" data-label="nutrient"><strong>Total carbs</strong></td>
-<td data-label="value">38.1 g</td>
+<td data-label="value">78.6 g</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Dietary fiber</td>
-<td data-label="value">0.8 g</td>
+<td data-label="value">6.2 g</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Total sugars</td>
-<td data-label="value">33.1 g</td>
+<td data-label="value">20.4 g</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Added sugars</td>
-<td data-label="value">22.8 g</td>
+<td data-label="value">12.7 g</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient"><strong>Protein</strong></td>
-<td data-label="value">1.0 g</td>
+<td data-label="value">18.4 g</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient"><strong>Sodium</strong></td>
-<td data-label="value">16 mg</td>
+<td data-label="value">1071 mg</td>
 </tr>
 </tbody>
 </table>
@@ -743,39 +974,39 @@ serving
 <tbody>
 <tr>
 <td scope="row" data-label="nutrient">Iron</td>
-<td data-label="value">0.88 mg</td>
+<td data-label="value">5.46 mg</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Potassium</td>
-<td data-label="value">315.2 mg</td>
+<td data-label="value">657.2 mg</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Calcium</td>
-<td data-label="value">51.7 mg</td>
+<td data-label="value">286.8 mg</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Magnesium</td>
-<td data-label="value">24.5 mg</td>
+<td data-label="value">82.2 mg</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Zinc</td>
-<td data-label="value">0.48 mg</td>
+<td data-label="value">2.31 mg</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Copper</td>
-<td data-label="value">0.10 mg</td>
+<td data-label="value">0.50 mg</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Manganese</td>
-<td data-label="value">0.69 mg</td>
+<td data-label="value">1.97 mg</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Phosphorus</td>
-<td data-label="value">24.6 mg</td>
+<td data-label="value">274.0 mg</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Selenium</td>
-<td data-label="value">0 μg</td>
+<td data-label="value">33 μg</td>
 </tr>
 </tbody>
 </table>
@@ -785,19 +1016,19 @@ serving
 <tbody>
 <tr>
 <td scope="row" data-label="nutrient">Vitamin A</td>
-<td data-label="value">17 μg RAE</td>
+<td data-label="value">241 μg RAE</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Vitamin B6</td>
-<td data-label="value">0.1 mg</td>
+<td data-label="value">0.8 mg</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Vitamin B12</td>
-<td data-label="value">0 μg</td>
+<td data-label="value">1 μg</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Vitamin C</td>
-<td data-label="value">65.7 mg</td>
+<td data-label="value">21.9 mg</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Vitamin D</td>
@@ -805,31 +1036,31 @@ serving
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Vitamin E</td>
-<td data-label="value">0.1 mg</td>
+<td data-label="value">1.6 mg</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Vitamin K</td>
-<td data-label="value">0 μg</td>
+<td data-label="value">64 μg</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Folate</td>
-<td data-label="value">38 μg</td>
+<td data-label="value">205 μg</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Thiamin</td>
-<td data-label="value">0.1 mg</td>
+<td data-label="value">1.1 mg</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Riboflavin</td>
-<td data-label="value">0.3 mg</td>
+<td data-label="value">1.3 mg</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Niacin</td>
-<td data-label="value">0.6 mg</td>
+<td data-label="value">6.8 mg</td>
 </tr>
 <tr>
 <td scope="row" data-label="nutrient">Choline</td>
-<td data-label="value">9.8 mg</td>
+<td data-label="value">45.5 mg</td>
 </tr>
 </tbody>
 </table>
@@ -868,38 +1099,57 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 <div class="col-md-1"></div>
 </div>
 
-<div class="row row-pt pb-4">
+<div class="row row-pt">
 
 <div class="col-md-1"></div>
 
 <div class="col-md-10">
 <section id="recipe-video">
-
-<div style="max-width: 600px; position: relative;">
-<p class="hw-text rotated vw-hide-3" style="top: 17rem; height: 5rem;">More for the eyes</p>
-<img class="img-fluid mt-2 mb-2" style="width: 100%;" src="https://cdn.pickuplimes.com/cache/ff/c5/ffc593466f8b699903ca3959ff7177e3.jpg" srcset="https://cdn.pickuplimes.com/cache/ff/c5/ffc593466f8b699903ca3959ff7177e3.jpg 800w,
-    https://cdn.pickuplimes.com/cache/f9/5a/f95af046a7fd93cb80a4029963b4c3f8.jpg 500w,
-    https://cdn.pickuplimes.com/cache/5e/2a/5e2a8b4df3b87da392dc4ee798cd7636.jpg 349w" alt="image of " sizes="75vw">
-<img class="img-fluid mt-2 mb-2" style="width: 100%;" src="https://cdn.pickuplimes.com/cache/55/77/5577626f6ed78b70ea2ac514bed53233.jpg" srcset="https://cdn.pickuplimes.com/cache/55/77/5577626f6ed78b70ea2ac514bed53233.jpg 800w,
-    https://cdn.pickuplimes.com/cache/8d/7f/8d7ffd2caa082272107a519be9bb4df2.jpg 500w,
-    https://cdn.pickuplimes.com/cache/84/84/8484ba97e11f8091694f7061f2401539.jpg 349w" alt="image of " sizes="75vw">
-<img class="img-fluid mt-2 mb-2" style="width: 100%;" src="https://cdn.pickuplimes.com/cache/1e/26/1e2651669b7dfea56a21ea8d08a38f95.jpg" srcset="https://cdn.pickuplimes.com/cache/1e/26/1e2651669b7dfea56a21ea8d08a38f95.jpg 800w,
-    https://cdn.pickuplimes.com/cache/83/8d/838d7ae0a8384b4db29ef8ac37a216c2.jpg 500w,
-    https://cdn.pickuplimes.com/cache/30/01/30019d7fb53dd4cbbb896e849d1f0e76.jpg 349w" alt="image of " sizes="75vw">
-<img class="img-fluid mt-2 mb-2" style="width: 100%;" src="https://cdn.pickuplimes.com/cache/40/5e/405e8e66659a75cecdb9b70fcada44af.jpg" srcset="https://cdn.pickuplimes.com/cache/40/5e/405e8e66659a75cecdb9b70fcada44af.jpg 800w,
-    https://cdn.pickuplimes.com/cache/d4/04/d404a36e258408757edb9ee72b9222dd.jpg 500w,
-    https://cdn.pickuplimes.com/cache/2a/d4/2ad4be58a1874c711d1c76fc251236fe.jpg 349w" alt="image of " sizes="75vw">
-<img class="img-fluid mt-2 mb-2" style="width: 100%;" src="https://cdn.pickuplimes.com/cache/5c/4f/5c4f8506082510456b1a0b0f8e9caeec.jpg" srcset="https://cdn.pickuplimes.com/cache/5c/4f/5c4f8506082510456b1a0b0f8e9caeec.jpg 800w,
-    https://cdn.pickuplimes.com/cache/b1/9b/b19b84b8f420c814f7623e8e9cf09214.jpg 500w,
-    https://cdn.pickuplimes.com/cache/05/16/0516fcf6b0c504ac4f0a3b16b5f301e7.jpg 349w" alt="image of " sizes="75vw">
-<img class="img-fluid mt-2 mb-2" style="width: 100%;" src="https://cdn.pickuplimes.com/cache/aa/ea/aaea29059066b1f8b31212a6a44d4323.jpg" srcset="https://cdn.pickuplimes.com/cache/aa/ea/aaea29059066b1f8b31212a6a44d4323.jpg 800w,
-    https://cdn.pickuplimes.com/cache/bb/3a/bb3a5a49b207b04eddd4c602d91fbfcf.jpg 500w,
-    https://cdn.pickuplimes.com/cache/cb/45/cb4535976a30dba0f617ef711d3d807d.jpg 349w" alt="image of " sizes="75vw">
-</div>
 </section>
 </div>
 
 <div class="col-md-1"></div>
+</div>
+<div class="row row-pt pb-4" style="">
+
+<div class="col-md-3">
+<div class="vw-hide-4 vrec-container">
+
+<div data-fuse="22907156303" class="vrec-ad"></div>
+</div>
+</div>
+
+<div class="col-md-6">
+
+<div style="max-width: 550px; position: relative;">
+<p class="hw-text rotated vw-hide-3" style="top: 17rem; height: 5rem;">More for the eyes</p>
+<img class="img-fluid mt-2 mb-2" style="width: 100%;" src="https://cdn.pickuplimes.com/cache/16/df/16dfa62debecbf667dabccb41e325495.jpg" srcset="https://cdn.pickuplimes.com/cache/16/df/16dfa62debecbf667dabccb41e325495.jpg 800w,
+    https://cdn.pickuplimes.com/cache/8d/34/8d344ec4e17b86c700d54af9fe2b5332.jpg 500w,
+    https://cdn.pickuplimes.com/cache/61/62/61626ae1bd4b5c994af8fcf91b5aa14b.jpg 349w" alt="image of " sizes="75vw">
+<img class="img-fluid mt-2 mb-2" style="width: 100%;" src="https://cdn.pickuplimes.com/cache/ab/47/ab47ee29ba6c2928eea14646321da7d9.jpg" srcset="https://cdn.pickuplimes.com/cache/ab/47/ab47ee29ba6c2928eea14646321da7d9.jpg 800w,
+    https://cdn.pickuplimes.com/cache/0d/98/0d98949efc067f65934360587c170b72.jpg 500w,
+    https://cdn.pickuplimes.com/cache/2c/46/2c464959f4bbfa5c914c206bf89f165d.jpg 349w" alt="image of " sizes="75vw">
+<img class="img-fluid mt-2 mb-2" style="width: 100%;" src="https://cdn.pickuplimes.com/cache/20/68/20686be9a35d69fe5604e98d575eb3bc.jpg" srcset="https://cdn.pickuplimes.com/cache/20/68/20686be9a35d69fe5604e98d575eb3bc.jpg 800w,
+    https://cdn.pickuplimes.com/cache/83/3d/833db67f68600226c6ecbe343b793699.jpg 500w,
+    https://cdn.pickuplimes.com/cache/cc/0d/cc0d24aad6bcafcf1198aa266c96dbc2.jpg 349w" alt="image of " sizes="75vw">
+<img class="img-fluid mt-2 mb-2" style="width: 100%;" src="https://cdn.pickuplimes.com/cache/2f/95/2f95d3bdbdb14275022d5caeae56fc21.jpg" srcset="https://cdn.pickuplimes.com/cache/2f/95/2f95d3bdbdb14275022d5caeae56fc21.jpg 800w,
+    https://cdn.pickuplimes.com/cache/ae/9b/ae9b8bb715f7df513ac115fe08c8e5c4.jpg 500w,
+    https://cdn.pickuplimes.com/cache/76/7b/767b6cac915c067fc4499e08c0800a2b.jpg 349w" alt="image of " sizes="75vw">
+<img class="img-fluid mt-2 mb-2" style="width: 100%;" src="https://cdn.pickuplimes.com/cache/9f/c2/9fc2d1c15c15c51061274a7771139bcf.jpg" srcset="https://cdn.pickuplimes.com/cache/9f/c2/9fc2d1c15c15c51061274a7771139bcf.jpg 800w,
+    https://cdn.pickuplimes.com/cache/aa/6e/aa6edaa2d98bf97bfe45d17655878e3d.jpg 500w,
+    https://cdn.pickuplimes.com/cache/c7/7c/c77c974faae8c9a66c18286110451442.jpg 349w" alt="image of " sizes="75vw">
+<img class="img-fluid mt-2 mb-2" style="width: 100%;" src="https://cdn.pickuplimes.com/cache/2f/2e/2f2e0c4138524585a672d5db2ebcff34.jpg" srcset="https://cdn.pickuplimes.com/cache/2f/2e/2f2e0c4138524585a672d5db2ebcff34.jpg 800w,
+    https://cdn.pickuplimes.com/cache/44/fb/44fb3b5e2d1c1e35a5baa4843d952029.jpg 500w,
+    https://cdn.pickuplimes.com/cache/67/05/6705332a0d0575853e0574febfb30ad5.jpg 349w" alt="image of " sizes="75vw">
+</div>
+</div>
+
+<div class="col-md-3 pr-0 pl-0" style="justify-content: center;">
+<div class="vw-hide-4 vrec-container">
+
+<div data-fuse="22907156306" class="vrec-ad"></div>
+</div>
+</div>
 </div>
 
 <div class="row row-pt">
@@ -922,38 +1172,38 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 <div class="carousel-item active">
 <div class="container-flex">
 <div class="recipe-thumbnail-cont ">
-<a href="/recipe/golden-latte-instant-mix-718">
-<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Golden Latte Instant Mix" src="https://cdn.pickuplimes.com/cache/ad/ac/adac3068afb35d8de89d5641c2ef5726.jpg" srcset="  https://cdn.pickuplimes.com/cache/ad/ac/adac3068afb35d8de89d5641c2ef5726.jpg 500w,
-                      https://cdn.pickuplimes.com/cache/26/3f/263f6b1d3ecdcd402284df0a6ba8a4ca.jpg 349w" alt="image of Golden Latte Instant Mix" sizes="(max-width: 420px) 10vw, 100vw">
+<a href="/recipe/vegan-egg-salad-breakfast-bowl-48">
+<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Vegan &quot;Egg&quot; Salad Breakfast Bowl" src="https://cdn.pickuplimes.com/cache/a9/4e/a94e7d5bf8775b8adc768cf74ddc5f7e.jpg" srcset="  https://cdn.pickuplimes.com/cache/a9/4e/a94e7d5bf8775b8adc768cf74ddc5f7e.jpg 500w,
+                      https://cdn.pickuplimes.com/cache/46/f1/46f1c782345fa33bd1f046825275f516.jpg 349w" alt="image of Vegan &quot;Egg&quot; Salad Breakfast Bowl" sizes="(max-width: 420px) 10vw, 100vw">
 <div style="height: auto;" align="left">
-<h3 style="padding-top: 1rem;">Golden Latte Instant Mix</h3>
+<h3 style="padding-top: 1rem;">Vegan &quot;Egg&quot; Salad Breakfast Bowl</h3>
 </div>
 </a>
 </div>
 <div class="recipe-thumbnail-cont ">
-<a href="/recipe/pink-lemonade-24">
-<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Pink Lemonade" src="https://cdn.pickuplimes.com/cache/c9/cb/c9cb6d0a3d0e5bde8162642f43fb0158.jpg" srcset="  https://cdn.pickuplimes.com/cache/c9/cb/c9cb6d0a3d0e5bde8162642f43fb0158.jpg 500w,
-                      https://cdn.pickuplimes.com/cache/e3/5c/e35c0bc812022847bd4ac60693294675.jpg 349w" alt="image of Pink Lemonade" sizes="(max-width: 420px) 10vw, 100vw">
+<a href="/recipe/macaroni-chili-82">
+<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Macaroni Chili" src="https://cdn.pickuplimes.com/cache/55/f5/55f55eabf01a6ad3bdfed4919c3be76b.jpg" srcset="  https://cdn.pickuplimes.com/cache/55/f5/55f55eabf01a6ad3bdfed4919c3be76b.jpg 500w,
+                      https://cdn.pickuplimes.com/cache/1b/8f/1b8f8d2663d7f215261386dd81138ba8.jpg 349w" alt="image of Macaroni Chili" sizes="(max-width: 420px) 10vw, 100vw">
 <div style="height: auto;" align="left">
-<h3 style="padding-top: 1rem;">Pink Lemonade</h3>
+<h3 style="padding-top: 1rem;">Macaroni Chili</h3>
 </div>
 </a>
 </div>
 <div class="recipe-thumbnail-cont hide-vw-md">
-<a href="/recipe/blackberry-ginger-iced-green-tea-1030">
-<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Blackberry Ginger Iced Green Tea" src="https://cdn.pickuplimes.com/cache/ba/69/ba69dd0cd99e8e9c793637f026312cdd.jpg" srcset="  https://cdn.pickuplimes.com/cache/ba/69/ba69dd0cd99e8e9c793637f026312cdd.jpg 500w,
-                      https://cdn.pickuplimes.com/cache/de/b7/deb73fe65fccd30ffd29cdfa127d7b02.jpg 349w" alt="image of Blackberry Ginger Iced Green Tea" sizes="(max-width: 420px) 10vw, 100vw">
+<a href="/recipe/chickpea-omelette-sandwich-33">
+<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Chickpea Omelette Sandwich" src="https://cdn.pickuplimes.com/cache/5e/83/5e83a18fdb970c4af242a7187f8a4ce0.jpg" srcset="  https://cdn.pickuplimes.com/cache/5e/83/5e83a18fdb970c4af242a7187f8a4ce0.jpg 500w,
+                      https://cdn.pickuplimes.com/cache/10/e2/10e2901e1cdf2851e6a5eac3055651fd.jpg 349w" alt="image of Chickpea Omelette Sandwich" sizes="(max-width: 420px) 10vw, 100vw">
 <div style="height: auto;" align="left">
-<h3 style="padding-top: 1rem;">Blackberry Ginger Iced Green Tea</h3>
+<h3 style="padding-top: 1rem;">Chickpea Omelette Sandwich</h3>
 </div>
 </a>
 </div>
 <div class="recipe-thumbnail-cont hide-vw-lg">
-<a href="/recipe/blue-butterfly-pea-latte-738">
-<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Blue Butterfly Pea Latte" src="https://cdn.pickuplimes.com/cache/e6/d3/e6d397af80749bd65c3d3a0516aa0c1a.jpg" srcset="  https://cdn.pickuplimes.com/cache/e6/d3/e6d397af80749bd65c3d3a0516aa0c1a.jpg 500w,
-                      https://cdn.pickuplimes.com/cache/43/50/43501f899d8cf3bdaba16219e6ab7886.jpg 349w" alt="image of Blue Butterfly Pea Latte" sizes="(max-width: 420px) 10vw, 100vw">
+<a href="/recipe/roasted-cauliflower-potato-wraps-215">
+<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Roasted Cauliflower &amp; Potato Wraps" src="https://cdn.pickuplimes.com/cache/bf/37/bf37dc4dd0324d725fa19810f494446a.jpg" srcset="  https://cdn.pickuplimes.com/cache/bf/37/bf37dc4dd0324d725fa19810f494446a.jpg 500w,
+                      https://cdn.pickuplimes.com/cache/c2/a2/c2a2bd199f78799087d21b83084cefde.jpg 349w" alt="image of Roasted Cauliflower &amp; Potato Wraps" sizes="(max-width: 420px) 10vw, 100vw">
 <div style="height: auto;" align="left">
-<h3 style="padding-top: 1rem;">Blue Butterfly Pea Latte</h3>
+<h3 style="padding-top: 1rem;">Roasted Cauliflower &amp; Potato Wraps</h3>
 </div>
 </a>
 </div>
@@ -962,38 +1212,38 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 <div class="carousel-item ">
 <div class="container-flex">
 <div class="recipe-thumbnail-cont ">
-<a href="/recipe/vanilla-coconut-matcha-latte-740">
-<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Vanilla Coconut Matcha Latte" src="https://cdn.pickuplimes.com/cache/03/5e/035e0ce1ae1b42c0a9cc60bab467f37a.jpg" srcset="  https://cdn.pickuplimes.com/cache/03/5e/035e0ce1ae1b42c0a9cc60bab467f37a.jpg 500w,
-                      https://cdn.pickuplimes.com/cache/47/12/47129840ed1b2c62033ea9b0d0472a77.jpg 349w" alt="image of Vanilla Coconut Matcha Latte" sizes="(max-width: 420px) 10vw, 100vw">
+<a href="/recipe/vegan-mac-cheese-108">
+<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Vegan Mac &amp; &#39;Cheese&#39;" src="https://cdn.pickuplimes.com/cache/b4/3c/b43caa8e32eb6033d9b083ec2188d7e2.jpg" srcset="  https://cdn.pickuplimes.com/cache/b4/3c/b43caa8e32eb6033d9b083ec2188d7e2.jpg 500w,
+                      https://cdn.pickuplimes.com/cache/db/06/db062677b16c8608442afb595db8af7b.jpg 349w" alt="image of Vegan Mac &amp; &#39;Cheese&#39;" sizes="(max-width: 420px) 10vw, 100vw">
 <div style="height: auto;" align="left">
-<h3 style="padding-top: 1rem;">Vanilla Coconut Matcha Latte</h3>
+<h3 style="padding-top: 1rem;">Vegan Mac &amp; &#39;Cheese&#39;</h3>
 </div>
 </a>
 </div>
 <div class="recipe-thumbnail-cont ">
-<a href="/recipe/refreshing-melon-cucumber-soda-21">
-<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Refreshing Melon Cucumber Soda" src="https://cdn.pickuplimes.com/cache/a4/b6/a4b6c088b5fba6a65567e10d17d6bdc3.jpg" srcset="  https://cdn.pickuplimes.com/cache/a4/b6/a4b6c088b5fba6a65567e10d17d6bdc3.jpg 500w,
-                      https://cdn.pickuplimes.com/cache/3e/b2/3eb258ba03119432e31f47f6deccd9b8.jpg 349w" alt="image of Refreshing Melon Cucumber Soda" sizes="(max-width: 420px) 10vw, 100vw">
+<a href="/recipe/sweet-potato-spiced-chilli-18">
+<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Sweet Potato Spiced Chili" src="https://cdn.pickuplimes.com/cache/c4/05/c40506dfbb67b8f33374f2fbd5da07a0.jpg" srcset="  https://cdn.pickuplimes.com/cache/c4/05/c40506dfbb67b8f33374f2fbd5da07a0.jpg 500w,
+                      https://cdn.pickuplimes.com/cache/3a/68/3a68b96cfd659df1233efb2162ddb70b.jpg 349w" alt="image of Sweet Potato Spiced Chili" sizes="(max-width: 420px) 10vw, 100vw">
 <div style="height: auto;" align="left">
-<h3 style="padding-top: 1rem;">Refreshing Melon Cucumber Soda</h3>
+<h3 style="padding-top: 1rem;">Sweet Potato Spiced Chili</h3>
 </div>
 </a>
 </div>
 <div class="recipe-thumbnail-cont hide-vw-md">
-<a href="/recipe/non-alcoholic-mulled-wine-1255">
-<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Non-Alcoholic Mulled Wine" src="https://cdn.pickuplimes.com/cache/48/a9/48a94549043003ca3adf25801243fd8b.jpg" srcset="  https://cdn.pickuplimes.com/cache/48/a9/48a94549043003ca3adf25801243fd8b.jpg 500w,
-                      https://cdn.pickuplimes.com/cache/23/18/2318d4275414e9d61a45a2e40330d90e.jpg 349w" alt="image of Non-Alcoholic Mulled Wine" sizes="(max-width: 420px) 10vw, 100vw">
+<a href="/recipe/chickpea-caesar-salad-wrap-679">
+<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Chickpea Caesar Salad Wrap" src="https://cdn.pickuplimes.com/cache/40/8c/408ced475b53ee19925383852a49bfe4.jpg" srcset="  https://cdn.pickuplimes.com/cache/40/8c/408ced475b53ee19925383852a49bfe4.jpg 500w,
+                      https://cdn.pickuplimes.com/cache/61/7a/617ab4f66dc030c061c433a51a6b3e68.jpg 349w" alt="image of Chickpea Caesar Salad Wrap" sizes="(max-width: 420px) 10vw, 100vw">
 <div style="height: auto;" align="left">
-<h3 style="padding-top: 1rem;">Non-Alcoholic Mulled Wine</h3>
+<h3 style="padding-top: 1rem;">Chickpea Caesar Salad Wrap</h3>
 </div>
 </a>
 </div>
 <div class="recipe-thumbnail-cont hide-vw-lg">
-<a href="/recipe/passion-fruit-kombucha-spritz-1028">
-<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Passion Fruit &amp; Kombucha Spritz" src="https://cdn.pickuplimes.com/cache/ba/34/ba3401f0b72900f02e0a14bf97731bb9.jpg" srcset="  https://cdn.pickuplimes.com/cache/ba/34/ba3401f0b72900f02e0a14bf97731bb9.jpg 500w,
-                      https://cdn.pickuplimes.com/cache/53/a3/53a32912f403e1fe15e7994df94f3578.jpg 349w" alt="image of Passion Fruit &amp; Kombucha Spritz" sizes="(max-width: 420px) 10vw, 100vw">
+<a href="/recipe/macaroni-salad-with-lentil-quesadillas-592">
+<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Macaroni Salad with Lentil Quesadillas" src="https://cdn.pickuplimes.com/cache/2e/32/2e32987da7dd54e7e9894089460d7071.jpg" srcset="  https://cdn.pickuplimes.com/cache/2e/32/2e32987da7dd54e7e9894089460d7071.jpg 500w,
+                      https://cdn.pickuplimes.com/cache/bd/cc/bdcc0b536d980e61b8b2d89899985d96.jpg 349w" alt="image of Macaroni Salad with Lentil Quesadillas" sizes="(max-width: 420px) 10vw, 100vw">
 <div style="height: auto;" align="left">
-<h3 style="padding-top: 1rem;">Passion Fruit &amp; Kombucha Spritz</h3>
+<h3 style="padding-top: 1rem;">Macaroni Salad with Lentil Quesadillas</h3>
 </div>
 </a>
 </div>
@@ -1002,38 +1252,38 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 <div class="carousel-item ">
 <div class="container-flex">
 <div class="recipe-thumbnail-cont ">
-<a href="/recipe/frosted-watermelon-rosemary-slushy-422">
-<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Frosted Watermelon Rosemary Slushy" src="https://cdn.pickuplimes.com/cache/b9/99/b9992209c70a1d5b2643dfa9c9a84ac8.jpg" srcset="  https://cdn.pickuplimes.com/cache/b9/99/b9992209c70a1d5b2643dfa9c9a84ac8.jpg 500w,
-                      https://cdn.pickuplimes.com/cache/b7/da/b7da36c4af7ba187480fc3c2bb548040.jpg 349w" alt="image of Frosted Watermelon Rosemary Slushy" sizes="(max-width: 420px) 10vw, 100vw">
+<a href="/recipe/bbq-cauliflower-pizza-50">
+<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of BBQ Cauliflower Pizza" src="https://cdn.pickuplimes.com/cache/27/a9/27a9cfbba6bcaba8ca08d5fa28497374.jpg" srcset="  https://cdn.pickuplimes.com/cache/27/a9/27a9cfbba6bcaba8ca08d5fa28497374.jpg 500w,
+                      https://cdn.pickuplimes.com/cache/3f/83/3f83ea2162015468657a41a901e32ffe.jpg 349w" alt="image of BBQ Cauliflower Pizza" sizes="(max-width: 420px) 10vw, 100vw">
 <div style="height: auto;" align="left">
-<h3 style="padding-top: 1rem;">Frosted Watermelon Rosemary Slushy</h3>
+<h3 style="padding-top: 1rem;">BBQ Cauliflower Pizza</h3>
 </div>
 </a>
 </div>
 <div class="recipe-thumbnail-cont ">
-<a href="/recipe/peppermint-mocha-737">
-<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Peppermint Mocha" src="https://cdn.pickuplimes.com/cache/bd/e3/bde3f89d254d12b0fdd602fd2c111306.jpg" srcset="  https://cdn.pickuplimes.com/cache/bd/e3/bde3f89d254d12b0fdd602fd2c111306.jpg 500w,
-                      https://cdn.pickuplimes.com/cache/1c/5a/1c5a5035e5e84f0fd9406a9b6e849ae0.jpg 349w" alt="image of Peppermint Mocha" sizes="(max-width: 420px) 10vw, 100vw">
+<a href="/recipe/mashed-chickpea-dill-sandwich-134">
+<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Mashed Chickpea &amp; Dill Sandwich" src="https://cdn.pickuplimes.com/cache/b6/64/b664420c3997f9feac1073b30905f5eb.jpg" srcset="  https://cdn.pickuplimes.com/cache/b6/64/b664420c3997f9feac1073b30905f5eb.jpg 500w,
+                      https://cdn.pickuplimes.com/cache/b1/fa/b1fa953161bb821b70f8d16cb6ce9a6f.jpg 349w" alt="image of Mashed Chickpea &amp; Dill Sandwich" sizes="(max-width: 420px) 10vw, 100vw">
 <div style="height: auto;" align="left">
-<h3 style="padding-top: 1rem;">Peppermint Mocha</h3>
+<h3 style="padding-top: 1rem;">Mashed Chickpea &amp; Dill Sandwich</h3>
 </div>
 </a>
 </div>
 <div class="recipe-thumbnail-cont hide-vw-md">
-<a href="/recipe/creamy-rich-london-fog-183">
-<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Creamy &amp; Rich London Fog" src="https://cdn.pickuplimes.com/cache/5f/52/5f52f6a80d1dc33b02e718f74204a178.jpg" srcset="  https://cdn.pickuplimes.com/cache/5f/52/5f52f6a80d1dc33b02e718f74204a178.jpg 500w,
-                      https://cdn.pickuplimes.com/cache/3d/1a/3d1a311fa22ca23a58d5415785050fc6.jpg 349w" alt="image of Creamy &amp; Rich London Fog" sizes="(max-width: 420px) 10vw, 100vw">
+<a href="/recipe/btlt-bbq-tempeh-lettuce-tomato-sandwich-172">
+<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of BTLT: BBQ Tempeh Lettuce &amp; Tomato Sandwich" src="https://cdn.pickuplimes.com/cache/18/41/18412e84e5687da8ae40b9068bf73822.jpg" srcset="  https://cdn.pickuplimes.com/cache/18/41/18412e84e5687da8ae40b9068bf73822.jpg 500w,
+                      https://cdn.pickuplimes.com/cache/46/8f/468ffdc4afd614d1ecc68bbafca5cf05.jpg 349w" alt="image of BTLT: BBQ Tempeh Lettuce &amp; Tomato Sandwich" sizes="(max-width: 420px) 10vw, 100vw">
 <div style="height: auto;" align="left">
-<h3 style="padding-top: 1rem;">Creamy &amp; Rich London Fog</h3>
+<h3 style="padding-top: 1rem;">BTLT: BBQ Tempeh Lettuce &amp; Tomato Sandwich</h3>
 </div>
 </a>
 </div>
 <div class="recipe-thumbnail-cont hide-vw-lg">
-<a href="/recipe/red-velvet-latte-733">
-<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Red Velvet Latte" src="https://cdn.pickuplimes.com/cache/ae/56/ae56eb68e579a03290aadcb132e6a2fc.jpg" srcset="  https://cdn.pickuplimes.com/cache/ae/56/ae56eb68e579a03290aadcb132e6a2fc.jpg 500w,
-                      https://cdn.pickuplimes.com/cache/7b/b9/7bb92b415ddf3d1f8a01e5d2ff6550eb.jpg 349w" alt="image of Red Velvet Latte" sizes="(max-width: 420px) 10vw, 100vw">
+<a href="/recipe/bbq-cauliflower-and-chickpea-tray-bake-672">
+<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of BBQ Cauliflower and Chickpea Tray Bake" src="https://cdn.pickuplimes.com/cache/47/5a/475a108130d7fa7130b263b83528a80f.jpg" srcset="  https://cdn.pickuplimes.com/cache/47/5a/475a108130d7fa7130b263b83528a80f.jpg 500w,
+                      https://cdn.pickuplimes.com/cache/9e/f7/9ef7ff50dc8e0b285578efc6a813cdad.jpg 349w" alt="image of BBQ Cauliflower and Chickpea Tray Bake" sizes="(max-width: 420px) 10vw, 100vw">
 <div style="height: auto;" align="left">
-<h3 style="padding-top: 1rem;">Red Velvet Latte</h3>
+<h3 style="padding-top: 1rem;">BBQ Cauliflower and Chickpea Tray Bake</h3>
 </div>
 </a>
 </div>
@@ -1042,38 +1292,38 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 <div class="carousel-item ">
 <div class="container-flex">
 <div class="recipe-thumbnail-cont ">
-<a href="/recipe/vegan-gingerbread-latte-42">
-<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Vegan Gingerbread Latte" src="https://cdn.pickuplimes.com/cache/cd/0f/cd0f44e1340a82cba5a1aac677eaeae7.jpg" srcset="  https://cdn.pickuplimes.com/cache/cd/0f/cd0f44e1340a82cba5a1aac677eaeae7.jpg 500w,
-                      https://cdn.pickuplimes.com/cache/3b/54/3b5440d69c529c5f7991d0a97880c4a1.jpg 349w" alt="image of Vegan Gingerbread Latte" sizes="(max-width: 420px) 10vw, 100vw">
+<a href="/recipe/wild-rice-mushroom-burger-109">
+<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Mushroom &amp; Rice Burger" src="https://cdn.pickuplimes.com/cache/cf/a2/cfa26e153c34ebe8eb97e1f38e7b7b5a.jpg" srcset="  https://cdn.pickuplimes.com/cache/cf/a2/cfa26e153c34ebe8eb97e1f38e7b7b5a.jpg 500w,
+                      https://cdn.pickuplimes.com/cache/31/f1/31f16db2c11eb84049f2bc103bd62021.jpg 349w" alt="image of Mushroom &amp; Rice Burger" sizes="(max-width: 420px) 10vw, 100vw">
 <div style="height: auto;" align="left">
-<h3 style="padding-top: 1rem;">Vegan Gingerbread Latte</h3>
+<h3 style="padding-top: 1rem;">Mushroom &amp; Rice Burger</h3>
 </div>
 </a>
 </div>
 <div class="recipe-thumbnail-cont ">
-<a href="/recipe/cinnamon-coconut-cream-latte-40">
-<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Cinnamon Coconut Cream Latte" src="https://cdn.pickuplimes.com/cache/21/05/2105555708e1f722dcc7d4b8b239a864.jpg" srcset="  https://cdn.pickuplimes.com/cache/21/05/2105555708e1f722dcc7d4b8b239a864.jpg 500w,
-                      https://cdn.pickuplimes.com/cache/4b/5b/4b5bba8cd67aaf921e4b71409a51e95a.jpg 349w" alt="image of Cinnamon Coconut Cream Latte" sizes="(max-width: 420px) 10vw, 100vw">
+<a href="/recipe/vegan-egg-salad-sandwich-706">
+<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Vegan &quot;Egg&quot; Salad Sandwich" src="https://cdn.pickuplimes.com/cache/29/ae/29ae9ff86850e9955f57a7ab8d5d29db.jpg" srcset="  https://cdn.pickuplimes.com/cache/29/ae/29ae9ff86850e9955f57a7ab8d5d29db.jpg 500w,
+                      https://cdn.pickuplimes.com/cache/c3/9e/c39ee45927a439be911b2e653938b387.jpg 349w" alt="image of Vegan &quot;Egg&quot; Salad Sandwich" sizes="(max-width: 420px) 10vw, 100vw">
 <div style="height: auto;" align="left">
-<h3 style="padding-top: 1rem;">Cinnamon Coconut Cream Latte</h3>
+<h3 style="padding-top: 1rem;">Vegan &quot;Egg&quot; Salad Sandwich</h3>
 </div>
 </a>
 </div>
 <div class="recipe-thumbnail-cont hide-vw-md">
-<a href="/recipe/golden-vegan-hot-chocolate-179">
-<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Golden Vegan Hot Chocolate" src="https://cdn.pickuplimes.com/cache/9b/67/9b67c017a50014c6f1d8693c5084d084.jpg" srcset="  https://cdn.pickuplimes.com/cache/9b/67/9b67c017a50014c6f1d8693c5084d084.jpg 500w,
-                      https://cdn.pickuplimes.com/cache/ae/ff/aeff3596d7dbc98bca5e135eba1ef0c5.jpg 349w" alt="image of Golden Vegan Hot Chocolate" sizes="(max-width: 420px) 10vw, 100vw">
+<a href="/recipe/harissa-spiced-beans-898">
+<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Harissa Spiced Beans" src="https://cdn.pickuplimes.com/cache/a1/2e/a12e67f1ef0e769c27992185f056251d.jpg" srcset="  https://cdn.pickuplimes.com/cache/a1/2e/a12e67f1ef0e769c27992185f056251d.jpg 500w,
+                      https://cdn.pickuplimes.com/cache/76/7a/767a31f6028a5239bb1e299312bebc6c.jpg 349w" alt="image of Harissa Spiced Beans" sizes="(max-width: 420px) 10vw, 100vw">
 <div style="height: auto;" align="left">
-<h3 style="padding-top: 1rem;">Golden Vegan Hot Chocolate</h3>
+<h3 style="padding-top: 1rem;">Harissa Spiced Beans</h3>
 </div>
 </a>
 </div>
 <div class="recipe-thumbnail-cont hide-vw-lg">
-<a href="/recipe/peach-thyme-iced-tea-13">
-<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Peach Thyme Iced Tea" src="https://cdn.pickuplimes.com/cache/81/9a/819a8cb425d72ef0314f921d19aca1c8.jpg" srcset="  https://cdn.pickuplimes.com/cache/81/9a/819a8cb425d72ef0314f921d19aca1c8.jpg 500w,
-                      https://cdn.pickuplimes.com/cache/5c/e5/5ce593cb4b284d008d09ba0eb4803055.jpg 349w" alt="image of Peach Thyme Iced Tea" sizes="(max-width: 420px) 10vw, 100vw">
+<a href="/recipe/instant-thai-curry-noodle-soup-896">
+<img data-pin-no-hover="true" class="card-img mx-auto d-block" alt="image of Instant Thai Curry Noodle Soup" src="https://cdn.pickuplimes.com/cache/e3/0d/e30d390aed64e43f0686af084215941b.jpg" srcset="  https://cdn.pickuplimes.com/cache/e3/0d/e30d390aed64e43f0686af084215941b.jpg 500w,
+                      https://cdn.pickuplimes.com/cache/fc/6f/fc6f0e736551483474c8ae888f2e94f4.jpg 349w" alt="image of Instant Thai Curry Noodle Soup" sizes="(max-width: 420px) 10vw, 100vw">
 <div style="height: auto;" align="left">
-<h3 style="padding-top: 1rem;">Peach Thyme Iced Tea</h3>
+<h3 style="padding-top: 1rem;">Instant Thai Curry Noodle Soup</h3>
 </div>
 </a>
 </div>
@@ -1099,12 +1349,10 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 <div class="row row-pt pb-4" align="left">
 <div class="col-md-1"></div>
 <div class="col-md-10">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6114487152877035" crossorigin="anonymous"></script>
 
-<ins class="adsbygoogle" style="display:block" align="center" data-ad-client="ca-pub-6114487152877035" data-ad-slot="1289060933" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+<div class="not-mobile" style="min-height: 250px" data-fuse="22906592776"></div>
+
+<div class="mobile" style="min-height: 250px" data-fuse="22907156312"></div>
 </div>
 <div class="col-md-1"></div>
 </div>
@@ -1115,7 +1363,7 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 
 <div class="col-md-10">
 <section>
-<div id="comment-section" data-value="12">
+<div id="comment-section" data-value="30">
 <h2 align="left">Discussion & Rating</h2>
 
 <form method="POST" id="comment-form" class="pt-3">
@@ -1128,7 +1376,7 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 <div class="row">
 <div class="col-sm" style="padding: 0;">
 <div class="form-group">
-<input type="text" name="name" class="form-control" maxlength="100" required="" id="id_name" placeholder="Name (shown with your comment)" aria-label="Name">
+<input type="text" name="name" class="form-control" maxlength="100" required="" pattern=".*\S.*" id="id_name" placeholder="Name (shown with your comment)" aria-label="Name">
 <p class="comment_name_warn"></p>
 </div>
 </div>
@@ -1166,7 +1414,7 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 </div>
 <div>
 <p><input type="hidden" name="content_type" value="recipe" id="id_content_type"></p>
-<p><input type="hidden" name="object_id" value="1258" id="id_object_id"></p>
+<p><input type="hidden" name="object_id" value="1448" id="id_object_id"></p>
 </div>
 <button type="submit" class="btn btn-d-green">Submit
 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-down-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -1176,8 +1424,8 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 </form>
 <div class="comment-start"></div>
 <hr class="hr" />
-<div class="comment" align="left" comment_id="12619" id="comment-12619">
-<strong class="comment-name">Mary</strong><span class="comment-time"> - Feb. 17, 2023, 3:21 p.m.</span>
+<div class="comment" align="left" comment_id="16874" id="comment-16874">
+<strong class="comment-name">Nina</strong><span class="comment-time"> - July 12, 2023, 11:49 p.m.</span>
 <div class="rating-stars" data-value="5">
 <ul id='stars'>
 <li class='star' title='Poor' data-value='1'>
@@ -1198,7 +1446,7 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 </ul>
 </div>
 <div class="p-2"></div>
-<p><p>I tried this one for new years and it is SO TASTY - it&#39;s become a staple</p></p>
+<p><p>Easy and delicious, will definitely make this again! Thank you for the recipe! </p></p>
 <div class="reply-area">
 <div class="reply-start pt-2"></div>
 <div class="reply-form-placeholder"></div>
@@ -1212,8 +1460,8 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 </div>
 </div>
 <hr class="hr" />
-<div class="comment" align="left" comment_id="12542" id="comment-12542">
-<strong class="comment-name">Lindsay</strong><span class="comment-time"> - Feb. 13, 2023, 5:27 p.m.</span>
+<div class="comment" align="left" comment_id="16852" id="comment-16852">
+<strong class="comment-name">Liesbet</strong><span class="comment-time"> - July 12, 2023, 7:17 p.m.</span>
 <div class="rating-stars" data-value="5">
 <ul id='stars'>
 <li class='star' title='Poor' data-value='1'>
@@ -1234,14 +1482,8 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 </ul>
 </div>
 <div class="p-2"></div>
-<p><p>I made this on Christmas Eve for my family and we all loved it. My kids thought it was the coolest thing ever!</p></p>
+<p><p></p></p>
 <div class="reply-area">
-<div class="reply" align="left">
-<img class="img-fluid" width="20px" style="vertical-align: sub; border-radius: 0px" src="/static/images/logo/pul_logo_small_flat_250_279.d0527deb1499.png"></img>
-<strong class="comment-name">PUL Team</strong><span class="comment-time"> - Feb. 13, 2023, 7:10 p.m.</span>
-<div class="p-2"></div>
-<p><p>So honoured it was part of the festivities, Lindsay - thank you 😃</p></p>
-</div>
 <div class="reply-start pt-2"></div>
 <div class="reply-form-placeholder"></div>
 <div class="reply-button badge badge-d-red">
@@ -1254,8 +1496,8 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 </div>
 </div>
 <hr class="hr" />
-<div class="comment" align="left" comment_id="12228" id="comment-12228">
-<strong class="comment-name">Diana</strong><span class="comment-time"> - Feb. 4, 2023, 11:46 p.m.</span>
+<div class="comment" align="left" comment_id="16530" id="comment-16530">
+<strong class="comment-name">Amanda</strong><span class="comment-time"> - July 8, 2023, 7:22 p.m.</span>
 <div class="rating-stars" data-value="5">
 <ul id='stars'>
 <li class='star' title='Poor' data-value='1'>
@@ -1276,14 +1518,8 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 </ul>
 </div>
 <div class="p-2"></div>
-<p><p>Really delicious! I didn&#39;t have fresh thyme, but dried thyme from my balcony, it worked very well :)</p></p>
+<p><p>So delicious! I used the air fryer for the tofu tenders and it worked perfectly!</p></p>
 <div class="reply-area">
-<div class="reply" align="left">
-<img class="img-fluid" width="20px" style="vertical-align: sub; border-radius: 0px" src="/static/images/logo/pul_logo_small_flat_250_279.d0527deb1499.png"></img>
-<strong class="comment-name">PUL Team</strong><span class="comment-time"> - Feb. 5, 2023, 8:47 p.m.</span>
-<div class="p-2"></div>
-<p><p>Mmm dried thyme from your balcony sounds lovely, Diana! Thank you 🙂</p></p>
-</div>
 <div class="reply-start pt-2"></div>
 <div class="reply-form-placeholder"></div>
 <div class="reply-button badge badge-d-red">
@@ -1296,8 +1532,8 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 </div>
 </div>
 <hr class="hr" />
-<div class="comment" align="left" comment_id="11773" id="comment-11773">
-<strong class="comment-name">Laura</strong><span class="comment-time"> - Jan. 8, 2023, 7:47 p.m.</span>
+<div class="comment" align="left" comment_id="16470" id="comment-16470">
+<strong class="comment-name">Raveen Lemon</strong><span class="comment-time"> - July 8, 2023, 4:46 a.m.</span>
 <div class="rating-stars" data-value="5">
 <ul id='stars'>
 <li class='star' title='Poor' data-value='1'>
@@ -1318,7 +1554,7 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 </ul>
 </div>
 <div class="p-2"></div>
-<p><p>Another fantastic non alcoholic drink! I can also see this as being beneficial if you have a sore throat. Thank you!</p></p>
+<p><p>I loved the tofu SO MUCH. I used it in a grain bowl too. Definitely try this one!</p></p>
 <div class="reply-area">
 <div class="reply-start pt-2"></div>
 <div class="reply-form-placeholder"></div>
@@ -1332,8 +1568,8 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 </div>
 </div>
 <hr class="hr" />
-<div class="comment" align="left" comment_id="11650" id="comment-11650">
-<strong class="comment-name">Shan</strong><span class="comment-time"> - Dec. 30, 2022, 1:25 p.m.</span>
+<div class="comment" align="left" comment_id="16330" id="comment-16330">
+<strong class="comment-name">Mario</strong><span class="comment-time"> - July 6, 2023, 3:50 a.m.</span>
 <div class="rating-stars" data-value="5">
 <ul id='stars'>
 <li class='star' title='Poor' data-value='1'>
@@ -1354,14 +1590,8 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 </ul>
 </div>
 <div class="p-2"></div>
-<p><p>YUM, so amazing and easy! We loved it, thank you!</p></p>
+<p><p></p></p>
 <div class="reply-area">
-<div class="reply" align="left">
-<img class="img-fluid" width="20px" style="vertical-align: sub; border-radius: 0px" src="/static/images/logo/pul_logo_small_flat_250_279.d0527deb1499.png"></img>
-<strong class="comment-name">PUL Team</strong><span class="comment-time"> - Dec. 31, 2022, 3:29 a.m.</span>
-<div class="p-2"></div>
-<p><p>Woop woop - thank you, Shan!</p></p>
-</div>
 <div class="reply-start pt-2"></div>
 <div class="reply-form-placeholder"></div>
 <div class="reply-button badge badge-d-red">
@@ -1374,8 +1604,8 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 </div>
 </div>
 <hr class="hr" />
-<div class="comment" align="left" comment_id="11641" id="comment-11641">
-<strong class="comment-name">Brittany</strong><span class="comment-time"> - Dec. 30, 2022, 1:03 a.m.</span>
+<div class="comment" align="left" comment_id="16326" id="comment-16326">
+<strong class="comment-name">Kelly</strong><span class="comment-time"> - July 6, 2023, 1:30 a.m.</span>
 <div class="rating-stars" data-value="5">
 <ul id='stars'>
 <li class='star' title='Poor' data-value='1'>
@@ -1396,13 +1626,13 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 </ul>
 </div>
 <div class="p-2"></div>
-<p><p>Hi! Can I use dried thyme instead of fresh?</p></p>
+<p><p>This was absolutely superbly delicious! It was a tastebud explosion that I am so glad I took the time to make. A couple of notes: I used grainy Dijon as I ran out of plain Dijon and it was great. Didn’t need to top off the wrap with extra sauce, I recommend a pre shredded coleslaw with carrots bag from the grocery store to save time if needed. Also it’s probably best to have some lettuce in wrap because it is a messy wrap and it helps absorb some liquid. The only annoying thing was I had a fair amount of the panko seasoning mixture left that I didn’t use, so next time I’d make half portion of that for the 5 wrap servings and add more of the panko seasoning mixture as needed to prevent waste.</p></p>
 <div class="reply-area">
 <div class="reply" align="left">
 <img class="img-fluid" width="20px" style="vertical-align: sub; border-radius: 0px" src="/static/images/logo/pul_logo_small_flat_250_279.d0527deb1499.png"></img>
-<strong class="comment-name">PUL Team</strong><span class="comment-time"> - Dec. 30, 2022, 9:55 p.m.</span>
+<strong class="comment-name">PUL Team</strong><span class="comment-time"> - July 8, 2023, 7:14 a.m.</span>
 <div class="p-2"></div>
-<p><p>Hey Brittany, fresh is best for this one, but you could adjust the recipe to experiment with dried thyme. Dried thyme is more concentrated in flavour than fresh so perhaps 1/4-1/2 tsp per four servings is an example amount to start with. A fine mesh strainer will also help limit pieces from sneaking into the drink. We hope you enjoy the mocktail if you give it a try 😃</p></p>
+<p><p>Oh, Kelly, thank you so much for sharing your experience with the recipe! It means the world 🥰</p></p>
 </div>
 <div class="reply-start pt-2"></div>
 <div class="reply-form-placeholder"></div>
@@ -1416,138 +1646,8 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 </div>
 </div>
 <hr class="hr" />
-<div class="comment" align="left" comment_id="11605" id="comment-11605">
-<strong class="comment-name">Joe</strong><span class="comment-time"> - Dec. 28, 2022, 2:40 a.m.</span>
-<div class="p-2"></div>
-<p><p>Can I replace maple syrup with honey?</p></p>
-<div class="reply-area">
-<div class="reply" align="left">
-<img class="img-fluid" width="20px" style="vertical-align: sub; border-radius: 0px" src="/static/images/logo/pul_logo_small_flat_250_279.d0527deb1499.png"></img>
-<strong class="comment-name">PUL Team</strong><span class="comment-time"> - Dec. 28, 2022, 7:11 a.m.</span>
-<div class="p-2"></div>
-<p><p>Hey there, Joe! Thanks for the question. Since we only use plant-based products here at PUL we haven&#39;t tested it out, but we hope you enjoy the mocktail if you&#39;re able to give it a try ☺️</p></p>
-</div>
-<div class="reply-start pt-2"></div>
-<div class="reply-form-placeholder"></div>
-<div class="reply-button badge badge-d-red">
-<a class="reply-link" href="javascript:void(0)">Reply
-<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
-</svg>
-</a>
-</div>
-</div>
-</div>
-<hr class="hr" />
-<div class="comment" align="left" comment_id="11589" id="comment-11589">
-<strong class="comment-name">Samira</strong><span class="comment-time"> - Dec. 26, 2022, 7:19 p.m.</span>
-<div class="p-2"></div>
-<p><p>All our guests loved this mocktail and even our kids enjoyed a few sips. Thank you for this inspiration.</p></p>
-<div class="reply-area">
-<div class="reply" align="left">
-<img class="img-fluid" width="20px" style="vertical-align: sub; border-radius: 0px" src="/static/images/logo/pul_logo_small_flat_250_279.d0527deb1499.png"></img>
-<strong class="comment-name">PUL Team</strong><span class="comment-time"> - Dec. 28, 2022, 7:10 a.m.</span>
-<div class="p-2"></div>
-<p><p>Woohoo! It means so much, Samira 😃</p></p>
-</div>
-<div class="reply-start pt-2"></div>
-<div class="reply-form-placeholder"></div>
-<div class="reply-button badge badge-d-red">
-<a class="reply-link" href="javascript:void(0)">Reply
-<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
-</svg>
-</a>
-</div>
-</div>
-</div>
-<hr class="hr" />
-<div class="comment" align="left" comment_id="11585" id="comment-11585">
-<strong class="comment-name">Marjan</strong><span class="comment-time"> - Dec. 26, 2022, 11:04 a.m.</span>
-<div class="rating-stars" data-value="5">
-<ul id='stars'>
-<li class='star' title='Poor' data-value='1'>
-<i class='fa fa-star fa-fw'></i>
-</li>
-<li class='star' title='Fair' data-value='2'>
-<i class='fa fa-star fa-fw'></i>
-</li>
-<li class='star' title='Good' data-value='3'>
-<i class='fa fa-star fa-fw'></i>
-</li>
-<li class='star' title='Excellent' data-value='4'>
-<i class='fa fa-star fa-fw'></i>
-</li>
-<li class='star' title='WOW!' data-value='5'>
-<i class='fa fa-star fa-fw'></i>
-</li>
-</ul>
-</div>
-<div class="p-2"></div>
-<p><p>It&#39;s nice to have a fancy drink during Christmas. I don&#39;t drink but don&#39;t want to feel left out, so this was perfect, and it tasted so good too! Thank you!</p></p>
-<div class="reply-area">
-<div class="reply" align="left">
-<img class="img-fluid" width="20px" style="vertical-align: sub; border-radius: 0px" src="/static/images/logo/pul_logo_small_flat_250_279.d0527deb1499.png"></img>
-<strong class="comment-name">PUL Team</strong><span class="comment-time"> - Dec. 28, 2022, 7:06 a.m.</span>
-<div class="p-2"></div>
-<p><p>Oh so lovely, Marjan - we&#39;re so thrilled the mocktail was enjoyed!</p></p>
-</div>
-<div class="reply-start pt-2"></div>
-<div class="reply-form-placeholder"></div>
-<div class="reply-button badge badge-d-red">
-<a class="reply-link" href="javascript:void(0)">Reply
-<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
-</svg>
-</a>
-</div>
-</div>
-</div>
-<hr class="hr" />
-<div class="comment" align="left" comment_id="11579" id="comment-11579">
-<strong class="comment-name">Sonja</strong><span class="comment-time"> - Dec. 25, 2022, 1:32 p.m.</span>
-<div class="rating-stars" data-value="5">
-<ul id='stars'>
-<li class='star' title='Poor' data-value='1'>
-<i class='fa fa-star fa-fw'></i>
-</li>
-<li class='star' title='Fair' data-value='2'>
-<i class='fa fa-star fa-fw'></i>
-</li>
-<li class='star' title='Good' data-value='3'>
-<i class='fa fa-star fa-fw'></i>
-</li>
-<li class='star' title='Excellent' data-value='4'>
-<i class='fa fa-star fa-fw'></i>
-</li>
-<li class='star' title='WOW!' data-value='5'>
-<i class='fa fa-star fa-fw'></i>
-</li>
-</ul>
-</div>
-<div class="p-2"></div>
-<p><p>Just made these for xmas and it was a hit! Thanks so much and happy holidays!</p></p>
-<div class="reply-area">
-<div class="reply" align="left">
-<img class="img-fluid" width="20px" style="vertical-align: sub; border-radius: 0px" src="/static/images/logo/pul_logo_small_flat_250_279.d0527deb1499.png"></img>
-<strong class="comment-name">PUL Team</strong><span class="comment-time"> - Dec. 28, 2022, 6:55 a.m.</span>
-<div class="p-2"></div>
-<p><p>So happy to hear, Sonja, happy holidays 🤗</p></p>
-</div>
-<div class="reply-start pt-2"></div>
-<div class="reply-form-placeholder"></div>
-<div class="reply-button badge badge-d-red">
-<a class="reply-link" href="javascript:void(0)">Reply
-<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
-</svg>
-</a>
-</div>
-</div>
-</div>
-<hr class="hr" />
-<div class="comment" align="left" comment_id="11578" id="comment-11578">
-<strong class="comment-name">Michelle</strong><span class="comment-time"> - Dec. 25, 2022, 1:13 p.m.</span>
+<div class="comment" align="left" comment_id="16308" id="comment-16308">
+<strong class="comment-name">J</strong><span class="comment-time"> - July 5, 2023, 8:03 p.m.</span>
 <div class="rating-stars" data-value="4">
 <ul id='stars'>
 <li class='star' title='Poor' data-value='1'>
@@ -1568,7 +1668,91 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 </ul>
 </div>
 <div class="p-2"></div>
-<p><p>I live in a country where maple syrup isn’t available yet so I exchanged it with honey. It was so delicious would do again for a party! Everyone loved it.</p></p>
+<p><p>Delicious! I can’t believe how quick, easy and well that turned out AND our children loved the tofu - they don’t usually, weirdly they were not keen on the maple syrup. Thank you for a lovely recipe!</p></p>
+<div class="reply-area">
+<div class="reply" align="left">
+<img class="img-fluid" width="20px" style="vertical-align: sub; border-radius: 0px" src="/static/images/logo/pul_logo_small_flat_250_279.d0527deb1499.png"></img>
+<strong class="comment-name">PUL Team</strong><span class="comment-time"> - July 6, 2023, 8:11 a.m.</span>
+<div class="p-2"></div>
+<p><p>Yayy so thrilled to hear, J, thank you 😊</p></p>
+</div>
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="16111" id="comment-16111">
+<strong class="comment-name">Kris</strong><span class="comment-time"> - July 4, 2023, 1:50 a.m.</span>
+<div class="rating-stars" data-value="5">
+<ul id='stars'>
+<li class='star' title='Poor' data-value='1'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Fair' data-value='2'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Good' data-value='3'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Excellent' data-value='4'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='WOW!' data-value='5'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+</ul>
+</div>
+<div class="p-2"></div>
+<p><p>Turned out really well and I didn’t even follow the steps to a T— I opted to add lettuce and no cabbage as I got too hungry. Personally, I like mustard so I’d add a bit more mustard than maple syrup for the sauce. Will make again! :)</p></p>
+<div class="reply-area">
+<div class="reply" align="left">
+<img class="img-fluid" width="20px" style="vertical-align: sub; border-radius: 0px" src="/static/images/logo/pul_logo_small_flat_250_279.d0527deb1499.png"></img>
+<strong class="comment-name">PUL Team</strong><span class="comment-time"> - July 4, 2023, 4:29 a.m.</span>
+<div class="p-2"></div>
+<p><p>Thanks a bunch for taking the time to share, Kris! 😊</p></p>
+</div>
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="16098" id="comment-16098">
+<strong class="comment-name">Dorottya</strong><span class="comment-time"> - July 3, 2023, 9:55 p.m.</span>
+<div class="rating-stars" data-value="5">
+<ul id='stars'>
+<li class='star' title='Poor' data-value='1'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Fair' data-value='2'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Good' data-value='3'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Excellent' data-value='4'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='WOW!' data-value='5'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+</ul>
+</div>
+<div class="p-2"></div>
+<p><p>Really tasty, I made the tofu in an airfryer and worked perfectly. I think half the dry coating (breadcrumbs etc.) is enough otherwise perfect. </p></p>
 <div class="reply-area">
 <div class="reply-start pt-2"></div>
 <div class="reply-form-placeholder"></div>
@@ -1582,17 +1766,693 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 </div>
 </div>
 <hr class="hr" />
-<div class="comment" align="left" comment_id="11534" id="comment-11534">
-<strong class="comment-name">Michaela</strong><span class="comment-time"> - Dec. 20, 2022, 9:04 a.m.</span>
+<div class="comment" align="left" comment_id="16075" id="comment-16075">
+<strong class="comment-name">Krishna</strong><span class="comment-time"> - July 3, 2023, 7:47 p.m.</span>
 <div class="p-2"></div>
-<p><p>This sounds delicious. 🤤 Any ideas how to make this one warm?</p></p>
+<p><p></p></p>
+<div class="reply-area">
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="16068" id="comment-16068">
+<strong class="comment-name">Sumeesha </strong><span class="comment-time"> - July 3, 2023, 7:14 p.m.</span>
+<div class="rating-stars" data-value="4">
+<ul id='stars'>
+<li class='star' title='Poor' data-value='1'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Fair' data-value='2'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Good' data-value='3'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Excellent' data-value='4'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='WOW!' data-value='5'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+</ul>
+</div>
+<div class="p-2"></div>
+<p><p></p></p>
+<div class="reply-area">
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="16063" id="comment-16063">
+<strong class="comment-name">Zoë</strong><span class="comment-time"> - July 3, 2023, 6:31 p.m.</span>
+<div class="rating-stars" data-value="5">
+<ul id='stars'>
+<li class='star' title='Poor' data-value='1'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Fair' data-value='2'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Good' data-value='3'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Excellent' data-value='4'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='WOW!' data-value='5'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+</ul>
+</div>
+<div class="p-2"></div>
+<p><p>Made this along with the rhubarb tart for a friend coming over and it was DELICIOUS! My only niggle is there’s quite a bit of tidying up but I don’t really mind. I was wondering whether this could be done with halloumi￼ instead of the tofu (although it’s not vegan)? Thank you for making such wonderful recipes!! Side note: the mustard/mayo sauce is ADDICTIVE!</p></p>
 <div class="reply-area">
 <div class="reply" align="left">
 <img class="img-fluid" width="20px" style="vertical-align: sub; border-radius: 0px" src="/static/images/logo/pul_logo_small_flat_250_279.d0527deb1499.png"></img>
-<strong class="comment-name">PUL Team</strong><span class="comment-time"> - Dec. 21, 2022, 7:53 p.m.</span>
+<strong class="comment-name">PUL Team</strong><span class="comment-time"> - July 4, 2023, 4:29 a.m.</span>
 <div class="p-2"></div>
-<p><p>Hey Michaela, I personally wouldn&#39;t try heating this one. In case you&#39;re interested and haven&#39;t already seen, we also have a warm Non-Alcoholic Mulled Wine recipe here: <a href="http://pickuplimes.com/recipe/non-alcoholic-mulled-wine-1255" rel="nofollow">pickuplimes.com/recipe/non-al…</a> &amp; a warm mulled cider here: <a href="https://www.pickuplimes.com/recipe/mulled-spiced-apple-cider-102" rel="nofollow">https://www.pickuplimes.com/r…</a> 🙂</p></p>
+<p><p>So thrilled it was enjoyed, Zoë, thanks for sharing your experience with it! Since we only use plant-based products here at PUL we haven&#39;t tested it out with halloumi 🙂</p></p>
 </div>
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="16035" id="comment-16035">
+<strong class="comment-name">Robyn</strong><span class="comment-time"> - July 3, 2023, 1:52 p.m.</span>
+<div class="rating-stars" data-value="5">
+<ul id='stars'>
+<li class='star' title='Poor' data-value='1'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Fair' data-value='2'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Good' data-value='3'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Excellent' data-value='4'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='WOW!' data-value='5'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+</ul>
+</div>
+<div class="p-2"></div>
+<p><p>One of my favorites so far! <br>Lots of clean up, but worth it. My only problem was that my tortilla wasn’t big enough 😆</p></p>
+<div class="reply-area">
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="15914" id="comment-15914">
+<strong class="comment-name">Nicki</strong><span class="comment-time"> - July 2, 2023, 3:11 p.m.</span>
+<div class="rating-stars" data-value="5">
+<ul id='stars'>
+<li class='star' title='Poor' data-value='1'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Fair' data-value='2'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Good' data-value='3'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Excellent' data-value='4'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='WOW!' data-value='5'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+</ul>
+</div>
+<div class="p-2"></div>
+<p><p>Absolutely delicious</p></p>
+<div class="reply-area">
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="15876" id="comment-15876">
+<strong class="comment-name">Gunay</strong><span class="comment-time"> - July 2, 2023, 7:33 a.m.</span>
+<div class="rating-stars" data-value="5">
+<ul id='stars'>
+<li class='star' title='Poor' data-value='1'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Fair' data-value='2'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Good' data-value='3'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Excellent' data-value='4'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='WOW!' data-value='5'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+</ul>
+</div>
+<div class="p-2"></div>
+<p><p></p></p>
+<div class="reply-area">
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="15834" id="comment-15834">
+<strong class="comment-name">Dot</strong><span class="comment-time"> - July 1, 2023, 9:33 p.m.</span>
+<div class="rating-stars" data-value="4">
+<ul id='stars'>
+<li class='star' title='Poor' data-value='1'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Fair' data-value='2'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Good' data-value='3'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Excellent' data-value='4'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='WOW!' data-value='5'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+</ul>
+</div>
+<div class="p-2"></div>
+<p><p></p></p>
+<div class="reply-area">
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="15769" id="comment-15769">
+<strong class="comment-name">Karolina</strong><span class="comment-time"> - July 1, 2023, 12:11 p.m.</span>
+<div class="rating-stars" data-value="5">
+<ul id='stars'>
+<li class='star' title='Poor' data-value='1'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Fair' data-value='2'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Good' data-value='3'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Excellent' data-value='4'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='WOW!' data-value='5'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+</ul>
+</div>
+<div class="p-2"></div>
+<p><p>So delicious! I swapped cornstarch to potato starch and It turned out sooo good</p></p>
+<div class="reply-area">
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="15758" id="comment-15758">
+<strong class="comment-name">K</strong><span class="comment-time"> - July 1, 2023, 7:03 a.m.</span>
+<div class="p-2"></div>
+<p><p>Turned out amazing!</p></p>
+<div class="reply-area">
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="15734" id="comment-15734">
+<strong class="comment-name">Marie-Jade</strong><span class="comment-time"> - June 30, 2023, 9:36 p.m.</span>
+<div class="p-2"></div>
+<p><p>Pretty sure there is a mistake with the wet mixture quantities. If not, please explain :P Mine was a big clump. <br>Honey-mustard mixture was great though!</p></p>
+<div class="reply-area">
+<div class="reply" align="left">
+<img class="img-fluid" width="20px" style="vertical-align: sub; border-radius: 0px" src="/static/images/logo/pul_logo_small_flat_250_279.d0527deb1499.png"></img>
+<strong class="comment-name">PUL Team</strong><span class="comment-time"> - July 2, 2023, 5:48 p.m.</span>
+<div class="p-2"></div>
+<p><p>Hey Marie-Jade, the wet mixture - which consists of the cornstarch and water - just needs to be mixed together for a few seconds and it should be super thin and homogenous. If your mixture got clumpy, it could be that you added hot water instead of cold water. Hot water causes cornstarch to clump. I hope this helps for now in case you decide to give the recipe another try 😊</p></p>
+</div>
+<div class="reply" align="left">
+<strong class="comment-name">Marie-Jade</strong><span class="comment-time"> - July 3, 2023, 2:32 p.m.</span>
+<div class="p-2"></div>
+<p><p>Thank you for your reply :) I will definitely try it again :)</p></p>
+</div>
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+ <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="15723" id="comment-15723">
+<strong class="comment-name">Sjors</strong><span class="comment-time"> - June 30, 2023, 7:37 p.m.</span>
+<div class="rating-stars" data-value="3">
+<ul id='stars'>
+<li class='star' title='Poor' data-value='1'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Fair' data-value='2'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Good' data-value='3'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Excellent' data-value='4'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='WOW!' data-value='5'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+</ul>
+</div>
+<div class="p-2"></div>
+<p><p>Not a fan unfortunately. The tofu did not turn crispy and were not very flavourful. Too much mustard for my taste (and way to much sauce for the amount of wraps). And there is something off in the cornstarch ‘sauce’ measurements. Needs way more liquid.</p></p>
+<div class="reply-area">
+<div class="reply" align="left">
+<strong class="comment-name">h</strong><span class="comment-time"> - July 8, 2023, 3:37 p.m.</span>
+<div class="p-2"></div>
+<p><p>hryhrtj</p></p>
+</div>
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="15682" id="comment-15682">
+<strong class="comment-name">juhan</strong><span class="comment-time"> - June 30, 2023, 1:10 p.m.</span>
+<div class="rating-stars" data-value="5">
+<ul id='stars'>
+<li class='star' title='Poor' data-value='1'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Fair' data-value='2'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Good' data-value='3'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Excellent' data-value='4'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='WOW!' data-value='5'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+</ul>
+</div>
+<div class="p-2"></div>
+<p><p>I made this recipe for my dinner yesterday, just that I had to swap tofu and replaced with mushroom. And it was very delicious… I have to make this recipe again with tofu now❤️</p></p>
+<div class="reply-area">
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+ <hr class="hr" />
+<div class="comment" align="left" comment_id="15679" id="comment-15679">
+<strong class="comment-name">Zelam Sule</strong><span class="comment-time"> - June 30, 2023, 11:27 a.m.</span>
+<div class="rating-stars" data-value="5">
+<ul id='stars'>
+<li class='star' title='Poor' data-value='1'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Fair' data-value='2'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Good' data-value='3'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Excellent' data-value='4'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='WOW!' data-value='5'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+</ul>
+</div>
+<div class="p-2"></div>
+<p><p></p></p>
+<div class="reply-area">
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="15516" id="comment-15516">
+<strong class="comment-name">Eva</strong><span class="comment-time"> - June 28, 2023, 4:28 p.m.</span>
+<div class="rating-stars" data-value="5">
+<ul id='stars'>
+<li class='star' title='Poor' data-value='1'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Fair' data-value='2'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Good' data-value='3'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Excellent' data-value='4'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='WOW!' data-value='5'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+</ul>
+</div>
+<div class="p-2"></div>
+<p><p>Hi,<br>I love recipes like this, especially with the shredded cabbage. However, I have a question: what do you do with all the leftover cabbage?</p></p>
+<div class="reply-area">
+<div class="reply" align="left">
+<strong class="comment-name">kate</strong><span class="comment-time"> - June 29, 2023, 3:45 a.m.</span>
+<div class="p-2"></div>
+<p><p>I made a salad with all the extras — butter lettuce, cabbage &amp; carrots, tofu, and tomato slices. The cabbage was saucy enough I didn’t need any other dressing.</p></p>
+</div>
+<div class="reply" align="left">
+<strong class="comment-name">PUL Team</strong><span class="comment-time"> - June 29, 2023, 8:07 a.m.</span>
+<div class="p-2"></div>
+<p><p>A lovely idea to make salad! We have a collection of recipes that include cabbage here if you&#39;re looking for inspiration, Eva: https://www.pickuplimes.com/recipe/?sb=&amp;total_time=&amp;ingredient_type_include=53&amp;sort_by=</p></p>
+</div>
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="15490" id="comment-15490">
+<strong class="comment-name">Tim</strong><span class="comment-time"> - June 28, 2023, 10:46 a.m.</span>
+<div class="rating-stars" data-value="5">
+<ul id='stars'>
+<li class='star' title='Poor' data-value='1'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Fair' data-value='2'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Good' data-value='3'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Excellent' data-value='4'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='WOW!' data-value='5'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+</ul>
+</div>
+<div class="p-2"></div>
+<p><p>So good! Will be making again!</p></p>
+<div class="reply-area">
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="15441" id="comment-15441">
+<strong class="comment-name">Nadia S</strong><span class="comment-time"> - June 27, 2023, 9:28 p.m.</span>
+<div class="p-2"></div>
+<p><p>Made this today! It was packed with flavor. The Dijon mustard and the maple syrup was *chef-kiss* <br>I did use a medium pan and I should’ve used a larger one to fry all the tofu and not half the batch. The first batch was perfect and the second one was less perfect. Learn from me and use the bigger pan.</p></p>
+<div class="reply-area">
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="15330" id="comment-15330">
+<strong class="comment-name">Kristen</strong><span class="comment-time"> - June 27, 2023, 12:08 a.m.</span>
+<div class="p-2"></div>
+<p><p>Absolutely delish! Our whole family loved them, especially the tofu tenders :)</p></p>
+<div class="reply-area">
+<div class="reply" align="left">
+<img class="img-fluid" width="20px" style="vertical-align: sub; border-radius: 0px" src="/static/images/logo/pul_logo_small_flat_250_279.d0527deb1499.png"></img>
+<strong class="comment-name">PUL Team</strong><span class="comment-time"> - June 27, 2023, 12:26 a.m.</span>
+<div class="p-2"></div>
+<p><p>Woohoo! Thanks a bunch, Kristen 🤗</p></p>
+</div>
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+ </div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="15306" id="comment-15306">
+<strong class="comment-name">Yulia S</strong><span class="comment-time"> - June 26, 2023, 9:31 p.m.</span>
+<div class="rating-stars" data-value="5">
+<ul id='stars'>
+<li class='star' title='Poor' data-value='1'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Fair' data-value='2'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Good' data-value='3'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Excellent' data-value='4'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='WOW!' data-value='5'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+</ul>
+</div>
+<div class="p-2"></div>
+<p><p>took me a bit longer than 30 min but so worth it!</p></p>
+<div class="reply-area">
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="15297" id="comment-15297">
+<strong class="comment-name">Meta</strong><span class="comment-time"> - June 26, 2023, 8:41 p.m.</span>
+<div class="rating-stars" data-value="5">
+<ul id='stars'>
+<li class='star' title='Poor' data-value='1'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Fair' data-value='2'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Good' data-value='3'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Excellent' data-value='4'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='WOW!' data-value='5'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+</ul>
+</div>
+<div class="p-2"></div>
+<p><p>Super good app!!!!🤩🤩🤩😋</p></p>
+<div class="reply-area">
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="15284" id="comment-15284">
+<strong class="comment-name">Monika </strong><span class="comment-time"> - June 26, 2023, 7:24 p.m.</span>
+<div class="rating-stars" data-value="5">
+<ul id='stars'>
+<li class='star' title='Poor' data-value='1'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Fair' data-value='2'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Good' data-value='3'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Excellent' data-value='4'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='WOW!' data-value='5'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+</ul>
+</div>
+<div class="p-2"></div>
+<p><p>Its just brilliant ! </p></p>
+<div class="reply-area">
+<div class="reply-start pt-2"></div>
+<div class="reply-form-placeholder"></div>
+<div class="reply-button badge badge-d-red">
+<a class="reply-link" href="javascript:void(0)">Reply
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<hr class="hr" />
+<div class="comment" align="left" comment_id="15272" id="comment-15272">
+<strong class="comment-name">Alex</strong><span class="comment-time"> - June 26, 2023, 6:03 p.m.</span>
+<div class="rating-stars" data-value="5">
+<ul id='stars'>
+<li class='star' title='Poor' data-value='1'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Fair' data-value='2'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Good' data-value='3'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='Excellent' data-value='4'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+<li class='star' title='WOW!' data-value='5'>
+<i class='fa fa-star fa-fw'></i>
+</li>
+</ul>
+</div>
+<div class="p-2"></div>
+<p><p></p></p>
+<div class="reply-area">
 <div class="reply-start pt-2"></div>
 <div class="reply-form-placeholder"></div>
 <div class="reply-button badge badge-d-red">
@@ -1615,7 +2475,7 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 <div class="row">
 <div class="col-sm" style="padding: 0">
 <div class="form-group">
-<input type="text" name="name" class="form-control" maxlength="100" required="" id="id_name_reply" placeholder="Name">
+<input type="text" name="name" class="form-control" maxlength="100" required="" pattern=".*\S.*" id="id_name_reply" placeholder="Name">
 <p class="comment_name_warn"></p>
 </div>
 </div>
@@ -1642,6 +2502,7 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 </section>
 
 <div class="col-md-1"></div>
+</div>
 </div>
 </div>
 </article>
@@ -1700,7 +2561,7 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 <div class="footer-links">
 <a class="nav-link" href="/about">About</a>
 <a class="nav-link" href="/privacy">Privacy</a>
-<a class="nav-link" href="/terms#contact-section">Contact</a>
+<a class="nav-link" href="/support">Support</a>
 <a class="nav-link" href="/terms">Terms</a>
 </div>
 </div>
@@ -1713,25 +2574,28 @@ see also our <a class="link" target="_blank" href="/terms#nutrition-disc">discla
 </footer>
 
 <a id="up-button" title="Go to the top">
-<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
-<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+<svg height="28" width="28" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="white">
+<g stroke-width="0"></g>
+<g stroke-linecap="round" stroke-linejoin="round"></g>
+<g>
+<style type="text/css"> .st0{fill:#FFFFFF;} </style>
+<g>
+<path class="st0" d="M184.025,259.35h26.422c6.953,0,12.609,5.652,12.609,12.605v75.034c0,8.708,7.082,15.792,15.788,15.792h34.314 c8.706,0,15.786-7.084,15.786-15.792v-75.034c0-6.952,5.658-12.605,12.611-12.605h26.422c4.412,0,7.584-1.494,8.93-4.208 c1.347-2.71,0.619-6.141-2.046-9.658l-69.012-90.966c-2.591-3.412-6.089-5.295-9.85-5.295c-3.76,0-7.258,1.883-9.849,5.295 l-69.012,90.966c-2.667,3.517-3.393,6.949-2.046,9.658C176.439,257.856,179.613,259.35,184.025,259.35z"></path>
+<path class="st0" d="M256,0C114.842,0,0.002,114.84,0.002,256S114.842,512,256,512c141.158,0,255.998-114.84,255.998-256 S397.158,0,256,0z M256,66.785c104.334,0,189.216,84.879,189.216,189.215S360.334,445.215,256,445.215S66.783,360.336,66.783,256 S151.667,66.785,256,66.785z"></path>
+</g>
+</g>
 </svg>
 </a>
 
 <a id="feedback-button" href="/feedback" title="Feedback">
-
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18pt" height="18pt" viewBox="0 0 184 186" version="1.1">
-<g id="surface10533">
-<path style="fill:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:10;" d="M 360 768 L 256 768 C 238.328125 768 224 753.671875 224 736 L 224 672 C 224 654.328125 238.328125 640 256 640 L 256 608 L 288 640 L 352 640 C 369.671875 640 384 654.328125 384 672 L 384 744 " transform="matrix(1,0,0,-1,-221,792)" />
-<path style="fill:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:10;" d="M 248 728 L 330.007812 728 " transform="matrix(1,0,0,-1,-221,792)" />
-<path style="fill:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:10;" d="M 248 704 L 312.429688 704 " transform="matrix(1,0,0,-1,-221,792)" />
-<path style="fill:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:10;" d="M 248 680 L 307.1875 680 " transform="matrix(1,0,0,-1,-221,792)" />
-<path style="fill:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:round;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:10;" d="M 353.425781 746.253906 C 322.449219 706.898438 321.042969 705.109375 320.65625 703.964844 C 320.269531 702.820312 320.902344 702.320312 320.789062 701.445312 C 320.671875 700.574219 319.804688 699.324219 318.667969 696.355469 C 317.53125 693.386719 316.125 688.699219 315.308594 685.480469 C 314.488281 682.261719 314.257812 680.515625 314.960938 679.957031 C 315.667969 679.402344 317.3125 680.039062 319.894531 681.871094 C 322.480469 683.699219 326 686.722656 328.230469 688.828125 C 330.460938 690.9375 331.398438 692.128906 332.222656 692.445312 C 333.042969 692.765625 333.75 692.210938 334.570312 692.527344 C 335.394531 692.847656 336.332031 694.039062 347.128906 707.753906 C 357.921875 721.46875 378.570312 747.703125 389.367188 761.417969 C 400.160156 775.132812 401.097656 776.324219 401.214844 777.199219 C 401.332031 778.074219 400.625 778.628906 398.507812 780.296875 C 396.390625 781.960938 392.863281 784.738281 390.746094 786.40625 C 388.628906 788.074219 387.921875 788.628906 386.863281 788.011719 C 385.808594 787.394531 384.398438 785.605469 353.425781 746.253906 " transform="matrix(1,0,0,-1,-221,792)" />
-<path style="fill:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:round;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:10;" d="M 317.335938 692.5 L 325.316406 686.203125 " transform="matrix(1,0,0,-1,-221,792)" />
-<path style="fill:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:10;" d="M 352 704 L 360 704 " transform="matrix(1,0,0,-1,-221,792)" />
+<svg width="18pt" height="18pt" viewBox="0 -1 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g stroke-width="0"></g>
+<g stroke-linecap="round" stroke-linejoin="round"></g>
+<g>
+<path d="M17 2H7C4.24 2 2 4.23 2 6.98V12.96V13.96C2 16.71 4.24 18.94 7 18.94H8.5C8.77 18.94 9.13 19.12 9.3 19.34L10.8 21.33C11.46 22.21 12.54 22.21 13.2 21.33L14.7 19.34C14.89 19.09 15.19 18.94 15.5 18.94H17C19.76 18.94 22 16.71 22 13.96V6.98C22 4.23 19.76 2 17 2ZM8 12C7.44 12 7 11.55 7 11C7 10.45 7.45 10 8 10C8.55 10 9 10.45 9 11C9 11.55 8.56 12 8 12ZM12 12C11.44 12 11 11.55 11 11C11 10.45 11.45 10 12 10C12.55 10 13 10.45 13 11C13 11.55 12.56 12 12 12ZM16 12C15.44 12 15 11.55 15 11C15 10.45 15.45 10 16 10C16.55 10 17 10.45 17 11C17 11.55 16.56 12 16 12Z" fill="white"></path>
 </g>
 </svg>
 </a>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vb26e4fa9e5134444860be286fd8771851679335129114" integrity="sha512-M3hN/6cva/SjwrOtyXeUa5IuCT0sedyfT+jK/OV+s+D0RnzrTfwjwJHhd+wYfMm9HJSrZ1IKksOdddLuN6KOzw==" data-cf-beacon='{"rayId":"7ac8d79568ec23d3","version":"2023.3.0","b":1,"token":"4c500e845fbf4fd8b002721dac59c8b1","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v2cb3a2ab87c5498db5ce7e6608cf55231689030342039" integrity="sha512-DI3rPuZDcpH/mSGyN22erN5QFnhl760f50/te7FTIYxodEF8jJnSFnfnmG/c+osmIQemvUrnBtxnMpNdzvx1/g==" data-cf-beacon='{"rayId":"7e6ab96dec8323ff","version":"2023.4.0","b":1,"token":"4c500e845fbf4fd8b002721dac59c8b1","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>

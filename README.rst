@@ -93,6 +93,7 @@ Scrapers available for:
 - `https://biancazapatka.com/ <https://biancazapatka.com>`_
 - `https://bigoven.com/ <https://bigoven.com>`_
 - `https://blueapron.com/ <https://blueapron.com>`_
+- `https://bluejeanchef.com/ <https://bluejeanchef.com/>`_
 - `https://bonappetit.com/ <https://bonappetit.com>`_
 - `https://www.bodybuilding.com/ <https://www.bodybuilding.com/>`_
 - `https://bongeats.com/ <https://bongeats.com/>`_
@@ -174,6 +175,7 @@ Scrapers available for:
 - `https://indianhealthyrecipes.com <https://www.indianhealthyrecipes.com>`_
 - `https://www.innit.com/ <https://www.innit.com/>`_
 - `https://inspiralized.com/ <https://inspiralized.com>`_
+- `https://izzycooking.com/ <https://izzycooking.com/>`_
 - `https://jamieoliver.com/ <https://jamieoliver.com>`_
 - `https://jimcooksfoodgood.com/ <https://jimcooksfoodgood.com/>`_
 - `https://joyfoodsunshine.com/ <https://joyfoodsunshine.com>`_
@@ -184,6 +186,7 @@ Scrapers available for:
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
 - `https://www.kitchenstories.com/ <https://www.kitchenstories.com>`_
 - `https://kochbar.de/ <https://kochbar.de>`_
+- `https://kochbucher.com/ <https://kochbucher.com/>`_
 - `http://koket.se/ <http://koket.se>`_
 - `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
 - `https://www.kwestiasmaku.com/ <https://www.kwestiasmaku.com/>`_
@@ -198,6 +201,7 @@ Scrapers available for:
 - `https://www.maangchi.com <https://www.maangchi.com>`_
 - `https://madensverden.dk/ <https://madensverden.dk/>`_
 - `https://www.madewithlau.com/ <https://www.madewithlau.com/>`_
+- `https://madsvin.com/ <https://madsvin.com/>`_
 - `https://marmiton.org/ <https://marmiton.org/>`_
 - `https://www.marthastewart.com/ <https://www.marthastewart.com/>`_
 - `https://matprat.no/ <https://matprat.no/>`_
@@ -205,6 +209,7 @@ Scrapers available for:
 - `https://www.melskitchencafe.com/ <https://www.melskitchencafe.com/>`_
 - `http://mindmegette.hu/ <http://mindmegette.hu/>`_
 - `https://minimalistbaker.com/ <https://minimalistbaker.com/>`_
+- `https://ministryofcurry.com/ <hhttps://ministryofcurry.com/>`_
 - `https://misya.info/ <https://misya.info>`_
 - `https://www.mobkitchen.co.uk/ <https://www.mobkitchen.co.uk/>`_
 - `https://momswithcrockpots.com/ <https://momswithcrockpots.com>`_
@@ -281,9 +286,12 @@ Scrapers available for:
 - `https://theexpertguides.com/ <https://theexpertguides.com>`_
 - `https://thehappyfoodie.co.uk/ <https://thehappyfoodie.co.uk>`_
 - `https://www.thekitchenmagpie.com/ <https://www.thekitchenmagpie.com>`_
+- `https://thekitchencommunity.org/ <hhttps://thekitchencommunity.org/>`_
 - `https://thekitchn.com/ <https://thekitchn.com/>`_
+- `https://themodernproper.com/ <https://themodernproper.com/>`_
 - `https://thenutritiouskitchen.co/ <https://thenutritiouskitchen.co/>`_
 - `https://thepioneerwoman.com/ <https://thepioneerwoman.com>`_
+- `https://therecipecritic.com/ <https://therecipecritic.com>`_
 - `https://thespruceeats.com/ <https://thespruceeats.com/>`_
 - `https://thevintagemixer.com/ <https://thevintagemixer.com>`_
 - `https://thewoksoflife.com/ <https://thewoksoflife.com/>`_
@@ -294,6 +302,7 @@ Scrapers available for:
 - `https://usapears.org/ <https://usapears.org>`_
 - `https://www.valdemarsro.dk/ <https://www.valdemarsro.dk/>`_
 - `https://vanillaandbean.com/ <https://vanillaandbean.com>`_
+- `https://www.vegetarbloggen.no/ <https://www.vegetarbloggen.no/>`_
 - `https://vegolosi.it/ <https://vegolosi.it>`_
 - `https://vegrecipesofindia.com/ <https://www.vegrecipesofindia.com/>`_
 - `https://watchwhatueat.com/ <https://watchwhatueat.com/>`_
