@@ -189,6 +189,7 @@ Scrapers available for:
 - `https://www.im-worthy.com/ <https://www.im-worthy.com>`_
 - `https://indianhealthyrecipes.com <https://www.indianhealthyrecipes.com>`_
 - `https://www.innit.com/ <https://www.innit.com/>`_
+- `https://insanelygoodrecipes.com <https://insanelygoodrecipes.com/>`_
 - `https://inspiralized.com/ <https://inspiralized.com>`_
 - `https://izzycooking.com/ <https://izzycooking.com/>`_
 - `https://jamieoliver.com/ <https://jamieoliver.com>`_
@@ -232,7 +233,7 @@ Scrapers available for:
 - `https://www.melskitchencafe.com/ <https://www.melskitchencafe.com/>`_
 - `http://mindmegette.hu/ <http://mindmegette.hu/>`_
 - `https://minimalistbaker.com/ <https://minimalistbaker.com/>`_
-- `https://ministryofcurry.com/ <hhttps://ministryofcurry.com/>`_
+- `https://ministryofcurry.com/ <https://ministryofcurry.com/>`_
 - `https://misya.info/ <https://misya.info>`_
 - `https://www.mobkitchen.co.uk/ <https://www.mobkitchen.co.uk/>`_
 - `https://momswithcrockpots.com/ <https://momswithcrockpots.com>`_
@@ -309,7 +310,7 @@ Scrapers available for:
 - `https://theexpertguides.com/ <https://theexpertguides.com>`_
 - `https://thehappyfoodie.co.uk/ <https://thehappyfoodie.co.uk>`_
 - `https://www.thekitchenmagpie.com/ <https://www.thekitchenmagpie.com>`_
-- `https://thekitchencommunity.org/ <hhttps://thekitchencommunity.org/>`_
+- `https://thekitchencommunity.org/ <https://thekitchencommunity.org/>`_
 - `https://thekitchn.com/ <https://thekitchn.com/>`_
 - `https://themodernproper.com/ <https://themodernproper.com/>`_
 - `https://thenutritiouskitchen.co/ <https://thenutritiouskitchen.co/>`_
