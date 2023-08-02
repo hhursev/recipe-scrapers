@@ -27,8 +27,7 @@ class WellPlated(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        instructions = self.schema.instructions()
-        return instructions
+        return self.schema.instructions()
 
     def ratings(self):
         return self.schema.ratings()
