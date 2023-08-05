@@ -17,6 +17,9 @@ class TestWellPlatedScraper(ScraperTest):
     def test_category(self):
         self.assertEqual("Main Course", self.harvester_class.category())
 
+    def test_author(self):
+        self.assertEqual("Erin Clarke", self.harvester_class.author())
+
     def test_total_time(self):
         self.assertEqual(25, self.harvester_class.total_time())
 
