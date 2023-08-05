@@ -16,6 +16,9 @@ class TestStaySnatchedScraper(ScraperTest):
             "Slow Cooker Chili Mac and Cheese", self.harvester_class.title()
         )
 
+    def test_author(self):
+        self.assertEqual("Brandi Crawford", self.harvester_class.author())
+
     def test_category(self):
         self.assertEqual("dinner,lunch", self.harvester_class.category())
 
