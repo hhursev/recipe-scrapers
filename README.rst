@@ -280,6 +280,7 @@ Scrapers available for:
 - `https://rutgerbakt.nl/ <https://rutgerbakt.nl/>`_
 - `https://sallysbakingaddiction.com <https://sallysbakingaddiction.com/>`_
 - `https://sallys-blog.de <https://sallys-blog.de/>`_
+- `https://saltpepperskillet.com/ <https://saltpepperskillet.com/>`_
 - `https://www.saveur.com/ <https://www.saveur.com/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_
 - `https://simple-veganista.com/ <https://simple-veganista.com/>`_
