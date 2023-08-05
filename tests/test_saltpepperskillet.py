@@ -11,6 +11,9 @@ class TestSaltPepperSkilletScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("saltpepperskillet.com", self.harvester_class.host())
 
+    def test_author(self):
+        self.assertEqual("Justin", self.harvester_class.author())
+
     def test_title(self):
         self.assertEqual("Smoked Whole Chicken Recipe", self.harvester_class.title())
 
