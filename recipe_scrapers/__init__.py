@@ -247,6 +247,7 @@ from .vegrecipesofindia import VegRecipesOfIndia
 from .watchwhatueat import WatchWhatUEat
 from .weightwatchers import WeightWatchers
 from .weightwatcherspublic import WeightWatchersPublic
+from .wellplated import WellPlated
 from .whatsgabycooking import WhatsGabyCooking
 from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
@@ -526,6 +527,7 @@ SCRAPERS = {
     WatchWhatUEat.host(): WatchWhatUEat,
     WeightWatchers.host(): WeightWatchers,
     WeightWatchersPublic.host(): WeightWatchersPublic,
+    WellPlated.host(): WellPlated,
     WhatsGabyCooking.host(): WhatsGabyCooking,
     WholeFoods.host(): WholeFoods,
     WholeFoods.host(domain="co.uk"): WholeFoods,
