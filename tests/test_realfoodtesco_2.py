@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestRealFoodTescoScraper2(ScraperTest):
-
     scraper_class = RealFoodTesco
     test_file_name = "realfoodtesco_2"
     maxDiff = None
@@ -15,7 +14,9 @@ class TestRealFoodTescoScraper2(ScraperTest):
         self.assertEqual("Tesco Real Food", self.harvester_class.author())
 
     def test_title(self):
-        self.assertEqual("BBQ cauliflower steaks and herb sauce", self.harvester_class.title())
+        self.assertEqual(
+            "BBQ cauliflower steaks and herb sauce", self.harvester_class.title()
+        )
 
     def test_total_time(self):
         self.assertEqual(22, self.harvester_class.total_time())
