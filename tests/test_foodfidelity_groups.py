@@ -84,7 +84,7 @@ class TestFoodFidelity(ScraperTest):
                         "2/3 cup orange juice",
                         "1 1/3 cups pearl couscous",
                     ],
-                    purpose="Couscous Ingredients▢ 1 cup water▢ ⅔ cup orange juice▢ 1 ⅓ cups pearl couscous",
+                    purpose="Couscous Ingredients",
                 ),
                 IngredientGroup(
                     ingredients=[
@@ -95,7 +95,7 @@ class TestFoodFidelity(ScraperTest):
                         "1/2 tsp peppercorns",
                         "1 cup white vinegar",
                     ],
-                    purpose="Pickled red onions Ingredients▢ 1 cups sliced red onion▢ 1 clove garlic▢ 3 Tbsp white sugar▢ 1 Tbsp salt▢ ½ tsp peppercorns▢ 1 cup white vinegar",
+                    purpose="Pickled red onions Ingredients",
                 ),
                 IngredientGroup(
                     ingredients=[
@@ -104,14 +104,14 @@ class TestFoodFidelity(ScraperTest):
                         "Kosher salt and freshly ground black pepper",
                         "1 lemon",
                     ],
-                    purpose="Grilled asparagus Ingredients▢ 1 pound asparagus trimmed▢ 3 tablespoons extra-virgin olive oil▢ Kosher salt and freshly ground black pepper▢ 1 lemon",
+                    purpose="Grilled asparagus Ingredients",
                 ),
                 IngredientGroup(
                     ingredients=[
                         "1 cup white wine",
                         "1 cup dried cranberries",
                     ],
-                    purpose="Wine soaked cranberries Ingredients▢ 1 cup white wine▢ 1 cup dried cranberries",
+                    purpose="Wine soaked cranberries Ingredients",
                 ),
             ],
             self.harvester_class.ingredient_groups(),

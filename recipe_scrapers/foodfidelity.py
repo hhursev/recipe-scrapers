@@ -37,7 +37,7 @@ class FoodFidelity(AbstractScraper):
         return group_ingredients(
             self.ingredients(),
             self.soup,
-            ".wprm-recipe-ingredient-group",
+            ".wprm-recipe-ingredient-group h4",
             ".wprm-recipe-ingredient",
         )
 
