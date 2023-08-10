@@ -13,7 +13,7 @@ class FoodFidelity(AbstractScraper):
         author_tag = self.soup.find("span", {"class": "byline"}).find(
             "a", {"class": "url fn n"}
         )
-        return author_tag.get_text() if author_tag else ""
+        return author_tag.get_text() if author_tag else "Food Fidelity"
 
     def title(self):
         return self.schema.title()
