@@ -45,12 +45,12 @@ def score_sentence_similarity(first: str, second: str) -> float:
         # so the score is 0
         return 0
 
-    firest_bigrams = set([first[i : i + 2] for i in range(len(first) - 1)])
+    first_bigrams = set([first[i : i + 2] for i in range(len(first) - 1)])
     second_bigrams = set([second[i : i + 2] for i in range(len(second) - 1)])
 
-    intersection = firest_bigrams & second_bigrams
+    intersection = first_bigrams & second_bigrams
 
-    return 2.0 * len(intersection) / (len(firest_bigrams) + len(second_bigrams))
+    return 2.0 * len(intersection) / (len(first_bigrams) + len(second_bigrams))
 
 
 def best_match(test_string: str, target_strings: List[str]) -> str:
