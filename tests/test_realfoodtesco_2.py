@@ -1,3 +1,4 @@
+from recipe_scrapers._grouping_utils import IngredientGroup
 from recipe_scrapers.realfoodtesco import RealFoodTesco
 from tests import ScraperTest
 
@@ -33,17 +34,27 @@ class TestRealFoodTescoScraper2(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "2 cauliflowers, outer leaves removed",
-                "6 tbsp extra virgin olive oil",
-                "1 tsp caraway seeds",
-                "2 garlic cloves, crushed",
-                "30g fresh basil, finely chopped",
-                "30g fresh parsley, finely chopped",
-                "3 spring onions, trimmed and finely chopped",
-                "1 green chilli, finely chopped",
-                "1-2 lemons",
+                IngredientGroup(
+                    ingredients=[
+                        "2 cauliflowers, outer leaves removed",
+                        "6 tbsp extra virgin olive oil",
+                        "1 tsp caraway seeds",
+                        "2 garlic cloves, crushed",
+                    ],
+                    purpose=None,
+                ),
+                IngredientGroup(
+                    ingredients=[
+                        "30g fresh basil, finely chopped",
+                        "30g fresh parsley, finely chopped",
+                        "3 spring onions, trimmed and finely chopped",
+                        "1 green chilli, finely chopped",
+                        "1-2 lemons",
+                    ],
+                    purpose="For the herb sauce",
+                ),
             ],
-            self.harvester_class.ingredients(),
+            self.harvester_class.ingredient_groups(),
         )
 
     def test_instructions(self):
