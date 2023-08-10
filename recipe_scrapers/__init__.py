@@ -77,6 +77,7 @@ from .fitmencook import FitMenCook
 from .food import Food
 from .food52 import Food52
 from .foodandwine import FoodAndWine
+from .foodfidelity import FoodFidelity
 from .foodnetwork import FoodNetwork
 from .foodrepublic import FoodRepublic
 from .forksoverknives import ForksOverKnives
@@ -333,6 +334,7 @@ SCRAPERS = {
     Food.host(): Food,
     Food52.host(): Food52,
     FoodAndWine.host(): FoodAndWine,
+    FoodFidelity.host(): FoodFidelity,
     FoodNetwork.host(): FoodNetwork,
     FoodRepublic.host(): FoodRepublic,
     ForkToSpoon.host(): ForkToSpoon,
