@@ -2,9 +2,10 @@ from recipe_scrapers.realfoodtesco import RealFoodTesco
 from tests import ScraperTest
 
 
-class TestRealFoodTescoScraper(ScraperTest):
+class TestRealFoodTescoScraper1(ScraperTest):
 
     scraper_class = RealFoodTesco
+    test_file_name = "realfoodtesco_1"
 
     def test_host(self):
         self.assertEqual("realfood.tesco.com", self.harvester_class.host())
