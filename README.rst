@@ -259,6 +259,7 @@ Scrapers available for:
 - `https://paninihappy.com/ <https://paninihappy.com>`_
 - `https://www.pickuplimes.com/ <https://www.pickuplimes.com/>`_
 - `https://www.pingodoce.pt/ <https://www.pingodoce.pt>`_
+- `https://www.platingpixels.com/ <https://www.platingpixels.com/>`_
 - `https://popsugar.com/ <https://popsugar.com>`_
 - `https://practicalselfreliance.com/ <https://practicalselfreliance.com>`_
 - `https://pressureluckcooking.com/ <https://pressureluckcooking.com/>`_
