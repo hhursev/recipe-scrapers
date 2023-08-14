@@ -1,3 +1,4 @@
+from recipe_scrapers._grouping_utils import IngredientGroup
 from recipe_scrapers.twopeasandtheirpod import TwoPeasAndTheirPod
 from tests import ScraperTest
 
@@ -5,6 +6,7 @@ from tests import ScraperTest
 class TestTwoPeasAndTheirPodScraper(ScraperTest):
 
     scraper_class = TwoPeasAndTheirPod
+    test_file_name = "twopeasandtheirpod_1"
 
     def test_host(self):
         self.assertEqual("twopeasandtheirpod.com", self.harvester_class.host())
@@ -49,6 +51,40 @@ class TestTwoPeasAndTheirPodScraper(ScraperTest):
                 "Salsa",
             ],
             self.harvester_class.ingredients(),
+        )
+
+    def test_ingredient_groups(self):
+        self.assertEqual(
+            [
+                IngredientGroup(
+                    ingredients=[
+                        "2 cups shredded chicken, (we use rotisserie chicken)",
+                        "1/2 teaspoon ground cumin",
+                        "1/2 teaspoon ground chili powder",
+                        "1/2 teaspoon kosher salt",
+                        "1/4 teaspoon garlic powder",
+                        "1/4 teaspoon paprika",
+                        "2 teaspoons fresh lime juice",
+                        "1 cup shredded cheddar or Mexican blend cheese",
+                        "20 corn tortillas",
+                    ],
+                    purpose="For the Taquitos:",
+                ),
+                IngredientGroup(
+                    ingredients=[
+                        "Shredded lettuce",
+                        "Diced tomatoes",
+                        "Guacamole",
+                        "Sour Cream",
+                        "Chopped Green Onion",
+                        "Crumbled Queso Fresco",
+                        "Pico de Gallo",
+                        "Salsa",
+                    ],
+                    purpose="For the Toppings:",
+                ),
+            ],
+            self.harvester_class.ingredient_groups(),
         )
 
     def test_instructions(self):
