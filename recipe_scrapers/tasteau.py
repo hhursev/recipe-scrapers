@@ -1,5 +1,7 @@
 # mypy: allow-untyped-defs
 
+import re
+
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
 
@@ -48,4 +50,6 @@ class TasteAU(AbstractScraper):
         return self.schema.cuisine()
 
     def description(self):
-        return self.schema.description()
+        description_html = self.schema.description()
+        description_text = re.sub("<[^>]*>", "", description_html)
+        return description_text

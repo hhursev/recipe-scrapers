@@ -1,7 +1,5 @@
 # mypy: allow-untyped-defs
 
-import re
-
 from recipe_scrapers.tasteau import TasteAU
 from tests import ScraperTest
 
@@ -72,9 +70,7 @@ class TestTasteAUScraper1(ScraperTest):
         self.assertEqual("mexican", self.harvester_class.cuisine())
 
     def test_description(self):
-        description_html = self.harvester_class.description()
-        description_text = re.sub("<[^>]*>", "", description_html)
         self.assertEqual(
             "We've turned fajitas into a pasta bake (and added heaps of cheese). Even better, it's made using shortcut ingredients like barbecue chicken and bought spice mix so you can prep it in just 15 minutes.",
-            description_text,
+            self.harvester_class.description(),
         )
