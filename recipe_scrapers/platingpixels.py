@@ -13,7 +13,7 @@ class PlatingPixels(AbstractScraper):
         author_tag = self.soup.find("strong", string="Author:")
         if author_tag and author_tag.next_sibling:
             return author_tag.next_sibling.strip()
-        return "PlatingPixels"
+        return "Plating Pixels"
 
     def title(self):
         return self.schema.title()
