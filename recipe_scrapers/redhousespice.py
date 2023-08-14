@@ -1,5 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 
 
 class RedHouseSpice(AbstractScraper):
@@ -8,7 +9,11 @@ class RedHouseSpice(AbstractScraper):
         return "redhousespice.com"
 
     def author(self):
-        return self.schema.author()
+        author_tag = self.soup.find("span", class_="wprm-recipe-author")
+        if author_tag:
+            return author_tag.text
+
+        return "Red House Spice"
 
     def title(self):
         return self.schema.title()
@@ -24,6 +29,14 @@ class RedHouseSpice(AbstractScraper):
 
     def ingredients(self):
         return self.schema.ingredients()
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".wprm-recipe-ingredient-group h4",
+            ".wprm-recipe-ingredient",
+        )
 
     def instructions(self):
         return self.schema.instructions()
