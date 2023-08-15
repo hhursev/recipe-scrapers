@@ -63,9 +63,6 @@ class ReceitasNestleBR(AbstractScraper):
                         rating_str = cls.split("--")[-1]
                         if rating_str.isdigit():
                             return int(rating_str)
-                        else:
-                            return ""
-        return ""
 
     def description(self):
         return self.schema.description()
