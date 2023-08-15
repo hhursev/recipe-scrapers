@@ -305,6 +305,7 @@ Scrapers available for:
 - `https://www.sunset.com/ <https://www.sunset.com/>`_
 - `https://sweetcsdesigns.com/ <https://www.sweetcsdesigns.com/>`_
 - `https://sweetpeasandsaffron.com/ <https://sweetpeasandsaffron.com/>`_
+- `https://www.taste.com.au/ <https://www.taste.com.au/>`_
 - `https://tasteofhome.com <https://tasteofhome.com>`_
 - `https://tastesbetterfromscratch.com <https://tastesbetterfromscratch.com>`_
 - `https://tastesoflizzyt.com <https://tastesoflizzyt.com>`_
