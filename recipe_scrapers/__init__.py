@@ -174,6 +174,7 @@ from .paninihappy import PaniniHappy
 from .persnicketyplates import PersnicketyPlates
 from .pickuplimes import PickUpLimes
 from .pingodoce import PingoDoce
+from .platingpixels import PlatingPixels
 from .popsugar import PopSugar
 from .practicalselfreliance import PracticalSelfReliance
 from .pressureluckcooking import PressureLuckCooking
@@ -456,6 +457,7 @@ SCRAPERS = {
     PersnicketyPlates.host(): PersnicketyPlates,
     PickUpLimes.host(): PickUpLimes,
     PingoDoce.host(): PingoDoce,
+    PlatingPixels.host(): PlatingPixels,
     PopSugar.host(): PopSugar,
     PracticalSelfReliance.host(): PracticalSelfReliance,
     PracticalSelfReliance.host(domain="creativecanning.com"): PracticalSelfReliance,
