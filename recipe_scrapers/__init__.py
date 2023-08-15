@@ -195,6 +195,7 @@ from .rezeptwelt import Rezeptwelt
 from .ricetta import Ricetta
 from .rosannapansino import RosannaPansino
 from .rutgerbakt import RutgerBakt
+from .saboresanjinomoto import SaboresAnjinomoto
 from .sallysbakingaddiction import SallysBakingAddiction
 from .sallysblog import SallysBlog
 from .saltpepperskillet import SaltPepperSkillet
@@ -481,6 +482,7 @@ SCRAPERS = {
     Ricetta.host(): Ricetta,
     RosannaPansino.host(): RosannaPansino,
     RutgerBakt.host(): RutgerBakt,
+    SaboresAnjinomoto.host(): SaboresAnjinomoto,
     SallysBakingAddiction.host(): SallysBakingAddiction,
     SallysBlog.host(): SallysBlog,
     SaltPepperSkillet.host(): SaltPepperSkillet,
