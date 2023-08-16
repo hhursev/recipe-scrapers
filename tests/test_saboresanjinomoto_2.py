@@ -8,7 +8,7 @@ from tests import ScraperTest
 class TestSaboresAnjinomotoScraper(ScraperTest):
 
     scraper_class = SaboresAnjinomoto
-    test_file_name = "saboresAnjinomoto_2"
+    test_file_name = "saboresanjinomoto_2"
 
     def test_host(self):
         self.assertEqual("saboresajinomoto.com.br", self.harvester_class.host())
