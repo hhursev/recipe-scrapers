@@ -2,6 +2,7 @@
 
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
+from ._utils import normalize_string
 
 
 class SaboresAnjinomoto(AbstractScraper):
@@ -13,7 +14,7 @@ class SaboresAnjinomoto(AbstractScraper):
         return self.schema.author()
 
     def title(self):
-        return self.schema.title()
+        return self.schema.title().capitalize()
 
     def category(self):
         breadcrumb = self.soup.find("ul", {"class": "bread_crumb"})
@@ -51,8 +52,9 @@ class SaboresAnjinomoto(AbstractScraper):
         if instructions_section:
             ol_items = instructions_section.find_all("li")
             for item in ol_items:
-                instruction_text = item.text.strip().replace("\u200b", "")
-                instructions_list.append(instruction_text)
+                instructions_list.append(
+                    normalize_string(item.text.replace("\u200b", ""))
+                )
 
         return instructions_list
 

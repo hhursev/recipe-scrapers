@@ -17,7 +17,7 @@ class TestSaboresAnjinomotoScraper(ScraperTest):
         self.assertEqual("sabores ajinomoto", self.harvester_class.author())
 
     def test_title(self):
-        self.assertEqual("CREPIOCA COM BRÓCOLIS E FRANGO", self.harvester_class.title())
+        self.assertEqual("Crepioca com brócolis e frango", self.harvester_class.title())
 
     def test_category(self):
         self.assertEqual("Ovos", self.harvester_class.category())
