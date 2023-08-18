@@ -1,5 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 
 
 class SteamyKitchen(AbstractScraper):
@@ -20,11 +21,18 @@ class SteamyKitchen(AbstractScraper):
         return self.schema.yields()
 
     def image(self):
-        # Recipe section and schema have no image so stealing from the page
-        return self.soup.find("img")["src"]
+        return self.schema.image()
 
     def ingredients(self):
         return self.schema.ingredients()
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".wprm-recipe-ingredient-group h4",
+            ".wprm-recipe-ingredient",
+        )
 
     def instructions(self):
         return self.schema.instructions()

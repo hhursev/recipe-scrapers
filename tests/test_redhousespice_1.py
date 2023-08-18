@@ -1,3 +1,4 @@
+from recipe_scrapers._grouping_utils import IngredientGroup
 from recipe_scrapers.redhousespice import RedHouseSpice
 from tests import ScraperTest
 
@@ -5,6 +6,7 @@ from tests import ScraperTest
 class TestRedHouseSpiceScraper(ScraperTest):
 
     scraper_class = RedHouseSpice
+    test_file_name = "redhousespice_1"
 
     def test_host(self):
         self.assertEqual("redhousespice.com", self.harvester_class.host())
@@ -43,6 +45,32 @@ class TestRedHouseSpiceScraper(ScraperTest):
                 "2 tsp honey",
             ],
             self.harvester_class.ingredients(),
+        )
+
+    def test_ingredient_groups(self):
+        self.assertEqual(
+            [
+                IngredientGroup(
+                    ingredients=[
+                        "2 pork shoulder steaks (aka pork butt) (about 350g/12oz, see note 1)"
+                    ],
+                    purpose=None,
+                ),
+                IngredientGroup(
+                    ingredients=[
+                        "4 tbsp Char Siu sauce (see note 2)",
+                        "1 tbsp oyster sauce",
+                        "1/2 tbsp light soy sauce",
+                        "1/4 tsp Chinese five-spice powder",
+                        "4 cloves garlic, finely sliced",
+                        "5 slices ginger",
+                        "1/2 tsp chilli powder (optional, see note 4)",
+                    ],
+                    purpose="For the marinade",
+                ),
+                IngredientGroup(ingredients=["2 tsp honey"], purpose="You also need"),
+            ],
+            self.harvester_class.ingredient_groups(),
         )
 
     def test_instructions(self):
