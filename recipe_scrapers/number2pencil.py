@@ -40,9 +40,7 @@ class Number2Pencil(AbstractScraper):
         return entry_content_div.find("em").text
 
     def cuisine(self):
-        cuisine_from_schema = self.schema.cuisine()
-        if cuisine_from_schema:
-            return cuisine_from_schema
+        return self.schema.cuisine()
 
     def title(self):
         return self.schema.title()
