@@ -9,6 +9,7 @@ from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 from .abril import Abril
 from .acouplecooks import ACoupleCooks
+from .addapinch import AddAPinch
 from .afghankitchenrecipes import AfghanKitchenRecipes
 from .akispetretzikis import AkisPetretzikis
 from .albertheijn import AlbertHeijn
@@ -269,6 +270,7 @@ from .zenbelly import ZenBelly
 SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
     Abril.host(): Abril,
+    AddAPinch.host(): AddAPinch,
     AfghanKitchenRecipes.host(): AfghanKitchenRecipes,
     AkisPetretzikis.host(): AkisPetretzikis,
     AlbertHeijn.host(): AlbertHeijn,
