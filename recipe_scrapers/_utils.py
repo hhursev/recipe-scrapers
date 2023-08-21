@@ -143,6 +143,7 @@ def normalize_string(string):
         r"\s+",
         " ",
         unescaped_string.replace("\xa0", " ")
+        .replace("\u200b", "")
         .replace("\n", " ")  # &nbsp;
         .replace("\t", " ")
         .strip(),

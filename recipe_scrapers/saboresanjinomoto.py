@@ -40,7 +40,7 @@ class SaboresAnjinomoto(AbstractScraper):
         if ingredients_section:
             li_items = ingredients_section.find_all("li")
             for item in li_items:
-                ingredient_text = item.text.strip().replace("\u200b", "")
+                ingredient_text = normalize_string(item.text)
                 ingredients_list.append(ingredient_text)
 
         return ingredients_list
@@ -52,9 +52,7 @@ class SaboresAnjinomoto(AbstractScraper):
         if instructions_section:
             ol_items = instructions_section.find_all("li")
             for item in ol_items:
-                instructions_list.append(
-                    normalize_string(item.text.replace("\u200b", ""))
-                )
+                instructions_list.append(normalize_string(item.text))
 
         return instructions_list
 
