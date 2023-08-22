@@ -68,9 +68,11 @@ class SaboresAnjinomoto(AbstractScraper):
         return self.schema.ratings()
 
     def description(self):
-        desc = self.schema.description()
-        if not desc:
-            meta_tag = self.soup.find("meta", {"name": "description"})
-            if meta_tag:
-                desc = meta_tag.get("content", "").strip()
-        return desc
+        script_tag = self.soup.find("script", type="application/ld+json")
+
+        if script_tag:
+            content = script_tag.string
+            start_index = content.find('"description":') + len('"description":')
+            end_index = content.find(",", start_index)
+            description = content[start_index:end_index].strip('" ')
+            return description

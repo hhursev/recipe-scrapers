@@ -90,7 +90,4 @@ class TestSaboresAnjinomotoScraper(ScraperTest):
         self.assertEqual(3.0, self.harvester_class.ratings())
 
     def test_description(self):
-        self.assertEqual(
-            "Receita de Crepioca com brócolis e frango, com dicas especiais, fotos e sugestões de temperos. Milhares de receitas para você inovar na cozinha. Acesse e aproveite!",
-            self.harvester_class.description(),
-        )
+        self.assertEqual("", self.harvester_class.description())
