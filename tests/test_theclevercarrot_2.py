@@ -18,7 +18,7 @@ class TestTheCleverCarrotScraper(ScraperTest):
         self.assertEqual(
             "dinner tonight: sweet chili shrimp stir-fry", self.harvester_class.title()
         )
-        
+
     def test_total_time(self):
         self.assertEqual(20, self.harvester_class.total_time())
 
