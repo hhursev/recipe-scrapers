@@ -5,6 +5,7 @@ from tests import ScraperTest
 class TestDomesticateMeScraper(ScraperTest):
 
     scraper_class = DomesticateMe
+    test_file_name = "Domesticateme_1"
 
     def test_host(self):
         self.assertEqual("domesticate-me.com", self.harvester_class.host())
@@ -21,7 +22,7 @@ class TestDomesticateMeScraper(ScraperTest):
         )
 
     def test_author(self):
-        self.assertEqual(self.harvester_class.author(), "Serena Wolf")
+        self.assertEqual("Serena Wolf", self.harvester_class.author())
 
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())
@@ -67,6 +68,12 @@ class TestDomesticateMeScraper(ScraperTest):
 
     def test_instructions(self):
         return self.assertEqual(
-            "Combine the quinoa and chicken broth in a small saucepan and bring to a boil. Lower to a simmer, cover the saucepan with a lid, and cook for 14 minutes, or until all of the liquid has been absorbed. Let the quinoa rest, covered, for 5 minutes, then fluff with a fork.\nMeanwhile, whip up the yogurt ranch! In a medium bowl, whisk all the ingredients for the ranch. Briefly set that deliciousness aside.\nPre-heat the oven to 375 degrees.\nHeat the olive oil in a large ovenproof skillet or shallow Dutch oven over medium heat. When the oil is hot and shimmering, add the cauliflower, onion, carrot, and celery. Cook for 5 minutes until the onion is translucent and the vegetables are tender. Add the cooked quinoa, chicken, and Frank’s to the pan and fold everything together. Turn off the heat and fold in 1 cup of the yogurt ranch and half of the cheddar and provolone. Taste the filling. Add a little extra Frank’s if you deem it necessary.\nSmooth the top of the filling with a spatula. Add the remaining cheese in an even layer and sprinkle with the panko.\nBake for 25 minutes until the cheese is melted and bubbling. If you want to brown the top of the bake (I DO!!), pop the casserole under the broiler for 1 to 2 minutes until the bread crumbs turn golden brown.\nWhisk a tablespoon or so of water into the remaining yogurt ranch just until it has a drizzle-able consistency. Serve the quinoa bake drizzled with as much extra ranch and Frank’s as you like and garnish with scallions.",
+            "Combine the quinoa and chicken broth in a small saucepan and bring to a boil. Lower to a simmer, cover the saucepan with a lid, and cook for 14 minutes, or until all of the liquid has been absorbed. Let the quinoa rest, covered, for 5 minutes, then fluff with a fork.\n"
+            "Meanwhile, whip up the yogurt ranch! In a medium bowl, whisk all the ingredients for the ranch. Briefly set that deliciousness aside.\n"
+            "Pre-heat the oven to 375 degrees.\n"
+            "Heat the olive oil in a large ovenproof skillet or shallow Dutch oven over medium heat. When the oil is hot and shimmering, add the cauliflower, onion, carrot, and celery. Cook for 5 minutes until the onion is translucent and the vegetables are tender. Add the cooked quinoa, chicken, and Frank’s to the pan and fold everything together. Turn off the heat and fold in 1 cup of the yogurt ranch and half of the cheddar and provolone. Taste the filling. Add a little extra Frank’s if you deem it necessary.\n"
+            "Smooth the top of the filling with a spatula. Add the remaining cheese in an even layer and sprinkle with the panko.\n"
+            "Bake for 25 minutes until the cheese is melted and bubbling. If you want to brown the top of the bake (I DO!!), pop the casserole under the broiler for 1 to 2 minutes until the bread crumbs turn golden brown.\n"
+            "Whisk a tablespoon or so of water into the remaining yogurt ranch just until it has a drizzle-able consistency. Serve the quinoa bake drizzled with as much extra ranch and Frank’s as you like and garnish with scallions.",
             self.harvester_class.instructions(),
         )
