@@ -5,7 +5,7 @@ from tests import ScraperTest
 class TestDomesticateMeScraper(ScraperTest):
 
     scraper_class = DomesticateMe
-    test_file_name = "Domesticateme_1"
+    test_file_name = "domesticateme_1"
 
     def test_host(self):
         self.assertEqual("domesticate-me.com", self.harvester_class.host())
@@ -22,7 +22,7 @@ class TestDomesticateMeScraper(ScraperTest):
         )
 
     def test_author(self):
-        self.assertEqual("Serena Wolf", self.harvester_class.author())
+        self.assertEqual(self.harvester_class.author(), "Serena Wolf")
 
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())

@@ -6,13 +6,13 @@ from tests import ScraperTest
 class TestDomesticateMeScraper(ScraperTest):
 
     scraper_class = DomesticateMe
-    test_file_name = "Domesticateme_2"
+    test_file_name = "domesticateme_2"
 
     def test_host(self):
         self.assertEqual("domesticate-me.com", self.harvester_class.host())
 
     def test_author(self):
-        self.assertEqual(None, self.harvester_class.author())
+        self.assertEqual("Serena Wolf", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual(

@@ -12,7 +12,13 @@ class DomesticateMe(AbstractScraper):
         return self.schema.title()
 
     def author(self):
-        return self.schema.author()
+        author_from_schema = self.schema.author()
+        if author_from_schema:
+            return author_from_schema
+
+        author_meta_tag = self.soup.find("meta", {"name": "author"})
+        author_name = author_meta_tag["content"] if author_meta_tag else None
+        return author_name
 
     def total_time(self):
         return self.schema.total_time()
