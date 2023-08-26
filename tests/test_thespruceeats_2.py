@@ -99,9 +99,7 @@ class TestTheSpruceEatsScraper(ScraperTest):
             "Bake for 30 to 35 minutes, rotating the pan at the halfway point. At the 25 minute mark, sprinkle the remaining 1/3 cup of candy over the top of the brownies. The brownies are ready when a cake tester inserted into the brownie—not the swirl—comes out with a few moist crumbs—do not over bake.\n"
             "Let cool to room temperature. Lift the brownies out of the pan by the parchment handles. Run a butter knife around the edges not covered by the paper, if there’s resistance. Slice into 9 equal sized squares and serve room-temperature, or refrigerate for an hour and serve chilled (my preference)."
         )
-        self.assertEqual(
-            expected_instructions.strip(), self.harvester_class.instructions().strip()
-        )
+        self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def test_ratings(self):
         self.assertEqual(3.5, self.harvester_class.ratings())
