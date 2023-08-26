@@ -5,6 +5,7 @@ from tests import ScraperTest
 class TestThePioneerWomanScraper(ScraperTest):
 
     scraper_class = ThePioneerWoman
+    test_file_name = "thepioneerwoman_1"
 
     def test_host(self):
         self.assertEqual("thepioneerwoman.com", self.harvester_class.host())
@@ -26,7 +27,7 @@ class TestThePioneerWomanScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/patty-melt-1597698088.jpg",
+            "https://hips.hearstapps.com/hmg-prod/images/patty-melt-1597698088.jpg?crop=0.508xw:0.450xh;0.229xw,0.200xh&resize=1200:*",
             self.harvester_class.image(),
         )
 
