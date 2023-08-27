@@ -34,14 +34,14 @@ class TestTheSpruceEatsScraper(ScraperTest):
     def test_ingredients(self):
         expected_ingredients = [
             "1 medium bell pepper",
-            "1 1/2 ounces cream cheese",
-            "1 teaspoon mustard",
-            "2 ounces ham",
-            "1 1/2 ounces swiss cheese",
-            "1/2 small cucumber",
-            "2 tablespoons guacamole",
-            "1 dash salt",
-            "1 dash ground black pepper",
+            "1 1/2 ounces cream cheese, about 2 to 3 tablespoons",
+            "1 teaspoon whole-grain mustard",
+            "2 ounces thinly sliced ham",
+            "1 1/2 ounces thinly sliced swiss cheese",
+            "1/2 small cucumber, about 6 to 8 thin slices",
+            "2 tablespoons guacamole, or a few slices of avocado",
+            "1 dash salt, or seasoned salt, to taste",
+            "1 dash ground black pepper, to taste",
         ]
         self.assertEqual(expected_ingredients, self.harvester_class.ingredients())
 

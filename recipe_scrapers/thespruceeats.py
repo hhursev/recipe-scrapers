@@ -22,23 +22,10 @@ class TheSpruceEats(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        soup = self.soup
-        ingredients = soup.findAll("li", {"class": "structured-ingredients__list-item"})
-
+        ingredients = self.soup.select("li.structured-ingredients__list-item p")
         extracted_ingredients = []
         for ingredient in ingredients:
-            quantity_span = ingredient.find(
-                "span", {"data-ingredient-quantity": "true"}
-            )
-            unit_span = ingredient.find("span", {"data-ingredient-unit": "true"})
-            name_span = ingredient.find("span", {"data-ingredient-name": "true"})
-
-            if quantity_span and unit_span and name_span:
-                extracted_ingredients.append(
-                    f"{normalize_string(quantity_span.text)} "
-                    f"{normalize_string(unit_span.text)} "
-                    f"{normalize_string(name_span.text)}"
-                )
+            extracted_ingredients.append(normalize_string(ingredient.text))
 
         return extracted_ingredients
 
