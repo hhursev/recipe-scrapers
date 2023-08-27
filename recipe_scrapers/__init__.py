@@ -176,6 +176,7 @@ from .paninihappy import PaniniHappy
 from .persnicketyplates import PersnicketyPlates
 from .pickuplimes import PickUpLimes
 from .pingodoce import PingoDoce
+from .pinkowlkitchen import PinkOwlKitchen
 from .platingpixels import PlatingPixels
 from .popsugar import PopSugar
 from .practicalselfreliance import PracticalSelfReliance
@@ -463,6 +464,7 @@ SCRAPERS = {
     PersnicketyPlates.host(): PersnicketyPlates,
     PickUpLimes.host(): PickUpLimes,
     PingoDoce.host(): PingoDoce,
+    PinkOwlKitchen.host(): PinkOwlKitchen,
     PlatingPixels.host(): PlatingPixels,
     PopSugar.host(): PopSugar,
     PracticalSelfReliance.host(): PracticalSelfReliance,
