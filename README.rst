@@ -262,6 +262,7 @@ Scrapers available for:
 - `https://www.persnicketyplates.com/ <https://www.persnicketyplates.com/>`_
 - `https://www.pickuplimes.com/ <https://www.pickuplimes.com/>`_
 - `https://www.pingodoce.pt/ <https://www.pingodoce.pt>`_
+- `https://pinkowlkitchen.com/ <https://pinkowlkitchen.com/>`_
 - `https://www.platingpixels.com/ <https://www.platingpixels.com/>`_
 - `https://popsugar.com/ <https://popsugar.com>`_
 - `https://practicalselfreliance.com/ <https://practicalselfreliance.com>`_
