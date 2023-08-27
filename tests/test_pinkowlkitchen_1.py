@@ -47,14 +47,12 @@ class TestPinkOwlKitchenScraper(ScraperTest):
         self.assertEqual(expected_ingredients, self.harvester_class.ingredients())
 
     def test_instructions(self):
-        expected_instructions = [
-            "Preheat your oven to 350°F. Prepare your pie crust by gently pressing your homemade or refrigerated pie crust into your pie plate and crimping the edges, or by setting your frozen pie crust out on the counter while you prepare the filling.",
-            "In a large mixing bowl, whisk together the sugar, cocoa powder, and salt until combined. Add the melted butter, beaten eggs, evaporated milk, and vanilla extract to the bowl and whisk until the filling is smooth and lump free.",
-            "Pour the filling into your prepared pie crust and bake the pie in the preheated oven for 50 to 55 minutes, until the pie has puffed up and the center is just barely jiggly.",
-            "Allow the pie to cool to room temperature on a wire rack. Enjoy chilled or room temperature with a dollop of fresh whipped cream!",
-        ]
         self.assertEqual(
-            expected_instructions, self.harvester_class.instructions().split("\n")
+            "Preheat your oven to 350°F. Prepare your pie crust by gently pressing your homemade or refrigerated pie crust into your pie plate and crimping the edges, or by setting your frozen pie crust out on the counter while you prepare the filling.\n"
+            "In a large mixing bowl, whisk together the sugar, cocoa powder, and salt until combined. Add the melted butter, beaten eggs, evaporated milk, and vanilla extract to the bowl and whisk until the filling is smooth and lump free.\n"
+            "Pour the filling into your prepared pie crust and bake the pie in the preheated oven for 50 to 55 minutes, until the pie has puffed up and the center is just barely jiggly.\n"
+            "Allow the pie to cool to room temperature on a wire rack. Enjoy chilled or room temperature with a dollop of fresh whipped cream!",
+            self.harvester_class.instructions(),
         )
 
     def test_ratings(self):
