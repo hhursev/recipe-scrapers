@@ -66,13 +66,3 @@ class SaboresAnjinomoto(AbstractScraper):
 
     def ratings(self):
         return self.schema.ratings()
-
-    def description(self):
-        script_tag = self.soup.find("script", type="application/ld+json")
-
-        if script_tag:
-            content = script_tag.string
-            start_index = content.find('"description":') + len('"description":')
-            end_index = content.find(",", start_index)
-            description = content[start_index:end_index].strip('" ')
-            return description

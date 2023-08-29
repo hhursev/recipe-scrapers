@@ -89,5 +89,5 @@ class TestSaboresAnjinomotoScraper(ScraperTest):
     def test_ratings(self):
         self.assertEqual(3.0, self.harvester_class.ratings())
 
-    def test_description(self):
-        self.assertEqual("", self.harvester_class.description())
+    def test_language(self):
+        self.assertEqual("pt-br", self.harvester_class.language())

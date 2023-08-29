@@ -57,11 +57,5 @@ class TestSaboresAnjinomotoScraper(ScraperTest):
     def test_ratings(self):
         self.assertEqual(4.0, self.harvester_class.ratings())
 
-    def test_description(self):
-        self.assertEqual(
-            "Uma saborosa receita de purÃª de batata com frango que rende 5 porÃ§Ãµes e vocÃª sÃ³ leva 25 minutinhos para preparar. Veja a lista de ingredientes e o modo de preparo.",
-            self.harvester_class.description(),
-        )
-
     def test_language(self):
         self.assertEqual("pt-br", self.harvester_class.language())
