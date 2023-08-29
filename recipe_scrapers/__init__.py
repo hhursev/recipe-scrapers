@@ -103,6 +103,7 @@ from .headbangerskitchen import HeadbangersKitchen
 from .heb import HEB
 from .heinzbrasil import HeinzBrasil
 from .hellofresh import HelloFresh
+from .herseyland import HerseyLand
 from .homechef import HomeChef
 from .hostthetoast import Hostthetoast
 from .hundredandonecookbooks import HundredAndOneCookbooks
@@ -385,6 +386,7 @@ SCRAPERS = {
     HelloFresh.host(domain="nl"): HelloFresh,
     HelloFresh.host(domain="no"): HelloFresh,
     HelloFresh.host(domain="se"): HelloFresh,
+    HerseyLand.host(): HerseyLand,
     HomeChef.host(): HomeChef,
     Hostthetoast.host(): Hostthetoast,
     HundredAndOneCookbooks.host(): HundredAndOneCookbooks,
