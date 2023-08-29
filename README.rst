@@ -286,6 +286,7 @@ Scrapers available for:
 - `https://ricetta.it/ <https://ricetta.it>`_
 - `https://rosannapansino.com <https://rosannapansino.com>`_
 - `https://rutgerbakt.nl/ <https://rutgerbakt.nl/>`_
+- `https://www.saboresajinomoto.com.br/ <https://www.saboresajinomoto.com.br/>`_
 - `https://sallysbakingaddiction.com <https://sallysbakingaddiction.com/>`_
 - `https://sallys-blog.de <https://sallys-blog.de/>`_
 - `https://saltpepperskillet.com/ <https://saltpepperskillet.com/>`_

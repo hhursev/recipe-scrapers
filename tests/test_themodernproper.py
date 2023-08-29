@@ -35,7 +35,7 @@ class TestTheModernProperScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "1 lb \u200bground beef",
+                "1 lb ground beef",
                 "1 lb ground pork",
                 "¼ cup flat leaf parsley, minced",
                 "½ tsp ground allspice",
