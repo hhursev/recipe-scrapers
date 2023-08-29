@@ -5,6 +5,7 @@ from tests import ScraperTest
 class TestLivelyTableScraper(ScraperTest):
 
     scraper_class = LivelyTable
+    test_file_name = "livelytable_1"
 
     def test_host(self):
         self.assertEqual("livelytable.com", self.harvester_class.host())
