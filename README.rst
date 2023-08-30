@@ -342,6 +342,7 @@ Scrapers available for:
 - `https://vegolosi.it/ <https://vegolosi.it>`_
 - `https://vegrecipesofindia.com/ <https://www.vegrecipesofindia.com/>`_
 - `https://watchwhatueat.com/ <https://watchwhatueat.com/>`_
+- `https://wearenotmartha.com/ <https://wearenotmartha.com/>`_
 - `https://www.weightwatchers.com/ <https://www.weightwatchers.com/>`_ (*)
 - `https://www.wellplated.com/ <https://www.wellplated.com/>`_
 - `https://whatsgabycooking.com/ <https://whatsgabycooking.com>`_
