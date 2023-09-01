@@ -7,6 +7,7 @@ from tests import ScraperTest
 class TestOmnivoresCookbookScraper(ScraperTest):
 
     scraper_class = OmnivoresCookbook
+    test_file_name = "omnivorescookbook_1"
 
     def test_host(self):
         self.assertEqual("omnivorescookbook.com", self.harvester_class.host())
