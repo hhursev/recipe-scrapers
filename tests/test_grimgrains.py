@@ -53,20 +53,20 @@ class TestGrimGrainsScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            [
-                "Peel the nagaimo, then soak it in a water and vinegar solution (doing this helps to remove irritants). Dry the nagaimo, then grate 160 g (6-8cm) of nagaimo with a fine grater. Do this over a bowl, as the grated nagaimo is very slimy. Keep aside.",
-                "Mince 500 g (1 small head) green cabbage, keep aside.",
-                "In a bowl, mix 85 g (1 cup) of chickpea flour, 15 g (1/4 cup) nutritional yeast, the grated nagaimo, the minced green cabbage and 1.25g (1/4 tsp) of salt. Then, add 320 ml (1 1/4 cup) of water, or shiitake dashi. (for shiitake dashi, soak 5-6 shiitake in 320 ml of hot water for 15 minutes, or overnight in cold water.)",
-                "Heat a non-stick pan at high heat, add 5 ml (1 tsp) of sesame oil. If you throw some water on and it starts to sizzle, the pan is hot and you can add 1/4 of the batter. Alternatively, you can add 1/2, although this makes two very large portions.",
-                "Let okonomiyaki cook for 5 minutes, shaking the pan every now and then so the batter doesn't stick.",
-                "After 5 minutes, it's time to give the other side some grilling time. Put a plate on top of the pancake, keep your hand on the plate and flip the pan so that the pancake ends up cooked side up on the plate. Then, slide the pancake back into the pan (cooked side up). You can also just flip it with a spatula, but we rather like the plate method :).",
-                "Cook for another 5 minutes, then slide onto a plate, repeat process for the rest of the batter.",
-                "In a small bowl, mix 60 ml (4 tbsp) of soy sauce, 60 ml (4 tbsp) of mirin, 15 g (1 tbsp) of sugar and 15 g (1 tbsp) of arrowroot starch. Stir well.",
-                "Heat a pan at high heat, when hot, add sauce and cook for 2-3 minutes until it thickens. Then, divide onto your okonomiyaki.",
-                "First, add about 15 g (1 tbsp) (per okonomiyaki) of aonori on top of the sauce.",
-                "Then, add some beni shouga (pickled red ginger).",
-                "Finally, top off with some finely chopped scallions.",
-            ],
+            (
+                "Peel the nagaimo, then soak it in a water and vinegar solution (doing this helps to remove irritants). Dry the nagaimo, then grate 160 g (6-8cm) of nagaimo with a fine grater. Do this over a bowl, as the grated nagaimo is very slimy. Keep aside.\n"
+                "Mince 500 g (1 small head) green cabbage, keep aside.\n"
+                "In a bowl, mix 85 g (1 cup) of chickpea flour, 15 g (1/4 cup) nutritional yeast, the grated nagaimo, the minced green cabbage and 1.25g (1/4 tsp) of salt. Then, add 320 ml (1 1/4 cup) of water, or shiitake dashi. (for shiitake dashi, soak 5-6 shiitake in 320 ml of hot water for 15 minutes, or overnight in cold water.)\n"
+                "Heat a non-stick pan at high heat, add 5 ml (1 tsp) of sesame oil. If you throw some water on and it starts to sizzle, the pan is hot and you can add 1/4 of the batter. Alternatively, you can add 1/2, although this makes two very large portions.\n"
+                "Let okonomiyaki cook for 5 minutes, shaking the pan every now and then so the batter doesn't stick.\n"
+                "After 5 minutes, it's time to give the other side some grilling time. Put a plate on top of the pancake, keep your hand on the plate and flip the pan so that the pancake ends up cooked side up on the plate. Then, slide the pancake back into the pan (cooked side up). You can also just flip it with a spatula, but we rather like the plate method :).\n"
+                "Cook for another 5 minutes, then slide onto a plate, repeat process for the rest of the batter.\n"
+                "In a small bowl, mix 60 ml (4 tbsp) of soy sauce, 60 ml (4 tbsp) of mirin, 15 g (1 tbsp) of sugar and 15 g (1 tbsp) of arrowroot starch. Stir well.\n"
+                "Heat a pan at high heat, when hot, add sauce and cook for 2-3 minutes until it thickens. Then, divide onto your okonomiyaki.\n"
+                "First, add about 15 g (1 tbsp) (per okonomiyaki) of aonori on top of the sauce.\n"
+                "Then, add some beni shouga (pickled red ginger).\n"
+                "Finally, top off with some finely chopped scallions."
+            ),
             self.harvester_class.instructions(),
         )
 

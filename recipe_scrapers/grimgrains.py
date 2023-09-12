@@ -36,7 +36,7 @@ class GrimGrains(AbstractScraper):
 
     def instructions(self):
         instructions = [i("li") for i in self.soup.main("ul", "instructions")]
-        return [i.text for i in chain.from_iterable(instructions)]
+        return "\n".join([i.text for i in chain.from_iterable(instructions)])
 
     def description(self):
         return "\n".join([i.text for i in self.soup.find(class_="col2")("p")])
