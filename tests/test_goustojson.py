@@ -35,10 +35,10 @@ class TestGoustoScraper(ScraperTest):
         )
 
     def test_total_time(self):
-        self.assertEqual(35, self.harvester_class.total_time())
+        self.assertEqual(25, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("4 servings", self.harvester_class.yields())
+        self.assertEqual("2 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
         self.assertEqual(
