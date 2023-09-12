@@ -90,4 +90,6 @@ class TestTofooScraper(ScraperTest):
             "Whisk all sauce ingredients in a small bowl and add to your Tofoo. Stir and cook for a few mins until all your Tofoo is evenly covered in sticky sauce.",
             "Meanwhile, cook your microwave rice as per the pack instructions and add into bowls before topping with your sticky Sriracha Tofoo. Scatter with spring onion and sesame seeds for the ultimate fakeaway, ready in only 20 mins!",
         ]
-        self.assertEqual(expected_instructions, self.harvester_class.instructions_list())
+        self.assertEqual(
+            expected_instructions, self.harvester_class.instructions_list()
+        )

@@ -61,7 +61,9 @@ class TestReceitasNestleBRScraper(ScraperTest):
             "Depois, acrescente o alecrim e refogue mais um pouco.",
             "Sirva quente.",
         ]
-        self.assertEqual(expected_instructions, self.harvester_class.instructions_list())
+        self.assertEqual(
+            expected_instructions, self.harvester_class.instructions_list()
+        )
 
     def test_ratings(self):
         self.assertEqual(0, self.harvester_class.ratings())
