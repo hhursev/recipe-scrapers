@@ -52,7 +52,7 @@ class TestSaboresAnjinomotoScraper(ScraperTest):
             "Acrescente o frango, misture e retire do fogo. Sirva em seguida.",
         ]
 
-        self.assertEqual(expected_instructions, self.harvester_class.instructions())
+        self.assertEqual(expected_instructions, self.harvester_class.instructions_list())
 
     def test_ratings(self):
         self.assertEqual(4.0, self.harvester_class.ratings())

@@ -55,7 +55,7 @@ class TestKochbucherScraper(ScraperTest):
             "Wasser und Cremefine hinzufügen, aufkochen lassen",
             "Gewürze hinzufügen",
         ]
-        instructions_list = self.harvester_class.instructions()
+        instructions_list = self.harvester_class.instructions_list()
         self.assertEqual(expected_instructions, instructions_list)
 
     def language(self):

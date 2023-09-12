@@ -56,5 +56,5 @@ class TestOwenHanScraper(ScraperTest):
                 "Assemble: to a toasted baguette add the chicken and bacon then top with sliced avocado pickled onions, and ranch. Add some mixed greens to the other half. ",
                 "Close the sandwich, cut in half and enjoy!",
             ],
-            self.harvester_class.instructions(),
+            self.harvester_class.instructions_list(),
         )
