@@ -41,13 +41,13 @@ class Kochbucher(AbstractScraper):
         if zubereitung_heading is not None:
             next_p_element = zubereitung_heading.find_next("p")
             if next_p_element is not None:
-                raw_instructions = next_p_element.get_text()
+                raw_instructions = next_p_element.get_text().replace("– ", "")
                 if isinstance(raw_instructions, str):
                     instructions_list = raw_instructions.split("\n")
                     return (
                         "\n".join(
                             [
-                                instruction.replace("– ", "")
+                                instruction
                                 for instruction in instructions_list
                                 if instruction
                             ]
