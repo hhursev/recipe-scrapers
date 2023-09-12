@@ -70,6 +70,7 @@ from .eattolerant import EatTolerant
 from .eatwhattonight import EatWhatTonight
 from .emmikochteinfach import EmmiKochtEinfach
 from .epicurious import Epicurious
+from .errenskitchen import ErrensKitchen
 from .ethanchlebowski import EthanChlebowski
 from .farmhousedelivery import FarmhouseDelivery
 from .fifteenspatulas import FifteenSpatulas
@@ -339,6 +340,7 @@ SCRAPERS = {
     EatTolerant.host(): EatTolerant,
     EmmiKochtEinfach.host(): EmmiKochtEinfach,
     Epicurious.host(): Epicurious,
+    ErrensKitchen.host(): ErrensKitchen,
     EthanChlebowski.host(): EthanChlebowski,
     FarmhouseDelivery.host(): FarmhouseDelivery,
     FifteenSpatulas.host(): FifteenSpatulas,
