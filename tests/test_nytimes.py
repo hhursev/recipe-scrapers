@@ -11,7 +11,7 @@ class TestNYTimesScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://static01.nyt.com/images/2020/05/28/dining/lp-cacio-e-pepe-crackers/merlin_172657737_693784a8-529d-4496-9e60-3ff2af3c7735-articleLarge.jpg",
+            "https://static01.nyt.com/images/2020/05/28/dining/lp-cacio-e-pepe-crackers/merlin_172657737_693784a8-529d-4496-9e60-3ff2af3c7735-mediumSquareAt3X.jpg",
             self.harvester_class.image(),
         )
 

@@ -34,26 +34,24 @@ class TestRealSimpleScraper(ScraperTest):
         self.assertEqual("10 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
-        self.assertEqual(
-            [
-                "Cake:",
-                "18 graham crackers (2 sleeves)",
-                "0.5 cup (1 stick) unsalted butter, melted",
-                "0.25 teaspoon kosher salt",
-                "1 cup plus 4 tablespoons sugar",
-                "3 8-ounce packages cream cheese, at room temperature",
-                "2 cups sour cream, at room temperature",
-                "1.5 teaspoons pure vanilla extract",
-                "3 large eggs, at room temperature",
-                "Cherry sauce:",
-                "1 10-ounce bag frozen cherries",
-                "0.5 cup sugar",
-                "0.25 teaspoon kosher salt",
-                "1 tablespoons cornstarch",
-                "2 tablespoons fresh lemon juice",
-            ],
-            self.harvester_class.ingredients(),
-        )
+        expected_ingredients = [
+            "Cake:",
+            "18 graham crackers (2 sleeves)",
+            "½ cup (1 stick) unsalted butter, melted",
+            "¼ teaspoon kosher salt",
+            "1 cup plus 4 tablespoons sugar",
+            "3 8-ounce packages cream cheese, at room temperature",
+            "2 cups sour cream, at room temperature",
+            "1 ½ teaspoons pure vanilla extract",
+            "3 large eggs, at room temperature",
+            "Cherry sauce:",
+            "1 10-ounce bag frozen cherries",
+            "½ cup sugar",
+            "¼ teaspoon kosher salt",
+            "1 tablespoons cornstarch",
+            "2 tablespoons fresh lemon juice",
+        ]
+        self.assertEqual(expected_ingredients, self.harvester_class.ingredients())
 
     def test_instructions(self):
         self.assertEqual(

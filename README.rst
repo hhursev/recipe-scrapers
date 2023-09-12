@@ -72,6 +72,7 @@ Scrapers available for:
 
 - `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
+- `https://addapinch.com/ <https://addapinch.com//>`_
 - `http://www.afghankitchenrecipes.com/ <http://www.afghankitchenrecipes.com/>`_
 - `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
 - `https://ah.nl/ <https://ah.nl/>`_
@@ -167,6 +168,7 @@ Scrapers available for:
 - `https://www.hellofresh.fr/ <https://www.hellofresh.fr/>`_
 - `https://www.hellofresh.nl/ <https://www.hellofresh.nl/>`_
 - `https://www.hellofresh.ie/ <https://www.hellofresh.ie/>`_
+- `https://www.hersheyland.com/ <https://www.hersheyland.com/>`_
 - `https://www.homechef.com/ <https://www.homechef.com/>`_
 - `https://hostthetoast.com/ <https://hostthetoast.com/>`_
 - `https://www.ica.se/ <https://www.ica.se/>`_
@@ -174,6 +176,7 @@ Scrapers available for:
 - `https://www.im-worthy.com/ <https://www.im-worthy.com>`_
 - `https://indianhealthyrecipes.com <https://www.indianhealthyrecipes.com>`_
 - `https://www.innit.com/ <https://www.innit.com/>`_
+- `https://insanelygoodrecipes.com <https://insanelygoodrecipes.com/>`_
 - `https://inspiralized.com/ <https://inspiralized.com>`_
 - `https://izzycooking.com/ <https://izzycooking.com/>`_
 - `https://jamieoliver.com/ <https://jamieoliver.com>`_
@@ -195,6 +198,7 @@ Scrapers available for:
 - `https://lecremedelacrumb.com/ <https://lecremedelacrumb.com/>`_
 - `https://www.lecker.de <https://www.lecker.de/rezepte>`_
 - `https://lekkerensimpel.com <https://lekkerensimpel.com>`_
+- `https://lifestyleofafoodie.com <https://lifestyleofafoodie.com>`_
 - `https://littlespicejar.com/ <https://littlespicejar.com>`_
 - `http://livelytable.com/ <http://livelytable.com/>`_
 - `https://lovingitvegan.com/ <https://lovingitvegan.com/>`_
@@ -224,6 +228,7 @@ Scrapers available for:
 - `https://nibbledish.com/ <https://nibbledish.com>`_
 - `https://www.nosalty.hu/ <https://www.nosalty.hu>`_
 - `https://nourishedbynutrition.com/ <https://nourishedbynutrition.com/>`_
+- `https://www.number-2-pencil.com/ <https://www.number-2-pencil.com/>`_
 - `https://nutritionbynathalie.com/blog <https://nutritionbynathalie.com/blog>`_
 - `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
 - `https://ohsheglows.com/ <https://ohsheglows.com>`_
@@ -233,8 +238,11 @@ Scrapers available for:
 - `https://www.paleorunningmomma.com/ <https://www.paleorunningmomma.com>`_
 - `https://www.panelinha.com.br/ <https://www.panelinha.com.br>`_
 - `https://paninihappy.com/ <https://paninihappy.com>`_
+- `https://www.persnicketyplates.com/ <https://www.persnicketyplates.com/>`_
 - `https://www.pickuplimes.com/ <https://www.pickuplimes.com/>`_
 - `https://www.pingodoce.pt/ <https://www.pingodoce.pt>`_
+- `https://pinkowlkitchen.com/ <https://pinkowlkitchen.com/>`_
+- `https://www.platingpixels.com/ <https://www.platingpixels.com/>`_
 - `https://popsugar.com/ <https://popsugar.com>`_
 - `https://practicalselfreliance.com/ <https://practicalselfreliance.com>`_
 - `https://pressureluckcooking.com/ <https://pressureluckcooking.com/>`_
@@ -247,6 +255,7 @@ Scrapers available for:
 - `https://rainbowplantlife.com/ <https://rainbowplantlife.com/>`_
 - `https://realfood.tesco.com/ <https://realfood.tesco.com>`_
 - `https://realsimple.com/ <https://www.realsimple.com>`_
+- `https://www.receitasnestle.com.br <https://www.receitasnestle.com.br>`_
 - `https://reciperunner.com/ <https://www.reciperunner.com>`_
 - `https://recipetineats.com/ <https://www.recipetineats.com/>`_
 - `https://redhousespice.com/ <https://redhousespice.com/>`_
@@ -255,8 +264,10 @@ Scrapers available for:
 - `https://ricetta.it/ <https://ricetta.it>`_
 - `https://rosannapansino.com <https://rosannapansino.com>`_
 - `https://rutgerbakt.nl/ <https://rutgerbakt.nl/>`_
+- `https://www.saboresajinomoto.com.br/ <https://www.saboresajinomoto.com.br/>`_
 - `https://sallysbakingaddiction.com <https://sallysbakingaddiction.com/>`_
 - `https://sallys-blog.de <https://sallys-blog.de/>`_
+- `https://saltpepperskillet.com/ <https://saltpepperskillet.com/>`_
 - `https://www.saveur.com/ <https://www.saveur.com/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_
 - `https://simple-veganista.com/ <https://simple-veganista.com/>`_
@@ -270,6 +281,7 @@ Scrapers available for:
 - `https://southernliving.com/ <https://southernliving.com/>`_
 - `https://spendwithpennies.com/ <https://spendwithpennies.com/>`_
 - `https://www.springlane.de <https://www.springlane.de>`_
+- `https://www.staysnatched.com/ <https://www.staysnatched.com/>`_
 - `https://steamykitchen.com/ <https://steamykitchen.com>`_
 - `https://streetkitchen.hu/ <https://streetkitchen.hu>`_
 - `https://sunbasket.com/ <https://sunbasket.com>`_
@@ -277,6 +289,7 @@ Scrapers available for:
 - `https://www.sunset.com/ <https://www.sunset.com/>`_
 - `https://sweetcsdesigns.com/ <https://www.sweetcsdesigns.com/>`_
 - `https://sweetpeasandsaffron.com/ <https://sweetpeasandsaffron.com/>`_
+- `https://www.taste.com.au/ <https://www.taste.com.au/>`_
 - `https://tasteofhome.com <https://tasteofhome.com>`_
 - `https://tastesbetterfromscratch.com <https://tastesbetterfromscratch.com>`_
 - `https://tastesoflizzyt.com <https://tastesoflizzyt.com>`_
@@ -306,7 +319,9 @@ Scrapers available for:
 - `https://vegolosi.it/ <https://vegolosi.it>`_
 - `https://vegrecipesofindia.com/ <https://www.vegrecipesofindia.com/>`_
 - `https://watchwhatueat.com/ <https://watchwhatueat.com/>`_
+- `https://wearenotmartha.com/ <https://wearenotmartha.com/>`_
 - `https://www.weightwatchers.com/ <https://www.weightwatchers.com/>`_ (*)
+- `https://www.wellplated.com/ <https://www.wellplated.com/>`_
 - `https://whatsgabycooking.com/ <https://whatsgabycooking.com>`_
 - `https://www.wholefoodsmarket.com/ <https://www.wholefoodsmarket.com/>`_
 - `https://www.wholefoodsmarket.co.uk/ <https://www.wholefoodsmarket.co.uk/>`_
