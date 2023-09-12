@@ -5,20 +5,25 @@ from tests import ScraperTest
 
 
 class TestCostcoScraper(ScraperTest):
-
     scraper_class = Costco
 
     def test_host(self):
         self.assertEqual("costco.com", self.harvester_class.host())
 
     def test_title(self):
-        self.assertEqual("Chicken Salad with Red Grapes, Walnuts and Blue Cheese", self.harvester_class.title())
+        self.assertEqual(
+            "Chicken Salad with Red Grapes, Walnuts and Blue Cheese",
+            self.harvester_class.title(),
+        )
 
     def test_author(self):
         self.assertEqual("Costco Connection", self.harvester_class.author())
 
     def test_image(self):
-        self.assertEqual("https://mobilecontent.costco.com/live/resource/img/static-us-connection-march-23/03_23_FTT_ChickenSaladRedGrapesWalnutsBlueCheese.jpg", self.harvester_class.image())
+        self.assertEqual(
+            "https://mobilecontent.costco.com/live/resource/img/static-us-connection-march-23/03_23_FTT_ChickenSaladRedGrapesWalnutsBlueCheese.jpg",
+            self.harvester_class.image(),
+        )
 
     def test_ingredients(self):
         ingredients_list = [
@@ -32,7 +37,7 @@ class TestCostcoScraper(ScraperTest):
             "1 Tbsp fresh thyme leaves",
             "2 tsp lemon zest",
             "½ tsp garlic powder",
-            "½ tsp kosher salt, or to taste"
+            "½ tsp kosher salt, or to taste",
         ]
         self.assertEqual(ingredients_list, self.harvester_class.ingredients())
 
