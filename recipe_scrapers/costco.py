@@ -3,6 +3,7 @@
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
+
 class Costco(AbstractScraper):
     @classmethod
     def host(cls):
@@ -26,7 +27,7 @@ class Costco(AbstractScraper):
                 ingredients_list_items = parent_ul.find_all('li')
                 ingredients_list = [normalize_string(li.get_text()) for li in ingredients_list_items]
                 return ingredients_list
-                
+
     def instructions(self):
         parent_div = self.soup.find('div', {'class': 'col-xs-12 col-md-5'})
         if parent_div:
