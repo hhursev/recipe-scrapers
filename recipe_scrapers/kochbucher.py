@@ -44,8 +44,13 @@ class Kochbucher(AbstractScraper):
                 raw_instructions = next_p_element.get_text()
                 if isinstance(raw_instructions, str):
                     instructions_list = raw_instructions.split("\n")
-                    return "\n".join([
-                        instruction.replace("– ", "")
-                        for instruction in instructions_list
-                        if instruction
-                    ]) or None
+                    return (
+                        "\n".join(
+                            [
+                                instruction.replace("– ", "")
+                                for instruction in instructions_list
+                                if instruction
+                            ]
+                        )
+                        or None
+                    )
