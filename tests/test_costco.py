@@ -42,5 +42,9 @@ class TestCostcoScraper(ScraperTest):
         self.assertEqual(ingredients_list, self.harvester_class.ingredients())
 
     def test_instructions(self):
-        instructions_text = "/nCombine chicken, grapes, celery, walnuts and blue cheese in a large mixing bowl./nIn a medium-size mixing bowl, blend mayonnaise, sherry vinegar, thyme, lemon zest, garlic powder and salt./nFold the dressing into the chicken-grape mixture and combine well. Adjust seasonings as desired. Serve in Bibb lettuce cups or as a sandwich filling. Makes 6 servings."
+        instructions_text = (
+            "Combine chicken, grapes, celery, walnuts and blue cheese in a large mixing bowl. "
+            "In a medium-size mixing bowl, blend mayonnaise, sherry vinegar, thyme, lemon zest, garlic powder and salt. "
+            "Fold the dressing into the chicken-grape mixture and combine well. Adjust seasonings as desired. Serve in Bibb lettuce cups or as a sandwich filling. Makes 6 servings."
+        )
         self.assertEqual(instructions_text, self.harvester_class.instructions())
