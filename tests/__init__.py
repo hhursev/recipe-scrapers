@@ -60,3 +60,10 @@ class ScraperTest(unittest.TestCase):
             grouped.extend(group.ingredients)
 
         self.assertEqual(sorted(self.harvester_class.ingredients()), sorted(grouped))
+
+    def test_multiple_instructions(self):
+        # Assert that the instructions_list() method returns more than one item;
+        # this implicitly also confirms that instructions() returns a newline-separated
+        # value of type 'str'
+        instructions = self.harvester_class.instructions_list()
+        self.assertGreater(len(instructions), 1)
