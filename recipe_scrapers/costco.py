@@ -12,7 +12,6 @@ class Costco(AbstractScraper):
     def author(self):
         return "Costco Connection"
 
-    # For title
     def title(self):
         return self.soup.find("h1", style="font-size: 2.5em;").get_text()
 
