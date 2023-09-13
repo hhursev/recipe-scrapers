@@ -18,7 +18,21 @@ class TestNibbleDishScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "3 tablespoons of red pepper powder 2 tablespoons sesame oil2 small onions, chopped.3 cloves of garlic, minced.Shrimp, peeled, deveined, as much as you like.Red pepper flakes1 case of silken tofu, chopped into little cubes.1 beef bouillon cube2 1/2 cups of water2 tsp fish sauceA bunch of green onions/scallionsMussels, as much as you like, removed from shellMushrooms, any kind you like. (Shiitake and enoki mushrooms recommended but I only had button.)1 tablespoon of gochuchang1 egg."
+                "3 tablespoons of red pepper powder",
+                "2 tablespoons sesame oil",
+                "2 small onions, chopped.",
+                "3 cloves of garlic, minced.",
+                "Shrimp, peeled, deveined, as much as you like.",
+                "Red pepper flakes",
+                "1 case of silken tofu, chopped into little cubes.",
+                "1 beef bouillon cube",
+                "2 1/2 cups of water",
+                "2 tsp fish sauce",
+                "A bunch of green onions/scallions",
+                "Mussels, as much as you like, removed from shell",
+                "Mushrooms, any kind you like. (Shiitake and enoki mushrooms recommended but I only had button.)",
+                "1 tablespoon of gochuchang",
+                "1 egg.",
             ],
             self.harvester_class.ingredients(),
         )
