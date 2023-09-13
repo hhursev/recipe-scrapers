@@ -9,24 +9,13 @@ class TudoGostoso(AbstractScraper):
         return "tudogostoso.com.br"
 
     def title(self):
-        return normalize_string(self.soup.find("h1").get_text())
+        return self.schema.title()
 
     def total_time(self):
-        return get_minutes(self.soup.find("time", {"class": "dt-duration"}))
+        return self.schema.total_time()
 
     def ingredients(self):
-        ingredients_html = self.soup.findAll("span", {"class": "p-ingredient"})
-
-        return [
-            normalize_string(ingredient.get_text()) for ingredient in ingredients_html
-        ]
+        return self.schema.ingredients()
 
     def instructions(self):
-        instructions_html = self.soup.findAll(
-            "div", {"class": "instructions e-instructions"}
-        )
-
-        return "\n".join(
-            normalize_string(instruction.get_text())
-            for instruction in instructions_html
-        )
+        return self.schema.instructions()
