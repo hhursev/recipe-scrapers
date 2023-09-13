@@ -67,9 +67,9 @@ class ScraperTest(unittest.TestCase):
         # value of type 'str'
         instructions = self.harvester_class.instructions_list()
         message = (
-            "Most recipes contain multiple instructions, but only one was found when "
-            "retrieving data here.  Please check the implementation (and source HTML) "
-            "and either fix the code, or override this method in your test module if "
-            "you are sure it is expected."
+            "Most recipes contain more than one instruction, but this recipe test "
+            "did not.  Please check the implementation (and source HTML) and either "
+            "fix the code, or override this method in your test module if you are sure "
+            "this is the expected behaviour."
         )
         self.assertGreater(len(instructions), 1, message)
