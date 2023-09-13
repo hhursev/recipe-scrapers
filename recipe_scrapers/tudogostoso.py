@@ -1,4 +1,4 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
 from ._abstract import AbstractScraper
 
 
