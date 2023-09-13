@@ -52,3 +52,6 @@ class TestHeinzBrasilScraper(ScraperTest):
             "Frite a carne, a cebola e os pimentões na manteiga com o azeite, mexendo bem. Despeje as especiarias mexicanas e o café. Adicione o milho, o feijão, os tomates picados e o Ketchup Heinz. Cozinhe por 5 minutos. Sirva com um bom pedaço de pão e gruyère.",
             self.harvester_class.instructions(),
         )
+
+    def test_language(self):
+         self.assertEqual("pt-BR", self.harvester_class.language())
