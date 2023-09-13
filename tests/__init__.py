@@ -66,4 +66,10 @@ class ScraperTest(unittest.TestCase):
         # this implicitly also confirms that instructions() returns a newline-separated
         # value of type 'str'
         instructions = self.harvester_class.instructions_list()
-        self.assertGreater(len(instructions), 1)
+        message = (
+            "Most recipes contain multiple instructions, but only one was found when "
+            "retrieving data here.  Please check the implementation (and source HTML) "
+            "and either fix the code, or override this method in your test module if "
+            "you are sure it is expected."
+        )
+        self.assertGreater(len(instructions), 1, message)
