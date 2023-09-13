@@ -30,7 +30,7 @@ class Costco(AbstractScraper):
         parent_div = self.soup.find("div", {"class": "col-xs-12 col-md-5"})
         if parent_div:
             instructions_paragraphs = parent_div.find_all("p")
-            instructions_text = " ".join(
+            instructions_text = "/n".join(
                 [p.get_text() for p in instructions_paragraphs]
             )
             return normalize_string(instructions_text)
