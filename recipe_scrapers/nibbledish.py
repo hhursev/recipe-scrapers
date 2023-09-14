@@ -21,7 +21,18 @@ class NibbleDish(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        return self.schema.ingredients()
+        schema_ingredients = self.schema.ingredients()
+
+        # Good case: multiple ingredients were found
+        if len(schema_ingredients) > 1:
+            return schema_ingredients
+
+        # Fallback case: to handle situations where all ingredient text has been merged
+        # into a single recipeIngredient metadata item.
+        container = self.soup.find("div", {"class": "recipe-ingredients"})
+        ingredients = container.find_all("li")
+
+        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
         schema_instructions = self.schema.ingredients()
