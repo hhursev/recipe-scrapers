@@ -83,7 +83,7 @@ class TestSaboresAnjinomotoScraper(ScraperTest):
             "Prepare a massa: em uma tigela média, coloque os ovos, a goma para tapioca, o leite e o Caldo SAZÓN® restante, e misture até ficar homogêneo. Junte os brócolis e misture.",
             "Em uma frigideira média (26 cm de diâmetro), untada com um fio do Azeite TERRANO®, coloque 1 concha da massa e cozinhe por 1 minuto. Vire, disponha parte do recheio e dobre a crepioca ao meio. Tampe e deixe por 2 minutos de cada lado. Repita o processo com a massa e recheio restantes, repondo o Azeite TERRANO® quando necessário. Sirva em seguida.",
         ]
-
+        expected_instructions = "\n".join(expected_instructions)
         self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def test_ratings(self):

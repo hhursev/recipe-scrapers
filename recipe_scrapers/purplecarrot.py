@@ -1,6 +1,5 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
-from ._utils import normalize_string
 
 
 class PurpleCarrot(AbstractScraper):
@@ -24,7 +23,7 @@ class PurpleCarrot(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        return normalize_string(self.schema.instructions())
+        return self.schema.instructions()
 
     def nutrients(self):
         return self.schema.nutrients()

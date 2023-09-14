@@ -52,7 +52,22 @@ class TestRicettaScraper(ScraperTest):
         )
 
     def test_instructions(self):
-        expected_instructions = """Per prima cosa procediamo a pulire il radicchio e a tagliarlo in due nel verso della lunghezza, e poi a listarelle. Mettiamolo in una pentola capiente con un filo d'olio extra vergine d’oliva e lasciamo stufare a fiamma dolce per dieci minuti circa [1]. Saliamo e mescoliamo di tanto in tanto. Per preparare la besciamella invece mettiamo il latte a bollire e in un altro pentolino facciamo sciogliere il burro [2]. Quando è del tutto fuso, uniamo la farina [3] e facciamo addensare mescolando per un paio di minuti. Dopodiché trasferiamo questo composto nel latte giunto ad ebollizione [4]. Insaporiamo con noce moscata [5] e un pizzico di sale, mescoliamo il tutto e togliamo dal fuoco. Teniamone 3-4 mestolini da parte, quindi uniamo il resto al radicchio stufato [6]. Infine tagliamo a cubetti la fontina. Possiamo ora comporre le nostre lasagne: prendiamo una pirofila (noi ne abbiamo utilizzata una di 15x25 cm), distribuiamo un po' di besciamella e radicchio sul fondo, poi stendiamo le sfoglie di pasta fresca senza cuocerla in precedenza [7]. Aggiungiamo poi altra besciamella al radicchio, sopra un po' di fontina [8] e una spolverata di parmigiano grattugiato [9]. Ricopriamo con altre sfoglie di pasta e ripetiamo gli strati fino ad esaurimento degli ingredienti [10]. Completiamo distribuendo la besciamella bianca, tenuta da parte inizialmente e abbondante parmigiano grattugiato [11], che in cottura creerà una crosticina croccante. Versiamo un filo d'olio extra vergine d'oliva e mettiamo a cuocere in forno ventilato preriscaldato a 200° per 20-25 minuti [12]. Come accennato in precedenza, il formaggio dovrà aver formato una bella crosticina, se però così non fosse, possiamo accendere la funzione grill del nostro forno e terminare la cottura per qualche minuto prestando però particolare attenzione che le lasagne non brucino. Una volta cotte, attendiamo giusto un paio di minuti per tagliarle, poi serviamole molto calde, così da valorizzare l’effetto fondente del formaggio."""
+        expected_instructions = "\n".join(
+            [
+                "Per prima cosa procediamo a pulire il radicchio e a tagliarlo in due nel verso della lunghezza, e poi a listarelle. Mettiamolo in una pentola capiente con un filo d'olio extra vergine d’oliva e lasciamo stufare a fiamma dolce per dieci minuti circa [1].",
+                "Saliamo e mescoliamo di tanto in tanto. Per preparare la besciamella invece mettiamo il latte a bollire e in un altro pentolino facciamo sciogliere il burro [2].",
+                "Quando è del tutto fuso, uniamo la farina [3] e facciamo addensare mescolando per un paio di minuti.",
+                "Dopodiché trasferiamo questo composto nel latte giunto ad ebollizione [4].",
+                "Insaporiamo con noce moscata [5] e un pizzico di sale, mescoliamo il tutto e togliamo dal fuoco.",
+                "Teniamone 3-4 mestolini da parte, quindi uniamo il resto al radicchio stufato [6].",
+                "Infine tagliamo a cubetti la fontina. Possiamo ora comporre le nostre lasagne: prendiamo una pirofila (noi ne abbiamo utilizzata una di 15x25 cm), distribuiamo un po' di besciamella e radicchio sul fondo, poi stendiamo le sfoglie di pasta fresca senza cuocerla in precedenza [7].",
+                "Aggiungiamo poi altra besciamella al radicchio, sopra un po' di fontina [8] e una spolverata di parmigiano grattugiato [9].",
+                "Ricopriamo con altre sfoglie di pasta e ripetiamo gli strati fino ad esaurimento degli ingredienti [10].",
+                "Completiamo distribuendo la besciamella bianca, tenuta da parte inizialmente e abbondante parmigiano grattugiato [11], che in cottura creerà una crosticina croccante.",
+                "Versiamo un filo d'olio extra vergine d'oliva e mettiamo a cuocere in forno ventilato preriscaldato a 200° per 20-25 minuti [12].",
+                "Come accennato in precedenza, il formaggio dovrà aver formato una bella crosticina, se però così non fosse, possiamo accendere la funzione grill del nostro forno e terminare la cottura per qualche minuto prestando però particolare attenzione che le lasagne non brucino. Una volta cotte, attendiamo giusto un paio di minuti per tagliarle, poi serviamole molto calde, così da valorizzare l’effetto fondente del formaggio.",
+            ]
+        )
         self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def test_ratings(self):

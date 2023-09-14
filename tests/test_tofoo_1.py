@@ -63,4 +63,5 @@ class TestTofooScraper(ScraperTest):
             "Heat a frying pan, add the oil, and lightly fry the Tofoo for a few minutes until it turns golden brown. Allow to cool.",
             "Place all the fillings into the baguette, in layers, and drizzle over the Sriracha. Season with pepper and finish with a squeeze of lime.",
         ]
+        expected_instructions = "\n".join(expected_instructions)
         self.assertEqual(expected_instructions, self.harvester_class.instructions())

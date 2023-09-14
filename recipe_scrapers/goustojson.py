@@ -1,5 +1,6 @@
 # mypy: disallow_untyped_defs=False
 import requests
+from bs4 import BeautifulSoup
 
 from ._abstract import HEADERS, AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string, url_path_to_dict
@@ -36,11 +37,14 @@ class GoustoJson(AbstractScraper):
     def title(self):
         return self.data.get("title")
 
+    def description(self):
+        return normalize_string(self.data.get("description"))
+
     def total_time(self):
-        return get_minutes(sorted(self.data.get("prep_times").values())[-1])
+        return get_minutes(sorted(self.data.get("prep_times").values())[0])
 
     def yields(self):
-        return get_yields(sorted(self.data.get("prep_times").keys())[-1])
+        return get_yields(sorted(self.data.get("prep_times").keys())[0])
 
     def image(self):
         return self.data.get("seo").get("open_graph_image")
@@ -52,14 +56,27 @@ class GoustoJson(AbstractScraper):
             if isinstance(ingredient, dict) and "label" in ingredient.keys()
         ]
 
+    def instructions_list(self):
+        instructions = []
+        for instruction in self.data.get("cooking_instructions"):
+            if isinstance(instruction, dict) and "instruction" in instruction.keys():
+                single_step = instruction.get("instruction")
+                soup = BeautifulSoup(single_step, "html.parser")
+                instruction_paragraphs = soup.findAll("p")
+                if instruction_paragraphs:
+                    instructions.append(
+                        "\n".join(
+                            [
+                                normalize_string(paragraph.get_text())
+                                for paragraph in instruction_paragraphs
+                            ]
+                        )
+                    )
+
+        return instructions
+
     def instructions(self):
-        return "\n".join(
-            [
-                normalize_string(instruction.get("instruction"))
-                for instruction in self.data.get("cooking_instructions")
-                if isinstance(instruction, dict) and "instruction" in instruction.keys()
-            ]
-        )
+        return "\n".join(self.instructions_list())
 
     def ratings(self):
         return self.data.get("rating").get("average")
