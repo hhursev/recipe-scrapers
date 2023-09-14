@@ -46,7 +46,11 @@ class IG(AbstractScraper):
             "li"
         )
 
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        return [
+            normalize_string(ingredient.get_text())
+            for ingredient in ingredients
+            if ingredient.get_text()
+        ]
 
     def instructions(self):
         instructions = self.soup.find("div", {"class": "box-preparo"})
