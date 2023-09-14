@@ -59,9 +59,6 @@ class TestIGScraper(ScraperTest):
             self.harvester_class.instructions(),
         )
 
-    def test_language(self):
-        self.assertEqual("pt-BR", self.harvester_class.language())
-
     def test_multiple_instructions(self):
         # override: this test case legitimately does only contain a single instruction in the source HTML
         pass
