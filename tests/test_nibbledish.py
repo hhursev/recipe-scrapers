@@ -25,7 +25,16 @@ class TestNibbleDishScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            "My version of soon dubu chigae.In your pot, heat up sesame oil and add onions and garlic. Fry them till cooked.Add the shrimp and mussels next. Add the red pepper powder and fry.Put the water in the pot, let it boil and add the beef bouillon cube. Add fish sauce.Add the mushrooms, tofu and gochuchang.Add the egg and with a fork, whisk it around to make strands.Add scallions on top and serve on top of rice.",
+            "\n".join(
+                [
+                    "In your pot, heat up sesame oil and add onions and garlic. Fry them till cooked.",
+                    "Add the shrimp and mussels next. Add the red pepper powder and fry.",
+                    "Put the water in the pot, let it boil and add the beef bouillon cube. Add fish sauce.",
+                    "Add the mushrooms, tofu and gochuchang.",
+                    "Add the egg and with a fork, whisk it around to make strands.",
+                    "Add scallions on top and serve on top of rice.",
+                ]
+            ),
             self.harvester_class.instructions(),
         )
 

@@ -51,3 +51,7 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
             "http://recipesfhd.wpengine.com/wp-content/uploads/2020/04/no-blob_clean-handle-1024x683.jpg",
             self.harvester_class.image(),
         )
+
+    def test_multiple_instructions(self):
+        # override: this test case legitimately does only contain a single instruction in the source HTML
+        pass

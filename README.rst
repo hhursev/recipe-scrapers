@@ -129,6 +129,7 @@ Scrapers available for:
 - `https://cookstr.com/ <https://cookstr.com>`_
 - `https://www.coop.se/ <https://www.coop.se/>`_
 - `https://copykat.com/ <https://copykat.com>`_
+- `https://www.costco.com/ <https://www.costco.com>`_
 - `https://countryliving.com/ <https://countryliving.com>`_
 - `https://creativecanning.com/ <https://creativecanning.com>`_
 - `https://cucchiaio.it/ <https://cucchiaio.it>`_
