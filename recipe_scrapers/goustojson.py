@@ -37,11 +37,14 @@ class GoustoJson(AbstractScraper):
     def title(self):
         return self.data.get("title")
 
+    def description(self):
+        return normalize_string(self.data.get("description"))
+
     def total_time(self):
-        return get_minutes(sorted(self.data.get("prep_times").values())[-1])
+        return get_minutes(sorted(self.data.get("prep_times").values())[0])
 
     def yields(self):
-        return get_yields(sorted(self.data.get("prep_times").keys())[-1])
+        return get_yields(sorted(self.data.get("prep_times").keys())[0])
 
     def image(self):
         return self.data.get("seo").get("open_graph_image")

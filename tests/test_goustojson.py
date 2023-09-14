@@ -22,6 +22,12 @@ class TestGoustoScraper(ScraperTest):
             "Malaysian-Style Coconut Meat-Free Chicken With Pickled Cucumber",
         )
 
+    def test_description(self):
+        self.assertEqual(
+            self.harvester_class.description(),
+            "Inspired by the fragrant flavours of the classic Malaysian chicken dish 'Ayam Percik'. Our spice paste blends lemongrass, almonds and ginger before adding coconut cream and meat-free chicken. Served with fluffy rice and quick-pickled cucumber.",
+        )
+
     def test_image(self):
         self.assertEqual(
             "https://s3-eu-west-1.amazonaws.com/s3-gousto-production-media/cms/mood-image/1930--Malaysian-Coconut-Chicken--Pickled-Cucumber-1636110687600.jpg",
@@ -29,10 +35,10 @@ class TestGoustoScraper(ScraperTest):
         )
 
     def test_total_time(self):
-        self.assertEqual(35, self.harvester_class.total_time())
+        self.assertEqual(25, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("4 servings", self.harvester_class.yields())
+        self.assertEqual("2 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
         self.assertEqual(
