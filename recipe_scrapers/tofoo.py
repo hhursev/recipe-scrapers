@@ -64,4 +64,4 @@ class Tofoo(AbstractScraper):
         instructions_div = self.soup.find("div", {"class": "sect--do-this__title"})
         ol = instructions_div.find_next_sibling("ol")
         instructions = [li.get_text() for li in ol.find_all("li")]
-        return "\n".join(instructions) or None
+        return "\n".join(instructions)

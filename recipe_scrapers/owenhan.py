@@ -23,4 +23,4 @@ class OwenHan(AbstractScraper):
         return [x for x in map(lambda x: x.text, self.soup.select("ol > li"))]
 
     def instructions(self):
-        return "\n".join(self.instructions_list()) or None
+        return "\n".join(self.instructions_list())

@@ -46,14 +46,8 @@ class NibbleDish(AbstractScraper):
         container = self.soup.find("div", {"class": "recipe-instructions"})
         instructions = container.find_all("li")
 
-        return (
-            "\n".join(
-                [
-                    normalize_string(instruction.get_text())
-                    for instruction in instructions
-                ]
-            )
-            or None
+        return "\n".join(
+            [normalize_string(instruction.get_text()) for instruction in instructions]
         )
 
     def ratings(self):

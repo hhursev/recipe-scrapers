@@ -70,7 +70,7 @@ class Lecker(AbstractScraper):
                         if element.name == "p" and element.text.strip():
                             instructions.append(element.text)
 
-                    return "\n".join(instructions) or None
+                    return "\n".join(instructions)
 
     def ratings(self):
         return self.schema.ratings()

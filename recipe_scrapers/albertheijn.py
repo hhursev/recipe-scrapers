@@ -44,7 +44,7 @@ class AlbertHeijn(AbstractScraper):
         ]
 
         if instructions:
-            return "\n".join(instructions) or None
+            return "\n".join(instructions)
 
         # try schema.org
         return self.schema.instructions()
