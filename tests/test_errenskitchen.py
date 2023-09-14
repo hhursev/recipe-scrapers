@@ -63,15 +63,17 @@ class TestErrensKitchenScraper(ScraperTest):
         self.assertEqual(expected_ingredients, self.harvester_class.ingredients())
 
     def test_instructions(self):
-        expected_instructions = (
-            "Pat the chicken meat dry with paper towels. Cut it into evenly cut bite-sized pieces and season well with salt and pepper.\n"
-            "In a large pot, start a pot of salted water to cook the pasta.\n"
-            "While waiting for the water to boil, heat the olive oil in a large skillet over medium heat. Add the cubed chicken, seasoned with salt and pepper, and cook until golden brown and thoroughly cooked. Once done, set the chicken aside.\n"
-            "Use the same skillet to sauté the chopped onion until it becomes soft and translucent. Follow this by adding the chopped sun-dried tomatoes, sun-dried tomato paste, and minced garlic, cooking for an additional minute.\n"
-            "Mix in the chicken stock half and half, and freshly grated Parmesan cheese. Stir to combine the ingredients and bring the mixture to a boil. Lower the heat to low, and simmer for 5 to 10 minutes to reduce and thicken.\n"
-            "Meanwhile, cook the pasta in the boiling water, making sure to undercook it by about 2-3 minutes less than the package instructions for al dente pasta. Remember to reserve a cup of the pasta water before draining.\n"
-            "Drain the slightly undercooked pasta and add it directly into the skillet containing the sauce. Mix the pasta well into the sauce, gradually adding the reserved pasta water until the sauce reaches your desired thickness.\n"
-            "Finally, add the cooked chicken back into the skillet, stirring it into the mixture. Allow everything to simmer together for a few minutes until the pasta is fully cooked and has absorbed some of the flavorful sauce (adding pasta water if necessary to loosen).\n"
-            "Taste for seasoning and season the pasta with salt and pepper as needed. Serve right away."
+        expected_instructions = "\n".join(
+            [
+                "Pat the chicken meat dry with paper towels. Cut it into evenly cut bite-sized pieces and season well with salt and pepper.",
+                "In a large pot, start a pot of salted water to cook the pasta.",
+                "While waiting for the water to boil, heat the olive oil in a large skillet over medium heat. Add the cubed chicken, seasoned with salt and pepper, and cook until golden brown and thoroughly cooked. Once done, set the chicken aside.",
+                "Use the same skillet to sauté the chopped onion until it becomes soft and translucent. Follow this by adding the chopped sun-dried tomatoes, sun-dried tomato paste, and minced garlic, cooking for an additional minute.",
+                "Mix in the chicken stock half and half, and freshly grated Parmesan cheese. Stir to combine the ingredients and bring the mixture to a boil. Lower the heat to low, and simmer for 5 to 10 minutes to reduce and thicken.",
+                "Meanwhile, cook the pasta in the boiling water, making sure to undercook it by about 2-3 minutes less than the package instructions for al dente pasta. Remember to reserve a cup of the pasta water before draining.",
+                "Drain the slightly undercooked pasta and add it directly into the skillet containing the sauce. Mix the pasta well into the sauce, gradually adding the reserved pasta water until the sauce reaches your desired thickness.",
+                "Finally, add the cooked chicken back into the skillet, stirring it into the mixture. Allow everything to simmer together for a few minutes until the pasta is fully cooked and has absorbed some of the flavorful sauce (adding pasta water if necessary to loosen).",
+                "Taste for seasoning and season the pasta with salt and pepper as needed. Serve right away.",
+            ]
         )
         self.assertEqual(expected_instructions, self.harvester_class.instructions())
