@@ -49,6 +49,7 @@ class TestIGScraper(ScraperTest):
                 "3 colheres (sopa) de salsinha picada",
                 "Arroz branco para acompanhar",
                 "Batata palha",
+                "",
             ],
             self.harvester_class.ingredients(),
         )
