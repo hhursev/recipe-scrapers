@@ -51,10 +51,8 @@ class TestSaboresAnjinomotoScraper(ScraperTest):
             "Na mesma panela, derreta a margarina restante, em fogo alto, junte a batata, o leite, o sal e o AJI-NO-MOTO®, e mexa até que fique homogêneo.",
             "Acrescente o frango, misture e retire do fogo. Sirva em seguida.",
         ]
-
-        self.assertEqual(
-            expected_instructions, self.harvester_class.instructions_list()
-        )
+        expected_instructions = "\n".join(expected_instructions)
+        self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def test_ratings(self):
         self.assertEqual(4.0, self.harvester_class.ratings())
