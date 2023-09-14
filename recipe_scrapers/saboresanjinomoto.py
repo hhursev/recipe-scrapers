@@ -54,7 +54,7 @@ class SaboresAnjinomoto(AbstractScraper):
             for item in ol_items:
                 instructions_list.append(normalize_string(item.text))
 
-        return instructions_list
+        return "\n".join(instructions_list) or None
 
     def ingredient_groups(self):
         return group_ingredients(

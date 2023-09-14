@@ -53,12 +53,7 @@ class Vegolosi(AbstractScraper):
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
-
-        instructions = self.soup.findAll("div", {"class": "tasty-recipe-instructions"})
-
-        return "\n".join(
-            [normalize_string(instruction.get_text()) for instruction in instructions]
-        )
+        return self.schema.instructions()
 
     def ratings(self):
         return round(

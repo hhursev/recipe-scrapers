@@ -30,10 +30,12 @@ class Costco(AbstractScraper):
         parent_div = self.soup.find("div", {"class": "col-xs-12 col-md-5"})
         if parent_div:
             instructions_paragraphs = parent_div.find_all("p")
-            instructions_text = "\n".join(
-                [p.get_text() for p in instructions_paragraphs]
-            )
-            return normalize_string(instructions_text)
+            instructions = [
+                normalize_string(p.get_text())
+                for p in instructions_paragraphs
+                if p.get_text()
+            ]
+            return "\n".join(instructions) or None
 
     def image(self):
         parent_div = self.soup.find("div", {"class": "col-xs-12 col-md-6"})

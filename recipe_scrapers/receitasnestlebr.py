@@ -50,7 +50,7 @@ class ReceitasNestleBR(AbstractScraper):
                     instruction = div_content.get_text().strip()
                     cleaned_instruction = re.sub(r"^\d+\.\s*", "", instruction)
                     instructions.append(cleaned_instruction)
-        return instructions
+        return "\n".join(instructions) or None
 
     def ratings(self):
         rating_div = self.soup.find("div", {"class": "rating"})

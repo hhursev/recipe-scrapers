@@ -30,7 +30,21 @@ class Ricetta(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        return self.schema.instructions()
+        instructions_list = []
+
+        # ricetta uses an inline, square-bracketed numbering system;
+        #   "crumble the biscuits [1].  bake [2] in the oven."
+        current_instruction = ""
+        for sentence in self.schema.instructions().split("."):
+            current_instruction += sentence + "." if sentence.strip() else ""
+            if "[" in sentence and "]" in sentence:
+                instructions_list.append(current_instruction.lstrip(" "))
+                current_instruction = ""
+
+        if current_instruction:
+            instructions_list.append(current_instruction.lstrip(" "))
+
+        return "\n".join(instructions_list)
 
     def ratings(self):
         return self.schema.ratings()

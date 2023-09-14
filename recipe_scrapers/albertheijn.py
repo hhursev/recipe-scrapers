@@ -32,13 +32,8 @@ class AlbertHeijn(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        # try schema.org
-        instructions = self.schema.instructions()
-        if instructions:
-            return instructions
-
         instructions = [
-            step
+            normalize_string(step.get_text())
             # get steps root
             for root in self.soup.findAll(
                 "div",
@@ -48,9 +43,11 @@ class AlbertHeijn(AbstractScraper):
             for step in root.findAll("p")
         ]
 
-        return "\n".join(
-            [normalize_string(instruction.get_text()) for instruction in instructions]
-        )
+        if instructions:
+            return "\n".join(instructions) or None
+
+        # try schema.org
+        return self.schema.instructions()
 
     def ratings(self):
         return self.schema.ratings()
