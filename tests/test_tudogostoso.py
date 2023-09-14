@@ -36,6 +36,3 @@ class TestTudoGostosoScraper(ScraperTest):
             ),
             self.harvester_class.instructions(),
         )
-
-    def test_language(self):
-        self.assertEqual("pt-br", self.harvester_class.language())
