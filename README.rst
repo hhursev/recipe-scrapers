@@ -135,6 +135,7 @@ Scrapers available for:
 - `https://eatwhattonight.com/ <https://eatwhattonight.com/>`_
 - `https://emmikochteinfach.de/ <https://emmikochteinfach.de/>`_
 - `https://ethanchlebowski.com/ <https://ethanchlebowski.com>`_
+- `https://epicurious.com/ <https://epicurious.com>`_
 - `https://www.errenskitchen.com/ <https://www.errenskitchen.com/>`_
 - `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
 - `https://fifteenspatulas.com/ <https://www.fifteenspatulas.com/>`_
