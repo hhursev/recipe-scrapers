@@ -141,3 +141,7 @@ class TestAllRecipesUserScraper(ScraperTest):
 
     def test_category(self):
         self.assertEqual(None, self.harvester_class.category())
+
+    def test_multiple_instructions(self):
+        # override: this test case legitimately does only contain a single instruction in the source HTML
+        pass

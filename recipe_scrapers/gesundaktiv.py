@@ -27,9 +27,9 @@ class GesundAktiv(AbstractScraper):
             "div", {"class": "field--name-field-content-element"}
         )
         instructions = instructions_container.findAll("div", {"class": "field--item"})
-        return [
-            normalize_string(instruction.get_text()) for instruction in instructions
-        ]
+        return "\n".join(
+            [normalize_string(instruction.get_text()) for instruction in instructions]
+        )
 
     def description(self):
         return normalize_string(
