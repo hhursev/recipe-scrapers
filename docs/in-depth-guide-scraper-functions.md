@@ -1,12 +1,11 @@
 # In Depth Guide: Scraper Functions
 
-> ![NOTE]
 > **Draft**
 > This in depth guide is intended to give more detail about the functions that make up the public API for scrapers.
 >
-> To include:
+>To include:
 >
-> * All functions, grouped by whether they're mandatory, inherited, optional
+>* All functions, grouped by whether they're mandatory, inherited, optional
 > * The return type for each function
 > * Detail about what the content of the returned value should be
 
