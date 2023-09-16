@@ -17,4 +17,4 @@ Sometimes it is simple and straightforward to achieve all these goals, and somet
   * [Debugging](in-depth-guide-debugging.md)
   * [HTML Scraping](in-depth-guide-html-scraping.md)
   * [Ingredient Groups](in-depth-guide-ingredient-groups.md)
-  * [Scraper Function](in-depth-guide-scraper-functions.md)
+  * [Scraper Functions](in-depth-guide-scraper-functions.md)
