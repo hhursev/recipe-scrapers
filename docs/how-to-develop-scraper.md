@@ -208,7 +208,7 @@ class TestNewScraperScraper(ScraperTest):
         self.assertEqual(None, self.harvester_class.description())
 ```
 
-You will need to modify each of these function to replace `None` with the correct output from the scraper for the recipe in the URL you used to generate the test. You should not do any processing of the scraper output in the test case, this would belong in the scraper itself.
+You will need to modify each of these functions to replace `None` with the correct output from the scraper for the recipe in the URL you used to generate the test. You should not do any processing of the scraper output in the test case, this would belong in the scraper itself.
 
 This test case should only have tests for the functions that the scraper implements. You may need to add or remove tests depending on the implementation of the scraper.
 
@@ -222,4 +222,4 @@ You can check whether your scraper is passing the tests by running
 
 Once you have finished developing the scraper and test case, you can commit the files to git and push them to Github. You should also update the README.rst to list the new scraper too.
 
-After you have pushed the changes to Github, you can open a pull request in the [recipe-scapers project](https://github.com/hhursev/recipe-scrapers/pulls). You changes will undergo some automatic tests (no different to running the all the tests in the project, but this time on all supported platforms and using all support python versions) and be reviewed other project contributers.
+After you have pushed the changes to Github, you can open a pull request in the [recipe-scrapers project](https://github.com/hhursev/recipe-scrapers/pulls). You changes will undergo some automatic tests (no different to running the all the tests in the project, but this time on all supported platforms and using all support python versions) and be reviewed other project contributors.
