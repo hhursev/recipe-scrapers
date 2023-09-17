@@ -1,10 +1,125 @@
 # In Depth Guide: Ingredient Groups
 
 > **Draft**
-> This in depth guide is intended to give more detail about how to add support for ingredient groups to a scraper, including examples.
->
->To include:
->
->* What the return value from `ingredient_groups()` should look like
-> * How to use the `group_ingredients()` helper
-> * What to do if the helper functions can't be used
+
+Sometimes a website will format the list ingredients into groups, where each group contains the ingredients needed for a particular aspect of the recipe. Recipe schema has no way to represent this grouping, so all of the ingredients are given in a single list and the groupings are lost.
+
+Some examples of recipes that have ingredient groups are :
+
+* https://cooking.nytimes.com/recipes/1024570-green-salad-with-warm-goat-cheese-salade-de-chevre-chaud
+* https://lifestyleofafoodie.com/air-fryer-frozen-french-fries
+* https://www.bbcgoodfood.com/recipes/monster-cupcakes
+
+Not all websites use ingredient groups, and those that do use ingredient groups will not use them for all recipes.
+
+This library allows a scraper to return the ingredients in the groups defined in the recipe, if the functionality is added to that scraper.
+
+## `ingredient_groups()`
+
+The `ingredient_groups()` function returns a list of `IngredientGroup` objects. Each `IngredientGroup` is a dataclass that represents a group of ingredients:
+
+```python
+@dataclass
+class IngredientGroup:
+    ingredients: List[str]
+    purpose: Optional[
+        str
+    ] = None  # this group of ingredients is {purpose} (e.g. "For the dressing")
+```
+
+The *purpose* is the ingredient group heading, such as *"For the dressing"*, *"For the sauce"* etc. The *ingredients* is the list of ingredients that comprise that group.
+
+This dataclass is defined in `_grouping_utils.py` and should be imported from there
+
+```pyth
+from ._grouping_utils import IngredientGroup
+```
+
+The `ingredient_groups()` function has a default implementation in the `AbstractScraper` class that returns a single `IngredientGroup` object with `purpose` set to `None` and `ingredients` set to the output from the scraper's `ingredients()` function.
+
+To add ingredient group support to a scraper, the `ingredient_group` function needs to be overridden in the scraper class. The are three main things to consider when implementing ingredient groups support:
+
+1. The groups and their contents are not present in the Recipe schema. They must be extracted from the recipe HTML.
+2. The ingredients found in `ingredients()` and `ingredient_groups()` must be the same. This may sound obvious but there can sometimes minor differences in the ingredients in the schema and the ingredients in the HTML.
+3. Not all recipes on a website will use ingredient groups, so the implementation must support recipes that do and recipes that don't have ingredient groups. For recipes that don't have ingredient groups, the output should be the same as default implementation (i.e. a single `IngredientGroup` with `purpose=None` and `ingredients=ingredients()`).
+
+In many cases the structure of how ingredients and group heading appear in the HTML is very similar. Some helper functions have been developed to make the implementation easier.
+
+## _grouping_utils.py
+
+The `_grouping_utils.py` file contains a helper function (`group_ingredients(...)`) that will handle the extraction of ingredients groups and their headings from the HTML, make sure the ingredients in the groups match those return from `.ingredients()`, and then return the groups.
+
+The `group_ingredients()` function takes four arguments:
+
+```pyth
+def group_ingredients(
+    ingredients_list: List[str],
+    soup: BeautifulSoup,
+    group_heading: str,
+    group_element: str,
+) -> List[IngredientGroup]:
+```
+
+* `ingredients_list` is the output from the `.ingredients()` function of the scraper class. This is used to make the ingredients found in the HTML match those return by `.ingredients()`.
+* `soup` is the `BeautifulSoup` object for the scraper. The ingredient groups are extracted from this.
+* `group_heading` is the CSS selector for the group headings. This selector must only match the group headings in the recipe HTML.
+* `group_element` is the CSS selector for the ingredients. This selector must only match the ingredients in the recipe HTML.
+
+### Example
+
+Many recipe blogs use WordPress and the WordPress Recipe Manager plugin. This means they often use the same HTML elements and CSS classes to represent the same things. One such example is https://rainbowplantlife.com.
+
+If we look at the recipe: https://rainbowplantlife.com/vegan-pasta-salad/
+
+The group headings in this recipe are all `h4` headings inside an element with the class `wprm-recipe-ingredient-group`. Therefore we can select all ingredient group headings with the selector: `.wprm-recipe-ingredient-group h4`
+
+The ingredients are all elements with the class `wprm-recipe-ingredient`. Therefore we can select all ingredients with the selector: `.wprm-recipe-ingredient`
+
+The implementation in the scraper looks like
+
+```python
+from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
+
+
+class RainbowPlantLife(AbstractScraper):
+    ...
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".wprm-recipe-ingredient-group h4",
+            ".wprm-recipe-ingredient",
+        )
+```
+
+That is all that is required to add support for ingredient groups to this scraper.
+
+Some other examples of scrapers that support ingredient groups are:
+
+* [BudgetBytes](https://github.com/hhursev/recipe-scrapers/blob/main/recipe_scrapers/budgetbytes.py)
+* [NYTimes](https://github.com/hhursev/recipe-scrapers/blob/main/recipe_scrapers/nytimes.py)
+* [PickUpLimes](https://github.com/hhursev/recipe-scrapers/blob/main/recipe_scrapers/pickuplimes.py)
+* [RealFoodTesco](https://github.com/hhursev/recipe-scrapers/blob/main/recipe_scrapers/realfoodtesco.py)
+
+### What if `group_ingredients()` doesn't work?
+
+The `group_ingredients` function relies on being able to identify all the group headings with a single CSS selector and all the ingredients with a single CSS selector. However, this is not always possible - it depends on how the website lays out it's HTML.
+
+In these cases supporting ingredient groups may still be possible. The implementation of `ingredient_groups()` in the scraper will be implemented uniquely to that scraper. The `group_ingredients()` helper may provide a useful template, even if it can't be used.
+
+An example of a scraper that supports ingredient groups without using the `group_ingredients()` helper is [NIHHealthyEating](https://github.com/hhursev/recipe-scrapers/blob/main/recipe_scrapers/nihhealthyeating.py).
+
+## Tests
+
+When adding ingredient group support to a scraper we need to create two test cases.
+
+- A test case for a recipe that **does not** group the ingredients
+- A test case for a recipe that **does** group the ingredient
+
+This is because not all the recipes on a website will have ingredient groups and the scraper does not know if the recipe does or not beforehand. Therefore, the scraper must handle both cases.
+
+In addition to the usual tests a scraper requires, the tests also need to check the groups and the ingredients in each group are correct for the recipe.  For the test cases where there are no ingredient groups, this should check for a single `IngrediendGroup` object with `purpose=None` and `ingredients` set to the output from the scraper's `ingredients()` function. For the test case with ingredient groups, the output should match the groups in the recipe.
+
+Each test case will automatically inherit a test that checks to make sure the same ingredients are found in `.ingredients()` and in the groups returned from `.ingredients_groups()`, so there is no need to write this test in the scraper test cases.
