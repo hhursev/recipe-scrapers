@@ -222,4 +222,4 @@ You can check whether your scraper is passing the tests by running
 
 Once you have finished developing the scraper and test case, you can commit the files to git and push them to Github. You should also update the README.rst to list the new scraper too.
 
-After you have pushed the changes to Github, you can open a pull request in the [recipe-scrapers project](https://github.com/hhursev/recipe-scrapers/pulls). You changes will undergo some automatic tests (no different to running the all the tests in the project, but this time on all supported platforms and using all support python versions) and be reviewed other project contributors.
+After you have pushed the changes to Github, you can open a pull request in the [recipe-scrapers project](https://github.com/hhursev/recipe-scrapers/pulls). Your changes will undergo some automatic tests (no different to running the all the tests in the project, but this time on all supported platforms and using all support python versions) and be reviewed by other project contributors.
