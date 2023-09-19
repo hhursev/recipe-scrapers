@@ -7,6 +7,7 @@ from tests import ScraperTest
 class TestTidyMomScraper(ScraperTest):
 
     scraper_class = TidyMom
+    test_file_name = "tidymom_1"
 
     def test_host(self):
         self.assertEqual("tidymom.net", self.harvester_class.host())
