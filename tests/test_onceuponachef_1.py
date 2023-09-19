@@ -7,7 +7,7 @@ from tests import ScraperTest
 class TestOnceUponAChefScraper(ScraperTest):
 
     scraper_class = OnceUponAChef
-    test_file_name ="onceuponachef_1"
+    test_file_name = "onceuponachef_1"
 
     def test_host(self):
         self.assertEqual("onceuponachef.com", self.harvester_class.host())
@@ -28,20 +28,28 @@ class TestOnceUponAChefScraper(ScraperTest):
         self.assertEqual("2 items", self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEqual("https://www.onceuponachef.com/images/2009/09/Pumpkin-Bread-100.jpg", self.harvester_class.image())
+        self.assertEqual(
+            "https://www.onceuponachef.com/images/2009/09/Pumpkin-Bread-100.jpg",
+            self.harvester_class.image(),
+        )
 
     def test_ingredients(self):
-        self.assertEqual(['2 cups all-purpose flour, spooned into measuring cup and leveled-off',
-                        '½ teaspoon salt',
-                        '1 teaspoon baking soda',
-                        '½ teaspoon baking powder',
-                        '1 teaspoon ground cloves',
-                        '1 teaspoon ground cinnamon',
-                        '1 teaspoon ground nutmeg',
-                        '1½ sticks (¾ cup) unsalted butter, softened',
-                        '2 cups sugar',
-                        '2 large eggs',
-                        "1 (15-oz) can 100% pure pumpkin (I use Libby's)"], self.harvester_class.ingredients())
+        self.assertEqual(
+            [
+                "2 cups all-purpose flour, spooned into measuring cup and leveled-off",
+                "½ teaspoon salt",
+                "1 teaspoon baking soda",
+                "½ teaspoon baking powder",
+                "1 teaspoon ground cloves",
+                "1 teaspoon ground cinnamon",
+                "1 teaspoon ground nutmeg",
+                "1½ sticks (¾ cup) unsalted butter, softened",
+                "2 cups sugar",
+                "2 large eggs",
+                "1 (15-oz) can 100% pure pumpkin (I use Libby's)",
+            ],
+            self.harvester_class.ingredients(),
+        )
 
     def test_instructions(self):
         self.assertEqual(
@@ -52,7 +60,8 @@ class TestOnceUponAChefScraper(ScraperTest):
             "Turn the batter into the prepared pans, dividing evenly, and bake for 65 – 75 minutes, or until a cake tester inserted into the center comes out clean. Let the loaves cool in the pans for about 10 minutes, then turn out onto a wire rack to cool completely.\n"
             "Fresh out of the oven, the loaves have a deliciously crisp crust. If they last beyond a day, you can toast individual slices to get the same fresh-baked effect.\n"
             "Freezer-Friendly Instructions: The bread can be frozen for up to 3 months. After it is completely cooled, wrap it securely in aluminum foil, freezer wrap or place in a freezer bag. Thaw overnight in the refrigerator before serving.",
-            self.harvester_class.instructions())
+            self.harvester_class.instructions(),
+        )
 
     def test_ratings(self):
         self.assertEqual(5.0, self.harvester_class.ratings())
@@ -61,4 +70,7 @@ class TestOnceUponAChefScraper(ScraperTest):
         self.assertEqual("American", self.harvester_class.cuisine())
 
     def test_description(self):
-        self.assertEqual("Kids love it, grown-ups love it...this pumpkin bread is hard to beat!", self.harvester_class.description())
+        self.assertEqual(
+            "Kids love it, grown-ups love it...this pumpkin bread is hard to beat!",
+            self.harvester_class.description(),
+        )
