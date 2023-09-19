@@ -2,6 +2,7 @@
 
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
+from ._grouping_utils import group_ingredients
 
 
 class OnceUponAChef(AbstractScraper):
@@ -31,6 +32,14 @@ class OnceUponAChef(AbstractScraper):
 
     def ingredients(self):
         return self.schema.ingredients()
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".ingredients h4",
+            "li.ingredient",
+        )
 
     def instructions(self):
         return self.schema.instructions()
