@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
-from recipe_scrapers.plowingthroughlife import PlowingThroughLife
 from recipe_scrapers._grouping_utils import IngredientGroup
+from recipe_scrapers.plowingthroughlife import PlowingThroughLife
 from tests import ScraperTest
 
 

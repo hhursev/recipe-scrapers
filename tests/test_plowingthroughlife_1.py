@@ -13,7 +13,9 @@ class TestPlowingThroughLifeScraper(ScraperTest):
         self.assertEqual("plowingthroughlife.com", self.harvester_class.host())
 
     def test_author(self):
-        self.assertEqual("Jennifer @ Plowing Through Life", self.harvester_class.author())
+        self.assertEqual(
+            "Jennifer @ Plowing Through Life", self.harvester_class.author()
+        )
 
     def test_title(self):
         self.assertEqual("Crock Pot Mac and Cheese", self.harvester_class.title())

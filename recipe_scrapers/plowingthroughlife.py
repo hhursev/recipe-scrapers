@@ -1,9 +1,8 @@
 # mypy: allow-untyped-defs
 
-from typing import List
-from recipe_scrapers._grouping_utils import IngredientGroup
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
+
 
 class PlowingThroughLife(AbstractScraper):
     @classmethod
@@ -11,10 +10,7 @@ class PlowingThroughLife(AbstractScraper):
         return "plowingthroughlife.com"
 
     def author(self):
-        return self.soup.find(
-            'span',
-            {'class': 'entry-author-name'}
-        ).get_text()
+        return self.soup.find("span", {"class": "entry-author-name"}).get_text()
 
     def title(self):
         return self.schema.title()
