@@ -2,7 +2,7 @@
 
 > **Draft**
 
-Sometimes a website will format the list ingredients into groups, where each group contains the ingredients needed for a particular aspect of the recipe. Recipe schema has no way to represent this grouping, so all of the ingredients are given in a single list and the groupings are lost.
+Sometimes a website will format lists of ingredients using groups, where each group contains the ingredients needed for a particular aspect of the recipe. Recipe schema has no way to represent these groupings, so all of the ingredients are presented as a single list and information about the groupings are lost.
 
 Some examples of recipes that have ingredient groups are :
 
@@ -37,11 +37,11 @@ from ._grouping_utils import IngredientGroup
 
 The `ingredient_groups()` function has a default implementation in the `AbstractScraper` class that returns a single `IngredientGroup` object with `purpose` set to `None` and `ingredients` set to the output from the scraper's `ingredients()` function.
 
-To add ingredient group support to a scraper, the `ingredient_group` function needs to be overridden in the scraper class. The are three main things to consider when implementing ingredient groups support:
+Adding ingredient group support to a scraper involves overriding the `ingredient_group` function for it.  There are three important points to consider:
 
-1. The groups and their contents are not present in the Recipe schema. They must be extracted from the recipe HTML.
-2. The ingredients found in `ingredients()` and `ingredient_groups()` must be the same. This may sound obvious but there can sometimes minor differences in the ingredients in the schema and the ingredients in the HTML.
-3. Not all recipes on a website will use ingredient groups, so the implementation must support recipes that do and recipes that don't have ingredient groups. For recipes that don't have ingredient groups, the output should be the same as default implementation (i.e. a single `IngredientGroup` with `purpose=None` and `ingredients=ingredients()`).
+1. The schema.org Recipe format does not support groupings - so scraping from the HTML is required in the implementation.
+2. The ingredients found in `ingredients()` and `ingredient_groups()` should be the same because we're presenting the same set of ingredients, just in a different way. There can sometimes minor differences in the ingredients in the schema and the ingredients in the HTML which needs to be handled.
+3. Not all recipes on a website will use ingredient groups, so the implementation must degrade gracefully in cases where groupings aren't available. For recipes that don't have ingredient groups, the output should be the same as default implementation (i.e. a single `IngredientGroup` with `purpose=None` and `ingredients=ingredients()`).
 
 In many cases the structure of how ingredients and group heading appear in the HTML is very similar. Some helper functions have been developed to make the implementation easier.
 
@@ -107,7 +107,7 @@ Some other examples of scrapers that support ingredient groups are:
 
 The `group_ingredients` function relies on being able to identify all the group headings with a single CSS selector and all the ingredients with a single CSS selector. However, this is not always possible - it depends on how the website lays out it's HTML.
 
-In these cases supporting ingredient groups may still be possible. The implementation of `ingredient_groups()` in the scraper will be implemented uniquely to that scraper. The `group_ingredients()` helper may provide a useful template, even if it can't be used.
+In these cases supporting ingredient groups may still be possible. The `group_ingredients()` helper method is only that: an optional helper -- you can always implement custom grouping logic yourself by overriding `ingredient_groups()` directly in your scraper if you can't find suitable CSS selectors for the ingredients and groups.
 
 An example of a scraper that supports ingredient groups without using the `group_ingredients()` helper is [NIHHealthyEating](https://github.com/hhursev/recipe-scrapers/blob/main/recipe_scrapers/nihhealthyeating.py).
 
