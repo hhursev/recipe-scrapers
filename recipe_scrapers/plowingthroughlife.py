@@ -1,7 +1,9 @@
 # mypy: allow-untyped-defs
 
+from typing import List
+from recipe_scrapers._grouping_utils import IngredientGroup
 from ._abstract import AbstractScraper
-
+from ._grouping_utils import group_ingredients
 
 class PlowingThroughLife(AbstractScraper):
     @classmethod
@@ -31,6 +33,14 @@ class PlowingThroughLife(AbstractScraper):
 
     def ingredients(self):
         return self.schema.ingredients()
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".wprm-recipe-ingredient-group h4",
+            ".wprm-recipe-ingredients li",
+        )
 
     def instructions(self):
         return self.schema.instructions()
