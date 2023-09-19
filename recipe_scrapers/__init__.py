@@ -183,6 +183,7 @@ from .pickuplimes import PickUpLimes
 from .pingodoce import PingoDoce
 from .pinkowlkitchen import PinkOwlKitchen
 from .platingpixels import PlatingPixels
+from .plowingthroughlife import PlowingThroughLife
 from .popsugar import PopSugar
 from .practicalselfreliance import PracticalSelfReliance
 from .pressureluckcooking import PressureLuckCooking
@@ -479,6 +480,7 @@ SCRAPERS = {
     PingoDoce.host(): PingoDoce,
     PinkOwlKitchen.host(): PinkOwlKitchen,
     PlatingPixels.host(): PlatingPixels,
+    PlowingThroughLife.host(): PlowingThroughLife,
     PopSugar.host(): PopSugar,
     PracticalSelfReliance.host(): PracticalSelfReliance,
     PracticalSelfReliance.host(domain="creativecanning.com"): PracticalSelfReliance,
