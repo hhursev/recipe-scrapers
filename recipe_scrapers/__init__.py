@@ -249,6 +249,7 @@ from .therecipecritic import Therecipecritic
 from .thespruceeats import TheSpruceEats
 from .thevintagemixer import TheVintageMixer
 from .thewoksoflife import Thewoksoflife
+from .tidymom import TidyMom
 from .timesofindia import TimesOfIndia
 from .tineno import TineNo
 from .tofoo import Tofoo
@@ -547,6 +548,7 @@ SCRAPERS = {
     TheVintageMixer.host(): TheVintageMixer,
     Therecipecritic.host(): Therecipecritic,
     Thewoksoflife.host(): Thewoksoflife,
+    TidyMom.host(): TidyMom,
     TimesOfIndia.host(): TimesOfIndia,
     TineNo.host(): TineNo,
     Tofoo.host(): Tofoo,
