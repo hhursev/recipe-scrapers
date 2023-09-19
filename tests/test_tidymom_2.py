@@ -14,26 +14,60 @@ class TestTidyMomScraper(ScraperTest):
         self.assertEqual("tidymom.net", self.harvester_class.host())
 
     def test_author(self):
-        self.assertEqual('TidyMom', self.harvester_class.author())
+        self.assertEqual("TidyMom", self.harvester_class.author())
 
     def test_title(self):
-        self.assertEqual('Red Velvet Cake With Cinnamon Buttercream', self.harvester_class.title())
+        self.assertEqual(
+            "Red Velvet Cake With Cinnamon Buttercream", self.harvester_class.title()
+        )
 
     def test_category(self):
-        self.assertEqual('Cake Recipes', self.harvester_class.category())
+        self.assertEqual("Cake Recipes", self.harvester_class.category())
 
     def test_total_time(self):
         self.assertEqual(205, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual('9 servings', self.harvester_class.yields())
+        self.assertEqual("9 servings", self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEqual('https://tidymom.net/blog/wp-content/uploads/2023/01/red-velvet-cake-pic-720x720.jpg', self.harvester_class.image())
+        self.assertEqual(
+            "https://tidymom.net/blog/wp-content/uploads/2023/01/red-velvet-cake-pic-720x720.jpg",
+            self.harvester_class.image(),
+        )
 
     def test_ingredients(self):
-        self.assertEqual(['2 cups all-purpose unbleached flour', '1/2 cup natural cocoa powder', '2 teaspoons baking powder', '1/2 teaspoon baking soda', '4 Tablespoons powdered ButterMilk', '1 teaspoon salt', '1 cup water', '1 tablespoon vanilla extract', '4 tablespoons (2 ounces) liquid red food coloring (or 2-3 teaspoons if using gel color)', '1 cup unsalted butter; can be cold from the refrigerator', '1 1/2 cups sugar', '4 large eggs, room temp', '1 cup butter (softened)', '1 cup vegetable shortening', '1 pinch of salt', '1/4 teaspoons vanilla extract', '4 cups powdered sugar', '1-2 teaspoons ground cinnamon', '1/3 cup heavy whipping cream', '1 cup butter, at room temperature', '16 ounces cream cheese, at room temperature', '2 teasoons vanilla extract (clear vanilla will help keep frosting white)', '8 cups powdered sugar', '3-6 Tablespoons heavy whipping cream', 'White gel food coloring (optional, but makes your frosting nice and white)'], self.harvester_class.ingredients())
- 
+        self.assertEqual(
+            [
+                "2 cups all-purpose unbleached flour",
+                "1/2 cup natural cocoa powder",
+                "2 teaspoons baking powder",
+                "1/2 teaspoon baking soda",
+                "4 Tablespoons powdered ButterMilk",
+                "1 teaspoon salt",
+                "1 cup water",
+                "1 tablespoon vanilla extract",
+                "4 tablespoons (2 ounces) liquid red food coloring (or 2-3 teaspoons if using gel color)",
+                "1 cup unsalted butter; can be cold from the refrigerator",
+                "1 1/2 cups sugar",
+                "4 large eggs, room temp",
+                "1 cup butter (softened)",
+                "1 cup vegetable shortening",
+                "1 pinch of salt",
+                "1/4 teaspoons vanilla extract",
+                "4 cups powdered sugar",
+                "1-2 teaspoons ground cinnamon",
+                "1/3 cup heavy whipping cream",
+                "1 cup butter, at room temperature",
+                "16 ounces cream cheese, at room temperature",
+                "2 teasoons vanilla extract (clear vanilla will help keep frosting white)",
+                "8 cups powdered sugar",
+                "3-6 Tablespoons heavy whipping cream",
+                "White gel food coloring (optional, but makes your frosting nice and white)",
+            ],
+            self.harvester_class.ingredients(),
+        )
+
     def test_ingredient_groups(self):
         self.assertEqual(
             [
@@ -114,7 +148,10 @@ class TestTidyMomScraper(ScraperTest):
         self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def test_cuisine(self):
-        self.assertEqual('American', self.harvester_class.cuisine())
+        self.assertEqual("American", self.harvester_class.cuisine())
 
     def test_description(self):
-        self.assertEqual('This rose cake is sure to make any birthday or special occasion spectacular. The red velvet cake made from scratch is soft, moist and tender, with the perfect red velvet flavor. Inside you will find fluffy cinnamon buttercream between the layers and topped with a delicious cream cheese frosting. A cake they will never forget!', self.harvester_class.description())
+        self.assertEqual(
+            "This rose cake is sure to make any birthday or special occasion spectacular. The red velvet cake made from scratch is soft, moist and tender, with the perfect red velvet flavor. Inside you will find fluffy cinnamon buttercream between the layers and topped with a delicious cream cheese frosting. A cake they will never forget!",
+            self.harvester_class.description(),
+        )

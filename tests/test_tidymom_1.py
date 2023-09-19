@@ -28,7 +28,10 @@ class TestTidyMomScraper(ScraperTest):
         self.assertEqual("8 servings", self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEqual("https://tidymom.net/blog/wp-content/uploads/2021/04/chicken-bacon-ranch-pizza-pic-480x480.jpg", self.harvester_class.image())
+        self.assertEqual(
+            "https://tidymom.net/blog/wp-content/uploads/2021/04/chicken-bacon-ranch-pizza-pic-480x480.jpg",
+            self.harvester_class.image(),
+        )
 
     def test_ingredients(self):
         expected_ingredients = [
@@ -61,7 +64,5 @@ class TestTidyMomScraper(ScraperTest):
         self.assertEqual("American", self.harvester_class.cuisine())
 
     def test_description(self):
-        expected_description = (
-            "Chicken, smokey bacon, creamy ranch, and lots of gooey melted cheese are the perfect combo to pile on a pizza crust!"
-        )
+        expected_description = "Chicken, smokey bacon, creamy ranch, and lots of gooey melted cheese are the perfect combo to pile on a pizza crust!"
         self.assertEqual(expected_description, self.harvester_class.description())
