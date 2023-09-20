@@ -22,13 +22,13 @@ recipe_scrapers.bbcgoodfood.BBCGoodFood
 
 If you have found a website that is not currently supported and would like to try to add support yourself, then continue following this guide.
 
-Alternatively, if you do not feel like you can make the changes then you can open an [issue](https://github.com/hhursev/recipe-scrapers/issues/new/choose) on Github to request that support is added.
+Alternatively, if you do not feel like you can make the changes then you can open an [issue](https://github.com/hhursev/recipe-scrapers/issues/new/choose) on GitHub to request that support is added.
 
 ## 2. Fork the recipe-scrapers repository and clone
 
 If this is your first time contributing to this repository then you will need to create a fork of the repository and clone it to your computer.
 
-To create a fork, click the Fork button near to top of page on the project Github page. This will create a copy of the repository under your Github user.
+To create a fork, click the Fork button near to top of page on the project GitHub page. This will create a copy of the repository under your GitHub user.
 
 You can then clone the fork to your computer and set it up for development.
 
@@ -220,6 +220,6 @@ You can check whether your scraper is passing the tests by running
 
 ## 6. Open a pull request
 
-Once you have finished developing the scraper and test case, you can commit the files to git and push them to Github. You should also update the README.rst to list the new scraper too.
+Once you have finished developing the scraper and test case, you can commit the files to git and push them to GitHub. You should also update the README.rst to list the new scraper too.
 
-After you have pushed the changes to Github, you can open a pull request in the [recipe-scrapers project](https://github.com/hhursev/recipe-scrapers/pulls). Your changes will undergo some automatic tests (no different to running the all the tests in the project, but this time on all supported platforms and using all support python versions) and be reviewed by other project contributors.
+After you have pushed the changes to GitHub, you can open a pull request in the [recipe-scrapers project](https://github.com/hhursev/recipe-scrapers/pulls). Your changes will undergo some automatic tests (no different to running the all the tests in the project, but this time on all supported platforms and using all support python versions) and be reviewed by other project contributors.
