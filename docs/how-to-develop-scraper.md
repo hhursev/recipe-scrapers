@@ -20,9 +20,7 @@ You can also check from within Python:
 recipe_scrapers.bbcgoodfood.BBCGoodFood
 ```
 
-If you have found a website that is not currently supported and would like to try to add support yourself, then continue following this guide.
-
-Alternatively, if you do not feel like you can make the changes then you can open an [issue](https://github.com/hhursev/recipe-scrapers/issues/new/choose) on GitHub to request that support is added.
+It's a good idea to file an [issue](https://github.com/hhursev/recipe-scrapers/issues/new/choose) on GitHub to track support for the website, and to indicate whether you are working on it.
 
 ## 2. Fork the recipe-scrapers repository and clone
 
@@ -35,22 +33,22 @@ You can then clone the fork to your computer and set it up for development.
 **Clone the repository**, replacing \<username> with your username
 
 ```shell
->>> git clone git@github.com:<username>/recipe-scrapers.git
->>> cd recipe-scrapers
+$ git clone git@github.com:<username>/recipe-scrapers.git
+$ cd recipe-scrapers
 ```
 
 **Create a virtual environment, activate and install dependencies**
 ```shell
->>> python -m venv .venv --upgrade-deps
->>> source .venv/bin/activate
->>> pip install -r requirements-dev.txt
->>> pip install pre-commit
->>> pre-commit install
+$ python -m venv .venv --upgrade-deps
+$ source .venv/bin/activate
+$ pip install -r requirements-dev.txt
+$ pip install pre-commit
+$ pre-commit install
 ```
 
 **Check that everything is working by running the tests**
 ```shell
->>> python -m unittest
+$ python -m unittest
 ```
 This will run all the tests for all the scrapers. You should not see any errors or failures.
 
@@ -215,7 +213,7 @@ This test case should only have tests for the functions that the scraper impleme
 You can check whether your scraper is passing the tests by running
 
 ```shell
->>> python -m unittest tests.test_myscraper
+$ python -m unittest tests.test_myscraper
 ```
 
 ## 6. Open a pull request
