@@ -6,7 +6,7 @@ If you have found a website you want to scrape the recipes from, first of all ch
 
 The project [README](https://github.com/hhursev/recipe-scrapers/blob/main/README.rst) has a list of the hundreds or websites already supported.
 
-You can also check from within python:
+You can also check from within Python:
 
 ```python
 >>> from recipe_scrapers import SCRAPERS
@@ -222,4 +222,4 @@ You can check whether your scraper is passing the tests by running
 
 Once you have finished developing the scraper and test case, you can commit the files to git and push them to GitHub. You should also update the README.rst to list the new scraper too.
 
-After you have pushed the changes to GitHub, you can open a pull request in the [recipe-scrapers project](https://github.com/hhursev/recipe-scrapers/pulls). Your changes will undergo some automatic tests (no different to running the all the tests in the project, but this time on all supported platforms and using all support python versions) and be reviewed by other project contributors.
+After you have pushed the changes to GitHub, you can open a pull request in the [recipe-scrapers project](https://github.com/hhursev/recipe-scrapers/pulls). Your changes will undergo some automatic tests (no different to running the all the tests in the project, but this time on all supported platforms and using all support Python versions) and be reviewed by other project contributors.
