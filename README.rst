@@ -338,6 +338,7 @@ Scrapers available for:
 - `https://thewoksoflife.com/ <https://thewoksoflife.com/>`_
 - `https://timesofindia.com/ <https://timesofindia.com/>`_
 - `https://tine.no/ <https://tine.no>`_
+- `https://tidymom.net <https://tidymom.net>`_
 - `https://tudogostoso.com.br/ <https://www.tudogostoso.com.br/>`_
 - `https://twopeasandtheirpod.com/ <http://twopeasandtheirpod.com>`_
 - `https://usapears.org/ <https://usapears.org>`_
