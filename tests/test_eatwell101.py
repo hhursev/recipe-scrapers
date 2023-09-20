@@ -12,22 +12,30 @@ class TestEatWell101Scraper(ScraperTest):
         self.assertEqual("eatwell101.com", self.harvester_class.host())
 
     def test_author(self):
-        self.assertEqual('Christina Cherrier', self.harvester_class.author())
+        self.assertEqual("Christina Cherrier", self.harvester_class.author())
 
     def test_title(self):
-        self.assertEqual('Creamy Spinach Turkey Meatballs', self.harvester_class.title())
+        self.assertEqual(
+            "Creamy Spinach Turkey Meatballs", self.harvester_class.title()
+        )
 
     def test_category(self):
-        self.assertEqual('Chicken, Cook, Cooking &amp; Meals, main dish recipes, Poultry recipes, ', self.harvester_class.category())
+        self.assertEqual(
+            "Chicken, Cook, Cooking &amp; Meals, main dish recipes, Poultry recipes, ",
+            self.harvester_class.category(),
+        )
 
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual('4 servings', self.harvester_class.yields())
+        self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEqual('https://www.eatwell101.com/wp-content/uploads/2021/05/Creamy-Turkey-Meatballs-Recipe.jpg', self.harvester_class.image())
+        self.assertEqual(
+            "https://www.eatwell101.com/wp-content/uploads/2021/05/Creamy-Turkey-Meatballs-Recipe.jpg",
+            self.harvester_class.image(),
+        )
 
     def test_ingredients(self):
         expected_ingredients = [
@@ -49,7 +57,7 @@ class TestEatWell101Scraper(ScraperTest):
             "Salt and pepper, to taste",
             "3 cups baby spinach leaves",
             "1/2 cup grated Parmesan",
-            "1 tablespoon fresh parsley, chopped"
+            "1 tablespoon fresh parsley, chopped",
         ]
 
         self.assertEqual(expected_ingredients, self.harvester_class.ingredients())
@@ -66,7 +74,10 @@ class TestEatWell101Scraper(ScraperTest):
         self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def test_cuisine(self):
-        self.assertEqual('American', self.harvester_class.cuisine())
+        self.assertEqual("American", self.harvester_class.cuisine())
 
     def test_description(self):
-        self.assertEqual("These turkey meatballs are Gluten-free, low-carb, and veto-friendly - Perfect for a crowd-pleasing weeknight dinner. The creamy spinach turkey and chicken meatballs just melt in your mouth, it's so good!", self.harvester_class.description())
+        self.assertEqual(
+            "These turkey meatballs are Gluten-free, low-carb, and veto-friendly - Perfect for a crowd-pleasing weeknight dinner. The creamy spinach turkey and chicken meatballs just melt in your mouth, it's so good!",
+            self.harvester_class.description(),
+        )
