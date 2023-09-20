@@ -4,7 +4,7 @@
 
 If you have found a website you want to scrape the recipes from, first of all check to see the website is already supported.
 
-The project [README]( https://github.com/hhursev/recipe-scrapers/blob/main/README.rst) has a list of the hundreds or websites already supported.
+The project [README](https://github.com/hhursev/recipe-scrapers/blob/main/README.rst) has a list of the hundreds or websites already supported.
 
 You can also check from within python:
 
