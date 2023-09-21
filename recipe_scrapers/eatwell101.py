@@ -1,5 +1,6 @@
 # mypy: allow-untyped-defs
 
+import html
 import re
 
 from ._abstract import AbstractScraper
@@ -18,7 +19,7 @@ class EatWell101(AbstractScraper):
         return self.schema.title()
 
     def category(self):
-        return self.schema.category()
+        return html.unescape(self.schema.category())
 
     def total_time(self):
         return self.schema.total_time()
@@ -31,7 +32,7 @@ class EatWell101(AbstractScraper):
 
     def ingredients(self):
         ingredients_h2 = self.soup.find(
-            "h2", text=re.compile(r"Ingredients", re.IGNORECASE)
+            "h2", string=re.compile(r"Ingredients", re.IGNORECASE)
         )
         ingredients_ul = ingredients_h2.find_next("ul")
         ingredients_list = [item.text.strip() for item in ingredients_ul.find_all("li")]

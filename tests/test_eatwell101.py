@@ -21,7 +21,7 @@ class TestEatWell101Scraper(ScraperTest):
 
     def test_category(self):
         self.assertEqual(
-            "Chicken, Cook, Cooking &amp; Meals, main dish recipes, Poultry recipes, ",
+            "Chicken, Cook, Cooking & Meals, main dish recipes, Poultry recipes, ",
             self.harvester_class.category(),
         )
 
