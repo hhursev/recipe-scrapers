@@ -3,6 +3,7 @@
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
+
 class WaitRose(AbstractScraper):
     @classmethod
     def host(cls):
@@ -21,26 +22,34 @@ class WaitRose(AbstractScraper):
         return self.schema.yields()
 
     def image(self):
-        img_tag = self.soup.find('img', {'itemprop': 'image'})
+        img_tag = self.soup.find("img", {"itemprop": "image"})
         if img_tag:
-            url = img_tag.get('src')
-            return url[2:] if url.startswith('//') else url
+            url = img_tag.get("src")
+            return url[2:] if url.startswith("//") else url
 
     def ingredients(self):
-        ingredients_div = self.soup.find('div', {'class': 'ingredients'})
+        ingredients_div = self.soup.find("div", {"class": "ingredients"})
 
         if ingredients_div:
-            ingredient_items = ingredients_div.find_all('li')
-            ingredient_text = [normalize_string(item.get_text()) for item in ingredient_items if item.get_text()]
+            ingredient_items = ingredients_div.find_all("li")
+            ingredient_text = [
+                normalize_string(item.get_text())
+                for item in ingredient_items
+                if item.get_text()
+            ]
             return ingredient_text
 
     def extract_instructions(self):
-        instructions_div = self.soup.find('div', {'class': 'ingredients'})
-        
+        instructions_div = self.soup.find("div", {"class": "ingredients"})
+
         if instructions_div:
-            instruction_items = instructions_div.find_all('li')
-            instruction_text = [normalize_string(item.get_text()) for item in instruction_items if item.get_text()]
-            return '\n'.join(instruction_text)
+            instruction_items = instructions_div.find_all("li")
+            instruction_text = [
+                normalize_string(item.get_text())
+                for item in instruction_items
+                if item.get_text()
+            ]
+            return "\n".join(instruction_text)
 
     def ratings(self):
         return self.schema.ratings()
