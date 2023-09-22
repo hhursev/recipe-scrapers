@@ -347,6 +347,7 @@ Scrapers available for:
 - `https://www.vegetarbloggen.no/ <https://www.vegetarbloggen.no/>`_
 - `https://vegolosi.it/ <https://vegolosi.it>`_
 - `https://vegrecipesofindia.com/ <https://www.vegrecipesofindia.com/>`_
+- `https://www.waitrose.com/ <https://www.waitrose.com/>`_
 - `https://watchwhatueat.com/ <https://watchwhatueat.com/>`_
 - `https://wearenotmartha.com/ <https://wearenotmartha.com/>`_
 - `https://www.weightwatchers.com/ <https://www.weightwatchers.com/>`_ (*)
