@@ -1,6 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 
 
 class TheMagicalSlowCooker(AbstractScraper):
@@ -9,11 +10,8 @@ class TheMagicalSlowCooker(AbstractScraper):
         return "themagicalslowcooker.com"
 
     def author(self):
-        return self.soup.find(
-            'span',
-            {'class': 'entry-author-name'}
-        ).get_text()
-    
+        return self.soup.find("span", {"class": "entry-author-name"}).get_text()
+
     def title(self):
         return self.schema.title()
 
@@ -31,6 +29,14 @@ class TheMagicalSlowCooker(AbstractScraper):
 
     def ingredients(self):
         return self.schema.ingredients()
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".wprm-recipe-ingredient-group h4",
+            ".wprm-recipe-ingredients li",
+        )
 
     def instructions(self):
         return self.schema.instructions()
