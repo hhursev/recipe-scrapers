@@ -3,7 +3,8 @@
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
-class fattoincasadabenedetta(AbstractScraper):
+
+class FattoincasaDaBenedetta(AbstractScraper):
     @classmethod
     def host(cls):
         return "fattoincasadabenedetta.it"
@@ -30,8 +31,8 @@ class fattoincasadabenedetta(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        step_divs = self.soup.find_all('div', {'class': 'step'})
-        
+        step_divs = self.soup.find_all("div", {"class": "step"})
+
         all_instructions = []
         for step in step_divs:
             instruction_text = normalize_string(step.get_text())

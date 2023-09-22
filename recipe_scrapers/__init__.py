@@ -74,7 +74,7 @@ from .epicurious import Epicurious
 from .errenskitchen import ErrensKitchen
 from .ethanchlebowski import EthanChlebowski
 from .farmhousedelivery import FarmhouseDelivery
-from .fattoincasadabenedetta import fattoincasadabenedetta
+from .fattoincasadabenedetta import FattoincasaDaBenedetta
 from .fifteenspatulas import FifteenSpatulas
 from .finedininglovers import FineDiningLovers
 from .fitmencook import FitMenCook
@@ -350,6 +350,7 @@ SCRAPERS = {
     ErrensKitchen.host(): ErrensKitchen,
     EthanChlebowski.host(): EthanChlebowski,
     FarmhouseDelivery.host(): FarmhouseDelivery,
+    FattoincasaDaBenedetta.host(): FattoincasaDaBenedetta,
     FifteenSpatulas.host(): FifteenSpatulas,
     FineDiningLovers.host(): FineDiningLovers,
     FitMenCook.host(): FitMenCook,
@@ -582,7 +583,6 @@ SCRAPERS = {
     ZeitWochenmarkt.host(): ZeitWochenmarkt,
     ZenBelly.host(): ZenBelly,
     GesundAktiv.host(): GesundAktiv,
-    fattoincasadabenedetta.host(): fattoincasadabenedetta,
 }
 
 
