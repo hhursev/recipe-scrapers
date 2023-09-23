@@ -1,12 +1,12 @@
 # mypy: allow-untyped-defs
 
-from recipe_scrapers.waitrose import WaitRose
+from recipe_scrapers.waitrose import Waitrose
 from tests import ScraperTest
 
 
-class TestWaitRoseScraper(ScraperTest):
+class TestWaitroseScraper(ScraperTest):
 
-    scraper_class = WaitRose
+    scraper_class = Waitrose
 
     def test_host(self):
         self.assertEqual("waitrose.com", self.harvester_class.host())

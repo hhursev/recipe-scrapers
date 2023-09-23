@@ -4,7 +4,7 @@ from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
 
-class WaitRose(AbstractScraper):
+class Waitrose(AbstractScraper):
     @classmethod
     def host(cls):
         return "waitrose.com"
