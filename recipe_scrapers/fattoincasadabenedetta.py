@@ -4,7 +4,7 @@ from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
 
-class FattoincasaDaBenedetta(AbstractScraper):
+class FattoInCasaDaBenedetta(AbstractScraper):
     @classmethod
     def host(cls):
         return "fattoincasadabenedetta.it"

@@ -1,12 +1,12 @@
 # mypy: allow-untyped-defs
 
-from recipe_scrapers.fattoincasadabenedetta import FattoincasaDaBenedetta
+from recipe_scrapers.fattoincasadabenedetta import FattoInCasaDaBenedetta
 from tests import ScraperTest
 
 
-class TestfattoincasadabenedettaScraper(ScraperTest):
+class TestFattoInCasaDaBenedettaScraper(ScraperTest):
 
-    scraper_class = FattoincasaDaBenedetta
+    scraper_class = FattoInCasaDaBenedetta
 
     def test_host(self):
         self.assertEqual("fattoincasadabenedetta.it", self.harvester_class.host())
