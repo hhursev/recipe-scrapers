@@ -68,6 +68,7 @@ from .eatingbirdfood import EatingBirdFood
 from .eatingwell import EatingWell
 from .eatsmarter import Eatsmarter
 from .eattolerant import EatTolerant
+from .eatwell101 import EatWell101
 from .eatwhattonight import EatWhatTonight
 from .emmikochteinfach import EmmiKochtEinfach
 from .epicurious import Epicurious
@@ -341,6 +342,7 @@ SCRAPERS = {
     DomesticateMe.host(): DomesticateMe,
     Downshiftology.host(): Downshiftology,
     Dr.host(): Dr,
+    EatWell101.host(): EatWell101,
     EatWhatTonight.host(): EatWhatTonight,
     EatingBirdFood.host(): EatingBirdFood,
     EatingWell.host(): EatingWell,
