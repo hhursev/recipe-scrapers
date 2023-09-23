@@ -266,6 +266,7 @@ from .vanillaandbean import VanillaAndBean
 from .vegetarbloggen import Vegetarbloggen
 from .vegolosi import Vegolosi
 from .vegrecipesofindia import VegRecipesOfIndia
+from .waitrose import Waitrose
 from .watchwhatueat import WatchWhatUEat
 from .wearenotmartha import WeAreNotMartha
 from .weightwatchers import WeightWatchers
@@ -569,6 +570,7 @@ SCRAPERS = {
     VegRecipesOfIndia.host(): VegRecipesOfIndia,
     Vegetarbloggen.host(): Vegetarbloggen,
     Vegolosi.host(): Vegolosi,
+    Waitrose.host(): Waitrose,
     WatchWhatUEat.host(): WatchWhatUEat,
     WeAreNotMartha.host(): WeAreNotMartha,
     WeightWatchers.host(): WeightWatchers,
