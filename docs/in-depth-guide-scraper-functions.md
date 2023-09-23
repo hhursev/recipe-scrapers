@@ -23,7 +23,7 @@ All of the examples below come from https://www.bbcgoodfood.com/recipes/monster-
 >>> scraper = scrape_me("https://www.bbcgoodfood.com/recipes/monster-cupcakes")
 ```
 
-## Mandatory methods
+## Mandatory functions
 
 ### `author() -> str`
 
@@ -126,7 +126,7 @@ Returns the number of items or servings the recipe will make. This `str` include
 '12 items'
 ```
 
-## Inherited methods
+## Inherited functions
 
 ### `canonical_url() -> str`
 
@@ -245,11 +245,11 @@ Returns the output of all functions implemented by this scraper as a `dict`.
 
 
 
-## Optional methods
+## Optional functions
 
 ### `category() -> str`
 
-Returns the category of the recipe.
+Semi-structured field that can contain a mix of cuisine type (for example, country names), mealtime (breakfast/dinner/etc) and dietary properties (gluten-free, vegetarian). The value is defined by the website, so it may overlap with other scraper functions (e.g. `cuisine()`).
 
 ```py
 >>> scraper.category()
