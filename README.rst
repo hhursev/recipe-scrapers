@@ -151,6 +151,7 @@ Scrapers available for:
 - `https://epicurious.com/ <https://epicurious.com>`_
 - `https://www.errenskitchen.com/ <https://www.errenskitchen.com/>`_
 - `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
+- `https://www.fattoincasadabenedetta.it/ <https://www.fattoincasadabenedetta.it/>`_
 - `https://fifteenspatulas.com/ <https://www.fifteenspatulas.com/>`_
 - `https://finedininglovers.com/ <https://www.finedininglovers.com>`_
 - `https://fitmencook.com/ <https://www.fitmencook.com>`_
