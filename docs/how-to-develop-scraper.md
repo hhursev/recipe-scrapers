@@ -74,8 +74,8 @@ If Recipe schema is not available, then `scraper.schema.data` will return an emp
 
 Next, generate the scraper class and test files. Run this command:
 
-```python
->>> python generate.py <ClassName> <URL>
+```shell
+$ python generate.py <ClassName> <URL>
 ```
 
 This will generate a file for the scraper with name \<ClassName> with basic code that you will need to modify. This will also download the recipe at \<URL> and create a test case.
