@@ -10,11 +10,11 @@ class GroupRecipes(AbstractScraper):
         return "grouprecipes.com"
 
     def title(self):
-        return normalize_string(self.soup.find("title").get_text())
+        return normalize_string(self.soup.find("title").text)
 
     def author(self):
         container = self.soup.find("div", {"class": "thecook"})
-        return normalize_string(container.find("a", {"class": "usr"}).get_text())
+        return normalize_string(container.find("a", {"class": "usr"}).text)
 
     def image(self):
         container = self.soup.find("div", {"class": "photos"})
@@ -34,7 +34,7 @@ class GroupRecipes(AbstractScraper):
 
     def category(self):
         container = self.soup.find("ul", {"class": "tags_text"})
-        return ", ".join([tag.get_text() for tag in container.find_all("li")])
+        return ", ".join([tag.text for tag in container.find_all("li")])
 
     def ingredients(self):
         container = self.soup.find("div", {"class": "ingredients"}).find("ul")
@@ -46,7 +46,5 @@ class GroupRecipes(AbstractScraper):
 
     def instructions(self):
         container = self.soup.find("ul", {"class": "instructions"})
-        instructions = [
-            instruction.get_text() for instruction in container.find_all("li")
-        ]
+        instructions = [instruction.text for instruction in container.find_all("li")]
         return "\n".join(instructions)
