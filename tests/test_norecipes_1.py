@@ -28,10 +28,23 @@ class TestNoRecipesScraper(ScraperTest):
         self.assertEqual("6 servings", self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEqual("https://norecipes.com/wp-content/uploads/2020/01/basque-cheesecake-011.jpg", self.harvester_class.image())
+        self.assertEqual(
+            "https://norecipes.com/wp-content/uploads/2020/01/basque-cheesecake-011.jpg",
+            self.harvester_class.image(),
+        )
 
     def test_ingredients(self):
-        self.assertEqual(['226 grams cream cheese ((cold))', '1 cup heavy cream ((cold))', '100 grams granulated sugar', '2 large eggs ((cold))', '15 grams cake flour', '1/2 teaspoon vanilla extract'], self.harvester_class.ingredients())
+        self.assertEqual(
+            [
+                "226 grams cream cheese ((cold))",
+                "1 cup heavy cream ((cold))",
+                "100 grams granulated sugar",
+                "2 large eggs ((cold))",
+                "15 grams cake flour",
+                "1/2 teaspoon vanilla extract",
+            ],
+            self.harvester_class.ingredients(),
+        )
 
     def test_instructions(self):
         expected_instructions = [
@@ -41,7 +54,7 @@ class TestNoRecipesScraper(ScraperTest):
             "Pour the mixture into the prepared pan and then drop the pan a few times onto a kitchen towel to coax any remaining bubbles out of the batter.",
             "Bake the cheesecake until the top is just shy of turning black. This takes 22 minutes in my oven. The cake should still be very jiggly in the center when you remove it from the oven.",
             "Let the burnt cheesecake cool on a cooling rack and then place it in a sealable bag and refrigerate overnight.",
-            "To slice the Basque Cheesecake, prepare a long sharp knife along with a pot of boiling water. Clean and heat the knife with the hot water between each slice. This ensures you get nice clean slices."
+            "To slice the Basque Cheesecake, prepare a long sharp knife along with a pot of boiling water. Clean and heat the knife with the hot water between each slice. This ensures you get nice clean slices.",
         ]
 
         return "\n".join(expected_instructions)
@@ -50,7 +63,10 @@ class TestNoRecipesScraper(ScraperTest):
         self.assertEqual(4.45, self.harvester_class.ratings())
 
     def test_cuisine(self):
-        self.assertEqual(['Best,Spanish'], [self.harvester_class.cuisine()])
+        self.assertEqual(["Best,Spanish"], [self.harvester_class.cuisine()])
 
     def test_description(self):
-        self.assertEqual("With a caramelized top that borders on burnt and a jiggly custardy center, Basque Cheesecake is a mind-blowingly delicious combination of textures and tastes that comes together from a handful of ingredients with almost no effort.", self.harvester_class.description())
+        self.assertEqual(
+            "With a caramelized top that borders on burnt and a jiggly custardy center, Basque Cheesecake is a mind-blowingly delicious combination of textures and tastes that comes together from a handful of ingredients with almost no effort.",
+            self.harvester_class.description(),
+        )

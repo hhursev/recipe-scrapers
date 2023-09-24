@@ -10,10 +10,7 @@ class NoRecipes(AbstractScraper):
         return "norecipes.com"
 
     def author(self):
-        return self.soup.find(
-            'span',
-            {'class': 'entry-author'}
-        ).get_text()
+        return self.soup.find("span", {"class": "entry-author"}).get_text()
 
     def title(self):
         return self.schema.title()
