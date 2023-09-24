@@ -36,10 +36,10 @@ class TestNoRecipesScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "226 grams cream cheese ((cold))",
-                "1 cup heavy cream ((cold))",
+                "226 grams cream cheese (cold)",
+                "1 cup heavy cream (cold)",
                 "100 grams granulated sugar",
-                "2 large eggs ((cold))",
+                "2 large eggs (cold)",
                 "15 grams cake flour",
                 "1/2 teaspoon vanilla extract",
             ],
@@ -57,7 +57,9 @@ class TestNoRecipesScraper(ScraperTest):
             "To slice the Basque Cheesecake, prepare a long sharp knife along with a pot of boiling water. Clean and heat the knife with the hot water between each slice. This ensures you get nice clean slices.",
         ]
 
-        return "\n".join(expected_instructions)
+        self.assertEqual(
+            "\n".join(expected_instructions), self.harvester_class.instructions()
+        )
 
     def test_ratings(self):
         self.assertEqual(4.45, self.harvester_class.ratings())

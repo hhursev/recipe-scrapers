@@ -36,19 +36,19 @@ class TestNoRecipesScraper(ScraperTest):
 
     def test_ingredients(self):
         expected_ingredients = [
-            "450 grams boneless skin-on chicken thighs ((cut into 1.5-inch pieces))",
+            "450 grams boneless skin-on chicken thighs (cut into 1.5-inch pieces)",
             "1 tablespoon soy sauce",
             "1 tablespoon sake",
-            "1 teaspoon fresh ginger ((grated))",
+            "1 teaspoon fresh ginger (grated)",
             "1/2 cup potato starch",
-            "vegetable oil ((for frying))",
+            "vegetable oil (for frying)",
             "3/4 cup orange juice",
             "1/3 cup orange marmalade",
-            "1/2 tablespoon orange zest ((zest of 1/2 orange))",
+            "1/2 tablespoon orange zest (zest of 1/2 orange)",
             "1/2 teaspoon potato starch",
             "1/2 teaspoon salt",
-            "1/4 red bell pepper ((minced, for garnish))",
-            "1/2 teaspoon toasted sesame seeds ((for garnish))",
+            "1/4 red bell pepper (minced, for garnish)",
+            "1/2 teaspoon toasted sesame seeds (for garnish)",
         ]
         self.assertEqual(expected_ingredients, self.harvester_class.ingredients())
 
@@ -63,45 +63,44 @@ class TestNoRecipesScraper(ScraperTest):
             "When all the chicken is done, heat the skillet with the orange sauce over medium-high heat, stirring constantly until it starts to thicken.",
             "Add the fried chicken to the orange sauce and toss to coat evenly. The orange chicken is done when the sauce forms a thick glaze around the pieces of the chicken. Garnish with red pepper and sesame seeds.",
         ]
-        return "\n".join(expected_instructions)
+        self.assertEqual(
+            "\n".join(expected_instructions), self.harvester_class.instructions()
+        )
 
-
-def test_ingredient_groups(self):
-    self.assertEqual(
-        [
-            IngredientGroup(
-                ingredients=[
-                    "1 1/2 lbs boneless skinless chicken thighs cut into 1 inch pieces",
-                    "2 eggs lightly beaten",
-                    "salt and pepper to taste",
-                    "1/2 cup all-purpose flour",
-                    "1/2 cup cornstarch",
-                    "oil for frying",
-                    "1 tablespoon sesame seeds",
-                    "1/4 cup sliced green onions",
-                ],
-                purpose="For the chicken",
-            ),
-            IngredientGroup(
-                ingredients=[
-                    "2 teaspoons vegetable oil",
-                    "2 teaspoons minced fresh ginger",
-                    "1 teaspoon minced garlic",
-                    "1 cup orange juice",
-                    "1/4 cup soy sauce",
-                    "1/2 cup brown sugar",
-                    "2 teaspoons orange zest plus additional for garnish if desired",
-                    "1/2 teaspoon crushed red pepper",
-                    "2 tablespoons rice vinegar",
-                    "1 teaspoon sesame oil",
-                    "1/2 cup water",
-                    "2 tablespoons cornstarch",
-                ],
-                purpose="For the orange sauce",
-            ),
-        ],
-        self.harvester_class.ingredient_groups(),
-    )
+    def test_ingredient_groups(self):
+        self.assertEqual(
+            [
+                IngredientGroup(
+                    ingredients=[
+                        "450 grams boneless skin-on chicken thighs (cut into 1.5-inch pieces)",
+                        "1 tablespoon soy sauce",
+                        "1 tablespoon sake",
+                        "1 teaspoon fresh ginger (grated)",
+                        "1/2 cup potato starch",
+                        "vegetable oil (for frying)",
+                    ],
+                    purpose="for chicken",
+                ),
+                IngredientGroup(
+                    ingredients=[
+                        "3/4 cup orange juice",
+                        "1/3 cup orange marmalade",
+                        "1/2 tablespoon orange zest (zest of 1/2 orange)",
+                        "1/2 teaspoon potato starch",
+                        "1/2 teaspoon salt",
+                    ],
+                    purpose="for orange sauce",
+                ),
+                IngredientGroup(
+                    ingredients=[
+                        "1/4 red bell pepper (minced, for garnish)",
+                        "1/2 teaspoon toasted sesame seeds (for garnish)",
+                    ],
+                    purpose="to serve",
+                ),
+            ],
+            self.harvester_class.ingredient_groups(),
+        )
 
     def test_ratings(self):
         self.assertEqual(4.39, self.harvester_class.ratings())

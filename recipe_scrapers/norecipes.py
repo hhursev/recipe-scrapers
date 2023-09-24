@@ -10,7 +10,7 @@ class NoRecipes(AbstractScraper):
         return "norecipes.com"
 
     def author(self):
-        return self.soup.find("span", {"class": "entry-author"}).get_text()
+        return self.soup.find("meta", {"name": "author"}).get("content")
 
     def title(self):
         return self.schema.title()
@@ -28,14 +28,24 @@ class NoRecipes(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        return self.schema.ingredients()
+        ingredients_list = self.schema.ingredients()
+        cleaned_ingredients = [
+            ingredient.replace("((", "(").replace("))", ")")
+            for ingredient in ingredients_list
+        ]
+        return cleaned_ingredients
 
     def ingredient_groups(self):
+        ingredients_list = self.ingredients()
+        cleaned_ingredients = [
+            ingredient.replace("((", "(").replace("))", ")")
+            for ingredient in ingredients_list
+        ]
         return group_ingredients(
-            self.ingredients(),
+            cleaned_ingredients,
             self.soup,
-            ".wprm-recipe-group-name h4",
-            ".wprm-recipe-ingredients li",
+            ".wprm-recipe-ingredient-group h4",
+            ".wprm-recipe-ingredient-group li",
         )
 
     def instructions(self):
