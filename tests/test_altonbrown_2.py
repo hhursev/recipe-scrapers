@@ -15,7 +15,10 @@ class TestAltonBrownScraper(ScraperTest):
         self.assertEqual("Penny McCord Jewell", self.harvester_class.author())
 
     def test_title(self):
-        self.assertEqual("Filipino-Style Pork Skewers with Vinegar Sauce", self.harvester_class.title())
+        self.assertEqual(
+            "Filipino-Style Pork Skewers with Vinegar Sauce",
+            self.harvester_class.title(),
+        )
 
     def test_category(self):
         self.assertEqual("Appetizers", self.harvester_class.category())
@@ -27,28 +30,31 @@ class TestAltonBrownScraper(ScraperTest):
         self.assertEqual("12 servings", self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEqual("https://altonbrown.com/wp-content/uploads/2023/04/IMG_0345-scaled.jpeg", self.harvester_class.image())
+        self.assertEqual(
+            "https://altonbrown.com/wp-content/uploads/2023/04/IMG_0345-scaled.jpeg",
+            self.harvester_class.image(),
+        )
 
     def test_ingredients(self):
         expected_ingredients = [
-            '1 1/2 pounds pork (Boston) butt, cut into 1-inch cubes',
-            '2 tablespoons freshly squeezed lemon juice',
-            '1/2 cup soy sauce',
-            '1/2 cup cane vinegar',
-            '1/4 cup pineapple juice',
-            '1/4 cup ginger ale',
-            '1 tablespoon ketchup',
-            '2 tablespoons hoisin sauce',
-            '6 cloves garlic, minced',
-            '1/4 cup palm or coconut sugar',
-            '2 teaspoons freshly ground black pepper',
-            '2 teaspoons vegetable oil',
-            '1/2 cup cane vinegar',
-            '1/4 cup soy sauce',
-            '1 tablespoon palm or coconut sugar',
-            '1/4 cup red onion, minced',
-            '1 clove garlic, minced',
-            '1 Thai chili, thinly sliced'
+            "1 1/2 pounds pork (Boston) butt, cut into 1-inch cubes",
+            "2 tablespoons freshly squeezed lemon juice",
+            "1/2 cup soy sauce",
+            "1/2 cup cane vinegar",
+            "1/4 cup pineapple juice",
+            "1/4 cup ginger ale",
+            "1 tablespoon ketchup",
+            "2 tablespoons hoisin sauce",
+            "6 cloves garlic, minced",
+            "1/4 cup palm or coconut sugar",
+            "2 teaspoons freshly ground black pepper",
+            "2 teaspoons vegetable oil",
+            "1/2 cup cane vinegar",
+            "1/4 cup soy sauce",
+            "1 tablespoon palm or coconut sugar",
+            "1/4 cup red onion, minced",
+            "1 clove garlic, minced",
+            "1 Thai chili, thinly sliced",
         ]
         self.assertEqual(expected_ingredients, self.harvester_class.ingredients())
 
@@ -57,29 +63,29 @@ class TestAltonBrownScraper(ScraperTest):
             [
                 IngredientGroup(
                     ingredients=[
-                    '1 1/2 pounds pork (Boston) butt, cut into 1-inch cubes',
-                    '2 tablespoons freshly squeezed lemon juice',
-                    '1/2 cup soy sauce',
-                    '1/2 cup cane vinegar',
-                    '1/4 cup pineapple juice',
-                    '1/4 cup ginger ale',
-                    '1 tablespoon ketchup',
-                    '2 tablespoons hoisin sauce',
-                    '6 cloves garlic, minced',
-                    '1/4 cup palm or coconut sugar',
-                    '2 teaspoons freshly ground black pepper',
-                    '2 teaspoons vegetable oil'
+                        "1 1/2 pounds pork (Boston) butt, cut into 1-inch cubes",
+                        "2 tablespoons freshly squeezed lemon juice",
+                        "1/2 cup soy sauce",
+                        "1/2 cup cane vinegar",
+                        "1/4 cup pineapple juice",
+                        "1/4 cup ginger ale",
+                        "1 tablespoon ketchup",
+                        "2 tablespoons hoisin sauce",
+                        "6 cloves garlic, minced",
+                        "1/4 cup palm or coconut sugar",
+                        "2 teaspoons freshly ground black pepper",
+                        "2 teaspoons vegetable oil",
                     ],
                     purpose="Pork Software:",
                 ),
                 IngredientGroup(
                     ingredients=[
-                    '1/2 cup cane vinegar',
-                    '1/4 cup soy sauce',
-                    '1 tablespoon palm or coconut sugar',
-                    '1/4 cup red onion, minced',
-                    '1 clove garlic, minced',
-                    '1 Thai chili, thinly sliced'
+                        "1/2 cup cane vinegar",
+                        "1/4 cup soy sauce",
+                        "1 tablespoon palm or coconut sugar",
+                        "1/4 cup red onion, minced",
+                        "1 clove garlic, minced",
+                        "1 Thai chili, thinly sliced",
                     ],
                     purpose="Dipping Sauce Software:",
                 ),
