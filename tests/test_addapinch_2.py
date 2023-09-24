@@ -17,7 +17,9 @@ class TestAddAPinchScraper(ScraperTest):
         self.assertEqual("Robyn Stone", self.harvester_class.author())
 
     def test_title(self):
-        self.assertEqual("Citrus Scones Recipe with Orange Glaze", self.harvester_class.title())
+        self.assertEqual(
+            "Citrus Scones Recipe with Orange Glaze", self.harvester_class.title()
+        )
 
     def test_category(self):
         self.assertEqual("Breakfast", self.harvester_class.category())
@@ -29,23 +31,26 @@ class TestAddAPinchScraper(ScraperTest):
         self.assertEqual("8 servings", self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEqual("https://addapinch.com/wp-content/uploads/2015/03/citrus-scones-recipe-DSC_12521-2.jpg", self.harvester_class.image())
+        self.assertEqual(
+            "https://addapinch.com/wp-content/uploads/2015/03/citrus-scones-recipe-DSC_12521-2.jpg",
+            self.harvester_class.image(),
+        )
 
     def test_ingredients(self):
         expected_ingredients = [
-            '2 cups all-purpose flour', 
-            '1/2 cup sugar (+ more for topping)', 
-            '3 teaspoons baking powder', 
-            '1/2 teaspoon kosher salt', 
-            '1/2 cup cold butter (+ more for topping)', 
-            '3/4 - 1 cup heavy cream', 
-            '1 teaspoon lemon juice', 
-            '2 teaspoons orange zest', 
-            '2 teaspoons lemon zest', 
-            "1 cup confectioner's sugar", 
-            '3-4 tablespoons orange juice', 
-            '1 tablespoon orange zest', 
-            'coarse sugar for topping (optional)'
+            "2 cups all-purpose flour",
+            "1/2 cup sugar (+ more for topping)",
+            "3 teaspoons baking powder",
+            "1/2 teaspoon kosher salt",
+            "1/2 cup cold butter (+ more for topping)",
+            "3/4 - 1 cup heavy cream",
+            "1 teaspoon lemon juice",
+            "2 teaspoons orange zest",
+            "2 teaspoons lemon zest",
+            "1 cup confectioner's sugar",
+            "3-4 tablespoons orange juice",
+            "1 tablespoon orange zest",
+            "coarse sugar for topping (optional)",
         ]
         self.assertEqual(expected_ingredients, self.harvester_class.ingredients())
 
@@ -54,24 +59,24 @@ class TestAddAPinchScraper(ScraperTest):
             [
                 IngredientGroup(
                     ingredients=[
-                    '2 cups all-purpose flour', 
-                    '1/2 cup sugar (+ more for topping)', 
-                    '3 teaspoons baking powder', 
-                    '1/2 teaspoon kosher salt', 
-                    '1/2 cup cold butter (+ more for topping)', 
-                    '3/4 - 1 cup heavy cream', 
-                    '1 teaspoon lemon juice', 
-                    '2 teaspoons orange zest', 
-                    '2 teaspoons lemon zest', 
+                        "2 cups all-purpose flour",
+                        "1/2 cup sugar (+ more for topping)",
+                        "3 teaspoons baking powder",
+                        "1/2 teaspoon kosher salt",
+                        "1/2 cup cold butter (+ more for topping)",
+                        "3/4 - 1 cup heavy cream",
+                        "1 teaspoon lemon juice",
+                        "2 teaspoons orange zest",
+                        "2 teaspoons lemon zest",
                     ],
                     purpose="Citrus Scone Recipe:",
                 ),
                 IngredientGroup(
                     ingredients=[
-                    "1 cup confectioner's sugar", 
-                    '3-4 tablespoons orange juice', 
-                    '1 tablespoon orange zest', 
-                    'coarse sugar for topping (optional)'
+                        "1 cup confectioner's sugar",
+                        "3-4 tablespoons orange juice",
+                        "1 tablespoon orange zest",
+                        "coarse sugar for topping (optional)",
                     ],
                     purpose="Orange Glaze:",
                 ),
@@ -87,11 +92,11 @@ class TestAddAPinchScraper(ScraperTest):
             "Prepare the Dough. Pour dough onto a lightly floured countertop or a pastry board. Pat dough into a large round disc, about an inch thick. Cut dough into equal sized wedges and place onto prepared baking sheet pan. Melt about 2 tablespoons butter and brush on top of dough.",
             "Bake. Bake scones for 20-25 minutes or until they are just beginning to turn lightly brown. Remove from the oven.",
             "Orange Glaze:",
-            "Make the Glaze. Whisk all of the glaze ingredients together in a medium sized bowl until smooth and then drizzle on top of each scone after it has cooled for a few five minutes. Sprinkle with coarse sugar, if desired."
+            "Make the Glaze. Whisk all of the glaze ingredients together in a medium sized bowl until smooth and then drizzle on top of each scone after it has cooled for a few five minutes. Sprinkle with coarse sugar, if desired.",
         ]
         expected_instructions_str = "\n".join(expected_instructions)
         self.assertEqual(expected_instructions_str, self.harvester_class.instructions())
-    
+
     def test_ratings(self):
         self.assertEqual(5.0, self.harvester_class.ratings())
 
@@ -99,4 +104,7 @@ class TestAddAPinchScraper(ScraperTest):
         self.assertEqual("American", self.harvester_class.cuisine())
 
     def test_description(self):
-        self.assertEqual("Citrus Scones with Orange Glaze are wonderful for breakfast, brunch, or dessert. Bright and delicious, this scones recipe is like a slice of sunshine and is ready in 30 minutes!", self.harvester_class.description())
+        self.assertEqual(
+            "Citrus Scones with Orange Glaze are wonderful for breakfast, brunch, or dessert. Bright and delicious, this scones recipe is like a slice of sunshine and is ready in 30 minutes!",
+            self.harvester_class.description(),
+        )

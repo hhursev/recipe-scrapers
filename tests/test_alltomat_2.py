@@ -1,5 +1,5 @@
-from recipe_scrapers.alltomat import AllTomat
 from recipe_scrapers._grouping_utils import IngredientGroup
+from recipe_scrapers.alltomat import AllTomat
 from tests import ScraperTest
 
 
@@ -15,7 +15,10 @@ class TestAllTomatScraper(ScraperTest):
         self.assertEqual("cecilia lundin", self.harvester_class.author())
 
     def test_title(self):
-        self.assertEqual("Köttbullar med potatismos, gräddsås, gurka och lingon", self.harvester_class.title())
+        self.assertEqual(
+            "Köttbullar med potatismos, gräddsås, gurka och lingon",
+            self.harvester_class.title(),
+        )
 
     def test_category(self):
         self.assertEqual("Husmanskost", self.harvester_class.category())
@@ -27,40 +30,46 @@ class TestAllTomatScraper(ScraperTest):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEqual("https://static.cdn-expressen.se/images/aa/eb/aaeb4b38c3994b3ab57625533ca3e9b7/1x1/1920@80.jpg", self.harvester_class.image())
+        self.assertEqual(
+            "https://static.cdn-expressen.se/images/aa/eb/aaeb4b38c3994b3ab57625533ca3e9b7/1x1/1920@80.jpg",
+            self.harvester_class.image(),
+        )
 
     def test_ingredients(self):
-        self.assertEqual([
-            '500 g nötfärs',
-            '1.5 dl vatten',
-            '0.75 dl ströbröd',
-            '0.5 gul lök', 
-            '1 ägg',
-            '2 msk konc kalvfond',
-            '1 tsk salt',
-            '2 krm nymald svartpeppar',
-            '2 msk smör',
-            '1 kg potatis',
-            '2 msk smör',
-            '2.5 dl mjölk',
-            '1.5 tsk salt',
-            '2 dl vatten',
-            '1 dl vispgrädde',
-            '2 msk konc kalvfond',
-            '1 tsk kinesisk soja',
-            '2 krm strösocker',
-            '1 krm nymald svartpeppar',
-            '2 msk majsstärkelse (Maizena)',
-            '0.5 gurka',
-            '1 msk ättiksprit (12 %)',
-            '2 msk strösocker',
-            '3 msk vatten',
-            '1 krm nymald svartpeppar',
-            '2 msk persilja',
-            '1.5 dl lingon',
-            '0.5 dl strösocker',
-            'persilja',
-        ], self.harvester_class.ingredients())
+        self.assertEqual(
+            [
+                "500 g nötfärs",
+                "1.5 dl vatten",
+                "0.75 dl ströbröd",
+                "0.5 gul lök",
+                "1 ägg",
+                "2 msk konc kalvfond",
+                "1 tsk salt",
+                "2 krm nymald svartpeppar",
+                "2 msk smör",
+                "1 kg potatis",
+                "2 msk smör",
+                "2.5 dl mjölk",
+                "1.5 tsk salt",
+                "2 dl vatten",
+                "1 dl vispgrädde",
+                "2 msk konc kalvfond",
+                "1 tsk kinesisk soja",
+                "2 krm strösocker",
+                "1 krm nymald svartpeppar",
+                "2 msk majsstärkelse (Maizena)",
+                "0.5 gurka",
+                "1 msk ättiksprit (12 %)",
+                "2 msk strösocker",
+                "3 msk vatten",
+                "1 krm nymald svartpeppar",
+                "2 msk persilja",
+                "1.5 dl lingon",
+                "0.5 dl strösocker",
+                "persilja",
+            ],
+            self.harvester_class.ingredients(),
+        )
 
     def test_ingredient_groups(self):
         self.assertEqual(
