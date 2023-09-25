@@ -6,7 +6,7 @@ The preferred method of scraping recipe information from a web page is use the s
 
 ## `soup`
 
-Each scraper has a `BeauitfulSoup` object that can be accessed using the `self.soup` attribute. The `BeautifulSoup` object is a representation of the web page HTML that has been parsed into a format that we can query and extract information from.
+Each scraper has a `BeautifulSoup` object that can be accessed using the `self.soup` attribute. The `BeautifulSoup` object is a representation of the web page HTML that has been parsed into a format that we can query and extract information from.
 
 The [Beautiful Soup documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is the best resource for learning how to use `BeautifulSoup` objects to interact with HTML documents.
 
