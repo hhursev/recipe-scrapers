@@ -5,6 +5,7 @@ from tests import ScraperTest
 class TestAllTomatScraper(ScraperTest):
 
     scraper_class = AllTomat
+    test_file_name = "alltomat_1"
 
     def test_host(self):
         self.assertEqual("alltommat.se", self.harvester_class.host())

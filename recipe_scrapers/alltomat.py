@@ -1,5 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 
 
 class AllTomat(AbstractScraper):
@@ -24,6 +25,14 @@ class AllTomat(AbstractScraper):
 
     def ingredients(self):
         return self.schema.ingredients()
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".ingredients-section h2",
+            ".ingredients-list li",
+        )
 
     def instructions(self):
         return self.schema.instructions()

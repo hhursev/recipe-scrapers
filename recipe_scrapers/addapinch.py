@@ -1,6 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 
 
 class AddAPinch(AbstractScraper):
@@ -9,7 +10,7 @@ class AddAPinch(AbstractScraper):
         return "addapinch.com"
 
     def author(self):
-        return self.schema.author()
+        return self.soup.find("meta", {"name": "author"}).get("content")
 
     def title(self):
         return self.schema.title()
@@ -28,6 +29,14 @@ class AddAPinch(AbstractScraper):
 
     def ingredients(self):
         return self.schema.ingredients()
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".wprm-recipe-ingredient-group h4",
+            ".wprm-recipe-ingredient-group li",
+        )
 
     def instructions(self):
         return self.schema.instructions()
