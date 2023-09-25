@@ -27,20 +27,18 @@ class NoRecipes(AbstractScraper):
     def image(self):
         return self.schema.image()
 
-    def ingredients(self):
+    def _cleaned_ingredients(self):
         ingredients_list = self.schema.ingredients()
-        cleaned_ingredients = [
+        return [
             ingredient.replace("((", "(").replace("))", ")")
             for ingredient in ingredients_list
         ]
-        return cleaned_ingredients
+
+    def ingredients(self):
+        return self._cleaned_ingredients()
 
     def ingredient_groups(self):
-        ingredients_list = self.ingredients()
-        cleaned_ingredients = [
-            ingredient.replace("((", "(").replace("))", ")")
-            for ingredient in ingredients_list
-        ]
+        cleaned_ingredients = self._cleaned_ingredients()
         return group_ingredients(
             cleaned_ingredients,
             self.soup,
