@@ -1,12 +1,13 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
-from ._grouping_utils import group_ingredients
+from ._utils import normalize_string
 
 
-class AltonBrown(AbstractScraper):
+class FattoInCasaDaBenedetta(AbstractScraper):
     @classmethod
     def host(cls):
-        return "altonbrown.com"
+        return "fattoincasadabenedetta.it"
 
     def author(self):
         return self.schema.author()
@@ -29,22 +30,19 @@ class AltonBrown(AbstractScraper):
     def ingredients(self):
         return self.schema.ingredients()
 
-    def ingredient_groups(self):
-        return group_ingredients(
-            self.ingredients(),
-            self.soup,
-            ".wprm-recipe-ingredient-group h4",
-            ".wprm-recipe-ingredient",
-        )
-
     def instructions(self):
-        return self.schema.instructions()
+        step_divs = self.soup.find_all("div", {"class": "step"})
+
+        all_instructions = []
+        for step in step_divs:
+            instruction_text = normalize_string(step.get_text())
+            if instruction_text:
+                all_instructions.append(instruction_text)
+
+        return "\n".join(all_instructions)
 
     def ratings(self):
         return self.schema.ratings()
-
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return self.schema.description()

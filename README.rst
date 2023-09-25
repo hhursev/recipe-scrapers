@@ -132,12 +132,14 @@ Scrapers available for:
 - `https://www.eatingwell.com/ <https://www.eatingwell.com>`_
 - `https://eatsmarter.com/ <https://eatsmarter.com/>`_
 - `https://eatsmarter.de/ <https://eatsmarter.de/>`_
+- `https://www.eatwell101.com <https://www.eatwell101.com>`_
 - `https://eatwhattonight.com/ <https://eatwhattonight.com/>`_
 - `https://emmikochteinfach.de/ <https://emmikochteinfach.de/>`_
 - `https://ethanchlebowski.com/ <https://ethanchlebowski.com>`_
 - `https://epicurious.com/ <https://epicurious.com>`_
 - `https://www.errenskitchen.com/ <https://www.errenskitchen.com/>`_
 - `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
+- `https://www.fattoincasadabenedetta.it/ <https://www.fattoincasadabenedetta.it/>`_
 - `https://fifteenspatulas.com/ <https://www.fifteenspatulas.com/>`_
 - `https://finedininglovers.com/ <https://www.finedininglovers.com>`_
 - `https://fitmencook.com/ <https://www.fitmencook.com>`_
@@ -160,6 +162,7 @@ Scrapers available for:
 - `https://gousto.co.uk/ <https://gousto.co.uk>`_
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
 - `https://grimgrains.com/ <https://grimgrains.com>`_
+- `http://www.grouprecipes.com/ <http://www.grouprecipes.com/>`_
 - `https://halfbakedharvest.com/ <https://www.halfbakedharvest.com/>`_
 - `https://handletheheat.com/ <https://handletheheat.com/>`_
 - `https://www.hassanchef.com/ <https://www.hassanchef.com/>`_
@@ -237,6 +240,7 @@ Scrapers available for:
 - `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
 - `https://ohsheglows.com/ <https://ohsheglows.com>`_
 - `https://omnivorescookbook.com <https://omnivorescookbook.com>`_
+- `https://www.onceuponachef.com <https://www.onceuponachef.com>`_
 - `https://owen-han.com/ <https://owen-han.com>`_
 - `https://101cookbooks.com/ <https://101cookbooks.com/>`_
 - `https://www.paleorunningmomma.com/ <https://www.paleorunningmomma.com>`_
@@ -247,6 +251,7 @@ Scrapers available for:
 - `https://www.pingodoce.pt/ <https://www.pingodoce.pt>`_
 - `https://pinkowlkitchen.com/ <https://pinkowlkitchen.com/>`_
 - `https://www.platingpixels.com/ <https://www.platingpixels.com/>`_
+- `https://plowingthroughlife.com/ <https://plowingthroughlife.com/>`_
 - `https://popsugar.com/ <https://popsugar.com>`_
 - `https://practicalselfreliance.com/ <https://practicalselfreliance.com>`_
 - `https://pressureluckcooking.com/ <https://pressureluckcooking.com/>`_
@@ -305,6 +310,7 @@ Scrapers available for:
 - `https://www.thekitchenmagpie.com/ <https://www.thekitchenmagpie.com>`_
 - `https://thekitchencommunity.org/ <https://thekitchencommunity.org/>`_
 - `https://thekitchn.com/ <https://thekitchn.com/>`_
+- `https://www.themagicalslowcooker.com/ <https://www.themagicalslowcooker.com/>`_
 - `https://themodernproper.com/ <https://themodernproper.com/>`_
 - `https://thenutritiouskitchen.co/ <https://thenutritiouskitchen.co/>`_
 - `https://thepioneerwoman.com/ <https://thepioneerwoman.com>`_
@@ -314,6 +320,7 @@ Scrapers available for:
 - `https://thewoksoflife.com/ <https://thewoksoflife.com/>`_
 - `https://timesofindia.com/ <https://timesofindia.com/>`_
 - `https://tine.no/ <https://tine.no>`_
+- `https://tidymom.net <https://tidymom.net>`_
 - `https://tudogostoso.com.br/ <https://www.tudogostoso.com.br/>`_
 - `https://twopeasandtheirpod.com/ <http://twopeasandtheirpod.com>`_
 - `https://usapears.org/ <https://usapears.org>`_
@@ -322,6 +329,7 @@ Scrapers available for:
 - `https://www.vegetarbloggen.no/ <https://www.vegetarbloggen.no/>`_
 - `https://vegolosi.it/ <https://vegolosi.it>`_
 - `https://vegrecipesofindia.com/ <https://www.vegrecipesofindia.com/>`_
+- `https://www.waitrose.com/ <https://www.waitrose.com/>`_
 - `https://watchwhatueat.com/ <https://watchwhatueat.com/>`_
 - `https://wearenotmartha.com/ <https://wearenotmartha.com/>`_
 - `https://www.weightwatchers.com/ <https://www.weightwatchers.com/>`_ (*)

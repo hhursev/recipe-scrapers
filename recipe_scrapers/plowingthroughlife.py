@@ -1,18 +1,22 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
 
 
-class AllTomat(AbstractScraper):
+class PlowingThroughLife(AbstractScraper):
     @classmethod
     def host(cls):
-        return "alltommat.se"
+        return "plowingthroughlife.com"
 
     def author(self):
-        return self.schema.author()
+        return self.soup.find("span", {"class": "entry-author-name"}).get_text()
 
     def title(self):
         return self.schema.title()
+
+    def category(self):
+        return self.schema.category()
 
     def total_time(self):
         return self.schema.total_time()
@@ -30,8 +34,8 @@ class AllTomat(AbstractScraper):
         return group_ingredients(
             self.ingredients(),
             self.soup,
-            ".ingredients-section h2",
-            ".ingredients-list li",
+            ".wprm-recipe-ingredient-group h4",
+            ".wprm-recipe-ingredients li",
         )
 
     def instructions(self):
@@ -39,3 +43,9 @@ class AllTomat(AbstractScraper):
 
     def ratings(self):
         return self.schema.ratings()
+
+    def cuisine(self):
+        return self.schema.cuisine()
+
+    def description(self):
+        return self.schema.description()
