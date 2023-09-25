@@ -169,6 +169,7 @@ from .myrecipes import MyRecipes
 from .nhshealthierfamilies import NHSHealthierFamilies
 from .nibbledish import NibbleDish
 from .nihhealthyeating import NIHHealthyEating
+from .norecipes import NoRecipes
 from .nourishedbynutrition import NourishedByNutrition
 from .number2pencil import Number2Pencil
 from .nutritionbynathalie import NutritionByNathalie
@@ -473,6 +474,7 @@ SCRAPERS = {
     NHSHealthierFamilies.host(): NHSHealthierFamilies,
     NIHHealthyEating.host(): NIHHealthyEating,
     NYTimes.host(): NYTimes,
+    NoRecipes.host(): NoRecipes,
     NourishedByNutrition.host(): NourishedByNutrition,
     Number2Pencil.host(): Number2Pencil,
     NutritionByNathalie.host(): NutritionByNathalie,
