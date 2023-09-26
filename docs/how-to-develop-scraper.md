@@ -216,6 +216,9 @@ You can check whether your scraper is passing the tests by running
 $ python -m unittest tests.test_myscraper
 ```
 
+> [!NOTE]
+> It is also recommended that you manually test the scraper with a couple of different recipes from the website, to check that there aren't any special cases the scraper needs to handle. You don't need to create test cases for each of these.
+
 ## 6. Open a pull request
 
 Once you have finished developing the scraper and test case, you can commit the files to git and push them to GitHub. You should also update the README.rst to list the new scraper too.
