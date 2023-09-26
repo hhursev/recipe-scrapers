@@ -114,9 +114,6 @@ Returns the total time required to complete the recipe, in minutes.
 50
 ```
 
-> [!NOTE]
-> Is the return type correct here?
-
 ### `yields() -> str`
 
 Returns the number of items or servings the recipe will make. This `str` includes the quantity and unit of the yield, for example: 4 servings, 6 items, 12 cookies.
@@ -173,8 +170,6 @@ Each element of the returned `list` is an `IngredientGroup` object. An `Ingredie
 		purpose='For the frosting and decorating')
 ]
 ```
-
-
 
 ### `instruction_list()`
 
@@ -242,8 +237,6 @@ Returns the output of all functions implemented by this scraper as a `dict`.
 	... # etc.
 }
 ```
-
-
 
 ## Optional functions
 
@@ -313,7 +306,3 @@ scraper.ratings()
 ### `reviews() -> List[Dict[str, str]]`
 
 Returns a `list` of reviews about the recipe from the website. Each review is a `dict` containing the reviewer's name (`str`) and their review (`str`).
-
-> [!WARNING]
->
-> As far as I can tell, only the `AllRecipes` scraper actually implements this. Should we encourage more scrapers to use it, or should we remove the feature?
