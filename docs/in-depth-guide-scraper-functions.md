@@ -1,7 +1,5 @@
 # In Depth Guide: Scraper Functions
 
-> **Draft**
-
 Each website scraper has a number a functions that return information about the recipe that has been scraped. Due to the variability in how recipes are written, not of all of them are always applicable. These functions fall into three categories:
 
 1. Mandatory functions

@@ -14,7 +14,7 @@ Sometimes it is simple and straightforward to achieve all these goals, and somet
 
 * [How To: Develop a New Scraper](how-to-develop-scraper.md)
 * In Depth Guides:
-  * [Debugging](in-depth-guide-debugging.md)
+  * [Debugging](in-depth-guide-debugging.md) (coming soon)
   * [HTML Scraping](in-depth-guide-html-scraping.md)
   * [Ingredient Groups](in-depth-guide-ingredient-groups.md)
   * [Scraper Functions](in-depth-guide-scraper-functions.md)

@@ -1,7 +1,5 @@
 # In Depth Guide: Ingredient Groups
 
-> **Draft**
-
 Sometimes a website will format lists of ingredients using groups, where each group contains the ingredients needed for a particular aspect of the recipe. Recipe schema has no way to represent these groupings, so all of the ingredients are presented as a single list and information about the groupings are lost.
 
 Some examples of recipes that have ingredient groups are :
@@ -31,7 +29,7 @@ The *purpose* is the ingredient group heading, such as *"For the dressing"*, *"F
 
 This dataclass is defined in `_grouping_utils.py` and should be imported from there
 
-```pyth
+```python
 from ._grouping_utils import IngredientGroup
 ```
 
@@ -51,7 +49,7 @@ The `_grouping_utils.py` file contains a helper function (`group_ingredients(...
 
 The `group_ingredients()` function takes four arguments:
 
-```pyth
+```python
 def group_ingredients(
     ingredients_list: List[str],
     soup: BeautifulSoup,
