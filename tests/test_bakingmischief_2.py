@@ -27,25 +27,28 @@ class TestBakingMischiefScraper(ScraperTest):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEqual("https://bakingmischief.com/wp-content/uploads/2017/03/small-carrot-cake-with-cream-cheese-frosting-image-square.jpg", self.harvester_class.image())
+        self.assertEqual(
+            "https://bakingmischief.com/wp-content/uploads/2017/03/small-carrot-cake-with-cream-cheese-frosting-image-square.jpg",
+            self.harvester_class.image(),
+        )
 
     def test_ingredients(self):
         expected_ingredients = [
-            '7x5-inch Baking Dish',
-            '½ cup (60g) all-purpose flour',
-            '½ teaspoon baking powder',
-            '½ teaspoon cinnamon',
-            '½ teaspoon allspice',
-            '¼ teaspoon salt',
-            '½ cup (100g) granulated sugar',
-            '¼ cup vegetable oil',
-            '1 large egg',
-            '⅔ cup loosely packed grated peeled carrots',
-            '2 ounces cream cheese (softened)',
-            '4 tablespoons (2oz) unsalted butter (softened)',
-            '¼ teaspoon vanilla extract',
-            '⅔ cup (80g) powdered sugar (sifted)',
-            'Pinch of salt'
+            "7x5-inch Baking Dish",
+            "½ cup (60g) all-purpose flour",
+            "½ teaspoon baking powder",
+            "½ teaspoon cinnamon",
+            "½ teaspoon allspice",
+            "¼ teaspoon salt",
+            "½ cup (100g) granulated sugar",
+            "¼ cup vegetable oil",
+            "1 large egg",
+            "⅔ cup loosely packed grated peeled carrots",
+            "2 ounces cream cheese (softened)",
+            "4 tablespoons (2oz) unsalted butter (softened)",
+            "¼ teaspoon vanilla extract",
+            "⅔ cup (80g) powdered sugar (sifted)",
+            "Pinch of salt",
         ]
         self.assertEqual(expected_ingredients, self.harvester_class.ingredients())
 
@@ -54,7 +57,7 @@ class TestBakingMischiefScraper(ScraperTest):
             [
                 IngredientGroup(
                     ingredients=[
-                        '7x5-inch Baking Dish',
+                        "7x5-inch Baking Dish",
                     ],
                     purpose="Special Equipment",
                 ),
