@@ -36,7 +36,9 @@ class HelloFresh(AbstractScraper):
     # Note: HelloFresh uses the 'totalTime' metadata field to represent only the cook time.
     # To get the actual total time, the 'prepTime' and 'totalTime' (which is the cook time) need to be added.
     def total_time(self):
-        return self.cook_time() + self.prep_time()
+        prep_time, cook_time = self.prep_time(), self.cook_time()
+        if prep_time or cook_time:
+            return (prep_time or 0) + (cook_time or 0)
 
     def yields(self):
         return self.schema.yields()
