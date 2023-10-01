@@ -22,7 +22,7 @@ from .archanaskitchen import ArchanasKitchen
 from .arla import Arla
 from .atelierdeschefs import AtelierDesChefs
 from .averiecooks import AverieCooks
-from .bakingmischeif import BakingMischeif
+from .bakingmischief import BakingMischief
 from .bakingsense import BakingSense
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
@@ -300,7 +300,7 @@ SCRAPERS = {
     BBCFood.host(domain="co.uk"): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
     BakingSense.host(): BakingSense,
-    BakingMischeif.host(): BakingMischeif,
+    BakingMischief.host(): BakingMischief,
     BettyCrocker.host(): BettyCrocker,
     BiancaZapatka.host(): BiancaZapatka,
     BigOven.host(): BigOven,

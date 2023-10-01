@@ -1,10 +1,11 @@
-from recipe_scrapers.bakingmischeif import BakingMischeif
+from recipe_scrapers.bakingmischief import BakingMischief
 from tests import ScraperTest
 
 
-class TestBakingMischeifScraper(ScraperTest):
+class TestBakingMischiefScraper(ScraperTest):
 
-    scraper_class = BakingMischeif
+    scraper_class = BakingMischief
+    test_file_name = "bakingmischief_1"
 
     def test_host(self):
         self.assertEqual("bakingmischief.com", self.harvester_class.host())
