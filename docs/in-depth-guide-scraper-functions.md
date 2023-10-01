@@ -1,6 +1,6 @@
 # In Depth Guide: Scraper Functions
 
-Each website scraper has a number a functions that return information about the recipe that has been scraped. Due to the variability in how recipes are written, not of all of them are always applicable. These functions fall into three categories:
+Each website scraper has a number of functions that return information about the recipe that has been scraped. Due to the variability in how recipes are written, not all of them are always applicable. These functions fall into three categories:
 
 1. Mandatory functions
 
@@ -8,7 +8,7 @@ Each website scraper has a number a functions that return information about the 
 
 2. Inherited functions
 
-   These functions are always available for all Scraper class. They are implemented in the `AbstractScraper` base class and rarely require overriding in the Scraper class.
+   These functions are always available for all Scraper classes. They are implemented in the `AbstractScraper` base class and rarely require overriding in the Scraper class.
 
 3. Optional functions
 
@@ -34,7 +34,7 @@ Returns the author of the recipe. This is typically a person's name but can some
 
 ### `host() -> str`
 
-Returns the host of the website the Scraper class if for. This is a constant `str` set in each Scraper class.
+Returns the host of the website the Scraper class is for. This is a constant `str` set in each Scraper class.
 
 ```python
 >>> scraper.host()
@@ -83,7 +83,7 @@ Returns the ingredients needed to make the recipe as a `list` of `str`. Each ele
 
 ### `instructions() -> str`
 
-Returns a single `str` containing all instructions steps. Where a recipe has multiple instructions, each step is separated in the returned `str` by a newline character (`\n`).
+Returns a single `str` containing all instruction steps. Where a recipe has multiple instructions, each step is separated in the returned `str` by a newline character (`\n`).
 
 ```py
 >>> scraper.instructions()
@@ -125,7 +125,7 @@ Returns the number of items or servings the recipe will make. This `str` include
 
 ### `canonical_url() -> str`
 
-Returns the canonical URL for the scraped recipe. The canonical URL is the direct URL (defined by the website) at which the recipe can be found. This URL will generally not contains any query parameters or fragments, except those required to load the recipe.
+Returns the canonical URL for the scraped recipe. The canonical URL is the direct URL (defined by the website) at which the recipe can be found. This URL will generally not contain any query parameters or fragments, except those required to load the recipe.
 
 ```py
 >>> scraper.canonical_url()
@@ -140,7 +140,7 @@ Each element of the returned `list` is an `IngredientGroup` object. An `Ingredie
 
 > [!IMPORTANT]
 >
-> All scrapers inherit this function. By default it returns a single group with purpose of `None` and the ingredients set to the output of `ingredients()`. This function should be overridden in scrapers for website that use ingredient groups. See [this guide](in-depth-guide-ingredient-groups.md) for help on implementing this.
+> All scrapers inherit this function. By default, it returns a single group with purpose of `None` and the ingredients set to the output of `ingredients()`. This function should be overridden in scrapers for website that use ingredient groups. See [this guide](in-depth-guide-ingredient-groups.md) for help on implementing this.
 
 ```py
 >>> scraper.ingredient_groups()
@@ -215,7 +215,7 @@ Returns a `list` of all links found in the page HTML defined in an `<a>` element
 
 ### `site_name() -> str | None`
 
-Returns the website name, as defined in the page's HTML. If the page does not define this, this function returns None
+Returns the website name, as defined in the page's HTML. If the page does not define this, this function returns `None`
 
 ```py
 >>> scraper.site_name()
@@ -294,7 +294,7 @@ Returns the time to prepare the ingredients for the recipe in minutes.
 
 ### `ratings() -> float`
 
-Returns the recipe rating. Where this is available, this is usually the average of all the ratings given to the recipe on the website.
+Returns the recipe rating. When available, this is usually the average of all the ratings given to the recipe on the website.
 
 ```py
 scraper.ratings()

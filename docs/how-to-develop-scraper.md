@@ -1,10 +1,10 @@
-# How To: Developer a New Scraper
+# How To: Develop a New Scraper
 
 ## 1. Find a website
 
-If you have found a website you want to scrape the recipes from, first of all check to see the website is already supported.
+If you have found a website you want to scrape the recipes from, first of all check to see if the website is already supported.
 
-The project [README](https://github.com/hhursev/recipe-scrapers/blob/main/README.rst) has a list of the hundreds or websites already supported.
+The project [README](https://github.com/hhursev/recipe-scrapers/blob/main/README.rst) has a list of the hundreds of websites already supported.
 
 You can also check from within Python:
 
@@ -15,7 +15,7 @@ You can also check from within Python:
 `SCRAPERS` is a dict where the keys are the hostnames of the supported websites and the values are the scraper classes for each supported website.
 
 ```python
->>> from recipe_scraper import SCRAPERS
+>>> from recipe_scrapers import SCRAPERS
 >>> SCRAPERS.get("bbcgoodfood.com")
 recipe_scrapers.bbcgoodfood.BBCGoodFood
 ```
@@ -26,7 +26,7 @@ It's a good idea to file an [issue](https://github.com/hhursev/recipe-scrapers/i
 
 If this is your first time contributing to this repository then you will need to create a fork of the repository and clone it to your computer.
 
-To create a fork, click the Fork button near to top of page on the project GitHub page. This will create a copy of the repository under your GitHub user.
+To create a fork, click the Fork button near the top of page on the project GitHub page. This will create a copy of the repository under your GitHub user.
 
 You can then clone the fork to your computer and set it up for development.
 
@@ -56,7 +56,7 @@ This will run all the tests for all the scrapers. You should not see any errors 
 
 To develop the scraper for the website, first identify a recipe. This will be used to create the test case that will validate that the scraper is working correctly.
 
-Next, find out if the website supports [Recipe schema](https://schema.org/Recipe). If the website does support Recipe schema, this will make creating the scraper straightforward. If not, supporting the site will be more complex but still possible.
+Next, find out if the website supports [Recipe Schema](https://schema.org/Recipe). If the website does support Recipe Schema, this will make creating the scraper straightforward. If not, supporting the site will be more complex but still possible.
 
 ```python
 >>> from recipe_scrapers import scrape_me
@@ -68,11 +68,11 @@ Next, find out if the website supports [Recipe schema](https://schema.org/Recipe
 }
 ```
 
-If Recipe schema is available, then `scraper.schema.data` will return a dict containing information about the recipe.
+If Recipe Schema is available, then `scraper.schema.data` will return a dict containing information about the recipe.
 
-If Recipe schema is not available, then `scraper.schema.data` will return an empty dict.
+If Recipe Schema is not available, then `scraper.schema.data` will return an empty dict.
 
-Next, generate the scraper class and test files. Run this command:
+Next, generate the scraper class and test files by running this command:
 
 ```shell
 $ python generate.py <ClassName> <URL>
@@ -124,7 +124,7 @@ class ScraperName(AbstractScraper):
         return self.schema.description()
 ```
 
-The generated scraper class will automatically be populated with functions that assume the Recipe schema is available, regardless of whether it is or not.
+The generated scraper class will automatically be populated with functions that assume the Recipe Schema is available, regardless of whether it is or not.
 
 ## 4. Add functionality to the scraper
 
@@ -147,13 +147,13 @@ Some additional functionality may be required in the scraper functions to make t
 
 An in-depth guide on all the functions a scraper can support and what their output should be can be found [here](in-depth-guide-scraper-functions.md). The automatically generated scraper does not include all of these functions be default, so you may wish to add some of the additional functions listed if the website can support them.
 
-If the website does not support Recipe schema, or the schema does not include all of the recipe information, then you can scrape the information out of the website HTML. Each scraper has a `bs4.BeautifulSoup` object made available in `self.soup` which contains the parsed HTML. This can be used to extract the recipe information needed.
+If the website does not support Recipe Schema, or the schema does not include all of the recipe information, then you can scrape the information out of the website HTML. Each scraper has a `bs4.BeautifulSoup` object made available in `self.soup` which contains the parsed HTML. This can be used to extract the recipe information needed.
 
 An example of a scraper that uses this approach is [Przepisy](https://github.com/hhursev/recipe-scrapers/blob/main/recipe_scrapers/przepisy.py).
 
 The [BeautifulSoup documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.html) is a good resource for getting started with extracting information from HTML. An guide of common patterns and best practice used in this library can be found [here](in-depth-guide-html-scraping).
 
-Some helper functions are available in the `_utils.py` file. These are functions that are commonly needed when extracting information from HTM, such as `normalize_string()`.
+Some helper functions are available in the `_utils.py` file. These are functions that are commonly needed when extracting information from HTML, such as `normalize_string()`.
 
 ## 5. Create the test
 
@@ -217,10 +217,10 @@ $ python -m unittest tests.test_myscraper
 ```
 
 > [!NOTE]
-> It is also recommended that you manually test the scraper with a couple of different recipes from the website, to check that there aren't any special cases the scraper needs to handle. You don't need to create test cases for each of these.
+> It is also recommended that you manually test the scraper with a couple of different recipes from the website, to check that there aren't any special cases the scraper will need to handle. You don't need to create test cases for each of these.
 
 ## 6. Open a pull request
 
-Once you have finished developing the scraper and test case, you can commit the files to git and push them to GitHub. You should also update the README.rst to list the new scraper too.
+Once you have finished developing the scraper and test case, you can commit the files to git and push them to GitHub. You should also update the README.rst to list the site, alphabetically, under the [Scrapers available for:](https://github.com/hhursev/recipe-scrapers#scrapers-available-for) header.
 
-After you have pushed the changes to GitHub, you can open a pull request in the [recipe-scrapers project](https://github.com/hhursev/recipe-scrapers/pulls). Your changes will undergo some automatic tests (no different to running the all the tests in the project, but this time on all supported platforms and using all support Python versions) and be reviewed by other project contributors.
+After you have pushed the changes to GitHub, you can open a pull request in the [recipe-scrapers project](https://github.com/hhursev/recipe-scrapers/pulls). Your changes will undergo some automatic tests (no different to running the all the tests in the project, but this time on all supported platforms and using all supported Python versions) and be reviewed by other project contributors.

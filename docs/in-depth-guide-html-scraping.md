@@ -1,6 +1,6 @@
 # In Depth Guide: HTML Scraping
 
-The preferred method of scraping recipe information from a web page is use the schema.org Recipe data. This is a machine readable, structured format intended to provide a standardised method of extracting information. However, whilst most recipe websites use the schema.org Recipe format, not all do, and for those website that do, it does not always include all the information we are looking for. In these cases, we can use HTML scraping to extract the information from the HTML markup.
+The preferred method of scraping recipe information from a web page is to use the schema.org Recipe data. This is a machine readable, structured format intended to provide a standardised method of extracting information. However, whilst most recipe websites use the schema.org Recipe format, not all do, and for those websites that do, it does not always include all the information we are looking for. In these cases, we can use HTML scraping to extract the information from the HTML markup.
 
 ## `soup`
 
@@ -15,7 +15,7 @@ This guide covers a number of common patterns that are used in this library.
 The `self.soup.find()` function returns the first element matching the arguments. This is useful if you are trying to extract some information that should only occur once, for example the prep time or total time.
 
 ```python
-# To find an particular element
+# To find a particular element
 self.soup.find("h1") # Returns the first h1 element
 
 # To find an element with particular class (note the underscore at the end of class_)
@@ -38,7 +38,7 @@ title_text = title_tag.get_text() # str
 
 `.get_text()` will get the text from all child elements, as it would appear in your browser, so there is no need to iterate through all the children, call `.get_text()` on each one, then join the results afterwards.
 
-As an example, consider one of the ingredients for [this recipe](https://rainbowplantlife.com/instant-pot-jackfruit-curry/#wprm-recipe-container-5618). The markup looks like this:
+As an example, consider one of the ingredients in [this recipe](https://rainbowplantlife.com/instant-pot-jackfruit-curry/#wprm-recipe-container-5618). The markup looks like this:
 
 ```html
 <li class="wprm-recipe-ingredient" style="list-style-type: none;" data-uid="0">
@@ -62,7 +62,7 @@ As an example, consider one of the ingredients for [this recipe](https://rainbow
 </li>
 ```
 
-We can select this element using it's tag and class (we're pretending this recipe only has this one ingredient), and extract the text like so:
+We can select this element using its tag and class (we're pretending this recipe only has this one ingredient), and extract the text like so:
 
 ```python
 ingredient_tag = self.soup.find("li", class_="wprm-recipe-ingredient")
@@ -139,7 +139,7 @@ The Beautiful Soup documentation for `find_all` is [here](https://www.crummy.com
 
 ## Using CSS selectors
 
-If you are already familiar with CSS selectors, then you can `select()` to achieve the same result as `find_all()`, or `select_one()` to achieve the same result as `find`.
+If you are already familiar with CSS selectors, then you can use `select()` to achieve the same result as `find_all()`, or `select_one()` to achieve the same result as `find`.
 
 ```python
 ingredient_tag = self.soup.select("li.wprm-recipe-ingredient") # Match all li elements with wprm-recipe-ingredient class
@@ -149,9 +149,9 @@ The Beautiful Soup documentation for `select` is [here](https://www.crummy.com/s
 
 ## Finding elements using a partial attribute
 
-Sometime you might want to find elements using a part of an attribute. This is particularly helpful for websites that automatically generate CSS is a way that appends a random string to the end of class names.
+Sometimes you might want to find elements using a part of an attribute. This is particularly helpful for websites that automatically generate CSS in a way that appends a random string to the end of class names.
 
-An example of this is [cooking.nytimes.com](https://cooking.nytimes.com/recipes/1024605-cumin-and-cashew-yogurt-rice). If we wanted to select the yield element from this page, we could use the class `ingredients_recipeYield__DN65p`. However when the website is updated in the future, the `DN65p` at the end of the class name is likely to change, so we want only want to use part of the class name.
+An example of this is [cooking.nytimes.com](https://cooking.nytimes.com/recipes/1024605-cumin-and-cashew-yogurt-rice). If we wanted to select the yield element from this page, we could use the class `ingredients_recipeYield__DN65p`. However when the website is updated in the future, the `DN65p` at the end of the class name is likely to change, so we only want to use part of the class name.
 
 There are two ways we can do this:
 
@@ -161,7 +161,7 @@ Instead of using a string in the arguments we pass to `find`, we can use a regul
 
 ```python
 yield_tag = self.soup.find(class_=re.compile("ingredients_recipeYield"))
-yield_text = yield_element.get_text()
+yield_text = yield_tag.get_text()
 # Yield:4 servings
 ```
 
