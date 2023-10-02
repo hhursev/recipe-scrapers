@@ -26,23 +26,26 @@ class TestBareFootContessaScraper(ScraperTest):
         self.assertEqual("6 servings", self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEqual("https://d14iv1hjmfkv57.cloudfront.net/assets/recipes/parmesan-chicken/_1200x630_crop_center-center_82_none/chicken.jpg?v=1696019468", self.harvester_class.image())
+        self.assertEqual(
+            "https://d14iv1hjmfkv57.cloudfront.net/assets/recipes/parmesan-chicken/_1200x630_crop_center-center_82_none/chicken.jpg?v=1696019468",
+            self.harvester_class.image(),
+        )
 
     def test_ingredients(self):
         expected_ingredients = [
-            '6 boneless, skinless chicken breasts',
-            '1 cup all-purpose flour',
-            'Kosher salt and freshly ground black pepper',
-            '2 extra-large eggs',
-            '1¼ cups seasoned dry bread crumbs',
-            '½ cup finely grated Parmesan cheese, plus extra for serving',
-            'Unsalted butter',
-            'Good olive oil',
-            'Baby salad greens for 6, washed and spun dry',
-            'Lemon Vinaigrette (recipe follows)',
-            '¼ cup freshly squeezed lemon juice (2 lemons)',
-            '½ cup good olive oil',
-            'Kosher salt and freshly ground black pepper'
+            "6 boneless, skinless chicken breasts",
+            "1 cup all-purpose flour",
+            "Kosher salt and freshly ground black pepper",
+            "2 extra-large eggs",
+            "1¼ cups seasoned dry bread crumbs",
+            "½ cup finely grated Parmesan cheese, plus extra for serving",
+            "Unsalted butter",
+            "Good olive oil",
+            "Baby salad greens for 6, washed and spun dry",
+            "Lemon Vinaigrette (recipe follows)",
+            "¼ cup freshly squeezed lemon juice (2 lemons)",
+            "½ cup good olive oil",
+            "Kosher salt and freshly ground black pepper",
         ]
         self.assertEqual(expected_ingredients, self.harvester_class.ingredients())
 
