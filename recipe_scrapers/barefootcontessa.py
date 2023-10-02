@@ -1,6 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 from ._utils import normalize_string
 
 
@@ -25,19 +26,36 @@ class BareFootContessa(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        ingredients = self.soup.find('div', {'class': 'mb-10'}).find('ul', {'class': 'h29'}).find_all('li')
-        ingredient_list = [item.text for item in ingredients]
+        ingredient_list = []
+        ingredient_divs = self.soup.find_all("div", {"class": "mb-10"})
+
+        for div in ingredient_divs:
+            ul = div.find("ul", {"class": "h29"})
+            if ul:
+                ingredients = ul.find_all("li")
+                ingredient_list.extend([item.text for item in ingredients])
+
         return ingredient_list
 
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".mb-10 p",
+            ".mb-10 li",
+        )
+
     def instructions(self):
-        instructions_div = self.soup.find('div', {'class': 'bd4 mb-10 EntryPost__text a-bc-blue'})
-        instructions_paragraphs = instructions_div.find_all('p')
-
         instructions = []
+        instruction_divs = self.soup.find_all(
+            "div", {"class": "bd4 mb-10 EntryPost__text a-bc-blue"}
+        )
 
-        for paragraph in instructions_paragraphs:
-            if paragraph is not None:
-                paragraph_text = normalize_string(paragraph.text)
-                instructions.append(paragraph_text)
+        for div in instruction_divs:
+            instruction_paragraphs = div.find_all("p")
+            for paragraph in instruction_paragraphs:
+                if paragraph is not None:
+                    paragraph_text = normalize_string(paragraph.text)
+                    instructions.append(paragraph_text)
 
-        return '\n'.join(instructions)
+        return "\n".join(instructions)

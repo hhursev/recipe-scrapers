@@ -16,7 +16,9 @@ class TestBareFootContessaScraper(ScraperTest):
         self.assertEqual("barefootcontessa.com", self.harvester_class.author())
 
     def test_title(self):
-        self.assertEqual("Roasted Vegetable Lasagna | Recipes", self.harvester_class.title())
+        self.assertEqual(
+            "Roasted Vegetable Lasagna | Recipes", self.harvester_class.title()
+        )
 
     def test_category(self):
         self.assertEqual("Dinner", self.harvester_class.category())
@@ -25,26 +27,29 @@ class TestBareFootContessaScraper(ScraperTest):
         self.assertEqual("10 servings", self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEqual("https://d14iv1hjmfkv57.cloudfront.net/assets/recipes/roasted-vegetable-lasagna/_1200x630_crop_center-center_82_none/126-web-horizon.jpg?v=1696019460", self.harvester_class.image())
+        self.assertEqual(
+            "https://d14iv1hjmfkv57.cloudfront.net/assets/recipes/roasted-vegetable-lasagna/_1200x630_crop_center-center_82_none/126-web-horizon.jpg?v=1696019460",
+            self.harvester_class.image(),
+        )
 
     def test_ingredients(self):
         expected_ingredients = [
-            '1½ pounds eggplant, unpeeled, sliced lengthwise ¼ inch thick',
-            '¾ pound zucchini, unpeeled, sliced lengthwise ¼ inch thick',
-            '⅔ cup good olive oil',
-            '1 tablespoon dried oregano',
-            'Kosher salt and freshly ground black pepper',
-            '1 tablespoon minced garlic (3 cloves)',
-            '10 ounces lasagna noodles, such as De Cecco',
-            '16 ounces fresh whole-milk ricotta',
-            '8 ounces creamy garlic and herb goat cheese, at room temperature',
-            '2 extra-large eggs, lightly beaten',
-            '½ cup chopped fresh basil leaves, lightly packed',
-            '1 cup freshly grated Parmesan cheese, divided',
-            '4½ cups good bottled marinara sauce, such as Rao’s (40 ounces)',
-            '1 pound lightly salted fresh mozzarella, very thinly sliced'
+            "1½ pounds eggplant, unpeeled, sliced lengthwise ¼ inch thick",
+            "¾ pound zucchini, unpeeled, sliced lengthwise ¼ inch thick",
+            "⅔ cup good olive oil",
+            "1 tablespoon dried oregano",
+            "Kosher salt and freshly ground black pepper",
+            "1 tablespoon minced garlic (3 cloves)",
+            "10 ounces lasagna noodles, such as De Cecco",
+            "16 ounces fresh whole-milk ricotta",
+            "8 ounces creamy garlic and herb goat cheese, at room temperature",
+            "2 extra-large eggs, lightly beaten",
+            "½ cup chopped fresh basil leaves, lightly packed",
+            "1 cup freshly grated Parmesan cheese, divided",
+            "4½ cups good bottled marinara sauce, such as Rao’s (40 ounces)",
+            "1 pound lightly salted fresh mozzarella, very thinly sliced",
         ]
-        
+
         self.assertEqual(expected_ingredients, self.harvester_class.ingredients())
 
     def test_instructions(self):
