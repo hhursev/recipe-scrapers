@@ -26,9 +26,11 @@ class KeukenLiefdeNL(AbstractScraper):
         )
 
     def yields(self):
-        return get_yields(
-            self.soup.find("div", {"class": "article-meta-item sp aantal"}).get_text()
-        )
+        yields = self.soup.find("div", {"class": "article-meta-item sp aantal"})
+        if yields:
+            return get_yields(yields.get_text())
+
+        return None
 
     def image(self):
         return self.schema.image()

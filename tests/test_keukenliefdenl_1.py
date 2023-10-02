@@ -4,9 +4,10 @@ from recipe_scrapers.keukenliefdenl import KeukenLiefdeNL
 from tests import ScraperTest
 
 
-class TestKeukenLiefdeNLScraper(ScraperTest):
+class TestKeukenLiefdeNL1Scraper(ScraperTest):
 
     scraper_class = KeukenLiefdeNL
+    test_file_name = "keukenliefdenl_1"
 
     def test_host(self):
         self.assertEqual("keukenliefde.nl", self.harvester_class.host())
