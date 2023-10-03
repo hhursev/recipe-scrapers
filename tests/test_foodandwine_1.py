@@ -5,6 +5,7 @@ from tests import ScraperTest
 class TestFoodAndWineScraper(ScraperTest):
 
     scraper_class = FoodAndWine
+    test_file_name = "foodandwine_1"
 
     def test_host(self):
         self.assertEqual("foodandwine.com", self.harvester_class.host())
@@ -55,3 +56,6 @@ class TestFoodAndWineScraper(ScraperTest):
     def test_multiple_instructions(self):
         # override: this test case legitimately does only contain a single instruction in the source HTML
         pass
+
+    def test_yields(self):
+        return self.assertEqual("4 servings", self.harvester_class.yields())

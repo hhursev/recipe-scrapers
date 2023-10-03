@@ -352,7 +352,7 @@ Contribute
 
 If you spot a design change (or something else) that makes the scraper unable to work for a given site - please fire an issue asap.
 
-If you are programmer PRs with fixes are warmly welcomed and acknowledged with a virtual beer. You can find documentation on how to develop scrapers `here <https://github.com/hhursev/recipe-scrapers/blob/main/docs/README.md>`_.
+If you are programmer PRs with fixes are warmly welcomed and acknowledged with a virtual beer. You can find documentation on how to develop scrapers `here <https://github.com/hhursev/recipe-scrapers/blob/main/docs/README.md>`__.
 
 
 If you want a scraper for a new site added
@@ -372,7 +372,7 @@ If you want a scraper for a new site added
     - **ClassName**: The name of the new scraper class.
     - **URL**: The URL of an example recipe from the target site. The content will be stored in `test_data` to be used with the test class.
 
-    You can find a more detailed guide `here <https://github.com/hhursev/recipe-scrapers/blob/main/docs/how-to-develop-scraper.md>`_.
+    You can find a more detailed guide `here <https://github.com/hhursev/recipe-scrapers/blob/main/docs/how-to-develop-scraper.md>`__.
 
 
 For Devs / Contribute

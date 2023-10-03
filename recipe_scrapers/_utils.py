@@ -109,7 +109,7 @@ def get_minutes(element, return_zero_on_not_found=False):  # noqa: C901: TODO
 
 def get_yields(element):
     """
-    Will return a string of servings or items, if the receipt is for number of items and not servings
+    Will return a string of servings or items, if the recipe is for number of items and not servings
     the method will return the string "x item(s)" where x is the quantity.
     :param element: Should be BeautifulSoup.TAG, in some cases not feasible and will then be text.
     :return: The number of servings or items.
