@@ -24,6 +24,7 @@ from .atelierdeschefs import AtelierDesChefs
 from .averiecooks import AverieCooks
 from .bakingmischief import BakingMischief
 from .bakingsense import BakingSense
+from .barefootcontessa import BareFootContessa
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
 from .bettybossi import BettyBossi
@@ -307,6 +308,7 @@ SCRAPERS = {
     BBCGoodFood.host(): BBCGoodFood,
     BakingSense.host(): BakingSense,
     BakingMischief.host(): BakingMischief,
+    BareFootContessa.host(): BareFootContessa,
     BettyBossi.host(): BettyBossi,
     BettyCrocker.host(): BettyCrocker,
     BiancaZapatka.host(): BiancaZapatka,
