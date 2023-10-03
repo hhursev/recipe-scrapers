@@ -255,6 +255,7 @@ Scrapers available for:
 - `https://myrecipes.com/ <https://myrecipes.com>`_
 - `https://healthyeating.nhlbi.nih.gov/ <https://healthyeating.nhlbi.nih.gov>`_
 - `https://nibbledish.com/ <https://nibbledish.com>`_
+- `https://www.nhs.uk/ <https://www.nhs.uk/>`_
 - `https://www.nosalty.hu/ <https://www.nosalty.hu>`_
 - `https://nourishedbynutrition.com/ <https://nourishedbynutrition.com/>`_
 - `https://www.number-2-pencil.com/ <https://www.number-2-pencil.com/>`_
