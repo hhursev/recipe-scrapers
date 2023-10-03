@@ -56,3 +56,6 @@ class TestKeukenLiefdeNL2Scraper(ScraperTest):
             "In dit recept laten we je zien hoe je deze smakelijke sticky kippenvleugels van de kamado (of in de oven) kunt maken. Ze zijn verslavend lekker!",
             self.harvester_class.description(),
         )
+
+    def test_language(self):
+        self.assertEqual("nl-NL", self.harvester_class.language())

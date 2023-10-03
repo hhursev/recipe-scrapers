@@ -68,3 +68,6 @@ class TestKeukenLiefdeNL3Scraper(ScraperTest):
             "Een heerlijk gerecht geïnspireerd op de Hongaarse keuken: stroganoff-gehaktschotel!",
             self.harvester_class.description(),
         )
+
+    def test_language(self):
+        self.assertEqual("nl-NL", self.harvester_class.language())

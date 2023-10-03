@@ -63,3 +63,6 @@ class TestKeukenLiefdeNL1Scraper(ScraperTest):
             "Een keer wat anders dan macaroni bolognese? Maak deze macaroni met stroganoffsaus: een goedgevulde saus met gehakt, paprika's en champignons.",
             self.harvester_class.description(),
         )
+
+    def test_language(self):
+        self.assertEqual("nl-NL", self.harvester_class.language())
