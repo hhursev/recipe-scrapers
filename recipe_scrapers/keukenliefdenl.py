@@ -1,5 +1,6 @@
 # mypy: allow-untyped-defs
 from ._abstract import AbstractScraper
+from ._exceptions import ElementNotFoundInHtml
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -46,7 +47,7 @@ class KeukenLiefdeNL(AbstractScraper):
             )
 
         # Nothing found, we give up.
-        return []
+        raise ElementNotFoundInHtml("Could not find ingredients.")
 
     def process_ingredients(self, container):
         ingredients = container.findChildren("li")
@@ -70,7 +71,7 @@ class KeukenLiefdeNL(AbstractScraper):
                 + instructions_heading.parent.find_next_siblings("p")
             )
 
-        return ""
+        raise ElementNotFoundInHtml("Could not find instructions.")
 
     def normalize_instructions(self, instructions):
         instructions = [
