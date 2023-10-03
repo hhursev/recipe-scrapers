@@ -14,7 +14,7 @@ class TestBareFootContessaScraper(ScraperTest):
         self.assertEqual("barefootcontessa.com", self.harvester_class.host())
 
     def test_author(self):
-        self.assertEqual("barefootcontessa.com", self.harvester_class.author())
+        self.assertEqual("Ina Garten", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual("Parmesan Chicken | Recipes", self.harvester_class.title())

@@ -11,7 +11,7 @@ class BareFootContessa(AbstractScraper):
         return "barefootcontessa.com"
 
     def author(self):
-        return "barefootcontessa.com"
+        return "Ina Garten"
 
     def title(self):
         return self.schema.title()
