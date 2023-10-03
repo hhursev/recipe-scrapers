@@ -85,6 +85,7 @@ Scrapers available for:
 - `https://www.arla.se/ <https://www.arla.se/>`_
 - `https://www.atelierdeschefs.fr/ <https://www.atelierdeschefs.fr/>`_
 - `https://averiecooks.com/ <https://www.averiecooks.com/>`_
+- `https://barefootcontessa.com/ <https://barefootcontessa.com>`_
 - `https://baking-sense.com/ <https://baking-sense.com/>`_
 - `https://bakingmischief.com/ <https://bakingmischief.com/>`_
 - `https://bbc.com/ <https://bbc.com/food/recipes>`_
@@ -233,6 +234,7 @@ Scrapers available for:
 - `https://myrecipes.com/ <https://myrecipes.com>`_
 - `https://healthyeating.nhlbi.nih.gov/ <https://healthyeating.nhlbi.nih.gov>`_
 - `https://nibbledish.com/ <https://nibbledish.com>`_
+- `https://www.nhs.uk/healthier-families/ <https://www.nhs.uk/healthier-families/>`_
 - `https://www.nosalty.hu/ <https://www.nosalty.hu>`_
 - `https://nourishedbynutrition.com/ <https://nourishedbynutrition.com/>`_
 - `https://www.number-2-pencil.com/ <https://www.number-2-pencil.com/>`_

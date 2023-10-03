@@ -21,9 +21,11 @@ class KeukenLiefdeNL(AbstractScraper):
         ).getText()
 
     def total_time(self):
-        return get_minutes(
-            self.soup.find("div", {"class": "article-meta-item sp tijd"}).get_text()
-        )
+        time = self.soup.find("div", {"class": "article-meta-item sp tijd"})
+        if time:
+            return get_minutes(time.get_text())
+
+        return None
 
     def yields(self):
         yields = self.soup.find("div", {"class": "article-meta-item sp aantal"})

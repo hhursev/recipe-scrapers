@@ -2,6 +2,7 @@
 import re
 
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -44,12 +45,31 @@ class NHSHealthierFamilies(AbstractScraper):
         return self.soup.find("img", {"class": "nhsuk-image__img"})["src"]
 
     def ingredients(self):
-        ingredients = (
-            self.soup.find("div", {"class": "bh-recipe-instructions"})
-            .find("ul")
-            .findAll("li")
+        ingredients = []
+        instructions_div = self.soup.find("div", {"class": "bh-recipe-instructions"})
+        ul = instructions_div.find("ul")
+
+        if ul:
+            for li in ul.findAll("li"):
+                ingredients.append(normalize_string(li.get_text()))
+
+        # Stop when encountering an 'ol' element which is where instructions are stored.
+        for sibling in ul.find_next_siblings():
+            if sibling.name == "ol":
+                break
+            if sibling.name == "ul":
+                for li in sibling.findAll("li"):
+                    ingredients.append(normalize_string(li.get_text()))
+
+        return ingredients
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".nhsuk-grid-column-one-third h3",
+            ".nhsuk-grid-column-one-third li",
         )
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
         instructions = (
