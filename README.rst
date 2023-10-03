@@ -405,8 +405,10 @@ FAQ
 
 .. code:: python
 
-    from recipe_scrapers import scrape_me
-    scraper = scrape_me('<url of a recipe from the site>', wild_mode=True)
+    from recipe_scrapers import scrape_html
+    url = '<url of a recipe from the site>'
+    html = requests.get(url).content
+    scraper = scrape_html(html, org_url=url, wild_mode=True)
     # if no error is raised - there's schema available:
     scraper.title()
     scraper.instructions()  # etc.

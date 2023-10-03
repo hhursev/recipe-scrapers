@@ -590,24 +590,6 @@ def scraper_exists_for(url_path: str) -> bool:
     return host_name in get_supported_urls()
 
 
-def scrape_me(url_path: str, **options: Any) -> AbstractScraper:
-    host_name = get_host_name(url_path)
-
-    try:
-        scraper = SCRAPERS[host_name]
-    except KeyError:
-        if not options.get("wild_mode", False):
-            raise WebsiteNotImplementedError(host_name)
-        else:
-            options.pop("wild_mode")
-            wild_scraper = SchemaScraperFactory.generate(url_path, **options)
-            if not wild_scraper.schema.data:
-                raise NoSchemaFoundInWildMode(url_path)
-            return wild_scraper
-
-    return scraper(url_path, **options)
-
-
 def scrape_html(
     html: str, org_url: Optional[str] = None, **options: dict[str, Any]
 ) -> AbstractScraper:
@@ -636,6 +618,9 @@ def scrape_html(
             scraper = SCRAPERS[host_name]
 
     if not scraper:
+        if not options.get("wild_mode", False):
+            raise WebsiteNotImplementedError(host_name)
+
         wild_scraper = SchemaScraperFactory.generate(url=org_url, html=html, **options)
 
         if not wild_scraper.schema.data:
@@ -646,5 +631,5 @@ def scrape_html(
     return scraper(url=org_url, html=html, **options)
 
 
-__all__ = ["scrape_me", "scrape_html"]
+__all__ = ["scrape_html"]
 name = "recipe_scrapers"
