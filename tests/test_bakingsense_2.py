@@ -15,7 +15,9 @@ class TestBakingSense(ScraperTest):
         self.assertEqual("Eileen Gray", self.harvester_class.author())
 
     def test_title(self):
-        self.assertEqual("Chocolate Cake with Strawberry Mousse Recipe", self.harvester_class.title())
+        self.assertEqual(
+            "Chocolate Cake with Strawberry Mousse Recipe", self.harvester_class.title()
+        )
 
     def test_category(self):
         self.assertEqual("Dessert", self.harvester_class.category())
@@ -27,19 +29,22 @@ class TestBakingSense(ScraperTest):
         self.assertEqual("12 servings", self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEqual("https://www.baking-sense.com/wp-content/uploads/2022/04/choc-sberry-cake-featured.jpg", self.harvester_class.image())
+        self.assertEqual(
+            "https://www.baking-sense.com/wp-content/uploads/2022/04/choc-sberry-cake-featured.jpg",
+            self.harvester_class.image(),
+        )
 
     def test_ingredients(self):
         expected_ingredients = [
             '1 recipe Chocolate Chiffon Cake (baked in two 9" pans)',
-            '2 oz freeze dried strawberries (3 cups before grinding)',
-            '24 oz fresh strawberries ( hulled and chopped)',
-            '5 1/4 oz granulated sugar (2/3 cup, divided)',
-            '2 tablespoon orange liquor (or use water)',
-            '2 teaspoons unflavored gelatin powder',
-            '8 oz heavy cream (1 cup)',
-            '1 recipe Swiss Meringue Buttercream (or your favorite buttercream)',
-            '12 strawberries (can be dipped in chocolate)'
+            "2 oz freeze dried strawberries (3 cups before grinding)",
+            "24 oz fresh strawberries ( hulled and chopped)",
+            "5 1/4 oz granulated sugar (2/3 cup, divided)",
+            "2 tablespoon orange liquor (or use water)",
+            "2 teaspoons unflavored gelatin powder",
+            "8 oz heavy cream (1 cup)",
+            "1 recipe Swiss Meringue Buttercream (or your favorite buttercream)",
+            "12 strawberries (can be dipped in chocolate)",
         ]
         self.assertEqual(expected_ingredients, self.harvester_class.ingredients())
 
@@ -48,7 +53,7 @@ class TestBakingSense(ScraperTest):
             [
                 IngredientGroup(
                     ingredients=[
-                        "1 recipe Chocolate Chiffon Cake (baked in two 9\" pans)",
+                        '1 recipe Chocolate Chiffon Cake (baked in two 9" pans)',
                         "2 oz freeze dried strawberries (3 cups before grinding)",
                     ],
                     purpose=None,
@@ -73,7 +78,6 @@ class TestBakingSense(ScraperTest):
             ],
             self.harvester_class.ingredient_groups(),
         )
-
 
     def test_instructions(self):
         expected_instructions = (
