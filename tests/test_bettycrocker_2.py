@@ -27,19 +27,22 @@ class TestBettyCrocker(ScraperTest):
         self.assertEqual("12 servings", self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEqual("https://images-gmi-pmc.edge-generalmills.com/6ec084f7-ffd9-4df2-8302-877825ecc321.jpg", self.harvester_class.image())
+        self.assertEqual(
+            "https://images-gmi-pmc.edge-generalmills.com/6ec084f7-ffd9-4df2-8302-877825ecc321.jpg",
+            self.harvester_class.image(),
+        )
 
     def test_ingredients(self):
         expected_ingredients = [
-            '2 packages (4-serving size each) Jell-O® strawberry-flavored gelatin',
-            '2 cups boiling water',
-            '2 boxes (16 oz each) frozen sweetened strawberries, thawed',
-            '2 cups pretzels, crushed',
-            '3/4 cup butter, melted',
-            '3 tablespoons sugar',
-            '1 container (8 oz) Cool Whip frozen whipped topping, thawed',
-            '1 package (8 oz) cream cheese, softened',
-            '1 cup sugar'
+            "2 packages (4-serving size each) Jell-O® strawberry-flavored gelatin",
+            "2 cups boiling water",
+            "2 boxes (16 oz each) frozen sweetened strawberries, thawed",
+            "2 cups pretzels, crushed",
+            "3/4 cup butter, melted",
+            "3 tablespoons sugar",
+            "1 container (8 oz) Cool Whip frozen whipped topping, thawed",
+            "1 package (8 oz) cream cheese, softened",
+            "1 cup sugar",
         ]
         self.assertEqual(expected_ingredients, self.harvester_class.ingredients())
 
@@ -48,25 +51,25 @@ class TestBettyCrocker(ScraperTest):
             [
                 IngredientGroup(
                     ingredients=[
-                        '2 packages (4-serving size each) Jell-O® strawberry-flavored gelatin',
-                        '2 cups boiling water',
-                        '2 boxes (16 oz each) frozen sweetened strawberries, thawed',
+                        "2 packages (4-serving size each) Jell-O® strawberry-flavored gelatin",
+                        "2 cups boiling water",
+                        "2 boxes (16 oz each) frozen sweetened strawberries, thawed",
                     ],
                     purpose="Topping",
                 ),
                 IngredientGroup(
                     ingredients=[
-                        '2 cups pretzels, crushed',
-                        '3/4 cup butter, melted',
-                        '3 tablespoons sugar',
+                        "2 cups pretzels, crushed",
+                        "3/4 cup butter, melted",
+                        "3 tablespoons sugar",
                     ],
                     purpose="Crust",
                 ),
                 IngredientGroup(
                     ingredients=[
-                    '1 container (8 oz) Cool Whip frozen whipped topping, thawed',
-                    '1 package (8 oz) cream cheese, softened',
-                    '1 cup sugar'
+                        "1 container (8 oz) Cool Whip frozen whipped topping, thawed",
+                        "1 package (8 oz) cream cheese, softened",
+                        "1 cup sugar",
                     ],
                     purpose="Filling",
                 ),
@@ -78,10 +81,10 @@ class TestBettyCrocker(ScraperTest):
         return self.assertEqual(
             "\n".join(
                 [
-            'Dissolve gelatin in boiling water. Stir in strawberries; refrigerate until partially set, about 1 hour 45 minutes.',
-            'Heat oven to 350° F. In medium bowl, mix Crust ingredients. Press into ungreased 13 x 9-inch baking dish. Bake 10 minutes. Cool on cooling rack.',
-            'In medium bowl, beat Filling ingredients with electric mixer on medium speed until smooth. Spread over cooled crust. Cover and refrigerate until cool and gelatin topping in bowl is partially set.',
-            'Carefully spoon gelatin topping over filling. Refrigerate 4 to 6 hours or until firm. To serve, cut into 4 rows by 3 rows.'
+                    "Dissolve gelatin in boiling water. Stir in strawberries; refrigerate until partially set, about 1 hour 45 minutes.",
+                    "Heat oven to 350° F. In medium bowl, mix Crust ingredients. Press into ungreased 13 x 9-inch baking dish. Bake 10 minutes. Cool on cooling rack.",
+                    "In medium bowl, beat Filling ingredients with electric mixer on medium speed until smooth. Spread over cooled crust. Cover and refrigerate until cool and gelatin topping in bowl is partially set.",
+                    "Carefully spoon gelatin topping over filling. Refrigerate 4 to 6 hours or until firm. To serve, cut into 4 rows by 3 rows.",
                 ]
             ),
             self.harvester_class.instructions(),
