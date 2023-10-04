@@ -5,6 +5,7 @@ from tests import ScraperTest
 class TestBigOven(ScraperTest):
 
     scraper_class = BigOven
+    test_file_name = "bigoven_1"
 
     def test_host(self):
         self.assertEqual("bigoven.com", self.harvester_class.host())
