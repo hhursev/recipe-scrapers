@@ -9,6 +9,12 @@ class TestBettyBossiScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("bettybossi.ch", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.bettybossi.ch/fr/Rezept/ShowRezept/BB_BLUB160501_0070A-40-fr",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Betty Bossi", self.harvester_class.author())
 

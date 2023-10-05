@@ -12,6 +12,12 @@ class TestBlueJeanChefScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("bluejeanchef.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://bluejeanchef.com/recipes/chicken-tortilla-soup/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("theyadmin", self.harvester_class.author())
 

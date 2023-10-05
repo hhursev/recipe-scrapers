@@ -10,6 +10,13 @@ class TestAllTomatScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("alltommat.se", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://alltommat.se/recept/briochehamburgerbrod/",
+            self.harvester_class.canonical_url(),
+        )
+
+
     def test_author(self):
         self.assertEqual("gunilla von heland", self.harvester_class.author())
 

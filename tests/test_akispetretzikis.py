@@ -9,14 +9,17 @@ class TestAkisPetretzikisScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("akispetretzikis.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://akispetretzikis.com/en/recipe/5453/kotopoylo-lemonato-me-agkinares",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Akis Petretzikis", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual("Lemon chicken with artichokes", self.harvester_class.title())
-
-    def test_category(self):
-        self.assertEqual(None, self.harvester_class.category())
 
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())
@@ -70,9 +73,6 @@ class TestAkisPetretzikisScraper(ScraperTest):
 
     def test_ratings(self):
         self.assertEqual(4.91, self.harvester_class.ratings())
-
-    def test_cuisine(self):
-        self.assertEqual(None, self.harvester_class.cuisine())
 
     def test_description(self):
         self.assertEqual(

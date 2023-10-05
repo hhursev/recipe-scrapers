@@ -9,6 +9,12 @@ class TestCoopScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("coop.se", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.coop.se/recept/grillat-kott-med-lime-och-chilismor/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual(
             "Sara Begner och Ulrika Brydling", self.harvester_class.author()

@@ -9,6 +9,12 @@ class TestAtelierDesChefsScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("atelierdeschefs.fr", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.atelierdeschefs.fr/recettes/16689/crepe-savoyarde/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("L'atelier des Chefs", self.harvester_class.author())
 
