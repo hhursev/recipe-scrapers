@@ -7,6 +7,7 @@ from tests import ScraperTest
 class TestBlueJeanChefScraper(ScraperTest):
 
     scraper_class = BlueJeanChef
+    test_file_name = "bluejeanchef_1"
 
     def test_host(self):
         self.assertEqual("bluejeanchef.com", self.harvester_class.host())
