@@ -347,6 +347,7 @@ Scrapers available for:
 - `https://tidymom.net <https://tidymom.net>`_
 - `https://tudogostoso.com.br/ <https://www.tudogostoso.com.br/>`_
 - `https://twopeasandtheirpod.com/ <http://twopeasandtheirpod.com>`_
+- `https://uitpaulineskeuken.nl/ <https://uitpaulineskeuken.nl>`_
 - `https://usapears.org/ <https://usapears.org>`_
 - `https://www.valdemarsro.dk/ <https://www.valdemarsro.dk/>`_
 - `https://vanillaandbean.com/ <https://vanillaandbean.com>`_
