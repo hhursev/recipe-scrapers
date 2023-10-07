@@ -9,6 +9,12 @@ class TestForksOverKnives(ScraperTest):
     def test_host(self):
         self.assertEqual("forksoverknives.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.forksoverknives.com/recipes/vegan-pasta-noodles/butternut-mac-and-cheese-broccoli/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Darshana Thacker Wendel", self.harvester_class.author())
 

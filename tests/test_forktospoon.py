@@ -13,6 +13,12 @@ class TestForkToSpoonScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("forktospoon.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://forktospoon.com/air-fryer-parmesan-tomatoes/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("ForkToSpoon.com", self.harvester_class.author())
 

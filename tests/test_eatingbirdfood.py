@@ -9,6 +9,12 @@ class TestEatingBirdFoodScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("eatingbirdfood.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            self.harvester_class.canonical_url(),
+            "https://www.eatingbirdfood.com/curried-shakshuka/",
+        )
+
     def test_author(self):
         self.assertEqual("Brittany Mullins", self.harvester_class.author())
 
