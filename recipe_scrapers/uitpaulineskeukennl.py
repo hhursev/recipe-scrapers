@@ -1,6 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 from ._utils import normalize_string
 
 
@@ -32,6 +33,14 @@ class UitPaulinesKeukenNl(AbstractScraper):
             "li"
         )
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            "#ingredienten > h2",
+            "#ingredienten > ul > li",
+        )
 
     def instructions(self):
         instructions = self.soup.find(
