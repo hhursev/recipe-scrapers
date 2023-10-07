@@ -265,7 +265,6 @@ from .tofoo import Tofoo
 from .tudogostoso import TudoGostoso
 from .twopeasandtheirpod import TwoPeasAndTheirPod
 from .uitpaulineskeukennl import UitPaulinesKeukenNl
-from .uitpaulineskeukennl_2 import uitpaulineskeukennl_2
 from .usapears import USAPears
 from .usdamyplate import USDAMyPlate
 from .valdemarsro import Valdemarsro
