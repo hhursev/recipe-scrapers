@@ -1,1349 +1,650 @@
 <!DOCTYPE html>
-<html class="ng-scope" ng-app="foodRepublic" lang="en-US"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script src="foodrepublic_files/optout_check" type="text/javascript"></script><script src="foodrepublic_files/tag.js" async="" type="text/javascript"></script><script src="foodrepublic_files/get" type="text/javascript"></script><script src="foodrepublic_files/optout_check" type="text/javascript"></script><script src="foodrepublic_files/ptrack-v0.js"></script><script src="foodrepublic_files/foodrepublic.com"></script><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Where Food, Drink &amp; Culture Unite">
-<link rel="profile" href="http://gmpg.org/xfn/11">
-<link rel="pingback" href="http://www.foodrepublic.com/xmlrpc.php">
-<link rel="shortcut icon" href="http://www.foodrepublic.com/wp-content/themes/foodrepublic/favicon.ico" type="image/x-icon">
-<!-- base href="http://www.foodrepublic.com/" -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+    <link rel="preload" href="/wp-content/themes/unified/css/foodrepublic.min.css?design=2&v=1696434125" as="style">
+            <link rel="preload" as="image" imagesrcset="https://www.foodrepublic.com/img/gallery/dutch-white-asparagus-recipe/intro-import.sm.webp">
+                        <link rel="preload" href="/wp-content/themes/unified/js/loopgal.min.js?v=1695654649" as="script">
+                <style>
+                                </style>
+    <link rel="stylesheet" type="text/css" href="/wp-content/themes/unified/css/foodrepublic.min.css?design=2&v=1696434125" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+        <meta property="og:image" content="https://www.foodrepublic.com/img/gallery/dutch-white-asparagus-recipe/intro-import.jpg" />
+            <meta name="robots" content="max-image-preview:large">
+        <meta name="thumbnail" content="https://www.foodrepublic.com/img/gallery/dutch-white-asparagus-recipe/intro-import.jpg">
+        <title>Dutch White Asparagus Recipe - Food Republic</title>
+        <meta property="og:title" content="Dutch White Asparagus Recipe - Food Republic">
+    <meta name="twitter:title" content="Dutch White Asparagus Recipe - Food Republic">
+        <meta property="og:description" content="One of the great things about spring menus is all the tender, fresh green vegetable dishes. Longstanding Midtown dining spot&nbsp;Michael&#39;s New York, owned by restaurateur Michael McCarty, boasts a Dutch recipe we had to try: citrus-steamed Dutch white asparagus with a wine-spiked butter sauce, a runny poached egg and a little Parmesan cheese.&nbsp;">
+    <meta name="twitter:description" content="One of the great things about spring menus is all the tender, fresh green vegetable dishes. Longstanding Midtown dining spot&nbsp;Michael&#39;s New York, owned by restaurateur Michael McCarty, boasts a Dutch recipe we had to try: citrus-steamed Dutch white asparagus with a wine-spiked butter sauce, a runny poached egg and a little Parmesan cheese.&nbsp;">
+    <meta property="og:site_name" content="Food Republic" />
+    <meta name='description' content="One of the great things about spring menus is all the tender, fresh green vegetable dishes. Longstanding Midtown dining spot&nbsp;Michael&#39;s New York, owned by restaurateur Michael McCarty, boasts a Dutch recipe we had to try: citrus-steamed Dutch white asparagus with a wine-spiked butter sauce, a runny poached egg and a little Parmesan cheese.&nbsp;" />
+            <meta property="og:type" content="article">
+                    <meta property="og:url" content="https://www.foodrepublic.com/recipes/dutch-white-asparagus-recipe/"/>
+                <meta property="article:published_time" content="2013-04-16T16:01:24+00:00" />
+        <meta property="article:modified_time" content="2016-04-12T18:04:21+00:00" />
+        <meta property="og:site_name" content="FoodRepublic.com" />
+                <meta property="article:author" content="Food Republic" />
+                
+        <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://www.foodrepublic.com/img/gallery/dutch-white-asparagus-recipe/intro-import.jpg">
 
-<title>Dutch White Asparagus Recipe | Food Republic</title>
-<link rel="alternate" type="application/rss+xml" title="Food Republic » Feed" href="http://www.foodrepublic.com/feed/">
-<link rel="alternate" type="application/rss+xml" title="Food Republic » Comments Feed" href="http://www.foodrepublic.com/comments/feed/">
-<link rel="alternate" type="application/rss+xml" title="Food Republic » Dutch White Asparagus Recipe Comments Feed" href="http://www.foodrepublic.com/recipes/dutch-white-asparagus-recipe/feed/">
-		<script src="foodrepublic_files/controltag.js" async=""></script><script src="foodrepublic_files/controltag" async="" type="text/javascript"></script><script src="foodrepublic_files/sdk.js" id="facebook-jssdk"></script><script src="foodrepublic_files/gpt.js" type="text/javascript" async=""></script><script src="foodrepublic_files/analytics.js" async=""></script><script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.foodrepublic.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.3"}};
-			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script><script type="text/javascript" src="foodrepublic_files/wp-emoji-release.js"></script>
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-<link rel="stylesheet" id="foodrepublic-fonts-css" href="foodrepublic_files/css.css" type="text/css" media="all">
-<link rel="stylesheet" id="foodrepublic-screen-css" href="foodrepublic_files/global.css" type="text/css" media="all">
-<link rel="stylesheet" id="foodrepublic-print-css" href="foodrepublic_files/print.css" type="text/css" media="print">
-<link rel="stylesheet" id="jetpack_css-css" href="foodrepublic_files/jetpack.css" type="text/css" media="all">
-<script type="text/javascript" src="foodrepublic_files/jquery.js"></script>
-<script type="text/javascript" src="foodrepublic_files/jquery-migrate.js"></script>
-<script type="text/javascript" src="foodrepublic_files/related-posts.js"></script>
-<script type="text/javascript">
-/* <![CDATA[ */
-var trackingData = "{\"id\":\"UA-17686165-1\",\"dimensions\":{\"topics\":\"Global Cuisine\",\"sections\":\"Food\",\"context\":\"recipe\",\"date\":\"April 16, 2013\",\"tag\":\"asparagus, nyc restaurants, prosciutto, spring vegetables, the netherlands\"}}";
-/* ]]> */
-</script>
-<script type="text/javascript" src="foodrepublic_files/fr-analytics.js"></script>
-<script type="text/javascript" src="foodrepublic_files/fr-dfp.js"></script>
-<script type="text/javascript" src="foodrepublic_files/froogaloop2.js"></script>
-<script type="text/javascript" src="foodrepublic_files/vendor.js"></script>
-<script type="text/javascript" src="foodrepublic_files/modules.js"></script>
-<script type="text/javascript" src="foodrepublic_files/alley-slideshow.js"></script>
-<script type="text/javascript" src="foodrepublic_files/global.js"></script>
-<script type="text/javascript" src="foodrepublic_files/widget.js"></script>
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.foodrepublic.com/xmlrpc.php?rsd">
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.foodrepublic.com/wp-includes/wlwmanifest.xml">
-<link rel="prev" title="A Vegetable Tart Recipe That Reminds Us That Spring Has Sprung" href="http://www.foodrepublic.com/recipes/a-vegetable-tart-recipe-that-reminds-us-that-spring-has-sprung/">
-<link rel="next" title="Caramel Pecan Tortoises Recipe" href="http://www.foodrepublic.com/recipes/caramel-pecan-tortoises-recipe/">
-<meta name="generator" content="WordPress 4.2.3">
-<link rel="canonical" href="http://www.foodrepublic.com/recipes/dutch-white-asparagus-recipe/">
-<link rel="shortlink" href="http://www.foodrepublic.com/?p=20679">
+    <link rel="shortcut icon" href="https://www.foodrepublic.com/img/food-republic-favicon-448x448.png">
+    <link rel="icon" href="https://www.foodrepublic.com/img/food-republic-favicon-448x448.png">
 
-<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+            <link rel="canonical" href="https://www.foodrepublic.com/recipes/dutch-white-asparagus-recipe/"/>
+    
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://www.foodrepublic.com/feed/" />
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://www.foodrepublic.com/feed/rss/" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://www.foodrepublic.com/feed/atom/" />
 
-<link rel="dns-prefetch" href="http://i0.wp.com/">
-<link rel="dns-prefetch" href="http://i1.wp.com/">
-<link rel="dns-prefetch" href="http://i2.wp.com/">
-		<script type="text/javascript">
-		var dfp_ad_slots_desktop = [];
-var dfp_ad_slots_mobile = [];
-		var googletag = googletag || {};
-		googletag.cmd = googletag.cmd || [];
-		(function() {
-		var gads = document.createElement('script');
-		gads.async = true;
-		gads.type = 'text/javascript';
-		var useSSL = 'https:' == document.location.protocol;
-		gads.src = (useSSL ? 'https:' : 'http:') +
-		'//www.googletagservices.com/tag/js/gpt.js';
-		var node = document.getElementsByTagName('script')[0];
-		node.parentNode.insertBefore(gads, node);
-		})();
-		</script>
-		<script type="text/javascript">
-		googletag.cmd.push(function() {
-			if ( fr_dfp_screen === "desktop") {
-dfp_ad_slots_desktop[0] = googletag.defineSlot("/2836836/Desktop_Leaderboard_728x90_970x90_970x400_970x200", [[970,250],[970,400],[728,90],[970,200]],"div-gpt-ad-Desktop_Leaderboard_728x90_970x90_970x400_970x200").addService(googletag.pubads());
-dfp_ad_slots_desktop[1] = googletag.defineSlot("/2836836/Desktop_Top_300x250_300x600_300x1050", [[300,1050],[300,600],[300,250]],"div-gpt-ad-Desktop_Top_300x250_300x600_300x1050").addService(googletag.pubads());
-dfp_ad_slots_desktop[2] = googletag.defineSlot("/2836836/Desktop_Top_300x250", [[300,250]],"div-gpt-ad-Desktop_Top_300x250").addService(googletag.pubads());
-dfp_ad_slots_desktop[3] = googletag.defineSlot("/2836836/Desktop_Lower_300x250", [[300,250]],"div-gpt-ad-Desktop_Lower_300x250").addService(googletag.pubads());
-dfp_ad_slots_desktop[4] = googletag.defineSlot("/2836836/Desktop_Author_Middle_728x90", [[728,90]],"div-gpt-ad-Desktop_Author_Middle_728x90").addService(googletag.pubads());
-dfp_ad_slots_desktop[5] = googletag.defineSlot("/2836836/Desktop_Author_Lower_728x90", [[728,90]],"div-gpt-ad-Desktop_Author_Lower_728x90").addService(googletag.pubads());
-dfp_ad_slots_desktop[6] = googletag.defineSlot("/2836836/Desktop_Homepage_970x400", [[970,400]],"div-gpt-ad-Desktop_Homepage_970x400").addService(googletag.pubads());
-have_ad_slots = true;
-}else if ( fr_dfp_screen === "mobile") {
-dfp_ad_slots_mobile[0] = googletag.defineSlot("/2836836/Mobile_300x250_1", [[300,250]],"div-gpt-ad-Mobile_300x250_1").addService(googletag.pubads());
-dfp_ad_slots_mobile[1] = googletag.defineSlot("/2836836/Mobile_300x250_2", [[300,250]],"div-gpt-ad-Mobile_300x250_2").addService(googletag.pubads());
-dfp_ad_slots_mobile[2] = googletag.defineSlot("/2836836/Mobile_320x50", [[320,50]],"div-gpt-ad-Mobile_320x50").addService(googletag.pubads());
-dfp_ad_slots_mobile[3] = googletag.defineSlot("/2836836/Mobile_Homepage_300x250", [[300,250]],"div-gpt-ad-Mobile_Homepage_300x250").addService(googletag.pubads());
-have_ad_slots = true;
-}			if ( have_ad_slots ) {
-				googletag.pubads().setTargeting("tag",["asparagus","nyc-restaurants","prosciutto","spring-vegetables","the-netherlands"]).setTargeting("section",["food"]).setTargeting("post_type",'recipe').setTargeting("page_type",'single').setTargeting("post_id",'20679');
-				var testadv = window.location.href.toString().match(/testadv=([\w\d]+)/);
-				if (testadv !== null) {
-					testadv = testadv[1].toString().replace(/testadv=/, "");
-					googletag.pubads().setTargeting('testadv',[testadv]);
-				}
+            <script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.foodrepublic.com\/recipes\/dutch-white-asparagus-recipe\/"},"headline":"Dutch White Asparagus Recipe","image":{"@type":"ImageObject","url":null,"height":438,"width":780},"datePublished":"2013-04-16T16:01:24+00:00","dateModified":"2016-04-12T18:04:21+00:00","author":{"@type":"Person","name":"Food Republic"},"publisher":{"@type":"Organization","name":"Food Republic","logo":{"@type":"ImageObject","url":"https:\/\/www.foodrepublic.com\/img\/food-republic-share-image-1280x720-v3.jpg","width":"1280","height":"720"}},"description":""}</script>
+    
+    <script>
+        if ( typeof Looper === "undefined" ) {
+            var Looper = {};
+        }
+        Looper.adTypeAdd = false;
+        Looper.fromZerg = (document.location.search.indexOf("zergnet")!==-1);
+                Looper.fromFacebook = false;
+                Looper.zergCat = false;
+        if ( document.location.search.indexOf("utm_content") !== -1 ) {
+            var searchArgs = document.location.search.split("&");
+            for ( var i = 0; i < searchArgs.length; i++ ) {
+                if ( searchArgs[i].indexOf("utm_content") !== -1 && searchArgs[i].indexOf("=") !== -1 ) {
+                    Looper.zergCat = searchArgs[i].split("=")[1];
+                }
+            }
+        }
 
-				googletag.pubads().enableAsyncRendering();
-				googletag.pubads().collapseEmptyDivs();
-				googletag.enableServices();
-			}
-		});
-		</script>
-					<meta name="parsely-page" content="{&quot;title&quot;:&quot;Dutch White Asparagus Recipe&quot;,&quot;link&quot;:&quot;http:\/\/www.foodrepublic.com\/recipes\/dutch-white-asparagus-recipe\/&quot;,&quot;type&quot;:&quot;post&quot;,&quot;post_id&quot;:20679,&quot;pub_date&quot;:&quot;2013-04-16T20:01:24Z&quot;,&quot;section&quot;:&quot;food&quot;,&quot;author&quot;:[&quot;Michael\u0027s Restaurant&quot;],&quot;tags&quot;:[&quot;asparagus&quot;,&quot;nyc restaurants&quot;,&quot;prosciutto&quot;,&quot;spring vegetables&quot;,&quot;the netherlands&quot;,&quot;\/recipe&quot;]}">
-							<meta name="parsely-metadata" content="{&quot;post_id&quot;:20679}">
-				<script async="" src="foodrepublic_files/pubads_impl_72.js"></script><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow-x:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}
-.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f8;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3a5795;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #2f477a;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f8;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v2/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
-.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style></head><body class="single single-recipe postid-20679 ng-scope" ng-controller="siteCtrl as vm" ng-class="{slideshow: vm.slideshow, searchbar: vm.searchBar}"><div class=" fb_reset" id="fb-root"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe src="foodrepublic_files/44OwK74u0Ie.html" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_http" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fb_xdm_frame_http" frameborder="0"></iframe><iframe src="foodrepublic_files/44OwK74u0Ie_002.html" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_https" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fb_xdm_frame_https" frameborder="0"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1459963620963229&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<script class="kxct" data­id="J7SDAItO" data­timing="async" data­version="1.9" type="text/javascript">
-window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
-(function(){
-	var k=document.createElement('script');k.type='text/javascript';k.async=true;
-	var m,src=(m=location.href.match(/\bkxsrc=([^&]+)/))&&decodeURIComponent(m1);
-	k.src = /^https?:\/\/([a­z0­9_\­\.]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" : (location.protocol==="https:"?"https:":"http:")+"//cdn.krxd.net/controltag?confid=J7SDAItO";
-	var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
-}());
-</script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
 
-<!-- Jetpack Open Graph Tags -->
-<meta property="og:type" content="article">
-<meta property="og:title" content="Dutch White Asparagus Recipe">
-<meta property="og:url" content="http://www.foodrepublic.com/recipes/dutch-white-asparagus-recipe/">
-<meta property="og:description" content="One of the great things about spring menus is all the tender, fresh green vegetable dishes. Longstanding Midtown dining spot&nbsp;Michael's New York, owned by restaurateur Michael McCarty, boa...">
-<meta property="article:published_time" content="2013-04-16T16:01:24+00:00">
-<meta property="article:modified_time" content="2015-06-09T00:36:51+00:00">
-<meta property="og:site_name" content="Food Republic">
-<meta property="og:image" content="http://i2.wp.com/www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg?fit=1200%2C1200">
-<meta property="og:locale" content="en_us">
-<meta name="twitter:image" content="http://i2.wp.com/www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg?fit=1200%2C1200&amp;w=240">
-<meta name="twitter:card" content="summary">
+        if ( typeof googletag['definedSlots'] == "undefined" ) {
+            googletag.definedSlots = {};
+            googletag.displayedSlots = {};
+        }
+        if ( typeof googletag['zergPageType'] == "undefined" ) {
+            googletag.zergPageType = "";
+        }
+    </script>
 
+    </head>
+<body>
+<div id="wrapper">
+    <div class="page-wrap">
+        <header id="header" class="infinite legacy ">
+            <div class="nav-drop">
+                <div class="jcf-scrollable">
+                    <div class="aside-holder">
+                        <nav id="aside-nav">
+                            <div class="nav-top">
+                                <div class="logo">
+                                    <a href="/" class="logo-holder">
+                                                                                    <img src="https://www.foodrepublic.com/img/FR-Icon-Color-Default-RGB.svg" alt="Food Republic" width="52" height="52">
+                                                                            </a>
+                                    <a href="#" class="nav-opener close">&times;</a>
+                                </div>
+                            </div>
+                                                                                        <ul>
+                                                                            <li class="recipes "><a href="/category/recipes/">Recipes</a></li>
+                                                                            <li class="news "><a href="/category/news/">News</a></li>
+                                                                            <li class="cook "><a href="/category/cook/">Cook</a></li>
+                                                                            <li class="food "><a href="/category/food/">Food</a></li>
+                                                                            <li class="drink "><a href="/category/drink/">Drink</a></li>
+                                                                            <li class="restaurants "><a href="/category/restaurants/">Restaurants</a></li>
+                                                                            <li class="grocery "><a href="/category/grocery/">Grocery</a></li>
+                                                                            <li class="features "><a href="/category/features/">Features</a></li>
+                                                                        <li class="social-icons">
+                                        <a href="http://www.facebook.com/OfficialFoodRepublic" target="_blank" title="Facebook" aria-label="Facebook"><svg class="icon"><use xlink:href="#facebook"></use></svg></a><a href="https://www.instagram.com/foodrepublic" target="_blank" title="Instagram" aria-label="Instagram"><svg class="icon"><use xlink:href="#instagram"></use></svg></a><a href="https://www.threads.net/@foodrepublic" target="_blank" title="Threads" aria-label="Threads"><svg class="icon"><use xlink:href="#threads"></use></svg></a><a href="/feed/" target="_blank" title="RSS" aria-label="RSS"><svg class="icon"><use xlink:href="#rss"></use></svg></a>                                    </li>
+                                                                                                                <li class="newsletter-container"><div class="newsletter"><a href="https://foodrepublic.substack.com/" target="_blank" title="Newsletter" aria-label="Newsletter"><svg><use xlink:href="#revue"></use></svg> Newsletter</a></div></li>
+                                                                                                            <li class="info-links first-info-link"><a href="/about/">About</a></li>
+                                    <li class="info-links"><a href="/policies/">Editorial Policies</a></li>
+                                                                                                            <li class="info-links"><a href="https://www.static.com/privacy-policy" target="_blank">Privacy Policy</a></li>
+                                    <li class="info-links"><a href="https://www.static.com/terms" target="_blank">Terms of Use</a></li>
+                                </ul>
+                                                    </nav>
+                        <div class="nav-bottom">
+                            <span class="copyright-info">&copy; 2023                                <a href="https://www.static.com/" target="_blank">Static Media</a>. All Rights Reserved
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="bg"></div>
+         
+            <div id="header-container">
+                <div id="hamburger-holder">
+                    <div class="hamburger nav-opener"></div>
+                </div>
 
+                                    <div id="logo" class="top-nav-standard">
+                                        <a href="/" >
+                                                            <img src="https://www.foodrepublic.com/img/FR-Logo-Color-Default-RGB.svg" alt="Food Republic" width="87" height="87">
+                                                    </a>
+                                    </div>
+                
+                <div id="logo-icon" class="top-nav-scrolled">
+                    <a href="/" >
+                                                    <img src="https://www.foodrepublic.com/img/FR-Icon-Color-Default-RGB.svg" alt="Food Republic" width="52" height="52">
+                                            </a>
+                </div>
 
-	<div class="content-wrapper">
+                <div id="top-nav-title" class="top-nav-scrolled">Dutch White Asparagus Recipe</div>
 
-<nav class="site-nav" ng-class="vm.menu">
-	<div class="main-menu"><ul id="menu-site-wide-navigation" class="menu"><li id="menu-item-48299" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48299"><a href="http://www.foodrepublic.com/">Home</a></li>
-<li id="menu-item-48308" class="menu-item menu-item-type-taxonomy menu-item-object-section current-recipe-ancestor current-menu-parent current-recipe-parent menu-item-48308"><a href="http://www.foodrepublic.com/section/food/">Food</a></li>
-<li id="menu-item-48311" class="menu-item menu-item-type-taxonomy menu-item-object-section menu-item-48311"><a href="http://www.foodrepublic.com/section/drink/">Drink</a></li>
-<li id="menu-item-48310" class="menu-item menu-item-type-taxonomy menu-item-object-section menu-item-48310"><a href="http://www.foodrepublic.com/section/travel/">Travel</a></li>
-<li id="menu-item-48309" class="menu-item menu-item-type-taxonomy menu-item-object-section menu-item-48309"><a href="http://www.foodrepublic.com/section/people/">People</a></li>
-<li id="menu-item-48312" class="menu-item menu-item-type-taxonomy menu-item-object-section menu-item-48312"><a href="http://www.foodrepublic.com/section/design/">Design</a></li>
-<li id="menu-item-113718" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-113718"><a href="http://www.foodrepublic.com/recipes/">Recipes</a></li>
-<li id="menu-item-113719" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-113719"><a href="http://www.foodrepublic.com/videos/">Video</a></li>
-</ul></div>	<div class="wildcard-nav">
-	<span>Hot:</span>
-	<div class="wildcard-nav-items"><ul id="menu-topics-header" class="menu"><li id="menu-item-122682" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-122682"><a href="http://www.foodrepublic.com/topics/fall-preview/">Fall Preview</a></li>
-<li id="menu-item-117527" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-117527"><a href="http://www.foodrepublic.com/topics/food-crimes/">Food Crimes</a></li>
-<li id="menu-item-122242" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-122242"><a href="http://www.foodrepublic.com/topics/butchery-charcuterie/">Butchery &amp; Charcuterie</a></li>
-</ul></div></div>
+                                    <div id="search-container" class="top-nav-standard">
+                        <nav id="top-nav-holder">
+                                                    <a href="/category/recipes/" class="recipes ">Recipes</a>
+                                                    <a href="/category/news/" class="news ">News</a>
+                                                    <a href="/category/cook/" class="cook ">Cook</a>
+                                                    <a href="/category/food/" class="food ">Food</a>
+                                                    <a href="/category/drink/" class="drink ">Drink</a>
+                                                    <a href="/category/restaurants/" class="restaurants ">Restaurants</a>
+                                                    <a href="/category/grocery/" class="grocery ">Grocery</a>
+                                                    <a href="/category/features/" class="features ">Features</a>
+                                                </nav>
+                    </div>
+                
+                            
+                                    <nav id="social-nav-holder" class="top-nav-standard">
+                        <svg width="0" height="0" class="hidden">
+                            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="rss">
+                                <path d="M4.259 23.467A4.265 4.265 0 000 27.719a4.25 4.25 0 004.259 4.244 4.25 4.25 0 004.265-4.244 4.265 4.265 0 00-4.265-4.252zM.005 10.873v6.133c3.993 0 7.749 1.562 10.577 4.391A14.897 14.897 0 0114.966 32h6.16c0-11.651-9.478-21.127-21.121-21.127zM.012 0v6.136C14.255 6.136 25.848 17.74 25.848 32H32C32 14.36 17.648 0 .012 0z"></path>
+                            </symbol>
+                            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="twitter">
+                                <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
+                            </symbol>
+                            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="facebook">
+                                <path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"></path>
+                            </symbol>
+                            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="flipboard">
+                                <path d="M0 0v32h32V0zm25.6 12.8h-6.4v6.4h-6.4v6.4H6.4V6.4h19.2z"></path>
+                            </symbol>
+                            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="instagram">
+                                <path d="M16 2.881c4.275 0 4.781.019 6.462.094 1.563.069 2.406.331 2.969.55a4.952 4.952 0 011.837 1.194 5.015 5.015 0 011.2 1.838c.219.563.481 1.412.55 2.969.075 1.688.094 2.194.094 6.463s-.019 4.781-.094 6.463c-.069 1.563-.331 2.406-.55 2.969a4.94 4.94 0 01-1.194 1.837 5.02 5.02 0 01-1.837 1.2c-.563.219-1.413.481-2.969.55-1.688.075-2.194.094-6.463.094s-4.781-.019-6.463-.094c-1.563-.069-2.406-.331-2.969-.55a4.952 4.952 0 01-1.838-1.194 5.02 5.02 0 01-1.2-1.837c-.219-.563-.481-1.413-.55-2.969-.075-1.688-.094-2.194-.094-6.463s.019-4.781.094-6.463c.069-1.563.331-2.406.55-2.969a4.964 4.964 0 011.194-1.838 5.015 5.015 0 011.838-1.2c.563-.219 1.412-.481 2.969-.55 1.681-.075 2.188-.094 6.463-.094zM16 0c-4.344 0-4.887.019-6.594.094-1.7.075-2.869.35-3.881.744-1.056.412-1.95.956-2.837 1.85a7.833 7.833 0 00-1.85 2.831C.444 6.538.169 7.7.094 9.4.019 11.113 0 11.656 0 16s.019 4.887.094 6.594c.075 1.7.35 2.869.744 3.881.413 1.056.956 1.95 1.85 2.837a7.82 7.82 0 002.831 1.844c1.019.394 2.181.669 3.881.744 1.706.075 2.25.094 6.594.094s4.888-.019 6.594-.094c1.7-.075 2.869-.35 3.881-.744 1.05-.406 1.944-.956 2.831-1.844s1.438-1.781 1.844-2.831c.394-1.019.669-2.181.744-3.881.075-1.706.094-2.25.094-6.594s-.019-4.887-.094-6.594c-.075-1.7-.35-2.869-.744-3.881a7.506 7.506 0 00-1.831-2.844A7.82 7.82 0 0026.482.843C25.463.449 24.301.174 22.601.099c-1.712-.081-2.256-.1-6.6-.1z"></path>
+                                <path d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219A8.221 8.221 0 0016 7.781zm0 13.55a5.331 5.331 0 110-10.663 5.331 5.331 0 010 10.663zM26.462 7.456a1.919 1.919 0 11-3.838 0 1.919 1.919 0 013.838 0z"></path>
+                            </symbol>
+                            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="youtube">
+                                <path d="M31.681 9.6s-.313-2.206-1.275-3.175C29.187 5.15 27.825 5.144 27.2 5.069c-4.475-.325-11.194-.325-11.194-.325h-.012s-6.719 0-11.194.325c-.625.075-1.987.081-3.206 1.356C.631 7.394.325 9.6.325 9.6s-.319 2.588-.319 5.181v2.425c0 2.587.319 5.181.319 5.181s.313 2.206 1.269 3.175c1.219 1.275 2.819 1.231 3.531 1.369 2.563.244 10.881.319 10.881.319s6.725-.012 11.2-.331c.625-.075 1.988-.081 3.206-1.356.962-.969 1.275-3.175 1.275-3.175s.319-2.587.319-5.181v-2.425c-.006-2.588-.325-5.181-.325-5.181zM12.694 20.15v-8.994l8.644 4.513-8.644 4.481z"></path>
+                            </symbol>
+                            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="pinterest">
+                                <path d="M16 0C7.175 0 0 7.175 0 16s7.175 16 16 16 16-7.175 16-16S24.825 0 16 0zm0 29.863c-1.431 0-2.806-.219-4.106-.619.563-.919 1.412-2.431 1.725-3.631.169-.65.863-3.294.863-3.294.45.863 1.775 1.594 3.175 1.594 4.181 0 7.194-3.844 7.194-8.625 0-4.581-3.738-8.006-8.544-8.006-5.981 0-9.156 4.019-9.156 8.387 0 2.031 1.081 4.563 2.813 5.369.262.125.4.069.463-.188.044-.194.281-1.131.387-1.575a.427.427 0 00-.094-.4c-.575-.694-1.031-1.975-1.031-3.162 0-3.056 2.313-6.019 6.256-6.019 3.406 0 5.788 2.319 5.788 5.637 0 3.75-1.894 6.35-4.356 6.35-1.363 0-2.381-1.125-2.05-2.506.394-1.65 1.15-3.425 1.15-4.613 0-1.063-.569-1.95-1.756-1.95-1.394 0-2.506 1.438-2.506 3.369 0 1.225.412 2.056.412 2.056s-1.375 5.806-1.625 6.887c-.281 1.2-.169 2.881-.05 3.975-5.156-2.012-8.813-7.025-8.813-12.9 0-7.656 6.206-13.863 13.862-13.863s13.863 6.206 13.863 13.863c0 7.656-6.206 13.863-13.863 13.863z"></path>
+                            </symbol>
+                            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="tiktok">
+                                <path d="M 22.472559,-3.8146973e-6 C 23.000559,4.5408962 25.535059,7.2481962 29.941559,7.5361962 v 5.1073998 c -2.5536,0.2496 -4.7905,-0.5856 -7.3922,-2.1601 v 9.5523 c 0,12.1348 -13.2292004,15.927 -18.5478004,7.2291 -3.4177,-5.597 -1.3248,-15.4181 9.6387004,-15.8117 v 5.3857 c -0.8352,0.1344 -1.728,0.3456 -2.5441,0.6241 -2.4384004,0.8256 -3.8209004,2.3712 -3.4369004,5.0977 0.7392,5.2226 10.3204004,6.7682 9.5235004,-3.4369 V 0.00959619 h 5.2898 z" />
+                            </symbol>
+                            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="twitch">
+                                <path d="M3 0l-3 5v23h8v4h4l4-4h5l9-9v-19h-27zM26 17l-5 5h-5l-4 4v-4h-6v-18h20v13z"></path><path d="M19 8h3v8h-3v-8z"></path><path d="M13 8h3v8h-3v-8z"></path>
+                            </symbol>
+                            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="snapchat">
+                                <path d="M496.926,366.6c-3.373-9.176-9.8-14.086-17.112-18.153-1.376-.806-2.641-1.451-3.72-1.947-2.182-1.128-4.414-2.22-6.634-3.373-22.8-12.09-40.609-27.341-52.959-45.42a102.889,102.889,0,0,1-9.089-16.12c-1.054-3.013-1-4.724-.248-6.287a10.221,10.221,0,0,1,2.914-3.038c3.918-2.591,7.96-5.22,10.7-6.993,4.885-3.162,8.754-5.667,11.246-7.44,9.362-6.547,15.909-13.5,20-21.278a42.371,42.371,0,0,0,2.1-35.191c-6.2-16.318-21.613-26.449-40.287-26.449a55.543,55.543,0,0,0-11.718,1.24c-1.029.224-2.059.459-3.063.72.174-11.16-.074-22.94-1.066-34.534-3.522-40.758-17.794-62.123-32.674-79.16A130.167,130.167,0,0,0,332.1,36.443C309.515,23.547,283.91,17,256,17S202.6,23.547,180,36.443a129.735,129.735,0,0,0-33.281,26.783c-14.88,17.038-29.152,38.44-32.673,79.161-.992,11.594-1.24,23.435-1.079,34.533-1-.26-2.021-.5-3.051-.719a55.461,55.461,0,0,0-11.717-1.24c-18.687,0-34.125,10.131-40.3,26.449a42.423,42.423,0,0,0,2.046,35.228c4.105,7.774,10.652,14.731,20.014,21.278,2.48,1.736,6.361,4.24,11.246,7.44,2.641,1.711,6.5,4.216,10.28,6.72a11.054,11.054,0,0,1,3.3,3.311c.794,1.624.818,3.373-.36,6.6a102.02,102.02,0,0,1-8.94,15.785c-12.077,17.669-29.363,32.648-51.434,44.639C32.355,348.608,20.2,352.75,15.069,366.7c-3.868,10.528-1.339,22.506,8.494,32.6a49.137,49.137,0,0,0,12.4,9.387,134.337,134.337,0,0,0,30.342,12.139,20.024,20.024,0,0,1,6.126,2.741c3.583,3.137,3.075,7.861,7.849,14.78a34.468,34.468,0,0,0,8.977,9.127c10.019,6.919,21.278,7.353,33.207,7.811,10.776.41,22.989.881,36.939,5.481,5.778,1.91,11.78,5.605,18.736,9.92C194.842,480.951,217.707,495,255.973,495s61.292-14.123,78.118-24.428c6.907-4.24,12.872-7.9,18.489-9.758,13.949-4.613,26.163-5.072,36.939-5.481,11.928-.459,23.187-.893,33.206-7.812a34.584,34.584,0,0,0,10.218-11.16c3.434-5.84,3.348-9.919,6.572-12.771a18.971,18.971,0,0,1,5.753-2.629A134.893,134.893,0,0,0,476.02,408.71a48.344,48.344,0,0,0,13.019-10.193l.124-.149C498.389,388.5,500.708,376.867,496.926,366.6Zm-34.013,18.277c-20.745,11.458-34.533,10.23-45.259,17.137-9.114,5.865-3.72,18.513-10.342,23.076-8.134,5.617-32.177-.4-63.239,9.858-25.618,8.469-41.961,32.822-88.038,32.822s-62.036-24.3-88.076-32.884c-31-10.255-55.092-4.241-63.239-9.858-6.609-4.563-1.24-17.211-10.341-23.076-10.739-6.907-24.527-5.679-45.26-17.075-13.206-7.291-5.716-11.8-1.314-13.937,75.143-36.381,87.133-92.552,87.666-96.719.645-5.046,1.364-9.014-4.191-14.148-5.369-4.96-29.189-19.7-35.8-24.316-10.937-7.638-15.748-15.264-12.2-24.638,2.48-6.485,8.531-8.928,14.879-8.928a27.643,27.643,0,0,1,5.965.67c12,2.6,23.659,8.617,30.392,10.242a10.749,10.749,0,0,0,2.48.335c3.6,0,4.86-1.811,4.612-5.927-.768-13.132-2.628-38.725-.558-62.644,2.84-32.909,13.442-49.215,26.04-63.636,6.051-6.932,34.484-36.976,88.857-36.976s82.88,29.92,88.931,36.827c12.611,14.421,23.225,30.727,26.04,63.636,2.071,23.919.285,49.525-.558,62.644-.285,4.327,1.017,5.927,4.613,5.927a10.648,10.648,0,0,0,2.48-.335c6.745-1.624,18.4-7.638,30.4-10.242a27.641,27.641,0,0,1,5.964-.67c6.386,0,12.4,2.48,14.88,8.928,3.546,9.374-1.24,17-12.189,24.639-6.609,4.612-30.429,19.343-35.8,24.315-5.568,5.134-4.836,9.1-4.191,14.149.533,4.228,12.511,60.4,87.666,96.718C468.629,373.011,476.119,377.524,462.913,384.877Z"/>
+                            </symbol>
+                            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" id="threads">
+                                <path d="M141.537 88.9883C140.71 88.5919 139.87 88.2104 139.019 87.8451C137.537 60.5382 122.616 44.905 97.5619 44.745C97.4484 44.7443 97.3355 44.7443 97.222 44.7443C82.2364 44.7443 69.7731 51.1409 62.102 62.7807L75.881 72.2328C81.6116 63.5383 90.6052 61.6848 97.2286 61.6848C97.3051 61.6848 97.3819 61.6848 97.4576 61.6855C105.707 61.7381 111.932 64.1366 115.961 68.814C118.893 72.2193 120.854 76.925 121.825 82.8638C114.511 81.6207 106.601 81.2385 98.145 81.7233C74.3247 83.0954 59.0111 96.9879 60.0396 116.292C60.5615 126.084 65.4397 134.508 73.775 140.011C80.8224 144.663 89.899 146.938 99.3323 146.423C111.79 145.74 121.563 140.987 128.381 132.296C133.559 125.696 136.834 117.143 138.28 106.366C144.217 109.949 148.617 114.664 151.047 120.332C155.179 129.967 155.42 145.8 142.501 158.708C131.182 170.016 117.576 174.908 97.0135 175.059C74.2042 174.89 56.9538 167.575 45.7381 153.317C35.2355 139.966 29.8077 120.682 29.6052 96C29.8077 71.3178 35.2355 52.0336 45.7381 38.6827C56.9538 24.4249 74.2039 17.11 97.0132 16.9405C119.988 17.1113 137.539 24.4614 149.184 38.788C154.894 45.8136 159.199 54.6488 162.037 64.9503L178.184 60.6422C174.744 47.9622 169.331 37.0357 161.965 27.974C147.036 9.60668 125.202 0.195148 97.0695 0H96.9569C68.8816 0.19447 47.2921 9.6418 32.7883 28.0793C19.8819 44.4864 13.2244 67.3157 13.0007 95.9325L13 96L13.0007 96.0675C13.2244 124.684 19.8819 147.514 32.7883 163.921C47.2921 182.358 68.8816 191.806 96.9569 192H97.0695C122.03 191.827 139.624 185.292 154.118 170.811C173.081 151.866 172.51 128.119 166.26 113.541C161.776 103.087 153.227 94.5962 141.537 88.9883ZM98.4405 129.507C88.0005 130.095 77.1544 125.409 76.6196 115.372C76.2232 107.93 81.9158 99.626 99.0812 98.6368C101.047 98.5234 102.976 98.468 104.871 98.468C111.106 98.468 116.939 99.0737 122.242 100.233C120.264 124.935 108.662 128.946 98.4405 129.507Z" />
+                            </symbol>
+                            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" id="podcast">
+                                <path d="M336 192h-16c-8.84 0-16 7.16-16 16v48c0 74.8-64.49 134.82-140.79 127.38C96.71 376.89 48 317.11 48 250.3V208c0-8.84-7.16-16-16-16H16c-8.84 0-16 7.16-16 16v40.16c0 89.64 63.97 169.55 152 181.69V464H96c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16h-56v-33.77C285.71 418.47 352 344.9 352 256v-48c0-8.84-7.16-16-16-16zM176 352c53.02 0 96-42.98 96-96h-85.33c-5.89 0-10.67-3.58-10.67-8v-16c0-4.42 4.78-8 10.67-8H272v-32h-85.33c-5.89 0-10.67-3.58-10.67-8v-16c0-4.42 4.78-8 10.67-8H272v-32h-85.33c-5.89 0-10.67-3.58-10.67-8v-16c0-4.42 4.78-8 10.67-8H272c0-53.02-42.98-96-96-96S80 42.98 80 96v160c0 53.02 42.98 96 96 96z"/>
+                            </symbol>
+                            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="envelope">
+                                <path d="M29 4h-26c-1.65 0-3 1.35-3 3v20c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-20c0-1.65-1.35-3-3-3zM12.461 17.199l-8.461 6.59v-15.676l8.461 9.086zM5.512 8h20.976l-10.488 7.875-10.488-7.875zM12.79 17.553l3.21 3.447 3.21-3.447 6.58 8.447h-19.579l6.58-8.447zM19.539 17.199l8.461-9.086v15.676l-8.461-6.59z"></path>
+                            </symbol>
+                                                                                    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="revue">
+                                <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/>
+                            </symbol>
+                                                    </svg>
+                        <a href="http://www.facebook.com/OfficialFoodRepublic" target="_blank" title="Facebook" aria-label="Facebook"><svg class="icon"><use xlink:href="#facebook"></use></svg></a><a href="https://www.instagram.com/foodrepublic" target="_blank" title="Instagram" aria-label="Instagram"><svg class="icon"><use xlink:href="#instagram"></use></svg></a><a href="https://www.threads.net/@foodrepublic" target="_blank" title="Threads" aria-label="Threads"><svg class="icon"><use xlink:href="#threads"></use></svg></a><a href="/feed/" target="_blank" title="RSS" aria-label="RSS"><svg class="icon"><use xlink:href="#rss"></use></svg></a>                    </nav>
 
-<div class="ng-isolate-scope" share="" context="menu" social-id="menu" links="{'facebook':{'link':'https:\/\/www.facebook.com\/F.Republic','name':'Facebook'},'twitter':{'link':'https:\/\/twitter.com\/foodrepublic','name':'Twitter'},'instagram':{'link':'https:\/\/instagram.com\/foodrepublic\/','name':'Instagram'},'googleplus':{'link':'https:\/\/plus.google.com\/+FoodRepublic\/posts','name':'Google Plus'}}"><div class="menu" ng-class="{open: vm.active}" ng-click="vm.trackStatus()"><!-- ngIf: 'archive' === vm.context --><!-- ngIf: 'archive' === vm.context --><div class="social-nav"><!-- ngIf: 'footer' === vm.context --><!-- ngIf: 'header' === vm.context --><ul class="pushable"><div class="social-expand-wrapper" ng-class="{open: vm.active}"><!-- ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://www.facebook.com/F.Republic" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://www.facebook.com/F.Republic"><span class="icon-facebook"></span> <span class="text ng-binding">Facebook</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://twitter.com/foodrepublic" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://twitter.com/foodrepublic"><span class="icon-twitter"></span> <span class="text ng-binding">Twitter</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://instagram.com/foodrepublic/" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://instagram.com/foodrepublic/"><span class="icon-instagram"></span> <span class="text ng-binding">Instagram</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://plus.google.com/+FoodRepublic/posts" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://plus.google.com/+FoodRepublic/posts"><span class="icon-googleplus"></span> <span class="text ng-binding">Google Plus</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><!-- ngIf: 'footer' === vm.context --></div><!-- ngIf: 'single' === vm.context || 'slideshow' === vm.context --></ul></div></div></div>
-	<span class="menu-newsletter" ng-click="vm.toggleNewsletter()">
-		<span class="icon-fr-mail"></span>
-		<span class="text">Get The Latest!</span>
-	</span>
-</nav>
-
-		<div scroll-watch="" id="page" class="hfeed site pushable ng-scope" ng-class="vm.menu">
-
-
-<div class="ad banner desktop">
-	<div id="div-gpt-ad-Desktop_Leaderboard_728x90_970x90_970x400_970x200" class="dfp-ad dfp-Desktop_Leaderboard_728x90_970x90_970x400_970x200">
-<div class="ad-wrapper">
-	<script type="text/javascript">
-		if ( typeof googletag != 'undefined' ) {
-		googletag.cmd.push(function() { googletag.display("div-gpt-ad-Desktop_Leaderboard_728x90_970x90_970x400_970x200"); });
-		}
-	</script>
-</div>
-</div>
-</div>
-
-<div class="ad banner mobile">
-	<div id="div-gpt-ad-Mobile_320x50" class="dfp-ad dfp-Mobile_320x50">
-<div class="ad-wrapper">
-	<script type="text/javascript">
-		if ( typeof googletag != 'undefined' ) {
-		googletag.cmd.push(function() { googletag.display("div-gpt-ad-Mobile_320x50"); });
-		}
-	</script>
-</div>
-</div>
-</div>
-			<header style="top: 0px; position: fixed;" scroll-target="" id="masthead" class="site-header ng-scope stuck pushable" role="banner" group="header" stick-stack="2" ng-class="[vm.targetClass, vm.menu]">
-				<div class="header-container">
-					<button class="menu-toggle icon-hamburger" aria-controls="menu" aria-expanded="false" ng-click="vm.menu = vm.toggleMenu()"><span>Primary Menu</span></button>
-					<div class="branding">
-												<div class="site-title">
-							<a href="http://www.foodrepublic.com/" rel="home">
-								<svg class="fr-logo-large" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106 106" enable-background="new 0 0 106 106" xml:space="preserve">
-<g>
-	<path d="M51.2,0.6c1-1.2,2.7-1.2,3.7,0L57.5,3c1.4,0.7,3.7,1.1,5.3,0.7l3.3-1.6c1.3-0.8,2.9-0.4,3.5,1l1.9,3.1
-		c1.1,1.1,3.3,2.1,4.8,2.2l3.6-0.6c1.5-0.4,2.9,0.4,3.1,2l0.9,3.5c0.7,1.4,2.6,2.9,4,3.4l3.6,0.4c1.6,0,2.6,1.2,2.4,2.8l-0.1,3.6
-		c0.3,1.5,1.6,3.5,2.9,4.4l3.4,1.4c1.5,0.4,2.2,1.9,1.5,3.3l-1.1,3.4c-0.1,1.5,0.6,3.8,1.5,5l2.8,2.3c1.3,0.8,1.6,2.4,0.5,3.6
-		l-2.1,3c-0.5,1.4-0.5,3.8,0,5.3l2.1,3c1,1.2,0.8,2.8-0.5,3.6l-2.8,2.3c-0.9,1.2-1.6,3.5-1.5,5l1.1,3.4c0.7,1.4,0,2.9-1.5,3.3
-		l-3.4,1.4c-1.2,0.9-2.5,2.9-2.9,4.4l0.1,3.6c0.2,1.5-0.9,2.8-2.4,2.8l-3.6,0.4c-1.5,0.5-3.3,2.1-4,3.4L83,95.6
-		c-0.2,1.5-1.6,2.4-3.1,2l-3.6-0.6c-1.6,0.1-3.7,1.1-4.8,2.2l-1.9,3.1c-0.6,1.4-2.2,1.9-3.5,1l-3.3-1.6c-1.5-0.3-3.9,0-5.3,0.7
-		l-2.7,2.4c-1,1.2-2.7,1.2-3.7,0l-2.7-2.4c-1.4-0.7-3.7-1.1-5.3-0.7l-3.3,1.6c-1.3,0.8-2.9,0.4-3.5-1l-1.9-3.1
-		c-1.1-1.1-3.3-2.1-4.8-2.2l-3.6,0.6c-1.5,0.4-2.9-0.4-3.1-2l-0.9-3.5c-0.7-1.4-2.6-2.9-4-3.4l-3.6-0.4c-1.6,0-2.6-1.2-2.4-2.8
-		l0.1-3.6c-0.3-1.5-1.6-3.5-2.9-4.4L5.9,76c-1.5-0.4-2.2-1.9-1.5-3.3l1.1-3.4c0.1-1.5-0.6-3.8-1.5-5l-2.8-2.3
-		c-1.3-0.8-1.6-2.4-0.5-3.6l2.1-3c0.5-1.4,0.5-3.8,0-5.3l-2.1-3c-1-1.2-0.8-2.8,0.5-3.6L4,41.2c0.9-1.2,1.6-3.5,1.5-5l-1.1-3.4
-		c-0.7-1.4,0-2.9,1.5-3.3L9.2,28c1.2-0.9,2.5-2.9,2.9-4.4L12,19.9c-0.2-1.5,0.9-2.8,2.4-2.8l3.6-0.4c1.5-0.5,3.3-2.1,4-3.4L23,9.8
-		c0.2-1.5,1.6-2.4,3.1-2l3.6,0.6c1.6-0.1,3.7-1.1,4.8-2.2l1.9-3.1c0.6-1.4,2.2-1.9,3.5-1l3.3,1.6c1.5,0.3,3.9,0,5.3-0.7L51.2,0.6z"></path>
-	<g>
-		<path fill="#FFFFFF" d="M35.2,41H42v1.5h-5.2v3.1h4.4V47h-4.4v4.5h-1.6V41z"></path>
-		<path fill="#FFFFFF" d="M43.7,42.8c0.5-0.9,1.7-1.9,3.3-1.9c1.7,0,2.8,1,3.3,1.9c0.3,0.6,0.5,0.9,0.5,3.4c0,2.5-0.1,2.8-0.5,3.4
-			c-0.5,0.9-1.7,1.9-3.3,1.9c-1.7,0-2.8-1-3.3-1.9c-0.3-0.6-0.5-0.9-0.5-3.4C43.3,43.7,43.4,43.4,43.7,42.8z M45.4,49.2
-			c0.3,0.4,0.9,0.8,1.6,0.8c0.8,0,1.3-0.4,1.6-0.8c0.4-0.5,0.5-0.8,0.5-3c0-2.2-0.1-2.4-0.5-3c-0.3-0.4-0.9-0.8-1.6-0.8
-			c-0.8,0-1.3,0.4-1.6,0.8c-0.4,0.5-0.5,0.8-0.5,3C44.9,48.4,45,48.7,45.4,49.2z"></path>
-		<path fill="#FFFFFF" d="M53.2,42.8c0.5-0.9,1.7-1.9,3.3-1.9c1.7,0,2.8,1,3.3,1.9c0.3,0.6,0.5,0.9,0.5,3.4c0,2.5-0.1,2.8-0.5,3.4
-			c-0.5,0.9-1.7,1.9-3.3,1.9c-1.7,0-2.8-1-3.3-1.9c-0.3-0.6-0.5-0.9-0.5-3.4C52.7,43.7,52.8,43.4,53.2,42.8z M54.8,49.2
-			c0.3,0.4,0.9,0.8,1.6,0.8c0.8,0,1.3-0.4,1.6-0.8c0.4-0.5,0.5-0.8,0.5-3c0-2.2-0.1-2.4-0.5-3c-0.3-0.4-0.9-0.8-1.6-0.8
-			c-0.8,0-1.3,0.4-1.6,0.8c-0.4,0.5-0.5,0.8-0.5,3C54.3,48.4,54.4,48.7,54.8,49.2z"></path>
-		<path fill="#FFFFFF" d="M62.5,41h3.7c1.4,0,2.5,0.6,3.2,1.8C70,43.6,70,44,70,46.2c0,2.4-0.1,2.8-0.6,3.5c-0.6,1-1.7,1.7-3.3,1.7
-			h-3.6V41z M64.1,49.9H66c0.9,0,1.5-0.3,2-0.9c0.4-0.5,0.4-0.8,0.4-2.8c0-1.9,0-2.3-0.5-2.9c-0.5-0.7-1-0.9-1.9-0.9h-1.9V49.9z"></path>
-		<path fill="#FFFFFF" d="M19.7,53.6h4.1c0.9,0,1.6,0.2,2.2,0.7c0.6,0.5,1.1,1.3,1.1,2.2c0,1.4-0.8,2.5-2.1,2.9l2.5,4.7h-1.9
-			l-2.2-4.5h-2.1v4.5h-1.6V53.6z M21.4,58.2h2.4c1.2,0,1.8-0.8,1.8-1.7c0-0.5-0.2-1-0.5-1.2c-0.3-0.2-0.6-0.3-1.2-0.3h-2.5V58.2z"></path>
-		<path fill="#FFFFFF" d="M29.2,53.6H36v1.5h-5.2v3h4.4v1.4h-4.4v3.1H36v1.5h-6.8V53.6z"></path>
-		<path fill="#FFFFFF" d="M37.8,53.6h3.8c0.8,0,1.6,0.1,2.4,0.7c0.6,0.5,1.1,1.4,1.1,2.5c0,1.5-1.1,3.2-3.3,3.2h-2.4v4.1h-1.6V53.6z
-			 M39.5,58.5h2.4c1.2,0,1.8-0.9,1.8-1.7c0-0.7-0.3-1.1-0.7-1.4c-0.4-0.2-0.7-0.3-1.1-0.3h-2.3V58.5z"></path>
-		<path fill="#FFFFFF" d="M46.9,53.6h1.6v6.8c0,1.4,0.9,2.2,2.2,2.2c1.2,0,2.2-0.8,2.2-2.2v-6.8h1.6v6.9c0,2.2-1.7,3.6-3.8,3.6
-			c-2.1,0-3.8-1.5-3.8-3.6V53.6z"></path>
-		<path fill="#FFFFFF" d="M56.8,53.6h4.1c2.1,0,3.1,1.2,3.1,2.8c0,0.9-0.3,1.7-1.6,2.3v0c1.2,0.3,1.7,1.4,1.7,2.4c0,1.8-1.4,3-2.9,3
-			h-4.5V53.6z M58.4,55v3h2.3c1.2,0,1.7-0.7,1.7-1.5c0-0.8-0.6-1.5-1.7-1.5H58.4z M58.4,59.4v3.2h2.5c1.2,0,1.7-0.8,1.7-1.6
-			c0-0.8-0.5-1.6-1.7-1.6H58.4z"></path>
-		<path fill="#FFFFFF" d="M66.2,53.6h1.6v9H73v1.5h-6.8V53.6z"></path>
-		<path fill="#FFFFFF" d="M74.9,53.6h1.6v10.5h-1.6V53.6z"></path>
-		<path fill="#FFFFFF" d="M86.3,61.2c-0.4,2-1.9,3-3.7,3c-1.7,0-2.8-1-3.3-1.9c-0.3-0.6-0.5-0.9-0.5-3.4c0-2.5,0.1-2.8,0.5-3.4
-			c0.5-0.9,1.7-1.9,3.3-1.9c2,0,3.4,1.4,3.7,3.1h-1.7c-0.3-0.8-1-1.5-2-1.5c-0.8,0-1.3,0.4-1.6,0.8c-0.4,0.5-0.5,0.8-0.5,3
-			c0,2.2,0.1,2.4,0.5,3c0.3,0.4,0.9,0.8,1.6,0.8c0.9,0,1.6-0.5,2-1.4H86.3z"></path>
-	</g>
-	<g>
-		<path fill="#FFFFFF" d="M40,70.4h3.2v0.7h-2.5v1.4h2.1v0.7h-2.1v1.5h2.5v0.7H40V70.4z"></path>
-		<path fill="#FFFFFF" d="M44,74.2c0.4,0.3,0.9,0.5,1.4,0.5c0.6,0,1-0.3,1-0.7c0-0.4-0.2-0.6-0.7-0.7c-0.2,0-0.4-0.1-0.7-0.1
-			c-0.9-0.1-1.3-0.7-1.3-1.4c0-0.9,0.6-1.5,1.6-1.5c0.6,0,1.2,0.2,1.6,0.5l-0.4,0.6c-0.4-0.2-0.8-0.4-1.2-0.4
-			c-0.5,0-0.8,0.2-0.8,0.7c0,0.3,0.2,0.6,0.7,0.6c0.1,0,0.3,0,0.6,0.1c0.9,0.1,1.4,0.8,1.4,1.4c0,0.9-0.7,1.5-1.8,1.5
-			c-0.7,0-1.4-0.2-1.9-0.7L44,74.2z"></path>
-		<path fill="#FFFFFF" d="M48.8,71.1h-1.4v-0.7H51v0.7h-1.4v4.3h-0.8V71.1z"></path>
-		<path fill="#FFFFFF" d="M52.9,74.8l2-2.4c0.2-0.2,0.2-0.4,0.2-0.5c0-0.4-0.3-0.7-0.7-0.7c-0.4,0-0.7,0.3-0.7,0.7h-0.7
-			c0-0.8,0.6-1.4,1.4-1.4c0.8,0,1.5,0.6,1.5,1.4c0,0.3-0.1,0.6-0.3,0.9l-1.6,2h1.9v0.7h-2.9V74.8z"></path>
-		<path fill="#FFFFFF" d="M56.4,71.8c0-0.9,0.7-1.4,1.4-1.4c0.7,0,1.4,0.5,1.4,1.4V74c0,0.9-0.7,1.4-1.4,1.4c-0.7,0-1.4-0.5-1.4-1.4
-			V71.8z M58.5,71.9c0-0.5-0.3-0.8-0.7-0.8c-0.4,0-0.7,0.3-0.7,0.8V74c0,0.5,0.3,0.8,0.7,0.8c0.4,0,0.7-0.3,0.7-0.8V71.9z"></path>
-		<path fill="#FFFFFF" d="M60.9,71.2l-0.7,0.5V71l0.7-0.5h0.7v5h-0.7V71.2z"></path>
-		<path fill="#FFFFFF" d="M63.2,71.8c0-0.9,0.7-1.4,1.4-1.4c0.7,0,1.4,0.5,1.4,1.4V74c0,0.9-0.7,1.4-1.4,1.4c-0.7,0-1.4-0.5-1.4-1.4
-			V71.8z M65.3,71.9c0-0.5-0.3-0.8-0.7-0.8c-0.4,0-0.7,0.3-0.7,0.8V74c0,0.5,0.3,0.8,0.7,0.8c0.4,0,0.7-0.3,0.7-0.8V71.9z"></path>
-	</g>
-	<polygon fill="#FFFFFF" points="43.2,26.2 44,29.4 47.4,29.2 44.6,31 45.8,34.1 43.2,32 40.6,34.1 41.8,31 39,29.2 42.3,29.4 	"></polygon>
-	<polygon fill="#FFFFFF" points="53.4,26.2 54.3,29.4 57.6,29.2 54.8,31 56,34.1 53.4,32 50.8,34.1 52,31 49.2,29.2 52.6,29.4 	"></polygon>
-	<polygon fill="#FFFFFF" points="62.8,26.2 63.7,29.4 67,29.2 64.2,31 65.4,34.1 62.8,32 60.2,34.1 61.4,31 58.6,29.2 62,29.4 	"></polygon>
-	<path fill="#FFFFFF" d="M53,97.4c-12.1,0-23.4-4.7-31.9-13.1C12.5,75.9,7.8,64.6,7.8,52.7c0-11.9,4.7-23.2,13.2-31.6S40.9,8,53,8
-		c12.1,0,23.4,4.7,31.9,13.1c8.5,8.4,13.2,19.7,13.2,31.6c0,11.9-4.7,23.2-13.2,31.6S65.1,97.4,53,97.4z M53,9.4
-		c-11.7,0-22.7,4.5-30.9,12.7S9.2,41.1,9.2,52.7c0,11.6,4.6,22.5,12.8,30.6C30.3,91.5,41.3,96,53,96c11.7,0,22.7-4.5,30.9-12.7
-		c8.3-8.2,12.8-19.1,12.8-30.6c0-11.6-4.6-22.5-12.8-30.6C75.7,13.9,64.7,9.4,53,9.4z"></path>
-</g>
-</svg>
-								<span class="icon-fr-logo"></span>
-							</a>
-						</div>
-					</div><!-- .fr-branding -->
-
-					<div class="main-menu"><ul id="menu-site-wide-navigation-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48299"><a href="http://www.foodrepublic.com/">Home</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-section current-recipe-ancestor current-menu-parent current-recipe-parent menu-item-48308"><a href="http://www.foodrepublic.com/section/food/">Food</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-section menu-item-48311"><a href="http://www.foodrepublic.com/section/drink/">Drink</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-section menu-item-48310"><a href="http://www.foodrepublic.com/section/travel/">Travel</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-section menu-item-48309"><a href="http://www.foodrepublic.com/section/people/">People</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-section menu-item-48312"><a href="http://www.foodrepublic.com/section/design/">Design</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-113718"><a href="http://www.foodrepublic.com/recipes/">Recipes</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-113719"><a href="http://www.foodrepublic.com/videos/">Video</a></li>
-</ul></div>					<div class="header-right">
-						<div header-search="" class="header-search ng-scope">
-							<form role="search" method="get" class="search-form ng-pristine ng-valid" action="http://www.foodrepublic.com/">
-	<label><span class="screen-reader-text">Search for:</span></label>
-	<div class="search-input-wrapper">
-		<input class="search-field" placeholder="Search" name="s" title="Search for:" type="search">
-	</div>
-	<span class="icon-search" ng-click="vm.toggleSearch()"></span>
-	<input class="search-submit" value="" type="submit">
-</form>
-						</div>
-						<div class="newsletter-prompt" ng-click="vm.toggleNewsletter()">
-							<svg class="get-the-latest" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 88 16" enable-background="new 0 0 88 16" xml:space="preserve">
-<polygon fill="#BBBBBB" points="88,16 1,16 4.9,8 1,0 88,0 "></polygon>
-<g>
-	<path fill="#FFFFFF" d="M14.1,11.3c0.3,0,0.6,0,0.9-0.1c0.2-0.1,0.5-0.1,0.7-0.3l0.2-1.7h-1c-0.1,0-0.2,0-0.2-0.1
-		c-0.1,0-0.1-0.1-0.1-0.2l0.1-0.9h2.7L17,11.6c-0.4,0.3-0.9,0.6-1.4,0.7c-0.5,0.2-1.1,0.2-1.7,0.2c-0.5,0-1-0.1-1.4-0.3
-		c-0.4-0.2-0.8-0.5-1.1-0.8s-0.5-0.7-0.7-1.2c-0.2-0.5-0.3-1-0.3-1.5c0-0.5,0.1-1,0.2-1.4s0.3-0.8,0.5-1.2c0.2-0.4,0.4-0.7,0.7-1
-		c0.3-0.3,0.6-0.6,0.9-0.8c0.3-0.2,0.7-0.4,1.1-0.5s0.8-0.2,1.3-0.2c0.4,0,0.7,0,1,0.1c0.3,0.1,0.5,0.1,0.8,0.3
-		c0.2,0.1,0.4,0.2,0.6,0.4s0.3,0.3,0.5,0.5l-0.5,0.6c-0.1,0.1-0.2,0.2-0.4,0.2c-0.1,0-0.2,0-0.3-0.1c-0.1-0.1-0.3-0.2-0.4-0.2
-		c-0.1-0.1-0.3-0.1-0.4-0.2c-0.1-0.1-0.3-0.1-0.5-0.1c-0.2,0-0.4,0-0.6,0c-0.4,0-0.8,0.1-1.2,0.3C13.3,5.4,13,5.7,12.7,6
-		c-0.3,0.3-0.5,0.7-0.6,1.1c-0.1,0.4-0.2,0.9-0.2,1.5c0,0.4,0.1,0.8,0.2,1.1c0.1,0.3,0.3,0.6,0.4,0.8c0.2,0.2,0.4,0.4,0.7,0.5
-		S13.8,11.3,14.1,11.3z"></path>
-	<path fill="#FFFFFF" d="M23.4,7.7c0,0.3-0.1,0.5-0.2,0.8c-0.1,0.2-0.3,0.4-0.6,0.6c-0.3,0.2-0.7,0.3-1.2,0.5
-		c-0.5,0.1-1.1,0.2-1.9,0.3v0.1c0,1,0.4,1.5,1.2,1.5c0.2,0,0.3,0,0.5-0.1c0.1,0,0.3-0.1,0.4-0.1s0.2-0.1,0.3-0.2
-		c0.1-0.1,0.2-0.1,0.2-0.2c0.1,0,0.1-0.1,0.2-0.1c0.1,0,0.1-0.1,0.2-0.1c0,0,0.1,0,0.1,0c0,0,0.1,0.1,0.1,0.1l0.4,0.5
-		c-0.2,0.2-0.4,0.4-0.6,0.6c-0.2,0.2-0.4,0.3-0.6,0.4s-0.4,0.2-0.7,0.2c-0.2,0-0.5,0.1-0.8,0.1c-0.4,0-0.7-0.1-1-0.2
-		c-0.3-0.1-0.5-0.3-0.8-0.5c-0.2-0.2-0.4-0.5-0.5-0.8c-0.1-0.3-0.2-0.7-0.2-1.1c0-0.3,0-0.6,0.1-1s0.2-0.6,0.3-0.9
-		c0.1-0.3,0.3-0.5,0.5-0.8c0.2-0.2,0.4-0.4,0.7-0.6c0.2-0.2,0.5-0.3,0.8-0.4c0.3-0.1,0.6-0.1,0.9-0.1c0.3,0,0.6,0,0.8,0.1
-		c0.2,0.1,0.4,0.2,0.6,0.4s0.3,0.3,0.4,0.5C23.3,7.3,23.4,7.5,23.4,7.7z M21.3,7.2c-0.2,0-0.4,0-0.6,0.1c-0.2,0.1-0.3,0.2-0.5,0.3
-		C20.2,7.8,20.1,8,20,8.2s-0.2,0.4-0.2,0.7c0.5-0.1,0.9-0.1,1.2-0.2c0.3-0.1,0.5-0.2,0.7-0.3s0.3-0.2,0.3-0.3C22,8,22,7.9,22,7.7
-		c0-0.1,0-0.1,0-0.2s-0.1-0.1-0.1-0.2c-0.1-0.1-0.1-0.1-0.2-0.1C21.6,7.2,21.5,7.2,21.3,7.2z"></path>
-	<path fill="#FFFFFF" d="M24.4,11.2C24.4,11.1,24.4,11.1,24.4,11.2c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0-0.3s0-0.3,0.1-0.5l0.3-2.8h-0.6
-		c-0.1,0-0.1,0-0.2-0.1c0,0-0.1-0.1-0.1-0.2c0,0,0,0,0,0c0,0,0,0,0-0.1s0-0.1,0-0.2s0-0.2,0-0.4L25,6.3l0.5-1.7
-		c0-0.1,0.1-0.1,0.1-0.2c0.1,0,0.1-0.1,0.2-0.1h0.8l-0.2,1.9h1.5l-0.1,1.1h-1.5L26,10c0,0.2,0,0.3,0,0.4c0,0.1,0,0.2,0,0.2
-		c0,0.1,0,0.1,0,0.1c0,0,0,0,0,0c0,0.2,0,0.3,0.1,0.4c0.1,0.1,0.2,0.1,0.3,0.1c0.1,0,0.2,0,0.2,0c0.1,0,0.1,0,0.2-0.1s0.1,0,0.1-0.1
-		c0,0,0.1,0,0.1,0c0,0,0.1,0,0.1,0c0,0,0,0.1,0.1,0.1l0.3,0.7c-0.2,0.2-0.5,0.3-0.7,0.4s-0.5,0.1-0.8,0.1c-0.4,0-0.8-0.1-1-0.4
-		C24.6,11.9,24.4,11.6,24.4,11.2z"></path>
-	<path fill="#FFFFFF" d="M31,11.2C31,11.1,31,11.1,31,11.2c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0-0.3s0-0.3,0.1-0.5l0.3-2.8h-0.6
-		c-0.1,0-0.1,0-0.2-0.1c0,0-0.1-0.1-0.1-0.2c0,0,0,0,0,0c0,0,0,0,0-0.1s0-0.1,0-0.2s0-0.2,0-0.4l0.9-0.2l0.5-1.7
-		c0-0.1,0.1-0.1,0.1-0.2c0.1,0,0.1-0.1,0.2-0.1h0.8L33,6.3h1.5l-0.1,1.1h-1.5L32.5,10c0,0.2,0,0.3,0,0.4c0,0.1,0,0.2,0,0.2
-		c0,0.1,0,0.1,0,0.1c0,0,0,0,0,0c0,0.2,0,0.3,0.1,0.4c0.1,0.1,0.2,0.1,0.3,0.1c0.1,0,0.2,0,0.2,0c0.1,0,0.1,0,0.2-0.1s0.1,0,0.1-0.1
-		c0,0,0.1,0,0.1,0c0,0,0.1,0,0.1,0c0,0,0,0.1,0.1,0.1L34,12c-0.2,0.2-0.5,0.3-0.7,0.4s-0.5,0.1-0.8,0.1c-0.4,0-0.8-0.1-1-0.4
-		C31.1,11.9,31,11.6,31,11.2z"></path>
-	<path fill="#FFFFFF" d="M34.7,12.4l1.1-8.9h1.5l-0.5,3.8c0.3-0.4,0.6-0.7,1-0.9c0.4-0.2,0.7-0.3,1.1-0.3c0.2,0,0.4,0,0.6,0.1
-		c0.2,0.1,0.3,0.2,0.5,0.4c0.1,0.2,0.2,0.4,0.3,0.6c0.1,0.2,0.1,0.5,0.1,0.8c0,0.1,0,0.2,0,0.2c0,0.1,0,0.2,0,0.2l-0.5,3.9h-1.5
-		l0.5-3.9c0-0.1,0-0.1,0-0.2s0-0.1,0-0.2c0-0.3,0-0.5-0.1-0.6c-0.1-0.1-0.3-0.2-0.5-0.2c-0.2,0-0.3,0-0.5,0.1s-0.3,0.2-0.5,0.4
-		C37.2,8,37,8.2,36.9,8.4c-0.1,0.2-0.2,0.5-0.3,0.8l-0.4,3.2H34.7z"></path>
-	<path fill="#FFFFFF" d="M46.4,7.7c0,0.3-0.1,0.5-0.2,0.8c-0.1,0.2-0.3,0.4-0.6,0.6c-0.3,0.2-0.7,0.3-1.2,0.5
-		c-0.5,0.1-1.1,0.2-1.9,0.3v0.1c0,1,0.4,1.5,1.2,1.5c0.2,0,0.3,0,0.5-0.1c0.1,0,0.3-0.1,0.4-0.1s0.2-0.1,0.3-0.2
-		c0.1-0.1,0.2-0.1,0.2-0.2c0.1,0,0.1-0.1,0.2-0.1c0.1,0,0.1-0.1,0.2-0.1c0,0,0.1,0,0.1,0c0,0,0.1,0.1,0.1,0.1l0.4,0.5
-		c-0.2,0.2-0.4,0.4-0.6,0.6c-0.2,0.2-0.4,0.3-0.6,0.4s-0.4,0.2-0.7,0.2c-0.2,0-0.5,0.1-0.8,0.1c-0.4,0-0.7-0.1-1-0.2
-		c-0.3-0.1-0.5-0.3-0.8-0.5c-0.2-0.2-0.4-0.5-0.5-0.8c-0.1-0.3-0.2-0.7-0.2-1.1c0-0.3,0-0.6,0.1-1s0.2-0.6,0.3-0.9
-		c0.1-0.3,0.3-0.5,0.5-0.8c0.2-0.2,0.4-0.4,0.7-0.6c0.2-0.2,0.5-0.3,0.8-0.4c0.3-0.1,0.6-0.1,0.9-0.1c0.3,0,0.6,0,0.8,0.1
-		c0.2,0.1,0.4,0.2,0.6,0.4s0.3,0.3,0.4,0.5C46.3,7.3,46.4,7.5,46.4,7.7z M44.3,7.2c-0.2,0-0.4,0-0.6,0.1c-0.2,0.1-0.3,0.2-0.5,0.3
-		C43.2,7.8,43.1,8,43,8.2s-0.2,0.4-0.2,0.7c0.5-0.1,0.9-0.1,1.2-0.2c0.3-0.1,0.5-0.2,0.7-0.3s0.3-0.2,0.3-0.3C45,8,45,7.9,45,7.7
-		c0-0.1,0-0.1,0-0.2s-0.1-0.1-0.1-0.2c-0.1-0.1-0.1-0.1-0.2-0.1C44.6,7.2,44.5,7.2,44.3,7.2z"></path>
-	<path fill="#FFFFFF" d="M51,11.1h3.2L54,12.4h-4.7l1.1-8.7h1.6L51,11.1z"></path>
-	<path fill="#FFFFFF" d="M59.7,12.4h-0.8c-0.2,0-0.3,0-0.4-0.1c-0.1-0.1-0.1-0.2-0.1-0.3l0-0.8c-0.3,0.4-0.6,0.8-0.9,1
-		c-0.3,0.2-0.7,0.4-1.1,0.4c-0.2,0-0.4,0-0.7-0.1c-0.2-0.1-0.4-0.2-0.5-0.4c-0.1-0.2-0.3-0.4-0.4-0.7c-0.1-0.3-0.1-0.6-0.1-1
-		s0-0.7,0.1-1.1c0.1-0.3,0.2-0.7,0.4-1c0.2-0.3,0.4-0.6,0.6-0.8c0.2-0.3,0.5-0.5,0.8-0.7c0.3-0.2,0.6-0.3,1-0.4
-		c0.3-0.1,0.7-0.2,1.1-0.2c0.3,0,0.6,0,0.8,0.1c0.3,0,0.6,0.1,0.8,0.2L59.7,12.4z M57,11.3c0.2,0,0.3-0.1,0.5-0.2
-		c0.2-0.1,0.3-0.3,0.4-0.5c0.1-0.2,0.3-0.4,0.4-0.7c0.1-0.3,0.2-0.6,0.3-0.9l0.2-1.9c-0.1,0-0.2,0-0.3,0c-0.3,0-0.6,0.1-0.9,0.2
-		c-0.3,0.2-0.5,0.4-0.7,0.6S56.6,8.6,56.4,9c-0.1,0.3-0.2,0.7-0.2,1.1c0,0.4,0.1,0.7,0.2,0.9C56.6,11.2,56.8,11.3,57,11.3z"></path>
-	<path fill="#FFFFFF" d="M61.7,11.2C61.7,11.1,61.7,11.1,61.7,11.2c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0-0.3s0-0.3,0.1-0.5l0.3-2.8h-0.6
-		c-0.1,0-0.1,0-0.2-0.1s-0.1-0.1-0.1-0.2c0,0,0,0,0,0c0,0,0,0,0-0.1c0,0,0-0.1,0-0.2s0-0.2,0-0.4l0.9-0.2l0.5-1.7
-		c0-0.1,0.1-0.1,0.1-0.2c0.1,0,0.1-0.1,0.2-0.1h0.8l-0.2,1.9h1.5L65,7.4h-1.5L63.2,10c0,0.2,0,0.3,0,0.4c0,0.1,0,0.2,0,0.2
-		c0,0.1,0,0.1,0,0.1c0,0,0,0,0,0c0,0.2,0,0.3,0.1,0.4s0.2,0.1,0.3,0.1c0.1,0,0.2,0,0.2,0c0.1,0,0.1,0,0.2-0.1c0,0,0.1,0,0.1-0.1
-		c0,0,0.1,0,0.1,0c0,0,0.1,0,0.1,0c0,0,0,0.1,0.1,0.1l0.3,0.7c-0.2,0.2-0.5,0.3-0.7,0.4s-0.5,0.1-0.8,0.1c-0.4,0-0.8-0.1-1-0.4
-		C61.8,11.9,61.7,11.6,61.7,11.2z"></path>
-	<path fill="#FFFFFF" d="M70.5,7.7c0,0.3-0.1,0.5-0.2,0.8c-0.1,0.2-0.3,0.4-0.6,0.6c-0.3,0.2-0.7,0.3-1.2,0.5
-		c-0.5,0.1-1.1,0.2-1.9,0.3v0.1c0,1,0.4,1.5,1.2,1.5c0.2,0,0.3,0,0.5-0.1c0.1,0,0.3-0.1,0.4-0.1c0.1,0,0.2-0.1,0.3-0.2
-		c0.1-0.1,0.2-0.1,0.2-0.2c0.1,0,0.1-0.1,0.2-0.1c0.1,0,0.1-0.1,0.2-0.1c0,0,0.1,0,0.1,0c0,0,0.1,0.1,0.1,0.1l0.4,0.5
-		c-0.2,0.2-0.4,0.4-0.6,0.6c-0.2,0.2-0.4,0.3-0.6,0.4s-0.4,0.2-0.7,0.2c-0.2,0-0.5,0.1-0.8,0.1c-0.4,0-0.7-0.1-1-0.2
-		c-0.3-0.1-0.5-0.3-0.8-0.5s-0.4-0.5-0.5-0.8c-0.1-0.3-0.2-0.7-0.2-1.1c0-0.3,0-0.6,0.1-1c0.1-0.3,0.2-0.6,0.3-0.9
-		c0.1-0.3,0.3-0.5,0.5-0.8c0.2-0.2,0.4-0.4,0.7-0.6s0.5-0.3,0.8-0.4c0.3-0.1,0.6-0.1,0.9-0.1c0.3,0,0.6,0,0.8,0.1
-		c0.2,0.1,0.4,0.2,0.6,0.4c0.2,0.1,0.3,0.3,0.4,0.5C70.5,7.3,70.5,7.5,70.5,7.7z M68.5,7.2c-0.2,0-0.4,0-0.6,0.1s-0.3,0.2-0.5,0.3
-		c-0.1,0.1-0.3,0.3-0.4,0.5c-0.1,0.2-0.2,0.4-0.2,0.7c0.5-0.1,0.9-0.1,1.2-0.2c0.3-0.1,0.5-0.2,0.7-0.3s0.3-0.2,0.3-0.3
-		c0.1-0.1,0.1-0.2,0.1-0.3c0-0.1,0-0.1,0-0.2S69.1,7.4,69,7.4c-0.1-0.1-0.1-0.1-0.2-0.1C68.7,7.2,68.6,7.2,68.5,7.2z"></path>
-	<path fill="#FFFFFF" d="M75.1,7.4c0,0.1-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.2-0.1c-0.1,0-0.2-0.1-0.2-0.1
-		c-0.1,0-0.2-0.1-0.3-0.1s-0.3-0.1-0.4-0.1c-0.3,0-0.6,0.1-0.7,0.2s-0.3,0.3-0.3,0.5c0,0.1,0,0.2,0.1,0.3c0.1,0.1,0.2,0.2,0.3,0.2
-		s0.2,0.1,0.4,0.2c0.1,0.1,0.3,0.1,0.4,0.2C74,8.9,74.1,9,74.3,9c0.1,0.1,0.3,0.2,0.4,0.3c0.1,0.1,0.2,0.2,0.3,0.4
-		C75,9.9,75,10.1,75,10.3c0,0.3-0.1,0.6-0.2,0.8c-0.1,0.3-0.3,0.5-0.5,0.7c-0.2,0.2-0.5,0.4-0.8,0.5c-0.3,0.1-0.7,0.2-1,0.2
-		c-0.2,0-0.4,0-0.6-0.1c-0.2,0-0.4-0.1-0.5-0.2s-0.3-0.1-0.4-0.2s-0.2-0.2-0.3-0.3l0.4-0.6c0-0.1,0.1-0.1,0.2-0.2
-		c0.1,0,0.1-0.1,0.2-0.1s0.2,0,0.2,0.1s0.1,0.1,0.2,0.2c0.1,0.1,0.2,0.1,0.3,0.2c0.1,0.1,0.3,0.1,0.5,0.1c0.2,0,0.3,0,0.4-0.1
-		s0.2-0.1,0.3-0.2c0.1-0.1,0.2-0.2,0.2-0.3c0-0.1,0.1-0.2,0.1-0.3c0-0.1,0-0.2-0.1-0.3c-0.1-0.1-0.2-0.2-0.3-0.2
-		c-0.1-0.1-0.2-0.1-0.4-0.2c-0.1,0-0.3-0.1-0.4-0.2c-0.1-0.1-0.3-0.1-0.4-0.2c-0.1-0.1-0.3-0.2-0.4-0.3c-0.1-0.1-0.2-0.2-0.3-0.4
-		c-0.1-0.2-0.1-0.4-0.1-0.6c0-0.3,0.1-0.5,0.2-0.8c0.1-0.3,0.3-0.5,0.5-0.7c0.2-0.2,0.5-0.4,0.7-0.5c0.3-0.1,0.6-0.2,1-0.2
-		c0.4,0,0.7,0.1,1,0.2c0.3,0.1,0.6,0.3,0.8,0.5L75.1,7.4z"></path>
-	<path fill="#FFFFFF" d="M76.3,11.2C76.3,11.1,76.3,11.1,76.3,11.2c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0-0.3s0-0.3,0.1-0.5l0.3-2.8h-0.6
-		c-0.1,0-0.1,0-0.2-0.1s-0.1-0.1-0.1-0.2c0,0,0,0,0,0c0,0,0,0,0-0.1c0,0,0-0.1,0-0.2s0-0.2,0-0.4l0.9-0.2l0.5-1.7
-		c0-0.1,0.1-0.1,0.1-0.2c0.1,0,0.1-0.1,0.2-0.1h0.8l-0.2,1.9h1.5l-0.1,1.1h-1.5L77.8,10c0,0.2,0,0.3,0,0.4c0,0.1,0,0.2,0,0.2
-		c0,0.1,0,0.1,0,0.1c0,0,0,0,0,0c0,0.2,0,0.3,0.1,0.4s0.2,0.1,0.3,0.1c0.1,0,0.2,0,0.2,0c0.1,0,0.1,0,0.2-0.1c0,0,0.1,0,0.1-0.1
-		c0,0,0.1,0,0.1,0c0,0,0.1,0,0.1,0c0,0,0,0.1,0.1,0.1l0.3,0.7c-0.2,0.2-0.5,0.3-0.7,0.4s-0.5,0.1-0.8,0.1c-0.4,0-0.8-0.1-1-0.4
-		C76.4,11.9,76.3,11.6,76.3,11.2z"></path>
-	<path fill="#FFFFFF" d="M80.6,11.6c0-0.1,0-0.2,0.1-0.4c0-0.1,0.1-0.2,0.2-0.3s0.2-0.1,0.3-0.2c0.1,0,0.2-0.1,0.4-0.1
-		s0.2,0,0.4,0.1c0.1,0,0.2,0.1,0.3,0.2s0.1,0.2,0.2,0.3c0,0.1,0.1,0.2,0.1,0.4c0,0.1,0,0.2-0.1,0.4c0,0.1-0.1,0.2-0.2,0.3
-		s-0.2,0.1-0.3,0.2c-0.1,0-0.2,0.1-0.4,0.1s-0.2,0-0.4-0.1c-0.1,0-0.2-0.1-0.3-0.2s-0.1-0.2-0.2-0.3C80.6,11.8,80.6,11.7,80.6,11.6z
-		 M83.1,3.7l-0.4,3.4c0,0.4-0.1,0.7-0.2,1.1S82.3,9,82.2,9.4h-1c0-0.1,0-0.2,0-0.2c0-0.1,0-0.2,0-0.2c0-0.3,0-0.6,0-0.9
-		c0-0.3,0-0.6,0.1-0.9l0.4-3.4H83.1z"></path>
-</g>
-</svg>
-							<span class="icon-fr-mail"></span>
-						</div>
-					</div>
+                                        <div class="newsletter"><a href="https://foodrepublic.substack.com/" target="_blank" title="Newsletter" aria-label="Newsletter"><svg><use xlink:href="#revue"></use></svg> Newsletter</a></div>
+                                                
+                            <div id="top-nav-share" class="top-nav-scrolled"></div>
+	            
+            </div>
+            <div id="is-tablet"></div>
+            <div id="is-mobile"></div>
+        </header>
+<main id="main" role="main" class="infinite legacy legacy" data-post-type="articles">
+	<div class="holder">
+	<div id="content" class="article">
+<article class="news-post">
+    <div class="news-article   ">
+																	<div id="adslot-q4top" class="google-ad-placeholder between-p q4" data-ad-height="any" data-ad-width="any" data-ad-pos="q4-top"></div>
+								
+							
+				<div class="main-article">
+                    <h1 class="title-gallery"
+						id="title-gallery"												data-post-id="20679"
+                                            >Dutch White Asparagus Recipe</h1>
 				</div>
-			</header><!-- #masthead -->
-
-			<div class="wildcard-nav-floating">
-				<div class="wildcard-container">
-					<div class="wildcard-nav">
-	<span>Hot:</span>
-	<div class="wildcard-nav-items"><ul id="menu-topics-header-1" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-122682"><a href="http://www.foodrepublic.com/topics/fall-preview/">Fall Preview</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-117527"><a href="http://www.foodrepublic.com/topics/food-crimes/">Food Crimes</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-122242"><a href="http://www.foodrepublic.com/topics/butchery-charcuterie/">Butchery &amp; Charcuterie</a></li>
-</ul></div></div>
-
-					<div class="header-right">
-
-<div class="ng-isolate-scope" share="" context="header" social-id="footer" links="{'facebook':{'link':'https:\/\/www.facebook.com\/F.Republic','name':'Facebook'},'twitter':{'link':'https:\/\/twitter.com\/foodrepublic','name':'Twitter'},'instagram':{'link':'https:\/\/instagram.com\/foodrepublic\/','name':'Instagram'},'googleplus':{'link':'https:\/\/plus.google.com\/+FoodRepublic\/posts','name':'Google Plus'}}"><div class="header" ng-class="{open: vm.active}" ng-click="vm.trackStatus()"><!-- ngIf: 'archive' === vm.context --><!-- ngIf: 'archive' === vm.context --><div class="social-nav"><!-- ngIf: 'footer' === vm.context --><!-- ngIf: 'header' === vm.context --><p class="ng-scope" ng-if="'header' === vm.context"><strong>Follow:</strong></p><!-- end ngIf: 'header' === vm.context --><ul class="pushable"><div class="social-expand-wrapper" ng-class="{open: vm.active}"><!-- ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://www.facebook.com/F.Republic" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://www.facebook.com/F.Republic"><span class="icon-facebook"></span> <span class="text ng-binding">Facebook</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://twitter.com/foodrepublic" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://twitter.com/foodrepublic"><span class="icon-twitter"></span> <span class="text ng-binding">Twitter</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://instagram.com/foodrepublic/" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://instagram.com/foodrepublic/"><span class="icon-instagram"></span> <span class="text ng-binding">Instagram</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://plus.google.com/+FoodRepublic/posts" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://plus.google.com/+FoodRepublic/posts"><span class="icon-googleplus"></span> <span class="text ng-binding">Google Plus</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><!-- ngIf: 'footer' === vm.context --></div><!-- ngIf: 'single' === vm.context || 'slideshow' === vm.context --></ul></div></div></div>
-					</div>
-				</div>
-			</div>
-
-			<div id="content" class="container site-content">
-
-
-<article class="article single-view migrated post-20679 recipe type-recipe status-publish has-post-thumbnail hentry tag-asparagus tag-nyc-restaurants tag-prosciutto tag-spring-vegetables tag-the-netherlands section-food topic-global-cuisine" itemscope="" itemtype="http://schema.org/Article">
-						<figure class="article-image full-bleed-image">
-
-<picture class="">
-			<source srcset="http://i2.wp.com/www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg?resize=1920%2C%20560, http://www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg 2x" media="(min-width: 80em)" sizes="1920px">
-			<source srcset="http://i2.wp.com/www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg?resize=1040%2C%20500, http://www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg 2x" media="(min-width: 65em) and (max-width: 80em)" sizes="1040px">
-			<source srcset="http://i2.wp.com/www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg?resize=800%2C%20450, http://i2.wp.com/www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg?resize=1600%2C%20900 2x" media="(min-width: 30em) and (max-width: 65em)" sizes="800px">
-			<source srcset="http://i2.wp.com/www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg?resize=480%2C%20270, http://i2.wp.com/www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg?resize=860%2C%20540 2x" media="(max-width: 30em)" sizes="480px">
-		<img srcset="http://i2.wp.com/www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg?resize=1920%2C%20560 1920w,
-			http://www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg 3840w" src="foodrepublic_files/dutchasparagus.jpg" sizes="1920px" alt="Article featured image">
-
-
-			<div class="yummly-iframe-wrapper">
-			<iframe src="foodrepublic_files/yum.html" allowtransparency="true" style="width: 100px; height: 20px;" scrolling="no" class="YUMMLY-YUM-IFRAME" frameborder="0"></iframe>
-		</div>
-	</picture>
-
-	<meta itemprop="image" content="http://i2.wp.com/www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg?w=700">
-									<div class="feature-credit-caption">
-
-							<figcaption>
-					One of the great things about spring menus is all the tender, fresh
- green vegetable dishes. Longstanding Midtown dining spot&nbsp;Michael's
- New York, owned by restaurateur Michael McCarty, boasts a Dutch recipe
-we had to try: citrus-steamed Dutch white asparagus with a wine-spiked
-butter sauce, a runny poached egg and a little Parmesan cheese.&nbsp;
-	</figcaption>
-					</div>
-					</figure>
-
-	<scroll-trigger class="ng-scope" group="header" on-class="stuck pushable" stick="stick"></scroll-trigger>
-
-	<header class="article-title-area">
-			<div class="article-tax">
-			<span class="icon-stop"></span>
-			<a class="tax" href="http://www.foodrepublic.com/topics/global-cuisine/" itemprop="articleSection">Global Cuisine</a>
-		</div>
-		<h1 class="article-title" itemprop="headline">Dutch White Asparagus Recipe</h1>
-    <h1 class="article-title-mobile">Dutch White Asparagus Recipe</h1>
-    		<h2 class="article-subtitle" itemprop="alternativeHeadline">Serve spring vegetables the traditional Dutch way</h2>
-	</header>
-
-	<div class="article-content">
-		<scroll-trigger class="ng-scope" group="article-social" on-class="social-stuck" stick="stick" breakpoint="sUp"></scroll-trigger>
-
-		<div style="top: 52px; position: fixed;" scroll-target="" class="article-social pushable ng-scope social-stuck" ng-class="vm.targetClass" group="article-social" stick-stack="3">
-
-<div class="ng-isolate-scope" share="" context="single" social-id="20679" links="{'facebook':{'link':'http:\/\/www.facebook.com\/dialog\/share?app_id=1459963620963229&amp;display=page&amp;href=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;redirect_uri=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;text=Dutch+White+Asparagus+Recipe','name':'Facebook'},'twitter':{'link':'https:\/\/twitter.com\/share?related=foodrepublic&amp;url=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;text=Dutch+White+Asparagus+Recipe','name':'Twitter'},'pinterest':{'link':'http:\/\/pinterest.com\/pin\/create\/button\/?url=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;description=Dutch+White+Asparagus+Recipe&amp;media=http%3A%2F%2Fi2.wp.com%2Fwww.foodrepublic.com%2Fwp-content%2Fuploads%2F2013%2F04%2Fdutchasparagus.jpg%3Fresize%3D4288%252C%25202848','name':'Pinterest'},'tumblr':{'link':'http:\/\/www.tumblr.com\/share\/photo?click_thru=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;caption=Dutch+White+Asparagus+Recipe&amp;source=http%3A%2F%2Fi2.wp.com%2Fwww.foodrepublic.com%2Fwp-content%2Fuploads%2F2013%2F04%2Fdutchasparagus.jpg%3Fresize%3D4288%252C%25202848','name':'Tumblr'},'mail':{'link':'mailto:?subject=DutchWhiteAsparagusRecipe&amp;body=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F','name':'Email'},'printer':{'link':'window.print();','name':'Print'}}"><div class="single" ng-class="{open: vm.active}" ng-click="vm.trackStatus()"><!-- ngIf: 'archive' === vm.context --><!-- ngIf: 'archive' === vm.context --><div class="social-nav"><!-- ngIf: 'footer' === vm.context --><!-- ngIf: 'header' === vm.context --><ul class="pushable"><div class="social-expand-wrapper" ng-class="{open: vm.active}"><!-- ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="http://www.facebook.com/dialog/share?app_id=1459963620963229&amp;display=page&amp;href=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;redirect_uri=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;text=Dutch+White+Asparagus+Recipe" class="ng-scope" ng-if="network !== 'printer'" ng-href="http://www.facebook.com/dialog/share?app_id=1459963620963229&amp;display=page&amp;href=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;redirect_uri=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;text=Dutch+White+Asparagus+Recipe"><span class="icon-facebook"></span> <span class="text ng-binding">Facebook</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://twitter.com/share?related=foodrepublic&amp;url=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;text=Dutch+White+Asparagus+Recipe" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://twitter.com/share?related=foodrepublic&amp;url=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;text=Dutch+White+Asparagus+Recipe"><span class="icon-twitter"></span> <span class="text ng-binding">Twitter</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;description=Dutch+White+Asparagus+Recipe&amp;media=http%3A%2F%2Fi2.wp.com%2Fwww.foodrepublic.com%2Fwp-content%2Fuploads%2F2013%2F04%2Fdutchasparagus.jpg%3Fresize%3D4288%252C%25202848" class="ng-scope" ng-if="network !== 'printer'" ng-href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;description=Dutch+White+Asparagus+Recipe&amp;media=http%3A%2F%2Fi2.wp.com%2Fwww.foodrepublic.com%2Fwp-content%2Fuploads%2F2013%2F04%2Fdutchasparagus.jpg%3Fresize%3D4288%252C%25202848"><span class="icon-pinterest"></span> <span class="text ng-binding">Pinterest</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="http://www.tumblr.com/share/photo?click_thru=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;caption=Dutch+White+Asparagus+Recipe&amp;source=http%3A%2F%2Fi2.wp.com%2Fwww.foodrepublic.com%2Fwp-content%2Fuploads%2F2013%2F04%2Fdutchasparagus.jpg%3Fresize%3D4288%252C%25202848" class="ng-scope" ng-if="network !== 'printer'" ng-href="http://www.tumblr.com/share/photo?click_thru=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F&amp;caption=Dutch+White+Asparagus+Recipe&amp;source=http%3A%2F%2Fi2.wp.com%2Fwww.foodrepublic.com%2Fwp-content%2Fuploads%2F2013%2F04%2Fdutchasparagus.jpg%3Fresize%3D4288%252C%25202848"><span class="icon-tumblr"></span> <span class="text ng-binding">Tumblr</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="mailto:?subject=DutchWhiteAsparagusRecipe&amp;body=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F" class="ng-scope" ng-if="network !== 'printer'" ng-href="mailto:?subject=DutchWhiteAsparagusRecipe&amp;body=http%3A%2F%2Fwww.foodrepublic.com%2Frecipes%2Fdutch-white-asparagus-recipe%2F"><span class="icon-mail"></span> <span class="text ng-binding">Email</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --><a class="ng-scope" ng-if="network === 'printer'" ng-click="vm.print()"><span class="icon-printer"></span> <span class="text ng-binding">Print</span></a><!-- end ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><!-- ngIf: 'footer' === vm.context --></div><!-- ngIf: 'single' === vm.context || 'slideshow' === vm.context --><li class="ng-scope" ng-if="'single' === vm.context || 'slideshow' === vm.context" ng-click="vm.active = !vm.active"><span class="icon-share"></span></li><!-- end ngIf: 'single' === vm.context || 'slideshow' === vm.context --></ul></div></div></div>
-		</div>
-		<div class="article-meta">
-	<figure class="author-image">
-		<img alt="" src="foodrepublic_files/a.jpeg" srcset="http://1.gravatar.com/avatar/?s=88&amp;d=mm&amp;r=g 2x" class="avatar avatar-44 photo avatar-default" height="44" width="44">	</figure>
-	<span class="byline"><a href="http://www.foodrepublic.com/author/michaels-restaurant/" title="Posts by Michael's Restaurant" class="author url" rel="author">Michael's Restaurant</a></span>
-	<time datetime="April 16, 2013">April 16, 2013</time>
-	<meta itemprop="datePublished" content="2013-04-16T16:01:24+00:00">
-
-	<!-- Facebook Like Button -->
-	<div class="social-checkin" ng-non-bindable="">
-		<div fb-iframe-plugin-query="app_id=1459963620963229&amp;container_width=0&amp;href=http%3A%2F%2Fwww.foodrepublic.com%2F2013%2F04%2F16%2Fdutch-white-asparagus-recipe&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;width=200" fb-xfbml-state="rendered" class="fb-like fb_iframe_widget" data-href="http://www.foodrepublic.com/2013/04/16/dutch-white-asparagus-recipe" data-width="200" data-layout="button_count" ata-action="like" data-show-faces="true" data-share="true"><span style="vertical-align: bottom; width: 120px; height: 20px;"><iframe class="" src="foodrepublic_files/like.html" style="border: medium none; visibility: visible; width: 120px; height: 20px;" title="fb:like Facebook Social Plugin" scrolling="no" allowfullscreen="true" allowtransparency="true" name="f50e8962276ec6" frameborder="0" height="1000px" width="200px"></iframe></span></div>
-	</div>
-</div>
-		<div article-body="" class="article-body body-copy ng-scope">
-
-			<span itemprop="articleBody"><p>One of the great things about spring menus is all the tender, fresh green vegetable dishes. Longstanding Midtown dining spot <a href="http://www.michaelsnewyork.com/" target="_blank">Michael's New York</a>,
- owned by restaurateur Michael McCarty, boasts a Dutch recipe we had to
-try: citrus-steamed Dutch white asparagus (they actually do a mix of
-white and green) with a wine-spiked butter sauce, a runny poached egg
-and a little Parmesan cheese. A little prosciutto never hurt anyone,
-either.&nbsp;</p>
-</span>
-
-					</div>
-		<div class="article-add-ons">
-							<!-- Reference Recipe -->
-
-<div class="article-recipe" itemscope="" itemtype="http://schema.org/Recipe">
-	<meta itemprop="name" content="Dutch White Asparagus Recipe">
-	<meta itemprop="datePublished" content="2013-04-16T16:01:24+00:00">
-	<meta itemprop="description" content="&lt;p&gt;One of the great things about spring menus is all the tender, fresh green vegetable dishes. Longstanding Midtown dining spot &lt;a href=&quot;http://www.michaelsnewyork.com/&quot; target=&quot;_blank&quot;&gt;Michael's New York&lt;/a&gt;, owned by restaurateur Michael McCarty, boasts a Dutch recipe we had to try: citrus-steamed Dutch white asparagus (they actually do a mix of white and green) with a wine-spiked butter sauce, a runny poached egg and a little Parmesan cheese. A little prosciutto never hurt anyone, either.&nbsp;&lt;/p&gt; ">
-
-			<!-- Featured Image -->
-		<meta itemprop="image" content="http://i2.wp.com/www.foodrepublic.com/wp-content/uploads/2013/04/dutchasparagus.jpg?w=700">
-
-	<div class="recipe-meta">
-	<div class="recipe-border"></div>
-	<h3 class="recipe-title">Dutch White Asparagus Recipe</h3>
-
-	<ul class="recipe-information">
-					<li class="prep-time">
-				<strong>Prep Time:</strong>
-				20 minutes			</li>
-							<li class="cook-time">
-				<strong>Cook Time:</strong>
-				40 minutes			</li>
-							<li class="difficulty">
-				<strong>Level of Difficulty:</strong>
-				Easy			</li>
-							<li class="servings">
-				<strong>Serving Size:</strong>
-				<span itemprop="recipeYield">
-					4									</span>
-			</li>
-			</ul>
-
-	</div>
-	<scroll-trigger class="ng-scope" group="recipe-ingredients" on-class="ingredients-stuck" stick="stick" breakpoint="mUp"></scroll-trigger>
-	<div style="" scroll-target="" class="ingredients pushable ng-scope ingredients-stuck" ng-class="[vm.targetClass, vm.menu, vm.ingredients]" group="recipe-ingredients" stick-stack="3" placeholder="true">
-	<h4>Ingredients<span class="icon-plus" ng-click="vm.ingredients = '' === vm.ingredients ? 'open' : ''"></span></h4>
-	<div class="ingredients-content" ng-class="vm.ingredients">
-					<div class="recipe-component" data-serving-size="4">
-
-							</div>
-					<div class="recipe-component" data-serving-size="4">
-									<h5 class="component-title">
-						For the asparagus					</h5>
-
-									<ul>
-																											<li itemprop="recipeIngredient">
-								<span class="ingredient-system">
-																		<span class="ingredient-quantity">
-										12									</span>
-																											<span class="ingredient-quantity-unit">
-										spears									</span>
-																	</span>
-
-								<span class="ingredient-label">
-
-									Dutch white asparagus								</span>
-							</li>
-																											<li itemprop="recipeIngredient">
-								<span class="ingredient-system">
-																		<span class="ingredient-quantity">
-										1/2									</span>
-																											<span class="ingredient-quantity-unit">
-										each									</span>
-																	</span>
-
-								<span class="ingredient-label">
-
-									Meyer lemon, orange and grapefruit								</span>
-							</li>
-																											<li itemprop="recipeIngredient">
-								<span class="ingredient-system">
-																		<span class="ingredient-quantity">
-										2									</span>
-																											<span class="ingredient-quantity-unit">
-										cups									</span>
-																	</span>
-
-								<span class="ingredient-label">
-
-									water, for steaming								</span>
-							</li>
-											</ul>
-							</div>
-					<div class="recipe-component" data-serving-size="4">
-									<h5 class="component-title">
-						Sauce					</h5>
-
-									<ul>
-																											<li itemprop="recipeIngredient">
-								<span class="ingredient-system">
-																		<span class="ingredient-quantity">
-										1									</span>
-																											<span class="ingredient-quantity-unit">
-										cup									</span>
-																	</span>
-
-								<span class="ingredient-label">
-
-									grated Parmesan cheese								</span>
-							</li>
-																											<li itemprop="recipeIngredient">
-								<span class="ingredient-system">
-																		<span class="ingredient-quantity">
-										1/2									</span>
-																											<span class="ingredient-quantity-unit">
-										cup									</span>
-																	</span>
-
-								<span class="ingredient-label">
-
-									Chardonnay								</span>
-							</li>
-																											<li itemprop="recipeIngredient">
-								<span class="ingredient-system">
-																		<span class="ingredient-quantity">
-										1/2									</span>
-																											<span class="ingredient-quantity-unit">
-										cup									</span>
-																	</span>
-
-								<span class="ingredient-label">
-
-									white wine vinegar								</span>
-							</li>
-																											<li itemprop="recipeIngredient">
-								<span class="ingredient-system">
-																		<span class="ingredient-quantity">
-										2									</span>
-																											<span class="ingredient-quantity-unit">
-										sprigs									</span>
-																	</span>
-
-								<span class="ingredient-label">
-
-									fresh thyme								</span>
-							</li>
-																											<li itemprop="recipeIngredient">
-								<span class="ingredient-system">
-																		<span class="ingredient-quantity">
-										1/2									</span>
-																											<span class="ingredient-quantity-unit">
-										cup									</span>
-																	</span>
-
-								<span class="ingredient-label">
-
-									shallots, minced								</span>
-							</li>
-																											<li itemprop="recipeIngredient">
-								<span class="ingredient-system">
-																		<span class="ingredient-quantity">
-																			</span>
-																										</span>
-
-								<span class="ingredient-label">
-
-									small chunk of Parmesan rind								</span>
-							</li>
-																											<li itemprop="recipeIngredient">
-								<span class="ingredient-system">
-																		<span class="ingredient-quantity">
-										4									</span>
-																											<span class="ingredient-quantity-unit">
-										tablespoons									</span>
-																	</span>
-
-								<span class="ingredient-label">
-
-									unsalted butter, chilled and cut into small cubes								</span>
-							</li>
-											</ul>
-							</div>
-					<div class="recipe-component" data-serving-size="4">
-									<h5 class="component-title">
-						for plating					</h5>
-
-									<ul>
-																											<li itemprop="recipeIngredient">
-								<span class="ingredient-system">
-																		<span class="ingredient-quantity">
-										4									</span>
-																										</span>
-
-								<span class="ingredient-label">
-
-									fresh eggs, poached (see instructions)								</span>
-							</li>
-																											<li itemprop="recipeIngredient">
-								<span class="ingredient-system">
-																		<span class="ingredient-quantity">
-										4									</span>
-																											<span class="ingredient-quantity-unit">
-										slices									</span>
-																	</span>
-
-								<span class="ingredient-label">
-
-									prosciutto								</span>
-							</li>
-											</ul>
-							</div>
-
-
-	</div>
-</div>
-	<scroll-trigger class="mobile-ingredients-trigger ng-scope" group="recipe-ingredients" on-class="ingredients-stuck" stick="stick" breakpoint="xsS"></scroll-trigger>
-
-<div class="directions">
-	<h4>Directions</h4>
-			<span itemprop="recipeInstructions">
-			<p><em><strong>For the Dutch white asparagus:</strong></em></p> <ol> 	<li>After
- peeling and trimming the asparagus, steam it in citrus water — water
-with Meyer lemon, orange and grapefruit slices — until fork tender.</li> </ol> <p><em><strong>For the beurre blanc sauce:</strong></em></p> <ol> 	<li>In a pot add the Chardonnay, white wine vinegar, thyme, shallots and chunk of Parmesan rind; reduce about a quarter.</li> 	<li>Remove from heat and slowly whisk in cubes of butter until sauce is thick and glossy.</li> </ol> <p><em><strong>To plate:</strong></em></p> <ol> 	<li>Pour 2 tablespoons of beurre blanc on a plate, <a href="http://www.foodrepublic.com/2011/05/05/how-poach-egg">top it with a poached egg</a>, steamed white asparagus, prosciutto and grated Parmesan.</li> </ol> <p><strong>More recipes with asparagus on Food Republic:</strong></p> <ul> 	<li><a href="http://www.foodrepublic.com/2011/05/15/spring-asparagus-soup-recipe">Spring Asparagus Soup Recipe</a></li> 	<li><a href="http://www.foodrepublic.com/2012/05/15/goat-cheese-and-asparagus-macaroni-salad">Goat Cheese And Asparagus Macaroni Salad Recipe</a></li> 	<li><a href="http://www.foodrepublic.com/2011/06/05/roasted-asparagus-scrambled-eggs-recipe">Roasted Asparagus &amp; Scrambled Eggs Recipe</a></li> </ul> 		</span>
-
-	</div>
-	<scroll-trigger class="ng-scope" group="recipe-ingredients" on-class="ingredients-stop" parent-class="recipe-bottom" breakpoint="mUp" offset="inclusive"></scroll-trigger>
-</div>
-					</div>
-		<div class="tags">
-			<ul><li class="first">Tags:</li><li><a href="http://www.foodrepublic.com/tags/asparagus/" rel="tag">asparagus</a></li><li><a href="http://www.foodrepublic.com/tags/nyc-restaurants/" rel="tag">nyc restaurants</a></li><li><a href="http://www.foodrepublic.com/tags/prosciutto/" rel="tag">prosciutto</a></li><li><a href="http://www.foodrepublic.com/tags/spring-vegetables/" rel="tag">spring vegetables</a></li><li><a href="http://www.foodrepublic.com/tags/the-netherlands/" rel="tag">the netherlands</a></li></ul>		</div>
-
-		<scroll-trigger class="ng-scope" group="article-social" on-class="social-stop" breakpoint="sUp" offset="inclusive"></scroll-trigger>
-		<scroll-trigger class="ng-scope" group="article-social" on-class="social-stop" breakpoint="xsS" offset="bottom"></scroll-trigger>
-	</div>
-
-	<aside class="article-sidebar">
-
-
-<div class="ad box">
-	<div id="div-gpt-ad-Desktop_Top_300x250_300x600_300x1050" class="dfp-ad dfp-Desktop_Top_300x250_300x600_300x1050">
-<div class="ad-wrapper">
-	<script type="text/javascript">
-		if ( typeof googletag != 'undefined' ) {
-		googletag.cmd.push(function() { googletag.display("div-gpt-ad-Desktop_Top_300x250_300x600_300x1050"); });
-		}
-	</script>
-</div>
-</div>
-</div>
-
-<div class="ad box">
-	<div id="div-gpt-ad-Mobile_300x250_1" class="dfp-ad dfp-Mobile_300x250_1">
-<div class="ad-wrapper">
-	<script type="text/javascript">
-		if ( typeof googletag != 'undefined' ) {
-		googletag.cmd.push(function() { googletag.display("div-gpt-ad-Mobile_300x250_1"); });
-		}
-	</script>
-</div>
-</div>
-</div>
-<div class="newsletter-overlay" ng-class="{open: vm.newsletter}" ng-click="vm.toggleNewsletter()"></div>
-<div class="newsletter-signup" ng-class="{open: vm.newsletter}">
-	<div class="newsletter-content">
-		<span class="icon-cross" ng-click="vm.toggleNewsletter()"></span>
-		<div class="newsletter-tiles"></div>
-		<p class="newsletter-cta">Sign up now for the best of Food Republic, delivered to your inbox every Thursday.</p>
-
-					<div class="wrap-form-newsletter">
-	<form class="mailchimp-ajax ng-pristine ng-valid" id=""> <!-- mailchimp_ajax_form_id -->
-		<div class="custom-fields-container fields">
-			 <!-- mailchimp_ajax_custom_fields_html -->
-		</div>
-		<div class="email-field-container fields">
-			<input class="email-field" id="newsletter-email" name="subscribe-email" placeholder="Email Address" type="email"> <!-- mailchimp_ajax_email_field -->
-			<input name="subscribe-nonce" value="bad38d16ae" type="hidden">
-			<input value="Sign Up" type="submit"> <!-- mailchimp_ajax_subscribe_button -->
-		</div>
-
-		<div class="response error">
-			<ul>
-			</ul>
-			<a href="#">Try again</a> <!-- mailchimp_ajax_error_msg -->
-		</div>
-
-		<div class="response success">
-			<p>Success! Check your email for a confirmation link.</p> <!-- mailchimp_ajax_success_msg -->
-		</div>
-	</form>
-</div>
-			</div>
-</div>
-	</aside>
-
-	<footer class="article-footer">
-		<div class="article-related">
-							<div class="related-more-like-this">
-					<h5>
-						Related Articles					</h5>
-					<ul>
-						<li>
-	<a href="http://www.foodrepublic.com/2015/09/10/eat-oysters-at-top-nyc-restaurants-help-the-ecosystem/" title="Eat Oysters At Top NYC Restaurants, Help The Ecosystem">
-		Eat Oysters At Top NYC Restaurants, Help The Ecosystem	</a>
-</li>
-<li>
-	<a href="http://www.foodrepublic.com/2015/09/08/fall-preview-2015-the-10-most-exciting-restaurant-openings-in-new-york-city/" title="Fall Preview 2015: The 10 Most Exciting Restaurant Openings In New York City">
-		Fall Preview 2015: The 10 Most Exciting Restaurant Openings In New York City	</a>
-</li>
-<li>
-	<a href="http://www.foodrepublic.com/2015/09/02/see-your-city-new-campaign-asks-new-yorkers-to-help-promote-city-restaurants-on-social-media/" title="See Your City! New Campaign Asks New Yorkers To Explore Their City Through Food">
-		See Your City! New Campaign Asks New Yorkers To Explore Their City Through Food	</a>
-</li>
-<li>
-	<a href="http://www.foodrepublic.com/2015/08/31/small-town-dairy-queen-rules-big-city-dairy-queen-sucks-heres-why/" title="Small-Town Dairy Queen Rules! Big-City Dairy Queen Sucks. Here’s Why.">
-		Small-Town Dairy Queen Rules! Big-City Dairy Queen Sucks. Here’s Why.	</a>
-</li>
-											</ul>
-				</div>
-										<div class="related-might-like">
-					<!-- Outbrain -->
-	 				<h5>You Might Also Like</h5>
-	 				<ul class="might-like-content">
-	 					<li class="related-post">
-	<a href="http://www.foodrepublic.com/2015/08/27/fusion-charcuterie-francis-derbys-cure-for-the-common-coppa/">
-		<img src="foodrepublic_files/francis_anchor.jpg" class="attachment-generic-s wp-post-image" alt="francis_anchor">	</a>
-	<a href="http://www.foodrepublic.com/2015/08/27/fusion-charcuterie-francis-derbys-cure-for-the-common-coppa/" title="Fusion Charcuterie: Francis Derby’s Cure For The Common Coppa">
-		Fusion Charcuterie: Francis Derby’s Cure For The Common Coppa	</a>
-</li>
-<li class="related-post">
-	<a href="http://www.foodrepublic.com/2015/08/21/would-you-pay-over-1500-for-pigs-cheese/">
-		<img src="foodrepublic_files/whattoeat_lunch_newcheese.jpg" class="attachment-generic-s wp-post-image" alt="">	</a>
-	<a href="http://www.foodrepublic.com/2015/08/21/would-you-pay-over-1500-for-pigs-cheese/" title="Would You Pay Over $1,500 For Pig’s Cheese?">
-		Would You Pay Over $1,500 For Pig’s Cheese?	</a>
-</li>
-							 				</ul>
-	 										<!-- <div data-src="http://www.foodrepublic.com/recipes/dutch-white-asparagus-recipe/" class="OUTBRAIN" ></div> -->
-						<!-- <script type="text/javascript">
-							(function(){window.OB_platformType=8;window.OB_langJS="http://widgets.outbrain.com/lang_en.js";window.OBITm="foodrepublic";window.OB_recMode="brn_strip";var ob=document.createElement("script");ob.type="text/javascript";ob.async=true;ob.src="http"+("https:"===document.location.protocol?"s":"")+"://widgets.outbrain.com/outbrainLT.js";var h=document.getElementsByTagName("script")[0];h.parentNode.insertBefore(ob,h);})();
-						</script> -->
+							
+							
+				<div class="slide-key image-holder gallery-image-holder credit-image-wrap  lead-image-holder"
+					 data-post-url="https://www.foodrepublic.com/news/2013/04/dutch-white-asparagus-recipe/" data-post-title="Dutch White Asparagus Recipe"					data-slide-num="0"
+					data-post-id="20679"
+
+					>
+											
+															<picture id="paf59119c3dcee2acd2b91af1aba836ce">
+																			<source
+											media="(min-width: 429px)"
+											srcset="https://www.foodrepublic.com/img/gallery/dutch-white-asparagus-recipe/intro-import.webp"
+											type="image/webp">
+										<source
+											media="(max-width: 428px)"
+											srcset="https://www.foodrepublic.com/img/gallery/dutch-white-asparagus-recipe/intro-import.sm.webp"
+											type="image/webp">
+																		<img class="gallery-image " src="https://www.foodrepublic.com/img/gallery/dutch-white-asparagus-recipe/intro-import.jpg"
+										 data-slide-url="https://www.foodrepublic.com/news/2013/04/dutch-white-asparagus-recipe/"
+										 data-post-id="20679"
+										 data-slide-num="0"
+										 data-slide-title="Dutch White Asparagus Recipe: "
+																				 width="780" height="438"
+										 alt="Dutch White Asparagus Recipe">
+								</picture>
+																<style>
+									#paf59119c3dcee2acd2b91af1aba836ce {
+										min-height: 284px;
+										height: auto !important;
+										display: block;
+									}
+									@media (min-width: 780px ) {
+										#paf59119c3dcee2acd2b91af1aba836ce {
+											min-height: 518px;
+											display: block;
+										}
+									}
+								</style>
+																														</div>
+
+															<div class="byline-container"><span class='byline-author'>Michael's Restaurant</span><span class="byline-timestamp"><span class="byline-slash">&#8226;</span><time datetime="2016-04-12T14:04:21-04:00">Updated: April 12, 2016  2:04 pm EST</time></span></div>														
+				<div class="columns-holder ">
+															<p>
+<p>One of the great things about spring menus is all the tender, fresh green vegetable dishes. Longstanding Midtown dining spot <a href="http://www.michaelsnewyork.com/" target="_blank">Michael's New York</a>, owned by restaurateur Michael McCarty, boasts a Dutch recipe we had to try: citrus-steamed Dutch white asparagus (they actually do a mix of white and green) with a wine-spiked butter sauce, a runny poached egg and a little Parmesan cheese. A little prosciutto never hurt anyone, either.</p>
+<div class="google-ad-placeholder between-p" data-ad-height="any" data-ad-width="any" data-ad-pos="between-p"></div>
+</p>
+					
 									</div>
 					</div>
-		<div class="post-comments">
-	<div fb-xfbml-state="rendered" class="fb-comments fb_iframe_widget fb_iframe_widget_fluid" data-href="http://www.foodrepublic.com/recipes/dutch-white-asparagus-recipe/" data-width="100%" data-numposts="5" data-colorscheme="light"><span style="height: 176px; width: 700px;"><iframe src="foodrepublic_files/comments.html" class="fb_ltr" title="Facebook Social Plugin" style="border: medium none; overflow: hidden; height: 176px; width: 700px;" scrolling="no" name="fdb929894be2" id="f10b4f6443779c8"></iframe></span></div></div>
-	</footer>
 
-	<aside class="article-footer-sidebar">
+    <div class="news-article   ">
+			
+											<div class="recipe-card">
+					<div class="recipe-card-top">
+						<div class="recipe-card-title">
+                            Dutch White Asparagus Recipe                        </div>
+						<div class="recipe-card-rating-row">
+							<div class="recipe-card-ratings">
+																No Ratings
+															</div>
+							<div class="recipe-card-print">
+                                <a href="?mode=print" target="_blank" rel="noindex">
+								<svg width="32px" height="28px" viewBox="0 0 32 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+									<title>Fill 202</title>
+									<g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+										<g id="print-icon" fill="#958C8B">
+											<path d="M30,21 C30,22.104 29.104,23 28,23 L25.858,23 C25.413,21.278 23.862,20 22,20 L10,20 C8.138,20 6.587,21.278 6.142,23 L4,23 C2.896,23 2,22.104 2,21 L2,19 C2,17.896 2.896,17 4,17 L28,17 C29.104,17 30,17.896 30,19 L30,21 L30,21 Z M22,26 L10,26 C8.896,26 8,25.104 8,24 C8,22.896 8.896,22 10,22 L22,22 C23.104,22 24,22.896 24,24 C24,25.104 23.104,26 22,26 L22,26 Z M8,4 C8,2.896 8.896,2 10,2 L22,2 C23.104,2 24,2.896 24,4 L24,15 L8,15 L8,4 L8,4 Z M28,15 L26,15 L26,4 C26,1.791 24.209,0 22,0 L10,0 C7.791,0 6,1.791 6,4 L6,15 L4,15 C1.791,15 0,16.791 0,19 L0,21 C0,23.209 1.791,25 4,25 L6.142,25 C6.587,26.723 8.138,28 10,28 L22,28 C23.862,28 25.413,26.723 25.858,25 L28,25 C30.209,25 32,23.209 32,21 L32,19 C32,16.791 30.209,15 28,15 L28,15 Z" id="Fill-202"></path>
+										</g>
+									</g>
+								</svg>
+
+								Print
+								</a>
+							</div>
+						</div>
+						<div class="recipe-card-description"></div>
+												<div class="recipe-card-prep-time">
+							<div class="recipe-card-subtitle">Prep Time</div>
+							<div class="recipe-card-amount">20</div>
+							<div class="recipe-card-unit">minutes</div>
+						</div>
+						<div class="recipe-card-cook-time">
+							<div class="recipe-card-subtitle">Cook Time</div>
+							<div class="recipe-card-amount">40</div>
+							<div class="recipe-card-unit">minutes</div>
+						</div>
+												<div class="recipe-card-servings">
+							<div class="recipe-card-subtitle">Servings</div>
+							<div class="recipe-card-amount">0</div>
+							<div class="recipe-card-unit">servings</div>
+						</div>
+						<div class="recipe-card-image">
+							<img class="gallery-image lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+								 data-lazy-src="https://www.foodrepublic.com/img/gallery/dutch-white-asparagus-recipe/intro-import.jpg"
+								 data-slide-url="https://www.foodrepublic.com/news/2013/04/dutch-white-asparagus-recipe/slide//"
+								 data-slide-num="1"
+								 data-post-id="20679"
+								 data-slide-title="Dutch White Asparagus Recipe: recipePlaceholder"
+								 alt="">
+													</div>
+                        <div class="pin-button"><a data-pin-tall="true" data-pin-height="28" data-pin-save="true" href="https://www.pinterest.com/pin/create/button/"></a></div>
+					</div>
+					<div class="recipe-card-bottom-border"></div>
+
+					<div class="recipe-header">
+						Ingredients
+					</div>
+					<ul class="recipe-ingredients">
+												<li>12 spears Dutch white asparagus</li>
+												<li>1/2 each Meyer lemon</li>
+												<li>2 cups water</li>
+												<li>1 cup grated Parmesan cheese</li>
+												<li>1/2 cup Chardonnay</li>
+												<li>1/2 cup white wine vinegar</li>
+												<li>2 sprigs fresh thyme</li>
+												<li>1/2 cup shallots</li>
+												<li>small chunk of Parmesan rind</li>
+												<li>4 tablespoons unsalted butter</li>
+												<li>4  fresh eggs</li>
+												<li>4 slices prosciutto</li>
+											</ul>
+										<div class="recipe-header">
+						Directions
+					</div>
+					<ol class="recipe-directions">
+												<li>After peeling and trimming the asparagus, steam it in citrus water — water with Meyer lemon, orange and grapefruit slices — until fork tender.</li>
+												<li>In a pot add the Chardonnay, white wine vinegar, thyme, shallots and chunk of Parmesan rind; reduce about a quarter.</li>
+												<li>Remove from heat and slowly whisk in cubes of butter until sauce is thick and glossy.</li>
+												<li>Pour 2 tablespoons of beurre blanc on a plate, top it with a poached egg, steamed white asparagus, prosciutto and grated Parmesan.</li>
+												<li>Spring Asparagus Soup Recipe</li>
+												<li>Goat Cheese And Asparagus Macaroni Salad Recipe</li>
+												<li>Roasted Asparagus &amp; Scrambled Eggs Recipe</li>
+											</ol>
+										<div class="recipe-rating slide-key"
+						data-post-url="https://www.foodrepublic.com/news/2013/04/dutch-white-asparagus-recipe/"
+						data-post-title="Dutch White Asparagus Recipe"
+						data-slide-num="1"
+						data-post-id="20679"
+					>
+												Rate this recipe
+						<div class="star-container">
+							<div class="Stars hover post-20679" style="--rating: 0"></div>
+															<div class="Stars rating" style="--rating: 5;" aria-label="This recipe has no ratings."></div>
+													</div>
+											</div>
+				</div>
+					</div>
 
 
-<div class="ad box">
-	<div id="div-gpt-ad-Desktop_Lower_300x250" class="dfp-ad dfp-Desktop_Lower_300x250">
-<div class="ad-wrapper">
-	<script type="text/javascript">
-		if ( typeof googletag != 'undefined' ) {
-		googletag.cmd.push(function() { googletag.display("div-gpt-ad-Desktop_Lower_300x250"); });
-		}
-	</script>
-</div>
-</div>
-</div>
-
-<div class="ad box">
-	<div id="div-gpt-ad-Mobile_300x250_2" class="dfp-ad dfp-Mobile_300x250_2">
-<div class="ad-wrapper">
-	<script type="text/javascript">
-		if ( typeof googletag != 'undefined' ) {
-		googletag.cmd.push(function() { googletag.display("div-gpt-ad-Mobile_300x250_2"); });
-		}
-	</script>
-</div>
-</div>
-</div>			</aside>
 </article>
+
+
+	<div class="under-art"
+		 data-post-url="https://www.foodrepublic.com/news/2013/04/dutch-white-asparagus-recipe/"
+		 data-post-title="Dutch White Asparagus Recipe"
+	>
+					<div class="divider-heading-container divider-heading recommended-heading">
+				<span>Recommended</span>
+			</div>
+		
+		<input type="hidden" class="next-article-url" value=""/>
+					<div class="zergnet-widget" id="zergnet-widget-91731" data-lazyload="2000">
+							</div>
+			</div>
+	<script language="javascript" type="text/javascript">
+		setTimeout(function() {
+			var n = document.getElementById("#zergnet-widget-91731");
+			var h = false;
+			if ( n ) {
+				h = n.innerHTML;
+			}
+			if ( h ) {
+				return false;
+			}
+			var zergnet = document.createElement('script');
+			zergnet.type = 'text/javascript'; zergnet.async = true;
+			zergnet.src = '//www.zergnet.com/zerg.js?v=1&id=91731';
+			var znscr = document.getElementsByTagName('script')[0];
+			znscr.parentNode.insertBefore(zergnet, znscr);
+		}, 3500);
+	</script>
+	<div id="div-ad-1x1a" class="google-ad-placeholder clear placeholder placeholder-1-1" data-ad-height="any" data-ad-width="any" data-ad-pos="1x1"></div>
+	
+	<div class="tripelift-container">
+			</div>
+
+		</div>
+	</div>
+	
+	<div id="floatingAd">
+				<div id="div-ad-floating" class="google-ad-placeholder clear placeholder placeholder-300-250" data-ad-height="250" data-ad-width="300" data-ad-pos="floating"></div>
+	</div>
+		</main>
+
+	
+</div>
+</div>
+
+    <script type="text/javascript" src="/wp-content/themes/unified/js/loopgal.min.js?v=1695654649"></script>
+    <script type="text/javascript" src="/wp-content/themes/unified/js/zb.foodrepublic.min.js?v=1696434125"></script>
+        <script type="text/javascript" src="/wp-content/themes/unified/js/prebid.js?v=1696434125"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MCB043GSKT"></script>
+<script>
+    window.LooperConfig = window.LooperConfig || {};
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    window.LooperConfig.ga4tag = "G-MCB043GSKT";
+    window.LooperConfig.ga4data = {"send_page_view":false,"author":"Michael's Restaurant","category":"news","content_type":"Legacy Recipe","mod_date":"2016-04-12T18:04:21+00:00","layout":"Infinite","post_id":"20679","pub_date":"2013-04-16","day":"Tuesday","dayhour":"Tuesday-4PM","pubhour":"4PM","num_slides":0,"num_words":0};
+</script>
+<script>
+    window.LooperConfig = window.LooperConfig || {};
+    (function(){
+                    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function()
+    {q("f",arguments)},setDisplayBids:function(){},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore( A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+    apstag.init({ pubID: '3263', bidTimeout: 2e3 });        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = 'https://securepubads.g.doubleclick.net/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+        googletag.cmd.push(function() {
+            googletag.definedSlots = {};
+        } );
+        
+        var LooperReady = function(){
+            LooperConfig.params = false;
+            try {
+                LooperConfig.params = (new URL(document.location)).searchParams;
+            } catch( e ) {
+                //do nothing
+            }
+            LooperConfig['gaData'] = {"contentGroup1":"Infinite\/Legacy Recipe","dimension1":"Infinite","dimension2":"Legacy Recipe","dimension3":"News","dimension4":"Michael's Restaurant","dimension5":"2013-04-16","dimension6":"20679","dimension8":0,"dimension11":"Tuesday","dimension12":"4PM","dimension13":"Tuesday-4PM","dimension14":0,"dimension15":0,"dimension16":"2016-04-12"};
+                        LooperConfig['categories'] = [1234];
+                        if ( LooperConfig.params && LooperConfig.params.get("utm_source") && LooperConfig.params.get("utm_source").indexOf("zergnet") !== -1 ) {
+                LooperConfig['gaData']['dimension1'] = "Zerg-Infinite";
+            }
+            var widgets = document.querySelectorAll(".zergnet-widget");
+            var hasWidget = false;
+            for ( i = 0; i < widgets.length; i++ ) {
+                if ( !hasWidget && LoopGalObj.isVisible(widgets[i]) ) {
+                    hasWidget = true;
+                }
+            }
+            if (!hasWidget) {
+                LooperConfig['gaData']["dimension7"] = true;
+                                LooperConfig['ga4data']["ad_block"] = true;
+                            } else {
+                LooperConfig['gaData']["dimension7"] = false;
+                                LooperConfig['ga4data']["ad_block"] = false;
+                            }
+
+            var validZSource = {"newsletter":"newsletter","flipboard":"flipboard","smartnews":"smartnews","smartnews_sponsored":"smartnews_sponsored","msnsyndicated":"msnsyndicated","newsbreakapp":"newsbreakapp","topbuzz":"topbuzz","zinf_abtest":"zinf_abtest","nexthighlights":"nexthighlights","fb":"fb","fb_ios":"fb_ios","fb_android":"fb_android","gemini":"gemini","facebook_organic":"facebook_organic","gdiscover_sponsored":"gdiscover_sponsored","googlenewsapp":"googlenewsapp","snapchat":"snapchat","dt_app":"dt_app","youtube":"youtube"};
+
+            if (window.location.href.indexOf("zsource") !== -1) {
+                var vars = {};
+                var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                    vars[key] = value.toLowerCase();
+                });
+                if (typeof( vars['zsource'] !== "undefined") && typeof( validZSource[vars['zsource']] ) !== "undefined") {
+                    LooperConfig['zsource'] = validZSource[vars['zsource']];
+                    document.cookie = "zsource=" + LooperConfig['zsource'] + "; path=/; max-age=600";
+                }
+            } else if (document.cookie.indexOf("zsource") !== -1) {
+                var cookieval = document.cookie;
+                var zsource = "";
+                if (cookieval) {
+                    var arr = cookieval.split(";");
+                    if (arr.length) {
+                        for (var i = 0; i < arr.length; i++) {
+                            var keyval = arr[i].split("=");
+                            if (keyval.length && keyval[0].indexOf("zsource") !== -1) {
+                                zsource = keyval[1].trim();
+                            }
+                        }
+                    }
+                }
+                if (typeof( validZSource[zsource] !== "undefined" )) {
+                    LooperConfig['zsource'] = validZSource[zsource];
+                }
+            }
+
+            if (typeof( LooperConfig['zsource'] ) !== "undefined") {
+                LooperConfig['gaData']["dimension10"] = LooperConfig['zsource'];
+                                LooperConfig['ga4data']["zsource"] = LooperConfig['zsource'];
+                            }
+
+                            googletag.cmd.push(function() {
+        var device = LoopGalObj.device;
+        var sessionDepth = false;
 
-
-				</div><!-- #content -->
-				<ul class="instagram">
-	<li class="fr-instagram">
-		<div class="instagram-tiles"></div>
-		<a href="https://instagram.com/foodrepublic/"><span class="icon-instagram"></span></a>
-	</li>
-			<li>
-			<a href="https://instagram.com/p/7eacTYJAE_/" target="_blank">
-				<img src="foodrepublic_files/11934666_1639268629661603_1242602228_n.jpg">
-			</a>
-		</li>
-			<li>
-			<a href="https://instagram.com/p/7blacjpAF0/" target="_blank">
-				<img src="foodrepublic_files/11917987_415998425257230_1738256213_n.jpg">
-			</a>
-		</li>
-			<li>
-			<a href="https://instagram.com/p/7VfKMVpAF2/" target="_blank">
-				<img src="foodrepublic_files/11849873_116912751995050_253957990_n.jpg">
-			</a>
-		</li>
-			<li>
-			<a href="https://instagram.com/p/7TWQ1mJALu/" target="_blank">
-				<img src="foodrepublic_files/11371048_434549630061888_1218109224_n.jpg">
-			</a>
-		</li>
-			<li>
-			<a href="https://instagram.com/p/7S5HdCpABp/" target="_blank">
-				<img src="foodrepublic_files/11371118_1628619304082054_1861815879_n.jpg">
-			</a>
-		</li>
-			<li>
-			<a href="https://instagram.com/p/7RiXTxJAMU/" target="_blank">
-				<img src="foodrepublic_files/11899608_1596889897241007_1187536409_n.jpg">
-			</a>
-		</li>
-			<li>
-			<a href="https://instagram.com/p/7RZDNGpAJ8/" target="_blank">
-				<img src="foodrepublic_files/11821655_511429849033325_543520386_n.jpg">
-			</a>
-		</li>
-			<li>
-			<a href="https://instagram.com/p/7QUmlNpAE-/" target="_blank">
-				<img src="foodrepublic_files/1516082_1683497901900443_1984750295_n.jpg">
-			</a>
-		</li>
-			<li>
-			<a href="https://instagram.com/p/7QDgcmJAOH/" target="_blank">
-				<img src="foodrepublic_files/11899524_897852856960589_2132961088_n.jpg">
-			</a>
-		</li>
-			<li>
-			<a href="https://instagram.com/p/7OwNZ2JAPy/" target="_blank">
-				<img src="foodrepublic_files/11887263_1673349162878626_1104527469_n.jpg">
-			</a>
-		</li>
-			<li>
-			<a href="https://instagram.com/p/7OqcWZpAGt/" target="_blank">
-				<img src="foodrepublic_files/11906361_685166664949350_1705692347_n.jpg">
-			</a>
-		</li>
-	</ul>
-
-				<footer class="site-footer" role="contentinfo">
-											<div class="footer-row-top">
-							<div class="footer-row-inner">
-								<nav class="footer-nav-main">
-									<div class="footer-menu"><ul id="menu-footer-navigation-menu" class="menu"><li id="menu-item-48327" class="menu-item menu-item-type-taxonomy menu-item-object-section current-recipe-ancestor current-menu-parent current-recipe-parent menu-item-48327"><a href="http://www.foodrepublic.com/section/food/">Food</a></li>
-<li id="menu-item-48330" class="menu-item menu-item-type-taxonomy menu-item-object-section menu-item-48330"><a href="http://www.foodrepublic.com/section/drink/">Drink</a></li>
-<li id="menu-item-48329" class="menu-item menu-item-type-taxonomy menu-item-object-section menu-item-48329"><a href="http://www.foodrepublic.com/section/travel/">Travel</a></li>
-<li id="menu-item-48328" class="menu-item menu-item-type-taxonomy menu-item-object-section menu-item-48328"><a href="http://www.foodrepublic.com/section/people/">People</a></li>
-<li id="menu-item-48331" class="menu-item menu-item-type-taxonomy menu-item-object-section menu-item-48331"><a href="http://www.foodrepublic.com/section/design/">Design</a></li>
-<li id="menu-item-112871" class="menu-item menu-item-type-taxonomy menu-item-object-section menu-item-112871"><a href="http://www.foodrepublic.com/section/recipes/">Recipes</a></li>
-<li id="menu-item-112872" class="menu-item menu-item-type-taxonomy menu-item-object-section menu-item-112872"><a href="http://www.foodrepublic.com/section/video/">Video</a></li>
-</ul></div>								</nav>
-							</div>
-						</div>
-										<div class="footer-row-middle">
-						<div class="footer-row-inner">
-							<div class="footer-span">
-
-<div class="ng-isolate-scope" share="" context="footer" social-id="footer" links="{'facebook':{'link':'https:\/\/www.facebook.com\/F.Republic','name':'Facebook'},'twitter':{'link':'https:\/\/twitter.com\/foodrepublic','name':'Twitter'},'youtube':{'link':'https:\/\/www.youtube.com\/channel\/UChMQSj-xgMvQyErXj1b6ijQ','name':'YouTube'},'googleplus':{'link':'https:\/\/plus.google.com\/+FoodRepublic\/posts','name':'Google Plus'},'yummly':{'link':'http:\/\/www.yummly.com\/page\/food-republic','name':'Yummly'},'tumblr':{'link':'http:\/\/foodrepublic.tumblr.com\/','name':'Tumblr'},'pinterest':{'link':'https:\/\/www.pinterest.com\/foodrepublic\/','name':'Pinterest'},'stumbleupon':{'link':'http:\/\/www.stumbleupon.com\/stumbler\/foodrepublic','name':'StumbleUpon'},'rss':{'link':'http:\/\/feeds.feedburner.com\/foodrepublic','name':'RSS'}}"><div class="footer" ng-class="{open: vm.active}" ng-click="vm.trackStatus()"><!-- ngIf: 'archive' === vm.context --><!-- ngIf: 'archive' === vm.context --><div class="social-nav"><!-- ngIf: 'footer' === vm.context --><p class="ng-scope" ng-if="'footer' === vm.context"><strong>Follow</strong></p><!-- end ngIf: 'footer' === vm.context --><!-- ngIf: 'header' === vm.context --><ul class="pushable"><div class="social-expand-wrapper" ng-class="{open: vm.active}"><!-- ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://www.facebook.com/F.Republic" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://www.facebook.com/F.Republic"><span class="icon-facebook"></span> <span class="text ng-binding">Facebook</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://twitter.com/foodrepublic" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://twitter.com/foodrepublic"><span class="icon-twitter"></span> <span class="text ng-binding">Twitter</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://www.youtube.com/channel/UChMQSj-xgMvQyErXj1b6ijQ" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://www.youtube.com/channel/UChMQSj-xgMvQyErXj1b6ijQ"><span class="icon-youtube"></span> <span class="text ng-binding">YouTube</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://plus.google.com/+FoodRepublic/posts" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://plus.google.com/+FoodRepublic/posts"><span class="icon-googleplus"></span> <span class="text ng-binding">Google Plus</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope hidden" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="http://www.yummly.com/page/food-republic" class="ng-scope" ng-if="network !== 'printer'" ng-href="http://www.yummly.com/page/food-republic"><span class="icon-yummly"></span> <span class="text ng-binding">Yummly</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope hidden" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="http://foodrepublic.tumblr.com/" class="ng-scope" ng-if="network !== 'printer'" ng-href="http://foodrepublic.tumblr.com/"><span class="icon-tumblr"></span> <span class="text ng-binding">Tumblr</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope hidden" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="https://www.pinterest.com/foodrepublic/" class="ng-scope" ng-if="network !== 'printer'" ng-href="https://www.pinterest.com/foodrepublic/"><span class="icon-pinterest"></span> <span class="text ng-binding">Pinterest</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope hidden" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="http://www.stumbleupon.com/stumbler/foodrepublic" class="ng-scope" ng-if="network !== 'printer'" ng-href="http://www.stumbleupon.com/stumbler/foodrepublic"><span class="icon-stumbleupon"></span> <span class="text ng-binding">StumbleUpon</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><li class="ng-scope hidden" ng-repeat="network in vm.notSorted(vm.links)" ng-init="info = vm.links[network]" ng-click="vm.trackEvent('share', network, vm.socialId)" ng-class="{hidden: vm.isHidden($index)}"><!-- ngIf: network !== 'printer' --><a href="http://feeds.feedburner.com/foodrepublic" class="ng-scope" ng-if="network !== 'printer'" ng-href="http://feeds.feedburner.com/foodrepublic"><span class="icon-rss"></span> <span class="text ng-binding">RSS</span></a><!-- end ngIf: network !== 'printer' --> <!-- ngIf: network === 'printer' --></li><!-- end ngRepeat: network in vm.notSorted(vm.links) --><!-- ngIf: 'footer' === vm.context --><li class="footer-more ng-scope" ng-if="'footer' === vm.context" ng-click="vm.footerSocialHide = !vm.footerSocialHide"><p>More <span class="icon-chevron-down" ng-class="{'icon-chevron-down': vm.footerSocialHide, 'icon-chevron-up': !vm.footerSocialHide}"></span></p></li><!-- end ngIf: 'footer' === vm.context --></div><!-- ngIf: 'single' === vm.context || 'slideshow' === vm.context --></ul></div></div></div>
-								<div class="footer-newsletter newsletter-signup">
-									<p><strong>Get the Latest from Food Republic</strong></p>
-																			<div class="wrap-form-newsletter">
-	<form class="mailchimp-ajax ng-pristine ng-valid" id=""> <!-- mailchimp_ajax_form_id -->
-		<div class="custom-fields-container fields">
-			 <!-- mailchimp_ajax_custom_fields_html -->
-		</div>
-		<div class="email-field-container fields">
-			<input class="email-field" id="newsletter-email" name="subscribe-email" placeholder="Email Address" type="email"> <!-- mailchimp_ajax_email_field -->
-			<input name="subscribe-nonce" value="bad38d16ae" type="hidden">
-			<input value="Sign Up" type="submit"> <!-- mailchimp_ajax_subscribe_button -->
-		</div>
-
-		<div class="response error">
-			<ul>
-			</ul>
-			<a href="#">Try again</a> <!-- mailchimp_ajax_error_msg -->
-		</div>
-
-		<div class="response success">
-			<p>Success! Check your email for a confirmation link.</p> <!-- mailchimp_ajax_success_msg -->
-		</div>
-	</form>
-</div>
-																	</div>
-							</div>
-						</div>
-					</div>
-					<div class="footer-row-bottom">
-						<div class="footer-row-inner">
-							<div class="footer-span">
-								<nav class="site-info">
-									<div class="menu-footer-secondary-navigation-container"><ul id="menu-footer-secondary-navigation" class="menu"><li id="menu-item-48347" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48347"><a href="http://www.foodrepublic.com/">Home</a></li>
-<li id="menu-item-48350" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48350"><a href="http://www.foodrepublic.com/about/">About</a></li>
-<li id="menu-item-112934" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112934"><a href="http://www.foodrepublic.com/food-republic-team/">Team</a></li>
-</ul></div>								</nav><!-- .site-info -->
-								<p class="copyright"><strong>© 2015 Food Republic. All Rights Reserved.</strong></p>
-							</div>
-						</div>
-					</div>
-				</footer><!-- #colophon -->
-			</div><!-- #page -->
-
-			<div class="modal-newsletter">
-				<div class="newsletter-toggle" ng-click="vm.toggleNewsletter()">Get the Latest!</div>
-
-<div class="newsletter-overlay" ng-class="{open: vm.newsletter}" ng-click="vm.toggleNewsletter()"></div>
-<div class="newsletter-signup" ng-class="{open: vm.newsletter}">
-	<div class="newsletter-content">
-		<span class="icon-cross" ng-click="vm.toggleNewsletter()"></span>
-		<div class="newsletter-tiles"></div>
-		<p class="newsletter-cta">Sign up now for the best of Food Republic, delivered to your inbox every Thursday.</p>
-
-					<div class="wrap-form-newsletter">
-	<form class="mailchimp-ajax ng-pristine ng-valid" id=""> <!-- mailchimp_ajax_form_id -->
-		<div class="custom-fields-container fields">
-			 <!-- mailchimp_ajax_custom_fields_html -->
-		</div>
-		<div class="email-field-container fields">
-			<input class="email-field" id="newsletter-email" name="subscribe-email" placeholder="Email Address" type="email"> <!-- mailchimp_ajax_email_field -->
-			<input name="subscribe-nonce" value="bad38d16ae" type="hidden">
-			<input value="Sign Up" type="submit"> <!-- mailchimp_ajax_subscribe_button -->
-		</div>
-
-		<div class="response error">
-			<ul>
-			</ul>
-			<a href="#">Try again</a> <!-- mailchimp_ajax_error_msg -->
-		</div>
-
-		<div class="response success">
-			<p>Success! Check your email for a confirmation link.</p> <!-- mailchimp_ajax_success_msg -->
-		</div>
-	</form>
-</div>
-			</div>
-</div>
-			</div>
-
-			<div class="sticky-newsletter" ng-class="{open: vm.stickyNewsletter}">
-				<div class="newsletter-toggle" ng-click="vm.stickyNewsletter = !vm.stickyNewsletter">Get the Latest!</div>
-
-<div class="newsletter-overlay" ng-class="{open: vm.newsletter}" ng-click="vm.toggleNewsletter()"></div>
-<div class="newsletter-signup" ng-class="{open: vm.newsletter}">
-	<div class="newsletter-content">
-		<span class="icon-cross" ng-click="vm.toggleNewsletter()"></span>
-		<div class="newsletter-tiles"></div>
-		<p class="newsletter-cta">Sign up now for the best of Food Republic, delivered to your inbox every Thursday.</p>
-
-					<div class="wrap-form-newsletter">
-	<form class="mailchimp-ajax ng-pristine ng-valid" id=""> <!-- mailchimp_ajax_form_id -->
-		<div class="custom-fields-container fields">
-			 <!-- mailchimp_ajax_custom_fields_html -->
-		</div>
-		<div class="email-field-container fields">
-			<input class="email-field" id="newsletter-email" name="subscribe-email" placeholder="Email Address" type="email"> <!-- mailchimp_ajax_email_field -->
-			<input name="subscribe-nonce" value="bad38d16ae" type="hidden">
-			<input value="Sign Up" type="submit"> <!-- mailchimp_ajax_subscribe_button -->
-		</div>
-
-		<div class="response error">
-			<ul>
-			</ul>
-			<a href="#">Try again</a> <!-- mailchimp_ajax_error_msg -->
-		</div>
-
-		<div class="response success">
-			<p>Success! Check your email for a confirmation link.</p> <!-- mailchimp_ajax_success_msg -->
-		</div>
-	</form>
-</div>
-			</div>
-</div>
-			</div>
-
-
-		<!-- /// LOAD CHARTBEAT /// -->
-		<script type="text/javascript">
-		var _sf_async_config={};
-		_sf_async_config.uid = 19539;
-		_sf_async_config.useCanonical = true;
-
-		(function(){
-		  function loadChartbeat() {
-			window._sf_endpt=(new Date()).getTime();
-			var e = document.createElement('script');
-			e.setAttribute('language', 'javascript');
-			e.setAttribute('type', 'text/javascript');
-			e.setAttribute('src',
-			   (("https:" == document.location.protocol) ? "https://" : "http://") +
-			   "static.chartbeat.com/js/chartbeat.js");
-			document.body.appendChild(e);
-		  }
-		  var oldonload = window.onload;
-		  window.onload = (typeof window.onload != 'function') ?
-			 loadChartbeat : function() { try { oldonload(); } catch (e) { loadChartbeat(); throw e} loadChartbeat(); };
-		})();
-		</script>
-				<!-- START Parse.ly Include: Standard -->
-		<div id="parsely-root" style="display: none">
-			<div id="parsely-cfg" data-parsely-site="foodrepublic.com"></div>
-		<script src="foodrepublic_files/p.js" async="" id="parsely-script"></script></div>
-		<script>
-		(function(s, p, d) {
-		var h=d.location.protocol, i=p+"-"+s,
-		e=d.getElementById(i), r=d.getElementById(p+"-root"),
-		u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
-		:"static."+p+".com";
-		if (e) return;
-		e = d.createElement(s); e.id = i; e.async = true;
-		e.src = h+"//"+u+"/p.js"; r.appendChild(e);
-		})("script", "parsely", document);
-		</script>
-		<!-- END Parse.ly Include -->
-		<script type="text/javascript" src="foodrepublic_files/photon.js"></script>
-<script type="text/javascript" src="foodrepublic_files/devicepx-jetpack.js"></script>
-<script type="text/javascript" src="foodrepublic_files/mailchimpAjax.js"></script>
-		</div><!-- .content-wrapper -->
-
-
-<script src="foodrepublic_files/chartbeat.js" type="text/javascript" language="javascript"></script><div class="kxhead" data-id="J7SDAItO" style="display:none !important;"><span class="kxtag kxinvisible" data-id="31772" data-alias="TheTradeDesk User Matching"><script>
-(function()
-{ var i = new Image(); i.src = '//match.adsrvr.org/track/cmf/generic?ttd_pid=krux&ttd_tpi=1'; }
-)();
-</script></span><span class="kxtag kxinvisible" data-id="39622" data-alias="PubMatic User Match"><!--PubMatic Universal Pixel tag (Javascript) -->
-
-<script type="text/javascript">
-var pubId=65468;
-var pixId=229;
-</script>
-<script type="text/javascript" src="foodrepublic_files/universalpixel.html"></script></span><span class="kxtag kxinvisible" data-id="50227" data-alias="Webbula provider tag"></span><span class="kxtag kxinvisible" data-id="57661" data-alias="Nielsen - Precision Marketing (via Exelate) provid"></span><span class="kxtag kxinvisible" data-id="57662" data-alias="Nielsen Consumer Activation (via Exelate) provider"><script>
-// Blank
-</script></span><span class="kxtag kxinvisible" data-id="35412" data-alias="Acxiom S2S provider tag"><script>
-(function(){
-  var kuid = Krux('get', 'user');
-  if (kuid) {
-      var liveramp_url = 'https://idsync.rlcdn.com/379708.gif?partner_uid=' + kuid;
-      var i = new Image();
-      i.src = liveramp_url;
-  }
-})();
-</script></span><span class="kxtag kxinvisible" data-id="35413" data-alias="IXI Digital Open Market provider tag"><script>
-  Krux('require:http').pixel({
-    url: "//s.ixiaa.com/digi/C726AB29-0470-440B-B8D2-D552CED3A3DC/a.gif"
-  });
-</script></span><span class="kxtag kxinvisible" data-id="31324" data-alias="Technographic Data provider tag"><script>
-// this tag is intentionally blank
-</script></span><span class="kxtag kxinvisible" data-id="31325" data-alias="Krux Geographic Data provider tag"></span><span class="kxtag kxinvisible" data-id="35452" data-alias="Visual DNA () provider tag"><script>
-
-(function() {
-    (new Image()).src = "//apiservices.krxd.net/um?partner=vdna&r=" + window.location.protocol + "//e.visualdna.com/conversion&_kdpid=8f95f20d-4acf-43fc-9832-3f5174a166cc";
-})();
-
-</script></span><span class="kxtag kxinvisible" data-id="39620" data-alias="Madison Logic provider tag"><script>
-
-(function () {
-_ml = window._ml || {};
-_ml.pub = '748';
-_ml.redirect = '//beacon.krxd.net/usermatch.gif?partner=madisonlogic&partner_uid=[PersonID]';
-var s = document.getElementsByTagName('script')[0], cd = new Date(), mltag = document.createElement('script');
-mltag.type = 'text/javascript'; mltag.async = true;
-mltag.src = '//ml314.com/tag.aspx?' + cd.getDate() + cd.getMonth() + cd.getFullYear();
-s.parentNode.insertBefore(mltag, s);
-})();
-
-</script></span><span class="kxtag kxinvisible" data-id="31688" data-alias="Krux Track Social"><script type="text/javascript">Krux('social.init');</script></span><span class="kxtag kxinvisible" data-id="43721" data-alias="WhoToo Partner Network provider tag"></span><span class="kxtag kxinvisible" data-id="31699" data-alias="AdAdvisor S2S provider tag"><img class="hpfrprrnrhgkagefljvc" src="foodrepublic_files/g.gif"></span><span class="kxtag kxinvisible" data-id="31700" data-alias="DataLogix provider tag"><script>
-    (function() {
-        var kuid = Krux('get', 'user');
-        if (kuid) {
-            var prefix = location.protocol == 'https:' ? "https:" : "http:";
-            var kurl_params = encodeURIComponent("_kuid=" + kuid + "&_kdpid=2dd640a6-6ebd-4d4f-af30-af8baa441a0d&dlxid=<na_id>&dlxdata=<na_da>");
-            var kurl = prefix + "//beacon.krxd.net/data.gif?" + kurl_params;
-            var dlx_url = '//r.nexac.com/e/getdata.xgi?dt=br&pkey=gpwn29rvapq62&ru=' + kurl;
-            var i = new Image();
-            i.src = dlx_url;
+        var bidpos = "";
+        var bidposprefix = "";
+                bidposprefix = "inf-";
+                bidpos += device + "-";
+        if (device == "tablet") {
+            bidpos += "landscape-"
         }
-    })();
-</script></span><span class="kxtag kxinvisible" data-id="31701" data-alias="eXelate Media provider tag"><script>
-(function(){
-  var kuid = Krux('get', 'user');
-  if (kuid) {
-    Krux('require:http').pixel({
-      url: "//loadm.exelator.com/load",
-      data: {
-          _kdpid: 'e4942ff0-4070-4896-a7ef-e6a5a30ce9f9',
-          buid: kuid,
-          p: '204',
-          g: '270',
-          j: '0'
-      }});
-  }
-  })();
-</script></span><span class="kxtag kxinvisible" data-id="66839" data-alias="TubeMogul Custom Connect"></span><span class="kxtag kxinvisible" data-id="66108" data-alias="AppNexus Custom Connect"><script>
-(function(){
-        var kuid = Krux('get', 'user');
-        if (kuid) {
-            var prefix = location.protocol == 'https:' ? "https:" : "http:";
-            var kurl = prefix + '//beacon.krxd.net/usermatch.gif?adnxs_uid=$UID';
-            var appnexus_url = '//ib.adnxs.com/getuid?' + kurl
-            var i = new Image();
-            i.src = appnexus_url;
-        }
-})();
-</script></span><span class="kxtag kxinvisible" data-id="33905" data-alias=" Vice Data Transfer Code"><script>
-    (function() {
-        // for loop to define subdomain
-        if (window._sf_async_config) {
-            var cb = _sf_async_config;
-        }
-        var a = ["fightland", "i-d", "motherboard", "munchies", "news", "noisey", "sports", "thecreatorsproject", "thump", "www"];
-        var s;
+        bidpos += "sidebar-docked";
 
-        for (var i = 0; i < a.length; i++) {
-            // a[i] is the first object found
-            if (window.location.host.split('.')[0] == a[i]) {
-                s = a[i];
-                break;
-            }
-        }
+        googletag.pubads().setTargeting('postID', ["20679"]);
+                googletag.pubads().setTargeting('category', ["news"]);
+                googletag.pubads().setTargeting('pageType', [""]);
+        googletag.pubads().setTargeting("device", [device]);
+        googletag.pubads().setTargeting( "pageLayout", LooperConfig.gaData['dimension1'] );
+        googletag.pubads().setTargeting( "contentType", LooperConfig.gaData['dimension2'] );
+        var sizes = [];
+    
+        if ( typeof( LooperConfig['zsource'] ) !== "undefined" ) {
+    googletag.pubads().setTargeting("zsource", LooperConfig['zsource']);
+}
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+    });
 
-        s = "www" === s ? "vice" : s;
+    LooperConfig.clip = {"readmore":{"text":"Read More: "},"followus":{"text":"Follow Us: ","enabled":0},"visitus":{"text":"Visit Us At: ","enabled":0}};
 
-        // Defining cleanTag of "keywords" - Only used on Noisey and Thump
-        if (s == "noisey" || "thump") {
-            var tags = document.getElementsByClassName("tag");
-            var cleanTag = [];
-            for (i = 0; i < tags.length; i++) {
-                cleanTag[i] = tags[i].getElementsByTagName("a")[0].innerHTML;
-            }
-        }
-
-        // Allows for domain to be dynamically placed in DTC
-        var scrape = function(key, desc) {
-            var conf = {};
-            conf[key] = desc;
-            Krux('scrape', conf);
-        };
-        if (window.cb) {
-            // Using subdomain to dynamically scrape page attribute Chartbeat section
-            Krux('set', 'page_attr_' + s + '_section', cb.sections);
-
-            // Using subdomain to dynamically scrape page attribute Chartbeat author
-            Krux('set', 'page_attr_' + s + '_author', cb.authors);
-        }
-
-        if (s == "thump" || "noisey") {
-            // Using subdomain to dynamically scrape page attribute cleanTag
-            Krux('set', 'page_attr_' + s + '_cleanTag', cleanTag);
-        }
-
-        // Using subdomain to dynamically scrape page attribute keywords
-        scrape('page_attr_' + s + '_keywords', {
-            meta_name: 'keywords'
-        });
-
-        // Using subdomain to dynamically scrape page attribute article:section
-        scrape('page_attr_' + s + '_meta-section', {
-            meta_property: 'og:article:section'
-        });
-
-        // Using subdomain to dynamically scrape page attribute article:author
-        scrape('page_attr_' + s + '_meta-author', {
-            meta_property: 'og:article:author'
-        });
-
-        if (s == "vice") {
-            Krux('scrape', {
-                'page_attr_vice_adunit1': {
-                    meta_property: 'kxadunit1'
-                },
-
-                'page_attr_vice_adunit2': {
-                    meta_property: 'kxadunit2'
-                }
-            });
-        }
-
-        //Data Transfer Code for All Vice Sites
-
-        // Using ChartBeat sections to produce page attribute sections, authors and title for all sites
-        if (window.cb) {
-            Krux('set', {
-                page_attr_all_sections: cb.sections,
-                page_attr_all_authors: cb.authors,
-                page_attr_all_title: cb.title
-            });
-        }
-
-        // Using Meta keywords to produce page attribute keywords for all sites
-        Krux('scrape', {
-            'page_attr_all_keywords': {
-                meta_name: 'keywords'
-            }
-        });
-
-        // Using Meta og:article:section to produce page attribute meta_section for all sites
-        Krux('scrape', {
-            'page_attr_all_meta_section': {
-                meta_property: 'og:article:section'
-            }
-        });
-
-        // Using URL Param to produce page attribute Advertising utm
-        Krux('scrape', {
-            'page_attr_utmSource': {
-                url_param: 'utm_source'
-            }
-        });
-
-        // Using UrlPath 1 to produce user attribute url_path_1
-        Krux('scrape', {
-            'page_attr_url_path_1': {
-                url_path: '1'
-            },
-            // Using UrlPath 2 to produce user attribute url_path_2
-            'page_attr_url_path_2': {
-                url_path: '2'
-            }
-        });
-        // Using "show" Variable and SuperTag to define show.
-        if (window.show) {
-            Krux('set', 'page_attr_show', show);
-        }
-    })();
-</script></span><span class="kxtag kxinvisible" data-id="67204" data-alias="Flashtalking Usermatch Pixel"><script>
-(function(){
-        var kuid = Krux('get', 'user');
-        var prefix = window.location.protocol == 'https:' ? 'https:' : 'http:';
-        if (kuid) {
-           var url = '//servedby.flashtalking.com/map/?key=ad919e4f211cr5452615&url='
-                     + prefix
-                     + '//beacon.krxd.net/usermatch.gif?partner=flashtalking&partner_uid=[%FT_GUID%]';
-           (new Image()).src = url;
-        }
-})();
-</script></span><span class="kxtag kxinvisible" data-id="64970" data-alias="Datalogix Custom User Sync"><script>
-    (function() {
-        var kuid = Krux('get', 'user');
-        if (kuid) {
-            var prefix = location.protocol == 'https:' ? "https:" : "http:";
-            var kurl_params = encodeURIComponent("_kuid=" + kuid + "&_kdpid=d7158cb7-a851-4e3c-b7ab-cc9e815b2399&dlxid=<na_id>&dlxdata=<na_da>");
-            var kurl = prefix + "//beacon.krxd.net/data.gif?" + kurl_params;
-            var dlx_url = '//r.nexac.com/e/getdata.xgi?dt=br&pkey=gwjn34gwjnh86&ru=' + kurl;
-            var i = new Image();
-            i.src = dlx_url;
-        }
-    })();
-</script></span><span class="kxtag kxinvisible" data-id="62414" data-alias="Google User Matching"><script>
-(function(){
-  var kuid = Krux('get', 'user');
-  if (kuid && typeof kuid != 'undefined') {
-      var prefix = location.protocol == 'https:' ? "https:" :"http:";
-      var r_url = prefix + '//cm.g.doubleclick.net/pixel'
-      var kurl = prefix + '//apiservices.krxd.net/um?partner=google&r=' + r_url;
-      var i = new Image();
-      i.src = kurl;
-  }
-})();
-</script></span><span class="kxtag kxinvisible" data-id="64861" data-alias="Test Yahoo! DataX"><script>
-(function(){
-    var kuid = Krux('get', 'user');
-        if (kuid) {
-            var prefix = 'https:';
-            var rurl = prefix + '//cms.analytics.yahoo.com/cms?partner_id=KRUX';
-            var i = new Image();
-            i.src = rurl;
-        }
-})();
-</script></span><span class="kxtag kxinvisible" data-id="64862" data-alias="Test LiveRamp User Matching"><script>
-(function(){
-  var kuid = Krux('get', 'user');
-  if (kuid) {
-      var liveramp_url = 'https://idsync.rlcdn.com/379708.gif?partner_uid=' + kuid;
-      var i = new Image();
-      i.src = liveramp_url;
-  }
-})();
-</script></span></div></body></html>
+    var apn_csa = apn_csa || {};
+    apn_csa.anq = apn_csa.anq || [];            
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+                        ga('create', 'UA-17686165-1', 'auto');
+            
+            ga('send', 'pageview', LooperConfig['gaData']);
+            if ( LooperConfig['gaData']["dimension7"] ) {
+                ga('send', 'event', 'AdBlock');
+            }
+                        gtag("config", LooperConfig.ga4tag, LooperConfig.ga4data);
+            gtag("event", "page_view");
+            
+                        !(function(o,_name){function n(){(n.q=n.q||[]).push(arguments)}n.v=1,o[_name]=o[_name]||n;!(function(o,t,n,c){function e(n){(function(){try{return(localStorage.getItem("v4ac1eiZr0")||"").split(",")[4]>0}catch(o){}return!1})()&&(n=o[t].pubads())&&n.setTargeting("admiral-engaged","true")}(c=o[t]=o[t]||{}).cmd=c.cmd||[],typeof c.pubads===n?e():typeof c.cmd.unshift===n?c.cmd.unshift(e):c.cmd.push(e)})(window,"googletag","function");})(window,String.fromCharCode(97,100,109,105,114,97,108));!(function(t,c,i){i=t.createElement(c),t=t.getElementsByTagName(c)[0],i.async=1,i.src="https://financefear.com/static/8e639ea6999/3241e6fe99a7cbf82bec88d82",t.parentNode.insertBefore(i,t)})(document,"script");
+            (function(){
+                if ( typeof( window.admiral ) !== "undefined" ) {
+                    window.admiral("after", "measure.detected", function(user) {
+                        let eventLabel;
+                        if (user.adblocking) {
+                            eventLabel = "blocked";
+                        }
+                        if (user.whitelisted) {
+                            eventLabel = "whitelisted";
+                        }
+                        if (user.subscribed) {
+                            eventLabel = "subscribed";
+                        }
+                        // Only fire GA event if eventLabel is defined so we're not firing events for regular users.
+                        if (eventLabel) {
+                            ga("send", "event", "Admiral", "pageview", eventLabel, {
+                                nonInteraction: true
+                            });
+                        }
+                    });
+                }
+            })();
+                    };
+                var config = {};
+                                LoopGalObj = new LoopGal( config );
+
+        var loopAdsConfig = {
+            ready: LooperReady
+        };
+                if ( typeof( pbjs ) !== "undefined" && typeof( pbjs.que ) !== "undefined" ) {
+            pbjs.que.push(function() {
+                pbjs.bidderSettings = {
+                    criteo: {
+                        storageAllowed: true
+                    },
+                    grid: {
+                        storageAllowed: true
+                    },
+                };
+                pbjs.setConfig({
+                                        userSync: {
+                        filterSettings: {
+                            iframe: {
+                                bidders: '*',
+                                filter: 'include'
+                            }
+                        },
+                            iframeEnabled: true
+                    },
+                    priceGranularity: {
+                        "buckets": [
+                            {
+                                "precision": 2,
+                                "min": 0,
+                                "max": 10,
+                                "increment": 0.01
+                            },
+                            {
+                                "precision": 2,
+                                "min": 10,
+                                "max": 20,
+                                "increment": 0.05
+                            },
+                            {
+                                "precision": 2,
+                                "min": 20,
+                                "max": 50,
+                                "increment": 0.5
+                            }
+                        ]
+                    }
+                });
+            });
+        }
+
+                                    Looper = new LoopAds( loopAdsConfig );
+            })();
+</script>
+
+
+<script defer src="https://static.vidazoo.com/basev/vwpt.js" data-widget-id="64df28964d32cf672ce48ba6" data-on-widget-ad-impression="onVidazooWidgetAdImpressionCallback"></script>
+
+    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="b9b796b7-bd4d-408d-866e-c920b86bb0fb" ></script>
+    <script type="text/javascript">
+        function OptanonWrapper() { }
+    </script>
+
+
+</body>
+</html>

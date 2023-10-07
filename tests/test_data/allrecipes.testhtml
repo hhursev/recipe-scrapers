@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id="recipeScTemplate_1-0" class="comp no-js taxlevel-4   recipeScTemplate html mntl-html" data-ab="99,82,99,99,70,54,99,99,63,99" data-resource-version="1.115.0" lang="en" data-lazy-offset="200" data-mantle-resource-version="3.14.294" data-allrecipes-resource-version="1.115.0" data-tracking-container="true">				
+<html id="recipeScTemplate_1-0" class="comp no-js taxlevel-4   recipeScTemplate html mntl-html" data-ab="99,82,99,99,71,54,99,99,63,99" data-resource-version="1.115.0" lang="en" data-lazy-offset="200" data-mantle-resource-version="3.14.294" data-allrecipes-resource-version="1.115.0" data-tracking-container="true">				
 <!--
 <globe-environment environment="k8s-prod" application="allrecipes" dataCenter="us-east-1"/>
 -->
@@ -139,11 +139,11 @@ display: none;
 display: none;
 }</style>
 					
-					<script type="text/javascript" data-glb-js="top" src="/static/1.115.0/cache/eNqFk2FuwyAMhS80xhm2qdqvSlXVCxBwiBsCmW0ytacfiaau7WgqRVHi9xmM_dAsRtDqwUQJoG0axhQhCutgTimLPnJ5lO3A9i_6Fj7O0PnEeIZCpNiiv0d-_wI2fIPXlkrGgasINqUeqylZMKDUtTaqNdmlYVU3bgtCaPlAxvZAFeRzd6hEJ4gukZaOkpRQhSAoTIZlYYy-QgzlQzUEph8TlllckLmwEAgsjqXlD-u_mqJlapdXZZsxN5ybivCx3VWi-8N7JSrzMfbSbCa4rvTqMObUwEqFxi3WyBG_MigOSdRskecZYsiDlA4qNi0EZLnk_If9KLUOGA9qQvhe2c3LsLgwoO2VPBjavc_5NccJMHTFu2vjYaFsJRO4-QJJic3pbFUp-3kHCH0nigyG5yyW6xlRQP0lqQKXBlDVoy0Bd6YJ8Ob4B5HEkNU.min.js"></script>
+					<script type="text/javascript" data-glb-js="top" src="/static/1.115.0/cache/eNqFk21OwzAMhi9EyBkAIX4hTdMukA839ZomJXaKttPjTmhsI-ukqmr9Pk6c144mNoxOjyZxBO3yOOUEiUlHc8iV9Z7kUa4HNzzpa3i_QMcD4RGEyKnDcIv8_kW0dIW3lsrGg28ILucBmymVMSK3tS6pNdnncVX_2Owa0RmSz0VzXzJLqEEUEKbCrhg3YAoNYpQPZQuYYcooRp8R0UyMBRxO4ufd4i5a5Kh0p1djm6laqrYhvH1uGtHt7rUR5eUYW7bvM1xWenEYc7CwUqHxp77XhF8VFMXMaun_4ww2JQCLg4pMBxGJzzn_4TBxywETQM0I3yu7BR5PIxbRDYrvNO12iOm5phkw9jKYa-0hLtVxLeCX28ESW9LJKSn7sQMFQ8-qGIyPWZS7l5BB_SUpgcWA0pzRrgD1xkZ48fQDpr2Dnw.min.js"></script>
 
 					
 					<script type="text/javascript">var Mntl = window.Mntl || {};window.Mntl = window.Mntl || {};
-window.Mntl.csrf = window.Mntl.csrf || window.Mntl.csrfInit('b84f40a8637d6b43ecde1e2a040dc9f1', true);(function() {
+window.Mntl.csrf = window.Mntl.csrf || window.Mntl.csrfInit('0bcdd66777eef0f3b34cdbfb3de8a78c', true);(function() {
     Mntl.utilities.onLoad(function() {
         var geolocationResponse = {};
         const externalJS = {
@@ -195,8 +195,8 @@ customSeries: ''
 ,abtest: 'lcid1'
 ,tax0: 'Allrecipes'
 ,custom: ''
-,rid: 'n8430c03745784d719861565919dc177500'
-,sid: 'n8430c03745784d719861565919dc177500'
+,rid: 'n38531393a0eb424183a465fea7bd025f20'
+,sid: 'n38531393a0eb424183a465fea7bd025f20'
 }
 ;
 const baseSlotTargeting = {
@@ -274,7 +274,7 @@ domain: 'www.allrecipes.com',
 templateName: 'recipesc',
 isMobile: false,
 dfpId: '3865',
-publisherProvidedId: 'cddfdc8c-966c-459c-9f4b-14225faf2e38',
+publisherProvidedId: '8421bbad-86e2-4b68-b0c2-3afef96b6ced',
 singleRequest: false,
 useLmdFormat: true,
 useOxygen: true,
@@ -299,7 +299,7 @@ displayOnConsent: true,
 adsToCollapse: ['leaderboard*','square*']
 };
 if (Mntl.AdMetrics) {
-Mntl.AdMetrics.init("6586301", "n8430c03745784d719861565919dc177500", initialSlots.map(slot => slot.config.id), Date.now());
+Mntl.AdMetrics.init("6586301", "n38531393a0eb424183a465fea7bd025f20", initialSlots.map(slot => slot.config.id), Date.now());
 } else {
 Mntl.AdMetrics = { pushMetrics: () => {} };
 }
@@ -335,13 +335,13 @@ event: 'ab-proctor',
 : "pushlyNotifications | active | Active: Pushly enabled | 1"
 ,
 "99-2"
-: "orion | active | Active | 1"
+: "orion | control | Control | 0"
 ,
 "99-3"
 : "useFloorSearch | active | search API flooring system | 1"
 ,
-"70"
-: "mobileStickySearchRecipeSC | control | Control: Do not show sticky search | 0"
+"71"
+: "mobileStickySearchRecipeSC | active | Active: Show sticky search | 1"
 ,
 "54"
 : "lazyloadOffsetTimeoutDesktop | control | Default payload (inactive) | 0"
@@ -423,7 +423,7 @@ win.addEventListener(event[0], event[1], { once: true });
 });
 })(window || {}, Mntl.fnUtilities || {}, Mntl.CMP);window.dataLayer = window.dataLayer || [];
 (function() {
-var pageViewDataAsJSON = {"country":"US","description":"These delicious four cheese pizzas are bursting with flavor, and ready in under one hour.","authorId":"1015024","title":"Four Cheese Margherita Pizza Recipe" || document.title || '',"muid":"cddfdc8c-966c-459c-9f4b-14225faf2e38","documentId":6586301,"templateId":"120","lastEditingAuthorId":"1015024","lastEditingUserId":"151378030080892","contentGroup":"Other","revenueGroup":"","templateName":"RECIPESC","viewType":"BROADVIDEO","fullUrl":"https://www.allrecipes.com/recipe/133948/four-cheese-margherita-pizza/" + location.hash,"experienceType":"single page","entryType":"direct","excludeFromComscore":false,"internalSessionId":"n8430c03745784d719861565919dc177500","internalRequestId":"n8430c03745784d719861565919dc177500","hid":"","experienceTypeName":"","recircDocIdsFooter":"S-7971911|S-7255338|S-6574612|S-6569204|S-6737021|S-6650739|S-6567179|S-6568220","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"3.14.294","commerceVersion":"","primaryTaxonomyIds":"6502448|6651953|6651964|6653161|6653052","primaryTaxonomyNames":"Allrecipes|Recipes|Cuisine|European|Italian"};
+var pageViewDataAsJSON = {"country":"US","templateName":"RECIPESC","documentId":6586301,"templateId":"120","lastEditingAuthorId":"1015024","lastEditingUserId":"151378030080892","contentGroup":"Other","muid":"8421bbad-86e2-4b68-b0c2-3afef96b6ced","title":"Four Cheese Margherita Pizza Recipe" || document.title || '',"authorId":"1015024","revenueGroup":"","viewType":"BROADVIDEO","experienceTypeName":"","recircDocIdsFooter":"S-7971911|S-7255338|S-6574612|S-6569204|S-6737021|S-6650739|S-6567179|S-6568220","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"3.14.294","commerceVersion":"","primaryTaxonomyIds":"6502448|6651953|6651964|6653161|6653052","primaryTaxonomyNames":"Allrecipes|Recipes|Cuisine|European|Italian","fullUrl":"https://www.allrecipes.com/recipe/133948/four-cheese-margherita-pizza/" + location.hash,"experienceType":"single page","entryType":"direct","excludeFromComscore":false,"internalSessionId":"n38531393a0eb424183a465fea7bd025f20","internalRequestId":"n38531393a0eb424183a465fea7bd025f20","hid":"","description":"These delicious four cheese pizzas are bursting with flavor, and ready in under one hour."};
 var scrolledPageData = {};
 var scrolledDocOrdinal;
 var scrolledPage;
@@ -3707,7 +3707,7 @@ Print
 </svg>
 </button>
 <input type="hidden" value="true" name="print" />
-<input type="hidden" value="b84f40a8637d6b43ecde1e2a040dc9f1" name="CSRFToken" />
+<input type="hidden" value="0bcdd66777eef0f3b34cdbfb3de8a78c" name="CSRFToken" />
 </form><!-- end: comp print-button mntl-print-button -->
 </div>
 <div class="mntl-recipe-social-share__share-wrapper">
@@ -4083,7 +4083,7 @@ Print
 </svg>
 </button>
 <input type="hidden" value="true" name="print" />
-<input type="hidden" value="b84f40a8637d6b43ecde1e2a040dc9f1" name="CSRFToken" />
+<input type="hidden" value="0bcdd66777eef0f3b34cdbfb3de8a78c" name="CSRFToken" />
 </form><!-- end: comp recipe-rate-print__print-button print-button mntl-print-button -->
 </div><!-- end: comp recipe-rate-print mntl-recipe-rate-print mntl-block -->
 <div id="recipe__nutrition-facts_1-0" class="comp recipe__nutrition-facts mntl-nutrition-facts mntl-block">
@@ -5808,13 +5808,13 @@ window.Mntl.externalizeLinks.addPlugin(window.Mntl.amazonAffiliateTagger);
 window.Mntl.externalizeLinks.init();window.Mntl.affiliateLinkRewriter.setMappings( {
 DOC_ID: '6586301'
 ,SITE: 'allrecipes'
-,REQUEST_ID: 'n8430c03745784d719861565919dc177500'
+,REQUEST_ID: 'n38531393a0eb424183a465fea7bd025f20'
 }
 );
 (function() {
 var article = document.getElementById('allrecipes-article_1-0');
 if (article && !article.gtmPageView) {
-article.gtmPageView = {"country":"US","description":"These delicious four cheese pizzas are bursting with flavor, and ready in under one hour.","authorId":"1015024","title":"Four Cheese Margherita Pizza Recipe" || document.title || '',"muid":"cddfdc8c-966c-459c-9f4b-14225faf2e38","documentId":6586301,"templateId":"120","lastEditingAuthorId":"1015024","lastEditingUserId":"151378030080892","contentGroup":"Other","revenueGroup":"","templateName":"RECIPESC","viewType":"BROADVIDEO","fullUrl":"https://www.allrecipes.com/recipe/133948/four-cheese-margherita-pizza/" + location.hash,"experienceType":"single page","entryType":"direct","excludeFromComscore":false,"internalSessionId":"n8430c03745784d719861565919dc177500","internalRequestId":"n8430c03745784d719861565919dc177500","hid":"","experienceTypeName":"","recircDocIdsFooter":"S-7971911|S-7255338|S-6574612|S-6569204|S-6737021|S-6650739|S-6567179|S-6568220","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"3.14.294","commerceVersion":"","primaryTaxonomyIds":"6502448|6651953|6651964|6653161|6653052","primaryTaxonomyNames":"Allrecipes|Recipes|Cuisine|European|Italian"};
+article.gtmPageView = {"country":"US","templateName":"RECIPESC","documentId":6586301,"templateId":"120","lastEditingAuthorId":"1015024","lastEditingUserId":"151378030080892","contentGroup":"Other","muid":"8421bbad-86e2-4b68-b0c2-3afef96b6ced","title":"Four Cheese Margherita Pizza Recipe" || document.title || '',"authorId":"1015024","revenueGroup":"","viewType":"BROADVIDEO","experienceTypeName":"","recircDocIdsFooter":"S-7971911|S-7255338|S-6574612|S-6569204|S-6737021|S-6650739|S-6567179|S-6568220","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"3.14.294","commerceVersion":"","primaryTaxonomyIds":"6502448|6651953|6651964|6653161|6653052","primaryTaxonomyNames":"Allrecipes|Recipes|Cuisine|European|Italian","fullUrl":"https://www.allrecipes.com/recipe/133948/four-cheese-margherita-pizza/" + location.hash,"experienceType":"single page","entryType":"direct","excludeFromComscore":false,"internalSessionId":"n38531393a0eb424183a465fea7bd025f20","internalRequestId":"n38531393a0eb424183a465fea7bd025f20","hid":"","description":"These delicious four cheese pizzas are bursting with flavor, and ready in under one hour."};
 }
 }());
 (function() {
@@ -5832,7 +5832,7 @@ return sz.join('x');
 // Assign a randomly-generated, eight character, alpha-numeric value to this property.
 setup.advertising.adscheduleid = Math.random().toString(36).substr(2,8);
 // muid - used for audience targeting
-setup.advertising.ppid = 'cddfdc8c-966c-459c-9f4b-14225faf2e38';
+setup.advertising.ppid = '8421bbad-86e2-4b68-b0c2-3afef96b6ced';
 let custParams = '';
 custParams += '&' + encodeURIComponent('slot') + '=' + encodeURIComponent('broadmatch');
 const inFocus = window && window.document && window.document.hasFocus();

@@ -392,14 +392,14 @@ fbq('track', 'PageView');
 			
 			<div class="ratingsBlock mx-auto">
 				<div id="hiddenratings" style="display:none;" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
-					<span itemprop="ratingValue">4.9328239414199</span>
-					<span itemprop="ratingCount">3141</span>
+					<span itemprop="ratingValue">4.9330371310695</span>
+					<span itemprop="ratingCount">3151</span>
 					<span itemprop="bestRating">5</span>
 					<span itemprop="worstRating">0</span>
 				</div>	
 			
-				<input rel="4280" id="recipe-input-rating"  name="input-name" type="number" class="rating-loading" value="4.9328239414199" theme="krajee-fa" data-min="0" data-max="5" data-step="1" data-size="xs" data-show-clear="false" data-show-caption="false" data-filled-star='<i class="fa fa-star"></i>' data-empty-star='<i class="fa fa-star-o"></i>'>
-				<span id="recipenumvotes">3141 ratings.</span>				
+				<input rel="4280" id="recipe-input-rating"  name="input-name" type="number" class="rating-loading" value="4.9330371310695" theme="krajee-fa" data-min="0" data-max="5" data-step="1" data-size="xs" data-show-clear="false" data-show-caption="false" data-filled-star='<i class="fa fa-star"></i>' data-empty-star='<i class="fa fa-star-o"></i>'>
+				<span id="recipenumvotes">3151 ratings.</span>				
 			</div>
 		</div>	   
 	
@@ -869,21 +869,21 @@ fbq('track', 'PageView');
 				</div>
 			</li>
 							<li class="media mb-2">
-				<a href="/hariyali-chicken-tikka-recipe">						
+				<a href="/sarson-ka-saag-a-north-indian-recipe-of-mustard-leaves">						
 											
-					<img class="mr-3 module-image-100" src="/imgcache/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2017/10-oct/Hariyali_Chicken_Tikka_Recipe-9373_100x80.jpg" alt="Hariyali Chicken Tikka Recipe " />
+					<img class="mr-3 module-image-100" src="/imgcache/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2020/Sarson_Ka_Saag_Recipe_North_Indian_Saag_1_100x80.jpg" alt="Sarson Ka Saag Recipe - Classic North Indian Saag Recipe" />
 											
 					
 
 
 				</a>
 				<div class="media-body">					
-					<a href="/hariyali-chicken-tikka-recipe" title="Hariyali Chicken Tikka Recipe " >
-						<h6 class="recipe-title">Hariyali Chicken Tikka Recipe </h6>
+					<a href="/sarson-ka-saag-a-north-indian-recipe-of-mustard-leaves" title="Sarson Ka Saag Recipe - Classic North Indian Saag Recipe" >
+						<h6 class="recipe-title">Sarson Ka Saag Recipe - Classic North Indian Saag Recipe</h6>
 					</a>					
 					<span class="author-name">By 
-						<a href="/archana-s-kitchen" title="Archana's Kitchen" >
-							Archana's Kitchen						</a>
+						<a href="/archana-doshi" title="Archana Doshi" >
+							Archana Doshi						</a>
 					</span>
 				</div>
 			</li>
@@ -922,17 +922,58 @@ fbq('track', 'PageView');
 	<div class="mod_akrecipes_recipe vertical">
 	<ul class="list-unstyled">
 							<li class="media mb-2">
-				<a href="/karnataka-style-sandige-huli-recipe-toor-dal-dumplings-in-gravy-recipe">						
+				<a href="/idichakka-thoran-recipe-young-jack-fruit-with-spiced-coconut">						
 											
-					<img class="mr-3 module-image-100" src="/imgcache/images/archanaskitchen/1-Author/sibyl_sunitha/Karnataka_Style_Sandige_Huli_Recipe_Toor_dal_dumplings_in_Gravy_Recipe__200x160.jpg" alt="Karnataka Style Sandige Huli Recipe (Toor dal dumplings in Gravy Recipe) " />
+					<img class="mr-3 module-image-100" src="/imgcache/images/archanaskitchen/Indian_Vegetables_Dry/Idichakka_Young_Jackfruit_Thoran-2_200x160.jpg" alt="Idichakka Thoran Recipe (Young Jack Fruit With Spiced Coconut)" />
 											
 					
 
 
 				</a>
 				<div class="media-body">					
-					<a href="/karnataka-style-sandige-huli-recipe-toor-dal-dumplings-in-gravy-recipe" title="Karnataka Style Sandige Huli Recipe (Toor dal dumplings in Gravy Recipe) " >
-						<h6 class="recipe-title">Karnataka Style Sandige Huli Recipe (Toor dal dumplings in Gravy Recipe) </h6>
+					<a href="/idichakka-thoran-recipe-young-jack-fruit-with-spiced-coconut" title="Idichakka Thoran Recipe (Young Jack Fruit With Spiced Coconut)" >
+						<h6 class="recipe-title">Idichakka Thoran Recipe (Young Jack Fruit With Spiced Coconut)</h6>
+					</a>					
+					<span class="author-name">By 
+						<a href="/archana-doshi" title="Archana Doshi" >
+							Archana Doshi						</a>
+					</span>
+				</div>
+			</li>
+							<li class="media mb-2">
+				<a href="/thai-pineapple-vegetarian-curry-recipe">						
+												<div class="video_image_container">
+											
+					<img class="mr-3 module-image-100" src="/imgcache/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2019/Thai_Pineapple_Curry_Recipe_2_200x160.jpg" alt="Thai Pineapple Vegetarian Curry Recipe" />
+													<span class="video_image"></span>
+							</div>
+											
+					
+
+
+				</a>
+				<div class="media-body">					
+					<a href="/thai-pineapple-vegetarian-curry-recipe" title="Thai Pineapple Vegetarian Curry Recipe" >
+						<h6 class="recipe-title">Thai Pineapple Vegetarian Curry Recipe</h6>
+					</a>					
+					<span class="author-name">By 
+						<a href="/archana-doshi" title="Archana Doshi" >
+							Archana Doshi						</a>
+					</span>
+				</div>
+			</li>
+							<li class="media mb-2">
+				<a href="/karwar-style-dali-ambat-ani-maska-sang-recipe-toor-dal-and-drumsticks-pod-curry-recipe">						
+											
+					<img class="mr-3 module-image-100" src="/imgcache/images/archanaskitchen/1-Author/sibyl_sunitha/Karwar_Style_Dali_Ambat_Ani_Maska_Sang_Recipe_Toor_Dal_and_Drumsticks_Pod_Curry_Recipe_200x160.jpg" alt="Karwar Style Dali Ambat Ani Maska Sang Recipe-Toor Dal & Drumsticks Pod Curry " />
+											
+					
+
+
+				</a>
+				<div class="media-body">					
+					<a href="/karwar-style-dali-ambat-ani-maska-sang-recipe-toor-dal-and-drumsticks-pod-curry-recipe" title="Karwar Style Dali Ambat Ani Maska Sang Recipe-Toor Dal & Drumsticks Pod Curry " >
+						<h6 class="recipe-title">Karwar Style Dali Ambat Ani Maska Sang Recipe-Toor Dal & Drumsticks Pod Curry </h6>
 					</a>					
 					<span class="author-name">By 
 						<a href="/archana-s-kitchen" title="Archana's Kitchen" >
@@ -941,55 +982,36 @@ fbq('track', 'PageView');
 				</div>
 			</li>
 							<li class="media mb-2">
-				<a href="/mushrooms-stuffed-with-carrots-and-mint-mayo-recipe">						
+				<a href="/naked-burrito-bowl-recipe">						
 											
-					<img class="mr-3 module-image-100" src="/imgcache/images/archanaskitchen/1-Author/Madhuli_Ajay/5-main-Mushrooms_stuffed_with_carrots_and_Del_Monte_Mint_Mayo_3_200x160.jpg" alt="Mushrooms Stuffed With Carrots And Mint Mayo Recipe" />
+					<img class="mr-3 module-image-100" src="/imgcache/images/archanaskitchen/1-Author/Gauravi_Vinay/Naked_Burrito_Bowl_200x160.jpg" alt="Naked Burrito Bowl Recipe" />
 											
 					
 
 
 				</a>
 				<div class="media-body">					
-					<a href="/mushrooms-stuffed-with-carrots-and-mint-mayo-recipe" title="Mushrooms Stuffed With Carrots And Mint Mayo Recipe" >
-						<h6 class="recipe-title">Mushrooms Stuffed With Carrots And Mint Mayo Recipe</h6>
+					<a href="/naked-burrito-bowl-recipe" title="Naked Burrito Bowl Recipe" >
+						<h6 class="recipe-title">Naked Burrito Bowl Recipe</h6>
 					</a>					
 					<span class="author-name">By 
-						<a href="/madhuli-ajay" title="Madhuli Ajay" >
-							Madhuli Ajay						</a>
+						<a href="/gauravi-vinay" title="Gauravi Vinay" >
+							Gauravi Vinay						</a>
 					</span>
 				</div>
 			</li>
 							<li class="media mb-2">
-				<a href="/achaari-aloo-gobi-recipe-cauliflower-in-pickling-spices-indian-vegetarian">						
+				<a href="/chettinad-style-urali-roast-recipe-spicy-baby-potatoes-roast-recipe">						
 											
-					<img class="mr-3 module-image-100" src="/imgcache/images/archanaskitchen/1-Author/Richa_Gupta/Achaari_Gobhi_200x160.jpg" alt="Achari Aloo Gobi Recipe - Spicy Indian Cauliflower Stir Fry" />
-											
-					
-
-
-				</a>
-				<div class="media-body">					
-					<a href="/achaari-aloo-gobi-recipe-cauliflower-in-pickling-spices-indian-vegetarian" title="Achari Aloo Gobi Recipe - Spicy Indian Cauliflower Stir Fry" >
-						<h6 class="recipe-title">Achari Aloo Gobi Recipe - Spicy Indian Cauliflower Stir Fry</h6>
-					</a>					
-					<span class="author-name">By 
-						<a href="/richa-gupta" title="Richa Gupta" >
-							Richa Gupta						</a>
-					</span>
-				</div>
-			</li>
-							<li class="media mb-2">
-				<a href="/quick-and-easy-baked-beans-shakshuka-recipe">						
-											
-					<img class="mr-3 module-image-100" src="/imgcache/images/archanaskitchen/World_Gourmet_Recipes/Baked_Beans_Shakshuka_Recipe-1_200x160.jpg" alt="Quick And Easy Baked Beans Shakshuka Recipe" />
+					<img class="mr-3 module-image-100" src="/imgcache/images/archanaskitchen/1-Author/sibyl_sunitha/Chettinad_Style_Urali_Roast_Recipe_Spicy_Baby_potatoes_Roast_Recipe_200x160.jpg" alt="Chettinad Style Urulai Roast Recipe - Baby Potato Roast" />
 											
 					
 
 
 				</a>
 				<div class="media-body">					
-					<a href="/quick-and-easy-baked-beans-shakshuka-recipe" title="Quick And Easy Baked Beans Shakshuka Recipe" >
-						<h6 class="recipe-title">Quick And Easy Baked Beans Shakshuka Recipe</h6>
+					<a href="/chettinad-style-urali-roast-recipe-spicy-baby-potatoes-roast-recipe" title="Chettinad Style Urulai Roast Recipe - Baby Potato Roast" >
+						<h6 class="recipe-title">Chettinad Style Urulai Roast Recipe - Baby Potato Roast</h6>
 					</a>					
 					<span class="author-name">By 
 						<a href="/archana-s-kitchen" title="Archana's Kitchen" >
@@ -998,40 +1020,24 @@ fbq('track', 'PageView');
 				</div>
 			</li>
 							<li class="media mb-2">
-				<a href="/red-lentil-curry-without-coconut-recipe">						
+				<a href="/mangalorean-padengi-ghassi-recipe-sprouted-moong-dal-curry">						
+												<div class="video_image_container">
 											
-					<img class="mr-3 module-image-100" src="/imgcache/images/archanaskitchen/1-Author/poojanadkarni/Red_Lentil_Curry_Without_Coconut_200x160.jpg" alt="Red Lentil Curry Without Coconut Recipe" />
-											
-					
-
-
-				</a>
-				<div class="media-body">					
-					<a href="/red-lentil-curry-without-coconut-recipe" title="Red Lentil Curry Without Coconut Recipe" >
-						<h6 class="recipe-title">Red Lentil Curry Without Coconut Recipe</h6>
-					</a>					
-					<span class="author-name">By 
-						<a href="/pooja-nadkarni" title="Pooja Nadkarni" >
-							Pooja Nadkarni						</a>
-					</span>
-				</div>
-			</li>
-							<li class="media mb-2">
-				<a href="/mint-vegetables-moilee-recipe-mixed-vegetables-cooked-in-minty-coconut-milk">						
-											
-					<img class="mr-3 module-image-100" src="/imgcache/images/archanaskitchen/1-Author/Nithya_Anantham/Mint_Vegetables_Moilee_Mixed_Vegetables_Cooked_In_Minty_Coconut_Milk_200x160.jpg" alt="Mint Vegetables Moilee Recipe (Mixed Vegetables Cooked In Minty Coconut Milk)" />
+					<img class="mr-3 module-image-100" src="/imgcache/images/archanaskitchen/Indian_Dal_Khadi_Curry/Mangalorean_Padengi_Gassi_Recipe_-_Sprouted_Green_Moong_Curry_-1_200x160.jpg" alt="Mangalorean Padengi Gassi Recipe - Green Moong Dal Curry" />
+													<span class="video_image"></span>
+							</div>
 											
 					
 
 
 				</a>
 				<div class="media-body">					
-					<a href="/mint-vegetables-moilee-recipe-mixed-vegetables-cooked-in-minty-coconut-milk" title="Mint Vegetables Moilee Recipe (Mixed Vegetables Cooked In Minty Coconut Milk)" >
-						<h6 class="recipe-title">Mint Vegetables Moilee Recipe (Mixed Vegetables Cooked In Minty Coconut Milk)</h6>
+					<a href="/mangalorean-padengi-ghassi-recipe-sprouted-moong-dal-curry" title="Mangalorean Padengi Gassi Recipe - Green Moong Dal Curry" >
+						<h6 class="recipe-title">Mangalorean Padengi Gassi Recipe - Green Moong Dal Curry</h6>
 					</a>					
 					<span class="author-name">By 
-						<a href="/nithya-anantham" title="Nithya Anantham" >
-							Nithya Anantham						</a>
+						<a href="/archana-doshi" title="Archana Doshi" >
+							Archana Doshi						</a>
 					</span>
 				</div>
 			</li>

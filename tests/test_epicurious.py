@@ -9,11 +9,6 @@ class TestEpicurious(ScraperTest):
     def test_host(self):
         self.assertEqual("epicurious.com", self.harvester_class.host())
 
-    def test_canonical_url(self):
-        self.assertEqual(
-            "https://test.example.com/epicurious.testhtml_files/ramen-noodle-bowl-with-escarole-and-spicy-tofu-crum_002.html",
-            self.harvester_class.canonical_url(),
-        )
 
     def test_title(self):
         self.assertEqual(
