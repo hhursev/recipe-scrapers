@@ -11,12 +11,12 @@ class TestDitchTheCarbs(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://www.ditchthecarbs.com/easy-keto-hamburger-buns-almond-flour/",
+            "https://thinlicious.com/easy-keto-hamburger-buns-almond-flour/",
             self.harvester_class.canonical_url(),
         )
 
     def test_title(self):
-        self.assertEqual(self.harvester_class.title(), "Keto Hamburger Buns Recipe")
+        self.assertEqual(self.harvester_class.title(), "Easy Keto Hamburger Buns Recipe (That Don't Fall Apart)")
 
     def test_author(self):
         self.assertEqual(self.harvester_class.author(), "Libby Jenkinson")
@@ -26,7 +26,7 @@ class TestDitchTheCarbs(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://www.ditchthecarbs.com/wp-content/uploads/2021/04/Easy-Keto-Hamburger-Buns-almond-flour-1200x1200-1.jpg",
+            "https://thinlicious.com/wp-content/uploads/2023/08/Blog-Cover-Square-19.png",
             self.harvester_class.image(),
         )
 

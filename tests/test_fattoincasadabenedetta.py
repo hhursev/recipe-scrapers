@@ -77,7 +77,7 @@ class TestFattoInCasaDaBenedettaScraper(ScraperTest):
         self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def test_ratings(self):
-        self.assertEqual(3.79, self.harvester_class.ratings())
+        self.assertEqual(3.8, self.harvester_class.ratings())
 
     def test_description(self):
         self.assertEqual(

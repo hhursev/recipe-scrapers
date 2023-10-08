@@ -14,7 +14,7 @@ class TestEatWhatTonight(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "http://eatwhattonight.com/2020/08/ginger-soya-chicken/",
+            "https://eatwhattonight.com/2020/08/ginger-soya-chicken/",
             self.harvester_class.canonical_url(),
         )
 

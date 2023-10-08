@@ -89,4 +89,4 @@ class TestafghankitchenrecipesScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(3.5, self.harvester_class.ratings())
+        self.assertEqual(2.8, self.harvester_class.ratings())

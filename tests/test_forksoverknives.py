@@ -35,7 +35,7 @@ class TestForksOverKnives(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://www.forksoverknives.com/wp-content/uploads/butternut-broccoli-mac-and-cheese-wordpress.jpg",
+            "https://www.forksoverknives.com/uploads/butternut-broccoli-mac-and-cheese-wordpress.jpg",
             self.harvester_class.image(),
         )
 
@@ -65,7 +65,7 @@ class TestForksOverKnives(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.13, self.harvester_class.ratings())
+        self.assertEqual(4.07, self.harvester_class.ratings())
 
     def test_language(self):
         self.assertEqual("en-US", self.harvester_class.language())

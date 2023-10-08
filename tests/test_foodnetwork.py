@@ -17,7 +17,7 @@ class TestFoodNetworkScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://foodnetwork.co.uk/recipes/chicken-marsala/?utm_source=foodnetwork.com&utm_medium=domestic",
+            "https://foodnetwork.co.uk/recipes/chicken-marsala",
             self.harvester_class.canonical_url(),
         )
 
@@ -25,7 +25,7 @@ class TestFoodNetworkScraper(ScraperTest):
         self.assertEqual(self.harvester_class.title(), "Chicken Marsala")
 
     def test_author(self):
-        self.assertEqual(self.harvester_class.author(), "Food Network")
+        self.assertEqual(self.harvester_class.author(), "Food Network UK")
 
     def test_total_time(self):
         self.assertEqual(20, self.harvester_class.total_time())

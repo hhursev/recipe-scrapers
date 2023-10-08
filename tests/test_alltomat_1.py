@@ -12,7 +12,7 @@ class TestAllTomatScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://alltommat.se/recept/briochehamburgerbrod/",
+            "https://alltommat.expressen.se/recept/briochehamburgerbrod/",
             self.harvester_class.canonical_url(),
         )
 
@@ -24,14 +24,14 @@ class TestAllTomatScraper(ScraperTest):
         self.assertEqual("Brioche-hamburgerbröd", self.harvester_class.title())
 
     def test_total_time(self):
-        self.assertEqual(20, self.harvester_class.total_time())
+        self.assertEqual(155, self.harvester_class.total_time())
 
     def test_yields(self):
         self.assertEqual("12 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
-            "https://cached-images.bonnier.news/bnl01/standard-article/ec93ddbf-20de-46db-a563-3b88881f0e71/89ad5fc0-7218-4e14-b9be-dafb51ae221a/16x9/0/original.jpg",
+            "https://static.cdn-expressen.se/images/8b/46/8b46181ad1eb42e98d7b05cfdf21e0a9/16x9/1920@80.jpg",
             self.harvester_class.image(),
         )
 
@@ -58,4 +58,4 @@ class TestAllTomatScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(3.9, self.harvester_class.ratings())
+        self.assertEqual(3.8, self.harvester_class.ratings())

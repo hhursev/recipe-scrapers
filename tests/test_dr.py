@@ -29,7 +29,7 @@ class TestDrMeScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://asset.dr.dk/ImageScaler03/?url=http%3A%2F%2Fmad-recipe-pictures-dr-dk.s3.amazonaws.com%2Fprod%2Frecipe%2Fmillionaires-shortbread-jpg-1597218581.jpg",
+            "https://asset.dr.dk/imagescaler01/https%3A%2F%2Fwww.dr.dk%2Fimages%2Fother%2F2023%2F07%2F06%2Fmillionaires-shortbread-jpg-1597218581.png&w=700",
             self.harvester_class.image(),
         )
 

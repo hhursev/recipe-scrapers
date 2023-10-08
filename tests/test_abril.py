@@ -11,7 +11,7 @@ class TestAbrilScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://claudia.abril.com.br/receitas/estrogonofe-de-carne/",
+            "https://claudia.abril.com.br/receitas/estrogonofe-de-carne",
             self.harvester_class.canonical_url(),
         )
 
@@ -45,7 +45,7 @@ class TestAbrilScraper(ScraperTest):
                 "1 unidade de tomate sem pele picado",
                 "1 xícara (chá) de cogumelo variado | variados escorridos",
                 "1 lata de creme de leite",
-                "• sal a gosto",
+                "sal a gosto",
             ],
             self.harvester_class.ingredients(),
         )

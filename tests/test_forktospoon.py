@@ -20,13 +20,13 @@ class TestForkToSpoonScraper(ScraperTest):
         )
 
     def test_author(self):
-        self.assertEqual("ForkToSpoon.com", self.harvester_class.author())
+        self.assertEqual("Fork To Spoon", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual("Air Fryer Parmesan Tomatoes", self.harvester_class.title())
 
     def test_category(self):
-        self.assertEqual(None, self.harvester_class.category())
+        self.assertEqual("Side Dish", self.harvester_class.category())
 
     def test_total_time(self):
         self.assertEqual(20, self.harvester_class.total_time())
@@ -36,24 +36,24 @@ class TestForkToSpoonScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://forktospoon.com/wp-content/uploads/2021/07/Air-Fryer-Parmesan-Tomatoes-720x720.jpg",
+            "https://forktospoon.com/wp-content/uploads/2023/06/air-fryer-parmesan-tomatoes.png",
             self.harvester_class.image(),
         )
 
     def test_ingredients(self):
         self.assertEqual(
             [
-                "3 tomatoes, cut in half",
+                "3 large tomatoes (Cut in half)",
                 "1 cup bread crumbs",
-                "¼ cup parmesan cheese",
-                "1 teaspoon minced garlic",
+                "1/4 cup parmesan cheese (grated)",
+                "1 teaspoon garlic (minced)",
                 "1 tablespoon olive oil",
-                "½ teaspoon dried basil",
-                "½ teaspoon dried parsley",
-                "½ teaspoon dried oregano",
-                "½ teaspoon dried dill",
+                "1/2 teaspoon dried basil",
+                "1/2 teaspoon dried parsley",
+                "1/2 teaspoon dried oregano",
+                "1/2 teaspoon dried dill",
                 "1 teaspoon salt",
-                "½ teaspoon black pepper",
+                "1/2 teaspoon black pepper",
             ],
             self.harvester_class.ingredients(),
         )
@@ -72,6 +72,6 @@ class TestForkToSpoonScraper(ScraperTest):
 
     def test_description(self):
         self.assertEqual(
-            "Air Fryer Parmesan Tomatoes are amazing! If you are looking for the perfect summer-baked tomato recipe, this one is the one, and it's so easy to make and so flavorful!",
+            "Air Fryer Parmesan TomatoesÂ are amazing! If you are looking for the perfect summer-baked tomato recipe, this one is the one, and it's so easy to make and so flavorful!",
             self.harvester_class.description(),
         )

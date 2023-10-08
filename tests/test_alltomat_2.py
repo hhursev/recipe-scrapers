@@ -37,7 +37,7 @@ class TestAllTomatScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://static.cdn-expressen.se/images/aa/eb/aaeb4b38c3994b3ab57625533ca3e9b7/1x1/1920@80.jpg",
+            "https://static.cdn-expressen.se/images/aa/eb/aaeb4b38c3994b3ab57625533ca3e9b7/16x9/1920@80.jpg",
             self.harvester_class.image(),
         )
 

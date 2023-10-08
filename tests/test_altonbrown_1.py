@@ -60,7 +60,7 @@ class TestAltonBrownScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.3, self.harvester_class.ratings())
+        self.assertEqual(4.29, self.harvester_class.ratings())
 
     def test_description(self):
         self.assertEqual(

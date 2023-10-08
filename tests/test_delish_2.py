@@ -103,4 +103,4 @@ class TestDelishScraper(ScraperTest):
         self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def test_ratings(self):
-        self.assertEqual(4.0, self.harvester_class.ratings())
+        self.assertEqual(3.0, self.harvester_class.ratings())

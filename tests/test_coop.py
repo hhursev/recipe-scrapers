@@ -11,7 +11,7 @@ class TestCoopScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://www.coop.se/recept/grillat-kott-med-lime-och-chilismor/",
+            "https://www.coop.se/recept/recept-a-o/g/grillat-kott-med-lime--och-chilismor/",
             self.harvester_class.canonical_url(),
         )
 

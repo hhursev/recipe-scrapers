@@ -84,6 +84,6 @@ class TestEatWell101Scraper(ScraperTest):
 
     def test_description(self):
         self.assertEqual(
-            "These turkey meatballs are Gluten-free, low-carb, and veto-friendly - Perfect for a crowd-pleasing weeknight dinner. The creamy spinach turkey and chicken meatballs just melt in your mouth, it's so good!",
+            "These turkey meatballs are Gluten-free, low-carb, and keto-friendly - Perfect for a crowd-pleasing weeknight dinner. The creamy spinach turkey and chicken meatballs just melt in your mouth, it's so good!",
             self.harvester_class.description(),
         )

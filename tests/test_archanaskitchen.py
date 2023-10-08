@@ -61,4 +61,4 @@ class TestArchanasKitchenScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.9, self.harvester_class.ratings())
+        self.assertEqual(4.93, self.harvester_class.ratings())

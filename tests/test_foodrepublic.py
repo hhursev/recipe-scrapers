@@ -11,7 +11,7 @@ class TestFoodRepublicScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "http://www.foodrepublic.com/recipes/dutch-white-asparagus-recipe/",
+            "https://www.foodrepublic.com/recipes/dutch-white-asparagus-recipe/",
             self.harvester_class.canonical_url(),
         )
 

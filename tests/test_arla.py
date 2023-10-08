@@ -34,7 +34,7 @@ class TestArlaScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://cdn-rdb.arla.com/Files/arla-se/235235459/f96b874a-5b9c-4936-b3e2-5071e76136c0.jpg?mode=crop&w=1300&h=525&ak=f525e733&hm=1de43e21",
+            "https://images.arla.com/recordid/FB2425A1-47CE-4EFB-8D47570F80762F18/reuben-sandwich.jpg?format=jpg&width=1300&height=525",
             self.harvester_class.image(),
         )
 
@@ -45,10 +45,9 @@ class TestArlaScraper(ScraperTest):
                 "1 dl surkål",
                 "1 dl riven Arla Präst® ost",
                 "8 skivor surdegsbröd",
-                "50 g Arla® Svenskt Smör, smält",
-                "2 saltgurkor",
+                "50 g Svenskt Smör från Arla®, smält",
+                "4 saltgurkor",
                 "½ grön paprika",
-                "1 schalottenlök",
                 "1 dl majonnäs",
                 "1 msk chilisås",
                 "1 tsk paprikapulver",
@@ -65,14 +64,13 @@ class TestArlaScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.5, self.harvester_class.ratings())
+        self.assertEqual(4.2, self.harvester_class.ratings())
 
     def test_cuisine(self):
         self.assertEqual("Amerikansk", self.harvester_class.cuisine())
 
     def test_description(self):
         self.assertEqual(
-            "En reuben sandwich är en amerikansk macka, vanligtvis med pastrami - men "
-            "vi använder svensk oxbringa, saltgurka och så kallad rysk dressing.",
+            "Reuben sandwich är en amerikansk macka med mycket pastrami, saltgurka och så kallad rysk dressing. Bröden fylls med alla godsaker fär att sedan smörstekas. En riktig mack-klassiker som är perfekt att bjuda på till brunch!",
             self.harvester_class.description(),
         )

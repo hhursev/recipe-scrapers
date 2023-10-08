@@ -14,7 +14,7 @@ class TestFitMenCookScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://fitmencook.com/healthy-chili-recipe/",
+            "https://fitmencook.com/recipes/healthy-chili-recipe/",
             self.harvester_class.canonical_url(),
         )
 
@@ -22,7 +22,7 @@ class TestFitMenCookScraper(ScraperTest):
         self.assertEqual("Lean Chili with Plantains", self.harvester_class.title())
 
     def test_author(self):
-        self.assertEqual(self.harvester_class.author(), "FitMenCook")
+        self.assertEqual(self.harvester_class.author(), "Kevin Curry")
 
     def test_total_time(self):
         self.assertEqual(35, self.harvester_class.total_time())

@@ -29,7 +29,7 @@ class TestAkisPetretzikisScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://d3fch0cwivr6nf.cloudfront.net/system/uploads/medium/data/15973/aginares-lemonates-me-kotopoulo.jpg",
+            "https://akispetretzikis.com/photos/akisrecipes/15973/aginares-lemonates-me-kotopoulo.jpg",
             self.harvester_class.image(),
         )
 

@@ -29,7 +29,7 @@ class TestBonAppetitScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://assets.bonappetit.com/photos/59e4d7dc3279981dd6c79847/5:7/w_1936,h_2710,c_limit/pork-chops-with-celery-and-almond-salad.jpg",
+            "https://assets.bonappetit.com/photos/59e4d7dc3279981dd6c79847/16:9/w_1280,c_limit/pork-chops-with-celery-and-almond-salad.jpg",
             self.harvester_class.image(),
         )
 
