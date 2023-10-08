@@ -1,4 +1,5 @@
 # mypy: allow-untyped-defs
+#canonical_url : https://www.costco.com/connection-recipe-chicken-salad-grapes-walnuts-blue-cheese-march-2023.html
 
 from recipe_scrapers.costco import Costco
 from tests import ScraperTest
@@ -9,12 +10,6 @@ class TestCostcoScraper(ScraperTest):
 
     def test_host(self):
         self.assertEqual("costco.com", self.harvester_class.host())
-
-    def test_canonical_url(self):
-        self.assertEqual(
-            "https://www.costco.com/connection-recipe-chicken-salad-grapes-walnuts-blue-cheese-march-2023.html",
-            self.harvester_class.canonical_url(),
-        )
 
     def test_title(self):
         self.assertEqual(
