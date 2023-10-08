@@ -15,7 +15,7 @@ class TestEmmiKochtEinfachScraper(ScraperTest):
         )
 
     def test_author(self):
-        self.assertEqual("Emmi", self.harvester_class.author())
+        self.assertEqual("Christiane Emma", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual(
