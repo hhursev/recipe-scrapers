@@ -1,5 +1,6 @@
 # mypy: allow-untyped-defs
 
+from recipe_scrapers._grouping_utils import IngredientGroup
 from recipe_scrapers.nrkmat import NRKMat
 from tests import ScraperTest
 
@@ -7,6 +8,7 @@ from tests import ScraperTest
 class TestNRKMatScraper(ScraperTest):
 
     scraper_class = NRKMat
+    test_file_name = "nrkmat_1"
 
     def test_host(self):
         self.assertEqual("nrk.no", self.harvester_class.host())
@@ -53,6 +55,36 @@ class TestNRKMatScraper(ScraperTest):
                 "3 kvister rosmarin",
             ],
             self.harvester_class.ingredients(),
+        )
+
+    def test_ingredient_groups(self):
+        self.assertEqual(
+            [
+                IngredientGroup(
+                    ingredients=[
+                        "1,3 kg hel kylling",
+                        "3 ss flytende honning",
+                        "1 ss ferske rosmarinblader",
+                        "2 hvitløkfedd",
+                        "3 ss tomatpure",
+                        "50 ml olivenolje, extra virgin",
+                        "1/2 sitron, juicen",
+                        "1 ss fersk persille, hakket (til pynt)",
+                        "salt og nykvernet pepper",
+                    ],
+                    purpose=None,
+                ),
+                IngredientGroup(
+                    ingredients=[
+                        "500 g nypoteter",
+                        "75 ml olivenolje, extra virgin",
+                        "4 hvitløkfedd",
+                        "3 kvister rosmarin",
+                    ],
+                    purpose="Potetene",
+                ),
+            ],
+            self.harvester_class.ingredient_groups(),
         )
 
     def test_instructions(self):

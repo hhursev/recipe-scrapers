@@ -2,6 +2,7 @@
 
 from ._abstract import AbstractScraper
 from ._exceptions import SchemaOrgException
+from ._grouping_utils import group_ingredients
 
 
 class NRKMat(AbstractScraper):
@@ -33,6 +34,14 @@ class NRKMat(AbstractScraper):
 
     def ingredients(self):
         return self.schema.ingredients()
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            "h4.recipe-meta-title",
+            "ul.recipe-list:not(.recipe-list-meta) > li",
+        )
 
     def instructions(self):
         return self.schema.instructions()
