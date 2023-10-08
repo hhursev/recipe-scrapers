@@ -27,7 +27,7 @@ class TestFredriksFikaAllasScraper(ScraperTest):
         self.assertEqual("6 servings", self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEqual("https://files-aller-blogger-platform.aws.aller.com/uploads/sites/87/2023/10/appelpaj_pa_smordeg-3.jpg?fit=crop&h=630&w=1200&ar=1.91:1", self.harvester_class.image())
+        self.assertEqual("https://files-aller-blogger-platform.aws.aller.com/uploads/sites/87/2015/08/10072015-_MG_0917-860x573.jpg?fit=crop&h=630&w=1200&ar=1.91:1", self.harvester_class.image())
 
     def test_ingredients(self):
         expected_ingredients = ['2 äpplen', '1 rulle färdig smördeg', '0,5 dl ljus sirap eller honung', 'kanel', 'råsocker eller strösocker', '1 ägg']
