@@ -1,8 +1,7 @@
+# canonical_url : https://www.bongeats.com/recipe/lau-chingri
+
 from recipe_scrapers.bongeats import BongEats
 from tests import ScraperTest
-
-# test recipe's URL
-# https://www.bongeats.com/recipe/lau-chingri
 
 
 class TestBongEatsScraper(ScraperTest):
@@ -11,12 +10,6 @@ class TestBongEatsScraper(ScraperTest):
 
     def test_host(self):
         self.assertEqual("bongeats.com", self.harvester_class.host())
-
-    def test_canonical_url(self):
-        self.assertEqual(
-            "https://www.bongeats.com/recipe/lau-chingri",
-            self.harvester_class.canonical_url(),
-        )
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Lau Chingri")

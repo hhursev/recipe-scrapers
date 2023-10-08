@@ -1,3 +1,4 @@
+# canonical_url : https://www.ah.nl/allerhande/recept/R-R1198767/rijkgevulde-vegan-pastasalade
 from recipe_scrapers.albertheijn import AlbertHeijn
 from tests import ScraperTest
 
@@ -8,12 +9,6 @@ class TestAlbertHeijnScraper(ScraperTest):
 
     def test_host(self):
         self.assertEqual("ah.nl", self.harvester_class.host())
-
-    def test_canonical_url(self):
-        self.assertEqual(
-            "https://www.ah.nl/allerhande/recept/R-R1198767/rijkgevulde-vegan-pastasalade",
-            self.harvester_class.canonical_url(),
-        )
 
     def test_author(self):
         self.assertEqual("Albert Heijn", self.harvester_class.author())
