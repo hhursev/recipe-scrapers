@@ -8,7 +8,7 @@ class EatingBirdFood(AbstractScraper):
         return "eatingbirdfood.com"
 
     def author(self):
-        return self.schema.author()
+        return self.soup.find("meta", {"name": "author"}).get("content")
 
     def title(self):
         return self.schema.title()
