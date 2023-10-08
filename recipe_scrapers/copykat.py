@@ -18,6 +18,9 @@ class CopyKat(AbstractScraper):
     def title(self):
         return self.schema.title()
 
+    def author(self):
+        return self.soup.find("meta", {"name": "author"}).get("content")
+
     def total_time(self):
         return self.schema.total_time()
 
