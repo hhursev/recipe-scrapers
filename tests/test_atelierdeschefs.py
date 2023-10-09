@@ -1,3 +1,4 @@
+# canonical_url : https://www.atelierdeschefs.fr/recettes/16689/crepe-savoyarde/
 from recipe_scrapers.atelierdeschefs import AtelierDesChefs
 from tests import ScraperTest
 
@@ -9,14 +10,8 @@ class TestAtelierDesChefsScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("atelierdeschefs.fr", self.harvester_class.host())
 
-    def test_canonical_url(self):
-        self.assertEqual(
-            "https://www.atelierdeschefs.fr/recettes/16689/crepe-savoyarde/",
-            self.harvester_class.canonical_url(),
-        )
-
     def test_author(self):
-        self.assertEqual("L&apos;atelier des Chef", self.harvester_class.author())
+        self.assertEqual("L'atelier des Chefs", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Cr\u00eape savoyarde")
@@ -29,26 +24,25 @@ class TestAtelierDesChefsScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://adc-dev-images-recipes.s3.eu-west-1.amazonaws.com/REP_lv_16689_galette_sarrasin_crepes_savoyarde_tartiflette_lardons_creme_pomme_de_terre.jpg",
+            "https://www.atelierdeschefs.com/media/recette-e16689-crepe-savoyarde.jpg",
             self.harvester_class.image(),
         )
 
     def test_ingredients(self):
         self.assertEqual(
             [
-                "25 cl Lait 1/2 \u00e9cr\u00e9m\u00e9",
-                "60 g Beurre doux",
-                "1 pi\u00e8ce(s) Oeuf(s)",
-                "70 g Farine de bl\u00e9",
-                "55 g Farine de sarrasin (bl\u00e9 noir)",
-                "2 pinc\u00e9e(s) Sel fin",
-                "300 g Pomme(s) de terre \u00e0 chair ferme",
-                "5 g Gros sel",
-                "50 g Raclette au lait cru",
-                "100 g Lardon(s) fum\u00e9(s)",
-                "50 g Cr\u00e8me fra\u00eeche \u00e9paisse",
-                "6 tour(s) Moulin \u00e0 poivre",
-                "60 g Beurre doux",
+                "Lait 1/2 \u00e9cr\u00e9m\u00e9 : 25 cl",
+                "Beurre doux : 120 g",
+                "Oeuf(s) : 1 pi\u00e8ce(s)",
+                "Farine de bl\u00e9 : 70 g",
+                "Farine de sarrasin (bl\u00e9 noir) : 55 g",
+                "Sel fin : 8 pinc\u00e9e(s)",
+                "Pomme(s) de terre \u00e0 chair ferme : 300 g",
+                "Gros sel : 5 g",
+                "Raclette au lait cru : 50 g",
+                "Lardon(s) fum\u00e9(s) : 100 g",
+                "Cr\u00e8me fra\u00eeche \u00e9paisse : 50 g",
+                "Moulin \u00e0 poivre : 6 tour(s)",
             ],
             self.harvester_class.ingredients(),
         )
@@ -60,4 +54,4 @@ class TestAtelierDesChefsScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(3.69, self.harvester_class.ratings())
+        self.assertEqual(3.7, self.harvester_class.ratings())

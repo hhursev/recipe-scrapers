@@ -37,7 +37,17 @@ class Coop(AbstractScraper):
         return image
 
     def ingredients(self):
-        return self.schema.ingredients()
+        ingredients = self.soup.findAll(
+            'li',
+            {'class': 'u-paddingHxsm u-textNormal u-colorBase'}
+        )
+        ingredient_list = []
+
+        for ingredient in ingredients:
+            text = ingredient.get_text(strip=True)
+            ingredient_list.append(text)
+
+        return ingredient_list
 
     def instructions(self):
         return self.schema.instructions()
