@@ -27,7 +27,7 @@ class NRKMat(AbstractScraper):
         try:
             return self.schema.yields()
         except SchemaOrgException:
-            return ""
+            return None
 
     def image(self):
         return self.schema.image()
