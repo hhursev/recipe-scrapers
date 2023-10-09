@@ -41,12 +41,13 @@ class TestArlaScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "200 g kokt rimmad oxbringa, eller corned beef",
+                "400 g pastrami, kokt oxbringa eller skivad grillad rostbiff",
                 "1 dl surkål",
                 "1 dl riven Arla Präst® ost",
                 "8 skivor surdegsbröd",
                 "50 g Svenskt Smör från Arla®, smält",
                 "4 saltgurkor",
+                "1 schalottenlök",
                 "½ grön paprika",
                 "1 dl majonnäs",
                 "1 msk chilisås",
@@ -59,7 +60,7 @@ class TestArlaScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            "Dressing:\nBörja med dressingen. Finhacka paprika och lök. Blanda med övriga ingredienser och ställ åt sidan.\nSista instruktionen\nSkär köttet i tunna skivor. Låt surkålen rinna av ordentligt och blanda med osten.\nPensla bröden med smör på båda sidor. Lägg surkål och ost på hälften av bröden. Lägg på köttet. Klicka dressingen över köttet och lägg på resterande bröd.\nGrilla på båda sidor i en het grillpanna eller smörgåsgrill.\nDela grillspett på mitten och trä genom mackorna. Skär saltgurkorna på längden och fäst på grillspetten.",
+            "Första instruktionen\nSkala och finhacka löken till dressingen. Finhacka även paprikan. Blanda med övriga ingredienser och ställ dressingen åt sidan.\nSista instruktionen\nSkär köttet i tunna skivor. Låt surkålen rinna av ordentligt och blanda med osten.\nBred smör på båda sidor av bröden. Lägg surkål och ost på hälften av bröden. Lägg på köttet. Klicka dressingen över köttet och lägg på resterande bröd.\nStek på båda sidor i enstek- eller het grillpanna.\nDela grillspett på mitten och trä genom mackorna. Fäst saltgurkorna på grillspetten.",
             self.harvester_class.instructions(),
         )
 
