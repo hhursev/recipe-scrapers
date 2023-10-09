@@ -30,3 +30,15 @@ class Matprat(AbstractScraper):
 
     def description(self):
         return self.schema.description()
+
+    def nutrients(self):
+        nutrient_names = [
+            x.text for x in self.soup("td", "recipe-nutritions__table-cell-name")
+        ]
+        if not nutrient_names:
+            return None
+        nutrient_values = [
+            x.text.replace("\xa0", " ")
+            for x in self.soup("td", "recipe-nutritions__table-cell-value")
+        ]
+        return dict(zip(nutrient_names, nutrient_values))
