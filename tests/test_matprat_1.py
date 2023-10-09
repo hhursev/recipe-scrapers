@@ -5,6 +5,7 @@ from tests import ScraperTest
 class TestMatprat(ScraperTest):
 
     scraper_class = Matprat
+    test_file_name = "matprat_1"
 
     def test_host(self):
         self.assertEqual("matprat.no", self.harvester_class.host())
@@ -71,3 +72,6 @@ class TestMatprat(ScraperTest):
 
     def test_ratings(self):
         self.assertEqual(5, self.harvester_class.ratings())
+
+    def test_nutrients(self):
+        self.assertEqual(None, self.harvester_class.nutrients())
