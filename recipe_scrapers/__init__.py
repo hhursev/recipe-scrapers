@@ -174,6 +174,7 @@ from .nibbledish import NibbleDish
 from .nihhealthyeating import NIHHealthyEating
 from .norecipes import NoRecipes
 from .nourishedbynutrition import NourishedByNutrition
+from .nrkmat import NRKMat
 from .number2pencil import Number2Pencil
 from .nutritionbynathalie import NutritionByNathalie
 from .nytimes import NYTimes
@@ -476,6 +477,7 @@ SCRAPERS = {
     MyKitchen101.host(): MyKitchen101,
     MyKitchen101en.host(): MyKitchen101en,
     MyRecipes.host(): MyRecipes,
+    NRKMat.host(): NRKMat,
     NibbleDish.host(): NibbleDish,
     NHSHealthierFamilies.host(): NHSHealthierFamilies,
     NIHHealthyEating.host(): NIHHealthyEating,
