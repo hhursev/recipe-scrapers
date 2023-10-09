@@ -14,7 +14,7 @@ class NRKMat(AbstractScraper):
         return (
             self.soup.find("span", {"class": "caption-cite"})
             .getText()
-            .removeprefix("Kilde: ")
+            .replace("Kilde: ", "")
         )
 
     def title(self):
