@@ -59,7 +59,6 @@ To develop the scraper for the website, first identify a recipe. This will be us
 > [!NOTE]
 > Try to pick a recipe that involves more than one instruction, if you can.  The test suite considers single-instruction recipes to indicate possible human error.  If you need to, though, you can indicate that that's expected.
 
-
 Next, find out if the website supports [Recipe Schema](https://schema.org/Recipe). If the website does support Recipe Schema, this will make creating the scraper straightforward. If not, supporting the site will be more complex but still possible.
 
 ```python
