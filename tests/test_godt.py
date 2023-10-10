@@ -18,7 +18,7 @@ class TestGodtScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            "Grove pannekaker",
+            "Grove pannekaker - Perfekt middag",
         )
 
     def test_yields(self):

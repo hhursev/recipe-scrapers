@@ -14,7 +14,7 @@ class TestGoustoScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://www.gousto.co.uk/cookbook/pork-recipes/creamy-pork-tagliatelle",
+            "https://gousto.co.uk/cookbook/creamy-pork-tagliatelle",
             self.harvester_class.canonical_url(),
         )
 

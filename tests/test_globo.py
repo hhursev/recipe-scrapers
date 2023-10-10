@@ -11,7 +11,7 @@ class TestGloboScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://receitas.globo.com/strogonoff-de-frango-simples-4fbe8cc656ec5b3c9801b7e5.ghtml",
+            "https://receitas.globo.com/tipos-de-prato/aves/strogonoff-de-frango-simples-4fbe8cc656ec5b3c9801b7e5.ghtml",
             self.harvester_class.canonical_url(),
         )
 
@@ -26,7 +26,7 @@ class TestGloboScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://s2.glbimg.com/hXxPtwuPHqQUp2w3pdklGQHBznM=/696x390/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2022/8/O/xH9h1GSnW1LhMobyL7hQ/strogonoff-de-frango-receita.jpg",
+            "https://s2-receitas.glbimg.com/hXxPtwuPHqQUp2w3pdklGQHBznM=/696x390/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2022/8/O/xH9h1GSnW1LhMobyL7hQ/strogonoff-de-frango-receita.jpg",
             self.harvester_class.image(),
         )
 
