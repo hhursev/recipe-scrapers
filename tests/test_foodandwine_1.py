@@ -1,6 +1,7 @@
+import unittest
+
 from recipe_scrapers.foodandwine import FoodAndWine
 from tests import ScraperTest
-import unittest
 
 
 class TestFoodAndWineScraper(ScraperTest):
