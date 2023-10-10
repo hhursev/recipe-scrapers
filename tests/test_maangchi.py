@@ -12,7 +12,7 @@ class TestMaangchiScraper(ScraperTest):
         self.assertEqual("maangchi.com", self.harvester_class.host())
 
     def test_author(self):
-        self.assertEqual(None, self.harvester_class.author())
+        self.assertEqual("Maangchi", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual(
