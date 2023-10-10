@@ -51,8 +51,6 @@ from .cookieandkate import CookieAndKate
 from .cookingcircle import CookingCircle
 from .cookinglight import CookingLight
 from .cookpad import CookPad
-from .cookstr import Cookstr
-from .coop import Coop
 from .copykat import CopyKat
 from .costco import Costco
 from .countryliving import CountryLiving
@@ -61,7 +59,6 @@ from .cuisineaz import CuisineAZ
 from .cybercook import Cybercook
 from .davidlebovitz import DavidLebovitz
 from .delish import Delish
-from .ditchthecarbs import DitchTheCarbs
 from .domesticateme import DomesticateMe
 from .downshiftology import Downshiftology
 from .dr import Dr
@@ -89,7 +86,6 @@ from .foodrepublic import FoodRepublic
 from .forksoverknives import ForksOverKnives
 from .forktospoon import ForkToSpoon
 from .franzoesischkochen import FranzoesischKochen
-from .fredriksfikaallas import FredriksFikaAllas
 from .g750g import G750g
 from .geniuskitchen import GeniusKitchen
 from .gesundaktiv import GesundAktiv
@@ -259,6 +255,7 @@ from .therecipecritic import Therecipecritic
 from .thespruceeats import TheSpruceEats
 from .thevintagemixer import TheVintageMixer
 from .thewoksoflife import Thewoksoflife
+from .thinlicious import Thinlicious
 from .tidymom import TidyMom
 from .timesofindia import TimesOfIndia
 from .tineno import TineNo
@@ -334,8 +331,6 @@ SCRAPERS = {
     CookieAndKate.host(): CookieAndKate,
     CookingCircle.host(): CookingCircle,
     CookingLight.host(): CookingLight,
-    Cookstr.host(): Cookstr,
-    Coop.host(): Coop,
     CopyKat.host(): CopyKat,
     Costco.host(): Costco,
     CountryLiving.host(): CountryLiving,
@@ -344,7 +339,7 @@ SCRAPERS = {
     Cybercook.host(): Cybercook,
     DavidLebovitz.host(): DavidLebovitz,
     Delish.host(): Delish,
-    DitchTheCarbs.host(): DitchTheCarbs,
+    Thinlicious.host(): Thinlicious,
     DomesticateMe.host(): DomesticateMe,
     Downshiftology.host(): Downshiftology,
     Dr.host(): Dr,
@@ -373,7 +368,6 @@ SCRAPERS = {
     ForkToSpoon.host(): ForkToSpoon,
     ForksOverKnives.host(): ForksOverKnives,
     FranzoesischKochen.host(): FranzoesischKochen,
-    FredriksFikaAllas.host(): FredriksFikaAllas,
     G750g.host(): G750g,
     GeniusKitchen.host(): GeniusKitchen,
     GialloZafferano.host(): GialloZafferano,

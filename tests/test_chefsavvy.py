@@ -11,6 +11,12 @@ class TestChefSavvyScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("chefsavvy.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://chefsavvy.com/slow-cooker-broccoli-beef/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Kelley Simmons", self.harvester_class.author())
 
@@ -27,6 +33,22 @@ class TestChefSavvyScraper(ScraperTest):
         expected_yields = "4 servings"
         actual_yields = self.harvester_class.yields()
         self.assertEqual(expected_yields, actual_yields)
+
+    def test_ingredients(self):
+        expected_ingredients = [
+            "2 pounds chuck steak (sliced thin (about 1-inch thick))",
+            "1 cup low sodium beef broth",
+            "1/2 cup low sodium soy sauce",
+            "4 garlic cloves (minced)",
+            "1/4 cup oyster sauce",
+            "1/4 cup brown sugar",
+            "2 teaspoons sesame oil",
+            "2 tablespoons cornstarch",
+            "2 heads broccoli (cut into florets)",
+            "sesame seeds for garnish, if desired",
+        ]
+        actual_ingredients = self.harvester_class.ingredients()
+        self.assertEqual(expected_ingredients, actual_ingredients)
 
     def test_instructions(self):
         expected_instructions = (

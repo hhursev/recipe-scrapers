@@ -11,6 +11,12 @@ class TestFoodFidelityScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("foodfidelity.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.foodfidelity.com/strawberry-oatmeal/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Marwin Brown", self.harvester_class.author())
 

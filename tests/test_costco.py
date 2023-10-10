@@ -1,4 +1,5 @@
 # mypy: allow-untyped-defs
+import unittest
 
 from recipe_scrapers.costco import Costco
 from tests import ScraperTest
@@ -9,6 +10,13 @@ class TestCostcoScraper(ScraperTest):
 
     def test_host(self):
         self.assertEqual("costco.com", self.harvester_class.host())
+
+    @unittest.skip("canonical_url will not pass with testhtml (uses example.com)")
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.costco.com/connection-recipe-chicken-salad-grapes-walnuts-blue-cheese-march-2023.html",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(

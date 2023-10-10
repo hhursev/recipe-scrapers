@@ -138,7 +138,6 @@ Scrapers available for:
 - `https://cybercook.com.br/ <https://cybercook.com.br/>`_
 - `https://www.davidlebovitz.com/ <https://www.davidlebovitz.com/>`_
 - `https://delish.com/ <https://delish.com>`_
-- `https://www.ditchthecarbs.com/ <https://www.ditchthecarbs.com>`_
 - `https://domesticate-me.com/ <https://domesticate-me.com/>`_
 - `https://downshiftology.com/ <https://downshiftology.com/>`_
 - `https://www.dr.dk/ <https://www.dr.dk/>`_
@@ -343,6 +342,7 @@ Scrapers available for:
 - `https://thespruceeats.com/ <https://thespruceeats.com/>`_
 - `https://thevintagemixer.com/ <https://thevintagemixer.com>`_
 - `https://thewoksoflife.com/ <https://thewoksoflife.com/>`_
+- `https://thinlicious.com/ <https://thinlicious.com/>`_
 - `https://timesofindia.com/ <https://timesofindia.com/>`_
 - `https://tine.no/ <https://tine.no>`_
 - `https://tidymom.net <https://tidymom.net>`_

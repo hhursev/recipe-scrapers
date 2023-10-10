@@ -29,7 +29,7 @@ class TestCybercook(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://img.cybercook.com.br/imagens/receitas/644/strogonoff-de-frango-1.jpg",
+            "https://img.cybercook.com.br/receitas/644/strogonoff-de-frango-2.jpeg",
             self.harvester_class.image(),
         )
 

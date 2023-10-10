@@ -23,7 +23,13 @@ class CuisineAZ(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        return self.schema.ingredients()
+        ingredients_list = self.schema.ingredients()
+
+        # Check if the first line is blank and skip it
+        if ingredients_list and not ingredients_list[0].strip():
+            return ingredients_list[1:]
+
+        return ingredients_list
 
     def instructions(self):
         return self.schema.instructions()

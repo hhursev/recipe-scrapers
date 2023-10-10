@@ -12,8 +12,14 @@ class TestAddAPinchScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("addapinch.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://addapinch.com/the-best-chocolate-cake-recipe-ever/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
-        self.assertEqual("Robyn Stone | Add a Pinch", self.harvester_class.author())
+        self.assertEqual("Robyn Stone", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual(
@@ -61,7 +67,7 @@ class TestAddAPinchScraper(ScraperTest):
             "Add milk, vegetable oil, eggs, and vanilla to flour mixture and mix together on medium speed until well combined. Reduce speed and carefully add boiling water to the cake batter until well combined.\n"
             "Distribute cake batter evenly between the two prepared cake pans. Bake for 30-35 minutes, until a toothpick or cake tester inserted in the center of the chocolate cake comes out clean.\n"
             "Remove from the oven and allow to cool for about 10 minutes, remove from the pan and cool completely.\n"
-            "Frost cake with Chocolate Buttercream Frosting."
+            "Frost the cake with Chocolate Buttercream Frosting."
         )
         self.assertEqual(expected_instructions, self.harvester_class.instructions())
 

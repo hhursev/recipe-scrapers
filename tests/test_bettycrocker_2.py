@@ -11,6 +11,12 @@ class TestBettyCrocker(ScraperTest):
     def test_host(self):
         self.assertEqual("bettycrocker.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.bettycrocker.com/recipes/strawberry-pretzel-salad/376aa27c-19a2-4114-9c80-20a431fc269b",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Jessica Walker", self.harvester_class.author())
 

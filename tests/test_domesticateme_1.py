@@ -22,7 +22,7 @@ class TestDomesticateMeScraper(ScraperTest):
         )
 
     def test_author(self):
-        self.assertEqual(self.harvester_class.author(), "Serena Wolf")
+        self.assertEqual(self.harvester_class.author(), "serenawolf")
 
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())
@@ -37,7 +37,7 @@ class TestDomesticateMeScraper(ScraperTest):
         self.assertEqual(60, self.harvester_class.total_time())
 
     def test_rating(self):
-        self.assertEqual(4.5, self.harvester_class.ratings())
+        self.assertEqual(4.94, self.harvester_class.ratings())
 
     def test_ingredients(self):
         self.assertEqual(

@@ -10,6 +10,12 @@ class TestErrensKitchenScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("errenskitchen.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.errenskitchen.com/chicken-sundried-tomato-pasta/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Erren Hart", self.harvester_class.author())
 
