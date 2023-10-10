@@ -22,6 +22,7 @@ class TestThinlicious(ScraperTest):
         )
 
     def test_author(self):
+        # Author should be Libby, but the HTML page lacks a clear indication of that (apart from comments)
         self.assertEqual(self.harvester_class.author(), "Thinlicious")
 
     def test_yields(self):
