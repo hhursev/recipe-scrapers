@@ -8,7 +8,7 @@ class EmmiKochtEinfach(AbstractScraper):
         return "emmikochteinfach.de"
 
     def author(self):
-        return "Christiane Emma"
+        return self.schema.author()
 
     def title(self):
         return self.schema.title()
