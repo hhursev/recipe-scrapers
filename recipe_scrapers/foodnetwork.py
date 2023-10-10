@@ -1,4 +1,3 @@
-
 from ._abstract import AbstractScraper
 
 
