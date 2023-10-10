@@ -1,3 +1,5 @@
+import unittest
+
 from recipe_scrapers.farmhousedelivery import FarmhouseDelivery
 from tests import ScraperTest
 
@@ -52,6 +54,7 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
             self.harvester_class.image(),
         )
 
+    @unittest.expectedFailure
     def test_multiple_instructions(self):
         # override: this test case legitimately does only contain a single instruction in the source HTML
-        pass
+        super().test_multiple_instructions()

@@ -56,6 +56,9 @@ This will run all the tests for all the scrapers. You should not see any errors 
 
 To develop the scraper for the website, first identify a recipe. This will be used to create the test case that will validate that the scraper is working correctly.
 
+> [!NOTE]
+> Try to pick a recipe that involves more than one instruction, if you can.  The test suite considers single-instruction recipes to indicate possible human error.  If you need to, though, you can [indicate that that's expected](https://github.com/hhursev/recipe-scrapers/blob/98ead6fc6e9653805b01539a3f46fbfb4e096136/tests/test_allrecipes.py#L147-L150).
+
 Next, find out if the website supports [Recipe Schema](https://schema.org/Recipe). If the website does support Recipe Schema, this will make creating the scraper straightforward. If not, supporting the site will be more complex but still possible.
 
 ```python
