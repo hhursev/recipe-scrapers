@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-<!-- Grow Social by Mediavine v.2.16.3 https://marketplace.mediavine.com/grow-social-pro/ -->
+<!-- Grow Social by Mediavine v.2.16.4 https://marketplace.mediavine.com/grow-social-pro/ -->
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Parmesan Zucchini Casserole" />
@@ -21,9 +21,9 @@
 <meta name="twitter:image" content="https://livelytable.com/wp-content/uploads/2023/01/Parmesan-zucchini-casserole-1.jpg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="1798" />
-<!-- Grow Social by Mediavine v.2.16.3 https://marketplace.mediavine.com/grow-social-pro/ -->
+<!-- Grow Social by Mediavine v.2.16.4 https://marketplace.mediavine.com/grow-social-pro/ -->
 
-	<!-- This site is optimized with the Yoast SEO Premium plugin v18.9 (Yoast SEO v20.10) - https://yoast.com/wordpress/plugins/seo/ -->
+	<!-- This site is optimized with the Yoast SEO Premium plugin v18.9 (Yoast SEO v21.1) - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Parmesan Zucchini Casserole</title>
 	<meta name="description" content="There are many reasons why you&#039;ll love this Parmesan zucchini casserole. It is quick and easy to make and doesn&#039;t require many ingredients." />
 	<link rel="canonical" href="https://livelytable.com/parmesan-zucchini-casserole/" />
@@ -49,7 +49,32 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
 </style>
-<link rel='stylesheet' id='dpsp-frontend-style-pro-css' href='https://livelytable.com/wp-content/plugins/social-pug/assets/dist/style-frontend-pro.2.16.3.css?ver=2.16.3' type='text/css' media='all' />
+<style id='feast-global-styles-inline-css' type='text/css'>
+.feast-social-media {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	column-gap: 18px;
+	row-gap: 9px;
+	width: 100%;
+	padding: 27px 0;
+}
+.feast-social-media a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 12px;
+}
+@media(max-width:600px) {
+	.feast-social-media a {
+		min-height: 50px;
+		min-width: 50px;
+	}
+}
+
+</style>
+<link rel='stylesheet' id='dpsp-frontend-style-pro-css' href='https://livelytable.com/wp-content/plugins/social-pug/assets/dist/style-frontend-pro.2.16.4.css?ver=2.16.4' type='text/css' media='all' />
 <style id='dpsp-frontend-style-pro-inline-css' type='text/css'>
 
 				@media screen and ( max-width : 720px ) {
@@ -245,27 +270,33 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 	.bypostauthor .comment-author-name { color: unset; }
 	.comment-list article header { overflow: auto; }
 	.fsri-rating .wprm-recipe-rating { pointer-events: none; }
-	nav#breadcrumbs { margin: 5px 0 15px; }</style><!-- HFCM by 99 Robots - Snippet # 2: Pinterest Verify -->
+	nav#breadcrumbs { margin: 5px 0 15px; }</style><style type="text/css" id='feastbreadcrumbstylesoverride'>
+@media only screen and (max-width: 940px) {
+	nav#breadcrumbs {
+		display: block;
+	}
+}
+</style><!-- HFCM by 99 Robots - Snippet # 2: Pinterest Verify -->
 <meta name="p:domain_verify" content="05977169f7f0e4db353a4b65eba95024"/>
 <!-- /end HFCM by 99 Robots -->
 <!-- HFCM by 99 Robots - Snippet # 4: Mediavine -->
-<script>
-(function(){function t(){for(var a=[8],e=1;2>=e;e++)a.push(8+e),a.push(8-e);a=a[Math.floor(Math.random()*a.length)];return{b:a,a:0==Math.floor(Math.random()*a)}}function g(a){var e=a=a.replace(":","");try{for(var b=0;100>b&&(a=decodeURIComponent(a),e!=a)&&!a.match(/^http(s)?\:/);b++)e=a}catch(c){}return a.replace(/(^\s+|\s+$)/g,"")}try{if(!location||!location.hostname||!location.pathname)return!1;var c=document.location.hostname.replace(/^www\./,""),u=function(){for(var a,b=document.getElementsByTagName("meta"),
-c,d=0,f=b.length;d<f;d++)if(c=b[d],"og:title"===c.getAttribute("property")){a=c.getAttribute("content");break}a||(a=document.title||"Untitled");return a}(),b={},b=function(a,b,c){a.l1=b;a.l2=c;a.l3="__page__";a.l4="-";return a}(b,c,u),h=(new Date).getTime(),k=Math.floor(Math.random()*Math.pow(10,12)),l,d;d=t();l=d.a?d.b:0;b.zmoatab_cm=l;b.t=h;b.de=k;b.zMoatAB_SNPT=!0;var m;m=l?l:1;var n;n=d?d.a?!0:!1:!0;var c=[],v=(new Date).getTime().toString(35),p=[g(b.l1),g(b.l2),g(b.l3),g(b.l4)].join(":"),w="https://j87vdqof2788-a.akamaihd.net/"+
-v+".gif?e=17&d="+encodeURIComponent(p)+"&de="+k+"&t="+h+"&i=AHAOLOGYCONTENT1&cm="+m+"&mp=1&ac=1&pl=1&bq=10&vc=2&cs=0",x="https://px.moatads.com/pixel.gif?e=17&d="+encodeURIComponent(p)+"&de="+k+"&t="+h+"&i=AHAOLOGYCONTENT1&cm="+m+"&mp=0&ac=1&pl=1&bq=10&ad_type=img&vc=2&cs=0",y="https://px.moatads.com/pixel.gif?e=17&d="+encodeURIComponent(p)+"&de="+k+"&t="+h+"&i=AHAOLOGYCONTENT1&cm="+m+"&ku=1&ac=1&pl=1&bq=10&ad_type=img&vc=2&cs=0";n&&((new Image).src=w,(new Image).src=x);for(var q in b)c.push(q+"="+
-encodeURIComponent(b[q]));var c=c.join("&"),c=c+"&vc=2",f=document.createElement("script");f.type="text/javascript";f.async=!0;n&&(f.onerror=function(){(new Image).src=y});var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(f,r);f.src="https://z.moatads.com/ahaologycontent998575342/moatcontent.js#"+c}catch(a){try{var z="//pixel.moatads.com/pixel.gif?e=24&d=data%3Adata%3Adata%3Adata&i=MOATCONTENTABSNIPPET1&vc=2&ac=1&k="+encodeURIComponent(a)+"&j="+encodeURIComponent(document.referrer)+
-"&cs="+(new Date).getTime();(new Image).src=z}catch(e){}}})();
+<script>
+(function(){function t(){for(var a=[8],e=1;2>=e;e++)a.push(8+e),a.push(8-e);a=a[Math.floor(Math.random()*a.length)];return{b:a,a:0==Math.floor(Math.random()*a)}}function g(a){var e=a=a.replace(":","");try{for(var b=0;100>b&&(a=decodeURIComponent(a),e!=a)&&!a.match(/^http(s)?\:/);b++)e=a}catch(c){}return a.replace(/(^\s+|\s+$)/g,"")}try{if(!location||!location.hostname||!location.pathname)return!1;var c=document.location.hostname.replace(/^www\./,""),u=function(){for(var a,b=document.getElementsByTagName("meta"),
+c,d=0,f=b.length;d<f;d++)if(c=b[d],"og:title"===c.getAttribute("property")){a=c.getAttribute("content");break}a||(a=document.title||"Untitled");return a}(),b={},b=function(a,b,c){a.l1=b;a.l2=c;a.l3="__page__";a.l4="-";return a}(b,c,u),h=(new Date).getTime(),k=Math.floor(Math.random()*Math.pow(10,12)),l,d;d=t();l=d.a?d.b:0;b.zmoatab_cm=l;b.t=h;b.de=k;b.zMoatAB_SNPT=!0;var m;m=l?l:1;var n;n=d?d.a?!0:!1:!0;var c=[],v=(new Date).getTime().toString(35),p=[g(b.l1),g(b.l2),g(b.l3),g(b.l4)].join(":"),w="https://j87vdqof2788-a.akamaihd.net/"+
+v+".gif?e=17&d="+encodeURIComponent(p)+"&de="+k+"&t="+h+"&i=AHAOLOGYCONTENT1&cm="+m+"&mp=1&ac=1&pl=1&bq=10&vc=2&cs=0",x="https://px.moatads.com/pixel.gif?e=17&d="+encodeURIComponent(p)+"&de="+k+"&t="+h+"&i=AHAOLOGYCONTENT1&cm="+m+"&mp=0&ac=1&pl=1&bq=10&ad_type=img&vc=2&cs=0",y="https://px.moatads.com/pixel.gif?e=17&d="+encodeURIComponent(p)+"&de="+k+"&t="+h+"&i=AHAOLOGYCONTENT1&cm="+m+"&ku=1&ac=1&pl=1&bq=10&ad_type=img&vc=2&cs=0";n&&((new Image).src=w,(new Image).src=x);for(var q in b)c.push(q+"="+
+encodeURIComponent(b[q]));var c=c.join("&"),c=c+"&vc=2",f=document.createElement("script");f.type="text/javascript";f.async=!0;n&&(f.onerror=function(){(new Image).src=y});var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(f,r);f.src="https://z.moatads.com/ahaologycontent998575342/moatcontent.js#"+c}catch(a){try{var z="//pixel.moatads.com/pixel.gif?e=24&d=data%3Adata%3Adata%3Adata&i=MOATCONTENTABSNIPPET1&vc=2&ac=1&k="+encodeURIComponent(a)+"&j="+encodeURIComponent(document.referrer)+
+"&cs="+(new Date).getTime();(new Image).src=z}catch(e){}}})();
 </script>
 <!-- /end HFCM by 99 Robots -->
 <!-- HFCM by 99 Robots - Snippet # 9: GA4 Tag -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HX5EG76JTS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-HX5EG76JTS');
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HX5EG76JTS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HX5EG76JTS');
 </script>
 <!-- /end HFCM by 99 Robots -->
 		<script type="text/javascript" async defer data-pin-color="red" 
@@ -797,14 +828,14 @@ background-color: #f2f2f2;
 	<li id="menu-item-186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-186"><a href="https://livelytable.com/about/contact/"><span >Contact</span></a></li>
 </ul>
 </li>
-<li id="feast-search" class="feast-search menu-item"><form class="search-form" method="get" action="https://livelytable.com/" role="search"><label class="search-form-label screen-reader-text" for="searchform-1">Search</label><input class="search-form-input" type="search" name="s" id="searchform-1" placeholder="Search"><input class="search-form-submit" type="submit" value="Search"><meta content="https://livelytable.com/?s={s}"></form></li></ul></div></nav><header class="site-header"><div class="wrap"><div class="title-area"><p class="site-title"><a href="https://livelytable.com/" title="Lively Table" ><img src="https://livelytable.com/wp-content/uploads/2022/06/Lively-Table-Logo-360width-02.png" title="Lively Table" alt="Lively Table logo" data-pin-nopin="true" /></a></p></div></div></header><div class="feastmobilenavbar"><div class="feastmenutoggle"><a href="#feastmobilemenu"><?xml version="1.0" encoding="iso-8859-1"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Capa_1" xmlns="//www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 459 459" style="enable-background:new 0 0 459 459;" xml:space="preserve" aria-labelledby="menuicon" role="img">
-	<title id="menuicon">menu icon</title>
-	<g id="menu">
-		<path fill="currentColor" d="M0,382.5h459v-51H0V382.5z M0,255h459v-51H0V255z M0,76.5v51h459v-51H0z"/>
-	</g>
-</svg>
+<li id="feast-search" class="feast-search menu-item"><form class="search-form" method="get" action="https://livelytable.com/" role="search"><label class="search-form-label screen-reader-text" for="searchform-1">Search</label><input class="search-form-input" type="search" name="s" id="searchform-1" placeholder="Search"><input class="search-form-submit" type="submit" value="Search"><meta content="https://livelytable.com/?s={s}"></form></li></ul></div></nav><header class="site-header"><div class="wrap"><div class="title-area"><p class="site-title"><a href="https://livelytable.com/" title="Lively Table" ><img src="https://livelytable.com/wp-content/uploads/2022/06/Lively-Table-Logo-360width-02.png" title="Lively Table" alt="Lively Table logo" data-pin-nopin="true" /></a></p></div></div></header><div class="feastmobilenavbar"><div class="feastmenutoggle"><a href="#feastmobilemenu"><?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="//www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 459 459" style="enable-background:new 0 0 459 459;" xml:space="preserve" aria-labelledby="menuicon" role="img">
+	<title id="menuicon">menu icon</title>
+	<g id="menu">
+		<path fill="currentColor" d="M0,382.5h459v-51H0V382.5z M0,255h459v-51H0V255z M0,76.5v51h459v-51H0z"/>
+	</g>
+</svg>
 </a></div><div class="feastmenulogo"><a href="https://livelytable.com"><img src="https://livelytable.com/wp-content/uploads/2022/06/LT-03-200x70-1.png" srcset="https://livelytable.com/wp-content/uploads/2022/06/LT-05-400x140-1.png 2x" alt="go to homepage" data-skip-lazy data-pin-nopin="true" height="70" width="200" /></a></div><div class="feastsearchtoggle"><a href="#feastmobilemenu"><svg xmlns="//www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink" xml:space="preserve" xmlns:svg="//www.w3.org/2000/svg" version="1.1" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 100 100" aria-labelledby="searchicon" role="img">
   <title id="searchicon">search icon</title>
   <g transform="translate(0,-952.36218)">
@@ -851,7 +882,7 @@ background-color: #f2f2f2;
 	</a></li>
 
 <li class="dpsp-network-list-item dpsp-network-list-item-email" style="float:left">
-	<a rel="nofollow noopener" href="/cdn-cgi/l/email-protection#85baf6f0e7efe0e6f1b8edf1f1f5f6a0b6c4a0b7c3a0b7c3e9ecf3e0e9fcf1e4e7e9e0abe6eae8a0b7c3f5e4f7e8e0f6e4eba8fff0e6e6edecebeca8e6e4f6f6e0f7eae9e0a0b7c3a3e4e8f5bee7eae1fcb8d5e4f7e8e0f6e4eba0b7b5dff0e6e6edecebeca0b7b5c6e4f6f6e0f7eae9e0" class="dpsp-network-btn dpsp-email dpsp-no-label dpsp-last" target="_blank" aria-label="Send over email" title="Send over email" style="font-size:14px;padding:0rem;max-height:32px">	<span class="dpsp-network-icon ">
+	<a rel="nofollow noopener" href="/cdn-cgi/l/email-protection#6a55191f08000f091e57021e1e1a194f592b4f582c4f582c06031c0f06131e0b08060f440905074f582c1a0b18070f190b0447101f09090203040347090b19190f1805060f4f582c4c0b071a5108050e13573a0b18070f190b044f585a301f0909020304034f585a290b19190f1805060f" class="dpsp-network-btn dpsp-email dpsp-no-label dpsp-last" target="_blank" aria-label="Send over email" title="Send over email" style="font-size:14px;padding:0rem;max-height:32px">	<span class="dpsp-network-icon ">
 		<span class="dpsp-network-icon-inner"></span>
 	</span>
 	</a></li>
@@ -1466,7 +1497,7 @@ background-color: #f2f2f2;
 	</a></li>
 
 <li class="dpsp-network-list-item dpsp-network-list-item-email" style="float:left">
-	<a rel="nofollow noopener" href="/cdn-cgi/l/email-protection#b48bc7c1d6ded1d7c089dcc0c0c4c79187f59186f29186f2d8ddc2d1d8cdc0d5d6d8d19ad7dbd99186f2c4d5c6d9d1c7d5da99cec1d7d7dcdddadd99d7d5c7c7d1c6dbd8d19186f292d5d9c48fd6dbd0cd89e4d5c6d9d1c7d5da918684eec1d7d7dcdddadd918684f7d5c7c7d1c6dbd8d1" class="dpsp-network-btn dpsp-email dpsp-no-label dpsp-last" target="_blank" aria-label="Send over email" title="Send over email" style="font-size:14px;padding:0rem;max-height:32px">	<span class="dpsp-network-icon ">
+	<a rel="nofollow noopener" href="/cdn-cgi/l/email-protection#2a15595f48404f495e17425e5e5a590f196b0f186c0f186c46435c4f46535e4b48464f044945470f186c5a4b58474f594b4407505f49494243444307494b59594f5845464f0f186c0c4b475a1148454e53177a4b58474f594b440f181a705f4949424344430f181a694b59594f5845464f" class="dpsp-network-btn dpsp-email dpsp-no-label dpsp-last" target="_blank" aria-label="Send over email" title="Send over email" style="font-size:14px;padding:0rem;max-height:32px">	<span class="dpsp-network-icon ">
 		<span class="dpsp-network-icon-inner"></span>
 	</span>
 	</a></li>
@@ -1488,7 +1519,7 @@ background-color: #f2f2f2;
 <p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
 <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='28164' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="7803f5c70b" /></p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="189"/><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="42b50b0470" /></p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="12"/><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
 	</main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" id="genesis-sidebar-primary"><h2 class="genesis-sidebar-title screen-reader-text">Primary Sidebar</h2><div class="feast-modern-sidebar">
 <h3 class="has-text-align-center has-white-color has-text-color has-background has-medium-font-size wp-block-heading" id="h-trending" style="background-color:#34ba84;text-transform:uppercase">Trending</h3>
 
@@ -1582,7 +1613,7 @@ background-color: #f2f2f2;
 	</a></li>
 
 <li class="dpsp-network-list-item dpsp-network-list-item-email">
-	<a rel="nofollow noopener" href="/cdn-cgi/l/email-protection#2f105c5a4d454a4c5b12475b5b5f5c0a1c6e0a1d690a1d694346594a43565b4e4d434a014c40420a1d695f4e5d424a5c4e4102555a4c4c47464146024c4e5c5c4a5d40434a0a1d69094e425f144d404b56127f4e5d424a5c4e410a1d1f755a4c4c474641460a1d1f6c4e5c5c4a5d40434a" class="dpsp-network-btn dpsp-email dpsp-no-label dpsp-last" target="_blank" aria-label="Send over email" title="Send over email">	<span class="dpsp-network-icon ">
+	<a rel="nofollow noopener" href="/cdn-cgi/l/email-protection#e9d69a9c8b838c8a9dd4819d9d999accdaa8ccdbafccdbaf85809f8c85909d888b858cc78a8684ccdbaf99889b848c9a8887c4939c8a8a81808780c48a889a9a8c9b86858cccdbafcf888499d28b868d90d4b9889b848c9a8887ccdbd9b39c8a8a81808780ccdbd9aa889a9a8c9b86858c" class="dpsp-network-btn dpsp-email dpsp-no-label dpsp-last" target="_blank" aria-label="Send over email" title="Send over email">	<span class="dpsp-network-icon ">
 		<span class="dpsp-network-icon-inner"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 28 32"><path d="M18.56 17.408l8.256 8.544h-25.248l8.288-8.448 4.32 4.064zM2.016 6.048h24.32l-12.16 11.584zM20.128 15.936l8.224-7.744v16.256zM0 24.448v-16.256l8.288 7.776z"></path></svg></span>
 	</span>
 	</a></li>
@@ -1599,7 +1630,7 @@ jQuery(document).ready(function(){jQuery(".is-cropped img").each(function(){jQue
 		var dpsp_pin_button_data = {"pin_description_source":"post_pinterest_description","pinterest_pinnable_images":"post_images","pinterest_button_share_behavior":"post_image","post_pinterest_image_hidden":"yes","post_multiple_hidden_pinterest_images":"yes","lazy_load_compatibility":"yes"}
 	
 </script>
-<script type='text/javascript' async data-noptimize src='https://livelytable.com/wp-content/plugins/social-pug/assets/dist/front-end-pro.2.16.3.js?ver=2.16.3' id='dpsp-frontend-js-pro-js'></script>
+<script type='text/javascript' async data-noptimize src='https://livelytable.com/wp-content/plugins/social-pug/assets/dist/front-end-pro.2.16.4.js?ver=2.16.4' id='dpsp-frontend-js-pro-js'></script>
 <script type='text/javascript' src='https://livelytable.com/wp-includes/js/comment-reply.min.js?ver=6.2.2' id='comment-reply-js'></script>
 <script type='text/javascript' src='https://livelytable.com/wp-content/themes/genesis/lib/js/skip-links.min.js?ver=3.4.0' id='skip-links-js'></script>
 <script type='text/javascript' src='https://livelytable.com/wp-content/plugins/wp-featherlight/js/wpFeatherlight.pkgd.min.js?ver=1.3.4' id='wp-featherlight-js'></script>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -42,13 +42,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         "@type": "Recipe",
         "name": "Tofu Mixed Greens Salad with Broccoli Beet Mix & Carrot Ginger Dressing",
         "author": "Innit Inc",
-        "datePublished":"2020-07-02",
+        "datePublished":"2022-02-07",
         "image": [
                 "https://www.innit.com/meal-service/en-US/images/Meal-Salads%3A%20Blended-Carrot_Ginger_Dressing%2BAssembled-Broccoli_Beet_Mix%2BSeared-Tofu-Diced%2BOlive_Oil%2BPrepared-Mixed_Greens_480x480.png",
                 "https://www.innit.com/meal-service/en-US/images/Meal-Salads%3A%20Blended-Carrot_Ginger_Dressing%2BAssembled-Broccoli_Beet_Mix%2BSeared-Tofu-Diced%2BOlive_Oil%2BPrepared-Mixed_Greens_640x640.png",
                 "https://www.innit.com/meal-service/en-US/images/Meal-Salads%3A%20Blended-Carrot_Ginger_Dressing%2BAssembled-Broccoli_Beet_Mix%2BSeared-Tofu-Diced%2BOlive_Oil%2BPrepared-Mixed_Greens_960x960.png"
         ],
-
+        
         "totalTime": "PT51M",
         "cookTime": "PT49M",
         "prepTime": "PT2M",
@@ -60,27 +60,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 "sugarContent": "18 g",
                 "proteinContent": "32 g",
                 "fiberContent": "11 g",
-                "unsaturatedFatContent": "55 g",
-                "fatContent": "64 g",
+                "unsaturatedFatContent": "53 g",
+                "fatContent": "61 g",
                 "cholesterolContent": "0 mg",
-                "calories": "830 kcal",
+                "calories": "800 kcal",
                 "carbohydrateContent": "34 g",
-                "saturatedFatContent": "9 g",
-                "sodiumContent": "1060 mg"        },
+                "saturatedFatContent": "8 g",
+                "sodiumContent": "1040 mg"        },
         "recipeIngredient": [
                     "2  Carrots",
-                                    "1 piece Fresh Ginger",
+                                    "1 piece Ginger",
                                     "1/2  Orange",
                                     "1 Tbsp Fresh Chives",
                                     "2 cups Broccoli",
                                     "1 lb Precooked Beets",
                                     "2 Tbsp Italian Parsley",
-                                    "4 cups Fresh Spring Mix",
+                                    "4 cups Spring Mix",
                     "2 packages Extra Firm Tofu",
                     "1 Tbsp Miso Paste",
                                     "1/2 tsp Sesame Seed Oil",
                                     "1/2 Tbsp Honey",
-                    "1 1/3 tsp Kosher Salt",
+                    "1 1/4 tsp Kosher Salt",
                     "2/3 cup Olive Oil",
                                     "2 pinches Black Pepper",
                                     "1/4 cup Rice Wine Vinegar",
@@ -178,7 +178,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   "itemListElement": [
                         {
                             "@type": "HowToStep",
-                            "text": "Toss beets in oil. Season with salt, pepper & parsley. "
+                            "text": "Toss beets in oil. Season with salt, pepper & parsley."
                         }                    ]
                 },
                 {
@@ -221,7 +221,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         ],
         "recipeCuisine": [
         ],
-        "recipeCategory": "Salads"
+        "recipeCategory": "Salads",
     }
 </script></head><body>
 <div class="wrapper">
@@ -238,7 +238,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <a href="https://www.innit.com/search">
                 <img class="search-image search-image-moblie" src="https://www.innit.com/v1/mealpage/assets/default/images/Search_Bar_Icon-web-liquid.png">
                 </a>
-
+               
 
                 <a href="/" id="logo-container-mobile"
                    class="brand-logo-mobile show-on-med-and-up" tabindex="0">
@@ -252,7 +252,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </a>
 
                     <ul class="nav-menu-right">
-
+                        
+                        <div class="left hide-on-med-and-down">
+                            <li class="dropbtn">
+                                <a href="https://www.innit.com/withinnit/">FOR BUSINESS</a>
+                            </li>
+                        </div>
+                        <div class="nav-pipe">|</div>
                         <div class="left hide-on-med-and-down">
                             <li class="dropbtn">
                                 <a href="https://www.innit.com/meal">RECIPES</a>
@@ -286,40 +292,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                     <a href="/shopwell">
                                         Shopwell App
                                     </a>
-                                </div>
-                            </div>
-
-                        <div class="left hide-on-med-and-down">
-                            <li class="dropbtn">
-                                <a href="/premium">
-                                    Premium
-                                </a>
-                            </li>
-                        </div>
-
-                            <div class="dropdown hide-on-med-and-down">
-                                <li class="dropbtn">
-                                    Platform
-                                </li>
-                                <div class="dropdown-content">
-                                    <a href="/withinnit">
-                                        Platform
-                                    </a>
-                                    <a href="/workswithinnit">
-                                        Works with Innit
-                                    </a>
-                                    <a href="/withinnit/lens-with-innit">
-                                        Lens with Innit
+                                    <a href="/premium">
+                                        Premium
                                     </a>
                                 </div>
-                            </div>
-
-                            <div class="left hide-on-med-and-down">
-                                <li class="dropbtn">
-                                    <a href="/about-us">
-                                        About Us
-                                    </a>
-                                </li>
                             </div>
 
 
@@ -342,74 +318,74 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <a href="/">
                         Home
                     </a>
-                    <div class="side-nav-border-bottom"></div>
                 </li>
+
+                <li class="inactive"><p>FOR BUSINESS</p></li>
+
+                <li class="relative-li">
+                    <a href="https://www.innit.com/withinnit/">For Business</a>
+                </li>
+                
+                <li class="relative-li">
+                    <a href="https://www.innit.com/withinnit/lens-with-innit">Lens With Innit</a>
+                </li>
+                
+                <li class="relative-li">
+                    <a href="https://www.innit.com/workswithinnit/">Works With Innit</a>
+                </li>
+
+                <li class="inactive"><p>EXPLORE</p></li>
 
                 <li class="relative-li">
                     <a href="https://www.innit.com/meal">Recipes</a>
-                    <div class="side-nav-border-bottom"></div>
                 </li>
 
                 <li class="relative-li">
                     <a href="https://www.innit.com/nutrition">Products</a>
-                    <div class="side-nav-border-bottom"></div>
-                </li>
-
-                <li class="relative-li">
-                    <a href="https://www.innit.com/learn">Guides</a>
-                    <div class="side-nav-border-bottom"></div>
                 </li>
 
                 <li class="relative-li">
                     <a href="https://www.innit.com/howto">How-To's</a>
-                    <div class="side-nav-border-bottom"></div>
                 </li>
 
                 <li class="relative-li">
-                    <a href="/premium">
-                        Premium
-                    </a>
-                    <div class="side-nav-border-bottom"></div>
+                    <a href="https://www.innit.com/learn">Guides</a>
                 </li>
-                <li class="relative-li">
-                    <a href="/workswithinnit">
-                        Works with Innit
-                    </a>
-                    <div class="side-nav-border-bottom"></div>
-                </li>
-                <li class="relative-li">
-                    <a href="/withinnit">
-                        Platform
-                    </a>
-                    <div class="side-nav-border-bottom"></div>
-                </li>
-                    <li class="relative-li">
-                        <a href="/withinnit/lens-with-innit">
-                            Lens with Innit
-                        </a>
-                        <div class="side-nav-border-bottom"></div>
-                    </li>
-                    <li class="relative-li">
-                        <a href="/about-us">
-                            About Us
-                        </a>
-                        <div class="side-nav-border-bottom"></div>
-                    </li>
-                    <li class="relative-li">
-                        <a href="/career">
-                            Careers
-                        </a>
-                        <div class="side-nav-border-bottom"></div>
-                    </li>
 
+                <li class="inactive"><p>APPS</p></li>
+                
                 <li class="relative-li">
                     <a href="https://www.innit.com/innitapp/">Innit App</a>
-                    <div class="side-nav-border-bottom"></div>
                 </li>
 
                 <li class="relative-li">
                     <a href="https://www.innit.com/shopwell/">Shopwell App</a>
-                    <div class="side-nav-border-bottom"></div>
+                </li>
+
+                <li class="relative-li">
+                    <a href="https://www.innit.com/premium/">Premium</a>
+                </li>
+
+                <li class="relative-li">
+                    <a href="https://www.innit.com/mobile/?_branch_match_id=822365049420847307&amp;utm_medium=marketing" target="_blank">Download App</a>
+                </li>
+
+                <li class="inactive"><p>COMPANY</p></li>
+
+                <li class="relative-li">
+                    <a href="https://www.innit.com/about-us/">About Us</a>
+                </li>
+                <li class="relative-li">
+                    <a href="https://www.innit.com/team">Our Team</a>
+                </li>
+                <li class="relative-li">
+                    <a href="https://support.innit.com/hc/en-us">Support</a>
+                </li>
+                <li class="relative-li">
+                    <a href="https://www.innit.com/career">Careers</a>
+                </li>
+                <li class="relative-li">
+                    <a href="https://www.innit.com/press">Press</a>
                 </li>
 
                 <li class="socialicon-mobile-menu">
@@ -483,7 +459,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <a href="#nutrition">
                                 <img src="/v1/mealpage/assets/default/images/temp/ico-apple.svg" width="13" height="15" alt="">
 
-                                <strong>830 kcal </strong>
+                                <strong>800 kcal </strong>
                             </a>
 
                         </li>
@@ -553,7 +529,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                  <ul>
                                                      <li>
                                                          <span>
-                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/FoodItem-Carrot-Orange-Large-Fresh_240x240.png alt="">
+                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/1000197--154567805-en-US-0_240x240.png alt="">
                                                          </span>
                                                          <p>
                                                              Carrots
@@ -566,10 +542,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                  <ul>
                                                      <li>
                                                          <span>
-                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/FoodItem-Ginger_Root_Fresh_240x240.png alt="">
+                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/1000199-1310549001-en-US-0_240x240.png alt="">
                                                          </span>
                                                          <p>
-                                                             Fresh Ginger
+                                                             Ginger
                                                              <span>1 piece</span>
                                                          </p>
                                                      </li>
@@ -579,7 +555,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                  <ul>
                                                      <li>
                                                          <span>
-                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/FoodItem-Orange_Navel_Fresh_240x240.png alt="">
+                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/1000298-632637243-en-US-0_240x240.png alt="">
                                                          </span>
                                                          <p>
                                                              Orange
@@ -592,7 +568,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                  <ul>
                                                      <li>
                                                          <span>
-                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/FoodItem-Chives-Fresh_240x240.png alt="">
+                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/1000201-2070375570-en-US-0_240x240.png alt="">
                                                          </span>
                                                          <p>
                                                              Fresh Chives
@@ -605,7 +581,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                  <ul>
                                                      <li>
                                                          <span>
-                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/FoodItem-Broccoli_Fresh_240x240.png alt="">
+                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/1000252-101834197-en-US-0_240x240.png alt="">
                                                          </span>
                                                          <p>
                                                              Broccoli
@@ -618,7 +594,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                  <ul>
                                                      <li>
                                                          <span>
-                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/FoodItem-Beet_Precooked_240x240.png alt="">
+                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/1000696--658838865-en-US-0_240x240.png alt="">
                                                          </span>
                                                          <p>
                                                              Precooked Beets
@@ -631,7 +607,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                  <ul>
                                                      <li>
                                                          <span>
-                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/FoodItem-Parsley_Italian_Fresh_240x240.png alt="">
+                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/1000135-1500309216-en-US-0_240x240.png alt="">
                                                          </span>
                                                          <p>
                                                              Italian Parsley
@@ -644,10 +620,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                  <ul>
                                                      <li>
                                                          <span>
-                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/FoodItem-Spring_Mix_Fresh_240x240.png alt="">
+                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/1001710--1733552440-en-US-0_240x240.png alt="">
                                                          </span>
                                                          <p>
-                                                             Fresh Spring Mix
+                                                             Spring Mix
                                                              <span>4 cups</span>
                                                          </p>
                                                      </li>
@@ -663,11 +639,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                  <ul>
                                                      <li>
                                                          <span>
-                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/FoodItem-Salt_Kosher_240x240.png alt="">
+                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/1000095-520333318-en-US-0_240x240.png alt="">
                                                          </span>
                                                          <p>
                                                              Kosher Salt
-                                                             <span>1 1/3 tsp</span>
+                                                             <span>1 1/4 tsp</span>
                                                          </p>
                                                      </li>
                                                  </ul>
@@ -684,7 +660,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                  <ul>
                                                      <li>
                                                          <span>
-                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/FoodItem-Tofu_Extra_Firm_240x240.png alt="">
+                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/1000368-138553977-en-US-0_240x240.png alt="">
                                                          </span>
                                                          <p>
                                                              Extra Firm Tofu
@@ -703,7 +679,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                  <ul>
                                                      <li>
                                                          <span>
-                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/FoodItem-Oil_Olive_240x240.png alt="">
+                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/1000354--545415971-en-US-0_240x240.png alt="">
                                                          </span>
                                                          <p>
                                                              Olive Oil
@@ -716,7 +692,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                  <ul>
                                                      <li>
                                                          <span>
-                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/FoodItem-Peppercorn_Black_Ground_240x240.png alt="">
+                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/1000048--1138923545-en-US-0_240x240.png alt="">
                                                          </span>
                                                          <p>
                                                              Black Pepper
@@ -729,7 +705,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                  <ul>
                                                      <li>
                                                          <span>
-                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/FoodItem-Vinegar_Rice_Wine_240x240.png alt="">
+                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/1000105-1457100627-en-US-0_240x240.png alt="">
                                                          </span>
                                                          <p>
                                                              Rice Wine Vinegar
@@ -750,7 +726,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                  <ul>
                                                      <li>
                                                          <span>
-                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/FoodItem-Miso_Paste_240x240.png alt="">
+                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/1000091--557142576-en-US-0_240x240.png alt="">
                                                          </span>
                                                          <p>
                                                              Miso Paste
@@ -763,7 +739,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                  <ul>
                                                      <li>
                                                          <span>
-                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/FoodItem-Oil_Sesame_Seed_240x240.png alt="">
+                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/1000351-115277700-en-US-0_240x240.png alt="">
                                                          </span>
                                                          <p>
                                                              Sesame Seed Oil
@@ -776,7 +752,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                  <ul>
                                                      <li>
                                                          <span>
-                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/FoodItem-Honey_Common_240x240.png alt="">
+                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/1000504--185167926-en-US-0_240x240.png alt="">
                                                          </span>
                                                          <p>
                                                              Honey
@@ -795,7 +771,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                  <ul>
                                                      <li>
                                                          <span>
-                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/FoodItem-Sunflower_Seeds_Dried_240x240.png alt="">
+                                                                <img class="lazy" data-src=https://www.innit.com/meal-service/en-US/images/1000438--418762842-en-US-0_240x240.png alt="">
                                                          </span>
                                                          <p>
                                                              Sunflower Seeds
@@ -860,7 +836,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <span class="ingredient-amount">
                                                         2
                                                          Tbsp
-
+                                                        
                                                     </span>
                                                 <strong>Olive Oil</strong>
                                             </li>
@@ -868,7 +844,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <span class="ingredient-amount">
                                                         1/2
                                                          tsp
-
+                                                        
                                                     </span>
                                                 <strong>Kosher Salt</strong>
                                             </li>
@@ -876,7 +852,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <span class="ingredient-amount">
                                                         1
                                                          pinch
-
+                                                        
                                                     </span>
                                                 <strong>Black Pepper</strong>
                                             </li>
@@ -920,17 +896,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                             </li>
                                             <li>
                                                     <span class="ingredient-amount">
-                                                        2
+                                                        1
                                                          Tbsp
-
+                                                        
                                                     </span>
                                                 <strong>Olive Oil</strong>
                                             </li>
                                             <li>
                                                     <span class="ingredient-amount">
-                                                        1/2
+                                                        1/4
                                                          tsp
-
+                                                        
                                                     </span>
                                                 <strong>Kosher Salt</strong>
                                             </li>
@@ -959,7 +935,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                             <li>
                                                     <span class="ingredient-amount">
                                                         2
-
+                                                        
                                                         , sliced
                                                     </span>
                                                 <strong>Carrots</strong>
@@ -968,15 +944,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <span class="ingredient-amount">
                                                         1
                                                          piece
-                                                        , peeled + sliced
+                                                        , peeled + sliced 
                                                     </span>
-                                                <strong>Fresh Ginger</strong>
+                                                <strong>Ginger</strong>
                                             </li>
                                             <li>
                                                     <span class="ingredient-amount">
-
-
-                                                        enough to cover
+                                                        
+                                                        
+                                                        enough to cover 
                                                     </span>
                                                 <strong>Water</strong>
                                             </li>
@@ -984,7 +960,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <span class="ingredient-amount">
                                                         1
                                                          pinch
-
+                                                        
                                                     </span>
                                                 <strong>Kosher Salt</strong>
                                             </li>
@@ -1013,8 +989,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                             <li>
                                                     <span class="ingredient-amount">
                                                         1/2
-
-                                                        , zested + juiced
+                                                        
+                                                        , zested + juiced 
                                                     </span>
                                                 <strong>Orange</strong>
                                             </li>
@@ -1022,7 +998,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <span class="ingredient-amount">
                                                         1
                                                          Tbsp
-
+                                                        
                                                     </span>
                                                 <strong>Miso Paste</strong>
                                             </li>
@@ -1030,7 +1006,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <span class="ingredient-amount">
                                                         1/2
                                                          tsp
-
+                                                        
                                                     </span>
                                                 <strong>Sesame Seed Oil</strong>
                                             </li>
@@ -1038,7 +1014,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <span class="ingredient-amount">
                                                         1/2
                                                          Tbsp
-                                                        , optional
+                                                        , optional 
                                                     </span>
                                                 <strong>Honey</strong>
                                             </li>
@@ -1046,7 +1022,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <span class="ingredient-amount">
                                                         1/4
                                                          cup
-
+                                                        
                                                     </span>
                                                 <strong>Rice Wine Vinegar</strong>
                                             </li>
@@ -1054,7 +1030,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <span class="ingredient-amount">
                                                         3/8
                                                          cup
-
+                                                        
                                                     </span>
                                                 <strong>Olive Oil</strong>
                                             </li>
@@ -1062,7 +1038,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <span class="ingredient-amount">
                                                         1
                                                          Tbsp
-                                                        , finely chopped
+                                                        , finely chopped 
                                                     </span>
                                                 <strong>Fresh Chives</strong>
                                             </li>
@@ -1070,7 +1046,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <span class="ingredient-amount">
                                                         1/2
                                                          tsp
-
+                                                        
                                                     </span>
                                                 <strong>Kosher Salt</strong>
                                             </li>
@@ -1078,7 +1054,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <span class="ingredient-amount">
                                                         1
                                                          pinch
-
+                                                        
                                                     </span>
                                                 <strong>Black Pepper</strong>
                                             </li>
@@ -1100,7 +1076,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                     <h3>Flavor Beets</h3>
 
                                     <!-- Separate tips from normal instructions -->
-                                    <p>Toss beets in oil. Season with salt, pepper & parsley. </p>
+                                    <p>Toss beets in oil. Season with salt, pepper & parsley.</p>
                                     <!-- Display tip(s) if exist -->
                                     <!-- Display ingredients -->
                                     <ul class="list-ingredients">
@@ -1124,7 +1100,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <span class="ingredient-amount">
                                                         1
                                                          Tbsp
-
+                                                        
                                                     </span>
                                                 <strong>Olive Oil</strong>
                                             </li>
@@ -1132,7 +1108,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <span class="ingredient-amount">
                                                         1
                                                          pinch
-
+                                                        
                                                     </span>
                                                 <strong>Kosher Salt</strong>
                                             </li>
@@ -1140,7 +1116,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <span class="ingredient-amount">
                                                         1
                                                          pinch
-
+                                                        
                                                     </span>
                                                 <strong>Black Pepper</strong>
                                             </li>
@@ -1171,15 +1147,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <span class="ingredient-amount">
                                                         1
                                                          cup
-
+                                                        
                                                     </span>
                                                 <strong>Sunflower Seeds</strong>
                                             </li>
                                             <li>
                                                     <span class="ingredient-amount">
-                                                        1
-                                                         tsp
-
+                                                        1/2
+                                                         Tbsp
+                                                        
                                                     </span>
                                                 <strong>Olive Oil</strong>
                                             </li>
@@ -1187,7 +1163,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <span class="ingredient-amount">
                                                         1
                                                          pinch
-
+                                                        
                                                     </span>
                                                 <strong>Kosher Salt</strong>
                                             </li>
@@ -1217,9 +1193,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <span class="ingredient-amount">
                                                         4
                                                          cups
-
+                                                        
                                                     </span>
-                                                <strong>Fresh Spring Mix</strong>
+                                                <strong>Spring Mix</strong>
                                             </li>
                                     </ul><!-- /.list-ingredients -->
                                 </div><!-- /.video__content -->
@@ -1273,55 +1249,55 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <div class="slider__slide">
                                     <div class="slider__slide-image">
                                         <div class="plate">
-                                            <img class="lazy" data-src="https://www.innit.com/meal-service/en-US/images/Meal-Meal-Entree-Tomato_Basil-Tofu_Extra_Firm-Broccoli-Red_Quinoa_480x480.png" alt="" width="217">
+                                            <img class="lazy" data-src="https://www.innit.com/meal-service/en-US/images/Meal-StirFry%3A%20Fried_Sesame_Egg%2BSauteed_Sesame_Mushroom%2BSauteed-Cauliflower_Rice_480x480.png" alt="" width="217">
                                         </div><!-- /.plate -->
-                                        <a href="/meal/675/1741/Meal-Entree-Tomato-Basil-Tofu-Extra-Firm-Broccoli-Red-Quinoa">
-                                                <p><strong>Tomato Basil</strong></p>
-                                                <p><strong>Tofu</strong></p>
+                                        <a href="/meal/514/5840/StirFry%3A%20Fried-Sesame-Egg%2BSauteed-Sesame-Mushroom%2BSauteed-Cauliflower-Rice">
+                                                <p><strong>Sesame Fried</strong></p>
+                                                <p><strong>Egg</strong></p>
                                         </a>
                                     </div><!-- /.slider__slide-image -->
                                 </div><!-- /.slider__slide -->
                                 <div class="slider__slide">
                                     <div class="slider__slide-image">
                                         <div class="plate">
-                                            <img class="lazy" data-src="https://www.innit.com/meal-service/en-US/images/Meal-TacoOrWrap%3A%20Baked-Halibut%2BChili_Powder%2BAssembled-Pineapple_Beet_Salsa%2BSprouts%2BWarmed-Corn_Tortilla_480x480.png" alt="" width="217">
+                                            <img class="lazy" data-src="https://www.innit.com/meal-service/en-US/images/Meal-StirFry%3A%20Seared_Garlic_Shrimp%2BSauteed_Edamame%2BBoiled_Coconut_Rice_480x480.png" alt="" width="217">
                                         </div><!-- /.plate -->
-                                        <a href="/meal/150/2380/TacoOrWrap%3A%20Baked-Halibut%2BChili-Powder%2BAssembled-Pineapple-Beet-Salsa%2BSprouts%2BWarmed-Corn-Tortilla">
-                                                <p><strong>Pineapple Beet</strong></p>
-                                                <p><strong>Halibut Taco</strong></p>
+                                        <a href="/meal/683/6098/StirFry%3A%20Seared-Garlic-Shrimp%2BSauteed-Edamame%2BBoiled-Coconut-Rice">
+                                                <p><strong>Garlic</strong></p>
+                                                <p><strong>Shrimp</strong></p>
                                         </a>
                                     </div><!-- /.slider__slide-image -->
                                 </div><!-- /.slider__slide -->
                                 <div class="slider__slide">
                                     <div class="slider__slide-image">
                                         <div class="plate">
-                                            <img class="lazy" data-src="https://www.innit.com/meal-service/en-US/images/Meal-StirFry%3A%20Seared_Sesame_Ginger_Salmon%2BSauteed_Edamame%2BSauteed_Sesame_Ramen_480x480.png" alt="" width="217">
+                                            <img class="lazy" data-src="https://www.innit.com/meal-service/en-US/images/Meal-smoothies%3A%20smoothies-c-liquid-dai_fre_mil%2Bsmoothies-c-flavor-lem_tar_dai%2Bsmoothies-c-nutrition_boost-be%2Bbld-smo-lt_myl_1587595735959_480x480.jpg" alt="" width="217">
                                         </div><!-- /.plate -->
-                                        <a href="/meal/641/6073/StirFry%3A%20Seared-Sesame-Ginger-Salmon%2BSauteed-Edamame%2BSauteed-Sesame-Ramen">
-                                                <p><strong>Sesame Ginger</strong></p>
-                                                <p><strong>Salmon</strong></p>
+                                        <a href="/meal/226/9318/smoothies%3A%20smoothies-c-liquid-dai-fre-mil%2Bsmoothies-c-flavor-lem-tar-dai%2Bsmoothies-c-nutrition-boost-be%2Bbld-smo-lt-myl">
+                                                <p><strong>Lemon Tart</strong></p>
+                                                <p><strong>Smoothie</strong></p>
                                         </a>
                                     </div><!-- /.slider__slide-image -->
                                 </div><!-- /.slider__slide -->
                                 <div class="slider__slide">
                                     <div class="slider__slide-image">
                                         <div class="plate">
-                                            <img class="lazy" data-src="https://www.innit.com/meal-service/en-US/images/Meal-smoothies%3A%20smoothies-c-liquid-dai_fre_mil%2Bsmoothies-c-flavor-app_pie_dai%2Bbld-smo-apq_myl_1587696002328_480x480.jpg" alt="" width="217">
+                                            <img class="lazy" data-src="https://www.innit.com/meal-service/en-US/images/Meal-Salad%3A%20Beet_Salad_1529951500746_480x480.png" alt="" width="217">
                                         </div><!-- /.plate -->
-                                        <a href="/meal/333/9311/smoothies%3A%20smoothies-c-liquid-dai-fre-mil%2Bsmoothies-c-flavor-app-pie-dai%2Bbld-smo-apq-myl">
-                                                <p><strong>Quaker Oats Apple</strong></p>
-                                                <p><strong>Pie Smoothie</strong></p>
+                                        <a href="/meal/987/7984/Salad%3A%20Beet-Salad">
+                                                <p><strong>Yellow Beet</strong></p>
+                                                <p><strong>Salad</strong></p>
                                         </a>
                                     </div><!-- /.slider__slide-image -->
                                 </div><!-- /.slider__slide -->
                                 <div class="slider__slide">
                                     <div class="slider__slide-image">
                                         <div class="plate">
-                                            <img class="lazy" data-src="https://www.innit.com/meal-service/en-US/images/Meal-Salad%3A%20Pea_Radish_Salad_1529951657594_480x480.png" alt="" width="217">
+                                            <img class="lazy" data-src="https://www.innit.com/meal-service/en-US/images/Meal-smoothies%3A%20smoothies-c-liquid-dri_yog%2Bsmoothies-c-flavor-ket_blu_dri%2Bsmoothies-c-nutrition_boost-sp%2Bbld-smo-knsvb_yog_1584488470005_480x480.jpg" alt="" width="217">
                                         </div><!-- /.plate -->
-                                        <a href="/meal/276/7996/Salad%3A%20Pea-Radish-Salad">
-                                                <p><strong>Snap Pea &</strong></p>
-                                                <p><strong>Radish Salad</strong></p>
+                                        <a href="/meal/155/9132/smoothies%3A%20smoothies-c-liquid-dri-yog%2Bsmoothies-c-flavor-ket-blu-dri%2Bsmoothies-c-nutrition-boost-sp%2Bbld-smo-knsvb-yog">
+                                                <p><strong>Blueberry Macadamia</strong></p>
+                                                <p><strong>Smoothie</strong></p>
                                         </a>
                                     </div><!-- /.slider__slide-image -->
                                 </div><!-- /.slider__slide -->
@@ -1357,7 +1333,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     </td>
 
                                                     <td>
-                                                            830 kcal
+                                                            800 kcal
                                                     </td>
 
                                                     <td>
@@ -1371,11 +1347,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     </td>
 
                                                     <td>
-                                                            64 g
+                                                            61 g
                                                     </td>
 
                                                     <td>
-                                                            <strong>82%</strong>
+                                                            <strong>78%</strong>
                                                     </td>
                                                 </tr>
                                                     <tr class="tr--grey">
@@ -1385,11 +1361,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     </td>
 
                                                     <td>
-                                                            9 g
+                                                            8 g
                                                     </td>
 
                                                     <td>
-                                                            <strong>44%</strong>
+                                                            <strong>42%</strong>
                                                     </td>
                                                 </tr>
                                                     <tr class="tr--grey">
@@ -1399,7 +1375,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     </td>
 
                                                     <td>
-                                                            55 g
+                                                            53 g
                                                     </td>
 
                                                     <td>
@@ -1429,7 +1405,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     </td>
 
                                                     <td>
-                                                            1060 mg
+                                                            1040 mg
                                                     </td>
 
                                                     <td>
@@ -1581,7 +1557,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     </td>
 
                                                     <td>
-                                                            18.5 mg
+                                                            18 mg
                                                     </td>
 
                                                     <td>
@@ -1678,7 +1654,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     </td>
 
                                                     <td>
-                                                            247 µg
+                                                            247 Âµg
                                                     </td>
 
                                                     <td>
@@ -1716,6 +1692,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <a href="/about-us">
                                 About Us
                             </a>
+                        </li>
+                        <li>
+                            <a href="https://www.innit.com/team/">Our Team</a>
                         </li>
                         <li>
                             <a href="https://support.innit.com/hc/en-us">
@@ -1826,12 +1805,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div><!-- /.footer__nav -->
 
                 <div class="footer__nav">
-                    <h6 class="footer__nav-title">Partnerships</h6>
+                    <h6 class="footer__nav-title">FOR BUSINESS</h6>
 
                     <ul>
                         <li>
                             <a href="/withinnit">
-                                Platform
+                                For Business
                             </a>
                         </li>
                         <li>
@@ -1878,7 +1857,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="footer__bar">
             <ul class="list-legals">
                 <li>
-                    <p>© Innit International SCA</p>
+                    <p>Â© Innit International SCA</p>
                 </li>
 
                 <li>
@@ -1894,9 +1873,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </li>
 
                 <li>
-                    <a href="/sitemap.xml">
-                        Sitemap
-                    </a>
+                    <a href="https://www.innit.com/cookie-policy/"> Cookie Policy</a>
+                </li>
+
+                <li>
+                    <a href="https://www.innit.com/accessibility/"> Web Accessibility</a>
                 </li>
             </ul><!-- /.lsit-legals -->
         </div><!-- /.footer__bar -->
@@ -1905,7 +1886,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="popup mfp-hide" id="popup-app"
      style="background-image: url(/v1/mealpage/assets/default/images/temp/popup-1.jpg)">
-    <span class="btn-close hidden-xs">×</span>
+    <span class="btn-close hidden-xs">Ã</span>
 
     <div class="popup__image visible-xs-block">
         <img src="/v1/mealpage/assets/default/images/temp/popup-image-2.jpg" alt="">
