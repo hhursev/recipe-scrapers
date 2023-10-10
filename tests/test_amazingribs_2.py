@@ -11,6 +11,12 @@ class TestAmazingRibsScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("amazingribs.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://amazingribs.com/brisket-burnt-ends/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Meathead, BBQ Hall of Famer", self.harvester_class.author())
 

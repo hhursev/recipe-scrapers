@@ -6,7 +6,7 @@
           
                                                                                                     
                                                                                                                                                                   
-    <script src="https://assets.over-blog-kiwi.com/b/blog/v2022.24.11/build/runtime.cb21e25f.js"></script><script src="https://assets.over-blog-kiwi.com/b/blog/v2022.24.11/build/ads.930ed0c8.js"></script>
+    <script src="https://assets.over-blog-kiwi.com/b/blog/v2023.17.10/build/runtime.34471c75.js"></script><script src="https://assets.over-blog-kiwi.com/b/blog/v2023.17.10/build/ads.930ed0c8.js"></script>
   <script>
       dataLayer = [{
         'source'   : 'OVERBLOG',
@@ -153,8 +153,8 @@
       }
     }
   </script>
-  <link rel="stylesheet" href="https://assets.over-blog-kiwi.com/b/blog/v2022.24.11/build/main.ca001169.css">
-          <!-- Basic theme id 90 [Noodle] - last modified : 2022-01-18T14:04:24+01:00 -->
+  <link rel="stylesheet" href="https://assets.over-blog-kiwi.com/b/blog/v2023.17.10/build/main.3b8efa1f.css">
+          <!-- Basic theme id 90 [Noodle] - last modified : 2023-09-12T11:45:37+02:00 -->
                  
 
 
@@ -230,7 +230,7 @@ Le Bürli de Saint-Gall est un petit pain en pâte levée, en forme de ballon. J
       "url": "https:\/\/briceletbaklava.ch",
       "logo": {
         "@type": "ImageObject",
-        "url": "https:\/\/assets.over-blog-kiwi.com\/b\/blog\/v2022.24.11\/build\/images\/logo-overblog-big.png",
+        "url": "https:\/\/assets.over-blog-kiwi.com\/b\/blog\/v2023.17.10\/build\/images\/logo-overblog-big.png",
         "width": 550,
         "height": 210
       }
@@ -1782,7 +1782,8 @@ Le Bürli de Saint-Gall est un petit pain en pâte levée, en forme de ballon. J
                 background: #fff;
                 border: 1px solid #3498db;
                                     border-radius: 4px;
-                            }
+                                color: #3498db;
+            }
 
             .ob-input-textarea {
                 height: auto;
@@ -1827,13 +1828,18 @@ Le Bürli de Saint-Gall est un petit pain en pâte levée, en forme de ballon. J
                 fill: #3498db;
             }
 
-            .ob-section-images,
-            .ob-section-images img,
+
             .ob-section-map .ob-map,
             .ob-section-map .ob-desc {
                 max-width: 100%;
                 width: 100%;
                 height: auto;
+            }
+
+            .ob-section-images,
+            .ob-section-images img {
+              max-width: 100%;
+              height: auto;
             }
 
             @media only screen and (min-width: 970px) {
@@ -1982,7 +1988,7 @@ Le Bürli de Saint-Gall est un petit pain en pâte levée, en forme de ballon. J
   }
 </script>
 <script src="//connect.over-blog.com/ping/3215825/isConnected" async></script>
-<script src="https://assets.over-blog-kiwi.com/b/blog/v2022.24.11/build/main.4155e0f7.js"></script>
+<script src="https://assets.over-blog-kiwi.com/b/blog/v2023.17.10/build/main.c15ef79c.js"></script>
 
  </head>
     <!-- Body -->
@@ -1994,10 +2000,8 @@ Le Bürli de Saint-Gall est un petit pain en pâte levée, en forme de ballon. J
 
                         
                                                                           
-      <a href="https://www.750g.com/" class="ob-ShareBar-branding">
-        <img class="ob-ShareBar-brandingImg" src="https://assets.over-blog-kiwi.com/b/blog/v2022.24.11/build/images/shareicon-branding-750g--dark.png" alt="750 grammes">
-      </a>
-    </div>
+              <img class="ob-ShareBar-brandingImg" src="https://assets.over-blog-kiwi.com/b/blog/v2023.17.10/build/images/shareicon-branding-750g--dark.png" alt="750 grammes">
+          </div>
 
     <div class="ob-ShareBar-container ob-ShareBar-container--right">
                         <a class="ob-ShareBar-food" href="https://www.over-blog.com/mag/cuisine-deco" target="_blank">
@@ -2021,12 +2025,12 @@ Le Bürli de Saint-Gall est un petit pain en pâte levée, en forme de ballon. J
           </a>
         
         <a href="https://admin.over-blog.com/" class="ob-ShareBar-admin ob-ShareBar--connected">
-          <img src="https://assets.over-blog-kiwi.com/b/blog/v2022.24.11/build/images/lock-alt-dark.svg" class="ob-ShareBar-lock">
+          <img src="https://assets.over-blog-kiwi.com/b/blog/v2023.17.10/build/images/lock-alt-dark.svg" class="ob-ShareBar-lock">
           <span class="ob-ShareBar-text">Administration</span>
         </a>
       
       <a href="https://connect.over-blog.com/fr/login" class="ob-ShareBar-login ob-ShareBar--notconnected">
-        <img src="https://assets.over-blog-kiwi.com/b/blog/v2022.24.11/build/images/lock-alt-dark.svg" class="ob-ShareBar-lock">
+        <img src="https://assets.over-blog-kiwi.com/b/blog/v2023.17.10/build/images/lock-alt-dark.svg" class="ob-ShareBar-lock">
         <span class="ob-ShareBar-text">Connexion</span>
       </a>
             <a href="https://www.over-blog.com/creation" class="ob-ShareBar-create ob-ShareBar--notconnected">
@@ -2038,7 +2042,7 @@ Le Bürli de Saint-Gall est un petit pain en pâte levée, en forme de ballon. J
   </div>
 
   
-  <script src="https://assets.over-blog-kiwi.com/b/blog/v2022.24.11/build/sharebar.db8ff6e0.js"></script>
+  <script src="https://assets.over-blog-kiwi.com/b/blog/v2023.17.10/build/sharebar.db8ff6e0.js"></script>
   <script>
         var postTitle = "B\u00fcrli de Saint-Gall (St. Galler B\u00fcrli)"
         socialShare(document.querySelector('.ob-ShareBar-share--facebook'), postTitle)
@@ -2358,7 +2362,7 @@ Le Bürli de Saint-Gall est un petit pain en pâte levée, en forme de ballon. J
 </script>
     </div>
         <div class="ob-Shares-print" style="display:none">
-        <img src="https://assets.over-blog-kiwi.com/b/blog/v2022.24.11/build/images/printer.png">
+        <img src="https://assets.over-blog-kiwi.com/b/blog/v2023.17.10/build/images/printer.png">
     </div>
 </div>
 
@@ -2449,44 +2453,44 @@ Le Bürli de Saint-Gall est un petit pain en pâte levée, en forme de ballon. J
             <div class="ob-Related-posts">
                                 <div class="ob-Related-post">
                     <div class="ob-RelatedPost">
-  <a class="ob-RelatedPost-link" href="https://briceletbaklava.ch/2022/07/pane-valle-maggia.html" title="Pane Valle Maggia ">
-          <img class="ob-RelatedPost-image" src="https://image.over-blog.com/ST1gsG4bA5E3-1qsVbHrVmqZPDg=/400x260/smart/filters:no_upscale()/image%2F3215825%2F20220707%2Fob_0ca728_pane-vallemaggia-9238.jpg" alt="Pane Valle Maggia "/>
+  <a class="ob-RelatedPost-link" href="https://briceletbaklava.ch/2023/08/tresse-suisse-aux-saveurs-d-armenie.html" title="Tresse suisse aux saveurs d’Arménie">
+          <img class="ob-RelatedPost-image" src="https://image.over-blog.com/J-1k9uVuMpBrjcJgQDnoLWsHLOs=/400x260/smart/filters:no_upscale()/image%2F3215825%2F20230806%2Fob_239d7b_tresse-suisse-orientale-7835.jpg" alt="Tresse suisse aux saveurs d’Arménie"/>
     
     <div class="ob-RelatedPost-title" >
-              Pane Valle Maggia 
+              Tresse suisse aux saveurs d’Arménie
           </div>
   </a>
 </div>
                 </div>
                                 <div class="ob-Related-post">
                     <div class="ob-RelatedPost">
-  <a class="ob-RelatedPost-link" href="https://briceletbaklava.ch/2022/10/les-mini-cuchaules-pour-un-aperitif.html" title="Les mini cuchaules pour un apéritif">
-          <img class="ob-RelatedPost-image" src="https://image.over-blog.com/hVb42rX46rSgP9lWcwbeq5Lix7Q=/400x260/smart/filters:no_upscale()/image%2F3215825%2F20221007%2Fob_637fdf_minis-cuchaules-9708.jpg" alt="Les mini cuchaules pour un apéritif"/>
+  <a class="ob-RelatedPost-link" href="https://briceletbaklava.ch/2022/12/le-taille-vaudois-au-sel.html" title="Le taillé vaudois au sel ">
+          <img class="ob-RelatedPost-image" src="https://image.over-blog.com/P3hzpVZkrUxCApmJQk_ZP8oc8ZI=/400x260/smart/filters:no_upscale()/image%2F3215825%2F20221227%2Fob_4644cf_taille-vaudois-au-sel-7320.jpg" alt="Le taillé vaudois au sel "/>
     
     <div class="ob-RelatedPost-title" >
-              Les mini cuchaules pour un apéritif
+              Le taillé vaudois au sel 
           </div>
   </a>
 </div>
                 </div>
                                 <div class="ob-Related-post">
                     <div class="ob-RelatedPost">
-  <a class="ob-RelatedPost-link" href="https://briceletbaklava.ch/2022/06/pain-pita-au-levain-actif.html" title="Pain pita au levain actif">
-          <img class="ob-RelatedPost-image" src="https://image.over-blog.com/pn_yfLimrBMKYjnuzSXPvNRW4i8=/400x260/smart/filters:no_upscale()/image%2F3215825%2F20220610%2Fob_a38077_pita-au-levain-actif-8992.jpg" alt="Pain pita au levain actif"/>
+  <a class="ob-RelatedPost-link" href="https://briceletbaklava.ch/2023/02/pain-zurichois-zurcherbrot.html" title="Pain zürichois (Zürcherbrot)">
+          <img class="ob-RelatedPost-image" src="https://image.over-blog.com/rd1azDcObIBuf7aCMIDlmurOWlo=/400x260/smart/filters:no_upscale()/image%2F3215825%2F20230206%2Fob_200a83_pain-zuerichois-7541.jpg" alt="Pain zürichois (Zürcherbrot)"/>
     
     <div class="ob-RelatedPost-title" >
-              Pain pita au levain actif
+              Pain zürichois (Zürcherbrot)
           </div>
   </a>
 </div>
                 </div>
                                 <div class="ob-Related-post">
                     <div class="ob-RelatedPost">
-  <a class="ob-RelatedPost-link" href="https://briceletbaklava.ch/2021/12/le-pain-bis-de-mon-enfance.html" title="Le pain bis de mon enfance">
-          <img class="ob-RelatedPost-image" src="https://image.over-blog.com/sCTrQE5i9kXYkq2p4d4Lob7Fze8=/400x260/smart/filters:no_upscale()/image%2F3215825%2F20211206%2Fob_b98de8_pain-bis-6736.jpg" alt="Le pain bis de mon enfance"/>
+  <a class="ob-RelatedPost-link" href="https://briceletbaklava.ch/2023/02/pain-d-argovie-aargauer-brot.html" title="Pain d’Argovie (Aargauer Brot)">
+          <img class="ob-RelatedPost-image" src="https://image.over-blog.com/ikmmQYGU5UZEie7T6Z1BRDgWJbU=/400x260/smart/filters:no_upscale()/image%2F3215825%2F20230208%2Fob_a09eb4_pain-argovien-7580.jpg" alt="Pain d’Argovie (Aargauer Brot)"/>
     
     <div class="ob-RelatedPost-title" >
-              Le pain bis de mon enfance
+              Pain d’Argovie (Aargauer Brot)
           </div>
   </a>
 </div>
@@ -2666,26 +2670,25 @@ Le Bürli de Saint-Gall est un petit pain en pâte levée, en forme de ballon. J
                                     </div>
                                                                                                             <div class="Sidebar-post">
                                         <div class="ob-h2 PostPreview-title">
-                                                                                                    <a href="https://briceletbaklava.ch/2022/07/pane-valle-maggia.html" title="Pane Valle Maggia ">Pane Valle Maggia </a>
+                                                                                                    <a href="https://briceletbaklava.ch/2023/08/tresse-suisse-aux-saveurs-d-armenie.html" title="Tresse suisse aux saveurs d’Arménie">Tresse suisse aux saveurs d’Arménie</a>
                                                                                         </div>
                                                                                 <figure class="PostPreview-cover">
-                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2022/07/pane-valle-maggia.html">
-                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/EeIPpvhH9vI2vSRfRbQcfmFD0Y0=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20220707%2Fob_0ca728_pane-vallemaggia-9238.jpg" alt="Pane Valle Maggia "/>
+                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2023/08/tresse-suisse-aux-saveurs-d-armenie.html">
+                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/gfpuSatHZkv8wBehlni3rKDZtW8=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20230806%2Fob_239d7b_tresse-suisse-orientale-7835.jpg" alt="Tresse suisse aux saveurs d’Arménie"/>
                                                                                             </a>
                                         </figure>
                                                                                 <div class="PostPreview-content">
                                             <p class="PostPreview-meta PostPreviewMeta">
                                                                                                 <span class="PostPreviewMeta-date">
                                                     <span class="fa fa-fw fa-calendar-o"></span>
-                                                    28/10/2022
+                                                    06/08/2023
                                                 </span>
                                                 
                                                 <span class="PostPreviewMeta-comments">
                                                     <span class="fa fa-comment-o"></span>
-                                                                                                            <span id="comment-count-186228973">…</span><script>
-  ob.commentCount(document.querySelector("#comment-count-186228973"), {
-    id: 186228973,
-    resource: "https://briceletbaklava.ch/api/comment-count/186228973",
+                                                                                                            <span id="comment-count-187928869">…</span><script>
+  ob.commentCount(document.querySelector("#comment-count-187928869"), {
+    resource: "https://briceletbaklava.ch/api/comment-count/187928869",
     format: (count) => {
       const string = count === 0
         ? "0"
@@ -2704,26 +2707,25 @@ Le Bürli de Saint-Gall est un petit pain en pâte levée, en forme de ballon. J
                                     </div>
                                                                         <div class="Sidebar-post">
                                         <div class="ob-h2 PostPreview-title">
-                                                                                                    <a href="https://briceletbaklava.ch/2022/10/les-mini-cuchaules-pour-un-aperitif.html" title="Les mini cuchaules pour un apéritif">Les mini cuchaules pour un apéritif</a>
+                                                                                                    <a href="https://briceletbaklava.ch/2022/12/le-taille-vaudois-au-sel.html" title="Le taillé vaudois au sel ">Le taillé vaudois au sel </a>
                                                                                         </div>
                                                                                 <figure class="PostPreview-cover">
-                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2022/10/les-mini-cuchaules-pour-un-aperitif.html">
-                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/Li1zwUWmTOodMjC55UIfDS7Ck78=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20221007%2Fob_637fdf_minis-cuchaules-9708.jpg" alt="Les mini cuchaules pour un apéritif"/>
+                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2022/12/le-taille-vaudois-au-sel.html">
+                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/M74NqFXkj6F56_CLB2qFbj4IqLQ=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20221227%2Fob_4644cf_taille-vaudois-au-sel-7320.jpg" alt="Le taillé vaudois au sel "/>
                                                                                             </a>
                                         </figure>
                                                                                 <div class="PostPreview-content">
                                             <p class="PostPreview-meta PostPreviewMeta">
                                                                                                 <span class="PostPreviewMeta-date">
                                                     <span class="fa fa-fw fa-calendar-o"></span>
-                                                    07/10/2022
+                                                    18/06/2023
                                                 </span>
                                                 
                                                 <span class="PostPreviewMeta-comments">
                                                     <span class="fa fa-comment-o"></span>
-                                                                                                            <span id="comment-count-186694408">…</span><script>
-  ob.commentCount(document.querySelector("#comment-count-186694408"), {
-    id: 186694408,
-    resource: "https://briceletbaklava.ch/api/comment-count/186694408",
+                                                                                                            <span id="comment-count-187075172">…</span><script>
+  ob.commentCount(document.querySelector("#comment-count-187075172"), {
+    resource: "https://briceletbaklava.ch/api/comment-count/187075172",
     format: (count) => {
       const string = count === 0
         ? "0"
@@ -2742,26 +2744,25 @@ Le Bürli de Saint-Gall est un petit pain en pâte levée, en forme de ballon. J
                                     </div>
                                                                         <div class="Sidebar-post">
                                         <div class="ob-h2 PostPreview-title">
-                                                                                                    <a href="https://briceletbaklava.ch/2022/06/pain-pita-au-levain-actif.html" title="Pain pita au levain actif">Pain pita au levain actif</a>
+                                                                                                    <a href="https://briceletbaklava.ch/2023/02/pain-zurichois-zurcherbrot.html" title="Pain zürichois (Zürcherbrot)">Pain zürichois (Zürcherbrot)</a>
                                                                                         </div>
                                                                                 <figure class="PostPreview-cover">
-                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2022/06/pain-pita-au-levain-actif.html">
-                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/EcTL_EzwV1p2MDvBuxlucUuS1IQ=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20220610%2Fob_a38077_pita-au-levain-actif-8992.jpg" alt="Pain pita au levain actif"/>
+                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2023/02/pain-zurichois-zurcherbrot.html">
+                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/M8Sd8jNGgC1jsG1i5A0vaSd0hIc=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20230206%2Fob_200a83_pain-zuerichois-7541.jpg" alt="Pain zürichois (Zürcherbrot)"/>
                                                                                             </a>
                                         </figure>
                                                                                 <div class="PostPreview-content">
                                             <p class="PostPreview-meta PostPreviewMeta">
                                                                                                 <span class="PostPreviewMeta-date">
                                                     <span class="fa fa-fw fa-calendar-o"></span>
-                                                    03/08/2022
+                                                    05/05/2023
                                                 </span>
                                                 
                                                 <span class="PostPreviewMeta-comments">
                                                     <span class="fa fa-comment-o"></span>
-                                                                                                            <span id="comment-count-186088810">…</span><script>
-  ob.commentCount(document.querySelector("#comment-count-186088810"), {
-    id: 186088810,
-    resource: "https://briceletbaklava.ch/api/comment-count/186088810",
+                                                                                                            <span id="comment-count-187216127">…</span><script>
+  ob.commentCount(document.querySelector("#comment-count-187216127"), {
+    resource: "https://briceletbaklava.ch/api/comment-count/187216127",
     format: (count) => {
       const string = count === 0
         ? "0"
@@ -2780,26 +2781,25 @@ Le Bürli de Saint-Gall est un petit pain en pâte levée, en forme de ballon. J
                                     </div>
                                                                         <div class="Sidebar-post">
                                         <div class="ob-h2 PostPreview-title">
-                                                                                                    <a href="https://briceletbaklava.ch/2021/12/le-pain-bis-de-mon-enfance.html" title="Le pain bis de mon enfance">Le pain bis de mon enfance</a>
+                                                                                                    <a href="https://briceletbaklava.ch/2023/02/pain-d-argovie-aargauer-brot.html" title="Pain d’Argovie (Aargauer Brot)">Pain d’Argovie (Aargauer Brot)</a>
                                                                                         </div>
                                                                                 <figure class="PostPreview-cover">
-                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2021/12/le-pain-bis-de-mon-enfance.html">
-                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/EgfZxu5bQ8IHeSNfR-x7MKGxuKM=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20211206%2Fob_b98de8_pain-bis-6736.jpg" alt="Le pain bis de mon enfance"/>
+                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2023/02/pain-d-argovie-aargauer-brot.html">
+                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/3kh8bLdMJEnMwlTEYj-91sdCmMY=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20230208%2Fob_a09eb4_pain-argovien-7580.jpg" alt="Pain d’Argovie (Aargauer Brot)"/>
                                                                                             </a>
                                         </figure>
                                                                                 <div class="PostPreview-content">
                                             <p class="PostPreview-meta PostPreviewMeta">
                                                                                                 <span class="PostPreviewMeta-date">
                                                     <span class="fa fa-fw fa-calendar-o"></span>
-                                                    27/05/2022
+                                                    19/02/2023
                                                 </span>
                                                 
                                                 <span class="PostPreviewMeta-comments">
                                                     <span class="fa fa-comment-o"></span>
-                                                                                                            <span id="comment-count-185083943">…</span><script>
-  ob.commentCount(document.querySelector("#comment-count-185083943"), {
-    id: 185083943,
-    resource: "https://briceletbaklava.ch/api/comment-count/185083943",
+                                                                                                            <span id="comment-count-187223055">…</span><script>
+  ob.commentCount(document.querySelector("#comment-count-187223055"), {
+    resource: "https://briceletbaklava.ch/api/comment-count/187223055",
     format: (count) => {
       const string = count === 0
         ? "0"
@@ -2821,6 +2821,117 @@ Le Bürli de Saint-Gall est un petit pain en pâte levée, en forme de ballon. J
                                 <div class="Sidebar-widget" data-order="">
                                                                                                             <div class="Sidebar-post">
                                         <div class="ob-h2 PostPreview-title">
+                                                                                                    <a href="https://briceletbaklava.ch/2023/02/pain-zurichois-zurcherbrot.html" title="Pain zürichois (Zürcherbrot)">Pain zürichois (Zürcherbrot)</a>
+                                                                                        </div>
+                                                                                <figure class="PostPreview-cover">
+                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2023/02/pain-zurichois-zurcherbrot.html">
+                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/M8Sd8jNGgC1jsG1i5A0vaSd0hIc=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20230206%2Fob_200a83_pain-zuerichois-7541.jpg" alt="Pain zürichois (Zürcherbrot)"/>
+                                                                                            </a>
+                                        </figure>
+                                                                                <div class="PostPreview-content">
+                                            <p class="PostPreview-meta PostPreviewMeta">
+                                                                                                <span class="PostPreviewMeta-date">
+                                                    <span class="fa fa-fw fa-calendar-o"></span>
+                                                    05/05/2023
+                                                </span>
+                                                
+                                                <span class="PostPreviewMeta-comments">
+                                                    <span class="fa fa-comment-o"></span>
+                                                                                                            <span id="comment-count-187216127">…</span><script>
+  ob.commentCount(document.querySelector("#comment-count-187216127"), {
+    resource: "https://briceletbaklava.ch/api/comment-count/187216127",
+    format: (count) => {
+      const string = count === 0
+        ? "0"
+        : count === 1
+          ? "%c"
+          : "%c"
+
+      return string.replace("%c", count)
+    }
+  })
+</script>
+                                                                                                    </span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                                                        <div class="Sidebar-post">
+                                        <div class="ob-h2 PostPreview-title">
+                                                                                                    <a href="https://briceletbaklava.ch/2023/02/pain-d-argovie-aargauer-brot.html" title="Pain d’Argovie (Aargauer Brot)">Pain d’Argovie (Aargauer Brot)</a>
+                                                                                        </div>
+                                                                                <figure class="PostPreview-cover">
+                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2023/02/pain-d-argovie-aargauer-brot.html">
+                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/3kh8bLdMJEnMwlTEYj-91sdCmMY=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20230208%2Fob_a09eb4_pain-argovien-7580.jpg" alt="Pain d’Argovie (Aargauer Brot)"/>
+                                                                                            </a>
+                                        </figure>
+                                                                                <div class="PostPreview-content">
+                                            <p class="PostPreview-meta PostPreviewMeta">
+                                                                                                <span class="PostPreviewMeta-date">
+                                                    <span class="fa fa-fw fa-calendar-o"></span>
+                                                    19/02/2023
+                                                </span>
+                                                
+                                                <span class="PostPreviewMeta-comments">
+                                                    <span class="fa fa-comment-o"></span>
+                                                                                                            <span id="comment-count-187223055">…</span><script>
+  ob.commentCount(document.querySelector("#comment-count-187223055"), {
+    resource: "https://briceletbaklava.ch/api/comment-count/187223055",
+    format: (count) => {
+      const string = count === 0
+        ? "0"
+        : count === 1
+          ? "%c"
+          : "%c"
+
+      return string.replace("%c", count)
+    }
+  })
+</script>
+                                                                                                    </span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                                                        <div class="Sidebar-post">
+                                        <div class="ob-h2 PostPreview-title">
+                                                                                                    <a href="https://briceletbaklava.ch/2022/11/le-pain-graham.html" title="Le pain Graham ">Le pain Graham </a>
+                                                                                        </div>
+                                                                                <figure class="PostPreview-cover">
+                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2022/11/le-pain-graham.html">
+                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/AWBQlgqKXRymcv3JKG2jk8bSmck=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20221101%2Fob_dc4ce1_pain-graham-7253.jpg" alt="Le pain Graham "/>
+                                                                                            </a>
+                                        </figure>
+                                                                                <div class="PostPreview-content">
+                                            <p class="PostPreview-meta PostPreviewMeta">
+                                                                                                <span class="PostPreviewMeta-date">
+                                                    <span class="fa fa-fw fa-calendar-o"></span>
+                                                    11/01/2023
+                                                </span>
+                                                
+                                                <span class="PostPreviewMeta-comments">
+                                                    <span class="fa fa-comment-o"></span>
+                                                                                                            <span id="comment-count-186822105">…</span><script>
+  ob.commentCount(document.querySelector("#comment-count-186822105"), {
+    resource: "https://briceletbaklava.ch/api/comment-count/186822105",
+    format: (count) => {
+      const string = count === 0
+        ? "0"
+        : count === 1
+          ? "%c"
+          : "%c"
+
+      return string.replace("%c", count)
+    }
+  })
+</script>
+                                                                                                    </span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                                                        <div class="Sidebar-post">
+                                        <div class="ob-h2 PostPreview-title">
                                                                                                     <a href="https://briceletbaklava.ch/2022/07/pane-valle-maggia.html" title="Pane Valle Maggia ">Pane Valle Maggia </a>
                                                                                         </div>
                                                                                 <figure class="PostPreview-cover">
@@ -2839,122 +2950,7 @@ Le Bürli de Saint-Gall est un petit pain en pâte levée, en forme de ballon. J
                                                     <span class="fa fa-comment-o"></span>
                                                                                                             <span id="comment-count-186228973">…</span><script>
   ob.commentCount(document.querySelector("#comment-count-186228973"), {
-    id: 186228973,
     resource: "https://briceletbaklava.ch/api/comment-count/186228973",
-    format: (count) => {
-      const string = count === 0
-        ? "0"
-        : count === 1
-          ? "%c"
-          : "%c"
-
-      return string.replace("%c", count)
-    }
-  })
-</script>
-                                                                                                    </span>
-                                            </p>
-
-                                        </div>
-                                    </div>
-                                                                        <div class="Sidebar-post">
-                                        <div class="ob-h2 PostPreview-title">
-                                                                                                    <a href="https://briceletbaklava.ch/2021/12/le-pain-bis-de-mon-enfance.html" title="Le pain bis de mon enfance">Le pain bis de mon enfance</a>
-                                                                                        </div>
-                                                                                <figure class="PostPreview-cover">
-                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2021/12/le-pain-bis-de-mon-enfance.html">
-                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/EgfZxu5bQ8IHeSNfR-x7MKGxuKM=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20211206%2Fob_b98de8_pain-bis-6736.jpg" alt="Le pain bis de mon enfance"/>
-                                                                                            </a>
-                                        </figure>
-                                                                                <div class="PostPreview-content">
-                                            <p class="PostPreview-meta PostPreviewMeta">
-                                                                                                <span class="PostPreviewMeta-date">
-                                                    <span class="fa fa-fw fa-calendar-o"></span>
-                                                    27/05/2022
-                                                </span>
-                                                
-                                                <span class="PostPreviewMeta-comments">
-                                                    <span class="fa fa-comment-o"></span>
-                                                                                                            <span id="comment-count-185083943">…</span><script>
-  ob.commentCount(document.querySelector("#comment-count-185083943"), {
-    id: 185083943,
-    resource: "https://briceletbaklava.ch/api/comment-count/185083943",
-    format: (count) => {
-      const string = count === 0
-        ? "0"
-        : count === 1
-          ? "%c"
-          : "%c"
-
-      return string.replace("%c", count)
-    }
-  })
-</script>
-                                                                                                    </span>
-                                            </p>
-
-                                        </div>
-                                    </div>
-                                                                        <div class="Sidebar-post">
-                                        <div class="ob-h2 PostPreview-title">
-                                                                                                    <a href="https://briceletbaklava.ch/2022/01/le-pain-de-paques-neuchatelois.html" title="Le pain de Pâques neuchâtelois">Le pain de Pâques neuchâtelois</a>
-                                                                                        </div>
-                                                                                <figure class="PostPreview-cover">
-                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2022/01/le-pain-de-paques-neuchatelois.html">
-                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/nmRvwn4VpHjipykr6hCYbjgVa4Q=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20220122%2Fob_bab575_pain-de-paques-neuchatelois-6817.jpg" alt="Le pain de Pâques neuchâtelois"/>
-                                                                                            </a>
-                                        </figure>
-                                                                                <div class="PostPreview-content">
-                                            <p class="PostPreview-meta PostPreviewMeta">
-                                                                                                <span class="PostPreviewMeta-date">
-                                                    <span class="fa fa-fw fa-calendar-o"></span>
-                                                    13/04/2022
-                                                </span>
-                                                
-                                                <span class="PostPreviewMeta-comments">
-                                                    <span class="fa fa-comment-o"></span>
-                                                                                                            <span id="comment-count-185320607">…</span><script>
-  ob.commentCount(document.querySelector("#comment-count-185320607"), {
-    id: 185320607,
-    resource: "https://briceletbaklava.ch/api/comment-count/185320607",
-    format: (count) => {
-      const string = count === 0
-        ? "0"
-        : count === 1
-          ? "%c"
-          : "%c"
-
-      return string.replace("%c", count)
-    }
-  })
-</script>
-                                                                                                    </span>
-                                            </p>
-
-                                        </div>
-                                    </div>
-                                                                        <div class="Sidebar-post">
-                                        <div class="ob-h2 PostPreview-title">
-                                                                                                    <a href="https://briceletbaklava.ch/2021/11/pain-balois.html" title="Pain bâlois">Pain bâlois</a>
-                                                                                        </div>
-                                                                                <figure class="PostPreview-cover">
-                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2021/11/pain-balois.html">
-                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/LOm6tY4lGxiebN04ST-zccdp1Yo=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20211103%2Fob_5abf69_pain-balois-6502.jpg" alt="Pain bâlois"/>
-                                                                                            </a>
-                                        </figure>
-                                                                                <div class="PostPreview-content">
-                                            <p class="PostPreview-meta PostPreviewMeta">
-                                                                                                <span class="PostPreviewMeta-date">
-                                                    <span class="fa fa-fw fa-calendar-o"></span>
-                                                    17/03/2022
-                                                </span>
-                                                
-                                                <span class="PostPreviewMeta-comments">
-                                                    <span class="fa fa-comment-o"></span>
-                                                                                                            <span id="comment-count-184923134">…</span><script>
-  ob.commentCount(document.querySelector("#comment-count-184923134"), {
-    id: 184923134,
-    resource: "https://briceletbaklava.ch/api/comment-count/184923134",
     format: (count) => {
       const string = count === 0
         ? "0"
@@ -3000,87 +2996,87 @@ Le Bürli de Saint-Gall est un petit pain en pâte levée, en forme de ballon. J
                         <ul class="Sidebar-list">
                                                                                                 <li >
                                         <a href="/tag/entrees/">
-                                            Entrées (82)
-                                        </a>
-                                    </li>
-                                                                    <li >
-                                        <a href="/tag/plat%20principal/">
-                                            Plat Principal (65)
+                                            <span style="text-transform: capitalize;">Entrées</span> (91)
                                         </a>
                                     </li>
                                                                     <li >
                                         <a href="/tag/recettes%20suisses%20salees/">
-                                            Recettes Suisses Salées (65)
+                                            <span style="text-transform: capitalize;">Recettes suisses salées</span> (76)
+                                        </a>
+                                    </li>
+                                                                    <li >
+                                        <a href="/tag/plat%20principal/">
+                                            <span style="text-transform: capitalize;">Plat principal</span> (74)
                                         </a>
                                     </li>
                                                                     <li >
                                         <a href="/tag/recettes%20armeniennes%20salees/">
-                                            Recettes Arméniennes Salées (61)
-                                        </a>
-                                    </li>
-                                                                    <li >
-                                        <a href="/tag/aperitifs/">
-                                            Apéritifs (53)
+                                            <span style="text-transform: capitalize;">Recettes arméniennes salées</span> (64)
                                         </a>
                                     </li>
                                                                     <li >
                                         <a href="/tag/boulangerie/">
-                                            Boulangerie (53)
+                                            <span style="text-transform: capitalize;">Boulangerie</span> (60)
                                         </a>
                                     </li>
                                                                     <li >
-                                        <a href="/tag/mezzes/">
-                                            Mezzés (44)
+                                        <a href="/tag/aperitifs/">
+                                            <span style="text-transform: capitalize;">Apéritifs</span> (58)
                                         </a>
                                     </li>
                                                                     <li >
                                         <a href="/tag/patisserie/">
-                                            Pâtisserie (44)
+                                            <span style="text-transform: capitalize;">Pâtisserie</span> (51)
                                         </a>
                                     </li>
                                                                     <li >
                                         <a href="/tag/desserts/">
-                                            Desserts (42)
+                                            <span style="text-transform: capitalize;">Desserts</span> (47)
+                                        </a>
+                                    </li>
+                                                                    <li >
+                                        <a href="/tag/mezzes/">
+                                            <span style="text-transform: capitalize;">Mezzés</span> (45)
                                         </a>
                                     </li>
                                                                     <li >
                                         <a href="/tag/recettes%20suisses%20sucrees/">
-                                            Recettes Suisses Sucrées (40)
-                                        </a>
-                                    </li>
-                                                                    <li >
-                                        <a href="/tag/recettes%20de%20pains/">
-                                            Recettes De Pains (35)
+                                            <span style="text-transform: capitalize;">Recettes suisses sucrées</span> (44)
                                         </a>
                                     </li>
                                                                     <li >
                                         <a href="/tag/petit-dejeuner/">
-                                            Petit-Déjeuner (34)
+                                            <span style="text-transform: capitalize;">Petit-déjeuner</span> (38)
+                                        </a>
+                                    </li>
+                                                                    <li >
+                                        <a href="/tag/recettes%20de%20pains/">
+                                            <span style="text-transform: capitalize;">Recettes de pains</span> (38)
                                         </a>
                                     </li>
                                                                     <li >
                                         <a href="/tag/recettes%20du%20monde%20salees/">
-                                            Recettes Du Monde Salées (21)
+                                            <span style="text-transform: capitalize;">Recettes du monde salées</span> (24)
                                         </a>
                                     </li>
                                                                     <li >
                                         <a href="/tag/accompagnements/">
-                                            Accompagnements (19)
+                                            <span style="text-transform: capitalize;">Accompagnements</span> (21)
                                         </a>
                                     </li>
                                                                     <li >
                                         <a href="/tag/charcuterie/">
-                                            Charcuterie (12)
+                                            <span style="text-transform: capitalize;">Charcuterie</span> (13)
                                         </a>
                                     </li>
                                                                     <li >
                                         <a href="/tag/recettes%20armeniennes%20sucrees/">
-                                            Recettes Arméniennes Sucrées (10)
+                                            <span style="text-transform: capitalize;">Recettes arméniennes sucrées</span> (13)
                                         </a>
                                     </li>
                                                                     <li >
                                         <a href="/tag/recettes%20du%20monde%20sucrees/">
-                                            Recettes Du Monde Sucrées (7)
+                                            <span style="text-transform: capitalize;">Recettes du monde sucrées</span> (9)
                                         </a>
                                     </li>
                                                                                     </ul>

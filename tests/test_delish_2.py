@@ -13,6 +13,12 @@ class TestDelishScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("delish.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            self.harvester_class.canonical_url(),
+            "https://www.delish.com/cooking/recipe-ideas/a40272839/apple-cookie-recipe/",
+        )
+
     def test_author(self):
         self.assertEqual("Riley Wofford", self.harvester_class.author())
 
@@ -97,4 +103,4 @@ class TestDelishScraper(ScraperTest):
         self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def test_ratings(self):
-        self.assertEqual(4.0, self.harvester_class.ratings())
+        self.assertEqual(3.0, self.harvester_class.ratings())

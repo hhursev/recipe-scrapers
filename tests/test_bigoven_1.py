@@ -5,6 +5,7 @@ from tests import ScraperTest
 class TestBigOven(ScraperTest):
 
     scraper_class = BigOven
+    test_file_name = "bigoven_1"
 
     def test_host(self):
         self.assertEqual("bigoven.com", self.harvester_class.host())
@@ -29,7 +30,7 @@ class TestBigOven(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://photos.bigoven.com/recipe/hero/no-knead-herb-focaccia-79674b.jpg",
+            "https://bigoven-res.cloudinary.com/image/upload/h_640,w_640,c_fill/no-knead-herb-focaccia-79674b.jpg",
             self.harvester_class.image(),
         )
 
@@ -63,7 +64,7 @@ class TestBigOven(ScraperTest):
                     "2. Add remaining cup water, flour, and sea salt. With the dough hook attachment on lowest speed, mix until a loose, craggy dough forms and then increase speed to medium-high and mix until a smooth dough begins to wrap around the hook, about 5 to 7 minutes. Turn off the mixer, cover bowl with a damp towel, and allow dough to rest for 10 to 15 minutes. Resume mixing on medium-high for 10 to 15 minutes until dough becomes very elastic and begins tugging away from the sides of the bowl. Dough will be quite sticky, but resist the urge to add additional flour -- dough.",
                     "3. For the first rise, drizzle ¼ cup olive oil into the mixing bowl and swirl the sides of the bowl to coat as well as the surface of the dough. Cover and allow to rise in a warm place until doubled in size, about 90 to 120 minutes.",
                     "4. Use this time to prepare your herb oil and prep your decorative toppings, if using.",
-                    "5. For the second rise, drizzle another ¼ cup olive oil on a half sheet pan (or two quarter sheet pans). Then, with well-oiled hands, gingerly raise the dough from the mixing bowl and allow its weight to stretch the dough down upon itself. Repeat this stretching technique 4 to 6 times to help encourage extra rise. Transfer the dough to the sheet pan and stretch in all directions to coax it into rectangular submission. It will likely not comply straight away. Cover with oiled plastic wrap and, after a brief rest (about 10 to 15 minutes), stretch the dough a second time.",
+                    "5. For the second rise, drizzle another ¼ cup olive oil on a 18x13 sheet pan (or two half size pans at 13x9). Then, with well-oiled hands, gingerly raise the dough from the mixing bowl and allow its weight to stretch the dough down upon itself. Repeat this stretching technique 4 to 6 times to help encourage extra rise. Transfer the dough to the sheet pan and stretch in all directions to coax it into rectangular submission. It will likely not comply straight away. Cover with oiled plastic wrap and, after a brief rest (about 10 to 15 minutes), stretch the dough a second time.",
                     "6. If you plan to delay baking, now is the time to cover the sheet pan with oiled plastic wrap and place in the refrigerator for up to 24 hours. Bring to room temperature about an hour before baking so that the dough has doubled in height.",
                     "7. While the dough is doubling, preheat the oven to 450°F. Arrange the oven racks to both their highest and lowest positions.",
                     "8. Once risen and ready to bake, uncover the dough and, with well-oiled hands, dimple the dough by plunging fingers spread wide downward into the bottom of the pan. Bubbles are good, but especially large ones can be gently deflated.",
@@ -91,4 +92,4 @@ class TestBigOven(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual({"count": 1, "rating": 5.0}, self.harvester_class.ratings())
+        self.assertEqual({"count": 3, "rating": 4.3}, self.harvester_class.ratings())

@@ -8,6 +8,12 @@ class TestEmmiKochtEinfachScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("emmikochteinfach.de", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://emmikochteinfach.de/klassisches-rindergulasch/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Emmi", self.harvester_class.author())
 

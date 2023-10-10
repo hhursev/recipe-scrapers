@@ -1,5 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 from ._utils import get_yields, normalize_string
 
 
@@ -27,6 +28,14 @@ class BigOven(AbstractScraper):
             for row in rows
             if "ingHeading" not in row.span["class"]
         ]
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            "span.ingredient.ingHeading",
+            "span.ingredient:not(.ingHeading)",
+        )
 
     def instructions(self):
         ps = self.soup.find("div", {"class": "instructions"}).findAll("p")

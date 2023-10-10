@@ -125,7 +125,6 @@ Scrapers available for:
 - `https://cybercook.com.br/ <https://cybercook.com.br/>`_
 - `https://www.davidlebovitz.com/ <https://www.davidlebovitz.com/>`_
 - `https://delish.com/ <https://delish.com>`_
-- `https://www.ditchthecarbs.com/ <https://www.ditchthecarbs.com>`_
 - `https://domesticate-me.com/ <https://domesticate-me.com/>`_
 - `https://downshiftology.com/ <https://downshiftology.com/>`_
 - `https://www.dr.dk/ <https://www.dr.dk/>`_
@@ -237,6 +236,7 @@ Scrapers available for:
 - `https://www.nhs.uk/healthier-families/ <https://www.nhs.uk/healthier-families/>`_
 - `https://www.nosalty.hu/ <https://www.nosalty.hu>`_
 - `https://nourishedbynutrition.com/ <https://nourishedbynutrition.com/>`_
+- `https://www.nrk.no/ <https://www.nrk.no/>`_
 - `https://www.number-2-pencil.com/ <https://www.number-2-pencil.com/>`_
 - `https://nutritionbynathalie.com/blog <https://nutritionbynathalie.com/blog>`_
 - `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
@@ -320,6 +320,7 @@ Scrapers available for:
 - `https://thespruceeats.com/ <https://thespruceeats.com/>`_
 - `https://thevintagemixer.com/ <https://thevintagemixer.com>`_
 - `https://thewoksoflife.com/ <https://thewoksoflife.com/>`_
+- `https://thinlicious.com/ <https://thinlicious.com/>`_
 - `https://timesofindia.com/ <https://timesofindia.com/>`_
 - `https://tine.no/ <https://tine.no>`_
 - `https://tidymom.net <https://tidymom.net>`_

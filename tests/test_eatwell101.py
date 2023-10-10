@@ -11,6 +11,12 @@ class TestEatWell101Scraper(ScraperTest):
     def test_host(self):
         self.assertEqual("eatwell101.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.eatwell101.com/creamy-spinach-turkey-meatballs-recipe",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Christina Cherrier", self.harvester_class.author())
 
@@ -78,6 +84,6 @@ class TestEatWell101Scraper(ScraperTest):
 
     def test_description(self):
         self.assertEqual(
-            "These turkey meatballs are Gluten-free, low-carb, and veto-friendly - Perfect for a crowd-pleasing weeknight dinner. The creamy spinach turkey and chicken meatballs just melt in your mouth, it's so good!",
+            "These turkey meatballs are Gluten-free, low-carb, and keto-friendly - Perfect for a crowd-pleasing weeknight dinner. The creamy spinach turkey and chicken meatballs just melt in your mouth, it's so good!",
             self.harvester_class.description(),
         )

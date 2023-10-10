@@ -25,7 +25,7 @@ class TestBudgetBytesScraper(ScraperTest):
         )
 
     def test_author(self):
-        self.assertEqual(self.harvester_class.author(), None)
+        self.assertEqual(self.harvester_class.author(), "Monti - Budget Bytes")
 
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())
@@ -73,4 +73,4 @@ class TestBudgetBytesScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.23, self.harvester_class.ratings())
+        self.assertEqual(4.5, self.harvester_class.ratings())
