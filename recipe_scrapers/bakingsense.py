@@ -12,7 +12,7 @@ class BakingSense(AbstractScraper):
         return self.schema.title()
 
     def author(self):
-        return self.soup.find("meta", {"name": "author"}).get("content")
+        return self.schema.author()
 
     def total_time(self):
         return self.schema.total_time()
