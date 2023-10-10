@@ -1,3 +1,5 @@
+import unittest
+
 from recipe_scrapers.foodandwine import FoodAndWine
 from tests import ScraperTest
 
@@ -53,9 +55,10 @@ class TestFoodAndWineScraper(ScraperTest):
             self.harvester_class.instructions(),
         )
 
+    @unittest.expectedFailure
     def test_multiple_instructions(self):
         # override: this test case legitimately does only contain a single instruction in the source HTML
-        pass
+        super().test_multiple_instructions()
 
     def test_yields(self):
         return self.assertEqual("4 servings", self.harvester_class.yields())
