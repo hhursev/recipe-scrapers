@@ -66,5 +66,5 @@ class TestHalfBakedHarvestScraper(ScraperTest):
 
     @unittest.expectedFailure
     def test_multiple_instructions(self):
-        # override: this test case legitimately does only contain a single instruction in the source HTML
+        # TODO: should this recipe in fact return multiple instructions?
         super().test_multiple_instructions()
