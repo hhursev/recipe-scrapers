@@ -9,6 +9,12 @@ class TestIcaScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("ica.se", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.ica.se/recept/lysande-gul-fiskgryta-1677/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("ICA Köket", self.harvester_class.author())
 

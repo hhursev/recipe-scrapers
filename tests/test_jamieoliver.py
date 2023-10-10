@@ -6,14 +6,14 @@ class TestJamieOliverScraper(ScraperTest):
 
     scraper_class = JamieOliver
 
+    def test_host(self):
+        self.assertEqual("jamieoliver.com", self.harvester_class.host())
+
     def test_canonical_url(self):
         self.assertEqual(
             "https://www.jamieoliver.com/recipes/chocolate-recipes/bloomin-brilliant-brownies/",
             self.harvester_class.canonical_url(),
         )
-
-    def test_host(self):
-        self.assertEqual("jamieoliver.com", self.harvester_class.host())
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Bloomin' brilliant brownies")

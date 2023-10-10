@@ -12,6 +12,12 @@ class TestKeukenLiefdeNL2Scraper(ScraperTest):
     def test_host(self):
         self.assertEqual("keukenliefde.nl", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.keukenliefde.nl/sticky-kippenvleugels-van-de-kamado/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Johan", self.harvester_class.author())
 

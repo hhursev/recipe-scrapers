@@ -9,6 +9,12 @@ class TestGodtScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("godt.no", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.godt.no/oppskrifter/pannekaker-og-vafler/8749/grove-middagspannekaker",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),

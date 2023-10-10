@@ -9,11 +9,11 @@ class TestHeadbangersKitchenScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("headbangerskitchen.com", self.harvester_class.host())
 
-    # def test_canonical_url(self):
-    #     self.assertEqual(
-    #         'https://headbangerskitchen.com/recipe/keto-omelet-indian-style/',
-    #         self.harvester_class.canonical_url(),
-    #     )
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://headbangerskitchen.com/recipe/keto-omelet-indian-style/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("Sahil Makhija", self.harvester_class.author())

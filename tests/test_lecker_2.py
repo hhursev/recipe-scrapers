@@ -10,6 +10,12 @@ class TestLeckerScraper2(ScraperTest):
     def test_host(self):
         self.assertEqual("lecker.de", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.lecker.de/naan-brot-backen-so-geht-das-rezept-72968.html",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(
             "Naan-Brot backen - so geht das Rezept",

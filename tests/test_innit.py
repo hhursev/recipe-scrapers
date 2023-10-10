@@ -9,6 +9,12 @@ class TestInnitScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("innit.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.innit.com/meal/967/5350/Salads%3A%20Blended-Carrot-Ginger-Dressing%2BAssembled-Broccoli-Beet-Mix%2BSeared-Tofu-Diced%2BOlive-Oil%2BPrepared-Mixed-Greens",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(
             "Tofu Mixed Greens Salad with Broccoli Beet Mix & Carrot Ginger Dressing",

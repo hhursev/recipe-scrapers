@@ -10,6 +10,12 @@ class TestGrimGrainsScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("grimgrains.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://grimgrains.com/site/okonomiyaki.html",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Hundred Rabbits", self.harvester_class.author())
 

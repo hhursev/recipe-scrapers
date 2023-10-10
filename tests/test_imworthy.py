@@ -9,6 +9,12 @@ class TestImWorthyScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("im-worthy.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://im-worthy.com/almond-flour-pancakes/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Shana Thomas", self.harvester_class.author())
 

@@ -12,6 +12,12 @@ class TestLifestyleOfAFoodieScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("lifestyleofafoodie.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://lifestyleofafoodie.com/frozen-strawberry-margarita/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Chahinez", self.harvester_class.author())
 

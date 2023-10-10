@@ -9,6 +9,12 @@ class TestHomeChefScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("homechef.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.homechef.com/meals/prosciutto-and-mushroom-carbonara",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Chef\n\nPatrick Le Beau", self.harvester_class.author())
 

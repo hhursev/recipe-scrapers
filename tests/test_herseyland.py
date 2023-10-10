@@ -11,6 +11,12 @@ class TestHerseyLandScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("hersheyland.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.hersheyland.com/recipes/hersheys-perfectly-chocolate-chocolate-cake.html",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Herseyland", self.harvester_class.author())
 

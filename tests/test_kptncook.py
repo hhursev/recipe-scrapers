@@ -16,6 +16,12 @@ class TestKptnCookScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("mobile.kptncook.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://mobile.kptncook.com/recipe/pinterest/Low-Carb-Tarte-Flamb%C3%A9e-with-Serrano-Ham-&-Cream-Cheese/315c3c32",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual(
             "Laura (http://lauraleanskitchen.com/de/)", self.harvester_class.author()

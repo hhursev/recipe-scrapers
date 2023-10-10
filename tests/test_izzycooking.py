@@ -11,6 +11,12 @@ class TestIzzyCookingScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("izzycooking.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://izzycooking.com/oreo-cheesecake-bites/",
+            self.harvester_class.canonical_url(),
+        )
+
     def author(self):
         self.assertEqual("izzycooking.com", self.harvester_class.author())
 
