@@ -11,6 +11,12 @@ class TestFattoInCasaDaBenedettaScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("fattoincasadabenedetta.it", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.fattoincasadabenedetta.it/ricetta/torta-fredda-al-limone/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Benedetta Rossi", self.harvester_class.author())
 
@@ -71,7 +77,7 @@ class TestFattoInCasaDaBenedettaScraper(ScraperTest):
         self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def test_ratings(self):
-        self.assertEqual(3.79, self.harvester_class.ratings())
+        self.assertEqual(3.8, self.harvester_class.ratings())
 
     def test_description(self):
         self.assertEqual(

@@ -9,6 +9,12 @@ class TestCookingCircleScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("cookingcircle.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://ninjatestkitchen.eu/recipe/vegan-lemon-cupcakes/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Charlotte Roberts", self.harvester_class.author())
 

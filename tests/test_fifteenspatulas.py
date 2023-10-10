@@ -19,7 +19,7 @@ class TestFifteenSpatulasScraper(ScraperTest):
         self.assertEqual(self.harvester_class.title(), "Creme Brulee")
 
     def test_author(self):
-        self.assertEqual(self.harvester_class.author(), "Joanne Ozug")
+        self.assertEqual(self.harvester_class.author(), "Joanne")
 
     def test_yields(self):
         self.assertEqual("6 servings", self.harvester_class.yields())

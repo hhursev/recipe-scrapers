@@ -35,8 +35,8 @@ class CuisineAZScraper(ScraperTest):
             [
                 "600 g Filet de saumon",
                 "30 ml Huile d'olive",
-                "4 g Origan, séché",
-                "1 pincée(s) sel",
+                "4 g Origan séché",
+                "1 pincée(s) Sel",
                 "1 pincée(s) Poivre",
             ],
             self.harvester_class.ingredients(),

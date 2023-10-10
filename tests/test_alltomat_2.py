@@ -11,6 +11,12 @@ class TestAllTomatScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("alltommat.se", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://alltommat.expressen.se/recept/kottbullar-med-potatismos-graddsas-gurka-och-lingon/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("cecilia lundin", self.harvester_class.author())
 
@@ -31,7 +37,7 @@ class TestAllTomatScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://static.cdn-expressen.se/images/aa/eb/aaeb4b38c3994b3ab57625533ca3e9b7/1x1/1920@80.jpg",
+            "https://static.cdn-expressen.se/images/aa/eb/aaeb4b38c3994b3ab57625533ca3e9b7/16x9/1920@80.jpg",
             self.harvester_class.image(),
         )
 
