@@ -13,7 +13,7 @@ class TestAddAPinchScraper(ScraperTest):
         self.assertEqual("addapinch.com", self.harvester_class.host())
 
     def test_author(self):
-        self.assertEqual("Robyn Stone", self.harvester_class.author())
+        self.assertEqual("Robyn Stone | Add a Pinch", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual(

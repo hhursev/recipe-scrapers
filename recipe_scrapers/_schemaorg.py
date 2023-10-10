@@ -24,13 +24,22 @@ class SchemaOrg:
         itemtypes = itemtype if isinstance(itemtype, list) else [itemtype]
         return schematype.lower() in "\n".join(itemtypes).lower()
 
+    def _find_entity(self, item, schematype):
+        if self._contains_schematype(item, schematype):
+            return item
+        for graph_item in item.get("@graph", []):
+            if self._contains_schematype(graph_item, schematype):
+                return graph_item
+
     def __init__(self, page_data, raw=False):
         if raw:
             self.format = "raw"
             self.data = page_data
+            self.people = {}
             return
         self.format = None
         self.data = {}
+        self.people = {}
 
         data = extruct.extract(
             page_data,
@@ -38,6 +47,15 @@ class SchemaOrg:
             errors="log" if settings.LOG_LEVEL <= 10 else "ignore",
             uniform=True,
         )
+
+        # Extract person references
+        for syntax in SYNTAXES:
+            syntax_data = data.get(syntax, [])
+            for item in syntax_data:
+                if person := self._find_entity(item, "Person"):
+                    key = person.get("@id") or person.get("url")
+                    if key:
+                        self.people[key] = person
 
         for syntax in SYNTAXES:
             # make sure entries of type Recipe are always parsed first
@@ -53,17 +71,10 @@ class SchemaOrg:
                     continue
 
                 # If the item itself is a recipe, then use it directly as our datasource
-                if self._contains_schematype(item, "Recipe"):
+                if recipe := self._find_entity(item, "Recipe"):
                     self.format = syntax
-                    self.data = item
+                    self.data = recipe
                     return
-
-                # Check for recipe items within the item's entity graph
-                for graph_item in item.get("@graph", []):
-                    if self._contains_schematype(graph_item, "Recipe"):
-                        self.format = syntax
-                        self.data = graph_item
-                        return
 
                 # If the item is a webpage and describes a recipe entity, use the entity as our datasource
                 if self._contains_schematype(item, "WebPage"):
@@ -94,6 +105,10 @@ class SchemaOrg:
             and isinstance(author[0], dict)
         ):
             author = author[0]
+        if author and isinstance(author, dict):
+            author_key = author.get("@id") or author.get("url")
+            if author_key and author_key in self.people:
+                author = self.people[author_key]
         if author and isinstance(author, dict):
             author = author.get("name")
         if author:
