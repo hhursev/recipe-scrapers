@@ -72,6 +72,6 @@ class TestForkToSpoonScraper(ScraperTest):
 
     def test_description(self):
         self.assertEqual(
-            "Air Fryer Parmesan TomatoesÂ are amazing! If you are looking for the perfect summer-baked tomato recipe, this one is the one, and it's so easy to make and so flavorful!",
+            "Air Fryer Parmesan Tomatoes are amazing! If you are looking for the perfect summer-baked tomato recipe, this one is the one, and it's so easy to make and so flavorful!",
             self.harvester_class.description(),
         )
