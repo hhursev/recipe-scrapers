@@ -67,4 +67,6 @@ class TestDrMeScraper(ScraperTest):
             ]
         )
 
-        return self.assertEqual(expected_instructions, self.harvester_class.instructions())
+        return self.assertEqual(
+            expected_instructions, self.harvester_class.instructions()
+        )

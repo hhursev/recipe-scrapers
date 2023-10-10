@@ -59,7 +59,6 @@ from .cuisineaz import CuisineAZ
 from .cybercook import Cybercook
 from .davidlebovitz import DavidLebovitz
 from .delish import Delish
-from .thinlicious import Thinlicious
 from .domesticateme import DomesticateMe
 from .downshiftology import Downshiftology
 from .dr import Dr
@@ -256,6 +255,7 @@ from .therecipecritic import Therecipecritic
 from .thespruceeats import TheSpruceEats
 from .thevintagemixer import TheVintageMixer
 from .thewoksoflife import Thewoksoflife
+from .thinlicious import Thinlicious
 from .tidymom import TidyMom
 from .timesofindia import TimesOfIndia
 from .tineno import TineNo
