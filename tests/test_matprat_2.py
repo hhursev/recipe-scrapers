@@ -1,3 +1,4 @@
+from recipe_scrapers._grouping_utils import IngredientGroup
 from recipe_scrapers.matprat import Matprat
 from tests import ScraperTest
 
@@ -46,6 +47,25 @@ class TestMatprat(ScraperTest):
                 "0,5 potte frisk mynte",
             ],
             self.harvester_class.ingredients(),
+        )
+
+    def test_ingredient_groups(self):
+        return self.assertEqual(
+            [
+                IngredientGroup(
+                    ingredients=[
+                        "2 stk. modne mango",
+                        "0,5 stk. rødløk",
+                        "1 rød chili",
+                        "0,5 pk ruccula",
+                        "1 stk. lime",
+                        "0,5 bunt frisk koriander",
+                        "0,5 potte frisk mynte",
+                    ],
+                    purpose=None,
+                )
+            ],
+            self.harvester_class.ingredient_groups(),
         )
 
     def test_instructions(self):

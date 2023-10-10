@@ -1,4 +1,6 @@
 # mypy: disallow_untyped_defs=False
+from recipe_scrapers._grouping_utils import group_ingredients
+
 from ._abstract import AbstractScraper
 
 
@@ -21,6 +23,14 @@ class Matprat(AbstractScraper):
 
     def ingredients(self):
         return self.schema.ingredients()
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup.find("div", "ingredients-list"),
+            "h3.ingredient-section-title",
+            "ul.ingredientsList > li > span:not(.amount):not(.unit)",
+        )
 
     def instructions(self):
         return self.schema.instructions()
