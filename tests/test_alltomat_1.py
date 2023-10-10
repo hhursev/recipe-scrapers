@@ -16,7 +16,6 @@ class TestAllTomatScraper(ScraperTest):
             self.harvester_class.canonical_url(),
         )
 
-
     def test_author(self):
         self.assertEqual("gunilla von heland", self.harvester_class.author())
 

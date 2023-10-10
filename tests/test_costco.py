@@ -1,5 +1,5 @@
 # mypy: allow-untyped-defs
-#canonical_url : https://www.costco.com/connection-recipe-chicken-salad-grapes-walnuts-blue-cheese-march-2023.html
+# canonical_url : https://www.costco.com/connection-recipe-chicken-salad-grapes-walnuts-blue-cheese-march-2023.html
 
 from recipe_scrapers.costco import Costco
 from tests import ScraperTest

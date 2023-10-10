@@ -9,7 +9,6 @@ class TestEpicurious(ScraperTest):
     def test_host(self):
         self.assertEqual("epicurious.com", self.harvester_class.host())
 
-
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),

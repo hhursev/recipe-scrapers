@@ -1,6 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
+from ._utils import get_minutes, normalize_string
 
 
 class FitMenCook(AbstractScraper):
@@ -22,7 +22,11 @@ class FitMenCook(AbstractScraper):
     def ingredients(self):
         ingredients_parent = self.soup.find("div", {"class": "fmc_ingredients"})
         ingredients = ingredients_parent.findAll("li")
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients if ingredient.find("strong") is None]
+        return [
+            normalize_string(ingredient.get_text())
+            for ingredient in ingredients
+            if ingredient.find("strong") is None
+        ]
 
     def instructions(self):
         instructions_div = self.soup.find("div", {"class": "fmc_steps"})
@@ -33,7 +37,9 @@ class FitMenCook(AbstractScraper):
             for step_element in step_elements:
                 step_content = step_element.find("div", {"class": "fmc_step_content"})
                 if step_content:
-                    instruction_text = normalize_string(step_content.find("p").get_text())
+                    instruction_text = normalize_string(
+                        step_content.find("p").get_text()
+                    )
                     instructions_list.append(instruction_text)
 
             if instructions_list:

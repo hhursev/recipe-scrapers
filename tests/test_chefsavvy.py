@@ -45,7 +45,7 @@ class TestChefSavvyScraper(ScraperTest):
             "2 teaspoons sesame oil",
             "2 tablespoons cornstarch",
             "2 heads broccoli (cut into florets)",
-            "sesame seeds for garnish, if desired"
+            "sesame seeds for garnish, if desired",
         ]
         actual_ingredients = self.harvester_class.ingredients()
         self.assertEqual(expected_ingredients, actual_ingredients)
