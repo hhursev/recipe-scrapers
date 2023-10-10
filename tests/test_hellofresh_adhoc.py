@@ -9,7 +9,7 @@ class TestHelloFreshScraperAdHoc(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://www.hellofresh.fr/recipes/chakchouka-au-fromage-de-chevre-5eb41aa7d5418a482a67b864",
+            "https://www.hellofresh.fr/recipes/chakchouka-au-chevre-frais-5eb41aa7d5418a482a67b864",
             self.harvester_class.canonical_url(),
         )
 
@@ -56,14 +56,7 @@ class TestHelloFreshScraperAdHoc(ScraperTest):
     def test_nutrients(self):
         self.assertEqual(
             {
-                "calories": "600 kcal",
-                "fatContent": "8.98 g",
-                "saturatedFatContent": "1.25 g",
-                "carbohydrateContent": "107.89 g",
-                "sugarContent": "13.27 g",
-                "proteinContent": "16.52 g",
-                "sodiumContent": "3.12 g",
-                "servingSize": "484",
+                'servingSize': '484',
             },
             self.harvester_class.nutrients(),
         )

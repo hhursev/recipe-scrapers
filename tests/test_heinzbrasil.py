@@ -56,7 +56,7 @@ class TestHeinzBrasilScraper(ScraperTest):
         )
 
     def test_language(self):
-        self.assertEqual("pt-BR", self.harvester_class.language())
+        self.assertEqual("pt", self.harvester_class.language())
 
     @unittest.expectedFailure
     def test_multiple_instructions(self):

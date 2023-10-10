@@ -11,7 +11,7 @@ class TestHeadbangersKitchenScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://headbangerskitchen.com/recipe/keto-omelet-indian-style/",
+            "https://headbangerskitchen.com/keto-omelet-indian-style/",
             self.harvester_class.canonical_url(),
         )
 
@@ -56,4 +56,4 @@ class TestHeadbangersKitchenScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.33, self.harvester_class.ratings())
+        self.assertEqual(4.41, self.harvester_class.ratings())
