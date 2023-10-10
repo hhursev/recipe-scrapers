@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestTheKitchenCommunityScraper(ScraperTest):
-
     scraper_class = TheKitchenCommunity
 
     def test_host(self):
@@ -61,7 +60,9 @@ class TestTheKitchenCommunityScraper(ScraperTest):
             "You will know your mac and cheese is done if the pasta is tender and the liquid is thick and creamy. Once you remove the lid, keep in mind the sauce will thicken even more as the mac and cheese sits."
         )
 
-        self.assertSequenceEqual(expected_instructions, self.harvester_class.instructions())
+        self.assertSequenceEqual(
+            expected_instructions, self.harvester_class.instructions()
+        )
 
     def test_ratings(self):
         self.assertEqual(5, self.harvester_class.ratings())
