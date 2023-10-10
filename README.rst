@@ -259,6 +259,7 @@ Scrapers available for:
 - `https://www.nhs.uk/healthier-families/ <https://www.nhs.uk/healthier-families/>`_
 - `https://www.nosalty.hu/ <https://www.nosalty.hu>`_
 - `https://nourishedbynutrition.com/ <https://nourishedbynutrition.com/>`_
+- `https://www.nrk.no/ <https://www.nrk.no/>`_
 - `https://www.number-2-pencil.com/ <https://www.number-2-pencil.com/>`_
 - `https://nutritionbynathalie.com/blog <https://nutritionbynathalie.com/blog>`_
 - `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
