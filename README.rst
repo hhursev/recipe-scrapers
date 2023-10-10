@@ -182,7 +182,6 @@ Scrapers available for:
 - `https://www.hassanchef.com/ <https://www.hassanchef.com/>`_
 - `https://headbangerskitchen.com/ <https://www.headbangerskitchen.com/>`_
 - `https://www.heb.com/ <https://www.heb.com/recipe/landing>`_
-- `https://heinzbrasil.com.br/ <https://heinzbrasil.com.br>`_
 - `https://hellofresh.com/ <https://hellofresh.com>`_
 - `https://hellofresh.co.uk/ <https://hellofresh.co.uk>`_
 - `https://www.hellofresh.de/ <https://www.hellofresh.de/>`_
