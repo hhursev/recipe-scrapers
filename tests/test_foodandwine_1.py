@@ -57,6 +57,7 @@ class TestFoodAndWineScraper(ScraperTest):
 
     @unittest.expectedFailure
     def test_multiple_instructions(self):
+        # override: this test case legitimately does only contain a single instruction in the source HTML
         super().test_multiple_instructions()
 
     def test_yields(self):
