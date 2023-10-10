@@ -59,8 +59,7 @@ class TestChefSavvyScraper(ScraperTest):
             "the broccoli and continue cooking on low for an additional 30 minutes or until sauce "
             "has thickened and broccoli is tender.\nServe immediately with rice and enjoy!"
         )
-        actual_instructions = self.harvester_class.instructions()
-        self.assertEqual(expected_instructions, actual_instructions)
+        self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def test_ratings(self):
         self.assertEqual(4.67, self.harvester_class.ratings())

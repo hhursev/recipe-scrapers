@@ -49,20 +49,15 @@ class TestVegetarbloggenScraper(ScraperTest):
         )
 
     def test_instructions(self):
-        expected_instructions = """
-        Skjær skallet av gresskaret, del det i to på midten og fjern eventuelle kjerner (disse kan du steke i olje og ha på salt, blir godt!). Skjær fruktkjøttet i terninger med lengder på litt under 1 cm. Finhakk sjalottløk.
-        Kok opp godt med vann i en gryte, ha i litt salt. Kok pasta etter anvisning på pakken.
-        Varm opp litt olje til medium/høy varme i en stor gryte eller panne. Ha i gresskar, krydre med litt salt, og la det steke i noen minutter. Ha så i sjalottløk, og stek i et par minutter til.
-        Dytt gresskaret til side slik at det tar ca. halvparten av bunnen gryten. Ha i litt mer olje i den tomme delen, og ha i salviebladene. Fres dem i et par minutter. Rør dem deretter sammen med gresskarterningene.
-        Hell på vegansk fløte og eddik, og la gresskaret putre til pastaen er klar. Sil vannet av pastaen, ha den over i gryten med gresskarblandingen, rør sammen, smak eventuelt til med mer salt.
-        Servér retten rykende varm, topp med gresskarkjerner.
-        """
-        expected_instructions = "\n".join(
-            line.strip() for line in expected_instructions.split("\n")
-        ).strip()
-
-        actual_instructions = self.harvester_class.instructions().strip()
-        self.assertEqual(expected_instructions, actual_instructions)
+        expected_instructions = (
+            "Skjær skallet av gresskaret, del det i to på midten og fjern eventuelle kjerner (disse kan du steke i olje og ha på salt, blir godt!). Skjær fruktkjøttet i terninger med lengder på litt under 1 cm. Finhakk sjalottløk.\n"
+            "Kok opp godt med vann i en gryte, ha i litt salt. Kok pasta etter anvisning på pakken.\n"
+            "Varm opp litt olje til medium/høy varme i en stor gryte eller panne. Ha i gresskar, krydre med litt salt, og la det steke i noen minutter. Ha så i sjalottløk, og stek i et par minutter til.\n"
+            "Dytt gresskaret til side slik at det tar ca. halvparten av bunnen gryten. Ha i litt mer olje i den tomme delen, og ha i salviebladene. Fres dem i et par minutter. Rør dem deretter sammen med gresskarterningene.\n"
+            "Hell på vegansk fløte og eddik, og la gresskaret putre til pastaen er klar. Sil vannet av pastaen, ha den over i gryten med gresskarblandingen, rør sammen, smak eventuelt til med mer salt.\n"
+            "Servér retten rykende varm, topp med gresskarkjerner."
+        )
+        self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def language(self):
         return "no"
