@@ -5,7 +5,7 @@ from ._grouping_utils import group_ingredients
 from ._utils import normalize_string
 
 
-class UitPaulinesKeukenNl(AbstractScraper):
+class UitPaulinesKeukenNL(AbstractScraper):
     @classmethod
     def host(cls):
         return "uitpaulineskeuken.nl"
@@ -63,3 +63,6 @@ class UitPaulinesKeukenNl(AbstractScraper):
             .find_next()
             .get_text()
         )
+
+    def language(self):
+        return "nl-NL"

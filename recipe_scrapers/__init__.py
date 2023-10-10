@@ -264,7 +264,7 @@ from .tineno import TineNo
 from .tofoo import Tofoo
 from .tudogostoso import TudoGostoso
 from .twopeasandtheirpod import TwoPeasAndTheirPod
-from .uitpaulineskeukennl import UitPaulinesKeukenNl
+from .uitpaulineskeukennl import UitPaulinesKeukenNL
 from .usapears import USAPears
 from .usdamyplate import USDAMyPlate
 from .valdemarsro import Valdemarsro
@@ -598,7 +598,7 @@ SCRAPERS = {
     ZeitWochenmarkt.host(): ZeitWochenmarkt,
     ZenBelly.host(): ZenBelly,
     GesundAktiv.host(): GesundAktiv,
-    UitPaulinesKeukenNl.host(): UitPaulinesKeukenNl,
+    UitPaulinesKeukenNL.host(): UitPaulinesKeukenNL,
 }
 
 

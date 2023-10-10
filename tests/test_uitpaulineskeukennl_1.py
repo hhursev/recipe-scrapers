@@ -1,11 +1,11 @@
 # mypy: allow-untyped-defs
 
-from recipe_scrapers.uitpaulineskeukennl import UitPaulinesKeukenNl
+from recipe_scrapers.uitpaulineskeukennl import UitPaulinesKeukenNL
 from tests import ScraperTest
 
 
-class TestUitPaulinesKeukenNlScraper(ScraperTest):
-    scraper_class = UitPaulinesKeukenNl
+class TestUitPaulinesKeukenNLScraper(ScraperTest):
+    scraper_class = UitPaulinesKeukenNL
     test_file_name = "uitpaulineskeukennl_1"
 
     def test_host(self):
@@ -85,3 +85,6 @@ class TestUitPaulinesKeukenNlScraper(ScraperTest):
             "niet nodig!",
             self.harvester_class.description(),
         )
+
+    def test_language(self):
+        self.assertEqual("nl-NL", self.harvester_class.language())

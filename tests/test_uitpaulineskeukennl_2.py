@@ -1,13 +1,12 @@
 # mypy: allow-untyped-defs
 
 from recipe_scrapers._grouping_utils import IngredientGroup
-from recipe_scrapers.uitpaulineskeukennl import UitPaulinesKeukenNl
+from recipe_scrapers.uitpaulineskeukennl import UitPaulinesKeukenNL
 from tests import ScraperTest
 
 
-class TestuitPaulinesKeukenNl(ScraperTest):
-
-    scraper_class = UitPaulinesKeukenNl
+class TestuitPaulinesKeukenNL(ScraperTest):
+    scraper_class = UitPaulinesKeukenNL
     test_file_name = "uitpaulineskeukennl_2"
 
     def test_host(self):
@@ -138,3 +137,6 @@ class TestuitPaulinesKeukenNl(ScraperTest):
             "zijn een superleuke afsluiter voor een gezellige picknick! Zin in?",
             self.harvester_class.description(),
         )
+
+    def test_language(self):
+        self.assertEqual("nl-NL", self.harvester_class.language())
