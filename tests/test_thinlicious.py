@@ -1,13 +1,13 @@
-from recipe_scrapers.ditchthecarbs import DitchTheCarbs
+from recipe_scrapers.thinlicious import Thinlicious
 from tests import ScraperTest
 
 
-class TestDitchTheCarbs(ScraperTest):
+class TestThinlicious(ScraperTest):
 
-    scraper_class = DitchTheCarbs
+    scraper_class = Thinlicious
 
     def test_host(self):
-        self.assertEqual("ditchthecarbs.com", self.harvester_class.host())
+        self.assertEqual("thinlicious.com", self.harvester_class.host())
 
     def test_canonical_url(self):
         self.assertEqual(
