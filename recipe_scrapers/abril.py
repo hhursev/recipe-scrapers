@@ -1,5 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._utils import normalize_string
 
 
 class Abril(AbstractScraper):
@@ -20,7 +21,13 @@ class Abril(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        return self.schema.ingredients()
+        return self.schema.ingredients()        
 
     def instructions(self):
-        return self.schema.instructions()
+        modo_de_preparo = self.soup.find('div', class_='modo-de-preparo')
+        instructions = modo_de_preparo.find_all('p')
+
+        return '\n'.join([
+            normalize_string(instruction.get_text())
+            for instruction in instructions
+        ])

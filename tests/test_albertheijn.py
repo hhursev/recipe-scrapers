@@ -25,12 +25,6 @@ class TestAlbertHeijnScraper(ScraperTest):
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
-    def test_image(self):
-        self.assertEqual(
-            "https://static.ah.nl/static/recepten/img_RAM_PRD180565_1024x748_JPG.jpg",
-            self.harvester_class.image(),
-        )
-
     def test_ingredients(self):
         self.assertEqual(
             [

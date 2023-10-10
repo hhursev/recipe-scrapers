@@ -51,7 +51,16 @@ class TestAbrilScraper(ScraperTest):
         )
 
     def test_instructions(self):
-        self.assertEqual(
-            """Derreta a manteiga e refogue a cebola até ficar transparente.\nJunte a carne e tempere com o sal.\nMexa até a carne dourar de todos os lados.\nAcrescente a mostarda, o catchup, a pimenta-do-reino e o tomate picado.\nCozinhe até formar um molho espesso.\nSe necessário, adicione água quente aos poucos.\nQuando o molho estiver encorpado e a carne macia, adicione os cogumelos e o creme de leite.\nMexa por 1 minuto e retire do fogo.\nSirva imediatamente, acompanhado de arroz e batata palha.\nDica: Se juntar água ao refogar a carne, frite-a até todo o líquido evaporar.""",
-            self.harvester_class.instructions(),
+        expected_instructions = (
+            "Derreta a manteiga e refogue a cebola até ficar transparente.\n"
+            "Junte a carne e tempere com o sal.\n"
+            "Mexa até a carne dourar de todos os lados.\n"
+            "Acrescente a mostarda, o catchup, a pimenta-do-reino e o tomate picado.\n"
+            "Cozinhe até formar um molho espesso.\n"
+            "Se necessário, adicione água quente aos poucos.\n"
+            "Quando o molho estiver encorpado e a carne macia, adicione os cogumelos e o creme de leite.\n"
+            "Mexa por 1 minuto e retire do fogo.\n"
+            "Sirva imediatamente, acompanhado de arroz e batata palha.\n"
+            "Dica: Se juntar água ao refogar a carne, frite-a até todo o líquido evaporar."
         )
+        self.assertEqual(expected_instructions, self.harvester_class.instructions())
