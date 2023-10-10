@@ -56,7 +56,7 @@ class TestIzzyCookingScraper(ScraperTest):
         self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def test_ratings(self):
-        self.assertEqual(4.92, self.harvester_class.ratings())
+        self.assertEqual(4.93, self.harvester_class.ratings())
 
     def test_cuisine(self):
         self.assertEqual("American", self.harvester_class.cuisine())
