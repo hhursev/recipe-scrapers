@@ -1,4 +1,5 @@
-# canonical_url : https://www.archanaskitchen.com/classic-greek-salad-recipe
+import unittest
+
 from recipe_scrapers.archanaskitchen import ArchanasKitchen
 from tests import ScraperTest
 
@@ -12,6 +13,13 @@ class TestArchanasKitchenScraper(ScraperTest):
 
     def test_author(self):
         self.assertEqual("Archana's Kitchen", self.harvester_class.author())
+
+    @unittest.skip("canonical_url will not pass with testhtml (uses example.com)")
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.archanaskitchen.com/classic-greek-salad-recipe",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Classic Greek salad Recipe")
