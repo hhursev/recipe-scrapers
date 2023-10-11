@@ -1,0 +1,1404 @@
+
+
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head id="ctl00_Head1"><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="w3c/p3p.xml" rel="P3Pv1" /><link href="css/global.css" rel="stylesheet" type="text/css" media="screen" /><link href="css/print.css" rel="stylesheet" type="text/css" media="print" /><link href="styles/globalstyle.css" rel="stylesheet" type="text/css" media="screen" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="Scripts/global.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.anchor.js"></script>
+    <!-- Adode Analytics code -->
+    <script src="//assets.adobedtm.com/073614e3197b/d5aa02ba321b/launch-48a4cb0dcac3.min.js"></script>
+    <script async type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=HHS&sdor=nih.gov"></script>
+
+    <link href="nhlbi-footer/css/nhlbi-internet-footer.css" rel="stylesheet" /><link href="nhlbi-footer/css/custom-footer.css" rel="stylesheet" /><link href="nhlbi-header/css/nhlbi-header.css" rel="stylesheet" />
+
+    <script type="text/javascript">
+<!--//-----------------------------------+
+    // functionality for Left Navigation menu 
+    // -------------------------------------->
+    $(document).ready(function () {
+	 
+        hu = window.location.search.substring(1);
+
+        gy = hu.split("&");
+        var query = '';
+
+        for (i = 0; i < gy.length; i++) {
+            ft = gy[i].split("=");
+
+            if (ft[0] == "linkId") {
+                query = ft[1];
+            }
+        }
+        //alert(query);
+        var image1 = 'bullet_arrow_down.png';
+        var image2 = 'bullet_arrow_up.png';
+
+        if (query != '' && query <= 10) {
+            query = query - 1;  //since we have removed submenus in "About" section, now its taking "Healthy Eating Recipes" menu item as menu(0). But the linkid for this menu item is 1. so we need to match the linkId and menu index. if we add any submenus in "About" section we can comment this line.                         
+            $(".menu_body:eq(" + query + ")").show();
+            $(".menu_head:eq(" + query + ")").css('background-Image', 'url("Images/' + image2 + '")');
+        }
+
+        else if (query != '' && query > 10) {
+            query = query - 11; //menu index is '0' and linkid is '11'. so need to make the linkid starts from '0' internally to match menu index and linkid. 
+            $(".menu_body_CookBook:eq(" + query + ")").show();
+            $(".menu_head_CookBook:eq(" + query + ")").css('background-Image', 'url("Images/' + image2 + '")');
+        }
+
+        //slides the element with class "menu_body" when paragraph with class "menu_head" is clicked
+        $("#firstpane div.menu_head").click(function () {
+
+            var imgUrl = 'url("Images/' + image1 + '")';
+            var hasUpImage = true;
+            if ($(this).css('background-image').indexOf(image1) >= 0)
+                hasUpImage = false;
+
+            $("#hidMenuId")[0].value = $(this)[0].uniqueID;
+
+            $(this).next("div.menu_body").slideToggle(300).siblings("div.menu_body").slideUp("slow");
+            $('div.menu_body_CookBook').siblings("div.menu_body_CookBook").slideUp("slow");
+            $('div.menu_head_CookBook').siblings("div.menu_head_CookBook").css('background-image', imgUrl);
+            $('div.menu_head').siblings("div.menu_head").css('background-image', imgUrl);
+
+
+
+            if ((!hasUpImage) && ($(this).css('background-image').indexOf(image1) >= 0)) {
+                imgUrl = 'url("Images/' + image2 + '")';
+            }
+            $(this).css('background-image', imgUrl);
+
+        });
+
+        $("#firstpane div.menu_head_CookBook").click(function () {
+
+            // $("#hidMenuIdtest")[0].value = $(this)[0].uniqueID;               
+
+            var imgUrl = 'url("Images/' + image1 + '")';
+            var hasUpImage = true;
+            if ($(this).css('background-image').indexOf(image1) >= 0)
+                hasUpImage = false;
+
+            $(this).next("div.menu_body_CookBook").slideToggle(300).siblings("div.menu_body_CookBook").slideUp("slow");
+            $('div.menu_body').siblings("div.menu_body").slideUp("slow");
+            $('div.menu_head').siblings("div.menu_head").css('background-image', imgUrl);
+            $(this).next("div.menu_body_CookBook").siblings("div.menu_head_CookBook").css('background-image', imgUrl);
+
+            if ((!hasUpImage) && ($(this).css('background-image').indexOf(image1) >= 0)) {
+                imgUrl = 'url("Images/' + image2 + '")';
+            }
+            $(this).css('background-image', imgUrl);
+
+        });
+    });
+	
+    </script>
+	<style>
+	.focusedin {
+    border: 1px dashed;color:blue;
+    }
+  
+	a:focus{ border: 1px dashed;color:blue; }
+	
+	.level-0-link:focus{
+	/*background-color: yellow;*/
+	border: 1px dashed;
+	color:blue;
+     }
+	 
+	 #aSubHead:focus{
+	display:inline-block;
+	border: 1px dashed;
+	 }
+	 .register:focus{
+	 {
+	 border: 1px dashed !important;
+	color:blue;
+	background-color: yellow;
+	 }
+	 #ctl00_masterLoginView_hlSignIn:focus{
+	 {
+	 border: 1px dashed;
+	color:blue;
+	background-color: yellow;
+	 }
+	 
+	 #btn_order_now
+	 {
+	 display:inline-block !important;
+	border: 1px dashed!important;
+	 }
+	 
+	
+	</style>
+	
+	<script>
+	
+	$(document).ready(function () {
+	registerTabEnterEvent(".menu_head");
+	registerTabEnterEvent(".menu_head_CookBook");
+	
+	
+	});
+	
+	function registerTabEnterEvent(divClass)
+     {
+		$(divClass).focusin(function(){
+        $(this).addClass('focusedin');
+    });
+
+    $(divClass).focusout(function(){
+        $(this).removeClass('focusedin');
+    });
+	$(divClass).keyup(function(event){
+	
+	if(event.keyCode == '13'){
+       if($(this).hasClass("recipe_list_link"))
+	   {
+	  
+	   $(this).find("a").get(0).click();
+	   
+	   }
+	   else{
+	   
+       $(this).trigger('click');
+	   
+	   }
+    }
+	
+      
+    });
+	
+	 }
+	</script>
+    
+<title>
+	Seafood > Baked Tilapia With Tomatoes 
+</title></head>
+
+<body>
+    <a href="#ctl00_txtSearch" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    <div id="container">
+        <div id="own" style="height: 165px">
+
+            <!-- Text Sizer Javascript -->
+
+            <!-- Filtered Search JavaScript -->
+            <link id="slideshow-css" rel="stylesheet" href="https://www.nhlbi.nih.gov/web_resources/css/superfish.css" type="text/css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script type="text/javascript" src="https://www.nhlbi.nih.gov/web_resources/js/superfish.js"></script>
+
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $('ul.sf-menu').superfish({
+                        animation: { opacity: 'show' },
+                        speed: 'fast',
+                        speedOut: 'fast',
+                        delay: 150,
+                        autoArrows: false,
+                        cssArrows: false,
+                        dropShadows: true,
+                        disableHI: true
+                    });
+                    var sourceSwap = function (activeImage) {
+                        var newSource = activeImage.attr('title');
+                        activeImage.attr('title', activeImage.attr('src'));
+                        activeImage.attr('src', newSource);
+                    }
+                    var checkActiveImage = function () {
+                        var myUl = $(this).closest('ul').attr('class');
+                        var navImage = $(this).closest('ul').prev().children('img');
+                        var navImageClass = $(this).closest('ul').prev().children('img').attr('class');
+                        if (navImageClass == 'inactiveMainNav') {
+                            sourceSwap(navImage);
+                        };
+                    }
+
+                    $('.inactiveMainNav').hover(
+                        function () {
+                            var myActiveImage = $(this);
+                            sourceSwap(myActiveImage);
+                        },
+                        function () {
+                            var myActiveImage = $(this);
+                            sourceSwap(myActiveImage);
+                        });
+
+                    $('.mainNavDropdown').hover(checkActiveImage, checkActiveImage);
+
+
+                    $(".dropdown img.flag").addClass("flagvisibility");
+
+                    $(".dropdown dt a").click(function () {
+                        $(".dropdown dd ul").toggle();
+                    });
+
+                    $(".dropdown dd ul li a").click(function () {
+                        var text = $(this).html();
+                        $(".dropdown dt a span").html(text);
+                        $(".dropdown dd ul").hide();
+
+                        newsearch(getSelectedValue("sample"));
+                    });
+
+                    function getSelectedValue(id) {
+                        return $("#" + id).find("dt a span.value").html();
+                    }
+
+                    $(document).bind('click', function (e) {
+                        var $clicked = $(e.target);
+                        if (!$clicked.parents().hasClass("dropdown"))
+                            $(".dropdown dd ul").hide();
+                    });
+
+
+                    $("#flagSwitcher").click(function () {
+                        $(".dropdown img.flag").toggleClass("flagvisibility");
+                    });
+                });
+            </script>
+			
+            <style>
+			
+            .usa-media-block__img {
+    
+                border: none !important;
+            }
+			 
+.hidden {
+  display: none;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  width: 1px;
+  height: 1px;
+  word-wrap: normal;
+}
+
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+  position: static !important;
+  overflow: visible;
+  clip: auto;
+  width: auto;
+  height: auto;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+}
+            </style>
+            <!-- Neccessary for 508 Compliance; don't alter -->
+<!--<span style="font-size:0px; position:absolute; margin-top:-500px"><a href="#ctl00_txtSearch">Skip to content past banner and navigation links</a></span>-->
+
+<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+            
+            <link href="nhlbi-header/css/uswds.css" rel="stylesheet">
+<link href="nhlbi-header/css/navigation.css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<section aria-label="Official government website" class="usa-banner" style="width: 100% !important;">
+    <div class="usa-accordion">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto"><img alt="U.S. flag" class="usa-banner__header-flag" src="nhlbi-header/img/us_flag_small.png" /></div>
+
+                <div class="grid-col-fill tablet:grid-col-auto">
+                    <p class="usa-banner__header-text">An official website of the United States government</p>
+
+                    <p aria-hidden="true" class="usa-banner__header-action">Here's how you know</p>
+                </div>
+                <button aria-controls="gov-banner-default-default" aria-expanded="false" class="usa-accordion__button usa-banner__button" type="button"><span class="usa-banner__button-text">Here’s how you know</span></button></div>
+        </header>
+
+        <div class="usa-banner__content usa-accordion__content" id="gov-banner-default-default">
+            <div class="grid-row grid-gap-lg">
+                <div class="usa-banner__guidance tablet:grid-col-6"><img alt="" aria-hidden="true" class="usa-banner__icon usa-media-block__img" role="img" src="nhlbi-header/img/icon-dot-gov.svg" />
+                    <div class="usa-media-block__body">
+                        <p><strong>Official websites use .gov</strong><br />
+                            A <strong>.gov</strong> website belongs to an official government organization in the United States.</p>
+                    </div>
+                </div>
+
+                <div class="usa-banner__guidance tablet:grid-col-6"><img alt="" aria-hidden="true" class="usa-banner__icon usa-media-block__img" role="img" src="nhlbi-header/img/icon-https.svg" />
+                    <div class="usa-media-block__body">
+                        <p><strong>Secure .gov websites use HTTPS</strong><br />
+                            A <strong>lock</strong> ( <span class="icon-lock"><svg aria-labelledby="banner-lock-title-default banner-lock-description-default" class="usa-banner__lock-image" focusable="false" height="64" role="img" viewbox="0 0 52 64" width="52" xmlns="http://www.w3.org/2000/svg">
+<title id="banner-lock-title-default"></title>
+<desc id="banner-lock-description-default">A locked padlock</desc> <path d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" fill="#000000" fill-rule="evenodd"></path> </svg> </span>) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--<div id="block-mainnavigation">
+    <div id="main-site-logo">
+        <a href="https://www.nhlbi.nih.gov">
+            <img src="nhlbi-header/img/NHLBI_Logo_Vector.svg" title="Home">
+        </a>
+    </div>
+    <div id="main-navbar">
+
+        <ul class="menu-level-0">
+            <li>
+                <a href="https://www.nhlbi.nih.gov/health" class="level-0-link">HEALTH TOPICS</a>
+            </li>
+            <li>
+                <a href="https://www.nhlbi.nih.gov/science" class="level-0-link">THE SCIENCE</a>
+            </li>
+            <li>
+                <a href="https://www.nhlbi.nih.gov/grants-and-training" class="level-0-link">GRANTS AND TRAINING</a>
+            </li>
+            <li>
+                <a href="https://www.nhlbi.nih.gov/news" class="level-0-link">NEWS AND EVENTS</a>
+            </li>
+            <li>
+                <a href="https://www.nhlbi.nih.gov/about" class="level-0-link">ABOUT NHLBI</a>
+            </li>
+        </ul>
+    </div>
+</div>-->
+
+<script src="nhlbi-header/js/uswds.min.js"></script>
+
+<div id="block-sitebranding-2" class="contextual-region block block-system block-system-branding-block">
+    <div id="block-mainnavigation">
+        <div id="main-site-logo">          
+            <a href="https://www.nhlbi.nih.gov/"><img src="images/NHLBI_Logo_Vector.svg" title="Home" alt="National Heart Lung and Blood Institute logo"></a>
+        </div>
+        <div id="main-navbar">
+            <ul class="menu-level-0">
+                <li style="margin-left: 0px">
+                    <a href="https://www.nhlbi.nih.gov/health-topics" tabindex="0" class="level-0-link">Health Topics</a>
+                </li>
+                <li>
+                    <a href="https://www.nhlbi.nih.gov/science" tabindex="0" class="level-0-link">The Science</a>
+                </li>
+                <li>
+                    <a href="https://www.nhlbi.nih.gov/grants-and-training" tabindex="0" class="level-0-link">Grants and Training</a>
+                </li>
+                <li>
+                    <a href="https://www.nhlbi.nih.gov/news-and-events" tabindex="0" class="level-0-link">News and Events</a>
+                </li>
+                <li>
+                    <a href="https://www.nhlbi.nih.gov/about" tabindex="0" class="level-0-link">About NHLBI</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+            <form method="post" action="./recipedetail.aspx?cId=3&amp;rId=188&amp;AspxAutoDetectCookieSupport=1" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="__CSRFTOKEN" id="__CSRFTOKEN" value="/wEFJGQ1YjdkMjRiLTM0MGYtNDFmNS05ZDk1LTFlNTY4MTM1ZDhkNQ==" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTgzNjkxMjgzMA8WAh4IUmVjaXBlSWQCvAEWAmYPZBYEZg9kFgICBQ8VAkovL2Fzc2V0cy5hZG9iZWR0bS5jb20vMDczNjE0ZTMxOTdiL2Q1YWEwMmJhMzIxYi9sYXVuY2gtNDhhNGNiMGRjYWMzLm1pbi5qc1dodHRwczovL2RhcC5kaWdpdGFsZ292Lmdvdi9Vbml2ZXJzYWwtRmVkZXJhdGVkLUFuYWx5dGljcy1NaW4uanM/YWdlbmN5PUhIUyZzZG9yPW5paC5nb3ZkAgEPZBYEAgcPEA8WBh4NRGF0YVRleHRGaWVsZAUETmFtZR4ORGF0YVZhbHVlRmllbGQFAklkHgtfIURhdGFCb3VuZGdkEBUQDkFsbCBDYXRlZ29yaWVzBEJlZWYHUG91bHRyeQdTZWFmb29kBFBvcmsFUGFzdGEKVmVnZXRhcmlhbgpWZWdldGFibGVzBUdyYWluDEx1bmNoL0JydW5jaA9BcHBldGl6ZXIvU25hY2sIQmV2ZXJhZ2UHRGVzc2VydA5TYXVjZS9EcmVzc2luZwVCcmVhZA1Tb3VwcyAmIFN0ZXdzFRABMAExATIBMwE0ATUBNgE3ATgBOQIxMAIxMQIxMgIxMwIxNAIxNRQrAxBnZ2dnZ2dnZ2dnZ2dnZ2dnZGQCCw9kFhACBA8PFgIeBFRleHQFLTxpPkRlbGljaW91cyBIZWFydCBIZWFsdGh5IExhdGlubyBSZWNpcGVzPC9pPmRkAgUPFgIeC18hSXRlbUNvdW50AgwWGAIBD2QWBAIBDxYCHgdWaXNpYmxlaBYCZg8VAQBkAgIPFQEOQ29va2luZyBzcHJheSBkAgIPZBYEAgEPFgIfBmgWAmYPFQEAZAICDxUBEjQgdGlsYXBpYSBmaWxsZXRzIGQCAw9kFgQCAQ8WAh8GaBYCZg8VAQBkAgIPFQEmNCBtZWRpdW0gdG9tYXRvZXMsIHBlZWxlZCBhbmQgY2hvcHBlZCBkAgQPZBYEAgEPFgIfBmgWAmYPFQEAZAICDxUBETIgVGJzcCBvbGl2ZSBvaWwgZAIFD2QWBAIBDxYCHwZoFgJmDxUBAGQCAg8VARQxJmZyYWMxMjsgdHNwIHRoeW1lIGQCBg9kFgQCAQ8WAh8GaBYCZg8VAQBkAgIPFQEmJmZyYWMxNDsgQyBwaXR0ZWQgYmxhY2sgb2xpdmVzLCBkaWNlZCBkAgcPZBYEAgEPFgIfBmgWAmYPFQEAZAICDxUBHyZmcmFjMTQ7IHRzcCByZWQgcGVwcGVyIGZsYWtlcyBkAggPZBYEAgEPFgIfBmgWAmYPFQEAZAICDxUBGDIgY2xvdmVzIGdhcmxpYywgbWluY2VkIGQCCQ9kFgQCAQ8WAh8GaBYCZg8VAQBkAgIPFQEcJmZyYWMxMjsgQyByZWQgb25pb24sIGRpY2VkIGQCCg9kFgQCAQ8WAh8GaBYCZg8VAQBkAgIPFQESMSBUYnNwIGxpbWUganVpY2UgZAILD2QWBAIBDxYCHwZoFgJmDxUBAGQCAg8VASVQYXJzbGV5IGFuZCBsZW1vbiB3ZWRnZXMgZm9yIGdhcm5pc2ggZAIMD2QWBAIBDxYCHwZoFgJmDxUBAGQCAg8VAegDPHVsPjxzdHJvbmc+UmVjaXBlIENhcmRzOjwvc3Ryb25nPjxsaT48YSBocmVmPSJodHRwOi8vd3d3Lm5obGJpLm5paC5nb3YvaGVhbHRoL3B1YmxpYy9oZWFydC9vYmVzaXR5L3dlY2FuL2Rvd25sb2Fkcy9iYWtlZC10aWxhcGlhLTR4Ni5wZGYiPiAgNCIgeCA2IiAgPGltZyBjbGFzcz0icGRmbGluayIgYm9yZGVyPSJub25lIiBhbHQ9InBkZiBkb2N1bWVudCBpY29uIiBzcmM9Ii9pbWFnZXMvcGRmMDcuZ2lmIj4gIDwvYT4gICgzNTMgS0IpPC9saT4gICA8bGk+PGEgaHJlZj0iaHR0cDovL3d3dy5uaGxiaS5uaWguZ292L2hlYWx0aC9wdWJsaWMvaGVhcnQvb2Jlc2l0eS93ZWNhbi9kb3dubG9hZHMvYmFrZWQtdGlsYXBpYS1sZXR0ZXIucGRmIj4gIDguNSIgeCAxMSIgIDxpbWcgY2xhc3M9InBkZmxpbmsiIGJvcmRlcj0ibm9uZSIgYWx0PSJwZGYgZG9jdW1lbnQgaWNvbiIgc3JjPSIvaW1hZ2VzL3BkZjA3LmdpZiI+ICA8L2E+ICAoNDAzIEtCKTwvbGk+PC91bD5kAgYPDxYCHghJbWFnZVVybAUsL2ltYWdlcy9mb29kL0Jha2VkX1RpbGFwaWFfV2l0aF9Ub21hdG9lcy5qcGdkZAIHDxYCHwUCCBYQZg9kFgJmDxUCCVRvdGFsIGZhdAQxNiBnZAIBD2QWAmYPFQINU2F0dXJhdGVkIGZhdAMyIGdkAgIPZBYCZg8VAgtDaG9sZXN0ZXJvbAU1OCBtZ2QCAw9kFgJmDxUCBlNvZGl1bQYxNzIgbWdkAgQPZBYCZg8VAgtUb3RhbCBmaWJlcgMzIGdkAgUPZBYCZg8VAgdQcm90ZWluBDIyIGdkAgYPZBYCZg8VAg1DYXJib2h5ZHJhdGVzAzkgZ2QCBw9kFgJmDxUCCVBvdGFzc2l1bQY2MzUgbWdkAggPDxYCHwQFN1BlcmNlbnQgRGFpbHkgVmFsdWVzIGFyZSBiYXNlZCBvbiBhIDIsMDAwIGNhbG9yaWUgZGlldC5kZAIKDxYCHwUCBxYOAgEPZBYEAgEPDxYCHwQFATFkZAICDxUBHFByZWhlYXQgb3ZlbiB0byA0MDAgJmRlZztGLiBkAgIPZBYEAgEPDxYCHwQFATJkZAICDxUBJVNwcmF5IGJha2luZyBkaXNoIHdpdGggY29va2luZyBzcHJheS5kAgMPZBYEAgEPDxYCHwQFATNkZAICDxUBY0FycmFuZ2UgZmlsbGV0cyBpbiB0aGUgYmFraW5nIGRpc2guIFRoZSBkaXNoIHNob3VsZCBiZSBsYXJnZSBlbm91Z2ggc28gdGhlIGZpbGxldHMgZG8gbm90IG92ZXJsYXAuIGQCBA9kFgQCAQ8PFgIfBAUBNGRkAgIPFQFHTWl4IHJlbWFpbmluZyBpbmdyZWRpZW50cywgZXhjZXB0IHBhcnNsZXkgYW5kIGxlbW9uIHdlZGdlcywgaW4gYSBib3dsLiBkAgUPZBYEAgEPDxYCHwQFATVkZAICDxUBMlNwb29uIHRoZSB0b21hdG8gbWl4dHVyZSBldmVubHkgb3ZlciB0aGUgZmlsbGV0cy4gZAIGD2QWBAIBDw8WAh8EBQE2ZGQCAg8VAU1CYWtlIHVuY292ZXJlZCAxNSB0byAyMCBtaW51dGVzIG9yIHVudGlsIHRoZSBmaXNoIGZsYWtlcyBlYXNpbHkgd2l0aCBhIGZvcmsuIGQCBw9kFgQCAQ8PFgIfBAUBN2RkAgIPFQEzR2FybmlzaCB3aXRoIHBhcnNsZXkgYW5kIGEgbGVtb24gd2VkZ2UsIGFuZCBzZXJ2ZS4gZAILDxYCHwZoZAIMD2QWAgIBDw8WAh8EZWRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYCBQ9jdGwwMCRidG5TZWFyY2gFI2N0bDAwJGJvZHlDb250ZW50JGJ0bkFkZFRvTXlSZWNpcGVz6NkRJTXCxicoLmgHKamq4du9meNi/8dy88EqNjGS6jw=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=JwfSC0lQ7zmikUGrXnk38LKJb5_ph5Zmp-CxIovWglBBvtuc4TzJl1hCxAcHktk9tw78xVNrmDXvPeSSqwtipsk0IESMxGLDLiE27C4L5hA1&amp;t=638259218771233176" type="text/javascript"></script>
+
+
+<script src="/WebResource.axd?d=RueQI8_D6enW6XrDoUfANiGfZsVr_mLqokS5QDqMh4Hm3pJF4iluZg3JTqz40QGDpReJZiBqhRyaIvp4MkHwybLOgEyPOZPFYTcpdsbFd2I1&amp;t=638259218771233176" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="38DFA1E0" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABSbY46o3iwSfYmCnuc7HdY34+3WpZQNb82rzs2KnT3rh4ZF9Dgmqbh1uYJRuLYYa6Qe5uP+xt/x/j3eBGpaPFNDb5326l9SPJ3rDzn4OlNgMEulXHAvzD+w+o/7rGao4tXdzFzo0xyPVcrK/TxjyAidG93v8er/0hrOMICPry5lspBpdYpOILhgXhxpV/XGSzjXbl9mzbTeugJJOLRxFMfzmd4ZcGs3eLb7Q84c6xs+xMtMNHJGTIalnk4xSQkqk4WV4onbg2Vi0fSShZPOHqRtsjc21DoscfHgWRGdKZqzoqtHieYcC4YQBjgq1ETmgQkKvoLia6ef51BdQevDdhWoGid/xE2Hhhkfbs+IZhKwfdwCrehfoKAglE2amB+KvHtVekZAH7n66iWui6apxhYLWODENXTIJzz2mstWAI0Nx9WCs11p3xmCehSmttbxf25Yh+uvFwqqLMUHSgUtP/DT" />
+</div>
+                <div id="header" valign="bottom">
+                </div>
+                <div id="subhead_myrecipes">
+                    <div id="subhead_mybutton">
+                        <a id="aSubHead" href="UserRecipeList.aspx">
+                            <img src="images/btn_myrecipes.png" alt="Go to My Recipes" border="0" /></a>
+                    </div>
+                </div>
+                <div id="subhead_search">
+                    <div id="search_controls_log">
+                        
+                                <a href="Register.aspx" id="ctl00_masterLoginView_hlRegister" class="register">Register!</a> / <a href="SignIn.aspx" id="ctl00_masterLoginView_hlSignIn">Sign In</a>
+                            
+                    </div>
+                    <div id="search_controls">
+                        <span id="ctl00_rfvSearchText" style="display:none;">Please enter the search text</span><br />
+                        <label for="ctl00_txtSearch" class="hidden">
+                            Search</label><input name="ctl00$txtSearch" type="text" value="Search" id="ctl00_txtSearch" title="Search" class="searchfield w300 swap_value" />
+                        <label for="ctl00_ddlCategories" class="hidden">
+                            Categories</label><select name="ctl00$ddlCategories" id="ctl00_ddlCategories" title="Category Search" class="dropdown1">
+	<option value="0">All Categories</option>
+	<option value="1">Beef</option>
+	<option value="2">Poultry</option>
+	<option value="3">Seafood</option>
+	<option value="4">Pork</option>
+	<option value="5">Pasta</option>
+	<option value="6">Vegetarian</option>
+	<option value="7">Vegetables</option>
+	<option value="8">Grain</option>
+	<option value="9">Lunch/Brunch</option>
+	<option value="10">Appetizer/Snack</option>
+	<option value="11">Beverage</option>
+	<option value="12">Dessert</option>
+	<option value="13">Sauce/Dressing</option>
+	<option value="14">Bread</option>
+	<option value="15">Soups &amp; Stews</option>
+
+</select>
+                        <input type="image" name="ctl00$btnSearch" id="ctl00_btnSearch" class="vertmiddle" src="Images/btn_go.png" alt="search recipes" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnSearch&quot;, &quot;&quot;, true, &quot;MasterSearchGroup&quot;, &quot;&quot;, false, false))" />
+                    </div>
+                </div>
+                <div id="main_nav">
+                    <div id="order_now">
+                        <ul id="ul_order_now">
+                            <li id="btn_order_now"><a tabindex="0" id="a_order_now" href="https://www.nhlbi.nih.gov/health/public/heart/obesity/lose_wt/recipes.htm">DOWNLOAD COOKBOOKS!</a></li>
+                        </ul>
+                    </div>
+                    <div id="firstpane" class="menu_list">
+                        <!--Code for menu starts here-->
+                        <p class="menu_headnosub">
+                            <a href="default.aspx">Recipes Home</a>
+                        </p>
+                        <p class="menu_headnosub bottom">
+                            <a href="about.aspx">About</a>
+                        </p>
+                       
+                        <div id="divAllRecp" class="menu_head" tabindex="0">
+                          All Healthy Eating Recipes
+                        </div>
+                        <div class="menu_body">
+                            <a href="CategoryList.aspx?linkId=1">All Recipe Categories</a>
+                            <a href="RecipeList.aspx?linkId=1&cId=1">Beef Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=1&cId=2">Poultry Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=1&cId=3">Seafood Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=1&cId=4">Pork Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=1&cId=5">Pasta Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=1&cId=6">Vegetarian Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=1&cId=7">Vegetable Side Dish</a>
+                            <a href="RecipeList.aspx?linkId=1&cId=8">Grain Side Dish</a>
+                            <a href="RecipeList.aspx?linkId=1&cId=9">Lunch/Brunch</a>
+                            <a href="RecipeList.aspx?linkId=1&cId=10">Appetizer/Snack</a>
+                            <a href="RecipeList.aspx?linkId=1&cId=11">Beverage</a>
+                            <a href="RecipeList.aspx?linkId=1&cId=12">Dessert</a>
+                            <a href="RecipeList.aspx?linkId=1&cId=13">Sauce/Dressing</a>
+                            
+                            <a href="RecipeList.aspx?linkId=1&cId=15">Soups & Stews</a>
+                        </div>
+
+
+                        <!-- ***********-->
+                        <div class="menu_head_CookBook" tabindex="0">
+                            Healthy Dinners
+                        </div>
+                        <div class="menu_body_CookBook">
+                            
+                            <a href="RecipeList.aspx?linkId=11&cId=1&cbId=1">Beef Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=11&cId=2&cbId=1">Poultry Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=11&cId=3&cbId=1">Seafood Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=11&cId=4&cbId=1">Pork Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=11&cId=5&cbId=1">Pasta Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=11&cId=6&cbId=1">Vegetarian Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=11&cId=7&cbId=1">Vegetable Side Dish</a>
+                            <a href="RecipeList.aspx?linkId=11&cId=8&cbId=1">Grain Side Dish</a>
+                            
+                            <a href="RecipeList.aspx?linkId=11&cId=15&cbId=1">Soups & Stews</a>
+                        </div>
+
+                        <div class="menu_head_CookBook" tabindex="0">
+                            Healthy Family Meals
+                        </div>
+                        <div class="menu_body_CookBook">
+                            
+                            <a href="RecipeList.aspx?linkId=12&cId=2&cbId=2">Poultry Main Dish</a>
+                            
+                            <a href="RecipeList.aspx?linkId=12&cId=4&cbId=2">Pork Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=12&cId=5&cbId=2">Pasta Main Dish</a>
+                            
+                            <a href="RecipeList.aspx?linkId=12&cId=7&cbId=2">Vegetable Side Dish</a>
+                            <a href="RecipeList.aspx?linkId=12&cId=8&cbId=2">Grain Side Dish</a>
+                            <a href="RecipeList.aspx?linkId=12&cId=9&cbId=2">Lunch/Brunch</a>
+                            <a href="RecipeList.aspx?linkId=12&cId=10&cbId=2">Appetizer/Snack</a>
+                            
+                            <a href="RecipeList.aspx?linkId=12&cId=13&cbId=2">Sauce/Dressing</a>
+                            
+                            <a href="RecipeList.aspx?linkId=12&cId=15&cbId=2">Soups & Stews</a>
+                        </div>
+
+                        <div class="menu_head_CookBook" tabindex="0">
+                            Stay Young At Heart
+                        </div>
+                        <div class="menu_body_CookBook">
+                            
+                            <a href="RecipeList.aspx?linkId=13&cId=1&cbId=3">Beef Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=13&cId=2&cbId=3">Poultry Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=13&cId=3&cbId=3">Seafood Main Dish</a>
+                            
+                            <a href="RecipeList.aspx?linkId=13&cId=5&cbId=3">Pasta Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=13&cId=6&cbId=3">Vegetarian Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=13&cId=7&cbId=3">Vegetable Side Dish</a>
+                            <a href="RecipeList.aspx?linkId=13&cId=8&cbId=3">Grain Side Dish</a>
+                            <a href="RecipeList.aspx?linkId=13&cId=9&cbId=3">Lunch/Brunch</a>
+                            <a href="RecipeList.aspx?linkId=13&cId=10&cbId=3">Appetizer/Snack</a>
+                            
+                            <a href="RecipeList.aspx?linkId=13&cId=12&cbId=3">Dessert</a>
+                            <a href="RecipeList.aspx?linkId=13&cId=13&cbId=3">Sauce/Dressing</a>
+                            
+                            <a href="RecipeList.aspx?linkId=13&cId=15&cbId=3">Soups & Stews</a>
+                        </div>
+
+                        <div class="menu_head_CookBook" tabindex="0">
+                            Healthy Latino Recipes
+                        </div>
+                        <div class="menu_body_CookBook">
+                            
+                            <a href="RecipeList.aspx?linkId=14&cId=1&cbId=4">Beef Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=14&cId=2&cbId=4">Poultry Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=14&cId=3&cbId=4">Seafood Main Dish</a>
+                            
+                            <a href="RecipeList.aspx?linkId=14&cId=6&cbId=4">Vegetarian Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=14&cId=7&cbId=4">Vegetable Side Dish</a>
+                            
+                            <a href="RecipeList.aspx?linkId=14&cId=10&cbId=4">Appetizer/Snack</a>
+                            <a href="RecipeList.aspx?linkId=14&cId=11&cbId=4">Beverage</a>
+                            <a href="RecipeList.aspx?linkId=14&cId=12&cbId=4">Dessert</a>
+                            <a href="RecipeList.aspx?linkId=14&cId=13&cbId=4">Sauce/Dressing</a>
+                            
+                            <a href="RecipeList.aspx?linkId=14&cId=15&cbId=4">Soups & Stews</a>
+                        </div>
+
+                        <div class="menu_head_CookBook" tabindex="0">
+                            Home Cooking African American Style
+                        </div>
+                        <div class="menu_body_CookBook">
+                            
+                            <a href="RecipeList.aspx?linkId=15&cId=1&cbId=5">Beef Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=15&cId=2&cbId=5">Poultry Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=15&cId=3&cbId=5">Seafood Main Dish</a>
+                            
+                            <a href="RecipeList.aspx?linkId=15&cId=6&cbId=5">Vegetarian Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=15&cId=7&cbId=5">Vegetable Side Dish</a>
+                            <a href="RecipeList.aspx?linkId=15&cId=8&cbId=5">Grain Side Dish</a>
+                            <a href="RecipeList.aspx?linkId=15&cId=9&cbId=5">Lunch/Brunch</a>
+                            
+                            <a href="RecipeList.aspx?linkId=15&cId=11&cbId=5">Beverage</a>
+                            <a href="RecipeList.aspx?linkId=15&cId=12&cbId=5">Dessert</a>
+                            
+                            <a href="RecipeList.aspx?linkId=15&cId=15&cbId=5">Soups & Stews</a>
+                        </div>
+
+                        <div class="menu_head_CookBook" tabindex="0">
+                            American Indian/Alaska Native Recipes
+                        </div>
+                        <div class="menu_body_CookBook">
+                            
+                            
+                            <a href="RecipeList.aspx?linkId=16&cId=2&cbId=6">Poultry Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=16&cId=3&cbId=6">Seafood Main Dish</a>
+                            
+                            <a href="RecipeList.aspx?linkId=16&cId=6&cbId=6">Vegetarian Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=16&cId=7&cbId=6">Vegetable Side Dish</a>
+                            
+                            <a href="RecipeList.aspx?linkId=16&cId=9&cbId=6">Lunch/Brunch</a>
+                            
+                            <a href="RecipeList.aspx?linkId=16&cId=15&cbId=6">Soups & Stews</a>
+                        </div>
+
+                        <div class="menu_head_CookBook" tabindex="0">
+                            Vietnamese Community Recipes
+                        </div>
+                        <div class="menu_body_CookBook">
+                            
+                            
+                            <a href="RecipeList.aspx?linkId=17&cId=7&cbId=7">Vegetable Side Dish</a>
+                            
+                            <a href="RecipeList.aspx?linkId=17&cId=10&cbId=7">Appetizer/Snack</a>
+                            
+                        </div>
+
+                        <div class="menu_head_CookBook" tabindex="0">
+                            Filipino Community Recipes
+                        </div>
+                        <div class="menu_body_CookBook">
+                            
+                            
+                            <a href="RecipeList.aspx?linkId=18&cId=2&cbId=8">Poultry Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=18&cId=3&cbId=8">Seafood Main Dish</a>
+                            <a href="RecipeList.aspx?linkId=18&cId=4&cbId=8">Pork Main Dish</a>
+                            
+                            <a href="RecipeList.aspx?linkId=18&cId=6&cbId=8">Vegetarian Main Dish</a>
+                            
+                            <a href="RecipeList.aspx?linkId=18&cId=10&cbId=8">Appetizer/Snack</a>
+                            <a href="RecipeList.aspx?linkId=18&cId=11&cbId=8">Beverage</a>
+                            <a href="RecipeList.aspx?linkId=18&cId=12&cbId=8">Dessert</a>
+                            
+                            <a href="RecipeList.aspx?linkId=18&cId=15&cbId=8">Soups & Stews</a>
+                        </div>
+                        <!-- ***********-->
+
+                        <!-- New begin-->
+                        <div class="menu_head" tabindex="0">
+                            Cooking Resources
+                        </div>
+                        <div class="menu_body">
+                            <a href="cookingResrcs.aspx?linkId=2">Cooking Resources Main</a>
+                            <a href="recipeIcons.aspx?linkId=2">Family Recipe Tips</a>
+                            <a href="measurements.aspx?linkId=2">Guide to Common Cooking Measurements </a>
+                            <a href="glos.aspx?linkId=2">Food Preparation Glossary</a>
+                            <a href="cookinginfo.aspx?linkId=2">Basic Cooking Instructions</a>
+                            <a href="safecooking.aspx?linkId=2">Safe Cooking Rules</a>
+                            <a href="safekitchen.aspx?linkId=2">Keeping Your Kitchen Safe</a>
+                            <a href="faq.aspx?linkId=2">Healthy Eating FAQs</a>
+                            <a href="ingre.aspx?linkId=2">Deliciously Healthy Dinners Ingredient List</a>
+                        </div>
+                        <div class="menu_head" tabindex="0">
+                            Family Resources
+                        </div>
+                        <div class="menu_body" >
+                            <a href="familyResrcs.aspx?linkId=3">Family Resources Main</a>
+                            <a href="parentTips.aspx?linkId=3">Parent Tips</a>
+                            <a href="hlthyWeight.aspx?linkId=3">Encourage a Healthy Weight</a>
+                            <a href="feedChild.aspx?linkId=3">How Much Should I Feed My Child</a>
+                            <a href="chefTraining.aspx?linkId=3">Chefs in Training</a>
+                        </div>
+                        <!-- New end -->
+
+                        <div class="menu_head" tabindex="0">
+                            Tools & Resources
+                        </div>
+                        <div class="menu_body">
+                            <a href="supporters.aspx?linkId=4">Tools & Resources Main</a>
+                            <a href="toolbox.aspx?linkId=4">More Resources for Healthy Living</a>
+                        </div>
+
+                        <div class="menu_headnosub bottom borderTop" tabindex="0">
+                            <a href="Video.aspx">Healthy Eating Video Clips</a>
+                        </div>
+
+                        <div class="menu_head" tabindex="0">
+                            CONNECT WITH US
+                        </div>
+                        <div class="menu_body">
+                            <a href="https://www.facebook.com/hearttruth/">
+                                <img src="images/ico_facebook.gif" alt="Link to NHLBI Facebook page" />
+                                Facebook</a><br />
+                            <a href="https://twitter.com/TheHeartTruth">
+                                <img src="images/socialmedia/ico-twitter.png" alt="Link to NHLBI Twitter page" />
+                                Twitter</a><br />
+                        </div>
+                    </div>
+                </div>
+                <div id="main_content">
+                    <a name="skip" id="skip"></a>
+                    
+
+     
+<style>
+
+.usa-banner__button-text{
+  
+  text-decoration:none;
+}
+#recipe_directions ul {
+    list-style-type: none !important;
+    font-weight: normal;
+    color: #000000;
+    margin-left: 0px;
+}
+
+#recipe_directions ul li {
+      padding: 0px ;
+	  list-style-type: none;
+}
+#ingredients ul li {
+      padding: 0px ;
+	  list-style-type: none;
+}
+.column1 {
+  float: left;
+  width: 3%;
+  height:18px;
+}
+ .column1 .stepnumber {
+ height:18px;
+ }
+.column2 {
+  float: left;
+  width: 95%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+<script>
+	
+	$(document).ready(function () {
+	registerTabEnterEventDt(".recpDetail");
+		$( "#recipe_detail_header" ).focus();
+	
+	});
+	
+	function registerTabEnterEventDt(divClass)
+     {
+		$(divClass).focusin(function(){
+        $(this).addClass('focusedin');
+    });
+
+    $(divClass).focusout(function(){
+        $(this).removeClass('focusedin');
+    });
+	$(divClass).keyup(function(event){
+	
+	if(event.keyCode == '13'){
+       
+    }
+	
+      
+    });
+	
+	 }
+	</script>
+    <div id="breadcrumbs"><a href="default.aspx">Healthy Eating Recipes Home</a> > <a href="CategoryList.aspx">Categories</a> > <a href="RecipeList.aspx?linkId=1&cId=3">Seafood</a> > Baked Tilapia With Tomatoes </div>
+
+    <div align="center"><span id="ctl00_bodyContent_lblMessage"></span></div>
+    <div id="recipe_detail_header" class="recpDetail" tabindex="0">
+        <br />
+        <UL>
+            <li>
+                
+                    <h1>
+                        Baked Tilapia With Tomatoes 
+                    </h1>
+                
+                
+                    
+            </li>
+        </UL>
+        <p class="recipe_detail_subtext">
+            This dish is easy to prepare, low in calories, and economical.
+        </p>
+    </div>
+    <div id="Recipe_Source">
+      Recipe Source: <span id="ctl00_bodyContent_lblCookBookNames"><i>Delicious Heart Healthy Latino Recipes</i></span>
+    </div>
+    <div id="print_add_this">
+        <img src="Images/printer.png" alt="Printer Friendly" /> <a href="javascript:window.print();">Printer Friendly</a> &nbsp;&nbsp;
+        
+    </div>
+    <table class="recipe_time_table" role="presentation" >
+        <tr>
+            <th scope="col">Prep time</th>
+            <th scope="col">Cook time</th>
+            <th scope="col">Yields</th>
+             <th scope="col">Serving Size</th>
+        </tr>
+        <tr>
+            <td>10 minutes</td>
+            <td>25 minutes</td>
+            <td>4 servings</td>
+            <td>1 fillet</td>
+        </tr>
+    </table>
+    <table border="0" width="100%" role="presentation">
+	<tr>
+	<th colspan="3">
+	<div id="header_ingredients">
+                    <h3>
+                        Ingredients</h3>
+                </div>
+	</th>
+	</tr>
+        <tr>
+            <td valign="top"  style="padding-right: 20px;">
+                
+                <div id="ingredients">
+                    
+                            <ul class="tbl_ingredients" >
+                        
+                            <li>
+                                
+                                    
+                                    <p>
+                                       Cooking spray 
+                                    </p>
+                               
+                            </li>
+                        
+                            <li>
+                                
+                                    
+                                    <p>
+                                       4 tilapia fillets 
+                                    </p>
+                               
+                            </li>
+                        
+                            <li>
+                                
+                                    
+                                    <p>
+                                       4 medium tomatoes, peeled and chopped 
+                                    </p>
+                               
+                            </li>
+                        
+                            <li>
+                                
+                                    
+                                    <p>
+                                       2 Tbsp olive oil 
+                                    </p>
+                               
+                            </li>
+                        
+                            <li>
+                                
+                                    
+                                    <p>
+                                       1&frac12; tsp thyme 
+                                    </p>
+                               
+                            </li>
+                        
+                            <li>
+                                
+                                    
+                                    <p>
+                                       &frac14; C pitted black olives, diced 
+                                    </p>
+                               
+                            </li>
+                        
+                            <li>
+                                
+                                    
+                                    <p>
+                                       &frac14; tsp red pepper flakes 
+                                    </p>
+                               
+                            </li>
+                        
+                            <li>
+                                
+                                    
+                                    <p>
+                                       2 cloves garlic, minced 
+                                    </p>
+                               
+                            </li>
+                        
+                            <li>
+                                
+                                    
+                                    <p>
+                                       &frac12; C red onion, diced 
+                                    </p>
+                               
+                            </li>
+                        
+                            <li>
+                                
+                                    
+                                    <p>
+                                       1 Tbsp lime juice 
+                                    </p>
+                               
+                            </li>
+                        
+                            <li>
+                                
+                                    
+                                    <p>
+                                       Parsley and lemon wedges for garnish 
+                                    </p>
+                               
+                            </li>
+                        
+                            <li>
+                                
+                                    
+                                    <p>
+                                       <ul><strong>Recipe Cards:</strong><li><a href="http://www.nhlbi.nih.gov/health/public/heart/obesity/wecan/downloads/baked-tilapia-4x6.pdf">  4" x 6"  <img class="pdflink" border="none" alt="pdf document icon" src="/images/pdf07.gif">  </a>  (353 KB)</li>   <li><a href="http://www.nhlbi.nih.gov/health/public/heart/obesity/wecan/downloads/baked-tilapia-letter.pdf">  8.5" x 11"  <img class="pdflink" border="none" alt="pdf document icon" src="/images/pdf07.gif">  </a>  (403 KB)</li></ul>
+                                    </p>
+                               
+                            </li>
+                        
+                            </ul>
+                        
+                </div>
+            </td>
+            <td valign="top" style="padding-top: 20px; " rowspan="2">
+                <div id="recipe_photo">
+                    <img id="ctl00_bodyContent_imgLarge" class="recipe_image" src="/images/food/Baked_Tilapia_With_Tomatoes.jpg" alt="Photograph of the completed recipe." />
+                </div>
+            </td>
+            <td valign="top" style="padding-top: 20px; width: 25%;" rowspan="2">
+                <!-- set display:none; for this div when recipe does not have a picture -->
+                <div id="nutrition_info_wrapper">
+                    <div id="nutrition_info">
+                        <table border="0" width="180px" style="padding: 0px 0px 0px 0px;" role="presentation" >
+                            <tr>
+                                <th class="ncol1" width="120px">
+                                    calories</th>
+                                <th class="ncol2" width="60px">
+                                    265
+                                </th>
+                            </tr>
+                            
+                                    <tr>
+                                        <td class="ncol1">
+                                            Total fat
+                                        </td>
+                                        <td class="ncol2" width="60px">
+                                            16 g
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="ncol1">
+                                            Saturated fat
+                                        </td>
+                                        <td class="ncol2" width="60px">
+                                            2 g
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="ncol1">
+                                            Cholesterol
+                                        </td>
+                                        <td class="ncol2" width="60px">
+                                            58 mg
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="ncol1">
+                                            Sodium
+                                        </td>
+                                        <td class="ncol2" width="60px">
+                                            172 mg
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="ncol1">
+                                            Total fiber
+                                        </td>
+                                        <td class="ncol2" width="60px">
+                                            3 g
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="ncol1">
+                                            Protein
+                                        </td>
+                                        <td class="ncol2" width="60px">
+                                            22 g
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="ncol1">
+                                            Carbohydrates
+                                        </td>
+                                        <td class="ncol2" width="60px">
+                                            9 g
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="ncol1">
+                                            Potassium
+                                        </td>
+                                        <td class="ncol2" width="60px">
+                                            635 mg
+                                        </td>
+                                    </tr>
+                                
+                            <tr>
+                                <td colspan="2" >
+                                    <span class="pdv">
+                                        <span id="ctl00_bodyContent_lblPercentDailyValues">Percent Daily Values are based on a 2,000 calorie diet.</span></span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="add_to_my_recipes">
+                        <input type="image" name="ctl00$bodyContent$btnAddToMyRecipes" id="ctl00_bodyContent_btnAddToMyRecipes" src="Images/btn_addtomyrecipes.png" alt="Add to my recipes" />
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <div id="recipe_directions">
+                    <h3>
+                        Directions</h3>
+                    
+                            <ul style="list-style: none!important;">
+                        
+                            <li>
+                                <p>
+                                    <div width="100%" class="row"  >
+                                        
+                                            <div class="column1">
+                                                <div class="stepnumber">
+                                                    <span id="ctl00_bodyContent_rptPrepSteps_ctl01_lblPrepStepNo">1</span></div>
+                                            </div>
+                                            <div class="column2">
+                                                <div class="steptext">
+                                                    Preheat oven to 400 &deg;F. 
+                                                </div>
+                                            </div>
+                                        
+                                    </div>
+                                </p>
+                            </li>
+                        
+                            <li>
+                                <p>
+                                    <div width="100%" class="row"  >
+                                        
+                                            <div class="column1">
+                                                <div class="stepnumber">
+                                                    <span id="ctl00_bodyContent_rptPrepSteps_ctl02_lblPrepStepNo">2</span></div>
+                                            </div>
+                                            <div class="column2">
+                                                <div class="steptext">
+                                                    Spray baking dish with cooking spray.
+                                                </div>
+                                            </div>
+                                        
+                                    </div>
+                                </p>
+                            </li>
+                        
+                            <li>
+                                <p>
+                                    <div width="100%" class="row"  >
+                                        
+                                            <div class="column1">
+                                                <div class="stepnumber">
+                                                    <span id="ctl00_bodyContent_rptPrepSteps_ctl03_lblPrepStepNo">3</span></div>
+                                            </div>
+                                            <div class="column2">
+                                                <div class="steptext">
+                                                    Arrange fillets in the baking dish. The dish should be large enough so the fillets do not overlap. 
+                                                </div>
+                                            </div>
+                                        
+                                    </div>
+                                </p>
+                            </li>
+                        
+                            <li>
+                                <p>
+                                    <div width="100%" class="row"  >
+                                        
+                                            <div class="column1">
+                                                <div class="stepnumber">
+                                                    <span id="ctl00_bodyContent_rptPrepSteps_ctl04_lblPrepStepNo">4</span></div>
+                                            </div>
+                                            <div class="column2">
+                                                <div class="steptext">
+                                                    Mix remaining ingredients, except parsley and lemon wedges, in a bowl. 
+                                                </div>
+                                            </div>
+                                        
+                                    </div>
+                                </p>
+                            </li>
+                        
+                            <li>
+                                <p>
+                                    <div width="100%" class="row"  >
+                                        
+                                            <div class="column1">
+                                                <div class="stepnumber">
+                                                    <span id="ctl00_bodyContent_rptPrepSteps_ctl05_lblPrepStepNo">5</span></div>
+                                            </div>
+                                            <div class="column2">
+                                                <div class="steptext">
+                                                    Spoon the tomato mixture evenly over the fillets. 
+                                                </div>
+                                            </div>
+                                        
+                                    </div>
+                                </p>
+                            </li>
+                        
+                            <li>
+                                <p>
+                                    <div width="100%" class="row"  >
+                                        
+                                            <div class="column1">
+                                                <div class="stepnumber">
+                                                    <span id="ctl00_bodyContent_rptPrepSteps_ctl06_lblPrepStepNo">6</span></div>
+                                            </div>
+                                            <div class="column2">
+                                                <div class="steptext">
+                                                    Bake uncovered 15 to 20 minutes or until the fish flakes easily with a fork. 
+                                                </div>
+                                            </div>
+                                        
+                                    </div>
+                                </p>
+                            </li>
+                        
+                            <li>
+                                <p>
+                                    <div width="100%" class="row"  >
+                                        
+                                            <div class="column1">
+                                                <div class="stepnumber">
+                                                    <span id="ctl00_bodyContent_rptPrepSteps_ctl07_lblPrepStepNo">7</span></div>
+                                            </div>
+                                            <div class="column2">
+                                                <div class="steptext">
+                                                    Garnish with parsley and a lemon wedge, and serve. 
+                                                </div>
+                                            </div>
+                                        
+                                    </div>
+                                </p>
+                            </li>
+                        
+                            </ul>
+                    
+                </div>
+            </td>
+           
+        </tr>
+    </table>
+    
+    <p>_______________<br />&#153;<em>Keep the Beat</em> is a trademark of the U.S. Department of Health and Human Services.</p>
+
+
+                </div>
+                <input type="hidden" id="hidMenuId" />
+                <input type="hidden" id="hidMenuIdtest" />
+            
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("ctl00_rfvSearchText"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_rfvSearchText = document.all ? document.all["ctl00_rfvSearchText"] : document.getElementById("ctl00_rfvSearchText");
+ctl00_rfvSearchText.controltovalidate = "ctl00_txtSearch";
+ctl00_rfvSearchText.errormessage = "Please enter the search text";
+ctl00_rfvSearchText.display = "Dynamic";
+ctl00_rfvSearchText.validationGroup = "MasterSearchGroup";
+ctl00_rfvSearchText.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_rfvSearchText.initialvalue = "Search";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+    // Instructions: please embed this snippet directly into every page in your website template.
+    // For optimal performance, this must be embedded directly into the template, not referenced
+    // as an external file.
+
+    // ForeSee Embed Script v2.00
+    // DO NOT MODIFY BELOW THIS LINE *****************************************
+    ;(function (g) {
+      var d = document, am = d.createElement('script'), h = d.head || d.getElementsByTagName("head")[0], fsr = 'fsReady',
+        aex = {
+          "src": "//gateway.foresee.com/sites/nhlbi-gov/staging/gateway.min.js",
+          "type": "text/javascript",
+          "async": "true",
+          "data-vendor": "fs",
+          "data-role": "gateway"
+        };
+      for (var attr in aex){am.setAttribute(attr, aex[attr]);}h.appendChild(am);g[fsr] = function () {var aT = '__' + fsr + '_stk__';g[aT] = g[aT] || [];g[aT].push(arguments);};
+    })(window);
+    // DO NOT MODIFY ABOVE THIS LINE *****************************************
+</script>
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        //]]>
+</script>
+</form>
+            
+            <!-- modified by jim -->
+
+            
+            
+
+
+            
+            <div id="Footer">
+                <!DOCTYPE html>
+<html lang="en">
+<body>
+    <div id="footer-block" style="width: 1200px;">
+        <div id="back-to-top">
+            <a href="#top" style="font-size: 14px !important;" class="back-to-top-link">Back to top <img alt="back to top arrow" height="30" loading="lazy" width="auto" src="nhlbi-footer/images/circle-chevron-up-solid.svg"></a>
+        </div>
+        <div id="footer-top-region" style="text-align: left !important">
+            <div class="footer-region footer-region--first">
+                <h2>Web Policies &amp; Notices</h2>
+                <ul id="custom-footer-links" class="footer-links">
+                    <li class="footer-link">
+                        <a href="https://www.nhlbi.nih.gov/about/contact/website-privacy-and-accessibility" data-drupal-link-system-path="node/94303">Accessibility</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="https://www.edi.nih.gov/no-fear-act" rel="noreferrer"> No FEAR Act Data</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="https://www.nhlbi.nih.gov/about/contact/website-privacy-and-accessibility/privacy-statement" data-drupal-link-system-path="node/122847">Privacy Policy</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="https://www.nhlbi.nih.gov/about/contact/website-privacy-and-accessibility" data-drupal-link-system-path="node/94303">Freedom of Information Act (FOIA)</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" rel="nofollow noopener noreferrer" class="ext" target="_blank">HHS Vulnerability Disclosure</a><a class="ext-icon" href="#"><span class="element-invisible"> external link </span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-region footer-region--second">
+                <h2>Related Government Websites</h2>
+                <ul class="footer-links">
+                    <li class="footer-link">
+                        <a href="https://www.hhs.gov/" rel="nofollow noopener noreferrer" class="ext" target="_blank">Health and Human Services</a><a class="ext-icon" href="#"><span class="element-invisible"> external link </span></a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="https://www.nih.gov/" rel="noreferrer">National Institutes of Health</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="https://oig.hhs.gov/" rel="nofollow noopener noreferrer" class="ext" target="_blank">Office of the Inspector General</a><a class="ext-icon" href="#"><span class="element-invisible"> external link </span></a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="https://www.usa.gov/" rel="nofollow noopener noreferrer" class="ext" target="_blank">USA.gov</a><a class="ext-icon" href="#"><span class="element-invisible"> external link </span></a>
+                    </li>
+                </ul>
+            </div>
+            <div id="custom-stay-connected" class="footer-region footer-region--third">
+                <h2>Stay Connected</h2>
+                <ul class="ft-stay-connected" id="custom-live-chat-link">
+                    <li class="live-chat-link">
+                        <img alt="chat bubbles" height="30" loading="lazy" width="auto" src="nhlbi-footer/images/messages-question-regular.svg"><a class="ext" href="#" onclick="window.open('https://chat.jbsinternational.com/chatbeacon/NIH/1/survey/survey?accountId=1&amp;siteId=1&amp;queueId=1&amp;theme=blue&amp;popout=true&amp;sessionId=602860bd-6613-4f2f-a3b6-bf1cf9f4d39f&amp;visitorId=9ca462e3-5378-4b69-90b9-b38ce5259877&amp;ispopout=true&amp;pc=true','Live Chat','width=435,height=700');return false;" target="_blank" rel="noopener">Live Chat</a>
+                        <a class="ext-icon" href="#"><span class="element-invisible"> external link </span></a>
+                        <p>Live Chat with us, Monday through Friday, 8:30 a.m. to 5:00 p.m. EST.</p>
+                    </li>
+                    <li class="emails-alert-link">
+                        <img alt="email" height="30" loading="lazy" width="auto" src="nhlbi-footer/images/envelope-open-text-solid.svg"><a href="https://www.nhlbi.nih.gov/news-and-events/email-alerts">Get Email Alerts</a>
+                        <p>Receive automatic alerts about NHLBI related news and highlights from across the Institute.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer-bottom-region">
+            <div class="footer-bottom-logo">
+                <a href="https://www.nhlbi.nih.gov">
+                    <img src="nhlbi-footer/images/NHLBI_HHS_Lockup_white.svg" alt="National Heart, Lung, and Blood Home">
+                </a>
+            </div>
+            <div class="footer-bottom-links" id="custom-bottom-links">
+                <ul>
+                    <li>
+                        <a href="https://www.nhlbi.nih.gov/contact">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="https://www.nhlbi.nih.gov/siteindex">Site Index</a>
+                    </li>
+                    <li>
+                        <a href="https://www.nhlbi.nih.gov/about/working-at-nhlbi">Jobs</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="footer-bottom-social">
+                <ul id="footer-social">
+                    <li><a id="facebooklink" href="https://www.facebook.com/NHLBI/" target="_blank" rel="nofollow noopener noreferrer"><img src="nhlbi-footer/images/ico-facebook-white.svg" alt="Facebook"></a></li>
+                    <li><a id="twitterlink" href="https://twitter.com/nih_nhlbi?lang=en" target="_blank" rel="nofollow noopener noreferrer"><img src="nhlbi-footer/images/ico-twitter-white.svg" alt="Twitter"></a></li>
+                    <li><a id="youtubelink" href="https://www.youtube.com/user/NHLBI" target="_blank" rel="nofollow noopener noreferrer"><img src="nhlbi-footer/images/ico-youtube-white.svg" alt="Youtube"></a></li>
+                    <li><a id="linkedinlink" href="https://www.linkedin.com/company/national-heart-lung-and-blood-institute" target="_blank" rel="nofollow noopener noreferrer"><img src="nhlbi-footer/images/linkedin-brands.svg" style="fill:white;height:25px; width:25px;filter: invert(100%) sepia(0%) saturate(7437%) hue-rotate(42deg) brightness(118%) contrast(118%);" alt="LinkedIn icon"></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
+            </div>
+            
+            
+
+            <p>
+                <!-- SiteCatalyst code version: H.22.1.
+Copyright 1996-2010 Adobe, Inc. All Rights Reserved
+More info available at https://www.omniture.com -->
+
+                
+                <!--/DO NOT REMOVE/-->
+            </p>
+
+
+            <!-- End SiteCatalyst code version: H.22.1. -->
+            <script type="text/javascript">_satellite.pageBottom();</script>
+
+            <!-- - end modified by jim - -->
+            </div>
+        </div>
+</body>
+</html>
