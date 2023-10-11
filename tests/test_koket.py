@@ -43,7 +43,7 @@ class TestKoketScraper(ScraperTest):
                 "6 dl matolja",
                 "1 kruka dill",
                 "10 cm färsk pepparrot, skalad",
-                "4 skiva vitt bröd (ej levain)",
+                "4 skivor vitt bröd (ej levain)",
                 "smör, till stekning",
                 "50 g löjrom",
                 "1 citron",

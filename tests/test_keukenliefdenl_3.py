@@ -28,7 +28,7 @@ class TestKeukenLiefdeNL3Scraper(ScraperTest):
         self.assertEqual("Hoofdgerecht", self.harvester_class.category())
 
     def test_total_time(self):
-        self.assertEqual(None, self.harvester_class.total_time())
+        self.assertEqual(60, self.harvester_class.total_time())
 
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())

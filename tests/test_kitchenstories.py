@@ -68,7 +68,7 @@ class TestKitchenStoriesScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(1.0, self.harvester_class.ratings())
+        self.assertEqual(0.81, self.harvester_class.ratings())
 
     def test_author(self):
         self.assertEqual("Christian Ruß", self.harvester_class.author())
