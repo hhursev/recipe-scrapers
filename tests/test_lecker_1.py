@@ -17,7 +17,7 @@ class TestLeckerScraper1(ScraperTest):
         )
 
     def test_author(self):
-        self.assertEqual("lecker.de", self.harvester_class.author())
+        self.assertEqual("Lecker.de Redaktion", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual(
@@ -42,7 +42,7 @@ class TestLeckerScraper1(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://images.lecker.de/,id=7e976162,b=lecker,w=610,cg=c.jpg",
+            "https://images.lecker.de/gemusepfanne-mit-hahnchen-zuckerschoten-und-brokkoli/1x1,id=7e976162,b=lecker,w=1600,h=,ca=12.42,0,87.58,100,rm=sk.jpeg",
             self.harvester_class.image(),
         )
 
@@ -52,6 +52,7 @@ class TestLeckerScraper1(ScraperTest):
                 "1 Brokkoli",
                 "150 g Zuckerschoten",
                 "2 Lauchzwiebeln",
+                "Salz",
                 "4 kleine Hähnchenbrustfilets (à ca. 140 g)",
                 "2 EL Sonnenblumenöl",
                 "4 EL Sojasoße",
@@ -69,15 +70,15 @@ class TestLeckerScraper1(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(3.9, self.harvester_class.ratings())
+        self.assertEqual(3.94, self.harvester_class.ratings())
 
     def test_nutrients(self):
         self.assertEqual(
             {
-                "calories": "260",
-                "carbohydrateContent": "7",
-                "fatContent": "7",
-                "proteinContent": "38",
+                "calories": "260 kcal",
+                "carbohydrateContent": "7 g",
+                "fatContent": "7 g",
+                "proteinContent": "38 g",
                 "servingSize": "1 Portion",
             },
             self.harvester_class.nutrients(),
@@ -88,6 +89,6 @@ class TestLeckerScraper1(ScraperTest):
 
     def test_description(self):
         self.assertEqual(
-            "Unser beliebtes Rezept für Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli und mehr als 65.000 weitere kostenlose Rezepte auf LECKER.de.",
+            "Unser beliebtes Rezept für Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli und mehr als 45.000 weitere kostenlose Rezepte auf LECKER.de.",
             self.harvester_class.description(),
         )

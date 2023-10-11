@@ -21,7 +21,7 @@ class TestLeanAndGreenRecipesScraper(ScraperTest):
         self.assertEqual("lean.green", self.harvester_class.author())
 
     def test_title(self):
-        self.assertEqual("Yellow Squash Taco Casserole", self.harvester_class.title())
+        self.assertEqual("Healthy Yellow Squash Taco Casserole Recipe", self.harvester_class.title())
 
     def test_total_time(self):
         self.assertEqual(40.0, self.harvester_class.total_time())
@@ -58,7 +58,7 @@ class TestLeanAndGreenRecipesScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(3.8, self.harvester_class.ratings())
+        self.assertEqual(3.7, self.harvester_class.ratings())
 
     def test_cuisine(self):
         self.assertEqual("Mexican", self.harvester_class.cuisine())

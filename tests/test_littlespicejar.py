@@ -29,7 +29,7 @@ class TestLittleSpiceJarScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://littlespicejar.com/wp-content/uploads/2020/12/Addicting-Mini-Crab-Cake-Bites-1-scaled-720x720.jpg",
+            "https://littlespicejar.com/wp-content/uploads/2020/12/Addicting-Mini-Crab-Cake-Bites-1-720x720.jpg",
             self.harvester_class.image(),
         )
 

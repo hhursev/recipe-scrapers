@@ -1,6 +1,7 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._exceptions import SchemaOrgException
+from ._utils import normalize_string
 
 
 class Lecker(AbstractScraper):
@@ -85,4 +86,5 @@ class Lecker(AbstractScraper):
             return None
 
     def description(self):
-        return self.schema.description()
+        cleaned_description = self.schema.description()
+        return normalize_string(cleaned_description)
