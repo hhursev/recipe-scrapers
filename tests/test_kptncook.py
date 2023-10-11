@@ -18,7 +18,7 @@ class TestKptnCookScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://mobile.kptncook.com/recipe/pinterest/Low-Carb-Tarte-Flamb%C3%A9e-with-Serrano-Ham-&-Cream-Cheese/315c3c32",
+            "https://mobile.kptncook.com/recipe/pinterest/Low-Carb-Tarte-Flamb%C3%A9e-with-Serrano-Ham-%26-Cream-Cheese/315c3c32?lang=en",
             self.harvester_class.canonical_url(),
         )
 

@@ -25,9 +25,8 @@ class TestLAtelierDeRoxaneScraper(ScraperTest):
         self.assertEqual("Recette cake savane maison", self.harvester_class.title())
 
     def test_description(self):
-        expected_description = "Je pense que nous avons déjà tous acheté, au moins une fois, un cake type Savane au supermarché !  Aujourd’hui, je te propose une recette facile et rapide pour réaliser un délicieux marbré au chocolat, moelleux à souhait au bon goût de vanille et cacao ! Réalise cette recette et tu n’achèteras plus l’industriel ! Découvre ma box de pâtisserie goûters faits maison"
-        actual_description = self.harvester_class.description().replace("\xa0", " ")
-        self.assertEqual(expected_description, actual_description)
+        expected_description = "Je pense que nous avons déjà tous acheté, au moins une fois, un cake type Savane au supermarché ! Aujourd’hui, je te propose une recette facile et rapide pour réaliser un délicieux marbré au chocolat, moelleux à souhait au bon goût de vanille et cacao ! Réalise cette recette et tu n’achèteras plus l’industriel ! Découvre ma box de pâtisserie goûters faits maison"
+        self.assertEqual(expected_description, self.harvester_class.description())
 
     def test_total_time(self):
         self.assertEqual(65.0, self.harvester_class.total_time())

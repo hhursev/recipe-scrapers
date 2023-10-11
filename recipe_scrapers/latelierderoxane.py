@@ -19,7 +19,8 @@ class LAtelierDeRoxane(AbstractScraper):
 
     def description(self):
         div = self.soup.find("div", {"class": "bloc_chapeau bloc_blog"})
-        return div.find("p").get_text()
+        cleaned_description = div.find("p").get_text()
+        return normalize_string(cleaned_description)
 
     def total_time(self):
         return get_minutes(self.get_bloc_temps_value_by_index(0))
