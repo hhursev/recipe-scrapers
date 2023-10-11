@@ -21,15 +21,21 @@ class HEB(AbstractScraper):
         return get_yields(yields_tag.get_text())
 
     def ingredients(self):
-        ingredients_container = self.soup.find("div", {"data-qe-id": "recipeIngredientsContainer"})
+        ingredients_container = self.soup.find(
+            "div", {"data-qe-id": "recipeIngredientsContainer"}
+        )
         ingredients = ingredients_container.findAll("li")
-        
+
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def _instructions_list(self):
-        instructions_container = self.soup.find("div", {"data-qe-id": "recipeInstructionsContainer"})
+        instructions_container = self.soup.find(
+            "div", {"data-qe-id": "recipeInstructionsContainer"}
+        )
         instructions = instructions_container.findAll("li")
-        return [normalize_string(instruction.get_text()) for instruction in instructions]
+        return [
+            normalize_string(instruction.get_text()) for instruction in instructions
+        ]
 
     def instructions(self):
         data = self._instructions_list()

@@ -22,13 +22,11 @@ class TestLAtelierDeRoxaneScraper(ScraperTest):
         )
 
     def test_title(self):
-        self.assertEqual(
-            "Recette cake savane maison", self.harvester_class.title()
-        )
+        self.assertEqual("Recette cake savane maison", self.harvester_class.title())
 
     def test_description(self):
         expected_description = "Je pense que nous avons déjà tous acheté, au moins une fois, un cake type Savane au supermarché !  Aujourd’hui, je te propose une recette facile et rapide pour réaliser un délicieux marbré au chocolat, moelleux à souhait au bon goût de vanille et cacao ! Réalise cette recette et tu n’achèteras plus l’industriel ! Découvre ma box de pâtisserie goûters faits maison"
-        actual_description = self.harvester_class.description().replace('\xa0', ' ')
+        actual_description = self.harvester_class.description().replace("\xa0", " ")
         self.assertEqual(expected_description, actual_description)
 
     def test_total_time(self):
@@ -59,22 +57,24 @@ class TestLAtelierDeRoxaneScraper(ScraperTest):
         )
 
     def test_instructions(self):
-        expected_instructions = '\n'.join([
-            "Préchauffe le four à 165°.",
-            "Commence par fouetter les œufs et le sucre, à l’aide de ton robot ou batteur électrique, pendant 10 minutes : ton mélange doit s’éclaircir et doubler de volume !",
-            "Ajoute le beurre fondu, la levure, la farine et fouette brièvement.",
-            "Verse le lait et fouette jusqu’à l’obtention d’un mélange homogène.",
-            "Sépare la préparation obtenue dans deux bols.",
-            "Dans un des deux bols, ajoute l’arôme ou la poudre de vanille.",
-            "Fais fondre ton chocolat, au bain-marie ou au micro-ondes et incorpore-le dans le second bol à l’aide d’une maryse.",
-            "Récupère ton moule à cake et beurre-le généreusement.",
-            "Verse, dans le fond de ton moule, la moitié de la pâte à la vanille puis la moitié de celle au chocolat.",
-            "Répète l’opération une deuxième fois.",
-            "Enfourne pendant 45 min.",
-            "Tu peux vérifier la cuisson à l’aide d’un couteau, plante-le au centre de ton cake : ta lame doit ressortir sèche.",
-            "À la sortie du four, laisse tiédir ton cake afin de faciliter son démoulage.",
-            "À manger sans modération !",
-        ])
+        expected_instructions = "\n".join(
+            [
+                "Préchauffe le four à 165°.",
+                "Commence par fouetter les œufs et le sucre, à l’aide de ton robot ou batteur électrique, pendant 10 minutes : ton mélange doit s’éclaircir et doubler de volume !",
+                "Ajoute le beurre fondu, la levure, la farine et fouette brièvement.",
+                "Verse le lait et fouette jusqu’à l’obtention d’un mélange homogène.",
+                "Sépare la préparation obtenue dans deux bols.",
+                "Dans un des deux bols, ajoute l’arôme ou la poudre de vanille.",
+                "Fais fondre ton chocolat, au bain-marie ou au micro-ondes et incorpore-le dans le second bol à l’aide d’une maryse.",
+                "Récupère ton moule à cake et beurre-le généreusement.",
+                "Verse, dans le fond de ton moule, la moitié de la pâte à la vanille puis la moitié de celle au chocolat.",
+                "Répète l’opération une deuxième fois.",
+                "Enfourne pendant 45 min.",
+                "Tu peux vérifier la cuisson à l’aide d’un couteau, plante-le au centre de ton cake : ta lame doit ressortir sèche.",
+                "À la sortie du four, laisse tiédir ton cake afin de faciliter son démoulage.",
+                "À manger sans modération !",
+            ]
+        )
         self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def test_site_name(self):

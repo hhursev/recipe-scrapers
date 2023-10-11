@@ -56,7 +56,7 @@ class TestHelloFreshScraperAdHoc(ScraperTest):
     def test_nutrients(self):
         self.assertEqual(
             {
-                'servingSize': '484',
+                "servingSize": "484",
             },
             self.harvester_class.nutrients(),
         )

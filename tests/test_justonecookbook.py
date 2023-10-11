@@ -55,6 +55,7 @@ class TestJustOneCookbookScraper(ScraperTest):
             self.harvester_class.ingredients(),
         )
 
+
 def test_instructions(self):
     self.assertEqual(
         "Before You Start...\n"
@@ -82,7 +83,7 @@ def test_instructions(self):
         "Fill the onigiri mold with the hot seasoned rice all the way to the top edge, making sure to fill the corners. Cover with the lid and push down firmly. You should feel a slight resistance; if not, you may want to add a bit more rice.\n"
         "Remove the lid. Flip over the mold onto a baking sheet or plate lined with parchment paper. Then, push the “button” on the mold‘s bottom to release your onigiri. Tip: Always dip your fingers in water before touching the onigiri to prevent the rice from sticking to them.\n"
         "Repeat with the remaining rice.\n"
-        "Now, firmly hand-press the rice balls to keep them from falling apart while grilling. For Yaki Onigiri, you‘ll want to press the rice ball a bit more tightly than you would a regular onigiri. First, moisten both palms with a bit of water to prevent the rice from sticking. Then, pick up a rice ball in your left (non-dominant) hand. Place your right (dominant) hand on top of the rice in a “mountain\" shape and gently press the triangle corner. At the same time, squeeze the fingers and heel of your bottom (left) hand to gently press the sides flat.Now, rotate the triangle corner you just pressed toward you (clockwise, if you‘re right-handed). The tip of the second corner will now be pointing up. Repeat the above “press and rotate” steps to hand press the second triangle corner and then the third, always keeping your left hand on the bottom and your right hand on top. Press and rotate a final 2–3 more times to finish.\n"
+        'Now, firmly hand-press the rice balls to keep them from falling apart while grilling. For Yaki Onigiri, you‘ll want to press the rice ball a bit more tightly than you would a regular onigiri. First, moisten both palms with a bit of water to prevent the rice from sticking. Then, pick up a rice ball in your left (non-dominant) hand. Place your right (dominant) hand on top of the rice in a “mountain" shape and gently press the triangle corner. At the same time, squeeze the fingers and heel of your bottom (left) hand to gently press the sides flat.Now, rotate the triangle corner you just pressed toward you (clockwise, if you‘re right-handed). The tip of the second corner will now be pointing up. Repeat the above “press and rotate” steps to hand press the second triangle corner and then the third, always keeping your left hand on the bottom and your right hand on top. Press and rotate a final 2–3 more times to finish.\n'
         "In the image below, the top row is hand pressed while the bottom row is not.\n"
         "If you don‘t want to touch the rice with your hands, you can press the onigiri with plastic wrap. Place a piece of plastic wrap on the working surface, wet your fingers, and place the onigiri in the middle.\n"
         "Gather the corners of the plastic wrap and twist it a few times to tighten it around the rice. Form the rice into a triangle shape in the same manner that I described above.\n"
@@ -90,8 +91,8 @@ def test_instructions(self):
         "Form the rice into a triangle shape through the plastic in the same manner that I described above for hand-pressing the onigiri. Repeat with the remaining rice. Tip: To shape the onigiri with your hands the traditional way, see the step-by-step instructions and images in my Onigiri (Japanese Rice Balls) post.\n"
         "To Pan-Grill the Onigiri\n"
         "Combine 1 T",
-            self.harvester_class.instructions(),
-        )
+        self.harvester_class.instructions(),
+    )
 
     def test_ratings(self):
         self.assertEqual(4.67, self.harvester_class.ratings())
