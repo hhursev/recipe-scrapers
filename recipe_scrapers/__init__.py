@@ -87,7 +87,6 @@ from .forksoverknives import ForksOverKnives
 from .forktospoon import ForkToSpoon
 from .franzoesischkochen import FranzoesischKochen
 from .g750g import G750g
-from .geniuskitchen import GeniusKitchen
 from .gesundaktiv import GesundAktiv
 from .giallozafferano import GialloZafferano
 from .gimmesomeoven import GimmeSomeOven
@@ -104,7 +103,6 @@ from .handletheheat import HandleTheHeat
 from .hassanchef import HassanChef
 from .headbangerskitchen import HeadbangersKitchen
 from .heb import HEB
-from .heinzbrasil import HeinzBrasil
 from .hellofresh import HelloFresh
 from .herseyland import HerseyLand
 from .homechef import HomeChef
@@ -370,7 +368,6 @@ SCRAPERS = {
     ForksOverKnives.host(): ForksOverKnives,
     FranzoesischKochen.host(): FranzoesischKochen,
     G750g.host(): G750g,
-    GeniusKitchen.host(): GeniusKitchen,
     GialloZafferano.host(): GialloZafferano,
     GimmeSomeOven.host(): GimmeSomeOven,
     Globo.host(): Globo,
@@ -386,7 +383,6 @@ SCRAPERS = {
     HandleTheHeat.host(): HandleTheHeat,
     HassanChef.host(): HassanChef,
     HeadbangersKitchen.host(): HeadbangersKitchen,
-    HeinzBrasil.host(): HeinzBrasil,
     HelloFresh.host(): HelloFresh,
     HelloFresh.host(domain="at"): HelloFresh,
     HelloFresh.host(domain="be"): HelloFresh,

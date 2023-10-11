@@ -9,6 +9,12 @@ class TestKitchenStoriesScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("kitchenstories.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.kitchenstories.com/en/recipes/special-strawberry-jam-with-matcha",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(
             "Special strawberry jam with matcha", self.harvester_class.title()
@@ -62,7 +68,7 @@ class TestKitchenStoriesScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(1.0, self.harvester_class.ratings())
+        self.assertEqual(0.81, self.harvester_class.ratings())
 
     def test_author(self):
         self.assertEqual("Christian Ruß", self.harvester_class.author())

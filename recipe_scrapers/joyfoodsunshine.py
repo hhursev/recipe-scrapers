@@ -9,7 +9,7 @@ class Joyfoodsunshine(AbstractScraper):
         return "joyfoodsunshine.com"
 
     def author(self):
-        return self.soup.find("span", {"class": "entry-author-name"}).get_text()
+        return self.schema.author()
 
     def title(self):
         return self.soup.find("h2", {"class": "wprm-recipe-name"}).get_text()
@@ -25,8 +25,6 @@ class Joyfoodsunshine(AbstractScraper):
                 self.soup.find("span", {"class": "wprm-recipe-servings"}).text
             )
         )
-
-        return self.schema.ingredients()
 
     def image(self):
         # span class = wprm-recipe-image find src

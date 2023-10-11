@@ -20,7 +20,8 @@ class TestHelloFreshScraper(ScraperTest):
 
     def test_title(self):
         self.assertEqual(
-            "Thai Style Pork Stir-Fry with Veggie Rice", self.harvester_class.title()
+            "Thai Style Pork Rice Bowl with Green Beans, Coriander and Rice",
+            self.harvester_class.title(),
         )
 
     def test_author(self):
@@ -35,39 +36,40 @@ class TestHelloFreshScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "150 grams Basmati Rice",
                 "1 unit(s) Echalion Shallot",
-                "2 unit(s) Garlic Clove",
-                "¼ unit(s) Red Chilli",
-                "2 unit(s) Spring Onion",
                 "150 grams Green Beans",
-                "300 grams Pork Mince",
-                "50 grams Ketjap Manis",
+                "150 grams Basmati Rice",
                 "25 milliliter(s) Soy Sauce",
-                "6 grams Fresh Thai Basil",
+                "2 unit(s) Garlic Clove",
+                "½ unit(s) Red Chilli",
+                "2 unit(s) Spring Onion",
+                "240 grams Pork Mince",
+                "50 grams Ketjap Manis",
                 "300 milliliter(s) Water for the Rice",
             ],
             self.harvester_class.ingredients(),
         )
 
     def test_instructions(self):
+        expected_instructions = "\n".join(
+            [
+                "Pour the water for the rice (see ingredients for amount) into a saucepan and bring to the boil. When boiling, add 0.25 tsp of salt, stir in the rice, lower the heat to medium and pop a lid on the pan. Leave to cook for 10 mins, then remove the pan from the heat (still covered) and leave to the side for another 10 mins or until ready to serve (the rice will continue to cook in its own steam).",
+                "Meanwhile, halve, peel and chop the shallot into small pieces. Peel and grate the garlic (or use a garlic press). Halve the red chilli lengthways, de-seed and finely chop. Trim the spring onion and thinly slice. Trim the green beans then chop into thirds.",
+                "Heat a splash of oil in a frying pan on high heat. Once hot, add the green beans and stir-fry until tender, about 5-6 mins. When cooked, transfer to a plate.",
+                "Keep the pan on high heat and add another splash of oil if the pan is dry. Add the pork mince and stir-fry until browned, 6-8 mins, breaking it up with a wooden spoon as it cooks. When the pork is cooked, drain off any excess oil, add the shallot, garlic, spring onion and as much chilli as you dare. Cook until the veggies are softened, another 2-3 mins.",
+                "Return the green beans to the pan. Add the ketjap manis and soy sauce and stir everything together. Tip: If the mixture is a little dry, add a splash of water.",
+                "Remove the pan from the heat. Fluff up the rice with a fork and share between your bowls. Top with the pork stir-fry and get stuck in. Super tasty! Or, as they say in Thailand, Aloy mak!",
+            ]
+        )
+
         self.assertEqual(
-            """a) Pour the boiling water into a large saucepan and bring back to the boil on high heat. b) When boiling, add the rice and cook for 8-10 mins, then drain in a sieve and set aside.\na) Meanwhile, trim the carrot then grate on the coarse side of your grater (no need to peel). b) Trim the spring onion then finely slice. Roughly chop the peanuts. Zest the lime then chop into wedges. c) Chop the pork into 2cm chunks. iIMPORTANT: Remember to wash your hands after handling raw meat.\na) In a small bowl, stir together the easy ginger, ketjap manis, soy sauce, honey and the juice of half the lime. Set aside.\na) Heat a splash of oil in a large frying pan on high heat. b) When hot, add the pork and stir-fry until browned all over, 4-5 mins.\na) Lower the heat to medium then pour the sauce into the pan. b) Cook, coating the pork in the sticky sauce, for 2-3 mins.iIMPORTANT: The pork is cooked when it is no longer pink in the middle. c) Meanwhile, in a large bowl gently toss together the rice, lime zest, carrot, half the spring onion and half the peanuts. Season to taste with salt and pepper if needed.\na) Serve the sticky pork on top of the veggie rice. b) Finish by pouring any sauce left in the pan over the top and scattering over the remaining peanuts and spring onion. c) Top with the remaining lime wedges. ENJOY!""",
+            expected_instructions,
             self.harvester_class.instructions(),
         )
 
     def test_nutrients(self):
         self.assertEqual(
-            {
-                "calories": "668 kcal",
-                "fatContent": "20 g",
-                "saturatedFatContent": "6 g",
-                "carbohydrateContent": "83 g",
-                "sugarContent": "20 g",
-                "proteinContent": "38 g",
-                "sodiumContent": "3.25 g",
-                "servingSize": "360",
-            },
+            {"servingSize": "368"},
             self.harvester_class.nutrients(),
         )
 

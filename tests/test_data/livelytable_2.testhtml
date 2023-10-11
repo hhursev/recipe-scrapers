@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-<!-- Grow Social by Mediavine v.2.16.3 https://marketplace.mediavine.com/grow-social-pro/ -->
+<!-- Grow Social by Mediavine v.2.16.4 https://marketplace.mediavine.com/grow-social-pro/ -->
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="The Easiest Chipotle Shrimp Tacos" />
@@ -23,9 +23,9 @@
 <meta property="og:image:height" content="1200" />
 <meta property="article:author" content="https://www.facebook.com/livelytable" />
 <meta name="twitter:creator" content="@LivelyTable" />
-<!-- Grow Social by Mediavine v.2.16.3 https://marketplace.mediavine.com/grow-social-pro/ -->
+<!-- Grow Social by Mediavine v.2.16.4 https://marketplace.mediavine.com/grow-social-pro/ -->
 
-	<!-- This site is optimized with the Yoast SEO Premium plugin v18.9 (Yoast SEO v20.10) - https://yoast.com/wordpress/plugins/seo/ -->
+	<!-- This site is optimized with the Yoast SEO Premium plugin v18.9 (Yoast SEO v21.1) - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>The Easiest Chipotle Shrimp Tacos - Lively Table</title>
 	<meta name="description" content="These easy chipotle shrimp tacos with a quick cilantro jalapeño sauce are flavorful, healthy and come together in just 15 minutes! They&#039;re perfect for weeknight dinners! (gluten-free)" />
 	<link rel="canonical" href="https://livelytable.com/easy-chipotle-shrimp-tacos/" />
@@ -51,7 +51,32 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
 </style>
-<link rel='stylesheet' id='dpsp-frontend-style-pro-css' href='https://livelytable.com/wp-content/plugins/social-pug/assets/dist/style-frontend-pro.2.16.3.css?ver=2.16.3' type='text/css' media='all' />
+<style id='feast-global-styles-inline-css' type='text/css'>
+.feast-social-media {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	column-gap: 18px;
+	row-gap: 9px;
+	width: 100%;
+	padding: 27px 0;
+}
+.feast-social-media a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 12px;
+}
+@media(max-width:600px) {
+	.feast-social-media a {
+		min-height: 50px;
+		min-width: 50px;
+	}
+}
+
+</style>
+<link rel='stylesheet' id='dpsp-frontend-style-pro-css' href='https://livelytable.com/wp-content/plugins/social-pug/assets/dist/style-frontend-pro.2.16.4.css?ver=2.16.4' type='text/css' media='all' />
 <style id='dpsp-frontend-style-pro-inline-css' type='text/css'>
 
 				@media screen and ( max-width : 720px ) {
@@ -247,27 +272,33 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 	.bypostauthor .comment-author-name { color: unset; }
 	.comment-list article header { overflow: auto; }
 	.fsri-rating .wprm-recipe-rating { pointer-events: none; }
-	nav#breadcrumbs { margin: 5px 0 15px; }</style><!-- HFCM by 99 Robots - Snippet # 2: Pinterest Verify -->
+	nav#breadcrumbs { margin: 5px 0 15px; }</style><style type="text/css" id='feastbreadcrumbstylesoverride'>
+@media only screen and (max-width: 940px) {
+	nav#breadcrumbs {
+		display: block;
+	}
+}
+</style><!-- HFCM by 99 Robots - Snippet # 2: Pinterest Verify -->
 <meta name="p:domain_verify" content="05977169f7f0e4db353a4b65eba95024"/>
 <!-- /end HFCM by 99 Robots -->
 <!-- HFCM by 99 Robots - Snippet # 4: Mediavine -->
-<script>
-(function(){function t(){for(var a=[8],e=1;2>=e;e++)a.push(8+e),a.push(8-e);a=a[Math.floor(Math.random()*a.length)];return{b:a,a:0==Math.floor(Math.random()*a)}}function g(a){var e=a=a.replace(":","");try{for(var b=0;100>b&&(a=decodeURIComponent(a),e!=a)&&!a.match(/^http(s)?\:/);b++)e=a}catch(c){}return a.replace(/(^\s+|\s+$)/g,"")}try{if(!location||!location.hostname||!location.pathname)return!1;var c=document.location.hostname.replace(/^www\./,""),u=function(){for(var a,b=document.getElementsByTagName("meta"),
-c,d=0,f=b.length;d<f;d++)if(c=b[d],"og:title"===c.getAttribute("property")){a=c.getAttribute("content");break}a||(a=document.title||"Untitled");return a}(),b={},b=function(a,b,c){a.l1=b;a.l2=c;a.l3="__page__";a.l4="-";return a}(b,c,u),h=(new Date).getTime(),k=Math.floor(Math.random()*Math.pow(10,12)),l,d;d=t();l=d.a?d.b:0;b.zmoatab_cm=l;b.t=h;b.de=k;b.zMoatAB_SNPT=!0;var m;m=l?l:1;var n;n=d?d.a?!0:!1:!0;var c=[],v=(new Date).getTime().toString(35),p=[g(b.l1),g(b.l2),g(b.l3),g(b.l4)].join(":"),w="https://j87vdqof2788-a.akamaihd.net/"+
-v+".gif?e=17&d="+encodeURIComponent(p)+"&de="+k+"&t="+h+"&i=AHAOLOGYCONTENT1&cm="+m+"&mp=1&ac=1&pl=1&bq=10&vc=2&cs=0",x="https://px.moatads.com/pixel.gif?e=17&d="+encodeURIComponent(p)+"&de="+k+"&t="+h+"&i=AHAOLOGYCONTENT1&cm="+m+"&mp=0&ac=1&pl=1&bq=10&ad_type=img&vc=2&cs=0",y="https://px.moatads.com/pixel.gif?e=17&d="+encodeURIComponent(p)+"&de="+k+"&t="+h+"&i=AHAOLOGYCONTENT1&cm="+m+"&ku=1&ac=1&pl=1&bq=10&ad_type=img&vc=2&cs=0";n&&((new Image).src=w,(new Image).src=x);for(var q in b)c.push(q+"="+
-encodeURIComponent(b[q]));var c=c.join("&"),c=c+"&vc=2",f=document.createElement("script");f.type="text/javascript";f.async=!0;n&&(f.onerror=function(){(new Image).src=y});var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(f,r);f.src="https://z.moatads.com/ahaologycontent998575342/moatcontent.js#"+c}catch(a){try{var z="//pixel.moatads.com/pixel.gif?e=24&d=data%3Adata%3Adata%3Adata&i=MOATCONTENTABSNIPPET1&vc=2&ac=1&k="+encodeURIComponent(a)+"&j="+encodeURIComponent(document.referrer)+
-"&cs="+(new Date).getTime();(new Image).src=z}catch(e){}}})();
+<script>
+(function(){function t(){for(var a=[8],e=1;2>=e;e++)a.push(8+e),a.push(8-e);a=a[Math.floor(Math.random()*a.length)];return{b:a,a:0==Math.floor(Math.random()*a)}}function g(a){var e=a=a.replace(":","");try{for(var b=0;100>b&&(a=decodeURIComponent(a),e!=a)&&!a.match(/^http(s)?\:/);b++)e=a}catch(c){}return a.replace(/(^\s+|\s+$)/g,"")}try{if(!location||!location.hostname||!location.pathname)return!1;var c=document.location.hostname.replace(/^www\./,""),u=function(){for(var a,b=document.getElementsByTagName("meta"),
+c,d=0,f=b.length;d<f;d++)if(c=b[d],"og:title"===c.getAttribute("property")){a=c.getAttribute("content");break}a||(a=document.title||"Untitled");return a}(),b={},b=function(a,b,c){a.l1=b;a.l2=c;a.l3="__page__";a.l4="-";return a}(b,c,u),h=(new Date).getTime(),k=Math.floor(Math.random()*Math.pow(10,12)),l,d;d=t();l=d.a?d.b:0;b.zmoatab_cm=l;b.t=h;b.de=k;b.zMoatAB_SNPT=!0;var m;m=l?l:1;var n;n=d?d.a?!0:!1:!0;var c=[],v=(new Date).getTime().toString(35),p=[g(b.l1),g(b.l2),g(b.l3),g(b.l4)].join(":"),w="https://j87vdqof2788-a.akamaihd.net/"+
+v+".gif?e=17&d="+encodeURIComponent(p)+"&de="+k+"&t="+h+"&i=AHAOLOGYCONTENT1&cm="+m+"&mp=1&ac=1&pl=1&bq=10&vc=2&cs=0",x="https://px.moatads.com/pixel.gif?e=17&d="+encodeURIComponent(p)+"&de="+k+"&t="+h+"&i=AHAOLOGYCONTENT1&cm="+m+"&mp=0&ac=1&pl=1&bq=10&ad_type=img&vc=2&cs=0",y="https://px.moatads.com/pixel.gif?e=17&d="+encodeURIComponent(p)+"&de="+k+"&t="+h+"&i=AHAOLOGYCONTENT1&cm="+m+"&ku=1&ac=1&pl=1&bq=10&ad_type=img&vc=2&cs=0";n&&((new Image).src=w,(new Image).src=x);for(var q in b)c.push(q+"="+
+encodeURIComponent(b[q]));var c=c.join("&"),c=c+"&vc=2",f=document.createElement("script");f.type="text/javascript";f.async=!0;n&&(f.onerror=function(){(new Image).src=y});var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(f,r);f.src="https://z.moatads.com/ahaologycontent998575342/moatcontent.js#"+c}catch(a){try{var z="//pixel.moatads.com/pixel.gif?e=24&d=data%3Adata%3Adata%3Adata&i=MOATCONTENTABSNIPPET1&vc=2&ac=1&k="+encodeURIComponent(a)+"&j="+encodeURIComponent(document.referrer)+
+"&cs="+(new Date).getTime();(new Image).src=z}catch(e){}}})();
 </script>
 <!-- /end HFCM by 99 Robots -->
 <!-- HFCM by 99 Robots - Snippet # 9: GA4 Tag -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HX5EG76JTS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-HX5EG76JTS');
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HX5EG76JTS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HX5EG76JTS');
 </script>
 <!-- /end HFCM by 99 Robots -->
 		<script type="text/javascript" async defer data-pin-color="red" 
@@ -785,14 +816,14 @@ background-color: #f2f2f2;
 	<li id="menu-item-186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-186"><a href="https://livelytable.com/about/contact/"><span >Contact</span></a></li>
 </ul>
 </li>
-<li id="feast-search" class="feast-search menu-item"><form class="search-form" method="get" action="https://livelytable.com/" role="search"><label class="search-form-label screen-reader-text" for="searchform-1">Search</label><input class="search-form-input" type="search" name="s" id="searchform-1" placeholder="Search"><input class="search-form-submit" type="submit" value="Search"><meta content="https://livelytable.com/?s={s}"></form></li></ul></div></nav><header class="site-header"><div class="wrap"><div class="title-area"><p class="site-title"><a href="https://livelytable.com/" title="Lively Table" ><img src="https://livelytable.com/wp-content/uploads/2022/06/Lively-Table-Logo-360width-02.png" title="Lively Table" alt="Lively Table logo" data-pin-nopin="true" /></a></p></div></div></header><div class="feastmobilenavbar"><div class="feastmenutoggle"><a href="#feastmobilemenu"><?xml version="1.0" encoding="iso-8859-1"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Capa_1" xmlns="//www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 459 459" style="enable-background:new 0 0 459 459;" xml:space="preserve" aria-labelledby="menuicon" role="img">
-	<title id="menuicon">menu icon</title>
-	<g id="menu">
-		<path fill="currentColor" d="M0,382.5h459v-51H0V382.5z M0,255h459v-51H0V255z M0,76.5v51h459v-51H0z"/>
-	</g>
-</svg>
+<li id="feast-search" class="feast-search menu-item"><form class="search-form" method="get" action="https://livelytable.com/" role="search"><label class="search-form-label screen-reader-text" for="searchform-1">Search</label><input class="search-form-input" type="search" name="s" id="searchform-1" placeholder="Search"><input class="search-form-submit" type="submit" value="Search"><meta content="https://livelytable.com/?s={s}"></form></li></ul></div></nav><header class="site-header"><div class="wrap"><div class="title-area"><p class="site-title"><a href="https://livelytable.com/" title="Lively Table" ><img src="https://livelytable.com/wp-content/uploads/2022/06/Lively-Table-Logo-360width-02.png" title="Lively Table" alt="Lively Table logo" data-pin-nopin="true" /></a></p></div></div></header><div class="feastmobilenavbar"><div class="feastmenutoggle"><a href="#feastmobilemenu"><?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="//www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 459 459" style="enable-background:new 0 0 459 459;" xml:space="preserve" aria-labelledby="menuicon" role="img">
+	<title id="menuicon">menu icon</title>
+	<g id="menu">
+		<path fill="currentColor" d="M0,382.5h459v-51H0V382.5z M0,255h459v-51H0V255z M0,76.5v51h459v-51H0z"/>
+	</g>
+</svg>
 </a></div><div class="feastmenulogo"><a href="https://livelytable.com"><img src="https://livelytable.com/wp-content/uploads/2022/06/LT-03-200x70-1.png" srcset="https://livelytable.com/wp-content/uploads/2022/06/LT-05-400x140-1.png 2x" alt="go to homepage" data-skip-lazy data-pin-nopin="true" height="70" width="200" /></a></div><div class="feastsearchtoggle"><a href="#feastmobilemenu"><svg xmlns="//www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink" xml:space="preserve" xmlns:svg="//www.w3.org/2000/svg" version="1.1" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 100 100" aria-labelledby="searchicon" role="img">
   <title id="searchicon">search icon</title>
   <g transform="translate(0,-952.36218)">
@@ -839,7 +870,7 @@ background-color: #f2f2f2;
 	</a></li>
 
 <li class="dpsp-network-list-item dpsp-network-list-item-email" style="float:left">
-	<a rel="nofollow noopener" href="/cdn-cgi/l/email-protection#09367a7c6b636c6a7d34617d7d797a2c3a482c3b4f2c3b4f65607f6c65707d686b656c276a66642c3b4f6c687a70246a616079667d656c247a617b606479247d686a667a2c3b4f2f686479326b666d70345d616c2c3b394c687a606c7a7d2c3b394a616079667d656c2c3b395a617b6064792c3b395d686a667a" class="dpsp-network-btn dpsp-email dpsp-no-label dpsp-last" target="_blank" aria-label="Send over email" title="Send over email" style="font-size:14px;padding:0rem;max-height:32px">	<span class="dpsp-network-icon ">
+	<a rel="nofollow noopener" href="/cdn-cgi/l/email-protection#ead5999f88808f899ed7829e9e9a99cfd9abcfd8accfd8ac86839c8f86939e8b88868fc4898587cfd8ac8f8b9993c78982839a859e868fc799829883879ac79e8b898599cfd8accc8b879ad188858e93d7be828fcfd8daaf8b99838f999ecfd8daa982839a859e868fcfd8dab9829883879acfd8dabe8b898599" class="dpsp-network-btn dpsp-email dpsp-no-label dpsp-last" target="_blank" aria-label="Send over email" title="Send over email" style="font-size:14px;padding:0rem;max-height:32px">	<span class="dpsp-network-icon ">
 		<span class="dpsp-network-icon-inner"></span>
 	</span>
 	</a></li>
@@ -1238,7 +1269,7 @@ background-color: #f2f2f2;
 	</a></li>
 
 <li class="dpsp-network-list-item dpsp-network-list-item-email" style="float:left">
-	<a rel="nofollow noopener" href="/cdn-cgi/l/email-protection#99a6eaecfbf3fcfaeda4f1edede9eabcaad8bcabdfbcabdff5f0effcf5e0edf8fbf5fcb7faf6f4bcabdffcf8eae0b4faf1f0e9f6edf5fcb4eaf1ebf0f4e9b4edf8faf6eabcabdfbff8f4e9a2fbf6fde0a4cdf1fcbcaba9dcf8eaf0fceaedbcaba9daf1f0e9f6edf5fcbcaba9caf1ebf0f4e9bcaba9cdf8faf6ea" class="dpsp-network-btn dpsp-email dpsp-no-label dpsp-last" target="_blank" aria-label="Send over email" title="Send over email" style="font-size:14px;padding:0rem;max-height:32px">	<span class="dpsp-network-icon ">
+	<a rel="nofollow noopener" href="/cdn-cgi/l/email-protection#4c733f392e26292f38712438383c3f697f0d697e0a697e0a20253a292035382d2e2029622f2321697e0a292d3f35612f24253c23382029613f243e25213c61382d2f233f697e0a6a2d213c772e23283571182429697e7c092d3f25293f38697e7c0f24253c23382029697e7c1f243e25213c697e7c182d2f233f" class="dpsp-network-btn dpsp-email dpsp-no-label dpsp-last" target="_blank" aria-label="Send over email" title="Send over email" style="font-size:14px;padding:0rem;max-height:32px">	<span class="dpsp-network-icon ">
 		<span class="dpsp-network-icon-inner"></span>
 	</span>
 	</a></li>
@@ -1513,7 +1544,7 @@ thanks , Em</p>
 <p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
 <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='4946' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="ff5badf077" /></p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="98"/><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="1ea9ae69a3" /></p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="25"/><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
 	</main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" id="genesis-sidebar-primary"><h2 class="genesis-sidebar-title screen-reader-text">Primary Sidebar</h2><div class="feast-modern-sidebar">
 <h3 class="has-text-align-center has-white-color has-text-color has-background has-medium-font-size wp-block-heading" id="h-trending" style="background-color:#34ba84;text-transform:uppercase">Trending</h3>
 
@@ -1607,7 +1638,7 @@ thanks , Em</p>
 	</a></li>
 
 <li class="dpsp-network-list-item dpsp-network-list-item-email">
-	<a rel="nofollow noopener" href="/cdn-cgi/l/email-protection#7b44080e19111e180f46130f0f0b085e483a5e493d5e493d17120d1e17020f1a19171e551814165e493d1e1a0802561813120b140f171e5608130912160b560f1a1814085e493d5d1a160b4019141f02462f131e5e494b3e1a08121e080f5e494b3813120b140f171e5e494b28130912160b5e494b2f1a181408" class="dpsp-network-btn dpsp-email dpsp-no-label dpsp-last" target="_blank" aria-label="Send over email" title="Send over email">	<span class="dpsp-network-icon ">
+	<a rel="nofollow noopener" href="/cdn-cgi/l/email-protection#d4eba7a1b6beb1b7a0e9bca0a0a4a7f1e795f1e692f1e692b8bda2b1b8ada0b5b6b8b1fab7bbb9f1e692b1b5a7adf9b7bcbda4bba0b8b1f9a7bca6bdb9a4f9a0b5b7bba7f1e692f2b5b9a4efb6bbb0ade980bcb1f1e6e491b5a7bdb1a7a0f1e6e497bcbda4bba0b8b1f1e6e487bca6bdb9a4f1e6e480b5b7bba7" class="dpsp-network-btn dpsp-email dpsp-no-label dpsp-last" target="_blank" aria-label="Send over email" title="Send over email">	<span class="dpsp-network-icon ">
 		<span class="dpsp-network-icon-inner"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 28 32"><path d="M18.56 17.408l8.256 8.544h-25.248l8.288-8.448 4.32 4.064zM2.016 6.048h24.32l-12.16 11.584zM20.128 15.936l8.224-7.744v16.256zM0 24.448v-16.256l8.288 7.776z"></path></svg></span>
 	</span>
 	</a></li>
@@ -1624,7 +1655,7 @@ jQuery(document).ready(function(){jQuery(".is-cropped img").each(function(){jQue
 		var dpsp_pin_button_data = {"pin_description_source":"post_pinterest_description","pinterest_pinnable_images":"post_images","pinterest_button_share_behavior":"post_image","post_pinterest_image_hidden":"yes","post_multiple_hidden_pinterest_images":"yes","lazy_load_compatibility":"yes","pinterest_title":"THE EASIEST CHIPOTLE SHRIMP TACOS (gluten free)","pinterest_description":"These easy chipotle shrimp tacos with a quick cilantro jalape\u00f1o sauce are flavorful, healthy and come together in just 15 minutes! They're perfect for weeknight dinners! (#glutenfree) #shrimptacos #tacotuesday #healthyshrimptacos #chipotleshrimptacos #healthytacorecipes #easytacorecipes #weeknightdinners #15minutemeals #glutenfreetacos #healthytacos #shrimptacorecipe #easyhealthydinner #texmex #mexicanfood #cincodemayorecipes #cincodemayo #seafoodrecpies #easyseafoodrecipe","pinterest_image_url":"https:\/\/livelytable.com\/wp-content\/uploads\/2017\/05\/easy-chipotle-shrimp-tacos.jpg"}
 	
 </script>
-<script type='text/javascript' async data-noptimize src='https://livelytable.com/wp-content/plugins/social-pug/assets/dist/front-end-pro.2.16.3.js?ver=2.16.3' id='dpsp-frontend-js-pro-js'></script>
+<script type='text/javascript' async data-noptimize src='https://livelytable.com/wp-content/plugins/social-pug/assets/dist/front-end-pro.2.16.4.js?ver=2.16.4' id='dpsp-frontend-js-pro-js'></script>
 <script type='text/javascript' src='https://livelytable.com/wp-includes/js/comment-reply.min.js?ver=6.2.2' id='comment-reply-js'></script>
 <script type='text/javascript' src='https://livelytable.com/wp-content/themes/genesis/lib/js/skip-links.min.js?ver=3.4.0' id='skip-links-js'></script>
 <script type='text/javascript' src='https://livelytable.com/wp-content/plugins/wp-featherlight/js/wpFeatherlight.pkgd.min.js?ver=1.3.4' id='wp-featherlight-js'></script>
