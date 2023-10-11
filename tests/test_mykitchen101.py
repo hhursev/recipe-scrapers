@@ -9,6 +9,12 @@ class TestMyKitchen101Scraper(ScraperTest):
     def test_host(self):
         self.assertEqual("mykitchen101.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://mykitchen101.com/%E5%8F%A4%E6%97%A9%E5%91%B3%E8%BF%B7%E4%BD%A0%E7%83%A4%E9%B8%A1%E8%9B%8B%E7%B3%95/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("清闲廚房 团队", self.harvester_class.author())
 

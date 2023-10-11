@@ -9,6 +9,12 @@ class TestPopSugarScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("popsugar.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.popsugar.com/Rainbow-Pasta-42193636",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual("Rainbow Pasta", self.harvester_class.title())
 

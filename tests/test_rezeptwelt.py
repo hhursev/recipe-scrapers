@@ -9,6 +9,12 @@ class TestRezeptweltScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("rezeptwelt.de", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.rezeptwelt.de/vorspeisensalate-rezepte/italienischer-nudelsalat/wbtt7xp3-9544c-831497-cfcd2-6bis4hp6",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Thermomix Rezeptentwicklung", self.harvester_class.author())
 

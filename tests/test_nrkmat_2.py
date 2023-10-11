@@ -13,6 +13,12 @@ class TestNRKMatScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("nrk.no", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.nrk.no/mat/kikertsuppe-med-eple-og-karri--1.14384193",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual(
             "Rolf Tikkanen Øygarden i Sørlandssendinga/NRK P1",

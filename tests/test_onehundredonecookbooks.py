@@ -9,6 +9,12 @@ class TestOneHundredOneCookBooksScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("101cookbooks.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.101cookbooks.com/broccoli-soup-with-coconut-milk/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Heidi Swanson", self.harvester_class.author())
 

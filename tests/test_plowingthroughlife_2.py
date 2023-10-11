@@ -12,6 +12,12 @@ class TestPlowingThroughLifeScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("plowingthroughlife.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://plowingthroughlife.com/canned-cinnamon-rolls-with-heavy-cream/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual(
             "Jennifer @ Plowing Through Life", self.harvester_class.author()

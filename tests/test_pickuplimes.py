@@ -11,6 +11,12 @@ class TestPickUpLimesScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("pickuplimes.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.pickuplimes.com/recipe/vegan-honey-mustard-tofu-wraps-1448",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_site_name(self):
         self.assertEqual("Pick Up Limes", self.harvester_class.site_name())
 

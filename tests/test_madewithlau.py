@@ -9,6 +9,12 @@ class TestMadeWithLauScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("madewithlau.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.madewithlau.com/recipes/salt-pepper-tofu",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Made With Lau", self.harvester_class.author())
 

@@ -11,6 +11,12 @@ class TestProjectGezondScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("projectgezond.nl", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.projectgezond.nl/boeuf-bourguignon/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Project Gezond", self.harvester_class.author())
 

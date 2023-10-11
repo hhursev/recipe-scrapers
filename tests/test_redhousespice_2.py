@@ -9,6 +9,12 @@ class TestRedHouseSpiceScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("redhousespice.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://redhousespice.com/smashed-cucumber/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Wei Guo", self.harvester_class.author())
 

@@ -9,6 +9,12 @@ class TestPingoDoceScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("pingodoce.pt", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.pingodoce.pt/receitas/arroz-de-tamboril/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual("Arroz de tamboril", self.harvester_class.title())
 

@@ -11,6 +11,12 @@ class TestRutgerBaktScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("rutgerbakt.nl", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://rutgerbakt.nl/sinterklaas-recepten/recept-banketstaaf/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Rutger van den Broek", self.harvester_class.author())
 

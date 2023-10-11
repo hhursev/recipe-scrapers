@@ -11,6 +11,12 @@ class TestMinistryOfCurryScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("ministryofcurry.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://ministryofcurry.com/slow-cooker-chicken-tikka-masala/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(
             "Slow Cooker EASY Chicken Tikka Masala", self.harvester_class.title()

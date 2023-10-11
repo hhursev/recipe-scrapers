@@ -12,6 +12,12 @@ class TestNumber2PencilScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("number-2-pencil.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.number-2-pencil.com/one-sheet-pan-shrimp-fajitas/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Melissa", self.harvester_class.author())
 

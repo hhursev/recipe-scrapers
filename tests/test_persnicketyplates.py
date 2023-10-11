@@ -11,6 +11,12 @@ class TestPersnicketyPlatesScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("persnicketyplates.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.persnicketyplates.com/slow-cooker-hawaiian-meatballs/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Melissa Williams", self.harvester_class.author())
 
