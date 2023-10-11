@@ -63,6 +63,3 @@ class UitPaulinesKeukenNL(AbstractScraper):
             .find_next()
             .get_text()
         )
-
-    def language(self):
-        return "nl-NL"
