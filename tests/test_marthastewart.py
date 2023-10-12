@@ -39,13 +39,13 @@ class TestMarthaStewart(ScraperTest):
             
                 "3 large eggs",
                 "Coarse salt",
-                "1/3 cup all-purpose flour",
-                "3 1/2 cups fresh breadcrumbs",
+                "0.333 cup all-purpose flour",
+                "3.5 cups fresh breadcrumbs",
                 "1 cup vegetable oil",
-                "8 thin chicken cutlets (about 1 1/2 pounds total)",
+                "8 thin chicken cutlets (about 1 ½ pounds total)",
                 "Lemon wedges, for serving (optional)",
             ],
-            set(self.harvester_class.ingredients()),
+            (self.harvester_class.ingredients()),
         )
 
     def test_instructions(self):
