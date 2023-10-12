@@ -70,7 +70,7 @@ class TestMaangchiScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(5.0, self.harvester_class.ratings())
+        self.assertEqual(5, self.harvester_class.ratings())
 
     def test_cuisine(self):
         self.assertEqual("Korean", self.harvester_class.cuisine())
