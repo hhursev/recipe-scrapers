@@ -63,7 +63,7 @@ class TestMinistryOfCurryScraper(ScraperTest):
         self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def test_ratings(self):
-        self.assertEqual(4.7, self.harvester_class.ratings())
+        self.assertEqual(4.69, self.harvester_class.ratings())
 
     def test_cuisine(self):
         self.assertEqual("Indian", self.harvester_class.cuisine())

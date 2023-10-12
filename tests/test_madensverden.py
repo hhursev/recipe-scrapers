@@ -57,7 +57,7 @@ class TestMadensVerdenScraper(ScraperTest):
                 "400 gram rabarber",
                 "75 gram sukker",
                 "10 gram vaniljesukker",
-                "2 pasteuriserede æggeblommer (1 bæger)",
+                "2 pasteuriserede æggeblommer",
                 "40 gram sukker",
                 "10 gram majsstivelse",
                 "2,5 deciliter sødmælk",
@@ -75,7 +75,7 @@ class TestMadensVerdenScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.77, self.harvester_class.ratings())
+        self.assertEqual(4.72, self.harvester_class.ratings())
 
     def test_author(self):
         self.assertEqual("Holger Rørby Madsen", self.harvester_class.author())

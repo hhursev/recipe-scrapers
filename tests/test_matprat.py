@@ -31,7 +31,7 @@ class TestMatprat(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://images.matprat.no/dxgehtetqy",
+            "https://images.matprat.no/xftestavbe",
             self.harvester_class.image(),
         )
 
@@ -48,7 +48,7 @@ class TestMatprat(ScraperTest):
                 "1 ss rapsolje eller sennepsolje",
                 "100 g cashewnøtter",
                 "8 stk. tomat",
-                "2 ss olje",
+                "2 ss nøytral olje",
                 "4 båter finhakket hvitløk",
                 "0,5 ss revet frisk ingefær",
                 "0,5 ss chilipulver (helst indisk)",
@@ -70,4 +70,4 @@ class TestMatprat(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(5, self.harvester_class.ratings())
+        self.assertEqual(4.82, self.harvester_class.ratings())
