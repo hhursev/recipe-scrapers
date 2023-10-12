@@ -11,7 +11,7 @@ class TestMonsieurCuisineScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://fr.monsieur-cuisine.com/en/recipe/guacamole-3",
+            "https://www.monsieur-cuisine.com/fr/recettes/detail/guacamole-2/",
             self.harvester_class.canonical_url(),
         )
 
@@ -29,7 +29,7 @@ class TestMonsieurCuisineScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://mc-web-content-cdn.tecpal.com/wp-content/uploads/2021/02/25232107/24398rezeptfoto.jpg",
+            "https://www.monsieur-cuisine.com/fileadmin/_processed_/e/8/csm_23055_Rezeptfoto_01_2fae43be2a.jpg",
             self.harvester_class.image(),
         )
 

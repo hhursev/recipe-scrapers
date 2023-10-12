@@ -19,14 +19,14 @@ class TestMyKitchen101Scraper(ScraperTest):
         self.assertEqual("清闲廚房 团队", self.harvester_class.author())
 
     def test_title(self):
-        self.assertEqual("可爱古早味迷你烤鸡蛋糕- 适合任何场合", self.harvester_class.title())
+        self.assertEqual("古早味迷你烤鸡蛋糕", self.harvester_class.title())
 
     def test_yields(self):
         self.assertEqual("30 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
-            "https://mykitchen101.com/wp-content/uploads/2020/11/mini-baked-egg-sponge-cake-mykitchen101-feature.jpg",
+            "https://mykitchen101.com/wp-content/uploads/2020/11/mini-baked-egg-sponge-cake-mykitchen101-feature1.jpg",
             self.harvester_class.image(),
         )
 
