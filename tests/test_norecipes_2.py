@@ -20,7 +20,7 @@ class TestNoRecipesScraper(ScraperTest):
         )
 
     def test_author(self):
-        self.assertEqual("Marc", self.harvester_class.author())
+        self.assertEqual("Marc Matsumoto", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual("Best Orange Chicken", self.harvester_class.title())
@@ -109,7 +109,7 @@ class TestNoRecipesScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.39, self.harvester_class.ratings())
+        self.assertEqual(4.43, self.harvester_class.ratings())
 
     def test_cuisine(self):
         self.assertEqual("Best,Chinese-American", self.harvester_class.cuisine())
