@@ -38,7 +38,7 @@ class TestReishungerScraper(ScraperTest):
         self.assertEqual(
             [
                 "200 gr Bio Basmati Reis",
-                "50 ml Bio Erdnuss Sauce",
+                "50 ml Erdnuss Sauce",
                 "200 gr Tofu",
                 "etwas Paniermehl",
                 "etwas Mehl",
