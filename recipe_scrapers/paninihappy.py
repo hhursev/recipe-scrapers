@@ -23,7 +23,6 @@ class PaniniHappy(AbstractScraper):
             img_tag = div_hrecipe.find("img", {"loading": "lazy"})
             if img_tag and "src" in img_tag.attrs:
                 return img_tag["src"]
-        return None
 
     def ingredients(self):
         ingredients = self.soup.findAll("li", {"class": "ingredient"})
