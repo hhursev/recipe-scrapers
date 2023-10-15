@@ -40,7 +40,7 @@ class TestMarmitonScraper(ScraperTest):
                 "1 feuille de laurier",
                 "poivre",
                 "sel",
-                "3 gousses d'ail"
+                "3 gousses d'ail",
             ],
             self.harvester_class.ingredients(),
         )

@@ -44,7 +44,7 @@ class TestMotherThymeScraper(ScraperTest):
                 "1 ounce cream cheese (softened)",
                 "1 tablespoon milk",
                 "1/8 teaspoon vanilla extract",
-                '5 tablespoons confectioners’ sugar',
+                "5 tablespoons confectioners’ sugar",
             ],
             self.harvester_class.ingredients(),
         )
