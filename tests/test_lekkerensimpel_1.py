@@ -2,9 +2,10 @@ from recipe_scrapers.lekkerensimpel import LekkerEnSimpel
 from tests import ScraperTest
 
 
-class TestLekkerEnSimpelScraper(ScraperTest):
+class TestLekkerEnSimpelScraper1(ScraperTest):
 
     scraper_class = LekkerEnSimpel
+    test_file_name = "lekkerensimpel_1"
 
     def test_host(self):
         self.assertEqual("lekkerensimpel.com", self.harvester_class.host())
