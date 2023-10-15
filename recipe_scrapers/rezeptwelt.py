@@ -32,13 +32,11 @@ class Rezeptwelt(AbstractScraper):
 
     def instructions(self):
         content = self.soup.find("ol", {"itemprop": "recipeInstructions"}).findAll(
-            "div", {"itemprop": "itemListElement"}
+            "span", {"itemprop": "text"}
         )
         res = ""
-        for i in content:
-            steps = i.findAll("span", {"itemprop": "text"})
-            for step in steps:
-                res += normalize_string(step.text) + "\n"
+        for step in content:
+            res += normalize_string(step.text) + "\n"
         return res
 
     def ratings(self):

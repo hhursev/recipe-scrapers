@@ -20,7 +20,7 @@ class TestRealSimpleScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://www.realsimple.com/thmb/EFNZU3tZG_O0FvomS1ExHzse4qI=/300x300/smart/filters:no_upscale()/classic-cheesecake_300-70617627cf5f4f5eae7f1a11018713ec.jpg",
+            "https://www.realsimple.com/thmb/OyWqkHucZsWzklIA4ld59Eesj2o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-cheesecake_300-70617627cf5f4f5eae7f1a11018713ec.jpg",
             self.harvester_class.image(),
         )
 

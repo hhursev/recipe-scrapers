@@ -16,7 +16,7 @@ class TestRainbowPlantLifeScraper(ScraperTest):
         )
 
     def test_author(self):
-        self.assertEqual("Nisha Vora", self.harvester_class.author())
+        self.assertEqual("Nisha", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual(
@@ -95,4 +95,4 @@ class TestRainbowPlantLifeScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.95, self.harvester_class.ratings())
+        self.assertEqual(4.96, self.harvester_class.ratings())

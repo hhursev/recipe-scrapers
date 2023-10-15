@@ -39,9 +39,9 @@ class TestReishungerScraper(ScraperTest):
         self.assertEqual(
             [
                 "240g Basmati Reis Pusa",
-                "1 TL Kokosöl",
+                "1 TL Bio Kokosöl",
                 "1 Dose Bio Kichererbsen",
-                "200ml Kokosmilch",
+                "200ml Bio Kokosmilch",
                 "1 Zwiebel",
                 "1 Knoblauchzehe",
                 "1 mittelgroße Süßkartoffel (hier: 300g)",

@@ -22,7 +22,7 @@ class TestRosannaPansinoScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "http://cdn.shopify.com/s/files/1/0163/5948/9636/articles/1Y6A6281_grande.jpg?v=1567109086",
+            "http://rosannapansino.com/cdn/shop/articles/1Y6A6281.jpg?v=1567109086",
             self.harvester_class.image(),
         )
 

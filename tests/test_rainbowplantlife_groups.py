@@ -105,4 +105,4 @@ class TestRainbowPlantLifeScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.97, self.harvester_class.ratings())
+        self.assertEqual(4.98, self.harvester_class.ratings())
