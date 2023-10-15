@@ -35,9 +35,9 @@ class TestPrimalEdgeHealthScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "1 tablespoon grass-fed beef gelatin",
+                "1 tbsp grass-fed beef gelatin",
                 "1¼ cups half and half",
-                "1 tablespoon sweetener (optional, see note)",
+                "1 tbsp sweetener",
                 "½ teaspoon vanilla extract",
                 "2 raw egg yolks",
             ],

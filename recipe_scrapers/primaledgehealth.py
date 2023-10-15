@@ -21,7 +21,22 @@ class PrimalEdgeHealth(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        return normalize_string(self.schema.ingredients())
+        ingredients_li = self.soup.select(".wprm-recipe-ingredient")
+        ingredients_list = [
+            normalize_string(
+                li.find("span", {"class": "wprm-recipe-ingredient-amount"}).get_text()
+            )
+            + " "
+            + normalize_string(
+                li.find("span", {"class": "wprm-recipe-ingredient-unit"}).get_text()
+            )
+            + " "
+            + normalize_string(
+                li.find("span", {"class": "wprm-recipe-ingredient-name"}).get_text()
+            )
+            for li in ingredients_li
+        ]
+        return ingredients_list
 
     def instructions(self):
         return self.schema.instructions()

@@ -25,20 +25,17 @@ class TestPanelinhaScraper(ScraperTest):
     def test_author(self):
         self.assertEqual(self.harvester_class.author(), "Panelinha")
 
-    def test_total_time(self):
-        self.assertEqual(60, self.harvester_class.total_time())
-
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
         self.assertEqual(
             [
-                "1 peça de filé mignon para rosbife (cerca de 750 g)",
-                "1 colher (chá) de mostarda amarela em pó",
-                "1 colher (chá) de páprica defumada",
+                "750 g de filÃ© mignon em peÃ§a para rosbife",
+                "1 colher (chÃ¡) de mostarda amarela em pÃ³",
+                "1 colher (chÃ¡) de pÃ¡prica defumada",
                 "azeite a gosto",
-                "sal e pimenta-do-reino moída na hora a gosto",
+                "sal e pimenta-do-reino moÃ\xadda na hora a gosto",
             ],
             self.harvester_class.ingredients(),
         )

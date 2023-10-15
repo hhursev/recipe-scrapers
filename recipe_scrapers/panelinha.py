@@ -2,7 +2,7 @@
 import re
 
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import get_yields, normalize_string
 
 INSTRUCTIONS_NUMBERING_REGEX = re.compile(r"^\d{1,2}\.\s*")  # noqa
 
@@ -16,13 +16,8 @@ class Panelinha(AbstractScraper):
         parent_div = self.soup.find("div", {"id": "recipe_header"})
         return normalize_string(parent_div.find("h1").get_text())
 
-    def total_time(self):
-        return get_minutes(
-            self.soup.find("span", string="Tempo de preparo").nextSibling
-        )
-
     def ingredients(self):
-        ingredients = self.soup.find("h4", string="Ingredientes").nextSibling.findAll(
+        ingredients = self.soup.find("h5", string="Ingredientes").nextSibling.findAll(
             "li"
         )
 
@@ -30,7 +25,7 @@ class Panelinha(AbstractScraper):
 
     def instructions(self):
         instructions = self.soup.find(
-            "h4", string="Modo de preparo"
+            "h5", string="Modo de preparo"
         ).nextSibling.findAll("li")
 
         instructions = [
@@ -54,4 +49,8 @@ class Panelinha(AbstractScraper):
         return "\n".join(instructions)
 
     def yields(self):
-        return self.schema.yields()
+        main_element = self.soup.find("main")
+        yield_text = main_element.get("data-item-p-yield")
+        yield_number = re.search(r"\d+", yield_text)
+        if yield_number:
+            return get_yields(yield_number.group())

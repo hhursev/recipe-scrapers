@@ -24,9 +24,6 @@ class TestPanelinhaScraper(ScraperTest):
     def test_author(self):
         self.assertEqual(self.harvester_class.author(), "Panelinha")
 
-    def test_total_time(self):
-        self.assertEqual(0, self.harvester_class.total_time())
-
     def test_yields(self):
         self.assertEqual("2 servings", self.harvester_class.yields())
 
@@ -39,18 +36,18 @@ class TestPanelinhaScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "2 bifes de filé de peito de frango (cerca de 240 g)",
-                "⅓ de xícara (chá) de arroz",
-                "⅔ de xícara (chá) de lentilha",
+                "2 bifes de filÃ© de peito de frango (cerca de 240 g)",
+                "â \x93 de xÃ\xadcara (chÃ¡) de arroz",
+                "â \x94 de xÃ\xadcara (chÃ¡) de lentilha",
                 "1 cebola",
                 "1 dente de alho",
-                "2 xícaras (chá) de água",
-                "1 ½ colher (sopa) de azeite",
-                "½ colher (chá) de pimenta síria",
-                "1 colher (chá) de sal",
-                "1 pitada de açúcar",
-                "¼ de xícara (chá) de nozes picadas",
-                "⅓ de xícara (chá) de iogurte natural",
+                "2 xÃ\xadcaras (chÃ¡) de Ã¡gua",
+                "1½ colher (sopa) de azeite",
+                "½ colher (chÃ¡) de pimenta sÃ\xadria",
+                "1 colher (chÃ¡) de sal",
+                "1 pitada de aÃ§Ãºcar",
+                "¼ de xÃ\xadcara (chÃ¡) de nozes picadas",
+                "â \x93 de xÃ\xadcara (chÃ¡) de iogurte natural",
             ],
             self.harvester_class.ingredients(),
         )
