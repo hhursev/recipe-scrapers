@@ -23,7 +23,7 @@ class TestPurelyPopeScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://purelypope.com/wp-content/uploads/2020/05/IMG_5412-1-150x150.jpg",
+            "https://i0.wp.com/purelypope.com/wp-content/uploads/2020/05/IMG_5412-1-scaled.jpg?resize=150%2C150&ssl=1",
             self.harvester_class.image(),
         )
 

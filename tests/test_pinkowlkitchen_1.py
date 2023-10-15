@@ -19,7 +19,7 @@ class TestPinkOwlKitchenScraper(ScraperTest):
         )
 
     def test_author(self):
-        self.assertEqual("Ashley", self.harvester_class.author())
+        self.assertEqual("Ashley Boyd", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual("Chocolate Chess Pie", self.harvester_class.title())

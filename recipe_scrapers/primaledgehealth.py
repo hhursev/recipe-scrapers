@@ -1,5 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._utils import normalize_string
 
 
 class PrimalEdgeHealth(AbstractScraper):
@@ -20,7 +21,7 @@ class PrimalEdgeHealth(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        return self.schema.ingredients()
+        return normalize_string(self.schema.ingredients())
 
     def instructions(self):
         return self.schema.instructions()

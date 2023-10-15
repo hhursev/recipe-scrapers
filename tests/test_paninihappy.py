@@ -11,7 +11,7 @@ class TestPaniniHappyScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "http://paninihappy.com/grilled-mac-cheese-with-bbq-pulled-pork/",
+            "https://paninihappy.com/grilled-mac-cheese-with-bbq-pulled-pork/",
             self.harvester_class.canonical_url(),
         )
 

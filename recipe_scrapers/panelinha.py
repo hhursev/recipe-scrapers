@@ -13,7 +13,8 @@ class Panelinha(AbstractScraper):
         return "panelinha.com.br"
 
     def title(self):
-        return normalize_string(self.soup.find("h1").get_text())
+        parent_div = self.soup.find("div", {"id": "recipe_header"})
+        return normalize_string(parent_div.find("h1").get_text())
 
     def total_time(self):
         return get_minutes(

@@ -66,4 +66,4 @@ class TestPaleoRunningMommaScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.15, self.harvester_class.ratings())
+        self.assertEqual(4.56, self.harvester_class.ratings())

@@ -20,7 +20,7 @@ class TestPopSugarScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://media1.popsugar-assets.com/files/thumbor/QpXN5ex3L8WRyMBIBlypdBwKX-Q/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2016/09/02/018/n/1922195/f31877d9_5cdf801a_Rainbow_Pasta_HERO/i/Rainbow-Pasta-Food-Video.jpg",
+            "https://media1.popsugar-assets.com/files/thumbor/QpXN5ex3L8WRyMBIBlypdBwKX-Q/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2016/09/02/018/n/1922195/f31877d9_5cdf801a_Rainbow_Pasta_HERO/i/Rainbow-Pasta.jpg",
             self.harvester_class.image(),
         )
 
