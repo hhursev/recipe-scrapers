@@ -31,13 +31,12 @@ class Rezeptwelt(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        content = self.soup.find("ol", {"itemprop": "recipeInstructions"}).findAll(
-            "span", {"itemprop": "text"}
-        )
-        res = ""
-        for step in content:
-            res += normalize_string(step.text) + "\n"
-        return res
+        preparation_div = self.soup.find("div", id="preparationSteps")
+        instructions = preparation_div.find("span", itemprop="text").find_all("p")
+        instruction_texts = [instruction.get_text() for instruction in instructions]
+        normalized_texts = [normalize_string(text) for text in instruction_texts]
+        joined_instructions = "\n".join(filter(None, normalized_texts))
+        return joined_instructions
 
     def ratings(self):
         return self.schema.ratings()
