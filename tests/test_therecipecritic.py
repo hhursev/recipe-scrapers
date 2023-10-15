@@ -11,6 +11,12 @@ class TestTherecipecriticScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("therecipecritic.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://therecipecritic.com/burrata-appetizer/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("The Recipe Critic", self.harvester_class.author())
 

@@ -8,11 +8,14 @@ class TestweightwatchersPublicScraper(ScraperTest):
 
     scraper_class = WeightWatchersPublic
 
-    # Test-Url:
-    # https://www.weightwatchers.com/de/rezept/kartoffelgulasch/562a9b02873e1afb2a3c4c13
-
     def test_host(self):
         self.assertEqual("www.weightwatchers.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.weightwatchers.com/de/rezept/kartoffelgulasch/562a9b02873e1afb2a3c4c13",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("WeightWatchers", self.harvester_class.author())

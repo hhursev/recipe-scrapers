@@ -11,6 +11,12 @@ class TestWellPlatedScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("wellplated.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.wellplated.com/homemade-fried-rice/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual("Egg Fried Rice", self.harvester_class.title())
 

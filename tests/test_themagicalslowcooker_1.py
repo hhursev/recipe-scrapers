@@ -12,6 +12,12 @@ class TestTheMagicalSlowCookerScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("themagicalslowcooker.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.themagicalslowcooker.com/slow-cooker-ground-beef/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Sarah Olson", self.harvester_class.author())
 

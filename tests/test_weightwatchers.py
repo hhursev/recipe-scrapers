@@ -6,13 +6,16 @@ from tests import ScraperTest
 
 class TestWeightwatchersScraper(ScraperTest):
 
-    # Test-Url:
-    # https://cmx.weightwatchers.de/details/WWRECIPE:5667ab72a29713e4335bb342
-
     scraper_class = WeightWatchers
 
     def test_host(self):
         self.assertEqual("www.weightwatchers.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://cmx.weightwatchers.de/details/WWRECIPE:5667ab72a29713e4335bb342",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("WeightWatchers", self.harvester_class.author())

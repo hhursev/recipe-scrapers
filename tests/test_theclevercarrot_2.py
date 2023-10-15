@@ -11,6 +11,12 @@ class TestTheCleverCarrotScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("theclevercarrot.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.theclevercarrot.com/2012/12/dinner-tonight-sweet-chili-shrimp-stir-fry/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("The Clever Carrot", self.harvester_class.author())
 

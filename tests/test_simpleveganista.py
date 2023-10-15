@@ -11,6 +11,12 @@ class TestSimpleVeganistaScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("simple-veganista.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://simple-veganista.com/vegan-jambalaya/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Julie | The Simple Veganista", self.harvester_class.author())
 

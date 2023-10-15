@@ -12,6 +12,12 @@ class TestSunBasketScraper(ScraperTest):
     def test_host_domain(self):
         self.assertEqual("sunbasket.co.uk", self.harvester_class.host(domain="co.uk"))
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://sunbasket.com/recipe/lemongrass-turkey-salad-with-rice-noodles-and-pear",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(
             "Lemongrass-turkey salad with rice noodles and pear",

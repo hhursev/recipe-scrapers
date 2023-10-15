@@ -9,6 +9,12 @@ class TestYemekScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("yemek.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://yemek.com/tarif/kori-soslu-tavuklu-patates-toplari/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Yasemin Gürsürer", self.harvester_class.author())
 

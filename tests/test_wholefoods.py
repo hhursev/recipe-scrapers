@@ -14,6 +14,12 @@ class TestWholeFoodsScraper(ScraperTest):
             "wholefoodsmarket.co.uk", self.harvester_class.host(domain="co.uk")
         )
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.wholefoodsmarket.com/recipes/grilled-cheese-and-greens",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual("Grilled Cheese and Greens", self.harvester_class.title())
 
