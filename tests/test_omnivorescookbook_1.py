@@ -14,7 +14,7 @@ class TestOmnivoresCookbookScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://omnivorescookbook.com/recipes/stir-fried-bok-choy-with-crispy-tofu",
+            "https://omnivorescookbook.com/recipes/stir-fried-bok-choy-with-crispy-tofu/",
             self.harvester_class.canonical_url(),
         )
 

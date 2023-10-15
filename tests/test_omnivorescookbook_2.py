@@ -91,7 +91,7 @@ class TestOmnivoresCookbookScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.81, self.harvester_class.ratings())
+        self.assertEqual(4.82, self.harvester_class.ratings())
 
     def test_cuisine(self):
         self.assertEqual("Chinese", self.harvester_class.cuisine())
