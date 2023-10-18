@@ -1,5 +1,6 @@
 # mypy: allow-untyped-defs
 
+from recipe_scrapers._grouping_utils import IngredientGroup
 from recipe_scrapers.elavegan import ElaVegan
 from tests import ScraperTest
 
@@ -62,6 +63,47 @@ class TestElaVeganScraper(ScraperTest):
             "1/4 tsp sea salt",
         ]
         self.assertEqual(expected_ingredients, self.harvester_class.ingredients())
+
+    def test_ingredient_groups(self):
+        self.assertEqual(
+            [
+                IngredientGroup(
+                    ingredients=[
+                        "1 cup oat flour ((gluten-free if needed))",
+                        "1/2 cup rice flour ((see notes))",
+                        "2 Tbsp cornstarch (or potato starch)",
+                        "1/3 cup Erythritol (or sugar)",
+                        "1 1/2 tsp baking powder",
+                        "1/4 tsp baking soda",
+                        "1/2 tsp sea salt",
+                    ],
+                    purpose="Dry Cake Ingredients",
+                ),
+                IngredientGroup(
+                    ingredients=[
+                        "3/4 cup almond milk (or any other dairy-free milk)",
+                        "2/3 cup applesauce (unsweetened)",
+                        "2 Tbsp oil ((see notes))",
+                        "1 Tbsp apple cider vinegar",
+                        "1 tsp vanilla extract",
+                    ],
+                    purpose="Wet Cake Ingredients",
+                ),
+                IngredientGroup(
+                    ingredients=[
+                        "1/2 cup rice flour (or regular flour, if you're not gluten-free)",
+                        "1/2 cup almond flour (or shredded unsweetened coconut)",
+                        "1/4 cup coconut sugar (or brown sugar)",
+                        "2 Tbsp oil",
+                        "2 Tbsp maple syrup (or any other liquid sweetener)",
+                        "2 tsp cinnamon",
+                        "1/4 tsp sea salt",
+                    ],
+                    purpose="Streusel",
+                ),
+            ],
+            self.harvester_class.ingredient_groups(),
+        )
 
     def test_instructions(self):
         expected_instructions = [
