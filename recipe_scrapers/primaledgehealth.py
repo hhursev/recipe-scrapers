@@ -25,15 +25,15 @@ class PrimalEdgeHealth(AbstractScraper):
         ingredients_list = [
             normalize_string(
                 li.find("span", {"class": "wprm-recipe-ingredient-amount"}).get_text()
-            )
+            ).replace("\u00C2", "")
             + " "
             + normalize_string(
                 li.find("span", {"class": "wprm-recipe-ingredient-unit"}).get_text()
-            )
+            ).replace("\u00C2", "")
             + " "
             + normalize_string(
                 li.find("span", {"class": "wprm-recipe-ingredient-name"}).get_text()
-            )
+            ).replace("\u00C2", "")
             for li in ingredients_li
         ]
         return ingredients_list

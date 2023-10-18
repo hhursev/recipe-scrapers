@@ -21,7 +21,10 @@ class Panelinha(AbstractScraper):
             "li"
         )
 
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        return [
+            normalize_string(ingredient.get_text().replace("\u00C2", ""))
+            for ingredient in ingredients
+        ]
 
     def instructions(self):
         instructions = self.soup.find(
