@@ -5,10 +5,6 @@ from ._abstract import AbstractScraper
 
 
 class OneHundredOneCookBooks(AbstractScraper):
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.soup = self.soup.find("div", id="recipe")
-
     @classmethod
     def host(cls):
         return "101cookbooks.com"
@@ -17,13 +13,14 @@ class OneHundredOneCookBooks(AbstractScraper):
         return self.schema.author()
 
     def title(self):
-        return self.soup.find("h1").get_text()
+        return self.schema.title()
 
     def total_time(self):
         return self.schema.total_time()
 
     def yields(self):
-        data = self.soup.find_all("p", limit=3, recursive=False)[-1].get_text()
+        container = self.soup.find("div", id="recipe")
+        data = container.find_all("p", limit=3, recursive=False)[-1].get_text()
         extraction = re.search("([0-9]+) servings", data)
         return extraction.group(1) if extraction else None
 
@@ -31,11 +28,13 @@ class OneHundredOneCookBooks(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        ingredients = self.soup.find("blockquote").p.stripped_strings
+        container = self.soup.find("div", id="recipe")
+        ingredients = container.find("blockquote").p.stripped_strings
         return list(ingredients)
 
     def instructions(self):
-        return self.soup.find_all("p", limit=2, recursive=False)[1].get_text(
+        container = self.soup.find("div", id="recipe")
+        return container.find_all("p", limit=2, recursive=False)[1].get_text(
             "\n", strip=True
         )
 
