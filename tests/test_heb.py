@@ -1,5 +1,3 @@
-import unittest
-
 from recipe_scrapers.heb import HEB
 from tests import ScraperTest
 
