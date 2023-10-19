@@ -42,3 +42,10 @@ class SchemaOrgException(RecipeScrapersExceptions):
 
     def __init__(self, message):
         super().__init__(message)
+
+
+class ScrapingNotAllowed(RecipeScrapersExceptions):
+    def __init__(self, host_name):
+        self.host_name = host_name
+        message = f"Scraping not allowed at ({self.host_name})."
+        super().__init__(message)
