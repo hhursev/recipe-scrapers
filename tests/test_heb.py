@@ -11,10 +11,9 @@ class TestHEBScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("heb.com", self.harvester_class.host())
 
-    @unittest.skip("canonical_url will not pass with testhtml (uses example.com)")
     def test_canonical_url(self):
         self.assertEqual(
-            "https://www.heb.com/recipe/recipe-item/truffled-spaghetti-squash/1398755977632",
+            "https://www.heb.com/recipe/recipe-detail/truffled-spaghetti-squash",
             self.harvester_class.canonical_url(),
         )
 
