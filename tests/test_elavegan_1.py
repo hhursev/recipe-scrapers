@@ -63,10 +63,15 @@ class TestElaVeganScraper(ScraperTest):
         )
 
     def test_instructions(self):
-        self.assertEqual(
-            "You can watch the short video for visual instructions.Rinse lentils under running water. Chop the onion, garlic, ginger, bell pepper, and carrot.\nHeat oil in a pot and sauté onion for about 3-4 minutes over medium heat. Add ginger, garlic, carrot, and bell pepper.\nAdd all spices, sweetener, lentils, and vegetable broth or water. Bring to a boil and let simmer for about 10 minutes.\nFinally, add coconut milk and cook for a further 5 minutes or until the desired thickness of the dahl is reached.\nSeason with black pepper and salt. Taste and adjust the seasonings as needed.\nServe warm with basmati rice, potatoes, or naan (flatbread) and garnish with fresh herbs.",
-            self.harvester_class.instructions(),
-        )
+        expected_instructions = [
+            "You can watch the short video for visual instructions.Rinse lentils under running water. Chop the onion, garlic, ginger, bell pepper, and carrot.\nHeat oil in a pot and sauté onion for about 3-4 minutes over medium heat. Add ginger, garlic, carrot, and bell pepper.",
+            "Add all spices, sweetener, lentils, and vegetable broth or water. Bring to a boil and let simmer for about 10 minutes.",
+            "Finally, add coconut milk and cook for a further 5 minutes or until the desired thickness of the dahl is reached.",
+            "Season with black pepper and salt. Taste and adjust the seasonings as needed.",
+            "Serve warm with basmati rice, potatoes, or naan (flatbread) and garnish with fresh herbs.",
+        ]
+        expected_instructions = "\n".join(expected_instructions)
+        self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def test_ratings(self):
         self.assertEqual(4.95, self.harvester_class.ratings())
