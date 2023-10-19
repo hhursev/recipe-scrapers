@@ -37,7 +37,7 @@ class TestPrimalEdgeHealthScraper(ScraperTest):
             [
                 "1 tbsp grass-fed beef gelatin",
                 "1¼ cups half and half",
-                "1 tbsp sweetener",
+                "1 tbsp sweetener (optional, see note)",
                 "½ teaspoon vanilla extract",
                 "2 raw egg yolks",
             ],

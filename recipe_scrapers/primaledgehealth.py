@@ -1,6 +1,5 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
-from ._utils import normalize_string
 
 
 class PrimalEdgeHealth(AbstractScraper):
@@ -21,22 +20,9 @@ class PrimalEdgeHealth(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        ingredients_li = self.soup.select(".wprm-recipe-ingredient")
-        ingredients_list = [
-            normalize_string(
-                li.find("span", {"class": "wprm-recipe-ingredient-amount"}).get_text()
-            ).replace("\u00C2", "")
-            + " "
-            + normalize_string(
-                li.find("span", {"class": "wprm-recipe-ingredient-unit"}).get_text()
-            ).replace("\u00C2", "")
-            + " "
-            + normalize_string(
-                li.find("span", {"class": "wprm-recipe-ingredient-name"}).get_text()
-            ).replace("\u00C2", "")
-            for li in ingredients_li
+        return [
+            ingredient.replace("\u00C2", "") for ingredient in self.schema.ingredients()
         ]
-        return ingredients_list
 
     def instructions(self):
         return self.schema.instructions()

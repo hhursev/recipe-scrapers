@@ -67,3 +67,6 @@ class TestPanelinhaScraper(ScraperTest):
             expected_instructions,
             self.harvester_class.instructions(),
         )
+
+    def test_total_time(self):
+        self.assertEqual(0, self.harvester_class.total_time())
