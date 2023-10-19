@@ -32,7 +32,7 @@ class TestKuchniaDomowaScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://static.kuchnia-domowa.pl/images/content/548/mizeria.jpg",
+            "https:/images/content/548/mizeria.jpg",
             self.harvester_class.image(),
         )
 

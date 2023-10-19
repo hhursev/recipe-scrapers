@@ -134,11 +134,13 @@ Scrapers available for:
 - `https://eatsmarter.de/ <https://eatsmarter.de/>`_
 - `https://www.eatwell101.com <https://www.eatwell101.com>`_
 - `https://eatwhattonight.com/ <https://eatwhattonight.com/>`_
+- `https://elavegan.com/ <https://elavegan.com/>`_
 - `https://emmikochteinfach.de/ <https://emmikochteinfach.de/>`_
 - `https://ethanchlebowski.com/ <https://ethanchlebowski.com>`_
 - `https://epicurious.com/ <https://epicurious.com>`_
 - `https://www.errenskitchen.com/ <https://www.errenskitchen.com/>`_
 - `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
+- `https://www.farmhouseonboone.com/ <https://www.farmhouseonboone.com/>`_
 - `https://www.fattoincasadabenedetta.it/ <https://www.fattoincasadabenedetta.it/>`_
 - `https://fifteenspatulas.com/ <https://www.fifteenspatulas.com/>`_
 - `https://finedininglovers.com/ <https://www.finedininglovers.com>`_
@@ -151,7 +153,6 @@ Scrapers available for:
 - `https://forktospoon.com/ <https://forktospoon.com/>`_
 - `https://fredriksfika.allas.se/ <https://fredriksfika.allas.se/>`_
 - `https://www.750g.com <https://www.750g.com>`_
-- `https://geniuskitchen.com/ <https://geniuskitchen.com>`_
 - `https://www.gesund-aktiv.com/ <https://www.gesund-aktiv.com>`_
 - `https://giallozafferano.it/ <https://giallozafferano.it>`_
 - `https://gimmesomeoven.com/ <https://www.gimmesomeoven.com/>`_
@@ -168,7 +169,6 @@ Scrapers available for:
 - `https://www.hassanchef.com/ <https://www.hassanchef.com/>`_
 - `https://headbangerskitchen.com/ <https://www.headbangerskitchen.com/>`_
 - `https://www.heb.com/ <https://www.heb.com/recipe/landing>`_
-- `https://heinzbrasil.com.br/ <https://heinzbrasil.com.br>`_
 - `https://hellofresh.com/ <https://hellofresh.com>`_
 - `https://hellofresh.co.uk/ <https://hellofresh.co.uk>`_
 - `https://www.hellofresh.de/ <https://www.hellofresh.de/>`_
@@ -326,6 +326,7 @@ Scrapers available for:
 - `https://tidymom.net <https://tidymom.net>`_
 - `https://tudogostoso.com.br/ <https://www.tudogostoso.com.br/>`_
 - `https://twopeasandtheirpod.com/ <http://twopeasandtheirpod.com>`_
+- `https://uitpaulineskeuken.nl/ <https://uitpaulineskeuken.nl>`_
 - `https://usapears.org/ <https://usapears.org>`_
 - `https://www.valdemarsro.dk/ <https://www.valdemarsro.dk/>`_
 - `https://vanillaandbean.com/ <https://vanillaandbean.com>`_

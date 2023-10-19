@@ -1,4 +1,5 @@
 # mypy: allow-untyped-defs
+import unittest
 
 from recipe_scrapers.herseyland import HerseyLand
 from tests import ScraperTest
@@ -11,12 +12,19 @@ class TestHerseyLandScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("hersheyland.com", self.harvester_class.host())
 
+    @unittest.skip("canonical_url will not pass with testhtml (uses example.com)")
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.hersheyland.com/recipes/hersheys-perfectly-chocolate-chocolate-cake.html",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Herseyland", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual(
-            'HERSHEY\'S "Perfectly Chocolate" Chocolate Cake | Recipes',
+            'HERSHEY\'S "Perfectly Chocolate" Chocolate Cake Recipe | Hersheyland',
             self.harvester_class.title(),
         )
 
@@ -58,5 +66,5 @@ class TestHerseyLandScraper(ScraperTest):
         self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def test_description(self):
-        expected_description = "The words “perfect” and “chocolate cake” basically have the same meaning, right? With HESHERY’S homemade chocolate cake this seems to be true. Baking from scratch is easier than you think when you mix HERSHEY’S cocoa with a few other simple ingredients. Bake this delicious dessert when you’re hosting the next family get-together, celebrating a birthday or wanting a bite of delicious chocolate cake after dinner. This “perfectly chocolate” cake was made for sharing, so get out your best plates, have a pitcher of milk ready and divvy out this chocolatey cake with your favorite people."
+        expected_description = 'The words “perfect” and “chocolate cake” basically have the same meaning, right? With our HESHERY’S homemade chocolate cake recipe this seems to be true. Baking from scratch is easier than you think when you mix HERSHEY’S Cocoa with a few other simple ingredients. Bake this delicious dessert when you’re hosting the next family get-together, celebrating a birthday or wanting a bite of delicious chocolate cake after dinner. This “perfectly chocolate” cake recipe was made for sharing, so get out your best plates, have a pitcher of milk ready and divvy out this chocolatey cake with your favorite people. Make sure everyone can enjoy a sweet treat with our flourless version: Gluten-Free HERSHEY\'S "Perfectly Chocolate" Chocolate Cake recipe.'
         self.assertEqual(expected_description, self.harvester_class.description())

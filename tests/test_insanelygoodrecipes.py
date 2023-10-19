@@ -9,8 +9,14 @@ class TestInsanelyGoodRecipes(ScraperTest):
     def test_host(self):
         self.assertEqual("insanelygoodrecipes.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://insanelygoodrecipes.com/crockpot-angel-chicken/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
-        self.assertEqual("insanelygood", self.harvester_class.author())
+        self.assertEqual("Kim - InsanelyGood", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual(
@@ -29,7 +35,7 @@ class TestInsanelyGoodRecipes(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://insanelygoodrecipes.com/wp-content/uploads/2023/08/Creamy_and_Flavorful_Homemade_Crockpot_Angel_Chicken_with_Pasta_In_a_Bowl.jpg",
+            "https://insanelygoodrecipes.com/wp-content/uploads/2023/08/Homemade-Creamy-and-Flavorful-Angel-Chicken-Pasta-with-Parsley.jpg",
             self.harvester_class.image(),
         )
 

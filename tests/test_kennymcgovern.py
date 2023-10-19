@@ -24,7 +24,7 @@ class TestKennyMcGovernScraper(ScraperTest):
     def test_image(self):
         self.assertEqual(
             self.harvester_class.image(),
-            "https://kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-960x720.jpg",
+            "https://kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg",
         )
 
     def test_total_time(self):

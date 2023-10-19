@@ -67,11 +67,13 @@ from .eatsmarter import Eatsmarter
 from .eattolerant import EatTolerant
 from .eatwell101 import EatWell101
 from .eatwhattonight import EatWhatTonight
+from .elavegan import ElaVegan
 from .emmikochteinfach import EmmiKochtEinfach
 from .epicurious import Epicurious
 from .errenskitchen import ErrensKitchen
 from .ethanchlebowski import EthanChlebowski
 from .farmhousedelivery import FarmhouseDelivery
+from .farmhouseonboone import FarmhouseOnBoone
 from .fattoincasadabenedetta import FattoInCasaDaBenedetta
 from .fifteenspatulas import FifteenSpatulas
 from .finedininglovers import FineDiningLovers
@@ -86,7 +88,6 @@ from .forksoverknives import ForksOverKnives
 from .forktospoon import ForkToSpoon
 from .franzoesischkochen import FranzoesischKochen
 from .g750g import G750g
-from .geniuskitchen import GeniusKitchen
 from .gesundaktiv import GesundAktiv
 from .giallozafferano import GialloZafferano
 from .gimmesomeoven import GimmeSomeOven
@@ -102,7 +103,6 @@ from .handletheheat import HandleTheHeat
 from .hassanchef import HassanChef
 from .headbangerskitchen import HeadbangersKitchen
 from .heb import HEB
-from .heinzbrasil import HeinzBrasil
 from .hellofresh import HelloFresh
 from .herseyland import HerseyLand
 from .homechef import HomeChef
@@ -258,6 +258,7 @@ from .tineno import TineNo
 from .tofoo import Tofoo
 from .tudogostoso import TudoGostoso
 from .twopeasandtheirpod import TwoPeasAndTheirPod
+from .uitpaulineskeukennl import UitPaulinesKeukenNL
 from .usapears import USAPears
 from .usdamyplate import USDAMyPlate
 from .valdemarsro import Valdemarsro
@@ -333,6 +334,7 @@ SCRAPERS = {
     Cybercook.host(): Cybercook,
     DavidLebovitz.host(): DavidLebovitz,
     Delish.host(): Delish,
+    ElaVegan.host(): ElaVegan,
     Thinlicious.host(): Thinlicious,
     DomesticateMe.host(): DomesticateMe,
     Downshiftology.host(): Downshiftology,
@@ -349,6 +351,7 @@ SCRAPERS = {
     ErrensKitchen.host(): ErrensKitchen,
     EthanChlebowski.host(): EthanChlebowski,
     FarmhouseDelivery.host(): FarmhouseDelivery,
+    FarmhouseOnBoone.host(): FarmhouseOnBoone,
     FattoInCasaDaBenedetta.host(): FattoInCasaDaBenedetta,
     FifteenSpatulas.host(): FifteenSpatulas,
     FineDiningLovers.host(): FineDiningLovers,
@@ -363,7 +366,6 @@ SCRAPERS = {
     ForksOverKnives.host(): ForksOverKnives,
     FranzoesischKochen.host(): FranzoesischKochen,
     G750g.host(): G750g,
-    GeniusKitchen.host(): GeniusKitchen,
     GialloZafferano.host(): GialloZafferano,
     GimmeSomeOven.host(): GimmeSomeOven,
     Globo.host(): Globo,
@@ -378,7 +380,6 @@ SCRAPERS = {
     HandleTheHeat.host(): HandleTheHeat,
     HassanChef.host(): HassanChef,
     HeadbangersKitchen.host(): HeadbangersKitchen,
-    HeinzBrasil.host(): HeinzBrasil,
     HelloFresh.host(): HelloFresh,
     HelloFresh.host(domain="at"): HelloFresh,
     HelloFresh.host(domain="be"): HelloFresh,
@@ -576,6 +577,7 @@ SCRAPERS = {
     ZeitWochenmarkt.host(): ZeitWochenmarkt,
     ZenBelly.host(): ZenBelly,
     GesundAktiv.host(): GesundAktiv,
+    UitPaulinesKeukenNL.host(): UitPaulinesKeukenNL,
 }
 
 
