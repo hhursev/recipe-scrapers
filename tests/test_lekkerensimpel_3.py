@@ -2,7 +2,7 @@ from recipe_scrapers.lekkerensimpel import LekkerEnSimpel
 from tests import ScraperTest
 
 
-class TestLekkerEnSimpelScraper2(ScraperTest):
+class TestLekkerEnSimpelScraper3(ScraperTest):
 
     scraper_class = LekkerEnSimpel
     test_file_name = "lekkerensimpel_3"
