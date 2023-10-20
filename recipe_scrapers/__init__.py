@@ -121,6 +121,7 @@ from .izzycooking import IzzyCooking
 from .jamieoliver import JamieOliver
 from .jimcooksfoodgood import JimCooksFoodGood
 from .joyfoodsunshine import Joyfoodsunshine
+from .juliegoodwin import JulieGoodwin
 from .justataste import JustATaste
 from .justbento import JustBento
 from .justonecookbook import JustOneCookbook
@@ -420,6 +421,7 @@ SCRAPERS = {
     JamieOliver.host(): JamieOliver,
     JimCooksFoodGood.host(): JimCooksFoodGood,
     Joyfoodsunshine.host(): Joyfoodsunshine,
+    JulieGoodwin.host(): JulieGoodwin,
     JustATaste.host(): JustATaste,
     JustBento.host(): JustBento,
     JustOneCookbook.host(): JustOneCookbook,
