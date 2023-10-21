@@ -71,7 +71,7 @@ class JulieGoodwin(AbstractScraper):
         if instructions:
             return "\n".join(
                 [
-                    normalize_string(inst.parent.parent.get_text().split("|", 1)[1])
+                    normalize_string(inst.next_element.get_text().split("|", 1)[1])
                     for inst in instructions
                 ]
             )
