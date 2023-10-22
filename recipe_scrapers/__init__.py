@@ -1,14 +1,13 @@
 from __future__ import annotations
-
 import contextlib
 from typing import Any, Optional
-
 from ._abstract import AbstractScraper
 from ._exceptions import NoSchemaFoundInWildMode, WebsiteNotImplementedError, ScrapingNotAllowed
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 import urllib.robotparser
-from urllib.parse import urlparse, urljoin
+import requests
+from urllib.parse import urljoin
 from .abril import Abril
 from .acouplecooks import ACoupleCooks
 from .addapinch import AddAPinch
@@ -607,18 +606,22 @@ def scraper_exists_for(url_path: str) -> bool:
     return host_name in get_supported_urls()
 
 
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"}
+
+
 def check_scraper_allowed(url_path, host_name, **options: Any) -> bool:
     """Checks the website's robots.txt file to see if scraping is allowed.
     If scraping is allowed, returns true. Note that this does not check to see
     when the last time robots.txt was checked, so this could lead to constant pings
     on robots.txt"""
-    if not options.get("robots.txt", True):
+    if not options.get("check_scraping", True):
         return True
     else:
-        url = urljoin(host_name, 'robots.txt')
+        url = urljoin(url_path, '/robots.txt')
+        resp = requests.get(url, headers=HEADERS)
+        page_data = resp.text
         rp = urllib.robotparser.RobotFileParser()
-        rp.set_url(url)
-        rp.read()
+        rp.parse(page_data)
         if rp.can_fetch('*', url_path):
             return True
         else:
@@ -682,4 +685,4 @@ def scrape_html(
 
 
 __all__ = ["scrape_me", "scrape_html"]
-name = "recipe_scrapers"
+name = "recipe-scrapers"

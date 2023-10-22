@@ -32,6 +32,7 @@ class AbstractScraper:
         ] = None,  # allows us to specify optional timeout for request
         wild_mode: Optional[bool] = False,
         html: Union[str, bytes, None] = None,
+        check_scraping: Optional[bool] = False,
     ):
         if html:
             self.page_data = html
@@ -48,6 +49,7 @@ class AbstractScraper:
             self.url = resp.url
 
         self.wild_mode = wild_mode
+        self.check_scraping = check_scraping
         self.soup = BeautifulSoup(self.page_data, "html.parser")
         self.schema = SchemaOrg(self.page_data)
 
