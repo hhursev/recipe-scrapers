@@ -175,6 +175,7 @@ Scrapers available for:
 - `https://recietas.globo.com/ <https://www.receitas.globo.com/>`_
 - `https://gonnawantseconds.com/ <https://gonnawantseconds.com>`_
 - `https://gousto.co.uk/ <https://gousto.co.uk>`_
+- `https://www.grandfrais.com/ <https://www.grandfrais.com>`_
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
 - `https://grimgrains.com/ <https://grimgrains.com>`_
 - `http://www.grouprecipes.com/ <http://www.grouprecipes.com/>`_
