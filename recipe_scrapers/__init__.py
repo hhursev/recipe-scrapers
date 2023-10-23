@@ -97,6 +97,7 @@ from .godt import Godt
 from .gonnawantseconds import GonnaWantSeconds
 from .goodfooddiscoveries import GoodFoodDiscoveries
 from .goustojson import GoustoJson
+from .grandfrais import GrandFrais
 from .greatbritishchefs import GreatBritishChefs
 from .grimgrains import GrimGrains
 from .grouprecipes import GroupRecipes
@@ -342,6 +343,7 @@ SCRAPERS = {
     DavidLebovitz.host(): DavidLebovitz,
     Delish.host(): Delish,
     ElaVegan.host(): ElaVegan,
+    GrandFrais.host(): GrandFrais,
     Thinlicious.host(): Thinlicious,
     DomesticateMe.host(): DomesticateMe,
     Downshiftology.host(): Downshiftology,
