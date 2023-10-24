@@ -25,11 +25,10 @@ class Maangchi(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        before = self.soup.find("h4", string="Directions").find_all_previous("li")
-        after = self.soup.find("h4", string="Ingredients:").find_all_next("li")
+        before = self.soup.find("h2", string="Ingredients").find_all_next("li")
+        after = self.soup.find("h2", string="Directions").find_all_previous("li")
         list_before = [normalize_string(b.get_text()) for b in before]
         list_after = [normalize_string(a.get_text()) for a in after]
-        list_before.reverse()
         return [x for x in list_before if x in list_after]
 
     def instructions(self):
