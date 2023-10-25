@@ -75,6 +75,9 @@ def get_minutes(element, return_zero_on_not_found=False):  # noqa: C901: TODO
 
     matched = TIME_REGEX.search(time_text)
 
+    if matched is None or not any(matched.groupdict().values()):
+        return None
+
     minutes = int(matched.groupdict().get("minutes") or 0)
     hours_matched = matched.groupdict().get("hours")
     days_matched = matched.groupdict().get("days")
