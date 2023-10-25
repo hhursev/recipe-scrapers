@@ -36,10 +36,12 @@ class SchemaOrg:
             self.format = "raw"
             self.data = page_data
             self.people = {}
+            self.ratingsdata = {}
             return
         self.format = None
         self.data = {}
         self.people = {}
+        self.ratingsdata = {}
 
         data = extruct.extract(
             page_data,
@@ -56,6 +58,16 @@ class SchemaOrg:
                     key = person.get("@id") or person.get("url")
                     if key:
                         self.people[key] = person
+
+        # Extract ratings data
+        for syntax in SYNTAXES:
+            syntax_data = data.get(syntax, [])
+            for item in syntax_data:
+                rating = self._find_entity(item, "AggregateRating")
+                if rating:
+                    rating_id = rating.get("@id")
+                    if rating_id:
+                        self.ratingsdata[rating_id] = rating
 
         for syntax in SYNTAXES:
             # make sure entries of type Recipe are always parsed first
@@ -247,17 +259,18 @@ class SchemaOrg:
         return instructions
 
     def ratings(self):
-        ratings = self.data.get("aggregateRating")
-        if ratings is None:
-            raise SchemaOrgException("No ratings data in SchemaOrg.")
-
-        if isinstance(ratings, dict):
+        ratings = self.data.get("aggregateRating") or self._find_entity(
+            self.data, "AggregateRating"
+        )
+        if ratings and isinstance(ratings, dict):
+            rating_id = ratings.get("@id")
+            if rating_id and rating_id in self.ratingsdata:
+                ratings = self.ratingsdata[rating_id]
+        if ratings and isinstance(ratings, dict):
             ratings = ratings.get("ratingValue")
-
-        if ratings is None:
-            raise SchemaOrgException("No ratingValue in SchemaOrg.")
-
-        return round(float(ratings), 2)
+        if ratings:
+            return round(float(ratings), 2)
+        raise SchemaOrgException("No ratingValue in SchemaOrg.")
 
     def cuisine(self):
         cuisine = self.data.get("recipeCuisine")

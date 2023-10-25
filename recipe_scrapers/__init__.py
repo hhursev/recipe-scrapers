@@ -95,6 +95,7 @@ from .globo import Globo
 from .godt import Godt
 from .gonnawantseconds import GonnaWantSeconds
 from .goodfooddiscoveries import GoodFoodDiscoveries
+from .grandfrais import GrandFrais
 from .greatbritishchefs import GreatBritishChefs
 from .grimgrains import GrimGrains
 from .grouprecipes import GroupRecipes
@@ -119,6 +120,7 @@ from .izzycooking import IzzyCooking
 from .jamieoliver import JamieOliver
 from .jimcooksfoodgood import JimCooksFoodGood
 from .joyfoodsunshine import Joyfoodsunshine
+from .juliegoodwin import JulieGoodwin
 from .justataste import JustATaste
 from .justbento import JustBento
 from .justonecookbook import JustOneCookbook
@@ -335,6 +337,7 @@ SCRAPERS = {
     DavidLebovitz.host(): DavidLebovitz,
     Delish.host(): Delish,
     ElaVegan.host(): ElaVegan,
+    GrandFrais.host(): GrandFrais,
     Thinlicious.host(): Thinlicious,
     DomesticateMe.host(): DomesticateMe,
     Downshiftology.host(): Downshiftology,
@@ -413,6 +416,7 @@ SCRAPERS = {
     JamieOliver.host(): JamieOliver,
     JimCooksFoodGood.host(): JimCooksFoodGood,
     Joyfoodsunshine.host(): Joyfoodsunshine,
+    JulieGoodwin.host(): JulieGoodwin,
     JustATaste.host(): JustATaste,
     JustBento.host(): JustBento,
     JustOneCookbook.host(): JustOneCookbook,

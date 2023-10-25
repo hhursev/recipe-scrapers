@@ -161,6 +161,7 @@ Scrapers available for:
 - `https://recietas.globo.com/ <https://www.receitas.globo.com/>`_
 - `https://gonnawantseconds.com/ <https://gonnawantseconds.com>`_
 - `https://gousto.co.uk/ <https://gousto.co.uk>`_
+- `https://www.grandfrais.com/ <https://www.grandfrais.com>`_
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
 - `https://grimgrains.com/ <https://grimgrains.com>`_
 - `http://www.grouprecipes.com/ <http://www.grouprecipes.com/>`_
@@ -189,6 +190,7 @@ Scrapers available for:
 - `https://jamieoliver.com/ <https://jamieoliver.com>`_
 - `https://jimcooksfoodgood.com/ <https://jimcooksfoodgood.com/>`_
 - `https://joyfoodsunshine.com/ <https://joyfoodsunshine.com>`_
+- `https://juliegoodwin.com.au/ <https://juliegoodwin.com.au>`_
 - `https://justataste.com/ <https://justataste.com>`_
 - `https://justbento.com/ <https://justbento.com>`_
 - `https://www.justonecookbook.com/ <https://www.justonecookbook.com>`_
