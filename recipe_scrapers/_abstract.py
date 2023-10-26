@@ -49,7 +49,7 @@ class AbstractScraper:
             self.url = resp.url
 
         self.wild_mode = wild_mode
-        self.check_scraping = check_scraping
+        self.check_robots_txt = check_robots_txt
         self.soup = BeautifulSoup(self.page_data, "html.parser")
         self.schema = SchemaOrg(self.page_data)
 

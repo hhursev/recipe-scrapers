@@ -44,8 +44,8 @@ class SchemaOrgException(RecipeScrapersExceptions):
         super().__init__(message)
 
 
-class ScrapingNotAllowed(RecipeScrapersExceptions):
+class AutomatedClientsNotAllowed(RecipeScrapersExceptions):
     def __init__(self, host_name):
         self.host_name = host_name
-        message = f"Scraping not allowed at ({self.host_name})."
+        message = f"Automated clients are not currently allowed according to the robots.txt policy for {self.host_name}."
         super().__init__(message)
