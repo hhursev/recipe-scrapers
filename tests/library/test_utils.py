@@ -72,7 +72,7 @@ class TestUtils(unittest.TestCase):
         text = "15 to 20 minutes"
         self.assertEqual(20, get_minutes(text))
 
-    def test_tbd(self):
+    def test_get_minutes_imprecise_description(self):
         text = "Pá-Pum"
         self.assertEqual(None, get_minutes(text))
 
