@@ -16,6 +16,6 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.x"
+          python-version: "< 3.12"  # ref: https://github.com/hhursev/recipe-scrapers/issues/909
       - run: pip install tox
       - run: tox -e lint
