@@ -32,7 +32,7 @@ class AbstractScraper:
         ] = None,  # allows us to specify optional timeout for request
         wild_mode: Optional[bool] = False,
         html: Union[str, bytes, None] = None,
-        check_scraping: Optional[bool] = False,
+        check_robots_txt: Optional[bool] = False,
     ):
         if html:
             self.page_data = html
