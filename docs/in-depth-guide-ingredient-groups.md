@@ -122,7 +122,8 @@ In addition to the usual tests a scraper requires, the tests also needs to check
 
 Each test case will automatically inherit a test that checks to make sure the same ingredients are found in `.ingredients()` and in the groups returned from `.ingredient_groups()`, so there is no need to write this test in the scraper test cases.
 
-The test case **with** ingredient grouping should include a test_ingredient_groups method with each section of the ingredients seprated out in the applicable test case like this example.
+The test case **with** ingredient grouping should include a `test_ingredient_groups` method with each section of the ingredients separated out in the applicable test case like this example:
+
 ```python
 from recipe_scrapers._grouping_utils import IngredientGroup
 
