@@ -619,9 +619,8 @@ def check_scraper_allowed(url_path, host_name, **options: Any) -> bool:
     else:
         url = urljoin(url_path, '/robots.txt')
         resp = requests.get(url, headers=HEADERS)
-        page_data = resp.text
         rp = urllib.robotparser.RobotFileParser()
-        rp.parse(page_data)
+        rp.parse(resp.text)
         if rp.can_fetch('*', url_path):
             return True
         else:
