@@ -121,3 +121,38 @@ This is because not all the recipes on a website will have ingredient groups and
 In addition to the usual tests a scraper requires, the tests also needs to check the groups and the ingredients in each group are correct for the recipe. For the test cases where there are no ingredient groups, this should check for a single `IngredientGroup` object with `purpose=None` and `ingredients` set to the output from the scraper's `ingredients()` function. For the test case with ingredient groups, the output should match the groups in the recipe.
 
 Each test case will automatically inherit a test that checks to make sure the same ingredients are found in `.ingredients()` and in the groups returned from `.ingredient_groups()`, so there is no need to write this test in the scraper test cases.
+
+The test case **with** ingredient grouping should include a `test_ingredient_groups` method with each section of the ingredients separated out in the applicable test case like this example:
+
+```python
+from recipe_scrapers._grouping_utils import IngredientGroup
+
+    def test_ingredient_groups(self):
+        self.assertEqual(
+            [
+                IngredientGroup(
+                    ingredients=[
+                        "1¾ cups Graham cracker crumbs",
+                        "½ cup melted unsalted butter",
+                        "2 tablespoons granulated sugar",
+                    ],
+                    purpose="Crust:",
+                ),
+                IngredientGroup(
+                    ingredients=[
+                        "24 ounces cream cheese",
+                        "1½ cups powdered sugar (divided)",
+                        "⅓ cup sour cream",
+                        "2 teaspoons pure vanilla extract",
+                        "Juice of 1 lemon",
+                        "1¼ cups heavy whipping cream",
+                        "1 cup fresh raspberries (puréed)",
+                        "1 cup fresh blueberries (puréed)",
+                        "Whipped cream and fresh berries for garnish",
+                    ],
+                    purpose="Filling:",
+                ),
+            ],
+            self.harvester_class.ingredient_groups(),
+        )
+```
