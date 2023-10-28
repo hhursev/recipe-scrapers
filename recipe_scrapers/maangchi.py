@@ -42,12 +42,7 @@ class Maangchi(AbstractScraper):
         )
 
     def ratings(self):
-        rating_element = self.soup.find("p", {"class": "rmp-rating-widget__results"})
-        if rating_element:
-            rating_text = rating_element.find(
-                "span", {"class": "rmp-rating-widget__results__rating"}
-            ).text.strip()
-        return int(rating_text)
+        return self.schema.ratings()
 
     def cuisine(self):
         return self.schema.cuisine()
