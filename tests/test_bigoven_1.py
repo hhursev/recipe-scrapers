@@ -37,17 +37,17 @@ class TestBigOven(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "1 packet active dry yeast ; (or 2 ¼ teaspoons)",
-                "2 cups warm water ; divided",
+                "1 packet active dry yeast (or 2 ¼ teaspoons)",
+                "2 cups warm water divided",
                 "2 teaspoons granulated sugar",
                 "5 ½ cups bread flour",
-                "¼ cup extra-virgin olive oil ; (plus more to grease pans and dough)",
+                "¼ cup extra-virgin olive oil (plus more to grease pans and dough)",
                 "1 tablespoon sea salt (or kosher salt)",
-                "flaky sea salt ; (like Maldon)",
+                "flaky sea salt (like Maldon)",
                 "¼ cup extra-virgin olive oil",
                 "4 sprigs fresh rosemary leaves",
                 "3 sprigs fresh thyme leaves",
-                "2 sprigs fresh oregano ; (or various herbs of choice)",
+                "2 sprigs fresh oregano (or various herbs of choice)",
                 "¼ teaspoon crushed red pepper",
             ],
             self.harvester_class.ingredients(),

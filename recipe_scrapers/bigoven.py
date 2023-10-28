@@ -22,12 +22,7 @@ class BigOven(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        rows = self.soup.find("ul", {"class": "ingredients-list"}).findAll("li")
-        return [
-            normalize_string(row.span.text)
-            for row in rows
-            if "ingHeading" not in row.span["class"]
-        ]
+        return self.schema.ingredients()
 
     def ingredient_groups(self):
         return group_ingredients(

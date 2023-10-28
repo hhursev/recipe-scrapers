@@ -25,7 +25,7 @@ class TestAkisPetretzikisScraper(ScraperTest):
         self.assertEqual(40, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("8-10", self.harvester_class.yields())
+        self.assertEqual("10 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
@@ -49,6 +49,10 @@ class TestAkisPetretzikisScraper(ScraperTest):
                 "400 g water",
                 "1 tablespoon(s) chicken stock pot",
                 "2 tablespoon(s) tarragon",
+                "pepper",
+                "olive oil",
+                "lemon",
+                "parsley",
             ],
             self.harvester_class.ingredients(),
         )
