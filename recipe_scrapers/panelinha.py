@@ -4,6 +4,8 @@ import re
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
+from LatinFixer import LatinFix
+
 INSTRUCTIONS_NUMBERING_REGEX = re.compile(r"^\d{1,2}\.\s*")  # noqa
 
 
@@ -20,10 +22,13 @@ class Panelinha(AbstractScraper):
             "li"
         )
 
-        return [
-            normalize_string(ingredient.get_text().replace("\u00C2", ""))
-            for ingredient in ingredients
-        ]
+        results = []
+        for ingredient in ingredients:
+            ingredient_text = ingredient.text
+            ingredient_text = LatinFix(ingredient_text).apply_wrong_chars().text
+            ingredient_text = normalize_string(ingredient_text)
+            results.append(ingredient_text)
+        return results
 
     def instructions(self):
         instructions = self.soup.find(

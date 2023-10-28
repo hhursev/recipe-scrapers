@@ -39,18 +39,18 @@ class TestPanelinhaScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "2 bifes de filÃ© de peito de frango (cerca de 240 g)",
-                "â \x93 de xÃ\xadcara (chÃ¡) de arroz",
-                "â \x94 de xÃ\xadcara (chÃ¡) de lentilha",
+                "2 bifes de filé de peito de frango (cerca de 240 g)",
+                "â \x93 de xí\xadcara (chá) de arroz",
+                "â \x94 de xí\xadcara (chá) de lentilha",
                 "1 cebola",
                 "1 dente de alho",
-                "2 xÃ\xadcaras (chÃ¡) de Ã¡gua",
+                "2 xí\xadcaras (chá) de água",
                 "1½ colher (sopa) de azeite",
-                "½ colher (chÃ¡) de pimenta sÃ\xadria",
-                "1 colher (chÃ¡) de sal",
-                "1 pitada de aÃ§Ãºcar",
-                "¼ de xÃ\xadcara (chÃ¡) de nozes picadas",
-                "â \x93 de xÃ\xadcara (chÃ¡) de iogurte natural",
+                "½ colher (chá) de pimenta sí\xadria",
+                "1 colher (chá) de sal",
+                "1 pitada de açúcar",
+                "¼ de xí\xadcara (chá) de nozes picadas",
+                "â \x93 de xí\xadcara (chá) de iogurte natural",
             ],
             self.harvester_class.ingredients(),
         )
