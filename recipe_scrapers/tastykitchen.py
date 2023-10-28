@@ -12,12 +12,9 @@ class TastyKitchen(AbstractScraper):
         return self.soup.find("h1", {"itemprop": "name"}).get_text()
 
     def total_time(self):
-        return sum(
-            [
-                get_minutes(self.soup.find("time", {"itemprop": "prepTime"})),
-                get_minutes(self.soup.find("time", {"itemprop": "cookTime"})),
-            ]
-        )
+        prep_time = get_minutes(self.soup.find("time", {"itemprop": "prepTime"})) or 0
+        cook_time = get_minutes(self.soup.find("time", {"itemprop": "cookTime"})) or 0
+        return prep_time + cook_time
 
     def yields(self):
         return get_yields(self.soup.find("span", {"itemprop": "yield"}))

@@ -34,13 +34,3 @@ class MomsWithCrockPots(AbstractScraper):
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
-
-    def ratings(self):
-        return round(
-            float(
-                self.soup.find(
-                    "span", {"class": "wprm-recipe-rating-average"}
-                ).get_text()
-            ),
-            2,
-        )

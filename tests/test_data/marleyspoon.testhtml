@@ -1,11 +1,15 @@
+
+
 <!DOCTYPE html>
 <html lang="de-DE">
   <head>
+    <script type="text/javascript">
+      window.enabledFeatures = {"fruitbox":false,"checkout_flow":true,"cta_variants_a":false,"cta_variants_b":false,"manage_subscription_order_frequency":false}
+    </script>
+    
     
     <link rel="preload" type="font/woff2" href="/fonts/ms/b0b84e4d-2164-45c7-a674-1662f19f3ba6-13068386fe.woff2" as="font" crossorigin="anonymous">
     <link rel="preload" type="font/woff2" href="/fonts/ms/7db1f672-3a8f-4d19-9c49-7f61aed450b5-851774df81.woff2" as="font" crossorigin="anonymous">
-    <link rel="preload" type="font/woff2" href="/fonts/ms/336FCF_0_0-b794947eeb.woff2" as="font" crossorigin="anonymous">
-    <link rel="preload" type="font/woff2" href="/fonts/ms/df1cd944-a6a3-4d30-8fd3-391c2e9531f1-42ad978973.woff2" as="font" crossorigin="anonymous">
     <link rel="preload" type="font/woff2" href="/fonts/ms/40d36b4a-60c6-460a-bf43-4c948c23563e-34cde5cbb9.woff2" as="font" crossorigin="anonymous">
 
       <!-- OneTrust Cookies Consent Notice -->
@@ -13,7 +17,7 @@
   <script type="text/javascript">
     function OptanonWrapper() {
       window.dataLayer = window.dataLayer || []
-      window.dataLayer.push({ event: 'OnetrustGroupsUpdated' });
+      window.dataLayer.push({ event: 'OnetrustGroupsUpdated', funnelType: 'web_legacy_funnel'});
     }
   </script>
   <!-- OneTrust Cookies Consent Notice -->
@@ -90,7 +94,7 @@ var _rollbarConfig = {
         client: {
           javascript: {
             source_map_enabled: true,
-            code_version: "8443c01",
+            code_version: "55068dcea3bd18f4275799dc2106b91d0266826c",
             guess_uncaught_frames: true
           }
         }
@@ -252,9 +256,6 @@ if (!performance.clearMeasures) {
 <meta name="description" content="Kochen mit Marley Spoon - Hochwertige Zutaten - Rezepte von Profi-Köchen - Wöchentliche Lieferung - Jetzt Kochbox wählen">
 <meta name="keywords" content="marley Spoon Rezepte, marleyspoon Rezepte, Kochbox Rezepte, Kochboxen, Kochabo Rezepte, kochbox bestellen">
 
-<meta
-  name="apple-itunes-app"
-  content="app-id=1088840761, app-argument=https://app.adjust.com/ybxlef">
 
 
 
@@ -277,10 +278,10 @@ if (!performance.clearMeasures) {
 <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/ms/favicon/apple-touch-152x152-precomposed.png">
 
 
-<link rel='stylesheet' href='/stylesheets/ms-zurb-7af821009e.css'>
+<link rel='stylesheet' href='/stylesheets/ms-zurb-e6f02fa8b8.css'>
 
 <meta content="authenticity_token" name="csrf-param" />
-<meta content="qkTT80fNFfddwDj12G60UfBmEG/nrON4nTO6rF6kPs8=" name="csrf-token" />
+<meta content="RzOD+Fuh0w2L66YvUOEJqebuTC3oiGgsEbTwV5g5AOw=" name="csrf-token" />
 
     <meta property="og:description" content="Glasierte Veggie-Burger">
   <meta property="og:image" content="https://s3-eu-west-1.amazonaws.com/images-marleyspoon-production/media/recipes/113813/main_photos/large/veggie_burger_mit_ahornsirupglasur-52496098c98adf7b4a82b8b38fdf14dc.jpeg">
@@ -294,21 +295,24 @@ if (!performance.clearMeasures) {
 
 <script type="text/javascript">
 //<![CDATA[
-window.gon={};gon.current_brand="ms";gon.current_country="de";gon.current_currency="EUR";gon.env="production";gon.api_token="eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtcyIsImNvdW50cnkiOiJkZSIsImJyYW5kIjoibXMiLCJ0cyI6MTY1Mzg4ODg3NiwicmFuZG9tX2lkIjoiMGY4YjZkIn0.quv6_xQk0EjwKmHn7u_CltqMkPuNen-N6kncGHTjcbg";gon.api_host="https:\/\/api.marleyspoon.com";gon.git_revision="8443c01";gon.recipes_preview_enabled=false;
+window.gon={};gon.current_brand="ms";gon.current_brand_name="Marley Spoon";gon.current_country="de";gon.current_currency="EUR";gon.env="production";gon.api_token="eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtcyIsImNvdW50cnkiOiJkZSIsImJyYW5kIjoibXMiLCJ0cyI6MTY5NzA2MDUwMiwicmFuZG9tX2lkIjoiNzU1OGRlIn0.i1Nyx4aB2BQf0JmlSi4TPL9rmFbFpN8orSJRGuWina0";gon.api_host="https:\/\/api.marleyspoon.com";gon.git_revision="55068dcea3bd18f4275799dc2106b91d0266826c";gon.recipes_preview_enabled=false;gon.callback={"is_enabled":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJsZXlzcG9vbiIsImV4cCI6MTAwMDAwMDAwMDAwMDAsInF1ZXVlcyI6eyJkZSI6eyJpZCI6ImJmNDBiNzMxOWM3NTRjYTFhNWQ2MjNlMjFiMDU3ODFjIiwicGhvbmUiOjQ5MzAyMDg0ODA1MTAsImVuZ2xpc2hRdWV1ZU5hbWUiOiJlbi1kZSJ9LCJubCI6eyJpZCI6IjZkNjUzNTc3Y2Y0ZDRjZDQ5NWRjNzczYWM4ODlmNWJkIiwicGhvbmUiOjMxMzA4MDgwNDUyLCJlbmdsaXNoUXVldWVOYW1lIjoiZW4tbmwifSwiYXQiOnsiaWQiOiI2ZjQ1Njk5ZGQ5Njk0MjM5ODA3M2Y0ZGY0NjQyYzQyOCIsInBob25lIjo0MzcyMDgyODA1OCwic21zUGhvbmUiOjQ5MzAyMDg0ODA1MTAsImVuZ2xpc2hRdWV1ZU5hbWUiOiJlbi1hdCJ9LCJiZSI6eyJpZCI6IjY3MzAzNGM0N2UyNDQyYTM4ZjYzMzI2YjQ0M2NiMDdmIiwicGhvbmUiOjMyNzg0ODA3OTgsImVuZ2xpc2hRdWV1ZU5hbWUiOiJlbi1iZSJ9LCJkayI6eyJpZCI6IjMwMmI5ZmQ5ZTk5OTQ0NjI5N2Q5ZjI1ZDVhMjUyN2Y5IiwicGhvbmUiOjQ1ODk4ODgwMDMsImVuZ2xpc2hRdWV1ZU5hbWUiOiJlbi1kayJ9LCJzZSI6eyJpZCI6ImRmMGUwNGFlMTFjMTRlNzQ4MTM5OTM3YzUwMGRmYzczIiwicGhvbmUiOjQ2ODQ0Njg4MjQyLCJlbmdsaXNoUXVldWVOYW1lIjoiZW4tc2UifSwidXMiOnsiaWQiOiJjNDQ0ZDYzZGJlYWQ0ZjA0OGVhY2Y5OTBiZjUyMDE2ZCIsInBob25lIjoxODY2MjI4NDUxMywic21zUGhvbmUiOjE4ODgyNjcyODUwfSwiYXUiOnsiaWQiOiJiMmI2MmVjZmRiZTA0ZGY5OTY3NWQyZjRlMjcyOTIwZSIsInBob25lIjo2MTI2MTQ1MjkxMH0sImVuLWRlIjp7ImlkIjoiYzZiNzFlNzA2ZGVmNGY3MWJjMjk5NjkxMWFmNjU1N2QiLCJwaG9uZSI6NDkzMDIwODQ4MDUxMH0sImVuLWF0Ijp7ImlkIjoiNmY0NTY5OWRkOTY5NDIzOTgwNzNmNGRmNDY0MmM0MjgiLCJwaG9uZSI6NDM3MjA4MjgwNTh9LCJlbi1ubCI6eyJpZCI6IjI2YzQwMDVhY2I1ZTQxNTU5NTM2M2UzODliNWQwMGZkIiwicGhvbmUiOjMxMzA4MDgwNDUyfSwiZW4tYmUiOnsiaWQiOiJiMjI1Y2UyMjQxMDU0N2RhYjNjYTUwNjBjN2I2M2QzOSIsInBob25lIjozMjc4NDgwNzk4fSwiZW4tZGsiOnsiaWQiOiI1OGMyNGY2Y2EwZWQ0NTU5YjE3MjhiMTMzMjEwOWM5NSIsInBob25lIjo0NTg5ODg4MDAzfSwiZW4tc2UiOnsiaWQiOiI5YmNjNmU5MzI5YWY0NDAzOWUwYzcyNDRjYjU2ZmFjZSIsInBob25lIjo0Njg0NDY4ODI0Mn19fQ.Kxm3B9nfbcN9Ofel5BU9c2zjmKdZShh_RxcVCztpEas"};gon.self_service_complaints_gql_url="https:\/\/beef.marleyspoon.com\/steak\/graphql";gon.qualtrics={"order_satisfaction_survey":{"url":"https:\/\/marleyspoon.eu.qualtrics.com\/jfe\/form\/SV_3ENjTr6XALXNcR7"}};gon.iterable={"api_key":"ea308218dd9b428380e61ca02c03ac63","package_name":"todo","auth_token":""};
 //]]>
 </script>
 
-<script defer src="/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script defer src="/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
  <!-- moment already comes with en-us translations built in -->
 <script defer src="/ajax/libs/moment.js/2.27.0/locale/de.min.js" charset="UTF-8"></script>
 <script defer src="/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+<script defer src="/ajax/libs/msAnalytics/analytics.min.js"></script>
 
 <script defer src=/javascripts/manifest-496038555708afce1270.js></script>
-<script defer src=/javascripts/vendor-019afd512917ae08cccc.js></script>
-<script defer src=/javascripts/commons-5e4ab60481df6e7f19ac.js></script>
-<script defer src=/javascripts/locales/de-DE-dade9e20cd.js></script>
-<script defer src=/javascripts/menu-50d9af4948036629b689.js></script>
+<script defer src=/javascripts/vendor-fa82caea7c2b5252c681.js></script>
+<script defer src=/javascripts/commons-1dc9d168e04a89c8f613.js></script>
+<script defer src=/javascripts/locales/de-DE-31a363bc7f.js></script>
+<script defer src=/javascripts/menu-3dcdf63cef0506d9075b.js></script>
+
+
 
 
 
@@ -323,85 +327,206 @@ window.gon={};gon.current_brand="ms";gon.current_country="de";gon.current_curren
     <!-- display admin bar notice only in accounts area -->
     
 
-        <div class="ms-header nui__center" role="banner">
-  <div class="nui__wrapper nui__col-12">
+    <div class="page_header" id="page_header">
+      <meta
+  name="apple-itunes-app"
+  content="app-id=1088840761, app-argument=https://app.adjust.com/ybxlef">
+
+<script>
+
+  const bannerType = (function () {
+    const maxTouchPoints = window.navigator.maxTouchPoints
+
+    const userAgent = window.navigator.userAgent
+    if (/(MarleySpoonAndroid|MarleySpoonIOS|WebView)/i.test(userAgent)) {
+      return null
+    } else if (/Android/i.test(userAgent)) {
+      return 'android'
+    } else if ((!window.MSStream && !/X11|Linux/i.test(userAgent) && maxTouchPoints && maxTouchPoints > 0) || /iPhone|iPad|iPod/i.test(userAgent)) {
+      const isSafari = /Version\/[\d\.]+.*Safari/i.test(userAgent) && !/CriOS/.test(userAgent)
+      if (isSafari) {
+        // for safari, we're going to rely on the native banner
+        return null
+      }
+      return 'ios'
+    }
+
+    return null
+  })();
+
+
+  jQuery(($) => {
+
+    let appUrl = ''
+
+    switch (bannerType) {
+      case 'android':
+        appUrl = "https://yy6f.adj.st?adj_t=8fq6i4f&amp;adj_redirect=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.marleyspoon"
+        break
+      case 'ios':
+        appUrl = "https://yy6f.adj.st?adj_t=8fq6i4f&amp;adj_redirect=https%3A%2F%2Fapps.apple.com%2Fapp%2Fid1088840761"
+        break
+      default:
+        return
+    }
+
+    const bannerProp = 'app_download_banner_hidden'
+
+    const rawBannerState = localStorage.getItem(bannerProp)
+    let bannerState = {
+      lastHiddenAt: 0,
+      hideCount: 0
+    }
+    if (rawBannerState) {
+      try {
+        const parsedState = JSON.parse(rawBannerState) || {}
+        const lastHiddenAt = parseInt(parsedState.lastHiddenAt)
+        const hideCount = parseInt(parsedState.hideCount)
+        if (lastHiddenAt > 0 && hideCount > 0) {
+          bannerState = {
+            lastHiddenAt: lastHiddenAt,
+            hideCount: hideCount,
+          }
+        }
+      } catch (e) {
+        // ignore
+      }
+    }
+    const secondsInDay = 60 * 60 * 24
+
+    let showBanner = false
+
+    if (!gon.current_user_id) {
+      showBanner = false
+    } else if (
+      // banner never previously shown
+      (bannerState.hideCount === 0)
+      // banner shown once 14 days ago
+      || (bannerState.hideCount === 1 && (Date.now() - bannerState.lastHiddenAt > 14 * secondsInDay))
+      //
+      || (bannerState.hideCount > 1 && (Date.now() - bannerState.lastHiddenAt > 60 * secondsInDay))
+    ) {
+      showBanner = true
+    }
+
+    if (!showBanner) {
+      return
+    }
+
+    const content = `
+<div class="app-download-banner">
+  <a href="javascript:void(0);" class="app-download-banner__exit" data-action="close" ></a>
+  <div class="app-download-banner__icon" style="background-image: url(/images/ms/app_logo.webp);"></div>
+  <div class="app-download-banner__info">
+    <div class="app-download-banner__title">Marley Spoon: Kochbox</div>
+    <div class="app-download-banner__author">Einfach. Kreativ. Kochen.</div>
+  </div>
+  <a href="${appUrl}" target="_blank" class="app-download-banner__button" rel="noopener">
+    <span class="app-download-banner__button__label">Anzeigen</span>
+  </a>
+</div>
+    `
+
+    const $content = $(content)
+
+    $content.on('click', '[data-action]', (ev) => {
+      const action = $(ev.currentTarget).attr('data-action')
+      switch (action) {
+        case 'close':
+          try {
+            localStorage.setItem(bannerProp, JSON.stringify({
+              hideCount: bannerState.hideCount + 1,
+              lastHiddenAt: Date.now(),
+            }))
+          } catch (e) {/*ignore*/
+          }
+
+          $content.remove()
+          break
+      }
+    })
+
+    $('#page_header').prepend($content)
+  })
+</script>
+
+          <div class="ms-header nui__center" role="banner">
+  <div class="nui__wrapper">
     <div class="nui__mobile-menu hide-desktop hide">
       <div class="menu-container">
-        <a href="#" class="menu-btn svg-header--close-menu mt1 db" title="Menu schließen">
-          &times;
-        </a>
-        <nav>
-          <ul class="ml0 mv3 pv3 menu-items">
-            <li class="tab-title pb3 mr3">
+        <div>
+          <a href="#" class="menu-btn close-menu-btn mt1 db" title="Menu schließen">
+            <span class="svg-header--close-menu"></span>
+          </a>
+
+          <div class="menu-welcome">
+            <h5>Willkommen bei</h5>
+            <svg class="svg_logo " viewBox="0 0 140 20" width="130px"><path class="path" d="M14.394 12.706L12.483.45h-1.412L7.25 9.234 3.323.449H1.928L0 12.706h2.083l1.05-7.344 3.272 7.344h1.309l3.202-7.413 1.016 7.413h2.462zm14.102 0L22.917.45h-.844l-5.785 12.257h2.152l1.206-2.708h5.027l1.206 2.708h2.617zm-4.563-4.323h-3.564l1.756-3.976 1.808 3.976zM30.975.45v12.257h2.462V7.29c.482.087.93.14 1.43.14l3.099 5.277h2.754L37.328 6.89c1.275-.59 2.101-1.684 2.101-3.177 0-.573-.155-1.25-.448-1.736C38.172.64 36.846.449 35.417.449h-4.442zm2.462 1.684h1.016c1.309 0 2.462.451 2.462 1.962 0 1.198-.912 2.344-3.254 2.344h-.224V2.133zm17.631 10.573v-1.718h-5.475V.448h-2.48v12.258h7.955zm10.9 0V11.04h-5.855V7.203h4.511V5.518h-4.51V2.115h5.147V.45h-7.61v12.257h8.316zM89.976 3.21C89.719.71 87.704.05 85.879.05c-4.046 0-4.683 2.622-4.683 3.855 0 2.135 1.6 3.194 3.925 3.576 1.137.191 2.549.539 2.549 2.014 0 .955-.775 2.084-2.583 2.084-.603 0-2.703-.104-3.668-2.413l-.671.243c.155 1.823 1.377 3.663 4.546 3.663 3.546 0 4.907-2.153 4.907-4.063 0-1.77-1.05-3.125-4.236-3.733-1.618-.312-2.324-.833-2.324-1.84 0-1.563 1.687-1.91 2.651-1.91.43 0 2.359.07 2.979 1.858l.706-.174zM92.61.45v12.257h2.462V7.272c.465.052.913.122 1.395.122 2.204 0 4.718-1.164 4.718-3.716 0-1.684-1.137-3.23-3.96-3.23H92.61zm2.462 1.666h1.12c1.101 0 2.427.521 2.427 2.067 0 1.805-1.98 2.274-3.168 2.274h-.379v-4.34zm18.728 4.424c0-3.753-2.178-6.113-5.672-6.113-3.705 0-5.623 2.639-5.623 6.178 0 3.524 1.918 6.097 5.59 6.097 4.6 0 5.705-3.77 5.705-6.162zm-2.487 0c0 2.114-.584 4.621-3.152 4.621-2.6 0-3.137-2.655-3.137-4.769 0-1.983.73-4.424 3.104-4.424 2.503 0 3.185 2.474 3.185 4.572zm15.763 0c0-3.753-2.178-6.113-5.672-6.113-3.705 0-5.624 2.639-5.624 6.178 0 3.524 1.919 6.097 5.591 6.097 4.6 0 5.705-3.77 5.705-6.162zm-2.487 0c0 2.114-.585 4.621-3.153 4.621-2.6 0-3.136-2.655-3.136-4.769 0-1.983.73-4.424 3.104-4.424 2.503 0 3.185 2.474 3.185 4.572zm15.39 6.324V.449h-2.021v7.438L131.394.45h-2.217v12.257h2.037V3.725l8.117 9.138h.65zM74.288.45l-4.252 8.975L66.56.451h-2.653l4.758 11.955s.003.157-1.26 2.07c-1.194 1.812-2.82 3.382-5.092 3.603-2.131.208-4.405-.468-6.055-1.684l-.406.515.221.226c1.266 1.223 3.808 2.321 6.003 2.321a8.33 8.33 0 0 0 4.63-1.427c1.374-.926 2.342-2.252 3.196-3.656.258-.425.5-.858.743-1.292C71.97 10.714 76.708.56 76.758.45h-2.47z" fill="#101820" /></svg>
+
+            <div class="hide-tablet mt3">
+              <div class="mb2">
+                Du hast schon einen Account?
+                <strong><a class="nui__login-button" href="/login">Login</a></strong>
+              </div>
+                <a class="nui__signup-button nui__button--primary nui__button full" href="/select-plan">Kochbox wählen</a>
+
+            </div>
+
+          </div>
+          <div class="menu-divider"></div>
+          <nav>
+            <ul class="ml0  menu-items">
+              <li class="tab-title mr3">
   <a class="nui__menu-menu" href="/menu">Menü anzeigen</a>
 </li>
-<li class="tab-title pb3 mr3">
+<li class="tab-title mr3">
   <a class="nui__menu-how" href="/how">So funktioniert’s</a>
 </li>
 
-<li class="tab-title pb3 mr3 dropdown">
-  <span>Nachhaltigkeit</span>
-  <span class="arrow-icon svg-chevron-down"></span>
+
+
+<li class="tab-title mr3 dropdown">
+  <a href="javascript:void(0)">Nachhaltigkeit<span class="arrow-icon svg-chevron-down svg-chevron-down-black"></span></a>
   <ul>
-      <li><a href="https://stories.marleyspoon.de/carbon-neutral/" rel="noopener" target="_blank">Klimaneutralität</a></li>
-      <li><a href="https://recycle.marleyspoon.de/" rel="noopener" target="_blank">Recycling</a></li>
-      <li><a href="/assets/sustainability_report-bfced8efa07970812264854af19eab7c.pdf" rel="noopener" target="_blank">Nachhaltigkeitsreport</a></li>
+      <li><a href="https://marleyspoon.de/nachaltigkeit/carbon-neutral" rel="noopener" target="_blank">Klimaneutralität</a></li>
+      <li><a href="https://marleyspoon.de/nachaltigkeit/recycle" rel="noopener" target="_blank">Recycling</a></li>
+      <li><a href="/assets/sustainability_report-e4ef294279f499483ac0726205eb8786.pdf" rel="noopener" target="_blank">Nachhaltigkeitsreport</a></li>
   </ul>
 </li>
-  <li class="tab-title pb3 mr3 dropdown">
-    <span>Unsere Zutaten</span>
-    <span class="arrow-icon svg-chevron-down"></span>
+
+  <li class="tab-title mr3 dropdown">
+    <a href="javascript:void(0)">Unsere Zutaten<span class="arrow-icon svg-chevron-down svg-chevron-down-black"></span></a>
     <ul>
-        <li><a href="https://stories.marleyspoon.de/lieferanten/" rel="noopener" target="_blank">Unsere Zutaten</a></li>
-        <li><a href="https://stories.marleyspoon.de/gesunde-auswahl/" rel="noopener" target="_blank">Gesunde Auswahl</a></li>
-        <li><a href="https://stories.marleyspoon.de/unsere-lieferanten/" rel="noopener" target="_blank">Unsere Produzenten</a></li>
-        <li><a href="https://stories.marleyspoon.de/qualitaet-und-frische/" rel="noopener" target="_blank">Qualität &amp; Frische</a></li>
+        <li><a href="https://marleyspoon.de/zutaten" rel="noopener" target="_blank">Unsere Zutaten</a></li>
+        <li><a href="https://marleyspoon.de/zutaten/gesunde-auswahl" rel="noopener" target="_blank">Gesunde Auswahl</a></li>
+        <li><a href="https://marleyspoon.de/zutaten/unsere-lieferanten" rel="noopener" target="_blank">Unsere Produzenten</a></li>
+        <li><a href="https://marleyspoon.de/zutaten/qualitaet-und-frische" rel="noopener" target="_blank">Qualität &amp; Frische</a></li>
     </ul>
   </li>
-<li class="tab-title pb3 mr3">
+<li class="tab-title mr3">
   <a class="nui__menu-contact" href="https://support.marleyspoon.com/hc/de?origin=de" target="_blank">Kundenservice</a>
 </li>
 
-          </ul>
-          <ul class="ml0 mv3 pv3">
-            <li class="pb3">
-  <a href="https://careers.marleyspoon.com" target="_blank">Jobs</a>
-</li>
-<li class="pb3">
-  <a href="https://support.marleyspoon.com/hc/de?origin=de" target="_blank">Kundenservice</a>
-</li>
-<li class="pb3">
-  <a href="http://presse.marleyspoon.de/">Presse</a>
-</li>
-  <li class="pb3">
-    <a href="https://legal.marleyspoon.de/dsgvo">DSGVO</a>
-  </li>
-<li class="pb3">
-  <a href="/terms">AGB</a>
-</li>
-<li class="pb3">
-  <a href="/privacy">Datenschutz</a>
-</li>
-
-          </ul>
-        </nav>
-
-        <div class="sign-in nui__center hide-tablet">
-          <div class="nui__col-3">
-            <a class="nui__signup-button nui__button--primary nui__button full" href="/select-plan">Registrieren</a>
-          </div>
-          <div class="nui__login">
-            Du hast schon einen Account?
-            <a class="nui__login-button" href="/login">Login</a>
+            </ul>
+          </nav>
+          <div class="menu-divider"></div>
+          <div class="mobile_apps">
+            <p class="title">Unsere Apps</p>
+            <div class="mobile_badges">
+              <a href="https://yy6f.adj.st?adj_t=t56jf4f&amp;adj_redirect=https%3A%2F%2Fapps.apple.com%2Fapp%2Fid1088840761" rel="noopener" target="_blank"><img alt="Appstore" src="/assets/logos/app_store/AppStore-79d633e6e881694bc8784472d83b203f.svg" /></a><a href="https://yy6f.adj.st?adj_t=t56jf4f&amp;adj_redirect=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.marleyspoon" rel="noopener" target="_blank"><img alt="Google Play" src="/assets/logos/app_store/GooglePlay-5c9022fbdccfe456be83c1d1fb978492.svg" /></a>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
 
+      </div>
+      <div id="mobile-menu-backdrop" class="menu-backdrop"></div>
+    </div>
     <div class="nui__row nui__nowrap nui__header-menu">
       <div class="nui__col-2 nui__col-5--tablet nui__col-3--mobile">
         <div class="mobile-menu-button hide-desktop">
-          <a href="#" class="menu-btn nui__menu-open svg-hamburger-menu">menu</a>
+          <a href="#" class="menu-btn open-menu-btn nui__menu-open">
+            <span style="display: inline-block" class="svg-hamburger-menu"></span>
+          </a>
         </div>
         <div class="nui__logo de">
           <a href="/" class="nui__logo-link">Marley Spoon</a>
@@ -410,33 +535,34 @@ window.gon={};gon.current_brand="ms";gon.current_country="de";gon.current_curren
       <div class="desktop-menu nui__menu nui__col-8--desktop hide-mobile hide-tablet">
         <nav>
           <ul class="ma0">
-            <li class="tab-title pb3 mr3">
+            <li class="tab-title mr3">
   <a class="nui__menu-menu" href="/menu">Menü anzeigen</a>
 </li>
-<li class="tab-title pb3 mr3">
+<li class="tab-title mr3">
   <a class="nui__menu-how" href="/how">So funktioniert’s</a>
 </li>
 
-<li class="tab-title pb3 mr3 dropdown">
-  <span>Nachhaltigkeit</span>
-  <span class="arrow-icon svg-chevron-down"></span>
+
+
+<li class="tab-title mr3 dropdown">
+  <a href="javascript:void(0)">Nachhaltigkeit<span class="arrow-icon svg-chevron-down svg-chevron-down-black"></span></a>
   <ul>
-      <li><a href="https://stories.marleyspoon.de/carbon-neutral/" rel="noopener" target="_blank">Klimaneutralität</a></li>
-      <li><a href="https://recycle.marleyspoon.de/" rel="noopener" target="_blank">Recycling</a></li>
-      <li><a href="/assets/sustainability_report-bfced8efa07970812264854af19eab7c.pdf" rel="noopener" target="_blank">Nachhaltigkeitsreport</a></li>
+      <li><a href="https://marleyspoon.de/nachaltigkeit/carbon-neutral" rel="noopener" target="_blank">Klimaneutralität</a></li>
+      <li><a href="https://marleyspoon.de/nachaltigkeit/recycle" rel="noopener" target="_blank">Recycling</a></li>
+      <li><a href="/assets/sustainability_report-e4ef294279f499483ac0726205eb8786.pdf" rel="noopener" target="_blank">Nachhaltigkeitsreport</a></li>
   </ul>
 </li>
-  <li class="tab-title pb3 mr3 dropdown">
-    <span>Unsere Zutaten</span>
-    <span class="arrow-icon svg-chevron-down"></span>
+
+  <li class="tab-title mr3 dropdown">
+    <a href="javascript:void(0)">Unsere Zutaten<span class="arrow-icon svg-chevron-down svg-chevron-down-black"></span></a>
     <ul>
-        <li><a href="https://stories.marleyspoon.de/lieferanten/" rel="noopener" target="_blank">Unsere Zutaten</a></li>
-        <li><a href="https://stories.marleyspoon.de/gesunde-auswahl/" rel="noopener" target="_blank">Gesunde Auswahl</a></li>
-        <li><a href="https://stories.marleyspoon.de/unsere-lieferanten/" rel="noopener" target="_blank">Unsere Produzenten</a></li>
-        <li><a href="https://stories.marleyspoon.de/qualitaet-und-frische/" rel="noopener" target="_blank">Qualität &amp; Frische</a></li>
+        <li><a href="https://marleyspoon.de/zutaten" rel="noopener" target="_blank">Unsere Zutaten</a></li>
+        <li><a href="https://marleyspoon.de/zutaten/gesunde-auswahl" rel="noopener" target="_blank">Gesunde Auswahl</a></li>
+        <li><a href="https://marleyspoon.de/zutaten/unsere-lieferanten" rel="noopener" target="_blank">Unsere Produzenten</a></li>
+        <li><a href="https://marleyspoon.de/zutaten/qualitaet-und-frische" rel="noopener" target="_blank">Qualität &amp; Frische</a></li>
     </ul>
   </li>
-<li class="tab-title pb3 mr3">
+<li class="tab-title mr3">
   <a class="nui__menu-contact" href="https://support.marleyspoon.com/hc/de?origin=de" target="_blank">Kundenservice</a>
 </li>
 
@@ -445,29 +571,21 @@ window.gon={};gon.current_brand="ms";gon.current_country="de";gon.current_curren
       </div>
       <div class="buttons-container nui__right hide-mobile">
         <a class="nui__login-button" href="/login">Login</a>
-        <a class="nui__signup-button nui__button--primary nui__button" data-webp="true" href="/select-plan">Registrieren</a>
+          <a class="nui__signup-button nui__button--primary nui__button" data-webp="true" href="/select-plan">Kochbox wählen</a>
       </div>
     </div>
   </div>
-
 </div>
 
 
 
 
-    <div id="flash_message_container">
-  <!-- Don't render flash messages in general controller actions to be able to cache -->
+      <div id="failed_payments_banner_wrap"></div>
+
+      <div id="flash_message_container">
 </div>
 
-<div id="split_voucher_details"
-  class="reveal-modal ms-modal basic-modal"
-  data-options="close_on_background_click:false;close_on_esc:false;multiple_opened:true;"
-  data-reveal></div>
-
-<div id="split_voucher_details_no_modal"></div>
-
-<div id="split_voucher_details_test_anchor" class="hide"></div>
-
+    </div>
 
     
 
@@ -481,7 +599,7 @@ window.gon={};gon.current_brand="ms";gon.current_country="de";gon.current_curren
   <div class="recipe-wrapper-placeholder">
     <div id="recipe-placeholder" style="min-height:1000px">
       <div class="recipe-header nui__row" style="background-color: #FFFFFF;">
-        <div class="recipe-image__wrapper nui__row nui__col-12" style="background-color:#DADAD9">
+        <div class="recipe-image__wrapper nui__row nui__col-12" style="background-color:#E0E1E2">
           <svg height="100%" viewBox="0 0 180 180" width="100%" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="m89.9079251 179.907925c49.6545819 0 89.9076659-40.253084 89.9076659-89.907925 0-49.6548415-40.253084-89.90792507-89.9076659-89.90792507-49.6548415 0-89.9079251 40.25308357-89.9079251 89.90792507 0 49.654841 40.2530836 89.907925 89.9079251 89.907925" fill="#d3d3d3"/><g fill="#fff"><path d="m153.285 118.635v-25.429h-3.984v15.364l-13.656-15.364h-4.482v25.109h4.019v-18.494l16.858 18.814z"/><path d="m47.2227666 84.1933141-3.7037464-23.5574351h-2.7360519l-7.4077522 16.8839481-7.6077233-16.8839481h-2.702853l-3.7372046 23.5574351h4.0375504l2.0355043-14.114438 6.339683 14.114438h2.5360807l6.2063689-14.2480115 1.9685879 14.2480115zm26.6607493 0-10.8111528-23.5574351h-1.6350432l-11.2116138 23.5574351h4.1711239l2.3355907-5.2052161h9.743343l2.3358501 5.2052161zm-8.8425649-8.3085302h-6.9069164l3.4034006-7.6411816zm12.3126225-15.2489049v23.5574351h4.7715562v-10.4106916c.9342363.1667723 1.8018155.2668876 2.7695101.2668876l6.0061383 10.143804h5.3387896l-6.5733717-11.1781556c2.4691642-1.1344669 4.0707492-3.2366282 4.0707492-6.1062536 0-1.101268-.3003458-2.4025072-.8675792-3.3367435-1.5681268-2.5692796-4.1374063-2.9362824-6.9069164-2.9362824zm4.7715562 3.2366282h1.9685879c2.5360807 0 4.7715562.8675793 4.7715562 3.7704035 0 2.3023919-1.7683574 4.5046686-6.3064842 4.5046686h-.4336599zm32.8336603 20.3208069v-3.3032853h-10.610923v-20.2541498h-4.805014v23.5574351zm19.119423 0v-3.20317h-11.344928v-7.374294h8.742191v-3.2366282h-8.742191v-6.5401729h9.977032v-3.20317h-14.748588v23.5574351zm-93.6580977 14.6417291c-.5392219-5.178242-4.7466571-6.5445821-8.5582997-6.5445821-8.4504035 0-9.780951 5.4298271-9.780951 7.9830259 0 4.422968 3.3442651 6.616427 8.1988184 7.407752 2.3731988.395533 5.3219308 1.114755 5.3219308 4.171124 0 1.977925-1.6181844 4.315332-5.3940345 4.315332-1.2584439 0-5.6456196-.215793-7.6593372-4.998502l-1.402392.503429c.3236888 3.775851 2.8768877 7.587493 9.4933142 7.587493 7.4077521 0 10.2485879-4.45902 10.2485879-8.414611 0-3.667694-2.1937176-6.472737-8.846196-7.731181-3.3800576-.647378-4.8545533-1.726081-4.8545533-3.8119023 0-3.2363688 3.5240057-3.9553314 5.5377233-3.9553314.8992219 0 4.9266571.1436888 6.2211528 3.8476946zm6.6465129-6.0113256v26.5494814h5.3782133v-11.770548c1.0154179.112825 1.9932277.263257 3.0462536.263257 4.8140922 0 10.305389-2.519481 10.305389-8.0476083 0-3.6477233-2.4823919-6.9945821-8.6503746-6.9945821zm5.3782133 3.6101153h2.4445245c2.4071758 0 5.3029971 1.128242 5.3029971 4.4751011 0 3.91098-4.3249279 4.926397-6.9201441 4.926397h-.8273775zm42.3824784 9.4455911c0-8.144352-4.7658502-13.2657929-12.412219-13.2657929-8.1088185 0-12.3056196 5.7260231-12.3056196 13.4079249 0 7.646628 4.1968011 13.23026 12.2345533 13.23026 10.0649568 0 12.4832853-8.179885 12.4832853-13.372392zm-5.4414986 0c0 4.587925-1.2802305 10.029423-6.8996542 10.029423-5.6902305 0-6.8638616-5.761556-6.8638616-10.349481 0-4.303401 1.6002882-9.6025072 6.7927954-9.6025072 5.4770317 0 6.9707204 5.3701732 6.9707204 9.9225652zm35.2792217 0c0-8.144352-4.765591-13.2657929-12.411959-13.2657929-8.108819 0-12.30562 5.7260231-12.30562 13.4079249 0 7.646628 4.196801 13.23026 12.234294 13.23026 10.064957 0 12.483285-8.179885 12.483285-13.372392zm-5.441239 0c0 4.587925-1.28049 10.029423-6.899654 10.029423-5.69049 0-6.864121-5.761556-6.864121-10.349481 0-4.303401 1.600547-9.6025072 6.793055-9.6025072 5.476772 0 6.97072 5.3701732 6.97072 9.9225652z"/><path d="m156.082565 60.6268012-7.583862 15.8768299-6.201441-15.8768299h-4.730576s8.486715 21.1474063 8.486455 21.1476657c0 0 .004928.2770028-2.246887 3.6625072-2.131211 3.2044668-5.03196 5.9807204-9.083776 6.3721037-3.801008.3672623-7.856714-.8276369-10.798962-2.9798559l-.725447.9124496.395533.3991642c2.258041 2.1628531 6.791499 4.1057637 10.70611 4.1057637 2.927983 0 5.826398-.8984438 8.258732-2.5238905 2.451008-1.6378962 4.177349-3.9846397 5.700086-6.4680691.460375-.7508646.893516-1.5178098 1.325879-2.2847551 2.361009-4.1885014 10.814525-22.1485591 10.903747-22.3430835z"/></g></g></svg>
         </div>
 
@@ -575,128 +693,191 @@ window.gon={};gon.current_brand="ms";gon.current_country="de";gon.current_curren
       </div>
 
       <div id="siteFooter" class="footer" role="contentinfo">
-  <div class="siteMap siteMap-desktop nui__wrapper hide-mobile">
-  <nav class="nui__row nui__center">
-    <div class="nui__column nui__col-2 nui__flex nui__nopadding">
-      <div class="siteMap__contentWrapper">
-        <h4>Unternehmen</h4>
-        <ul>
-          <li><a href="/our-story">Über uns</a></li>
-          <li><a href="https://careers.marleyspoon.com" rel="noopener" target="_blank">Jobs</a></li>
-          <li><a href="/terms">AGB</a></li>
-          <li><a href="/privacy">Datenschutz</a></li>
-          <li><a href="/imprint">Impressum</a></li>
-          <li><a href="http://presse.marleyspoon.de/">Presse</a></li>
-            <li><a href="https://signup.marleyspoon.de/partnerprogramm/">Partnerprogramm</a></li>
-          <li><a href="https://ir.marleyspoon.com/investor-centre/?page=home">Investor Relations</a></li>
-        </ul>
-      </div>
+  <div class="siteMap siteMap-desktop nui__wrapper">
+  <nav class="siteMap__sections_wrap">
+    <div class="siteMap__section">
+      <h4>
+  <span class="header_text">Unternehmen</span>
+  <svg class="arrow_indicator" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path class="svg_fill_path" fill="black" d="M9.87998 1.29006L5.99998 5.17006L2.11998 1.29006C1.72998 0.900059 1.09998 0.900059 0.70998 1.29006C0.31998 1.68006 0.31998 2.31006 0.70998 2.70006L5.29998 7.29006C5.68998 7.68006 6.31998 7.68006 6.70998 7.29006L11.3 2.70006C11.69 2.31006 11.69 1.68006 11.3 1.29006C10.91 0.910059 10.27 0.900059 9.87998 1.29006Z"/>
+  </svg>
+</h4>
+      <ul>
+        <li><a href="/our-story">Über uns</a></li>
+        <li><a href="https://marleyspoon.com/careers" rel="noopener" target="_blank">Jobs</a></li>
+        <li><a href="/terms">AGB</a></li>
+        <li><a href="/privacy">Datenschutz</a></li>
+        <li><a href="/imprint">Impressum</a></li>
+        <li>
+          <a href="https://marleyspoon.de/about/presse">Presse</a>
+        </li>
+          <li><a href="https://marleyspoon.de/about/partnerprogramm">Partnerprogramm</a></li>
+        <li><a href="https://ir.marleyspoon.com/investor-centre/?page=home">Investor Relations</a></li>
+          <li><a href="https://marleyspoon.de/offer/gocertify">Senioren &amp; Studentenrabatt</a></li>
+      </ul>
     </div>
 
-    <div class="nui__column nui__col-2--tablet nui__col-2--desktop nui__flex nui__nopadding">
-      <div class="nui__row">
-        <div class="nui__col-2 nui__nopadding">
-          <div class="siteMap__contentWrapper">
-            <h4>Service</h4>
-            <ul>
-              <li><a href="/how">So funktioniert’s</a></li>
+    <div class="siteMap__section">
+      <h4>
+  <span class="header_text">Service</span>
+  <svg class="arrow_indicator" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path class="svg_fill_path" fill="black" d="M9.87998 1.29006L5.99998 5.17006L2.11998 1.29006C1.72998 0.900059 1.09998 0.900059 0.70998 1.29006C0.31998 1.68006 0.31998 2.31006 0.70998 2.70006L5.29998 7.29006C5.68998 7.68006 6.31998 7.68006 6.70998 7.29006L11.3 2.70006C11.69 2.31006 11.69 1.68006 11.3 1.29006C10.91 0.910059 10.27 0.900059 9.87998 1.29006Z"/>
+  </svg>
+</h4>
+      <ul>
+        <li><a href="/how">So funktioniert’s</a></li>
 <li><a href="http://marleyspoon.de/blog" target="_blank">Unser Blog</a></li>
-<li><a href="https://recycle.marleyspoon.de" rel="noopener" target="_blank">Recycling</a></li>
-<li><a href="https://stories.marleyspoon.de/lieferanten" rel="noopener" target="_blank">Lieferanten</a></li>
-<li><a href="https://marleyspoon.de/blog/zutatenliste" rel="noopener" target="_blank">Zutatenliste</a></li>
-<li><a href="https://stories.marleyspoon.de/aufbewahrungstipps/" rel="noopener" target="_blank">Aufbewahrungstipps</a></li>
-<li><a href="https://stories.marleyspoon.de/carbon-neutral/" rel="noopener" target="_blank">Klimaneutralität</a></li>
+<li><a href="https://marleyspoon.de/nachaltigkeit/recycle" rel="noopener" target="_blank">Recycling</a></li>
+<li><a href="https://marleyspoon.de/zutaten" rel="noopener" target="_blank">Lieferanten</a></li>
+<li><a href="https://marleyspoon.de/zutaten/ingredient-hub" rel="noopener" target="_blank">Zutatenliste</a></li>
+<li><a href="https://marleyspoon.de/zutaten/aufbewahrungstipps" rel="noopener" target="_blank">Aufbewahrungstipps</a></li>
+<li><a href="https://marleyspoon.de/nachaltigkeit/carbon-neutral" rel="noopener" target="_blank">Klimaneutralität</a></li>
 
-              
-                <li>
+        
+          <li>
       <a href="/blog/infos-zu-COVID-19" rel="noopener" target="_blank">Infos zu COVID-19</a>
 
   </li>
 
-            </ul>
-          </div>
-        </div>
-      </div>
+      </ul>
     </div>
 
-    <div class="nui__column nui__col-2--tablet nui__col-4--desktop nui__flex nui__nopadding">
-      <div class="nui__row">
-        <div class="nui__col-2 nui__nopadding">
-          <div class="siteMap__contentWrapper">
-            <h4>Hilfe &amp; Kontakt</h4>
-            <ul>
-                <li><a href="https://legal.marleyspoon.de/dsgvo">DSGVO</a></li>
-              <li><a href="https://support.marleyspoon.com/hc/de?origin=de" target="_blank">Kundenservice</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+    <div class="siteMap__section">
+      <h4>
+  <span class="header_text">Hilfe &amp; Kontakt</span>
+  <svg class="arrow_indicator" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path class="svg_fill_path" fill="black" d="M9.87998 1.29006L5.99998 5.17006L2.11998 1.29006C1.72998 0.900059 1.09998 0.900059 0.70998 1.29006C0.31998 1.68006 0.31998 2.31006 0.70998 2.70006L5.29998 7.29006C5.68998 7.68006 6.31998 7.68006 6.70998 7.29006L11.3 2.70006C11.69 2.31006 11.69 1.68006 11.3 1.29006C10.91 0.910059 10.27 0.900059 9.87998 1.29006Z"/>
+  </svg>
+</h4>
+      <ul>
+          <li><a href="https://marleyspoon.de/about/dsgvo">DSGVO</a></li>
+        <li><a href="https://support.marleyspoon.com/hc/de?origin=de" target="_blank">Kundenservice</a></li>
+          <li><a href="https://marleyspoon.de/offer/kuendigung" rel="noopener" target="_blank">Abonnement kündigen</a></li>
+      </ul>
     </div>
 
-    <div class="nui__column nui__col-2 nui__nopadding">
-      <div class="siteMap__contentWrapper">
-        <h4>Herunterladen als</h4>
-        <ul class="appBadges__list">
-          <li>
-            <a href="https://itunes.apple.com/app/marley-spoon-we-love-cooking/id1088840761?mt=8" target="_blank"><img alt="Appstore" src="/assets/logos/app_store/AppStore_DE-03df43fbd8bfc8e260cc53e4a5018d22.svg" /></a>          </li>
-          <li>
-            <a href="https://play.google.com/store/apps/details?id=com.marleyspoon" target="_blank"><img alt="Google Play" src="/assets/logos/app_store/GooglePlay_DE-6e92f2bf8ed15fbd76f64cf2bf19919b.svg" /></a>          </li>
-        </ul>
+    <div class="siteMap__section section_download_apps">
+      <h4>
+  <span class="header_text">Unsere Apps</span>
+  <svg class="arrow_indicator" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path class="svg_fill_path" fill="black" d="M9.87998 1.29006L5.99998 5.17006L2.11998 1.29006C1.72998 0.900059 1.09998 0.900059 0.70998 1.29006C0.31998 1.68006 0.31998 2.31006 0.70998 2.70006L5.29998 7.29006C5.68998 7.68006 6.31998 7.68006 6.70998 7.29006L11.3 2.70006C11.69 2.31006 11.69 1.68006 11.3 1.29006C10.91 0.910059 10.27 0.900059 9.87998 1.29006Z"/>
+  </svg>
+</h4>
+
+      <svg  class="app_store_qr_code" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" shape-rendering="crispEdges">
+  <path class="svg_background" fill="white" d="M0 0h41v41H0z"/>
+    <path class="svg_fill" stroke="black" d="M0 0.5h7m2 0h1m2 0h5m3 0h3m1 0h2m2 0h2m4 0h7M0 1.5h1m5 0h1m1 0h5m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h2m4 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m2 0h3m3 0h2m1 0h1m3 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h4m6 0h5m2 0h2m2 0h1m1 0h2m1 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m2 0h2m1 0h1m1 0h2m1 0h4m1 0h1m5 0h1m1 0h3m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m2 0h2m3 0h1m2 0h2m2 0h2m3 0h1m1 0h1m1 0h1m1 0h1m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h5m1 0h1m3 0h1m1 0h1m3 0h1m2 0h2m3 0h1M0 8.5h1m5 0h1m1 0h2m2 0h1m1 0h1m2 0h2m3 0h1m1 0h3m2 0h1m3 0h2m2 0h3M3 9.5h3m2 0h1m1 0h4m2 0h1m2 0h1m2 0h3m1 0h2m1 0h1m1 0h1m3 0h2M0 10.5h2m2 0h6m4 0h3m3 0h1m3 0h1m1 0h3m3 0h2m1 0h2M1 11.5h1m1 0h3m2 0h1m1 0h1m4 0h2m2 0h2m9 0h5m2 0h1m1 0h1M0 12.5h3m2 0h2m1 0h1m1 0h2m1 0h1m4 0h1m1 0h2m1 0h1m3 0h1m2 0h1m1 0h1m1 0h2m3 0h2M3 13.5h1m3 0h2m2 0h1m2 0h2m2 0h3m1 0h3m2 0h2m3 0h5m1 0h1m1 0h1M1 14.5h1m1 0h1m1 0h4m3 0h1m1 0h1m1 0h2m2 0h3m2 0h1m1 0h2m3 0h2m1 0h1M1 15.5h3m1 0h1m4 0h1m2 0h1m1 0h2m1 0h2m3 0h2m2 0h1m2 0h4m1 0h1m1 0h4M2 16.5h1m3 0h1m2 0h3m2 0h1m1 0h2m2 0h1m3 0h1m1 0h1m2 0h1m3 0h1m1 0h1m2 0h1M5 17.5h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h6m1 0h1m4 0h1m3 0h7m2 0h1M0 18.5h2m2 0h4m1 0h3m1 0h3m3 0h1m3 0h3m1 0h1m1 0h3m3 0h2m1 0h1m1 0h1M1 19.5h2m4 0h1m1 0h1m2 0h1m1 0h5m3 0h3m1 0h2m4 0h1m3 0h2m2 0h1M0 20.5h3m2 0h3m2 0h1m2 0h3m3 0h1m2 0h1m2 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h3M0 21.5h1m2 0h3m2 0h1m2 0h3m1 0h2m1 0h2m2 0h1m2 0h1m1 0h1m2 0h2m3 0h4M2 22.5h5m1 0h8m1 0h1m2 0h1m4 0h1m1 0h2m1 0h1m3 0h1M1 23.5h1m2 0h2m1 0h2m2 0h2m1 0h3m2 0h2m1 0h2m3 0h2m1 0h2m2 0h2m1 0h1M1 24.5h1m3 0h2m3 0h2m1 0h2m1 0h1m3 0h1m7 0h1m2 0h2m1 0h2m1 0h1m1 0h1M0 25.5h2m2 0h2m4 0h4m1 0h2m1 0h2m1 0h1m1 0h1m2 0h4m1 0h1m2 0h4m2 0h1M2 26.5h1m3 0h1m2 0h1m2 0h3m1 0h2m2 0h1m1 0h1m3 0h2m4 0h1m3 0h1M1 27.5h2m1 0h2m5 0h2m2 0h2m1 0h1m4 0h2m2 0h1m3 0h1m2 0h2m1 0h2M1 28.5h4m1 0h3m2 0h1m2 0h1m2 0h1m1 0h4m1 0h3m1 0h1m2 0h3m1 0h1m1 0h2m1 0h1M0 29.5h3m2 0h1m1 0h1m4 0h3m3 0h2m3 0h1m2 0h1m1 0h1m1 0h2m2 0h1m1 0h3m1 0h1M0 30.5h2m4 0h1m2 0h1m4 0h1m1 0h1m2 0h2m1 0h8m1 0h1m1 0h1m4 0h1m1 0h1M0 31.5h1m1 0h1m4 0h1m1 0h2m1 0h1m2 0h1m2 0h1m7 0h2m2 0h1m1 0h1m1 0h1m1 0h2M0 32.5h1m2 0h5m2 0h1m1 0h2m1 0h4m1 0h3m2 0h1m2 0h2m2 0h7M8 33.5h1m3 0h3m1 0h1m1 0h2m2 0h3m1 0h2m3 0h2m3 0h1m1 0h2M0 34.5h7m3 0h3m1 0h3m1 0h1m2 0h2m2 0h1m1 0h1m3 0h2m1 0h1m1 0h1m2 0h1M0 35.5h1m5 0h1m2 0h1m2 0h3m1 0h1m2 0h2m5 0h1m3 0h1m1 0h1m3 0h2m1 0h2M0 36.5h1m1 0h3m1 0h1m3 0h1m1 0h1m1 0h7m1 0h2m1 0h1m1 0h2m2 0h7m2 0h1M0 37.5h1m1 0h3m1 0h1m3 0h1m1 0h2m2 0h1m2 0h4m4 0h2m1 0h3m2 0h1m2 0h1m1 0h1M0 38.5h1m1 0h3m1 0h1m3 0h1m1 0h3m5 0h1m1 0h1m1 0h1m1 0h2m2 0h1m1 0h5m1 0h1M0 39.5h1m5 0h1m6 0h1m1 0h2m1 0h3m2 0h2m2 0h1m2 0h1m3 0h1m1 0h1m1 0h1m1 0h1M0 40.5h7m1 0h1m3 0h1m2 0h1m1 0h1m4 0h1m2 0h3m1 0h3m3 0h2m1 0h1"/>
+</svg>
+
+
+      <div class="app_download_badges">
+        <a href="https://yy6f.adj.st?adj_t=8fq6i4f&amp;adj_redirect=https%3A%2F%2Fapps.apple.com%2Fapp%2Fid1088840761" rel="noopener" target="_blank"><img alt="Appstore" src="/assets/logos/app_store/AppStore-79d633e6e881694bc8784472d83b203f.svg" /></a><a href="https://yy6f.adj.st?adj_t=8fq6i4f&amp;adj_redirect=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.marleyspoon" rel="noopener" target="_blank"><img alt="Google Play" src="/assets/logos/app_store/GooglePlay-5c9022fbdccfe456be83c1d1fb978492.svg" /></a>
       </div>
     </div>
 
   </nav>
 </div>
 
-<div class="extraInfo">
-  <div class="nui__wrapper nui__row">
-    <div class="nui__column nui__one-third hide-mobile nui__flex">
-      <h4>Bezahle mit</h4>
-      
-<ul class="items-list payment-methods">
-    <li class="svg-payment--visa_small" aria-label="visa"></li>
-    <li class="svg-payment--mastercard_small" aria-label="mastercard"></li>
-    <li class="svg-payment--paypal_small" aria-label="paypal"></li>
-    <li class="svg-payment--amex_small" aria-label="amex"></li>
-    <li class="svg-payment--ec_small" aria-label="ec"></li>
-    <li class="svg-payment--elv_small" aria-label="elv"></li>
-</ul>
 
+
+<div class="extraInfo">
+  <div class="hide-desktop hide-tablet subsection">
+    <h4>Unsere Apps</h4>
+    <div class="app_download_badges">
+      <a href="https://yy6f.adj.st?adj_t=8fq6i4f&amp;adj_redirect=https%3A%2F%2Fapps.apple.com%2Fapp%2Fid1088840761" rel="noopener" target="_blank"><img alt="Appstore" src="/assets/logos/app_store/AppStore-79d633e6e881694bc8784472d83b203f.svg" /></a><a href="https://yy6f.adj.st?adj_t=8fq6i4f&amp;adj_redirect=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.marleyspoon" rel="noopener" target="_blank"><img alt="Google Play" src="/assets/logos/app_store/GooglePlay-5c9022fbdccfe456be83c1d1fb978492.svg" /></a>
     </div>
+  </div>
+
+  <div class="nui__wrapper nui__row subsection">
     <div class="nui__column nui__one-third nui__flex">
       
+  <div class="sitemap_social_networks">
+    <h4>Werde Teil unserer Community</h4>
+    <ul class="items-list social-networks" role="navigation">
+        <li>
+          <a href="https://www.facebook.com/marleyspoonDE" target="_blank" rel="noopener">
+            <img style="width: 26px" src="/images/logos/social_media/facebook.svg" alt="facebook"/>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/marleyspoonde/" target="_blank" rel="noopener">
+            <img style="width: 26px" src="/images/logos/social_media/instagram.svg" alt="instagram"/>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.tiktok.com/@marleyspooneu" target="_blank" rel="noopener">
+            <img style="width: 26px" src="/images/logos/social_media/tiktok.svg" alt="tiktok"/>
+          </a>
+        </li>
+    </ul>
+  </div>
 
-<div class="socialMedia">
-  <h4>Werde Teil unserer Community</h4>
-  <ul class="items-list" role="navigation">
+    </div>
+    <div class="nui__column nui__one-third hide-mobile nui__flex">
+      
+    <h4>Bezahle mit</h4>
+  <ul class="items-list payment-methods">
       <li>
-        <a class="svg-social_media--facebook" href="https://www.facebook.com/marleyspoonDE" target="_blank" aria-label="Facebook" rel="noopener"></a>
+        <img style="width: 40px" src="/images/logos/payment/american-express.svg" alt="amex"/>
       </li>
       <li>
-        <a class="svg-social_media--instagram" href="https://www.instagram.com/marleyspoonde" target="_blank" aria-label="Instagram" rel="noopener"></a>
+        <img style="width: 40px" src="/images/logos/payment/mastercard-alt.svg" alt="mastercard"/>
       </li>
       <li>
-        <a class="svg-social_media--pinterest" href="https://nl.pinterest.com/marleyspoonde/_saved/" target="_blank" aria-label="Pinterest" rel="noopener"></a>
+        <img style="width: 40px" src="/images/logos/payment/visa.svg" alt="visa"/>
+      </li>
+      <li>
+        <img style="width: 40px" src="/images/logos/payment/discover.svg" alt="discover"/>
+      </li>
+      <li>
+        <img style="width: 40px" src="/images/logos/payment/paypal.svg" alt="paypal"/>
       </li>
   </ul>
-</div>
 
     </div>
   </div>
+
+  <div class="hide-desktop hide-tablet subsection">
+    
+    <h4>Bezahle mit</h4>
+  <ul class="items-list payment-methods">
+      <li>
+        <img style="width: 40px" src="/images/logos/payment/american-express.svg" alt="amex"/>
+      </li>
+      <li>
+        <img style="width: 40px" src="/images/logos/payment/mastercard-alt.svg" alt="mastercard"/>
+      </li>
+      <li>
+        <img style="width: 40px" src="/images/logos/payment/visa.svg" alt="visa"/>
+      </li>
+      <li>
+        <img style="width: 40px" src="/images/logos/payment/discover.svg" alt="discover"/>
+      </li>
+      <li>
+        <img style="width: 40px" src="/images/logos/payment/paypal.svg" alt="paypal"/>
+      </li>
+  </ul>
+
+  </div>
+
 </div>
 
 <div class="copyright">
-  <div class="nui__wrapper nui__row nui__center">
-
-    <span class="copyright__statement nui__column nui__col-4 nui__col-6--desktop de">2022 © Marley Spoon AG. Alle Rechte vorbehalten.</span>
+  <div class="nui__wrapper footer-content">
+    <a href="/" target="_blank">
+      <svg class="svg_logo copyright__logo" viewBox="0 0 140 20"><path class="path" d="M14.394 12.706L12.483.45h-1.412L7.25 9.234 3.323.449H1.928L0 12.706h2.083l1.05-7.344 3.272 7.344h1.309l3.202-7.413 1.016 7.413h2.462zm14.102 0L22.917.45h-.844l-5.785 12.257h2.152l1.206-2.708h5.027l1.206 2.708h2.617zm-4.563-4.323h-3.564l1.756-3.976 1.808 3.976zM30.975.45v12.257h2.462V7.29c.482.087.93.14 1.43.14l3.099 5.277h2.754L37.328 6.89c1.275-.59 2.101-1.684 2.101-3.177 0-.573-.155-1.25-.448-1.736C38.172.64 36.846.449 35.417.449h-4.442zm2.462 1.684h1.016c1.309 0 2.462.451 2.462 1.962 0 1.198-.912 2.344-3.254 2.344h-.224V2.133zm17.631 10.573v-1.718h-5.475V.448h-2.48v12.258h7.955zm10.9 0V11.04h-5.855V7.203h4.511V5.518h-4.51V2.115h5.147V.45h-7.61v12.257h8.316zM89.976 3.21C89.719.71 87.704.05 85.879.05c-4.046 0-4.683 2.622-4.683 3.855 0 2.135 1.6 3.194 3.925 3.576 1.137.191 2.549.539 2.549 2.014 0 .955-.775 2.084-2.583 2.084-.603 0-2.703-.104-3.668-2.413l-.671.243c.155 1.823 1.377 3.663 4.546 3.663 3.546 0 4.907-2.153 4.907-4.063 0-1.77-1.05-3.125-4.236-3.733-1.618-.312-2.324-.833-2.324-1.84 0-1.563 1.687-1.91 2.651-1.91.43 0 2.359.07 2.979 1.858l.706-.174zM92.61.45v12.257h2.462V7.272c.465.052.913.122 1.395.122 2.204 0 4.718-1.164 4.718-3.716 0-1.684-1.137-3.23-3.96-3.23H92.61zm2.462 1.666h1.12c1.101 0 2.427.521 2.427 2.067 0 1.805-1.98 2.274-3.168 2.274h-.379v-4.34zm18.728 4.424c0-3.753-2.178-6.113-5.672-6.113-3.705 0-5.623 2.639-5.623 6.178 0 3.524 1.918 6.097 5.59 6.097 4.6 0 5.705-3.77 5.705-6.162zm-2.487 0c0 2.114-.584 4.621-3.152 4.621-2.6 0-3.137-2.655-3.137-4.769 0-1.983.73-4.424 3.104-4.424 2.503 0 3.185 2.474 3.185 4.572zm15.763 0c0-3.753-2.178-6.113-5.672-6.113-3.705 0-5.624 2.639-5.624 6.178 0 3.524 1.919 6.097 5.591 6.097 4.6 0 5.705-3.77 5.705-6.162zm-2.487 0c0 2.114-.585 4.621-3.153 4.621-2.6 0-3.136-2.655-3.136-4.769 0-1.983.73-4.424 3.104-4.424 2.503 0 3.185 2.474 3.185 4.572zm15.39 6.324V.449h-2.021v7.438L131.394.45h-2.217v12.257h2.037V3.725l8.117 9.138h.65zM74.288.45l-4.252 8.975L66.56.451h-2.653l4.758 11.955s.003.157-1.26 2.07c-1.194 1.812-2.82 3.382-5.092 3.603-2.131.208-4.405-.468-6.055-1.684l-.406.515.221.226c1.266 1.223 3.808 2.321 6.003 2.321a8.33 8.33 0 0 0 4.63-1.427c1.374-.926 2.342-2.252 3.196-3.656.258-.425.5-.858.743-1.292C71.97 10.714 76.708.56 76.758.45h-2.47z" fill="#101820" /></svg>
+</a>
+    <span class="copyright__statement de">2023 © Marley Spoon SE. Alle Rechte vorbehalten.</span>
   </div>
-
-    <div class="nui__wrapper nui__row nui__center">
-      <a href="https://marleyspoon.dlg-trusted-food.com/" target="_blank" rel="noreferrer" class="mb0-ns mb5">
-        <img alt="DLG Trusted Food - Certified Online Shop" loading="lazy" src="/assets/ms/footer/dlg-c25fc6429edac64963dfb0bc2a86d432.jpeg" />
-      </a>
-    </div>
 </div>
+
+<script defer >
+  jQuery(function ($){
+    $('#siteFooter').delegate('.siteMap__section h4','click', function(){
+      $(this).closest('.siteMap__section').toggleClass('expanded')
+    })
+  })
+</script>
 
 </div>
 
@@ -704,8 +885,8 @@ window.gon={};gon.current_brand="ms";gon.current_country="de";gon.current_curren
 
     <script
   defer
+    data-handle= 'marleyspoon'
   id="__ada"
-  data-handle="marleyspoon"
   src="https://static.ada.support/embed2.js"
 ></script>
 
@@ -713,7 +894,8 @@ window.gon={};gon.current_brand="ms";gon.current_country="de";gon.current_curren
   var userID = ''
     , email  = ''
     , orders = ''
-    , name   = '';
+    , name   = ''
+    , first_name = '';
 
 
   window.adaSettings = {
@@ -725,7 +907,41 @@ window.gon={};gon.current_brand="ms";gon.current_country="de";gon.current_curren
       user_id: userID,
       email: email,
       orders: orders,
-      name: name
+      name: name,
+      first_name: first_name
+    },
+    chatterTokenCallback: (chatter) => {
+      if (!!gon.current_user_id) {
+        const mut = `
+mutation($userId:Int!) {
+  generateSteakAuthToken(userId: $userId){
+    token
+    error{
+      code
+      message
+    }
+  }
+}
+`
+      $.ajax({
+        url: gon.self_service_complaints_gql_url,
+        type: 'post',
+        dataType: 'json',
+        data: JSON.stringify({
+          query: mut,
+          variables: { userId: gon.current_user_id }
+        }),
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+          'Authorization': 'Bearer ' + gon.api_token
+        }
+      }).then((resp) => {
+        const mutationResponse = resp.data.generateSteakAuthToken
+        window.adaEmbed.setMetaFields({
+          complaints_auth_token: mutationResponse.token,
+        });
+      })}
     }
   };
 </script>
@@ -735,5 +951,16 @@ window.gon={};gon.current_brand="ms";gon.current_country="de";gon.current_curren
       class="reveal-modal ms-modal basic-modal"
       data-options="close_on_background_click:false;close_on_esc:false;"
       data-reveal></div>
+
+    <div id="cancellation-confirmation-modal"
+      class="reveal-modal ms-modal basic-modal"
+      data-options="close_on_background_click:false;close_on_esc:false;"
+      data-reveal></div>
+
+    <div id="failed-payment-modal"
+      class="reveal-modal ms-modal basic-modal"
+      data-options="close_on_background_click:false;close_on_esc:false;"
+      data-reveal></div>
+
   </body>
 </html>

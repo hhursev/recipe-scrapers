@@ -12,6 +12,12 @@ class TestOnceUponAChefScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("onceuponachef.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.onceuponachef.com/recipes/spiced-pumpkin-bread.html",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("By Jenn Segal", self.harvester_class.author())
 

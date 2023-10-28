@@ -11,6 +11,12 @@ class TestMinistryOfCurryScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("ministryofcurry.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://ministryofcurry.com/slow-cooker-chicken-tikka-masala/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(
             "Slow Cooker EASY Chicken Tikka Masala", self.harvester_class.title()
@@ -57,7 +63,7 @@ class TestMinistryOfCurryScraper(ScraperTest):
         self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def test_ratings(self):
-        self.assertEqual(4.7, self.harvester_class.ratings())
+        self.assertEqual(4.69, self.harvester_class.ratings())
 
     def test_cuisine(self):
         self.assertEqual("Indian", self.harvester_class.cuisine())

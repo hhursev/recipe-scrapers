@@ -30,7 +30,7 @@
   <link rel="stylesheet" href="/campaigns/static/nhsuk/css/main.b9972d13bc4e.css" type="text/css" />
 
   
-<link rel="stylesheet" type="text/css" href="/campaigns/static/css/hf.a5087edbc63c.css">
+<link rel="stylesheet" type="text/css" href="/campaigns/static/css/hf.2e029550b0e1.css">
 
 
   
@@ -67,7 +67,7 @@
     <meta property="og:image" content="https://assets.nhs.uk/campaigns-cms-prod/images/Chilli-con-carne.width-1200.jpg">
     <meta property="og:image:alt" content="Chilli made with beef, mushrooms, peppers and kidney beans served with rice"/>
     <meta property="article:author" content="https://www.facebook.com/nhswebsite/">
-    <meta property="article:modified_time" content="8 Apr 2022, 1:46 p.m.">
+    <meta property="article:modified_time" content="30 May 2023, 4:11 p.m.">
     <meta property="article:published_time" content="8 Apr 2022, 1:46 p.m.">
     <meta property="article:section" content="HFSiteHubPage">
     <meta name="twitter:card" content="summary_large_image">
@@ -75,7 +75,7 @@
     <meta name="twitter:creator" content="@nhsuk">
     <meta name="twitter:image:alt" content="Chilli made with beef, mushrooms, peppers and kidney beans served with rice"/>
   
-  
+
   <script src="https://assets.nhs.uk/scripts/cookie-consent.js"></script>
 
   <script type="application/javascript">window.digitalData=
@@ -95,28 +95,20 @@
             </script>
 
   <script src="https://assets.adobedtm.com/launch-ENe7f6cdd7cc05409b86547d9153429788.min.js" data-cookieconsent="statistics" type="text/plain" async></script>
-  
-  <!-- Hotjar Tracking Code for https://www.nhs.uk -->
-    <script type="text/plain" data-cookieconsent="statistics">
-      (function (h, o, t, j, a, r) {
-        h.hj = h.hj || function () {
-          (h.hj.q = h.hj.q || []).push(arguments)
-        };
-        h._hjSettings = {
-          hjid: 681718,
-          hjsv: 6
-        };
-        a = o.getElementsByTagName('head')[0];
-        r = o.createElement('script');
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-      })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
 
   <script>
     window.NHSUK_SETTINGS = {};
-    window.NHSUK_SETTINGS.CAMPAIGNS_EVENT_API_ENDPOINT = "//oneyou-cms.nhswebsite.nhs.uk/api/report/record/event/";
+    window.NHSUK_SETTINGS.CAMPAIGNS_EVENT_API_ENDPOINT = "https://appnhsukeventloggermasterprod.azurewebsites.net/event";
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1K4S0MRD2T" type="text/plain" data-cookieconsent="statistics"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-1K4S0MRD2T');
   </script>
 
     <!--  js for card component-->
@@ -135,7 +127,7 @@
 
 
 
-<header class="nhsuk-header nhsuk-header--white" role="banner">
+<header  id="hf_header" class="nhsuk-header" role="banner">
     <div class="nhsuk-width-container nhsuk-header__container app-article-header">
       <div class="app-article-logo">
         <a href="/healthier-families">
@@ -144,11 +136,14 @@
         </a>
       </div>
       <div class="nhsuk-header__logo nhsuk-header__logo--only">
-          <svg class="nhsuk-logo" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 16" role="img" aria-labelledby="altText">
-            <title id="altText">NHS logo</title>
-            <path class="nhsuk-logo__background" d="M0 0h40v16H0z"></path>
-            <path class="nhsuk-logo__text" d="M3.9 1.5h4.4l2.6 9h.1l1.8-9h3.3l-2.8 13H9l-2.7-9h-.1l-1.8 9H1.1M17.3 1.5h3.6l-1 4.9h4L25 1.5h3.5l-2.7 13h-3.5l1.1-5.6h-4.1l-1.2 5.6h-3.4M37.7 4.4c-.7-.3-1.6-.6-2.9-.6-1.4 0-2.5.2-2.5 1.3 0 1.8 5.1 1.2 5.1 5.1 0 3.6-3.3 4.5-6.4 4.5-1.3 0-2.9-.3-4-.7l.8-2.7c.7.4 2.1.7 3.2.7s2.8-.2 2.8-1.5c0-2.1-5.1-1.3-5.1-5 0-3.4 2.9-4.4 5.8-4.4 1.6 0 3.1.2 4 .6"></path>
-          </svg>
+        <svg id="a" class="nhsuk-logo" xmlns="http://www.w3.org/2000/svg" width="63.39" height="25.53" aria-labelledby="altText" focusable="false" role="img" viewBox="0 0 63.39 25.53">
+          <defs>
+            <style>.nhsuk-logo__text{fill:#005eb8;}.nhsuk-logo__background{fill:#fff;}</style>
+          </defs>
+          <title id="altText">NHS logo</title>
+          <rect class="nhsuk-logo__background" x=".74" y=".87" width="61.02" height="23.62"/>
+          <path class="nhsuk-logo__text" d="M61.02,3.02l-1.33,4.09c-1.06-.5-2.52-.94-4.56-.94-2.19,0-3.96,.32-3.96,1.97,0,2.91,8.02,1.83,8.02,8.07,0,5.68-5.3,7.15-10.09,7.15-2.13,0-4.59-.5-6.39-1.06l1.3-4.18c1.09,.71,3.28,1.18,5.09,1.18s4.41-.33,4.41-2.44c0-3.3-8.02-2.06-8.02-7.86,0-5.3,4.68-6.89,9.2-6.89,2.55,0,4.94,.27,6.33,.91m-15.89-.56l-4.29,20.55h-5.53l1.83-8.8h-6.54l-1.83,8.8h-5.53L27.53,2.46h5.53l-1.62,7.86h6.54l1.63-7.86h5.53Zm-19.64,0l-4.38,20.55h-6.87l-4.32-14.22h-.06l-2.87,14.22H1.79L6.2,2.46h6.89l4.23,14.25h.06l2.9-14.25h5.21ZM63.39,0H0V25.53H63.39V0Z"/>
+        </svg>
       </div>
     </div>
 
@@ -169,7 +164,7 @@
         </li>
         
         <li class="bh-new-nav__item ia-new-nav__item--active">
-            <a class="bh-new-nav__link ancestor" href="/healthier-families/recipes/" >
+            <a class="bh-new-nav__link app-nav-active" href="/healthier-families/recipes/" >
                 <span class="bh-new-nav__link--break">Recipes</span>
             </a>
         </li>
@@ -325,7 +320,7 @@
   <div class="nhsuk-width-container">
     <div class="nhsuk-grid-row">
       <div class="nhsuk-grid-column-one-third">
-        
+          
             <h2 data-block-key="sks56">Ingredients</h2><ul><li data-block-key="9mq5k">300g extra-lean minced beef</li><li data-block-key="5ncd7">1 large onion, finely chopped</li><li data-block-key="8jqoh">2 garlic cloves, finely chopped</li><li data-block-key="amhbc">400g chopped tomatoes</li><li data-block-key="4mhhc">2 tablespoons tomato purée</li><li data-block-key="cr68a">2 teaspoons chilli powder</li><li data-block-key="2dfgb">1 teaspoon ground cumin</li><li data-block-key="5q1u1">1 red pepper, deseeded and chopped</li><li data-block-key="cavvd">2 handfuls of cup or button mushrooms, sliced</li><li data-block-key="6sbrl">410g red kidney beans, drained</li><li data-block-key="8gir4">150ml reduced-salt vegetable or chicken stock</li><li data-block-key="e4vss">300g easy-cook white or brown rice</li><li data-block-key="6hjhi">1 pinch ground black pepper</li></ul>
           
       </div>
@@ -382,6 +377,18 @@
     </div>
   </div>
 </div>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "description": "This classic chilli is packed with flavour. It also freezes well, so is perfect to batch-cook.",
+    "image": "https://assets.nhs.uk/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-320.jpg",
+    "recipeIngredient": ["300g extra-lean minced beef", "1 large onion, finely chopped", "2 garlic cloves, finely chopped", "400g chopped tomatoes", "2 tablespoons tomato pur\u00e9e", "2 teaspoons chilli powder", "1 teaspoon ground cumin", "1 red pepper, deseeded and chopped", "2 handfuls of cup or button mushrooms, sliced", "410g red kidney beans, drained", "150ml reduced-salt vegetable or chicken stock", "300g easy-cook white or brown rice", "1 pinch ground black pepper"],
+    "name": "Chilli con carne recipe",
+    "recipeInstructions": "Heat a large saucepan and add the minced beef, a handful at a time, cooking it until browned. Add the onion and garlic, then cook for another 2 to 3 minutes.Add the chopped tomatoes, tomato purée, spices, red pepper, mushrooms, kidney beans and stock. Stir well, bring to the boil, then lower the heat and simmer gently for 15 to 20 minutes.Meanwhile, cook the rice according to pack instructions.Season the chilli with pepper and serve with the boiled rice."
+  }
+  </script>
               
             
           </div>
@@ -393,7 +400,7 @@
         
           
 
-<section class="nhsuk-section app-section--banana" >
+<section class="nhsuk-section app-section--banana"  id="more-recipes" >
   <div class="nhsuk-width-container">
     <div class="nhsuk-grid-row">
       
@@ -486,7 +493,7 @@
         
           
 
-<section class="nhsuk-section app-section--pomegranate" >
+<section class="nhsuk-section app-section--pomegranate"  id="signup-emails" >
   <div class="nhsuk-width-container">
     <div class="nhsuk-grid-row">
       
@@ -511,19 +518,19 @@
 
         <img
         class="nhsuk-card__img nhsuk-grid-column-one-half"
-        src="https://assets.nhs.uk/campaigns-cms-prod/images/Cook-Together.width-320.jpg"
+        src="https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-320_TWMe8UM.jpg"
         sizes="
-            (min-width: 1020px) 320px,
+            (min-width: 1020px) 510px,
             (min-width: 768px) 50vw,
             100vw"
         srcset="
-            https://assets.nhs.uk/campaigns-cms-prod/images/Cook-Together.width-320.jpg 320w,
-            https://assets.nhs.uk/campaigns-cms-prod/images/Cook-Together.width-510.jpg 510w,
-            https://assets.nhs.uk/campaigns-cms-prod/images/Cook-Together.width-640.jpg 640w,
-            https://assets.nhs.uk/campaigns-cms-prod/images/Cook-Together.width-767.jpg 767w,
-            https://assets.nhs.uk/campaigns-cms-prod/images/Cook-Together.width-1019.jpg 1019w,
-            https://assets.nhs.uk/campaigns-cms-prod/images/Cook-Together.width-1125.jpg 1125w,
-            https://assets.nhs.uk/campaigns-cms-prod/images/Cook-Together.width-1534.jpg 1534w
+            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-320_TWMe8UM.jpg 320w,
+            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-510_NfVzp1g.jpg 510w,
+            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-640_lIaZS0j.jpg 640w,
+            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-767_OFJ0mAJ.jpg 767w,
+            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggl.width-1019_4GllBgO.jpg 1019w,
+            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggl.width-1125_xF06MA0.jpg 1125w,
+            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggl.width-1534_msakzDJ.jpg 1534w
             "
         alt=""
         />
@@ -539,14 +546,14 @@
                 "
                 >
                 
-                    <a class="nhsuk-card__link" href="https://cooktogether.betterhealth-healthierfamilies.co.uk">
-                    Sign up for Cook Together emails
+                    <a class="nhsuk-card__link" href="https://healthysteps.betterhealth-healthierfamilies.co.uk/signup/?bh_hf">
+                    Sign up for Healthy Steps emails
                     </a>
                 
                 </h2>
             
             
-            <p data-block-key="u4pd7">Get the family involved and make tasty meals from scratch!</p><p data-block-key="dor4q">Every week for 4 weeks you will get 2 healthy recipes – with videos, easy-to-follow instructions and a shopping list – straight to your inbox.</p>
+            <p data-block-key="y1gr4">Want the recipe for a healthier family? Join today and over 8 weeks you&#x27;ll get easy tips from nutrition experts and parents, healthy swaps and tasty recipes on a budget.</p>
             
         </div>
     </div>

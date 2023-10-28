@@ -32,7 +32,7 @@ class TestWeightwatchersScraper(ScraperTest):
         self.assertEqual(25, self.harvester_class.total_time())
 
     def test_cook_time(self):
-        self.assertEqual(0, self.harvester_class.cook_time())
+        self.assertEqual(None, self.harvester_class.cook_time())
 
     def test_prep_time(self):
         self.assertEqual(25, self.harvester_class.prep_time())

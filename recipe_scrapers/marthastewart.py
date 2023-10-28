@@ -12,19 +12,16 @@ class MarthaStewart(AbstractScraper):
         return self.schema.title()
 
     def total_time(self):
-        s = (
-            self.soup.findAll("div", {"class": "two-subcol-content-wrapper"})[0]
-            .find("div", {"class": "recipe-meta-item-body"})
-            .text.strip()
-        )
-        return get_minutes(s)
+        time_label = self.soup.find("div", string="Total Time:")
+        if time_label:
+            servings_value = time_label.find_next(
+                "div", {"class": "mntl-recipe-details__value"}
+            )
+            if servings_value:
+                return get_minutes(servings_value.text.strip())
 
     def yields(self):
-        return (
-            self.soup.findAll("div", {"class": "two-subcol-content-wrapper"})[1]
-            .find("div", {"class": "recipe-meta-item-body"})
-            .text.strip()
-        )
+        return self.schema.yields()
 
     def ingredients(self):
         return self.schema.ingredients()
