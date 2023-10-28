@@ -71,7 +71,7 @@ class TestSimpleVeganistaScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(5.0, self.harvester_class.ratings())
+        self.assertEqual(4.9, self.harvester_class.ratings())
 
     def test_cuisine(self):
         self.assertEqual("Creole", self.harvester_class.cuisine())

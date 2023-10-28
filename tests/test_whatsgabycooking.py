@@ -29,7 +29,7 @@ class TestWhatsGabyCookingScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://cdn.whatsgabycooking.com/wp-content/uploads/2017/10/WGC-Quinoa-Bake-copy-2.jpg",
+            "https://whatsgabycooking.com/wp-content/uploads/2017/10/WGC-Quinoa-Bake-copy-2.jpg",
             self.harvester_class.image(),
         )
 

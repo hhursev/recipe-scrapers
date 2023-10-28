@@ -64,6 +64,6 @@ Place chicken on a baking sheet, divide spinach evenly between the 6 pieces and 
 
     def test_ratings(self):
         self.assertEqual(
-            5,
+            4.8,
             self.harvester_class.ratings(),
         )

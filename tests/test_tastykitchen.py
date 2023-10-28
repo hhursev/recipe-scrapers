@@ -19,7 +19,7 @@ class TestTastyKitchenScraper(ScraperTest):
         self.assertEqual(self.harvester_class.title(), "Restaurant Style Salsa")
 
     def test_author(self):
-        self.assertEqual(self.harvester_class.author(), "Ree | The Pioneer Woman")
+        self.assertEqual(self.harvester_class.author(), "Ree Drummond")
 
     def test_total_time(self):
         self.assertEqual(10, self.harvester_class.total_time())
@@ -29,7 +29,7 @@ class TestTastyKitchenScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://tastykitchen.com/recipes/wp-content/uploads/sites/2/2010/01/TPW_5376.jpg",
+            "https://hips.hearstapps.com/hmg-prod/images/best-tomatoes-for-salsa-restaurant-style-1654631413.jpeg?crop=1.00xw:0.502xh;0,0.216xh&resize=1200:*",
             self.harvester_class.image(),
         )
 

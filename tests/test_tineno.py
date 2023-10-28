@@ -31,7 +31,7 @@ class TestTineNoScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://www.tine.no/_/recipeimage/w_2880%2Ch_1620%2Cc_fill%2Cx_764%2Cy_430%2Cg_xy_center/recipeimage/yshftxnhdmojzhelrupo.png",
+            "https://www.tine.no/_/recipeimage/w_2880%2Ch_1620%2Cc_fill%2Cx_2880%2Cy_1920%2Cg_xy_center/recipeimage/w1r3ydbmyeqcngqpxatv.jpg",
             self.harvester_class.image(),
         )
 

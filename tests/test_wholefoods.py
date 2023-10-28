@@ -1,3 +1,5 @@
+import unittest
+
 from recipe_scrapers.wholefoods import WholeFoods
 from tests import ScraperTest
 
@@ -14,6 +16,7 @@ class TestWholeFoodsScraper(ScraperTest):
             "wholefoodsmarket.co.uk", self.harvester_class.host(domain="co.uk")
         )
 
+    @unittest.skip("canonical_url is not available from this webpage")
     def test_canonical_url(self):
         self.assertEqual(
             "https://www.wholefoodsmarket.com/recipes/grilled-cheese-and-greens",

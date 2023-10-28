@@ -1,6 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
-from ._utils import normalize_string
+from ._utils import get_minutes, get_yields, normalize_string
 
 
 class SweetPeasAndSaffron(AbstractScraper):
@@ -16,10 +16,12 @@ class SweetPeasAndSaffron(AbstractScraper):
         return self.soup.find("h2", {"class": "wprm-recipe-name"}).text
 
     def total_time(self):
-        return self.soup.find("span", {"class": "wprm-recipe-total_time"}).text
+        time = self.soup.find("span", {"class": "wprm-recipe-total_time"}).text
+        return get_minutes(time)
 
     def yields(self):
-        return self.soup.find("span", {"class": "wprm-recipe-servings"}).text
+        servings = self.soup.find("span", {"class": "wprm-recipe-servings"}).text
+        return get_yields(servings)
 
     def image(self):
         return self.soup.find(

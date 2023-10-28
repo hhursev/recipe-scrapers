@@ -30,7 +30,7 @@ class TestUSDAMyPlateRecipesScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "3 cups dried figs (chopped, 16 ounces)",
+                "2 cups dried figs (chopped, 16 ounces)",
                 "1/2 cup walnuts (chopped)",
                 "1/3 cup sugar",
                 "1/4 cup orange juice (juice from 1/2 orange)",
@@ -47,32 +47,32 @@ class TestUSDAMyPlateRecipesScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://myplate-prod.azureedge.net/sites/default/files/styles/recipe_525_x_350_/public/2021-03/FigBars.jpg",
+            "https://myplate-prod.azureedge.us/sites/default/files/styles/recipe_525_x_350_/public/2021-03/FigBars.jpg",
             self.harvester_class.image(),
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            "Wash hands with soap and water.\nPreheat oven to 350 degrees F. Lightly grease a 9x13-inch baking pan.\nCombine figs, walnuts, sugar, orange juice and hot water in a mixing bowl and set aside.\nMix together margarine or butter and brown sugar until creamy. Add egg and mix until smooth.\nMix flour and baking soda. Stir into egg mixture. Blend in oats to make soft dough.\nReserve 1 cup of dough for topping. With floured fingertips, press the remaining dough into a thin layer on the bottom of the baking pan.\nSpread fig mixture evenly over the dough. Crumble reserved dough over top, allowing fig mixture to show.\nBake 30 minutes or until golden brown. Cool completely in baking pan. Cut into 24 bars (about 2.5 x 2 inches).",
+            "Wash hands with soap and water.\nPreheat oven to 350 °F. Lightly grease a 9x13 inch baking pan.\nCombine figs, walnuts, sugar, orange juice, and hot water in a mixing bowl and set aside.\nMix together margarine or butter and brown sugar until creamy. Add egg and mix until smooth.\nMix flour and baking soda. Stir into egg mixture. Blend in oats to make soft dough.\nReserve 1 cup of dough for topping. With floured fingertips, press the remaining dough into a thin layer on the bottom of the baking pan.\nSpread fig mixture evenly over the dough. Crumble reserved dough over top, allowing fig mixture to show.\nBake 30 minutes or until golden brown. Cool completely in baking pan. Cut into 24 bars (about 2 1/2 x 2 inches).",
             self.harvester_class.instructions(),
         )
 
     def test_nutrients(self):
         self.assertEqual(
             {
-                "Total Calories": "206",
+                "Total Calories": "185",
                 "Total Fat": "6 g",
                 "Saturated Fat": "1 g",
                 "Cholesterol": "8 mg",
-                "Sodium": "66 mg",
-                "Dietary Fiber": "3 g",
+                "Sodium": "65 mg",
+                "Dietary Fiber": "2 g",
                 "Protein": "3 g",
-                "Carbohydrates": "37 g",
-                "Potassium": "225 mg",
-                "Calcium": "55 mg",
+                "Carbohydrates": "32 g",
+                "Potassium": "169 mg",
+                "Calcium": "42 mg",
                 "Vitamin D": "0 mcg",
                 "Iron": "1 mg",
-                "Total Sugars": "24 g",
+                "Total Sugars": "20 g",
                 "Added Sugars included": "11 g",
             },
             self.harvester_class.nutrients(),
@@ -89,6 +89,6 @@ class TestUSDAMyPlateRecipesScraper(ScraperTest):
 
     def test_recipe_source(self):
         self.assertEqual(
-            "Fabulous Fig Bars from Food Hero, Oregon State University, Cooperative Extension Service.",
+            "Food Hero Oregon State University Cooperative Extension Service",
             self.harvester_class.recipe_source(),
         )

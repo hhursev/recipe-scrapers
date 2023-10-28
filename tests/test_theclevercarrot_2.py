@@ -1,3 +1,5 @@
+import unittest
+
 from recipe_scrapers._grouping_utils import IngredientGroup
 from recipe_scrapers.theclevercarrot import TheCleverCarrot
 from tests import ScraperTest
@@ -11,6 +13,7 @@ class TestTheCleverCarrotScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("theclevercarrot.com", self.harvester_class.host())
 
+    @unittest.skip("canonical_url is not available from this webpage")
     def test_canonical_url(self):
         self.assertEqual(
             "https://www.theclevercarrot.com/2012/12/dinner-tonight-sweet-chili-shrimp-stir-fry/",

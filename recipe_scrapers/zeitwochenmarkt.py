@@ -36,12 +36,12 @@ class ZeitWochenmarkt(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        class_name = "recipe-list-collection__special-ingredient"
-        special_ingredients = [
+        class_name = "recipe-list-collection__list-item-link"
+        ingredients = [
             normalize_string(item.text)
-            for item in self.soup.find_all("p", {"class": class_name})
+            for item in self.soup.find_all("a", {"class": class_name})
         ]
-        return special_ingredients + self.schema.ingredients()
+        return ingredients
 
     def instructions(self):
         class_name = "article__subheading article__subheading--recipe article__item"

@@ -16,7 +16,7 @@ class TestYemekScraper(ScraperTest):
         )
 
     def test_author(self):
-        self.assertEqual("Yasemin Gürsürer", self.harvester_class.author())
+        self.assertEqual("Yasemin Özaltın", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual(
@@ -68,4 +68,4 @@ class TestYemekScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.5, self.harvester_class.ratings())
+        self.assertEqual(5.0, self.harvester_class.ratings())

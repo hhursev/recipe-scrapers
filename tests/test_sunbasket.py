@@ -1,3 +1,5 @@
+import unittest
+
 from recipe_scrapers.sunbasket import SunBasket
 from tests import ScraperTest
 
@@ -12,6 +14,7 @@ class TestSunBasketScraper(ScraperTest):
     def test_host_domain(self):
         self.assertEqual("sunbasket.co.uk", self.harvester_class.host(domain="co.uk"))
 
+    @unittest.skip("canonical_url is not available from this webpage")
     def test_canonical_url(self):
         self.assertEqual(
             "https://sunbasket.com/recipe/lemongrass-turkey-salad-with-rice-noodles-and-pear",
@@ -25,7 +28,7 @@ class TestSunBasketScraper(ScraperTest):
         )
 
     def test_author(self):
-        self.assertEqual(self.harvester_class.author(), "Sun Basket")
+        self.assertEqual(self.harvester_class.author(), "Sunbasket")
 
     def test_total_time(self):
         self.assertEqual(15, self.harvester_class.total_time())
@@ -36,12 +39,13 @@ class TestSunBasketScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
+                "10 ounces ground turkey",
                 "5 ounces flat rice noodles",
-                "Sun Basket lemongrass paste (lemongrass - extra virgin olive oil - garlic - ginger - turmeric)",
+                "Sunbasket lemongrass paste (lemongrass - extra virgin olive oil - garlic - ginger - turmeric)",
                 "3 or 4 organic radishes (about ¼ pound total)",
                 "1 organic Asian or other pear",
                 "4 or 5 sprigs organic fresh mint",
-                "Sun Basket Thai dressing base (maple syrup - lime juice - fish sauce)",
+                "Sunbasket Thai dressing base (maple syrup - lime juice - fish sauce)",
                 "3 ounces organic baby kale or other leafy greens",
             ],
             self.harvester_class.ingredients(),

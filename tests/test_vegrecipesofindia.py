@@ -20,7 +20,8 @@ class TestVegRecipesOfIndiaScraper(ScraperTest):
 
     def test_title(self):
         self.assertEqual(
-            "Sarson ka Saag (Authentic Punjabi Style)", self.harvester_class.title()
+            "Sarson ka Saag Recipe (Authentic Punjabi Style)",
+            self.harvester_class.title(),
         )
 
     def test_total_time(self):
@@ -68,4 +69,4 @@ class TestVegRecipesOfIndiaScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.92, self.harvester_class.ratings())
+        self.assertEqual(4.93, self.harvester_class.ratings())

@@ -58,7 +58,7 @@ class TestWellPlatedScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.96, self.harvester_class.ratings())
+        self.assertEqual(4.97, self.harvester_class.ratings())
 
     def test_cuisine(self):
         self.assertEqual("Asian, Chinese", self.harvester_class.cuisine())

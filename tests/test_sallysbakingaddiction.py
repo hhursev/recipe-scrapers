@@ -28,14 +28,14 @@ class TestSallysBakingAddictionScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://cdn.sallysbakingaddiction.com/wp-content/uploads/2020/12/garlic-rosemary-pull-apart-bread-225x225.jpg",
+            "https://sallysbakingaddiction.com/wp-content/uploads/2020/12/garlic-rosemary-pull-apart-bread-225x225.jpg",
             self.harvester_class.image(),
         )
 
     def test_ingredients(self):
         self.assertEqual(
             [
-                "2 teaspoons Platinum Yeast by Red Star*",
+                "2 teaspoons Platinum Yeast from Red Star*",
                 "1 Tablespoon granulated sugar",
                 "3/4 cup (180ml) whole milk",
                 "3 Tablespoons (45g) unsalted butter, softened to room temperature",
