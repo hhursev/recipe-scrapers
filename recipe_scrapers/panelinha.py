@@ -15,8 +15,7 @@ class Panelinha(AbstractScraper):
         return "panelinha.com.br"
 
     def title(self):
-        title = self.schema.title()
-        return LatinFix(title).apply_wrong_chars().text
+        return self.schema.title()
 
     def ingredients(self):
         ingredients = self.soup.find("h5", string="Ingredientes").nextSibling.findAll(
