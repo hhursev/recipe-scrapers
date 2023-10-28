@@ -59,7 +59,9 @@ class GoodHousekeeping(AbstractScraper):
 
         return "\n".join(
             [
-                re.sub(r"Step \d", "", normalize_string(instruction.get_text())).strip()
+                re.sub(
+                    r"Step \d+", "", normalize_string(instruction.get_text())
+                ).strip()
                 for instruction in instructions
             ]
         )
