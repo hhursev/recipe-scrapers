@@ -86,7 +86,5 @@ class TestweightwatchersPublicScraper(ScraperTest):
         self.assertEqual("Leicht", self.harvester_class.difficulty())
 
     def test_nutrients(self):
-        expected_nutrients = {
-            "'points': '13 Points&reg; value",
-        }
+        expected_nutrients = {"points": "13 Points&reg; value"}
         self.assertEqual(self.harvester_class.nutrients(), expected_nutrients)

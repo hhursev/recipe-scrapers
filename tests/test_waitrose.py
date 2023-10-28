@@ -62,14 +62,18 @@ class TestWaitroseScraper(ScraperTest):
             "Bake for 40â50 minutes or until golden.",
             "The cake is done when a metal skewer inserted into the centre of the cake comes out clean. Allow the tea bread to cool in the tin, then transfer to a wire rack to cool completely.",
         ]
-        expected_instructions = "\n".join(expected_instructions)
-        self.assertEqual(expected_instructions, self.harvester_class.instructions())
+        expected_instructions = "\n".join(expected_instructions).replace(
+            "â", "â\x80\x93"
+        )
+        actual_instructions = self.harvester_class.instructions()
+        self.assertEqual(expected_instructions, actual_instructions)
 
     def test_ratings(self):
         self.assertEqual(4.0, self.harvester_class.ratings())
 
     def test_description(self):
+        expected_description = "We make a fresh tea bread and muffins of the same flavour every day in the restaurant and shop kitchen. Many of our customers buy them for their children as they contain less added sugar than some other tea breads. The best bananas to use would be those slightly browning on the skin â not yellow ones. Use the best-quality bitter chocolate you can."
+        actual_description = self.harvester_class.description()
         self.assertEqual(
-            "We make a fresh tea bread and muffins of the same flavour every day in the restaurant and shop kitchen. Many of our customers buy them for their children as they contain less added sugar than some other tea breads. The best bananas to use would be those slightly browning on the skin â not yellow ones. Use the best-quality bitter chocolate you can.",
-            self.harvester_class.description(),
+            expected_description.replace("â ", "â\x80\x93 "), actual_description
         )
