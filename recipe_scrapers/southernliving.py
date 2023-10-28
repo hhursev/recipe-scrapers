@@ -3,6 +3,7 @@
 from recipe_scrapers._exceptions import SchemaOrgException
 
 from ._abstract import AbstractScraper
+from ._utils import get_yields
 
 
 class SouthernLiving(AbstractScraper):
@@ -31,9 +32,10 @@ class SouthernLiving(AbstractScraper):
                 "div", class_="mntl-recipe-details__label"
             ).get_text(strip=True)
             if label_text in ["Servings:", "Yield:"]:
-                return servings_div.find(
+                servings_element = servings_div.find(
                     "div", class_="mntl-recipe-details__value"
-                ).get_text(strip=True)
+                )
+                return get_yields(servings_element)
 
     def image(self):
         return self.schema.image()

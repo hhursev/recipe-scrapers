@@ -27,7 +27,7 @@ class TestSouthernLiving(ScraperTest):
         self.assertEqual(180, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("20 to 22", self.harvester_class.yields())
+        self.assertEqual("22 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
