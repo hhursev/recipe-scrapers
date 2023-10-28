@@ -19,7 +19,7 @@ class TestPanelinhaScraper(ScraperTest):
         )
 
     def test_title(self):
-        self.assertEqual("Arroz sÃ­rio com frango", self.harvester_class.title())
+        self.assertEqual("Arroz sí­rio com frango", self.harvester_class.title())
 
     def test_author(self):
         self.assertEqual(self.harvester_class.author(), "Panelinha")
