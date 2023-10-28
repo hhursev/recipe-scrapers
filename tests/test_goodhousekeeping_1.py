@@ -56,9 +56,6 @@ class TestGoodHousekeepingScraper(ScraperTest):
         ]
         self.assertEqual("\n".join(instructions), self.harvester_class.instructions())
 
-    def test_ratings(self):
-        self.assertEqual("", self.harvester_class.ratings())
-
     def test_cuisine(self):
         self.assertEqual("American", self.harvester_class.cuisine())
 
@@ -67,8 +64,6 @@ class TestGoodHousekeepingScraper(ScraperTest):
             {
                 "calories": "222",
                 "fatContent": "20g",
-                "fiberContent": "",
-                "proteinContent": "",
                 "saturatedFatContent": "15g",
                 "sugarContent": "6g",
                 "carbohydrateContent": "8g",

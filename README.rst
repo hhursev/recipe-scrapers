@@ -172,6 +172,7 @@ Scrapers available for:
 - `https://gimmesomeoven.com/ <https://www.gimmesomeoven.com/>`_
 - `https://godt.no/ <https://godt.no/>`_
 - `https://goodfooddiscoveries.com/ <https://goodfooddiscoveries.com/>`_
+- `https://goodhousekeeping.com/ <https://www.goodhousekeeping.com/>`_
 - `https://recietas.globo.com/ <https://www.receitas.globo.com/>`_
 - `https://gonnawantseconds.com/ <https://gonnawantseconds.com>`_
 - `https://gousto.co.uk/ <https://gousto.co.uk>`_

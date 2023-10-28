@@ -64,22 +64,19 @@ class GoodHousekeeping(AbstractScraper):
             ]
         )
 
-    def ratings(self):
-        return ""
-
     def cuisine(self):
-        return self.schema.cuisine()
+        return self.schema.cuisine() or None
 
     def _find_nutrient(self, prefix):
         nutrient = self.nutrient_soup.find(string=re.compile(prefix))
         if nutrient is not None:
             return re.sub(prefix, "", nutrient, count=1).lstrip(":").strip()
         else:
-            return ""
+            return None
 
     def nutrients(self):
         self.nutrient_soup = self.soup.find(class_="recipe-body-content")
-        return {
+        nutrients = {
             "calories": self._find_nutrient("Calories"),
             "fatContent": self._find_nutrient("(Total )?[Ff]at"),
             "saturatedFatContent": self._find_nutrient("(Saturates|Sat(urated)? fat)"),
@@ -87,6 +84,11 @@ class GoodHousekeeping(AbstractScraper):
             "carbohydrateContent": self._find_nutrient("(Total )?[Cc]arbs"),
             "proteinContent": self._find_nutrient("Protein"),
             "fiberContent": self._find_nutrient("Fib(er|re)"),
+        }
+        return {
+            nutrient: quantity
+            for nutrient, quantity in nutrients.items()
+            if quantity is not None
         }
 
     def description(self):
