@@ -22,13 +22,10 @@ class Panelinha(AbstractScraper):
             "li"
         )
 
-        results = []
-        for ingredient in ingredients:
-            ingredient_text = ingredient.text
-            ingredient_text = LatinFix(ingredient_text).apply_wrong_chars().text
-            ingredient_text = normalize_string(ingredient_text)
-            results.append(ingredient_text)
-        return results
+        return [
+            normalize_string(ingredient.get_text().replace("\u00C2", ""))
+            for ingredient in ingredients
+        ]
 
     def instructions(self):
         instructions = self.soup.find(
