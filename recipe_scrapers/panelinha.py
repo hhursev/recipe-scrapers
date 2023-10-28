@@ -1,10 +1,10 @@
 # mypy: disallow_untyped_defs=False
 import re
 
+from LatinFixer import LatinFix
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
-
-from LatinFixer import LatinFix
 
 INSTRUCTIONS_NUMBERING_REGEX = re.compile(r"^\d{1,2}\.\s*")  # noqa
 
