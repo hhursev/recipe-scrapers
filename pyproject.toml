@@ -30,6 +30,7 @@ dependencies = [
     "beautifulsoup4 >= 4.10.0",
     "extruct >= 0.8.0",
     "isodate >= 0.6.1",
+    "LatinFixer >= 0.12",
     "requests >= 2.19.1",
 ]
 
