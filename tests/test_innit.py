@@ -11,7 +11,7 @@ class TestInnitScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("innit.com", self.harvester_class.host())
 
-    @unittest.skip("canonical_url will not pass with testhtml (uses example.com)")
+    @unittest.skip("canonical_url is not available from this webpage")
     def test_canonical_url(self):
         self.assertEqual(
             "https://www.innit.com/meal/967/5350/Salads%3A%20Blended-Carrot-Ginger-Dressing%2BAssembled-Broccoli-Beet-Mix%2BSeared-Tofu-Diced%2BOlive-Oil%2BPrepared-Mixed-Greens",

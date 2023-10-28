@@ -14,7 +14,7 @@ class TestOneHundredOneCookBooksScraper(ScraperTest):
     def test_author(self):
         self.assertEqual("Heidi Swanson", self.harvester_class.author())
 
-    @unittest.skip("canonical_url will not pass with testhtml (uses example.com)")
+    @unittest.skip("canonical_url is not available from this webpage")
     def test_canonical_url(self):
         self.assertEqual(
             "https://www.101cookbooks.com/broccoli-soup-with-coconut-milk/",

@@ -11,7 +11,7 @@ class TestPanelinhaScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("panelinha.com.br", self.harvester_class.host())
 
-    @unittest.skip("canonical_url will not pass with testhtml (uses example.com)")
+    @unittest.skip("canonical_url is not available from this webpage")
     def test_canonical_url(self):
         self.assertEqual(
             "https://panelinha.com.br/receita/arroz-sirio-com-frango",

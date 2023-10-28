@@ -12,7 +12,7 @@ class TestPickUpLimesScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("pickuplimes.com", self.harvester_class.host())
 
-    @unittest.skip("canonical_url will not pass with testhtml (uses example.com)")
+    @unittest.skip("canonical_url is not available from this webpage")
     def test_canonical_url(self):
         self.assertEqual(
             "https://www.pickuplimes.com/recipe/vegan-honey-mustard-tofu-wraps-1448",

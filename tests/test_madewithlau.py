@@ -11,7 +11,7 @@ class TestMadeWithLauScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("madewithlau.com", self.harvester_class.host())
 
-    @unittest.skip("canonical_url will not pass with testhtml (uses example.com)")
+    @unittest.skip("canonical_url is not available from this webpage")
     def test_canonical_url(self):
         self.assertEqual(
             "https://www.madewithlau.com/recipes/salt-pepper-tofu",
