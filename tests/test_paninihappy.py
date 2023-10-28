@@ -11,7 +11,7 @@ class TestPaniniHappyScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "http://paninihappy.com/grilled-mac-cheese-with-bbq-pulled-pork/",
+            "https://paninihappy.com/grilled-mac-cheese-with-bbq-pulled-pork/",
             self.harvester_class.canonical_url(),
         )
 
@@ -28,7 +28,7 @@ class TestPaniniHappyScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "paninihappy_files/Grilled_Mac_and_Cheese-main-490.jpg",
+            "https://paninihappy.com/wp-content/uploads/2011/04/Grilled_Mac_and_Cheese-close-490.jpg",
             self.harvester_class.image(),
         )
 

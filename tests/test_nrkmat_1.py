@@ -13,6 +13,12 @@ class TestNRKMatScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("nrk.no", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.nrk.no/mat/honningmarinert-grillet-kylling-med-rosmarinpoteter-1.15110596",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual(
             "Gino D'Acampo i TV-programmet «Ginos italienske fristelser»",

@@ -1,3 +1,5 @@
+import unittest
+
 from recipe_scrapers.onehundredonecookbooks import OneHundredOneCookBooks
 from tests import ScraperTest
 
@@ -11,6 +13,13 @@ class TestOneHundredOneCookBooksScraper(ScraperTest):
 
     def test_author(self):
         self.assertEqual("Heidi Swanson", self.harvester_class.author())
+
+    @unittest.skip("canonical_url is not available from this webpage")
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.101cookbooks.com/broccoli-soup-with-coconut-milk/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual("Coconut Broccoli Soup", self.harvester_class.title())

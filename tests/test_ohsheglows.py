@@ -31,7 +31,7 @@ class TestOhSheGlowsScraper(ScraperTest):
         self.assertEqual(self.harvester_class.author(), "Angela Liddon")
 
     def test_ratings(self):
-        self.assertEqual(self.harvester_class.ratings(), 4.67)
+        self.assertEqual(self.harvester_class.ratings(), 4.73)
 
     def test_total_time(self):
         self.assertEqual(22, self.harvester_class.total_time())

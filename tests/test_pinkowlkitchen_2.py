@@ -13,8 +13,14 @@ class TestPinkOwlKitchenScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("pinkowlkitchen.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://pinkowlkitchen.com/starbucks-chocolate-cream-cold-brew/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
-        self.assertEqual("Ashley", self.harvester_class.author())
+        self.assertEqual("Ashley Boyd", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual(
@@ -82,7 +88,7 @@ class TestPinkOwlKitchenScraper(ScraperTest):
         self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def test_ratings(self):
-        self.assertEqual(4.8, self.harvester_class.ratings())
+        self.assertEqual(4.94, self.harvester_class.ratings())
 
     def test_cuisine(self):
         self.assertEqual("American", self.harvester_class.cuisine())

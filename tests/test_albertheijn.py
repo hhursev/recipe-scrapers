@@ -11,7 +11,7 @@ class TestAlbertHeijnScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("ah.nl", self.harvester_class.host())
 
-    @unittest.skip("canonical_url will not pass with testhtml (uses example.com)")
+    @unittest.skip("canonical_url is not available from this webpage")
     def test_canonical_url(self):
         self.assertEqual(
             "https://www.ah.nl/allerhande/recept/R-R1198767/rijkgevulde-vegan-pastasalade",

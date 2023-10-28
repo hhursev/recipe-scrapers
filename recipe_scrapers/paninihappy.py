@@ -18,8 +18,11 @@ class PaniniHappy(AbstractScraper):
         return get_yields(self.soup.find("span", {"class": "yield"}))
 
     def image(self):
-        image = self.soup.find("img", {"class": "post_image", "src": True})
-        return image["src"] if image else None
+        div_hrecipe = self.soup.find("div", {"class": "hrecipe"})
+        if div_hrecipe:
+            img_tag = div_hrecipe.find("img", {"loading": "lazy"})
+            if img_tag and "src" in img_tag.attrs:
+                return img_tag["src"]
 
     def ingredients(self):
         ingredients = self.soup.findAll("li", {"class": "ingredient"})

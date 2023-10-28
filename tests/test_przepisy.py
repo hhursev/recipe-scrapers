@@ -13,7 +13,7 @@ class TestPrzepisyScraper(ScraperTest):
         self.assertEqual("przepisy.pl", self.harvester_class.host())
 
     def test_language(self):
-        self.assertEqual("pl", self.harvester_class.language())
+        self.assertEqual("pl-PL", self.harvester_class.language())
 
     def test_canonical_url(self):
         self.assertEqual(
@@ -40,7 +40,7 @@ class TestPrzepisyScraper(ScraperTest):
                 "cebula 1 sztuka",
                 "jajka 2 sztuki",
                 "Przyprawa w Mini kostkach Czosnek Knorr 1 sztuka",
-                "Gałka muszkatołowa z Indonezji Knorr 1 szczypta",
+                "gałka muszkatołowa 1 szczypta",
                 "sól 1 szczypta",
                 "mąka 3 łyżki",
             ],
