@@ -22,16 +22,9 @@ class Panelinha(AbstractScraper):
             "li"
         )
 
-        MALENCODED_FRACTION_PREFIX = b"\xc3\xa2\xc2\x85\xc2"
-
         results = []
         for ingredient in ingredients:
-            ingredient_bytes = ingredient.text.encode("utf-8")
-            if ingredient_bytes.startswith(MALENCODED_FRACTION_PREFIX):
-                ingredient_bytes = ingredient_bytes.replace(
-                    MALENCODED_FRACTION_PREFIX, b"\xe2\x85"
-                )
-            ingredient_text = ingredient_bytes.decode("utf-8")
+            ingredient_text = ingredient.text
             ingredient_text = LatinFix(ingredient_text).apply_wrong_chars().text
             ingredient_text = normalize_string(ingredient_text)
             results.append(ingredient_text)
