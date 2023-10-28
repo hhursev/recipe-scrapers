@@ -19,7 +19,7 @@ class TestPanelinhaScraper(ScraperTest):
         )
 
     def test_title(self):
-        self.assertEqual("Arroz sí­rio com frango", self.harvester_class.title())
+        self.assertEqual("Arroz sírio com frango", self.harvester_class.title())
 
     def test_author(self):
         self.assertEqual(self.harvester_class.author(), "Panelinha")
@@ -40,17 +40,17 @@ class TestPanelinhaScraper(ScraperTest):
         self.assertEqual(
             [
                 "2 bifes de filé de peito de frango (cerca de 240 g)",
-                "⅓ de xí\xadcara (chá) de arroz",
-                "⅔ de xí\xadcara (chá) de lentilha",
+                "⅓ de xícara (chá) de arroz",
+                "⅔ de xícara (chá) de lentilha",
                 "1 cebola",
                 "1 dente de alho",
-                "2 xí\xadcaras (chá) de água",
+                "2 xícaras (chá) de água",
                 "1½ colher (sopa) de azeite",
-                "½ colher (chá) de pimenta sí\xadria",
+                "½ colher (chá) de pimenta síria",
                 "1 colher (chá) de sal",
                 "1 pitada de açúcar",
-                "¼ de xí\xadcara (chá) de nozes picadas",
-                "⅓ de xí\xadcara (chá) de iogurte natural",
+                "¼ de xícara (chá) de nozes picadas",
+                "⅓ de xícara (chá) de iogurte natural",
             ],
             self.harvester_class.ingredients(),
         )
