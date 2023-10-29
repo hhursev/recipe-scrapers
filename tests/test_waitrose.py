@@ -1,4 +1,5 @@
 # mypy: allow-untyped-defs
+import unittest
 
 from recipe_scrapers.waitrose import Waitrose
 from tests import ScraperTest
@@ -9,6 +10,13 @@ class TestWaitroseScraper(ScraperTest):
 
     def test_host(self):
         self.assertEqual("waitrose.com", self.harvester_class.host())
+
+    @unittest.skip("canonical_url is not available from this webpage")
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.waitrose.com/home/recipes/recipe_directory/b/banana__chocolate_and_oatmeal_tea_bread.html",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("waitrose.com", self.harvester_class.author())
@@ -46,21 +54,22 @@ class TestWaitroseScraper(ScraperTest):
         self.assertEqual(expected_ingredients, self.harvester_class.ingredients())
 
     def test_instructions(self):
-        expected_instructions = [
-            "Preheat the oven to 180°C/gas 4. Line a 1 litre (15cm x 7.5cm) loaf tin with buttered, non-stick baking parchment or silicone paper. Whisk the egg, oil and sugar together until thick. Slice 2 bananas finely and whisk into the mixture. Set aside 1 tbsp of the oats; fold in the remaining ingredients until the mixture is smooth.",
-            "Pour the batter into the prepared tin and sprinkle the surface with the reserved oats.",
-            "Slice the remaining banana and arrange the pieces on top, or use the dried chips.",
-            "Bake for 40–50 minutes or until golden.",
-            "The cake is done when a metal skewer inserted into the centre of the cake comes out clean. Allow the tea bread to cool in the tin, then transfer to a wire rack to cool completely.",
-        ]
-        expected_instructions = "\n".join(expected_instructions)
-        self.assertEqual(expected_instructions, self.harvester_class.instructions())
+        expected_instructions = "\n".join(
+            [
+                "Preheat the oven to 180°C/gas 4. Line a 1 litre (15cm x 7.5cm) loaf tin with buttered, non-stick baking parchment or silicone paper. Whisk the egg, oil and sugar together until thick. Slice 2 bananas finely and whisk into the mixture. Set aside 1 tbsp of the oats; fold in the remaining ingredients until the mixture is smooth.",
+                "Pour the batter into the prepared tin and sprinkle the surface with the reserved oats.",
+                "Slice the remaining banana and arrange the pieces on top, or use the dried chips.",
+                "Bake for 40–50 minutes or until golden.",
+                "The cake is done when a metal skewer inserted into the centre of the cake comes out clean. Allow the tea bread to cool in the tin, then transfer to a wire rack to cool completely.",
+            ]
+        )
+        actual_instructions = self.harvester_class.instructions()
+        self.assertEqual(expected_instructions, actual_instructions)
 
     def test_ratings(self):
-        self.assertEqual(4.0, self.harvester_class.ratings())
+        self.assertEqual(5.0, self.harvester_class.ratings())
 
     def test_description(self):
-        self.assertEqual(
-            "We make a fresh tea bread and muffins of the same flavour every day in the restaurant and shop kitchen. Many of our customers buy them for their children as they contain less added sugar than some other tea breads. The best bananas to use would be those slightly browning on the skin – not yellow ones. Use the best-quality bitter chocolate you can.",
-            self.harvester_class.description(),
-        )
+        expected_description = "We make a fresh tea bread and muffins of the same flavour every day in the restaurant and shop kitchen. Many of our customers buy them for their children as they contain less added sugar than some other tea breads. The best bananas to use would be those slightly browning on the skin – not yellow ones. Use the best-quality bitter chocolate you can."
+        actual_description = self.harvester_class.description()
+        self.assertEqual(expected_description, actual_description)

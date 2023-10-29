@@ -246,9 +246,9 @@
 		"name": "sabores ajinomoto"
 	},
 	"datePublished": "2023/04/25",
-	"prepTime": "PT",
+	"prepTime": "PT60M",
 	"cookTime": "PT60M",
-	"totalTime": "PT60M PT",
+	"totalTime": "PT60M",
 	"recipeYield": "6",
 	"nutrition": {
 		"@type": "NutritionInformation",
@@ -358,13 +358,13 @@
 								<div class="top ">
 					<ul class="social-link">
 						<li>
-							<a href="https://www.facebook.com/SaboresAjinomoto" onclick="_gaq.push(['_trackEvent', 'Cabeçalho', 'Acessou', 'Facebook']);" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+							<a href="https://www.facebook.com/SaboresAjinomoto" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'header_click', 'event_section': 'header', 'event_local': '/receita/crepioca-com-brocolis-e-frango', 'event_text': 'btn-facebook', 'event_action': 'click' });" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
 						</li>
 						<li>
-							<a href="https://www.youtube.com/saboresajinomoto" onclick="_gaq.push(['_trackEvent', 'Cabeçalho', 'Acessou', 'YouTube']);" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+							<a href="https://www.youtube.com/saboresajinomoto" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'header_click', 'event_section': 'header', 'event_local': '/receita/crepioca-com-brocolis-e-frango', 'event_text': 'btn-youtube', 'event_action': 'click' });" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
 						</li>
 						<li>
-							<a href="https://www.instagram.com/saboresajinomoto" onclick="_gaq.push(['_trackEvent', 'Cabeçalho', 'Acessou', 'YouTube']);" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+							<a href="https://www.instagram.com/saboresajinomoto" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'header_click', 'event_section': 'header', 'event_local': '/receita/crepioca-com-brocolis-e-frango', 'event_text': 'btn-instagram', 'event_action': 'click' });" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 						</li>
 					</ul>
 					<a href="/" class="link-logo"><img src="/_src/images/template/logo-sabores.svg" alt="Sabores Ajinomoto" title="Sabores Ajinomoto" class="logo"></a>
@@ -372,7 +372,7 @@
 											<ul class="user-link">
 							<li><a href="/cadastrar" onclick="_gaq.push(['_trackEvent', 'Cabeçalho', 'Acessou', 'Cadastro']);" class="btn-default">Cadastre-se</a></li>
 							<li><a href="#modal-login" onclick="Moengage.track_event('iniciou-login'); _gaq.push(['_trackEvent', 'Cabeçalho', 'Acessou', 'Login']);" data-fancybox class="btn-default btn-action" accesskey="u">Login</a></li>
-							<li><a href="https://www.loja.ajinomoto.com.br/?utm_source=site_sabores&utm_medium=cta_comprar&utm_campaign=compreagoramenu_sabores&utm_content=sitesabores_botaomenucompreagora" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'comprar', 'event_section': 'produtos', 'event_local': '/receita/crepioca-com-brocolis-e-frango', 'event_text': 'comprar', 'event_action': 'click', 'event_product': 'nao-especificado'});" target="_blank"><img src="/_dist/images/template/cart.png" alt="comprar" title="comprar"  class="hidden-xs">
+							<li><a href="https://loja.ajinomoto.com.br/?utm_source=site_sabores&utm_medium=cta_comprar&utm_campaign=compreagoramenu_sabores&utm_content=sitesabores_botaomenucompreagora" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'comprar', 'event_section': 'produtos', 'event_local': '/receita/crepioca-com-brocolis-e-frango', 'event_text': 'comprar', 'event_action': 'click', 'event_product': 'nao-especificado'});" target="_blank"><img src="/_dist/images/template/cart.png" alt="comprar" title="comprar"  class="hidden-xs">
 							<img src="/_dist/images/template/cart-white.png" alt="comprar" title="comprar"  class="visible-xs"></a><li>
 						</ul>
 					
@@ -544,42 +544,42 @@
             <div class="whatsapp-to-text">
                 <h2 class="text-red text-upper">Ingredientes</h2>
                 <div class="ingredients" itemprop="recipeIngredient">
-                    <p style="margin-left:0cm; margin-right:0cm"><strong>Recheio</strong></p>
-
-<ul>
-	<li>1 e meia colher (sopa) <strong>Azeite de Oliva Extra Virgem TERRANO</strong><strong><sup>®</sup></strong></li>
-	<li>3 filés de peito de frango (300 g)</li>
-	<li>1 tomate pequeno, com pele e sem sementes, picado</li>
-	<li>1 sachê de <strong>Caldo SAZÓN<sup>®</sup> Lev Galinha</strong></li>
-	<li>3 colheres (sopa) de requeijão cremoso</li>
-</ul>
-
-<p style="margin-left:0cm; margin-right:0cm"><strong>Massa</strong></p>
-
-<ul>
-	<li>6 ovos</li>
-	<li>6 colheres (sopa) de goma para tapioca</li>
-	<li>3 colheres (sopa) de leite desnatado</li>
-	<li>meia xícara (chá) de floretes de brócolis picadinhos</li>
-</ul>
-
+                    <p style="margin-left:0cm; margin-right:0cm"><strong>Recheio</strong></p>
+
+<ul>
+	<li>1 e meia colher (sopa) <strong>Azeite de Oliva Extra Virgem TERRANO</strong><strong><sup>®</sup></strong></li>
+	<li>3 filés de peito de frango (300 g)</li>
+	<li>1 tomate pequeno, com pele e sem sementes, picado</li>
+	<li>1 sachê de <strong>Caldo SAZÓN<sup>®</sup> Lev Galinha</strong></li>
+	<li>3 colheres (sopa) de requeijão cremoso</li>
+</ul>
+
+<p style="margin-left:0cm; margin-right:0cm"><strong>Massa</strong></p>
+
+<ul>
+	<li>6 ovos</li>
+	<li>6 colheres (sopa) de goma para tapioca</li>
+	<li>3 colheres (sopa) de leite desnatado</li>
+	<li>meia xícara (chá) de floretes de brócolis picadinhos</li>
+</ul>
+
 <p style="margin-left:0cm; margin-right:0cm"> </p>
                 </div>
             </div>
 
 							<h2 class="text-red text-upper">Preparado com</h2>
 				<ul class="products">
-											<li class="text-center" data-moengage_payload="{&quot;nome do produto&quot;:&quot;Caldo SAZ\u00d3N\u00ae Lev Galinha&quot;,&quot;id do produto&quot;:303,&quot;link do produto&quot;:&quot;https:\/\/www.loja.ajinomoto.com.br\/caldo-sazon-lev-galinha-48-x-32-5gr-104687-aji-2605513?utm_source=site_sabores&amp;utm_medium=cta_comprar&quot;,&quot;marca&quot;:&quot;Caldo SAZ\u00d3N\u00ae&quot;,&quot;categoria do produto&quot;:&quot;&quot;}">
-							<a href="https://www.sazon.com.br/produtos/caldos" target="_blank">
+											<li class="text-center" data-moengage_payload="{&quot;nome do produto&quot;:&quot;Caldo SAZ\u00d3N\u00ae Lev Galinha&quot;,&quot;id do produto&quot;:303,&quot;link do produto&quot;:&quot;https:\/\/loja.ajinomoto.com.br\/caldo-em-po-sazon-lev-sabor-galinha-325g-ajt-104687\/p?utm_source=site_sabores&amp;utm_medium=cta_comprar&quot;,&quot;marca&quot;:&quot;Caldo SAZ\u00d3N\u00ae&quot;,&quot;categoria do produto&quot;:&quot;&quot;}">
+							<a href="https://loja.ajinomoto.com.br/caldo-em-po-sazon-lev-sabor-galinha-325g-ajt-104687/p?utm_source=site_sabores&amp;utm_medium=cta_comprar" target="_blank">
 								<img src="/uploads/images/products/CALDO_LEV_GALINHA_CARTUCHO _4__min.png" alt="Caldo SAZÓN® Lev Galinha" title="Caldo SAZÓN® Lev Galinha">
 							</a>
 														<div class="btn-shop">
-								<a href="https://www.loja.ajinomoto.com.br/caldo-sazon-lev-galinha-48-x-32-5gr-104687-aji-2605513?utm_source=site_sabores&amp;utm_medium=cta_comprar" target="_blank" 
-								onclick="Moengage.track_event('clicou-comprar-loja', {'nome do botão': 'Comprar', 'id do botão': 'btn-shop-now', 'url destino': 'https://www.loja.ajinomoto.com.br/caldo-sazon-lev-galinha-48-x-32-5gr-104687-aji-2605513?utm_source=site_sabores&amp;utm_medium=cta_comprar'}); dataLayer.push({ 'event': 'gaEvent', 'event_name': 'comprar', 'event_section': 'produtos', 'event_local': 'receita/crepioca-com-brocolis-e-frango', 'event_text': 'comprar', 'event_action': 'click', 'event_product': 'caldo-sazon-r-lev-galinha'});" data-ean="7891132082179" class="btn-default btn-action btn-size-l align-center btn-shop-now" data-slug="caldo-sazon-r-lev-galinha">Comprar</a>
+								<a href="https://loja.ajinomoto.com.br/caldo-em-po-sazon-lev-sabor-galinha-325g-ajt-104687/p?utm_source=site_sabores&amp;utm_medium=cta_comprar" target="_blank" 
+								onclick="Moengage.track_event('clicou-comprar-loja', {'nome do botão': 'Comprar', 'id do botão': 'btn-shop-now', 'url destino': 'https://loja.ajinomoto.com.br/caldo-em-po-sazon-lev-sabor-galinha-325g-ajt-104687/p?utm_source=site_sabores&amp;utm_medium=cta_comprar'}); dataLayer.push({ 'event': 'gaEvent', 'event_name': 'comprar', 'event_section': 'produtos', 'event_local': 'receita/crepioca-com-brocolis-e-frango', 'event_text': 'comprar', 'event_action': 'click', 'event_product': 'caldo-sazon-r-lev-galinha'});" data-ean="7891132082179" class="btn-default btn-action btn-size-l align-center btn-shop-now" data-slug="caldo-sazon-r-lev-galinha">Comprar</a>
 							</div>
 													</li>
 											<li class="text-center" data-moengage_payload="{&quot;nome do produto&quot;:&quot;TERRANO\u00ae Veggie Burger sabor Carne&quot;,&quot;id do produto&quot;:311,&quot;link do produto&quot;:&quot;https:\/\/www.loja.ajinomoto.com.br\/terrano-veggie-burger-sabor-carne-160g-116552-aji-2745294?utm_source=site_sabores&amp;utm_medium=cta_comprar&quot;,&quot;marca&quot;:&quot;TERRANO\u00ae&quot;,&quot;categoria do produto&quot;:&quot;&quot;}">
-							<a href="https://www.terranoajinomoto.com.br" target="_blank">
+							<a href="https://www.loja.ajinomoto.com.br/terrano-veggie-burger-sabor-carne-160g-116552-aji-2745294?utm_source=site_sabores&amp;utm_medium=cta_comprar" target="_blank">
 								<img src="/uploads/images/products/MKP_VRJ_TERRANO_VEGGIE_BURGER_CARNE_POUCH_160g.png" alt="TERRANO® Veggie Burger sabor Carne" title="TERRANO® Veggie Burger sabor Carne">
 							</a>
 														<div class="btn-shop">
@@ -592,13 +592,13 @@
 		<div class="grid-sys one-half">
 			<h2 class="text-red text-upper">Modo de preparo</h2>
 			<div class="steps" itemprop="recipeInstructions">
-				<ol>
-	<li>Faça o recheio: em uma frigideira média, aqueça meia colher (sopa) do <strong>Azeite TERRANO</strong><strong><sup>® </sup></strong>e frite os filés de frango por 4 minutos de cada lado, ou até dourarem. Retire da frigideira e desfie o frango.</li>
-	<li>Volte o frango para a frigideira e leve ao fogo médio. Junte o tomate e metade do <strong>Caldo SAZÓN<sup>®</sup></strong>, e refogue por 2 minutos, ou até o tomate desmanchar parcialmente. Adicione o requeijão e misture. Retire da frigideira e reserve aquecido.</li>
-	<li>Prepare a massa: em uma tigela média, coloque os ovos, a goma para tapioca, o leite e o <strong>Caldo SAZÓN<sup>® </sup></strong>restante, e misture até ficar homogêneo. Junte os brócolis e misture.</li>
-	<li>Em uma frigideira média (26 cm de diâmetro), untada com um fio do <strong>Azeite</strong> <strong>TERRANO</strong><strong><sup>®</sup></strong>, coloque 1 concha da massa e cozinhe por 1 minuto. Vire, disponha parte do recheio e dobre a crepioca ao meio. Tampe e deixe por 2 minutos de cada lado. Repita o processo com a massa e recheio restantes, repondo o <strong>Azeite TERRANO</strong><strong><sup>®</sup></strong> quando necessário. Sirva em seguida.</li>
-</ol>
-
+				<ol>
+	<li>Faça o recheio: em uma frigideira média, aqueça meia colher (sopa) do <strong>Azeite TERRANO</strong><strong><sup>® </sup></strong>e frite os filés de frango por 4 minutos de cada lado, ou até dourarem. Retire da frigideira e desfie o frango.</li>
+	<li>Volte o frango para a frigideira e leve ao fogo médio. Junte o tomate e metade do <strong>Caldo SAZÓN<sup>®</sup></strong>, e refogue por 2 minutos, ou até o tomate desmanchar parcialmente. Adicione o requeijão e misture. Retire da frigideira e reserve aquecido.</li>
+	<li>Prepare a massa: em uma tigela média, coloque os ovos, a goma para tapioca, o leite e o <strong>Caldo SAZÓN<sup>® </sup></strong>restante, e misture até ficar homogêneo. Junte os brócolis e misture.</li>
+	<li>Em uma frigideira média (26 cm de diâmetro), untada com um fio do <strong>Azeite</strong> <strong>TERRANO</strong><strong><sup>®</sup></strong>, coloque 1 concha da massa e cozinhe por 1 minuto. Vire, disponha parte do recheio e dobre a crepioca ao meio. Tampe e deixe por 2 minutos de cada lado. Repita o processo com a massa e recheio restantes, repondo o <strong>Azeite TERRANO</strong><strong><sup>®</sup></strong> quando necessário. Sirva em seguida.</li>
+</ol>
+
 <p style="margin-left:0cm; margin-right:0cm"> </p>
 			</div>
 
@@ -830,14 +830,14 @@
 			<div class="container-fluid">
 				<div class="container">
 					<div class="top">
-						<img src="/_dist/images/template/footer-package.png" alt="Produtos Ajinomoto" title="Produtos Ajinomoto">
+						<img src="/_dist/images/template/footer-package1.png" alt="Produtos Ajinomoto" title="Produtos Ajinomoto">
 					</div>
 				</div>
 			</div>
 			<div class="container-fluid bg-whiteGray">
 				<div class="container">
 					<a href="https://www.ajinomoto.com.br/fale-com-a-gente/consumidor" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'footer_click', 'event_section': 'footer', 'event_local': '/receita/crepioca-com-brocolis-e-frango', 'event_text': 'btn-fale-com-a-gente-consumidor', 'event_action': 'click' });" class="footer-logo" target="_blank">
-						<img src="/_dist/images/template/logo-sac-ajinomoto.svg" alt="SAC Ajinomoto" title="SAC Ajinomoto" width="210px">
+						<img src="/_dist/images/template/logo-sac-ajinomoto.svg" alt="SAC Ajinomoto" title="SAC Ajinomoto">
 					</a>
 
 					<ul class="footer-links">
@@ -1317,6 +1317,7 @@ $(document).ready(function() {
 					'tipo de newsletter': 'Cardápio semanal',
 				});
 				Moengage.add_unique_user_id(email).then(function(){
+					Moengage.add_user_attribute('email', email);
 					Moengage.add_user_attribute('aceita receber newsletter?', true);
 					Moengage.add_user_attribute('inscrito newsletter cardapio semanal', true);
 				});

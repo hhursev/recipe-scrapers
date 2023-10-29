@@ -20,14 +20,14 @@ class TestSweetPeasAndSaffron(ScraperTest):
         )
 
     def test_total_time(self):
-        self.assertEqual("25", self.harvester_class.total_time())
+        self.assertEqual(25, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("4", self.harvester_class.yields())
+        self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
-            "https://cdn.statically.io/img/sweetpeasandsaffron.com/wp-content/uploads/2017/05/steel-cut-oats-7-ways-TEXT-150x150.jpg?quality=100&f=auto",
+            "https://sweetpeasandsaffron.com/wp-content/uploads/2017/05/steel-cut-oats-7-ways-PIN.jpg",
             self.harvester_class.image(),
         )
 
@@ -42,9 +42,9 @@ class TestSweetPeasAndSaffron(ScraperTest):
                 "After cooking: 2 cup",
                 "maple syrup 1 cup",
                 "large apple 1 teaspoon",
-                "unsweetened apple sauce 1/3 teaspoon",
-                "chopped pecans 1/4 teaspoon",
-                "ground nutmeg 1/4 cup",
+                "unsweetened apple sauce ⅓ teaspoon",
+                "chopped pecans ¼ teaspoon",
+                "ground nutmeg ¼ cup",
                 "ground cloves 1 tablespoons",
                 "vanilla extract 1 cups",
                 "pumpkin puree 2 tablespoon",
@@ -55,9 +55,9 @@ class TestSweetPeasAndSaffron(ScraperTest):
                 "cocoa powder 1 cups",
                 "peanut butter 1 cup",
                 "berries 1-2 cup",
-                "chia seeds 1/4 cup",
+                "chia seeds ¼ cup",
                 "coconut extract 1 teaspoon",
-                "key lime zest 1/4 cup",
+                "key lime zest ¼ cup",
                 "strawberries 1 cups",
             ],
             self.harvester_class.ingredients(),
@@ -85,7 +85,7 @@ class TestSweetPeasAndSaffron(ScraperTest):
         )
 
     def test_ratings(self):
-        return self.assertEqual("4.89", self.harvester_class.ratings())
+        return self.assertEqual("4.62", self.harvester_class.ratings())
 
     def test_author(self):
         return self.assertEqual("Denise Bustard", self.harvester_class.author())

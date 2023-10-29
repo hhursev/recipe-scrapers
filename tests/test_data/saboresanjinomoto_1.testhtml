@@ -246,9 +246,9 @@
 		"name": "sabores ajinomoto"
 	},
 	"datePublished": "2012/10/10",
-	"prepTime": "PT",
+	"prepTime": "PT25M",
 	"cookTime": "PT25M",
-	"totalTime": "PT25M PT",
+	"totalTime": "PT25M",
 	"recipeYield": "5",
 	"nutrition": {
 		"@type": "NutritionInformation",
@@ -358,13 +358,13 @@
 								<div class="top ">
 					<ul class="social-link">
 						<li>
-							<a href="https://www.facebook.com/SaboresAjinomoto" onclick="_gaq.push(['_trackEvent', 'Cabeçalho', 'Acessou', 'Facebook']);" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+							<a href="https://www.facebook.com/SaboresAjinomoto" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'header_click', 'event_section': 'header', 'event_local': '/receita/pure-de-batata-com-frango', 'event_text': 'btn-facebook', 'event_action': 'click' });" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
 						</li>
 						<li>
-							<a href="https://www.youtube.com/saboresajinomoto" onclick="_gaq.push(['_trackEvent', 'Cabeçalho', 'Acessou', 'YouTube']);" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+							<a href="https://www.youtube.com/saboresajinomoto" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'header_click', 'event_section': 'header', 'event_local': '/receita/pure-de-batata-com-frango', 'event_text': 'btn-youtube', 'event_action': 'click' });" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
 						</li>
 						<li>
-							<a href="https://www.instagram.com/saboresajinomoto" onclick="_gaq.push(['_trackEvent', 'Cabeçalho', 'Acessou', 'YouTube']);" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+							<a href="https://www.instagram.com/saboresajinomoto" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'header_click', 'event_section': 'header', 'event_local': '/receita/pure-de-batata-com-frango', 'event_text': 'btn-instagram', 'event_action': 'click' });" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 						</li>
 					</ul>
 					<a href="/" class="link-logo"><img src="/_src/images/template/logo-sabores.svg" alt="Sabores Ajinomoto" title="Sabores Ajinomoto" class="logo"></a>
@@ -372,7 +372,7 @@
 											<ul class="user-link">
 							<li><a href="/cadastrar" onclick="_gaq.push(['_trackEvent', 'Cabeçalho', 'Acessou', 'Cadastro']);" class="btn-default">Cadastre-se</a></li>
 							<li><a href="#modal-login" onclick="Moengage.track_event('iniciou-login'); _gaq.push(['_trackEvent', 'Cabeçalho', 'Acessou', 'Login']);" data-fancybox class="btn-default btn-action" accesskey="u">Login</a></li>
-							<li><a href="https://www.loja.ajinomoto.com.br/?utm_source=site_sabores&utm_medium=cta_comprar&utm_campaign=compreagoramenu_sabores&utm_content=sitesabores_botaomenucompreagora" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'comprar', 'event_section': 'produtos', 'event_local': '/receita/pure-de-batata-com-frango', 'event_text': 'comprar', 'event_action': 'click', 'event_product': 'nao-especificado'});" target="_blank"><img src="/_dist/images/template/cart.png" alt="comprar" title="comprar"  class="hidden-xs">
+							<li><a href="https://loja.ajinomoto.com.br/?utm_source=site_sabores&utm_medium=cta_comprar&utm_campaign=compreagoramenu_sabores&utm_content=sitesabores_botaomenucompreagora" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'comprar', 'event_section': 'produtos', 'event_local': '/receita/pure-de-batata-com-frango', 'event_text': 'comprar', 'event_action': 'click', 'event_product': 'nao-especificado'});" target="_blank"><img src="/_dist/images/template/cart.png" alt="comprar" title="comprar"  class="hidden-xs">
 							<img src="/_dist/images/template/cart-white.png" alt="comprar" title="comprar"  class="visible-xs"></a><li>
 						</ul>
 					
@@ -544,27 +544,27 @@
             <div class="whatsapp-to-text">
                 <h2 class="text-red text-upper">Ingredientes</h2>
                 <div class="ingredients" itemprop="recipeIngredient">
-                    <ul>
-	<li>​​​​​3 colheres (sopa) de margarina sem sal (45 g)</li>
-	<li style="margin-left: 0cm; margin-right: 0cm;">1 fil&eacute; de peito de frango (100 g)</li>
-	<li style="margin-left: 0cm; margin-right: 0cm;">2 batatas m&eacute;dias, cozidas e espremidas (400 g)</li>
-	<li style="margin-left: 0cm; margin-right: 0cm;">meia x&iacute;cara (ch&aacute;) de leite (100 ml)</li>
-	<li style="margin-left: 0cm; margin-right: 0cm;">meia colher (ch&aacute;) de sal</li>
-	<li style="margin-left: 0cm; margin-right: 0cm;">meia colher (ch&aacute;) de <strong>AJI-NO-MOTO<sup>&reg;</sup></strong></li>
-</ul>
+                    <ul>
+	<li>​​​​​3 colheres (sopa) de margarina sem sal (45 g)</li>
+	<li style="margin-left: 0cm; margin-right: 0cm;">1 fil&eacute; de peito de frango (100 g)</li>
+	<li style="margin-left: 0cm; margin-right: 0cm;">2 batatas m&eacute;dias, cozidas e espremidas (400 g)</li>
+	<li style="margin-left: 0cm; margin-right: 0cm;">meia x&iacute;cara (ch&aacute;) de leite (100 ml)</li>
+	<li style="margin-left: 0cm; margin-right: 0cm;">meia colher (ch&aacute;) de sal</li>
+	<li style="margin-left: 0cm; margin-right: 0cm;">meia colher (ch&aacute;) de <strong>AJI-NO-MOTO<sup>&reg;</sup></strong></li>
+</ul>
 
                 </div>
             </div>
 
 							<h2 class="text-red text-upper">Preparado com</h2>
 				<ul class="products">
-											<li class="text-center" data-moengage_payload="{&quot;nome do produto&quot;:&quot;AJI-NO-MOTO\u00ae&quot;,&quot;id do produto&quot;:116,&quot;link do produto&quot;:&quot;https:\/\/www.loja.ajinomoto.com.br\/aji-no-motor-frasco-100g-100002-aji-2511725?utm_source=site_sabores&amp;utm_medium=cta_comprar&quot;,&quot;marca&quot;:&quot;AJI-NO-MOTO\u00ae&quot;,&quot;categoria do produto&quot;:&quot;&quot;}">
-							<a href="http://www.aji-no-moto.com.br/" target="_blank">
+											<li class="text-center" data-moengage_payload="{&quot;nome do produto&quot;:&quot;AJI-NO-MOTO\u00ae&quot;,&quot;id do produto&quot;:116,&quot;link do produto&quot;:&quot;https:\/\/loja.ajinomoto.com.br\/aji-no-moto-frasco-100g-ajt-100002\/p?utm_source=site_sabores&amp;utm_medium=cta_comprar&quot;,&quot;marca&quot;:&quot;AJI-NO-MOTO\u00ae&quot;,&quot;categoria do produto&quot;:&quot;&quot;}">
+							<a href="https://loja.ajinomoto.com.br/aji-no-moto-frasco-100g-ajt-100002/p?utm_source=site_sabores&amp;utm_medium=cta_comprar" target="_blank">
 								<img src="/uploads/images/products/aji_no_moto_site.png" alt="AJI-NO-MOTO®" title="AJI-NO-MOTO®">
 							</a>
 														<div class="btn-shop">
-								<a href="https://www.loja.ajinomoto.com.br/aji-no-motor-frasco-100g-100002-aji-2511725?utm_source=site_sabores&amp;utm_medium=cta_comprar" target="_blank" 
-								onclick="Moengage.track_event('clicou-comprar-loja', {'nome do botão': 'Comprar', 'id do botão': 'btn-shop-now', 'url destino': 'https://www.loja.ajinomoto.com.br/aji-no-motor-frasco-100g-100002-aji-2511725?utm_source=site_sabores&amp;utm_medium=cta_comprar'}); dataLayer.push({ 'event': 'gaEvent', 'event_name': 'comprar', 'event_section': 'produtos', 'event_local': 'receita/pure-de-batata-com-frango', 'event_text': 'comprar', 'event_action': 'click', 'event_product': 'aji-no-moto'});" data-ean="7891132011018" class="btn-default btn-action btn-size-l align-center btn-shop-now" data-slug="aji-no-moto">Comprar</a>
+								<a href="https://loja.ajinomoto.com.br/aji-no-moto-frasco-100g-ajt-100002/p?utm_source=site_sabores&amp;utm_medium=cta_comprar" target="_blank" 
+								onclick="Moengage.track_event('clicou-comprar-loja', {'nome do botão': 'Comprar', 'id do botão': 'btn-shop-now', 'url destino': 'https://loja.ajinomoto.com.br/aji-no-moto-frasco-100g-ajt-100002/p?utm_source=site_sabores&amp;utm_medium=cta_comprar'}); dataLayer.push({ 'event': 'gaEvent', 'event_name': 'comprar', 'event_section': 'produtos', 'event_local': 'receita/pure-de-batata-com-frango', 'event_text': 'comprar', 'event_action': 'click', 'event_product': 'aji-no-moto'});" data-ean="7891132011018" class="btn-default btn-action btn-size-l align-center btn-shop-now" data-slug="aji-no-moto">Comprar</a>
 							</div>
 													</li>
 									</ul>
@@ -572,19 +572,19 @@
 		<div class="grid-sys one-half">
 			<h2 class="text-red text-upper">Modo de preparo</h2>
 			<div class="steps" itemprop="recipeInstructions">
-				<ol>
-	<li>​​Em uma panela m&eacute;dia, derreta 1 colher (sopa) da margarina em fogo m&eacute;dio e frite o frango por cerca de 10 minutos, virando na metade do tempo, ou at&eacute; dourar. Retire do fogo, desfie com o aux&iacute;lio de um garfo e reserve aquecido.</li>
-	<li>Na mesma panela, derreta a margarina restante, em fogo alto, junte a batata, o leite, o sal e o <strong>AJI-NO-MOTO<sup>&reg;</sup></strong>, e mexa at&eacute; que fique homog&ecirc;neo.</li>
-	<li>Acrescente o frango, misture e retire do fogo. Sirva em seguida.</li>
-</ol>
-
-<p>&nbsp;</p>
+				<ol>
+	<li>​​Em uma panela m&eacute;dia, derreta 1 colher (sopa) da margarina em fogo m&eacute;dio e frite o frango por cerca de 10 minutos, virando na metade do tempo, ou at&eacute; dourar. Retire do fogo, desfie com o aux&iacute;lio de um garfo e reserve aquecido.</li>
+	<li>Na mesma panela, derreta a margarina restante, em fogo alto, junte a batata, o leite, o sal e o <strong>AJI-NO-MOTO<sup>&reg;</sup></strong>, e mexa at&eacute; que fique homog&ecirc;neo.</li>
+	<li>Acrescente o frango, misture e retire do fogo. Sirva em seguida.</li>
+</ol>
+
+<p>&nbsp;</p>
 
 			</div>
 
 						<h2 class="text-yellow text-upper">dica</h2>
 			<div class="tip">
-				<p><p>Se quiser, para deixar o pur&ecirc; ainda mais atraente, acrescente salsa,&nbsp;cebolinha-verde ou legumes de sua prefer&ecirc;ncia&nbsp;picados, ao final do preparo.</p>
+				<p><p>Se quiser, para deixar o pur&ecirc; ainda mais atraente, acrescente salsa,&nbsp;cebolinha-verde ou legumes de sua prefer&ecirc;ncia&nbsp;picados, ao final do preparo.</p>
 </p>
 			</div>
 			
@@ -786,14 +786,14 @@
 			<div class="container-fluid">
 				<div class="container">
 					<div class="top">
-						<img src="/_dist/images/template/footer-package.png" alt="Produtos Ajinomoto" title="Produtos Ajinomoto">
+						<img src="/_dist/images/template/footer-package1.png" alt="Produtos Ajinomoto" title="Produtos Ajinomoto">
 					</div>
 				</div>
 			</div>
 			<div class="container-fluid bg-whiteGray">
 				<div class="container">
 					<a href="https://www.ajinomoto.com.br/fale-com-a-gente/consumidor" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'footer_click', 'event_section': 'footer', 'event_local': '/receita/pure-de-batata-com-frango', 'event_text': 'btn-fale-com-a-gente-consumidor', 'event_action': 'click' });" class="footer-logo" target="_blank">
-						<img src="/_dist/images/template/logo-sac-ajinomoto.svg" alt="SAC Ajinomoto" title="SAC Ajinomoto" width="210px">
+						<img src="/_dist/images/template/logo-sac-ajinomoto.svg" alt="SAC Ajinomoto" title="SAC Ajinomoto">
 					</a>
 
 					<ul class="footer-links">
@@ -1273,6 +1273,7 @@ $(document).ready(function() {
 					'tipo de newsletter': 'Cardápio semanal',
 				});
 				Moengage.add_unique_user_id(email).then(function(){
+					Moengage.add_user_attribute('email', email);
 					Moengage.add_user_attribute('aceita receber newsletter?', true);
 					Moengage.add_user_attribute('inscrito newsletter cardapio semanal', true);
 				});

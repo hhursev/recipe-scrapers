@@ -15,6 +15,12 @@ class TestWoolworthsScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("woolworths.com.au", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.woolworths.com.au/shop/recipes/asparagus-salad-with-lemon-vinaigrette",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Fresh Ideas", self.harvester_class.author())
 

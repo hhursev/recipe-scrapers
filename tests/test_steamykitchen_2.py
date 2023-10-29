@@ -9,6 +9,12 @@ class TestSteamyKitchenScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("steamykitchen.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://steamykitchen.com/23936-hungarian-pork-stew-recipe-video.html",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Jaden", self.harvester_class.author())
 
