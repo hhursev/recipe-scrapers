@@ -12,6 +12,12 @@ class TestNutritionFactsScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("nutritionfacts.org", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://nutritionfacts.org/recipe/cinnamon-roll-oatmeal/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual(
             "Jill Dalton from the Whole Food Plant Based Cooking Show",
