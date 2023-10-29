@@ -24,7 +24,7 @@ class ScraperTest(unittest.TestCase):
             # Only modify setUpClass if subclass of ScraperTest
             return super().setUpClass()
 
-        start_url = f"https://{cls.scraper_class.host()}/"
+        start_url = "https://example.org/"
         for path in cls.expected_requests():
             with open(path, encoding="utf-8") as f:
                 html = f.read()
