@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestStaySnatchedScraper(ScraperTest):
-
     scraper_class = StaySnatched
 
     def test_host(self):

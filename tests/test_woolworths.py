@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestWoolworthsScraper(ScraperTest):
-
     scraper_class = Woolworths
 
     @classmethod

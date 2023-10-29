@@ -4,7 +4,6 @@ from tests import ScraperTest
 
 
 class TestBakingSense(ScraperTest):
-
     scraper_class = BakingSense
     test_file_name = "bakingsense_2"
 

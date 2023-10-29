@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestPopSugarScraper(ScraperTest):
-
     scraper_class = PopSugar
 
     def test_host(self):

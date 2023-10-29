@@ -4,7 +4,6 @@ from tests import ScraperTest
 
 
 class TestBigOven(ScraperTest):
-
     scraper_class = BigOven
     test_file_name = "bigoven_2"
 

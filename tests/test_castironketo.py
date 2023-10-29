@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestCastIronKetoScraper(ScraperTest):
-
     scraper_class = CastIronKeto
 
     def test_host(self):

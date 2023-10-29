@@ -237,7 +237,7 @@ class Replacer:
 
     def result(self):
         code = self.code
-        for (replacement_text, start, length) in self.replacements:
+        for replacement_text, start, length in self.replacements:
             start = start + self.delta
             end = start + length
             code = code[:start] + replacement_text + code[end:]

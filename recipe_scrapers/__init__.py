@@ -96,6 +96,7 @@ from .globo import Globo
 from .godt import Godt
 from .gonnawantseconds import GonnaWantSeconds
 from .goodfooddiscoveries import GoodFoodDiscoveries
+from .goodhousekeeping import GoodHousekeeping
 from .goustojson import GoustoJson
 from .grandfrais import GrandFrais
 from .greatbritishchefs import GreatBritishChefs
@@ -380,6 +381,7 @@ SCRAPERS = {
     Godt.host(): Godt,
     GonnaWantSeconds.host(): GonnaWantSeconds,
     GoodFoodDiscoveries.host(): GoodFoodDiscoveries,
+    GoodHousekeeping.host(): GoodHousekeeping,
     GoustoJson.host(): GoustoJson,
     GreatBritishChefs.host(): GreatBritishChefs,
     GrimGrains.host(): GrimGrains,

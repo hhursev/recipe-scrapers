@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestPurpleCarrotScraper(ScraperTest):
-
     scraper_class = PurpleCarrot
 
     def test_host(self):

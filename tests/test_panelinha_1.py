@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestPanelinhaScraper(ScraperTest):
-
     scraper_class = Panelinha
     test_file_name = "panelinha_1"
 

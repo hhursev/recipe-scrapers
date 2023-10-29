@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestKptnCookScraper(ScraperTest):
-
     scraper_class = KptnCook
 
     @classmethod

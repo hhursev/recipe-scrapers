@@ -4,7 +4,6 @@ from tests import ScraperTest
 
 
 class TestTwoPeasAndTheirPodScraper(ScraperTest):
-
     scraper_class = TwoPeasAndTheirPod
     test_file_name = "twopeasandtheirpod_1"
 

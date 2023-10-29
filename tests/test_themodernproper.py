@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestTheModernProperScraper(ScraperTest):
-
     scraper_class = TheModernProper
 
     def test_host(self):

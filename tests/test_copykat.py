@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestCopyKat(ScraperTest):
-
     scraper_class = CopyKat
 
     def test_host(self):

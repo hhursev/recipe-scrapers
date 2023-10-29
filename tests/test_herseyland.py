@@ -6,7 +6,6 @@ from tests import ScraperTest
 
 
 class TestHerseyLandScraper(ScraperTest):
-
     scraper_class = HerseyLand
 
     def test_host(self):

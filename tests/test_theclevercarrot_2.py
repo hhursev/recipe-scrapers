@@ -6,7 +6,6 @@ from tests import ScraperTest
 
 
 class TestTheCleverCarrotScraper(ScraperTest):
-
     scraper_class = TheCleverCarrot
     test_file_name = "theclevercarrot_2"
 

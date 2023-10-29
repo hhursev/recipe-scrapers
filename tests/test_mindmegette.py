@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestMindmegetteScraper(ScraperTest):
-
     scraper_class = Mindmegette
 
     def test_host(self):

@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestSeriousEats(ScraperTest):
-
     scraper_class = SeriousEats
 
     def test_host(self):

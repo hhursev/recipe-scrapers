@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestSundPaaBudgetScraper(ScraperTest):
-
     scraper_class = SundPaaBudget
 
     def test_host(self):

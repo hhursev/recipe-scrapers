@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestZeitWochenmarktScraper(ScraperTest):
-
     scraper_class = ZeitWochenmarkt
 
     def test_host(self):

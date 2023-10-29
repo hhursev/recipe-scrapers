@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestSimplyWhiskedScraper(ScraperTest):
-
     scraper_class = SimplyWhisked
 
     def test_host(self):

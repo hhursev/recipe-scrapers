@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestElaVeganScraper(ScraperTest):
-
     scraper_class = ElaVegan
     test_file_name = "elavegan_1"
 

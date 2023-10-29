@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestTemplateScraper(ScraperTest):
-
     scraper_class = Template
 
     def test_host(self):

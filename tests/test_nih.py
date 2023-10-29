@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestNIHHealthyEatingRecipesScraper(ScraperTest):
-
     scraper_class = NIHHealthyEating
     test_file_name = "nihhealthyeating_1"
 
@@ -116,7 +115,6 @@ class TestNIHHealthyEatingRecipesScraper(ScraperTest):
 
 
 class TestNIHHealthyEatingRecipesVariationScraper(ScraperTest):
-
     scraper_class = NIHHealthyEating
     test_file_name = "nihhealthyeating_2"
 
@@ -202,7 +200,6 @@ class TestNIHHealthyEatingRecipesVariationScraper(ScraperTest):
 
 
 class TestNIHHealthyEatingRecipesEdgeCaseScraper(ScraperTest):
-
     scraper_class = NIHHealthyEating
     test_file_name = "nihhealthyeating_3"
 

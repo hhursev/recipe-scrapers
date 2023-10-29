@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestFifteenSpatulasScraper(ScraperTest):
-
     scraper_class = FifteenSpatulas
 
     def test_host(self):

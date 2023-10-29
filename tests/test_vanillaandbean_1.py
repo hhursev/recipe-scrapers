@@ -4,7 +4,6 @@ from tests import ScraperTest
 
 
 class TestVanillaAndBeanScraper(ScraperTest):
-
     scraper_class = VanillaAndBean
     test_file_name = "vanillaandbean_1"
 

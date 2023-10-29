@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestMadeWithLauScraper(ScraperTest):
-
     scraper_class = MadeWithLau
 
     def test_host(self):

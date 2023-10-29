@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestBettyBossiScraper(ScraperTest):
-
     scraper_class = BettyBossi
 
     def test_host(self):

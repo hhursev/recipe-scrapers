@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestMisya(ScraperTest):
-
     scraper_class = Misya
 
     def test_host(self):

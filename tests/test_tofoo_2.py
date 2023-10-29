@@ -6,7 +6,6 @@ from tests import ScraperTest
 
 
 class TestTofooScraper(ScraperTest):
-
     scraper_class = Tofoo
     test_file_name = "tofoo_2"
 

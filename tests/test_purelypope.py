@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestPurelyPopeScraper(ScraperTest):
-
     scraper_class = PurelyPope
 
     def test_host(self):

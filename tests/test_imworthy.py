@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestImWorthyScraper(ScraperTest):
-
     scraper_class = ImWorthy
 
     def test_host(self):

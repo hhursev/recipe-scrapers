@@ -4,7 +4,6 @@ from tests import ScraperTest
 
 
 class TestCookEatShare(ScraperTest):
-
     scraper_class = CookEatShare
 
     def test_host(self):

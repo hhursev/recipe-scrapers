@@ -7,7 +7,6 @@ from tests import ScraperTest
 
 
 class TestForkToSpoonScraper(ScraperTest):
-
     scraper_class = ForkToSpoon
 
     def test_host(self):

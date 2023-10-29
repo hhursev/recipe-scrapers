@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestDomesticateMeScraper(ScraperTest):
-
     scraper_class = DomesticateMe
     test_file_name = "domesticateme_1"
 

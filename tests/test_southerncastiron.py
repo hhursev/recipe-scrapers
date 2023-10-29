@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestSouthernCastIronScraper(ScraperTest):
-
     scraper_class = SouthernCastIron
 
     def test_host(self):

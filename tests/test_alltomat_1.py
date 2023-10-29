@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestAllTomatScraper(ScraperTest):
-
     scraper_class = AllTomat
     test_file_name = "alltomat_1"
 

@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestHandleTheHeatScraper(ScraperTest):
-
     scraper_class = HandleTheHeat
 
     def test_host(self):

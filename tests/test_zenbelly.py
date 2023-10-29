@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestZenBellyScraper(ScraperTest):
-
     scraper_class = ZenBelly
 
     def test_host(self):

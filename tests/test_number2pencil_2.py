@@ -6,7 +6,6 @@ from tests import ScraperTest
 
 
 class TestNumber2PencilScraper(ScraperTest):
-
     scraper_class = Number2Pencil
     test_file_name = "number2pencil_2"
 
