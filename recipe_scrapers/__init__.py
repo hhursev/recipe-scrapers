@@ -176,6 +176,7 @@ from .nourishedbynutrition import NourishedByNutrition
 from .nrkmat import NRKMat
 from .number2pencil import Number2Pencil
 from .nutritionbynathalie import NutritionByNathalie
+from .nutritionfacts import NutritionFacts
 from .nytimes import NYTimes
 from .ohsheglows import OhSheGlows
 from .omnivorescookbook import OmnivoresCookbook
@@ -345,6 +346,7 @@ SCRAPERS = {
     Delish.host(): Delish,
     ElaVegan.host(): ElaVegan,
     GrandFrais.host(): GrandFrais,
+    NutritionFacts.host(): NutritionFacts,
     Thinlicious.host(): Thinlicious,
     DomesticateMe.host(): DomesticateMe,
     Downshiftology.host(): Downshiftology,
