@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestDelishRogueOlScraper(ScraperTest):
-
     scraper_class = Delish
     test_file_name = "delish_rogue_ol"
 

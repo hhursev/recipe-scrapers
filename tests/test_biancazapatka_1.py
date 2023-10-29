@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestBiancaZapatkaScraper(ScraperTest):
-
     scraper_class = BiancaZapatka
     test_file_name = "biancazapatka_1"
 

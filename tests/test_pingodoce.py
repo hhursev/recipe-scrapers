@@ -3,11 +3,16 @@ from tests import ScraperTest
 
 
 class TestPingoDoceScraper(ScraperTest):
-
     scraper_class = PingoDoce
 
     def test_host(self):
         self.assertEqual("pingodoce.pt", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.pingodoce.pt/receitas/arroz-de-tamboril/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual("Arroz de tamboril", self.harvester_class.title())
@@ -21,7 +26,6 @@ class TestPingoDoceScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "1 q.b. hortelã",
                 "1 kg tamboril",
                 "100 ml azeite",
                 "2 unid. cebola grande",
@@ -36,6 +40,7 @@ class TestPingoDoceScraper(ScraperTest):
                 "1 q.b. pimenta branca",
                 "400 g miolo de camarão",
                 "40 g manteiga",
+                "1 q.b. hortelã",
             ],
             self.harvester_class.ingredients(),
         )
@@ -47,7 +52,7 @@ class TestPingoDoceScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(2.0, self.harvester_class.ratings())
+        self.assertEqual(3.0, self.harvester_class.ratings())
 
     def test_description(self):
         self.assertEqual(

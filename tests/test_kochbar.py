@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestKochbarScraper(ScraperTest):
-
     scraper_class = Kochbar
 
     def test_host(self):

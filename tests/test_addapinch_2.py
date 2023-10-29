@@ -6,7 +6,6 @@ from tests import ScraperTest
 
 
 class TestAddAPinchScraper(ScraperTest):
-
     scraper_class = AddAPinch
     test_file_name = "addapinch_2"
 

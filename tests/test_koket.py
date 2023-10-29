@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestKoketScraper(ScraperTest):
-
     scraper_class = Koket
 
     def test_host(self):

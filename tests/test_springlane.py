@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestSpringlaneScraper(ScraperTest):
-
     scraper_class = Springlane
 
     def test_host(self):

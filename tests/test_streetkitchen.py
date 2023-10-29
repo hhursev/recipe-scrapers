@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestStreetKitchenScraper(ScraperTest):
-
     scraper_class = StreetKitchen
 
     def test_host(self):

@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestCdKitchen(ScraperTest):
-
     scraper_class = CdKitchen
 
     def test_host(self):

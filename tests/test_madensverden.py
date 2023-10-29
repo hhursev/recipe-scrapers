@@ -3,11 +3,16 @@ from tests import ScraperTest
 
 
 class TestMadensVerdenScraper(ScraperTest):
-
     scraper_class = MadensVerden
 
     def test_host(self):
         self.assertEqual("madensverden.dk", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://madensverden.dk/trifli-med-rabarber/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(
@@ -51,7 +56,7 @@ class TestMadensVerdenScraper(ScraperTest):
                 "400 gram rabarber",
                 "75 gram sukker",
                 "10 gram vaniljesukker",
-                "2 pasteuriserede æggeblommer (1 bæger)",
+                "2 pasteuriserede æggeblommer",
                 "40 gram sukker",
                 "10 gram majsstivelse",
                 "2,5 deciliter sødmælk",
@@ -69,7 +74,7 @@ class TestMadensVerdenScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.77, self.harvester_class.ratings())
+        self.assertEqual(4.72, self.harvester_class.ratings())
 
     def test_author(self):
         self.assertEqual("Holger Rørby Madsen", self.harvester_class.author())

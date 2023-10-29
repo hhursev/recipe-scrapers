@@ -10,6 +10,12 @@ class TestMadsvinScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("madsvin.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://madsvin.com/pandekager/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual("Pandekager", self.harvester_class.title())
 
@@ -29,10 +35,10 @@ class TestMadsvinScraper(ScraperTest):
         self.assertEqual(
             [
                 "125 gram hvedemel",
-                "3 æg mellemstore",
-                "3 dl sødmælk ((anden mælk kan også fint bruges))",
-                "2 spsk sukker ((både rørsukker og hvid sukker kan bruges))",
-                "½ stang vanilje ((eller 1 spsk vaniljesukker))",
+                "3 æg ((mellemstore))",
+                "3 dl mælk (jeg brugte sødmælk - anden mælk kan også fint bruges)",
+                "2 spsk sukker (både rørsukker og hvid sukker kan bruges)",
+                "½ stang vanilje (eller 1 spsk vaniljesukker)",
                 "25 gram smør ((smeltet))",
                 "½ tsk salt",
                 "smør (til stegning - neutral olie kan også bruges)",
@@ -41,7 +47,7 @@ class TestMadsvinScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.67, self.harvester_class.ratings())
+        self.assertEqual(4.64, self.harvester_class.ratings())
 
     def test_category(self):
         self.assertEqual("bagværk,Dessert,Kage", self.harvester_class.category())

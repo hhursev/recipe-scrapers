@@ -6,7 +6,6 @@ from tests import ScraperTest
 
 
 class TestLivelyTableScraper(ScraperTest):
-
     scraper_class = LivelyTable
     test_file_name = "livelytable_2"
 

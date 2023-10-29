@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestHalfBakedHarvestScraper(ScraperTest):
-
     scraper_class = HalfBakedHarvest
 
     def test_host(self):

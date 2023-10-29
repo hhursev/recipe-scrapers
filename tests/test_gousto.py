@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestGoustoScraper(ScraperTest):
-
     scraper_class = Gousto
 
     @classmethod

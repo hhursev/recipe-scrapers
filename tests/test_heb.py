@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestHEBScraper(ScraperTest):
-
     scraper_class = HEB
 
     def test_host(self):

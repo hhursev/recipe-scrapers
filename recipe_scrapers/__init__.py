@@ -95,6 +95,7 @@ from .globo import Globo
 from .godt import Godt
 from .gonnawantseconds import GonnaWantSeconds
 from .goodfooddiscoveries import GoodFoodDiscoveries
+from .goodhousekeeping import GoodHousekeeping
 from .grandfrais import GrandFrais
 from .greatbritishchefs import GreatBritishChefs
 from .grimgrains import GrimGrains
@@ -375,6 +376,7 @@ SCRAPERS = {
     Godt.host(): Godt,
     GonnaWantSeconds.host(): GonnaWantSeconds,
     GoodFoodDiscoveries.host(): GoodFoodDiscoveries,
+    GoodHousekeeping.host(): GoodHousekeeping,
     GreatBritishChefs.host(): GreatBritishChefs,
     GrimGrains.host(): GrimGrains,
     GroupRecipes.host(): GroupRecipes,

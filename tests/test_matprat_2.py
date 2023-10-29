@@ -4,7 +4,6 @@ from tests import ScraperTest
 
 
 class TestMatprat(ScraperTest):
-
     scraper_class = Matprat
     test_file_name = "matprat_2"
 

@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestGonnaWantSeconds(ScraperTest):
-
     scraper_class = GonnaWantSeconds
 
     def test_host(self):

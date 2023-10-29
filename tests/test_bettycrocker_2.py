@@ -4,7 +4,6 @@ from tests import ScraperTest
 
 
 class TestBettyCrocker(ScraperTest):
-
     scraper_class = BettyCrocker
     test_file_name = "bettycrocker_2"
 

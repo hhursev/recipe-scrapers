@@ -5,11 +5,16 @@ from tests import ScraperTest
 
 
 class TestProjectGezondScraper(ScraperTest):
-
     scraper_class = ProjectGezond
 
     def test_host(self):
         self.assertEqual("projectgezond.nl", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.projectgezond.nl/boeuf-bourguignon/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("Project Gezond", self.harvester_class.author())
@@ -18,7 +23,10 @@ class TestProjectGezondScraper(ScraperTest):
         self.assertEqual("Boeuf bourguignon", self.harvester_class.title())
 
     def test_category(self):
-        self.assertEqual("Diner, Kerstrecepten", self.harvester_class.category())
+        self.assertEqual(
+            "Alle recepten uit ons kookboek 'Altijd lekker', Diner, Kerstrecepten",
+            self.harvester_class.category(),
+        )
 
     def test_total_time(self):
         self.assertEqual("30 minuten + 2 uur stoven", self.harvester_class.total_time())
@@ -67,6 +75,6 @@ class TestProjectGezondScraper(ScraperTest):
 
     def test_description(self):
         self.assertEqual(
-            "Deze klassieker vindt zijn oorsprong in de Franse keuken. ‘Rund op bourgondische wijze’ is een vertaling van ‘Boeuf bourguignon’ die niets aan de verbeelding overlaat.\nDit recept is dan ook het perfecte antwoord als het weer tijd is voor een potje stoof!\nWant het is verre van moeilijk om deze ultieme stoofpot te bereiden. Je hebt enkel wat (wacht)tijd en dus geduld nodig. Het is helemaal geen gek idee dat je dit recept al de dag van tevoren klaarmaakt trouwens. De smaken kunnen dan zelfs nog beter intrekken.\nAls dat geen ‘Boeuf bourguignon’ wordt…",
+            "Wist je dat dit recept ook te vinden is in ons bestseller kookboek ‘Altijd lekker’? In dit boek vind je een selectie van 100 populaire recepten uit ons online afslankprogramma. Benieuwd naar alle recepten uit dit boek? Bekijk dan deze pagina.\nDeze klassieker vindt zijn oorsprong in de Franse keuken. ‘Rund op bourgondische wijze’ is een vertaling van ‘Boeuf bourguignon’ die niets aan de verbeelding overlaat.\nDit recept is dan ook het perfecte antwoord als het weer tijd is voor een potje stoof!\nWant het is verre van moeilijk om deze ultieme stoofpot te bereiden. Je hebt enkel wat (wacht)tijd en dus geduld nodig. Het is helemaal geen gek idee dat je dit recept al de dag van tevoren klaarmaakt trouwens. De smaken kunnen dan zelfs nog beter intrekken.\nAls dat geen ‘Boeuf bourguignon’ wordt…",
             self.harvester_class.description(),
         )

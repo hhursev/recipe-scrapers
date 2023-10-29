@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestKitchenStoriesScraper(ScraperTest):
-
     scraper_class = KitchenStories
 
     def test_host(self):
@@ -27,7 +26,7 @@ class TestKitchenStoriesScraper(ScraperTest):
         self.assertEqual(80, self.harvester_class.total_time())
 
     def test_cook_time(self):
-        self.assertEqual(0, self.harvester_class.cook_time())
+        self.assertEqual(None, self.harvester_class.cook_time())
 
     def test_prep_time(self):
         self.assertEqual(20, self.harvester_class.prep_time())

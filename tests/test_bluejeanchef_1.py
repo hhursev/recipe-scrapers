@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestBlueJeanChefScraper(ScraperTest):
-
     scraper_class = BlueJeanChef
     test_file_name = "bluejeanchef_1"
 

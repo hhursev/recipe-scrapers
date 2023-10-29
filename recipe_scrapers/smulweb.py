@@ -6,7 +6,6 @@ from ._abstract import AbstractScraper
 
 
 class Smulweb(AbstractScraper):
-
     instruction_delimiter = re.compile(r"(\.|\))\s*([A-Z])")
 
     @classmethod

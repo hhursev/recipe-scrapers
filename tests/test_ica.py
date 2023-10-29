@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestIcaScraper(ScraperTest):
-
     scraper_class = Ica
 
     def test_host(self):

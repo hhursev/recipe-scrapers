@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestWellPlatedScraper(ScraperTest):
-
     scraper_class = WellPlated
 
     def test_host(self):

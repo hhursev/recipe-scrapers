@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestWikiCookbookScraper(ScraperTest):
-
     scraper_class = WikiCookbook
 
     def test_host(self):

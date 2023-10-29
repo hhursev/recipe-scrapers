@@ -4,7 +4,6 @@ from tests import ScraperTest
 
 
 class TestSteamyKitchenScraper(ScraperTest):
-
     scraper_class = SteamyKitchen
     test_file_name = "steamykitchen_1"
 

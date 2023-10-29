@@ -136,7 +136,7 @@ class SchemaOrg:
             # Refs:
             #  - https://schema.org/Duration
             #  - https://schema.org/QuantitativeValue
-            if type(source) == dict and "minValue" in source:
+            if type(source) is dict and "minValue" in source:
                 source = source["minValue"]
             return get_minutes(source, return_zero_on_not_found=True)
 

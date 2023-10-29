@@ -4,7 +4,6 @@ from tests import ScraperTest
 
 
 class TestTasteAUScraper2(ScraperTest):
-
     scraper_class = TasteAU
     test_file_name = "tasteau_2"
 
