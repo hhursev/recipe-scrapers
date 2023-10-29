@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestWeightwatchersScraper(ScraperTest):
-
     # Test-Url:
     # https://cmx.weightwatchers.de/details/WWRECIPE:5667ab72a29713e4335bb342
 

@@ -6,7 +6,6 @@ from tests import ScraperTest
 
 
 class TestPinkOwlKitchenScraper(ScraperTest):
-
     scraper_class = PinkOwlKitchen
     test_file_name = "pinkowlkitchen_2"
 

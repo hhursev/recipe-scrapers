@@ -5,7 +5,6 @@ from tests import ScraperTest
 # test recipe's URL
 # https://www.acouplecooks.com/garlic-butter-shrimp/
 class TestACoupleCooks(ScraperTest):
-
     scraper_class = ACoupleCooks
 
     def test_host(self):

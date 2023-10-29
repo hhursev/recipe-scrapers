@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestAllRecipesCuratedScraper(ScraperTest):
-
     scraper_class = AllRecipesCurated
 
     def test_host(self):
@@ -83,7 +82,6 @@ class TestAllRecipesCuratedScraper(ScraperTest):
 
 
 class TestAllRecipesUserScraper(ScraperTest):
-
     scraper_class = AllRecipesUser
 
     def test_host(self):

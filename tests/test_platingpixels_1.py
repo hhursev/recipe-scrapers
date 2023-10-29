@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestPlatingPixelsScraper1(ScraperTest):
-
     scraper_class = PlatingPixels
     test_file_name = "platingpixels_1"
 

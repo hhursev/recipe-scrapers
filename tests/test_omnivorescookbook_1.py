@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestOmnivoresCookbookScraper(ScraperTest):
-
     scraper_class = OmnivoresCookbook
     test_file_name = "omnivorescookbook_1"
 

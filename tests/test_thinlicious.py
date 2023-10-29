@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestThinlicious(ScraperTest):
-
     scraper_class = Thinlicious
 
     def test_host(self):

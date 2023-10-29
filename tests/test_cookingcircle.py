@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestCookingCircleScraper(ScraperTest):
-
     scraper_class = CookingCircle
 
     def test_host(self):

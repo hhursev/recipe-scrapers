@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestMobKitchenScraper(ScraperTest):
-
     scraper_class = MobKitchen
 
     def test_host(self):

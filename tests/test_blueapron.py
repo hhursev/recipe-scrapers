@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestBlueApronScraper(ScraperTest):
-
     scraper_class = BlueApron
 
     def test_host(self):

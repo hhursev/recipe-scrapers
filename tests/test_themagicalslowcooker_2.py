@@ -6,7 +6,6 @@ from tests import ScraperTest
 
 
 class TestTheMagicalSlowCookerScraper(ScraperTest):
-
     scraper_class = TheMagicalSlowCooker
     test_file_name = "themagicalslowcooker_2"
 

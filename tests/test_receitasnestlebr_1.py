@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestReceitasNestleBRScraper(ScraperTest):
-
     scraper_class = ReceitasNestleBR
     test_file_name = "receitasnestlebr_1"
 

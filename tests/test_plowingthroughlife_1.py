@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestPlowingThroughLifeScraper(ScraperTest):
-
     scraper_class = PlowingThroughLife
     test_file_name = "plowingthroughlife_1"
 

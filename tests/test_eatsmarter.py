@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestEatSmarter(ScraperTest):
-
     scraper_class = Eatsmarter
 
     def test_host(self):

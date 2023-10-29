@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestSunBasketScraper(ScraperTest):
-
     scraper_class = SunBasket
 
     def test_host(self):

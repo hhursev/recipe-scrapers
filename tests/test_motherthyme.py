@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestMotherThymeScraper(ScraperTest):
-
     scraper_class = MotherThyme
 
     def test_host(self):

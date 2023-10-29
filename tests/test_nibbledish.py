@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestNibbleDishScraper(ScraperTest):
-
     scraper_class = NibbleDish
 
     def test_host(self):

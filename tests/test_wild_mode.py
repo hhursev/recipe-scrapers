@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestWildMode(ScraperTest):
-
     scraper_class = SchemaScraperFactory
 
     @classmethod

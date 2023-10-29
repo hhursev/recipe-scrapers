@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestWaitroseScraper(ScraperTest):
-
     scraper_class = Waitrose
 
     def test_host(self):

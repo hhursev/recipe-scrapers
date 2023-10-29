@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestKitchnScraper(ScraperTest):
-
     scraper_class = TheKitchn
 
     def test_host(self):

@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestArchanasKitchenScraper(ScraperTest):
-
     scraper_class = ArchanasKitchen
 
     def test_host(self):

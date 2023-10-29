@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestPingoDoceScraper(ScraperTest):
-
     scraper_class = PingoDoce
 
     def test_host(self):

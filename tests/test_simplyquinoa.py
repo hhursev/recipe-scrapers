@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestSimplyQuinoaScraper(ScraperTest):
-
     scraper_class = SimplyQuinoa
 
     def test_host(self):

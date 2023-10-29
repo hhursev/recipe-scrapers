@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestRealFoodTescoScraper1(ScraperTest):
-
     scraper_class = RealFoodTesco
     test_file_name = "realfoodtesco_1"
 

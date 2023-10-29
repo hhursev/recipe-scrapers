@@ -6,7 +6,6 @@ from tests import ScraperTest
 
 
 class TestNRKMatScraper(ScraperTest):
-
     scraper_class = NRKMat
     test_file_name = "nrkmat_1"
 

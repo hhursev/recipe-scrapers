@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestMarmitonScraper(ScraperTest):
-
     scraper_class = Marmiton
 
     def test_host(self):
