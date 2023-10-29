@@ -39,13 +39,14 @@ class TestZeitWochenmarktScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "Kohlrabi",
-                "Fenchelknolle",
-                "Basilikum",
-                "Pistazienkerne",
-                "Olivenöl",
-                "Zitronensaft",
-                "Honig",
+                '1 Kugel "Fior di Latte" (oder eine Burrata)',
+                "1 Kohlrabi (klein)",
+                "1 Fenchelknolle",
+                "1/2 Bund Basilikum",
+                "2 EL Pistazienkerne",
+                "4 EL Olivenöl",
+                "2 EL Zitronensaft",
+                "1 TL Honig",
                 "Salz",
                 "Pfeffer",
             ],
