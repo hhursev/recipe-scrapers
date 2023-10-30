@@ -271,13 +271,24 @@ def main():
 
     class_name = sys.argv[1]
     url = sys.argv[2]
-    host_name = get_host_name(url)
+    host_name = get_host_name(url).split(".")[0]
+
+    host_exists = False
+    with open("recipe_scrapers/__init__.py", "r") as source:
+        code = source.read()
+        if host_name.lower() in code.lower():
+            host_exists = True
+            print(
+                f"Host {host_name} already exists. Skipping scraper and __init__ generation."
+            )
     testhtml = requests.get(url, headers=HEADERS).content
 
-    generate_scraper(class_name, host_name)
+    if not host_exists:
+        generate_scraper(class_name, host_name)
+        init_scraper(class_name)
+
     generate_scraper_test(class_name, host_name, url)
     generate_test_data(class_name, testhtml)
-    init_scraper(class_name)
 
 
 if __name__ == "__main__":
