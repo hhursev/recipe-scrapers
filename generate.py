@@ -278,17 +278,19 @@ def main():
         code = source.read()
         if host_name.lower() in code.lower():
             host_exists = True
-            print(
-                f"Host {host_name} already exists. Skipping scraper and __init__ generation."
-            )
-    testhtml = requests.get(url, headers=HEADERS).content
+            message = f"Host {host_name} already exists."
+            if "_" in class_name:
+                message += " Skipping scraper and __init__ entry generation."
+            print(message)
 
-    if not host_exists:
-        generate_scraper(class_name, host_name)
-        init_scraper(class_name)
-
-    generate_scraper_test(class_name, host_name, url)
-    generate_test_data(class_name, testhtml)
+    if not host_exists or "_" in class_name:
+        testhtml = requests.get(url, headers=HEADERS).content
+        if not host_exists:
+            generate_scraper(class_name, host_name)
+            init_scraper(class_name)
+        if "_" in class_name:
+            generate_scraper_test(class_name, host_name, url)
+            generate_test_data(class_name, testhtml)
 
 
 if __name__ == "__main__":
