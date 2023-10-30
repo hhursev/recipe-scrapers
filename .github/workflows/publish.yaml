@@ -23,7 +23,5 @@ jobs:
           user: __token__
           password: ${{ secrets.PYPI_API_TOKEN }}
           verbose: true
-      - name: Show setuptools and build versions used
-        run: |
-          pip list | grep setuptools
-          pip list | grep build
+      - name: Show build version used
+        run: pip list | grep build
