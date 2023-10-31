@@ -24,9 +24,7 @@ class TimesOfIndia(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        ingredients = self.soup.find_all("label", attrs={"class": "clearfix"})
-
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        return self.schema.ingredients()
 
     def instructions(self):
         return self.schema.instructions()
