@@ -14,7 +14,15 @@ class Valdemarsro(AbstractScraper):
         return self.schema.title()
 
     def category(self):
-        return self.schema.category()
+        category_group_element = self.soup.find("div", {"class": "recipe-bar"})
+
+        categories = [
+            a.get_text()
+            for a in category_group_element.find_all(
+                lambda a: "/tag/" not in a.attrs["href"]
+            )
+        ]
+        return ",".join(categories)
 
     def get_time(self, label):
         metadata_group_element = self.soup.findAll(

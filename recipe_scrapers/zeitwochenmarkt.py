@@ -24,7 +24,7 @@ class ZeitWochenmarkt(AbstractScraper):
         return self.schema.title()
 
     def author(self):
-        return self.schema.author()
+        return self.soup.find("a", {"rel": "author"}).get_text().strip()
 
     def total_time(self):
         return self.schema.total_time()

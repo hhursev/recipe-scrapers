@@ -9,7 +9,7 @@ class Vegolosi(AbstractScraper):
         return "vegolosi.it"
 
     def title(self):
-        return self.schema.title()
+        return self.soup.h1.get_text().strip()
 
     def author(self):
         return self.schema.author()

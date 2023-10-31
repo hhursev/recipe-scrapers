@@ -33,7 +33,7 @@ class TestSimplyRecipes1(ScraperTest):
             [
                 "2 bone-in chicken breasts, skin removed (1 to 1 1/2 pounds)",
                 "1 cup long-grain white rice, like basmati",
-                "2 ribs celery, diced small",
+                "2 celery ribs, diced small",
                 "2 medium carrots, peeled and diced small",
                 "1 onion, diced small",
                 "2 cloves garlic, peeled but left whole",

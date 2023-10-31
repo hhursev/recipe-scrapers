@@ -16,7 +16,7 @@ class TestValdemarsroScraper(ScraperTest):
 
     def test_title(self):
         self.assertEqual(
-            "Madpandekager",
+            "Madpandekager - de klassiske",
             self.harvester_class.title(),
         )
 
@@ -33,7 +33,7 @@ class TestValdemarsroScraper(ScraperTest):
         self.assertEqual(20, self.harvester_class.cook_time())
 
     def test_yields(self):
-        self.assertEqual("10 stk.", self.harvester_class.yields())
+        self.assertEqual("10 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(

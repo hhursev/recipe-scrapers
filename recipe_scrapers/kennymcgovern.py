@@ -1,5 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._utils import normalize_string
 
 
 class KennyMcGovern(AbstractScraper):
@@ -20,4 +21,10 @@ class KennyMcGovern(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        return self.schema.instructions()
+        instructions = self.soup.findAll(
+            "div", {"class": "wprm-recipe-instruction-text"}
+        )
+
+        return "\n".join(
+            [normalize_string(instruction.get_text()) for instruction in instructions]
+        )

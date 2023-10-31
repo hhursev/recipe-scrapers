@@ -1,5 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._utils import normalize_string
 
 
 class Joyfoodsunshine(AbstractScraper):
@@ -23,7 +24,9 @@ class Joyfoodsunshine(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        return self.schema.ingredients()
+        ingredients = self.soup.findAll("li", {"class": "wprm-recipe-ingredient"})
+
+        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
         return self.schema.instructions()
