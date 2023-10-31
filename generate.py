@@ -28,12 +28,12 @@ def generate_scraper(class_name, host_name):
             target.write(state.result())
 
 
-def generate_scraper_test(class_name, host_name):
+def generate_scraper_test(class_name, host_name, url):
     with open("templates/test_scraper.py") as source:
         code = source.read()
         program = ast.parse(code)
 
-        state = GenerateTestScraperState(class_name, host_name, code)
+        state = GenerateTestScraperState(class_name, host_name, url, code)
         for node in ast.walk(program):
             if not state.step(node):
                 break
@@ -101,10 +101,11 @@ class GenerateScraperState(ScraperState):
 
 
 class GenerateTestScraperState(ScraperState):
-    def __init__(self, class_name, host_name, code):
+    def __init__(self, class_name, host_name, url, code):
         super().__init__(code)
         self.class_name = class_name
         self.host_name = host_name
+        self.url = url
         self.module_name = class_name.lower()
         self.template_module_name = template_class_name.lower()
 
@@ -146,6 +147,11 @@ class GenerateTestScraperState(ScraperState):
             offset = self._offset(node)
             segment_end = self.code.index(template_host_name, offset)
             self._replace(self.host_name, segment_end, len(template_host_name))
+
+        if isinstance(node, ast.Constant) and node.value == "example.com/recipe-url":
+            offset = self._offset(node)
+            segment_end = self.code.index("example.com/recipe-url", offset)
+            self._replace(self.url, segment_end, len("example.com/recipe-url"))
 
         return True
 
@@ -237,7 +243,7 @@ class Replacer:
 
     def result(self):
         code = self.code
-        for (replacement_text, start, length) in self.replacements:
+        for replacement_text, start, length in self.replacements:
             start = start + self.delta
             end = start + length
             code = code[:start] + replacement_text + code[end:]
@@ -269,7 +275,7 @@ def main():
     testhtml = requests.get(url, headers=HEADERS).content
 
     generate_scraper(class_name, host_name)
-    generate_scraper_test(class_name, host_name)
+    generate_scraper_test(class_name, host_name, url)
     generate_test_data(class_name, testhtml)
     init_scraper(class_name)
 

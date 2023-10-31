@@ -6,7 +6,6 @@ from tests import ScraperTest
 
 
 class TestDelishScraper(ScraperTest):
-
     scraper_class = Delish
     test_file_name = "delish_2"
 

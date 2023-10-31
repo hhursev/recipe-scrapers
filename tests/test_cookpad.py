@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestCookPadScraper(ScraperTest):
-
     scraper_class = CookPad
 
     def test_host(self):

@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestSimplyWhiskedScraper(ScraperTest):
-
     scraper_class = SimplyWhisked
 
     def test_host(self):
@@ -51,7 +50,7 @@ class TestSimplyWhiskedScraper(ScraperTest):
 
     def test_instructions(self):
         return self.assertEqual(
-            "In a large stockpot or dutch oven *affiliate link, heat olive oil to medium-high. Add the bell pepper, onion, celery and garlic. Sauté until onions are translucent, about 5 minutes.\nAdd ground chicken. Breaking up the meat as chicken browns, cook until no longer pink, about 5 minutes.\nAdd water, tomatoes, beans, chili powder, cumin, bay leaf, buffalo sauce, and salt & pepper. Bring to a simmer.\nCover and allow chili to cook for at least 15 minutes, simmering to desired thickness.\nBefore serving, remove bay leaf and adjust seasoning with salt & pepper, to taste.",
+            "In a large stockpot or dutch oven, heat olive oil to medium-high. Add the bell pepper, onion, celery and garlic. Sauté until onions are translucent, about 5 minutes.\nAdd ground chicken. Breaking up the meat as chicken browns, cook until no longer pink, about 5 minutes.\nAdd water, tomatoes, beans, chili powder, cumin, bay leaf, buffalo sauce, and salt & pepper. Bring to a simmer.\nCover and allow chili to cook for at least 15 minutes, simmering to desired thickness.\nBefore serving, remove bay leaf and adjust seasoning with salt & pepper, to taste.",
             self.harvester_class.instructions(),
         )
 

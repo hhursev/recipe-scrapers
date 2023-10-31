@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestSeriousEats(ScraperTest):
-
     scraper_class = SeriousEats
 
     def test_host(self):
@@ -31,7 +30,7 @@ class TestSeriousEats(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://www.seriouseats.com/thmb/lDOD3TgZPxywf6S8Ca8N00raHvo=/1125x1125/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__09__20160712-blind-bake-pie-crust-vicky-wasik-10-306bb1237a62413fa754cac8e53db637.jpg",
+            "https://www.seriouseats.com/thmb/xNY4o_dHNwORzdutYZqOPCUiVOg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__09__20160712-blind-bake-pie-crust-vicky-wasik-10-306bb1237a62413fa754cac8e53db637.jpg",
             self.harvester_class.image(),
         )
 

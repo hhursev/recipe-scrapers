@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestGloboScraper(ScraperTest):
-
     scraper_class = Globo
 
     def test_host(self):

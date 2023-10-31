@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestWhatsGabyCookingScraper(ScraperTest):
-
     scraper_class = WhatsGabyCooking
 
     def test_host(self):
@@ -29,7 +28,7 @@ class TestWhatsGabyCookingScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://cdn.whatsgabycooking.com/wp-content/uploads/2017/10/WGC-Quinoa-Bake-copy-2.jpg",
+            "https://whatsgabycooking.com/wp-content/uploads/2017/10/WGC-Quinoa-Bake-copy-2.jpg",
             self.harvester_class.image(),
         )
 

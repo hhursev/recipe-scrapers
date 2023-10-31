@@ -10,6 +10,12 @@ class TestRainbowPlantLifeScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("rainbowplantlife.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://rainbowplantlife.com/vegan-pasta-salad/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual("Vegan Pasta Salad", self.harvester_class.title())
 
@@ -99,4 +105,4 @@ class TestRainbowPlantLifeScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.97, self.harvester_class.ratings())
+        self.assertEqual(4.98, self.harvester_class.ratings())

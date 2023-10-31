@@ -49,8 +49,8 @@
             externalImageShards : ""
         };
         var logErrorSettings ={
-            pageRenderedTime: '1695289204671',
-            cloneNum: 'lcmsp3',
+            pageRenderedTime: '1698431266501',
+            cloneNum: 'lcmsp2',
             reportMeEnable: '0'
         };
         
@@ -99,7 +99,7 @@ Analytics.account="johnlewiswaitrosedev";
 Analytics.server="null";Analytics.pageType="";Analytics.prop11="WCS";Analytics.prop17="Main Website";
 Analytics.pageType="";
 Analytics.campaign="";
-Analytics.server="lcmsp3";
+Analytics.server="lcmsp2";
 Analytics.pageName="banana__chocolate_and_oatmeal_tea_bread";
 Analytics.channel="Recipes";
 Analytics.hier1="Waitrose.com&#x7c;Recipes&#x7c;Recipe Directory&#x7c;b&#x7c;Banana, chocolate and oatmeal tea bread&#x7c;banana__chocolate_and_oatmeal_tea_bread";
@@ -130,7 +130,7 @@ Analytics.v24="Content";
 
     
 
-<script >bazadebezolkohpepadr="402349221"</script><script type="text/javascript" src="https://www.waitrose.com/akam/13/17fb5cad"  defer></script></head>
+<script >bazadebezolkohpepadr="2769993"</script><script type="text/javascript" src="https://www.waitrose.com/akam/13/2a4744"  defer></script></head>
 
 
 
@@ -203,10 +203,6 @@ Analytics.v24="Content";
 	                        
 		<li>
 			<a class='' href="http://www.waitrosegarden.com/?utm_source=waitrose.com&utm_medium=Referral&utm_campaign=topnav_garden" target="_blank">Garden</a>
-		</li>  
-	                        
-		<li>
-			<a class='' href="http://www.waitrosepet.com/?utm_source=waitrose.com&utm_medium=Referral&utm_campaign=topnav_pet" target="_blank">Pet</a>
 		</li>  
 	                        
 		<li>
@@ -850,8 +846,8 @@ Children will probably prefer apple juice or water, but the grown-ups will deser
 <p>Average user rating</p> 
 
 
-<div class="rating-stars-small stars-4" title="4 stars">
-	4 stars
+<div class="rating-stars-small stars-5" title="5 stars">
+	5 stars
 </div>
 </div>
 </div>
@@ -1035,16 +1031,16 @@ Children will probably prefer apple juice or water, but the grown-ups will deser
  </p>
  
 
-<div class="rating-stars-large stars-4">
-  <span itemprop="ratingValue">4</span>
+<div class="rating-stars-large stars-5">
+  <span itemprop="ratingValue">5</span>
   stars
-  <input type="hidden" id="rate" value="4">
+  <input type="hidden" id="rate" value="5">
 </div>
  <p id="ratingbasis">
   Based on
-  <span itemprop="ratingCount">109</span>
+  <span itemprop="ratingCount">126</span>
   ratings.
-  <input type="hidden" id="basis" value="109">
+  <input type="hidden" id="basis" value="126">
  </p>
 </span>
 <div id="ratingsThanks" style="display: none;">
@@ -1166,7 +1162,7 @@ Children will probably prefer apple juice or water, but the grown-ups will deser
 <div class="flash parbase unitconversion">
 
 <div class="cq-dd-flash" style="width:200px;height:300px;">
-        <div id="tsjdosunitconversion_swf">
+        <div id="vackpiunitconversion_swf">
         
             
                     <img alt="alternative image" src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/waitrose/en/system/recipe_master/unitconversion/_jcr_content/unitconversion/image/_jcr_content.res/unitconversion.gif"/>
@@ -1179,14 +1175,14 @@ GraniteClientLibraryManager.write([{"p":"/etc/clientlibs/foundation/swfobject.mi
 </script>
 
         <script type="text/javascript">
-            if( window.CQ_swfobject) CQ_swfobject.embedSWF("/content/dam/waitrose/flash/conversion.swf", "tsjdosunitconversion_swf", "200", "300", "9.0.0", "/etc/clientlibs/foundation/swfobject/swf/expressInstall.swf", {backgroundColor:'ffffff'}, {menu:"false",wmode:'opaque'}, {});
+            if( window.CQ_swfobject) CQ_swfobject.embedSWF("/content/dam/waitrose/flash/conversion.swf", "vackpiunitconversion_swf", "200", "300", "9.0.0", "/etc/clientlibs/foundation/swfobject/swf/expressInstall.swf", {backgroundColor:'ffffff'}, {menu:"false",wmode:'opaque'}, {});
         </script>
         </div>
 
 
   
   
-    <p class="pub-date">This recipe was first published in March 2008.</p>
+    <p class="pub-date">This recipe was first published in Sat Mar 01 00:00:00 GMT 2008.</p>
   
 </div>
 		</div>
@@ -1213,7 +1209,7 @@ GraniteClientLibraryManager.write([{"p":"/etc/clientlibs/foundation/swfobject.mi
 	    
 			<div class="footer-column">
 			<h3>More from us</h3>
-			<ul><li><a class="js-new-window" href='https://www.waitrose.com/ecom/recipes' target="_blank">Recipes</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://www.waitrosecellar.com/' target="_blank">Cellar</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://www.waitroseflorist.com/' target="_blank">Florist</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://www.waitrosecellar.com/gifts' target="_blank">Gifts</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://www.waitrosegarden.com/' target="_blank">Garden</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://www.waitrosepet.com' target="_blank">Pet</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://www.waitrose.com/ecom/my-waitrose' target="_blank">myWaitrose loyalty scheme</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://johnlewisgiftcard.com/' target="_blank">Gift cards</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://www.waitrose.com/home/inspiration/waitrose_cookeryschool.html' target="_blank">Waitrose Cookery School</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://www.waitrose.com/ecom/content/wine-tasting-at-home' target="_blank">Wine Tasting at Home</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://www.waitrose.com/ecom/content/ukraine-crisis-appeal' target="_blank">Ukraine Crisis Appeal</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://www.johnlewisfinance.com/' target="_blank">John Lewis Finance</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='http://www.johnlewis.com' target="_blank">John Lewis & Partners</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li>
+			<ul><li><a class="js-new-window" href='https://www.waitrose.com/ecom/recipes' target="_blank">Recipes</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://www.waitrosecellar.com/' target="_blank">Cellar</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://www.waitroseflorist.com/' target="_blank">Florist</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://www.waitrosecellar.com/gifts' target="_blank">Gifts</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://www.waitrosegarden.com/' target="_blank">Garden</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://www.waitrose.com/ecom/my-waitrose' target="_blank">myWaitrose loyalty scheme</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://johnlewisgiftcard.com/' target="_blank">Gift cards</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://www.waitrose.com/home/inspiration/waitrose_cookeryschool.html' target="_blank">Waitrose Cookery School</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://www.waitrose.com/ecom/content/wine-tasting-at-home' target="_blank">Wine Tasting at Home</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://www.waitrose.com/ecom/content/ukraine-crisis-appeal' target="_blank">Ukraine Crisis Appeal</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='https://www.johnlewisfinance.com/' target="_blank">John Lewis Finance</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li><li><a class="js-new-window" href='http://www.johnlewis.com' target="_blank">John Lewis & Partners</a> <img alt="This link opens in a new window." title="This link opens in a new window." src="//d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/system/new_window.gif"></li>
 			</ul>
 			</div>
 	    
@@ -1266,7 +1262,7 @@ GraniteClientLibraryManager.write([{"p":"/etc/clientlibs/foundation/swfobject.mi
 </footer> 
 	
   </div>
-<noscript><img src="https://www.waitrose.com/akam/13/pixel_17fb5cad?a=dD1jMjFmNzY2OTAxNWIyYzg5NDZhZjA2NGI1OWRjZDljNTAzZWY5YTQ0JmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript><script type="text/javascript"  src="/rCuyc5/6I/OT/0rOk/iMjK7euqCUVII/EraiSkV0tr/VAMtCnYIAg/JD5pfAws/LFgB"></script></body>
+<noscript><img src="https://www.waitrose.com/akam/13/pixel_2a4744?a=dD1mMDEyNzAzNzRlM2Y5MDNkOTk2NjEwOTBhNTQxMDk0NDBmMWFhYjM4JmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript><script type="text/javascript"  src="/H3NQPn/PB0/VDD/nLLrJji2/uQEiLbpwbp/CQd7MApEZw/PBJu/VjEuJWwB"></script></body>
 
 
 </html>

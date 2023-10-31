@@ -6,7 +6,6 @@ from tests import ScraperTest
 
 
 class TestBareFootContessaScraper(ScraperTest):
-
     scraper_class = BareFootContessa
     test_file_name = "barefootcontessa_2"
 

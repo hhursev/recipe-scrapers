@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestForksOverKnives(ScraperTest):
-
     scraper_class = ForksOverKnives
 
     def test_host(self):

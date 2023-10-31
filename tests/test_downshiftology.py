@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestDownshiftologyScraper(ScraperTest):
-
     scraper_class = Downshiftology
 
     def test_host(self):

@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestSpendWithPenniesScraper(ScraperTest):
-
     scraper_class = SpendWithPennies
 
     def test_host(self):

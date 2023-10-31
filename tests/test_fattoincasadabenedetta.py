@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestFattoInCasaDaBenedettaScraper(ScraperTest):
-
     scraper_class = FattoInCasaDaBenedetta
 
     def test_host(self):

@@ -4,12 +4,17 @@ from tests import ScraperTest
 
 
 class TestTasteAUScraper2(ScraperTest):
-
     scraper_class = TasteAU
     test_file_name = "tasteau_2"
 
     def test_host(self):
         self.assertEqual("taste.com.au", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.taste.com.au/recipes/milo-crumble-hot-chocolate-cake-recipe/kzrly73l",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("Michelle Southan", self.harvester_class.author())

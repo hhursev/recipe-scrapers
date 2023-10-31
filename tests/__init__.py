@@ -5,7 +5,6 @@ import responses
 
 
 class ScraperTest(unittest.TestCase):
-
     maxDiff = None
     test_file_name: Optional[str] = None
     test_file_extension = "testhtml"

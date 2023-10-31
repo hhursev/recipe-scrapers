@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestTastesOfLizzyTScraper(ScraperTest):
-
     scraper_class = TastesOfLizzyT
 
     def test_host(self):
@@ -16,10 +15,10 @@ class TestTastesOfLizzyTScraper(ScraperTest):
         )
 
     def test_title(self):
-        self.assertEqual(self.harvester_class.title(), "Soft Gingerbread Cookies")
+        self.assertEqual(self.harvester_class.title(), "Soft Baked Molasses Cookies")
 
     def test_author(self):
-        self.assertEqual(self.harvester_class.author(), "Lizzy T")
+        self.assertEqual(self.harvester_class.author(), "Julie Clark")
 
     def test_total_time(self):
         self.assertEqual(27, self.harvester_class.total_time())
@@ -34,7 +33,7 @@ class TestTastesOfLizzyTScraper(ScraperTest):
                 "1 cup brown sugar (packed)",
                 "1 cup molasses",
                 "1 cup buttermilk",
-                "5 1/2 cups flour",
+                "5 1/2 cups all-purpose flour",
                 "4 teaspoons baking soda",
                 "1 teaspoon ginger",
                 "3/4 teaspoon cinnamon",
@@ -48,6 +47,6 @@ class TestTastesOfLizzyTScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            "In a large bowl, cream together the shortening, brown sugar, molasses and buttermilk.\nIn a separate bowl, sift together the flour, baking soda, ginger, cinnamon, nutmeg, cloves and salt.\nAdd the dry ingredients to the creamed sugar mixture and mix well.\nRoll the dough into balls and then roll the balls in sugar.\nPlace the cookie dough balls on an ungreased cookie sheet and bake at 350 degrees for 11-12 minutes.\nAllow the cookies to cool on a wire rack and then store in an airtight container.",
+            "In a large bowl, mix together the shortening, brown sugar, molasses and buttermilk. The mixture will look curdled, but don't worry...it will all come together with the dry ingredients.\nIn a separate bowl, sift together the flour, baking soda, ginger, cinnamon, nutmeg, cloves and salt.\nAdd the dry ingredients to the creamed sugar mixture and mix well. The dough will be very soft and slightly sticky, but you should be able to roll\nRoll the dough into balls and then roll the balls in sugar.\nPlace the cookie dough balls on an ungreased cookie sheet and bake at 350 degrees Fahrenheit for 8-10 minutes. Don't over bake the cookies. We remove them before they get browned.\nAllow the cookies to cool on the pan for 3-5 minutes before moving to a wire rack to cool completely. Then store in an airtight container at room temperature.",
             self.harvester_class.instructions(),
         )

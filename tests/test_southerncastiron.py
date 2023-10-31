@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestSouthernCastIronScraper(ScraperTest):
-
     scraper_class = SouthernCastIron
 
     def test_host(self):
@@ -11,7 +10,7 @@ class TestSouthernCastIronScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://www.southerncastiron.com/apple-cider-doughnuts/",
+            "https://southerncastiron.com/apple-cider-doughnuts/",
             self.harvester_class.canonical_url(),
         )
 
@@ -23,7 +22,7 @@ class TestSouthernCastIronScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://www.southerncastiron.com/wp-content/uploads/2018/10/doughnuts-featured-470x470.jpg",
+            "https://southerncastiron.com/wp-content/uploads/2018/10/doughnuts-featured-470x470.jpg",
             self.harvester_class.image(),
         )
 

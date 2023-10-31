@@ -3,18 +3,24 @@ from tests import ScraperTest
 
 
 class TestVegRecipesOfIndiaScraper(ScraperTest):
-
     scraper_class = VegRecipesOfIndia
 
     def test_host(self):
         self.assertEqual("vegrecipesofindia.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.vegrecipesofindia.com/sarson-ka-saag/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("Dassana Amit", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual(
-            "Sarson ka Saag (Authentic Punjabi Style)", self.harvester_class.title()
+            "Sarson ka Saag Recipe (Authentic Punjabi Style)",
+            self.harvester_class.title(),
         )
 
     def test_total_time(self):
@@ -62,4 +68,4 @@ class TestVegRecipesOfIndiaScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.92, self.harvester_class.ratings())
+        self.assertEqual(4.93, self.harvester_class.ratings())

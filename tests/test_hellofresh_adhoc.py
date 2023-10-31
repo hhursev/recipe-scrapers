@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestHelloFreshScraperAdHoc(ScraperTest):
-
     scraper_class = HelloFresh
     test_file_name = "hellofresh_adhoc"
 

@@ -5,12 +5,17 @@ from tests import ScraperTest
 
 
 class TestReceitasNestleBRScraper(ScraperTest):
-
     scraper_class = ReceitasNestleBR
     test_file_name = "receitasnestlebr_1"
 
     def test_host(self):
         self.assertEqual("receitasnestle.com.br", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.receitasnestle.com.br/receitas/receita-de-costelinha-de-porco-com-batatas-salteadas-no-alecrim",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("Monalisa Campos", self.harvester_class.author())

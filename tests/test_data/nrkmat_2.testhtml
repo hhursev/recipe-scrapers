@@ -1,4 +1,3 @@
-
 <!doctype html>
 <!--[if IEMobile 7 ]><html class="no-js iem7 food" lang="nb-NO"><![endif]-->
 <!--[if lt IE 7 ]><html class="no-js ie6 food" lang="nb-NO"><![endif]-->
@@ -234,7 +233,7 @@ require.paths['ludo'] = getRequireUrl('https://static.nrk.no/ludo/latest/ludo.js
 </script>
 <script>
 // PUB-13251 - Client feature detection
-(function(){var results=0;var ES6='class à² _à²  extends Array{constructor(j="a",...c){const q=(({u:e})=>{return{[`s`]:Symbol(j)}})({});super(j,q,...c)}}new Promise(f=>{const a=function*(){return"ð ®·".match(/./u)[0].length===2||true};for(let vre of a()){const[uw,as,he,re]=[new Set,new WeakSet,new Map,new WeakMap];break}f(new Proxy({},{get:(han,h)=>h in han?han[h]:"42".repeat(8)}))}).then(bi=>new à² _à² (bi.rd));';results|=function(){try{return function(){"use strict";return!this&&parseInt("010",10)===10}()}catch(err){return false}}()?1:0;results|=function(){try{eval(ES6);return true}catch(e){return false}}()?2:0;results|=Object.assign!=null?4:0;results|="Promise"in window&&"resolve"in window.Promise&&"reject"in window.Promise&&"all"in window.Promise&&"race"in window.Promise?8:0;results|="fetch"in window?16:0;results|=function(){try{new Function("function* test() {}")();return true}catch(err){return false}}()?32:0;results|=!!window.MutationObserver||!!window.WebKitMutationObserver?64:0;results|="IntersectionObserver"in window&&"IntersectionObserverEntry"in window&&"intersectionRatio"in window.IntersectionObserverEntry.prototype?128:0;results|="customElements"in window?256:0;results|="attachShadow"in document.head?512:0;results|=function(){try{new Function('import("")');return true}catch(err){return false}}()?1024:0;results|=function(){var script=document.createElement("script");return"noModule"in script}()?2048:0;window.__browser_feature_score__=results})();
+(function(){var results=0;var ES6='class à² _à²  extends Array{constructor(j="a",...c){const q=(({u:e})=>{return{[`s`]:Symbol(j)}})({});super(j,q,...c)}}new Promise(f=>{const a=function*(){return"ð ®·".match(/./u)[0].length===2||true};for(let vre of a()){const[uw,as,he,re]=[new Set,new WeakSet,new Map,new WeakMap];break}f(new Proxy({},{get:(han,h)=>h in han?han[h]:"42".repeat(8)}))}).then(bi=>new à² _à² (bi.rd));';results|=function(){try{return function(){"use strict";return!this&&parseInt("010",10)===10}()}catch(err){return false}}()?1:0;results|=function(){try{eval(ES6);return true}catch(e){return false}}()?2:0;results|=Object.assign!=null?4:0;results|="Promise"in window&&"resolve"in window.Promise&&"reject"in window.Promise&&"all"in window.Promise&&"race"in window.Promise?8:0;results|="fetch"in window?16:0;results|=function(){try{new Function("function* test() {}")();return true}catch(err){return false}}()?32:0;results|=!!window.MutationObserver||!!window.WebKitMutationObserver?64:0;results|="IntersectionObserver"in window&&"IntersectionObserverEntry"in window&&"intersectionRatio"in window.IntersectionObserverEntry.prototype?128:0;results|="customElements"in window?256:0;results|="attachShadow"in document.head?512:0;results|=function(){try{new Function('import("")');return true}catch(err){return false}}()?1024:0;results|=function(){var script=document.createElement("script");return"noModule"in script}()?2048:0;window.__browser_feature_score__=results})();
 </script>
 <script>
 /** vim: et:ts=4:sw=4:sts=4
@@ -597,7 +596,7 @@ Enkel
 </footer>
 </div>
 <!-- include: /serum/render?id=panorama.singleton.favorittmarkering&amp;size=18&amp;perspective=RICH&amp;alignment=AUTO -->
-    <div class="min-side" data-state-id="a1gfqqdzco" data-static-host="https://static.nrk.no/publisering/min-side"><link
+    <div class="min-side" data-state-id="4xpeup4jy6" data-static-host="https://static.nrk.no/publisering/min-side"><link
       rel="stylesheet"
       type="text/css"
       href="https://static.nrk.no/publisering/min-side/static/0-c2ddc9339a70fac9c76d.css"
@@ -606,7 +605,7 @@ Enkel
       type="text/css"
       href="https://static.nrk.no/publisering/min-side/static/saveButton-62d288e344506c232def.css"
     /><script crossorigin="anonymous">
-        window['__clientConfig__a1gfqqdzco__'] = {"analytics":{"gaPropertyId":"UA-3413696-1"},"errorTracking":{"enabled":1},"loginConfig":{"useMock":false,"loginUrl":"https:\u002F\u002Finnlogging.nrk.no","homeUrl":"https:\u002F\u002Fwww.nrk.no"},"favorites":{"articleBaseURL":"https:\u002F\u002Fwww.nrk.no\u002F","articlesPerPage":10},"statistics":{"snowplow":{"enabled":true,"host":"https:\u002F\u002Fdata.nrk.no","environment":"prod"}},"api":{"url":"https:\u002F\u002Fwww.nrk.no\u002Fminside\u002Fapi"},"link":{"url":"https:\u002F\u002Fwww.nrk.no\u002Fminside","base":"\u002Fminside"},"assets":{"url":"https:\u002F\u002Fstatic.nrk.no\u002Fpublisering\u002Fmin-side\u002Fstatic\u002Fassets"}};
+        window['__clientConfig__4xpeup4jy6__'] = {"analytics":{"gaPropertyId":"UA-3413696-1"},"errorTracking":{"enabled":1},"loginConfig":{"useMock":false,"loginUrl":"https:\u002F\u002Finnlogging.nrk.no","homeUrl":"https:\u002F\u002Fwww.nrk.no"},"favorites":{"articleBaseURL":"https:\u002F\u002Fwww.nrk.no\u002F","articlesPerPage":10},"statistics":{"snowplow":{"enabled":true,"host":"https:\u002F\u002Fdata.nrk.no","environment":"prod"}},"api":{"url":"https:\u002F\u002Fwww.nrk.no\u002Fminside\u002Fapi"},"link":{"url":"https:\u002F\u002Fwww.nrk.no\u002Fminside","base":"\u002Fminside"},"assets":{"url":"https:\u002F\u002Fstatic.nrk.no\u002Fpublisering\u002Fmin-side\u002Fstatic\u002Fassets"}};
       </script><script id="boot-script" type="application/javascript"> 
        function detectIE() {
           var ua = window.navigator.userAgent;
@@ -935,10 +934,93 @@ data-relation-limit="6">
 </div>
 <div class="cf flow-content container-widget lp_flow relations"><div
 class="g16 col fln s3 sl6 sl9 sl12 sl18 recipe-reference relation flow-relation"
+data-id="1.12673547"
+data-reference-id="1.11102025.body7575"
+data-fwdnav-id="1.12673547"
+data-fwdnav-position="1"
+data-fwdnav-collection-id="1.11102025"
+data-fwdnav-collection-type="nrkno_flow"
+><!-- include: /serum/render?id=1.12673547&amp;size=3&amp;perspective=BRIEF&amp;alignment=AUTO -->
+<article class="recipe widget brief plug cf">
+<a class="autonomous"
+href="https://www.nrk.no/mat/satay-saus-_peanottsaus_-1.12673547"
+data-id="1.12673547"
+title="Satay-saus (peanøttsaus)">
+<!-- include: /serum/render?id=1.12674056&amp;size=3&amp;perspective=LEAN&amp;alignment=CENTER&amp;caption=Satay-saus+har+sitt+opphav+i+Asia%2C+og+lages+med+pean%C3%B8tter+%E2%80%93+derfor+pean%C3%B8ttsaus.+Dette+er+en+enkel+oppskrift+med+pean%C3%B8ttsm%C3%B8r+og+ferdig+karripasta+p%C3%A5+glass.&amp;type=image&amp;aspect=F169&amp;classes=plug-image --><!-- START: /templates/image/image-lean.jsp -->
+<figure class="image widget lean plug-image">
+<div class="responsive-img F169"><img id="IMQjmH4Ogxgv2WYB2ELs3w" sizes="(min-width:1180px) 192px, (min-width:720px) 17vw, 50vw" srcset="https://gfx.nrk.no/IMQjmH4Ogxgv2WYB2ELs3wCUE6Lg8DII8o4-HLROxTXw.jpg 80w, https://gfx.nrk.no/IMQjmH4Ogxgv2WYB2ELs3wcUPkOOHyGvko4-HLROxTXw.jpg 160w, https://gfx.nrk.no/IMQjmH4Ogxgv2WYB2ELs3wM9myqc4gCeAo4-HLROxTXw.jpg 350w, https://gfx.nrk.no/IMQjmH4Ogxgv2WYB2ELs3wb3Bsh06eSkYo4-HLROxTXw.jpg 450w, https://gfx.nrk.no/IMQjmH4Ogxgv2WYB2ELs3wUqsCrKY5u7Uo4-HLROxTXw.jpg 650w, https://gfx.nrk.no/IMQjmH4Ogxgv2WYB2ELs3wtLvaGm3ppN4o4-HLROxTXw.jpg 1000w, https://gfx.nrk.no/IMQjmH4Ogxgv2WYB2ELs3wcSf1tQBCX_co4-HLROxTXw.jpg 1200w, https://gfx.nrk.no/IMQjmH4Ogxgv2WYB2ELs3wVvqVSjOi7ZIo4-HLROxTXw.jpg 1600w, https://gfx.nrk.no/IMQjmH4Ogxgv2WYB2ELs3wtTlXLm4Sok0o4-HLROxTXw.jpg 2000w" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Satay-saus (peanøttsaus) " title="Foto: Mari Rollag Evensen / NRK"></div>
+</figure>
+<!-- END: /templates/image/image-lean.jsp -->
+<div class="plug-teaser">
+<h2 class="title recipe">Satay-saus (peanøttsaus)</h2>
+<p class="plug-preamble">Enkel oppskrift på peanøttsaus, også kalt Satay-saus. Sausen kan brukes i gryter eller wok, eller som dipp til kyllingvinger, -spyd eller kjøtt og sjømat fra grillen.</p>
+<footer class="plug-footer">
+</footer>
+</div>
+</a>
+</article>
+<!-- END: /templates/recipe/recipe-brief.jsp -->
+</div><div
+class="g16 col fln s3 sl6 sl9 sl12 sl18 recipe-reference relation flow-relation"
+data-id="1.15240351"
+data-reference-id="1.11102025.body7574"
+data-fwdnav-id="1.15240351"
+data-fwdnav-position="2"
+data-fwdnav-collection-id="1.11102025"
+data-fwdnav-collection-type="nrkno_flow"
+><!-- include: /serum/render?id=1.15240351&amp;size=3&amp;perspective=BRIEF&amp;alignment=AUTO -->
+<article class="recipe widget brief plug cf">
+<a class="autonomous"
+href="https://www.nrk.no/mat/lemonies-1.15240351"
+data-id="1.15240351"
+title="Lemonies">
+<!-- include: /serum/render?id=1.15240381&amp;size=3&amp;perspective=LEAN&amp;alignment=CENTER&amp;caption=Lemonies%2C+sitronkake+med+sitronglasur+og+rosa+pynt.+&amp;type=image&amp;aspect=F169&amp;classes=plug-image --><!-- START: /templates/image/image-lean.jsp -->
+<figure class="image widget lean plug-image">
+<div class="responsive-img F169"><img id="NF3k60ob5iGMdtOIrqEQqg" sizes="(min-width:1180px) 192px, (min-width:720px) 17vw, 50vw" srcset="https://gfx.nrk.no/NF3k60ob5iGMdtOIrqEQqgFvLS4mUfTHi6msua4eSkFw.jpg 80w, https://gfx.nrk.no/NF3k60ob5iGMdtOIrqEQqgpP5jbC82v5S6msua4eSkFw.jpg 160w, https://gfx.nrk.no/NF3k60ob5iGMdtOIrqEQqgTlEnyJXgs-O6msua4eSkFw.jpg 350w, https://gfx.nrk.no/NF3k60ob5iGMdtOIrqEQqgFYOcW56NPBi6msua4eSkFw.jpg 450w, https://gfx.nrk.no/NF3k60ob5iGMdtOIrqEQqgu4D1EyF1rCa6msua4eSkFw.jpg 650w, https://gfx.nrk.no/NF3k60ob5iGMdtOIrqEQqgausNoaDNCpi6msua4eSkFw.jpg 1000w, https://gfx.nrk.no/NF3k60ob5iGMdtOIrqEQqgKZ7moCrmlw26msua4eSkFw.jpg 1200w, https://gfx.nrk.no/NF3k60ob5iGMdtOIrqEQqgpwsvFYKOIRi6msua4eSkFw.jpg 1600w, https://gfx.nrk.no/NF3k60ob5iGMdtOIrqEQqgqvWEPeT_iTm6msua4eSkFw.jpg 2000w" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Lemonies" title="Foto: Marit Hegle"></div>
+</figure>
+<!-- END: /templates/image/image-lean.jsp -->
+<div class="plug-teaser">
+<h2 class="title recipe">Lemonies</h2>
+<p class="plug-preamble">Lemonies er små, saftige sitronkaker som kan minne om brownies – men med en frisk sitronsmak.</p>
+<footer class="plug-footer">
+</footer>
+</div>
+</a>
+</article>
+<!-- END: /templates/recipe/recipe-brief.jsp -->
+</div><div
+class="g16 col fln s3 sl6 sl9 sl12 sl18 article-reference relation flow-relation"
+data-id="1.16583196"
+data-reference-id="1.11102025.body7573"
+data-fwdnav-id="1.16583196"
+data-fwdnav-position="3"
+data-fwdnav-collection-id="1.11102025"
+data-fwdnav-collection-type="nrkno_flow"
+><!-- include: /serum/render?id=1.16583196&amp;size=3&amp;perspective=BRIEF&amp;alignment=AUTO --><!-- START: /templates/article/article-brief.jsp -->
+<article class="article widget brief plug-default plug cf">
+<a class="autonomous lp_plug" href="https://www.nrk.no/mat/13-geniale-oppskrifter-med-tort-eller-gammelt-brod-1.16583196" data-id="1.16583196">
+<!-- include: /serum/render?id=1.15302154&amp;size=3&amp;perspective=LEAN&amp;alignment=AUTO&amp;caption=Du+kan+med+god+samvittighet+droppe+middagen+en+dag+i+uken+og+heller+lage+varme+ostesm%C3%B8rbr%C3%B8d.+Dette+er+noe+b%C3%A5de+store+og+sm%C3%A5+garantert+liker.&amp;type=image&amp;aspect=F169&amp;classes=plug-image --><!-- START: /templates/image/image-lean.jsp -->
+<figure class="image widget lean plug-image">
+<div class="responsive-img F169"><img id="mZaTLVtM19DsWSe93IFArw" sizes="(min-width:1180px) 192px, (min-width:720px) 17vw, 50vw" srcset="https://gfx.nrk.no/mZaTLVtM19DsWSe93IFArw_FCC3XUWFCsgAuMzfQUvpQ.jpg 80w, https://gfx.nrk.no/mZaTLVtM19DsWSe93IFArw09Evzog8wtggAuMzfQUvpQ.jpg 160w, https://gfx.nrk.no/mZaTLVtM19DsWSe93IFArwd1rLVGlhGqYgAuMzfQUvpQ.jpg 350w, https://gfx.nrk.no/mZaTLVtM19DsWSe93IFArwD79_Apxj_2EgAuMzfQUvpQ.jpg 450w, https://gfx.nrk.no/mZaTLVtM19DsWSe93IFArwwf6qDNo-l-QgAuMzfQUvpQ.jpg 650w, https://gfx.nrk.no/mZaTLVtM19DsWSe93IFArwyeua1n7Q7d8gAuMzfQUvpQ.jpg 1000w, https://gfx.nrk.no/mZaTLVtM19DsWSe93IFArwwDpJ2vzOiFogAuMzfQUvpQ.jpg 1200w, https://gfx.nrk.no/mZaTLVtM19DsWSe93IFArwRJSVghiTbJIgAuMzfQUvpQ.jpg 1600w, https://gfx.nrk.no/mZaTLVtM19DsWSe93IFArwDtSjpPdcS5EgAuMzfQUvpQ.jpg 2000w" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Tre ostesmørbrød" title="Foto: Rubicon / NRK"></div>
+</figure>
+<!-- END: /templates/image/image-lean.jsp -->
+<div class="plug-teaser">
+<h2 class="title">Snaddermat med tørt brød – 13 geniale tips</h2>
+<p class="plug-preamble">Hver gang du kaster spiselig mat, kaster du penger i søpla. Du kan spare tusenvis på herlige oppskrifter laget av tørt brød.</p>
+<span class="plug-metadata plug-byline">Av Ingvill Bjorland</span>
+<svg viewBox="0 0 9 23" role="presentation" aria-hidden="true" shape-rendering="auto" class="plug-svg-arrow skin-text">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-right"></use>
+</svg>
+</div>
+</a>
+</article>
+<!-- END: /templates/article/article-brief.jsp -->
+</div><div
+class="g16 col fln s3 sl6 sl9 sl12 sl18 recipe-reference relation flow-relation"
 data-id="1.6914054"
 data-reference-id="1.11102025.body7572"
 data-fwdnav-id="1.6914054"
-data-fwdnav-position="1"
+data-fwdnav-position="4"
 data-fwdnav-collection-id="1.11102025"
 data-fwdnav-collection-type="nrkno_flow"
 ><!-- include: /serum/render?id=1.6914054&amp;size=3&amp;perspective=BRIEF&amp;alignment=AUTO -->
@@ -971,7 +1053,7 @@ class="g16 col fln s3 sl6 sl9 sl12 sl18 article-reference relation flow-relation
 data-id="1.16113146"
 data-reference-id="1.11102025.body7571"
 data-fwdnav-id="1.16113146"
-data-fwdnav-position="2"
+data-fwdnav-position="5"
 data-fwdnav-collection-id="1.11102025"
 data-fwdnav-collection-type="nrkno_flow"
 ><!-- include: /serum/render?id=1.16113146&amp;size=3&amp;perspective=BRIEF&amp;alignment=AUTO --><!-- START: /templates/article/article-brief.jsp -->
@@ -998,7 +1080,7 @@ class="g16 col fln s3 sl6 sl9 sl12 sl18 recipe-reference relation flow-relation"
 data-id="1.12107322"
 data-reference-id="1.11102025.body7569"
 data-fwdnav-id="1.12107322"
-data-fwdnav-position="3"
+data-fwdnav-position="6"
 data-fwdnav-collection-id="1.11102025"
 data-fwdnav-collection-type="nrkno_flow"
 ><!-- include: /serum/render?id=1.12107322&amp;size=3&amp;perspective=BRIEF&amp;alignment=AUTO -->
@@ -1015,90 +1097,6 @@ title="Hummer gratinert på to måter">
 <div class="plug-teaser">
 <h2 class="title recipe">Hummer gratinert på to måter</h2>
 <p class="plug-preamble">Gratiner hummeren på asiatisk eller europeisk vis.</p>
-<footer class="plug-footer">
-</footer>
-</div>
-</a>
-</article>
-<!-- END: /templates/recipe/recipe-brief.jsp -->
-</div><div
-class="g16 col fln s3 sl6 sl9 sl12 sl18 recipe-reference relation flow-relation"
-data-id="1.15110596"
-data-reference-id="1.11102025.body7568"
-data-fwdnav-id="1.15110596"
-data-fwdnav-position="4"
-data-fwdnav-collection-id="1.11102025"
-data-fwdnav-collection-type="nrkno_flow"
-><!-- include: /serum/render?id=1.15110596&amp;size=3&amp;perspective=BRIEF&amp;alignment=AUTO -->
-<article class="recipe widget brief plug cf">
-<a class="autonomous"
-href="https://www.nrk.no/mat/honningmarinert-grillet-kylling-med-rosmarinpoteter-1.15110596"
-data-id="1.15110596"
-title="Honningmarinert grillet kylling med rosmarinpoteter">
-<!-- include: /serum/render?id=1.15996348&amp;size=3&amp;perspective=LEAN&amp;alignment=CENTER&amp;caption=Gino+d%27Acampo+steker+kyllingen+p%C3%A5+grillpanne+p%C3%A5+h%C3%B8y+varme+slik+at+den+blir+litt+brent.&amp;type=image&amp;aspect=F169&amp;classes=plug-image --><!-- START: /templates/image/image-lean.jsp -->
-<figure class="image widget lean plug-image">
-<div class="responsive-img F169"><img id="XuK_5Mw6V4wOrt3NLJh-VQ" sizes="(min-width:1180px) 192px, (min-width:720px) 17vw, 50vw" srcset="https://gfx.nrk.no/XuK_5Mw6V4wOrt3NLJh-VQSeXozFtbZHJsSMmlCiEmaw.jpg 80w, https://gfx.nrk.no/XuK_5Mw6V4wOrt3NLJh-VQ5ZDGbYNRXXRsSMmlCiEmaw.jpg 160w, https://gfx.nrk.no/XuK_5Mw6V4wOrt3NLJh-VQdmXGc9E8bfJsSMmlCiEmaw.jpg 350w, https://gfx.nrk.no/XuK_5Mw6V4wOrt3NLJh-VQwHnb4_WLP2NsSMmlCiEmaw.jpg 450w, https://gfx.nrk.no/XuK_5Mw6V4wOrt3NLJh-VQh6kXUxSni4dsSMmlCiEmaw.jpg 650w, https://gfx.nrk.no/XuK_5Mw6V4wOrt3NLJh-VQm1w_xRH35gBsSMmlCiEmaw.jpg 1000w, https://gfx.nrk.no/XuK_5Mw6V4wOrt3NLJh-VQLHcFhoLAp4dsSMmlCiEmaw.jpg 1200w, https://gfx.nrk.no/XuK_5Mw6V4wOrt3NLJh-VQ2JSlvSmw-nZsSMmlCiEmaw.jpg 1600w, https://gfx.nrk.no/XuK_5Mw6V4wOrt3NLJh-VQGycxaBYHcV9sSMmlCiEmaw.jpg 2000w" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Grillet kylling som er marinert i honning og rosmarinpoteter" title="Foto: ITV"></div>
-</figure>
-<!-- END: /templates/image/image-lean.jsp -->
-<div class="plug-teaser">
-<h2 class="title recipe">Honning­marinert grillet kylling med rosmarin­poteter</h2>
-<p class="plug-preamble">Kyllingen skal stekes på så høy varme at honning­marinaden svir seg. Den bitre smaken av brent og den søte honningen smaker fortreffelig sammen med rosmarin­potetene.</p>
-<footer class="plug-footer">
-</footer>
-</div>
-</a>
-</article>
-<!-- END: /templates/recipe/recipe-brief.jsp -->
-</div><div
-class="g16 col fln s3 sl6 sl9 sl12 sl18 recipe-reference relation flow-relation"
-data-id="1.14304400"
-data-reference-id="1.11102025.body7566"
-data-fwdnav-id="1.14304400"
-data-fwdnav-position="5"
-data-fwdnav-collection-id="1.11102025"
-data-fwdnav-collection-type="nrkno_flow"
-><!-- include: /serum/render?id=1.14304400&amp;size=3&amp;perspective=BRIEF&amp;alignment=AUTO -->
-<article class="recipe widget brief plug cf">
-<a class="autonomous"
-href="https://www.nrk.no/mat/kanelknutar-1.14304400"
-data-id="1.14304400"
-title="Kanelknutar">
-<!-- include: /serum/render?id=1.14304468&amp;size=3&amp;perspective=LEAN&amp;alignment=CENTER&amp;caption=Kanel%2C+brunt+sukker+og+sm%C3%B8r+ligg+mellom+laga+i+kanelknutane.&amp;type=image&amp;aspect=F169&amp;classes=plug-image --><!-- START: /templates/image/image-lean.jsp -->
-<figure class="image widget lean plug-image">
-<div class="responsive-img F169"><img id="0pvGsAJwgk_308w0slxpQw" sizes="(min-width:1180px) 192px, (min-width:720px) 17vw, 50vw" srcset="https://gfx.nrk.no/0pvGsAJwgk_308w0slxpQwMmGceIfEnZUca0Yj51AXNA.jpg 80w, https://gfx.nrk.no/0pvGsAJwgk_308w0slxpQwkMdN66j9Kdoca0Yj51AXNA.jpg 160w, https://gfx.nrk.no/0pvGsAJwgk_308w0slxpQwoX6BWtFbbLIca0Yj51AXNA.jpg 350w, https://gfx.nrk.no/0pvGsAJwgk_308w0slxpQwwESzLxqcpTkca0Yj51AXNA.jpg 450w, https://gfx.nrk.no/0pvGsAJwgk_308w0slxpQw4DeN_LpIgiUca0Yj51AXNA.jpg 650w, https://gfx.nrk.no/0pvGsAJwgk_308w0slxpQwnn4QnLwACRkca0Yj51AXNA.jpg 1000w, https://gfx.nrk.no/0pvGsAJwgk_308w0slxpQwUZ-kQB-A84Uca0Yj51AXNA.jpg 1200w, https://gfx.nrk.no/0pvGsAJwgk_308w0slxpQwcBSAUpUdTUEca0Yj51AXNA.jpg 1600w, https://gfx.nrk.no/0pvGsAJwgk_308w0slxpQwv-4v-WhZXR0ca0Yj51AXNA.jpg 2000w" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Kanelknutar" title="Foto: Tone Lin Støfring Skovro / NRK"></div>
-</figure>
-<!-- END: /templates/image/image-lean.jsp -->
-<div class="plug-teaser">
-<h2 class="title recipe">Kanelknutar</h2>
-<p class="plug-preamble">Kanelknutar er gode heile året! Både store og små diggar den søte smaken av kanel og sukker.</p>
-<footer class="plug-footer">
-</footer>
-</div>
-</a>
-</article>
-<!-- END: /templates/recipe/recipe-brief.jsp -->
-</div><div
-class="g16 col fln s3 sl6 sl9 sl12 sl18 recipe-reference relation flow-relation"
-data-id="1.14764588"
-data-reference-id="1.11102025.body7565"
-data-fwdnav-id="1.14764588"
-data-fwdnav-position="6"
-data-fwdnav-collection-id="1.11102025"
-data-fwdnav-collection-type="nrkno_flow"
-><!-- include: /serum/render?id=1.14764588&amp;size=3&amp;perspective=BRIEF&amp;alignment=AUTO -->
-<article class="recipe widget brief plug cf">
-<a class="autonomous"
-href="https://www.nrk.no/mat/kladdkake-1.14764588"
-data-id="1.14764588"
-title="Kladdkake">
-<!-- include: /serum/render?id=1.14765306&amp;size=3&amp;perspective=LEAN&amp;alignment=CENTER&amp;caption=Nydelig+saftig+sjokoladekake.&amp;type=image&amp;aspect=F169&amp;classes=plug-image --><!-- START: /templates/image/image-lean.jsp -->
-<figure class="image widget lean plug-image">
-<div class="responsive-img F169"><img id="t5kofYRODgZ2mFwrU1dLpg" sizes="(min-width:1180px) 192px, (min-width:720px) 17vw, 50vw" srcset="https://gfx.nrk.no/t5kofYRODgZ2mFwrU1dLpgprDF1ZB9unIy6q1jDlBCQg.jpg 80w, https://gfx.nrk.no/t5kofYRODgZ2mFwrU1dLpguIYEmnrkQd8y6q1jDlBCQg.jpg 160w, https://gfx.nrk.no/t5kofYRODgZ2mFwrU1dLpga2Al3-HkcEMy6q1jDlBCQg.jpg 350w, https://gfx.nrk.no/t5kofYRODgZ2mFwrU1dLpglZyiharvmRcy6q1jDlBCQg.jpg 450w, https://gfx.nrk.no/t5kofYRODgZ2mFwrU1dLpgcjc11mK8O2gy6q1jDlBCQg.jpg 650w, https://gfx.nrk.no/t5kofYRODgZ2mFwrU1dLpgz2xUeQk9x5Qy6q1jDlBCQg.jpg 1000w, https://gfx.nrk.no/t5kofYRODgZ2mFwrU1dLpgyZDIIgdaVywy6q1jDlBCQg.jpg 1200w, https://gfx.nrk.no/t5kofYRODgZ2mFwrU1dLpgz137jCAFSKQy6q1jDlBCQg.jpg 1600w, https://gfx.nrk.no/t5kofYRODgZ2mFwrU1dLpgpVSiaZs0UqQy6q1jDlBCQg.jpg 2000w" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Kladdkake" title="Foto: Tone Rieber-Mohn / NRK"></div>
-</figure>
-<!-- END: /templates/image/image-lean.jsp -->
-<div class="plug-teaser">
-<h2 class="title recipe">Kladdkake</h2>
-<p class="plug-preamble">Sjokoladekaken er kladdete i midten. Derav navnet. Det er viktig å ikke steke den for mye. Den skal være myk og saftig med et raust lag glasur på toppen.</p>
 <footer class="plug-footer">
 </footer>
 </div>

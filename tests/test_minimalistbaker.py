@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestMinimalistbakerScraper(ScraperTest):
-
     scraper_class = Minimalistbaker
 
     def test_host(self):

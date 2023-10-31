@@ -1,13 +1,21 @@
+import unittest
+
 from recipe_scrapers.tudogostoso import TudoGostoso
 from tests import ScraperTest
 
 
 class TestTudoGostosoScraper(ScraperTest):
-
     scraper_class = TudoGostoso
 
     def test_host(self):
         self.assertEqual("tudogostoso.com.br", self.harvester_class.host())
+
+    @unittest.skip("canonical_url is not available from this webpage")
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.tudogostoso.com.br/receita/128825-caipirinha-original.html",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Caipirinha - Original")

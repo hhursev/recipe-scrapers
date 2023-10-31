@@ -6,12 +6,17 @@ from tests import ScraperTest
 
 
 class TestTofooScraper(ScraperTest):
-
     scraper_class = Tofoo
     test_file_name = "tofoo_2"
 
     def test_host(self):
         self.assertEqual("tofoo.co.uk", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("The Tofoo co.", self.harvester_class.author())

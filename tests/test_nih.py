@@ -1,17 +1,22 @@
+import unittest
+
 from recipe_scrapers.nihhealthyeating import IngredientGroup, NIHHealthyEating
 from tests import ScraperTest
 
-# test recipe's URL
-# https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?cId=0&rId=188
-
 
 class TestNIHHealthyEatingRecipesScraper(ScraperTest):
-
     scraper_class = NIHHealthyEating
     test_file_name = "nihhealthyeating_1"
 
     def test_host(self):
         self.assertEqual("healthyeating.nhlbi.nih.gov", self.harvester_class.host())
+
+    @unittest.skip("canonical_url is not available from this webpage")
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?cId=3&rId=188",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Baked Tilapia With Tomatoes")
@@ -110,7 +115,6 @@ class TestNIHHealthyEatingRecipesScraper(ScraperTest):
 
 
 class TestNIHHealthyEatingRecipesVariationScraper(ScraperTest):
-
     scraper_class = NIHHealthyEating
     test_file_name = "nihhealthyeating_2"
 
@@ -196,7 +200,6 @@ class TestNIHHealthyEatingRecipesVariationScraper(ScraperTest):
 
 
 class TestNIHHealthyEatingRecipesEdgeCaseScraper(ScraperTest):
-
     scraper_class = NIHHealthyEating
     test_file_name = "nihhealthyeating_3"
 

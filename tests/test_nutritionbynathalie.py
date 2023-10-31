@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestNutritionByNathalieScraper(ScraperTest):
-
     scraper_class = NutritionByNathalie
 
     def test_host(self):
@@ -20,7 +19,7 @@ class TestNutritionByNathalieScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://static.wixstatic.com/media/d3b5ba_7ae468273837425aa869486557b06bac~mv2.jpg/v1/fit/w_1000%2Ch_1000%2Cal_c%2Cq_80/file.jpg",
+            "https://static.wixstatic.com/media/d3b5ba_7ae468273837425aa869486557b06bac~mv2.jpg/v1/fill/w_837,h_1000,al_c,q_85,usm_0.66_1.00_0.01/d3b5ba_7ae468273837425aa869486557b06bac~mv2.jpg",
             self.harvester_class.image(),
         )
 

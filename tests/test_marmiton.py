@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestMarmitonScraper(ScraperTest):
-
     scraper_class = Marmiton
 
     def test_host(self):
@@ -35,12 +34,12 @@ class TestMarmitonScraper(ScraperTest):
                 "350 g de poivron de couleur rouge et vert",
                 "350 g d'oignon",
                 "500 g de tomate bien mûres",
-                "3 gousses d'ail",
-                "6 cuillères à soupe d'huile d'olive",
+                "6 c.à.s d'huile d'olive",
                 "1 brin de thym",
                 "1 feuille de laurier",
                 "poivre",
                 "sel",
+                "3 gousses d'ail",
             ],
             self.harvester_class.ingredients(),
         )

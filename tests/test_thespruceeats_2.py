@@ -4,12 +4,17 @@ from tests import ScraperTest
 
 
 class TestTheSpruceEatsScraper(ScraperTest):
-
     scraper_class = TheSpruceEats
     test_file_name = "thespruceeats_2"
 
     def test_host(self):
         self.assertEqual("thespruceeats.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.thespruceeats.com/peppermint-swirl-brownies-recipe-6745411",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("Jessie Sheehan", self.harvester_class.author())

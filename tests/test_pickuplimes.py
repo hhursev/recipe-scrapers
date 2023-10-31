@@ -1,4 +1,5 @@
 # mypy: allow-untyped-defs
+import unittest
 
 from recipe_scrapers._grouping_utils import IngredientGroup
 from recipe_scrapers.pickuplimes import PickUpLimes
@@ -10,6 +11,13 @@ class TestPickUpLimesScraper(ScraperTest):
 
     def test_host(self):
         self.assertEqual("pickuplimes.com", self.harvester_class.host())
+
+    @unittest.skip("canonical_url is not available from this webpage")
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.pickuplimes.com/recipe/vegan-honey-mustard-tofu-wraps-1448",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_site_name(self):
         self.assertEqual("Pick Up Limes", self.harvester_class.site_name())
@@ -119,7 +127,7 @@ class TestPickUpLimesScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.8, self.harvester_class.ratings())
+        self.assertEqual(4.9, self.harvester_class.ratings())
 
     def test_description(self):
         self.assertEqual(

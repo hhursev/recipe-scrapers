@@ -5,11 +5,16 @@ from tests import ScraperTest
 
 
 class TestRicettaScraper(ScraperTest):
-
     scraper_class = Ricetta
 
     def test_host(self):
         self.assertEqual("ricetta.it", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://ricetta.it/lasagne-al-radicchio-e-formaggio",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("Luca Gatti", self.harvester_class.author())

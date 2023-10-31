@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestTheVintageMixerScraper(ScraperTest):
-
     scraper_class = TheVintageMixer
 
     def test_host(self):
@@ -29,7 +28,7 @@ class TestTheVintageMixerScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://d6h7vs5ykbiug.cloudfront.net/wp-content/uploads/2017/08/Cherry-Baby-Birthday-Party-2-1-150x150.jpg",
+            "https://d6h7vs5ykbiug.cloudfront.net/wp-content/uploads/2017/08/Cherry-Baby-Birthday-Party-2-1-350x350.jpg",
             self.harvester_class.image(),
         )
 

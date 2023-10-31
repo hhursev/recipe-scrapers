@@ -11,6 +11,12 @@ class TestRutgerBaktScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("rutgerbakt.nl", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://rutgerbakt.nl/taart-recepten/abrikozenvlaai/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Rutger van den Broek", self.harvester_class.author())
 
@@ -47,7 +53,7 @@ class TestRutgerBaktScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            "Maak eerst de banketbakkersroom en het vlaaideeg.\nAls je verse abrikozen gebruikt moeten deze eerst nog voorbereid worden, om de schil te verwijderen. Snijd de abrikozen kruislings in en leg ze 1 à 2 minuten in kokend water. Leg ze vervolgens in ijskoud water om het kookproces te stoppen. Verwijder de schil van de abrikozen, halveer ze en verwijder de pit.\nVet een vlaaivorm met een doorsnede van 28 centimeter en een hoogte van 3 centimeter in met boter. Kneed het deeg nog kort door en rol het dan op een bebloemd werkblad uit tot een ronde lap, die ruim over de vlaaivorm past. Bekleed de vorm met het deeg en zorg dat het overal goed aansluit. Verwijder het overhangende deeg door met een deegroller over de vorm te rollen of met behulp van een mes.\nVerwarm de oven voor op 220 °C. Klop de afgekoelde banketbakkersroom los met (hand)mixer met garde(s) en verdeel deze over de met deeg beklede vlaaivorm. Rangschik de abrikozenhelften met de bolle kanten omhoog op de banketbakkersroom, zodat de hele vlaai bedekt is. Als je wilt kun je nog wat suiker over de abrikozen strooien.\nAbrikozenvlaai bakken\nLaat de vlaai nog 15 minuten rusten en bak deze vervolgens in 25 tot 35 minuten goudbruin en gaar. Laat de vlaai na het bakken een halfuur afkoelen in de vorm en plaats hem daarna op een rooster om verder af te koelen.\nVerlaag de oventemperatuur naar 160 °C en spreid het amandelschaafsel uit over een met bakpapier beklede bakplaat. Rooster het schaafsel 6-8 minuten tot het goudbruin is.\nVerwarm de abrikozenjam en bestrijk daarmee de afgekoelde abrikozen vlaai. Strooi het amandelschaafsel over de vlaai en bestuif de rand licht met poedersuiker.",
+            "Maak eerst de banketbakkersroom en het vlaaideeg.\nAls je verse abrikozen gebruikt moeten deze eerst nog voorbereid worden, om de schil te verwijderen. Snijd de abrikozen kruislings in en leg ze 1 à 2 minuten in kokend water. Leg ze vervolgens in ijskoud water om het kookproces te stoppen. Verwijder de schil van de abrikozen, halveer ze en verwijder de pit.\nVet een vlaaivorm met een doorsnede van 28 centimeter en een hoogte van 3 centimeter in met boter. Kneed het deeg nog kort door en rol het dan op een bebloemd werkblad uit tot een ronde lap, die ruim over de vlaaivorm past. Bekleed de vorm met het deeg en zorg dat het overal goed aansluit. Verwijder het overhangende deeg door met een deegroller over de vorm te rollen of met behulp van een mes.\nVerwarm de oven voor op 200-220 °C. Klop de afgekoelde banketbakkersroom los met (hand)mixer met garde(s) en verdeel deze over de met deeg beklede vlaaivorm. Rangschik de abrikozenhelften met de bolle kanten omhoog op de banketbakkersroom, zodat de hele vlaai bedekt is. Als je wilt kun je nog wat suiker over de abrikozen strooien.\nAbrikozenvlaai bakken\nLaat de vlaai nog 15 minuten rusten en bak deze vervolgens in 25 tot 35 minuten goudbruin en gaar. Laat de vlaai na het bakken een halfuur afkoelen in de vorm en plaats hem daarna op een rooster om verder af te koelen.\nVerlaag de oventemperatuur naar 160 °C en spreid het amandelschaafsel uit over een met bakpapier beklede bakplaat. Rooster het schaafsel 6-8 minuten tot het goudbruin is.\nVerwarm de abrikozenjam en bestrijk daarmee de afgekoelde abrikozen vlaai. Strooi het amandelschaafsel over de vlaai en bestuif de rand licht met poedersuiker.",
             self.harvester_class.instructions(),
         )
 

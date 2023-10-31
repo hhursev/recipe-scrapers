@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestTasteOfHomeScraper(ScraperTest):
-
     scraper_class = TasteOfHome
 
     def test_host(self):
@@ -29,7 +28,7 @@ class TestTasteOfHomeScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Pressure-Cooker-Sauerbraten_EXPS_THN18_39243_E06_06_2b.jpg",
+            "https://www.tasteofhome.com/wp-content/uploads/0001/01/Pressure-Cooker-Sauerbraten_EXPS_THN18_39243_E06_06_2b.jpg",
             self.harvester_class.image(),
         )
 
@@ -57,9 +56,9 @@ class TestTasteOfHomeScraper(ScraperTest):
 
     def test_instructions(self):
         return self.assertEqual(
-            "Place cloves, peppercorns and bay leaf on a double thickness of cheesecloth; bring up corners of cloth and tie with kitchen string to form a bag. In a large bowl, combine the water, vinegar, sugar, salt and ginger. Add beef and spice bag; let stand at room temperature for 30 minutes.\nTransfer all to a 6-qt. electric pressure cooker. Add carrots, celery and onion. Lock the lid and close pressure-release valve. Adjust to pressure-cook on high for 10 minutes. Quick-release pressure. Select saute setting and adjust for medium heat; bring liquid to a boil. Discard the spice bag. Stir in gingersnaps; cook and stir until thickened, about 3 minutes. Serve with egg noodles. If desired, top with parsley and pepper.\nFreeze option: Freeze cooled sauerbraten in freezer containers. To use, partially thaw in refrigerator overnight. Heat through in a saucepan, stirring occasionally; add a little broth or water if necessary.",
+            "Place cloves, peppercorns and bay leaf on a double thickness of cheesecloth; bring up corners of cloth and tie with kitchen string to form a bag. In a large bowl, combine the water, vinegar, sugar, salt and ginger. Add beef and spice bag; let stand at room temperature for 30 minutes.\nTransfer all to a 6-qt. electric pressure cooker. Add carrots, celery and onion. Lock the lid and close pressure-release valve. Adjust to pressure-cook on high for 10 minutes. Quick-release pressure. Select saute setting and adjust for medium heat; bring liquid to a boil. Discard the spice bag. Stir in gingersnaps; cook and stir until thickened, about 3 minutes. Serve with egg noodles. If desired, top with parsley and pepper.",
             self.harvester_class.instructions(),
         )
 
     def test_ratings(self):
-        self.assertEqual(4.25, self.harvester_class.ratings())
+        self.assertEqual(3.78, self.harvester_class.ratings())
