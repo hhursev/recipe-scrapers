@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestMarleySpoonScraper(ScraperTest):
-
     scraper_class = MarleySpoon
 
     @classmethod
@@ -17,13 +16,19 @@ class TestMarleySpoonScraper(ScraperTest):
         self.assertEqual(
             (
                 "https://api.marleyspoon.com/recipes/113813?brand=ms&country=de&product_type=web",
-                "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtcyIsImNvdW50cnkiOiJkZSIsImJyYW5kIjoibXMiLCJ0cyI6MTY1Mzg4ODg3NiwicmFuZG9tX2lkIjoiMGY4YjZkIn0.quv6_xQk0EjwKmHn7u_CltqMkPuNen-N6kncGHTjcbg",
+                "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtcyIsImNvdW50cnkiOiJkZSIsImJyYW5kIjoibXMiLCJ0cyI6MTY5NzA2MDUwMiwicmFuZG9tX2lkIjoiNzU1OGRlIn0.i1Nyx4aB2BQf0JmlSi4TPL9rmFbFpN8orSJRGuWina0",
             ),
             self.harvester_class._get_json_params(),
         )
 
     def test_host(self):
         self.assertEqual("marleyspoon.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://marleyspoon.de/menu/113813-glasierte-veggie-burger-mit-roestkartoffeln-und-apfel-gurken-salat",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(

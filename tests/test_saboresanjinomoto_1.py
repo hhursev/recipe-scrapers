@@ -5,12 +5,17 @@ from tests import ScraperTest
 
 
 class TestSaboresAnjinomotoScraper(ScraperTest):
-
     scraper_class = SaboresAnjinomoto
     test_file_name = "saboresanjinomoto_1"
 
     def test_host(self):
         self.assertEqual("saboresajinomoto.com.br", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.saboresajinomoto.com.br/receita/pure-de-batata-com-frango",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("sabores ajinomoto", self.harvester_class.author())

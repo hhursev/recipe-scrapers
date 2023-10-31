@@ -4,7 +4,6 @@ from tests import ScraperTest
 
 
 class TestAltonBrownScraper(ScraperTest):
-
     scraper_class = AltonBrown
     test_file_name = "altonbrown_2"
 

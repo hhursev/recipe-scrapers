@@ -10,6 +10,12 @@ class TestTheKitchenCommunityScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("thekitchencommunity.org", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://thekitchencommunity.org/crock-pot-mac-and-cheese/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Cassie Marshall", self.harvester_class.author())
 

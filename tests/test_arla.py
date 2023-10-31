@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestArlaScraper(ScraperTest):
-
     scraper_class = Arla
 
     def test_host(self):

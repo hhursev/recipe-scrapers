@@ -10,7 +10,7 @@ class TestGroupRecipes(ScraperTest):
     def test_host(self):
         self.assertEqual("grouprecipes.com", self.harvester_class.host())
 
-    @unittest.skip("canonical_url will not pass with testhtml (uses example.com)")
+    @unittest.skip("canonical_url is not available from this webpage")
     def test_canonical_url(self):
         self.assertEqual(
             "http://www.grouprecipes.com/145264/slow-cooker-chicken-biscuits.html",

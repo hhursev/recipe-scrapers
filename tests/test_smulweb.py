@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestSmulwebScraper(ScraperTest):
-
     scraper_class = Smulweb
 
     def test_host(self):

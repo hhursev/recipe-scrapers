@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestCybercook(ScraperTest):
-
     scraper_class = Cybercook
 
     def test_host(self):

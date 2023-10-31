@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestRecipeTinEatsScraper(ScraperTest):
-
     scraper_class = RecipeTinEats
 
     def test_host(self):
@@ -36,7 +35,7 @@ class TestRecipeTinEatsScraper(ScraperTest):
                 "1/2 cup / 100g brown sugar, tightly packed",
                 "1 tbsp water",
                 '1 kg / 2 lb pork shoulder ((butt) or boneless skinless pork belly, cut into 3 cm / 1.2" pieces (Note 1a))',
-                "1 1/4 cups / 375 ml coconut water ((Note 1b))",
+                "1.5 cups / 375 ml coconut water ((Note 1b))",
                 "1 eschallot / shallot (, very finely sliced (Note 2))",
                 "2 garlic cloves (, minced)",
                 "1 1/2 tbsp fish sauce",

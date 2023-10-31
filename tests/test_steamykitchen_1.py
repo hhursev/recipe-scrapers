@@ -4,12 +4,17 @@ from tests import ScraperTest
 
 
 class TestSteamyKitchenScraper(ScraperTest):
-
     scraper_class = SteamyKitchen
     test_file_name = "steamykitchen_1"
 
     def test_host(self):
         self.assertEqual("steamykitchen.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://steamykitchen.com/56719-instant-pot-vietnamese-chicken-pho.html",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("Steamy Kitchen Team", self.harvester_class.author())

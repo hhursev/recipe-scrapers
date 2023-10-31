@@ -3,11 +3,16 @@ from tests import ScraperTest
 
 
 class TestMyKitchen101enScraper(ScraperTest):
-
     scraper_class = MyKitchen101en
 
     def test_host(self):
         self.assertEqual("mykitchen101en.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://mykitchen101en.com/baked-mini-egg-sponge-cakes/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("Mykitchen101en Team", self.harvester_class.author())

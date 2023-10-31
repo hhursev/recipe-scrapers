@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestAmbitiousKitchenScraper(ScraperTest):
-
     scraper_class = AmbitiousKitchen
 
     def test_host(self):

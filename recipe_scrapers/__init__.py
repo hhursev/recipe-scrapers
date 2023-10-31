@@ -96,6 +96,7 @@ from .globo import Globo
 from .godt import Godt
 from .gonnawantseconds import GonnaWantSeconds
 from .goodfooddiscoveries import GoodFoodDiscoveries
+from .goodhousekeeping import GoodHousekeeping
 from .goustojson import GoustoJson
 from .grandfrais import GrandFrais
 from .greatbritishchefs import GreatBritishChefs
@@ -175,6 +176,7 @@ from .nourishedbynutrition import NourishedByNutrition
 from .nrkmat import NRKMat
 from .number2pencil import Number2Pencil
 from .nutritionbynathalie import NutritionByNathalie
+from .nutritionfacts import NutritionFacts
 from .nytimes import NYTimes
 from .ohsheglows import OhSheGlows
 from .omnivorescookbook import OmnivoresCookbook
@@ -251,7 +253,6 @@ from .thekitchenmagpie import TheKitchenMagPie
 from .thekitchn import TheKitchn
 from .themagicalslowcooker import TheMagicalSlowCooker
 from .themodernproper import TheModernProper
-from .thenutritiouskitchen import TheNutritiousKitchen
 from .thepioneerwoman import ThePioneerWoman
 from .therecipecritic import Therecipecritic
 from .thespruceeats import TheSpruceEats
@@ -344,6 +345,7 @@ SCRAPERS = {
     Delish.host(): Delish,
     ElaVegan.host(): ElaVegan,
     GrandFrais.host(): GrandFrais,
+    NutritionFacts.host(): NutritionFacts,
     Thinlicious.host(): Thinlicious,
     DomesticateMe.host(): DomesticateMe,
     Downshiftology.host(): Downshiftology,
@@ -381,6 +383,7 @@ SCRAPERS = {
     Godt.host(): Godt,
     GonnaWantSeconds.host(): GonnaWantSeconds,
     GoodFoodDiscoveries.host(): GoodFoodDiscoveries,
+    GoodHousekeeping.host(): GoodHousekeeping,
     GoustoJson.host(): GoustoJson,
     GreatBritishChefs.host(): GreatBritishChefs,
     GrimGrains.host(): GrimGrains,
@@ -562,7 +565,6 @@ SCRAPERS = {
     TheKitchn.host(): TheKitchn,
     TheMagicalSlowCooker.host(): TheMagicalSlowCooker,
     TheModernProper.host(): TheModernProper,
-    TheNutritiousKitchen.host(): TheNutritiousKitchen,
     ThePioneerWoman.host(): ThePioneerWoman,
     TheSpruceEats.host(): TheSpruceEats,
     TheVintageMixer.host(): TheVintageMixer,

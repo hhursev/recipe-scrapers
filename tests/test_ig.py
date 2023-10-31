@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestIGScraper(ScraperTest):
-
     scraper_class = IG
 
     def test_host(self):

@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestKwestiaSmakuScraper(ScraperTest):
-
     scraper_class = KwestiaSmaku
 
     def test_host(self):

@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestSunsetScraper(ScraperTest):
-
     scraper_class = Sunset
 
     def test_host(self):

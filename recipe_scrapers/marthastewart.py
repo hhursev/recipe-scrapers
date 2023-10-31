@@ -14,11 +14,7 @@ class MarthaStewart(AbstractScraper):
         return self.schema.total_time()
 
     def yields(self):
-        return (
-            self.soup.findAll("div", {"class": "two-subcol-content-wrapper"})[1]
-            .find("div", {"class": "recipe-meta-item-body"})
-            .text.strip()
-        )
+        return self.schema.yields()
 
     def ingredients(self):
         return self.schema.ingredients()

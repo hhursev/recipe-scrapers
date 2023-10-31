@@ -1,19 +1,23 @@
 # mypy: allow-untyped-defs
+import unittest
 
 from recipe_scrapers.weightwatchers import WeightWatchers
 from tests import ScraperTest
 
 
 class TestWeightwatchersScraper(ScraperTest):
-
-    # Test-Url:
-    # https://cmx.weightwatchers.de/details/WWRECIPE:562a9bc8a43e6bde2cf369df
-
     scraper_class = WeightWatchers
     test_file_name = "weightwatchers_2"
 
     def test_host(self):
         self.assertEqual("www.weightwatchers.com", self.harvester_class.host())
+
+    @unittest.skip("canonical_url is not available from this webpage")
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://cmx.weightwatchers.de/details/WWRECIPE:562a9bc8a43e6bde2cf369df",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("WeightWatchers", self.harvester_class.author())

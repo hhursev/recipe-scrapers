@@ -3,11 +3,16 @@ from tests import ScraperTest
 
 
 class TestMobKitchenScraper(ScraperTest):
-
     scraper_class = MobKitchen
 
     def test_host(self):
         self.assertEqual("mobkitchen.co.uk", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.mob.co.uk/recipes/chilli-cheese-paratha",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("Mob", self.harvester_class.author())
@@ -26,7 +31,7 @@ class TestMobKitchenScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://mobkitchen-objects.imgix.net/recipes/9K8A6392-2.jpg?auto=format&crop=focalpoint&domain=mobkitchen-objects.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=827&ixlib=php-3.3.1&q=82&w=1300&s=412bb43eb2623e3afb2bebc5cc73b572",
+            "https://files.mob-cdn.co.uk/recipes/9K8A6392-2.jpg",
             self.harvester_class.image(),
         )
 
@@ -41,7 +46,6 @@ class TestMobKitchenScraper(ScraperTest):
                 "3 Spring Onions",
                 "250g Mozzarella",
                 "250g Cheddar Cheese",
-                "Salt",
                 "Vegetable Oil",
             ],
             self.harvester_class.ingredients(),

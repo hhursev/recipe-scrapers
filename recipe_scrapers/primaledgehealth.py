@@ -20,7 +20,9 @@ class PrimalEdgeHealth(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        return self.schema.ingredients()
+        return [
+            ingredient.replace("\u00C2", "") for ingredient in self.schema.ingredients()
+        ]
 
     def instructions(self):
         return self.schema.instructions()

@@ -61,12 +61,12 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
 </style>
-<link data-minify="1" rel='stylesheet' id='wsl-widget-css' href='https://uitpaulineskeuken.nl/wp-content/cache/min/1/wp-content/plugins/wordpress-social-login/assets/css/style.css?ver=1695978499' type='text/css' media='all' />
-<link data-minify="1" rel='stylesheet' id='child-theme-css' href='https://uitpaulineskeuken.nl/wp-content/cache/min/1/wp-content/themes/stuurlui/assets/css/style-1695199796472.css?ver=1695983218' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='wsl-widget-css' href='https://uitpaulineskeuken.nl/wp-content/cache/min/1/wp-content/plugins/wordpress-social-login/assets/css/style.css?ver=1696926530' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='child-theme-css' href='https://uitpaulineskeuken.nl/wp-content/cache/min/1/wp-content/themes/stuurlui/assets/css/style-1696861373339.css?ver=1696926530' type='text/css' media='all' />
 <script type='text/javascript' async="async" data-noptimize="1" data-cfasync="false" src='https://scripts.mediavine.com/tags/uit-paulines-kitchen.js' id='mv-script-wrapper-js'></script>
 <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js' id='jquery-js'></script>
 <link rel="https://api.w.org/" href="https://uitpaulineskeuken.nl/wp-json/" /><link rel="alternate" type="application/json" href="https://uitpaulineskeuken.nl/wp-json/wp/v2/pauline_recepten/33424" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://uitpaulineskeuken.nl/xmlrpc.php?rsd" />
-<meta name="generator" content="WordPress 6.3.1" />
+<meta name="generator" content="WordPress 6.3.2" />
 <link rel='shortlink' href='https://uitpaulineskeuken.nl/?p=33424' />
 <link rel="alternate" type="application/json+oembed" href="https://uitpaulineskeuken.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fuitpaulineskeuken.nl%2Frecept%2Fravioli-met-salieboter" />
 <link rel="alternate" type="text/xml+oembed" href="https://uitpaulineskeuken.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fuitpaulineskeuken.nl%2Frecept%2Fravioli-met-salieboter&#038;format=xml" />
@@ -112,54 +112,54 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<!-- Start of Food Influencers United code -->
 		<script async src="https://cdn.foodinfluencersunited.nl/prod.js"></script>
 		<!-- End of Food Influencers United code -->
-		<script type='text/javascript'>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-</script>
-
-<!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window,document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
- fbq('init', '239197689824240'); 
-fbq('track', 'PageView');
-</script>
-<noscript>
- <img height="1" width="1" 
-src="https://www.facebook.com/tr?id=239197689824240&ev=PageView
-&noscript=1"/>
-</noscript>
-<!-- End Facebook Pixel Code -->
-
-<script>
-fbq('init', '263231777640549', {}, {
-    "agent": "wordpress-4.9.8-1.7.9"
-});
-
-fbq('track', 'PageView', {
-    "source": "wordpress",
-    "version": "4.9.8",
-    "pluginVersion": "1.7.9"
-});
-</script>
-<!-- DO NOT MODIFY -->
-<!-- WordPress Facebook Integration end -->
-    
-<!-- Facebook Pixel Code -->
-<noscript>
-<img height="1" width="1" style="display:none" alt="fbpx"
-src="https://www.facebook.com/tr?id=263231777640549&ev=PageView&noscript=1"/>
-</noscript>
-<!-- DO NOT MODIFY -->
+		<script type='text/javascript'>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '239197689824240'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=239197689824240&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+<script>
+fbq('init', '263231777640549', {}, {
+    "agent": "wordpress-4.9.8-1.7.9"
+});
+
+fbq('track', 'PageView', {
+    "source": "wordpress",
+    "version": "4.9.8",
+    "pluginVersion": "1.7.9"
+});
+</script>
+<!-- DO NOT MODIFY -->
+<!-- WordPress Facebook Integration end -->
+    
+<!-- Facebook Pixel Code -->
+<noscript>
+<img height="1" width="1" style="display:none" alt="fbpx"
+src="https://www.facebook.com/tr?id=263231777640549&ev=PageView&noscript=1"/>
+</noscript>
+<!-- DO NOT MODIFY -->
 <!-- End Facebook Pixel Code -->			<!-- Start FitChef widget -->
 			<script type="text/javascript">
 				(function() {
@@ -395,7 +395,10 @@ src="https://www.facebook.com/tr?id=263231777640549&ev=PageView&noscript=1"/>
 <li id="menu-item-65478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65478"><a href="https://uitpaulineskeuken.nl/over-mij">Over ons</a></li>
 <li id="menu-item-68168" class="searchitem menu-item menu-item-type-post_type menu-item-object-page menu-item-68168"><a href="https://uitpaulineskeuken.nl/zoeken">Zoeken</a></li>
 </ul>							</nav>
-													</div>
+																<a class="btn fitchef-link" href="https://uitpaulineskeuken.nl/fitchef" target="_self">
+										<i class="fas fa-utensils"></i>
+										Eetschema's op maat									</a>
+															</div>
 						<div class="menutoggle" data-responsive-toggle="menus" style="display:none;">
 							<button class="menu-icon" type="button" data-toggle="menus">
 								<i class="far fa-bars"></i>
@@ -677,6 +680,46 @@ href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fuitpaulineskeuk
 								<div class="row large-up-2 medium-up-2 small-up-2">
 									<div class="column column-block item ">
 	<div class="recipe  ">
+		<div class="image" data-src="https://uitpaulineskeuken.nl/wp-content/uploads/2023/05/Ramen-noodles-recept-uit-de-slowcooker-3.jpg" data-srcset="https://uitpaulineskeuken.nl/wp-content/uploads/2023/05/Ramen-noodles-recept-uit-de-slowcooker-3.jpg, https://uitpaulineskeuken.nl/wp-content/uploads/2023/05/Ramen-noodles-recept-uit-de-slowcooker-3.jpg" data-sizes="xs, s">
+			<img src="https://uitpaulineskeuken.nl/wp-content/uploads/2023/05/Ramen-noodles-recept-uit-de-slowcooker-3.jpg" alt="Ramen noodles recept uit de slowcooker" />
+			<a href="#" class="favorite " data-id="99784"><span class="screen-reader-text">Favoriet</span></a>
+		</div>
+
+		<ul class="metadata">
+			<li><i class="fas fa-utensils"></i> Simpel</li>			<li><i class="far fa-stopwatch"></i> 10 + 630M</li>		</ul>
+
+		<div class="content">
+						<h3>
+				Ramen noodles recept uit de slowcooker			</h3>
+					</div>
+		<a href="https://uitpaulineskeuken.nl/recept/ramen-noodles-recept" class="link">
+			<span class="screen-reader-text">
+				Lees meer overRamen noodles recept uit de slowcooker			</span>
+		</a>
+	</div>
+	</div>
+<div class="column column-block item ">
+	<div class="recipe  ">
+		<div class="image" data-src="https://uitpaulineskeuken.nl/wp-content/uploads/2023/08/Chili-sin-carne-3.jpg" data-srcset="https://uitpaulineskeuken.nl/wp-content/uploads/2023/08/Chili-sin-carne-3.jpg, https://uitpaulineskeuken.nl/wp-content/uploads/2023/08/Chili-sin-carne-3.jpg" data-sizes="xs, s">
+			<img src="https://uitpaulineskeuken.nl/wp-content/uploads/2023/08/Chili-sin-carne-3.jpg" alt="Chili sin carne" />
+			<a href="#" class="favorite " data-id="103204"><span class="screen-reader-text">Favoriet</span></a>
+		</div>
+
+		<ul class="metadata">
+			<li><i class="fas fa-utensils"></i> Vega</li>			<li><i class="far fa-stopwatch"></i> 25M</li>		</ul>
+
+		<div class="content">
+						<h3>
+				Chili sin carne			</h3>
+					</div>
+		<a href="https://uitpaulineskeuken.nl/recept/chili-sin-carne" class="link">
+			<span class="screen-reader-text">
+				Lees meer overChili sin carne			</span>
+		</a>
+	</div>
+	</div>
+<div class="column column-block item ">
+	<div class="recipe  ">
 		<div class="image" data-src="https://uitpaulineskeuken.nl/wp-content/uploads/2023/08/Broccoli-courgette-soep-2.jpg" data-srcset="https://uitpaulineskeuken.nl/wp-content/uploads/2023/08/Broccoli-courgette-soep-2.jpg, https://uitpaulineskeuken.nl/wp-content/uploads/2023/08/Broccoli-courgette-soep-2.jpg" data-sizes="xs, s">
 			<img src="https://uitpaulineskeuken.nl/wp-content/uploads/2023/08/Broccoli-courgette-soep-2.jpg" alt="Broccoli courgettesoep" />
 			<a href="#" class="favorite " data-id="103222"><span class="screen-reader-text">Favoriet</span></a>
@@ -715,46 +758,6 @@ href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fuitpaulineskeuk
 		</a>
 	</div>
 	</div>
-<div class="column column-block item ">
-	<div class="recipe  ">
-		<div class="image" data-src="https://uitpaulineskeuken.nl/wp-content/uploads/2023/07/Casarecce-pasta-2.jpg" data-srcset="https://uitpaulineskeuken.nl/wp-content/uploads/2023/07/Casarecce-pasta-2.jpg, https://uitpaulineskeuken.nl/wp-content/uploads/2023/07/Casarecce-pasta-2.jpg" data-sizes="xs, s">
-			<img src="https://uitpaulineskeuken.nl/wp-content/uploads/2023/07/Casarecce-pasta-2.jpg" alt="Casarecce pasta met groene saus" />
-			<a href="#" class="favorite " data-id="101986"><span class="screen-reader-text">Favoriet</span></a>
-		</div>
-
-		<ul class="metadata">
-			<li><i class="fas fa-utensils"></i> Simpel</li>			<li><i class="far fa-stopwatch"></i> 30M</li>		</ul>
-
-		<div class="content">
-						<h3>
-				Casarecce pasta met groene saus			</h3>
-					</div>
-		<a href="https://uitpaulineskeuken.nl/recept/casarecce-pasta" class="link">
-			<span class="screen-reader-text">
-				Lees meer overCasarecce pasta met groene saus			</span>
-		</a>
-	</div>
-	</div>
-<div class="column column-block item ">
-	<div class="recipe  ">
-		<div class="image" data-src="https://uitpaulineskeuken.nl/wp-content/uploads/2023/08/Bobotie.jpg" data-srcset="https://uitpaulineskeuken.nl/wp-content/uploads/2023/08/Bobotie.jpg, https://uitpaulineskeuken.nl/wp-content/uploads/2023/08/Bobotie.jpg" data-sizes="xs, s">
-			<img src="https://uitpaulineskeuken.nl/wp-content/uploads/2023/08/Bobotie.jpg" alt="Bobotie met gehakt en sperzieboontjes" />
-			<a href="#" class="favorite " data-id="103213"><span class="screen-reader-text">Favoriet</span></a>
-		</div>
-
-		<ul class="metadata">
-			<li><i class="fas fa-utensils"></i> Oven</li>			<li><i class="far fa-stopwatch"></i> 35 + 45M</li>		</ul>
-
-		<div class="content">
-						<h3>
-				Bobotie met gehakt en sperzieboontjes			</h3>
-					</div>
-		<a href="https://uitpaulineskeuken.nl/recept/bobotie" class="link">
-			<span class="screen-reader-text">
-				Lees meer overBobotie met gehakt en sperzieboontjes			</span>
-		</a>
-	</div>
-	</div>
 								</div>
 							</div>
 											</article>
@@ -770,14 +773,14 @@ href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fuitpaulineskeuk
 	
 </div>			</div>
 						<div class="box featuredsidebar-postselector">
+				<div class="title">Romige pasta</div>						<a href="https://uitpaulineskeuken.nl/recept/casarecce-pasta">
+							<div class="image" data-src="https://uitpaulineskeuken.nl/wp-content/uploads/2023/07/Casarecce-pasta-2-400x560.jpg" data-srcset="https://uitpaulineskeuken.nl/wp-content/uploads/2023/07/Casarecce-pasta-2-400x560.jpg,https://uitpaulineskeuken.nl/wp-content/uploads/2023/07/Casarecce-pasta-2-400x560.jpg" data-sizes="xs, s"></div>
+							<div class="subtitle">Casarecce pasta met groene saus</div>						</a>
+									</div>
+						<div class="box featuredsidebar-postselector">
 				<div class="title">Lekker bij de borrel</div>						<a href="https://uitpaulineskeuken.nl/recept/butter-board">
 							<div class="image" data-src="https://uitpaulineskeuken.nl/wp-content/uploads/2023/04/Butter-board-400x560.jpg" data-srcset="https://uitpaulineskeuken.nl/wp-content/uploads/2023/04/Butter-board-400x560.jpg,https://uitpaulineskeuken.nl/wp-content/uploads/2023/04/Butter-board-400x560.jpg" data-sizes="xs, s"></div>
 							<div class="subtitle">Aziatisch butter board</div>						</a>
-									</div>
-						<div class="box featuredsidebar-postselector">
-				<div class="title">Snelle curry</div>						<a href="https://uitpaulineskeuken.nl/recept/garnalen-curry">
-							<div class="image" data-src="https://uitpaulineskeuken.nl/wp-content/uploads/2023/02/Garnalen-curry-met-broccoli-4-400x560.jpg" data-srcset="https://uitpaulineskeuken.nl/wp-content/uploads/2023/02/Garnalen-curry-met-broccoli-4-400x560.jpg,https://uitpaulineskeuken.nl/wp-content/uploads/2023/02/Garnalen-curry-met-broccoli-4-400x560.jpg" data-sizes="xs, s"></div>
-							<div class="subtitle">Garnalen curry met broccoli</div>						</a>
 									</div>
 						<div class="box featuredsidebar-login">
 				<div class="title">Inloggen</div>							<div class="text">
@@ -1072,7 +1075,7 @@ href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fuitpaulineskeuk
 <!-- GTM Container placement set to footer -->
 <!-- Google Tag Manager (noscript) -->
 				<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZK2G27" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) --><link data-minify="1" rel='stylesheet' id='font-awesome-css' href='https://uitpaulineskeuken.nl/wp-content/cache/min/1/releases/v5.15.4/css/all.css?ver=1695983218' type='text/css' media='all' />
+<!-- End Google Tag Manager (noscript) --><link data-minify="1" rel='stylesheet' id='font-awesome-css' href='https://uitpaulineskeuken.nl/wp-content/cache/min/1/releases/v5.15.4/css/all.css?ver=1696926530' type='text/css' media='all' />
 <script type='text/javascript' src='https://uitpaulineskeuken.nl/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js' id='gtm4wp-form-move-tracker-js'></script>
 <script type='text/javascript' id='boxzilla-js-extra'>
 /* <![CDATA[ */
@@ -1091,4 +1094,4 @@ var strl_vars = {"wpurl":"https:\/\/uitpaulineskeuken.nl","ajaxurl":"https:\/\/u
 		</body>
 </html>
 
-<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1696614603 -->
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1697402963 -->
