@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import get_minutes
 
 
 class USAPears(AbstractScraper):
@@ -35,12 +35,7 @@ class USAPears(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        ingredient_elements = self.soup.find_all("li", {"itemprop": "ingredients"})
-
-        return [
-            normalize_string(paragraph.get_text().strip())
-            for paragraph in ingredient_elements
-        ]
+        return self.schema.ingredients()
 
     def instructions(self):
         return self.schema.instructions()

@@ -12,7 +12,7 @@ class WellPlated(AbstractScraper):
         return self.schema.title()
 
     def author(self):
-        return self.soup.find("h4", {"class": "author-box-title"}).get_text()
+        return self.schema.author()
 
     def category(self):
         return self.schema.category()
