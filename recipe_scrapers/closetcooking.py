@@ -1,6 +1,5 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
 
 
 class ClosetCooking(AbstractScraper):
@@ -9,24 +8,16 @@ class ClosetCooking(AbstractScraper):
         return "closetcooking.com"
 
     def title(self):
-        return normalize_string(
-            self.soup.find("h1", {"class": "entry-title"}).get_text()
-        )
+        return self.schema.title()
 
     def total_time(self):
-        return get_minutes(self.soup.find(itemprop="totalTime").parent)
+        return self.schema.total_time()
 
     def yields(self):
-        return get_yields(self.soup.find(itemprop="recipeYield").parent)
+        return self.schema.yields()
 
     def ingredients(self):
-        ingredients = self.soup.findAll("li", {"itemprop": "recipeIngredient"})
-
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        return self.schema.ingredients()
 
     def instructions(self):
-        instructions = self.soup.findAll("li", {"itemprop": "recipeInstructions"})
-
-        return "\n".join(
-            [normalize_string(instruction.get_text()) for instruction in instructions]
-        )
+        return self.schema.instructions()

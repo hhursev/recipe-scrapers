@@ -1,6 +1,5 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
 
 
 class MomsWithCrockPots(AbstractScraper):
@@ -9,38 +8,19 @@ class MomsWithCrockPots(AbstractScraper):
         return "momswithcrockpots.com"
 
     def title(self):
-        return self.soup.find("h2", {"class": "wprm-recipe-name"}).get_text()
+        return self.schema.title()
 
     def total_time(self):
-        return get_minutes(
-            self.soup.find("span", {"class": "wprm-recipe-total_time"}).parent
-        )
+        return self.schema.total_time()
 
     def yields(self):
-        yields = self.soup.find("span", {"class": "wprm-recipe-servings"}).get_text()
-
-        return get_yields("{} servings".format(yields))
+        return self.schema.yields()
 
     def ingredients(self):
-        ingredients = self.soup.findAll("li", {"class": "wprm-recipe-ingredient"})
-
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        return self.schema.ingredients()
 
     def instructions(self):
-        instructions = self.soup.findAll(
-            "div", {"class": "wprm-recipe-instruction-text"}
-        )
-
-        return "\n".join(
-            [normalize_string(instruction.get_text()) for instruction in instructions]
-        )
+        return self.schema.instructions()
 
     def ratings(self):
-        return round(
-            float(
-                self.soup.find(
-                    "span", {"class": "wprm-recipe-rating-average"}
-                ).get_text()
-            ),
-            2,
-        )
+        return self.schema.ratings()

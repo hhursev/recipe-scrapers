@@ -9,10 +9,7 @@ class ErrensKitchen(AbstractScraper):
         return "errenskitchen.com"
 
     def author(self):
-        author_element = self.soup.find("span", {"class": "entry-author-name"})
-        if author_element:
-            author = author_element.get_text()
-            return author
+        return self.schema.author()
 
     def title(self):
         return self.schema.title()

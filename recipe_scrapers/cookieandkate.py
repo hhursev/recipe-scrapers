@@ -1,6 +1,5 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
 
 
 class CookieAndKate(AbstractScraper):
@@ -9,33 +8,19 @@ class CookieAndKate(AbstractScraper):
         return "cookieandkate.com"
 
     def title(self):
-        return self.soup.find("h1", {"class": "entry-title"}).get_text()
+        return self.schema.title()
 
     def total_time(self):
-        return get_minutes(
-            self.soup.find("span", {"class": "tasty-recipes-total-time"})
-        )
+        return self.schema.total_time()
 
     def yields(self):
-        yields = self.soup.find("span", {"class": "tasty-recipes-yield"}).get_text()
-
-        return get_yields("{} servings".format(yields))
+        return self.schema.yields()
 
     def ingredients(self):
-        ingredients = self.soup.find(
-            "div", {"class": "tasty-recipe-ingredients"}
-        ).find_all("li")
-
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        return self.schema.ingredients()
 
     def instructions(self):
-        instructions = self.soup.find(
-            "div", {"class": "tasty-recipe-instructions"}
-        ).find_all("li")
-
-        return "\n".join(
-            [normalize_string(instruction.get_text()) for instruction in instructions]
-        )
+        return self.schema.instructions()
 
     def ratings(self):
-        return round(float(self.soup.find("span", {"class": "average"}).get_text()), 2)
+        return self.schema.ratings()
