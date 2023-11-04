@@ -286,6 +286,7 @@ from .woolworths import Woolworths
 from .woop import Woop
 from .yemek import Yemek
 from .yummly import Yummly
+from .zaubertopfde import Zaubertopfde
 from .zeitwochenmarkt import ZeitWochenmarkt
 from .zenbelly import ZenBelly
 
@@ -597,6 +598,7 @@ SCRAPERS = {
     Woolworths.host(): Woolworths,
     Yemek.host(): Yemek,
     Yummly.host(): Yummly,
+    Zaubertopfde.host(): Zaubertopfde,
     ZeitWochenmarkt.host(): ZeitWochenmarkt,
     ZenBelly.host(): ZenBelly,
     GesundAktiv.host(): GesundAktiv,
