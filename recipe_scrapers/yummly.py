@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
+from ._utils import normalize_string
 
 
 class Yummly(AbstractScraper):
@@ -10,18 +10,16 @@ class Yummly(AbstractScraper):
         return "yummly.com"
 
     def title(self):
-        found = self.soup.find("h1")
-        return found.get_text() if found else None
+        return self.schema.title()
 
     def author(self):
         return self.soup.find("a", {"class": "markdown-link"}).get_text()
 
     def total_time(self):
-        data = self.soup.findAll("div", {"class": "recipe-summary-item"}, limit=2)
-        return get_minutes(data[1]) if data else None
+        return self.schema.total_time()
 
     def yields(self):
-        return get_yields(self.soup.find("div", {"class": "servings"}))
+        return self.schema.yields()
 
     def ingredients(self):
         ingredients = self.soup.findAll("li", {"class": "IngredientLine"})

@@ -10,10 +10,7 @@ class FoodFidelity(AbstractScraper):
         return "foodfidelity.com"
 
     def author(self):
-        author_tag = self.soup.find("span", {"class": "byline"}).find(
-            "a", {"class": "url fn n"}
-        )
-        return author_tag.get_text() if author_tag else "Food Fidelity"
+        return self.schema.author()
 
     def title(self):
         return self.schema.title()

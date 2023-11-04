@@ -9,8 +9,7 @@ class PersnicketyPlates(AbstractScraper):
         return "persnicketyplates.com"
 
     def author(self):
-        author_tag = self.soup.find("meta", {"name": "author"})
-        return author_tag["content"] if author_tag else "persnicketyplates"
+        return self.schema.author()
 
     def title(self):
         return self.schema.title()

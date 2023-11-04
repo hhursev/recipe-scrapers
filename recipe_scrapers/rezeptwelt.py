@@ -13,7 +13,7 @@ class Rezeptwelt(AbstractScraper):
         return normalize_string(self.soup.find("span", {"id": "viewRecipeAuthor"}).text)
 
     def title(self):
-        return self.soup.find("meta", {"property": "og:title"})["content"]
+        return self.schema.title()
 
     def category(self):
         return self.schema.category()

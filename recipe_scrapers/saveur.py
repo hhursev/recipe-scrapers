@@ -11,7 +11,7 @@ class Saveur(AbstractScraper):
         return self.schema.author()
 
     def title(self):
-        return self.soup.find("h1").get_text()
+        return self.schema.title()
 
     def total_time(self):
         return self.schema.total_time()

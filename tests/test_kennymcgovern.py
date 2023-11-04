@@ -48,8 +48,8 @@ class TestKennyMcGovernScraper(ScraperTest):
                 "Pinch black pepper",
                 "1 egg",
                 "3 tablespoons milk",
-                "1 skinless, boneless chicken breast fillet around 114g",
-                "vegetable oil for deep frying",
+                "1 skinless, boneless chicken breast fillet (around 114g)",
+                "vegetable oil (for deep frying)",
             ],
             self.harvester_class.ingredients(),
         )

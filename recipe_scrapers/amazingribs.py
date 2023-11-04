@@ -2,7 +2,6 @@
 
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
-from ._utils import normalize_string
 
 
 class AmazingRibs(AbstractScraper):
@@ -11,9 +10,6 @@ class AmazingRibs(AbstractScraper):
         return "amazingribs.com"
 
     def author(self):
-        author_container = self.soup.find("p", {"class": "author-attribution"})
-        if author_container and author_container.find("a"):
-            return normalize_string(author_container.find("a").text)
         return self.schema.author()
 
     def title(self):

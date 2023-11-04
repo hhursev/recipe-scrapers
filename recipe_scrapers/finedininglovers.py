@@ -12,9 +12,7 @@ class FineDiningLovers(AbstractScraper):
         return self.schema.title()
 
     def author(self):
-        container = self.soup.find("div", {"class": "author-name"})
-        if container:
-            return container.find("a").get_text()
+        return self.schema.author()
 
     def total_time(self):
         return self.schema.total_time()
