@@ -4,7 +4,7 @@ from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
 
-class Zaubertopfde(AbstractScraper):
+class ZauberTopf(AbstractScraper):
     @classmethod
     def host(cls):
         return "zaubertopf.de"
