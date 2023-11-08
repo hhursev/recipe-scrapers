@@ -9,33 +9,33 @@ class TestGoustoScraper(ScraperTest):
 
     @classmethod
     def expected_requests(cls):
-        yield GET, "https://www.gousto.co.uk/cookbook/recipes/malaysian-style-coconut-meat-free-chicken-pickled-cucumber", "tests/test_data/gousto.testjson"
-        yield GET, "https://production-api.gousto.co.uk/cmsreadbroker/v1/recipe/malaysian-style-coconut-meat-free-chicken-pickled-cucumber", "tests/test_data/gousto.testjson"
+        yield GET, "https://www.gousto.co.uk/cookbook/vegetarian-recipes/3-cheese-veg-packed-pasta-bake", "tests/test_data/gousto.testjson"
+        yield GET, "https://production-api.gousto.co.uk/cmsreadbroker/v1/recipe/3-cheese-veg-packed-pasta-bake", "tests/test_data/gousto.testjson"
 
     def test_host(self):
         self.assertEqual("gousto.co.uk", self.harvester_class.host())
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://www.gousto.co.uk/cookbook/recipes/malaysian-style-coconut-meat-free-chicken-pickled-cucumber",
+            "https://www.gousto.co.uk/cookbook/vegetarian-recipes/3-cheese-veg-packed-pasta-bake",
             self.harvester_class.canonical_url(),
         )
 
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            "Malaysian-Style Coconut Meat-Free Chicken With Pickled Cucumber",
+            "3 Cheese Veg-Packed Pasta Bake",
         )
 
     def test_description(self):
         self.assertEqual(
             self.harvester_class.description(),
-            "Inspired by the fragrant flavours of the classic Malaysian chicken dish 'Ayam Percik'. Our spice paste blends lemongrass, almonds and ginger before adding coconut cream and meat-free chicken. Served with fluffy rice and quick-pickled cucumber.",
+            "This hearty pasta dish doesn't just have a rich tomato sauce, it's layered with mozzarella, cheddar cheese and Italian hard cheese for a tasty and wholesome midweek bake.",
         )
 
     def test_image(self):
         self.assertEqual(
-            "https://s3-eu-west-1.amazonaws.com/s3-gousto-production-media/cms/mood-image/1930--Malaysian-Coconut-Chicken--Pickled-Cucumber-1636110687600.jpg",
+            "https://production-media.gousto.co.uk/cms/mood-image/2023---3-Cheese-Veg-Packed-Pasta-Bake-7065-1579799730289.jpg",
             self.harvester_class.image(),
         )
 
@@ -48,20 +48,19 @@ class TestGoustoScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "50g solid creamed coconut",
-                "15g fresh root ginger",
-                "1 tsp ground turmeric",
-                "2 shallots",
-                "15ml soy sauce",
-                "165g meat-free chicken bites",
-                "130g basmati rice",
-                "15g tamarind paste",
-                "30ml rice vinegar",
-                "1 red chilli",
-                "1/2 cucumber",
-                "3 garlic cloves",
-                "25g blanched almonds",
-                "1 fresh lemongrass",
+                "10g parsley",
+                "40g cheddar cheese",
+                "200g finely chopped tomatoes",
+                "1 tsp dried basil",
+                "20g Italian hard cheese",
+                "11g vegetable stock mix",
+                "16g tomato paste",
+                "125g mozzarella",
+                "2 garlic cloves",
+                "1 courgette",
+                "125g cherry tomatoes",
+                "15ml balsamic vinegar",
+                "200g tortiglioni",
             ],
             self.harvester_class.ingredients(),
         )
@@ -69,21 +68,21 @@ class TestGoustoScraper(ScraperTest):
     def test_instructions_list(self):
         return self.assertEqual(
             [
-                "Add the basmati rice and 300ml [600ml] cold water to a pot with a lid and bring to the boil over a high heat\nOnce boiling, reduce the heat to very low and cook, covered, for 10-12 min or until all the water has absorbed and the rice is cooked\nOnce cooked, remove from the heat and keep covered until serving",
-                "While the rice is cooking, bash the lemongrass stalk[s] with a rolling pin, cut down the middle lengthways, remove the tough outer layers and chop the softer inner core[s] finely\nPeel and roughly chop the shallots, garlic and ginger\nChop half of the red chilli[es] roughly, and finely slice the rest (save these for garnish!)\nPut everything into a food processor",
-                "Add the blanched almonds and half the ground turmeric (you’ll use the rest later!) to the food processor with 2 tbsp [4 tbsp] vegetable oil\nAdd the soy sauce and a pinch of sugar\nPulse until you're left with a slightly chunky paste – this is your spice paste",
-                "Boil a kettle, then heat a large wide-based pan (preferably non-stick with a matching lid), with a drizzle of vegetable oil over a medium-high heat\nCut the meat-free chicken into smaller, bite-sized pieces\nAdd the meat-free chicken pieces to the pan and sprinkle over the remaining ground turmeric and a pinch of salt and pepper\nCook for 2-3 min or until warmed through and starting to brown",
-                "While the meat-free chicken is cooking, cut the cucumber[s] in half lengthways and then slice finely",
-                "Add the sliced cucumber to a bowl with the rice vinegar, 1 tsp [2 tsp] sugar and a generous pinch of salt\nStir it all together and set aside until serving – this is your quick-pickled cucumber",
-                "Add the spice paste to the meat-free chicken and cook for 2-3 min or until fragrant\nOnce fragrant, add the tamarind paste with 200ml [300ml] boiled water and cook for a further 2-3 min\nChop the creamed coconut roughly (if required!), then add it to the pan and cook for 1 min further – this is your Malaysian-style coconut meat-free chicken",
-                "Serve the Malaysian-style coconut meat-free chicken with the cooked rice and quick-pickled cucumber to the side\nGarnish with the reserved sliced chilli rounds (can't handle the heat? Go easy!)\nEnjoy!",
+                "Preheat the oven to 240ºC/ 220ºC (fan)/ gas 9\nBoil a kettle\nPeel and finely chop (or grate) the garlic",
+                "Add the tortiglioni to a pot of boiled water with a pinch of salt, bring to the boil over a high heat and cook for 8-10 min or until cooked with a slight bite\nOnce cooked, drain the tortiglioni\nReboil half a kettle",
+                "While the pasta is cooking, top, tail and chop the courgette[s] into quarters lengthways, then slice finely\nHeat a large, wide-based pan (preferably non-stick) with a drizzle of olive oil over a medium-high heat\nOnce hot, add the sliced courgette with a pinch of salt and cook for 4 min or until beginning to soften",
+                "Meanwhile, dissolve the vegetable stock mix, dried basil, balsamic vinegar, tomato paste and 1 tsp [2 tsp] sugar in 100ml [150ml] boiled water – this is your stock\nChop the cherry tomatoes roughly",
+                "Once the courgette is beginning to soften, add the chopped garlic to the pan and cook for 30 secs\nAdd the stock with the chopped cherry tomatoes and the chopped tomatoes and bring to the boil over a high heat\nSeason with a generous grind of black pepper and cook for 3-4 min further",
+                "Grate the cheddar cheese\nGrate the Italian hard cheese\nDrain the mozzarella, then pat and squeeze as much liquid out as you can with kitchen paper\nTear the drained mozzarella into rough, bite-sized pieces\nChop the parsley finely, including the stalks",
+                "Add the drained tortiglioni to the sauce with the chopped parsley (save some for garnish!) and mix it up\nAdd half the pasta mixture to an oven-proof dish, then top with the grated cheddar cheese\nTop with the remaining pasta mixture, torn mozzarella and grated Italian hard cheese and put the dish in the oven for 5-10 min or until all the cheese has melted – this is your 3 cheese veg-packed pasta bake",
+                "Serve the 3 cheese veg-packed pasta bake topped with the reserved chopped parsley and a grind of black pepper and enjoy!\nLoved this recipe? Us too! That’s why it’s one of our Everyday Favourites, available every week.",
             ],
             self.harvester_class.instructions_list(),
         )
 
     def test_instructions(self):
         return self.assertEqual(
-            "Add the basmati rice and 300ml [600ml] cold water to a pot with a lid and bring to the boil over a high heat\nOnce boiling, reduce the heat to very low and cook, covered, for 10-12 min or until all the water has absorbed and the rice is cooked\nOnce cooked, remove from the heat and keep covered until serving\nWhile the rice is cooking, bash the lemongrass stalk[s] with a rolling pin, cut down the middle lengthways, remove the tough outer layers and chop the softer inner core[s] finely\nPeel and roughly chop the shallots, garlic and ginger\nChop half of the red chilli[es] roughly, and finely slice the rest (save these for garnish!)\nPut everything into a food processor\nAdd the blanched almonds and half the ground turmeric (you’ll use the rest later!) to the food processor with 2 tbsp [4 tbsp] vegetable oil\nAdd the soy sauce and a pinch of sugar\nPulse until you're left with a slightly chunky paste – this is your spice paste\nBoil a kettle, then heat a large wide-based pan (preferably non-stick with a matching lid), with a drizzle of vegetable oil over a medium-high heat\nCut the meat-free chicken into smaller, bite-sized pieces\nAdd the meat-free chicken pieces to the pan and sprinkle over the remaining ground turmeric and a pinch of salt and pepper\nCook for 2-3 min or until warmed through and starting to brown\nWhile the meat-free chicken is cooking, cut the cucumber[s] in half lengthways and then slice finely\nAdd the sliced cucumber to a bowl with the rice vinegar, 1 tsp [2 tsp] sugar and a generous pinch of salt\nStir it all together and set aside until serving – this is your quick-pickled cucumber\nAdd the spice paste to the meat-free chicken and cook for 2-3 min or until fragrant\nOnce fragrant, add the tamarind paste with 200ml [300ml] boiled water and cook for a further 2-3 min\nChop the creamed coconut roughly (if required!), then add it to the pan and cook for 1 min further – this is your Malaysian-style coconut meat-free chicken\nServe the Malaysian-style coconut meat-free chicken with the cooked rice and quick-pickled cucumber to the side\nGarnish with the reserved sliced chilli rounds (can't handle the heat? Go easy!)\nEnjoy!",
+            "Preheat the oven to 240ºC/ 220ºC (fan)/ gas 9\nBoil a kettle\nPeel and finely chop (or grate) the garlic\nAdd the tortiglioni to a pot of boiled water with a pinch of salt, bring to the boil over a high heat and cook for 8-10 min or until cooked with a slight bite\nOnce cooked, drain the tortiglioni\nReboil half a kettle\nWhile the pasta is cooking, top, tail and chop the courgette[s] into quarters lengthways, then slice finely\nHeat a large, wide-based pan (preferably non-stick) with a drizzle of olive oil over a medium-high heat\nOnce hot, add the sliced courgette with a pinch of salt and cook for 4 min or until beginning to soften\nMeanwhile, dissolve the vegetable stock mix, dried basil, balsamic vinegar, tomato paste and 1 tsp [2 tsp] sugar in 100ml [150ml] boiled water – this is your stock\nChop the cherry tomatoes roughly\nOnce the courgette is beginning to soften, add the chopped garlic to the pan and cook for 30 secs\nAdd the stock with the chopped cherry tomatoes and the chopped tomatoes and bring to the boil over a high heat\nSeason with a generous grind of black pepper and cook for 3-4 min further\nGrate the cheddar cheese\nGrate the Italian hard cheese\nDrain the mozzarella, then pat and squeeze as much liquid out as you can with kitchen paper\nTear the drained mozzarella into rough, bite-sized pieces\nChop the parsley finely, including the stalks\nAdd the drained tortiglioni to the sauce with the chopped parsley (save some for garnish!) and mix it up\nAdd half the pasta mixture to an oven-proof dish, then top with the grated cheddar cheese\nTop with the remaining pasta mixture, torn mozzarella and grated Italian hard cheese and put the dish in the oven for 5-10 min or until all the cheese has melted – this is your 3 cheese veg-packed pasta bake\nServe the 3 cheese veg-packed pasta bake topped with the reserved chopped parsley and a grind of black pepper and enjoy!\nLoved this recipe? Us too! That’s why it’s one of our Everyday Favourites, available every week.",
             self.harvester_class.instructions(),
         )
 
