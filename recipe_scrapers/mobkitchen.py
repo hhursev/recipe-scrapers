@@ -21,7 +21,7 @@ class MobKitchen(AbstractScraper):
         self.schema = SchemaOrg(recipe_schema, raw=True)
 
     @classmethod
-    def host(cls, domain="mobkitchen.co.uk"):
+    def host(cls, domain="mob.co.uk"):
         return domain
 
     def author(self):
