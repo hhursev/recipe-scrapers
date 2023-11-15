@@ -128,6 +128,7 @@ Scrapers available for:
 - `https://cookinglight.com/ <https://cookinglight.com/>`_
 - `https://cookpad.com/ <https://cookpad.com/>`_
 - `https://cookstr.com/ <https://cookstr.com>`_
+- `https://cook-talk.com/ <https://cook-talk.com/>`_
 - `https://www.coop.se/ <https://www.coop.se/>`_
 - `https://copykat.com/ <https://copykat.com>`_
 - `https://www.costco.com/ <https://www.costco.com>`_
