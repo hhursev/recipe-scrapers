@@ -5,12 +5,17 @@ from tests import ScraperTest
 
 
 class TestGoustoScraper(ScraperTest):
-
     scraper_class = Gousto
 
     @classmethod
     def expected_requests(cls):
         yield GET, "https://gousto.co.uk/cookbook/creamy-pork-tagliatelle", "tests/test_data/gousto.testhtml"
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://gousto.co.uk/cookbook/creamy-pork-tagliatelle",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_host(self):
         self.assertEqual("gousto.co.uk", self.harvester_class.host())

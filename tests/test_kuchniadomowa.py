@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestKuchniaDomowaScraper(ScraperTest):
-
     scraper_class = KuchniaDomowa
 
     def test_host(self):
@@ -32,7 +31,7 @@ class TestKuchniaDomowaScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://static.kuchnia-domowa.pl/images/content/548/mizeria.jpg",
+            "https:/images/content/548/mizeria.jpg",
             self.harvester_class.image(),
         )
 

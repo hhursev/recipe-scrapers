@@ -3,11 +3,16 @@ from tests import ScraperTest
 
 
 class TestHomeChefScraper(ScraperTest):
-
     scraper_class = HomeChef
 
     def test_host(self):
         self.assertEqual("homechef.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.homechef.com/meals/prosciutto-and-mushroom-carbonara",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("Chef\n\nPatrick Le Beau", self.harvester_class.author())
@@ -26,21 +31,21 @@ class TestHomeChefScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://homechef.imgix.net/https%3A%2F%2Fasset.homechef.com%2Fuploads%2Fmeal%2Fplated%2F18612%2F5846ProsciuttoandAsiagoCarbonara_Ecomm__1_of_1_-7e576bca3e38185a1acfd06570476d88-7e576bca3e38185a1acfd06570476d88.jpg?ixlib=rails-1.1.0&w=600&auto=format&s=8ffa167fc61e45d14b773a3e06cddaf4",
+            "https://homechef.imgix.net/https%3A%2F%2Fasset.homechef.com%2Fuploads%2Fmeal%2Fplated%2F5846%2F5846ProsciuttoandAsiagoCarbonara_Ecomm__1_of_1_-7e576bca3e38185a1acfd06570476d88-7e576bca3e38185a1acfd06570476d88.jpg?ixlib=rails-1.1.0&w=600&auto=format&s=48487283c613e3a946c19f4548bbb6cc",
             self.harvester_class.image(),
         )
 
     def test_ingredients(self):
         self.assertEqual(
             [
-                "3 oz. Peas",
-                "2 oz. Prosciutto",
-                "Info 1 oz. Shredded Asiago Cheese",
+                "6 oz. Cremini Mushrooms",
+                "Info 6 oz. Linguine",
+                "1 Lemon",
+                "3 oz. Prosciutto",
+                "Info 2 oz. Shredded Asiago Cheese",
+                "2 oz. Peas",
                 "Info 2 oz. Sour Cream",
                 "Info ⅓ oz. Butter",
-                "1 Lemon",
-                "4 oz. Cremini Mushrooms",
-                "Info 6 oz. Linguine",
                 "2 Garlic Cloves",
             ],
             self.harvester_class.ingredients(),
@@ -48,7 +53,7 @@ class TestHomeChefScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            """Cook the Pasta\n\nOnce water in medium pot is boiling, add pasta and cook until al dente, 10-12 minutes.\n\nReserve 1/2 cup pasta cooking water. Drain pasta in a colander and set aside.\n\nWhile pasta cooks, prepare ingredients.\nPrepare the Ingredients\n\nCut mushrooms into 1/4" slices.\n\nHalve and juice lemon.\n\nMince garlic.\nCrisp the Prosciutto\n\nRemove prosciutto from refrigerator. Line a plate with a paper towel.\n\nPlace a large non-stick pan over medium heat and add 1/2 tsp. olive oil. Working in batches, add prosciutto to hot pan in a single layer. Cook until crispy, 1-2 minutes per side.\n\nTransfer prosciutto to towel-lined plate. When cool enough to handle, break into bite-sized pieces. Reserve pan; no need to wipe clean.\nCook the Mushrooms\n\nReturn pan used to crisp prosciutto to medium-high heat and add 1 tsp. olive oil.\n\nAdd mushrooms and a pinch of salt and pepper to hot pan. Stir occasionally until beginning to brown, 3-4 minutes.\n\nAdd garlic and stir constantly until aromatic, 30-60 seconds.\nMake Sauce and Finish Dish\n\nStir pasta, butter, a pinch of salt, and half the reserved pasta cooking water into hot pan until butter is melted. Stir in peas and half the cheese (reserve remaining for garnish) until cheese melts, 30-60 seconds.\n\nRemove from burner and stir in sour cream, 2 tsp. lemon juice, half the prosciutto (reserve remaining for garnish), 1/4 tsp. salt, and a pinch of pepper. If sauce is too thick, add additional pasta cooking water, 1 Tbsp. at a time, until desired consistency is reached.\n\nPlate dish as pictured on front of card, garnishing with remaining prosciutto and remaining cheese. Bon appétit!""",
+            """Cook the Pasta\n\nOnce water is boiling, add pasta and cook until al dente, 10-12 minutes.\n\nReserve 1/2 cup pasta cooking water. Drain pasta in a colander and set aside.\n\nWhile pasta cooks, prepare ingredients.\nPrepare the Ingredients\n\nMince garlic.\n\nCut mushrooms into 1/4" slices.\n\nHalve and juice lemon.\nCrisp the Prosciutto\n\nRemove prosciutto from refrigerator. Line a plate with a paper towel.\n\nPlace a large non-stick pan over medium heat and add 1/2 tsp. olive oil.\n\nWorking in batches, add prosciutto to hot pan in a single layer. Cook until crispy, 1-2 minutes per side.\n\nTransfer prosciutto to towel-lined plate. When cool enough to handle, break into bite-sized pieces.\n\nReserve pan; no need to wipe clean.\nCook the Mushrooms\n\nReturn pan used to crisp prosciutto to medium-high heat and add 1 tsp. olive oil. Add mushrooms and a pinch of pepper to hot pan and stir occasionally until mushrooms begin to brown, 3-4 minutes.\n\nAdd garlic and stir constantly until aromatic, 30-60 seconds.\nMake Sauce and Finish Dish\n\nStir pasta, butter, and half the reserved pasta cooking water into pan until butter is melted. Stir in peas and half the Asiago (reserve remaining for garnish) until cheese melts, 30-60 seconds.\n\nRemove from burner and stir in sour cream, 2 tsp. lemon juice, and half the prosciutto (reserve remaining for garnish). If sauce is too thick, add additional pasta cooking water 1 Tbsp. at a time until desired consistency is reached. Taste, and season with a pinch of salt and pepper if desired.\n\nPlate dish as pictured on front of card, garnishing with remaining prosciutto and remaining Asiago. Bon appétit!""",
             self.harvester_class.instructions(),
         )
 

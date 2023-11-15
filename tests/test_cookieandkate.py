@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestCookieAndKateScraper(ScraperTest):
-
     scraper_class = CookieAndKate
 
     def test_host(self):
@@ -27,23 +26,23 @@ class TestCookieAndKateScraper(ScraperTest):
         self.assertEqual(40, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("8 servings", self.harvester_class.yields())
+        self.assertEqual("6 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
         self.assertEqual(
             [
                 "8 SimplyNature Organic Cage Free Eggs",
-                "½ cup milk of choice",
+                "1/2 cup milk of choice",
                 "2 small-to-medium cloves garlic, pressed or minced",
-                "½ teaspoon sea salt, divided",
+                "1/2 teaspoon sea salt, divided",
                 "Freshly ground black pepper",
                 "1 cup freshly grated cheddar cheese, divided",
                 "1 tablespoon SimplyNature Organic Extra Virgin Olive Oil, more as needed",
                 "1 small yellow onion, chopped",
-                "⅓ cup water",
+                "1/3 cup water",
                 "2 cups thinly sliced broccoli florets",
                 "2 cups SimplyNature Organic Baby Spinach, roughly chopped",
-                "⅓ cup thinly sliced green onions",
+                "1/3 cup thinly sliced green onions",
             ],
             self.harvester_class.ingredients(),
         )

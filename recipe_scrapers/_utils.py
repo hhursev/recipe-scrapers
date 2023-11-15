@@ -75,6 +75,9 @@ def get_minutes(element, return_zero_on_not_found=False):  # noqa: C901: TODO
 
     matched = TIME_REGEX.search(time_text)
 
+    if matched is None or not any(matched.groupdict().values()):
+        return None
+
     minutes = int(matched.groupdict().get("minutes") or 0)
     hours_matched = matched.groupdict().get("hours")
     days_matched = matched.groupdict().get("days")
@@ -109,7 +112,7 @@ def get_minutes(element, return_zero_on_not_found=False):  # noqa: C901: TODO
 
 def get_yields(element):
     """
-    Will return a string of servings or items, if the receipt is for number of items and not servings
+    Will return a string of servings or items, if the recipe is for number of items and not servings
     the method will return the string "x item(s)" where x is the quantity.
     :param element: Should be BeautifulSoup.TAG, in some cases not feasible and will then be text.
     :return: The number of servings or items.
@@ -142,7 +145,9 @@ def normalize_string(string):
     return re.sub(
         r"\s+",
         " ",
-        unescaped_string.replace("\xa0", " ")
+        unescaped_string.replace("\xc2\xa0", " ")
+        .replace("\xa0", " ")
+        .replace("\u200b", "")
         .replace("\n", " ")  # &nbsp;
         .replace("\t", " ")
         .strip(),

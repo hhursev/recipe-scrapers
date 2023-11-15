@@ -3,11 +3,16 @@ from tests import ScraperTest
 
 
 class TestSundPaaBudgetScraper(ScraperTest):
-
     scraper_class = SundPaaBudget
 
     def test_host(self):
         self.assertEqual("sundpaabudget.dk", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://sundpaabudget.dk/one-pot-pasta-med-kyllingekebab/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(
@@ -48,7 +53,7 @@ class TestSundPaaBudgetScraper(ScraperTest):
                 "2 tomater",
                 "2 peberfrugter",
                 "300 g fuldkornsspaghetti (el. pasta)",
-                "125 g flødeost m. hvidløg (el. chili)",
+                "125 g flødeost m. hvidløg",
                 "7 dl vand",
                 "1 bouillonterning",
                 "0,5 tsk spidskommen",
@@ -70,7 +75,7 @@ Smag til med salt og peber.""",
         )
 
     def test_ratings(self):
-        self.assertEqual(3.9, self.harvester_class.ratings())
+        self.assertEqual(4.0, self.harvester_class.ratings())
 
     def test_author(self):
         self.assertEqual("Britt // Sund på budget", self.harvester_class.author())

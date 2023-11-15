@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestFood52(ScraperTest):
-
     scraper_class = Food52
 
     def test_host(self):
@@ -45,7 +44,7 @@ class TestFood52(ScraperTest):
                 "2 teaspoons kosher salt",
                 "2 teaspoons ground cinnamon",
                 "1 teaspoon freshly ground nutmeg",
-                "1/2 teaspoon toasted walnut halves, roughly chopped",
+                "1/2 cup toasted walnut halves, roughly chopped",
                 "Flaky salt (optional)",
             ],
             self.harvester_class.ingredients(),
@@ -68,4 +67,4 @@ class TestFood52(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(5.0, self.harvester_class.ratings())
+        self.assertEqual(4.56, self.harvester_class.ratings())

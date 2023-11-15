@@ -1,9 +1,9 @@
+# canonical_url : https://cookeatshare.com/recipes/pork-steak-vegetable-bake-24221
 from recipe_scrapers.cookeatshare import CookEatShare
 from tests import ScraperTest
 
 
 class TestCookEatShare(ScraperTest):
-
     scraper_class = CookEatShare
 
     def test_host(self):

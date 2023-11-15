@@ -3,14 +3,19 @@ from tests import ScraperTest
 
 
 class TestIndianHealthyRecipesScraper(ScraperTest):
-
     scraper_class = IndianHealthyRecipes
 
     def test_host(self):
         self.assertEqual("indianhealthyrecipes.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.indianhealthyrecipes.com/banana-cake-recipe/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
-        self.assertEqual("Swasthi", self.harvester_class.author())
+        self.assertEqual("swasthi", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual("Banana Cake Recipe", self.harvester_class.title())
@@ -30,13 +35,13 @@ class TestIndianHealthyRecipesScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "2 cups wheat flour (or all-purpose (refer notes))",
-                "2 ½ teaspoons baking powder",
+                "2 cups (240 grams) all-purpose flour (or wheat flour (refer notes))",
+                "2 ½ teaspoons (12.5 g) baking powder",
                 "½ teaspoon salt ((or ⅓ teaspoon table salt))",
-                "1 cup fine sugar ((prefer organic))",
-                "100 grams unsalted butter ((soft & cold) (around ½ cup))",
+                "1 cup (200 grams) fine sugar ((prefer organic))",
+                "100 grams (3.53 oz) unsalted butter ((soft & cold) )",
                 "2 eggs",
-                "2 teaspoons vanilla extract",
+                "2 teaspoons (10 ml) vanilla extract",
                 "160 ml milk",
                 "1 cup ripe banana (mashed)",
             ],
@@ -50,4 +55,4 @@ class TestIndianHealthyRecipesScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.95, self.harvester_class.ratings())
+        self.assertEqual(4.96, self.harvester_class.ratings())

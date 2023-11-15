@@ -3,17 +3,16 @@ from tests import ScraperTest
 
 
 class TestHeadbangersKitchenScraper(ScraperTest):
-
     scraper_class = HeadbangersKitchen
 
     def test_host(self):
         self.assertEqual("headbangerskitchen.com", self.harvester_class.host())
 
-    # def test_canonical_url(self):
-    #     self.assertEqual(
-    #         'https://headbangerskitchen.com/recipe/keto-omelet-indian-style/',
-    #         self.harvester_class.canonical_url(),
-    #     )
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://headbangerskitchen.com/keto-omelet-indian-style/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("Sahil Makhija", self.harvester_class.author())
@@ -56,4 +55,4 @@ class TestHeadbangersKitchenScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.33, self.harvester_class.ratings())
+        self.assertEqual(4.41, self.harvester_class.ratings())

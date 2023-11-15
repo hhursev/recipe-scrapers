@@ -1,9 +1,9 @@
+# canonical_url : https://www.atelierdeschefs.fr/recettes/16689/crepe-savoyarde/
 from recipe_scrapers.atelierdeschefs import AtelierDesChefs
 from tests import ScraperTest
 
 
 class TestAtelierDesChefsScraper(ScraperTest):
-
     scraper_class = AtelierDesChefs
 
     def test_host(self):

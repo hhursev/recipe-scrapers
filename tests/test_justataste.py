@@ -3,11 +3,16 @@ from tests import ScraperTest
 
 
 class TestJustATasteScraper(ScraperTest):
-
     scraper_class = JustATaste
 
     def test_host(self):
         self.assertEqual("justataste.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.justataste.com/healthy-baked-chicken-cheese-taquitos-recipe/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(

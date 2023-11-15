@@ -84,6 +84,7 @@ Scrapers available for:
 
 - `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
+- `https://addapinch.com/ <https://addapinch.com//>`_
 - `http://www.afghankitchenrecipes.com/ <http://www.afghankitchenrecipes.com/>`_
 - `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
 - `https://ah.nl/ <https://ah.nl/>`_
@@ -96,6 +97,7 @@ Scrapers available for:
 - `https://www.arla.se/ <https://www.arla.se/>`_
 - `https://www.atelierdeschefs.fr/ <https://www.atelierdeschefs.fr/>`_
 - `https://averiecooks.com/ <https://www.averiecooks.com/>`_
+- `https://barefootcontessa.com/ <https://barefootcontessa.com>`_
 - `https://baking-sense.com/ <https://baking-sense.com/>`_
 - `https://bakingmischief.com/ <https://bakingmischief.com/>`_
 - `https://bbc.com/ <https://bbc.com/food/recipes>`_
@@ -128,6 +130,7 @@ Scrapers available for:
 - `https://cookstr.com/ <https://cookstr.com>`_
 - `https://www.coop.se/ <https://www.coop.se/>`_
 - `https://copykat.com/ <https://copykat.com>`_
+- `https://www.costco.com/ <https://www.costco.com>`_
 - `https://countryliving.com/ <https://countryliving.com>`_
 - `https://creativecanning.com/ <https://creativecanning.com>`_
 - `https://cucchiaio.it/ <https://cucchiaio.it>`_
@@ -135,7 +138,6 @@ Scrapers available for:
 - `https://cybercook.com.br/ <https://cybercook.com.br/>`_
 - `https://www.davidlebovitz.com/ <https://www.davidlebovitz.com/>`_
 - `https://delish.com/ <https://delish.com>`_
-- `https://www.ditchthecarbs.com/ <https://www.ditchthecarbs.com>`_
 - `https://domesticate-me.com/ <https://domesticate-me.com/>`_
 - `https://downshiftology.com/ <https://downshiftology.com/>`_
 - `https://www.dr.dk/ <https://www.dr.dk/>`_
@@ -143,11 +145,16 @@ Scrapers available for:
 - `https://www.eatingwell.com/ <https://www.eatingwell.com>`_
 - `https://eatsmarter.com/ <https://eatsmarter.com/>`_
 - `https://eatsmarter.de/ <https://eatsmarter.de/>`_
+- `https://www.eatwell101.com <https://www.eatwell101.com>`_
 - `https://eatwhattonight.com/ <https://eatwhattonight.com/>`_
+- `https://elavegan.com/ <https://elavegan.com/>`_
 - `https://emmikochteinfach.de/ <https://emmikochteinfach.de/>`_
 - `https://ethanchlebowski.com/ <https://ethanchlebowski.com>`_
 - `https://epicurious.com/ <https://epicurious.com>`_
+- `https://www.errenskitchen.com/ <https://www.errenskitchen.com/>`_
 - `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
+- `https://www.farmhouseonboone.com/ <https://www.farmhouseonboone.com/>`_
+- `https://www.fattoincasadabenedetta.it/ <https://www.fattoincasadabenedetta.it/>`_
 - `https://fifteenspatulas.com/ <https://www.fifteenspatulas.com/>`_
 - `https://finedininglovers.com/ <https://www.finedininglovers.com>`_
 - `https://fitmencook.com/ <https://www.fitmencook.com>`_
@@ -160,28 +167,31 @@ Scrapers available for:
 - `https://forktospoon.com/ <https://forktospoon.com/>`_
 - `https://fredriksfika.allas.se/ <https://fredriksfika.allas.se/>`_
 - `https://www.750g.com <https://www.750g.com>`_
-- `https://geniuskitchen.com/ <https://geniuskitchen.com>`_
 - `https://www.gesund-aktiv.com/ <https://www.gesund-aktiv.com>`_
 - `https://giallozafferano.it/ <https://giallozafferano.it>`_
 - `https://gimmesomeoven.com/ <https://www.gimmesomeoven.com/>`_
 - `https://godt.no/ <https://godt.no/>`_
 - `https://goodfooddiscoveries.com/ <https://goodfooddiscoveries.com/>`_
+- `https://goodhousekeeping.com/ <https://www.goodhousekeeping.com/>`_
 - `https://recietas.globo.com/ <https://www.receitas.globo.com/>`_
 - `https://gonnawantseconds.com/ <https://gonnawantseconds.com>`_
 - `https://gousto.co.uk/ <https://gousto.co.uk>`_
+- `https://www.grandfrais.com/ <https://www.grandfrais.com>`_
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
+- `https://grimgrains.com/ <https://grimgrains.com>`_
+- `http://www.grouprecipes.com/ <http://www.grouprecipes.com/>`_
 - `https://halfbakedharvest.com/ <https://www.halfbakedharvest.com/>`_
 - `https://handletheheat.com/ <https://handletheheat.com/>`_
 - `https://www.hassanchef.com/ <https://www.hassanchef.com/>`_
 - `https://headbangerskitchen.com/ <https://www.headbangerskitchen.com/>`_
 - `https://www.heb.com/ <https://www.heb.com/recipe/landing>`_
-- `https://heinzbrasil.com.br/ <https://heinzbrasil.com.br>`_
 - `https://hellofresh.com/ <https://hellofresh.com>`_
 - `https://hellofresh.co.uk/ <https://hellofresh.co.uk>`_
 - `https://www.hellofresh.de/ <https://www.hellofresh.de/>`_
 - `https://www.hellofresh.fr/ <https://www.hellofresh.fr/>`_
 - `https://www.hellofresh.nl/ <https://www.hellofresh.nl/>`_
 - `https://www.hellofresh.ie/ <https://www.hellofresh.ie/>`_
+- `https://www.hersheyland.com/ <https://www.hersheyland.com/>`_
 - `https://www.homechef.com/ <https://www.homechef.com/>`_
 - `https://hostthetoast.com/ <https://hostthetoast.com/>`_
 - `https://www.ica.se/ <https://www.ica.se/>`_
@@ -195,6 +205,7 @@ Scrapers available for:
 - `https://jamieoliver.com/ <https://jamieoliver.com>`_
 - `https://jimcooksfoodgood.com/ <https://jimcooksfoodgood.com/>`_
 - `https://joyfoodsunshine.com/ <https://joyfoodsunshine.com>`_
+- `https://juliegoodwin.com.au/ <https://juliegoodwin.com.au>`_
 - `https://justataste.com/ <https://justataste.com>`_
 - `https://justbento.com/ <https://justbento.com>`_
 - `https://www.justonecookbook.com/ <https://www.justonecookbook.com>`_
@@ -212,6 +223,7 @@ Scrapers available for:
 - `https://lecremedelacrumb.com/ <https://lecremedelacrumb.com/>`_
 - `https://www.lecker.de <https://www.lecker.de/rezepte>`_
 - `https://lekkerensimpel.com <https://lekkerensimpel.com>`_
+- `https://lifestyleofafoodie.com <https://lifestyleofafoodie.com>`_
 - `https://littlespicejar.com/ <https://littlespicejar.com>`_
 - `http://livelytable.com/ <http://livelytable.com/>`_
 - `https://lovingitvegan.com/ <https://lovingitvegan.com/>`_
@@ -246,12 +258,17 @@ Scrapers available for:
 - `https://myrecipes.com/ <https://myrecipes.com>`_
 - `https://healthyeating.nhlbi.nih.gov/ <https://healthyeating.nhlbi.nih.gov>`_
 - `https://nibbledish.com/ <https://nibbledish.com>`_
+- `https://www.nhs.uk/healthier-families/ <https://www.nhs.uk/healthier-families/>`_
 - `https://www.nosalty.hu/ <https://www.nosalty.hu>`_
 - `https://nourishedbynutrition.com/ <https://nourishedbynutrition.com/>`_
+- `https://www.nrk.no/ <https://www.nrk.no/>`_
+- `https://www.number-2-pencil.com/ <https://www.number-2-pencil.com/>`_
 - `https://nutritionbynathalie.com/blog <https://nutritionbynathalie.com/blog>`_
+- `https://nutritionfacts.org/ <https://nutritionfacts.org/>`_
 - `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
 - `https://ohsheglows.com/ <https://ohsheglows.com>`_
 - `https://omnivorescookbook.com <https://omnivorescookbook.com>`_
+- `https://www.onceuponachef.com <https://www.onceuponachef.com>`_
 - `https://owen-han.com/ <https://owen-han.com>`_
 - `https://101cookbooks.com/ <https://101cookbooks.com/>`_
 - `https://www.paleorunningmomma.com/ <https://www.paleorunningmomma.com>`_
@@ -260,6 +277,9 @@ Scrapers available for:
 - `https://www.persnicketyplates.com/ <https://www.persnicketyplates.com/>`_
 - `https://www.pickuplimes.com/ <https://www.pickuplimes.com/>`_
 - `https://www.pingodoce.pt/ <https://www.pingodoce.pt>`_
+- `https://pinkowlkitchen.com/ <https://pinkowlkitchen.com/>`_
+- `https://www.platingpixels.com/ <https://www.platingpixels.com/>`_
+- `https://plowingthroughlife.com/ <https://plowingthroughlife.com/>`_
 - `https://popsugar.com/ <https://popsugar.com>`_
 - `https://practicalselfreliance.com/ <https://practicalselfreliance.com>`_
 - `https://pressureluckcooking.com/ <https://pressureluckcooking.com/>`_
@@ -272,6 +292,7 @@ Scrapers available for:
 - `https://rainbowplantlife.com/ <https://rainbowplantlife.com/>`_
 - `https://realfood.tesco.com/ <https://realfood.tesco.com>`_
 - `https://realsimple.com/ <https://www.realsimple.com>`_
+- `https://www.receitasnestle.com.br <https://www.receitasnestle.com.br>`_
 - `https://reciperunner.com/ <https://www.reciperunner.com>`_
 - `https://recipetineats.com/ <https://www.recipetineats.com/>`_
 - `https://redhousespice.com/ <https://redhousespice.com/>`_
@@ -280,6 +301,7 @@ Scrapers available for:
 - `https://ricetta.it/ <https://ricetta.it>`_
 - `https://rosannapansino.com <https://rosannapansino.com>`_
 - `https://rutgerbakt.nl/ <https://rutgerbakt.nl/>`_
+- `https://www.saboresajinomoto.com.br/ <https://www.saboresajinomoto.com.br/>`_
 - `https://sallysbakingaddiction.com <https://sallysbakingaddiction.com/>`_
 - `https://sallys-blog.de <https://sallys-blog.de/>`_
 - `https://saltpepperskillet.com/ <https://saltpepperskillet.com/>`_
@@ -304,6 +326,7 @@ Scrapers available for:
 - `https://www.sunset.com/ <https://www.sunset.com/>`_
 - `https://sweetcsdesigns.com/ <https://www.sweetcsdesigns.com/>`_
 - `https://sweetpeasandsaffron.com/ <https://sweetpeasandsaffron.com/>`_
+- `https://www.taste.com.au/ <https://www.taste.com.au/>`_
 - `https://tasteofhome.com <https://tasteofhome.com>`_
 - `https://tastesbetterfromscratch.com <https://tastesbetterfromscratch.com>`_
 - `https://tastesoflizzyt.com <https://tastesoflizzyt.com>`_
@@ -315,24 +338,29 @@ Scrapers available for:
 - `https://www.thekitchenmagpie.com/ <https://www.thekitchenmagpie.com>`_
 - `https://thekitchencommunity.org/ <https://thekitchencommunity.org/>`_
 - `https://thekitchn.com/ <https://thekitchn.com/>`_
+- `https://www.themagicalslowcooker.com/ <https://www.themagicalslowcooker.com/>`_
 - `https://themodernproper.com/ <https://themodernproper.com/>`_
-- `https://thenutritiouskitchen.co/ <https://thenutritiouskitchen.co/>`_
 - `https://thepioneerwoman.com/ <https://thepioneerwoman.com>`_
 - `https://therecipecritic.com/ <https://therecipecritic.com>`_
 - `https://thespruceeats.com/ <https://thespruceeats.com/>`_
 - `https://thevintagemixer.com/ <https://thevintagemixer.com>`_
 - `https://thewoksoflife.com/ <https://thewoksoflife.com/>`_
+- `https://thinlicious.com/ <https://thinlicious.com/>`_
 - `https://timesofindia.com/ <https://timesofindia.com/>`_
 - `https://tine.no/ <https://tine.no>`_
+- `https://tidymom.net <https://tidymom.net>`_
 - `https://tudogostoso.com.br/ <https://www.tudogostoso.com.br/>`_
 - `https://twopeasandtheirpod.com/ <http://twopeasandtheirpod.com>`_
+- `https://uitpaulineskeuken.nl/ <https://uitpaulineskeuken.nl>`_
 - `https://usapears.org/ <https://usapears.org>`_
 - `https://www.valdemarsro.dk/ <https://www.valdemarsro.dk/>`_
 - `https://vanillaandbean.com/ <https://vanillaandbean.com>`_
 - `https://www.vegetarbloggen.no/ <https://www.vegetarbloggen.no/>`_
 - `https://vegolosi.it/ <https://vegolosi.it>`_
 - `https://vegrecipesofindia.com/ <https://www.vegrecipesofindia.com/>`_
+- `https://www.waitrose.com/ <https://www.waitrose.com/>`_
 - `https://watchwhatueat.com/ <https://watchwhatueat.com/>`_
+- `https://wearenotmartha.com/ <https://wearenotmartha.com/>`_
 - `https://www.weightwatchers.com/ <https://www.weightwatchers.com/>`_ (*)
 - `https://www.wellplated.com/ <https://www.wellplated.com/>`_
 - `https://whatsgabycooking.com/ <https://whatsgabycooking.com>`_
@@ -343,6 +371,7 @@ Scrapers available for:
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `https://yemek.com/ <https://yemek.com>`_
 - `https://yummly.com/ <https://yummly.com>`_
+- `https://www.zaubertopf.de <https://www.zaubertopf.de>`_
 - `https://zeit.de/ (wochenmarkt) <https://www.zeit.de/zeit-magazin/wochenmarkt/index>`_
 - `https://zenbelly.com/ <https://zenbelly.com>`_
 
@@ -354,7 +383,7 @@ Contribute
 
 If you spot a design change (or something else) that makes the scraper unable to work for a given site - please fire an issue asap.
 
-If you are programmer PRs with fixes are warmly welcomed and acknowledged with a virtual beer.
+If you are programmer PRs with fixes are warmly welcomed and acknowledged with a virtual beer. You can find documentation on how to develop scrapers `here <https://github.com/hhursev/recipe-scrapers/blob/main/docs/README.md>`__.
 
 
 If you want a scraper for a new site added
@@ -373,6 +402,8 @@ If you want a scraper for a new site added
 
     - **ClassName**: The name of the new scraper class.
     - **URL**: The URL of an example recipe from the target site. The content will be stored in `test_data` to be used with the test class.
+
+    You can find a more detailed guide `here <https://github.com/hhursev/recipe-scrapers/blob/main/docs/how-to-develop-scraper.md>`__.
 
 
 For Devs / Contribute

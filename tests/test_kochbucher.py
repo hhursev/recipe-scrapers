@@ -5,11 +5,16 @@ from tests import ScraperTest
 
 
 class TestKochbucherScraper(ScraperTest):
-
     scraper_class = Kochbucher
 
     def test_host(self):
         self.assertEqual("kochbucher.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://kochbucher.com/putengeschnetzeltes-mit-reis-und-blattsalat/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("Kochbucher", self.harvester_class.author())
@@ -55,8 +60,8 @@ class TestKochbucherScraper(ScraperTest):
             "Wasser und Cremefine hinzufügen, aufkochen lassen",
             "Gewürze hinzufügen",
         ]
-        instructions_list = self.harvester_class.instructions()
-        self.assertEqual(expected_instructions, instructions_list)
+        expected_instructions = "\n".join(expected_instructions)
+        self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def language(self):
         return "de"

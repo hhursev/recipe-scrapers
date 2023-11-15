@@ -9,8 +9,14 @@ class TestRainbowPlantLifeScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("rainbowplantlife.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://rainbowplantlife.com/vegan-brown-butter-peach-cobbler/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
-        self.assertEqual("Nisha Vora", self.harvester_class.author())
+        self.assertEqual("Nisha", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual(
@@ -89,4 +95,4 @@ class TestRainbowPlantLifeScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.95, self.harvester_class.ratings())
+        self.assertEqual(4.96, self.harvester_class.ratings())

@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestOwenHanScraper(ScraperTest):
-
     scraper_class = OwenHan
 
     def author(self):
@@ -11,6 +10,12 @@ class TestOwenHanScraper(ScraperTest):
 
     def test_host(self):
         self.assertEqual("owen-han.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.owen-han.com/recipes/chicken-bacon-ranch",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual("Chicken Bacon Ranch", self.harvester_class.title())
@@ -44,17 +49,16 @@ class TestOwenHanScraper(ScraperTest):
         )
 
     def test_instructions(self):
-        self.assertEqual(
-            [
-                "Cut the chicken and bacon into even thin strips.",
-                "Place bacon in a skillet over medium heat. Cook until it's almost completely cooked, but not too crispy.",
-                "Remove the bacon and add the chicken to the skillet.",
-                "Season with oregano and lightly with salt. Cook until no longer pink.",
-                "Turn off the heat, add the bacon back to the skillet and combine.",
-                "Add pepper jack on top and cover to melt.",
-                "For the ranch combine all the ingredients to a bowl and mix well to combine.",
-                "Assemble: to a toasted baguette add the chicken and bacon then top with sliced avocado pickled onions, and ranch. Add some mixed greens to the other half. ",
-                "Close the sandwich, cut in half and enjoy!",
-            ],
-            self.harvester_class.instructions(),
-        )
+        expected_instructions = [
+            "Cut the chicken and bacon into even thin strips.",
+            "Place bacon in a skillet over medium heat. Cook until it's almost completely cooked, but not too crispy.",
+            "Remove the bacon and add the chicken to the skillet.",
+            "Season with oregano and lightly with salt. Cook until no longer pink.",
+            "Turn off the heat, add the bacon back to the skillet and combine.",
+            "Add pepper jack on top and cover to melt.",
+            "For the ranch combine all the ingredients to a bowl and mix well to combine.",
+            "Assemble: to a toasted baguette add the chicken and bacon then top with sliced avocado pickled onions, and ranch. Add some mixed greens to the other half. ",
+            "Close the sandwich, cut in half and enjoy!",
+        ]
+        expected_instructions = "\n".join(expected_instructions)
+        self.assertEqual(expected_instructions, self.harvester_class.instructions())

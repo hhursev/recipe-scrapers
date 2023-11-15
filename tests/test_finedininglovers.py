@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestFineDiningLoversScraper(ScraperTest):
-
     scraper_class = FineDiningLovers
 
     def test_host(self):
@@ -29,13 +28,13 @@ class TestFineDiningLoversScraper(ScraperTest):
             [
                 "Zucchini",
                 "Basil",
-                "Pine Nuts",
+                "Pine nuts",
                 "Extra virgin olive oil",
                 "Yeast Flakes",
                 "Garlic",
                 "Salt",
                 "Tomatoes",
-                "Sun Dried Tomatoes",
+                "Sun dried tomatoes",
                 "Extra virgin olive oil",
                 "Salt",
                 "Pepper",

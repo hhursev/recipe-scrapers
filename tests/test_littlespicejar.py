@@ -3,11 +3,16 @@ from tests import ScraperTest
 
 
 class TestLittleSpiceJarScraper(ScraperTest):
-
     scraper_class = LittleSpiceJar
 
     def test_host(self):
         self.assertEqual("littlespicejar.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://littlespicejar.com/crab-cake-bites/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(
@@ -23,7 +28,7 @@ class TestLittleSpiceJarScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://littlespicejar.com/wp-content/uploads/2020/12/Addicting-Mini-Crab-Cake-Bites-1-scaled-720x720.jpg",
+            "https://littlespicejar.com/wp-content/uploads/2020/12/Addicting-Mini-Crab-Cake-Bites-1-720x720.jpg",
             self.harvester_class.image(),
         )
 

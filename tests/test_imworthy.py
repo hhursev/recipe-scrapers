@@ -3,11 +3,16 @@ from tests import ScraperTest
 
 
 class TestImWorthyScraper(ScraperTest):
-
     scraper_class = ImWorthy
 
     def test_host(self):
         self.assertEqual("im-worthy.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://im-worthy.com/almond-flour-pancakes/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("Shana Thomas", self.harvester_class.author())
@@ -24,14 +29,14 @@ class TestImWorthyScraper(ScraperTest):
         )
 
     def test_total_time(self):
-        self.assertEqual(20, self.harvester_class.total_time())
+        self.assertEqual(25, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("2 servings", self.harvester_class.yields())
+        self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
-            "https://www.im-worthy.com/wp-content/uploads/2020/11/Almond-Flour-Pancakes_Blog4.jpg",
+            "https://im-worthy.com/wp-content/uploads/2020/11/Almond-Flour-Pancakes_Blog4.jpg",
             self.harvester_class.image(),
         )
 
@@ -45,7 +50,7 @@ class TestImWorthyScraper(ScraperTest):
                 "1/2 tsp cinnamon (optional) (can sub for vanilla extract)",
                 "pinch of salt",
                 "1 tbsp unsweetened apple sauce or maple syrup (optional)",
-                "1 tsp grapeseed oil (for cooking. Add more, if needed. Can sub for coconut or avocado oil)",
+                "1 tsp coconut oil (for cooking. Add more, if needed. Can sub for avocado oil)",
             ],
             self.harvester_class.ingredients(),
         )

@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestWatchWhatUEatScraper(ScraperTest):
-
     scraper_class = WatchWhatUEat
 
     def test_host(self):
@@ -18,16 +17,14 @@ class TestWatchWhatUEatScraper(ScraperTest):
     def test_title(self):
         self.assertEqual(
             self.harvester_class.title(),
-            "Garlic And Herb Instant Pot Cauliflower With Delicious Gravy",
+            "Healthy Instant Pot Cauliflower With Gravy",
         )
 
     def test_author(self):
-        self.assertEqual(
-            self.harvester_class.author(), "Swati Kadam Gulati | Watch What U Eat"
-        )
+        self.assertEqual(self.harvester_class.author(), "Watch What U Eat")
 
     def test_yields(self):
-        self.assertEqual("5 servings", self.harvester_class.yields())
+        self.assertEqual("4 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(

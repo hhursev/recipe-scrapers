@@ -3,11 +3,16 @@ from tests import ScraperTest
 
 
 class TestAkisPetretzikisScraper(ScraperTest):
-
     scraper_class = AkisPetretzikis
 
     def test_host(self):
         self.assertEqual("akispetretzikis.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://akispetretzikis.com/en/recipe/5453/kotopoylo-lemonato-me-agkinares",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("Akis Petretzikis", self.harvester_class.author())
@@ -15,18 +20,15 @@ class TestAkisPetretzikisScraper(ScraperTest):
     def test_title(self):
         self.assertEqual("Lemon chicken with artichokes", self.harvester_class.title())
 
-    def test_category(self):
-        self.assertEqual(None, self.harvester_class.category())
-
     def test_total_time(self):
         self.assertEqual(40, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("8-10", self.harvester_class.yields())
+        self.assertEqual("10 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
-            "https://d3fch0cwivr6nf.cloudfront.net/system/uploads/medium/data/15973/aginares-lemonates-me-kotopoulo.jpg",
+            "https://akispetretzikis.com/photos/akisrecipes/15973/aginares-lemonates-me-kotopoulo.jpg",
             self.harvester_class.image(),
         )
 
@@ -46,6 +48,10 @@ class TestAkisPetretzikisScraper(ScraperTest):
                 "400 g water",
                 "1 tablespoon(s) chicken stock pot",
                 "2 tablespoon(s) tarragon",
+                "pepper",
+                "olive oil",
+                "lemon",
+                "parsley",
             ],
             self.harvester_class.ingredients(),
         )
@@ -70,9 +76,6 @@ class TestAkisPetretzikisScraper(ScraperTest):
 
     def test_ratings(self):
         self.assertEqual(4.91, self.harvester_class.ratings())
-
-    def test_cuisine(self):
-        self.assertEqual(None, self.harvester_class.cuisine())
 
     def test_description(self):
         self.assertEqual(

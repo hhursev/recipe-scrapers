@@ -3,12 +3,17 @@ from tests import ScraperTest
 
 
 class TestReishungerScraper(ScraperTest):
-
     scraper_class = Reishunger
     test_file_name = "reishunger_1"
 
     def test_host(self):
         self.assertEqual("reishunger.de", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.reishunger.de/rezepte/rezept/2743/crispy-tofu-bowl",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("pommesherz", self.harvester_class.author())

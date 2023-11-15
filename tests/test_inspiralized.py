@@ -1,9 +1,10 @@
+import unittest
+
 from recipe_scrapers.inspiralized import Inspiralized
 from tests import ScraperTest
 
 
 class TestInspiralizedScraper(ScraperTest):
-
     scraper_class = Inspiralized
 
     def test_host(self):
@@ -50,3 +51,8 @@ class TestInspiralizedScraper(ScraperTest):
             "In a large bowl, whisk together the olive oil, apple cider vinegar, honey, and season with salt and pepper. Add the brussels sprouts and apples and toss well. Let sit in the refrigerator for at least 15-20 minutes and then take out and fold in the almonds and half of the Parmesan cheese. Transfer to a serving bowl or plate and top with remaining Parmesan.",
             self.harvester_class.instructions(),
         )
+
+    @unittest.expectedFailure
+    def test_multiple_instructions(self):
+        # override: this test case legitimately does only contain a single instruction in the source HTML
+        super().test_multiple_instructions()

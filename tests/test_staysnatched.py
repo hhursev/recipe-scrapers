@@ -5,11 +5,16 @@ from tests import ScraperTest
 
 
 class TestStaySnatchedScraper(ScraperTest):
-
     scraper_class = StaySnatched
 
     def test_host(self):
         self.assertEqual("staysnatched.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.staysnatched.com/slow-cooker-chili-mac/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(
@@ -60,7 +65,7 @@ class TestStaySnatchedScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            "Heat a skillet on medium-high heat.\nAdd the ground beef and the chili seasoning. Break down the ground beef with a meat chopper.\nStir and cook until the beef is no longer pink. Drain any excess fat from the beef if necessary.\nAdd in the red peppers, green peppers, onions, and garlic. Cook until the vegetables are soft.\nAdd the cooked beef and vegetables to the slow cooker along with the remaining ingredients (with the exception of the cheese).\nCook on Low for 3 to 3 1/2 hours or on High for 1 1/2 to 2 hours. Check in periodically. It has finished cooking when the pasta is soft.\nAbout 10-15 minutes prior to serving, add the cheese to the cooker. Sprinkle it throughout the top.\nAllow 10-15 minutes for the cheese to melt.\nCool before serving.",
+            'Heat a skillet on medium-high heat.\nAdd the ground beef and the chili seasoning. Break down the ground beef with a meat chopper.\nStir and cook until the beef is no longer pink. Drain any excess fat from the beef if necessary.\nAdd in the red peppers, green peppers, onions, and garlic. Cook until the vegetables are soft.\nAdd the cooked beef and vegetables to the slow cooker along with the remaining ingredients (with the exception of the cheese). I use a 7 quart.\nCook on Low for 3 to 3 1/2 hours or on High for 1 1/2 to 2 hours. Check in periodically. It has finished cooking when the pasta is soft. I do not recommend preparing this as a "Keep Warm" recipe. Most slow cookers are still pretty hot when on the "Keep Warm" setting. You risk the pasta turning mushy. If you plan to let the dish sit, add your pasta at the end when the dish is done.\nAbout 10-15 minutes prior to serving, add the cheese to the cooker. Sprinkle it throughout the top.\nAllow 10-15 minutes for the cheese to melt.\nCool before serving.',
             self.harvester_class.instructions(),
         )
 

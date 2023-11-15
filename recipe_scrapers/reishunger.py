@@ -40,7 +40,6 @@ class Reishunger(AbstractScraper):
 
         # iterate through each step in the recipe
         for step in step1.next_siblings:
-
             # check whether the instruction has a list of preparations
             # fixme: this can throw an exception if 'step' is not a bs4 Tag
             try:

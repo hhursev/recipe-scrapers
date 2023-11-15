@@ -1,3 +1,5 @@
+import unittest
+
 from recipe_scrapers.panelinha import Panelinha
 from tests import ScraperTest
 
@@ -9,6 +11,13 @@ class TestPanelinhaScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("panelinha.com.br", self.harvester_class.host())
 
+    @unittest.skip("canonical_url is not available from this webpage")
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://panelinha.com.br/receita/arroz-sirio-com-frango",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual("Arroz sírio com frango", self.harvester_class.title())
 
@@ -16,14 +25,14 @@ class TestPanelinhaScraper(ScraperTest):
         self.assertEqual(self.harvester_class.author(), "Panelinha")
 
     def test_total_time(self):
-        self.assertEqual(0, self.harvester_class.total_time())
+        self.assertEqual(None, self.harvester_class.total_time())
 
     def test_yields(self):
         self.assertEqual("2 servings", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
-            "https://cdn.panelinha.com.br/receita/1433732400000-Arroz-sirio-com-frango.jpg",
+            "https://i.panelinha.com.br/i1/228-q-4303-arroz-sirio-com-frango.webp",
             self.harvester_class.image(),
         )
 
@@ -36,7 +45,7 @@ class TestPanelinhaScraper(ScraperTest):
                 "1 cebola",
                 "1 dente de alho",
                 "2 xícaras (chá) de água",
-                "1 ½ colher (sopa) de azeite",
+                "1½ colher (sopa) de azeite",
                 "½ colher (chá) de pimenta síria",
                 "1 colher (chá) de sal",
                 "1 pitada de açúcar",

@@ -5,11 +5,16 @@ from tests import ScraperTest
 
 
 class TestIzzyCookingScraper(ScraperTest):
-
     scraper_class = IzzyCooking
 
     def test_host(self):
         self.assertEqual("izzycooking.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://izzycooking.com/oreo-cheesecake-bites/",
+            self.harvester_class.canonical_url(),
+        )
 
     def author(self):
         self.assertEqual("izzycooking.com", self.harvester_class.author())
@@ -50,7 +55,7 @@ class TestIzzyCookingScraper(ScraperTest):
         self.assertEqual(expected_instructions, self.harvester_class.instructions())
 
     def test_ratings(self):
-        self.assertEqual(4.92, self.harvester_class.ratings())
+        self.assertEqual(4.93, self.harvester_class.ratings())
 
     def test_cuisine(self):
         self.assertEqual("American", self.harvester_class.cuisine())

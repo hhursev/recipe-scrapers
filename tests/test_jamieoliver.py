@@ -3,17 +3,16 @@ from tests import ScraperTest
 
 
 class TestJamieOliverScraper(ScraperTest):
-
     scraper_class = JamieOliver
+
+    def test_host(self):
+        self.assertEqual("jamieoliver.com", self.harvester_class.host())
 
     def test_canonical_url(self):
         self.assertEqual(
             "https://www.jamieoliver.com/recipes/chocolate-recipes/bloomin-brilliant-brownies/",
             self.harvester_class.canonical_url(),
         )
-
-    def test_host(self):
-        self.assertEqual("jamieoliver.com", self.harvester_class.host())
 
     def test_title(self):
         self.assertEqual(self.harvester_class.title(), "Bloomin' brilliant brownies")
@@ -29,7 +28,7 @@ class TestJamieOliverScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/88_1_1441269331.jpg?tr=w-800,h-1066",
+            "https://cdn.jamieoliver.com/recipe-database/oldImages/medium/88_1_1441269331.jpg",
             self.harvester_class.image(),
         )
 
@@ -38,8 +37,8 @@ class TestJamieOliverScraper(ScraperTest):
             [
                 "200 g quality dark chocolate (70%)",
                 "250 g unsalted butter",
-                "75 g dried sour cherries , optional",
-                "50 g chopped nuts , optional",
+                "75 g dried sour cherries optional",
+                "50 g chopped nuts optional",
                 "80 g quality cocoa powder",
                 "65 g plain flour",
                 "1 teaspoon baking powder",

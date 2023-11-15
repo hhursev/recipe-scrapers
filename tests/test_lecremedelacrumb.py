@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestLeCremeDeLaCrumbScraper(ScraperTest):
-
     scraper_class = LeCremeDeLaCrumb
 
     def test_host(self):
@@ -36,7 +35,7 @@ class TestLeCremeDeLaCrumbScraper(ScraperTest):
         self.assertEqual(
             [
                 "3-4 medium to large boneless skinless chicken breasts",
-                "1 cup chicken broth or water",
+                "1 cup chicken broth (or water)",
                 "1 teaspoon salt",
                 "1 teaspoon ground cumin",
                 "1 teaspoon chili powder",
@@ -55,4 +54,4 @@ class TestLeCremeDeLaCrumbScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.64, self.harvester_class.ratings())
+        self.assertEqual(4.85, self.harvester_class.ratings())

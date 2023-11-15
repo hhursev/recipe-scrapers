@@ -52,7 +52,26 @@ class Lecker(AbstractScraper):
             divs = self.soup.find_all("div", {"class": "js-quizToggle"})
             for d in divs:
                 if d.find("span", "article__shifted-jump-label"):
-                    return normalize_string(d.get_text())
+                    instructions = []
+                    found_content = False
+                    for element in d:
+                        if not element.name:
+                            continue
+
+                        if element.name.startswith("h"):
+                            if "Schritt" in element.text:
+                                found_content = True
+                                continue
+                            elif found_content:
+                                break
+
+                        if not found_content:
+                            continue
+
+                        if element.name == "p" and element.text.strip():
+                            instructions.append(element.text)
+
+                    return "\n".join(instructions)
 
     def ratings(self):
         return self.schema.ratings()
@@ -67,4 +86,5 @@ class Lecker(AbstractScraper):
             return None
 
     def description(self):
-        return self.schema.description()
+        cleaned_description = self.schema.description()
+        return normalize_string(cleaned_description)

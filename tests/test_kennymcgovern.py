@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestKennyMcGovernScraper(ScraperTest):
-
     scraper_class = KennyMcGovern
 
     def test_host(self):
@@ -24,7 +23,7 @@ class TestKennyMcGovernScraper(ScraperTest):
     def test_image(self):
         self.assertEqual(
             self.harvester_class.image(),
-            "https://kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-960x720.jpg",
+            "https://kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg",
         )
 
     def test_total_time(self):
@@ -49,8 +48,8 @@ class TestKennyMcGovernScraper(ScraperTest):
                 "Pinch black pepper",
                 "1 egg",
                 "3 tablespoons milk",
-                "1 skinless, boneless chicken breast fillet around 114g",
-                "vegetable oil for deep frying",
+                "1 skinless, boneless chicken breast fillet (around 114g)",
+                "vegetable oil (for deep frying)",
             ],
             self.harvester_class.ingredients(),
         )

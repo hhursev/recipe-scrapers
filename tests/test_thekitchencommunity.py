@@ -5,11 +5,16 @@ from tests import ScraperTest
 
 
 class TestTheKitchenCommunityScraper(ScraperTest):
-
     scraper_class = TheKitchenCommunity
 
     def test_host(self):
         self.assertEqual("thekitchencommunity.org", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://thekitchencommunity.org/crock-pot-mac-and-cheese/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("Cassie Marshall", self.harvester_class.author())
@@ -51,19 +56,19 @@ class TestTheKitchenCommunityScraper(ScraperTest):
         self.assertEqual(expected_ingredients, self.harvester_class.ingredients())
 
     def test_instructions(self):
-        expected_instructions = """Spray your crockpot with non-stick spray.
-    Rinse your uncooked pasta in a strainer and drain out all the excess water.
-    Add your uncooked pasta to your crockpot along with your milk, cheese, mustard, garlic, salt, pepper, and cayenne. Stir everything well so all the ingredients mix together and make sure the macaroni is in the liquid as much as possible.
-    Add your cubed butter.
-    Cover your crock pot and turn on the low heat and cook for 1 hour. Remove the lid and stir all your ingredients before replacing the lid. Check the consistency because your dish may be done or require an additional 1-2 hours.
-    Check your dish every half hour if it is not done and remember to stir when checking your dish.
-    You will know your mac and cheese is done if the pasta is tender and the liquid is thick and creamy. Once you remove the lid, keep in mind the sauce will thicken even more as the mac and cheese sits."""
+        expected_instructions = (
+            "Spray your crockpot with non-stick spray.\n"
+            "Rinse your uncooked pasta in a strainer and drain out all the excess water.\n"
+            "Add your uncooked pasta to your crockpot along with your milk, cheese, mustard, garlic, salt, pepper, and cayenne. Stir everything well so all the ingredients mix together and make sure the macaroni is in the liquid as much as possible.\n"
+            "Add your cubed butter.\n"
+            "Cover your crock pot and turn on the low heat and cook for 1 hour. Remove the lid and stir all your ingredients before replacing the lid. Check the consistency because your dish may be done or require an additional 1-2 hours.\n"
+            "Check your dish every half hour if it is not done and remember to stir when checking your dish.\n"
+            "You will know your mac and cheese is done if the pasta is tender and the liquid is thick and creamy. Once you remove the lid, keep in mind the sauce will thicken even more as the mac and cheese sits."
+        )
 
-        actual_instructions = self.harvester_class.instructions()
-        expected_lines = [line.strip() for line in expected_instructions.splitlines()]
-        actual_lines = [line.strip() for line in actual_instructions.splitlines()]
-
-        self.assertSequenceEqual(expected_lines, actual_lines)
+        self.assertSequenceEqual(
+            expected_instructions, self.harvester_class.instructions()
+        )
 
     def test_ratings(self):
         self.assertEqual(5, self.harvester_class.ratings())

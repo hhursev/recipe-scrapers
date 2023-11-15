@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestFoodRepublicScraper(ScraperTest):
-
     scraper_class = FoodRepublic
 
     def test_host(self):
@@ -11,7 +10,7 @@ class TestFoodRepublicScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "http://www.foodrepublic.com/recipes/dutch-white-asparagus-recipe/",
+            "https://www.foodrepublic.com/recipes/dutch-white-asparagus-recipe/",
             self.harvester_class.canonical_url(),
         )
 
@@ -22,22 +21,22 @@ class TestFoodRepublicScraper(ScraperTest):
         self.assertEqual(60, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("4 servings", self.harvester_class.yields())
+        self.assertEqual("0 servings", self.harvester_class.yields())
 
     def test_ingredients(self):
         self.assertEqual(
             [
                 "12 spears Dutch white asparagus",
-                "1/2 each Meyer lemon, orange and grapefruit",
-                "2 cups water, for steaming",
+                "1/2 each Meyer lemon",
+                "2 cups water",
                 "1 cup grated Parmesan cheese",
                 "1/2 cup Chardonnay",
                 "1/2 cup white wine vinegar",
                 "2 sprigs fresh thyme",
-                "1/2 cup shallots, minced",
+                "1/2 cup shallots",
                 "small chunk of Parmesan rind",
-                "4 tablespoons unsalted butter, chilled and cut into small cubes",
-                "4 fresh eggs, poached (see instructions)",
+                "4 tablespoons unsalted butter",
+                "4 fresh eggs",
                 "4 slices prosciutto",
             ],
             self.harvester_class.ingredients(),

@@ -11,6 +11,12 @@ class TestFoodFidelity(ScraperTest):
     def test_host(self):
         self.assertEqual("foodfidelity.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.foodfidelity.com/citrus-israeli-couscous/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(
             "Citrus Israeli Couscous Salad With Asparagus and Cranberries",

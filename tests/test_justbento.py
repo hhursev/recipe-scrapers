@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestJustBentoScraper(ScraperTest):
-
     scraper_class = JustBento
 
     def test_host(self):

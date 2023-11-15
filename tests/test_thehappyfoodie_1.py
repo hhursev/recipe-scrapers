@@ -3,12 +3,17 @@ from tests import ScraperTest
 
 
 class TestTheHappyFoodie(ScraperTest):
-
     scraper_class = TheHappyFoodie
     test_file_name = "thehappyfoodie_1"
 
     def test_host(self):
         self.assertEqual("thehappyfoodie.co.uk", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://thehappyfoodie.co.uk/recipes/poulet-roti-au-vin-rouge-roast-red-wine-chicken/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(

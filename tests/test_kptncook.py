@@ -5,7 +5,6 @@ from tests import ScraperTest
 
 
 class TestKptnCookScraper(ScraperTest):
-
     scraper_class = KptnCook
 
     @classmethod
@@ -15,6 +14,12 @@ class TestKptnCookScraper(ScraperTest):
 
     def test_host(self):
         self.assertEqual("mobile.kptncook.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://mobile.kptncook.com/recipe/pinterest/Low-Carb-Tarte-Flamb%C3%A9e-with-Serrano-Ham-%26-Cream-Cheese/315c3c32?lang=en",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual(
@@ -85,10 +90,4 @@ class TestKptnCookScraper(ScraperTest):
         self.assertEqual(
             {"calories": 368, "protein": 34, "fat": 22, "carbohydrate": 9},
             self.harvester_class.nutrients(),
-        )
-
-    def test_canonical_url(self):
-        self.assertEqual(
-            "https://mobile.kptncook.com/recipe/pinterest/Low-Carb-Tarte-Flamb%C3%A9e-with-Serrano-Ham-%26-Cream-Cheese/315c3c32?lang=en",
-            self.harvester_class.canonical_url(),
         )

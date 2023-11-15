@@ -3,11 +3,16 @@ from tests import ScraperTest
 
 
 class TestKoketScraper(ScraperTest):
-
     scraper_class = Koket
 
     def test_host(self):
         self.assertEqual("koket.se", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.koket.se/mitt-kok/tommy-myllymaki/myllymakis-toast-skagen",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("Tommy Myllymäki", self.harvester_class.author())
@@ -37,7 +42,7 @@ class TestKoketScraper(ScraperTest):
                 "6 dl matolja",
                 "1 kruka dill",
                 "10 cm färsk pepparrot, skalad",
-                "4 skiva vitt bröd (ej levain)",
+                "4 skivor vitt bröd (ej levain)",
                 "smör, till stekning",
                 "50 g löjrom",
                 "1 citron",

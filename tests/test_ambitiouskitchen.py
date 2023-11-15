@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestAmbitiousKitchenScraper(ScraperTest):
-
     scraper_class = AmbitiousKitchen
 
     def test_host(self):
@@ -75,4 +74,4 @@ class TestAmbitiousKitchenScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(5.0, self.harvester_class.ratings())
+        self.assertEqual(4.86, self.harvester_class.ratings())

@@ -1,13 +1,21 @@
+import unittest
+
 from recipe_scrapers.innit import Innit
 from tests import ScraperTest
 
 
 class TestInnitScraper(ScraperTest):
-
     scraper_class = Innit
 
     def test_host(self):
         self.assertEqual("innit.com", self.harvester_class.host())
+
+    @unittest.skip("canonical_url is not available from this webpage")
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.innit.com/meal/967/5350/Salads%3A%20Blended-Carrot-Ginger-Dressing%2BAssembled-Broccoli-Beet-Mix%2BSeared-Tofu-Diced%2BOlive-Oil%2BPrepared-Mixed-Greens",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual(
@@ -28,18 +36,18 @@ class TestInnitScraper(ScraperTest):
         self.assertEqual(
             [
                 "2 Carrots",
-                "1 piece Fresh Ginger",
+                "1 piece Ginger",
                 "1/2 Orange",
                 "1 Tbsp Fresh Chives",
                 "2 cups Broccoli",
                 "1 lb Precooked Beets",
                 "2 Tbsp Italian Parsley",
-                "4 cups Fresh Spring Mix",
+                "4 cups Spring Mix",
                 "2 packages Extra Firm Tofu",
                 "1 Tbsp Miso Paste",
                 "1/2 tsp Sesame Seed Oil",
                 "1/2 Tbsp Honey",
-                "1 1/3 tsp Kosher Salt",
+                "1 1/4 tsp Kosher Salt",
                 "2/3 cup Olive Oil",
                 "2 pinches Black Pepper",
                 "1/4 cup Rice Wine Vinegar",
@@ -54,13 +62,13 @@ class TestInnitScraper(ScraperTest):
                 "sugarContent": "18 g",
                 "proteinContent": "32 g",
                 "fiberContent": "11 g",
-                "unsaturatedFatContent": "55 g",
-                "fatContent": "64 g",
+                "unsaturatedFatContent": "53 g",
+                "fatContent": "61 g",
                 "cholesterolContent": "0 mg",
-                "calories": "830 kcal",
+                "calories": "800 kcal",
                 "carbohydrateContent": "34 g",
-                "saturatedFatContent": "9 g",
-                "sodiumContent": "1060 mg",
+                "saturatedFatContent": "8 g",
+                "sodiumContent": "1040 mg",
             },
             self.harvester_class.nutrients(),
         )

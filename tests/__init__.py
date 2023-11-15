@@ -5,7 +5,6 @@ import responses
 
 
 class ScraperTest(unittest.TestCase):
-
     maxDiff = None
     test_file_name: Optional[str] = None
     test_file_extension = "testhtml"
@@ -60,3 +59,16 @@ class ScraperTest(unittest.TestCase):
             grouped.extend(group.ingredients)
 
         self.assertEqual(sorted(self.harvester_class.ingredients()), sorted(grouped))
+
+    def test_multiple_instructions(self):
+        # Assert that the instructions_list() method returns more than one item;
+        # this implicitly also confirms that instructions() returns a newline-separated
+        # value of type 'str'
+        instructions = self.harvester_class.instructions_list()
+        message = (
+            "Most recipes contain more than one instruction, but this recipe test "
+            "did not.  Please check the implementation (and source HTML) and either "
+            "fix the code, or override this method in your test module if you are sure "
+            "this is the expected behaviour."
+        )
+        self.assertGreater(len(instructions), 1, message)

@@ -3,11 +3,16 @@ from tests import ScraperTest
 
 
 class TestFranzoesischKochenScraper(ScraperTest):
-
     scraper_class = FranzoesischKochen
 
     def test_host(self):
         self.assertEqual("franzoesischkochen.de", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.franzoesischkochen.de/tourte-mit-feigen-und-confit-de-canard/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("Aurélie Bastian", self.harvester_class.author())

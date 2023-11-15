@@ -1,9 +1,10 @@
+import unittest
+
 from recipe_scrapers.allrecipes import AllRecipesCurated, AllRecipesUser
 from tests import ScraperTest
 
 
 class TestAllRecipesCuratedScraper(ScraperTest):
-
     scraper_class = AllRecipesCurated
 
     def test_host(self):
@@ -81,7 +82,6 @@ class TestAllRecipesCuratedScraper(ScraperTest):
 
 
 class TestAllRecipesUserScraper(ScraperTest):
-
     scraper_class = AllRecipesUser
 
     def test_host(self):
@@ -141,3 +141,8 @@ class TestAllRecipesUserScraper(ScraperTest):
 
     def test_category(self):
         self.assertEqual(None, self.harvester_class.category())
+
+    @unittest.expectedFailure
+    def test_multiple_instructions(self):
+        # override: this test case legitimately does only contain a single instruction in the source HTML
+        super().test_multiple_instructions()

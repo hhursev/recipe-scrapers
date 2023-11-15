@@ -3,18 +3,23 @@ from tests import ScraperTest
 
 
 class TestPopSugarScraper(ScraperTest):
-
     scraper_class = PopSugar
 
     def test_host(self):
         self.assertEqual("popsugar.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.popsugar.com/Rainbow-Pasta-42193636",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual("Rainbow Pasta", self.harvester_class.title())
 
     def test_image(self):
         self.assertEqual(
-            "https://media1.popsugar-assets.com/files/thumbor/QpXN5ex3L8WRyMBIBlypdBwKX-Q/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2016/09/02/018/n/1922195/f31877d9_5cdf801a_Rainbow_Pasta_HERO/i/Rainbow-Pasta-Food-Video.jpg",
+            "https://media1.popsugar-assets.com/files/thumbor/QpXN5ex3L8WRyMBIBlypdBwKX-Q/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2016/09/02/018/n/1922195/f31877d9_5cdf801a_Rainbow_Pasta_HERO/i/Rainbow-Pasta.jpg",
             self.harvester_class.image(),
         )
 

@@ -1,9 +1,10 @@
+import unittest
+
 from recipe_scrapers.farmhousedelivery import FarmhouseDelivery
 from tests import ScraperTest
 
 
 class TestFarmhouseDeliveryScraper(ScraperTest):
-
     scraper_class = FarmhouseDelivery
     test_file_name = "farmhousedelivery_1"
 
@@ -12,7 +13,7 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "http://recipes.farmhousedelivery.com/green-shakshuka/",
+            "https://recipes.farmhousedelivery.com/green-shakshuka/",
             self.harvester_class.canonical_url(),
         )
 
@@ -27,11 +28,11 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
                 "2 Tbsp. olive oil",
                 "1 jalapeno, seeded and minced",
                 "4 big handfuls greens (mix kale & spinach), chopped and washed",
-                "1/2 c cream",
+                "1/2 cup cream",
                 "4 eggs",
                 "Salt & pepper",
                 "Plain yogurt, for serving",
-                "Sriracha or other hot sauce, for serving",
+                "Hot sauce, for serving",
             ],
             self.harvester_class.ingredients(),
         )
@@ -51,3 +52,8 @@ class TestFarmhouseDeliveryScraper(ScraperTest):
             "http://recipesfhd.wpengine.com/wp-content/uploads/2020/04/no-blob_clean-handle-1024x683.jpg",
             self.harvester_class.image(),
         )
+
+    @unittest.expectedFailure
+    def test_multiple_instructions(self):
+        # override: this test case legitimately does only contain a single instruction in the source HTML
+        super().test_multiple_instructions()

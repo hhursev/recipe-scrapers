@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestGialloZafferanoScraper(ScraperTest):
-
     scraper_class = GialloZafferano
 
     def test_host(self):
@@ -36,7 +35,7 @@ class TestGialloZafferanoScraper(ScraperTest):
                 "Baccello di vaniglia ½",
                 "Limoni ½",
                 "Sale fino 1 pizzico",
-                "Fragole 1.1 kg",
+                "Fragole 1,1 kg",
                 "Gelatina in fogli 18 g",
                 "Panna fresca liquida 500 ml",
                 "Panna fresca liquida 150 ml",
@@ -52,4 +51,4 @@ class TestGialloZafferanoScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.0, self.harvester_class.ratings())
+        self.assertEqual(3.9, self.harvester_class.ratings())

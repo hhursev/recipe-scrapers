@@ -45,12 +45,12 @@ def score_sentence_similarity(first: str, second: str) -> float:
         # so the score is 0
         return 0
 
-    firest_bigrams = set([first[i : i + 2] for i in range(len(first) - 1)])
+    first_bigrams = set([first[i : i + 2] for i in range(len(first) - 1)])
     second_bigrams = set([second[i : i + 2] for i in range(len(second) - 1)])
 
-    intersection = firest_bigrams & second_bigrams
+    intersection = first_bigrams & second_bigrams
 
-    return 2.0 * len(intersection) / (len(firest_bigrams) + len(second_bigrams))
+    return 2.0 * len(intersection) / (len(first_bigrams) + len(second_bigrams))
 
 
 def best_match(test_string: str, target_strings: List[str]) -> str:
@@ -100,8 +100,8 @@ def group_ingredients(
     ----------
     ingredients_list : List[str]
         List of ingredients extracted by recipe scraper
-    soup : TYPE
-        Description
+    soup : BeautifulSoup
+        Parsed page HTML markup as BeautifulSoup object
     group_heading : str
         CSS selector for ingredient group heading
     group_element : str
@@ -113,11 +113,26 @@ def group_ingredients(
         List of IngredientGroup objects.
         Each object represents a group of ingredients and their purpose.
 
+    Raises
+    -------
+    ValueError
+        Raise ValueError is the number of ingredients found by the CSS selector does
+        not match the number of ingredients in ingredients_list.
     """
+
+    # Check the number of ingredients found in the HTML markup matches the
+    # number in ingredients_list
+    found_ingredients = soup.select(group_element)
+    if len(found_ingredients) != len(ingredients_list):
+        raise ValueError(
+            f"Found {len(found_ingredients)} grouped ingredients but was expecting to find {len(ingredients_list)}."
+        )
+
     groupings: Dict[Optional[str], List[str]] = {None: []}
     current_heading = None
 
-    # Find all elemement matching the heading and ingredient selectors
+    # Find all elemement matching the heading and ingredient selectors, in the order they appear
+    # in the HTML markup
     elements = soup.select(",".join([group_heading, group_element]))
     for el in elements:
         if el in el.parent.select(group_heading):

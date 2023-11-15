@@ -33,6 +33,7 @@ class TestTheKitchenMagPie(ScraperTest):
                 "1 cup seasoned fine breadcrumbs",
                 "½ cup onion (finely chopped)",
                 "1 tsp dill weed",
+                "1/2 cup milk",
                 "2 large eggs (beaten)",
                 "1 tablespoon lemon juice",
                 "½ tsp salt",
@@ -43,6 +44,6 @@ class TestTheKitchenMagPie(ScraperTest):
 
     def test_instructions(self):
         return self.assertEqual(
-            "Preheat your oven to 375 °F. Grease a baking sheet and set aside.\nDrain the salmon well and if desired, remove any skin and bones from the salmon. You can leave them in, some people love those the best! They will bake right in, don't worry.\nFlake the salmon with a fork and then mix with the breadcrumbs, onion, dill, egg, lemon juice, salt and pepper.\nWith clean hands, shape into a loaf on the greased baking sheet.\nBake for 40-50 minutes OR until nicely browned AND reaches an internal temperature of at least 165 °F.\nLet cool for 5 minutes, then slice and serve. Garnish with fresh parsley and lemon wedges. This is excellent with lemon juice squeezed on top!",
+            "Preheat your oven to 375 °F. Grease a baking sheet and set aside.\nDrain the salmon well and if desired, remove any skin and bones from the salmon. You can leave them in, some people love those the best! They will bake right in, don't worry.\nFlake the salmon with a fork and then mix with the breadcrumbs, onion, milk, dill, eggs, lemon juice, salt and pepper.\nWith clean hands, shape into a loaf on the greased baking sheet.\nBake for 40-50 minutes OR until nicely browned AND reaches an internal temperature of at least 165 °F.\nLet cool for 5 minutes, then slice and serve. Garnish with fresh parsley and lemon wedges. This is excellent with lemon juice squeezed on top!",
             self.harvester_class.instructions(),
         )

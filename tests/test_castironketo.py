@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestCastIronKetoScraper(ScraperTest):
-
     scraper_class = CastIronKeto
 
     def test_host(self):
@@ -35,12 +34,12 @@ class TestCastIronKetoScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "1 ½ lbs cooked shredded chicken breast",
+                "1 ½ pounds cooked shredded chicken breast",
                 "4 green onions (chopped)",
                 "1 teaspoon garlic salt",
                 "½ teaspoon onion powder",
                 "½ teaspoon paprika",
-                "8 oz cream cheese (softened)",
+                "8 ounces cream cheese (softened)",
                 "½ cup heavy cream",
                 "¼ cup chicken broth",
                 "5 jalapeno peppers (halved (ribs removed if you like less spice))",

@@ -10,7 +10,7 @@ class IG(AbstractScraper):
         return "receitas.ig.com.br"
 
     def title(self):
-        return self.soup.find("h2", {"itemprop": "name"}).get_text()
+        return self.schema.title()
 
     def author(self):
         nav = self.soup.find("nav", {"class": "nav-mais-receitas"})
@@ -20,11 +20,7 @@ class IG(AbstractScraper):
                 return first.find("a").get_text()
 
     def total_time(self):
-        container = self.soup.find("div", {"class": "box-info-preparacao"})
-        if not container:
-            return None
-        else:
-            return int(container.find("span", {"class": "valor"}).get_text())
+        return self.schema.total_time()
 
     def yields(self):
         container = self.soup.find("div", {"class": "box-info-rendimento"})
@@ -34,19 +30,10 @@ class IG(AbstractScraper):
             return get_yields(container.find("span", {"class": "valor"}).get_text())
 
     def image(self):
-        container = self.soup.find("div", {"class": "box-img-receita"})
-        if not container:
-            return None
-
-        image = container.find("img", {"src": True})
-        return image["src"] if image else None
+        return self.schema.image()
 
     def ingredients(self):
-        ingredients = self.soup.find("ul", {"class", "lista-ingredientes"}).findAll(
-            "li"
-        )
-
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        return self.schema.ingredients()
 
     def instructions(self):
         instructions = self.soup.find("div", {"class": "box-preparo"})

@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestHEBScraper(ScraperTest):
-
     scraper_class = HEB
 
     def test_host(self):
@@ -11,7 +10,7 @@ class TestHEBScraper(ScraperTest):
 
     def test_canonical_url(self):
         self.assertEqual(
-            "https://www.heb.com/recipe/recipe-item/truffled-spaghetti-squash/1398755977632",
+            "https://www.heb.com/recipe/recipe-detail/truffled-spaghetti-squash",
             self.harvester_class.canonical_url(),
         )
 
@@ -30,10 +29,10 @@ class TestHEBScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "1 large spaghetti squash",
-                "1 Tsp Sabatino Truffle salt",
-                "4 Tbsp unsalted butter",
-                "1 Tbsp Rustico Truffle Oil",
+                "1 Large spaghetti squash",
+                "1 tsp Truffle salt",
+                "4 Tbsp Unsalted butter",
+                "1 Tbsp White truffle oil",
             ],
             self.harvester_class.ingredients(),
         )
@@ -53,6 +52,6 @@ class TestHEBScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://images.heb.com/is/image/HEBGrocery/rcp-thumbnail/spicy-spaghetti-squash-boats-recipe.jpg",
+            "https://images.heb.com/is/image/HEBGrocery/Test/truffled-spaghetti-squash-recipe.jpg",
             self.harvester_class.image(),
         )

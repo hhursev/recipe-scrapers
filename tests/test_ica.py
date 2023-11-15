@@ -3,11 +3,16 @@ from tests import ScraperTest
 
 
 class TestIcaScraper(ScraperTest):
-
     scraper_class = Ica
 
     def test_host(self):
         self.assertEqual("ica.se", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.ica.se/recept/lysande-gul-fiskgryta-1677/",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("ICA Köket", self.harvester_class.author())
@@ -26,7 +31,7 @@ class TestIcaScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_63144/cf_259/lysande_gul_fiskgryta.jpg",
+            "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_243155/cf_259/lysande_gul_fiskgryta.jpg",
             self.harvester_class.image(),
         )
 
@@ -35,20 +40,20 @@ class TestIcaScraper(ScraperTest):
             [
                 "400 g torskfilé, sej eller hoki",
                 "300 g laxfilé",
-                "1/2 purjolök",
+                "1/2 purjolök (1/2 purjolök motsvarar ca 150 g)",
                 "1/2 gul lök",
-                "1 msk smör",
+                "1 msk smör eller olivolja",
                 "1 vitlöksklyfta",
                 "1 1/2 tsk tomatpuré",
-                "1 tsk timjan",
-                "1 tsk basilika",
+                "1 tsk torkad timjan",
+                "1 tsk torkad basilika",
                 "2 1/2 dl torrt vitt vin",
                 "1 1/2 fiskbuljongtärning",
-                "2 dl vispgrädde",
-                "1 dl crème fraiche",
+                "2 - 2 1/2 dl Oatly iMat eller vispgrädde",
+                "1 dl Oatly iMat Fraiche eller crème fraiche",
                 "2 dl vatten",
                 "1 pkt saffran (à 0,5 g)",
-                "1 1/2 tsk salt",
+                "1 tsk salt",
                 "300 g räkor med skal",
                 "1 burk musslor (à 150 g)",
                 "ev. bröd och vitlöksmajonnäs",
@@ -58,15 +63,12 @@ class TestIcaScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            "Tina fisken om den är fryst. Skölj och strimla purjon. Skala och hacka löken.\n"
-            "Smält smöret i en stor gryta eller tjockbottnad kastrull. Fräs löken och purjol"
-            "öken ett par minuter tills de blivit glansiga och genomskinliga. Pressa i vitlö"
-            "k. Rör ner tomatpuré, timjan och basilika. Låt detta fräsa med en kort stund.\n"
-            "Tillsätt vin och buljongtärning. Koka ett par minuter. Rör ner grädde, crème fr"
-            "aiche, vatten och saffran. Sjud i 15 minuter. Smaka av med salt.\nSkär fisken i"
-            " munsbitar, lägg i grytan och sjud i ytterligare 7 minuter.\nSkala räkorna. Til"
-            "lsätt dem och de avrunna musslorna.\xa0\nServeringsförslag:\xa0Hetta upp och se"
-            "rvera genast, gärna med bröd och vitlöksmajonnäs.",
+            "Tina fisken (om fryst används). Skölj, ansa och strimla purjon. Skala och hacka löken.\n"
+            "Smält smöret i en stor gryta eller tjockbottnad kastrull. Fräs löken och purjolöken (spara lite till servering) ett par minuter tills de blivit glansiga och genomskinliga. Pressa i vitlök. Rör ner tomatpuré, timjan och basilika. Låt detta fräsa med en kort stund.\n"
+            "Tillsätt vin och buljongtärning. Koka ett par minuter. Rör ner grädde, fraiche, vatten och saffran. Sjud i 15 minuter. Smaka av med salt.\n"
+            "Skär fisken i munsbitar, lägg i grytan och sjud i ytterligare 7 minuter.\n"
+            "Skala räkorna. Tillsätt dem och de avrunna musslorna. Toppa soppan med purjolöksstrimlor.\n"
+            "Serveringsförslag: Hetta upp och servera genast, gärna med bröd och vitlöksmajonnäs.",
             self.harvester_class.instructions(),
         )
 

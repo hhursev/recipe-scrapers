@@ -3,11 +3,16 @@ from tests import ScraperTest
 
 
 class TestEthanChlebowskiScraper(ScraperTest):
-
     scraper_class = EthanChlebowski
 
     def test_host(self):
         self.assertEqual("ethanchlebowski.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.ethanchlebowski.com/cooking-techniques-recipes/huevos-rancheros",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_author(self):
         self.assertEqual("Ethan Chlebowski", self.harvester_class.author())

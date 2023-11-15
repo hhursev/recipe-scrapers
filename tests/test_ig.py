@@ -1,9 +1,10 @@
+import unittest
+
 from recipe_scrapers.ig import IG
 from tests import ScraperTest
 
 
 class TestIGScraper(ScraperTest):
-
     scraper_class = IG
 
     def test_host(self):
@@ -49,7 +50,6 @@ class TestIGScraper(ScraperTest):
                 "3 colheres (sopa) de salsinha picada",
                 "Arroz branco para acompanhar",
                 "Batata palha",
-                "",
             ],
             self.harvester_class.ingredients(),
         )
@@ -59,3 +59,11 @@ class TestIGScraper(ScraperTest):
             "Em uma panela com o azeite, refogue a cebola e o alho até que a cebola comece a murchar. Junte os cogumelos, o limão, e o catchup. Cozinhe por 5 a 10 minutos. Adicione o caldo e cozinhe por mais 5 minutos. Junte a maisena e deixe ferver até engrossar ligeiramente. Por último, adicione o creme de leite, tempere e junte a salsinha. Sirva com arroz e batata palha.",
             self.harvester_class.instructions(),
         )
+
+    def test_language(self):
+        self.assertEqual("pt-BR", self.harvester_class.language())
+
+    @unittest.expectedFailure
+    def test_multiple_instructions(self):
+        # override: this test case legitimately does only contain a single instruction in the source HTML
+        super().test_multiple_instructions()

@@ -5,11 +5,16 @@ from tests import ScraperTest
 
 
 class TestgesundaktivScraper(ScraperTest):
-
     scraper_class = GesundAktiv
 
     def test_host(self):
         self.assertEqual("gesund-aktiv.com", self.harvester_class.host())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.gesund-aktiv.com/rezepte/fruehstueck/suesse-spinat-pancakes",
+            self.harvester_class.canonical_url(),
+        )
 
     def test_title(self):
         self.assertEqual("Süße Spinat-Pancakes", self.harvester_class.title())
@@ -39,24 +44,26 @@ class TestgesundaktivScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            [
-                "1 Zu Beginn müssen der gefrorene Spinat und die gefrorenen Blaubeeren zum "
-                "Auftauen beiseite gelegt werden. Dies am besten eine Stunde vorher "
-                "erledigen. Dann aus dem aufgetauten Spinat das Wasser herauspressen. "
-                "Anschließend Spinat zusammen mit Milch und Quark zu einer feinen, grünen "
-                "Masse vermixen.",
-                "2 Nun die Eier unter die Spinat-Masse mischen uns salzen. Im Anschluss wird "
-                "das Dinkelmehl hinzugegeben und so lange verrührt bis ein klumpenfreier Teig "
-                "entsteht.",
-                "3 Etwas Rapsöl in einer beschichteten Pfanne auf mittlerer Stufe erhitzen. "
-                "Jeweils eine kleine Kelle Teig in die Pfanne geben. Von beiden Seiten etwas "
-                "anbraten lassen bis kleine Bläschen entstehen und je nach gewünschter Bräune "
-                "immer wieder wenden. Tipp: Mit kleinen, für die Pfanne geeigneten "
-                "Dessertringen lassen sich die Pancakes ganz einfach in Form halten.",
-                "4 Die fertigen Spinat-Pancakes mit zwei Esslöffeln Joghurt und ein wenig "
-                "Honig beträufeln. Anschließend mit den aufgetauten Blaubeeren servieren und "
-                "genießen.",
-            ],
+            "\n".join(
+                [
+                    "1 Zu Beginn müssen der gefrorene Spinat und die gefrorenen Blaubeeren zum "
+                    "Auftauen beiseite gelegt werden. Dies am besten eine Stunde vorher "
+                    "erledigen. Dann aus dem aufgetauten Spinat das Wasser herauspressen. "
+                    "Anschließend Spinat zusammen mit Milch und Quark zu einer feinen, grünen "
+                    "Masse vermixen.",
+                    "2 Nun die Eier unter die Spinat-Masse mischen uns salzen. Im Anschluss wird "
+                    "das Dinkelmehl hinzugegeben und so lange verrührt bis ein klumpenfreier Teig "
+                    "entsteht.",
+                    "3 Etwas Rapsöl in einer beschichteten Pfanne auf mittlerer Stufe erhitzen. "
+                    "Jeweils eine kleine Kelle Teig in die Pfanne geben. Von beiden Seiten etwas "
+                    "anbraten lassen bis kleine Bläschen entstehen und je nach gewünschter Bräune "
+                    "immer wieder wenden. Tipp: Mit kleinen, für die Pfanne geeigneten "
+                    "Dessertringen lassen sich die Pancakes ganz einfach in Form halten.",
+                    "4 Die fertigen Spinat-Pancakes mit zwei Esslöffeln Joghurt und ein wenig "
+                    "Honig beträufeln. Anschließend mit den aufgetauten Blaubeeren servieren und "
+                    "genießen.",
+                ]
+            ),
             self.harvester_class.instructions(),
         )
 

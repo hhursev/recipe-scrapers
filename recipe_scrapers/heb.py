@@ -9,27 +9,30 @@ class HEB(AbstractScraper):
         return f"heb.{domain}"
 
     def title(self):
-        return self.soup.find("h1", {"class": "title"}).get_text()
+        title_tag = self.soup.find("h1", {"data-qe-id": "recipeTitle"})
+        return title_tag.get_text()
 
     def total_time(self):
-        minutes_tag = self.soup.find("div", {"itemprop": "totalTime"})
-        return get_minutes(minutes_tag.parent.get_text())
+        total_time_tag = self.soup.find("span", {"data-qe-id": "recipeTotalTime"})
+        return get_minutes(total_time_tag.get_text())
 
     def yields(self):
-        yields_tag = self.soup.find("div", {"itemprop": "recipeYield"})
-        return get_yields(yields_tag.parent.get_text())
+        yields_tag = self.soup.find("p", {"data-qe-id": "recipeServingSize"})
+        return get_yields(yields_tag.get_text())
 
     def ingredients(self):
-        ingredients_container = self.soup.find(class_="ingredientswrapper")
-        ingredients = ingredients_container.findAll("div", {"class": "recipestepstxt"})
+        ingredients_container = self.soup.find(
+            "div", {"data-qe-id": "recipeIngredientsContainer"}
+        )
+        ingredients = ingredients_container.findAll("li")
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def _instructions_list(self):
-        instructions_container = self.soup.find("div", {"class": "instructions"})
-        instructions = instructions_container.findAll(
-            "span", {"class": "instructiontxt"}
+        instructions_container = self.soup.find(
+            "div", {"data-qe-id": "recipeInstructionsContainer"}
         )
+        instructions = instructions_container.findAll("li")
         return [
             normalize_string(instruction.get_text()) for instruction in instructions
         ]

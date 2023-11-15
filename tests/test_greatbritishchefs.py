@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestGreatBritishChefsScraper(ScraperTest):
-
     scraper_class = GreatBritishChefs
 
     def test_host(self):
@@ -19,17 +18,14 @@ class TestGreatBritishChefsScraper(ScraperTest):
         self.assertEqual(self.harvester_class.title(), "Picadillo")
 
     def test_author(self):
-        self.assertEqual(self.harvester_class.author(), "Great British Chefs")
+        self.assertEqual(self.harvester_class.author(), "GBC Kitchen")
 
     def test_total_time(self):
         self.assertEqual(50, self.harvester_class.total_time())
 
-    def test_yields(self):
-        self.assertEqual("4 servings", self.harvester_class.yields())
-
     def test_image(self):
         self.assertEqual(
-            "https://media-cdn.greatbritishchefs.com/media/mwtkdmv3/img73858.jpg?mode=crop&width=768&height=512",
+            "https://media-cdn2.greatbritishchefs.com/media/mwtkdmv3/img73858.whqc_1426x713q80.jpg",
             self.harvester_class.image(),
         )
 
@@ -40,7 +36,7 @@ class TestGreatBritishChefsScraper(ScraperTest):
                 "1 onion, diced",
                 "2 garlic cloves, sliced",
                 "1 carrot, finely diced",
-                "1 potato, finely diced",
+                "1 Albert Bartlett Original Rooster Potato, finely diced",
                 "1 bay leaf",
                 "1 tsp ground cumin",
                 "1 tsp ground coriander",

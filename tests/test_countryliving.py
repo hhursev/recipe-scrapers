@@ -1,52 +1,60 @@
+# mypy: allow-untyped-defs
+
 from recipe_scrapers.countryliving import CountryLiving
 from tests import ScraperTest
 
 
 class TestCountryLivingScraper(ScraperTest):
-
     scraper_class = CountryLiving
 
     def test_host(self):
         self.assertEqual("countryliving.com", self.harvester_class.host())
 
-    def test_canonical_url(self):
-        self.assertEqual(
-            "https://www.countryliving.com/food-drinks/a32042602/roasted-mushroom-and-bacon-dutch-baby/",
-            self.harvester_class.canonical_url(),
-        )
+    def test_author(self):
+        self.assertEqual("Christopher Michel", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual(
-            self.harvester_class.title(), "Roasted Mushroom and Bacon Dutch Baby"
+            "Honey-Apple Baked Brie with Fried Sage", self.harvester_class.title()
+        )
+
+    def test_category(self):
+        self.assertEqual(
+            "autumn,cocktail party,appetizers", self.harvester_class.category()
         )
 
     def test_total_time(self):
-        self.assertEqual(70, self.harvester_class.total_time())
+        self.assertEqual(35, self.harvester_class.total_time())
 
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())
 
-    def test_ingredients(self):
+    def test_image(self):
         self.assertEqual(
-            [
-                "1 lb. mixed mushrooms (such as cremini, beech, or shiitake), roughly chopped 4 slices bacon, sliced",
-                "3 large eggs",
-                "1 clove garlic, chopped",
-                "3/4 c. whole milk",
-                "3 tbsp. unsalted butter, melted, divided",
-                "1/2 c. all-purpose flour, spooned and leveled",
-                "2 tbsp. cornstarch",
-                "Kosher salt",
-                "1 tbsp. fresh thyme",
-                "2 oz. fontina or Cheddar cheese, grated (about 1/2 cup)",
-                "1 scallion, thinly sliced",
-                "2 tbsp. chopped flat-leaf parsley",
-            ],
-            self.harvester_class.ingredients(),
+            "https://hips.hearstapps.com/hmg-prod/images/honey-apple-baked-brie-with-fried-sage-1663854012.jpg?crop=1.00xw:0.803xh;0,0.177xh&resize=1200:*",
+            self.harvester_class.image(),
         )
 
+    def test_ingredients(self):
+        expected_ingredients = [
+            "1 (8-ounce) wheel Brie",
+            "1/2 sheet all-butter puff pastry (such as Dufour), thawed",
+            "2 tbsp. apple butter",
+            "1 tbsp. pure honey",
+            "1 large egg, beaten",
+            "2 tbsp. unsalted butter",
+            "4 tsp. pure maple syrup",
+            "1 Honeycrisp apple, sliced",
+            "Canola oil, for frying",
+            "12 fresh sage leaves",
+            "Kosher salt",
+            "Crackers, for serving",
+        ]
+        self.assertEqual(expected_ingredients, self.harvester_class.ingredients())
+
     def test_instructions(self):
-        return self.assertEqual(
-            "Set oven racks in middle and upper positions. Preheat oven to 450°F. Place mushrooms and bacon on a rimmed baking sheet. Place on top rack in oven while preheating, and roast, stirring once, until mushrooms are golden brown, 25 to 30 minutes. Place a 10-inch cast-iron skillet on middle rack and heat 15 minutes.\nPlace eggs and garlic in a blender. Process on high until frothy, 45 seconds. With blender running, gradually add milk and 2 tablespoons butter; stop blender. Add flour, cornstarch, and 1/4 teaspoon salt; process 1 minute. Fold in thyme.\nCarefully add remaining tablespoon butter to heated skillet and swirl to coat. Immediately add batter. Bake until golden brown and puffed, 14 to 16 minutes. Sprinkle with cheese and bake until melted, 3 to 5 minutes.\nTop with mushroom mixture, scallions, and parsley.",
-            self.harvester_class.instructions(),
-        )
+        expected_instructions = "Preheat oven to 425°F. Line a rimmed baking sheet with parchment paper. Place cheese on puff pastry and cut off top rind. Top with apple butter and honey. Fold pastry up around cheese, pinching to seal. Place on prepared baking sheet; brush with egg. Bake until golden brown, 20 to 25 minutes.\nMeanwhile, melt butter and syrup in a large skillet over medium heat. Add apples and cook, stirring occasionally, until soft, 9 to 11 minutes. Transfer to a bowl; clean out skillet.\nLine a plate with paper towels. Heat 1/8 inch oil in skillet over medium-high heat. Add sage and press into oil to fully coat. Fry just until leaves are crisp, 10 to 20 seconds. Transfer to prepared plate. Season with salt."
+        self.assertEqual(expected_instructions, self.harvester_class.instructions())
+
+    def test_ratings(self):
+        self.assertEqual(5.0, self.harvester_class.ratings())

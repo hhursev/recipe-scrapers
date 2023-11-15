@@ -3,14 +3,19 @@ from tests import ScraperTest
 
 
 class TestYemekScraper(ScraperTest):
-
     scraper_class = Yemek
 
     def test_host(self):
         self.assertEqual("yemek.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://yemek.com/tarif/kori-soslu-tavuklu-patates-toplari/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
-        self.assertEqual("Yasemin Gürsürer", self.harvester_class.author())
+        self.assertEqual("Yasemin Özaltın", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual(
@@ -62,4 +67,4 @@ class TestYemekScraper(ScraperTest):
         )
 
     def test_ratings(self):
-        self.assertEqual(4.5, self.harvester_class.ratings())
+        self.assertEqual(5.0, self.harvester_class.ratings())

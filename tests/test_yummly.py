@@ -3,7 +3,6 @@ from tests import ScraperTest
 
 
 class TestYummlyScraper(ScraperTest):
-
     scraper_class = Yummly
 
     def test_host(self):

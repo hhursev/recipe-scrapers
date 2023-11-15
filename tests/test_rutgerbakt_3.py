@@ -11,6 +11,12 @@ class TestRutgerBaktScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("rutgerbakt.nl", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://rutgerbakt.nl/sinterklaas-recepten/recept-banketstaaf/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Rutger van den Broek", self.harvester_class.author())
 
@@ -42,7 +48,7 @@ class TestRutgerBaktScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            "Verwarm de oven voor op 220 ⁰C en bekleed een bakplaat met bakpapier. Kneed het amandelspijs kort door en voeg vervolgens een half ei toe om het amandelspijs iets soepeler te maken. Maak twee rollen van het amandelspijs van zo’n 32-34 centimeter lang.\nRol het bladerdeeg uit en snijd het deeg in de lengte doormidden. Leg op het midden van ieder stuk bladerdeeg een rol amandelspijs en vouw de twee korte uiteinden van het deeg over het amandelspijs. Bestrijk deze twee uiteinden licht met water. Vouw één lange kant van het deeg over het amandelspijs en maak ook deze licht vochtig. Vouw tot slot de andere kant van het deeg over de rol amandelspijs en druk dit goed vast. Leg de banketstaven met de deegnaad naar beneden op de bakplaat en laat ze 20 minuten rusten in de koelkast.\nBestrijk de banketstaven met het losgeklopte ei en bak ze in 25 tot 35 minuten goudbruin. Laat de banketstaven afkoelen op een rooster.\n\n\nDit bericht is gesponsord door Tante Fanny.\n",
+            "Verwarm de oven voor op 200 ⁰C en bekleed een bakplaat met bakpapier. Kneed het amandelspijs kort door en voeg vervolgens een half ei toe om het amandelspijs iets soepeler te maken. Maak twee rollen van het amandelspijs van zo’n 32-34 centimeter lang.\nRol het bladerdeeg uit en snijd het deeg in de lengte doormidden. Leg op het midden van ieder stuk bladerdeeg een rol amandelspijs en vouw de twee korte uiteinden van het deeg over het amandelspijs. Bestrijk deze twee uiteinden licht met water. Vouw één lange kant van het deeg over het amandelspijs en maak ook deze licht vochtig. Vouw tot slot de andere kant van het deeg over de rol amandelspijs en druk dit goed vast. Leg de banketstaven met de deegnaad naar beneden op de bakplaat en laat ze 20 minuten rusten in de koelkast.\nBestrijk de banketstaven met het losgeklopte ei en bak ze in 25 tot 35 minuten goudbruin. Laat de banketstaven afkoelen op een rooster.\nDit bericht is gesponsord door Tante Fanny.",
             self.harvester_class.instructions(),
         )
 

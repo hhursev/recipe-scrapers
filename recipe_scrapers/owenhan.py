@@ -19,5 +19,8 @@ class OwenHan(AbstractScraper):
     def ingredients(self):
         return [x for x in map(lambda x: x.text, self.soup.select("ul > li"))]
 
-    def instructions(self):
+    def instructions_list(self):
         return [x for x in map(lambda x: x.text, self.soup.select("ol > li"))]
+
+    def instructions(self):
+        return "\n".join(self.instructions_list())
