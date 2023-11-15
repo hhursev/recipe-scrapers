@@ -13,7 +13,7 @@ class CookTalk(AbstractScraper):
         author_element = self.soup.find("div", {"class": "article-content"}).find(
             "a", {"href": lambda x: x and "recipe_author" in x}
         )
-        return author_element.get_text() if author_element else None
+        return author_element.get_text()
 
     def title(self):
         return self.schema.title()
