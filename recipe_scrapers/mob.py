@@ -6,7 +6,7 @@ from ._abstract import AbstractScraper
 from ._schemaorg import SchemaOrg
 
 
-class MobKitchen(AbstractScraper):
+class Mob(AbstractScraper):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
@@ -21,7 +21,7 @@ class MobKitchen(AbstractScraper):
         self.schema = SchemaOrg(recipe_schema, raw=True)
 
     @classmethod
-    def host(cls, domain="mobkitchen.co.uk"):
+    def host(cls, domain="mob.co.uk"):
         return domain
 
     def author(self):
