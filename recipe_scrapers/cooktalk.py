@@ -1,6 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 
 
 class CookTalk(AbstractScraper):
@@ -27,6 +28,14 @@ class CookTalk(AbstractScraper):
 
     def ingredients(self):
         return self.schema.ingredients()
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            "div.ingredient-label",
+            "ul#zlrecipe-ingredients-list li.ingredient",
+        )
 
     def instructions(self):
         return self.schema.instructions()
