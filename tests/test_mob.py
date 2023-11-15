@@ -1,4 +1,4 @@
-from recipe_scrapers.mobkitchen import MobKitchen
+from recipe_scrapers.mob import Mob
 from tests import ScraperTest
 
 
