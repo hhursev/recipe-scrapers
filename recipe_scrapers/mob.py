@@ -6,7 +6,7 @@ from ._abstract import AbstractScraper
 from ._schemaorg import SchemaOrg
 
 
-class MobKitchen(AbstractScraper):
+class Mob(AbstractScraper):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
