@@ -105,4 +105,4 @@ class CoopSE(AbstractScraper):
         return None
 
     def description(self):
-        return self.data["preamble"]
+        return self.data["preamble"] or None
