@@ -1,12 +1,12 @@
-from recipe_scrapers.mobkitchen import MobKitchen
+from recipe_scrapers.mob import Mob
 from tests import ScraperTest
 
 
-class TestMobKitchenScraper(ScraperTest):
-    scraper_class = MobKitchen
+class TestMobScraper(ScraperTest):
+    scraper_class = Mob
 
     def test_host(self):
-        self.assertEqual("mobkitchen.co.uk", self.harvester_class.host())
+        self.assertEqual("mob.co.uk", self.harvester_class.host())
 
     def test_canonical_url(self):
         self.assertEqual(

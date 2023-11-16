@@ -17,7 +17,7 @@ class TestAmazingRibsScraper(ScraperTest):
         )
 
     def test_author(self):
-        self.assertEqual("Meathead, BBQ Hall of Famer", self.harvester_class.author())
+        self.assertEqual("Clint Cantwell", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual("Brisket Burnt Ends Recipe", self.harvester_class.title())

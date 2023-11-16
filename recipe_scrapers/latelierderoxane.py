@@ -9,9 +9,7 @@ class LAtelierDeRoxane(AbstractScraper):
         return "latelierderoxane.com"
 
     def image(self):
-        return self.soup.find("meta", {"property": "og:image", "content": True}).get(
-            "content"
-        )
+        return self.schema.image()
 
     def title(self):
         div = self.soup.find("div", {"class": "bloc_titreh1 bloc_blog"})

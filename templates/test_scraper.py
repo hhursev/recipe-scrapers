@@ -10,6 +10,10 @@ class TestTemplateScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("example.com", self.harvester_class.host())
 
+    # @unittest.skip("canonical_url is not available from this webpage")
+    def canonical_url(self):
+        self.assertEqual("example.com/recipe-url", self.harvester_class.host())
+
     def test_title(self):
         self.assertEqual(None, self.harvester_class.title())
 

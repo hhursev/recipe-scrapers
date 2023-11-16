@@ -9,11 +9,7 @@ class RedHouseSpice(AbstractScraper):
         return "redhousespice.com"
 
     def author(self):
-        author_tag = self.soup.find("span", class_="wprm-recipe-author")
-        if author_tag:
-            return author_tag.text
-
-        return "Red House Spice"
+        return self.schema.author()
 
     def title(self):
         return self.schema.title()

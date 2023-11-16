@@ -1,8 +1,7 @@
 # mypy: disallow_untyped_defs=False
-import re
 
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
+from ._utils import normalize_string
 
 
 class SunBasket(AbstractScraper):
@@ -11,21 +10,16 @@ class SunBasket(AbstractScraper):
         return f"sunbasket.{domain}"
 
     def title(self):
-        return self.soup.find("h1").get_text()
+        return self.schema.title()
 
     def total_time(self):
-        minutes_tag = self.soup.find("span", string=re.compile(r"Minutes"))
-        return get_minutes(minutes_tag.parent.get_text())
+        return self.schema.total_time()
 
     def yields(self):
-        yields_tag = self.soup.find("span", string=re.compile(r"Servings,"))
-        return get_yields(yields_tag.parent.get_text())
+        return self.schema.yields()
 
     def ingredients(self):
-        ingredients_container = self.soup.find(class_="ingredients-list")
-        ingredients = ingredients_container.findAll("li")
-
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        return self.schema.ingredients()
 
     def _instructions_list(self):
         instructions_container = self.soup.find(
@@ -55,9 +49,4 @@ class SunBasket(AbstractScraper):
         return "\n".join(data) if data else None
 
     def image(self):
-        container = self.soup.find("div", {"class": "recipe-image-container"})
-        if not container:
-            return None
-
-        image = container.find("img", {"src": True})
-        return image["src"] if image else None
+        return self.schema.image()

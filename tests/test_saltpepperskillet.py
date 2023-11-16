@@ -10,6 +10,12 @@ class TestSaltPepperSkilletScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("saltpepperskillet.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://saltpepperskillet.com/recipes/smoked-chicken/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_author(self):
         self.assertEqual("Justin", self.harvester_class.author())
 

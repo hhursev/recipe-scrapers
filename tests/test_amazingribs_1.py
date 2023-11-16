@@ -19,7 +19,7 @@ class TestAmazingRibsScraper(ScraperTest):
         self.assertEqual("Texas Hot Guts Recipe", self.harvester_class.title())
 
     def test_author(self):
-        self.assertEqual(self.harvester_class.author(), "Meathead, BBQ Hall of Famer")
+        self.assertEqual(self.harvester_class.author(), "meathead")
 
     def test_total_time(self):
         self.assertEqual(165, self.harvester_class.total_time())

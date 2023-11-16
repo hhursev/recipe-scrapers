@@ -7,7 +7,6 @@
 
 
 from ._abstract import AbstractScraper
-from ._utils import normalize_string
 
 
 class CopyKat(AbstractScraper):
@@ -40,6 +39,4 @@ class CopyKat(AbstractScraper):
         return self.schema.ratings()
 
     def description(self):
-        d = normalize_string(self.soup.find("span", {"style": "display: block;"}).text)
-
-        return d if d else None
+        return self.schema.description()

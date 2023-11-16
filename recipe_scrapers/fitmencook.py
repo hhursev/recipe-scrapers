@@ -9,8 +9,7 @@ class FitMenCook(AbstractScraper):
         return "fitmencook.com"
 
     def title(self):
-        title = self.soup.find("h1", {"class": "fmc_title_1"}).get_text()
-        return title
+        return self.schema.title()
 
     def total_time(self):
         total_time_element = self.soup.find("div", {"class": "fmc_total"})
@@ -40,18 +39,4 @@ class FitMenCook(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions_div = self.soup.find("div", {"class": "fmc_steps"})
-        if instructions_div:
-            step_elements = instructions_div.findAll("div", {"class": "fmc_sr_step"})
-
-            instructions_list = []
-            for step_element in step_elements:
-                step_content = step_element.find("div", {"class": "fmc_step_content"})
-                if step_content:
-                    instruction_text = normalize_string(
-                        step_content.find("p").get_text()
-                    )
-                    instructions_list.append(instruction_text)
-
-            if instructions_list:
-                return "\n".join(instructions_list)
+        return self.schema.instructions()

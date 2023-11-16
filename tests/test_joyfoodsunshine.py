@@ -48,12 +48,14 @@ class TestJoyfoodsunshineScraper(ScraperTest):
     def test_instructions(self):
         self.assertEqual(
             "Preheat oven to 500 degrees F. Put a pizza stone in the oven while it preheats, and let it warm at 500 degrees F for at least 10 minutes.*\n"
+            "Make the Pizza Dough\n"
             "Combine warm water, yeast and sugar in a large mixing bowl and stir to combine.\n"
             "Let mixture sit for 5 minutes, or until it becomes frothy and bubbles form.\n"
             "Gently stir in olive oil.\n"
             "Add 2 cups of flour and salt and mix with a spatula until a ball begins to form (dough will still be slightly sticky). Add more flour as needed to form a dough ball.\n"
             "Transfer to a floured surface and knead into a smooth dough, adding up to ½ cup extra flour if needed.\n"
             "Optional. if desired, cover the bowl with a damp tea towel and let it rise for 10 minutes or up to 1 hour.\n"
+            "Assemble the pizza\n"
             "Roll the dough into your desired shape and put it on a piece of parchment paper.\n"
             "Add pizza sauce, cheese and toppings of choice.\n"
             "Use a pizza peel to transfer the pizza to the preheated pizza stone in the oven.\n"

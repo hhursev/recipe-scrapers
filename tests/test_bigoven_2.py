@@ -41,20 +41,20 @@ class TestBigOven(ScraperTest):
 
     def test_ingredients(self):
         expected_ingredients = [
-            "8 tablespoons Butter ; at room temp",
+            "8 tablespoons Butter at room temp",
             "3/4 cup Sugar",
             "1 1/4 cups Flour",
             "1/4 teaspoon Baking soda",
             "1 teaspoon Baking Powder",
             "1/4 teaspoon Kosher salt",
-            "2 Eggs ; at room temp",
+            "2 Eggs at room temp",
             "1/4 cup Sour cream",
             "1/2 teaspoon Raspberry extract",
             "1/3 cup White chocolate chips",
             "1/2 cup cream cheese",
             "1 cup sifted powdered sugar",
             "1/2 teaspoon vanilla extract",
-            "1/4 cup butter ; room temp.",
+            "1/4 cup butter room temp.",
             "1/2 pint fresh raspberries",
         ]
         self.assertEqual(expected_ingredients, self.harvester_class.ingredients())
@@ -64,13 +64,13 @@ class TestBigOven(ScraperTest):
             [
                 IngredientGroup(
                     ingredients=[
-                        "8 tablespoons Butter ; at room temp",
+                        "8 tablespoons Butter at room temp",
                         "3/4 cup Sugar",
                         "1 1/4 cups Flour",
                         "1/4 teaspoon Baking soda",
                         "1 teaspoon Baking Powder",
                         "1/4 teaspoon Kosher salt",
-                        "2 Eggs ; at room temp",
+                        "2 Eggs at room temp",
                         "1/4 cup Sour cream",
                         "1/2 teaspoon Raspberry extract",
                         "1/3 cup White chocolate chips",
@@ -82,7 +82,7 @@ class TestBigOven(ScraperTest):
                         "1/2 cup cream cheese",
                         "1 cup sifted powdered sugar",
                         "1/2 teaspoon vanilla extract",
-                        "1/4 cup butter ; room temp.",
+                        "1/4 cup butter room temp.",
                         "1/2 pint fresh raspberries",
                     ],
                     purpose="Icing:",

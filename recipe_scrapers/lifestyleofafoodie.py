@@ -10,10 +10,7 @@ class LifestyleOfAFoodie(AbstractScraper):
         return "lifestyleofafoodie.com"
 
     def author(self):
-        entry_author = self.soup.find("span", {"class": "entry-author-name"})
-
-        if entry_author:
-            return entry_author.get_text()
+        return self.schema.author()
 
     def title(self):
         return self.schema.title()

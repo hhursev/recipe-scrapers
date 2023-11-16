@@ -10,7 +10,7 @@ class TheMagicalSlowCooker(AbstractScraper):
         return "themagicalslowcooker.com"
 
     def author(self):
-        return self.soup.find("span", {"class": "entry-author-name"}).get_text()
+        return self.schema.author()
 
     def title(self):
         return self.schema.title()

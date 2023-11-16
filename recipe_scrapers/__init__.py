@@ -50,6 +50,7 @@ from .cookieandkate import CookieAndKate
 from .cookingcircle import CookingCircle
 from .cookinglight import CookingLight
 from .cookpad import CookPad
+from .cooktalk import CookTalk
 from .copykat import CopyKat
 from .costco import Costco
 from .countryliving import CountryLiving
@@ -156,7 +157,7 @@ from .mindmegette import Mindmegette
 from .minimalistbaker import Minimalistbaker
 from .ministryofcurry import MinistryOfCurry
 from .misya import Misya
-from .mobkitchen import MobKitchen
+from .mob import Mob
 from .momswithcrockpots import MomsWithCrockPots
 from .monsieurcuisine import MonsieurCuisine
 from .motherthyme import MotherThyme
@@ -172,6 +173,7 @@ from .nourishedbynutrition import NourishedByNutrition
 from .nrkmat import NRKMat
 from .number2pencil import Number2Pencil
 from .nutritionbynathalie import NutritionByNathalie
+from .nutritionfacts import NutritionFacts
 from .nytimes import NYTimes
 from .ohsheglows import OhSheGlows
 from .omnivorescookbook import OmnivoresCookbook
@@ -248,7 +250,6 @@ from .thekitchenmagpie import TheKitchenMagPie
 from .thekitchn import TheKitchn
 from .themagicalslowcooker import TheMagicalSlowCooker
 from .themodernproper import TheModernProper
-from .thenutritiouskitchen import TheNutritiousKitchen
 from .thepioneerwoman import ThePioneerWoman
 from .therecipecritic import Therecipecritic
 from .thespruceeats import TheSpruceEats
@@ -281,6 +282,7 @@ from .wikicookbook import WikiCookbook
 from .woop import Woop
 from .yemek import Yemek
 from .yummly import Yummly
+from .zaubertopf import ZauberTopf
 from .zeitwochenmarkt import ZeitWochenmarkt
 from .zenbelly import ZenBelly
 
@@ -326,6 +328,7 @@ SCRAPERS = {
     ComidinhasDoChef.host(): ComidinhasDoChef,
     CookEatShare.host(): CookEatShare,
     CookPad.host(): CookPad,
+    CookTalk.host(): CookTalk,
     CookieAndKate.host(): CookieAndKate,
     CookingCircle.host(): CookingCircle,
     CookingLight.host(): CookingLight,
@@ -339,6 +342,7 @@ SCRAPERS = {
     Delish.host(): Delish,
     ElaVegan.host(): ElaVegan,
     GrandFrais.host(): GrandFrais,
+    NutritionFacts.host(): NutritionFacts,
     Thinlicious.host(): Thinlicious,
     DomesticateMe.host(): DomesticateMe,
     Downshiftology.host(): Downshiftology,
@@ -453,8 +457,8 @@ SCRAPERS = {
     Minimalistbaker.host(): Minimalistbaker,
     MinistryOfCurry.host(): MinistryOfCurry,
     Misya.host(): Misya,
-    MobKitchen.host(domain="mob.co.uk"): MobKitchen,
-    MobKitchen.host(domain="mobkitchen.co.uk"): MobKitchen,
+    Mob.host(domain="mob.co.uk"): Mob,
+    Mob.host(domain="mobkitchen.co.uk"): Mob,
     MomsWithCrockPots.host(): MomsWithCrockPots,
     MonsieurCuisine.host(): MonsieurCuisine,
     MotherThyme.host(): MotherThyme,
@@ -548,7 +552,6 @@ SCRAPERS = {
     TheKitchn.host(): TheKitchn,
     TheMagicalSlowCooker.host(): TheMagicalSlowCooker,
     TheModernProper.host(): TheModernProper,
-    TheNutritiousKitchen.host(): TheNutritiousKitchen,
     ThePioneerWoman.host(): ThePioneerWoman,
     TheSpruceEats.host(): TheSpruceEats,
     TheVintageMixer.host(): TheVintageMixer,
@@ -580,6 +583,7 @@ SCRAPERS = {
     WikiCookbook.host(): WikiCookbook,
     Yemek.host(): Yemek,
     Yummly.host(): Yummly,
+    ZauberTopf.host(): ZauberTopf,
     ZeitWochenmarkt.host(): ZeitWochenmarkt,
     ZenBelly.host(): ZenBelly,
     GesundAktiv.host(): GesundAktiv,

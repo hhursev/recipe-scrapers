@@ -8,6 +8,12 @@ class TestTheExpertGuidesScraper(ScraperTest):
     def test_host(self):
         self.assertEqual("theexpertguides.com", self.harvester_class.host())
 
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://theexpertguides.com/nz/coconut-milk-pasta-sauce-in-new-zealand/",
+            self.harvester_class.canonical_url(),
+        )
+
     def test_title(self):
         self.assertEqual(
             "Coconut Milk Pasta Sauce Recipe", self.harvester_class.title()

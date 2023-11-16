@@ -24,9 +24,7 @@ class TestWildMode(ScraperTest):
         )
 
     def test_title(self):
-        self.assertEqual(
-            self.harvester_class.title(), "Summer Tomato Risotto with Saffron"
-        )
+        self.assertEqual(self.harvester_class.title(), "Tomato Risotto with Saffron")
 
     def test_yields(self):
         self.assertEqual("4 servings", self.harvester_class.yields())
@@ -78,7 +76,7 @@ class TestWildMode(ScraperTest):
 
     def test_description(self):
         return self.assertEqual(
-            "Summer Tomato Risotto with juicy vine-ripened tomatoes, and infused with saffron, can be served as a vegetarian main or side dish, or topped off with smoky shrimp.",
+            "Tomato Risotto with juicy vine-ripened tomatoes, and infused with saffron, can be served as a vegetarian main or side dish, or topped off with smoky shrimp.",
             self.harvester_class.description(),
         )
 
@@ -92,4 +90,6 @@ class TestWildMode(ScraperTest):
         return self.assertEqual(15, self.harvester_class.prep_time())
 
     def test_author(self):
-        return self.assertEqual("Sylvia Fountaine", self.harvester_class.author())
+        return self.assertEqual(
+            "Sylvia Fountaine | feasting at home", self.harvester_class.author()
+        )

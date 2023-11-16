@@ -10,17 +10,8 @@ class SaltPepperSkillet(AbstractScraper):
         return self.schema.title()
 
     def author(self):
-        author = self._extract_author()
-        return author if author else self.schema.title()
-
-    def _extract_author(self):
-        author_tag = self.soup.find("div", {"class": "sps-publish-date-wrap"})
-
-        if author_tag:
-            author_link = author_tag.find("a", href=lambda x: x and "author" in x)
-            if author_link:
-                author_name = author_link.get_text()
-                return author_name
+        author_name = self.schema.author()
+        return author_name.capitalize()
 
     def category(self):
         return self.schema.category()

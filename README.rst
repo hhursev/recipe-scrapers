@@ -61,6 +61,7 @@ then:
     scraper.to_json()
     scraper.links()
     scraper.nutrients()  # if available
+    scraper.canonical_url()  # also not always available
 
 Notes:
 
@@ -115,6 +116,7 @@ Scrapers available for:
 - `https://cookinglight.com/ <https://cookinglight.com/>`_
 - `https://cookpad.com/ <https://cookpad.com/>`_
 - `https://cookstr.com/ <https://cookstr.com>`_
+- `https://cook-talk.com/ <https://cook-talk.com/>`_
 - `https://www.coop.se/ <https://www.coop.se/>`_
 - `https://copykat.com/ <https://copykat.com>`_
 - `https://www.costco.com/ <https://www.costco.com>`_
@@ -225,7 +227,7 @@ Scrapers available for:
 - `https://minimalistbaker.com/ <https://minimalistbaker.com/>`_
 - `https://ministryofcurry.com/ <https://ministryofcurry.com/>`_
 - `https://misya.info/ <https://misya.info>`_
-- `https://www.mobkitchen.co.uk/ <https://www.mobkitchen.co.uk/>`_
+- `https://www.mob.co.uk/ <https://www.mob.co.uk/>`_
 - `https://momswithcrockpots.com/ <https://momswithcrockpots.com>`_
 - `https://monsieur-cuisine.com/ <https://monsieur-cuisine.com>`_
 - `http://motherthyme.com/ <http://motherthyme.com/>`_
@@ -242,6 +244,7 @@ Scrapers available for:
 - `https://www.nrk.no/ <https://www.nrk.no/>`_
 - `https://www.number-2-pencil.com/ <https://www.number-2-pencil.com/>`_
 - `https://nutritionbynathalie.com/blog <https://nutritionbynathalie.com/blog>`_
+- `https://nutritionfacts.org/ <https://nutritionfacts.org/>`_
 - `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
 - `https://ohsheglows.com/ <https://ohsheglows.com>`_
 - `https://omnivorescookbook.com <https://omnivorescookbook.com>`_
@@ -317,7 +320,6 @@ Scrapers available for:
 - `https://thekitchn.com/ <https://thekitchn.com/>`_
 - `https://www.themagicalslowcooker.com/ <https://www.themagicalslowcooker.com/>`_
 - `https://themodernproper.com/ <https://themodernproper.com/>`_
-- `https://thenutritiouskitchen.co/ <https://thenutritiouskitchen.co/>`_
 - `https://thepioneerwoman.com/ <https://thepioneerwoman.com>`_
 - `https://therecipecritic.com/ <https://therecipecritic.com>`_
 - `https://thespruceeats.com/ <https://thespruceeats.com/>`_
@@ -348,6 +350,7 @@ Scrapers available for:
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `https://yemek.com/ <https://yemek.com>`_
 - `https://yummly.com/ <https://yummly.com>`_
+- `https://www.zaubertopf.de <https://www.zaubertopf.de>`_
 - `https://zeit.de/ (wochenmarkt) <https://www.zeit.de/zeit-magazin/wochenmarkt/index>`_
 - `https://zenbelly.com/ <https://zenbelly.com>`_
 
