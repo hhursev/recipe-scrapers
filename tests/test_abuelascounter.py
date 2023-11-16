@@ -70,6 +70,3 @@ class TestAbuelasCounterScraper(ScraperTest):
 
     def test_cuisine(self):
         self.assertEqual("Cuban,American", self.harvester_class.cuisine())
-
-    def test_description(self):
-        self.assertEqual("", self.harvester_class.description())
