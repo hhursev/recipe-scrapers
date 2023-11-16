@@ -71,7 +71,7 @@ class CoopSE(AbstractScraper):
                 if quantity.endswith(".0"):
                     quantity = quantity[:-2]
                 unit = i["unit"]
-                if not unit == "":
+                if unit:
                     unit = " {}".format(unit)
                 pre_preparation = i["prePreparation"]
                 if not pre_preparation == "":
