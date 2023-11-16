@@ -43,6 +43,21 @@ def generate_scraper_test(class_name, host_name, url):
             target.write(state.result())
 
 
+def generate_secondary_scraper_test(original_class_name, class_name, host_name, url):
+    with open("templates/test_scraper.py") as source:
+        code = source.read()
+        program = ast.parse(code)
+
+        state = GenerateTestScraperState(original_class_name, host_name, url, code)
+        for node in ast.walk(program):
+            if not state.step(node):
+                break
+
+        output = f"tests/test_{class_name.lower()}.py"
+        with open(output, "w") as target:
+            target.write(state.result())
+
+
 def init_scraper(class_name):
     with open("recipe_scrapers/__init__.py", "r+") as source:
         code = source.read()
@@ -271,14 +286,15 @@ def main():
 
     class_name = sys.argv[1]
     url = sys.argv[2]
-    host_name = get_host_name(url).split(".")[0]
+    host_name = get_host_name(url)
+    original_class_name = class_name.split("_")[0]
 
     host_exists = False
     with open("recipe_scrapers/__init__.py", "r") as source:
         code = source.read()
-        if host_name.lower() in code.lower():
+        if original_class_name.lower() in code.lower():
             host_exists = True
-            message = f"Host {host_name} already exists."
+            message = f"Host {original_class_name} already exists."
             if "_" in class_name:
                 message += " Skipping scraper and __init__ entry generation."
             print(message)
@@ -288,8 +304,12 @@ def main():
         if not host_exists:
             generate_scraper(class_name, host_name)
             init_scraper(class_name)
-        if "_" in class_name:
             generate_scraper_test(class_name, host_name, url)
+            generate_test_data(class_name, testhtml)
+        if "_" in class_name:
+            generate_secondary_scraper_test(
+                original_class_name, class_name, host_name, url
+            )
             generate_test_data(class_name, testhtml)
 
 
