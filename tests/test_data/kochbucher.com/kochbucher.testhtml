@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" >
+<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+
+<link rel="shortcut icon" href="https://kochbucher.com/wp-content/uploads/2023/04/favicon-1.png" /><link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://kochbucher.com/feed/" />
+<link rel="alternate" type="text/xml" title="RSS .92" href="https://kochbucher.com/feed/rss/" />
+<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://kochbucher.com/feed/atom/" />
+<link rel="pingback" href="https://kochbucher.com/xmlrpc.php" />
+
+<meta property="og:image" content="https://kochbucher.com/wp-content/uploads/2023/07/360032370_811443810387852_6360593443735502032_n-1000x600.jpg" />
+<meta name="twitter:image" content="https://kochbucher.com/wp-content/uploads/2023/07/360032370_811443810387852_6360593443735502032_n-1000x600.jpg" />
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content="Zutaten 500 g Putenfleisch 1 Zwiebel 1 EL Tomatenmark 50 Rohschinkenwürfel light 1 EL Speisestärke 250 ml Cremefine 200 ml Wasser 1 TL Tessiner Kräuter Gewürzmischung Pfeffer Salz Etwas Öl zum Anbraten Zubereitung &#8211; Zwiebel würfeln, Fleisch in Streifen schneiden &#8211; Gemeinsam in etwas Öl rundherum braun anbraten &#8211; Tomatenmark hinzufügen, kurz anrösten &#8211; Schinkenwürfel [&hellip;]" />
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://kochbucher.com/putengeschnetzeltes-mit-reis-und-blattsalat/">
+<meta name="twitter:title" content="Putengeschnetzeltes mit Reis und Blattsalat">
+<meta name="twitter:description" content="Zutaten 500 g Putenfleisch 1 Zwiebel 1 EL Tomatenmark 50 Rohschinkenwürfel light 1 EL Speisestärke 250 ml Cremefine 200 ml Wasser 1 TL Tessiner Kräuter Gewürzmischung Pfeffer Salz Etwas Öl zum Anbraten Zubereitung &#8211; Zwiebel würfeln, Fleisch in Streifen schneiden &#8211; Gemeinsam in etwas Öl rundherum braun anbraten &#8211; Tomatenmark hinzufügen, kurz anrösten &#8211; Schinkenwürfel [&hellip;]">
+
+
+<title>Putengeschnetzeltes mit Reis und Blattsalat &#8211; Kochbucher</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//netdna.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Kochbucher &raquo; Feed" href="https://kochbucher.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Kochbucher &raquo; Comments Feed" href="https://kochbucher.com/comments/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/kochbucher.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='https://kochbucher.com/wp-includes/css/dist/block-library/style.min.css?ver=6.3.1' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='dashicons-css' href='https://kochbucher.com/wp-includes/css/dashicons.min.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='post-views-counter-frontend-css' href='https://kochbucher.com/wp-content/plugins/post-views-counter/css/frontend.min.css?ver=1.3.13' type='text/css' media='all' />
+<link rel='stylesheet' id='mvp-reset-css' href='https://kochbucher.com/wp-content/themes/flex-mag/css/reset.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mvp-fontawesome-css' href='//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mvp-style-css' href='https://kochbucher.com/wp-content/themes/flex-mag/style.css?ver=6.3.1' type='text/css' media='all' />
+<!--[if lt IE 10]>
+<link rel='stylesheet' id='mvp-iecss-css' href='https://kochbucher.com/wp-content/themes/flex-mag/css/iecss.css?ver=6.3.1' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='mvp-fonts-css' href='//fonts.googleapis.com/css?family=Oswald%3A400%2C700%7CLato%3A400%2C700%7CWork+Sans%3A900%7CMontserrat%3A400%2C700%7COpen+Sans%3A800%7CPlayfair+Display%3A400%2C700%2C900%7CQuicksand%7CRaleway%3A200%2C400%2C700%7CRoboto+Slab%3A400%2C700%7CWork+Sans%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CMontserrat%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CWork+Sans%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CLato%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CMontserrat%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%26subset%3Dlatin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Cvietnamese' type='text/css' media='all' />
+<link rel='stylesheet' id='mvp-media-queries-css' href='https://kochbucher.com/wp-content/themes/flex-mag/css/media-queries.css?ver=6.3.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://kochbucher.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://kochbucher.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://kochbucher.com/wp-json/" /><link rel="alternate" type="application/json" href="https://kochbucher.com/wp-json/wp/v2/posts/3734" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://kochbucher.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.3.1" />
+<link rel="canonical" href="https://kochbucher.com/putengeschnetzeltes-mit-reis-und-blattsalat/" />
+<link rel='shortlink' href='https://kochbucher.com/?p=3734' />
+<link rel="alternate" type="application/json+oembed" href="https://kochbucher.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkochbucher.com%2Fputengeschnetzeltes-mit-reis-und-blattsalat%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://kochbucher.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkochbucher.com%2Fputengeschnetzeltes-mit-reis-und-blattsalat%2F&#038;format=xml" />
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7745957064640489"
+     crossorigin="anonymous"></script>
+<style type='text/css'>
+
+#wallpaper {
+	background: url() no-repeat 50% 0;
+	}
+body,
+.blog-widget-text p,
+.feat-widget-text p,
+.post-info-right,
+span.post-excerpt,
+span.feat-caption,
+span.soc-count-text,
+#content-main p,
+#commentspopup .comments-pop,
+.archive-list-text p,
+.author-box-bot p,
+#post-404 p,
+.foot-widget,
+#home-feat-text p,
+.feat-top2-left-text p,
+.feat-wide1-text p,
+.feat-wide4-text p,
+#content-main table,
+.foot-copy p,
+.video-main-text p {
+	font-family: 'Lato', sans-serif;
+	}
+
+a,
+a:visited,
+.post-info-name a {
+	color: #eb0254;
+	}
+
+a:hover {
+	color: #999999;
+	}
+
+.fly-but-wrap,
+span.feat-cat,
+span.post-head-cat,
+.prev-next-text a,
+.prev-next-text a:visited,
+.prev-next-text a:hover {
+	background: #eb0254;
+	}
+
+.fly-but-wrap {
+	background: #eb0254;
+	}
+
+.fly-but-wrap span {
+	background: #ffffff;
+	}
+
+.woocommerce .star-rating span:before {
+	color: #eb0254;
+	}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
+	background-color: #eb0254;
+	}
+
+.woocommerce span.onsale,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover {
+	background-color: #eb0254;
+	}
+
+span.post-header {
+	border-top: 4px solid #eb0254;
+	}
+
+#main-nav-wrap,
+nav.main-menu-wrap,
+.nav-logo,
+.nav-right-wrap,
+.nav-menu-out,
+.nav-logo-out,
+#head-main-top {
+	-webkit-backface-visibility: hidden;
+	background: #eb0254;
+	}
+
+nav.main-menu-wrap ul li a,
+.nav-menu-out:hover ul li:hover a,
+.nav-menu-out:hover span.nav-search-but:hover i,
+.nav-menu-out:hover span.nav-soc-but:hover i,
+span.nav-search-but i,
+span.nav-soc-but i {
+	color: #ffffff;
+	}
+
+.nav-menu-out:hover li.menu-item-has-children:hover a:after,
+nav.main-menu-wrap ul li.menu-item-has-children a:after {
+	border-color: #ffffff transparent transparent transparent;
+	}
+
+.nav-menu-out:hover ul li a,
+.nav-menu-out:hover span.nav-search-but i,
+.nav-menu-out:hover span.nav-soc-but i {
+	color: #fdacc8;
+	}
+
+.nav-menu-out:hover li.menu-item-has-children a:after {
+	border-color: #fdacc8 transparent transparent transparent;
+	}
+
+.nav-menu-out:hover ul li ul.mega-list li a,
+.side-list-text p,
+.row-widget-text p,
+.blog-widget-text h2,
+.feat-widget-text h2,
+.archive-list-text h2,
+h2.author-list-head a,
+.mvp-related-text a {
+	color: #222222;
+	}
+
+ul.mega-list li:hover a,
+ul.side-list li:hover .side-list-text p,
+ul.row-widget-list li:hover .row-widget-text p,
+ul.blog-widget-list li:hover .blog-widget-text h2,
+.feat-widget-wrap:hover .feat-widget-text h2,
+ul.archive-list li:hover .archive-list-text h2,
+ul.archive-col-list li:hover .archive-list-text h2,
+h2.author-list-head a:hover,
+.mvp-related-posts ul li:hover .mvp-related-text a {
+	color: #999999 !important;
+	}
+
+span.more-posts-text,
+a.inf-more-but,
+#comments-button a,
+#comments-button span.comment-but-text {
+	border: 1px solid #eb0254;
+	}
+
+span.more-posts-text,
+a.inf-more-but,
+#comments-button a,
+#comments-button span.comment-but-text {
+	color: #eb0254 !important;
+	}
+
+#comments-button a:hover,
+#comments-button span.comment-but-text:hover,
+a.inf-more-but:hover,
+span.more-posts-text:hover {
+	background: #eb0254;
+	}
+
+nav.main-menu-wrap ul li a,
+ul.col-tabs li a,
+nav.fly-nav-menu ul li a,
+.foot-menu .menu li a {
+	font-family: 'Montserrat', sans-serif;
+	}
+
+.feat-top2-right-text h2,
+.side-list-text p,
+.side-full-text p,
+.row-widget-text p,
+.feat-widget-text h2,
+.blog-widget-text h2,
+.prev-next-text a,
+.prev-next-text a:visited,
+.prev-next-text a:hover,
+span.post-header,
+.archive-list-text h2,
+#woo-content h1.page-title,
+.woocommerce div.product .product_title,
+.woocommerce ul.products li.product h3,
+.video-main-text h2,
+.mvp-related-text a {
+	font-family: 'Montserrat', sans-serif;
+	}
+
+.feat-wide-sub-text h2,
+#home-feat-text h2,
+.feat-top2-left-text h2,
+.feat-wide1-text h2,
+.feat-wide4-text h2,
+.feat-wide5-text h2,
+h1.post-title,
+#content-main h1.post-title,
+#post-404 h1,
+h1.post-title-wide,
+#content-main blockquote p,
+#commentspopup #content-main h1 {
+	font-family: 'Work Sans', sans-serif;
+	}
+
+h3.home-feat-title,
+h3.side-list-title,
+#infscr-loading,
+.score-nav-menu select,
+h1.cat-head,
+h1.arch-head,
+h2.author-list-head,
+h3.foot-head,
+.woocommerce ul.product_list_widget span.product-title,
+.woocommerce ul.product_list_widget li a,
+.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta,
+.woocommerce .related h2,
+.woocommerce div.product .woocommerce-tabs .panel h2,
+.woocommerce div.product .product_title,
+#content-main h1,
+#content-main h2,
+#content-main h3,
+#content-main h4,
+#content-main h5,
+#content-main h6 {
+	font-family: 'Work Sans', sans-serif;
+	}
+
+</style>
+
+<style type="text/css">
+
+
+.post-cont-out,
+.post-cont-in {
+	margin-right: 0;
+	}
+
+.nav-links {
+	display: none;
+	}
+
+
+
+
+
+
+
+
+
+</style>
+
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #eeeeee; }
+</style>
+
+</head>
+
+<body class="post-template-default single single-post postid-3734 single-format-standard custom-background wp-embed-responsive">
+	<amp-auto-ads type="adsense" data-ad-client="ca-pub-7745957064640489"> </amp-auto-ads>
+	<div id="site" class="left relative">
+		<div id="site-wrap" class="left relative">
+						<div id="fly-wrap">
+	<div class="fly-wrap-out">
+		<div class="fly-side-wrap">
+			<ul class="fly-bottom-soc left relative">
+																																					<li class="rss-soc">
+						<a href="https://kochbucher.com/feed/rss/" target="_blank">
+						<i class="fa fa-rss fa-2"></i>
+						</a>
+					</li>
+							</ul>
+		</div><!--fly-side-wrap-->
+		<div class="fly-wrap-in">
+			<div id="fly-menu-wrap">
+				<nav class="fly-nav-menu left relative">
+					<div class="menu-fly-out-container"><ul id="menu-fly-out" class="menu"><li id="menu-item-2639" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2639"><a href="https://kochbucher.com/latest-news/">Neuesten Nachrichten</a></li>
+<li id="menu-item-2640" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2640"><a href="https://kochbucher.com/category/auflauf/">Auflauf</a></li>
+<li id="menu-item-2641" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2641"><a href="https://kochbucher.com/category/biskuitrolle/">Biskuitrolle</a></li>
+<li id="menu-item-2642" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2642"><a href="https://kochbucher.com/category/biskuitrolleselbermachen/">Biskuitrolle|Selbermachen</a></li>
+<li id="menu-item-2643" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2643"><a href="https://kochbucher.com/category/brot/">Brot</a></li>
+<li id="menu-item-2644" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2644"><a href="https://kochbucher.com/category/cremes/">Cremes</a></li>
+<li id="menu-item-2645" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2645"><a href="https://kochbucher.com/category/eis/">Eis</a></li>
+<li id="menu-item-2646" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2646"><a href="https://kochbucher.com/category/fisch/">Fisch</a></li>
+<li id="menu-item-2647" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2647"><a href="https://kochbucher.com/category/geback/">Gebäck</a></li>
+<li id="menu-item-2648" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2648"><a href="https://kochbucher.com/category/gebackselbermachen/">Gebäck|Selbermachen</a></li>
+<li id="menu-item-2649" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2649"><a href="https://kochbucher.com/category/gesundheit/">Gesundheit</a></li>
+<li id="menu-item-2650" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2650"><a href="https://kochbucher.com/category/gesundheitsalat/">Gesundheit|Salat</a></li>
+<li id="menu-item-2651" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2651"><a href="https://kochbucher.com/category/gesundheitsalzige-gerichte/">Gesundheit|Salzige Gerichte</a></li>
+<li id="menu-item-2652" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2652"><a href="https://kochbucher.com/category/gesundheitselbermachen/">Gesundheit|Selbermachen</a></li>
+<li id="menu-item-2653" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2653"><a href="https://kochbucher.com/category/gesundheittorte/">Gesundheit|Torte</a></li>
+<li id="menu-item-2654" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2654"><a href="https://kochbucher.com/category/gugelhupf/">Gugelhupf</a></li>
+<li id="menu-item-2655" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2655"><a href="https://kochbucher.com/category/kekse/">Kekse</a></li>
+<li id="menu-item-2656" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2656"><a href="https://kochbucher.com/category/kuchen/">Kuchen</a></li>
+<li id="menu-item-2657" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2657"><a href="https://kochbucher.com/category/kuchenuncategorized/">Kuchen|Uncategorized</a></li>
+<li id="menu-item-2658" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2658"><a href="https://kochbucher.com/category/low-carb/">Low-Carb</a></li>
+<li id="menu-item-2659" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2659"><a href="https://kochbucher.com/category/low-carbsuppe/">Low-Carb|Suppe</a></li>
+<li id="menu-item-2660" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2660"><a href="https://kochbucher.com/category/muffins/">Muffins</a></li>
+<li id="menu-item-2661" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2661"><a href="https://kochbucher.com/category/nachtisch/">Nachtisch</a></li>
+<li id="menu-item-2662" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2662"><a href="https://kochbucher.com/category/pfannkuchen/">Pfannkuchen</a></li>
+<li id="menu-item-2663" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2663"><a href="https://kochbucher.com/category/rollen/">Rollen</a></li>
+<li id="menu-item-2664" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2664"><a href="https://kochbucher.com/category/salat/">Salat</a></li>
+<li id="menu-item-2665" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-2665"><a href="https://kochbucher.com/category/salzige-gerichte/">Salzige Gerichte</a></li>
+<li id="menu-item-2666" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2666"><a href="https://kochbucher.com/category/schnitten/">Schnitten</a></li>
+<li id="menu-item-2667" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2667"><a href="https://kochbucher.com/category/schnittenselbermachen/">Schnitten|Selbermachen</a></li>
+<li id="menu-item-2668" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2668"><a href="https://kochbucher.com/category/selbermachen/">Selbermachen</a></li>
+<li id="menu-item-2669" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2669"><a href="https://kochbucher.com/category/suppe/">Suppe</a></li>
+<li id="menu-item-2670" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2670"><a href="https://kochbucher.com/category/tipps/">Tipps</a></li>
+<li id="menu-item-2671" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2671"><a href="https://kochbucher.com/category/torte/">Torte</a></li>
+<li id="menu-item-2672" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2672"><a href="https://kochbucher.com/category/uncategorized/">Uncategorized</a></li>
+</ul></div>				</nav>
+			</div><!--fly-menu-wrap-->
+		</div><!--fly-wrap-in-->
+	</div><!--fly-wrap-out-->
+</div><!--fly-wrap-->			<div id="head-main-wrap" class="left relative">
+				<div id="head-main-top" class="left relative">
+																														</div><!--head-main-top-->
+				<div id="main-nav-wrap">
+					<div class="nav-out">
+						<div class="nav-in">
+							<div id="main-nav-cont" class="left" itemscope itemtype="http://schema.org/Organization">
+								<div class="nav-logo-out">
+									<div class="nav-left-wrap left relative">
+										<div class="fly-but-wrap left relative">
+											<span></span>
+											<span></span>
+											<span></span>
+											<span></span>
+										</div><!--fly-but-wrap-->
+																					<div class="nav-logo left">
+																									<a itemprop="url" href="https://kochbucher.com/"><img itemprop="logo" src="https://kochbucher.com/wp-content/uploads/2023/04/logo3.png" alt="Kochbucher" data-rjs="2" /></a>
+																																					<h2 class="mvp-logo-title">Kochbucher</h2>
+																							</div><!--nav-logo-->
+																			</div><!--nav-left-wrap-->
+									<div class="nav-logo-in">
+										<div class="nav-menu-out">
+											<div class="nav-menu-in">
+												<nav class="main-menu-wrap left">
+													<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-2531" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2531"><a href="https://kochbucher.com/">Home</a></li>
+<li id="menu-item-2502" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2502"><a href="https://kochbucher.com/category/kuchen/">Kuchen</a></li>
+<li id="menu-item-2503" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-2503"><a href="https://kochbucher.com/category/salzige-gerichte/">Salzige Gerichte</a></li>
+<li id="menu-item-2504" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2504"><a href="https://kochbucher.com/category/torte/">Torte</a></li>
+<li id="menu-item-2505" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2505"><a href="https://kochbucher.com/category/selbermachen/">Selbermachen</a></li>
+<li id="menu-item-2506" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2506"><a href="https://kochbucher.com/category/nachtisch/">Nachtisch</a></li>
+<li id="menu-item-2507" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2507"><a href="https://kochbucher.com/category/salat/">Salat</a></li>
+<li id="menu-item-2508" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2508"><a href="https://kochbucher.com/category/geback/">Gebäck</a></li>
+<li id="menu-item-2509" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2509"><a href="https://kochbucher.com/category/kekse/">Kekse</a></li>
+<li id="menu-item-2510" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2510"><a href="https://kochbucher.com/category/brot/">Brot</a></li>
+<li id="menu-item-2511" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2511"><a href="https://kochbucher.com/category/schnitten/">Schnitten</a></li>
+</ul></div>												</nav>
+											</div><!--nav-menu-in-->
+											<div class="nav-right-wrap relative">
+												<div class="nav-search-wrap left relative">
+													<span class="nav-search-but left"><i class="fa fa-search fa-2"></i></span>
+													<div class="search-fly-wrap">
+														<form method="get" id="searchform" action="https://kochbucher.com/">
+	<input type="text" name="s" id="s" value="Type search term and press enter" onfocus='if (this.value == "Type search term and press enter") { this.value = ""; }' onblur='if (this.value == "") { this.value = "Type search term and press enter"; }' />
+	<input type="hidden" id="searchsubmit" value="Search" />
+</form>													</div><!--search-fly-wrap-->
+												</div><!--nav-search-wrap-->
+																																			</div><!--nav-right-wrap-->
+										</div><!--nav-menu-out-->
+									</div><!--nav-logo-in-->
+								</div><!--nav-logo-out-->
+							</div><!--main-nav-cont-->
+						</div><!--nav-in-->
+					</div><!--nav-out-->
+				</div><!--main-nav-wrap-->
+			</div><!--head-main-wrap-->
+										<div id="body-main-wrap" class="left relative" itemscope itemtype="http://schema.org/NewsArticle">
+					<meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="https://kochbucher.com/putengeschnetzeltes-mit-reis-und-blattsalat/"/>
+																																			<div class="body-main-out relative">
+					<div class="body-main-in">
+						<div id="body-main-cont" class="left relative">
+																		<div id="post-main-wrap" class="left relative">
+	<div class="post-wrap-out1">
+		<div class="post-wrap-in1">
+			<div id="post-left-col" class="relative">
+									<article id="post-area" class="post-3734 post type-post status-publish format-standard has-post-thumbnail hentry category-salzige-gerichte">
+													<header id="post-header">
+																	<a class="post-cat-link" href="https://kochbucher.com/category/salzige-gerichte/"><span class="post-head-cat">Salzige Gerichte</span></a>
+																<h1 class="post-title entry-title left" itemprop="headline">Putengeschnetzeltes mit Reis und Blattsalat</h1>
+																	<div id="post-info-wrap" class="left relative">
+										<div class="post-info-out">
+											<div class="post-info-img left relative">
+												<img alt='' src='https://secure.gravatar.com/avatar/632bff758787743cba20c456d2d54bfb?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/632bff758787743cba20c456d2d54bfb?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy' decoding='async'/>											</div><!--post-info-img-->
+											<div class="post-info-in">
+												<div class="post-info-right left relative">
+													<div class="post-info-name left relative" itemprop="author" itemscope itemtype="https://schema.org/Person">
+														<span class="post-info-text">By</span> <span class="author-name vcard fn author" itemprop="name"><a href="https://kochbucher.com/author/sanel/" title="Posts by Kochbucher" rel="author">Kochbucher</a></span>  <span class="author-email"><a href="mailto:dropicsanel@gmail.com"><i class="fa fa-envelope fa-2"></i></a></span>													</div><!--post-info-name-->
+													<div class="post-info-date left relative">
+														<span class="post-info-text">Posted on</span> <span class="post-date updated"><time class="post-date updated" itemprop="datePublished" datetime="2023-07-28">28/07/2023</time></span>
+														<meta itemprop="dateModified" content="2023-07-28"/>
+													</div><!--post-info-date-->
+												</div><!--post-info-right-->
+											</div><!--post-info-in-->
+										</div><!--post-info-out-->
+									</div><!--post-info-wrap-->
+															</header><!--post-header-->
+																																																									<div id="post-feat-img" class="left relative" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+												<img width="1080" height="1080" src="https://kochbucher.com/wp-content/uploads/2023/07/360032370_811443810387852_6360593443735502032_n.jpg" class="attachment- size- wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://kochbucher.com/wp-content/uploads/2023/07/360032370_811443810387852_6360593443735502032_n.jpg 1080w, https://kochbucher.com/wp-content/uploads/2023/07/360032370_811443810387852_6360593443735502032_n-300x300.jpg 300w, https://kochbucher.com/wp-content/uploads/2023/07/360032370_811443810387852_6360593443735502032_n-1024x1024.jpg 1024w, https://kochbucher.com/wp-content/uploads/2023/07/360032370_811443810387852_6360593443735502032_n-150x150.jpg 150w, https://kochbucher.com/wp-content/uploads/2023/07/360032370_811443810387852_6360593443735502032_n-768x768.jpg 768w, https://kochbucher.com/wp-content/uploads/2023/07/360032370_811443810387852_6360593443735502032_n-80x80.jpg 80w" sizes="(max-width: 1080px) 100vw, 1080px" />																								<meta itemprop="url" content="https://kochbucher.com/wp-content/uploads/2023/07/360032370_811443810387852_6360593443735502032_n.jpg">
+												<meta itemprop="width" content="1080">
+												<meta itemprop="height" content="1080">
+												<div class="post-feat-text">
+																																						</div><!--post-feat-text-->
+											</div><!--post-feat-img-->
+																																														<div id="content-area" itemprop="articleBody" class="post-3734 post type-post status-publish format-standard has-post-thumbnail hentry category-salzige-gerichte">
+							<div class="post-cont-out">
+								<div class="post-cont-in">
+									<div id="content-main" class="left relative">
+
+
+																											<section class="social-sharing-top">
+												<a href="#" onclick="window.open('http://www.facebook.com/sharer.php?u=https://kochbucher.com/putengeschnetzeltes-mit-reis-und-blattsalat/&amp;t=Putengeschnetzeltes mit Reis und Blattsalat', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Facebook"><div class="facebook-share"><span class="fb-but1"><i class="fa fa-facebook fa-2"></i></span><span class="social-text">Share</span></div></a>
+												<a href="#" onclick="window.open('http://twitter.com/share?text=Putengeschnetzeltes mit Reis und Blattsalat -&amp;url=https://kochbucher.com/putengeschnetzeltes-mit-reis-und-blattsalat/', 'twitterShare', 'width=626,height=436'); return false;" title="Tweet This Post"><div class="twitter-share"><span class="twitter-but1"><i class="fa fa-twitter fa-2"></i></span><span class="social-text">Tweet</span></div></a>
+												<a href="whatsapp://send?text=Putengeschnetzeltes mit Reis und Blattsalat https://kochbucher.com/putengeschnetzeltes-mit-reis-und-blattsalat/"><div class="whatsapp-share"><span class="whatsapp-but1"><i class="fa fa-whatsapp fa-2"></i></span><span class="social-text">Share</span></div></a>
+												<a href="#" onclick="window.open('http://pinterest.com/pin/create/button/?url=https://kochbucher.com/putengeschnetzeltes-mit-reis-und-blattsalat/&amp;media=https://kochbucher.com/wp-content/uploads/2023/07/360032370_811443810387852_6360593443735502032_n-1000x600.jpg&amp;description=Putengeschnetzeltes mit Reis und Blattsalat', 'pinterestShare', 'width=750,height=350'); return false;" title="Pin This Post"><div class="pinterest-share"><span class="pinterest-but1"><i class="fa fa-pinterest-p fa-2"></i></span><span class="social-text">Share</span></div></a>
+												<a href="mailto:?subject=Putengeschnetzeltes mit Reis und Blattsalat&amp;BODY=I found this article interesting and thought of sharing it with you. Check it out: https://kochbucher.com/putengeschnetzeltes-mit-reis-und-blattsalat/"><div class="email-share"><span class="email-but"><i class="fa fa-envelope fa-2"></i></span><span class="social-text">Email</span></div></a>
+																																																					<a href="https://kochbucher.com/putengeschnetzeltes-mit-reis-und-blattsalat/#respond"><div class="social-comments comment-click-3734"><i class="fa fa-commenting fa-2"></i><span class="social-text-com">Comments</span></div></a>
+																																				</section><!--social-sharing-top-->
+																														<p>Zutaten</p>
+<p>500 g Putenfleisch<br />
+1 Zwiebel<br />
+1 EL Tomatenmark<br />
+50 Rohschinkenwürfel light<br />
+1 EL Speisestärke<br />
+250 ml Cremefine<br />
+200 ml Wasser<br />
+1 TL Tessiner Kräuter Gewürzmischung<br />
+Pfeffer<br />
+Salz<br />
+Etwas Öl zum Anbraten</p>
+<p>Zubereitung</p>
+<p>&#8211; Zwiebel würfeln, Fleisch in Streifen schneiden<br />
+&#8211; Gemeinsam in etwas Öl rundherum braun anbraten<br />
+&#8211; Tomatenmark hinzufügen, kurz anrösten<br />
+&#8211; Schinkenwürfel hinzufügen<br />
+&#8211; Mit Stärke bestäuben und gut vermischen<br />
+&#8211; Wasser und Cremefine hinzufügen, aufkochen lassen<br />
+&#8211; Gewürze hinzufügen</p>
+<div class="post-views content-post post-3734 entry-meta">
+				<span class="post-views-icon dashicons dashicons-chart-bar"></span> <span class="post-views-label">Post Views:</span> <span class="post-views-count">66</span>
+			</div>																														<div class="mvp-org-wrap" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+											<div class="mvp-org-logo" itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+																									<img src="https://kochbucher.com/wp-content/uploads/2023/04/logo3.png"/>
+													<meta itemprop="url" content="https://kochbucher.com/wp-content/uploads/2023/04/logo3.png">
+																							</div><!--mvp-org-logo-->
+											<meta itemprop="name" content="Kochbucher">
+										</div><!--mvp-org-wrap-->
+										<div class="posts-nav-link">
+																					</div><!--posts-nav-link-->
+																					<div class="post-tags">
+												<span class="post-tags-header">Related Items:</span><span itemprop="keywords"></span>
+											</div><!--post-tags-->
+																															<div class="social-sharing-bot">
+												<a href="#" onclick="window.open('http://www.facebook.com/sharer.php?u=https://kochbucher.com/putengeschnetzeltes-mit-reis-und-blattsalat/&amp;t=Putengeschnetzeltes mit Reis und Blattsalat', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Facebook"><div class="facebook-share"><span class="fb-but1"><i class="fa fa-facebook fa-2"></i></span><span class="social-text">Share</span></div></a>
+												<a href="#" onclick="window.open('http://twitter.com/share?text=Putengeschnetzeltes mit Reis und Blattsalat -&amp;url=https://kochbucher.com/putengeschnetzeltes-mit-reis-und-blattsalat/', 'twitterShare', 'width=626,height=436'); return false;" title="Tweet This Post"><div class="twitter-share"><span class="twitter-but1"><i class="fa fa-twitter fa-2"></i></span><span class="social-text">Tweet</span></div></a>
+												<a href="whatsapp://send?text=Putengeschnetzeltes mit Reis und Blattsalat https://kochbucher.com/putengeschnetzeltes-mit-reis-und-blattsalat/"><div class="whatsapp-share"><span class="whatsapp-but1"><i class="fa fa-whatsapp fa-2"></i></span><span class="social-text">Share</span></div></a>
+												<a href="#" onclick="window.open('http://pinterest.com/pin/create/button/?url=https://kochbucher.com/putengeschnetzeltes-mit-reis-und-blattsalat/&amp;media=https://kochbucher.com/wp-content/uploads/2023/07/360032370_811443810387852_6360593443735502032_n-1000x600.jpg&amp;description=Putengeschnetzeltes mit Reis und Blattsalat', 'pinterestShare', 'width=750,height=350'); return false;" title="Pin This Post"><div class="pinterest-share"><span class="pinterest-but1"><i class="fa fa-pinterest-p fa-2"></i></span><span class="social-text">Share</span></div></a>
+												<a href="mailto:?subject=Putengeschnetzeltes mit Reis und Blattsalat&amp;BODY=I found this article interesting and thought of sharing it with you. Check it out: https://kochbucher.com/putengeschnetzeltes-mit-reis-und-blattsalat/"><div class="email-share"><span class="email-but"><i class="fa fa-envelope fa-2"></i></span><span class="social-text">Email</span></div></a>
+											</div><!--social-sharing-bot-->
+																																																																						</div><!--content-main-->
+								</div><!--post-cont-in-->
+															</div><!--post-cont-out-->
+						</div><!--content-area-->
+					</article>
+																			</div><!--post-left-col-->
+			</div><!--post-wrap-in1-->
+							<div id="post-right-col" class="relative">
+																		<div class="side-title-wrap left relative">
+	<h3 class="side-list-title">AM BELIEBTESTEN</h3>
+</div><!--side-title-wrap-->
+<div class="side-pop-wrap left relative">
+	<div class="feat-widget-cont left relative">
+					<div class="feat-widget-wrap left relative">
+				<a href="https://kochbucher.com/cremige-garnelen-nudeln-mit-hausgemachter-alfredo-sauce/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="https://kochbucher.com/wp-content/uploads/2023/05/60104595_659375171166688_4641797608937881600_n-300x180.jpeg" class="reg-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/05/60104595_659375171166688_4641797608937881600_n-300x180.jpeg 300w, https://kochbucher.com/wp-content/uploads/2023/05/60104595_659375171166688_4641797608937881600_n-1000x600.jpeg 1000w, https://kochbucher.com/wp-content/uploads/2023/05/60104595_659375171166688_4641797608937881600_n-450x270.jpeg 450w" sizes="(max-width: 300px) 100vw, 300px" />						<img width="80" height="80" src="https://kochbucher.com/wp-content/uploads/2023/05/60104595_659375171166688_4641797608937881600_n-80x80.jpeg" class="mob-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/05/60104595_659375171166688_4641797608937881600_n-80x80.jpeg 80w, https://kochbucher.com/wp-content/uploads/2023/05/60104595_659375171166688_4641797608937881600_n-150x150.jpeg 150w" sizes="(max-width: 80px) 100vw, 80px" />													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">163.2K</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Nudeln</span>
+					<h2>Cremige Garnelen-Nudeln mit hausgemachter Alfredo-Sauce</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+					<div class="feat-widget-wrap left relative">
+				<a href="https://kochbucher.com/spaghetti-mit-garnelen/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="https://kochbucher.com/wp-content/uploads/2023/05/246851788_4985938238101325_7631738250416500257_n-300x180.jpg" class="reg-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/05/246851788_4985938238101325_7631738250416500257_n-300x180.jpg 300w, https://kochbucher.com/wp-content/uploads/2023/05/246851788_4985938238101325_7631738250416500257_n-450x270.jpg 450w" sizes="(max-width: 300px) 100vw, 300px" />						<img width="80" height="80" src="https://kochbucher.com/wp-content/uploads/2023/05/246851788_4985938238101325_7631738250416500257_n-80x80.jpg" class="mob-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/05/246851788_4985938238101325_7631738250416500257_n-80x80.jpg 80w, https://kochbucher.com/wp-content/uploads/2023/05/246851788_4985938238101325_7631738250416500257_n-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">45.2K</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Selbermachen</span>
+					<h2>Spaghetti mit Garnelen</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+					<div class="feat-widget-wrap left relative">
+				<a href="https://kochbucher.com/pasta-mit-garnelen-in-knoblauch-sahnesauce/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="https://kochbucher.com/wp-content/uploads/2023/05/290533033_5171126392981399_4135610114424805096_n-300x180.jpg" class="reg-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/05/290533033_5171126392981399_4135610114424805096_n-300x180.jpg 300w, https://kochbucher.com/wp-content/uploads/2023/05/290533033_5171126392981399_4135610114424805096_n-450x270.jpg 450w" sizes="(max-width: 300px) 100vw, 300px" />						<img width="80" height="80" src="https://kochbucher.com/wp-content/uploads/2023/05/290533033_5171126392981399_4135610114424805096_n-80x80.jpg" class="mob-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/05/290533033_5171126392981399_4135610114424805096_n-80x80.jpg 80w, https://kochbucher.com/wp-content/uploads/2023/05/290533033_5171126392981399_4135610114424805096_n-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">42.7K</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Salzige Gerichte</span>
+					<h2>Pasta mit Garnelen in Knoblauch-Sahnesauce</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+					<div class="feat-widget-wrap left relative">
+				<a href="https://kochbucher.com/hahnchen-mit-mohren-und-porree-in-krauter-frischkase-sauce/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="https://kochbucher.com/wp-content/uploads/2023/04/Screenshot_33-300x180.png" class="reg-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/04/Screenshot_33-300x180.png 300w, https://kochbucher.com/wp-content/uploads/2023/04/Screenshot_33-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" />						<img width="80" height="80" src="https://kochbucher.com/wp-content/uploads/2023/04/Screenshot_33-80x80.png" class="mob-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/04/Screenshot_33-80x80.png 80w, https://kochbucher.com/wp-content/uploads/2023/04/Screenshot_33-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" />													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">42.2K</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Nudeln</span>
+					<h2>Hähnchen mit Möhren und Porree in Kräuter-Frischkäse-Sauce</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+					<div class="feat-widget-wrap left relative">
+				<a href="https://kochbucher.com/reis-mit-brokkoli-zucchini-sauce-2/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="https://kochbucher.com/wp-content/uploads/2023/05/345257867_910287533419011_4654662000376689831_n-1-300x180.jpg" class="reg-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/05/345257867_910287533419011_4654662000376689831_n-1-300x180.jpg 300w, https://kochbucher.com/wp-content/uploads/2023/05/345257867_910287533419011_4654662000376689831_n-1-1000x600.jpg 1000w, https://kochbucher.com/wp-content/uploads/2023/05/345257867_910287533419011_4654662000376689831_n-1-450x270.jpg 450w" sizes="(max-width: 300px) 100vw, 300px" />						<img width="80" height="80" src="https://kochbucher.com/wp-content/uploads/2023/05/345257867_910287533419011_4654662000376689831_n-1-80x80.jpg" class="mob-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/05/345257867_910287533419011_4654662000376689831_n-1-80x80.jpg 80w, https://kochbucher.com/wp-content/uploads/2023/05/345257867_910287533419011_4654662000376689831_n-1-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">34.0K</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Auflauf</span>
+					<h2>Reis mit Brokkoli-Zucchini-Sauce</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+					<div class="feat-widget-wrap left relative">
+				<a href="https://kochbucher.com/paprika-zucchini-sahne-hahnchen-mit-reis/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="https://kochbucher.com/wp-content/uploads/2023/04/331111344_740696667655596_1420262728121404536_n-300x180.jpg" class="reg-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/04/331111344_740696667655596_1420262728121404536_n-300x180.jpg 300w, https://kochbucher.com/wp-content/uploads/2023/04/331111344_740696667655596_1420262728121404536_n-1000x600.jpg 1000w, https://kochbucher.com/wp-content/uploads/2023/04/331111344_740696667655596_1420262728121404536_n-450x270.jpg 450w" sizes="(max-width: 300px) 100vw, 300px" />						<img width="80" height="80" src="https://kochbucher.com/wp-content/uploads/2023/04/331111344_740696667655596_1420262728121404536_n-80x80.jpg" class="mob-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/04/331111344_740696667655596_1420262728121404536_n-80x80.jpg 80w, https://kochbucher.com/wp-content/uploads/2023/04/331111344_740696667655596_1420262728121404536_n-300x300.jpg 300w, https://kochbucher.com/wp-content/uploads/2023/04/331111344_740696667655596_1420262728121404536_n-1024x1024.jpg 1024w, https://kochbucher.com/wp-content/uploads/2023/04/331111344_740696667655596_1420262728121404536_n-150x150.jpg 150w, https://kochbucher.com/wp-content/uploads/2023/04/331111344_740696667655596_1420262728121404536_n-768x768.jpg 768w, https://kochbucher.com/wp-content/uploads/2023/04/331111344_740696667655596_1420262728121404536_n.jpg 1080w" sizes="(max-width: 80px) 100vw, 80px" />													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">28.9K</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Salzige Gerichte</span>
+					<h2>Paprika-Zucchini-Sahne Hähnchen mit Reis</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+					<div class="feat-widget-wrap left relative">
+				<a href="https://kochbucher.com/wikinger-pfanne/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="https://kochbucher.com/wp-content/uploads/2023/05/315110851_201900935573766_3818715538137273320_n-300x180.jpg" class="reg-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/05/315110851_201900935573766_3818715538137273320_n-300x180.jpg 300w, https://kochbucher.com/wp-content/uploads/2023/05/315110851_201900935573766_3818715538137273320_n-1000x600.jpg 1000w, https://kochbucher.com/wp-content/uploads/2023/05/315110851_201900935573766_3818715538137273320_n-450x270.jpg 450w" sizes="(max-width: 300px) 100vw, 300px" />						<img width="80" height="80" src="https://kochbucher.com/wp-content/uploads/2023/05/315110851_201900935573766_3818715538137273320_n-80x80.jpg" class="mob-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/05/315110851_201900935573766_3818715538137273320_n-80x80.jpg 80w, https://kochbucher.com/wp-content/uploads/2023/05/315110851_201900935573766_3818715538137273320_n-300x300.jpg 300w, https://kochbucher.com/wp-content/uploads/2023/05/315110851_201900935573766_3818715538137273320_n-1024x1024.jpg 1024w, https://kochbucher.com/wp-content/uploads/2023/05/315110851_201900935573766_3818715538137273320_n-150x150.jpg 150w, https://kochbucher.com/wp-content/uploads/2023/05/315110851_201900935573766_3818715538137273320_n-768x768.jpg 768w, https://kochbucher.com/wp-content/uploads/2023/05/315110851_201900935573766_3818715538137273320_n.jpg 1080w" sizes="(max-width: 80px) 100vw, 80px" />													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">24.9K</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Salzige Gerichte</span>
+					<h2>WIKINGER-PFANNE</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+					<div class="feat-widget-wrap left relative">
+				<a href="https://kochbucher.com/kasenudeln-mit-brokkoli/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="https://kochbucher.com/wp-content/uploads/2023/04/Screenshot_15-300x180.png" class="reg-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/04/Screenshot_15-300x180.png 300w, https://kochbucher.com/wp-content/uploads/2023/04/Screenshot_15-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" />						<img width="80" height="80" src="https://kochbucher.com/wp-content/uploads/2023/04/Screenshot_15-80x80.png" class="mob-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/04/Screenshot_15-80x80.png 80w, https://kochbucher.com/wp-content/uploads/2023/04/Screenshot_15-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" />													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">20.8K</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Nudeln</span>
+					<h2>Käsenudeln mit Brokkoli</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+					<div class="feat-widget-wrap left relative">
+				<a href="https://kochbucher.com/leberknodelsuppe-omas-rezept/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="https://kochbucher.com/wp-content/uploads/2023/06/351923359_1610861846089966_1251978635202117686_n-300x180.jpg" class="reg-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/06/351923359_1610861846089966_1251978635202117686_n-300x180.jpg 300w, https://kochbucher.com/wp-content/uploads/2023/06/351923359_1610861846089966_1251978635202117686_n-450x270.jpg 450w" sizes="(max-width: 300px) 100vw, 300px" />						<img width="80" height="80" src="https://kochbucher.com/wp-content/uploads/2023/06/351923359_1610861846089966_1251978635202117686_n-80x80.jpg" class="mob-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/06/351923359_1610861846089966_1251978635202117686_n-80x80.jpg 80w, https://kochbucher.com/wp-content/uploads/2023/06/351923359_1610861846089966_1251978635202117686_n-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">20.6K</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Suppe</span>
+					<h2>Leberknödelsuppe Omas Rezept</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+					<div class="feat-widget-wrap left relative">
+				<a href="https://kochbucher.com/hackballchen-in-deftiger-zwiebel-champignon-sose/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="https://kochbucher.com/wp-content/uploads/2023/05/314448415_3260457547602715_5185925697844252261_n-300x180.jpg" class="reg-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/05/314448415_3260457547602715_5185925697844252261_n-300x180.jpg 300w, https://kochbucher.com/wp-content/uploads/2023/05/314448415_3260457547602715_5185925697844252261_n-1000x600.jpg 1000w, https://kochbucher.com/wp-content/uploads/2023/05/314448415_3260457547602715_5185925697844252261_n-450x270.jpg 450w" sizes="(max-width: 300px) 100vw, 300px" />						<img width="80" height="80" src="https://kochbucher.com/wp-content/uploads/2023/05/314448415_3260457547602715_5185925697844252261_n-80x80.jpg" class="mob-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/05/314448415_3260457547602715_5185925697844252261_n-80x80.jpg 80w, https://kochbucher.com/wp-content/uploads/2023/05/314448415_3260457547602715_5185925697844252261_n-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">18.6K</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Auflauf</span>
+					<h2>Hackbällchen in deftiger Zwiebel-Champignon Soße</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+			</div><!--feat-widget-cont-->
+</div><!--side-pop-wrap-->															</div><!--post-right-col-->
+					</div><!--post-wrap-out1-->
+</div><!--post-main-wrap-->
+												</div><!--body-main-cont-->
+				</div><!--body-main-in-->
+			</div><!--body-main-out-->
+		</div><!--body-main-wrap-->
+			<footer id="foot-wrap" class="left relative">
+				<div id="foot-top-wrap" class="left relative">
+					<div class="body-main-out relative">
+						<div class="body-main-in">
+							<div id="foot-widget-wrap" class="left relative">
+																	<div class="foot-widget left relative">
+																					<div class="foot-logo left realtive">
+												<img src="https://kochbucher.com/wp-content/uploads/2023/04/logo3.png" alt="Kochbucher" data-rjs="2" />
+											</div><!--foot-logo-->
+																				<div class="foot-info-text left relative">
+											<p>Facebook Seite www.facebook.com/backenrezepte</p>										</div><!--footer-info-text-->
+										<div class="foot-soc left relative">
+											<ul class="foot-soc-list relative">
+																																																																																																													<li class="foot-soc-rss">
+														<a href="https://kochbucher.com/feed/rss/" target="_blank"><i class="fa fa-rss-square fa-2"></i></a>
+													</li>
+																							</ul>
+										</div><!--foot-soc-->
+									</div><!--foot-widget-->
+																<div id="mvp_catlist_widget-6" class="foot-widget left relative mvp_catlist_widget"><h3 class="foot-head">Latest News</h3>			<div class="blog-widget-wrap left relative">
+				<ul class="blog-widget-list left relative">
+											<li>
+
+							<a href="https://kochbucher.com/bratwurst-wirsing-gemuse-kartoffeln-und-zwiebelsauce/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="https://kochbucher.com/wp-content/uploads/2023/10/370379750_844593923693129_1508495059415737749_n-300x180.jpg" class="widget-img-main wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/10/370379750_844593923693129_1508495059415737749_n-300x180.jpg 300w, https://kochbucher.com/wp-content/uploads/2023/10/370379750_844593923693129_1508495059415737749_n-1000x600.jpg 1000w, https://kochbucher.com/wp-content/uploads/2023/10/370379750_844593923693129_1508495059415737749_n-450x270.jpg 450w" sizes="(max-width: 300px) 100vw, 300px" />									<img width="80" height="80" src="https://kochbucher.com/wp-content/uploads/2023/10/370379750_844593923693129_1508495059415737749_n-80x80.jpg" class="widget-img-side wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/10/370379750_844593923693129_1508495059415737749_n-80x80.jpg 80w, https://kochbucher.com/wp-content/uploads/2023/10/370379750_844593923693129_1508495059415737749_n-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">125</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+																	<span class="side-list-cat">Salzige Gerichte</span>
+																<h2>Bratwurst Wirsing Gemüse Kartoffeln und Zwiebelsauce</h2>
+								<p>Ein gutes Stück Butter eine kleine fein gewürfelte Zwiebel und Speck Würfel ( muss...</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+											<li>
+
+							<a href="https://kochbucher.com/limburger-kase-mit-musik/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="https://kochbucher.com/wp-content/uploads/2023/10/379284681_845931170158488_7931374325021660166_n-300x180.jpg" class="widget-img-main wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/10/379284681_845931170158488_7931374325021660166_n-300x180.jpg 300w, https://kochbucher.com/wp-content/uploads/2023/10/379284681_845931170158488_7931374325021660166_n-1000x600.jpg 1000w, https://kochbucher.com/wp-content/uploads/2023/10/379284681_845931170158488_7931374325021660166_n-450x270.jpg 450w" sizes="(max-width: 300px) 100vw, 300px" />									<img width="80" height="80" src="https://kochbucher.com/wp-content/uploads/2023/10/379284681_845931170158488_7931374325021660166_n-80x80.jpg" class="widget-img-side wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/10/379284681_845931170158488_7931374325021660166_n-80x80.jpg 80w, https://kochbucher.com/wp-content/uploads/2023/10/379284681_845931170158488_7931374325021660166_n-300x300.jpg 300w, https://kochbucher.com/wp-content/uploads/2023/10/379284681_845931170158488_7931374325021660166_n-1024x1024.jpg 1024w, https://kochbucher.com/wp-content/uploads/2023/10/379284681_845931170158488_7931374325021660166_n-150x150.jpg 150w, https://kochbucher.com/wp-content/uploads/2023/10/379284681_845931170158488_7931374325021660166_n-768x768.jpg 768w, https://kochbucher.com/wp-content/uploads/2023/10/379284681_845931170158488_7931374325021660166_n.jpg 1080w" sizes="(max-width: 80px) 100vw, 80px" />																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">70</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+																	<span class="side-list-cat">Salzige Gerichte</span>
+																<h2>Limburger Käse mit Musik</h2>
+								<p>Rezept 1 Limburger Käse in dünne Scheiben schneiden 1 kleine Zwiebel nach Belieben in...</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+											<li>
+
+							<a href="https://kochbucher.com/schweinemedaillons-mit-spatzle-und-bohnensalat/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="https://kochbucher.com/wp-content/uploads/2023/10/381243939_838617157740540_4020172569780203885_n-300x180.jpg" class="widget-img-main wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/10/381243939_838617157740540_4020172569780203885_n-300x180.jpg 300w, https://kochbucher.com/wp-content/uploads/2023/10/381243939_838617157740540_4020172569780203885_n-1000x600.jpg 1000w, https://kochbucher.com/wp-content/uploads/2023/10/381243939_838617157740540_4020172569780203885_n-450x270.jpg 450w" sizes="(max-width: 300px) 100vw, 300px" />									<img width="80" height="80" src="https://kochbucher.com/wp-content/uploads/2023/10/381243939_838617157740540_4020172569780203885_n-80x80.jpg" class="widget-img-side wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/10/381243939_838617157740540_4020172569780203885_n-80x80.jpg 80w, https://kochbucher.com/wp-content/uploads/2023/10/381243939_838617157740540_4020172569780203885_n-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">161</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+																	<span class="side-list-cat">Salzige Gerichte</span>
+																<h2>Schweinemedaillons mit Spätzle und Bohnensalat</h2>
+								<p>Filet in 2-3 cm dicke Scheiben schneiden, kurz scharf anbraten mit Salz Pfeffer Paprika...</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+											<li>
+
+							<a href="https://kochbucher.com/pasta-mit-schweinemedallion-blattspinat-und-gorgonzola/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="https://kochbucher.com/wp-content/uploads/2023/10/380206074_222859680479187_236248282810428824_n-300x180.jpg" class="widget-img-main wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/10/380206074_222859680479187_236248282810428824_n-300x180.jpg 300w, https://kochbucher.com/wp-content/uploads/2023/10/380206074_222859680479187_236248282810428824_n-1000x600.jpg 1000w, https://kochbucher.com/wp-content/uploads/2023/10/380206074_222859680479187_236248282810428824_n-450x270.jpg 450w" sizes="(max-width: 300px) 100vw, 300px" />									<img width="80" height="80" src="https://kochbucher.com/wp-content/uploads/2023/10/380206074_222859680479187_236248282810428824_n-80x80.jpg" class="widget-img-side wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/10/380206074_222859680479187_236248282810428824_n-80x80.jpg 80w, https://kochbucher.com/wp-content/uploads/2023/10/380206074_222859680479187_236248282810428824_n-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">99</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+																	<span class="side-list-cat">Salzige Gerichte</span>
+																<h2>Pasta mit Schweinemedallion Blattspinat und Gorgonzola</h2>
+								<p>1 Strang Schweinefilet 1 kleine Zwiebel 1 Knoblauch 200 Gramm Gorgonzola mild 300 ml...</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+											<li>
+
+							<a href="https://kochbucher.com/thai-curry-hahnchen-mit-einer-erdnuss-note-reis/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="https://kochbucher.com/wp-content/uploads/2023/10/381634995_630493685834330_8612431453966432851_n-300x180.jpg" class="widget-img-main wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/10/381634995_630493685834330_8612431453966432851_n-300x180.jpg 300w, https://kochbucher.com/wp-content/uploads/2023/10/381634995_630493685834330_8612431453966432851_n-1000x600.jpg 1000w, https://kochbucher.com/wp-content/uploads/2023/10/381634995_630493685834330_8612431453966432851_n-450x270.jpg 450w" sizes="(max-width: 300px) 100vw, 300px" />									<img width="80" height="80" src="https://kochbucher.com/wp-content/uploads/2023/10/381634995_630493685834330_8612431453966432851_n-80x80.jpg" class="widget-img-side wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kochbucher.com/wp-content/uploads/2023/10/381634995_630493685834330_8612431453966432851_n-80x80.jpg 80w, https://kochbucher.com/wp-content/uploads/2023/10/381634995_630493685834330_8612431453966432851_n-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">118</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+																	<span class="side-list-cat">Salzige Gerichte</span>
+																<h2>Thai Curry Hähnchen mit einer Erdnuss Note &#038; Reis</h2>
+								<p>Rezept: 2 TL Erdnussöl und neutrales Öl 400 Gramm Hähnchen 2 TL Currypaste gelb...</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+									</ul>
+			</div><!--blog-widget-wrap-->
+		</div><div id="mvp_tags_widget-1" class="foot-widget left relative mvp_tags_widget"><h3 class="foot-head">Popular Tags</h3>
+			<div class="tag-cloud left relative">
+				<a href="https://kochbucher.com/tag/salat/" class="tag-cloud-link tag-link-179 tag-link-position-1" style="font-size: 10px;">salat</a>
+<a href="https://kochbucher.com/tag/torte/" class="tag-cloud-link tag-link-177 tag-link-position-2" style="font-size: 10px;">torte</a>
+<a href="https://kochbucher.com/tag/featured/" class="tag-cloud-link tag-link-176 tag-link-position-3" style="font-size: 10px;">featured</a>
+<a href="https://kochbucher.com/tag/kekse/" class="tag-cloud-link tag-link-180 tag-link-position-4" style="font-size: 10px;">kekse</a>
+<a href="https://kochbucher.com/tag/kuchen/" class="tag-cloud-link tag-link-178 tag-link-position-5" style="font-size: 10px;">kuchen</a>			</div>
+
+		</div>							</div><!--foot-widget-wrap-->
+						</div><!--body-main-in-->
+					</div><!--body-main-out-->
+				</div><!--foot-top-->
+				<div id="foot-bot-wrap" class="left relative">
+					<div class="body-main-out relative">
+						<div class="body-main-in">
+							<div id="foot-bot" class="left relative">
+								<div class="foot-menu relative">
+									<div class="menu"><ul>
+<li class="page_item page-item-3707"><a href="https://kochbucher.com/datenschutz-bestimmungen/">Datenschutz-Bestimmungen</a></li>
+<li class="page_item page-item-2550"><a href="https://kochbucher.com/">Home</a></li>
+<li class="page_item page-item-2549"><a href="https://kochbucher.com/latest-news/">Neuesten Nachrichten</a></li>
+</ul></div>
+								</div><!--foot-menu-->
+								<div class="foot-copy relative">
+									<p>Copyright © 2023 Kochbucher</p>
+								</div><!--foot-copy-->
+							</div><!--foot-bot-->
+						</div><!--body-main-in-->
+					</div><!--body-main-out-->
+				</div><!--foot-bot-->
+			</footer>
+	</div><!--site-wrap-->
+</div><!--site-->
+<div class="fly-to-top back-to-top">
+	<i class="fa fa-angle-up fa-3"></i>
+	<span class="to-top-text">To Top</span>
+</div><!--fly-to-top-->
+<div class="fly-fade">
+</div><!--fly-fade-->
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+
+	// Back to Top Button
+    	var duration = 500;
+    	$('.back-to-top').click(function(event) {
+          event.preventDefault();
+          $('html, body').animate({scrollTop: 0}, duration);
+          return false;
+	});
+
+	// Main Menu Dropdown Toggle
+	$('.menu-item-has-children a').click(function(event){
+	  event.stopPropagation();
+	  location.href = this.href;
+  	});
+
+	$('.menu-item-has-children').click(function(){
+    	  $(this).addClass('toggled');
+    	  if($('.menu-item-has-children').hasClass('toggled'))
+    	  {
+    	  $(this).children('ul').toggle();
+	  $('.fly-nav-menu').getNiceScroll().resize();
+	  }
+	  $(this).toggleClass('tog-minus');
+    	  return false;
+  	});
+
+	// Main Menu Scroll
+	 $('.fly-nav-menu').niceScroll({cursorcolor:"#888",cursorwidth: 7,cursorborder: 0,zindex:999999});
+
+	  	$(".comment-click-3734").on("click", function(){
+  	  $(".com-click-id-3734").show();
+	  $(".disqus-thread-3734").show();
+  	  $(".com-but-3734").hide();
+  	});
+
+	// Infinite Scroll
+	$('.infinite-content').infinitescroll({
+	  navSelector: ".nav-links",
+	  nextSelector: ".nav-links a:first",
+	  itemSelector: ".infinite-post",
+	  loading: {
+		msgText: "Loading more posts...",
+		finishedMsg: "Sorry, no more posts"
+	  },
+	  errorCallback: function(){ $(".inf-more-but").css("display", "none") }
+	});
+	$(window).unbind('.infscr');
+	$(".inf-more-but").click(function(){
+   		$('.infinite-content').infinitescroll('retrieve');
+        	return false;
+	});
+	if ($('.nav-links a').length) {
+		$('.inf-more-but').css('display','inline-block');
+	} else {
+		$('.inf-more-but').css('display','none');
+	}
+
+  // The slider being synced must be initialized first
+  $('.post-gallery-bot').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: true,
+    slideshow: false,
+    itemWidth: 80,
+    itemMargin: 10,
+    asNavFor: '.post-gallery-top'
+  });
+
+  $('.post-gallery-top').flexslider({
+    animation: "fade",
+    controlNav: false,
+    animationLoop: true,
+    slideshow: false,
+    	  prevText: "&lt;",
+          nextText: "&gt;",
+    sync: ".post-gallery-bot"
+  });
+
+});
+
+</script>
+
+<script type='text/javascript' src='https://kochbucher.com/wp-includes/js/comment-reply.min.js?ver=6.3.1' id='comment-reply-js'></script>
+<script type='text/javascript' src='https://kochbucher.com/wp-content/themes/flex-mag/js/scripts.js?ver=6.3.1' id='mvp-flexmag-js'></script>
+<script type='text/javascript' src='https://kochbucher.com/wp-content/themes/flex-mag/js/jquery.infinitescroll.min.js?ver=6.3.1' id='mvp-infinitescroll-js'></script>
+<script type='text/javascript' src='https://kochbucher.com/wp-content/themes/flex-mag/js/retina.js?ver=6.3.1' id='retina-js'></script>
+</body>
+</html>

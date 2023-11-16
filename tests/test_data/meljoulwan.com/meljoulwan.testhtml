@@ -1,0 +1,1003 @@
+<!DOCTYPE html><html class="no-js" lang=""><head><meta charset="utf-8"/>
+<script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>var __ez=__ez||{};__ez.stms=Date.now();__ez.evt={};__ez.script={};__ez.ck=__ez.ck||{};__ez.template={};__ez.template.isOrig=true;__ez.queue=function(){var e=0,i=0,t=[],n=!1,o=[],r=[],s=!0,a=function(e,i,n,o,r,s,a){var l=arguments.length>7&&void 0!==arguments[7]?arguments[7]:window,d=this;this.name=e,this.funcName=i,this.parameters=null===n?null:p(n)?n:[n],this.isBlock=o,this.blockedBy=r,this.deleteWhenComplete=s,this.isError=!1,this.isComplete=!1,this.isInitialized=!1,this.proceedIfError=a,this.fWindow=l,this.isTimeDelay=!1,this.process=function(){f("... func = "+e),d.isInitialized=!0,d.isComplete=!0,f("... func.apply: "+e);var i=d.funcName.split("."),n=null,o=this.fWindow||window;i.length>3||(n=3===i.length?o[i[0]][i[1]][i[2]]:2===i.length?o[i[0]][i[1]]:o[d.funcName]),null!=n&&n.apply(null,this.parameters),!0===d.deleteWhenComplete&&delete t[e],!0===d.isBlock&&(f("----- F'D: "+d.name),u())}},l=function(e,i,t,n,o,r,s){var a=arguments.length>7&&void 0!==arguments[7]?arguments[7]:window,l=this;this.name=e,this.path=i,this.async=o,this.defer=r,this.isBlock=t,this.blockedBy=n,this.isInitialized=!1,this.isError=!1,this.isComplete=!1,this.proceedIfError=s,this.fWindow=a,this.isTimeDelay=!1,this.isPath=function(e){return"/"===e[0]&&"/"!==e[1]},this.getSrc=function(e){return void 0!==window.__ezScriptHost&&this.isPath(e)&&"banger.js"!==this.name?window.__ezScriptHost+e:e},this.process=function(){l.isInitialized=!0,f("... file = "+e);var i=this.fWindow?this.fWindow.document:document,t=i.createElement("script");t.src=this.getSrc(this.path),!0===o?t.async=!0:!0===r&&(t.defer=!0),t.onerror=function(){var e={url:window.location.href,name:l.name,path:l.path,user_agent:window.navigator.userAgent};"undefined"!=typeof _ezaq&&(e.pageview_id=_ezaq.page_view_id);var i=encodeURIComponent(JSON.stringify(e)),t=new XMLHttpRequest;t.open("GET","//g.ezoic.net/ezqlog?d="+i,!0),t.send(),f("----- ERR'D: "+l.name),l.isError=!0,!0===l.isBlock&&u()},t.onreadystatechange=t.onload=function(){var e=t.readyState;f("----- F'D: "+l.name),e&&!/loaded|complete/.test(e)||(l.isComplete=!0,!0===l.isBlock&&u())},i.getElementsByTagName("head")[0].appendChild(t)}},d=function(e,i){this.name=e,this.path="",this.async=!1,this.defer=!1,this.isBlock=!1,this.blockedBy=[],this.isInitialized=!0,this.isError=!1,this.isComplete=i,this.proceedIfError=!1,this.isTimeDelay=!1,this.process=function(){}};function c(e){!0!==h(e)&&0!=s&&e.process()}function h(e){if(!0===e.isTimeDelay&&!1===n)return f(e.name+" blocked = TIME DELAY!"),!0;if(p(e.blockedBy))for(var i=0;i<e.blockedBy.length;i++){var o=e.blockedBy[i];if(!1===t.hasOwnProperty(o))return f(e.name+" blocked = "+o),!0;if(!0===e.proceedIfError&&!0===t[o].isError)return!1;if(!1===t[o].isComplete)return f(e.name+" blocked = "+o),!0}return!1}function f(e){var i=window.location.href,t=new RegExp("[?&]ezq=([^&#]*)","i").exec(i);"1"===(t?t[1]:null)&&console.debug(e)}function u(){++e>200||(f("let's go"),m(o),m(r))}function m(e){for(var i in e)if(!1!==e.hasOwnProperty(i)){var t=e[i];!0===t.isComplete||h(t)||!0===t.isInitialized||!0===t.isError?!0===t.isError?f(t.name+": error"):!0===t.isComplete?f(t.name+": complete already"):!0===t.isInitialized&&f(t.name+": initialized already"):t.process()}}function p(e){return"[object Array]"==Object.prototype.toString.call(e)}return window.addEventListener("load",(function(){setTimeout((function(){n=!0,f("TDELAY -----"),u()}),5e3)}),!1),{addFile:function(e,i,n,s,a,d,h,f,u){var m=new l(e,i,n,s,a,d,h,u);!0===f?o[e]=m:r[e]=m,t[e]=m,c(m)},addDelayFile:function(e,i){var n=new l(e,i,!1,[],!1,!1,!0);n.isTimeDelay=!0,f(e+" ...  FILE! TDELAY"),r[e]=n,t[e]=n,c(n)},addFunc:function(e,n,s,l,d,h,f,u,m,p){!0===h&&(e=e+"_"+i++);var w=new a(e,n,s,l,d,f,u,p);!0===m?o[e]=w:r[e]=w,t[e]=w,c(w)},addDelayFunc:function(e,i,n){var o=new a(e,i,n,!1,[],!0,!0);o.isTimeDelay=!0,f(e+" ...  FUNCTION! TDELAY"),r[e]=o,t[e]=o,c(o)},items:t,processAll:u,setallowLoad:function(e){s=e},markLoaded:function(e){if(e&&0!==e.length){if(e in t){var i=t[e];!0===i.isComplete?f(i.name+" "+e+": error loaded duplicate"):(i.isComplete=!0,i.isInitialized=!0)}else t[e]=new d(e,!0);f("markLoaded dummyfile: "+t[e].name)}},logWhatsBlocked:function(){for(var e in t)!1!==t.hasOwnProperty(e)&&h(t[e])}}}();__ez.evt.add=function(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n()},__ez.evt.remove=function(e,t,n){e.removeEventListener?e.removeEventListener(t,n,!1):e.detachEvent?e.detachEvent("on"+t,n):delete e["on"+t]};__ez.script.add=function(e){var t=document.createElement("script");t.src=e,t.async=!0,t.type="text/javascript",document.getElementsByTagName("head")[0].appendChild(t)};__ez.dot={};__ez.queue.addFile('/detroitchicago/boise.js', '/detroitchicago/boise.js?gcb=195-0&cb=2', true, [], true, false, true, false);__ez.queue.addFile('/parsonsmaize/abilene.js', '/parsonsmaize/abilene.js?gcb=195-0&cb=28', true, [], true, false, true, false);</script>
+<script data-ezscrex="false" type="text/javascript" data-cfasync="false">window._ezaq = Object.assign({}, typeof window._ezaq !== "undefined" ? window._ezaq : {}, {"ad_cache_level":1,"domain_id":331501,"ezcache_level":2,"ezcache_skip_code":0,"has_bad_image":0,"has_bad_words":0,"is_sitespeed":0,"lt_cache_level":0,"page_view_id":"8a8d44de-391f-46d6-778f-c5ee8c489d0c","response_size_orig":95393,"response_time_orig":3,"template_id":120,"url":"http://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/","word_count":0,"worst_bad_word_level":0});__ez.queue.markLoaded('ezaqBaseReady');</script>
+<script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>__ez.queue.addFile('/parsonsmaize/mulvane.js', '/parsonsmaize/mulvane.js?gcb=195-0&cb=5', true, ['/parsonsmaize/abilene.js'], true, false, true, false);__ez.queue.addFile('/parsonsmaize/olathe.js', '/parsonsmaize/olathe.js?gcb=195-0&cb=20', false, ['/parsonsmaize/abilene.js','/parsonsmaize/mulvane.js'], true, false, true, false);__ez.queue.addFile('/porpoiseant/et.js', '/porpoiseant/et.js?gcb=195-0&cb=2', false, [], true, false, true, false);!function(){var e;__ez.vep=(e=[],{Add:function(i,t){__ez.dot.isDefined(i)&&__ez.dot.isValid(t)&&e.push({type:"video",video_impression_id:i,domain_id:__ez.dot.getDID(),t_epoch:__ez.dot.getEpoch(0),data:__ez.dot.dataToStr(t)})},Fire:function(){if(void 0===document.visibilityState||"prerender"!==document.visibilityState){if(__ez.dot.isDefined(e)&&e.length>0)for(;e.length>0;){var i=5;i>e.length&&(i=e.length);var t=e.splice(0,i),o=__ez.dot.getURL("/detroitchicago/grapefruit.gif")+"?orig="+(!0===__ez.template.isOrig?1:0)+"&v="+btoa(JSON.stringify(t));__ez.dot.Fire(o)}e=[]}}})}();</script><script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>!function(){function e(i){return e="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e(i)}__ez.pel=function(){var i=[];function t(t,o,d,_,n,r,a,s){if(__ez.dot.isDefined(t)&&0!=__ez.dot.isAnyDefined(t.getSlotElementId,t.ElementId)){void 0===s&&(s=!1);var p=parseInt(__ez.dot.getTargeting(t,"ap")),f=__ez.dot.getSlotIID(t),u=__ez.dot.getAdUnit(t,s),z=parseInt(__ez.dot.getTargeting(t,"compid")),g=0,c=0,l=function(i){if("undefined"==typeof _ezim_d)return!1;var t=__ez.dot.getAdUnitPath(i).split("/").pop();if("object"===("undefined"==typeof _ezim_d?"undefined":e(_ezim_d))&&_ezim_d.hasOwnProperty(t))return _ezim_d[t];for(var o in _ezim_d)if(o.split("/").pop()===t)return _ezim_d[o];return!1}(t);"object"==e(l)&&(void 0!==l.creative_id&&(c=l.creative_id),void 0!==l.line_item_id&&(g=l.line_item_id)),__ez.dot.isDefined(f,u)&&__ez.dot.isValid(o)&&("0"===f&&!0!==s||""===u||i.push({type:"impression",impression_id:f,domain_id:__ez.dot.getDID(),unit:u,t_epoch:__ez.dot.getEpoch(0),revenue:d,est_revenue:_,ad_position:p,ad_size:"",bid_floor_filled:n,bid_floor_prev:r,stat_source_id:a,country_code:__ez.dot.getCC(),pageview_id:__ez.dot.getPageviewId(),comp_id:z,line_item_id:g,creative_id:c,data:__ez.dot.dataToStr(o),is_orig:s||__ez.template.isOrig}))}}function o(){void 0!==document.visibilityState&&"prerender"===document.visibilityState||(__ez.dot.isDefined(i)&&i.length>0&&[i.filter((function(e){return e.is_orig})),i.filter((function(e){return!e.is_orig}))].forEach((function(e){for(;e.length>0;){var i=e[0].is_orig||!1,t=5;t>e.length&&(t=e.length);var o=e.splice(0,t),d=__ez.dot.getURL("/porpoiseant/army.gif")+"?orig="+(!0===i?1:0)+"&sts="+btoa(JSON.stringify(o));(void 0!==window.isAmp&&isAmp||void 0!==window.ezWp&&ezWp)&&void 0!==window._ezaq&&_ezaq.hasOwnProperty("domain_id")&&(d+="&visit_uuid="+_ezaq.visit_uuid),__ez.dot.Fire(d)}})),i=[])}return{Add:t,AddAndFire:function(e,i){t(e,i,0,0,0,0,0),o()},AddAndFireOrig:function(e,i){t(e,i,0,0,0,0,0,!0),o()},AddById:function(e,t,o,d){var _=e.split("/");if(__ez.dot.isDefined(e)&&3===_.length&&__ez.dot.isValid(t)){var n=_[0],r={type:"impression",impression_id:_[2],domain_id:__ez.dot.getDID(),unit:n,t_epoch:__ez.dot.getEpoch(0),pageview_id:__ez.dot.getPageviewId(),data:__ez.dot.dataToStr(t),is_orig:o||__ez.template.isOrig};void 0!==d&&(r.revenue=d),i.push(r)}},Fire:o,GetPixels:function(){return i}}}()}();__ez.queue.addFile('/detroitchicago/raleigh.js', '/detroitchicago/raleigh.js?gcb=195-0&cb=6', false, ['/parsonsmaize/abilene.js'], true, false, true, false);__ez.queue.addFile('/detroitchicago/vista.js', '/detroitchicago/vista.js?gcb=195-0&cb=5', false, ['/parsonsmaize/abilene.js'], true, false, true, false);__ez.queue.addFile('/detroitchicago/tampa.js', '/detroitchicago/tampa.js?gcb=195-0&cb=5', false, ['/parsonsmaize/abilene.js'], true, false, true, false);</script><base href="http://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/"/>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+        <meta name="description" content=""/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- Favicon Settings -->
+        <link rel="apple-touch-icon" sizes="57x57" href="http://meljoulwan.com/wp-content/themes/smudge/apple-touch-icon-57x57.png"/>
+        <link rel="apple-touch-icon" sizes="60x60" href="http://meljoulwan.com/wp-content/themes/smudge/apple-touch-icon-60x60.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="http://meljoulwan.com/wp-content/themes/smudge/apple-touch-icon-72x72.png"/>
+        <link rel="apple-touch-icon" sizes="76x76" href="http://meljoulwan.com/wp-content/themes/smudge/apple-touch-icon-76x76.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="http://meljoulwan.com/wp-content/themes/smudge/apple-touch-icon-114x114.png"/>
+        <link rel="apple-touch-icon" sizes="120x120" href="http://meljoulwan.com/wp-content/themes/smudge/apple-touch-icon-120x120.png"/>
+        <link rel="apple-touch-icon" sizes="144x144" href="http://meljoulwan.com/wp-content/themes/smudge/apple-touch-icon-144x144.png"/>
+        <link rel="apple-touch-icon" sizes="152x152" href="http://meljoulwan.com/wp-content/themes/smudge/apple-touch-icon-152x152.png"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="http://meljoulwan.com/wp-content/themes/smudge/apple-touch-icon-180x180.png"/>
+        <link rel="icon" type="image/png" href="http://meljoulwan.com/wp-content/themes/smudge/favicon-32x32.png" sizes="32x32"/>
+        <link rel="icon" type="image/png" href="http://meljoulwan.com/wp-content/themes/smudge/favicon-194x194.png" sizes="194x194"/>
+        <link rel="icon" type="image/png" href="http://meljoulwan.com/wp-content/themes/smudge/favicon-96x96.png" sizes="96x96"/>
+        <link rel="icon" type="image/png" href="http://meljoulwan.com/wp-content/themes/smudge/android-chrome-192x192.png" sizes="192x192"/>
+        <link rel="icon" type="image/png" href="http://meljoulwan.com/wp-content/themes/smudge/favicon-16x16.png" sizes="16x16"/>
+        <link rel="manifest" href="http://meljoulwan.com/wp-content/themes/smudge/manifest.json"/>
+        <meta name="msapplication-TileColor" content="#221f1f"/>
+        <meta name="msapplication-TileImage" content="http://meljoulwan.com/wp-content/themes/smudge/mstile-144x144.png"/>
+        <meta name="theme-color" content="#ffffff"/>
+                <meta name="robots" content="max-image-preview:large"/>
+
+<!-- SEO Ultimate (http://www.seodesignsolutions.com/wordpress-seo/) -->
+	<link rel="canonical" href="http://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/"/>
+	<meta name="description" content="Chicken meatballs, fragrant with pesto, and cooked in a simple tomato sauce. It&#39;s garlicky, basil-y &amp; guaranteed to &#34;bring the house down.&#34;"/>
+	<meta prefix="og: http://ogp.me/ns#" property="og:type" content="article"/>
+	<meta prefix="og: http://ogp.me/ns#" property="og:title" content="MMM: Chicken Pesto Meatballs In Marinara"/>
+	<meta prefix="og: http://ogp.me/ns#" property="og:description" content="Chicken meatballs, fragrant with pesto, and cooked in a simple tomato sauce. It&#39;s garlicky, basil-y &amp; guaranteed to &#34;bring the house down.&#34;"/>
+	<meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/"/>
+	<meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://meljoulwan.com/wp-content/uploads/2014/03/pestochicken.jpg"/>
+	<meta prefix="article: http://ogp.me/ns/article#" property="article:published_time" content="2014-03-17"/>
+	<meta prefix="article: http://ogp.me/ns/article#" property="article:modified_time" content="2018-08-18"/>
+	<meta prefix="article: http://ogp.me/ns/article#" property="article:author" content="https://meljoulwan.com/author/melkathj/"/>
+	<meta prefix="article: http://ogp.me/ns/article#" property="article:tag" content="Blog"/>
+	<meta prefix="article: http://ogp.me/ns/article#" property="article:tag" content="Poultry"/>
+	<meta prefix="article: http://ogp.me/ns/article#" property="article:tag" content="Recipes"/>
+	<meta prefix="article: http://ogp.me/ns/article#" property="article:tag" content="Whole30"/>
+	<meta prefix="article: http://ogp.me/ns/article#" property="article:tag" content="basil"/>
+	<meta prefix="article: http://ogp.me/ns/article#" property="article:tag" content="chicken"/>
+	<meta prefix="article: http://ogp.me/ns/article#" property="article:tag" content="Italian"/>
+	<meta prefix="article: http://ogp.me/ns/article#" property="article:tag" content="march meatball madness"/>
+	<meta prefix="article: http://ogp.me/ns/article#" property="article:tag" content="Aside"/>
+	<meta prefix="og: http://ogp.me/ns#" property="og:site_name" content="Mel Joulwan : Well Fed"/>
+	<meta name="twitter:card" content="summary"/>
+<!-- /SEO Ultimate -->
+
+
+<!-- Social Warfare v4.4.2 https://warfareplugins.com - BEGINNING OF OUTPUT -->
+<meta property="og:description" content="Chicken meatballs, fragrant with pesto, are gently cooked in a simple tomato sauce. It&#39;s garlicky, basil-y goodness guaranteed to &#39;bring the house down.&#39;"/>
+<meta property="og:title" content="Chicken Pesto Meatballs in Marinara Sauce"/>
+<meta property="og:image" content="https://meljoulwan.com/wp-content/uploads/2015/10/pestochicken.jpg"/>
+<meta property="fb:app_id" content="529576650555031"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/"/>
+<meta property="og:site_name" content="Mel Joulwan : Well Fed"/>
+<meta property="article:published_time" content="2014-03-17T06:01:44-04:00"/>
+<meta property="article:modified_time" content="2018-08-18T17:49:38-04:00"/>
+<meta property="og:updated_time" content="2018-08-18T17:49:38-04:00"/>
+<meta name="twitter:title" content="Chicken Pesto Meatballs in Marinara Sauce"/>
+<meta name="twitter:description" content="Chicken meatballs, fragrant with pesto, are gently cooked in a simple tomato sauce. It&#39;s garlicky, basil-y goodness guaranteed to &#39;bring the house down.&#39;"/>
+<meta name="twitter:image" content="https://meljoulwan.com/wp-content/uploads/2015/10/pestochicken.jpg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<style>
+	@font-face {
+		font-family: "sw-icon-font";
+		src:url("http://meljoulwan.com/wp-content/plugins/social-warfare/assets/fonts/sw-icon-font.eot?ver=4.4.2");
+		src:url("http://meljoulwan.com/wp-content/plugins/social-warfare/assets/fonts/sw-icon-font.eot?ver=4.4.2#iefix") format("embedded-opentype"),
+		url("http://meljoulwan.com/wp-content/plugins/social-warfare/assets/fonts/sw-icon-font.woff?ver=4.4.2") format("woff"),
+		url("http://meljoulwan.com/wp-content/plugins/social-warfare/assets/fonts/sw-icon-font.ttf?ver=4.4.2") format("truetype"),
+		url("http://meljoulwan.com/wp-content/plugins/social-warfare/assets/fonts/sw-icon-font.svg?ver=4.4.2#1445203416") format("svg");
+		font-weight: normal;
+		font-style: normal;
+		font-display:block;
+	}
+</style>
+<!-- Social Warfare v4.4.2 https://warfareplugins.com - END OF OUTPUT -->
+
+<link rel="alternate" type="application/rss+xml" title="Mel Joulwan : Well Fed » MMM: Chicken Pesto Meatballs In Marinara Comments Feed" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/feed/"/>
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/meljoulwan.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=b99885158619e48800e9bbca55432a10"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="social-warfare-block-css-css" href="http://meljoulwan.com/wp-content/plugins/social-warfare/assets/js/post-editor/dist/blocks.style.build.css?ver=b99885158619e48800e9bbca55432a10" type="text/css" media="all"/>
+<link rel="stylesheet" id="wp-block-library-css" href="http://meljoulwan.com/wp-includes/css/dist/block-library/style.min.css?ver=b99885158619e48800e9bbca55432a10" type="text/css" media="all"/>
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="stcr-style-css" href="http://meljoulwan.com/wp-content/plugins/subscribe-to-comments-reloaded/includes/css/stcr-style.css?ver=b99885158619e48800e9bbca55432a10" type="text/css" media="all"/>
+<link rel="stylesheet" id="social_warfare-css" href="http://meljoulwan.com/wp-content/plugins/social-warfare/assets/css/style.min.css?ver=4.4.2" type="text/css" media="all"/>
+<script type="text/javascript" src="http://meljoulwan.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0" id="jquery-core-js"></script>
+<script type="text/javascript" src="http://meljoulwan.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://meljoulwan.com/wp-json/"/><link rel="alternate" type="application/json" href="https://meljoulwan.com/wp-json/wp/v2/posts/5883"/><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://meljoulwan.com/xmlrpc.php?rsd"/>
+<link rel="shortlink" href="https://meljoulwan.com/?p=5883"/>
+<link rel="alternate" type="application/json+oembed" href="https://meljoulwan.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmeljoulwan.com%2F2014%2F03%2F17%2Fchicken-pesto-meatballs-marinara%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="https://meljoulwan.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmeljoulwan.com%2F2014%2F03%2F17%2Fchicken-pesto-meatballs-marinara%2F&amp;format=xml"/>
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//meljoulwan.com/?wordfence_lh=1&hid=C631270EE201AD7A8608884DF75F2A40');
+</script><style id="sccss">/* Enter Your Custom CSS Here */
+
+
+.page-id-5242 .recipe-post img {
+    width: auto;
+    height: auto;
+}
+
+.page-id-5241 .recipe-post img {
+    width: auto;
+    height: auto;
+}
+
+.page-id-5234 .recipe-post img {
+    width: auto;
+    height: auto;
+}
+
+.page-id-5235 .recipe-post img {
+    width: auto;
+    height: auto;
+}
+
+.page-id-2055 .recipe-post img {
+    width: auto;
+    height: auto;
+}
+
+
+@media screen and (max-width: 965px){
+  .recipe-post img {
+    width: 100% !important;
+    height: auto; }
+}
+</style>        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:900|Yanone+Kaffeesatz:700|Roboto:400italic,700,400|Alegreya|Montserrat:700|Roboto+Slab:400,300,100" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="http://meljoulwan.com/wp-content/themes/smudge/css/main.css?version=1.38"/>
+        <script src="http://meljoulwan.com/wp-content/themes/smudge/js/vendor/modernizr-2.8.0.min.js"></script>
+
+<title>Pesto Chicken Meatballs in Marinara Sauce</title>
+    <script type='text/javascript'>
+var ezoTemplate = 'old_site_noads';
+var ezouid = '1';
+var ezoFormfactor = '1';
+</script><script data-ezscrex="false" type='text/javascript'>
+var soc_app_id = '0';
+var did = 331501;
+var ezdomain = 'meljoulwan.com';
+var ezoicSearchable = 1;
+</script>
+<script data-ezscrex="false" type="text/javascript" data-cfasync="false">var _ezaq = window._ezaq = Object.assign({}, typeof window._ezaq !== "undefined" ? window._ezaq : {}, {"ab_test_id":"mod82","ad_cache_level":1,"ad_lazyload_version":0,"ad_load_version":0,"city":"Fall River","country":"US","days_since_last_visit":-1,"domain_id":331501,"engaged_time_visit":0,"ezcache_level":2,"ezcache_skip_code":0,"form_factor_id":1,"framework_id":1,"has_bad_image":0,"has_bad_words":0,"is_embed":false,"is_return_visitor":false,"is_sitespeed":0,"last_page_load":"","last_pageview_id":"","lt_cache_level":0,"metro_code":521,"page_ad_positions":"","page_view_count":0,"page_view_id":"8a8d44de-391f-46d6-778f-c5ee8c489d0c","position_selection_id":0,"postal_code":"02720","pv_event_count":0,"response_size_orig":95393,"response_time_orig":3,"serverid":"i-09a741e45219ac6e6","state":"MA","t_epoch":1697060504,"template_id":120,"time_on_site_visit":0,"url":"http://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/","word_count":1816,"worst_bad_word_level":0});var _ezExtraQueries = "&ez_orig=1";</script>
+<script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false'>
+function create_ezolpl() {
+	var d = new Date();
+	d.setTime(d.getTime() + (365*24*60*60*1000));
+	var expires = "expires="+d.toUTCString();
+	__ez.ck.setByCat("ezux_lpl_331501=" + new Date().getTime() + "|" + _ezaq.page_view_id + "|" + _ezaq.is_return_visitor + "; " + expires, 3);
+}
+function attach_ezolpl() {
+	if (document.readyState === "complete") {
+		create_ezolpl();
+		return;
+	}
+	window.addEventListener("load", create_ezolpl);
+}
+
+__ez.queue.addFunc("attach_ezolpl", "attach_ezolpl", null, false, ['/detroitchicago/boise.js'], true, false, false, false);
+</script></head>
+<body class="post-template-default single single-post postid-5883 single-format-aside" id="smudge-chicken-pesto-meatballs-marinara">
+
+    <!--[if lt IE 8]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+    <a href="/" class="logo-head">Melissa Joulwan&#39;s Well Fed - Ingredients for a Happy Life</a>
+    <div class="social-head">
+        <a href="https://www.facebook.com/pages/The-Clothes-Make-The-Girl/200689133301047" target="_blank" class="btnFacebook"></a>        <a href="https://twitter.com/meljoulwan" target="_blank" class="btnTwitter"></a>        <a href="https://instagram.com/meljoulwan/" target="_blank" class="btnInstagram"></a>        <a href="https://www.pinterest.com/meljoulwan/" target="_blank" class="btnPinterest"></a>        <a href="/rss-feeds/" class="btnRSSFeed"></a>
+    </div>
+    <div class="ham">
+        <div class="top"></div>
+        <div class="mid"></div>
+        <div class="bottom"></div>
+    </div>
+</header>
+<nav>
+    <div class="nav-bg"></div>
+    <div class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-1474" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-1474"><a href="https://meljoulwan.com/category/recipes/">recipes</a>
+<ul class="sub-menu">
+	<li id="menu-item-6974" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-6974"><a href="https://meljoulwan.com/category/recipes/whole30/">Whole30</a></li>
+	<li id="menu-item-6976" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6976"><a href="https://meljoulwan.com/category/recipes/meats-recipes/">Meats</a></li>
+	<li id="menu-item-6977" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-6977"><a href="https://meljoulwan.com/category/recipes/poultry/">Poultry</a></li>
+	<li id="menu-item-1497" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1497"><a href="https://meljoulwan.com/category/recipes/fish/">fish/seafood</a></li>
+	<li id="menu-item-6975" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6975"><a href="https://meljoulwan.com/category/recipes/eggs/">Eggs</a></li>
+	<li id="menu-item-1461" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1461"><a href="https://meljoulwan.com/category/recipes/veggies/">veggies</a></li>
+	<li id="menu-item-1462" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1462"><a href="https://meljoulwan.com/category/recipes/salads/">salads</a></li>
+	<li id="menu-item-1464" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1464"><a href="https://meljoulwan.com/category/recipes/stews/">curries/stews</a></li>
+	<li id="menu-item-1499" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1499"><a href="https://meljoulwan.com/category/recipes/soups/">soups</a></li>
+	<li id="menu-item-1465" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1465"><a href="https://meljoulwan.com/category/recipes/sauces/">dressings/sauces</a></li>
+	<li id="menu-item-1498" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1498"><a href="https://meljoulwan.com/category/recipes/seasonings/">seasonings</a></li>
+	<li id="menu-item-1463" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1463"><a href="https://meljoulwan.com/category/recipes/nibbles/">nibbles</a></li>
+	<li id="menu-item-1466" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1466"><a href="https://meljoulwan.com/category/recipes/treats/">treats</a></li>
+</ul>
+</li>
+<li id="menu-item-1440" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1440"><a href="http://meljoulwan.com/">blog</a></li>
+<li id="menu-item-7373" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7373"><a href="https://meljoulwan.com/category/faves/">Fave Posts</a></li>
+<li id="menu-item-5255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5255"><a href="https://meljoulwan.com/cookbooks/">My Cookbooks</a>
+<ul class="sub-menu">
+	<li id="menu-item-11345" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11345"><a href="https://meljoulwan.com/cookbooks/about-well-fed-weeknights/">WF Weeknights</a></li>
+	<li id="menu-item-17891" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17891"><a href="https://meljoulwan.com/28-day-paleo-plan/">28-Day Paleo Plan</a></li>
+	<li id="menu-item-5256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5256"><a href="https://meljoulwan.com/about-well-fed/">well fed</a></li>
+	<li id="menu-item-5257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5257"><a href="https://meljoulwan.com/about-well-fed-2/">well fed 2</a></li>
+</ul>
+</li>
+<li id="menu-item-2490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2490"><a href="https://meljoulwan.com/paleo-101/">paleo 101</a></li>
+<li id="menu-item-11057" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11057"><a href="https://meljoulwan.com/paleo-meal-plans/">Meal Plans</a></li>
+<li id="menu-item-7229" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7229"><a href="https://meljoulwan.com/store/">Store</a></li>
+<li id="menu-item-1451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1451"><a href="https://meljoulwan.com/about/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-14933" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-14933"><a rel="privacy-policy" href="https://meljoulwan.com/privacy-policy/">Privacy Policy</a></li>
+</ul>
+</li>
+<li id="menu-item-7148" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7148"><a href="https://meljoulwan.com/contact/">Contact</a></li>
+<li id="menu-item-7150" class="nav-search menu-item menu-item-type-custom menu-item-object-custom menu-item-7150"><a>Search</a></li>
+</ul></div></nav>
+<div id="section-search">
+	<form role="search" method="get" class="search-form" id="search-form" action="/">
+		<input id="search-input" class="search-input" type="search" results="5" placeholder="What are you looking for?" name="s"/>
+	</form>
+</div>        <div id="primary" class="content-area clearfix">
+          <div id="content" class="site-content" role="main">
+            <!-- START: BLOG POST - RECIPE -->
+                        <div class="blog-post recipe-post clearfix">
+                <div class="cat-titles title-recipe"></div>
+                <h1>MMM: Chicken Pesto Meatballs In Marinara</h1>
+                                <div class="printURL">
+                    http://www.MelJoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/                </div>
+                <div class="recipe-copy">
+                    <h3>This recipe is part of March Meatball Madness; <a href="http://meljoulwan.com/2015/03/16/celebrate-march-meatball-madness/" target="_blank" rel="noopener">get all the recipes right here</a>.</h3>
+<p><a href="http://meljoulwan.com/2015/03/16/celebrate-march-meatball-madness/" target="_blank" rel="noopener"><img decoding="async" fetchpriority="high" class="aligncenter size-full wp-image-5896" src="http://meljoulwan.com/wp-content/uploads/2014/03/march_meatball_madness_f01.jpg" alt="march_meatball_madness_f01" width="592" height="159" srcset="https://meljoulwan.com/wp-content/uploads/2014/03/march_meatball_madness_f01.jpg 592w, https://meljoulwan.com/wp-content/uploads/2014/03/march_meatball_madness_f01-300x81.jpg 300w" sizes="(max-width: 592px) 100vw, 592px"/></a></p>
+<h3>Spinning today: tender chicken meatballs, fragrant with pesto, gently cooked in a dead-simple tomato sauce. It’s garlicky, basil-y goodness guaranteed to “bring the house down.”</h3>
+<p>This recipe uses ground chicken. If you can’t find it in your store, you can make it yourself. Just mince 1 pound boneless, skinless breasts in a food processor until smooth.</p>
+<p><a href="http://meljoulwan.com/wp-content/uploads/2014/03/pestochicken.jpg"><img decoding="async" class="aligncenter size-full wp-image-5937" src="http://meljoulwan.com/wp-content/uploads/2014/03/pestochicken.jpg" alt="pestochicken" width="592" height="392" srcset="https://meljoulwan.com/wp-content/uploads/2014/03/pestochicken.jpg 592w, https://meljoulwan.com/wp-content/uploads/2014/03/pestochicken-300x199.jpg 300w" sizes="(max-width: 592px) 100vw, 592px"/></a></p>
+<h2>Chicken Pesto Meatballs in Marinara Sauce</h2>
+<p><em> Serves 2-4 | Prep 10 min | Cook 25 min | <strong>Whole30 compliant</strong></em></p>
+<div class="swp_social_panel swp_horizontal_panel swp_flat_fresh  swp_default_full_color swp_other_full_color swp_individual_full_color scale-100 scale-full_width" data-min-width="1100" data-float-color="#ffffff" data-float="bottom" data-float-mobile="bottom" data-transition="slide" data-post-id="5883"><div class="nc_tweetContainer swp_share_button swp_twitter" data-network="twitter"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://twitter.com/intent/tweet?text=Chicken+meatballs%2C+fragrant+with+pesto%2C+are+gently+cooked+in+a+dead-simple+tomato+sauce.+It%27s+garlicky%2C+basil-y+goodness+guaranteed+to+%22bring+the+house+down.%22+%23wellfed+%23paleo+%23whole30&amp;url=https%3A%2F%2Fmeljoulwan.com%2F2014%2F03%2F17%2Fchicken-pesto-meatballs-marinara%2F" data-link="https://twitter.com/intent/tweet?text=Chicken+meatballs%2C+fragrant+with+pesto%2C+are+gently+cooked+in+a+dead-simple+tomato+sauce.+It%27s+garlicky%2C+basil-y+goodness+guaranteed+to+%22bring+the+house+down.%22+%23wellfed+%23paleo+%23whole30&amp;url=https%3A%2F%2Fmeljoulwan.com%2F2014%2F03%2F17%2Fchicken-pesto-meatballs-marinara%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_twitter_icon"></i><span class="swp_share">Tweet</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button swp_linkedin" data-network="linkedin"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fmeljoulwan.com%2F2014%2F03%2F17%2Fchicken-pesto-meatballs-marinara%2F" data-link="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fmeljoulwan.com%2F2014%2F03%2F17%2Fchicken-pesto-meatballs-marinara%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_linkedin_icon"></i><span class="swp_share">Share</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button swp_pinterest" data-network="pinterest"><a rel="nofollow noreferrer noopener" class="nc_tweet swp_share_link" data-count="0" data-link="https://pinterest.com/pin/create/button/?url=https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/&amp;media=https%3A%2F%2Fmeljoulwan.com%2Fwp-content%2Fuploads%2F2014%2F03%2Fchicken-pesto-meatballs-in-marinara-pint.jpg&amp;description=Chicken+meatballs%2C+fragrant+with+pesto%2C+are+gently+cooked+in+a+simple+tomato+sauce.+It%27s+garlicky%2C+basil-y+goodness+guaranteed+to+%22bring+the+house+down.%22+Paleo+compliant%2C+Whole30+approved."><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_pinterest_icon"></i><span class="swp_share">Pin</span></span></span><span class="swp_count">11</span></a></div><div class="nc_tweetContainer swp_share_button swp_facebook" data-network="facebook"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fmeljoulwan.com%2F2014%2F03%2F17%2Fchicken-pesto-meatballs-marinara%2F" data-link="https://www.facebook.com/share.php?u=https%3A%2F%2Fmeljoulwan.com%2F2014%2F03%2F17%2Fchicken-pesto-meatballs-marinara%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_facebook_icon"></i><span class="swp_share">Share</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button total_shares total_sharesalt"><span class="swp_count ">11 <span class="swp_label">Shares</span></span></div></div><div class="swp-content-locator"></div>                </div>
+
+
+                <!-- START: "TABBED LIST" -->
+                <div class="tabbed-list">
+                                    <h5>Ingredients:</h5>
+                                                                                    <h6>Meatballs:</h6>
+                                                                            <ul>
+                                                            <li><p><span style="font-weight: 400;">1/2 cup (packed) fresh basil leaves</span></p>
+</li>
+                                                            <li><p><span style="font-weight: 400;">1/4 cup fresh parsley leaves</span></p>
+</li>
+                                                            <li><p><span style="font-weight: 400;">1/4 cup walnuts</span></p>
+</li>
+                                                            <li><p><span style="font-weight: 400;">1 clove garlic, smashed and peeled</span></p>
+</li>
+                                                            <li><p><span style="font-weight: 400;">1 tablespoon extra-virgin olive oil</span></p>
+</li>
+                                                            <li><p><span style="font-weight: 400;">3/4 teaspoon salt</span></p>
+</li>
+                                                            <li><p><span style="font-weight: 400;">1/4 teaspoon ground black pepper</span></p>
+</li>
+                                                            <li><p><span style="font-weight: 400;">dash crushed red pepper flakes</span></p>
+</li>
+                                                            <li><p><span style="font-weight: 400;">1 pound ground chicken</span></p>
+</li>
+                                                            <li><p><span style="font-weight: 400;">2 tablespoons warm water</span></p>
+</li>
+                                                            <li><p><span style="font-weight: 400;">1/2 teaspoon cream of tartar</span></p>
+</li>
+                                                            <li><p><span style="font-weight: 400;">1/4 teaspoon baking soda</span></p>
+</li>
+                                                        </ul>
+                                                                                            <h6>Sauce:</h6>
+                                                                            <ul>
+                                                            <li><p>1 teaspoon extra-virgin olive oil</p>
+</li>
+                                                            <li><p>1-2 cloves garlic, minced</p>
+</li>
+                                                            <li><p>1 (14.5 ounce) can crushed tomatoes</p>
+</li>
+                                                            <li><p>1  (8 ounce) can tomato sauce</p>
+</li>
+                                                            <li><p>1/2 teaspoon salt</p>
+</li>
+                                                            <li><p>1/4 teaspoon ground black pepper</p>
+</li>
+                                                            <li><p>10 large fresh basil leaves, slivered</p>
+</li>
+                                                        </ul>
+                                                        </div>
+
+
+
+                <!-- START: COPY BLOCK (copy_block) -->
+                <div class="recipe-copy">
+                    <p><b>NOTE: </b><i><span style="font-weight: 400;">Why cream of tartar and baking soda?</span></i><span style="font-weight: 400;"> Traditional ground meat recipes are usually tenderized with breadcrumbs. I use a cream of tartar/baking soda combo to keep the meat light and juicy, with a nice, crisp exterior.</span></p>
+                </div>
+                <!-- END: COPY BLOCK (copy_block) -->
+
+
+
+                <!-- START: "NUMBERED LIST" -->
+                <div class="numbered-list">
+                                    <h5>Directions:</h5>
+                                                                                                                        <div class="num-list-group clearfix">
+                            <div class="num-list-num">1</div>
+                            <div class="num-list-copy"><p><span style="font-weight: 400;">Place the basil, parsley, walnuts, garlic, olive oil, salt, pepper, and red pepper flakes in the bowl of a food processor and purée until it forms a uniform paste. You may need to scrape down the sides a few times to get it to the right texture.</span></p>
+</div>
+                        </div>
+                                                <div class="num-list-group clearfix">
+                            <div class="num-list-num">2</div>
+                            <div class="num-list-copy"><p><span style="font-weight: 400;">Place the ground chicken in a large bowl, then add the pesto. In a small bowl or measuring cup, mix the water with the cream of tartar and baking soda  — it will fizz a little. Add to the bowl with the chicken and mix until all ingredients are evenly distributed. Cover and refrigerate at least 20 minutes and up to overnight.</span></p>
+</div>
+                        </div>
+                                                <div class="num-list-group clearfix">
+                            <div class="num-list-num">3</div>
+                            <div class="num-list-copy"><p><span style="font-weight: 400;"> While the meat is chilling, start the sauce. Heat a large non-stick skillet over </span><b>low heat</b><span style="font-weight: 400;"> and add the olive oil. When the oil is warm, about 2 minutes, add the crushed garlic and when it’s fragrant, about 30 seconds, add the tomatoes. Stir to combine and bring to a very low simmer.</span></p>
+</div>
+                        </div>
+                                                <div class="num-list-group clearfix">
+                            <div class="num-list-num">4</div>
+                            <div class="num-list-copy"><p><span style="font-weight: 400;">Remove the chicken dough from the fridge. Moisten your hands with cold water and shake to remove excess. Measure a rounded tablespoon of chicken and roll into a ball between your palms. Place gently in the tomato sauce. Repeat until all the balls are nestled into the sauce. It’s OK if they touch each other and aren’t completely submerged.</span></p>
+</div>
+                        </div>
+                                                <div class="num-list-group clearfix">
+                            <div class="num-list-num">5</div>
+                            <div class="num-list-copy"><p><span style="font-weight: 400;">Cook the meatballs in the tomato sauce, covered, about 25 minutes. Remove the lid from the pan and allow to cook another 5-10 minutes to allow the sauce to thicken a little. Add the fresh basil leaves, stir, and serve on</span><a href="http://meljoulwan.com/2008/09/30/eat-your-vegetables-spaghetti-squash/"> <span style="font-weight: 400;">spaghetti squash</span></a><span style="font-weight: 400;"> or</span><a href="http://meljoulwan.com/2014/05/27/basic-zucchini-noodles/"> <span style="font-weight: 400;">zucchini noodles</span></a><span style="font-weight: 400;">. Bonus if you drizzle with a little extra-virgin olive oil.</span></p>
+</div>
+                        </div>
+                                                                            </div>
+                <!-- END: "NUMBERED LIST" -->
+
+
+
+                <!-- START: COPY BLOCK (copy_block) -->
+                <div class="recipe-copy">
+                    <h3>These taste even better after sitting in the fridge for a day. To reheat, just plunk everything in a saucepan, cover with a lid, and warm up over medium heat.</h3>
+                </div>
+                <!-- END: COPY BLOCK (copy_block) -->
+
+
+
+                <!-- START: COPY BLOCK (copy_block) -->
+                <div class="recipe-copy">
+                    <p><a href="http://amzn.to/1mb5ZSp" target="_blank" rel="noopener"><img decoding="async" loading="lazy" class="size-full wp-image-14921 aligncenter" src="https://meljoulwan.com/wp-content/uploads/2018/04/wf-series-banner-01.jpg" alt="" width="704" height="271" srcset="https://meljoulwan.com/wp-content/uploads/2018/04/wf-series-banner-01.jpg 704w, https://meljoulwan.com/wp-content/uploads/2018/04/wf-series-banner-01-300x115.jpg 300w, https://meljoulwan.com/wp-content/uploads/2018/04/wf-series-banner-01-702x270.jpg 702w" sizes="(max-width: 704px) 100vw, 704px"/></a></p>
+                </div>
+                <!-- END: COPY BLOCK (copy_block) -->
+
+
+
+    <a href="javascript:print();" class="btnPrint">Print this recipe</a>            </div>
+
+            <div class="post-footer">
+                <div class="post-author">
+                    Posted by
+                    <span>Melissa Joulwan</span>
+                    <span class="orange">March 17, 2014</span>
+                </div>
+                <div class="post-info">
+                    <div class="post-category">IN
+                      <a href="https://meljoulwan.com/category/blog/" class="lnk-category-single title-blog">Blog</a><a href="https://meljoulwan.com/category/recipes/poultry/" class="lnk-category-single title-poultry">Poultry</a><a href="https://meljoulwan.com/category/recipes/" class="lnk-category-single title-recipes">Recipes</a><a href="https://meljoulwan.com/category/recipes/whole30/" class="lnk-category-single title-whole30">Whole30</a>
+                    </div>
+                    <div class="post-tage">TAGS:
+                      <a href="https://meljoulwan.com/tag/basil/" class="lnk-category-single title-basil">basil</a><a href="https://meljoulwan.com/tag/chicken/" class="lnk-category-single title-chicken">chicken</a><a href="https://meljoulwan.com/tag/italian/" class="lnk-category-single title-italian">Italian</a><a href="https://meljoulwan.com/tag/march-meatball-madness/" class="lnk-category-single title-march-meatball-madness">march meatball madness</a>
+                    </div>
+                </div>
+            </div>
+
+        <!-- END: BLOG POST - RECIPE -->
+                            <h2 class="related-title clearfix">Still hungry? Try these</h2>
+                                <!-- START: STANDARD ARTICLE LOOP - Only pull in 2 related posts -->
+        <div class="article clearfix">
+
+                                <div class="cols vert-post post-style-one">
+                <div class="article-info">
+                    <span class="info-month ">March</span>
+                    <span class="info-day">01</span>
+                    <span class="info-divider"></span>
+                    <span class="info-posted">Posted by<span class="info-author">Melissa Joulwan</span></span>
+                </div>
+                                                            <a href="https://meljoulwan.com/2013/03/01/school-italian-meat-sauce/" class="article-img" style="background-image:url(https://meljoulwan.com/wp-content/uploads/2013/02/meatsauce31.jpg);"><span></span></a>
+            <div class="article-content">
+                <a href="https://meljoulwan.com/2013/03/01/school-italian-meat-sauce/" class="post-title">Old School Italian Meat Sauce</a>
+                <p>In college, I had a 100% Italian-American boyfriend, and I was partially adopted by his very traditional family. His mom was about 4&#39;10&#34; and a...</p>
+                <a href="https://meljoulwan.com/2013/03/01/school-italian-meat-sauce/" class="lnk-read-more">Read More</a>
+            </div>
+            </div>
+
+                        <div class="cols vert-post post-style-two clearfix">
+                <div class="article-info">
+                    <span class="info-month ">November</span>
+                    <span class="info-day">14</span>
+                    <span class="info-divider"></span>
+                    <span class="info-posted">Posted by<span class="info-author">Melissa Joulwan</span></span>
+                </div>
+                                                            <a href="https://meljoulwan.com/2013/11/14/turkey-cranberry-meatballs/" class="article-img" style="background-image:url(https://meljoulwan.com/wp-content/uploads/2013/11/turkeymeatballs1.jpg);"><span></span></a>
+            <div class="article-content">
+                <a href="https://meljoulwan.com/2013/11/14/turkey-cranberry-meatballs/" class="post-title">Turkey &amp; Cranberry Meatballs</a>
+                <p>Thanksgiving – a.k.a, my favorite holiday – is just two weeks away. If you&#39;re anything like me, all of the recipes popping up in my...</p>
+                <a href="https://meljoulwan.com/2013/11/14/turkey-cranberry-meatballs/" class="lnk-read-more">Read More</a>
+            </div>
+            </div>
+
+    </div>
+            <div class="comments-list clearfix">
+
+<div id="comments" class="comments-area">
+
+			<h2 class="comments-title">
+			Comments
+		</h2>
+
+
+		<ul class="comment-list">
+					<li class="comment even thread-even depth-1" id="comment-160665">
+				<div id="div-comment-160665" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/3dd3de095f731dc7333561e3cd772462?s=75&amp;d=blank&amp;r=g" srcset="http://0.gravatar.com/avatar/3dd3de095f731dc7333561e3cd772462?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn">Becky Castilleja</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-160665">March 17, 2014 at 8:59 pm</a>		</div>
+
+		<p>I made this tonight for my family.  We really liked it, a little spicy but we enjoyed eating it!!</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=160665#respond" data-commentid="160665" data-postid="5883" data-belowelement="div-comment-160665" data-respondelement="respond" data-replyto="Reply to Becky Castilleja" aria-label="Reply to Becky Castilleja">Reply</a></div>
+				</div>
+				</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-162906">
+				<div id="div-comment-162906" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/538cfb62e3cac33cecbe46b670161bf7?s=75&amp;d=blank&amp;r=g" srcset="http://2.gravatar.com/avatar/538cfb62e3cac33cecbe46b670161bf7?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn">April</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-162906">March 18, 2014 at 6:59 pm</a>		</div>
+
+		<p>Hi!  I love your books and your blog!  I am currently in the midst of making your “best chicken you will ever eat, and I may have ruined it.  I fell asleep during the brining, and didn’t have time to rinse and store the breast prior to rushing out to work.  Do you think it’s still good and not over seasoned?  *Fingers crossed*</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=162906#respond" data-commentid="162906" data-postid="5883" data-belowelement="div-comment-162906" data-respondelement="respond" data-replyto="Reply to April" aria-label="Reply to April">Reply</a></div>
+				</div>
+				<ul class="children">
+		<li class="comment even depth-2 parent" id="comment-164290">
+				<div id="div-comment-164290" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/ddf79e77c573e316b1253ba25dfa9b6f?s=75&amp;d=blank&amp;r=g" srcset="http://1.gravatar.com/avatar/ddf79e77c573e316b1253ba25dfa9b6f?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn"><a href="http://meljoulwan.com" class="url" rel="ugc">Mel</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-164290">March 19, 2014 at 11:10 am</a>		</div>
+
+		<p>I’ve brined for up to 24 hours and it’s fine. The only issue is that the texture of the chicken can get a little weird after that long — but the taste should be OK.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=164290#respond" data-commentid="164290" data-postid="5883" data-belowelement="div-comment-164290" data-respondelement="respond" data-replyto="Reply to Mel" aria-label="Reply to Mel">Reply</a></div>
+				</div>
+				<ul class="children">
+		<li class="comment odd alt depth-3" id="comment-166505">
+				<div id="div-comment-166505" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/538cfb62e3cac33cecbe46b670161bf7?s=75&amp;d=blank&amp;r=g" srcset="http://2.gravatar.com/avatar/538cfb62e3cac33cecbe46b670161bf7?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn">April</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-166505">March 22, 2014 at 10:38 am</a>		</div>
+
+		<p>Thank you!  The chicken turned out AMAZING!  I ate it for lunch over spinach salad with a little Tessamae’s Paleo Southwest Rach Dressing, so YUM.  😉</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=166505#respond" data-commentid="166505" data-postid="5883" data-belowelement="div-comment-166505" data-respondelement="respond" data-replyto="Reply to April" aria-label="Reply to April">Reply</a></div>
+				</div>
+				</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1 parent" id="comment-168786">
+				<div id="div-comment-168786" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/ac4b15ed5a2325874798c6ad73ca991e?s=75&amp;d=blank&amp;r=g" srcset="http://1.gravatar.com/avatar/ac4b15ed5a2325874798c6ad73ca991e?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn">CH</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-168786">March 28, 2014 at 12:56 pm</a>		</div>
+
+		<p>Can you also use a blender in place of fod processor</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=168786#respond" data-commentid="168786" data-postid="5883" data-belowelement="div-comment-168786" data-respondelement="respond" data-replyto="Reply to CH" aria-label="Reply to CH">Reply</a></div>
+				</div>
+				<ul class="children">
+		<li class="comment odd alt depth-2" id="comment-168817">
+				<div id="div-comment-168817" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/ddf79e77c573e316b1253ba25dfa9b6f?s=75&amp;d=blank&amp;r=g" srcset="http://1.gravatar.com/avatar/ddf79e77c573e316b1253ba25dfa9b6f?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn"><a href="http://meljoulwan.com" class="url" rel="ugc">Mel</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-168817">March 28, 2014 at 3:19 pm</a>		</div>
+
+		<p>Yes, you should be able to make the pesto in a blender. You might need to scrape down the sides a few times since there’s so little liquid.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=168817#respond" data-commentid="168817" data-postid="5883" data-belowelement="div-comment-168817" data-respondelement="respond" data-replyto="Reply to Mel" aria-label="Reply to Mel">Reply</a></div>
+				</div>
+				</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-182018">
+				<div id="div-comment-182018" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/ac49e963c92a631d75f0f490c89db535?s=75&amp;d=blank&amp;r=g" srcset="http://1.gravatar.com/avatar/ac49e963c92a631d75f0f490c89db535?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn">malori</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-182018">April 21, 2014 at 9:46 pm</a>		</div>
+
+		<p>Delish!!! These might be even better than the Moroccan meatballs. Such a simple recipe – lots of ingredients but come together so easily. Me and the bf ate almost all of it 🙂</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=182018#respond" data-commentid="182018" data-postid="5883" data-belowelement="div-comment-182018" data-respondelement="respond" data-replyto="Reply to malori" aria-label="Reply to malori">Reply</a></div>
+				</div>
+				</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1" id="comment-192824">
+				<div id="div-comment-192824" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/3e6812f5a512323ea69888d07f0f313f?s=75&amp;d=blank&amp;r=g" srcset="http://0.gravatar.com/avatar/3e6812f5a512323ea69888d07f0f313f?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn">Lauren</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-192824">July 9, 2014 at 10:07 pm</a>		</div>
+
+		<p>Just made these with ground turkey (when I made them with chicken they lasted like two days because I couldn’t stop eating them!).  Turkey was just as good!</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=192824#respond" data-commentid="192824" data-postid="5883" data-belowelement="div-comment-192824" data-respondelement="respond" data-replyto="Reply to Lauren" aria-label="Reply to Lauren">Reply</a></div>
+				</div>
+				</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1 parent" id="comment-193323">
+				<div id="div-comment-193323" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/e3e1cd3602ef0e411b11f8a47b61d336?s=75&amp;d=blank&amp;r=g" srcset="http://2.gravatar.com/avatar/e3e1cd3602ef0e411b11f8a47b61d336?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn">Lori</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-193323">August 6, 2014 at 12:08 pm</a>		</div>
+
+		<p>I have an allergy to tree nuts, can I omit the walnuts? Or replace it? I can have cashews and pistachios….</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=193323#respond" data-commentid="193323" data-postid="5883" data-belowelement="div-comment-193323" data-respondelement="respond" data-replyto="Reply to Lori" aria-label="Reply to Lori">Reply</a></div>
+				</div>
+				<ul class="children">
+		<li class="comment odd alt depth-2" id="comment-193355">
+				<div id="div-comment-193355" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/ddf79e77c573e316b1253ba25dfa9b6f?s=75&amp;d=blank&amp;r=g" srcset="http://1.gravatar.com/avatar/ddf79e77c573e316b1253ba25dfa9b6f?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn"><a href="http://meljoulwan.com" class="url" rel="ugc">Melissa Joulwan</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-193355">August 7, 2014 at 8:09 am</a>		</div>
+
+		<p>Cashews should work well because they’re kind of creamy and mild.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=193355#respond" data-commentid="193355" data-postid="5883" data-belowelement="div-comment-193355" data-respondelement="respond" data-replyto="Reply to Melissa Joulwan" aria-label="Reply to Melissa Joulwan">Reply</a></div>
+				</div>
+				</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-195355">
+				<div id="div-comment-195355" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/6aec889364c77190c0a84509ce9cfff2?s=75&amp;d=blank&amp;r=g" srcset="http://0.gravatar.com/avatar/6aec889364c77190c0a84509ce9cfff2?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn">Sara</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-195355">November 8, 2014 at 5:34 pm</a>		</div>
+
+		<p>Just made these but stuffed them with a herb goat cheese and baked them instead! Soooo good!!! Zucchini noodles for the win 🙂</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=195355#respond" data-commentid="195355" data-postid="5883" data-belowelement="div-comment-195355" data-respondelement="respond" data-replyto="Reply to Sara" aria-label="Reply to Sara">Reply</a></div>
+				</div>
+				</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-196093">
+				<div id="div-comment-196093" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/7d3bb9dc5b080df8d6d9fe50507dd7c4?s=75&amp;d=blank&amp;r=g" srcset="http://1.gravatar.com/avatar/7d3bb9dc5b080df8d6d9fe50507dd7c4?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn">Colleen</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-196093">December 11, 2014 at 3:21 pm</a>		</div>
+
+		<p>I absolutely love these meatballs. But I recently started a Paleo version of the SCD that doesn’t allow cream of tartar. I know there are a few different types of substitutions but I was wondering which you would recommend for this recipe? 1 egg? lime juice or vinegar + baking soda? Thanks!</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=196093#respond" data-commentid="196093" data-postid="5883" data-belowelement="div-comment-196093" data-respondelement="respond" data-replyto="Reply to Colleen" aria-label="Reply to Colleen">Reply</a></div>
+				</div>
+				<ul class="children">
+		<li class="comment even depth-2" id="comment-196104">
+				<div id="div-comment-196104" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/9a9c41065fe9464c86f92511d421026f?s=75&amp;d=blank&amp;r=g" srcset="http://0.gravatar.com/avatar/9a9c41065fe9464c86f92511d421026f?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn"><a href="http://meljoulwan.com" class="url" rel="ugc">Melissa Joulwan</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-196104">December 11, 2014 at 5:34 pm</a>		</div>
+
+		<p>You can either skip it all together or add an egg. The egg will help with leavening a bit. You could also use baking soda + red wine or balsamic vinegar; just a little vinegar to make the baking soda activate. Enjoy!</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=196104#respond" data-commentid="196104" data-postid="5883" data-belowelement="div-comment-196104" data-respondelement="respond" data-replyto="Reply to Melissa Joulwan" aria-label="Reply to Melissa Joulwan">Reply</a></div>
+				</div>
+				</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1 parent" id="comment-197683">
+				<div id="div-comment-197683" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/71c2990acaf5191131a3d4bc610a2329?s=75&amp;d=blank&amp;r=g" srcset="http://1.gravatar.com/avatar/71c2990acaf5191131a3d4bc610a2329?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn">Jaimewife</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-197683">February 7, 2015 at 11:04 am</a>		</div>
+
+		<p>Started researching Whole30 and found you through their website. I LOVE your blog! Quick question on the walnuts, hubby has a nut allergy and can only have pine nuts. Would that be an appropriate substitute? Thank you!!</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=197683#respond" data-commentid="197683" data-postid="5883" data-belowelement="div-comment-197683" data-respondelement="respond" data-replyto="Reply to Jaimewife" aria-label="Reply to Jaimewife">Reply</a></div>
+				</div>
+				<ul class="children">
+		<li class="comment even depth-2" id="comment-197707">
+				<div id="div-comment-197707" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/9a9c41065fe9464c86f92511d421026f?s=75&amp;d=blank&amp;r=g" srcset="http://0.gravatar.com/avatar/9a9c41065fe9464c86f92511d421026f?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn"><a href="http://meljoulwan.com" class="url" rel="ugc">Melissa Joulwan</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-197707">February 9, 2015 at 1:37 pm</a>		</div>
+
+		<p>Absolutely! Pine nuts will taste awesome! I used walnuts in this recipe because they’re a little more affordable, but my first choice for pesto is usually pine nuts.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=197707#respond" data-commentid="197707" data-postid="5883" data-belowelement="div-comment-197707" data-respondelement="respond" data-replyto="Reply to Melissa Joulwan" aria-label="Reply to Melissa Joulwan">Reply</a></div>
+				</div>
+				</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-197735">
+				<div id="div-comment-197735" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/63f1b9f87b86e9e33540c0d5f6551805?s=75&amp;d=blank&amp;r=g" srcset="http://0.gravatar.com/avatar/63f1b9f87b86e9e33540c0d5f6551805?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn">Julia</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-197735">February 10, 2015 at 10:35 am</a>		</div>
+
+		<p>What is the volume of pesto you add? I have pre-made pesto in the freezer.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=197735#respond" data-commentid="197735" data-postid="5883" data-belowelement="div-comment-197735" data-respondelement="respond" data-replyto="Reply to Julia" aria-label="Reply to Julia">Reply</a></div>
+				</div>
+				<ul class="children">
+		<li class="comment even depth-2" id="comment-197759">
+				<div id="div-comment-197759" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/9a9c41065fe9464c86f92511d421026f?s=75&amp;d=blank&amp;r=g" srcset="http://0.gravatar.com/avatar/9a9c41065fe9464c86f92511d421026f?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn"><a href="http://meljoulwan.com" class="url" rel="ugc">Melissa Joulwan</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-197759">February 11, 2015 at 2:15 pm</a>		</div>
+
+		<p>I would use 2-3 tablespoons.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=197759#respond" data-commentid="197759" data-postid="5883" data-belowelement="div-comment-197759" data-respondelement="respond" data-replyto="Reply to Melissa Joulwan" aria-label="Reply to Melissa Joulwan">Reply</a></div>
+				</div>
+				</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1 parent" id="comment-200332">
+				<div id="div-comment-200332" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/dc75792d63952f053023abc97c989cad?s=75&amp;d=blank&amp;r=g" srcset="http://1.gravatar.com/avatar/dc75792d63952f053023abc97c989cad?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn">Debbie</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-200332">October 1, 2015 at 9:30 am</a>		</div>
+
+		<p>Love this recipe! Even my husband who pretty much hates the paleo/whole30 concept loves these. I usually make it with turkey mince but I have an abundance of chicken breasts in my freezer which needs using so going to make a big batch. Do I need to double the tartar/soda mix when I double the rest of the ingredients?</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=200332#respond" data-commentid="200332" data-postid="5883" data-belowelement="div-comment-200332" data-respondelement="respond" data-replyto="Reply to Debbie" aria-label="Reply to Debbie">Reply</a></div>
+				</div>
+				<ul class="children">
+		<li class="comment even depth-2" id="comment-200417">
+				<div id="div-comment-200417" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/9a9c41065fe9464c86f92511d421026f?s=75&amp;d=blank&amp;r=g" srcset="http://0.gravatar.com/avatar/9a9c41065fe9464c86f92511d421026f?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn"><a href="http://meljoulwan.com" class="url" rel="ugc">Melissa Joulwan</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-200417">October 2, 2015 at 2:26 pm</a>		</div>
+
+		<p>YAY! Glad it’s a hit!</p>
+<p>Yes, you should double everything in the meatballs, including the leavening ingredients and water.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=200417#respond" data-commentid="200417" data-postid="5883" data-belowelement="div-comment-200417" data-respondelement="respond" data-replyto="Reply to Melissa Joulwan" aria-label="Reply to Melissa Joulwan">Reply</a></div>
+				</div>
+				</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-202188">
+				<div id="div-comment-202188" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/1c68c94affc573f23b5b73274d1f9926?s=75&amp;d=blank&amp;r=g" srcset="http://1.gravatar.com/avatar/1c68c94affc573f23b5b73274d1f9926?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn">jasmine</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-202188">March 24, 2016 at 11:54 am</a>		</div>
+
+		<p>First off, I absolutely love your website and have been relying on your recipes since my first whole30 last january.  I want to make these meatballs and happen to have some extra chicken breasts lying around, but I’ve already planned my meals for the week.  Will these meatballs hold up in the freezer until I can incorporate them in my meal plan?</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=202188#respond" data-commentid="202188" data-postid="5883" data-belowelement="div-comment-202188" data-respondelement="respond" data-replyto="Reply to jasmine" aria-label="Reply to jasmine">Reply</a></div>
+				</div>
+				<ul class="children">
+		<li class="comment even depth-2" id="comment-202207">
+				<div id="div-comment-202207" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/9a9c41065fe9464c86f92511d421026f?s=75&amp;d=blank&amp;r=g" srcset="http://0.gravatar.com/avatar/9a9c41065fe9464c86f92511d421026f?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn"><a href="http://meljoulwan.com" class="url" rel="ugc">Melissa Joulwan</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-202207">March 27, 2016 at 8:51 am</a>		</div>
+
+		<p>They freeze great! Cool the whole shebang in the fridge, then place in the freezer. Defrost in the fridge when you want to eat them, and slowly reheat the meatballs and sauce in a saucepan. Enjoy!</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=202207#respond" data-commentid="202207" data-postid="5883" data-belowelement="div-comment-202207" data-respondelement="respond" data-replyto="Reply to Melissa Joulwan" aria-label="Reply to Melissa Joulwan">Reply</a></div>
+				</div>
+				</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1 parent" id="comment-227025">
+				<div id="div-comment-227025" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/7d09957f241c5068b724020d7f01a104?s=75&amp;d=blank&amp;r=g" srcset="http://1.gravatar.com/avatar/7d09957f241c5068b724020d7f01a104?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn">Cyndy</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-227025">September 4, 2018 at 8:55 pm</a>		</div>
+
+		<p>Oh my!!! It was a comedy of errors yesterday–ground turkey wasn’t thawed, tripling the recipe wouldn’t fit in my mini-processor, etc., after 2.5 hours of prep, I decided to wait until today to make the sauce and cook the meatballs. YUMMERS!! Finding out that I am gluten and dairy intolerant isn’t so bad if all of the recipes I make taste as good as this! THANK YOU!!!</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=227025#respond" data-commentid="227025" data-postid="5883" data-belowelement="div-comment-227025" data-respondelement="respond" data-replyto="Reply to Cyndy" aria-label="Reply to Cyndy">Reply</a></div>
+				</div>
+				<ul class="children">
+		<li class="comment byuser comment-author-melkathj bypostauthor even depth-2" id="comment-227044">
+				<div id="div-comment-227044" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/9a9c41065fe9464c86f92511d421026f?s=75&amp;d=blank&amp;r=g" srcset="http://0.gravatar.com/avatar/9a9c41065fe9464c86f92511d421026f?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn"><a href="http://www.meljoulwan.com" class="url" rel="ugc external nofollow">Melissa Joulwan</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-227044">September 10, 2018 at 5:17 am</a>		</div>
+
+		<p>ACK! Some cooking days are just like that! But happy ending! I’m glad you liked this recipe 🙂</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=227044#respond" data-commentid="227044" data-postid="5883" data-belowelement="div-comment-227044" data-respondelement="respond" data-replyto="Reply to Melissa Joulwan" aria-label="Reply to Melissa Joulwan">Reply</a></div>
+				</div>
+				</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-229409">
+				<div id="div-comment-229409" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/99e69e067fbbc1c44d511a41c8d5504c?s=75&amp;d=blank&amp;r=g" srcset="http://0.gravatar.com/avatar/99e69e067fbbc1c44d511a41c8d5504c?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn">Cheryl</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-229409">March 8, 2022 at 1:41 pm</a>		</div>
+
+		<p>My husband and I love your meatball recipes. Do you think this recipe will work with ground beef?</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=229409#respond" data-commentid="229409" data-postid="5883" data-belowelement="div-comment-229409" data-respondelement="respond" data-replyto="Reply to Cheryl" aria-label="Reply to Cheryl">Reply</a></div>
+				</div>
+				<ul class="children">
+		<li class="comment byuser comment-author-melkathj bypostauthor even depth-2" id="comment-229412">
+				<div id="div-comment-229412" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/9a9c41065fe9464c86f92511d421026f?s=75&amp;d=blank&amp;r=g" srcset="http://0.gravatar.com/avatar/9a9c41065fe9464c86f92511d421026f?s=150&amp;d=blank&amp;r=g 2x" class="avatar avatar-75 photo" height="75" width="75" loading="lazy" decoding="async"/>			<cite class="fn"><a href="http://www.meljoulwan.com" class="url" rel="ugc external nofollow">Melissa Joulwan</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata">
+			<a href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/#comment-229412">March 12, 2022 at 7:14 am</a>		</div>
+
+		<p>Yes! You can make this with ground beef, ground pork, ground turkey, or a mix. Enjoy!</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/?replytocom=229412#respond" data-commentid="229412" data-postid="5883" data-belowelement="div-comment-229412" data-respondelement="respond" data-replyto="Reply to Melissa Joulwan" aria-label="Reply to Melissa Joulwan">Reply</a></div>
+				</div>
+				</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		</ul><!-- .comment-list -->
+
+
+
+
+
+
+	<div id="respond">
+
+		<h3>LEAVE A NOTE</h3>
+
+		<div id="cancel-comment-reply">
+			<small><a rel="nofollow" id="cancel-comment-reply-link" href="/2014/03/17/chicken-pesto-meatballs-marinara/#respond" style="display:none;">Click here to cancel reply.</a></small>
+		</div>
+
+
+			<form action="http://meljoulwan.com/wp-comments-post.php" method="post" id="commentform">
+
+
+				<div class="reply-info">
+					<input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required="true" placeholder="NAME*"/>
+					<input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required="true" placeholder="EMAIL* (PRIVATE)"/>
+					<input type="text" name="url" id="url" value="" size="22" tabindex="3" placeholder="WEBSITE"/>
+				</div>
+
+				<div class="reply-text">
+					<textarea name="comment" id="comment" cols="58" rows="10" tabindex="4" placeholder="COMMENT HERE"></textarea>
+				</div>
+
+
+				<div class="reply-submit clearfix">
+					<input name="submit" type="submit" id="submit" tabindex="5" value="Submit"/>
+				</div>
+				<input type="hidden" name="comment_post_ID" value="5883" id="comment_post_ID"/>
+<input type="hidden" name="comment_parent" id="comment_parent" value="0"/>
+
+				<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="daa7961eb0"/></p><p style="display: none !important;"><label>Δ<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="191"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p>
+			</form>
+
+
+	</div>
+
+
+
+</div><!-- .comments-area -->
+
+            </div>
+
+
+
+    <!-- END: STANDARD ARTICLE LOOP -->
+</div><!-- #content -->
+        <div id="sidebar" class="site-sidebar">
+            <div class="sidebar-group clearfix" id="sidebar-about">
+                <a href="/about"><img src="https://meljoulwan.com/wp-content/uploads/2016/08/meet-melissa_sept16.png"/></a>
+            </div>
+
+
+                <div class="sidebar-group clearfix" id="sidebar-my-books">
+                <div class="sidebar-title">
+                    <h2>MY BOOKS</h2>
+                </div>
+                    	<div class="sidebar-item">
+                	<a href="https://shop.meljoulwan.com/" target="_blank"><img src="https://meljoulwan.com/wp-content/uploads/2016/11/WFW_sidebar.png"/></a>
+                	<p><strong>Well Fed Weeknights:</strong> <em>Complete Paleo Meals in 45 Minutes or Less</em></p>
+                	<a href="https://shop.meljoulwan.com/" target="_blank" class="buynow">Buy now</a>
+                </div>
+                    	<div class="sidebar-item">
+                	<a href="https://shop.meljoulwan.com/" target="_blank"><img src="https://meljoulwan.com/wp-content/uploads/2015/05/WellFed2_290.jpg"/></a>
+                	<p><strong>Well Fed 2:</strong> <em>More Paleo Recipes For People Who Love To Eat</em></p>
+                	<a href="https://shop.meljoulwan.com/" target="_blank" class="buynow">Buy Now</a>
+                </div>
+                    	<div class="sidebar-item">
+                	<a href="https://shop.meljoulwan.com/" target="_blank"><img src="https://meljoulwan.com/wp-content/uploads/2015/05/PaleoCookbook_Cover_Sept29_small.jpg"/></a>
+                	<p><strong>Well Fed:</strong> <em>Paleo Recipes For People Who Love To Eat</em></p>
+                	<a href="https://shop.meljoulwan.com/" target="_blank" class="buynow">Buy Now</a>
+                </div>
+                    </div>
+                    <div class="sidebar-group clearfix" id="sidebar-contributor">
+                <div class="sidebar-title">
+                    <h2>Affiliates</h2>
+                </div>
+                    	<div class="sidebar-item">
+					<a href="https://barefootprovisions.com?afmc=cMJ1" target="_blank"><img src="https://meljoulwan.com/wp-content/uploads/2016/06/barefootProvisions_sidebar.jpg"/></a>
+                    <a href="https://barefootprovisions.com?afmc=cMJ1" target="_blank" class="buynow">Shop Now</a>
+				</div>
+                    	<div class="sidebar-item">
+					<a href="http://www.primalpalate.com/organic-spices/ref/19" target="_blank"><img src="https://meljoulwan.com/wp-content/uploads/2015/09/primalpalate_spices.jpg"/></a>
+                    <a href="http://www.primalpalate.com/organic-spices/ref/19" target="_blank" class="buynow">Get spicy</a>
+				</div>
+                    	<div class="sidebar-item">
+					<a href="http://www.nikkiscoconutbutter.com/#_l_2d" target="_blank"><img src="https://meljoulwan.com/wp-content/uploads/2015/09/nikkiscoconutbutter.png"/></a>
+                    <a href="http://www.nikkiscoconutbutter.com/#_l_2d" target="_blank" class="buynow">Buy now</a>
+				</div>
+                    	<div class="sidebar-item">
+					<a href="https://www.butcherbox.com/melissa-joulwan-burger-fans" target="_blank"><img src="https://meljoulwan.com/wp-content/uploads/2017/05/butcherbox.png"/></a>
+                    <a href="https://www.butcherbox.com/melissa-joulwan-burger-fans" target="_blank" class="buynow">Buy Now</a>
+				</div>
+                    </div>
+                <div class="sidebar-group clearfix" id="sidebar-serious-business">
+                <div class="sidebar-title">
+                    <h2>AFFILIATE POLICY</h2>
+                </div>
+                <div class="sidebar-item">
+                    <p>Some links on this site may be affiliate links. As an Amazon Associate I earn from qualifying purchases.<br/><br/><a href="https://meljoulwan.com/privacy-policy/">PRIVACY POLICY</a></p>
+                </div>
+            </div>
+        </div>
+</div><!-- #primary -->
+<footer>
+ <div class="footer-border">
+ 	<div class="footer-box">
+ 		<div class="footer-content">
+ 			<a href="/" class="foot-well-fed"></a>
+ 			<div class="footer-links">
+ 				<a href="/category/recipes" class="footLink">Recipes</a>
+ 				<a href="/" class="footLink">Blog</a>
+ 				<a href="/category/faves" class="footLink">Fave Posts</a>
+ 				<a href="/cookbooks" class="footLink">My Cookbooks</a>
+ 				<a href="/paleo-101" class="footLink">Paleo 101</a>
+ 				<a href="/store" class="footLink">Store</a>
+ 				<a href="/about" class="footLink">About</a>
+ 				<a href="/contact" class="footLink">Contact</a>
+ 			</div>
+ 			<div class="foot-social">
+				<a href="https://www.facebook.com/pages/The-Clothes-Make-The-Girl/200689133301047" target="_blank" class="btnFacebook"></a>				<a href="https://twitter.com/meljoulwan" target="_blank" class="btnTwitter"></a>				<a href="https://instagram.com/meljoulwan/" target="_blank" class="btnInstagram"></a>				<a href="https://www.pinterest.com/meljoulwan/" target="_blank" class="btnPinterest"></a>				<a href="/rss-feeds/" class="btnRSSFeed"></a>
+ 			</div>
+			<p>© 2015 Well Fed. All Rights Reserved. Site by <a href="http://www.kitchensinkstudios.com/" target="_blank">Kitchen Sink Studios</a>.</p>
+ 		</div>
+ 	</div>
+ </div>
+</footer>
+<div class="print-logo"><img src="http://meljoulwan.com/wp-content/themes/smudge/img/print-logo.png"/></div><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://meljoulwan.com/wp-content/themes/smudge/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+
+<script src="http://meljoulwan.com/wp-content/themes/smudge/js/min/plugins-min.js"></script>
+<script src="http://meljoulwan.com/wp-content/themes/smudge/js/min/main-min.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-8886535-2','auto');ga('send','pageview');
+</script>
+
+<div id="su-footer-links" style="text-align: center;"></div><script type="text/javascript" src="http://meljoulwan.com/wp-includes/js/comment-reply.min.js?ver=b99885158619e48800e9bbca55432a10" id="comment-reply-js"></script>
+<script type="text/javascript" id="social_warfare_script-js-extra">
+/* <![CDATA[ */
+var socialWarfare = {"addons":["pro"],"post_id":"5883","variables":{"emphasizeIcons":"0","powered_by_toggle":false,"affiliate_link":"https:\/\/warfareplugins.com"},"floatBeforeContent":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://meljoulwan.com/wp-content/plugins/social-warfare/assets/js/script.min.js?ver=4.4.2" id="social_warfare_script-js"></script>
+<script defer="" type="text/javascript" src="http://meljoulwan.com/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1696854726" id="akismet-frontend-js"></script>
+<script type="text/javascript"> var swp_nonce = "9919c9b702";var swpFloatBeforeContent = false; var swp_ajax_url = "https://meljoulwan.com/wp-admin/admin-ajax.php"; var swp_post_id = "5883";var swpClickTracking = false; swpPinIt={"enabled":false}; document.addEventListener("DOMContentLoaded", function() { var swpButtonsExist = document.getElementsByClassName( "swp_social_panel" ).length > 0; if (swpButtonsExist) { swp_admin_ajax = "https://meljoulwan.com/wp-admin/admin-ajax.php"; swp_post_id=5883; swp_post_url= "https://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/"; swp_post_recovery_url = ""; socialWarfare.fetchFacebookShares(); } }); </script>
+<script>__ez.queue.addFile('/tardisrocinante/vitals.js', '/tardisrocinante/vitals.js?gcb=0&cb=3', false, ['/parsonsmaize/mulvane.js'], true, false, true, false);</script>
+<script>var _audins_dom="meljoulwan_com",_audins_did=331501;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezodn.com/detroitchicago/audins.js?cb=195-0");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.meljoulwan_com,DomainId.331501" border="0" height="1" width="1" alt="Quantcast"/></div></noscript>
+<script>__ez.queue.addFile('/beardeddragon/drake.js', '/beardeddragon/drake.js?gcb=0&cb=4', false, [], true, false, true, false);</script>
+<script type="text/javascript" style='display:none;'>var __ez_dims = (function() {
+		var setCookie = function( name, content, expiry ) {
+			return document.cookie = name+'='+content+((expiry)?';expires='+(new Date(Math.floor(new Date().getTime()+expiry*1000)).toUTCString()):'')+';path=/';
+		};
+		var ffid = 1;
+		var oh = window.screen.height;
+		var ow = window.screen.width;
+		var h = ffid === 1 ? oh : (oh > ow) ? oh : ow;
+		var w = ffid === 1 ? ow : (oh > ow) ? ow : oh;
+		var uh = window.innerHeight || document.documentElement.clientHeight || document.getElementsByTagName('body')[0].clientHeight;
+		var uw = window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName('body')[0].clientWidth;
+		setCookie('ezds', encodeURIComponent('ffid='+ffid+',w='+w+',h='+h), (31536e3*7));
+		setCookie('ezohw', encodeURIComponent('w='+uw+',h='+uh), (31536e3*7));
+	})();</script>
+<script type='text/javascript' style='display:none;' async>__ez.queue.addFile('/parsonsmaize/chanute.js', '/parsonsmaize/chanute.js?a=a&cb=4&dcb=195-0&shcb=34', true, ['/parsonsmaize/mulvane.js'], true, false, false, false);</script>
+<script type='text/javascript' style='display:none;' async>__ez.queue.addFile('/porpoiseant/jellyfish.js', '/porpoiseant/jellyfish.js?a=a&cb=10&dcb=195-0&shcb=34', false, [], true, false, false, false);</script></body></html>

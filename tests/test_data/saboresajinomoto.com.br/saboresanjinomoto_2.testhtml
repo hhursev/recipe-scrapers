@@ -1,0 +1,1953 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>	<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>		<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>		<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="pt-br"> <!--<![endif]-->
+	<head>
+		<meta name="robots" content="index, follow" />
+
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="title" content="Receita: Crepioca com brócolis e frango - Sabores Ajinomoto" />
+        <meta name="description" content=" Receita de Crepioca com brócolis e frango, com dicas especiais, fotos e sugestões de temperos. Milhares de receitas para você inovar na cozinha. Acesse e aproveite! "/>
+		<meta name="author" content="AJINOMOTO CO.,INC">
+		<meta name="apple-itunes-app" content="app-id=1148227941">
+		<meta name="google-play-app" content="app-id=br.com.cappuccinodigital.saboresajinomoto">
+		<meta property="og:title" content="Receita: Crepioca com brócolis e frango - Sabores Ajinomoto" />
+		<meta property="og:description" content=" Receita de Crepioca com brócolis e frango, com dicas especiais, fotos e sugestões de temperos. Milhares de receitas para você inovar na cozinha. Acesse e aproveite! " />
+		<meta property="og:image" content="http://www.saboresajinomoto.com.br/uploads/images/recipes/crepioca_de_brocolis_e_frango.webp" />
+		<meta property="og:url" content="http://www.saboresajinomoto.com.br/receita/crepioca-com-brocolis-e-frango" />
+		<meta property="og:type" content="article" />
+		<meta property="og:updated_time" content="2018-08-29" />
+		<meta property="fb:app_id" content="180819012042718" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="Receita: Crepioca com brócolis e frango - Sabores Ajinomoto" />
+		<meta name="twitter:description" content=" Receita de Crepioca com brócolis e frango, com dicas especiais, fotos e sugestões de temperos. Milhares de receitas para você inovar na cozinha. Acesse e aproveite! " />
+		<meta name="twitter:image" content="http://www.saboresajinomoto.com.br/uploads/images/recipes/crepioca_de_brocolis_e_frango.webp" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+		<link rel="manifest" href="/favicon/site.webmanifest">
+		<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#E2211C">
+		<link rel="shortcut icon" href="/favicon/favicon.ico">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png">
+		<meta name="msapplication-config" content="/favicon/browserconfig.xml">
+		<meta name="theme-color" content="#E2211C" />
+		<!-- Facebook domain verification -->
+		<meta name="facebook-domain-verification" content="9bqqmy6nl2fn8q19ofn89z9yrxclhe" />
+
+		<link rel="canonical" href="https://www.saboresajinomoto.com.br/receita/crepioca-com-brocolis-e-frango" />
+		<link rel="alternate" href="https://www.saboresajinomoto.com.br/receita/crepioca-com-brocolis-e-frango" hreflang="pt-br" />
+		 		<title>Receita: Crepioca com brócolis e frango - Sabores Ajinomoto</title>
+		<link rel="stylesheet" type="text/css" media="all" href="/_dist/fonts/fonts.css">
+		<link rel="stylesheet" type="text/css" media="all" href="/_dist/fonts/FontAwesome/font-awesome.css">
+		<link rel="stylesheet" type="text/css" media="all" href="/_dist/fonts/IconsSaboresAjinomoto/styles.css">
+		<link rel="stylesheet" type="text/css" media="all" href="/_dist/css/jquery.fancybox.min.css" />
+		<link rel="stylesheet" href="/_dist/css/owl.carousel.min.css">
+<link rel="stylesheet" href="/_dist/css/owl.theme.default.min.css">
+
+<style>
+	/* css receita avaliação */
+	.content-type-evaluation .icon-star{  cursor: pointer; }
+	.content-type-evaluation .icon-info{ cursor: pointer; }
+	.icon-disabled{ pointer-events: none; }
+	.box-footer{ text-align: center; }
+	/* tooltip */
+	.tooltip {
+	position: absolute;
+	z-index: 1070;
+	display: block;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: left;
+	text-align: start;
+	text-decoration: none;
+	text-shadow: none;
+	text-transform: none;
+	letter-spacing: normal;
+	word-break: normal;
+	word-spacing: normal;
+	word-wrap: normal;
+	white-space: normal;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	line-break: auto;
+	}
+	.tooltip.in {
+	filter: alpha(opacity=90);
+	opacity: 0.9;
+	}
+	.tooltip.top {
+	padding: 5px 0;
+	margin-top: -3px;
+	}
+	.tooltip.right {
+	padding: 0 5px;
+	margin-left: 3px;
+	}
+	.tooltip.bottom {
+	padding: 5px 0;
+	margin-top: 3px;
+	}
+	.tooltip.left {
+	padding: 0 5px;
+	margin-left: -3px;
+	}
+	.tooltip-inner {
+	max-width: 200px;
+	padding: 3px 8px;
+	color: #fff;
+	text-align: center;
+	background-color: #000;
+	border-radius: 4px;
+	}
+	.tooltip-arrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+	}
+	.tooltip.top .tooltip-arrow {
+	bottom: 0;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px 5px 0;
+	border-top-color: #000000;
+	}
+	.tooltip.top-left .tooltip-arrow {
+	right: 5px;
+	bottom: 0;
+	margin-bottom: -5px;
+	border-width: 5px 5px 0;
+	border-top-color: #000000;
+	}
+	.tooltip.top-right .tooltip-arrow {
+	bottom: 0;
+	left: 5px;
+	margin-bottom: -5px;
+	border-width: 5px 5px 0;
+	border-top-color: #000000;
+	}
+	.tooltip.right .tooltip-arrow {
+	top: 50%;
+	left: 0;
+	margin-top: -5px;
+	border-width: 5px 5px 5px 0;
+	border-right-color: #000000;
+	}
+	.tooltip.left .tooltip-arrow {
+	top: 50%;
+	right: 0;
+	margin-top: -5px;
+	border-width: 5px 0 5px 5px;
+	border-left-color: #000000;
+	}
+	.tooltip.bottom .tooltip-arrow {
+	top: 0;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 0 5px 5px;
+	border-bottom-color: #000000;
+	}
+	.tooltip.bottom-left .tooltip-arrow {
+	top: 0;
+	right: 5px;
+	margin-top: -5px;
+	border-width: 0 5px 5px;
+	border-bottom-color: #000000;
+	}
+	.tooltip.bottom-right .tooltip-arrow {
+	top: 0;
+	left: 5px;
+	margin-top: -5px;
+	border-width: 0 5px 5px;
+	border-bottom-color: #000000;
+	}
+
+	@media all and (max-width: 480px) {
+		li.content-type-evaluation {
+			position: absolute;
+			top: 0;
+			display: flex;
+			justify-content: center;
+			transform: scale(1.5);
+		}
+
+		li.content-type-evaluation a {
+			position: absolute;
+			top: 0;
+			display: flex;
+			justify-content: center;
+			transform: scale(1.5);
+			font-size: 10px;
+		}
+
+		li.content-type-evaluation i, li.content-type-evaluation a i{ margin: 0 3px; }
+	}
+
+	#recipe #promotion a {
+		width: 300px !important;
+	}
+
+	div#modal-add-recipes {
+		z-index: 99999;
+		margin-top: 149px !important;
+	}
+	#recipe #content .products flex-wrap a img, #recipe #content .products li a img { max-width: 100px;max-height: 100px; }
+</style>
+<link rel="stylesheet" type="text/css" media="all" href="/_dist/css/btn-show-now.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="/_dist/css/main.min.css">
+		<link rel="stylesheet" type="text/css" media="all" href="/barra_integradora/css/bar.css" />
+
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "Article",
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "https://www.saboresajinomoto.com.br/receita/crepioca-com-brocolis-e-frango"
+	},
+	"headline": "CREPIOCA COM BRÓCOLIS E FRANGO",
+	"description": "",
+	"image": "https://www.saboresajinomoto.com.br/uploads/images/recipes/crepioca_de_brocolis_e_frango.webp",
+	"author": {
+		"@type": "",
+		"name": "sabores ajinomoto"
+	},
+	"publisher": {
+		"@type": "Organization",
+		"name": "sabores ajinomoto",
+		"logo": {
+			"@type": "ImageObject",
+			"url": "https://www.saboresajinomoto.com.br/_src/images/template/logo-sabores.svg"
+		}
+	},
+	"datePublished": "2023/04/25"
+}
+</script>
+
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org/",
+	"@type": "Recipe",
+	"name": "CREPIOCA COM BRÓCOLIS E FRANGO",
+	"image": "https://www.saboresajinomoto.com.br/uploads/images/recipes/crepioca_de_brocolis_e_frango.webp",
+	"description": "",
+	"keywords": "CREPIOCA; CALDO SAZÓN; BRÓCOLIS; FRANGO",
+	"author": {
+		"@type": "Person",
+		"name": "sabores ajinomoto"
+	},
+	"datePublished": "2023/04/25",
+	"prepTime": "PT60M",
+	"cookTime": "PT60M",
+	"totalTime": "PT60M",
+	"recipeYield": "6",
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"servingSize": "",
+		"calories": "",
+		"fatContent": ""
+	},
+	"aggregateRating": {
+		"@type": "AggregateRating",
+		"ratingValue": "3",
+		"bestRating": "",
+		"worstRating": "",
+		"ratingCount": "0"
+ 	}
+}
+</script>
+
+		<!-- Google Tag Manager -->
+		<script>
+			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer', 'GTM-T5B6Q8V');
+		</script>
+
+		<!-- Facebook Pixel Code -->
+		<script>
+		!function(f,b,e,v,n,t,s) {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window, document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '132181900462750');
+		fbq('track', 'PageView');
+		</script>
+		<noscript><img height="1" width="1" style="display:none"
+		src="https://www.facebook.com/tr?id=132181900462750&ev=PageView&noscript=1"
+		/></noscript>
+		<!-- End Facebook Pixel Code -->
+
+		<script type="text/javascript">
+			!function(e,n,i,t,a,r,o,d){var s=e[a]=e[a]||[];if(s.invoked=0,s.initialised>0||s.invoked>0)return console.error("MoEngage Web SDK initialised multiple times. Please integrate the Web SDK only once!"),!1;e.moengage_object=a;var l={},g=function n(i){return function(){for(var n=arguments.length,t=Array(n),a=0;a<n;a++)t[a]=arguments[a];(e.moengage_q=e.moengage_q||[]).push({f:i,a:t})}},u=["track_event","add_user_attribute","add_first_name","add_last_name","add_email","add_mobile","add_user_name","add_gender","add_birthday","destroy_session","add_unique_user_id","moe_events","call_web_push","track","location_type_attribute"],m={onsite:["getData","registerCallback"]};for(var c in u)l[u[c]]=g(u[c]);for(var v in m)for(var f in m[v])null==l[v]&&(l[v]={}),l[v][m[v][f]]=g(v+"."+m[v][f]);r=n.createElement(i),o=n.getElementsByTagName("head")[0],r.async=1,r.src=t,o.appendChild(r),e.moe=e.moe||function(){return(s.invoked=s.invoked+1,s.invoked>1)?(console.error("MoEngage Web SDK initialised multiple times. Please integrate the Web SDK only once!"),!1):(d=arguments.length<=0?void 0:arguments[0],l)},r.addEventListener("load",function(){if(d)return e[a]=e.moe(d),e[a].initialised=e[a].initialised+1||1,!0}),r.addEventListener("error",function(){return console.error("Moengage Web SDK loading failed."),!1})}(window,document,"script","https://cdn.moengage.com/webpush/moe_webSdk.min.latest.js","Moengage");
+
+
+			Moengage = moe({
+				app_id:"SIUQKXD7QE3LCVF7KB0H4IWJ",
+				debug_logs: 0,
+				cluster: "DC_2"
+			});
+		</script>
+
+		<script>
+			function moengageBusca(){
+				console.log('moengageBusca');
+				var vTermo = $('[id="search-field"]').filter(function(){
+						return $(this).val() != '';
+					}).val();
+				Moengage.track_event('pesquisou', {
+					termo: vTermo,
+					source: null
+				}).then(function(){
+					return true;
+				});
+				 _gaq.push(['_trackEvent', 'Cabeçalho', 'Busca', vTermo]);
+			}
+		</script>
+
+		<meta name="google-site-verification" content="AROcgMn_vAM-HZqlAtoQemcZx-v9QBPsybU-iyToZhg" />
+
+		<meta name="adopt-website-id" content="496b8887-3e0b-4df2-965c-ca3c980b0fe2" />
+
+        <script src="//tag.goadopt.io/injector.js?website_code=496b8887-3e0b-4df2-965c-ca3c980b0fe2" class="adopt-injector"></script>
+
+	</head>
+	<body class="page-front_Receita">
+		<script>
+			// Facebook SDK API
+			window.fbAsyncInit = function() {
+				FB.init({
+					appId	: 180819012042718,
+					cookie	: true,
+					xfbml	: true,
+					version	: 'v9.0'
+				});
+				FB.AppEvents.logPageView();
+			};
+			(function(d, s, id){
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) {return;}
+				js = d.createElement(s); js.id = id;
+				js.src = "https://connect.facebook.net/pt_BR/sdk.js";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+
+		</script>
+
+		<!-- Google Tag Manager (noscript) -->
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5B6Q8V" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+        		<span id="shadowbox" onclick="menuToggle()"></span>
+		<header class="container-fluid">
+			<div class="container">
+								<div class="top ">
+					<ul class="social-link">
+						<li>
+							<a href="https://www.facebook.com/SaboresAjinomoto" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'header_click', 'event_section': 'header', 'event_local': '/receita/crepioca-com-brocolis-e-frango', 'event_text': 'btn-facebook', 'event_action': 'click' });" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/saboresajinomoto" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'header_click', 'event_section': 'header', 'event_local': '/receita/crepioca-com-brocolis-e-frango', 'event_text': 'btn-youtube', 'event_action': 'click' });" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com/saboresajinomoto" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'header_click', 'event_section': 'header', 'event_local': '/receita/crepioca-com-brocolis-e-frango', 'event_text': 'btn-instagram', 'event_action': 'click' });" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						</li>
+					</ul>
+					<a href="/" class="link-logo"><img src="/_src/images/template/logo-sabores.svg" alt="Sabores Ajinomoto" title="Sabores Ajinomoto" class="logo"></a>
+
+											<ul class="user-link">
+							<li><a href="/cadastrar" onclick="_gaq.push(['_trackEvent', 'Cabeçalho', 'Acessou', 'Cadastro']);" class="btn-default">Cadastre-se</a></li>
+							<li><a href="#modal-login" onclick="Moengage.track_event('iniciou-login'); _gaq.push(['_trackEvent', 'Cabeçalho', 'Acessou', 'Login']);" data-fancybox class="btn-default btn-action" accesskey="u">Login</a></li>
+							<li><a href="https://loja.ajinomoto.com.br/?utm_source=site_sabores&utm_medium=cta_comprar&utm_campaign=compreagoramenu_sabores&utm_content=sitesabores_botaomenucompreagora" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'comprar', 'event_section': 'produtos', 'event_local': '/receita/crepioca-com-brocolis-e-frango', 'event_text': 'comprar', 'event_action': 'click', 'event_product': 'nao-especificado'});" target="_blank"><img src="/_dist/images/template/cart.png" alt="comprar" title="comprar"  class="hidden-xs">
+							<img src="/_dist/images/template/cart-white.png" alt="comprar" title="comprar"  class="visible-xs"></a><li>
+						</ul>
+
+					<button id="menu-mobile" onclick="menuToggle()">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</button>
+					<div class="src-top-mobile">
+						<a href="#" class="search-btn"><img src="/_dist/images/template/icon-search-red.svg" title="Busca" alt="Busca"></a>
+					</div>
+				</div>
+				<div id="menu" type="context">
+					<li class="" id="menu-home">
+						<a href="/" onclick="_gaq.push(['_trackEvent', 'Cabeçalho', 'Menu', 'Home']);" accesskey="i">Home</a>
+					</li>
+					<li class="" id="menu-receitas">
+						<a href="/receitas">Receitas</a>
+					</li>
+					<li class="" id="menu-cardapio">
+						<a href="/cardapio-semanal/" onclick="_gaq.push(['_trackEvent', 'Cabeçalho', 'Menu', 'Cardápio Semanal']);" accesskey="c">Cardápio Semanal</a>
+					</li>
+					<li class="" id="menu-videos">
+						<a href="/videos/" onclick="_gaq.push(['_trackEvent', 'Cabeçalho', 'Menu', 'Vídeos']);" accesskey="v">Vídeos</a>
+					</li>
+					<li class="" id="menu-colecoes">
+						<a href="/colecao/colecoes-de-receitas" onclick="_gaq.push(['_trackEvent', 'Cabeçalho', 'Menu', 'Coleções de Receitas']);" accesskey="r">Coleções de Receitas</a>
+					</li>
+					<li class="" id="menu-blog">
+						<a href="/blog" onclick="_gaq.push(['_trackEvent', 'Cabeçalho', 'Menu', 'Blog']);" accesskey="b">Blog</a>
+					</li>
+										<!--- Menu alimente-se bem -->
+
+					<li class="" id="menu-alimente">
+						<a href="/alimente-se-bem/" onclick="_gaq.push(['_trackEvent', 'Cabeçalho', 'Menu', 'Alimente-se Bem']);" accesskey="n">Alimente-se Bem</a>
+					</li>
+					<!--- end -->
+					<li class="" id="menu-produtos">
+						<a href="/produtos" onclick="_gaq.push(['_trackEvent', 'Cabeçalho', 'Menu', 'Produtos']);" accesskey="p">Produtos</a>
+					</li>
+					<li class="" id="menu-produtos">
+						<a href="/sabores-sem-idade" onclick="_gaq.push(['_trackEvent', 'Cabeçalho', 'Menu', 'Sabores sem Idade']);" accesskey="p">Sabores sem Idade</a>
+					</li>
+
+					<li class="src-top">
+						<a href="#" class="search-btn"><img src="/_dist/images/template/icon-search-red.svg" alt="Busca" title="Busca"></a>
+					</li>
+				</div>
+			</div>
+		</header>
+
+		<section class="main-container">
+			<seciton class="container-fluid" id="search-bar">
+				<div class="container text-center">
+											<h2>Descubra novos sabores!</h2>
+															<form action="/busca/" id="searchGA" autocomplete="off">
+						<ul>
+							<li>
+								<div class="hidden-xs">
+									<input type="text" id="search-field" name="q" class="searcH searchDeskA" placeholder="Encontre sua receita por prato, ingrediente ou palavra-chave" accesskey="s">
+								</div>
+								<div class="visible-xs">
+									<input type="text" id="search-field" name="s" class="searcH search-field searchMobileB" placeholder="Encontre sua receita" accesskey="s">
+								</div>
+
+							</li>
+							<li>
+								<button type="button" id="search-button" form="search" value="Busca" class="btn-default btn-action text-dins text-upper btnSearchGA" onclick="return moengageBusca();"> Busca </button>
+							</li>
+						</ul>
+
+						<!--- INÍCIO -->
+						<div id="search-recipes">
+							<ul class="container-response">
+							</ul>
+						</div>
+						<!--- END -->
+					</form>
+				</div>
+			</seciton>
+
+
+<section class="container-fluid" id="recipe">
+	<div class="container" id="top">
+		<ul class="bread_crumb">
+            <li><a href="/receitas">Receitas</a></li>
+            <li><a href="/receitas?q=&tipo-alimento=9">Ovos</a></li>
+            <li class="current">CREPIOCA COM BRÓCOLIS E FRANGO</li>
+        </ul>
+		<h1 class="text-center text-red text-upper" itemprop="name">CREPIOCA COM BRÓCOLIS E FRANGO</h1>
+		<ul class="tips">
+			<li class="content-type-time" itemprop="totalTime" content="PT60M">
+				<i class="fa fa-clock-o text-red" aria-hidden="true"></i> <span>60</span>
+			</li>
+			<li class="content-type-amount" itemprop="recipeYield">
+				<i class="fa fa-cutlery text-red" aria-hidden="true"></i> 6 porções
+			</li>
+			<li class="content-type-favorite">
+									<a href="#modal-login" onclick="_gaq.push(['_trackEvent', 'Login', 'Favoritar', 'Receita: Crepioca com brócolis e frango - Sabores Ajinomoto']);" data-fancybox><i class="fa fa-heart-o" aria-hidden="true"></i> Favoritar Receita</a>
+							</li>
+			<li class="content-type-print">
+				<a href="/receita/imprimir/crepioca-com-brocolis-e-frango" onclick="_gaq.push(['_trackEvent', 'Receitas', 'Imprimir', 'Receita: Crepioca com brócolis e frango - Sabores Ajinomoto']);" target="_blank"><i class="fa fa-print" aria-hidden="true"></i> Imprimir Receita</a>
+			</li>
+
+											<li class="content-type-evaluation" data-avaliacao="0" data-media="3.0000">
+
+
+									<a href="#modal-login" onclick="_gaq.push(['_trackEvent', 'Login', 'Avaliação', 'Receita: Crepioca com brócolis e frango - Sabores Ajinomoto']);" data-fancybox>
+
+							<i class="fa fa-star text-red" data-toggle="tooltip" data-html="true" title="Não gostei" data-avaliacao="1" data-receita="5880" data-usuario=""></i>
+
+							<i class="fa fa-star text-red" data-toggle="tooltip" data-html="true" title="Médio" data-avaliacao="2" data-receita="5880" data-usuario=""></i>
+
+							<i class="fa fa-star text-red" data-toggle="tooltip" data-html="true" title="Gostei" data-avaliacao="3" data-receita="5880" data-usuario=""></i>
+
+							<i class="fa fa-star-o text-red" data-toggle="tooltip" data-html="true" title="Gostei Muito" data-avaliacao="4" data-receita="5880" data-usuario=""></i>
+
+							<i class="fa fa-star-o text-red" data-toggle="tooltip" data-html="true" title="Amei!" data-avaliacao="5" data-receita="5880" data-usuario=""></i>
+															<i class="fa fa-info-circle icon-info" style="color: #544d4d" aria-hidden="true"></i>
+																		</a>
+							</li>
+
+			<li class="hidden" itemprop="aothor">Sabores Ajinomoto</li>
+		</ul>
+		<div id="banner">
+
+									<img src="/_dist/images/template/blank.gif" alt="CREPIOCA COM BRÓCOLIS E FRANGO" title="CREPIOCA COM BRÓCOLIS E FRANGO" style="background-image: url(/uploads/images/recipes/crepioca_de_brocolis_e_frango.webp)" itemprop="image" />
+
+					<ul class="badges">
+					<li class="recipe-badge tested"><img src="/_dist/images/template/recipe-badge-tested.png" alt="Testada" title="Testada"></li>
+															</ul>
+						</div>
+		<div class="content-actions">
+			<ul class="social">
+				<li>
+					<a onclick="javascript: window.open('https://www.facebook.com/dialog/share?app_id=180819012042718&display=popup&href=' + window.location + '?utm_source=facebook&utm_medium=social&utm_campaign=crepioca-com-brocolis-e-frango', 'Compartilhar', 'width=660,height=330'); void(0); moengageTrackShareEvent(); _gaq.push(['_trackEvent', 'Compartilhar', 'Facebook', 'Receita: Crepioca com brócolis e frango - Sabores Ajinomoto']);">
+						<i class="fa fa-facebook"></i>
+					</a>
+				</li>
+				<li>
+					<a onclick="javascript: window.open('https://twitter.com/intent/tweet?text=CREPIOCA COM BRÓCOLIS E FRANGO&url=' + window.location + '?utm_source=twitter&utm_medium=social&utm_campaign=crepioca-com-brocolis-e-frango', 'Compartilhar', 'width=640,height=320'); void(0); moengageTrackShareEvent(); _gaq.push(['_trackEvent', 'Compartilhar', 'Twitter', 'Receita: Crepioca com brócolis e frango - Sabores Ajinomoto']);">
+						<i class="fa fa-twitter"></i>
+					</a>
+				</li>
+								<li>
+					<a alt="Whatsapp" class="whatsapp wa_btn" data-title="CREPIOCA COM BRÓCOLIS E FRANGO" data-slug="crepioca-com-brocolis-e-frango" style="cursor: pointer;">
+						<span class="ion-social-whatsapp">
+							<i class="fa fa-whatsapp" aria-hidden="true" style="background:#5bb967;"></i>
+						</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="accessibility">
+				<li onclick="resizeText(-1)">
+					<a >A-</a> <span>Diminuir
+				</li>
+				<li onclick="resizeText(1)">
+					<a >A+</a> Aumentar
+				</li>
+				<li onclick="resetText()">
+					<a>A</a> Tamanho Original
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container grid" id="content" data-size="1">
+		<div class="grid-sys one-half">
+            <div class="whatsapp-to-text">
+                <h2 class="text-red text-upper">Ingredientes</h2>
+                <div class="ingredients" itemprop="recipeIngredient">
+                    <p style="margin-left:0cm; margin-right:0cm"><strong>Recheio</strong></p>
+
+<ul>
+	<li>1 e meia colher (sopa) <strong>Azeite de Oliva Extra Virgem TERRANO</strong><strong><sup>®</sup></strong></li>
+	<li>3 filés de peito de frango (300 g)</li>
+	<li>1 tomate pequeno, com pele e sem sementes, picado</li>
+	<li>1 sachê de <strong>Caldo SAZÓN<sup>®</sup> Lev Galinha</strong></li>
+	<li>3 colheres (sopa) de requeijão cremoso</li>
+</ul>
+
+<p style="margin-left:0cm; margin-right:0cm"><strong>Massa</strong></p>
+
+<ul>
+	<li>6 ovos</li>
+	<li>6 colheres (sopa) de goma para tapioca</li>
+	<li>3 colheres (sopa) de leite desnatado</li>
+	<li>meia xícara (chá) de floretes de brócolis picadinhos</li>
+</ul>
+
+<p style="margin-left:0cm; margin-right:0cm"> </p>
+                </div>
+            </div>
+
+							<h2 class="text-red text-upper">Preparado com</h2>
+				<ul class="products">
+											<li class="text-center" data-moengage_payload="{&quot;nome do produto&quot;:&quot;Caldo SAZ\u00d3N\u00ae Lev Galinha&quot;,&quot;id do produto&quot;:303,&quot;link do produto&quot;:&quot;https:\/\/loja.ajinomoto.com.br\/caldo-em-po-sazon-lev-sabor-galinha-325g-ajt-104687\/p?utm_source=site_sabores&amp;utm_medium=cta_comprar&quot;,&quot;marca&quot;:&quot;Caldo SAZ\u00d3N\u00ae&quot;,&quot;categoria do produto&quot;:&quot;&quot;}">
+							<a href="https://loja.ajinomoto.com.br/caldo-em-po-sazon-lev-sabor-galinha-325g-ajt-104687/p?utm_source=site_sabores&amp;utm_medium=cta_comprar" target="_blank">
+								<img src="/uploads/images/products/CALDO_LEV_GALINHA_CARTUCHO _4__min.png" alt="Caldo SAZÓN® Lev Galinha" title="Caldo SAZÓN® Lev Galinha">
+							</a>
+														<div class="btn-shop">
+								<a href="https://loja.ajinomoto.com.br/caldo-em-po-sazon-lev-sabor-galinha-325g-ajt-104687/p?utm_source=site_sabores&amp;utm_medium=cta_comprar" target="_blank"
+								onclick="Moengage.track_event('clicou-comprar-loja', {'nome do botão': 'Comprar', 'id do botão': 'btn-shop-now', 'url destino': 'https://loja.ajinomoto.com.br/caldo-em-po-sazon-lev-sabor-galinha-325g-ajt-104687/p?utm_source=site_sabores&amp;utm_medium=cta_comprar'}); dataLayer.push({ 'event': 'gaEvent', 'event_name': 'comprar', 'event_section': 'produtos', 'event_local': 'receita/crepioca-com-brocolis-e-frango', 'event_text': 'comprar', 'event_action': 'click', 'event_product': 'caldo-sazon-r-lev-galinha'});" data-ean="7891132082179" class="btn-default btn-action btn-size-l align-center btn-shop-now" data-slug="caldo-sazon-r-lev-galinha">Comprar</a>
+							</div>
+													</li>
+											<li class="text-center" data-moengage_payload="{&quot;nome do produto&quot;:&quot;TERRANO\u00ae Veggie Burger sabor Carne&quot;,&quot;id do produto&quot;:311,&quot;link do produto&quot;:&quot;https:\/\/www.loja.ajinomoto.com.br\/terrano-veggie-burger-sabor-carne-160g-116552-aji-2745294?utm_source=site_sabores&amp;utm_medium=cta_comprar&quot;,&quot;marca&quot;:&quot;TERRANO\u00ae&quot;,&quot;categoria do produto&quot;:&quot;&quot;}">
+							<a href="https://www.loja.ajinomoto.com.br/terrano-veggie-burger-sabor-carne-160g-116552-aji-2745294?utm_source=site_sabores&amp;utm_medium=cta_comprar" target="_blank">
+								<img src="/uploads/images/products/MKP_VRJ_TERRANO_VEGGIE_BURGER_CARNE_POUCH_160g.png" alt="TERRANO® Veggie Burger sabor Carne" title="TERRANO® Veggie Burger sabor Carne">
+							</a>
+														<div class="btn-shop">
+								<a href="https://www.loja.ajinomoto.com.br/terrano-veggie-burger-sabor-carne-160g-116552-aji-2745294?utm_source=site_sabores&amp;utm_medium=cta_comprar" target="_blank"
+								onclick="Moengage.track_event('clicou-comprar-loja', {'nome do botão': 'Comprar', 'id do botão': 'btn-shop-now', 'url destino': 'https://www.loja.ajinomoto.com.br/terrano-veggie-burger-sabor-carne-160g-116552-aji-2745294?utm_source=site_sabores&amp;utm_medium=cta_comprar'}); dataLayer.push({ 'event': 'gaEvent', 'event_name': 'comprar', 'event_section': 'produtos', 'event_local': 'receita/crepioca-com-brocolis-e-frango', 'event_text': 'comprar', 'event_action': 'click', 'event_product': 'terrano-r-veggie-burger-sabor-carne'});" data-ean="7891132161331" class="btn-default btn-action btn-size-l align-center btn-shop-now" data-slug="terrano-r-veggie-burger-sabor-carne">Comprar</a>
+							</div>
+													</li>
+									</ul>
+					</div>
+		<div class="grid-sys one-half">
+			<h2 class="text-red text-upper">Modo de preparo</h2>
+			<div class="steps" itemprop="recipeInstructions">
+				<ol>
+	<li>Faça o recheio: em uma frigideira média, aqueça meia colher (sopa) do <strong>Azeite TERRANO</strong><strong><sup>® </sup></strong>e frite os filés de frango por 4 minutos de cada lado, ou até dourarem. Retire da frigideira e desfie o frango.</li>
+	<li>Volte o frango para a frigideira e leve ao fogo médio. Junte o tomate e metade do <strong>Caldo SAZÓN<sup>®</sup></strong>, e refogue por 2 minutos, ou até o tomate desmanchar parcialmente. Adicione o requeijão e misture. Retire da frigideira e reserve aquecido.</li>
+	<li>Prepare a massa: em uma tigela média, coloque os ovos, a goma para tapioca, o leite e o <strong>Caldo SAZÓN<sup>® </sup></strong>restante, e misture até ficar homogêneo. Junte os brócolis e misture.</li>
+	<li>Em uma frigideira média (26 cm de diâmetro), untada com um fio do <strong>Azeite</strong> <strong>TERRANO</strong><strong><sup>®</sup></strong>, coloque 1 concha da massa e cozinhe por 1 minuto. Vire, disponha parte do recheio e dobre a crepioca ao meio. Tampe e deixe por 2 minutos de cada lado. Repita o processo com a massa e recheio restantes, repondo o <strong>Azeite TERRANO</strong><strong><sup>®</sup></strong> quando necessário. Sirva em seguida.</li>
+</ol>
+
+<p style="margin-left:0cm; margin-right:0cm"> </p>
+			</div>
+
+
+			<div class="receita-autor">
+									<p class="space-h-10">
+						<strong class="text-red">Receita testada e aprovada</strong> por <strong>Lisiane Miura</strong>,
+						<span>especialista em alimentos da equipe Sabores Ajinomoto.</span>
+					</p>
+								<p class="space-h-10">
+					<strong class="text-red">Última atualização</strong><br>
+					<span>11 de maio de 2023</span>
+				</p>
+			</div>
+					</div>
+	</div>
+
+
+
+
+	<div class="container" id="comments">
+		<h3 class="text-center space-h-10"> Dúvidas sobre a receita? Entre em contato</h3>
+		<a href="https://www.ajinomoto.com.br/fale-com-a-gente/consumidor" class="btn-default btn-action btn-size-l align-center" target="_blank">Fale Conosco</a>
+	</div>
+
+	<div class="container" id="see-more">
+		<div class="title">
+			<img src="/_dist/images/home/icone-panela.svg" alt="icon-recipes" title="icon-recipes">
+			<h2 class="text-red text-center">Você também pode gostar</h2>
+		</div>
+		<h3 class="text-center">Outras receitas para te inspirar!</h3>
+
+		<ul class="recipes owl-carousel owl-theme">
+
+			<li class="item">
+				<a href="/receita/strogonoff-de-frango-delicia?tipo_alimento=carnes-e-aves" onclick="_gaq.push(['_trackEvent', 'Receita: Crepioca com brócolis e frango - Sabores Ajinomoto', 'Você também pode gostar', 'Acessou: STROGONOFF DE FRANGO DELÍCIA']);">
+					<img src="/_dist/images/template/blank.gif" alt="STROGONOFF DE FRANGO DELÍCIA"  title="STROGONOFF DE FRANGO DELÍCIA" style="background-image: url(/uploads/images/recipes/estrogonofe_de_frango.webp), url(/_dist/images/template/thumb-default.jpg)" />
+					<div class="description">
+						<p class="recipe-category">Prato Principal</p>
+						<p class="recipe-type">Carnes (carnes + aves)</p>
+						<p class="recipe-time">20 minutos </p>
+						<p class="recipe-amount">4 porções</p>
+					</div>
+					<p class="recipe-title">STROGONOFF DE FRANGO DELÍCIA</p>
+				</a>
+			</li>
+
+			<li class="item">
+				<a href="/receita/frango-a-milanesa?tipo_alimento=carnes-e-aves" onclick="_gaq.push(['_trackEvent', 'Receita: Crepioca com brócolis e frango - Sabores Ajinomoto', 'Você também pode gostar', 'Acessou: FRANGO À MILANESA']);">
+					<img src="/_dist/images/template/blank.gif" alt="FRANGO À MILANESA"  title="FRANGO À MILANESA" style="background-image: url(/uploads/images/recipes/Frango_a_milanesa.webp), url(/_dist/images/template/thumb-default.jpg)" />
+					<div class="description">
+						<p class="recipe-category">Prato Principal</p>
+						<p class="recipe-type">Carnes (carnes + aves)</p>
+						<p class="recipe-time">25 minutos (+ 20 minutos de geladeira)</p>
+						<p class="recipe-amount">4 porções</p>
+					</div>
+					<p class="recipe-title">FRANGO À MILANESA</p>
+				</a>
+			</li>
+
+			<li class="item">
+				<a href="/receita/cuscuz-paulista?tipo_alimento=farinhas" onclick="_gaq.push(['_trackEvent', 'Receita: Crepioca com brócolis e frango - Sabores Ajinomoto', 'Você também pode gostar', 'Acessou: CUSCUZ PAULISTA']);">
+					<img src="/_dist/images/template/blank.gif" alt="CUSCUZ PAULISTA"  title="CUSCUZ PAULISTA" style="background-image: url(/uploads/images/recipes/cuscuz-paulista.jpg), url(/_dist/images/template/thumb-default.jpg)" />
+					<div class="description">
+						<p class="recipe-category">Prato Principal</p>
+						<p class="recipe-type">Farinhas</p>
+						<p class="recipe-time">30 minutos </p>
+						<p class="recipe-amount">8 porções</p>
+					</div>
+					<p class="recipe-title">CUSCUZ PAULISTA</p>
+				</a>
+			</li>
+
+			<li class="item">
+				<a href="/receita/carne-moida-de-forno?tipo_alimento=carnes-e-aves" onclick="_gaq.push(['_trackEvent', 'Receita: Crepioca com brócolis e frango - Sabores Ajinomoto', 'Você também pode gostar', 'Acessou: CARNE MOÍDA DE FORNO']);">
+					<img src="/_dist/images/template/blank.gif" alt="CARNE MOÍDA DE FORNO"  title="CARNE MOÍDA DE FORNO" style="background-image: url(/uploads/images/recipes/carne-moida-de-forno.jpg), url(/_dist/images/template/thumb-default.jpg)" />
+					<div class="description">
+						<p class="recipe-category">Prato Principal</p>
+						<p class="recipe-type">Carnes (carnes + aves)</p>
+						<p class="recipe-time">20 minutos (+ 10 minutos de forno)</p>
+						<p class="recipe-amount">6 porções</p>
+					</div>
+					<p class="recipe-title">CARNE MOÍDA DE FORNO</p>
+				</a>
+			</li>
+				</ul>
+
+		<a href="/colecao/colecoes-de-receitas" class="btn-default btn-action align-center">Veja mais receitas</a>
+	</div>
+
+	<div class="container" id="weekly-recipes">
+		<div class="title">
+			<h2 class="text-red text-center">Cardápio Semanal</h2>
+		</div>
+		<h3 class="text-center">Cadastre-se para receber toda semana um cardápio completo, com as nossas sugestões de receitas saborosas.</h3>
+		<form id="weekly-recipes-form">
+			<ul>
+				<li>
+					<input type="text" placeholder="Insira aqui o seu e-mail!" id="weekly-recipes-email">
+				</li>
+				<li>
+					<input type="submit" value="Enviar" class="btn-default btn-action btn-size-l" onclick="_gaq.push(['_trackEvent', 'Receita: Crepioca com brócolis e frango - Sabores Ajinomoto', 'Cardápio Semanal', 'Cadastrou na Newsletter');">
+				</li>
+			</ul>
+		</form>
+	</div>
+
+	<div class="container banner call-to-action" id="banner-blog">
+		<div class="display">
+			<div class="text">
+				<h2 class="text-red text-upper">Blog</h2>
+				<h3 class="text-upper">Além da culinária</h3>
+				<p>Procurando por dicas sobre culinária e alimentação equilibrada? No nosso blog você encontra tudo isso e muito mais!</p>
+				<a href="/blog" class="btn-default btn-action">Saiba mais</a>
+			</div>
+			<img src="/uploads/images/promo/banner-call-to-action-blog.jpg" alt="Banner Blog" title="Banner Blog">
+		</div>
+	</div>
+</section>
+
+	<a href="#avaliacao-info" class="btn-info-avaliacao" data-fancybox></a>
+	<div id="avaliacao-info" class="text-center" style="display:none;">
+			<p><i class="fa fa-star-o text-red" aria-hidden="true"></i>: Estrelas Vazias</p>
+			<p><i class="fa fa-star text-red" aria-hidden="true"></i>: Estrelas Preenchidas</p>
+			<p><i class="fa fa-star text-yellow" aria-hidden="true"></i>: Suas Estrelas</p>
+			<br>
+			<p>Exemplo:
+				<i class="fa fa-star text-yellow" aria-hidden="true"></i>
+				<i class="fa fa-star text-yellow" aria-hidden="true"></i>
+				<i class="fa fa-star text-yellow" aria-hidden="true"></i>
+				<i class="fa fa-star text-red" aria-hidden="true"></i>
+				<i class="fa fa-star-o text-red" aria-hidden="true"></i>
+			</p>
+			<p> A receita possui <strong> 4 Estrelas de avaliação geral </strong>  <br>
+			mas avaliei esta receita com 3 estrelas.</p>
+	</div>
+
+	<div id="modal-add-recipes" class="hidden" style="margin-top: 100px;">
+		<div id="recipe-colletions">
+			<ul class="recipe-colletions list grid">
+				<li class="grid-sys one-third" id="create-collection">
+					<h2 class="text-white text-center text-upper">CRIE SUA COLEÇÃO De Receitas</h2>
+					<p class="text-white text-center">Monte sua coleção para ocasiões especiais e acesse suas receitas preferidas </p>
+
+										<a href="#modal-login" onclick="_gaq.push(['_trackEvent', 'Login', 'Criar Coleção', 'Receita: Crepioca com brócolis e frango - Sabores Ajinomoto']);" data-fancybox class="btn-default btn-action btn-white btn-size-xl"><i class="fa fa-plus"></i></a>
+									</li>
+			</ul>
+			<div class="navigation">
+				<ul class="pagination"></ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-new-collection" class="hidden">
+			<h2 class="text-red text-center text-upper space-h-10">Criar minha Coleção</h2>
+			<ul class="grid">
+				<li class="grid-sys one-full">
+					<input id="new-collection-title" type="text" placeholder="Nome da Coleção" required>
+				</li>
+				<li class="grid-sys one-full">
+					<textarea id="new-collection-description" placeholder="Descrição"></textarea>
+				</li>
+				<li class="grid-sys one-full">
+					<a href="#" class="btn-default btn-action btn-size-l align-center add-collection">Criar Coleção</a>
+				</li>
+			</ul>
+		</div>
+						<!-- Modal compre agora -->
+			<div class="shop-now-container modal-shop-default caldo-sazon-r-lev-galinha" data-slug="caldo-sazon-r-lev-galinha" style="">
+				<div class="header-modal">
+					<div class="header-modal-logo">
+						<img src="/_dist/images/template/logo_sabores.png" alt="Logo Sabores" title="Logo Sabores">
+					</div>
+					<button class="close-shop">X</button>
+				</div>
+				<div class="shop-now-wrap">
+					<div class="shop-now-main">
+						<div class="shop-now-content" data-hash="caldo-sazon-r-lev-galinha" id="7891132082179">
+							<div class="shop-now-product-box text-center">
+								<div class="shop-now-product-all">
+									<h2>Caldo SAZÓN® Lev Galinha</h2>
+									<figure>
+										<img src="/uploads/images/products/CALDO_LEV_GALINHA_CARTUCHO _4__min.png" alt="Caldo SAZÓN® Lev Galinha" title="Caldo SAZÓN® Lev Galinha">
+									</figure>
+								</div>
+							</div>
+							<div class="shop-now-stores-wrap shop-chef" id="store-4">
+																	<div class="middle offersError">
+										<h3 class="subtitle text-center">Mercados indisponíveis</h3>
+										<p class="disclaimer text-center">Infelizmente, no momento não encontramos nenhum mercado disponível para fazer entregas em sua região, via delivery. Por favor, tente de novo mais tarde.</p>
+									</div>
+															</div>
+						</div>
+					</div>
+				</div>
+			</div>
+					<!-- Modal compre agora -->
+			<div class="shop-now-container modal-shop-default terrano-r-veggie-burger-sabor-carne" data-slug="terrano-r-veggie-burger-sabor-carne" style="">
+				<div class="header-modal">
+					<div class="header-modal-logo">
+						<img src="/_dist/images/template/logo_sabores.png" alt="Logo Sabores" title="Logo Sabores">
+					</div>
+					<button class="close-shop">X</button>
+				</div>
+				<div class="shop-now-wrap">
+					<div class="shop-now-main">
+						<div class="shop-now-content" data-hash="terrano-r-veggie-burger-sabor-carne" id="7891132161331">
+							<div class="shop-now-product-box text-center">
+								<div class="shop-now-product-all">
+									<h2>TERRANO® Veggie Burger sabor Carne</h2>
+									<figure>
+										<img src="/uploads/images/products/MKP_VRJ_TERRANO_VEGGIE_BURGER_CARNE_POUCH_160g.png" alt="TERRANO® Veggie Burger sabor Carne" title="TERRANO® Veggie Burger sabor Carne">
+									</figure>
+								</div>
+							</div>
+							<div class="shop-now-stores-wrap shop-chef" id="store-4">
+																	<div class="middle offersError">
+										<h3 class="subtitle text-center">Mercados indisponíveis</h3>
+										<p class="disclaimer text-center">Infelizmente, no momento não encontramos nenhum mercado disponível para fazer entregas em sua região, via delivery. Por favor, tente de novo mais tarde.</p>
+									</div>
+															</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<footer>
+			<div class="container-fluid">
+				<div class="container">
+					<div class="top">
+						<img src="/_dist/images/template/footer-package1.png" alt="Produtos Ajinomoto" title="Produtos Ajinomoto">
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid bg-whiteGray">
+				<div class="container">
+					<a href="https://www.ajinomoto.com.br/fale-com-a-gente/consumidor" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'footer_click', 'event_section': 'footer', 'event_local': '/receita/crepioca-com-brocolis-e-frango', 'event_text': 'btn-fale-com-a-gente-consumidor', 'event_action': 'click' });" class="footer-logo" target="_blank">
+						<img src="/_dist/images/template/logo-sac-ajinomoto.svg" alt="SAC Ajinomoto" title="SAC Ajinomoto">
+					</a>
+
+					<ul class="footer-links">
+						<li>
+							<a href="https://www.ajinomoto.com.br/fale-com-a-gente/consumidor" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'footer_click', 'event_section': 'footer', 'event_local': '/receita/crepioca-com-brocolis-e-frango', 'event_text': 'btn-fale-conosco', 'event_action': 'click' });" class="btn-default btn-action btn-rounded" target="_blank">Fale Conosco</a>
+						</li>
+						<li>
+							<a href="http://www.ajinomoto.com.br/empresa" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'footer_click', 'event_section': 'footer', 'event_local': '/receita/crepioca-com-brocolis-e-frango', 'event_text': 'btn-sobre-a-ajinomoto', 'event_action': 'click' });" class="btn-default btn-action btn-rounded" target="_blank">Sobre a Ajinomoto</a>
+						</li>
+						<li>
+							<a href="http://www.ajinomotofoodservice.com.br/" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'footer_click', 'event_section': 'footer', 'event_local': '/receita/crepioca-com-brocolis-e-frango', 'event_text': 'btn-food-service', 'event_action': 'click' });" class="btn-default btn-action btn-rounded" target="_blank">Food Service</a>
+						</li>
+						<li>
+							<a href="https://www.ajinomoto.com.br/politica-de-privacidade" onclick="dataLayer.push({'event': 'gaEvent', 'event_name': 'footer_click', 'event_section': 'footer', 'event_local': '/receita/crepioca-com-brocolis-e-frango', 'event_text': 'btn-politica-de-privacidade', 'event_action': 'click' });" class="btn-default btn-action btn-rounded" target="_blank">Política de Privacidade</a>
+						</li>
+											</ul>
+
+					<span class="text-center">
+						Copyright © 2020 Ajinomoto Brasil <br />
+						Ind. e Com. Ltda. - Todos os direitos reservados <br>
+						CNPJ Ajinomoto: 46.344.354/0006-69
+					</span>
+
+					<a href="http://www.cappuccinodigital.com.br" class="footer-logo" target="_blank">
+						<img src="/_dist/images/template/logo-cappuccino.svg" alt="Logo Cappuccino Digital" title="Logo Cappuccino Digital" width="100px">
+					</a>
+
+					<ul class="products-list">
+						<li class="text-center">
+							<a href="http://www.aji-no-moto.com.br/" target="_blank">
+								<img src="/_dist/images/template/logo_aji-no-moto.png" alt="Logo Aji-nomoto" title="Logo Aji-nomoto" />
+							</a>
+						</li>
+
+						<li class="text-center">
+							<a href="https://www.ajinomoto.com.br/produtos/receita-de-casa" target="_blank">
+								<img src="/_dist/images/template/logo_receitadacasa.png" alt="Logo Receita da Casa" title="Logo Receita da Casa" />
+							</a>
+						</li>
+						<li class="text-center">
+							<a href="https://www.facebook.com/AjiSalBrasil" target="_blank">
+								<img src="/_dist/images/template/logo-ajisal.png" alt="Logo Ajisal" title="Logo Ajisal" />
+							</a>
+						</li>
+						<li class="text-center">
+							<a href="http://hondashi.com.br/" target="_blank">
+								<img src="/_dist/images/template/logo-hondashi.png" alt="Logo Hondashi" title="Logo Hondashi" />
+							</a>
+						</li>
+						<li class="text-center">
+							<a href="https://midrefresco.com.br/" target="_blank">
+								<img src="/_dist/images/template/logo-mid.png" alt="Logo MID" title="Logo MID" />
+							</a>
+						</li>
+						<li class="text-center">
+							<a href="https://www.midrefresco.com.br/produtos#mid-zero" target="_blank">
+								<img src="/_dist/images/template/logo_midzero.png" alt="Logo MID Zero" title="Logo MID Zero" />
+							</a>
+						</li>
+						<li class="text-center">
+							<a href="https://www.ajinomoto.com.br/produtos/sabor-ami" target="_blank">
+								<img src="/_dist/images/template/logo-saborami.png" alt="Logo Sabor AmiLogo Sabor Ami" title="Logo Sabor Ami" />
+							</a>
+						</li>
+						<li class="text-center">
+							<a href="https://www.satisbr.com.br/" target="_blank">
+								<img src="/_dist/images/template/logo--satis.png" alt="Logo Satis" title="Logo Satis" />
+							</a>
+						</li>
+						<li class="text-center">
+							<a href="https://www.sazon.com.br/" target="_blank">
+								<img src="/_dist/images/template/logo-sazon.png" alt="Logo Sazón" title="Logo Sazón" />
+							</a>
+						</li>
+						<li class="text-center">
+							<a href="https://www.terranoajinomoto.com.br/" target="_blank">
+								<img src="/_dist/images/template/logo-terrano.png" alt="Logo Terrano" title="Logo Terrano" />
+							</a>
+						</li>
+						<li class="text-center">
+							<a href="https://www.vono.com.br" target="_blank">
+								<img src="/_dist/images/template/logo-vono.png" alt="Logo Vono" title="Logo Vono" />
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		</section>
+<!--
+		<section id="cookiesPage">
+            <article>
+                <h6>Usamos cookies para melhorar sua experiência.</h6>
+                <p>Nós apenas armazenamos informações técnicas <br>
+                    do seu acesso. Acesse a <a href="https://www.ajinomoto.com.br/politica-de-privacidade" target="_blank">política de privacidade.</a></p>
+            </article>
+            <aside>
+                <button value="cancel" class="btn-notCookie">Não aceito o uso de cookies!</button>
+                <button value="accept" class="btn-setCookie">Aceito o uso de cookies!</button></aside>
+        </section>-->
+
+		<div class="search-box">
+			<form action="/busca/" id="hiddenSearchGA" method="GET" autocomplete="off">
+				<div class="close-form">X</div>
+				<fieldset>
+					<label>Descubra novos sabores!</label>
+					<div class="visible-xs">
+						<input type="text" id="search-field" name="s" class="searcH searchDeskC" placeholder="Encontre sua receita" accesskey="s">
+					</div>
+					<div class="hidden-xs">
+						<input type="text" id="search-field" name="q" class="searcH searchMobileD" placeholder="Encontre sua receita por prato, ingrediente ou palavra-chave" accesskey="s">
+					</div>
+					<div>
+						<button type="button" id="search-button" value="Busca" class="btn-default btn-action btnSearchGAHidden" onclick="return moengageBusca();"> Buscar </button>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+
+
+		<div id="modal-login" class="hidden">
+			<h2 class="text-red text-center text-upper">Faça seu Login</h2>
+
+			<div class="align-center space-h-10">
+				<div class="fb-login-button" data-max-rows="1" data-size="medium" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="true" onlogin="doLogin" scope="public_profile, email"></div>
+				<p class="load-facebook text-center" style="display: none;">Carregando...</p>
+			</div>
+			<div class="space-h-10 align-center">
+				<button class="googleLoginButton btn-socials" id="googleLoginButton" style="width: 240px !important">
+					<i class="fa fa-google"></i><span>Entrar com o Google</span>
+				</button>
+			</div>
+
+			<span class="align-center space-h-10">Ou</span>
+			            <form action="/login" method="post">
+				<ul class="grid">
+					<li class="grid-sys one-full">
+						<input id="username" name="_username" type="text" placeholder="E-mail:" required>
+					</li>
+					<li class="grid-sys one-full pass-olho">
+												<i class="fa fa-eye olho" id="olho"></i>
+						<input id="password" name="_password" type="password" placeholder="Senha" required>
+					</li>
+					<li class="grid-sys one-full text-center">
+						<fieldset class="align-center">
+							<input type="checkbox" name="remember" id="remember" />
+							<label for="remember">Lembre-me</label>
+						</fieldset>
+						<a href="/recuperar-senha" class="btn-default">Esqueci minha senha</a>
+					</li>
+					<li class="grid-sys one-full">
+						<button class="btn-default btn-action btn-size-l align-center text-dins text-upper">Entrar</button>
+					</li>
+					<div class="space-h-10" style="display: block;">
+                        						<input type="hidden" name="_failure_path" value="http://www.saboresajinomoto.com.br/receita/crepioca-com-brocolis-e-frango" />
+												                    </div>
+
+					<input type="hidden" name="_target_path" value="http://www.saboresajinomoto.com.br/receita/crepioca-com-brocolis-e-frango" />
+				</ul>
+				<h3 class="text-center" style="max-width: 570px; font-size:15px;">Informamos que coletamos seus dados pessoais, nome
+e e-mail, com a finalidade de envio de novidades e informações da Ajinomoto.</h3>
+			</form>
+		</div>
+		<a href="#modal-welcome" data-fancybox class="hidden"></a>
+		<div id="modal-welcome" class="bg-red text-center hidden">
+			<img src="/_dist/images/template/image-welcome.jpg" alt="BEM-VINDO AO SITE SABORES AJINOMOTO! OBRIGADO POR SE CADASTRAR!" title="BEM-VINDO AO SITE SABORES AJINOMOTO! OBRIGADO POR SE CADASTRAR!" />
+			<h2 class="text-white text-upper space-h-30">
+				BEM-VINDO AO SITE SABORES AJINOMOTO! <br>
+				OBRIGADO POR SE CADASTRAR!
+			</h2>
+
+			<h4 class="text-white text-upper">Pronto!</h4>
+			<p class="text-white text-center">
+				Você concluiu seu cadastro no portal Sabores Ajinomoto.
+			</p>
+
+			<div class="space-h-10"></div>
+			<h4 class="text-white text-upper">Agora você poderá:</h4>
+			<p class="text-white text-center">
+				- Salvar suas receitas favoritas para acessa-las de forma mais fácil <br>
+				- Criar suas listas de receitas como preferir <br>
+				- Receber o cardápio semanal no seu e-mail
+			</p>
+
+			<div class="space-h-10"></div>
+			<h4 class="text-white text-upper">Aproveite!</h4>
+			<ul class="social-link">
+				<li>
+					<a href="https://www.facebook.com/SaboresAjinomoto" target="_blank" class="text-white"><i class="fa fa-facebook-official text-white" aria-hidden="true"></i> /saboresajinomoto</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/saboresajinomoto" target="_blank" class="text-white"><i class="fa fa-youtube-play text-white" aria-hidden="true"></i> /saboresajinomoto</a>
+				</li>
+			</ul>
+
+			<div class="space-h-20"></div>
+		</div>
+
+		<!--
+		<script type="text/javascript" id="cookieinfo"
+			src="/_dist/js/cookieinfo.min.js"
+			data-bg="#e02428"
+			data-fg="#FFFFFF"
+			data-link="#FFFFFF"
+			data-cookie="CookieInfoScript"
+			data-text-align="left"
+			data-close-text="Ok, estou ciente."
+			data-message="Este site utiliza cookies para armazenar informações neste computador."
+			data-linkmsg="Política de Privacidade"
+			data-moreinfo="https://www.ajinomoto.com.br/politica-de-privacidade">
+		</script>
+
+		-->
+
+		<script src="/_dist/js/jquery.min.js"></script>
+		<script src="/_dist/js/jquery.fancybox.min.js"></script>
+		<script src="/_dist/js/owl.carousel.min.js"></script>
+<script src="/_dist/js/moment-with-locales.min.js"></script>
+<script src="/_dist/js/list.min.js"></script>
+<script src="/bundles/fosjsrouting/js/router.js"></script>
+<script src="/js/routing?callback=fos.Router.setData"></script>
+<script src="/dashboard/bootstrap/js/bootstrap.min.js"></script>
+<script>
+var moengageRecipePayload = {
+	'ID': '5880',
+	'nome da receita': 'CREPIOCA COM BRÓCOLIS E FRANGO',
+	'url da receita': '/receita/crepioca-com-brocolis-e-frango',
+	'categoria da receita': 'Prato Principal',
+	'rating da receita': '0',
+};
+function moengageTrackRecipeRatingEvent() {
+	console.log('moengageTrackRecipeRatingEvent');
+	Moengage.track_event('iniciou-avaliacao-receita', moengageRecipePayload);
+}
+function moengageTrackRecipeRatingCancelEvent() {
+	console.log('moengageTrackRecipeRatingCancelEvent');
+	Moengage.track_event('terminou-avaliacao-receita', moengageRecipePayload);
+}
+const elementIsVisibleInViewport = (el, partiallyVisible = false) => {
+	const { top, left, bottom, right } = el.getBoundingClientRect();
+	const { innerHeight, innerWidth } = window;
+	return partiallyVisible
+	? ((top > 0 && top < innerHeight) ||
+		(bottom > 0 && bottom < innerHeight)) &&
+	((left > 0 && left < innerWidth) || (right > 0 && right < innerWidth))
+	: top >= 0 && left >= 0 && bottom <= innerHeight && right <= innerWidth;
+};
+
+$(document).ready(function() {
+	Moengage.track_event('visualizou-receita', moengageRecipePayload);
+	var vTimeout;
+	$(window).on('scroll', function(){
+		clearTimeout(vTimeout);
+		vTimeout = setTimeout(function(){
+			$('#content .products li:not(.moengage-tracked)').each(function(i, e){
+				if(elementIsVisibleInViewport(e)) {
+					var produtoPayload = $(e).data('moengage_payload');
+					produtoPayload['ID da receita'] = '5880';
+					produtoPayload['nome da receita'] = 'CREPIOCA COM BRÓCOLIS E FRANGO';
+					Moengage.track_event('visualizou-produto', produtoPayload).then(function(){
+						e.classList.add('moengage-tracked');
+					});
+				}
+			});
+		}, 50);
+	});
+	loadUserCollections()
+
+	function loadUserCollections(){
+		$.ajax({
+			url: Routing.generate('ajax_colecao_list'),
+			type: 'GET',
+			dataType: 'json'
+		}).done(function (response) {
+			for (var x = 0; x < response.colecoes.length; x++) {
+				$('.recipe-colletions').append('' +
+					'<li class="collection collection-user grid-sys one-third" id="collection-' + response.colecoes[x].guid + '">' +
+						'<div class="thumb">' +
+							'<a>' +
+								'<img src="/_dist/images/template/blank.gif" alt="' + response.colecoes[x].titulo + '" title="' + response.colecoes[x].titulo + '" style="background-image: url(' + response.colecoes[x].imagem + '), url(/_dist/images/template/thumb-default.jpg)" />' +
+							'</a>' +
+							'<ul class="options">' +
+
+								'<li><a class="btn-default btn-action btn-white btn-add-collection align-center" data-guid="' + response.colecoes[x].guid + '" data-slug="crepioca-com-brocolis-e-frango" data-title="' + response.colecoes[x].titulo + '" data-description="' + response.colecoes[x].descricao + '"><i class="fa fa-plus"></i> Adicionar a coleção</a></li>' +
+							'</ul>' +
+						'</div>' +
+						'<a><h4 class="text-red text-center text-upper collection-title">' + response.colecoes[x].titulo + '</h4></a>' +
+						'<p><i class="fa fa-cutlery"></i> ' + response.colecoes[x].receitas + ' Receitas</p>' +
+						'<p><i class="fa fa-user"></i> ' + response.colecoes[x].firstName + ' ' + response.colecoes[x].lastName + '</p>' +
+					'</li>' +
+				'');
+			}
+
+			// Paginação
+			if($('.recipe-colletions > li').length >= 6){
+				var collectionsList = new List('recipe-colletions', {
+					page: 6,
+					pagination: true
+				});
+
+				extraControlsListJS('#recipe-colletions', collectionsList, 5);
+			}
+		}).fail(function (response) {
+			$.fancybox.open('modal-new-collection');
+		});
+
+		return;
+	}
+
+	$(document).on("click",".btn-add-collection", function() {
+		var guid = $(this).data('guid'),
+			slug = $(this).data('slug'),
+			collectionTitle = $(this).data('title'),
+			collectionDescription = $(this).data('description')
+
+		var moengagePayload = {
+			'ID': '5880',
+			'nome da receita': 'CREPIOCA COM BRÓCOLIS E FRANGO',
+			'url da receita': '/receita/crepioca-com-brocolis-e-frango',
+			'categoria da receita': 'Prato Principal',
+			'rating da receita': '0',
+			'nome da coleção': collectionTitle,
+			'descrição da coleção': collectionDescription,
+		};
+		$.ajax({
+			url: Routing.generate('ajax_colecao_receita_add'),
+			type: 'GET',
+			data: {
+				'guid': guid,
+				'receita': slug
+			},
+			beforeSend: function() {
+				// setting a timeout
+			},
+			success: function (response) {
+				console.log('response', response)
+				$.fancybox.close();
+				if (response.status) {
+					//$.fancybox.open('Receita adicionada à sua coleção com sucesso!');
+					Moengage.track_event('adicionou-receita-coleção', moengagePayload);
+					$.fancybox.open('<div class="message">' + response.message + '</div>');
+
+					setTimeout(function(){
+						location.reload();
+					}, 3000);
+
+				} else {
+					$.fancybox.open('<div class="message">' + response.message + '</div>');
+				}
+			}
+		});
+
+	});
+
+	$(".modal-new-collection").on("click", function() {
+		$.fancybox.close();
+
+		$.fancybox.open( $('#modal-new-collection'), {
+			clickSlide : 'false',
+			clickOutside : 'false',
+			touch: false
+		});
+	});
+
+	$(document).on("click", ".add-collection", function() {
+		//$.fancybox.close();
+
+		var title = $('#new-collection-title').val(),
+			description = $('#new-collection-description').val();
+			btn = $('.add-collection');
+
+			if(btn.attr("disabled") == 'disabled') {
+				return false;
+			}
+
+			$.ajax({
+				url: Routing.generate('ajax_colecao_new'),
+				type: 'GET',
+				data: {
+					'titulo': title,
+					'descricao': description
+			},
+			beforeSend: function() {
+				// setting a timeout
+				btn.text('Carregando...');
+				btn.attr('disabled', true);
+			},
+			success: function (response) {
+				btn.text('Criar Coleção');
+				btn.attr('disabled', false);
+
+				$.fancybox.close();
+				$.fancybox.open('' +
+					'Sua coleção foi criada com sucesso!' +
+					'<br /><br />' +
+					'<a class="btn-default btn-action btn-add-collection align-center" data-guid="' + response + '" data-slug="crepioca-com-brocolis-e-frango">Adicionar receita</a>' +
+					'<br /><br />' +
+					'<small class="align-center">ou aguarde alguns segundos para carregar a sua coleção</small>' +
+				'');
+
+					setTimeout(function(){
+						location.reload();
+					}, 3000);
+				}
+
+			});
+	});
+
+	/** colecoes */
+	$('.load-colletions').on('click', function() {
+		$.fancybox.open( $('#modal-add-recipes'), {
+			clickSlide : 'false',
+			clickOutside : 'false',
+			touch: false
+		});
+
+	});
+	/* end */
+
+	$(document).on('click', ".fancybox-close-small", function(){
+		$.fancybox.close();
+	})
+});
+
+
+// Verificar status de Favorito da Receita
+	$('.favorite-recipe').on('click', function(e) {
+		var slug = $(this).data('slug');
+
+		$.ajax({
+			url: Routing.generate('ajax_colecao_isfavorita'),
+			data: {
+				receita: slug
+			},
+			type: 'GET'
+		}).done(function (response) {
+			if(response == false) {
+				// Adicionar Receita nos Favoritos
+				favRecipe(slug);
+			}
+			else {
+				// Remover Receita dos Favoritos
+				unfavRecipe(slug);
+			}
+			return response;
+		}).fail(function (response) {
+			$.fancybox.open(response);
+		});
+
+		return;
+	});
+
+	$('#weekly-recipes-email').on('focus', function(){
+		Moengage.track_event('iniciou-inscrição-newsletter', {
+			'tipo de newsletter': 'Cardápio semanal',
+		});
+	});
+	$("#weekly-recipes-form").on("submit", function(e){
+		e.preventDefault();
+		var email = $("#weekly-recipes-email").val();
+		if(email == '' || !isValid(email)){
+			$.fancybox.open("Digite um e-mail válido");
+			$("#weekly-recipes-email").css('border-color', 'red');
+			return false;
+		} else {
+			$("#weekly-recipes-email").css('border-color', '#d8d8d8');
+		}
+		$.ajax({
+			url: Routing.generate('ajax_newsletter_new'),
+			data: {
+				email: email
+			},
+			type: 'POST',
+			success: function (response) {
+				$.fancybox.open(response);
+				Moengage.track_event('finalizou-inscrição-newsletter', {
+					'tipo de newsletter': 'Cardápio semanal',
+				});
+				Moengage.add_unique_user_id(email).then(function(){
+					Moengage.add_user_attribute('email', email);
+					Moengage.add_user_attribute('aceita receber newsletter?', true);
+					Moengage.add_user_attribute('inscrito newsletter cardapio semanal', true);
+				});
+			},
+			error: function (response) {
+				$.fancybox.open(response);
+			}
+		});
+	});
+
+	function isValid(email){
+		var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+    	return pattern.test(email);
+	}
+
+	//informação de avaliação
+	$('.content-type-evaluation .icon-info').on('click', function(e){
+		$(".btn-info-avaliacao").trigger('click');
+	});
+
+	//efeito passando o mouse em cima das estrelas de avaliação
+	$('.content-type-evaluation .icon-star').hover(function(e){
+		var avaliacao = $(this).data('avaliacao');
+		percorreAvaliacao(avaliacao);
+	}, function(e){
+		var media = $('.content-type-evaluation').data('media');
+		var avaliacao = $('.content-type-evaluation').data('avaliacao');
+		preencheAvaliacao(media, avaliacao);
+	});
+
+	// selecionando a avaliação
+	$('.content-type-evaluation .icon-star').on('click', function(e){
+		e.preventDefault();
+
+		var receita = $(this).data('receita');
+		var usuario = $(this).data('usuario');
+		var avaliacao = $(this).data('avaliacao');
+		var media = $('.content-type-evaluation');
+		icon = $(this);
+		var data = {receita: receita,
+					usuario: usuario,
+					avaliacao: avaliacao};
+		avalia(icon, data);
+	});
+
+	//remove avaliação
+	$('.btn-confirm-remove-avaliacao').on('click', function(e){
+		e.preventDefault();
+		var receita = $(this).data('receita');
+		var usuario = $(this).data('usuario');
+		var avaliacao = $(this).data('avaliacao');
+		icon = $(this);
+		var data = {
+				receita: receita,
+				usuario: usuario,
+				avaliacao: avaliacao,
+				action: 'remove'
+			};
+
+		avalia(icon, data);
+	});
+
+	//requisição via ajax
+	function avalia(icon, data){
+		$.ajax({
+			url: Routing.generate('ajax_avaliacao'),
+			data: data,
+			type: 'POST',
+			dataType: 'json',
+			beforeSend: function() {
+				icon.addClass('icon-disabled');
+			},
+
+		}).done(function(response){
+			icon.removeClass('icon-disabled');
+			//console.log(response);
+			if(response.status == true){
+				var avaliacao = response.avaliacao;
+				var media = response.media;
+
+				$('.content-type-evaluation').data('media', media);
+				$('.content-type-evaluation').data('avaliacao',avaliacao);
+
+				preencheAvaliacao(media, avaliacao);
+
+				if(response.action == 'remove'){
+					$.fancybox.close();
+                    moengageTrackRecipeRatingCancelEvent();
+				} else {
+                    moengageTrackRecipeRatingEvent();
+                }
+
+				$.fancybox.open(response.msg);
+
+			}else if(response.status == 'modal_remove'){
+				$(".triggerClick").trigger('click');
+				$('.btn-confirm-remove-avaliacao').data('avaliacao',response.avaliacao);
+			}
+
+		}).fail(function(response){
+			$.fancybox.open(response);
+		});
+	}
+
+	//preenchendo avaliação
+	function percorreAvaliacao(avaliacao){
+		$('.content-type-evaluation .icon-star').each(function(index, element){
+			var i = index + 1;
+
+			if(i <= avaliacao){
+				$(this).removeClass('fa-star-o');
+				$(this).removeClass('text-red');
+				$(this).addClass('fa-star');
+				$(this).addClass('text-yellow');
+
+				if($(this).hasClass('fa-star-half-o')){
+					$(this).removeClass('fa-star-half-o');
+					$(this).addClass('fa-star');
+				}
+			}else{
+				if($(this).hasClass('fa-star-half-o')){
+					$(this).removeClass('fa-star-half-o');
+					$(this).addClass('fa-star');
+				}
+				$(this).removeClass('text-yellow');
+				$(this).removeClass('fa-star');
+				$(this).addClass('fa-star-o');
+				$(this).addClass('text-red');
+			}
+		});
+		$('[data-toggle="tooltip"]').tooltip();
+	}
+
+	function preencheAvaliacao(media, avaliacao){
+		number_format = parseFloat(media).toFixed(2);
+		var m = number_format.split('.');
+		var meio = parseInt(m[0]) + 1;
+
+		$('.content-type-evaluation .icon-star').each(function(index, element){
+			var i = index + 1;
+
+			if(i <= avaliacao){
+				//set icon_star  = 'fa-star'
+			 	//set star_color = 'text-yellow'
+				$(this).removeClass('fa-star-half-o');
+			 	$(this).removeClass('fa-star-o');
+			 	$(this).removeClass('text-red');
+				$(this).addClass('text-yellow');
+				$(this).addClass('fa-star');
+			}else if(i > avaliacao && i <= media){
+				//set icon_star  = 'fa-star'
+				//set star_color = 'text-red'
+				$(this).removeClass('fa-star-half-o');
+				$(this).removeClass('fa-star-o');
+				$(this).removeClass('text-yellow');
+				$(this).addClass('text-red');
+				$(this).addClass('fa-star');
+			}else if(i == meio){
+				if(parseInt(m[1]) >= 34 && parseInt(m[1]) <= 66){
+					//set icon_star = 'fa-star-half-o'
+					//set star_color = 'text-red'
+					$(this).removeClass('fa-star');
+					$(this).removeClass('fa-star-o');  //igual 2
+					$(this).removeClass('text-yellow');
+					$(this).addClass('fa-star-half-o');
+					$(this).addClass('text-red');
+				}else{
+					//set star_color = 'text-red'
+					//set icon_star = 'fa-star-o'
+					$(this).removeClass('fa-star');
+					$(this).removeClass('fa-star-half-o');
+					$(this).removeClass('text-yellow');
+					$(this).addClass('text-red');
+					$(this).addClass('fa-star-o');
+				}
+
+			}else{
+				//set star_color = 'text-red' %}
+				//set icon_star = 'fa-star-o' %}
+				$(this).removeClass('fa-star');
+				$(this).removeClass('fa-star-half-o');
+				$(this).removeClass('text-yellow');
+				$(this).addClass('text-red');
+				$(this).addClass('fa-star-o');
+			}
+		});
+	}
+
+</script>
+		<script>
+		$(document).ready(function() {
+			$('.btnSearchGA').on('click', function(e){
+					var searchDeskA = document.querySelector('.searchDeskA').value;
+					var searchMobileB = document.querySelector('.searchMobileB').value;
+					var searchVale;
+
+					if(searchDeskA){
+						searchVale = searchDeskA;
+					}else{
+						searchVale = searchMobileB;
+					}
+
+					var SearchSlug = searchVale.replace(/\s/g, '');
+
+					dataLayer.push({'event': 'gaEvent',
+					'event_name': 'internal_search',
+					'event_section': '/receita/crepioca-com-brocolis-e-frango',
+					'event_local': '/receita/crepioca-com-brocolis-e-frango',
+					'search_term': SearchSlug
+					});
+
+					$('form#searchGA').submit()
+				})
+
+				$('.btnSearchGAHidden').on('click', function(e){
+					var searchDeskC = document.querySelector('.searchDeskC').value;
+					var searchMobileD = document.querySelector('.searchMobileD').value;
+					var searchVale;
+
+					if(searchDeskC){
+						searchVale = searchDeskC;
+					}else{
+						searchVale = searchMobileD;
+					}
+
+					var SearchSlug = searchVale.replace(/\s/g, '');
+
+					dataLayer.push({'event': 'gaEvent',
+					'event_name': 'search',
+					'event_section': '/receita/crepioca-com-brocolis-e-frango',
+					'event_local': '/receita/crepioca-com-brocolis-e-frango',
+					'search_term': SearchSlug
+					});
+
+					$('form#hiddenSearchGA').submit()
+				})
+
+		})
+		</script>
+		<script src="/_dist/js/main.min.js"></script>
+		<script type="text/javascript" src="/barra_integradora/bar.js"></script>
+		<script src="https://apis.google.com/js/api:client.js" integrity="" crossorigin="anonymous"></script> <!-- login com Google -->
+		<script src="/bundles/fosjsrouting/js/router.js"></script>
+	    <script src="/js/routing?callback=fos.Router.setData"></script>
+
+		<script>
+    function moengageTrackShareEvent() {
+        console.log('moengageTrackShareEvent');
+        Moengage.track_event('iniciado-compart-receita', moengageRecipePayload);
+    }
+	$(document).ready(function() {
+
+		$(".btn-shop-now1").on('click', function(){
+			//Abre o modal
+			var show_now_product = $(this).data('slug')
+			$('.' + show_now_product).show();
+			//$('.shop-now-container').show();
+
+			//Aciona a classe para travar o body na altura
+			if ($('body').hasClass('open')) {
+				$('body').removeClass('open');
+			}else{
+				$('body').addClass('open');
+			}
+			return false;
+		});
+
+		// FEchar o modal
+		$('.close-shop').on('click' , function(){
+			$('body').removeClass('open');
+			$('.shop-now-container').hide();
+			return false;
+		});
+
+		/*
+		$.getJSON( "http://is.gd/create.php?callback=?", {
+			url: "http://www.thiagovespa.com.br",
+			format: "json"
+		}).done(function( data ) {
+			console.log("2 -" + data.shorturl);
+			$(".wa_btn").attr('data-href', data.shorturl);
+		});
+
+		console.log("1 -"+window.location.href);
+
+		waShBtn = function() {
+			if( this.isIos === true ) {
+				var b = [].slice.call( document.querySelectorAll(".wa_btn") );
+				for (var i = 0; i < b.length; i++) {
+				var t = b[i].getAttribute("data-text");
+				var u = b[i].getAttribute("data-href");
+				var o = b[i].getAttribute("href");
+				var at = "?text=" + encodeURIComponent( t );
+				if (t) {
+					at += "%20%0A";
+				}
+				if (u) {
+					at += encodeURIComponent( u );
+				} else {
+					at += encodeURIComponent( document.URL );
+				}
+				b[i].setAttribute("href", o + at);
+				b[i].setAttribute("target", "_top");
+				b[i].setAttribute("target", "_top");
+				b[i].className += ' activeWhatsapp';
+				}
+			}
+		}
+
+		waShBtn.prototype.isIos = ((navigator.userAgent.match(/Android|iPhone/i) && !navigator.userAgent.match(/iPod|iPad/i)) ? true : false);
+
+		var theWaShBtn = new waShBtn();
+		*/
+
+
+		// criando carrosel para lista de receitas mais acessadas
+		$(".recipes").owlCarousel({
+			responsive: {
+				0: {
+					items: 1,
+					nav: true,
+					dots: true,
+					navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-chevron-right" aria-hidden="true"></i>']
+				},
+				480: {
+					items: 4,
+					nav: false,
+					dots: false
+				}
+			}
+		});
+
+		if($(".banner-carousel").length) {
+			$(".banner-carousel .slider").owlCarousel({
+				items: 1,
+				nav: true,
+				dots: true,
+				navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-chevron-right" aria-hidden="true"></i>']
+			});
+		}
+
+		// Convertendo tempo de receita
+		$('.content-type-time span').text(minutesToStr($('.content-type-time span').text()));
+
+		// Convertendo data de comentário
+		for(var x = 0; x < $('li.comment .text .title small').length ;x++) {
+			document.querySelectorAll('li.comment .text .title small')[x].innerText = moment(document.querySelectorAll('li.comment .text .title small')[x].innerText).locale('pt-br').format('LL');
+		}
+
+		// Criando paginação para comentários
+		//var commentsList = new List('comments', {
+		//	page: 5,
+		//	pagination: true
+		//});
+
+		// Adicionando botão de Voltar por navegação;
+		if(window.history.length > 1 && document.referrer.indexOf('busca') > -1) {
+			$('#top').prepend('<a herf="#" class="btn-default btn-action btn-back" onclick="window.history.back();">« Voltar</a>');
+		}
+
+
+
+	});
+
+	function toggleFav(slug) {
+		// WIP
+		$.ajax({
+			url: Routing.generate('ajax_colecao_isfavorita'),
+			data: {
+				receita: slug
+			},
+			type: 'GET'
+		}).done(function (response) {
+			if(response == false) {
+				// Trocar o botão para favoritar a receita
+				$('.favorite-recipe#' + slug).html('<i class="fa fa-heart-o" aria-hidden="true"></i> Favoritar Receita');
+			}
+			else {
+				// Trocar o botão para desfavoritar a receita
+				$('.favorite-recipe#' + slug).html('<i class="fa fa-heart" aria-hidden="true"></i> Desfavoritar Receita');
+			}
+			return response;
+		}).fail(function (response) {
+			$.fancybox.open(response);
+		});
+
+		return;
+	}
+
+	//share code whatsapp
+	$('.whatsapp').on('click', function(e) {
+		var slug = $(this).data('slug')
+		var textDescription = $("meta[name=description]").attr('content')
+		var ingredientes =  $('.whatsapp-to-text').text()
+        var deviceAgent = navigator.userAgent;
+        var ios = deviceAgent.toLowerCase().match(/(iphone|ipod|ipad)/);
+
+        urlLower = textDescription + ingredientes + window.location;
+
+		var parameter = '?utm_source=whatsapp&utm_medium=social&utm_campaign=' + slug;
+
+        var text  = encodeURIComponent(urlLower + parameter)
+
+        moengageTrackShareEvent();
+        if (ios) {
+            window.location.href = "https://api.whatsapp.com/send?text=" + text;
+        } else {
+            window.open("https://api.whatsapp.com/send?text=" + text, '_blank')
+        }
+	});
+
+	/** Whatsapp */
+	var url = location.href,
+		u = url.split('?');
+
+		if (u[1].length > 1) {
+			if (u[1].toLowerCase().indexOf("--utm_medium=social-sabores--") !== -1) {
+				var i = u[0] + '?' + u[1].replace(/--/g, '&');
+				location.href = i;
+			}
+		}
+	/** end */
+</script>
+
+<script type="text/javascript">
+		/* Para chamar está função use class="cnv-box-seo"
+		* @author Agência Conversion (www.conversion.com.br)
+		*/
+		$(function(){
+			var showHideTextBoxSEO = function() {
+				var boxSeo = $('.cnv-box-seo');
+				if(boxSeo.children(':gt(3)').length>0){
+					boxSeo.children(':gt(3)').hide().addClass('hide');
+					boxSeo.append('<div class="cnv-button-wrap"><a href="#" class="cnv-btn-more-seo btn-default btn-action btn-size-l align-center" style="text-decoration: none;">Leia Mais</a></div>');
+					boxSeo.find('.cnv-btn-more-seo').on('click', function (event) {
+						event.preventDefault();
+						if(!$(this).hasClass('expanded'))
+							$(this).text('Ocultar');
+						else
+							$(this).text('Leia mais');
+
+						boxSeo.find('.hide').slideToggle();
+						$(this).toggleClass('expanded');
+					});
+				}
+			}
+			showHideTextBoxSEO();
+		});
+</script>
+
+		<script language="javascript" type="text/javascript">
+			$(document).ready(function() {
+				$('#search-recipes').on('click', '.itens-recipe a', function(e){
+					e.preventDefault();
+					var a = $(this);
+					var vTermo = $('[id="search-field"]').filter(function(){
+							return $(this).val() != '';
+						}).val();
+					Moengage.track_event('pesquisou', {
+						termo: vTermo,
+						'nome receita destino': a.find('.content').text(),
+						'id receita destino': a.data('receita_id'),
+					}).then(function(){
+						window.location = a.prop('href');
+					});
+				});
+				/*
+				// START POP-UP COOKIES
+				let cookie_consent = getCookie("user_cookie_consent");
+				let cookie_not_consent = getCookie("user_not_cookie");
+
+				if(cookie_consent == 1 || cookie_not_consent){
+					$("#cookiesPage").removeClass("showCookie");
+				}else{
+					$("#cookiesPage").addClass("showCookie");
+				}
+
+				// Create cookie
+				function setCookie(cname, cvalue, exdays) {
+					const d = new Date();
+					d.setTime(d.getTime() + (exdays*24*60*60*1000));
+					let expires = "expires="+ d.toUTCString();
+					document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+				}
+
+				// Delete cookie
+				function deleteCookie(cname) {
+					const d = new Date();
+					d.setTime(d.getTime() + (24*60*60*1000));
+					let expires = "expires="+ d.toUTCString();
+					document.cookie = cname + "=;" + expires + ";path=/";
+				}
+
+				// Read cookie
+				function getCookie(cname) {
+					let name = cname + "=";
+					let decodedCookie = decodeURIComponent(document.cookie);
+					let ca = decodedCookie.split(';');
+					for(let i = 0; i <ca.length; i++) {
+						let c = ca[i];
+						while (c.charAt(0) == ' ') {
+							c = c.substring(1);
+						}
+						if (c.indexOf(name) == 0) {
+							return c.substring(name.length, c.length);
+						}
+					}
+					return "";
+				}
+
+				// Set cookie consent
+				function acceptCookieConsent(){
+					deleteCookie('user_cookie_consent');
+					setCookie('user_cookie_consent', 1, 30);
+					document.getElementById("cookiesPage").style.display = "none";
+				}
+
+				$('.btn-setCookie').on('click', function(e) {
+					acceptCookieConsent()
+				})
+
+				$('.btn-notCookie').on('click', function(e) {
+					setCookie('user_not_cookie', 1, 30);
+					document.getElementById("cookiesPage").style.display = "none";
+				})
+				//END*/
+
+
+				/** login google */
+				gapi.load('auth2', function(){
+					auth2 = gapi.auth2.init({
+						client_id: '1009121563317-bha3iek7fguaeh4l5m7vhati3las12ub.apps.googleusercontent.com',
+						cookiepolicy: 'single_host_origin',
+					});
+
+					auth2.attachClickHandler(document.getElementById('googleLoginButton'), {},
+						function(googleUser) {
+							onSignIn(googleUser);
+						}, function(error) {
+
+						}
+					);
+				});
+
+				function onSignIn(googleUser) {
+					var profile = googleUser.getBasicProfile();
+
+					var dataConnect = {'id' : profile.getId(), 'name' : profile.getName(), 'avatar':profile.getImageUrl(),  'email':profile.getEmail(), 'type': 'google'}
+
+					console.log('login google', dataConnect)
+					loginUserSocialMedia(dataConnect);
+
+				}
+
+				function loginUserSocialMedia(data){
+					$.ajax({
+						url: facebookLoginUrl,
+						type: "POST",
+						dataType: "json",
+						data: data,
+						success: function (response) {
+							if (response.status) {
+								//if(response.shouldComplete){
+								//	window.location = completeRegister;
+								//} else {
+								window.location.reload();
+								//}
+							}
+						}
+					});
+				}
+				/** end */
+			});
+
+			function sendSearch(search){
+				$.ajax({
+					url: Routing.generate('ajax_front_search_recipe'),
+					type: 'GET',
+					data: { search: search, u: 'search'},
+					dataType: 'json',
+					success:function(response){
+						if (response.receitas.length > 0 && response.status) {
+							$('#search-recipes').show();
+							$('.container-response').html('');
+							for (var i = 0 ; i < response.receitas.length; i++) {
+
+								$('#search-recipes .container-response').append(''+
+									'<li class="itens-recipe"> '+
+										'<a href="/receita/'+ response.receitas[i].slug +'" data-receita_id="'+response.receitas[i].id+'">' +
+											'<div class="thumb">' +
+												'<img src="/_dist/images/template/blank.gif" alt="' + response.receitas[i].titulo +'" title="' + response.receitas[i].titulo +'" style="height: 50px; background-image: url('+response.receitas[i].imagem_mobile + '), url(/_dist/images/template/thumb-default.jpg)">' +
+											'</div>'+
+											'<div class="content">'+
+												'<p>' +
+													response.receitas[i].titulo +
+												'</p>'+
+											'</div>' +
+										'</a>' +
+									'</li>' +
+								'');
+							}
+						} else {
+							$('.container-response').html('<li>Receita não encontrada.</li>');
+						}
+					}
+				});
+			}
+
+			// Barra integradora
+			function ParamBar(){
+				container = document.getElementsByTagName('header')[0].getElementsByClassName('container')[0].clientWidth;
+				return container
+			}
+			function linkAcessibilidade(){
+				link_acessibilidade = "/acessibilidade";
+				return link_acessibilidade;
+			}
+
+            var facebookLoginUrl = "//www.saboresajinomoto.com.br/ajax/registro-facebook";
+
+            		</script>
+
+		<script src="https://plugin.handtalk.me/web/latest/handtalk.min.js"></script>
+		<script>
+			var ht = new HT({
+				token: "aaf1ca9bbb202776565dcf2a295ad97e",
+				avatar: "MAYA",
+				pageSpeech: true
+
+      		});
+		</script>
+	</body>
+</html>
