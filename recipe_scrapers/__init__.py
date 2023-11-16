@@ -295,7 +295,7 @@ from .zenbelly import ZenBelly
 SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
     Abril.host(): Abril,
-    Abuelascounter.host(): AbuelasCounter,
+    AbuelasCounter.host(): AbuelasCounter,
     AddAPinch.host(): AddAPinch,
     AfghanKitchenRecipes.host(): AfghanKitchenRecipes,
     AkisPetretzikis.host(): AkisPetretzikis,
