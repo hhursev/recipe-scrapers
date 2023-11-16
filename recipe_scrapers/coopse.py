@@ -34,7 +34,7 @@ class CoopSE(AbstractScraper):
         return "coop.se"
 
     def author(self):
-        return self.data["recipeCreator"]
+        return "Coop Sverige"
 
     def title(self):
         return self.data["name"]
