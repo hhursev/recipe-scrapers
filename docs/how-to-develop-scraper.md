@@ -160,64 +160,47 @@ Some helper functions are available in the `_utils.py` file. These are functions
 
 ## 5. Create the test
 
-A test case was automatically created when the scraper class was created. It can be found in the `tests/` directory with the name `test_lowercaseclassname.py`. The HTML from the URL used to generate the scraper is also downloaded to the `tests/test_data/` directory.
+A test case was automatically created when the scraper class was created. It can be found in the `tests/test_data/<host>`  directory, where `host` is the hostname of the website the scraper is for.
 
-The generated test case will look something like this:
+The test case comprises two parts:
 
-```python
-from recipe_scrapers.newscraperclass import NewScraperClass
-from tests import ScraperTest
+1. testhtml file containing the html from the URL used to generate the scraper
+2. testjson file containing the expected output from the scraper when the scraper is run on the testhtml file.
 
-class TestNewScraperScraper(ScraperTest):
+The generated testjson file will look something like this, with only the host field populated:
 
-    scraper_class = NewScraperClass
-
-    def test_host(self):
-        self.assertEqual("websitehost.com", self.harvester_class.host())
-
-    def test_author(self):
-        self.assertEqual(None, self.harvester_class.author())
-
-    def test_title(self):
-        self.assertEqual(None, self.harvester_class.title())
-
-    def test_category(self):
-        self.assertEqual(None, self.harvester_class.category())
-
-    def test_total_time(self):
-        self.assertEqual(None, self.harvester_class.total_time())
-
-    def test_yields(self):
-        self.assertEqual(None, self.harvester_class.yields())
-
-    def test_image(self):
-        self.assertEqual(None, self.harvester_class.image())
-
-    def test_ingredients(self):
-        self.assertEqual(None, self.harvester_class.ingredients())
-
-    def test_instructions(self):
-        self.assertEqual(None, self.harvester_class.instructions())
-
-    def test_ratings(self):
-        self.assertEqual(None, self.harvester_class.ratings())
-
-    def test_cuisine(self):
-        self.assertEqual(None, self.harvester_class.cuisine())
-
-    def test_description(self):
-        self.assertEqual(None, self.harvester_class.description())
+```json
+{
+  "author": "",
+  "canonical_url": "",
+  "host": "<host>",
+  "description": "",
+  "image": "",
+  "ingredients": "",
+  "ingredient_groups": "",
+  "instructions": "",
+  "instructions_list": "",
+  "language": "",
+  "site_name": "",
+  "title": "",
+  "total_time": "",
+  "yields": ""
+}
 ```
 
-You will need to modify each of these functions to replace `None` with the correct output from the scraper for the recipe in the URL you used to generate the test. You should not do any processing of the scraper output in the test case, this would belong in the scraper itself.
+Each of the fields in this file has the same name as the related scraper function. You will need to add the correct output from the scraper to each of these fields.
 
-This test case should only have tests for the functions that the scraper implements. You may need to add or remove tests depending on the implementation of the scraper.
+If the scraper implements any of the optional functions listed in the [Scraper Functions guide](in-depth-guide-scraper-functions.md), then you should add the appropriate fields to the testjson file.
+
+In some cases, a scraper is not able to support one or more of the mandatory functions because the website doesn't provide the information. In these cases, remove the field from the testjson file. What will happen is that the test case will check to see if the scraper raises an exception if any of the unsupported functions are called.
 
 You can check whether your scraper is passing the tests by running
 
 ```shell
-$ python -m unittest tests.test_myscraper
+$ python -k unittest myscraper
 ```
+
+where `myscraper` is the name of the testjson file without the `.testjson` extension.
 
 > [!NOTE]
 > It is also recommended that you manually test the scraper with a couple of different recipes from the website, to check that there aren't any special cases the scraper will need to handle. You don't need to create test cases for each of these.
