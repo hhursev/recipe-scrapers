@@ -34,7 +34,7 @@ class TestBongEatsScraper(ScraperTest):
 
     def test_image(self):
         self.assertEqual(
-            "https://uploads-ssl.webflow.com/5c481361c604e53624138c2f/648b92c0b448da06bede4a4e_lau%20chingri%2016-9.jpg",
+            "https://assets-global.website-files.com/60d34b8627f6e735cf28df18/648b921392e8ed53482b6dd5_lau%20chingri%201-1.jpeg",
             self.harvester_class.image(),
         )
 
