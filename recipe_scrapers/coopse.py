@@ -80,9 +80,7 @@ class CoopSE(AbstractScraper):
                 if not quantity == "1" and not pre_preparation == " riven":
                     name = i["ingredient"]["pluralName"]
                 ingredients.append(
-                    "{}{}{} {}{}".format(
-                        quantity, unit, pre_preparation, name, i["postPreparation"]
-                    )
+                    f"{quantity}{unit}{pre_preparation} {name}{i['postPreparation']}"
                 )
 
             groups.append(IngredientGroup(purpose=p["name"], ingredients=ingredients))
