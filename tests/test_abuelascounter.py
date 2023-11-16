@@ -3,6 +3,7 @@
 from recipe_scrapers.abuelascounter import AbuelasCounter
 from tests import ScraperTest
 
+
 # test recipe's URL
 # https://abuelascounter.com/alita-olivas-roast-chicken/
 class TestAbuelasCounterScraper(ScraperTest):
@@ -13,7 +14,10 @@ class TestAbuelasCounterScraper(ScraperTest):
 
     # @unittest.skip("canonical_url is not available from this webpage")
     def canonical_url(self):
-        self.assertEqual("https://abuelascounter.com/alita-olivas-roast-chicken/", self.harvester_class.host())
+        self.assertEqual(
+            "https://abuelascounter.com/alita-olivas-roast-chicken/",
+            self.harvester_class.host(),
+        )
 
     def test_author(self):
         self.assertEqual("Abuelas Cuban Counter", self.harvester_class.author())
@@ -31,25 +35,30 @@ class TestAbuelasCounterScraper(ScraperTest):
         self.assertEqual("6 servings", self.harvester_class.yields())
 
     def test_image(self):
-        self.assertEqual("https://abuelascounter.com/wp-content/uploads/2023/01/Roast-Chicken-Recipe.jpeg", self.harvester_class.image())
+        self.assertEqual(
+            "https://abuelascounter.com/wp-content/uploads/2023/01/Roast-Chicken-Recipe.jpeg",
+            self.harvester_class.image(),
+        )
 
     def test_ingredients(self):
-        self.assertEqual([
-            "1 - 3 pound whole roaster chicken",
-            "4 yellow onions, peeled and sliced thinly",
-            "1 onion, left whole",
-            "2 teaspoons of garlic powder",
-            "1/4 cup of soy sauce or dale’s marinade seasoning",
-            "Juice of 1 lime",
-            "Juice of 1 orange",
-            "1/3 cup olive oil",
-            "1/2 teaspoon of ground mustard",
-            "1 teaspoon of onion powder",
-            "1 teaspoon of paprika",
-            "salt and black pepper",
-            "2 teaspoons of apple cider vinegar",
-            ], self.harvester_class.ingredients(), 
-    )
+        self.assertEqual(
+            [
+                "1 - 3 pound whole roaster chicken",
+                "4 yellow onions, peeled and sliced thinly",
+                "1 onion, left whole",
+                "2 teaspoons of garlic powder",
+                "1/4 cup of soy sauce or dale’s marinade seasoning",
+                "Juice of 1 lime",
+                "Juice of 1 orange",
+                "1/3 cup olive oil",
+                "1/2 teaspoon of ground mustard",
+                "1 teaspoon of onion powder",
+                "1 teaspoon of paprika",
+                "salt and black pepper",
+                "2 teaspoons of apple cider vinegar",
+            ],
+            self.harvester_class.ingredients(),
+        )
 
     def test_instructions(self):
         self.assertEqual(
@@ -66,7 +75,9 @@ class TestAbuelasCounterScraper(ScraperTest):
                     "Roast for another 50-60 minutes. The chicken will roast for a about 90 minutes total.",
                     "The chicken is ready once the skin is golden brown and the juices run completely clear when you cut with a knife. If you are using a meat thermometer it should read 160 degrees between the breast and thigh area. Once you pull the chicken out of the oven let it rest for 15 minutes then carve and serve.",
                 ]
-                ), self.harvester_class.instructions())
+            ),
+            self.harvester_class.instructions(),
+        )
 
     def test_cuisine(self):
         self.assertEqual("Cuban,American", self.harvester_class.cuisine())
