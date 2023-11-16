@@ -57,6 +57,7 @@ then:
     scraper.to_json()
     scraper.links()
     scraper.nutrients()  # if available
+    scraper.canonical_url()  # also not always available
 
 You also have an option to scrape html-like content
 
