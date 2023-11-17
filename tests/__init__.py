@@ -116,9 +116,37 @@ def test_func_factory(
     return test_func
 
 
-def load_tests(loader, tests, pattern):
-    test_dir = pathlib.Path("tests/test_data")
+def load_tests(
+    loader: unittest.TestLoader, standard_tests: unittest.TestSuite, pattern: str
+) -> unittest.TestSuite:
+    """Customise the loading of tests. This function is automatically picked up by the
+    unittest test loader.
 
+    This function dynamically generates the class definition for RecipeTestCase by adding
+    a test function for each pair of testhtml and testjson files found in the
+    tests/test_data directory.
+
+    This also includes the library tests from the tests/library folder as well.
+
+
+    Parameters
+    ----------
+    loader : unittest.TestLoader
+        The instance of TestLoader loading the tests when unittest is run
+    standard_tests : unittest.TestSuite
+        The tests found by loader by loading the tests from the tests module.
+        This is empty and unused.
+    pattern : str
+        Pattern used to identify tests to load.
+        This is unused.
+
+    Returns
+    -------
+    unittest.TestSuite
+        A TestSuite object populated with tests from the pairs of testhtml and testjson
+        files, and the library tests.
+    """
+    test_dir = pathlib.Path("tests/test_data")
     for host in test_dir.iterdir():
         if not host.is_dir():
             continue
@@ -129,6 +157,8 @@ def load_tests(loader, tests, pattern):
                 continue
 
             # Add a new function to RecipeTestCase class to test this scraper
+            # The name of this function is derived from the host directory and
+            # testhtml file name.
             setattr(
                 RecipeTestCase,
                 f"test_{host.stem}_{testhtml.stem}",
@@ -139,5 +169,9 @@ def load_tests(loader, tests, pattern):
     suite = unittest.TestSuite()
     tests = loader.loadTestsFromTestCase(RecipeTestCase)
     suite.addTest(tests)
+
+    # Add library tests to test suite
+    tests = loader.discover("tests/library")
+    suite.addTests(tests)
 
     return suite
