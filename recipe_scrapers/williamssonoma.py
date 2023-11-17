@@ -1,6 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 
 
 class WilliamsSonoma(AbstractScraper):
@@ -25,6 +26,14 @@ class WilliamsSonoma(AbstractScraper):
 
     def ingredients(self):
         return self.schema.ingredients()
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".botLeft > h3",
+            ".botLeft > ul > li",
+        )
 
     def instructions(self):
         return self.schema.instructions()
