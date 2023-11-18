@@ -56,7 +56,7 @@ This will run all the tests for all the scrapers. You should not see any errors 
 
 To develop the scraper for the website, first identify a recipe. This will be used to create the test case that will validate that the scraper is working correctly.
 
-> [!NOTE]
+> [!TIP]
 > Try to pick a recipe that involves more than one instruction, if you can.  The test suite considers single-instruction recipes to indicate possible human error.  If you need to, though, you can [indicate that that's expected](https://github.com/hhursev/recipe-scrapers/blob/98ead6fc6e9653805b01539a3f46fbfb4e096136/tests/test_allrecipes.py#L147-L150).
 
 Next, find out if the website supports [Recipe Schema](https://schema.org/Recipe). If the website does support Recipe Schema, this will make creating the scraper straightforward. If not, supporting the site will be more complex but still possible.
@@ -154,7 +154,7 @@ If the website does not support Recipe Schema, or the schema does not include al
 
 An example of a scraper that uses this approach is [Przepisy](https://github.com/hhursev/recipe-scrapers/blob/main/recipe_scrapers/przepisy.py).
 
-The [BeautifulSoup documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.html) is a good resource for getting started with extracting information from HTML. An guide of common patterns and best practice used in this library can be found [here](in-depth-guide-html-scraping).
+The [BeautifulSoup documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.html) is a good resource for getting started with extracting information from HTML. A guide of common patterns and best practice used in this library can be found [here](in-depth-guide-html-scraping).
 
 Some helper functions are available in the `_utils.py` file. These are functions that are commonly needed when extracting information from HTML, such as `normalize_string()`.
 
@@ -202,7 +202,7 @@ $ python -k unittest myscraper
 
 where `myscraper` is the name of the testjson file without the `.testjson` extension.
 
-> [!NOTE]
+> [!TIP]
 > It is also recommended that you manually test the scraper with a couple of different recipes from the website, to check that there aren't any special cases the scraper will need to handle. You don't need to create test cases for each of these.
 
 ## 6. Open a pull request
