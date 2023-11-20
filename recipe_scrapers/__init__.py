@@ -284,6 +284,7 @@ from .wellplated import WellPlated
 from .whatsgabycooking import WhatsGabyCooking
 from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
+from .williamssonoma import WilliamsSonoma
 from .woolworths import Woolworths
 from .woop import Woop
 from .yemek import Yemek
@@ -597,6 +598,7 @@ SCRAPERS = {
     WhatsGabyCooking.host(): WhatsGabyCooking,
     WholeFoods.host(): WholeFoods,
     WholeFoods.host(domain="co.uk"): WholeFoods,
+    WilliamsSonoma.host(): WilliamsSonoma,
     Woop.host(): Woop,
     WikiCookbook.host(): WikiCookbook,
     Woolworths.host(): Woolworths,
