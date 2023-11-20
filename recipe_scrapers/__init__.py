@@ -113,7 +113,6 @@ from .hellofresh import HelloFresh
 from .herseyland import HerseyLand
 from .homechef import HomeChef
 from .hostthetoast import Hostthetoast
-from .hundredandonecookbooks import HundredAndOneCookbooks
 from .ica import Ica
 from .ig import IG
 from .imworthy import ImWorthy
@@ -284,6 +283,7 @@ from .wellplated import WellPlated
 from .whatsgabycooking import WhatsGabyCooking
 from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
+from .williamssonoma import WilliamsSonoma
 from .woolworths import Woolworths
 from .woop import Woop
 from .yemek import Yemek
@@ -419,7 +419,6 @@ SCRAPERS = {
     HerseyLand.host(): HerseyLand,
     HomeChef.host(): HomeChef,
     Hostthetoast.host(): Hostthetoast,
-    HundredAndOneCookbooks.host(): HundredAndOneCookbooks,
     Ica.host(): Ica,
     ImWorthy.host(): ImWorthy,
     IG.host(): IG,
@@ -597,6 +596,7 @@ SCRAPERS = {
     WhatsGabyCooking.host(): WhatsGabyCooking,
     WholeFoods.host(): WholeFoods,
     WholeFoods.host(domain="co.uk"): WholeFoods,
+    WilliamsSonoma.host(): WilliamsSonoma,
     Woop.host(): Woop,
     WikiCookbook.host(): WikiCookbook,
     Woolworths.host(): Woolworths,
