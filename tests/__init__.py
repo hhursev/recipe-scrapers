@@ -69,13 +69,13 @@ def test_func_factory(
     """
 
     def test_func(self):
-        with open(testjson, "r") as f:
+        with open(testjson, "r", encoding="utf-8") as f:
             expect = json.load(f)
             expect["ingredient_groups"] = [
                 IngredientGroup(**group)
                 for group in expect.get("ingredient_groups", [])
             ]
-        actual = scrape_html(testhtml.read_text(), host)
+        actual = scrape_html(testhtml.read_text(encoding="utf-8"), host)
 
         # Mandatory tests
         # If the key isn't present, check an assertion is raised
