@@ -41,7 +41,8 @@ class RecipeTestCase(unittest.TestCase):
 def test_func_factory(
     host: str, testhtml: pathlib.Path, testjson: pathlib.Path
 ) -> Callable:
-    """Factory function to create a test function that asserts the actual output from
+    """
+    Factory function to create a test function that asserts the actual output from
     the scraper matches the expected output.
 
     Parameters
@@ -119,7 +120,8 @@ def test_func_factory(
 def load_tests(
     loader: unittest.TestLoader, standard_tests: unittest.TestSuite, pattern: str
 ) -> unittest.TestSuite:
-    """Customise the loading of tests. This function is automatically picked up by the
+    """
+    Customise the loading of tests. This function is automatically picked up by the
     unittest test loader.
 
     This function dynamically generates the class definition for RecipeTestCase by adding

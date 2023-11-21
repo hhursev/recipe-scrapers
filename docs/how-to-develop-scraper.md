@@ -160,7 +160,7 @@ Some helper functions are available in the `_utils.py` file. These are functions
 
 ## 5. Create the test
 
-A test case was automatically created when the scraper class was created. It can be found in the `tests/test_data/<host>`  directory, where `host` is the hostname of the website the scraper is for.
+A test case was automatically created when the scraper class was created. It can be found in the `tests/test_data/<host>` directory, where `host` is the hostname of the website the scraper is for.
 
 The test case comprises two parts:
 
