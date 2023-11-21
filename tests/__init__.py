@@ -173,7 +173,13 @@ def load_tests(
     suite.addTest(tests)
 
     # Add library tests to test suite
-    tests = loader.discover("tests/library")
-    suite.addTests(tests)
+    library_tests = loader.discover("tests/library")
+    suite.addTests(library_tests)
+
+    # Add legancy tests to test suite
+    # Legacy tests use the previous test approach because they can't be migrated to
+    # this data driven due to the scrapers using extra network requests.
+    legacy_test = loader.discover("tests/legacy")
+    suite.addTests(legacy_test)
 
     return suite
