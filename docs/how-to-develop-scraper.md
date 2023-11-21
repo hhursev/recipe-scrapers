@@ -165,9 +165,9 @@ A test case was automatically created when the scraper class was created. It can
 The test case comprises two parts:
 
 1. testhtml file containing the html from the URL used to generate the scraper
-2. testjson file containing the expected output from the scraper when the scraper is run on the testhtml file.
+2. json file containing the expected output from the scraper when the scraper is run on the testhtml file.
 
-The generated testjson file will look something like this, with only the host field populated:
+The generated json file will look something like this, with only the host field populated:
 
 ```json
 {
@@ -190,9 +190,9 @@ The generated testjson file will look something like this, with only the host fi
 
 Each of the fields in this file has the same name as the related scraper function. You will need to add the correct output from the scraper to each of these fields.
 
-If the scraper implements any of the optional functions listed in the [Scraper Functions guide](in-depth-guide-scraper-functions.md), then you should add the appropriate fields to the testjson file.
+If the scraper implements any of the optional functions listed in the [Scraper Functions guide](in-depth-guide-scraper-functions.md), then you should add the appropriate fields to the json file.
 
-In some cases, a scraper is not able to support one or more of the mandatory functions because the website doesn't provide the information. In these cases, remove the field from the testjson file. What will happen is that the test case will check to see if the scraper raises an exception if any of the unsupported functions are called.
+In some cases, a scraper is not able to support one or more of the mandatory functions because the website doesn't provide the information. In these cases, remove the field from the json file. What will happen is that the test case will check to see if the scraper raises an exception if any of the unsupported functions are called.
 
 You can check whether your scraper is passing the tests by running
 
@@ -200,7 +200,7 @@ You can check whether your scraper is passing the tests by running
 $ python -k unittest myscraper
 ```
 
-where `myscraper` is the name of the testjson file without the `.testjson` extension.
+where `myscraper` is the name of the json file without the `.json` extension.
 
 > [!TIP]
 > It is also recommended that you manually test the scraper with a couple of different recipes from the website, to check that there aren't any special cases the scraper will need to handle. You don't need to create test cases for each of these.

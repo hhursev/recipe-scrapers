@@ -154,7 +154,7 @@ def load_tests(
             continue
 
         for testhtml in host.glob("*.testhtml"):
-            testjson = testhtml.with_suffix(".testjson")
+            testjson = testhtml.with_suffix(".json")
             if not testjson.is_file():
                 continue
 
