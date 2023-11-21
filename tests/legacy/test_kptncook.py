@@ -1,8 +1,7 @@
 import responses
 
 from recipe_scrapers.kptncook import KptnCook
-
-from . import ScraperTest
+from tests.legacy import ScraperTest
 
 
 class TestKptnCookScraper(ScraperTest):

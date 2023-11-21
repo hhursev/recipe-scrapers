@@ -1,8 +1,7 @@
 import responses
 
 from recipe_scrapers.marleyspoon import MarleySpoon
-
-from . import ScraperTest
+from tests.legacy import ScraperTest
 
 
 class TestMarleySpoonScraper(ScraperTest):

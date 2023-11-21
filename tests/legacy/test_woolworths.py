@@ -1,8 +1,7 @@
 from responses import GET
 
 from recipe_scrapers.woolworths import Woolworths
-
-from . import ScraperTest
+from tests.legacy import ScraperTest
 
 
 class TestWoolworthsScraper(ScraperTest):

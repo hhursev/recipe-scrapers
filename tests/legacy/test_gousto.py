@@ -1,8 +1,7 @@
 from responses import GET
 
 from recipe_scrapers.gousto import Gousto
-
-from . import ScraperTest
+from tests.legacy import ScraperTest
 
 
 class TestGoustoScraper(ScraperTest):
