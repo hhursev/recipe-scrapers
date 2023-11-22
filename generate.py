@@ -51,7 +51,7 @@ def generate_scraper_test(class_name, host_name):
         "yields": "",
     }
 
-    output = f"tests/test_data/{host_name}/{class_name.lower()}.testjson"
+    output = f"tests/test_data/{host_name}/{class_name.lower()}.json"
     with open(output, "w") as target:
         json.dump(testjson, target, indent=2)
 
