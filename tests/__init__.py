@@ -159,11 +159,10 @@ def load_tests(
                 continue
 
             # Add a new function to RecipeTestCase class to test this scraper
-            # The name of this function is derived from the host directory and
-            # testhtml file name.
+            # The name of this function the path to the testjson file.
             setattr(
                 RecipeTestCase,
-                f"test_{host.stem}_{testhtml.stem}",
+                str(testjson),
                 test_func_factory(host.name, testhtml, testjson),
             )
 
