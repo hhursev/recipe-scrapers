@@ -1,6 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 
 
 class CarlsBadCravings(AbstractScraper):
@@ -28,6 +29,14 @@ class CarlsBadCravings(AbstractScraper):
 
     def ingredients(self):
         return self.schema.ingredients()
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".wprm-recipe-group-name.wprm-recipe-ingredient-group-name.wprm-block-text-bold",
+            ".wprm-recipe-ingredient",
+        )
 
     def instructions(self):
         return self.schema.instructions()
