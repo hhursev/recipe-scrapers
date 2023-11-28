@@ -1,0 +1,1314 @@
+<!doctype html>
+<!--[if IEMobile 7 ]><html class="no-js iem7 food" lang="nb-NO"><![endif]-->
+<!--[if lt IE 7 ]><html class="no-js ie6 food" lang="nb-NO"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7 food" lang="nb-NO"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8 food" lang="nb-NO"><![endif]-->
+<!--[if IE 9 ]><html class="no-js ie9 food" lang="nb-NO"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js food" lang="nb-NO"><!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<title>Kikertsuppe med eple og karri – NRK Mat – Oppskrifter og inspirasjon</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<meta name="msapplication-tap-highlight" content="no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="Det er mange grunner til å nyte kikertsuppe med eple og karri. Suppen varmer godt i kroppen, den er stappfull av proteiner, kjernesunn og den koster ikke mer enn en tyggegummipakke!" />
+<meta name="author" content="NRK" />
+<meta property="article:published_time" content="2019-01-17T09:00:00+01:00" />
+<meta name="dc.date.issued" content="2019-01-17" />
+<meta property="article:modified_time" content="2019-01-17T09:00:00+01:00" />
+<meta property="article:section" content="mat" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://static.nrk.no/nrkno/serum/2.0.495/common/img/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://static.nrk.no/nrkno/serum/2.0.495/common/img/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" href="https://static.nrk.no/nrkno/serum/2.0.495/common/img/apple-touch-icon.png" />
+<link rel="shortcut icon" href="https://static.nrk.no/nrkno/serum/2.0.495/common/img/nrk.ico" />
+<!-- Custom address bar color for Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#eef5ff">
+<!-- Custom address bar color for Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#eef5ff">
+<!-- Custom address bar color for iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#eef5ff">
+<meta property="fb:app_id" content="726018114135848" />
+<meta name="p:domain_verify" content="ec4318a079405ca7cd9055634d626a64" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Kikertsuppe med eple og karri" />
+<meta property="og:description"
+content="Det er mange grunner til å nyte kikertsuppe med eple og karri. Suppen varmer godt i kroppen, den er stappfull av proteiner, kjernesunn og den koster ikke mer enn en tyggegummipakke!" />
+<meta property="og:image" content="https://gfx.nrk.no/N4ehJVVfjwllrjaJIVPlEwo-vBcVlR7DEIt1novZL-eg.jpg" />
+<meta property="og:image:secure_url" content="https://gfx.nrk.no/N4ehJVVfjwllrjaJIVPlEwo-vBcVlR7DEIt1novZL-eg.jpg" />
+<meta property="og:site_name" content="NRK" />
+<meta property="og:url" content="https://www.nrk.no/mat/kikertsuppe-med-eple-og-karri--1.14384193" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@NRKno" />
+<meta name="twitter:title" content="Kikertsuppe med eple og karri" />
+<meta name="twitter:description" content="Det er mange grunner til å nyte kikertsuppe med eple og karri. Suppen varmer godt i kroppen, den er stappfull av proteiner, kjernesunn og den koster ikke mer enn en tyggegummipakke!" />
+<meta name="twitter:image" content="https://gfx.nrk.no/N4ehJVVfjwllrjaJIVPlEwo-vBcVlR7DEIt1novZL-eg.jpg" />
+<meta name="robots" content="index,follow" />
+<meta name="Revisit-after" content="1 Days" />
+<meta name="Generator" content="Panorama" />
+<link rel="Copyright" title="Opphavsrett NRK" href="https://www.nrk.no/etikk/1.2843522" />
+<link rel="Help" title="Hjelp" href="https://www.nrk.no/hjelp/" />
+<link rel="Search" title="Søk" href="https://www.nrk.no/sok/" />
+<link rel="canonical" href="https://www.nrk.no/mat/kikertsuppe-med-eple-og-karri--1.14384193" />
+<script>
+(function () {
+var queryString = window.location.search,
+hideHeader = queryString.match(/[?&]header=off/),
+htmlElement;
+if (hideHeader) {
+htmlElement = document.getElementsByTagName('html')[0];
+if (htmlElement.classList) {
+htmlElement.classList.add('no-header');
+htmlElement.classList.add('no-sharing');
+htmlElement.classList.add('no-footer');
+}
+}
+}());
+(function configureKilkayaABTest () {
+function getParameterByName(name) {
+var url = window.location.href;
+name = name.replace(/[\[\]]/g, '\$&');
+var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+results = regex.exec(url);
+if (!results) return null;
+if (!results[2]) return '';
+return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+function createMetaTag(property, content) {
+var meta = document.createElement('meta');
+meta.setAttribute('property', property);
+meta.setAttribute('content', content);
+document.head.appendChild(meta);
+}
+function removeQueryParam(query, param) {
+return query.replace(new RegExp(param + '=([^&#]*&?)', 'g'), '');
+}
+try {
+var variant = getParameterByName('k5a_v');
+var baseUrlAndQuery = window.location.href.split('?');
+var baseUrl = baseUrlAndQuery[0];
+let initialQuery = baseUrlAndQuery[1] || '';
+var query = initialQuery;
+if (variant) {
+var contentIdPattern = /(.*)(\d\.\d+)$/;
+var variantUrl = baseUrl.replace(contentIdPattern, "$1" + variant + "-$2");
+createMetaTag('k5a:url', variantUrl);
+createMetaTag('k5a:tag', 'ab-test');
+createMetaTag('k5a:tag', 'variant-' + variant);
+var contentIdMatch = baseUrl.match(contentIdPattern);
+if (contentIdMatch && contentIdMatch.length >= 3) {
+createMetaTag('k5a:tag', 'content-id-' + contentIdMatch[2]);
+}
+query = removeQueryParam(query, 'k5a_v');
+}
+var k5aMetadataKeys = ['title', 'image'];
+k5aMetadataKeys.forEach(function (metaKey) {
+var param = 'k5a_' + metaKey;
+var metaValue = getParameterByName(param);
+if (metaValue) {
+createMetaTag('k5a:' + metaKey, metaValue);
+query = removeQueryParam(query, param);
+}
+});
+if (initialQuery !== query) {
+window.history.replaceState({}, document.title, baseUrl + (query ? '?' + query : ''));
+}
+} catch (e) {
+//best effort
+}
+})();
+</script>
+<link rel="stylesheet" href="https://static.nrk.no/core-fonts/major/2/core-fonts.min.css">
+<link rel="stylesheet" href="https://static.nrk.no/core-css/1.5.0/core-css.min.css">
+<link rel="stylesheet" href="https://static.nrk.no/nrk-sans/latest/nrk-sans.min.css">
+<link rel="preload" href="https://static.nrk.no/core-fonts/major/2/LFT_Etica_Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://static.nrk.no/core-fonts/major/2/LFT_Etica_Semibold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://static.nrk.no/core-fonts/major/2/NRK_Etica_Slab_Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://static.nrk.no/core-fonts/major/2/LFT_Etica_Book.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" type="text/css" href="https://static.nrk.no/nrkno/serum/2.0.495/standard.css" />
+<noscript id="injectStylesBefore">
+<link rel="stylesheet" type="text/css" href="https://static.nrk.no/nrkno/serum/2.0.495/widget.css" />
+</noscript>
+<link rel="stylesheet" type="text/css" href="https://static.nrk.no/nrkno/serum/2.0.495/skin/food/food.css" />
+<script async crossorigin="anonymous" src="https://static.nrk.no/core-icons/major/4/core-icons.min.js"></script>
+<script>
+var require={paths:{coreDatepicker:"https://static.nrk.no/core-components/major/5/core-datepicker/core-datepicker.min",coreToggle:"https://static.nrk.no/core-components/major/5/core-toggle/core-toggle.min",coreAnalytics:"https://static.nrk.no/core-analytics/major/6/core-analytics.min",jquery:"common/bower/jquery/dist/jquery.min",async:"common/js/lib/requirejs/plugins/async/async",signals:"common/js/lib/signals",moment:"common/js/lib/moment/moment",text:"common/bower/requirejs-text/text",twitter:"//platform.twitter.com/widgets",Pusher:"//js.pusher.com/3.0/pusher.min",highcharts:"//code.highcharts.com/highcharts","highcharts-data":"//code.highcharts.com/modules/data"},shim:{Tinycon:{exports:"Tinycon"},Pusher:{exports:"Pusher"},JSON:{exports:"JSON"},vkbeautify:{exports:"vkbeautify"}},waitSeconds:15,map:{"*":{Pubsub:"inline!standard:common/js/lib/Pubsub","Serum.Pubsub":"inline!standard:common/js/lib/Serum.Pubsub","Serum.Plugin":"inline!standard:type/plugin/Serum.Plugin","Serum.Profile":"inline!standard:common/js/lib/Serum.Profile","Serum.Asset.Img":"inline!standard:common/module/asset/Serum.Asset.Img","Serum.Date":"inline!standard:common/module/date/Serum.Date","Serum.ScrollTrigger":"inline!standard:common/js/lib/Serum.ScrollTrigger"}}};
+(function(){
+// require doesn't want paths with extensions, so away they go
+function getRequireUrl (url) {
+return url.substr(0, url.lastIndexOf('.js')) || -1;
+}
+// A user agent makes a cross-origin HTTP request when it requests a resource from a different domain, protocol, or port than the one from which the current document originated.
+function locationIsCrossOrigin (url) {
+var link = document.createElement('a'),
+areEqual = false;
+link.href = url;
+areEqual = link.protocol === window.location.protocol &&
+link.hostname === window.location.hostname &&
+link.port === window.location.port;
+return areEqual === false;
+}
+function isInDomainList (url, domainList) {
+var link = document.createElement('a');
+link.href = url;
+return domainList.reduce(function (found, domain) {
+return found ? true : link.hostname.slice(-domain.length) === domain;
+}, false);
+}
+var a = "https://static.nrk.no/nrkno/serum/2.0.495";
+require.baseUrl = a;
+var gaCode =
+'UA-3413696-1';
+// module configuration
+require.config = {
+'common/module/realtime/Serum.SseEventEmitter' : {
+SSE_NOTIFIER_URL : 'https://nrkno-ssenotifier.nrk.no/sse/feed'
+},
+'common/js/lib/Serum.Statistics' : {
+statisticCategory : 'nrk/mat',
+statisticsData : {"contentId":"1.14384193","contentTitle":"Kikertsuppe med eple og karri ","contentPublishedYear":2019,"contentPublishedMonth":1,"contentPublishedDay":17,"contentType":"Recipe","contentCategoryId":"2.7009","contentCategoryTitle":"NRK Mat – Oppskrifter og inspirasjon","contentFolderId":"2.1035"},
+LP_URL : 'https://p.lp4.io/app/50/45/26/504526a1d9d93ead73000000.js?d=20150603',
+GAU_URL : 'https://www.google-analytics.com/analytics.js',
+GAU_CODE : gaCode,
+NATIVEBRIDGE_URL : 'https://static.nrk.no/nativebridge/latest/nativebridge.min.js'
+},
+'common/js/lib/Serum.Time' : {
+TIME_API : '/serum/api/time/'
+},
+'common/module/media/Serum.MediaMetadata' : {
+PS_VIDEO_API_URL : 'https://psapi.nrk.no/'
+},
+'common/module/media/Serum.LudoPlayer': {
+PS_VIDEO_API_URL : 'https://psapi.nrk.no/',
+GAU_CODE : 'UA-3413696-1',
+CONTENT_ID: "1.14384193"
+},
+'common/module/media/Serum.RadioPlayer': {
+PS_API_URL : 'https://psapi.nrk.no/'
+},
+'singelton/microsite/abb/kart/maps' : {
+BASE_PATH : a
+},
+'singelton/microsite/abb/tidslinje/Serum.ABB.timeline' : {
+BASE_PATH : a
+},
+'type/quiz/Serum.Quiz' : {
+CONTENT_ID: "1.14384193"
+},
+'common/js/lib/Serum.ForwardNavTracking' : {
+CONTENT_ID: "1.14384193"
+}
+};
+/* PUB-12597
+* Load scripts from other domains with crossorigin attribute
+* set, so that JS error reporting gets better.
+* Now, it would be too easy if this was possible for all scripts,
+* so naturally there is an exception list.
+*/
+require.onNodeCreated = function (node, config, moduleName, url) {
+var nonCorsEnabledDomains = [
+'google-analytics.com',
+'lp4.io',
+'polldaddy.com',
+'poll.fm',
+'instagram.com',
+'disqus.com',
+'facebook.net',
+'twitter.com',
+'pusher.com',
+'highcharts.com'
+],
+scriptLink = document.createElement('a');
+if (locationIsCrossOrigin(node.src) && !isInDomainList(node.src, nonCorsEnabledDomains)) {
+node.setAttribute('crossorigin', 'anonymous');
+}
+// PUB-13025 - cache busting hack for jQuery loading in RequireJS
+if (moduleName === 'jquery') {
+node.setAttribute('src', node.getAttribute('src') + '?cachebust=' + Date.now())
+}
+};
+// require paths from environment config
+require.paths = require.paths || {};
+require.paths['ludo'] = getRequireUrl('https://static.nrk.no/ludo/latest/ludo.js');
+})();
+</script>
+<script>
+// PUB-13251 - Client feature detection
+(function(){var results=0;var ES6='class à² _à²  extends Array{constructor(j="a",...c){const q=(({u:e})=>{return{[`s`]:Symbol(j)}})({});super(j,q,...c)}}new Promise(f=>{const a=function*(){return"ð ®·".match(/./u)[0].length===2||true};for(let vre of a()){const[uw,as,he,re]=[new Set,new WeakSet,new Map,new WeakMap];break}f(new Proxy({},{get:(han,h)=>h in han?han[h]:"42".repeat(8)}))}).then(bi=>new à² _à² (bi.rd));';results|=function(){try{return function(){"use strict";return!this&&parseInt("010",10)===10}()}catch(err){return false}}()?1:0;results|=function(){try{eval(ES6);return true}catch(e){return false}}()?2:0;results|=Object.assign!=null?4:0;results|="Promise"in window&&"resolve"in window.Promise&&"reject"in window.Promise&&"all"in window.Promise&&"race"in window.Promise?8:0;results|="fetch"in window?16:0;results|=function(){try{new Function("function* test() {}")();return true}catch(err){return false}}()?32:0;results|=!!window.MutationObserver||!!window.WebKitMutationObserver?64:0;results|="IntersectionObserver"in window&&"IntersectionObserverEntry"in window&&"intersectionRatio"in window.IntersectionObserverEntry.prototype?128:0;results|="customElements"in window?256:0;results|="attachShadow"in document.head?512:0;results|=function(){try{new Function('import("")');return true}catch(err){return false}}()?1024:0;results|=function(){var script=document.createElement("script");return"noModule"in script}()?2048:0;window.__browser_feature_score__=results})();
+</script>
+<script>
+/** vim: et:ts=4:sw=4:sts=4
+* @license RequireJS 2.3.5 Copyright jQuery Foundation and other contributors.
+* Released under MIT license, https://github.com/requirejs/requirejs/blob/master/LICENSE
+*/
+var requirejs,require,define;!function(global,setTimeout){function commentReplace(e,t){return t||""}function isFunction(e){return"[object Function]"===ostring.call(e)}function isArray(e){return"[object Array]"===ostring.call(e)}function each(e,t){if(e){var i;for(i=0;i<e.length&&(!e[i]||!t(e[i],i,e));i+=1);}}function eachReverse(e,t){if(e){var i;for(i=e.length-1;i>-1&&(!e[i]||!t(e[i],i,e));i-=1);}}function hasProp(e,t){return hasOwn.call(e,t)}function getOwn(e,t){return hasProp(e,t)&&e[t]}function eachProp(e,t){var i;for(i in e)if(hasProp(e,i)&&t(e[i],i))break}function mixin(e,t,i,r){return t&&eachProp(t,function(t,n){!i&&hasProp(e,n)||(!r||"object"!=typeof t||!t||isArray(t)||isFunction(t)||t instanceof RegExp?e[n]=t:(e[n]||(e[n]={}),mixin(e[n],t,i,r)))}),e}function bind(e,t){return function(){return t.apply(e,arguments)}}function scripts(){return document.getElementsByTagName("script")}function defaultOnError(e){throw e}function getGlobal(e){if(!e)return e;var t=global;return each(e.split("."),function(e){t=t[e]}),t}function makeError(e,t,i,r){var n=new Error(t+"\nhttp://requirejs.org/docs/errors.html#"+e);return n.requireType=e,n.requireModules=r,i&&(n.originalError=i),n}function newContext(e){function t(e){var t,i;for(t=0;t<e.length;t++)if("."===(i=e[t]))e.splice(t,1),t-=1;else if(".."===i){if(0===t||1===t&&".."===e[2]||".."===e[t-1])continue;t>0&&(e.splice(t-1,2),t-=2)}}function i(e,i,r){var n,o,a,s,u,c,d,p,f,l,h=i&&i.split("/"),m=y.map,g=m&&m["*"];if(e&&(c=(e=e.split("/")).length-1,y.nodeIdCompat&&jsSuffixRegExp.test(e[c])&&(e[c]=e[c].replace(jsSuffixRegExp,"")),"."===e[0].charAt(0)&&h&&(e=h.slice(0,h.length-1).concat(e)),t(e),e=e.join("/")),r&&m&&(h||g)){e:for(a=(o=e.split("/")).length;a>0;a-=1){if(u=o.slice(0,a).join("/"),h)for(s=h.length;s>0;s-=1)if((n=getOwn(m,h.slice(0,s).join("/")))&&(n=getOwn(n,u))){d=n,p=a;break e}!f&&g&&getOwn(g,u)&&(f=getOwn(g,u),l=a)}!d&&f&&(d=f,p=l),d&&(o.splice(0,p,d),e=o.join("/"))}return getOwn(y.pkgs,e)||e}function r(e){isBrowser&&each(scripts(),function(t){if(t.getAttribute("data-requiremodule")===e&&t.getAttribute("data-requirecontext")===q.contextName)return t.parentNode.removeChild(t),!0})}function n(e){var t=getOwn(y.paths,e);if(t&&isArray(t)&&t.length>1)return t.shift(),q.require.undef(e),q.makeRequire(null,{skipMap:!0})([e]),!0}function o(e){var t,i=e?e.indexOf("!"):-1;return i>-1&&(t=e.substring(0,i),e=e.substring(i+1,e.length)),[t,e]}function a(e,t,r,n){var a,s,u,c,d=null,p=t?t.name:null,f=e,l=!0,h="";return e||(l=!1,e="_@r"+(T+=1)),c=o(e),d=c[0],e=c[1],d&&(d=i(d,p,n),s=getOwn(j,d)),e&&(d?h=r?e:s&&s.normalize?s.normalize(e,function(e){return i(e,p,n)}):-1===e.indexOf("!")?i(e,p,n):e:(d=(c=o(h=i(e,p,n)))[0],h=c[1],r=!0,a=q.nameToUrl(h))),u=!d||s||r?"":"_unnormalized"+(A+=1),{prefix:d,name:h,parentMap:t,unnormalized:!!u,url:a,originalName:f,isDefine:l,id:(d?d+"!"+h:h)+u}}function s(e){var t=e.id,i=getOwn(S,t);return i||(i=S[t]=new q.Module(e)),i}function u(e,t,i){var r=e.id,n=getOwn(S,r);!hasProp(j,r)||n&&!n.defineEmitComplete?(n=s(e)).error&&"error"===t?i(n.error):n.on(t,i):"defined"===t&&i(j[r])}function c(e,t){var i=e.requireModules,r=!1;t?t(e):(each(i,function(t){var i=getOwn(S,t);i&&(i.error=e,i.events.error&&(r=!0,i.emit("error",e)))}),r||req.onError(e))}function d(){globalDefQueue.length&&(each(globalDefQueue,function(e){var t=e[0];"string"==typeof t&&(q.defQueueMap[t]=!0),O.push(e)}),globalDefQueue=[])}function p(e){delete S[e],delete k[e]}function f(e,t,i){var r=e.map.id;e.error?e.emit("error",e.error):(t[r]=!0,each(e.depMaps,function(r,n){var o=r.id,a=getOwn(S,o);!a||e.depMatched[n]||i[o]||(getOwn(t,o)?(e.defineDep(n,j[o]),e.check()):f(a,t,i))}),i[r]=!0)}function l(){var e,t,i=1e3*y.waitSeconds,o=i&&q.startTime+i<(new Date).getTime(),a=[],s=[],u=!1,d=!0;if(!x){if(x=!0,eachProp(k,function(e){var i=e.map,c=i.id;if(e.enabled&&(i.isDefine||s.push(e),!e.error))if(!e.inited&&o)n(c)?(t=!0,u=!0):(a.push(c),r(c));else if(!e.inited&&e.fetched&&i.isDefine&&(u=!0,!i.prefix))return d=!1}),o&&a.length)return e=makeError("timeout","Load timeout for modules: "+a,null,a),e.contextName=q.contextName,c(e);d&&each(s,function(e){f(e,{},{})}),o&&!t||!u||!isBrowser&&!isWebWorker||w||(w=setTimeout(function(){w=0,l()},50)),x=!1}}function h(e){hasProp(j,e[0])||s(a(e[0],null,!0)).init(e[1],e[2])}function m(e,t,i,r){e.detachEvent&&!isOpera?r&&e.detachEvent(r,t):e.removeEventListener(i,t,!1)}function g(e){var t=e.currentTarget||e.srcElement;return m(t,q.onScriptLoad,"load","onreadystatechange"),m(t,q.onScriptError,"error"),{node:t,id:t&&t.getAttribute("data-requiremodule")}}function v(){var e;for(d();O.length;){if(null===(e=O.shift())[0])return c(makeError("mismatch","Mismatched anonymous define() module: "+e[e.length-1]));h(e)}q.defQueueMap={}}var x,b,q,E,w,y={waitSeconds:7,baseUrl:"./",paths:{},bundles:{},pkgs:{},shim:{},config:{}},S={},k={},M={},O=[],j={},P={},R={},T=1,A=1;return E={require:function(e){return e.require?e.require:e.require=q.makeRequire(e.map)},exports:function(e){if(e.usingExports=!0,e.map.isDefine)return e.exports?j[e.map.id]=e.exports:e.exports=j[e.map.id]={}},module:function(e){return e.module?e.module:e.module={id:e.map.id,uri:e.map.url,config:function(){return getOwn(y.config,e.map.id)||{}},exports:e.exports||(e.exports={})}}},b=function(e){this.events=getOwn(M,e.id)||{},this.map=e,this.shim=getOwn(y.shim,e.id),this.depExports=[],this.depMaps=[],this.depMatched=[],this.pluginMaps={},this.depCount=0},b.prototype={init:function(e,t,i,r){r=r||{},this.inited||(this.factory=t,i?this.on("error",i):this.events.error&&(i=bind(this,function(e){this.emit("error",e)})),this.depMaps=e&&e.slice(0),this.errback=i,this.inited=!0,this.ignore=r.ignore,r.enabled||this.enabled?this.enable():this.check())},defineDep:function(e,t){this.depMatched[e]||(this.depMatched[e]=!0,this.depCount-=1,this.depExports[e]=t)},fetch:function(){if(!this.fetched){this.fetched=!0,q.startTime=(new Date).getTime();var e=this.map;if(!this.shim)return e.prefix?this.callPlugin():this.load();q.makeRequire(this.map,{enableBuildCallback:!0})(this.shim.deps||[],bind(this,function(){return e.prefix?this.callPlugin():this.load()}))}},load:function(){var e=this.map.url;P[e]||(P[e]=!0,q.load(this.map.id,e))},check:function(){if(this.enabled&&!this.enabling){var e,t,i=this.map.id,r=this.depExports,n=this.exports,o=this.factory;if(this.inited){if(this.error)this.emit("error",this.error);else if(!this.defining){if(this.defining=!0,this.depCount<1&&!this.defined){if(isFunction(o)){if(this.events.error&&this.map.isDefine||req.onError!==defaultOnError)try{n=q.execCb(i,o,r,n)}catch(t){e=t}else n=q.execCb(i,o,r,n);if(this.map.isDefine&&void 0===n&&((t=this.module)?n=t.exports:this.usingExports&&(n=this.exports)),e)return e.requireMap=this.map,e.requireModules=this.map.isDefine?[this.map.id]:null,e.requireType=this.map.isDefine?"define":"require",c(this.error=e)}else n=o;if(this.exports=n,this.map.isDefine&&!this.ignore&&(j[i]=n,req.onResourceLoad)){var a=[];each(this.depMaps,function(e){a.push(e.normalizedMap||e)}),req.onResourceLoad(q,this.map,a)}p(i),this.defined=!0}this.defining=!1,this.defined&&!this.defineEmitted&&(this.defineEmitted=!0,this.emit("defined",this.exports),this.defineEmitComplete=!0)}}else hasProp(q.defQueueMap,i)||this.fetch()}},callPlugin:function(){var e=this.map,t=e.id,r=a(e.prefix);this.depMaps.push(r),u(r,"defined",bind(this,function(r){var n,o,d,f=getOwn(R,this.map.id),l=this.map.name,h=this.map.parentMap?this.map.parentMap.name:null,m=q.makeRequire(e.parentMap,{enableBuildCallback:!0});return this.map.unnormalized?(r.normalize&&(l=r.normalize(l,function(e){return i(e,h,!0)})||""),o=a(e.prefix+"!"+l,this.map.parentMap,!0),u(o,"defined",bind(this,function(e){this.map.normalizedMap=o,this.init([],function(){return e},null,{enabled:!0,ignore:!0})})),void((d=getOwn(S,o.id))&&(this.depMaps.push(o),this.events.error&&d.on("error",bind(this,function(e){this.emit("error",e)})),d.enable()))):f?(this.map.url=q.nameToUrl(f),void this.load()):((n=bind(this,function(e){this.init([],function(){return e},null,{enabled:!0})})).error=bind(this,function(e){this.inited=!0,this.error=e,e.requireModules=[t],eachProp(S,function(e){0===e.map.id.indexOf(t+"_unnormalized")&&p(e.map.id)}),c(e)}),n.fromText=bind(this,function(i,r){var o=e.name,u=a(o),d=useInteractive;r&&(i=r),d&&(useInteractive=!1),s(u),hasProp(y.config,t)&&(y.config[o]=y.config[t]);try{req.exec(i)}catch(e){return c(makeError("fromtexteval","fromText eval for "+t+" failed: "+e,e,[t]))}d&&(useInteractive=!0),this.depMaps.push(u),q.completeLoad(o),m([o],n)}),void r.load(e.name,m,n,y))})),q.enable(r,this),this.pluginMaps[r.id]=r},enable:function(){k[this.map.id]=this,this.enabled=!0,this.enabling=!0,each(this.depMaps,bind(this,function(e,t){var i,r,n;if("string"==typeof e){if(e=a(e,this.map.isDefine?this.map:this.map.parentMap,!1,!this.skipMap),this.depMaps[t]=e,n=getOwn(E,e.id))return void(this.depExports[t]=n(this));this.depCount+=1,u(e,"defined",bind(this,function(e){this.undefed||(this.defineDep(t,e),this.check())})),this.errback?u(e,"error",bind(this,this.errback)):this.events.error&&u(e,"error",bind(this,function(e){this.emit("error",e)}))}i=e.id,r=S[i],hasProp(E,i)||!r||r.enabled||q.enable(e,this)})),eachProp(this.pluginMaps,bind(this,function(e){var t=getOwn(S,e.id);t&&!t.enabled&&q.enable(e,this)})),this.enabling=!1,this.check()},on:function(e,t){var i=this.events[e];i||(i=this.events[e]=[]),i.push(t)},emit:function(e,t){each(this.events[e],function(e){e(t)}),"error"===e&&delete this.events[e]}},q={config:y,contextName:e,registry:S,defined:j,urlFetched:P,defQueue:O,defQueueMap:{},Module:b,makeModuleMap:a,nextTick:req.nextTick,onError:c,configure:function(e){if(e.baseUrl&&"/"!==e.baseUrl.charAt(e.baseUrl.length-1)&&(e.baseUrl+="/"),"string"==typeof e.urlArgs){var t=e.urlArgs;e.urlArgs=function(e,i){return(-1===i.indexOf("?")?"?":"&")+t}}var i=y.shim,r={paths:!0,bundles:!0,config:!0,map:!0};eachProp(e,function(e,t){r[t]?(y[t]||(y[t]={}),mixin(y[t],e,!0,!0)):y[t]=e}),e.bundles&&eachProp(e.bundles,function(e,t){each(e,function(e){e!==t&&(R[e]=t)})}),e.shim&&(eachProp(e.shim,function(e,t){isArray(e)&&(e={deps:e}),!e.exports&&!e.init||e.exportsFn||(e.exportsFn=q.makeShimExports(e)),i[t]=e}),y.shim=i),e.packages&&each(e.packages,function(e){var t;t=(e="string"==typeof e?{name:e}:e).name,e.location&&(y.paths[t]=e.location),y.pkgs[t]=e.name+"/"+(e.main||"main").replace(currDirRegExp,"").replace(jsSuffixRegExp,"")}),eachProp(S,function(e,t){e.inited||e.map.unnormalized||(e.map=a(t,null,!0))}),(e.deps||e.callback)&&q.require(e.deps||[],e.callback)},makeShimExports:function(e){return function(){var t;return e.init&&(t=e.init.apply(global,arguments)),t||e.exports&&getGlobal(e.exports)}},makeRequire:function(t,n){function o(i,r,u){var d,p,f;return n.enableBuildCallback&&r&&isFunction(r)&&(r.__requireJsBuild=!0),"string"==typeof i?isFunction(r)?c(makeError("requireargs","Invalid require call"),u):t&&hasProp(E,i)?E[i](S[t.id]):req.get?req.get(q,i,t,o):(p=a(i,t,!1,!0),d=p.id,hasProp(j,d)?j[d]:c(makeError("notloaded",'Module name "'+d+'" has not been loaded yet for context: '+e+(t?"":". Use require([])")))):(v(),q.nextTick(function(){v(),(f=s(a(null,t))).skipMap=n.skipMap,f.init(i,r,u,{enabled:!0}),l()}),o)}return n=n||{},mixin(o,{isBrowser:isBrowser,toUrl:function(e){var r,n=e.lastIndexOf("."),o=e.split("/")[0],a="."===o||".."===o;return-1!==n&&(!a||n>1)&&(r=e.substring(n,e.length),e=e.substring(0,n)),q.nameToUrl(i(e,t&&t.id,!0),r,!0)},defined:function(e){return hasProp(j,a(e,t,!1,!0).id)},specified:function(e){return e=a(e,t,!1,!0).id,hasProp(j,e)||hasProp(S,e)}}),t||(o.undef=function(e){d();var i=a(e,t,!0),n=getOwn(S,e);n.undefed=!0,r(e),delete j[e],delete P[i.url],delete M[e],eachReverse(O,function(t,i){t[0]===e&&O.splice(i,1)}),delete q.defQueueMap[e],n&&(n.events.defined&&(M[e]=n.events),p(e))}),o},enable:function(e){getOwn(S,e.id)&&s(e).enable()},completeLoad:function(e){var t,i,r,o=getOwn(y.shim,e)||{},a=o.exports;for(d();O.length;){if(null===(i=O.shift())[0]){if(i[0]=e,t)break;t=!0}else i[0]===e&&(t=!0);h(i)}if(q.defQueueMap={},r=getOwn(S,e),!t&&!hasProp(j,e)&&r&&!r.inited){if(!(!y.enforceDefine||a&&getGlobal(a)))return n(e)?void 0:c(makeError("nodefine","No define call for "+e,null,[e]));h([e,o.deps||[],o.exportsFn])}l()},nameToUrl:function(e,t,i){var r,n,o,a,s,u,c,d=getOwn(y.pkgs,e);if(d&&(e=d),c=getOwn(R,e))return q.nameToUrl(c,t,i);if(req.jsExtRegExp.test(e))s=e+(t||"");else{for(r=y.paths,o=(n=e.split("/")).length;o>0;o-=1)if(a=n.slice(0,o).join("/"),u=getOwn(r,a)){isArray(u)&&(u=u[0]),n.splice(0,o,u);break}s=n.join("/"),s=("/"===(s+=t||(/^data\:|^blob\:|\?/.test(s)||i?"":".js")).charAt(0)||s.match(/^[\w\+\.\-]+:/)?"":y.baseUrl)+s}return y.urlArgs&&!/^blob\:/.test(s)?s+y.urlArgs(e,s):s},load:function(e,t){req.load(q,e,t)},execCb:function(e,t,i,r){return t.apply(r,i)},onScriptLoad:function(e){if("load"===e.type||readyRegExp.test((e.currentTarget||e.srcElement).readyState)){interactiveScript=null;var t=g(e);q.completeLoad(t.id)}},onScriptError:function(e){var t=g(e);if(!n(t.id)){var i=[];return eachProp(S,function(e,r){0!==r.indexOf("_@r")&&each(e.depMaps,function(e){if(e.id===t.id)return i.push(r),!0})}),c(makeError("scripterror",'Script error for "'+t.id+(i.length?'", needed by: '+i.join(", "):'"'),e,[t.id]))}}},q.require=q.makeRequire(),q}function getInteractiveScript(){return interactiveScript&&"interactive"===interactiveScript.readyState?interactiveScript:(eachReverse(scripts(),function(e){if("interactive"===e.readyState)return interactiveScript=e}),interactiveScript)}var req,s,head,baseElement,dataMain,src,interactiveScript,currentlyAddingScript,mainScript,subPath,version="2.3.5",commentRegExp=/\/\*[\s\S]*?\*\/|([^:"'=]|^)\/\/.*$/gm,cjsRequireRegExp=/[^.]\s*require\s*\(\s*["']([^'"\s]+)["']\s*\)/g,jsSuffixRegExp=/\.js$/,currDirRegExp=/^\.\//,op=Object.prototype,ostring=op.toString,hasOwn=op.hasOwnProperty,isBrowser=!("undefined"==typeof window||"undefined"==typeof navigator||!window.document),isWebWorker=!isBrowser&&"undefined"!=typeof importScripts,readyRegExp=isBrowser&&"PLAYSTATION 3"===navigator.platform?/^complete$/:/^(complete|loaded)$/,defContextName="_",isOpera="undefined"!=typeof opera&&"[object Opera]"===opera.toString(),contexts={},cfg={},globalDefQueue=[],useInteractive=!1;if(void 0===define){if(void 0!==requirejs){if(isFunction(requirejs))return;cfg=requirejs,requirejs=void 0}void 0===require||isFunction(require)||(cfg=require,require=void 0),req=requirejs=function(e,t,i,r){var n,o,a=defContextName;return isArray(e)||"string"==typeof e||(o=e,isArray(t)?(e=t,t=i,i=r):e=[]),o&&o.context&&(a=o.context),(n=getOwn(contexts,a))||(n=contexts[a]=req.s.newContext(a)),o&&n.configure(o),n.require(e,t,i)},req.config=function(e){return req(e)},req.nextTick=void 0!==setTimeout?function(e){setTimeout(e,4)}:function(e){e()},require||(require=req),req.version=version,req.jsExtRegExp=/^\/|:|\?|\.js$/,req.isBrowser=isBrowser,s=req.s={contexts:contexts,newContext:newContext},req({}),each(["toUrl","undef","defined","specified"],function(e){req[e]=function(){var t=contexts[defContextName];return t.require[e].apply(t,arguments)}}),isBrowser&&(head=s.head=document.getElementsByTagName("head")[0],(baseElement=document.getElementsByTagName("base")[0])&&(head=s.head=baseElement.parentNode)),req.onError=defaultOnError,req.createNode=function(e,t,i){var r=e.xhtml?document.createElementNS("http://www.w3.org/1999/xhtml","html:script"):document.createElement("script");return r.type=e.scriptType||"text/javascript",r.charset="utf-8",r.async=!0,r},req.load=function(e,t,i){var r,n=e&&e.config||{};if(isBrowser)return(r=req.createNode(n,t,i)).setAttribute("data-requirecontext",e.contextName),r.setAttribute("data-requiremodule",t),!r.attachEvent||r.attachEvent.toString&&r.attachEvent.toString().indexOf("[native code")<0||isOpera?(r.addEventListener("load",e.onScriptLoad,!1),r.addEventListener("error",e.onScriptError,!1)):(useInteractive=!0,r.attachEvent("onreadystatechange",e.onScriptLoad)),r.src=i,n.onNodeCreated&&n.onNodeCreated(r,n,t,i),currentlyAddingScript=r,baseElement?head.insertBefore(r,baseElement):head.appendChild(r),currentlyAddingScript=null,r;if(isWebWorker)try{setTimeout(function(){},0),importScripts(i),e.completeLoad(t)}catch(r){e.onError(makeError("importscripts","importScripts failed for "+t+" at "+i,r,[t]))}},isBrowser&&!cfg.skipDataMain&&eachReverse(scripts(),function(e){if(head||(head=e.parentNode),dataMain=e.getAttribute("data-main"))return mainScript=dataMain,cfg.baseUrl||-1!==mainScript.indexOf("!")||(src=mainScript.split("/"),mainScript=src.pop(),subPath=src.length?src.join("/")+"/":"./",cfg.baseUrl=subPath),mainScript=mainScript.replace(jsSuffixRegExp,""),req.jsExtRegExp.test(mainScript)&&(mainScript=dataMain),cfg.deps=cfg.deps?cfg.deps.concat(mainScript):[mainScript],!0}),define=function(e,t,i){var r,n;"string"!=typeof e&&(i=t,t=e,e=null),isArray(t)||(i=t,t=null),!t&&isFunction(i)&&(t=[],i.length&&(i.toString().replace(commentRegExp,commentReplace).replace(cjsRequireRegExp,function(e,i){t.push(i)}),t=(1===i.length?["require"]:["require","exports","module"]).concat(t))),useInteractive&&(r=currentlyAddingScript||getInteractiveScript())&&(e||(e=r.getAttribute("data-requiremodule")),n=contexts[r.getAttribute("data-requirecontext")]),n?(n.defQueue.push([e,t,i]),n.defQueueMap[e]=!0):globalDefQueue.push([e,t,i])},define.amd={jQuery:!0},req.exec=function(text){return eval(text)},req(cfg)}}(this,"undefined"==typeof setTimeout?void 0:setTimeout);define("inline",function(){"use strict";function t(t){return t.split(":")}function n(t,i,c,o,r){var l=Array.prototype.slice.call(arguments);i([r.shift()],function(t){r.length?n.apply(this,l.concat(r)):c(t)})}function i(i,c,o,r){var l=t(i),a=Array.prototype.slice.call(arguments);r.isBuild?n.apply(this,a.concat([[l.pop()]])):n.apply(this,a.concat([l]))}function c(t,n){return t}return{load:i,normalize:c}});!function(e){"use strict";"function"==typeof define&&define.amd?(define("common/module/asset/Serum.Asset.Img",["module","require"],e),define("Serum.Asset.Img",["module","require"],e)):e({config:function(){return{IMAGE_API:"//gfx.nrk.no/"}}})}(function(e){"use strict";return!function(e){var t=navigator.userAgent;e.HTMLPictureElement&&/ecko/.test(t)&&t.match(/rv\:(\d+)/)&&RegExp.$1<45&&addEventListener("resize",function(){var t,n=document.createElement("source"),r=function(e){var t,r,s=e.parentNode;"PICTURE"===s.nodeName.toUpperCase()?(t=n.cloneNode(),s.insertBefore(t,s.firstElementChild),setTimeout(function(){s.removeChild(t)})):(!e._pfLastSize||e.offsetWidth>e._pfLastSize)&&(e._pfLastSize=e.offsetWidth,r=e.sizes,e.sizes+=",100vw",setTimeout(function(){e.sizes=r}))},s=function(){var e,t=document.querySelectorAll("picture > img, img[srcset][sizes]");for(e=0;e<t.length;e++)r(t[e])},i=function(){clearTimeout(t),t=setTimeout(s,99)},c=e.matchMedia&&matchMedia("(orientation: landscape)"),o=function(){i(),c&&c.addListener&&c.addListener(i)};return n.srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",/^[c|i]|d$/.test(document.readyState||"")?o():document.addEventListener("DOMContentLoaded",o),i}())}(window),function(t,n,r){function s(e){return" "===e||"\t"===e||"\n"===e||"\f"===e||"\r"===e}function i(e,n){var r=new t.Image;return r.onerror=function(){x[e]=!1,ne()},r.onload=function(){x[e]=1===r.width,ne()},r.src=n,"pending"}function c(){H=!1,G=t.devicePixelRatio,$={},j={},w.DPR=G||1,F.width=Math.max(t.innerWidth||0,C.clientWidth),F.height=Math.max(t.innerHeight||0,C.clientHeight),F.vw=F.width/100,F.vh=F.height/100,v=[F.height,F.width,G].join("-"),F.em=w.getEmValue(),F.rem=F.em}function o(e,t,n,r){var s,i,c,o;return"saveData"===R.algorithm?e>2.7?o=n+1:(i=t-n,s=Math.pow(e-.6,1.5),c=i*s,r&&(c+=.1*s),o=e+c):o=n>1?Math.sqrt(e*t):e,o>n}function a(e){var t,n=w.getSet(e),r=!1;"pending"!==n&&(r=v,n&&(t=w.setRes(n),w.applySetCandidate(t,e))),e[w.ns].evaled=r}function u(e,t){return e.res-t.res}function d(e,t,n){var r;return!n&&t&&(n=e[w.ns].sets,n=n&&n[n.length-1]),r=l(t,n),r&&(t=w.makeUrl(t),e[w.ns].curSrc=t,e[w.ns].curCan=r,r.res||te(r,r.set.sizes)),r}function l(e,t){var n,r,s;if(e&&t)for(s=w.parseSet(t),e=w.makeUrl(e),n=0;n<s.length;n++)if(e===w.makeUrl(s[n].url)){r=s[n];break}return r}function f(e,t){var n,r,s,i,c=e.getElementsByTagName("source");for(n=0,r=c.length;r>n;n++)s=c[n],s[w.ns]=!0,i=s.getAttribute("srcset"),i&&t.push({srcset:i,media:s.getAttribute("media"),type:s.getAttribute("type"),sizes:s.getAttribute("sizes")})}function p(e,t){function n(t){var n,r=t.exec(e.substring(f));return r?(n=r[0],f+=n.length,n):void 0}function r(){var e,n,r,s,i,a,u,d,l,f=!1,m={};for(s=0;s<o.length;s++)i=o[s],a=i[i.length-1],u=i.substring(0,i.length-1),d=parseInt(u,10),l=parseFloat(u),J.test(u)&&"w"===a?((e||n)&&(f=!0),0===d?f=!0:e=d):X.test(u)&&"x"===a?((e||n||r)&&(f=!0),0>l?f=!0:n=l):J.test(u)&&"h"===a?((r||n)&&(f=!0),0===d?f=!0:r=d):f=!0;f||(m.url=c,e&&(m.w=e),n&&(m.d=n),r&&(m.h=r),r||n||e||(m.d=1),1===m.d&&(t.has1x=!0),m.set=t,p.push(m))}function i(){for(n(q),a="",u="in descriptor";;){if(d=e.charAt(f),"in descriptor"===u)if(s(d))a&&(o.push(a),a="",u="after descriptor");else{if(","===d)return f+=1,a&&o.push(a),void r();if("("===d)a+=d,u="in parens";else{if(""===d)return a&&o.push(a),void r();a+=d}}else if("in parens"===u)if(")"===d)a+=d,u="in descriptor";else{if(""===d)return o.push(a),void r();a+=d}else if("after descriptor"===u)if(s(d));else{if(""===d)return void r();u="in descriptor",f-=1}f+=1}}for(var c,o,a,u,d,l=e.length,f=0,p=[];;){if(n(_),f>=l)return p;c=n(V),o=[],","===c.slice(-1)?(c=c.replace(K,""),r()):i()}}function m(e){function t(e){function t(){i&&(c.push(i),i="")}function n(){c[0]&&(o.push(c),c=[])}for(var r,i="",c=[],o=[],a=0,u=0,d=!1;;){if(r=e.charAt(u),""===r)return t(),n(),o;if(d){if("*"===r&&"/"===e[u+1]){d=!1,u+=2,t();continue}u+=1}else{if(s(r)){if(e.charAt(u-1)&&s(e.charAt(u-1))||!i){u+=1;continue}if(0===a){t(),u+=1;continue}r=" "}else if("("===r)a+=1;else if(")"===r)a-=1;else{if(","===r){t(),n(),u+=1;continue}if("/"===r&&"*"===e.charAt(u+1)){d=!0,u+=2;continue}}i+=r,u+=1}}}function n(e){return!!(d.test(e)&&parseFloat(e)>=0)||(!!l.test(e)||("0"===e||"-0"===e||"+0"===e))}var r,i,c,o,a,u,d=/^(?:[+-]?[0-9]+|[0-9]*\.[0-9]+)(?:[eE][+-]?[0-9]+)?(?:ch|cm|em|ex|in|mm|pc|pt|px|rem|vh|vmin|vmax|vw)$/i,l=/^calc\((?:[0-9a-z \.\+\-\*\/\(\)]+)\)$/i;for(i=t(e),c=i.length,r=0;c>r;r++)if(o=i[r],a=o[o.length-1],n(a)){if(u=a,o.pop(),0===o.length)return u;if(o=o.join(" "),w.matchesMedia(o))return u}return"100vw"}n.createElement("picture");var h,g,A,v,w={},S=!1,b=function(){},E=n.createElement("img"),y=E.getAttribute,T=E.setAttribute,M=E.removeAttribute,C=n.documentElement,x={},R={algorithm:""},z="data-pfsrc",I=z+"set",L=navigator.userAgent,N=/rident/.test(L)||/ecko/.test(L)&&L.match(/rv\:(\d+)/)&&RegExp.$1>35,P="currentSrc",U=/\s+\+?\d+(e\d+)?w/,k=/(\([^)]+\))?\s*(.+)/,O=t.picturefillCFG,D="position:absolute;left:0;visibility:hidden;display:block;padding:0;border:none;font-size:1em;width:1em;overflow:hidden;clip:rect(0px, 0px, 0px, 0px)",B="font-size:100%!important;",H=!0,$={},j={},G=t.devicePixelRatio,F={px:1,"in":96},W=n.createElement("a"),Q=!1,q=/^[ \t\n\r\u000c]+/,_=/^[, \t\n\r\u000c]+/,V=/^[^ \t\n\r\u000c]+/,K=/[,]+$/,J=/^\d+$/,X=/^-?(?:[0-9]+|[0-9]*\.[0-9]+)(?:[eE][+-]?[0-9]+)?$/,Y=function(e,t,n,r){e.addEventListener?e.addEventListener(t,n,r||!1):e.attachEvent&&e.attachEvent("on"+t,n)},Z=function(e){var t={};return function(n){return n in t||(t[n]=e(n)),t[n]}},ee=function(){var e=/^([\d\.]+)(em|vw|px)$/,t=function(){for(var e=arguments,t=0,n=e[0];++t in e;)n=n.replace(e[t],e[++t]);return n},n=Z(function(e){return"return "+t((e||"").toLowerCase(),/\band\b/g,"&&",/,/g,"||",/min-([a-z-\s]+):/g,"e.$1>=",/max-([a-z-\s]+):/g,"e.$1<=",/calc([^)]+)/g,"($1)",/(\d+[\.]*[\d]*)([a-z]+)/g,"($1 * e.$2)",/^(?!(e.[a-z]|[0-9\.&=|><\+\-\*\(\)\/])).*/gi,"")+";"});return function(t,r){var s;if(!(t in $))if($[t]=!1,r&&(s=t.match(e)))$[t]=s[1]*F[s[2]];else try{$[t]=new Function("e",n(t))(F)}catch(i){}return $[t]}}(),te=function(e,t){return e.w?(e.cWidth=w.calcListLength(t||"100vw"),e.res=e.w/e.cWidth):e.res=e.d,e},ne=function(e){if(S){var t,r,s,i=e||{};if(i.elements&&1===i.elements.nodeType&&("IMG"===i.elements.nodeName.toUpperCase()?i.elements=[i.elements]:(i.context=i.elements,i.elements=null)),t=i.elements||w.qsa(i.context||n,i.reevaluate||i.reselect?w.sel:w.selShort),s=t.length){for(w.setupRun(i),Q=!0,r=0;s>r;r++)w.fillImg(t[r],i);w.teardownRun(i)}}};h=t.console&&console.warn?function(e){console.warn(e)}:b,P in E||(P="src"),x["image/jpeg"]=!0,x["image/gif"]=!0,x["image/png"]=!0,x["image/svg+xml"]=n.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1"),w.ns=("pf"+(new Date).getTime()).substr(0,9),w.supSrcset="srcset"in E,w.supSizes="sizes"in E,w.supPicture=!!t.HTMLPictureElement,w.supSrcset&&w.supPicture&&!w.supSizes&&!function(e){E.srcset="data:,a",e.src="data:,a",w.supSrcset=E.complete===e.complete,w.supPicture=w.supSrcset&&w.supPicture}(n.createElement("img")),w.supSrcset&&!w.supSizes?!function(){var e="data:image/gif;base64,R0lGODlhAgABAPAAAP///wAAACH5BAAAAAAALAAAAAACAAEAAAICBAoAOw==",t="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",r=n.createElement("img"),s=function(){var e=r.width;2===e&&(w.supSizes=!0),A=w.supSrcset&&!w.supSizes,S=!0,setTimeout(ne)};r.onload=s,r.onerror=s,r.setAttribute("sizes","9px"),r.srcset=t+" 1w,"+e+" 9w",r.src=t}():S=!0,w.selShort="picture>img,img[srcset]",w.sel=w.selShort,w.cfg=R,w.DPR=G||1,w.u=F,w.types=x,w.setSize=b,w.makeUrl=Z(function(e){return W.href=e,W.href}),w.qsa=function(e,t){return"querySelector"in e?e.querySelectorAll(t):[]},w.matchesMedia=function(){return t.matchMedia&&(matchMedia("(min-width: 0.1em)")||{}).matches?w.matchesMedia=function(e){return!e||matchMedia(e).matches}:w.matchesMedia=w.mMQ,w.matchesMedia.apply(this,arguments)},w.mMQ=function(e){return!e||ee(e)},w.calcLength=function(e){var t=ee(e,!0)||!1;return 0>t&&(t=!1),t},w.supportsType=function(e){return!e||x[e]},w.parseSize=Z(function(e){var t=(e||"").match(k);return{media:t&&t[1],length:t&&t[2]}}),w.parseSet=function(e){return e.cands||(e.cands=p(e.srcset,e)),e.cands},w.getEmValue=function(){var e;if(!g&&(e=n.body)){var t=n.createElement("div"),r=C.style.cssText,s=e.style.cssText;t.style.cssText=D,C.style.cssText=B,e.style.cssText=B,e.appendChild(t),g=t.offsetWidth,e.removeChild(t),g=parseFloat(g,10),C.style.cssText=r,e.style.cssText=s}return g||16},w.calcListLength=function(e){if(!(e in j)||R.uT){var t=w.calcLength(m(e));j[e]=t?t:F.width}return j[e]},w.setRes=function(e){var t;if(e){t=w.parseSet(e);for(var n=0,r=t.length;r>n;n++)te(t[n],e.sizes)}return t},w.setRes.res=te,w.applySetCandidate=function(e,t){if(e.length){var n,r,s,i,c,a,l,f,p,m=t[w.ns],h=w.DPR;if(a=m.curSrc||t[P],l=m.curCan||d(t,a,e[0].set),l&&l.set===e[0].set&&(p=N&&!t.complete&&l.res-.1>h,p||(l.cached=!0,l.res>=h&&(c=l))),!c)for(e.sort(u),i=e.length,c=e[i-1],r=0;i>r;r++)if(n=e[r],n.res>=h){s=r-1,c=e[s]&&(p||a!==w.makeUrl(n.url))&&o(e[s].res,n.res,h,e[s].cached)?e[s]:n;break}c&&(f=w.makeUrl(c.url),m.curSrc=f,m.curCan=c,f!==a&&w.setSrc(t,c),w.setSize(t))}},w.setSrc=function(e,t){var n;e.src=t.url,"image/svg+xml"===t.set.type&&(n=e.style.width,e.style.width=e.offsetWidth+1+"px",e.offsetWidth+1&&(e.style.width=n))},w.getSet=function(e){var t,n,r,s=!1,i=e[w.ns].sets;for(t=0;t<i.length&&!s;t++)if(n=i[t],n.srcset&&w.matchesMedia(n.media)&&(r=w.supportsType(n.type))){"pending"===r&&(n=r),s=n;break}return s},w.parseSets=function(e,t,n){var s,i,c,o,a=t&&"PICTURE"===t.nodeName.toUpperCase(),u=e[w.ns];(u.src===r||n.src)&&(u.src=y.call(e,"src"),u.src?T.call(e,z,u.src):M.call(e,z)),(u.srcset===r||n.srcset||!w.supSrcset||e.srcset)&&(s=y.call(e,"srcset"),u.srcset=s,o=!0),u.sets=[],a&&(u.pic=!0,f(t,u.sets)),u.srcset?(i={srcset:u.srcset,sizes:y.call(e,"sizes")},u.sets.push(i),c=(A||u.src)&&U.test(u.srcset||""),c||!u.src||l(u.src,i)||i.has1x||(i.srcset+=", "+u.src,i.cands.push({url:u.src,d:1,set:i}))):u.src&&u.sets.push({srcset:u.src,sizes:null}),u.curCan=null,u.curSrc=r,u.supported=!(a||i&&!w.supSrcset||c&&!w.supSizes),o&&w.supSrcset&&!u.supported&&(s?(T.call(e,I,s),e.srcset=""):M.call(e,I)),u.supported&&!u.srcset&&(!u.src&&e.src||e.src!==w.makeUrl(u.src))&&(null===u.src?e.removeAttribute("src"):e.src=u.src),u.parsed=!0},w.fillImg=function(e,t){var n,r=t.reselect||t.reevaluate;e[w.ns]||(e[w.ns]={}),n=e[w.ns],(r||n.evaled!==v)&&((!n.parsed||t.reevaluate)&&w.parseSets(e,e.parentNode,t),n.supported?n.evaled=v:a(e))},w.setupRun=function(){(!Q||H||G!==t.devicePixelRatio)&&c()},w.supPicture?(ne=b,w.fillImg=b):!function(){var e,r=t.attachEvent?/d$|^c/:/d$|^c|^i/,s=function(){var t=n.readyState||"";i=setTimeout(s,"loading"===t?200:999),n.body&&(w.fillImgs(),e=e||r.test(t),e&&clearTimeout(i))},i=setTimeout(s,n.body?9:99),c=function(e,t){var n,r,s=function(){var i=new Date-r;t>i?n=setTimeout(s,t-i):(n=null,e())};return function(){r=new Date,n||(n=setTimeout(s,t))}},o=C.clientHeight,a=function(){H=Math.max(t.innerWidth||0,C.clientWidth)!==F.width||C.clientHeight!==o,o=C.clientHeight,H&&w.fillImgs()};Y(t,"resize",c(a,99)),Y(n,"readystatechange",s)}(),w.picturefill=ne,w.fillImgs=ne,w.teardownRun=b,ne._=w,t.picturefillCFG={pf:w,push:function(e){var t=e.shift();"function"==typeof w[t]?w[t].apply(w,e):(R[t]=e[0],Q&&w.fillImgs({reselect:!0}))}};for(;O&&O.length;)t.picturefillCFG.push(O.shift());t.picturefill=ne,"object"==typeof e&&"object"==typeof e.exports?e.exports=ne:"function"==typeof define&&define.amd&&define("picturefill",function(){return ne}),w.supPicture||(x["image/webp"]=i("image/webp","data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAABBxAR/Q9ERP8DAABWUDggGAAAADABAJ0BKgEAAQADADQlpAADcAD++/1QAA=="))}(window,document),!function(e){var t,n=0,r=function(){window.picturefill&&e(window.picturefill),(window.picturefill||n>9999)&&clearInterval(t),n++};t=setInterval(r,8),r()}(function(e){var t=window.document,n=window.Element,r=window.MutationObserver,s=function(){},i={disconnect:s,take:s,observe:s,start:s,stop:s,connected:!1},c=/^loade|^c|^i/.test(t.readyState||""),o=e._;if(o.mutationSupport=!1,o.observer=i,Object.keys&&window.HTMLSourceElement&&t.addEventListener){var a,u,d,l,f={src:1,srcset:1,sizes:1,media:1},p=Object.keys(f),m={attributes:!0,childList:!0,subtree:!0,attributeFilter:p},h=n&&n.prototype,g={},A=function(e,t){g[e]=o[e],o[e]=t};h&&!h.matches&&(h.matches=h.matchesSelector||h.mozMatchesSelector||h.webkitMatchesSelector||h.msMatchesSelector),h&&h.matches&&(a=function(e,t){return e.matches(t)},o.mutationSupport=!(!Object.create||!Object.defineProperties)),o.mutationSupport&&(i.observe=function(){d&&(i.connected=!0,u&&u.observe(t.documentElement,m))},i.disconnect=function(){i.connected=!1,u&&u.disconnect()},i.take=function(){u?o.onMutations(u.takeRecords()):l&&l.take()},i.start=function(){d=!0,i.observe()},i.stop=function(){d=!1,i.disconnect()},A("setupRun",function(){return i.disconnect(),g.setupRun.apply(this,arguments)}),A("teardownRun",function(){var e=g.setupRun.apply(this,arguments);return i.observe(),e}),A("setSrc",function(){var e,t=i.connected;return i.disconnect(),e=g.setSrc.apply(this,arguments),t&&i.observe(),e}),o.onMutations=function(e){var t,n,r=[];for(t=0,n=e.length;n>t;t++)c&&"childList"===e[t].type?o.onSubtreeChange(e[t],r):"attributes"===e[t].type&&o.onAttrChange(e[t],r);r.length&&o.fillImgs({elements:r,reevaluate:!0})},o.onSubtreeChange=function(e,t){o.findAddedMutations(e.addedNodes,t),o.findRemovedMutations(e.removedNodes,e.target,t)},o.findAddedMutations=function(e,t){var n,r,s,i;for(n=0,r=e.length;r>n;n++)s=e[n],1===s.nodeType&&(i=s.nodeName.toUpperCase(),"PICTURE"===i?o.addToElements(s.getElementsByTagName("img")[0],t):"IMG"===i&&a(s,o.selShort)?o.addToElements(s,t):"SOURCE"===i?o.addImgForSource(s,s.parentNode,t):o.addToElements(o.qsa(s,o.selShort),t))},o.findRemovedMutations=function(e,t,n){var r,s,i;for(r=0,s=e.length;s>r;r++)i=e[r],1===i.nodeType&&"SOURCE"===i.nodeName.toUpperCase()&&o.addImgForSource(i,t,n)},o.addImgForSource=function(e,t,n){t&&"PICTURE"!==(t.nodeName||"").toUpperCase()&&(t=t.parentNode,t&&"PICTURE"===(t.nodeName||"").toUpperCase()||(t=null)),t&&o.addToElements(t.getElementsByTagName("img")[0],n)},o.addToElements=function(e,t){var n,r;if(e)if("length"in e&&!e.nodeType)for(n=0,r=e.length;r>n;n++)o.addToElements(e[n],t);else e.parentNode&&-1===t.indexOf(e)&&t.push(e)},o.onAttrChange=function(e,t){var n,r=e.target[o.ns];r||"srcset"!==e.attributeName||"IMG"!==(n=e.target.nodeName.toUpperCase())?r&&(n||(n=e.target.nodeName.toUpperCase()),"IMG"===n?(e.attributeName in r&&(r[e.attributeName]=void 0),o.addToElements(e.target,t)):"SOURCE"===n&&o.addImgForSource(e.target,e.target.parentNode,t)):o.addToElements(e.target,t)},o.supPicture||(r&&!o.testMutationEvents?u=new r(o.onMutations):(l=function(){var e=!1,t=[],n=window.setImmediate||window.setTimeout;return function(r){e||(e=!0,l.take||(l.take=function(){t.length&&(o.onMutations(t),t=[]),e=!1}),n(l.take)),t.push(r)}}(),t.documentElement.addEventListener("DOMNodeInserted",function(e){i.connected&&c&&l({type:"childList",addedNodes:[e.target],removedNodes:[]})},!0),t.documentElement.addEventListener("DOMNodeRemoved",function(e){i.connected&&c&&"SOURCE"===(e.target||{}).nodeName&&l({type:"childList",addedNodes:[],removedNodes:[e.target],target:e.target.parentNode})},!0),t.documentElement.addEventListener("DOMAttrModified",function(e){i.connected&&f[e.attrName]&&l({type:"attributes",target:e.target,attributeName:e.attrName})},!0)),window.HTMLImageElement&&Object.defineProperties&&!function(){var e=t.createElement("img"),n=[],r=e.getAttribute,s=e.setAttribute,i={src:1};o.supSrcset&&!o.supSizes&&(i.srcset=1),Object.defineProperties(HTMLImageElement.prototype,{getAttribute:{value:function(e){var t;return i[e]&&(t=this[o.ns])&&void 0!==t[e]?t[e]:r.apply(this,arguments)},writeable:!0,enumerable:!0,configurable:!0}}),o.supSrcset||n.push("srcset"),o.supSizes||n.push("sizes"),n.forEach(function(e){Object.defineProperty(HTMLImageElement.prototype,e,{set:function(t){s.call(this,e,t)},get:function(){return r.call(this,e)||""},enumerable:!0,configurable:!0})}),"currentSrc"in e||!function(){var e,n=function(e,t){null==t&&(t=e.src||""),Object.defineProperty(e,"pfCurrentSrc",{value:t,writable:!0})},r=n;o.supSrcset&&window.devicePixelRatio&&(e=function(e,t){var n=e.d||e.w||e.res,r=t.d||t.w||t.res;return n-r},n=function(t){var n,s,i,c,a=t[o.ns];if(a&&a.supported&&a.srcset&&a.sets&&(s=o.parseSet(a.sets[0]))&&s.sort){for(s.sort(e),i=s.length,c=s[i-1],n=0;i>n;n++)if(s[n].d>=window.devicePixelRatio){c=s[n];break}c&&(c=o.makeUrl(c.url))}r(t,c)}),t.addEventListener("load",function(e){"IMG"===e.target.nodeName.toUpperCase()&&n(e.target)},!0),Object.defineProperty(HTMLImageElement.prototype,"currentSrc",{set:function(){window.console&&console.warn&&console.warn("currentSrc can't be set on img element")},get:function(){return this.complete&&n(this),this.src||this.srcset?this.pfCurrentSrc||"":""},enumerable:!0,configurable:!0})}(),!window.HTMLSourceElement||"srcset"in t.createElement("source")||["srcset","sizes"].forEach(function(e){Object.defineProperty(window.HTMLSourceElement.prototype,e,{set:function(t){this.setAttribute(e,t)},get:function(){return this.getAttribute(e)||""},enumerable:!0,configurable:!0})})}(),i.start()),c||t.addEventListener("DOMContentLoaded",function(){c=!0}))}}),{load:function(){},initialize:function(){},destroy:function(){}}});function loadCSS(e,t,n,o){"use strict";function r(){for(var t,o=0;o<l.length;o++)l[o].href&&l[o].href.indexOf(e)>-1&&(t=!0);t?i.media=n||"all":setTimeout(r)}var i=window.document.createElement("link"),d=t||window.document.getElementsByTagName("script")[0],l=window.document.styleSheets;return i.rel="stylesheet",i.href=e,i.media="only x",i.onload=o||function(){},d.parentNode.insertBefore(i,d),r(),i}
+require(['standard'], function(standard){
+standard.initialize();
+});
+document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, 'js');
+</script>
+<script async src="https://www.nrk.no/viderenavigasjon/assets/utm-entry.js"></script>
+<script type="application/ld+json">
+{"@type":"Recipe","datePublished":"2019-01-17T09:00:00+01:00","recipeIngredient":["1 stor gul løk","2 hvitløkfedd","3 ts karripulver","5 dl kyllingbuljong","1,5 boks ferdig kokte kikerter","1 grønt eple","limejuice","salt","pepper","2 ss finhakket bladpersille"],"recipeYield":"2 porsjoner","image":["https://gfx.nrk.no/N4ehJVVfjwllrjaJIVPlEwDrxwjw_2UhedQNN4ad9Pxw.jpg","https://gfx.nrk.no/N4ehJVVfjwllrjaJIVPlEw2f2wEv9jQPAY0MmWDQJOQg.jpg","https://gfx.nrk.no/N4ehJVVfjwllrjaJIVPlEw8LkJ4qhOnibOFF-enw1DxA.jpg","https://gfx.nrk.no/N4ehJVVfjwllrjaJIVPlEwo-vBcVlR7DEIt1novZL-eg.jpg","https://gfx.nrk.no/N4ehJVVfjwllrjaJIVPlEwREC8bae-Yl8MkCjBP0HQDw.jpg"],"keywords":"Suppe, Grønnsaker","name":"Kikertsuppe med eple og karri ","recipeCategory":"Middag","description":"Det er mange grunner til å nyte kikertsuppe med eple og karri. Suppen varmer godt i kroppen, den er stappfull av proteiner, kjernesunn og den koster ikke mer enn en tyggegummipakke!","dateModified":"2022-06-24T14:44:09+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.nrk.no/mat/kikertsuppe-med-eple-og-karri--1.14384193"},"@context":"https://schema.org/","recipeInstructions":[{"@type":"HowToStep","text":"Sett på en kasserolle på medium temperatur og ha i litt olje."},{"@type":"HowToStep","text":"Hakk løk og hvitløk grovt, la det surre i oljen. Tilsett karripulveret."},{"@type":"HowToStep","text":"Ha i kikertene og bland godt."},{"@type":"HowToStep","text":"Slå over kyllingbuljong, og kok opp suppen."},{"@type":"HowToStep","text":"La suppen koke i cirka 6–7 minutter."},{"@type":"HowToStep","text":"Kjør suppen helt glatt med en stavmikser, ha den tilbake i kjelen og varm opp."},{"@type":"HowToStep","text":"Kutt et eple i terninger."},{"@type":"HowToStep","text":"Ha suppen i dype skåler, ringle over litt olivenolje, saften av en presset lime, salt og pepper. Topp suppen med finhakket grønt eple og bladpersille. Dersom du har litt røykt paprikapulver, kan du gjerne gi suppen et fint lite dryss."}]}
+</script></head>
+<body>
+<script>
+var darkmode = document.cookie.match('(^|;)\\s*nrkno-darkmode\\s*=\\s*([^;]+)')
+darkmode = darkmode && darkmode.pop();
+var htmlEl = document.querySelector('html')
+if (htmlEl && darkmode === 'on') {
+htmlEl.classList.add('darkmode');
+var darkModeThemeColor = '#0a2343';
+var themeMetaTags = document.querySelectorAll(
+'meta[name="theme-color"], meta[name="msapplication-navbutton-color"], meta[name="apple-mobile-web-app-status-bar-style"]',
+);
+themeMetaTags.forEach(function (tag) {
+tag.setAttribute('content', darkModeThemeColor);
+});
+}
+</script>
+<svg style="display: none;">
+<defs>
+<g id="published-time"><path fill="#686a6c" d="M50,100C22.4,100,0,77.6,0,50S22.4,0,50,0s50,22.4,50,50S77.6,100,50,100z M50,10C28,9.8,10,28,10,50 s18,39.7,40,40c21.8,0.3,39.5-17.4,40-40C90.5,28.1,72.3,10.2,50,10z" /><polygon fill="#686a6c" points="45.9,66.5 45.9,20.4 53.9,20.4 53.9,52.1 70.9,41.6 75.1,48.4 " /></g>
+<g id="published-refresh"><path fill="#686a6c" d="M50,0C34.7,0,20.9,6.9,11.7,17.8L0.4,11.4L0.3,51.2l35.3-19.8l-14.9-8.5C28,14.9,38.4,9.9,50,10 c22.3,0.2,40.5,18.1,40,40c-0.5,22.6-18.2,40.3-40,40c-15.1-0.2-28.2-8.6-35.1-20.9c-2.6,1.8-4.4,2.6-8.8,4.9 c8.5,15.5,25,26,43.8,26c27.6,0,50-22.4,50-50S77.6,0,50,0z" /></g>
+<g id="arrow-right" fill="none" fill-rule="evenodd"><path d="M2 2l5 9.723L2 21" stroke="currentColor" stroke-width="1" stroke-linecap="square" /></g>
+</defs>
+<symbol id="simple-play-button" viewBox="0 0 42 42"><circle fill="#FFF" cx="21" cy="21" r="21" /><path fill="#393939" d="M16 12l14 9.335-14 9.335" /></symbol>
+</svg>
+<div id="container" class="page cf">
+<div class="g100 col fr sAUTO remoterenderedcontent-reference"><!-- include: /serum/render?id=1.14169816&amp;size=18&amp;perspective=RICH&amp;alignment=RIGHT --><link rel="stylesheet" href="https://static.nrk.no/nrkno-masthead/major/6/nrkno-masthead.min.css"><header class="nrk-masthead lp_masthead"  >
+      <a id="nrk-masthead__jump-anchor" class="nrk-masthead__jump-anchor nrk-masthead__jump-anchor--disabled" href="#innhold">Hopp til innhold</a>
+      <a class="nrk-masthead__logo" href="https://www.nrk.no/" aria-label="NRK"><svg viewBox="0 0 35 14" class="nrk-logo-nrk" width="2.188em" height="0.875em" aria-hidden="true" focusable="false"><path fill="currentColor" d="M31.0878023 7.55918018c-.2517074-.42642875-.2661333-.68861697-.02338-1.10029556L34.399462 1h-4.6267395s-2.7797248 4.54205453-3.1597731 5.17316245c-.3764003.63027925-.3601505 1.02273292.0154208 1.67041405C27.0084185 8.49042897 29.7727225 13 29.7727225 13h4.6267395s-3.2751804-5.37353258-3.3116597-5.44081982M21.5941377 13h4.2077247V1h-4.2077247M18.9405537.77010873c-1.3163763 0-2.3817762 1.07539896-2.3817762 2.40310754 0 1.32687533 1.0653999 2.4056073 2.3817762 2.4056073 1.3185428 0 2.3884423-1.07873197 2.3884423-2.4056073 0-1.32770858-1.0698995-2.40310754-2.3884423-2.40310754M12.0635332 13h4.2052375V1h-4.2052375M0 13h4.19744416V1H0M9.50872938 2.92796177C9.29333553 1.82832914 8.33144198 1 7.17852938 1H4.47507953l2.71654925 12h4.56969912L9.50872938 2.92796177z"/></svg></a>
+      <button class="nrk-masthead__bars" aria-label="Meny" aria-expanded="false">
+        <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24">
+          <g fill-rule="evenodd">
+            <rect width="20" height="2" x="2" y="4" />
+            <rect width="20" height="2" x="2" y="11"/>
+            <rect width="20" height="2" x="2" y="18"/>
+          </g>
+        </svg>
+      </button>
+
+      <nav class="nrk-masthead__desktop" hidden>
+        <div class="nrk-masthead__apps">
+          <ul>
+            <li><a href="https://tv.nrk.no/" aria-label="NRK TV"><svg viewBox="0 0 58 14" class="nrk-logo-nrk-tv" width="3.625em" height="0.875em" aria-hidden="true" focusable="false"><path fill="currentColor" d="M38 1.00376904v1.40117634h3.725115V13.0037632h1.54630423V2.40494538H47V1.00376904m8.4477723 0L52.2164108 11.252467 49.0507902 1.00376904h-1.60078944L51.2946446 13.0037632h1.8205232l3.8897659-11.99999416M31.0878023 7.55918018c-.2517074-.42642875-.2661333-.68861697-.02338-1.10029556L34.399462 1h-4.6267395s-2.7797248 4.54205453-3.1597731 5.17316245c-.3764003.63027925-.3601505 1.02273292.0154208 1.67041405C27.0084185 8.49042897 29.7727225 13 29.7727225 13h4.6267395s-3.2751804-5.37353258-3.3116597-5.44081982M21.5941377 13h4.2077247V1h-4.2077247m-2.653584-.22989127c-1.3163763 0-2.3817762 1.07539896-2.3817762 2.40310754 0 1.32687533 1.0653999 2.4056073 2.3817762 2.4056073 1.3185428 0 2.3884423-1.07873197 2.3884423-2.4056073 0-1.32770858-1.0698995-2.40310754-2.3884423-2.40310754M12.0635332 13h4.2052375V1h-4.2052375M0 13h4.19744416V1H0m9.50872938 1.92796177C9.29333553 1.82832914 8.33144198 1 7.17852938 1H4.47507953l2.71654925 12h4.56969912L9.50872938 2.92796177z"/></svg></a></li>
+            <li><a href="https://radio.nrk.no/" aria-label="NRK Radio"><svg viewBox="0 0 86 15" class="nrk-logo-nrk-radio" width="5.375em" height="0.938em" aria-hidden="true" focusable="false"><path fill="currentColor" d="M80.0499013 13.130207c2.3753748 0 3.9278402-1.6676535 3.9278402-5.2343994 0-3.2150445-1.5872395-4.9460567-3.9278402-4.9460567-2.4409554 0-3.9976218 1.7647237-3.9976218 4.9460565 0 3.5337515 1.5891066 5.2343993 3.9976218 5.2343993m.0473768-11.376863c3.012978 0 5.2084144 2.104232 5.2084144 6.1424636 0 4.4442065-2.2605503 6.3956598-5.2900983 6.3956598-3.0626884 0-5.3066684-1.9870777-5.3066684-6.3956598 0-4.0382317 2.2614838-6.1424635 5.3883526-6.1424635M71.454776 14.0002526h1.3621865V2.0003387H71.454776M61.40707 3.165586v9.6694195h2.0947752c3.0673244 0 4.3500995-1.6673455 4.3500995-4.81896 0-3.115852-1.282775-4.8504596-4.3500995-4.8504596h-2.094775zm2.0133438-1.1652472c3.7155365 0 5.7459993 1.8980265 5.7459993 6.0157067 0 4.2524415-2.043649 5.9842072-5.9248242 5.9842072H60.156914V2.0003387h3.2634998zm-7.6710955 7.399647l-1.995296-5.951643-1.9918306 5.9516428h3.9871266zM54.40418 2.0003387l4.2599896 11.999914h-1.328041l-1.2300783-3.4338588h-4.7012837l-1.201198 3.4338587h-1.344445l4.2329574-11.999914h1.312099zM40.8062234 3.132406v4.9839385h2.1338468c1.9223598 0 2.9361256-.8992594 2.9361256-2.567756 0-1.5995782-.835888-2.4161824-2.712521-2.4161824h-2.3574514zm2.389689-1.1320672c2.711835 0 3.9318292 1.3319554 3.9318292 3.449016 0 1.49845-.5946786 2.6669897-1.9438514 3.3329674l2.6002614 5.2179305H46.437951L43.9831013 9.082628c-.369245.0838392-.7531224.116996-1.2369132.116996h-1.9399645v4.8006287H39.569996V2.0003387h3.6259163zM31.0878023 8.5591802c-.2517074-.4264288-.2661333-.688617-.02338-1.1002956L34.399462 2h-4.6267395s-2.7797248 4.5420545-3.159773 5.1731625c-.3764004.6302792-.3601506 1.022733.0154207 1.670414C27.0084185 9.490429 29.7727225 14 29.7727225 14h4.6267395s-3.2751804-5.3735326-3.3116597-5.4408198M21.5941377 14h4.2077247V2h-4.2077247m-2.653584-.2298913c-1.3163763 0-2.3817762 1.075399-2.3817762 2.4031076 0 1.3268753 1.0654 2.4056073 2.3817762 2.4056073 1.3185428 0 2.3884423-1.078732 2.3884423-2.4056073 0-1.3277086-1.0698995-2.4031076-2.3884423-2.4031076M12.0635332 14h4.2052375V2h-4.2052375M0 14h4.1974442V2H0m9.5087294 1.9279618C9.2933354 2.828329 8.331442 2 7.1785294 2h-2.70345L7.191629 14h4.569699L9.5087295 3.9279618z"/></svg></a></li>
+            <li><a href="https://nrksuper.no" aria-label="NRK Super"><svg viewBox="0 0 62 26" class="nrk-logo-nrk-super" width="3.875em" height="1.625em" aria-hidden="true" focusable="false"><path fill="currentColor" d="M44.998 11.17a1.843 1.843 0 0 0-1.842 1.842 1.841 1.841 0 1 0 1.842-1.842zm8.758.687a.244.244 0 0 1-.2-.143l-.58-1.508c-.028-.073-.077-.073-.107 0l-.577 1.508a.246.246 0 0 1-.2.143l-1.61.087c-.082.002-.097.05-.033.101l1.25 1.013c.065.053.1.159.079.24l-.416 1.552c-.022.082.017.108.084.063l1.353-.875a.24.24 0 0 1 .248 0l1.353.875c.068.045.106.02.085-.063l-.416-1.553a.252.252 0 0 1 .078-.239l1.25-1.013c.064-.052.05-.1-.032-.1l-1.609-.088zM49 1C42.385 1 37 6.382 37 13s5.385 12 12 12c6.616 0 12-5.382 12-12S55.616 1 49 1zm0 21.642c-5.317 0-9.642-4.326-9.642-9.641 0-5.319 4.325-9.644 9.642-9.644 5.318 0 9.644 4.325 9.644 9.644 0 5.315-4.326 9.64-9.644 9.64zM31.088 13.56c-.252-.427-.266-.69-.024-1.101L34.4 7h-4.626s-2.78 4.542-3.16 5.173c-.376.63-.36 1.023.015 1.67.38.647 3.145 5.157 3.145 5.157h4.626s-3.275-5.374-3.311-5.44M21.594 19h4.208V7h-4.208zM18.94 6.77a2.392 2.392 0 0 0-2.381 2.403c0 1.327 1.065 2.406 2.382 2.406a2.399 2.399 0 0 0 2.388-2.406 2.396 2.396 0 0 0-2.388-2.403M12.064 19h4.205V7h-4.205zM0 19h4.197V7H0zM9.509 8.928A2.381 2.381 0 0 0 7.179 7H4.475l2.717 12h4.57L9.508 8.928z"/></svg></a></li>
+            <li><a href="https://p3.no" aria-label="NRK P3"><svg viewBox="0 0 26 26" class="nrk-logo-nrk-p3-symbol" width="1.625em" height="1.625em" aria-hidden="true" focusable="false"><path fill="currentColor" fill-rule="evenodd" d="M0 26h26V0H0v26zm19.975-8.06c.175.302.183.485.007.78-.122.203-.71 1.198-1.104 1.842h-2.446l1.34-2.202-1.39-2.331 1.246-2.042H14.61l-1.252-2.1h5.73s.797 1.284.887 1.438c.175.302.183.484.007.778l-1.176 1.95c.392.64 1.047 1.678 1.17 1.887zm-4.38 1.001c-.117.197-.753 1.237-1.132 1.857-.379-.62-1.014-1.66-1.133-1.857-.169-.283-.161-.459.007-.75.118-.201.75-1.233 1.126-1.85.377.617 1.008 1.649 1.126 1.85.168.291.176.467.007.75zm-2.537-3.88c-.176.292-1.467 2.404-1.467 2.404H8.913l1.548-2.538c.114-.191.107-.313-.01-.51-.017-.032-1.538-2.53-1.538-2.53h2.678c1.27 2.073 1.27 2.073 1.46 2.397.174.3.182.483.007.776zm-6.874 5.5h2.384v-8.673H6.184v8.674zm0-10.015h1.702V5.673H6.184v4.873zm2.895-4.874c.467 0 .856.337.943.784l.912 4.087v.003h-1.85L7.987 5.672h1.093zm1.962 4.874h1.701V5.673h-1.701v4.873zm2.77-4.974c.53 0 .962.435.962.971a.968.968 0 0 1-.963.972.966.966 0 0 1-.96-.972c0-.536.43-.97.96-.97zm1.068 4.974h1.703V5.673h-1.703v4.873zM16.9 7.773c.154-.256 1.279-2.1 1.279-2.1h1.872L18.702 7.89c-.099.167-.092.273.009.446.015.028 1.34 2.21 1.34 2.21H18.18s-1.119-1.83-1.272-2.094c-.153-.263-.16-.422-.007-.679z"/></svg></a></li>
+            <li><a href="https://yr.no" aria-label="Yr"><svg viewBox="0 0 26 26" class="nrk-logo-yr" width="1.625em" height="1.625em" aria-hidden="true" focusable="false"><path fill="currentColor" d="M13 25.5C6.096 25.5.5 19.904.5 13S6.096.5 13 .5 25.5 6.096 25.5 13 19.904 25.5 13 25.5zm7.55-8.598c-.43-.465-1.114-1.397-1.114-1.397a3.555 3.555 0 0 0 1.578-.912c.692-.688 1.069-1.664 1.064-2.715.01-1.09-.468-2.07-1.225-2.685-.755-.622-1.726-.913-2.736-.913h-1.784a3.038 3.038 0 0 0-3.029 3.033v7.48h2.02v-2.124c0-.55.461-1.01 1.01-1.01h.806l2.328 2.848c.164.159.38.262.62.282h.044l.044.003.042-.003h1.196l.003-1.634s-.493.14-.861-.253h-.005zm-8.557-8.294h-2v3.26c-.037 1.216-1.175 1.61-2.084 1.622-1.037-.014-2.129-.591-2.129-2.17l-.003-2.719h-1.97v2.72c0 1.233.428 2.287 1.234 3.047.731.69 1.733 1.075 2.827 1.093h.081c.735-.013 1.815-.493 2.024-.917v.9c0 1.193-1.517 1.97-1.926 2.174l.03.034-.028.017 1.267 1.534c.735-.43 2.669-1.284 2.676-3.98V8.608h.001zm6.306 5.03h-1.965c-.354 0-.692.146-1.01.257v-2.584c0-.547.461-1.009 1.01-1.01h1.783c.628 0 1.131.185 1.445.447.31.267.485.581.495 1.132-.005.591-.194.997-.476 1.284-.287.284-.692.473-1.284.473l.002.002z"/></svg></a></li>
+          </ul>
+        </div>
+
+        <ul class="nrk-masthead__promo">
+          <li><a href="https://www.nrk.no/nyheter/">Nyheter</a></li>
+          <li><a href="https://www.nrk.no/sport/">Sport</a></li>
+          <li><a href="https://www.nrk.no/kultur/">Kultur</a></li>
+          <li><a href="https://www.nrk.no/video/humor/">Humor</a></li>
+          <li><a href="https://www.nrk.no/distrikt/">Distrikt</a></li>
+        </ul>
+        <button class="nrk-masthead__more" aria-expanded="false" aria-controls="nrk-masthead__mega">
+          Mer
+          <span class="nrk-masthead__more-icon"><svg viewBox="0 0 24 24" class="nrk-chevron-down" width="1.500em" height="1.500em" aria-hidden="true" focusable="false"><path fill="currentColor" d="M4 10.88l8 5.6 8-5.6V9l-8 5.6L4 9v1.88z"/></svg><span>
+        </button>
+        <div class="nrk-masthead__mega" id="nrk-masthead__mega" hidden>
+          <div class="nrk-masthead__wrapper">
+            <div class="nrk-masthead__sections">
+              <div class="nrk-masthead__section">
+                <h2>Nyheter</h2>
+                <ul>
+                  <li><a href="https://www.nrk.no/nyheter/">Nyhetssenter</a></li>
+                  <li><a href="https://www.nrk.no/norge/">Norge</a></li>
+                  <li><a href="https://www.nrk.no/urix/">Urix</a></li>
+                  <li><a href="https://www.nrk.no/debatten/">Debatten</a></li>
+                  <li><a href="https://www.nrk.no/kultur/">Kultur</a></li>
+                  <li><a href="https://www.nrk.no/livsstil/">Livsstil</a></li>
+                  <li><a href="https://www.nrk.no/viten/">Viten</a></li>
+                  <li><a href="https://www.nrk.no/dokumentar/">Dokumentar</a></li>
+                  <li><a href="https://www.nrk.no/ytring/">Ytring</a></li>
+                  <li><a href="https://www.nrk.no/sapmi/">NRK Sápmi</a></li>
+                  <li><a href="https://www.nrk.no/kvensk/">NRK Kvensk</a></li>
+                </ul>
+              </div>
+              <div class="nrk-masthead__section nrk-masthead__section--narrow">
+                <h2>Sport</h2>
+                <ul>
+                  <li><a href="https://www.nrk.no/sport/">Sportsnyheter</a></li>
+                  <li><a href="https://resultater.nrk.no/video">Video</a></li>
+                  <li><a href="https://resultater.nrk.no/">Livesport</a></li>
+                  <li><a href="https://www.nrk.no/sport/sendeplan/">Sendeplan</a></li>
+                </ul>
+              </div>
+              <div class="nrk-masthead__section">
+                <h2>Distrikt</h2>
+                <ul>
+                  <li><a href="https://www.nrk.no/sorlandet/">Agder</a></li>
+                  <li><a href="https://www.nrk.no/innlandet/">Innlandet</a></li>
+                  <li><a href="https://www.nrk.no/mr/">M&oslash;re og Romsdal</a></li>
+                  <li><a href="https://www.nrk.no/nordland/">Nordland</a></li>
+                  <li><a href="https://www.nrk.no/osloogviken/">Oslo og Viken</a></li>
+                  <li><a href="https://www.nrk.no/rogaland/">Rogaland</a></li>
+                  <li><a href="https://www.nrk.no/tromsogfinnmark/">Troms og Finnmark</a></li>
+                  <li><a href="https://www.nrk.no/trondelag/">Tr&oslash;ndelag</a></li>
+                  <li><a href="https://www.nrk.no/vestfoldogtelemark/">Vestfold og Telemark</a></li>
+                  <li><a href="https://www.nrk.no/vestland/">Vestland</a></li>
+                </ul>
+              </div>
+              <div class="nrk-masthead__section nrk-masthead__section--narrow">
+                <h2>Temasider</h2>
+                <ul>
+                  <li><a href="https://www.nrk.no/video/humor/">NRK Humor</a></li>
+                  <li><a href="https://www.nrk.no/mat/">NRK Mat</a></li>
+                  <li><a href="https://www.nrk.no/skole/">NRK Skole</a></li>
+                  <li><a href="https://www.nrkbeta.no/">NRKbeta</a></li>
+                </ul>
+                <h2>Info</h2>
+                <ul>
+                  <li><a href="https://hjelp.nrk.no/">Hjelp</a></li>
+                  <li><a href="https://www.nrk.no/informasjon/">Informasjon</a></li>
+                  <li><a href="https://info.nrk.no/karriere/">Karriere</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="nrk-masthead__search">
+          <form class="nrk-masthead__search-form" role="search" action="https://www.nrk.no/sok/">
+            <input type="search" name="q" aria-label="S&oslash;k i hele nrk-universet" placeholder="S&oslash;k" autoComplete="off">
+            <button type="submit" aria-label="S&oslash;k"><svg viewBox="0 0 24 24" class="nrk-search" width="1.500em" height="1.500em" aria-hidden="true" focusable="false"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M10 19c4.9706 0 9-4.0294 9-9 0-4.97056-4.0294-9-9-9-4.97056 0-9 4.02944-9 9 0 4.9706 4.02944 9 9 9zm0-2.1176c-3.80102 0-6.88235-3.0814-6.88235-6.8824 0-3.80102 3.08133-6.88235 6.88235-6.88235 3.801 0 6.8824 3.08133 6.8824 6.88235 0 3.801-3.0814 6.8824-6.8824 6.8824zM15.8959 19l2.4263 4h2.3391l-2.4262-4h-2.3392z"/></svg></button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="nrk-masthead__user">
+        <a href="https://www.nrk.no/logginn" hidden>
+          <svg viewBox="0 0 24 24" class="nrk-user-notloggedin" width="1.500em" height="1.500em" aria-hidden="true" focusable="false"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M3 12c0-4.97056 4.02944-9 9-9 4.9706 0 9 4.02944 9 9 0 4.9706-4.0294 9-9 9-4.97056 0-9-4.0294-9-9zm-2 0C1 5.92487 5.92487 1 12 1c6.0751 0 11 4.92487 11 11 0 6.0751-4.9249 11-11 11-6.07513 0-11-4.9249-11-11zm5 0c0 3.3137 2.68629 6 6 6 3.3137 0 6-2.6863 6-6h-2c0 2.2091-1.7909 4-4 4-2.20914 0-4-1.7909-4-4H6z"/></svg>
+          <span>Logg på</span>
+        </a>
+        <script async src="/logginn.js"></script>
+      </div>
+  </header><script async src="https://static.nrk.no/nrkno-masthead/major/6/nrkno-masthead.min.js"></script></div><div class="g100 col fc sAUTO group-reference"><div class="group widget rich menu-bar cf container-widget"><div class="g100 col fc s18 sg6 sg9 sg12 group-reference"><div class="group widget rich cf container-widget"><div class="g100 col fl s18 sg6 sg9 sg12 menu-reference"><!-- include: /serum/render?id=1.11102001&amp;size=18&amp;perspective=RICH&amp;alignment=LEFT -->
+<nav class="menu widget rich">
+<h2 class="menu__title skin-text">
+<a href="https://www.nrk.no/mat/" class="skin-border">
+Mat
+</a>
+</h2>
+<div class="menu__scroller menu__scroller--prev skin-border" aria-hidden="true">
+<svg class="icon" role="presentation" aria-hidden="true">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#nrk-chevron-right" />
+</svg>
+</div>
+<div class="menu__scroller menu__scroller--next skin-border" aria-hidden="true">
+<svg class="icon" role="presentation" aria-hidden="true">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#nrk-chevron-right" />
+</svg>
+</div>
+<ul class="menu__list" id="miQHPeDI_YS1m93oNlzN7IRA">
+<li class="menu__item">
+<a class="menu__link skin-border-hover" data-id="1.13391555" href="https://www.nrk.no/mat/sot-gjaerbakst-1.13391555">
+Søt gjærbakst
+</a>
+</li>
+<li class="menu__item">
+<a class="menu__link skin-border-hover" data-id="1.14742636" href="https://www.nrk.no/mat/brodbakst-1.14742636">
+Brødbakst
+</a>
+</li>
+<li class="menu__item">
+<a class="menu__link skin-border-hover" data-id="1.16015910" href="https://www.nrk.no/mat/salater-1.16015910">
+Salater
+</a>
+</li>
+<li class="menu__item">
+<a class="menu__link skin-border-hover" data-id="1.12347150" href="https://www.nrk.no/mat/mat-pa-grillen-1.12347150">
+Mat på grillen
+</a>
+</li>
+</ul>
+</nav>
+<script>
+require(['inline!standard:type/menu/Serum.MainMenu'], function(MainMenu) {
+MainMenu('#miQHPeDI_YS1m93oNlzN7IRA');
+});
+</script>
+</div></div></div></div></div><div class="g100 col fc s18 sg6 sg9 sg12 group-reference"><div class="group widget rich cf container-widget"><div class="g100 col fl s18 sg6 sg9 sg12 remoterenderedcontent-reference"><!-- include: /serum/render?id=1.15681293&amp;size=18&amp;perspective=RICH&amp;alignment=LEFT -->
+    <link rel="stylesheet" crossorigin="anonymous" href="https://static.nrk.no/publisering/sok-frontend/assets/single-scope-search-774882ab.css" />
+    <form
+      class="nrkno-search-form nrkno-search-form--single-scope"
+      name="nrkno-search"
+      action="https://www.nrk.no/sok/"
+      name="q"
+      _lpchecked="1"
+    >
+      <label>
+        <span class="sr-only">Søk i NRKs oppskrifter</span>
+        <input
+          class="nrkno-search-form__input"
+          placeholder="Søk i NRKs oppskrifter"
+          type="text"
+          name="q"
+          size="50"
+          value=""
+        />
+      </label>
+
+        <input
+          hidden
+          aria-hidden="true"
+          style="display:none;"
+          type="text"
+          name="scope"
+          value="mat"
+        />
+
+      <button class="nrkno-search-form__button" type="submit">
+        <svg viewBox="0 0 24 24" class="nrk-search" width="1.500em" height="1.500em"  aria-hidden="true" focusable="false"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M10 19c4.9706 0 9-4.0294 9-9 0-4.97056-4.0294-9-9-9-4.97056 0-9 4.02944-9 9 0 4.9706 4.02944 9 9 9zm0-2.1176c-3.80102 0-6.88235-3.0814-6.88235-6.8824 0-3.80102 3.08133-6.88235 6.88235-6.88235 3.801 0 6.8824 3.08133 6.8824 6.88235 0 3.801-3.0814 6.8824-6.8824 6.8824zM15.8959 19l2.4263 4h2.3391l-2.4262-4h-2.3392z"/></svg>
+        <span class="sr-only">Søk</span>
+      </button>
+    </form>
+  </div><div class="g100 col fr s18 sg6 sg9 sg12 surrogate-reference"><!-- include: /serum/render?id=1.7592607&amp;secondary=1.14384193&amp;size=18&amp;perspective=RICH&amp;alignment=RIGHT&amp;scope=ARTICLE --><!-- START: /templates/surrogate/surrogate.jsp -->
+<div class="surrogate widget rich container-widget" data-id="1.14384193">
+<div class="g100 col fln s18 sg6 sg9 sg12 recipe-reference">
+<!-- include: /serum/render?id=1.14384193&amp;size=18&amp;perspective=RICH&amp;alignment=AUTO&amp;classes=+surrogate-content -->
+<div class="recipe widget rich surrogate-content container-widget cf" role="main">
+<header class="container-widget-content recipe-header">
+<div class="recipe-media recipe-no-print">
+<!-- include: /serum/render?id=1.14384194&amp;size=17&amp;perspective=RICH&amp;alignment=CENTER&amp;caption=Topp+suppen+med+bladpersille%2C+olje+og+eplebiter%2C+s%C3%A5+blir+det+en+riktig+lekker+presentasjon.&amp;type=image&amp;aspect=F169 --><!-- START: /templates/image/image-rich.jsp -->
+<figure class="image widget rich">
+<div class="responsive-img F169"><img id="N4ehJVVfjwllrjaJIVPlEw" sizes="(min-width:1180px) 1086px, (min-width:720px) 94vw, 100vw" srcset="https://gfx.nrk.no/N4ehJVVfjwllrjaJIVPlEwdHxRnAhPX5YIt1novZL-eg.jpg 80w, https://gfx.nrk.no/N4ehJVVfjwllrjaJIVPlEwgRmYlPBdv4kIt1novZL-eg.jpg 160w, https://gfx.nrk.no/N4ehJVVfjwllrjaJIVPlEwDVKB1lEwYxUIt1novZL-eg.jpg 350w, https://gfx.nrk.no/N4ehJVVfjwllrjaJIVPlEwtO2qnPcXkk0It1novZL-eg.jpg 450w, https://gfx.nrk.no/N4ehJVVfjwllrjaJIVPlEwbWmOW3CkenQIt1novZL-eg.jpg 650w, https://gfx.nrk.no/N4ehJVVfjwllrjaJIVPlEwDLWcRKAwXasIt1novZL-eg.jpg 1000w, https://gfx.nrk.no/N4ehJVVfjwllrjaJIVPlEwo-vBcVlR7DEIt1novZL-eg.jpg 1200w, https://gfx.nrk.no/N4ehJVVfjwllrjaJIVPlEwRmCGJjyMK9wIt1novZL-eg.jpg 1600w, https://gfx.nrk.no/N4ehJVVfjwllrjaJIVPlEwtO-uZp30EjcIt1novZL-eg.jpg 2000w" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Kikertsuppe" title="Foto: Rolf Tikkanen Øygarden"></div>
+<figcaption>
+<p>Topp suppen med bladpersille, olje og eplebiter, så blir det en riktig lekker presentasjon.</p>
+<small>Foto: Rolf Tikkanen Øygarden</small>
+</figcaption>
+</figure>
+<!-- END: /templates/image/image-rich.jsp -->
+</div>
+<div class="g66 col fr s12 sl18 sg6 sg9 recipe-reference">
+<div class="article-header">
+<div class="article-title cf">
+<h1 class="title title-large" itemprop="name headline">Kikertsuppe med eple og karri </h1>
+</div>
+<div class="article-preamble recipe-no-print" itemprop="description">
+<p>Det er mange grunner til å nyte kikertsuppe med eple og karri. Suppen varmer godt i kroppen, den er stappfull av proteiner, kjernesunn og den koster ikke mer enn en tyggegummipakke!</p>
+</div>
+</div>
+</div>
+</header>
+<div class="g27 col fl s5 sl6 sl9 sl12 sl18 recipe-reference recipe-sidebar">
+<aside class="container-widget-content recipe-aside recipe-no-print">
+<h3 class="widget-title skin-border">Om oppskriften</h3>
+<ul class="recipe-list recipe-list-meta">
+<li class="recipe-icon recipe-icon-difficulty recipe-icon-difficulty-simple">
+<span>
+Enkel
+</span>
+</li>
+<li><strong>Type:</strong> Middag</li>
+<li><strong>Hovedingrediens:</strong> Grønnsaker</li>
+<li><strong>Karakteristika:</strong> Suppe</li>
+</ul>
+</aside>
+<div class="favorite-button-placeholder__recipe"></div>
+<aside class="container-widget-content recipe-aside">
+<h3 class="widget-title skin-border">Ingredienser</h3>
+<ul class="recipe-list recipe-list-meta">
+<li class="recipe-icon recipe-icon-portions">2 porsjoner</li>
+</ul>
+<ul class="recipe-list">
+<li>1 stor gul løk</li>
+<li>2 hvitløkfedd</li>
+<li>3 ts karripulver</li>
+<li>5 dl kyllingbuljong</li>
+<li>1,5 boks ferdig kokte kikerter</li>
+<li>1 grønt eple</li>
+<li> limejuice</li>
+<li> salt</li>
+<li> pepper</li>
+<li>2 ss finhakket bladpersille</li>
+</ul>
+</aside>
+<div class="container-widget-content">
+<button class="recipe-button recipe-button--print" onclick="window.print();">
+<span>Skriv ut oppskriften</span>
+</button>
+</div>
+</div>
+<div class="col spacer g5"></div>
+<div class="g66 col fr s12 sl18 sg6 sg9 recipe-reference">
+<div class="container-widget-content article-content" data-main-content>
+<h3 class="widget-title skin-border">Slik gjør du</h3>
+<div class="text-body nostack cf lp_articlebody">
+<p>Sett på en kasserolle på medium temperatur og ha i litt olje.</p>
+<p>Hakk løk og hvitløk grovt, la det surre i oljen. Tilsett karripulveret.</p>
+<p>Ha i kikertene og bland godt.</p>
+<p>Slå over kyllingbuljong, og kok opp suppen.</p>
+<p>La suppen koke i cirka 6–7 minutter.</p>
+<p>Kjør suppen helt glatt med en stavmikser, ha den tilbake i kjelen og varm opp.</p>
+<p>Kutt et eple i terninger.</p>
+<p>Ha suppen i dype skåler, ringle over litt olivenolje, saften av en presset lime, salt og pepper. Topp suppen med finhakket grønt eple og bladpersille. Dersom du har litt røykt paprikapulver, kan du gjerne gi suppen et fint lite dryss.</p>
+</div>
+<div class="recipe-article__tips">
+<h3 class="widget-title skin-border">Tips</h3>
+<div class="text-body nostack cf lp_articlebody">
+<p>Serveres gjerne med ferskt surdeigsbrød og smør.</p>
+</div>
+</div>
+<p><span class="caption-cite">Kilde: Rolf Tikkanen Øygarden i Sørlandssendinga/NRK P1</span></p>
+</div>
+<footer class="container-widget-content recipe-footer cf">
+<hr class="recipe-hr">
+<div class="favorite-button-placeholder__recipe"></div>
+<div class="nrkno-share nrkno-no-print recipe-share" data-share-url="https://www.nrk.no/mat/1.14384193">
+<a class="nrk-button nrk-button--o" data-share="Recipe:Pinterest" rel="noopener" target="_blank" href="https://pinterest.com/pin/create/link/?url=https%3A%2F%2Fwww.nrk.no%2Fmat%2F1.14384193&amp;description=Kikertsuppe%20med%20eple%20og%20karri%20&amp;media=https%3A%2F%2Fgfx.nrk.no%2FN4ehJVVfjwllrjaJIVPlEwo-vBcVlR7DEIt1novZL-eg.jpg">
+<span class="nrk-sr">Del på Pinterest</span>
+<svg viewbox="0 0 15 15">
+<title>Del på Pinterest</title>
+<path d="M7.8 1C4.3 1 2.5 3.6 2.5 5.7 2.5 7 3 8 4 8.7c0 0 .3 0 .4-.2 0-.2 0-.6.2-.7v-.4C4 7 3.8 6.4 3.8 6c0-2 1.3-3.7 3.6-3.7s3 1.2 3 3c0 2-1 3.8-2.3 3.8C7.7 9 7 8.7 7 8v-.3c.3-1 .8-2 .8-2.7s-.3-1-1-1-1.5.8-1.5 2c0 .3 0 .7.2 1l-1 4.2c-.2 1-.2 2 0 3 0-.2.2-.2.2-.2s1-1.3 1.3-2.4l.5-2c.2.4 1 .8 1.8.8 2.4 0 4-2.2 4-5C12.6 3 10.7 1 7.8 1z"/>
+</svg>
+</a>
+<a class="nrk-button nrk-button--o" data-share="Recipe:Facebook" rel="noopener" target="_blank" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.nrk.no%2Fmat%2F1.14384193">
+<span class="nrk-sr">Del på Facebook</span>
+<svg viewBox="0 0 15 15">
+<title>Del på Facebook</title>
+<path d="M8.4 4.6c0-.5 0-.8.8-.8h1V2H8.7C7 2 6.2 3.2 6.2 4.6v1H4.7v2h1.5V13h2.2V7.5H10l.2-1.8H8.4v-1z"/>
+</svg>
+</a>
+<a class="nrk-button nrk-button--o" data-share="Recipe:Twitter" rel="noopener" target="_blank" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.nrk.no%2Fmat%2F1.14384193&amp;text=Kikertsuppe%20med%20eple%20og%20karri%20">
+<span class="nrk-sr">Del på Twitter</span>
+<svg viewBox="0 0 15 15">
+<title>Del på Twitter</title>
+<path d="M14 4c-.4.3-1 .4-1.4.5.5-.3 1-.8 1-1.3-.4.3-1 .4-1.5.6-.3-.5-1-.8-1.7-.8C9 3 7.8 4 7.8 5.4V6C6 5.7 4 5 3 3.3l-.3 1.2c0 1 .4 1.6 1 2-.3 0-.7 0-1-.3 0 1.2.8 2.2 2 2.4h-.7-.5c.4 1 1.3 1.7 2.3 1.7-.8.6-2 1-3 1H2c1 .7 2.4 1 3.8 1 4.5 0 7-3.6 7-6.7v-.3c.5-.4 1-.8 1.2-1.3"/>
+</svg>
+</a>
+<a class="nrk-button nrk-button--o" data-share="Recipe:Epost" href="mailto:?subject=Kikertsuppe%20med%20eple%20og%20karri%20&amp;body=Kikertsuppe%20med%20eple%20og%20karri%20%0D%0A%0D%0ADet%20er%20mange%20grunner%20til%20%C3%A5%20nyte%20kikertsuppe%20med%20eple%20og%20karri.%20Suppen%20varmer%20godt%20i%20kroppen%2C%20den%20er%20stappfull%20av%20proteiner%2C%20kjernesunn%20og%20den%20koster%20ikke%20mer%20enn%20en%20tyggegummipakke!%0D%0A%0D%0ALes%20mer%3A%20https%3A%2F%2Fwww.nrk.no%2Fmat%2F1.14384193">
+<span class="nrk-sr">Del på epost</span>
+<svg viewBox="0 0 15 15">
+<title>Del på epost</title>
+<path d="M13 2H2c-.5 0-1 .5-1 1v8c0 .5.5 1 1 1h11c.6 0 1-.5 1-1V3c0-.5-.5-1-1-1zM2 3.6l3.6 3.6L2 10.8V3.6zM7.4 8L2.3 3h10.3l-5 5zm-1.7-.4L7.2 9l.2.2.2-.2L9 7.6l3.6 3.5H2.2l3.6-3.4zm3.7-.4l3.7-3.6v7.2L9.5 7.2z"/>
+</svg>
+</a>
+</div>
+<div class="recipe-shareurl recipe-no-print">
+<label>Kopier lenkeadresse:&nbsp;</label>
+<input type="text" value="https://www.nrk.no/mat/1.14384193" readonly>
+</div>
+</footer>
+</div>
+<!-- include: /serum/render?id=panorama.singleton.favorittmarkering&amp;size=18&amp;perspective=RICH&amp;alignment=AUTO -->
+    <div class="min-side" data-state-id="4xpeup4jy6" data-static-host="https://static.nrk.no/publisering/min-side"><link
+      rel="stylesheet"
+      type="text/css"
+      href="https://static.nrk.no/publisering/min-side/static/0-c2ddc9339a70fac9c76d.css"
+    /><link
+      rel="stylesheet"
+      type="text/css"
+      href="https://static.nrk.no/publisering/min-side/static/saveButton-62d288e344506c232def.css"
+    /><script crossorigin="anonymous">
+        window['__clientConfig__4xpeup4jy6__'] = {"analytics":{"gaPropertyId":"UA-3413696-1"},"errorTracking":{"enabled":1},"loginConfig":{"useMock":false,"loginUrl":"https:\u002F\u002Finnlogging.nrk.no","homeUrl":"https:\u002F\u002Fwww.nrk.no"},"favorites":{"articleBaseURL":"https:\u002F\u002Fwww.nrk.no\u002F","articlesPerPage":10},"statistics":{"snowplow":{"enabled":true,"host":"https:\u002F\u002Fdata.nrk.no","environment":"prod"}},"api":{"url":"https:\u002F\u002Fwww.nrk.no\u002Fminside\u002Fapi"},"link":{"url":"https:\u002F\u002Fwww.nrk.no\u002Fminside","base":"\u002Fminside"},"assets":{"url":"https:\u002F\u002Fstatic.nrk.no\u002Fpublisering\u002Fmin-side\u002Fstatic\u002Fassets"}};
+      </script><script id="boot-script" type="application/javascript">
+       function detectIE() {
+          var ua = window.navigator.userAgent;
+
+          var msie = ua.indexOf('MSIE ');
+          if (msie > 0) {
+            // IE 10 or older => return version number
+            return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+          }
+
+          var trident = ua.indexOf('Trident/');
+          if (trident > 0) {
+            // IE 11 => return version number
+            var rv = ua.indexOf('rv:');
+            return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+          }
+
+          var edge = ua.indexOf('Edge/');
+          if (edge > 0) {
+            // Edge (IE 12+) => return version number
+            return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+          }
+
+          // other browser
+          return false;
+        }
+
+        var ieVersion = detectIE();
+        var modernBrowser = window.Promise && window.fetch && 'noModule' in HTMLScriptElement.prototype && (!ieVersion || ieVersion > 18);
+        if(modernBrowser) {
+            ["https://static.nrk.no/publisering/min-side/static/vendor~nrk-60b9a028138aff773488.esm.js", "https://static.nrk.no/publisering/min-side/static/saveButton-d2b88c43ea3f03f881cd.esm.js"].forEach(function(src) {
+                var script = document.createElement('script');
+                script.crossOrigin = 'anonymous';
+                script.async = false;
+                script.type = "module";
+                script.src = src;
+                document.head.appendChild(script);
+            });
+        } else {
+           [].forEach(function(src) {
+                var script = document.createElement('script');
+                script.crossOrigin = 'anonymous';
+                script.async = false;
+                script.defer = true;
+                script.src = src;
+                document.head.appendChild(script);
+            });
+        }
+        var thisScript = document.getElementById('boot-script');
+        thisScript.parentNode.removeChild(thisScript);
+    </script></div>
+
+<section class="cf recipe-universes lp_related" >
+<!-- include: /serum/render?id=1.14365815&amp;secondary=1.14384193&amp;size=18&amp;perspective=RICH&amp;alignment=AUTO&amp;display=false&amp;arrangement.offset=0&amp;arrangement.startoffset=0&amp;arrangement.quantity=3&amp;arrangement.repetition=LAST&amp;arrangement.view%5B0%5D.perspective=BRIEF&amp;arrangement.view%5B0%5D.size=6&amp;arrangement.view%5B0%5D.alignment=LEFT&amp;paged=SIMPLE -->
+<div class="universe widget rich flow container-widget js-initialize" data-id="1.14365815">
+<div class="container-widget-content">
+<h3 class="universe-title widget-title skin-border">
+<a href="https://www.nrk.no/mat/oppskrifter-pa-supper-1.14365815" class="skin-text-hover skin-plug-icon autonomous" data-id="1.14365815">
+Oppskrifter på supper
+</a>
+</h3>
+</div>
+<div class="cf flow-content container-widget lp_universe relations">
+<!--
+--><!--
+--><div class="g33 col fln s6 sl9 sl12 sl18 recipe-reference relation"
+data-id="1.16289087"
+data-reference-id="1.14365815."
+data-fwdnav-id="1.16289087"
+data-fwdnav-position="1"
+data-fwdnav-collection-id="1.14365815"
+data-fwdnav-collection-type="nrkno_universe">
+<!-- include: /serum/render?id=1.16289087&amp;size=6&amp;perspective=BRIEF&amp;alignment=AUTO -->
+<article class="recipe widget brief plug cf">
+<a class="autonomous"
+href="https://www.nrk.no/mat/thailandsk-suppe-_-tom-yum-goong-1.16289087"
+data-id="1.16289087"
+title="Thailandsk suppe – Tom Yum Goong">
+<!-- include: /serum/render?id=1.16289098&amp;size=6&amp;perspective=LEAN&amp;alignment=CENTER&amp;caption=Kjapp+og+nydelig+tradisjonssuppe+fra+Thailand+med+scampi+og+sopp.&amp;type=image&amp;aspect=F169&amp;classes=plug-image --><!-- START: /templates/image/image-lean.jsp -->
+<figure class="image widget lean plug-image">
+<div class="responsive-img F169"><img id="vz6i1I2ReKcfSsG4Qy1q_A" sizes="(min-width:1180px) 383px, (min-width:720px) 33vw, 100vw" srcset="https://gfx.nrk.no/vz6i1I2ReKcfSsG4Qy1q_AlcyD_nRCfFnveeOJ8anGlg.jpg 80w, https://gfx.nrk.no/vz6i1I2ReKcfSsG4Qy1q_A2da41XPfyVjveeOJ8anGlg.jpg 160w, https://gfx.nrk.no/vz6i1I2ReKcfSsG4Qy1q_AxtHz4jTG9XrveeOJ8anGlg.jpg 350w, https://gfx.nrk.no/vz6i1I2ReKcfSsG4Qy1q_AWZvV1Vp6oL3veeOJ8anGlg.jpg 450w, https://gfx.nrk.no/vz6i1I2ReKcfSsG4Qy1q_A-FV3JW4d_u_veeOJ8anGlg.jpg 650w, https://gfx.nrk.no/vz6i1I2ReKcfSsG4Qy1q_AtJvPkXd5ddbveeOJ8anGlg.jpg 1000w, https://gfx.nrk.no/vz6i1I2ReKcfSsG4Qy1q_AQ4eOurQeDqHveeOJ8anGlg.jpg 1200w, https://gfx.nrk.no/vz6i1I2ReKcfSsG4Qy1q_AZVqvgR13GQvveeOJ8anGlg.jpg 1600w, https://gfx.nrk.no/vz6i1I2ReKcfSsG4Qy1q_Azyuu8MNGkPTveeOJ8anGlg.jpg 2000w" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Thailandsk fargerik suppe med scampi, sopp og dryss av koriander. " title="Foto: Elisaebeth Le / Alt asiatisk"></div>
+</figure>
+<!-- END: /templates/image/image-lean.jsp -->
+<div class="plug-teaser">
+<h2 class="title recipe">Thailandsk suppe – Tom Yum Goong</h2>
+<p class="plug-preamble">Tom Yum er den perfekte varme og syrlige suppen til kjølige norske kvelder. Kjapp å lage er den også. Denne scampisuppen med sopp passer godt til både ris og nudler.</p>
+<footer class="plug-footer">
+</footer>
+</div>
+</a>
+</article>
+<!-- END: /templates/recipe/recipe-brief.jsp -->
+<!--
+--></div><!--
+--><!--
+--><!--
+--><div class="g33 col fln s6 sl9 sl12 sl18 recipe-reference relation"
+data-id="1.16010079"
+data-reference-id="1.14365815."
+data-fwdnav-id="1.16010079"
+data-fwdnav-position="2"
+data-fwdnav-collection-id="1.14365815"
+data-fwdnav-collection-type="nrkno_universe">
+<!-- include: /serum/render?id=1.16010079&amp;size=6&amp;perspective=BRIEF&amp;alignment=AUTO -->
+<article class="recipe widget brief plug cf">
+<a class="autonomous"
+href="https://www.nrk.no/mat/soppsuppe-1.16010079"
+data-id="1.16010079"
+title="Soppsuppe">
+<!-- include: /serum/render?id=1.16011006&amp;size=6&amp;perspective=LEAN&amp;alignment=CENTER&amp;caption=Soppsuppen+anrettes+med+urter%2C+br%C3%B8dkrutonger+og+litt+stekt+sopp.&amp;type=image&amp;aspect=F169&amp;classes=plug-image --><!-- START: /templates/image/image-lean.jsp -->
+<figure class="image widget lean plug-image">
+<div class="responsive-img F169"><img id="G3uwlcCwUC1kEIsj6mBSaQ" sizes="(min-width:1180px) 383px, (min-width:720px) 33vw, 100vw" srcset="https://gfx.nrk.no/G3uwlcCwUC1kEIsj6mBSaQZNNFV7xqUHIAJDhMwZJHSQ.jpg 80w, https://gfx.nrk.no/G3uwlcCwUC1kEIsj6mBSaQ_SxvxCdJhYEAJDhMwZJHSQ.jpg 160w, https://gfx.nrk.no/G3uwlcCwUC1kEIsj6mBSaQyExIifxhfmQAJDhMwZJHSQ.jpg 350w, https://gfx.nrk.no/G3uwlcCwUC1kEIsj6mBSaQRWGMSi_BiTYAJDhMwZJHSQ.jpg 450w, https://gfx.nrk.no/G3uwlcCwUC1kEIsj6mBSaQJBed0Oe_rRcAJDhMwZJHSQ.jpg 650w, https://gfx.nrk.no/G3uwlcCwUC1kEIsj6mBSaQu0yklbCIa1MAJDhMwZJHSQ.jpg 1000w, https://gfx.nrk.no/G3uwlcCwUC1kEIsj6mBSaQ1uOqocsY9OQAJDhMwZJHSQ.jpg 1200w, https://gfx.nrk.no/G3uwlcCwUC1kEIsj6mBSaQjF8InjLS-HYAJDhMwZJHSQ.jpg 1600w, https://gfx.nrk.no/G3uwlcCwUC1kEIsj6mBSaQWfZcUg6ES4YAJDhMwZJHSQ.jpg 2000w" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Soppsuppe" title="Foto: DR"></div>
+</figure>
+<!-- END: /templates/image/image-lean.jsp -->
+<div class="plug-teaser">
+<h2 class="title recipe">Soppsuppe à la Thomas Herman</h2>
+<p class="plug-preamble">Deilig kremet soppsuppe med bacon. På sensommeren og høsten er det sopp å finne ute i naturen. Ellers om året finner man et godt utvalg av sopp i butikken. Det er et godt alternativ.</p>
+<footer class="plug-footer">
+</footer>
+</div>
+</a>
+</article>
+<!-- END: /templates/recipe/recipe-brief.jsp -->
+<!--
+--></div><!--
+--><!--
+--><!--
+--><div class="g33 col fln s6 sl9 sl12 sl18 recipe-reference relation"
+data-id="1.15997460"
+data-reference-id="1.14365815."
+data-fwdnav-id="1.15997460"
+data-fwdnav-position="3"
+data-fwdnav-collection-id="1.14365815"
+data-fwdnav-collection-type="nrkno_universe">
+<!-- include: /serum/render?id=1.15997460&amp;size=6&amp;perspective=BRIEF&amp;alignment=AUTO -->
+<article class="recipe widget brief plug cf">
+<a class="autonomous"
+href="https://www.nrk.no/mat/ribollita-1.15997460"
+data-id="1.15997460"
+title="Ribollita">
+<!-- include: /serum/render?id=1.15997591&amp;size=6&amp;perspective=LEAN&amp;alignment=CENTER&amp;caption=Italiensk+gr%C3%B8nnsaksuppe+med+kylling.&amp;type=image&amp;aspect=F169&amp;classes=plug-image --><!-- START: /templates/image/image-lean.jsp -->
+<figure class="image widget lean plug-image">
+<div class="responsive-img F169"><img id="V6M5gH1Qv4putxWjtF5q3w" sizes="(min-width:1180px) 383px, (min-width:720px) 33vw, 100vw" srcset="https://gfx.nrk.no/V6M5gH1Qv4putxWjtF5q3wD9Evlh8gP_3lmwKmURvcBA.jpg 80w, https://gfx.nrk.no/V6M5gH1Qv4putxWjtF5q3wKU_dowXVzerlmwKmURvcBA.jpg 160w, https://gfx.nrk.no/V6M5gH1Qv4putxWjtF5q3wUIM-r5aBdJHlmwKmURvcBA.jpg 350w, https://gfx.nrk.no/V6M5gH1Qv4putxWjtF5q3wDig0W3GucMnlmwKmURvcBA.jpg 450w, https://gfx.nrk.no/V6M5gH1Qv4putxWjtF5q3wrUyn6f3Ae2TlmwKmURvcBA.jpg 650w, https://gfx.nrk.no/V6M5gH1Qv4putxWjtF5q3wz1m3bD4n2NvlmwKmURvcBA.jpg 1000w, https://gfx.nrk.no/V6M5gH1Qv4putxWjtF5q3wOrsD8dUs1aDlmwKmURvcBA.jpg 1200w, https://gfx.nrk.no/V6M5gH1Qv4putxWjtF5q3wRk2uyd-G8f7lmwKmURvcBA.jpg 1600w, https://gfx.nrk.no/V6M5gH1Qv4putxWjtF5q3wRbO68VI46s3lmwKmURvcBA.jpg 2000w" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="italiensk grønnsaksuppe, ribollita" title="Foto: SVt"></div>
+</figure>
+<!-- END: /templates/image/image-lean.jsp -->
+<div class="plug-teaser">
+<h2 class="title recipe">Ribollita</h2>
+<p class="plug-preamble">Ribollita betyr «kokt igjen» og er en restesuppe fra Nord-Italia der man bruker det man har og koker det sammen med grønnsaker. Det er vanlig å ha tørt brød i suppen, men i denne varianten fra Tareq Taylor er det grønnsaker og kylling.</p>
+<footer class="plug-footer">
+</footer>
+</div>
+</a>
+</article>
+<!-- END: /templates/recipe/recipe-brief.jsp -->
+<!--
+--></div><!--
+-->
+</div>
+<div class="container-widget-content pagination nrk-pagination">
+<button class="flow-page-forward nrk-button" data-id="1.14365815?size=18&perspective=BRIEF&alignment=AUTO&display=false&arrangement.offset=3&arrangement.startoffset=0&arrangement.quantity=3&arrangement.repetition=LAST&arrangement.view%5B0%5D.perspective=BRIEF&arrangement.view%5B0%5D.size=6&arrangement.view%5B0%5D.alignment=LEFT&paged=SIMPLE">
+<span class="button-icon">+</span>
+<span>Vis flere</span>
+</button>
+</div>
+</div>
+<script>
+require([
+'inline!standard:type/flow/Serum.Flow',
+'inline!standard:jquery'
+], function(PaginatedFlow, $) {
+PaginatedFlow.bootstrap($('.universe.js-initialize').removeClass('js-initialize'));
+});
+</script>
+<!-- END: /templates/universe/universe.jsp -->
+
+<!-- include: /serum/render?id=1.14057923&amp;secondary=1.14384193&amp;size=18&amp;perspective=RICH&amp;alignment=AUTO&amp;display=false&amp;arrangement.offset=0&amp;arrangement.startoffset=0&amp;arrangement.quantity=3&amp;arrangement.repetition=LAST&amp;arrangement.view%5B0%5D.perspective=BRIEF&amp;arrangement.view%5B0%5D.size=6&amp;arrangement.view%5B0%5D.alignment=LEFT&amp;paged=SIMPLE -->
+<div class="universe widget rich flow container-widget js-initialize" data-id="1.14057923">
+<div class="container-widget-content">
+<h3 class="universe-title widget-title skin-border">
+<a href="https://www.nrk.no/mat/oppskriftene-fra-rolf-oygarden-1.14057923" class="skin-text-hover skin-plug-icon autonomous" data-id="1.14057923">
+Oppskriftene fra Rolf Øygarden
+</a>
+</h3>
+</div>
+<div class="cf flow-content container-widget lp_universe relations">
+<!--
+--><!--
+--><div class="g33 col fln s6 sl9 sl12 sl18 recipe-reference relation"
+data-id="1.15249272"
+data-reference-id="1.14057923."
+data-fwdnav-id="1.15249272"
+data-fwdnav-position="1"
+data-fwdnav-collection-id="1.14057923"
+data-fwdnav-collection-type="nrkno_universe">
+<!-- include: /serum/render?id=1.15249272&amp;size=6&amp;perspective=BRIEF&amp;alignment=AUTO -->
+<article class="recipe widget brief plug cf">
+<a class="autonomous"
+href="https://www.nrk.no/mat/crispy-pork_-schnitzel-med-asiatisk-vri-1.15249272"
+data-id="1.15249272"
+title="Crispy pork, schnitzel med asiatisk vri">
+<!-- include: /serum/render?id=1.15249551&amp;size=6&amp;perspective=LEAN&amp;alignment=CENTER&amp;caption=Spr%C3%B8stekt+svinekj%C3%B8tt+med+pesto+og+wok-gr%C3%B8nnsaker.&amp;type=image&amp;aspect=F169&amp;classes=plug-image --><!-- START: /templates/image/image-lean.jsp -->
+<figure class="image widget lean plug-image">
+<div class="responsive-img F169"><img id="DO16N_MuVcEFdOxFYADiPw" sizes="(min-width:1180px) 383px, (min-width:720px) 33vw, 100vw" srcset="https://gfx.nrk.no/DO16N_MuVcEFdOxFYADiPwVYFB-kDrzds5gOqry6Qnug.jpg 80w, https://gfx.nrk.no/DO16N_MuVcEFdOxFYADiPwFIo4y4UV34M5gOqry6Qnug.jpg 160w, https://gfx.nrk.no/DO16N_MuVcEFdOxFYADiPw0wszi_ql7qs5gOqry6Qnug.jpg 350w, https://gfx.nrk.no/DO16N_MuVcEFdOxFYADiPwRY0W3x0bsGA5gOqry6Qnug.jpg 450w, https://gfx.nrk.no/DO16N_MuVcEFdOxFYADiPwMUykbABmc785gOqry6Qnug.jpg 650w, https://gfx.nrk.no/DO16N_MuVcEFdOxFYADiPwzNgqYpux0_s5gOqry6Qnug.jpg 1000w, https://gfx.nrk.no/DO16N_MuVcEFdOxFYADiPwDhhjB2tgZ4Q5gOqry6Qnug.jpg 1200w, https://gfx.nrk.no/DO16N_MuVcEFdOxFYADiPw0hOE9I8WNxA5gOqry6Qnug.jpg 1600w, https://gfx.nrk.no/DO16N_MuVcEFdOxFYADiPw2TPEOz4RjIE5gOqry6Qnug.jpg 2000w" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Crispy pork" title="Foto: Rolf T. Øygarden"></div>
+</figure>
+<!-- END: /templates/image/image-lean.jsp -->
+<div class="plug-teaser">
+<h2 class="title recipe">Crispy pork, schnitzel med asiatisk vri</h2>
+<p class="plug-preamble">Ingefær, hvitløk og chili er den asiatiske treenighet i matlagingen. Sammen med panert og sprøtt svinekjøtt og en syrlig pesto får du hele det asiatiske kontinentet på en tallerken.</p>
+<footer class="plug-footer">
+</footer>
+</div>
+</a>
+</article>
+<!-- END: /templates/recipe/recipe-brief.jsp -->
+<!--
+--></div><!--
+--><!--
+--><!--
+--><div class="g33 col fln s6 sl9 sl12 sl18 recipe-reference relation"
+data-id="1.15229267"
+data-reference-id="1.14057923."
+data-fwdnav-id="1.15229267"
+data-fwdnav-position="2"
+data-fwdnav-collection-id="1.14057923"
+data-fwdnav-collection-type="nrkno_universe">
+<!-- include: /serum/render?id=1.15229267&amp;size=6&amp;perspective=BRIEF&amp;alignment=AUTO -->
+<article class="recipe widget brief plug cf">
+<a class="autonomous"
+href="https://www.nrk.no/mat/bakt-gulrotsuppe-1.15229267"
+data-id="1.15229267"
+title="Bakt gulrotsuppe">
+<!-- include: /serum/render?id=1.15229382&amp;size=6&amp;perspective=LEAN&amp;alignment=CENTER&amp;caption=Gulrotsuppen+serveres+med+et+dryss+av+chiliflak%2C+frisk+koriander+og+korianderfr%C3%B8.&amp;type=image&amp;aspect=F169&amp;classes=plug-image --><!-- START: /templates/image/image-lean.jsp -->
+<figure class="image widget lean plug-image">
+<div class="responsive-img F169"><img id="EO7Ew2vFD6HvHKAG8LFOwg" sizes="(min-width:1180px) 383px, (min-width:720px) 33vw, 100vw" srcset="https://gfx.nrk.no/EO7Ew2vFD6HvHKAG8LFOwgHXHE7rymBNEE9d26BX3ESg.jpg 80w, https://gfx.nrk.no/EO7Ew2vFD6HvHKAG8LFOwg7wJ0JBOzAqYE9d26BX3ESg.jpg 160w, https://gfx.nrk.no/EO7Ew2vFD6HvHKAG8LFOwgeVlJM2GpjV0E9d26BX3ESg.jpg 350w, https://gfx.nrk.no/EO7Ew2vFD6HvHKAG8LFOwgH-9NPSehAXYE9d26BX3ESg.jpg 450w, https://gfx.nrk.no/EO7Ew2vFD6HvHKAG8LFOwge5sFYYQH5GAE9d26BX3ESg.jpg 650w, https://gfx.nrk.no/EO7Ew2vFD6HvHKAG8LFOwgDY5v5nqPD84E9d26BX3ESg.jpg 1000w, https://gfx.nrk.no/EO7Ew2vFD6HvHKAG8LFOwgtK2XtEs4J2kE9d26BX3ESg.jpg 1200w, https://gfx.nrk.no/EO7Ew2vFD6HvHKAG8LFOwg9mKUefXSqNAE9d26BX3ESg.jpg 1600w, https://gfx.nrk.no/EO7Ew2vFD6HvHKAG8LFOwgk3ArnP0tVB4E9d26BX3ESg.jpg 2000w" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Bakt gulrotsuppe" title="Foto: Rolf T. Øygarden"></div>
+</figure>
+<!-- END: /templates/image/image-lean.jsp -->
+<div class="plug-teaser">
+<h2 class="title recipe">Bakt gulrotsuppe</h2>
+<p class="plug-preamble">Gulrotsuppen får en twist når Rolf Øygarden flørter med asiatiske krydder.</p>
+<footer class="plug-footer">
+</footer>
+</div>
+</a>
+</article>
+<!-- END: /templates/recipe/recipe-brief.jsp -->
+<!--
+--></div><!--
+--><!--
+--><!--
+--><div class="g33 col fln s6 sl9 sl12 sl18 recipe-reference relation"
+data-id="1.15190472"
+data-reference-id="1.14057923."
+data-fwdnav-id="1.15190472"
+data-fwdnav-position="3"
+data-fwdnav-collection-id="1.14057923"
+data-fwdnav-collection-type="nrkno_universe">
+<!-- include: /serum/render?id=1.15190472&amp;size=6&amp;perspective=BRIEF&amp;alignment=AUTO -->
+<article class="recipe widget brief plug cf">
+<a class="autonomous"
+href="https://www.nrk.no/mat/ovnsbakte-beter-med-byggotto-1.15190472"
+data-id="1.15190472"
+title="Ovnsbakte beter med byggotto">
+<!-- include: /serum/render?id=1.15192362&amp;size=6&amp;perspective=LEAN&amp;alignment=CENTER&amp;caption=En+kj%C3%B8ttfri+dag+eller+to+i+uka+er+null+problem+n%C3%A5r+du+setter+tennene+i+denne+herligheten%21&amp;type=image&amp;aspect=F169&amp;classes=plug-image --><!-- START: /templates/image/image-lean.jsp -->
+<figure class="image widget lean plug-image">
+<div class="responsive-img F169"><img id="5r8xEtRsjkbFNqhn7PkQIA" sizes="(min-width:1180px) 383px, (min-width:720px) 33vw, 100vw" srcset="https://gfx.nrk.no/5r8xEtRsjkbFNqhn7PkQIAE6LjoKMrRN0QyrzsKZe_yA.jpg 80w, https://gfx.nrk.no/5r8xEtRsjkbFNqhn7PkQIAn107RUub58AQyrzsKZe_yA.jpg 160w, https://gfx.nrk.no/5r8xEtRsjkbFNqhn7PkQIA6bNYONS1blwQyrzsKZe_yA.jpg 350w, https://gfx.nrk.no/5r8xEtRsjkbFNqhn7PkQIACn5__1WUkN0QyrzsKZe_yA.jpg 450w, https://gfx.nrk.no/5r8xEtRsjkbFNqhn7PkQIASZifsrqRPiMQyrzsKZe_yA.jpg 650w, https://gfx.nrk.no/5r8xEtRsjkbFNqhn7PkQIAuBrQl4VK-VgQyrzsKZe_yA.jpg 1000w, https://gfx.nrk.no/5r8xEtRsjkbFNqhn7PkQIAwolR1Dll-60QyrzsKZe_yA.jpg 1200w, https://gfx.nrk.no/5r8xEtRsjkbFNqhn7PkQIAGSZWQyOGjhwQyrzsKZe_yA.jpg 1600w, https://gfx.nrk.no/5r8xEtRsjkbFNqhn7PkQIAhoDYJSXbPB0QyrzsKZe_yA.jpg 2000w" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="ovnsbakte beter me byggotto" title="Foto: Rolf T. Øygarden"></div>
+</figure>
+<!-- END: /templates/image/image-lean.jsp -->
+<div class="plug-teaser">
+<h2 class="title recipe">Ovnsbakte beter med byggotto</h2>
+<p class="plug-preamble">Spis mer grønt i høst! Bakte beter, indiskinspirert yoghurtdressing og mettende byggryn er usedvanlig digg – og usedvanlig bra for deg.</p>
+<footer class="plug-footer">
+</footer>
+</div>
+</a>
+</article>
+<!-- END: /templates/recipe/recipe-brief.jsp -->
+<!--
+--></div><!--
+-->
+</div>
+<div class="container-widget-content pagination nrk-pagination">
+<button class="flow-page-forward nrk-button" data-id="1.14057923?size=18&perspective=BRIEF&alignment=AUTO&display=false&arrangement.offset=3&arrangement.startoffset=0&arrangement.quantity=3&arrangement.repetition=LAST&arrangement.view%5B0%5D.perspective=BRIEF&arrangement.view%5B0%5D.size=6&arrangement.view%5B0%5D.alignment=LEFT&paged=SIMPLE">
+<span class="button-icon">+</span>
+<span>Vis flere</span>
+</button>
+</div>
+</div>
+<script>
+require([
+'inline!standard:type/flow/Serum.Flow',
+'inline!standard:jquery'
+], function(PaginatedFlow, $) {
+PaginatedFlow.bootstrap($('.universe.js-initialize').removeClass('js-initialize'));
+});
+</script>
+<!-- END: /templates/universe/universe.jsp -->
+
+</section>
+</div>
+<script>
+require(['inline!standard:common/js/lib/Serum.Pubsub','inline!type/article/Serum.Article.UniverseRelationDerepetizer'],
+function(Pubsub, UniverseRelationDerepetizer){
+var input = document.querySelector('.recipe-shareurl input');
+input.addEventListener('click', function(){
+input.setSelectionRange(0, 9999);
+});
+input.addEventListener('copy', function(){
+Pubsub.publish(Pubsub.topics.TRACK_EVENT, {
+category: 'Share',
+action: 'Recipe',
+label: 'Copy URL'
+});
+});
+UniverseRelationDerepetizer.derepetize(document.querySelector('.recipe-universes'));
+});
+</script>
+
+</div>
+</div>
+</div><div class="g100 col fc s18 sg6 sg9 sg12 flow-reference"><!-- include: /serum/render?id=1.11102025&amp;secondary=1.14384193&amp;size=18&amp;perspective=RICH&amp;alignment=CENTER&amp;scope=ARTICLE&amp;head=NRK+Mat+akkurat+n%C3%A5&amp;arrangement.offset=0&amp;arrangement.startoffset=0&amp;arrangement.quantity=6&amp;arrangement.repetition=PATTERN&amp;arrangement.view%5B0%5D.perspective=BRIEF&amp;arrangement.view%5B0%5D.size=3&amp;arrangement.view%5B0%5D.alignment=CENTER&amp;paged=SIMPLE -->
+<div class="flow widget rich container-widget js-initialize flow-paged cf"
+data-id="1.11102025"
+data-relation-limit="6">
+<div class="container-widget-content">
+<h3 class="widget-title skin-border"><span>NRK Mat akkurat nå</span></h3>
+</div>
+<div class="cf flow-content container-widget lp_flow relations"><div
+class="g16 col fln s3 sl6 sl9 sl12 sl18 recipe-reference relation flow-relation"
+data-id="1.12673547"
+data-reference-id="1.11102025.body7575"
+data-fwdnav-id="1.12673547"
+data-fwdnav-position="1"
+data-fwdnav-collection-id="1.11102025"
+data-fwdnav-collection-type="nrkno_flow"
+><!-- include: /serum/render?id=1.12673547&amp;size=3&amp;perspective=BRIEF&amp;alignment=AUTO -->
+<article class="recipe widget brief plug cf">
+<a class="autonomous"
+href="https://www.nrk.no/mat/satay-saus-_peanottsaus_-1.12673547"
+data-id="1.12673547"
+title="Satay-saus (peanøttsaus)">
+<!-- include: /serum/render?id=1.12674056&amp;size=3&amp;perspective=LEAN&amp;alignment=CENTER&amp;caption=Satay-saus+har+sitt+opphav+i+Asia%2C+og+lages+med+pean%C3%B8tter+%E2%80%93+derfor+pean%C3%B8ttsaus.+Dette+er+en+enkel+oppskrift+med+pean%C3%B8ttsm%C3%B8r+og+ferdig+karripasta+p%C3%A5+glass.&amp;type=image&amp;aspect=F169&amp;classes=plug-image --><!-- START: /templates/image/image-lean.jsp -->
+<figure class="image widget lean plug-image">
+<div class="responsive-img F169"><img id="IMQjmH4Ogxgv2WYB2ELs3w" sizes="(min-width:1180px) 192px, (min-width:720px) 17vw, 50vw" srcset="https://gfx.nrk.no/IMQjmH4Ogxgv2WYB2ELs3wCUE6Lg8DII8o4-HLROxTXw.jpg 80w, https://gfx.nrk.no/IMQjmH4Ogxgv2WYB2ELs3wcUPkOOHyGvko4-HLROxTXw.jpg 160w, https://gfx.nrk.no/IMQjmH4Ogxgv2WYB2ELs3wM9myqc4gCeAo4-HLROxTXw.jpg 350w, https://gfx.nrk.no/IMQjmH4Ogxgv2WYB2ELs3wb3Bsh06eSkYo4-HLROxTXw.jpg 450w, https://gfx.nrk.no/IMQjmH4Ogxgv2WYB2ELs3wUqsCrKY5u7Uo4-HLROxTXw.jpg 650w, https://gfx.nrk.no/IMQjmH4Ogxgv2WYB2ELs3wtLvaGm3ppN4o4-HLROxTXw.jpg 1000w, https://gfx.nrk.no/IMQjmH4Ogxgv2WYB2ELs3wcSf1tQBCX_co4-HLROxTXw.jpg 1200w, https://gfx.nrk.no/IMQjmH4Ogxgv2WYB2ELs3wVvqVSjOi7ZIo4-HLROxTXw.jpg 1600w, https://gfx.nrk.no/IMQjmH4Ogxgv2WYB2ELs3wtTlXLm4Sok0o4-HLROxTXw.jpg 2000w" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Satay-saus (peanøttsaus) " title="Foto: Mari Rollag Evensen / NRK"></div>
+</figure>
+<!-- END: /templates/image/image-lean.jsp -->
+<div class="plug-teaser">
+<h2 class="title recipe">Satay-saus (peanøttsaus)</h2>
+<p class="plug-preamble">Enkel oppskrift på peanøttsaus, også kalt Satay-saus. Sausen kan brukes i gryter eller wok, eller som dipp til kyllingvinger, -spyd eller kjøtt og sjømat fra grillen.</p>
+<footer class="plug-footer">
+</footer>
+</div>
+</a>
+</article>
+<!-- END: /templates/recipe/recipe-brief.jsp -->
+</div><div
+class="g16 col fln s3 sl6 sl9 sl12 sl18 recipe-reference relation flow-relation"
+data-id="1.15240351"
+data-reference-id="1.11102025.body7574"
+data-fwdnav-id="1.15240351"
+data-fwdnav-position="2"
+data-fwdnav-collection-id="1.11102025"
+data-fwdnav-collection-type="nrkno_flow"
+><!-- include: /serum/render?id=1.15240351&amp;size=3&amp;perspective=BRIEF&amp;alignment=AUTO -->
+<article class="recipe widget brief plug cf">
+<a class="autonomous"
+href="https://www.nrk.no/mat/lemonies-1.15240351"
+data-id="1.15240351"
+title="Lemonies">
+<!-- include: /serum/render?id=1.15240381&amp;size=3&amp;perspective=LEAN&amp;alignment=CENTER&amp;caption=Lemonies%2C+sitronkake+med+sitronglasur+og+rosa+pynt.+&amp;type=image&amp;aspect=F169&amp;classes=plug-image --><!-- START: /templates/image/image-lean.jsp -->
+<figure class="image widget lean plug-image">
+<div class="responsive-img F169"><img id="NF3k60ob5iGMdtOIrqEQqg" sizes="(min-width:1180px) 192px, (min-width:720px) 17vw, 50vw" srcset="https://gfx.nrk.no/NF3k60ob5iGMdtOIrqEQqgFvLS4mUfTHi6msua4eSkFw.jpg 80w, https://gfx.nrk.no/NF3k60ob5iGMdtOIrqEQqgpP5jbC82v5S6msua4eSkFw.jpg 160w, https://gfx.nrk.no/NF3k60ob5iGMdtOIrqEQqgTlEnyJXgs-O6msua4eSkFw.jpg 350w, https://gfx.nrk.no/NF3k60ob5iGMdtOIrqEQqgFYOcW56NPBi6msua4eSkFw.jpg 450w, https://gfx.nrk.no/NF3k60ob5iGMdtOIrqEQqgu4D1EyF1rCa6msua4eSkFw.jpg 650w, https://gfx.nrk.no/NF3k60ob5iGMdtOIrqEQqgausNoaDNCpi6msua4eSkFw.jpg 1000w, https://gfx.nrk.no/NF3k60ob5iGMdtOIrqEQqgKZ7moCrmlw26msua4eSkFw.jpg 1200w, https://gfx.nrk.no/NF3k60ob5iGMdtOIrqEQqgpwsvFYKOIRi6msua4eSkFw.jpg 1600w, https://gfx.nrk.no/NF3k60ob5iGMdtOIrqEQqgqvWEPeT_iTm6msua4eSkFw.jpg 2000w" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Lemonies" title="Foto: Marit Hegle"></div>
+</figure>
+<!-- END: /templates/image/image-lean.jsp -->
+<div class="plug-teaser">
+<h2 class="title recipe">Lemonies</h2>
+<p class="plug-preamble">Lemonies er små, saftige sitronkaker som kan minne om brownies – men med en frisk sitronsmak.</p>
+<footer class="plug-footer">
+</footer>
+</div>
+</a>
+</article>
+<!-- END: /templates/recipe/recipe-brief.jsp -->
+</div><div
+class="g16 col fln s3 sl6 sl9 sl12 sl18 article-reference relation flow-relation"
+data-id="1.16583196"
+data-reference-id="1.11102025.body7573"
+data-fwdnav-id="1.16583196"
+data-fwdnav-position="3"
+data-fwdnav-collection-id="1.11102025"
+data-fwdnav-collection-type="nrkno_flow"
+><!-- include: /serum/render?id=1.16583196&amp;size=3&amp;perspective=BRIEF&amp;alignment=AUTO --><!-- START: /templates/article/article-brief.jsp -->
+<article class="article widget brief plug-default plug cf">
+<a class="autonomous lp_plug" href="https://www.nrk.no/mat/13-geniale-oppskrifter-med-tort-eller-gammelt-brod-1.16583196" data-id="1.16583196">
+<!-- include: /serum/render?id=1.15302154&amp;size=3&amp;perspective=LEAN&amp;alignment=AUTO&amp;caption=Du+kan+med+god+samvittighet+droppe+middagen+en+dag+i+uken+og+heller+lage+varme+ostesm%C3%B8rbr%C3%B8d.+Dette+er+noe+b%C3%A5de+store+og+sm%C3%A5+garantert+liker.&amp;type=image&amp;aspect=F169&amp;classes=plug-image --><!-- START: /templates/image/image-lean.jsp -->
+<figure class="image widget lean plug-image">
+<div class="responsive-img F169"><img id="mZaTLVtM19DsWSe93IFArw" sizes="(min-width:1180px) 192px, (min-width:720px) 17vw, 50vw" srcset="https://gfx.nrk.no/mZaTLVtM19DsWSe93IFArw_FCC3XUWFCsgAuMzfQUvpQ.jpg 80w, https://gfx.nrk.no/mZaTLVtM19DsWSe93IFArw09Evzog8wtggAuMzfQUvpQ.jpg 160w, https://gfx.nrk.no/mZaTLVtM19DsWSe93IFArwd1rLVGlhGqYgAuMzfQUvpQ.jpg 350w, https://gfx.nrk.no/mZaTLVtM19DsWSe93IFArwD79_Apxj_2EgAuMzfQUvpQ.jpg 450w, https://gfx.nrk.no/mZaTLVtM19DsWSe93IFArwwf6qDNo-l-QgAuMzfQUvpQ.jpg 650w, https://gfx.nrk.no/mZaTLVtM19DsWSe93IFArwyeua1n7Q7d8gAuMzfQUvpQ.jpg 1000w, https://gfx.nrk.no/mZaTLVtM19DsWSe93IFArwwDpJ2vzOiFogAuMzfQUvpQ.jpg 1200w, https://gfx.nrk.no/mZaTLVtM19DsWSe93IFArwRJSVghiTbJIgAuMzfQUvpQ.jpg 1600w, https://gfx.nrk.no/mZaTLVtM19DsWSe93IFArwDtSjpPdcS5EgAuMzfQUvpQ.jpg 2000w" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Tre ostesmørbrød" title="Foto: Rubicon / NRK"></div>
+</figure>
+<!-- END: /templates/image/image-lean.jsp -->
+<div class="plug-teaser">
+<h2 class="title">Snaddermat med tørt brød – 13 geniale tips</h2>
+<p class="plug-preamble">Hver gang du kaster spiselig mat, kaster du penger i søpla. Du kan spare tusenvis på herlige oppskrifter laget av tørt brød.</p>
+<span class="plug-metadata plug-byline">Av Ingvill Bjorland</span>
+<svg viewBox="0 0 9 23" role="presentation" aria-hidden="true" shape-rendering="auto" class="plug-svg-arrow skin-text">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-right"></use>
+</svg>
+</div>
+</a>
+</article>
+<!-- END: /templates/article/article-brief.jsp -->
+</div><div
+class="g16 col fln s3 sl6 sl9 sl12 sl18 recipe-reference relation flow-relation"
+data-id="1.6914054"
+data-reference-id="1.11102025.body7572"
+data-fwdnav-id="1.6914054"
+data-fwdnav-position="4"
+data-fwdnav-collection-id="1.11102025"
+data-fwdnav-collection-type="nrkno_flow"
+><!-- include: /serum/render?id=1.6914054&amp;size=3&amp;perspective=BRIEF&amp;alignment=AUTO -->
+<article class="recipe widget brief plug cf">
+<a class="autonomous"
+href="https://www.nrk.no/mat/store-myke-sjokoladekjeks-1.6914054"
+data-id="1.6914054"
+title="Store myke sjokoladekjeks">
+<!-- include: /serum/render?id=1.16317424&amp;size=3&amp;perspective=LEAN&amp;alignment=CENTER&amp;caption=N%C3%A5r+du+har+laget+deigen+kan+du+ha+den+i+fryseren+og+ta+fram+n%C3%A5r+du+har+lyst+p%C3%A5+sjokoladekjeks.&amp;type=image&amp;aspect=F169&amp;classes=plug-image --><!-- START: /templates/image/image-lean.jsp -->
+<figure class="image widget lean plug-image">
+<div class="responsive-img F169"><img id="Y94JYKhTnWKTF4ec6wKLyA" sizes="(min-width:1180px) 192px, (min-width:720px) 17vw, 50vw" srcset="https://gfx.nrk.no/Y94JYKhTnWKTF4ec6wKLyA1gkRIg39tTpZ5mIAXqcPRw.jpg 80w, https://gfx.nrk.no/Y94JYKhTnWKTF4ec6wKLyA7Sgeu0FunAhZ5mIAXqcPRw.jpg 160w, https://gfx.nrk.no/Y94JYKhTnWKTF4ec6wKLyAadQCYNeMBodZ5mIAXqcPRw.jpg 350w, https://gfx.nrk.no/Y94JYKhTnWKTF4ec6wKLyAOkAdd8Bm9uRZ5mIAXqcPRw.jpg 450w, https://gfx.nrk.no/Y94JYKhTnWKTF4ec6wKLyATA-83GKLBkBZ5mIAXqcPRw.jpg 650w, https://gfx.nrk.no/Y94JYKhTnWKTF4ec6wKLyAXE6l0VPW1gJZ5mIAXqcPRw.jpg 1000w, https://gfx.nrk.no/Y94JYKhTnWKTF4ec6wKLyA_Fcpk1_t1DdZ5mIAXqcPRw.jpg 1200w, https://gfx.nrk.no/Y94JYKhTnWKTF4ec6wKLyA9SWKn_3MNw5Z5mIAXqcPRw.jpg 1600w, https://gfx.nrk.no/Y94JYKhTnWKTF4ec6wKLyABsIvipiA-YlZ5mIAXqcPRw.jpg 2000w" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Store sjokoladekjeks er tømt ut av en rød brødpose av tøy og ligger delvis på bordet. Biter av valnøtter foran." title="Foto: Kristin Eriksen / NRK"></div>
+</figure>
+<!-- END: /templates/image/image-lean.jsp -->
+<div class="plug-teaser">
+<h2 class="title recipe">Store myke sjokoladekjeks</h2>
+<p class="plug-preamble">Lise Finckenhagens oppskrift gir deg 20–25 store kjeks med mørk eller hvit sjokolade.</p>
+<footer class="plug-footer">
+<div class="plug-metadata plug-metadata-footer">
+<span class="plug-metadata-icon plug-metadata-icon-video skin-plug-icon">
+Se video
+</span>
+</div>
+</footer>
+</div>
+</a>
+</article>
+<!-- END: /templates/recipe/recipe-brief.jsp -->
+</div><div
+class="g16 col fln s3 sl6 sl9 sl12 sl18 article-reference relation flow-relation"
+data-id="1.16113146"
+data-reference-id="1.11102025.body7571"
+data-fwdnav-id="1.16113146"
+data-fwdnav-position="5"
+data-fwdnav-collection-id="1.11102025"
+data-fwdnav-collection-type="nrkno_flow"
+><!-- include: /serum/render?id=1.16113146&amp;size=3&amp;perspective=BRIEF&amp;alignment=AUTO --><!-- START: /templates/article/article-brief.jsp -->
+<article class="article widget brief plug-default plug cf">
+<a class="autonomous lp_plug" href="https://www.nrk.no/mat/kjottkaker-fra-heile-verda-1.16113146" data-id="1.16113146">
+<!-- include: /serum/render?id=1.13935212&amp;size=3&amp;perspective=LEAN&amp;alignment=AUTO&amp;caption=Dette+er+de+norske.+I+artikkelen+finn+du+ogs%C3%A5+kj%C3%B8ttkaker+fr%C3%A5+Danmark%2C+Sverige%2C+Hellas%2C+Marokko%2C+Pakistan+og+Spania.&amp;type=image&amp;aspect=F169&amp;classes=plug-image --><!-- START: /templates/image/image-lean.jsp -->
+<figure class="image widget lean plug-image">
+<div class="responsive-img F169"><img id="_wHZ2xR0UNdvdKd9h7fdvQ" sizes="(min-width:1180px) 192px, (min-width:720px) 17vw, 50vw" srcset="https://gfx.nrk.no/_wHZ2xR0UNdvdKd9h7fdvQMvSUlLz1garhKYKc6O4g1g.jpg 80w, https://gfx.nrk.no/_wHZ2xR0UNdvdKd9h7fdvQXrsK_DizBNHhKYKc6O4g1g.jpg 160w, https://gfx.nrk.no/_wHZ2xR0UNdvdKd9h7fdvQGPYxLL7gydrhKYKc6O4g1g.jpg 350w, https://gfx.nrk.no/_wHZ2xR0UNdvdKd9h7fdvQQRh6lFAh70bhKYKc6O4g1g.jpg 450w, https://gfx.nrk.no/_wHZ2xR0UNdvdKd9h7fdvQvQl2sH4xZpbhKYKc6O4g1g.jpg 650w, https://gfx.nrk.no/_wHZ2xR0UNdvdKd9h7fdvQKXtmqplF_ArhKYKc6O4g1g.jpg 1000w, https://gfx.nrk.no/_wHZ2xR0UNdvdKd9h7fdvQTzVbdDn0poDhKYKc6O4g1g.jpg 1200w, https://gfx.nrk.no/_wHZ2xR0UNdvdKd9h7fdvQ7lOGYqwZmKDhKYKc6O4g1g.jpg 1600w, https://gfx.nrk.no/_wHZ2xR0UNdvdKd9h7fdvQb9FWNeazmLzhKYKc6O4g1g.jpg 2000w" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Kjøttkaker i brun saus" title="Foto: Tone Rieber-Mohn / NRK"></div>
+</figure>
+<!-- END: /templates/image/image-lean.jsp -->
+<div class="plug-teaser">
+<h2 class="title">Heile verda elskar kjøttkaker </h2>
+<p class="plug-preamble">Ingen kjøttkaker er som mor sine. Du veit det. Vi veit det, og sånn har folk det over heile verda. Kva med å prøve herlege og spennande kjøttkaker frå andre land?</p>
+<span class="plug-metadata plug-byline">Av Ingvill Bjorland</span>
+<svg viewBox="0 0 9 23" role="presentation" aria-hidden="true" shape-rendering="auto" class="plug-svg-arrow skin-text">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-right"></use>
+</svg>
+</div>
+</a>
+</article>
+<!-- END: /templates/article/article-brief.jsp -->
+</div><div
+class="g16 col fln s3 sl6 sl9 sl12 sl18 recipe-reference relation flow-relation"
+data-id="1.12107322"
+data-reference-id="1.11102025.body7569"
+data-fwdnav-id="1.12107322"
+data-fwdnav-position="6"
+data-fwdnav-collection-id="1.11102025"
+data-fwdnav-collection-type="nrkno_flow"
+><!-- include: /serum/render?id=1.12107322&amp;size=3&amp;perspective=BRIEF&amp;alignment=AUTO -->
+<article class="recipe widget brief plug cf">
+<a class="autonomous"
+href="https://www.nrk.no/mat/hummer-gratinert-pa-to-mater-1.12107322"
+data-id="1.12107322"
+title="Hummer gratinert på to måter">
+<!-- include: /serum/render?id=1.12107356&amp;size=3&amp;perspective=LEAN&amp;alignment=CENTER&amp;caption=Pr%C3%B8v+Geir+Skeie+sin+gratinerte+hummer.&amp;type=image&amp;aspect=F169&amp;classes=plug-image --><!-- START: /templates/image/image-lean.jsp -->
+<figure class="image widget lean plug-image">
+<div class="responsive-img F169"><img id="CRrrJukxnwJpRWGw4zxgog" sizes="(min-width:1180px) 192px, (min-width:720px) 17vw, 50vw" srcset="https://gfx.nrk.no/CRrrJukxnwJpRWGw4zxgogP_Y7O9BFlgdeCrxRM0njfQ.jpg 80w, https://gfx.nrk.no/CRrrJukxnwJpRWGw4zxgogEN4p3YCN3W1eCrxRM0njfQ.jpg 160w, https://gfx.nrk.no/CRrrJukxnwJpRWGw4zxgogEdFj54NUK61eCrxRM0njfQ.jpg 350w, https://gfx.nrk.no/CRrrJukxnwJpRWGw4zxgogDm7C9Imh91ReCrxRM0njfQ.jpg 450w, https://gfx.nrk.no/CRrrJukxnwJpRWGw4zxgogzEIAhiSaAVdeCrxRM0njfQ.jpg 650w, https://gfx.nrk.no/CRrrJukxnwJpRWGw4zxgog3ii7ZTfKP-FeCrxRM0njfQ.jpg 1000w, https://gfx.nrk.no/CRrrJukxnwJpRWGw4zxgogFf0l7hZmq4teCrxRM0njfQ.jpg 1200w, https://gfx.nrk.no/CRrrJukxnwJpRWGw4zxgogYpl17HkY1MpeCrxRM0njfQ.jpg 1600w, https://gfx.nrk.no/CRrrJukxnwJpRWGw4zxgogjd4URIxNfx1eCrxRM0njfQ.jpg 2000w" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Gratinert hummer" title="Foto: Paal Andre Schwital"></div>
+</figure>
+<!-- END: /templates/image/image-lean.jsp -->
+<div class="plug-teaser">
+<h2 class="title recipe">Hummer gratinert på to måter</h2>
+<p class="plug-preamble">Gratiner hummeren på asiatisk eller europeisk vis.</p>
+<footer class="plug-footer">
+</footer>
+</div>
+</a>
+</article>
+<!-- END: /templates/recipe/recipe-brief.jsp -->
+</div></div>
+<div class="container-widget-content pagination nrk-pagination">
+<button class="flow-page-forward nrk-button nrk-color-base" data-id="1.11102025?size=18&perspective=BRIEF&alignment=CENTER&scope=ARTICLE&head=NRK%20Mat%20akkurat%20n%C3%A5&arrangement.offset=6&arrangement.startoffset=0&arrangement.quantity=6&arrangement.repetition=PATTERN&arrangement.view%5B0%5D.perspective=BRIEF&arrangement.view%5B0%5D.size=3&arrangement.view%5B0%5D.alignment=CENTER&paged=SIMPLE">
+<span class="button-icon">+</span>
+<span>Vis flere</span>
+</button>
+</div>
+</div>
+<script>
+require([
+'inline!standard:type/flow/Serum.Flow',
+'inline!standard:jquery'
+], function(PaginatedFlow, $) {
+PaginatedFlow.bootstrap($('.flow.js-initialize').removeClass('js-initialize'));
+});
+</script>
+</div></div></div><div class="g100 col fln sAUTO footer-reference"><!-- include: /serum/render?id=1.16405777&amp;size=18&amp;perspective=RICH&amp;alignment=AUTO -->
+<style>
+.nrk-bottommenu{display:none}
+html.no-header .nrk-bottommenu-footer {display: none;}
+.nrk-bottommenu-footer{padding:25px;background:#061629;color:#b2cff5;text-align:center;font-size:14px;line-height:1.2}
+</style>
+<link rel="stylesheet" href="https://static.nrk.no/nrkno/serum/2.0.495/singelton/bottommenu/bottommenu.css" />
+<link rel="stylesheet" href="https://static.nrk.no/nrk-sans/latest/nrk-sans.min.css" />
+<div class="nrk-bottommenu lp_globalfooter js-initialize">
+<!--[if gte IE 9]><!-->
+<svg style="display: none;">
+<symbol id="icon-arrow-right" viewBox="0 0 32 11">
+<path fill="currentColor" d="M29.46565057 5.5L23.5.9468425 24.5171747 0 31.5 5.5 24.5171747 11 23.5 10.0531575 29.46565057 5.5z"/>
+<path fill="currentColor" d="M30.50000035 4.7999879v1.39999998H.74918205V4.7999879z"/>
+</symbol>
+<symbol id="icon-arrow-up" viewBox="0 0 13 12">
+<path fill="currentColor" d="M12.0531575 8L6.5 2.03434943.9468425 8 0 6.9828253 6.5 0 13 6.9828253 12.0531575 8"/>
+<path fill="currentColor" d="M5.7999878 1h1.39999997v11H5.7999878z"/>
+</symbol>
+<symbol id="icon-chevron-down" viewBox="0 0 14 9">
+<path fill="currentColor" fill-rule="evenodd" d="M12.5531575.5L7 6.46565057 1.44684248.5.5 1.5171747 7 8.5l6.5-6.9828253L12.5531575.5"/>
+</symbol>
+<symbol id="icon-close" viewBox="0 0 18 18">
+<path fill="currentColor" fill-rule="evenodd" d="M7.685 9L.343 16.342l1.314 1.316L9 10.315l7.343 7.343 1.314-1.316L10.315 9l7.342-7.342L16.343.342 9 7.685 1.657.342.343 1.658 7.685 9z"/>
+</symbol>
+<symbol id="logo-presseforbundet" viewBox="0 0 61 61">
+<path fill="none" d="M30.7,60.4c0,0-0.1,0-0.1,0c0.2,0,0.4,0,0.5,0c0.2,0,0.5,0,0.7,0c0,0,0,0,0,0C31.5,60.4,31.1,60.4,30.7,60.4z"/>
+<path fill="currentColor" d="M60.2,30.4C60.2,13.8,47,0.2,30.7,0.2c-7.8,0-14.9,3-20.2,8h12.5c6.6,0,11.5,1,15.3,3.4 c3.7,2.3,6.4,6.6,6.4,12.2c0,7.4-4.5,11.2-8.1,12.6c-6.2,2.5-13.4,2-16.4,2V50c0,9.1,7.4,10.3,10.3,10.4c0,0,0.1,0,0.1,0 c0.4,0,0.7,0,1.1,0c0,0,0,0,0,0C47.6,59.8,60.2,46.6,60.2,30.4z"/>
+<path fill="currentColor" d="M7.2,12.3c-3.7,5-5.9,11.3-5.9,18c0,10.2,5,19.2,12.6,24.6l-0.1-31.8C13.8,17.6,11.2,13,7.2,12.3z"/>
+<path fill="currentColor" d="M20.2,37.9c0,0,1.9,0.1,4.2-0.2c5-0.5,13.1-2.1,13.1-13c0-6.4-1.8-13.6-9.6-15.2c-1.1-0.2-4.4-0.3-6.4-0.3 c-0.7,0-1.3,0.6-1.3,1.3c0,0.9,0,2.1,0,3.4V37.9z"/>
+<path fill="#FFFFFF" d="M31.9,60.4c-0.2,0-0.5,0-0.7,0C31.6,60.4,31.9,60.4,31.9,60.4z"/>
+<path fill="#FFFFFF" d="M31.9,60.4C31.9,60.4,31.9,60.4,31.9,60.4C31.9,60.4,31.9,60.4,31.9,60.4C31.9,60.4,31.9,60.4,31.9,60.4z"/>
+</symbol>
+<symbol id="logo-presseforbundet-with-text" viewBox="0 0 185 63">
+<path fill="currentColor" d="M 74.758 24.146 L 76.458 24.146 L 77.458 24.046 L 78.258 23.546 C 78.43 23.375 78.566 23.171 78.658 22.946 L 78.858 22.046 C 78.878 21.484 78.66 20.939 78.258 20.546 C 77.858 20.146 77.258 20.046 76.458 20.046 L 74.858 20.046 L 74.858 24.146 L 74.758 24.146 Z M 74.758 25.246 L 74.758 29.046 L 73.458 29.046 L 73.458 18.946 L 76.458 18.946 C 77.058 18.946 77.658 18.946 78.158 19.146 L 79.258 19.746 C 79.658 20.046 79.858 20.346 79.958 20.746 C 80.314 21.576 80.314 22.516 79.958 23.346 C 79.801 23.727 79.562 24.068 79.258 24.346 C 78.91 24.659 78.502 24.898 78.058 25.046 C 77.539 25.199 76.998 25.266 76.458 25.246 L 74.858 25.246 L 74.758 25.246 Z M 83.458 23.846 L 84.858 23.846 C 85.258 23.846 85.658 23.846 85.858 23.646 C 86.258 23.646 86.458 23.446 86.658 23.246 C 86.958 23.146 87.058 22.846 87.158 22.646 L 87.358 21.846 C 87.358 21.246 87.158 20.846 86.758 20.446 C 86.358 20.146 85.758 20.046 84.958 20.046 L 83.458 20.046 L 83.458 23.846 Z M 83.458 24.846 L 83.458 29.046 L 82.058 29.046 L 82.058 18.946 L 84.958 18.946 C 85.558 18.946 86.158 18.946 86.658 19.146 L 87.758 19.646 L 88.458 20.646 L 88.658 21.646 C 88.658 22.046 88.658 22.446 88.458 22.646 C 88.458 23.046 88.258 23.346 87.958 23.646 C 87.757 23.881 87.521 24.083 87.258 24.246 C 86.945 24.425 86.608 24.559 86.258 24.646 L 86.658 25.046 L 89.658 29.046 L 88.358 29.046 C 88.058 29.046 87.958 28.946 87.758 28.746 L 85.158 25.146 C 85.104 25.068 85.036 25 84.958 24.946 C 84.803 24.87 84.63 24.835 84.458 24.846 L 83.458 24.846 Z M 97.258 18.846 L 97.258 20.046 L 92.458 20.046 L 92.458 23.446 L 96.358 23.446 L 96.358 24.446 L 92.358 24.446 L 92.358 27.946 L 97.358 27.946 L 97.358 29.046 L 91.058 29.046 L 91.058 18.946 L 97.258 18.946 M 104.458 20.546 C 104.398 20.591 104.33 20.625 104.258 20.646 C 104.193 20.669 104.123 20.669 104.058 20.646 L 103.858 20.646 C 103.73 20.538 103.597 20.438 103.458 20.346 C 103.269 20.226 103.067 20.125 102.858 20.046 C 102.56 19.991 102.255 19.991 101.958 20.046 L 101.158 20.046 C 100.932 20.135 100.727 20.271 100.558 20.446 C 100.424 20.59 100.322 20.76 100.258 20.946 L 100.158 21.546 C 100.158 21.846 100.158 22.046 100.358 22.246 L 100.858 22.746 L 101.658 23.046 C 102.53 23.4 103.397 23.766 104.258 24.146 C 104.756 24.606 105.014 25.27 104.958 25.946 C 104.958 26.446 104.958 26.846 104.758 27.246 C 104.464 28.032 103.844 28.652 103.058 28.946 C 102.016 29.316 100.874 29.28 99.858 28.846 C 99.327 28.613 98.85 28.272 98.458 27.846 L 98.858 27.146 C 98.931 27.058 99.047 27.019 99.158 27.046 L 99.458 27.146 L 99.958 27.546 L 100.658 27.846 L 101.658 28.046 C 101.958 28.046 102.258 28.046 102.458 27.846 C 102.758 27.846 102.958 27.646 103.158 27.546 L 103.558 26.946 C 103.645 26.689 103.679 26.417 103.658 26.146 C 103.658 25.846 103.658 25.646 103.458 25.446 C 103.328 25.246 103.158 25.076 102.958 24.946 C 102.703 24.816 102.435 24.715 102.158 24.646 L 101.258 24.346 C 100.951 24.229 100.65 24.096 100.358 23.946 C 100.101 23.815 99.865 23.646 99.658 23.446 C 99.413 23.255 99.209 23.017 99.058 22.746 L 98.858 21.646 C 98.835 20.897 99.125 20.173 99.658 19.646 C 99.949 19.382 100.288 19.178 100.658 19.046 C 101.075 18.9 101.516 18.832 101.958 18.846 C 102.558 18.846 103.058 18.846 103.558 19.046 L 104.758 19.846 L 104.458 20.546 M 111.858 20.546 C 111.829 20.583 111.795 20.617 111.758 20.646 C 111.693 20.669 111.623 20.669 111.558 20.646 L 111.258 20.646 C 111.13 20.538 110.997 20.438 110.858 20.346 L 110.358 20.046 C 110.062 19.977 109.754 19.977 109.458 20.046 L 108.658 20.046 C 108.432 20.135 108.227 20.271 108.058 20.446 C 107.924 20.59 107.822 20.76 107.758 20.946 L 107.558 21.546 C 107.558 21.846 107.658 22.046 107.858 22.246 C 107.858 22.446 108.158 22.546 108.358 22.746 L 109.158 23.046 C 109.996 23.4 110.83 23.767 111.658 24.146 C 111.958 24.346 112.058 24.646 112.258 24.946 L 112.458 25.946 C 112.458 26.446 112.458 26.846 112.258 27.246 C 111.942 28.053 111.282 28.677 110.458 28.946 C 109.416 29.316 108.274 29.28 107.258 28.846 C 106.727 28.613 106.25 28.272 105.858 27.846 L 106.258 27.146 C 106.324 27.132 106.392 27.132 106.458 27.146 C 106.509 27.088 106.581 27.052 106.658 27.046 L 106.958 27.146 L 107.458 27.546 L 108.158 27.846 L 109.158 28.046 C 109.458 28.046 109.758 28.046 109.958 27.846 C 110.258 27.846 110.458 27.646 110.658 27.546 L 111.058 26.946 C 111.145 26.689 111.179 26.417 111.158 26.146 C 111.158 25.846 111.158 25.646 110.958 25.446 C 110.828 25.246 110.658 25.076 110.458 24.946 C 110.203 24.816 109.935 24.715 109.658 24.646 L 108.658 24.346 C 108.385 24.226 108.118 24.093 107.858 23.946 C 107.566 23.824 107.295 23.655 107.058 23.446 C 106.849 23.246 106.679 23.009 106.558 22.746 C 106.358 22.446 106.358 22.046 106.358 21.646 C 106.335 20.897 106.625 20.173 107.158 19.646 C 107.449 19.382 107.788 19.178 108.158 19.046 C 108.575 18.9 109.016 18.832 109.458 18.846 C 110.058 18.846 110.458 18.846 110.958 19.046 L 112.258 19.846 L 111.858 20.546 M 120.458 18.946 L 120.458 20.046 L 115.558 20.046 L 115.558 23.546 L 119.558 23.546 L 119.558 24.546 L 115.558 24.546 L 115.558 28.046 L 120.458 28.046 L 120.458 29.146 L 114.158 29.146 L 114.158 18.946 L 120.458 18.946 M 123.458 18.946 C 123.502 19.007 123.535 19.074 123.558 19.146 L 129.458 26.746 C 129.455 26.646 129.455 26.546 129.458 26.446 C 129.456 26.346 129.456 26.246 129.458 26.146 L 129.458 18.946 L 130.558 18.946 L 130.558 29.046 L 129.858 29.046 C 129.792 29.057 129.724 29.057 129.658 29.046 C 129.578 28.993 129.51 28.925 129.458 28.846 L 123.558 21.146 C 123.567 21.379 123.567 21.613 123.558 21.846 L 123.558 29.046 L 122.358 29.046 L 122.358 18.946 L 123.358 18.946 M 138.258 20.546 C 138.2 20.594 138.131 20.628 138.058 20.646 C 138.025 20.651 137.991 20.651 137.958 20.646 L 137.658 20.646 C 137.53 20.539 137.396 20.439 137.258 20.346 C 137.069 20.226 136.867 20.125 136.658 20.046 C 136.393 20.003 136.123 20.003 135.858 20.046 L 135.058 20.046 C 134.832 20.135 134.627 20.271 134.458 20.446 C 134.288 20.579 134.151 20.75 134.058 20.946 L 133.958 21.546 C 133.958 21.846 133.958 22.046 134.158 22.246 L 134.658 22.746 L 135.458 23.046 C 136.33 23.4 137.197 23.766 138.058 24.146 C 138.556 24.606 138.814 25.27 138.758 25.946 C 138.758 26.446 138.758 26.846 138.558 27.246 C 138.458 27.646 138.158 27.946 137.858 28.246 C 137.576 28.545 137.236 28.783 136.858 28.946 C 136.375 29.107 135.866 29.175 135.358 29.146 C 134.777 29.159 134.199 29.057 133.658 28.846 C 133.127 28.613 132.65 28.272 132.258 27.846 L 132.658 27.146 C 132.691 27.142 132.725 27.142 132.758 27.146 C 132.809 27.088 132.881 27.052 132.958 27.046 L 133.258 27.146 L 133.758 27.546 L 134.458 27.846 L 135.458 28.046 C 135.758 28.046 136.058 28.046 136.358 27.846 C 136.574 27.782 136.777 27.681 136.958 27.546 C 137.135 27.379 137.272 27.174 137.358 26.946 C 137.479 26.696 137.547 26.423 137.558 26.146 C 137.558 25.846 137.458 25.646 137.258 25.446 C 137.128 25.246 136.958 25.076 136.758 24.946 C 136.503 24.816 136.235 24.715 135.958 24.646 L 135.058 24.346 C 134.751 24.229 134.45 24.096 134.158 23.946 C 133.901 23.815 133.665 23.646 133.458 23.446 C 133.213 23.255 133.009 23.017 132.858 22.746 L 132.758 21.546 C 132.735 20.797 133.025 20.073 133.558 19.546 C 133.849 19.282 134.188 19.078 134.558 18.946 C 134.975 18.8 135.416 18.732 135.858 18.746 C 136.399 18.711 136.942 18.779 137.458 18.946 C 137.908 19.129 138.316 19.401 138.658 19.746 L 138.358 20.446 M 79.558 35.846 L 79.558 36.946 L 74.758 36.946 L 74.758 40.546 L 78.758 40.546 L 78.758 41.546 L 74.758 41.546 L 74.758 45.946 L 73.358 45.946 L 73.358 35.946 L 79.558 35.946 M 82.058 42.246 L 85.858 42.246 L 84.258 38.146 C 84.135 37.82 84.035 37.486 83.958 37.146 C 83.869 37.482 83.768 37.816 83.658 38.146 L 82.058 42.146 L 82.058 42.246 Z M 88.658 45.946 L 87.658 45.946 C 87.56 45.977 87.455 45.977 87.358 45.946 C 87.262 45.869 87.192 45.764 87.158 45.646 L 86.158 43.246 L 81.758 43.246 L 80.758 45.546 C 80.708 45.627 80.639 45.696 80.558 45.746 C 80.471 45.811 80.366 45.846 80.258 45.846 L 79.258 45.846 L 83.258 35.846 L 84.758 35.846 L 88.758 45.846 L 88.658 45.946 Z M 94.158 44.946 L 94.958 44.946 C 95.37 44.902 95.774 44.801 96.158 44.646 C 96.329 44.554 96.496 44.454 96.658 44.346 L 96.658 42.146 L 95.158 42.146 C 95.093 42.169 95.023 42.169 94.958 42.146 C 94.87 42.073 94.831 41.957 94.858 41.846 L 94.858 41.146 L 97.858 41.146 L 97.858 44.946 C 97.38 45.335 96.839 45.639 96.258 45.846 C 95.93 45.939 95.596 46.006 95.258 46.046 C 94.858 46.071 94.457 46.071 94.058 46.046 C 93.378 46.078 92.698 45.976 92.058 45.746 C 91.461 45.527 90.916 45.186 90.458 44.746 C 90.01 44.254 89.67 43.676 89.458 43.046 C 89.193 42.377 89.058 41.665 89.058 40.946 C 89.058 40.146 89.258 39.446 89.458 38.846 C 89.664 38.214 90.006 37.634 90.458 37.146 C 90.946 36.694 91.526 36.352 92.158 36.146 C 92.758 35.846 93.458 35.746 94.258 35.746 C 94.941 35.775 95.616 35.91 96.258 36.146 C 96.849 36.33 97.394 36.637 97.858 37.046 L 97.458 37.646 L 97.158 37.846 C 97.06 37.877 96.955 37.877 96.858 37.846 C 96.721 37.751 96.588 37.651 96.458 37.546 C 96.3 37.432 96.133 37.331 95.958 37.246 C 95.731 37.159 95.496 37.093 95.258 37.046 C 94.929 36.979 94.594 36.945 94.258 36.946 C 93.71 36.935 93.165 37.037 92.658 37.246 C 92.204 37.421 91.794 37.694 91.458 38.046 C 91.147 38.395 90.909 38.803 90.758 39.246 C 90.56 39.791 90.459 40.366 90.458 40.946 C 90.458 41.546 90.558 42.146 90.758 42.646 C 90.958 43.146 91.158 43.646 91.558 43.946 L 92.658 44.746 L 94.158 44.946 M 101.458 44.846 L 105.758 44.846 L 105.758 45.946 L 100.058 45.946 L 100.058 35.946 L 101.458 35.946 L 101.458 44.846 M 107.458 35.846 L 108.958 35.846 L 108.958 45.946 L 107.558 45.946 L 107.558 35.946 L 107.458 35.846 Z M 116.158 44.946 L 116.858 44.946 C 117.27 44.902 117.674 44.801 118.058 44.646 L 118.658 44.346 L 118.658 42.146 L 117.058 42.146 C 116.993 42.169 116.923 42.169 116.858 42.146 C 116.804 42.053 116.804 41.939 116.858 41.846 L 116.858 41.146 L 119.858 41.146 L 119.858 44.946 C 119.35 45.345 118.774 45.65 118.158 45.846 L 117.158 46.046 C 116.791 46.067 116.424 46.067 116.058 46.046 C 115.378 46.078 114.698 45.976 114.058 45.746 C 113.461 45.527 112.916 45.186 112.458 44.746 C 112.01 44.254 111.67 43.676 111.458 43.046 C 111.193 42.377 111.058 41.665 111.058 40.946 C 111.058 40.146 111.058 39.446 111.358 38.846 C 111.564 38.214 111.906 37.634 112.358 37.146 C 113.415 36.238 114.764 35.741 116.158 35.746 C 116.875 35.764 117.584 35.899 118.258 36.146 C 118.813 36.342 119.323 36.648 119.758 37.046 L 119.358 37.646 C 119.358 37.746 119.258 37.846 119.058 37.846 C 118.992 37.859 118.924 37.859 118.858 37.846 C 118.721 37.751 118.587 37.651 118.458 37.546 C 118.3 37.432 118.133 37.331 117.958 37.246 C 117.698 37.154 117.43 37.087 117.158 37.046 C 116.829 36.979 116.494 36.945 116.158 36.946 C 115.643 36.951 115.135 37.053 114.658 37.246 C 114.158 37.446 113.758 37.646 113.458 38.046 C 113.111 38.386 112.838 38.795 112.658 39.246 C 112.494 39.797 112.426 40.372 112.458 40.946 C 112.458 41.546 112.458 42.146 112.658 42.646 L 113.458 43.946 C 113.758 44.246 114.158 44.546 114.658 44.746 L 116.158 44.946 M 128.158 35.946 L 128.158 36.946 L 123.358 36.946 L 123.358 40.346 L 127.358 40.346 L 127.358 41.346 L 123.358 41.346 L 123.358 44.846 L 128.258 44.846 L 128.258 45.946 L 121.958 45.946 L 121.958 35.946 L 128.258 35.946 M 136.858 44.946 C 137.258 44.946 137.658 44.846 137.858 44.646 C 138.258 44.546 138.558 44.346 138.858 44.046 L 139.358 43.146 L 139.458 42.046 L 139.458 35.846 L 140.858 35.846 L 140.858 42.046 C 140.854 42.593 140.752 43.135 140.558 43.646 C 140.382 44.129 140.11 44.571 139.758 44.946 L 138.558 45.746 C 138.017 45.96 137.439 46.062 136.858 46.046 C 136.258 46.046 135.658 46.046 135.158 45.746 C 134.674 45.572 134.231 45.3 133.858 44.946 C 133.504 44.573 133.231 44.13 133.058 43.646 C 132.863 43.135 132.762 42.593 132.758 42.046 L 132.758 35.846 L 134.158 35.846 L 134.158 42.046 C 134.158 42.446 134.158 42.846 134.358 43.146 L 134.858 44.146 L 135.658 44.646 C 136.038 44.8 136.448 44.868 136.858 44.846 M 150.058 35.846 L 150.058 37.046 L 146.858 37.046 L 146.858 46.046 L 145.458 46.046 L 145.458 37.046 L 142.158 37.046 L 142.158 35.846 L 150.158 35.846 M 150.358 35.846 L 151.358 35.846 L 151.758 35.946 L 151.958 36.146 L 154.758 43.346 L 154.958 43.846 L 155.158 44.446 L 155.158 43.846 C 155.246 43.673 155.347 43.506 155.458 43.346 L 158.258 36.146 C 158.308 36.064 158.376 35.996 158.458 35.946 C 158.554 35.907 158.662 35.907 158.758 35.946 L 159.758 35.946 L 155.758 45.946 L 154.458 45.946 L 150.358 35.946 M 161.858 42.246 L 165.658 42.246 L 164.058 38.146 C 163.936 37.82 163.835 37.485 163.758 37.146 C 163.694 37.314 163.627 37.48 163.558 37.646 C 163.532 37.814 163.499 37.981 163.458 38.146 L 161.858 42.146 L 161.858 42.246 Z M 168.458 45.946 L 167.458 45.946 C 167.36 45.977 167.255 45.977 167.158 45.946 C 167.062 45.869 166.992 45.764 166.958 45.646 L 165.958 43.246 L 161.458 43.246 L 160.458 45.646 C 160.437 45.718 160.403 45.786 160.358 45.846 C 160.271 45.911 160.166 45.946 160.058 45.946 L 159.058 45.946 L 163.058 35.946 L 164.458 35.946 L 168.458 45.946 Z M 171.158 44.846 L 175.458 44.846 L 175.458 45.946 L 169.758 45.946 L 169.758 35.946 L 171.158 35.946 L 171.158 44.846 M 180.958 44.946 L 181.658 44.946 C 182.104 44.911 182.542 44.81 182.958 44.646 L 183.458 44.346 L 183.458 42.146 L 181.858 42.146 C 181.793 42.169 181.723 42.169 181.658 42.146 C 181.604 42.053 181.604 41.939 181.658 41.846 L 181.658 41.146 L 184.658 41.146 L 184.658 44.946 C 184.18 45.335 183.639 45.639 183.058 45.846 C 182.73 45.939 182.396 46.006 182.058 46.046 C 181.658 46.071 181.257 46.071 180.858 46.046 C 180.178 46.078 179.498 45.976 178.858 45.746 C 178.261 45.527 177.716 45.186 177.258 44.746 C 176.81 44.254 176.47 43.676 176.258 43.046 C 175.993 42.377 175.858 41.665 175.858 40.946 C 175.858 40.146 175.958 39.446 176.258 38.846 C 176.464 38.214 176.806 37.634 177.258 37.146 C 177.716 36.706 178.261 36.365 178.858 36.146 C 180.22 35.688 181.695 35.688 183.058 36.146 C 183.613 36.342 184.123 36.648 184.558 37.046 L 184.258 37.646 L 183.858 37.846 C 183.792 37.859 183.724 37.859 183.658 37.846 C 183.521 37.751 183.388 37.651 183.258 37.546 C 183.1 37.432 182.933 37.331 182.758 37.246 C 182.498 37.154 182.23 37.087 181.958 37.046 C 181.629 36.979 181.294 36.945 180.958 36.946 C 180.358 36.946 179.958 36.946 179.458 37.246 C 179.004 37.421 178.594 37.694 178.258 38.046 C 177.911 38.386 177.638 38.795 177.458 39.246 C 177.294 39.797 177.226 40.372 177.258 40.946 C 177.258 41.546 177.258 42.146 177.558 42.646 C 177.658 43.146 177.958 43.646 178.258 43.946 C 178.658 44.246 178.958 44.546 179.458 44.746 L 180.958 44.946"></path>
+<path fill="currentColor" d="M 61.416 31.619 C 61.416 14.356 47.689 0.214 30.739 0.214 C 22.629 0.214 15.245 3.333 9.733 8.531 L 22.733 8.531 C 29.596 8.531 34.691 9.57 38.644 12.069 C 42.49 14.461 45.299 18.932 45.299 24.754 C 45.299 32.45 40.618 36.402 36.875 37.858 C 30.427 40.458 22.94 39.938 19.82 39.938 L 19.82 52 C 19.82 61.464 27.516 62.711 30.532 62.816 C 30.532 62.816 30.635 62.816 30.635 62.816 C 31.051 62.816 31.363 62.816 31.779 62.816 C 31.779 62.816 31.779 62.816 31.779 62.816 C 48.313 62.192 61.416 48.465 61.416 31.619 Z" style=""></path>
+<path fill="currentColor" d="M 6.302 12.795 C 2.453 17.995 0.166 24.546 0.166 31.514 C 0.166 42.123 5.366 51.479 13.27 57.098 L 13.165 24.028 C 13.165 18.307 10.461 13.523 6.302 12.795 Z" style=""></path>
+<path fill="currentColor" d="M 19.82 39.419 C 19.82 39.419 21.796 39.523 24.188 39.21 C 29.387 38.691 37.81 37.025 37.81 25.693 C 37.81 19.035 35.939 11.546 27.827 9.884 C 26.683 9.676 23.252 9.57 21.172 9.57 C 20.445 9.57 19.82 10.196 19.82 10.924 C 19.82 11.861 19.82 13.108 19.82 14.461 L 19.82 39.419 Z" style=""></path>
+</symbol>
+<symbol id="logo-nrk" viewBox="0 0 49.3 18">
+<path fill="currentColor" d="M42.5.4h6.8l-5.2 8.2c-.1.2-.2.4-.2.6 0 .2.1.3.3.7l5.2 8.1h-6.8l-4.3-7.7c-.3-.3-.5-.7-.5-1.3 0-.4.1-.7.4-1.3L42.5.4zM6.4.4h4.3c1.6 0 2.7.8 3 2.6l3 15h-6.4L6.4.4zM0 .4h6.1V18H0zm17.2 0h6V18h-6zm13.7 0h6V18h-6zm-.4 3c0-2.3-1.7-3.4-3.4-3.4s-3.4 1-3.4 3.4 1.7 3.4 3.4 3.4 3.4-.8 3.4-3.4z"/>
+</symbol>
+</svg>
+<!--<![endif]-->
+<div class="grid cf">
+<div class="nrk-bottommenu-info">
+<h3>
+<a href="https://www.nrk.no/mat/" class="nrk-bottommenu-logo">
+<span class="sr-only">NRK&nbsp;</span><svg class="init-size-zero" aria-hidden="true" role="presentation"><use xlink:href="#logo-nrk"></use></svg><span>Mat</span>
+</a>
+</h3>
+<ul>
+<li>E-post:&nbsp;
+<a href="mailto:mat@nrk.no">mat@nrk.no</a>
+</li>
+<li>Redaktør:&nbsp;
+Cecilie Berntsen Jåsund
+</li>
+</ul>
+<div class="nrk-bottommenu-info-presseforbundet">
+<input type="checkbox" id="pfu-toggle" role="button" aria-label="Presseetikk." aria-expanded="false" aria-controls="pfu-popup">
+<div id="pfu-popup">
+<a href="https://presse.no/" aria-label="Norsk Presseforbund, logo.">
+<span class="sr-only">Norsk Presseforbund, logo.</span>
+<svg class="init-size-zero" aria-hidden="true" role="presentation">
+<use xlink:href="#logo-presseforbundet-with-text"></use>
+</svg>
+</a>
+<hr>
+<h4>Vi arbeider etter<br>Vær Varsom-plakatens regler<br>for god presseskikk.</h4>
+<p>Den som mener seg rammet av urettmessig publisering, oppfordres til å ta kontakt med redaksjonen. Pressens Faglige Utvalg (PFU) er et klageorgan oppnevnt av Norsk Presseforbund som behandler klager mot mediene i presseetiske spørsmål.</p>
+<hr>
+<button id="pfu-popup-close">
+<span class="sr-only">Lukk.</span>
+<svg class="init-size-zero" aria-hidden="true" role="presentation">
+<use xlink:href="#icon-close"></use>
+</svg>
+</button>
+</div>
+<label id="pfu-label" for="pfu-toggle" aria-hidden="true" role="presentation">
+<span class="sr-only">NRK arbeider etter Vær Varsom-plakatens regler for god presseskikk. Klikk for mer informasjon.</span>
+<svg class="init-size-zero" aria-hidden="true" role="presentation">
+<use xlink:href="#logo-presseforbundet"></use>
+</svg>
+</label>
+</div>
+<div class="nrk-bottommenu-info-tips">
+<a class="nrk-bottommenu-info-tips-button" href="https://www.nrk.no/03030/">
+<span class="nrk-bottommenu-info-tips-text">Nyhetstips 03030</span>
+<svg class="init-size-zero" aria-hidden="true" role="presentation">
+<use xlink:href="#icon-arrow-right"></use>
+</svg>
+</a>
+</div>
+</div>
+<div class="nrk-bottommenu-colophons">
+<div class="colophon first">
+<h3>Kontakt</h3>
+<input type="checkbox" role="button" id="colophon-list-menu-1-toggle" name="colophon-list-menu" aria-labelledby="colophon-list-menu-1-label" aria-expanded="false" aria-controls="colophon-list-menu-1" />
+<label id="colophon-list-menu-1-label" for="colophon-list-menu-1-toggle">Kontakt<svg class="init-size-zero" aria-hidden="true" role="presentation"><use xlink:href="#icon-chevron-down"></use></svg></label>
+<ul class="colophon-list" id="colophon-list-menu-1">
+<li class="colophon-list-item"><a href="https://www.nrk.no/informasjon/">Om NRK</a></li>
+<li class="colophon-list-item"><a href="https://info.nrk.no/kontakt/">Kontakt NRK</a></li>
+<li class="colophon-list-item"><a href="https://www.nrk.no/lisens/">Lisens</a></li>
+<li class="colophon-list-item"><a href="https://www.nrk.no/publikum/">Publikum i NRK</a></li>
+<li class="colophon-list-item"><a href="https://www.nrk.no/delta/">Delta i NRK-programmer</a></li>
+<li class="colophon-list-item"><a href="https://info.nrk.no/stilling/">Jobb i NRK</a></li>
+<li class="colophon-list-item"><a href="https://www.nrk.no/presse/">Presse</a></li>
+</ul>
+</div>
+<div class="colophon second">
+<h3>Hjelp</h3>
+<input type="checkbox" role="button" id="colophon-list-menu-2-toggle" name="colophon-list-menu" aria-labelledby="colophon-list-menu-2-label" aria-expanded="false" aria-controls="colophon-list-menu-2" />
+<label id="colophon-list-menu-2-label" for="colophon-list-menu-2-toggle">Hjelp<svg class="init-size-zero" aria-hidden="true" role="presentation"><use xlink:href="#icon-chevron-down"></use></svg></label>
+<ul class="colophon-list" id="colophon-list-menu-2">
+<li class="colophon-list-item"><a href="https://info.nrk.no/">Brukerstøtte</a></li>
+<li class="colophon-list-item"><a href="https://info.nrk.no/tilgjengelighet/">Tilgjengelighet</a></li>
+<li class="colophon-list-item"><a href="https://info.nrk.no/personvernerklaering/">Personvern</a></li>
+<li class="colophon-list-item"><a href="https://info.nrk.no/informasjonskapsler/">Informasjonskapsler (cookies)</a></li>
+</ul>
+<h3>Tjenester</h3>
+<input type="checkbox" role="button" id="colophon-list-menu-3-toggle" name="colophon-list-menu" aria-labelledby="colophon-list-menu-3-label" aria-expanded="false" aria-controls="colophon-list-menu-2" />
+<label id="colophon-list-menu-3-label" for="colophon-list-menu-3-toggle">Tjenester<svg class="init-size-zero" aria-hidden="true" role="presentation"><use xlink:href="#icon-chevron-down"></use></svg></label>
+<ul class="colophon-list" id="colophon-list-menu-3">
+<li class="colophon-list-item"><a href="https://www.yr.no">Yr</a></li>
+<li class="colophon-list-item"><a href="https://www.nrk.no/skole/">NRK Skole</a></li>
+</ul>
+</div>
+<div class="colophon third">
+<h3>Produksjon</h3>
+<input type="checkbox" role="button" id="colophon-list-menu-4-toggle" name="colophon-list-menu" aria-labelledby="colophon-list-menu-4-label" aria-expanded="false" aria-controls="colophon-list-menu-4" />
+<label id="colophon-list-menu-4-label" for="colophon-list-menu-4-toggle">Produksjon<svg class="init-size-zero" aria-hidden="true"><use xlink:href="#icon-chevron-down"></use></svg></label>
+<ul class="colophon-list" id="colophon-list-menu-4">
+<li class="colophon-list-item"><a href="https://www.nrk.no/eksternproduksjon/">Eksterne produksjoner</a></li>
+<li class="colophon-list-item"><a href="https://www.nrk.no/retningslinjer/">Retningslinjer og design</a></li>
+</ul>
+<h3>Salg</h3>
+<input type="checkbox" role="button" id="colophon-list-menu-5-toggle" name="colophon-list-menu" aria-labelledby="colophon-list-menu-5-label" aria-expanded="false" aria-controls="colophon-list-menu-5" />
+<label id="colophon-list-menu-5-label" for="colophon-list-menu-5-toggle">Salg<svg class="init-size-zero" aria-hidden="true"><use xlink:href="#icon-chevron-down"></use></svg></label>
+<ul class="colophon-list" id="colophon-list-menu-5">
+<li class="colophon-list-item"><a href="https://www.nrk.no/salg/">Spons og salg</a></li>
+</ul>
+</div>
+</div>
+<div class="nrk-bottommenu-to-top">
+<a href="#" class="to-top">
+<svg class="init-size-zero" aria-hidden="true">
+<use xlink:href="#icon-arrow-up"></use>
+</svg>
+Til toppen
+</a>
+</div>
+</div>
+</div>
+<footer class="nrk-bottommenu-footer">
+<div class="grid cf">
+<a href="https://www.nrk.no/" class="nrk-bottommenu-footer-logo"><span class="sr-only">NRK</span></a>
+<a href="https://www.nrk.no/etikk/opphavsrett-pa-nrk.no-1.2843522" class="nrk-bottommenu-footer-copyright">Opphavsrett NRK &copy; 2023</a>
+<a href="https://www.nrk.no/etikk/redaktoransvar-pa-nrk.no-1.2843526" class="nrk-bottommenu-footer-editors">
+<span>Ansvarlig redaktør: Vibeke Fürst Haugen</span>
+<span>Nettsjef: Hildegunn Soldal</span>
+</a>
+</div>
+</footer>
+<script async src="https://static.nrk.no/nrkno/serum/2.0.495/singelton/bottommenu/Serum.Bottommenu.js"></script>
+</div></div>
+<script>
+loadCSS( 'https://static.nrk.no/nrkno/serum/2.0.495/widget.css', document.getElementById('injectStylesBefore') );
+</script>
+<script type="text/javascript">
+require(['common/js/lib/Serum.ForwardNavTracking']);
+require(['common/js/lib/Serum.ExperimentTracking']);
+(function () {
+var queryString = window.location.search,
+hideFooter = queryString.match(/[?&]footer=off/),
+hideCopyright = queryString.match(/[?&]copyright=off/),
+footerHtmlElement,
+copyRightHtmlElement;
+if (hideFooter) {
+footerHtmlElement = document.getElementsByClassName('nrk-bottommenu')[0];
+if (footerHtmlElement.classList) {
+footerHtmlElement.classList.add('no-footer');
+}
+}
+if (hideCopyright) {
+copyRightHtmlElement = document.getElementsByClassName('nrk-bottommenu-footer')[0];
+if (copyRightHtmlElement.classList) {
+copyRightHtmlElement.classList.add('no-footer');
+}
+}
+}());
+</script></body>
+</html>

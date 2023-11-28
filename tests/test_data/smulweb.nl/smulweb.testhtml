@@ -1,0 +1,2149 @@
+<!doctype html>
+<html lang="nl" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" >
+
+    <!-- Verification -->
+    <meta name="verify-v1" content="IBDUC48jvvBB9sTHvz0moiH8+sjWwiwgzKak9lD6SZ4=">
+    <meta name="google-site-verification" content="l5dTJeId9fcmnta8CZo4cknbhD0tEGgV93Ob7eUnbfQ">
+
+    <!-- OneTrust Cookies Consent Notice start for smulweb.nl -->
+    <script>
+
+
+
+        let domainId = 'c06d930f-169e-4950-8f77-b57caaf89476-test';
+
+        let functionalCookies = "J1000";
+        let trackingAndProfiling = "J2000";
+        let IABPartners = "BG37";
+        let isBot = /bot|googlebot/i.test(navigator.userAgent);
+        let script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://cdn.cookielaw.org/consent/'+domainId+'/OtAutoBlock.js';
+
+        let script2 = document.createElement('script');
+        script2.type = 'text/javascript';
+        script2.src = 'https://cdn.cookielaw.org/scripttemplates/otSDKStub.js';
+        script2.charset = 'UTF-8';
+        script2.dataset.domainScript = domainId;
+
+        let script3 = document.createElement('script');
+        script3.type = 'text/javascript';
+        script3.innerHTML = function OptanonWrapper() {
+
+        if(OnetrustActiveGroups.includes(functionalCookies)){
+           let script4 = document.createElement('script');
+           script4.id = "functionalAdScript";
+           script4.type = 'text/javascript';
+           script4.src = 'https://securepubads.g.doubleclick.net/tag/js/gpt.js';
+           document.getElementsByTagName('head')[0].appendChild(script4);
+        }else{
+            document.getElementById('functionalAdScript').remove();
+        }
+
+
+        };
+
+        if(!isBot) {
+            document.getElementsByTagName('head')[0].appendChild(script);
+            document.getElementsByTagName('head')[0].appendChild(script2);
+            document.getElementsByTagName('head')[0].appendChild(script3);
+
+        }
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TWZ23LZ');</script>
+    <!-- End Google Tag Manager-->
+
+    <script>
+        window.googletag = window.googletag || {cmd: []};
+    </script>
+
+    <!-- Title | OpenGraph | Meta fields | Breadcrumbs | Structured Data -->
+                <title data-testid="page-title">Lekker! Ovenschotel spitskool champignons spekreepjes en prei recept | Smulweb.nl (onderdeel Jumbo)</title>
+<meta name="Description" content="Lekker pittige ovenschotel. Door het gebruik van de mosterd en crème fraîche krijgt de kool een lekkere romige smaak. Geen aardappelpuree bovenop, maar aardappelen gestampt met wat crème fraîche en mosterd erdoor geroerd. Hierdoor krijg je een wat grovere laag, die heerlijk is bij de spitskool.Ook lekker met plakjes ontbijtspek op de schotel. Ze worden lekker knapperig in de oven. (zie foto) …">
+ <meta name="Keywords" data-testid="recipe-keywords" content="Recept, Lekker! Ovenschotel spitskool champignons spekreepjes en prei, Ovenschotel, Nederlands, Hartig">
+<link rel="canonical" href="https://www.smulweb.nl/recepten/1406384/lekker-ovenschotel-spitskool-champignons-spekreepjes-en-prei"/>
+
+ <meta property="og:type" content="website"/><meta property="og:language" content="nl_NL"/><meta property="og:title" content="Lekker! Ovenschotel spitskool champignons spekreepjes en prei recept | Smulweb.nl (onderdeel Jumbo)"/><meta property="og:description" content="Lekker pittige ovenschotel. Door het gebruik van de mosterd en crème fraîche krijgt de kool een lekkere romige smaak. Geen aardappelpuree bovenop, maar aardappelen gestampt met wat crème fraîche en mosterd erdoor geroerd. Hierdoor krijg je een wat grovere laag, die heerlijk is bij de spitskool.Ook lekker met plakjes ontbijtspek op de schotel. Ze worden lekker knapperig in de oven. (zie foto) …"/><meta property="og:url" content="https://www.smulweb.nl/recepten/1406384/lekker-ovenschotel-spitskool-champignons-spekreepjes-en-prei"/><meta property="og:site_name" content="Smulweb"/>
+
+ <script type="application/ld+json" data-testid="breadcrumbs-structured-data">
+    {
+        "@context": "https:\/\/schema.org\/",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                        {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "name": "Home",
+                    "@id": "https://www.smulweb.nl"
+                }
+            },                        {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "name": "Recepten",
+                    "@id": "https://www.smulweb.nl/recepten"
+                }
+            },                        {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "name": "Ovenschotel",
+                    "@id": "https://www.smulweb.nl/ovenschotel"
+                }
+            },                        {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "name": "Prei Ovenschotel",
+                    "@id": "https://www.smulweb.nl/recepten/prei+ovenschotel"
+                }
+            },                        {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "name": "Lekker! Ovenschotel Spitskool Champignons Spekreepjes En Prei",
+                    "@id": "https://www.smulweb.nl/recepten/1406384/lekker-ovenschotel-spitskool-champignons-spekreepjes-en-prei"
+                }
+            }                    ]
+    }
+</script>
+                                        <!--suppress ALL -->
+<script type="application/ld+json" data-testid="recipe-structured-data">
+     {
+    "@context": "https:\/\/schema.org\/",
+    "@type": "Recipe",
+    "keywords": "Recept, Lekker! Ovenschotel spitskool champignons spekreepjes en prei, Ovenschotel, Nederlands, Hartig",
+    "author": {
+        "@type": "Person",
+        "name": "pwiggers"
+    },
+    "name": "Lekker! Ovenschotel spitskool champignons spekreepjes en prei",
+    "recipeCategory": "Ovenschotel",
+    "recipeCuisine": "Nederlands",
+    "cookTime": "PT30M",
+    "totalTime": "PT30M",
+    "recipeInstructions": "Verwarm de oven voor op 200 graden.Verhit de olie in de wok.Bak hierin de spekreepjes knapperig. Voeg de plakjes champignons toe en bak deze mee tot al het vocht is verdwenen. Voeg de prei toe en bak deze plm. 2 minuten mee. Doe dan de spitskool erbij en roerbak alles nog plm. 5 - 10 minuten, afhankelijk van de dikte van de spitskool. (De spitskool moet nog knapperig blijven!)Maak de spitskool op smaak met peper, zout, nootmuskaat en wat cayennepeper. Roer 2 eetlepels cr\u00e8me fra\u00eeche en 1 eetlepel mosterd door de kool.Doe de kool in een vuurvaste ovenschool.Laat de gare aardappels goed droog stomen.Stamp de aardappels met een stamper grof en roer de rest van de cr\u00e8me fra\u00eeche en 1 eetlepel mosterd door de aardappelen.Strijk de aardappelen uit over de spitkool en bestrooi met wat geraspte kaas.Zet de schaal in de voorverwarmde oven tot de kaas een goudbruine kleur heeft gekregen.Als de ingredi\u00ebnten nog warm zijn kun je de schaal ook even onder de grill zetten tot de kaas goudbruin is.",
+    "description": "Lekker pittige ovenschotel. Door het gebruik van de mosterd en cr\u00e8me fra\u00eeche krijgt de kool een lekkere romige smaak. Geen aardappelpuree bovenop, maar aardappelen gestampt met wat cr\u00e8me fra\u00eeche en mosterd erdoor geroerd. Hierdoor krijg je een wat grovere laag, die heerlijk is bij de spitskool.Ook lekker met plakjes ontbijtspek op de schotel. Ze worden lekker knapperig in de oven. (zie foto)",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3,
+        "ratingCount": 14,
+        "bestRating": 5,
+        "worstRating": 1
+    },
+    "recipeYield": 4,
+    "recipeIngredient": [
+        "Plm. 750 gram spitskool",
+        "1 prei",
+        "250 gram champignons",
+        "150 gram mager gerookte spekreepjes of baconreepjes",
+        "1 eetlepel neutrale olie",
+        "peper, zout",
+        "1\/2 theelepel gemalen nootmuskaat",
+        "cayennepeper naar smaak",
+        "1 + 1 eetlepel mosterd",
+        "200 ml cr\u00e8me fra\u00eeche",
+        "750 gram kruimige aardappelen",
+        "50 geraspte belegen kaas"
+    ],
+    "image": [
+        "https:\/\/d1mlbwr23caxox.cloudfront.net\/public\/sites\/default\/files\/styles\/recipe_teaser\/public\/recipe-images\/IMG_1442.JPG_16.jpg?VersionId=HiJx912VlnCnUKiAYHKDqDsZLjsSy9zI",
+        "https:\/\/d1mlbwr23caxox.cloudfront.net\/public\/sites\/default\/files\/styles\/recipe_teaser\/public\/recipe-images\/spitskoolovenschotel.JPG_16.jpg?VersionId=aSnOLPoUEvCm72M9s_fxuHuBTCDF1Bdv",
+        "https:\/\/d1mlbwr23caxox.cloudfront.net\/public\/sites\/default\/files\/styles\/recipe_teaser\/public\/recipe-images\/spitskoolovenschotel1.JPG_16.jpg?VersionId=oFJfJbYBDI.f8HWvdHvo_d5.8hwWDotW",
+        "https:\/\/d1mlbwr23caxox.cloudfront.net\/public\/sites\/default\/files\/styles\/recipe_teaser\/public\/recipe-images\/spitskoolovenschotel2.JPG_16.jpg?VersionId=EYKZ6Arwa_sfMX45NKs_CP6clYTIBQm6",
+        "https:\/\/d1mlbwr23caxox.cloudfront.net\/public\/sites\/default\/files\/styles\/recipe_teaser\/public\/recipe-images\/spitskoolovenschotel4.JPG_16.jpg?VersionId=UVnMHy0FRIyu4TAyeA7xAlNz6gi1D3Hq",
+        "https:\/\/d1mlbwr23caxox.cloudfront.net\/public\/sites\/default\/files\/styles\/recipe_teaser\/public\/recipe-images\/ovenschotel_spitskool_etc.JPG_16.jpg?VersionId=WdZCn7b_7AVnVoJ1Wvln5lY8_M.LchP3",
+        "https:\/\/d1mlbwr23caxox.cloudfront.net\/public\/sites\/default\/files\/styles\/recipe_teaser\/public\/recipe-images\/spitskoolschotel.JPG_16.jpg?VersionId=lLPNHtmsrkGUWl.EvFrsWTRVEt74MJb.",
+        "https:\/\/d1mlbwr23caxox.cloudfront.net\/public\/sites\/default\/files\/styles\/recipe_teaser\/public\/recipe-images\/spitskoolvenschotel5.JPG_16.jpg?VersionId=xIkkStCnpMt6cOWM8J8h8iX.flIgV2Qs"
+    ],
+    "video": {
+        "@type": "VideoObject",
+        "name": "#043 Ovenschotel spitskool met champignons",
+        "description": "Het recept vind je hier: https:\/\/www.smulweb.nl\/recepten\/1406384\/Lekker-ovenschotel-spitskool-champignons-spekreepjes-en-prei",
+        "contentUrl": "https:\/\/youtu.be\/-nb_LpuL_ew",
+        "thumbnailUrl": "https:\/\/i.ytimg.com\/vi\/-nb_LpuL_ew\/hqdefault.jpg",
+        "uploadDate": "2018-05-29T00:00:00+02:00"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "611.87 kcal",
+        "carbohydrateContent": "46.88 g",
+        "proteinContent": "23.11 g",
+        "fatContent": "34.43 g"
+    },
+    "comment": [
+        {
+            "@type": "Comment",
+            "text": "Vanavond gemaakt met 3 preien en wat minder spitskool plus vetspekblokjes. Het was heerlijk met alle kruiden etc. die erin gingen. Dank!",
+            "datePublished": "09-06-2022",
+            "author": {
+                "@type": "Person",
+                "name": "effes54"
+            }
+        },
+        {
+            "@type": "Comment",
+            "text": "Superleuk om te horen kokkie2011. Dank je wel voor je hele leuke uitgebreide reactie. Leuk dat je het gerecht hebt gemaakt en er zelf wat  hebt aangepast. Daar is dit gerecht ook geschikt voor. Fijne avond nog en hartelijke groet, Petra Wiggers",
+            "datePublished": "01-08-2021",
+            "author": {
+                "@type": "Person",
+                "name": "pwiggers"
+            }
+        },
+        {
+            "@type": "Comment",
+            "text": "Goeden avond pwiggers.\nIk heb uw gerecht gemaakt, maar heb maar een halve prei gebruikt deze was wel heel erg groot.\nEn in plaats van 150 gr kaas heb ik 300 gr gebruikt.\nEn in het vervolg doe ik er geen 150 maar 300 gr spekjes in, anders houdt ik steeds een halve zak spekjes over, maar dat is heel persoonlijk natuurlijk.\nVerder is dit gerecht ove(r)(n)heerlijk, alle ingredi\u00c3\u00abnten proef je in dit gerecht, groot applaus voor dit gerecht, mijn stiefdochter wil het binnenkort van mij proeven en dan zelf ook gaan maken. Een fijne avond gewenst, vr. gr. Kokkie2011.",
+            "datePublished": "01-08-2021",
+            "author": {
+                "@type": "Person",
+                "name": "kokkie2011"
+            }
+        },
+        {
+            "@type": "Comment",
+            "text": "Bedankt joekje123123, leuk om te horen dat de ovenschotel bij je in de smaak is gevallen. Groetjes, Petra",
+            "datePublished": "10-02-2021",
+            "author": {
+                "@type": "Person",
+                "name": "pwiggers"
+            }
+        },
+        {
+            "@type": "Comment",
+            "text": "Vandaag klaargemaakt. Was erg lekker. Had niet genoeg aardappels dus wat zoete aardappel erbij gedaan. Geeft een wat zoetste smaak. Lekker.  Over een tijdje nog eens origineel proberen. Dank je wel.",
+            "datePublished": "09-02-2021",
+            "author": {
+                "@type": "Person",
+                "name": "joekje123123"
+            }
+        },
+        {
+            "@type": "Comment",
+            "text": "Leuk om te horen Nelly. Blij te horen dat de ovenschotel in de smaak is gevallen. Dank je wel voor jet reactie.",
+            "datePublished": "15-11-2020",
+            "author": {
+                "@type": "Person",
+                "name": "pwiggers"
+            }
+        },
+        {
+            "@type": "Comment",
+            "text": "Helemaal lekker! Ook met nog 2 overgebleven wortelen er bij in \u00f0\u0178\u02dc\u0160. Dank je wel!",
+            "datePublished": "14-11-2020",
+            "author": {
+                "@type": "Person",
+                "name": "Nelly5744"
+            }
+        },
+        {
+            "@type": "Comment",
+            "text": "Dank je wel voor je reactie Bernardine. Leuk om te horen dat mijn spitskoolschotel je zoveel inspiratie heeft \ngegeven. Fijn weekend en groet, Petra",
+            "datePublished": "24-10-2020",
+            "author": {
+                "@type": "Person",
+                "name": "pwiggers"
+            }
+        },
+        {
+            "@type": "Comment",
+            "text": "Ik kreeg bericht van Smulweb dat je een foto bij dit recept had geplaatst vandaar Ria. Voor mij dus nu ook ????",
+            "datePublished": "25-07-2020",
+            "author": {
+                "@type": "Person",
+                "name": "pwiggers"
+            }
+        },
+        {
+            "@type": "Comment",
+            "text": "Hoi Petra, Ik weet niet wat er misgegaan is maar de foto waar je op doelt is daar op een voor mij raadselachtige manier gekomen. Hoe zou ik die daar weg kunnen halen?\nOverigens heb ik de ovenschotel gisteren gegeten toen de kinderen thuis waren, ze vonden het ook heel lekker!",
+            "datePublished": "25-07-2020",
+            "author": {
+                "@type": "Person",
+                "name": "bralinjo"
+            }
+        }
+    ]
+} </script>
+<script wire:id="m3GNzioCY45BRjgugie8" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;m3GNzioCY45BRjgugie8&quot;,&quot;name&quot;:&quot;ads.units.base&quot;,&quot;locale&quot;:&quot;nl&quot;,&quot;path&quot;:&quot;recepten\/1406384\/lekker-ovenschotel-spitskool-champignons-spekreepjes-en-prei&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;02f2934d&quot;,&quot;data&quot;:{&quot;keyword&quot;:&quot;Lekker! Ovenschotel spitskool champignons spekreepjes en prei&quot;,&quot;cookTime&quot;:&quot;3&quot;,&quot;recipeCuisine&quot;:&quot;I&quot;,&quot;recipeIngredients&quot;:&quot;Plm. 750 gram spitskool, 1 prei, 250 gram champignons, 150 gram mager gerookte spekreepjes of baconreepjes, 1 eetlepel neutrale olie, peper, zout, 1\/2 theelepel gemalen nootmuskaat, cayennepeper naar smaak, 1 + 1 eetlepel mosterd, 200 ml cr\u00e8me fra\u00eeche, 750 gram kruimige aardappelen, 50 geraspte belegen kaas&quot;,&quot;recipeSize&quot;:&quot;4.00&quot;,&quot;content&quot;:&quot;Lekker pittige ovenschotel. Door het gebruik van de mosterd en cr\u00e8me fra\u00eeche krijgt de kool een lekkere romige smaak. Geen aardappelpuree bovenop, maar aardappelen gestampt met wat cr\u00e8me fra\u00eeche en mosterd erdoor geroerd. Hierdoor krijg je een wat grovere laag, die heerlijk is bij de spitskool.Ook lekker met plakjes ontbijtspek op de schotel. Ze worden lekker knapperig in de oven. (zie foto)&quot;,&quot;searchTerm&quot;:&quot;&quot;},&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;eb12b3ed24196b25f465104b7f460f892810f5c0f8c75b2cbd79df02e22dabf7&quot;}}">
+    window.googletag = window.googletag || {cmd: []};
+    googletag.cmd.push(function() {
+
+        if(OnetrustActiveGroups.includes(trackingAndProfiling)) {
+                        googletag.pubads().setTargeting('gang_keyword', 'Lekker! Ovenschotel spitskool champignons spekreepjes en prei');
+                                    googletag.pubads().setTargeting('bereidingstijd', '3');
+                                    googletag.pubads().setTargeting('keuken', 'I');
+                                    googletag.pubads().setTargeting('ingredienten', 'Plm. 750 gram spitskool, 1 prei, 250 gram champignons, 150 gram mager gerookte spekreepjes of baconreepjes, 1 eetlepel neutrale olie, peper, zout, 1/2 theelepel gemalen nootmuskaat, cayennepeper naar smaak, 1 + 1 eetlepel mosterd, 200 ml crème fraîche, 750 gram kruimige aardappelen, 50 geraspte belegen kaas');
+                                    googletag.pubads().setTargeting('receptgrootte', '4.00');
+                                    googletag.pubads().setTargeting('content', 'Lekker pittige ovenschotel. Door het gebruik van de mosterd en crème fraîche krijgt de kool een lekkere romige smaak. Geen aardappelpuree bovenop, maar aardappelen gestampt met wat crème fraîche en mosterd erdoor geroerd. Hierdoor krijg je een wat grovere laag, die heerlijk is bij de spitskool.Ook lekker met plakjes ontbijtspek op de schotel. Ze worden lekker knapperig in de oven. (zie foto)');
+                                }
+            googletag.pubads().enableSingleRequest();
+            googletag.pubads().collapseEmptyDivs();
+
+        if(OnetrustActiveGroups.includes(functionalCookies)) {
+            googletag.enableServices();
+        }
+    });
+</script>
+
+<!-- Livewire Component wire-end:m3GNzioCY45BRjgugie8 -->
+
+    <script async src="https://www.smulweb.nl/new-assets/tags/recepten.js?v=39114" defer></script>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script><script>
+		       function biscolabLaravelReCaptcha(token) {
+		         document.getElementById("biscolab-recaptcha-invisible-form").submit();
+		       }
+		     </script>
+
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://www.smulweb.nl/new-assets/css/app.css?v=39114">
+    <style >[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid], [wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {display:none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {animation-duration: 50000s;animation-name: livewireautofill;}@keyframes livewireautofill { from {} }</style>
+
+    <link rel="preconnect" href="https://www.gstatic.com"/>
+    <link rel="preconnect" href="https://static.xx.fbcdn.net"/>
+    </head>
+    <body>
+        <img src="https://www.smulweb.nl/new-assets/svg/svg-sprite.svg?v=39114" id="svg-sprite" alt="" class="d-none">
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+              SVGInject(document.getElementById("svg-sprite"), {
+                  makeIdsUnique: false,
+              });
+          });
+
+          /*
+            Make sure to use var here for max compat, this isn't transpiled.
+           */
+          var csrf_token = ""; // Set in app.js
+
+          var config = {
+              jumbo_buy_button_url: "https://jumbo.com/lijstjes/smulweb",
+              drupal_backend_url: "https://backend.smulweb.nl",
+              jumbo_api_url: "https://www.jumbo.com/api/smulweb"
+          }
+        </script>
+        <header>
+            <div id="ad-wrapper" class="hide-on-print">
+
+            <div id='web_mid'>
+            <script>
+                googletag.cmd.push(function() { googletag.display('web_mid'); });
+            </script>
+        </div>
+        <div id='oop'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('oop'); });
+        </script>
+    </div>
+</div>
+<div class="top-bar navbar navbar-expand-lg" id="top-bar">
+    <div class="container">
+        <div class="top-bar__inner">
+            <a href="https://www.smulweb.nl" class="logo">
+                <img src="https://www.smulweb.nl/new-assets/svg/sw-logo.svg?v=39114" class="top-bar__logo" alt="Smulweb">
+            </a>
+            <ul class="navbar-nav navbar-nav--main navbar-nav--top-bar">
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkA" data-toggle="dropdown"
+           aria-haspopup="true" aria-expanded="false">
+            Recepten
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkA">
+            <div class="row">
+                <div class="col-md-7">
+                    <ul class="dropdown-recipes list-unstyled">
+            <li class="recipe-teaser__item">
+    <a href="/recepten/1354876/gehakttajine-met-tomaatpaprika" class="recipe-teaser__link">
+        <div class="recipe-teaser__image-wrapper">
+            <img class="recipe-teaser__image media-cover" src="https://images.smulweb.nl/thumbnails/1602420554_4751.jpg"
+                 alt=""/>
+        </div>
+        <div class="recipe-teaser__body">
+            <h5 class="recipe-teaser__title">Gehakttajine met tomaat/paprika</h5>
+            <span class="recipe-teaser__preparation-time">30-60 minuten</span>
+        </div>
+    </a>
+</li>
+            <li class="recipe-teaser__item">
+    <a href="/recepten/1153980/de-enige-echte-spaghetti-bolognese-ragu-bolognese" class="recipe-teaser__link">
+        <div class="recipe-teaser__image-wrapper">
+            <img class="recipe-teaser__image media-cover" src="https://images.smulweb.nl/thumbnails/1601462285_3629.jpg"
+                 alt=""/>
+        </div>
+        <div class="recipe-teaser__body">
+            <h5 class="recipe-teaser__title">De enige echte spaghetti bolognese (Ragu bolognese)</h5>
+            <span class="recipe-teaser__preparation-time">&gt;120 minuten</span>
+        </div>
+    </a>
+</li>
+            <li class="recipe-teaser__item">
+    <a href="/recepten/1475597/kip-alfredo-pasta" class="recipe-teaser__link">
+        <div class="recipe-teaser__image-wrapper">
+            <img class="recipe-teaser__image media-cover" src="https://images.smulweb.nl/thumbnails/1601461958_5749.jpg"
+                 alt=""/>
+        </div>
+        <div class="recipe-teaser__body">
+            <h5 class="recipe-teaser__title">Kip alfredo pasta</h5>
+            <span class="recipe-teaser__preparation-time">20-30 minuten</span>
+        </div>
+    </a>
+</li>
+            <li class="recipe-teaser__item">
+    <a href="/recepten/1153543/franse-uiensoep-die-super-simpel-is" class="recipe-teaser__link">
+        <div class="recipe-teaser__image-wrapper">
+            <img class="recipe-teaser__image media-cover" src="https://images.smulweb.nl/thumbnails/1601461517_4245.jpg"
+                 alt=""/>
+        </div>
+        <div class="recipe-teaser__body">
+            <h5 class="recipe-teaser__title">Franse uiensoep die super simpel is</h5>
+            <span class="recipe-teaser__preparation-time">30-60 minuten</span>
+        </div>
+    </a>
+</li>
+    </ul>                </div>
+                <div class="col-md-5">
+                    <ul class="dropdown-nav list-unstyled">
+            <li class="dropdown-nav__item">
+            <a href="/recepten" class="dropdown-nav__link">
+                Populairste recepten
+                <svg class="glyph glyph--chevron-right dropdown-nav__link-icon" role="img">
+                    <use xlink:href="#glyph-chevron-right"></use>
+                </svg>
+            </a>
+        </li>
+            <li class="dropdown-nav__item">
+            <a href="/recepten/nieuw" class="dropdown-nav__link">
+                Nieuwe recepten
+                <svg class="glyph glyph--chevron-right dropdown-nav__link-icon" role="img">
+                    <use xlink:href="#glyph-chevron-right"></use>
+                </svg>
+            </a>
+        </li>
+            <li class="dropdown-nav__item">
+            <a href="/recepten/gangen" class="dropdown-nav__link">
+                Gangen
+                <svg class="glyph glyph--chevron-right dropdown-nav__link-icon" role="img">
+                    <use xlink:href="#glyph-chevron-right"></use>
+                </svg>
+            </a>
+        </li>
+            <li class="dropdown-nav__item">
+            <a href="/recepten/keuken" class="dropdown-nav__link">
+                Wereldkeukens
+                <svg class="glyph glyph--chevron-right dropdown-nav__link-icon" role="img">
+                    <use xlink:href="#glyph-chevron-right"></use>
+                </svg>
+            </a>
+        </li>
+            <li class="dropdown-nav__item">
+            <a href="/recepten/halloween" class="dropdown-nav__link">
+                Halloween
+                <svg class="glyph glyph--chevron-right dropdown-nav__link-icon" role="img">
+                    <use xlink:href="#glyph-chevron-right"></use>
+                </svg>
+            </a>
+        </li>
+    </ul>                </div>
+            </div>
+
+        </div>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="https://smulweb.tv/">TV</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkB" data-toggle="dropdown"
+           aria-haspopup="true" aria-expanded="false">
+            Gelegenheden
+        </a>
+        <div class="dropdown-menu without-dropdown-card" aria-labelledby="navbarDropdownMenuLinkB">
+            <div class="mb-2">
+                <ul class="dropdown-nav list-unstyled">
+            <li class="dropdown-nav__item">
+            <a href="/recepten/gelegenheid" class="dropdown-nav__link">
+                Alle gelegenheden
+                <svg class="glyph glyph--chevron-right dropdown-nav__link-icon" role="img">
+                    <use xlink:href="#glyph-chevron-right"></use>
+                </svg>
+            </a>
+        </li>
+            <li class="dropdown-nav__item">
+            <a href="/recepten/kinderfeestje" class="dropdown-nav__link">
+                Kinderfeestjes
+                <svg class="glyph glyph--chevron-right dropdown-nav__link-icon" role="img">
+                    <use xlink:href="#glyph-chevron-right"></use>
+                </svg>
+            </a>
+        </li>
+            <li class="dropdown-nav__item">
+            <a href="/recepten/buffetten" class="dropdown-nav__link">
+                Buffetten en feesten
+                <svg class="glyph glyph--chevron-right dropdown-nav__link-icon" role="img">
+                    <use xlink:href="#glyph-chevron-right"></use>
+                </svg>
+            </a>
+        </li>
+    </ul>            </div>
+        </div>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="https://www.smulweb.nl/blog">Blog</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkC" data-toggle="dropdown"
+           aria-haspopup="true" aria-expanded="false">
+            Herfst
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkC">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="dropdown-nav list-unstyled">
+            <li class="dropdown-nav__item">
+            <a href="/herfst" class="dropdown-nav__link">
+                Herfst
+                <svg class="glyph glyph--chevron-right dropdown-nav__link-icon" role="img">
+                    <use xlink:href="#glyph-chevron-right"></use>
+                </svg>
+            </a>
+        </li>
+            <li class="dropdown-nav__item">
+            <a href="/herfst#soepen" class="dropdown-nav__link">
+                Soepen
+                <svg class="glyph glyph--chevron-right dropdown-nav__link-icon" role="img">
+                    <use xlink:href="#glyph-chevron-right"></use>
+                </svg>
+            </a>
+        </li>
+            <li class="dropdown-nav__item">
+            <a href="/herfst#stamppotten" class="dropdown-nav__link">
+                Stamppotten
+                <svg class="glyph glyph--chevron-right dropdown-nav__link-icon" role="img">
+                    <use xlink:href="#glyph-chevron-right"></use>
+                </svg>
+            </a>
+        </li>
+            <li class="dropdown-nav__item">
+            <a href="/herfst#ovenschotels" class="dropdown-nav__link">
+                Ovenschotels
+                <svg class="glyph glyph--chevron-right dropdown-nav__link-icon" role="img">
+                    <use xlink:href="#glyph-chevron-right"></use>
+                </svg>
+            </a>
+        </li>
+            <li class="dropdown-nav__item">
+            <a href="/herfst#bakken" class="dropdown-nav__link">
+                Bakken
+                <svg class="glyph glyph--chevron-right dropdown-nav__link-icon" role="img">
+                    <use xlink:href="#glyph-chevron-right"></use>
+                </svg>
+            </a>
+        </li>
+            <li class="dropdown-nav__item">
+            <a href="/herfst#eenpans" class="dropdown-nav__link">
+                Eenpans
+                <svg class="glyph glyph--chevron-right dropdown-nav__link-icon" role="img">
+                    <use xlink:href="#glyph-chevron-right"></use>
+                </svg>
+            </a>
+        </li>
+            <li class="dropdown-nav__item">
+            <a href="/herfst#braden" class="dropdown-nav__link">
+                Braden
+                <svg class="glyph glyph--chevron-right dropdown-nav__link-icon" role="img">
+                    <use xlink:href="#glyph-chevron-right"></use>
+                </svg>
+            </a>
+        </li>
+            <li class="dropdown-nav__item">
+            <a href="/herfst#stoofvlees" class="dropdown-nav__link">
+                Stoofvlees
+                <svg class="glyph glyph--chevron-right dropdown-nav__link-icon" role="img">
+                    <use xlink:href="#glyph-chevron-right"></use>
+                </svg>
+            </a>
+        </li>
+    </ul>                </div>
+                <div class="col-md-6">
+                    <div class="dropdown-card">
+            <img class="dropdown-card__image" src="https://images.smulweb.nl/mediabeheer/nav_winnen/win_bonduelle_navi_flight3.jpg?v=1236" alt="Alles voor de herfst">
+                <h4 class="dropdown-card__title">De lekkerste gerechten uit het najaar</h4>
+                <div class="dropdown-card__text">
+            De herfst is het lekkerste seizoen van het jaar met veel gevarieerde recepten. In het najaar blijven we binnen en duiken we de keuken in om te gaan bakken, braden, stoven, pureren en koken.
+        </div>
+                <a href="/herfst" class="dropdown-card__link">
+            Meer herfst inspiratie
+                <svg class="glyph glyph--chevron-right dropdown-card__link-icon" role="img">
+                        <use xlink:href="#glyph-chevron-right"></use>
+                </svg>
+        </a>
+    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
+            <div class="top-bar__input-wrapper">
+                <form class="search-form" action="https://www.smulweb.nl/recepten" onsubmit="searchFormOnSubmit(event)" id="searchForm">
+    <input class="form-control search-input" type="text" name="q" placeholder="Zoek recept" />
+    <button type="submit" class="search-submit" aria-label="Zoek recept">
+        <svg class="glyph glyph--magnifier search-icon" role="img">
+            <use xlink:href="#glyph-magnifier"></use>
+        </svg>
+    </button>
+</form>
+            </div>
+                            <ul class="navbar-nav navbar-nav--user navbar-nav--top-bar">
+            <li class="nav-item">
+    <a href="https://www.smulweb.nl/site/login"     class=" nav-link">
+        Inloggen
+    </a>
+</li>
+            <li class="nav-item">
+    <a href="https://www.smulweb.nl/community/registreren"     class=" nav-link">
+        Registreren
+    </a>
+</li>
+    </ul>                        <button class="mobile-navigation-toggle" aria-label="Navigatie openen">
+                <input type="checkbox">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</div>
+<div class="top-bar__push-bar"></div>
+<script>
+    const form = document.getElementById("searchForm");
+    const topBar = document.getElementById("top-bar");
+    const adWrapper = document.getElementById("ad-wrapper");
+
+    form.addEventListener("submit", submitSearch);
+    window.addEventListener("scroll", onScroll);
+
+    function submitSearch (event) {
+        event.preventDefault();
+        const submitBaseUrl = baseUrl + '/recepten/';
+        const query = document.getElementById("searchQuery").value;
+        window.location.assign(submitBaseUrl + query.split(' ').join('+'));
+    }
+
+    function onScroll () {
+        if (window.pageYOffset >= adWrapper.clientHeight) {
+            topBar.classList.add("top-bar--is-fixed")
+        } else {
+            topBar.classList.remove("top-bar--is-fixed");
+        }
+    }
+</script>
+        </header>
+        <main class="main main--recipe">
+                <div class="recipe">
+        <div class="container">
+            <nav aria-label="breadcrumb" class="hide-on-print">
+    <ul class="breadcrumb list-unstyled nav p-0">
+                                    <li class="breadcrumb-item">
+                    <a href="https://www.smulweb.nl" class="breadcrumb-link">Home</a>
+                </li>
+                                                <li class="breadcrumb-item">
+                    <a href="https://www.smulweb.nl/recepten" class="breadcrumb-link">Recepten</a>
+                </li>
+                                                <li class="breadcrumb-item">
+                    <a href="https://www.smulweb.nl/ovenschotel" class="breadcrumb-link">Ovenschotel</a>
+                </li>
+                                                <li class="breadcrumb-item breadcrumb-item--last-link">
+                    <a href="https://www.smulweb.nl/recepten/prei+ovenschotel" class="breadcrumb-link">Prei Ovenschotel</a>
+                </li>
+                                                <li class="breadcrumb-item active">Lekker! Ovenschotel Spitskool Champignons Spekreepjes En Prei</li>
+                        </ul>
+</nav>
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <div class="card">
+                        <h1 class="recipe__title" data-testid="recipe-title">Lekker! Ovenschotel spitskool champignons spekreepjes en prei</h1>
+                        <div class="row row--inline-block">
+                            <div class="col-md-4 float-left">
+                                <ul class="list-unstyled recipe-info__list">
+    <li class="recipe-info recipe-info--uppercase">Nederlands, Ovenschotel</li>
+            <li class="recipe-info recipe-info--uppercase">
+            <svg class="glyph glyph--clock recipe-info__glyph" role="img">
+                <use xlink:href="#glyph-clock"></use>
+            </svg>
+            20-30 min.
+        </li>
+        <li class="recipe-info recipe-info--uppercase">Geplaatst op
+        <span class="d-block d-md-inline">10-10-2012</span>
+    </li>
+</ul>
+                            </div>
+                            <div class="col-md-8 float-right">
+                                <div class="slider slider--recipe splide js-recipe-slider"
+     data-component="recipe-slider"
+     data-image-count="9"
+>
+    <div class="splide__track">
+        <ul class="splide__list slider__list">
+                        <li class="slider__item splide__slide">
+                <div class="embed-video-root" data-testid="video-element">
+    <iframe width="200" height="113" src="https://www.youtube.com/embed/-nb_LpuL_ew?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="#043 Ovenschotel spitskool met champignons"></iframe>
+</div>
+            </li>
+                                        <li class="slider__item splide__slide">
+    <img data-splide-lazy="https://d1mlbwr23caxox.cloudfront.net/public/sites/default/files/styles/large/public/styles/recipe_teaser/public/recipe-images/IMG_1442.JPG_16.jpg?VersionId=r_Ft8svI805cr7fVH1ovjHq6Xlm17Kow&amp;itok=M8vuWts3" alt="Lekker! Ovenschotel spitskool champignons spekreepjes en prei" class="recipe__image" data-testid="recipe-image">
+    <div class="recipe__image-wrapper">
+                        <h4 class="recipe__image-title">
+                            Lekker! Ovenschotel spitskool champignons spekreepjes en prei
+                        </h4>
+                        <p class="recipe__image-name">
+                            Lekker! Ovenschotel spitskool champignons spekreepjes en prei
+                        </p>
+                    </div>
+</li>
+                            <li class="slider__item splide__slide">
+    <img data-splide-lazy="https://d1mlbwr23caxox.cloudfront.net/public/sites/default/files/styles/large/public/styles/recipe_teaser/public/recipe-images/spitskoolovenschotel.JPG_16.jpg?VersionId=.c1.6GY5MvpXrHngUcVmY9hut5jamCx5&amp;itok=lnmElrzt" alt="Lekker! Ovenschotel spitskool champignons spekreepjes en prei" class="recipe__image" data-testid="recipe-image">
+    <div class="recipe__image-wrapper">
+                        <h4 class="recipe__image-title">
+                            Lekker! Ovenschotel spitskool champignons spekreepjes en prei
+                        </h4>
+                        <p class="recipe__image-name">
+                            Lekker! Ovenschotel spitskool champignons spekreepjes en prei
+                        </p>
+                    </div>
+</li>
+                            <li class="slider__item splide__slide">
+    <img data-splide-lazy="https://d1mlbwr23caxox.cloudfront.net/public/sites/default/files/styles/large/public/styles/recipe_teaser/public/recipe-images/spitskoolovenschotel1.JPG_16.jpg?VersionId=DQaAp1ANUhke0M03YjmR3vyfKnoJZai2&amp;itok=vrnCkIV1" alt="Lekker! Ovenschotel spitskool champignons spekreepjes en prei" class="recipe__image" data-testid="recipe-image">
+    <div class="recipe__image-wrapper">
+                        <h4 class="recipe__image-title">
+                            Lekker! Ovenschotel spitskool champignons spekreepjes en prei
+                        </h4>
+                        <p class="recipe__image-name">
+                            Lekker! Ovenschotel spitskool champignons spekreepjes en prei
+                        </p>
+                    </div>
+</li>
+                            <li class="slider__item splide__slide">
+    <img data-splide-lazy="https://d1mlbwr23caxox.cloudfront.net/public/sites/default/files/styles/large/public/styles/recipe_teaser/public/recipe-images/spitskoolovenschotel2.JPG_16.jpg?VersionId=Z0TA4PXIC3LugkWQfxyeHaNGiZhr9RBK&amp;itok=JUS-hjPb" alt="Lekker! Ovenschotel spitskool champignons spekreepjes en prei" class="recipe__image" data-testid="recipe-image">
+    <div class="recipe__image-wrapper">
+                        <h4 class="recipe__image-title">
+                            Lekker! Ovenschotel spitskool champignons spekreepjes en prei
+                        </h4>
+                        <p class="recipe__image-name">
+                            Lekker! Ovenschotel spitskool champignons spekreepjes en prei
+                        </p>
+                    </div>
+</li>
+                            <li class="slider__item splide__slide">
+    <img data-splide-lazy="https://d1mlbwr23caxox.cloudfront.net/public/sites/default/files/styles/large/public/styles/recipe_teaser/public/recipe-images/spitskoolovenschotel4.JPG_16.jpg?VersionId=Vd73CVYdMM4slxIBZEAR0gcitBR4DA2u&amp;itok=9-2YNgye" alt="Lekker! Ovenschotel spitskool champignons spekreepjes en prei" class="recipe__image" data-testid="recipe-image">
+    <div class="recipe__image-wrapper">
+                        <h4 class="recipe__image-title">
+                            Lekker! Ovenschotel spitskool champignons spekreepjes en prei
+                        </h4>
+                        <p class="recipe__image-name">
+                            Lekker! Ovenschotel spitskool champignons spekreepjes en prei
+                        </p>
+                    </div>
+</li>
+                            <li class="slider__item splide__slide">
+    <img data-splide-lazy="https://d1mlbwr23caxox.cloudfront.net/public/sites/default/files/styles/large/public/styles/recipe_teaser/public/recipe-images/ovenschotel_spitskool_etc.JPG_16.jpg?VersionId=mAyAB3fUVAzr0QXrtqTV1b0ramWtGHG2&amp;itok=8h5FNTIH" alt="Lekker! Ovenschotel spitskool champignons spekreepjes en prei" class="recipe__image" data-testid="recipe-image">
+    <div class="recipe__image-wrapper">
+                        <h4 class="recipe__image-title">
+                            Lekker! Ovenschotel spitskool champignons spekreepjes en prei
+                        </h4>
+                        <p class="recipe__image-name">
+                            Lekker! Ovenschotel spitskool champignons spekreepjes en prei
+                        </p>
+                    </div>
+</li>
+                            <li class="slider__item splide__slide">
+    <img data-splide-lazy="https://d1mlbwr23caxox.cloudfront.net/public/sites/default/files/styles/large/public/styles/recipe_teaser/public/recipe-images/spitskoolschotel.JPG_16.jpg?VersionId=tGNUbKqhnUHCnv.taL1ACBCqHj9tBzRo&amp;itok=6NQPFQra" alt="Lekker! Ovenschotel spitskool champignons spekreepjes en prei" class="recipe__image" data-testid="recipe-image">
+    <div class="recipe__image-wrapper">
+                        <h4 class="recipe__image-title">
+                            Lekker! Ovenschotel spitskool champignons spekreepjes en prei
+                        </h4>
+                        <p class="recipe__image-name">
+                            Lekker! Ovenschotel spitskool champignons spekreepjes en prei
+                        </p>
+                    </div>
+</li>
+                            <li class="slider__item splide__slide">
+    <img data-splide-lazy="https://d1mlbwr23caxox.cloudfront.net/public/sites/default/files/styles/large/public/styles/recipe_teaser/public/recipe-images/spitskoolvenschotel5.JPG_16.jpg?VersionId=3e7lYBAdWgmd1VZe_JT2lst1fIaHzX7x&amp;itok=RZRW8CUo" alt="Lekker! Ovenschotel spitskool champignons spekreepjes en prei" class="recipe__image" data-testid="recipe-image">
+    <div class="recipe__image-wrapper">
+                        <h4 class="recipe__image-title">
+                            Lekker! Ovenschotel spitskool champignons spekreepjes en prei
+                        </h4>
+                        <p class="recipe__image-name">
+                            Lekker! Ovenschotel spitskool champignons spekreepjes en prei
+                        </p>
+                    </div>
+</li>
+                    </ul>
+    </div>
+</div>
+                                <div class="meta-data">
+    <div wire:id="DJn1L3IUaRqm55n0eIs0" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;DJn1L3IUaRqm55n0eIs0&quot;,&quot;name&quot;:&quot;recipe-view-count&quot;,&quot;locale&quot;:&quot;nl&quot;,&quot;path&quot;:&quot;recepten\/1406384\/lekker-ovenschotel-spitskool-champignons-spekreepjes-en-prei&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;917486e8&quot;,&quot;data&quot;:{&quot;viewCount&quot;:null,&quot;recipeId&quot;:1406384,&quot;defaultViewCount&quot;:375361},&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;98fe2d56adeb8055896c13ed6048e5ff5bcec2917be148a351c36b77b248f57d&quot;}}"
+    class="meta-data__item  "
+    x-data="components.viewCounter()" x-init="init($wire, 1406384)"
+         wire:key="viewCounter" >
+            <span class="meta-data__amount" data-testid=viewed-counter><span>-</span></span>
+        Bekeken
+
+
+    </div>
+
+
+<!-- Livewire Component wire-end:DJn1L3IUaRqm55n0eIs0 -->    <div wire:id="q9c9n2Y3tcI05sUzDbDL" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;q9c9n2Y3tcI05sUzDbDL&quot;,&quot;name&quot;:&quot;save-recipe-meta-button&quot;,&quot;locale&quot;:&quot;nl&quot;,&quot;path&quot;:&quot;recepten\/1406384\/lekker-ovenschotel-spitskool-champignons-spekreepjes-en-prei&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;dccbd3ee&quot;,&quot;data&quot;:{&quot;recipeId&quot;:1406384,&quot;bookmarkCount&quot;:2464,&quot;userHasSavedRecipe&quot;:false},&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;dcde4495b0c816785066507a1c2dfb856ea2b58c47c108437c1686a8c6d8832b&quot;}}"
+    class="meta-data__item  meta-data__item--clickable  "
+    x-on:submitted-cookbooks.window="$wire.updateBookmarkCount($event.detail.savedAmountChanged)" x-data=""
+        >
+            <span class="meta-data__amount" data-testid=bookmarked-counter><span data-testid="number">2.464</span></span>
+        Bewaard
+
+            <button class="meta-data__overlay" data-testid="meta-item-on-click"
+                wire:click="handleClick">
+            Bewaar
+        </button>
+
+    </div>
+
+
+<!-- Livewire Component wire-end:q9c9n2Y3tcI05sUzDbDL -->    <div
+    class="meta-data__item  "
+
+        >
+            <span class="meta-data__amount" data-testid=>0</span>
+        Kookgroepen
+
+
+    </div>
+
+    <div wire:id="0B0iOpDVPNcU9kx73Las" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;0B0iOpDVPNcU9kx73Las&quot;,&quot;name&quot;:&quot;cookbook-count&quot;,&quot;locale&quot;:&quot;nl&quot;,&quot;path&quot;:&quot;recepten\/1406384\/lekker-ovenschotel-spitskool-champignons-spekreepjes-en-prei&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;827be376&quot;,&quot;data&quot;:{&quot;cookbookCount&quot;:676,&quot;recipeId&quot;:1406384},&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;dd854c9e115351a16e249e0dcbc599f1731f3b9d5ff7dcb76ac90761af53fc79&quot;}}"
+    class="meta-data__item  meta-data__item--clickable  "
+    x-data="" x-on:submitted-cookbooks.window="$wire.refreshCookbookCount()"
+        >
+            <span class="meta-data__amount" data-testid=cookbook-count>676</span>
+        Kookboeken
+
+
+            <button x-data class="meta-data__overlay" data-testid="meta-item-on-click"
+                @click="window.location.replace(&#039;https://www.smulweb.nl/site/login&#039;)">
+            Bewaar
+        </button>
+    </div>
+
+
+<!-- Livewire Component wire-end:0B0iOpDVPNcU9kx73Las -->    <div
+    class="meta-data__item  "
+
+        >
+            <span class="meta-data__amount" data-testid=><div wire:id="SwCUQvtSPEjhW89gQKE6" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;SwCUQvtSPEjhW89gQKE6&quot;,&quot;name&quot;:&quot;rating-bar&quot;,&quot;locale&quot;:&quot;nl&quot;,&quot;path&quot;:&quot;recepten\/1406384\/lekker-ovenschotel-spitskool-champignons-spekreepjes-en-prei&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;882f0ae8&quot;,&quot;data&quot;:{&quot;recipeId&quot;:1406384,&quot;averageRating&quot;:6,&quot;averageRatingAmount&quot;:14,&quot;givenRating&quot;:0,&quot;disabled&quot;:true},&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;8b902d57346a4b68a7e280774452a6b3ccd1b0d7be90a8bd7d1ff284229825a1&quot;}}">
+    <div :class="{'rating-bar': true, 'locked': locked, 'no-rating': 6 === 0}"
+         x-data="components.ratingBar()" data-initialRating="6" x-init="init($wire)"
+         x-ref="ratingBar"  data-component="rating-bar" data-testid="rating-bar" x-cloak>
+                    <div :class="{'active': givenRating === 1}">
+                <label for="rating-1" data-testid="rating-1-label">
+                    <input
+                        name="rating"
+                        type="radio"
+                        :checked="givenRating === 1"
+                        value="1"
+                        id="rating-1"
+                        aria-label="0,5 sterren"
+                                            >
+                                            <i x-html="starHalfIcon" class="rating__icon rating__icon--star fa-solid fa-star-half" data-testid="half-star"></i>
+                                    </label>
+            </div>
+                    <div :class="{'active': givenRating === 2}">
+                <label for="rating-2" data-testid="rating-2-label">
+                    <input
+                        name="rating"
+                        type="radio"
+                        :checked="givenRating === 2"
+                        value="2"
+                        id="rating-2"
+                        aria-label="1 sterren"
+                                            >
+                                            <i x-html="starIcon" class="rating__icon rating__icon--star fa-solid fa-star" data-testid="star"></i>
+                                    </label>
+            </div>
+                    <div :class="{'active': givenRating === 3}">
+                <label for="rating-3" data-testid="rating-3-label">
+                    <input
+                        name="rating"
+                        type="radio"
+                        :checked="givenRating === 3"
+                        value="3"
+                        id="rating-3"
+                        aria-label="1,5 sterren"
+                                            >
+                                            <i x-html="starHalfIcon" class="rating__icon rating__icon--star fa-solid fa-star-half" data-testid="half-star"></i>
+                                    </label>
+            </div>
+                    <div :class="{'active': givenRating === 4}">
+                <label for="rating-4" data-testid="rating-4-label">
+                    <input
+                        name="rating"
+                        type="radio"
+                        :checked="givenRating === 4"
+                        value="4"
+                        id="rating-4"
+                        aria-label="2 sterren"
+                                            >
+                                            <i x-html="starIcon" class="rating__icon rating__icon--star fa-solid fa-star" data-testid="star"></i>
+                                    </label>
+            </div>
+                    <div :class="{'active': givenRating === 5}">
+                <label for="rating-5" data-testid="rating-5-label">
+                    <input
+                        name="rating"
+                        type="radio"
+                        :checked="givenRating === 5"
+                        value="5"
+                        id="rating-5"
+                        aria-label="2,5 sterren"
+                                            >
+                                            <i x-html="starHalfIcon" class="rating__icon rating__icon--star fa-solid fa-star-half" data-testid="half-star"></i>
+                                    </label>
+            </div>
+                    <div :class="{'active': givenRating === 6}">
+                <label for="rating-6" data-testid="rating-6-label">
+                    <input
+                        name="rating"
+                        type="radio"
+                        :checked="givenRating === 6"
+                        value="6"
+                        id="rating-6"
+                        aria-label="3 sterren"
+                                            >
+                                            <i x-html="starIcon" class="rating__icon rating__icon--star fa-solid fa-star" data-testid="star"></i>
+                                    </label>
+            </div>
+                    <div :class="{'active': givenRating === 7}">
+                <label for="rating-7" data-testid="rating-7-label">
+                    <input
+                        name="rating"
+                        type="radio"
+                        :checked="givenRating === 7"
+                        value="7"
+                        id="rating-7"
+                        aria-label="3,5 sterren"
+                                            >
+                                            <i x-html="starHalfIcon" class="rating__icon rating__icon--star fa-solid fa-star-half" data-testid="half-star"></i>
+                                    </label>
+            </div>
+                    <div :class="{'active': givenRating === 8}">
+                <label for="rating-8" data-testid="rating-8-label">
+                    <input
+                        name="rating"
+                        type="radio"
+                        :checked="givenRating === 8"
+                        value="8"
+                        id="rating-8"
+                        aria-label="4 sterren"
+                                            >
+                                            <i x-html="starIcon" class="rating__icon rating__icon--star fa-solid fa-star" data-testid="star"></i>
+                                    </label>
+            </div>
+                    <div :class="{'active': givenRating === 9}">
+                <label for="rating-9" data-testid="rating-9-label">
+                    <input
+                        name="rating"
+                        type="radio"
+                        :checked="givenRating === 9"
+                        value="9"
+                        id="rating-9"
+                        aria-label="4,5 sterren"
+                                            >
+                                            <i x-html="starHalfIcon" class="rating__icon rating__icon--star fa-solid fa-star-half" data-testid="half-star"></i>
+                                    </label>
+            </div>
+                    <div :class="{'active': givenRating === 10}">
+                <label for="rating-10" data-testid="rating-10-label">
+                    <input
+                        name="rating"
+                        type="radio"
+                        :checked="givenRating === 10"
+                        value="10"
+                        id="rating-10"
+                        aria-label="5 sterren"
+                                            >
+                                            <i x-html="starIcon" class="rating__icon rating__icon--star fa-solid fa-star" data-testid="star"></i>
+                                    </label>
+            </div>
+            </div>
+    <div class="rating-bar-given">
+        3 / 14
+    </div>
+</div>
+
+<!-- Livewire Component wire-end:SwCUQvtSPEjhW89gQKE6 --></span>
+        Beoordeel
+
+
+    </div>
+</div>
+                                <div id='wistjedatje' class="hide-on-print">
+                                    <script>
+                                        googletag.cmd.push(function() { googletag.display('wistjedatje'); });
+                                    </script>
+                                </div>
+                                <div wire:id="Kdz3ogIPgZrTPhM0VbC5" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;Kdz3ogIPgZrTPhM0VbC5&quot;,&quot;name&quot;:&quot;save-recipe-alert&quot;,&quot;locale&quot;:&quot;nl&quot;,&quot;path&quot;:&quot;recepten\/1406384\/lekker-ovenschotel-spitskool-champignons-spekreepjes-en-prei&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[&quot;recipeSavedToProfile&quot;,&quot;failedToSaveRecipeToProfile&quot;,&quot;recipeRemovedFromProfile&quot;,&quot;failedToRemoveRecipeFromProfile&quot;]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;49b3cb58&quot;,&quot;data&quot;:{&quot;message&quot;:null,&quot;type&quot;:null},&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;b4588e391cfe288a1e3e1748881a1f38ea09607d3560caf727fa9d36aa9cd7b5&quot;}}">
+    </div>
+
+<!-- Livewire Component wire-end:Kdz3ogIPgZrTPhM0VbC5 -->                                <div class="recipe-content" data-testid="recipe-description">
+        <p class="recipe-content__paragraph">
+            Lekker pittige <a href="http://www.kaas.nl">ovenschotel</a>. Door het gebruik van de mosterd en crème fraîche krijgt de kool een lekkere romige smaak. Geen aardappelpuree bovenop, maar aardappelen gestampt met wat crème fraîche en mosterd erdoor geroerd. Hierdoor krijg je een wat grovere laag, die heerlijk is bij de spitskool.<br /><strong><em>Ook lekker met plakjes ontbijtspek op de schotel. Ze worden lekker knapperig in de oven. (zie foto)</em></strong>
+        </p>
+    </div>
+                                <div class="recipe-social hide-on-print">
+    <h4 class="recipe-social__title">
+        Deel dit recept
+    </h4>
+    <div class="d-flex">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.smulweb.nl%2Frecepten%2F1406384%2Flekker-ovenschotel-spitskool-champignons-spekreepjes-en-prei" target="_blank" data-testid="facebook-share" class="btn recipe-social__button btn--facebook">
+                <svg class="glyph glyph--facebook recipe-social__glyph" role="img" aria-label="Deel recept op Facebook">
+                    <use xlink:href="#glyph-facebook"></use>
+                </svg>
+            </a>
+                    <a href="https://pinterest.com/pin/create/bookmarklet/?media=https%3A%2F%2Fd1mlbwr23caxox.cloudfront.net%2Fpublic%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Frecipe_teaser%2Fpublic%2Frecipe-images%2Fspitskoolvenschotel5.JPG_16.jpg%3FVersionId%3DxIkkStCnpMt6cOWM8J8h8iX.flIgV2Qs&amp;url=https%3A%2F%2Fwww.smulweb.nl%2Frecepten%2F1406384%2Flekker-ovenschotel-spitskool-champignons-spekreepjes-en-prei&amp;is_video=0&amp;description=Lekker%21%20Ovenschotel%20spitskool%20champignons%20spekreepjes%20en%20prei" target="_blank" data-testid="pinterest-share" class="btn recipe-social__button btn--pinterest">
+                <svg class="glyph glyph--pinterest recipe-social__glyph" role="img" aria-label="Deel recept op Pinterest">
+                    <use xlink:href="#glyph-pinterest"></use>
+                </svg>
+            </a>
+                    <a href="https://api.whatsapp.com/send?text=Ik%20kwam%20dit%20recept%20%27Lekker%21%20Ovenschotel%20spitskool%20champignons%20spekreepjes%20en%20prei%27%20tegen%20op%20Smulweb.nl,%20vond%20het%20echt%20iets%20voor%20jou:%20https%3A%2F%2Fwww.smulweb.nl%2Frecepten%2F1406384%2Flekker-ovenschotel-spitskool-champignons-spekreepjes-en-prei" target="_blank" data-testid="whatsapp-share" class="btn recipe-social__button btn--whatsapp">
+                <svg class="glyph glyph--whatsapp recipe-social__glyph" role="img" aria-label="Deel recept op Whatsapp">
+                    <use xlink:href="#glyph-whatsapp"></use>
+                </svg>
+            </a>
+                    <button class="btn recipe-social__button btn--email" x-on:click="$dispatch('open-send-recipe-off-canvas')" aria-label="Deel recept per email">
+                <svg class="glyph glyph--envelope recipe-social__glyph" role="img">
+                    <use xlink:href="#glyph-envelope"></use>
+                </svg>
+            </button>
+    </div>
+</div>
+                                <div id='mob_top' class="hide-on-print">
+                                    <script>
+                                        googletag.cmd.push(function() { googletag.display('mob_top'); });
+                                    </script>
+                                </div>
+                            </div>
+                            <div class="col-md-4 float-left">
+                                <div class="recipe-details-list">
+        <h5 class="recipe-details-list__title" data-testid="recipe-yield">Ingrediënten 4 personen</h5>
+
+        <span class="recipe-info recipe-info--large" data-testid="recipe-ingredient-list">Plm. 750 gram <a href="https://www.smulweb.nl/recepten/spitskool">spitskool</a><br />1 <a href="https://www.smulweb.nl/recepten/prei">prei</a><br />250 gram <a href="https://www.smulweb.nl/recepten/paddenstoelen/champignons">champignons</a><br />150 gram mager gerookte spekreepjes of baconreepjes<br />1 eetlepel neutrale <a href="https://www.smulweb.nl/recepten/olie">olie</a><br /><a href="https://www.smulweb.nl/recepten/peper">peper</a>, zout<br />1/2 theelepel gemalen <a href="https://www.smulweb.nl/recepten/nootmuskaat">nootmuskaat</a><br />cayennepeper naar smaak<br />1 + 1 eetlepel mosterd<br />200 ml crème fraîche<br />750 gram kruimige <a href="https://www.smulweb.nl/aardappelen">aardappelen</a><br />50 geraspte belegen <a href="https://www.smulweb.nl/kaas">kaas</a></span>
+    </div>
+                                <a :href="buttonUrl" data-testid="jumbo-buy-products-button" class="btn jumbo-buy-products-button hide-on-print" x-data="components.jumboBuyProductsButton(1630379, 1406384, true)" x-init="init()" x-show="visible" x-cloak>
+    <span class="jumbo-buy-products-button__text">
+        Boodschappen bestellen
+    </span>
+</a>
+
+                                                                    <div class="recipe-nutrient-info-list recipe-details-list" data-testid="recipe-nutrient-info">
+    <h5 class="recipe-details-list__title">Voedingswaarde per portie</h5>
+    <table class="recipe-nutrient-info-list__table">
+        <thead>
+            <tr>
+                <th class="recipe-nutrient-info__head-title">Voedingswaarde</th>
+                <th class="recipe-nutrient-info__head-title">Eenheid</th>
+            </tr>
+        </thead>
+        <tbody>
+                    <tr class="recipe-nutrient-info" data-testid="recipe-nutrient-info-calories">
+                <td class="recipe-nutrient-info__name">Energie</td>
+                <td class="recipe-nutrient-info__value">611,87 <span class="recipe-nutrient-info__unit">kcal</span></td>
+            </tr>
+                            <tr class="recipe-nutrient-info" data-testid="recipe-nutrient-info-carbs">
+                <td class="recipe-nutrient-info__name">Koolhydraten</td>
+                <td class="recipe-nutrient-info__value">46,88 <span class="recipe-nutrient-info__unit">g</span></td>
+            </tr>
+                            <tr class="recipe-nutrient-info" data-testid="recipe-nutrient-info-proteins">
+                <td class="recipe-nutrient-info__name">Eiwitten</td>
+                <td class="recipe-nutrient-info__value">23,11 <span class="recipe-nutrient-info__unit">g</span></td>
+            </tr>
+                            <tr class="recipe-nutrient-info" data-testid="recipe-nutrient-info-fats">
+                <td class="recipe-nutrient-info__name">Vetten</td>
+                <td class="recipe-nutrient-info__value">34,43 <span class="recipe-nutrient-info__unit">g</span></td>
+            </tr>
+                </tbody>
+    </table>
+</div>
+
+                                <div class="recipe-details-list">
+        <h5 class="recipe-details-list__title">Benodigdheden</h5>
+
+        <span class="recipe-info recipe-info--large">Wok<br />grote ovenschaal<br />aardappelstamper</span>
+    </div>
+
+                            </div>
+                            <div class="col-md-8 float-right">
+                                <div class="recipe-content">
+    <h4 class="recipe-content__title">
+    Bereidingswijze
+</h4>
+        <p class="recipe-content__paragraph" data-testid="recipe-instructions">
+    Verwarm de oven voor op 200 graden.<br />Verhit de olie in de wok.<br />Bak hierin de spekreepjes knapperig. Voeg de plakjes champignons toe en bak deze mee tot al het vocht is verdwenen. Voeg de prei toe en bak deze plm. 2 minuten mee. Doe dan de spitskool erbij en roerbak alles nog plm. 5 - 10 minuten, afhankelijk van de dikte van de spitskool. (De spitskool moet nog knapperig blijven!)<br />Maak de spitskool op smaak met peper, zout, nootmuskaat en wat cayennepeper. Roer 2 eetlepels crème fraîche en 1 eetlepel mosterd door de kool.<br />Doe de kool in een vuurvaste ovenschool.<br /><br />Laat de gare aardappels goed droog stomen.Stamp de aardappels met een stamper grof en roer de rest van de crème fraîche en 1 eetlepel mosterd door de aardappelen.<br />Strijk de aardappelen uit over de spitkool en bestrooi met wat geraspte kaas.<br />Zet de schaal in de voorverwarmde oven tot de kaas een goudbruine kleur heeft gekregen.<br /><strong>Als de ingrediënten nog warm zijn kun je de schaal ook even onder de grill zetten tot de kaas goudbruin is.</strong>
+</p>
+
+
+            <h4 class="recipe-content__title">
+    Serveertip
+</h4>
+        <p class="recipe-content__paragraph" data-testid="recipe-tips">
+    Lekker met alle soorten vlees.
+</p>
+</div>
+                                <div class="recipe-tags hide-on-print">
+    <h4 class="recipe-tags__title">
+        Dit recept is te vinden in:
+    </h4>
+
+    <ul class="recipe-tags__list list-unstyled">
+        <li class="recipe-tag__item">
+    <a href="https://www.smulweb.nl/ovenschotel" class="recipe-tag__link">Ovenschotel</a>
+</li>
+            <li class="recipe-tag__item">
+    <a href="https://www.smulweb.nl/recepten/ovenschotel" class="recipe-tag__link">Ovenschotel</a>
+</li>
+            <li class="recipe-tag__item">
+    <a href="https://www.smulweb.nl/recepten/appel" class="recipe-tag__link">Appel</a>
+</li>
+    </ul>
+</div>
+                                <div class="recipe-comment-list recipe-comment-list--recipe-page mb-6 mb-md-0 recipe-comment-list hide-on-print" id="comments">
+    <h3 class="recipe-comment-list__title mb-2">Laatste reacties</h3>
+        <div class="recipe-comment">
+    <img alt="effes54 avatar" src="https://www.smulweb.nl/new-assets/img/png/recipe-comment-placeholder.png?v=39114" class="recipe-comment__meta-image">
+    <div class="recipe-comment__wrapper">
+        <div class="recipe-comment__meta-wrapper">
+                            <a href="https://www.smulweb.nl/community/pagina/effes54" class="recipe-comment__meta-author">effes54</a>
+                        <span class="recipe-comment__meta-date">09-06-2022</span>
+        </div>
+        <div class="recipe-comment__content">
+            <p>Vanavond gemaakt met 3 preien en wat minder spitskool plus vetspekblokjes. Het was heerlijk met alle kruiden etc. die erin gingen. Dank!</p>
+        </div>
+    </div>
+</div>
+                                                                                    <div class="recipe-comment">
+    <img alt="pwiggers avatar" src="https://www.smulweb.nl/new-assets/img/png/recipe-comment-placeholder.png?v=39114" class="recipe-comment__meta-image">
+    <div class="recipe-comment__wrapper">
+        <div class="recipe-comment__meta-wrapper">
+                            <a href="https://www.smulweb.nl/community/pagina/pwiggers" class="recipe-comment__meta-author">pwiggers</a>
+                        <span class="recipe-comment__meta-date">01-08-2021</span>
+        </div>
+        <div class="recipe-comment__content">
+            <p>Superleuk om te horen kokkie2011. Dank je wel voor je hele leuke uitgebreide reactie. Leuk dat je het gerecht hebt gemaakt en er zelf wat  hebt aangepast. Daar is dit gerecht ook geschikt voor. Fijne avond nog en hartelijke groet, Petra Wiggers</p>
+        </div>
+    </div>
+</div>
+                                                                                    <div class="recipe-comment">
+    <img alt="kokkie2011 avatar" src="https://www.smulweb.nl/new-assets/img/png/recipe-comment-placeholder.png?v=39114" class="recipe-comment__meta-image">
+    <div class="recipe-comment__wrapper">
+        <div class="recipe-comment__meta-wrapper">
+                            <a href="https://www.smulweb.nl/community/pagina/kokkie2011" class="recipe-comment__meta-author">kokkie2011</a>
+                        <span class="recipe-comment__meta-date">01-08-2021</span>
+        </div>
+        <div class="recipe-comment__content">
+            <p>Goeden avond pwiggers.
+Ik heb uw gerecht gemaakt, maar heb maar een halve prei gebruikt deze was wel heel erg groot.
+En in plaats van 150 gr kaas heb ik 300 gr gebruikt.
+En in het vervolg doe ik er geen 150 maar 300 gr spekjes in, anders houdt ik steeds een halve zak spekjes over, maar dat is heel persoonlijk natuurlijk.
+Verder is dit gerecht ove(r)(n)heerlijk, alle ingrediÃ«nten proef je in dit gerecht, groot applaus voor dit gerecht, mijn stiefdochter wil het binnenkort van mij proeven en dan zelf ook gaan maken. Een fijne avond gewenst, vr. gr. Kokkie2011.</p>
+        </div>
+    </div>
+</div>
+                                                                                    <div class="recipe-comment">
+    <img alt="pwiggers avatar" src="https://www.smulweb.nl/new-assets/img/png/recipe-comment-placeholder.png?v=39114" class="recipe-comment__meta-image">
+    <div class="recipe-comment__wrapper">
+        <div class="recipe-comment__meta-wrapper">
+                            <a href="https://www.smulweb.nl/community/pagina/pwiggers" class="recipe-comment__meta-author">pwiggers</a>
+                        <span class="recipe-comment__meta-date">10-02-2021</span>
+        </div>
+        <div class="recipe-comment__content">
+            <p>Bedankt joekje123123, leuk om te horen dat de ovenschotel bij je in de smaak is gevallen. Groetjes, Petra</p>
+        </div>
+    </div>
+</div>
+                                                                                    <div class="recipe-comment">
+    <img alt="joekje123123 avatar" src="https://www.smulweb.nl/new-assets/img/png/recipe-comment-placeholder.png?v=39114" class="recipe-comment__meta-image">
+    <div class="recipe-comment__wrapper">
+        <div class="recipe-comment__meta-wrapper">
+                            <a href="https://www.smulweb.nl/community/pagina/joekje123123" class="recipe-comment__meta-author">joekje123123</a>
+                        <span class="recipe-comment__meta-date">09-02-2021</span>
+        </div>
+        <div class="recipe-comment__content">
+            <p>Vandaag klaargemaakt. Was erg lekker. Had niet genoeg aardappels dus wat zoete aardappel erbij gedaan. Geeft een wat zoetste smaak. Lekker.  Over een tijdje nog eens origineel proberen. Dank je wel.</p>
+        </div>
+    </div>
+</div>
+                                                                                    <div class="recipe-comment">
+    <img alt="pwiggers avatar" src="https://www.smulweb.nl/new-assets/img/png/recipe-comment-placeholder.png?v=39114" class="recipe-comment__meta-image">
+    <div class="recipe-comment__wrapper">
+        <div class="recipe-comment__meta-wrapper">
+                            <a href="https://www.smulweb.nl/community/pagina/pwiggers" class="recipe-comment__meta-author">pwiggers</a>
+                        <span class="recipe-comment__meta-date">15-11-2020</span>
+        </div>
+        <div class="recipe-comment__content">
+            <p>Leuk om te horen Nelly. Blij te horen dat de ovenschotel in de smaak is gevallen. Dank je wel voor jet reactie.</p>
+        </div>
+    </div>
+</div>
+                                                                                    <div class="recipe-comment">
+    <img alt="Nelly5744 avatar" src="https://www.smulweb.nl/new-assets/img/png/recipe-comment-placeholder.png?v=39114" class="recipe-comment__meta-image">
+    <div class="recipe-comment__wrapper">
+        <div class="recipe-comment__meta-wrapper">
+                            <a href="https://www.smulweb.nl/community/pagina/Nelly5744" class="recipe-comment__meta-author">Nelly5744</a>
+                        <span class="recipe-comment__meta-date">14-11-2020</span>
+        </div>
+        <div class="recipe-comment__content">
+            <p>Helemaal lekker! Ook met nog 2 overgebleven wortelen er bij in ðŸ˜Š. Dank je wel!</p>
+        </div>
+    </div>
+</div>
+                                                                                    <div class="recipe-comment">
+    <img alt="pwiggers avatar" src="https://www.smulweb.nl/new-assets/img/png/recipe-comment-placeholder.png?v=39114" class="recipe-comment__meta-image">
+    <div class="recipe-comment__wrapper">
+        <div class="recipe-comment__meta-wrapper">
+                            <a href="https://www.smulweb.nl/community/pagina/pwiggers" class="recipe-comment__meta-author">pwiggers</a>
+                        <span class="recipe-comment__meta-date">24-10-2020</span>
+        </div>
+        <div class="recipe-comment__content">
+            <p>Dank je wel voor je reactie Bernardine. Leuk om te horen dat mijn spitskoolschotel je zoveel inspiratie heeft
+gegeven. Fijn weekend en groet, Petra</p>
+        </div>
+    </div>
+</div>
+                                                                                    <div class="recipe-comment">
+    <img alt="pwiggers avatar" src="https://www.smulweb.nl/new-assets/img/png/recipe-comment-placeholder.png?v=39114" class="recipe-comment__meta-image">
+    <div class="recipe-comment__wrapper">
+        <div class="recipe-comment__meta-wrapper">
+                            <a href="https://www.smulweb.nl/community/pagina/pwiggers" class="recipe-comment__meta-author">pwiggers</a>
+                        <span class="recipe-comment__meta-date">25-07-2020</span>
+        </div>
+        <div class="recipe-comment__content">
+            <p>Ik kreeg bericht van Smulweb dat je een foto bij dit recept had geplaatst vandaar Ria. Voor mij dus nu ook ????</p>
+        </div>
+    </div>
+</div>
+                                                                                    <div class="recipe-comment">
+    <img alt="bralinjo avatar" src="https://www.smulweb.nl/new-assets/img/png/recipe-comment-placeholder.png?v=39114" class="recipe-comment__meta-image">
+    <div class="recipe-comment__wrapper">
+        <div class="recipe-comment__meta-wrapper">
+                            <a href="https://www.smulweb.nl/community/pagina/bralinjo" class="recipe-comment__meta-author">bralinjo</a>
+                        <span class="recipe-comment__meta-date">25-07-2020</span>
+        </div>
+        <div class="recipe-comment__content">
+            <p>Hoi Petra, Ik weet niet wat er misgegaan is maar de foto waar je op doelt is daar op een voor mij raadselachtige manier gekomen. Hoe zou ik die daar weg kunnen halen?
+Overigens heb ik de ovenschotel gisteren gegeten toen de kinderen thuis waren, ze vonden het ook heel lekker!</p>
+        </div>
+    </div>
+</div>
+
+            <button class="recipe-comment__toggle">Bekijk meer reacties</button>
+    </div>
+                                <div id='mob_mid' class="hide-on-print">
+                                    <script>
+                                        googletag.cmd.push(function() { googletag.display('mob_mid'); });
+                                    </script>
+                                </div>
+                            </div>
+                            <div class="col-md-4 float-left clear-left">
+                                <div x-data="window.components.offCanvas()" xmlns:x-on="http://www.w3.org/1999/xhtml"
+     x-init="init($dispatch, 'cookbook')">
+    <div class="recipe-actions mt-5 mt-md-0 hide-on-print">
+        <ul class="list-unstyled mb-0">
+                        <li class="recipe-action">
+    <button class="recipe-action" @click="window.print()">
+        <svg class="glyph glyph--printer recipe-action__glyph recipe-action__glyph--printer" role="img">
+            <use xlink:href="#glyph-printer"></use>
+        </svg>
+        Print dit recept
+    </button>
+</li>
+                         <li class="recipe-action">
+    <button class="recipe-action" @click="window.location.replace(&#039;https://www.smulweb.nl/site/login&#039;)">
+        <svg class="glyph glyph--book recipe-action__glyph recipe-action__glyph--book" role="img">
+            <use xlink:href="#glyph-book"></use>
+        </svg>
+        Bewaar in kookboek
+    </button>
+</li>
+         </ul>
+    </div>
+    <div :class="{'js-backdrop--is-open': offCanvasOpen, 'backdrop': true}" @click="toggleOffCanvas()" x-cloak></div>
+
+<div x-bind:class="{'js-off-canvas--is-open': offCanvasOpen, 'off-canvas': true}"
+    @off-canvas.window="toggleOffCanvas()" x-cloak>
+    <div class="off-canvas__header">
+        <h4 class="off-canvas__header-title">Bewaren in kookboek</h4>
+
+        <button
+    class="btn btn--close-canvas"
+    aria-label="Sluiten"
+     x-on:click="toggleOffCanvas()" >
+    <svg class="glyph glyph-cross" role="img">
+        <use xlink:href="#glyph-cross"></use>
+    </svg>
+</button>
+    </div>
+
+    <div x-data="components.cookbookSelect()"
+     x-init="init(1406384, $dispatch, {fetchCookbooksUrl: 'https://www.smulweb.nl/cookbooks/list/1406384', onSubmitUrl: 'https://www.smulweb.nl/cookbooks/add-recipe'})"
+     x-ref="cookbookSelect"
+     @cookbook-offcanvas-open.window="fetchCookbooks()">
+    <form @submit.prevent="onSubmit(event)">
+        <input type="hidden" name="_token" x-data="window.components.csrf()" :value="csrfToken" x-init="init()">
+        <span>Selecteer hier je kookboek(en) of type hier om nieuwe kookboeken aan te maken</span>
+        <label aria-label="Kookboeken">
+            <select class="form-control" x-ref="select" multiple="multiple"></select>
+        </label>
+        <button :disabled="Boolean(errorMessage)" class="btn btn--small btn--secondary btn--wide">Bewaar</button>
+        <template x-if="Boolean(errorMessage)">
+            <div class="alert alert--error error" data-testid="cookbook-error">
+    <span class="alert__artwork">
+        <svg class="glyph glyph--cross alert__artwork-icon" role="img">
+            <use xlink:href="#glyph-cross"></use>
+        </svg>
+    </span>
+    <span x-text="errorMessage" class="alert__text"></span>
+</div>
+        </template>
+        <template x-if="Boolean(successMessage)">
+            <div class="alert alert--success success" data-testid="cookbook-error">
+    <span class="alert__artwork">
+        <svg class="glyph glyph--checkmark alert__artwork-icon" role="img">
+            <use xlink:href="#glyph-checkmark"></use>
+        </svg>
+    </span>
+    <span x-text="successMessage" class="alert__text"></span>
+</div>
+        </template>
+    </form>
+</div>
+</div>
+</div>
+
+
+                                <div class="author-info">
+    <h3 class="author-info__title">Over de plaatser</h3>
+
+    <div class="author">
+    <img src="https://www.smulweb.nl/new-assets/img/png/recipe-comment-placeholder.png?v=39114"
+         data-src="https://d1mlbwr23caxox.cloudfront.net/public/sites/default/files/styles/avatar/public/author_images/pwiggers_0.jpg_1297.jpg?VersionId=QtuDO0l7l7C9HCJPgPhT.XPoei78lLqn"
+         alt="pwiggers avatar"
+         class="author__profile-image lazyload"
+         data-testid="user-avatar"
+         onerror="this.onerror=null;this.src='https://www.smulweb.nl/new-assets/img/png/recipe-comment-placeholder.png?v=39114;'">
+    <div class="author__wrapper">
+        <a href="https://www.smulweb.nl/community/pagina/pwiggers" class="author__name" data-testid="user-profile-link">pwiggers</a>
+
+            </div>
+</div>
+
+    <div class="meta-data">
+
+</div>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 hide-on-print">
+                    <div id='web_top'>
+                        <script>
+                            googletag.cmd.push(function() { googletag.display('web_top'); });
+                        </script>
+                    </div>
+                    <div class="card pb-0" data-testid="related-recipes">
+        <h2 class="card__title card__title--secondary card__title--large">Tip van Smulweb</h2>
+        <a href="https://www.smulweb.nl/recepten/1110310/prei-aardappel-gehakt-ovenschotel" class="recipe-row" data-testid=related-recipe>
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Prei - aardappel, gehakt ovenschotel
+</a>
+            <a href="https://www.smulweb.nl/recepten/1151725/romige-kipgratin-afgedekt-met-stokbroodkruidenboter-en-kaas" class="recipe-row" data-testid=related-recipe>
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Romige kipgratin afgedekt met stokbrood,kruidenboter en kaas
+</a>
+            <a href="https://www.smulweb.nl/recepten/1097907/ovenschotel-a-la-louise" class="recipe-row" data-testid=related-recipe>
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Ovenschotel a la louise
+</a>
+            <a href="https://www.smulweb.nl/recepten/344617/aardappel-preischotel-met-tomaat-en-kaas" class="recipe-row" data-testid=related-recipe>
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Aardappel-Preischotel Met Tomaat En Kaas
+</a>
+            <a href="https://www.smulweb.nl/recepten/1397647/slanke-ovenschotel-met-ham-en-kaas" class="recipe-row" data-testid=related-recipe>
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Slanke ovenschotel met ham en kaas
+</a>
+            <a href="https://www.smulweb.nl/recepten/80805/prei-zalmschotel" class="recipe-row" data-testid=related-recipe>
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Prei-zalmschotel
+</a>
+            <a href="https://www.smulweb.nl/recepten/1144008/vis-ovenschotel-met-feta" class="recipe-row" data-testid=related-recipe>
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Vis ovenschotel met feta
+</a>
+            <a href="https://www.smulweb.nl/recepten/1348356/gehakt-sperziebonen-ovenschotel" class="recipe-row" data-testid=related-recipe>
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Gehakt-sperziebonen ovenschotel
+</a>
+            <a href="https://www.smulweb.nl/recepten/1425823/supergezonde-winterse-ovenschotel-bomvol-smaak" class="recipe-row" data-testid=related-recipe>
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Supergezonde winterse ovenschotel bomvol smaak
+</a>
+            <a href="https://www.smulweb.nl/recepten/951956/ovenschotel-met-prei-en-banaan" class="recipe-row" data-testid=related-recipe>
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Ovenschotel met prei en banaan
+</a>
+            <a href="https://www.smulweb.nl/recepten/1054437/ovenschotel-bloemkool-met-gehaktsaus-gegratineerd-met-kaas" class="recipe-row" data-testid=related-recipe>
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Ovenschotel bloemkool met gehaktsaus gegratineerd met kaas
+</a>
+</div>
+                    <div class="card pb-0" data-testid="most-viewed-recipes-block">
+        <h2 class="card__title card__title--secondary card__title--large">Meest bekeken</h2>
+        <a href="https://www.smulweb.nl/recepten/1493523/warme-cider-punch" class="recipe-row" >
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Warme cider punch
+</a>
+                    <a href="https://www.smulweb.nl/recepten/1493540/balletjes-in-licht-pittige-zoetzure-saus" class="recipe-row" >
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Balletjes in licht pittige zoetzure saus.
+</a>
+                    <a href="https://www.smulweb.nl/recepten/1493556/zoete-aardappel-lasagne-met-spinazie-tomaat-en-gehakt" class="recipe-row" >
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Zoete aardappel lasagne  met spinazie  , tomaat en gehakt
+</a>
+                    <a href="https://www.smulweb.nl/recepten/1493524/warme-kerstpunch" class="recipe-row" >
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    ​Warme kerstpunch
+</a>
+                    <a href="https://www.smulweb.nl/recepten/1493541/italiaanse-salade-met-artisjokharten-rucola-en-kaasflakes" class="recipe-row" >
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Italiaanse salade met artisjokharten, rucola en kaasflakes
+</a>
+                    <a href="https://www.smulweb.nl/recepten/1493557/koolhydraatarme-ovenschotel-met-courgette" class="recipe-row" >
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Koolhydraatarme  ovenschotel met courgette
+</a>
+                    <a href="https://www.smulweb.nl/recepten/1493509/pasta-scampi" class="recipe-row" >
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Pasta scampi
+</a>
+                    <a href="https://www.smulweb.nl/recepten/1493525/aubergine-rollatini" class="recipe-row" >
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Aubergine Rollatini
+</a>
+                    <a href="https://www.smulweb.nl/recepten/1493542/aardappel-bloemkoolschotel-met-spek-champignons-en-doperwtjes" class="recipe-row" >
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Aardappel-bloemkoolschotel met spek, champignons en doperwtjes
+</a>
+                    <a href="https://www.smulweb.nl/recepten/1493558/koolhydraatarme-ovenschotel-met-kabeljauw" class="recipe-row" >
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Koolhydraatarme  ovenschotel  met kabeljauw
+</a>
+                    <a href="https://www.smulweb.nl/recepten/1493510/romig-herfstig-stoofje-van-paddenstoelen-hamlappen-en-spekjes" class="recipe-row" >
+    <svg class="glyph glyph--pan recipe-row__icon" role="img">
+        <use xlink:href="#glyph-pan"></use>
+    </svg>
+    Romig, Herfstig Stoofje van paddenstoelen, hamlappen en spekjes
+</a>
+</div>
+                    <div id='advertorial'>
+                        <script>
+                            googletag.cmd.push(function() { googletag.display('advertorial'); });
+                        </script>
+                    </div>
+                    <div class="card hide-on-print" data-testid="cooking-tip">
+    <div class="recipe-cooking-tip" style="background-image: url('https://www.smulweb.nl/new-assets/img/webp/cooking-tip-bg.webp?v=39114')">
+        <div class="recipe-cooking-tip__card">
+            <h3 class="recipe-cooking-tip__title">Kooktip!</h3>
+            <h4 class="recipe-cooking-tip__sub-title">Maak je koelkast leeg</h4>
+            <p class="recipe-cooking-tip__paragraph">Geef op wat je nog in de (koel)kast hebt liggen en zoek
+                daar recepten bij!</p>
+            <form class="form-submit--attached" onsubmit="onCookingTipFormSubmit(event)" action="/recepten">
+                <div class="form-group">
+                    <div class="form-item ">
+            <div class="form-item__input-wrapper">
+        <input
+    class="form-control ingredient-input" name="ingredient-1" required="required" id="ingredient-1" placeholder="Ingredient 1" type="text"
+    value=""
+>
+            </div>
+</div>
+                    <div class="form-item ">
+            <div class="form-item__input-wrapper">
+        <input
+    class="form-control ingredient-input" name="ingredient-2" id="ingredient-2" placeholder="Ingredient 2" type="text"
+    value=""
+>
+            </div>
+</div>
+                    <div class="form-item ">
+            <div class="form-item__input-wrapper">
+        <input
+    class="form-control ingredient-input" name="ingredient-3" id="ingredient-3" placeholder="Ingredient 3" type="text"
+    value=""
+>
+            </div>
+</div>
+                    <div class="form-item ">
+            <div class="form-item__input-wrapper">
+        <input
+    class="form-control ingredient-input" name="ingredient-4" id="ingredient-4" placeholder="Ingredient 4" type="text"
+    value=""
+>
+            </div>
+</div>
+                </div>
+                <button class="btn btn--secondary btn--wide" >
+    <div class="btn__content">
+        Zoek recept
+    </div>
+</button>
+            </form>
+        </div>
+    </div>
+</div>
+                    <div id='web_down'>
+                        <script>
+                            googletag.cmd.push(function() { googletag.display('web_down'); });
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        </main>
+        <footer>
+                        <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-8 col-lg-5">
+                <div class="row">
+                    <div class="col-4 col-md-4">
+                        <nav class="footer-nav">
+            <h3 class="footer-nav__title">Recepten</h3>
+
+            <ul class="list-unstyled">
+                            <li class="footer-nav__item">
+                    <a href="/recepten" class="footer-nav__link">Populairste recepten</a>
+                </li>
+                            <li class="footer-nav__item">
+                    <a href="/recepten/nieuw" class="footer-nav__link">Nieuwste recepten</a>
+                </li>
+                            <li class="footer-nav__item">
+                    <a href="/recepten/gangen" class="footer-nav__link">Gangen</a>
+                </li>
+                            <li class="footer-nav__item">
+                    <a href="/recepten/keuken" class="footer-nav__link">Wereldkeukens</a>
+                </li>
+                            <li class="footer-nav__item">
+                    <a href="/recepten/gelegenheid" class="footer-nav__link">Gelegenheden</a>
+                </li>
+                    </ul>
+    </nav>
+                    </div>
+                    <div class="col-4 col-md-4">
+                        <nav class="footer-nav">
+            <h3 class="footer-nav__title">TV</h3>
+
+            <ul class="list-unstyled">
+                            <li class="footer-nav__item">
+                    <a href="https://smulweb.tv/popular" class="footer-nav__link">Populairste video&#039;s</a>
+                </li>
+                            <li class="footer-nav__item">
+                    <a href="https://smulweb.tv/new" class="footer-nav__link">Nieuwste video&#039;s</a>
+                </li>
+                            <li class="footer-nav__item">
+                    <a href="https://smulweb.tv/category/programmas" class="footer-nav__link">Programma&#039;s</a>
+                </li>
+                    </ul>
+    </nav>
+
+                        <nav class="footer-nav">
+            <h3 class="footer-nav__title">Blogs</h3>
+
+            <ul class="list-unstyled">
+                            <li class="footer-nav__item">
+                    <a href="https://www.smulweb.nl/blog" class="footer-nav__link">Nieuwste blogs</a>
+                </li>
+                    </ul>
+    </nav>
+                    </div>
+                    <div class="col-4 col-md-4">
+                        <nav class="footer-nav">
+            <h3 class="footer-nav__title">Koken</h3>
+
+            <ul class="list-unstyled">
+                            <li class="footer-nav__item">
+                    <a href="/durftevragen" class="footer-nav__link">Durf te vragen</a>
+                </li>
+                            <li class="footer-nav__item">
+                    <a href="/community/allekookgroepen" class="footer-nav__link">Kookgroepen</a>
+                </li>
+                            <li class="footer-nav__item">
+                    <a href="/kookstudios" class="footer-nav__link">Kookstudio`s</a>
+                </li>
+                            <li class="footer-nav__item">
+                    <a href="/wiki" class="footer-nav__link">Wiki</a>
+                </li>
+                            <li class="footer-nav__item">
+                    <a href="/artikelen/kooktechnieken" class="footer-nav__link">Kooktechnieken</a>
+                </li>
+                    </ul>
+    </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <div class="card card--social">
+    <div class="social">
+        <h4 class="social__title">
+            Volg ons op:
+        </h4>
+
+        <div class="social__items">
+            <a class="social-item social-item--facebook" href="https://www.facebook.com/Smulweb" target="_blank">
+                <svg class="glyph glyph--facebook social-item__icon" role="img">
+                    <use xlink:href="#glyph-facebook"></use>
+                </svg>
+            </a>
+            <a class="social-item social-item--twitter" href="https://twitter.com/smulweb" target="_blank">
+                <svg class="glyph glyph--twitter social-item__icon" role="img">
+                    <use xlink:href="#glyph-twitter"></use>
+                </svg>
+            </a>
+            <a class="social-item social-item--youtube" href="https://www.youtube.com/user/smulwebnl" target="_blank">
+                <svg class="glyph glyph--youtube social-item__icon" role="img">
+                    <use xlink:href="#glyph-youtube"></use>
+                </svg>
+            </a>
+            <a class="social-item social-item--pinterest" href="https://nl.pinterest.com/smulweb/" target="_blank">
+                <svg class="glyph glyph--pinterest social-item__icon" role="img">
+                    <use xlink:href="#glyph-pinterest"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+</div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card card--newsletter">
+    <div class="newsletter">
+        <h4 class="newsletter__title">
+            Smulweb nieuwsbrief
+        </h4>
+        <p class="newsletter__text">Ontvang wekelijks de leukste en lekkerste recepten in je mail.<br>
+            <small><a href="/privacy_policy">Meer weten over privacy</a>.</small>
+        </p>
+
+        <form method="post" action="https://mailing.effectiveprofiles.com/form.php?form=141" id="frmSS141" onsubmit="return CheckForm141(this);">
+            <!-- DO NOT REMOVE -->
+            <div style="display:none;"><span class="required">*</span>&nbsp;
+                Website URL</div>
+            <div style="display:none;"><input type="text" name="websiteurl" value="" /></div>
+            <!-- /DO NOT REMOVE -->
+            <div class="form-group">
+                <div class="form-item ">
+        <div class="form-item__input-wrapper">
+        <input
+                type="email"
+                id="newsletter-signup-email"
+                name="email"
+                class="form-control form-item__input "
+                                 placeholder="E-mailadres"                  required                                                                 value=""
+        >
+            </div>
+</div>
+            </div>
+            <label for="g-recaptcha-response" aria-label="Recaptcha"></label>
+            <div class="g-recaptcha" data-sitekey="6Lc2YvQUAAAAAPpmYkjvM25wxXU95iLIJot6FqrQ"></div>
+            <button class="btn btn--secondary btn--wide" type="submit">
+    <div class="btn__content">
+        Inschrijven
+    </div>
+</button>
+        </form>
+        <style>
+            #g-recaptcha-response {
+                display: block !important;
+                position: absolute;
+                margin: -78px 0 0 0 !important;
+                width: 302px !important;
+                height: 76px !important;
+                z-index: -999999;
+                opacity: 0;
+            }
+        </style>
+        <script type="text/javascript">
+        // <![CDATA[
+
+        window.onload = function() {
+            var $recaptcha = document.querySelector('#g-recaptcha-response');
+
+            if($recaptcha) {
+                $recaptcha.setAttribute("required", "required");
+            }
+        };
+
+        function CheckMultiple141(frm, name) {
+            for (var i=0; i < frm.length; i++)
+            {
+                fldObj = frm.elements[i];
+                fldId = fldObj.id;
+                if (fldId) {
+                    var fieldnamecheck=fldObj.id.indexOf(name);
+                    if (fieldnamecheck != -1) {
+                        if (fldObj.checked) {
+                            return true;
+                        }
+                    }
+                }
+            }
+            return false;
+        }
+        function CheckForm141(f) {
+            var email_re = /[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/i;
+            if (!email_re.test(f.email.value)) {
+                alert("Vul a.u.b. het e-mailadres in.");
+                f.email.focus();
+                return false;
+            }
+
+            return true;
+        }
+
+        // ]]>
+        </script>
+
+    </div>
+</div>
+                <iframe class="footer__iframe" src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FSmulweb&amp;width=370&amp;height=360&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=120198478085294" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:370px; height:360px;" allowtransparency="true"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="footer-bar">
+    <div class="container">
+        <ul class="navbar-nav navbar-nav--footer-bar">
+            <li class="nav-item">
+                Smulweb.nl &copy; 1998-2022            </li>
+            <li class="nav-item">
+    <a href="/voorwaarden"     class=" nav-link">
+        Voorwaarden
+    </a>
+</li>
+            <li class="nav-item">
+    <a href="/disclaimer_en_copyright"     class=" nav-link">
+        Disclaimer &amp; Copyright
+    </a>
+</li>
+            <li class="nav-item">
+    <a href="/privacy_policy"     class=" nav-link">
+        Privacy
+    </a>
+</li>
+            <li class="nav-item">
+    <a href="/notice_and_takedown"     class=" nav-link">
+        Notice and takedown
+    </a>
+</li>
+            <li class="nav-item">
+    <a href="/jumbo"     class=" nav-link">
+        Adverteren
+    </a>
+</li>
+            <li class="nav-item">
+    <a href="#"    id="ot-sdk-btn"   class="ot-sdk-show-settings nav-link">
+        Cookievoorkeuren
+    </a>
+</li>
+            <li class="nav-item">
+    <a href="/cookies"     class=" nav-link">
+        Cookies
+    </a>
+</li>
+            <li class="nav-item">
+    <a href="/veelgestelde_vragen"     class=" nav-link">
+        FAQ
+    </a>
+</li>
+            <li class="nav-item">
+    <a href="/sitemap"     class=" nav-link">
+        Sitemap
+    </a>
+</li>
+            <li class="nav-item">
+    <a href="mailto:contact@smulweb.nl"     class=" nav-link">
+        Contact
+    </a>
+</li>
+            <li class="nav-item">
+    <a href="/jumbo"     class=" nav-link">
+        Jumbo Supermarkten B.V.
+    </a>
+</li>
+            <li class="nav-item">
+                KvK 16044409
+            </li>
+        </ul>
+    </div>
+</div>
+        </footer>
+                <div class="backdrop"></div>
+
+<div class="off-canvas" x-data="sendRecipeOffCanvas()" :class="{'js-off-canvas--is-open': show}"
+     @open-send-recipe-off-canvas.window="open()">
+    <div class="off-canvas__header">
+        <h4 class="off-canvas__header-title">Doorsturen</h4>
+
+        <button
+    class="btn btn--close-canvas"
+    aria-label="Sluiten"
+     x-on:click="close()" >
+    <svg class="glyph glyph-cross" role="img">
+        <use xlink:href="#glyph-cross"></use>
+    </svg>
+</button>
+    </div>
+
+    <form method="POST" action="https://www.smulweb.nl/api/recipe/share/email" x-ref="sendRecipeForm" x-on:submit="submit"
+          x-on:submit.prevent novalidate="novalidate">
+        <input type="hidden" name="_token" x-data="window.components.csrf()" :value="csrfToken" x-init="init()">
+        <div class="form-group">
+            <div class="form-item ">
+            <label
+                for="from_name"
+                class="form-item__label ">
+            Naam afzender        </label>
+        <div class="form-item__input-wrapper">
+        <input
+            type="text"
+            id="from_name"
+            name="from_name"
+            class="form-control "
+                                                                                    value=""
+        >
+            </div>
+</div>
+        </div>
+        <div class="form-group">
+            <div class="form-item ">
+            <label
+                for="to_email"
+                class="form-item__label ">
+            E-mail ontvanger        </label>
+        <div class="form-item__input-wrapper">
+        <input
+                type="email"
+                id="to_email"
+                name="to_email"
+                class="form-control form-item__input "
+                                                                                                                value=""
+        >
+            </div>
+</div>
+        </div>
+        <div class="form-group">
+            <div class="form-item ">
+            <label
+                for="to_name"
+                class="form-item__label ">
+            Naam ontvanger        </label>
+        <div class="form-item__input-wrapper">
+        <input
+            type="text"
+            id="to_name"
+            name="to_name"
+            class="form-control "
+                                                                                    value=""
+        >
+            </div>
+</div>
+        </div>
+        <div class="form-group">
+            <div class="form-item ">
+            <label
+                for="message"
+                class="form-item__label ">
+            Bericht        </label>
+        <div class="form-item__input-wrapper">
+        <textarea
+                id="message"
+                name="message"
+                class="form-control "
+                                                                                                        ></textarea>
+            </div>
+</div>
+
+        </div>
+
+        <div class="form-group">
+            <button class="btn btn--secondary btn--wide" type="submit" :disabled="loading">
+                <div class="btn__content">
+                    Verzenden
+                </div>
+            </button>
+        </div>
+    </form>
+</div>
+
+<script>
+    function sendRecipeOffCanvas() {
+        return {
+            recipeId: 1406384,
+            show: false,
+            loading: false,
+            open() {
+                this.show = true;
+            },
+            close() {
+                this.show = false;
+            },
+            submit(e) {
+                const validator = $(this.$refs.sendRecipeForm).validate({
+                    rules: {
+                        from_name: {
+                            required: true
+                        },
+                        to_email: {
+                            email: true,
+                            required: true
+                        },
+                        to_name: {
+                            required: true
+                        }
+                    },
+                    errorClass: "error-message",
+                    errorElement: "div"
+                });
+                if (validator.form()) {
+                    this.loading = true;
+                    shareRecipe(e, this.recipeId).then(response => response.json()).then((data) => {
+                        if (data.errors) {
+                            validator.showErrors(data.errors);
+                            return;
+                        }
+
+                        this.clearFrom($(this.$refs.sendRecipeForm));
+                        this.show = false;
+                    }).finally(() => {
+                        this.loading = false;
+                    });
+                }
+            },
+            clearFrom(form) {
+                form.trigger("reset");
+            }
+        };
+    }
+</script>
+    <script>
+        function shoppingListState() {
+            return {
+                shoppingListUrl: "",
+                addButtonText() {
+                    return this.shoppingListUrl === "" ? "Voeg ingrediënten toe aan boodschappenlijstje" : "Bekijk boodschappenlijstje";
+                },
+                async addRecipeToShoppingList() {
+                    if (this.shoppingListUrl) {
+                        return null;
+                    }
+                    const response = await window.addRecipeToShoppingList(1406384);
+                    this.shoppingListUrl = response.url;
+                }
+            };
+        }
+
+        const addToShoppingListUrl = 'https://www.smulweb.nl/shoppinglist/recipe';
+    </script>
+        <div class="mobile-navigation hide-on-print">
+    <ul class="mobile-navigation__list">
+                <li class="menu-item">
+    <a href="/recepten" class="menu-item__link">
+        Populairste recepten
+    </a>
+    </li>
+        <li class="menu-item">
+    <a href="/recepten/nieuw" class="menu-item__link">
+        Nieuwe recepten
+    </a>
+    </li>
+        <li class="menu-item">
+    <a href="/recepten/gangen" class="menu-item__link">
+        Gangen
+    </a>
+    </li>
+        <li class="menu-item">
+    <a href="/recepten/keuken" class="menu-item__link">
+        Wereldkeukens
+    </a>
+    </li>
+        <li class="menu-item">
+    <a href="#" class="menu-item__link">
+        Gelegenheden
+    </a>
+            <ul class="list-unstyled pl-4">
+                            <li class="menu-item">
+                    <a href="/recepten/gelegenheid" class="menu-item__link">
+                        Alle gelegenheden
+                    </a>
+                </li>
+                            <li class="menu-item">
+                    <a href="/recepten/kinderfeestje" class="menu-item__link">
+                        Kinderfeestjes
+                    </a>
+                </li>
+                            <li class="menu-item">
+                    <a href="/recepten/buffetten" class="menu-item__link">
+                        Buffetten en feesten
+                    </a>
+                </li>
+                    </ul>
+    </li>
+        <li class="menu-item">
+    <a href="#" class="menu-item__link">
+        Herfst
+    </a>
+            <ul class="list-unstyled pl-4">
+                            <li class="menu-item">
+                    <a href="/herfst" class="menu-item__link">
+                        Herfst
+                    </a>
+                </li>
+                            <li class="menu-item">
+                    <a href="/herfst#soepen" class="menu-item__link">
+                        Soepen
+                    </a>
+                </li>
+                            <li class="menu-item">
+                    <a href="/herfst#stamppotten" class="menu-item__link">
+                        Stamppotten
+                    </a>
+                </li>
+                            <li class="menu-item">
+                    <a href="/herfst#ovenschotels" class="menu-item__link">
+                        Ovenschotels
+                    </a>
+                </li>
+                            <li class="menu-item">
+                    <a href="/herfst#bakken" class="menu-item__link">
+                        Bakken
+                    </a>
+                </li>
+                            <li class="menu-item">
+                    <a href="/herfst#eenpans" class="menu-item__link">
+                        Eenpans
+                    </a>
+                </li>
+                            <li class="menu-item">
+                    <a href="/herfst#braden" class="menu-item__link">
+                        Braden
+                    </a>
+                </li>
+                            <li class="menu-item">
+                    <a href="/herfst#stoofvlees" class="menu-item__link">
+                        Stoofvlees
+                    </a>
+                </li>
+                    </ul>
+    </li>
+        <li class="menu-item">
+    <a href="https://smulweb.tv/" class="menu-item__link">
+        TV
+    </a>
+    </li>
+        <li class="menu-item">
+    <a href="https://www.smulweb.nl/blog" class="menu-item__link">
+        Blog
+    </a>
+    </li>
+                    <li class="menu-item">
+    <a href="https://www.smulweb.nl/site/login" class="menu-item__link">
+        Inloggen
+    </a>
+    </li>
+            <li class="menu-item">
+    <a href="https://www.smulweb.nl/community/registreren" class="menu-item__link">
+        Registreren
+    </a>
+    </li>
+            </ul>
+</div>
+        <div class="dock hide-on-print">
+    <div class="dock__wrapper">
+        <a href="https://www.smulweb.nl" class="dock__link">Home</a>
+        <a href="/recepten" class="dock__link">Recepten</a>
+            </div>
+</div>
+<div class="dock__push-bar"></div>
+        <script>
+            const baseUrl = 'https://www.smulweb.nl';
+        </script>
+
+        <script src="/livewire/livewire.js?id=a3766c6f9aadee9b7977" data-turbo-eval="false" data-turbolinks-eval="false" ></script><script data-turbo-eval="false" data-turbolinks-eval="false" >window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = 'k0pesJD8muiJ4aHb7g46TTPOHEF9FIQCrDeI2Cji';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', function () {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});</script>
+        <script src="https://www.smulweb.nl/new-assets/js/app.js?v=39114"></script>
+        <script>if(void 0===Pharaonic)var Pharaonic={};var PharaonicSelect2={Select2:{init:function(){$('[data-pharaonic="select2"]:not("[data-select2-id]")').each(function(){Pharaonic.Select2.load($(this),$(this).is("[data-component-id]")?$(this).data("component-id"):null)})},load:function(a,e){if(e){var t={multiple:$(a).is("[multiple]"),tags:$(a).is("[data-tags]"),placeholder:$(a).is("[data-placeholder]")?$(a).data("placeholder"):"Select an option",language:$(a).is("[data-language]")?$(a).data("language"):"en",dir:$(a).is("[data-dir]")?$(a).data("dir"):"ltr",dropdownParent:$(a).is("[data-parent]")?$($(a).data("parent")):null,minimumResultsForSearch:$(a).is("[data-search-off]")?-1:0},i=a[0].attributes,n=i.getNamedItem("wire:model")||i.getNamedItem("wire:model.defer")||null;if(delete i,a=$(a).select2(t),n){var d=n.value,l=n.name.search("defer")>0;a.on("change",function(){Livewire.find(e).set(d,$(a).val(),l)})}}}}};Object.assign(Pharaonic,PharaonicSelect2),$(document).ready(function(){Pharaonic.Select2.init()}),window.addEventListener("pharaonic.select2.load",a=>{Pharaonic.Select2.load($(a.detail.target),a.detail.component)});</script>
+            <script>
+        const recipeHasLegacyJumboBuyButton = true;
+    </script>
+    </body>
+</html>
