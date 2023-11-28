@@ -414,7 +414,7 @@ If you want a scraper for a new site added
 For Devs / Contribute
 ---------------------
 
-Assuming you have ``>=python3.7`` installed, navigate to the directory where you want this project to live in and drop these lines
+Assuming you have ``>=python3.8`` installed, navigate to the directory where you want this project to live in and drop these lines
 
 .. code:: shell
 
@@ -432,7 +432,7 @@ In case you want to run a single unittest for a newly developed scraper
 
 .. code:: shell
 
-    python -m unittest tests.test_myscraper
+    python -m unittest -k <test_file_name>
 
 
 FAQ
