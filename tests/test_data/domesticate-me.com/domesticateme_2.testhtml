@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><meta charset="UTF-8" /><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.v="1.2.3",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",t=>{this.persisted=t.persisted}),window.addEventListener("DOMContentLoaded",()=>{this._preconnect3rdParties()}),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}_addUserInteractionListener(t){if(document.hidden){t._triggerListener();return}this.triggerEvents.forEach(e=>window.addEventListener(e,t.userEventHandler,{passive:!0})),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler)}_removeUserInteractionListener(){this.triggerEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!0})),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"onclick","rocket-onclick"),this._pendingClickStarted())}_onTouchMove(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this._pendingClickFinished()}_onTouchEnd(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(t){t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this._pendingClickFinished()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach(t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))})}_waitForPendingClicks(){return new Promise(t=>{this._isClickPending?this._pendingClickFinished=t:t()})}_pendingClickStarted(){this._isClickPending=!0}_pendingClickFinished(){this._isClickPending=!1}_renameDOMAttribute(t,e,r){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(r,event.target.getAttribute(e)),event.target.removeAttribute(e))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(e=>{if(e.hasAttribute("src")){let r=new URL(e.src).origin;r!==location.origin&&t.push({src:r,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this._batchInjectResourceHints(t,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(this),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._waitForPendingClicks().then(()=>{this._replayClicks()}),this._emptyTrash()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _transformScript(t){return new Promise((await this._littleBreath(),navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor)?e=>{let r=document.createElement("script");[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),r.setAttribute(e,t.nodeValue))}),t.text&&(r.text=t.text),r.hasAttribute("src")?(r.addEventListener("load",e),r.addEventListener("error",e)):(r.text=t.text,e());try{t.parentNode.replaceChild(r,t)}catch(i){e()}}:async e=>{function r(){t.setAttribute("data-rocket-status","failed"),e()}try{let i=t.getAttribute("data-rocket-type"),n=t.getAttribute("data-rocket-src");t.text,i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",function r(){t.setAttribute("data-rocket-status","executed"),e()}),t.addEventListener("error",r),n?(t.removeAttribute("data-rocket-src"),t.src=n):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}catch(s){r()}})}async _loadScriptsFromList(t){let e=t.shift();return e&&e.isConnected?(await this._transformScript(e),this._loadScriptsFromList(t)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(t,e){var r=document.createDocumentFragment();t.forEach(t=>{let i=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(i){let n=document.createElement("link");n.href=i,n.rel=e,"preconnect"!==e&&(n.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),r.appendChild(n),this.trash.push(n)}}),document.head.appendChild(r)}_delayEventListeners(t){let e={};function r(t,r){!function t(r){!e[r]&&(e[r]={originalFunctions:{add:r.addEventListener,remove:r.removeEventListener},eventsToRewrite:[]},r.addEventListener=function(){arguments[0]=i(arguments[0]),e[r].originalFunctions.add.apply(r,arguments)},r.removeEventListener=function(){arguments[0]=i(arguments[0]),e[r].originalFunctions.remove.apply(r,arguments)});function i(t){return e[r].eventsToRewrite.indexOf(t)>=0?"rocket-"+t:t}}(t),e[t].eventsToRewrite.push(r)}function i(t,e){let r=t[e];Object.defineProperty(t,e,{get:()=>r||function(){},set(i){t["rocket"+e]=r=i}})}r(document,"DOMContentLoaded"),r(window,"DOMContentLoaded"),r(window,"load"),r(window,"pageshow"),r(document,"readystatechange"),i(document,"onreadystatechange"),i(window,"onload"),i(window,"onpageshow")}_delayJQueryReady(t){let e;function r(r){if(r&&r.fn&&!t.allJQueries.includes(r)){r.fn.ready=r.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(r):document.addEventListener("rocket-DOMContentLoaded",()=>e.bind(document)(r)),r([])};let i=r.fn.on;r.fn.on=r.fn.init.prototype.on=function(){if(this[0]===window){function t(t){return t.split(" ").map(t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=t(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(e=>{let r=arguments[0][e];delete arguments[0][e],arguments[0][t(e)]=r})}return i.apply(this,arguments),this},t.allJQueries.push(r)}e=r}r(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){r(t)}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this._littleBreath();let t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){let t=new Map;document.write=document.writeln=function(e){let r=document.currentScript;r||console.error("WPRocket unable to document.write this: "+e);let i=document.createRange(),n=r.parentElement,s=t.get(r);void 0===s&&(s=r.nextSibling,t.set(r,s));let a=document.createDocumentFragment();i.setStart(a,0),a.appendChild(i.createContextualFragment(e)),n.insertBefore(a,s)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}_emptyTrash(){this.trash.forEach(t=>t.remove())}static run(){let t=new RocketLazyLoadScripts;t._addUserInteractionListener(t)}}RocketLazyLoadScripts.run();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+<title>Summer Squash Toasts with Sun-Dried Tomato White Bean Spread - Domesticate ME</title>
+<link rel="preload" as="font" href="https://domesticate-me.com/wp-content/themes/bb-theme-child/fonts/santis-webfont.woff2" crossorigin><style id="rocket-critical-css">h1,h2,h3{overflow-wrap:break-word}.wp-block-image{margin:0 0 1em}.wp-block-image img{vertical-align:bottom}.wp-block-image:not(.is-style-rounded) img{border-radius:inherit}ul{overflow-wrap:break-word}p{overflow-wrap:break-word}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.slick-slider{position:relative;display:block;box-sizing:border-box;-webkit-touch-callout:none;-ms-touch-action:pan-y;touch-action:pan-y}.slick-list{position:relative;display:block;overflow:hidden;margin:0;padding:0}.slick-slider .slick-track,.slick-slider .slick-list{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.slick-track{position:relative;top:0;left:0;display:block;margin-left:auto;margin-right:auto}.slick-track:before,.slick-track:after{display:table;content:''}.slick-track:after{clear:both}.fab,.fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}.fa-facebook-f:before{content:"\f39e"}.fa-instagram:before{content:"\f16d"}.fa-pinterest-p:before{content:"\f231"}.fa-search:before{content:"\f002"}.fa-twitter:before{content:"\f099"}.fa-youtube:before{content:"\f167"}@font-face{font-family:"Font Awesome 5 Brands";font-style:normal;font-weight:400;font-display:swap;src:url(https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.eot);src:url(https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff2) format("woff2"),url(https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff) format("woff"),url(https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.ttf) format("truetype"),url(https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.svg#fontawesome) format("svg")}.fab{font-family:"Font Awesome 5 Brands"}@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:400;font-display:swap;src:url(https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.eot);src:url(https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.woff2) format("woff2"),url(https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.woff) format("woff"),url(https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.ttf) format("truetype"),url(https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.svg#fontawesome) format("svg")}.fab{font-weight:400}@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:900;font-display:swap;src:url(https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.eot);src:url(https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.woff2) format("woff2"),url(https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.woff) format("woff"),url(https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.ttf) format("truetype"),url(https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.svg#fontawesome) format("svg")}.fas{font-family:"Font Awesome 5 Free"}.fas{font-weight:900}.fl-builder-content *,.fl-builder-content *:before,.fl-builder-content *:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.fl-row:before,.fl-row:after,.fl-row-content:before,.fl-row-content:after,.fl-col-group:before,.fl-col-group:after,.fl-col:before,.fl-col:after,.fl-module:before,.fl-module:after,.fl-module-content:before,.fl-module-content:after{display:table;content:" "}.fl-row:after,.fl-row-content:after,.fl-col-group:after,.fl-col:after,.fl-module:after,.fl-module-content:after{clear:both}.fl-clear{clear:both}.fl-row,.fl-row-content{margin-left:auto;margin-right:auto}.fl-row-content-wrap{position:relative}.fl-col-group-equal-height,.fl-col-group-equal-height .fl-col,.fl-col-group-equal-height .fl-col-content{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.fl-col-group-equal-height{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;width:100%}.fl-col-group-equal-height .fl-col,.fl-col-group-equal-height .fl-col-content{-webkit-box-flex:1 1 auto;-moz-box-flex:1 1 auto;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto}.fl-col-group-equal-height .fl-col-content{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;flex-shrink:1;min-width:1px;max-width:100%;width:100%}.fl-col-group-equal-height:before,.fl-col-group-equal-height .fl-col:before,.fl-col-group-equal-height .fl-col-content:before,.fl-col-group-equal-height:after,.fl-col-group-equal-height .fl-col:after,.fl-col-group-equal-height .fl-col-content:after{content:none}.fl-col{float:left;min-height:1px}.fl-module img{max-width:100%}.fl-icon{display:table-cell;vertical-align:middle}.fl-icon a{text-decoration:none}.fl-icon i{float:right;height:auto;width:auto}.fl-icon i:before{border:none!important;height:auto;width:auto}.fl-photo{line-height:0;position:relative}.fl-photo-align-center{text-align:center}.fl-photo-content{display:inline-block;line-height:0;position:relative;max-width:100%}.fl-photo-content img{display:inline;height:auto;max-width:100%}.fl-form-error-message{clear:both;color:#dd6420;display:none;padding-top:8px;font-size:12px;font-weight:lighter}.fl-row-content-wrap{margin:0}.fl-row-content-wrap{padding:20px}.fl-col-content{margin:0}.fl-col-content{padding:0}.fl-module-content{margin:20px}@media (max-width:768px){.fl-row-content-wrap{background-attachment:scroll!important}.fl-col-group.fl-col-group-equal-height{display:block}.fl-col{clear:both;float:none;margin-left:auto;margin-right:auto;width:auto!important}.fl-col-small:not(.fl-col-small-full-width){max-width:400px}.fl-row[data-node] .fl-row-content-wrap{margin:0;padding-left:0;padding-right:0}.fl-col[data-node] .fl-col-content{margin:0;padding-left:0;padding-right:0}}.fl-node-5b1a91513f37c>.fl-row-content-wrap{background-color:#fff}.fl-node-5b1a9151413ab{width:33.25%}.fl-node-5b1a9151413d3{width:66.75%}@media (max-width:768px){.fl-photo-content{width:100%}}.fl-node-5b1a91bc0419a .fl-photo{text-align:center}.fl-node-5b1a91bc0419a>.fl-module-content{margin-bottom:10px}.fl-menu ul,.fl-menu li{list-style:none;margin:0;padding:0}.fl-menu .menu:before,.fl-menu .menu:after{content:'';display:table;clear:both}.fl-menu-horizontal{text-align:left}.fl-menu li{position:relative}.fl-menu a{display:block;padding:10px;text-decoration:none}.fl-menu .sub-menu{min-width:220px}.fl-menu .fl-has-submenu-container{position:relative}.fl-menu .fl-menu-toggle{position:absolute;top:50%;right:0}.fl-menu .fl-toggle-none .fl-menu-toggle:before{border-color:#333}.fl-menu .fl-menu-mobile-toggle{position:relative;padding:8px;background-color:transparent;border:none;color:#333;border-radius:0}.fl-menu .fl-menu-mobile-toggle.text{width:100%;text-align:center}.fl-node-5b1aa7df49d14 .menu a{padding-left:14px;padding-right:14px;padding-top:10px;padding-bottom:10px}.fl-node-5b1aa7df49d14 .menu .fl-has-submenu .sub-menu{display:none}.fl-node-5b1aa7df49d14 .fl-menu .sub-menu{background-color:#fff;-webkit-box-shadow:0 1px 20px rgba(0,0,0,.1);-ms-box-shadow:0 1px 20px rgba(0,0,0,.1);box-shadow:0 1px 20px rgba(0,0,0,.1)}.fl-node-5b1aa7df49d14 .fl-menu-horizontal.fl-toggle-none .fl-menu-toggle{width:28px;height:28px;margin:-14px 0 0}.fl-node-5b1aa7df49d14 .fl-menu-horizontal.fl-toggle-none .fl-menu-toggle{width:28px;height:28px;margin:-14px 0 0}.fl-node-5b1aa7df49d14 .fl-menu li{border-top:1px solid transparent}.fl-node-5b1aa7df49d14 .fl-menu li:first-child{border-top:none}@media (max-width:768px){.fl-node-5b1aa7df49d14 .fl-menu ul.menu{display:none;float:none}.fl-node-5b1aa7df49d14 .fl-menu .sub-menu{-webkit-box-shadow:none;-ms-box-shadow:none;box-shadow:none}.fl-node-5b1aa7df49d14 .sub-menu .menu-item a::before{content:'>';font-family:courier;margin-right:5px}}@media (min-width:769px){.fl-node-5b1aa7df49d14 .fl-menu .menu>li{display:inline-block}.fl-node-5b1aa7df49d14 .menu li{border-left:1px solid transparent;border-top:none}.fl-node-5b1aa7df49d14 .menu li:first-child{border:none}.fl-node-5b1aa7df49d14 .menu li li{border-top:1px solid transparent;border-left:none}.fl-node-5b1aa7df49d14 .menu .fl-has-submenu .sub-menu{position:absolute;top:100%;left:0;z-index:10;visibility:hidden;opacity:0;text-align:left}.fl-node-5b1aa7df49d14 .fl-menu .fl-menu-toggle{display:none}.fl-node-5b1aa7df49d14 ul.sub-menu{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0}.fl-node-5b1aa7df49d14 .fl-menu-mobile-toggle{display:none}}.fl-node-5b1aa7df49d14 .fl-menu-mobile-toggle{font-size:16px;text-transform:none;padding-left:14px;padding-right:14px;padding-top:10px;padding-bottom:10px;border-color:rgba(0,0,0,0.1)}.fl-node-5b1aa7df49d14 .fl-menu .menu,.fl-node-5b1aa7df49d14 .fl-menu .menu>li{font-size:16px;text-transform:none}.fl-node-5b1aa7df49d14 .fl-menu{text-align:right}.fl-node-5b1aa7df49d14 .fl-menu .menu{float:right}.fl-node-5b1aa7df49d14 .fl-menu-mobile-toggle{float:right}@media (max-width:992px){.fl-node-5b1aa7df49d14 .fl-menu .menu{float:none;display:inline-block;vertical-align:top}.fl-node-5b1aa7df49d14 .fl-menu-mobile-toggle{float:none}}@media (max-width:768px){.fl-node-5b1aa7df49d14 .fl-menu .menu{float:none;display:inline-block;vertical-align:top}.fl-node-5b1aa7df49d14 .fl-menu .sub-menu{background-color:transparent}.fl-node-5b1aa7df49d14 .fl-menu-mobile-toggle{float:none}}.fl-icon-group .fl-icon{display:inline-block;margin-bottom:10px;margin-top:10px}.fl-node-5b1aadd8bb996 .fl-icon i,.fl-node-5b1aadd8bb996 .fl-icon i:before{color:#d2d4da}.fl-node-5b1aadd8bb996 .fl-icon i,.fl-node-5b1aadd8bb996 .fl-icon i:before{font-size:20px}@media (max-width:992px){.fl-node-5b1aadd8bb996 .fl-icon i,.fl-node-5b1aadd8bb996 .fl-icon i:before{font-size:20px}}@media (max-width:768px){.fl-node-5b1aadd8bb996 .fl-icon i,.fl-node-5b1aadd8bb996 .fl-icon i:before{font-size:20px}}.fl-node-5b1aadd8bb996 .fl-module-content .fl-icon:nth-child(6) i,.fl-node-5b1aadd8bb996 .fl-module-content .fl-icon:nth-child(6) i:before{color:#d2d4da}.fl-node-5b1aadd8bb996 .fl-icon-group{text-align:right}.fl-node-5b1aadd8bb996 .fl-icon+.fl-icon{margin-left:8px}.fl-node-5b1aadd8bb996>.fl-module-content{margin-top:0;margin-right:0;margin-bottom:0;margin-left:0}.fl-node-5b1aa91884fa1>.fl-module-content{margin-top:0;margin-bottom:0}.fl-module-heading .fl-heading{padding:0!important;margin:0!important}.fl-form-field .hidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.fl-node-5b2ac10c47605 .fl-form-success-message{display:none}.fl-node-5b21a452ed56c>.fl-row-content-wrap{border-style:solid;border-width:0;background-clip:border-box;border-color:#f5f5f1;border-top-width:2px;border-bottom-width:2px}.fl-node-5b21a452ed56c>.fl-row-content-wrap{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0}@media (max-width:768px){.fl-node-5b21a452ed56c.fl-row>.fl-row-content-wrap{padding-right:10px;padding-left:10px}}.fl-node-5b21a452f1bd0{width:63.64%}.fl-node-5b21a452f1bd0>.fl-col-content{padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px}.fl-node-5b21a72ac5446{width:60.09%}.fl-node-5b21a72ac548b{width:39.91%}.fl-node-5b21a452f1bfd{width:36.36%}.fl-node-5b21a452f1bfd>.fl-col-content{border-style:solid;border-width:0;background-clip:border-box;border-color:#f5f5f1;border-left-width:2px}.fl-node-5b21a70bc9a2d.fl-module-heading .fl-heading{text-align:left}.fl-node-5eb3a058a7b2c>.fl-module-content{margin-top:0;margin-bottom:0}.fl-node-5fc57735c2e65>.fl-module-content{margin-top:10px;margin-right:0;margin-bottom:0;margin-left:0}.fl-node-5b21a5043980b>.fl-module-content{margin-top:40px}@media (max-width:768px){.fl-node-5b21a5043980b.fl-module>.fl-module-content{margin-right:10px;margin-left:10px}}@media (max-width:768px){.fl-node-5b21a5043980b>.fl-module-content{margin-top:20px}}.fl-node-5b2c23a96a1e1 .fl-form-success-message{display:none}.fl-node-5b1b09763b926>.fl-module-content{margin-top:0;margin-right:0;margin-bottom:0;margin-left:0}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}aside,figure,header,nav{display:block}a{background-color:transparent}h1{font-size:2em;margin:.67em 0}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}button,input{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button{-webkit-appearance:button}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=radio]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}button,input{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}figure{margin:0}img{vertical-align:middle}h1,h2,h3{font-family:inherit;font-weight:500;line-height:1.1;color:inherit}h1,h2,h3{margin-top:20px;margin-bottom:10px}h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}p{margin:0 0 10px}ul{margin-top:0;margin-bottom:10px}ul ul{margin-bottom:0}fieldset{min-width:0;padding:0;margin:0;border:0}legend{display:block;width:100%;padding:0;margin-bottom:20px;font-size:21px;line-height:inherit;color:#333;border:0;border-bottom:1px solid #e5e5e5}label{display:inline-block;max-width:100%;margin-bottom:5px;font-weight:700}input[type=search]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-appearance:none;-moz-appearance:none;appearance:none}input[type=radio]{margin:4px 0 0;margin-top:1px\9;line-height:normal}.form-control{display:block;width:100%;height:34px;padding:6px 12px;font-size:14px;line-height:1.42857143;color:#555;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075)}.form-control::-moz-placeholder{color:#999;opacity:1}.form-control:-ms-input-placeholder{color:#999}.form-control::-webkit-input-placeholder{color:#999}.form-control::-ms-expand{background-color:transparent;border:0}.hidden{display:none!important}@-ms-viewport{width:device-width}body{background-color:#f2f2f2;color:gray;font-family:helvetica,Verdana,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.45;font-style:normal;padding:0;word-wrap:break-word}h1,h2,h3{color:#333;font-family:helvetica,Verdana,Arial,sans-serif;font-weight:400;line-height:1.4;text-transform:none;font-style:normal}h3 a{color:#333}h1{font-size:36px;line-height:1.4;letter-spacing:0;color:#333;font-family:helvetica,Verdana,Arial,sans-serif;font-weight:400;font-style:normal;text-transform:none}h2{font-size:30px;line-height:1.4;letter-spacing:0}h3{font-size:24px;line-height:1.4;letter-spacing:0}a{color:#b3be35}iframe{max-width:100%}img{max-width:100%;height:auto}.fl-screen-reader-text{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}.fl-page{position:relative;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;margin:0 auto}.fl-page-content{background-color:#fff}.alignnone{margin:5px 20px 20px 0}.fl-widget{margin-bottom:40px}.fl-module-widget .fl-widget{margin-bottom:0}a.fl-button *,a.fl-button:visited *{color:#000}button{background-color:#b3be35;color:#000;font-size:16px;line-height:1.2;padding:6px 12px;font-weight:400;text-shadow:none;border:1px solid #868e28;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px}input[type=search]{display:block;width:100%;padding:6px 12px;font-size:14px;line-height:1.428571429;color:gray;vertical-align:middle;background-color:#fcfcfc;background-image:none;border:1px solid #e6e6e6;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px}input[type=search]::-webkit-input-placeholder{color:rgba(128,128,128,.4)}input[type=search]:-moz-placeholder{color:rgba(128,128,128,.4)}input[type=search]::-moz-placeholder{color:rgba(128,128,128,.4)}input[type=search]:-ms-input-placeholder{color:rgba(128,128,128,.4)}.form-control{background-color:#fcfcfc;border-color:#e6e6e6;color:gray}.form-control::-webkit-input-placeholder{color:rgba(128,128,128,.4)}.form-control:-moz-placeholder{color:rgba(128,128,128,.4)}.form-control::-moz-placeholder{color:rgba(128,128,128,.4)}.form-control:-ms-input-placeholder{color:rgba(128,128,128,.4)}@media (min-width:992px){.fl-page{-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;width:980px}.fl-full-width .fl-page{width:auto}}@media (max-width:991px){body{font-size:14px;line-height:1.45}h1{font-size:36px;line-height:1.4;letter-spacing:0}h2{font-size:30px;line-height:1.4;letter-spacing:0}h3{font-size:24px;line-height:1.4;letter-spacing:0}.fl-page button{font-size:16px;line-height:1.2}}@media (max-width:767px){body{font-size:14px;line-height:1.45}h1{font-size:36px;line-height:1.4;letter-spacing:0}h2{font-size:30px;line-height:1.4;letter-spacing:0}h3{font-size:24px;line-height:1.4;letter-spacing:0}h3{font-size:24px;line-height:1.4;letter-spacing:0}.fl-page button{font-size:16px;line-height:1.2}}@font-face{font-display:swap;font-family:santis;src:url(https://domesticate-me.com/wp-content/themes/bb-theme-child/fonts/santis_bold_italic-webfont.woff2) format("woff2"),url(https://domesticate-me.com/wp-content/themes/bb-theme-child/fonts/santis_bold_italic-webfont.woff) format("woff");font-weight:700;font-style:italic}@font-face{font-display:swap;font-family:santis;src:url(https://domesticate-me.com/wp-content/themes/bb-theme-child/fonts/santis_bold-webfont.woff2) format("woff2"),url(https://domesticate-me.com/wp-content/themes/bb-theme-child/fonts/santis_bold-webfont.woff) format("woff");font-weight:700;font-style:normal}@font-face{font-display:swap;font-family:santis;src:url(https://domesticate-me.com/wp-content/themes/bb-theme-child/fonts/santis_italic-webfont.woff2) format("woff2"),url(https://domesticate-me.com/wp-content/themes/bb-theme-child/fonts/santis_italic-webfont.woff) format("woff");font-weight:400;font-style:italic}@font-face{font-display:swap;font-family:santis;src:url(https://domesticate-me.com/wp-content/themes/bb-theme-child/fonts/santis-webfont.woff2) format("woff2"),url(https://domesticate-me.com/wp-content/themes/bb-theme-child/fonts/santis-webfont.woff) format("woff");font-weight:400;font-style:normal}html,body,div,span,iframe,h1,h2,h3,p,a,em,img,i,ul,li,fieldset,form,label,legend,aside,figure,header,nav{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}aside,figure,header,nav{display:block}html{font-size:62.5%}body{line-height:1;font-size:62.5%;-webkit-font-smoothing:auto;-moz-font-smoothing:auto;-o-font-smoothing:auto}h1,h2,h3,p{margin-bottom:1em;color:#212222}h1{font-family:santis,serif;font-size:4rem}h2{font-family:santis,serif;font-size:3rem;text-transform:uppercase;letter-spacing:.2rem}h3{font-family:santis,serif;font-size:2.4rem}p{font-family:aaux-next,sans-serif;font-size:1.8rem;line-height:1.5}p a{color:#b3be35}a{text-decoration:none;color:inherit}body{font-family:aaux-next,sans-serif;font-size:1.8rem;line-height:1.3;color:#212222}ul{list-style-position:outside;margin-left:2.5em}li{font-family:inherit;color:inherit;font-size:inherit;line-height:inherit;margin-bottom:.25em}em{font-style:italic}.fl-builder-content a.fl-button *{color:#fff!important}#header-row{text-align:right}#header-row #header-logo{max-width:400px}#header-row #header-menu .fl-module-content{margin-bottom:10px}#header-row #header-menu .menu a{font-family:aaux-next,sans-serif;font-size:1.6rem;text-transform:uppercase;letter-spacing:.2rem;padding:10px 0 5px;margin:0 14px}#header-row #header-menu li:last-child a{font-family:santis,serif;text-transform:uppercase;font-style:italic;letter-spacing:.15rem;color:#b3be35;padding-top:9px}#header-row #header-icons{display:inline-block;vertical-align:top}#header-row #header-icons .fl-icon-group .fl-icon{margin-top:3px;margin-bottom:0}#header-row #header-search{display:none;vertical-align:top}#header-row #header-search .fl-module-content{margin:0 20px 0 5px}#header-row #header-search input[type=search]{background-color:transparent;background-image:url(https://domesticate-me.com/wp-content/themes/bb-theme-child/img/search-icon.png);background-position:5px center;background-repeat:no-repeat;background-size:20px 20px;border:none;height:29px;margin:0;padding:0 0 0 34px;position:relative;width:0;float:right}.subscribe-form a.fl-button *{color:#212222!important}.disclosure-statement p{font-style:italic;font-size:16px;margin-bottom:0;color:#999}.disclosure-statement p a{text-decoration:underline}#post-body-column{width:calc(100% - 400px)}#post-body-column .fl-col-content{max-width:800px;margin:0 auto}#post-body-column #post-meta{font-size:1.6rem;text-transform:uppercase;letter-spacing:.2rem}#post-body-column #post-meta a{color:#b3be35}#sidebar-column{width:400px}#sidebar-column .fl-widget{border-bottom:2px solid #f5f5f1;margin-bottom:0;padding:50px}#sidebar-column .textwidget{text-align:center}#sidebar-column h3{font-size:2.2rem}#sidebar-column p{font-size:1.7rem;line-height:1.6}#sidebar-column p:last-child{margin-bottom:0}#sidebar-column .sidebar-button{background-color:#b3be35;padding:10px 30px;font-family:santis,serif;font-size:1.6rem;text-transform:uppercase;font-style:italic;letter-spacing:.15rem;display:inline-block;margin-top:15px}#sidebar-column .sidebar-button a{color:#fff}#sidebar-column .subscribe-form a.fl-button *{color:#212222!important}#sidebar-column .subscribe-form a.fl-button br{display:none}#sidebar-column #text-2 img{max-width:250px;border-radius:50%;margin:0}#sidebar-column #text-3{background-image:url(https://domesticate-me.com/wp-content/themes/bb-theme-child/img/green-pattern-update.png);background-size:60px;background-position:30px}#sidebar-column #text-3 .textwidget{background:#fff;border:2px solid #b3be35;padding:20px;margin:-20px}#shop-this-post #product-slider-parent{border-bottom:2px solid #f5f5f1;padding:60px 80px}#shop-this-post #product-slider-parent h2{text-align:center}#shop-this-post .not-from-shop.not-from-post,#shop-this-post .not-from-post.not-from-shop{display:none}@media screen and (max-width:768px){h1{font-size:3rem}#header-row{text-align:center}#header-row #header-logo{padding-bottom:20px}#header-row #header-logo img{max-width:300px;margin:auto}#header-row #header-menu{border-top:2px solid #f5f5f1;border-bottom:2px solid #f5f5f1}#header-row #header-menu .fl-module-content{margin:10px}#header-row #header-menu .fl-menu .fl-menu-mobile-toggle.text{font-size:1.6rem;text-transform:uppercase;letter-spacing:.2rem}#header-row #header-menu #menu-top-menu{text-align:center;padding:10px}#header-row #header-icons{margin-top:15px}#header-row #header-search{display:none}}@media screen and (min-width:769px) and (max-width:1200px){#post-body-column{width:66%}#sidebar-column{width:33%}#sidebar-column .fl-widget{padding:35px}#sidebar-column #text-2 img{max-width:100%}}@media screen and (min-width:769px){#header-row #header-search{display:inline-block}}@media screen and (min-width:769px) and (max-width:1000px){#header-row #header-menu .menu a{font-size:1.4rem;margin:0 5px;letter-spacing:.15rem}}.fl-node-5b2ac0faf3a90 .fl-form-success-message{display:none}</style>
+<meta name="description" content="The combo of sun-dried tomato-spiked white bean spread topped with a simple summer squash sauté hits all the right sweet, savory, and spicy notes, packs a serious nutritional punch, and tastes delightful any time of day." />
+<link rel="canonical" href="https://domesticate-me.com/summer-squash-toast/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Summer Squash Toasts with Sun-Dried Tomato White Bean Spread - Domesticate ME" />
+<meta property="og:description" content="The combo of sun-dried tomato-spiked white bean spread topped with a simple summer squash sauté hits all the right sweet, savory, and spicy notes, packs a serious nutritional punch, and tastes delightful any time of day." />
+<meta property="og:url" content="https://domesticate-me.com/summer-squash-toast/" />
+<meta property="og:site_name" content="Domesticate ME" />
+<meta property="article:publisher" content="https://www.facebook.com/DomesticateMe/" />
+<meta property="article:published_time" content="2018-07-06T10:47:40+00:00" />
+<meta property="article:modified_time" content="2020-10-24T17:16:13+00:00" />
+<meta property="og:image" content="https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast.jpg" />
+<meta property="og:image:width" content="683" />
+<meta property="og:image:height" content="1024" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta name="author" content="Serena Wolf" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@serenagwolf" />
+<meta name="twitter:site" content="@serenagwolf" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="Serena Wolf" />
+<meta name="twitter:label2" content="Est. reading time" />
+<meta name="twitter:data2" content="4 minutes" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://domesticate-me.com/summer-squash-toast/#article","isPartOf":{"@id":"https://domesticate-me.com/summer-squash-toast/"},"author":{"name":"Serena Wolf","@id":"https://domesticate-me.com/#/schema/person/686623a5aac9560aba19956cc64e8816"},"headline":"Summer Squash Toasts with Sun-Dried Tomato White Bean Spread","datePublished":"2018-07-06T10:47:40+00:00","dateModified":"2020-10-24T17:16:13+00:00","wordCount":865,"commentCount":1,"publisher":{"@id":"https://domesticate-me.com/#organization"},"image":{"@id":"https://domesticate-me.com/summer-squash-toast/#primaryimage"},"thumbnailUrl":"https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast.jpg","articleSection":["Summer","Breakfast","Vegetarian","Recipes"],"inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://domesticate-me.com/summer-squash-toast/#respond"]}]},{"@type":"WebPage","@id":"https://domesticate-me.com/summer-squash-toast/","url":"https://domesticate-me.com/summer-squash-toast/","name":"Summer Squash Toasts with Sun-Dried Tomato White Bean Spread - Domesticate ME","isPartOf":{"@id":"https://domesticate-me.com/#website"},"primaryImageOfPage":{"@id":"https://domesticate-me.com/summer-squash-toast/#primaryimage"},"image":{"@id":"https://domesticate-me.com/summer-squash-toast/#primaryimage"},"thumbnailUrl":"https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast.jpg","datePublished":"2018-07-06T10:47:40+00:00","dateModified":"2020-10-24T17:16:13+00:00","description":"The combo of sun-dried tomato-spiked white bean spread topped with a simple summer squash sauté hits all the right sweet, savory, and spicy notes, packs a serious nutritional punch, and tastes delightful any time of day.","breadcrumb":{"@id":"https://domesticate-me.com/summer-squash-toast/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://domesticate-me.com/summer-squash-toast/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://domesticate-me.com/summer-squash-toast/#primaryimage","url":"https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast.jpg","contentUrl":"https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast.jpg","width":683,"height":1024},{"@type":"BreadcrumbList","@id":"https://domesticate-me.com/summer-squash-toast/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://domesticate-me.com/"},{"@type":"ListItem","position":2,"name":"Recipes","item":"https://domesticate-me.com/category/recipes/"},{"@type":"ListItem","position":3,"name":"Summer","item":"https://domesticate-me.com/category/recipes/summer/"},{"@type":"ListItem","position":4,"name":"Summer Squash Toasts with Sun-Dried Tomato White Bean Spread"}]},{"@type":"WebSite","@id":"https://domesticate-me.com/#website","url":"https://domesticate-me.com/","name":"Domesticate ME","description":"In pursuit of good food and compliments.","publisher":{"@id":"https://domesticate-me.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://domesticate-me.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://domesticate-me.com/#organization","name":"Domesticate Me by Serena Wolf","url":"https://domesticate-me.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://domesticate-me.com/#/schema/logo/image/","url":"https://domesticate-me.com/wp-content/uploads/2020/03/Domesticate-Me-logo.png","contentUrl":"https://domesticate-me.com/wp-content/uploads/2020/03/Domesticate-Me-logo.png","width":840,"height":292,"caption":"Domesticate Me by Serena Wolf"},"image":{"@id":"https://domesticate-me.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/DomesticateMe/","https://twitter.com/serenagwolf","https://instagram.com/serenagwolf","https://pinterest.com/DomesticateMe/","https://www.youtube.com/channel/UCUUSQgyoDX4j3HtvpIzv1IA"]},{"@type":"Person","@id":"https://domesticate-me.com/#/schema/person/686623a5aac9560aba19956cc64e8816","name":"Serena Wolf","url":"https://domesticate-me.com/meet-serena/"},{"@type":"Recipe","name":"Summer Squash Toasts with Sun-Dried Tomato White Bean Spread","author":{"@id":"https://domesticate-me.com/#/schema/person/686623a5aac9560aba19956cc64e8816"},"description":"","datePublished":"2018-07-06T06:47:40+00:00","image":["https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-5.jpg","https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-5-500x500.jpg","https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-5-500x375.jpg","https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-5-480x270.jpg"],"recipeYield":["4","4 servings"],"prepTime":"PT15M","cookTime":"PT15M","totalTime":"PT25M","recipeIngredient":["1 tablespoon extra-virgin olive oil","2  medium zucchini (diced small)","1  medium summer squash (diced small)","Kosher salt","¼-½ teaspoon crushed red pepper flakes (depending on how much heat you like)","4  large eggs","4  large slices of bread (I recommend sourdough or a seeded loaf)","Chopped chives for garnish (optional)","One 15-ounce can cannellini beans (drained and rinsed)","1/3 cup sun-dried tomatoes packed in extra-virgin olive oil (drained, patted dry, and roughly chopped)","1  large garlic clove (peeled and smashed)","1 tablespoon balsamic vinegar","Kosher salt","Freshly ground black pepper","3 tablespoons olive oil from the sun-dried tomato jar","3-4 tablespoons water"],"recipeInstructions":[{"@type":"HowToStep","text":"Add the cannellini beans, sun-dried tomatoes, garlic, balsamic, and a good pinch of salt to the bowl of a food processor. Process for about a minute until relatively smooth (some small pieces of tomato are fine), scraping down the sides of the bowl a few times if necessary. With the processor running, slowly add the olive oil and process until well incorporated. Add the water one tablespoon at a time until the spread is smooth and spreadable. Season with extra salt and freshly ground black pepper to taste. Briefly set aside.","name":"Add the cannellini beans, sun-dried tomatoes, garlic, balsamic, and a good pinch of salt to the bowl of a food processor. Process for about a minute until relatively smooth (some small pieces of tomato are fine), scraping down the sides of the bowl a few times if necessary. With the processor running, slowly add the olive oil and process until well incorporated. Add the water one tablespoon at a time until the spread is smooth and spreadable. Season with extra salt and freshly ground black pepper to taste. Briefly set aside.","url":"https://domesticate-me.com/summer-squash-toast/#wprm-recipe-30671-step-0-0"},{"@type":"HowToStep","text":"Heat the olive oil in a large skillet over high heat. When the oil is hot and shimmering (but not smoking!), add the zucchini, summer squash, a large pinch of salt, and crushed red pepper. Cook for about 4 minutes, shaking the pan occasionally, or until the squash is just tender and browned in spots. Transfer to a bowl and cover with foil to keep warm while you cook the eggs.","name":"Heat the olive oil in a large skillet over high heat. When the oil is hot and shimmering (but not smoking!), add the zucchini, summer squash, a large pinch of salt, and crushed red pepper. Cook for about 4 minutes, shaking the pan occasionally, or until the squash is just tender and browned in spots. Transfer to a bowl and cover with foil to keep warm while you cook the eggs.","url":"https://domesticate-me.com/summer-squash-toast/#wprm-recipe-30671-step-0-1"},{"@type":"HowToStep","text":"Poach or fry the eggs, depending on your preference.","name":"Poach or fry the eggs, depending on your preference.","url":"https://domesticate-me.com/summer-squash-toast/#wprm-recipe-30671-step-0-2"},{"@type":"HowToStep","text":"While the eggs are cooking, toast (or grill!) the bread.","name":"While the eggs are cooking, toast (or grill!) the bread.","url":"https://domesticate-me.com/summer-squash-toast/#wprm-recipe-30671-step-0-3"},{"@type":"HowToStep","text":"Assembly the toasts: Spread each piece of toast with a thick layer of sun-dried tomato white bean spread. Top with cooked squash and an egg. Garnish with chives and extra salt and fresh ground pepper if you like, and serve immediately.","name":"Assembly the toasts: Spread each piece of toast with a thick layer of sun-dried tomato white bean spread. Top with cooked squash and an egg. Garnish with chives and extra salt and fresh ground pepper if you like, and serve immediately.","url":"https://domesticate-me.com/summer-squash-toast/#wprm-recipe-30671-step-0-4"}],"recipeCategory":["Breakfast","Recipes","Summer","Vegetarian"],"@id":"https://domesticate-me.com/summer-squash-toast/#recipe","isPartOf":{"@id":"https://domesticate-me.com/summer-squash-toast/#article"},"mainEntityOfPage":"https://domesticate-me.com/summer-squash-toast/"}]}</script>
+
+<link rel="dns-prefetch" href="//scripts.mediavine.com" />
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+<link rel="alternate" type="application/rss+xml" title="Domesticate ME &raquo; Feed" href="https://domesticate-me.com/feed/" />
+<link rel="preload" href="https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="https://domesticate-me.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link data-minify="1" rel="preload" href="https://domesticate-me.com/wp-content/cache/min/1/wp-content/plugins/wp-recipe-maker/dist/public-modern.css?ver=1695924557" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')" media="all" />
+<link rel="preload" href="https://domesticate-me.com/wp-includes/css/dist/block-library/style.min.css?ver=6.3.1" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')" media="all" />
+<style id="wp-block-library-theme-inline-css">
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link data-minify="1" rel="preload" href="https://domesticate-me.com/wp-content/cache/min/1/wp-content/plugins/featured-video-plus/styles/frontend.css?ver=1695924555" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')" media="all" />
+<link data-minify="1" rel="preload" href="https://domesticate-me.com/wp-content/cache/min/1/wp-content/plugins/scriptless-social-sharing/includes/css/scriptlesssocialsharing-fontawesome.css?ver=1695924557" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')" media="screen" />
+<link data-minify="1" rel="preload" href="https://domesticate-me.com/wp-content/cache/min/1/npm/slick-carousel@1.8.1/slick/slick.css?ver=1695924555" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')" media="all" />
+<link data-minify="1" rel="preload" href="https://domesticate-me.com/wp-content/cache/min/1/wp-content/plugins/wp-recipe-maker-premium/dist/public-premium.css?ver=1695924557" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')" media="all" />
+<link data-minify="1" rel="preload" href="https://domesticate-me.com/wp-content/cache/min/1/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/css/all.min.css?ver=1695924555" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')" media="all" />
+<link data-minify="1" rel="preload" href="https://domesticate-me.com/wp-content/cache/min/1/wp-content/uploads/bb-plugin/cache/5bb47805e149cdf42c16e319242f5834-layout-bundle.css?ver=1695924557" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')" media="all" />
+<link data-minify="1" rel="preload" href="https://domesticate-me.com/wp-content/cache/min/1/wp-content/plugins/wordpress-popular-posts/assets/css/wpp.css?ver=1695924555" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')" media="all" />
+<link data-minify="1" rel="preload" href="https://domesticate-me.com/wp-content/cache/min/1/wp-content/themes/bb-theme/css/bootstrap.min.css?ver=1695924555" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')" media="all" />
+<link data-minify="1" rel="preload" href="https://domesticate-me.com/wp-content/cache/min/1/wp-content/uploads/bb-theme/skin-6503e4b16f91b.css?ver=1695924555" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')" media="all" />
+<script src="https://domesticate-me.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0" id="jquery-core-js"></script>
+<script src="https://domesticate-me.com/wp-content/plugins/featured-video-plus/js/jquery.fitvids.min.js?ver=master-2015-08" id="jquery.fitvids-js" defer></script>
+<script id="fvp-frontend-js-extra">
+var fvpdata = {"ajaxurl":"https:\/\/domesticate-me.com\/wp-admin\/admin-ajax.php","nonce":"4915fdd507","fitvids":"1","dynamic":"","overlay":"","opacity":"0.75","color":"b","width":"640"};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://domesticate-me.com/wp-content/plugins/featured-video-plus/js/frontend.min.js?ver=2.3.3" id="fvp-frontend-js" defer></script>
+<script async="async" data-noptimize="1" data-cfasync="false" src="https://scripts.mediavine.com/tags/domesticate-me.js?ver=6.3.1" id="mv-script-wrapper-js"></script>
+<script src="https://domesticate-me.com/wp-includes/js/imagesloaded.min.js?ver=6.3.1" id="imagesloaded-js" defer></script>
+<script id="wpp-json" type="application/json">
+{"sampling_active":1,"sampling_rate":100,"ajax_url":"https:\/\/domesticate-me.com\/wp-json\/wordpress-popular-posts\/v1\/popular-posts","api_url":"https:\/\/domesticate-me.com\/wp-json\/wordpress-popular-posts","ID":19798,"token":"15f4c44bd6","lang":0,"debug":0}
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://domesticate-me.com/wp-content/plugins/wordpress-popular-posts/assets/js/wpp.min.js?ver=6.3.2" id="wpp-js-js" defer></script>
+<meta name="p:domain_verify" content="c7e2895a9229be11c28e4ed6c6d3a108" /><style type="text/css"> .tippy-box[data-theme~="wprm"] { background-color: #333333; color: #FFFFFF; } .tippy-box[data-theme~="wprm"][data-placement^="top"] > .tippy-arrow::before { border-top-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="bottom"] > .tippy-arrow::before { border-bottom-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="left"] > .tippy-arrow::before { border-left-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="right"] > .tippy-arrow::before { border-right-color: #333333; } .tippy-box[data-theme~="wprm"] a { color: #FFFFFF; } .wprm-comment-rating svg { width: 18px !important; height: 18px !important; } img.wprm-comment-rating { width: 90px !important; height: 18px !important; } .wprm-comment-rating svg path { fill: #343434; } .wprm-comment-rating svg polygon { stroke: #343434; } .wprm-comment-ratings-container svg .wprm-star-full { fill: #343434; } .wprm-comment-ratings-container svg .wprm-star-empty { stroke: #343434; }</style><style type="text/css">.wprm-glossary-term {color: #5A822B;text-decoration: underline;cursor: help;}</style><style type="text/css">.wprm-recipe-template-dm-jump-buttons {
+    font-family: inherit; /*wprm_font_family type=font*/
+    font-size: 0.9em; /*wprm_font_size type=font_size*/
+    text-align: center; /*wprm_text_align type=align*/
+    margin-top: 0px; /*wprm_margin_top type=size*/
+    margin-bottom: 10px; /*wprm_margin_bottom type=size*/
+}
+.wprm-recipe-template-dm-jump-buttons a  {
+    margin: 5px; /*wprm_margin_button type=size*/
+    margin: 5px; /*wprm_margin_button type=size*/
+	border-width: 2px !important;
+    letter-spacing: 1.5px;
+    font-style: italic;
+    font-family: santis, serif;
+}
+.wprm-recipe-template-dm-jump-buttons a:hover  {
+	background: #B3BE35 !important;
+    color: white !important;
+}
+
+.wprm-recipe-template-dm-jump-buttons a:first-child {
+    margin-left: 0;
+}
+.wprm-recipe-template-dm-jump-buttons a:last-child {
+    margin-right: 0;
+}.wprm-recipe-template-snippet-basic-buttons {
+    font-family: inherit; /* wprm_font_family type=font */
+    font-size: 0.9em; /* wprm_font_size type=font_size */
+    text-align: center; /* wprm_text_align type=align */
+    margin-top: 0px; /* wprm_margin_top type=size */
+    margin-bottom: 10px; /* wprm_margin_bottom type=size */
+}
+.wprm-recipe-template-snippet-basic-buttons a  {
+    margin: 5px; /* wprm_margin_button type=size */
+    margin: 5px; /* wprm_margin_button type=size */
+}
+
+.wprm-recipe-template-snippet-basic-buttons a:first-child {
+    margin-left: 0;
+}
+.wprm-recipe-template-snippet-basic-buttons a:last-child {
+    margin-right: 0;
+}</style><script data-minify="1" src="https://domesticate-me.com/wp-content/cache/min/1/ajax/libs/webfont/1.6.26/webfont.js?ver=1695924555" defer></script>
+<script type="rocketlazyloadscript">
+   WebFontConfig = {
+      typekit: { id: 'cdo8zim' }
+   };
+</script>
+<style id="wpp-loading-animation-styles">@-webkit-keyframes bgslide{from{background-position-x:0}to{background-position-x:-200%}}@keyframes bgslide{from{background-position-x:0}to{background-position-x:-200%}}.wpp-widget-placeholder,.wpp-widget-block-placeholder,.wpp-shortcode-placeholder{margin:0 auto;width:60px;height:3px;background:#dd3737;background:linear-gradient(90deg,#dd3737 0%,#571313 10%,#dd3737 100%);background-size:200% auto;border-radius:3px;-webkit-animation:bgslide 1s infinite linear;animation:bgslide 1s infinite linear}</style>
+<link rel="icon" href="https://domesticate-me.com/wp-content/uploads/2018/06/cropped-favicon_1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://domesticate-me.com/wp-content/uploads/2018/06/cropped-favicon_1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://domesticate-me.com/wp-content/uploads/2018/06/cropped-favicon_1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://domesticate-me.com/wp-content/uploads/2018/06/cropped-favicon_1-270x270.png" />
+<style id="wp-custom-css">
+			.wprm-recipe-template-dm-jump-buttons {
+	min-height: 55px;
+}
+#header-row #header-search {
+  display: none;
+}
+
+.facetwp-pager {
+	text-align: center;
+}
+.facetwp-page {
+	border: 1px solid #ccc;
+	padding: 4px 20px !important;
+	font-size: 1.25em;
+}
+.facetwp-page.active, .facetwp-page.dots  {
+	background: #eee;
+}
+
+/* Mediavine CSS */
+@media screen and (max-width: 1200px) and (min-width: 1024px) {
+    #post-body-column {
+        max-width: calc(100% - 380px) !important;
+    }
+	#sidebar-column{
+	min-width: 380px;
+}
+}
+@media only screen and (max-width: 1023px) {
+	#post-body-column, #sidebar-column{
+		max-width: 100% !important;
+		width: 100% !important;
+		float: none;
+		clear: both;
+	}
+}
+@media only screen and (max-width: 399px) {
+	#sidebar-column {
+		min-width: unset !important;
+	}
+	#post-body-column #zlrecipe-container {
+    padding: 0px !important;
+    border: none !important;
+}
+}
+@media only screen and (max-width: 359px) {
+	.fl-row-content-wrap {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+}
+/* End of Mediavine CSS */
+
+#header-row #header-menu .sub-menu li:last-child a{
+font-family:inherit;
+color:#000;
+font-style: normal;
+padding-top:10px;
+}
+
+#header-row #header-menu .sub-menu li:last-child a:hover{
+color:#b3be35;
+}
+
+#header-row #header-menu .current-menu-item .sub-menu a{
+border-bottom:0px;
+color:#000;
+}
+
+#header-row #header-menu .current-menu-item .sub-menu a:hover{
+color:#b3be35;
+}
+
+#post-share-buttons .sss-name{
+display:none;
+}
+
+#post-share-buttons{
+text-align:center;
+}
+
+#post-share-buttons .button{
+margin:0px 10px;
+}
+
+#post-share-buttons .button:before{
+color:#b3be35;
+}
+
+.search-page-box{
+text-align:center;
+}
+
+#header-icons .fa-search{
+display:none;
+}
+
+.fl-icon-group-right{
+margin-right:-10px;
+}
+
+@media (max-width:767px) {
+	#header-icons .fa-search {
+	display:inline-block;
+	}
+}
+@media (max-width:400px){
+	#sidebar-column .fl-widget{
+	padding:20px;
+	}
+}
+
+/* Desktop main menu layout */
+@media screen and (max-width: 850px) and (min-width: 769px) {
+#header-row #header-menu .menu a {
+	font-size: 1.2rem !important;
+}
+}
+
+@media screen and (max-width: 1130px) and (min-width: 851px) {
+#header-row #header-menu .menu a {
+    font-size: 1.4rem !important;
+	  margin: 0 5px !important;
+}
+}
+
+/* FD CLS font fix */
+
+@media screen and (max-width: 768px) {
+h1 {
+    font-size: 3rem !important;
+}
+}
+
+/* FD Comment Reply */
+p.comment-form-cookies-consent, p.comment-form-comment-subscribe {  display: flex;
+}
+#wp-comment-cookies-consent, #fdcr_subscribe_to_comment {
+    margin-right: 5px;
+    margin-top: 5px;
+}
+/*--------------------*/
+
+/* FD - Author comment reply */
+.fl-comments-list li.bypostauthor .comment-content,
+.fl-comments-list li.comment-author-serena-wolf .comment-content {
+  background-color: #f5f5f1;
+  border: 2px solid #b3be35;
+}
+
+/*--------------------*/
+
+/* FD - Add link styling to lists */
+
+.single li a {
+	color: #b3be35;
+}
+
+.single li a:hover {
+	color: #212222;
+}
+
+
+/*--------------------*/
+
+/* FD KG 2023-08-29 - Replace popular posts in sidebar with shortcode */
+
+h4.wpp-list-sidebar {
+	background-color: #f5f5f1;
+	padding: 10px 25px;
+	font-size: 2.2rem;
+	text-align: center;
+}		</style>
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><script type="rocketlazyloadscript">
+/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+(function(w){"use strict";if(!w.loadCSS){w.loadCSS=function(){}}
+var rp=loadCSS.relpreload={};rp.support=(function(){var ret;try{ret=w.document.createElement("link").relList.supports("preload")}catch(e){ret=!1}
+return function(){return ret}})();rp.bindMediaToggle=function(link){var finalMedia=link.media||"all";function enableStylesheet(){link.media=finalMedia}
+if(link.addEventListener){link.addEventListener("load",enableStylesheet)}else if(link.attachEvent){link.attachEvent("onload",enableStylesheet)}
+setTimeout(function(){link.rel="stylesheet";link.media="only x"});setTimeout(enableStylesheet,3000)};rp.poly=function(){if(rp.support()){return}
+var links=w.document.getElementsByTagName("link");for(var i=0;i<links.length;i++){var link=links[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"&&!link.getAttribute("data-loadcss")){link.setAttribute("data-loadcss",!0);rp.bindMediaToggle(link)}}};if(!rp.support()){rp.poly();var run=w.setInterval(rp.poly,500);if(w.addEventListener){w.addEventListener("load",function(){rp.poly();w.clearInterval(run)})}else if(w.attachEvent){w.attachEvent("onload",function(){rp.poly();w.clearInterval(run)})}}
+if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}
+else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
+</script>
+
+</head>
+<body class="post-template-default single single-post postid-19798 single-format-standard fl-theme-builder-header fl-theme-builder-header-header fl-theme-builder-footer fl-theme-builder-footer-footer fl-theme-builder-singular fl-theme-builder-singular-single-post fl-framework-bootstrap fl-preset-default fl-full-width fl-has-sidebar fl-search-active" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+<a aria-label="Skip to content" class="fl-screen-reader-text" href="#fl-main-content">Skip to content</a><div class="fl-page">
+<header class="fl-builder-content fl-builder-content-27812 fl-builder-global-templates-locked" data-post-id="27812" data-type="header" data-sticky="0" data-sticky-on data-sticky-breakpoint="medium" data-shrink="0" data-overlay="0" data-overlay-bg="transparent" data-shrink-image-height="50px" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader"><div id="header-row" class="fl-row fl-row-full-width fl-row-bg-color fl-node-5b1a91513f37c fl-row-default-height fl-row-align-center" data-node="5b1a91513f37c">
+<div class="fl-row-content-wrap">
+<div class="fl-row-content fl-row-full-width fl-node-content">
+<div class="fl-col-group fl-node-5b1a9151412b4" data-node="5b1a9151412b4">
+<div class="fl-col fl-node-5b1a9151413ab fl-col-small" data-node="5b1a9151413ab">
+<div class="fl-col-content fl-node-content"><div id="header-logo" class="fl-module fl-module-photo fl-node-5b1a91bc0419a" data-node="5b1a91bc0419a">
+<div class="fl-module-content fl-node-content">
+<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
+<div class="fl-photo-content fl-photo-img-png">
+<a href="/" target="_self" itemprop="url">
+<img decoding="async" class="fl-photo-img wp-image-27814 size-full" src="https://domesticate-me.com/wp-content/uploads/2018/06/domesticate-me.png" alt="domesticate-me" itemprop="image" height="296" width="1000" title="domesticate-me" data-no-lazy="1" srcset="https://domesticate-me.com/wp-content/uploads/2018/06/domesticate-me.png 1000w, https://domesticate-me.com/wp-content/uploads/2018/06/domesticate-me-300x89.png 300w, https://domesticate-me.com/wp-content/uploads/2018/06/domesticate-me-768x227.png 768w" sizes="(max-width: 1000px) 100vw, 1000px" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fl-col fl-node-5b1a9151413d3" data-node="5b1a9151413d3">
+<div class="fl-col-content fl-node-content"><div id="header-menu" class="fl-module fl-module-menu fl-node-5b1aa7df49d14" data-node="5b1aa7df49d14">
+<div class="fl-module-content fl-node-content">
+<div class="fl-menu fl-menu-responsive-toggle-mobile">
+<button class="fl-menu-mobile-toggle text"><span class="fl-menu-mobile-toggle-label" aria-label="Menu">Menu</span></button> <div class="fl-clear"></div>
+<nav aria-label="Menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement"><ul id="menu-top-menu" class="menu fl-menu-horizontal fl-toggle-none"><li id="menu-item-27830" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://domesticate-me.com/meet-serena/">Meet Serena</a></li><li id="menu-item-30839" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://domesticate-me.com/the-dude-diet/">Cookbook</a></li><li id="menu-item-27833" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent"><a href="https://domesticate-me.com/category/recipes/">Recipes</a></li><li id="menu-item-27832" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children fl-has-submenu"><div class="fl-has-submenu-container"><a href="https://domesticate-me.com/category/lifestyle/">Lifestyle</a><span class="fl-menu-toggle"></span></div><ul class="sub-menu"> <li id="menu-item-28502" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://domesticate-me.com/category/lifestyle/wellness/">Wellness</a></li> <li id="menu-item-28495" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://domesticate-me.com/category/lifestyle/beauty/">Beauty</a></li> <li id="menu-item-28500" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://domesticate-me.com/category/lifestyle/style/">Style</a></li> <li id="menu-item-28497" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://domesticate-me.com/category/lifestyle/entertaining/">Entertaining</a></li> <li id="menu-item-28498" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://domesticate-me.com/category/lifestyle/fitness/">Fitness</a></li> <li id="menu-item-28501" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://domesticate-me.com/category/lifestyle/travel/">Travel</a></li> <li id="menu-item-28499" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://domesticate-me.com/category/lifestyle/inspiration/">Inspiration</a></li></ul></li><li id="menu-item-29855" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://domesticate-me.com/classes/">Classes</a></li><li id="menu-item-31143" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://domesticate-me.com/video-on-demand-library/">Video On Demand Library</a></li><li id="menu-item-27847" class="menu-item menu-item-type-post_type_archive menu-item-object-shop"><a href="https://domesticate-me.com/shop/">Shop</a></li><li id="menu-item-27831" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://domesticate-me.com/contact/">Let’s Chat</a></li></ul></nav></div>
+</div>
+</div>
+<div id="header-icons" class="fl-module fl-module-icon-group fl-node-5b1aadd8bb996" data-node="5b1aadd8bb996">
+<div class="fl-module-content fl-node-content">
+<div class="fl-icon-group">
+<span class="fl-icon">
+<a href="https://instagram.com/serenagwolf" target="_blank" rel="noopener">
+<i class="fab fa-instagram" aria-hidden="true"></i>
+</a>
+</span>
+<span class="fl-icon">
+<a href="https://www.youtube.com/channel/UCUUSQgyoDX4j3HtvpIzv1IA" target="_blank" rel="noopener">
+<i class="fab fa-youtube" aria-hidden="true"></i>
+</a>
+</span>
+<span class="fl-icon">
+<a href="https://www.facebook.com/DomesticateMe?fref=ts" target="_blank" rel="noopener">
+<i class="fab fa-facebook-f" aria-hidden="true"></i>
+</a>
+</span>
+<span class="fl-icon">
+<a href="https://twitter.com/serenagwolf" target="_blank" rel="noopener">
+<i class="fab fa-twitter" aria-hidden="true"></i>
+</a>
+</span>
+<span class="fl-icon">
+<a href="http://pinterest.com/DomesticateMe/" target="_blank" rel="noopener">
+<i class="fab fa-pinterest-p" aria-hidden="true"></i>
+</a>
+</span>
+<span class="fl-icon">
+<a href="https://domesticate-me.com/search/" target="_self">
+<i class="fas fa-search" aria-hidden="true"></i>
+</a>
+</span>
+</div>
+</div>
+</div>
+<div id="header-search" class="fl-module fl-module-widget fl-node-5b1aa91884fa1" data-node="5b1aa91884fa1">
+<div class="fl-module-content fl-node-content">
+<div class="fl-widget">
+<div class="widget widget_search"><form aria-label="Search" method="get" role="search" action="https://domesticate-me.com/" title="Type and press Enter to search.">
+<input aria-label="Search" type="search" class="fl-search-input form-control" name="s" placeholder="Search" value onfocus="if (this.value === 'Search') { this.value = ''; }" onblur="if (this.value === '') this.value='Search';" />
+</form>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header> <div id="fl-main-content" class="fl-page-content" itemprop="mainContentOfPage" role="main">
+<div class="fl-builder-content fl-builder-content-28033 fl-builder-global-templates-locked" data-post-id="28033"><div class="fl-row fl-row-full-width fl-row-bg-none fl-node-5b21a452ed56c fl-row-default-height fl-row-align-center" data-node="5b21a452ed56c">
+<div class="fl-row-content-wrap">
+<div class="fl-row-content fl-row-full-width fl-node-content">
+<div class="fl-col-group fl-node-5b21a452f1a5c fl-col-group-equal-height fl-col-group-align-top" data-node="5b21a452f1a5c">
+<div id="post-body-column" class="fl-col fl-node-5b21a452f1bd0 fl-col-has-cols" data-node="5b21a452f1bd0">
+<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-5b21a70bc9a2d" data-node="5b21a70bc9a2d">
+<div class="fl-module-content fl-node-content">
+<h1 class="fl-heading">
+<span class="fl-heading-text">Summer Squash Toasts with Sun-Dried Tomato White Bean Spread</span>
+</h1>
+</div>
+</div>
+<div class="fl-col-group fl-node-5b21a72ac51e2 fl-col-group-nested" data-node="5b21a72ac51e2">
+<div class="fl-col fl-node-5b21a72ac5446" data-node="5b21a72ac5446">
+<div class="fl-col-content fl-node-content"><div id="post-meta" class="fl-module fl-module-html fl-node-5b21a7445671d" data-node="5b21a7445671d">
+<div class="fl-module-content fl-node-content">
+<div class="fl-html">
+July 6, 2018 | <a href="https://domesticate-me.com/category/recipes/summer/" rel="tag" class="summer">Summer</a> | <a href="https://domesticate-me.com/category/recipes/breakfast/" rel="tag" class="breakfast">Breakfast</a> | <a href="https://domesticate-me.com/category/recipes/vegetarian/" rel="tag" class="vegetarian">Vegetarian</a> | <a href="https://domesticate-me.com/category/recipes/" rel="tag" class="recipes">Recipes</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="fl-col fl-node-5b21a72ac548b fl-col-small" data-node="5b21a72ac548b">
+<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-html fl-node-5f94586fcc637" data-node="5f94586fcc637">
+<div class="fl-module-content fl-node-content">
+<div class="fl-html">
+<div class="wprm-recipe wprm-recipe-snippet wprm-recipe-template-dm-jump-buttons"><a href="#recipe" data-recipe="30671" style="color: #000000;background-color: #ffffff;border-color: #b3be35;border-radius: 0px;padding: 10px 15px;" class="wprm-recipe-jump wprm-recipe-link wprm-jump-to-recipe-shortcode wprm-block-text-uppercase wprm-jump-smooth-scroll wprm-recipe-jump-wide-button wprm-recipe-link-wide-button wprm-color-accent" data-smooth-scroll="500">Jump to Recipe</a>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fl-module fl-module-rich-text fl-node-5eb3a058a7b2c disclosure-statement" data-node="5eb3a058a7b2c">
+<div class="fl-module-content fl-node-content">
+<div class="fl-rich-text">
+<p><em>This post may contain affiliate links. Read about my <a href="/privacy-policy/">affiliate policy</a>.</em></p>
+</div>
+</div>
+</div>
+<div class="fl-module fl-module-html fl-node-5fc57735c2e65" data-node="5fc57735c2e65">
+<div class="fl-module-content fl-node-content">
+<div class="fl-html">
+</div>
+</div>
+</div>
+<div class="fl-module fl-module-rich-text fl-node-5b21a5043980b" data-node="5b21a5043980b">
+<div class="fl-module-content fl-node-content">
+<div class="fl-rich-text">
+<p><img decoding="async" fetchpriority="high" data-pin-title="Summer Squash Toasts with Sun-Dried Tomato White Bean Spread" class="alignnone size-full wp-image-28570" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20683%201024'%3E%3C/svg%3E" alt width="683" height="1024" data-lazy-srcset="https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast.jpg 683w, https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-500x750.jpg 500w" data-lazy-sizes="(max-width: 683px) 100vw, 683px" data-lazy-src="https://domesticate.wpengine.com/wp-content/uploads/2018/08/Summer-Squash-Toast.jpg" /><noscript><img decoding="async" fetchpriority="high" data-pin-title="Summer Squash Toasts with Sun-Dried Tomato White Bean Spread" class="alignnone size-full wp-image-28570" src="https://domesticate.wpengine.com/wp-content/uploads/2018/08/Summer-Squash-Toast.jpg" alt="" width="683" height="1024" srcset="https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast.jpg 683w, https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-500x750.jpg 500w" sizes="(max-width: 683px) 100vw, 683px" /></noscript></p>
+<p>If you’re reading this…</p>
+<p>I’m honeymooning on the beach in Mozambique.</p>
+<p>What’s new with your weird blog lady, you ask?</p>
+<p>I mean, where to begin??! Everything is magic, so let’s just hit the highlights.</p>
+<p>Last week, Logan and I bungee jumped over Victoria Falls. I wasn’t scared, and even though it looks extremely painful when you watch people do it on YouTube, it didn’t hurt a bit! Don’t worry, there’s a video.</p>
+<p>I saw every single possible animal AND their babies on safari. It blew my mind, and I did an embarrassing amount of crying. So many big cat cubs. (They were so fluffy, I thought I might die.)</p>
+<p>Neither Logan nor I have weird sunburns, and the malaria pills didn’t give me night terrors!</p>
+<p>I’ve read three books, slept roughly 12 hours a day thanks to thrice daily naps, and haven’t tackled my inbox for two weeks. My blood is mostly champagne at this point. I can’t remember the last time I felt this relaxed. Wait. I’m not sure I’ve ever felt this relaxed? It feels good.<br/>
+<span id="more-19798"></span><br/>
+If you’re super jealous right now, I get it. But I made you some really good summery toast in the hope that you will hate me a teensy bit less.</p>
+<p><strong><em>Full disclosure:</em></strong><em> I wrote this 2 weeks ago, the night before I left for Africa. But all of the above statements could totally be true by now. I was manifesting, dammit. Fingies crossed the universe brought me those baby animals.</em></p>
+<p><img decoding="async" data-pin-title="Summer Squash Toasts with Sun-Dried Tomato White Bean Spread" class="alignnone size-full wp-image-28571" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20683%201024'%3E%3C/svg%3E" alt width="683" height="1024" data-lazy-srcset="https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-2.jpg 683w, https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-2-500x750.jpg 500w" data-lazy-sizes="(max-width: 683px) 100vw, 683px" data-lazy-src="https://domesticate.wpengine.com/wp-content/uploads/2018/08/Summer-Squash-Toast-2.jpg" /><noscript><img decoding="async" data-pin-title="Summer Squash Toasts with Sun-Dried Tomato White Bean Spread" class="alignnone size-full wp-image-28571" src="https://domesticate.wpengine.com/wp-content/uploads/2018/08/Summer-Squash-Toast-2.jpg" alt="" width="683" height="1024" srcset="https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-2.jpg 683w, https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-2-500x750.jpg 500w" sizes="(max-width: 683px) 100vw, 683px" /></noscript></p>
+<p>In all seriousness though, this is very good toast. And I should know because I eat a disturbing amount of toast. At least 50% of my breakfasts and sassy desk lunches are some form of toast (don’t judge), and they usually fall into two categories: avocado or bean spread (i.e. hummus, white bean, etc.).</p>
+<p>There’s not much variation in my avocado smash (why mess with success?), but when it comes to the latter category, I like to play with my spread flavors and vegetable choices. This combo of sun-dried tomato-spiked white bean spread topped with a simple summer squash sauté has been a favorite of late, and I highly recommend taking it for a spin ASAP. It hits all the right sweet, savory, and spicy notes (I like to be heavy handed with crushed red pepper), packs a serious nutritional punch, and tastes delightful any time of day. Topping it off with a poached egg is optional, but why anyone would deny themselves the pleasure of #yolkporn is somewhat beyond me. (For those who struggle with poaching eggs, I cannot say enough good things about the <a href="https://food52.com/blog/3180-perfect-poached-eggs" target="_blank" rel="noopener noreferrer">control freak method</a>.)</p>
+<p><img decoding="async" data-pin-title="Summer Squash Toasts with Sun-Dried Tomato White Bean Spread" class="alignnone size-full wp-image-28572" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%201024'%3E%3C/svg%3E" alt width="700" height="1024" data-lazy-srcset="https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-5.jpg 700w, https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-5-500x731.jpg 500w" data-lazy-sizes="(max-width: 700px) 100vw, 700px" data-lazy-src="https://domesticate.wpengine.com/wp-content/uploads/2018/08/Summer-Squash-Toast-5.jpg" /><noscript><img decoding="async" data-pin-title="Summer Squash Toasts with Sun-Dried Tomato White Bean Spread" class="alignnone size-full wp-image-28572" src="https://domesticate.wpengine.com/wp-content/uploads/2018/08/Summer-Squash-Toast-5.jpg" alt="" width="700" height="1024" srcset="https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-5.jpg 700w, https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-5-500x731.jpg 500w" sizes="(max-width: 700px) 100vw, 700px" /></noscript></p>
+<p>Oh, and if you were thinking about turning these toasts into bite-size crostini and serving them at your summer soirées, you are a genius. The squash is great at room temperature.</p>
+<p><img decoding="async" data-pin-title="Summer Squash Toasts with Sun-Dried Tomato White Bean Spread" class="alignnone size-full wp-image-28573" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20768%20512'%3E%3C/svg%3E" alt width="768" height="512" data-lazy-srcset="https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-3.jpg 768w, https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-3-500x333.jpg 500w" data-lazy-sizes="(max-width: 768px) 100vw, 768px" data-lazy-src="https://domesticate.wpengine.com/wp-content/uploads/2018/08/Summer-Squash-Toast-3.jpg" /><noscript><img decoding="async" data-pin-title="Summer Squash Toasts with Sun-Dried Tomato White Bean Spread" class="alignnone size-full wp-image-28573" src="https://domesticate.wpengine.com/wp-content/uploads/2018/08/Summer-Squash-Toast-3.jpg" alt="" width="768" height="512" srcset="https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-3.jpg 768w, https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-3-500x333.jpg 500w" sizes="(max-width: 768px) 100vw, 768px" /></noscript></p>
+<p><em><div id="recipe"></div><div id="wprm-recipe-container-30671" class="wprm-recipe-container" data-recipe-id="30671" data-servings="4"><div class="wprm-recipe wprm-recipe-template-dm-customtemplate"><div class="recipe-top">
+<div class="top-left">
+<div class="wprm-recipe-image wprm-block-image-normal"><img style="border-width: 0px;border-style: solid;border-color: #666666;" width="150" height="150" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20150%20150'%3E%3C/svg%3E" class="attachment-thumbnail size-thumbnail" alt decoding="async" data-lazy-srcset="https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-5-150x150.jpg 150w, https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-5-500x500.jpg 500w" data-lazy-sizes="(max-width: 150px) 100vw, 150px" data-pin-url="https://domesticate-me.com/summer-squash-toast/?tp_image_id=28572" data-lazy-src="https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-5-150x150.jpg" /><noscript><img style="border-width: 0px;border-style: solid;border-color: #666666;" width="150" height="150" src="https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-5-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" srcset="https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-5-150x150.jpg 150w, https://domesticate-me.com/wp-content/uploads/2018/08/Summer-Squash-Toast-5-500x500.jpg 500w" sizes="(max-width: 150px) 100vw, 150px" data-pin-url="https://domesticate-me.com/summer-squash-toast/?tp_image_id=28572" /></noscript></div>
+</div>
+<div class="top-right">
+<h2 class="wprm-recipe-name wprm-block-text-bold">Summer Squash Toasts with Sun-Dried Tomato White Bean Spread</h2>
+Author - <a href="/meet-serena/"><span class="wprm-recipe-details wprm-recipe-author wprm-block-text-normal"><a href="https://domesticate-me.com/meet-serena/" target="_self">Serena Wolf</a></span></a>
+<style>#wprm-recipe-user-rating-0 .wprm-rating-star.wprm-rating-star-full svg * { fill: #b3be35; }#wprm-recipe-user-rating-0 .wprm-rating-star.wprm-rating-star-33 svg * { fill: url(#wprm-recipe-user-rating-0-33); }#wprm-recipe-user-rating-0 .wprm-rating-star.wprm-rating-star-50 svg * { fill: url(#wprm-recipe-user-rating-0-50); }#wprm-recipe-user-rating-0 .wprm-rating-star.wprm-rating-star-66 svg * { fill: url(#wprm-recipe-user-rating-0-66); }linearGradient#wprm-recipe-user-rating-0-33 stop { stop-color: #b3be35; }linearGradient#wprm-recipe-user-rating-0-50 stop { stop-color: #b3be35; }linearGradient#wprm-recipe-user-rating-0-66 stop { stop-color: #b3be35; }</style><svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="display:block;width:0px;height:0px"><defs><linearGradient id="wprm-recipe-user-rating-0-33"><stop offset="0%" stop-opacity="1" /><stop offset="33%" stop-opacity="1" /><stop offset="33%" stop-opacity="0" /><stop offset="100%" stop-opacity="0" /></linearGradient></defs><defs><linearGradient id="wprm-recipe-user-rating-0-50"><stop offset="0%" stop-opacity="1" /><stop offset="50%" stop-opacity="1" /><stop offset="50%" stop-opacity="0" /><stop offset="100%" stop-opacity="0" /></linearGradient></defs><defs><linearGradient id="wprm-recipe-user-rating-0-66"><stop offset="0%" stop-opacity="1" /><stop offset="66%" stop-opacity="1" /><stop offset="66%" stop-opacity="0" /><stop offset="100%" stop-opacity="0" /></linearGradient></defs></svg><div id="wprm-recipe-user-rating-0" class="wprm-recipe-rating wprm-user-rating wprm-user-rating-not-voted wprm-user-rating-allowed" data-recipe="30671" data-average="0" data-count="0" data-total="0" data-user="0" data-decimals="2"><span class="wprm-rating-star wprm-rating-star-1 wprm-rating-star-empty" data-rating="1" data-color="#b3be35" role="button" tabindex="0" aria-label="Rate this recipe 1 out of 5 stars" onmouseenter="window.WPRecipeMaker.userRating.enter(this)" onfocus="window.WPRecipeMaker.userRating.enter(this)" onmouseleave="window.WPRecipeMaker.userRating.leave(this)" onblur="window.WPRecipeMaker.userRating.leave(this)" onclick="window.WPRecipeMaker.userRating.click(this, event)" onkeypress="window.WPRecipeMaker.userRating.click(this, event)" style="font-size: 1em;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><polygon fill="none" stroke="#b3be35" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter" /></g></svg></span><span class="wprm-rating-star wprm-rating-star-2 wprm-rating-star-empty" data-rating="2" data-color="#b3be35" role="button" tabindex="0" aria-label="Rate this recipe 2 out of 5 stars" onmouseenter="window.WPRecipeMaker.userRating.enter(this)" onfocus="window.WPRecipeMaker.userRating.enter(this)" onmouseleave="window.WPRecipeMaker.userRating.leave(this)" onblur="window.WPRecipeMaker.userRating.leave(this)" onclick="window.WPRecipeMaker.userRating.click(this, event)" onkeypress="window.WPRecipeMaker.userRating.click(this, event)" style="font-size: 1em;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><polygon fill="none" stroke="#b3be35" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter" /></g></svg></span><span class="wprm-rating-star wprm-rating-star-3 wprm-rating-star-empty" data-rating="3" data-color="#b3be35" role="button" tabindex="0" aria-label="Rate this recipe 3 out of 5 stars" onmouseenter="window.WPRecipeMaker.userRating.enter(this)" onfocus="window.WPRecipeMaker.userRating.enter(this)" onmouseleave="window.WPRecipeMaker.userRating.leave(this)" onblur="window.WPRecipeMaker.userRating.leave(this)" onclick="window.WPRecipeMaker.userRating.click(this, event)" onkeypress="window.WPRecipeMaker.userRating.click(this, event)" style="font-size: 1em;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><polygon fill="none" stroke="#b3be35" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter" /></g></svg></span><span class="wprm-rating-star wprm-rating-star-4 wprm-rating-star-empty" data-rating="4" data-color="#b3be35" role="button" tabindex="0" aria-label="Rate this recipe 4 out of 5 stars" onmouseenter="window.WPRecipeMaker.userRating.enter(this)" onfocus="window.WPRecipeMaker.userRating.enter(this)" onmouseleave="window.WPRecipeMaker.userRating.leave(this)" onblur="window.WPRecipeMaker.userRating.leave(this)" onclick="window.WPRecipeMaker.userRating.click(this, event)" onkeypress="window.WPRecipeMaker.userRating.click(this, event)" style="font-size: 1em;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><polygon fill="none" stroke="#b3be35" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter" /></g></svg></span><span class="wprm-rating-star wprm-rating-star-5 wprm-rating-star-empty" data-rating="5" data-color="#b3be35" role="button" tabindex="0" aria-label="Rate this recipe 5 out of 5 stars" onmouseenter="window.WPRecipeMaker.userRating.enter(this)" onfocus="window.WPRecipeMaker.userRating.enter(this)" onmouseleave="window.WPRecipeMaker.userRating.leave(this)" onblur="window.WPRecipeMaker.userRating.leave(this)" onclick="window.WPRecipeMaker.userRating.click(this, event)" onkeypress="window.WPRecipeMaker.userRating.click(this, event)" style="font-size: 1em;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><polygon fill="none" stroke="#b3be35" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter" /></g></svg></span></div>
+<div class="pp-flex">
+<a href="https://domesticate-me.com/wprm_print/30671" style="color: #231f20;" class="wprm-recipe-print wprm-recipe-link wprm-print-recipe-shortcode wprm-block-text-normal" data-recipe-id="30671" data-template target="_blank" rel="nofollow">Print recipe</a>
+<span class="divider"></span>
+<span class="wprm-recipe-grow-container"><a href="https://app.grow.me" target="_blank" rel="nofollow noreferrer" style="color: #231f20;" class="wprm-recipe-grow-not-saved wprm-recipe-grow wprm-recipe-link wprm-block-text-normal" data-recipe-id="30671">Save Recipe</a><a href="https://app.grow.me" target="_blank" rel="nofollow noreferrer" style="color: #231f20;display: none;" class="wprm-recipe-grow-saved wprm-recipe-grow wprm-recipe-link wprm-block-text-normal" data-recipe-id="30671">Saved!</a></span>
+</div>
+</div>
+</div>
+<div class="time-flex">
+<div class="wprm-recipe-meta-container wprm-recipe-times-container wprm-recipe-details-container wprm-recipe-details-container-columns wprm-block-text-normal" style><div class="wprm-recipe-block-container wprm-recipe-block-container-columns wprm-block-text-normal wprm-recipe-time-container wprm-recipe-prep-time-container" style><span class="wprm-recipe-details-label wprm-block-text-bold wprm-recipe-time-label wprm-recipe-prep-time-label">Prep Time: </span><span class="wprm-recipe-time wprm-block-text-normal"><span class="wprm-recipe-details wprm-recipe-details-minutes wprm-recipe-prep_time wprm-recipe-prep_time-minutes">15<span class="sr-only screen-reader-text wprm-screen-reader-text"> minutes</span></span> <span class="wprm-recipe-details-unit wprm-recipe-details-minutes wprm-recipe-prep_time-unit wprm-recipe-prep_timeunit-minutes" aria-hidden="true">minutes</span></span></div><div class="wprm-recipe-block-container wprm-recipe-block-container-columns wprm-block-text-normal wprm-recipe-time-container wprm-recipe-cook-time-container" style><span class="wprm-recipe-details-label wprm-block-text-bold wprm-recipe-time-label wprm-recipe-cook-time-label">Cook Time: </span><span class="wprm-recipe-time wprm-block-text-normal"><span class="wprm-recipe-details wprm-recipe-details-minutes wprm-recipe-cook_time wprm-recipe-cook_time-minutes">15<span class="sr-only screen-reader-text wprm-screen-reader-text"> minutes</span></span> <span class="wprm-recipe-details-unit wprm-recipe-details-minutes wprm-recipe-cook_time-unit wprm-recipe-cook_timeunit-minutes" aria-hidden="true">minutes</span></span></div><div class="wprm-recipe-block-container wprm-recipe-block-container-columns wprm-block-text-normal wprm-recipe-time-container wprm-recipe-total-time-container" style><span class="wprm-recipe-details-label wprm-block-text-bold wprm-recipe-time-label wprm-recipe-total-time-label">Total Time: </span><span class="wprm-recipe-time wprm-block-text-normal"><span class="wprm-recipe-details wprm-recipe-details-minutes wprm-recipe-total_time wprm-recipe-total_time-minutes">25<span class="sr-only screen-reader-text wprm-screen-reader-text"> minutes</span></span> <span class="wprm-recipe-details-unit wprm-recipe-details-minutes wprm-recipe-total_time-unit wprm-recipe-total_timeunit-minutes" aria-hidden="true">minutes</span></span></div></div>
+<div class="wprm-recipe-block-container wprm-recipe-block-container-columns wprm-block-text-normal wprm-recipe-servings-container" style><span class="wprm-recipe-details-label wprm-block-text-bold wprm-recipe-servings-label">Yields: </span><span class="wprm-recipe-servings-with-unit"><span class="wprm-recipe-servings wprm-recipe-details wprm-recipe-servings-30671 wprm-recipe-servings-adjustable-tooltip wprm-block-text-normal" data-initial-servings data-recipe="30671" aria-label="Adjust recipe servings">4</span> <span class="wprm-recipe-servings-unit wprm-recipe-details-unit wprm-block-text-normal">servings</span></span></div>
+</div>
+<div class="recipe-scale">
+</div>
+<div class="wprm-recipe-ingredients-container wprm-recipe-ingredients-no-images wprm-recipe-30671-ingredients-container wprm-block-text-normal wprm-ingredient-style-regular wprm-recipe-images-before" data-recipe="30671" data-servings="4"><h3 class="wprm-recipe-header wprm-recipe-ingredients-header wprm-block-text-bold wprm-align-left wprm-header-decoration-none" style>Ingredients</h3><div class="wprm-recipe-ingredient-group"><ul class="wprm-recipe-ingredients"><li class="wprm-recipe-ingredient" style="list-style-type: none;"><span class="wprm-recipe-ingredient-amount">1</span>&#32;<span class="wprm-recipe-ingredient-unit">tablespoon</span>&#32;<span class="wprm-recipe-ingredient-name">extra-virgin olive oil</span></li><li class="wprm-recipe-ingredient" style="list-style-type: none;"><span class="wprm-recipe-ingredient-amount">2</span>&#32;<span class="wprm-recipe-ingredient-name">medium zucchini</span>&#32;<span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">diced small</span></li><li class="wprm-recipe-ingredient" style="list-style-type: none;"><span class="wprm-recipe-ingredient-amount">1</span>&#32;<span class="wprm-recipe-ingredient-name">medium summer squash</span>&#32;<span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">diced small</span></li><li class="wprm-recipe-ingredient" style="list-style-type: none;"><span class="wprm-recipe-ingredient-name">Kosher salt</span></li><li class="wprm-recipe-ingredient" style="list-style-type: none;"><span class="wprm-recipe-ingredient-amount">¼-½</span>&#32;<span class="wprm-recipe-ingredient-unit">teaspoon</span>&#32;<span class="wprm-recipe-ingredient-name">crushed red pepper flakes</span>&#32;<span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">depending on how much heat you like</span></li><li class="wprm-recipe-ingredient" style="list-style-type: none;"><span class="wprm-recipe-ingredient-amount">4</span>&#32;<span class="wprm-recipe-ingredient-name">large eggs</span></li><li class="wprm-recipe-ingredient" style="list-style-type: none;"><span class="wprm-recipe-ingredient-amount">4</span>&#32;<span class="wprm-recipe-ingredient-name">large slices of bread</span>&#32;<span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">I recommend sourdough or a seeded loaf</span></li><li class="wprm-recipe-ingredient" style="list-style-type: none;"><span class="wprm-recipe-ingredient-name">Chopped chives for garnish</span>&#32;<span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">optional</span></li></ul></div><div class="wprm-recipe-ingredient-group"><h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-bold">For the spread:</h4><ul class="wprm-recipe-ingredients"><li class="wprm-recipe-ingredient" style="list-style-type: none;"><span class="wprm-recipe-ingredient-name">One 15-ounce can cannellini beans</span>&#32;<span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">drained and rinsed</span></li><li class="wprm-recipe-ingredient" style="list-style-type: none;"><span class="wprm-recipe-ingredient-amount">1/3</span>&#32;<span class="wprm-recipe-ingredient-unit">cup</span>&#32;<span class="wprm-recipe-ingredient-name">sun-dried tomatoes packed in extra-virgin olive oil</span>&#32;<span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">drained, patted dry, and roughly chopped</span></li><li class="wprm-recipe-ingredient" style="list-style-type: none;"><span class="wprm-recipe-ingredient-amount">1</span>&#32;<span class="wprm-recipe-ingredient-name">large garlic clove</span>&#32;<span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">peeled and smashed</span></li><li class="wprm-recipe-ingredient" style="list-style-type: none;"><span class="wprm-recipe-ingredient-amount">1</span>&#32;<span class="wprm-recipe-ingredient-unit">tablespoon</span>&#32;<span class="wprm-recipe-ingredient-name">balsamic vinegar</span></li><li class="wprm-recipe-ingredient" style="list-style-type: none;"><span class="wprm-recipe-ingredient-name">Kosher salt</span></li><li class="wprm-recipe-ingredient" style="list-style-type: none;"><span class="wprm-recipe-ingredient-name">Freshly ground black pepper</span></li><li class="wprm-recipe-ingredient" style="list-style-type: none;"><span class="wprm-recipe-ingredient-amount">3</span>&#32;<span class="wprm-recipe-ingredient-unit">tablespoons</span>&#32;<span class="wprm-recipe-ingredient-name">olive oil from the sun-dried tomato jar</span></li><li class="wprm-recipe-ingredient" style="list-style-type: none;"><span class="wprm-recipe-ingredient-amount">3-4</span>&#32;<span class="wprm-recipe-ingredient-unit">tablespoons</span>&#32;<span class="wprm-recipe-ingredient-name">water</span></li></ul></div></div>
+<div class="wprm-spacer"></div>
+<div class="wprm-recipe-instructions-container wprm-recipe-30671-instructions-container wprm-block-text-normal" data-recipe="30671"><h3 class="wprm-recipe-header wprm-recipe-instructions-header wprm-block-text-bold wprm-align-left wprm-header-decoration-none" style>Instructions</h3><div class="wprm-recipe-instruction-group"><ul class="wprm-recipe-instructions"><li id="wprm-recipe-30671-step-0-0" class="wprm-recipe-instruction" style="list-style-type: decimal;"><div class="wprm-recipe-instruction-text" style="margin-bottom: 10px" ;>Add the cannellini beans, sun-dried tomatoes, garlic, balsamic, and a good pinch of salt to the bowl of a food processor. Process for about a minute until relatively smooth (some small pieces of tomato are fine), scraping down the sides of the bowl a few times if necessary. With the processor running, slowly add the olive oil and process until well incorporated. Add the water one tablespoon at a time until the spread is smooth and spreadable. Season with extra salt and freshly ground black pepper to taste. Briefly set aside.</div></li><li id="wprm-recipe-30671-step-0-1" class="wprm-recipe-instruction" style="list-style-type: decimal;"><div class="wprm-recipe-instruction-text" style="margin-bottom: 10px" ;>Heat the olive oil in a large skillet over high heat. When the oil is hot and shimmering (but not smoking!), add the zucchini, summer squash, a large pinch of salt, and crushed red pepper. Cook for about 4 minutes, shaking the pan occasionally, or until the squash is just tender and browned in spots. Transfer to a bowl and cover with foil to keep warm while you cook the eggs.</div></li><li id="wprm-recipe-30671-step-0-2" class="wprm-recipe-instruction" style="list-style-type: decimal;"><div class="wprm-recipe-instruction-text" style="margin-bottom: 10px" ;>Poach or fry the eggs, depending on your preference.</div></li><li id="wprm-recipe-30671-step-0-3" class="wprm-recipe-instruction" style="list-style-type: decimal;"><div class="wprm-recipe-instruction-text" style="margin-bottom: 10px" ;>While the eggs are cooking, toast (or grill!) the bread.</div></li><li id="wprm-recipe-30671-step-0-4" class="wprm-recipe-instruction" style="list-style-type: decimal;"><div class="wprm-recipe-instruction-text" style="margin-bottom: 10px" ;>Assembly the toasts: Spread each piece of toast with a thick layer of sun-dried tomato white bean spread. Top with cooked squash and an egg. Garnish with chives and extra salt and fresh ground pepper if you like, and serve immediately.</div></li></ul></div></div>
+<div class="wprm-spacer"></div></div></div>This post is sponsored by my longtime friends at Peapod Delivers. As always, all opinions are my own. Thank you for supporting the brands that help keep this site alive and kicking!</em></p>
+</div>
+</div>
+</div>
+<div id="shop-this-post" class="fl-module fl-module-html fl-node-5b21c1b604cf6" data-node="5b21c1b604cf6">
+<div class="fl-module-content fl-node-content">
+<div class="fl-html">
+<div id="product-slider-parent" class="from-shop from-post">
+<h2>Shop this post</h2>
+<div class="product-slider">
+<div>
+<a rel="nofollow" target="_blank" href="http://bit.ly/2MF0BV6"><div data-bg="https://domesticate-me.com/wp-content/uploads/2018/07/Screen-Shot-2018-08-13-at-1.04.53-PM.png" class="shop-image rocket-lazyload" style>
+&nbsp;
+</div></a>
+<div class="shop-text">
+<a rel="nofollow" target="_blank" href="http://bit.ly/2MF0BV6"><h3 class="shop-title">Incanto Baroque Salad Plate</h3></a>
+<div class="shop-meta">
+<a rel="nofollow" target="_blank" href="http://bit.ly/2MF0BV6">$44</a> | <a rel="nofollow" href="http://bit.ly/2MF0BV6">
+Vietri</a>
+</div>
+</div>
+</div>
+<div>
+<a rel="nofollow" target="_blank" href="http://bit.ly/2OypGS2"><div data-bg="https://domesticate-me.com/wp-content/uploads/2018/07/marble-wood-cheese-boards-b.jpg" class="shop-image rocket-lazyload" style>
+&nbsp;
+</div></a>
+<div class="shop-text">
+<a rel="nofollow" target="_blank" href="http://bit.ly/2OypGS2"><h3 class="shop-title">Marble & Wood Cheese Board, Small</h3></a>
+<div class="shop-meta">
+<a rel="nofollow" target="_blank" href="http://bit.ly/2OypGS2">$29.95</a> | <a rel="nofollow" href="http://bit.ly/2OypGS2">
+Williams Sonoma</a>
+</div>
+</div>
+</div>
+<div>
+<a rel="nofollow" target="_blank" href="https://rstyle.me/n/c43shacfe4f"><div data-bg="https://domesticate-me.com/wp-content/uploads/2018/06/Cuisinart-Food-Processor.jpg" class="shop-image rocket-lazyload" style>
+&nbsp;
+</div></a>
+<div class="shop-text">
+<a rel="nofollow" target="_blank" href="https://rstyle.me/n/c43shacfe4f"><h3 class="shop-title">7-Cup Food Processor</h3></a>
+<div class="shop-meta">
+<a rel="nofollow" target="_blank" href="https://rstyle.me/n/c43shacfe4f">$99.95</a> | <a rel="nofollow" target="_blank" href="https://rstyle.me/n/c43shacfe4f">Cuisinart</a>
+</div>
+</div>
+</div>
+<div>
+<a rel="nofollow" target="_blank" href="https://rstyle.me/n/c42v2jcfe4f"><div data-bg="https://domesticate-me.com/wp-content/uploads/2018/06/Laguiole-Steak-Knives.jpg" class="shop-image rocket-lazyload" style>
+&nbsp;
+</div></a>
+<div class="shop-text">
+<a rel="nofollow" target="_blank" href="https://rstyle.me/n/c42v2jcfe4f"><h3 class="shop-title">Jean Dubost Vintage Steak Knife Set</h3></a>
+<div class="shop-meta">
+<a rel="nofollow" target="_blank" href="https://rstyle.me/n/c42v2jcfe4f">$74.99</a> | <a rel="nofollow" target="_blank" href="https://rstyle.me/n/c42v2jcfe4f">Laguiole</a>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div id="post-share-buttons" class="fl-module fl-module-html fl-node-5b21ae4b4d28e" data-node="5b21ae4b4d28e">
+<div class="fl-module-content fl-node-content">
+<div class="fl-html">
+<h4>Like what you read? Share it!</h4><div class="scriptlesssocialsharing"><div class="scriptlesssocialsharing-buttons"><a class="button twitter" target="_blank" href="https://twitter.com/intent/tweet?text=Summer%20Squash%20Toasts%20with%20Sun-Dried%20Tomato%20White%20Bean%20Spread&#038;url=https%3A%2F%2Fdomesticate-me.com%2Fsummer-squash-toast%2F&#038;via=serenagwolf&#038;related=serenagwolf" rel="noopener noreferrer nofollow"><span class="screen-reader-text">Share on X (Twitter)</span></a><a class="button facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdomesticate-me.com%2Fsummer-squash-toast%2F" rel="noopener noreferrer nofollow"><span class="screen-reader-text">Share on Facebook</span></a><a class="button pinterest" target="_blank" href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fdomesticate-me.com%2Fsummer-squash-toast%2F&#038;media=https%3A%2F%2Fdomesticate-me.com%2Fwp-content%2Fuploads%2F2018%2F08%2FSummer-Squash-Toast-683x1024.jpg&#038;description=Summer%20Squash%20Toasts%20with%20Sun-Dried%20Tomato%20White%20Bean%20Spread" rel="noopener noreferrer nofollow" data-pin-no-hover="true" data-pin-custom="true" data-pin-do="skip" data-pin-description="Summer Squash Toasts with Sun-Dried Tomato White Bean Spread"><span class="screen-reader-text">Share on Pinterest</span></a><a class="button email" href="mailto:?body=I%20read%20this%20post%20and%20wanted%20to%20share%20it%20with%20you.%20Here%27s%20the%20link%3A%20https%3A%2F%2Fdomesticate-me.com%2Fsummer-squash-toast%2F&#038;subject=A%20post%20worth%20sharing%3A%20Summer%20Squash%20Toasts%20with%20Sun-Dried%20Tomato%20White%20Bean%20Spread" rel="noopener noreferrer nofollow"><span class="screen-reader-text">Share on Email</span></a></div></div>
+</div>
+</div>
+</div>
+<div class="fl-col-group fl-node-5b21abf94b5ec fl-col-group-nested" data-node="5b21abf94b5ec">
+<div id="post-body-optin" class="fl-col fl-node-5b21abf94b7f5" data-node="5b21abf94b7f5">
+<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-rich-text fl-node-5b21ac1c80072" data-node="5b21ac1c80072">
+<div class="fl-module-content fl-node-content">
+<div class="fl-rich-text">
+<h3 style="text-align: center;">Never miss a post!</h3>
+<p style="text-align: center;">Get new recipes and lifestyle tips delivered straight to your inbox.</p>
+</div>
+</div>
+</div>
+<div class="fl-module fl-module-subscribe-form fl-node-5b2c23a96a1e1 blog-subscribe-form" data-node="5b2c23a96a1e1">
+<div class="fl-module-content fl-node-content">
+<div class="fl-subscribe-form fl-subscribe-form-inline fl-subscribe-form-name-hide fl-form fl-clearfix"><input type="hidden" id="fl-subscribe-form-nonce" name="fl-subscribe-form-nonce" value="9e793fb095" /><input type="hidden" name="_wp_http_referer" value="/summer-squash-toast/" />
+<div class="fl-form-field">
+<label for="fl-subscribe-form-email" class="hidden">Email Address</label>
+<input type="email" aria-describedby="email-error" name="fl-subscribe-form-email" placeholder="Email Address" id="fl-subscribe-form-email" class="fl-subscribe-form-email" />
+<div class="fl-form-error-message" id="email-error">Please enter a valid email address.</div>
+</div>
+<div class="fl-form-button" data-wait-text="Please Wait...">
+<div class="fl-button-wrap fl-button-width-full fl-button-left">
+<a href="#" target="_self" class="fl-button">
+<span class="fl-button-text">Subscribe</span>
+</a>
+</div>
+</div>
+<div class="fl-form-success-message"><p>Thanks for subscribing! Please check your email for further instructions.</p></div>
+<div class="fl-form-error-message">Something went wrong. Please check your entries and try again.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="post-pagination" class="fl-module fl-module-html fl-node-5b2947e2c0efd" data-node="5b2947e2c0efd">
+<div class="fl-module-content fl-node-content">
+<div class="fl-html">
+<div class="previous-post"><a href="https://domesticate-me.com/coconut-berry-quinoa-bowls/">Previous Post</a></div>
+<div class="next-post"><a href="https://domesticate-me.com/grilled-hot-dogs-with-peach-jalapeno-salsa/">Next Post</a></div>
+</div>
+</div>
+</div>
+<div id="commentform" class="fl-module fl-module-fl-comments fl-node-5b21b08c1c768" data-node="5b21b08c1c768">
+<div class="fl-module-content fl-node-content">
+<div class="fl-comments">
+<div class="fl-comments-list">
+<h2 class="fl-comments-list-title">
+1 Comment </h2>
+<ol id="comments">
+<li class="comment even thread-even depth-1" id="li-comment-40084">
+<div id="comment-40084" class="comment-body clearfix">
+<div class="comment-meta">
+<span class="comment-avatar">
+</span>
+<span class="comment-author-link">mimi rippee</span> <span class="comment-date">on July 8, 2020 at 6:04 am</span>
+</div>
+<div class="comment-content clearfix">
+<p>Your vacation on Instagram looked pretty incredible. My husband and I went to Tanzania and Rwanda, specifically to watch animals and ask incessantly if we could pet them. What beautiful countries. We did get really close to gorillas, which may have been the most surreal moment in my life. The next day I didn&#8217;t get to go back because I got food poisoning, I&#8217;m assuming. I feel like I&#8217;m so tough I can drink the water even when they tell you not to. I&#8217;d better cross India off my list&#8230;.. Congratulations in any case. Quite a spectacular honeymoon.</p>
+</div>
+<div class="comment-reply-link"><a rel="nofollow" class="comment-reply-link" href="#comment-40084" data-commentid="40084" data-postid="19798" data-belowelement="comment-40084" data-respondelement="respond" data-replyto="Reply to mimi rippee" aria-label="Reply to mimi rippee">Reply</a></div>
+</div>
+</li>
+</ol>
+</div>
+<div id="respond" class="comment-respond">
+<h3 id="reply-title" class="comment-reply-title">Leave a Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="/summer-squash-toast/#respond" style="display:none;">Cancel Reply</a></small></h3><form action="https://domesticate-me.com/wp-comments-post.php?wpe-comment-post=domesticate" method="post" id="fl-comment-form" class="fl-comment-form"><label for="fl-comment">Comment</label><textarea autocomplete="new-password" id="jc586c9ad8" name="jc586c9ad8" class="form-control" cols="60" rows="8"></textarea><textarea id="comment" aria-label="hp-comment" aria-hidden="true" name="comment" autocomplete="new-password" style="padding:0 !important;clip:rect(1px, 1px, 1px, 1px) !important;position:absolute !important;white-space:nowrap !important;height:1px !important;width:1px !important;overflow:hidden !important;" tabindex="-1"></textarea><script type="rocketlazyloadscript" data-noptimize>document.getElementById("comment").setAttribute( "id", "ac33e6b2b3050d69b8d3980823d99962" );document.getElementById("jc586c9ad8").setAttribute( "id", "comment" );</script><br/><div class="comment-form-wprm-rating">
+<label for="wprm-comment-rating-1391745664">Rate this recipe</label> <span class="wprm-rating-stars">
+<fieldset class="wprm-comment-ratings-container" data-original-rating="0" data-current-rating="0">
+<legend>Rate this recipe</legend>
+<input aria-label="Don&#039;t rate this recipe" name="wprm-comment-rating" value="0" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="margin-left: -21px !important; width: 24px !important; height: 24px !important;" checked="checked"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.666666667px" height="16px" viewBox="0 0 160 32">
+<defs>
+<polygon class="wprm-star-empty" id="wprm-star-empty-0" fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter" />
+</defs>
+<use xlink:href="#wprm-star-empty-0" x="4" y="4" />
+<use xlink:href="#wprm-star-empty-0" x="36" y="4" />
+<use xlink:href="#wprm-star-empty-0" x="68" y="4" />
+<use xlink:href="#wprm-star-empty-0" x="100" y="4" />
+<use xlink:href="#wprm-star-empty-0" x="132" y="4" />
+</svg></span><br><input aria-label="Rate this recipe 1 out of 5 stars" name="wprm-comment-rating" value="1" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.666666667px" height="16px" viewBox="0 0 160 32">
+<defs>
+<polygon class="wprm-star-empty" id="wprm-star-empty-1" fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter" />
+<path class="wprm-star-full" id="wprm-star-full-1" fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z" />
+</defs>
+<use xlink:href="#wprm-star-full-1" x="4" y="4" />
+<use xlink:href="#wprm-star-empty-1" x="36" y="4" />
+<use xlink:href="#wprm-star-empty-1" x="68" y="4" />
+<use xlink:href="#wprm-star-empty-1" x="100" y="4" />
+<use xlink:href="#wprm-star-empty-1" x="132" y="4" />
+</svg></span><br><input aria-label="Rate this recipe 2 out of 5 stars" name="wprm-comment-rating" value="2" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.666666667px" height="16px" viewBox="0 0 160 32">
+<defs>
+<polygon class="wprm-star-empty" id="wprm-star-empty-2" fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter" />
+<path class="wprm-star-full" id="wprm-star-full-2" fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z" />
+</defs>
+<use xlink:href="#wprm-star-full-2" x="4" y="4" />
+<use xlink:href="#wprm-star-full-2" x="36" y="4" />
+<use xlink:href="#wprm-star-empty-2" x="68" y="4" />
+<use xlink:href="#wprm-star-empty-2" x="100" y="4" />
+<use xlink:href="#wprm-star-empty-2" x="132" y="4" />
+</svg></span><br><input aria-label="Rate this recipe 3 out of 5 stars" name="wprm-comment-rating" value="3" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.666666667px" height="16px" viewBox="0 0 160 32">
+<defs>
+<polygon class="wprm-star-empty" id="wprm-star-empty-3" fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter" />
+<path class="wprm-star-full" id="wprm-star-full-3" fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z" />
+</defs>
+<use xlink:href="#wprm-star-full-3" x="4" y="4" />
+<use xlink:href="#wprm-star-full-3" x="36" y="4" />
+<use xlink:href="#wprm-star-full-3" x="68" y="4" />
+<use xlink:href="#wprm-star-empty-3" x="100" y="4" />
+<use xlink:href="#wprm-star-empty-3" x="132" y="4" />
+</svg></span><br><input aria-label="Rate this recipe 4 out of 5 stars" name="wprm-comment-rating" value="4" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.666666667px" height="16px" viewBox="0 0 160 32">
+<defs>
+<polygon class="wprm-star-empty" id="wprm-star-empty-4" fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter" />
+<path class="wprm-star-full" id="wprm-star-full-4" fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z" />
+</defs>
+<use xlink:href="#wprm-star-full-4" x="4" y="4" />
+<use xlink:href="#wprm-star-full-4" x="36" y="4" />
+<use xlink:href="#wprm-star-full-4" x="68" y="4" />
+<use xlink:href="#wprm-star-full-4" x="100" y="4" />
+<use xlink:href="#wprm-star-empty-4" x="132" y="4" />
+</svg></span><br><input aria-label="Rate this recipe 5 out of 5 stars" name="wprm-comment-rating" value="5" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" id="wprm-comment-rating-1391745664" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.666666667px" height="16px" viewBox="0 0 160 32">
+<defs>
+<path class="wprm-star-full" id="wprm-star-full-5" fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z" />
+</defs>
+<use xlink:href="#wprm-star-full-5" x="4" y="4" />
+<use xlink:href="#wprm-star-full-5" x="36" y="4" />
+<use xlink:href="#wprm-star-full-5" x="68" y="4" />
+<use xlink:href="#wprm-star-full-5" x="100" y="4" />
+<use xlink:href="#wprm-star-full-5" x="132" y="4" />
+</svg></span> </fieldset>
+</span>
+</div>
+<label for="fl-author">Name (required)</label>
+<input type="text" id="fl-author" name="author" class="form-control" value aria-required="true" /><br/>
+<label for="fl-email">Email (will not be published) (required)</label>
+<input type="text" id="fl-email" name="email" class="form-control" value aria-required="true" /><br/>
+<label for="fl-url">Website</label>
+<input type="text" id="fl-url" name="url" class="form-control" value /><br/>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="comment-form-comment-subscribe"><input id="fdcr_subscribe_to_comment" name="fdcr_subscribe_to_comment" type="checkbox" value="on" checked><label for="fdcr_subscribe_to_comment">Notify me via email if Serena responds to my comment</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="fl-comment-form-submit" class="btn btn-primary" value="Submit Comment" /> <input type="hidden" name="comment_post_ID" value="19798" id="comment_post_ID" />
+<input type="hidden" name="comment_parent" id="comment_parent" value="0" />
+</p></form> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="sidebar-column" class="fl-col fl-node-5b21a452f1bfd fl-col-small" data-node="5b21a452f1bfd">
+<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-sidebar fl-node-5b1b09763b926" data-node="5b1b09763b926">
+<div class="fl-module-content fl-node-content">
+<aside id="text-2" class="fl-widget widget_text"> <div class="textwidget"><p><img decoding="async" class="alignnone wp-image-29444 size-full" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20972%20972'%3E%3C/svg%3E" alt width="972" height="972" data-lazy-srcset="https://domesticate-me.com/wp-content/uploads/2019/07/Serena-Wolf-Headshot-1.jpg 972w, https://domesticate-me.com/wp-content/uploads/2019/07/Serena-Wolf-Headshot-1-500x500.jpg 500w, https://domesticate-me.com/wp-content/uploads/2019/07/Serena-Wolf-Headshot-1-150x150.jpg 150w, https://domesticate-me.com/wp-content/uploads/2019/07/Serena-Wolf-Headshot-1-768x768.jpg 768w" data-lazy-sizes="(max-width: 972px) 100vw, 972px" data-lazy-src="https://domesticate-me.com/wp-content/uploads/2019/07/Serena-Wolf-Headshot-1.jpg" /><noscript><img decoding="async" class="alignnone wp-image-29444 size-full" src="https://domesticate-me.com/wp-content/uploads/2019/07/Serena-Wolf-Headshot-1.jpg" alt="" width="972" height="972" srcset="https://domesticate-me.com/wp-content/uploads/2019/07/Serena-Wolf-Headshot-1.jpg 972w, https://domesticate-me.com/wp-content/uploads/2019/07/Serena-Wolf-Headshot-1-500x500.jpg 500w, https://domesticate-me.com/wp-content/uploads/2019/07/Serena-Wolf-Headshot-1-150x150.jpg 150w, https://domesticate-me.com/wp-content/uploads/2019/07/Serena-Wolf-Headshot-1-768x768.jpg 768w" sizes="(max-width: 972px) 100vw, 972px" /></noscript></p>
+<p>Greetings, friends! I’m Serena: healthy(ish) chef, author, beauty &amp; wellness junkie, and easy laugh. I live in NYC with my muse and am extremely passionate about good food, good people, and bad TV.</p>
+<div class="sidebar-button"><a href="https://domesticate-me.com/contact/">Drop me a line</a></div>
+</div>
+</aside><aside id="text-3" class="fl-widget widget_text"> <div class="textwidget"><h3>Did you try one of my recipes or lifestyle tips?</h3>
+<p>tag @serenagwolf and use #domesticateme on social media!</p>
+</div>
+</aside><aside id="block-2" class="fl-widget widget_block"><h4 class="wpp-list-sidebar">Top Recipes</h4>
+<ul class="wpp-list">
+<li><a href="https://domesticate-me.com/beef-tenderloin-crostini-whipped-goat-cheese-pesto/" target="_self"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2075%2075'%3E%3C/svg%3E" width="75" height="75" alt class="wpp-thumbnail wpp_featured wpp_cached_thumb" decoding="async" data-lazy-src="https://domesticate-me.com/wp-content/uploads/wordpress-popular-posts/11710-featured-75x75.jpg"><noscript><img src="https://domesticate-me.com/wp-content/uploads/wordpress-popular-posts/11710-featured-75x75.jpg" width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb" decoding="async"></noscript></a> <a href="https://domesticate-me.com/beef-tenderloin-crostini-whipped-goat-cheese-pesto/" class="wpp-post-title" target="_self">Beef Tenderloin Crostini with Whipped Goat Cheese and Pesto</a> <span class="wpp-meta post-stats"></span></li>
+<li><a href="https://domesticate-me.com/cocktails-confessions-episode-2-pomegranate-vodka-gimlet/" target="_self"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2075%2075'%3E%3C/svg%3E" width="75" height="75" alt class="wpp-thumbnail wpp_featured wpp_cached_thumb" decoding="async" data-lazy-src="https://domesticate-me.com/wp-content/uploads/wordpress-popular-posts/11422-featured-75x75.jpg"><noscript><img src="https://domesticate-me.com/wp-content/uploads/wordpress-popular-posts/11422-featured-75x75.jpg" width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb" decoding="async"></noscript></a> <a href="https://domesticate-me.com/cocktails-confessions-episode-2-pomegranate-vodka-gimlet/" class="wpp-post-title" target="_self">Cocktails and Confessions Episode 2: Pomegranate Vodka Gimlet</a> <span class="wpp-meta post-stats"></span></li>
+<li><a href="https://domesticate-me.com/blueberry-mojito-royale/" target="_self"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2075%2075'%3E%3C/svg%3E" width="75" height="75" alt class="wpp-thumbnail wpp_featured wpp_cached_thumb" decoding="async" data-lazy-src="https://domesticate-me.com/wp-content/uploads/wordpress-popular-posts/8033-featured-75x75.jpg"><noscript><img src="https://domesticate-me.com/wp-content/uploads/wordpress-popular-posts/8033-featured-75x75.jpg" width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb" decoding="async"></noscript></a> <a href="https://domesticate-me.com/blueberry-mojito-royale/" class="wpp-post-title" target="_self">Blueberry Mojito Royale</a> <span class="wpp-meta post-stats"></span></li>
+</ul></aside><aside id="block-3" class="fl-widget widget_block"><h4 class="wpp-list-sidebar">Top Lifestyle</h4>
+<ul class="wpp-list">
+<li><a href="https://domesticate-me.com/believe-hype-vital-proteins-collagen-peptides/" target="_self"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2075%2075'%3E%3C/svg%3E" width="75" height="75" alt class="wpp-thumbnail wpp_featured wpp_cached_thumb" decoding="async" data-lazy-src="https://domesticate-me.com/wp-content/uploads/wordpress-popular-posts/19316-featured-75x75.png"><noscript><img src="https://domesticate-me.com/wp-content/uploads/wordpress-popular-posts/19316-featured-75x75.png" width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb" decoding="async"></noscript></a> <a href="https://domesticate-me.com/believe-hype-vital-proteins-collagen-peptides/" class="wpp-post-title" target="_self">Believe The Hype: Vital Proteins Collagen Peptides</a> <span class="wpp-meta post-stats"></span></li>
+<li><a href="https://domesticate-me.com/the-struggle-is-real-anti-anxiety-diet-tips-and-recipes/" target="_self"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2075%2075'%3E%3C/svg%3E" width="75" height="75" alt class="wpp-thumbnail wpp_featured wpp_cached_thumb" decoding="async" data-lazy-src="https://domesticate-me.com/wp-content/uploads/wordpress-popular-posts/19431-featured-75x75.jpg"><noscript><img src="https://domesticate-me.com/wp-content/uploads/wordpress-popular-posts/19431-featured-75x75.jpg" width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb" decoding="async"></noscript></a> <a href="https://domesticate-me.com/the-struggle-is-real-anti-anxiety-diet-tips-and-recipes/" class="wpp-post-title" target="_self">The Struggle Is Real: Anti-Anxiety Diet Tips and Recipes</a> <span class="wpp-meta post-stats"></span></li>
+<li><a href="https://domesticate-me.com/wedding-registry-essentials-kitchen-and-dining/" target="_self"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2075%2075'%3E%3C/svg%3E" width="75" height="75" alt class="wpp-thumbnail wpp_featured wpp_cached_thumb" decoding="async" data-lazy-src="https://domesticate-me.com/wp-content/uploads/wordpress-popular-posts/19711-featured-75x75.jpg"><noscript><img src="https://domesticate-me.com/wp-content/uploads/wordpress-popular-posts/19711-featured-75x75.jpg" width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb" decoding="async"></noscript></a> <a href="https://domesticate-me.com/wedding-registry-essentials-kitchen-and-dining/" class="wpp-post-title" target="_self">My Wedding Registry Essentials: Kitchen and Dining</a> <span class="wpp-meta post-stats"></span></li>
+</ul></aside><aside id="text-5" class="fl-widget widget_text"><h4 class="fl-widget-title">Never Miss a Post!</h4> <div class="textwidget"><p>Get new recipes and lifestyle tips delivered straight to your inbox.</p>
+<link rel="preload" href="https://domesticate-me.com/wp-content/themes/bb-theme/style.css?ver=6.3.1" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')" media="all" />
+<link data-minify="1" rel="preload" href="https://domesticate-me.com/wp-content/cache/min/1/wp-content/themes/bb-theme-child/assets/styles/main.css?ver=1695924555" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')" media="all" />
+<style id="fl-builder-layout-28191-inline-css">
+.fl-builder-content .fl-node-5b2ac0faf3a90 a.fl-button,.fl-builder-content .fl-node-5b2ac0faf3a90 a.fl-button:hover,.fl-builder-content .fl-node-5b2ac0faf3a90 a.fl-button:visited {}.fl-node-5b2ac0faf3a90 .fl-form-field input {padding-top: 10px;padding-right: 20px;padding-bottom: 10px;padding-left: 20px;font-size: 14px;line-height: 14px;}.fl-node-5b2ac0faf3a90 .fl-button-wrap {text-align: left;}.fl-builder-content .fl-node-5b2ac0faf3a90 .fl-button-wrap a.fl-button {padding-top: 10px;padding-right: 20px;padding-bottom: 10px;padding-left: 20px;}.fl-builder-content .fl-node-5b2ac0faf3a90 a.fl-button, .fl-builder-content .fl-node-5b2ac0faf3a90 a.fl-button:visited {font-size: 14px;line-height: 14px;}.fl-node-5b2ac0faf3a90 .fl-form-success-message {display: none;}
+</style>
+<div class="fl-builder-content fl-builder-content-28191 fl-builder-template fl-builder-module-template fl-builder-global-templates-locked" data-post-id="28191">
+<div class="fl-module fl-module-subscribe-form fl-node-5b2ac0faf3a90 subscribe-form" data-node="5b2ac0faf3a90">
+<div class="fl-module-content fl-node-content">
+<div class="fl-subscribe-form fl-subscribe-form-stacked fl-subscribe-form-name-hide fl-form fl-clearfix" data-template-id="5b2ac0fadf67b" data-template-node-id="5b2ac0faf3a90"><input type="hidden" id="fl-subscribe-form-nonce" name="fl-subscribe-form-nonce" value="9e793fb095" /><input type="hidden" name="_wp_http_referer" value="/summer-squash-toast/" /> </p>
+<div class="fl-form-field">
+<label for="fl-subscribe-form-email" class="hidden">Email Address</label><br/>
+<input type="email" aria-describedby="email-error" name="fl-subscribe-form-email" placeholder="Email Address" id="fl-subscribe-form-email" class="fl-subscribe-form-email" /></p>
+<div class="fl-form-error-message" id="email-error">Please enter a valid email address.</div>
+</p></div>
+<div class="fl-form-button" data-wait-text="Please Wait...">
+<div class="fl-button-wrap fl-button-width-full fl-button-left">
+<a href="#" target="_self" class="fl-button" rel="noopener"><br/>
+<span class="fl-button-text">Subscribe</span><br/>
+</a>
+</div>
+</p></div>
+<div class="fl-form-success-message">
+<p>Thanks for subscribing! Please check your email for further instructions.</p>
+</div>
+<div class="fl-form-error-message">Something went wrong. Please check your entries and try again.</div>
+</div></div>
+</div>
+</div>
+</div>
+</aside><aside id="text-4" class="fl-widget widget_text"> <div class="textwidget"><p><img decoding="async" class="alignnone size-medium wp-image-28072" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20613'%3E%3C/svg%3E" alt width="500" height="613" data-lazy-srcset="https://domesticate-me.com/wp-content/uploads/2018/06/The-Dude-Diet-Book-Cover-1-500x613.jpg 500w, https://domesticate-me.com/wp-content/uploads/2018/06/The-Dude-Diet-Book-Cover-1-768x942.jpg 768w, https://domesticate-me.com/wp-content/uploads/2018/06/The-Dude-Diet-Book-Cover-1.jpg 800w" data-lazy-sizes="(max-width: 500px) 100vw, 500px" data-lazy-src="https://domesticate-me.com/wp-content/uploads/2018/06/The-Dude-Diet-Book-Cover-1-500x613.jpg" /><noscript><img decoding="async" class="alignnone size-medium wp-image-28072" src="https://domesticate-me.com/wp-content/uploads/2018/06/The-Dude-Diet-Book-Cover-1-500x613.jpg" alt="" width="500" height="613" srcset="https://domesticate-me.com/wp-content/uploads/2018/06/The-Dude-Diet-Book-Cover-1-500x613.jpg 500w, https://domesticate-me.com/wp-content/uploads/2018/06/The-Dude-Diet-Book-Cover-1-768x942.jpg 768w, https://domesticate-me.com/wp-content/uploads/2018/06/The-Dude-Diet-Book-Cover-1.jpg 800w" sizes="(max-width: 500px) 100vw, 500px" /></noscript></p>
+<h4 class=".fl-widget-title">Order Now On:</h4>
+<p><a href="http://ads.harpercollins.com/athrweb?isbn=9780062424389&amp;retailer=amazon">AMAZON</a> | <a href="http://ads.harpercollins.com/athrweb?isbn=9780062424389&amp;retailer=barnesandnoble">BARNES &amp; NOBLE</a> | <a href="http://ads.harpercollins.com/athrweb?isbn=9780062424389&amp;retailer=indiebound">INDIEBOUND</a></p>
+</div>
+</aside><aside id="text-6" class="fl-widget widget_text"> <div class="textwidget"><p><img decoding="async" class="alignnone wp-image-29600 size-medium" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20619'%3E%3C/svg%3E" alt width="500" height="619" data-lazy-srcset="https://domesticate-me.com/wp-content/uploads/2019/10/Dude-Diet-Dinnertime-Cover-500x619.jpg 500w, https://domesticate-me.com/wp-content/uploads/2019/10/Dude-Diet-Dinnertime-Cover-827x1024.jpg 827w, https://domesticate-me.com/wp-content/uploads/2019/10/Dude-Diet-Dinnertime-Cover-768x950.jpg 768w" data-lazy-sizes="(max-width: 500px) 100vw, 500px" data-lazy-src="https://domesticate-me.com/wp-content/uploads/2019/10/Dude-Diet-Dinnertime-Cover-500x619.jpg" /><noscript><img decoding="async" class="alignnone wp-image-29600 size-medium" src="https://domesticate-me.com/wp-content/uploads/2019/10/Dude-Diet-Dinnertime-Cover-500x619.jpg" alt="" width="500" height="619" srcset="https://domesticate-me.com/wp-content/uploads/2019/10/Dude-Diet-Dinnertime-Cover-500x619.jpg 500w, https://domesticate-me.com/wp-content/uploads/2019/10/Dude-Diet-Dinnertime-Cover-827x1024.jpg 827w, https://domesticate-me.com/wp-content/uploads/2019/10/Dude-Diet-Dinnertime-Cover-768x950.jpg 768w" sizes="(max-width: 500px) 100vw, 500px" /></noscript></p>
+<h4 class=".fl-widget-title">Order Now On:</h4>
+<p><a href="https://www.amazon.com/Dude-Diet-Dinnertime-Weeknight-Fancypants/dp/0062854704/ref=sr_1_1?gclid=EAIaIQobChMI47z97_rn5AIVjLbICh3aVQq0EAAYASAAEgJO2vD_BwE&amp;hvadid=367866779207&amp;hvdev=c&amp;hvlocphy=9067609&amp;hvnetw=g&amp;hvpos=1t1&amp;hvqmt=e&amp;hvrand=6891582389583029829&amp;hvtargid=kwd-776220841593&amp;hydadcr=16506_9854929&amp;keywords=the+dude+diet+dinnertime&amp;qid=1569276598&amp;sr=8-1" target="_blank" rel="noopener">AMAZON</a> | <a href="https://www.barnesandnoble.com/w/the-dude-diet-dinnertime-serena-wolf/1131004453#/" target="_blank" rel="noopener">BARNES &amp; NOBLE</a> | <a href="https://www.indiebound.org/book/9780062854704" target="_blank" rel="noopener">INDIEBOUND</a></p>
+</div>
+</aside><aside id="search-3" class="fl-widget widget_search"><h4 class="fl-widget-title">Search This Site</h4><form aria-label="Search" method="get" role="search" action="https://domesticate-me.com/" title="Type and press Enter to search.">
+<input aria-label="Search" type="search" class="fl-search-input form-control" name="s" placeholder="Search" value onfocus="if (this.value === 'Search') { this.value = ''; }" onblur="if (this.value === '') this.value='Search';" />
+</form>
+</aside> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-none fl-node-5b1b0969a5f88 fl-row-default-height fl-row-align-center" data-node="5b1b0969a5f88">
+<div class="fl-row-content-wrap">
+<div class="fl-row-content fl-row-full-width fl-node-content">
+<div class="fl-col-group fl-node-5b1b0969ab7e0" data-node="5b1b0969ab7e0">
+<div class="fl-col fl-node-5b1b0969ab932" data-node="5b1b0969ab932">
+<div class="fl-col-content fl-node-content"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fl-row fl-row-fixed-width fl-row-bg-none fl-node-5b21d71b0b56e fl-row-default-height fl-row-align-center" data-node="5b21d71b0b56e">
+<div class="fl-row-content-wrap">
+<div class="fl-row-content fl-row-fixed-width fl-node-content">
+<div class="fl-col-group fl-node-5b21d71b13e75" data-node="5b21d71b13e75">
+<div class="fl-col fl-node-5b21d71b13fe2" data-node="5b21d71b13fe2">
+<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-5b21d71fbeeee" data-node="5b21d71fbeeee">
+<div class="fl-module-content fl-node-content">
+<h2 class="fl-heading">
+<span class="fl-heading-text">You May Also Like</span>
+</h2>
+</div>
+</div>
+<div class="fl-module fl-module-html fl-node-5b21e2975d47d related-post-grid" data-node="5b21e2975d47d">
+<div class="fl-module-content fl-node-content">
+<div class="fl-html">
+<div class="related-post-single">
+<a href="https://domesticate-me.com/10-best-zucchini-recipes/"><div data-bg="https://domesticate-me.com/wp-content/uploads/2018/06/Arugula-Salad-with-Shaved-Zucchini-Pistachios-and-Parmesan.jpg" class="post-featured-image rocket-lazyload" style>
+&nbsp;
+</div></a>
+<div class="post-text">
+<h3 class="post-title"><a href="https://domesticate-me.com/10-best-zucchini-recipes/">10 Epic Zucchini Recipes</a></h3>
+<div class="post-meta">
+<a href="https://domesticate-me.com/category/recipes/summer/" rel="tag" class="summer">Summer</a> | <a href="https://domesticate-me.com/category/recipes/breakfast/" rel="tag" class="breakfast">Breakfast</a> | <a href="https://domesticate-me.com/category/recipes/vegetarian/" rel="tag" class="vegetarian">Vegetarian</a> | <a href="https://domesticate-me.com/category/recipes/" rel="tag" class="recipes">Recipes</a>
+</div>
+</div>
+<div class="post-more-link">
+<a href="https://domesticate-me.com/10-best-zucchini-recipes/">Read More</a>
+</div>
+</div>
+<div class="related-post-single">
+<a href="https://domesticate-me.com/avocado-toasts-charred-tomatoes-garlic-shrimp-fried-eggs/"><div data-bg="https://domesticate-me.com/wp-content/uploads/2014/05/Avocado-Toast-with-Charred-Tomatoes-Garlic-Shrimp-and-Fried-Eggs3.jpg" class="post-featured-image rocket-lazyload" style>
+&nbsp;
+</div></a>
+<div class="post-text">
+<h3 class="post-title"><a href="https://domesticate-me.com/avocado-toasts-charred-tomatoes-garlic-shrimp-fried-eggs/">Avocado Toasts with Charred Tomatoes, Garlic Shrimp and Fried Eggs</a></h3>
+<div class="post-meta">
+<a href="https://domesticate-me.com/category/recipes/summer/" rel="tag" class="summer">Summer</a> | <a href="https://domesticate-me.com/category/recipes/breakfast/" rel="tag" class="breakfast">Breakfast</a> | <a href="https://domesticate-me.com/category/recipes/vegetarian/" rel="tag" class="vegetarian">Vegetarian</a> | <a href="https://domesticate-me.com/category/recipes/" rel="tag" class="recipes">Recipes</a>
+</div>
+</div>
+<div class="post-more-link">
+<a href="https://domesticate-me.com/avocado-toasts-charred-tomatoes-garlic-shrimp-fried-eggs/">Read More</a>
+</div>
+</div>
+<div class="related-post-single">
+<a href="https://domesticate-me.com/caprese-egg-hole/"><div data-bg="https://domesticate-me.com/wp-content/uploads/2016/07/Caprese-Egg-in-the-Hole-7-1.jpg" class="post-featured-image rocket-lazyload" style>
+&nbsp;
+</div></a>
+<div class="post-text">
+<h3 class="post-title"><a href="https://domesticate-me.com/caprese-egg-hole/">Caprese Egg-in-the-Hole</a></h3>
+<div class="post-meta">
+<a href="https://domesticate-me.com/category/recipes/summer/" rel="tag" class="summer">Summer</a> | <a href="https://domesticate-me.com/category/recipes/breakfast/" rel="tag" class="breakfast">Breakfast</a> | <a href="https://domesticate-me.com/category/recipes/vegetarian/" rel="tag" class="vegetarian">Vegetarian</a> | <a href="https://domesticate-me.com/category/recipes/" rel="tag" class="recipes">Recipes</a>
+</div>
+</div>
+<div class="post-more-link">
+<a href="https://domesticate-me.com/caprese-egg-hole/">Read More</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="fl-builder-content fl-builder-content-27849 fl-builder-global-templates-locked" data-post-id="27849" data-type="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter"><div id="footer-row" class="fl-row fl-row-full-width fl-row-bg-color fl-node-5b1ab3a70e1d8 fl-row-default-height fl-row-align-center" data-node="5b1ab3a70e1d8">
+<div class="fl-row-content-wrap">
+<div class="fl-row-content fl-row-full-width fl-node-content">
+<div class="fl-col-group fl-node-5b1ab3a714cd8 fl-col-group-equal-height fl-col-group-align-top" data-node="5b1ab3a714cd8">
+<div class="fl-col fl-node-5b1ab3a714ded fl-col-small" data-node="5b1ab3a714ded">
+<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-5b1ab7f11e307" data-node="5b1ab7f11e307">
+<div class="fl-module-content fl-node-content">
+<h3 class="fl-heading">
+<span class="fl-heading-text">Never Miss a Post!</span>
+</h3>
+</div>
+</div>
+<div class="fl-module fl-module-subscribe-form fl-node-5b2ac10c47605 subscribe-form" data-node="5b2ac10c47605">
+<div class="fl-module-content fl-node-content">
+<div class="fl-subscribe-form fl-subscribe-form-stacked fl-subscribe-form-name-hide fl-form fl-clearfix" data-template-id="5b2ac0fadf67b" data-template-node-id="5b2ac0faf3a90"><input type="hidden" id="fl-subscribe-form-nonce" name="fl-subscribe-form-nonce" value="9e793fb095" /><input type="hidden" name="_wp_http_referer" value="/summer-squash-toast/" />
+<div class="fl-form-field">
+<label for="fl-subscribe-form-email" class="hidden">Email Address</label>
+<input type="email" aria-describedby="email-error" name="fl-subscribe-form-email" placeholder="Email Address" id="fl-subscribe-form-email" class="fl-subscribe-form-email" />
+<div class="fl-form-error-message" id="email-error">Please enter a valid email address.</div>
+</div>
+<div class="fl-form-button" data-wait-text="Please Wait...">
+<div class="fl-button-wrap fl-button-width-full fl-button-left">
+<a href="#" target="_self" class="fl-button">
+<span class="fl-button-text">Subscribe</span>
+</a>
+</div>
+</div>
+<div class="fl-form-success-message"><p>Thanks for subscribing! Please check your email for further instructions.</p></div>
+<div class="fl-form-error-message">Something went wrong. Please check your entries and try again.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fl-col fl-node-5b1ab3a714e14 fl-col-small" data-node="5b1ab3a714e14">
+<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-5b1ab49cbccb7" data-node="5b1ab49cbccb7">
+<div class="fl-module-content fl-node-content">
+<h3 class="fl-heading">
+<span class="fl-heading-text">Helpful Links</span>
+</h3>
+</div>
+</div>
+<div id="footer-menu" class="fl-module fl-module-menu fl-node-5b1ab3f7c352a" data-node="5b1ab3f7c352a">
+<div class="fl-module-content fl-node-content">
+<div class="fl-menu">
+<div class="fl-clear"></div>
+<nav aria-label="Menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement"><ul id="menu-footer-menu" class="menu fl-menu-vertical fl-toggle-none"><li id="menu-item-27834" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://domesticate-me.com/press/">In The Press</a></li><li id="menu-item-27835" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://domesticate-me.com/the-dude-diet/">The Dude Diet</a></li><li id="menu-item-27836" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://domesticate-me.com/work-with-me/">Work with Me</a></li></ul></nav></div>
+</div>
+</div>
+</div>
+</div>
+<div class="fl-col fl-node-5b1ab3a714e37 fl-col-small" data-node="5b1ab3a714e37">
+<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-5b1ab50a6a09d" data-node="5b1ab50a6a09d">
+<div class="fl-module-content fl-node-content">
+<h3 class="fl-heading">
+<span class="fl-heading-text">Hang with Serena <br/> Everywhere</span>
+</h3>
+</div>
+</div>
+<div class="fl-module fl-module-icon-group fl-node-5b1ab54f0d772" data-node="5b1ab54f0d772">
+<div class="fl-module-content fl-node-content">
+<div class="fl-icon-group">
+<span class="fl-icon">
+<a href="http://instagram.com/serenagwolf" target="_blank" rel="noopener">
+<i class="fab fa-instagram" aria-hidden="true"></i>
+</a>
+</span>
+<span class="fl-icon">
+<a href="https://www.youtube.com/channel/UCUUSQgyoDX4j3HtvpIzv1IA" target="_blank" rel="noopener">
+<i class="fab fa-youtube" aria-hidden="true"></i>
+</a>
+</span>
+<span class="fl-icon">
+<a href="https://www.facebook.com/DomesticateMe?fref=ts" target="_blank" rel="noopener">
+<i class="dashicons dashicons-before dashicons-facebook-alt" aria-hidden="true"></i>
+</a>
+</span>
+<span class="fl-icon">
+<a href="https://twitter.com/serenagwolf" target="_blank" rel="noopener">
+<i class="dashicons dashicons-before dashicons-twitter" aria-hidden="true"></i>
+</a>
+</span>
+<span class="fl-icon">
+<a href="http://pinterest.com/DomesticateMe/" target="_blank" rel="noopener">
+<i class="fab fa-pinterest" aria-hidden="true"></i>
+</a>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer-bottom-row" class="fl-row fl-row-full-width fl-row-bg-color fl-node-5b1ab8533ef3d fl-row-default-height fl-row-align-center" data-node="5b1ab8533ef3d">
+<div class="fl-row-content-wrap">
+<div class="fl-row-content fl-row-fixed-width fl-node-content">
+<div class="fl-col-group fl-node-5b1ab853471e1" data-node="5b1ab853471e1">
+<div class="fl-col fl-node-5b1ab85347537" data-node="5b1ab85347537">
+<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-rich-text fl-node-5b1ab8873c61e" data-node="5b1ab8873c61e">
+<div class="fl-module-content fl-node-content">
+<div class="fl-rich-text">
+<p style="text-align: center;">Copyright 2023, Domesticate Me. View our <a href="https://domesticate-me.com/privacy-policy/">Privacy Policy</a>.</p>
+<p style="text-align: center;">Brand &amp; website by Magnoliahouse Creative. Support by <a href="https://foodiedigital.com" target="_blank" rel="noopener nofollow">Foodie Digital</a>.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer> </div>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="//assets.pinterest.com/js/pinit.js" data-pin-hover="true" defer></script>
+<script type="rocketlazyloadscript">window.wprm_recipes = {"recipe-30671":{"id":30671,"type":"food","name":"Summer Squash Toasts with Sun-Dried Tomato White Bean Spread"}}</script> <script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+
+			document.querySelector(".wprm-recipe-jump").addEventListener("click", function () {
+				gtag(	'event', 'jump to recipe', {
+						'event_category' : 'engagement',
+  						'event_label': 'click'
+				});
+			});
+
+	</script>
+<script id="wprm-public-js-extra">
+var wprm_public = {"endpoints":{"analytics":"https:\/\/domesticate-me.com\/wp-json\/wp-recipe-maker\/v1\/analytics"},"settings":{"features_comment_ratings":true,"template_color_comment_rating":"#343434","instruction_media_toggle_default":"on","video_force_ratio":false,"analytics_enabled":false,"google_analytics_enabled":false,"print_new_tab":true},"post_id":"19798","home_url":"https:\/\/domesticate-me.com\/","print_slug":"wprm_print","permalinks":"\/%postname%\/","ajax_url":"https:\/\/domesticate-me.com\/wp-admin\/admin-ajax.php","nonce":"f942cb857a","api_nonce":"15f4c44bd6","translations":[]};
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://domesticate-me.com/wp-content/cache/min/1/wp-content/plugins/wp-recipe-maker/dist/public-modern.js?ver=1695924557" id="wprm-public-js" defer></script>
+<script data-minify="1" src="https://domesticate-me.com/wp-content/cache/min/1/npm/slick-carousel@1.8.1/slick/slick.min.js?ver=1695924555" id="slick-js" defer></script>
+<script id="wprmp-public-js-extra">
+var wprmp_public = {"endpoints":{"private_notes":"https:\/\/domesticate-me.com\/wp-json\/wp-recipe-maker\/v1\/private-notes"},"settings":{"recipe_template_mode":"modern","features_adjustable_servings":true,"adjustable_servings_round_to_decimals":"2","unit_conversion_remember":false,"unit_conversion_temperature":false,"unit_conversion_system_1_temperature":false,"unit_conversion_system_2_temperature":false,"unit_conversion_advanced_servings_conversion":false,"unit_conversion_system_1_length_unit":false,"unit_conversion_system_2_length_unit":false,"fractions_enabled":false,"fractions_use_mixed":true,"fractions_use_symbols":true,"fractions_max_denominator":"8","unit_conversion_system_1_fractions":false,"unit_conversion_system_2_fractions":false,"unit_conversion_enabled":false,"decimal_separator":"point","features_comment_ratings":true,"features_user_ratings":true,"user_ratings_thank_you_message":"Thank you for voting!","user_ratings_force_comment":"4_star","user_ratings_force_comment_scroll_to":"","servings_changer_display":"tooltip_slider","template_ingredient_list_style":"disc","template_instruction_list_style":"decimal","template_color_icon":"#343434"},"timer":{"sound_file":"https:\/\/domesticate-me.com\/wp-content\/plugins\/wp-recipe-maker-premium\/assets\/sounds\/alarm.mp3","text":{"start_timer":"Click to Start Timer"},"icons":{"pause":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M9,2H4C3.4,2,3,2.4,3,3v18c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V3C10,2.4,9.6,2,9,2z\"\/><path fill=\"#fffefe\" d=\"M20,2h-5c-0.6,0-1,0.4-1,1v18c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V3C21,2.4,20.6,2,20,2z\"\/><\/g><\/svg>","play":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M6.6,2.2C6.3,2,5.9,1.9,5.6,2.1C5.2,2.3,5,2.6,5,3v18c0,0.4,0.2,0.7,0.6,0.9C5.7,22,5.8,22,6,22c0.2,0,0.4-0.1,0.6-0.2l12-9c0.3-0.2,0.4-0.5,0.4-0.8s-0.1-0.6-0.4-0.8L6.6,2.2z\"\/><\/g><\/svg>","close":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M22.7,4.3l-3-3c-0.4-0.4-1-0.4-1.4,0L12,7.6L5.7,1.3c-0.4-0.4-1-0.4-1.4,0l-3,3c-0.4,0.4-0.4,1,0,1.4L7.6,12l-6.3,6.3c-0.4,0.4-0.4,1,0,1.4l3,3c0.4,0.4,1,0.4,1.4,0l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l3-3c0.4-0.4,0.4-1,0-1.4L16.4,12l6.3-6.3C23.1,5.3,23.1,4.7,22.7,4.3z\"\/><\/g><\/svg>"}},"recipe_submission":{"max_file_size":52428800,"text":{"image_size":"The image file is too large"}}};
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://domesticate-me.com/wp-content/cache/min/1/wp-content/plugins/wp-recipe-maker-premium/dist/public-premium.js?ver=1695924557" id="wprmp-public-js" defer></script>
+<script src="https://domesticate-me.com/wp-content/plugins/bb-plugin/js/jquery.ba-throttle-debounce.min.js?ver=2.7.2" id="jquery-throttle-js" defer></script>
+<script data-minify="1" src="https://domesticate-me.com/wp-content/cache/min/1/wp-content/uploads/bb-plugin/cache/d9dc6960fb94c91d27098df94f8052c4-layout-bundle.js?ver=1695924557" id="fl-builder-layout-bundle-d9dc6960fb94c91d27098df94f8052c4-js" defer></script>
+<script src="https://domesticate-me.com/wp-content/plugins/bb-plugin/js/jquery.fitvids.min.js?ver=1.2" id="jquery-fitvids-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://domesticate-me.com/wp-includes/js/comment-reply.min.js?ver=6.3.1" id="comment-reply-js" defer></script>
+<script src="https://domesticate-me.com/wp-content/themes/bb-theme/js/bootstrap.min.js?ver=1.7.14" id="bootstrap-js" defer></script>
+<script id="fl-automator-js-extra">
+var themeopts = {"medium_breakpoint":"992","mobile_breakpoint":"768","scrollTopPosition":"800"};
+</script>
+<script src="https://domesticate-me.com/wp-content/themes/bb-theme/js/theme.min.js?ver=1.7.14" id="fl-automator-js" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://domesticate-me.com/wp-content/cache/min/1/wp-content/plugins/tasty-pins/assets/js/savepin.js?ver=1695924557" id="tasty-pins-frontend-js" defer></script>
+<style type="text/css">.wprm-recipe-template-dm-customtemplate {
+    margin: 20px auto;
+    background-color: #fafafa; /*wprm_background type=color*/
+    font-family: inherit; /*wprm_main_font_family type=font*/
+    font-size: 0.9em; /*wprm_main_font_size type=font_size*/
+    line-height: 1.6em !important; /*wprm_main_line_height type=font_size*/
+    color: #212222; /*wprm_main_text type=color*/
+    max-width: 506px; /*wprm_max_width type=size*/
+}
+.wprm-recipe-template-dm-customtemplate a {
+    color: #b3be35; /*wprm_link type=color*/
+}
+.wprm-recipe-template-dm-customtemplate p, .wprm-recipe-template-dm-customtemplate li {
+    font-family: inherit; /*wprm_main_font_family type=font*/
+    font-size: 1em !important;
+    line-height: 1.6em !important; /*wprm_main_line_height type=font_size*/
+}
+.wprm-recipe-template-dm-customtemplate li {
+    margin: 0 0 0 32px !important;
+    padding: 0 !important;
+}
+.wprm-recipe-template-dm-customtemplate ol, .wprm-recipe-template-dm-customtemplate ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.wprm-recipe-template-dm-customtemplate br {
+    display: none;
+}
+
+
+.wprm-recipe-template-dm-customtemplate .wprm-recipe-name,
+.wprm-recipe-template-dm-customtemplate .wprm-recipe-header {
+    font-family: inherit; /*wprm_header_font_family type=font*/
+    color: #212222; /*wprm_header_text type=color*/
+    line-height: 1.3em; /*wprm_header_line_height type=font_size*/
+}
+.wprm-recipe-template-dm-customtemplate h1,
+.wprm-recipe-template-dm-customtemplate h2,
+.wprm-recipe-template-dm-customtemplate h3,
+.wprm-recipe-template-dm-customtemplate h4,
+.wprm-recipe-template-dm-customtemplate h5,
+.wprm-recipe-template-dm-customtemplate h6 {
+    font-family: inherit; /*wprm_header_font_family type=font*/
+    color: #212222; /*wprm_header_text type=color*/
+    line-height: 1.3em; /*wprm_header_line_height type=font_size*/
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.wprm-recipe-template-dm-customtemplate .wprm-recipe-header {
+    margin: 1.2em  auto !important;
+}
+.wprm-recipe-template-dm-customtemplate h1 {
+    font-size: 2em; /*wprm_h1_size type=font_size*/
+}
+.wprm-recipe-template-dm-customtemplate h2 {
+    font-size: 1.8em; /*wprm_h2_size type=font_size*/
+}
+.wprm-recipe-template-dm-customtemplate h3 {
+    font-size: 1.2em; /*wprm_h3_size type=font_size*/
+}
+.wprm-recipe-template-dm-customtemplate h4 {
+    font-size: 1em; /*wprm_h4_size type=font_size*/
+}
+.wprm-recipe-template-dm-customtemplate h5 {
+    font-size: 1em; /*wprm_h5_size type=font_size*/
+}
+.wprm-recipe-template-dm-customtemplate h6 {
+    font-size: 1em; /*wprm_h6_size type=font_size*/
+}.wprm-recipe-template-dm-customtemplate {
+	border-style: solid; /*wprm_border_style type=border*/
+	border-width: 0px; /*wprm_border_width type=size*/
+	border-color: #212222; /*wprm_border type=color*/
+	border-radius: 0px; /*wprm_border_radius type=size*/
+	padding: 10px;
+}
+
+/* FD Custom */
+.wprm-recipe-template-dm-customtemplate {
+  border: 1px solid #212222;
+  padding: 44px 40px;
+  width: 100% !important;
+  max-width: 100% !important;
+  background: #ffffff;
+  margin: 50px 0;
+}
+.wprm-recipe-template-dm-customtemplate .recipe-top {
+  display: flex;
+  justify-content: space-between;
+}
+.wprm-recipe-template-dm-customtemplate .recipe-top .top-left {
+  width: 31%;
+}
+.wprm-recipe-template-dm-customtemplate .recipe-top .top-right {
+  width: 64%;
+  font-size: 12px;
+  letter-spacing: 0.12rem;
+  text-transform: uppercase;
+}
+.wprm-recipe-template-dm-customtemplate .recipe-top .top-right h2 {
+  font-style: inherit;
+  font-size: 30px;
+  line-height: 1.1;
+  text-align: left;
+  margin: 9px 0 16px !important;
+  color: #212222;
+  font-family: santis, serif !important;
+}
+.wprm-recipe-template-dm-customtemplate
+  .recipe-top
+  .top-right
+  .wprm-block-text-normal {
+  text-transform: uppercase;
+}
+.wprm-recipe-template-dm-customtemplate .recipe-top .wprm-recipe-rating {
+  font-size: 18px;
+}
+.wprm-recipe-template-dm-customtemplate .recipe-top .top-right .pp-flex {
+  line-height: 1;
+  margin: 31px 0 0;
+  display: flex;
+}
+.wprm-recipe-template-dm-customtemplate .recipe-top .top-right .pp-flex a {
+  color: #212222;
+  border-bottom: 1px solid;
+  padding-bottom: 13px;
+  letter-spacing: 0.14rem;
+}
+
+.wprm-recipe-template-dm-customtemplate .recipe-top .top-right .pp-flex span.divider {
+  width: 0.7px;
+  height: 57px;
+  background: #212222;
+  display: inline-block;
+  margin: -14px 32px -32px;
+}
+
+.wprm-recipe-template-dm-customtemplate .recipe-top .top-right .pp-flex span.wprm-recipe-grow-container {
+  background: none;
+  margin-left: 0;
+  width: auto;
+}
+
+.time-flex {
+  border-top: 1px solid #212222;
+  border-bottom: 1px solid #212222;
+  margin: 36px auto 0;
+  color: #231f20 !important;
+  font-size: 12px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+}
+.time-flex .wprm-recipe-times-container {
+  flex: 1 1 75%;
+  display: flex;
+  justify-content: space-between;
+}
+.time-flex .wprm-recipe-times-container div {
+  border-right: 1px solid #212222;
+  padding: 22px 0;
+}
+.time-flex .wprm-recipe-block-container-columns {
+  flex: 1 1 auto;
+  text-align: center;
+  padding: 22px 0;
+}
+.time-flex .wprm-recipe-servings-container {
+  flex: 1 1 auto;
+  text-align: center;
+}
+.time-flex .wprm-recipe-block-container-columns .wprm-recipe-details-label {
+  display: block;
+  text-align: center;
+}
+.wprm-recipe-template-dm-customtemplate .wprm-recipe-ingredients-container {
+  border-bottom: 1px solid;
+  padding-bottom: 20px;
+}
+.time-flex .wprm-block-text-bold,
+.time-flex .wprm-block-text-normal {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: normal !important;
+}
+.wprm-recipe-template-dm-customtemplate .wprm-recipe-header {
+  font-family: santis, serif !important;
+}
+.wprm-recipe-template-dm-customtemplate li {
+  margin: 10px 0px !important;
+}
+.wprm-recipe-ingredients-container .wprm-recipe-ingredient-notes-faded {
+  opacity: 1;
+}
+.wprm-recipe-template-dm-customtemplate .wprm-recipe-instruction {
+	margin-left: 17px !important;
+}
+
+@media (max-width: 1024px) {
+  .time-flex .wprm-recipe-block-container-columns {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid;
+  }
+  .time-flex .wprm-recipe-times-container {
+    width: 100%;
+  }
+  .time-flex .wprm-recipe-times-container div:last-child {
+    border-right: none;
+  }
+  .time-flex {
+    flex-wrap: wrap;
+    margin: 65px auto 0;
+    border-top: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .wprm-recipe-template-dm-customtemplate .recipe-top .top-right h2 {
+    font-size: 22px;
+  }
+  wprm-recipe-template-customtemplate .recipe-top .top-right .pp-flex span {
+    margin: 0 15px -32px;
+  }
+}
+
+@media (max-width: 550px) {
+  .wprm-recipe-template-dm-customtemplate .recipe-top .top-right h2 {
+    text-align: center;
+  }
+  .wprm-recipe-template-dm-customtemplate .recipe-top {
+    flex-wrap: wrap;
+  }
+  .wprm-recipe-template-dm-customtemplate .recipe-top .top-right,
+  .wprm-recipe-template-dm-customtemplate .recipe-top .top-left {
+    width: 100%;
+    text-align: center;
+  }
+  .time-flex .wprm-recipe-times-container div {
+    border-right: none;
+    padding: 10px 0;
+  }
+  .time-flex .wprm-recipe-times-container {
+    flex-direction: column;
+  }
+  .time-flex .wprm-recipe-block-container-columns {
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .wprm-recipe-template-dm-customtemplate {
+    padding: 40px 30px;
+  }
+  .wprm-recipe-template-dm-customtemplate .recipe-top .top-right .pp-flex {
+    justify-content: center;
+  }
+  .wprm-recipe-template-dm-customtemplate .recipe-top .top-right .pp-flex a {
+    color: #231f20 !important;
+    border-bottom: 1px solid;
+    padding-bottom: 13px;
+    letter-spacing: 0.14rem;
+    display: block;
+    text-align: center;
+    width: auto;
+    border: none;
+  }
+  .wprm-recipe-template-dm-customtemplate .recipe-top .top-right .pp-flex span.divider {
+    /* display: none; */
+    height: 24px;
+    margin: -3px 20px;
+  }
+  .time-flex {
+    margin-top: 20px;
+  }
+}</style><script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://domesticate-me.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script><script type="rocketlazyloadscript">
+(function($){$(function(){new FLBuilderSubscribeForm({id:'5b2ac0faf3a90',successAction:'message',successUrl:'',});});})(jQuery);</script><script data-minify="1" type="text/javascript" src="https://domesticate-me.com/wp-content/cache/min/1/wp-content/themes/bb-theme-child/assets/js/main.js?ver=1695924555" defer></script>
+<script type="rocketlazyloadscript" async data-rocket-src="https://www.googletagmanager.com/gtag/js?id=G-QWV1VFCSD0"></script>
+<script type="rocketlazyloadscript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QWV1VFCSD0');
+</script>
+<script type="rocketlazyloadscript" async data-uid="9918db7c86" data-rocket-src="https://f.convertkit.com/9918db7c86/0a5202189c.js"></script><script>"use strict";function wprRemoveCPCSS(){var preload_stylesheets=document.querySelectorAll('link[data-rocket-async="style"][rel="preload"]');if(preload_stylesheets&&0<preload_stylesheets.length)for(var stylesheet_index=0;stylesheet_index<preload_stylesheets.length;stylesheet_index++){var media=preload_stylesheets[stylesheet_index].getAttribute("media")||"all";if(window.matchMedia(media).matches)return void setTimeout(wprRemoveCPCSS,200)}var elem=document.getElementById("rocket-critical-css");elem&&"remove"in elem&&elem.remove()}window.addEventListener?window.addEventListener("load",wprRemoveCPCSS):window.attachEvent&&window.attachEvent("onload",wprRemoveCPCSS);</script><noscript><link data-minify="1" rel='stylesheet' id='wprm-public-css' href='https://domesticate-me.com/wp-content/cache/min/1/wp-content/plugins/wp-recipe-maker/dist/public-modern.css?ver=1695924557' media='all' /><link rel='stylesheet' id='wp-block-library-css' href='https://domesticate-me.com/wp-includes/css/dist/block-library/style.min.css?ver=6.3.1' media='all' /><link data-minify="1" rel='stylesheet' id='fvp-frontend-css' href='https://domesticate-me.com/wp-content/cache/min/1/wp-content/plugins/featured-video-plus/styles/frontend.css?ver=1695924555' media='all' /><link data-minify="1" rel='stylesheet' id='scriptlesssocialsharing-fa-icons-css' href='https://domesticate-me.com/wp-content/cache/min/1/wp-content/plugins/scriptless-social-sharing/includes/css/scriptlesssocialsharing-fontawesome.css?ver=1695924557' media='screen' /><link data-minify="1" rel='stylesheet' id='slick-css' href='https://domesticate-me.com/wp-content/cache/min/1/npm/slick-carousel@1.8.1/slick/slick.css?ver=1695924555' media='all' /><link data-minify="1" rel='stylesheet' id='wprmp-public-css' href='https://domesticate-me.com/wp-content/cache/min/1/wp-content/plugins/wp-recipe-maker-premium/dist/public-premium.css?ver=1695924557' media='all' /><link data-minify="1" rel='stylesheet' id='font-awesome-5-css' href='https://domesticate-me.com/wp-content/cache/min/1/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/css/all.min.css?ver=1695924555' media='all' /><link data-minify="1" rel='stylesheet' id='fl-builder-layout-bundle-5bb47805e149cdf42c16e319242f5834-css' href='https://domesticate-me.com/wp-content/cache/min/1/wp-content/uploads/bb-plugin/cache/5bb47805e149cdf42c16e319242f5834-layout-bundle.css?ver=1695924557' media='all' /><link data-minify="1" rel='stylesheet' id='wordpress-popular-posts-css-css' href='https://domesticate-me.com/wp-content/cache/min/1/wp-content/plugins/wordpress-popular-posts/assets/css/wpp.css?ver=1695924555' media='all' /><link data-minify="1" rel='stylesheet' id='bootstrap-css' href='https://domesticate-me.com/wp-content/cache/min/1/wp-content/themes/bb-theme/css/bootstrap.min.css?ver=1695924555' media='all' /><link data-minify="1" rel='stylesheet' id='fl-automator-skin-css' href='https://domesticate-me.com/wp-content/cache/min/1/wp-content/uploads/bb-theme/skin-6503e4b16f91b.css?ver=1695924555' media='all' /><link rel='stylesheet' id='-css' href='https://domesticate-me.com/wp-content/themes/bb-theme/style.css?ver=6.3.1' media='all' /><link data-minify="1" rel='stylesheet' id='child-style-css' href='https://domesticate-me.com/wp-content/cache/min/1/wp-content/themes/bb-theme-child/assets/styles/main.css?ver=1695924555' media='all' /></noscript></body>
+</html>

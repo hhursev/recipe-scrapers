@@ -2,6 +2,8 @@
 
 # generate generates a new recipe scraper.
 import ast
+import json
+import os
 import sys
 
 import requests
@@ -28,19 +30,30 @@ def generate_scraper(class_name, host_name):
             target.write(state.result())
 
 
-def generate_scraper_test(class_name, host_name, url):
-    with open("templates/test_scraper.py") as source:
-        code = source.read()
-        program = ast.parse(code)
+def generate_scraper_test(class_name, host_name):
+    if not os.path.isdir(f"tests/test_data/{host_name}"):
+        os.mkdir(f"tests/test_data/{host_name}")
 
-        state = GenerateTestScraperState(class_name, host_name, url, code)
-        for node in ast.walk(program):
-            if not state.step(node):
-                break
+    testjson = {
+        "author": "",
+        "canonical_url": "",
+        "host": host_name,
+        "description": "",
+        "image": "",
+        "ingredients": "",
+        "ingredient_groups": "",
+        "instructions": "",
+        "instructions_list": "",
+        "language": "",
+        "site_name": "",
+        "title": "",
+        "total_time": "",
+        "yields": "",
+    }
 
-        output = f"tests/test_{class_name.lower()}.py"
-        with open(output, "w") as target:
-            target.write(state.result())
+    output = f"tests/test_data/{host_name}/{class_name.lower()}.json"
+    with open(output, "w") as target:
+        json.dump(testjson, target, indent=2)
 
 
 def init_scraper(class_name):
@@ -58,8 +71,8 @@ def init_scraper(class_name):
         source.truncate()
 
 
-def generate_test_data(class_name, content):
-    output = f"tests/test_data/{class_name.lower()}.testhtml"
+def generate_test_data(class_name, host_name, content):
+    output = f"tests/test_data/{host_name}/{class_name.lower()}.testhtml"
     with open(output, "wb") as target:
         target.write(content)
 
@@ -96,62 +109,6 @@ class GenerateScraperState(ScraperState):
             offset = self._offset(node)
             segment_end = self.code.index(template_host_name, offset)
             self._replace(self.host_name, segment_end, len(template_host_name))
-
-        return True
-
-
-class GenerateTestScraperState(ScraperState):
-    def __init__(self, class_name, host_name, url, code):
-        super().__init__(code)
-        self.class_name = class_name
-        self.host_name = host_name
-        self.url = url
-        self.module_name = class_name.lower()
-        self.template_module_name = template_class_name.lower()
-
-    def step(self, node):
-        if (
-            isinstance(node, ast.ImportFrom)
-            and node.module == f"recipe_scrapers.{self.template_module_name}"
-        ):
-            offset = self._offset(node)
-            module_name_segment_end = self.code.index(self.template_module_name, offset)
-            self._replace(
-                self.module_name,
-                module_name_segment_end,
-                len(self.template_module_name),
-            )
-            class_name_segment_end = self.code.index(template_class_name, offset)
-            self._replace(
-                self.class_name, class_name_segment_end, len(template_class_name)
-            )
-
-        if (
-            isinstance(node, ast.ClassDef)
-            and node.name == f"Test{template_class_name}Scraper"
-        ):
-            offset = self._offset(node)
-            segment_end = self.code.index(template_class_name, offset)
-            self._replace(self.class_name, segment_end, len(template_class_name))
-
-        if (
-            isinstance(node, ast.Assign)
-            and isinstance(node.value, ast.Name)
-            and node.value.id == template_class_name
-        ):
-            offset = self._offset(node)
-            segment_end = self.code.index(template_class_name, offset)
-            self._replace(self.class_name, segment_end, len(template_class_name))
-
-        if isinstance(node, ast.Constant) and node.value == template_host_name:
-            offset = self._offset(node)
-            segment_end = self.code.index(template_host_name, offset)
-            self._replace(self.host_name, segment_end, len(template_host_name))
-
-        if isinstance(node, ast.Constant) and node.value == "example.com/recipe-url":
-            offset = self._offset(node)
-            segment_end = self.code.index("example.com/recipe-url", offset)
-            self._replace(self.url, segment_end, len("example.com/recipe-url"))
 
         return True
 
@@ -275,8 +232,8 @@ def main():
     testhtml = requests.get(url, headers=HEADERS).content
 
     generate_scraper(class_name, host_name)
-    generate_scraper_test(class_name, host_name, url)
-    generate_test_data(class_name, testhtml)
+    generate_scraper_test(class_name, host_name)
+    generate_test_data(class_name, host_name, testhtml)
     init_scraper(class_name)
 
 

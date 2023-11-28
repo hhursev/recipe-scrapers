@@ -1,0 +1,1929 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="description" content="An easy raw vegan lasagna recipe made with zucchini, basil pesto and macadamia cheese: a tasty dish, perfect whether you follow a vegan or a raw food diet. Yum!" />
+<meta name="keywords" content="Gourmet Recipes,Gourmet Recipes, Vegan Food, Vegetarian Food, Raw Food,Vegan,," />
+<meta name="robots" content="max-image-preview:large" />
+<link rel="alternate" type="application/rss+xml" href="https://www.finedininglovers.com/global-feed.rss" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Zucchini Raw Vegan Lasagna" />
+<meta property="og:description" content="An easy raw vegan lasagna recipe made with zucchini, basil pesto and macadamia cheese: a tasty dish, perfect whether you follow a vegan or a raw food diet. Yum!" />
+<meta property="og:image" content="https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/open_graph_image/public/Original_2242_zucchini-lasagna-raw-vegan.jpg?itok=C6bvoh7c" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="google-site-verification" content="IhUaZvAPdO9SiLoj_9HHaR8R-LZI-LiFt3lyo6gateM" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Recipe",
+            "name": "Zucchini Raw Vegan Lasagna",
+            "description": "\u003Cp\u003EAn easy raw vegan lasagna recipe made with zucchini, basil pesto and macadamia cheese: a tasty dish, perfect whether you follow a vegan or a raw food diet. Yum!\u003C/p\u003E",
+            "recipeYield": "4",
+            "totalTime": "P0DT0H50M0S",
+            "recipeIngredient": [
+                "Zucchini",
+                "Basil",
+                "Pine nuts",
+                "Extra virgin olive oil",
+                "Yeast Flakes",
+                "Garlic",
+                "Salt",
+                "Tomatoes",
+                "Sun dried tomatoes",
+                "Extra virgin olive oil",
+                "Salt",
+                "Pepper",
+                "Brown sugar",
+                "Oregano",
+                "Macadamia Nuts",
+                "Yeast Flakes",
+                "Salt",
+                "Limes"
+            ],
+            "recipeInstructions": [
+                "For the macadamia cheese Pour all ingredients in a blender and mix until a thick cream. Set aside.\nFor the tomato cream Pour all ingredients into a blender and mix until creamy. Set aside.\nFor the basil pesto Pour all ingredients into a blender and mix until creamy. Set aside. Wash zucchini and cut them into very thin slices. Make the raw vegan lasagna alternating a layer of zucchini",
+                "a layer of macadamia cheese",
+                "a layer of zucchini",
+                "a layer of tomato sauce",
+                "a layer of zucchini",
+                "a layer of basil pesto. Keep the lasagna in the fridge and serve decorated with fresh basil and pine nuts."
+            ],
+            "recipeCategory": [
+                "\u003Ca href=\u0022/recipes/main-course\u0022 hreflang=\u0022en\u0022\u003EMain Course\u003C/a\u003E"
+            ],
+            "author": {
+                "@type": "Person",
+                "name": "\u003Ca href=\u0022/people/uno-cookbook\u0022 hreflang=\u0022en\u0022\u003EUno Cookbook\u003C/a\u003E"
+            },
+            "image": {
+                "@type": "ImageObject",
+                "representativeOfPage": "True",
+                "url": "https://www.finedininglovers.com/sites/g/files/xknfdk626/files/Original_2242_zucchini-lasagna-raw-vegan.jpg"
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "3.17",
+                "ratingCount": "60",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+        }
+    ]
+}</script>
+<meta http-equiv="x-ua-compatible" content="ie=edge" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"0484fef455",applicationID:"1173403918"};;/*! For license information please see nr-loader-rum-1.243.1.min.js.LICENSE.txt */
+(()=>{"use strict";var e,t,n={234:(e,t,n)=>{n.d(t,{P_:()=>h,Mt:()=>m,C5:()=>s,DL:()=>w,OP:()=>j,lF:()=>N,Yu:()=>_,Dg:()=>v,CX:()=>c,GE:()=>A,sU:()=>T});var r=n(8632),i=n(9567);const a={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},o={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!o[e])throw new Error("Info for ".concat(e," was never set"));return o[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");o[e]=(0,i.D)(t,a),(0,r.Qy)(e,o[e],"info")}const d=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var u=n(7056),l=n(50);const f=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:u.oD,inactiveMs:u.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,sampling_rate:50,error_sampling_rate:50,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){d(t)?e.mask_selector=t+",[data-nr-mask]":null===t?e.mask_selector=t:(0,l.Z)("An invalid session_replay.mask_selector was provided and will not be used",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){d(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},g={},p="All configuration objects require an agent identifier!";function h(e){if(!e)throw new Error(p);if(!g[e])throw new Error("Configuration for ".concat(e," was never set"));return g[e]}function v(e,t){if(!e)throw new Error(p);g[e]=(0,i.D)(t,f()),(0,r.Qy)(e,g[e],"config")}function m(e,t){if(!e)throw new Error(p);var n=h(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const b={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},y={};function w(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!y[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return y[e]}function A(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");y[e]=(0,i.D)(t,b),(0,r.Qy)(e,y[e],"loader_config")}const _=(0,r.mF)().o;var x=n(385),D=n(6818);const k={buildEnv:D.Re,customTransaction:void 0,disabled:!1,distMethod:D.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(x._A?.performance?.timeOrigin||x._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+x._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof x._A.XMLHttpRequest?.prototype?.addEventListener,version:D.q4,denyList:void 0},E={};function j(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!E[e])throw new Error("Runtime for ".concat(e," was never set"));return E[e]}function T(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");E[e]=(0,i.D)(t,k),(0,r.Qy)(e,E[e],"runtime")}function N(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,n)=>{n.d(t,{D:()=>i});var r=n(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,r.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,r.Z)("Setting a Configurable requires a model to set its initial properties");const n=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(n).length?e:n;for(let o in a)if(void 0!==e[o])try{"object"==typeof e[o]&&"object"==typeof t[o]?n[o]=i(e[o],t[o]):n[o]=e[o]}catch(e){(0,r.Z)("An error occurred while setting a property of a Configurable",e)}return n}catch(e){(0,r.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,n)=>{n.d(t,{Re:()=>i,gF:()=>a,q4:()=>r});const r="1.243.1",i="PROD",a="CDN"},385:(e,t,n)=>{n.d(t,{Nk:()=>u,Tt:()=>s,_A:()=>a,cv:()=>l,iS:()=>o,il:()=>r,ux:()=>c,v6:()=>i,w1:()=>d});const r="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=r?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===a?.document?.visibilityState),s=(a?.location,/iPad|iPhone|iPod/.test(a.navigator?.userAgent)),c=s&&"undefined"==typeof SharedWorker,d=((()=>{const e=a.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(r&&window.document.documentMode)),u=!!a.navigator?.sendBeacon,l=Math.floor(a?.performance?.timeOrigin||a?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,n)=>{n.d(t,{w:()=>a});var r=n(50);const i={agentIdentifier:"",ee:void 0};class a{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,n)=>{n.d(t,{L:()=>u,R:()=>c});var r=n(8325),i=n(1284),a=n(4322),o=n(3325);const s={};function c(e,t){const n={staged:!1,priority:o.p[t]||0};d(e),s[e].get(t)||s[e].set(t,n)}function d(e){e&&(s[e]||(s[e]=new Map))}function u(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(d(e),!e||!s[e].get(t))return o(t);s[e].get(t).staged=!0;const n=[...s[e]];function o(t){const n=e?r.ee.get(e):r.ee,o=a.X.handlers;if(n.backlog&&o){var s=n.backlog[t],c=o[t];if(c){for(var d=0;s&&d<s.length;++d)l(s[d],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete o[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((t=>{let[n]=t;s[e].delete(n),o(n)})))}function l(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],a=e[3],o=e[2];i.apply(a,o)}}))}},8325:(e,t,n)=>{n.d(t,{A:()=>c,ee:()=>d});var r=n(8632),i=n(2210),a=n(234);class o{constructor(e){this.contextId=e}}var s=n(3117);const c="nr@context:".concat(s.a),d=function e(t,n){var r={},s={},u={},f=!1;try{f=16===n.length&&(0,a.OP)(n).isolatedBacklog}catch(e){}var g={on:h,addEventListener:h,removeEventListener:function(e,t){var n=r[e];if(!n)return;for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)},emit:function(e,n,r,i,a){!1!==a&&(a=!0);if(d.aborted&&!i)return;t&&a&&t.emit(e,n,r);for(var o=p(r),c=v(e),u=c.length,l=0;l<u;l++)c[l].apply(o,n);var f=b()[s[e]];f&&f.push([g,e,n,o]);return o},get:m,listeners:v,context:p,buffer:function(e,t){const n=b();if(t=t||"feature",g.aborted)return;Object.entries(e||{}).forEach((e=>{let[r,i]=e;s[i]=t,t in n||(n[t]=[])}))},abort:l,aborted:!1,isBuffering:function(e){return!!b()[s[e]]},debugId:n,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return g;function p(e){return e&&e instanceof o?e:e?(0,i.X)(e,c,(()=>new o(c))):new o(c)}function h(e,t){r[e]=v(e).concat(t)}function v(e){return r[e]||[]}function m(t){return u[t]=u[t]||e(g,t)}function b(){return g.backlog}}(void 0,"globalEE"),u=(0,r.fP)();function l(){d.aborted=!0,d.backlog={}}u.ee||(u.ee=d)},5546:(e,t,n)=>{n.d(t,{E:()=>r,p:()=>i});var r=n(8325).ee.get("handle");function i(e,t,n,i,a){a?(a.buffer([e],i),a.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4322:(e,t,n)=>{n.d(t,{X:()=>a});var r=n(5546);a.on=o;var i=a.handlers={};function a(e,t,n,a){o(a||r.E,i,e,t,n)}function o(e,t,n,i,a){a||(a="feature"),e||(e=r.E);var o=t[a]=t[a]||{};(o[n]=o[n]||[]).push([e,i])}},3239:(e,t,n)=>{n.d(t,{bP:()=>s,iz:()=>c,m$:()=>o});var r=n(385);let i=!1,a=!1;try{const e={get passive(){return i=!0,!1},get signal(){return a=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function o(e,t){return i||a?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,o(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,o(n,r))}},3117:(e,t,n)=>{n.d(t,{a:()=>r});const r=(0,n(4402).Rl)()},4402:(e,t,n)=>{n.d(t,{Rl:()=>o,ky:()=>s});var r=n(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?a(t,++n).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const o=[];for(var s=0;s<e;s++)o.push(a(n,++i).toString(16));return o.join("")}},7056:(e,t,n)=>{n.d(t,{Bq:()=>r,Hb:()=>a,oD:()=>i});const r="NRBA",i=144e5,a=18e5},7894:(e,t,n)=>{function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},50:(e,t,n)=>{function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},2587:(e,t,n)=>{n.d(t,{N:()=>c,T:()=>d});var r=n(8325),i=n(5546),a=n(3325);const o={stn:[a.D.sessionTrace],err:[a.D.jserrors,a.D.metrics],ins:[a.D.pageAction],spa:[a.D.spa],sr:[a.D.sessionReplay,a.D.sessionTrace]},s=new Set;function c(e,t){const n=r.ee.get(t);e&&"object"==typeof e&&(s.has(t)||Object.entries(e).forEach((e=>{let[t,r]=e;o[t]?o[t].forEach((e=>{r?(0,i.p)("feat-"+t,[],void 0,e,n):(0,i.p)("block-"+t,[],void 0,e,n),(0,i.p)("rumresp-"+t,[Boolean(r)],void 0,e,n)})):r&&(0,i.p)("feat-"+t,[],void 0,void 0,n),d[t]=Boolean(r)})),Object.keys(o).forEach((e=>{void 0===d[e]&&(o[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,n))),d[e]=!1)})),s.add(t))}const d={}},2210:(e,t,n)=>{n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,n)=>{n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},4351:(e,t,n)=>{n.d(t,{P:()=>a});var r=n(8325);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function a(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,n)=>{n.d(t,{K:()=>o,b:()=>a});var r=n(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,r.bP)("load",e,t)}function o(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},8632:(e,t,n)=>{n.d(t,{EZ:()=>d,Qy:()=>c,ce:()=>a,fP:()=>o,gG:()=>u,mF:()=>s});var r=n(7894),i=n(385);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=o();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,n){let i=o();const a=i.initializedAgents||{},s=a[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.z)(),date:new Date}),i.initializedAgents={...a,[e]:{...s,[n]:t}},i}function d(e,t){o()[e]=t}function u(){return function(){let e=o();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),s(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},7956:(e,t,n)=>{n.d(t,{N:()=>i});var r=n(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),n,i)}},3081:(e,t,n)=>{n.d(t,{gF:()=>a,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>o});const r=n(3325).D.metrics,i="sm",a="cm",o="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewEvent},9251:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewTiming},5938:(e,t,n)=>{n.d(t,{W:()=>i});var r=n(8325);class i{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=r.ee.get(e),this.featureName=n,this.blocked=!1}}},7530:(e,t,n)=>{n.d(t,{j:()=>b});var r=n(3325),i=n(234),a=n(5546),o=n(8325),s=n(7894),c=n(8e3),d=n(3960),u=n(385),l=n(50),f=n(3081),g=n(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let a=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&a.push(e.api[t](...r))})),a.length>1?a:a[0]}(t,...r)}}))}var h=n(2587);const v=e=>{const t=e.startsWith("http");e+="/",n.p=t?e:"https://"+e};let m=!1;function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:w,info:A,loader_config:_,runtime:x={loaderType:b},exposed:D=!0}=t;const k=(0,g.gG)();A||(w=k.init,A=k.info,_=k.loader_config),(0,i.Dg)(e,w||{}),(0,i.GE)(e,_||{}),A.jsAttributes??={},u.v6&&(A.jsAttributes.isWorker=!0),(0,i.CX)(e,A);const E=(0,i.P_)(e),j=[A.beacon,A.errorBeacon];m||(m=!0,E.proxy.assets&&(v(E.proxy.assets),j.push(E.proxy.assets)),E.proxy.beacon&&j.push(E.proxy.beacon)),x.denyList=[...E.ajax.deny_list||[],...E.ajax.block_internal?j:[]],(0,i.sU)(e,x),p();const T=function(e,t){t||(0,c.R)(e,"api");const g={};var p=o.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,n,r,a){const o=(0,i.C5)(e);return null===n?delete o.jsAttributes[t]:(0,i.CX)(e,{...o,jsAttributes:{...o.jsAttributes,[t]:n}}),A(v,r,!0,a||null===n?"session":void 0)(t,n)}function y(){}["setErrorHandler","finished","addToTrace","addRelease"].forEach((e=>{g[e]=A(v,e,!0,"api")})),g.addPageAction=A(v,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(v,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setApplicationVersion=function(e){if("string"==typeof e||null===e)return b("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},g.start=e=>{try{const t=e?"defined":"undefined";(0,a.p)(f.xS,["API/start/".concat(t,"/called")],void 0,r.D.metrics,p);const n=Object.values(r.D);if(void 0===e)e=n;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!n.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(n));e.includes(r.D.pageViewEvent)||e.push(r.D.pageViewEvent)}e.forEach((e=>{p.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var n={},i=this,o="function"==typeof t;return(0,a.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,p),function(){if(h.emit((o?"":"no-")+"fn-start",[(0,s.z)(),i,o],n),o)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,e],n),e}finally{h.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,a.p)(f.xS,["API/"+t+"/called"],void 0,r.D.metrics,p),i&&(0,a.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,p),n?void 0:this}}function _(){n.e(75).then(n.bind(n,7438)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,a.p)(f.xS,["API/noticeError/called"],void 0,r.D.metrics,p),(0,a.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,p)},u.il?(0,d.b)((()=>_()),!0):_(),g}(e,y);return(0,g.Qy)(e,T,"api"),(0,g.Qy)(e,D,"exposed"),(0,g.EZ)("activatedFeatures",h.T),T}},3325:(e,t,n)=>{n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8,[r.sessionReplay]:9}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var a=r[e]={exports:{}};return n[e](a,a.exports,i),a.exports}i.m=n,i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>"nr-rum-1.243.1.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.243.1.PROD:",i.l=(n,r,a,o)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==a)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==n||l.getAttribute("data-webpack")==t+a){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+a),s.src=n),e[n]=[r];var f=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var a=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=a);var o=i.p+i.u(t),s=new Error;i.l(o,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var a=n&&("load"===n.type?"missing":n.type),o=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+a+": "+o+")",s.name="ChunkLoadError",s.type=a,s.request=o,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,a,[o,s,c]=n,d=0;if(o.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);d<o.length;d++)a=o[d],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},n=self["webpackChunk:NRBA-1.243.1.PROD"]=self["webpackChunk:NRBA-1.243.1.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{var e=i(50);class t{addPageAction(t,n){(0,e.Z)("Call to agent api addPageAction failed. The session trace feature is not currently initialized.")}setPageViewName(t,n){(0,e.Z)("Call to agent api setPageViewName failed. The page view feature is not currently initialized.")}setCustomAttribute(t,n,r){(0,e.Z)("Call to agent api setCustomAttribute failed. The js errors feature is not currently initialized.")}noticeError(t,n){(0,e.Z)("Call to agent api noticeError failed. The js errors feature is not currently initialized.")}setUserId(t){(0,e.Z)("Call to agent api setUserId failed. The js errors feature is not currently initialized.")}setApplicationVersion(t){(0,e.Z)("Call to agent api setApplicationVersion failed. The agent is not currently initialized.")}setErrorHandler(t){(0,e.Z)("Call to agent api setErrorHandler failed. The js errors feature is not currently initialized.")}finished(t){(0,e.Z)("Call to agent api finished failed. The page action feature is not currently initialized.")}addRelease(t,n){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}start(t){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}}var n=i(3325),r=i(234);const a=Object.values(n.D);function o(e){const t={};return a.forEach((n=>{t[n]=function(e,t){return!1!==(0,r.Mt)(t,"".concat(e,".enabled"))}(n,e)})),t}var s=i(7530);var c=i(8e3),d=i(5938),u=i(3960),l=i(385);class f extends d.W{constructor(e,t,n){let i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.auto=i,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,r.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,c.R)(e,n)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,c.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));const n=l.il&&!0===(0,r.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let a;this.onAggregateImported=new Promise((e=>{a=e}));const o=async()=>{let r;try{if(n){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,3228));r=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,r))return(0,c.L)(this.agentIdentifier,this.featureName),void a(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:n}=await e(this.featureName,"aggregate");this.featAggregate=new n(this.agentIdentifier,this.aggregator,t),a(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),(0,c.L)(this.agentIdentifier,this.featureName),a(!1)}};l.il?(0,u.b)((()=>o()),!0):o()}shouldImportAgg(e,t){return e!==n.D.sessionReplay||!!r.Yu.MO&&(!1!==(0,r.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplay))}}var g=i(7633);class p extends f{static featureName=g.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,g.t,n),this.importAggregator()}}var h=i(1117),v=i(1284);class m extends h.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var a=this.getBucket(e,t,n,i);return a.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,v.D)(e,(function(e,n){t[e]=b(n,t[e])})),t}(r,a.metrics),a}merge(e,t,n,r,i){var a=this.getBucket(e,t,r,i);if(a.metrics){var o=a.metrics;o.count+=n.count,(0,v.D)(n,(function(e,t){if("count"!==e){var r=o[e],i=n[e];i&&!i.c?o[e]=b(i.t,r):o[e]=function(e,t){if(!t)return e;t.c||(t=y(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,o[e])}}))}else a.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=b(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=w(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function b(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=y(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function y(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function w(e){return"object"!=typeof e?[]:(0,v.D)(e,A)}function A(e,t){return t}var _=i(8632),x=i(4402),D=i(4351);var k=i(5546),E=i(7956),j=i(3239),T=i(7894),N=i(9251);class S extends f{static featureName=N.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,N.t,n),l.il&&((0,E.N)((()=>(0,k.p)("docHidden",[(0,T.z)()],void 0,N.t,this.ee)),!0),(0,j.bP)("pagehide",(()=>(0,k.p)("winPagehide",[(0,T.z)()],void 0,N.t,this.ee))),this.importAggregator())}}var C=i(3081);class P extends f{static featureName=C.t9;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,C.t9,n),this.importAggregator()}}new class extends t{constructor(t){let n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,x.ky)(16);super(),l._A?(this.agentIdentifier=n,this.sharedAggregator=new m({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(p),Object.assign(this,(0,s.j)(this.agentIdentifier,t,t.loaderType||"agent")),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,r.C5)(this.agentIdentifier),init:(0,r.P_)(this.agentIdentifier),loader_config:(0,r.DL)(this.agentIdentifier),runtime:(0,r.OP)(this.agentIdentifier)}}run(){const t="features";try{const r=o(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((e,t)=>n.p[e.featureName]-n.p[t.featureName])),i.forEach((t=>{if(r[t.featureName]||t.featureName===n.D.pageViewEvent){const i=function(e){switch(e){case n.D.ajax:return[n.D.jserrors];case n.D.sessionTrace:return[n.D.ajax,n.D.pageViewEvent];case n.D.sessionReplay:return[n.D.sessionTrace];case n.D.pageViewTiming:return[n.D.pageViewEvent];default:return[]}}(t.featureName);i.every((e=>r[e]))||(0,e.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,D.P)(i),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,_.Qy)(this.agentIdentifier,this.features,t)}catch(n){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",n);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,_.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}addToTrace(t){(0,e.Z)("Call to agent api addToTrace failed. The page action feature is not currently initialized.")}setCurrentRouteName(t){(0,e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.")}interaction(){(0,e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.")}}({features:[p,S,P],loaderType:"lite"})})()})();</script>
+<link rel="icon" href="/themes/custom/fdl/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://www.finedininglovers.com/recipes/main-course/zucchini-raw-vegan-lasagna" />
+<link rel="shortlink" href="https://www.finedininglovers.com/node/90241" />
+<link rel="amphtml" href="https://www.finedininglovers.com/recipes/main-course/zucchini-raw-vegan-lasagna?amp" />
+<script src="/sites/g/files/xknfdk626/files/google_tag/default/google_tag.script.js?s21utc" defer></script>
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};</script>
+
+    <title>Zucchini Raw Vegan Lasagna</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap">
+    <link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_dRKYHfPkXceRgwnHo0cTm57u3lk-JV5y_f9JP34yGQo.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_tv9oIJu37i_5nYmRKDDjwxl5z0oprM10yLV4916dZ3Y.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_hQkELi8ak7NcK9X6sqK8Ygf9xEPbW8XizrWTzVwYwVs.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_7Ez_CGi3TdKFjf0G2hM25dLOPqHVLojgxZVXbHYeTeQ.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_kpJy_PqC1w0VLD2rUgfDYbHilqhznKPyW2GsA37R0Is.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_LAzWndtPzyt6tclf0LC0S-HtkbHsTW70cyb0RWZuIyQ.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_FX0dIfAnA8dcjW_leSh_7Lz-gFN4mwZHtuRoNTk2d3E.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_3vw-_n-uCC53emnPEpDm3j0rb_45JCw3UicD0qeONJk.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_uQygD9MZt_IKCrBi6nexwQd-3DW1uuNvLxmcgiDGLag.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_6poZdIOuCiDI-FIAD1qhp8hCt4xePd2afOJruXYoeTE.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_qLZqAYsG0Bya2NF6fSh19MYB6k80-SGFUnHjvAKKQic.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_rf1cTMpTwq3-mHGTBRju0nh6m593vZ0NT9238CZPxsE.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_26CUFTMCsNsUyGS0GefaF8zwTRUAURYwyvgGkVT9TKI.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_Sba7bsXiLFvK2ufrnb9spjCheqfdF_jfivVF9cqJICk.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_k9xEsn30xSGlADTgWqOpDzwINn1xqIvJkZmg5D2OODU.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_mIckjjWGT8LQ5eeopviXXhPmOspjvYo38JgwRI4dCpc.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_QZPrWKO7xUI0Q-sxVhGMTn9FRrpyxii0BuH81cO3pWc.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_OJlDf3JYuH-V1AU8FyyDw9iiO6xuUUODxmnhVJvRWB0.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_Oe_PUmbgfdHZ-BQ4RNg3S1S0keIxcYrQiONunPETlXY.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_AHuX3i-Cv-T1LMbzJ0uY1IX0igynpQK_J0kUIIaA1n0.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_LoWXiZ0esh1QrQ8kDaYkqfen7zi1A1dYJMzgQSyaRUg.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_PzY9CQWM1ZtBTm_TTas7mQAN8ucfwUoshNAiBQKER3I.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_Rv4Jp6gRmRjmEW8rwh6LdMzYX4ugUabJccT-lNqBaAQ.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_igUcuJ5-sUUCs_bjn8FR59NtA2hU2E-Vz4xGrJNMK_A.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_WU7F0uZv9YUNEDaHj9VPSf-HDP3UasBQMBHq8G32wHo.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_nySAAFbp_UUz6wi8_kqSAkosV0ix8N18esfKt-LcvMg.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_MOmJg5fpq06DnLdpO-XAe-wVQErokrTGvX61133KkSU.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_hzJQ1hu6fBkd8hrrXJl0KPBiZ5RsLl_LqCQ2E4Ozibw.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_D5_m7_QCQgj9SXw0Kn_W8hKSeifHlcvx7EroG3dbg7Q.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_hPJ1GkVczCZ4hYP4FwdAFgOtlHTsDEwtl2FjEE-B-4Q.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_HzKomj1Km7C5JOLXfZekEO5__H75BTxvFc4YVq5M94M.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_rT06N1hzNwWZvlauEGw5ZNFVKBrR23ibx56HC8Lyx4M.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_OEr0h7IxL-a0_8iGsq58GPmEjUJ08MmCqQjtdtrqg-4.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_Lgz65tmDBwd-bqe5R0lpw9o5-wyUnu7CuZjRZvFYjS0.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_UA3YVCX2LFbmbcl_beJk631KVDgf7mGUt_9XJ_JnkEw.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_czuOEoxqRdH2WGHSlxi0JLdP0K6lbSCUt45Z9ObopV0.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_exg57htbOCXNScTZ22H9vxE5BSCpsVjfYjwgtReXaO8.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css__6KLpymEPWXNB7T3Qj6j-4-55mXUVG1Spbv5biWGYUM.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_njezo4WJ--2oy8VYMkcH4o0Whu6Cdv0-XK2hKOJ_9Xk.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_v52pnKvzGMwJsCsbQob1gLXKl-3n3S7iFQHISwvruAA.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_5tpiwTFhtQk9dZoRZeYmA6WVdTVxDoo70wqlZTDMSr4.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_oxPc1MAtA9JtK43zIpgVckbIMLwV-LOMHSlco1x1SdA.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_NnvLBmn6l2ke-qq-a60cGrsJBxEMr1QjN6SSRb31T60.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_CNhaHMpjz6blAHcFZGeEu1fg74R065U59kyvGuF0tAI.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_iTK4VPzheljiuEIwc1qUWvIFvVbXjh8b_6qdjIY5cXc.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_7CHGWXr4fn4jfy-HAaHLR0j1oxW_TbK0uiqSnvn_L1s.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_yvUE-xrti8cIAMBmLLGKNvFU-Hifdt0Y-GEsekeEDN4.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_FmFwq2sJVRTDA16JAFqn11pfDgro_hxFVL2odMsuDEM.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_vAWmSJLo__LT1DRbAFJNvKsLLRww9p7_L-cQbCIPZqs.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_7lWiIXAQF-TINdGoxsxE73odhmSV8OxCpNY-nzIGkTE.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_6ljCWPt2SgwgSUBp2b41n1CLAQzsLf74dhFwEImhXXw.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_4wi4Aq26gHoZzOkloKbbl4xbNWtFEV62dGWC_U0M9xQ.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_XGCi0vFwmaYEdbZehppyti6uG80Ii_JpMsnG6CXfJK8.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_g629YJIQjY4gMu4B9hEBrbxH4-7D8nXWKkBxOfppb9A.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css__TO_fMryWESE26vG8tJI1F_mXhe6e0EW9IJY4idq3Z0.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_217bGVTY8DV6bgNN7IUxU9lMh4S-BY_2fOiUgl2w2sA.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_cDRJ2IyF4q9szVNtGV-LKhC_-rEOkWY73z0F0uQh8Fs.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_DlxHnneSZC-cGpcZmgfxMnWaowiGQP7itG4lwEwi85Y.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_q6BBJ0HWmb0ZQSEyazDlD58GbLxZK_ty4snp_-BMjHk.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_mx03kKQ63QYfBHI-2oPvgihGeJahkh02SgYVY269ByM.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_qfOGxikuAgLcfHDSXxYMvamvjG7AmMzlrwuvpFIqU9Y.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_Hp-eNIzwhiDQk20iM77rZAxh7F4E1X-gxtioRWdLV2c.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_U4lsKvxE_nTgR1fd1GjTNWLR-a9x-nITu7TX0DIEq8c.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_OOgDGeAiN5M5WCj9bjqhe4SwgtO-KTcwOU3UXguu5vw.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_ji1Lc9fVs5on_s8aX_0S4PtRqtM0fV6u41k0zhQulb0.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_tevx-Hfzj5RVuHrbi2zfL963BdTltGXiqDGhBgeCC6g.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_XI8j-nkLxuakGQ8mjVzm76cTqPFPI9ln4jCeEQrwYRk.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_tvE2fiBDa_uaBccjivvmgmooTCdwMFjJStpNMABGB1g.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_OdEI1zyjXDdsOWCNwCHRI2oZLIn-tjFRQ2WlYACx7bA.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_Pew87FEIkwSIQc-eb9l8keoEvSRvAFrZ71DNnpvvcu8.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_malgNzDs-q70fNpHUv-pAy6ZcZ8EdQAPCI6Lw2hkwJI.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_7o-OOEujUs4KxmruOHwTLfJbuYhTDUGeMK8VJV6mMCc.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_ma6zGMwUgcGgTMoWXnklXPytQ8KeJjrZeLTvqqEWLqA.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_kVOspf2-LQ6oJZqKudzc2NHGyM6c8-_7kLgPr2FA598.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_BzpGVUoj9RxTglKL8MEtqS-iYL-tLYcJvPhBI9zDQTc.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_oWZxyjM9NanoZ_WV5EYGJarj8BSkew2don-nniOjRUs.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_uzrEg1cYF0DY32ckUxpJUCbc1EEWAc6Y0d7M2UY1soY.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css__-PPQR4dj3V4gbqO1DqWY7rdAi8W6V2bq8n-cxHW-ek.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_4sw5bN1omxiCIDroWGPGiz8fVvx8P3CUD7aaXxm01Ek.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_O2ymOkWGG3l7k8J2Om0LYVinEIyLkFraMWVfNXdfYXo.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_qdPRicKswcdtPO3oameV-2AgS9yIqC_aMq7syGsNztw.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_rGC23orPEYazyxu5dgSn1fS_QRDvQmSt6a0EOKxWdSI.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_0x5yFyZ0f8u8QMVSFuS6E7s4RLE8G3Uihvn3eA_bO7A.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_BDK9inA75objjnWMzbzCHzp4pVTRNt7JpeopHfH5SW0.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_EG0aqpbTjzZrfUHZqNNtPBeSrSR1xYaUZpVVThWKOsg.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_nESEf47vdz3ZxAdWXqdOOlyYOrOAqlOQx3jAw45uWwA.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_3slOQxMfFyuxxWYX7eVW6Iz_2w1Uz1a6CWvD6778zyc.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_ujHlSmuHaz_xjuUp_jC_d32i1DY20w95FXDH8JiitJg.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_6NF07FDxaqBiSGmpfjH-dHvHnyM4ELq0AM4oZ3FESQs.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_l3GekcbvHhJZUu4kCeAjraz_f8Ob2QeAk62MyfpL7XI.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_0c9t2j6lternR18huqkzIaMn8TDLodsFGJ5jEUJpFyc.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_9rOJjQmVC_1FthcVpYzh2eUtT5NpbaPYaidAIrdBEPc.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_LKmD0TUvmhejRJSJobN8T7xH6ATXsOR4G1sRXtnq3wY.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_z_482iXIuKGYS3bUQmZq0ajI1CGXX9AqXMtaC2I0b2M.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_FNCN4vIQtBhI0VMpnce9ZaU0ZGplNmeNSxoukbnqrK4.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_s3xF58grEIEdvj0GXN_U7JpR9uwKwy3MGc47hxJVBQU.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_gm1S18pvkovCAlnj_fHk7D1BL0T6xl4hLaQhbqtYx4M.css" />
+<link rel="stylesheet" media="print" href="/sites/g/files/xknfdk626/files/css/css_Y4H_4BqmgyCtG7E7YdseTs2qvy9C34c51kBamDdgark.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_9zFuamBDGdJ8ekbBWXPiNMAmDCGVjo4h-4XBTzfVGgw.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_VOOQqQtGWORvUQDYzDBKOb4-xTrK0w1amXjqcv10oE4.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_wpWu2B10pSxqDaP94NZosCIghAf9BIapk85Wcvvrx64.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_W4pDSNPvT7OCEDLj1ryuybZRdVh5pjHLTE4TsZt7XxE.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_Q9WYBXNLrlsrVNamlO4rgSN5wB8Yuf8pY_QdEM-PZBM.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_LoJKir5ecNnaADNZDN4rpjcrNpoGMlCQ9xI14aGuY0o.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_EDTttpsBCAO7qFgp-6TMqCV6XWJ82se3ywW02kM1NLQ.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_A4WeffhJ6kOVS1Gn8VsXrGJsPHcJ251kKg0BJJECFY0.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_nf3FfbR06gqzgNEFBldHs9TPu2t15DBoqYHKTtpXYCs.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_TXTPpLssPmlxm6RlgD5A3pvVw5LCV2HB4mpY7DcIlmU.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_CN7ienvUkVk3Mf4LW5z0az6uiktdUO7WwxygSexWJ78.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_Ss74T96mbmos-vWZUOJOk40YPamydATbqoCrmJ71844.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_PYO_EBqynbYNRx0fNf3oeGiJRlaRPFYxRJaw8-jcvVI.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_-Q4pRXoKL_LzsIpzzC0yO_B5HLH19PWk3icxITIQRfo.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_wMnskP4VJkfd_4MCC8gUco1vcohqp_3WffQl0tljeHU.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_UAQw9-_A07AcdDdjh-tLFzxUvDvMIGzYuTxlVqV4mlA.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_YgSD0a4z9Gx9EZk-wbWY2k0edzjq5XHlodTjgUzr_uo.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_KjGoo-W419SwvYDQ1ebmuef7vmxpKjU9IEdpDR2FKKE.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_v9YMzqdOvY5kU-Zxre4u_fvnxoeoBqvRE9DifzQ7rrk.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_IQ9EY2cx9GpTz5OJnVi0-244Xaz1J0obwKByuCOehyU.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xknfdk626/files/css/css_akWk1qMds8qw-8Qbkti3q4pIyz_LxJojaixCGfvxUUU.css" />
+
+    <script src="/sites/g/files/xknfdk626/files/js/js_QHqjxhGPGgZFwOfW92tmrVpssmC1sbO0zDG4TgLmaEI.js"></script>
+
+          <script type="text/javascript" src="/modules/contrib/seckit/js/seckit.document_write.js"></script>
+        <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/modules/contrib/seckit/css/seckit.no_body.css" />
+        <!-- stop SecKit protection -->
+        <noscript>
+        <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/modules/contrib/seckit/css/seckit.noscript_tag.css" />
+        <div id="seckit-noscript-tag">
+          Sorry, you need to enable JavaScript to visit this website.
+        </div>
+        </noscript></head>
+  <body class="layout-no-sidebars page-node-90241 path-node node--type-nw-recipe w-100">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJGJX4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+              <div class="banner-area">
+      <div class="top-banner active"></div>
+      <div class="top-banner-mobile active"></div>
+      <div class="close-search"></div>
+    </div>
+    <header class="navbar navbar-expand-xl navbar-default container" id="navbar-main" id="navbar" role="banner">
+              <div class="navbar-header">
+
+
+
+
+
+  <div class="row region region-navigation">
+    <div class="header-top">
+      <div class="inside">
+        <div class="left-head">
+          <div class="views-element-container block block-views block-views-blocksocial-social-mini" id="block-views-block-social-social-mini" data-block-plugin-id="views_block:social-social_mini">
+
+
+      <div class="content">
+      <div><div class="view view-social view-id-social view-display-id-social_mini js-view-dom-id-66e7dd6b7d677ae4c27e2b376e57d022bca808bc55b140cadf6627bcdf30ceaa">
+
+
+
+      <div class="view-content row">
+        <div class="views-row">
+    <a href="https://www.instagram.com/finedininglovers/"
+      rel="nofollow"
+      target="_blank"
+      class=""
+    >
+      <img src="/sites/g/files/xknfdk626/files/2019-07/instagram-w_1.svg"
+          alt="Instagram" />
+    </a>
+  </div>
+  <div class="views-row">
+    <a href="https://www.facebook.com/FineDiningLovers"
+      rel="nofollow"
+      target="_blank"
+      class=""
+    >
+      <img src="/sites/g/files/xknfdk626/files/2019-07/facebook-logo-w.svg"
+          alt="Facebook" />
+    </a>
+  </div>
+  <div class="views-row">
+    <a href="https://twitter.com/finedininglover"
+      rel="nofollow"
+      target="_blank"
+      class=""
+    >
+      <img src="/sites/g/files/xknfdk626/files/2023-09/Vector.svg"
+          alt="Twitter" />
+    </a>
+  </div>
+  <div class="views-row">
+    <a href="https://www.youtube.com/finedininglovers"
+      rel="nofollow"
+      target="_blank"
+      class=""
+    >
+      <img src="/sites/g/files/xknfdk626/files/2019-07/youtube-w.svg"
+          alt="YouTube" />
+    </a>
+  </div>
+  <div class="views-row">
+    <a href="https://www.pinterest.com/finedininglover/"
+      rel="nofollow"
+      target="_blank"
+      class=""
+    >
+      <img src="/sites/g/files/xknfdk626/files/2019-07/pinterest-w.svg"
+          alt="Pinterest" />
+    </a>
+  </div>
+
+    </div>
+
+          </div>
+</div>
+
+    </div>
+  </div>
+
+        </div>
+        <div class="middle-head">
+          <a itemprop="url" class="header-logo" href="/" title="Fine Dining Lovers" rel="home">
+            <img itemprop="logo" data-defsrc="" src="/themes/custom/fdl/logo.png" alt="Fine Dining Lovers" />
+          </a>
+        </div>
+        <div class="right-head">
+          <nav role="navigation" aria-labelledby="block-utilitymenu-menu" id="block-utilitymenu" data-block-plugin-id="system_menu_block:utility-menu">
+
+  <p class="visually-hidden" id="block-utilitymenu-menu">Utility Menu</p>
+
+
+
+
+      <ul id="block-utilitymenu" class="clearfix menu menu--utility-menu nav">
+                      <li class="first">
+                                               <a href="/contacts" class="mailico" data-drupal-link-system-path="node/97976">Mail</a>
+                    </li>
+                      <li class="last">
+                                               <a href="/" class="searchico" data-drupal-link-system-path="&lt;front&gt;">Search </a>
+                    </li>
+        </ul>
+
+
+  </nav>
+
+
+
+<section class="views-exposed-form component--search block block-views block-views-exposed-filter-blocksearch-solr-search-page clearfix bgrandom-3" data-drupal-selector="views-exposed-form-search-solr-search-page" id="block-exposedformsearch-solrsearch-page" data-block-plugin-id="views_exposed_filter_block:search_solr-search_page">
+      <a itemprop="url" class="search-logo" href="/" title="Fine Dining Lovers" rel="home">
+      <img src="/themes/custom/fdl/images/fdl-logo.png" class="search-logo" alt="Fine Dining Lovers" />
+    </a>
+    <div class="close-search"></div>
+
+<form action="/search" method="get" id="views-exposed-form-search-solr-search-page" accept-charset="UTF-8">
+  <div class="form-row">
+  <div class="js-form-item form-item js-form-type-search-api-autocomplete form-item-rendered-item js-form-item-rendered-item form-no-label">
+        <input data-drupal-selector="edit-rendered-item" data-search-api-autocomplete-search="search_solr" class="form-autocomplete form-control" data-autocomplete-path="/search_api_autocomplete/search_solr?display=search_page&amp;&amp;filter=rendered_item" type="text" id="edit-rendered-item" name="rendered_item" value="" size="30" maxlength="128" />
+
+        </div><div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper mb-3" id="edit-actions"><input data-drupal-selector="edit-submit-search-solr" type="submit" id="edit-submit-search-solr" value="Apply" class="button js-form-submit form-submit btn btn-primary form-control" />
+</div>
+
+</div>
+
+</form>
+
+  </section>
+
+
+          <nav role="navigation" aria-labelledby="block-loggedoutmenu-menu" id="block-loggedoutmenu" data-block-plugin-id="system_menu_block:logged-out-menu" class="block block-menu navigation menu--logged-out-menu">
+
+  <p class="sr-only" id="block-loggedoutmenu-menu">Logged Out Menu</p>
+
+
+
+
+  <div id="accountphoto"></div>
+      <ul id="block-loggedoutmenu" class="clearfix menu menu--logged-out-menu nav">
+                              <li class="first" data-title="Sign Up">
+                                                              <a href="#register" class="sign-up-popup">Sign Up</a>
+                            </li>
+                              <li data-title="Log In">
+                                                              <a href="#login" class="login-popup">Log In</a>
+                            </li>
+                              <li class="last" data-title="Why Join Us?">
+                                                              <a href="/welcome" data-drupal-link-system-path="node/121916">Why Join Us?</a>
+                            </li>
+          </ul>
+      <span class="connect">Connect</span>
+
+
+  </nav>
+
+        </div>
+        <div class="menu-trigger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <div class="inside">
+
+        <nav role="navigation" aria-labelledby="block-loggedoutmenu-menu" id="block-loggedoutmenu" data-block-plugin-id="system_menu_block:logged-out-menu" class="block block-menu navigation menu--logged-out-menu">
+
+  <p class="sr-only" id="block-loggedoutmenu-menu">Logged Out Menu</p>
+
+
+
+
+  <div id="accountphoto"></div>
+      <ul id="block-loggedoutmenu" class="clearfix menu menu--logged-out-menu nav">
+                              <li class="first" data-title="Sign Up">
+                                                              <a href="#register" class="sign-up-popup">Sign Up</a>
+                            </li>
+                              <li data-title="Log In">
+                                                              <a href="#login" class="login-popup">Log In</a>
+                            </li>
+                              <li class="last" data-title="Why Join Us?">
+                                                              <a href="/welcome" data-drupal-link-system-path="node/121916">Why Join Us?</a>
+                            </li>
+          </ul>
+      <span class="connect">Connect</span>
+
+
+  </nav>
+
+
+        <nav role="navigation" aria-labelledby="block-primarynavigation-2-menu" id="block-primarynavigation-2" data-block-plugin-id="system_menu_block:primary-navigation">
+
+  <p class="visually-hidden" id="block-primarynavigation-2-menu">Primary Navigation</p>
+
+
+
+
+      <ul id="block-primarynavigation-2" class="clearfix menu menu--primary-navigation nav">
+                      <li class="expanded dropdown first">
+                                            <div class="cav"><span class="cav-el"></span></div>
+                                         <a href="/whats-hot" data-drupal-link-system-path="node/98061">What&#039;s Hot</a>
+                              <ul id="block-primarynavigation-2" class="clearfix dropdown-menu">
+                      <li class="first">
+                                               <a href="/TurningTheTables" title="Watch the Full Talks on the Future of Gastronomy" data-drupal-link-system-path="node/106311">Turning The Tables</a>
+                    </li>
+                      <li>
+                                               <a href="/coronavirus-restaurant-resources" target="_self" title="A Collection of Content for Chefs, Cooks and Restaurant Owners." data-drupal-link-system-path="node/105066">Coronavirus: Restaurant Resources</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/food-sustainability" data-drupal-link-system-path="taxonomy/term/39361">Food Sustainability</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/food-society" target="_self" data-drupal-link-system-path="taxonomy/term/49881">Food Society</a>
+                    </li>
+                      <li class="last">
+                                               <a href="/tag/female-chefs" data-drupal-link-system-path="taxonomy/term/35616">Female Chefs</a>
+                    </li>
+        </ul>
+
+              </li>
+                      <li class="expanded dropdown">
+                                            <div class="cav"><span class="cav-el"></span></div>
+                                         <a href="/trends" data-drupal-link-system-path="node/98006">Trends</a>
+                              <ul id="block-primarynavigation-2" class="clearfix dropdown-menu">
+                      <li class="first">
+                                               <a href="/tag/kitchen-culture" data-drupal-link-system-path="taxonomy/term/40246">Kitchen Culture</a>
+                    </li>
+                      <li>
+                                               <a href="/whywaste" data-drupal-link-system-path="node/123251">Why Waste?</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/coronavirus-news" data-drupal-link-system-path="taxonomy/term/50606">Coronavirus News</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/food-gifts" data-drupal-link-system-path="taxonomy/term/45701">Food Gifts</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/food-culture" data-drupal-link-system-path="taxonomy/term/45641">Food Culture</a>
+                    </li>
+                      <li class="last">
+                                               <a href="/tag/food-science" data-drupal-link-system-path="taxonomy/term/45796">Food Science</a>
+                    </li>
+        </ul>
+
+              </li>
+                      <li class="expanded dropdown active active-trail">
+                                            <div class="cav"><span class="cav-el"></span></div>
+                                         <a href="/food-and-drinks" data-drupal-link-system-path="node/98011">Food &amp; Drinks</a>
+                              <ul id="block-primarynavigation-2" class="clearfix dropdown-menu">
+                      <li class="first">
+                                               <a href="/recipes" data-drupal-link-system-path="node/98041">Recipes</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/inspirational-dishes" data-drupal-link-system-path="taxonomy/term/49606">Inspirational Dishes</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/food-facts-z" data-drupal-link-system-path="taxonomy/term/41156">Food Facts A to Z</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/food-mythbusters" data-drupal-link-system-path="taxonomy/term/41146">Food Mythbusters</a>
+                    </li>
+                      <li class="last">
+                                               <a href="/home-cooking-suggestion" title="Great chefs tips, ingredients substitutes, fermentation and preservation" data-drupal-link-system-path="node/106136">Home Cooking Suggestions</a>
+                    </li>
+        </ul>
+
+              </li>
+                      <li class="expanded dropdown last">
+                                            <div class="cav"><span class="cav-el"></span></div>
+                                         <a href="/people" data-drupal-link-system-path="node/98016">People</a>
+                              <ul id="block-primarynavigation-2" class="clearfix dropdown-menu">
+                      <li class="first">
+                                               <a href="/tag/points-view" data-drupal-link-system-path="taxonomy/term/41196">Points of View</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/best-chefs-world" data-drupal-link-system-path="taxonomy/term/23986">Best Chefs in the World</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/young-chefs" data-drupal-link-system-path="taxonomy/term/49611">Young Chefs</a>
+                    </li>
+                      <li class="last">
+                                               <a href="/who-is-who" data-drupal-link-system-path="node/97971">Who is Who</a>
+                    </li>
+        </ul>
+
+              </li>
+        </ul>
+
+
+  </nav>
+
+        <nav role="navigation" aria-labelledby="block-secondarynavigation-2-menu" id="block-secondarynavigation-2" data-block-plugin-id="system_menu_block:secondary-navigation">
+
+  <p class="visually-hidden" id="block-secondarynavigation-2-menu">Secondary Navigation</p>
+
+
+
+
+      <ul id="block-secondarynavigation-2" class="clearfix menu menu--secondary-navigation nav">
+                      <li class="first">
+                                               <a href="/galleries" data-drupal-link-system-path="node/98031">GALLERIES</a>
+                    </li>
+                      <li>
+                                               <a href="/videos" data-drupal-link-system-path="node/98051">VIDEOS</a>
+                    </li>
+                      <li>
+                                               <a href="/podcasts" data-drupal-link-system-path="node/115556">PODCASTS</a>
+                    </li>
+                      <li class="last">
+                                               <a href="https://www.finedininglovers.com/tag/food-maps">FOOD MAPS</a>
+                    </li>
+        </ul>
+
+
+  </nav>
+
+        <nav role="navigation" aria-labelledby="block-tertiarynavigation-menu" id="block-tertiarynavigation" data-block-plugin-id="system_menu_block:tertiary-navigation">
+
+  <p class="visually-hidden" id="block-tertiarynavigation-menu">Tertiary Navigation</p>
+
+
+
+
+      <ul id="block-tertiarynavigation" class="clearfix menu menu--tertiary-navigation nav">
+                      <li class="expanded dropdown first">
+                                            <div class="cav"><span class="cav-el"></span></div>
+                                         <a href="/places" data-drupal-link-system-path="node/98021">Places</a>
+                              <ul id="block-tertiarynavigation" class="clearfix dropdown-menu">
+                      <li class="first">
+                                               <a href="/tag/culinary-stops" target="_blank" data-drupal-link-system-path="taxonomy/term/49661">Culinary Stops</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/city-tasting-tour" data-drupal-link-system-path="taxonomy/term/31436">City Tasting Tours</a>
+                    </li>
+                      <li>
+                                               <a href="/world-best-restaurarants-maps" data-drupal-link-system-path="node/107106">Restaurants Maps</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/affordable-luxury" data-drupal-link-system-path="taxonomy/term/41181">Affordable Luxury</a>
+                    </li>
+                      <li class="last">
+                                               <a href="/top-destinations" data-drupal-link-system-path="node/97966">Top Destinations</a>
+                    </li>
+        </ul>
+
+              </li>
+                      <li class="expanded dropdown">
+                                            <div class="cav"><span class="cav-el"></span></div>
+                                         <a href="/events" data-drupal-link-system-path="node/98026">Events</a>
+                              <ul id="block-tertiarynavigation" class="clearfix dropdown-menu">
+                      <li class="first">
+                                               <a href="/worldwide-calendar" data-drupal-link-system-path="node/98001">Worldwide Calendar</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/spellegrino-young-chef-academy-competition" data-drupal-link-system-path="taxonomy/term/48216">S.Pellegrino Young Chef Academy</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/food-festivals" data-drupal-link-system-path="taxonomy/term/45686">Food Festivals</a>
+                    </li>
+                      <li class="last">
+                                               <a href="/tag/asia-50-best-restaurants" data-drupal-link-system-path="taxonomy/term/44071">Asia&#039;s 50 Best Restaurants</a>
+                    </li>
+        </ul>
+
+              </li>
+                      <li class="expanded dropdown">
+                                            <div class="cav"><span class="cav-el"></span></div>
+                                         <a href="/welcome" data-drupal-link-system-path="node/121916">FDL+</a>
+                              <ul id="block-tertiarynavigation" class="clearfix dropdown-menu">
+                      <li class="first">
+                                               <a href="/archive-articles" data-drupal-link-system-path="node/121931">FDL+ Articles</a>
+                    </li>
+                      <li>
+                                               <a href="/archive-recipes" data-drupal-link-system-path="node/121926">FDL+ Recipes</a>
+                    </li>
+                      <li class="last">
+                                               <a href="/archive-downloadable" data-drupal-link-system-path="node/121936">FDL+ Downloadables</a>
+                    </li>
+        </ul>
+
+              </li>
+                      <li class="last">
+                                               <a href="https://www.finedininglovers.com/who-we-are">Who We are</a>
+                    </li>
+        </ul>
+
+
+  </nav>
+
+        <nav role="navigation" aria-labelledby="block-editions-menu" id="block-editions" data-block-plugin-id="system_menu_block:editions" class="block block-menu navigation menu--editions">
+
+  <h2 class="visually-hidden" id="block-editions-menu">Editions</h2>
+
+
+
+      <div class="select-wrapper">
+    <select class='editions-dropdown'>
+                                      <option value="https://www.finedininglovers.com/" selected>International</option>
+                                        <option value="https://www.finedininglovers.fr/">French</option>
+                                        <option value="https://www.finedininglovers.it/">Italian</option>
+                                        <option value="https://www.finedininglovers.com/es/">Spanish</option>
+                  </select>
+  </div>
+
+
+  </nav>
+
+        <div class="views-element-container block block-views block-views-blocksocial-social-mobile" id="block-views-block-social-social-mobile" data-block-plugin-id="views_block:social-social_mobile">
+
+
+      <div class="content">
+      <div><div class="view view-social view-id-social view-display-id-social_mobile js-view-dom-id-c87baf8cccdc95deebb03cdadae6c1c14382a33a3494b33165499aac6e8dea46">
+
+
+
+      <div class="view-content row">
+        <div class="views-row">
+    <a href="https://www.instagram.com/finedininglovers/"
+      rel="nofollow"
+      target="_blank"
+      class=""
+    >
+      <img src="/sites/g/files/xknfdk626/files/2021-02/instagram-logo-b.svg"
+          alt="Instagram" />
+    </a>
+  </div>
+  <div class="views-row">
+    <a href="https://www.facebook.com/FineDiningLovers"
+      rel="nofollow"
+      target="_blank"
+      class=""
+    >
+      <img src="/sites/g/files/xknfdk626/files/2021-02/facebook-logo-b.svg"
+          alt="Facebook" />
+    </a>
+  </div>
+  <div class="views-row">
+    <a href="https://twitter.com/finedininglover"
+      rel="nofollow"
+      target="_blank"
+      class=""
+    >
+      <img src="/sites/g/files/xknfdk626/files/2023-09/Vector%20%281%29.svg"
+          alt="Twitter" />
+    </a>
+  </div>
+  <div class="views-row">
+    <a href="https://www.youtube.com/finedininglovers"
+      rel="nofollow"
+      target="_blank"
+      class=""
+    >
+      <img src="/sites/g/files/xknfdk626/files/2021-02/youtube-logo-b.svg"
+          alt="YouTube" />
+    </a>
+  </div>
+  <div class="views-row">
+    <a href="https://www.pinterest.com/finedininglover/"
+      rel="nofollow"
+      target="_blank"
+      class=""
+    >
+      <img src="/sites/g/files/xknfdk626/files/2021-02/pinterest-logo-b.svg"
+          alt="Pinterest" />
+    </a>
+  </div>
+  <div class="views-row">
+    <a href="https://www.finedininglovers.com/global-feed.rss"
+      rel=""
+      target="_blank"
+      class=""
+    >
+      <img src="/sites/g/files/xknfdk626/files/2021-03/rss_black.svg"
+          alt="RSS" />
+    </a>
+  </div>
+
+    </div>
+
+          </div>
+</div>
+
+    </div>
+  </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="header-middle">
+    <div class="menu-trigger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="dragscroll dragscroll-menu main-navigation-items"><nav role="navigation" aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation" data-block-plugin-id="system_menu_block:main" class="block block-menu navigation menu--main">
+
+  <h2 class="visually-hidden" id="block-mainnavigation-menu">Main navigation</h2>
+
+
+
+              <ul class="clearfix nav navbar-nav">
+                    <li class="nav-item">
+                          <a href="/trends" class="nav-link nav-link--trends" data-drupal-link-system-path="node/98006">Trends</a>
+              </li>
+                <li class="nav-item">
+                          <a href="/people" class="nav-link nav-link--people" data-drupal-link-system-path="node/98016">People</a>
+              </li>
+                <li class="nav-item">
+                          <a href="/places" class="nav-link nav-link--places" data-drupal-link-system-path="node/98021">Places</a>
+              </li>
+                <li class="nav-item">
+                          <a href="/food-and-drinks" class="nav-link nav-link--food-and-drinks" data-drupal-link-system-path="node/98011">Food &amp; Drink</a>
+              </li>
+                <li class="nav-item">
+                          <a href="/events" class="nav-link nav-link--events" data-drupal-link-system-path="node/98026">Events</a>
+              </li>
+                <li class="nav-item">
+                          <a href="/welcome" class="nav-link nav-link--welcome" data-drupal-link-system-path="node/121916">FDL+</a>
+              </li>
+        </ul>
+
+
+
+  </nav>
+</div>
+    <div class="dragscroll dragscroll-menu sub-main-navigation-items"><nav role="navigation" aria-labelledby="block-submainnavigation-menu" id="block-submainnavigation" data-block-plugin-id="system_menu_block:sub-main-navigation" class="block block-menu navigation menu--sub-main-navigation">
+
+  <h2 class="visually-hidden" id="block-submainnavigation-menu">Sub Main Navigation</h2>
+
+
+
+
+      <ul id="block-submainnavigation" class="clearfix menu menu--sub-main-navigation nav">
+                      <li class="first">
+                                               <a href="/whywaste" data-drupal-link-system-path="node/123251">Why Waste?</a>
+                    </li>
+                      <li>
+                                               <a href="/recipes" data-drupal-link-system-path="node/98041">Recipes</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/best-chefs-world" data-drupal-link-system-path="taxonomy/term/23986">Best Chefs in the World</a>
+                    </li>
+                      <li class="last">
+                                               <a href="/tag/culinary-stops" data-drupal-link-system-path="taxonomy/term/49661">Culinary Stops</a>
+                    </li>
+        </ul>
+
+
+  </nav>
+</div>
+  </div>
+
+                            </div>
+
+                            </header>
+  <div class="active-search-overlay"></div>
+  <div class="gallery-full-mode">
+    <div class="close-gallery">X</div>
+      <div class="gallery-content"></div>
+  </div>
+  <div id="main-body-content">
+    <div role="main" class="main-container container js-quickedit-main-content">
+      <div class="row">
+
+
+                        <section class="main-content col order-last col-sm-12 full-width" id="content" role="main">
+
+                                              <div class="highlighted">  <div data-drupal-messages-fallback class="hidden"></div>
+
+</div>
+
+
+
+                                <a id="main-content"></a>
+              <div id="block-fdl-content" data-block-plugin-id="system_main_block" class="block block-system block-system-main-block">
+
+
+      <div class="content">
+
+
+
+
+
+
+<section role="article" about="/recipes/main-course/zucchini-raw-vegan-lasagna" class="component--recipe-full clearfix" data-nid="90241">
+  <div class="recipe-detail">
+    <div class="upper-zone row">
+      <div class="info col-sm-12">
+        <div class="image-zone left-side">
+
+            <div data-blazy="" class="blazy blazy--field blazy--field-fdl-content-image blazy--field-fdl-content-image--default field field--name-field-fdl-content-image field--type-image field--label-hidden field__item">
+
+
+
+
+                  <div class="media media--blazy media--bundle--nw-recipe media--loading is-b-loading media--responsive media--image">  <picture>
+                  <source srcset="" media="all and (min-width: 1200px)" type="image/webp" width="1200" height="800" data-srcset="/sites/g/files/xknfdk626/files/styles/recipes_1200_800/public/Original_2242_zucchini-lasagna-raw-vegan.jpg.webp?itok=dk1bbam6 1x"/>
+              <source srcset="" media="all and (min-width: 992px)" type="image/webp" width="1200" height="800" data-srcset="/sites/g/files/xknfdk626/files/styles/recipes_1200_800/public/Original_2242_zucchini-lasagna-raw-vegan.jpg.webp?itok=dk1bbam6 1x"/>
+              <source srcset="" media="all and (min-width: 768px)" type="image/webp" width="1200" height="800" data-srcset="/sites/g/files/xknfdk626/files/styles/recipes_1200_800/public/Original_2242_zucchini-lasagna-raw-vegan.jpg.webp?itok=dk1bbam6 1x"/>
+              <source srcset="" media="all and (max-width: 576px)" type="image/webp" width="1200" height="800" data-srcset="/sites/g/files/xknfdk626/files/styles/recipes_1200_800/public/Original_2242_zucchini-lasagna-raw-vegan.jpg.webp?itok=dk1bbam6 1x"/>
+                  <img class="media__image media__element b-lazy b-responsive img-responsive" data-src="/sites/g/files/xknfdk626/files/styles/recipes_1200_800_fallback/public/Original_2242_zucchini-lasagna-raw-vegan.jpg?itok=3DWBn1n9" loading="lazy" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20694%20383&#039;%2F%3E" width="1200" height="800" alt="Zucchini Raw Vegan Lasagna" typeof="foaf:Image" />
+
+  </picture>
+        </div>
+
+
+</div>
+
+
+        </div>
+        <div class="content-zone">
+                      <div class="field--name-field-recipe-ref-cat">
+            <div class="field field--name-field-tag-primary field--type-entity-reference field--label-hidden field__item"><a href="/tag/gourmet-recipes" hreflang="en">Gourmet Recipes</a></div>
+      </div>
+                    <h1 class="recipe-full-class">Zucchini Raw Vegan Lasagna</h1>
+          <div id="save-follow-share-container">
+            <div class="share-side">
+              <div class="share-container a2a_kit" data-a2a-icon-color="white, black">
+  <a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_pinterest"></a>
+<a class="a2a_button_whatsapp"></a>
+</div>
+
+                                <div class="line"></div>
+                <div class="bookmark-wrapper">
+                  <a class="sf-cta-default sf-cta"><img src="/themes/custom/fdl/images/bookmark-sf.svg">Save</a>
+                </div>
+
+
+
+<div class="save-follow">
+            <div class="bookmark save-content">
+                  <div class="bookmark-add">
+            <p>Save this content and enjoy it whenever you want</p>
+            <a class="use-ajax" rel="nofollow" href="/bookmark/add/node/90241">
+              Save
+              <img src="/themes/custom/fdl/images/bookmark.svg">
+            </a>
+          </div>
+              </div>
+
+      </div>            </div>
+          </div>
+
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>An easy raw vegan lasagna recipe made with zucchini, basil pesto and macadamia cheese: a tasty dish, perfect whether you follow a vegan or a raw food diet. Yum!</p>
+</div>
+
+          <div class="author">
+
+            <div class="field field--name-field-author field--type-entity-reference field--label-hidden field__item"><div class="author-details">
+
+  <div class="author-name">
+    <span>BY</span><a  class="link-unstyled" >Uno Cookbook<span class="detail-comma">,</span></a>
+  </div>
+
+            <div class="field field--name-field-tag-primary field--type-entity-reference field--label-hidden field__item"><a href="/tag/journalist" hreflang="en">Journalist</a></div>
+
+</div>
+</div>
+
+          </div>
+          <div class="date">20 July, 2012</div>
+
+            <div class="field field--name-field-fivestar-rating field--type-fivestar field--label-hidden field__item">
+<form class="fivestar-form-1" id="vote" data-drupal-selector="fivestar-form-1" action="/recipes/main-course/zucchini-raw-vegan-lasagna" method="post" accept-charset="UTF-8">
+  <div class="clearfix fivestar-average-text fivestar-average-stars fivestar-form-item fivestar-basic"><div class="js-form-item form-item js-form-type-fivestar form-item-vote js-form-item-vote form-no-label">
+        <div class="js-form-item form-item js-form-type-select form-item-vote js-form-item-vote form-no-label">
+
+<select class="vote form-select" data-drupal-selector="edit-vote" aria-describedby="edit-vote--2--description" id="edit-vote--2" name="vote"><option value="-">Select rating</option><option value="20">Give it 1/5</option><option value="40">Give it 2/5</option><option value="60">Give it 3/5</option><option value="80" selected="selected">Give it 4/5</option><option value="100">Give it 5/5</option></select>
+            <div id="edit-vote--2--description" class="description">
+      <div class="fivestar-summary fivestar-summary-average-count">
+
+      <span class="average-rating">
+      Average: <span>3.2</span>
+    </span>
+
+            <span class="total-votes">
+                          (<span>60</span> votes)
+              </span>
+      </div>
+
+    </div>
+  </div>
+        </div></div><input class="js-hide button js-form-submit form-submit btn btn-primary form-control" data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Rate" />
+<input autocomplete="off" data-drupal-selector="form-znixopahdmmdphigajavdip3daq3biotfyrye9ofgmw" type="hidden" name="form_build_id" value="form-zniXOpAhDmmDpHigAjavdIP3dAQ3biOtfYrYe9Ofgmw" class="form-control" />
+<input data-drupal-selector="edit-fivestar-form-1" type="hidden" name="form_id" value="fivestar_form_1" class="form-control" />
+
+</form>
+</div>
+
+        </div>
+      </div>
+      <div class="timeline col-sm-12">
+
+
+                  <div class="col">
+            <h3>Dietary Consideration</h3>
+
+            <div class="field field--name-field-recipe-ref-diet field--type-entity-reference field--label-hidden field__item"><a href="/recipes/vegan" hreflang="en">Vegan</a></div>
+
+          </div>
+
+
+
+                  <div class="col">
+            <h3>serves for</h3>
+
+            <div class="field field--name-field-recipe-serving-num field--type-integer field--label-hidden field__item">4</div>
+
+          </div>
+
+                <div class="col">
+          <h3>total time</h3>
+          <div class="timing">
+                          0
+              <span>HR</span>
+                                      50
+              <span>MIN</span>
+                      </div>
+        </div>
+              </div>
+
+    </div>
+
+    <div class="bottom-zone row">
+
+      <div class="right-zone col-sm-4">
+                <div class="ingredients-box bgrandom-1">
+          <div class="title-section recipe-heading">
+            <h3>ingredients</h3>
+          </div>
+
+      <div class="field field--name-field-recipe-para-ingredients field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">
+
+
+  <div class="clearfix paragraph paragraph--type--recipe-ingredient paragraph--view-mode--default">
+
+            <div class="field field--name-field-recipe-ref-ingredient field--type-entity-reference field--label-hidden field__item">Zucchini</div>
+
+
+            <div class="field field--name-field-recipe-ingredient-quantity field--type-string field--label-hidden field__item">4 each, large</div>
+
+      </div>
+</div>
+              <div class="field__item">
+
+
+  <div class="clearfix paragraph paragraph--type--recipe-ingredient paragraph--view-mode--default">
+
+            <div class="field field--name-field-recipe-ref-ingredient field--type-entity-reference field--label-hidden field__item">Basil</div>
+
+
+            <div class="field field--name-field-recipe-ingredient-quantity field--type-string field--label-hidden field__item">20 g, fresh</div>
+
+      </div>
+</div>
+              <div class="field__item">
+
+
+  <div class="clearfix paragraph paragraph--type--recipe-ingredient paragraph--view-mode--default">
+
+            <div class="field field--name-field-recipe-ref-ingredient field--type-entity-reference field--label-hidden field__item">Pine nuts</div>
+
+
+            <div class="field field--name-field-recipe-ingredient-quantity field--type-string field--label-hidden field__item">70 g</div>
+
+      </div>
+</div>
+              <div class="field__item">
+
+
+  <div class="clearfix paragraph paragraph--type--recipe-ingredient paragraph--view-mode--default">
+
+            <div class="field field--name-field-recipe-ref-ingredient field--type-entity-reference field--label-hidden field__item">Extra virgin olive oil</div>
+
+
+            <div class="field field--name-field-recipe-ingredient-quantity field--type-string field--label-hidden field__item">120 ml</div>
+
+      </div>
+</div>
+              <div class="field__item">
+
+
+  <div class="clearfix paragraph paragraph--type--recipe-ingredient paragraph--view-mode--default">
+
+            <div class="field field--name-field-recipe-ref-ingredient field--type-entity-reference field--label-hidden field__item">Yeast Flakes</div>
+
+
+            <div class="field field--name-field-recipe-ingredient-quantity field--type-string field--label-hidden field__item">6 g</div>
+
+      </div>
+</div>
+              <div class="field__item">
+
+
+  <div class="clearfix paragraph paragraph--type--recipe-ingredient paragraph--view-mode--default">
+
+            <div class="field field--name-field-recipe-ref-ingredient field--type-entity-reference field--label-hidden field__item">Garlic</div>
+
+
+            <div class="field field--name-field-recipe-ingredient-quantity field--type-string field--label-hidden field__item">1/2 clove</div>
+
+      </div>
+</div>
+              <div class="field__item">
+
+
+  <div class="clearfix paragraph paragraph--type--recipe-ingredient paragraph--view-mode--default">
+
+            <div class="field field--name-field-recipe-ref-ingredient field--type-entity-reference field--label-hidden field__item">Salt</div>
+
+
+            <div class="field field--name-field-recipe-ingredient-quantity field--type-string field--label-hidden field__item">1 pinch</div>
+
+      </div>
+</div>
+              <div class="field__item">
+
+
+  <div class="clearfix paragraph paragraph--type--recipe-ingredient paragraph--view-mode--default">
+
+            <div class="field field--name-field-recipe-ref-ingredient field--type-entity-reference field--label-hidden field__item">Tomatoes</div>
+
+
+            <div class="field field--name-field-recipe-ingredient-quantity field--type-string field--label-hidden field__item">200 g</div>
+
+      </div>
+</div>
+              <div class="field__item">
+
+
+  <div class="clearfix paragraph paragraph--type--recipe-ingredient paragraph--view-mode--default">
+
+            <div class="field field--name-field-recipe-ref-ingredient field--type-entity-reference field--label-hidden field__item">Sun dried tomatoes</div>
+
+
+            <div class="field field--name-field-recipe-ingredient-quantity field--type-string field--label-hidden field__item">4 each</div>
+
+      </div>
+</div>
+              <div class="field__item">
+
+
+  <div class="clearfix paragraph paragraph--type--recipe-ingredient paragraph--view-mode--default">
+
+            <div class="field field--name-field-recipe-ref-ingredient field--type-entity-reference field--label-hidden field__item">Extra virgin olive oil</div>
+
+
+            <div class="field field--name-field-recipe-ingredient-quantity field--type-string field--label-hidden field__item">30 ml</div>
+
+      </div>
+</div>
+              <div class="field__item">
+
+
+  <div class="clearfix paragraph paragraph--type--recipe-ingredient paragraph--view-mode--default">
+
+            <div class="field field--name-field-recipe-ref-ingredient field--type-entity-reference field--label-hidden field__item">Salt</div>
+
+
+            <div class="field field--name-field-recipe-ingredient-quantity field--type-string field--label-hidden field__item">1 pinch</div>
+
+      </div>
+</div>
+              <div class="field__item">
+
+
+  <div class="clearfix paragraph paragraph--type--recipe-ingredient paragraph--view-mode--default">
+
+            <div class="field field--name-field-recipe-ref-ingredient field--type-entity-reference field--label-hidden field__item">Pepper</div>
+
+
+            <div class="field field--name-field-recipe-ingredient-quantity field--type-string field--label-hidden field__item">1 pinch</div>
+
+      </div>
+</div>
+              <div class="field__item">
+
+
+  <div class="clearfix paragraph paragraph--type--recipe-ingredient paragraph--view-mode--default">
+
+            <div class="field field--name-field-recipe-ref-ingredient field--type-entity-reference field--label-hidden field__item">Brown sugar</div>
+
+
+            <div class="field field--name-field-recipe-ingredient-quantity field--type-string field--label-hidden field__item">1 pinch</div>
+
+      </div>
+</div>
+              <div class="field__item">
+
+
+  <div class="clearfix paragraph paragraph--type--recipe-ingredient paragraph--view-mode--default">
+
+            <div class="field field--name-field-recipe-ref-ingredient field--type-entity-reference field--label-hidden field__item">Oregano</div>
+
+
+            <div class="field field--name-field-recipe-ingredient-quantity field--type-string field--label-hidden field__item">to taste</div>
+
+      </div>
+</div>
+              <div class="field__item">
+
+
+  <div class="clearfix paragraph paragraph--type--recipe-ingredient paragraph--view-mode--default">
+
+            <div class="field field--name-field-recipe-ref-ingredient field--type-entity-reference field--label-hidden field__item">Macadamia Nuts</div>
+
+
+            <div class="field field--name-field-recipe-ingredient-quantity field--type-string field--label-hidden field__item">150 g (not roasted, unsalted)</div>
+
+      </div>
+</div>
+              <div class="field__item">
+
+
+  <div class="clearfix paragraph paragraph--type--recipe-ingredient paragraph--view-mode--default">
+
+            <div class="field field--name-field-recipe-ref-ingredient field--type-entity-reference field--label-hidden field__item">Yeast Flakes</div>
+
+
+            <div class="field field--name-field-recipe-ingredient-quantity field--type-string field--label-hidden field__item">6 g</div>
+
+      </div>
+</div>
+              <div class="field__item">
+
+
+  <div class="clearfix paragraph paragraph--type--recipe-ingredient paragraph--view-mode--default">
+
+            <div class="field field--name-field-recipe-ref-ingredient field--type-entity-reference field--label-hidden field__item">Salt</div>
+
+
+            <div class="field field--name-field-recipe-ingredient-quantity field--type-string field--label-hidden field__item">1 pinch</div>
+
+      </div>
+</div>
+              <div class="field__item">
+
+
+  <div class="clearfix paragraph paragraph--type--recipe-ingredient paragraph--view-mode--default">
+
+            <div class="field field--name-field-recipe-ref-ingredient field--type-entity-reference field--label-hidden field__item">Limes</div>
+
+
+            <div class="field field--name-field-recipe-ingredient-quantity field--type-string field--label-hidden field__item">1 (juice only, filtered)</div>
+
+      </div>
+</div>
+              <div class="field__item">
+
+
+  <div class="clearfix paragraph paragraph--type--recipe-ingredient paragraph--view-mode--default">
+                  <div class="field--name-field-recipe-ref-ingredient">
+          <a href=""></a>
+        </div>
+
+            <div class="field field--name-field-recipe-ingredient-quantity field--type-string field--label-hidden field__item">50 ml (filtered)</div>
+
+      </div>
+</div>
+          </div>
+
+        </div>
+              </div>
+
+            <div class="left-zone col-sm-8">
+        <div class="ante-body">
+          <h2 class="node-recipe-title">Preparation</h2>
+
+              </div>
+
+
+
+      <div class="field field--name-field-recipe-para-steps field--type-entity-reference-revisions field--label-hidden field--items">
+              <h2 class="steps">
+          <span class="step">Step</span>
+          <span class="currentstep">01</span>
+        </h2>
+        <div class="field--item">
+
+
+<div class="clearfix paragraph paragraph--type--recipe-step paragraph--view-mode--default">
+
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><strong>For the macadamia cheese</strong></p>
+<ul>
+<li>Pour all<strong> ingredients</strong> in a blender and mix until a thick <strong>cream</strong>.</li>
+<li>Set aside.</li>
+</ul>
+</div>
+
+</div>
+
+</div>
+              <h2 class="steps">
+          <span class="step">Step</span>
+          <span class="currentstep">02</span>
+        </h2>
+        <div class="field--item">
+
+
+<div class="clearfix paragraph paragraph--type--recipe-step paragraph--view-mode--default">
+
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><strong>For the tomato cream</strong></p>
+<ul>
+<li>Pour all <strong>ingredients </strong>into a blender and mix until <strong>creamy</strong>.</li>
+<li>Set aside.</li>
+</ul>
+</div>
+
+</div>
+
+</div>
+              <h2 class="steps">
+          <span class="step">Step</span>
+          <span class="currentstep">03</span>
+        </h2>
+        <div class="field--item">
+
+
+<div class="clearfix paragraph paragraph--type--recipe-step paragraph--view-mode--default">
+
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><strong>For the basil pesto</strong></p>
+<ul>
+<li>Pour all <strong>ingredients</strong> into a blender and mix until <strong>creamy</strong>. Set aside.</li>
+<li>Wash<strong> zucchini</strong> and cut them into very thin slices.</li>
+<li>Make the <strong>raw vegan lasagna</strong> alternating a layer of <strong>zucchini</strong>, a layer of <strong>macadamia cheese</strong>, a layer of <strong>zucchini</strong>, a layer of <strong>tomato sauce</strong>, a layer of <strong>zucchin</strong>i, a layer of <strong>basil pesto</strong>.</li>
+<li>Keep the lasagna in the fridge and serve decorated with<strong> fresh basil</strong> and <strong>pine nuts</strong>.</li>
+</ul>
+</div>
+
+</div>
+
+</div>
+          </div>
+
+              </div>
+          </div>
+
+  </div>
+    <div class="body-components">
+
+      <div class="field field--name-field-components field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="clearfix paragraph paragraph--type--from-library paragraph--view-mode--default">
+
+            <div class="field field--name-paragraphs field--type-entity-reference-revisions field--label-hidden field__item">  <div class="clearfix paragraph paragraph--type--multiple-component-container paragraph--view-mode--default">
+
+      <div class="field field--name-field-mcc-components field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">
+
+  <div class="clearfix paragraph paragraph--type--add-topic component--add-topic paragraph--view-mode--default">
+      <div class="row row-topic">
+        <div class="col-md-7 col-topic">
+          <div class="inside-topic">
+            <div class="topic-label">Topic</div>
+
+            <div class="field field--name-field-tag-primary field--type-entity-reference field--label-hidden field__item"><a href="/tag/gourmet-recipes" hreflang="en">Gourmet Recipes</a></div>
+
+          </div>
+        </div>
+                <div class="col-12 col-links">
+                      <span class='other_tags'>OTHER TAGS: </span><ul class="links"><li class="_"><a href="/tag/gourmet-recipes" class="links__link">Gourmet Recipes</a></li><li class="_"><a href="/tag/vegan-food" class="links__link">Vegan Food</a></li><li class="_"><a href="/tag/vegetarian-food" class="links__link">Vegetarian Food</a></li><li class="_"><a href="/tag/raw-food" class="links__link">Raw Food</a></li></ul>
+                  </div>
+      </div>
+  </div>
+</div>
+              <div class="field__item">
+
+
+
+
+      <div class="clearfix component--ctf-list paragraph paragraph--type--nwc-ctf-list paragraph--view-mode--default">
+    <div class="background_white background-style_3_col bgrandom-lg-3">
+                  <div class="title-section">
+                        <p class="carousel-title ">
+                                  Related
+                              </p>
+                    </div>
+            <div class="ctf-list-wrapper style-3_col video-false no-gallery ">
+
+
+  <article role="article" about="/recipes/main-course/chicken-katsu-curry">
+    <div class="teaser-image">
+      <a  href="/recipes/main-course/chicken-katsu-curry" >
+
+            <div data-blazy="" class="blazy blazy--field blazy--field-fdl-content-image blazy--field-fdl-content-image--teaser field field--name-field-fdl-content-image field--type-image field--label-hidden field__item">
+
+
+
+
+                  <div class="media media--blazy media--bundle--nw-recipe media--loading is-b-loading media--responsive media--image">  <picture>
+                  <source srcset="" media="all and (min-width: 1200px)" type="image/webp" width="570" height="570" data-srcset="/sites/g/files/xknfdk626/files/styles/general_reference_desktop/public/2023-10/chicken-katsu-curry.jpg.webp?itok=XTjSE9TP 1x"/>
+              <source srcset="" media="all and (min-width: 992px)" type="image/webp" width="570" height="570" data-srcset="/sites/g/files/xknfdk626/files/styles/general_reference_desktop/public/2023-10/chicken-katsu-curry.jpg.webp?itok=XTjSE9TP 1x"/>
+              <source srcset="" media="all and (min-width: 768px)" type="image/webp" width="570" height="570" data-srcset="/sites/g/files/xknfdk626/files/styles/general_reference_desktop/public/2023-10/chicken-katsu-curry.jpg.webp?itok=XTjSE9TP 1x"/>
+              <source srcset="" media="all and (max-width: 576px)" type="image/webp" width="470" height="470" data-srcset="/sites/g/files/xknfdk626/files/styles/general_reference_mobile/public/2023-10/chicken-katsu-curry.jpg.webp?itok=INmEG015 1x"/>
+                  <img class="media__image media__element b-lazy b-responsive img-responsive" data-src="/sites/g/files/xknfdk626/files/styles/general_reference_desktop_fallback/public/2023-10/chicken-katsu-curry.jpg?itok=slsN-uh8" loading="lazy" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201200%20800&#039;%2F%3E" width="570" height="570" alt="Chicken katsu curry - Finedininglovers" typeof="foaf:Image" />
+
+  </picture>
+        </div>
+
+
+</div>
+
+                        </a>
+    </div>
+    <div class="description">
+      <div class="teaser-type search-topic">Recipe</div>
+              <div class="teaser-type">
+            <div class="field field--name-field-tag-primary field--type-entity-reference field--label-hidden field__item"><a href="/tag/easy-recipes" hreflang="en">Easy Recipes</a></div>
+      </div>
+            <p class="page-node-teaser-title"><a  href="/recipes/main-course/chicken-katsu-curry" >
+            Chicken katsu curry</a></p>
+      <div class="teaser-body">
+            Chicken katsu curry is a delicious dish to master at home, and not as tricky as it might first appear.
+      </div>
+      <div class="teaser-url">
+
+  <div class="inline__links"><nav class="links inline nav links-inline"><span class="node-readmore nav-link"><a href="/recipes/main-course/chicken-katsu-curry" rel="tag" title="Chicken katsu curry" hreflang="en">Read more<span class="visually-hidden"> about Chicken katsu curry</span></a></span></nav>
+  </div>
+</div>
+    </div>
+  </article>
+
+
+  <article role="article" about="/recipes/side/bombay-potatoes">
+    <div class="teaser-image">
+      <a  href="/recipes/side/bombay-potatoes" >
+
+            <div data-blazy="" class="blazy blazy--field blazy--field-fdl-content-image blazy--field-fdl-content-image--teaser field field--name-field-fdl-content-image field--type-image field--label-hidden field__item">
+
+
+
+
+                  <div class="media media--blazy media--bundle--nw-recipe media--loading is-b-loading media--responsive media--image">  <picture>
+                  <source srcset="" media="all and (min-width: 1200px)" type="image/webp" width="570" height="570" data-srcset="/sites/g/files/xknfdk626/files/styles/general_reference_desktop/public/2023-09/bombay-potatoes.jpg.webp?itok=A2lzMJ0d 1x"/>
+              <source srcset="" media="all and (min-width: 992px)" type="image/webp" width="570" height="570" data-srcset="/sites/g/files/xknfdk626/files/styles/general_reference_desktop/public/2023-09/bombay-potatoes.jpg.webp?itok=A2lzMJ0d 1x"/>
+              <source srcset="" media="all and (min-width: 768px)" type="image/webp" width="570" height="570" data-srcset="/sites/g/files/xknfdk626/files/styles/general_reference_desktop/public/2023-09/bombay-potatoes.jpg.webp?itok=A2lzMJ0d 1x"/>
+              <source srcset="" media="all and (max-width: 576px)" type="image/webp" width="470" height="470" data-srcset="/sites/g/files/xknfdk626/files/styles/general_reference_mobile/public/2023-09/bombay-potatoes.jpg.webp?itok=5TSj1Ff1 1x"/>
+                  <img class="media__image media__element b-lazy b-responsive img-responsive" data-src="/sites/g/files/xknfdk626/files/styles/general_reference_desktop_fallback/public/2023-09/bombay-potatoes.jpg?itok=PyfrKIkQ" loading="lazy" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201200%20800&#039;%2F%3E" width="570" height="570" alt="Bombay potatoes - Finedininglovers" typeof="foaf:Image" />
+
+  </picture>
+        </div>
+
+
+</div>
+
+                        </a>
+    </div>
+    <div class="description">
+      <div class="teaser-type search-topic">Recipe</div>
+              <div class="teaser-type">
+            <div class="field field--name-field-tag-primary field--type-entity-reference field--label-hidden field__item"><a href="/tag/gourmet-recipes" hreflang="en">Gourmet Recipes</a></div>
+      </div>
+            <p class="page-node-teaser-title"><a  href="/recipes/side/bombay-potatoes" >
+            Bombay potatoes</a></p>
+      <div class="teaser-body">
+            Incredibly easy to make at home, Bombay potatoes is a spicy Indian recipe that’s a show stopping side dish to any Indian feast.
+      </div>
+      <div class="teaser-url">
+
+  <div class="inline__links"><nav class="links inline nav links-inline"><span class="node-readmore nav-link"><a href="/recipes/side/bombay-potatoes" rel="tag" title="Bombay potatoes" hreflang="en">Read more<span class="visually-hidden"> about Bombay potatoes</span></a></span></nav>
+  </div>
+</div>
+    </div>
+  </article>
+
+
+  <article role="article" about="/recipes/side/tartare-sauce">
+    <div class="teaser-image">
+      <a  href="/recipes/side/tartare-sauce" >
+
+            <div data-blazy="" class="blazy blazy--field blazy--field-fdl-content-image blazy--field-fdl-content-image--teaser field field--name-field-fdl-content-image field--type-image field--label-hidden field__item">
+
+
+
+
+                  <div class="media media--blazy media--bundle--nw-recipe media--loading is-b-loading media--responsive media--image">  <picture>
+                  <source srcset="" media="all and (min-width: 1200px)" type="image/webp" width="570" height="570" data-srcset="/sites/g/files/xknfdk626/files/styles/general_reference_desktop/public/Original_17550_homemade-tartar-sauce.jpg.webp?itok=KTovDQ-o 1x"/>
+              <source srcset="" media="all and (min-width: 992px)" type="image/webp" width="570" height="570" data-srcset="/sites/g/files/xknfdk626/files/styles/general_reference_desktop/public/Original_17550_homemade-tartar-sauce.jpg.webp?itok=KTovDQ-o 1x"/>
+              <source srcset="" media="all and (min-width: 768px)" type="image/webp" width="570" height="570" data-srcset="/sites/g/files/xknfdk626/files/styles/general_reference_desktop/public/Original_17550_homemade-tartar-sauce.jpg.webp?itok=KTovDQ-o 1x"/>
+              <source srcset="" media="all and (max-width: 576px)" type="image/webp" width="470" height="470" data-srcset="/sites/g/files/xknfdk626/files/styles/general_reference_mobile/public/Original_17550_homemade-tartar-sauce.jpg.webp?itok=va2XvBo0 1x"/>
+                  <img class="media__image media__element b-lazy b-responsive img-responsive" data-src="/sites/g/files/xknfdk626/files/styles/general_reference_desktop_fallback/public/Original_17550_homemade-tartar-sauce.jpg?itok=NWseTTv0" loading="lazy" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20694%20383&#039;%2F%3E" width="570" height="570" alt="Tartare sauce." typeof="foaf:Image" />
+
+  </picture>
+        </div>
+
+
+</div>
+
+                        </a>
+    </div>
+    <div class="description">
+      <div class="teaser-type search-topic">Recipe</div>
+              <div class="teaser-type">
+            <div class="field field--name-field-tag-primary field--type-entity-reference field--label-hidden field__item"><a href="/tag/easy-recipes" hreflang="en">Easy Recipes</a></div>
+      </div>
+            <p class="page-node-teaser-title"><a  href="/recipes/side/tartare-sauce" >
+            Tartare sauce</a></p>
+      <div class="teaser-body">
+            Homemade tartare sauce makes a delicious accompaniment to your favourite fried foods. You&#039;ll love this easy recipe.
+
+      </div>
+      <div class="teaser-url">
+
+  <div class="inline__links"><nav class="links inline nav links-inline"><span class="node-readmore nav-link"><a href="/recipes/side/tartare-sauce" rel="tag" title="Tartare sauce" hreflang="en">Read more<span class="visually-hidden"> about Tartare sauce</span></a></span></nav>
+  </div>
+</div>
+    </div>
+  </article>
+
+      </div>
+              </div>
+  </div>
+</div>
+              <div class="field__item">
+
+
+<div class="component--subsearch Textured Background bgrandom-3">
+  <div class="inside">
+    <div class="title-section">
+      <p>Search Recipes</p>
+    </div>
+    <form>
+      <div class="form--inline">
+        <div class="form-item">
+          <input type='search'
+                 placeholder='By top chef’s name, ingredient or type of dish'
+                 onfocus="this.placeholder = ''"
+                 onblur="this.placeholder = 'By top chef’s name, ingredient or type of dish'"
+                 data-search-page='/search-results-recipes'
+                 class='subsection-search form-autocomplete form-text form-control ui-autocomplete-input'
+                 data-search-api-autocomplete-search="search_solr"
+                 autocomplete="off"
+                 data-autocomplete-path="/search_api_autocomplete/recipe_auto_complete?display=recipe_auto_complete"
+                 id="edit-search-api-fulltext"
+                 name="search_api_fulltext"
+          >
+          <div class="form-actions">
+            <button class="button js-form-submit form-submit btn-info btn" type="search" id="subsearch-submit" data-search-page='/search-results-recipes'>Apply</button>
+          </div>
+        </div>
+      </div>
+    </form>
+
+          <div class="extra-info"><span>OR</span> <a class="button-cta button--A" href="/recipes?location=1">Browse by Category</a></div>
+
+  </div>
+</div>
+
+</div>
+          </div>
+
+      </div>
+</div>
+
+      </div>
+</div>
+          </div>
+
+  </div>
+  </section>
+
+
+
+
+
+<section role="article" about="/recipes/main-course/kung-pao-chinese-spicy-chicken-peanuts-and-chili" class="component--recipe-full-next clearfix" data-nid="90051">
+  <div class="image">
+
+            <div data-blazy="" class="blazy blazy--field blazy--field-fdl-content-image blazy--field-fdl-content-image--next-recipe field field--name-field-fdl-content-image field--type-image field--label-hidden field__item">
+
+
+
+
+                  <div class="media media--blazy media--bundle--nw-recipe media--loading is-b-loading media--responsive media--image">  <picture>
+                  <source srcset="" media="all and (min-width: 1200px)" type="image/webp" width="170" height="170" data-srcset="/sites/g/files/xknfdk626/files/styles/im_square_12/public/Original_1776_kung-pao-chicken-00244261-CUT1.jpg.webp?itok=k7Skr_RV 1x"/>
+              <source srcset="" media="all and (min-width: 992px)" type="image/webp" width="170" height="170" data-srcset="/sites/g/files/xknfdk626/files/styles/im_square_12/public/Original_1776_kung-pao-chicken-00244261-CUT1.jpg.webp?itok=k7Skr_RV 1x"/>
+              <source srcset="" media="all and (min-width: 768px)" type="image/webp" width="170" height="170" data-srcset="/sites/g/files/xknfdk626/files/styles/im_square_12/public/Original_1776_kung-pao-chicken-00244261-CUT1.jpg.webp?itok=k7Skr_RV 1x"/>
+              <source srcset="" media="all and (max-width: 576px)" type="image/webp" width="170" height="170" data-srcset="/sites/g/files/xknfdk626/files/styles/im_square_12/public/Original_1776_kung-pao-chicken-00244261-CUT1.jpg.webp?itok=k7Skr_RV 1x"/>
+                  <img class="media__image media__element b-lazy b-responsive img-responsive" data-src="/sites/g/files/xknfdk626/files/styles/im_square_12_fallback/public/Original_1776_kung-pao-chicken-00244261-CUT1.jpg?itok=AZ4M_wRE" loading="lazy" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20694%20383&#039;%2F%3E" width="170" height="170" alt="Kung Pao - Chinese Spicy Chicken With Peanuts And Chili" title="Kung Pao - Chinese Spicy Chicken With Peanuts And Chili" typeof="foaf:Image" />
+
+  </picture>
+        </div>
+
+
+</div>
+
+      </div>
+
+            <div class="field field--name-field-tag-primary field--type-entity-reference field--label-hidden field__item"><a href="/tag/gourmet-recipes" hreflang="en">Gourmet Recipes</a></div>
+
+  <p>Kung Pao - Chinese Spicy Chicken With Peanuts And Chili</p>
+  <a href="/recipes/main-course/kung-pao-chinese-spicy-chicken-peanuts-and-chili" class="button-cta button--A">Next Recipe </a>
+</section>
+
+
+    </div>
+  </div>
+
+
+                  </section>
+
+                      </div>
+    </div>
+    <div class="to-top"></div>
+  </div>
+
+      <footer id="footer" class="footer container" role="contentinfo">
+        <section class="row region region-footer">
+    <nav role="navigation" aria-labelledby="block-primarynavigation-menu" id="block-primarynavigation" data-block-plugin-id="system_menu_block:primary-navigation">
+
+  <p class="visually-hidden" id="block-primarynavigation-menu">Primary Navigation</p>
+
+
+
+
+      <ul id="block-primarynavigation" class="clearfix menu menu--primary-navigation nav">
+                      <li class="expanded dropdown first">
+                                            <div class="cav"><span class="cav-el"></span></div>
+                                         <a href="/whats-hot" data-drupal-link-system-path="node/98061">What&#039;s Hot</a>
+                              <ul id="block-primarynavigation" class="clearfix dropdown-menu">
+                      <li class="first">
+                                               <a href="/TurningTheTables" title="Watch the Full Talks on the Future of Gastronomy" data-drupal-link-system-path="node/106311">Turning The Tables</a>
+                    </li>
+                      <li>
+                                               <a href="/coronavirus-restaurant-resources" target="_self" title="A Collection of Content for Chefs, Cooks and Restaurant Owners." data-drupal-link-system-path="node/105066">Coronavirus: Restaurant Resources</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/food-sustainability" data-drupal-link-system-path="taxonomy/term/39361">Food Sustainability</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/food-society" target="_self" data-drupal-link-system-path="taxonomy/term/49881">Food Society</a>
+                    </li>
+                      <li class="last">
+                                               <a href="/tag/female-chefs" data-drupal-link-system-path="taxonomy/term/35616">Female Chefs</a>
+                    </li>
+        </ul>
+
+              </li>
+                      <li class="expanded dropdown">
+                                            <div class="cav"><span class="cav-el"></span></div>
+                                         <a href="/trends" data-drupal-link-system-path="node/98006">Trends</a>
+                              <ul id="block-primarynavigation" class="clearfix dropdown-menu">
+                      <li class="first">
+                                               <a href="/tag/kitchen-culture" data-drupal-link-system-path="taxonomy/term/40246">Kitchen Culture</a>
+                    </li>
+                      <li>
+                                               <a href="/whywaste" data-drupal-link-system-path="node/123251">Why Waste?</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/coronavirus-news" data-drupal-link-system-path="taxonomy/term/50606">Coronavirus News</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/food-gifts" data-drupal-link-system-path="taxonomy/term/45701">Food Gifts</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/food-culture" data-drupal-link-system-path="taxonomy/term/45641">Food Culture</a>
+                    </li>
+                      <li class="last">
+                                               <a href="/tag/food-science" data-drupal-link-system-path="taxonomy/term/45796">Food Science</a>
+                    </li>
+        </ul>
+
+              </li>
+                      <li class="expanded dropdown active active-trail">
+                                            <div class="cav"><span class="cav-el"></span></div>
+                                         <a href="/food-and-drinks" data-drupal-link-system-path="node/98011">Food &amp; Drinks</a>
+                              <ul id="block-primarynavigation" class="clearfix dropdown-menu">
+                      <li class="first">
+                                               <a href="/recipes" data-drupal-link-system-path="node/98041">Recipes</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/inspirational-dishes" data-drupal-link-system-path="taxonomy/term/49606">Inspirational Dishes</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/food-facts-z" data-drupal-link-system-path="taxonomy/term/41156">Food Facts A to Z</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/food-mythbusters" data-drupal-link-system-path="taxonomy/term/41146">Food Mythbusters</a>
+                    </li>
+                      <li class="last">
+                                               <a href="/home-cooking-suggestion" title="Great chefs tips, ingredients substitutes, fermentation and preservation" data-drupal-link-system-path="node/106136">Home Cooking Suggestions</a>
+                    </li>
+        </ul>
+
+              </li>
+                      <li class="expanded dropdown last">
+                                            <div class="cav"><span class="cav-el"></span></div>
+                                         <a href="/people" data-drupal-link-system-path="node/98016">People</a>
+                              <ul id="block-primarynavigation" class="clearfix dropdown-menu">
+                      <li class="first">
+                                               <a href="/tag/points-view" data-drupal-link-system-path="taxonomy/term/41196">Points of View</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/best-chefs-world" data-drupal-link-system-path="taxonomy/term/23986">Best Chefs in the World</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/young-chefs" data-drupal-link-system-path="taxonomy/term/49611">Young Chefs</a>
+                    </li>
+                      <li class="last">
+                                               <a href="/who-is-who" data-drupal-link-system-path="node/97971">Who is Who</a>
+                    </li>
+        </ul>
+
+              </li>
+        </ul>
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-tertiarynavigation-3-menu" id="block-tertiarynavigation-3" data-block-plugin-id="system_menu_block:tertiary-navigation">
+
+  <p class="visually-hidden" id="block-tertiarynavigation-3-menu">Tertiary Navigation</p>
+
+
+
+
+      <ul id="block-tertiarynavigation-3" class="clearfix menu menu--tertiary-navigation nav">
+                      <li class="expanded dropdown first">
+                                            <div class="cav"><span class="cav-el"></span></div>
+                                         <a href="/places" data-drupal-link-system-path="node/98021">Places</a>
+                              <ul id="block-tertiarynavigation-3" class="clearfix dropdown-menu">
+                      <li class="first">
+                                               <a href="/tag/culinary-stops" target="_blank" data-drupal-link-system-path="taxonomy/term/49661">Culinary Stops</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/city-tasting-tour" data-drupal-link-system-path="taxonomy/term/31436">City Tasting Tours</a>
+                    </li>
+                      <li>
+                                               <a href="/world-best-restaurarants-maps" data-drupal-link-system-path="node/107106">Restaurants Maps</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/affordable-luxury" data-drupal-link-system-path="taxonomy/term/41181">Affordable Luxury</a>
+                    </li>
+                      <li class="last">
+                                               <a href="/top-destinations" data-drupal-link-system-path="node/97966">Top Destinations</a>
+                    </li>
+        </ul>
+
+              </li>
+                      <li class="expanded dropdown">
+                                            <div class="cav"><span class="cav-el"></span></div>
+                                         <a href="/events" data-drupal-link-system-path="node/98026">Events</a>
+                              <ul id="block-tertiarynavigation-3" class="clearfix dropdown-menu">
+                      <li class="first">
+                                               <a href="/worldwide-calendar" data-drupal-link-system-path="node/98001">Worldwide Calendar</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/spellegrino-young-chef-academy-competition" data-drupal-link-system-path="taxonomy/term/48216">S.Pellegrino Young Chef Academy</a>
+                    </li>
+                      <li>
+                                               <a href="/tag/food-festivals" data-drupal-link-system-path="taxonomy/term/45686">Food Festivals</a>
+                    </li>
+                      <li class="last">
+                                               <a href="/tag/asia-50-best-restaurants" data-drupal-link-system-path="taxonomy/term/44071">Asia&#039;s 50 Best Restaurants</a>
+                    </li>
+        </ul>
+
+              </li>
+                      <li class="expanded dropdown">
+                                            <div class="cav"><span class="cav-el"></span></div>
+                                         <a href="/welcome" data-drupal-link-system-path="node/121916">FDL+</a>
+                              <ul id="block-tertiarynavigation-3" class="clearfix dropdown-menu">
+                      <li class="first">
+                                               <a href="/archive-articles" data-drupal-link-system-path="node/121931">FDL+ Articles</a>
+                    </li>
+                      <li>
+                                               <a href="/archive-recipes" data-drupal-link-system-path="node/121926">FDL+ Recipes</a>
+                    </li>
+                      <li class="last">
+                                               <a href="/archive-downloadable" data-drupal-link-system-path="node/121936">FDL+ Downloadables</a>
+                    </li>
+        </ul>
+
+              </li>
+                      <li class="last">
+                                               <a href="https://www.finedininglovers.com/who-we-are">Who We are</a>
+                    </li>
+        </ul>
+
+
+  </nav>
+
+<section class="views-element-container social_footer clearfix" id="block-views-block-social-social-footer" data-block-plugin-id="views_block:social-social_footer">
+  <a itemprop="url" class="footer-logo" href="/" title="Fine Dining Lovers" rel="home">
+    <img itemprop="logo" data-defsrc="" src="/themes/custom/fdl/logo.png" alt="Fine Dining Lovers" />
+  </a>
+      <div><div class="view view-social view-id-social view-display-id-social_footer js-view-dom-id-64be403a594ba81e58b64bf63d24b072e3ab2292d6bcfafc3d6f6ea5c11370c6">
+
+
+
+      <div class="view-content row">
+        <div class="views-row">
+    <a href="https://www.instagram.com/finedininglovers/"
+      rel="nofollow"
+      target="_blank"
+      class=""
+    >
+      <img src="/sites/g/files/xknfdk626/files/2019-07/instagram-w_1.svg"
+          alt="Instagram" />
+    </a>
+  </div>
+  <div class="views-row">
+    <a href="https://www.facebook.com/FineDiningLovers"
+      rel="nofollow"
+      target="_blank"
+      class=""
+    >
+      <img src="/sites/g/files/xknfdk626/files/2019-07/facebook-logo-w.svg"
+          alt="Facebook" />
+    </a>
+  </div>
+  <div class="views-row">
+    <a href="https://twitter.com/finedininglover"
+      rel="nofollow"
+      target="_blank"
+      class=""
+    >
+      <img src="/sites/g/files/xknfdk626/files/2023-09/Vector.svg"
+          alt="Twitter" />
+    </a>
+  </div>
+  <div class="views-row">
+    <a href="https://www.youtube.com/finedininglovers"
+      rel="nofollow"
+      target="_blank"
+      class=""
+    >
+      <img src="/sites/g/files/xknfdk626/files/2019-07/youtube-w.svg"
+          alt="YouTube" />
+    </a>
+  </div>
+  <div class="views-row">
+    <a href="https://www.pinterest.com/finedininglover/"
+      rel="nofollow"
+      target="_blank"
+      class=""
+    >
+      <img src="/sites/g/files/xknfdk626/files/2019-07/pinterest-w.svg"
+          alt="Pinterest" />
+    </a>
+  </div>
+  <div class="views-row">
+    <a href="https://www.finedininglovers.com/global-feed.rss"
+      rel=""
+      target="_blank"
+      class=""
+    >
+      <img src="/sites/g/files/xknfdk626/files/2021-03/rss_white.svg"
+          alt="RSS" />
+    </a>
+  </div>
+
+    </div>
+
+          </div>
+</div>
+
+  </section>
+
+<nav role="navigation" aria-labelledby="block-footer-menu" id="block-footer" data-block-plugin-id="system_menu_block:footer">
+
+  <p class="visually-hidden" id="block-footer-menu">Footer</p>
+
+
+
+              <ul class="clearfix nav navbar-nav">
+                    <li class="nav-item">
+                <a href="/legal" class="nav-link nav-link--legal" data-drupal-link-system-path="node/97981">Legal</a>
+              </li>
+                <li class="nav-item">
+                <a href="/cookies" class="nav-link nav-link--cookies" data-drupal-link-system-path="node/97986">Cookies</a>
+              </li>
+                <li class="nav-item">
+                <a href="/community-policy" class="nav-link nav-link--community-policy" data-drupal-link-system-path="node/97991">Community Policy</a>
+              </li>
+                <li class="nav-item">
+                <a href="/contacts" class="nav-link nav-link--contacts" data-drupal-link-system-path="node/97976">Contacts</a>
+              </li>
+                <li class="nav-item">
+                <a href="/sitemap" class="nav-link nav-link--sitemap" data-drupal-link-system-path="node/97961">Sitemap</a>
+              </li>
+        </ul>
+
+
+
+  </nav>
+
+  </section>
+
+    </footer>
+
+  </div>
+
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/90241","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","currentQuery":{"_wrapper_format":"html"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"addtoany\/addtoany.front,blazy\/load,bootstrap_barrio\/form,bootstrap_barrio\/global-styling,bootstrap_barrio\/links,core\/drupal.autocomplete,core\/drupal.dialog.ajax,core\/internal.jquery.form,core\/jquery.ui.dialog,core\/picturefill,dsu_c_core\/general,elf\/elf_css,fdl\/account-menu,fdl\/add_topic,fdl\/article,fdl\/content-listing,fdl\/ctf_list,fdl\/footer,fdl\/global-scripts,fdl\/global-styling,fdl\/header,fdl\/page,fdl\/recipe_stars,fdl\/save_follow,fdl\/search_page,fdl\/subsearch,fivestar\/basic,fivestar\/fivestar.base,gigya\/drupalGigya,gigya_raas\/gigyaRaas,hww_gigya\/hww_gigya,nw_recipe_extension\/next-recipe,paragraphs\/drupal.paragraphs.unpublished,search_api_autocomplete\/search_api_autocomplete,system\/base,views\/views.module","theme":"fdl","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/recipes\/main-course\/zucchini-raw-vegan-lasagna?_wrapper_format=html\u0026ajax_form=1":true,"\/search":true},"gigya":{"globalParameters":{"bypassCookiePolicy":"never","enabledProviders":"*","sessionExpiration":-1,"rememberSessionExpiration":20000000},"apiKey":"3_e_dZLLGdFEgYe7OCRi8m5roS9euhlCh0js4Iuv5bS42mQc164E_UmiJ0nilcNNqu","dataCenter":"eu1.gigya.com","lang":"en","enableRaaS":true,"raas":{"login":{"screenSet":"finedininglovers_int-RegistrationLogin","mobileScreenSet":"","startScreen":"gigya-login-screen","sessionExpiration":-1,"rememberSessionExpiration":20000000,"include":"id_token"},"register":{"screenSet":"finedininglovers_int-RegistrationLogin","mobileScreenSet":"","startScreen":"gigya-register-screen","sessionExpiration":-1,"rememberSessionExpiration":20000000,"include":"id_token"},"customScreenSets":[],"origin":"https:\/\/www.finedininglovers.com","resetScreenSets":[],"customScreens":[],"triggerScreens":{"login":{"screenSet":"finedininglovers_int-RegistrationLogin","startScreen":"gigya-login-screen"},"register":{"screenSet":"finedininglovers_int-RegistrationLogin","startScreen":"gigya-register-screen"},"loginredirect":{"screenSet":"finedininglovers_int-RegistrationLogin","startScreen":"gigya-login-screen-v2"}},"redirects":[{"cookie":"login_redirect","redirect_parameter":"login_redirect","source_screenset":"gigya-register-screen","destination_screenset_parameter":"loginredirect"}]},"shouldValidateSession":false},"gigyaExtra":{"loginRedirectMode":null,"loginRedirect":"\/","logoutRedirect":"\/","isLogin":false,"session_type":"dynamic","session_time":1800,"remember_me_session_time":20000000},"blazy":{"loadInvisible":false,"offset":100,"saveViewportOffsetDelay":50},"blazyIo":{"enabled":false,"disconnect":false,"rootMargin":"0px","threshold":[0]},"ajax":{"edit-submit":{"event":"click","callback":"::fivestarAjaxVote","method":"replaceWith","wrapper":"vote","effect":"fade","url":"\/recipes\/main-course\/zucchini-raw-vegan-lasagna?_wrapper_format=html\u0026ajax_form=1","dialogType":"ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Rate"}}},"search_api_autocomplete":{"search_solr":{"auto_submit":true,"min_length":3}},"user":{"uid":0,"permissionsHash":"14675161921706762cdb4fb5ed13aea1a9967f3e44c31f71bff2badda60a63b4"}}</script>
+<script src="/sites/g/files/xknfdk626/files/js/js_A_PxGf3EV6hVEdQpj0xw-cTsSsFJyKhlHKANlKZNsWo.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_FPi5O40abzKW3X4MRdjZJBsEvi1hLCPhRkmLGZ7WFTA.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_l-sNJrTnlLyeks6hvUWWKDhBPOsK94N8CCgqrfqp4oE.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_3x4A2SW5uLlxTFs16bCncg-IQEZU54G26KHjGgVPb5k.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_SAQ0Vjt-aSW3dOhJM8PLDt8oZT8NDiyBEDtBxIMJ0X8.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_9F9uTjwDnS7sEns_IJsmo_vG2GeGs2N4uGZ3fCQ6Jz8.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_2tH3hWlAGPiuIDcoTx5o7OLjXVjlzT75I2Yx8Sl-S68.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_5kBLve_A1lPqp8hZyjsdLaeYkJKYeK8GSN2wJzFrmgM.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_CM7EzvWFTaOEHJVW4yNEU96IZJbH9FfdbtnDXARwvhU.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_qiOJboP-yBXBXBBhvL2qDO7h1UkXyuHFzC-ny51asMo.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_TRdaIYpxS9cCMdIUsD16lt29kp_2L8XwC55_msr4t0U.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_4mwpVJnmSd3FNpHUrEPRctaJKhYH5jsXy4sMh29CU1s.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_gChBrtqd5X14uuHPPNalHug8y56XH8NfGcenqTeGP1c.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_kwGul_v1yboHDDzrtI6KOuToJJq16eN5B-xXE5iVjHw.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_HXXLEjsrRYwcZljIWiPsnYsgsA38Wd3J8ZbnGNAkrqc.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_WmTjKOUl-XW09rNO9EF_-C4A6yudD5alzMJEyHC3jEg.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_G6FgBHcSX3TVX4GwRyMl62uGyK8QcmjfvBgan39L7Q8.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_eM0ouv3nxQaL9V52S56NhhEOfoOcy9ddmC9VSxHGdoU.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_C-QXPEESE_IaBgn74trQY1ds24D4ln2IPeL93hayq14.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_A8iUUA9ewbime-XGtKaPqT_nU3uPZogYTgwe60N04fI.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_9_10zF6LU4KWdW6Vr9ZrwxbqKoMVutZcJR9l2lUA-Rc.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_Zc25etjr-eP8GnCisSv37PuNAM3hCxn_xmq2EkHB_6w.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_kmPXtL8_xiRVgbkX-jFst-z4EEHRVHWEKhPXIaCKi4o.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_eprL9alt5bN33rtJjNO7mcTWJ9sMgaQ9mkXObtaSWtw.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_x_pFN0Y_Ij76b1DsDYfCXfd9GAqz_UbP5TbuPBUWJSM.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_Oiqj5ZYOrtONMaed8scizDnwSTW64CJdkccw0vZofTI.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_AxI2VycTzZD9DvB8Lez5oiDs26SGaaxoihcDcPjsMQw.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_hVk4cBtjh2FVKr8g459OYw9BIvtGm4iALXYO2bpO2_E.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_JN9mB9CwBEvpnNqwA0MFN4OKEJxuwIyqj6Bwyd9amho.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_IcFzAkrpVfIu1ijZfsk1oU3Ra5QD19BzBG6pTTwalkQ.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_PTt4MKPi5FLcTKmZ4Pqcmd9EQP6jB5k9y9_Q6l08sOk.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js__XKfT8b1m4R3sk303Zjhs_KQP4oIgXdjtAB0vEp2zsE.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_xUIYxEknJhvfumUAr7eD1uqkMARmn8MrKLS-HbGKg_w.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_XzHvluyZ2s3-XTKoFw5btPL3gifAtl20CF4xaV701XY.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_fzHH-cCQ57J7x3Oe3R6gv3alg5RHQo7N2ZiwYnycMt0.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_d0W6dz6uzbt_e8U6BSPsf1q36c79o1GMvV_73Dm6Mjw.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_ngw5SHQL6wc_JLp9qOZNnu7jOhmkl2exzDME99zTwTU.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_euOzOxjhc0MozlsWtNE9KTX_iPoYi6HZBLSlzcVEEuI.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_eP-5mg5d1hP3n8VLfiYmItJUDXktiCFmIdeZDZbFzVU.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_-58Ee6OZmKCOpB4O_FJ0rvA_fFYs_Nwy89FGBovY528.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_iFRLWtq4VHaVObvzMxy4HYxw76Mx7n9O4nHlbMMgIfM.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_5fNiTmri_daduY7a-DIxuXgF_IswvsHsNJLgg1q_tUA.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_pzcvBg5EJhGte3lUEkrZkSIY7sZSh-RC12xdh_gowEA.js"></script>
+<script src="https://static.addtoany.com/menu/page.js" async></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_ub51wMJa7a5s4rqOWoE6LS41MCo9CtIgrOXRfmOjgqI.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_z-mXI2DrXIjvDGQdpMBHawdLdJESEed8VpGQPi7qHX8.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_D6mx1z0KYP2jSAhTF4DfSTSGP1PhiNrkD3MlxVvOQxo.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_SM9MtBuYzhmJ5rgNB-8yOtuJFKxZeVi8N75eNTpK7vU.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_QrFPATWCz2jrI6C9OBAOLDGEAyKeu-gRE1JA-6VJgTw.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_8WonCYHDgRqehJJWR9s51wYLxzJpbi0sPL8TPltmOvg.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_4IPpOlc1r09n69pvCrVz3cbWU-G1q1K_1yASQNpklP0.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_1v-SOVSRtrrWiYWpH2CXd56sKFPKDJolof3dtACwG6g.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_2YaXSay7C8woVi1VfveleEVrYbngmHpQ6SaSya0OH_w.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_5byj9iLExVYqSSQ5s51YSr3bqyPXkl0Xq9lhLYGHmSs.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_GpIcy5ioUQgifO3A6S3lbX5AKDEY9a2_Tm20_SClr1I.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_kHmicSNsz0tW38YycKv2z9_cfo-Mj3bwYW48JADRMuo.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_SLafpUbuCqoKJr_kCwJ97OuQOcknhdXOIj6ed1hXy8g.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_6XMfKPUTvydF64420oWNj9aFvU6bzpC1Gu3k-petE0I.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_-W7pf8kIgiStBN_hVm-73h24cmP_QAnto-Tk_6PvOLo.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_pFJA9InsXQhvwTEEf4v5kyjtxAFXnkGhVeoUAkVppmg.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_OkiorHO2s3J2qUT1N4CLrK_is0hh5oSBBEtm_IMPJJM.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_pMYK6PwddUHj3UYi9XtSs_nRzMcC0bu7HeH99f3D4U8.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_jI5ua4tRSzu7WKeQKJihP6WS7f-pf76gkbzB8FjNiKQ.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_TnbFcEO-Xdpha5r0YLaDGfQ5agFpLsY3cibUCUEx6KA.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_96Rd3GWheE7ZmYpWH0FjWgfwO2GWl9xufSvuZj69t8U.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_uAOMOE8HeWsPHgkZc5uMj6A_fTo9BaAa8_UVeuslO5I.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_0q1BTzRoMV7meQ1sjJNijTwbKRkjWrf9amFm85q7mW4.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_IlW8PCfItZ3p7IOInqJ2JGmttQNBscl_iekc9coRA38.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_jT7PSZFVQOjQIUEABCrVnk6yG1WwjawJvyeyh4RIC18.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js__nqoiSCKXmC_4NVPZ6ALoWc8cHHRFlN1mR6Lq72Er14.js"></script>
+<script src="/themes/custom/fdl/js/dragscroll.min.js?v=0.0.8" async></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_lRdHTLt_ag-lYrU22JV-ACb7XSPXaj4XcxMQTYkSAUw.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_BJIvphOta43bBega3Lz0Uq13F5vKbJCWBN32-GwLvR8.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_dpxL0AfU1y7FhfELCLTQHtAt01rf6t7WCfly4qWrvdU.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_kExPiAaQTX9RkQhDe7KbUUSBKm3tRl0WEIye-4WvTHw.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_HBzquydqp6To2B45FR9bbp3A26UrgirCnb7lhVjrNcE.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_CAgNKiG_1Jf4z4vNXUyT5Zr-ebdHvkHV6nRYSp832hM.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_ajD7HkjMFy9JoTAVt0SfE_-N3K0IA8VBDcjqLtHbfXA.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_2oZOgau6Mm6sZsyhfZYNo-rJJ0jjwVuILV4nTegvpdg.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_7lxUzh00mA0yKnapv5CXiZRlkpkqkL7KCO4mVSYnwQg.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_aMM5hEoq-1_LUwqku5Y80MtOF3S5cQvSgz3_-3P29Io.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_ov0NPzgfPR8kW17iium3Aiuy9Ul875juKHJExqsxoac.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js__DZFrQzNmt0Wlp-FOYCVbrs8AoHvM508PQQ5zAXBSE4.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_BKZFEcmGxl2UD7vrznskdokNg36BVCCDCL0MghrSiMY.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_JiSBbhNyHl8_LLLUBD_4vp8mi_szQ0iFvy6Rjsh9q94.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_Zpxetwq8F741s7JUmMjShUoBXMETf2_dZWf8CEIEmWg.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_iJUBkUCD-Im8vsxtk2Tmf65parejNS3f3YQWdd9siA0.js"></script>
+<script src="/themes/custom/fdl/global_js/jquery.scrollIntoView.min.js?v=0.3" async></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_3SsgSJIKvViRvwzh8RvXK_634DiVdXGRfyUDQaKXGGY.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_HiHe3PrL4m8u6RgwBGZXfBSjBF9M7Iyg8wmU4a_-0gw.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_VaBYUOS0EBjLFnCwcsvgTbe_tnrX6VvHM4CnMJQw-rU.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_gfHyFLB4LPeE9ur3_svsXBvC7Z4_dUGFTTRoz7zTrKU.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_3DgULFFgblPZK6tIWedDtxRM7vmgNl-GM_SYUZdUSOY.js"></script>
+<script src="/sites/g/files/xknfdk626/files/js/js_OzuYn5sjlG3vs1rXdSDeupIyjFVXdT0vXMd1qFdAQ9w.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0484fef455","applicationID":"1173403918,530374992","transactionName":"NlcGZkRQW0AFABJbVw8dJVFCWFpdSycUR0gAXjhcWVVQbycMCEZKDl4IV0Rte1wABjBbXRZxC1xCQ1pfCAYUHwYXWwFF","queueTime":34,"applicationTime":1377,"atts":"GhAFEAxKSE4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
