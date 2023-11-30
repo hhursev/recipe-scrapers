@@ -72,6 +72,7 @@ Scrapers available for:
 -----------------------
 
 - `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
+- `https://abuelascounter.com/ <https://abuelascounter.com>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
 - `https://addapinch.com/ <https://addapinch.com//>`_
 - `http://www.afghankitchenrecipes.com/ <http://www.afghankitchenrecipes.com/>`_
@@ -346,6 +347,7 @@ Scrapers available for:
 - `https://whatsgabycooking.com/ <https://whatsgabycooking.com>`_
 - `https://www.wholefoodsmarket.com/ <https://www.wholefoodsmarket.com/>`_
 - `https://www.wholefoodsmarket.co.uk/ <https://www.wholefoodsmarket.co.uk/>`_
+- `https://www.williams-sonoma.com/ <https://www.williams-sonoma.com/>`_
 - `https://woop.co.nz/ <https://woop.co.nz/>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `https://yemek.com/ <https://yemek.com>`_
