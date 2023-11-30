@@ -21,7 +21,8 @@ class BettyBossi(AbstractScraper):
 
     def __init__(
         self,
-        url: str,
+        html: Union[str, bytes],
+        url: Union[str, None],
         proxies: Optional[
             Dict[str, str]
         ] = None,  # allows us to specify optional proxy server
@@ -29,7 +30,6 @@ class BettyBossi(AbstractScraper):
             Union[float, Tuple[float, float], Tuple[float, None]]
         ] = None,  # allows us to specify optional timeout for request
         wild_mode: Optional[bool] = False,
-        html: Union[str, bytes, None] = None,
     ) -> None:
         if html is None:
             with Session() as session:
@@ -40,7 +40,7 @@ class BettyBossi(AbstractScraper):
                 html = session.get(url, timeout=timeout).content  # reload the page
 
         # As the html content is provided, the parent will not query the page
-        super().__init__(url, proxies, timeout, wild_mode, html)
+        super().__init__(html, url, proxies, timeout, wild_mode)
 
     def author(self):
         return self.schema.author()
