@@ -17,7 +17,7 @@ class TestCoopSEScraper(ScraperTest):
         self.assertEqual("coop.se", self.harvester_class.host())
 
     def test_author(self):
-        self.assertEqual("", self.harvester_class.author())
+        self.assertEqual("Coop Sverige", self.harvester_class.author())
 
     def test_title(self):
         self.assertEqual(
