@@ -1,0 +1,2253 @@
+<!doctype html>
+<html lang="en-GB">
+	<head>
+		<!-- adobe launch scripts -->
+		<!-- pre-hiding snippet (all environments) -->
+		<script>
+  		!function(e,a,n,t){var i=e.head;if(i){
+  			if (a) return;
+  			var o=e.createElement("style");
+  			o.id="alloy-prehiding",o.innerText=n,i.appendChild(o),setTimeout(function(){o.parentNode&&o.parentNode.removeChild(o)},t)}}
+  			(document, document.location.href.indexOf("adobe_authoring_enabled") !== -1, ".personalization-container { opacity: 0 !important }", 3000);
+		</script>
+
+		<!-- main launch integration script -->
+				<!-- production -->
+		<script src="https://assets.adobedtm.com/0bd99a225d05/43932fdfd6d5/launch-759490feb646.min.js" async></script>
+						<!-- data layer -->
+		<!--https://www.google.com/ - https://thehappyfoodie.co.uk--><script>
+    // Get the value when the page first starts loading
+    var referer = document.referrer;
+    console.log("RefererOriginal: " + referer);
+    var refererValue = "";
+    console.log("Referer Value: " + refererValue);
+    // start datalayer
+    window.adobeDataLayer = window.adobeDataLayer|| [];
+    window.adobeDataLayer.push({
+    event: "pageload",
+        eventInfo: {},
+    webProperty: "https://thehappyfoodie.co.uk",
+    currencyOfwebsite: "gbp",
+    page:{
+                                author: {
+            authorInfo: {
+                authorName:"Rachel Khoo"
+            }
+        },
+                        recipes: {
+            recipesInfo: {
+                recipeTitle:"Poulet rôti au vin rouge (Roast Red Wine Chicken)",
+                recipeFromBook:"My Little French Kitchen",
+                publishedDate:"August 30, 2013",
+                modifiedDate:"August 19, 2021",
+                recipeAuthor: "Rachel Khoo"
+            }
+        },
+                pageInfo: {
+                        pageID:"3392",
+            pageName:"THF:recipes:poulet-roti-au-vin-rouge-roast-red-wine-chicken",
+            pageType:"recipe-page",
+            previousPage: refererValue,
+            referringURL: referer,
+            pageURL:"https://thehappyfoodie.co.uk/recipes/poulet-roti-au-vin-rouge-roast-red-wine-chicken/",
+            breadCrumbs: "THF>Recipes>Poulet-roti-au-vin-rouge-roast-red-wine-chicken",
+            language: "en-US",
+            geoRegion: "UK"
+            }        },
+    category: {
+        categoryInfo: {
+            siteSection:"recipes",
+            siteSubSection:""
+            }
+        }
+});
+</script>
+
+<script>
+    window.addEventListener('OneTrustGroupsUpdated', function(event) {
+        // get the nodes
+        let mystart = "";
+        let myend = "";
+        let returnednode = "";
+        //let cookieConsent = "";
+        let strict = "no";
+        let performance = "no";
+        let functional = "no";
+        let targeting = "no";
+        const mynodestring = window.OptanonActiveGroups;
+        const mynodearray = mynodestring.split(",");
+        mynodearray.forEach(myprivacyFunction);
+        function myprivacyFunction(index) {
+            if ( index == "C0001") {
+                strict = "yes";
+            } else if ( index == "C0002") {
+                performance = "yes";
+            } else if ( index == "C0003") {
+                functional = "yes";
+            } else if ( index == "C0004") {
+                targeting = "yes";
+            } else {
+                // do nothing
+            }
+            strict = strict;
+            functional = functional
+            targeting = targeting;
+            performance = performance;
+            // cookieConsent = returnednode;
+    }
+
+    window.adobeDataLayer = window.adobeDataLayer || [];
+    window.adobeDataLayer.push({
+        privacy: {
+            cookieConsent: {
+            strict,
+            performance,
+            functional,
+            targeting
+        }
+        }
+    });
+  });
+</script>
+		<!-- end of data layer -->
+
+		<!-- end of adobe launch scripts -->
+
+		<meta charset="UTF-8">
+<script type="text/javascript">
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}});
+</script>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<!-- [BEGIN] Metadata added via All-Meta-Tags plugin by Space X-Chimp ( https://www.spacexchimp.com ) -->
+<meta name="facebook-domain-verification" content="2cc61xpkthg1k43rn2bzy1sfdx8wxr" />
+<!-- [END] Metadata added via All-Meta-Tags plugin by Space X-Chimp ( https://www.spacexchimp.com ) -->
+
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<!-- OneTrust Cookies Consent Notice start for thehappyfoodie.co.uk -->
+
+<script type="text/javascript" src="https://cdn-ukwest.onetrust.com/consent/646d329c-eecc-4beb-b0e5-da19d61acb7b/OtAutoBlock.js" ></script>
+
+<script src="https://cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="646d329c-eecc-4beb-b0e5-da19d61acb7b" ></script>
+
+<script type="text/javascript">
+
+function OptanonWrapper() {
+// PRH event push
+OneTrust.OnConsentChanged(function() {
+    const event = new Event('cookie-consent');
+    document.dispatchEvent(event);
+});
+// end PRH event push
+}
+
+</script>
+
+<!-- OneTrust Cookies Consent Notice end for thehappyfoodie.co.uk -->
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+	<!-- This site is optimized with the Yoast SEO Premium plugin v19.7 (Yoast SEO v21.3) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Poulet rôti au vin rouge (Roast Red Wine Chicken)</title>
+	<meta name="description" content="Looking for a recipe to make for family and friends at the weekend? This roast chicken with red wine and potatoes from Rachel Khoo is wholesome and delicious." />
+	<link rel="canonical" href="https://thehappyfoodie.co.uk/recipes/poulet-roti-au-vin-rouge-roast-red-wine-chicken/" />
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Poulet rôti au vin rouge (Roast Red Wine Chicken)" />
+	<meta property="og:description" content="Looking for a recipe to make for family and friends at the weekend? This roast chicken with red wine and potatoes from Rachel Khoo is wholesome and delicious." />
+	<meta property="og:url" content="https://thehappyfoodie.co.uk/recipes/poulet-roti-au-vin-rouge-roast-red-wine-chicken/" />
+	<meta property="og:site_name" content="The Happy Foodie" />
+	<meta property="article:publisher" content="https://www.facebook.com/thehappyfoodie/" />
+	<meta property="article:modified_time" content="2021-08-19T12:50:48+00:00" />
+	<meta property="og:image" content="https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/9780718177478_roast_red_wine_chicken_s900x0_c3840x2243_l0x1385.jpg" />
+	<meta property="og:image:width" content="900" />
+	<meta property="og:image:height" content="526" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@TheHappyFoodie" />
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://thehappyfoodie.co.uk/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<style id='safe-svg-svg-icon-style-inline-css' type='text/css'>
+.safe-svg-cover{text-align:center}.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{height:100%;max-height:100%;max-width:100%;width:100%}
+
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wppopups-base-css' href='https://thehappyfoodie.co.uk/wp-content/plugins/wp-popups-lite/src/assets/css/wppopups-base.css?ver=2.1.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css' href='https://fonts.googleapis.com/css2?family=Source+Serif+Pro%3Aital%2Cwght%400%2C400%3B0%2C600%3B1%2C400&#038;display=swap' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://use.fontawesome.com/releases/v5.15.2/css/all.css' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-css' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-theme-css' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='styles-css' href='https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/style.css?ver=2.10.0' type='text/css' media='all' />
+<link rel='stylesheet' id='tf-happy-foodie-2023-styles-css' href='https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/css/tf-happy-foodie-2023.css?ver=3.7.6' type='text/css' media='screen' />
+<link rel='stylesheet' id='tf-happy-foodie-2021-print-css' href='https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/css/tf-happy-foodie-2021-print.css?ver=3.7.6' type='text/css' media='print' />
+<script type='text/javascript' src='https://thehappyfoodie.co.uk/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://thehappyfoodie.co.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js?ver=2.3.4' id='owl-carousel-js-js'></script>
+<link rel='shortlink' href='https://thehappyfoodie.co.uk/?p=3392' />
+<link rel="alternate" type="application/json+oembed" href="https://thehappyfoodie.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthehappyfoodie.co.uk%2Frecipes%2Fpoulet-roti-au-vin-rouge-roast-red-wine-chicken%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://thehappyfoodie.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthehappyfoodie.co.uk%2Frecipes%2Fpoulet-roti-au-vin-rouge-roast-red-wine-chicken%2F&#038;format=xml" />
+<!--Code generated by SNIP (Structured Data Plugin) for WordPress. See rich-snippets.io for more information.Post ID is 19996.--><script data-snippet_id="snip-613f7064b4688" type="application/ld+json">{
+    "recipeInstructions": "<p>Mix together the red wine, tomato paste, herbs and red wine vinegar. Season the chicken pieces with plenty of salt and pepper then place in a bag with the marinade. Shake the bag to make sure each piece is well coated. Place in the fridge for at least 30 minutes.<\/p>\n<p>In the meantime, place the potatoes in a pan of cold water, put the lid on top and bring up to the boil. Boil for 1\u20132 minutes, then drain in a colander. Place the onions, carrots and potatoes in a large baking dish or tray (big enough to fit the chicken and the vegetables) and pour over 125ml of water. Preheat the oven to 200\u00b0C. Remove the chicken from the fridge and arrange the pieces, skin side up, in a layer on top of the vegetables in the dish. Pour the rest of the marinade over the chicken. Cover with a sheet of baking paper or foil and roast in the preheated oven for 30 minutes. Remove the baking paper or foil and baste the chicken with the cooking liquid. Roast, uncovered, for another 15 minutes or until the skin is crisp. Serve immediately.<\/p>\n<p>Les petits conseils \u2013 tips: Buying a whole chicken always works out more affordable. If you aren\u2019t up for dissecting it yourself, ask your butcher to cut it into pieces for you. Otherwise if there\u2019s no knife-wielding butcher about you can always cheat and go for chicken thighs. If you\u2019re unsure whether the chicken is cooked through, pierce with a sharp knife and the juices from the chicken should come out clear.<\/p>\n<p>Faire en avance \u2013 get ahead: The veg and chicken can be prepared up to a day in advance, then simply pop it all in the baking tray and cook as indicated in the recipe.<\/p>\n<p>Marinating time: 30 minutes \u2013 overnight<\/p>\n",
+    "cookTime": "PT1H",
+    "recipeCuisine": "French",
+    "name": "Poulet r\u00f4ti au vin rouge (Roast Red Wine Chicken)",
+    "recipeIngredient": "Chicken",
+    "recipeCategory": "Dinner, Main Course",
+    "prepTime": "PT30M",
+    "totalTime": "PT1H30M",
+    "recipeYield": [
+        "Serves 4-6",
+        "Serves 4-6"
+    ],
+    "description": "Looking for a recipe to make for family and friends at the weekend? This roast chicken with red wine and potatoes from Rachel Khoo is wholesome and delicious.",
+    "datePublished": "2013-08-30T09:58:35+01:00",
+    "image": "https:\/\/thehappyfoodie.co.uk\/wp-content\/uploads\/2021\/08\/9780718177478_roast_red_wine_chicken_s900x0_c3840x2243_l0x1385.jpg",
+    "dateModified": "2021-08-19T13:50:48+01:00",
+    "author": {
+        "url": "https:\/\/thehappyfoodie.co.uk\/chefs\/rachel-khoo\/",
+        "name": "Rachel Khoo",
+        "@context": "http:\/\/schema.org",
+        "@type": "Person"
+    },
+    "@context": "http:\/\/schema.org",
+    "@type": "Recipe"
+}</script>
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to footer -->
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var dataLayer_content = {"pageTitle":"Poulet rôti au vin rouge (Roast Red Wine Chicken)","pagePostType":"recipes","pagePostType2":"single-recipes","pagePostDate":"August 30, 2013","pagePostDateYear":"2013","pagePostDateMonth":"08","pagePostDateDay":"30","pagePostDateDayName":"Friday","pagePostDateHour":"09","pagePostDateMinute":"58","pagePostDateIso":"2013-08-30T09:58:35+01:00","pagePostDateUnix":1377856715,"pagePostTerms":{"main_ingredients":["Chicken"],"cooking_methods":["Roast"],"occasions":["Dinner Party"],"recipe_types":["Dinner","Main Course"],"cuisines":["French"],"feature_categories":["Something for the weekend"],"meta":{"hf_recipe_summary":"Looking for a recipe to make for family and friends at the weekend? This roast chicken with red wine and potatoes from Rachel Khoo is wholesome and delicious.","hf_recipe_introduction":"<p>Poulet r&ocirc;ti au vin rouge (Roast Red Wine Chicken)<\/p>","hf_recipe_essential_kit":"","hf_recipe_method":"<p>Mix together the red wine, tomato paste, herbs and red wine vinegar. Season the chicken pieces with plenty of salt and pepper then place in a bag with the marinade. Shake the bag to make sure each piece is well coated. Place in the fridge for at least 30 minutes.<\/p>\n\n<p>In the meantime, place the potatoes in a pan of cold water, put the lid on top and bring up to the boil. Boil for 1–2 minutes, then drain in a colander. Place the onions, carrots and potatoes in a large baking dish or tray (big enough to fit the chicken and the vegetables) and pour over 125ml of water. Preheat the oven to 200°C. Remove the chicken from the fridge and arrange the pieces, skin side up, in a layer on top of the vegetables in the dish. Pour the rest of the marinade over the chicken. Cover with a sheet of baking paper or foil and roast in the preheated oven for 30 minutes. Remove the baking paper or foil and baste the chicken with the cooking liquid. Roast, uncovered, for another 15 minutes or until the skin is crisp. Serve immediately.<\/p>\n\n<p>Les petits conseils – tips: Buying a whole chicken always works out more affordable. If you aren’t up for dissecting it yourself, ask your butcher to cut it into pieces for you. Otherwise if there’s no knife-wielding butcher about you can always cheat and go for chicken thighs. If you’re unsure whether the chicken is cooked through, pierce with a sharp knife and the juices from the chicken should come out clear.<\/p>\n\n<p>Faire en avance – get ahead: The veg and chicken can be prepared up to a day in advance, then simply pop it all in the baking tray and cook as indicated in the recipe.<\/p>\n\n<p>Marinating time: 30 minutes – overnight<\/p>","hf_recipe_yield":"Serves 4-6","hf_recipe_prep_time_hours":"0","hf_recipe_prep_time_minutes":"30","hf_recipe_cook_time_hours":"1","hf_recipe_cook_time_minutes":"0","hf_recipe_published_date":"","hf_recipe_ingredients":"10","hf_recipe_full_image":"15920","hf_recipe_authors_link":"a:1:{i:0;s:4:\"3239\";}","hf_recipe_books_link":"a:1:{i:0;s:4:\"1378\";}","hf_recipe_old_id":"80","hf_recipe_old_order_number":"268","hf_recipe_old_extras":"{}","hf_recipe_old_types":"[\"Main course\", \"Dinner\"]","hf_recipe_old_diets":"[]","hf_recipe_old_occasions":"[\"Dinner Party\"]","hf_recipe_old_main_ingredients":"[\"Chicken\"]","hf_recipe_old_quick":"false","hf_recipe_old_easy":"false","hf_recipe_old_freezer_friendly":"false","hf_recipe_old_family_friendly":"false","hf_recipe_old_category":"Chicken","hf_recipe_prep_time":"PT00H30M","hf_recipe_cook_time":"PT01H00M","hf_recipe_ingredients_0_ingredient_amount":"150ml","hf_recipe_ingredients_0_ingredient_name":"red wine","hf_recipe_ingredients_0_use_ingredient_name_as_heading":"0","hf_recipe_ingredients_1_ingredient_amount":"100g","hf_recipe_ingredients_1_ingredient_name":"tomato paste","hf_recipe_ingredients_1_use_ingredient_name_as_heading":"0","hf_recipe_ingredients_2_ingredient_amount":"3","hf_recipe_ingredients_2_ingredient_name":"sprigs of thyme, leaves picked","hf_recipe_ingredients_2_use_ingredient_name_as_heading":"0","hf_recipe_ingredients_3_ingredient_amount":"3","hf_recipe_ingredients_3_ingredient_name":"sprigs of marjoram, leaves picked, or ½ teaspoon dried","hf_recipe_ingredients_3_use_ingredient_name_as_heading":"0","hf_recipe_ingredients_4_ingredient_amount":"100ml","hf_recipe_ingredients_4_ingredient_name":"red wine vinegar","hf_recipe_ingredients_4_use_ingredient_name_as_heading":"0","hf_recipe_ingredients_5_ingredient_amount":"1","hf_recipe_ingredients_5_ingredient_name":"whole chicken cut into 8 pieces (approx. 1.5kg)","hf_recipe_ingredients_5_use_ingredient_name_as_heading":"0","hf_recipe_ingredients_6_ingredient_amount":"","hf_recipe_ingredients_6_ingredient_name":"Salt and ground black pepper","hf_recipe_ingredients_6_use_ingredient_name_as_heading":"0","hf_recipe_ingredients_7_ingredient_amount":"500g","hf_recipe_ingredients_7_ingredient_name":"baby potatoes, washed","hf_recipe_ingredients_7_use_ingredient_name_as_heading":"0","hf_recipe_ingredients_8_ingredient_amount":"3","hf_recipe_ingredients_8_ingredient_name":"onions, peeled and cut into quarters","hf_recipe_ingredients_8_use_ingredient_name_as_heading":"0","hf_recipe_ingredients_9_ingredient_amount":"6","hf_recipe_ingredients_9_ingredient_name":"carrots, peeled and cut into quarters lengthways","hf_recipe_recommendation_blocks_0_recommendation":"author","hf_recipe_recommendation_blocks":"3","hf_recipe_recommendation_blocks_1_recommendation":"main_ingredient","hf_recipe_recommendation_blocks_2_recommendation":"cooking_method"}},"postCountOnPage":1,"postCountTotal":1};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PPVMQJ3');
+</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+		<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:445702,hjsv:5};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
+		<style type="text/css" id="spu-css-11780" class="spu-css">		#spu-bg-11780 {
+			background-color: rgba(0,0,0,0.5);
+		}
+
+		#spu-11780 .spu-close {
+			font-size: 30px;
+			color: rgb(0, 0, 0);
+			text-shadow: 0 1px 0#000;
+		}
+
+		#spu-11780 .spu-close:hover {
+			color: #000;
+		}
+
+		#spu-11780 {
+			background-color: rgb(227, 226, 219);
+			max-width: 726px;
+			border-radius: 0px;
+
+					height: auto;
+					box-shadow:  0px 0px 0px 0px #ccc;
+				}
+
+		#spu-11780 .spu-container {
+					border: 2px solid;
+			border-color: #000;
+			border-radius: 0px;
+			margin: 0px;
+					padding: 40px;
+			height: calc(100% - 0px);
+		}
+								</style>
+		<link rel="icon" href="https://thehappyfoodie.co.uk/wp-content/uploads/2021/07/favicon-32-px@3x.png" sizes="32x32" />
+<link rel="icon" href="https://thehappyfoodie.co.uk/wp-content/uploads/2021/07/favicon-32-px@3x.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://thehappyfoodie.co.uk/wp-content/uploads/2021/07/favicon-32-px@3x.png" />
+<meta name="msapplication-TileImage" content="https://thehappyfoodie.co.uk/wp-content/uploads/2021/07/favicon-32-px@3x.png" />
+  <script>
+    (function($) {
+      $(function() {
+        if ('undefined' !== typeof FWP) {
+          FWP.auto_refresh = false;
+        }
+      });
+    })(jQuery);
+  </script>
+      <script>
+      (function($) {
+        $(document).on('facetwp-loaded', function() {
+          if ('undefined' !== typeof FWP.extras.sort ) {
+            $( '.facetwp-sort-radio input:radio[name="sort"]').filter('[value="'+FWP.extras.sort+'"]').prop("checked", true);
+          }
+        });
+        // Sorting
+        $(document).on('change', '.facetwp-sort-radio input', function() {
+          FWP.extras.sort = $(this).val();
+          FWP.soft_refresh = true;
+          FWP.autoload();
+        });
+      })(jQuery);
+    </script>
+    		<style type="text/css" id="wp-custom-css">
+			.page-id-20580 .hf-star-authors {
+display: none;
+}
+
+.header__condensed__logo img {
+	max-width: 183px;
+}
+
+/* radio buttons on adestra forms */
+.amf-el-inner input[type=radio] {
+	margin-right: 10px;
+}
+
+@media (min-width: 1200px) {
+.page-id-20580 .hf-page-slider-type-1 .owl-carousel .item .hf-page-slider-type-1__content {
+    background-color: #b47c4b;
+}
+	}
+
+/* 2023 */
+.hf-ingredients .hf-ingredients__inner .hf-ingredients__container .hf-ingredients__single-group table tr td.snapshot_ingredients {
+	width: 100%;
+	background-color: inherit;
+	text-align: left;
+}
+/*.little-terms {
+	color: #d4d4d4;
+	text-transform: uppercase;
+	font-size: 10px;
+	background-color: #fff;
+	border-radius: 50px;
+}*/
+.little-terms {
+	display: inline-block;
+	color: #000;
+	background-color: #fabc2f;
+	padding: 2px 10px;
+	margin-bottom: 20px !important;
+	font-size: 14px;
+	letter-spacing: 2.5px;
+	line-height: 1.5;
+	text-transform: uppercase;
+}
+.little-terms-cta {
+	display: none;
+}
+
+section.tf-hub-ingredients {
+	background-color: #e3e2db;
+}
+div.tf-search-summary__keywords {
+	margin-bottom: 20px;
+}
+span.tf-search-summary__keyword_label {
+	font-size: 16px;
+  font-weight: 500;
+	line-height: 1.63;
+  letter-spacing: 0.3px;
+}
+span.tf-search-summary__keywords {
+	background-color: #000;
+	color: #fff;
+	padding: 5px 10px;
+	margin: 0px 5px !important;
+	font-size: 16px;
+	line-height: 1.63;
+	letter-spacing: 0.3px;
+	text-transform: capitalize;
+}
+.tf-search__content-cat a {
+	color: #fff;
+}
+.tf-search__content-cat a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.hf-snapshot-cta__inner {
+	display: block;
+	padding: 4rem;
+	border-top: solid 2px #e4e4e4;
+}
+.hf-snapshot-cta .hf-snapshot-cta__inner > h2 {
+	margin-bottom: 1rem;
+	text-align: center;
+	line-height: 1.33;
+}
+.hf-snapshot-cta__container__inner {
+	text-align: center;
+	font-weight: 400;
+}
+.hf-ingredients.snapshot-recipe h2 {
+	opacity: 0.8;
+	margin-bottom: 5px;
+}
+
+
+
+/* left bar snapshot cta */
+section.hf-snapshot-cta-sidebar {
+	border: solid 0px #e4e4e4;
+	background-color: #e3e2db;
+	padding: 5px 5px !important;
+	margin: 0px 10px;
+	max-width: 80%;
+}
+.hf-snapshot-cta__inner.snapshot-cta-recipe-sidebar {
+	display: block;
+	padding: 0rem 4rem;
+	border-top: none;
+}
+.hf-snapshot-cta__inner.snapshot-cta-recipe-sidebar > h2 {
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	text-align: center;
+	line-height: 1.33;
+	font-size: 16px !important;
+}
+.hf-snapshot-cta__inner.snapshot-cta-recipe-sidebar .hf-snapshot-cta__container__inner > p {
+	font-size: 16px !important;
+	line-height: 1.33;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+.hf-snapshot-cta__container__inner {
+	text-align: center;
+	font-weight: 400;
+}
+.hf-snapshot-cta__container .hf-book-buy-links {
+	margin-bottom: 2rem !important;
+}
+
+
+
+.hf-ingredients.snapshot-recipe tr:first-child {
+  opacity: 0.7;
+}
+.hf-ingredients.snapshot-recipe tr:nth-child(2) {
+  opacity: 0.6;
+}
+.hf-ingredients.snapshot-recipe tr:nth-child(3) {
+  opacity: 0.5;
+}
+.hf-ingredients.snapshot-recipe tr:nth-child(4) {
+  opacity: 0.4;
+}
+.hf-ingredients.snapshot-recipe tr:nth-child(5) {
+  opacity: 0.3;
+}
+.hf-ingredients.snapshot-recipe tr:nth-child(n+6) {
+  opacity: 0.2;
+}
+.hf-ingredients.snapshot-recipe tr:nth-child(n+7) {
+  opacity: 0.1;
+}
+.hf-ingredients.snapshot-recipe tr:nth-child(n+7) {
+  display: none;
+}
+.tf-hub-about__image img, .tf-search-summary__image img {
+	border-radius: 50%;
+}
+
+/* links inside cornerstone sections */
+.cornerstone .hf-breadcrumb__inner p a, .cornerstone .hf-grid__inner-cornerstone p a {
+	border-bottom: 0.2rem solid #fabc2f !important;
+}
+
+/* temp fix for search facets */
+.hf-page-search-bar .facetwp-selections ul li {
+	  background-color: #fff;
+    color: white;
+	    margin-right: 0;
+	    padding: 0;
+    margin-top: 0;
+}
+.hf-page-search-bar .facetwp-selections ul li .facetwp-selection-value {
+    background-color: #000000;
+    color: white;
+    margin-right: 1.1rem;
+    font-family: "ITCAvantGardeGothic", Arial, Sans-Serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 0.6rem 0.7rem 0.4rem;
+    margin-top: 1.3rem;
+}
+.tf-password-required-wrapper {
+	margin-top: 300px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+		</style>
+		<!-- checking hub -->
+
+
+		<script>
+			/*Redirect if old browser (IE11 or older, or Safari 8 or older)*/
+			var agentHeader = navigator.userAgent;
+			var browserName = navigator.appName;
+
+			if (window.location.href !== 'https://thehappyfoodie.co.uk/upgrade-browser/') {
+					if (agentHeader.indexOf("Trident/7.") !== -1 ||
+						browserName.indexOf("Microsoft Internet Explorer") !== -1 ||
+						agentHeader.indexOf("Safari") !== -1 && agentHeader.indexOf("Version/8.") !== -1) {
+						window.location.href = "https://thehappyfoodie.co.uk/upgrade-browser/";
+					} else {
+							console.log('You are on a compatible browser')
+					}
+			} else {}
+		</script>
+
+	</head>
+
+	<body class="recipes-template-default single single-recipes postid-3392">
+
+
+			<div class="skip-to-content">
+				<a class="skip-to-content__link" href="#content">
+					Skip to content
+				</a>
+			</div>
+
+			<header class="initial">
+
+				<div class="header__mobile-flyout closed">
+
+		<div class="header__flyout__menu">
+		<div class="menu-mobile-menu-container"><ul id="menu-mobile-menu" class="menu"><li id="menu-item-11356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11356"><a href="https://thehappyfoodie.co.uk/recipes/">Recipes</a></li>
+<li id="menu-item-11355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11355"><a href="https://thehappyfoodie.co.uk/books/">Books</a></li>
+<li id="menu-item-11424" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11424"><a href="https://thehappyfoodie.co.uk/features/">Features</a></li>
+<li id="menu-item-11357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11357"><a href="https://thehappyfoodie.co.uk/chefs/">Authors</a></li>
+<li id="menu-item-18999" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18999"><a href="https://thehappyfoodie.co.uk/best-uk-cookbook-ebook-deals-discounts/">Deals</a></li>
+<li id="menu-item-20934" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20934"><a href="https://thehappyfoodie.co.uk/recipes/occasions/christmas/">Christmas</a></li>
+</ul></div>	</div>
+
+	<div class="header__flyout__social">
+		<p>Follow us</p>
+
+			<a href="https://www.facebook.com/thehappyfoodie/" target="_blank">
+				<img src="https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/icons/individual/icon-facebook.svg" />
+			</a>
+
+
+			<a href="https://twitter.com/TheHappyFoodie/" target="_blank">
+				<img src="https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/icons/individual/icon-twitter.svg" />
+			</a>
+
+
+			<a href="https://www.instagram.com/thehappyfoodie/" target="_blank">
+				<img src="https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/icons/individual/icon-instagram.svg" />
+			</a>
+
+
+			<a href="https://www.youtube.com/c/thehappyfoodie/" target="_blank">
+				<img src="https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/icons/individual/icon-you_tube.svg" />
+			</a>
+
+			</div>
+
+</div><div class="header__top-bar">
+
+  <div class="container">
+    <div class="row">
+      <div class="col d-flex align-items-center align-items-xl-start">
+
+        <div class="header__hamburger d-xl-none">
+  <img src='https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/icons/individual/icon-burger.svg' alt='Open menu' class='icon-burger' />
+  <img src='https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/icons/individual/icon-close.svg' alt='Close menu' class='icon-close' />
+</div><div class="header__left-col d-none d-xl-block">
+
+	<div class="header__left-col__menu d-none d-xl-block">
+		<div class="menu-main-menu-left-container"><ul id="menu-main-menu-left" class="menu"><li id="menu-item-11353" class="mega-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-11353"><a href="https://thehappyfoodie.co.uk/recipes/">Recipes</a></li>
+<li id="menu-item-11352" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11352"><a href="https://thehappyfoodie.co.uk/books/">Books</a></li>
+<li id="menu-item-11425" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11425"><a href="https://thehappyfoodie.co.uk/features/">Features</a></li>
+</ul></div>	</div>
+
+	<div class="header__left-col__search">
+		<form action="https://thehappyfoodie.co.uk/recipes/search/" method="get">
+			<button type="submit" id="searchsubmit">
+				<span class="icon">
+					<img src="https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/icons/individual/icon-search.svg" />
+				</span>
+			</button>
+
+			<input type="text" name="_recipes_search" id="search" value="" placeholder="Search" />
+		</form>
+	</div>
+
+</div>
+<div class="header__logo align-self-xl-center">
+
+    <a href="https://thehappyfoodie.co.uk" class="d-xl-none">
+    <img width="152" height="14" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/04/THF-2.svg" class="attachment-large size-large" alt="" decoding="async" />  </a>
+
+    <a href="https://thehappyfoodie.co.uk" class="d-none d-xl-inline-block">
+    <img width="146" height="74" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/04/THF-1.svg" class="attachment-large size-large" alt="" decoding="async" />  </a>
+
+</div><div class="header__penguin d-xl-none">
+  <a href="https://www.penguin.co.uk/" target="_blank">
+    <img src="https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/logo-penguin.svg" alt="penguin logo" />
+  </a>
+</div><div class="header__right-col d-none d-xl-block">
+
+	<div class="header__right-col__menu d-none d-xl-block">
+		<div class="menu-main-menu-right-container"><ul id="menu-main-menu-right" class="menu"><li id="menu-item-11354" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11354"><a href="https://thehappyfoodie.co.uk/chefs/">Authors</a></li>
+<li id="menu-item-20933" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20933"><a href="https://thehappyfoodie.co.uk/recipes/occasions/christmas/">Christmas</a></li>
+<li id="menu-item-18998" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18998"><a href="https://thehappyfoodie.co.uk/best-uk-cookbook-ebook-deals-discounts/">Deals</a></li>
+</ul></div>	</div>
+
+	<div class="header__right-col__penguin">
+		<p>Feed your appetite for cooking with Penguin’s expert authors</p>
+		<a href="https://www.penguin.co.uk/" target="_blank">
+		<img src="https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/logo-penguin.svg" alt="penguin logo" />
+		</a>
+	</div>
+
+</div>
+      </div>
+    </div>
+  </div>
+
+</div><div class="header__mega-menu">
+
+	<div class="container">
+		<div class="row">
+			<div class="col">
+
+				<div id="bs-example-navbar-collapse-1" class="menu-mega-menu-container"><ul id="menu-mega-menu" class="mega-menu d-none d-xl-flex flex-xl-row" itemscope itemtype="http://www.schema.org/SiteNavigationElement"><li  id="menu-item-42" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-42 nav-item"><a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-42"><div class="item-name" itemprop="name">Authors</div></a>
+<ul aria-labelledby="menu-item-dropdown-42">
+	<li  id="menu-item-11323" class="menu-item menu-item-type-post_type menu-item-object-authors menu-item-11323 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/chefs/jamie-oliver/" class="dropdown-item"><div class="item-name" itemprop="name">Jamie Oliver</div></a></li>
+	<li  id="menu-item-11324" class="menu-item menu-item-type-post_type menu-item-object-authors menu-item-11324 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/chefs/nigella-lawson/" class="dropdown-item"><div class="item-name" itemprop="name">Nigella Lawson</div></a></li>
+	<li  id="menu-item-11325" class="menu-item menu-item-type-post_type menu-item-object-authors menu-item-11325 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/chefs/mary-berry/" class="dropdown-item"><div class="item-name" itemprop="name">Mary Berry</div></a></li>
+	<li  id="menu-item-11326" class="menu-item menu-item-type-post_type menu-item-object-authors menu-item-11326 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/chefs/rick-stein/" class="dropdown-item"><div class="item-name" itemprop="name">Rick Stein</div></a></li>
+	<li  id="menu-item-26491" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26491 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/chefs/yotam-ottolenghi/" class="dropdown-item"><div class="item-name" itemprop="name">Yotam Ottolenghi</div></a></li>
+	<li  id="menu-item-25800" class="menu-item menu-item-type-post_type menu-item-object-authors menu-item-25800 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/chefs/rukmini-iyer/" class="dropdown-item"><div class="item-name" itemprop="name">Rukmini Iyer</div></a></li>
+</ul>
+</li>
+<li  id="menu-item-43" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-43 nav-item"><a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-43"><div class="item-name" itemprop="name">Ingredients</div></a>
+<ul aria-labelledby="menu-item-dropdown-43">
+	<li  id="menu-item-11327" class="menu-item menu-item-type-taxonomy menu-item-object-main_ingredients current-recipes-ancestor current-menu-parent current-recipes-parent active menu-item-11327 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/main-ingredients/chicken/" class="dropdown-item"><div class="item-name" itemprop="name">Chicken</div></a></li>
+	<li  id="menu-item-11329" class="menu-item menu-item-type-taxonomy menu-item-object-main_ingredients menu-item-11329 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/main-ingredients/beef/" class="dropdown-item"><div class="item-name" itemprop="name">Beef</div></a></li>
+	<li  id="menu-item-11330" class="menu-item menu-item-type-taxonomy menu-item-object-main_ingredients menu-item-11330 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/main-ingredients/salmon/" class="dropdown-item"><div class="item-name" itemprop="name">Salmon</div></a></li>
+	<li  id="menu-item-11331" class="menu-item menu-item-type-taxonomy menu-item-object-main_ingredients menu-item-11331 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/main-ingredients/courgette/" class="dropdown-item"><div class="item-name" itemprop="name">Courgette</div></a></li>
+	<li  id="menu-item-11332" class="menu-item menu-item-type-taxonomy menu-item-object-main_ingredients menu-item-11332 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/main-ingredients/aubergine/" class="dropdown-item"><div class="item-name" itemprop="name">Aubergine</div></a></li>
+	<li  id="menu-item-11333" class="menu-item menu-item-type-taxonomy menu-item-object-main_ingredients menu-item-11333 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/main-ingredients/apple/" class="dropdown-item"><div class="item-name" itemprop="name">Apple</div></a></li>
+	<li  id="menu-item-11334" class="menu-item menu-item-type-taxonomy menu-item-object-main_ingredients menu-item-11334 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/main-ingredients/banana/" class="dropdown-item"><div class="item-name" itemprop="name">Banana</div></a></li>
+	<li  id="menu-item-11328" class="menu-item menu-item-type-taxonomy menu-item-object-main_ingredients menu-item-11328 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/main-ingredients/chocolate/" class="dropdown-item"><div class="item-name" itemprop="name">Chocolate</div></a></li>
+</ul>
+</li>
+<li  id="menu-item-44" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-44 nav-item"><a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-44"><div class="item-name" itemprop="name">Dishes</div></a>
+<ul aria-labelledby="menu-item-dropdown-44">
+	<li  id="menu-item-11338" class="menu-item menu-item-type-taxonomy menu-item-object-dishes menu-item-11338 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/dishes/curry/" class="dropdown-item"><div class="item-name" itemprop="name">Curry</div></a></li>
+	<li  id="menu-item-11336" class="menu-item menu-item-type-taxonomy menu-item-object-dishes menu-item-11336 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/dishes/pasta/" class="dropdown-item"><div class="item-name" itemprop="name">Pasta</div></a></li>
+	<li  id="menu-item-11339" class="menu-item menu-item-type-taxonomy menu-item-object-dishes menu-item-11339 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/dishes/soup/" class="dropdown-item"><div class="item-name" itemprop="name">Soup</div></a></li>
+	<li  id="menu-item-11337" class="menu-item menu-item-type-taxonomy menu-item-object-dishes menu-item-11337 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/dishes/salad/" class="dropdown-item"><div class="item-name" itemprop="name">Salad</div></a></li>
+	<li  id="menu-item-11335" class="menu-item menu-item-type-taxonomy menu-item-object-dishes menu-item-11335 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/dishes/cake/" class="dropdown-item"><div class="item-name" itemprop="name">Cake</div></a></li>
+</ul>
+</li>
+<li  id="menu-item-45" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-45 nav-item"><a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-45"><div class="item-name" itemprop="name">Diet</div></a>
+<ul aria-labelledby="menu-item-dropdown-45">
+	<li  id="menu-item-11340" class="menu-item menu-item-type-taxonomy menu-item-object-diets menu-item-11340 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/diets/vegetarian/" class="dropdown-item"><div class="item-name" itemprop="name">Vegetarian</div></a></li>
+	<li  id="menu-item-11341" class="menu-item menu-item-type-taxonomy menu-item-object-diets menu-item-11341 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/diets/vegan/" class="dropdown-item"><div class="item-name" itemprop="name">Vegan</div></a></li>
+	<li  id="menu-item-11342" class="menu-item menu-item-type-taxonomy menu-item-object-diets menu-item-11342 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/diets/gluten-free/" class="dropdown-item"><div class="item-name" itemprop="name">Gluten-Free</div></a></li>
+</ul>
+</li>
+<li  id="menu-item-46" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-46 nav-item"><a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-46"><div class="item-name" itemprop="name">More</div></a>
+<ul aria-labelledby="menu-item-dropdown-46">
+	<li  id="menu-item-26490" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26490 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/cooking-methods/baking/" class="dropdown-item"><div class="item-name" itemprop="name">Baking</div></a></li>
+	<li  id="menu-item-11344" class="menu-item menu-item-type-taxonomy menu-item-object-recipe_tags menu-item-11344 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/recipe-tags/family-friendly/" class="dropdown-item"><div class="item-name" itemprop="name">Family Friendly</div></a></li>
+	<li  id="menu-item-11345" class="menu-item menu-item-type-taxonomy menu-item-object-recipe_tags menu-item-11345 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/recipe-tags/quick/" class="dropdown-item"><div class="item-name" itemprop="name">Quick</div></a></li>
+	<li  id="menu-item-11343" class="menu-item menu-item-type-taxonomy menu-item-object-recipe_tags menu-item-11343 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/recipe-tags/easy/" class="dropdown-item"><div class="item-name" itemprop="name">Easy</div></a></li>
+	<li  id="menu-item-11346" class="menu-item menu-item-type-taxonomy menu-item-object-recipe_tags menu-item-11346 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/recipe-tags/freezer-friendly/" class="dropdown-item"><div class="item-name" itemprop="name">Freezer Friendly</div></a></li>
+	<li  id="menu-item-11348" class="menu-item menu-item-type-taxonomy menu-item-object-dishes menu-item-11348 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/dishes/one-pot/" class="dropdown-item"><div class="item-name" itemprop="name">One Pot</div></a></li>
+</ul>
+</li>
+</ul></div>
+				<div class="mega-menu__icon-close">
+					<span class="icon-bar top-bar"></span>
+					<span class="icon-bar middle-bar"></span>
+					<span class="icon-bar bottom-bar"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div><!-- not hub template: single-recipes.php :  --><div class="header__signup-search-wrap signup-desktop d-none d-xl-block">
+
+
+  <div class="header__signup-bar">
+
+    <div class="container">
+      <div class="row">
+        <div class="col d-flex align-items-center">
+
+          <p>Get our weekly email</p>
+
+          <div class="signup__button">
+            <button class="modal-button newsletter-modal-button">Sign me up</button>
+          </div>
+
+          <p>Recipes, book news, deals and more</p>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div><!-- not hub template: single-recipes.php :  --><div class="header__signup-search-wrap signup-mobile d-xl-none">
+
+
+  <div class="header__signup-bar d-flex justify-content-end">
+    <div class="header__signup-lozenge align-items-center">
+      <p>Get our weekly email</p>
+      <a href="#" class="hf-button modal-button newsletter-modal-button">Sign up</a>
+    </div>
+
+    <div class="header__search-icon d-flex">
+      <div class="header__search-icon__inner d-flex align-items-center justify-content-center">
+        <img src="https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/icons/individual/icon-search.svg" />
+      </div>
+    </div>
+  </div>
+
+
+  <div class="header__mobile-search-bar">
+    <div class="header__mobile-search-bar__inner d-flex align-items-center">
+      <img src="https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/icons/individual/icon-search.svg" />
+
+      <form action="https://thehappyfoodie.co.uk/recipes/search/" method="get">
+        <input type="text" name="_recipes_search" id="search" value="" />
+      </form>
+
+      <i class="fas fa-times icon-close"></i>
+    </div>
+  </div>
+
+</div>
+			</header>
+
+			<header class="condensed">
+
+
+<div class="header__condensed">
+
+	<div class="container">
+		<div class="row">
+			<div class="col d-flex align-items-center">
+
+				<div class="header__condensed__logo">
+					<a href="https://thehappyfoodie.co.uk">
+						<img width="152" height="14" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/04/THF-2.svg" class="attachment-large size-large" alt="" decoding="async" />					</a>
+				</div>
+
+				<div class="header__condensed__menu">
+					<div class="menu-main-menu-left-container"><ul id="menu-main-menu-left-1" class="menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement"><li class="mega-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-11353"><a href="https://thehappyfoodie.co.uk/recipes/">Recipes</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11352"><a href="https://thehappyfoodie.co.uk/books/">Books</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11425"><a href="https://thehappyfoodie.co.uk/features/">Features</a></li>
+</ul></div><div class="menu-main-menu-right-container"><ul id="menu-main-menu-right-1" class="menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11354"><a href="https://thehappyfoodie.co.uk/chefs/">Authors</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20933"><a href="https://thehappyfoodie.co.uk/recipes/occasions/christmas/">Christmas</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18998"><a href="https://thehappyfoodie.co.uk/best-uk-cookbook-ebook-deals-discounts/">Deals</a></li>
+</ul></div>				</div>
+
+				<div class="header__condensed__search">
+					<form action="https://thehappyfoodie.co.uk/recipes/search/" method="get" class="d-flex justify-content-end">
+						<button type="submit" id="searchsubmit" >
+							<span class="icon">
+								<img src="https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/icons/individual/icon-search.svg" />
+							</span>
+						</button>
+						<input type="text" name="_recipes_search" id="search" value="" placeholder="Search" />
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</div><div class="header__mega-menu">
+
+	<div class="container">
+		<div class="row">
+			<div class="col">
+
+				<div id="bs-example-navbar-collapse-1" class="menu-mega-menu-container"><ul id="menu-mega-menu-1" class="mega-menu d-none d-xl-flex flex-xl-row" itemscope itemtype="http://www.schema.org/SiteNavigationElement"><li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-42 nav-item"><a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-42"><div class="item-name" itemprop="name">Authors</div></a>
+<ul aria-labelledby="menu-item-dropdown-42">
+	<li  class="menu-item menu-item-type-post_type menu-item-object-authors menu-item-11323 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/chefs/jamie-oliver/" class="dropdown-item"><div class="item-name" itemprop="name">Jamie Oliver</div></a></li>
+	<li  class="menu-item menu-item-type-post_type menu-item-object-authors menu-item-11324 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/chefs/nigella-lawson/" class="dropdown-item"><div class="item-name" itemprop="name">Nigella Lawson</div></a></li>
+	<li  class="menu-item menu-item-type-post_type menu-item-object-authors menu-item-11325 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/chefs/mary-berry/" class="dropdown-item"><div class="item-name" itemprop="name">Mary Berry</div></a></li>
+	<li  class="menu-item menu-item-type-post_type menu-item-object-authors menu-item-11326 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/chefs/rick-stein/" class="dropdown-item"><div class="item-name" itemprop="name">Rick Stein</div></a></li>
+	<li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26491 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/chefs/yotam-ottolenghi/" class="dropdown-item"><div class="item-name" itemprop="name">Yotam Ottolenghi</div></a></li>
+	<li  class="menu-item menu-item-type-post_type menu-item-object-authors menu-item-25800 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/chefs/rukmini-iyer/" class="dropdown-item"><div class="item-name" itemprop="name">Rukmini Iyer</div></a></li>
+</ul>
+</li>
+<li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-43 nav-item"><a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-43"><div class="item-name" itemprop="name">Ingredients</div></a>
+<ul aria-labelledby="menu-item-dropdown-43">
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-main_ingredients current-recipes-ancestor current-menu-parent current-recipes-parent active menu-item-11327 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/main-ingredients/chicken/" class="dropdown-item"><div class="item-name" itemprop="name">Chicken</div></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-main_ingredients menu-item-11329 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/main-ingredients/beef/" class="dropdown-item"><div class="item-name" itemprop="name">Beef</div></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-main_ingredients menu-item-11330 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/main-ingredients/salmon/" class="dropdown-item"><div class="item-name" itemprop="name">Salmon</div></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-main_ingredients menu-item-11331 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/main-ingredients/courgette/" class="dropdown-item"><div class="item-name" itemprop="name">Courgette</div></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-main_ingredients menu-item-11332 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/main-ingredients/aubergine/" class="dropdown-item"><div class="item-name" itemprop="name">Aubergine</div></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-main_ingredients menu-item-11333 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/main-ingredients/apple/" class="dropdown-item"><div class="item-name" itemprop="name">Apple</div></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-main_ingredients menu-item-11334 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/main-ingredients/banana/" class="dropdown-item"><div class="item-name" itemprop="name">Banana</div></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-main_ingredients menu-item-11328 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/main-ingredients/chocolate/" class="dropdown-item"><div class="item-name" itemprop="name">Chocolate</div></a></li>
+</ul>
+</li>
+<li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-44 nav-item"><a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-44"><div class="item-name" itemprop="name">Dishes</div></a>
+<ul aria-labelledby="menu-item-dropdown-44">
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-dishes menu-item-11338 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/dishes/curry/" class="dropdown-item"><div class="item-name" itemprop="name">Curry</div></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-dishes menu-item-11336 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/dishes/pasta/" class="dropdown-item"><div class="item-name" itemprop="name">Pasta</div></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-dishes menu-item-11339 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/dishes/soup/" class="dropdown-item"><div class="item-name" itemprop="name">Soup</div></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-dishes menu-item-11337 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/dishes/salad/" class="dropdown-item"><div class="item-name" itemprop="name">Salad</div></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-dishes menu-item-11335 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/dishes/cake/" class="dropdown-item"><div class="item-name" itemprop="name">Cake</div></a></li>
+</ul>
+</li>
+<li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-45 nav-item"><a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-45"><div class="item-name" itemprop="name">Diet</div></a>
+<ul aria-labelledby="menu-item-dropdown-45">
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-diets menu-item-11340 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/diets/vegetarian/" class="dropdown-item"><div class="item-name" itemprop="name">Vegetarian</div></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-diets menu-item-11341 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/diets/vegan/" class="dropdown-item"><div class="item-name" itemprop="name">Vegan</div></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-diets menu-item-11342 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/diets/gluten-free/" class="dropdown-item"><div class="item-name" itemprop="name">Gluten-Free</div></a></li>
+</ul>
+</li>
+<li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-46 nav-item"><a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-46"><div class="item-name" itemprop="name">More</div></a>
+<ul aria-labelledby="menu-item-dropdown-46">
+	<li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26490 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/cooking-methods/baking/" class="dropdown-item"><div class="item-name" itemprop="name">Baking</div></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-recipe_tags menu-item-11344 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/recipe-tags/family-friendly/" class="dropdown-item"><div class="item-name" itemprop="name">Family Friendly</div></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-recipe_tags menu-item-11345 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/recipe-tags/quick/" class="dropdown-item"><div class="item-name" itemprop="name">Quick</div></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-recipe_tags menu-item-11343 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/recipe-tags/easy/" class="dropdown-item"><div class="item-name" itemprop="name">Easy</div></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-recipe_tags menu-item-11346 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/recipe-tags/freezer-friendly/" class="dropdown-item"><div class="item-name" itemprop="name">Freezer Friendly</div></a></li>
+	<li  class="menu-item menu-item-type-taxonomy menu-item-object-dishes menu-item-11348 nav-item"><a itemprop="url" href="https://thehappyfoodie.co.uk/recipes/dishes/one-pot/" class="dropdown-item"><div class="item-name" itemprop="name">One Pot</div></a></li>
+</ul>
+</li>
+</ul></div>
+				<div class="mega-menu__icon-close">
+					<span class="icon-bar top-bar"></span>
+					<span class="icon-bar middle-bar"></span>
+					<span class="icon-bar bottom-bar"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+			</header>
+
+		<!-- current author: 3239 : -->
+    <div id="content">
+
+
+        <div class="hf-container hf-single-recipe d-flex">
+
+            <div class="hf-col d-none d-xl-block">
+            <!-- left column -->
+                <!-- recipe id is 3392 --><!-- snap: not a snapshot --><!-- snap: not exclusive -->                <!-- end left column -->
+            </div>
+
+            <div class="hf-col hf-col-main">
+
+                <div class="hf-extra-indent-lg">
+
+	<section class="hf-section hf-breadcrumb hf-breadcrumb-small">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+
+				<div class="hf-breadcrumb__inner">
+
+					<h5><a href="/recipes">Recipes</a><span>></span><a href="https://thehappyfoodie.co.uk/recipes/main-ingredients/chicken/">Chicken Recipes</a></h5>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<!-- recipe id is 3392 --><!-- snap: not a snapshot --><!-- snap: not exclusive --><section class="hf-section hf-title hf-title-large">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <div class="hf-title__inner">
+
+          <h1>
+            Poulet rôti au vin rouge (Roast Red Wine Chicken)          </h1>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</section>
+	<section class="hf-section hf-author">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+
+					<div class="hf-author__inner d-flex align-items-center">
+
+													<div class="hf-author__image">
+								<img width="300" height="300" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/rachel-khoo-headshot.jpg" class="attachment-large size-large wp-post-image" alt="Rachel Khoo" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/rachel-khoo-headshot.jpg 300w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/rachel-khoo-headshot-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" />							</div>
+													<div class="hf-author__text">
+								<p>
+																			<span>by <a href="https://thehappyfoodie.co.uk/chefs/rachel-khoo/">Rachel Khoo</a></span>
+																			<span>
+											from <a href="https://thehappyfoodie.co.uk/books/my-little-french-kitchen/">My Little French Kitchen</a>
+										</span>
+																	</p>
+							</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+
+
+<section class="hf-section hf-metadata">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+
+				<div class="hf-metadata__inner">
+
+										<div class="hf-metadata__row d-flex">
+
+											<div class="hf-metadata__portions d-flex align-items-center">
+						<p>Serves 4-6</p>
+						</div>
+
+					</div>
+
+						<div class="hf-metadata__row d-flex justify-content-between align-items-center">
+															<div class="hf-metadata__time-total d-flex align-items-center">
+									<p>Total <span>1hr 30min</span></p>
+								</div>
+															<div class="hf-metadata__time-prep">
+									<p>Prep <span>30min</span></p>
+								</div>
+															<div class="hf-metadata__time-cook">
+									<p>Cook <span>1hr </span></p>
+								</div>
+													</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</section>
+                </div>
+
+
+	<section class="hf-section hf-featured-image tf-recipe-main">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+
+					<div class="hf-featured-image__inner margin-neg-15 tf-recipe-main">
+
+						<img width="900" height="526" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/9780718177478_roast_red_wine_chicken_s900x0_c3840x2243_l0x1385.jpg" class="attachment-full size-full wp-post-image" alt="Poulet rôti au vin rouge (Roast Red Wine Chicken)" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/9780718177478_roast_red_wine_chicken_s900x0_c3840x2243_l0x1385.jpg 900w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/9780718177478_roast_red_wine_chicken_s900x0_c3840x2243_l0x1385-300x175.jpg 300w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/9780718177478_roast_red_wine_chicken_s900x0_c3840x2243_l0x1385-768x449.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" />
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+
+                <div class="hf-extra-indent-lg">
+
+                    <section class="hf-section hf-social-print">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <div class="hf-social-print__inner d-flex">
+
+          <div class="hf-social-print__social">
+            <div class="hf-social-share d-flex"><a class="hf-social-link hf-social-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fthehappyfoodie.co.uk%2Frecipes%2Fpoulet-roti-au-vin-rouge-roast-red-wine-chicken%2F" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fthehappyfoodie.co.uk%2Frecipes%2Fpoulet-roti-au-vin-rouge-roast-red-wine-chicken%2F','popup','width=600,height=400'); return false;"><span></span></a><a class="hf-social-link hf-social-twitter" href="https://twitter.com/intent/tweet?text=Poulet%20rôti%20au%20vin%20rouge%20(Roast%20Red%20Wine%20Chicken)&amp;url=https%3A%2F%2Fthehappyfoodie.co.uk%2Frecipes%2Fpoulet-roti-au-vin-rouge-roast-red-wine-chicken%2F" target="popup" onclick="window.open('https://twitter.com/intent/tweet?text=Poulet%20rôti%20au%20vin%20rouge%20(Roast%20Red%20Wine%20Chicken)&amp;url=https%3A%2F%2Fthehappyfoodie.co.uk%2Frecipes%2Fpoulet-roti-au-vin-rouge-roast-red-wine-chicken%2F','popup','width=600,height=400'); return false;"><span></span></a><a class="hf-social-link hf-social-pinterest" href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fthehappyfoodie.co.uk%2Frecipes%2Fpoulet-roti-au-vin-rouge-roast-red-wine-chicken%2F&amp;media=https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/9780718177478_roast_red_wine_chicken_s900x0_c3840x2243_l0x1385.jpg&amp;description=Poulet%20rôti%20au%20vin%20rouge%20(Roast%20Red%20Wine%20Chicken)" target="popup" onclick="window.open('https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fthehappyfoodie.co.uk%2Frecipes%2Fpoulet-roti-au-vin-rouge-roast-red-wine-chicken%2F&amp;media=https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/9780718177478_roast_red_wine_chicken_s900x0_c3840x2243_l0x1385.jpg&amp;description=Poulet%20rôti%20au%20vin%20rouge%20(Roast%20Red%20Wine%20Chicken)','popup','width=600,height=400'); return false;"><span></span></a><a class="hf-social-link hf-social-email" href="/cdn-cgi/l/email-protection#e3dc90968189868097deb08b82918a8d84c3b38c968f8697c6d1d3912057978ac6d1d38296c6d1d3958a8dc6d1d3918c968486c6d1d3cbb18c829097c6d1d3b18687c6d1d3b48a8d86c6d1d3a08b8a8088868dcac5828e93d8818c879adea08b868088c38c9697c3978b8a90c38f8a8d88c38c8dc3b78b86c3ab8293939ac3a58c8c878a86c3948681908a9786c38b97979390c6d0a2c6d1a5c6d1a5978b868b8293939a858c8c878a86cd808ccd9688c6d1a59186808a938690c6d1a5938c968f8697ce918c978ace8296ce958a8dce918c968486ce918c829097ce918687ce948a8d86ce808b8a8088868dc6d1a5cd" title="Share by Email"><span></span></a></div>          </div>
+
+          <div class="hf-social-print__print">
+            <button onclick="window.print();" class="d-flex align-items-center">Print</button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</section>
+	<section class="hf-section hf-summary">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+
+					<div class="hf-summary__inner">
+
+						<p>Looking for a recipe to make for family and friends at the weekend? This roast chicken with red wine and potatoes from Rachel Khoo is wholesome and delicious.</p>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+
+                </div>
+
+
+	<section class="hf-section hf-from-the-book">
+
+		<div class="hf-from-the-book__overlay overlay-multiple">
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+
+					<div class="hf-from-the-book__inner">
+
+						<div class="hf-from-the-book__preheading">
+							<p>
+							From the book							</p>
+						</div>
+
+						<div class="hf-from-the-book__images-book-details">
+
+
+							<div class="hf-from-the-book__book-details">
+								<div class="hf-from-the-book__book-name">
+																			<h3>
+											<a href="https://thehappyfoodie.co.uk/books/my-little-french-kitchen/">
+												My Little French Kitchen											</a>
+										</h3>
+																	</div>
+
+																	<div class="hf-from-the-book__book-author">
+										<p>
+											Rachel Khoo										</p>
+									</div>
+															</div>
+
+
+								<div class="hf-from-the-book__images images-carousel">
+
+									<div class="owl-carousel from-the-book-recipe-page">
+
+
+											<div class="item">
+																									<a href="#" class="recipes-modal-button">
+														<img width="232" height="300" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/9780718177478_My_Little_French_Kitchen_Jacket-232x300.jpg" class="attachment-medium size-medium wp-post-image" alt="My Little French Kitchen" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/9780718177478_My_Little_French_Kitchen_Jacket-232x300.jpg 232w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/9780718177478_My_Little_French_Kitchen_Jacket.jpg 387w" sizes="(max-width: 232px) 100vw, 232px" />													</a>
+																								<p>
+													My Little French Kitchen												</p>
+											</div>
+
+																					<div class="item">
+																									<a href="#" class="recipes-modal-button">
+														<img width="225" height="300" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/little-french-kitchen-1-0852fb23-3e95-4ec6-91ec-c1129493e952_s600x0_q80_noupscale-225x300.jpg" class="attachment-medium size-medium" alt="A whirlwind tour of classic French cooking" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/little-french-kitchen-1-0852fb23-3e95-4ec6-91ec-c1129493e952_s600x0_q80_noupscale-225x300.jpg 225w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/little-french-kitchen-1-0852fb23-3e95-4ec6-91ec-c1129493e952_s600x0_q80_noupscale.jpg 600w" sizes="(max-width: 225px) 100vw, 225px" />													</a>
+																									<p>
+														A whirlwind tour of classic French cooking													</p>
+																							</div>
+																					<div class="item">
+																									<a href="#" class="recipes-modal-button">
+														<img width="225" height="300" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/little-french-kitchen-3-e62a1fbb-1f8d-4f4f-b802-d307901a8c38_s600x0_q80_noupscale-225x300.jpg" class="attachment-medium size-medium" alt="Simple recipes for comforting classics" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/little-french-kitchen-3-e62a1fbb-1f8d-4f4f-b802-d307901a8c38_s600x0_q80_noupscale-225x300.jpg 225w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/little-french-kitchen-3-e62a1fbb-1f8d-4f4f-b802-d307901a8c38_s600x0_q80_noupscale.jpg 600w" sizes="(max-width: 225px) 100vw, 225px" />													</a>
+																									<p>
+														Simple recipes for comforting classics													</p>
+																							</div>
+																					<div class="item">
+																									<a href="#" class="recipes-modal-button">
+														<img width="225" height="300" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/little-french-kitchen-3-07c6377a-a08d-46c3-9fac-f501ee26f0ed_s600x0_q80_noupscale-225x300.jpg" class="attachment-medium size-medium" alt="Desserts that will delight any sweet tooth" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/little-french-kitchen-3-07c6377a-a08d-46c3-9fac-f501ee26f0ed_s600x0_q80_noupscale-225x300.jpg 225w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/little-french-kitchen-3-07c6377a-a08d-46c3-9fac-f501ee26f0ed_s600x0_q80_noupscale.jpg 600w" sizes="(max-width: 225px) 100vw, 225px" />													</a>
+																									<p>
+														Desserts that will delight any sweet tooth													</p>
+																							</div>
+
+									</div>
+
+								</div>
+
+								<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+									jQuery(".hf-from-the-book__images .owl-carousel.from-the-book-recipe-page").owlCarousel({
+										loop:false,
+										margin:0,
+										items:2,
+										autoWidth:true,
+										dots:false,
+										responsive:{
+											768:{
+												items:4,
+												autoWidth:false,
+												center: false,
+											}
+										}
+									});
+								</script>
+
+
+						</div>
+
+
+	<div class="hf-book-buy-links dropdown ">
+
+		<a href="#" class="hf-button ">
+			Buy Book
+		</a>
+
+				<div class="hf-book-buy-links__dropdown">
+			<hr>
+							<a  onclick="myDLbuyButton(this)" class="dl-buy-link"
+				   dlbid=""					 dlbslg="my-little-french-kitchen"					 dlbisbn="9780718177478"					 dlbdiv="Michael Joseph"					 dlbgnr="cookery"					 dlbfmt="hardback"					 dlbret="amazon"					 dlbath="rachel-khoo"					 dltag="prh10143-21"					href="http://www.amazon.co.uk/My-Little-French-Kitchen-mountains/dp/0718177479/?tag=prh10143-21" target="_blank">
+					<div class="buy-links-dropdown__link">
+						amazon					</div>
+				</a>
+							<a  onclick="myDLbuyButton(this)" class="dl-buy-link"
+				   dlbid=""					 dlbslg="my-little-french-kitchen"					 dlbisbn="9780718177478"					 dlbdiv="Michael Joseph"					 dlbgnr="cookery"					 dlbfmt="hardback"					 dlbret="hive"					 dlbath="rachel-khoo"					 dltag=""					href="http://www.hive.co.uk/book/my-little-french-kitchen-over-100-recipes-from-the-mountains-market-squares-and-shores-of-france/16490938/" target="_blank">
+					<div class="buy-links-dropdown__link">
+						hive					</div>
+				</a>
+							<a  onclick="myDLbuyButton(this)" class="dl-buy-link"
+				   dlbid=""					 dlbslg="my-little-french-kitchen"					 dlbisbn="9780718177478"					 dlbdiv="Michael Joseph"					 dlbgnr="cookery"					 dlbfmt="hardback"					 dlbret="waterstones"					 dlbath="rachel-khoo"					 dltag=""					href="https://www.waterstones.com/book/the-little-paris-kitchen/rachel-khoo/9780718158118" target="_blank">
+					<div class="buy-links-dropdown__link">
+						waterstones					</div>
+				</a>
+					</div>
+
+	</div>
+
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+
+                <div class="hf-extra-indent-lg">
+
+                    	<section class="hf-section hf-introduction">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+
+					<div class="hf-introduction__inner introduction-recipe">
+
+						<h2>Introduction</h2>
+
+						<div class="hf-introduction__container closed">
+
+							<div class="hf-introduction__overlay"></div>
+
+							<div class="hf-introduction__container__inner">
+								<p>Poulet r&ocirc;ti au vin rouge (Roast Red Wine Chicken)</p>
+							</div>
+
+						</div>
+
+						<div class="hf-introduction__read-more">
+
+							<span class="see-more">Read more</span>
+							<span class="see-less">Read less</span>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="hf-section hf-tags">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+
+					<hr>
+
+					<div class="hf-tags__inner">
+
+						<h5>Tags</h5>
+
+							<div class="hf-tags__container">
+
+								<a class="hf-tags__single" href="https://thehappyfoodie.co.uk/recipes/main-ingredients/chicken/">Chicken</a><a class="hf-tags__single" href="https://thehappyfoodie.co.uk/recipes/cooking-methods/roast/">Roast</a><a class="hf-tags__single" href="https://thehappyfoodie.co.uk/recipes/occasions/dinner-party/">Dinner Party</a><a class="hf-tags__single" href="https://thehappyfoodie.co.uk/recipes/recipe-types/dinner/">Dinner</a><a class="hf-tags__single" href="https://thehappyfoodie.co.uk/recipes/recipe-types/main-course/">Main Course</a><a class="hf-tags__single" href="https://thehappyfoodie.co.uk/recipes/cuisines/french/">French</a>
+							</div>
+
+					</div>
+
+					<hr>
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+
+                </div>
+
+
+	<div class="recipe-anchor" id="recipe-ingredients"></div>
+
+	<section class="hf-section hf-ingredients">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+
+					<div class="hf-ingredients__inner margin-neg-15">
+
+						<h2>Ingredients</h2>
+
+						<div class="hf-ingredients__container">
+
+							<div class="hf-ingredients__single-group">
+								<table>
+																													<tr>
+												<td>
+													150ml												</td>
+												<td>
+													red wine												</td>
+											</tr>
+
+																														<tr>
+												<td>
+													100g												</td>
+												<td>
+													tomato paste												</td>
+											</tr>
+
+																														<tr>
+												<td>
+													3												</td>
+												<td>
+													sprigs of thyme, leaves picked												</td>
+											</tr>
+
+																														<tr>
+												<td>
+													3												</td>
+												<td>
+													sprigs of marjoram, leaves picked, or ½ teaspoon dried												</td>
+											</tr>
+
+																														<tr>
+												<td>
+													100ml												</td>
+												<td>
+													red wine vinegar												</td>
+											</tr>
+
+																														<tr>
+												<td>
+													1												</td>
+												<td>
+													whole chicken cut into 8 pieces (approx. 1.5kg)												</td>
+											</tr>
+
+																														<tr>
+												<td>
+																									</td>
+												<td>
+													Salt and ground black pepper												</td>
+											</tr>
+
+																														<tr>
+												<td>
+													500g												</td>
+												<td>
+													baby potatoes, washed												</td>
+											</tr>
+
+																														<tr>
+												<td>
+													3												</td>
+												<td>
+													onions, peeled and cut into quarters												</td>
+											</tr>
+
+																														<tr>
+												<td>
+													6												</td>
+												<td>
+													carrots, peeled and cut into quarters lengthways												</td>
+											</tr>
+
+
+								</table>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+<!-- normal -->
+	<div class="recipe-anchor" id="recipe-method"></div>
+
+	<section class="hf-section hf-method">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+
+					<div class="hf-method__inner margin-neg-15">
+
+						<h2>Method</h2>
+
+							<div class="hf-method__text">
+
+								<p>Mix together the red wine, tomato paste, herbs and red wine vinegar. Season the chicken pieces with plenty of salt and pepper then place in a bag with the marinade. Shake the bag to make sure each piece is well coated. Place in the fridge for at least 30 minutes.</p>
+<p>In the meantime, place the potatoes in a pan of cold water, put the lid on top and bring up to the boil. Boil for 1–2 minutes, then drain in a colander. Place the onions, carrots and potatoes in a large baking dish or tray (big enough to fit the chicken and the vegetables) and pour over 125ml of water. Preheat the oven to 200°C. Remove the chicken from the fridge and arrange the pieces, skin side up, in a layer on top of the vegetables in the dish. Pour the rest of the marinade over the chicken. Cover with a sheet of baking paper or foil and roast in the preheated oven for 30 minutes. Remove the baking paper or foil and baste the chicken with the cooking liquid. Roast, uncovered, for another 15 minutes or until the skin is crisp. Serve immediately.</p>
+<p>Les petits conseils – tips: Buying a whole chicken always works out more affordable. If you aren’t up for dissecting it yourself, ask your butcher to cut it into pieces for you. Otherwise if there’s no knife-wielding butcher about you can always cheat and go for chicken thighs. If you’re unsure whether the chicken is cooked through, pierce with a sharp knife and the juices from the chicken should come out clear.</p>
+<p>Faire en avance – get ahead: The veg and chicken can be prepared up to a day in advance, then simply pop it all in the baking tray and cook as indicated in the recipe.</p>
+<p>Marinating time: 30 minutes – overnight</p>
+
+							</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+<!-- deal goes here --><!-- booklink: Array --><!-- bookID: 1378 --><!-- dealLink:  --><!-- NULL
+1--><!-- dealid:  --><!-- dealid:  --><!-- empty -->
+
+
+
+
+
+
+
+            </div>
+
+            <div class="hf-col d-none d-xl-flex justify-content-xl-center">
+
+
+<div class="hf-recipe-sidebar d-flex justify-content-center">
+  <div class="hf-recipe-sidebar__inner">
+
+	<section class="hf-section hf-grid hf-grid-recipes ">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+
+											<div class="hf-cards-heading d-flex justify-content-between">
+							<h3>More Rachel Khoo recipes</h3>
+							<hr>
+															<p>
+									<a href="https://thehappyfoodie.co.uk/recipes/chefs/rachel-khoo">
+										View all
+									</a>
+								</p>
+													</div>
+
+					<div class="hf-grid__inner grid-3">
+
+						<!-- bid: 2270 -->
+
+<div class="d-md-flex flex-md-column hf-grid-card tf-recipe-col tf-recipe-main">
+
+	<div class="hf-grid-card__image hf-grid-card__image-ribbon-wrp">
+
+                    <div class="tf-ribbon"><span></span></div>
+
+		<a href="https://thehappyfoodie.co.uk/recipes/peas-potatoes-and-chicken-in-a-pot-artor-potatis-och-kyckling-i-en-gryta/">
+			<img width="900" height="526" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/chicken-peas-and-potatoes-in-a-pot-fdf3e9ae-ae0a-427f-bdbe-862f798354cf_s900x0_c3712x2168_l0x2212.jpg" class="attachment-large size-large wp-post-image" alt="Swedish One Pot Chicken and Peas | Rachel Khoo" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/chicken-peas-and-potatoes-in-a-pot-fdf3e9ae-ae0a-427f-bdbe-862f798354cf_s900x0_c3712x2168_l0x2212.jpg 900w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/chicken-peas-and-potatoes-in-a-pot-fdf3e9ae-ae0a-427f-bdbe-862f798354cf_s900x0_c3712x2168_l0x2212-300x175.jpg 300w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/chicken-peas-and-potatoes-in-a-pot-fdf3e9ae-ae0a-427f-bdbe-862f798354cf_s900x0_c3712x2168_l0x2212-768x449.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" />		</a>
+	</div>
+
+
+	<div class="hf-grid-card__text d-md-flex flex-md-column justify-content-md-between">
+		<h2>
+			<a href="https://thehappyfoodie.co.uk/recipes/peas-potatoes-and-chicken-in-a-pot-artor-potatis-och-kyckling-i-en-gryta/">
+				Peas, Potatoes and Chicken in a Pot: Ärtor, Potatis och Kyckling i en Gryta			</a>
+		</h2>
+
+					<div class="hf-grid-card__text__author d-flex align-items-center">
+									<div class="hf-grid-card__text__author__image">
+						<img width="150" height="150" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/rachel-khoo-headshot-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Rachel Khoo" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/rachel-khoo-headshot-150x150.jpg 150w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/rachel-khoo-headshot.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" />					</div>
+									<div class="hf-grid-card__text__author__text">
+						<p>
+							<span>
+								by <a href="https://thehappyfoodie.co.uk/chefs/rachel-khoo/">Rachel Khoo</a>							</span>
+							<!-- usingbid: 2270 -->								<span>
+									from <a href="https://thehappyfoodie.co.uk/books/the-little-swedish-kitchen/">The Little Swedish Kitchen</a>
+								</span>
+													</p>
+					</div>
+							</div>
+			</div>
+
+</div><!-- bid: 2270 -->
+
+<div class="d-md-flex flex-md-column hf-grid-card tf-recipe-col tf-recipe-main">
+
+	<div class="hf-grid-card__image hf-grid-card__image-ribbon-wrp">
+
+                    <div class="tf-ribbon"><span></span></div>
+
+		<a href="https://thehappyfoodie.co.uk/recipes/hot-smoked-salmon-salad-with-gravlax-dressing/">
+			<img width="900" height="525" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/gravlax-ab209891-42e2-422f-ba87-eb1a4794fa5e_s900x0_c3670x2142_l0x1323.jpg" class="attachment-large size-large wp-post-image" alt="Swedish Salmon Salad with Gravlax Dressing | Rachel Khoo" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/gravlax-ab209891-42e2-422f-ba87-eb1a4794fa5e_s900x0_c3670x2142_l0x1323.jpg 900w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/gravlax-ab209891-42e2-422f-ba87-eb1a4794fa5e_s900x0_c3670x2142_l0x1323-300x175.jpg 300w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/gravlax-ab209891-42e2-422f-ba87-eb1a4794fa5e_s900x0_c3670x2142_l0x1323-768x448.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" />		</a>
+	</div>
+
+
+	<div class="hf-grid-card__text d-md-flex flex-md-column justify-content-md-between">
+		<h2>
+			<a href="https://thehappyfoodie.co.uk/recipes/hot-smoked-salmon-salad-with-gravlax-dressing/">
+				Hot Smoked Salmon Salad with Gravlax Dressing: Sallad med Varmrökt Lax och Gravlaxsås			</a>
+		</h2>
+
+					<div class="hf-grid-card__text__author d-flex align-items-center">
+									<div class="hf-grid-card__text__author__image">
+						<img width="150" height="150" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/rachel-khoo-headshot-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Rachel Khoo" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/rachel-khoo-headshot-150x150.jpg 150w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/rachel-khoo-headshot.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" />					</div>
+									<div class="hf-grid-card__text__author__text">
+						<p>
+							<span>
+								by <a href="https://thehappyfoodie.co.uk/chefs/rachel-khoo/">Rachel Khoo</a>							</span>
+							<!-- usingbid: 2270 -->								<span>
+									from <a href="https://thehappyfoodie.co.uk/books/the-little-swedish-kitchen/">The Little Swedish Kitchen</a>
+								</span>
+													</p>
+					</div>
+							</div>
+			</div>
+
+</div><!-- bid: 2270 -->
+
+<div class="d-md-flex flex-md-column hf-grid-card tf-recipe-col tf-recipe-main">
+
+	<div class="hf-grid-card__image hf-grid-card__image-ribbon-wrp">
+
+                    <div class="tf-ribbon"><span></span></div>
+
+		<a href="https://thehappyfoodie.co.uk/recipes/midsummer-meringue-crowns-marangkrans/">
+			<img width="900" height="526" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/meringue-crowns-f573e101-8395-4be1-8529-751205dc463e_s900x0_c3599x2102_l0x1389.jpg" class="attachment-large size-large wp-post-image" alt="Midsummer Meringue Crowns | Swedish Summer Dessert" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/meringue-crowns-f573e101-8395-4be1-8529-751205dc463e_s900x0_c3599x2102_l0x1389.jpg 900w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/meringue-crowns-f573e101-8395-4be1-8529-751205dc463e_s900x0_c3599x2102_l0x1389-300x175.jpg 300w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/meringue-crowns-f573e101-8395-4be1-8529-751205dc463e_s900x0_c3599x2102_l0x1389-768x449.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" />		</a>
+	</div>
+
+
+	<div class="hf-grid-card__text d-md-flex flex-md-column justify-content-md-between">
+		<h2>
+			<a href="https://thehappyfoodie.co.uk/recipes/midsummer-meringue-crowns-marangkrans/">
+				Midsummer Meringue Crowns: Marängkrans			</a>
+		</h2>
+
+					<div class="hf-grid-card__text__author d-flex align-items-center">
+									<div class="hf-grid-card__text__author__image">
+						<img width="150" height="150" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/rachel-khoo-headshot-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Rachel Khoo" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/rachel-khoo-headshot-150x150.jpg 150w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/rachel-khoo-headshot.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" />					</div>
+									<div class="hf-grid-card__text__author__text">
+						<p>
+							<span>
+								by <a href="https://thehappyfoodie.co.uk/chefs/rachel-khoo/">Rachel Khoo</a>							</span>
+							<!-- usingbid: 2270 -->								<span>
+									from <a href="https://thehappyfoodie.co.uk/books/the-little-swedish-kitchen/">The Little Swedish Kitchen</a>
+								</span>
+													</p>
+					</div>
+							</div>
+			</div>
+
+</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+  </div>
+</div>
+
+
+            </div>
+
+
+    <section class="hf-section hf-recipe-floating-bar d-md-none d-lg-none d-xl-none">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+                    <div class="hf-recipe-floating-bar__inner margin-neg-15 d-flex">
+
+                                                    <a class="hf-recipe-floating-bar__button hf-recipe-floating-bar__button-ingredients d-flex justify-content-center align-items-center"
+                               href="#recipe-ingredients"
+                               onclick="myDLrecipeButton(this)"
+                                linkname="ingredients"                                navelement="recipe:ingredients"                                recipename="Poulet rôti au vin rouge (Roast Red Wine Chicken)">
+                                <h5>Ingredients</h5>
+                            </a>
+                                                    <a class="hf-recipe-floating-bar__button hf-recipe-floating-bar__button-method d-flex justify-content-center align-items-center"
+                               href="#recipe-method"
+                               onclick="myDLrecipeButton(this)"
+                                linkname="method"                                navelement="recipe:method"                                recipename="Poulet rôti au vin rouge (Roast Red Wine Chicken)">
+                                <h5>Method</h5>
+                            </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+        </div>
+
+
+	<section class="hf-section hf-grid hf-grid-recipes bg-white">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+
+											<div class="hf-cards-heading d-flex justify-content-between">
+							<h3>More Rachel Khoo recipes</h3>
+							<hr>
+															<p>
+									<a href="https://thehappyfoodie.co.uk/recipes/chefs/rachel-khoo">
+										View all
+									</a>
+								</p>
+													</div>
+
+					<div class="hf-grid__inner grid-2">
+
+						<!-- bid: 2270 -->
+
+<div class="d-md-flex flex-md-column hf-grid-card tf-recipe-col tf-recipe-main">
+
+	<div class="hf-grid-card__image hf-grid-card__image-ribbon-wrp">
+
+                    <div class="tf-ribbon"><span></span></div>
+
+		<a href="https://thehappyfoodie.co.uk/recipes/peas-potatoes-and-chicken-in-a-pot-artor-potatis-och-kyckling-i-en-gryta/">
+			<img width="900" height="526" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/chicken-peas-and-potatoes-in-a-pot-fdf3e9ae-ae0a-427f-bdbe-862f798354cf_s900x0_c3712x2168_l0x2212.jpg" class="attachment-large size-large wp-post-image" alt="Swedish One Pot Chicken and Peas | Rachel Khoo" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/chicken-peas-and-potatoes-in-a-pot-fdf3e9ae-ae0a-427f-bdbe-862f798354cf_s900x0_c3712x2168_l0x2212.jpg 900w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/chicken-peas-and-potatoes-in-a-pot-fdf3e9ae-ae0a-427f-bdbe-862f798354cf_s900x0_c3712x2168_l0x2212-300x175.jpg 300w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/chicken-peas-and-potatoes-in-a-pot-fdf3e9ae-ae0a-427f-bdbe-862f798354cf_s900x0_c3712x2168_l0x2212-768x449.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" />		</a>
+	</div>
+
+
+	<div class="hf-grid-card__text d-md-flex flex-md-column justify-content-md-between">
+		<h2>
+			<a href="https://thehappyfoodie.co.uk/recipes/peas-potatoes-and-chicken-in-a-pot-artor-potatis-och-kyckling-i-en-gryta/">
+				Peas, Potatoes and Chicken in a Pot: Ärtor, Potatis och Kyckling i en Gryta			</a>
+		</h2>
+
+					<div class="hf-grid-card__text__author d-flex align-items-center">
+									<div class="hf-grid-card__text__author__image">
+						<img width="150" height="150" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/rachel-khoo-headshot-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Rachel Khoo" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/rachel-khoo-headshot-150x150.jpg 150w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/rachel-khoo-headshot.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" />					</div>
+									<div class="hf-grid-card__text__author__text">
+						<p>
+							<span>
+								by <a href="https://thehappyfoodie.co.uk/chefs/rachel-khoo/">Rachel Khoo</a>							</span>
+							<!-- usingbid: 2270 -->								<span>
+									from <a href="https://thehappyfoodie.co.uk/books/the-little-swedish-kitchen/">The Little Swedish Kitchen</a>
+								</span>
+													</p>
+					</div>
+							</div>
+			</div>
+
+</div><!-- bid: 2270 -->
+
+<div class="d-md-flex flex-md-column hf-grid-card tf-recipe-col tf-recipe-main">
+
+	<div class="hf-grid-card__image hf-grid-card__image-ribbon-wrp">
+
+                    <div class="tf-ribbon"><span></span></div>
+
+		<a href="https://thehappyfoodie.co.uk/recipes/hot-smoked-salmon-salad-with-gravlax-dressing/">
+			<img width="900" height="525" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/gravlax-ab209891-42e2-422f-ba87-eb1a4794fa5e_s900x0_c3670x2142_l0x1323.jpg" class="attachment-large size-large wp-post-image" alt="Swedish Salmon Salad with Gravlax Dressing | Rachel Khoo" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/gravlax-ab209891-42e2-422f-ba87-eb1a4794fa5e_s900x0_c3670x2142_l0x1323.jpg 900w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/gravlax-ab209891-42e2-422f-ba87-eb1a4794fa5e_s900x0_c3670x2142_l0x1323-300x175.jpg 300w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/gravlax-ab209891-42e2-422f-ba87-eb1a4794fa5e_s900x0_c3670x2142_l0x1323-768x448.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" />		</a>
+	</div>
+
+
+	<div class="hf-grid-card__text d-md-flex flex-md-column justify-content-md-between">
+		<h2>
+			<a href="https://thehappyfoodie.co.uk/recipes/hot-smoked-salmon-salad-with-gravlax-dressing/">
+				Hot Smoked Salmon Salad with Gravlax Dressing: Sallad med Varmrökt Lax och Gravlaxsås			</a>
+		</h2>
+
+					<div class="hf-grid-card__text__author d-flex align-items-center">
+									<div class="hf-grid-card__text__author__image">
+						<img width="150" height="150" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/rachel-khoo-headshot-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Rachel Khoo" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/rachel-khoo-headshot-150x150.jpg 150w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/rachel-khoo-headshot.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" />					</div>
+									<div class="hf-grid-card__text__author__text">
+						<p>
+							<span>
+								by <a href="https://thehappyfoodie.co.uk/chefs/rachel-khoo/">Rachel Khoo</a>							</span>
+							<!-- usingbid: 2270 -->								<span>
+									from <a href="https://thehappyfoodie.co.uk/books/the-little-swedish-kitchen/">The Little Swedish Kitchen</a>
+								</span>
+													</p>
+					</div>
+							</div>
+			</div>
+
+</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+<!-- random number =: 1 -->
+	<section class="hf-section hf-grid hf-grid-recipes ">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+
+											<div class="hf-cards-heading d-flex justify-content-between">
+							<h3>More Chicken Recipes</h3>
+							<hr>
+															<p>
+									<a href="https://thehappyfoodie.co.uk/recipes/main-ingredients/chicken/">
+										View all
+									</a>
+								</p>
+													</div>
+
+					<div class="hf-grid__inner grid-2">
+
+						<!--fwp-loop-->
+<!-- bid: 26237 -->
+
+<div class="d-md-flex flex-md-column hf-grid-card tf-recipe-col tf-recipe-main">
+
+	<div class="hf-grid-card__image hf-grid-card__image-ribbon-wrp">
+
+                    <div class="tf-ribbon"><span></span></div>
+
+		<a href="https://thehappyfoodie.co.uk/recipes/mary-berrys-chicken-tartiflette/">
+			<img width="726" height="1024" src="https://thehappyfoodie.co.uk/wp-content/uploads/2023/10/Mary-Berry-chicken-tartiflette-recipe-726x1024.jpg" class="attachment-large size-large wp-post-image" alt="Mary Berry Chicken Tartiflette Recipe BBC2 Mary Makes It Easy" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2023/10/Mary-Berry-chicken-tartiflette-recipe-726x1024.jpg 726w, https://thehappyfoodie.co.uk/wp-content/uploads/2023/10/Mary-Berry-chicken-tartiflette-recipe-213x300.jpg 213w, https://thehappyfoodie.co.uk/wp-content/uploads/2023/10/Mary-Berry-chicken-tartiflette-recipe-768x1083.jpg 768w" sizes="(max-width: 726px) 100vw, 726px" />		</a>
+	</div>
+
+
+	<div class="hf-grid-card__text d-md-flex flex-md-column justify-content-md-between">
+		<h2>
+			<a href="https://thehappyfoodie.co.uk/recipes/mary-berrys-chicken-tartiflette/">
+				Mary Berry&#8217;s Chicken Tartiflette			</a>
+		</h2>
+
+					<div class="hf-grid-card__text__author d-flex align-items-center">
+									<div class="hf-grid-card__text__author__image">
+						<img width="150" height="150" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/mary-berry-classic-small-4-820dfd4b-5fcd-4db0-8bfb-7c2f3f19c542_s600x0_c1200x701_l0x468-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Mary Berry" decoding="async" />					</div>
+									<div class="hf-grid-card__text__author__text">
+						<p>
+							<span>
+								by <a href="https://thehappyfoodie.co.uk/chefs/mary-berry/">Mary Berry</a>							</span>
+							<!-- usingbid: 26237 -->								<span>
+									from <a href="https://thehappyfoodie.co.uk/books/mary-makes-it-easy-cookbook/">Mary Makes it Easy</a>
+								</span>
+													</p>
+					</div>
+							</div>
+			</div>
+
+</div><!-- bid: 26237 -->
+
+<div class="d-md-flex flex-md-column hf-grid-card tf-recipe-col tf-recipe-main">
+
+	<div class="hf-grid-card__image hf-grid-card__image-ribbon-wrp">
+
+                    <div class="tf-ribbon"><span></span></div>
+
+		<a href="https://thehappyfoodie.co.uk/recipes/mary-berrys-easy-peasy-one-pot-chicken/">
+			<img width="683" height="1024" src="https://thehappyfoodie.co.uk/wp-content/uploads/2023/10/Mary-Berry-One-Pot-Chicken-Recipe-683x1024.jpg" class="attachment-large size-large wp-post-image" alt="" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2023/10/Mary-Berry-One-Pot-Chicken-Recipe-683x1024.jpg 683w, https://thehappyfoodie.co.uk/wp-content/uploads/2023/10/Mary-Berry-One-Pot-Chicken-Recipe-200x300.jpg 200w, https://thehappyfoodie.co.uk/wp-content/uploads/2023/10/Mary-Berry-One-Pot-Chicken-Recipe-768x1152.jpg 768w" sizes="(max-width: 683px) 100vw, 683px" />		</a>
+	</div>
+
+
+	<div class="hf-grid-card__text d-md-flex flex-md-column justify-content-md-between">
+		<h2>
+			<a href="https://thehappyfoodie.co.uk/recipes/mary-berrys-easy-peasy-one-pot-chicken/">
+				Mary Berry&#8217;s Easy Peasy One-Pot Chicken			</a>
+		</h2>
+
+					<div class="hf-grid-card__text__author d-flex align-items-center">
+									<div class="hf-grid-card__text__author__image">
+						<img width="150" height="150" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/mary-berry-classic-small-4-820dfd4b-5fcd-4db0-8bfb-7c2f3f19c542_s600x0_c1200x701_l0x468-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Mary Berry" decoding="async" />					</div>
+									<div class="hf-grid-card__text__author__text">
+						<p>
+							<span>
+								by <a href="https://thehappyfoodie.co.uk/chefs/mary-berry/">Mary Berry</a>							</span>
+							<!-- usingbid: 26237 -->								<span>
+									from <a href="https://thehappyfoodie.co.uk/books/mary-makes-it-easy-cookbook/">Mary Makes it Easy</a>
+								</span>
+													</p>
+					</div>
+							</div>
+			</div>
+
+</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+<!-- random number =: 5 -->
+	<section class="hf-section hf-grid hf-grid-recipes ">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+
+											<div class="hf-cards-heading d-flex justify-content-between">
+							<h3>More Roast Recipes</h3>
+							<hr>
+															<p>
+									<a href="https://thehappyfoodie.co.uk/recipes/cooking-methods/roast/">
+										View all
+									</a>
+								</p>
+													</div>
+
+					<div class="hf-grid__inner grid-2">
+
+						<!-- bid: 2639 -->
+
+<div class="d-md-flex flex-md-column hf-grid-card tf-recipe-col tf-recipe-main">
+
+	<div class="hf-grid-card__image hf-grid-card__image-ribbon-wrp">
+
+                    <div class="tf-ribbon"><span></span></div>
+
+		<a href="https://thehappyfoodie.co.uk/recipes/the-ottolenghi-test-kitchen-berbere-spiced-chicken-carrots-and-chickpeas/">
+			<img width="1024" height="691" src="https://thehappyfoodie.co.uk/wp-content/uploads/2023/06/crop116_BerbereChicken_4423-1024x691.jpg" class="attachment-large size-large wp-post-image" alt="" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2023/06/crop116_BerbereChicken_4423-1024x691.jpg 1024w, https://thehappyfoodie.co.uk/wp-content/uploads/2023/06/crop116_BerbereChicken_4423-300x202.jpg 300w, https://thehappyfoodie.co.uk/wp-content/uploads/2023/06/crop116_BerbereChicken_4423-768x518.jpg 768w, https://thehappyfoodie.co.uk/wp-content/uploads/2023/06/crop116_BerbereChicken_4423-1536x1036.jpg 1536w, https://thehappyfoodie.co.uk/wp-content/uploads/2023/06/crop116_BerbereChicken_4423-2048x1381.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" />		</a>
+	</div>
+
+
+	<div class="hf-grid-card__text d-md-flex flex-md-column justify-content-md-between">
+		<h2>
+			<a href="https://thehappyfoodie.co.uk/recipes/the-ottolenghi-test-kitchen-berbere-spiced-chicken-carrots-and-chickpeas/">
+				The Ottolenghi Test Kitchen Berbere Spiced Chicken, Carrots and Chickpeas			</a>
+		</h2>
+
+					<div class="hf-grid-card__text__author d-flex align-items-center">
+									<div class="hf-grid-card__text__author__text">
+						<p>
+							<span>
+								by The Ottolenghi Test Kitchen Team, <a href="https://thehappyfoodie.co.uk/chefs/yotam-ottolenghi/">Yotam Ottolenghi</a>, Noor Murad							</span>
+							<!-- usingbid: 2639 -->								<span>
+									from <a href="https://thehappyfoodie.co.uk/books/ottolenghi-test-kitchen-cookbook-shelf-love/">OTK: Shelf Love</a>
+								</span>
+													</p>
+					</div>
+							</div>
+			</div>
+
+</div><!-- bid: 2275 -->
+
+<div class="d-md-flex flex-md-column hf-grid-card tf-recipe-col tf-recipe-main">
+
+	<div class="hf-grid-card__image hf-grid-card__image-ribbon-wrp">
+
+                    <div class="tf-ribbon"><span></span></div>
+
+		<a href="https://thehappyfoodie.co.uk/recipes/ottolenghis-cauliflower-pomegranate-and-pistachio-salad/">
+			<img width="688" height="1024" src="https://thehappyfoodie.co.uk/wp-content/uploads/2023/06/090_cauliflower_pomegranate_pistachio_salad-688x1024.jpg" class="attachment-large size-large wp-post-image" alt="" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2023/06/090_cauliflower_pomegranate_pistachio_salad-688x1024.jpg 688w, https://thehappyfoodie.co.uk/wp-content/uploads/2023/06/090_cauliflower_pomegranate_pistachio_salad-202x300.jpg 202w, https://thehappyfoodie.co.uk/wp-content/uploads/2023/06/090_cauliflower_pomegranate_pistachio_salad-768x1143.jpg 768w, https://thehappyfoodie.co.uk/wp-content/uploads/2023/06/090_cauliflower_pomegranate_pistachio_salad-1032x1536.jpg 1032w, https://thehappyfoodie.co.uk/wp-content/uploads/2023/06/090_cauliflower_pomegranate_pistachio_salad-1376x2048.jpg 1376w, https://thehappyfoodie.co.uk/wp-content/uploads/2023/06/090_cauliflower_pomegranate_pistachio_salad-scaled.jpg 1720w" sizes="(max-width: 688px) 100vw, 688px" />		</a>
+	</div>
+
+
+	<div class="hf-grid-card__text d-md-flex flex-md-column justify-content-md-between">
+		<h2>
+			<a href="https://thehappyfoodie.co.uk/recipes/ottolenghis-cauliflower-pomegranate-and-pistachio-salad/">
+				Ottolenghi&#8217;s Cauliflower, Pomegranate and Pistachio Salad			</a>
+		</h2>
+
+					<div class="hf-grid-card__text__author d-flex align-items-center">
+									<div class="hf-grid-card__text__author__image">
+						<img width="150" height="150" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/yotam-ottolenghi-headshot-2-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Yotam Ottolenghi" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/yotam-ottolenghi-headshot-2-150x150.jpg 150w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/yotam-ottolenghi-headshot-2-300x300.jpg 300w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/yotam-ottolenghi-headshot-2-768x769.jpg 768w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/yotam-ottolenghi-headshot-2.jpg 1000w" sizes="(max-width: 150px) 100vw, 150px" />					</div>
+									<div class="hf-grid-card__text__author__text">
+						<p>
+							<span>
+								by <a href="https://thehappyfoodie.co.uk/chefs/yotam-ottolenghi/">Yotam Ottolenghi</a>							</span>
+							<!-- usingbid: 2275 -->								<span>
+									from <a href="https://thehappyfoodie.co.uk/books/simple-ottolenghi/">Simple</a>
+								</span>
+													</p>
+					</div>
+							</div>
+			</div>
+
+</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+
+<section class="hf-section hf-newsletter">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <div class="hf-newsletter__inner">
+
+          <div class="hf-newsletter__image">
+            <img src="https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/icons/topical/icon-newsletter-main.svg" alt="newsletter" />
+          </div>
+
+          <div class="hf-newsletter__text">
+            <h3>Subscribe to The Happy Foodie email newsletter</h3>
+            <p>Get our latest recipes, features, book news and ebook deals straight to your inbox every week</p>
+          </div>
+
+          <div class="hf-newsletter__button">
+            <a href="#" class="hf-button modal-button newsletter-modal-button">Sign me up</a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</section>
+    </div>
+
+
+		<div class="hf-modal hf-recipes-modal align-items-md-center" id="recipes-modal">
+
+			<div class="hf-modal__inner">
+				<div class="hf-modal__title d-flex justify-content-between">
+					<h2>
+					From the book: My Little French Kitchen					</h2>
+					<div class="hf-modal__icon-close hf-recipes-modal__icon-close">
+						<img src='https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/icons/individual/icon-close.svg' alt='Close menu' class='icon-close' />
+					</div>
+				</div>
+
+				<div class="hf-modal__content">
+
+					<div class="owl-carousel owl-theme">
+
+													<div class="item">
+								<img width="387" height="500" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/9780718177478_My_Little_French_Kitchen_Jacket.jpg" class="attachment-large size-large wp-post-image" alt="My Little French Kitchen" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/9780718177478_My_Little_French_Kitchen_Jacket.jpg 387w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/9780718177478_My_Little_French_Kitchen_Jacket-232x300.jpg 232w" sizes="(max-width: 387px) 100vw, 387px" />								<p>
+									My Little French Kitchen								</p>
+							</div>
+													<div class="item">
+								<img width="600" height="800" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/little-french-kitchen-1-0852fb23-3e95-4ec6-91ec-c1129493e952_s600x0_q80_noupscale.jpg" class="attachment-large size-large" alt="A whirlwind tour of classic French cooking" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/little-french-kitchen-1-0852fb23-3e95-4ec6-91ec-c1129493e952_s600x0_q80_noupscale.jpg 600w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/little-french-kitchen-1-0852fb23-3e95-4ec6-91ec-c1129493e952_s600x0_q80_noupscale-225x300.jpg 225w" sizes="(max-width: 600px) 100vw, 600px" />									<p>
+										A whirlwind tour of classic French cooking									</p>
+															</div>
+													<div class="item">
+								<img width="600" height="800" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/little-french-kitchen-3-e62a1fbb-1f8d-4f4f-b802-d307901a8c38_s600x0_q80_noupscale.jpg" class="attachment-large size-large" alt="Simple recipes for comforting classics" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/little-french-kitchen-3-e62a1fbb-1f8d-4f4f-b802-d307901a8c38_s600x0_q80_noupscale.jpg 600w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/little-french-kitchen-3-e62a1fbb-1f8d-4f4f-b802-d307901a8c38_s600x0_q80_noupscale-225x300.jpg 225w" sizes="(max-width: 600px) 100vw, 600px" />									<p>
+										Simple recipes for comforting classics									</p>
+															</div>
+													<div class="item">
+								<img width="600" height="800" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/little-french-kitchen-3-07c6377a-a08d-46c3-9fac-f501ee26f0ed_s600x0_q80_noupscale.jpg" class="attachment-large size-large" alt="Desserts that will delight any sweet tooth" decoding="async" srcset="https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/little-french-kitchen-3-07c6377a-a08d-46c3-9fac-f501ee26f0ed_s600x0_q80_noupscale.jpg 600w, https://thehappyfoodie.co.uk/wp-content/uploads/2021/05/little-french-kitchen-3-07c6377a-a08d-46c3-9fac-f501ee26f0ed_s600x0_q80_noupscale-225x300.jpg 225w" sizes="(max-width: 600px) 100vw, 600px" />									<p>
+										Desserts that will delight any sweet tooth									</p>
+															</div>
+
+					</div>
+
+					<script>
+						jQuery(".hf-recipes-modal .owl-carousel").owlCarousel({
+							loop:true,
+							nav:true,
+							navText : ['<img src="https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/icons/arrows/chevron-left-desktop.svg" alt="Left arrow" />',
+												'<img src="https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/icons/arrows/chevron-right-desktop.svg" alt="Right arrow" />'],
+							margin:0,
+							items:1,
+							dots:false,
+						});
+					</script>
+
+
+	<div class="hf-book-buy-links dropdown ">
+
+		<a href="#" class="hf-button ">
+			Buy Book
+		</a>
+
+				<div class="hf-book-buy-links__dropdown">
+			<hr>
+							<a  onclick="myDLbuyButton(this)" class="dl-buy-link"
+				   dlbid=""					 dlbslg="my-little-french-kitchen"					 dlbisbn="9780718177478"					 dlbdiv="Michael Joseph"					 dlbgnr="cookery"					 dlbfmt="hardback"					 dlbret="amazon"					 dlbath="dealAuthors"					 dltag="prh10143-21"					href="http://www.amazon.co.uk/My-Little-French-Kitchen-mountains/dp/0718177479/?tag=prh10143-21" target="_blank">
+					<div class="buy-links-dropdown__link">
+						amazon					</div>
+				</a>
+							<a  onclick="myDLbuyButton(this)" class="dl-buy-link"
+				   dlbid=""					 dlbslg="my-little-french-kitchen"					 dlbisbn="9780718177478"					 dlbdiv="Michael Joseph"					 dlbgnr="cookery"					 dlbfmt="hardback"					 dlbret="hive"					 dlbath="dealAuthors"					 dltag=""					href="http://www.hive.co.uk/book/my-little-french-kitchen-over-100-recipes-from-the-mountains-market-squares-and-shores-of-france/16490938/" target="_blank">
+					<div class="buy-links-dropdown__link">
+						hive					</div>
+				</a>
+							<a  onclick="myDLbuyButton(this)" class="dl-buy-link"
+				   dlbid=""					 dlbslg="my-little-french-kitchen"					 dlbisbn="9780718177478"					 dlbdiv="Michael Joseph"					 dlbgnr="cookery"					 dlbfmt="hardback"					 dlbret="waterstones"					 dlbath="dealAuthors"					 dltag=""					href="https://www.waterstones.com/book/the-little-paris-kitchen/rachel-khoo/9780718158118" target="_blank">
+					<div class="buy-links-dropdown__link">
+						waterstones					</div>
+				</a>
+					</div>
+
+	</div>
+
+
+				</div>
+			</div>
+
+		</div>
+
+
+	<footer>
+
+		<div class="wrapper__footer">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-12">
+												<div class="footer__logo">
+							<a href="https://thehappyfoodie.co.uk">
+								<img width="146" height="74" src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/04/THF-1.svg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />							</a>
+						</div>
+												<div class="footer__description">
+							<p>The Happy Foodie, from Penguin, brings our community of world-leading cookery writers into your kitchen</p>
+						</div>
+												<div class="footer__social">
+
+			<a href="https://www.facebook.com/thehappyfoodie/" target="_blank">
+				<img src="https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/icons/individual/icon-facebook.svg" />
+			</a>
+
+
+			<a href="https://twitter.com/TheHappyFoodie/" target="_blank">
+				<img src="https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/icons/individual/icon-twitter.svg" />
+			</a>
+
+
+			<a href="https://www.instagram.com/thehappyfoodie/" target="_blank">
+				<img src="https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/icons/individual/icon-instagram.svg" />
+			</a>
+
+
+			<a href="https://www.youtube.com/c/thehappyfoodie/" target="_blank">
+				<img src="https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/icons/individual/icon-you_tube.svg" />
+			</a>
+
+								</div>
+												<div class="footer__menu">
+							<div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement"><li id="menu-item-12723" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12723"><a href="https://thehappyfoodie.co.uk/about/">About</a></li>
+<li id="menu-item-24" class="show-cookie-bar menu-item menu-item-type-custom menu-item-object-custom menu-item-24"><a href="#">Cookie Policy</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a target="_blank" rel="noopener" href="https://www.penguin.co.uk/company/about-us/notices/privacy-policy.html">Privacy Policy</a></li>
+<li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26"><a target="_blank" rel="noopener" href="https://www.penguin.co.uk/company/about-us/notices/cookies-policy.html">Terms of Service</a></li>
+</ul></div>						</div>
+
+					</div>
+				</div>
+				<div class="row">
+										<div class="col-12 d-xl-none">
+						<div class="footer__penguin-text-only">
+							<p><strong>Penguin Books Limited</strong></p>
+							<p>A Penguin Random House Company</p>
+						</div>
+					</div>
+
+										<div class="col-12">
+						<div class="footer__penguin-text-img">
+							<div class="row row d-md-flex align-items-md-center">
+
+								<div class="col-10 col-xl-8">
+									<div class="footer__penguin-text-img__text">
+										<p>&copy;1995 - 2023 Penguin Books Ltd. Registered number: 861590 England.</p>
+										<p>Registered office: 20 Vauxhall Bridge Road, London, SW1V 2SA UK.</p>
+									</div>
+								</div>
+
+								<div class="col-2 col-xl-4">
+									<div class="footer__penguin-text-img__img d-xl-flex align-items-xl-center justify-content-xl-end">
+										<div class="footer__penguin-text-img__img__extra-text d-none d-xl-block">
+											<p>Penguin Books Limited</p>
+											<p>A <a href="https://www.penguin.co.uk/company/about-us.html" target="_blank">Penguin Random House</a> Company</p>
+										</div>
+										<a href="https://www.penguin.co.uk/" target="_blank">
+											<img src="https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/img/logo-penguin.svg" alt="penguin logo" />
+										</a>
+									</div>
+								</div>
+
+							</div>
+							<div class="footer__small-credit" style="text-align:right">
+										&nbsp;
+										<!--- site by Thinking Fox --->
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+	</footer>
+
+
+
+<div class="hf-modal hf-newsletter-modal align-items-md-center" id="modal">
+
+  <div class="hf-modal__inner">
+    <div class="hf-modal__title d-flex justify-content-between">
+              <h2>Sign up to our email newsletter</h2>
+
+      <div class="hf-modal__icon-close hf-newsletter-modal__icon-close">
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </div>
+    </div>
+
+    <div class="hf-modal__content">
+              <div class="hf-modal__content__text">
+          <p>Get our latest recipes, features, book news and ebook deals straight to your inbox every Friday.</p>
+        </div>
+              <div class="form__wrapper">
+          <script type="text/javascript"></script>
+                <div class='gf_browser_gecko gform_wrapper gravity-theme gform-theme--no-framework' data-form-theme='gravity-theme' data-form-index='0' id='gform_wrapper_1' ><div id='gf_1' class='gform_anchor' tabindex='-1'></div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_1' id='gform_1'  action='/recipes/poulet-roti-au-vin-rouge-roast-red-wine-chicken/#gf_1' data-formid='1' >
+                        <div class='gform-body gform_body'><div id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below'><div id="field_1_1"  class="gfield gfield--type-email field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_1"><label class='gfield_label gform-field-label' for='input_1_1' >Your Email</label><div class='ginput_container ginput_container_email'>
+                            <input name='input_1' id='input_1_1' type='text' value='' class='large'     aria-invalid="false"  />
+                        </div></div><div id="field_1_2"  class="gfield gfield--type-html gfield--width-full gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_2">By clicking Submit, I consent to you using my details to send me The Happy Foodie newsletters, and confirm I have read and understood Penguin Random House's <a href="https://www.penguinrandomhouse.co.uk/PrivacyPolicy/" target="_blank">Privacy Policy</a>.</div><div id="field_1_4"  class="gfield gfield--type-hidden gfield--width-full gform_hidden field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_4"><div class='ginput_container ginput_container_text'><input name='input_4' id='input_1_4' type='hidden' class='gform_hidden'  aria-invalid="false" value='banner' /></div></div><div id="field_1_3"  class="gfield gfield--type-captcha gfield--width-full field_sublabel_below gfield--no-description field_description_below hidden_label gfield_visibility_visible"  data-js-reload="field_1_3"><label class='gfield_label gform-field-label' for='input_1_3' >CAPTCHA</label><div id='input_1_3' class='ginput_container ginput_recaptcha' data-sitekey='6LeamRIcAAAAAPpyItHMRT6vuer1bongkkZoVKfo'  data-theme='light' data-tabindex='-1' data-size='invisible' data-badge='bottomright'></div></div></div></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button' value='Sign me up'  onclick='if(window["gf_submitting_1"]){return false;}  window["gf_submitting_1"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_1"]){return false;} window["gf_submitting_1"]=true;  jQuery("#gform_1").trigger("submit",[true]); }' /> <input type='hidden' name='gform_ajax' value='form_id=1&amp;title=&amp;description=&amp;tabindex=0' />
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsImE1NTIzZTdkOTdjZGY3MGRlNjJiY2U2NDg5NWUzNzQxIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+
+        </div>
+                        </form>
+                        </div>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_1' id='gform_ajax_frame_1' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
+		                <script type="text/javascript">
+gform.initializeOnLoaded( function() {gformInitSpinner( 1, 'https://thehappyfoodie.co.uk/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_1').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'https://thehappyfoodie.co.uk/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_1').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}, 50);}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [1, current_page]);gform.utils.trigger({ event: 'gform/postRender', native: false, data: { formId: 1, currentPage: current_page } });} );} );
+</script>
+        </div>
+
+    </div>
+  </div>
+
+</div>
+<!-- GTM Container placement set to footer -->
+<!-- Google Tag Manager (noscript) -->
+				<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPVMQJ3" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><div class="wppopups-whole" style="display: none"><div class="spu-box spu-animation-fade spu-position-bottom-right" id="spu-11780" data-id="11780" data-parent="0" data-settings="{&quot;position&quot;:{&quot;position&quot;:&quot;bottom-right&quot;},&quot;animation&quot;:{&quot;animation&quot;:&quot;fade&quot;},&quot;colors&quot;:{&quot;show_overlay&quot;:&quot;no&quot;,&quot;overlay_color&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;overlay_blur&quot;:&quot;2&quot;,&quot;bg_color&quot;:&quot;rgb(227, 226, 219)&quot;,&quot;bg_img&quot;:&quot;&quot;,&quot;bg_img_repeat&quot;:&quot;no-repeat&quot;,&quot;bg_img_size&quot;:&quot;auto&quot;},&quot;close&quot;:{&quot;close_color&quot;:&quot;rgb(0, 0, 0)&quot;,&quot;close_hover_color&quot;:&quot;#000&quot;,&quot;close_shadow_color&quot;:&quot;#000&quot;,&quot;close_size&quot;:&quot;30&quot;,&quot;close_position&quot;:&quot;top_right&quot;},&quot;popup_box&quot;:{&quot;width&quot;:&quot;726px&quot;,&quot;padding&quot;:&quot;40&quot;,&quot;radius&quot;:&quot;0&quot;,&quot;auto_height&quot;:&quot;yes&quot;,&quot;height&quot;:&quot;350px&quot;},&quot;border&quot;:{&quot;border_type&quot;:&quot;solid&quot;,&quot;border_color&quot;:&quot;#000&quot;,&quot;border_width&quot;:&quot;2&quot;,&quot;border_radius&quot;:&quot;0&quot;,&quot;border_margin&quot;:&quot;0&quot;},&quot;shadow&quot;:{&quot;shadow_color&quot;:&quot;#ccc&quot;,&quot;shadow_type&quot;:&quot;outset&quot;,&quot;shadow_x_offset&quot;:&quot;0&quot;,&quot;shadow_y_offset&quot;:&quot;0&quot;,&quot;shadow_blur&quot;:&quot;0&quot;,&quot;shadow_spread&quot;:&quot;0&quot;},&quot;css&quot;:{&quot;custom_css&quot;:&quot;&quot;},&quot;id&quot;:&quot;11780&quot;,&quot;field_id&quot;:1,&quot;rules&quot;:{&quot;group_0&quot;:{&quot;rule_0&quot;:{&quot;rule&quot;:&quot;page_type&quot;,&quot;operator&quot;:&quot;==&quot;,&quot;value&quot;:&quot;all_pages&quot;}}},&quot;settings&quot;:{&quot;popup_title&quot;:&quot;Happy Foodie Popup&quot;,&quot;popup_desc&quot;:&quot;&quot;,&quot;test_mode&quot;:&quot;0&quot;,&quot;powered_link&quot;:&quot;0&quot;,&quot;popup_class&quot;:&quot;&quot;,&quot;popup_hidden_class&quot;:&quot;&quot;,&quot;close_on_conversion&quot;:&quot;1&quot;,&quot;conversion_cookie_name&quot;:&quot;spu_conversion_11780&quot;,&quot;conversion_cookie_duration&quot;:&quot;90&quot;,&quot;conversion_cookie_type&quot;:&quot;d&quot;,&quot;closing_cookie_name&quot;:&quot;spu_closing_11780&quot;,&quot;closing_cookie_duration&quot;:&quot;7&quot;,&quot;closing_cookie_type&quot;:&quot;d&quot;},&quot;triggers&quot;:{&quot;trigger_0&quot;:{&quot;trigger&quot;:&quot;seconds&quot;,&quot;value&quot;:&quot;5&quot;}}}" data-need_ajax="0"><div class="spu-container "><div class="spu-content"><div class="hf-grid-2">
+<div class="text-wrap">
+<p><img src="https://thehappyfoodie.co.uk/wp-content/uploads/2021/07/favicon-32-px@3x.png" /></p>
+<h3>We’d love to pop into your email inbox every Friday with inspiring recipes from Penguin’s world-leading cookery writers, the latest cookbook releases, ebook deals and more.</h3>
+</div>
+<div class="form__wrapper">
+                <div class='gf_browser_gecko gform_wrapper gravity-theme gform-theme--no-framework' data-form-theme='gravity-theme' data-form-index='1' id='gform_wrapper_1' >
+                        <div class='gform_heading'>
+                            <h2 class="gform_title">Website Header and Popup</h2>
+                            <p class='gform_description'></p>
+                        </div><form method='post' enctype='multipart/form-data'  id='gform_1'  action='/recipes/poulet-roti-au-vin-rouge-roast-red-wine-chicken/' data-formid='1' >
+                        <div class='gform-body gform_body'><div id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below'><div id="field_1_1"  class="gfield gfield--type-email field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_1"><label class='gfield_label gform-field-label' for='input_1_1' >Your Email</label><div class='ginput_container ginput_container_email'>
+                            <input name='input_1' id='input_1_1' type='text' value='' class='large'     aria-invalid="false"  />
+                        </div></div><div id="field_1_2"  class="gfield gfield--type-html gfield--width-full gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_2">By clicking Submit, I consent to you using my details to send me The Happy Foodie newsletters, and confirm I have read and understood Penguin Random House's <a href="https://www.penguinrandomhouse.co.uk/PrivacyPolicy/" target="_blank">Privacy Policy</a>.</div><div id="field_1_4"  class="gfield gfield--type-hidden gfield--width-full gform_hidden field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_4"><div class='ginput_container ginput_container_text'><input name='input_4' id='input_1_4' type='hidden' class='gform_hidden'  aria-invalid="false" value='banner' /></div></div><div id="field_1_3"  class="gfield gfield--type-captcha gfield--width-full field_sublabel_below gfield--no-description field_description_below hidden_label gfield_visibility_visible"  data-js-reload="field_1_3"><label class='gfield_label gform-field-label' for='input_1_3' >CAPTCHA</label><div id='input_1_3' class='ginput_container ginput_recaptcha' data-sitekey='6LeamRIcAAAAAPpyItHMRT6vuer1bongkkZoVKfo'  data-theme='light' data-tabindex='-1' data-size='invisible' data-badge='bottomright'></div></div></div></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button' value='Sign me up'  onclick='if(window["gf_submitting_1"]){return false;}  window["gf_submitting_1"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_1"]){return false;} window["gf_submitting_1"]=true;  jQuery("#gform_1").trigger("submit",[true]); }' />
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsImE1NTIzZTdkOTdjZGY3MGRlNjJiY2U2NDg5NWUzNzQxIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+
+        </div>
+                        </form>
+                        </div><script type="text/javascript">
+gform.initializeOnLoaded( function() {gformInitSpinner( 1, 'https://thehappyfoodie.co.uk/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'https://thehappyfoodie.co.uk/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}, 50);}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [1, current_page]);gform.utils.trigger({ event: 'gform/postRender', native: false, data: { formId: 1, currentPage: current_page } });} );} );
+</script>
+</div>
+</div>
+</div><a href="#" class="spu-close spu-close-popup spu-close-top_right">&times;</a><span class="spu-timer"></span></div></div><!--spu-box--></div><link rel='stylesheet' id='gravity_forms_theme_reset-css' href='https://thehappyfoodie.co.uk/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-reset.min.css?ver=2.7.13' type='text/css' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_foundation-css' href='https://thehappyfoodie.co.uk/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-foundation.min.css?ver=2.7.13' type='text/css' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_framework-css' href='https://thehappyfoodie.co.uk/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-framework.min.css?ver=2.7.13' type='text/css' media='all' />
+<link rel='stylesheet' id='gravity_forms_orbital_theme-css' href='https://thehappyfoodie.co.uk/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-orbital-theme.min.css?ver=2.7.13' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_basic-css' href='https://thehappyfoodie.co.uk/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css?ver=2.7.13' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme_components-css' href='https://thehappyfoodie.co.uk/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min.css?ver=2.7.13' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme_ie11-css' href='https://thehappyfoodie.co.uk/wp-content/plugins/gravityforms/assets/css/dist/theme-ie11.min.css?ver=2.7.13' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme-css' href='https://thehappyfoodie.co.uk/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css?ver=2.7.13' type='text/css' media='all' />
+<script type='text/javascript' src='https://thehappyfoodie.co.uk/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2' id='wp-polyfill-inert-js'></script>
+<script type='text/javascript' src='https://thehappyfoodie.co.uk/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://thehappyfoodie.co.uk/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' src='https://thehappyfoodie.co.uk/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1' id='wp-hooks-js'></script>
+<script type='text/javascript' id='wppopups-js-extra'>
+/* <![CDATA[ */
+var wppopups_vars = {"is_admin":"","ajax_url":"https:\/\/thehappyfoodie.co.uk\/wp-admin\/admin-ajax.php","pid":"3392","is_front_page":"","is_blog_page":"","is_category":"","site_url":"https:\/\/thehappyfoodie.co.uk","is_archive":"","is_search":"","is_singular":"1","is_preview":"","facebook":"","twitter":"","val_required":"This field is required.","val_url":"Please enter a valid URL.","val_email":"Please enter a valid email address.","val_number":"Please enter a valid number.","val_checklimit":"You have exceeded the number of allowed selections: {#}.","val_limit_characters":"{count} of {limit} max characters.","val_limit_words":"{count} of {limit} max words."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://thehappyfoodie.co.uk/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js?ver=2.1.5.3' id='wppopups-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js?ver=4.6.0' id='bootstrap-js-bundle-js'></script>
+<script type='text/javascript' src='https://thehappyfoodie.co.uk/wp-content/themes/tf-happy-foodie-2021/js/main-2023.js?ver=3.7.6' id='tf-happy-foodie-2021-js-js'></script>
+<script type='text/javascript' src='https://thehappyfoodie.co.uk/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca' id='wp-dom-ready-js'></script>
+<script type='text/javascript' src='https://thehappyfoodie.co.uk/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef' id='wp-i18n-js'></script>
+<script id="wp-i18n-js-after" type="text/javascript">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type='text/javascript' id='wp-a11y-js-translations'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2023-08-08 16:08:07+0000","generator":"GlotPress\/4.0.0-alpha.7","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"en_GB"},"Notifications":["Notifications"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+</script>
+<script type='text/javascript' src='https://thehappyfoodie.co.uk/wp-includes/js/dist/a11y.min.js?ver=7032343a947cfccf5608' id='wp-a11y-js'></script>
+<script type='text/javascript' defer='defer' src='https://thehappyfoodie.co.uk/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.7.13' id='gform_json-js'></script>
+<script type='text/javascript' id='gform_gravityforms-js-extra'>
+/* <![CDATA[ */
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/thehappyfoodie.co.uk\/wp-content\/plugins\/gravityforms\/images"}};
+var gf_global = {"gf_currency_config":{"name":"Pound Sterling","symbol_left":"&#163;","symbol_right":"","symbol_padding":" ","thousand_separator":",","decimal_separator":".","decimals":2,"code":"GBP"},"base_url":"https:\/\/thehappyfoodie.co.uk\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/thehappyfoodie.co.uk\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"1f4f0c12b80073255aa9d65f99d2414a","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+var gf_global = {"gf_currency_config":{"name":"Pound Sterling","symbol_left":"&#163;","symbol_right":"","symbol_padding":" ","thousand_separator":",","decimal_separator":".","decimals":2,"code":"GBP"},"base_url":"https:\/\/thehappyfoodie.co.uk\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/thehappyfoodie.co.uk\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"1f4f0c12b80073255aa9d65f99d2414a","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+/* ]]> */
+</script>
+<script type='text/javascript' defer='defer' src='https://thehappyfoodie.co.uk/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.7.13' id='gform_gravityforms-js'></script>
+<script type='text/javascript' defer='defer' src='https://www.google.com/recaptcha/api.js?hl=en#038;render=explicit' id='gform_recaptcha-js'></script>
+<script type='text/javascript' defer='defer' src='https://thehappyfoodie.co.uk/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=59d951b75d934ae23e0ea7f9776264aa' id='gform_gravityforms_utils-js'></script>
+<script type='text/javascript' defer='defer' src='https://thehappyfoodie.co.uk/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=4ef53fe41c14a48b294541d9fc37387e' id='gform_gravityforms_theme_vendors-js'></script>
+<script type='text/javascript' id='gform_gravityforms_theme-js-extra'>
+/* <![CDATA[ */
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"1f4f0c12b80073255aa9d65f99d2414a"}}},"hmr_dev":"","public_path":"https:\/\/thehappyfoodie.co.uk\/wp-content\/plugins\/gravityforms\/assets\/js\/dist\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' defer='defer' src='https://thehappyfoodie.co.uk/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=f4d12a887a23a8c5755fd2b956bc8fcf' id='gform_gravityforms_theme-js'></script>
+<script type="text/javascript">
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
+</script>
+<script type="text/javascript">
+gform.initializeOnLoaded( function() {jQuery(document).trigger('gform_post_render', [1, 1]);gform.utils.trigger({ event: 'gform/postRender', native: false, data: { formId: 1, currentPage: 1 } });} );
+</script>
+<!-- datalayer footer scripts -->
+<script>
+    function myDLbuyButton(element) {
+        const dlbid = element.getAttribute("dlbid");
+        const dlbslg = element.getAttribute("dlbslg");
+        const dlbisbn = element.getAttribute("dlbisbn");
+        const dlbdiv = element.getAttribute("dlbdiv");
+        const dlbgnr = element.getAttribute("dlbgnr");
+        const dlbfmt = element.getAttribute("dlbfmt");
+        const dlbret = element.getAttribute("dlbret");
+        const dlbath = element.getAttribute("dlbath");
+        const dltag = element.getAttribute("dltag");
+        window.adobeDataLayer.push({
+            event: "interaction",
+            interaction: {
+                retailerClick: {
+                    authors: dlbath,
+                    bookFormat: dlbfmt,
+                    bookGenres: dlbgnr,
+                    bookTitle: dlbslg,
+                    isbn: dlbisbn,
+                    retailer: dlbret,
+                    workID: dlbid,
+                    workTitle: dlbslg,
+                    tagName: dltag
+                }
+            }
+        });
+    }
+
+    function myDLrecipeButton(element) {
+        const linkname = element.getAttribute("linkname");
+        const navelement = element.getAttribute("navelement");
+        const recipename = element.getAttribute("recipename");
+
+        window.adobeDataLayer.push({
+            event: "interaction",
+            interaction: {
+                navigationElement: navelement,
+                linkName: linkname,
+                recipeTitle: recipename
+            }
+        });
+    }
+
+    function mytfdlmenufunction(element) {
+        const tfdlmenuitem = element.getAttribute("tfdlmenuitem");
+        window.adobeDataLayer.push({
+            page: {
+                pageInfo: {
+                    pageSource: tfdlmenuitem
+                }
+            }
+        })
+    }
+</script>
+<!-- end: datalayer footer scripts -->
+	</body>
+</html>

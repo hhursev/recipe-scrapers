@@ -57,6 +57,7 @@ then:
     scraper.to_json()
     scraper.links()
     scraper.nutrients()  # if available
+    scraper.canonical_url()  # also not always available
 
 You also have an option to scrape html-like content
 
@@ -83,6 +84,7 @@ Scrapers available for:
 -----------------------
 
 - `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
+- `https://abuelascounter.com/ <https://abuelascounter.com>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
 - `https://addapinch.com/ <https://addapinch.com//>`_
 - `http://www.afghankitchenrecipes.com/ <http://www.afghankitchenrecipes.com/>`_
@@ -115,6 +117,7 @@ Scrapers available for:
 - `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
 - `https://briceletbaklava.ch/ <https://briceletbaklava.ch/>`_
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
+- `https://carlsbadcravings.com/ <https://carlsbadcravings.com/>`_
 - `https://castironketo.net/ <https://castironketo.net/>`_
 - `https://cdkitchen.com/ <https://cdkitchen.com/>`_
 - `https://chefkoch.de/ <https://chefkoch.de>`_
@@ -367,6 +370,7 @@ Scrapers available for:
 - `https://whatsgabycooking.com/ <https://whatsgabycooking.com>`_
 - `https://www.wholefoodsmarket.com/ <https://www.wholefoodsmarket.com/>`_
 - `https://www.wholefoodsmarket.co.uk/ <https://www.wholefoodsmarket.co.uk/>`_
+- `https://www.williams-sonoma.com/ <https://www.williams-sonoma.com/>`_
 - `https://woop.co.nz/ <https://woop.co.nz/>`_
 - `https://woolworths.com.au/shop/recipes <https://www.woolworths.com.au/shop/recipes/>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
@@ -410,7 +414,7 @@ If you want a scraper for a new site added
 For Devs / Contribute
 ---------------------
 
-Assuming you have ``>=python3.7`` installed, navigate to the directory where you want this project to live in and drop these lines
+Assuming you have ``>=python3.8`` installed, navigate to the directory where you want this project to live in and drop these lines
 
 .. code:: shell
 
@@ -428,7 +432,7 @@ In case you want to run a single unittest for a newly developed scraper
 
 .. code:: shell
 
-    python -m unittest tests.test_myscraper
+    python -m unittest -k <test_file_name>
 
 
 FAQ

@@ -1,0 +1,77 @@
+{
+  "canonical_url": "healthyeating.nhlbi.nih.gov",
+  "cook_time": 0,
+  "description": "Tangy fruit and sweet yogurt make a perfect taste combination",
+  "host": "healthyeating.nhlbi.nih.gov",
+  "image": "https://healthyeating.nhlbi.nih.gov/images/food/Fruit_Skewers.jpg",
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 C strawberries, rinsed, stems removed, and cut in half",
+        "¼ C fat-free plain yogurt",
+        "1/8 tsp vanilla extract",
+        "1 Tbsp honey"
+      ],
+      "purpose": "For dip:"
+    },
+    {
+      "ingredients": [
+        "1 C strawberries, rinsed, stems removed, and cut in half",
+        "1 C fresh pineapple, diced (or canned pineapple chunks in juice, drained)",
+        "½ C blackberries",
+        "1 tangerine or Clementine, peeled and cut into 8 segments",
+        "8 6-inch wooden skewers"
+      ],
+      "purpose": null
+    }
+  ],
+  "ingredients": [
+    "1 C strawberries, rinsed, stems removed, and cut in half",
+    "¼ C fat-free plain yogurt",
+    "1/8 tsp vanilla extract",
+    "1 Tbsp honey",
+    "1 C strawberries, rinsed, stems removed, and cut in half",
+    "1 C fresh pineapple, diced (or canned pineapple chunks in juice, drained)",
+    "½ C blackberries",
+    "1 tangerine or Clementine, peeled and cut into 8 segments",
+    "8 6-inch wooden skewers"
+  ],
+  "instructions": "Thread two strawberry halves, two pineapple chunks, two blackberries, and one tangerine segment on each skewer.\nTo prepare the dip, puree strawberries in a blender or food processor. Add yogurt, vanilla, and honey, and mix well.\nServe two skewers with yogurt dip on the side.",
+  "instructions_list": [
+    "Thread two strawberry halves, two pineapple chunks, two blackberries, and one tangerine segment on each skewer.",
+    "To prepare the dip, puree strawberries in a blender or food processor. Add yogurt, vanilla, and honey, and mix well.",
+    "Serve two skewers with yogurt dip on the side."
+  ],
+  "nutrients": {
+    "calories": "71",
+    "Total fat": "0 g",
+    "Saturated fat": "0 g",
+    "Cholesterol": "0 mg",
+    "Sodium": "10 mg",
+    "Total fiber": "2 g",
+    "Protein": "1 g",
+    "Carbohydrates": "18 g",
+    "Potassium": "174 mg",
+    "Vitamin A": "6%",
+    "Vitamin C": "70%",
+    "Calcium": "4%",
+    "Iron": "2%"
+  },
+  "prep_time": 15,
+  "recipe_cards": [
+    {
+      "size": "4\" x 6\" (344 KB)",
+      "url": "http://www.nhlbi.nih.gov/health/public/heart/obesity/wecan/downloads/fruit-skewers-4x6.pdf"
+    },
+    {
+      "size": "8.5\" x 11\" (389 KB)",
+      "url": "http://www.nhlbi.nih.gov/health/public/heart/obesity/wecan/downloads/fruit-skewers-letter.pdf"
+    }
+  ],
+  "recipe_source": "Deliciously Healthy Family Meals",
+  "serving_size": "2 skewers, 1½ Tbsp dip",
+  "site_name": null,
+  "title": "Fruit Skewers With Yogurt Dip",
+  "total_time": 15,
+  "yields": "4 servings"
+}

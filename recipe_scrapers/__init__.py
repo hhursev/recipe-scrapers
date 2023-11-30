@@ -8,6 +8,7 @@ from ._exceptions import NoSchemaFoundInWildMode, WebsiteNotImplementedError
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 from .abril import Abril
+from .abuelascounter import AbuelasCounter
 from .acouplecooks import ACoupleCooks
 from .addapinch import AddAPinch
 from .afghankitchenrecipes import AfghanKitchenRecipes
@@ -39,6 +40,7 @@ from .bongeats import BongEats
 from .bowlofdelicious import BowlOfDelicious
 from .briceletbaklava import BricelEtBaklava
 from .budgetbytes import BudgetBytes
+from .carlsbadcravings import CarlsBadCravings
 from .castironketo import CastIronKeto
 from .cdkitchen import CdKitchen
 from .chefkoch import Chefkoch
@@ -113,7 +115,6 @@ from .hellofresh import HelloFresh
 from .herseyland import HerseyLand
 from .homechef import HomeChef
 from .hostthetoast import Hostthetoast
-from .hundredandonecookbooks import HundredAndOneCookbooks
 from .ica import Ica
 from .ig import IG
 from .imworthy import ImWorthy
@@ -284,6 +285,7 @@ from .wellplated import WellPlated
 from .whatsgabycooking import WhatsGabyCooking
 from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
+from .williamssonoma import WilliamsSonoma
 from .woolworths import Woolworths
 from .woop import Woop
 from .yemek import Yemek
@@ -295,6 +297,7 @@ from .zenbelly import ZenBelly
 SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
     Abril.host(): Abril,
+    AbuelasCounter.host(): AbuelasCounter,
     AddAPinch.host(): AddAPinch,
     AfghanKitchenRecipes.host(): AfghanKitchenRecipes,
     AkisPetretzikis.host(): AkisPetretzikis,
@@ -326,6 +329,7 @@ SCRAPERS = {
     BongEats.host(): BongEats,
     BricelEtBaklava.host(): BricelEtBaklava,
     BudgetBytes.host(): BudgetBytes,
+    CarlsBadCravings.host(): CarlsBadCravings,
     CastIronKeto.host(): CastIronKeto,
     CdKitchen.host(): CdKitchen,
     ChefSavvy.host(): ChefSavvy,
@@ -419,7 +423,6 @@ SCRAPERS = {
     HerseyLand.host(): HerseyLand,
     HomeChef.host(): HomeChef,
     Hostthetoast.host(): Hostthetoast,
-    HundredAndOneCookbooks.host(): HundredAndOneCookbooks,
     Ica.host(): Ica,
     ImWorthy.host(): ImWorthy,
     IG.host(): IG,
@@ -597,6 +600,7 @@ SCRAPERS = {
     WhatsGabyCooking.host(): WhatsGabyCooking,
     WholeFoods.host(): WholeFoods,
     WholeFoods.host(domain="co.uk"): WholeFoods,
+    WilliamsSonoma.host(): WilliamsSonoma,
     Woop.host(): Woop,
     WikiCookbook.host(): WikiCookbook,
     Woolworths.host(): Woolworths,

@@ -1,4 +1,4 @@
-exclude: 'tests/test_data/'
+exclude: '.testhtml'
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
@@ -6,6 +6,11 @@ repos:
     -   id: check-yaml
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
+    -   id: pretty-format-json
+        args:
+            - "--autofix"
+            - "--no-sort-keys"
+            - "--no-ensure-ascii"
 -   repo: https://github.com/pycqa/flake8.git
     rev: 6.0.0
     hooks:
