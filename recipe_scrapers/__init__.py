@@ -53,8 +53,8 @@ from .cookieandkate import CookieAndKate
 from .cookingcircle import CookingCircle
 from .cookinglight import CookingLight
 from .cookpad import CookPad
-from .coopse import CoopSE
 from .cooktalk import CookTalk
+from .coopse import CoopSE
 from .copykat import CopyKat
 from .costco import Costco
 from .countryliving import CountryLiving
