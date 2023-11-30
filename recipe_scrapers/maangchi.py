@@ -1,7 +1,6 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._exceptions import RecipeScrapersExceptions
 from ._utils import normalize_string
 
 
@@ -18,11 +17,6 @@ class Maangchi(AbstractScraper):
 
     def category(self):
         return self.schema.category()
-
-    def total_time(self):
-        raise RecipeScrapersExceptions(
-            f"{self.host()} does not provide time information."
-        )
 
     def yields(self):
         return self.schema.yields()
