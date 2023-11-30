@@ -3,7 +3,7 @@ import responses
 
 from recipe_scrapers._grouping_utils import IngredientGroup
 from recipe_scrapers.coopse import CoopSE
-from tests import ScraperTest
+from tests.legacy import ScraperTest
 
 
 class TestCoopSEScraperGroups(ScraperTest):
@@ -11,8 +11,8 @@ class TestCoopSEScraperGroups(ScraperTest):
 
     @classmethod
     def expected_requests(cls):
-        yield responses.GET, "https://www.coop.se/recept/champinjonsoppa/", "tests/test_data/coopse_groups.testhtml"
-        yield responses.GET, "https://proxy.api.coop.se/external/recipe/recipes/159412?api-version=v1", "tests/test_data/coopse_groups.testjson"
+        yield responses.GET, "https://www.coop.se/recept/champinjonsoppa/", "tests/legacy/test_data/coopse_groups.testhtml"
+        yield responses.GET, "https://proxy.api.coop.se/external/recipe/recipes/159412?api-version=v1", "tests/legacy/test_data/coopse_groups.testjson"
 
     def test_host(self):
         self.assertEqual("coop.se", self.harvester_class.host())

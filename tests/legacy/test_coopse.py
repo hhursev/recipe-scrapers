@@ -2,7 +2,7 @@
 import responses
 
 from recipe_scrapers.coopse import CoopSE
-from tests import ScraperTest
+from tests.legacy import ScraperTest
 
 
 class TestCoopSEScraper(ScraperTest):
@@ -10,8 +10,8 @@ class TestCoopSEScraper(ScraperTest):
 
     @classmethod
     def expected_requests(cls):
-        yield responses.GET, "https://www.coop.se/recept/fransk-appelkaka-med-mandel-och-citron/", "tests/test_data/coopse.testhtml"
-        yield responses.GET, "https://proxy.api.coop.se/external/recipe/recipes/458836?api-version=v1", "tests/test_data/coopse.testjson"
+        yield responses.GET, "https://www.coop.se/recept/fransk-appelkaka-med-mandel-och-citron/", "tests/legacy/test_data/coopse.testhtml"
+        yield responses.GET, "https://proxy.api.coop.se/external/recipe/recipes/458836?api-version=v1", "tests/legacy/test_data/coopse.testjson"
 
     def test_host(self):
         self.assertEqual("coop.se", self.harvester_class.host())
