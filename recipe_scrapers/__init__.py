@@ -4,7 +4,7 @@ import contextlib
 from typing import Any, Optional
 
 from ._abstract import AbstractScraper
-from ._exceptions import NoSchemaFoundInWildMode, WebsiteNotImplementedError
+from ._exceptions import NoSchemaFoundInWildMode
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 from .abril import Abril
@@ -632,9 +632,6 @@ def scrape_html(
             scraper = SCRAPERS[host_name]
 
     if not scraper:
-        if not options.get("wild_mode", False):
-            raise WebsiteNotImplementedError(host_name)
-
         wild_scraper = SchemaScraperFactory.generate(url=org_url, html=html, **options)
 
         if not wild_scraper.schema.data:
