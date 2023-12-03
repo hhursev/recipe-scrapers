@@ -174,6 +174,9 @@ class AbstractScraper:
         meta = self.soup.find("meta", property="og:site_name")
         return meta.get("content") if meta else None
 
+    def equipment(self):
+        raise NotImplementedError("This should be implemented.")
+
     def to_json(self):
         json_dict = {}
         public_method_names = [
