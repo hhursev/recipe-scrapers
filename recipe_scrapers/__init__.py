@@ -214,6 +214,7 @@ from .redhousespice import RedHouseSpice
 from .reishunger import Reishunger
 from .rezeptwelt import Rezeptwelt
 from .ricetta import Ricetta
+from .ricetteperbimby import RicettePerBimby
 from .rosannapansino import RosannaPansino
 from .rutgerbakt import RutgerBakt
 from .saboresanjinomoto import SaboresAnjinomoto
@@ -355,6 +356,7 @@ SCRAPERS = {
     ElaVegan.host(): ElaVegan,
     GrandFrais.host(): GrandFrais,
     NutritionFacts.host(): NutritionFacts,
+    RicettePerBimby.host(): RicettePerBimby,
     Thinlicious.host(): Thinlicious,
     DomesticateMe.host(): DomesticateMe,
     Downshiftology.host(): Downshiftology,
