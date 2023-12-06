@@ -62,6 +62,7 @@ from .cuisineaz import CuisineAZ
 from .cybercook import Cybercook
 from .davidlebovitz import DavidLebovitz
 from .delish import Delish
+from .dietdoctor import DietDoctor
 from .domesticateme import DomesticateMe
 from .downshiftology import Downshiftology
 from .dr import Dr
@@ -350,6 +351,7 @@ SCRAPERS = {
     Cybercook.host(): Cybercook,
     DavidLebovitz.host(): DavidLebovitz,
     Delish.host(): Delish,
+    DietDoctor.host(): DietDoctor,
     ElaVegan.host(): ElaVegan,
     GrandFrais.host(): GrandFrais,
     NutritionFacts.host(): NutritionFacts,
