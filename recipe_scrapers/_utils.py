@@ -112,10 +112,12 @@ def get_minutes(element, return_zero_on_not_found=False):  # noqa: C901: TODO
 
 def get_yields(element):
     """
-    Will return a string of servings or items, if the recipe is for number of items and not servings
-    the method will return the string "x item(s)" where x is the quantity.
+    Returns a string of servings or items. If the recipe is for a number of items (not servings),
+    it returns "x item(s)" where x is the quantity. This function handles cases where the yield is in dozens,
+    such as "4 dozen cookies", returning "4 dozen" instead of "4 servings". Additionally
+    accommodates yields specified in batches (e.g., "2 batches of brownies"), returning the yield as stated.
     :param element: Should be BeautifulSoup.TAG, in some cases not feasible and will then be text.
-    :return: The number of servings or items.
+    :return: The number of servings, items, dozen or batches.
     """
     if element is None:
         raise ElementNotFoundInHtml(element)
@@ -129,14 +131,17 @@ def get_yields(element):
         serve_text = serve_text.split(SERVE_REGEX_TO.split(serve_text, 2)[1], 2)[1]
 
     matched = SERVE_REGEX_NUMBER.search(serve_text).groupdict().get("items") or 0
-    servings = "{} serving{}".format(matched, "" if int(matched) == 1 else "s")
+
+    if "dozen" in serve_text.lower():
+        return f"{matched} dozen"
+
+    if "batch" in serve_text.lower():
+        return f"{matched} batch{'' if int(matched) == 1 else 'es'}"
 
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
-        # This assumes if object(s), like sandwiches, it is 1 person.
-        # Issue: "Makes one 9-inch pie, (realsimple-testcase, gives "9 items")
-        servings = "{} item{}".format(matched, "" if int(matched) == 1 else "s")
+        return "{} item{}".format(matched, "" if int(matched) == 1 else "s")
 
-    return servings
+    return "{} serving{}".format(matched, "" if int(matched) == 1 else "s")
 
 
 def normalize_string(string):
