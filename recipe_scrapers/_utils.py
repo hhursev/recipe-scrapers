@@ -33,6 +33,20 @@ SERVE_REGEX_ITEMS = re.compile(
 
 SERVE_REGEX_TO = re.compile(r"\d+(\s+to\s+|-)\d+", flags=re.I | re.X)
 
+RECIPE_YIELD_TYPES = (
+    ("dozen", "dozens"),
+    ("batch", "batches"),
+    ("cake", "cakes"),
+    ("sandwich", "sandwiches"),
+    ("bun", "buns"),
+    ("cookie", "cookies"),
+    ("muffin", "muffins"),
+    ("cupcake", "cupcakes"),
+    ("loaf", "loaves"),
+    ("pie", "pies"),
+    # ... add more types as needed, in (singular, plural) format ...
+)
+
 
 def get_minutes(element, return_zero_on_not_found=False):  # noqa: C901: TODO
     if element is None:
@@ -112,16 +126,18 @@ def get_minutes(element, return_zero_on_not_found=False):  # noqa: C901: TODO
 
 def get_yields(element):
     """
+    Will return a string of servings or items, if the recipe is for number of items and not servings
+    the method will return the string "x item(s)" where x is the quantity.
     Returns a string of servings or items. If the recipe is for a number of items (not servings),
     it returns "x item(s)" where x is the quantity. This function handles cases where the yield is in dozens,
     such as "4 dozen cookies", returning "4 dozen" instead of "4 servings". Additionally
     accommodates yields specified in batches (e.g., "2 batches of brownies"), returning the yield as stated.
     :param element: Should be BeautifulSoup.TAG, in some cases not feasible and will then be text.
-    :return: The number of servings, items, dozen or batches.
+    :return: The number of servings or items.
+    :return: The number of servings, items, dozen, batches, etc...
     """
     if element is None:
         raise ElementNotFoundInHtml(element)
-
     if isinstance(element, str):
         serve_text = element
     else:
@@ -131,16 +147,13 @@ def get_yields(element):
         serve_text = serve_text.split(SERVE_REGEX_TO.split(serve_text, 2)[1], 2)[1]
 
     matched = SERVE_REGEX_NUMBER.search(serve_text).groupdict().get("items") or 0
+    serve_text_lower = serve_text.lower()
 
-    if "dozen" in serve_text.lower():
-        return f"{matched} dozen"
-
-    if "batch" in serve_text.lower():
-        return f"{matched} batch{'' if int(matched) == 1 else 'es'}"
+    for singular, plural in RECIPE_YIELD_TYPES:
+        if singular in serve_text_lower:
+            return "{} {}".format(matched, singular if int(matched) == 1 else plural)
 
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
-        # This assumes if object(s), like sandwiches, it is 1 person.
-        # Issue: "Makes one 9-inch pie, (realsimple-testcase, gives "9 items")
         return "{} item{}".format(matched, "" if int(matched) == 1 else "s")
 
     return "{} serving{}".format(matched, "" if int(matched) == 1 else "s")
