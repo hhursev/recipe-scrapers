@@ -139,6 +139,8 @@ def get_yields(element):
         return f"{matched} batch{'' if int(matched) == 1 else 'es'}"
 
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
+        # This assumes if object(s), like sandwiches, it is 1 person.
+        # Issue: "Makes one 9-inch pie, (realsimple-testcase, gives "9 items")
         return "{} item{}".format(matched, "" if int(matched) == 1 else "s")
 
     return "{} serving{}".format(matched, "" if int(matched) == 1 else "s")
