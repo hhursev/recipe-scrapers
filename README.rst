@@ -303,6 +303,7 @@ Scrapers available for:
 - `https://reishunger.de/ <https://www.reishunger.de/>`_
 - `https://rezeptwelt.de/ <https://rezeptwelt.de>`_
 - `https://ricetta.it/ <https://ricetta.it>`_
+- `https://www.ricetteperbimby.it/ <https://www.ricetteperbimby.it/>`_
 - `https://rosannapansino.com <https://rosannapansino.com>`_
 - `https://rutgerbakt.nl/ <https://rutgerbakt.nl/>`_
 - `https://www.saboresajinomoto.com.br/ <https://www.saboresajinomoto.com.br/>`_
