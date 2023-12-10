@@ -44,6 +44,18 @@ RECIPE_YIELD_TYPES = (
     ("cupcake", "cupcakes"),
     ("loaf", "loaves"),
     ("pie", "pies"),
+    ("cup", "cups"),
+    ("pint", "pints"),
+    ("gallon", "gallons"),
+    ("ounce", "ounces"),
+    ("pound", "pounds"),
+    ("gram", "grams"),
+    ("liter", "liters"),
+    ("piece", "pieces"),
+    ("layer", "layers"),
+    ("scoop", "scoops"),
+    ("bar", "bars"),
+    ("patty", "patties"),
     # ... add more types as needed, in (singular, plural) format ...
 )
 
