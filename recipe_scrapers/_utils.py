@@ -34,7 +34,7 @@ SERVE_REGEX_ITEMS = re.compile(
 SERVE_REGEX_TO = re.compile(r"\d+(\s+to\s+|-)\d+", flags=re.I | re.X)
 
 RECIPE_YIELD_TYPES = (
-    ("dozen", "dozens"),
+    ("dozen", "dozen"),
     ("batch", "batches"),
     ("cake", "cakes"),
     ("sandwich", "sandwiches"),
