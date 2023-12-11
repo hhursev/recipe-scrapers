@@ -26,17 +26,9 @@ class ForksOverKnives(AbstractScraper):
         self,
         html: Union[str, bytes],
         url: Union[str, None],
-        proxies: Optional[
-            Dict[str, str]
-        ] = None,  # allows us to specify optional proxy server
-        timeout: Optional[
-            Union[float, Tuple[float, float], Tuple[float, None]]
-        ] = None,  # allows us to specify optional timeout for request
         wild_mode: Optional[bool] = False,
     ):
-        super().__init__(
-            url=url, proxies=proxies, timeout=timeout, wild_mode=wild_mode, html=html
-        )
+        super().__init__(url=url, wild_mode=wild_mode, html=html)
         self.schema = FOKSchema(self.page_data)
 
     def author(self):

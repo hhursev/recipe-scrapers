@@ -24,12 +24,6 @@ class AbstractScraper:
         self,
         html: Union[str, bytes],
         url: Union[str, None],
-        proxies: Optional[
-            Dict[str, str]
-        ] = None,  # allows us to specify optional proxy server
-        timeout: Optional[
-            Union[float, Tuple[float, float], Tuple[float, None]]
-        ] = None,  # allows us to specify optional timeout for request
         wild_mode: Optional[bool] = False,
     ):
         self.page_data = html
