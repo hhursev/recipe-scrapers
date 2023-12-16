@@ -257,6 +257,7 @@ from .thekitchenmagpie import TheKitchenMagPie
 from .thekitchn import TheKitchn
 from .themagicalslowcooker import TheMagicalSlowCooker
 from .themodernproper import TheModernProper
+from .thepalatablelife import ThePalatableLife
 from .thepioneerwoman import ThePioneerWoman
 from .therecipecritic import Therecipecritic
 from .thespruceeats import TheSpruceEats
@@ -357,6 +358,7 @@ SCRAPERS = {
     GrandFrais.host(): GrandFrais,
     NutritionFacts.host(): NutritionFacts,
     RicettePerBimby.host(): RicettePerBimby,
+    ThePalatableLife.host(): ThePalatableLife,
     Thinlicious.host(): Thinlicious,
     DomesticateMe.host(): DomesticateMe,
     Downshiftology.host(): Downshiftology,
