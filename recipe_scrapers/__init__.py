@@ -167,6 +167,7 @@ from .mob import Mob
 from .momswithcrockpots import MomsWithCrockPots
 from .monsieurcuisine import MonsieurCuisine
 from .motherthyme import MotherThyme
+from .mundodereceitasbimby import MundoDeReceitasBimby
 from .mybakingaddiction import MyBakingAddiction
 from .mykitchen101 import MyKitchen101
 from .mykitchen101en import MyKitchen101en
@@ -356,6 +357,7 @@ SCRAPERS = {
     Delish.host(): Delish,
     ElaVegan.host(): ElaVegan,
     GrandFrais.host(): GrandFrais,
+    MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     NutritionFacts.host(): NutritionFacts,
     RicettePerBimby.host(): RicettePerBimby,
     ThePalatableLife.host(): ThePalatableLife,
