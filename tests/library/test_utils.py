@@ -105,7 +105,7 @@ class TestUtils(unittest.TestCase):
                 "cook_time",
                 "cuisine",
                 "description",
-                "host",
+                "equipment" "host",
                 "image",
                 "ingredient_groups",
                 "ingredients",

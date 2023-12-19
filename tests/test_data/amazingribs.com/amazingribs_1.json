@@ -53,5 +53,9 @@
   "site_name": "Meathead's AmazingRibs.com",
   "title": "Texas Hot Guts Recipe",
   "total_time": 165,
-  "yields": "8 servings"
+  "yields": "8 servings",
+  "equipment": [
+    "sausage stuffer",
+    "sausage grinder"
+  ]
 }

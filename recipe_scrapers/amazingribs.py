@@ -2,6 +2,7 @@
 
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
+from ._utils import normalize_string
 
 
 class AmazingRibs(AbstractScraper):
@@ -34,3 +35,13 @@ class AmazingRibs(AbstractScraper):
 
     def instructions(self):
         return self.schema.instructions()
+
+    def equipment(self):
+        equipment_list = self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+        if not equipment_list:
+            return []
+
+        unique_equipment = {
+            normalize_string(equipment.get_text()) for equipment in equipment_list
+        }
+        return list(unique_equipment)
