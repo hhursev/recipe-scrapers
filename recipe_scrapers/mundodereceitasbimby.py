@@ -2,6 +2,7 @@
 
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
+from ._utils import normalize_string
 
 
 class MundoDeReceitasBimby(AbstractScraper):
@@ -10,7 +11,9 @@ class MundoDeReceitasBimby(AbstractScraper):
         return "mundodereceitasbimby.com.pt"
 
     def author(self):
-        return self.schema.author()
+        return normalize_string(
+            self.soup.find("span", class_="recipe-author").find("a").text
+        )
 
     def title(self):
         return self.schema.title()
@@ -46,3 +49,6 @@ class MundoDeReceitasBimby(AbstractScraper):
 
     def cuisine(self):
         return self.schema.cuisine()
+
+    def language(self):
+        return self.soup.find("meta", {"property": "og:locale"}).get("content")
