@@ -52,3 +52,6 @@ class MundoDeReceitasBimby(AbstractScraper):
 
     def language(self):
         return self.soup.find("meta", {"property": "og:locale"}).get("content")
+
+    def site_name(self):
+        return "Mundo de Receitas Bimby"
