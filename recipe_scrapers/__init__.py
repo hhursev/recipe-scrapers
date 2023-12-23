@@ -111,6 +111,7 @@ from .halfbakedharvest import HalfBakedHarvest
 from .handletheheat import HandleTheHeat
 from .hassanchef import HassanChef
 from .headbangerskitchen import HeadbangersKitchen
+from .heatherchristo import HeatherChristo
 from .heb import HEB
 from .hellofresh import HelloFresh
 from .herseyland import HerseyLand
@@ -359,6 +360,7 @@ SCRAPERS = {
     ElaVegan.host(): ElaVegan,
     FitSlowCookerQueen.host(): FitSlowCookerQueen,
     GrandFrais.host(): GrandFrais,
+    HeatherChristo.host(): HeatherChristo,
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     NutritionFacts.host(): NutritionFacts,
     RicettePerBimby.host(): RicettePerBimby,
