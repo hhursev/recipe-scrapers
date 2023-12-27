@@ -194,6 +194,7 @@ from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
 from .persnicketyplates import PersnicketyPlates
 from .pickuplimes import PickUpLimes
+from .pinchofyum import PinchOfYum
 from .pingodoce import PingoDoce
 from .pinkowlkitchen import PinkOwlKitchen
 from .platingpixels import PlatingPixels
@@ -363,6 +364,7 @@ SCRAPERS = {
     HeatherChristo.host(): HeatherChristo,
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     NutritionFacts.host(): NutritionFacts,
+    PinchOfYum.host(): PinchOfYum,
     RicettePerBimby.host(): RicettePerBimby,
     ThePalatableLife.host(): ThePalatableLife,
     Thinlicious.host(): Thinlicious,
