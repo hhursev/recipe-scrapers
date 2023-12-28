@@ -9,7 +9,7 @@ class EatLiveRun(AbstractScraper):
         return "eatliverun.com"
 
     def site_name(self):
-        return "eat, live, run"
+        return "Eat, Live, Run"
 
     def author(self):
         return self.schema.author()
