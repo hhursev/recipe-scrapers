@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	
+	<link rel="pingback" href="https://www.eatliverun.com/xmlrpc.php" />
+
+	
+<!--Plugin WP Missed Schedule 2013.1231.2013 Active - Tag 6707293c0218e2d8b7aa38d418ffa608-->
+
+<!-- This website is patched against a big problem not solved from WordPress 2.5+ to date -->
+
+<script>!function(){"use strict";var t=new URL(window.location.href),e=Array.from(t.searchParams.entries()).map(t=>`${t[0]}=${t[1]}`);const a=t=>t.replace(/\s/g,""),r=async t=>{const e={sha256Hash:"",sha1Hash:""};if(!("msCrypto"in window)&&"https:"===location.protocol&&"crypto"in window&&"TextEncoder"in window){const a=(new TextEncoder).encode(t),[r,o]=await Promise.all([n("SHA-256",a),n("SHA-1",a)]);e.sha256Hash=r,e.sha1Hash=o}return e},n=async(t,e)=>{const a=await crypto.subtle.digest(t,e);return Array.from(new Uint8Array(a)).map(t=>("00"+t.toString(16)).slice(-2)).join("")};function o(t){let e=!0;return Object.keys(t).forEach(a=>{0===t[a].length&&(e=!1)}),e}function s(){e.splice(i,1);var a="?"+e.join("&")+t.hash;history.replaceState(null,"",a)}for(var i=0;i<e.length;i++){var c="adt_ei",l=decodeURIComponent(e[i]);if(0===l.indexOf(c)){var h=l.split(c+"=")[1];if((t=>{const e=t.match(/((?=([a-zA-Z0-9._!#$%+^&*()[\]<>-]+))\2@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi);return e?e[0]:""})(a(h.toLowerCase()))){r(h).then(t=>{if(o(t)){var e={value:t,created:Date.now()};localStorage.setItem(c,JSON.stringify(e)),localStorage.setItem("adt_emsrc","url")}s()});break}s();break}}}();
+</script><title>Honey Miso Glazed Salmon &#8211; Eat, Live, Run</title>
+<meta name='robots' content='max-image-preview:large' />
+<script type="application/ld+json">{"@context":"http:\/\/schema.org\/","@type":"Recipe","name":"Miso Honey Glazed Salmon","author":{"@type":"Person","name":"jenna"},"description":"","datePublished":"2017-10-23T12:08:44+00:00","image":["https:\/\/www.eatliverun.com\/wp-content\/uploads\/2017\/10\/salmon-1-1-of-1.jpg"],"recipeYield":["4","4 servings"],"recipeIngredient":["1 whole salmon fillet  (or 4 5-oz portions)","2 tbsp yellow or white miso paste","1 tbsp raw honey","2 tbsp olive oil","kosher salt","sesame seeds for serving","minced fresh chives for serving"],"recipeInstructions":[{"@type":"HowToStep","text":"Preheat oven to 425 degrees.","name":"Preheat oven to 425 degrees.","url":"https:\/\/www.eatliverun.com\/honey-miso-glazed-salmon\/#wprm-recipe-55479-step-0-0"},{"@type":"HowToStep","text":"In a small saucepot over medium heat, combine the miso paste, honey and olive oil. Cook until honey dissolves and you have a thick glaze.","name":"In a small saucepot over medium heat, combine the miso paste, honey and olive oil. Cook until honey dissolves and you have a thick glaze.","url":"https:\/\/www.eatliverun.com\/honey-miso-glazed-salmon\/#wprm-recipe-55479-step-0-1"},{"@type":"HowToStep","text":"Sprinkle sea salt on your fish. Then, pour over glaze.&nbsp;","name":"Sprinkle sea salt on your fish. Then, pour over glaze.&nbsp;","url":"https:\/\/www.eatliverun.com\/honey-miso-glazed-salmon\/#wprm-recipe-55479-step-0-2"},{"@type":"HowToStep","text":"Roast fish for 6 minutes (for about a 1\" sockeye fillet. If you have a thicker piece of salmon, you will need to roast longer)&nbsp;","name":"Roast fish for 6 minutes (for about a 1\" sockeye fillet. If you have a thicker piece of salmon, you will need to roast longer)&nbsp;","url":"https:\/\/www.eatliverun.com\/honey-miso-glazed-salmon\/#wprm-recipe-55479-step-0-3"},{"@type":"HowToStep","text":"Right when fish comes out of the oven, sprinkle with the chives and the sesame seeds and serve!","name":"Right when fish comes out of the oven, sprinkle with the chives and the sesame seeds and serve!","url":"https:\/\/www.eatliverun.com\/honey-miso-glazed-salmon\/#wprm-recipe-55479-step-0-4"}]}</script>
+<script data-no-optimize="1" data-cfasync="false">
+(function(w, d) {
+	w.adthrive = w.adthrive || {};
+	w.adthrive.cmd = w.adthrive.cmd || [];
+	w.adthrive.plugin = 'adthrive-ads-3.5.6';
+	w.adthrive.host = 'ads.adthrive.com';
+	w.adthrive.integration = 'plugin';
+
+	var commitParam = (w.adthriveCLS && w.adthriveCLS.bucket !== 'prod' && w.adthriveCLS.branch) ? '&commit=' + w.adthriveCLS.branch : '';
+
+	var s = d.createElement('script');
+	s.async = true;
+	s.referrerpolicy='no-referrer-when-downgrade';
+	s.src = 'https://' + w.adthrive.host + '/sites/5880f0efd9ce9f38e71e8095/ads.min.js?referrer=' + w.encodeURIComponent(w.location.href) + commitParam + '&cb=' + (Math.floor(Math.random() * 100) + 1) + '';
+	var n = d.getElementsByTagName('script')[0];
+	n.parentNode.insertBefore(s, n);
+})(window, document);
+</script>
+<link rel="dns-prefetch" href="https://ads.adthrive.com/"><link rel="preconnect" href="https://ads.adthrive.com/"><link rel="preconnect" href="https://ads.adthrive.com/" crossorigin>
+		<!-- Meta Tag Manager -->
+		<meta name="p:domain_verify" content="8e6f0d4e98aca0db82d021edcaa38104" />
+		<!-- / Meta Tag Manager -->
+<link rel='dns-prefetch' href='//platform-api.sharethis.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Eat, Live, Run &raquo; Feed" href="https://www.eatliverun.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Eat, Live, Run &raquo; Comments Feed" href="https://www.eatliverun.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Eat, Live, Run &raquo; Honey Miso Glazed Salmon Comments Feed" href="https://www.eatliverun.com/honey-miso-glazed-salmon/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s6655.pcdn.co\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='https://s6655.pcdn.co/wp-includes/css/dist/block-library/style.min.css?ver=6.3.2' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://s6655.pcdn.co/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.8.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wprm-template-css' href='https://s6655.pcdn.co/wp-content/plugins/wp-recipe-maker/templates/recipe/legacy/tastefully-simple/tastefully-simple.min.css?ver=9.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='sprout_spoon_style-css' href='https://s6655.pcdn.co/wp-content/themes/sprout-spoon/style.css?ver=6.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css-css' href='https://s6655.pcdn.co/wp-content/themes/sprout-spoon/css/font-awesome.min.css?ver=6.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bxslider-css-css' href='https://s6655.pcdn.co/wp-content/themes/sprout-spoon/css/jquery.bxslider.css?ver=6.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='sprout_spoon_respon-css' href='https://s6655.pcdn.co/wp-content/themes/sprout-spoon/css/responsive.css?ver=6.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='solopine-fonts-css' href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C600%2C700%2C400italic%2C700italic%7CCrimson+Text%3A400%2C700%2C700italic%2C400italic%26subset%3Dlatin%2Clatin-ext&#038;ver=1.0.0' type='text/css' media='all' />
+<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#source=googleanalytics-wordpress#product=ga&#038;property=58a69a1e13d0b400116d057e' id='googleanalytics-platform-sharethis-js'></script>
+<link rel="https://api.w.org/" href="https://www.eatliverun.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.eatliverun.com/wp-json/wp/v2/posts/55475" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.eatliverun.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.3.2" />
+<link rel="canonical" href="https://www.eatliverun.com/honey-miso-glazed-salmon/" />
+<link rel='shortlink' href='https://www.eatliverun.com/?p=55475' />
+<link rel="alternate" type="application/json+oembed" href="https://www.eatliverun.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.eatliverun.com%2Fhoney-miso-glazed-salmon%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.eatliverun.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.eatliverun.com%2Fhoney-miso-glazed-salmon%2F&#038;format=xml" />
+<style type="text/css">.eafl-disclaimer-small { font-size: 0.8em; }
+.eafl-disclaimer-smaller { font-size: 0.6em; }</style>    <style type="text/css">
+	
+																																		
+    </style>
+    <style type="text/css"> html body .wprm-recipe-container { color: #333333; } html body .wprm-recipe-container a.wprm-recipe-print { color: #333333; } html body .wprm-recipe-container a.wprm-recipe-print:hover { color: #333333; } html body .wprm-recipe-container .wprm-recipe { background-color: #ffffff; } html body .wprm-recipe-container .wprm-recipe { border-color: #aaaaaa; } html body .wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-time-container { border-color: #aaaaaa; } html body .wprm-recipe-container .wprm-recipe .wprm-color-border { border-color: #aaaaaa; } html body .wprm-recipe-container a { color: #000000; } html body .wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-name { color: #000000; } html body .wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-header { color: #000000; } html body .wprm-recipe-container h1 { color: #000000; } html body .wprm-recipe-container h2 { color: #000000; } html body .wprm-recipe-container h3 { color: #000000; } html body .wprm-recipe-container h4 { color: #000000; } html body .wprm-recipe-container h5 { color: #000000; } html body .wprm-recipe-container h6 { color: #000000; } html body .wprm-recipe-container svg path { fill: #343434; } html body .wprm-recipe-container svg rect { fill: #343434; } html body .wprm-recipe-container svg polygon { stroke: #343434; } html body .wprm-recipe-container .wprm-rating-star-full svg polygon { fill: #343434; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent { background-color: #2c3e50; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent a.wprm-recipe-print { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent a.wprm-recipe-print:hover { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-header { background-color: #2c3e50; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-header { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-meta > div { background-color: #3498db; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-meta > div { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-meta > div a.wprm-recipe-print { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-meta > div a.wprm-recipe-print:hover { color: #ffffff; } .wprm-rating-star svg polygon { stroke: #343434; } .wprm-rating-star.wprm-rating-star-full svg polygon { fill: #343434; } html body .wprm-recipe-container .wprm-recipe-instruction-image { text-align: left; } html body .wprm-recipe-container li.wprm-recipe-ingredient { list-style-type: disc; } html body .wprm-recipe-container li.wprm-recipe-instruction { list-style-type: decimal; } .tippy-box[data-theme~="wprm"] { background-color: #333333; color: #FFFFFF; } .tippy-box[data-theme~="wprm"][data-placement^="top"] > .tippy-arrow::before { border-top-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="bottom"] > .tippy-arrow::before { border-bottom-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="left"] > .tippy-arrow::before { border-left-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="right"] > .tippy-arrow::before { border-right-color: #333333; } .tippy-box[data-theme~="wprm"] a { color: #FFFFFF; } .wprm-comment-rating svg { width: 18px !important; height: 18px !important; } img.wprm-comment-rating { width: 90px !important; height: 18px !important; } .wprm-comment-rating svg path { fill: #343434; } .wprm-comment-rating svg polygon { stroke: #343434; } .wprm-comment-ratings-container svg .wprm-star-full { fill: #343434; } .wprm-comment-ratings-container svg .wprm-star-empty { stroke: #343434; }</style><style type="text/css">.wprm-glossary-term {color: #5A822B;text-decoration: underline;cursor: help;}</style>    <style type="text/css">
+	
+		#header { padding-top:80px; padding-bottom:60px; }
+														
+		#wrapper { margin-top:20px; }				#wrapper { border-radius:px; }
+		#header { border-radius:px px 0 0; }
+						
+												
+						
+						
+																						
+																		
+												
+										
+										
+																												
+																				
+										
+						
+				
+    </style>
+    <script>
+(function() {
+	(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+		a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', 'https://google-analytics.com/analytics.js', 'ga');
+
+	ga('create', 'UA-6240436-1', 'auto');
+			ga('send', 'pageview');
+	})();
+</script>
+	
+</head>
+
+<body class="post-template-default single single-post postid-55475 single-format-standard">
+	
+	<div id="wrapper">
+	
+		<header id="header">
+		
+			<div class="container">
+				
+								<div id="top-social">
+					<a href="http://facebook.com/eatliverun" target="_blank"><i class="fa fa-facebook"></i></a>					<a href="http://twitter.com/eatliverun" target="_blank"><i class="fa fa-twitter"></i></a>					<a href="http://instagram.com/eatliverun" target="_blank"><i class="fa fa-instagram"></i></a>					<a href="http://pinterest.com/eatliverun" target="_blank"><i class="fa fa-pinterest"></i></a>																																													<a href="http://www.eatliverun.com/feed/" target="_blank"><i class="fa fa-rss"></i></a>				</div>
+								
+				<div id="logo">
+											
+													<h2><a href="https://www.eatliverun.com/"><img src="https://s6655.pcdn.co/wp-content/uploads/2017/01/elrlogonew.png" alt="Eat, Live, Run" /></a></h2>
+												
+									</div>
+				
+								<div id="top-search">
+					<form role="search" method="get" id="searchform" action="https://www.eatliverun.com/">
+		<input type="text" placeholder="Search and hit enter..." name="s" id="s" />
+		<i class="fa fa-search"></i>
+</form>				</div>
+							
+			</div>
+		
+		</header>
+		
+		<nav id="navigation">
+			
+			<div class="container">
+				
+				<div id="nav-wrapper">
+					<ul id="menu-primarynav" class="menu"><li id="menu-item-53501" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-53501"><a href="http://www.eatliverun.com">Home</a></li>
+<li id="menu-item-53502" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-53502"><a href="https://www.eatliverun.com/about/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-53843" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53843"><a href="https://www.eatliverun.com/work-with-us/">Work with Us</a></li>
+</ul>
+</li>
+<li id="menu-item-53505" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-53505"><a href="https://www.eatliverun.com/recipes/">Recipes</a>
+<ul class="sub-menu">
+	<li id="menu-item-53666" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-53666"><a href="https://www.eatliverun.com/category/recipes-2/main-course-2/">Main Courses</a>
+	<ul class="sub-menu">
+		<li id="menu-item-53674" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53674"><a href="https://www.eatliverun.com/category/recipes-2/beef-2/">Beef</a></li>
+		<li id="menu-item-53675" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53675"><a href="https://www.eatliverun.com/category/recipes-2/chicken-2/">Chicken</a></li>
+		<li id="menu-item-53679" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53679"><a href="https://www.eatliverun.com/category/recipes-2/pasta-2/">Pasta</a></li>
+		<li id="menu-item-53678" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53678"><a href="https://www.eatliverun.com/category/recipes-2/pork-recipes-2/">Pork</a></li>
+		<li id="menu-item-53677" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53677"><a href="https://www.eatliverun.com/category/recipes-2/sandwiches-recipes-2/">Sandwiches</a></li>
+		<li id="menu-item-53681" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-53681"><a href="https://www.eatliverun.com/category/recipes-2/seafood/">Seafood</a></li>
+		<li id="menu-item-53682" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53682"><a href="https://www.eatliverun.com/category/recipes-2/turkey-recipes-2/">Turkey</a></li>
+		<li id="menu-item-53676" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53676"><a href="https://www.eatliverun.com/category/recipes-2/vegetarian-2/">Vegetarian</a></li>
+	</ul>
+</li>
+	<li id="menu-item-53664" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53664"><a href="https://www.eatliverun.com/category/recipes-2/appetizers-2/">Appetizers</a></li>
+	<li id="menu-item-53665" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-53665"><a href="https://www.eatliverun.com/category/recipes-2/breads-2/">Breads</a>
+	<ul class="sub-menu">
+		<li id="menu-item-53696" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53696"><a href="https://www.eatliverun.com/category/recipes-2/muffins-scones/">Muffins &amp; Scones</a></li>
+	</ul>
+</li>
+	<li id="menu-item-53667" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53667"><a href="https://www.eatliverun.com/category/recipes-2/breakfast-recipes-2/">Breakfast</a></li>
+	<li id="menu-item-53513" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53513"><a href="https://www.eatliverun.com/category/recipes-2/canning-recipes-2/">Canning</a></li>
+	<li id="menu-item-53671" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-53671"><a href="https://www.eatliverun.com/category/dessert/">Dessert</a>
+	<ul class="sub-menu">
+		<li id="menu-item-53694" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53694"><a href="https://www.eatliverun.com/category/recipes-2/brownies-and-bars-recipes-2/">Brownies &#038; Bars</a></li>
+		<li id="menu-item-53689" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53689"><a href="https://www.eatliverun.com/category/recipes-2/cakes-2/">Cakes</a></li>
+		<li id="menu-item-53695" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53695"><a href="https://www.eatliverun.com/category/recipes-2/candy-recipes-2/">Candy</a></li>
+		<li id="menu-item-53691" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53691"><a href="https://www.eatliverun.com/category/recipes-2/cookies-2/">Cookies</a></li>
+		<li id="menu-item-53690" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53690"><a href="https://www.eatliverun.com/category/recipes-2/cupcakes-2/">Cupcakes</a></li>
+		<li id="menu-item-53692" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53692"><a href="https://www.eatliverun.com/category/recipes-2/pie-2/">Pies, Crisps &#038; Cobblers</a></li>
+		<li id="menu-item-53693" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53693"><a href="https://www.eatliverun.com/category/recipes-2/puddings-custards/">Puddings &amp; Custards</a></li>
+	</ul>
+</li>
+	<li id="menu-item-53683" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53683"><a href="https://www.eatliverun.com/category/recipes-2/drinks-2/">Drinks</a></li>
+	<li id="menu-item-53670" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53670"><a href="https://www.eatliverun.com/category/recipes-2/soup-recipes-2/">Soups / Stews</a></li>
+	<li id="menu-item-53668" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53668"><a href="https://www.eatliverun.com/category/recipes-2/side-dishes/">Side Dishes</a></li>
+	<li id="menu-item-53669" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53669"><a href="https://www.eatliverun.com/category/recipes-2/slow-cooker-2/">Slow Cooker</a></li>
+	<li id="menu-item-53687" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-53687"><a href="http://www.eatliverun.com/tag/kid-friendly/">Kid Friendly</a></li>
+</ul>
+</li>
+<li id="menu-item-53506" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-53506"><a href="https://www.eatliverun.com/elr-baby/">Family</a>
+<ul class="sub-menu">
+	<li id="menu-item-53636" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53636"><a href="https://www.eatliverun.com/category/family/mom-stuff/">Mom Stuff</a></li>
+</ul>
+</li>
+<li id="menu-item-53512" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53512"><a href="https://www.eatliverun.com/category/travel/">Travel</a></li>
+<li id="menu-item-53507" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-53507"><a href="https://www.eatliverun.com/category/behind-the-butter-3/">Behind The Butter</a>
+<ul class="sub-menu">
+	<li id="menu-item-53508" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-53508"><a href="https://www.eatliverun.com/category/books/">Books</a>
+	<ul class="sub-menu">
+		<li id="menu-item-53637" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53637"><a href="https://www.eatliverun.com/category/cookbook-reviews/">Cookbook Reviews</a></li>
+	</ul>
+</li>
+	<li id="menu-item-53638" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53638"><a href="https://www.eatliverun.com/category/confessions-of-a-food-blogger/">Confessions of a Food Blogger</a></li>
+	<li id="menu-item-53632" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53632"><a href="https://www.eatliverun.com/category/exercise/">Exercise</a></li>
+	<li id="menu-item-53635" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53635"><a href="https://www.eatliverun.com/category/fashion/">Fashion</a></li>
+	<li id="menu-item-53633" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53633"><a href="https://www.eatliverun.com/category/giveaways/">Giveaways</a></li>
+	<li id="menu-item-53514" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53514"><a href="https://www.eatliverun.com/category/photography/">Photography</a></li>
+	<li id="menu-item-53634" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53634"><a href="https://www.eatliverun.com/category/product-reviews/">Product Reviews</a></li>
+</ul>
+</li>
+<li id="menu-item-53504" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53504"><a href="https://www.eatliverun.com/contact/">Contact</a></li>
+<li id="menu-item-60553" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60553"><a href="https://www.eatliverun.com/privacy-policy/">Privacy</a></li>
+</ul>				</div>
+				
+				<div class="menu-mobile"></div>
+				
+					<div id="mobile-social">
+					
+					<a href="http://facebook.com/eatliverun" target="_blank"><i class="fa fa-facebook"></i></a>					<a href="http://twitter.com/eatliverun" target="_blank"><i class="fa fa-twitter"></i></a>					<a href="http://instagram.com/eatliverun" target="_blank"><i class="fa fa-instagram"></i></a>					<a href="http://pinterest.com/eatliverun" target="_blank"><i class="fa fa-pinterest"></i></a>																																													<a href="http://www.eatliverun.com/feed/" target="_blank"><i class="fa fa-rss"></i></a>					
+				</div>
+				
+			</div>
+			
+		</nav>	
+		
+	<div class="container">
+		
+		<div id="content">
+		
+			<div id="main" >
+			
+								
+					<article id="post-55475" class="post-55475 post type-post status-publish format-standard has-post-thumbnail hentry category-main-course-2 category-recipes-2 category-seafood tag-fish tag-quick-dinner tag-salmon tag-seafood">
+	
+	<div class="post-header">
+		
+				<span class="cat"><a href="https://www.eatliverun.com/category/recipes-2/main-course-2/" rel="category tag">Main Course</a><span>/</span> <a href="https://www.eatliverun.com/category/recipes-2/" rel="category tag">Recipes</a><span>/</span> <a href="https://www.eatliverun.com/category/recipes-2/seafood/" rel="category tag">Seafood</a></span>
+				
+					<h1>Honey Miso Glazed Salmon</h1>
+				
+	</div>
+	
+			
+								
+		
+	<div class="post-entry">
+		
+				
+			<p><img decoding="async" fetchpriority="high" class="alignnone size-full wp-image-55476" src="https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-1-1-of-1.jpg" alt="" width="2848" height="4272" srcset="https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-1-1-of-1.jpg 2848w, https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-1-1-of-1-200x300.jpg 200w, https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-1-1-of-1-768x1152.jpg 768w, https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-1-1-of-1-800x1200.jpg 800w, https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-1-1-of-1-1080x1620.jpg 1080w" sizes="(max-width: 2848px) 100vw, 2848px" /></p>
+<p>Happy Monday, friends!</p>
+<p>Here&#8217;s another super fast weeknight meal for you guys! This one came together in &#8211; wait for it &#8211; 10 MINUTES and everyone loved it so much. We have been loving the wild Alaskan salmon from <a href="https://prideofbristolbay.com/">Pride of Bristol Bay </a>lately, which is what I used to make this recipe. You guys know how passionate we are about teaching our kids where their food comes from and I have to say, over the past few years we have really started to eat less and less seafood because it hasn&#8217;t always been so easy to get truly sustainable fish that you can feel good about eating. Nowadays, we really just eat salmon and some wild shrimp on occasion, which is a huge change for me since I grew up in Florida eating tons of seafood! Anyway, cost is another factor, obviously. The good stuff costs money and as much as I love the wild King salmon that&#8217;s local to us here, I see it sometimes for as much as $30 a pound and that&#8217;s just crazy and not sustainable for a family of four (who really loves to eat!).&nbsp;</p>
+<p>I have been going on and on about<a href="https://prideofbristolbay.com/why-our-wild-sockeye-salmon/"> Pride of Bistol Bay</a> over on Instagram because I think it&#8217;s such a cool concept. Basically, you buy in bulk &#8212; enough to fill your freezer for a few months &#8212; and not only do you end up saving money but you also know <em>exactly</em> where your fish comes from, down to the name of the fishing district (aka fish neighborhood). The fish is flash frozen right after it&#8217;s harvested and shipped to your door on dry ice. I felt so good about filling my freezer with wonderful quality fish to feed my family&#8230;and it comes down to only about $14.99 a pound, which I feel like is a steal considering you know it&#8217;s truly sustainable and wild.</p>
+<p><span id="more-55475"></span></p>
+<p><img decoding="async" class="alignnone size-full wp-image-55477" src="https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-2-1-of-1.jpg" alt="" width="2848" height="4272" srcset="https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-2-1-of-1.jpg 2848w, https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-2-1-of-1-200x300.jpg 200w, https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-2-1-of-1-768x1152.jpg 768w, https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-2-1-of-1-800x1200.jpg 800w, https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-2-1-of-1-1080x1620.jpg 1080w" sizes="(max-width: 2848px) 100vw, 2848px" /></p>
+<p>Anyway, I have a discount code if you want to give this a try! <strong>Just enter the code &#8220;eatliverun&#8221; at checkout (you have to go through the whole checkout process first before you see the discount pop up, fyi) to get $1 off per pound.</strong> You guys know by now that I would never promote a product or company that I don&#8217;t truly believe in or stand behind, so feel rest assured that this definitely is ELR approved.</p>
+<p>But &#8211; back to the recipe! I whipped up a super quick and flavorful glaze using honey, mellow yellow miso paste and a little olive oil. I brushed this all over my beautiful fish then quickly roasted for only six minutes! It came out PERFECT. You definitely don&#8217;t want to overcook Sockeye. I, for one, love that it cooks so fast because that&#8217;s less time it takes for me to get dinner on the table. 😉&nbsp;</p>
+<p><img decoding="async" class="alignnone size-full wp-image-55478" src="https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-3-1-of-1.jpg" alt="" width="2848" height="4272" srcset="https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-3-1-of-1.jpg 2848w, https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-3-1-of-1-200x300.jpg 200w, https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-3-1-of-1-768x1152.jpg 768w, https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-3-1-of-1-800x1200.jpg 800w, https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-3-1-of-1-1080x1620.jpg 1080w" sizes="(max-width: 2848px) 100vw, 2848px" /></p>
+<p>The glaze is perfectly balanced sweet and savory and Grayson inhaled this. Salmon has always been his favorite food (which is why I am always looking for deals as to not break the bank on my three year old. Hah). Serve with rice, bok choy or any veggie combo.&nbsp;</p>
+<div id="recipe"></div><div id="wprm-recipe-container-55479" class="wprm-recipe-container" data-recipe-id="55479" data-servings="4"><div class="wprm-recipe wprm-recipe-tastefully-simple">
+	<div class="wprm-recipe-image-container">
+				<div class="wprm-recipe-image"><img width="150" height="150" src="https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-1-1-of-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy" srcset="https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-1-1-of-1-150x150.jpg 150w, https://s6655.pcdn.co/wp-content/uploads/2017/10/salmon-1-1-of-1-200x200.jpg 200w" sizes="(max-width: 150px) 100vw, 150px" /></div>
+		<div class="wprm-recipe-buttons">
+			<a href="https://www.eatliverun.com/wprm_print/55479" class="wprm-recipe-print wprm-color-accent" target="_blank" rel="nofollow">Print</a>
+		</div>
+	</div>
+	<div class="wprm-recipe-name wprm-color-header">Miso Honey Glazed Salmon</div>
+		<div class="wprm-recipe-summary">
+			</div>
+	<div class="wprm-recipe-details-container">
+						<div class="wprm-recipe-servings-container">
+			<span class="wprm-recipe-details-name wprm-recipe-servings-name">Servings</span>: <span class="wprm-recipe-details wprm-recipe-servings wprm-recipe-servings-55479">4</span> <span class="wprm-recipe-details-unit wprm-recipe-servings-unit">servings</span>
+		</div>
+							</div>
+
+		<div class="wprm-recipe-ingredients-container">
+		<div class="wprm-recipe-header wprm-color-header">Ingredients</div>
+				<div class="wprm-recipe-ingredient-group">
+						<ul class="wprm-recipe-ingredients">
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">1</span>
+															<span class="wprm-recipe-ingredient-unit">whole</span>
+										<span class="wprm-recipe-ingredient-name">salmon fillet </span>
+										<span class="wprm-recipe-ingredient-notes">or 4 5-oz portions</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">2</span>
+															<span class="wprm-recipe-ingredient-unit">tbsp</span>
+										<span class="wprm-recipe-ingredient-name">yellow or white miso paste</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">1</span>
+															<span class="wprm-recipe-ingredient-unit">tbsp</span>
+										<span class="wprm-recipe-ingredient-name">raw honey </span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">2</span>
+															<span class="wprm-recipe-ingredient-unit">tbsp</span>
+										<span class="wprm-recipe-ingredient-name">olive oil</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+															<span class="wprm-recipe-ingredient-name">kosher salt</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+															<span class="wprm-recipe-ingredient-name">sesame seeds for serving</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+															<span class="wprm-recipe-ingredient-name">minced fresh chives for serving</span>
+									</li>
+							</ul>
+		</div>
+	 	 	</div>
+			<div class="wprm-recipe-instructions-container">
+		<div class="wprm-recipe-header wprm-color-header">Instructions</div>
+				<div class="wprm-recipe-instruction-group">
+						<ol class="wprm-recipe-instructions">
+								<li class="wprm-recipe-instruction">
+										<div class="wprm-recipe-instruction-text"><p>Preheat oven to 425 degrees.</p></div>
+														</li>
+								<li class="wprm-recipe-instruction">
+										<div class="wprm-recipe-instruction-text"><p>In a small saucepot over medium heat, combine the miso paste, honey and olive oil. Cook until honey dissolves and you have a thick glaze.</p></div>
+														</li>
+								<li class="wprm-recipe-instruction">
+										<div class="wprm-recipe-instruction-text"><p>Sprinkle sea salt on your fish. Then, pour over glaze.&nbsp;</p></div>
+														</li>
+								<li class="wprm-recipe-instruction">
+										<div class="wprm-recipe-instruction-text"><p>Roast fish for 6 minutes (for about a 1" sockeye fillet. If you have a thicker piece of salmon, you will need to roast longer)&nbsp;</p></div>
+														</li>
+								<li class="wprm-recipe-instruction">
+										<div class="wprm-recipe-instruction-text"><p>Right when fish comes out of the oven, sprinkle with the chives and the sesame seeds and serve!</p></div>
+														</li>
+							</ol>
+		</div>
+			</div>
+				</div>
+</div>
+			
+				
+				
+									<div class="post-tags">
+				<a href="https://www.eatliverun.com/tag/fish/" rel="tag">fish</a><a href="https://www.eatliverun.com/tag/quick-dinner/" rel="tag">quick dinner</a><a href="https://www.eatliverun.com/tag/salmon/" rel="tag">salmon</a><a href="https://www.eatliverun.com/tag/seafood/" rel="tag">seafood</a>			</div>
+			
+						
+	</div>
+	
+		
+	<div class="post-meta">
+		
+		<div class="meta-info">
+			<span class="meta-text"><a href="https://www.eatliverun.com/honey-miso-glazed-salmon/">October 23, 2017</a></span> 
+			<span class="by">By</span> <span class="meta-text"><a href="https://www.eatliverun.com/author/jenna-2/" title="Posts by jenna" rel="author">jenna</a></span>		</div>
+		
+				<div class="meta-comments">
+			<a href="https://www.eatliverun.com/honey-miso-glazed-salmon/#comments">7 <i class="fa fa-comment-o"></i></a>		</div>
+				
+				<div class="post-share">
+			<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.eatliverun.com/honey-miso-glazed-salmon/"><i class="fa fa-facebook"></i></a>
+			<a target="_blank" href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20Honey+Miso+Glazed+Salmon&url=https://www.eatliverun.com/honey-miso-glazed-salmon/"><i class="fa fa-twitter"></i></a>
+						<a data-pin-do="none" target="_blank" href="https://pinterest.com/pin/create/button/?url=https://www.eatliverun.com/honey-miso-glazed-salmon/&media=https://www.eatliverun.com/wp-content/uploads/2017/10/salmon-1-1-of-1.jpg&description=Honey+Miso+Glazed+Salmon"><i class="fa fa-pinterest"></i></a>
+			<a target="_blank" href="https://plus.google.com/share?url=https://www.eatliverun.com/honey-miso-glazed-salmon/"><i class="fa fa-google-plus"></i></a>
+		</div>
+				
+	</div>
+		
+				
+				<div class="post-pagination">
+	
+		<a href="https://www.eatliverun.com/roasted-veggie-ravioli-brown-butter-sage-sauce/" class="prev"><i class="fa fa-angle-left"></i> Roasted Veggie Ravioli with Brown Butter Sage Sauce</a>
+		
+		<a href="https://www.eatliverun.com/14-favorite-pumpkin-recipes/" class="next">My 14 Favorite Pumpkin Recipes <i class="fa fa-angle-right"></i></a>
+		
+</div>
+			
+		
+						<div class="post-related"><h4 class="block-heading">You Might Also Like</h4>
+						<div class="item-related">
+					
+										<a href="https://www.eatliverun.com/snickers-pie/"><img width="307" height="460" src="https://s6655.pcdn.co/wp-content/uploads/2012/10/IMG_2924.jpg" class="attachment-sprout_spoon_misc-thumb size-sprout_spoon_misc-thumb wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://s6655.pcdn.co/wp-content/uploads/2012/10/IMG_2924.jpg 560w, https://s6655.pcdn.co/wp-content/uploads/2012/10/IMG_2924-150x225.jpg 150w, https://s6655.pcdn.co/wp-content/uploads/2012/10/IMG_2924-300x450.jpg 300w" sizes="(max-width: 307px) 100vw, 307px" /></a>
+										
+					<h3><a href="https://www.eatliverun.com/snickers-pie/">Lightened Up Snickers Pie</a></h3>
+					<span class="date">October 31, 2012</span>
+					
+				</div>
+						<div class="item-related">
+					
+										<a href="https://www.eatliverun.com/white-chocolate-valentines-day-krispie-treats/"><img width="307" height="460" src="https://s6655.pcdn.co/wp-content/uploads/2013/02/treats-7164.jpg" class="attachment-sprout_spoon_misc-thumb size-sprout_spoon_misc-thumb wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://s6655.pcdn.co/wp-content/uploads/2013/02/treats-7164.jpg 560w, https://s6655.pcdn.co/wp-content/uploads/2013/02/treats-7164-150x225.jpg 150w, https://s6655.pcdn.co/wp-content/uploads/2013/02/treats-7164-300x450.jpg 300w" sizes="(max-width: 307px) 100vw, 307px" /></a>
+										
+					<h3><a href="https://www.eatliverun.com/white-chocolate-valentines-day-krispie-treats/">White Chocolate Valentine&#8217;s Day Krispie Treats</a></h3>
+					<span class="date">February 8, 2013</span>
+					
+				</div>
+						<div class="item-related">
+					
+										<a href="https://www.eatliverun.com/oven-baked-beignets/"><img width="306" height="460" src="https://s6655.pcdn.co/wp-content/uploads/2011/03/IMG_6840.jpg" class="attachment-sprout_spoon_misc-thumb size-sprout_spoon_misc-thumb wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://s6655.pcdn.co/wp-content/uploads/2011/03/IMG_6840.jpg 560w, https://s6655.pcdn.co/wp-content/uploads/2011/03/IMG_6840-150x225.jpg 150w, https://s6655.pcdn.co/wp-content/uploads/2011/03/IMG_6840-300x450.jpg 300w" sizes="(max-width: 306px) 100vw, 306px" /></a>
+										
+					<h3><a href="https://www.eatliverun.com/oven-baked-beignets/">oven baked beignets</a></h3>
+					<span class="date">March 8, 2011</span>
+					
+				</div>
+		</div>			
+	<div class="post-comments" id="comments">
+	
+	<div class='comments'>		<li class="pingback even thread-even depth-1" id="comment-1053720">
+			
+			<div class="thecomment">
+						
+				<div class="author-img">
+									</div>
+				
+				<div class="comment-text">
+					<span class="reply">
+																	</span>
+					<h6 class="author"><a href="https://leohdouglas.wordpress.com/2017/10/23/honey-miso-glazed-salmon/" class="url" rel="ugc external nofollow">Honey Miso Glazed Salmon &#8211; Gym Buddies</a></h6>
+					<span class="date">October 23, 2017 at 3:00 pm</span>
+										<p>[&#8230;] post Honey Miso Glazed Salmon appeared first on Eat, Live, [&#8230;]</p>
+				</div>
+						
+			</div>
+			
+			
+		</li>
+
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-1053750">
+			
+			<div class="thecomment">
+						
+				<div class="author-img">
+					<img alt='' src='https://secure.gravatar.com/avatar/10487f270252837da90327c880717451?s=60&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/10487f270252837da90327c880717451?s=120&#038;d=mm&#038;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async'/>				</div>
+				
+				<div class="comment-text">
+					<span class="reply">
+																	</span>
+					<h6 class="author"><a href="http://www.coffeeavocados.co.uk" class="url" rel="ugc external nofollow">Rachel</a></h6>
+					<span class="date">October 24, 2017 at 5:07 am</span>
+										<p>Another delicious sounding meal and so quick!<br />
+We love having salmon as a midweek meal, thanks for sharing your recipe 😀</p>
+<p><a href="http://www.coffeeavocados.co.uk" rel="nofollow">Coffe &amp; Avocados</a></p>
+				</div>
+						
+			</div>
+			
+			
+		</li>
+
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-1053787">
+			
+			<div class="thecomment">
+						
+				<div class="author-img">
+					<img alt='' src='https://secure.gravatar.com/avatar/fb0325df6921bdcba2b1f227ed6b160a?s=60&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/fb0325df6921bdcba2b1f227ed6b160a?s=120&#038;d=mm&#038;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async'/>				</div>
+				
+				<div class="comment-text">
+					<span class="reply">
+																	</span>
+					<h6 class="author">Erika</h6>
+					<span class="date">October 24, 2017 at 4:08 pm</span>
+										<p>I made this tonight for dinner and I needed to get on here and tell you how ah-mazing it was! My husband said &#8220;I could eat this every night!&#8221; Thank you so much for posting 🙂</p>
+				</div>
+						
+			</div>
+			
+			
+		</li>
+
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-1053868">
+			
+			<div class="thecomment">
+						
+				<div class="author-img">
+					<img alt='' src='https://secure.gravatar.com/avatar/c97112d084b06442d4452212c3da9448?s=60&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c97112d084b06442d4452212c3da9448?s=120&#038;d=mm&#038;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async'/>				</div>
+				
+				<div class="comment-text">
+					<span class="reply">
+																	</span>
+					<h6 class="author">Elaine</h6>
+					<span class="date">October 25, 2017 at 5:55 pm</span>
+										<p>Made this for dinner tonight and it is so easy and so delicious. Thank you for sharing!!</p>
+				</div>
+						
+			</div>
+			
+			
+		</li>
+
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-1056325">
+			
+			<div class="thecomment">
+						
+				<div class="author-img">
+					<img alt='' src='https://secure.gravatar.com/avatar/b810b784eeaf58ca9258f28a20ebe6e4?s=60&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/b810b784eeaf58ca9258f28a20ebe6e4?s=120&#038;d=mm&#038;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async'/>				</div>
+				
+				<div class="comment-text">
+					<span class="reply">
+																	</span>
+					<h6 class="author">emily</h6>
+					<span class="date">December 1, 2017 at 3:21 pm</span>
+										<p>Got my bristol bay shipment today and made this. soooo amazing 🙂 thanks!</p>
+				</div>
+						
+			</div>
+			
+			
+		</li>
+
+		</li><!-- #comment-## -->
+		<li class="pingback odd alt thread-odd thread-alt depth-1" id="comment-1057065">
+			
+			<div class="thecomment">
+						
+				<div class="author-img">
+									</div>
+				
+				<div class="comment-text">
+					<span class="reply">
+																	</span>
+					<h6 class="author"><a href="https://prideofbristolbay.com/reflections-bristol-bay-2017-beyond-giving-thanks/" class="url" rel="ugc external nofollow">REFLECTIONS: BRISTOL BAY 2017 AND BEYOND ~ GIVING THANKS - Pride of Bristol Bay</a></h6>
+					<span class="date">December 13, 2017 at 1:58 pm</span>
+										<p>[&#8230;] <a href="http://www.eatliverun.com/honey-miso-glazed-salmon/" rel="ugc">http://www.eatliverun.com/honey-miso-glazed-salmon/</a> [&#8230;]</p>
+				</div>
+						
+			</div>
+			
+			
+		</li>
+
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-1138631">
+			
+			<div class="thecomment">
+						
+				<div class="author-img">
+					<img alt='' src='https://secure.gravatar.com/avatar/fec75922ffeb591646a9383e140f1d11?s=60&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/fec75922ffeb591646a9383e140f1d11?s=120&#038;d=mm&#038;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async'/>				</div>
+				
+				<div class="comment-text">
+					<span class="reply">
+																	</span>
+					<h6 class="author"><a href="https://greenann.com/recipe/mushrooms-avocado-pasta/" class="url" rel="ugc external nofollow">April Knight</a></h6>
+					<span class="date">November 21, 2019 at 9:01 am</span>
+										<p>OMG! It looks amazing!!)<br />
+Thanks for recipe!!)<br />
+Try this  &#8211; Grilled Sea Bream  <a href="https://mygreencookbook.com/grilled-sea-bream/" rel="nofollow ugc">https://mygreencookbook.com/grilled-sea-bream/</a><br />
+Soo yammy!)</p>
+				</div>
+						
+			</div>
+			
+			
+		</li>
+
+		</li><!-- #comment-## -->
+</div><div id='comments_pagination'></div>
+
+</div> <!-- end comments div -->	
+</article>						
+								
+								
+			</div>
+
+<aside id="sidebar">
+	
+	<div id="solopine_about_widget-3" class="widget solopine_about_widget"><h4 class="widget-title">About Jenna</h4>			
+			<div class="about-widget">
+				
+								<div class="about-img">
+					<a href="http://eatliverun.com/about"><img src="https://s6655.pcdn.co/wp-content/uploads/2017/02/JB_Feb_2017-73_300x.jpg" alt="About Jenna" /></a>				</div>
+								
+								<p><p align="center">Welcome to ELR! </p>
+
+On this site, you'll find a collection of my favorite recipes and stories. I'm a big fan of food --- real food --- and am passionate about celebrating life, one crumb at a time.</p>
+								
+								
+			</div>
+			
+		</div><div id="categories-2" class="widget widget_categories"><h4 class="widget-title">Categories</h4><form action="https://www.eatliverun.com" method="get"><label class="screen-reader-text" for="cat">Categories</label><select  name='cat' id='cat' class='postform'>
+	<option value='-1'>Select Category</option>
+	<option class="level-0" value="1093">Appetizers&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="498">Arts &amp; Crafts&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="1327">Baby&nbsp;&nbsp;(40)</option>
+	<option class="level-0" value="1465">Baby Food&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="474">Baking&nbsp;&nbsp;(27)</option>
+	<option class="level-0" value="1078">Beans and Legumes&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="1085">Beef&nbsp;&nbsp;(16)</option>
+	<option class="level-0" value="1">Behind The Butter&nbsp;&nbsp;(663)</option>
+	<option class="level-0" value="3">Books&nbsp;&nbsp;(80)</option>
+	<option class="level-0" value="1090">Breads&nbsp;&nbsp;(49)</option>
+	<option class="level-0" value="4">Breakfast&nbsp;&nbsp;(877)</option>
+	<option class="level-0" value="1253">Breakfast&nbsp;&nbsp;(34)</option>
+	<option class="level-0" value="1171">Brownies and Bars&nbsp;&nbsp;(21)</option>
+	<option class="level-0" value="1088">Cakes&nbsp;&nbsp;(41)</option>
+	<option class="level-0" value="1159">Candy&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="1415">Canning&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="1127">Chicken&nbsp;&nbsp;(28)</option>
+	<option class="level-0" value="1094">Condiments&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="509">Confessions of a Food Blogger&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="384">Cookbook Reviews&nbsp;&nbsp;(12)</option>
+	<option class="level-0" value="1121">Cookies&nbsp;&nbsp;(45)</option>
+	<option class="level-0" value="1588">Crackers&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="1077">Cupcakes&nbsp;&nbsp;(17)</option>
+	<option class="level-0" value="6">Dessert&nbsp;&nbsp;(642)</option>
+	<option class="level-0" value="7">Dinner&nbsp;&nbsp;(895)</option>
+	<option class="level-0" value="1189">DIY&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="1585">Donuts&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="1095">Drinks&nbsp;&nbsp;(29)</option>
+	<option class="level-0" value="579">Ethnic Food&nbsp;&nbsp;(17)</option>
+	<option class="level-0" value="8">Exercise&nbsp;&nbsp;(582)</option>
+	<option class="level-0" value="1583">Family&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="974">Fashion&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="1474">Fitness&nbsp;&nbsp;(585)</option>
+	<option class="level-0" value="1249">Frozen Desserts&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="1590">Fruit Desserts&nbsp;&nbsp;(22)</option>
+	<option class="level-0" value="463">Giveaways&nbsp;&nbsp;(33)</option>
+	<option class="level-0" value="913">Guest Bloggers&nbsp;&nbsp;(26)</option>
+	<option class="level-0" value="7250">Homeschool&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="10">Lunch&nbsp;&nbsp;(860)</option>
+	<option class="level-0" value="1091">Main Course&nbsp;&nbsp;(74)</option>
+	<option class="level-0" value="1434">Mom Stuff&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="1584">Most Popular&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="1081">Muffins &amp; Scones&nbsp;&nbsp;(21)</option>
+	<option class="level-0" value="1023">Music Monday&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="1074">Pasta&nbsp;&nbsp;(24)</option>
+	<option class="level-0" value="985">PBS&nbsp;&nbsp;(37)</option>
+	<option class="level-0" value="462">Photography&nbsp;&nbsp;(18)</option>
+	<option class="level-0" value="26">Pictures From France!&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="1076">Pie&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="1589">Pizza Dough&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="1155">Pork&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="32">Product Reviews&nbsp;&nbsp;(70)</option>
+	<option class="level-0" value="1111">Puddings &amp; Custards&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="1587">Quickbreads&nbsp;&nbsp;(12)</option>
+	<option class="level-0" value="479">Recaps&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="1035">Recipe Round-Up&nbsp;&nbsp;(14)</option>
+	<option class="level-0" value="477">Recipes&nbsp;&nbsp;(647)</option>
+	<option class="level-0" value="1082">Salads&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="1165">Sandwiches&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="1102">Seafood&nbsp;&nbsp;(32)</option>
+	<option class="level-0" value="493">Seasonal Ingredients&nbsp;&nbsp;(85)</option>
+	<option class="level-0" value="554">Seasonal Recipes&nbsp;&nbsp;(104)</option>
+	<option class="level-0" value="527">Side Dishes&nbsp;&nbsp;(28)</option>
+	<option class="level-0" value="1099">Slow Cooker&nbsp;&nbsp;(16)</option>
+	<option class="level-0" value="1133">Soup&nbsp;&nbsp;(28)</option>
+	<option class="level-0" value="897">Tasty Kitchen Blog&nbsp;&nbsp;(18)</option>
+	<option class="level-0" value="13">Travel&nbsp;&nbsp;(129)</option>
+	<option class="level-0" value="1140">Turkey&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="1142">Vegetables&nbsp;&nbsp;(14)</option>
+	<option class="level-0" value="1073">Vegetarian&nbsp;&nbsp;(46)</option>
+	<option class="level-0" value="242">Videos&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="1586">Yeast Breads&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="994">Yoga&nbsp;&nbsp;(7)</option>
+</select>
+</form>
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "cat" );
+	function onCatChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value > 0 ) {
+			dropdown.parentNode.submit();
+		}
+	}
+	dropdown.onchange = onCatChange;
+})();
+/* ]]> */
+</script>
+
+			</div><div id="archives-2" class="widget widget_archive"><h4 class="widget-title">Back in the Day</h4>		<label class="screen-reader-text" for="archives-dropdown-2">Back in the Day</label>
+		<select id="archives-dropdown-2" name="archive-dropdown">
+			
+			<option value="">Select Month</option>
+				<option value='https://www.eatliverun.com/2020/09/'> September 2020 </option>
+	<option value='https://www.eatliverun.com/2020/07/'> July 2020 </option>
+	<option value='https://www.eatliverun.com/2018/11/'> November 2018 </option>
+	<option value='https://www.eatliverun.com/2018/10/'> October 2018 </option>
+	<option value='https://www.eatliverun.com/2018/08/'> August 2018 </option>
+	<option value='https://www.eatliverun.com/2018/07/'> July 2018 </option>
+	<option value='https://www.eatliverun.com/2018/06/'> June 2018 </option>
+	<option value='https://www.eatliverun.com/2018/05/'> May 2018 </option>
+	<option value='https://www.eatliverun.com/2018/04/'> April 2018 </option>
+	<option value='https://www.eatliverun.com/2018/02/'> February 2018 </option>
+	<option value='https://www.eatliverun.com/2018/01/'> January 2018 </option>
+	<option value='https://www.eatliverun.com/2017/12/'> December 2017 </option>
+	<option value='https://www.eatliverun.com/2017/11/'> November 2017 </option>
+	<option value='https://www.eatliverun.com/2017/10/'> October 2017 </option>
+	<option value='https://www.eatliverun.com/2017/09/'> September 2017 </option>
+	<option value='https://www.eatliverun.com/2017/08/'> August 2017 </option>
+	<option value='https://www.eatliverun.com/2017/07/'> July 2017 </option>
+	<option value='https://www.eatliverun.com/2017/06/'> June 2017 </option>
+	<option value='https://www.eatliverun.com/2017/05/'> May 2017 </option>
+	<option value='https://www.eatliverun.com/2017/04/'> April 2017 </option>
+	<option value='https://www.eatliverun.com/2017/03/'> March 2017 </option>
+	<option value='https://www.eatliverun.com/2017/02/'> February 2017 </option>
+	<option value='https://www.eatliverun.com/2016/08/'> August 2016 </option>
+	<option value='https://www.eatliverun.com/2015/04/'> April 2015 </option>
+	<option value='https://www.eatliverun.com/2015/03/'> March 2015 </option>
+	<option value='https://www.eatliverun.com/2015/02/'> February 2015 </option>
+	<option value='https://www.eatliverun.com/2015/01/'> January 2015 </option>
+	<option value='https://www.eatliverun.com/2014/12/'> December 2014 </option>
+	<option value='https://www.eatliverun.com/2014/11/'> November 2014 </option>
+	<option value='https://www.eatliverun.com/2014/10/'> October 2014 </option>
+	<option value='https://www.eatliverun.com/2014/09/'> September 2014 </option>
+	<option value='https://www.eatliverun.com/2014/08/'> August 2014 </option>
+	<option value='https://www.eatliverun.com/2014/07/'> July 2014 </option>
+	<option value='https://www.eatliverun.com/2014/06/'> June 2014 </option>
+	<option value='https://www.eatliverun.com/2014/05/'> May 2014 </option>
+	<option value='https://www.eatliverun.com/2014/04/'> April 2014 </option>
+	<option value='https://www.eatliverun.com/2014/03/'> March 2014 </option>
+	<option value='https://www.eatliverun.com/2014/02/'> February 2014 </option>
+	<option value='https://www.eatliverun.com/2014/01/'> January 2014 </option>
+	<option value='https://www.eatliverun.com/2013/12/'> December 2013 </option>
+	<option value='https://www.eatliverun.com/2013/11/'> November 2013 </option>
+	<option value='https://www.eatliverun.com/2013/10/'> October 2013 </option>
+	<option value='https://www.eatliverun.com/2013/09/'> September 2013 </option>
+	<option value='https://www.eatliverun.com/2013/08/'> August 2013 </option>
+	<option value='https://www.eatliverun.com/2013/07/'> July 2013 </option>
+	<option value='https://www.eatliverun.com/2013/06/'> June 2013 </option>
+	<option value='https://www.eatliverun.com/2013/05/'> May 2013 </option>
+	<option value='https://www.eatliverun.com/2013/04/'> April 2013 </option>
+	<option value='https://www.eatliverun.com/2013/03/'> March 2013 </option>
+	<option value='https://www.eatliverun.com/2013/02/'> February 2013 </option>
+	<option value='https://www.eatliverun.com/2013/01/'> January 2013 </option>
+	<option value='https://www.eatliverun.com/2012/12/'> December 2012 </option>
+	<option value='https://www.eatliverun.com/2012/11/'> November 2012 </option>
+	<option value='https://www.eatliverun.com/2012/10/'> October 2012 </option>
+	<option value='https://www.eatliverun.com/2012/09/'> September 2012 </option>
+	<option value='https://www.eatliverun.com/2012/08/'> August 2012 </option>
+	<option value='https://www.eatliverun.com/2012/07/'> July 2012 </option>
+	<option value='https://www.eatliverun.com/2012/06/'> June 2012 </option>
+	<option value='https://www.eatliverun.com/2012/05/'> May 2012 </option>
+	<option value='https://www.eatliverun.com/2012/04/'> April 2012 </option>
+	<option value='https://www.eatliverun.com/2012/03/'> March 2012 </option>
+	<option value='https://www.eatliverun.com/2012/02/'> February 2012 </option>
+	<option value='https://www.eatliverun.com/2012/01/'> January 2012 </option>
+	<option value='https://www.eatliverun.com/2011/12/'> December 2011 </option>
+	<option value='https://www.eatliverun.com/2011/11/'> November 2011 </option>
+	<option value='https://www.eatliverun.com/2011/10/'> October 2011 </option>
+	<option value='https://www.eatliverun.com/2011/09/'> September 2011 </option>
+	<option value='https://www.eatliverun.com/2011/08/'> August 2011 </option>
+	<option value='https://www.eatliverun.com/2011/07/'> July 2011 </option>
+	<option value='https://www.eatliverun.com/2011/06/'> June 2011 </option>
+	<option value='https://www.eatliverun.com/2011/05/'> May 2011 </option>
+	<option value='https://www.eatliverun.com/2011/04/'> April 2011 </option>
+	<option value='https://www.eatliverun.com/2011/03/'> March 2011 </option>
+	<option value='https://www.eatliverun.com/2011/02/'> February 2011 </option>
+	<option value='https://www.eatliverun.com/2011/01/'> January 2011 </option>
+	<option value='https://www.eatliverun.com/2010/12/'> December 2010 </option>
+	<option value='https://www.eatliverun.com/2010/11/'> November 2010 </option>
+	<option value='https://www.eatliverun.com/2010/10/'> October 2010 </option>
+	<option value='https://www.eatliverun.com/2010/09/'> September 2010 </option>
+	<option value='https://www.eatliverun.com/2010/08/'> August 2010 </option>
+	<option value='https://www.eatliverun.com/2010/07/'> July 2010 </option>
+	<option value='https://www.eatliverun.com/2010/06/'> June 2010 </option>
+	<option value='https://www.eatliverun.com/2010/05/'> May 2010 </option>
+	<option value='https://www.eatliverun.com/2010/04/'> April 2010 </option>
+	<option value='https://www.eatliverun.com/2010/03/'> March 2010 </option>
+	<option value='https://www.eatliverun.com/2010/02/'> February 2010 </option>
+	<option value='https://www.eatliverun.com/2010/01/'> January 2010 </option>
+	<option value='https://www.eatliverun.com/2009/12/'> December 2009 </option>
+	<option value='https://www.eatliverun.com/2009/11/'> November 2009 </option>
+	<option value='https://www.eatliverun.com/2009/10/'> October 2009 </option>
+	<option value='https://www.eatliverun.com/2009/09/'> September 2009 </option>
+	<option value='https://www.eatliverun.com/2009/08/'> August 2009 </option>
+	<option value='https://www.eatliverun.com/2009/07/'> July 2009 </option>
+	<option value='https://www.eatliverun.com/2009/06/'> June 2009 </option>
+	<option value='https://www.eatliverun.com/2009/05/'> May 2009 </option>
+	<option value='https://www.eatliverun.com/2009/04/'> April 2009 </option>
+	<option value='https://www.eatliverun.com/2009/03/'> March 2009 </option>
+	<option value='https://www.eatliverun.com/2009/02/'> February 2009 </option>
+	<option value='https://www.eatliverun.com/2009/01/'> January 2009 </option>
+	<option value='https://www.eatliverun.com/2008/12/'> December 2008 </option>
+	<option value='https://www.eatliverun.com/2008/11/'> November 2008 </option>
+	<option value='https://www.eatliverun.com/2008/10/'> October 2008 </option>
+	<option value='https://www.eatliverun.com/2008/09/'> September 2008 </option>
+	<option value='https://www.eatliverun.com/2008/08/'> August 2008 </option>
+	<option value='https://www.eatliverun.com/2008/07/'> July 2008 </option>
+	<option value='https://www.eatliverun.com/2008/06/'> June 2008 </option>
+	<option value='https://www.eatliverun.com/2008/05/'> May 2008 </option>
+	<option value='https://www.eatliverun.com/2008/04/'> April 2008 </option>
+	<option value='https://www.eatliverun.com/2008/03/'> March 2008 </option>
+	<option value='https://www.eatliverun.com/2008/02/'> February 2008 </option>
+	<option value='https://www.eatliverun.com/2008/01/'> January 2008 </option>
+	<option value='https://www.eatliverun.com/2007/12/'> December 2007 </option>
+
+		</select>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "archives-dropdown-2" );
+	function onSelectChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value !== '' ) {
+			document.location.href = this.options[ this.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onSelectChange;
+})();
+/* ]]> */
+</script>
+			</div><div id="solopine_social_widget-3" class="widget solopine_social_widget"><h4 class="widget-title">Subscribe &#038; Follow</h4>		
+			<div class="social-widget">
+				<a href="http://facebook.com/eatliverun" target="_blank"><i class="fa fa-facebook"></i></a>				<a href="http://twitter.com/eatliverun" target="_blank"><i class="fa fa-twitter"></i></a>				<a href="http://instagram.com/eatliverun" target="_blank"><i class="fa fa-instagram"></i></a>				<a href="http://pinterest.com/eatliverun" target="_blank"><i class="fa fa-pinterest"></i></a>																																				<a href="http://www.eatliverun.com/feed/" target="_blank"><i class="fa fa-rss"></i></a>			</div>
+			
+			
+		</div><div id="solopine_latest_news_widget-3" class="widget solopine_latest_news_widget"><h4 class="widget-title">Latest Posts</h4>			
+							
+				<div class="side-pop list">
+					
+										<div class="side-pop-img">
+						<a href="https://www.eatliverun.com/homeschooling-2020-2021-update/" rel="bookmark"><img width="350" height="300" src="https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0646-350x300.jpg" class="attachment-sprout_spoon_side-thumb size-sprout_spoon_side-thumb wp-post-image" alt="" decoding="async" loading="lazy" /></a>
+					</div>
+										
+					<div class="side-pop-content">
+						<h4><a href="https://www.eatliverun.com/homeschooling-2020-2021-update/">Homeschooling 2020/2021 Update</a></h4>
+						<span class="date">September 24, 2020</span>					</div>
+				
+				</div>
+			
+							
+				<div class="side-pop list">
+					
+										<div class="side-pop-img">
+						<a href="https://www.eatliverun.com/our-charlotte-mason-homeschool/" rel="bookmark"><img width="350" height="300" src="https://s6655.pcdn.co/wp-content/uploads/2020/07/IMG_0038-2-350x300.jpg" class="attachment-sprout_spoon_side-thumb size-sprout_spoon_side-thumb wp-post-image" alt="" decoding="async" loading="lazy" /></a>
+					</div>
+										
+					<div class="side-pop-content">
+						<h4><a href="https://www.eatliverun.com/our-charlotte-mason-homeschool/">Our Charlotte Mason Homeschool, Fall 2020</a></h4>
+						<span class="date">July 31, 2020</span>					</div>
+				
+				</div>
+			
+							
+				<div class="side-pop list">
+					
+										<div class="side-pop-img">
+						<a href="https://www.eatliverun.com/welcome-brooks-monroe-birth-story/" rel="bookmark"><img width="350" height="300" src="https://s6655.pcdn.co/wp-content/uploads/2018/11/julialorraine-32-350x300.jpg" class="attachment-sprout_spoon_side-thumb size-sprout_spoon_side-thumb wp-post-image" alt="" decoding="async" loading="lazy" /></a>
+					</div>
+										
+					<div class="side-pop-content">
+						<h4><a href="https://www.eatliverun.com/welcome-brooks-monroe-birth-story/">Welcome Brooks Monroe (a birth story)</a></h4>
+						<span class="date">November 27, 2018</span>					</div>
+				
+				</div>
+			
+												
+		</div><div style="margin-bottom:20px;"  id="solopine_promo_widget-5" class="notitle noborder widget solopine_promo_widget">			
+			<div class="promo-item" style="background-image:url(https://s6655.pcdn.co/wp-content/uploads/2017/01/reader_favorites_tacos.png); height:130px;">
+				<a  href="http://www.eatliverun.com/tag/readerfavorite/"></a>								<div class="promo-overlay">
+					<h4>Reader Favorites</h4>
+				</div>
+							</div>
+			
+		</div><div style="margin-bottom:20px;"  id="solopine_promo_widget-7" class="notitle noborder widget solopine_promo_widget">			
+			<div class="promo-item" style="background-image:url(https://s6655.pcdn.co/wp-content/uploads/2017/01/seasonal_winter_soup.png); height:130px;">
+				<a  href="http://www.eatliverun.com/tag/summer/"></a>								<div class="promo-overlay">
+					<h4>Seasonal Recipes</h4>
+				</div>
+							</div>
+			
+		</div><div id="mc4wp_form_widget-3" class="widget widget_mc4wp_form_widget"><h4 class="widget-title">Email Newsletter</h4><script>(function() {
+	window.mc4wp = window.mc4wp || {
+		listeners: [],
+		forms: {
+			on: function(evt, cb) {
+				window.mc4wp.listeners.push(
+					{
+						event   : evt,
+						callback: cb
+					}
+				);
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.9.10 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-53961" method="post" data-id="53961" data-name="Newsletter" ><div class="mc4wp-form-fields"><div class="subscribe-box">
+ 
+    <div class="subscribe-text">
+      <h4>Never Miss a Recipe!</h4>
+      <p>Sign up and receive the latest posts via email.</p>
+    </div>
+    <div class="subscribe-form">
+      <input type="email" name="EMAIL" placeholder="Your email address" required />
+      <input type="submit" value="Subscribe" />
+    </div>
+</div></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1703715616" /><input type="hidden" name="_mc4wp_form_id" value="53961" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin --></div>	
+</aside>			
+			<!-- END CONTENT -->
+			</div>
+			
+		<!-- END CONTAINER -->
+		</div>
+		
+		<footer id="footer">
+			
+			<div id="instagram-footer">
+				<div id="null-instagram-feed-2" class="instagram-widget null-instagram-feed"><h4 class="instagram-title">Instagram</h4>Instagram has returned invalid data.<p class="clear"><a href="//instagram.com/eatliverun/" rel="me" target="_blank" class="">Follow Me!</a></p></div>			</div>
+			
+						<div id="footer-social">
+				<a href="http://facebook.com/eatliverun" target="_blank"><i class="fa fa-facebook"></i> <span>Facebook</span></a>				<a href="http://twitter.com/eatliverun" target="_blank"><i class="fa fa-twitter"></i> <span>Twitter</span></a>				<a href="http://instagram.com/eatliverun" target="_blank"><i class="fa fa-instagram"></i> <span>Instagram</span></a>				<a href="http://pinterest.com/eatliverun" target="_blank"><i class="fa fa-pinterest"></i> <span>Pinterest</span></a>																																				<a href="http://www.eatliverun.com/feed/" target="_blank"><i class="fa fa-rss"></i> <span>RSS</span></a>			</div>
+						
+		</footer>
+		
+	<!-- END WRAPPER -->
+	</div>
+	
+	<div id="footer-copyright">
+			
+		<div class="container">
+			<p class="left-copy">Copyright 2017 - <a href="http://eatliverun.com">Eat, Live, Run</a>. </p>
+			<a href="#" class="to-top">Top <i class="fa fa-angle-up"></i></a>			<p class="right-copy"></p>
+		</div>
+
+	</div>
+	
+	
+<!--Plugin WP Missed Schedule 2013.1231.2013 Active - Tag 6707293c0218e2d8b7aa38d418ffa608-->
+
+<!-- This website is patched against a big problem not solved from WordPress 2.5+ to date -->
+
+<script>window.wprm_recipes = {"recipe-55479":{"id":55479,"type":"food","name":"Miso Honey Glazed Salmon"}}</script><script>(function() {function maybePrefixUrlField () {
+  const value = this.value.trim()
+  if (value !== '' && value.indexOf('http') !== 0) {
+    this.value = 'http://' + value
+  }
+}
+
+const urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]')
+for (let j = 0; j < urlFields.length; j++) {
+  urlFields[j].addEventListener('blur', maybePrefixUrlField)
+}
+})();</script><link rel='stylesheet' id='wprm-public-css' href='https://s6655.pcdn.co/wp-content/plugins/wp-recipe-maker/dist/public-legacy.css?ver=9.1.0' type='text/css' media='all' />
+<script type='text/javascript' src='https://s6655.pcdn.co/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.8.5' id='swv-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/www.eatliverun.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s6655.pcdn.co/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.8.5' id='contact-form-7-js'></script>
+<script type='text/javascript' id='eafl-public-js-extra'>
+/* <![CDATA[ */
+var eafl_public = {"home_url":"https:\/\/www.eatliverun.com\/","ajax_url":"https:\/\/www.eatliverun.com\/wp-admin\/admin-ajax.php","nonce":"d1f190ef56"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s6655.pcdn.co/wp-content/plugins/easy-affiliate-links/dist/public.js?ver=3.7.2' id='eafl-public-js'></script>
+<script type='text/javascript' src='https://s6655.pcdn.co/wp-content/themes/sprout-spoon/js/jquery.sticky.js?ver=6.3.2' id='sticky-js'></script>
+<script type='text/javascript' src='https://s6655.pcdn.co/wp-content/themes/sprout-spoon/js/jquery.bxslider.min.js?ver=6.3.2' id='bxslider-js'></script>
+<script type='text/javascript' src='https://s6655.pcdn.co/wp-content/themes/sprout-spoon/js/jquery.slicknav.min.js?ver=6.3.2' id='slicknav-js'></script>
+<script type='text/javascript' src='https://s6655.pcdn.co/wp-content/themes/sprout-spoon/js/jQuery.print.js?ver=6.3.2' id='print-js'></script>
+<script type='text/javascript' src='https://s6655.pcdn.co/wp-content/themes/sprout-spoon/js/fitvids.js?ver=6.3.2' id='fitvids-js'></script>
+<script type='text/javascript' src='https://s6655.pcdn.co/wp-content/themes/sprout-spoon/js/solopine.js?ver=6.3.2' id='sprout_spoon_scripts-js'></script>
+<script type='text/javascript' src='https://s6655.pcdn.co/wp-includes/js/comment-reply.min.js?ver=6.3.2' id='comment-reply-js'></script>
+<script type='text/javascript' id='wprm-public-js-extra'>
+/* <![CDATA[ */
+var wprm_public = {"endpoints":{"analytics":"https:\/\/www.eatliverun.com\/wp-json\/wp-recipe-maker\/v1\/analytics"},"settings":{"features_comment_ratings":false,"template_color_comment_rating":"#343434","instruction_media_toggle_default":"on","video_force_ratio":false,"analytics_enabled":false,"google_analytics_enabled":false,"print_new_tab":true},"post_id":"55475","home_url":"https:\/\/www.eatliverun.com\/","print_slug":"wprm_print","permalinks":"\/%postname%\/","ajax_url":"https:\/\/www.eatliverun.com\/wp-admin\/admin-ajax.php","nonce":"8c20bd7d86","api_nonce":"d8bfcfb4f0","translations":[]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s6655.pcdn.co/wp-content/plugins/wp-recipe-maker/dist/public-legacy.js?ver=9.1.0' id='wprm-public-js'></script>
+<script type='text/javascript' defer src='https://s6655.pcdn.co/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.9.10' id='mc4wp-forms-api-js'></script>
+<script>!function(){"use strict";!function(e){if(-1===e.cookie.indexOf("__adblocker")){e.cookie="__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";var t=new XMLHttpRequest;t.open("GET","https://ads.adthrive.com/abd/abd.js",!0),t.onreadystatechange=function(){if(XMLHttpRequest.DONE===t.readyState)if(200===t.status){var a=e.createElement("script");a.innerHTML=t.responseText,e.getElementsByTagName("head")[0].appendChild(a)}else{var n=new Date;n.setTime(n.getTime()+3e5),e.cookie="__adblocker=true; expires="+n.toUTCString()+"; path=/"}},t.send()}}(document)}();
+</script><script>!function(){"use strict";var e;e=document,function(){var t,n;function r(){var t=e.createElement("script");t.src="https://cafemedia-com.videoplayerhub.com/galleryplayer.js",e.head.appendChild(t)}function a(){var t=e.cookie.match("(^|[^;]+)\\s*__adblocker\\s*=\\s*([^;]+)");return t&&t.pop()}function c(){clearInterval(n)}return{init:function(){var e;"true"===(t=a())?r():(e=0,n=setInterval((function(){100!==e&&"false"!==t||c(),"true"===t&&(r(),c()),t=a(),e++}),50))}}}().init()}();
+</script>	
+</body>
+
+</html>
