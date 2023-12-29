@@ -197,7 +197,7 @@ In some cases, a scraper is not able to support one or more of the mandatory fun
 You can check whether your scraper is passing the tests by running
 
 ```shell
-$ python -k unittest myscraper
+$ python -m unittest -k <test_file_name>
 ```
 
 where `myscraper` is the name of the json file without the `.json` extension.
