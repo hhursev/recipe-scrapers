@@ -1,55 +1,58 @@
 # mypy: disallow_untyped_defs=False
 import json
-import re
 
 from ._abstract import AbstractScraper
-from ._schemaorg import SchemaOrg
 
 
 class Mob(AbstractScraper):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
-        recipe_schema = None
-        for schema in self.soup.head.find_all("script", type="application/ld+json"):
-            recipe_schema = schema.find(string=re.compile('"@type":"Recipe"'))
-
-            if recipe_schema:
-                break
-
-        recipe_schema = json.loads(recipe_schema)
-        self.schema = SchemaOrg(recipe_schema, raw=True)
+        self.recipe_json = json.loads(
+            self.soup.find("script", {"id": "__NEXT_DATA__"}).get_text()
+        )["props"]["pageProps"]["recipe"]
 
     @classmethod
     def host(cls, domain="mob.co.uk"):
         return domain
 
     def author(self):
-        return self.schema.author()
+        return " & ".join([chef["title"] for chef in self.recipe_json.get("chefs", [])])
 
     def title(self):
-        return self.schema.title()
+        return self.recipe_json["title"]
 
     def category(self):
-        return self.schema.category()
+        return " & ".join([type["title"] for type in self.recipe_json.get("types", [])])
 
     def total_time(self):
-        return self.schema.total_time()
+        return self.recipe_json["time"]
 
     def yields(self):
-        return self.schema.yields()
+        return self.recipe_json["servingSize"]
 
     def image(self):
-        return self.schema.image()
+        return self.recipe_json["image"][0]["url"]
 
     def ingredients(self):
-        return self.schema.ingredients()
+        return [
+            ingredient["label"]
+            for ingredient in self.recipe_json.get("recipeIngredients", [])
+        ]
 
     def instructions(self):
-        return self.schema.instructions()
+        return "\n".join(
+            [
+                instruction["description"]
+                for instruction in self.recipe_json.get("method", [])
+            ]
+        )
 
     def cuisine(self):
-        return self.schema.cuisine()
+        return self.recipe_json["cuisines"][0]["title"]
 
     def description(self):
-        return self.schema.description()
+        return self.recipe_json["summary"]
+
+    def ratings(self):
+        return self.recipe_json["averageRating"]
