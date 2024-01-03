@@ -17,7 +17,7 @@ class Mob(AbstractScraper):
         return domain
 
     def author(self):
-        return " & ".join([chef["title"] for chef in self.recipe_json.get("chefs", [])])
+        return "Mob"
 
     def title(self):
         return self.recipe_json["title"]
@@ -34,10 +34,25 @@ class Mob(AbstractScraper):
     def image(self):
         return self.recipe_json["image"][0]["url"]
 
+    def ingredient_groups(self):
+        result = []
+        current_section = None
+
+        for item in self.recipe_json.get("recipeIngredients", []):
+            if item.get("typeHandle") == "header":
+                # If the item is a header, create a new section
+                current_section = {"ingredients": [], "purpose": item.get("heading")}
+                result.append(current_section)
+            elif item.get("typeHandle") == "ingredient" and current_section is not None:
+                # If the item is an ingredient and a section has been created, add it to the section
+                current_section["ingredients"].append(item.get("label"))
+        return result
+
     def ingredients(self):
         return [
             ingredient["label"]
             for ingredient in self.recipe_json.get("recipeIngredients", [])
+            if "label" in ingredient
         ]
 
     def instructions(self):
