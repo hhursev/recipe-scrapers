@@ -243,6 +243,7 @@ from .springlane import Springlane
 from .staysnatched import StaySnatched
 from .steamykitchen import SteamyKitchen
 from .streetkitchen import StreetKitchen
+from .strongrfastr import StrongrFastr
 from .sunbasket import SunBasket
 from .sundpaabudget import SundPaaBudget
 from .sunset import Sunset
@@ -368,6 +369,7 @@ SCRAPERS = {
     NutritionFacts.host(): NutritionFacts,
     PinchOfYum.host(): PinchOfYum,
     RicettePerBimby.host(): RicettePerBimby,
+    StrongrFastr.host(): StrongrFastr,
     ThePalatableLife.host(): ThePalatableLife,
     Thinlicious.host(): Thinlicious,
     DomesticateMe.host(): DomesticateMe,
