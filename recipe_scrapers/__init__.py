@@ -128,6 +128,7 @@ from .inspiralized import Inspiralized
 from .izzycooking import IzzyCooking
 from .jamieoliver import JamieOliver
 from .jimcooksfoodgood import JimCooksFoodGood
+from .joshuaweissman import JoshuaWeissman
 from .joyfoodsunshine import Joyfoodsunshine
 from .juliegoodwin import JulieGoodwin
 from .justataste import JustATaste
@@ -364,6 +365,7 @@ SCRAPERS = {
     FitSlowCookerQueen.host(): FitSlowCookerQueen,
     GrandFrais.host(): GrandFrais,
     HeatherChristo.host(): HeatherChristo,
+    JoshuaWeissman.host(): JoshuaWeissman,
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     NutritionFacts.host(): NutritionFacts,
     PinchOfYum.host(): PinchOfYum,
