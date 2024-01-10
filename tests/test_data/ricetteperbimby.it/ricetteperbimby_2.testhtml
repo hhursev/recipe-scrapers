@@ -1,0 +1,966 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html lang="it" class="ie8">
+<![endif]-->
+<!--[if IE 9]>
+<html lang="it" class="ie9">
+<![endif]-->
+<!--[if gte IE 10]><!-->
+<html lang="it">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8"><script>const eventList=["keydown","mousemove","wheel","touchmove","touchstart","touchend","mousedown"];function triggerScripts(e){console.log(e.type),eventList.forEach(e=>{window.removeEventListener(e,triggerScripts,{passive:!0})}),console.log("listener cancellati"),runScripts()}function runScripts(){console.log("script run"),document.querySelectorAll("script[type=myjsdelay]").forEach(e=>{var t=document.createElement("script");e.hasAttribute("src")?t.src=e.src:t.text=e.text,e.parentNode.replaceChild(t,e)})}window.addEventListener("DOMContentLoaded",()=>{console.log("domloaded"),eventList.forEach(e=>{window.addEventListener(e,triggerScripts,{passive:!0})})});</script>	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Cottage pie - Ricette Bimby</title>
+	<meta name="description" content="La cottage pie fatta col Bimby è un piatto unico della tradizione anglosassone a base di patate e di carne di manzo. Ecco la nostra ricetta facile e velocissima.">
+	<meta name="keywords" content="ricette,bimby,Cottage pie">
+
+		<meta name="robots" content="all, max-image-preview:large">
+		<meta name="GOOGLEBOT" content="NOODP">
+	
+		
+	<link rel="canonical" href="https://www.ricetteperbimby.it/ricette/cottage-pie-bimby">	
+	
+
+	
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-56404337-1', 'auto');
+	ga('require', 'displayfeatures');
+	ga('send', 'pageview');  
+ga('set', 'dimension1', 'withtext' );  
+
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0112K5DKXW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0112K5DKXW');
+</script>
+	
+
+	
+	<!--[if lt IE 9]>
+				<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+				<script src="http://s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+		<script type="text/javascript" src="js/selectivizr-min.js"></script>
+	<![endif]-->
+
+	
+	
+	<!--foglio di stile -->
+	<link rel="stylesheet" type="text/css" href="https://www.ricetteperbimby.it/css/main.min.css?v=1695913813">
+	
+
+	
+	<!-- script essenziali -->
+	<script type="text/javascript">
+		var GLOBAL_site_url = 'https://www.ricetteperbimby.it';
+	</script>
+	
+	
+	<!-- FAVICONS -->
+	<link rel="shortcut icon" href="/favicons/favicon.ico">
+	
+	<link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png">
+
+	<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="/favicons/favicon-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/favicons/favicon-160x160.png" sizes="160x160">
+	<link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+
+	<!-- ios smart banner app -->
+		<meta name="apple-itunes-app" content="app-id=960733511, affiliate-data=pt=105559841&ct=websitetopbar, app-argument=bimbyapp://home">
+		
+			<!-- thumb meta -->
+		<meta name="thumbnail" content="https://www.ricetteperbimby.it/foto-ricette/cottage-pie-bimby.jpg" />
+		
+	<!-- FACEBOOK meta -->
+	<meta property="fb:admins" content="1346543021" />
+	<meta property="fb:app_id" content="1417752621886070" />
+	<meta property="fb:pages" content="1038141886203094" />
+	
+	
+	<!-- Share META -->
+	<meta property="og:site_name" content="Ricetteperbimby.it" />
+	<meta property="og:title" content="Cottage pie" />
+	<meta property="og:description" content="La cottage pie fatta col Bimby è un piatto unico della tradizione anglosassone a base di patate e di carne di manzo. Ecco la nostra ricetta facile e velocissima." />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="https://www.ricetteperbimby.it/ricette/cottage-pie-bimby" />
+	<meta property="og:image" content="https://www.ricetteperbimby.it/foto-ricette/cottage-pie-bimby.jpg" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:image:width" content="800" />
+	<meta property="og:image:height" content="450" />
+
+
+	<meta property="og:locale" content="it_IT" />
+	
+	
+			<script type="application/ld+json">
+		{
+			"@context": "https://schema.org/",
+			"@type": "Recipe",
+			"name": "Cottage pie",
+			"mainEntityOfPage" : "True",
+			"image": "https://www.ricetteperbimby.it/foto-ricette/cottage-pie-bimby.jpg",
+			"author": {
+				"@type": "Person",
+				"name": "Claudia Cornia"
+			},
+			"datePublished": "2021-04-26",
+			 
+				"dateModified": "2023-03-23", 
+			
+			 
+				"description": "La cottage pie fatta col Bimby è un piatto unico della tradizione anglosassone a base di patate e di carne di manzo. Ecco la nostra ricetta facile e velocissima.", 
+						"prepTime": "PT20M",
+			"cookTime": "PT1H10M",
+			"totalTime": "PT1H30M",			
+			"recipeYield": "4 stampini oppure pirofila 20 cm x 20 cm",
+
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"bestRating": "5",
+				"ratingCount": 4,
+				"ratingValue": 5
+			},
+			
+			"keywords": "Forno,Dal mondo,Senza lievito,Senza uova",
+			"recipeCategory": "Secondi Piatti",
+			"recipeCuisine": "Francese",
+			"recipeIngredient": ["mezza cipolla","1 carote","1 sedano","1 spicchio (tritato) aglio","15 g olio extravergine di oliva","400 g macinato di manzo","1 cucchiaino raso sale fino","q.b. pepe","1 cucchiaino vino bianco","1 cucchiaino farina 00","2 cucchiaini pomodoro concentrato","100 g brodo vegetale","2 cucchiaini salsa worcester","2 cucchiaini (tritato) rosmarino","140 g (lessati) piselli","700 g a buccia rossa (pulite) patate","1 cucchiaino raso sale fino","250 g latte","20 g + q.b. burro","q.b. noce moscata","q.b. pangrattato"],
+			"recipeInstructions": [{"@type":"HowToStep","text":"Mettere nel boccale la cipolla, la carota e il sedano a pezzetti e l'aglio: 5 sec. vel. 5."},{"@type":"HowToStep","text":"Raccogliere sul fondo: 5 sec. vel. 5."},{"@type":"HowToStep","text":"Aggiungere l'olio: 3 min. 120\u00b0 vel. 1 senza misurino."},{"@type":"HowToStep","text":"Aggiungere la carne, il sale, il pepe e il vino: 5 min. 120\u00b0 vel. 1."},{"@type":"HowToStep","text":"Aggiungere la farina: 1 min. 120\u00b0 vel. 1."},{"@type":"HowToStep","text":"Aggiungere il pomodoro concentrato, il brodo, la salsa e il rosmarino: 6 min. 120\u00b0 vel. 1 con il cestello al posto del misurino."},{"@type":"HowToStep","text":"Aggiungere i piselli: 4 min. 120\u00b0 vel. 1 antiorario con il cestello al posto del misurino."},{"@type":"HowToStep","text":"Versare in una ciotola e mettere da parte."},{"@type":"HowToStep","text":"Posizionare la farfalla e mettere nel boccale (pulito e asciutto) le patate a rondelle spesse 1 cm, il sale e il latte: 30 min. 95\u00b0 vel. 1 con il cestello al posto del misurino."},{"@type":"HowToStep","text":"Aggiungere il burro (20 g) e la noce moscata: 30 sec. vel. 3."},{"@type":"HowToStep","text":"Negli stampini distribuire la carne messa da parte, coprire con il pur\u00e8 del boccale, aggiungere in superficie fiocchetti di burro e cospargere con il pangrattato."},{"@type":"HowToStep","text":"Infornare in forno preriscaldato statico a 220\u00b0 per 20 minuti."},{"@type":"HowToStep","text":"Poi posizionare gli stampini sotto il grill acceso per 3 minuti."},{"@type":"HowToStep","text":"Lasciare riposare 15 minuti prima di servire."}]
+
+		}
+		</script>
+
+	
+	
+
+	
+	
+
+	
+</head>
+<body>
+	
+	<div class="wrapper cf">
+		<header class="cf">
+
+						
+				<div class="header-title">
+					<a class="logo" href="https://www.ricetteperbimby.it">
+						<img width="362" height="90" src="https://www.ricetteperbimby.it/images/logo.jpg" alt="Ricette Bimby">
+					</a>
+
+					<div id="header-social"></div>
+				</div>			
+				
+		
+
+			<nav class="header-menu">
+
+				<div class="btn-menu">Menù</div>
+
+				<ul>
+					<li class="mobile-menu-header"><span>menù</span><div class="btn-close"></div></li>
+
+					<li><a href="https://www.ricetteperbimby.it">Home</a></li>
+
+					<!-- bimby -->
+					<li><span>Bimby</span>
+						<ul class="submenu">
+							<li class="submenu-back"><span>Torna indietro</span></li>
+							<li><a href="https://www.ricetteperbimby.it/bimby.php">Come funziona il Bimby</a></li>
+							<li><a href="https://www.ricetteperbimby.it/bimby-tm6.php">Bimby TM6: il nuovo modello</a></li>
+							<li><a href="https://www.ricetteperbimby.it/bimby-tm5.php">Bimby TM5</a></li>
+							<li><a href="https://www.ricetteperbimby.it/bimby-tm31.php">Bimby TM31</a></li>
+							<li><a href="https://www.ricetteperbimby.it/modelli-di-bimby.php">Modelli precedenti</a></li>
+							<li><a href="https://www.ricetteperbimby.it/cottura-al-vapore-varoma-bimby.php">Varoma</a></li>
+							<li><a href="https://www.ricetteperbimby.it/conversioni-velocita-modelli-di-bimby.php">Conversione TM5 TM31 TM21</a></li>
+							<li><a href="https://www.ricetteperbimby.it/faq.php">Domande frequenti</a></li>
+							<li><a href="https://www.ricetteperbimby.it/ricambi-bimby.php">Ricambi per Bimby</a></li>
+						</ul>
+					</li>
+
+					<!-- ricette -->
+					<li class="featured"><span>Ricette</span>
+						<ul class="submenu">
+							<li class="submenu-back"><span>Torna indietro</span></li>
+							
+														<li>
+																	<span>Antipasti</span>
+									<ul class="submenu">
+										<li class="submenu-back"><span>Torna a Antipasti</span></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/antipasti-di-carne">Antipasti di Carne</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/antipasti-di-pesce">Antipasti di Pesce</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/antipasti-di-verdure">Antipasti di Verdure</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/antipasti-di-formaggi">Antipasti di Formaggi</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/antipasti-di-salumi">Antipasti di Salumi</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/sfizi">Sfizi</a></li>
+																			</ul>	
+															</li>
+														<li>
+																	<span>Primi Piatti</span>
+									<ul class="submenu">
+										<li class="submenu-back"><span>Torna a Primi Piatti</span></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/pasta-con-carne">Pasta con Carne</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/pasta-con-pesce">Pasta con Pesce</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/riso-con-carne">Riso con Carne</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/riso-con-pesce">Riso con Pesce</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/gnocchi-pasta-ripiena">Gnocchi e Pasta Ripiena</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/lasagne-cannelloni-pasta-al-forno">Lasagne, Cannelloni e Pasta al forno</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/minestre-creme-zuppe">Minestre, Creme e Zuppe</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/pasta-con-formaggio">Pasta con Formaggio</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/pasta-con-funghi">Pasta con Funghi</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/pasta-con-molluschi">Pasta con Molluschi</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/pasta-con-salumi">Pasta con Salumi</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/pasta-con-verdure">Pasta con Verdure</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/polenta">Polenta</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/pasta-con-legumi">Pasta con Legumi</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/riso-con-verdure">Riso con Verdure</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/pasta">Pasta</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/riso">Riso</a></li>
+																			</ul>	
+															</li>
+														<li>
+																	<span>Secondi Piatti</span>
+									<ul class="submenu">
+										<li class="submenu-back"><span>Torna a Secondi Piatti</span></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/carne-di-maiale">Carne di Maiale</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/carne-rossa">Carne Rossa</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/pollo-coniglio-carne-bianca">Pollo e coniglio (carne bianca)</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/pesce">Pesce</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/frittate-omelette-crepes">Frittate, Omelette e Crepes</a></li>
+																			</ul>	
+															</li>
+														<li>
+																	<a href="https://www.ricetteperbimby.it/categoria/burger-cotolette">Burger e Cotolette</a>
+															</li>
+														<li>
+																	<span>Contorni</span>
+									<ul class="submenu">
+										<li class="submenu-back"><span>Torna a Contorni</span></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/contorni-con-patate">Contorni con Patate</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/contorni-con-verdure">Contorni con Verdure</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/contorni-con-funghi">Contorni con Funghi</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/insalate">Insalate</a></li>
+																			</ul>	
+															</li>
+														<li>
+																	<span>Piatti Rustici</span>
+									<ul class="submenu">
+										<li class="submenu-back"><span>Torna a Piatti Rustici</span></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/panini-tramezzini">Panini e Tramezzini</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/bruschette-crostini">Bruschette e Crostini</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/torte-salate">Torte Salate</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/pizze">Pizze</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/pane-focacce">Pane e Focacce</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/calzoni">Calzoni</a></li>
+																			</ul>	
+															</li>
+														<li>
+																	<span>Dolci e Dessert</span>
+									<ul class="submenu">
+										<li class="submenu-back"><span>Torna a Dolci e Dessert</span></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/biscotti-dolcetti">Biscotti e Dolcetti</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/dolci-al-cucchiaio">Dolci al Cucchiaio</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/paste-fresche">Paste Fresche</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/torte">Torte</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/creme">Creme</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/gelati-semifreddi">Gelati e Semifreddi</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/cheesecake">Cheesecake</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/crostate">Crostate</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/muffin-cupcake">Muffin e Cupcake</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/plumcake">Plumcake</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/ciambelle-ciambelloni">Ciambelle e Ciambelloni</a></li>
+																			</ul>	
+															</li>
+														<li>
+																	<span>Drink</span>
+									<ul class="submenu">
+										<li class="submenu-back"><span>Torna a Drink</span></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/cocktail">Bevande e Cocktail</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/frappe-frullati-sorbetti-granite">Frappé, Frullati, Sorbetti e Granite</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/caffe-the-tisane">Caffè, the e tisane</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/liquori">Liquori</a></li>
+																			</ul>	
+															</li>
+														<li>
+																	<a href="https://www.ricetteperbimby.it/categoria/piatti-unici">Piatti Unici</a>
+															</li>
+														<li>
+																	<a href="https://www.ricetteperbimby.it/categoria/marmellate">Marmellate</a>
+															</li>
+														<li>
+																	<a href="https://www.ricetteperbimby.it/categoria/sughi-salse-condimenti">Sughi, Salse e condimenti</a>
+															</li>
+														<li>
+																	<a href="https://www.ricetteperbimby.it/categoria/polpette">Polpette</a>
+															</li>
+														<li>
+																	<a href="https://www.ricetteperbimby.it/categoria/conserve">Conserve</a>
+															</li>
+														<li>
+																	<a href="https://www.ricetteperbimby.it/categoria/basi-preparati">Basi e preparati</a>
+															</li>
+														<li>
+																	<a href="https://www.ricetteperbimby.it/categoria/amici-animali">Amici animali</a>
+															</li>
+														<li>
+																	<span>Neonati</span>
+									<ul class="submenu">
+										<li class="submenu-back"><span>Torna a Neonati</span></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/neonati-6-mesi">6 mesi</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/neonati-8-mesi">8 mesi</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/neonati-10-mesi">10 mesi</a></li>
+																				<li><a href="https://www.ricetteperbimby.it/categoria/neonati-12-mesi">12 mesi</a></li>
+																			</ul>	
+															</li>
+														<li><a href="https://www.ricetteperbimby.it/categoria">TUTTE LE CATEGORIE</a></li>
+							<li><a href="https://www.ricetteperbimby.it/ricette">TUTTE LE RICETTE</a></li>
+						</ul>
+					</li>
+					
+					<!-- Tags -->
+					<li><span>Speciali</span>
+						<ul class="submenu">
+							<li class="submenu-back"><span>Torna indietro</span></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/pasqua">Pasqua</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/natale">Natale</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/capodanno">Capodanno</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/carnevale">Carnevale</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/san-valentino">San Valentino</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/halloween">Halloween</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/primo-novembre">Primo Novembre</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/festa-papa">Festa del papà</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/festa-donna">Festa della donna</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/befana">Befana - Epifania</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/festa-mamma">Festa della Mamma</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/senza-zucchero">Senza zucchero</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/senza-glutine">Senza glutine</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/senza-latticini">Senza latticini</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/senza-uova">Senza uova</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/senza-lievito">Senza lievito</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/senza-burro">Senza burro</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/vegetariana">Vegetariana</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/vegana">Vegana</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/salutare">Salutare</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/dietetica">Dietetica</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/leggera">Leggera</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/dal-mondo">Dal mondo</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/regionali">Regionali</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/microonde">Microonde</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/fritti">Fritti</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/forno">Forno</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/varoma">Varoma</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/senza-cottura">Senza cottura</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/pasta-risottata">Pasta risottata</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/facilissima">Facilissima</a></li>
+															<li><a href="https://www.ricetteperbimby.it/ricette-speciali/bambini">Bambini</a></li>
+														<li><a href="https://www.ricetteperbimby.it/ricette-speciali">TUTTE LE RICETTE SPECIALI</a></li>
+						</ul>
+					</li>					
+
+					<!-- Guide, Tutorial, Articoli -->
+					<li><span>Blog / Magazine&nbsp;</span>
+						<ul class="submenu">
+							<li class="submenu-back"><span>Torna indietro</span></li>
+															<li><a href="https://www.ricetteperbimby.it/blog/tutorial">Tutorial</a></li>
+															<li><a href="https://www.ricetteperbimby.it/blog/lifestyle">Lifestyle</a></li>
+														<li><a href="https://www.ricetteperbimby.it/blog">TUTTI GLI ARTICOLI</a></li>
+							
+						</ul>
+					</li>
+
+					<!-- altro -->
+					<!--<li><a href="https://www.ricetteperbimby.it/foto-ricette-bimby">Foto</a></li>-->
+					
+					
+					
+				</ul>
+				
+				<div class="search-btn-secondary"></div>
+				<form class="search" action="https://www.ricetteperbimby.it/index.php">
+					<input class="search-text" type="text" name="s" placeholder="Cerca..." autocomplete="off">	
+					<button class="search-btn" aria-label="Cerca" type="submit"></button>
+
+					<div id="search-autocomplete"></div>
+				</form>
+
+			</nav>
+			
+		</header>
+
+	
+
+
+
+
+
+
+<section class="content">
+
+	
+	<article class="page">
+
+		
+
+		<section class="breadcrumb cf">
+			<ul>
+				<li><a href="https://www.ricetteperbimby.it">Home</a></li>
+
+									<li><a href="https://www.ricetteperbimby.it/categoria/secondi-piatti">Secondi Piatti</a></li>	
+								
+									<li><a href="https://www.ricetteperbimby.it/categoria/carne-rossa">Carne Rossa</a></li>	
+							</ul>
+		</section>
+		
+
+		<div class="content-padding">
+			
+			<div class="ricetta-header">
+				<script type="text/javascript">
+				const rateurl='https://www.ricetteperbimby.it/rate.php';const ratingRoutine=function(){let e=null,n=null,r=null,o=null,a=null,l="content-",s=0,i=!1;const c=document.getElementById("ratebox").getAttribute("data-img-full"),d=document.getElementById("ratebox").getAttribute("data-img-empty");function u(t=null){!0!==i&&(i=!0,r.classList.add("working"),fetch(rateurl,{headers:{Accept:"application/json, text/plain, */*","Content-Type":"application/json"},method:"post",body:JSON.stringify(t)}).then(t=>{if(t.ok)return t.json();throw new Error("Errore comunicazione server")}).then(t=>{localStorage.setItem(l+a,"1"),e.remove(),r.innerHTML='<div class="votemsg">Grazie del tuo voto!<div>',setInterval(()=>{r.querySelector(".votemsg")?.classList.add("fade")},3e3)}).catch(t=>{console.log("errore")}).finally(()=>{r.classList.remove("show","working"),i=!1}))}function m(e){for(let t=0;t<stars.length;t++){var n=stars[t],r=n.getAttribute("data-val");n.src=r<=e?c:d}}return{init(){e=document.getElementById("btn-rate-show"),n=document.getElementById("btn-rate-submit"),stars=document.querySelectorAll("#ratebox .modal-rate .stars img"),r=document.getElementById("ratebox"),a=r.getAttribute("data-val"),o=n.querySelector("span");a;var t=localStorage.getItem(l+a);if(null!==t&&"1"===t)e.remove();else{r.querySelector(".modal-rate .close").addEventListener("click",()=>{r.classList.remove("show")}),e.addEventListener("click",()=>{o.innerHTML="",s=0,n.classList.remove("show"),m(0),r.classList.add("show")}),n.addEventListener("click",()=>{u({id:a,rate:s})});for(let t=0;t<stars.length;t++)stars[t].addEventListener("click",t=>{t=t.target.getAttribute("data-val");m(t),s=t,o.innerHTML=s,n.classList.add("show")})}console.log("init rate OK")}}};document.addEventListener("DOMContentLoaded",()=>{ratingRoutine().init()});				</script>
+				<div class="rate" id="ratebox" data-val="OTg2Mg==" data-img-full="https://www.ricetteperbimby.it/svg/star.svg" data-img-empty="https://www.ricetteperbimby.it/svg/star-empty.svg">
+					<div class="result">
+
+													<img src="https://www.ricetteperbimby.it/svg/star.svg" width="22" height="22" alt="voto stella">
+							<span class="avgrate">5</span>	
+												
+
+						<button id="btn-rate-show" class="btnrate">VOTA</button>
+					</div>
+					
+					<div class="modal-rate">
+						<div class="modal-content">
+
+							<div class="header">
+								<div class="text">Scegli un voto da 1 a 5 stelle</div>	
+								<img class="close" src="https://www.ricetteperbimby.it/svg/close.svg" width="24" height="24" alt="chiudi voto">
+							</div>				
+							
+							<div class="stars">
+								<img src="https://www.ricetteperbimby.it/svg/star-empty.svg" width="50" height="50" data-val="1" alt="voto 1 stella" title="voto 1 stella">
+								<img src="https://www.ricetteperbimby.it/svg/star-empty.svg" width="50" height="50" data-val="2" alt="voto 2 stelle" title="voto 2 stelle">
+								<img src="https://www.ricetteperbimby.it/svg/star-empty.svg" width="50" height="50" data-val="3" alt="voto 3 stelle" title="voto 4 stelle">
+								<img src="https://www.ricetteperbimby.it/svg/star-empty.svg" width="50" height="50" data-val="4" alt="voto 4 stelle" title="voto 5 stelle">
+								<img src="https://www.ricetteperbimby.it/svg/star-empty.svg" width="50" height="50" data-val="5" alt="voto 5 stelle" title="voto 5 stelle">
+							</div>
+							<button type="button" class="btnrate" id="btn-rate-submit">Conferma voto <span></span></button>
+						</div>
+					</div>
+
+				</div>
+				
+				<h1 class="page-title">Cottage pie</h1>
+			</div>
+
+			<h2 class="ricetta-compatibilita">
+				Ricetta compatibile con Bimby TM6,TM5,TM31 e TM21				
+			</h2>
+
+
+			<img class="img-fullwidth" src="https://www.ricetteperbimby.it/foto-ricette/cottage-pie-bimby.jpg" alt="Cottage pie" width="800" height="450">
+
+			
+			<div class="infobox">
+				<div class="box1">
+					<img src="https://www.ricetteperbimby.it/svg/difficolta.svg" alt="Difficoltà">
+					<label>Difficoltà</label>
+				</div>
+				<span>media</span>
+			</div>
+
+			
+
+			<div class="infobox">
+				<div class="box1">
+					<img src="https://www.ricetteperbimby.it/svg/tempo.svg" alt="Tempo totale">
+					<label>Tempo totale</label>
+				</div>
+				<span>1 ora 30 minuti</span>
+			</div>
+
+			<div class="infobox-group">		
+			
+								<div class="infobox">
+					<div class="box1">
+						<img src="https://www.ricetteperbimby.it/svg/preparazione.svg" alt="Tempo di preparazione">
+						<label>Preparazione</label>
+					</div>
+					<span>20 minuti</span>
+				</div>
+								
+								<div class="infobox">
+					<div class="box1">
+						<img src="https://www.ricetteperbimby.it/svg/cottura.svg" alt="Tempo di cottura">
+						<label>Cottura</label>
+					</div>
+					<span>1 ora 10 minuti</span>
+				</div>
+								
+				
+								
+				
+			</div>
+
+			<div class="infobox">
+				<div class="box1">
+					<img src="https://www.ricetteperbimby.it/svg/quantita.svg" alt="Quantità">
+					<label>Quantità</label>
+				</div>
+				<span class="full">4 stampini oppure pirofila 20 cm x 20 cm</span>
+			</div>
+			
+			
+
+			<section style="margin-bottom:10px;">
+				<h2 class="ricetta-subtitle">Ingredienti</h2>
+
+				<ul class="ricetta-ingredienti cf">
+					
+													<li class="label">Per la carne</li>	
+												
+
+
+					
+													<li class="ingrediente">mezza cipolla</li>	
+												
+
+
+					
+													<li class="ingrediente">1 carote</li>	
+												
+
+
+					
+													<li class="ingrediente">1 sedano</li>	
+												
+
+
+					
+													<li class="ingrediente">1 spicchio (tritato) aglio</li>	
+												
+
+
+					
+													<li class="ingrediente">15 g olio extravergine di oliva</li>	
+												
+
+
+					
+													<li class="ingrediente">400 g macinato di manzo</li>	
+												
+
+
+					
+													<li class="ingrediente">1 cucchiaino raso sale fino</li>	
+												
+
+
+					
+													<li class="ingrediente">q.b. pepe</li>	
+												
+
+
+					
+													<li class="ingrediente">1 cucchiaino vino bianco</li>	
+												
+
+
+					
+													<li class="ingrediente">1 cucchiaino farina 00</li>	
+												
+
+
+					
+													<li class="ingrediente">2 cucchiaini pomodoro concentrato</li>	
+												
+
+
+					
+													<li class="ingrediente">100 g brodo vegetale</li>	
+												
+
+
+					
+													<li class="ingrediente">2 cucchiaini salsa worcester</li>	
+												
+
+
+					
+													<li class="ingrediente">2 cucchiaini (tritato) rosmarino</li>	
+												
+
+
+					
+													<li class="ingrediente">140 g (lessati) piselli</li>	
+												
+
+
+					
+													<li class="label">Per il purè</li>	
+												
+
+
+					
+													<li class="ingrediente">700 g a buccia rossa (pulite) patate</li>	
+												
+
+
+					
+													<li class="ingrediente">1 cucchiaino raso sale fino</li>	
+												
+
+
+					
+													<li class="ingrediente">250 g latte</li>	
+												
+
+
+					
+													<li class="ingrediente">20 g + q.b. burro</li>	
+												
+
+
+					
+													<li class="ingrediente">q.b. noce moscata</li>	
+												
+
+
+					
+													<li class="ingrediente">q.b. pangrattato</li>	
+												
+
+
+						
+				</ul>	
+			</section>
+
+			<div class="ads r89-mobile-rectangle-mid"></div>
+<div class="adsdesktop r89-desktop-billboard-btf"></div>
+
+				<div class="ricetta-intro"><p>Il <strong>cottage pie</strong> &egrave; un tradizionale pasticcio di carne che viene cucinato in Gran Bretagna. Noi l&rsquo;abbiamo preparato col <strong>Bimby</strong> e il risultato ci ha conquistati, ma scopriamo qualcosa in pi&ugrave; su questo piatto unico rustico e sostanzioso, composto dal pur&egrave; di patate e dalla carne macinata insaporita con un&rsquo;abbondante dose di salsa Worcester.</p>
+
+<p>Si prepara usando la carne di manzo, ma talvolta quest&rsquo;ultima viene sostituita con quella dell&rsquo;agnello, dando vita alla forse leggermente pi&ugrave; famosa sheperd&rsquo;s pie, o torta del pastore, mentre per quanto riguarda la sua cottura, baster&agrave; infornarla. Il risultato? Un <strong>comfort food</strong> eccezionale, a partire dalla ghiotta crosticina che racchiude una parte interna profumata e ricca. Come molte ricette della nostra tradizione, anche il cottage pie inglese deve la sua nascita all&rsquo;inventiva delle classi contadine, bisognose di riutilizzare in maniera efficace gli avanzi del roast beef unendoli alle patate, un ingrediente che si trova in abbondanza nelle campagne locali.</p>
+
+<p>Non sappiamo di preciso quando il cottage pie ha iniziato a fare la sua comparsa sulle tavole, ma pare che risalga addirittura alla fine del XVIII secolo. Il nostro consiglio &egrave; di prepararlo anche con un giorno d&rsquo;anticipo e scaldarla velocemente poco prima di servirlo in tavola, perch&eacute; pi&ugrave; riposer&agrave; pi&ugrave; si riveler&agrave; buono.</p>
+</div>
+
+			
+			
+
+			<section>
+								<h2 class="ricetta-subtitle">Come fare il Cottage pie con il Bimby</h2>
+				<div class="ads r89-outstream-video"></div>
+
+				<div class="ricetta-procedimento"></ol><div class="subtitle">Per la carne</div><ol><li>Mettere nel boccale la cipolla, la carota e il sedano a pezzetti e l'aglio: 5 sec. vel. 5.</li><li>Raccogliere sul fondo: 5 sec. vel. 5.</li><li>Aggiungere l'olio: 3 min. 120° vel. 1 senza misurino.</li><li>Aggiungere la carne, il sale, il pepe e il vino: 5 min. 120° vel. 1.</li><li>Aggiungere la farina: 1 min. 120° vel. 1.</li><li>Aggiungere il pomodoro concentrato, il brodo, la salsa e il rosmarino: 6 min. 120° vel. 1 con il cestello al posto del misurino.</li><li>Aggiungere i piselli: 4 min. 120° vel. 1 antiorario con il cestello al posto del misurino.</li><li>Versare in una ciotola e mettere da parte.</li></ol><div class="subtitle">Per il purè</div><ol><li>Posizionare la farfalla e mettere nel boccale (pulito e asciutto) le patate a rondelle spesse 1 cm, il sale e il latte: 30 min. 95° vel. 1 con il cestello al posto del misurino.</li><li>Aggiungere il burro (20 g) e la noce moscata: 30 sec. vel. 3.</li></ol><div class="subtitle">Assemblare</div><ol><li>Negli stampini distribuire la carne messa da parte, coprire con il purè del boccale, aggiungere in superficie fiocchetti di burro e cospargere con il pangrattato.</li><li>Infornare in forno preriscaldato statico a 220° per 20 minuti.</li><li>Poi posizionare gli stampini sotto il grill acceso per 3 minuti.</li><li>Lasciare riposare 15 minuti prima di servire.</li></ol></div>			
+			</section>	
+
+			<!-- oggetti amazon collegati -->
+						
+
+			<!-- social-share bar -->
+						<section id="share_box" class="cf">
+
+				<h3 class="share-title">Condividi questa ricetta</h3>
+
+				<script type="text/javascript">
+					document.addEventListener('DOMContentLoaded',function() {
+						document.querySelectorAll('#share_facebook,#share_pinterest,#share_whatsapp').forEach( (el) => {
+							el.addEventListener('click' , (e) => {
+								e.preventDefault();
+	   							e.stopPropagation();
+								PopupCenter(el.getAttribute('data-action'),el.getAttribute('myw-title'),el.getAttribute('myw-width'),el.getAttribute('myw-height'));
+							});
+						});
+					});
+
+					function PopupCenter(url, title, w, h) {
+					    // Fixes dual-screen position                             Most browsers      Firefox
+					    const dualScreenLeft = window.screenLeft !==  undefined ? window.screenLeft : window.screenX;
+					    const dualScreenTop = window.screenTop !==  undefined   ? window.screenTop  : window.screenY;
+
+					    const width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+					    const height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+					    const systemZoom = width / window.screen.availWidth;
+					    const left = (width - w) / 2 / systemZoom + dualScreenLeft
+					    const top = (height - h) / 2 / systemZoom + dualScreenTop
+					    const newWindow = window.open(url, title, 'scrollbars=yes,width=' + (w / systemZoom) + ', height=' + (h / systemZoom) + ', top=' + top + ', left=' + left);
+
+					    if (window.focus) newWindow.focus();
+					}
+				</script>
+				<a id="share_facebook" href="#" data-action="https://www.facebook.com/share.php?u=https://www.ricetteperbimby.it/ricette/cottage-pie-bimby" myw-title="Condividi su Facebook" myw-width="450" myw-height="320">
+					<img loading="lazy" width="64" height="64" src="https://www.ricetteperbimby.it/images/social_facebook.png" alt="facebook">
+				</a>	
+	
+				<a id="share_pinterest" href="#" data-action="https://pinterest.com/pin/create/link/?url=https://www.ricetteperbimby.it/ricette/cottage-pie-bimby&media=https://www.ricetteperbimby.it/foto-ricette/cottage-pie-bimby.jpg&description=Cottage pie" myw-title="Condividi su Pinterest" myw-width="700" myw-height="600">
+					<img loading="lazy" width="64" height="64" src="https://www.ricetteperbimby.it/images/social_pinterest.png" alt="pinterest">
+				</a>
+
+				<a id="share_whatsapp" href="#" data-action="https://wa.me/?text=https%3A%2F%2Fwww.ricetteperbimby.it%2Fricette%2Fcottage-pie-bimby" myw-title="Condividi su Whatsapp" myw-width="700" myw-height="600">
+					<img loading="lazy" width="64" height="64" src="https://www.ricetteperbimby.it/images/social_whatsapp.png" alt="pinterest">
+				</a>
+
+	
+			</section>	
+
+			<!-- autore -->			
+							<div class="ricetta-fonte">
+					<label>Ricetta creata da</label>
+					<a class="autore" href="https://www.ricetteperbimby.it/autori/claudia-cornia" target="_self">
+						<img loading="lazy" width="150" height="150" class="autore-foto" src="https://www.ricetteperbimby.it/foto-autori/1640-thumb.jpg" alt="Claudia Cornia autore di ricette del portale www.ricetteperbimby.it">
+						<div class="autore-nome">Claudia Cornia</div>
+					</a>
+				</div>
+			
+			
+<div id="r89_outbrain"></div>
+
+
+		</div>
+
+			
+	</article>
+</section>
+
+<aside class="sidebar">
+	
+	<section class="sidebar-box sidebar-appdl">
+		<h4 class="sidebar-title">Scarica la nostra APP</h4>
+
+		<div class="row">
+			<div class="col col-50 appicon">
+				<img loading="lazy" width="450" height="282" src="https://www.ricetteperbimby.it/appimg/badge-app-bimby.jpg"  alt="L'App di Ricette per Bimby per cellulari e tablet">
+			</div>
+			<div class="col col-50 applink">
+				<a target="_blank" onclick="ga('send', 'event' , 'bimbyapp-download', 'bimbyapp-download-ios');" 		href="https://apps.apple.com/app/apple-store/id960733511?pt=105559841&ct=websitestorebtn&mt=8">
+					<img loading="lazy" width="250" height="74" src="https://www.ricetteperbimby.it/appimg/bimby-app-store.png" alt="Scarica l'app Bimby da iTunes">
+				</a>
+				<a target="_blank" onclick="ga('send', 'event' , 'bimbyapp-download', 'bimbyapp-download-android');" 	href="https://play.google.com/store/apps/details?id=it.pgpsoftware.bimby1&referrer=utm_source%3Dwebsite%26utm_medium%3Dstorebtn">
+					<img loading="lazy" width="250" height="75" src="https://www.ricetteperbimby.it/appimg/bimby-play-store.png" alt="Scarica l'app Bimby dal Play Store">
+				</a>
+			</div>
+		</div>
+		
+	</section>
+
+	
+	<section class="sidebar-box cf">
+		<h4 class="sidebar-title">I nostri social</h4>
+		<a class="sidebar-box-social facebook" href="https://www.facebook.com/ricetteperbimby">
+			<span class="icon icon-facebook2">
+			<div class="social-text">Facebook</div>	
+		</a>
+
+		<a class="sidebar-box-social pinterest" href="https://it.pinterest.com/ricette_bimby/">
+			<span class="icon icon-pinterest">
+			<div class="social-text">Pinterest</div>	
+		</a>
+
+		<a class="sidebar-box-social instagram" href="https://www.instagram.com/ricetteperbimby/">
+			<span class="icon icon-instagram">
+			<div class="social-text">Instagram</div>	
+		</a>
+
+	</section>
+
+
+	<section class="sidebar-box">
+		<h4 class="sidebar-title">Inviaci una ricetta</h4>
+
+		<div class="row">
+			<div class="col col-30">
+				<a href="https://www.ricetteperbimby.it/invia-ricetta.php">
+					<img loading="lazy" width="200" height="200" class="img-fullwidth" src="https://www.ricetteperbimby.it/images/invia-ricetta.png" alt="Inviaci la tua ricetta per Bimby">	
+				</a>
+			</div>
+
+			<div class="col col-70 sidebar-text">
+				<p>Vuoi condividere una tua personale ricetta con la nostra community di utenti Bimby? Clicca sul bottone qui sotto per accedere alla form di invio ricetta</p>
+				<a class="btn" href="https://www.ricetteperbimby.it/invia-ricetta.php">INVIA LA RICETTA</a>	
+			</div>
+
+			
+		</div>
+
+	</section>
+
+	
+	<section class="sidebar-box">
+		<h4 class="sidebar-title">In evidenza</h4>
+		<ul>
+							<li><a class="cf" href="https://www.ricetteperbimby.it/ricette-halloween-bimby">
+					<img loading="lazy" width="100" height="100" src="https://www.ricetteperbimby.it/foto-articoli/halloween-bimby-thumb.jpg" alt="ricette Halloween Bimby">
+					<div class="text"><span>Ricette per Halloween</span></div>
+				</a></li>	
+							<li><a class="cf" href="https://www.ricetteperbimby.it/articolo/dolci-autunnali-bimby">
+					<img loading="lazy" width="100" height="100" src="https://www.ricetteperbimby.it/app-articoli/116-thumb.jpg" alt="dolci autunnali bimby">
+					<div class="text"><span>Dolci autunnali</span></div>
+				</a></li>	
+							<li><a class="cf" href="https://www.ricetteperbimby.it/articolo/merenda-light-bimby">
+					<img loading="lazy" width="100" height="100" src="https://www.ricetteperbimby.it/app-articoli/139-thumb.jpg" alt="merenda light bimby">
+					<div class="text"><span>Merenda Light</span></div>
+				</a></li>	
+							<li><a class="cf" href="https://www.ricetteperbimby.it/articolo/come-fare-la-besciamella">
+					<img loading="lazy" width="100" height="100" src="https://www.ricetteperbimby.it/app-articoli/3-thumb.jpg" alt="come fare la besciamella col bimby">
+					<div class="text"><span>Come fare la besciamella</span></div>
+				</a></li>	
+							<li><a class="cf" href="https://www.ricetteperbimby.it/pizza-fatta-in-casa-bimby.php">
+					<img loading="lazy" width="100" height="100" src="https://www.ricetteperbimby.it/foto-articoli/pizza-fatta-in-casa-bimby-thumb.jpg" alt="Pizza fatta in casa col Bimby">
+					<div class="text"><span>Preparare la Pizza in casa con il Bimby</span></div>
+				</a></li>	
+							<li><a class="cf" href="https://www.ricetteperbimby.it/pane-fatto-in-casa-bimby.php">
+					<img loading="lazy" width="100" height="100" src="https://www.ricetteperbimby.it/foto-articoli/pane-fatto-in-casa-bimby-thumb.jpg" alt="Pane fatto in casa col Bimby">
+					<div class="text"><span>Preparare il Pane in casa con il Bimby</span></div>
+				</a></li>	
+			
+			<li><a class="btn" href="https://www.ricetteperbimby.it/articoli.php" style="text-align:center">Vedi Tutti</a></li>
+
+		</ul>
+	</section>
+
+	
+	<section class="sidebar-box sidebar-mostviewed">
+		<h4 class="sidebar-title">Più popolari</h4>
+		<ul>
+							<li><a class="cf" href="https://www.ricetteperbimby.it/ricette/torta-di-mele-bimby-2">
+
+										<img loading="lazy" width="100" height="100" src="https://www.ricetteperbimby.it/foto-ricette/torta-di-mele-bimby-2-thumb.jpg" alt="Torta di mele">
+					<div class="text">
+						<span>Torta di mele</span>	
+					</div>
+					
+				</a></li>
+							<li><a class="cf" href="https://www.ricetteperbimby.it/ricette/ciambella-soffice-bicolore-bimby">
+
+										<img loading="lazy" width="100" height="100" src="https://www.ricetteperbimby.it/foto-ricette/ciambella-soffice-bicolore-bimby-thumb.jpg" alt="Ciambella soffice bicolore">
+					<div class="text">
+						<span>Ciambella soffice bicolore</span>	
+					</div>
+					
+				</a></li>
+							<li><a class="cf" href="https://www.ricetteperbimby.it/ricette/crema-pasticcera-veloce-bimby">
+
+										<img loading="lazy" width="100" height="100" src="https://www.ricetteperbimby.it/foto-ricette/crema-pasticcera-veloce-bimby-thumb.jpg" alt="Crema pasticcera veloce">
+					<div class="text">
+						<span>Crema pasticcera veloce</span>	
+					</div>
+					
+				</a></li>
+							<li><a class="cf" href="https://www.ricetteperbimby.it/ricette/ragu-classico-di-carne-bimby">
+
+										<img loading="lazy" width="100" height="100" src="https://www.ricetteperbimby.it/foto-ricette/ragu-classico-di-carne-bimby-thumb.jpg" alt="Ragù classico di carne">
+					<div class="text">
+						<span>Ragù classico di carne</span>	
+					</div>
+					
+				</a></li>
+							<li><a class="cf" href="https://www.ricetteperbimby.it/ricette/pure-di-patate-classico-bimby">
+
+										<img loading="lazy" width="100" height="100" src="https://www.ricetteperbimby.it/foto-ricette/pure-di-patate-classico-bimby-thumb.jpg" alt="Purè di patate">
+					<div class="text">
+						<span>Purè di patate</span>	
+					</div>
+					
+				</a></li>
+							<li><a class="cf" href="https://www.ricetteperbimby.it/ricette/cappuccino-cremoso-bimby">
+
+										<img loading="lazy" width="100" height="100" src="https://www.ricetteperbimby.it/foto-ricette/cappuccino-cremoso-bimby-thumb.jpg" alt="Cappuccino cremoso">
+					<div class="text">
+						<span>Cappuccino cremoso</span>	
+					</div>
+					
+				</a></li>
+							<li><a class="cf" href="https://www.ricetteperbimby.it/ricette/marmellata-di-arance-bimby">
+
+										<img loading="lazy" width="100" height="100" src="https://www.ricetteperbimby.it/foto-ricette/marmellata-di-arance-bimby-thumb.jpg" alt="Marmellata di arance">
+					<div class="text">
+						<span>Marmellata di arance</span>	
+					</div>
+					
+				</a></li>
+							<li><a class="cf" href="https://www.ricetteperbimby.it/ricette/pane-alle-noci-con-latte-bimby">
+
+										<img loading="lazy" width="100" height="100" src="https://www.ricetteperbimby.it/foto-ricette/pane-alle-noci-con-latte-bimby-thumb.jpg" alt="Pane alle noci con latte">
+					<div class="text">
+						<span>Pane alle noci con latte</span>	
+					</div>
+					
+				</a></li>
+							<li><a class="cf" href="https://www.ricetteperbimby.it/ricette/risotto-alla-zucca-leggero-bimby">
+
+										<img loading="lazy" width="100" height="100" src="https://www.ricetteperbimby.it/foto-ricette/risotto-alla-zucca-leggero-bimby-thumb.jpg" alt="Risotto alla zucca leggero">
+					<div class="text">
+						<span>Risotto alla zucca leggero</span>	
+					</div>
+					
+				</a></li>
+					</ul>
+	</section>
+	
+	
+	
+</aside>	</div><!-- chiude wrapper -->
+	<footer>
+		<div class="wrapper">
+
+			<ul class="footer-menu">
+				<li><a href="https://www.ricetteperbimby.it/chi-siamo.php">Chi siamo</a></li>
+				<li class="separator"></li>
+				<li><a href="https://www.ricetteperbimby.it/privacy.php">Privacy</a></li>
+				<li class="separator"></li>
+				<li><a href="/cdn-cgi/l/email-protection#66140f0503121203160314040f0b041f480f1226010b070f0a4805090b">Contattaci</a></li>
+			</ul>
+
+			<div class="footer-text">
+				<p>ricetteperbimby.it - La più grande community italiana di ricette cucinabili col Bimby della Vorwerk</p>
+			</div>
+
+			<div class="cf"></div>
+			<div style="font-size:10px;">ricetteperbimby.it partecipa al Programma Affiliazione Amazon EU, un programma di affiliazione che consente ai siti di percepire una commissione pubblicitaria pubblicizzando e fornendo link al sito Amazon.it</div>
+			
+		</div>
+		
+			
+
+				
+		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="myjsdelay" src="https://tags.refinery89.com/ricetteperbimbyit.js" async></script>
+
+		<script defer src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="https://www.ricetteperbimby.it/js/main.min.js?v=1673537171" defer></script>
+
+		
+			
+
+
+	</footer>
+	
+</body>
+</html>

@@ -230,6 +230,8 @@ class SchemaOrg:
                     schema_item.get("name").rstrip(".")
                 ):
                     instructions_gist.append(schema_item.get("name"))
+            if schema_item.get("itemListElement"):
+                schema_item = schema_item.get("itemListElement")
             instructions_gist.append(schema_item.get("text"))
         elif schema_item.get("@type") == "HowToSection":
             name = schema_item.get("name") or schema_item.get("Name")
@@ -242,8 +244,15 @@ class SchemaOrg:
     def instructions(self):
         instructions = self.data.get("recipeInstructions") or ""
 
-        if instructions and isinstance(instructions[0], list):
+        if (
+            instructions
+            and isinstance(instructions, list)
+            and isinstance(instructions[0], list)
+        ):
             instructions = list(chain(*instructions))  # flatten
+
+        if isinstance(instructions, dict):
+            instructions = instructions.get("itemListElement")
 
         if isinstance(instructions, list):
             instructions_gist = []

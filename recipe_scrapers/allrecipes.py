@@ -44,7 +44,17 @@ class AllRecipesCurated(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        return self.schema.ingredients()
+        def get_ingredient_text(item, key):
+            span = item.find("span", {"data-ingredient-" + key: True})
+            return normalize_string(span.text) if span else ""
+
+        ingredients_list = []
+        keys = ["quantity", "unit", "name"]
+        for item in self.soup.select(".mntl-structured-ingredients__list-item"):
+            ingredient_parts = [get_ingredient_text(item, key) for key in keys]
+            ingredients_list.append(" ".join(filter(None, ingredient_parts)))
+
+        return ingredients_list
 
     def instructions(self):
         return self.schema.instructions()

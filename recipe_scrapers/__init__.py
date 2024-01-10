@@ -54,6 +54,7 @@ from .cookingcircle import CookingCircle
 from .cookinglight import CookingLight
 from .cookpad import CookPad
 from .cooktalk import CookTalk
+from .coopse import CoopSE
 from .copykat import CopyKat
 from .costco import Costco
 from .countryliving import CountryLiving
@@ -67,6 +68,7 @@ from .downshiftology import Downshiftology
 from .dr import Dr
 from .eatingbirdfood import EatingBirdFood
 from .eatingwell import EatingWell
+from .eatliverun import EatLiveRun
 from .eatsmarter import Eatsmarter
 from .eattolerant import EatTolerant
 from .eatwell101 import EatWell101
@@ -82,6 +84,7 @@ from .fattoincasadabenedetta import FattoInCasaDaBenedetta
 from .fifteenspatulas import FifteenSpatulas
 from .finedininglovers import FineDiningLovers
 from .fitmencook import FitMenCook
+from .fitslowcookerqueen import FitSlowCookerQueen
 from .food import Food
 from .food52 import Food52
 from .foodandwine import FoodAndWine
@@ -108,6 +111,7 @@ from .halfbakedharvest import HalfBakedHarvest
 from .handletheheat import HandleTheHeat
 from .hassanchef import HassanChef
 from .headbangerskitchen import HeadbangersKitchen
+from .heatherchristo import HeatherChristo
 from .heb import HEB
 from .hellofresh import HelloFresh
 from .herseyland import HerseyLand
@@ -163,6 +167,7 @@ from .mob import Mob
 from .momswithcrockpots import MomsWithCrockPots
 from .monsieurcuisine import MonsieurCuisine
 from .motherthyme import MotherThyme
+from .mundodereceitasbimby import MundoDeReceitasBimby
 from .mybakingaddiction import MyBakingAddiction
 from .mykitchen101 import MyKitchen101
 from .mykitchen101en import MyKitchen101en
@@ -187,6 +192,7 @@ from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
 from .persnicketyplates import PersnicketyPlates
 from .pickuplimes import PickUpLimes
+from .pinchofyum import PinchOfYum
 from .pingodoce import PingoDoce
 from .pinkowlkitchen import PinkOwlKitchen
 from .platingpixels import PlatingPixels
@@ -210,6 +216,7 @@ from .redhousespice import RedHouseSpice
 from .reishunger import Reishunger
 from .rezeptwelt import Rezeptwelt
 from .ricetta import Ricetta
+from .ricetteperbimby import RicettePerBimby
 from .rosannapansino import RosannaPansino
 from .rutgerbakt import RutgerBakt
 from .saboresanjinomoto import SaboresAnjinomoto
@@ -252,6 +259,7 @@ from .thekitchenmagpie import TheKitchenMagPie
 from .thekitchn import TheKitchn
 from .themagicalslowcooker import TheMagicalSlowCooker
 from .themodernproper import TheModernProper
+from .thepalatablelife import ThePalatableLife
 from .thepioneerwoman import ThePioneerWoman
 from .therecipecritic import Therecipecritic
 from .thespruceeats import TheSpruceEats
@@ -338,6 +346,7 @@ SCRAPERS = {
     CookieAndKate.host(): CookieAndKate,
     CookingCircle.host(): CookingCircle,
     CookingLight.host(): CookingLight,
+    CoopSE.host(): CoopSE,
     CopyKat.host(): CopyKat,
     Costco.host(): Costco,
     CountryLiving.host(): CountryLiving,
@@ -346,9 +355,16 @@ SCRAPERS = {
     Cybercook.host(): Cybercook,
     DavidLebovitz.host(): DavidLebovitz,
     Delish.host(): Delish,
+    EatLiveRun.host(): EatLiveRun,
     ElaVegan.host(): ElaVegan,
+    FitSlowCookerQueen.host(): FitSlowCookerQueen,
     GrandFrais.host(): GrandFrais,
+    HeatherChristo.host(): HeatherChristo,
+    MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     NutritionFacts.host(): NutritionFacts,
+    PinchOfYum.host(): PinchOfYum,
+    RicettePerBimby.host(): RicettePerBimby,
+    ThePalatableLife.host(): ThePalatableLife,
     Thinlicious.host(): Thinlicious,
     DomesticateMe.host(): DomesticateMe,
     Downshiftology.host(): Downshiftology,

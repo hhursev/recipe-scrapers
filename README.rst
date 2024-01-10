@@ -135,6 +135,7 @@ Scrapers available for:
 - `https://www.dr.dk/ <https://www.dr.dk/>`_
 - `https://www.eatingbirdfood.com/ <https://www.eatingbirdfood.com>`_
 - `https://www.eatingwell.com/ <https://www.eatingwell.com>`_
+- `https://www.eatliverun.com/ <https://www.eatliverun.com/>`_
 - `https://eatsmarter.com/ <https://eatsmarter.com/>`_
 - `https://eatsmarter.de/ <https://eatsmarter.de/>`_
 - `https://www.eatwell101.com <https://www.eatwell101.com>`_
@@ -150,6 +151,7 @@ Scrapers available for:
 - `https://fifteenspatulas.com/ <https://www.fifteenspatulas.com/>`_
 - `https://finedininglovers.com/ <https://www.finedininglovers.com>`_
 - `https://fitmencook.com/ <https://www.fitmencook.com>`_
+- `https://fitslowcookerqueen.com <https://fitslowcookerqueen.com/>`_
 - `https://food.com/ <https://www.food.com>`_
 - `https://food52.com/ <https://www.food52.com>`_
 - `https://foodandwine.com/ <https://www.foodandwine.com>`_
@@ -175,6 +177,7 @@ Scrapers available for:
 - `https://handletheheat.com/ <https://handletheheat.com/>`_
 - `https://www.hassanchef.com/ <https://www.hassanchef.com/>`_
 - `https://headbangerskitchen.com/ <https://www.headbangerskitchen.com/>`_
+- `https://heatherchristo.com/ <https://heatherchristo.com/>`_
 - `https://www.heb.com/ <https://www.heb.com/recipe/landing>`_
 - `https://hellofresh.com/ <https://hellofresh.com>`_
 - `https://hellofresh.co.uk/ <https://hellofresh.co.uk>`_
@@ -234,6 +237,7 @@ Scrapers available for:
 - `https://momswithcrockpots.com/ <https://momswithcrockpots.com>`_
 - `https://monsieur-cuisine.com/ <https://monsieur-cuisine.com>`_
 - `http://motherthyme.com/ <http://motherthyme.com/>`_
+- `https://www.mundodereceitasbimby.com.pt/ <https://www.mundodereceitasbimby.com.pt/>`_
 - `https://mybakingaddiction.com/ <https://mybakingaddiction.com>`_
 - `https://mykitchen101.com/ <https://mykitchen101.com>`_
 - `https://mykitchen101en.com/ <https://mykitchen101en.com>`_
@@ -258,6 +262,7 @@ Scrapers available for:
 - `https://www.panelinha.com.br/ <https://www.panelinha.com.br>`_
 - `https://paninihappy.com/ <https://paninihappy.com>`_
 - `https://www.persnicketyplates.com/ <https://www.persnicketyplates.com/>`_
+- `https://pinchofyum.com/ <https://pinchofyum.com/>`_
 - `https://www.pickuplimes.com/ <https://www.pickuplimes.com/>`_
 - `https://www.pingodoce.pt/ <https://www.pingodoce.pt>`_
 - `https://pinkowlkitchen.com/ <https://pinkowlkitchen.com/>`_
@@ -282,6 +287,7 @@ Scrapers available for:
 - `https://reishunger.de/ <https://www.reishunger.de/>`_
 - `https://rezeptwelt.de/ <https://rezeptwelt.de>`_
 - `https://ricetta.it/ <https://ricetta.it>`_
+- `https://www.ricetteperbimby.it/ <https://www.ricetteperbimby.it/>`_
 - `https://rosannapansino.com <https://rosannapansino.com>`_
 - `https://rutgerbakt.nl/ <https://rutgerbakt.nl/>`_
 - `https://www.saboresajinomoto.com.br/ <https://www.saboresajinomoto.com.br/>`_
@@ -323,6 +329,7 @@ Scrapers available for:
 - `https://thekitchn.com/ <https://thekitchn.com/>`_
 - `https://www.themagicalslowcooker.com/ <https://www.themagicalslowcooker.com/>`_
 - `https://themodernproper.com/ <https://themodernproper.com/>`_
+- `https://www.thepalatablelife.com <https://www.thepalatablelife.com/>`_
 - `https://thepioneerwoman.com/ <https://thepioneerwoman.com>`_
 - `https://therecipecritic.com/ <https://therecipecritic.com>`_
 - `https://thespruceeats.com/ <https://thespruceeats.com/>`_
@@ -353,7 +360,7 @@ Scrapers available for:
 - `https://woop.co.nz/ <https://woop.co.nz/>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `https://yemek.com/ <https://yemek.com>`_
-- `https://yummly.com/ <https://yummly.com>`_
+- `https://yummly.com/ <https://yummly.com>`_ (*)
 - `https://www.zaubertopf.de <https://www.zaubertopf.de>`_
 - `https://zeit.de/ (wochenmarkt) <https://www.zeit.de/zeit-magazin/wochenmarkt/index>`_
 - `https://zenbelly.com/ <https://zenbelly.com>`_
