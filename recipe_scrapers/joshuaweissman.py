@@ -3,7 +3,7 @@
 # from pprint import pprint
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
-from ._utils import normalize_string
+from ._utils import get_minutes, get_yields, normalize_string
 
 
 class JoshuaWeissman(AbstractScraper):
@@ -21,10 +21,29 @@ class JoshuaWeissman(AbstractScraper):
         return self.schema.category()
 
     def total_time(self):
-        raise NotImplementedError()
+        total = self.soup.find(
+            lambda tag: tag.name == "span" and "Total Time" in tag.get_text()
+        )
+        if total:
+            return get_minutes(total)
+        prep = self.soup.find(
+            lambda tag: tag.name == "span" and "Prep Time" in tag.get_text()
+        )
+        if prep:
+            prep = get_minutes(prep)
+        cook = self.soup.find(
+            lambda tag: tag.name == "span" and "Cook Time" in tag.get_text()
+        )
+        if cook:
+            cook = get_minutes(cook)
+        return prep + cook
 
     def yields(self):
-        raise NotImplementedError()
+        return get_yields(
+            self.soup.find(
+                lambda tag: tag.name == "span" and "Serving Size" in tag.get_text()
+            )
+        )
 
     def image(self):
         return self.schema.image()
