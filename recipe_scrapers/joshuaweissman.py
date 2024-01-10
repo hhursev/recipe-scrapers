@@ -45,7 +45,7 @@ class JoshuaWeissman(AbstractScraper):
         return group_ingredients(
             self.ingredients(),
             self.soup,
-            'span[style="font-weight: 700;"]',
+            'span[style="font-weight:700"]',
             "ul>li",
         )
 
