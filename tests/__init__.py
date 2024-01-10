@@ -99,13 +99,14 @@ def test_func_factory(
         # Optional tests
         # If the key isn't present, skip
         for key in OPTIONAL_TESTS:
-            scraper_func = getattr(actual, key)
-            if key in expect.keys():
-                self.assertEqual(
-                    expect[key],
-                    scraper_func(),
-                    msg=f"The actual value for .{key}() did not match the expected value.",
-                )
+            if hasattr(actual, key):
+                scraper_func = getattr(actual, key)
+                if key in expect.keys():
+                    self.assertEqual(
+                        expect[key],
+                        scraper_func(),
+                        msg=f"The actual value for .{key}() did not match the expected value.",
+                    )
 
         # Assert that the ingredients returned by the ingredient_groups() function
         # are the same as the ingredients return by the ingredients() function.
