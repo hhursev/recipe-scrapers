@@ -17,7 +17,8 @@ class Mob(AbstractScraper):
         return domain
 
     def author(self):
-        return "Mob"
+        chefs = self.recipe_json.get("chefs", [])
+        return " & ".join([chef["title"] for chef in chefs]) if chefs else "Mob Team"
 
     def title(self):
         return self.recipe_json["title"]
