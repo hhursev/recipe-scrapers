@@ -75,5 +75,9 @@
   "site_name": "Add a Pinch",
   "title": "Citrus Scones Recipe with Orange Glaze",
   "total_time": 30,
-  "yields": "8 servings"
+  "yields": "8 servings",
+  "equipment": [
+    "Pastry Blender",
+    "Grater/ Zester"
+  ]
 }

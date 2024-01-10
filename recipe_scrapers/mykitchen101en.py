@@ -1,5 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._utils import normalize_string
 
 
 class MyKitchen101en(AbstractScraper):
@@ -24,3 +25,13 @@ class MyKitchen101en(AbstractScraper):
 
     def instructions(self):
         return self.schema.instructions()
+
+    def equipment(self):
+        return list(
+            {
+                normalize_string("".join(item.stripped_strings).split("(")[0].strip())
+                for item in self.soup.find_all(
+                    "div", class_="wprm-recipe-equipment-name"
+                )
+            }
+        )

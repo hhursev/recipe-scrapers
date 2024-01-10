@@ -1,6 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
+from ._utils import normalize_string
 
 
 class ForkToSpoon(AbstractScraper):
@@ -40,3 +41,13 @@ class ForkToSpoon(AbstractScraper):
 
     def description(self):
         return self.schema.description()
+
+    def equipment(self):
+        return list(
+            dict.fromkeys(
+                normalize_string("".join(item.stripped_strings).split(",")[0])
+                for item in self.soup.find_all(
+                    "div", class_="wprm-recipe-equipment-name"
+                )
+            )
+        )

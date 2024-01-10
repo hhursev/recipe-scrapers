@@ -33,3 +33,12 @@ class Joyfoodsunshine(AbstractScraper):
 
     def ratings(self):
         return self.schema.ratings()
+
+    def equipment(self):
+        return sorted(
+            normalize_string(
+                item.find("a", class_="wprm-recipe-equipment-link").get_text()
+            )
+            for item in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+            if item.find("a", class_="wprm-recipe-equipment-link")
+        )

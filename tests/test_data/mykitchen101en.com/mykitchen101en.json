@@ -64,5 +64,8 @@
   "site_name": "MyKitchen101en.com",
   "title": "Baked Mini Egg Sponge Cakes",
   "total_time": 55,
-  "yields": "30 servings"
+  "yields": "30 servings",
+  "equipment": [
+    "2 mini muffin pans"
+  ]
 }

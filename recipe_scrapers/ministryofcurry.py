@@ -1,6 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
+from ._utils import normalize_string
 
 
 class MinistryOfCurry(AbstractScraper):
@@ -37,3 +38,13 @@ class MinistryOfCurry(AbstractScraper):
 
     def description(self):
         return self.schema.description()
+
+    def equipment(self):
+        return list(
+            {
+                normalize_string(item.get_text())
+                for item in self.soup.find_all(
+                    "div", class_="wprm-recipe-equipment-name"
+                )
+            }
+        )

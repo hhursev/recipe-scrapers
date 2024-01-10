@@ -46,3 +46,11 @@ class FattoInCasaDaBenedetta(AbstractScraper):
 
     def description(self):
         return self.schema.description()
+
+    def equipment(self):
+        return list(
+            dict.fromkeys(
+                normalize_string(item.get_text())
+                for item in self.soup.find_all("p", class_="name")
+            )
+        )

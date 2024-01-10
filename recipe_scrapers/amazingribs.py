@@ -37,11 +37,9 @@ class AmazingRibs(AbstractScraper):
         return self.schema.instructions()
 
     def equipment(self):
-        equipment_list = self.soup.find_all("div", class_="wprm-recipe-equipment-name")
-        if not equipment_list:
-            return []
-
-        unique_equipment = {
-            normalize_string(equipment.get_text()) for equipment in equipment_list
-        }
-        return list(unique_equipment)
+        return sorted(
+            {
+                normalize_string(e.get_text())
+                for e in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+            }
+        )

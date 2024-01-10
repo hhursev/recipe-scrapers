@@ -62,5 +62,13 @@
   "site_name": null,
   "title": "HERSHEY'S \"Perfectly Chocolate\" Chocolate Cake Recipe | Hersheyland",
   "total_time": 45,
-  "yields": "1 cake"
+  "yields": "1 cake",
+  "equipment": [
+    "Measuring Cups and Spoons",
+    "Mixer",
+    "Mixing Bowl",
+    "Oven",
+    "Round Baking Pans",
+    "Wire Rack"
+  ]
 }

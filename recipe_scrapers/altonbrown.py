@@ -1,6 +1,7 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
+from ._utils import normalize_string
 
 
 class AltonBrown(AbstractScraper):
@@ -48,3 +49,13 @@ class AltonBrown(AbstractScraper):
 
     def description(self):
         return self.schema.description()
+
+    def equipment(self):
+        return list(
+            dict.fromkeys(
+                normalize_string(equip.get_text())
+                for equip in self.soup.find_all(
+                    "div", class_="wprm-recipe-equipment-name"
+                )
+            )
+        )
