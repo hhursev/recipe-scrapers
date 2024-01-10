@@ -21,27 +21,39 @@ class JoshuaWeissman(AbstractScraper):
         return self.schema.category()
 
     def total_time(self):
-        total = self.soup.find(
-            lambda tag: tag.name == "span" and "Total Time" in tag.get_text()
-        )
+        # Get all spans and get their text
+        spans = self.soup.findAll(name="span")
+        spans_texts = [tag.get_text().lower() for tag in spans]
+        # Filter out all spans that don't contain time
+        time_texts = [tag for tag in spans_texts if "time" in tag]
+
+        # Find first string that contains the text
+        def check_text(check_string):
+            return next(
+                (string for string in time_texts if check_string in string), None
+            )
+
+        total = check_text("total time")
         if total:
             return get_minutes(total)
-        prep = self.soup.find(
-            lambda tag: tag.name == "span" and "Prep Time" in tag.get_text()
-        )
+        prep = check_text("prep time")
         if prep:
             prep = get_minutes(prep)
-        cook = self.soup.find(
-            lambda tag: tag.name == "span" and "Cook Time" in tag.get_text()
-        )
+        cook = check_text("cook time")
         if cook:
             cook = get_minutes(cook)
         return prep + cook
 
     def yields(self):
+        spans = self.soup.findAll(name="span")
         return get_yields(
-            self.soup.find(
-                lambda tag: tag.name == "span" and "Serving Size" in tag.get_text()
+            next(
+                (
+                    tag.get_text()
+                    for tag in spans
+                    if "serving size" in tag.get_text().lower()
+                ),
+                None,
             )
         )
 
