@@ -1,6 +1,6 @@
 # mypy: disallow_untyped_defs=False
 import re
-from typing import Dict, Optional, Tuple, Union
+from typing import Optional, Union
 
 from ._abstract import AbstractScraper
 from ._schemaorg import SchemaOrg

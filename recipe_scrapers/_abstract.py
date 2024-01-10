@@ -1,7 +1,7 @@
 # mypy: disallow_untyped_defs=False
 import inspect
 from collections import OrderedDict
-from typing import Dict, List, Optional, Tuple, Union
+from typing import List, Optional, Union
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
