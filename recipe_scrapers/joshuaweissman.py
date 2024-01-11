@@ -35,14 +35,17 @@ class JoshuaWeissman(AbstractScraper):
 
         total = check_text("total time")
         if total:
-            return get_minutes(total)
+            total = get_minutes(total)
+            if total:
+                return total
         prep = check_text("prep time")
         if prep:
             prep = get_minutes(prep)
         cook = check_text("cook time")
         if cook:
             cook = get_minutes(cook)
-        return prep + cook
+        if prep + cook:
+            return prep + cook
 
     def yields(self):
         spans = self.soup.findAll(name="span")
