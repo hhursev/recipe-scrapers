@@ -2,6 +2,7 @@
 import json
 
 from ._abstract import AbstractScraper
+from ._grouping_utils import IngredientGroup
 
 
 class Mob(AbstractScraper):
@@ -30,7 +31,8 @@ class Mob(AbstractScraper):
         return self.recipe_json["time"]
 
     def yields(self):
-        return self.recipe_json["servingSize"]
+        servings = self.recipe_json["servingSize"]
+        return f"{servings} servings"
 
     def image(self):
         return self.recipe_json["image"][0]["url"]
@@ -47,7 +49,12 @@ class Mob(AbstractScraper):
             elif item.get("typeHandle") == "ingredient" and current_section is not None:
                 # If the item is an ingredient and a section has been created, add it to the section
                 current_section["ingredients"].append(item.get("label"))
-        return result
+        return [
+            IngredientGroup(
+                ingredient_group["ingredients"], ingredient_group["purpose"]
+            )
+            for ingredient_group in result
+        ]
 
     def ingredients(self):
         return [
