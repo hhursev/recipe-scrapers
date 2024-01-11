@@ -1,7 +1,6 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._utils import normalize_string
 
 
 class HerseyLand(AbstractScraper):
@@ -41,7 +40,7 @@ class HerseyLand(AbstractScraper):
 
     def equipment(self):
         return sorted(
-            normalize_string(item.find("span", class_="h6").get_text())
+            (item.find("span", class_="h6").get_text())
             for item in self.soup.find_all("div", class_="equipment-item")
             if item.find("span", class_="h6")
         )

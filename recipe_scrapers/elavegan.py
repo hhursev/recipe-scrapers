@@ -2,7 +2,6 @@
 
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
-from ._utils import normalize_string
 
 
 class ElaVegan(AbstractScraper):
@@ -53,7 +52,7 @@ class ElaVegan(AbstractScraper):
 
     def equipment(self):
         return sorted(
-            normalize_string(
+            (
                 item.find("div", class_="wprm-recipe-equipment-name")
                 .get_text()
                 .rstrip("*")

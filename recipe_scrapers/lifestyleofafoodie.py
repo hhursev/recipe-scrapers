@@ -2,7 +2,6 @@
 
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
-from ._utils import normalize_string
 
 
 class LifestyleOfAFoodie(AbstractScraper):
@@ -54,7 +53,7 @@ class LifestyleOfAFoodie(AbstractScraper):
     def equipment(self):
         return list(
             dict.fromkeys(
-                normalize_string(item.get_text())
+                (item.get_text())
                 for item in self.soup.find_all(
                     "div", class_="wprm-recipe-equipment-name"
                 )

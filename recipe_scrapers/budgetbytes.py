@@ -1,7 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
-from ._utils import normalize_string
 
 
 class BudgetBytes(AbstractScraper):
@@ -40,7 +39,7 @@ class BudgetBytes(AbstractScraper):
 
     def equipment(self):
         return sorted(
-            normalize_string(link.get_text())
+            (link.get_text())
             for link in self.soup.select(
                 "div.wprm-recipe-equipment-name a.wprm-recipe-equipment-link"
             )

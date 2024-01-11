@@ -1,6 +1,5 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
-from ._utils import normalize_string
 
 
 class Downshiftology(AbstractScraper):
@@ -34,9 +33,7 @@ class Downshiftology(AbstractScraper):
 
     def equipment(self):
         return sorted(
-            normalize_string(
-                item.find("a", class_="wprm-recipe-equipment-link").get_text()
-            )
+            (item.find("a", class_="wprm-recipe-equipment-link").get_text())
             for item in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
             if item.find("a", class_="wprm-recipe-equipment-link")
         )

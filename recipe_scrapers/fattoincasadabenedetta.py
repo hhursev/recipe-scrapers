@@ -50,7 +50,6 @@ class FattoInCasaDaBenedetta(AbstractScraper):
     def equipment(self):
         return list(
             dict.fromkeys(
-                normalize_string(item.get_text())
-                for item in self.soup.find_all("p", class_="name")
+                (item.get_text()) for item in self.soup.find_all("p", class_="name")
             )
         )

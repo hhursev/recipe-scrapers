@@ -1,7 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
-from ._utils import normalize_string
 
 
 class BakingSense(AbstractScraper):
@@ -50,7 +49,7 @@ class BakingSense(AbstractScraper):
     def equipment(self):
         return sorted(
             {
-                normalize_string(e.get_text())
+                (e.get_text())
                 for e in self.soup.select(
                     "div.wprm-recipe-equipment-item div.wprm-recipe-equipment-name"
                 )

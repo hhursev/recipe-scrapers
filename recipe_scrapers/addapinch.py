@@ -2,7 +2,6 @@
 
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
-from ._utils import normalize_string
 
 
 class AddAPinch(AbstractScraper):
@@ -54,7 +53,7 @@ class AddAPinch(AbstractScraper):
     def equipment(self):
         return list(
             dict.fromkeys(
-                normalize_string(equip.find("a").get_text())
+                (equip.find("a").get_text())
                 for equip in self.soup.find_all(
                     "div", class_="wprm-recipe-equipment-name"
                 )
