@@ -22,20 +22,20 @@ class Mob(AbstractScraper):
         return " & ".join([chef["title"] for chef in chefs]) if chefs else "Mob Team"
 
     def title(self):
-        return self.recipe_json["title"]
+        return self.recipe_json.get("title", "")
 
     def category(self):
         return " & ".join([type["title"] for type in self.recipe_json.get("types", [])])
 
     def total_time(self):
-        return self.recipe_json["time"]
+        return self.recipe_json.get("time", "")
 
     def yields(self):
-        servings = self.recipe_json["servingSize"]
+        servings = self.recipe_json.get("servingSize", "")
         return f"{servings} servings"
 
     def image(self):
-        return self.recipe_json["image"][0]["url"]
+        return self.recipe_json.get("image", [])[0]["url"]
 
     def ingredient_groups(self):
         result = []
@@ -72,10 +72,12 @@ class Mob(AbstractScraper):
         )
 
     def cuisine(self):
-        return self.recipe_json["cuisines"][0]["title"]
+        return " & ".join(
+            [cuisine["title"] for cuisine in self.recipe_json.get("cuisines", [])]
+        )
 
     def description(self):
-        return self.recipe_json["summary"]
+        return self.recipe_json.get("summary", "")
 
     def ratings(self):
-        return self.recipe_json["averageRating"]
+        return self.recipe_json.get("averageRating", "")
