@@ -72,7 +72,7 @@ class Mob(AbstractScraper):
         )
 
     def cuisine(self):
-        return " & ".join(
+        return ", ".join(
             [cuisine["title"] for cuisine in self.recipe_json.get("cuisines", [])]
         )
 
