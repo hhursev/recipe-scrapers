@@ -81,30 +81,32 @@ def test_func_factory(
         # Mandatory tests
         # If the key isn't present, check an assertion is raised
         for key in MANDATORY_TESTS:
-            scraper_func = getattr(actual, key)
-            if key in expect.keys():
-                self.assertEqual(
-                    expect[key],
-                    scraper_func(),
-                    msg=f"The actual value for .{key}() did not match the expected value.",
-                )
-            else:
-                with self.assertRaises(
-                    Exception,
-                    msg=f".{key}() was expected to raise an exception but it did not.",
-                ):
-                    scraper_func()
+            with self.subTest(key):
+                scraper_func = getattr(actual, key)
+                if key in expect.keys():
+                    self.assertEqual(
+                        expect[key],
+                        scraper_func(),
+                        msg=f"The actual value for .{key}() did not match the expected value.",
+                    )
+                else:
+                    with self.assertRaises(
+                        Exception,
+                        msg=f".{key}() was expected to raise an exception but it did not.",
+                    ):
+                        scraper_func()
 
         # Optional tests
         # If the key isn't present, skip
         for key in OPTIONAL_TESTS:
-            scraper_func = getattr(actual, key)
-            if key in expect.keys():
-                self.assertEqual(
-                    expect[key],
-                    scraper_func(),
-                    msg=f"The actual value for .{key}() did not match the expected value.",
-                )
+            with self.subTest(key):
+                scraper_func = getattr(actual, key)
+                if key in expect.keys():
+                    self.assertEqual(
+                        expect[key],
+                        scraper_func(),
+                        msg=f"The actual value for .{key}() did not match the expected value.",
+                    )
 
         # Assert that the ingredients returned by the ingredient_groups() function
         # are the same as the ingredients return by the ingredients() function.
