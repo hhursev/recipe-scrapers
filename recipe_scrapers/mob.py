@@ -25,7 +25,7 @@ class Mob(AbstractScraper):
         return self.recipe_json.get("title", "")
 
     def category(self):
-        return " & ".join([type["title"] for type in self.recipe_json.get("types", [])])
+        return ", ".join([type["title"] for type in self.recipe_json.get("types", [])])
 
     def total_time(self):
         return self.recipe_json.get("time", "")
