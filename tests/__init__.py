@@ -114,7 +114,8 @@ def test_func_factory(
         for group in actual.ingredient_groups():
             grouped.extend(group.ingredients)
 
-        self.assertEqual(sorted(actual.ingredients()), sorted(grouped))
+        with self.subTest("ingredient_groups"):
+            self.assertEqual(sorted(actual.ingredients()), sorted(grouped))
 
     return test_func
 
