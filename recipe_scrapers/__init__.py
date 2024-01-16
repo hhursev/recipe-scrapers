@@ -68,6 +68,7 @@ from .downshiftology import Downshiftology
 from .dr import Dr
 from .eatingbirdfood import EatingBirdFood
 from .eatingwell import EatingWell
+from .eatliverun import EatLiveRun
 from .eatsmarter import Eatsmarter
 from .eattolerant import EatTolerant
 from .eatwell101 import EatWell101
@@ -83,6 +84,7 @@ from .fattoincasadabenedetta import FattoInCasaDaBenedetta
 from .fifteenspatulas import FifteenSpatulas
 from .finedininglovers import FineDiningLovers
 from .fitmencook import FitMenCook
+from .fitslowcookerqueen import FitSlowCookerQueen
 from .food import Food
 from .food52 import Food52
 from .foodandwine import FoodAndWine
@@ -110,6 +112,7 @@ from .halfbakedharvest import HalfBakedHarvest
 from .handletheheat import HandleTheHeat
 from .hassanchef import HassanChef
 from .headbangerskitchen import HeadbangersKitchen
+from .heatherchristo import HeatherChristo
 from .heb import HEB
 from .hellofresh import HelloFresh
 from .herseyland import HerseyLand
@@ -125,6 +128,7 @@ from .inspiralized import Inspiralized
 from .izzycooking import IzzyCooking
 from .jamieoliver import JamieOliver
 from .jimcooksfoodgood import JimCooksFoodGood
+from .joshuaweissman import JoshuaWeissman
 from .joyfoodsunshine import Joyfoodsunshine
 from .juliegoodwin import JulieGoodwin
 from .justataste import JustATaste
@@ -167,6 +171,7 @@ from .mob import Mob
 from .momswithcrockpots import MomsWithCrockPots
 from .monsieurcuisine import MonsieurCuisine
 from .motherthyme import MotherThyme
+from .mundodereceitasbimby import MundoDeReceitasBimby
 from .mybakingaddiction import MyBakingAddiction
 from .mykitchen101 import MyKitchen101
 from .mykitchen101en import MyKitchen101en
@@ -191,6 +196,7 @@ from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
 from .persnicketyplates import PersnicketyPlates
 from .pickuplimes import PickUpLimes
+from .pinchofyum import PinchOfYum
 from .pingodoce import PingoDoce
 from .pinkowlkitchen import PinkOwlKitchen
 from .platingpixels import PlatingPixels
@@ -238,6 +244,7 @@ from .springlane import Springlane
 from .staysnatched import StaySnatched
 from .steamykitchen import SteamyKitchen
 from .streetkitchen import StreetKitchen
+from .strongrfastr import StrongrFastr
 from .sunbasket import SunBasket
 from .sundpaabudget import SundPaaBudget
 from .sunset import Sunset
@@ -354,10 +361,17 @@ SCRAPERS = {
     Cybercook.host(): Cybercook,
     DavidLebovitz.host(): DavidLebovitz,
     Delish.host(): Delish,
+    EatLiveRun.host(): EatLiveRun,
     ElaVegan.host(): ElaVegan,
+    FitSlowCookerQueen.host(): FitSlowCookerQueen,
     GrandFrais.host(): GrandFrais,
+    HeatherChristo.host(): HeatherChristo,
+    JoshuaWeissman.host(): JoshuaWeissman,
+    MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     NutritionFacts.host(): NutritionFacts,
+    PinchOfYum.host(): PinchOfYum,
     RicettePerBimby.host(): RicettePerBimby,
+    StrongrFastr.host(): StrongrFastr,
     ThePalatableLife.host(): ThePalatableLife,
     Thinlicious.host(): Thinlicious,
     DomesticateMe.host(): DomesticateMe,

@@ -1,12 +1,13 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
 
 
-class Arla(AbstractScraper):
+class FitSlowCookerQueen(AbstractScraper):
     @classmethod
     def host(cls):
-        return "arla.se"
+        return "fitslowcookerqueen.com"
 
     def author(self):
         return self.schema.author()
@@ -33,8 +34,8 @@ class Arla(AbstractScraper):
         return group_ingredients(
             self.ingredients(),
             self.soup,
-            "div.u-mt--m > h5",
-            "div.u-mt--m > table > tbody > tr",
+            ".tasty-recipes-ingredients h4",
+            ".tasty-recipes-ingredients ul li",
         )
 
     def instructions(self):
@@ -48,6 +49,3 @@ class Arla(AbstractScraper):
 
     def description(self):
         return self.schema.description()
-
-    def nutrients(self):
-        return self.schema.nutrients()

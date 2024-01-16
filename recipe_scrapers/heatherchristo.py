@@ -1,12 +1,12 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
-from ._grouping_utils import group_ingredients
 
 
-class Arla(AbstractScraper):
+class HeatherChristo(AbstractScraper):
     @classmethod
     def host(cls):
-        return "arla.se"
+        return "heatherchristo.com"
 
     def author(self):
         return self.schema.author()
@@ -29,14 +29,6 @@ class Arla(AbstractScraper):
     def ingredients(self):
         return self.schema.ingredients()
 
-    def ingredient_groups(self):
-        return group_ingredients(
-            self.ingredients(),
-            self.soup,
-            "div.u-mt--m > h5",
-            "div.u-mt--m > table > tbody > tr",
-        )
-
     def instructions(self):
         return self.schema.instructions()
 
@@ -48,6 +40,3 @@ class Arla(AbstractScraper):
 
     def description(self):
         return self.schema.description()
-
-    def nutrients(self):
-        return self.schema.nutrients()

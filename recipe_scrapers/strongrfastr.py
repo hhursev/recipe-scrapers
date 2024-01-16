@@ -1,12 +1,12 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
-from ._grouping_utils import group_ingredients
 
 
-class Arla(AbstractScraper):
+class StrongrFastr(AbstractScraper):
     @classmethod
     def host(cls):
-        return "arla.se"
+        return "strongrfastr.com"
 
     def author(self):
         return self.schema.author()
@@ -20,22 +20,11 @@ class Arla(AbstractScraper):
     def total_time(self):
         return self.schema.total_time()
 
-    def yields(self):
-        return self.schema.yields()
-
     def image(self):
         return self.schema.image()
 
     def ingredients(self):
         return self.schema.ingredients()
-
-    def ingredient_groups(self):
-        return group_ingredients(
-            self.ingredients(),
-            self.soup,
-            "div.u-mt--m > h5",
-            "div.u-mt--m > table > tbody > tr",
-        )
 
     def instructions(self):
         return self.schema.instructions()
@@ -49,5 +38,5 @@ class Arla(AbstractScraper):
     def description(self):
         return self.schema.description()
 
-    def nutrients(self):
-        return self.schema.nutrients()
+    def site_name(self):
+        return "Strongr Fastr"

@@ -1,15 +1,19 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
+from ._utils import normalize_string
 
 
-class Arla(AbstractScraper):
+class MundoDeReceitasBimby(AbstractScraper):
     @classmethod
     def host(cls):
-        return "arla.se"
+        return "mundodereceitasbimby.com.pt"
 
     def author(self):
-        return self.schema.author()
+        return normalize_string(
+            self.soup.find("span", class_="recipe-author").find("a").text
+        )
 
     def title(self):
         return self.schema.title()
@@ -33,8 +37,8 @@ class Arla(AbstractScraper):
         return group_ingredients(
             self.ingredients(),
             self.soup,
-            "div.u-mt--m > h5",
-            "div.u-mt--m > table > tbody > tr",
+            ".h5.padding-bottom-5.padding-top-5",
+            "ul > li[itemprop='recipeIngredient']",
         )
 
     def instructions(self):
@@ -46,8 +50,8 @@ class Arla(AbstractScraper):
     def cuisine(self):
         return self.schema.cuisine()
 
-    def description(self):
-        return self.schema.description()
+    def language(self):
+        return self.soup.find("meta", {"property": "og:locale"}).get("content")
 
-    def nutrients(self):
-        return self.schema.nutrients()
+    def site_name(self):
+        return "Mundo de Receitas Bimby"

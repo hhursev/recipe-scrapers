@@ -82,24 +82,25 @@ def test_func_factory(
         # Mandatory tests
         # If the key isn't present, check an assertion is raised
         for key in MANDATORY_TESTS:
-            scraper_func = getattr(actual, key)
-            if key in expect.keys():
-                self.assertEqual(
-                    expect[key],
-                    scraper_func(),
-                    msg=f"The actual value for .{key}() did not match the expected value.",
-                )
-            else:
-                with self.assertRaises(
-                    Exception,
-                    msg=f".{key}() was expected to raise an exception but it did not.",
-                ):
-                    scraper_func()
+            with self.subTest(key):
+                scraper_func = getattr(actual, key)
+                if key in expect.keys():
+                    self.assertEqual(
+                        expect[key],
+                        scraper_func(),
+                        msg=f"The actual value for .{key}() did not match the expected value.",
+                    )
+                else:
+                    with self.assertRaises(
+                        Exception,
+                        msg=f".{key}() was expected to raise an exception but it did not.",
+                    ):
+                        scraper_func()
 
         # Optional tests
         # If the key isn't present, skip
         for key in OPTIONAL_TESTS:
-            if hasattr(actual, key):
+            with self.subTest(key):
                 scraper_func = getattr(actual, key)
                 if key in expect.keys():
                     self.assertEqual(
@@ -114,7 +115,8 @@ def test_func_factory(
         for group in actual.ingredient_groups():
             grouped.extend(group.ingredients)
 
-        self.assertEqual(sorted(actual.ingredients()), sorted(grouped))
+        with self.subTest("ingredient_groups"):
+            self.assertEqual(sorted(actual.ingredients()), sorted(grouped))
 
     return test_func
 

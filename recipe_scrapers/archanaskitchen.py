@@ -1,5 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 
 
 class ArchanasKitchen(AbstractScraper):
@@ -18,6 +19,14 @@ class ArchanasKitchen(AbstractScraper):
 
     def ingredients(self):
         return self.schema.ingredients()
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".ingredientssubtitle",
+            "li[itemprop='ingredients']",
+        )
 
     def instructions(self):
         return self.schema.instructions()

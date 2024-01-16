@@ -148,6 +148,7 @@ Scrapers available for:
 - `https://www.dr.dk/ <https://www.dr.dk/>`_
 - `https://www.eatingbirdfood.com/ <https://www.eatingbirdfood.com>`_
 - `https://www.eatingwell.com/ <https://www.eatingwell.com>`_
+- `https://www.eatliverun.com/ <https://www.eatliverun.com/>`_
 - `https://eatsmarter.com/ <https://eatsmarter.com/>`_
 - `https://eatsmarter.de/ <https://eatsmarter.de/>`_
 - `https://www.eatwell101.com <https://www.eatwell101.com>`_
@@ -163,6 +164,7 @@ Scrapers available for:
 - `https://fifteenspatulas.com/ <https://www.fifteenspatulas.com/>`_
 - `https://finedininglovers.com/ <https://www.finedininglovers.com>`_
 - `https://fitmencook.com/ <https://www.fitmencook.com>`_
+- `https://fitslowcookerqueen.com <https://fitslowcookerqueen.com/>`_
 - `https://food.com/ <https://www.food.com>`_
 - `https://food52.com/ <https://www.food52.com>`_
 - `https://foodandwine.com/ <https://www.foodandwine.com>`_
@@ -189,6 +191,7 @@ Scrapers available for:
 - `https://handletheheat.com/ <https://handletheheat.com/>`_
 - `https://www.hassanchef.com/ <https://www.hassanchef.com/>`_
 - `https://headbangerskitchen.com/ <https://www.headbangerskitchen.com/>`_
+- `https://heatherchristo.com/ <https://heatherchristo.com/>`_
 - `https://www.heb.com/ <https://www.heb.com/recipe/landing>`_
 - `https://hellofresh.com/ <https://hellofresh.com>`_
 - `https://hellofresh.co.uk/ <https://hellofresh.co.uk>`_
@@ -209,6 +212,7 @@ Scrapers available for:
 - `https://izzycooking.com/ <https://izzycooking.com/>`_
 - `https://jamieoliver.com/ <https://jamieoliver.com>`_
 - `https://jimcooksfoodgood.com/ <https://jimcooksfoodgood.com/>`_
+- `https://joshuaweissman.com/ <https://joshuaweissman.com/>`_
 - `https://joyfoodsunshine.com/ <https://joyfoodsunshine.com>`_
 - `https://juliegoodwin.com.au/ <https://juliegoodwin.com.au>`_
 - `https://justataste.com/ <https://justataste.com>`_
@@ -256,6 +260,7 @@ Scrapers available for:
 - `https://momswithcrockpots.com/ <https://momswithcrockpots.com>`_
 - `https://monsieur-cuisine.com/ <https://monsieur-cuisine.com>`_
 - `http://motherthyme.com/ <http://motherthyme.com/>`_
+- `https://www.mundodereceitasbimby.com.pt/ <https://www.mundodereceitasbimby.com.pt/>`_
 - `https://mybakingaddiction.com/ <https://mybakingaddiction.com>`_
 - `https://mykitchen101.com/ <https://mykitchen101.com>`_
 - `https://mykitchen101en.com/ <https://mykitchen101en.com>`_
@@ -280,6 +285,7 @@ Scrapers available for:
 - `https://www.panelinha.com.br/ <https://www.panelinha.com.br>`_
 - `https://paninihappy.com/ <https://paninihappy.com>`_
 - `https://www.persnicketyplates.com/ <https://www.persnicketyplates.com/>`_
+- `https://pinchofyum.com/ <https://pinchofyum.com/>`_
 - `https://www.pickuplimes.com/ <https://www.pickuplimes.com/>`_
 - `https://www.pingodoce.pt/ <https://www.pingodoce.pt>`_
 - `https://pinkowlkitchen.com/ <https://pinkowlkitchen.com/>`_
@@ -327,6 +333,7 @@ Scrapers available for:
 - `https://www.staysnatched.com/ <https://www.staysnatched.com/>`_
 - `https://steamykitchen.com/ <https://steamykitchen.com>`_
 - `https://streetkitchen.hu/ <https://streetkitchen.hu>`_
+- `https://www.strongrfastr.com <https://www.strongrfastr.com>`_
 - `https://sunbasket.com/ <https://sunbasket.com>`_
 - `https://sundpaabudget.dk/ <https://sundpaabudget.dk>`_
 - `https://www.sunset.com/ <https://www.sunset.com/>`_
