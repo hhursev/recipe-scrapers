@@ -37,9 +37,7 @@ class AmazingRibs(AbstractScraper):
         return self.schema.instructions()
 
     def equipment(self):
-        return sorted(
-            {
-                normalize_string(e.get_text())
-                for e in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
-            }
-        )
+        return {
+            normalize_string(e.get_text())
+            for e in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+        }
