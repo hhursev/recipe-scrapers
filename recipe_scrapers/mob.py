@@ -47,11 +47,11 @@ class Mob(AbstractScraper):
                 # If the item is a header, create a new section
                 current_section = {"ingredients": [], "purpose": item.get("heading")}
                 result.append(current_section)
-            elif item.get("typeHandle") == "ingredient" and current_section is not None:
-                # If the item is an ingredient and a section has been created, add it to the section
-                current_section["ingredients"].append(item.get("label"))
-            else:
-                empty_section["ingredients"].append(item.get("label"))
+            elif item.get("typeHandle") == "ingredient":
+                if current_section is not None:
+                    current_section["ingredients"].append(item.get("label"))
+                else:
+                    empty_section["ingredients"].append(item.get("label"))
         if len(empty_section["ingredients"]):
             result.append(empty_section)
         return [
