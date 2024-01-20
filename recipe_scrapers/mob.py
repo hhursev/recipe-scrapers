@@ -37,9 +37,6 @@ class Mob(AbstractScraper):
     def image(self):
         return self.recipe_json.get("image", [])[0]["url"]
 
-    def nutrients(self):
-        return {"servingSize": f"{self.recipe_json.get('servingSize')}"}
-
     def ingredient_groups(self):
         result = []
         current_section = None
