@@ -1,6 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 
 
 class FitSlowCookerQueen(AbstractScraper):
@@ -28,6 +29,14 @@ class FitSlowCookerQueen(AbstractScraper):
 
     def ingredients(self):
         return self.schema.ingredients()
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".tasty-recipes-ingredients h4",
+            ".tasty-recipes-ingredients ul li",
+        )
 
     def instructions(self):
         return self.schema.instructions()
