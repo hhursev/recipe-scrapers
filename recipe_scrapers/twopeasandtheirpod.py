@@ -9,11 +9,7 @@ class TwoPeasAndTheirPod(AbstractScraper):
         return "twopeasandtheirpod.com"
 
     def author(self):
-        author_tag = self.soup.find("p", class_="entry-author")
-        if author_tag:
-            return author_tag.text.replace("By ", "")
-
-        return "Two Peas & Their Pod"
+        return self.schema.author()
 
     def title(self):
         return self.schema.title()

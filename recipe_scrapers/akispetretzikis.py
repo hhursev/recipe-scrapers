@@ -2,8 +2,6 @@
 import json
 
 from ._abstract import AbstractScraper
-from ._exceptions import SchemaOrgException
-from ._utils import normalize_string
 
 
 class AkisPetretzikis(AbstractScraper):
@@ -27,57 +25,25 @@ class AkisPetretzikis(AbstractScraper):
         return self.schema.category()
 
     def total_time(self):
-        make_time = self.recipe_json["props"]["pageProps"]["ssRecipe"]["data"][
-            "make_time"
-        ]
-        bake_time = self.recipe_json["props"]["pageProps"]["ssRecipe"]["data"][
-            "bake_time"
-        ]
-        return make_time + bake_time
+        return self.schema.total_time()
 
     def yields(self):
-        return self.recipe_json["props"]["pageProps"]["ssRecipe"]["data"]["shares"]
+        return self.schema.yields()
 
     def image(self):
         return self.schema.image()
 
     def ingredients(self):
-        ingredient_sections = self.recipe_json["props"]["pageProps"]["ssRecipe"][
-            "data"
-        ]["ingredient_sections"]
-        ingredients_list = []
-        if len(ingredient_sections) == 0:
-            return ingredients_list
-        for ingredient in ingredient_sections[0]["ingredients"]:
-            parts = []
-            if ingredient["quantity"]:
-                parts.append(ingredient["quantity"])
-            if ingredient["unit"]:
-                parts.append(ingredient["unit"])
-            parts.append(ingredient["title"])
-            ingredients_list.append(" ".join(parts))
-        return ingredients_list
+        return self.schema.ingredients()
 
     def instructions(self):
-        method = self.recipe_json["props"]["pageProps"]["ssRecipe"]["data"]["method"]
-        if len(method) == 0:
-            return ""
-        instructions_list = [
-            normalize_string(step["step"]) for step in method[0]["steps"]
-        ]
-        return "\n".join(instructions_list)
+        return self.schema.instructions()
 
     def ratings(self):
-        average_score = self.recipe_json["props"]["pageProps"]["ssRecipe"]["data"][
-            "average_score"
-        ]
-        return round(float(average_score), 2)
+        return self.schema.ratings()
 
     def cuisine(self):
-        try:
-            return self.schema.cuisine()
-        except SchemaOrgException:
-            return None
+        return self.schema.cuisine()
 
     def description(self):
         return self.schema.description()

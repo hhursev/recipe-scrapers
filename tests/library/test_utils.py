@@ -72,6 +72,10 @@ class TestUtils(unittest.TestCase):
         text = "15 to 20 minutes"
         self.assertEqual(20, get_minutes(text))
 
+    def test_get_minutes_imprecise_description(self):
+        text = "Pá-Pum"
+        self.assertEqual(None, get_minutes(text))
+
     iso8601_fixtures = {
         "PT1H": 60,
         "PT20M": 20,

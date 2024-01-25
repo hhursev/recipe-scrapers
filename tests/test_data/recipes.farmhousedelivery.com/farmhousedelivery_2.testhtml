@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="google-site-verification" content="ZRiXZ0HWO3ALDqdG40D7wAYPUMKU2htWYa-ktypHv0k" />
+	<title>One Pan Crispy Rosemary Chicken Thighs + Roasted Radishes  - Farmhouse Delivery</title>
+	<link rel="pingback" href="https://recipes.farmhousedelivery.com/xmlrpc.php" />
+	<link rel="shortcut icon" type="image/jpg" href="https://recipes.farmhousedelivery.com/wp-content/themes/ELDchildTheme/favicon.jpg">
+	<link rel="apple-touch-icon" sizes="57x57" href="https://recipes.farmhousedelivery.com/wp-content/themes/ELDchildTheme/images/devices/apple-touch-icon-iphone.jpg" />
+	<link rel="apple-touch-icon" sizes="114x114" href="https://recipes.farmhousedelivery.com/wp-content/themes/ELDchildTheme/images/devices/apple-touch-icon-iphone.jpg" />
+	<link rel="apple-touch-icon" sizes="72x72" href="https://recipes.farmhousedelivery.com/wp-content/themes/ELDchildTheme/images/devices/apple-touch-icon-ipad.jpg" />
+	<link rel="apple-touch-icon" sizes="144x144" href="https://recipes.farmhousedelivery.com/wp-content/themes/ELDchildTheme/images/devices/apple-touch-icon-ipad.jpg" />
+	<style type="text/css">
+	@media print {
+
+		h1.printOnly:before {
+			 content: url(https://chart.googleapis.com/chart?cht=qr&chs=150x150&chl=http://recipes.farmhousedelivery.com/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/&choe=UTF-8);
+      position: absolute;
+      right: 0;
+      top: 0;
+	   	}
+	}
+	</style>
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<meta name='robots' content='max-image-preview:large' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v15.6.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="Brand ambassador Rebecca Costa cooked up this amazing dish featuring chicken thighs, crispy radishes and fragrant rosemary. As a bonus, it&#039;s simple prep on your part and makes the whole house smell like heaven as it cooks." />
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="http://recipes.farmhousedelivery.com/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="One Pan Crispy Rosemary Chicken Thighs + Roasted Radishes  - Farmhouse Delivery" />
+	<meta property="og:description" content="Brand ambassador Rebecca Costa cooked up this amazing dish featuring chicken thighs, crispy radishes and fragrant rosemary. As a bonus, it&#039;s simple prep on your part and makes the whole house smell like heaven as it cooks." />
+	<meta property="og:url" content="http://recipes.farmhousedelivery.com/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/" />
+	<meta property="og:site_name" content="Farmhouse Delivery" />
+	<meta property="article:author" content="www.facebook.com/farmhousedelivery" />
+	<meta property="article:published_time" content="2019-05-22T19:08:58+00:00" />
+	<meta property="article:modified_time" content="2020-03-11T18:45:59+00:00" />
+	<meta property="og:image" content="https://recipes.farmhousedelivery.com/wp-content/uploads/2019/05/FHD-Chic-Thigh-Recipe-1-1024x768.jpeg" />
+	<meta property="og:image:width" content="1024" />
+	<meta property="og:image:height" content="768" />
+	<meta name="twitter:label1" content="Written by">
+	<meta name="twitter:data1" content="RecipesFHD">
+	<meta name="twitter:label2" content="Est. reading time">
+	<meta name="twitter:data2" content="1 minute">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://recipes.farmhousedelivery.com/#website","url":"https://recipes.farmhousedelivery.com/","name":"Farmhouse Delivery","description":"Recipes","potentialAction":[{"@type":"SearchAction","target":"https://recipes.farmhousedelivery.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"http://recipes.farmhousedelivery.com/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/#primaryimage","inLanguage":"en-US","url":"https://recipes.farmhousedelivery.com/wp-content/uploads/2019/05/FHD-Chic-Thigh-Recipe-1.jpeg","width":3854,"height":2890},{"@type":"WebPage","@id":"http://recipes.farmhousedelivery.com/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/#webpage","url":"http://recipes.farmhousedelivery.com/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/","name":"One Pan Crispy Rosemary Chicken Thighs + Roasted Radishes\u00a0 - Farmhouse Delivery","isPartOf":{"@id":"https://recipes.farmhousedelivery.com/#website"},"primaryImageOfPage":{"@id":"http://recipes.farmhousedelivery.com/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/#primaryimage"},"datePublished":"2019-05-22T19:08:58+00:00","dateModified":"2020-03-11T18:45:59+00:00","author":{"@id":"https://recipes.farmhousedelivery.com/#/schema/person/287b1d60dc98706f1c3bfcc5ebca47b2"},"description":"Brand ambassador Rebecca Costa cooked up this amazing dish featuring chicken thighs, crispy radishes and fragrant rosemary. As a bonus, it's simple prep on your part and makes the whole house smell like heaven as it cooks.","breadcrumb":{"@id":"http://recipes.farmhousedelivery.com/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["http://recipes.farmhousedelivery.com/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/"]}]},{"@type":"BreadcrumbList","@id":"http://recipes.farmhousedelivery.com/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://recipes.farmhousedelivery.com/","url":"https://recipes.farmhousedelivery.com/","name":"Recipes"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"http://recipes.farmhousedelivery.com/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/","url":"http://recipes.farmhousedelivery.com/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/","name":"One Pan Crispy Rosemary Chicken Thighs + Roasted Radishes\u00a0"}}]},{"@type":"Person","@id":"https://recipes.farmhousedelivery.com/#/schema/person/287b1d60dc98706f1c3bfcc5ebca47b2","name":"RecipesFHD","image":{"@type":"ImageObject","@id":"https://recipes.farmhousedelivery.com/#personlogo","inLanguage":"en-US","url":"https://secure.gravatar.com/avatar/b7353d457d4ed7d0134d70b6bdbb2f47?s=96&d=mm&r=g","caption":"RecipesFHD"},"description":"Our mission is to build a strong local food community by connecting our members to the farmers, ranchers and artisans who produce their food. Farmhouse Delivery partners with local farmers and ranchers to deliver the highest-quality, sustainably produced food to directly to your door. We believe that the road to a thriving, healthy local food system is paved with inspiring recipes, the freshest, tastiest food, a return to the family table and a commitment to our local community. We are passionate supporters of the local food movement, and want to make it convenient, affordable, and exciting for people to eat healthy, fresh, seasonal, local food.","sameAs":["http://www.farmhousedelivery.com","www.facebook.com/farmhousedelivery"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel='dns-prefetch' href='//c0.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="Farmhouse Delivery &raquo; Feed" href="https://recipes.farmhousedelivery.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Farmhouse Delivery &raquo; Comments Feed" href="https://recipes.farmhousedelivery.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Farmhouse Delivery &raquo; One Pan Crispy Rosemary Chicken Thighs + Roasted Radishes  Comments Feed" href="https://recipes.farmhousedelivery.com/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/recipes.farmhousedelivery.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='foundation-icon-css'  href='https://recipes.farmhousedelivery.com/wp-content/plugins/easy-foundation-shortcodes/styles/foundation-icons.css?ver=6.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='foundation-norm-css'  href='https://recipes.farmhousedelivery.com/wp-content/plugins/easy-foundation-shortcodes/styles/5/normalize.css?ver=6.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='foundation-css'  href='https://recipes.farmhousedelivery.com/wp-content/plugins/easy-foundation-shortcodes/styles/5/foundation.min.css?ver=6.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://c0.wp.com/c/6.0.2/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='foundation-css-css'  href='https://recipes.farmhousedelivery.com/wp-content/themes/EyeLikeDesign/stylesheets/foundation.min.css?ver=3.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='app-css-css'  href='https://recipes.farmhousedelivery.com/wp-content/themes/ELDchildTheme/stylesheets/app.css?ver=1.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='open-sans-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;display=fallback&#038;ver=6.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='eld-foundation-css-css'  href='https://recipes.farmhousedelivery.com/wp-content/themes/ELDchildTheme/style.css?ver=6.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://c0.wp.com/p/jetpack/9.3.3/css/jetpack.css' type='text/css' media='all' />
+<link rel='stylesheet' id='lightboxStyle-css'  href='https://recipes.farmhousedelivery.com/wp-content/lbp-css/EyeLikeDesign/colorbox.min.css?ver=2.7.2' type='text/css' media='screen' />
+<script type='text/javascript' src='https://c0.wp.com/c/6.0.2/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://c0.wp.com/c/6.0.2/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://recipes.farmhousedelivery.com/wp-content/plugins/easy-foundation-shortcodes/js/5/vendor/custom.modernizr.js?ver=6.0.2' id='foundation-custom-js'></script>
+<link rel="https://api.w.org/" href="https://recipes.farmhousedelivery.com/wp-json/" /><link rel="alternate" type="application/json" href="https://recipes.farmhousedelivery.com/wp-json/wp/v2/posts/6150" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://recipes.farmhousedelivery.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://recipes.farmhousedelivery.com/wp-includes/wlwmanifest.xml" />
+<link rel='shortlink' href='https://wp.me/pa3Zfx-1Bc' />
+<link rel="alternate" type="application/json+oembed" href="https://recipes.farmhousedelivery.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frecipes.farmhousedelivery.com%2Fone-pan-crispy-rosemary-chicken-thighs-roasted-radishes%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://recipes.farmhousedelivery.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frecipes.farmhousedelivery.com%2Fone-pan-crispy-rosemary-chicken-thighs-roasted-radishes%2F&#038;format=xml" />
+<style type='text/css'>img#wpstats{display:none}</style><link rel="stylesheet" type="text/css" href="https://recipes.farmhousedelivery.com/wp-content/themes/ELDchildTheme/style-new.css" />
+<script src="https://use.fontawesome.com/6127ecda12.js"></script>
+</head>
+<body class="post-template-default single single-post postid-6150 single-format-standard singular">
+	<!-- Start the main container -->
+	<div id="container" class="container" role="document">
+		<div class="headerholder">
+		<!-- Row for blog navigation -->
+		<div class="row">
+			<header class="twelve columns eld-header" role="banner">
+				<div class="row">
+				  <div class="two columns">
+						<h1 id="site-title"><span><a href="http://farmhousedelivery.com/" title="Farmhouse Delivery" rel="home"><img src="https://recipes.farmhousedelivery.com/wp-content/themes/ELDchildTheme/images/logo-new.png" alt="Farmhouse Delivery"/></a></span></h1>
+						<h1 class="printOnly" style="display:none;"><img src="https://recipes.farmhousedelivery.com/wp-content/themes/ELDchildTheme/images/logo-new.png" style="display:none;" class="printOnly"/></h1>
+						</div>
+						<div class="seven columns">
+							<nav class="topNav">
+        			  <li class="navToggle"><a href="#">MENU &equiv;</a></li>
+                 <div class="menu"><ul id="menu-new-nav" class="menu"><li id="menu-item-6002" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6002"><a href="https://farmhousedelivery.com/p-49-why_farmhouse.html">Why Farmhouse</a></li>
+<li id="menu-item-6003" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6003"><a href="https://farmhousedelivery.com/p-50-produce-bushels.html">Produce Boxes</a></li>
+<li id="menu-item-6004" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6004"><a href="https://farmhousedelivery.com/p-51-meal-kits.html">Meal Kits</a></li>
+<li id="menu-item-6005" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6005"><a href="https://farmhousedelivery.com/summary.php?go=products&#038;12">Groceries</a></li>
+</ul></div>          		</nav>
+          		</div>
+          		<div class="three columns searchtop">
+          		  <!-- START: searchform.php -->
+<form role="search" method="get" id="searchform" action="https://recipes.farmhousedelivery.com/">
+	<label class="hide" for="s">Search for:</label>
+    <div class="row collapse">
+    	<div class="eight mobile-three columns">
+        	<input type="text" value="" name="s" id="s" placeholder="Search Recipes">
+      	</div>
+      	<div class="four mobile-one columns">
+        	<input type="submit" id="searchsubmit" value="Go" class="button">
+      	</div>
+    </div>
+</form>
+<!-- END: searchform.php -->          		</div>
+				</div>
+			</header>
+		</div>
+	</div>
+				<div class="clearfix"></div>
+				<div class="row">
+					<div class="twelve columns">
+														<!-- START: nav.php -->
+				<nav id="categories" role="navigation" class="group">
+			  <li class="navToggle"><a href="#">CATEGORIES <span class="eqMove">&equiv;</span></a></li>
+					<div class="menu-recipe-menu-container"><ul class="nav-bar group"><li id="menu-item-3409" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3409"><a  href="https://recipes.farmhousedelivery.com/category/breakfast/">Breakfast</a></li>
+<li id="menu-item-4756" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4756"><a  href="https://recipes.farmhousedelivery.com/category/salad-recipes/">Salads</a></li>
+<li id="menu-item-4757" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4757"><a  href="https://recipes.farmhousedelivery.com/category/sandwiches/">Sandwiches</a></li>
+<li id="menu-item-4758" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4758"><a  href="https://recipes.farmhousedelivery.com/category/soup-recipes/">Soups</a></li>
+<li id="menu-item-3414" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3414"><a  href="https://recipes.farmhousedelivery.com/category/appetizers-and-snacks/">Snacks &#038; Appetizers</a></li>
+<li id="menu-item-3418" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3418"><a  href="https://recipes.farmhousedelivery.com/category/vegetable-side-dishes/">Vegetarian Dishes &#038; Sides</a></li>
+<li id="menu-item-3412" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-3412"><a  href="https://recipes.farmhousedelivery.com/category/main-dishes/">Main Dishes</a></li>
+<li id="menu-item-3413" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3413"><a  href="https://recipes.farmhousedelivery.com/category/sauces-and-dressings/">Sauces, Dressings, Preserves</a></li>
+<li id="menu-item-3410" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3410"><a  href="https://recipes.farmhousedelivery.com/category/desserts/">Desserts</a></li>
+<li id="menu-item-3417" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3417"><a  href="https://recipes.farmhousedelivery.com/category/uncategorized/">Uncategorized</a></li>
+<li id="menu-item-3416" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3416"><a  href="https://recipes.farmhousedelivery.com/category/storage-tips/">Storage Tips</a></li>
+</ul></div>				</nav>
+				<!-- END: nav.php -->			</div>
+			<div class="twelve columns">
+			<p id="breadcrumbs">	<a href='http://farmhousedelivery.com/'>Farmhouse Delivery</a> »
+<span><span><a href="https://recipes.farmhousedelivery.com/">Recipes</a> » <strong class="breadcrumb_last" aria-current="page">One Pan Crispy Rosemary Chicken Thighs + Roasted Radishes </strong></span></span></p>      </div>
+		</div><!-- // header.php -->
+
+	<!-- Row for main content area -->
+	<div id="content" class="row">
+
+		<div id="main" class="eight columns" role="main">
+
+			<div class="post-box">
+
+
+						<!-- START: content.php -->
+		<article id="post-6150" class="post-6150 post type-post status-publish format-standard has-post-thumbnail hentry category-main-dishes">
+	  		<header class="entry-header">
+						<h1 class="entry-title">One Pan Crispy Rosemary Chicken Thighs + Roasted Radishes </h1>
+					</header><!-- .entry-header -->
+				<div class="entry-meta">
+			<h6>Posted on <a href="https://recipes.farmhousedelivery.com/2019/05/22/" title="7:08 pm" rel="bookmark"><time class="entry-date" datetime="2019-05-22T19:08:58+00:00" pubdate>May 22, 2019</time></a></h6>			<a href="//yummly.com" rel="nofollow" class="YUMMLY-YUM-BUTTON">Yum</a><br/>
+					</div><!-- .entry-meta -->
+						<div class="entry-content">
+			<p><a href="http://recipesfhd.wpengine.com/wp-content/uploads/2019/05/FHD-Chic-Thigh-Recipe.jpeg"><img class="size-medium wp-image-6156 alignleft" src="http://recipesfhd.wpengine.com/wp-content/uploads/2019/05/FHD-Chic-Thigh-Recipe-225x300.jpeg" alt="" width="225" height="300" srcset="https://recipes.farmhousedelivery.com/wp-content/uploads/2019/05/FHD-Chic-Thigh-Recipe-225x300.jpeg 225w, https://recipes.farmhousedelivery.com/wp-content/uploads/2019/05/FHD-Chic-Thigh-Recipe-768x1024.jpeg 768w" sizes="(max-width: 225px) 100vw, 225px" /></a></p>
+<p dir="auto">If you&#8217;re like us, chicken thighs make you weak in the knees! They&#8217;re moist, juicy, and oh, so flavorful. Brand ambassador Rebecca Costa cooked up this amazing dish featuring chicken thighs, crispy radishes and fragrant rosemary. As a bonus, it&#8217;s simple prep on your part and makes the whole house smell like heaven as it cooks. Enjoy!</p>
+<p dir="auto"><strong>Ingredients</strong></p>
+<p>1/2 lemon, juiced</p>
+<p>1/4 c olive oil</p>
+<p>1 tsp spicy mustard</p>
+<p>1 head of garlic, minced</p>
+<p>2 tsp pink Himalayan salt</p>
+<p>1 tsp black pepper</p>
+<p>4 sprigs fresh rosemary, de-stemmed</p>
+<p>4 bone-in chicken thighs (Find them <a href="https://www.farmhousedelivery.com/product/chicken-bone-in-thighs">here.</a>)</p>
+<p>3 red potatoes, diced</p>
+<p>1 bunch radishes, quartered</p>
+<p>1 red onion, sliced</p>
+<hr />
+<p><strong>Instructions</strong></p>
+<p>❶ Preheat your oven to 400°F.</p>
+<p>❷ In a medium sized mixing bowl, whisk together olive oil, lemon juice, mustard, garlic, salt , pepper and rosemary.</p>
+<p>❸ Layer potatoes, radishes and onions on a baking sheet. Lightly drizzle with the tinest bit of olive oil. The chicken thighs will drip fat for cooking, so we don&#8217;t want to overdo it with the oil.</p>
+<p><a href="http://recipesfhd.wpengine.com/wp-content/uploads/2019/05/IMG_2645.jpeg"><img loading="lazy" class="alignnone size-medium wp-image-6154" src="http://recipesfhd.wpengine.com/wp-content/uploads/2019/05/IMG_2645-300x225.jpeg" alt="" width="300" height="225" srcset="https://recipes.farmhousedelivery.com/wp-content/uploads/2019/05/IMG_2645-300x225.jpeg 300w, https://recipes.farmhousedelivery.com/wp-content/uploads/2019/05/IMG_2645-768x576.jpeg 768w, https://recipes.farmhousedelivery.com/wp-content/uploads/2019/05/IMG_2645-1024x768.jpeg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>❹ Pat chicken thighs dry and rub with seasoning mixture. Be sure to get in under the skin too.</p>
+<p>❺ Place chicken thighs over your vegetable layer.</p>
+<p><a href="http://recipesfhd.wpengine.com/wp-content/uploads/2019/05/IMG_2650.jpeg"><img loading="lazy" class="alignnone wp-image-6155 size-medium" src="http://recipesfhd.wpengine.com/wp-content/uploads/2019/05/IMG_2650-e1558551857815-300x225.jpeg" alt="" width="300" height="225" srcset="https://recipes.farmhousedelivery.com/wp-content/uploads/2019/05/IMG_2650-e1558551857815-300x225.jpeg 300w, https://recipes.farmhousedelivery.com/wp-content/uploads/2019/05/IMG_2650-e1558551857815-768x576.jpeg 768w, https://recipes.farmhousedelivery.com/wp-content/uploads/2019/05/IMG_2650-e1558551857815-1024x768.jpeg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>❻ Roast for 55 minutes, then broil for 3 minutes for an extra crisp factor! Enjoy!</p>
+<p><a href="http://recipesfhd.wpengine.com/wp-content/uploads/2019/05/FHD-Chic-Thigh-Recipe-1.jpeg"><img loading="lazy" class="alignnone size-medium wp-image-6151" src="http://recipesfhd.wpengine.com/wp-content/uploads/2019/05/FHD-Chic-Thigh-Recipe-1-300x225.jpeg" alt="" width="300" height="225" srcset="https://recipes.farmhousedelivery.com/wp-content/uploads/2019/05/FHD-Chic-Thigh-Recipe-1-300x225.jpeg 300w, https://recipes.farmhousedelivery.com/wp-content/uploads/2019/05/FHD-Chic-Thigh-Recipe-1-768x576.jpeg 768w, https://recipes.farmhousedelivery.com/wp-content/uploads/2019/05/FHD-Chic-Thigh-Recipe-1-1024x768.jpeg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>&#8211; For more lifestyle tips and recipes from Rebecca, you can find her on Instagram at <a href="https://www.instagram.com/xxrlilly/">@xxrlilly</a></p>
+<p>&nbsp;</p>
+					</div><!-- .entry-content -->
+
+		<footer class="entry-meta">
+						            <!-- START: entry-meta.php -->
+                                                <span class="cat-links">
+                <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://recipes.farmhousedelivery.com/category/main-dishes/" rel="category tag">Main Dishes</a>            </span><br/>
+
+
+                        <div id="author-info">
+                <div id="author-avatar">
+                    <img alt='' src='https://secure.gravatar.com/avatar/b7353d457d4ed7d0134d70b6bdbb2f47?s=68&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/b7353d457d4ed7d0134d70b6bdbb2f47?s=136&#038;d=mm&#038;r=g 2x' class='avatar avatar-68 photo' height='68' width='68' loading='lazy'/>                </div><!-- #author-avatar -->
+                <div id="author-description">
+                    <h2>About RecipesFHD</h2>
+                    Our mission is to build a strong local food community by connecting our members to the farmers, ranchers and artisans who produce their food. Farmhouse Delivery partners with local farmers and ranchers to deliver the highest-quality, sustainably produced food to directly to your door. We believe that the road to a thriving, healthy local food system is paved with inspiring recipes, the freshest, tastiest food, a return to the family table and a commitment to our local community. We are passionate supporters of the local food movement, and want to make it convenient, affordable, and exciting for people to eat healthy, fresh, seasonal, local food.                    <div id="author-link">
+                        <a href="https://recipes.farmhousedelivery.com/author/recipesfhd/" rel="author">
+                        View all posts by RecipesFHD <span class="meta-nav">&rarr;</span>                        </a>
+                    </div><!-- #author-link -->
+                </div><!-- #author-description -->
+            </div><!-- #entry-author-info -->
+                        <!-- END: entry-meta.php -->					</footer><!-- #entry-meta -->
+
+	</article><!-- #post-6150 -->
+	<!-- END: content.php -->
+						<nav class="nav-single">
+		<h3 class="assistive-text">Post navigation</h3>
+		<span class="nav-previous"><a href="https://recipes.farmhousedelivery.com/quick-dinner-recipes/" rel="prev">&larr; Quick Dinner Recipes</a></span>
+		<span class="nav-next"><a href="https://recipes.farmhousedelivery.com/perfect-peach-cobbler-smoothie/" rel="next">Perfect Peach Cobbler Smoothie &rarr;</a></span>
+	</nav><!-- .nav-single -->
+
+						<!-- START: comments.php -->
+	<div id="comments">
+
+
+
+	<section id="respond">
+	<h3>Leave a Reply</h3>
+	<p class="cancel-comment-reply"><a rel="nofollow" id="cancel-comment-reply-link" href="/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/#respond" style="display:none;">Click here to cancel reply.</a></p>
+		<form action="http://recipes.farmhousedelivery.com/wp-comments-post.php" method="post" id="commentform">
+				<p>
+			<label for="author">Name (required)</label>
+			<input type="text" class="input-text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true'>
+		</p>
+		<p>
+			<label for="email">Email (will not be published) (required)</label>
+			<input type="email" class="input-text" name="email" id="email" value="" tabindex="2" aria-required='true'>
+		</p>
+		<p>
+			<label for="url">Website</label>
+			<input type="url" class="input-text" name="url" id="url" value="" tabindex="3">
+		</p>
+				<p>
+			<label for="comment">Comment</label>
+			<textarea name="comment" id="comment" tabindex="4"></textarea>
+		</p>
+		<p><input name="submit" class="button" type="submit" id="submit" tabindex="5" value="Submit Comment"></p>
+		<input type='hidden' name='comment_post_ID' value='6150' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+		<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="8a5eaddbfc" /></p><input type="hidden" id="ak_js" name="ak_js" value="114"/><textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100" style="display: none !important;"></textarea>	</form>
+	</section>
+
+</div><!-- #comments -->
+<!-- END: comments.php -->
+
+
+			</div>
+
+		</div><!-- /#main -->
+
+		<aside id="sidebar" class="four columns" role="complementary">
+
+			<div class="sidebar-box">
+
+				        <!-- START: sidebar.php -->
+		<div id="secondary" class="widget-area" role="complementary">
+			<aside id="categories-2" class="widget widget_categories"><h4 class="widget-title">Recipes</h4>
+			<ul>
+					<li class="cat-item cat-item-7"><a href="https://recipes.farmhousedelivery.com/category/appetizers-and-snacks/">Appetizers &amp; Snacks</a>
+</li>
+	<li class="cat-item cat-item-216"><a href="https://recipes.farmhousedelivery.com/category/breads/">Breads</a>
+</li>
+	<li class="cat-item cat-item-2"><a href="https://recipes.farmhousedelivery.com/category/breakfast/">Breakfast</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="https://recipes.farmhousedelivery.com/category/desserts/">Desserts</a>
+</li>
+	<li class="cat-item cat-item-311"><a href="https://recipes.farmhousedelivery.com/category/drinks/">Drinks</a>
+</li>
+	<li class="cat-item cat-item-525"><a href="https://recipes.farmhousedelivery.com/category/holiday/">Holiday</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="https://recipes.farmhousedelivery.com/category/main-dishes/">Main Dishes</a>
+</li>
+	<li class="cat-item cat-item-206"><a href="https://recipes.farmhousedelivery.com/category/salad-recipes/">Salads</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="https://recipes.farmhousedelivery.com/category/sandwiches/">Sandwiches</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="https://recipes.farmhousedelivery.com/category/sauces-and-dressings/">Sauces, Dressings, Preserves</a>
+</li>
+	<li class="cat-item cat-item-205"><a href="https://recipes.farmhousedelivery.com/category/soup-recipes/">Soups</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="https://recipes.farmhousedelivery.com/category/storage-tips/">Storage Tips</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://recipes.farmhousedelivery.com/category/uncategorized/">Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="https://recipes.farmhousedelivery.com/category/vegetable-side-dishes/">Vegetable &amp; Side Dishes</a>
+</li>
+			</ul>
+
+			</aside>		</div><!-- #secondary .widget-area -->
+        <!-- END: sidebar.php -->
+			</div>
+
+		</aside><!-- /#sidebar -->
+
+	</div><!-- End Content row -->
+
+
+	</div><!-- Container End -->
+			<footer id="footer" role="contentinfo">
+			  <div class="container">
+			    <div class="row">
+			    <div class="four columns">
+			    <a href="http://farmhousedelivery.com/home.php" title="" class="footer_logo"><img src="https://recipes.farmhousedelivery.com/wp-content/themes/ELDchildTheme/images/footer-logo.png" /></a>
+			    </div>
+      		<section class="footer_links five columns">
+            <div class="five columns">
+      			<span class="local_links">
+      				<a href="https://farmhousedelivery.com/p-49-why_farmhouse.html" title="">WHY FARMHOUSE?</a>
+      				<a href="https://farmhousedelivery.com/p-50-produce-bushels.html" title="">PRODUCE BOXES</a>
+      				<a href="https://farmhousedelivery.com/p-51-meal-kits.html" title="">MEAL KITS</a>
+              <a href="https://farmhousedelivery.com/p-52-groceries.html" title="">GROCERIES</a>
+              <a href="/" title="">RECIPES</a>
+      			</span>
+          </div>
+          <div class="seven columns">
+      			<span class="farmhouse_social">
+              <h5>FOLLOW US</h5>
+      				<a href="https://www.facebook.com/pages/Farmhouse-Delivery/93703679287" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+              </a>
+            <a href="http://www.pinterest.com/texasfarmhouse/" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              <a href="http://instagram.com/farmhousedelivery" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+      				<a href="https://twitter.com/texasfarmhouse" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+
+
+      			</span>
+            <span class="local_links">
+                <a href="http://community.farmhousedelivery.com" title="">BLOG</a>
+                <a href="https://farmhousedelivery.com/p-60-privacy-policy.html" title="">PRIVACY</a>
+                <a href="https://farmhousedelivery.com/p-59-terms-amp-conditions.html" title="">T&amp;C</a>
+            </span>
+            </div>
+      		</section>
+      		<section class="need_help three columns">
+              <p>9715 Burnet Rd<br/>
+              Building 7, Suite 400<br/>
+              Austin, TX 78758<br/>
+              USA</p>
+              <p><a href="mailto:info@farmhousedelivery.com">info@farmhousedelivery.com</a></p>
+      				<p>Phone: <a href="tel://15125298569">512-529-8569</a><br />
+      				</p>
+      		</section>
+
+      		<div class="copyright">
+      				<p>&copy;
+      				<script type="text/javascript">
+      				var theDate=new Date()
+      				document.write(theDate.getFullYear())
+      				</script>
+      				Farmhouse Delivery. All rights reserved.
+      		</div>
+        </div>
+        </div>
+			</footer>
+
+
+	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+	     chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 7]>
+		<script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+		<script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+
+		<div style="display:none">
+	<div class="grofile-hash-map-b7353d457d4ed7d0134d70b6bdbb2f47">
+	</div>
+	</div>
+<!-- Lightbox Plus Colorbox v2.7.2/1.5.9 - 2013.01.24 - Message: 0-->
+<script type="text/javascript">
+jQuery(document).ready(function($){
+  $("a[rel*=lightbox]").colorbox({initialWidth:"300",initialHeight:"300",maxWidth:"90%",maxHeight:"90%",scrolling:false,top:false,right:false,bottom:false,left:false});
+});
+</script>
+<script type='text/javascript' src='https://recipes.farmhousedelivery.com/wp-content/themes/ELDchildTheme/javascripts/jquery.horizontalNav.js?ver=1.1' id='horizontalNav-js'></script>
+<script type='text/javascript' src='https://secure.gravatar.com/js/gprofiles.js?ver=202243' id='grofiles-cards-js'></script>
+<script type='text/javascript' id='wpgroho-js-extra'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://c0.wp.com/p/jetpack/9.3.3/modules/wpgroho.js' id='wpgroho-js'></script>
+<script type='text/javascript' src='https://recipes.farmhousedelivery.com/wp-content/themes/EyeLikeDesign/javascripts/eld-foundation.min.js?ver=3.2.5' id='foundation-js-js'></script>
+<script type='text/javascript' src='https://recipes.farmhousedelivery.com/wp-content/themes/EyeLikeDesign/javascripts/app.js?ver=3.2.5' id='app-js-js'></script>
+<script type='text/javascript' src='https://recipes.farmhousedelivery.com/wp-content/themes/EyeLikeDesign/javascripts/theme.js?ver=6.0.2' id='theme-js-js'></script>
+<script type='text/javascript' src='https://recipes.farmhousedelivery.com/wp-content/themes/ELDchildTheme/javascripts/child-theme.js?ver=1.0.4' id='child-theme-js-js'></script>
+<script type='text/javascript' src='https://c0.wp.com/c/6.0.2/wp-includes/js/comment-reply.min.js' id='comment-reply-js'></script>
+<script type='text/javascript' src='https://recipes.farmhousedelivery.com/wp-content/plugins/easy-foundation-shortcodes/js/5/foundation.min.js?ver=6.0.2' id='foundation-js'></script>
+<script type='text/javascript' src='https://recipes.farmhousedelivery.com/wp-content/plugins/easy-foundation-shortcodes/js/script.js?ver=6.0.2' id='foundation-app-js'></script>
+<script type='text/javascript' src='https://recipes.farmhousedelivery.com/wp-content/plugins/lightbox-plus/js/jquery.colorbox.1.5.9-min.js?ver=1.5.9' id='jquery-colorbox-js'></script>
+<script async="async" type='text/javascript' src='https://recipes.farmhousedelivery.com/wp-content/plugins/akismet/_inc/form.js?ver=4.1.8' id='akismet-form-js'></script>
+  <script src="https://www.yummly.com/js/widget.js?wordpress"></script>
+	<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-45479228-2', 'farmhousedelivery.com');
+    ga('send', 'pageview');
+
+  </script>
+<script async defer data-pin-hover="true" data-pin-tall="true" src="//assets.pinterest.com/js/pinit.js"></script>
+</body>
+</html>

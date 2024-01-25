@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
+from ._utils import get_yields, normalize_string
 
 
 class Przepisy(AbstractScraper):
@@ -10,13 +10,13 @@ class Przepisy(AbstractScraper):
         return "przepisy.pl"
 
     def title(self):
-        return self.soup.find("h1", {"class": "title"}).get_text()
+        return self.schema.title()
 
     def author(self):
         return self.schema.author()
 
     def total_time(self):
-        return get_minutes(self.soup.find("div", {"class": "time-count"}))
+        return self.schema.total_time()
 
     def yields(self):
         return get_yields(self.soup.find("div", {"class": "person-count"}))
@@ -30,8 +30,4 @@ class Przepisy(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions = self.soup.findAll("p", {"class": "step-info-description"})
-
-        return "\n".join(
-            [normalize_string(instruction.get_text()) for instruction in instructions]
-        )
+        return self.schema.instructions()

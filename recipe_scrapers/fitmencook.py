@@ -9,35 +9,34 @@ class FitMenCook(AbstractScraper):
         return "fitmencook.com"
 
     def title(self):
-        raw_title = self.soup.find("h2", {"class": "gap-none"}).get_text()
-        title = raw_title.replace("\t", "")
-        title = title.replace("\n", "")
-
-        return title
+        return self.schema.title()
 
     def total_time(self):
-        return get_minutes(self.soup.find("span", {"class": "total-time"}))
+        total_time_element = self.soup.find("div", {"class": "fmc_total"})
+        if total_time_element:
+            time_text = total_time_element.find("span", {"class": "fmc_amount"})
+            if time_text:
+                return get_minutes(time_text.text.strip())
 
     def yields(self):
+        yields = None
         for h4 in self.soup.findAll("h4"):
-            for strong in h4.findAll("strong"):
-                raw_yield = strong.text
-                for word in raw_yield.split():
-                    if word.isdigit():
-                        yields = word
+            raw_yield = h4.text
+            for word in raw_yield.split():
+                if word.isdigit():
+                    yields = word
 
-        return get_yields("{} servings".format(yields))
+        if yields:
+            return get_yields("{} servings".format(yields))
 
     def ingredients(self):
-        ingredients_parent = self.soup.find("div", {"class": "recipe-ingredients"})
+        ingredients_parent = self.soup.find("div", {"class": "fmc_ingredients"})
         ingredients = ingredients_parent.findAll("li")
-
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        return [
+            normalize_string(ingredient.get_text())
+            for ingredient in ingredients
+            if ingredient.find("strong") is None
+        ]
 
     def instructions(self):
-        instructions_parent = self.soup.find("div", {"class": "recipe-steps"})
-        instructions = instructions_parent.findAll("li")
-
-        return "\n".join(
-            [normalize_string(instruction.get_text()) for instruction in instructions]
-        )
+        return self.schema.instructions()

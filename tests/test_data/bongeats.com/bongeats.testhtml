@@ -1,0 +1,694 @@
+<!DOCTYPE html><!-- Last Published: Fri Nov 10 2023 07:27:16 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.bongeats.com" data-wf-page="63b2a48e10dd574c134e29e2" data-wf-site="60d34b8627f6e7ebf528deea" lang="en"><head><meta charset="utf-8"/><title>Lau Chingri—detailed recipe with video | Bong Eats recipe</title><meta content="This dry, curried bottle-gourd recipe is a family favourite, and can be cooked with or without the shrimp!" name="description"/><meta content="Lau Chingri—detailed recipe with video | Bong Eats recipe" property="og:title"/><meta content="This dry, curried bottle-gourd recipe is a family favourite, and can be cooked with or without the shrimp!" property="og:description"/><meta content="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/648b921092e8ed53482b6b94_lau%20chingri%204-3.jpeg" property="og:image"/><meta content="Lau Chingri—detailed recipe with video | Bong Eats recipe" property="twitter:title"/><meta content="This dry, curried bottle-gourd recipe is a family favourite, and can be cooked with or without the shrimp!" property="twitter:description"/><meta content="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/648b921092e8ed53482b6b94_lau%20chingri%204-3.jpeg" property="twitter:image"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><link href="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/css/noton2.webflow.4482e34b0.min.css" rel="stylesheet" type="text/css"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Inter:regular,500,700"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60d34b8627f6e7725728df2a_android-chrome-32x32.png" rel="shortcut icon" type="image/x-icon"/><link href="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60d34b8627f6e7864728df28_android-chrome-256x256.png" rel="apple-touch-icon"/><link href="rss.xml" rel="alternate" title="RSS Feed" type="application/rss+xml"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-39577GL5B0"></script><script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('set', 'developer_id.dZGVlNj', true);gtag('config', 'G-39577GL5B0');</script><meta name="theme-color" content="#112160">
+<style>
+  body {
+  -moz-font-feature-settings: "liga" on;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "liga" on;
+  text-rendering: optimizeLegibility;
+}
+
+/* Recipe Card Styles START */
+/* Prevent page zoom in on iPhone input focus 
+input[type="tel"],
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+textarea {
+  font-size: 16px;
+}*/
+.recipe-card a:focus {
+    text-decoration: underline;
+}
+.recipe-card a,
+.nav-links a.nav-link2,
+.nav-menu a.nav-link {outline : none;}
+  
+.recipe-card:focus-within {
+    box-shadow: 0 0 0 0.25rem;
+  	color: #c44848;
+}
+
+.recipe-card:focus-within a:focus {
+    text-decoration: none;
+}
+.recipe-cards > .hs {
+  scroll-snap-type: x proximity;
+}
+
+/* Recipe Card Styles END */
+  
+.dropcap p:first-of-type:first-letter,
+p.dropcap:first-letter {
+    float: left;
+    color: #258354;
+    font-size: 5.25rem;
+    line-height: .90;
+    font-family: serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 0;
+    padding-right: 10px;
+}
+p.invert.dropcap:first-letter {
+  color: #fff;
+}
+.body-bn .dropcap p:first-of-type:first-letter {
+	font-family: Notoserifbengali;
+}
+
+/* বাংলা */ 
+.body-bn ol>li::before {
+    content: counter(listCounter, bengali);
+    font-family: Notoserifbengali, sans-serif;
+  	font-size: 2rem;
+    margin-top: -.5rem;
+    left: 0;
+}
+
+/* Play button on thumbnails START */
+.btn-play { 
+	display: block;
+  background: red;
+  border-radius: 50% / 10%;
+  color: #FFFFFF;
+  font-size: 2em; /* change this to change size */
+  height: 3em;
+  margin: 20px auto;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  text-indent: 0.1em;
+  transition: all 150ms ease-out;
+  width: 4em;
+}
+
+.btn-play:hover {
+  background: darkorange;
+}
+
+.btn-play::before { 
+  background: inherit;
+  border-radius: 5% / 50%;
+  bottom: 9%;
+  content: "";
+  left: -5%;
+  position: absolute;
+  right: -5%;
+  top: 9%;
+}
+
+.btn-play::after {
+  border-style: solid;
+  border-width: 1em 0 1em 1.732em;
+  border-color: transparent transparent transparent rgba(255, 255, 255, 0.75);
+  content: ' ';
+  font-size: 0.75em;
+  height: 0;
+  margin: -1em 0 0 -0.75em;
+  top: 50%;
+  position: absolute;
+  width: 0;
+}
+/* Play button on thumbnails END */
+
+/* Social media share buttons START */ 
+.social-btn a {
+    border: none;
+}
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0.5em
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+/* Non solid icons get a stroke */
+.resp-sharing-button__icon {
+  stroke: #fff;
+  fill: none
+}
+
+/* Solid icons get a fill */
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #fff;
+  stroke: none
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee
+}
+
+.resp-sharing-button--twitter:hover {
+  background-color: #2795e9
+}
+
+.resp-sharing-button--pinterest {
+  background-color: #bd081c
+}
+
+.resp-sharing-button--pinterest:hover {
+  background-color: #8c0615
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998
+}
+
+.resp-sharing-button--facebook:hover {
+  background-color: #2d4373
+}
+
+.resp-sharing-button--tumblr {
+  background-color: #35465C
+}
+
+.resp-sharing-button--tumblr:hover {
+  background-color: #222d3c
+}
+
+.resp-sharing-button--reddit {
+  background-color: #5f99cf
+}
+
+.resp-sharing-button--reddit:hover {
+  background-color: #3a80c1
+}
+
+.resp-sharing-button--google {
+  background-color: #dd4b39
+}
+
+.resp-sharing-button--google:hover {
+  background-color: #c23321
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0077b5
+}
+
+.resp-sharing-button--linkedin:hover {
+  background-color: #046293
+}
+
+.resp-sharing-button--email {
+  background-color: #777
+}
+
+.resp-sharing-button--email:hover {
+  background-color: #5e5e5e
+}
+
+.resp-sharing-button--xing {
+  background-color: #1a7576
+}
+
+.resp-sharing-button--xing:hover {
+  background-color: #114c4c
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366
+}
+
+.resp-sharing-button--whatsapp:hover {
+  background-color: #1da851
+}
+
+.resp-sharing-button--hackernews {
+background-color: #FF6600
+}
+.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
+
+.resp-sharing-button--vk {
+  background-color: #507299
+}
+
+.resp-sharing-button--vk:hover {
+  background-color: #43648c
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+.resp-sharing-button--facebook:hover,
+.resp-sharing-button--facebook:active {
+  background-color: #2d4373;
+  border-color: #2d4373;
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+
+.resp-sharing-button--email {
+  background-color: #777777;
+  border-color: #777777;
+}
+
+.resp-sharing-button--email:hover,
+.resp-sharing-button--email:active {
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366;
+  border-color: #25D366;
+}
+
+.resp-sharing-button--whatsapp:hover,
+.resp-sharing-button--whatsapp:active {
+  background-color: #1DA851;
+  border-color: #1DA851;
+}
+/* Social media share buttons END*/ 
+  
+/* hide scrollbar but allow scrolling */
+.container-4 {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+
+.container-4::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+  
+.circle-window {
+  user-select: none;
+}
+.ms-test-label {
+    opacity: 0;
+}
+@media print {
+  .hide-on-print {
+    display: none;
+  }
+  .print-only {
+    display: block;
+  }
+}
+</style>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N7LPWFNM');</script>
+<!-- End Google Tag Manager -->
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org/",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "url": "https://bongeats.com",
+                "logo": "https://res.cloudinary.com/dmpeew57x/image/upload/v1488863998/icons/android-chrome-512x512.png",
+                "name": "Bong Eats",
+                "sameAs": [
+                    "https://www.youtube.com/c/BongEats",
+                    "https://www.facebook.com/BongEats/",
+                    "https://www.instagram.com/bongeats/",
+                    "https://twitter.com/bongeats",
+                    "https://plus.google.com/+BongEats"
+                  ]
+            }
+    
+        ]
+    }
+</script>
+<!-- Memberstack webflow package -->
+<script data-memberstack-app="app_cl8zn8nyo00eu0vjm41hi6a1b" src="https://static.memberstack.com/scripts/v1/memberstack.js" type="text/javascript"></script>
+<script type="application/ld+json" id="recipe-jsonld">
+	{
+      "@context": "https://schema.org/",
+      "@type": "Recipe",
+      "name": "Lau Chingri",
+      "image": [
+      	"https://assets-global.website-files.com/60d34b8627f6e735cf28df18/648b921392e8ed53482b6dd5_lau%20chingri%201-1.jpeg",
+        "https://assets-global.website-files.com/60d34b8627f6e735cf28df18/648b921092e8ed53482b6b94_lau%20chingri%204-3.jpeg",
+        "https://assets-global.website-files.com/60d34b8627f6e735cf28df18/648b920e969faa821121efd0_lau%20chingri%2016-9.jpg"
+        ],
+      "author": {
+        "@type": "Person",
+        "name": "Bong Eats"
+      },
+      "datePublished": "Jun 16, 2023",
+      "description": "This dry, curried bottle-gourd recipe is a family favourite, and can be cooked with or without the shrimp!",
+      "prepTime": "PT20M",
+      "cookTime": "PT40M",
+      "totalTime": "PT60M",
+      "keywords": "lau chingri, bottle gourd sabzi, bottle gourd with shrimp, bengali bottle gourd recipe, bengali lau recipe",
+      "recipeYield": "5 servings",
+      "recipeCategory": "torkari",
+      "recipeCuisine": "Indian",
+      "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "154"
+         },
+      "recipeIngredient": [
+       ],
+      "recipeInstructions": [
+      ],
+      "aggregateRating": {
+      	"@type": "AggregateRating",
+        "bestRating": "100",
+        "worstRating": "0",
+        "ratingCount": "2053",
+        "ratingValue": "97.9"
+      },
+  "video": [
+     {
+    "@type": "VideoObject",
+    "name": "Lau Chingri",
+    "description": "This dry, curried bottle-gourd recipe is a family favourite, and can be cooked with or without the shrimp!",
+    "thumbnailUrl": [
+      "https://assets-global.website-files.com/60d34b8627f6e735cf28df18/648b921092e8ed53482b6b94_lau%20chingri%204-3.jpeg"
+     ],
+    "contentUrl": "https://www.youtube.com/watch?v=51Pzl3VzHsU",
+    "embedUrl": "https://www.youtube.com/watch?v=51Pzl3VzHsU",
+    "uploadDate": "Jun 16, 2023"
+   }
+  ]
+}
+</script>
+
+<style>
+.recipe-process ol>li::before {
+    content: counter(listCounter, decimal-leading-zero);
+    font-size: 1rem;
+    font-weight: 700;
+    color: #d33a2c;
+    left: .8rem;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    margin-top: 2px;
+}
+
+.recipe-process ol > li {
+    counter-increment: listCounter;
+}
+.recipe-process ol>li.strikethrough::before {
+    color: #fff;
+}
+  
+.recipe-process-wrapper {
+    counter-reset: listCounter;
+}
+
+.recipe-ingredients li:before {
+		content: " ";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #222;
+    margin-right: 9px;
+}
+.recipe-ingredients li.strikethrough:before {
+		margin-right: 12px;
+    transform: rotate(45deg);
+    height: 16px;
+    width: 7px;
+    border-bottom: 2px solid #78b13f;
+    border-right: 2px solid #78b13f;
+    border-top: none;
+    border-left: none;
+}
+.recipe-ingredients-wrapper h3 {
+    text-align: center;
+    margin: 3rem 0 2rem 0;
+    text-decoration: underline;
+}
+.recipe-ingredients-wrapper ul {
+		overflow: visible;
+    margin-left: 0;
+}
+.recipe-ingredients-wrapper li {
+		border-bottom: 1px solid #82c4ff94;
+    padding-bottom: 1rem;
+    padding-top: 0;
+    margin-left: -1rem;
+}
+.strikethrough {
+    color: rgb(34 34 34 / 35%);
+}
+
+h3 + ol {
+    margin-bottom: 2rem;
+}
+
+@media print {
+		@page  {
+    	margin: 20mm;
+    }
+    html {
+    	font-size: 12px;
+    }
+    * {
+    		letter-spacing: 0;!important;
+        color: #000!important;
+    }
+		.navbar-v2,
+    .navigation,
+    .recipe-img-wrapper,
+    .share-top,
+    .recipe-book-wrapper,
+    .recipe-tools-wrapper,
+    .recipe-description-wrapper,
+    .donation-wrapper,
+    .hero-overlay,
+    .recipe-thumb-list {
+        display: none;
+    }
+    body {
+    		background-color: #ffffff;
+    }
+		.recipe-header {
+    	display: block;
+    }
+    .recipe-ingredients {
+    		margin-left: 14px;
+    }
+}
+</style></head><body class="body"><nav class="navbar-v2"><div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="container nav w-nav"><div class="navbar-skeleton"><a id="w-node-_3653815d-034e-8900-287a-40de1a44c903-1a44c900" href="/" class="brand w-inline-block"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60d9be91b080d1f236a402e2_logo%20horizontal.svg" loading="lazy" alt="" class="brand-logo"/></a><div id="w-node-_3653815d-034e-8900-287a-40de1a44c905-1a44c900" class="search-wrapper desktop"><form action="/search" class="search w-form"><label for="search-2" class="field-label">Search</label><input type="search" class="search-input w-input" maxlength="256" name="query" placeholder="Search recipes and articles" id="search" required=""/><input type="submit" value="" class="search-button icon-search w-button"/><div data-w-id="3653815d-034e-8900-287a-40de1a44c90b" class="hide-search-btn"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/64ca715dbf48de564813e399_close.png" loading="lazy" alt="Close" class="close-icon"/></div></form></div><div id="w-node-_3653815d-034e-8900-287a-40de1a44c90d-1a44c900" data-w-id="3653815d-034e-8900-287a-40de1a44c90d" class="search-wrapper"><form action="/search" class="search w-form"><label for="search-2" class="field-label">Search</label><input type="search" class="search-input w-input" maxlength="256" name="query" placeholder="Search recipes and articles" id="search" required=""/><input type="submit" value="" class="search-button icon-search w-button"/><div data-w-id="3653815d-034e-8900-287a-40de1a44c913" class="hide-search-btn"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/64ca715dbf48de564813e399_close.png" loading="lazy" alt="Close"/></div></form></div><div id="w-node-_3653815d-034e-8900-287a-40de1a44c915-1a44c900" class="mob-nav-icon-container"><div data-w-id="3653815d-034e-8900-287a-40de1a44c916" class="mobile-nav-icon search-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/64d102307b8b240b3f687c27_001-search-interface-symbol.png" loading="lazy" alt=""/></div><div data-ms-content="!members" class="modal-open_btn mobile-nav-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/64e3885b62b51ca057240c0b_user.png" loading="lazy" alt=""/></div><div data-hover="false" data-delay="0" data-ms-content="members" class="nav-dropdown profile-dropdown-button mobile-dropdown-button w-dropdown"><div class="nav-dropdown-toggle profile-image w-dropdown-toggle"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/64bfde947f54ac3ff26c4aa5_insiya.png" loading="lazy" data-ms-member="profile-image" alt="" class="profile-image"/></div><nav class="nav-dropdown-list shadow-three mobile-shadow-hide profile-dropdown shadow-1 w-dropdown-list"><div class="profile-dropdown-wrapper"><div class="profile-photo"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/64bfde947f54ac3ff26c4aa5_insiya.png" loading="lazy" data-ms-member="profile-image" alt="" class="profile-image"/></div><div class="profile-data"><div data-ms-member="first-name" class="user-name profile-dropdown">Insiya</div><div class="member-tag">Member</div><div class="user-location profile-dropdown">Kolkata</div><div class="member-since">Member since</div><div class="member-since date">Aug 2023</div></div><div id="w-node-_3653815d-034e-8900-287a-40de1a44c92c-1a44c900" class="profile-dropdown-links"><a href="#" class="profile-dropdown-link">Community</a><a href="#" class="profile-dropdown-link">Profile and Billing</a></div><a data-ms-action="logout" id="w-node-_3653815d-034e-8900-287a-40de1a44c931-1a44c900" href="#" class="button secondary nav">Log out</a></div></nav></div></div><div id="w-node-_3653815d-034e-8900-287a-40de1a44c933-1a44c900" class="static-nav-link-wrapper"><a href="/recipes" class="nav-link _1st">Recipes</a><a href="/kitchen/tools" class="nav-link _2nd">Kitchen Tools</a><a data-w-id="3653815d-034e-8900-287a-40de1a44c938" href="#" class="nav-link _3rd modal-open_btn">Community</a><a href="/about" class="nav-link _4th">About</a><a href="/contact" class="nav-link _5th">Contact</a><div data-hover="false" data-delay="0" class="nav-dropdown _4th w-dropdown"><div class="nav-dropdown-toggle w-dropdown-toggle"><div class="nav-dropdown-icon w-icon-dropdown-toggle"></div><div class="text-block-32">More</div></div><nav class="nav-dropdown-list shadow-three mobile-shadow-hide w-dropdown-list"><a href="/recipes" class="nav-dropdown-link _1st w-dropdown-link">Recipes</a><a href="/kitchen/tools" class="nav-dropdown-link _2nd w-dropdown-link">Kitchen Tools</a><a href="/about" class="nav-dropdown-link _3rd w-dropdown-link">About</a><a href="/contact" class="nav-dropdown-link _4th w-dropdown-link">Contact Us</a><a href="#" class="nav-dropdown-link _5th modal-open_btn w-dropdown-link">Community</a></nav></div></div><div id="w-node-_3653815d-034e-8900-287a-40de1a44c94e-1a44c900" class="hamburger-menu-btn-wrapper"><div id="w-node-_3653815d-034e-8900-287a-40de1a44c94f-1a44c900" class="hamburger-btn-container"><div id="w-node-_3653815d-034e-8900-287a-40de1a44c950-1a44c900" data-w-id="3653815d-034e-8900-287a-40de1a44c950" class="hamburger-menu-btn open"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/64c93c6bcd0605f1ed44b441_menu-burger.png" loading="lazy" sizes="(max-width: 767px) 25.000001907348633px, 100vw" srcset="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/64c93c6bcd0605f1ed44b441_menu-burger-p-500.png 500w, https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/64c93c6bcd0605f1ed44b441_menu-burger.png 512w" alt="" class="hamburger-icon"/><div class="hamburger-text">MENU</div></div><div id="w-node-_3653815d-034e-8900-287a-40de1a44c954-1a44c900" data-w-id="3653815d-034e-8900-287a-40de1a44c954" class="hamburger-menu-btn close"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/64ca715dbf48de564813e399_close.png" loading="lazy" alt="" class="hamburger-icon close"/><div class="hamburger-text">CLOSE</div></div></div></div><div id="w-node-_3653815d-034e-8900-287a-40de1a44c958-1a44c900" class="nav-button-wrapper modal-open_btn"><a data-ms-content="!members" href="#" class="button secondary nav">Log in</a><a humblytics="cta_becomeMember_dsktop" data-ms-content="!members" id="w-node-_3653815d-034e-8900-287a-40de1a44c95b-1a44c900" href="#" class="button black nav modal-open_btn w-button">Become a member 🌟</a></div><div data-hover="false" data-delay="0" data-ms-content="members" id="w-node-_3653815d-034e-8900-287a-40de1a44c95d-1a44c900" class="nav-dropdown profile-dropdown-button w-dropdown"><div class="nav-dropdown-toggle profile-image w-dropdown-toggle"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/64bfde947f54ac3ff26c4aa5_insiya.png" loading="lazy" data-ms-member="profile-image" alt="" class="profile-image"/></div><nav class="nav-dropdown-list shadow-three mobile-shadow-hide profile-dropdown shadow-1 w-dropdown-list"><div class="profile-dropdown-wrapper"><div class="profile-photo"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/64bfde947f54ac3ff26c4aa5_insiya.png" loading="lazy" data-ms-member="profile-image" alt=""/></div><div class="profile-data"><div data-ms-member="first-name" class="user-name profile-dropdown">Insiya</div><div class="member-tag">Member</div><div class="user-location profile-dropdown">Kolkata</div><div class="member-since">Member since</div><div class="member-since date">Aug 2023</div></div><div id="w-node-_3653815d-034e-8900-287a-40de1a44c96f-1a44c900" class="profile-dropdown-links"><a href="#" class="profile-dropdown-link">Community</a><a href="#" class="profile-dropdown-link">Profile and Billing</a></div><a data-ms-action="logout" id="w-node-_3653815d-034e-8900-287a-40de1a44c974-1a44c900" href="#" class="button secondary nav">Log out</a></div></nav></div></div></div><div class="hamburger-dropdown"><ul role="list" class="hamburger-links"><li class="hamburger-link-wrapper"><a href="/recipes" class="hamburger-link">Recipes</a></li><li class="hamburger-link-wrapper"><a href="/about" class="hamburger-link">About</a></li><li class="hamburger-link-wrapper"><a href="/kitchen/tools" class="hamburger-link">Kitchen Tools</a></li><li class="hamburger-link-wrapper"><a href="/contact" class="hamburger-link">Contact</a></li><li class="hamburger-link-wrapper"><a href="/kitchen/pantry" class="hamburger-link">Pantry Essentials</a></li><li class="hamburger-link-wrapper"><a href="#" class="hamburger-link modal-open_btn">Community</a></li></ul><div class="nav-button-wrapper hamburger"><a href="#" class="button secondary nav">Log in</a><a id="w-node-_3653815d-034e-8900-287a-40de1a44c98d-1a44c900" href="#" class="button black nav hamburger w-button">Become a member 🌟</a></div></div><div aria-labelledby="Popup Modal" role="dialog" aria-modal="true" data-w-id="3653815d-034e-8900-287a-40de1a44c98f" class="modal-wrapper shadow-1"><div class="modal-container"><div class="community-illustration"><div class="text-block-67"><a href="https://www.instagram.com/ritwikaghosh/" target="_blank" class="link-7">©ritwika</a></div></div><div class="text-block-34">COMING SOON</div><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/64e387c024cc6fbdf2b4160e_bong%20eats%20community%20logo_dark.png" loading="lazy" alt="bong eats adda" class="image-14"/><p class="paragraph-11">A community for enthusiasts of Bengali food. Share recipes and ideas, cook together, learn new things, make new friends and become a better cook.</p><div class="nav-button-wrapper modal"><a data-ms-content="!members" href="#" class="button secondary nav modal">Log in</a><a data-ms-content="!members" id="w-node-_3653815d-034e-8900-287a-40de1a44c99a-1a44c900" href="#" class="button black nav modal w-button">Become a member 🌟</a></div><a aria-label="close modal button" role="button" data-w-id="3653815d-034e-8900-287a-40de1a44c99c" href="#" class="modal-close-btn w-inline-block"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/64ca715dbf48de564813e399_close.png" loading="lazy" alt="Close"/></a></div><div aria-hidden="true" tabindex="-1" data-w-id="3653815d-034e-8900-287a-40de1a44c99e" class="modal-close_area"></div></div></nav><nav class="navigation"><div class="container full-width w-container"><div class="nav-2-wrapper w-dyn-list"><div role="list" class="nav-links w-dyn-items"><div id="w-node-f882cf47-c7f0-dfa2-ac99-2fa23e3b5c57-3e3b5c53" role="listitem" class="nav-link-wrapper w-dyn-item"><a href="/tags/egg" class="nav-link2 w-inline-block"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cc138f20a6a85a7f412b5_icons8-eggs-100.png" alt=""/></div><div class="nav-link2-link">Egg</div></a><a href="#" class="nav-link2 w-inline-block w-condition-invisible"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cc138f20a6a85a7f412b5_icons8-eggs-100.png" alt=""/></div><div class="nav-link2-link">Egg</div></a></div><div id="w-node-f882cf47-c7f0-dfa2-ac99-2fa23e3b5c57-3e3b5c53" role="listitem" class="nav-link-wrapper w-dyn-item"><a href="/tags/rice" class="nav-link2 w-inline-block"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cc1917a5de62573295545_rice.png" alt=""/></div><div class="nav-link2-link">Rice</div></a><a href="#" class="nav-link2 w-inline-block w-condition-invisible"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cc1917a5de62573295545_rice.png" alt=""/></div><div class="nav-link2-link">Rice</div></a></div><div id="w-node-f882cf47-c7f0-dfa2-ac99-2fa23e3b5c57-3e3b5c53" role="listitem" class="nav-link-wrapper w-dyn-item"><a href="/tags/indo-chinese" class="nav-link2 w-inline-block"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cc24b4e1da0911bf87682_pad-thai.png" alt=""/></div><div class="nav-link2-link">Chinese</div></a><a href="#" class="nav-link2 w-inline-block w-condition-invisible"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cc24b4e1da0911bf87682_pad-thai.png" alt=""/></div><div class="nav-link2-link">Chinese</div></a></div><div id="w-node-f882cf47-c7f0-dfa2-ac99-2fa23e3b5c57-3e3b5c53" role="listitem" class="nav-link-wrapper w-dyn-item"><a href="/tags/dal" class="nav-link2 w-inline-block"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cb2d74e1da0a79ef766e8_icons8-soup-plate-100.png" alt=""/></div><div class="nav-link2-link">Dal</div></a><a href="#" class="nav-link2 w-inline-block w-condition-invisible"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cb2d74e1da0a79ef766e8_icons8-soup-plate-100.png" alt=""/></div><div class="nav-link2-link">Dal</div></a></div><div id="w-node-f882cf47-c7f0-dfa2-ac99-2fa23e3b5c57-3e3b5c53" role="listitem" class="nav-link-wrapper w-dyn-item"><a href="/tags/desserts" class="nav-link2 w-inline-block"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cb311b0c59e788eec77d3_cupcake.png" alt=""/></div><div class="nav-link2-link">Dessert</div></a><a href="#" class="nav-link2 w-inline-block w-condition-invisible"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cb311b0c59e788eec77d3_cupcake.png" alt=""/></div><div class="nav-link2-link">Dessert</div></a></div><div id="w-node-f882cf47-c7f0-dfa2-ac99-2fa23e3b5c57-3e3b5c53" role="listitem" class="nav-link-wrapper w-dyn-item"><a href="/tags/rainy-day" class="nav-link2 w-inline-block"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cbc187a176e93e5269a51_scarf.png" alt=""/></div><div class="nav-link2-link">In season</div></a><a href="#" class="nav-link2 w-inline-block w-condition-invisible"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cbc187a176e93e5269a51_scarf.png" alt=""/></div><div class="nav-link2-link">In season</div></a></div><div id="w-node-f882cf47-c7f0-dfa2-ac99-2fa23e3b5c57-3e3b5c53" role="listitem" class="nav-link-wrapper w-dyn-item"><a href="/tags/special-meals" class="nav-link2 w-inline-block"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cb2a24e1da043b7f764dd_food.png" alt=""/></div><div class="nav-link2-link">Celebration</div></a><a href="#" class="nav-link2 w-inline-block w-condition-invisible"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cb2a24e1da043b7f764dd_food.png" alt=""/></div><div class="nav-link2-link">Celebration</div></a></div><div id="w-node-f882cf47-c7f0-dfa2-ac99-2fa23e3b5c57-3e3b5c53" role="listitem" class="nav-link-wrapper w-dyn-item"><a href="/tags/mutton" class="nav-link2 w-inline-block"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cc11434d44a43ad4f6384_goat.png" alt=""/></div><div class="nav-link2-link">Mutton</div></a><a href="#" class="nav-link2 w-inline-block w-condition-invisible"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cc11434d44a43ad4f6384_goat.png" alt=""/></div><div class="nav-link2-link">Mutton</div></a></div><div id="w-node-f882cf47-c7f0-dfa2-ac99-2fa23e3b5c57-3e3b5c53" role="listitem" class="nav-link-wrapper w-dyn-item"><a href="/tags/mughlai" class="nav-link2 w-inline-block"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cc20bb0c59ee65feda00e_yakitori.png" alt=""/></div><div class="nav-link2-link">mughlai</div></a><a href="#" class="nav-link2 w-inline-block w-condition-invisible"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cc20bb0c59ee65feda00e_yakitori.png" alt=""/></div><div class="nav-link2-link">mughlai</div></a></div><div id="w-node-f882cf47-c7f0-dfa2-ac99-2fa23e3b5c57-3e3b5c53" role="listitem" class="nav-link-wrapper w-dyn-item"><a href="/tags/breads" class="nav-link2 w-inline-block"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cc1aff20a6a8ba7f41741_bread.png" alt=""/></div><div class="nav-link2-link">Bread</div></a><a href="#" class="nav-link2 w-inline-block w-condition-invisible"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cc1aff20a6a8ba7f41741_bread.png" alt=""/></div><div class="nav-link2-link">Bread</div></a></div><div id="w-node-f882cf47-c7f0-dfa2-ac99-2fa23e3b5c57-3e3b5c53" role="listitem" class="nav-link-wrapper w-dyn-item"><a href="#" class="nav-link2 w-inline-block w-condition-invisible"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cbcb9656d672a147df572_trophy.png" alt=""/></div><div class="nav-link2-link">Popular</div></a><a href="https://www.bongeats.com/popular-recipes" class="nav-link2 w-inline-block"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cbcb9656d672a147df572_trophy.png" alt=""/></div><div class="nav-link2-link">Popular</div></a></div><div id="w-node-f882cf47-c7f0-dfa2-ac99-2fa23e3b5c57-3e3b5c53" role="listitem" class="nav-link-wrapper w-dyn-item"><a href="/tags/anglo-indian" class="nav-link2 w-inline-block"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cc26c7d430736593f89ed_pie.png" alt=""/></div><div class="nav-link2-link">Anglo Indian</div></a><a href="#" class="nav-link2 w-inline-block w-condition-invisible"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cc26c7d430736593f89ed_pie.png" alt=""/></div><div class="nav-link2-link">Anglo Indian</div></a></div><div id="w-node-f882cf47-c7f0-dfa2-ac99-2fa23e3b5c57-3e3b5c53" role="listitem" class="nav-link-wrapper w-dyn-item"><a href="#" class="nav-link2 w-inline-block w-condition-invisible"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636caddcb0c59e99a2ec15f2_icons8-new-100.png" alt=""/></div><div class="nav-link2-link">Latest</div></a><a href="http://www.bongeats.com/recipes" class="nav-link2 w-inline-block"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636caddcb0c59e99a2ec15f2_icons8-new-100.png" alt=""/></div><div class="nav-link2-link">Latest</div></a></div><div id="w-node-f882cf47-c7f0-dfa2-ac99-2fa23e3b5c57-3e3b5c53" role="listitem" class="nav-link-wrapper w-dyn-item"><a href="/tags/chicken" class="nav-link2 w-inline-block"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cb049b0c59e6d8dec421b_icons8-chicken-100.png" alt=""/></div><div class="nav-link2-link">Chicken</div></a><a href="#" class="nav-link2 w-inline-block w-condition-invisible"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cb049b0c59e6d8dec421b_icons8-chicken-100.png" alt=""/></div><div class="nav-link2-link">Chicken</div></a></div><div id="w-node-f882cf47-c7f0-dfa2-ac99-2fa23e3b5c57-3e3b5c53" role="listitem" class="nav-link-wrapper w-dyn-item"><a href="/tags/street-food" class="nav-link2 w-inline-block"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cb00747acd78c991b49a2_icons8-samosa-100.png" alt=""/></div><div class="nav-link2-link">Street food</div></a><a href="#" class="nav-link2 w-inline-block w-condition-invisible"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cb00747acd78c991b49a2_icons8-samosa-100.png" alt=""/></div><div class="nav-link2-link">Street food</div></a></div><div id="w-node-f882cf47-c7f0-dfa2-ac99-2fa23e3b5c57-3e3b5c53" role="listitem" class="nav-link-wrapper w-dyn-item"><a href="/tags/fish" class="nav-link2 w-inline-block"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cb1616480fa23d545b6ac_fish.png" alt=""/></div><div class="nav-link2-link">Fish</div></a><a href="#" class="nav-link2 w-inline-block w-condition-invisible"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cb1616480fa23d545b6ac_fish.png" alt=""/></div><div class="nav-link2-link">Fish</div></a></div><div id="w-node-f882cf47-c7f0-dfa2-ac99-2fa23e3b5c57-3e3b5c53" role="listitem" class="nav-link-wrapper w-dyn-item"><a href="/tags/kolkata-style" class="nav-link2 w-inline-block"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cb201a8ca6a06975b5876_chef-hat.png" alt=""/></div><div class="nav-link2-link">Restaurant-style</div></a><a href="#" class="nav-link2 w-inline-block w-condition-invisible"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cb201a8ca6a06975b5876_chef-hat.png" alt=""/></div><div class="nav-link2-link">Restaurant-style</div></a></div><div id="w-node-f882cf47-c7f0-dfa2-ac99-2fa23e3b5c57-3e3b5c53" role="listitem" class="nav-link-wrapper w-dyn-item"><a href="/tags/vegetarian" class="nav-link2 w-inline-block"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cb1c37a176e1e4325bfe7_icons8-eggplant-100.png" alt=""/></div><div class="nav-link2-link">Vegetable</div></a><a href="#" class="nav-link2 w-inline-block w-condition-invisible"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cb1c37a176e1e4325bfe7_icons8-eggplant-100.png" alt=""/></div><div class="nav-link2-link">Vegetable</div></a></div><div id="w-node-f882cf47-c7f0-dfa2-ac99-2fa23e3b5c57-3e3b5c53" role="listitem" class="nav-link-wrapper w-dyn-item"><a href="/tags/snack" class="nav-link2 w-inline-block"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cb257a8ca6aeafa5b5d13_nuggets.png" alt=""/></div><div class="nav-link2-link">Snack</div></a><a href="#" class="nav-link2 w-inline-block w-condition-invisible"><div aria-hidden="true" class="nav-link2-img-wrapper"><img loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/636cb257a8ca6aeafa5b5d13_nuggets.png" alt=""/></div><div class="nav-link2-link">Snack</div></a></div></div></div></div></nav><section><main class="w-layout-blockcontainer container wide w-container"><article><figure class="recipe-img-wrapper"><div style="background-image:url(&quot;https://assets-global.website-files.com/60d34b8627f6e735cf28df18/648b920e969faa821121efd0_lau%20chingri%2016-9.jpg&quot;)" class="recipe-img"></div><div style="background-image:url(&quot;https://assets-global.website-files.com/60d34b8627f6e735cf28df18/648b921392e8ed53482b6dd5_lau%20chingri%201-1.jpeg&quot;)" class="recipe-img-m"></div><div class="btn-play-wrapper"><a aria-label="play video on YouTube" href="https://www.youtube.com/watch?v=51Pzl3VzHsU" target="_blank" class="btn-play w-inline-block"></a></div></figure><header class="recipe-header"><header id="w-node-ea26a5cf-162e-19b8-f1d0-d68c4df9c437-134e29e2"><h1>Lau Chingri</h1><article class="recipe-byline-wrapper"><div class="recipe-byline">By</div><a href="#" class="recipe-byline w-condition-invisible w-dyn-bind-empty"></a><a href="#" class="recipe-byline">Bong Eats</a><div class="recipe-byline">on</div><div class="recipe-byline">June 16, 2023</div></article></header><figure aria-labelledby="share-header" id="w-node-a833eff7-3693-5887-34d4-fa69bc183c61-134e29e2" class="share-top"><aside><div id="share-header" class="share-header">SHARE</div><ul role="list" class="social-buttons"><li class="social-btn"><div class="w-embed"><!-- Sharingbutton Facebook -->
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.bongeats.com/recipe/lau-chingri" target="_blank" rel="noopener" aria-label="Share on Facebook">
+  <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg>
+    </div>
+  </div>
+</a></div></li><li class="social-btn"><div class="w-embed"><!-- Sharingbutton Twitter -->
+<a class="resp-sharing-button__link"
+  href="https://twitter.com/intent/tweet/?text=Lau Chingri%20recipe%20from%20@bongeats%20https%3A%2F%2Fwww.bongeats.com/recipe/lau-chingri" target="_blank" rel="noopener"
+  aria-label="Share this on Twitter">
+  <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path
+          d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z" />
+      </svg>
+    </div>
+  </div>
+</a></div></li><li class="social-btn"><div class="w-embed"><!-- Sharingbutton E-Mail -->
+<a class="resp-sharing-button__link" href="mailto:?subject=Bong%20Eats%20Recipe%20for%20Lau Chingri&amp;body=https%3A%2F%2Fwww.bongeats.com/recipe/lau-chingri" target="_blank"
+  rel="noopener" aria-label="Share this page over email">
+  <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small">
+    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path
+          d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17 0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1 0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08 0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z" />
+      </svg>
+    </div>
+  </div>
+</a></div></li><li class="social-btn"><div class="w-embed"><!-- Sharingbutton WhatsApp -->
+<a class="resp-sharing-button__link" href="whatsapp://send?text=%20https%3A%2F%2Fwww.bongeats.com/recipe/lau-chingri" target="_blank"
+  rel="noopener" aria-label="Share via WhatsApp">
+  <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small">
+    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path
+          d="M20.1 3.9C17.9 1.7 15 .5 12 .5 5.8.5.7 5.6.7 11.9c0 2 .5 3.9 1.5 5.6L.6 23.4l6-1.6c1.6.9 3.5 1.3 5.4 1.3 6.3 0 11.4-5.1 11.4-11.4-.1-2.8-1.2-5.7-3.3-7.8zM12 21.4c-1.7 0-3.3-.5-4.8-1.3l-.4-.2-3.5 1 1-3.4L4 17c-1-1.5-1.4-3.2-1.4-5.1 0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8 1.8 1.8 2.8 4.2 2.8 6.7-.1 5.2-4.3 9.4-9.5 9.4zm5.1-7.1c-.3-.1-1.7-.9-1.9-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1s-1.2-.5-2.3-1.4c-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6s.3-.3.4-.5c.2-.1.3-.3.4-.5.1-.2 0-.4 0-.5C10 9 9.3 7.6 9 7c-.1-.4-.4-.3-.5-.3h-.6s-.4.1-.7.3c-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.3-.3-.4-.6-.5z" />
+      </svg>
+    </div>
+  </div>
+</a></div></li></ul></aside></figure><p class="text-large">This dry, curried bottle-gourd recipe is a family favourite, and can be cooked with or without the shrimp!</p><div class="recipe-info-wrapper"><ul role="list" class="list w-list-unstyled"><li class="list-item"><div class="recipe-info"><div aria-hidden="true" class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded571bb05b20013669ad3_clock-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div class="text-combi">Cooking time</div><div class="text-combi">60 mins</div></div></li><li><div class="recipe-info"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded43754474b040b58d3c7_bolt-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div class="text-combi">Calories</div><div class="text-combi">154</div><div class="text-combi">kcal</div></div></li></ul></div><figure id="w-node-_558d88d5-bf35-aad3-df4e-cf89c432aa75-134e29e2" class="recipe-rating-wrapper"><div class="div-block-50"><div class="div-block-6"><div class="recipe-rating">Recommended by </div><div class="text-blue recipe-rating">97.9</div><div class="text-blue recipe-rating percent">%</div><div class="recipe-rating">of</div><div class="recipe-rating">2053</div><div class="recipe-rating">members who rated this recipe on Youtube</div></div></div></figure></header><section class="recipe-section-2"><section class="recipe-description-wrapper"><div class="dropcap rich-text-block w-richtext"><p>On paper, lau chingri is a simple recipe with very few spices. In reality, it can be difficult to get right. Part of the problem is that bottle gourd (lau) can release a large quantity of water. The cook needs to use this water to cook the gourd such that by the time the gourd is perfectly cooked, all of the water has dried up. They must adjust the heat, and cover and uncover the pot based on how much water the gourd releases, and how fast it turns soft. This is a difficult thing to master as it is, but the problem is made worse by the fact that bottle gourds vary widely in water content and tenderness. Every lau is different!</p><p>On the day of filming we are lucky enough to find excellent lau in the market, the fine hairs on the surface still intact, AND some spotted kucho chingri (small freshwater prawns), which fishsellers refer to as <em>harin chingri</em> (deer prawns) because of the spots.</p></div></section><figure id="w-node-f76e53f3-bd88-9d82-941c-7c9251fa4bde-134e29e2" class="recipe-book-wrapper"><div class="div-block-182 w-condition-invisible"><h2 class="section-header small">Books in this recipe</h2><div class="w-dyn-list"><div class="w-dyn-empty"><div>No items found.</div></div></div></div><div id="w-node-f76e53f3-bd88-9d82-941c-7c9251fa4c02-134e29e2" class="donation-wrapper"><div class="donation-promo"><div aria-hidden="true" class="donation-emoji"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60e5a11bebae6647244cb35e_Wave.svg" loading="lazy" alt=""/></div><div class="text-large text-blue text-bold">Like the work we do? Help keep this site ad-free by making a donation.</div><a href="/support" class="button small w-button">Donate</a><link rel="prefetch" href="/support"/></div></div></figure></section><aside class="recipe-downloads-wrapper w-condition-invisible"><a href="#" class="button secondary lowercase w-dyn-bind-empty w-button"></a><a href="#" class="button secondary lowercase w-condition-invisible w-dyn-bind-empty w-button"></a></aside><aside class="recipe-tools-wrapper"><div class="div-block-77"><h2>Tools and appliances</h2><a href="/kitchen/tools" target="_blank" class="kitchen-tools-link">See All Our Favourite Kitchen Tools » </a></div><div class="collection-list-wrapper w-dyn-list"><div role="list" class="scroll-container-h w-dyn-items"><div role="listitem" class="collection-item-2 w-dyn-item"><div class="div-block-27"><img src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/637dcbcfcdbbb3904a212827_aluminium%20kadai_amz.jpeg" loading="lazy" alt=""/></div><div class="div-block-26"><div><div class="product-name">Super HK</div><div class="product-name">10-inch aluminium kadai (without handles)</div></div><div class="text-tiny"><div class="text-block-68">Our everyday 10-inch round-bottom aluminium kadai, ideal for dals, vegetables, fish, etc., for 2–4 people.</div></div><a href="https://geni.us/7J8rE2" data-product-name="10-inch aluminium kadai (without handles)" class="button secondary tiny affiliate-link-recipe w-button">Buy on Amazon</a></div></div><div role="listitem" class="collection-item-2 w-dyn-item"><div class="div-block-27"><img src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/60d34b8627f6e7f73928e22b_43.jpg" loading="lazy" alt=""/></div><div class="div-block-26"><div><div class="product-name w-dyn-bind-empty"></div><div class="product-name">7-inch santoku chef&#x27;s knife</div></div><div class="text-tiny"><div class="text-block-68">This is our all-purpose chef&#x27;s knife that we use for 99% of our chopping tasks. We bought it back in 2014 for Rs 3,000, and remains one of the greatest investments we made in the kitchen.</div></div><a href="https://geni.us/poWk" data-product-name="7-inch santoku chef&#x27;s knife" class="button secondary tiny affiliate-link-recipe w-button">Buy on Amazon</a></div></div><div role="listitem" class="collection-item-2 w-dyn-item"><div class="div-block-27"><img src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/60d34b8627f6e7c2dc28e219_53.jpg" loading="lazy" alt=""/></div><div class="div-block-26"><div><div class="product-name">Swissmar Börner</div><div class="product-name">mandoline slicer</div></div><div class="text-tiny"><div class="text-block-68">It is quite possible to slice uniformly with a sharp knife or bnoti, but a slicer makes the job much easier and quicker. It is great for making beguni or jhuri alu bhaja.</div></div><a href="https://geni.us/AvPB" data-product-name="mandoline slicer" class="button secondary tiny affiliate-link-recipe w-button">Buy on Amazon</a></div></div></div></div></aside><section class="recipe-section-3"><section class="recipe-ingredients-wrapper"><div class="div-block-25"><h2>Ingredients</h2><div class="recipe-info recipe-yield"><div aria-hidden="true" class="info-block-icon large"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60dee0a2a46c444225b28683_trex.svg" loading="lazy" alt="" class="info-block-image"/></div><div class="text-combi">Serves</div><div class="text-combi">5 servings</div></div><div class="rich-text-block recipe-ingredients shadow-1 w-richtext"><ul role="list"><li><strong>1 kg</strong>	 lau (bottle gourd, 5-mm sticks)</li><li><strong>100 g</strong>  kucho chingri (tiny freshwater prawns, cleaned and deveined with head on)</li><li><strong>45 g</strong>  mustard oil</li><li><strong>1</strong>  dried red chilli</li><li><strong>1</strong>  bay leaf</li><li><strong>1</strong>  cardamom pod</li><li><strong>1</strong>  clove</li><li><strong>1</strong>  cinnamon</li><li><strong>½ tsp</strong>  cumin seeds</li><li><strong>½ tsp</strong>  cumin powder</li><li><strong>¼ tsp</strong>  turmeric</li><li><strong>6 g</strong>  ginger paste</li><li><strong>4</strong>  green chillies (slit)</li><li><strong>10 g</strong>  salt</li><li><strong>18 g</strong>  sugar</li><li><strong>2 tsp</strong>  ghee</li><li><strong>1 pinch</strong>  gorom moshla</li><li><strong>6 g</strong>  coriander leaves (chopped)</li></ul></div></div></section><div><section class="recipe-process-wrapper"><h2>Method</h2><div class="rich-text-block recipe-process w-richtext"><ol start="1" role="list"><li>Clean and devein the prawns. Smear them with ¼ tsp each of salt and turmeric. Set aside.</li><li>Peel the lau, and chop it in 5-mm thick strips, 4 cm long.</li><li>Place an empty kadai on the stove. Once it has heated up fully, add mustard oil. Wait for it to give off a gentle smoke and turn pale yellow.</li><li>Fry the marinated prawns in it for 30 seconds. Don’t overfry, or they will become tough. Remove from the oil and set aside.</li><li>Temper the same (now-prawn-flavoured) oil with a dried red chilli, bay leaf, cinnamon, cardamom, cloves and cumin seeds.</li><li>Add cumin powder and turmeric. Fry these on low heat for 2 minutes before adding the ginger paste. Fry for another 2 minutes. If the spices start sticking to the pan, you may add splashes of water and continue frying.</li><li>Add lau, green chillies and salt. Mix everything and cover the pan with a lid.</li><li>You will now have to cook this, stirring occasionally, until the spices are well braised and the lau has ‘reduced’. This can take anything from 25–40 minutes.</li><li>Add sugar and continue cooking until the liquid has more or less dried up.</li><li>Add the fried prawns and continue braising until a very light caramelisation stage is reached.</li><li>Finish with ghee, Bengali garam masala and chopped coriander leaves.</li></ol></div></section><aside class="hide-on-print"><div class="recipe-cards-header"><h2>Serve with</h2><h2 class="plain-heading w-condition-invisible w-dyn-bind-empty"></h2></div><p class="paragraph-28">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">Suspendisse</a> varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p><div class="recipe-list w-dyn-list"><div role="list" class="collection-list-3 hs w-dyn-items"><div role="listitem" class="recipe-list-item w-dyn-item"><div class="div-block-179"><div class="div-block-178"><a href="/recipe/kacha-moong-dal" class="recipe-link w-inline-block"><h3 class="recipe-card-title">Kacha Moong Dal</h3></a></div><div id="w-node-e0965980-7f5a-9d63-eaf1-0e4aa777dc18-134e29e2" style="background-image:url(&quot;https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6491c00d84ff36f347e25762_Kacha%20Moog%27er%20Dal%20Hero%204.3.jpg&quot;)" class="div-block-177"><a href="/recipe/kacha-moong-dal" class="w-inline-block"><img src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6491c00b31c0c8bf7a00dec8_Kacha%20Moog%27er%20Dal%20Hero%201.1.jpg" loading="lazy" alt="" sizes="(max-width: 479px) 185.00001525878906px, 200.00001525878906px" srcset="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6491c00b31c0c8bf7a00dec8_Kacha%20Moog%27er%20Dal%20Hero%201.1-p-500.jpg 500w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6491c00b31c0c8bf7a00dec8_Kacha%20Moog%27er%20Dal%20Hero%201.1.jpg 1080w"/></a></div></div></div><div role="listitem" class="recipe-list-item w-dyn-item"><div class="div-block-179"><div class="div-block-178"><a href="/recipe/kacha-moog-mosur-dal" class="recipe-link w-inline-block"><h3 class="recipe-card-title">Kacha Moog-Mosur Dal</h3></a></div><div id="w-node-e0965980-7f5a-9d63-eaf1-0e4aa777dc18-134e29e2" style="background-image:url(&quot;https://assets-global.website-files.com/60d34b8627f6e735cf28df18/637cba120c7bbcb52d2eec86_Moog%20Mosur%20Dal%20Hero%204.3.jpg&quot;)" class="div-block-177"><a href="/recipe/kacha-moog-mosur-dal" class="w-inline-block"><img src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/637cba16a567c36e894bf341_Moog%20Mosur%20Dal%20Hero%201.1.jpg" loading="lazy" alt="" sizes="(max-width: 479px) 185.00001525878906px, 200.00001525878906px" srcset="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/637cba16a567c36e894bf341_Moog%20Mosur%20Dal%20Hero%201.1-p-500.jpg 500w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/637cba16a567c36e894bf341_Moog%20Mosur%20Dal%20Hero%201.1-p-800.jpg 800w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/637cba16a567c36e894bf341_Moog%20Mosur%20Dal%20Hero%201.1.jpg 1080w"/></a></div></div></div></div></div></aside></div></section></article></main></section><section class="community-wrapper w-condition-invisible"><div class="w-layout-blockcontainer container wide w-container"><div class="div-block-106"><div class="recipe-cards-header"><h2 class="plain-heading">Recipe discussion</h2><h2 class="plain-heading w-condition-invisible w-dyn-bind-empty"></h2></div><div class="w-embed w-iframe w-script"><!--script>const metaTag=document.createElement("meta");metaTag.name="viewport",metaTag.content="width=device-width, initial-scale=1",document.getElementsByTagName("head")[0].appendChild(metaTag),window.addEventListener("message",function(e){const t=document.getElementById("iframe"),n=e.data[1];t.style.height=n+"px"},!1),document.write('<iframe id="iframe" style="max-width:100%;border:0;box-shadow:none;outline:0;" src="https://community.bongeats.com/c/recipe-discussion/lau-chingri?iframe=true&?post=true" scrolling="no" width="100%"></iframe>');</script--></div></div></div></section><figure id="hero-overlay" class="hero-overlay promo"><div class="centered-container w-container"><div id="w-node-_6627c778-7678-9ea7-61c2-90a0ddae8a36-134e29e2"><h1 class="heading-3">Did this recipe help you cook something that made you happy?</h1></div><p class="align-left invert dropcap promo-desc">At Bong Eats, we are working to standardise Bengali recipes, and present them to the world in a way that anyone, anywhere will be able to cook Bengali food with confidence—even if they have never tasted it before. We want the world to know that there is Indian food beyond tikka masala.<br/>‍<br/>A lot of time and money goes into creating precise recipes such as this one. We don&#x27;t want to depend on advertisements that track our viewers&#x27; activities through third-party cookies; we do not want take sponsorship money from companies that don&#x27;t make subpar products.</p><div id="w-node-_27ad5db0-edbe-ccb3-5f48-787fdf80a517-134e29e2" class="div-block-65"><p class="invert text-large"><strong>You can help us</strong> make this a sustainable venture that can employ talented local writers, editors, photographers, recipe-testers, and more. Donate to keep us going.</p></div><div id="w-node-d79954ed-71f6-bac9-3e34-1e201e657deb-134e29e2" class="div-block-64"><div id="w-node-fbd853a6-f9d3-bedd-a99b-048d3a6078be-134e29e2" class="support-option shadow-2"><div class="txt-uppercase">Make a One-time donation</div><p>Help us keep Bong Eats free and open for everyone by making a one-time contribution. You can donate as much as you want. No amount is too little. </p><a href="/support" class="button small w-button">Donate</a><link rel="prefetch" href="/support"/></div><div id="w-node-_8bb93b7f-1359-0c0a-2eda-a9e91d05e223-134e29e2" class="support-option shadow-2"><div class="txt-uppercase">Become a member ⭐️</div><p>Join to get access to a vibrant private community of people who full of people who love to cook, feed and eat. Get answers to your questions about recipes, techniques, where to find ingredients from fellow members. If you love cooking, this is the place for you.</p><div class="check-list"><div class="check-list-item align-left">Monthly LIVE cookalongs</div><div class="check-list-item align-left">Shiny new private forum</div><div class="check-list-item align-left">Adda after every video release</div><div class="check-list-item align-left">Personalised recommendations</div></div><a href="/community/join" class="button small w-button">✨ See Membership Perks ✨</a><link rel="prefetch" href="/community/join"/></div><div class="text-block-19">OR</div></div></div></figure><div class="w-layout-blockcontainer container wide hide-on-print w-container"><div class="article-section"><div class="heading-container"><h2 class="plain-heading centered">🌺 Kartik–Aghrayan 🌺</h2></div><div class="article-preview shadow-1"><div id="w-node-_52af341a-7842-be4a-1e9b-3c811ae1b35b-134e29e2" class="div-block-202"><h3 class="plain-heading large">Bhai Phota and Beyond</h3><div class="div-block-201"><div class="flex-to-inline">Posted on</div><div class="flex-to-inline">November 9, 2023</div><div class="flex-to-inline">by</div><a href="#" class="flex-to-inline w-inline-block"><div>Bong Eats</div></a></div><p class="paragraph-30">Setting up for Kali puja, bhai phota, and other late autumn festivities</p><a href="https://www.bongeats.com/article/bhai-fota-and-beyond" class="button secondary w-button">Read More »</a></div><div id="w-node-_52af341a-7842-be4a-1e9b-3c811ae1b36c-134e29e2" class="div-block-203"></div></div></div><div class="recipe-cards-section"><div class="recipe-cards-header"><h2 class="plain-heading">✨ What&#x27;s new?</h2><a href="/recipes" class="recipe-cards-heading-link">View all »</a></div><div class="recipe-cards w-dyn-list"><div role="list" class="hs w-dyn-items"><div role="listitem" class="recipe-card w-dyn-item"><div class="recipe-card-text"><div class="recipe-card-header-wrapper"><div class="recipe-card-header"><a href="/recipe/niramish-mangsho" class="recipe-link w-inline-block"><h3 class="recipe-card-title">Niramish Mangsho</h3></a><link rel="prefetch" href="/recipe/niramish-mangsho"/><p class="recipe-card-descr">Mutton cooked without onion or garlic</p></div></div><ul role="list" class="recipe-infos"><li class="recipe-info"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded571bb05b20013669ad3_clock-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div>2 hours</div></li><li class="recipe-info"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded43754474b040b58d3c7_bolt-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div>640</div><div class="kcal">kcal</div></li></ul></div><div class="recipe-card-img-v2"><img src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6544d0a408961b56c106a03a_niramish%20mangsho%204-3.jpg" loading="lazy" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 56vw, (max-width: 991px) 46vw, (max-width: 1439px) 23vw, 279.40106201171875px" srcset="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6544d0a408961b56c106a03a_niramish%20mangsho%204-3-p-500.jpg 500w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6544d0a408961b56c106a03a_niramish%20mangsho%204-3-p-800.jpg 800w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6544d0a408961b56c106a03a_niramish%20mangsho%204-3.jpg 1440w"/><div class="recipe-info recipe-like-wrapper"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/628cb06e7b967153f30170ff_icons8-facebook-like-50.png" loading="lazy" alt="Viewers liked this" class="info-block-image white"/></div><div class="text-block-15">98.6</div><div class="text-block-15">%</div></div></div></div><div role="listitem" class="recipe-card w-dyn-item"><div class="recipe-card-text"><div class="recipe-card-header-wrapper"><div class="recipe-card-header"><a href="/recipe/chalta-chutney" class="recipe-link w-inline-block"><h3 class="recipe-card-title">Jolpai diye Chaltar Chutney</h3></a><link rel="prefetch" href="/recipe/chalta-chutney"/><p class="recipe-card-descr">A seasonal chutney with elephant apple and Indian olives, made during autumn</p></div></div><ul role="list" class="recipe-infos"><li class="recipe-info"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded571bb05b20013669ad3_clock-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div>40 mins</div></li><li class="recipe-info"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded43754474b040b58d3c7_bolt-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div>69</div><div class="kcal">kcal</div></li></ul></div><div class="recipe-card-img-v2"><img src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6537eae8f48dd8ea80af8c4c_chalta%20chutney%204-3.jpg" loading="lazy" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 56vw, (max-width: 991px) 46vw, (max-width: 1439px) 23vw, 279.40106201171875px" srcset="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6537eae8f48dd8ea80af8c4c_chalta%20chutney%204-3-p-500.jpg 500w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6537eae8f48dd8ea80af8c4c_chalta%20chutney%204-3-p-800.jpg 800w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6537eae8f48dd8ea80af8c4c_chalta%20chutney%204-3.jpg 1440w"/><div class="recipe-info recipe-like-wrapper"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/628cb06e7b967153f30170ff_icons8-facebook-like-50.png" loading="lazy" alt="Viewers liked this" class="info-block-image white"/></div><div class="text-block-15">98.8</div><div class="text-block-15">%</div></div></div></div><div role="listitem" class="recipe-card w-dyn-item"><div class="recipe-card-text"><div class="recipe-card-header-wrapper"><div class="recipe-card-header"><a href="/recipe/garur-dal" class="recipe-link w-inline-block"><h3 class="recipe-card-title">Garur Dal</h3></a><link rel="prefetch" href="/recipe/garur-dal"/><p class="recipe-card-descr">A special dal that uses vegetables that are in season for exactly one week</p></div></div><ul role="list" class="recipe-infos"><li class="recipe-info"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded571bb05b20013669ad3_clock-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div>2 hours</div></li><li class="recipe-info"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded43754474b040b58d3c7_bolt-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div>162</div><div class="kcal">kcal</div></li></ul></div><div class="recipe-card-img-v2"><img src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/652bd87079cbf4ed074d3e7b_garur%20dal%204x3.jpg" loading="lazy" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 56vw, (max-width: 991px) 46vw, (max-width: 1439px) 23vw, 279.40106201171875px" srcset="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/652bd87079cbf4ed074d3e7b_garur%20dal%204x3-p-500.jpg 500w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/652bd87079cbf4ed074d3e7b_garur%20dal%204x3.jpg 1080w"/><div class="recipe-info recipe-like-wrapper"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/628cb06e7b967153f30170ff_icons8-facebook-like-50.png" loading="lazy" alt="Viewers liked this" class="info-block-image white"/></div><div class="text-block-15">99.0</div><div class="text-block-15">%</div></div></div></div><div role="listitem" class="recipe-card w-dyn-item"><div class="recipe-card-text"><div class="recipe-card-header-wrapper"><div class="recipe-card-header"><a href="/recipe/chhanar-paturi" class="recipe-link w-inline-block"><h3 class="recipe-card-title">Chhanar Paturi</h3></a><link rel="prefetch" href="/recipe/chhanar-paturi"/><p class="recipe-card-descr">Subtly flavoured cottage cheese cooked in leaf parcels</p></div></div><ul role="list" class="recipe-infos"><li class="recipe-info"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded571bb05b20013669ad3_clock-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div>45 mins</div></li><li class="recipe-info"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded43754474b040b58d3c7_bolt-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div>249</div><div class="kcal">kcal</div></li></ul></div><div class="recipe-card-img-v2"><img src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/651fd1051be2b1bc80c5ffe7_chhanar%20paturi%204-3.jpg" loading="lazy" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 56vw, (max-width: 991px) 46vw, (max-width: 1439px) 23vw, 279.40106201171875px" srcset="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/651fd1051be2b1bc80c5ffe7_chhanar%20paturi%204-3-p-500.jpg 500w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/651fd1051be2b1bc80c5ffe7_chhanar%20paturi%204-3-p-800.jpg 800w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/651fd1051be2b1bc80c5ffe7_chhanar%20paturi%204-3.jpg 1440w"/><div class="recipe-info recipe-like-wrapper"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/628cb06e7b967153f30170ff_icons8-facebook-like-50.png" loading="lazy" alt="Viewers liked this" class="info-block-image white"/></div><div class="text-block-15">99.5</div><div class="text-block-15">%</div></div></div></div></div></div><a href="/recipes" class="button secondary w-button">See all New recipes »</a></div></div><section class="hide-on-print"><div class="w-layout-blockcontainer container wide w-container"><div class="recipe-cards-section"><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="w-dyn-item"><div class="recipe-cards-header"><div aria-level="2" role="heading" class="recipe-cards-heading-wrapper"><div class="plain-heading split">More</div><div class="plain-heading split">lau</div><div class="plain-heading split">recipes</div></div><a aria-description="lau" href="/tags/lau" class="recipe-cards-heading-link">View all »</a></div><div class="recipe-cards w-dyn-list"><div role="list" class="hs w-dyn-items"><div role="listitem" class="recipe-card w-dyn-item"><div class="recipe-card-text"><div class="recipe-card-header-wrapper"><div class="recipe-card-header"><a href="/recipe/lau-chingri" aria-current="page" class="recipe-link w-inline-block w--current"><h3 class="recipe-card-title">Lau Chingri</h3></a><p class="recipe-card-descr">This dry, curried bottle-gourd recipe is a family favourite, and can be cooked with or without the shrimp!</p></div></div><ul role="list" class="recipe-infos"><li class="recipe-info"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded571bb05b20013669ad3_clock-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div>60 mins</div></li><li class="recipe-info"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded43754474b040b58d3c7_bolt-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div>154</div><div class="kcal">kcal</div></li></ul></div><div class="recipe-card-img-v2"><img alt="" loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/648b921092e8ed53482b6b94_lau%20chingri%204-3.jpeg" sizes="(max-width: 479px) 100vw, (max-width: 991px) 96vw, (max-width: 1439px) 31vw, 380.89410400390625px" srcset="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/648b921092e8ed53482b6b94_lau%20chingri%204-3-p-500.jpeg 500w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/648b921092e8ed53482b6b94_lau%20chingri%204-3.jpeg 1440w"/></div></div><div role="listitem" class="recipe-card w-dyn-item"><div class="recipe-card-text"><div class="recipe-card-header-wrapper"><div class="recipe-card-header"><a href="/recipe/lauer-ghonto" class="recipe-link w-inline-block"><h3 class="recipe-card-title">Lau&#x27;er Ghonto</h3></a><p class="recipe-card-descr">A dry, spicy curry of bottle gourd with roasted moong dal and sun-dried lentil dumplings.</p></div></div><ul role="list" class="recipe-infos"><li class="recipe-info"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded571bb05b20013669ad3_clock-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div>1 hour</div></li><li class="recipe-info w-condition-invisible"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded43754474b040b58d3c7_bolt-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div class="w-dyn-bind-empty"></div><div class="kcal">kcal</div></li></ul></div><div class="recipe-card-img-v2"><img alt="" loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6278d748ca7d26092fed6b2c_Lau%27er%20Ghonto%20Hero%204.3.jpg" sizes="(max-width: 479px) 100vw, (max-width: 991px) 96vw, (max-width: 1439px) 31vw, 380.89410400390625px" srcset="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6278d748ca7d26092fed6b2c_Lau%27er%20Ghonto%20Hero%204.3-p-500.jpeg 500w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6278d748ca7d26092fed6b2c_Lau%27er%20Ghonto%20Hero%204.3-p-800.jpeg 800w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6278d748ca7d26092fed6b2c_Lau%27er%20Ghonto%20Hero%204.3-p-1080.jpeg 1080w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6278d748ca7d26092fed6b2c_Lau%27er%20Ghonto%20Hero%204.3.jpg 1440w"/></div></div><div role="listitem" class="recipe-card w-dyn-item"><div class="recipe-card-text"><div class="recipe-card-header-wrapper"><div class="recipe-card-header"><a href="/recipe/tetor-dal-lau-diye" class="recipe-link w-inline-block"><h3 class="recipe-card-title">Tita&#x27;r Dal</h3></a><p class="recipe-card-descr">Moong dal cooked with bitter melon and bottle gourd, flavoured with ginger, ghee and coconut</p></div></div><ul role="list" class="recipe-infos"><li class="recipe-info"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded571bb05b20013669ad3_clock-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div>30 minutes</div></li><li class="recipe-info w-condition-invisible"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded43754474b040b58d3c7_bolt-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div class="w-dyn-bind-empty"></div><div class="kcal">kcal</div></li></ul></div><div class="recipe-card-img-v2"><img alt="" loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6278d81ede93b9a767837bc3_Titor%20Dal%204-3.jpg" sizes="(max-width: 479px) 100vw, (max-width: 991px) 96vw, (max-width: 1439px) 31vw, 380.89410400390625px" srcset="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6278d81ede93b9a767837bc3_Titor%20Dal%204-3-p-500.jpeg 500w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6278d81ede93b9a767837bc3_Titor%20Dal%204-3-p-800.jpeg 800w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6278d81ede93b9a767837bc3_Titor%20Dal%204-3-p-1080.jpeg 1080w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6278d81ede93b9a767837bc3_Titor%20Dal%204-3.jpg 1440w"/></div></div></div></div></div><div role="listitem" class="w-dyn-item"><div class="recipe-cards-header"><div aria-level="2" role="heading" class="recipe-cards-heading-wrapper"><div class="plain-heading split">More</div><div class="plain-heading split">prawn</div><div class="plain-heading split">recipes</div></div><a aria-description="prawn" href="/tags/prawns" class="recipe-cards-heading-link">View all »</a></div><div class="recipe-cards w-dyn-list"><div role="list" class="hs w-dyn-items"><div role="listitem" class="recipe-card w-dyn-item"><div class="recipe-card-text"><div class="recipe-card-header-wrapper"><div class="recipe-card-header"><a href="/recipe/lau-chingri" aria-current="page" class="recipe-link w-inline-block w--current"><h3 class="recipe-card-title">Lau Chingri</h3></a><p class="recipe-card-descr">This dry, curried bottle-gourd recipe is a family favourite, and can be cooked with or without the shrimp!</p></div></div><ul role="list" class="recipe-infos"><li class="recipe-info"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded571bb05b20013669ad3_clock-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div>60 mins</div></li><li class="recipe-info"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded43754474b040b58d3c7_bolt-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div>154</div><div class="kcal">kcal</div></li></ul></div><div class="recipe-card-img-v2"><img alt="" loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/648b921092e8ed53482b6b94_lau%20chingri%204-3.jpeg" sizes="(max-width: 479px) 100vw, (max-width: 991px) 96vw, (max-width: 1439px) 31vw, 380.89410400390625px" srcset="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/648b921092e8ed53482b6b94_lau%20chingri%204-3-p-500.jpeg 500w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/648b921092e8ed53482b6b94_lau%20chingri%204-3.jpeg 1440w"/></div></div><div role="listitem" class="recipe-card w-dyn-item"><div class="recipe-card-text"><div class="recipe-card-header-wrapper"><div class="recipe-card-header"><a href="/recipe/kakrar-jhal" class="recipe-link w-inline-block"><h3 class="recipe-card-title">Kakrar Jhal</h3></a><p class="recipe-card-descr">Bengali crab curry with a twist</p></div></div><ul role="list" class="recipe-infos"><li class="recipe-info"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded571bb05b20013669ad3_clock-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div>90 minutes</div></li><li class="recipe-info"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded43754474b040b58d3c7_bolt-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div>272</div><div class="kcal">kcal</div></li></ul></div><div class="recipe-card-img-v2"><img alt="" loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/62df6b637db65f58663ea1f3_kakrar%20jhal%204-3.jpg" sizes="(max-width: 479px) 100vw, (max-width: 991px) 96vw, (max-width: 1439px) 31vw, 380.89410400390625px" srcset="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/62df6b637db65f58663ea1f3_kakrar%20jhal%204-3-p-500.jpg 500w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/62df6b637db65f58663ea1f3_kakrar%20jhal%204-3-p-800.jpg 800w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/62df6b637db65f58663ea1f3_kakrar%20jhal%204-3-p-1080.jpg 1080w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/62df6b637db65f58663ea1f3_kakrar%20jhal%204-3.jpg 1440w"/></div></div><div role="listitem" class="recipe-card w-dyn-item"><div class="recipe-card-text"><div class="recipe-card-header-wrapper"><div class="recipe-card-header"><a href="/recipe/prawn-cocktail" class="recipe-link w-inline-block"><h3 class="recipe-card-title">Prawn Cocktail</h3></a><p class="recipe-card-descr">Prawns poached and coated with a sauce made of mayonnaise, ketchup, cream, Tobasco sauce, and Worcestershire sauce.</p></div></div><ul role="list" class="recipe-infos"><li class="recipe-info"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded571bb05b20013669ad3_clock-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div>30 minutes</div></li><li class="recipe-info w-condition-invisible"><div class="info-block-icon"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60ded43754474b040b58d3c7_bolt-solid.svg" loading="lazy" alt="" class="info-block-image"/></div><div class="w-dyn-bind-empty"></div><div class="kcal">kcal</div></li></ul></div><div class="recipe-card-img-v2"><img alt="" loading="lazy" src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6278df3ab5131c37e16e7689_Prawn%20Cocktail%20Hero%204.3.jpg" sizes="(max-width: 479px) 100vw, (max-width: 991px) 96vw, (max-width: 1439px) 31vw, 380.89410400390625px" srcset="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6278df3ab5131c37e16e7689_Prawn%20Cocktail%20Hero%204.3-p-500.jpeg 500w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6278df3ab5131c37e16e7689_Prawn%20Cocktail%20Hero%204.3-p-800.jpeg 800w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6278df3ab5131c37e16e7689_Prawn%20Cocktail%20Hero%204.3-p-1080.jpeg 1080w, https://assets-global.website-files.com/60d34b8627f6e735cf28df18/6278df3ab5131c37e16e7689_Prawn%20Cocktail%20Hero%204.3.jpg 1440w"/></div></div></div></div></div></div></div></div></div></section><div class="share-bottom"></div><footer class="footer-dark hide-on-print"><div class="container"><div class="footer-wrapper"><a href="#" class="footer-brand w-inline-block"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/60d9be91b080d1f236a402e2_logo%20horizontal.svg" loading="lazy" width="200" alt=""/></a><div class="footer-content"><div id="w-node-_7b63a65a-3d70-191d-9999-9abb55e4c117-55e4c111" class="footer-block"><div class="title-small">Company</div><a href="/about" class="footer-link">About us</a><a href="/contact" class="footer-link">Contact</a></div><div id="w-node-_7b63a65a-3d70-191d-9999-9abb55e4c120-55e4c111" class="footer-block"><div class="title-small">Resources</div><a href="/recipes" class="footer-link">Recipes</a><a href="/kitchen/tools" class="footer-link">Our kitchen tools</a><a href="/kitchen/pantry" class="footer-link">Bengali pantry essentials</a></div><div id="w-node-_7b63a65a-3d70-191d-9999-9abb55e4c12b-55e4c111" class="footer-block"><div class="title-small">Follow</div><a href="https://www.youtube.com/@BongEats" class="footer-link">Bong Eats Youtube (English)</a><a href="https://www.youtube.com/@BongEatsBangla" class="footer-link">Bong Eats Bangla</a><div class="footer-social-block"><ul role="list" class="list-6 w-list-unstyled"><li class="list-item-6"><a href="https://www.youtube.com/@bongeats" target="_blank" class="no-underline w-inline-block"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/64f7038434c320ce3b44bb3f_youtube_social_circle_dark.png" loading="lazy" alt=""/><div class="text-block-66">YouTube</div></a></li><li class="list-item-6"><a href="https://www.facebook.com/BongEats" target="_blank" class="no-underline w-inline-block"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/623f0f3a57561a48538f0572_icons8-facebook.svg" loading="lazy" alt=""/><div class="text-block-66">Facebook</div></a></li><li class="list-item-6"><a href="https://www.instagram.com/bongeats/" target="_blank" class="no-underline w-inline-block"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/64f703d175a4d96816d834c1_instagram.png" loading="lazy" alt=""/><div class="text-block-66">Instagram</div></a></li><li class="list-item-6"><a href="https://twitter.com/bongeats" target="_blank" class="no-underline w-inline-block"><img src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/623f0f3a51b8b2b927a7f641_icons8-twitter.svg" loading="lazy" alt="" class="image-24"/><div class="text-block-66">Twitter</div></a></li></ul></div></div></div></div></div><div class="footer-divider"></div><div class="footer-copyright-center">Copyright © 2023 Bong Eats</div></footer><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=60d34b8627f6e7ebf528deea" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://assets-global.website-files.com/60d34b8627f6e7ebf528deea/js/webflow.d1475da7d.js" type="text/javascript"></script><script>
+// trigger a click on the child link on click
+// of the parent card
+
+$(".recipe-card").on("click", function (event) {
+  let recipeLink = $(this).find(".recipe-link")[0];
+  // prevent the click event from triggering twice
+  // when clicking directly on the link
+  // because of event bubbling
+  if (recipeLink !== event.target) {
+    recipeLink.click();
+  }
+});
+let currency = localStorage.getItem("currency");
+
+if (!currency) {
+  setCurrency();
+}
+
+if(currency) {
+    showPaymentSections(currency.toLowerCase());
+}
+
+
+function showPaymentSections(currency) {
+    if(currency !== 'usd') {
+        $('.payment-block.usd').css('display', 'none');
+        $(`.payment-block.${currency}`).css('display', 'block');
+    }
+	if(currency !== 'inr') {
+    	$('#donate-btn-inr').css('display', 'none');
+      	$('#donate-btn-global').css('display', 'block');
+    }
+}
+
+function setCurrency() {
+  $.get(
+    "https://api.ipregistry.co/?key=k88hzo5kvave00lh&fields=currency",
+    function (data) {
+      if (data.currency.code) {
+        localStorage.setItem("currency", data.currency.code);
+        showPaymentSections(data.currency.code.toLowerCase());
+      }
+    }
+  );
+}
+// modal a11y code
+  $(document).ready(function() {
+        var buttonThatOpenedModal;
+        var findModal = function(elem) {
+            var tabbable = elem.find('select, input, textarea, button, a').filter(':visible');
+
+            var firstTabbable = tabbable.first();
+            var lastTabbable = tabbable.last();
+            /*set focus on first input*/
+            firstTabbable.focus();
+
+            /*redirect last tab to first input*/
+            lastTabbable.on('keydown', function(e) {
+                if ((e.which === 9 && !e.shiftKey)) {
+                    e.preventDefault();
+                    firstTabbable.focus();
+                }
+            });
+
+            /*redirect first shift+tab to last input*/
+            firstTabbable.on('keydown', function(e) {
+                if ((e.which === 9 && e.shiftKey)) {
+                    e.preventDefault();
+                    lastTabbable.focus();
+                }
+            });
+
+            /* allow escape key to close insiders div */
+            elem.on('keydown', function(e) {
+                if (e.keyCode === 27) {
+                    $(elem).find('.modal-close_btn').click();
+                };
+            });
+        };
+
+        var modalOpenButton = $('.modal-open_btn');
+        modalOpenButton.on('keydown', function(e) {
+            // Only activate on spacebar and enter
+            if (e.which !== 13 && e.which !== 32) {
+                return;
+            }
+
+            e.preventDefault();
+
+            // Simulate a mouseclick to trigger Webflow's IX2/Interactions
+            var evt = document.createEvent("MouseEvents");
+            evt.initMouseEvent("click", true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+            $(this).get(0).dispatchEvent(evt);
+        });
+        modalOpenButton.on('click', function() {
+            $(this).next().show();
+            findModal($(this).next());
+            buttonThatOpenedModal = $(this);
+        });
+
+        var modalCloseButton = $('.modal-close_btn, .modal-close_area');
+        modalCloseButton.on('keydown', function(e) {
+            // Only activate on spacebar and enter
+            if (e.which !== 13 && e.which !== 32) {
+                return;
+            }
+
+            e.preventDefault();
+
+            // Simulate a mouseclick to trigger Webflow's IX2/Interactions
+            var evt = document.createEvent("MouseEvents");
+            evt.initMouseEvent("click", true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+            $(this).get(0).dispatchEvent(evt);
+        });
+        modalCloseButton.on('click', function() {
+            $(this).closest('.modal-wrapper').hide();
+            if (buttonThatOpenedModal) {
+                buttonThatOpenedModal.focus();
+                buttonThatOpenedModal = null;
+            }
+        });
+    });
+</script>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7LPWFNM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<script>
+    var jsonLd = JSON.parse($('#recipe-jsonld').html());
+    $('.recipe-ingredients ul>li').each(function () {
+        jsonLd.recipeIngredient.push(this.innerText);
+    })
+    $('.recipe-process ol>li').each(function () {
+        jsonLd.recipeInstructions.push({
+            "@type": "HowToStep",
+            text: this.innerText
+        });
+    })
+    $('#recipe-jsonld').html(JSON.stringify(jsonLd));
+    // cross out completed ingredients on click
+    $('.recipe-ingredients li').on('click', function () { $(this).toggleClass('strikethrough') });
+    $('.recipe-process li').on('click', function () { $(this).toggleClass('strikethrough') });
+</script></body></html>

@@ -1,6 +1,5 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields
 
 
 class PingoDoce(AbstractScraper):
@@ -12,10 +11,10 @@ class PingoDoce(AbstractScraper):
         return self.schema.title()
 
     def total_time(self):
-        return get_minutes(self.soup.findAll("div", {"class": "info"})[0])
+        return self.schema.total_time()
 
     def yields(self):
-        return get_yields(self.soup.findAll("div", {"class": "info"})[2])
+        return self.schema.yields()
 
     def ingredients(self):
         return self.schema.ingredients()

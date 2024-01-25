@@ -1,6 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
+from ._utils import normalize_string
 
 
 class TastyKitchen(AbstractScraper):
@@ -12,19 +12,13 @@ class TastyKitchen(AbstractScraper):
         return self.soup.find("h1", {"itemprop": "name"}).get_text()
 
     def total_time(self):
-        return sum(
-            [
-                get_minutes(self.soup.find("time", {"itemprop": "prepTime"})),
-                get_minutes(self.soup.find("time", {"itemprop": "cookTime"})),
-            ]
-        )
+        return self.schema.total_time()
 
     def yields(self):
-        return get_yields(self.soup.find("span", {"itemprop": "yield"}))
+        return self.schema.yields()
 
     def image(self):
-        image = self.soup.find("img", {"class": "the_recipe_image", "src": True})
-        return image["src"] if image else None
+        return self.schema.image()
 
     def ingredients(self):
         ingredients = self.soup.find("ul", {"class": "ingredients"}).findAll("li")

@@ -1,14 +1,8 @@
 # mypy: disallow_untyped_defs=False
-import re
-
 from ._abstract import AbstractScraper
 
 
 class OneHundredOneCookBooks(AbstractScraper):
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.soup = self.soup.find("div", id="recipe")
-
     @classmethod
     def host(cls):
         return "101cookbooks.com"
@@ -16,28 +10,38 @@ class OneHundredOneCookBooks(AbstractScraper):
     def author(self):
         return self.schema.author()
 
+    def cuisine(self):
+        return self.schema.cuisine()
+
+    def description(self):
+        return self.schema.description()
+
     def title(self):
-        return self.soup.find("h1").get_text()
+        return self.schema.title()
 
     def total_time(self):
         return self.schema.total_time()
 
+    def prep_time(self):
+        return self.schema.prep_time()
+
+    def cook_time(self):
+        return self.schema.cook_time()
+
     def yields(self):
-        data = self.soup.find_all("p", limit=3, recursive=False)[-1].get_text()
-        extraction = re.search("([0-9]+) servings", data)
-        return extraction.group(1) if extraction else None
+        return self.schema.yields()
 
     def image(self):
         return self.schema.image()
 
     def ingredients(self):
-        ingredients = self.soup.find("blockquote").p.stripped_strings
-        return list(ingredients)
+        return self.schema.ingredients()
 
     def instructions(self):
-        return self.soup.find_all("p", limit=2, recursive=False)[1].get_text(
-            "\n", strip=True
-        )
+        return self.schema.instructions()
 
     def ratings(self):
-        return None
+        return self.schema.ratings()
+
+    def nutrients(self):
+        return self.schema.nutrients()

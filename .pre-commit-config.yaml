@@ -1,4 +1,4 @@
-exclude: 'tests/test_data/'
+exclude: '.test(html|json)'
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
@@ -6,8 +6,13 @@ repos:
     -   id: check-yaml
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
+    -   id: pretty-format-json
+        args:
+            - "--autofix"
+            - "--no-sort-keys"
+            - "--no-ensure-ascii"
 -   repo: https://github.com/pycqa/flake8.git
-    rev: 6.0.0
+    rev: 6.1.0
     hooks:
     - id: flake8
       additional_dependencies: [flake8-use-fstring, pep8-naming]
@@ -17,11 +22,11 @@ repos:
     - id: isort
       args: ["--profile", "black", "--filter-files"]
 -   repo: https://github.com/psf/black
-    rev: 22.12.0
+    rev: 23.10.0
     hooks:
     - id: black
 -   repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.0.1
+    rev: v1.6.1
     hooks:
     - id: mypy
       additional_dependencies: [types-beautifulsoup4, types-requests]

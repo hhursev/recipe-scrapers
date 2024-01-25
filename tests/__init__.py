@@ -1,75 +1,187 @@
+import json
+import pathlib
 import unittest
-from typing import Any, Iterator, Optional, Tuple
+from typing import Callable
 
-import responses
+from recipe_scrapers import scrape_html
+from recipe_scrapers._grouping_utils import IngredientGroup
+
+MANDATORY_TESTS = [
+    "author",
+    "canonical_url",
+    "host",
+    "description",
+    "image",
+    "ingredients",
+    "ingredient_groups",
+    "instructions",
+    "instructions_list",
+    "language",
+    "site_name",
+    "title",
+    "total_time",
+    "yields",
+]
+
+OPTIONAL_TESTS = [
+    "category",
+    "cook_time",
+    "cuisine",
+    "nutrients",
+    "prep_time",
+    "ratings",
+    "reviews",
+]
 
 
-class ScraperTest(unittest.TestCase):
-
+class RecipeTestCase(unittest.TestCase):
     maxDiff = None
-    test_file_name: Optional[str] = None
-    test_file_extension = "testhtml"
-    scraper_class: Any
 
-    @classmethod
-    def expected_requests(cls) -> Iterator[Tuple[str, str, str]]:
-        """
-        Descriptions of the expected requests that the scraper-under-test will make, as
-        tuples of: HTTP method, URL, path-to-content-file
-        """
-        filename = cls.test_file_name or cls.scraper_class.__name__.lower()
-        path = f"tests/test_data/{filename}.{cls.test_file_extension}"
-        yield responses.GET, "https://test.example.com", path
 
-    @classmethod
-    def setUpClass(cls):
-        if cls == ScraperTest:
-            # Only modify setUpClass if subclass of ScraperTest
-            return super().setUpClass()
+def test_func_factory(
+    host: str, testhtml: pathlib.Path, testjson: pathlib.Path
+) -> Callable:
+    """
+    Factory function to create a test function that asserts the actual output from
+    the scraper matches the expected output.
 
-        with responses.RequestsMock() as rsps:
-            start_url = None
-            for method, url, path in cls.expected_requests():
-                start_url = start_url or url
-                with open(path, encoding="utf-8") as f:
-                    rsps.add(method, url, body=f.read())
+    Parameters
+    ----------
+    host : str
+        Host of the site, used to identify the correct scraper to use*
+    testhtml : pathlib.Path
+        Path to testhtml file that the scraper will parse..
+    testjson : pathlib.Path
+        Path to testjson file that contains the expected output from the scraper
+        for the testhtml file.
 
-            cls.harvester_class = cls.scraper_class(url=start_url)
 
-    def run(self, result=None):
-        """
-        Python's unittest (default) test runner will want to run tests
-        from a class/module if there are test_* methods in it.
+    * We can't use the canonical url from the expected output to determine the scraper
+    that should be used because some website that aggregate recipes from others site will
+    set the canonical url to the site the recipe came from. tastykitchen.com is an example
+    of this.
 
-        We don't want this to be the case with ScraperTest though.
-        We also don't want to flood our logs with loads of "skips".
 
-        Overwrite the default built-in runner in this case
-        and make it not attempting a run at all.
-        """
-        if self.__class__ == ScraperTest:
-            return None
+    Returns
+    -------
+    Callable
+        Function that asserts the expected output from the scraper matches the
+        actual output.
+    """
 
-        super().run(result)
+    def test_func(self):
+        with open(testjson, "r", encoding="utf-8") as f:
+            expect = json.load(f)
+            expect["ingredient_groups"] = [
+                IngredientGroup(**group)
+                for group in expect.get("ingredient_groups", [])
+            ]
+        actual = scrape_html(testhtml.read_text(encoding="utf-8"), host)
 
-    def test_consistent_ingredients_lists(self):
+        # Mandatory tests
+        # If the key isn't present, check an assertion is raised
+        for key in MANDATORY_TESTS:
+            with self.subTest(key):
+                scraper_func = getattr(actual, key)
+                if key in expect.keys():
+                    self.assertEqual(
+                        expect[key],
+                        scraper_func(),
+                        msg=f"The actual value for .{key}() did not match the expected value.",
+                    )
+                else:
+                    with self.assertRaises(
+                        Exception,
+                        msg=f".{key}() was expected to raise an exception but it did not.",
+                    ):
+                        scraper_func()
+
+        # Optional tests
+        # If the key isn't present, skip
+        for key in OPTIONAL_TESTS:
+            with self.subTest(key):
+                scraper_func = getattr(actual, key)
+                if key in expect.keys():
+                    self.assertEqual(
+                        expect[key],
+                        scraper_func(),
+                        msg=f"The actual value for .{key}() did not match the expected value.",
+                    )
+
         # Assert that the ingredients returned by the ingredient_groups() function
         # are the same as the ingredients return by the ingredients() function.
         grouped = []
-        for group in self.harvester_class.ingredient_groups():
+        for group in actual.ingredient_groups():
             grouped.extend(group.ingredients)
 
-        self.assertEqual(sorted(self.harvester_class.ingredients()), sorted(grouped))
+        with self.subTest("ingredient_groups"):
+            self.assertEqual(sorted(actual.ingredients()), sorted(grouped))
 
-    def test_multiple_instructions(self):
-        # Assert that the instructions_list() method returns more than one item;
-        # this implicitly also confirms that instructions() returns a newline-separated
-        # value of type 'str'
-        instructions = self.harvester_class.instructions_list()
-        message = (
-            "Most recipes contain more than one instruction, but this recipe test "
-            "did not.  Please check the implementation (and source HTML) and either "
-            "fix the code, or override this method in your test module if you are sure "
-            "this is the expected behaviour."
-        )
-        self.assertGreater(len(instructions), 1, message)
+    return test_func
+
+
+def load_tests(
+    loader: unittest.TestLoader, standard_tests: unittest.TestSuite, pattern: str
+) -> unittest.TestSuite:
+    """
+    Customise the loading of tests. This function is automatically picked up by the
+    unittest test loader.
+
+    This function dynamically generates the class definition for RecipeTestCase by adding
+    a test function for each pair of testhtml and testjson files found in the
+    tests/test_data directory.
+
+    This also includes the library tests from the tests/library folder as well.
+
+
+    Parameters
+    ----------
+    loader : unittest.TestLoader
+        The instance of TestLoader loading the tests when unittest is run
+    standard_tests : unittest.TestSuite
+        The tests found by loader by loading the tests from the tests module.
+        This is empty and unused.
+    pattern : str
+        Pattern used to identify tests to load.
+        This is unused.
+
+    Returns
+    -------
+    unittest.TestSuite
+        A TestSuite object populated with tests from the pairs of testhtml and testjson
+        files, and the library tests.
+    """
+    test_dir = pathlib.Path("tests/test_data")
+    for host in test_dir.iterdir():
+        if not host.is_dir():
+            continue
+
+        for testhtml in host.glob("*.testhtml"):
+            testjson = testhtml.with_suffix(".json")
+            if not testjson.is_file():
+                continue
+
+            # Add a new function to RecipeTestCase class to test this scraper
+            # The name of this function the path to the testjson file.
+            setattr(
+                RecipeTestCase,
+                str(testjson),
+                test_func_factory(host.name, testhtml, testjson),
+            )
+
+    # Create a test suite and load all tests from the RecipeTestClass definition
+    suite = unittest.TestSuite()
+    tests = loader.loadTestsFromTestCase(RecipeTestCase)
+    suite.addTest(tests)
+
+    # Add library tests to test suite
+    library_tests = loader.discover("tests/library")
+    suite.addTests(library_tests)
+
+    # Add legancy tests to test suite
+    # Legacy tests use the previous test approach because they can't be migrated to
+    # this data driven due to the scrapers using extra network requests.
+    legacy_test = loader.discover("tests/legacy")
+    suite.addTests(legacy_test)
+
+    return suite

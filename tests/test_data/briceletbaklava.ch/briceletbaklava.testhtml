@@ -1,0 +1,3182 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+
+
+
+
+
+    <script src="https://assets.over-blog-kiwi.com/b/blog/v2023.17.10/build/runtime.34471c75.js"></script><script src="https://assets.over-blog-kiwi.com/b/blog/v2023.17.10/build/ads.930ed0c8.js"></script>
+  <script>
+      dataLayer = [{
+        'source'   : 'OVERBLOG',
+        'theme'    : '90',
+        'adUnitID' : '/6783/OverBlogKiwi/fr',
+        'group'    : 'Blog-Cuisine',
+        'category' : 'Food & Drink',
+        'rating'   : 'BS',
+        'unused'   : 'No',
+        'adult'    : 'No',
+        'pda'      : 'No',
+        'hasAds'   : 'No',
+        'lang'     : 'fr',
+        'adblock'  : '__ads_loaded__' in window ? 'No' : 'Yes',
+        'blog_id'  : '3215825',
+        'blog_name': "Bricelet & Baklava",
+        'premium'  : 'Yes',
+        'slots'    : {},
+                  'article_type': 'article',
+          'article_id': '184561962',
+          'article_categories': [
+                        "Boulangerie",                        "Recettes de pains"                    ]
+              }];
+  </script>
+      <!-- DIDOMI CPM TAG STARTS -->
+    <script type="text/javascript">window.gdprAppliesGlobally=true;(function(){function a(e){if(!window.frames[e]){if(document.body&&document.body.firstChild){var t=document.body;var n=document.createElement("iframe");n.style.display="none";n.name=e;n.title=e;t.insertBefore(n,t.firstChild)}
+    else{setTimeout(function(){a(e)},5)}}}function e(n,r,o,c,s){function e(e,t,n,a){if(typeof n!=="function"){return}if(!window[r]){window[r]=[]}var i=false;if(s){i=s(e,t,n)}if(!i){window[r].push({command:e,parameter:t,callback:n,version:a})}}e.stub=true;function t(a){if(!window[n]||window[n].stub!==true){return}if(!a.data){return}
+    var i=typeof a.data==="string";var e;try{e=i?JSON.parse(a.data):a.data}catch(t){return}if(e[o]){var r=e[o];window[n](r.command,r.parameter,function(e,t){var n={};n[c]={returnValue:e,success:t,callId:r.callId};a.source.postMessage(i?JSON.stringify(n):n,"*")},r.version)}}
+    if(typeof window[n]!=="function"){window[n]=e;if(window.addEventListener){window.addEventListener("message",t,false)}else{window.attachEvent("onmessage",t)}}}e("__tcfapi","__tcfapiBuffer","__tcfapiCall","__tcfapiReturn");a("__tcfapiLocator");(function(e,tgt){
+    var t=document.createElement("script");t.id="spcloader";t.type="text/javascript";t.async=true;t.src="https://sdk.privacy-center.org/"+e+"/loader.js?target_type=notice&target="+tgt;t.charset="utf-8";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)})("e23a01f6-a508-4e71-8f50-c1a9cae7c0d0","fBVP2nLa")})();</script>
+    <!-- DIDOMI CPM TAG ENDS -->
+
+<script>
+  // Paywall Bounce Rate pixel
+  function sendCustomPixel(method, consent, tcfStatus) {
+    var pixelUrl = "https://bpt.webedia-group.com/pixel.png?/domain=overblog.com&referrer=" + document.referrer + "&site_route=" + dataLayer[0].blog_name + "_" + (typeof jad !== "undefined") + "&event=tcfapi&method=" + method + "&consent=" + consent + "&tcfStatus=" + tcfStatus
+    var img = document.createElement('img');
+    img.style = "display: none;"
+    img.src = pixelUrl;
+    document.body.appendChild(img);
+  }
+
+  function triggerOnReadyOrTimeout(action, tcfStatus) {
+
+    var done = false;
+
+    function doItIfNotDone(method, consent, tcfStatus) {
+      if (!done) {
+        action(method, consent, tcfStatus);
+        done = true;
+      }
+    }
+
+    window.didomiOnReady = window.didomiOnReady || [];
+    window.didomiOnReady.push(function (Didomi) {
+      var consent = Didomi.isConsentRequired() ? Didomi.getUserConsentStatusForVendor("c:googleana-XMqagawa") && Didomi.getUserConsentStatusForVendor("google") : true;
+      var consentToString = consent == undefined ? "undefined" : consent;
+      doItIfNotDone("didomiOnReady", consentToString, tcfStatus);
+    });
+
+    setTimeout(function() {doItIfNotDone("timeout", "false", tcfStatus)}, 1000);
+  }
+
+  var tcfok = false;
+
+  var tryTcfApiTimer = 0;
+
+  var tryToReachTcfApi = setInterval(function() {
+    if (typeof __tcfapi !== "undefined") {
+      clearInterval(tryToReachTcfApi);
+      launchTcfApi()
+    } else if (tryTcfApiTimer > 3000) {
+      clearInterval(tryToReachTcfApi);
+      triggerOnReadyOrTimeout(sendCustomPixel, "tcfnotloaded")
+    }
+    tryTcfApiTimer += 200;
+  }, 200)
+
+  function launchTcfApi() {
+    __tcfapi('addEventListener', 2, function(tcData, success) {
+      if (success) {
+        try{
+          switch (tcData.eventStatus) {
+            case "useractioncomplete":
+              triggerOnReadyOrTimeout(sendCustomPixel, tcData.eventStatus);
+              __tcfapi('removeEventListener', 2, function(){}, tcData.listenerId)
+              break;
+            case "cmpuishown":
+              triggerOnReadyOrTimeout(sendCustomPixel, tcData.eventStatus);
+              break;
+            case "tcloaded":
+              triggerOnReadyOrTimeout(sendCustomPixel, tcData.eventStatus);
+              __tcfapi('removeEventListener', 2, function(){}, tcData.listenerId)
+              break;
+            default:
+              triggerOnReadyOrTimeout(sendCustomPixel, tcData.eventStatus);
+          }
+        } catch (error) {
+          triggerOnReadyOrTimeout(sendCustomPixel, tcData.eventStatus);
+        }
+        tcfok = true;
+      }
+    });
+
+    setTimeout(function() {
+      if (!tcfok) {
+        triggerOnReadyOrTimeout(sendCustomPixel, "tcfnotloaded")
+      }
+    }, 2000);
+  }
+</script>
+  <style>
+    [class^=app_gdpr] a {
+        color: white !important;
+    }
+    [class^=app_gdpr] a[href], [class^=app_gdpr] [class^=banner_message] a:not([class^=banner_continue]) {
+        text-decoration: underline;
+    }
+    [class^=app_gdpr] a svg {
+        fill: white !important;
+    }
+    [class^=app_gdpr] [class^=banner_banner], [class^=app_gdpr] [class^=popup_popup]{
+        z-index: 2147483647 !important;
+    }
+</style>
+    <script>
+    if (window.parent !== window) {
+      if (typeof btoa !== "function") {
+        window.btoa = function (input) {
+          var str = String(input);
+          for (var block, charCode, idx = 0, map = chars, output = ''; str.charAt(idx | 0) || (map = '=', idx % 1); output += map.charAt(63 & block >> 8 - idx % 1 * 8)) {
+            charCode = str.charCodeAt(idx += 3/4)
+            block = block << 8 | charCode
+          }
+          return output
+        }
+      }
+      var re = /^(?:https?:)?(?:\/\/)?([^\/\?]+)/i
+      var res = re.exec(document.referrer)
+      var domain = res[1]
+      var forbidden = ["aGVsbG8ubGFuZA==","Y3Vpc2luZS5sYW5k","cmVjZXR0ZS5sYW5k","cmVjZXR0ZXMubGFuZA==",]
+      if (forbidden.indexOf(btoa(domain)) > -1) {
+        document.location = document.location.origin + "/system/noframed"
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="https://assets.over-blog-kiwi.com/b/blog/v2023.17.10/build/main.3b8efa1f.css">
+          <!-- Basic theme id 90 [Noodle] - last modified : 2023-09-12T11:45:37+02:00 -->
+
+
+
+
+
+        <!-- Title -->
+        <title>Bürli de Saint-Gall (St. Galler Bürli) - Bricelet &amp; Baklava</title>
+        <!-- Metas -->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="author" content="Michel" />
+        <link rel="canonical" href="https://briceletbaklava.ch/2021/08/burli-de-saint-gall-st.galler-burli.html" />
+
+        <meta property="og:site_name" content="Bricelet &amp;amp; Baklava" />
+        <meta property="og:title" content="Bürli de Saint-Gall (St. Galler Bürli) - Bricelet &amp;amp; Baklava" />
+        <meta name="twitter:title" content="Bürli de Saint-Gall (St. Galler Bürli) - Bricelet &amp;amp; Baklava" />
+        <meta name="description" content="Bürli de Saint-Gall
+Le Bürli de Saint-Gall est un petit pain en pâte levée, en forme de ballon. Juste avant l’enfournement ils sont accolés par deux et même quelquefois par 4 avec une cuisson très intense car les saint-gallois les apprécient bien cuits..." />
+        <meta property="og:description" content="Bürli de Saint-Gall
+Le Bürli de Saint-Gall est un petit pain en pâte levée, en forme de ballon. Juste avant l’enfournement ils sont accolés par deux et même quelquefois par 4 avec une cuisson très intense car les saint-gallois les apprécient bien cuits..." />
+        <meta name="twitter:description" content="Bürli de Saint-Gall
+Le Bürli de Saint-Gall est un petit pain en pâte levée, en forme de ballon. Juste avant l’enfournement ils sont accolés par deux et même quelquefois par 4 avec une cuisson très intense..." />
+        <meta property="og:locale" content="fr_FR" />
+
+        <meta property="og:image" content="https://image.over-blog.com/D913ECH_mmWHTy8_qRECetDo6PU=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_e19375_pain-buerli-6374.jpg" />
+        <meta name="twitter:image:src" content="https://image.over-blog.com/D913ECH_mmWHTy8_qRECetDo6PU=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_e19375_pain-buerli-6374.jpg" />
+        <meta property="og:url"  content="https://briceletbaklava.ch/2021/08/burli-de-saint-gall-st.galler-burli.html" />
+        <meta name="twitter:url" content="https://briceletbaklava.ch/2021/08/burli-de-saint-gall-st.galler-burli.html" />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@overblog" />
+        <meta name="twitter:creator" content="@" />
+        <meta property="fb:app_id" content="284865384904712" />
+
+
+
+
+        <!-- Robots -->
+        <meta name="robots" content="index,follow" />
+
+        <!-- RSS -->
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss" />
+
+
+
+<!-- Analytics -->
+<meta name="google-site-verification" content="93KXyhubADhdlGFPOeH6DsAxUZlVj6HqpxGge2zvI-o" /><meta name="msvalidate.01" content="3E79280763A950E6FD0C22C563D8102C" />
+<meta name="p:domain_verify" content="b22fe6afb51e3130e91a74220f6a35f4" />
+<!-- NewsArticle schema -->
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "headline": "B\u00fcrli de Saint-Gall (St. Galler B\u00fcrli)",
+    "description": "B\u00fcrli de Saint-Gall\nLe B\u00fcrli de Saint-Gall est un petit pain en p\u00e2te lev\u00e9e, en forme de ballon. Juste avant l\u2019enfournement ils sont accol\u00e9s par deux et m\u00eame quelquefois par 4 avec une cuisson tr\u00e8s intense car les saint-gallois les appr\u00e9cient bien cuits...",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://briceletbaklava.ch/2021/08/burli-de-saint-gall-st.galler-burli.html"
+    },
+        "datePublished": "2021-10-27T07:18:18+02:00",
+    "dateModified": "2021-10-27T07:19:26+02:00",
+            "author": {
+      "@type": "Person",
+      "name": "Michel"
+    },
+        "image": [
+      "https:\/\/image.over-blog.com\/D913ECH_mmWHTy8_qRECetDo6PU=\/filters:no_upscale()\/image%2F3215825%2F20210816%2Fob_e19375_pain-buerli-6374.jpg"
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Bricelet &amp; Baklava",
+      "url": "https:\/\/briceletbaklava.ch",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https:\/\/assets.over-blog-kiwi.com\/b\/blog\/v2023.17.10\/build\/images\/logo-overblog-big.png",
+        "width": 550,
+        "height": 210
+      }
+    }
+  }
+</script>
+        <!-- Metas -->
+        <link rel="icon" type="image/png" href="https://img.over-blog-kiwi.com/3/21/58/25/20190503/ob_3880fb_briceletbaklava.jpg" />
+
+
+
+        <!-- Graphique -->
+
+        <!-- Fonts -->
+
+        <!-- Sidebar -->
+
+        <!-- Widget -->
+
+
+                <!-- Menu Bar -->
+
+        <!-- Normalize -->
+        <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css' rel='stylesheet' type='text/css' />
+
+        <!-- Fonts -->
+        <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' type='text/css' />
+        <link href='https://fonts.googleapis.com/css?family=Georgia:400,700' rel='stylesheet' type='text/css' />
+        <link href='https://fonts.googleapis.com/css?family=Georgia:400,700' rel='stylesheet' type='text/css' />
+
+        <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+
+        <!-- Fancybox -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js" type="text/javascript"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/helpers/jquery.fancybox-thumbs.css" rel="stylesheet" type="text/css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/helpers/jquery.fancybox-thumbs.js" type="text/javascript"></script>
+
+        <!-- Mansory -->
+        <script src="https://npmcdn.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
+
+        <!--[if lt IE 9]>
+        <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <style type="text/css">
+            .ob-h1 {
+                display: block;
+                font-size: 2em;
+                margin-top: 0.67em;
+                margin-bottom: 0.67em;
+                font-weight: bold;
+            }
+            .ob-h2 {
+                display: block;
+                font-size: 1.5em;
+                margin-top: 0.83em;
+                margin-bottom: 0.83em;
+                font-weight: bold;
+            }
+            .ob-h3 {
+                display: block;
+                font-size: 1.17em;
+                margin-top: 1em;
+                margin-bottom: 1em;
+                font-weight: bold;
+            }
+            .ob-h4 {
+                display: block;
+                margin-top: 1.33em;
+                margin-bottom: 1.33em;
+                font-weight: bold;
+            }
+            .ob-h5 {
+                display: block;
+                font-size: 0.83em;
+                margin-top: 1.67em;
+                margin-bottom: 1.67em;
+                font-weight: bold;
+            }
+            .ob-h6 {
+                display: block;
+                font-size: 0.67em;
+                margin-top: 2.33em;
+                margin-bottom: 2.33em;
+                font-weight: bold;
+            }
+
+            /********************************
+                         Reset
+            ********************************/
+
+            * { box-sizing: border-box; }
+            a { color: #3498db; text-decoration: none; }
+            h1, h2, h3, h4, h5, .ob-h1, .ob-h2, .ob-h3, .ob-h4, .ob-h5 { font-family: 'Georgia'; }
+            html { font-family: 'Georgia'; }
+
+            @media only screen and (min-width: 970px) {
+            a:hover {
+                color: #3498db;
+                text-decoration: underline; }
+                transition: all .1s ease-out;
+            }
+
+            /********************************
+                         Html
+            ********************************/
+            html {
+                                                        font-size: 16px;
+                    font-size: 1rem;
+                                                }
+
+            /********************************
+                         Body
+            ********************************/
+
+            .Body {
+                color: #606569;
+                line-height: 20px;
+                                    background-image : url("https://img.over-blog-kiwi.com/3/21/58/25/20190225/ob_b9532d_vichy-4.jpg");
+                            }
+
+            @media only screen and (min-width: 970px) {
+            .Body {
+                line-height: 26px;
+            }
+            }
+
+            .Body-content {
+                    margin: auto;
+                    background-color: #ffffff;
+            }
+
+            @media only screen and (min-width: 970px) {
+            .Body-content {
+                    width: 1010px;
+                    margin-top: 60px;
+                                            border-radius: 8px;
+                                                                box-shadow: 20px 0 40px -20px rgba(0,0,0,.2), -20px 0 40px -20px rgba(0,0,0,.2);
+                                }
+            }
+
+            /********************************
+                         HeaderNav
+            ********************************/
+
+            .HeaderNav {
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-direction: normal;
+                -moz-box-direction: normal;
+                -webkit-box-orient: vertical;
+                -moz-box-orient: vertical;
+                -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                padding: 10px 10px 0;
+                margin: auto;
+                align-items: center;
+            }
+
+            @media only screen and (min-width: 970px) {
+            .HeaderNav {
+                padding: 20px 0;
+                width: 970px;
+            }
+            }
+
+            /********************************
+                         Header
+            ********************************/
+
+            .Header {
+                position: relative;
+                                    border-radius: 8px;
+                                overflow: hidden;
+                width: 100%
+            }
+
+                .Header-cover {
+                    display: block;
+                    width: 100%;
+                    object-fit: cover;
+                    margin: auto;
+                    position: relative;
+
+                                            min-height: 60px;
+
+                }
+
+                @media only screen and (min-width: 970px) {
+                .Header-cover {
+                    width: 970px;
+                    padding: 0;
+
+                                            min-height: 110px;
+                                    }
+                }
+
+                    .Header-coverImage {
+                        display: block;
+                        width: 100%;
+                        max-height : 400px;
+                        object-fit: cover
+                    }
+
+                    .Header-content {
+                        overflow: hidden;
+                        padding: 10px;
+
+                                                                                position: absolute;
+                            z-index: 1;
+                            left: 0;
+                            right: 0;
+
+                                                    background: rgba(255, 255, 255, .8);
+                                            }
+
+                    @media only screen and (min-width: 970px) {
+                        .Header-content {
+                            width: 970px;
+                        }
+                    }
+
+                        .Header-title {
+                            font-family: 'Georgia';
+                            font-size: 20px;
+                            font-size: 1.25rem;
+                            font-weight: 400;
+                            text-transform: uppercase;
+                            letter-spacing: 2px;
+                            margin: 0;
+                            line-height: 20px;
+                            line-height: 1.25rem;
+                            text-align: center;
+                        }
+
+                        @media only screen and (min-width: 970px) {
+                        .Header-title {
+                            font-size: 30px;
+                            font-size: 1.875rem;
+                            line-height: 40px;
+                            line-height: 2.5rem;
+                        }
+                        }
+
+                            .Header-titleLink {
+                                                            }
+
+                            @media only screen and (min-width: 970px) {
+                            .Header-titleLink:hover {
+                                text-decoration: underline;
+                                                            }
+                            }
+
+                        .Header-subtitle {
+                            font-size: 15px;
+                            font-size: .9375rem;
+                            font-weight: 400;
+                            margin: 0;
+                            line-height: 20px;
+                            line-height: 1.25rem;
+                            text-align: center;
+                            padding-top: 5px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                                                    }
+
+                        @media only screen and (min-width: 970px) {
+                        .Header-subtitle {
+                            font-size: 18px;
+                            font-size: 1.125rem;
+                            line-height: 24px;
+                            line-height: 1.5rem;
+                        }
+                        }
+
+
+            /********************************
+                         Nav
+            ********************************/
+
+            .Nav {
+                                    -webkit-box-ordinal-group: 2;
+                    -moz-box-ordinal-group: 2;
+                    -ms-flex-order: 2;
+                    -webkit-order: 2;
+                    order: 2;
+
+                                                }
+
+            @media only screen and (min-width: 970px) {
+            .Nav {
+                            }
+            }
+
+                @media only screen and (min-width: 970px) {
+                .Nav-content {
+                    width: 970px;
+                    margin: auto;
+                }
+                }
+
+                    .Nav-menuButton {
+                        display: inline-block;
+                        width: 50px;
+                        height: 50px;
+                        line-height: 50px;
+                        vertical-align: middle;
+                        text-align: center;
+                        font-size: 20px;
+                        font-size: 1.25rem;
+                        color: #fff;
+                        cursor: pointer;
+                        -webkit-user-select: none;
+                        -moz-user-select: none;
+                        -ms-user-select: none;
+                        -o-user-select: none;
+                        user-select: none;
+                        background: #3498db;
+                                                    border-radius: 4px;
+                                                margin: 10px;
+                    }
+
+                    @media only screen and (min-width: 970px) {
+                    .Nav-menuButton {
+                        display: none;
+                    }
+                    }
+
+                    .Nav-menu {
+                        position: absolute;
+                        padding: 0;
+                        margin: 0;
+                        z-index: 1;
+                        display: none;
+                        left: 10px;
+                        right: 10px;
+                        border-radius: 8px;
+                        overflow: hidden;
+                    }
+
+                    @media only screen and (min-width: 970px) {
+                    .Nav-menu {
+                        display: inline-block;
+                        position: relative;
+                        overflow: visible;
+                    }
+                    }
+
+                    .Nav-menu--open {
+                        display: block;
+                    }
+
+                        .NavElement {
+                            display: block;
+                            position: relative;
+                            background: #f2f2f2;
+                        }
+
+                        @media only screen and (min-width: 970px) {
+                        .NavElement {
+                            display: inline-block;
+                            background: none;
+                        }
+
+
+
+                        .NavElement-link::before {
+                            content: '';
+                            position: absolute;
+                            bottom: 8px;
+                            transition: all 0.2s;
+                            -webkit-transition: all 0.2s;
+                            -moz-transition: all 0.2s;
+                        	left: 50%;
+                        	height: 2px;
+                        	width: 0;
+                            background: #3498db;
+                            transform: translateX(-50%);
+                        }
+
+                        .NavElement:hover > a:before {
+                        	width: 60%;
+                        }
+
+                        }
+
+                            .NavElement-link {
+                                display: block;
+                                text-decoration: none;
+                                background: #f2f2f2;
+                                color: #333;
+                                font-family: 'Georgia';
+                                font-size: 14px;
+                                font-size: .875rem;
+                                text-transform: uppercase;
+                                padding: 0 15px;
+                                line-height: 45px;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                max-width: 90%;
+                            }
+
+                            .NavElementSub > .NavElement-link {
+                                padding-left: 30px;
+                                font-size: 13px;
+                                font-size: .8125rem;
+                            }
+
+                            .NavElement-sub_checkbox {
+                                display: none;
+                            }
+
+                            .NavElement-sub_label {
+                                position: absolute;
+                                top: 0;
+                                bottom: 0;
+                                right: 0;
+                                width: 50px;
+                                font-size: 1.1rem;
+                                line-height: 1.9rem;
+                            }
+
+                            .NavElement-sub_label::before {
+                                content: '\f0dd';
+                            }
+
+                            @media only screen and (min-width: 970px) {
+                            .NavElementSub > .NavElement-link {
+                                padding-left: 15px;
+                            }
+
+                            .NavElement-sub_label {
+                                display: none;
+                            }
+
+                            .NavElement-link {
+                                background: none;
+                                max-width: 100%;
+                            }
+
+                            .NavElement-link:hover,
+                            .NavElement-link:focus{
+                                text-decoration: none;
+                                transition: color 0.2s;
+                                -webkit-transition: color 0.2s;
+                            	-moz-transition: color 0.2s;
+                            }
+                            }
+
+                                .NavElementSub {
+                                    display: none;
+                                }
+
+                                .NavElement-sub_checkbox:checked ~ .NavElementSub {
+                                    display: block;
+                                }
+
+                                .NavElement-sub_checkbox:checked ~ .NavElement-sub_label {
+                                    color: #3498db;
+                                    line-height: 2.6rem;
+                                }
+
+                                .NavElement-sub_checkbox:checked ~ .NavElement-sub_label::before {
+                                    content: "\f0de";
+                                }
+
+                                @media only screen and (min-width: 970px) {
+
+
+                                .NavElementSub {
+                                    position: absolute;
+                                    width: 250px;
+                                    z-index: 1000;
+                                    padding-left: 0;
+                                    display: block;
+                                    visibility: hidden;
+                                    opacity: 0;
+                                	transition: all 0.27s ease-in-out;
+                                	transform-origin: 0 0;
+                                	transform: rotateX(-90deg);
+                                    box-shadow: 0px 0px 4px 0 rgba(0, 0, 0, 0.2);
+                                    background: #fff;
+                                                                            border-radius: 4px;
+                                                                        }
+
+                                    .NavElement-sub .NavElement-link {
+                                        display: none;
+                                    }
+
+                                    .NavElement:hover > .NavElementSub {
+                                        visibility: visible;
+                                        opacity: 1;
+                                        -webkit-transform: rotateX(0deg);
+                                    	-moz-transform: rotateX(0deg);
+                                    	-ms-transform: rotateX(0deg);
+                                    	-o-transform: rotateX(0deg);
+                                    	transform: rotateX(0deg);
+                                    }
+
+                                    .Nav-menu .NavElement:hover > .NavElement-sub .NavElement-link {
+                                        display: block;
+                                    }
+                                    .Nav-menu .NavElement-link:focus + .NavElement-sub .NavElement-link {
+                                        display: block;
+                                    }
+
+                                    .NavElement-sub .NavElement-link:focus,
+                                    .NavElement-sub .NavElement-link:focus ~ .NavElement-link {
+                                        display:block
+                                    }
+                                }
+
+
+            /********************************
+                         Content
+            ********************************/
+
+            .Content {
+                margin: auto;
+            }
+
+            @media only screen and (min-width: 970px) {
+            .Content {
+                width: 970px;
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-direction: normal;
+                -moz-box-direction: normal;
+                -webkit-box-orient: horizontal;
+                -moz-box-orient: horizontal;
+                -webkit-flex-direction: row;
+                -ms-flex-direction: row;
+                flex-direction: row;
+                -webkit-box-flex: 1;
+                -moz-box-flex: 1;
+                -webkit-flex: 1 1 auto;
+                -ms-flex: 1 1 auto;
+                flex: 1;
+                -webkit-align-self: auto;
+                -ms-flex-item-align: auto;
+                align-self: auto;
+                -webkit-box-align: start;
+                -moz-box-align: start;
+                -webkit-align-items: flex-start;
+                -ms-flex-align: start;
+                align-items: flex-start;
+                min-width: 0;
+                margin-top: 20px;
+            }
+            }
+
+            .Content--list {}
+            .Content--page {}
+            .Content--special {}
+
+                .Content-main {
+                    padding: 0 10px;
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                }
+
+                @media only screen and (min-width: 970px) {
+                .Content-main {
+                    padding: 0;
+                    -ms-flex: 1 1 auto;
+                    flex: 1;
+                    -ms-flex-item-align: auto;
+                    align-self: auto;
+                    min-width: 0;
+
+                                    }
+                }
+
+                /*en cas de "No post found" */
+                .Content-main > p {
+                    margin-left: 20px;
+                }
+
+
+            /********************************
+                      PostPreview
+            ********************************/
+            .PostPreview-container {
+                /* pour le masonry et la scroll bar qui fait bugger */
+                overflow: hidden;
+                zoom: 1;
+            }
+
+            @media only screen and (min-width: 970px) {
+            .PostPreview-container {
+                width : 650px;
+                min-height: 101%;
+                overflow: hidden;
+            }
+            }
+
+                .PostPreview {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    float: left;
+                }
+
+                @media only screen and (min-width: 970px) {
+                .PostPreview {
+                    width : 305px;
+                                            margin-right : 20px;
+                                    }
+                }
+
+                    .PostPreview-cover {
+                        display: block;
+                        width: 100%;
+                        position: relative;
+                        margin: 0;
+                        overflow: hidden;
+                    }
+
+                    @media only screen and (min-width: 970px) {
+                    .PostPreview-cover {
+                        -webkit-box-flex: 1;
+                        -moz-box-flex: 1;
+                        -webkit-flex: 1 1 auto;
+                        -ms-flex: 1 1 auto;
+                        flex: 1;
+                        -webkit-align-self: auto;
+                        -ms-flex-item-align: auto;
+                        align-self: auto;
+                        min-width: 0;;
+                    }
+                    }
+
+                        .PostPreview-coverLink {
+                            display: block;
+                                                            border-radius: 8px;
+                                                        overflow: hidden;
+                            /* Pour corriger un bug d'affichage impliquant le border-radius utilisé avec transform et overflow:hidden */
+                            z-index: 0;
+                            position : relative;
+                        }
+
+                            .PostPreview-coverLink::after {
+                                content: ' ';
+                                background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.2) 50%);
+                                position: absolute;
+                                top: 0;
+                                bottom: 0;
+                                left: 0;
+                                right: 0;
+                                opacity: 0;
+                                transition: opacity 0.4s ease-in-out;
+                            }
+
+                            .PostPreview-coverImage {
+                                width: 100%;
+                                border: 0;
+                                display: block;
+                                border: none;
+                            }
+
+                            .PostPreview-coverImage--default {
+                                background: #d7d5d5;
+                            }
+
+                            @media only screen and (min-width: 970px) {
+                            .PostPreview-coverImage {
+                                                                    height : 305px;
+                                                                object-fit: cover;
+                            	transition: transform .4s;
+                            }
+
+                            .PostPreview-cover:hover .PostPreview-coverLink::after {
+                                opacity: 1;
+                            }
+
+                            .PostPreview-cover:hover .PostPreview-coverImage {
+                            	transform: scale(1.05) translateY(-5px);
+                                transition: transform .6s;
+                            }
+                            }
+
+                            .PostPreview-tags {
+                                position: absolute;
+                                display: none;
+                                top: 10px;
+                                right: 10px;
+                                color: #fff;
+                                max-width: 280px;
+                                text-transform: uppercase;
+                                font-size: 14px;
+                                font-size: .875rem;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                font-family: 'Georgia';
+                                text-align: right;
+                                line-height: 14px;
+                            }
+
+                            @media only screen and (min-width: 970px) {
+                            .PostPreview-tags {
+                                display: block;
+                            }
+                            }
+
+                            .PostPreview-tag {
+                                color: #fff;
+                                margin: 5px;
+                                display: inline-block;
+                                transform: translateX(300px);
+                                transition: transform .4s ease-out;
+                                text-shadow: 0 0 10px rgba(0,0,0,.5);
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                max-width: 260px;
+                            }
+
+                            @media only screen and (min-width: 970px) {
+                            .PostPreview-cover:hover .PostPreview-tag {
+                                transform: translateX(0);
+                            }
+
+                            .PostPreview-tags a:first-child,
+                            .PostPreview-cover:hover .PostPreview-tag:first-child {
+                                transition-delay: 0s;
+                            }
+
+                            .PostPreview-tags p:nth-of-type(2),
+                            .PostPreview-cover:hover .PostPreview-tag:nth-of-type(2) {
+                                transition-delay: 0.05s;
+                            }
+
+                            .PostPreview-tags p:nth-of-type(3),
+                            .PostPreview-cover:hover .PostPreview-tag:nth-of-type(3) {
+                                transition-delay: 0.10s;
+                            }
+
+                            .PostPreview-tags p:nth-of-type(4),
+                            .PostPreview-cover:hover .PostPreview-tag:nth-of-type(4) {
+                                transition-delay: 0.15s;
+                            }
+
+                            .PostPreview-tags p:nth-of-type(5),
+                            .PostPreview-cover:hover .PostPreview-tag:nth-of-type(5) {
+                                transition-delay: 0.20s;
+                            }
+
+                            .PostPreview-tags p:nth-of-type(6),
+                            .PostPreview-cover:hover .PostPreview-tag:nth-of-type(6) {
+                                transition-delay: 0.25s;
+                            }
+
+                            .PostPreview-tags p:nth-of-type(7),
+                            .PostPreview-cover:hover .PostPreview-tag:nth-of-type(7) {
+                                transition-delay: 0.30s;
+                            }
+
+                            .PostPreview-tags p:nth-of-type(8),
+                            .PostPreview-cover:hover .PostPreview-tag:nth-of-type(8) {
+                                transition-delay: 0.35s;
+                            }
+
+                            .PostPreview-tags p:nth-of-type(9),
+                            .PostPreview-cover:hover .PostPreview-tag:nth-of-type(9) {
+                                transition-delay: 0.4s;
+                            }
+
+                            .PostPreview-tags p:nth-of-type(10),
+                            .PostPreview-cover:hover .PostPreview-tag:nth-of-type(10) {
+                                transition-delay: 0.45s;
+                            }
+
+                            .PostPreview-tag:hover,
+                            .PostPreview-tag:focus {
+                                outline: none;
+                                color: #fff;
+                                text-decoration: underline;
+                            }
+                            }
+
+                    .PostPreview--OB .PostPreview-content {
+                        display: flex;
+                        display: -ms-flexbox;
+                        flex-direction: column;
+                        -ms-flex-direction: column;
+                                                    border-bottom: 1px solid #dfdfdf;
+                            box-shadow: 0 23px 40px -40px black;
+                                            }
+
+                        .PostPreview-meta {
+                            width: 100%;
+                            margin-bottom: 0;
+                            margin-top: 0;
+                        }
+
+                        .PostPreviewMeta {
+                            display: -webkit-box;
+                            display: -moz-box;
+                            display: -ms-flexbox;
+                            display: -webkit-flex;
+                            display: flex;
+                            color: #4f5a65;
+                            text-transform: uppercase;
+                            font-size: 10px;
+                            font-size: .625rem;
+                            margin-top: 5px;
+                        }
+
+                            .PostPreviewMeta-date {
+                               -webkit-box-flex: 1.5;
+                                -moz-box-flex: 1.5;
+                                -webkit-flex: 1.5 1 auto;
+                                -ms-flex: 1.5 1 auto;
+                                flex: 1.5;
+                                -webkit-align-self: auto;
+                                -ms-flex-item-align: auto;
+                                align-self: auto;
+                                min-width: 0;
+                            }
+
+                            .PostPreviewMeta-source {
+                                -webkit-box-flex: 4;
+                                -moz-box-flex: 4;
+                                -webkit-flex: 4 1 auto;
+                                -ms-flex: 4 1 auto;
+                                flex: 4;
+                                -webkit-align-self: auto;
+                                -ms-flex-item-align: auto;
+                                align-self: auto;
+                                min-width: 0;
+                                text-align: center;
+                            }
+
+                            .PostPreviewMeta-comments {
+                                -webkit-box-flex: 1.5;
+                                -moz-box-flex: 1.5;
+                                -webkit-flex: 1.5 1 auto;
+                                -ms-flex: 1.5 1 auto;
+                                flex: 1.5;
+                                -webkit-align-self: auto;
+                                -ms-flex-item-align: auto;
+                                align-self: auto;
+                                min-width: 0;
+                                text-align: right;
+                            }
+
+                        .PostPreview-title {
+                            font-family: 'Georgia';
+                            font-size: 16px;
+                            font-size: 1rem;
+                            color: #3498db;
+                            margin: 10px 0;
+                            text-align : center;
+                            font-weight: normal;
+                            word-wrap: break-word;
+                                                    }
+
+                        .PostPreview-snippet {
+                            margin: 5px 0 0 0;
+                            font-size: 14px;
+                            font-size: .875rem;
+                            word-wrap: break-word;
+                        }
+
+                        .PostPreview-readMore {
+                            display: inline-block;
+                            margin: 10px 0;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            font-size: .75rem;
+                            padding: 0 20px;
+                            border: 1px solid #3498db;
+                                                            color: #fff;
+                                background: #3498db;
+                                                        align-self: center;
+                                                            border-radius: 4px;
+                                                        transition: all .1s ease-out;
+                        }
+
+                         @media only screen and (min-width: 970px) {
+                        .PostPreview-readMore:hover {
+                            text-decoration: none;
+                                                            color: #262626;
+                                                    }
+                        }
+
+
+            /********************************
+                        Post
+            ********************************/
+
+            .Post {
+                width: 100%;
+                background-color: #fff;
+
+                            }
+
+            @media only screen and (min-width: 970px) {
+                .Post {
+                                            padding-right: 20px;
+                                }
+            }
+
+            /*8px pour tous car affichage moche si section de plusieurs images avec gros radius*/
+            .Post img {
+                                   border-radius: 8px;
+                            }
+
+            .Post-body h1, .Post-body .ob-h1 {
+                text-transform: uppercase;
+            }
+
+            .Post-body h2, .Post-body .ob-h2 {
+                color: #3498db;
+                text-transform: uppercase;
+            }
+
+                .Post-tags {
+                    text-align: center;
+                    display: block;
+                }
+
+                    .Post-tag {
+                        text-transform: uppercase;
+                        font-family: 'Georgia';
+                        font-size: 11px;
+                        font-size: .6875rem;
+                        font-weight: 700;
+                        letter-spacing: 2px;
+                        color: #888;
+                    }
+
+                .Post-title {
+                    font-family: 'Georgia';
+                    font-size: 25px;
+                    font-size: 1.5625rem;
+                    line-height: 35px;
+                    letter-spacing: 2px;
+                    margin: 0;
+                    text-align: center;
+                    color: #3498db;
+                    word-wrap: break-word;
+                }
+
+                .Post-date {
+                    font-family: 'Georgia';
+                    font-style: italic;
+                    font-size: 10px;
+                    font-size: .625rem;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    color: #939393;
+                    text-align: center;
+                    margin: 0;
+                }
+
+                .Post-author {
+                    text-align: center;
+                    margin: 0;
+                }
+
+                .Post-cover {
+                    width: 100%;
+                    margin: 10px 0 0;
+                }
+
+                    .Post-coverImage {
+                        width: 100%;
+                        display: block;
+                        background-color: black;
+                    }
+
+                .Post-body {
+                    margin: 10px 0;
+                    text-align: justify;
+                }
+
+                .ob-Outbrain,
+                .ob-Related {
+                    margin-bottom: 10px;
+                }
+
+                @media only screen and (min-width: 970px) {
+                .ob-Outbrain,
+                .ob-Related {
+                    margin-bottom: 20px;
+                }
+                }
+
+                .Post-pagination {
+                    margin-top: 10px;
+                    display: flex;
+                    display: -ms-flexbox;
+                }
+
+                @media only screen and (min-width: 970px) {
+                .Post-pagination {
+                    margin-top: 20px;
+                }
+                }
+
+                /* correctif affichage */
+                .ob-RelatedPost-title {
+                   word-break: break-all;
+                }
+
+                .ob-RelatedPost-image {
+                    height: 100%;
+                }
+
+
+            /********************************
+                         Sidebar
+            ********************************/
+            .Sidebar {
+                background-color: #fff;
+                padding: 0 10px 20px;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-direction : column;
+                flex-direction: column;
+                word-wrap: break-word;
+            }
+
+            @media only screen and (min-width: 970px) {
+            .Sidebar {
+                width: 320px;
+                min-width: 0;
+                margin-top: -2px;
+
+                                        -ms-flex-order: 2;
+                        order: 2;
+                        padding: 0 0 20px 20px;
+                        padding-left: 20px;
+                        border-left: 1px solid #d9d9d9;
+                                }
+            }
+
+                .Sidebar-ad--300x250 {
+                    width: 100%;
+                    height: auto;
+                    margin: auto;
+                    overflow: visible;
+                    text-align: center;
+                }
+
+                .Sidebar-ad--300x600 {
+                    width: 100%;
+                    height: auto;
+                    margin: auto;
+                    overflow: visible;
+                    text-align: center;
+                }
+
+
+                @media only screen and (min-width: 970px) {
+                .Sidebar-ad--300x250 {
+                    width: 300px;
+                    height: 250px;
+                }
+                .Sidebar-ad--300x600 {
+                    width: 300px;
+                    height: 600px;
+                }
+                }
+
+                .Sidebar img {
+                                            border-radius: 8px;
+                                        margin-right: 10px;
+
+                }
+
+                .Sidebar-widget {
+                    padding-bottom: 10px;
+                                            border-bottom: 1px solid #dfdfdf;
+                        box-shadow: 0 23px 40px -40px black;;
+                                    }
+
+                @media only screen and (min-width: 970px) {
+                .Sidebar-widget {
+                    padding-bottom: 20px;
+
+                }
+                }
+
+                .Sidebar-widget[data-order="1"] {-webkit-box-ordinal-group:1;-moz-box-ordinal-group:1;-ms-flex-order:1;-webkit-order:1;order:1;}
+                .Sidebar-widget[data-order="2"] {-webkit-box-ordinal-group:2;-moz-box-ordinal-group:2;-ms-flex-order:2;-webkit-order:2;order:2;}
+                .Sidebar-widget[data-order="3"] {-webkit-box-ordinal-group:3;-moz-box-ordinal-group:3;-ms-flex-order:3;-webkit-order:3;order:3;}
+                .Sidebar-widget[data-order="4"] {-webkit-box-ordinal-group:4;-moz-box-ordinal-group:4;-ms-flex-order:4;-webkit-order:4;order:4;}
+                .Sidebar-widget[data-order="5"] {-webkit-box-ordinal-group:5;-moz-box-ordinal-group:5;-ms-flex-order:5;-webkit-order:5;order:5;}
+                .Sidebar-widget[data-order="6"] {-webkit-box-ordinal-group:6;-moz-box-ordinal-group:6;-ms-flex-order:6;-webkit-order:6;order:6;}
+                .Sidebar-widget[data-order="7"] {-webkit-box-ordinal-group:7;-moz-box-ordinal-group:7;-ms-flex-order:7;-webkit-order:7;order:7;}
+                .Sidebar-widget[data-order="8"] {-webkit-box-ordinal-group:8;-moz-box-ordinal-group:8;-ms-flex-order:8;-webkit-order:8;order:8;}
+                .Sidebar-widget[data-order="9"] {-webkit-box-ordinal-group:9;-moz-box-ordinal-group:9;-ms-flex-order:9;-webkit-order:9;order:9;}
+                .Sidebar-widget[data-order="10"] {-webkit-box-ordinal-group:10;-moz-box-ordinal-group:10;-ms-flex-order:10;-webkit-order:10;order:10;}
+                .Sidebar-widget[data-order="11"] {-webkit-box-ordinal-group:11;-moz-box-ordinal-group:11;-ms-flex-order:11;-webkit-order:11;order:11;}
+                .Sidebar-widget[data-order="12"] {-webkit-box-ordinal-group:12;-moz-box-ordinal-group:12;-ms-flex-order:12;-webkit-order:12;order:12;}
+                .Sidebar-widget[data-order="13"] {-webkit-box-ordinal-group:13;-moz-box-ordinal-group:13;-ms-flex-order:13;-webkit-order:13;order:13;}
+                .Sidebar-widget[data-order="14"] {-webkit-box-ordinal-group:14;-moz-box-ordinal-group:14;-ms-flex-order:14;-webkit-order:14;order:14;}
+                .Sidebar-widget[data-order="15"] {-webkit-box-ordinal-group:15;-moz-box-ordinal-group:15;-ms-flex-order:15;-webkit-order:15;order:15;}
+                .Sidebar-widget[data-order="16"] {-webkit-box-ordinal-group:16;-moz-box-ordinal-group:16;-ms-flex-order:16;-webkit-order:16;order:16;}
+                .Sidebar-widget[data-order="17"] {-webkit-box-ordinal-group:17;-moz-box-ordinal-group:17;-ms-flex-order:17;-webkit-order:17;order:17;}
+                .Sidebar-widget[data-order="18"] {-webkit-box-ordinal-group:18;-moz-box-ordinal-group:18;-ms-flex-order:18;-webkit-order:18;order:18;}
+                .Sidebar-widget[data-order="19"] {-webkit-box-ordinal-group:19;-moz-box-ordinal-group:19;-ms-flex-order:19;-webkit-order:19;order:19;}
+                .Sidebar-widget[data-order="20"] {-webkit-box-ordinal-group:20;-moz-box-ordinal-group:20;-ms-flex-order:20;-webkit-order:20;order:20;}
+
+                    .Sidebar-title {
+                        display: inline-block;
+                        color: #696969;
+                        font-family: 'Georgia';
+                        font-size: 13px;
+                        font-size: .8125rem;
+                        line-height: 1.25rem;
+                        text-transform: uppercase;
+                        padding-right: 20px;
+                        margin-left: 20px;
+                        border-bottom: 2px solid #3498db;
+                        font-weight: normal;
+                        word-wrap: break-word;
+                        max-width: calc(100% - 20px);
+                    }
+
+                    @media only screen and (min-width: 970px) {
+                    .Sidebar-title {
+                        margin-bottom: 20px;
+                    }
+                    }
+
+                    .Sidebar-content {
+                        max-width: 100%;
+                        overflow: hidden;
+                    }
+
+                        .Sidebar-content iframe {
+                            width: 100%;
+                            display: block;
+                        }
+
+                    .Sidebar-post {
+                        border-bottom: 0;
+                        padding: 2px 0;
+                    }
+
+                    .Sidebar-widget .Sidebar-post:first-child {
+                        padding-top: 0;
+                    }
+
+                    .Sidebar-widget .Sidebar-post:last-child {
+                        padding-bottom: 0;
+                    }
+
+                        .Sidebar-post .PostPreview-content {
+                            -webkit-box-flex: 2;
+                            -moz-box-flex: 2;
+                            -webkit-flex: 2 1 auto;
+                            -ms-flex: 2 1 auto;
+                            flex: 2;
+                            -webkit-align-self: auto;
+                            -ms-flex-item-align: auto;
+                            align-self: auto;
+                            min-width: 0;
+                        }
+
+                        .Sidebar-post .clearfix {
+                            margin-top: -10px;
+                        }
+
+                            .Sidebar-post .ob-section:last-child {
+                                margin-bottom: 0;
+                            }
+
+                            .Sidebar-post .ob-section-text img {
+                                margin-bottom: 10px;
+                            }
+
+                .SidebarAbout {}
+
+                    .SidebarAbout-avatar {
+                        width: 100%;
+                        margin-bottom: 10px;
+                    }
+
+                    .SidebarAbout-description {
+                        margin: 0;
+                        word-wrap: break-word;
+                    }
+
+                .SidebarFollow {
+                    padding-left: 0;
+                    text-align: center;
+                    margin: 0;
+                }
+
+                    .SidebarFollow-element {
+                        border: 0;
+                        display: inline-block;
+                        padding: 0;
+                        position: relative;
+                        text-align: center;
+                    }
+
+                        .SidebarFollow-elementLink {
+                            width: 40px;
+                            height: 40px;
+                            display: inline-block;
+                            font-weight: normal;
+                            font-style: normal;
+                            text-decoration: inherit;
+                            background-color: #f2f2f2;
+                            border-radius: 50%;
+                            transition: all .1s ease-out;
+                            }
+
+                        @media only screen and (min-width: 970px) {
+                        .SidebarFollow-elementLink:hover {
+                            color: #fff;
+                            background: #3498db;
+                        }
+                        }
+
+                        .SidebarFollow-elementLink .fa {
+                            width: 40px;
+                            line-height: 40px;
+                            font-size: 15px;
+                            font-size: .9375rem;
+                            text-align: center;
+                        }
+
+                .Sidebar-form {
+                    display: -webkit-box;
+                    display: -moz-box;
+                    display: -ms-flexbox;
+                    display: -webkit-flex;
+                    display: flex;
+                }
+
+                    .SidebarForm-input {
+                        -webkit-box-flex: 1;
+                        -moz-box-flex: 1;
+                        -webkit-flex: 1 1 auto;
+                        -ms-flex: 1 1 auto;
+                        flex: 1;
+                        -webkit-align-self: auto;
+                        -ms-flex-item-align: auto;
+                        align-self: auto;
+                        min-width: 0;
+                    }
+
+                    .SidebarForm-submit {
+                        -webkit-box-flex: 0;
+                        -moz-box-flex: 0;
+                        -webkit-flex: 0 0 auto;
+                        -ms-flex: 0 0 auto;
+                        flex: 0 0 auto;
+                        -webkit-align-self: auto;
+                        -ms-flex-item-align: auto;
+                        align-self: auto;
+                        min-width: 0;
+                        margin-left: 10px;
+                    }
+
+                .Sidebar-list {
+                    list-style: none;
+                    padding-left: 0;
+                    margin: 0;
+                }
+
+
+            /********************************
+                         Title
+            ********************************/
+
+            .Title {
+                font-family: 'Georgia';
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+
+            .Content--list .Content-main .Title:first-of-type {
+                margin-top: 0;
+            }
+
+            /********************************
+                         Post Navigation
+            ********************************/
+            .ob-PostNavigation {
+                margin-top: 20px;
+            }
+
+            @media only screen and (max-width: 970px) {
+                .ob-PostNavigation {
+                    flex-direction: column;
+                }
+                .ob-PostNavigation-link--prev {
+                    margin-right: 0;
+                }
+                .ob-PostNavigation-link--next {
+                    margin-left: 0;
+                    margin-top: 0.5em;
+                }
+            }
+
+            .ob-PostNavigation-link {
+                flex: 1;
+                display: flex;
+                align-items: stretch;
+                flex-direction: column;
+                border: 1px solid #979797;
+                padding: 10px;
+                font-size: 18px;
+                font-size: 1.125em;
+                                    border-radius: 4px;
+                            }
+            .ob-PostNavigation-link > * + * {
+                margin-left: 0
+            }
+
+            .ob-PostNavigationLink-chevron{
+                color: #666666;
+            }
+
+            .ob-PostNavigation-link--prev .ob-PostNavigationLink-chevron:before {
+                content: "« Article précédent";
+            }
+
+            .ob-PostNavigation-link--next {
+                flex-direction: column-reverse;
+            }
+
+            @media only screen and (min-width: 970px) {
+                .ob-PostNavigation-link--next {
+                    text-align: right;
+                }
+            }
+
+            .ob-PostNavigation-link--next .ob-PostNavigationLink-chevron:before {
+                content: "Article suivant »";
+            }
+
+            @media only screen and (max-width: 970px) {
+                .ob-PostNavigation-link--prev + .ob-PostNavigation-link--next {
+                    margin-top: 10px;
+                }
+            }
+
+            @media only screen and (min-width: 970px) {
+                .ob-PostNavigation-link--prev {
+                    margin-right: 10px;
+                }
+
+                .ob-PostNavigation-link--next {
+                    margin-left: 10px;
+                    text-align: right;
+                }
+            }
+
+            .ob-PostNavigationLink-label {
+                display: block;
+            }
+
+            @media only screen and (min-width: 970px) {
+                .ob-PostNavigation-link .ob-PostNavigationLink-label {
+                    text-decoration: none;
+                }
+            }
+
+            /********************************
+                         Pagination
+            ********************************/
+
+                .Pagination-link {
+                    -webkit-box-flex: 1;
+                    -moz-box-flex: 1;
+                    -webkit-flex: 1 1 auto;
+                    -ms-flex: 1 1 auto;
+                    flex: 1;
+                    -webkit-align-self: auto;
+                    -ms-flex-item-align: auto;
+                    align-self: auto;
+                    min-width: 0;
+                }
+
+                .PaginationLink {
+                    display: block;
+                    border: 1px solid #979797;
+                    padding: 10px;
+                    font-size: 18px;
+                    font-size: 1.125em;
+                                            border-radius: 4px;
+                                    }
+
+                @media only screen and (max-width: 970px) {
+                .PaginationLink--previous + .PaginationLink--next {
+                    margin-top: 10px;
+                }
+                }
+
+                @media only screen and (min-width: 970px) {
+                .PaginationLink--previous {
+                    margin-right: 10px;
+                }
+
+                .PaginationLink--next {
+                    margin-left: 10px;
+                    text-align: right;
+                }
+                }
+
+                    .PaginationLink-label {
+                        display: block;
+                        color: #666666;
+                    }
+
+                    @media only screen and (min-width: 970px) {
+                    .Pagination-link:hover .PaginationLink-label {
+                        text-decoration: none;
+                    }
+                    }
+
+                    .PaginationLink-title {
+                        display: block;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+
+            .ob-pagination {
+                text-align: center;
+                margin-top: 20px;
+            }
+
+                .ob-page {
+                    display: inline-block;
+                    padding: 0 10px;
+                    background: #f2f2f2;
+                    font-family: sans-serif;
+                    font-size: 13px;
+                    font-size: .8125rem;
+                    height: 25px;
+                    line-height: 25px;
+                    margin: 0 2.5px 5px;
+                                            border-radius: 4px;
+                                        transition: all .1s ease-out;
+                }
+
+                .ob-page-current {
+                    color: #fff;
+                    background: #3498db;
+                    text-decoration: none;
+                }
+
+                @media only screen and (min-width: 970px) {
+                .ob-page-link:hover {
+                    color: #fff;
+                    background: #3498db;
+                    text-decoration: none;
+                }
+                }
+
+
+            /********************************
+                         Footer
+            ********************************/
+
+            .Footer, .ob-footer {
+                width: 100%;
+                text-align: center;
+                background-color: #f2f2f2;
+            }
+
+            .Footer {
+                padding: 15px 0;
+                margin-top: 20px;
+            }
+
+            .ob-footer {
+                padding-bottom: 15px;
+            }
+
+                .Footer a,
+                .ob-footer a,
+                .Footer a:visited,
+                .ob-footer a:visited {
+                    color: #3498db;
+                }
+
+
+            /********************************
+                         Ads
+            ********************************/
+
+            .Ad--970x90 {
+                width: 100%;
+                height: auto;
+                margin: 10px auto 0;
+                overflow: hidden;
+                text-align: center;
+            }
+
+            @media only screen and (min-width: 970px) {
+            .Ad--970x90 {
+                width: 970px;
+                height: 90px;
+                margin-top: 0;
+            }
+            }
+
+            .Ad--468x60 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+
+            /********************************
+                   Overblog surcharge
+            ********************************/
+
+            .ob-text p:first-child {
+                margin-top: 0;
+            }
+
+            p.ob-desc {
+                text-align: center;
+                color: grey;
+                font-style: italic;
+            }
+
+            /* Forms */
+            .ob-contact {
+                                    margin-right: 20px
+                            }
+
+            .ob-input {
+                font-size: 13px;
+                font-size: .8125rem;
+                line-height: 35px;
+                height: 35px;
+                padding: 0 10px;
+                background: #fff;
+                border: 1px solid #3498db;
+                                    border-radius: 4px;
+                                color: #3498db;
+            }
+
+            .ob-input-textarea {
+                height: auto;
+            }
+
+            .ob-input-submit {
+                margin-bottom: 0;
+                                    color: #fff;
+                    background: #3498db;
+                                transition: all .1s ease-out;
+            }
+
+            @media only screen and (min-width: 970px) {
+            .ob-input-submit:hover {
+                text-decoration: none;
+                                    color: #262626;
+                            }
+            }
+
+            /* Section Html */
+            .ob-section-html blockquote.ob-tweet {
+                margin: 0;
+            }
+
+            /* Section Quote */
+            .ob-section-quote .ob-quote .ob-quote-left,
+            .ob-section-quote .ob-quote .ob-quote-right {
+                fill: #3498db;
+            }
+
+            /* Section File */
+            .ob-section-file .ob-button-link {
+                color: #FFFFFF;
+                background: #3498db;
+            }
+
+            /* Section Audio */
+            .ob-section-audio .obsoundplayer .obsoundplayerplay .obsoundplayerplay-play,
+            .ob-section-audio .obsoundplayer .obsoundplayerplay .obsoundplayerplay-pause,
+            .ob-section-audio .obsoundplayer .obsoundplayervolume .obsoundplayervolume-on,
+            .ob-section-audio .obsoundplayer .obsoundplayervolume .obsoundplayervolume-off {
+                fill: #3498db;
+            }
+
+
+            .ob-section-map .ob-map,
+            .ob-section-map .ob-desc {
+                max-width: 100%;
+                width: 100%;
+                height: auto;
+            }
+
+            .ob-section-images,
+            .ob-section-images img {
+              max-width: 100%;
+              height: auto;
+            }
+
+            @media only screen and (min-width: 970px) {
+            .ob-row-1-col,
+            .ob-row-2-col,
+            .ob-row-3-col,
+            .ob-row-4-col,
+            .ob-row-5-col {
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+            }
+
+            .ob-row-1-col a,
+            .ob-row-2-col a,
+            .ob-row-3-col a,
+            .ob-row-4-col a,
+            .ob-row-5-col a {
+                -webkit-box-flex: 1;
+                -moz-box-flex: 1;
+                -webkit-flex: 1 1 auto;
+                -ms-flex: 1 1 auto;
+                flex: 1;
+                -webkit-align-self: auto;
+                -ms-flex-item-align: auto;
+                align-self: auto;
+                min-width: 0;
+            }
+
+            /* marge après les images côte-à-côte en attendant correctif */
+            .ob-row-2-col a,
+            .ob-row-3-col a,
+            .ob-row-4-col a,
+            .ob-row-5-col a {
+                margin-right: 10px;
+            }
+
+            .ob-row-2-col a:last-child,
+            .ob-row-3-col a:last-child,
+            .ob-row-4-col a:last-child,
+            .ob-row-5-col a:last-child {
+                margin-right: 0;
+            }
+
+            .ob-Shares-title {
+                text-transform: uppercase;
+            }
+
+            /* Newsletter Form */
+            .ob-Newsletter {}
+                .ob-Newsletter-toggle,
+                .ob-Newsletter-submit {
+                    background: #3498db;
+                }
+        </style>
+         <script>
+  (function(){
+    var hasGABeenLoaded = false;
+
+    function loadGA(hasDidomiConsent){
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-5354236-47', {
+        cookieDomain: 'briceletbaklava.ch',
+        cookieExpires: 34164000,
+        name: 'ob',
+        allowLinker: true
+      });
+
+      if(hasDidomiConsent){
+        ga('set', 'allowAdPersonalizationSignals', false)
+      }else{
+        ga('set', 'allowAdFeatures', false)
+      }
+
+      ga('ob.require', 'linkid', 'linkid.js');
+      ga('ob.set', 'anonymizeIp', true);
+      ga('ob.set', 'dimension1', '__ads_loaded__' in window ? '0' : '1');
+      ga('ob.set', 'dimension2', 'fr');
+      ga('ob.set', 'dimension3', 'BS');
+      ga('ob.set', 'dimension4', 'food-drink');
+      ga('ob.set', 'dimension5', '0');
+      ga('ob.set', 'dimension6', '0');
+      ga('ob.set', 'dimension7', '0');
+      ga('ob.set', 'dimension10', '3215825');
+      ga('ob.set', 'dimension11', '1');
+      ga('ob.set', 'dimension12', '2');
+      ga('ob.set', 'dimension13', '0');
+      ga('ob.set', 'dimension14', '__ads_loaded__' in window ? '1' : '0');
+      ga('ob.set', 'dimension15', '__ads_loaded__' in window ? '0' : '1');
+      ga('ob.set', 'dimension16', '3215825');
+      ga('ob.set', 'dimension17', "Bricelet & Baklava");
+              ga('ob.set', 'dimension18', 'article');
+        ga('ob.set', 'dimension19', '184561962');
+        ga('ob.set', 'dimension20', 'Boulangerie,Recettes de pains');
+            if (location) {
+        ga('ob.set', 'dimension22', '' + location.hostname);
+      }
+      ga('ob.set', 'dimension23', hasDidomiConsent);
+      ga('ob.set', 'dimension24', '20190223');
+      ga('ob.send', 'pageview');
+
+      hasGABeenLoaded = true;
+    }
+
+    var loadGATimeoutID = setTimeout(function() {
+      loadGA();
+    }, 1000);
+
+    window.didomiOnReady = window.didomiOnReady || [];
+    window.didomiOnReady.push(function (Didomi) {
+      clearTimeout(loadGATimeoutID);
+
+      function getDidomiConsent(didomiId){
+        var consents = false;
+        if (Didomi.isConsentRequired()) {
+          consents = Didomi.getUserConsentStatusForVendor(didomiId);
+        } else {
+          consents = true;
+        }
+        return consents;
+      }
+
+      var hasGADidomiConsent = getDidomiConsent("google") && getDidomiConsent("c:googleana-XMqagawa");
+
+      if(!hasGABeenLoaded){
+        loadGA(hasGADidomiConsent);
+      }
+    });
+  })();
+</script>
+
+<script>
+  function isConnected(connected, connected_owner, timestamp, user_id) {
+    if (connected) {
+      document.querySelector('html').classList.add('ob-connected')
+    }
+    if (connected_owner) {
+      document.querySelector('html').classList.add('ob-connected-blog')
+    }
+  }
+</script>
+<script src="//connect.over-blog.com/ping/3215825/isConnected" async></script>
+<script src="https://assets.over-blog-kiwi.com/b/blog/v2023.17.10/build/main.c15ef79c.js"></script>
+
+ </head>
+    <!-- Body -->
+    <body class="Body">
+
+
+  <div class="ob-ShareBar ob-ShareBar--dark js-ob-ShareBar">
+    <div class="ob-ShareBar-container ob-ShareBar-container--left">
+
+
+
+              <img class="ob-ShareBar-brandingImg" src="https://assets.over-blog-kiwi.com/b/blog/v2023.17.10/build/images/shareicon-branding-750g--dark.png" alt="750 grammes">
+          </div>
+
+    <div class="ob-ShareBar-container ob-ShareBar-container--right">
+                        <a class="ob-ShareBar-food" href="https://www.over-blog.com/mag/cuisine-deco" target="_blank">
+              Tous nos blogs cuisine
+          </a>
+                <a href="#" data-href="https://www.facebook.com/sharer/sharer.php?u={referer}" title=" facebook"="FACEBOOK"|trans }}"" class="ob-ShareBar-share ob-ShareBar-share--facebook"></a>
+        <a href="#" data-href="https://twitter.com/intent/tweet?url={referer}&amp;text={title}" title=" twitter"="TWITTER"|trans }}"" class="ob-ShareBar-share ob-ShareBar-share--twitter"></a>
+        <a href="#" data-href="#" title=" pinterest"="PINTEREST"|trans }}"" class="ob-ShareBar-share ob-ShareBar-share--pinterest js-ob-ShareBar-share--pinterest"></a>
+
+        <form action="/search" method="post" accept-charset="utf-8" class="ob-ShareBar-search">
+          <input type="text" name="q" value="" class="ob-ShareBar-input" placeholder="Rechercher">
+          <button class="ob-ShareBar-submit"></button>
+        </form>
+
+                  <a href="https://admin.over-blog.com/3215825/write/184561962" class="ob-ShareBar-edit ob-ShareBar--connected-blog">
+            <span class="ob-ShareBar-text">Editer l'article</span>
+          </a>
+
+                  <a class="js-ob-ShareBar-follow ob-ShareBar--connected ob-ShareBar-follow" href="https://admin.over-blog.com/_follow/3215825" target="_blank" rel="nofollow">
+              Suivre ce blog
+          </a>
+
+        <a href="https://admin.over-blog.com/" class="ob-ShareBar-admin ob-ShareBar--connected">
+          <img src="https://assets.over-blog-kiwi.com/b/blog/v2023.17.10/build/images/lock-alt-dark.svg" class="ob-ShareBar-lock">
+          <span class="ob-ShareBar-text">Administration</span>
+        </a>
+
+      <a href="https://connect.over-blog.com/fr/login" class="ob-ShareBar-login ob-ShareBar--notconnected">
+        <img src="https://assets.over-blog-kiwi.com/b/blog/v2023.17.10/build/images/lock-alt-dark.svg" class="ob-ShareBar-lock">
+        <span class="ob-ShareBar-text">Connexion</span>
+      </a>
+            <a href="https://www.over-blog.com/creation" class="ob-ShareBar-create ob-ShareBar--notconnected">
+        <span class="ob-ShareBar-plus">+</span>
+        <span class="ob-ShareBar-text">Créer mon blog</span>
+      </a>
+
+          </div>
+  </div>
+
+
+  <script src="https://assets.over-blog-kiwi.com/b/blog/v2023.17.10/build/sharebar.db8ff6e0.js"></script>
+  <script>
+        var postTitle = "B\u00fcrli de Saint-Gall (St. Galler B\u00fcrli)"
+        socialShare(document.querySelector('.ob-ShareBar-share--facebook'), postTitle)
+        socialShare(document.querySelector('.ob-ShareBar-share--twitter'), postTitle)
+      </script>           <div class="Body-content">
+            <div class="HeaderNav">
+                <!-- Header -->
+                <div class="Header">
+                                        <figure class="Header-cover">
+                                            <a href="https://briceletbaklava.ch">
+                        <img class="Header-coverImage" src="https://img.over-blog-kiwi.com/3/21/58/25/20190502/ob_84a998_briceletbaklava-2.jpg" alt="Bricelet &amp; Baklava"/>
+                        </a>
+                                        </figure>
+                </div>
+                </a>
+
+                                <!-- Nav -->
+                <nav class="Nav">
+                    <div class="Nav-content">
+                        <span class="Nav-menuButton">
+                            <span class="fa fa-fw fa-bars"></span>
+                        </span>
+                        <ul class="Nav-menu" role="menubar">
+                                                        <li class="Nav-home Nav-elementList NavElement" role="menuitem">
+                                <a class="NavElement-link" href="https://briceletbaklava.ch">Accueil</a>
+                            </li>
+
+                                                        <li class="Nav-elementList NavElement" role="menuitem" aria-haspopup="true">
+                                <a class="NavElement-link" href="https://briceletbaklava.ch/2020/03/index-a-z.html">Recettes A-Z</a>
+                                                            </li>
+
+
+                                                        <li class="Nav-elementList NavElement" role="menuitem" aria-haspopup="true">
+                                <a class="NavElement-link" href="https://briceletbaklava.ch/2021/01/index-suisses.html">Recettes suisses</a>
+                                                                <input type="checkbox" id="checkbox_menu3" class="NavElement-sub_checkbox">
+                                <label for="checkbox_menu3" class="fa fa-fw NavElement-sub_label"></label>
+                                <span class="NavElement-sub NavElementSub" role="menu" aria-hidden="true">
+                                                                        <a class="NavElement-link" href="https://briceletbaklava.ch/2021/01/index-suisses-salees.html" role="menuitem">Recettes suisses salées
+                                    </a>
+                                                                                                            <a class="NavElement-link" href="https://briceletbaklava.ch/2021/01/index-suisses-sucrees.html" role="menuitem">Recettes suisses sucrées</a>
+                                                                                                            <a class="NavElement-link" href="https://briceletbaklava.ch/2021/01/index-pains-suisses.html" role="menuitem">Pains suisses</a>
+                                                                    </span>
+                                                            </li>
+
+                                                        <li class="Nav-elementList NavElement" role="menuitem" aria-haspopup="true">
+                                <a class="NavElement-link" href="https://briceletbaklava.ch/2021/01/index-armeniennes.html">Recettes arméniennes</a>
+                                                                <input type="checkbox" id="checkbox_menu4" class="NavElement-sub_checkbox">
+                                <label for="checkbox_menu4" class="fa fa-fw NavElement-sub_label"></label>
+                                <span class="NavElement-sub NavElementSub" role="menu" aria-hidden="true">
+                                                                        <a class="NavElement-link" href="https://briceletbaklava.ch/2021/01/index-armeniennes-sucrees.html" role="menuitem">Recettes arméniennes sucrées
+                                    </a>
+                                                                                                            <a class="NavElement-link" href="https://briceletbaklava.ch/2021/01/index-armeniennes-salees.html" role="menuitem">Recettes arméniennes salées</a>
+                                                                                                        </span>
+                                                            </li>
+
+
+
+                                                        <li class="Nav-elementList NavElement" role="menuitem">
+                                <a class="NavElement-link" href="/contact" title="Contact">Contact</a>
+                            </li>
+                                                    </ul>
+                    </div>
+                </nav>
+                            </div>
+
+
+            <!-- Content -->
+            <div class="Content Content--page">
+               <div class="Content-main">
+                                            <div class="Post Post--OB">
+                                                        <span class="Post-tags">
+                                                                    <a class="Post-tag" href="/tag/boulangerie/" title="Boulangerie">Boulangerie</a>,                                                                     <a class="Post-tag" href="/tag/recettes%20de%20pains/" title="Recettes de pains">Recettes de pains</a>                                                            </span>
+
+                                                        <h1 class="Post-title">
+                                Bürli de Saint-Gall (St. Galler Bürli)
+                            </h1>
+
+                                                        <p class="Post-date">
+                                27 Octobre 2021
+                            </p>
+
+                                                        <p class="Post-author">
+                                Rédigé par Michel et publié depuis
+                                                                    Overblog
+                                                            </p>
+
+                            <div class="Post-body">
+
+
+
+  <div class="ob-sections">
+          <div
+    class="ob-section ob-section-images ob-default"
+      ><div class="ob-row-1-col"><a href="https://image.over-blog.com/D913ECH_mmWHTy8_qRECetDo6PU=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_e19375_pain-buerli-6374.jpg" class="ob-link-img"><img src="https://image.over-blog.com/D913ECH_mmWHTy8_qRECetDo6PU=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_e19375_pain-buerli-6374.jpg" alt="B&#x00FC;rli&#x20;de&#x20;Saint-Gall" class="ob-cell ob-img ob-media" /></a></div><p class="ob-desc">B&#x00FC;rli&#x20;de&#x20;Saint-Gall</p></div>
+
+
+  <div
+    class="ob-section ob-section-html "
+      >
+
+<p style="margin-bottom:7px"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-family:Ebrima">Le B&uuml;rli de Saint-Gall est un petit pain en p&acirc;te lev&eacute;e, en forme de ballon. Juste avant l&rsquo;enfournement ils sont accol&eacute;s par deux et m&ecirc;me quelquefois par 4 avec une cuisson tr&egrave;s intense car les saint-gallois les appr&eacute;cient bien cuits et croustillants. On les associe spontan&eacute;ment &agrave; la c&eacute;l&egrave;bre saucisse de veau du m&ecirc;me canton, car lors de f&ecirc;tes populaires, &agrave; la OLMA notamment, ces deux produits sont indissociables. On tient la saucisse grill&eacute;e d&rsquo;une main et le B&uuml;rli de l&rsquo;autre et on les d&eacute;guste alternativement, sans moutarde.</span></span></span></span></p>
+
+<figure class="image-align-center" style="margin:10px 0px 10px 0px"><img alt="" data-amp-height="1067" data-amp-width="1600" src="https://image.over-blog.com/nhsDCMq45PitZ4H61CunQS1kfN4=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_f9ccf0_pain-buerli-6694.jpg" /></figure>
+
+<p style="margin-bottom:7px"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-family:Ebrima">Ces pains sont confectionn&eacute;s &agrave; partir de farine mi-blanche et bise, La p&acirc;te est tr&egrave;s hydrat&eacute;e ce qui leurs conf&egrave;re une mie tr&egrave;s alv&eacute;ol&eacute;e et go&ucirc;teuse.</span></span></span></span></p>
+
+<p style="margin-bottom:7px"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-family:Ebrima">Et juste encore quelques mots sur la saucisse de Saint-Gall. La premi&egrave;re mention officielle de celle-ci remonte &agrave; 1438. Dans les statuts de la soci&eacute;t&eacute; des bouchers de l&rsquo;&eacute;poque, il &eacute;tait indiqu&eacute; que cette saucisse comprenait une part de viande de veau, une de porc et de lard et une de lait frais. </span></span></span></span></p>
+
+<p style="margin-bottom:7px"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-family:Ebrima">J&rsquo;y ai travaill&eacute; dans ce canton, plus pr&eacute;cis&eacute;ment dans le Toggenburg et je peux dire que la recette a tr&egrave;s peu chang&eacute; depuis son origine &agrave; part quelques petites variantes, comme le lait frais qui s&rsquo;est transform&eacute; en poudre de lait par exemple. Cette saucisse est vraiment d&eacute;licieuse et il s&rsquo;en transforme des tonnes par l&agrave;-bas et elle a m&ecirc;me obtenu le label IGP en 2008. On en mangeait tous les jours, plus pr&eacute;cis&eacute;ment lors du &laquo;&nbsp;zn&uuml;ni&nbsp;&raquo;, en fran&ccedil;ais&nbsp;: les &laquo;&nbsp;neuf heures&nbsp;&raquo;.</span></span></span></span></p>
+    </div>
+
+
+              <div
+    class="ob-section ob-section-images ob-default"
+      ><div class="ob-row-1-col"><a href="https://image.over-blog.com/xgMi9tC5PqX61QgekT2JYG4GZFE=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_1ef9e3_pain-buerli-6368.jpg" class="ob-link-img"><img src="https://image.over-blog.com/xgMi9tC5PqX61QgekT2JYG4GZFE=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_1ef9e3_pain-buerli-6368.jpg" alt="B&#x00FC;rli&#x20;de&#x20;Saint-Gall" class="ob-cell ob-img ob-media" /></a></div><p class="ob-desc">B&#x00FC;rli&#x20;de&#x20;Saint-Gall</p></div>              <div
+    class="ob-section ob-section-images ob-default"
+      ><div class="ob-row-1-col"><a href="https://image.over-blog.com/Vez8ccItkDaf5ZoEjKjDVHFqetI=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_bc77c4_pain-buerli-6356.jpg" class="ob-link-img"><img src="https://image.over-blog.com/Vez8ccItkDaf5ZoEjKjDVHFqetI=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_bc77c4_pain-buerli-6356.jpg" alt="B&#x00FC;rli&#x20;de&#x20;Saint-Gall" class="ob-cell ob-img ob-media" /></a></div><p class="ob-desc">B&#x00FC;rli&#x20;de&#x20;Saint-Gall</p></div>
+
+
+  <div
+    class="ob-section ob-section-html "
+      >
+
+<p style="margin-top:8px; margin-bottom:8px"><span style="font-size:11pt"><span style="line-height:150%"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="line-height:150%"><span style="font-family:Ebrima">Recette pour 4 pains doubles&nbsp; 8 pi&egrave;ces de 140 g&nbsp;</span></span></span></span></span></span></p>
+
+<p><span style="font-size:11pt"><span style="line-height:150%"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="line-height:150%"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">Ingr&eacute;dients pour le levain (1 nuit)</span></span></span></span></span></span></span></p>
+
+<p><span style="font-size:11pt"><span style="line-height:150%"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:12.0pt"><span style="line-height:150%"><span style="font-family:Ebrima"><span style="color:#c00000"><span style="letter-spacing:.1pt">150 g de farine bise (type 1100) *</span></span></span></span></span></b></span></span></span></p>
+
+<p><span style="font-size:11pt"><span style="line-height:150%"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:12.0pt"><span style="line-height:150%"><span style="font-family:Ebrima"><span style="color:#c00000"><span style="letter-spacing:.1pt">150 g d&#39;eau l&eacute;g&egrave;rement ti&egrave;de</span></span></span></span></span></b></span></span></span></p>
+
+<p style="margin-top:8px"><span style="font-size:11pt"><span style="line-height:150%"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:12.0pt"><span style="line-height:150%"><span style="font-family:Ebrima"><span style="color:#c00000"><span style="letter-spacing:.1pt">10 g de levain chef actif ou 1 g de levure fra&icirc;che</span></span></span></span></span></b></span></span></span></p>
+
+<p style="margin-top:8px; margin-bottom:8px; margin-left:49px">&nbsp;</p>
+
+<p style="margin-bottom:8px">&nbsp;</p>
+
+<ul>
+	<li style="margin-bottom:8px"><span style="font-size:11pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">Mettre le levain chef dans un bol,</span></span></span></span></span></span></span></li>
+</ul>
+
+<figure class="image-align-center" style="margin:10px 0px 10px 0px"><img alt="" data-amp-height="1067" data-amp-width="1600" src="https://image.over-blog.com/UXfSU081ba1Ex4vivAb22uQLAxo=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_7a754c_pain-buerli-4793.jpg" /></figure>
+
+<ul>
+	<li style="margin-bottom:8px"><span style="font-size:11pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">Verser l&rsquo;eau ti&eacute;die (25&deg;C) par dessus et &agrave; l&rsquo;aide d&rsquo;un fouet, bien m&eacute;langer l&rsquo;ensemble.</span></span></span></span></span></span></span></li>
+</ul>
+
+<figure class="image-align-center" style="margin:10px 0px 10px 0px"><img alt="" data-amp-height="1067" data-amp-width="1600" src="https://image.over-blog.com/lKe1IiH9HRLvDS0EHp-MLrRl88c=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_73d22d_pain-buerli-4794.jpg" /></figure>
+
+<ul>
+	<li><span style="font-size:11pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">Ajouter la farine</span></span></span></span></span></span></span></li>
+</ul>
+
+<figure class="image-align-center" style="margin:10px 0px 10px 0px"><img alt="" data-amp-height="1067" data-amp-width="1600" src="https://image.over-blog.com/aZi5LAf4klIqk6Cq4_SI-sQ2-vQ=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_9c2e8a_pain-buerli-4795.jpg" /></figure>
+
+<ul>
+	<li><span style="font-size:11pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">et m&eacute;langer pour en faire une p&acirc;te un peu collante.</span></span></span></span></span></span></span></li>
+</ul>
+
+<figure class="image-align-center" style="margin:10px 0px 10px 0px"><img alt="" data-amp-height="1067" data-amp-width="1600" src="https://image.over-blog.com/X1rNai9w3d7X29aYOGeR9K1C0z8=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_a8041b_pain-buerli-4800.jpg" /></figure>
+
+<ul>
+	<li><span style="font-size:11pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">Couvrir et laisser le levain commencer sa fermentation pendant 3 heures &agrave; temp&eacute;rature ambiante.</span></span></span></span></span></span></span></li>
+	<li><span style="font-size:11pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">D&eacute;poser ensuite le bol au r&eacute;frig&eacute;rateur (5 &agrave; 6&deg;C) pendant au moins 12 heures &nbsp;jusqu&rsquo;&agrave; 24 heures au maximum.</span></span></span></span></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">Ingr&eacute;dients pour la p&acirc;te (4 heures)</span></span></span></span></span></span></p>
+
+<p><span style="font-size:11pt"><span style="line-height:150%"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:12.0pt"><span style="line-height:150%"><span style="font-family:Ebrima"><span style="color:#c00000"><span style="letter-spacing:.1pt">300 g du levain de la veille</span></span></span></span></span></b></span></span></span></p>
+
+<p><span style="font-size:11pt"><span style="line-height:150%"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:12.0pt"><span style="line-height:150%"><span style="font-family:Ebrima"><span style="color:#c00000"><span style="letter-spacing:.1pt">470 g de farine mi-blanche (type 720) *</span></span></span></span></span></b></span></span></span></p>
+
+<p><span style="font-size:11pt"><span style="line-height:150%"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:12.0pt"><span style="line-height:150%"><span style="font-family:Ebrima"><span style="color:#c00000"><span style="letter-spacing:.1pt">325 g (+ ou &ndash; 1 cl) d&rsquo;eau froide</span></span></span></span></span></b></span></span></span></p>
+
+<p><span style="font-size:11pt"><span style="line-height:150%"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:12.0pt"><span style="line-height:150%"><span style="font-family:Ebrima"><span style="color:#c00000"><span style="letter-spacing:.1pt">6 g de levure fra&icirc;che</span></span></span></span></span></b></span></span></span></p>
+
+<p><span style="font-size:11pt"><span style="line-height:150%"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:12.0pt"><span style="line-height:150%"><span style="font-family:Ebrima"><span style="color:#c00000"><span style="letter-spacing:.1pt">14 g de sel </span></span></span></span></span></b></span></span></span></p>
+
+<p><span style="font-size:11pt"><span style="line-height:150%"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="line-height:150%"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">* La d&eacute;nominations des type de farine Suisse-France, c&rsquo;est </span></span></span></span><a href="https://briceletbaklava.ch/equivalence-des-types-de-farine-en-suisse-et-en-france" style="color:blue; text-decoration:underline"><b><span style="font-size:14.0pt"><span style="line-height:150%"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">ICI</span></span></span></span></b></a> </span></span></span></p>
+
+<p>&nbsp;</p>
+
+<ul>
+	<li><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">Sortir le levain du r&eacute;frig&eacute;rateur 2 heures avant son emploi afin qu&rsquo;il se remette en temp&eacute;rature.</span></span></span></span></span></span></li>
+</ul>
+
+<figure class="image-align-center" style="margin:10px 0px 10px 0px"><img alt="" data-amp-height="1067" data-amp-width="1600" src="https://image.over-blog.com/IHN1WBitAL6lvJSRuagY03DvPiU=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_99365b_pain-buerli-6623.jpg" /></figure>
+
+<ul>
+	<li><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">Ajouter par dessus la levure fra&icirc;che</span></span></span></span></span></span></li>
+</ul>
+
+<figure class="image-align-center" style="margin:10px 0px 10px 0px"><img alt="" data-amp-height="1067" data-amp-width="1600" src="https://image.over-blog.com/aXXngGZ3i5scGDc9tjfHpuKlI6A=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_f236db_pain-buerli-6625.jpg" /></figure>
+
+<ul>
+	<li><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">et ajouter encore l&rsquo;eau&nbsp;froide</span></span></span></span></span></span></li>
+</ul>
+
+<figure class="image-align-center" style="margin:10px 0px 10px 0px"><img alt="" data-amp-height="1067" data-amp-width="1600" src="https://image.over-blog.com/kI8AlujtY6MS1_5W95VIlOaHd8E=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_ff9c91_pain-buerli-6626.jpg" /></figure>
+
+<ul>
+	<li><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">&nbsp;afin de le d&eacute;coller</span></span></span></span></span></span></li>
+</ul>
+
+<figure class="image-align-center" style="margin:10px 0px 10px 0px"><img alt="" data-amp-height="1067" data-amp-width="1600" src="https://image.over-blog.com/Fh2Le9vL4r64wVgjx5e5X1-Rm0w=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_07c491_pain-buerli-6627.jpg" /></figure>
+
+<ul>
+	<li><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">et verser le tout dans la cuve du p&eacute;trin. Ajouter la farine et commencer le p&eacute;trissage en vitesse lente, ceci pour 10 bonnes minutes. </span></span></span></span></span></span></li>
+	<li><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">Apr&egrave;s 3 minutes de p&eacute;trissage, ajouter le sel.</span></span></span></span></span></span></li>
+	<li><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">A la fin des 10 minutes, la p&acirc;te sera bien collante car tr&egrave;s hydrat&eacute;e, c&rsquo;est normal. Continuer le p&eacute;trissage maintenant en 2<sup>&egrave;me</sup> vitesse pendant encore 5 minutes, la p&acirc;te doit &ecirc;tre tr&egrave;s p&eacute;trie. Afin de contr&ocirc;ler son &eacute;lasticit&eacute;, &eacute;tirer un morceau de p&acirc;te entre les doigts, elle devrait &ecirc;tre aussi fine que du papier.</span></span></span></span></span></span></li>
+</ul>
+
+<figure class="image-align-center" style="margin:10px 0px 10px 0px"><img alt="" data-amp-height="1066" data-amp-width="1600" src="https://image.over-blog.com/poEV0pszSlO4S6nv5ZvpR-s3gAE=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_5640bb_pain-buerli-6628.jpg" /></figure>
+
+<ul>
+	<li><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">Avec un peu d&rsquo;huile, graisser l&eacute;g&egrave;rement un grand bol et y d&eacute;poser la p&acirc;te.</span></span></span></span></span></span></li>
+</ul>
+
+<figure class="image-align-center" style="margin:10px 0px 10px 0px"><img alt="" data-amp-height="1067" data-amp-width="1600" src="https://image.over-blog.com/TOgO9Xw3H-XyJMCm61EqHDnDhHQ=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_31194e_pain-buerli-6630.jpg" /></figure>
+
+<ul>
+	<li><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">Recouvrir d&rsquo;un torchon humide ou d&rsquo;un couvercle et laisser lever entre 3 et 4 heures /selon la saison) &agrave; temp&eacute;rature ambiante.</span></span></span></span></span></span></li>
+	<li><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">Durant ces 4 heures de pousse, proc&eacute;der &agrave; plusieurs rabats, par exemple toutes les 30 minutes. Il s&rsquo;agit de rabattre la p&acirc;te 3 &agrave; 4 fois sur elle-m&ecirc;me. </span></span></span></span></span></span></li>
+	<li style="margin-left:9px"><span style="font-size:11pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">Une fois le pointage termin&eacute;, la p&acirc;te aura bien doubl&eacute; de volume</span></span></span></span></span></span></span></li>
+</ul>
+
+<figure class="image-align-center" style="margin:10px 0px 10px 0px"><img alt="" data-amp-height="1067" data-amp-width="1600" src="https://image.over-blog.com/UDF7_2bQrMLMeDZuup8VefO74_8=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_9dbee9_pain-buerli-6636.jpg" /></figure>
+
+<ul>
+	<li style="margin-left:9px"><span style="font-size:11pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">la&nbsp;verser&nbsp;sur le plan de travail farin&eacute; et d&eacute;coupez des p&acirc;tons de 140 g chacun.</span></span></span></span></span></span></span></li>
+</ul>
+
+<figure class="image-align-center" style="margin:10px 0px 10px 0px"><img alt="" data-amp-height="1067" data-amp-width="1600" src="https://image.over-blog.com/xxLUYnKIDuKHmtJRJcBrNVuyk7A=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_bb4e65_pain-buerli-6638.jpg" /></figure>
+
+<ul>
+	<li style="margin-left:9px"><span style="font-size:11pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">Ensuite, fa&ccedil;onnez d&eacute;licatement les p&acirc;tons en boule sans trop les serrer afin de ne pas les d&eacute;gazer</span></span></span></span></span></span></span></li>
+</ul>
+
+<figure class="image-align-center" style="margin:10px 0px 10px 0px"><img alt="" data-amp-height="1067" data-amp-width="1600" src="https://image.over-blog.com/SQEeGO5zNWpn97SOLy8qcCoIpOU=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_a9add7_pain-buerli-6639.jpg" /></figure>
+
+<ul>
+	<li style="margin-left:9px"><span style="font-size:11pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">D&eacute;poser ces p&acirc;tons par deux, l&#39;un &agrave; c&ocirc;t&eacute; de l&#39;autre en se touchant l&eacute;g&egrave;rement, sur un torchon bien farin&eacute; avec la soudure vers le haut. </span></span></span></span></span></span></span></li>
+</ul>
+
+<figure class="image-align-center" style="margin:10px 0px 10px 0px"><img alt="" data-amp-height="1067" data-amp-width="1600" src="https://image.over-blog.com/t3gK67h-LuP6BQMjF_7cOew2fts=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_12a48e_pain-buerli-6640.jpg" /></figure>
+
+<ul>
+	<li style="margin-left:9px"><span style="font-size:11pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">Faire un pli avec le torchon afin que la p&acirc;te ne s&#39;&eacute;tale pas trop et les recouvrir d&rsquo;un deuxi&egrave;me torchon farin&eacute; puis d&rsquo;un plastique et laisser lever entre 30 et 40 minutes, cette op&eacute;ration se nomme &laquo;&nbsp;L&rsquo;appr&ecirc;t&nbsp;&raquo;.</span></span></span></span></span></span></span></li>
+	<li style="margin-left:9px"><span style="font-size:11pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">Pendant ce temps, allumer le four sur 240&deg;C en ayant soin d&rsquo;y d&eacute;poser une pierre de cuisson ou une plaque m&eacute;tallique retourn&eacute;e. </span></span></span></span></span></span></span></li>
+	<li style="margin-left:9px"><span style="font-size:11pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">L&rsquo;appr&ecirc;t termin&eacute;, retourner les p&acirc;tons, toujours accol&eacute;s l&rsquo;un l&rsquo;autre et les d&eacute;poser sur une planchette en bois bien farin&eacute;e et d&rsquo;un coup sec, les glisser sur la pierre ou la plaque br&ucirc;lante, sans oublier de verser au fond du four un verre d&rsquo;eau avant de fermer la porte.</span></span></span></span></span></span></span></li>
+	<li style="margin-left:9px"><span style="font-size:11pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">Apr&egrave;s 15 minutes de cuisson, entrouvrir rapidement la porte du four afin d&rsquo;en &eacute;vacuer la vapeur puis, baisser la temp&eacute;rature &agrave; 220 et poursuivre la cuisson pendant encore 20 minutes.</span></span></span></span></span></span></span></li>
+	<li style="margin-left:9px"><span style="font-size:11pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Ebrima"><span style="letter-spacing:.1pt">Une fois cuits, les b&uuml;rli doivent &ecirc;tre fonc&eacute;s et croustillant, les sortir et les laisser refroidir sur une grille.</span></span></span></span></span></span></span></li>
+</ul>
+
+<figure class="image-align-center" style="margin:10px 0px 10px 0px"><img alt="" data-amp-height="1067" data-amp-width="1600" src="https://image.over-blog.com/7jdlwhICqOF9PQEvDv7QpY-vAa8=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_1829fb_pain-buerli-6608.jpg" /></figure>
+
+<p>&nbsp;</p>
+    </div>
+
+
+              <div
+    class="ob-section ob-section-images ob-default"
+      ><div class="ob-row-1-col"><a href="https://image.over-blog.com/FMy6vjFQRQRIO2qFNdptaSTexac=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_b1128c_pain-buerli-6361.jpg" class="ob-link-img"><img src="https://image.over-blog.com/FMy6vjFQRQRIO2qFNdptaSTexac=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_b1128c_pain-buerli-6361.jpg" alt="B&#x00FC;rli&#x20;de&#x20;Saint-Gall" class="ob-cell ob-img ob-media" /></a></div><p class="ob-desc">B&#x00FC;rli&#x20;de&#x20;Saint-Gall</p></div>              <div
+    class="ob-section ob-section-images ob-default"
+      ><div class="ob-row-1-col"><a href="https://image.over-blog.com/XpJAJaoDIaEqXL_93gMz4AlzVMY=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_0e4b31_pain-buerli-6358.jpg" class="ob-link-img"><img src="https://image.over-blog.com/XpJAJaoDIaEqXL_93gMz4AlzVMY=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_0e4b31_pain-buerli-6358.jpg" alt="B&#x00FC;rli&#x20;de&#x20;Saint-Gall" class="ob-cell ob-img ob-media" /></a></div><p class="ob-desc">B&#x00FC;rli&#x20;de&#x20;Saint-Gall</p></div>              <div
+    class="ob-section ob-section-images ob-default"
+      ><div class="ob-row-1-col"><a href="https://image.over-blog.com/aoWgR2rNjx3aOw90913V3sc_hmE=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_28dc99_pain-buerli-6363.jpg" class="ob-link-img"><img src="https://image.over-blog.com/aoWgR2rNjx3aOw90913V3sc_hmE=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_28dc99_pain-buerli-6363.jpg" alt="B&#x00FC;rli&#x20;de&#x20;Saint-Gall" class="ob-cell ob-img ob-media" /></a></div><p class="ob-desc">B&#x00FC;rli&#x20;de&#x20;Saint-Gall</p></div>              <div
+    class="ob-section ob-section-images ob-default"
+      ><div class="ob-row-1-col"><a href="https://image.over-blog.com/AmZjXUuviLihyVLDV90d95uu1lg=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_1c8421_pain-buerli-6380.jpg" class="ob-link-img"><img src="https://image.over-blog.com/AmZjXUuviLihyVLDV90d95uu1lg=/filters:no_upscale()/image%2F3215825%2F20210816%2Fob_1c8421_pain-buerli-6380.jpg" alt="B&#x00FC;rli&#x20;de&#x20;Saint-Gall" class="ob-cell ob-img ob-media" /></a></div><p class="ob-desc">B&#x00FC;rli&#x20;de&#x20;Saint-Gall</p></div>
+
+  </div>
+
+                            </div>
+
+
+
+
+
+          <div class="ob-h3 ob-Shares-title">Partager cet article</div>
+          <div class="ob-Shares ob-Shares--right ob-Shares--horizontal ">
+        <div class="ob-Shares-facebookShare">
+        <div class="fb-share-button" data-href="https://briceletbaklava.ch/2021/08/burli-de-saint-gall-st.galler-burli.html" data-layout="button_count"></div>
+    </div>
+            <div class="ob-Shares-twitter">
+        <a class="twitter-share-button"
+          href="https://twitter.com/share"
+          data-url="https://briceletbaklava.ch/2021/08/burli-de-saint-gall-st.galler-burli.html"
+                    data-hashtags="Boulangerie,Recettes de pains"          data-text="B&#x00FC;rli&#x20;de&#x20;Saint-Gall&#x20;&#x28;St.&#x20;Galler&#x20;B&#x00FC;rli&#x29;"
+          data-lang="en"
+          ></a>
+    </div>
+            <div class="ob-Shares-linkedin">
+    <script
+        type="IN/Share"
+        data-url="https://briceletbaklava.ch/2021/08/burli-de-saint-gall-st.galler-burli.html"
+        data-counter="right">
+    </script>
+    </div>
+            <div class="ob-Shares-pinterest">
+        <a href="https://pinterest.com/pin/create/button/"
+                        data-pin-count="beside"
+                        data-pin-color="red"
+            data-pin-config="beside"
+            data-pin-description="B&#x00FC;rli&#x20;de&#x20;Saint-Gall&#x20;&#x28;St.&#x20;Galler&#x20;B&#x00FC;rli&#x29;"
+            data-pin-media="https://image.over-blog.com/D913ECH_mmWHTy8_qRECetDo6PU=/filters:no_upscale()/image%252F3215825%252F20210816%252Fob_e19375_pain-buerli-6374.jpg"
+            data-pin-url="https://briceletbaklava.ch/2021/08/burli-de-saint-gall-st.galler-burli.html"
+            target="_BLANK"
+        >
+            <img src="https://assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png" />
+        </a>
+    </div>
+            <div class="ob-Shares-overblog">
+        <a id="repost-184561962" class="ob-repost-btn" href="https://admin.over-blog.com/_repost/184561962" rel="nofollow" target="_blank"><span class="ob-repost-label">Repost</span><span class="ob-repost-count">0</span></a><script>
+  ob.repost(document.querySelector("#repost-184561962"))
+</script>
+    </div>
+        <div class="ob-Shares-print" style="display:none">
+        <img src="https://assets.over-blog-kiwi.com/b/blog/v2023.17.10/build/images/printer.png">
+    </div>
+</div>
+
+<script>
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.type = 'text/javascript';
+            js.async = true;
+            js.defer = true;
+            js.id = id;
+            js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.0';
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script>
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.type = 'text/javascript';
+            js.async = true;
+            js.defer = true;
+            js.id = id;
+            js.src = 'https://platform.twitter.com/widgets.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, 'script', 'twitter-jssdk'));
+</script>
+
+<script>
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.type = 'text/javascript';
+            js.async = true;
+            js.defer = true;
+            js.id = id;
+            js.src = 'https://assets.pinterest.com/js/pinit.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, 'script', 'pinterest-jssdk'));
+</script>
+
+<script>
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.type = 'text/javascript';
+            js.async = true;
+            js.defer = true;
+            js.id = id;
+            js.src = 'https://platform.linkedin.com/in.js';
+            js.innerHTML = "lang: 'en-GB'";
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, 'script', 'linkedin-jssdk'));
+</script>
+
+                              <div class="ob-Newsletter">
+  <button class="ob-input ob-Newsletter-toggle">S'inscrire à la newsletter</button>
+  <div class="ob-Newsletter-box">
+    <div class="ob-Newsletter-description">Pour être informé des derniers articles, inscrivez vous :</div>
+    <form class="ob-Newsletter-form" action="/mail/subscribe?utm_source=_ob_abo_newsletter&amp;utm_medium=_ob_bottom_article" method="post">
+      <input class="ob-input ob-Newsletter-input" type="email" name="email" placeholder="Saisissez votre email ici" required="required" />
+      <input class="ob-input ob-Newsletter-submit" type="submit" value="Valider" />
+    </form>
+  </div>
+</div>
+<script>
+  var toggle = document.querySelector(".ob-Newsletter-toggle")
+  var box = document.querySelector(".ob-Newsletter-box")
+  toggle.addEventListener("click", function (event) {
+    box.classList.toggle("ob-Newsletter-box--open")
+  })
+</script>
+
+
+
+
+                <div class="ob-Related">
+            <div class="ob-h3 ob-Related-title">Vous aimerez aussi :</div>
+            <div class="ob-Related-posts">
+                                <div class="ob-Related-post">
+                    <div class="ob-RelatedPost">
+  <a class="ob-RelatedPost-link" href="https://briceletbaklava.ch/2023/08/tresse-suisse-aux-saveurs-d-armenie.html" title="Tresse suisse aux saveurs d’Arménie">
+          <img class="ob-RelatedPost-image" src="https://image.over-blog.com/J-1k9uVuMpBrjcJgQDnoLWsHLOs=/400x260/smart/filters:no_upscale()/image%2F3215825%2F20230806%2Fob_239d7b_tresse-suisse-orientale-7835.jpg" alt="Tresse suisse aux saveurs d’Arménie"/>
+
+    <div class="ob-RelatedPost-title" >
+              Tresse suisse aux saveurs d’Arménie
+          </div>
+  </a>
+</div>
+                </div>
+                                <div class="ob-Related-post">
+                    <div class="ob-RelatedPost">
+  <a class="ob-RelatedPost-link" href="https://briceletbaklava.ch/2022/12/le-taille-vaudois-au-sel.html" title="Le taillé vaudois au sel ">
+          <img class="ob-RelatedPost-image" src="https://image.over-blog.com/P3hzpVZkrUxCApmJQk_ZP8oc8ZI=/400x260/smart/filters:no_upscale()/image%2F3215825%2F20221227%2Fob_4644cf_taille-vaudois-au-sel-7320.jpg" alt="Le taillé vaudois au sel "/>
+
+    <div class="ob-RelatedPost-title" >
+              Le taillé vaudois au sel
+          </div>
+  </a>
+</div>
+                </div>
+                                <div class="ob-Related-post">
+                    <div class="ob-RelatedPost">
+  <a class="ob-RelatedPost-link" href="https://briceletbaklava.ch/2023/02/pain-zurichois-zurcherbrot.html" title="Pain zürichois (Zürcherbrot)">
+          <img class="ob-RelatedPost-image" src="https://image.over-blog.com/rd1azDcObIBuf7aCMIDlmurOWlo=/400x260/smart/filters:no_upscale()/image%2F3215825%2F20230206%2Fob_200a83_pain-zuerichois-7541.jpg" alt="Pain zürichois (Zürcherbrot)"/>
+
+    <div class="ob-RelatedPost-title" >
+              Pain zürichois (Zürcherbrot)
+          </div>
+  </a>
+</div>
+                </div>
+                                <div class="ob-Related-post">
+                    <div class="ob-RelatedPost">
+  <a class="ob-RelatedPost-link" href="https://briceletbaklava.ch/2023/02/pain-d-argovie-aargauer-brot.html" title="Pain d’Argovie (Aargauer Brot)">
+          <img class="ob-RelatedPost-image" src="https://image.over-blog.com/ikmmQYGU5UZEie7T6Z1BRDgWJbU=/400x260/smart/filters:no_upscale()/image%2F3215825%2F20230208%2Fob_a09eb4_pain-argovien-7580.jpg" alt="Pain d’Argovie (Aargauer Brot)"/>
+
+    <div class="ob-RelatedPost-title" >
+              Pain d’Argovie (Aargauer Brot)
+          </div>
+  </a>
+</div>
+                </div>
+                            </div>
+        </div>
+        <style>
+            @media only screen and (min-width: 970px) {
+            .ob-Related-posts {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -moz-box-wrap: nowrap;
+                -webkit-box-wrap: nowrap;
+                -webkit-flex-wrap: nowrap;
+                -ms-flexbox-wrap: nowrap;
+                -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+                -moz-box-direction: row;
+                -webkit-box-direction: row;
+                -webkit-box-orient: horizontal;
+                -webkit-flex-direction: row;
+                -ms-flexbox-direction: row;
+                -ms-flex-direction: row;
+                flex-direction: row;
+            }
+
+                .ob-Related-post {
+                    -webkit-box-basis: auto;
+                    -webkit-flex-basis: auto;
+                    -ms-flex-basis: auto;
+                    flex-basis: auto;
+                    -webkit-box-flex: 1;
+                    -moz-box-flex: 1;
+                    -webkit-flex: 1;
+                    -ms-flex: 1 0 auto;
+                    flex: 1;
+                    margin-bottom: 0;
+                }
+
+                .ob-Related-post:not(:last-child) {
+                    margin-right: 10px;
+                }
+            }
+        </style>
+
+
+
+                            	<div class="ob-PostNavigation">
+					<a href="https://briceletbaklava.ch/2021/09/les-choux-farcis-au-jambon-de-la-borne.html" class="ob-PostNavigation-link ob-PostNavigation-link--prev" title="Aller à &quot;Les choux farcis au jambon de la borne&quot;">
+				<div class="ob-PostNavigationLink-chevron"></div>
+				<div class="ob-PostNavigationLink-label">
+											Les choux farcis au jambon de la borne
+									</div>
+			</a>
+							<a href="https://briceletbaklava.ch/2021/10/la-moussaka-aux-aubergines-comme-a-aintab.html" class="ob-PostNavigation-link ob-PostNavigation-link--next" title="Aller à &quot;La moussaka aux aubergines comme à Aintab&quot;">
+				<div class="ob-PostNavigationLink-label">
+											La moussaka aux aubergines comme à Aintab
+									</div>
+				<div class="ob-PostNavigationLink-chevron"></div>
+			</a>
+			</div>
+
+
+                                                        <!-- Comments box -->
+                            <div class="Post-comments">
+                                <div class="ob-h3 Title">Commenter cet article</div>
+                                <div>
+
+<div id="ob-comments">
+			<button class="ob-button-primary" disabled>
+			Ajouter un commentaire
+		</button>
+		<div class="ob-list">
+			</div>
+</div>
+
+<script>
+	var isCommentAppInitialized = false;
+
+	function initCommentApp(){
+		if(!isCommentAppInitialized){
+			ob.initCommentApp(document.querySelector("#ob-comments"), {"postID":184561962,"locale":"fr","I18N":{"reply":"R\u00e9pondre","moderated":"Votre commentaire a bien \u00e9t\u00e9 envoy\u00e9.<br\/>Il s\u2019affichera une fois approuv\u00e9 par le propri\u00e9taire du blog.","recaptcha_disclaimer":"Ce site est prot\u00e9g\u00e9 par reCAPTCHA et les <a target=\"_blank\" rel=\"noreferer,noopener\" href=\"https:\/\/policies.google.com\/privacy\">Politiques de confidentialit\u00e9<\/a> et <a target=\"_blank\" rel=\"noreferer,noopener\" href=\"https:\/\/policies.google.com\/terms\">Conditions de service<\/a> de Google s'appliquent.","recaptcha_expired":"recaptcha_expired","recaptcha_error":"recaptcha_error","more_comments":"Charger plus de commentaires","more_replies":"Charger plus de r\u00e9ponses","author":"Auteur","name_placeholder":"Nom","email_placeholder":"Email","website_placeholder":"Site web","comment_placeholder":"Votre commentaire","send_comment":"Envoyer le commentaire","comment_with_overblog":"Commenter avec votre compte Overblog","logout":"Se d\u00e9connecter","add_comment":"Ajouter un commentaire","generic_error":"Es ist ein Fehler aufgetreten, bitte versuchen Sie es sp\u00e4ter noch einmal"}});
+			isCommentAppInitialized = true
+		}
+	}
+
+	setTimeout(initCommentApp, 2000)
+	window.addEventListener('load', initCommentApp)
+</script>
+
+                                                                    </div>
+                            </div>
+                                                    </div>
+                                    </div>
+
+                <!-- Sidebar -->
+                <aside class="Sidebar">
+
+                                        <div class="Sidebar-widget" data-order="5">
+                        <div class="ob-h3 Sidebar-title">
+                            Newsletter
+                        </div>
+                        <form class="Sidebar-form" action="/mail/subscribe?utm_source=_ob_abo_newsletter&amp;utm_medium=_ob_sidebar" method="post">
+                            <input class="ob-input SidebarForm-input" type="email" name="email" placeholder="Saisissez votre email ici" required="required" />
+                            <input class="ob-input ob-input-submit SidebarForm-submit" type="submit" value="S'abonner" />
+                        </form>
+                    </div>
+
+                                        <div class="Sidebar-widget" data-order="6">
+                        <div class="ob-h3 Sidebar-title">
+                                                            Suivez-moi
+                                                    </div>
+                        <ul class="Sidebar-follow SidebarFollow">
+                                                            <li class="SidebarFollow-element">
+                                    <a class="SidebarFollow-elementLink  SidebarFollow-elementLink--facebook" href="https://facebook.com/michel.barbey.77" target="_blank">
+                                        <span class="fa fa-fw fa-facebook"></span>
+                                    </a>
+                                </li>
+                                                                                                                    <li class="SidebarFollow-element">
+                                    <a class="SidebarFollow-elementLink SidebarFollow-elementLink--pinterest" href="https://pinterest.com/michelbarbey9707" target="_blank">
+                                        <span class="fa fa-fw fa-pinterest"></span>
+                                    </a>
+                                </li>
+                                                                                        <li class="SidebarFollow-element">
+                                    <a class="SidebarFollow-elementLink SidebarFollow-elementLink--instagram" href="https://instagram.com/michel.barbey" target="_blank">
+                                        <span class="fa fa-fw fa-instagram"></span>
+                                    </a>
+                                </li>
+                                                        <li class="SidebarFollow-element">
+                                <a class="SidebarFollow-elementLink SidebarFollow-elementLink--rss" href="/rss" target="_blank">
+                                    <span class="fa fa-fw fa-rss"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                                        <div class="Sidebar-widget" data-order="4">
+                        <div class="ob-h3 Sidebar-title">
+                            Recherche
+                        </div>
+                        <form class="Sidebar-form" action="/search" method="post">
+                            <input class="ob-input SidebarForm-input" type="text" name="q" placeholder="Recherche..." required="required" />
+                            <input class="ob-input ob-input-submit SidebarForm-submit" type="submit" value="OK" />
+                        </form>
+                    </div>
+
+                                        <div class="Sidebar-widget Sidebar-about SidebarAbout" data-order="1">
+                        <div class="ob-h3 Sidebar-title">
+                            Bricelet &amp; Baklava
+                        </div>
+                                                <img class="SidebarAbout-avatar" src="https://image.over-blog.com/yomYqZvICP9DnbXuHYCRWdERP-o=/300x300/smart/filters:no_upscale()/image%2F3215825%2F20190503%2Fob_3880fb_briceletbaklava.jpg" alt="Bricelet &amp; Baklava" />
+                                                <p class="SidebarAbout-description">
+                            Quand la Suisse rencontre l'Arm&eacute;nie au travers de leurs recettes, toutes test&eacute;es, pr&eacute;cises, personnelles, fiables et r&eacute;alisables par tous.
+                        </p>
+                    </div>
+
+                                        <div class="Sidebar-widget Sidebar-about SidebarAbout" data-order="2">
+                        <div class="ob-h3 Sidebar-title">
+                            À propos
+                        </div>
+                                                                            <a href="https://www.over-blog.com/user/2989327.html" target="_blank">
+                                                        <img class="SidebarAbout-avatar" src="https://image.over-blog.com/haQJD-HTJM99KSPqny3a6_eMfwY=/300x300/smart/filters:no_upscale()/image%2F2989327%2F20210319%2Fob_74bf56_img-0516-vers2.jpg" alt="Michel" />
+                                                    </a>
+                                                                            <p class="SidebarAbout-description">
+                            Jeune septuag&eacute;naire, ancien de l'agroalimentaire, plusieurs fois grand-p&egrave;re, marathonien aux heures creuses, passionn&eacute; par les voyages, la cuisine, les bons vins, la photographie, et l&rsquo;envie de partager ses recettes avec le&nbsp;monde entier
+                                                            <br>Voir le profil de <a href="https://www.over-blog.com/user/2989327.html" target="_blank">Michel</a> sur le portail Overblog
+                                                    </p>
+                    </div>
+
+
+                                                                                                        <!-- Similars posts -->
+                                <div class="Sidebar-widget" data-order="">
+                                                                        <div class="ob-h3 Sidebar-title">
+                                        Vous aimerez aussi :
+                                    </div>
+                                                                                                            <div class="Sidebar-post">
+                                        <div class="ob-h2 PostPreview-title">
+                                                                                                    <a href="https://briceletbaklava.ch/2023/08/tresse-suisse-aux-saveurs-d-armenie.html" title="Tresse suisse aux saveurs d’Arménie">Tresse suisse aux saveurs d’Arménie</a>
+                                                                                        </div>
+                                                                                <figure class="PostPreview-cover">
+                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2023/08/tresse-suisse-aux-saveurs-d-armenie.html">
+                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/gfpuSatHZkv8wBehlni3rKDZtW8=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20230806%2Fob_239d7b_tresse-suisse-orientale-7835.jpg" alt="Tresse suisse aux saveurs d’Arménie"/>
+                                                                                            </a>
+                                        </figure>
+                                                                                <div class="PostPreview-content">
+                                            <p class="PostPreview-meta PostPreviewMeta">
+                                                                                                <span class="PostPreviewMeta-date">
+                                                    <span class="fa fa-fw fa-calendar-o"></span>
+                                                    06/08/2023
+                                                </span>
+
+                                                <span class="PostPreviewMeta-comments">
+                                                    <span class="fa fa-comment-o"></span>
+                                                                                                            <span id="comment-count-187928869">…</span><script>
+  ob.commentCount(document.querySelector("#comment-count-187928869"), {
+    resource: "https://briceletbaklava.ch/api/comment-count/187928869",
+    format: (count) => {
+      const string = count === 0
+        ? "0"
+        : count === 1
+          ? "%c"
+          : "%c"
+
+      return string.replace("%c", count)
+    }
+  })
+</script>
+                                                                                                    </span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                                                        <div class="Sidebar-post">
+                                        <div class="ob-h2 PostPreview-title">
+                                                                                                    <a href="https://briceletbaklava.ch/2022/12/le-taille-vaudois-au-sel.html" title="Le taillé vaudois au sel ">Le taillé vaudois au sel </a>
+                                                                                        </div>
+                                                                                <figure class="PostPreview-cover">
+                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2022/12/le-taille-vaudois-au-sel.html">
+                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/M74NqFXkj6F56_CLB2qFbj4IqLQ=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20221227%2Fob_4644cf_taille-vaudois-au-sel-7320.jpg" alt="Le taillé vaudois au sel "/>
+                                                                                            </a>
+                                        </figure>
+                                                                                <div class="PostPreview-content">
+                                            <p class="PostPreview-meta PostPreviewMeta">
+                                                                                                <span class="PostPreviewMeta-date">
+                                                    <span class="fa fa-fw fa-calendar-o"></span>
+                                                    18/06/2023
+                                                </span>
+
+                                                <span class="PostPreviewMeta-comments">
+                                                    <span class="fa fa-comment-o"></span>
+                                                                                                            <span id="comment-count-187075172">…</span><script>
+  ob.commentCount(document.querySelector("#comment-count-187075172"), {
+    resource: "https://briceletbaklava.ch/api/comment-count/187075172",
+    format: (count) => {
+      const string = count === 0
+        ? "0"
+        : count === 1
+          ? "%c"
+          : "%c"
+
+      return string.replace("%c", count)
+    }
+  })
+</script>
+                                                                                                    </span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                                                        <div class="Sidebar-post">
+                                        <div class="ob-h2 PostPreview-title">
+                                                                                                    <a href="https://briceletbaklava.ch/2023/02/pain-zurichois-zurcherbrot.html" title="Pain zürichois (Zürcherbrot)">Pain zürichois (Zürcherbrot)</a>
+                                                                                        </div>
+                                                                                <figure class="PostPreview-cover">
+                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2023/02/pain-zurichois-zurcherbrot.html">
+                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/M8Sd8jNGgC1jsG1i5A0vaSd0hIc=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20230206%2Fob_200a83_pain-zuerichois-7541.jpg" alt="Pain zürichois (Zürcherbrot)"/>
+                                                                                            </a>
+                                        </figure>
+                                                                                <div class="PostPreview-content">
+                                            <p class="PostPreview-meta PostPreviewMeta">
+                                                                                                <span class="PostPreviewMeta-date">
+                                                    <span class="fa fa-fw fa-calendar-o"></span>
+                                                    05/05/2023
+                                                </span>
+
+                                                <span class="PostPreviewMeta-comments">
+                                                    <span class="fa fa-comment-o"></span>
+                                                                                                            <span id="comment-count-187216127">…</span><script>
+  ob.commentCount(document.querySelector("#comment-count-187216127"), {
+    resource: "https://briceletbaklava.ch/api/comment-count/187216127",
+    format: (count) => {
+      const string = count === 0
+        ? "0"
+        : count === 1
+          ? "%c"
+          : "%c"
+
+      return string.replace("%c", count)
+    }
+  })
+</script>
+                                                                                                    </span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                                                        <div class="Sidebar-post">
+                                        <div class="ob-h2 PostPreview-title">
+                                                                                                    <a href="https://briceletbaklava.ch/2023/02/pain-d-argovie-aargauer-brot.html" title="Pain d’Argovie (Aargauer Brot)">Pain d’Argovie (Aargauer Brot)</a>
+                                                                                        </div>
+                                                                                <figure class="PostPreview-cover">
+                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2023/02/pain-d-argovie-aargauer-brot.html">
+                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/3kh8bLdMJEnMwlTEYj-91sdCmMY=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20230208%2Fob_a09eb4_pain-argovien-7580.jpg" alt="Pain d’Argovie (Aargauer Brot)"/>
+                                                                                            </a>
+                                        </figure>
+                                                                                <div class="PostPreview-content">
+                                            <p class="PostPreview-meta PostPreviewMeta">
+                                                                                                <span class="PostPreviewMeta-date">
+                                                    <span class="fa fa-fw fa-calendar-o"></span>
+                                                    19/02/2023
+                                                </span>
+
+                                                <span class="PostPreviewMeta-comments">
+                                                    <span class="fa fa-comment-o"></span>
+                                                                                                            <span id="comment-count-187223055">…</span><script>
+  ob.commentCount(document.querySelector("#comment-count-187223055"), {
+    resource: "https://briceletbaklava.ch/api/comment-count/187223055",
+    format: (count) => {
+      const string = count === 0
+        ? "0"
+        : count === 1
+          ? "%c"
+          : "%c"
+
+      return string.replace("%c", count)
+    }
+  })
+</script>
+                                                                                                    </span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                                                    </div>
+                                                                                                                 <!-- Similars posts -->
+                                <div class="Sidebar-widget" data-order="">
+                                                                                                            <div class="Sidebar-post">
+                                        <div class="ob-h2 PostPreview-title">
+                                                                                                    <a href="https://briceletbaklava.ch/2023/02/pain-zurichois-zurcherbrot.html" title="Pain zürichois (Zürcherbrot)">Pain zürichois (Zürcherbrot)</a>
+                                                                                        </div>
+                                                                                <figure class="PostPreview-cover">
+                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2023/02/pain-zurichois-zurcherbrot.html">
+                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/M8Sd8jNGgC1jsG1i5A0vaSd0hIc=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20230206%2Fob_200a83_pain-zuerichois-7541.jpg" alt="Pain zürichois (Zürcherbrot)"/>
+                                                                                            </a>
+                                        </figure>
+                                                                                <div class="PostPreview-content">
+                                            <p class="PostPreview-meta PostPreviewMeta">
+                                                                                                <span class="PostPreviewMeta-date">
+                                                    <span class="fa fa-fw fa-calendar-o"></span>
+                                                    05/05/2023
+                                                </span>
+
+                                                <span class="PostPreviewMeta-comments">
+                                                    <span class="fa fa-comment-o"></span>
+                                                                                                            <span id="comment-count-187216127">…</span><script>
+  ob.commentCount(document.querySelector("#comment-count-187216127"), {
+    resource: "https://briceletbaklava.ch/api/comment-count/187216127",
+    format: (count) => {
+      const string = count === 0
+        ? "0"
+        : count === 1
+          ? "%c"
+          : "%c"
+
+      return string.replace("%c", count)
+    }
+  })
+</script>
+                                                                                                    </span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                                                        <div class="Sidebar-post">
+                                        <div class="ob-h2 PostPreview-title">
+                                                                                                    <a href="https://briceletbaklava.ch/2023/02/pain-d-argovie-aargauer-brot.html" title="Pain d’Argovie (Aargauer Brot)">Pain d’Argovie (Aargauer Brot)</a>
+                                                                                        </div>
+                                                                                <figure class="PostPreview-cover">
+                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2023/02/pain-d-argovie-aargauer-brot.html">
+                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/3kh8bLdMJEnMwlTEYj-91sdCmMY=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20230208%2Fob_a09eb4_pain-argovien-7580.jpg" alt="Pain d’Argovie (Aargauer Brot)"/>
+                                                                                            </a>
+                                        </figure>
+                                                                                <div class="PostPreview-content">
+                                            <p class="PostPreview-meta PostPreviewMeta">
+                                                                                                <span class="PostPreviewMeta-date">
+                                                    <span class="fa fa-fw fa-calendar-o"></span>
+                                                    19/02/2023
+                                                </span>
+
+                                                <span class="PostPreviewMeta-comments">
+                                                    <span class="fa fa-comment-o"></span>
+                                                                                                            <span id="comment-count-187223055">…</span><script>
+  ob.commentCount(document.querySelector("#comment-count-187223055"), {
+    resource: "https://briceletbaklava.ch/api/comment-count/187223055",
+    format: (count) => {
+      const string = count === 0
+        ? "0"
+        : count === 1
+          ? "%c"
+          : "%c"
+
+      return string.replace("%c", count)
+    }
+  })
+</script>
+                                                                                                    </span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                                                        <div class="Sidebar-post">
+                                        <div class="ob-h2 PostPreview-title">
+                                                                                                    <a href="https://briceletbaklava.ch/2022/11/le-pain-graham.html" title="Le pain Graham ">Le pain Graham </a>
+                                                                                        </div>
+                                                                                <figure class="PostPreview-cover">
+                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2022/11/le-pain-graham.html">
+                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/AWBQlgqKXRymcv3JKG2jk8bSmck=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20221101%2Fob_dc4ce1_pain-graham-7253.jpg" alt="Le pain Graham "/>
+                                                                                            </a>
+                                        </figure>
+                                                                                <div class="PostPreview-content">
+                                            <p class="PostPreview-meta PostPreviewMeta">
+                                                                                                <span class="PostPreviewMeta-date">
+                                                    <span class="fa fa-fw fa-calendar-o"></span>
+                                                    11/01/2023
+                                                </span>
+
+                                                <span class="PostPreviewMeta-comments">
+                                                    <span class="fa fa-comment-o"></span>
+                                                                                                            <span id="comment-count-186822105">…</span><script>
+  ob.commentCount(document.querySelector("#comment-count-186822105"), {
+    resource: "https://briceletbaklava.ch/api/comment-count/186822105",
+    format: (count) => {
+      const string = count === 0
+        ? "0"
+        : count === 1
+          ? "%c"
+          : "%c"
+
+      return string.replace("%c", count)
+    }
+  })
+</script>
+                                                                                                    </span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                                                        <div class="Sidebar-post">
+                                        <div class="ob-h2 PostPreview-title">
+                                                                                                    <a href="https://briceletbaklava.ch/2022/07/pane-valle-maggia.html" title="Pane Valle Maggia ">Pane Valle Maggia </a>
+                                                                                        </div>
+                                                                                <figure class="PostPreview-cover">
+                                            <a class="PostPreview-coverLink" href="https://briceletbaklava.ch/2022/07/pane-valle-maggia.html">
+                                                                                                <img class="PostPreview-coverImage" src="https://image.over-blog.com/EeIPpvhH9vI2vSRfRbQcfmFD0Y0=/630x400/smart/filters:no_upscale()/image%2F3215825%2F20220707%2Fob_0ca728_pane-vallemaggia-9238.jpg" alt="Pane Valle Maggia "/>
+                                                                                            </a>
+                                        </figure>
+                                                                                <div class="PostPreview-content">
+                                            <p class="PostPreview-meta PostPreviewMeta">
+                                                                                                <span class="PostPreviewMeta-date">
+                                                    <span class="fa fa-fw fa-calendar-o"></span>
+                                                    28/10/2022
+                                                </span>
+
+                                                <span class="PostPreviewMeta-comments">
+                                                    <span class="fa fa-comment-o"></span>
+                                                                                                            <span id="comment-count-186228973">…</span><script>
+  ob.commentCount(document.querySelector("#comment-count-186228973"), {
+    resource: "https://briceletbaklava.ch/api/comment-count/186228973",
+    format: (count) => {
+      const string = count === 0
+        ? "0"
+        : count === 1
+          ? "%c"
+          : "%c"
+
+      return string.replace("%c", count)
+    }
+  })
+</script>
+                                                                                                    </span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                                                    </div>
+
+
+
+
+
+                                        <div class="Sidebar-widget" data-order="8">
+                        <div class="ob-h3 Sidebar-title">
+                            Pages
+                        </div>
+                        <ul class="Sidebar-list">
+                                                            <li><a href='https://briceletbaklava.ch/equivalence-des-types-de-farine-en-suisse-et-en-france'>Dénomination des types de farine en Suisse et en France</a></li>
+                                                            <li><a href='https://briceletbaklava.ch/2021/01/index-armeniennes-salees.html'>Index arméniennes salées</a></li>
+                                                            <li><a href='https://briceletbaklava.ch/2021/01/index-armeniennes-sucrees.html'>Index arméniennes sucrées</a></li>
+                                                            <li><a href='https://briceletbaklava.ch/2020/03/index-a-z.html'>Index A-Z</a></li>
+                                                            <li><a href='https://briceletbaklava.ch/2021/01/index-pains-suisses.html'>Index pains suisses</a></li>
+                                                            <li><a href='https://briceletbaklava.ch/2021/01/index-suisses-salees.html'>Index suisses salées</a></li>
+                                                            <li><a href='https://briceletbaklava.ch/2021/01/index-suisses-sucrees.html'>Index suisses sucrées</a></li>
+                                                            <li><a href='https://briceletbaklava.ch/2019/02/quelques-mots-sur-moi.html'>Quelques mots sur moi</a></li>
+                                                    </ul>
+                    </div>
+
+                                        <div class="Sidebar-widget" data-order="3">
+                        <div class="ob-h3 Sidebar-title">
+                            Catégories
+                        </div>
+                        <ul class="Sidebar-list">
+                                                                                                <li >
+                                        <a href="/tag/entrees/">
+                                            <span style="text-transform: capitalize;">Entrées</span> (91)
+                                        </a>
+                                    </li>
+                                                                    <li >
+                                        <a href="/tag/recettes%20suisses%20salees/">
+                                            <span style="text-transform: capitalize;">Recettes suisses salées</span> (76)
+                                        </a>
+                                    </li>
+                                                                    <li >
+                                        <a href="/tag/plat%20principal/">
+                                            <span style="text-transform: capitalize;">Plat principal</span> (74)
+                                        </a>
+                                    </li>
+                                                                    <li >
+                                        <a href="/tag/recettes%20armeniennes%20salees/">
+                                            <span style="text-transform: capitalize;">Recettes arméniennes salées</span> (64)
+                                        </a>
+                                    </li>
+                                                                    <li >
+                                        <a href="/tag/boulangerie/">
+                                            <span style="text-transform: capitalize;">Boulangerie</span> (60)
+                                        </a>
+                                    </li>
+                                                                    <li >
+                                        <a href="/tag/aperitifs/">
+                                            <span style="text-transform: capitalize;">Apéritifs</span> (58)
+                                        </a>
+                                    </li>
+                                                                    <li >
+                                        <a href="/tag/patisserie/">
+                                            <span style="text-transform: capitalize;">Pâtisserie</span> (51)
+                                        </a>
+                                    </li>
+                                                                    <li >
+                                        <a href="/tag/desserts/">
+                                            <span style="text-transform: capitalize;">Desserts</span> (47)
+                                        </a>
+                                    </li>
+                                                                    <li >
+                                        <a href="/tag/mezzes/">
+                                            <span style="text-transform: capitalize;">Mezzés</span> (45)
+                                        </a>
+                                    </li>
+                                                                    <li >
+                                        <a href="/tag/recettes%20suisses%20sucrees/">
+                                            <span style="text-transform: capitalize;">Recettes suisses sucrées</span> (44)
+                                        </a>
+                                    </li>
+                                                                    <li >
+                                        <a href="/tag/petit-dejeuner/">
+                                            <span style="text-transform: capitalize;">Petit-déjeuner</span> (38)
+                                        </a>
+                                    </li>
+                                                                    <li >
+                                        <a href="/tag/recettes%20de%20pains/">
+                                            <span style="text-transform: capitalize;">Recettes de pains</span> (38)
+                                        </a>
+                                    </li>
+                                                                    <li >
+                                        <a href="/tag/recettes%20du%20monde%20salees/">
+                                            <span style="text-transform: capitalize;">Recettes du monde salées</span> (24)
+                                        </a>
+                                    </li>
+                                                                    <li >
+                                        <a href="/tag/accompagnements/">
+                                            <span style="text-transform: capitalize;">Accompagnements</span> (21)
+                                        </a>
+                                    </li>
+                                                                    <li >
+                                        <a href="/tag/charcuterie/">
+                                            <span style="text-transform: capitalize;">Charcuterie</span> (13)
+                                        </a>
+                                    </li>
+                                                                    <li >
+                                        <a href="/tag/recettes%20armeniennes%20sucrees/">
+                                            <span style="text-transform: capitalize;">Recettes arméniennes sucrées</span> (13)
+                                        </a>
+                                    </li>
+                                                                    <li >
+                                        <a href="/tag/recettes%20du%20monde%20sucrees/">
+                                            <span style="text-transform: capitalize;">Recettes du monde sucrées</span> (9)
+                                        </a>
+                                    </li>
+                                                                                    </ul>
+                    </div>
+
+
+                                    </aside>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+        <div class="Footer">
+            <div class="Footer-content">
+                                    Thème Magazine&nbsp;-&nbsp;
+                                Hébergé par <a href="https://www.over-blog.com" target="_blank">Overblog</a>
+            </div>
+        </div>
+
+          <!-- Google Analytics -->
+      <script>
+      window.google_analytics_uacct = 'UA-136705909-1';
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-136705909-1']);
+      _gaq.push(['_trackPageview']);
+      _gaq.push(['_trackPageLoadTime']);
+      (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+
+        <!-- jQuery onReady -->
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+                /* Menu */
+                $(".Nav-menuButton").click(function(){
+                    if($(".Nav-menu").hasClass("Nav-menu--open")) {
+                        $(".Nav-menu").removeClass("Nav-menu--open");
+                    } else {
+                        $(".Nav-menu").addClass("Nav-menu--open");
+                    }
+                });
+
+                /* Fancybox */
+                $(".ob-link-img, .author-avatar, .blog-avatar, .asset-img-link, .avatar").attr("rel", "fancybox");
+                $("a[rel=fancybox]").fancybox({
+                    'overlayShow'   : true,
+                    'transitionIn'  : 'fadin',
+                    'transitionOut' : 'fadin',
+                    'type'          : 'image'
+                });
+
+            });
+
+            $(window).load(function(){
+                /* Mansory */
+                var $container = $('.PostPreview-container');
+
+                function layout() {
+                    if(window.innerWidth < 970){
+                        $container.data('masonry') && $container.masonry('destroy');
+                    }else{
+                        $container.data('masonry') === undefined && $container.masonry({
+                            itemSelector: '.PostPreview',
+                            transitionDuration: '0.1s',
+                        });
+                    }
+                }
+
+                $(window).on('resize', layout);
+
+                layout();
+            });
+        </script>
+     <script>
+  var postTitle = "B\u00fcrli de Saint-Gall (St. Galler B\u00fcrli)"
+  ob.printPost(postTitle)
+</script>
+  <div class="ob-footer" id="legals" >
+    <ul>
+        <li class="ob-footer-item">Voir le profil de <a href="https://www.over-blog.com/user/2989327.html" target="_blank">Michel</a> sur le portail Overblog</li>
+                <li class="ob-footer-item"><a href="/top">Top articles</a></li>
+        <li class="ob-footer-item"><a href="/contact">Contact</a></li>
+        <li class="ob-footer-item"><a href="https://www.over-blog.com/abuse/3215825"> Signaler un abus </a></li>
+        <li class="ob-footer-item"><a href="https://www.over-blog.com/terms-of-use" target="_blank">C.G.U.</a></li>
+            <li class="ob-footer-item"><a href="https://www.over-blog.com/cookies" target="_blank">Cookies et données personnelles</a></li>
+        <li class="ob-footer-item"><a href="javascript:Didomi.notice.show()">Préférences cookies</a></li>
+    </ul>
+</div>
+      <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer', "GTM-WG3SK3P");
+  </script>
+ </body>
+</html>

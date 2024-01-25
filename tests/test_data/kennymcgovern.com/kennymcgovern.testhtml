@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<style id="jetpack-boost-critical-css">@media all{.wprm-recipe-container{outline:0}.wprm-recipe{overflow:hidden;zoom:1;text-align:left;clear:both}.wprm-recipe *{box-sizing:border-box}.wprm-recipe ol,.wprm-recipe ul{-webkit-margin-before:0;-webkit-margin-after:0;-webkit-padding-start:0;margin:0;padding:0}.wprm-recipe li{font-size:1em;margin:0 0 0 32px;padding:0}.wprm-recipe p{font-size:1em;margin:0;padding:0}.wprm-recipe li,.wprm-recipe li.wprm-recipe-instruction{list-style-position:outside}.wprm-recipe li:before{display:none}body:not(.wprm-print) .wprm-recipe p:first-letter{font-size:inherit;line-height:inherit;color:inherit;margin:inherit;padding:inherit;font-family:inherit}}@media all{@charset "UTF-8";.wp-block-embed{overflow-wrap:break-word}.wp-block-embed iframe{max-width:100%}.wp-block-embed__wrapper{position:relative}figure.wp-block-gallery.has-nested-images{align-items:normal}.wp-block-gallery.has-nested-images figure.wp-block-image:not(#individual-image){margin:0;width:calc(50% - var(--wp--style--unstable-gallery-gap,16px)/ 2)}.wp-block-gallery.has-nested-images figure.wp-block-image{box-sizing:border-box;display:flex;flex-direction:column;flex-grow:1;justify-content:center;max-width:100%;position:relative}.wp-block-gallery.has-nested-images figure.wp-block-image img{display:block;height:auto;max-width:100%!important;width:auto}.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image){align-self:inherit}.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) img{flex:1 0 0%;height:100%;object-fit:cover;width:100%}@media (min-width:600px){.wp-block-gallery.has-nested-images.columns-default figure.wp-block-image:not(#individual-image){width:calc(33.33% - var(--wp--style--unstable-gallery-gap,16px)*.66667)}}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}.wp-block-image .aligncenter{display:table}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image.is-style-rounded img{border-radius:9999px}.wp-block-image figure{margin:0}ol,ul{box-sizing:border-box}.wp-block-separator{border:1px solid;border-left:none;border-right:none}.wp-block-spacer{clear:both}.entry-content{counter-reset:footnotes}.aligncenter{clear:both}.screen-reader-text{clip:rect(1px,1px,1px,1px);word-wrap:normal!important;border:0;-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}.wprm-recipe-container .wprm-recipe-tastefully-simple{font:12px Verdana,Arial,Geneva,sans-serif;border:1px dashed #666;padding:10px}.wprm-recipe-container .wprm-recipe-tastefully-simple li,.wprm-recipe-container .wprm-recipe-tastefully-simple p{font:1em Verdana,Arial,Geneva,sans-serif}.wprm-recipe-container .wprm-recipe-tastefully-simple li,.wprm-recipe-container .wprm-recipe-tastefully-simple ol,.wprm-recipe-container .wprm-recipe-tastefully-simple p,.wprm-recipe-container .wprm-recipe-tastefully-simple span,.wprm-recipe-container .wprm-recipe-tastefully-simple ul{margin:0;padding:0;line-height:inherit}.wprm-recipe-container .wprm-recipe-tastefully-simple :after,.wprm-recipe-container .wprm-recipe-tastefully-simple :before{display:none}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-clear-left{clear:left;line-height:0;height:0}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-image-container{float:right;max-width:40%;text-align:right;position:relative;z-index:1}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-image-container .wprm-recipe-image{margin-left:10px}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-image-container .wprm-recipe-buttons{margin-top:10px;text-align:center}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-image-container .wprm-recipe-buttons .wprm-recipe-print{font-size:11px;-webkit-border-radius:5px 5px 5px 5px;-moz-border-radius:5px 5px 5px 5px;border-radius:5px 5px 5px 5px;padding:.4em 1em}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-name{font:1.5em Verdana,Geneva,sans-serif;margin-bottom:15px}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-times-container{border-top:1px dotted #666;border-bottom:1px dotted #666;width:60%;padding-top:5px;padding-bottom:5px;margin-bottom:10px}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-time-container{width:33%;text-align:center;float:left;font-weight:700;border-left:1px solid #ccc}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-time-container:first-child{border-left:none}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-time-container:nth-child(4){border-left:none;clear:left;float:none;margin:0 auto}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-time-container .wprm-recipe-time-header{margin-bottom:4px;word-break:break-all}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-time-container .wprm-recipe-time{font-size:.8em;font-weight:400}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-details-container,.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-ingredients-container,.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-summary,.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-summary p{margin-bottom:10px}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-header{font-size:1.4em;font-weight:700;margin-top:1em;margin-bottom:1em}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-group-name{margin-top:3px;margin-bottom:3px;font-weight:700}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-ingredients li{list-style-position:inside;margin-left:10px;line-height:inherit;background:0 0}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-instructions li{margin-left:30px;line-height:inherit;background:0 0}@media screen and (max-width:480px){.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-image-container{float:none;width:100%;max-width:none;text-align:center;margin-bottom:10px}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-image-container .wprm-recipe-image{margin-left:0;margin-right:0}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-times-container{width:100%}.wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-times-container .wprm-recipe-time-container{border:none;width:100%;float:none}}a,article,body,center,div,em,fieldset,figure,form,h1,h2,header,html,i,iframe,img,label,legend,li,nav,ol,p,span,ul{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;vertical-align:baseline}html{font-family:sans-serif;font-size:62.5%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{background:#fff;line-height:1}article,figure,header,nav{display:block}ol,ul{list-style:none}a{background-color:transparent}a img{border:0}em,i{font-style:italic}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}button,input{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button,input[type=submit]{-webkit-appearance:button}input{line-height:normal}input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button{-webkit-appearance:none}fieldset{border:1px solid #444;margin:0 2px;padding:.35em .625em .75em}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,::after,::before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}img{max-width:100%;height:auto}.gridfeel-clearfix:after,.gridfeel-clearfix:before{content:" ";display:table}.gridfeel-clearfix:after{clear:both}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;width:1px;margin:-1px;overflow:hidden;padding:0;position:absolute!important;word-wrap:normal!important}.gridfeel-sr-only{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;width:1px;margin:-1px;overflow:hidden;padding:0;position:absolute!important;word-wrap:normal!important}body{background:#3b3b3b;font:normal normal 13px"Roboto Slab",Arial,Helvetica,sans-serif;line-height:1.6;margin:0;padding:0}body,button,input{color:#ddd}button,input{font-family:inherit;font-size:inherit}button{max-width:100%}a{color:#ddd;text-decoration:none}h1{font:normal bold 32px"Frank Ruhl Libre",Arial,sans-serif}h2{font:normal bold 28px"Frank Ruhl Libre",Arial,sans-serif}h1,h2{clear:both;line-height:1;margin:.6em 0}h1,h2{color:#fff}h1 a,h3 a{font-weight:inherit}p{margin-bottom:.7em}hr{background-color:#333;border:0;height:1px;margin-bottom:1em;margin-top:1em;border-top:1px solid #090909;border-bottom:1px solid #252525}ol,ul{margin:0 0 1.5em 2em}ul{list-style:disc}ol{list-style:decimal}li>ul{margin-bottom:0;margin-left:1em}img{height:auto;max-width:100%}figure{margin:0}img{max-width:100%;height:auto}iframe{max-width:100%}button,input{font-size:100%;margin:0;vertical-align:baseline}button,input[type=submit]{border:1px solid #6f6f6f;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background:#333;color:#fff;-webkit-appearance:button;font:normal normal 13px Oswald,Arial,Helvetica,sans-serif;line-height:1;padding:.7em 1em .7em;text-transform:uppercase}input[type=radio]{padding:0}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]{color:#666;border:1px solid #ddd;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}input[type=search]{padding:5px}.gridfeel-site-wrapper:after,.gridfeel-site-wrapper:before{content:" ";display:table}.gridfeel-site-wrapper:after{clear:both}.gridfeel-site-wrapper{margin:0 auto 0;padding:0}.gridfeel-outer-wrapper:after,.gridfeel-outer-wrapper:before{content:" ";display:table}.gridfeel-outer-wrapper:after{clear:both}.gridfeel-outer-wrapper{position:relative;max-width:98%;width:1450px;margin:0 auto;padding:0}.gridfeel-container:after,.gridfeel-container:before{content:" ";display:table}.gridfeel-container:after{clear:both}#gridfeel-wrapper{position:relative;margin:20px auto 20px;padding:0}.gridfeel-content-wrapper{position:relative;padding:0;word-wrap:break-word;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-moz-box-orient:horizontal;-moz-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:stretch;-webkit-align-items:stretch;-moz-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-align-content:stretch;-ms-flex-line-pack:stretch;align-content:stretch}.gridfeel-main-wrapper{position:relative;width:57%;margin:0;padding:0;float:left;word-wrap:break-word;overflow:hidden;-webkit-box-flex:0;-webkit-flex:0 0 57%;-moz-box-flex:0;-ms-flex:0 0 57%;flex:0 0 57%;max-width:57%;-webkit-box-ordinal-group:2;-webkit-order:1;-moz-box-ordinal-group:2;-ms-flex-order:1;order:1}.gridfeel-sidebar-one-wrapper{position:relative;width:21.2%;margin:0;padding:0;float:left;word-wrap:break-word;overflow:hidden;-webkit-box-flex:0;-webkit-flex:0 0 21.2%;-moz-box-flex:0;-ms-flex:0 0 21.2%;flex:0 0 21.2%;max-width:21.2%;-webkit-box-ordinal-group:1;-webkit-order:0;-moz-box-ordinal-group:1;-ms-flex-order:0;order:0}.gridfeel-sidebar-two-wrapper{position:relative;width:21.2%;margin:0;padding:0;float:left;word-wrap:break-word;overflow:hidden;-webkit-box-flex:0;-webkit-flex:0 0 21.2%;-moz-box-flex:0;-ms-flex:0 0 21.2%;flex:0 0 21.2%;max-width:21.2%;-webkit-box-ordinal-group:3;-webkit-order:2;-moz-box-ordinal-group:3;-ms-flex-order:2;order:2}.gridfeel-main-wrapper-inside{padding:0}.gridfeel-sidebar-one-wrapper-inside{padding:0 15px 0 0}.gridfeel-sidebar-two-wrapper-inside{padding:0 0 0 15px}.gridfeel-layout-s1-c-s2 .gridfeel-main-wrapper{width:57%;-webkit-box-flex:0;-webkit-flex:0 0 57%;-ms-flex:0 0 57%;flex:0 0 57%;max-width:57%;-webkit-box-ordinal-group:2;-webkit-order:1;-ms-flex-order:1;order:1}.gridfeel-layout-s1-c-s2 .gridfeel-sidebar-one-wrapper{width:21.2%;-webkit-box-flex:0;-webkit-flex:0 0 21.2%;-ms-flex:0 0 21.2%;flex:0 0 21.2%;max-width:21.2%;-webkit-box-ordinal-group:1;-webkit-order:0;-ms-flex-order:0;order:0}.gridfeel-layout-s1-c-s2 .gridfeel-sidebar-two-wrapper{width:21.2%;-webkit-box-flex:0;-webkit-flex:0 0 21.2%;-ms-flex:0 0 21.2%;flex:0 0 21.2%;max-width:21.2%;-webkit-box-ordinal-group:3;-webkit-order:2;-ms-flex-order:2;order:2}.gridfeel-layout-s1-c-s2 .gridfeel-main-wrapper-inside{padding:0}.gridfeel-layout-s1-c-s2 .gridfeel-sidebar-one-wrapper-inside{padding:0 15px 0 0}.gridfeel-layout-s1-c-s2 .gridfeel-sidebar-two-wrapper-inside{padding:0 0 0 15px}@media only screen and (max-width:1276px){.gridfeel-outer-wrapper{max-width:98%}}@media only screen and (max-width:960px){.gridfeel-outer-wrapper{max-width:95%}.gridfeel-main-wrapper{width:100%;float:none;-webkit-box-flex:0;-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;-webkit-box-ordinal-group:1;-webkit-order:0;-ms-flex-order:0;order:0}.gridfeel-sidebar-one-wrapper{width:100%;float:none;-webkit-box-flex:0;-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;-webkit-box-ordinal-group:2;-webkit-order:1;-ms-flex-order:1;order:1}.gridfeel-sidebar-two-wrapper{width:100%;float:none;-webkit-box-flex:0;-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;-webkit-box-ordinal-group:3;-webkit-order:2;-ms-flex-order:2;order:2}.gridfeel-layout-s1-c-s2 .gridfeel-main-wrapper{width:100%;float:none;-webkit-box-flex:0;-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;-webkit-box-ordinal-group:1;-webkit-order:0;-ms-flex-order:0;order:0}.gridfeel-layout-s1-c-s2 .gridfeel-sidebar-one-wrapper{width:100%;float:none;-webkit-box-flex:0;-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;-webkit-box-ordinal-group:2;-webkit-order:1;-ms-flex-order:1;order:1}.gridfeel-layout-s1-c-s2 .gridfeel-sidebar-two-wrapper{width:100%;float:none;-webkit-box-flex:0;-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;-webkit-box-ordinal-group:3;-webkit-order:2;-ms-flex-order:2;order:2}.gridfeel-main-wrapper-inside{padding:0!important}.gridfeel-sidebar-one-wrapper-inside{padding:0!important}.gridfeel-sidebar-two-wrapper-inside{padding:0!important}}.gridfeel-site-header{clear:both;margin:0 auto 0;padding:0;border-bottom:none!important;position:relative;z-index:50}.gridfeel-head-content{margin:0 auto;padding:0;position:relative;z-index:98}.gridfeel-header-inside{background:#262626}.gridfeel-header-inside-content{padding:10px}.gridfeel-layout-type-full .gridfeel-header-inside-content{padding-left:0!important;padding-right:0!important}.gridfeel-header-inside-container{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-moz-box-orient:horizontal;-moz-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:stretch;-webkit-align-items:stretch;-moz-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-align-content:stretch;-ms-flex-line-pack:stretch;align-content:stretch}.gridfeel-logo{float:left;width:40%;-webkit-box-flex:0;-webkit-flex:0 0 40%;-moz-box-flex:0;-ms-flex:0 0 40%;flex:0 0 40%;max-width:40%;-webkit-box-ordinal-group:1;-webkit-order:0;-moz-box-ordinal-group:1;-ms-flex-order:0;order:0;margin:0;text-align:left}.gridfeel-header-banner{float:left;width:59.4%;-webkit-box-flex:0;-webkit-flex:0 0 59.4%;-moz-box-flex:0;-ms-flex:0 0 59.4%;flex:0 0 59.4%;max-width:59.4%;-webkit-box-ordinal-group:2;-webkit-order:1;-moz-box-ordinal-group:2;-ms-flex-order:1;order:1;margin:0;text-align:right}@media only screen and (max-width:1112px){.gridfeel-logo{float:none;width:100%;-webkit-box-flex:0;-webkit-flex:0 0 100%;-moz-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;-webkit-box-ordinal-group:1;-webkit-order:0;-moz-box-ordinal-group:1;-ms-flex-order:0;order:0;text-align:center}.gridfeel-header-banner{float:none;width:100%;-webkit-box-flex:0;-webkit-flex:0 0 100%;-moz-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;-webkit-box-ordinal-group:2;-webkit-order:1;-moz-box-ordinal-group:2;-ms-flex-order:1;order:1;margin:15px 0 0 0;text-align:center}}.gridfeel-site-title{font:normal bold 22px"Frank Ruhl Libre",Arial,Helvetica,sans-serif;margin:0 0 15px 0;line-height:1!important;color:#fff;text-transform:none}.gridfeel-site-title a{color:#fff;text-decoration:none}.gridfeel-site-description{font:normal normal 13px"Roboto Slab",Arial,Helvetica,sans-serif;line-height:1!important;color:#fff;margin:0 0 5px 0;text-transform:none}.gridfeel-primary-menu-container-inside{position:relative}.gridfeel-nav-primary:before{content:" ";display:table}.gridfeel-nav-primary:after{clear:both;content:" ";display:table}.gridfeel-nav-primary{float:none;background:#2b2b2b;border-top:1px solid #4a4e53;border-bottom:2px solid #67080b;-webkit-box-shadow:0 2px 2px rgba(0,0,0,.5);-moz-box-shadow:0 2px 2px rgba(0,0,0,.5);box-shadow:0 2px 2px rgba(0,0,0,.5)}.gridfeel-primary-nav-menu{line-height:1;margin:0;padding:0;width:100%;list-style:none;list-style-type:none}.gridfeel-primary-nav-menu li{border-width:0;display:inline-block;margin:0;padding-bottom:0;text-align:left;float:left}.gridfeel-primary-nav-menu a{border:none;color:#fff;text-shadow:0 1px 0#000;display:block;padding:15px;position:relative}.gridfeel-primary-nav-menu a{font:normal normal 13px Oswald,Arial,Helvetica,sans-serif;line-height:1}.gridfeel-primary-nav-menu>li>a{text-transform:uppercase}.gridfeel-primary-responsive-menu-icon{display:none;margin:0;text-align:left;padding:6px 10px;border:none;background:0 0;text-shadow:inherit;font:normal normal 13px Oswald,Arial,Helvetica,sans-serif;line-height:24px;text-transform:uppercase;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;color:#fff}.gridfeel-primary-responsive-menu-icon::before{content:"";font-family:"Font Awesome 5 Free";font-size:24px;font-weight:900;text-decoration:none;vertical-align:top;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;color:#fff;margin:0 6px 0 0}.gridfeel-primary-nav-menu>li>a{border-left:1px solid #444}.gridfeel-primary-nav-menu>li>a{border-right:1px solid #090909}.gridfeel-primary-nav-menu>li:first-of-type>a{border-left:0 solid #444}.gridfeel-primary-nav-menu>li:last-of-type>a{border-right:0px solid #090909}@media only screen and (min-width:1113px){.gridfeel-primary-menu-centered .gridfeel-primary-nav-menu{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-moz-box-orient:horizontal;-moz-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:stretch;-webkit-align-items:stretch;-moz-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-align-content:stretch;-ms-flex-line-pack:stretch;align-content:stretch}}@media only screen and (max-width:1112px){.gridfeel-primary-mobile-menu-active #gridfeel-primary-navigation{margin-left:0;margin-right:0}.gridfeel-primary-mobile-menu-active .gridfeel-primary-nav-menu li{float:none}.gridfeel-primary-mobile-menu-active .gridfeel-primary-nav-menu{text-align:center}.gridfeel-primary-mobile-menu-active .gridfeel-primary-responsive-menu-icon{display:block}}.gridfeel-post-singular{position:relative;padding:0!important;margin:0 0 20px 0!important;word-break:normal;word-wrap:break-word;overflow:hidden}.gridfeel-post-thumbnail-single{position:relative;margin:-12px -12px 10px -12px}.gridfeel-single-media-under-title .gridfeel-post-singular .gridfeel-post-thumbnail-single{margin:0 0 10px 0!important}.gridfeel-post-thumbnail-single-link{display:block}.gridfeel-post-thumbnail-single-img{display:block;padding:0;margin:0 auto;text-align:center;opacity:1;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;backface-visibility:hidden}.gridfeel-full-width-thumbnail .gridfeel-post-thumbnail-single-img{width:100%}.gridfeel-entry-meta-single{margin:10px 0 0 0;text-align:center;color:#ada8a8;font:normal normal 12px Oswald,Arial,Helvetica,sans-serif;text-transform:uppercase;line-height:1}.gridfeel-entry-meta-single a{color:#ada8a8}.gridfeel-entry-meta-single i{vertical-align:top}.gridfeel-entry-meta-single-comments{margin:0 10px 0 0;display:inline-block}.gridfeel-entry-meta-single-comments a{display:inline-block}.gridfeel-entry-meta-single>span:last-child{margin-right:0}.entry-header{text-shadow:0 1px 0#000;margin:0 0 10px 0;text-align:center}.entry-header-inside{padding:0}.entry-title{position:relative;font:normal bold 24px"Frank Ruhl Libre",Arial,Helvetica,sans-serif;color:#fff;margin:0 0 15px 0;line-height:1.1;text-align:center;letter-spacing:-.2px;text-transform:none}@media only screen and (max-width:720px){.entry-title{font-size:22px;line-height:1.1}}@media only screen and (max-width:413px){.entry-title{font-size:22px;line-height:1.1}}.entry-title a{color:#fff}.entry-content{position:relative;margin:10px 0;font-size:14px;line-height:1.7}.entry-content p{margin-bottom:12px}.entry-content p:last-child{margin-bottom:0}.entry-content ol,.entry-content ul{margin:10px 20px}.entry-content ul{list-style:disc outside}.entry-content ol{list-style:decimal outside}.entry-content a{text-decoration:underline;color:#3cffd0}@media only screen and (max-width:360px){.entry-content{margin-top:5px}}.aligncenter{clear:both;display:block;padding:0;margin:0 auto 10px auto}.comment-respond #cancel-comment-reply-link{font-size:14px;font-weight:400;margin-left:1em}.comment-form label{display:inline-block;min-width:6em;padding-right:1em}.comments-area .comment-reply-title a{color:#fff}.gridfeel-sidebar-widget-areas .widget{position:relative;padding:0;margin-bottom:25px;word-break:normal;word-wrap:break-word;overflow:hidden}.gridfeel-sidebar-widget-areas .widget .gridfeel-widget-header{margin:-10px -10px 10px -10px;padding:0;position:relative;background:#000;border-bottom:1px solid #090909}.gridfeel-sidebar-widget-areas .widget .gridfeel-widget-title{font:normal normal 14px Oswald,Arial,Helvetica,sans-serif;line-height:1;color:#fff;text-shadow:0 1px 0#000;margin:0;padding:0;text-transform:uppercase;text-align:center;position:relative;border-bottom:1px solid #666}.gridfeel-sidebar-widget-areas .widget .gridfeel-widget-title .gridfeel-widget-title-inside{padding:8px 10px;display:inline-block;position:relative;vertical-align:bottom}.gridfeel-sidebar-widget-areas .widget a{color:#ddd}.gridfeel-sidebar-widget-areas .widget ul{margin:0;padding:0;list-style:none;list-style-type:none}.gridfeel-sidebar-widget-areas .widget li{margin:0;padding:6px 0 6px 0;border-bottom:0 solid #f1f1f1}.gridfeel-sidebar-widget-areas .widget li li{padding:6px 0 6px 10px;line-height:1.8}.gridfeel-sidebar-widget-areas .widget ul>li:first-child{padding-top:0}.gridfeel-sidebar-widget-areas .widget li:last-child{padding-bottom:0;border-bottom:none}.gridfeel-widget-box{padding:0;background:#212121;border:1px solid #090909}.gridfeel-widget-box-inside{position:relative;padding:10px;margin:0;border:1px solid #666}.gridfeel-search-form{position:relative}.gridfeel-search-form input{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input.gridfeel-search-field{padding:8px 10px;line-height:1;font-size:inherit}input.gridfeel-search-submit{padding:8px 10px;line-height:1;font-size:inherit}input.gridfeel-search-field{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;width:100%;border:1px solid #ddd;height:35px}input.gridfeel-search-submit{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;position:absolute;top:0;right:0;height:35px;font-family:"Font Awesome 5 Free"!important;font-size:inherit!important;font-weight:900!important}.gridfeel-scroll-top{background:#000;color:#fff;border:1px solid #000;display:block;width:30px;height:30px;opacity:.4;position:fixed;bottom:20px;right:20px;z-index:200;font-size:14px;line-height:1;padding:7px;text-shadow:0 1px 0#000}.gridfeel-box{padding:0;background:#212121;border:1px solid #090909}.gridfeel-box-inside{position:relative;border:1px solid #444;padding:12px}.far,.fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:var(--fa-display,inline-block);font-style:normal;font-variant:normal;line-height:1;text-rendering:auto}.fa-arrow-up:before{content:""}.fa-comments:before{content:""}@font-face{font-family:"Font Awesome 6 Free";font-style:normal;font-weight:400;font-display:block}.far{font-family:"Font Awesome 6 Free";font-weight:400}@font-face{font-family:"Font Awesome 6 Free";font-style:normal;font-weight:900;font-display:block}.fas{font-family:"Font Awesome 6 Free";font-weight:900}@font-face{font-family:"Font Awesome 5 Free";font-display:block;font-weight:900}@font-face{font-family:"Font Awesome 5 Free";font-display:block;font-weight:400}.screen-reader-text{clip:rect(1px,1px,1px,1px);word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute!important;width:1px}}</style><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v21.3 (Yoast SEO v21.3) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Crispy Chicken Strips - Kenny McGovern - Recipe</title>
+	<meta name="description" content="Coated with panko breadcrumbs, these Crispy Chicken Strips are perfect served alongside fresh coleslaw &amp; your favourite dips. Get the recipe here!" />
+	<link rel="canonical" href="https://kennymcgovern.com/crispy-chicken-strips" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Crispy Chicken Strips" />
+	<meta property="og:description" content="Coated with panko breadcrumbs, these Crispy Chicken Strips are perfect served alongside fresh coleslaw &amp; your favourite dips. Get the recipe here!" />
+	<meta property="og:url" content="https://kennymcgovern.com/crispy-chicken-strips" />
+	<meta property="og:site_name" content="Kenny McGovern" />
+	<meta property="article:published_time" content="2020-02-12T15:25:27+00:00" />
+	<meta property="article:modified_time" content="2022-03-05T18:04:34+00:00" />
+	<meta property="og:image" content="https://kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg" />
+	<meta property="og:image:width" content="2560" />
+	<meta property="og:image:height" content="1920" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Kenny McGovern" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@takeawaysecret" />
+	<meta name="twitter:site" content="@takeawaysecret" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Kenny McGovern" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="2 minutes" />
+
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//i0.wp.com' />
+<link rel='dns-prefetch' href='//pagead2.googlesyndication.com' />
+<link rel="alternate" type="application/rss+xml" title="Kenny McGovern &raquo; Feed" href="https://kennymcgovern.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="Kenny McGovern &raquo; Comments Feed" href="https://kennymcgovern.com/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="Kenny McGovern &raquo; Crispy Chicken Strips Comments Feed" href="https://kennymcgovern.com/crispy-chicken-strips/feed" />
+
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<noscript><link rel='stylesheet' id='all-css-12ffdfad45509174818f6b6edc3d514e' href='https://kennymcgovern.com/_jb_static/??-eJyNkMFOAzEMRP+GE6lZiRY4VHxLNjvduuukUewVyt83y/bQigq42ZM3Hsf0lR2nIPMApaBKA6tRL+cwOeG++FJJrQo2kdOmAc906zgpRQzsIYhIdtdk8RXFCUYf6v/s7e22vzOFc7KFyTKPnHSRCgJnuOgnFDLElmht6irTGkzm1XCYRapTbgh+Kg9z7Nh2UBoLDwdArlf4i/KqsPWSXuTXD5xg2Yfpm73WC/sZ993uY/u+e3l9655Cv+8uViSdYg==' type='text/css' media='all' /></noscript><link rel='stylesheet' id='all-css-12ffdfad45509174818f6b6edc3d514e' href='https://kennymcgovern.com/_jb_static/??-eJyNkMFOAzEMRP+GE6lZiRY4VHxLNjvduuukUewVyt83y/bQigq42ZM3Hsf0lR2nIPMApaBKA6tRL+cwOeG++FJJrQo2kdOmAc906zgpRQzsIYhIdtdk8RXFCUYf6v/s7e22vzOFc7KFyTKPnHSRCgJnuOgnFDLElmht6irTGkzm1XCYRapTbgh+Kg9z7Nh2UBoLDwdArlf4i/KqsPWSXuTXD5xg2Yfpm73WC/sZ993uY/u+e3l9655Cv+8uViSdYg==' type='text/css' media="not all" data-media="all" onload="this.media=this.dataset.media; delete this.dataset.media; this.removeAttribute( 'onload' );" />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<style id='gridfeel-maincss-inline-css'>
+.gridfeel-masonry-inactive .gridfeel-grid-post{height:220px;}
+</style>
+<style id='wp-block-library-theme-inline-css'>
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<style id='ce4wp-subscribe-style-inline-css'>
+.wp-block-ce4wp-subscribe{max-width:840px;margin:0 auto}.wp-block-ce4wp-subscribe .title{margin-bottom:0}.wp-block-ce4wp-subscribe .subTitle{margin-top:0;font-size:0.8em}.wp-block-ce4wp-subscribe .disclaimer{margin-top:5px;font-size:0.8em}.wp-block-ce4wp-subscribe .disclaimer .disclaimer-label{margin-left:10px}.wp-block-ce4wp-subscribe .inputBlock{width:100%;margin-bottom:10px}.wp-block-ce4wp-subscribe .inputBlock input{width:100%}.wp-block-ce4wp-subscribe .inputBlock label{display:inline-block}.wp-block-ce4wp-subscribe .submit-button{margin-top:25px;display:block}.wp-block-ce4wp-subscribe .required-text{display:inline-block;margin:0;padding:0;margin-left:0.3em}.wp-block-ce4wp-subscribe .onSubmission{height:0;max-width:840px;margin:0 auto}.wp-block-ce4wp-subscribe .firstNameSummary .lastNameSummary{text-transform:capitalize}.wp-block-ce4wp-subscribe .ce4wp-inline-notification{display:flex;flex-direction:row;align-items:center;padding:13px 10px;width:100%;height:40px;border-style:solid;border-color:orange;border-width:1px;border-left-width:4px;border-radius:3px;background:rgba(255,133,15,0.1);flex:none;order:0;flex-grow:1;margin:0px 0px}.wp-block-ce4wp-subscribe .ce4wp-inline-warning-text{font-style:normal;font-weight:normal;font-size:16px;line-height:20px;display:flex;align-items:center;color:#571600;margin-left:9px}.wp-block-ce4wp-subscribe .ce4wp-inline-warning-icon{color:orange}.wp-block-ce4wp-subscribe .ce4wp-inline-warning-arrow{color:#571600;margin-left:auto}.wp-block-ce4wp-subscribe .ce4wp-banner-clickable{cursor:pointer}.ce4wp-link{cursor:pointer}
+
+.no-flex{display:block}.sub-header{margin-bottom:1em}
+
+
+</style>
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<noscript><link rel='stylesheet' id='gridfeel-webfont-css' href='//fonts.googleapis.com/css?family=Roboto+Slab:400,700|Oswald:400,700|Frank+Ruhl+Libre:400,700|Bree+Serif&#038;display=swap' media='all' />
+</noscript><link rel='stylesheet' id='gridfeel-webfont-css' href='//fonts.googleapis.com/css?family=Roboto+Slab:400,700|Oswald:400,700|Frank+Ruhl+Libre:400,700|Bree+Serif&#038;display=swap' media="not all" data-media="all" onload="this.media=this.dataset.media; delete this.dataset.media; this.removeAttribute( 'onload' );" />
+
+
+
+<!-- Google Analytics snippet added by Site Kit -->
+
+
+
+<!-- End Google Analytics snippet added by Site Kit -->
+<link rel="https://api.w.org/" href="https://kennymcgovern.com/wp-json/" /><link rel="alternate" type="application/json" href="https://kennymcgovern.com/wp-json/wp/v2/posts/1741" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://kennymcgovern.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.3.1" />
+<link rel='shortlink' href='https://kennymcgovern.com/?p=1741' />
+<link rel="alternate" type="application/json+oembed" href="https://kennymcgovern.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkennymcgovern.com%2Fcrispy-chicken-strips" />
+<link rel="alternate" type="text/xml+oembed" href="https://kennymcgovern.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkennymcgovern.com%2Fcrispy-chicken-strips&#038;format=xml" />
+<meta name="generator" content="Site Kit by Google 1.111.0" /><style type="text/css"> html body .wprm-recipe-container { color: #333333; } html body .wprm-recipe-container a.wprm-recipe-print { color: #333333; } html body .wprm-recipe-container a.wprm-recipe-print:hover { color: #333333; } html body .wprm-recipe-container .wprm-recipe { background-color: #ffffff; } html body .wprm-recipe-container .wprm-recipe { border-color: #aaaaaa; } html body .wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-time-container { border-color: #aaaaaa; } html body .wprm-recipe-container .wprm-recipe .wprm-color-border { border-color: #aaaaaa; } html body .wprm-recipe-container a { color: #000000; } html body .wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-name { color: #000000; } html body .wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-header { color: #000000; } html body .wprm-recipe-container h1 { color: #000000; } html body .wprm-recipe-container h2 { color: #000000; } html body .wprm-recipe-container h3 { color: #000000; } html body .wprm-recipe-container h4 { color: #000000; } html body .wprm-recipe-container h5 { color: #000000; } html body .wprm-recipe-container h6 { color: #000000; } html body .wprm-recipe-container svg path { fill: #343434; } html body .wprm-recipe-container svg rect { fill: #343434; } html body .wprm-recipe-container svg polygon { stroke: #343434; } html body .wprm-recipe-container .wprm-rating-star-full svg polygon { fill: #343434; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent { background-color: #2c3e50; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent a.wprm-recipe-print { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent a.wprm-recipe-print:hover { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-header { background-color: #2c3e50; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-header { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-meta > div { background-color: #3498db; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-meta > div { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-meta > div a.wprm-recipe-print { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-meta > div a.wprm-recipe-print:hover { color: #ffffff; } .wprm-rating-star svg polygon { stroke: #343434; } .wprm-rating-star.wprm-rating-star-full svg polygon { fill: #343434; } html body .wprm-recipe-container .wprm-recipe-instruction-image { text-align: left; } html body .wprm-recipe-container li.wprm-recipe-ingredient { list-style-type: disc; } html body .wprm-recipe-container li.wprm-recipe-instruction { list-style-type: decimal; } .tippy-box[data-theme~="wprm"] { background-color: #333333; color: #FFFFFF; } .tippy-box[data-theme~="wprm"][data-placement^="top"] > .tippy-arrow::before { border-top-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="bottom"] > .tippy-arrow::before { border-bottom-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="left"] > .tippy-arrow::before { border-left-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="right"] > .tippy-arrow::before { border-right-color: #333333; } .tippy-box[data-theme~="wprm"] a { color: #FFFFFF; } .wprm-comment-rating svg { width: 18px !important; height: 18px !important; } img.wprm-comment-rating { width: 90px !important; height: 18px !important; } .wprm-comment-rating svg path { fill: #343434; } .wprm-comment-rating svg polygon { stroke: #343434; } .wprm-comment-ratings-container svg .wprm-star-full { fill: #343434; } .wprm-comment-ratings-container svg .wprm-star-empty { stroke: #343434; }</style><style type="text/css">.wprm-glossary-term {color: #5A822B;text-decoration: underline;cursor: help;}</style>	<style>img#wpstats{display:none}</style>
+		<link rel="pingback" href="https://kennymcgovern.com/xmlrpc.php">
+<!-- Google AdSense snippet added by Site Kit -->
+<meta name="google-adsense-platform-account" content="ca-host-pub-2644536267352236">
+<meta name="google-adsense-platform-domain" content="sitekit.withgoogle.com">
+<!-- End Google AdSense snippet added by Site Kit -->
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>    <style type="text/css">
+            .gridfeel-site-title, .gridfeel-site-title a, .gridfeel-site-description {color: #ffffff;}
+        </style>
+    			<style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style>
+
+
+<!-- Google AdSense snippet added by Site Kit -->
+
+
+<!-- End Google AdSense snippet added by Site Kit -->
+<link rel="icon" href="https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2022/03/cropped-The-Takeaway-Secret-Front-Cover-1.jpg?fit=32%2C32&#038;ssl=1" sizes="32x32" />
+<link rel="icon" href="https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2022/03/cropped-The-Takeaway-Secret-Front-Cover-1.jpg?fit=192%2C192&#038;ssl=1" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2022/03/cropped-The-Takeaway-Secret-Front-Cover-1.jpg?fit=180%2C180&#038;ssl=1" />
+<meta name="msapplication-TileImage" content="https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2022/03/cropped-The-Takeaway-Secret-Front-Cover-1.jpg?fit=270%2C270&#038;ssl=1" />
+</head>
+
+<body class="post-template-default single single-post postid-1741 single-format-standard gridfeel-animated gridfeel-fadein gridfeel-theme-is-active gridfeel-layout-type-full gridfeel-masonry-inactive gridfeel-single-media-under-title gridfeel-layout-s1-c-s2 gridfeel-header-banner-active gridfeel-logo-above-title gridfeel-primary-menu-active gridfeel-primary-mobile-menu-active gridfeel-primary-menu-centered gridfeel-secondary-menu-inactive gridfeel-secondary-mobile-menu-active gridfeel-secondary-menu-before-header gridfeel-grid-post-thumbnail-position-initial gridfeel-table-css-active gridfeel-unresponsive-grid-data gridfeel-full-width-thumbnail" id="gridfeel-site-body" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+<a class="skip-link screen-reader-text" href="#gridfeel-posts-wrapper">Skip to content</a>
+
+<div class="gridfeel-site-wrapper">
+
+
+
+
+<div class="gridfeel-site-header gridfeel-container" id="gridfeel-header" itemscope="itemscope" itemtype="http://schema.org/WPHeader" role="banner">
+<div class="gridfeel-head-content gridfeel-clearfix" id="gridfeel-head-content">
+
+<div class="gridfeel-header-inside gridfeel-clearfix">
+<div class="gridfeel-header-inside-content gridfeel-clearfix">
+<div class="gridfeel-outer-wrapper">
+<div class="gridfeel-header-inside-container">
+
+<div class="gridfeel-logo">
+    <div class="site-branding">
+                  <p class="gridfeel-site-title"><a href="https://kennymcgovern.com/" rel="home">Kenny McGovern</a></p>
+            <p class="gridfeel-site-description">Fast food, street food &amp; more.</p>        </div>
+</div>
+
+<div class="gridfeel-header-banner">
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</div><!--/#gridfeel-head-content -->
+</div><!--/#gridfeel-header -->
+
+
+<div class="gridfeel-container gridfeel-primary-menu-container gridfeel-clearfix">
+<div class="gridfeel-primary-menu-container-inside gridfeel-clearfix">
+<nav class="gridfeel-nav-primary" id="gridfeel-primary-navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" role="navigation" aria-label="Primary Menu">
+<div class="gridfeel-outer-wrapper">
+
+<button class="gridfeel-primary-responsive-menu-icon" aria-controls="gridfeel-menu-primary-navigation" aria-expanded="false">Menu</button>
+<ul id="gridfeel-menu-primary-navigation" class="gridfeel-primary-nav-menu gridfeel-menu-primary"><li ><a href="https://kennymcgovern.com/">Home</a></li><li class="page_item page-item-2"><a href="https://kennymcgovern.com/aboutme">About Me</a></li><li class="page_item page-item-1372"><a href="https://kennymcgovern.com/the-american-diner-secret">The American Diner Secret</a></li><li class="page_item page-item-2323"><a href="https://kennymcgovern.com/the-chinese-takeaway-secret">The Chinese Takeaway Secret</a></li><li class="page_item page-item-2344"><a href="https://kennymcgovern.com/the-indian-takeaway-secret">The Indian Takeaway Secret</a></li><li class="page_item page-item-1017"><a href="https://kennymcgovern.com/the-street-food-secret">The Street Food Secret</a></li><li class="page_item page-item-1013"><a href="https://kennymcgovern.com/the-takeaway-secret-2nd-edition">The Takeaway Secret (2nd edition)</a></li></ul>
+
+</div>
+</nav>
+</div>
+</div>
+
+<div class="gridfeel-outer-wrapper" id="gridfeel-wrapper-outside">
+<div class="gridfeel-container gridfeel-clearfix" id="gridfeel-wrapper">
+
+
+
+
+<div class="gridfeel-content-wrapper gridfeel-clearfix" id="gridfeel-content-wrapper">
+<div class="gridfeel-main-wrapper gridfeel-clearfix" id="gridfeel-main-wrapper" itemscope="itemscope" itemtype="http://schema.org/Blog" role="main">
+<div class="theiaStickySidebar">
+<div class="gridfeel-main-wrapper-inside gridfeel-clearfix">
+
+
+
+
+<div class="gridfeel-left-right-wrapper gridfeel-clearfix">
+
+
+
+</div>
+
+
+<div class="gridfeel-posts-wrapper" id="gridfeel-posts-wrapper">
+
+
+
+<article id="post-1741" class="gridfeel-post-singular gridfeel-box post-1741 post type-post status-publish format-standard has-post-thumbnail hentry category-recipes tag-fried-chicken tag-chicken tag-kfc tag-crispy-chicken tag-chicken-tenders tag-chicken-in-a-basket tag-crispy-chicken-strips wpcat-43-id">
+<div class="gridfeel-box-inside">
+
+
+        <header class="entry-header">
+    <div class="entry-header-inside gridfeel-clearfix">
+                    <h1 class="post-title entry-title"><a href="https://kennymcgovern.com/crispy-chicken-strips" rel="bookmark">Crispy Chicken Strips</a></h1>
+                    <div class="gridfeel-entry-meta-single">
+                <span class="gridfeel-entry-meta-single-comments"><i class="far fa-comments" aria-hidden="true"></i>&nbsp;<a href="https://kennymcgovern.com/crispy-chicken-strips#respond">Leave a Comment<span class="gridfeel-sr-only"> on Crispy Chicken Strips</span></a></span>
+                </div>
+        </div>
+    </header><!-- .entry-header -->
+
+                    <div class="gridfeel-post-thumbnail-single">
+                                    <a href="https://kennymcgovern.com/crispy-chicken-strips" title="Permanent Link to Crispy Chicken Strips" class="gridfeel-post-thumbnail-single-link"><img width="685" height="514" src="https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg?fit=685%2C514&amp;ssl=1" class="gridfeel-post-thumbnail-single-img wp-post-image jetpack-lazy-image" alt decoding="async" title="Crispy Chicken Strips" fetchpriority="high" data-lazy-srcset="https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg?w=2560&amp;ssl=1 2560w, https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg?resize=595%2C446&amp;ssl=1 595w, https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg?resize=960%2C720&amp;ssl=1 960w, https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg?resize=1536%2C1152&amp;ssl=1 1536w, https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg?resize=2048%2C1536&amp;ssl=1 2048w, https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg?resize=500%2C375&amp;ssl=1 500w, https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg?w=1596&amp;ssl=1 1596w, https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg?w=2394&amp;ssl=1 2394w" data-lazy-sizes="(max-width: 685px) 100vw, 685px" data-lazy-src="https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg?fit=685%2C514&amp;ssl=1&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></a>
+                                </div>
+
+    <div class="entry-content gridfeel-clearfix">
+
+<p>Breaded with <a href="https://www.amazon.co.uk/gp/product/B0792FF4VQ/ref=as_li_tl?ie=UTF8&amp;camp=1634&amp;creative=6738&amp;creativeASIN=B0792FF4VQ&amp;linkCode=as2&amp;tag=takeawaysecre-21&amp;linkId=c2b9513605fce01a12a8aa651a1726ac" target="_blank" rel="noopener noreferrer">panko breadcrumbs</a> for added crunch, these crispy chicken strips are very easy to make and can be prepared ahead of time, ready to fry in just a few minutes when it&#8217;s time to eat.&nbsp; Perfect served with fresh coleslaw and a selection of your favourite dipping sauces.</p>
+
+
+<div id="recipe"></div><div id="wprm-recipe-container-1742" class="wprm-recipe-container" data-recipe-id="1742" data-servings="1"><div class="wprm-recipe wprm-recipe-tastefully-simple">
+	<div class="wprm-recipe-image-container">
+				<div class="wprm-recipe-image"></div>
+		<div class="wprm-recipe-buttons">
+			<a href="https://kennymcgovern.com/wprm_print/1742" class="wprm-recipe-print wprm-color-accent" target="_blank" rel="nofollow">Print</a>
+		</div>
+	</div>
+	<div class="wprm-recipe-name wprm-color-header">Crispy Chicken Strips</div>
+		<div class="wprm-recipe-times-container wprm-color-border">
+				<div class="wprm-recipe-time-container wprm-color-border">
+			<div class="wprm-recipe-time-header">Prep Time</div>
+			<div class="wprm-recipe-time"><span class="wprm-recipe-details wprm-recipe-details-minutes wprm-recipe-prep_time wprm-recipe-prep_time-minutes">10</span> <span class="wprm-recipe-details-unit wprm-recipe-details-minutes wprm-recipe-prep_time-unit wprm-recipe-prep_timeunit-minutes">mins</span></div>
+		</div>
+							<div class="wprm-recipe-time-container wprm-color-border">
+				<div class="wprm-recipe-time-header">Cook Time</div>
+				<div class="wprm-recipe-time"><span class="wprm-recipe-details wprm-recipe-details-minutes wprm-recipe-cook_time wprm-recipe-cook_time-minutes">6</span> <span class="wprm-recipe-details-unit wprm-recipe-details-minutes wprm-recipe-cook_time-unit wprm-recipe-cook_timeunit-minutes">mins</span></div>
+			</div>
+									<div class="wprm-recipe-time-container wprm-color-border">
+				<div class="wprm-recipe-time-header">Total Time</div>
+				<div class="wprm-recipe-time"><span class="wprm-recipe-details wprm-recipe-details-minutes wprm-recipe-total_time wprm-recipe-total_time-minutes">16</span> <span class="wprm-recipe-details-unit wprm-recipe-details-minutes wprm-recipe-total_time-unit wprm-recipe-total_timeunit-minutes">mins</span></div>
+			</div>
+				<div class="wprm-clear-left">&nbsp;</div>
+	</div>
+		<div class="wprm-recipe-summary">
+			</div>
+	<div class="wprm-recipe-details-container">
+					<div class="wprm-recipe-course-container">
+				<span class="wprm-recipe-details-name wprm-recipe-course-name">Course:</span>
+				<span class="wprm-recipe-course">
+					Appetizer, Side Dish, Snack				</span>
+			</div>
+					<div class="wprm-recipe-cuisine-container">
+				<span class="wprm-recipe-details-name wprm-recipe-cuisine-name">Cuisine:</span>
+				<span class="wprm-recipe-cuisine">
+					American				</span>
+			</div>
+					<div class="wprm-recipe-keyword-container">
+				<span class="wprm-recipe-details-name wprm-recipe-keyword-name">Keyword:</span>
+				<span class="wprm-recipe-keyword">
+					chicken, crispy chicken, kfc, fried chicken				</span>
+			</div>
+						<div class="wprm-recipe-servings-container">
+			<span class="wprm-recipe-details-name wprm-recipe-servings-name">Servings</span>: <span class="wprm-recipe-details wprm-recipe-servings wprm-recipe-servings-1742">1</span> <span class="wprm-recipe-details-unit wprm-recipe-servings-unit">portion</span>
+		</div>
+							</div>
+
+		<div class="wprm-recipe-ingredients-container">
+		<div class="wprm-recipe-header wprm-color-header">Ingredients</div>
+				<div class="wprm-recipe-ingredient-group">
+						<div class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">Breading Prep</div>
+						<ul class="wprm-recipe-ingredients">
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">8</span>
+															<span class="wprm-recipe-ingredient-unit">tablespoons</span>
+										<span class="wprm-recipe-ingredient-name">panko breadcrumbs</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">4</span>
+															<span class="wprm-recipe-ingredient-unit">tablespoons</span>
+										<span class="wprm-recipe-ingredient-name">plain flour</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">1/4</span>
+															<span class="wprm-recipe-ingredient-unit">teaspoon</span>
+										<span class="wprm-recipe-ingredient-name">garlic powder</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">1/4</span>
+															<span class="wprm-recipe-ingredient-unit">teaspoon</span>
+										<span class="wprm-recipe-ingredient-name">onion granules</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">1/4</span>
+															<span class="wprm-recipe-ingredient-unit">teaspoon</span>
+										<span class="wprm-recipe-ingredient-name">cayenne pepper</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">1/4</span>
+															<span class="wprm-recipe-ingredient-unit">teaspoon</span>
+										<span class="wprm-recipe-ingredient-name">dried Italian herbs</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">1/2</span>
+															<span class="wprm-recipe-ingredient-unit">teaspoon</span>
+										<span class="wprm-recipe-ingredient-name">sea salt</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">1/4</span>
+															<span class="wprm-recipe-ingredient-unit">teaspoon</span>
+										<span class="wprm-recipe-ingredient-name">black pepper</span>
+									</li>
+							</ul>
+		</div>
+	 		<div class="wprm-recipe-ingredient-group">
+						<div class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">Flour dusting prep</div>
+						<ul class="wprm-recipe-ingredients">
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">4</span>
+															<span class="wprm-recipe-ingredient-unit">tablespoons</span>
+										<span class="wprm-recipe-ingredient-name">plain flour</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">1/4</span>
+															<span class="wprm-recipe-ingredient-unit">teaspoon</span>
+										<span class="wprm-recipe-ingredient-name">sea salt</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">Pinch</span>
+															<span class="wprm-recipe-ingredient-name">black pepper</span>
+									</li>
+							</ul>
+		</div>
+	 		<div class="wprm-recipe-ingredient-group">
+						<div class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">Egg prep</div>
+						<ul class="wprm-recipe-ingredients">
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">1</span>
+															<span class="wprm-recipe-ingredient-name">egg</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">3</span>
+															<span class="wprm-recipe-ingredient-unit">tablespoons</span>
+										<span class="wprm-recipe-ingredient-name">milk</span>
+									</li>
+							</ul>
+		</div>
+	 		<div class="wprm-recipe-ingredient-group">
+						<div class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">Chicken prep</div>
+						<ul class="wprm-recipe-ingredients">
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">1</span>
+															<span class="wprm-recipe-ingredient-name">skinless, boneless chicken breast fillet</span>
+										<span class="wprm-recipe-ingredient-notes">around 114g</span>
+									</li>
+							</ul>
+		</div>
+	 		<div class="wprm-recipe-ingredient-group">
+						<div class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">Time to cook!</div>
+						<ul class="wprm-recipe-ingredients">
+								<li class="wprm-recipe-ingredient">
+															<span class="wprm-recipe-ingredient-name">vegetable oil</span>
+										<span class="wprm-recipe-ingredient-notes">for deep frying</span>
+									</li>
+							</ul>
+		</div>
+	 	 	</div>
+			<div class="wprm-recipe-instructions-container">
+		<div class="wprm-recipe-header wprm-color-header">Instructions</div>
+				<div class="wprm-recipe-instruction-group">
+						<div class="wprm-recipe-group-name wprm-recipe-instruction-group-name">Breading prep</div>
+						<ol class="wprm-recipe-instructions">
+								<li class="wprm-recipe-instruction">
+										<div class="wprm-recipe-instruction-text"><p>In a large bowl, add panko breadcrumbs, plain flour, garlic powder, onion granules, cayenne pepper, dried Italian herbs, sea salt &amp; black pepper.  Mix well.</p></div>
+														</li>
+							</ol>
+		</div>
+				<div class="wprm-recipe-instruction-group">
+						<div class="wprm-recipe-group-name wprm-recipe-instruction-group-name">Flour dusting prep</div>
+						<ol class="wprm-recipe-instructions">
+								<li class="wprm-recipe-instruction">
+										<div class="wprm-recipe-instruction-text"><p>On a plate, mix plain flour, sea salt &amp; black pepper.  Mix well.</p></div>
+														</li>
+							</ol>
+		</div>
+				<div class="wprm-recipe-instruction-group">
+						<div class="wprm-recipe-group-name wprm-recipe-instruction-group-name">Egg prep</div>
+						<ol class="wprm-recipe-instructions">
+								<li class="wprm-recipe-instruction">
+										<div class="wprm-recipe-instruction-text"><p>In a bowl, combine egg and milk and whisk thoroughly.</p></div>
+														</li>
+							</ol>
+		</div>
+				<div class="wprm-recipe-instruction-group">
+						<div class="wprm-recipe-group-name wprm-recipe-instruction-group-name">Chicken prep</div>
+						<ol class="wprm-recipe-instructions">
+								<li class="wprm-recipe-instruction">
+										<div class="wprm-recipe-instruction-text"><p>Cut the chicken into 6-7 strips.  Dip a chicken strip firstly into the plate of seasoned flour, then into the egg / milk mixture and finally into the breadcrumb mix, pressing well to ensure the chicken strip is nicely coated with breadcrumbs.  Set the breaded chicken strip aside on a plate and repeat the process until all of the chicken strips are coated.  At this stage the chicken strips are ready to cook, or can be covered and kept aside in the fridge for up to 24 hours.</p></div>
+														</li>
+							</ol>
+		</div>
+				<div class="wprm-recipe-instruction-group">
+						<div class="wprm-recipe-group-name wprm-recipe-instruction-group-name">Time to cook!</div>
+						<ol class="wprm-recipe-instructions">
+								<li class="wprm-recipe-instruction">
+										<div class="wprm-recipe-instruction-text"><p>Heat oil for deep frying to around 180c.  Carefully place each breaded chicken strip into the hot oil and fry for around 6 minutes, turning occasionally until the chicken strips are crispy and golden.  Lift the chicken strips from the oil using a slotted spoon, drain off any excess oil and set aside on a plate.</p></div>
+														</li>
+								<li class="wprm-recipe-instruction">
+										<div class="wprm-recipe-instruction-text"><p>Serve the crispy chicken strips with hot sauce, BBQ sauce or ranch dressing.</p></div>
+														</li>
+							</ol>
+		</div>
+			</div>
+				<div class="wprm-recipe-notes-container">
+		<div class="wprm-recipe-header wprm-color-header">Recipe Notes</div>
+		<p><a href="https://www.amazon.co.uk/gp/product/B0792FF4VQ/ref=as_li_tl?ie=UTF8&amp;camp=1634&amp;creative=6738&amp;creativeASIN=B0792FF4VQ&amp;linkCode=as2&amp;tag=takeawaysecre-21&amp;linkId=c2b9513605fce01a12a8aa651a1726ac" target="_blank" rel="noopener">Panko breadcrumbs</a> are a Japanese style crumb mix made with bread without crusts.&nbsp; The bread is coarsely crushed, resulting in fine shards of crumb which make for a perfectly light, crispy texture.&nbsp; You&#8217;ll find <a href="https://www.amazon.co.uk/gp/product/B0792FF4VQ/ref=as_li_tl?ie=UTF8&amp;camp=1634&amp;creative=6738&amp;creativeASIN=B0792FF4VQ&amp;linkCode=as2&amp;tag=takeawaysecre-21&amp;linkId=c2b9513605fce01a12a8aa651a1726ac" target="_blank" rel="noopener">panko breadcrumbs</a> in any large supermarket or in Chinese supermarkets &#8211; alternatively you can <a href="https://www.amazon.co.uk/gp/product/B0792FF4VQ/ref=as_li_tl?ie=UTF8&amp;camp=1634&amp;creative=6738&amp;creativeASIN=B0792FF4VQ&amp;linkCode=as2&amp;tag=takeawaysecre-21&amp;linkId=c2b9513605fce01a12a8aa651a1726ac" target="_blank" rel="noopener">click here</a> to order some online and help support this site!</p>
+	</div>
+		</div>
+</div>
+
+
+<p><br>If you like this Crispy Chicken Strips recipe, you might be interested in buying my book: <a href="https://kennymcgovern.com/americandinersecret" target="_blank" rel="noopener noreferrer">The American Diner Secret</a><img decoding="async" style="border: none !important; margin: 0px !important;" src="//ir-uk.amazon-adsystem.com/e/ir?t=takeawaysecre-21&amp;l=am2&amp;o=2&amp;a=1472140052" alt width="1" height="1" border="0" data-lazy-src="//ir-uk.amazon-adsystem.com/e/ir?t=takeawaysecre-21&amp;l=am2&amp;o=2&amp;a=1472140052&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class=" jetpack-lazy-image"><noscript><img data-lazy-fallback="1" decoding="async" style="border: none !important; margin: 0px !important;" src="//ir-uk.amazon-adsystem.com/e/ir?t=takeawaysecre-21&amp;l=am2&amp;o=2&amp;a=1472140052" alt="" width="1" height="1" border="0" /></noscript> is packed full of over over 120 American diner style recipes and is available to buy in kindle or paperback form <a href="https://kennymcgovern.com/americandinersecret" target="_blank" rel="noopener noreferrer">here.</a><img decoding="async" style="border: none !important; margin: 0px !important;" src="//ir-uk.amazon-adsystem.com/e/ir?t=takeawaysecre-21&amp;l=am2&amp;o=2&amp;a=1472140052" alt width="1" height="1" border="0" data-lazy-src="//ir-uk.amazon-adsystem.com/e/ir?t=takeawaysecre-21&amp;l=am2&amp;o=2&amp;a=1472140052&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class=" jetpack-lazy-image"><noscript><img data-lazy-fallback="1" decoding="async" style="border: none !important; margin: 0px !important;" src="//ir-uk.amazon-adsystem.com/e/ir?t=takeawaysecre-21&amp;l=am2&amp;o=2&amp;a=1472140052" alt="" width="1" height="1" border="0" /></noscript></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-full"><a href="https://kennymcgovern.com/americandinersecret" target="_blank" rel="noopener"><img decoding="async" width="319" height="500" src="https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2022/03/The-American-Diner-Secret-Front-Cover.jpg?resize=319%2C500&#038;ssl=1" alt class="wp-image-2350 jetpack-lazy-image" data-recalc-dims="1" data-lazy-src="https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2022/03/The-American-Diner-Secret-Front-Cover.jpg?resize=319%2C500&amp;is-pending-load=1#038;ssl=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img data-lazy-fallback="1" decoding="async" width="319" height="500" src="https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2022/03/The-American-Diner-Secret-Front-Cover.jpg?resize=319%2C500&#038;ssl=1" alt="" class="wp-image-2350" data-recalc-dims="1" /></noscript></a></figure></div>
+    </div><!-- .entry-content -->
+
+
+
+            <footer class="entry-footer gridfeel-entry-footer">
+    <div class="gridfeel-entry-footer-inside">
+        <span class="gridfeel-tags-links"><i class="fas fa-tags" aria-hidden="true"></i> Tagged <a href="https://kennymcgovern.com/tag/fried-chicken" rel="tag">fried chicken</a>, <a href="https://kennymcgovern.com/tag/chicken" rel="tag">chicken</a>, <a href="https://kennymcgovern.com/tag/kfc" rel="tag">kfc</a>, <a href="https://kennymcgovern.com/tag/crispy-chicken" rel="tag">crispy chicken</a>, <a href="https://kennymcgovern.com/tag/chicken-tenders" rel="tag">chicken tenders</a>, <a href="https://kennymcgovern.com/tag/chicken-in-a-basket" rel="tag">chicken in a basket</a>, <a href="https://kennymcgovern.com/tag/crispy-chicken-strips" rel="tag">crispy chicken strips</a></span>    </div>
+    </footer><!-- .entry-footer -->
+
+</div>
+</article>
+
+
+	<nav class="navigation post-navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://kennymcgovern.com/follow-friday-trudiemalik" rel="prev">Follow Friday: trudiemalik &rarr;</a></div><div class="nav-next"><a href="https://kennymcgovern.com/follow-friday-laurenscravings" rel="next">&larr; Follow Friday: laurenscravings</a></div></div>
+	</nav>
+<div id="comments" class="comments-area gridfeel-box">
+<div class="gridfeel-box-inside">
+
+    	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/crispy-chicken-strips#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://kennymcgovern.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span></p><div class="comment-form-wprm-rating">
+	<label for="wprm-comment-rating-811994949">Recipe Rating</label>	<span class="wprm-rating-stars">
+		<fieldset class="wprm-comment-ratings-container" data-original-rating="0" data-current-rating="0">
+			<legend>Recipe Rating</legend>
+			<input aria-label="Don&#039;t rate this recipe" name="wprm-comment-rating" value="0" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="margin-left: -21px !important; width: 24px !important; height: 24px !important;" checked="checked"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+  <defs>
+    <polygon class="wprm-star-empty" id="wprm-star-empty-0" fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter"/>
+  </defs>
+	<use xlink:href="#wprm-star-empty-0" x="4" y="4" />
+	<use xlink:href="#wprm-star-empty-0" x="36" y="4" />
+	<use xlink:href="#wprm-star-empty-0" x="68" y="4" />
+	<use xlink:href="#wprm-star-empty-0" x="100" y="4" />
+	<use xlink:href="#wprm-star-empty-0" x="132" y="4" />
+</svg></span><br><input aria-label="Rate this recipe 1 out of 5 stars" name="wprm-comment-rating" value="1" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+  <defs>
+	<polygon class="wprm-star-empty" id="wprm-star-empty-1" fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter"/>
+	<path class="wprm-star-full" id="wprm-star-full-1" fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"/>
+  </defs>
+	<use xlink:href="#wprm-star-full-1" x="4" y="4" />
+	<use xlink:href="#wprm-star-empty-1" x="36" y="4" />
+	<use xlink:href="#wprm-star-empty-1" x="68" y="4" />
+	<use xlink:href="#wprm-star-empty-1" x="100" y="4" />
+	<use xlink:href="#wprm-star-empty-1" x="132" y="4" />
+</svg></span><br><input aria-label="Rate this recipe 2 out of 5 stars" name="wprm-comment-rating" value="2" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+  <defs>
+	<polygon class="wprm-star-empty" id="wprm-star-empty-2" fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter"/>
+	<path class="wprm-star-full" id="wprm-star-full-2" fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"/>
+  </defs>
+	<use xlink:href="#wprm-star-full-2" x="4" y="4" />
+	<use xlink:href="#wprm-star-full-2" x="36" y="4" />
+	<use xlink:href="#wprm-star-empty-2" x="68" y="4" />
+	<use xlink:href="#wprm-star-empty-2" x="100" y="4" />
+	<use xlink:href="#wprm-star-empty-2" x="132" y="4" />
+</svg></span><br><input aria-label="Rate this recipe 3 out of 5 stars" name="wprm-comment-rating" value="3" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+  <defs>
+	<polygon class="wprm-star-empty" id="wprm-star-empty-3" fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter"/>
+	<path class="wprm-star-full" id="wprm-star-full-3" fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"/>
+  </defs>
+	<use xlink:href="#wprm-star-full-3" x="4" y="4" />
+	<use xlink:href="#wprm-star-full-3" x="36" y="4" />
+	<use xlink:href="#wprm-star-full-3" x="68" y="4" />
+	<use xlink:href="#wprm-star-empty-3" x="100" y="4" />
+	<use xlink:href="#wprm-star-empty-3" x="132" y="4" />
+</svg></span><br><input aria-label="Rate this recipe 4 out of 5 stars" name="wprm-comment-rating" value="4" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+  <defs>
+	<polygon class="wprm-star-empty" id="wprm-star-empty-4" fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter"/>
+	<path class="wprm-star-full" id="wprm-star-full-4" fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"/>
+  </defs>
+	<use xlink:href="#wprm-star-full-4" x="4" y="4" />
+	<use xlink:href="#wprm-star-full-4" x="36" y="4" />
+	<use xlink:href="#wprm-star-full-4" x="68" y="4" />
+	<use xlink:href="#wprm-star-full-4" x="100" y="4" />
+	<use xlink:href="#wprm-star-empty-4" x="132" y="4" />
+</svg></span><br><input aria-label="Rate this recipe 5 out of 5 stars" name="wprm-comment-rating" value="5" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" id="wprm-comment-rating-811994949" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+  <defs>
+	<path class="wprm-star-full" id="wprm-star-full-5" fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"/>
+  </defs>
+	<use xlink:href="#wprm-star-full-5" x="4" y="4" />
+	<use xlink:href="#wprm-star-full-5" x="36" y="4" />
+	<use xlink:href="#wprm-star-full-5" x="68" y="4" />
+	<use xlink:href="#wprm-star-full-5" x="100" y="4" />
+	<use xlink:href="#wprm-star-full-5" x="132" y="4" />
+</svg></span>		</fieldset>
+	</span>
+</div>
+<p class="comment-form-comment"><label for="comment">Comment <span class="required">*</span></label> <textarea autocomplete="new-password"  id="c5c2daeccf"  name="c5c2daeccf"   cols="45" rows="8" maxlength="65525" required></textarea><textarea id="comment" aria-label="hp-comment" aria-hidden="true" name="comment" autocomplete="new-password" style="padding:0 !important;clip:rect(1px, 1px, 1px, 1px) !important;position:absolute !important;white-space:nowrap !important;height:1px !important;width:1px !important;overflow:hidden !important;" tabindex="-1"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name" required /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" autocomplete="url" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='1741' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></form>	</div><!-- #respond -->
+
+</div>
+</div><!-- #comments -->
+<div class="clear"></div>
+</div><!--/#gridfeel-posts-wrapper -->
+
+
+
+
+</div>
+</div>
+</div><!-- /#gridfeel-main-wrapper -->
+
+
+<div class="gridfeel-sidebar-one-wrapper gridfeel-sidebar-widget-areas gridfeel-clearfix" id="gridfeel-sidebar-one-wrapper" itemscope="itemscope" itemtype="http://schema.org/WPSideBar" role="complementary">
+<div class="theiaStickySidebar">
+<div class="gridfeel-sidebar-one-wrapper-inside gridfeel-clearfix">
+
+<div id="search-2" class="gridfeel-side-widget widget gridfeel-widget-box widget_search"><div class="gridfeel-widget-box-inside">
+<form role="search" method="get" class="gridfeel-search-form" action="https://kennymcgovern.com/">
+<label>
+    <span class="gridfeel-sr-only">Search for:</span>
+    <input type="search" class="gridfeel-search-field" placeholder="Enter your search keyword..." value="" name="s" />
+</label>
+<input type="submit" class="gridfeel-search-submit" value="&#xf002;" />
+</form></div></div><div id="categories-4" class="gridfeel-side-widget widget gridfeel-widget-box widget_categories"><div class="gridfeel-widget-box-inside"><div class="gridfeel-widget-header"><h2 class="gridfeel-widget-title"><span class="gridfeel-widget-title-inside">Categories</span></h2></div><nav aria-label="Categories">
+			<ul>
+					<li class="cat-item cat-item-918"><a href="https://kennymcgovern.com/category/fresh-bites">Fresh Bites</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="https://kennymcgovern.com/category/recipes">Recipes</a>
+<ul class='children'>
+	<li class="cat-item cat-item-885"><a href="https://kennymcgovern.com/category/recipes/pizza-takeaway-style">Pizza Takeaway Style</a>
+</li>
+	<li class="cat-item cat-item-985"><a href="https://kennymcgovern.com/category/recipes/bakerystyle">Bakery Style</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://kennymcgovern.com/category/recipes/indiantakeawaystyle">Indian Takeaway Style</a>
+</li>
+	<li class="cat-item cat-item-883"><a href="https://kennymcgovern.com/category/recipes/chinesetakeawaystyle">Chinese Takeaway Style</a>
+</li>
+	<li class="cat-item cat-item-884"><a href="https://kennymcgovern.com/category/recipes/kebabshopstyle">Kebab Shop Style</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-58"><a href="https://kennymcgovern.com/category/blog-post">Blog Posts</a>
+</li>
+	<li class="cat-item cat-item-419"><a href="https://kennymcgovern.com/category/fish-n-trips">Fish &#039;n&#039; Trips</a>
+</li>
+	<li class="cat-item cat-item-533"><a href="https://kennymcgovern.com/category/follow-friday">Follow Friday</a>
+</li>
+			</ul>
+
+			</nav></div></div><div id="custom_html-27" class="widget_text gridfeel-side-widget widget gridfeel-widget-box widget_custom_html"><div class="widget_text gridfeel-widget-box-inside"><div class="gridfeel-widget-header"><h2 class="gridfeel-widget-title"><span class="gridfeel-widget-title-inside">Books</span></h2></div><div class="textwidget custom-html-widget"><center><iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=takeawaysecre-21&language=en_GB&marketplace=amazon&region=GB&placement=1472140052&asins=1472140052&linkId=b4f20e80e6eb0d3d4bbe633a6419d246&show_border=true&link_opens_in_new_window=true"></iframe>
+<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=takeawaysecre-21&language=en_GB&marketplace=amazon&region=GB&placement=1472139062&asins=1472139062&linkId=761e9014b6de4a201f68444a705c4141&show_border=true&link_opens_in_new_window=true"></iframe>
+<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=takeawaysecre-21&language=en_GB&marketplace=amazon&region=GB&placement=1472141776&asins=1472141776&linkId=40b2b3de60b1727b43563a96a147bb0a&show_border=true&link_opens_in_new_window=true"></iframe>
+<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=takeawaysecre-21&language=en_GB&marketplace=amazon&region=GB&placement=1472145410&asins=1472145410&linkId=28c1d11edae9dbd6e22faa33a4fc1c52&show_border=true&link_opens_in_new_window=true"></iframe>
+<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=takeawaysecre-21&language=en_GB&marketplace=amazon&region=GB&placement=1472146913&asins=1472146913&linkId=629319463941831950bdce361b69d9f1&show_border=true&link_opens_in_new_window=true"></iframe>
+	<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=takeawaysecre-21&language=en_GB&marketplace=amazon&region=GB&placement=1472148215&asins=1472148215&linkId=245f8452b1cc8b4de302f203c456d352&show_border=true&link_opens_in_new_window=true"></iframe>
+</center></div></div></div>
+</div>
+</div>
+</div><!-- /#gridfeel-sidebar-one-wrapper-->
+
+<div class="gridfeel-sidebar-two-wrapper gridfeel-sidebar-widget-areas gridfeel-clearfix" id="gridfeel-sidebar-two-wrapper" itemscope="itemscope" itemtype="http://schema.org/WPSideBar" role="complementary">
+<div class="theiaStickySidebar">
+<div class="gridfeel-sidebar-two-wrapper-inside gridfeel-clearfix">
+
+
+</div>
+</div>
+</div><!-- /#gridfeel-sidebar-two-wrapper-->
+
+</div>
+
+</div><!--/#gridfeel-content-wrapper -->
+</div><!--/#gridfeel-wrapper -->
+
+
+
+
+
+
+
+<div class='gridfeel-clearfix' id='gridfeel-copyright-area'>
+<div class='gridfeel-copyright-area-inside gridfeel-container'>
+<div class="gridfeel-outer-wrapper">
+
+<div class='gridfeel-copyright-area-inside-content gridfeel-clearfix'>
+
+  <p class='gridfeel-copyright'>Copyright &copy; 2023 Kenny McGovern</p>
+<p class='gridfeel-credit'><a href="https://themesdna.com/">Design by ThemesDNA.com</a></p>
+
+</div>
+
+</div>
+</div>
+</div><!--/#gridfeel-copyright-area -->
+
+</div>
+
+<button class="gridfeel-scroll-top" title="Scroll to Top"><i class="fas fa-arrow-up" aria-hidden="true"></i><span class="gridfeel-sr-only">Scroll to Top</span></button>
+
+		<noscript><link rel='stylesheet' id='all-css-b427b4433d30d1e2ba115a0df161a286' href='https://kennymcgovern.com/wp-content/plugins/wp-recipe-maker/dist/public-legacy.css?m=1695732911' type='text/css' media='all' /></noscript><link rel='stylesheet' id='all-css-b427b4433d30d1e2ba115a0df161a286' href='https://kennymcgovern.com/wp-content/plugins/wp-recipe-maker/dist/public-legacy.css?m=1695732911' type='text/css' media="not all" data-media="all" onload="this.media=this.dataset.media; delete this.dataset.media; this.removeAttribute( 'onload' );" />
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://kennymcgovern.com/crispy-chicken-strips#article","isPartOf":{"@id":"https://kennymcgovern.com/crispy-chicken-strips"},"author":{"name":"Kenny McGovern","@id":"https://kennymcgovern.com/#/schema/person/b563bc6a2984f73733ef639d6473e250"},"headline":"Crispy Chicken Strips","datePublished":"2020-02-12T15:25:27+00:00","dateModified":"2022-03-05T18:04:34+00:00","wordCount":444,"commentCount":0,"publisher":{"@id":"https://kennymcgovern.com/#/schema/person/b563bc6a2984f73733ef639d6473e250"},"image":{"@id":"https://kennymcgovern.com/crispy-chicken-strips#primaryimage"},"thumbnailUrl":"https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg?fit=2560%2C1920&ssl=1","keywords":["fried chicken","chicken","kfc","crispy chicken","chicken tenders","chicken in a basket","crispy chicken strips"],"articleSection":["Recipes"],"inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://kennymcgovern.com/crispy-chicken-strips#respond"]}]},{"@type":"WebPage","@id":"https://kennymcgovern.com/crispy-chicken-strips","url":"https://kennymcgovern.com/crispy-chicken-strips","name":"Crispy Chicken Strips - Kenny McGovern - Recipe","isPartOf":{"@id":"https://kennymcgovern.com/#website"},"primaryImageOfPage":{"@id":"https://kennymcgovern.com/crispy-chicken-strips#primaryimage"},"image":{"@id":"https://kennymcgovern.com/crispy-chicken-strips#primaryimage"},"thumbnailUrl":"https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg?fit=2560%2C1920&ssl=1","datePublished":"2020-02-12T15:25:27+00:00","dateModified":"2022-03-05T18:04:34+00:00","description":"Coated with panko breadcrumbs, these Crispy Chicken Strips are perfect served alongside fresh coleslaw & your favourite dips. Get the recipe here!","breadcrumb":{"@id":"https://kennymcgovern.com/crispy-chicken-strips#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://kennymcgovern.com/crispy-chicken-strips"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://kennymcgovern.com/crispy-chicken-strips#primaryimage","url":"https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg?fit=2560%2C1920&ssl=1","contentUrl":"https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg?fit=2560%2C1920&ssl=1","width":2560,"height":1920},{"@type":"BreadcrumbList","@id":"https://kennymcgovern.com/crispy-chicken-strips#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kennymcgovern.com/"},{"@type":"ListItem","position":2,"name":"Crispy Chicken Strips"}]},{"@type":"WebSite","@id":"https://kennymcgovern.com/#website","url":"https://kennymcgovern.com/","name":"Kenny McGovern","description":"Fast food, street food &amp; more.","publisher":{"@id":"https://kennymcgovern.com/#/schema/person/b563bc6a2984f73733ef639d6473e250"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kennymcgovern.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":["Person","Organization"],"@id":"https://kennymcgovern.com/#/schema/person/b563bc6a2984f73733ef639d6473e250","name":"Kenny McGovern","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://kennymcgovern.com/#/schema/person/image/","url":"https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2022/03/The-Takeaway-Secret-Front-Cover.jpg?fit=316%2C500&ssl=1","contentUrl":"https://i0.wp.com/kennymcgovern.com/wp-content/uploads/2022/03/The-Takeaway-Secret-Front-Cover.jpg?fit=316%2C500&ssl=1","width":316,"height":500,"caption":"Kenny McGovern"},"logo":{"@id":"https://kennymcgovern.com/#/schema/person/image/"},"sameAs":["https://www.kennymcgovern.com","https://www.instagram.com/takeawaysecret/","https://twitter.com/takeawaysecret","https://www.youtube.com/channel/UCaev95JrOmRMXqyckBDTacA"]},{"@type":"Recipe","name":"Crispy Chicken Strips","author":{"@type":"Person","name":"Kenny McGovern"},"description":"","datePublished":"2020-02-12T15:25:27+00:00","recipeYield":["1","1 portion"],"prepTime":"PT10M","cookTime":"PT6M","totalTime":"PT16M","recipeIngredient":["8 tablespoons panko breadcrumbs","4 tablespoons plain flour","1/4 teaspoon garlic powder","1/4 teaspoon onion granules","1/4 teaspoon cayenne pepper","1/4 teaspoon dried Italian herbs","1/2 teaspoon sea salt","1/4 teaspoon black pepper","4 tablespoons plain flour","1/4 teaspoon sea salt","Pinch  black pepper","1  egg","3 tablespoons milk","1  skinless, boneless chicken breast fillet (around 114g)","vegetable oil (for deep frying)"],"recipeInstructions":[{"@type":"HowToSection","name":"Breading prep","itemListElement":[{"@type":"HowToStep","text":"In a large bowl, add panko breadcrumbs, plain flour, garlic powder, onion granules, cayenne pepper, dried Italian herbs, sea salt &amp; black pepper.  Mix well.","name":"In a large bowl, add panko breadcrumbs, plain flour, garlic powder, onion granules, cayenne pepper, dried Italian herbs, sea salt &amp; black pepper.  Mix well.","url":"https://kennymcgovern.com/crispy-chicken-strips#wprm-recipe-1742-step-0-0"}]},{"@type":"HowToSection","name":"Flour dusting prep","itemListElement":[{"@type":"HowToStep","text":"On a plate, mix plain flour, sea salt &amp; black pepper.  Mix well.","name":"On a plate, mix plain flour, sea salt &amp; black pepper.  Mix well.","url":"https://kennymcgovern.com/crispy-chicken-strips#wprm-recipe-1742-step-1-0"}]},{"@type":"HowToSection","name":"Egg prep","itemListElement":[{"@type":"HowToStep","text":"In a bowl, combine egg and milk and whisk thoroughly.","name":"In a bowl, combine egg and milk and whisk thoroughly.","url":"https://kennymcgovern.com/crispy-chicken-strips#wprm-recipe-1742-step-2-0"}]},{"@type":"HowToSection","name":"Chicken prep","itemListElement":[{"@type":"HowToStep","text":"Cut the chicken into 6-7 strips.  Dip a chicken strip firstly into the plate of seasoned flour, then into the egg / milk mixture and finally into the breadcrumb mix, pressing well to ensure the chicken strip is nicely coated with breadcrumbs.  Set the breaded chicken strip aside on a plate and repeat the process until all of the chicken strips are coated.  At this stage the chicken strips are ready to cook, or can be covered and kept aside in the fridge for up to 24 hours.","name":"Cut the chicken into 6-7 strips.  Dip a chicken strip firstly into the plate of seasoned flour, then into the egg / milk mixture and finally into the breadcrumb mix, pressing well to ensure the chicken strip is nicely coated with breadcrumbs.  Set the breaded chicken strip aside on a plate and repeat the process until all of the chicken strips are coated.  At this stage the chicken strips are ready to cook, or can be covered and kept aside in the fridge for up to 24 hours.","url":"https://kennymcgovern.com/crispy-chicken-strips#wprm-recipe-1742-step-3-0"}]},{"@type":"HowToSection","name":"Time to cook!","itemListElement":[{"@type":"HowToStep","text":"Heat oil for deep frying to around 180c.  Carefully place each breaded chicken strip into the hot oil and fry for around 6 minutes, turning occasionally until the chicken strips are crispy and golden.  Lift the chicken strips from the oil using a slotted spoon, drain off any excess oil and set aside on a plate.","name":"Heat oil for deep frying to around 180c.  Carefully place each breaded chicken strip into the hot oil and fry for around 6 minutes, turning occasionally until the chicken strips are crispy and golden.  Lift the chicken strips from the oil using a slotted spoon, drain off any excess oil and set aside on a plate.","url":"https://kennymcgovern.com/crispy-chicken-strips#wprm-recipe-1742-step-4-0"},{"@type":"HowToStep","text":"Serve the crispy chicken strips with hot sauce, BBQ sauce or ranch dressing.","name":"Serve the crispy chicken strips with hot sauce, BBQ sauce or ranch dressing.","url":"https://kennymcgovern.com/crispy-chicken-strips#wprm-recipe-1742-step-4-1"}]}],"recipeCategory":["Appetizer","Side Dish","Snack"],"recipeCuisine":["American"],"keywords":"chicken, crispy chicken, kfc, fried chicken","@id":"https://kennymcgovern.com/crispy-chicken-strips#recipe","isPartOf":{"@id":"https://kennymcgovern.com/crispy-chicken-strips#article"},"mainEntityOfPage":"https://kennymcgovern.com/crispy-chicken-strips"}]}</script><script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/kennymcgovern.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script><script src='https://kennymcgovern.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script><script type='text/javascript' src='https://kennymcgovern.com/_jb_static/??/wp-includes/js/jquery/jquery-migrate.min.js,/wp-content/themes/gridfeel/assets/js/respond.min.js?m=1693462882&#038;cb=1'></script><script src='https://www.googletagmanager.com/gtag/js?id=UA-226127201-1' id='google_gtagjs-js' async></script><script id="google_gtagjs-js-after" type="text/javascript">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('set', 'linker', {"domains":["kennymcgovern.com"]} );
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "UA-226127201-1", {"anonymize_ip":true});
+gtag("config", "G-TR01Y13NHH");
+</script><script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9446883390877654&amp;host=ca-host-pub-2644536267352236" crossorigin="anonymous" type="text/javascript"></script><script data-noptimize>document.getElementById("comment").setAttribute( "id", "a9781e2d09c4c5a092e14999a80e98c0" );document.getElementById("c5c2daeccf").setAttribute( "id", "comment" );</script><script>window.wprm_recipes = {"recipe-1742":{"id":1742,"type":"food","name":"Crispy Chicken Strips"}}</script><script>window.addEventListener( 'load', function() {
+				document.querySelectorAll( 'link' ).forEach( function( e ) {'not all' === e.media && e.dataset.media && ( e.media = e.dataset.media, delete e.dataset.media );} );
+				var e = document.getElementById( 'jetpack-boost-critical-css' );
+				e && ( e.media = 'not all' );
+			} );</script><script id='ce4wp_form_submit-js-extra'>
+var ce4wp_form_submit_data = {"siteUrl":"https:\/\/kennymcgovern.com","url":"https:\/\/kennymcgovern.com\/wp-admin\/admin-ajax.php","nonce":"fb9023b7d1","listNonce":"659ba96423","activatedNonce":"c6ed001594"};
+</script><script type='text/javascript' src='https://kennymcgovern.com/_jb_static/??-eJxtjsEOgjAQRP/Gk2XFKOqB+ClmaRdcpC2yWwx/rxg1xniaTObNZODWGxuDUlDou9RwELADofJIxiN3pppmQBSDPkm0CihCKtAKVF20F5BUedaslSX82WtJe3xQLz2NFFwcAJNGj6ps34lhjw0Z6wI4FoWP/V3WM3kSaAZ2NVH39ae9JhqmrGYd2Unmee4efZkXh+2+WG1264WtyvwOn21brA=='></script><script src='https://kennymcgovern.com/wp-content/themes/gridfeel/assets/js/ResizeSensor.min.js' id='ResizeSensor-js'></script><script id='gridfeel-customjs-js-extra'>
+var gridfeel_ajax_object = {"ajaxurl":"https:\/\/kennymcgovern.com\/wp-admin\/admin-ajax.php","primary_menu_active":"1","secondary_menu_active":"","sticky_menu_active":"1","sticky_mobile_menu_active":"","sticky_sidebar_active":"1","fitvids_active":"1","backtotop_active":"1"};
+</script><script id='gridfeel-html5shiv-js-js-extra'>
+var gridfeel_custom_script_vars = {"elements_name":"abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output picture progress section summary template time video"};
+</script><script id='jetpack-lazy-images-js-extra'>
+var jetpackLazyImagesL10n = {"loading_warning":"Images are still loading. Please cancel your print and try again."};
+</script><script type='text/javascript' src='https://kennymcgovern.com/_jb_static/??-eJy1kE1Ow0AMhW/Dqu5QRAssqh4FOTNO4mb+NHYC4fSdtoqEEAuyYGXJz+/zs81HBpuiUlSjPQUS0xV2LZE3KEIq5ixXhRFE2Q4zCDtqsGwDx+1ZNuZPhIgTd6icVnhk4Aye4wBtsqNAy5+LmaP1o6PbGAfsSHxCR25dqArVFH5j2hRC9UKh7Od10F6D30vP009L9mPHsc6QZrTDUt8nii4Vg2PNglp/vCjg8WuG+3nGsajhSipC9vpHSI1Qmaj8w55vjUo/hePu8LZ/PTw+vzw92Oa4uwBOjdUD'></script><script defer src='https://stats.wp.com/e-202341.js' id='jetpack-stats-js'></script><script id="jetpack-stats-js-after" type="text/javascript">
+_stq = window._stq || [];
+_stq.push([ "view", {v:'ext',blog:'220739367',post:'1741',tz:'0',srv:'kennymcgovern.com',j:'1:12.6.2'} ]);
+_stq.push([ "clickTrackerInit", "220739367", "1741" ]);
+</script><script id='wprm-public-js-extra'>
+var wprm_public = {"endpoints":{"analytics":"https:\/\/kennymcgovern.com\/wp-json\/wp-recipe-maker\/v1\/analytics"},"settings":{"features_comment_ratings":true,"template_color_comment_rating":"#343434","instruction_media_toggle_default":"on","video_force_ratio":false,"analytics_enabled":false,"google_analytics_enabled":false,"print_new_tab":true},"post_id":"1741","home_url":"https:\/\/kennymcgovern.com\/","print_slug":"wprm_print","permalinks":"\/%postname%","ajax_url":"https:\/\/kennymcgovern.com\/wp-admin\/admin-ajax.php","nonce":"b159e65559","api_nonce":"88e8907a8f","translations":[]};
+</script><script type='text/javascript' src='https://kennymcgovern.com/wp-content/plugins/wp-recipe-maker/dist/public-legacy.js?m=1695732911'></script></body>
+</html>

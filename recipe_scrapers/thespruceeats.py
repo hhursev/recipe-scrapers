@@ -1,7 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
-from ._grouping_utils import group_ingredients
-from ._utils import normalize_string
+from ._grouping_utils import group_ingredients, normalize_string
 
 
 class TheSpruceEats(AbstractScraper):

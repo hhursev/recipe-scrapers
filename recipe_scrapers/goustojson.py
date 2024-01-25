@@ -53,7 +53,8 @@ class GoustoJson(AbstractScraper):
         return [
             normalize_string(ingredient.get("label"))
             for ingredient in self.data.get("ingredients")
-            if isinstance(ingredient, dict) and "label" in ingredient.keys()
+            if isinstance(ingredient, dict)
+            and ingredient.get("label", None) is not None
         ]
 
     def instructions_list(self):

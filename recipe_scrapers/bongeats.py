@@ -40,15 +40,15 @@ class BongEats(AbstractScraper):
     def ingredients(self):
         ingredients_div = self.soup.find(
             "div",
-            class_="recipe-ingredient-list",
+            class_="recipe-ingredients",
         )
         ingredients = ingredients_div.findAll("li")
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
         instructions_div = self.soup.find(
-            "section",
-            class_="recipe-instructions",
+            "div",
+            class_="recipe-process",
         )
         instructions = instructions_div.findAll("li")
         return "\n".join(

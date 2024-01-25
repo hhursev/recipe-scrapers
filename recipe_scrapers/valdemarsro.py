@@ -3,7 +3,6 @@ import re
 
 from ._abstract import AbstractScraper
 from ._exceptions import ElementNotFoundInHtml
-from ._utils import normalize_string
 
 
 class Valdemarsro(AbstractScraper):
@@ -12,7 +11,7 @@ class Valdemarsro(AbstractScraper):
         return "valdemarsro.dk"
 
     def title(self):
-        return self.soup.h1.get_text().strip()
+        return self.schema.title()
 
     def category(self):
         category_group_element = self.soup.find("div", {"class": "recipe-bar"})
@@ -54,23 +53,13 @@ class Valdemarsro(AbstractScraper):
         return self.get_time("Arbejdstid")
 
     def yields(self):
-        yields_element = self.soup.find("i", {"class": "fa-sort"}).parent
-        yields_text = yields_element.getText().strip()
-        return yields_text
+        return self.schema.yields()
 
     def image(self):
-        parent_element = self.soup.find("div", {"class": "recipe-image"})
-        image_element = parent_element.find(lambda x: not x.has_attr("class"))
-        image_url = image_element["src"]
-        return image_url
+        return self.schema.image()
 
     def ingredients(self):
-        ingredient_elements = self.soup.find_all("li", {"itemprop": "recipeIngredient"})
-
-        return [
-            normalize_string(paragraph.get_text().strip())
-            for paragraph in ingredient_elements
-        ]
+        return self.schema.ingredients()
 
     def instructions(self):
         instruction_elements = self.soup.find(
@@ -82,7 +71,7 @@ class Valdemarsro(AbstractScraper):
         return "\n".join(instructions_list)
 
     def author(self):
-        return "Ann-Christine Hellerup Brandt"
+        return self.schema.author()
 
     def description(self):
         description_element = self.soup.find("div", {"itemprop": "description"})
