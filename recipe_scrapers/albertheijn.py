@@ -15,18 +15,45 @@ HEADERS = {
 
 
 class AlbertHeijn(AbstractScraper):
-    def __init__(self, url, proxies=None, timeout=None, *args, **kwargs):
-        assert url is not None, "url required for fetching recipe data"
-        resp = requests.get(
-            url,
-            headers=HEADERS,
-            proxies=proxies,
-            timeout=timeout,
-        )
-        self.page_data = resp.content
-        self.url = resp.url
+    def __init__(
+        self,
+        url: Union[str, None],
+        proxies: Optional[
+            Dict[str, str]
+        ] = None,  # allows us to specify optional proxy server
+        timeout: Optional[
+            Union[float, Tuple[float, float], Tuple[float, None]]
+        ] = None,  # allows us to specify optional timeout for request
+        wild_mode: Optional[bool] = False,
+        html: Union[str, bytes, None] = None,
+    ):
+        if html:
+            self.page_data = html
+            self.url = url
+        else:
+            assert url is not None, "url required for fetching recipe data"
+            resp = requests.get(
+                url,
+                headers=HEADERS,
+                proxies=proxies,
+                timeout=timeout,
+            )
+            self.page_data = resp.content
+            self.url = resp.url
+
+        self.wild_mode = wild_mode
         self.soup = BeautifulSoup(self.page_data, "html.parser")
         self.schema = SchemaOrg(self.page_data)
+
+        # attach the plugins as instructed in settings.PLUGINS
+        if not hasattr(self.__class__, "plugins_initialized"):
+            for name, func in inspect.getmembers(self, inspect.ismethod):
+                current_method = getattr(self.__class__, name)
+                for plugin in reversed(settings.PLUGINS):
+                    if plugin.should_run(self.host(), name):
+                        current_method = plugin.run(current_method)
+                setattr(self.__class__, name, current_method)
+            setattr(self.__class__, "plugins_initialized", True)
 
     @classmethod
     def host(cls):
