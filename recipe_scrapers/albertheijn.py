@@ -1,9 +1,13 @@
 # mypy: disallow_untyped_defs=False
 import re
+import inspect
+from typing import Dict, List, Optional, Tuple, Union
 
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 from ._schemaorg import SchemaOrg
+
+from recipe_scrapers.settings import settings
 
 import requests
 from bs4 import BeautifulSoup
