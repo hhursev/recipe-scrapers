@@ -1,7 +1,7 @@
 # mypy: disallow_untyped_defs=False
 import re
 import inspect
-from typing import Dict, List, Optional, Tuple, Union
+from typing import Dict, Optional, Tuple, Union
 
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
@@ -51,7 +51,7 @@ class AlbertHeijn(AbstractScraper):
 
         # attach the plugins as instructed in settings.PLUGINS
         if not hasattr(self.__class__, "plugins_initialized"):
-            for name, func in inspect.getmembers(self, inspect.ismethod):
+            for name, _ in inspect.getmembers(self, inspect.ismethod):
                 current_method = getattr(self.__class__, name)
                 for plugin in reversed(settings.PLUGINS):
                     if plugin.should_run(self.host(), name):
