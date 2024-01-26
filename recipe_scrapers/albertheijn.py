@@ -3,9 +3,31 @@ import re
 
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
+from ._schemaorg import SchemaOrg
+
+import requests
+from bs4 import BeautifulSoup
+
+HEADERS = {
+    'Accept-Language': 'nl',  # ah.nl seems to block any requests not having both these headers.
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0'
+}
 
 
 class AlbertHeijn(AbstractScraper):
+    def __init__(self, url, proxies=None, timeout=None, *args, **kwargs):
+        assert url is not None, "url required for fetching recipe data"
+        resp = requests.get(
+            url,
+            headers=HEADERS,
+            proxies=proxies,
+            timeout=timeout,
+        )
+        self.page_data = resp.content
+        self.url = resp.url
+        self.soup = BeautifulSoup(self.page_data, "html.parser")
+        self.schema = SchemaOrg(self.page_data)
+
     @classmethod
     def host(cls):
         return "ah.nl"
