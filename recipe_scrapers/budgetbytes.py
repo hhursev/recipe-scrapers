@@ -1,6 +1,7 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
+from ._utils import get_equipment
 
 
 class BudgetBytes(AbstractScraper):
@@ -38,9 +39,10 @@ class BudgetBytes(AbstractScraper):
         return self.schema.ratings()
 
     def equipment(self):
-        return sorted(
-            (link.get_text())
+        equipment_items = [
+            link.get_text()
             for link in self.soup.select(
                 "div.wprm-recipe-equipment-name a.wprm-recipe-equipment-link"
             )
-        )
+        ]
+        return get_equipment(equipment_items)

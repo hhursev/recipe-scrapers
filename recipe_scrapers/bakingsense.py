@@ -1,6 +1,7 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
+from ._utils import get_equipment
 
 
 class BakingSense(AbstractScraper):
@@ -47,10 +48,9 @@ class BakingSense(AbstractScraper):
         return self.schema.description()
 
     def equipment(self):
-        seen = set()
-        return [
+        equipment_items = [
             equip.get_text()
             for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
             if equip.get_text()
-            and (equip.get_text() not in seen and not seen.add(equip.get_text()))
         ]
+        return get_equipment(equipment_items)
