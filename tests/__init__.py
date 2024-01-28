@@ -31,6 +31,7 @@ OPTIONAL_TESTS = [
     "prep_time",
     "ratings",
     "reviews",
+    "equipment",
 ]
 
 

@@ -49,5 +49,10 @@
   "site_name": "Alton Brown",
   "title": "A Far, Far Better Cake",
   "total_time": 210,
-  "yields": "2 servings"
+  "yields": "2 servings",
+  "equipment": [
+    "Digital kitchen scale",
+    "Digital instant-read thermometer",
+    "2 (9-inch) round aluminum cake pans"
+  ]
 }

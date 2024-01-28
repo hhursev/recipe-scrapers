@@ -49,3 +49,13 @@ class LifestyleOfAFoodie(AbstractScraper):
             "div.wprm-recipe-ingredient-group h4",
             "ul.wprm-recipe-ingredients li",
         )
+
+    def equipment(self):
+        return list(
+            dict.fromkeys(
+                (item.get_text())
+                for item in self.soup.find_all(
+                    "div", class_="wprm-recipe-equipment-name"
+                )
+            )
+        )

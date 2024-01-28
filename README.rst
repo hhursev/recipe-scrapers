@@ -60,8 +60,9 @@ then:
     scraper.host()
     scraper.to_json()
     scraper.links()
-    scraper.nutrients()  # if available
-    scraper.canonical_url()  # also not always available
+    scraper.nutrients()  # not always available
+    scraper.canonical_url()  # not always available
+    scraper.equipment()  # not always available
 
 Notes:
 
@@ -281,6 +282,7 @@ Scrapers available for:
 - `https://rainbowplantlife.com/ <https://rainbowplantlife.com/>`_
 - `https://realfood.tesco.com/ <https://realfood.tesco.com>`_
 - `https://realsimple.com/ <https://www.realsimple.com>`_
+- `https://recept.se/ <https://recept.se/>`_
 - `https://www.receitasnestle.com.br <https://www.receitasnestle.com.br>`_
 - `https://reciperunner.com/ <https://www.reciperunner.com>`_
 - `https://recipetineats.com/ <https://www.recipetineats.com/>`_

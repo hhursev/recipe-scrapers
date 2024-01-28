@@ -41,3 +41,13 @@ class MyKitchen101(AbstractScraper):
                 if instruction.get_text()[:1].isdigit()
             ]
         )
+
+    def equipment(self):
+        return list(
+            {
+                normalize_string("".join(item.stripped_strings).split("(")[0].strip())
+                for item in self.soup.find_all(
+                    "div", class_="wprm-recipe-equipment-name"
+                )
+            }
+        )

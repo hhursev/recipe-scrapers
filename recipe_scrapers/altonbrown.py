@@ -48,3 +48,13 @@ class AltonBrown(AbstractScraper):
 
     def description(self):
         return self.schema.description()
+
+    def equipment(self):
+        return list(
+            dict.fromkeys(
+                (equip.get_text())
+                for equip in self.soup.find_all(
+                    "div", class_="wprm-recipe-equipment-name"
+                )
+            )
+        )

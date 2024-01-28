@@ -1,18 +1,21 @@
-# mypy: disallow_untyped_defs=False
+# mypy: allow-untyped-defs
+
 from ._abstract import AbstractScraper
-from ._utils import get_equipment
 
 
-class BowlOfDelicious(AbstractScraper):
+class Recept(AbstractScraper):
     @classmethod
     def host(cls):
-        return "bowlofdelicious.com"
+        return "recept.se"
+
+    def author(self):
+        return self.schema.author()
 
     def title(self):
         return self.schema.title()
 
-    def author(self):
-        return self.schema.author()
+    def category(self):
+        return self.schema.category()
 
     def total_time(self):
         return self.schema.total_time()
@@ -32,11 +35,8 @@ class BowlOfDelicious(AbstractScraper):
     def ratings(self):
         return self.schema.ratings()
 
-    def equipment(self):
-        equipment_items = [
-            link.get_text()
-            for link in self.soup.select(
-                "div.wprm-recipe-equipment-name a.wprm-recipe-equipment-link"
-            )
-        ]
-        return get_equipment(equipment_items)
+    def cuisine(self):
+        return self.schema.cuisine()
+
+    def description(self):
+        return self.schema.description()

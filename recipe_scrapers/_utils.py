@@ -171,6 +171,17 @@ def get_yields(element):
     return "{} serving{}".format(matched, "" if int(matched) == 1 else "s")
 
 
+def get_equipment(equipment_items):
+    # Removes duplicates from results and sorts them in order they appear on site.
+    seen = set()
+    unique_equipment = []
+    for item in equipment_items:
+        if item not in seen:
+            seen.add(item)
+            unique_equipment.append(item)
+    return unique_equipment
+
+
 def normalize_string(string):
     # Convert all named and numeric character references (e.g. &gt;, &#62;)
     unescaped_string = html.unescape(string)
