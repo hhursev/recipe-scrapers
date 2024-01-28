@@ -51,5 +51,8 @@
   "site_name": "Budget Bytes",
   "title": "Smash Burgers",
   "total_time": 40,
-  "yields": "4 servings"
+  "yields": "4 servings",
+  "equipment": [
+    "Cast Iron Skillet"
+  ]
 }

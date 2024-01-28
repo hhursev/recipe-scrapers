@@ -80,5 +80,12 @@
   "site_name": "Baking Sense®",
   "title": "Sourdough Bundt Cake with Buttermilk Glaze",
   "total_time": 60,
-  "yields": "16 servings"
+  "yields": "16 servings",
+  "equipment": [
+    "My Book",
+    "KA Stand Mixer",
+    "Bundt Pan",
+    "Cooling Rack",
+    "Half Sheet Pans"
+  ]
 }

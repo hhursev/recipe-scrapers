@@ -89,5 +89,9 @@
   "site_name": "Elavegan",
   "title": "Vegan Coffee Cake",
   "total_time": 55,
-  "yields": "9 servings"
+  "yields": "9 servings",
+  "equipment": [
+    "Kitchen scale",
+    "8x8 pan"
+  ]
 }

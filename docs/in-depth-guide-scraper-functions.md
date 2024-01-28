@@ -304,3 +304,12 @@ scraper.ratings()
 ### `reviews() -> List[Dict[str, str]]`
 
 Returns a `list` of reviews about the recipe from the website. Each review is a `dict` containing the reviewer's name (`str`) and their review (`str`).
+
+### `equipment() -> List[str] | None`
+
+Returns a list of cooking equipment needed for provided recipe.
+
+```py
+>>> scraper.equipment()
+['Mixing Bowl', 'Whisk', 'Baking Tray']
+```
