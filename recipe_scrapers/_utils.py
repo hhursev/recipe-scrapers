@@ -92,7 +92,7 @@ def get_minutes(element):  # noqa: C901: TODO
     if not any(time_units.values()):
         return None
 
-    minutes = int(time_units.get("minutes") or 0)
+    minutes = float(time_units.get("minutes") or 0)
     hours_matched = time_units.get("hours")
     days_matched = time_units.get("days")
 
@@ -107,13 +107,13 @@ def get_minutes(element):  # noqa: C901: TODO
                 if fraction in hours_matched:
                     hours += value
                     hours_matched = hours_matched.replace(fraction, "")
-            hours += int(hours_matched) if hours_matched else 0
+            hours += float(hours_matched) if hours_matched else 0
         elif "/" in hours_matched:
             # for example "1 1/2" is matched
             hours_matched_split = hours_matched.split(" ")
             hours = 0
             if len(hours_matched_split) == 2:
-                hours += int(hours_matched_split[0])
+                hours += float(hours_matched_split[0])
             fraction = hours_matched_split[-1:][0].split("/")
             hours += float(int(fraction[0]) / int(fraction[1]))
         else:
