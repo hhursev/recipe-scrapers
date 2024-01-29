@@ -94,11 +94,10 @@ def get_minutes(element):  # noqa: C901: TODO
 
     minutes = float(time_units.get("minutes") or 0)
     hours_matched = time_units.get("hours")
-    days_matched = time_units.get("days")
+    days = float(time_units.get("days") or 0)
 
     # workaround for formats like: 0D4H45M, that are not a valid iso8601 it seems
-    if days_matched:
-        minutes += 24 * 60 * float(days_matched)
+    hours = 0
     if hours_matched:
         hours_matched = hours_matched.strip()
         if any([symbol in FRACTIONS.keys() for symbol in hours_matched]):
@@ -119,8 +118,8 @@ def get_minutes(element):  # noqa: C901: TODO
         else:
             hours = float(hours_matched)
 
-        minutes += round(60 * hours, 0)
-
+    hours += round(days * 24)
+    minutes += round(hours * 60)
     return minutes
 
 
