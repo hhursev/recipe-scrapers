@@ -76,15 +76,13 @@ def get_minutes(element):  # noqa: C901: TODO
         time_text = element.get_text()
 
     # attempt iso8601 duration parsing
-    if time_text.startswith("PT"):
+    if time_text.startswith("P") and "T" in time_text:
         try:
             duration = isodate.parse_duration(time_text)
             return math.ceil(duration.total_seconds() / 60)
         except Exception:
             pass
 
-    if time_text.startswith("P") and "T" in time_text:
-        time_text = time_text.split("T", 2)[1]
     if "-" in time_text:
         time_text = time_text.split("-", 2)[
             1
