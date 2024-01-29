@@ -43,7 +43,7 @@ class TheHappyFoodie(AbstractScraper):
             )
 
         return [
-            normalize_string("{} {}".format(amount, name))
+            normalize_string(f"{amount} {name}")
             for amount, name in ingredients
         ]
 

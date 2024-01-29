@@ -662,7 +662,7 @@ def scrape_me(url_path: str, **options: Any) -> AbstractScraper:
 
 
 def scrape_html(
-    html: str, org_url: Optional[str] = None, **options: dict[str, Any]
+    html: str, org_url: str | None = None, **options: dict[str, Any]
 ) -> AbstractScraper:
     """
     takes a string of html and returns a scraper object. if the org_url is specified

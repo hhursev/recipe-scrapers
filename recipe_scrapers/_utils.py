@@ -163,7 +163,7 @@ def get_yields(element):
 
     for singular, plural in RECIPE_YIELD_TYPES:
         if singular in serve_text_lower:
-            return "{} {}".format(matched, singular if int(matched) == 1 else plural)
+            return f"{matched} {singular if int(matched) == 1 else plural}"
 
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
         return "{} item{}".format(matched, "" if int(matched) == 1 else "s")

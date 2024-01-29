@@ -71,7 +71,7 @@ def test_func_factory(
     """
 
     def test_func(self):
-        with open(testjson, "r", encoding="utf-8") as f:
+        with open(testjson, encoding="utf-8") as f:
             expect = json.load(f)
             expect["ingredient_groups"] = [
                 IngredientGroup(**group)
