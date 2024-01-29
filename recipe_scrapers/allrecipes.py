@@ -101,12 +101,15 @@ class AllRecipesUser(AbstractScraper):
 
     def total_time(self):
         if "total" in self.meta:
-            total_time = get_minutes(self.meta["total"], return_zero_on_not_found=True)
+            return get_minutes(self.meta.get("total"))
         else:
-            total_time = get_minutes(self.meta.get("cook", 0)) + get_minutes(
-                self.meta.get("prep", 0)
-            )
-        return total_time
+            return self.prep_time() + self.cook_time()
+
+    def prep_time(self):
+        return get_minutes(self.meta.get("prep"))
+
+    def cook_time(self):
+        return get_minutes(self.meta.get("cook"))
 
     def yields(self):
         yield_data = self.meta.get("yield")

@@ -21,7 +21,7 @@ class ReceitasNestleBR(AbstractScraper):
 
     def total_time(self):
         total_time = self.schema.total_time()
-        if total_time == 0:
+        if total_time is None:
             time_div = self.soup.find("div", {"class": "recipeDetail__infoItem--time"})
             if time_div:
                 time_str = "".join(time_div.stripped_strings)

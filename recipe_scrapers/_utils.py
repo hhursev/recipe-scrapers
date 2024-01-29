@@ -60,12 +60,9 @@ RECIPE_YIELD_TYPES = (
 )
 
 
-def get_minutes(element, return_zero_on_not_found=False):  # noqa: C901: TODO
+def get_minutes(element):  # noqa: C901: TODO
     if element is None:
-        # to be removed
-        if return_zero_on_not_found:
-            return 0
-        raise ElementNotFoundInHtml(element)
+        return 0
 
     # handle integer in string literal
     try:
