@@ -136,6 +136,7 @@ class SchemaOrg:
             return get_minutes(v)
         if type(v) is dict and v.get("minValue"):
             return get_minutes(v["minValue"])
+        return None
 
     def total_time(self):
         if not (self.data.keys() & {"totalTime", "prepTime", "cookTime"}):
