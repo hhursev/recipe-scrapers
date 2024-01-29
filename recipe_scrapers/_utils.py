@@ -88,14 +88,13 @@ def get_minutes(element):  # noqa: C901: TODO
     if " to " in time_text:  # sometimes formats are like this: '12 to 15 minutes'
         time_text = time_text.split("to", 2)[1]
 
-    matched = TIME_REGEX.search(time_text)
-
-    if matched is None or not any(matched.groupdict().values()):
+    time_units = TIME_REGEX.search(time_text).groupdict()
+    if not any(time_units.values()):
         return None
 
-    minutes = int(matched.groupdict().get("minutes") or 0)
-    hours_matched = matched.groupdict().get("hours")
-    days_matched = matched.groupdict().get("days")
+    minutes = int(time_units.get("minutes") or 0)
+    hours_matched = time_units.get("hours")
+    days_matched = time_units.get("days")
 
     # workaround for formats like: 0D4H45M, that are not a valid iso8601 it seems
     if days_matched:
