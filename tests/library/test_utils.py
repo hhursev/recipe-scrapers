@@ -32,6 +32,10 @@ class TestUtils(unittest.TestCase):
         text = "1.5 hours"
         self.assertEqual(90, get_minutes(text))
 
+    def test_get_minutes_integer_days(self):
+        text = "2 days"
+        self.assertEqual(2880, get_minutes(text))
+
     def test_get_minutes_fraction_with_fraction_unicode_character_halves(self):
         text = "1½ hours"
         self.assertEqual(90, get_minutes(text))
