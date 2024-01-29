@@ -144,7 +144,7 @@ class SchemaOrg:
 
         total_time = self._read_time_field("totalTime")
         if total_time:
-            return get_minutes(total_time)
+            return total_time
 
         prep_time = self._read_time_field("prepTime") or 0
         cook_time = self._read_time_field("cookTime") or 0
