@@ -101,7 +101,6 @@ def get_minutes(element):  # noqa: C901: TODO
     if hours_matched:
         hours_matched = hours_matched.strip()
         if any(symbol in FRACTIONS for symbol in hours_matched):
-            hours = 0
             for fraction, value in FRACTIONS.items():
                 if fraction in hours_matched:
                     hours += value
@@ -110,7 +109,6 @@ def get_minutes(element):  # noqa: C901: TODO
         elif "/" in hours_matched:
             # for example "1 1/2" is matched
             hours_matched_split = hours_matched.split(" ")
-            hours = 0
             if len(hours_matched_split) == 2:
                 hours += float(hours_matched_split[0])
             fraction = hours_matched_split[-1:][0].split("/")
