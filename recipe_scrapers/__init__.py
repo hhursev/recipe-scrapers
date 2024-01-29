@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import contextlib
-from typing import Any, Optional
+from typing import Any
 
 from ._abstract import AbstractScraper
 from ._exceptions import NoSchemaFoundInWildMode, WebsiteNotImplementedError
@@ -672,7 +672,7 @@ def scrape_html(
 
     Args:
         html (str): raw HTML in text form
-        org_url (Optional[str], optional): Original URL of the HTML. Defaults to None.
+        org_url (str, optional): Original URL of the HTML. Defaults to None.
 
     Raises:
         NoSchemaFoundInWildMode: If no schema is found in wild mode.
