@@ -83,14 +83,10 @@ def get_minutes(element):  # noqa: C901: TODO
         except Exception:
             pass
 
-    if "-" in time_text:
-        time_text = time_text.split("-", 2)[
-            1
-        ]  # sometimes formats are like this: '12-15 minutes'
-    if " to " in time_text:
-        time_text = time_text.split("to", 2)[
-            1
-        ]  # sometimes formats are like this: '12 to 15 minutes'
+    if "-" in time_text:  # sometimes formats are like this: '12-15 minutes'
+        time_text = time_text.split("-", 2)[1]
+    if " to " in time_text:  # sometimes formats are like this: '12 to 15 minutes'
+        time_text = time_text.split("to", 2)[1]
     if "h" in time_text:
         time_text = time_text.replace("h", "hours")
 
