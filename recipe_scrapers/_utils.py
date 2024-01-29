@@ -100,7 +100,7 @@ def get_minutes(element):  # noqa: C901: TODO
     hours = 0
     if hours_matched:
         hours_matched = hours_matched.strip()
-        if any([symbol in FRACTIONS.keys() for symbol in hours_matched]):
+        if any(symbol in FRACTIONS for symbol in hours_matched):
             hours = 0
             for fraction, value in FRACTIONS.items():
                 if fraction in hours_matched:
