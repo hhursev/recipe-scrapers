@@ -1,5 +1,4 @@
 # mypy: disallow_untyped_defs=False
-from __future__ import annotations
 
 import html
 import math
