@@ -106,7 +106,7 @@ def get_minutes(element):
     if "-" in time_text:  # sometimes formats are like this: '12-15 minutes'
         time_text = time_text.split("-", 2)[1]
     if " to " in time_text:  # sometimes formats are like this: '12 to 15 minutes'
-        time_text = time_text.split("to", 2)[1]
+        time_text = time_text.split(" to ", 2)[1]
 
     time_units = TIME_REGEX.search(time_text).groupdict()
     if not any(time_units.values()):
