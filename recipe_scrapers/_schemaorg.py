@@ -130,11 +130,11 @@ class SchemaOrg:
         v = self.data.get(k)
         if v is None:
             return None
-        if type(v) is int:
+        if isinstance(v, int):
             return v
-        if type(v) is str:
+        if isinstance(v, str):
             return get_minutes(v)
-        if type(v) is dict and v.get("minValue"):
+        if isinstance(v, dict) and v.get("minValue"):
             return get_minutes(v["minValue"])
         return None
 
