@@ -61,10 +61,7 @@ RECIPE_YIELD_TYPES = (
 )
 
 
-def _extract_fractional(input_string: str | None):
-    if not input_string:
-        return
-
+def _extract_fractional(input_string: str):
     input_string = input_string.strip()
     if "/" in input_string:
         # for example "1 1/2" is matched
@@ -121,7 +118,7 @@ def get_minutes(element):
 
     # workaround for formats like: 0D4H45M, that are not a valid iso8601 it seems
     days = float(days_matched) if days_matched else 0
-    hours = sum(_extract_fractional(hours_matched))
+    hours = sum(_extract_fractional(hours_matched)) if hours_matched else 0
 
     hours += round(days * 24)
     minutes += round(hours * 60)
