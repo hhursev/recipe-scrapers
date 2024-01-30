@@ -69,7 +69,7 @@ def _extract_fractional(input_string: str) -> float:
         numerator, denominator = fractional_part.split("/")
         return float(whole_part) + float(int(numerator) / int(denominator))
 
-    whole_part, fractional_amount = "", 0
+    whole_part, fractional_amount = "", 0.0
     for symbol in input_string:
         if symbol in FRACTIONS:
             fractional_amount += FRACTIONS[symbol]
