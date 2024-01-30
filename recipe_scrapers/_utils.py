@@ -113,9 +113,10 @@ def get_minutes(element):  # noqa: C901: TODO
 
     minutes = float(time_units.get("minutes") or 0)
     hours_matched = time_units.get("hours")
-    days = float(time_units.get("days") or 0)
+    days_matched = time_units.get("days")
 
     # workaround for formats like: 0D4H45M, that are not a valid iso8601 it seems
+    days = float(days_matched) if days_matched else 0
     hours = 0
     if hours_matched:
         hours += sum(_extract_fractional(hours_matched))
