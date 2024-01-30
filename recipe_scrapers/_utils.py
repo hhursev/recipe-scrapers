@@ -83,7 +83,7 @@ def _extract_fractional(input_string: str | None):
         yield float(input_string)
 
 
-def get_minutes(element):  # noqa: C901: TODO
+def get_minutes(element):
     if element is None:
         return 0
 
