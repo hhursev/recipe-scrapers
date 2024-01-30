@@ -119,10 +119,7 @@ def get_minutes(element):
     days = float(days_matched) if days_matched else 0
     hours = float(_extract_fractional(hours_matched)) if hours_matched else 0
     minutes = float(minutes_matched) if minutes_matched else 0
-
-    hours += round(days * 24)
-    minutes += round(hours * 60)
-    return minutes
+    return minutes + round(hours * 60) + round(days * 24 * 60)
 
 
 def get_yields(element):
