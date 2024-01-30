@@ -60,6 +60,27 @@ RECIPE_YIELD_TYPES = (
 )
 
 
+def _extract_fractional(input_string: str) -> tuple[float, float]:
+    input_string = input_string.strip()
+    whole_part, fractional_part = 0.0, 0.0
+    if any(symbol in FRACTIONS for symbol in input_string):
+        for fraction, amount in FRACTIONS.items():
+            if fraction in input_string:
+                fractional_part += amount
+                input_string = input_string.replace(fraction, "")
+        whole_part += float(input_string) if input_string else 0
+    elif "/" in input_string:
+        # for example "1 1/2" is matched
+        components = input_string.split(" ")
+        if len(components) == 2:
+            whole_part += float(components[0])
+        numerator, denominator = components[-1:][0].split("/")
+        fractional_part += float(int(numerator) / int(denominator))
+    else:
+        whole_part = float(input_string)
+    return whole_part, fractional_part
+
+
 def get_minutes(element):  # noqa: C901: TODO
     if element is None:
         return 0
@@ -99,22 +120,9 @@ def get_minutes(element):  # noqa: C901: TODO
     # workaround for formats like: 0D4H45M, that are not a valid iso8601 it seems
     hours = 0
     if hours_matched:
-        hours_matched = hours_matched.strip()
-        if any(symbol in FRACTIONS for symbol in hours_matched):
-            for fraction, value in FRACTIONS.items():
-                if fraction in hours_matched:
-                    hours += value
-                    hours_matched = hours_matched.replace(fraction, "")
-            hours += float(hours_matched) if hours_matched else 0
-        elif "/" in hours_matched:
-            # for example "1 1/2" is matched
-            hours_matched_split = hours_matched.split(" ")
-            if len(hours_matched_split) == 2:
-                hours += float(hours_matched_split[0])
-            fraction = hours_matched_split[-1:][0].split("/")
-            hours += float(int(fraction[0]) / int(fraction[1]))
-        else:
-            hours = float(hours_matched)
+        whole_hours, fractional_hours = _extract_fractional(hours_matched)
+        hours += whole_hours
+        hours += fractional_hours
 
     hours += round(days * 24)
     minutes += round(hours * 60)
