@@ -112,13 +112,14 @@ def get_minutes(element):
     if not any(time_units.values()):
         return None
 
-    minutes = float(time_units.get("minutes") or 0)
+    minutes_matched = time_units.get("minutes")
     hours_matched = time_units.get("hours")
     days_matched = time_units.get("days")
 
     # workaround for formats like: 0D4H45M, that are not a valid iso8601 it seems
     days = float(days_matched) if days_matched else 0
     hours = sum(_extract_fractional(hours_matched)) if hours_matched else 0
+    minutes = float(minutes_matched) if minutes_matched else 0
 
     hours += round(days * 24)
     minutes += round(hours * 60)
