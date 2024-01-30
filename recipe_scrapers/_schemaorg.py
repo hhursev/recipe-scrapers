@@ -130,8 +130,6 @@ class SchemaOrg:
         v = self.data.get(k)
         if v is None:
             return None
-        if isinstance(v, int):
-            return v
         if isinstance(v, str):
             return get_minutes(v)
         if isinstance(v, dict) and v.get("minValue"):
