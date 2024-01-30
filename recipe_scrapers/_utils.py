@@ -1,4 +1,5 @@
 # mypy: disallow_untyped_defs=False
+from __future__ import annotations
 
 import html
 import math
@@ -60,7 +61,10 @@ RECIPE_YIELD_TYPES = (
 )
 
 
-def _extract_fractional(input_string: str):
+def _extract_fractional(input_string: str | None):
+    if not input_string:
+        return
+
     input_string = input_string.strip()
     if any(symbol in FRACTIONS for symbol in input_string):
         for fraction, amount in FRACTIONS.items():
@@ -117,9 +121,7 @@ def get_minutes(element):  # noqa: C901: TODO
 
     # workaround for formats like: 0D4H45M, that are not a valid iso8601 it seems
     days = float(days_matched) if days_matched else 0
-    hours = 0
-    if hours_matched:
-        hours += sum(_extract_fractional(hours_matched))
+    hours = sum(_extract_fractional(hours_matched))
 
     hours += round(days * 24)
     minutes += round(hours * 60)
