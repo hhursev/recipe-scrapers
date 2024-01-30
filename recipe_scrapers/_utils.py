@@ -82,7 +82,7 @@ def _extract_fractional(input_string: str):
 
 def get_minutes(element):
     if element is None:
-        return 0
+        raise ElementNotFoundInHtml(element)
 
     # handle integer in string literal
     try:
