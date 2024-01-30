@@ -126,7 +126,7 @@ class SchemaOrg:
         if author:
             return author.strip()
 
-    def _read_time_field(self, k: str) -> int | None:
+    def _read_duration_field(self, k: str) -> int | None:
         v = self.data.get(k)
         if v is None:
             return None
@@ -144,24 +144,24 @@ class SchemaOrg:
         if not (self.data.keys() & {"totalTime", "prepTime", "cookTime"}):
             raise SchemaOrgException("Cooking time information not found in SchemaOrg")
 
-        total_time = self._read_time_field("totalTime")
+        total_time = self._read_duration_field("totalTime")
         if total_time:
             return total_time
 
-        prep_time = self._read_time_field("prepTime") or 0
-        cook_time = self._read_time_field("cookTime") or 0
+        prep_time = self._read_duration_field("prepTime") or 0
+        cook_time = self._read_duration_field("cookTime") or 0
         if prep_time or cook_time:
             return prep_time + cook_time
 
     def cook_time(self):
         if not (self.data.keys() & {"cookTime"}):
             raise SchemaOrgException("Cooktime information not found in SchemaOrg")
-        return self._read_time_field("cookTime")
+        return self._read_duration_field("cookTime")
 
     def prep_time(self):
         if not (self.data.keys() & {"prepTime"}):
             raise SchemaOrgException("Preptime information not found in SchemaOrg")
-        return self._read_time_field("prepTime")
+        return self._read_duration_field("prepTime")
 
     def yields(self):
         if not (self.data.keys() & {"recipeYield", "yield"}):
