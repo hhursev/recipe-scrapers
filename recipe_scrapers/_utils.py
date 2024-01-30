@@ -60,7 +60,7 @@ RECIPE_YIELD_TYPES = (
 )
 
 
-def _extract_fractional(input_string: str) -> tuple[float, float]:
+def _extract_fractional(input_string: str):
     input_string = input_string.strip()
     if any(symbol in FRACTIONS for symbol in input_string):
         for fraction, amount in FRACTIONS.items():
