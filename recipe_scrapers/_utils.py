@@ -73,14 +73,14 @@ def _extract_fractional(input_string: str | None):
             yield float(components[0])
         numerator, denominator = components[-1:][0].split("/")
         yield float(int(numerator) / int(denominator))
-    elif any(symbol in FRACTIONS for symbol in input_string):
-        for fraction, amount in FRACTIONS.items():
-            if fraction in input_string:
-                yield amount
-                input_string = input_string.replace(fraction, "")
-        yield float(input_string) if input_string else 0
-    else:
-        yield float(input_string)
+        return
+
+    for symbol in input_string:
+        if amount := FRACTIONS.get(symbol):
+            yield amount
+            input_string = input_string.replace(symbol, "")
+
+    yield float(input_string)
 
 
 def get_minutes(element):
