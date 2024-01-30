@@ -65,8 +65,7 @@ def _extract_fractional(input_string: str):
     if "/" in input_string:
         # for example "1 1/2" is matched
         components = input_string.split(" ")
-        assert len(components) == 2
-        whole_part, fractional_part = components
+        whole_part, fractional_part = components[0], components[-1]
         numerator, denominator = fractional_part.split("/")
         yield float(whole_part)
         yield float(int(numerator) / int(denominator))
