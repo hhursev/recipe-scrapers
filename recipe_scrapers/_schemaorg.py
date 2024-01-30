@@ -132,6 +132,10 @@ class SchemaOrg:
             return None
         if isinstance(v, str):
             return get_minutes(v)
+        # Workaround: strictly speaking schema.org does not provide for minValue (and maxValue) properties on objects of type Duration; they are however present on objects with type QuantitativeValue
+        # Refs:
+        #  - https://schema.org/Duration
+        #  - https://schema.org/QuantitativeValue
         if isinstance(v, dict) and v.get("minValue"):
             return get_minutes(v["minValue"])
         return None
