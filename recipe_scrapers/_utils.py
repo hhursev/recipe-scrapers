@@ -66,19 +66,19 @@ def _extract_fractional(input_string: str | None):
         return
 
     input_string = input_string.strip()
-    if any(symbol in FRACTIONS for symbol in input_string):
-        for fraction, amount in FRACTIONS.items():
-            if fraction in input_string:
-                yield amount
-                input_string = input_string.replace(fraction, "")
-        yield float(input_string) if input_string else 0
-    elif "/" in input_string:
+    if "/" in input_string:
         # for example "1 1/2" is matched
         components = input_string.split(" ")
         if len(components) == 2:
             yield float(components[0])
         numerator, denominator = components[-1:][0].split("/")
         yield float(int(numerator) / int(denominator))
+    elif any(symbol in FRACTIONS for symbol in input_string):
+        for fraction, amount in FRACTIONS.items():
+            if fraction in input_string:
+                yield amount
+                input_string = input_string.replace(fraction, "")
+        yield float(input_string) if input_string else 0
     else:
         yield float(input_string)
 
