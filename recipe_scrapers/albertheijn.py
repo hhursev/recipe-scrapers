@@ -1,16 +1,11 @@
 # mypy: disallow_untyped_defs=False
 import re
-import inspect
 from typing import Dict, Optional, Tuple, Union
+from requests import Session
 
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
-from ._schemaorg import SchemaOrg
 
-from recipe_scrapers.settings import settings
-
-import requests
-from bs4 import BeautifulSoup
 
 HEADERS = {
     'Accept-Language': 'nl',  # ah.nl seems to block any requests not having both these headers.
@@ -21,7 +16,7 @@ HEADERS = {
 class AlbertHeijn(AbstractScraper):
     def __init__(
         self,
-        url: Union[str, None],
+        url: str,
         proxies: Optional[
             Dict[str, str]
         ] = None,  # allows us to specify optional proxy server
@@ -30,34 +25,17 @@ class AlbertHeijn(AbstractScraper):
         ] = None,  # allows us to specify optional timeout for request
         wild_mode: Optional[bool] = False,
         html: Union[str, bytes, None] = None,
-    ):
-        if html:
-            self.page_data = html
-            self.url = url
-        else:
-            assert url is not None, "url required for fetching recipe data"
-            resp = requests.get(
-                url,
-                headers=HEADERS,
-                proxies=proxies,
-                timeout=timeout,
-            )
-            self.page_data = resp.content
-            self.url = resp.url
+    ) -> None:
+        if html is None:
+            with Session() as session:
+                session.proxies.update(proxies or {})
+                session.headers.update(HEADERS)
 
-        self.wild_mode = wild_mode
-        self.soup = BeautifulSoup(self.page_data, "html.parser")
-        self.schema = SchemaOrg(self.page_data)
+                session.get(url, timeout=timeout)
+                html = session.get(url, timeout=timeout).content  # reload the page
 
-        # attach the plugins as instructed in settings.PLUGINS
-        if not hasattr(self.__class__, "plugins_initialized"):
-            for name, _ in inspect.getmembers(self, inspect.ismethod):
-                current_method = getattr(self.__class__, name)
-                for plugin in reversed(settings.PLUGINS):
-                    if plugin.should_run(self.host(), name):
-                        current_method = plugin.run(current_method)
-                setattr(self.__class__, name, current_method)
-            setattr(self.__class__, "plugins_initialized", True)
+        # As the html content is provided, the parent will not query the page
+        super().__init__(url, proxies, timeout, wild_mode, html)
 
     @classmethod
     def host(cls):
