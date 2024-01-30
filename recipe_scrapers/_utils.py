@@ -60,25 +60,23 @@ RECIPE_YIELD_TYPES = (
 )
 
 
-def _extract_fractional(input_string: str):
+def _extract_fractional(input_string: str) -> float:
     input_string = input_string.strip()
     if "/" in input_string:
         # for example "1 1/2" is matched
         components = input_string.split(" ")
         whole_part, fractional_part = components[0], components[-1]
         numerator, denominator = fractional_part.split("/")
-        yield float(whole_part)
-        yield float(int(numerator) / int(denominator))
-        return
+        return float(whole_part) + float(int(numerator) / int(denominator))
 
-    whole_part = ""
+    whole_part, fractional_amount = "", 0
     for symbol in input_string:
         if symbol in FRACTIONS:
-            yield FRACTIONS[symbol]
+            fractional_amount += FRACTIONS[symbol]
         else:
             whole_part += symbol
 
-    yield float(whole_part)
+    return float(whole_part) + float(fractional_amount)
 
 
 def get_minutes(element):
@@ -119,7 +117,7 @@ def get_minutes(element):
 
     # workaround for formats like: 0D4H45M, that are not a valid iso8601 it seems
     days = float(days_matched) if days_matched else 0
-    hours = sum(_extract_fractional(hours_matched)) if hours_matched else 0
+    hours = float(_extract_fractional(hours_matched)) if hours_matched else 0
     minutes = float(minutes_matched) if minutes_matched else 0
 
     hours += round(days * 24)
