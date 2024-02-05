@@ -29,4 +29,3 @@ repos:
     rev: v1.6.1
     hooks:
     - id: mypy
-      additional_dependencies: [types-beautifulsoup4, types-requests]
