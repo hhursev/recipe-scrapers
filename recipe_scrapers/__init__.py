@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import contextlib
-from typing import Any, Optional
+from typing import Any
 
 from ._abstract import AbstractScraper
 from ._exceptions import NoSchemaFoundInWildMode
@@ -627,7 +627,7 @@ def scraper_exists_for(url_path: str) -> bool:
 
 
 def scrape_html(
-    html: str, org_url: Optional[str] = None, **options: dict[str, Any]
+    html: str, org_url: str | None = None, **options: dict[str, Any]
 ) -> AbstractScraper:
     """
     takes a string of html and returns a scraper object. if the org_url is specified
@@ -637,7 +637,7 @@ def scrape_html(
 
     Args:
         html (str): raw HTML in text form
-        org_url (Optional[str], optional): Original URL of the HTML. Defaults to None.
+        org_url (str, optional): Original URL of the HTML. Defaults to None.
 
     Raises:
         NoSchemaFoundInWildMode: If no schema is found in wild mode.
