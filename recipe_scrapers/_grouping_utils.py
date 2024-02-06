@@ -45,8 +45,8 @@ def score_sentence_similarity(first: str, second: str) -> float:
         # so the score is 0
         return 0
 
-    first_bigrams = set([first[i : i + 2] for i in range(len(first) - 1)])
-    second_bigrams = set([second[i : i + 2] for i in range(len(second) - 1)])
+    first_bigrams = {first[i : i + 2] for i in range(len(first) - 1)}
+    second_bigrams = {second[i : i + 2] for i in range(len(second) - 1)}
 
     intersection = first_bigrams & second_bigrams
 

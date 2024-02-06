@@ -30,3 +30,8 @@ repos:
     hooks:
     - id: mypy
       additional_dependencies: [types-beautifulsoup4, types-requests]
+-   repo: https://github.com/asottile/pyupgrade
+    rev: v3.15.0
+    hooks:
+    - id: pyupgrade
+      args: [--py38-plus]
