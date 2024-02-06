@@ -60,11 +60,27 @@ RECIPE_YIELD_TYPES = (
 )
 
 
-def get_minutes(element, return_zero_on_not_found=False):  # noqa: C901: TODO
+def _extract_fractional(input_string: str) -> float:
+    input_string = input_string.strip()
+    if "/" in input_string:
+        # for example "1 1/2" is matched
+        components = input_string.split(" ")
+        whole_part, fractional_part = components[0], components[-1]
+        numerator, denominator = fractional_part.split("/")
+        return float(whole_part) + float(int(numerator) / int(denominator))
+
+    whole_part, fractional_amount = "", 0.0
+    for symbol in input_string:
+        if symbol in FRACTIONS:
+            fractional_amount += FRACTIONS[symbol]
+        else:
+            whole_part += symbol
+
+    return float(whole_part) + float(fractional_amount)
+
+
+def get_minutes(element):
     if element is None:
-        # to be removed
-        if return_zero_on_not_found:
-            return 0
         raise ElementNotFoundInHtml(element)
 
     # handle integer in string literal
@@ -79,61 +95,31 @@ def get_minutes(element, return_zero_on_not_found=False):  # noqa: C901: TODO
         time_text = element.get_text()
 
     # attempt iso8601 duration parsing
-    if time_text.startswith("PT"):
+    if time_text.startswith("P") and "T" in time_text:
         try:
             duration = isodate.parse_duration(time_text)
             return math.ceil(duration.total_seconds() / 60)
         except Exception:
             pass
 
-    if time_text.startswith("P") and "T" in time_text:
-        time_text = time_text.split("T", 2)[1]
-    if "-" in time_text:
-        time_text = time_text.split("-", 2)[
-            1
-        ]  # sometimes formats are like this: '12-15 minutes'
-    if " to " in time_text:
-        time_text = time_text.split("to", 2)[
-            1
-        ]  # sometimes formats are like this: '12 to 15 minutes'
-    if "h" in time_text:
-        time_text = time_text.replace("h", "hours")
+    if "-" in time_text:  # sometimes formats are like this: '12-15 minutes'
+        _min, _, time_text = time_text.partition("-")
+    if " to " in time_text:  # sometimes formats are like this: '12 to 15 minutes'
+        _min, _to, time_text = time_text.partition(" to ")
 
-    matched = TIME_REGEX.search(time_text)
-
-    if matched is None or not any(matched.groupdict().values()):
+    time_units = TIME_REGEX.search(time_text).groupdict()
+    if not any(time_units.values()):
         return None
 
-    minutes = int(matched.groupdict().get("minutes") or 0)
-    hours_matched = matched.groupdict().get("hours")
-    days_matched = matched.groupdict().get("days")
+    minutes_matched = time_units.get("minutes")
+    hours_matched = time_units.get("hours")
+    days_matched = time_units.get("days")
 
     # workaround for formats like: 0D4H45M, that are not a valid iso8601 it seems
-    if days_matched:
-        minutes += 60 * 60 * float(days_matched.strip())
-    if hours_matched:
-        hours_matched = hours_matched.strip()
-        if any([symbol in FRACTIONS.keys() for symbol in hours_matched]):
-            hours = 0
-            for fraction, value in FRACTIONS.items():
-                if fraction in hours_matched:
-                    hours += value
-                    hours_matched = hours_matched.replace(fraction, "")
-            hours += int(hours_matched) if hours_matched else 0
-        elif "/" in hours_matched:
-            # for example "1 1/2" is matched
-            hours_matched_split = hours_matched.split(" ")
-            hours = 0
-            if len(hours_matched_split) == 2:
-                hours += int(hours_matched_split[0])
-            fraction = hours_matched_split[-1:][0].split("/")
-            hours += float(int(fraction[0]) / int(fraction[1]))
-        else:
-            hours = float(hours_matched)
-
-        minutes += round(60 * hours, 0)
-
-    return minutes
+    days = float(days_matched) if days_matched else 0
+    hours = float(_extract_fractional(hours_matched)) if hours_matched else 0
+    minutes = float(minutes_matched) if minutes_matched else 0
+    return minutes + round(hours * 60) + round(days * 24 * 60)
 
 
 def get_yields(element):
