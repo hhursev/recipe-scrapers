@@ -10,6 +10,9 @@ class Thewoksoflife(AbstractScraper):
     def title(self):
         return self.schema.title()
 
+    def description(self):
+        return self.schema.description()
+
     def total_time(self):
         return self.schema.total_time()
 
