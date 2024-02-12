@@ -14,6 +14,12 @@ class SimplyRecipes(AbstractScraper):
     def total_time(self):
         return self.schema.total_time()
 
+    def prep_time(self):
+        return self.schema.prep_time()
+
+    def cook_time(self):
+        return self.schema.cook_time()
+
     def yields(self):
         return self.schema.yields()
 
