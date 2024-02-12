@@ -1,15 +1,15 @@
 # mypy: disallow_untyped_defs=False
 import re
 from typing import Dict, Optional, Tuple, Union
+
 from requests import Session
 
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
-
 HEADERS = {
-    'Accept-Language': 'nl',  # ah.nl seems to block any requests not having both these headers.
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0'
+    "Accept-Language": "nl",  # ah.nl seems to block any requests not having both these headers.
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0",
 }
 
 
