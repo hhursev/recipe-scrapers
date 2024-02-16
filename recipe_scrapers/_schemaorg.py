@@ -210,10 +210,8 @@ class SchemaOrg:
     def nutrients(self):
         nutrients = self.data.get("nutrition", {})
 
-        # Some recipes contain null or numbers which breaks normalize_string()
-        # We'll ignore null and convert numbers to a string, like Schema validator does
         for key, val in nutrients.copy().items():
-            if val is None:
+            if val is None or val == "":
                 del nutrients[key]
             elif type(val) in [int, float]:
                 nutrients[key] = str(val)
