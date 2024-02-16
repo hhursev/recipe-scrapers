@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._utils import normalize_string
 
 
 class Argiro(AbstractScraper):
@@ -38,3 +39,10 @@ class Argiro(AbstractScraper):
 
     def description(self):
         return self.schema.description()
+
+    def equipment(self):
+        equipment_items = [
+            normalize_string(e.get_text())
+            for e in self.soup.find_all("div", class_="equipment-title")
+        ]
+        return sorted(equipment_items)
