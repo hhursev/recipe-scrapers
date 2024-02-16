@@ -2,9 +2,6 @@ from ._abstract import AbstractScraper
 
 
 class Argiro(AbstractScraper):
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-
     @classmethod
     def host(cls):
         return "argiro.gr"
