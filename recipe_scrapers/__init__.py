@@ -20,6 +20,7 @@ from .altonbrown import AltonBrown
 from .amazingribs import AmazingRibs
 from .ambitiouskitchen import AmbitiousKitchen
 from .archanaskitchen import ArchanasKitchen
+from .argiro import Argiro
 from .arla import Arla
 from .atelierdeschefs import AtelierDesChefs
 from .averiecooks import AverieCooks
@@ -318,6 +319,7 @@ SCRAPERS = {
     AmazingRibs.host(): AmazingRibs,
     AmbitiousKitchen.host(): AmbitiousKitchen,
     ArchanasKitchen.host(): ArchanasKitchen,
+    Argiro.host(): Argiro,
     Arla.host(): Arla,
     AtelierDesChefs.host(): AtelierDesChefs,
     AverieCooks.host(): AverieCooks,
