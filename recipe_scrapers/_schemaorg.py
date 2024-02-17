@@ -3,6 +3,7 @@
 # find a package that parses https://schema.org/Recipe properly (or create one ourselves).
 from __future__ import annotations
 
+import re
 from itertools import chain
 
 import extruct
@@ -10,7 +11,7 @@ import extruct
 from recipe_scrapers.settings import settings
 
 from ._exceptions import SchemaOrgException
-from ._utils import get_minutes, get_yields, normalize_string
+from ._utils import RECIPE_YIELD_TYPES, get_minutes, get_yields, normalize_string
 
 SCHEMA_ORG_HOST = "schema.org"
 
@@ -209,17 +210,28 @@ class SchemaOrg:
 
     def nutrients(self):
         nutrients = self.data.get("nutrition", {})
+        nutrient_pattern = re.compile(r"^[a-zA-Z0-9\s.,:()<>Bb/-]+$", re.IGNORECASE)
 
-        for key, val in nutrients.copy().items():
-            if val is None or val == "":
-                del nutrients[key]
-            elif type(val) in [int, float]:
-                nutrients[key] = str(val)
+        cleaned_nutrients = {}
+        for key, val in nutrients.items():
+            if key in ["@context", "@type"] or not val:
+                continue
+
+            if key == "servingSize":
+                parts = [
+                    get_yields(normalize_string(part))
+                    if any(yield_type in part for yield_type, _ in RECIPE_YIELD_TYPES)
+                    else normalize_string(part)
+                    for part in val.split("/")
+                ]
+                val = " /".join(parts)
+
+            if isinstance(val, (int, float)) or nutrient_pattern.match(str(val)):
+                cleaned_nutrients[key] = str(val)
 
         return {
             normalize_string(nutrient): normalize_string(value)
-            for nutrient, value in nutrients.items()
-            if nutrient != "@type" and value is not None
+            for nutrient, value in cleaned_nutrients.items()
         }
 
     def _extract_howto_instructions_text(self, schema_item):
