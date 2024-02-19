@@ -240,18 +240,3 @@ def change_keys(obj, convert):
     else:
         return obj
     return new
-
-
-def nutrient_validator(value, action):
-    if action == "validate_key":
-        return value not in ["@context", "@type"] and value is not None
-
-    if action == "process":
-        # Splitting the value by '/' and processing each part. Some sites have yields formatted as '1 /4 cups'
-        parts = [
-            get_yields(normalize_string(part))
-            if any(yield_type in part for yield_type, _ in RECIPE_YIELD_TYPES)
-            else normalize_string(part)
-            for part in value.split("/")
-        ]
-        return " /".join(parts)

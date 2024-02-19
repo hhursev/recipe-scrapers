@@ -10,7 +10,7 @@ import extruct
 from recipe_scrapers.settings import settings
 
 from ._exceptions import SchemaOrgException
-from ._utils import get_minutes, get_yields, normalize_string, nutrient_validator
+from ._utils import get_minutes, get_yields, normalize_string
 
 SCHEMA_ORG_HOST = "schema.org"
 
@@ -212,10 +212,8 @@ class SchemaOrg:
         cleaned_nutrients = {}
 
         for key, val in nutrients.items():
-            if not nutrient_validator(key, "validate_key") or not val:
+            if key in ["@context", "@type"] or key is None or val in [None, ""]:
                 continue
-
-            val = nutrient_validator(val, "process") if key == "servingSize" else val
 
             cleaned_nutrients[key] = str(val)
 
