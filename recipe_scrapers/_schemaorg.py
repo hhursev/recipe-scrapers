@@ -212,7 +212,7 @@ class SchemaOrg:
         cleaned_nutrients = {}
 
         for key, val in nutrients.items():
-            if key in ["@context", "@type"] or key is None or val in [None, ""]:
+            if not key or key.startswith("@") or not val:
                 continue
 
             cleaned_nutrients[key] = str(val)
