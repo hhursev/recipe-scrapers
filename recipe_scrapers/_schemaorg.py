@@ -209,19 +209,17 @@ class SchemaOrg:
 
     def nutrients(self):
         nutrients = self.data.get("nutrition", {})
+        cleaned_nutrients = {}
 
-        # Some recipes contain null or numbers which breaks normalize_string()
-        # We'll ignore null and convert numbers to a string, like Schema validator does
-        for key, val in nutrients.copy().items():
-            if val is None:
-                del nutrients[key]
-            elif type(val) in [int, float]:
-                nutrients[key] = str(val)
+        for key, val in nutrients.items():
+            if not key or key.startswith("@") or not val:
+                continue
+
+            cleaned_nutrients[key] = str(val)
 
         return {
             normalize_string(nutrient): normalize_string(value)
-            for nutrient, value in nutrients.items()
-            if nutrient != "@type" and value is not None
+            for nutrient, value in cleaned_nutrients.items()
         }
 
     def _extract_howto_instructions_text(self, schema_item):
