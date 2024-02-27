@@ -56,6 +56,9 @@ RECIPE_YIELD_TYPES = (
     ("scoop", "scoops"),
     ("bar", "bars"),
     ("patty", "patties"),
+    ("hamburger bun", "hamburger buns"),
+    ("pancake", "pancakes"),
+    ("item", "items"),
     # ... add more types as needed, in (singular, plural) format ...
 )
 
@@ -147,9 +150,20 @@ def get_yields(element):
     matched = SERVE_REGEX_NUMBER.search(serve_text).groupdict().get("items") or 0
     serve_text_lower = serve_text.lower()
 
+    best_match = None
+    best_match_length = 0
+
     for singular, plural in RECIPE_YIELD_TYPES:
-        if singular in serve_text_lower:
-            return f"{matched} {singular if int(matched) == 1 else plural}"
+        if singular in serve_text_lower or plural in serve_text_lower:
+            match_length = (
+                len(singular) if singular in serve_text_lower else len(plural)
+            )
+            if match_length > best_match_length:
+                best_match_length = match_length
+                best_match = f"{matched} {singular if int(matched) == 1 else plural}"
+
+    if best_match:
+        return best_match
 
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
         return "{} item{}".format(matched, "" if int(matched) == 1 else "s")
