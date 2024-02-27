@@ -84,6 +84,7 @@ Notes:
 Scrapers available for:
 -----------------------
 
+- `https://aberlehome.com/ <https://aberlehome.com>`_
 - `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
 - `https://abuelascounter.com/ <https://abuelascounter.com>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_

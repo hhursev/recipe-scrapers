@@ -7,6 +7,7 @@ from ._abstract import AbstractScraper
 from ._exceptions import NoSchemaFoundInWildMode, WebsiteNotImplementedError
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
+from .aberlehome import AberleHome
 from .abril import Abril
 from .abuelascounter import AbuelasCounter
 from .acouplecooks import ACoupleCooks
@@ -307,6 +308,7 @@ from .zenbelly import ZenBelly
 
 SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
+    AberleHome.host(): AberleHome,
     Abril.host(): Abril,
     AbuelasCounter.host(): AbuelasCounter,
     AddAPinch.host(): AddAPinch,
