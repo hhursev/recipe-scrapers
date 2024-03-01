@@ -10,6 +10,12 @@ class SallysBakingAddiction(AbstractScraper):
     def title(self):
         return self.schema.title()
 
+    def prep_time(self):
+        return self.schema.prep_time()
+
+    def cook_time(self):
+        return self.schema.cook_time()
+
     def total_time(self):
         return self.schema.total_time()
 
