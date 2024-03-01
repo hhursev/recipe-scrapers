@@ -10,6 +10,12 @@ class SallysBakingAddiction(AbstractScraper):
     def title(self):
         return self.schema.title()
 
+    def cuisine(self):
+        return self.schema.cuisine()
+
+    def description(self):
+        return self.schema.description()
+
     def prep_time(self):
         return self.schema.prep_time()
 
