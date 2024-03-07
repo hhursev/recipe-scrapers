@@ -88,7 +88,13 @@ class MonsieurCuisine(AbstractScraper):
             .get("instruction")
         )
 
-        return instruction.replace("\n", " ").replace("\n\n", "\n")
+        instruction = re.sub(r"(\r\n\r\n)|(\n\n)", "__DOUBLE_NEWLINE__", instruction)
+
+        instruction = re.sub(r"(\r\n)|(\n)", " ", instruction)
+
+        instruction = instruction.replace("__DOUBLE_NEWLINE__", "\n")
+
+        return instruction
 
     def ratings(self):
         return self.data.get("data").get("recipe").get("rating")
