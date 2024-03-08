@@ -3,7 +3,7 @@ import re
 
 import requests
 
-from ._abstract import AbstractScraper
+from ._abstract import HEADERS, AbstractScraper
 from ._utils import get_yields
 
 SCRIPT_PATTERN = re.compile(r'"recipeId":(\d+)')
@@ -20,9 +20,11 @@ class MonsieurCuisine(AbstractScraper):
                 recipe_id = matches.group(1)
         language_iso = self.soup.find("html")["lang"]
         data_url = f"https://mc-api.tecpal.com/api/v2/recipes/{recipe_id}"
+        headers = {"Accept-Language": language_iso, "Device-Type": "web"}
+        headers.update(HEADERS)
         self.data = requests.get(
             data_url,
-            headers={"Accept-Language": language_iso, "Device-Type": "web"},
+            headers=headers,
             proxies=proxies,
             timeout=timeout,
         ).json()
