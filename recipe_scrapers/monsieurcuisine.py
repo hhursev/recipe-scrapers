@@ -1,5 +1,4 @@
 # mypy: disallow_untyped_defs=False
-import json
 import re
 
 import requests
@@ -21,13 +20,12 @@ class MonsieurCuisine(AbstractScraper):
                 recipe_id = matches.group(1)
         language_iso = self.soup.find("html")["lang"]
         data_url = f"https://mc-api.tecpal.com/api/v2/recipes/{recipe_id}"
-        self.page_data = requests.get(
+        self.data = requests.get(
             data_url,
             headers={"Accept-Language": language_iso, "Device-Type": "web"},
             proxies=proxies,
             timeout=timeout,
-        ).content
-        self.data = json.loads(self.page_data)
+        ).json()
 
     @classmethod
     def host(cls):
@@ -40,9 +38,7 @@ class MonsieurCuisine(AbstractScraper):
         return self.data.get("data").get("recipe").get("name")
 
     def total_time(self):
-        duration = self.data.get("data").get("recipe").get("duration")
-
-        return duration
+        return self.data.get("data").get("recipe").get("duration")
 
     def cook_time(self):
         prepare_time = self.data.get("data").get("recipe").get("preparationDuration")
@@ -51,9 +47,7 @@ class MonsieurCuisine(AbstractScraper):
         return total_time - prepare_time
 
     def prep_time(self):
-        prepare_time = self.data.get("data").get("recipe").get("preparationDuration")
-
-        return prepare_time
+        return self.data.get("data").get("recipe").get("preparationDuration")
 
     def yields(self):
         default_serving = self.data.get("data").get("recipe").get("servingSizes")[0]
