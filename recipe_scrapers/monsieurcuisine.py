@@ -19,8 +19,8 @@ class MonsieurCuisine(AbstractScraper):
                 recipe_id = matches.group(1)
         language_iso = self.soup.find("html")["lang"]
         data_url = f"https://mc-api.tecpal.com/api/v2/recipes/{recipe_id}"
-        headers = {"Accept-Language": language_iso, "Device-Type": "web"}
-        headers.update(HEADERS)
+        headers = HEADERS.copy()
+        headers.update({"Accept-Language": language_iso, "Device-Type": "web"})
         self.data = requests.get(
             data_url,
             headers=headers,
