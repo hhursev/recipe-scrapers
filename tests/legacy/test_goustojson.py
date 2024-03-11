@@ -1,5 +1,6 @@
 from responses import GET
 
+from recipe_scrapers._abstract import HEADERS
 from recipe_scrapers.goustojson import GoustoJson
 from tests.legacy import ScraperTest
 
@@ -9,8 +10,9 @@ class TestGoustoScraper(ScraperTest):
 
     @classmethod
     def expected_requests(cls):
-        yield GET, "https://www.gousto.co.uk/cookbook/vegetarian-recipes/3-cheese-veg-packed-pasta-bake", "tests/legacy/test_data/gousto.testjson"
-        yield GET, "https://production-api.gousto.co.uk/cmsreadbroker/v1/recipe/3-cheese-veg-packed-pasta-bake", "tests/legacy/test_data/gousto.testjson"
+        yield GET, "https://www.gousto.co.uk/cookbook/vegetarian-recipes/3-cheese-veg-packed-pasta-bake", "tests/legacy/test_data/gousto.testhtml"
+        expected_headers = {"User-Agent": HEADERS["User-Agent"]}
+        yield GET, "https://production-api.gousto.co.uk/cmsreadbroker/v1/recipe/3-cheese-veg-packed-pasta-bake", "tests/legacy/test_data/gousto.testjson", expected_headers
 
     def test_host(self):
         self.assertEqual("gousto.co.uk", self.harvester_class.host())

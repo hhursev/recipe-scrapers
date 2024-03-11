@@ -2,6 +2,7 @@ import unittest
 from typing import Any, Iterator, Optional, Tuple
 
 import responses
+from responses import matchers
 
 
 class ScraperTest(unittest.TestCase):
@@ -28,10 +29,20 @@ class ScraperTest(unittest.TestCase):
 
         with responses.RequestsMock() as rsps:
             start_url = None
-            for method, url, path in cls.expected_requests():
+            for expected_request in cls.expected_requests():
+                headers = {}
+                if len(expected_request) == 4:
+                    method, url, path, headers = expected_request
+                else:
+                    method, url, path = expected_request
                 start_url = start_url or url
                 with open(path, encoding="utf-8") as f:
-                    rsps.add(method, url, body=f.read())
+                    rsps.add(
+                        method=method,
+                        url=url,
+                        match=[matchers.header_matcher(headers)],
+                        body=f.read(),
+                    )
 
             cls.harvester_class = cls.scraper_class(url=start_url)
 
