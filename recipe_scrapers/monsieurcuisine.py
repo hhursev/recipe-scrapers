@@ -36,6 +36,9 @@ class MonsieurCuisine(AbstractScraper):
     def author(self):
         return self.data.get("data").get("recipe").get("author").get("name")
 
+    def cuisine(self):
+        return None
+
     def title(self):
         return self.data.get("data").get("recipe").get("name")
 
