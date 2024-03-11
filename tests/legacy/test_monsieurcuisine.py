@@ -97,3 +97,8 @@ class TestMonsieurCuisineScraper(ScraperTest):
 
     def test_site_name(self):
         self.assertEqual(None, self.harvester_class.site_name())
+
+    def test_category(self):
+        self.assertEqual(
+            "Snacks, Backen, Abendessen, ZauberTopf", self.harvester_class.category()
+        )

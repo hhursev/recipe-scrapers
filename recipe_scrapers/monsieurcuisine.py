@@ -38,6 +38,10 @@ class MonsieurCuisine(AbstractScraper):
     def cuisine(self):
         return None
 
+    def category(self):
+        categories = self.data.get("data").get("recipe").get("categories")
+        return ", ".join([obj.get("name") for obj in categories])
+
     def title(self):
         return self.data.get("data").get("recipe").get("name")
 
