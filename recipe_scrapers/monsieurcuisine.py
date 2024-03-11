@@ -12,9 +12,8 @@ SCRIPT_PATTERN = re.compile(r'"recipeId":(\d+)')
 class MonsieurCuisine(AbstractScraper):
     def __init__(self, url, proxies=None, timeout=None, *args, **kwargs):
         super().__init__(url=url, proxies=proxies, timeout=timeout, *args, **kwargs)
-        scripts = self.soup.find_all("script")
         recipe_id = None
-        for script in scripts:
+        for script in self.soup.find_all("script"):
             matches = SCRIPT_PATTERN.search(str(script.string))
             if matches:
                 recipe_id = matches.group(1)
