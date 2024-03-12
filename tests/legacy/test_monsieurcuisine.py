@@ -103,3 +103,12 @@ class TestMonsieurCuisineScraper(ScraperTest):
         self.assertEqual(
             "Snacks, Backen, Abendessen, ZauberTopf", self.harvester_class.category()
         )
+
+    def test_nutrients(self):
+        expected_nutrients = {
+            "calories": "873 kcal",
+            "carbohydrateContent": "56 g",
+            "fatContent": "54 g",
+            "proteinContent": "44 g",
+        }       
+        self.assertEqual(expected_nutrients, self.harvester_class.nutrients())
