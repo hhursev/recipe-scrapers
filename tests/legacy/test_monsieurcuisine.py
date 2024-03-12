@@ -11,7 +11,8 @@ class TestMonsieurCuisineScraper(ScraperTest):
     @classmethod
     def expected_requests(cls):
         yield responses.GET, "https://www.monsieur-cuisine.com/de/recipe/paprika-nudel-auflauf-mit-hackfleisch", "tests/legacy/test_data/monsieurcuisine.testhtml"
-        yield responses.GET, "https://mc-api.tecpal.com/api/v2/recipes/1741327", "tests/legacy/test_data/monsieurcuisine.testjson"
+        expected_headers = {"Accept-Language": "de-DE", "Device-Type": "web"}
+        yield responses.GET, "https://mc-api.tecpal.com/api/v2/recipes/1741327", "tests/legacy/test_data/monsieurcuisine.testjson", expected_headers
 
     def test_host(self):
         self.assertEqual("monsieur-cuisine.com", self.harvester_class.host())
