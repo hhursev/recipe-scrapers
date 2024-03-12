@@ -17,7 +17,7 @@ class MonsieurCuisine(AbstractScraper):
             matches = SCRIPT_PATTERN.search(str(script.string))
             if matches:
                 recipe_id = matches.group(1)
-        language_iso = self.soup.find("html")["lang"]
+        language_iso = self.language()
         data_url = f"https://mc-api.tecpal.com/api/v2/recipes/{recipe_id}"
         headers = HEADERS.copy()
         headers.update({"Accept-Language": language_iso, "Device-Type": "web"})
