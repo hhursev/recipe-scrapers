@@ -102,21 +102,16 @@ class MonsieurCuisine(AbstractScraper):
         return self.data.get("data").get("recipe").get("rating")
 
     def nutrients(self):
-        nutrients = self.data.get("data").get("recipe").get("nutrients")
-
-        for nutrient in nutrients:
-            if nutrient.get("name") == "Calories":
-                calories = nutrient
-            if nutrient.get("name") == "Carbohydrate":
-                carbohydrates = nutrient
-            if nutrient.get("name") == "Fat":
-                fat = nutrient
-            if nutrient.get("name") == "Protein":
-                protein = nutrient
-
-        return {
-            "calories": f'{calories.get("amount")} {calories.get("unit")}',
-            "fatContent": f'{fat.get("amount")} {fat.get("unit")}',
-            "carbohydrateContent": f'{carbohydrates.get("amount")} {carbohydrates.get("unit")}',
-            "proteinContent": f'{protein.get("amount")} {protein.get("unit")}',
+        schema_mapping = {
+            "Calories": "calories",
+            "Carbohydrate": "carbohydrateContent",
+            "Fat": "fatContent",
+            "Protein": "proteinContent",
         }
+
+        results = {}
+        for nutrient in self.data.get("data").get("recipe").get("nutrients"):
+            output_field = schema_mapping.get(nutrient.get("name"))
+            if output_field is not None:
+                results[output_field] = f'{nutrient.get("amount")} {nutrient.get("unit")}'
+        return results
