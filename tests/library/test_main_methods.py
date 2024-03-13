@@ -24,11 +24,11 @@ class TestMainMethods(unittest.TestCase):
             scraper_exists_for("https://eatsmarter.de/rezepte/gruenkohl-kokos-suppe")
         )
 
-    @mock.patch('recipe_scrapers.requests.get')
+    @mock.patch("recipe_scrapers.requests.get")
     def test_offline_no_html_retrieval(self, mock_get):
         with self.assertRaises(ValueError):
             scrape_html(
-                url='https://recipe-scrapers.example/algorithmic-cupcakes.html',
+                url="https://recipe-scrapers.example/algorithmic-cupcakes.html",
                 html=None,
                 online=False,
                 supported_only=False,
@@ -36,14 +36,16 @@ class TestMainMethods(unittest.TestCase):
 
         assert not mock_get.called
 
-    @mock.patch('recipe_scrapers.requests.get')
+    @mock.patch("recipe_scrapers.requests.get")
     def test_online_mode_html_retrieval(self, mock_get):
-        recipe_html = pathlib.Path("tests/test_data/recipe-scrapers.example/online.testhtml")
+        recipe_html = pathlib.Path(
+            "tests/test_data/recipe-scrapers.example/online.testhtml"
+        )
         mock_get.return_value = mock.MagicMock()
         mock_get.return_value.content = recipe_html.read_text()
 
         scrape_html(
-            url='https://recipe-scrapers.example/algorithmic-cupcakes.html',
+            url="https://recipe-scrapers.example/algorithmic-cupcakes.html",
             html=None,
             online=True,
             supported_only=False,

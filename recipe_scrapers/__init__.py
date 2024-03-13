@@ -664,11 +664,13 @@ def scrape_html(
     """
     if html is None and online is True:
         if not requests:
-            msg = "\n".join((
-                "Unable to import the 'requests' library for use when recipe-scrapers ",
-                "is operating online.",
-                "Did you install using 'pip install recipe-scrapers[online]'?",
-            ))
+            msg = "\n".join(
+                (
+                    "Unable to import the 'requests' library for use when recipe-scrapers ",
+                    "is operating online.",
+                    "Did you install using 'pip install recipe-scrapers[online]'?",
+                )
+            )
             raise ImportError(msg) from requests_import_error
 
         try:
@@ -677,10 +679,12 @@ def scrape_html(
             raise Exception(f"Failed to retrieve HTML content from {url}.") from e
 
     if html is None and online is False:
-        msg = "\n".join((
-            "No HTML input was provided to scrape from, and none can be retrieved from ",
-            "the web because the online flag is disabled.",
-        ))
+        msg = "\n".join(
+            (
+                "No HTML input was provided to scrape from, and none can be retrieved from ",
+                "the web because the online flag is disabled.",
+            )
+        )
         raise ValueError(msg)
 
     host_name = get_host_name(url)
@@ -688,12 +692,14 @@ def scrape_html(
         return SCRAPERS[host_name](url=url, html=html)
 
     if supported_only:
-        msg = "\n".join((
-            f"The website {host_name} isn't currently supported by recipe-scrapers!",
-            "---",
-            "If you have time to help us out, please report this as a feature ",
-            "request on our bugtracker.",
-        ))
+        msg = "\n".join(
+            (
+                f"The website {host_name} isn't currently supported by recipe-scrapers!",
+                "---",
+                "If you have time to help us out, please report this as a feature ",
+                "request on our bugtracker.",
+            )
+        )
         raise NotImplementedError(msg)
 
     schema_scraper = SchemaScraperFactory.generate(url=url, html=html)
