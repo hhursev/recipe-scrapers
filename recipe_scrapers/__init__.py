@@ -672,7 +672,7 @@ def scrape_html(
             raise ImportError(msg) from requests_import_error
 
         try:
-            html = requests.get(url=url, headers=HEADERS).content
+            html = requests.get(url=url, headers=HEADERS).text
         except Exception as e:
             raise Exception(f"Failed to retrieve HTML content from {url}.") from e
 
