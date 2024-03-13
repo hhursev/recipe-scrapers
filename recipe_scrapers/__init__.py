@@ -4,9 +4,10 @@ try:
     # requests is an optional dependency; we can provide better error messages
     # when we know that it's unavailable before a user attempts a web request
     import requests
-    requests_import_error: Exception | None = None
 except ImportError as e:
-    requests_import_error = e
+    requests_import_error: Exception | None = e
+else:
+    requests_import_error = None
 
 from ._abstract import HEADERS, AbstractScraper
 from ._exceptions import NoSchemaFoundInWildMode
