@@ -110,5 +110,5 @@ class TestMonsieurCuisineScraper(ScraperTest):
             "carbohydrateContent": "56 g",
             "fatContent": "54 g",
             "proteinContent": "44 g",
-        }       
+        }
         self.assertEqual(expected_nutrients, self.harvester_class.nutrients())
