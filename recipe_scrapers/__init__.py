@@ -167,7 +167,6 @@ from .ministryofcurry import MinistryOfCurry
 from .misya import Misya
 from .mob import Mob
 from .momswithcrockpots import MomsWithCrockPots
-from .monsieurcuisine import MonsieurCuisine
 from .motherthyme import MotherThyme
 from .mundodereceitasbimby import MundoDeReceitasBimby
 from .mybakingaddiction import MyBakingAddiction
@@ -489,7 +488,6 @@ SCRAPERS = {
     Mob.host(domain="mob.co.uk"): Mob,
     Mob.host(domain="mobkitchen.co.uk"): Mob,
     MomsWithCrockPots.host(): MomsWithCrockPots,
-    MonsieurCuisine.host(): MonsieurCuisine,
     MotherThyme.host(): MotherThyme,
     MyBakingAddiction.host(): MyBakingAddiction,
     MyKitchen101.host(): MyKitchen101,
