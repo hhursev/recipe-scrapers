@@ -2,11 +2,7 @@ import pathlib
 import unittest
 from unittest import mock
 
-from recipe_scrapers import (
-    get_supported_urls,
-    scrape_html,
-    scraper_exists_for,
-)
+from recipe_scrapers import get_supported_urls, scrape_html, scraper_exists_for
 from recipe_scrapers._utils import get_host_name
 
 
