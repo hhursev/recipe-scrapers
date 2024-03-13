@@ -2,6 +2,7 @@ from __future__ import annotations
 
 try:
     import requests
+    requests_import_error = ...
 except ImportError as e:
     requests = None  # type: ignore
     requests_import_error = e
