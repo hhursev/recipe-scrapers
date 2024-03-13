@@ -10,9 +10,9 @@ from ._utils import normalize_string
 @dataclass
 class IngredientGroup:
     ingredients: List[str]
-    purpose: Optional[
-        str
-    ] = None  # this group of ingredients is {purpose} (e.g. "For the dressing")
+    purpose: Optional[str] = (
+        None  # this group of ingredients is {purpose} (e.g. "For the dressing")
+    )
 
 
 def score_sentence_similarity(first: str, second: str) -> float:
