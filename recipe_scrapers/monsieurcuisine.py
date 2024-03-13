@@ -1,72 +1,119 @@
 # mypy: disallow_untyped_defs=False
-from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
+import re
+
+import requests
+
+from ._abstract import HEADERS, AbstractScraper
+from ._utils import get_yields
+
+SCRIPT_PATTERN = re.compile(r'"recipeId":(\d+)')
 
 
 class MonsieurCuisine(AbstractScraper):
+    def __init__(self, url, proxies=None, timeout=None, *args, **kwargs):
+        super().__init__(url=url, proxies=proxies, timeout=timeout, *args, **kwargs)
+        recipe_id = None
+        for script in self.soup.find_all("script"):
+            matches = SCRIPT_PATTERN.search(str(script.string))
+            if matches:
+                recipe_id = matches.group(1)
+        language_iso = self.language()
+        data_url = f"https://mc-api.tecpal.com/api/v2/recipes/{recipe_id}"
+        headers = HEADERS.copy()
+        headers.update({"Accept-Language": language_iso, "Device-Type": "web"})
+        self.data = requests.get(
+            data_url,
+            headers=headers,
+            proxies=proxies,
+            timeout=timeout,
+        ).json()
+
     @classmethod
     def host(cls):
         return "monsieur-cuisine.com"
 
     def author(self):
-        container = self.soup.find("p", {"class": "recipe_author"})
+        return self.data.get("data").get("recipe").get("author").get("name")
 
-        return container.span.get_text().strip()
+    def cuisine(self):
+        return None
+
+    def category(self):
+        categories = self.data.get("data").get("recipe").get("categories")
+        return ", ".join([obj.get("name") for obj in categories])
 
     def title(self):
-        return self.soup.h1.get_text()
+        return self.data.get("data").get("recipe").get("name")
 
     def total_time(self):
-        container = self.soup.find("div", {"class": "duration-information"}).find(
-            "div", {"class": "recipe-duration-total"}
-        )
+        return self.data.get("data").get("recipe").get("duration")
 
-        total_time = container.b.get_text()
-        total_time_hours = total_time.split(":")[0]
-        total_time_mins = total_time.split(":")[1]
+    def cook_time(self):
+        prepare_time = self.data.get("data").get("recipe").get("preparationDuration")
+        total_time = self.data.get("data").get("recipe").get("duration")
 
-        return get_minutes(f"{total_time_hours}h and {total_time_mins}mins")
+        return total_time - prepare_time
+
+    def prep_time(self):
+        return self.data.get("data").get("recipe").get("preparationDuration")
 
     def yields(self):
-        container = self.soup.find("div", {"class": "recipe--info"}).find(
-            "div", {"class": "recipe-portions"}
-        )
+        default_serving = self.data.get("data").get("recipe").get("servingSizes")[0]
 
-        return get_yields(container.get_text())
+        return get_yields(
+            f"{default_serving.get('amount')} {default_serving.get('servingUnit')}"
+        )
 
     def image(self):
-        container = self.soup.find("div", {"class", "flexed-image-preview"})
-        container = container.find("figure")
-        container = container and container.find("img")
-        if container and container.has_attr("src"):
-            container = container["src"]
-
-        if not container:
-            return None
-
-        return "https://www." + self.host() + container
+        return self.data.get("data").get("recipe").get("thumbnail").get("landscape")
 
     def ingredients(self):
-        container = self.soup.find(
-            "div", {"class": "recipe--ingredients-html-item col-md-8"}
+        ingredients = []
+        raw_ingridients = (
+            self.data.get("data")
+            .get("recipe")
+            .get("servingSizes")[0]
+            .get("ingredients")
         )
+        for raw_ingredient in raw_ingridients:
+            ingredients.append(
+                f"{raw_ingredient.get('amount')} {raw_ingredient.get('unit')} {raw_ingredient.get('name')}"
+            )
 
-        ingredients = container.findAll("li")
-
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        return ingredients
 
     def instructions(self):
-        container = self.soup.find("div", {"class": "recipe--instructions"})
-
-        instructions = container.find_all("li")
-
-        return "\n".join(
-            [normalize_string(instruction.get_text()) for instruction in instructions]
+        instruction = (
+            self.data.get("data")
+            .get("recipe")
+            .get("servingSizes")[0]
+            .get("instruction")
         )
 
-    def ratings(self):
-        container = self.soup.find("div", {"class": "recipe--rating"})
+        instruction = re.sub(r"(\r\n\r\n)|(\n\n)", "__DOUBLE_NEWLINE__", instruction)
 
-        full_stars = container.find_all("span", {"class": "mc-star_filled"})
-        half_stars = container.find_all("span", {"class": "mc-half_star_thick"})
-        return len(full_stars) + 0.5 * len(half_stars)
+        instruction = re.sub(r"(\r\n)|(\n)", " ", instruction)
+
+        instruction = instruction.replace("__DOUBLE_NEWLINE__", "\n")
+
+        return instruction
+
+    def ratings(self):
+        return self.data.get("data").get("recipe").get("rating")
+
+    def nutrients(self):
+        schema_mapping = {
+            "Calories": "calories",
+            "Carbohydrate": "carbohydrateContent",
+            "Fat": "fatContent",
+            "Protein": "proteinContent",
+        }
+
+        results = {}
+        for nutrient in self.data.get("data").get("recipe").get("nutrients"):
+            output_field = schema_mapping.get(nutrient.get("name"))
+            if output_field is not None:
+                results[output_field] = (
+                    f'{nutrient.get("amount")} {nutrient.get("unit")}'
+                )
+        return results
