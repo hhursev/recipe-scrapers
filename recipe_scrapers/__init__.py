@@ -6,8 +6,6 @@ except ImportError as e:
     requests = None
     requests_import_error = e
 
-from typing import Any
-
 from ._abstract import AbstractScraper, HEADERS
 from ._exceptions import NoSchemaFoundInWildMode
 from ._factory import SchemaScraperFactory
