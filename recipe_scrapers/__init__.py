@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 try:
+    # requests is an optional dependency; we can provide better error messages
+    # when we know that it's unavailable before a user attempts a web request
     import requests
     requests_import_error: Exception | None = None
 except ImportError as e:
