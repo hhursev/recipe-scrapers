@@ -2,9 +2,8 @@ from __future__ import annotations
 
 try:
     import requests
-    requests_import_error = ...
+    requests_import_error: Exception | None = None
 except ImportError as e:
-    requests = None  # type: ignore
     requests_import_error = e
 
 from ._abstract import HEADERS, AbstractScraper
@@ -662,7 +661,7 @@ def scrape_html(
         AbstractScraper:
     """
     if html is None and online is True:
-        if not requests:
+        if requests_import_error is not None:
             msg = "\n".join(
                 (
                     "Unable to import the 'requests' library for use when recipe-scrapers ",
