@@ -10,7 +10,7 @@ else:
     requests_import_error = None
 
 from ._abstract import HEADERS, AbstractScraper
-from ._exceptions import NoSchemaFoundInWildMode
+from ._exceptions import NoSchemaFoundInWildMode, WebsiteNotImplementedError
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 from .aberlehome import AberleHome
@@ -701,7 +701,7 @@ def scrape_html(
                 "request on our bugtracker.",
             )
         )
-        raise NotImplementedError(msg)
+        raise WebsiteNotImplementedError(msg)
 
     schema_scraper = SchemaScraperFactory.generate(url=url, html=html)
     if schema_scraper.schema.data:

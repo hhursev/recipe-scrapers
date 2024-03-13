@@ -2,7 +2,12 @@ import pathlib
 import unittest
 from unittest import mock
 
-from recipe_scrapers import get_supported_urls, scrape_html, scraper_exists_for
+from recipe_scrapers import (
+    WebsiteNotImplementedError,
+    get_supported_urls,
+    scrape_html,
+    scraper_exists_for,
+)
 from recipe_scrapers._utils import get_host_name
 
 
@@ -48,3 +53,12 @@ class TestMainMethods(unittest.TestCase):
         )
 
         assert mock_get.called
+
+    def test_unsupported_website(self):
+        with self.assertRaises(WebsiteNotImplementedError):
+            scrape_html(
+                url="https://unsupported.recipe-scrapers.example/unavailable.html",
+                html="arbitrary",
+                online=False,
+                supported_only=True,
+            )
