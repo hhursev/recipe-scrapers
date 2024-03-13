@@ -1,9 +1,14 @@
 from __future__ import annotations
 
-import contextlib
+try:
+    import requests
+except ImportError as e:
+    requests = None
+    requests_import_error = e
+
 from typing import Any
 
-from ._abstract import AbstractScraper
+from ._abstract import AbstractScraper, HEADERS
 from ._exceptions import NoSchemaFoundInWildMode
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
@@ -629,41 +634,73 @@ def scraper_exists_for(url_path: str) -> bool:
 
 
 def scrape_html(
-    html: str, org_url: str | None = None, **options: dict[str, Any]
+    url: str,
+    html: str | None,
+    online=False,
+    supported_only=True,
 ) -> AbstractScraper:
     """
-    takes a string of html and returns a scraper object. if the org_url is specified
-    then the scraper will use that url to resolve a defined scraper, otherwise it will
-    fall back to wild mode. If no schema is found in wild mode then a
-    NoSchemaFoundInWildMode exception will be raised.
+    Accepts a URL and optional HTML as input, and returns a scraper object.
+
+    HTML is required unless the 'online' flag is enabled, allowing the library
+    to download a current copy of the recipe.
+
+    If the 'supported_only' flag is enabled (the default), then only websites
+    that are known to be supported by the library (as determined by their
+    domain name) will return scrapers.  When disabled, the library will attempt
+    to retrieve generic schema.org recipe metadata from the HTML.
 
     Args:
-        html (str): raw HTML in text form
-        org_url (str, optional): Original URL of the HTML. Defaults to None.
+        url (str): URL of the recipe.
+        html (str | None): HTML of the recipe webpage.
+        online (bool): whether the library may download HTML.
+        supported_only (bool): whether to restrict to supported domains.
 
     Raises:
-        NoSchemaFoundInWildMode: If no schema is found in wild mode.
+        NoSchemaFoundInWildMode: If no schema is found for an unsupported domain.
 
     Returns:
         AbstractScraper:
     """
+    if html is None and online is True:
+        if not requests:
+            msg = "\n".join((
+                "Unable to import the 'requests' library for use when recipe-scrapers ",
+                "is operating online.",
+                "Did you install using 'pip install recipe-scrapers[online]'?",
+            ))
+            raise ImportError(msg) from requests_import_error
 
-    host_name = get_host_name(org_url) if org_url is not None else None
+        try:
+            html = requests.get(url=url, headers=HEADERS).content
+        except Exception as e:
+            raise Exception(f"Failed to retrieve HTML content from {url}.") from e
 
-    scraper = None
-    if host_name:
-        with contextlib.suppress(KeyError):
-            scraper = SCRAPERS[host_name]
+    if html is None and online is False:
+        msg = "\n".join((
+            "No HTML input was provided to scrape from, and none can be retrieved from ",
+            "the web because the online flag is disabled.",
+        ))
+        raise ValueError(msg)
 
-    if not scraper:
-        wild_scraper = SchemaScraperFactory.generate(url=org_url, html=html, **options)
+    host_name = get_host_name(url)
+    if host_name in SCRAPERS:
+        return SCRAPERS[host_name](url=url, html=html)
 
-        if not wild_scraper.schema.data:
-            raise NoSchemaFoundInWildMode(org_url)
+    if supported_only:
+        msg = "\n".join((
+            f"The website {host_name} isn't currently supported by recipe-scrapers!",
+            "---",
+            "If you have time to help us out, please report this as a feature ",
+            "request on our bugtracker.",
+        ))
+        raise NotImplementedError(msg)
 
-        return wild_scraper
+    schema_scraper = SchemaScraperFactory.generate(url=url, html=html)
+    if schema_scraper.schema.data:
+        return schema_scraper
 
-    return scraper(url=org_url, html=html, **options)
+    raise NoSchemaFoundInWildMode(url)
 
 
 __all__ = ["scrape_html"]

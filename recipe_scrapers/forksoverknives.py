@@ -26,9 +26,8 @@ class ForksOverKnives(AbstractScraper):
         self,
         html: Union[str, bytes],
         url: Union[str, None],
-        wild_mode: Optional[bool] = False,
     ):
-        super().__init__(url=url, wild_mode=wild_mode, html=html)
+        super().__init__(url=url, html=html)
         self.schema = FOKSchema(self.page_data)
 
     def author(self):

@@ -33,6 +33,11 @@ dependencies = [
     "isodate >= 0.6.1",
 ]
 
+[project.optional-dependencies]
+online = [
+    "requests >= 2.31.0",
+]
+
 [tool.setuptools.packages.find]
 include = ["recipe_scrapers", "recipe_scrapers.*"]
 exclude = ["tests", "tests.*"]
