@@ -1,6 +1,5 @@
 # mypy: disallow_untyped_defs=False
 import re
-from typing import Union
 
 from ._abstract import AbstractScraper
 from ._schemaorg import SchemaOrg
@@ -24,8 +23,8 @@ class ForksOverKnives(AbstractScraper):
 
     def __init__(
         self,
-        html: Union[str, bytes],
-        url: Union[str, None],
+        html: str,
+        url: str,
     ):
         super().__init__(url=url, html=html)
         self.schema = FOKSchema(self.page_data)

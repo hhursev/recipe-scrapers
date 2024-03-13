@@ -3,7 +3,7 @@ from __future__ import annotations
 try:
     import requests
 except ImportError as e:
-    requests = None
+    requests = None  # type: ignore
     requests_import_error = e
 
 from ._abstract import HEADERS, AbstractScraper
