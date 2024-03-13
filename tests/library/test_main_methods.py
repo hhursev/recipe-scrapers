@@ -38,7 +38,7 @@ class TestMainMethods(unittest.TestCase):
             "tests/test_data/recipe-scrapers.example/online.testhtml"
         )
         mock_get.return_value = mock.MagicMock()
-        mock_get.return_value.content = recipe_html.read_text()
+        mock_get.return_value.text = recipe_html.read_text()
 
         scrape_html(
             url="https://recipe-scrapers.example/algorithmic-cupcakes.html",
