@@ -113,5 +113,7 @@ class MonsieurCuisine(AbstractScraper):
         for nutrient in self.data.get("data").get("recipe").get("nutrients"):
             output_field = schema_mapping.get(nutrient.get("name"))
             if output_field is not None:
-                results[output_field] = f'{nutrient.get("amount")} {nutrient.get("unit")}'
+                results[output_field] = (
+                    f'{nutrient.get("amount")} {nutrient.get("unit")}'
+                )
         return results
