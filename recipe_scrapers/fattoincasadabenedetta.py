@@ -9,27 +9,6 @@ class FattoInCasaDaBenedetta(AbstractScraper):
     def host(cls):
         return "fattoincasadabenedetta.it"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def category(self):
-        return self.schema.category()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         step_divs = self.soup.find_all("div", {"class": "step"})
 
@@ -40,9 +19,6 @@ class FattoInCasaDaBenedetta(AbstractScraper):
                 all_instructions.append(instruction_text)
 
         return "\n".join(all_instructions)
-
-    def ratings(self):
-        return self.schema.ratings()
 
     def description(self):
         return self.schema.description()

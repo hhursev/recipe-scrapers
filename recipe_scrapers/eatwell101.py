@@ -12,23 +12,8 @@ class EatWell101(AbstractScraper):
     def host(cls):
         return "eatwell101.com"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return html.unescape(self.schema.category())
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
 
     def ingredients(self):
         ingredients_h2 = self.soup.find(

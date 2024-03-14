@@ -7,9 +7,6 @@ class SallysBakingAddiction(AbstractScraper):
     def host(cls):
         return "sallysbakingaddiction.com"
 
-    def title(self):
-        return self.schema.title()
-
     def cuisine(self):
         return self.schema.cuisine()
 
@@ -21,21 +18,3 @@ class SallysBakingAddiction(AbstractScraper):
 
     def cook_time(self):
         return self.schema.cook_time()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def ratings(self):
-        return self.schema.ratings()

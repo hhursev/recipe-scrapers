@@ -10,15 +10,6 @@ class ReceitasNestleBR(AbstractScraper):
     def host(cls):
         return "receitasnestle.com.br"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def category(self):
-        return self.schema.category()
-
     def total_time(self):
         total_time = self.schema.total_time()
         if total_time is None:
@@ -29,15 +20,6 @@ class ReceitasNestleBR(AbstractScraper):
                 if total_time_str:
                     total_time = int(total_time_str.group())
         return total_time
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
 
     def instructions(self):
         steps_div = self.soup.find("div", {"class": "recipeDetail__steps"})

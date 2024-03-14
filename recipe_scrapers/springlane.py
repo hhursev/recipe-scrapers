@@ -7,20 +7,8 @@ class Springlane(AbstractScraper):
     def host(cls):
         return "springlane.de"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def category(self):
-        return self.schema.category()
-
     def cuisine(self):
         return self.schema.cuisine()
-
-    def total_time(self):
-        return self.schema.total_time()
 
     def cook_time(self):
         return self.schema.cook_time()
@@ -28,17 +16,5 @@ class Springlane(AbstractScraper):
     def prep_time(self):
         return self.schema.prep_time()
 
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
     def nutrients(self):
         return self.schema.nutrients()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()

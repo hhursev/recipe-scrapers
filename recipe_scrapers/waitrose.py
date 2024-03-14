@@ -44,6 +44,6 @@ class Waitrose(AbstractScraper):
 
     def site_name(self):
         return "Waitrose"
-    
+
     def description(self):
         return self.schema.description()
