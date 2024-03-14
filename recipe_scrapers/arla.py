@@ -21,6 +21,3 @@ class Arla(AbstractScraper):
 
     def description(self):
         return self.schema.description()
-
-    def nutrients(self):
-        return self.schema.nutrients()

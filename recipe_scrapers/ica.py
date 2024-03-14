@@ -12,6 +12,3 @@ class Ica(AbstractScraper):
 
     def description(self):
         return self.schema.description()
-
-    def nutrients(self):
-        return self.schema.nutrients()

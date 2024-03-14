@@ -27,8 +27,6 @@ class KitchenStories(AbstractScraper):
     def prep_time(self):
         return self.schema.prep_time()
 
-    def nutrients(self):
-        return self.schema.nutrients()
 
     def cuisine(self):
         return self.schema.cuisine()
