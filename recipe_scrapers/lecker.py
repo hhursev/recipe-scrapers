@@ -73,8 +73,6 @@ class Lecker(AbstractScraper):
 
                     return "\n".join(instructions)
 
-    def ratings(self):
-        return self.schema.ratings()
 
     def nutrients(self):
         return self.schema.nutrients()
