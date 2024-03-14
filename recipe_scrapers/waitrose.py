@@ -10,16 +10,7 @@ class Waitrose(AbstractScraper):
         return "waitrose.com"
 
     def author(self):
-        return "waitrose.com"
-
-    def title(self):
-        return self.schema.title()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
+        return self.soup.find("meta", {"name": "author"}).get("content")
 
     def image(self):
         img_tag = self.soup.find("img", {"itemprop": "image"})
@@ -51,8 +42,8 @@ class Waitrose(AbstractScraper):
             ]
             return "\n".join(instruction_text)
 
-    def ratings(self):
-        return self.schema.ratings()
-
+    def site_name(self):
+        return "Waitrose"
+    
     def description(self):
         return self.schema.description()
