@@ -13,7 +13,6 @@ class MadensVerden(AbstractScraper):
     def prep_time(self):
         return self.schema.prep_time()
 
-
     def cuisine(self):
         return self.schema.cuisine()
 

@@ -41,7 +41,6 @@ class Woolworths(AbstractScraper):
     def prep_time(self):
         return self.schema.prep_time()
 
-
     def language(self):
         return "en-AU"
 

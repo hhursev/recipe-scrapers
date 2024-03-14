@@ -16,7 +16,6 @@ class BongEats(AbstractScraper):
     def cook_time(self):
         return self.schema.cook_time()
 
-
     def cuisine(self):
         return self.schema.cuisine()
 
