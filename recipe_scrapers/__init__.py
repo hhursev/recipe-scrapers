@@ -398,6 +398,7 @@ SCRAPERS = {
     FoodAndWine.host(): FoodAndWine,
     FoodFidelity.host(): FoodFidelity,
     FoodNetwork.host(): FoodNetwork,
+    FoodNetwork.host(domain="com"): FoodNetwork,
     FoodRepublic.host(): FoodRepublic,
     ForkToSpoon.host(): ForkToSpoon,
     ForksOverKnives.host(): ForksOverKnives,
