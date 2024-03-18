@@ -685,7 +685,7 @@ def scrape_html(
         msg = "\n".join(
             (
                 "No HTML input was provided to scrape from, and none can be retrieved from ",
-                "the web because the online flag is disabled.",
+                "the web because the 'online' flag is false.",
             )
         )
         raise ValueError(msg)
