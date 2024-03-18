@@ -3,7 +3,7 @@ import unittest
 from recipe_scrapers._utils import get_minutes
 
 
-class TestUtilsRefactored(unittest.TestCase):
+class TestUtils(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.iso8601_fixtures = {
