@@ -673,7 +673,8 @@ def scrape_html(
     if wild_mode is not None:
         msg = "The 'wild_mode' parameter is deprecated and may be removed in future."
         if wild_mode is True:
-            msg += "\n\nPlease pass 'supported_only=False' instead for similar behaviour."
+            msg += "\n\n"
+            msg += "Please pass 'supported_only=False' instead for similar behaviour."
         warnings.warn(msg, category=DeprecationWarning)
 
     if supported_only is not None and wild_mode is not None:
