@@ -637,6 +637,7 @@ def scraper_exists_for(url_path: str) -> bool:
 def scrape_html(
     html: str | None,
     org_url: str,
+    *,
     online=False,
     supported_only=True,
 ) -> AbstractScraper:
