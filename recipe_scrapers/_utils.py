@@ -9,21 +9,17 @@ import isodate
 from ._exceptions import ElementNotFoundInHtml
 
 FRACTIONS = {
-    "¼": 0.25,
-    "½": 0.50,
-    "¾": 0.75,
-    "⅓": 0.33,
-    "⅔": 0.66,
-    "⅕": 0.20,
-    "⅖": 0.40,
-    "⅗": 0.60,
+    "½": 0.5, "⅓": 1/3, "⅔": 2/3, "¼": 0.25, "¾": 0.75,
+    "⅕": 0.2, "⅖": 0.4, "⅗": 0.6, "⅘": 0.8, "⅙": 1/6, "⅚": 5/6,
+    "⅛": 0.125, "⅜": 0.375, "⅝": 0.625, "⅞": 0.875
 }
 
 TIME_REGEX = re.compile(
-    r"(\D*(?P<days>\d+)\s*(days|D))?(\D*(?P<hours>[\d.\s/?¼½¾⅓⅔⅕⅖⅗]+)\s*(hours|hrs|hr|h|óra|:))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|perc|$))?",
+    r"(?:\D*(?P<days>\d+)\s*(?:days|D))?"
+    r"(?:\D*(?P<hours>[\d.\s/?¼½¾⅓⅔⅕⅖⅗]+)\s*(?:hours|hrs|hr|h|óra|:))?"
+    r"(?:\D*(?P<minutes>\d+)\s*(?:minutes|mins|min|m|perc|$))?",
     re.IGNORECASE,
 )
-
 SERVE_REGEX_NUMBER = re.compile(r"(\D*(?P<items>\d+)?\D*)")
 
 SERVE_REGEX_ITEMS = re.compile(
@@ -65,22 +61,35 @@ RECIPE_YIELD_TYPES = (
 
 def _extract_fractional(input_string: str) -> float:
     input_string = input_string.strip()
-    if "/" in input_string:
-        # for example "1 1/2" is matched
-        components = input_string.split(" ")
-        whole_part, fractional_part = components[0], components[-1]
-        numerator, denominator = fractional_part.split("/")
-        return float(whole_part) + float(int(numerator) / int(denominator))
 
-    whole_part, fractional_amount = "", 0.0
-    for symbol in input_string:
-        if symbol in FRACTIONS:
-            fractional_amount += FRACTIONS[symbol]
-        else:
-            whole_part += symbol
+    # Handling mixed numbers with unicode fractions e.g., '1⅔'
+    for unicode_fraction, value in FRACTIONS.items():
+        if unicode_fraction in input_string:
+            parts = input_string.partition(unicode_fraction)
+            whole_number_part = parts[0]
+            fraction_part = value
 
-    return float(whole_part) + float(fractional_amount)
+            whole_number = float(whole_number_part) if whole_number_part else 0
+            return whole_number + fraction_part
 
+    if input_string in FRACTIONS:
+        return FRACTIONS[input_string]
+
+    try:
+        return float(input_string)
+    except ValueError:
+        pass
+
+    if ' ' in input_string and '/' in input_string:
+        whole_part, fractional_part = input_string.split(' ', 1)
+        numerator, denominator = fractional_part.split('/')
+        return float(whole_part) + float(numerator) / float(denominator)
+
+    elif '/' in input_string:
+        numerator, denominator = input_string.split('/')
+        return float(numerator) / float(denominator)
+
+    raise ValueError(f"Unrecognized fraction format: '{input_string}'")
 
 def get_minutes(element):
     if element is None:
@@ -118,9 +127,8 @@ def get_minutes(element):
     hours_matched = time_units.get("hours")
     days_matched = time_units.get("days")
 
-    # workaround for formats like: 0D4H45M, that are not a valid iso8601 it seems
     days = float(days_matched) if days_matched else 0
-    hours = float(_extract_fractional(hours_matched)) if hours_matched else 0
+    hours = _extract_fractional(hours_matched)if hours_matched else 0
     minutes = float(minutes_matched) if minutes_matched else 0
     return minutes + round(hours * 60) + round(days * 24 * 60)
 
@@ -202,22 +210,18 @@ def url_path_to_dict(path):
         r"^"
         r"((?P<schema>.+?)://)?"
         r"((?P<user>.+?)(:(?P<password>.*?))?@)?"
-        r"(?P<host>.*?)"
-        r"(:(?P<port>\d+?))?"
+        r"(?P<host>[^:/]+)"
+        r"(:(?P<port>\d+))?"
         r"(?P<path>/.*?)?"
-        r"(?P<query>[?].*?)?"
+        r"(?P<query>\?.*?)?"
         r"$"
     )
     regex = re.compile(pattern)
     matches = regex.match(path)
-    url_dict = matches.groupdict() if matches is not None else None
-
-    return url_dict
-
+    return matches.groupdict() if matches else None
 
 def get_host_name(url):
-    return url_path_to_dict(url.replace("://www.", "://"))["host"]
-
+    return url_path_to_dict(url.replace("://www.", "://")).get("host")
 
 def change_keys(obj, convert):
     """
@@ -229,14 +233,9 @@ def change_keys(obj, convert):
     (https://web.archive.org/web/20201022163147/https://stackoverflow.com/questions/11700705/python-recursively-replace
         -character-in-keys-of-nested-dictionary/33668421)
     """
-    if isinstance(obj, (str, int, float)):
-        return obj
     if isinstance(obj, dict):
-        new = obj.__class__()
-        for k, v in obj.items():
-            new[convert(k)] = change_keys(v, convert)
-    elif isinstance(obj, (list, set, tuple)):
-        new = obj.__class__(change_keys(v, convert) for v in obj)
+        return {convert(k): change_keys(v, convert) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [change_keys(item, convert) for item in obj]
     else:
         return obj
-    return new
