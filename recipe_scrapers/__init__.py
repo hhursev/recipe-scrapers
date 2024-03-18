@@ -713,7 +713,7 @@ def scrape_html(
     if supported_only in (None, True):
         msg = "\n".join(
             (
-                f"The website {host_name} isn't currently supported by recipe-scrapers!",
+                f"The website '{host_name}' isn't currently supported by recipe-scrapers!",
                 "---",
                 "If you have time to help us out, please report this as a feature ",
                 "request on our bugtracker.",
