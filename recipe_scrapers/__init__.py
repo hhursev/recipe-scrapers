@@ -685,9 +685,9 @@ def scrape_html(
     if html is None and online is True:
         if requests_import_error is not None:
             msg = (
-                "Unable to import the 'requests' library for use when recipe-scrapers \n",
-                "is operating online.\n",
-                "Did you install using 'pip install recipe-scrapers[online]'?",
+                "Unable to import the 'requests' library for use when recipe-scrapers \n"
+                "is operating online.\n"
+                "Did you install using 'pip install recipe-scrapers[online]'?"
             )
             raise ImportError(msg) from requests_import_error
 
@@ -698,8 +698,8 @@ def scrape_html(
 
     if html is None and online is False:
         msg = (
-            "No HTML input was provided to scrape from, and none can be retrieved from \n",
-            "the web because the 'online' flag is false.",
+            "No HTML input was provided to scrape from, and none can be retrieved from \n"
+            "the web because the 'online' flag is false."
         )
         raise ValueError(msg)
 
