@@ -12,6 +12,17 @@ from recipe_scrapers._utils import get_host_name
 
 
 class TestMainMethods(unittest.TestCase):
+
+    def test_valid_call_formats(self):
+        test_html = "<!DOCTYPE html><html><body>arbitrary</body></html>"
+        test_url = "https://en.wikibooks.org/"
+
+        # These calls should all be equivalent and valid.
+        scrape_html(test_html, test_url)
+        scrape_html(test_html, org_url=test_url)
+        scrape_html(test_html, org_url=test_url)  # short for 'original url'
+        # scrape_html(html=test_html, url=test_url)  # TODO
+
     def test_get_supported_urls(self):
         urls = get_supported_urls()
         self.assertGreater(len(urls), 200)
@@ -62,13 +73,3 @@ class TestMainMethods(unittest.TestCase):
                 online=False,
                 supported_only=True,
             )
-
-    def test_valid_call_formats(self):
-        test_html = "<!DOCTYPE html><html><body>arbitrary</body></html>"
-        test_url = "https://en.wikibooks.org/"
-
-        # These calls should all be equivalent and valid.
-        scrape_html(test_html, test_url)
-        scrape_html(test_html, org_url=test_url)
-        scrape_html(test_html, org_url=test_url)  # short for 'original url'
-        # scrape_html(html=test_html, url=test_url)  # TODO
