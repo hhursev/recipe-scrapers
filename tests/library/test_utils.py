@@ -1,130 +1,67 @@
 import unittest
-
 from recipe_scrapers._utils import get_minutes
 
+class TestUtilsRefactored(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        # Consolidated ISO 8601 test cases and other test cases into class variables for easier management and scalability.
+        cls.iso8601_fixtures = {
+            "PT1H": 60, "PT20M": 20, "PT2H10M": 130, "PT0H9M30S": 10,
+        }
+        cls.minutes_fixtures = [
+            ("1 hour 15 mins", 75), ("1h and 15mins", 75), ("3h10m", 190),
+            ("PT2H30M", 150), ("P0DT1H10M", 70), ("90", 90),
+            ("1.5 hours", 90), ("2 days", 2880), ("1½ hours", 90),
+            ("1¾ hours", 105), ("1¼ hours", 75), ("1⅔ hours", 100),
+            ("1 1/2 hours", 90), ("1 3/4 hours", 105), ("1 1/4 hours", 75),
+            ("1 2/3 hours", 100), ("15 - 20 minutes", 20), ("15 to 20 minutes", 20),
+            ("Pá-Pum", None),
+        ]
 
-class TestUtils(unittest.TestCase):
-    def test_get_minutes_english_description(self):
-        text = "1 hour 15 mins"
-        self.assertEqual(75, get_minutes(text))
-
-    def test_get_minutes_english_description_with_and(self):
-        text = "1h and 15mins"
-        self.assertEqual(75, get_minutes(text))
-
-    def test_get_minutes_english_abbreviation(self):
-        text = "3h10m"
-        self.assertEqual(190, get_minutes(text))
-
-    def test_get_minutes_short_iso_format(self):
-        text = "PT2H30M"
-        self.assertEqual(150, get_minutes(text))
-
-    def test_get_minutes_long_iso_format(self):
-        text = "P0DT1H10M"
-        self.assertEqual(70, get_minutes(text))
-
-    def test_get_minutes_int_in_string_literal(self):
-        text = "90"
-        self.assertEqual(90, get_minutes(text))
-
-    def test_get_minutes_fraction_in_hours_with_dot_notation(self):
-        text = "1.5 hours"
-        self.assertEqual(90, get_minutes(text))
-
-    def test_get_minutes_integer_days(self):
-        text = "2 days"
-        self.assertEqual(2880, get_minutes(text))
-
-    def test_get_minutes_fraction_with_fraction_unicode_character_halves(self):
-        text = "1½ hours"
-        self.assertEqual(90, get_minutes(text))
-
-    def test_get_minutes_fraction_with_fraction_unicode_character_three_fours(self):
-        text = "1¾ hours"
-        self.assertEqual(105, get_minutes(text))
-
-    def test_get_minutes_fraction_with_fraction_unicode_character_one_fours(self):
-        text = "1¼ hours"
-        self.assertEqual(75, get_minutes(text))
-
-    def test_get_minutes_fraction_with_fraction_unicode_character_two_thirds(self):
-        text = "1⅔ hours"
-        self.assertEqual(100, get_minutes(text))
-
-    def test_get_minutes_fraction_with_fraction_digits_with_slash(self):
-        text = "1 1/2 hours"
-        self.assertEqual(90, get_minutes(text))
-
-    def test_get_minutes_fraction_with_fraction_digits_with_slash_three_fours(self):
-        text = "1 3/4 hours"
-        self.assertEqual(105, get_minutes(text))
-
-    def test_get_minutes_fraction_with_fraction_digits_with_slash_one_fours(self):
-        text = "1 1/4 hours"
-        self.assertEqual(75, get_minutes(text))
-
-    def test_get_minutes_fraction_with_fraction_digits_with_slash_two_thirds(self):
-        text = "1 2/3 hours"
-        self.assertEqual(100, get_minutes(text))
-
-    def test_get_minutes_handles_dashes(self):
-        text = "15 - 20 minutes"
-        self.assertEqual(20, get_minutes(text))
-
-    def test_get_minutes_handles_to(self):
-        text = "15 to 20 minutes"
-        self.assertEqual(20, get_minutes(text))
-
-    def test_get_minutes_imprecise_description(self):
-        text = "Pá-Pum"
-        self.assertEqual(None, get_minutes(text))
-
-    iso8601_fixtures = {
-        "PT1H": 60,
-        "PT20M": 20,
-        "PT2H10M": 130,
-        "PT0H9M30S": 10,
-    }
-
-    def test_get_minutes_handles_iso8601(self):
-        for text, expected_minutes in self.iso8601_fixtures.items():
+    def test_minutes_fixtures(self):
+        # Combined all minute-related tests into a single test method to reduce repetition and improve code readability.
+        for text, expected in self.minutes_fixtures:
             with self.subTest(text=text):
-                self.assertEqual(expected_minutes, get_minutes(text))
+                self.assertEqual(expected, get_minutes(text))
+
+    def test_iso8601_fixtures(self):
+        # Separated ISO 8601 tests into its own method for clarity and to handle specific ISO 8601 format test cases.
+        for text, expected in self.iso8601_fixtures.items():
+            with self.subTest(text=text):
+                self.assertEqual(expected, get_minutes(text))
 
     def test_list_public_methods(self):
         from recipe_scrapers import AbstractScraper
 
-        public_method_names = [
-            method
-            for method in dir(AbstractScraper)
-            if callable(getattr(AbstractScraper, method))
-            if not method.startswith("_") and method not in ["soup", "links", "to_json"]
+        # Tested the listing of public methods from the AbstractScraper class, excluding internal and unwanted methods.
+        expected_methods = [
+            "author",
+            "canonical_url",
+            "category",
+            "cook_time",
+            "cuisine",
+            "description",
+            "equipment",
+            "host",
+            "image",
+            "ingredient_groups",
+            "ingredients",
+            "instructions",
+            "instructions_list",
+            "language",
+            "nutrients",
+            "prep_time",
+            "ratings",
+            "reviews",
+            "site_name",
+            "title",
+            "total_time",
+            "yields",
         ]
-        self.assertEqual(
-            [
-                "author",
-                "canonical_url",
-                "category",
-                "cook_time",
-                "cuisine",
-                "description",
-                "equipment",
-                "host",
-                "image",
-                "ingredient_groups",
-                "ingredients",
-                "instructions",
-                "instructions_list",
-                "language",
-                "nutrients",
-                "prep_time",
-                "ratings",
-                "reviews",
-                "site_name",
-                "title",
-                "total_time",
-                "yields",
-            ],
-            public_method_names,
-        )
+        public_methods = [
+            method for method in dir(AbstractScraper)
+            if callable(getattr(AbstractScraper, method)) and not method.startswith("_")
+            and method not in ["soup", "links", "to_json"]
+        ]
+        # Sorted the lists to ensure the comparison is order-independent.
+        self.assertEqual(sorted(expected_methods), sorted(public_methods))
