@@ -14,8 +14,8 @@ from recipe_scrapers._utils import get_host_name
 class TestMainMethods(unittest.TestCase):
 
     def test_valid_call_formats(self):
-        test_html = "<!DOCTYPE html><html><body>arbitrary</body></html>"
-        test_url = "https://en.wikibooks.org/"
+        test_html = "<!-- load this variable with the HTML from the URL below -->"
+        test_url = "https://en.wikibooks.org/wiki/Cookbook:B%C3%A9chamel_Sauce_(Beeton)"
 
         # These calls should all be equivalent and valid.
         scrape_html(test_html, test_url)
