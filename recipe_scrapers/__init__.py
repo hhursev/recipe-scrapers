@@ -683,12 +683,10 @@ def scrape_html(
 
     if html is None and online is True:
         if requests_import_error is not None:
-            msg = "\n".join(
-                (
-                    "Unable to import the 'requests' library for use when recipe-scrapers ",
-                    "is operating online.",
-                    "Did you install using 'pip install recipe-scrapers[online]'?",
-                )
+            msg = (
+                "Unable to import the 'requests' library for use when recipe-scrapers \n",
+                "is operating online.\n",
+                "Did you install using 'pip install recipe-scrapers[online]'?",
             )
             raise ImportError(msg) from requests_import_error
 
@@ -698,11 +696,9 @@ def scrape_html(
             raise Exception(f"Failed to retrieve HTML content from {org_url}.") from e
 
     if html is None and online is False:
-        msg = "\n".join(
-            (
-                "No HTML input was provided to scrape from, and none can be retrieved from ",
-                "the web because the 'online' flag is false.",
-            )
+        msg = (
+            "No HTML input was provided to scrape from, and none can be retrieved from \n",
+            "the web because the 'online' flag is false.",
         )
         raise ValueError(msg)
 
@@ -711,13 +707,11 @@ def scrape_html(
         return SCRAPERS[host_name](url=org_url, html=html)
 
     if supported_only in (None, True):
-        msg = "\n".join(
-            (
-                f"The website '{host_name}' isn't currently supported by recipe-scrapers!",
-                "---",
-                "If you have time to help us out, please report this as a feature ",
-                "request on our bugtracker.",
-            )
+        msg = (
+            f"The website '{host_name}' isn't currently supported by recipe-scrapers!\n"
+            "---\n"
+            "If you have time to help us out, please report this as a feature \n"
+            "request on our bugtracker."
         )
         raise WebsiteNotImplementedError(msg)
 
