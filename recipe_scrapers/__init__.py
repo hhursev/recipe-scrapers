@@ -639,7 +639,8 @@ def scrape_html(
     org_url: str,
     *,
     online=False,
-    supported_only=True,
+    supported_only=None,
+    wild_mode=None,
 ) -> AbstractScraper:
     """
     Accepts optional HTML and a required URL as input, and returns a scraper object.
@@ -658,7 +659,8 @@ def scrape_html(
 
     Kwargs:
         online (bool): whether the library may download HTML.
-        supported_only (bool): whether to restrict to supported domains.
+        supported_only (bool | None): whether to restrict to supported domains.
+        wild_mode (bool | None): deprecated: whether to attempt scraping unsupported domains.
 
     Raises:
         NoSchemaFoundInWildMode: If no schema is found for an unsupported domain.
@@ -666,6 +668,12 @@ def scrape_html(
     Returns:
         AbstractScraper:
     """
+    if supported_only is not None and wild_mode is not None:
+        msg = "Please provide either 'supported_only' or 'wild_mode', but not both."
+        raise ValueError(msg)
+    elif supported_only is None and wild_mode is not None:
+        supported_only = not wild_mode  # wild: true -> supported_only: false
+
     if html is None and online is True:
         if requests_import_error is not None:
             msg = "\n".join(
@@ -695,7 +703,7 @@ def scrape_html(
     if host_name in SCRAPERS:
         return SCRAPERS[host_name](url=org_url, html=html)
 
-    if supported_only:
+    if supported_only in (None, True):
         msg = "\n".join(
             (
                 f"The website {host_name} isn't currently supported by recipe-scrapers!",
