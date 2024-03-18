@@ -33,18 +33,16 @@ class TestMainMethods(unittest.TestCase):
             (False, False),
         )
         for supported_only, wild_mode in invalid_combinations:
-            with (
-                self.subTest(),
-                catch_warnings(record=True) as ws,
-                self.assertRaises(ValueError)
-            ):
-                scrape_html(
-                    html="<html></html>",
-                    org_url="https://recipe-scrapers.example/",
-                    supported_only=supported_only,
-                    wild_mode=wild_mode,
-                )
-                assert ws and all(isinstance(w.category, DeprecationWarning) for w in ws)
+            with self.subTest():
+                with catch_warnings(record=True) as ws:
+                    with self.assertRaises(ValueError):
+                        scrape_html(
+                            html="<html></html>",
+                            org_url="https://recipe-scrapers.example/",
+                            supported_only=supported_only,
+                            wild_mode=wild_mode,
+                        )
+                        assert ws and all(isinstance(w.category, DeprecationWarning) for w in ws)
 
     def test_get_supported_urls(self):
         urls = get_supported_urls()
@@ -100,6 +98,7 @@ class TestMainMethods(unittest.TestCase):
         with self.assertRaises(WebsiteNotImplementedError):
             scrape_html(html=html, org_url=url, online=False, supported_only=True)
 
-        with self.assertRaises(NoSchemaFoundInWildMode), catch_warnings(record=True) as ws:
-            scrape_html(html=html, org_url=url, online=False, wild_mode=True)
-            assert ws and all(isinstance(w.category, DeprecationWarning) for w in ws)
+        with self.assertRaises(NoSchemaFoundInWildMode):
+            with catch_warnings(record=True) as ws:
+                scrape_html(html=html, org_url=url, online=False, wild_mode=True)
+                assert ws and all(isinstance(w.category, DeprecationWarning) for w in ws)
