@@ -52,6 +52,7 @@ def score_sentence_similarity(first: str, second: str) -> float:
 
     return 2.0 * len(intersection) / (len(first_bigrams) + len(second_bigrams))
 
+
 def best_match(test_string: str, target_strings: List[str]) -> str:
     """Find the best match for test_string in target_strings
 
