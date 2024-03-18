@@ -32,7 +32,7 @@ class TestMainMethods(unittest.TestCase):
             (False, False),
         )
         for supported_only, wild_mode in invalid_combinations:
-            with self.subTest(), self.assertRaises(TypeError):
+            with self.subTest(), self.assertRaises(ValueError):
                 scrape_html(
                     html="<html></html>",
                     org_url="https://recipe-scrapers.example/",
