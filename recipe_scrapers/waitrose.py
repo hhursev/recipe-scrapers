@@ -10,7 +10,7 @@ class Waitrose(AbstractScraper):
         return "waitrose.com"
 
     def author(self):
-        return self.soup.find("meta", {"name": "author"}).get("content")
+        return "waitrose.com"
 
     def image(self):
         img_tag = self.soup.find("img", {"itemprop": "image"})
