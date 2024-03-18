@@ -79,7 +79,7 @@ def test_func_factory(
             ]
         actual = scrape_html(
             html=testhtml.read_text(encoding="utf-8"),
-            url=host,
+            org_url=host,
             online=False,
             supported_only=False,
         )

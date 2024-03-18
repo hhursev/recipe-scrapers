@@ -30,7 +30,7 @@ class TestMainMethods(unittest.TestCase):
         with self.assertRaises(ValueError):
             scrape_html(
                 html=None,
-                url="https://recipe-scrapers.example/algorithmic-cupcakes.html",
+                org_url="https://recipe-scrapers.example/algorithmic-cupcakes.html",
                 online=False,
                 supported_only=False,
             )
@@ -47,7 +47,7 @@ class TestMainMethods(unittest.TestCase):
 
         scrape_html(
             html=None,
-            url="https://recipe-scrapers.example/algorithmic-cupcakes.html",
+            org_url="https://recipe-scrapers.example/algorithmic-cupcakes.html",
             online=True,
             supported_only=False,
         )
@@ -57,8 +57,18 @@ class TestMainMethods(unittest.TestCase):
     def test_unsupported_website(self):
         with self.assertRaises(WebsiteNotImplementedError):
             scrape_html(
-                html="arbitrary",
-                url="https://unsupported.recipe-scrapers.example/unavailable.html",
+                html="<!DOCTYPE html><html><body>arbitrary</body></html>",
+                org_url="https://unsupported.recipe-scrapers.example/unavailable.html",
                 online=False,
                 supported_only=True,
             )
+
+    def test_valid_call_formats(self):
+        test_html = "<!DOCTYPE html><html><body>arbitrary</body></html>"
+        test_url = "https://en.wikibooks.org/"
+
+        # These calls should all be equivalent and valid.
+        scrape_html(test_html, test_url)
+        scrape_html(test_html, org_url=test_url)
+        scrape_html(test_html, org_url=test_url)  # short for 'original url'
+        # scrape_html(html=test_html, url=test_url)  # TODO

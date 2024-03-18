@@ -636,7 +636,7 @@ def scraper_exists_for(url_path: str) -> bool:
 
 def scrape_html(
     html: str | None,
-    url: str,
+    org_url: str,
     online=False,
     supported_only=True,
 ) -> AbstractScraper:
@@ -652,8 +652,10 @@ def scrape_html(
     to retrieve generic schema.org recipe metadata from the HTML.
 
     Args:
-        url (str): URL of the recipe.
         html (str | None): HTML of the recipe webpage.
+        org_url (str): URL of the recipe.
+
+    Kwargs:
         online (bool): whether the library may download HTML.
         supported_only (bool): whether to restrict to supported domains.
 
@@ -675,9 +677,9 @@ def scrape_html(
             raise ImportError(msg) from requests_import_error
 
         try:
-            html = requests.get(url=url, headers=HEADERS).text
+            html = requests.get(url=org_url, headers=HEADERS).text
         except Exception as e:
-            raise Exception(f"Failed to retrieve HTML content from {url}.") from e
+            raise Exception(f"Failed to retrieve HTML content from {org_url}.") from e
 
     if html is None and online is False:
         msg = "\n".join(
@@ -688,9 +690,9 @@ def scrape_html(
         )
         raise ValueError(msg)
 
-    host_name = get_host_name(url)
+    host_name = get_host_name(org_url)
     if host_name in SCRAPERS:
-        return SCRAPERS[host_name](url=url, html=html)
+        return SCRAPERS[host_name](url=org_url, html=html)
 
     if supported_only:
         msg = "\n".join(
@@ -703,11 +705,11 @@ def scrape_html(
         )
         raise WebsiteNotImplementedError(msg)
 
-    schema_scraper = SchemaScraperFactory.generate(url=url, html=html)
+    schema_scraper = SchemaScraperFactory.generate(url=org_url, html=html)
     if schema_scraper.schema.data:
         return schema_scraper
 
-    raise NoSchemaFoundInWildMode(url)
+    raise NoSchemaFoundInWildMode(org_url)
 
 
 __all__ = ["scrape_html"]
