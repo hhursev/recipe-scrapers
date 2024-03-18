@@ -70,7 +70,7 @@ class SchemaOrg:
                         self.ratingsdata[rating_id] = rating
 
         for syntax in SYNTAXES:
-            # make sure entries of type Recipe are always parsed first
+            # Make sure entries of type Recipe are always parsed first
             syntax_data = data.get(syntax, [])
             try:
                 index = [x.get("@type", "") for x in syntax_data].index("Recipe")
@@ -132,7 +132,7 @@ class SchemaOrg:
             return None
         if isinstance(v, str):
             return get_minutes(v)
-        # Workaround: strictly speaking schema.org does not provide for minValue and maxValue properties on objects of type Duration; they are however present on objects with type QuantitativeValue
+        # Workaround: Strictly speaking schema.org does not provide for minValue and maxValue properties on objects of type Duration; they are however present on objects with type QuantitativeValue
         # Refs:
         #  - https://schema.org/Duration
         #  - https://schema.org/QuantitativeValue
@@ -186,8 +186,8 @@ class SchemaOrg:
             image = image.get("url")
 
         if "http://" not in image and "https://" not in image:
-            # some sites give image path relative to the domain
-            # in cases like this handle image url with class methods or og link
+            # Some sites give image path relative to the domain.
+            # In cases like this handle image url with class methods or og link
             image = ""
 
         return image

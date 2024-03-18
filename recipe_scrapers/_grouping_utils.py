@@ -37,11 +37,11 @@ def score_sentence_similarity(first: str, second: str) -> float:
     """
 
     if first == second:
-        # Indentical sentences have maximum score of 1
+        # Identical sentences have a maximum score of 1
         return 1
 
     if len(first) < 2 or len(second) < 2:
-        # If either sentence has 0 or 1 character we can't generate bigrams,
+        # If either sentence has 0 or 1 character, we can't generate bigrams,
         # so the score is 0
         return 0
 
@@ -51,7 +51,6 @@ def score_sentence_similarity(first: str, second: str) -> float:
     intersection = first_bigrams & second_bigrams
 
     return 2.0 * len(intersection) / (len(first_bigrams) + len(second_bigrams))
-
 
 def best_match(test_string: str, target_strings: List[str]) -> str:
     """Find the best match for test_string in target_strings
@@ -85,27 +84,27 @@ def group_ingredients(
     group_element: str,
 ) -> List[IngredientGroup]:
     """
-    Group ingredients into sublists according the heading in the recipe.
+    Group ingredients into sublists according to the heading in the recipe.
 
-    The group headings are determined by html element matching the group_heading CSSselector.
-    The group items are determined by extracting the text the html elements that are
+    The group headings are determined by an HTML element matching the group_heading CSS selector.
+    The group items are determined by extracting the text from the HTML elements that are
     below the group heading, then matching the text to one of the ingredients in ingredients_list.
     This is done to ensure this function returns the same ingredients as are returned from
     the .ingredients() method of a scraper.
 
-    If the recipe doesn't group ingredients, this returns a single IngredientGroup object
+    If the recipe doesn't group ingredients, this function returns a single IngredientGroup object
     with the purpose set to None and the ingredients list populated with all ingredients.
 
     Parameters
     ----------
     ingredients_list : List[str]
-        List of ingredients extracted by recipe scraper
+        List of ingredients extracted by recipe scraper.
     soup : BeautifulSoup
-        Parsed page HTML markup as BeautifulSoup object
+        Parsed page HTML markup as a BeautifulSoup object.
     group_heading : str
-        CSS selector for ingredient group heading
+        CSS selector for ingredient group heading.
     group_element : str
-        CSS selector for ingredient elements
+        CSS selector for ingredient elements.
 
     Returns
     -------
@@ -116,7 +115,7 @@ def group_ingredients(
     Raises
     -------
     ValueError
-        Raise ValueError is the number of ingredients found by the CSS selector does
+        Raised if the number of ingredients found by the CSS selector does
         not match the number of ingredients in ingredients_list.
     """
 
@@ -131,7 +130,7 @@ def group_ingredients(
     groupings: Dict[Optional[str], List[str]] = {None: []}
     current_heading = None
 
-    # Find all elemement matching the heading and ingredient selectors, in the order they appear
+    # Find all elements matching the heading and ingredient selectors, in the order they appear
     # in the HTML markup
     elements = soup.select(",".join([group_heading, group_element]))
     for el in elements:
@@ -139,9 +138,8 @@ def group_ingredients(
             # This is the heading
             current_heading = normalize_string(el.get_text())
             groupings[current_heading] = []
-
         else:
-            # This an ingredient string
+            # This is an ingredient string
             # Extract the text and find the best match in ingredients_list
             text = normalize_string(el.get_text())
             ingredient = best_match(text, ingredients_list)
