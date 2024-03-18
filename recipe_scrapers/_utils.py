@@ -9,9 +9,21 @@ import isodate
 from ._exceptions import ElementNotFoundInHtml
 
 FRACTIONS = {
-    "½": 0.5, "⅓": 1/3, "⅔": 2/3, "¼": 0.25, "¾": 0.75,
-    "⅕": 0.2, "⅖": 0.4, "⅗": 0.6, "⅘": 0.8, "⅙": 1/6, "⅚": 5/6,
-    "⅛": 0.125, "⅜": 0.375, "⅝": 0.625, "⅞": 0.875
+    "½": 0.5,
+    "⅓": 1 / 3,
+    "⅔": 2 / 3,
+    "¼": 0.25,
+    "¾": 0.75,
+    "⅕": 0.2,
+    "⅖": 0.4,
+    "⅗": 0.6,
+    "⅘": 0.8,
+    "⅙": 1 / 6,
+    "⅚": 5 / 6,
+    "⅛": 0.125,
+    "⅜": 0.375,
+    "⅝": 0.625,
+    "⅞": 0.875,
 }
 
 TIME_REGEX = re.compile(
@@ -80,16 +92,17 @@ def _extract_fractional(input_string: str) -> float:
     except ValueError:
         pass
 
-    if ' ' in input_string and '/' in input_string:
-        whole_part, fractional_part = input_string.split(' ', 1)
-        numerator, denominator = fractional_part.split('/')
+    if " " in input_string and "/" in input_string:
+        whole_part, fractional_part = input_string.split(" ", 1)
+        numerator, denominator = fractional_part.split("/")
         return float(whole_part) + float(numerator) / float(denominator)
 
-    elif '/' in input_string:
-        numerator, denominator = input_string.split('/')
+    elif "/" in input_string:
+        numerator, denominator = input_string.split("/")
         return float(numerator) / float(denominator)
 
     raise ValueError(f"Unrecognized fraction format: '{input_string}'")
+
 
 def get_minutes(element):
     if element is None:
@@ -128,7 +141,7 @@ def get_minutes(element):
     days_matched = time_units.get("days")
 
     days = float(days_matched) if days_matched else 0
-    hours = _extract_fractional(hours_matched)if hours_matched else 0
+    hours = _extract_fractional(hours_matched) if hours_matched else 0
     minutes = float(minutes_matched) if minutes_matched else 0
     return minutes + round(hours * 60) + round(days * 24 * 60)
 
@@ -220,8 +233,10 @@ def url_path_to_dict(path):
     matches = regex.match(path)
     return matches.groupdict() if matches else None
 
+
 def get_host_name(url):
     return url_path_to_dict(url.replace("://www.", "://")).get("host")
+
 
 def change_keys(obj, convert):
     """

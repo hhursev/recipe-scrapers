@@ -1,10 +1,11 @@
 import unittest
+
 from recipe_scrapers._utils import get_minutes
+
 
 class TestUtilsRefactored(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        # Consolidated ISO 8601 test cases and other test cases into class variables for easier management and scalability.
         cls.iso8601_fixtures = {
             "PT1H": 60, "PT20M": 20, "PT2H10M": 130, "PT0H9M30S": 10,
         }
@@ -19,13 +20,13 @@ class TestUtilsRefactored(unittest.TestCase):
         ]
 
     def test_minutes_fixtures(self):
-        # Combined all minute-related tests into a single test method to reduce repetition and improve code readability.
+        # Tests for minute related output formats.
         for text, expected in self.minutes_fixtures:
             with self.subTest(text=text):
                 self.assertEqual(expected, get_minutes(text))
 
     def test_iso8601_fixtures(self):
-        # Separated ISO 8601 tests into its own method for clarity and to handle specific ISO 8601 format test cases.
+        # Tests for ISO 8601 formatted outputs formats.
         for text, expected in self.iso8601_fixtures.items():
             with self.subTest(text=text):
                 self.assertEqual(expected, get_minutes(text))
@@ -33,7 +34,6 @@ class TestUtilsRefactored(unittest.TestCase):
     def test_list_public_methods(self):
         from recipe_scrapers import AbstractScraper
 
-        # Tested the listing of public methods from the AbstractScraper class, excluding internal and unwanted methods.
         expected_methods = [
             "author",
             "canonical_url",
@@ -63,5 +63,4 @@ class TestUtilsRefactored(unittest.TestCase):
             if callable(getattr(AbstractScraper, method)) and not method.startswith("_")
             and method not in ["soup", "links", "to_json"]
         ]
-        # Sorted the lists to ensure the comparison is order-independent.
-        self.assertEqual(sorted(expected_methods), sorted(public_methods))
+        self.assertEqual((expected_methods), (public_methods))
