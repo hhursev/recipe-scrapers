@@ -66,7 +66,3 @@ class TestUtils(unittest.TestCase):
     def test_best_match_raises_error_with_empty_list(self):
         with self.assertRaises(ValueError):
             best_match("any string", [])
-
-
-if __name__ == "__main__":
-    unittest.main()

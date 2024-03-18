@@ -134,5 +134,7 @@ def group_ingredients(
             groupings[current_heading].append(matched_ingredient)
 
     return [
-        IngredientGroup(purpose=k, ingredients=v) for k, v in groupings.items() if v
+        IngredientGroup(purpose=heading, ingredients=items)
+        for heading, items in groupings.items()
+        if items != []
     ]
