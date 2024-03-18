@@ -1,4 +1,5 @@
 from __future__ import annotations
+import warnings
 
 try:
     # requests is an optional dependency; we can provide better error messages
@@ -668,6 +669,12 @@ def scrape_html(
     Returns:
         AbstractScraper:
     """
+    if wild_mode is not None:
+        msg = "The 'wild_mode' parameter is deprecated and may be removed in future."
+        if wild_mode is True:
+            msg += "\n\nPlease pass 'supported_only=False' to retain similar behaviour."
+        warnings.warn(msg, category=DeprecationWarning)
+
     if supported_only is not None and wild_mode is not None:
         msg = "Please provide either 'supported_only' or 'wild_mode', but not both."
         raise ValueError(msg)
