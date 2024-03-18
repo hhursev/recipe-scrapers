@@ -247,6 +247,8 @@ def change_keys(obj, convert):
     Credit: StackOverflow user 'baldr'
     (https://web.archive.org/web/20201022163147/https://stackoverflow.com/questions/11700705/python-recursively-replace
         -character-in-keys-of-nested-dictionary/33668421)
+
+    Note: with modifications applied.
     """
     if isinstance(obj, dict):
         return {convert(k): change_keys(v, convert) for k, v in obj.items()}
