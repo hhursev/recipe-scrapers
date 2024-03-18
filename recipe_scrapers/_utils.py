@@ -250,7 +250,8 @@ def change_keys(obj, convert):
     """
     if isinstance(obj, dict):
         return {convert(k): change_keys(v, convert) for k, v in obj.items()}
-    elif isinstance(obj, list):
-        return [change_keys(item, convert) for item in obj]
+    elif isinstance(obj, (list, set, tuple)):
+        type_constructor = type(obj)
+        return type_constructor(change_keys(item, convert) for item in obj)
     else:
         return obj
