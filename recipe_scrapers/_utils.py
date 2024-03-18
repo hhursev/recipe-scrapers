@@ -235,7 +235,7 @@ def url_path_to_dict(path):
 
 
 def get_host_name(url):
-    return url_path_to_dict(url.replace("://www.", "://")).get("host")
+    return url_path_to_dict(url.replace("://www.", "://"))["host"]
 
 
 def change_keys(obj, convert):
