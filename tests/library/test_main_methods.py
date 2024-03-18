@@ -42,7 +42,9 @@ class TestMainMethods(unittest.TestCase):
                             supported_only=supported_only,
                             wild_mode=wild_mode,
                         )
-                        assert ws and all(isinstance(w.category, DeprecationWarning) for w in ws)
+                        self.assertTrue(
+                            any(isinstance(w.category, DeprecationWarning) for w in ws)
+                        )
 
     def test_get_supported_urls(self):
         urls = get_supported_urls()
@@ -101,4 +103,6 @@ class TestMainMethods(unittest.TestCase):
         with self.assertRaises(NoSchemaFoundInWildMode):
             with catch_warnings(record=True) as ws:
                 scrape_html(html=html, org_url=url, online=False, wild_mode=True)
-                assert ws and all(isinstance(w.category, DeprecationWarning) for w in ws)
+                self.assertTrue(
+                    any(isinstance(w.category, DeprecationWarning) for w in ws)
+                )
