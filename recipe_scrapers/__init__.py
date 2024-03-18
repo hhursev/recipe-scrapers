@@ -640,9 +640,9 @@ def scrape_html(
     html: str | None,
     org_url: str,
     *,
-    online=False,
-    supported_only=None,
-    wild_mode=None,
+    online: bool = False,
+    supported_only: bool | None = None,
+    wild_mode: bool | None = None,
 ) -> AbstractScraper:
     """
     Accepts optional HTML and a required URL as input, and returns a scraper object.
@@ -680,7 +680,7 @@ def scrape_html(
         msg = "Please provide either 'supported_only' or 'wild_mode', but not both."
         raise ValueError(msg)
     elif supported_only is None and wild_mode is not None:
-        supported_only = not wild_mode  # wild: true -> supported_only: false
+        supported_only = not bool(wild_mode)  # wild: true -> supported_only: false
 
     if html is None and online is True:
         if requests_import_error is not None:
