@@ -635,13 +635,13 @@ def scraper_exists_for(url_path: str) -> bool:
 
 
 def scrape_html(
-    url: str,
     html: str | None,
+    url: str,
     online=False,
     supported_only=True,
 ) -> AbstractScraper:
     """
-    Accepts a URL and optional HTML as input, and returns a scraper object.
+    Accepts optional HTML and a required URL as input, and returns a scraper object.
 
     HTML is required unless the 'online' flag is enabled, allowing the library
     to download a current copy of the recipe.

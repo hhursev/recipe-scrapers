@@ -29,8 +29,8 @@ class TestMainMethods(unittest.TestCase):
     def test_offline_no_html_retrieval(self, mock_get):
         with self.assertRaises(ValueError):
             scrape_html(
-                url="https://recipe-scrapers.example/algorithmic-cupcakes.html",
                 html=None,
+                url="https://recipe-scrapers.example/algorithmic-cupcakes.html",
                 online=False,
                 supported_only=False,
             )
@@ -46,8 +46,8 @@ class TestMainMethods(unittest.TestCase):
         mock_get.return_value.text = recipe_html.read_text()
 
         scrape_html(
-            url="https://recipe-scrapers.example/algorithmic-cupcakes.html",
             html=None,
+            url="https://recipe-scrapers.example/algorithmic-cupcakes.html",
             online=True,
             supported_only=False,
         )
@@ -57,8 +57,8 @@ class TestMainMethods(unittest.TestCase):
     def test_unsupported_website(self):
         with self.assertRaises(WebsiteNotImplementedError):
             scrape_html(
-                url="https://unsupported.recipe-scrapers.example/unavailable.html",
                 html="arbitrary",
+                url="https://unsupported.recipe-scrapers.example/unavailable.html",
                 online=False,
                 supported_only=True,
             )
