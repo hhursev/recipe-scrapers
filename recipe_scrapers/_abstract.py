@@ -63,57 +63,50 @@ class AbstractScraper:
 
     @classmethod
     def host(cls) -> str:
-        """
-        Get the host of the URL, so that the correct scraper is used.
-        """
+        """Returns the host domain of the recipe URL"""
         raise NotImplementedError("This should be implemented.")
 
     def canonical_url(self):
-        """
-        Get the canonical URL of the recipe.
-
-        This method returns the canonical URL if it exists in the HTML metadata,
-        otherwise it returns the original URL of the recipe.
-        """
+        """Returns the canonical_url or original URL of the recipe"""
         canonical_link = self.soup.find("link", {"rel": "canonical", "href": True})
         if canonical_link:
             return urljoin(self.url, canonical_link["href"])
         return self.url
 
     def title(self):
+        """Returns the title of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def category(self):
+        """Returns the category of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def total_time(self):
-        """total time returns the time needed to prepare and cook the recipe in minutes"""
+        """Returns the total time needed to prepare and cook the recipe in minutes."""
         raise NotImplementedError("This should be implemented.")
 
     def cook_time(self):
-        """cook time returns the time needed to cook the recipe in minutes"""
+        """Returns the cooking time in minutes."""
         raise NotImplementedError("This should be implemented.")
 
     def prep_time(self):
-        """prep time returns the time needed to prepare the recipe in minutes"""
+        """Returns the preparation time in minutes."""
         raise NotImplementedError("This should be implemented.")
 
     def yields(self):
-        """yields returns the total servings or items in the recipe"""
+        """Returns the total servings or items in the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def image(self):
+        """Returns the image of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def nutrients(self):
+        """Returns the nutrients of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def language(self):
-        """
-        Determine the human language the recipe is written in.
-
-        This method may be overridden by individual scrapers.
-        """
+        """Returns the language the recipe is written in."""
         candidate_languages = OrderedDict()
         html = self.soup.find("html", {"lang": True})
         candidate_languages[html.get("lang")] = True
@@ -140,17 +133,19 @@ class AbstractScraper:
         return candidate_languages.popitem(last=False)[0]
 
     def ingredients(self):
+        """Returns the ingredients of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def ingredient_groups(self) -> List[IngredientGroup]:
+        """Returns a list of ingredient groups."""
         return [IngredientGroup(purpose=None, ingredients=self.ingredients())]
 
     def instructions(self) -> str:
-        """instructions to prepare the recipe"""
+        """Returns instructions to prepare the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def instructions_list(self) -> List[str]:
-        """instructions to prepare the recipe"""
+        """Returns instructions to prepare the recipe as a list."""
         return [
             instruction
             for instruction in self.instructions().split("\n")
@@ -158,34 +153,43 @@ class AbstractScraper:
         ]
 
     def ratings(self):
+        """Returns the ratings of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def author(self):
+        """Returns the author of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def cuisine(self):
+        """Returns the cuisine of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def description(self):
+        """Returns the description of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def reviews(self):
+        """Returns the reviews of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def equipment(self):
+        """Returns the equipment needed for the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def links(self):
+        """Returns the links found in the recipe."""
         invalid_href = {"#", ""}
         links_html = self.soup.findAll("a", href=True)
 
         return [link.attrs for link in links_html if link["href"] not in invalid_href]
 
     def site_name(self):
+        """Returns the name of the website."""
         meta = self.soup.find("meta", property="og:site_name")
         return meta.get("content") if meta else None
 
     def to_json(self):
+        """Returns the recipe information in JSON format."""
         json_dict = {}
         public_method_names = [
             method
