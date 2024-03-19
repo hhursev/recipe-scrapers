@@ -18,7 +18,7 @@ class WebsiteNotImplementedError(RecipeScrapersExceptions):
 
 
 class NoSchemaFoundInWildMode(RecipeScrapersExceptions):
-    """Error when wild_mode fails to locate schema at the URL"""
+    """The scraper was unable to locate schema.org metadata within the webpage."""
 
     def __init__(self, url):
         self.url = url
