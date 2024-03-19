@@ -75,11 +75,9 @@ def _extract_fractional(input_string: str) -> float:
     input_string = input_string.strip()
 
     # Handling mixed numbers with unicode fractions e.g., '1⅔'
-    for unicode_fraction, value in FRACTIONS.items():
+    for unicode_fraction, fraction_part in FRACTIONS.items():
         if unicode_fraction in input_string:
-            parts = input_string.partition(unicode_fraction)
-            whole_number_part = parts[0]
-            fraction_part = value
+            whole_number_part, _, _ = input_string.partition(unicode_fraction)
 
             whole_number = float(whole_number_part) if whole_number_part else 0
             return whole_number + fraction_part
