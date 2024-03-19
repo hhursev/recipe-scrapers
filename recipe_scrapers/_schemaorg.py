@@ -186,8 +186,8 @@ class SchemaOrg:
             image = image.get("url")
 
         if "http://" not in image and "https://" not in image:
-            # Some sites give image path relative to the domain.
-            # In cases like this handle image url with class methods or og link
+            # Some sites use relative image paths;
+            # prefer generic image retrieval code in those cases.
             image = ""
 
         return image
