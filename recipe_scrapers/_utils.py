@@ -79,7 +79,7 @@ def _extract_fractional(input_string: str) -> float:
         if unicode_fraction in input_string:
             whole_number_part, _, _ = input_string.partition(unicode_fraction)
 
-            whole_number = float(whole_number_part) if whole_number_part else 0
+            whole_number = float(whole_number_part or 0)
             return whole_number + fraction_part
 
     if input_string in FRACTIONS:
