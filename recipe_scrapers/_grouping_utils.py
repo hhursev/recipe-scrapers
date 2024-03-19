@@ -86,10 +86,10 @@ def group_ingredients(
     """
     Group ingredients into sublists according to the heading in the recipe.
 
-    This method groupings ingredients by extracting headings and corresponding elements
-    based on provided CSS selectors. If no groupings are present, it cre`ates a single
+    This method groups ingredients by extracting headings and corresponding elements
+    based on provided CSS selectors. If no groupings are present, it creates a single
     group with all ingredients. It ensures ingredient groupings match those in
-    the .ingredients() method of a scraper by comparing text against the ingredients list.
+    the .ingredients() method of a scraper by comparing the text against the ingredients list.
 
     Parameters
     ----------
