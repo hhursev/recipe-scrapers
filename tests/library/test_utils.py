@@ -1,6 +1,6 @@
 import unittest
 
-from recipe_scrapers._utils import get_minutes
+from recipe_scrapers._utils import _extract_fractional, get_minutes
 
 
 class TestUtils(unittest.TestCase):
@@ -45,6 +45,11 @@ class TestUtils(unittest.TestCase):
         for text, expected in self.iso8601_fixtures.items():
             with self.subTest(text=text):
                 self.assertEqual(expected, get_minutes(text))
+
+    def test_split_fractions(self):
+        input_string = "3 1 / 2"
+        expected_result = 3.5
+        self.assertEqual(expected_result, _extract_fractional(input_string))
 
     def test_list_public_methods(self):
         from recipe_scrapers import AbstractScraper
