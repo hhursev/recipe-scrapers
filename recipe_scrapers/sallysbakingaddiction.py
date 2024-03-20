@@ -29,7 +29,7 @@ class SallysBakingAddiction(AbstractScraper):
         return self.schema.yields()
 
     def image(self):
-        return self.schema.image()
+        return self.data.get("image")[-1]
 
     def ingredients(self):
         return self.schema.ingredients()
