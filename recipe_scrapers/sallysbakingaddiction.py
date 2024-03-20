@@ -1,5 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._exceptions import SchemaOrgException
 
 
 class SallysBakingAddiction(AbstractScraper):
@@ -29,7 +30,21 @@ class SallysBakingAddiction(AbstractScraper):
         return self.schema.yields()
 
     def image(self):
-        return self.data.get("image")[-1]
+        image = self.data.get("image")
+
+        if image is None:
+            raise SchemaOrgException("Image not found in SchemaOrg")
+
+        if isinstance(image, list):
+            image = image[-1]
+
+        if isinstance(image, dict):
+            image = image.get("url")
+
+        if "http://" not in image and "https://" not in image:
+            image = ""
+
+        return image
 
     def ingredients(self):
         return self.schema.ingredients()
