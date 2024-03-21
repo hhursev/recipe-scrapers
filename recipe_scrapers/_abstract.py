@@ -98,7 +98,7 @@ class AbstractScraper:
         raise NotImplementedError("This should be implemented.")
 
     def image(self):
-        """Image of the recipe."""
+        """An image URL for the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def nutrients(self):
