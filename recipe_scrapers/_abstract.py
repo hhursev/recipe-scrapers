@@ -111,7 +111,7 @@ class AbstractScraper:
         html = self.soup.find("html", {"lang": True})
         candidate_languages[html.get("lang")] = True
 
-        # Deprecated: Check for a meta http-equiv header
+        # Deprecated: check for a meta http-equiv header
         # See: https://www.w3.org/International/questions/qa-http-and-lang
         meta_language = self.soup.find(
             "meta",
