@@ -67,7 +67,7 @@ class AbstractScraper:
         raise NotImplementedError("This should be implemented.")
 
     def canonical_url(self):
-        """Canonical_url or original URL of the recipe"""
+        """Canonical or original URL of the recipe"""
         canonical_link = self.soup.find("link", {"rel": "canonical", "href": True})
         if canonical_link:
             return urljoin(self.url, canonical_link["href"])
