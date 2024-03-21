@@ -683,7 +683,7 @@ def scrape_html(
         NoSchemaFoundInWildMode: If no schema is found in wild mode.
 
     Returns:
-        AbstractScraper: Instance of the AbstractScraper class.
+        AbstractScraper: a scraper instance implementing AbstractScraper for the requested website.
     """
 
     host_name = get_host_name(org_url) if org_url is not None else None
