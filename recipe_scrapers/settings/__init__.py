@@ -16,7 +16,7 @@ class RecipeScraperSettings:
     "RECIPE_SCRAPERS_SETTINGS" to point to them:
     os.environ["RECIPE_SCRAPERS_SETTINGS"] = "path.to.my.custom.settings.file" [py]
 
-    will make the package start using the user-defined settings instantly.
+    This will make the package start using the user-defined settings instantly.
 
     Access package's settings with
 

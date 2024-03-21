@@ -70,7 +70,7 @@ class SchemaOrg:
                         self.ratingsdata[rating_id] = rating
 
         for syntax in SYNTAXES:
-            # make sure entries of type Recipe are always parsed first
+            # Make sure entries of type Recipe are always parsed first
             syntax_data = data.get(syntax, [])
             try:
                 index = [x.get("@type", "") for x in syntax_data].index("Recipe")
@@ -186,8 +186,8 @@ class SchemaOrg:
             image = image.get("url")
 
         if "http://" not in image and "https://" not in image:
-            # some sites give image path relative to the domain
-            # in cases like this handle image url with class methods or og link
+            # Some sites use relative image paths;
+            # prefer generic image retrieval code in those cases.
             image = ""
 
         return image

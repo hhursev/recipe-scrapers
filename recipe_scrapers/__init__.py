@@ -670,20 +670,20 @@ def scrape_html(
     html: str, org_url: str | None = None, **options: dict[str, Any]
 ) -> AbstractScraper:
     """
-    takes a string of html and returns a scraper object. if the org_url is specified
-    then the scraper will use that url to resolve a defined scraper, otherwise it will
+    Takes a string of HTML and returns a scraper object. If the org_url is specified,
+    then the scraper will use that URL to resolve a defined scraper, otherwise it will
     fall back to wild mode. If no schema is found in wild mode then a
     NoSchemaFoundInWildMode exception will be raised.
 
     Args:
-        html (str): raw HTML in text form
+        html (str): Raw HTML in text form.
         org_url (str, optional): Original URL of the HTML. Defaults to None.
 
     Raises:
         NoSchemaFoundInWildMode: If no schema is found in wild mode.
 
     Returns:
-        AbstractScraper:
+        AbstractScraper: a scraper instance implementing AbstractScraper for the requested website.
     """
 
     host_name = get_host_name(org_url) if org_url is not None else None
