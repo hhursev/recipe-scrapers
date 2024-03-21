@@ -63,7 +63,7 @@ class AbstractScraper:
 
     @classmethod
     def host(cls) -> str:
-        """Host domain of the recipe URL"""
+        """Host domain of the recipe URL."""
         raise NotImplementedError("This should be implemented.")
 
     def canonical_url(self):
