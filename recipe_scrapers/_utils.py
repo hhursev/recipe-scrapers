@@ -9,14 +9,21 @@ import isodate
 from ._exceptions import ElementNotFoundInHtml
 
 FRACTIONS = {
+    "½": 0.5,
+    "⅓": 1 / 3,
+    "⅔": 2 / 3,
     "¼": 0.25,
-    "½": 0.50,
     "¾": 0.75,
-    "⅓": 0.33,
-    "⅔": 0.66,
-    "⅕": 0.20,
-    "⅖": 0.40,
-    "⅗": 0.60,
+    "⅕": 0.2,
+    "⅖": 0.4,
+    "⅗": 0.6,
+    "⅘": 0.8,
+    "⅙": 1 / 6,
+    "⅚": 5 / 6,
+    "⅛": 0.125,
+    "⅜": 0.375,
+    "⅝": 0.625,
+    "⅞": 0.875,
 }
 
 TIME_REGEX = re.compile(
@@ -65,22 +72,33 @@ RECIPE_YIELD_TYPES = (
 
 def _extract_fractional(input_string: str) -> float:
     input_string = input_string.strip()
-    if "/" in input_string:
-        # for example "1 1/2" is matched
-        components = input_string.split(" ")
-        whole_part, fractional_part = components[0], components[-1]
+
+    # Handling mixed numbers with unicode fractions e.g., '1⅔'
+    for unicode_fraction, fraction_part in FRACTIONS.items():
+        if unicode_fraction in input_string:
+            whole_number_part, _, _ = input_string.partition(unicode_fraction)
+
+            whole_number = float(whole_number_part or 0)
+            return whole_number + fraction_part
+
+    if input_string in FRACTIONS:
+        return FRACTIONS[input_string]
+
+    try:
+        return float(input_string)
+    except ValueError:
+        pass
+
+    if " " in input_string and "/" in input_string:
+        whole_part, fractional_part = input_string.split(" ", 1)
         numerator, denominator = fractional_part.split("/")
-        return float(whole_part) + float(int(numerator) / int(denominator))
+        return float(whole_part) + float(numerator) / float(denominator)
 
-    whole_part, fractional_amount = "", 0.0
-    for symbol in input_string:
-        if symbol in FRACTIONS:
-            fractional_amount += FRACTIONS[symbol]
-        else:
-            whole_part += symbol
+    elif "/" in input_string:
+        numerator, denominator = input_string.split("/")
+        return float(numerator) / float(denominator)
 
-    return float(whole_part) + float(fractional_amount)
-
+    raise ValueError(f"Unrecognized fraction format: '{input_string}'")
 
 def get_minutes(element):
     if element is None:
@@ -127,15 +145,17 @@ def get_minutes(element):
 
 def get_yields(element):
     """
-    Will return a string of servings or items, if the recipe is for number of items and not servings
-    the method will return the string "x item(s)" where x is the quantity.
-    Returns a string of servings or items. If the recipe is for a number of items (not servings),
-    it returns "x item(s)" where x is the quantity. This function handles cases where the yield is in dozens,
-    such as "4 dozen cookies", returning "4 dozen" instead of "4 servings". Additionally
-    accommodates yields specified in batches (e.g., "2 batches of brownies"), returning the yield as stated.
-    :param element: Should be BeautifulSoup.TAG, in some cases not feasible and will then be text.
-    :return: The number of servings or items.
-    :return: The number of servings, items, dozen, batches, etc...
+    Returns a string indicating the number of servings or items for a recipe. It handles various formats,
+    including servings, items, and special cases like dozens and fractions (e.g., "1 ½ dozen cookies").
+    If the recipe specifies yields in terms of items (not servings), it returns a string in the format 
+    "x item(s)" where x is the quantity. This function also handles yields specified in dozens, returning 
+    them appropriately (e.g., "1.5 dozen cookies" instead of "18 items"), and incorporates fractional 
+    quantities with proper conversion. Additionally, it accommodates yields specified in other units 
+    like batches (e.g., "2 batches of brownies"), returning the yield as specified.
+
+    :param element: Should ideally be BeautifulSoup.TAG. In some cases, where this is not feasible,
+                    it will then be plain text.
+    :return: The number of servings, items, dozens, batches, etc., formatted as a string.
     """
     if element is None:
         raise ElementNotFoundInHtml(element)
@@ -147,29 +167,41 @@ def get_yields(element):
     if SERVE_REGEX_TO.search(serve_text):
         serve_text = serve_text.split(SERVE_REGEX_TO.split(serve_text, 2)[1], 2)[1]
 
-    matched = SERVE_REGEX_NUMBER.search(serve_text).groupdict().get("items") or 0
+    fraction_present = any(frac in serve_text for frac in FRACTIONS)
+    dozen_present = 'dozen' in serve_text.lower()
+
+    if fraction_present or dozen_present:
+        matched = _extract_fractional(" ".join(serve_text.split()[:2]))
+    else:
+        matched = SERVE_REGEX_NUMBER.search(serve_text).groupdict().get("items") or 0
+
+    matched_str = str(matched).rstrip('0').rstrip('.') if '.' in str(matched) else str(matched)
     serve_text_lower = serve_text.lower()
 
     best_match = None
-    best_match_length = 0
-
     for singular, plural in RECIPE_YIELD_TYPES:
-        if singular in serve_text_lower or plural in serve_text_lower:
-            match_length = (
-                len(singular) if singular in serve_text_lower else len(plural)
-            )
-            if match_length > best_match_length:
-                best_match_length = match_length
-                best_match = f"{matched} {singular if int(matched) == 1 else plural}"
+        in_text = singular in serve_text_lower or plural in serve_text_lower
+        is_dozen = dozen_present and (singular == 'dozen' or plural == 'dozens')
+        if in_text or is_dozen:
+            if is_dozen:
+                post_dozen = serve_text_lower.split('dozen', 1)[-1].strip()
+                for s, p in RECIPE_YIELD_TYPES:
+                    if post_dozen.startswith(s) or post_dozen.startswith(p):
+                        best_match = f"{matched_str} dozen {p}"
+                        break
+                if not best_match:
+                    best_match = f"{matched_str} dozen"
+            else:
+                best_match = f"{matched_str} {plural if float(matched) != 1 else singular}"
+            break
 
     if best_match:
-        return best_match
+        return best_match.strip() 
 
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
-        return "{} item{}".format(matched, "" if int(matched) == 1 else "s")
+        return f"{matched_str} item{'s' if float(matched) != 1 else ''}".strip()
 
-    return "{} serving{}".format(matched, "" if int(matched) == 1 else "s")
-
+    return f"{matched_str} serving{'s' if float(matched) != 1 else ''}".strip()
 
 def get_equipment(equipment_items):
     # Removes duplicates from results and sorts them in order they appear on site.
