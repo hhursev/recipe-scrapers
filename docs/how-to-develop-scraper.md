@@ -200,7 +200,7 @@ You can check whether your scraper is passing the tests by running
 $ python -m unittest -k <test_file_name>
 ```
 
-where `myscraper` is the name of the json file without the `.json` extension.
+where `test_file_name` is the name of the test data json file without the `.json` extension in `tests/test_data/` directory.
 
 > [!TIP]
 > It is also recommended that you manually test the scraper with a couple of different recipes from the website, to check that there aren't any special cases the scraper will need to handle. You don't need to create test cases for each of these.
