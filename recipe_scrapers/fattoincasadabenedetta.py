@@ -20,7 +20,6 @@ class FattoInCasaDaBenedetta(AbstractScraper):
 
         return "\n".join(all_instructions)
 
-
     def equipment(self):
         return list(
             dict.fromkeys(

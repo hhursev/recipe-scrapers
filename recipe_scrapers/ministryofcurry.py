@@ -8,8 +8,6 @@ class MinistryOfCurry(AbstractScraper):
     def host(cls):
         return "ministryofcurry.com"
 
-
-
     def equipment(self):
         return list(
             {

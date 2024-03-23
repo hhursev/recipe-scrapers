@@ -17,8 +17,6 @@ class AddAPinch(AbstractScraper):
             ".wprm-recipe-ingredient-group li",
         )
 
-
-
     def equipment(self):
         return list(
             dict.fromkeys(

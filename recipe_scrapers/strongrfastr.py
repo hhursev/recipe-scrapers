@@ -8,7 +8,5 @@ class StrongrFastr(AbstractScraper):
     def host(cls):
         return "strongrfastr.com"
 
-
-
     def site_name(self):
         return "Strongr Fastr"

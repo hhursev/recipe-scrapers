@@ -12,8 +12,6 @@ class HerseyLand(AbstractScraper):
     def author(self):
         return "Herseyland"
 
-
-
     def equipment(self):
         equipment_items = [
             item.find("span", class_="h6").get_text()

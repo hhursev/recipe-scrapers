@@ -8,8 +8,6 @@ class GoodFoodDiscoveries(AbstractScraper):
     def host(cls):
         return "goodfooddiscoveries.com"
 
-
-
     def ingredients(self):
         # removing "u003cbu003e" and "u003c/bu003e" as it looks to be used at times to bold text on the site
         return [

@@ -41,7 +41,6 @@ class SchemaScraperFactory:
         def author(self):
             return self.schema.author()
 
-
         def description(self):
             return self.schema.description()
 

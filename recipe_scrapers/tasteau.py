@@ -19,7 +19,6 @@ class TasteAU(AbstractScraper):
             "div.ingredient-description",
         )
 
-
     def description(self):
         description_html = self.schema.description()
         description_text = re.sub("<[^>]*>", "", description_html)

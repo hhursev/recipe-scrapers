@@ -16,8 +16,6 @@ class AltonBrown(AbstractScraper):
             ".wprm-recipe-ingredient",
         )
 
-
-
     def equipment(self):
         return list(
             dict.fromkeys(

@@ -42,6 +42,5 @@ class EatWell101(AbstractScraper):
 
         return "\n".join(instructions_list)
 
-
     def description(self):
         return self.soup.find("div", {"class": "saveurteaser"}).get_text()

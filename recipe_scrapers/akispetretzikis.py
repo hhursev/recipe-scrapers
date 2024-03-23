@@ -15,7 +15,5 @@ class AkisPetretzikis(AbstractScraper):
     def host(cls):
         return "akispetretzikis.com"
 
-
-
     def language(self):
         return self.recipe_json["locale"]

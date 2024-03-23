@@ -7,10 +7,6 @@ class BongEats(AbstractScraper):
     def host(cls):
         return "bongeats.com"
 
-
-
-
-
     def ingredients(self):
         ingredients_div = self.soup.find(
             "div",

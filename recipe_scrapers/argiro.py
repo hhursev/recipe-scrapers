@@ -7,8 +7,6 @@ class Argiro(AbstractScraper):
     def host(cls):
         return "argiro.gr"
 
-
-
     def equipment(self):
         equipment_items = [
             normalize_string(e.get_text())

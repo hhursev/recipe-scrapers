@@ -9,8 +9,6 @@ class LifestyleOfAFoodie(AbstractScraper):
     def host(cls):
         return "lifestyleofafoodie.com"
 
-
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),

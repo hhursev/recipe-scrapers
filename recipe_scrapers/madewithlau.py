@@ -10,9 +10,6 @@ class MadeWithLau(AbstractScraper):
     def host(cls):
         return "madewithlau.com"
 
-
-
-
     def instructions(self):
         # collect headers
         headers = [

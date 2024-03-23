@@ -19,9 +19,6 @@ class AllRecipesCurated(AbstractScraper):
     def host(cls):
         return "allrecipes.com"
 
-
-
-
     def ingredients(self):
         def get_ingredient_text(item, key):
             span = item.find("span", {"data-ingredient-" + key: True})
@@ -34,7 +31,6 @@ class AllRecipesCurated(AbstractScraper):
             ingredients_list.append(" ".join(filter(None, ingredient_parts)))
 
         return ingredients_list
-
 
 
 class AllRecipesUser(AbstractScraper):

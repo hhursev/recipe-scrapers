@@ -17,7 +17,6 @@ class FoodFidelity(AbstractScraper):
             ".wprm-recipe-ingredient",
         )
 
-
     def description(self):
         img_tag = self.soup.find("img", {"data-pin-description": True})
         if img_tag:

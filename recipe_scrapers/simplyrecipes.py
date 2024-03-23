@@ -8,8 +8,6 @@ class SimplyRecipes(AbstractScraper):
     def host(cls):
         return "simplyrecipes.com"
 
-
-
     def instructions(self):
         steps = self.soup.find(
             "div", {"class": "structured-project__steps"}

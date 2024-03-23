@@ -82,6 +82,5 @@ class JoshuaWeissman(AbstractScraper):
 
         return "\n".join(instructions)
 
-
     def description(self):
         return self.soup.find(id="viewer-foo").get_text()

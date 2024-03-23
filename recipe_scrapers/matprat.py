@@ -17,7 +17,6 @@ class Matprat(AbstractScraper):
             "ul.ingredientsList > li > span:not(.amount):not(.unit)",
         )
 
-
     def nutrients(self):
         nutrient_names = [
             x.text for x in self.soup("td", "recipe-nutritions__table-cell-name")

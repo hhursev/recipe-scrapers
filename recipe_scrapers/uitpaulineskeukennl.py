@@ -32,7 +32,6 @@ class UitPaulinesKeukenNL(AbstractScraper):
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
 
-
     def description(self):
         return (
             self.soup.find("article", {"class": "single-recipe"})

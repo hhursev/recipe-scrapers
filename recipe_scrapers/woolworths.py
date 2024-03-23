@@ -35,11 +35,8 @@ class Woolworths(AbstractScraper):
     def canonical_url(self):
         return self.url
 
-
-
     def language(self):
         return "en-AU"
-
 
     def site_name(self):
         return "Woolworths | Fresh Ideas For You"

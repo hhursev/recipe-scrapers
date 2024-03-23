@@ -39,7 +39,6 @@ class Number2Pencil(AbstractScraper):
         entry_content_div = self.soup.find("div", {"class": "entry-content"})
         return entry_content_div.find("em").text
 
-
     def ingredient_groups(self):
         return group_ingredients(
             ingredients_list=self.ingredients(),

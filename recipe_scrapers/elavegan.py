@@ -18,8 +18,6 @@ class ElaVegan(AbstractScraper):
             ".wprm-recipe-ingredient-group li",
         )
 
-
-
     def equipment(self):
         equipment_items = [
             item.find("div", class_="wprm-recipe-equipment-name")

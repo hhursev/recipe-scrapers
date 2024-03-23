@@ -8,7 +8,6 @@ class BowlOfDelicious(AbstractScraper):
     def host(cls):
         return "bowlofdelicious.com"
 
-
     def equipment(self):
         equipment_items = [
             link.get_text()

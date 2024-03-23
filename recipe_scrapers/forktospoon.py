@@ -8,8 +8,6 @@ class ForkToSpoon(AbstractScraper):
     def host(cls):
         return "forktospoon.com"
 
-
-
     def equipment(self):
         seen = set()
         return [
