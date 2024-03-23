@@ -6,9 +6,3 @@ class TheExpertGuides(AbstractScraper):
     @classmethod
     def host(cls):
         return "theexpertguides.com"
-
-    def prep_time(self):
-        return self.schema.prep_time()
-
-    def cook_time(self):
-        return self.schema.cook_time()

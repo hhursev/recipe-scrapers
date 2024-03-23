@@ -8,11 +8,7 @@ class SimplyRecipes(AbstractScraper):
     def host(cls):
         return "simplyrecipes.com"
 
-    def prep_time(self):
-        return self.schema.prep_time()
 
-    def cook_time(self):
-        return self.schema.cook_time()
 
     def instructions(self):
         steps = self.soup.find(

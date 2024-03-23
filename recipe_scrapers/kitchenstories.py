@@ -20,9 +20,3 @@ class KitchenStories(AbstractScraper):
         schema_data = self.soup.find("script", {"type": "application/ld+json"})
         schema_data = unescape(str(schema_data))
         self.schema = SchemaOrg(schema_data)
-
-    def cook_time(self):
-        return self.schema.cook_time()
-
-    def prep_time(self):
-        return self.schema.prep_time()

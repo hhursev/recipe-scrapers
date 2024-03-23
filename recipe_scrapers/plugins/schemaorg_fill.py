@@ -34,6 +34,8 @@ class SchemaOrgFillPlugin(PluginInterface):
         "nutrients",
         "cuisine",
         "description",
+        "cook_time",
+        "prep_time",
     )
 
     @classmethod

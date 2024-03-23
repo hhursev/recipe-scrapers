@@ -8,11 +8,7 @@ class GoodFoodDiscoveries(AbstractScraper):
     def host(cls):
         return "goodfooddiscoveries.com"
 
-    def prep_time(self):
-        return self.schema.prep_time()
 
-    def cook_time(self):
-        return self.schema.cook_time()
 
     def ingredients(self):
         # removing "u003cbu003e" and "u003c/bu003e" as it looks to be used at times to bold text on the site

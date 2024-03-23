@@ -35,11 +35,7 @@ class Woolworths(AbstractScraper):
     def canonical_url(self):
         return self.url
 
-    def cook_time(self):
-        return self.schema.cook_time()
 
-    def prep_time(self):
-        return self.schema.prep_time()
 
     def language(self):
         return "en-AU"

@@ -21,11 +21,3 @@ class PickUpLimes(AbstractScraper):
             for e in self.soup.find_all(class_="direction")
         ]
         return "\n".join(instructions) if instructions else None
-
-
-
-    def prep_time(self):
-        return self.schema.prep_time()
-
-    def cook_time(self):
-        return self.schema.cook_time()

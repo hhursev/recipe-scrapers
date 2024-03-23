@@ -7,11 +7,7 @@ class SundPaaBudget(AbstractScraper):
     def host(cls):
         return "sundpaabudget.dk"
 
-    def cook_time(self):
-        return self.schema.cook_time()
 
-    def prep_time(self):
-        return self.schema.prep_time()
 
     def description(self):
         # Schema returns empty string
