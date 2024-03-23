@@ -12,8 +12,6 @@ class HerseyLand(AbstractScraper):
     def author(self):
         return "Herseyland"
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return self.schema.description()

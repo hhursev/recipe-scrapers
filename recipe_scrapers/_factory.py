@@ -41,8 +41,6 @@ class SchemaScraperFactory:
         def author(self):
             return self.schema.author()
 
-        def cuisine(self):
-            return self.schema.cuisine()
 
         def description(self):
             return self.schema.description()

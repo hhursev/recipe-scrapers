@@ -17,8 +17,6 @@ class StaySnatched(AbstractScraper):
         )
         return author_element.find("a").get_text() if author_element else "Unknown"
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return self.schema.description()

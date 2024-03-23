@@ -7,8 +7,6 @@ class OneHundredOneCookBooks(AbstractScraper):
     def host(cls):
         return "101cookbooks.com"
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return self.schema.description()

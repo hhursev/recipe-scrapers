@@ -19,6 +19,3 @@ class WilliamsSonoma(AbstractScraper):
             ".botLeft > h3",
             ".botLeft > ul > li",
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()

@@ -7,8 +7,6 @@ class SallysBakingAddiction(AbstractScraper):
     def host(cls):
         return "sallysbakingaddiction.com"
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return self.schema.description()

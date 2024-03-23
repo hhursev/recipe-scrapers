@@ -41,8 +41,6 @@ class AllRecipesCurated(AbstractScraper):
 
         return ingredients_list
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
 
 class AllRecipesUser(AbstractScraper):

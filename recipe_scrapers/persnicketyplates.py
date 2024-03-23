@@ -8,8 +8,6 @@ class PersnicketyPlates(AbstractScraper):
     def host(cls):
         return "persnicketyplates.com"
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return self.schema.description()

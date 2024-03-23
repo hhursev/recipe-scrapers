@@ -82,8 +82,6 @@ class JoshuaWeissman(AbstractScraper):
 
         return "\n".join(instructions)
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return self.soup.find(id="viewer-foo").get_text()

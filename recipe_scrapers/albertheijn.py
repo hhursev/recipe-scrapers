@@ -28,8 +28,6 @@ class AlbertHeijn(AbstractScraper):
         # try schema.org
         return self.schema.instructions()
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return self.schema.description()

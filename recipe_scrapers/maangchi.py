@@ -26,8 +26,6 @@ class Maangchi(AbstractScraper):
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return self.schema.description()

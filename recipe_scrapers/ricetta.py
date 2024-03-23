@@ -25,8 +25,6 @@ class Ricetta(AbstractScraper):
 
         return "\n".join(instructions_list)
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return self.schema.description()

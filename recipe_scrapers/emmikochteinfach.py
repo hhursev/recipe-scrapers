@@ -7,8 +7,6 @@ class EmmiKochtEinfach(AbstractScraper):
     def host(cls):
         return "emmikochteinfach.de"
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return self.schema.description()

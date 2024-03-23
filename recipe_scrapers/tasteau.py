@@ -19,8 +19,6 @@ class TasteAU(AbstractScraper):
             "div.ingredient-description",
         )
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         description_html = self.schema.description()

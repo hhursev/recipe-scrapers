@@ -17,8 +17,6 @@ class FoodFidelity(AbstractScraper):
             ".wprm-recipe-ingredient",
         )
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         img_tag = self.soup.find("img", {"data-pin-description": True})

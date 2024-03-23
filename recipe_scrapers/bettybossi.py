@@ -36,8 +36,6 @@ class BettyBossi(AbstractScraper):
         # As the html content is provided, the parent will not query the page
         super().__init__(url, proxies, timeout, wild_mode, html)
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return self.schema.description()

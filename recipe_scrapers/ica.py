@@ -7,8 +7,6 @@ class Ica(AbstractScraper):
     def host(cls):
         return "ica.se"
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return self.schema.description()

@@ -7,8 +7,6 @@ class Springlane(AbstractScraper):
     def host(cls):
         return "springlane.de"
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def cook_time(self):
         return self.schema.cook_time()

@@ -8,8 +8,6 @@ class AberleHome(AbstractScraper):
     def host(cls):
         return "aberlehome.com"
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return self.schema.description()

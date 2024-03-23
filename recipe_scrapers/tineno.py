@@ -60,8 +60,6 @@ class TineNo(AbstractScraper):
             [i for i in self.schema.instructions().split("\n") if i != "Oppskrift"]
         )
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return self.schema.description()

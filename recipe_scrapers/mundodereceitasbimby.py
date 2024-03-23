@@ -23,8 +23,6 @@ class MundoDeReceitasBimby(AbstractScraper):
             "ul > li[itemprop='recipeIngredient']",
         )
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def language(self):
         return self.soup.find("meta", {"property": "og:locale"}).get("content")

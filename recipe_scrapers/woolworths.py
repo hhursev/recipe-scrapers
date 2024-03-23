@@ -44,8 +44,6 @@ class Woolworths(AbstractScraper):
     def language(self):
         return "en-AU"
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def site_name(self):
         return "Woolworths | Fresh Ideas For You"

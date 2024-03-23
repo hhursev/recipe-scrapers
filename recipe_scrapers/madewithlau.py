@@ -48,6 +48,3 @@ class MadeWithLau(AbstractScraper):
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()

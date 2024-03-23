@@ -28,6 +28,3 @@ class TheHappyFoodie(AbstractScraper):
             )
 
         return [normalize_string(f"{amount} {name}") for amount, name in ingredients]
-
-    def cuisine(self):
-        return self.schema.cuisine()

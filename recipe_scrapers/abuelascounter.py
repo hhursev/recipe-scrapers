@@ -16,6 +16,3 @@ class AbuelasCounter(AbstractScraper):
             ".ingredient-item-group-title",
             ".wpzoom-rcb-ingredient-name",
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()

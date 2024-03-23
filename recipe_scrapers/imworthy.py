@@ -7,8 +7,6 @@ class ImWorthy(AbstractScraper):
     def host(cls):
         return "im-worthy.com"
 
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return self.schema.description()
