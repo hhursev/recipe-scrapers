@@ -7,7 +7,3 @@ class TheKitchenCommunity(AbstractScraper):
     @classmethod
     def host(cls):
         return "thekitchencommunity.org"
-
-
-    def description(self):
-        return self.schema.description()

@@ -7,7 +7,3 @@ class SimpleVeganista(AbstractScraper):
     @classmethod
     def host(cls):
         return "simple-veganista.com"
-
-
-    def description(self):
-        return self.schema.description()

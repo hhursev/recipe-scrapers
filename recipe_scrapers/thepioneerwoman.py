@@ -21,7 +21,3 @@ class ThePioneerWoman(AbstractScraper):
 
     def prep_time(self):
         return self.schema.prep_time()
-
-
-    def description(self):
-        return self.schema.description()

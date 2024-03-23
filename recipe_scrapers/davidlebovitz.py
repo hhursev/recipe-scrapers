@@ -6,6 +6,3 @@ class DavidLebovitz(AbstractScraper):
     @classmethod
     def host(cls):
         return "davidlebovitz.com"
-
-    def description(self):
-        return self.schema.description()

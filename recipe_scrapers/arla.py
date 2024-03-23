@@ -15,7 +15,3 @@ class Arla(AbstractScraper):
             "div.u-mt--m > h5",
             "div.u-mt--m > table > tbody > tr",
         )
-
-
-    def description(self):
-        return self.schema.description()

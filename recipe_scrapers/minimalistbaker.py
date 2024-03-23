@@ -6,6 +6,3 @@ class Minimalistbaker(AbstractScraper):
     @classmethod
     def host(cls):
         return "minimalistbaker.com"
-
-    def description(self):
-        return self.schema.description()

@@ -22,7 +22,3 @@ class PlatingPixels(AbstractScraper):
             "h4.wprm-recipe-ingredient-group-name",
             "li.wprm-recipe-ingredient",
         )
-
-
-    def description(self):
-        return self.schema.description()

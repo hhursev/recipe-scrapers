@@ -20,8 +20,6 @@ class FattoInCasaDaBenedetta(AbstractScraper):
 
         return "\n".join(all_instructions)
 
-    def description(self):
-        return self.schema.description()
 
     def equipment(self):
         return list(

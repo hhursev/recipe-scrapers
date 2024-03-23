@@ -16,7 +16,3 @@ class BlueJeanChef(AbstractScraper):
             ".wprm-recipe-ingredient-group h5",
             ".wprm-recipe-ingredients li",
         )
-
-
-    def description(self):
-        return self.schema.description()

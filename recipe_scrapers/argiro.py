@@ -8,8 +8,6 @@ class Argiro(AbstractScraper):
         return "argiro.gr"
 
 
-    def description(self):
-        return self.schema.description()
 
     def equipment(self):
         equipment_items = [

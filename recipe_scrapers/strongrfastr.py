@@ -9,8 +9,6 @@ class StrongrFastr(AbstractScraper):
         return "strongrfastr.com"
 
 
-    def description(self):
-        return self.schema.description()
 
     def site_name(self):
         return "Strongr Fastr"

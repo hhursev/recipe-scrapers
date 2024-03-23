@@ -22,7 +22,3 @@ class OnceUponAChef(AbstractScraper):
             ".ingredients h4",
             "li.ingredient",
         )
-
-
-    def description(self):
-        return self.schema.description()

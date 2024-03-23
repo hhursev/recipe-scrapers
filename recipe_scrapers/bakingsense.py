@@ -18,8 +18,6 @@ class BakingSense(AbstractScraper):
         )
 
 
-    def description(self):
-        return self.schema.description()
 
     def equipment(self):
         equipment_items = [

@@ -26,7 +26,3 @@ class USAPears(AbstractScraper):
             normalize_string(paragraph.get_text().strip())
             for paragraph in ingredient_elements
         ]
-
-
-    def description(self):
-        return self.schema.description()

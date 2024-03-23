@@ -10,6 +10,3 @@ class Vegetarbloggen(AbstractScraper):
 
     def instructions(self):
         return self.schema.instructions().strip()
-
-    def description(self):
-        return self.schema.description()

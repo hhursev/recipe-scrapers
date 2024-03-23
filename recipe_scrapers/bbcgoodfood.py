@@ -15,6 +15,3 @@ class BBCGoodFood(AbstractScraper):
             ".recipe__ingredients h3",
             ".recipe__ingredients li",
         )
-
-    def description(self):
-        return self.schema.description()

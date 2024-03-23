@@ -8,8 +8,6 @@ class OneHundredOneCookBooks(AbstractScraper):
         return "101cookbooks.com"
 
 
-    def description(self):
-        return self.schema.description()
 
     def prep_time(self):
         return self.schema.prep_time()

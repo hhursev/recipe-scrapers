@@ -28,6 +28,3 @@ class ZauberTopf(AbstractScraper):
                     return "\n".join(
                         [li.get_text() for li in ol_element.find_all("li") if li.text]
                     )
-
-    def description(self):
-        return self.schema.description()

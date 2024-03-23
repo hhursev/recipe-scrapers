@@ -22,7 +22,3 @@ class SimplyCookit(AbstractScraper):
             instructions.append(normalize_string(li.get_text()))
 
         return "\n".join(instructions)
-
-
-    def description(self):
-        return self.schema.description()

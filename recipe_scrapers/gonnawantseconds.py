@@ -6,6 +6,3 @@ class GonnaWantSeconds(AbstractScraper):
     @classmethod
     def host(cls):
         return "gonnawantseconds.com"
-
-    def description(self):
-        return self.schema.description()

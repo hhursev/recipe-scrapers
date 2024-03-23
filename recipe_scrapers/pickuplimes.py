@@ -23,8 +23,6 @@ class PickUpLimes(AbstractScraper):
         return "\n".join(instructions) if instructions else None
 
 
-    def description(self):
-        return self.schema.description()
 
     def prep_time(self):
         return self.schema.prep_time()

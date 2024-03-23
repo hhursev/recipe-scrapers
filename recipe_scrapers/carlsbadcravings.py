@@ -16,7 +16,3 @@ class CarlsBadCravings(AbstractScraper):
             ".wprm-recipe-group-name.wprm-recipe-ingredient-group-name.wprm-block-text-bold",
             ".wprm-recipe-ingredient",
         )
-
-
-    def description(self):
-        return self.schema.description()

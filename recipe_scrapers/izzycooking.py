@@ -7,7 +7,3 @@ class IzzyCooking(AbstractScraper):
     @classmethod
     def host(cls):
         return "izzycooking.com"
-
-
-    def description(self):
-        return self.schema.description()

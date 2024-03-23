@@ -12,7 +12,3 @@ class TheExpertGuides(AbstractScraper):
 
     def cook_time(self):
         return self.schema.cook_time()
-
-
-    def description(self):
-        return self.schema.description()

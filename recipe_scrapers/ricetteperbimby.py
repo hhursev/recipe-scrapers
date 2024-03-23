@@ -16,7 +16,3 @@ class RicettePerBimby(AbstractScraper):
             ".ricetta-ingredienti .label",
             ".ricetta-ingredienti .ingrediente",
         )
-
-
-    def description(self):
-        return self.schema.description()

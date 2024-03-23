@@ -6,7 +6,3 @@ class Ica(AbstractScraper):
     @classmethod
     def host(cls):
         return "ica.se"
-
-
-    def description(self):
-        return self.schema.description()

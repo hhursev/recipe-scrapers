@@ -16,7 +16,3 @@ class StaySnatched(AbstractScraper):
             },
         )
         return author_element.find("a").get_text() if author_element else "Unknown"
-
-
-    def description(self):
-        return self.schema.description()

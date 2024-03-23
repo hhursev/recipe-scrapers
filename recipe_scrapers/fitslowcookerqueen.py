@@ -16,7 +16,3 @@ class FitSlowCookerQueen(AbstractScraper):
             ".tasty-recipes-ingredients h4",
             ".tasty-recipes-ingredients ul li",
         )
-
-
-    def description(self):
-        return self.schema.description()

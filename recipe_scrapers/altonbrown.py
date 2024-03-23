@@ -17,8 +17,6 @@ class AltonBrown(AbstractScraper):
         )
 
 
-    def description(self):
-        return self.schema.description()
 
     def equipment(self):
         return list(

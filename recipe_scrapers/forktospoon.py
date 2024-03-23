@@ -9,8 +9,6 @@ class ForkToSpoon(AbstractScraper):
         return "forktospoon.com"
 
 
-    def description(self):
-        return self.schema.description()
 
     def equipment(self):
         seen = set()

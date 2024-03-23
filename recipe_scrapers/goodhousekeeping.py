@@ -71,6 +71,3 @@ class GoodHousekeeping(AbstractScraper):
             for nutrient, quantity in nutrients.items()
             if quantity is not None
         }
-
-    def description(self):
-        return self.schema.description()

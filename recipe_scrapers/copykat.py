@@ -13,6 +13,3 @@ class CopyKat(AbstractScraper):
     @classmethod
     def host(cls):
         return "copykat.com"
-
-    def description(self):
-        return self.schema.description()

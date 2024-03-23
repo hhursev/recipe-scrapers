@@ -6,7 +6,3 @@ class ImWorthy(AbstractScraper):
     @classmethod
     def host(cls):
         return "im-worthy.com"
-
-
-    def description(self):
-        return self.schema.description()

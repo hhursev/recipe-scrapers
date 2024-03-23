@@ -7,6 +7,3 @@ class InsanelyGoodRecipes(AbstractScraper):
     @classmethod
     def host(cls):
         return "insanelygoodrecipes.com"
-
-    def description(self):
-        return self.schema.description()

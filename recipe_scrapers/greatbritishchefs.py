@@ -7,6 +7,3 @@ class GreatBritishChefs(AbstractScraper):
     @classmethod
     def host(cls):
         return "greatbritishchefs.com"
-
-    def description(self):
-        return self.schema.description()

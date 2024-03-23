@@ -24,7 +24,3 @@ class Ricetta(AbstractScraper):
             instructions_list.append(current_instruction.lstrip(" "))
 
         return "\n".join(instructions_list)
-
-
-    def description(self):
-        return self.schema.description()

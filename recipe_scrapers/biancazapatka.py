@@ -14,7 +14,3 @@ class BiancaZapatka(AbstractScraper):
             ".wprm-recipe-ingredient-group h4",
             ".wprm-recipe-ingredient-group li",
         )
-
-
-    def description(self):
-        return self.schema.description()

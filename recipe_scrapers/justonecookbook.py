@@ -21,7 +21,3 @@ class JustOneCookbook(AbstractScraper):
                 ingredient.append(normalize_string(span.get_text()))
             ingredients.append(" ".join(ingredient))
         return ingredients
-
-
-    def description(self):
-        return self.schema.description()

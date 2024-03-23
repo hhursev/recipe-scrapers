@@ -7,6 +7,3 @@ class Madsvin(AbstractScraper):
     @classmethod
     def host(cls):
         return "madsvin.com"
-
-    def description(self):
-        return self.schema.description()

@@ -59,7 +59,3 @@ class TineNo(AbstractScraper):
         return "\n".join(
             [i for i in self.schema.instructions().split("\n") if i != "Oppskrift"]
         )
-
-
-    def description(self):
-        return self.schema.description()

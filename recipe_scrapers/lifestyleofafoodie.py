@@ -10,8 +10,6 @@ class LifestyleOfAFoodie(AbstractScraper):
         return "lifestyleofafoodie.com"
 
 
-    def description(self):
-        return self.schema.description()
 
     def ingredient_groups(self):
         return group_ingredients(

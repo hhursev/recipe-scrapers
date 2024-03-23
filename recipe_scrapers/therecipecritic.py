@@ -10,7 +10,3 @@ class Therecipecritic(AbstractScraper):
 
     def author(self):
         return "The Recipe Critic"
-
-
-    def description(self):
-        return self.schema.description()

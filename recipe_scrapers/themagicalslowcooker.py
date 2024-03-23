@@ -16,7 +16,3 @@ class TheMagicalSlowCooker(AbstractScraper):
             ".wprm-recipe-ingredient-group h4",
             ".wprm-recipe-ingredients li",
         )
-
-
-    def description(self):
-        return self.schema.description()

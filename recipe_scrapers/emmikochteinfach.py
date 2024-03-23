@@ -8,8 +8,6 @@ class EmmiKochtEinfach(AbstractScraper):
         return "emmikochteinfach.de"
 
 
-    def description(self):
-        return self.schema.description()
 
     def cook_time(self):
         return self.schema.cook_time()

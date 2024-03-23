@@ -27,7 +27,3 @@ class AlbertHeijn(AbstractScraper):
 
         # try schema.org
         return self.schema.instructions()
-
-
-    def description(self):
-        return self.schema.description()

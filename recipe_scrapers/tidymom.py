@@ -16,7 +16,3 @@ class TidyMom(AbstractScraper):
             ".mv-create-ingredients h4",
             ".mv-create-ingredients li",
         )
-
-
-    def description(self):
-        return self.schema.description()

@@ -16,7 +16,3 @@ class ThePalatableLife(AbstractScraper):
             ".wprm-recipe-ingredient-group h4",
             ".wprm-recipe-ingredient",
         )
-
-
-    def description(self):
-        return self.schema.description()

@@ -16,7 +16,3 @@ class WeAreNotMartha(AbstractScraper):
             ".wprm-recipe-ingredient-group h4",
             "ul.wprm-recipe-ingredients li",
         )
-
-
-    def description(self):
-        return self.schema.description()

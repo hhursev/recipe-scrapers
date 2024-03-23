@@ -16,8 +16,6 @@ class AkisPetretzikis(AbstractScraper):
         return "akispetretzikis.com"
 
 
-    def description(self):
-        return self.schema.description()
 
     def language(self):
         return self.recipe_json["locale"]

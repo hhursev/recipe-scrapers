@@ -8,8 +8,6 @@ class SallysBakingAddiction(AbstractScraper):
         return "sallysbakingaddiction.com"
 
 
-    def description(self):
-        return self.schema.description()
 
     def prep_time(self):
         return self.schema.prep_time()

@@ -6,6 +6,3 @@ class GimmeSomeOven(AbstractScraper):
     @classmethod
     def host(cls):
         return "gimmesomeoven.com"
-
-    def description(self):
-        return self.schema.description()
