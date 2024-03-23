@@ -23,7 +23,7 @@ class NormalizeStringPlugin(PluginInterface):
     def run(cls, decorated):
         @functools.wraps(decorated)
         def decorated_method_wrapper(self, *args, **kwargs):
-            # TODO: write logging. Configure logging.
+            # TODO: Write logging. Configure logging.
             logger.setLevel(settings.LOG_LEVEL)
             class_name = self.__class__.__name__
             method_name = decorated.__name__
