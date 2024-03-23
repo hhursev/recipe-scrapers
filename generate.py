@@ -231,10 +231,10 @@ def main():
     host_name = get_host_name(url)
     testhtml = requests.get(url, headers=HEADERS).content
 
-    # generate_scraper(class_name, host_name)
+    generate_scraper(class_name, host_name)
     generate_scraper_test(class_name, host_name)
     generate_test_data(class_name, host_name, testhtml)
-    # init_scraper(class_name)
+    init_scraper(class_name)
 
 
 if __name__ == "__main__":
