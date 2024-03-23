@@ -32,11 +32,5 @@ class Breadtopia(AbstractScraper):
     def instructions(self):
         return self.schema.instructions()
 
-    def ratings(self):
-        return self.schema.ratings()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
     def description(self):
         return self.schema.description()
