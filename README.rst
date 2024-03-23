@@ -118,6 +118,7 @@ Scrapers available for:
 - `https://www.bodybuilding.com/ <https://www.bodybuilding.com/>`_
 - `https://bongeats.com/ <https://bongeats.com/>`_
 - `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
+- `https://https://breadtopia.com/ <https://breadtopia.com/>`_
 - `https://briceletbaklava.ch/ <https://briceletbaklava.ch/>`_
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
 - `https://carlsbadcravings.com/ <https://carlsbadcravings.com/>`_
