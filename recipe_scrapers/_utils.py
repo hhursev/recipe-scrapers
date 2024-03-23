@@ -100,6 +100,7 @@ def _extract_fractional(input_string: str) -> float:
 
     raise ValueError(f"Unrecognized fraction format: '{input_string}'")
 
+
 def get_minutes(element):
     if element is None:
         raise ElementNotFoundInHtml(element)
@@ -146,7 +147,7 @@ def get_minutes(element):
 def get_yields(element):
     """
     Returns a string indicating the number of servings or items for a recipe. It handles various formats,
-    including servings, items, and special cases like dozens and fractions (e.g., "1 ½ dozen cookies").
+    including servings, items, and special cases including dozens and fractions (e.g., "1 ½ dozen cookies").
     If the recipe specifies yields in terms of items (not servings), it returns a string in the format 
     "x item(s)" where x is the quantity. This function also handles yields specified in dozens, returning 
     them appropriately (e.g., "1.5 dozen cookies" instead of "18 items"), and incorporates fractional 
@@ -159,49 +160,64 @@ def get_yields(element):
     """
     if element is None:
         raise ElementNotFoundInHtml(element)
-    if isinstance(element, str):
-        serve_text = element
-    else:
-        serve_text = element.get_text()
-
+    serve_text = element if isinstance(element, str) else element.get_text()
     if SERVE_REGEX_TO.search(serve_text):
         serve_text = serve_text.split(SERVE_REGEX_TO.split(serve_text, 2)[1], 2)[1]
-
-    fraction_present = any(frac in serve_text for frac in FRACTIONS)
-    dozen_present = 'dozen' in serve_text.lower()
-
-    if fraction_present or dozen_present:
-        matched = _extract_fractional(" ".join(serve_text.split()[:2]))
+    fraction_present, dozen_present = (
+        any(frac in serve_text for frac in FRACTIONS),
+        "dozen" in serve_text.lower(),
+    )
+    matched = (
+        _extract_fractional(" ".join(serve_text.split()[:2]))
+        if fraction_present or dozen_present
+        else SERVE_REGEX_NUMBER.search(serve_text).groupdict().get("items") or 0
+    )
+    matched_str = (
+        str(matched).rstrip("0").rstrip(".") if "." in str(matched) else str(matched)
+    )
+    serve_text_lower, best_match = serve_text.lower(), None
+    if float(matched) != 0:
+        for singular, plural in RECIPE_YIELD_TYPES:
+            if (
+                singular in serve_text_lower
+                or plural in serve_text_lower
+                or (dozen_present and (singular == "dozen" or plural == "dozens"))
+            ):
+                post_dozen = (
+                    serve_text_lower.split("dozen", 1)[-1].strip()
+                    if dozen_present
+                    else ""
+                )
+                matched_plural = plural if float(matched) != 1 else singular
+                best_match = (
+                    f"{matched_str} dozen {matched_plural}"
+                    if dozen_present and not post_dozen
+                    else (
+                        f"{matched_str} dozen"
+                        if dozen_present
+                        else f"{matched_str} {matched_plural}"
+                    )
+                )
+                break
     else:
-        matched = SERVE_REGEX_NUMBER.search(serve_text).groupdict().get("items") or 0
+        best_match = next(
+            (
+                f"0 {plural}"
+                for singular, plural in RECIPE_YIELD_TYPES
+                if singular in serve_text_lower or plural in serve_text_lower
+            ),
+            None,
+        )
+    return (
+        best_match.strip()
+        if best_match
+        else (
+            f"{matched_str} item{'s' if float(matched) != 1 else ''}"
+            if SERVE_REGEX_ITEMS.search(serve_text)
+            else f"{matched_str} serving{'s' if float(matched) != 1 else ''}"
+        ).strip()
+    )
 
-    matched_str = str(matched).rstrip('0').rstrip('.') if '.' in str(matched) else str(matched)
-    serve_text_lower = serve_text.lower()
-
-    best_match = None
-    for singular, plural in RECIPE_YIELD_TYPES:
-        in_text = singular in serve_text_lower or plural in serve_text_lower
-        is_dozen = dozen_present and (singular == 'dozen' or plural == 'dozens')
-        if in_text or is_dozen:
-            if is_dozen:
-                post_dozen = serve_text_lower.split('dozen', 1)[-1].strip()
-                for s, p in RECIPE_YIELD_TYPES:
-                    if post_dozen.startswith(s) or post_dozen.startswith(p):
-                        best_match = f"{matched_str} dozen {p}"
-                        break
-                if not best_match:
-                    best_match = f"{matched_str} dozen"
-            else:
-                best_match = f"{matched_str} {plural if float(matched) != 1 else singular}"
-            break
-
-    if best_match:
-        return best_match.strip() 
-
-    if SERVE_REGEX_ITEMS.search(serve_text) is not None:
-        return f"{matched_str} item{'s' if float(matched) != 1 else ''}".strip()
-
-    return f"{matched_str} serving{'s' if float(matched) != 1 else ''}".strip()
 
 def get_equipment(equipment_items):
     # Removes duplicates from results and sorts them in order they appear on site.
