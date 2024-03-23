@@ -56,6 +56,16 @@ class TestUtils(unittest.TestCase):
         expected_result = "1.5 dozen cookies"
         self.assertEqual(expected_result, get_yields(input_string))
 
+    def test_get_yields_with_fraction(self):
+        input_string = "3 ½ dozen cookies"
+        expected_result = "3.5 dozen cookies"
+        self.assertEqual(expected_result, get_yields(input_string))
+
+    def test_get_yields_with_fraction(self):
+        input_string = "7 ⅕ chocolate cream pies"
+        expected_result = "7.2 pies"
+        self.assertEqual(expected_result, get_yields(input_string))
+
     def test_list_public_methods(self):
         from recipe_scrapers import AbstractScraper
 
