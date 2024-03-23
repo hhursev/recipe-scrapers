@@ -148,10 +148,10 @@ def get_yields(element):
     """
     Returns a string indicating the number of servings or items for a recipe. It handles various formats,
     including servings, items, and special cases including dozens and fractions (e.g., "1 ½ dozen cookies").
-    If the recipe specifies yields in terms of items (not servings), it returns a string in the format 
-    "x item(s)" where x is the quantity. This function also handles yields specified in dozens, returning 
-    them appropriately (e.g., "1.5 dozen cookies" instead of "18 items"), and incorporates fractional 
-    quantities with proper conversion. Additionally, it accommodates yields specified in other units 
+    If the recipe specifies yields in terms of items (not servings), it returns a string in the format
+    "x item(s)" where x is the quantity. This function also handles yields specified in dozens, returning
+    them appropriately (e.g., "1.5 dozen cookies" instead of "18 items"), and incorporates fractional
+    quantities with proper conversion. Additionally, it accommodates yields specified in other units
     like batches (e.g., "2 batches of brownies"), returning the yield as specified.
 
     :param element: Should ideally be BeautifulSoup.TAG. In some cases, where this is not feasible,
