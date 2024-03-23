@@ -55,7 +55,7 @@ class HTMLTagStripperPlugin(PluginInterface):
     defined above.
 
     It is intended to strip away <html><tags></tags></html> seen inside the strings.
-    We do not want em.
+    We do not want them.
     """
 
     decorate_hosts = ("*",)

@@ -1,6 +1,6 @@
 # mypy: allow-untyped-defs
 
-# generate generates a new recipe scraper.
+# generate.py generates a new recipe scraper.
 import ast
 import json
 import os
