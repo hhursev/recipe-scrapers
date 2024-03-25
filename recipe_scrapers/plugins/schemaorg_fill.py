@@ -14,7 +14,7 @@ class SchemaOrgFillPlugin(PluginInterface):
     """
     If any of the methods listed is invoked on a scraper class
     that happens not to be implement and Schema.org is available
-    attempt to return the result from the schema available.
+    attempt to return the results from the schema available.
     """
 
     run_on_hosts = ("*",)
