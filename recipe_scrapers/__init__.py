@@ -145,6 +145,7 @@ from .kochbucher import Kochbucher
 from .koket import Koket
 from .kptncook import KptnCook
 from .kuchniadomowa import KuchniaDomowa
+from .kuchynalidla import KuchynaLidla
 from .kwestiasmaku import KwestiaSmaku
 from .latelierderoxane import LAtelierDeRoxane
 from .leanandgreenrecipes import LeanAndGreenRecipes
@@ -372,6 +373,7 @@ SCRAPERS = {
     GrandFrais.host(): GrandFrais,
     HeatherChristo.host(): HeatherChristo,
     JoshuaWeissman.host(): JoshuaWeissman,
+    KuchynaLidla.host(): KuchynaLidla,
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     NutritionFacts.host(): NutritionFacts,
     PinchOfYum.host(): PinchOfYum,
