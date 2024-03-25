@@ -148,6 +148,7 @@ Scrapers available for:
 - `https://domesticate-me.com/ <https://domesticate-me.com/>`_
 - `https://downshiftology.com/ <https://downshiftology.com/>`_
 - `https://www.dr.dk/ <https://www.dr.dk/>`_
+- `https://drinkoteket.se/ <https://drinkoteket.se/>`_
 - `https://www.eatingbirdfood.com/ <https://www.eatingbirdfood.com>`_
 - `https://www.eatingwell.com/ <https://www.eatingwell.com>`_
 - `https://www.eatliverun.com/ <https://www.eatliverun.com/>`_
