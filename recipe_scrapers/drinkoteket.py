@@ -27,15 +27,18 @@ class Drinkoteket(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        # return self.schema.ingredients()
-        _ingredients = (
-            self.soup.find("ul", {"class": "ingredients"}).find_all("span").copy()
-        )
-        return [
-            " ".join([x.strip() for x in i.getText().split("\n") if x.strip() != ""])
-            for i in _ingredients
-            if len(i) != 1
-        ]
+        ingredients_element = self.soup.find("ul", {"class": "ingredients"})
+
+        ingredients_separator = ingredients_element.find("li", {"class": "separator"})
+
+        if ingredients_separator is not None:
+            separator_index = ingredients_element.index(ingredients_separator)
+            raw_list = ingredients_element.findAll("span")[0::2][:separator_index]
+        else:
+            raw_list = ingredients_element.findAll("span")[0::2]
+
+        ingredients = [i.getText().strip() for i in raw_list]
+        return ingredients
 
     def instructions(self):
         return self.schema.instructions()
