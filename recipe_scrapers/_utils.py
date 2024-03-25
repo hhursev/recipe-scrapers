@@ -224,7 +224,7 @@ def url_path_to_dict(path):
         r"(?P<host>[^:/]+)"
         r"(:(?P<port>\d+))?"
         r"(?P<path>/.*?)?"
-        r"(?P<query>\?.*?)?"
+        r"(?P<query>[?].*?)?"
         r"$"
     )
     regex = re.compile(pattern)
