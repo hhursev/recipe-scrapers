@@ -177,6 +177,7 @@ from .monsieurcuisine import MonsieurCuisine
 from .motherthyme import MotherThyme
 from .mundodereceitasbimby import MundoDeReceitasBimby
 from .mybakingaddiction import MyBakingAddiction
+from .myjewishlearning import MyJewishLearning
 from .mykitchen101 import MyKitchen101
 from .mykitchen101en import MyKitchen101en
 from .myrecipes import MyRecipes
@@ -377,6 +378,7 @@ SCRAPERS = {
     JoshuaWeissman.host(): JoshuaWeissman,
     KuchynaLidla.host(): KuchynaLidla,
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
+    MyJewishLearning.host(): MyJewishLearning,
     NutritionFacts.host(): NutritionFacts,
     PinchOfYum.host(): PinchOfYum,
     Recept.host(): Recept,

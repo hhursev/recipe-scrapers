@@ -266,6 +266,7 @@ Scrapers available for:
 - `http://motherthyme.com/ <http://motherthyme.com/>`_
 - `https://www.mundodereceitasbimby.com.pt/ <https://www.mundodereceitasbimby.com.pt/>`_
 - `https://mybakingaddiction.com/ <https://mybakingaddiction.com>`_
+- `https://myjewishlearning.com/ <https://myjewishlearning.com>`_
 - `https://mykitchen101.com/ <https://mykitchen101.com>`_
 - `https://mykitchen101en.com/ <https://mykitchen101en.com>`_
 - `https://www.myplate.gov/ <https://www.myplate.gov/>`_
