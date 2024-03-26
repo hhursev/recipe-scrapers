@@ -222,7 +222,7 @@ def url_path_to_dict(path):
         r"((?P<schema>.+?)://)?"
         r"((?P<user>.+?)(:(?P<password>.*?))?@)?"
         r"(?P<host>[^:/]+)"
-        r"(:(?P<port>\d+))?"
+        r"(:(?P<port>\d+?))?"
         r"(?P<path>/.*?)?"
         r"(?P<query>[?].*?)?"
         r"$"
