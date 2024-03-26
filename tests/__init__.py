@@ -10,7 +10,6 @@ MANDATORY_TESTS = [
     "author",
     "canonical_url",
     "host",
-    "description",
     "image",
     "ingredients",
     "ingredient_groups",
@@ -25,6 +24,7 @@ MANDATORY_TESTS = [
 
 OPTIONAL_TESTS = [
     "category",
+    "description",
     "cook_time",
     "cuisine",
     "nutrients",
@@ -90,6 +90,12 @@ def test_func_factory(
                         scraper_func(),
                         msg=f"The actual value for .{key}() did not match the expected value.",
                     )
+                else:
+                    with self.assertRaises(
+                        Exception,
+                        msg=f".{key}() was expected to raise an exception but it did not.",
+                    ):
+                        scraper_func()
 
         # Optional tests
         # If the key isn't present, skip
