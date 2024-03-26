@@ -1,6 +1,6 @@
 import unittest
 
-from recipe_scrapers._utils import _extract_fractional, get_minutes
+from recipe_scrapers._utils import _extract_fractional, get_minutes, url_path_to_dict
 
 
 class TestUtils(unittest.TestCase):
@@ -50,6 +50,19 @@ class TestUtils(unittest.TestCase):
         input_string = "3 1 / 2"
         expected_result = 3.5
         self.assertEqual(expected_result, _extract_fractional(input_string))
+
+    def test_url_path_to_dict(self):
+        input_path = "https://recipes:scraper@www.example.com:8080/path/to/resource?key=value"
+        expected_result = {
+            'schema': 'https',
+            'user': 'recipes',
+            'password': 'scraper',
+            'host': 'www.example.com',
+            'port': '8080',
+            'path': '/path/to/resource',
+            'query': '?key=value'
+        }
+        self.assertEqual(expected_result, url_path_to_dict(input_path))
 
     def test_list_public_methods(self):
         from recipe_scrapers import AbstractScraper
