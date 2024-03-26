@@ -1,10 +1,7 @@
 # mypy: disallow_untyped_defs=False
 
 import html
-import math
 import re
-
-import isodate
 
 from ._exceptions import ElementNotFoundInHtml
 
@@ -121,7 +118,6 @@ def get_minutes(element):
     else:
         raise ValueError("Unexpected format for time element")
 
-
     # attempt iso8601 duration parsing
     if "-" in time_text:  # sometimes formats are like this: '12-15 minutes'
         _min, _, time_text = time_text.partition("-")
@@ -150,6 +146,7 @@ def get_minutes(element):
     total_minutes = minutes + (hours * 60) + (days * 24 * 60) + (seconds / 60)
     # Rounding to the nearest whole number, considering seconds
     return round(total_minutes)
+
 
 def get_yields(element):
     """

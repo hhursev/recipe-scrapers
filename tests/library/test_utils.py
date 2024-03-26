@@ -32,7 +32,7 @@ class TestUtils(unittest.TestCase):
             ("15 - 20 minutes", 20),
             ("15 to 20 minutes", 20),
             ("Pá-Pum", None),
-            ("PT0M", None)
+            ("PT0M", None),
         ]
 
     def test_minutes_fixtures(self):
@@ -53,16 +53,18 @@ class TestUtils(unittest.TestCase):
         self.assertEqual(expected_result, _extract_fractional(input_string))
 
     def test_url_path_to_dict(self):
-        input_path = "https://recipes:scraper@www.example.com:8080/path/to/resource?key=value"
+        input_path = (
+            "https://recipes:scraper@www.example.com:8080/path/to/resource?key=value"
+        )
         expected_result = {
-            'schema': 'https',
-            'user': 'recipes',
-            'password': 'scraper',
-            'host': 'www.example.com',
-            'port': '8080',
-            'path': '/path/to/resource',
-            'query': '?key=value'
-        }   
+            "schema": "https",
+            "user": "recipes",
+            "password": "scraper",
+            "host": "www.example.com",
+            "port": "8080",
+            "path": "/path/to/resource",
+            "query": "?key=value",
+        }
         self.assertEqual(expected_result, url_path_to_dict(input_path))
 
     def test_list_public_methods(self):
