@@ -40,14 +40,6 @@ Returns the host of the website the Scraper class is for. This is a constant `st
 >>> scraper.host()
 'bbcgoodfood.com'
 ```
-### `description() -> str`
-
-Returns a description of the recipe. This is normally a sentence or short paragraph describing the recipe. Often the website defines the description, but sometimes it has to be inferred from the page content.
-
-```py
->>> scraper.description()
-'Let your little monsters do their worst, decorating these spooky Halloween treats'
-```
 
 ### `image() -> str`
 
@@ -245,6 +237,15 @@ Semi-structured field that can contain a mix of cuisine type (for example, count
 ```py
 >>> scraper.category()
 'Treat'
+```
+
+### `description() -> str`
+
+Returns a description of the recipe. This is normally a sentence or short paragraph describing the recipe. Often the website defines the description, but sometimes it has to be inferred from the page content.
+
+```py
+>>> scraper.description()
+'Let your little monsters do their worst, decorating these spooky Halloween treats'
 ```
 
 ### `cook_time() -> int`
