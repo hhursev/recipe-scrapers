@@ -29,7 +29,8 @@ FRACTIONS = {
 TIME_REGEX = re.compile(
     r"(?:\D*(?P<days>\d+)\s*(?:days|D))?"
     r"(?:\D*(?P<hours>[\d.\s/?¼½¾⅓⅔⅕⅖⅗]+)\s*(?:hours|hrs|hr|h|óra|:))?"
-    r"(?:\D*(?P<minutes>\d+)\s*(?:minutes|mins|min|m|perc|$))?",
+    r"(?:\D*(?P<minutes>\d+)\s*(?:minutes|mins|min|m|perc|$))?"
+    r"(?:\D*(?P<seconds>\d+)\s*(?:seconds|secs|sec|s))?",
     re.IGNORECASE,
 )
 SERVE_REGEX_NUMBER = re.compile(r"(\D*(?P<items>\d+)?\D*)")
@@ -106,29 +107,31 @@ def get_minutes(element):
     if element is None:
         raise ElementNotFoundInHtml(element)
 
-    # handle integer in string literal
+    # If element is a BeautifulSoup Tag, extract its text content
+    if hasattr(element, "text"):
+        element = element.text
+
     try:
         return int(element)
-    except Exception:
+    except ValueError:
         pass
 
     if isinstance(element, str):
         time_text = element
     else:
-        time_text = element.get_text()
+        raise ValueError("Unexpected format for time element")
+
 
     # attempt iso8601 duration parsing
-    if time_text.startswith("P") and "T" in time_text:
-        try:
-            duration = isodate.parse_duration(time_text)
-            return math.ceil(duration.total_seconds() / 60)
-        except Exception:
-            pass
-
     if "-" in time_text:  # sometimes formats are like this: '12-15 minutes'
         _min, _, time_text = time_text.partition("-")
     if " to " in time_text:  # sometimes formats are like this: '12 to 15 minutes'
         _min, _to, time_text = time_text.partition(" to ")
+    if "PT0M" in time_text:
+        time_text = None
+
+    if time_text is None:
+        return None
 
     time_units = TIME_REGEX.search(time_text).groupdict()
     if not any(time_units.values()):
@@ -137,12 +140,16 @@ def get_minutes(element):
     minutes_matched = time_units.get("minutes")
     hours_matched = time_units.get("hours")
     days_matched = time_units.get("days")
+    seconds_matched = time_units.get("seconds")
 
     days = float(days_matched) if days_matched else 0
     hours = _extract_fractional(hours_matched) if hours_matched else 0
     minutes = float(minutes_matched) if minutes_matched else 0
-    return minutes + round(hours * 60) + round(days * 24 * 60)
+    seconds = float(seconds_matched) if seconds_matched else 0
 
+    total_minutes = minutes + (hours * 60) + (days * 24 * 60) + (seconds / 60)
+    # Rounding to the nearest whole number, considering seconds
+    return round(total_minutes)
 
 def get_yields(element):
     """

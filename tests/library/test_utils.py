@@ -32,6 +32,7 @@ class TestUtils(unittest.TestCase):
             ("15 - 20 minutes", 20),
             ("15 to 20 minutes", 20),
             ("Pá-Pum", None),
+            ("PT0M", None)
         ]
 
     def test_minutes_fixtures(self):
@@ -61,7 +62,7 @@ class TestUtils(unittest.TestCase):
             'port': '8080',
             'path': '/path/to/resource',
             'query': '?key=value'
-        }
+        }   
         self.assertEqual(expected_result, url_path_to_dict(input_path))
 
     def test_list_public_methods(self):
