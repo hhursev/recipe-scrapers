@@ -37,44 +37,32 @@ then:
 
 .. code:: python
 
-    from recipe_scrapers import scrape_me
+    import requests
+    from recipe_scrapers import scrape_html
 
-    scraper = scrape_me('https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/')
+    # give the url as a string, it can be url from any site listed below
+    url = "https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/"
+    html = requests.get(url).content
+    scraper = scrape_html(html, org_url=url)
 
     # Q: What if the recipe site I want to extract information from is not listed below?
     # A: You can give it a try with the wild_mode option! If there is Schema/Recipe available it will work just fine.
-    scraper = scrape_me('https://www.feastingathome.com/tomato-risotto/', wild_mode=True)
+    url = 'https://www.feastingathome.com/tomato-risotto/'
+    html = requests.get(url).content
+    scraper = scrape_html(html, org_url=url, wild_mode=True)
 
-    scraper.host()
     scraper.title()
     scraper.total_time()
-    scraper.image()
-    scraper.ingredients()
-    scraper.ingredient_groups()
-    scraper.instructions()
-    scraper.instructions_list()
     scraper.yields()
+    scraper.ingredients()
+    scraper.instructions()  # or alternatively for results as a Python list: scraper.instructions_list()
+    scraper.image()
+    scraper.host()
     scraper.to_json()
     scraper.links()
     scraper.nutrients()  # not always available
     scraper.canonical_url()  # not always available
     scraper.equipment()  # not always available
-
-You also have an option to scrape html-like content
-
-.. code:: python
-
-    import requests
-    from recipe_scrapers import scrape_html
-
-    url = "https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/"
-    html = requests.get(url).content
-
-    scraper = scrape_html(html=html, org_url=url)
-
-    scraper.title()
-    scraper.total_time()
-    # etc...
 
 Notes:
 
@@ -171,7 +159,6 @@ Scrapers available for:
 - `https://food.com/ <https://www.food.com>`_
 - `https://food52.com/ <https://www.food52.com>`_
 - `https://foodandwine.com/ <https://www.foodandwine.com>`_
-- `https://foodnetwork.com/ <https://www.foodnetwork.com>`_
 - `https://foodrepublic.com/ <https://foodrepublic.com>`_
 - `https://www.forksoverknives.com/ <https://www.forksoverknives.com/>`_
 - `https://forktospoon.com/ <https://forktospoon.com/>`_
@@ -227,7 +214,6 @@ Scrapers available for:
 - `https://kochbar.de/ <https://kochbar.de>`_
 - `https://kochbucher.com/ <https://kochbucher.com/>`_
 - `http://koket.se/ <http://koket.se>`_
-- `https://www.kptncook.com/ <https://www.kptncook.com>`_
 - `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
 - `https://kuchynalidla.sk/ <https://www.kuchynalidla.sk/>`_
 - `https://www.kwestiasmaku.com/ <https://www.kwestiasmaku.com/>`_
@@ -244,13 +230,6 @@ Scrapers available for:
 - `https://madensverden.dk/ <https://madensverden.dk/>`_
 - `https://www.madewithlau.com/ <https://www.madewithlau.com/>`_
 - `https://madsvin.com/ <https://madsvin.com/>`_
-- `https://marleyspoon.com.au/ <https://marleyspoon.com.au/>`_
-- `https://marleyspoon.com/ <https://marleyspoon.com/>`_
-- `https://marleyspoon.de/ <https://marleyspoon.de/>`_
-- `https://marleyspoon.at/ <https://marleyspoon.at/>`_
-- `https://marleyspoon.be/ <https://marleyspoon.be/>`_
-- `https://marleyspoon.nl/ <https://marleyspoon.nl/>`_
-- `https://marleyspoon.se/ <https://marleyspoon.se/>`_
 - `https://marmiton.org/ <https://marmiton.org/>`_
 - `https://www.marthastewart.com/ <https://www.marthastewart.com/>`_
 - `https://matprat.no/ <https://matprat.no/>`_
@@ -388,7 +367,6 @@ Scrapers available for:
 - `https://www.wholefoodsmarket.co.uk/ <https://www.wholefoodsmarket.co.uk/>`_
 - `https://www.williams-sonoma.com/ <https://www.williams-sonoma.com/>`_
 - `https://woop.co.nz/ <https://woop.co.nz/>`_
-- `https://woolworths.com.au/shop/recipes <https://www.woolworths.com.au/shop/recipes/>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `https://yemek.com/ <https://yemek.com>`_
 - `https://yummly.com/ <https://yummly.com>`_ (*)
@@ -396,7 +374,7 @@ Scrapers available for:
 - `https://zeit.de/ (wochenmarkt) <https://www.zeit.de/zeit-magazin/wochenmarkt/index>`_
 - `https://zenbelly.com/ <https://zenbelly.com>`_
 
-(*) offline saved files only
+(*) offline saved files only. Page requires login
 
 
 Contribute
@@ -457,8 +435,10 @@ FAQ
 
 .. code:: python
 
-    from recipe_scrapers import scrape_me
-    scraper = scrape_me('<url of a recipe from the site>', wild_mode=True)
+    from recipe_scrapers import scrape_html
+    url = '<url of a recipe from the site>'
+    html = requests.get(url).content
+    scraper = scrape_html(html, org_url=url, wild_mode=True)
     # if no error is raised - there's schema available:
     scraper.title()
     scraper.instructions()  # etc.

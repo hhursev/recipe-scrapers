@@ -3,10 +3,10 @@ name: linters
 on:
   push:
     branches:
-      - main
+      - v15
   pull_request:
     branches:
-      - main
+      - v15
 
 jobs:
   linters:

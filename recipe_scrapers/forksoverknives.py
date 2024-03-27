@@ -1,6 +1,6 @@
 # mypy: disallow_untyped_defs=False
 import re
-from typing import Dict, Optional, Tuple, Union
+from typing import Optional, Union
 
 from ._abstract import AbstractScraper
 from ._schemaorg import SchemaOrg
@@ -24,19 +24,11 @@ class ForksOverKnives(AbstractScraper):
 
     def __init__(
         self,
+        html: Union[str, bytes],
         url: Union[str, None],
-        proxies: Optional[
-            Dict[str, str]
-        ] = None,  # allows us to specify optional proxy server
-        timeout: Optional[
-            Union[float, Tuple[float, float], Tuple[float, None]]
-        ] = None,  # allows us to specify optional timeout for request
         wild_mode: Optional[bool] = False,
-        html: Union[str, bytes, None] = None,
     ):
-        super().__init__(
-            url=url, proxies=proxies, timeout=timeout, wild_mode=wild_mode, html=html
-        )
+        super().__init__(url=url, wild_mode=wild_mode, html=html)
         self.schema = FOKSchema(self.page_data)
 
     def author(self):

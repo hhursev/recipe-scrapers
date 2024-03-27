@@ -1,10 +1,9 @@
 # mypy: disallow_untyped_defs=False
 import inspect
 from collections import OrderedDict
-from typing import Dict, List, Optional, Tuple, Union
+from typing import List, Optional, Union
 from urllib.parse import urljoin
 
-import requests
 from bs4 import BeautifulSoup
 
 from recipe_scrapers.settings import settings
@@ -23,30 +22,12 @@ class AbstractScraper:
 
     def __init__(
         self,
+        html: Union[str, bytes],
         url: Union[str, None],
-        proxies: Optional[
-            Dict[str, str]
-        ] = None,  # allows us to specify optional proxy server
-        timeout: Optional[
-            Union[float, Tuple[float, float], Tuple[float, None]]
-        ] = None,  # allows us to specify optional timeout for request
         wild_mode: Optional[bool] = False,
-        html: Union[str, bytes, None] = None,
     ):
-        if html:
-            self.page_data = html
-            self.url = url
-        else:
-            assert url is not None, "url required for fetching recipe data"
-            resp = requests.get(
-                url,
-                headers=HEADERS,
-                proxies=proxies,
-                timeout=timeout,
-            )
-            self.page_data = resp.content
-            self.url = resp.url
-
+        self.page_data = html
+        self.url = url
         self.wild_mode = wild_mode
         self.soup = BeautifulSoup(self.page_data, "html.parser")
         self.schema = SchemaOrg(self.page_data)

@@ -4,7 +4,7 @@ import contextlib
 from typing import Any
 
 from ._abstract import AbstractScraper
-from ._exceptions import NoSchemaFoundInWildMode, WebsiteNotImplementedError
+from ._exceptions import NoSchemaFoundInWildMode
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 from .aberlehome import AberleHome
@@ -57,7 +57,6 @@ from .cookingcircle import CookingCircle
 from .cookinglight import CookingLight
 from .cookpad import CookPad
 from .cooktalk import CookTalk
-from .coopse import CoopSE
 from .copykat import CopyKat
 from .costco import Costco
 from .countryliving import CountryLiving
@@ -106,7 +105,6 @@ from .godt import Godt
 from .gonnawantseconds import GonnaWantSeconds
 from .goodfooddiscoveries import GoodFoodDiscoveries
 from .goodhousekeeping import GoodHousekeeping
-from .goustojson import GoustoJson
 from .grandfrais import GrandFrais
 from .greatbritishchefs import GreatBritishChefs
 from .grimgrains import GrimGrains
@@ -144,7 +142,6 @@ from .kitchenstories import KitchenStories
 from .kochbar import Kochbar
 from .kochbucher import Kochbucher
 from .koket import Koket
-from .kptncook import KptnCook
 from .kuchniadomowa import KuchniaDomowa
 from .kuchynalidla import KuchynaLidla
 from .kwestiasmaku import KwestiaSmaku
@@ -161,7 +158,6 @@ from .maangchi import Maangchi
 from .madensverden import MadensVerden
 from .madewithlau import MadeWithLau
 from .madsvin import Madsvin
-from .marleyspoon import MarleySpoon
 from .marmiton import Marmiton
 from .marthastewart import MarthaStewart
 from .matprat import Matprat
@@ -173,7 +169,6 @@ from .ministryofcurry import MinistryOfCurry
 from .misya import Misya
 from .mob import Mob
 from .momswithcrockpots import MomsWithCrockPots
-from .monsieurcuisine import MonsieurCuisine
 from .motherthyme import MotherThyme
 from .mundodereceitasbimby import MundoDeReceitasBimby
 from .mybakingaddiction import MyBakingAddiction
@@ -301,7 +296,6 @@ from .whatsgabycooking import WhatsGabyCooking
 from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
 from .williamssonoma import WilliamsSonoma
-from .woolworths import Woolworths
 from .woop import Woop
 from .yemek import Yemek
 from .yummly import Yummly
@@ -361,7 +355,6 @@ SCRAPERS = {
     CookieAndKate.host(): CookieAndKate,
     CookingCircle.host(): CookingCircle,
     CookingLight.host(): CookingLight,
-    CoopSE.host(): CoopSE,
     CopyKat.host(): CopyKat,
     Costco.host(): Costco,
     CountryLiving.host(): CountryLiving,
@@ -424,7 +417,6 @@ SCRAPERS = {
     GonnaWantSeconds.host(): GonnaWantSeconds,
     GoodFoodDiscoveries.host(): GoodFoodDiscoveries,
     GoodHousekeeping.host(): GoodHousekeeping,
-    GoustoJson.host(): GoustoJson,
     GreatBritishChefs.host(): GreatBritishChefs,
     GrimGrains.host(): GrimGrains,
     GroupRecipes.host(): GroupRecipes,
@@ -476,8 +468,6 @@ SCRAPERS = {
     Kochbar.host(): Kochbar,
     Kochbucher.host(): Kochbucher,
     Koket.host(): Koket,
-    KptnCook.host(): KptnCook,
-    KptnCook.host(subdomain="sharing"): KptnCook,
     KuchniaDomowa.host(): KuchniaDomowa,
     KwestiaSmaku.host(): KwestiaSmaku,
     LAtelierDeRoxane.host(): LAtelierDeRoxane,
@@ -493,13 +483,6 @@ SCRAPERS = {
     MadensVerden.host(): MadensVerden,
     MadeWithLau.host(): MadeWithLau,
     Madsvin.host(): Madsvin,
-    MarleySpoon.host(): MarleySpoon,
-    MarleySpoon.host(domain="de"): MarleySpoon,
-    MarleySpoon.host(domain="com.au"): MarleySpoon,
-    MarleySpoon.host(domain="be"): MarleySpoon,
-    MarleySpoon.host(domain="nl"): MarleySpoon,
-    MarleySpoon.host(domain="at"): MarleySpoon,
-    MarleySpoon.host(domain="se"): MarleySpoon,
     Marmiton.host(): Marmiton,
     MarthaStewart.host(): MarthaStewart,
     Matprat.host(): Matprat,
@@ -512,7 +495,6 @@ SCRAPERS = {
     Mob.host(domain="mob.co.uk"): Mob,
     Mob.host(domain="mobkitchen.co.uk"): Mob,
     MomsWithCrockPots.host(): MomsWithCrockPots,
-    MonsieurCuisine.host(): MonsieurCuisine,
     MotherThyme.host(): MotherThyme,
     MyBakingAddiction.host(): MyBakingAddiction,
     MyKitchen101.host(): MyKitchen101,
@@ -634,7 +616,6 @@ SCRAPERS = {
     WilliamsSonoma.host(): WilliamsSonoma,
     Woop.host(): Woop,
     WikiCookbook.host(): WikiCookbook,
-    Woolworths.host(): Woolworths,
     Yemek.host(): Yemek,
     Yummly.host(): Yummly,
     ZauberTopf.host(): ZauberTopf,
@@ -652,24 +633,6 @@ def get_supported_urls() -> set[str]:
 def scraper_exists_for(url_path: str) -> bool:
     host_name = get_host_name(url_path)
     return host_name in get_supported_urls()
-
-
-def scrape_me(url_path: str, **options: Any) -> AbstractScraper:
-    host_name = get_host_name(url_path)
-
-    try:
-        scraper = SCRAPERS[host_name]
-    except KeyError:
-        if not options.get("wild_mode", False):
-            raise WebsiteNotImplementedError(host_name)
-        else:
-            options.pop("wild_mode")
-            wild_scraper = SchemaScraperFactory.generate(url_path, **options)
-            if not wild_scraper.schema.data:
-                raise NoSchemaFoundInWildMode(url_path)
-            return wild_scraper
-
-    return scraper(url_path, **options)
 
 
 def scrape_html(
@@ -710,5 +673,5 @@ def scrape_html(
     return scraper(url=org_url, html=html, **options)
 
 
-__all__ = ["scrape_me", "scrape_html"]
+__all__ = ["scrape_html"]
 name = "recipe_scrapers"
