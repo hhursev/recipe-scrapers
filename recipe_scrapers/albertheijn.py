@@ -1,11 +1,42 @@
 # mypy: disallow_untyped_defs=False
 import re
+from typing import Dict, Optional, Tuple, Union
+
+from requests import Session
 
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
+HEADERS = {
+    "Accept-Language": "nl",  # ah.nl seems to block any requests not having both these headers.
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0",
+}
+
 
 class AlbertHeijn(AbstractScraper):
+    def __init__(
+        self,
+        url: str,
+        proxies: Optional[
+            Dict[str, str]
+        ] = None,  # allows us to specify optional proxy server
+        timeout: Optional[
+            Union[float, Tuple[float, float], Tuple[float, None]]
+        ] = None,  # allows us to specify optional timeout for request
+        wild_mode: Optional[bool] = False,
+        html: Union[str, bytes, None] = None,
+    ) -> None:
+        if html is None:
+            with Session() as session:
+                session.proxies.update(proxies or {})
+                session.headers.update(HEADERS)
+
+                session.get(url, timeout=timeout)
+                html = session.get(url, timeout=timeout).content  # reload the page
+
+        # As the html content is provided, the parent will not query the page
+        super().__init__(url, proxies, timeout, wild_mode, html)
+
     @classmethod
     def host(cls):
         return "ah.nl"
