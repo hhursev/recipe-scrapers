@@ -69,6 +69,45 @@ Notes:
 - ``scraper.links()`` returns a list of dictionaries containing all of the <a> tag attributes. The attribute names are the dictionary keys.
 
 
+Migrating from v14:
+-------------------
+
+The parameters to the ``scrape_html`` function have been adjusted in v15 and are intended to make code that uses them more readable.  However, the changes should be considered ``breaking changes`` -- some applications may need to adjust their code to upgrade successfully.
+
+Here are some use-cases that we've anticipated and can provide migration paths for:
+
+
+Attempting to scrape from a website that has no specific scraper implemented
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code:: python
+
+    ## Legacy v14
+    html, url = ..., ...
+    if not scraper_exists_for(url):
+        scraper = scrape_html(html, url, wild_mode=True)
+
+    ## Migrated v15
+    html, url = ..., ...
+    scraper = scrape_html(html, url, offline=True, supported_only=False)
+
+
+Scraping a recipe URL on-demand
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Note**: these examples depend on the `requests <https://github.com/psf/requests/>`_ package; use 'pip install recipe-scrapers[online]' to ensure that it is installed as an extra dependency with v15.
+
+.. code:: python
+
+    ## Legacy v14
+    url = ...
+    scraper = scrape_me(url)
+
+    ## Migrated v15
+    url = ...
+    scraper = scrape_html(html=None, org_url=url, online=True)
+
+
 Scrapers available for:
 -----------------------
 
