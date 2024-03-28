@@ -1,7 +1,7 @@
 # mypy: disallow_untyped_defs=False
 import inspect
 from collections import OrderedDict
-from typing import List, Optional, Union
+from typing import List
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
@@ -18,17 +18,11 @@ HEADERS = {
 
 
 class AbstractScraper:
-    page_data: Union[str, bytes]
+    page_data: str
 
-    def __init__(
-        self,
-        html: Union[str, bytes],
-        url: Union[str, None],
-        wild_mode: Optional[bool] = False,
-    ):
+    def __init__(self, html: str, url: str):
         self.page_data = html
         self.url = url
-        self.wild_mode = wild_mode
         self.soup = BeautifulSoup(self.page_data, "html.parser")
         self.schema = SchemaOrg(self.page_data)
 
