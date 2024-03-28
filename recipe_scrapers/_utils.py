@@ -135,7 +135,8 @@ def get_minutes(element):
     if time_text.startswith("P") and "T" in time_text:
         try:
             duration = isodate.parse_duration(time_text)
-            return math.ceil(duration.total_seconds() / 60)
+            total_minutes = math.ceil(duration.total_seconds() / 60)
+            return None if total_minutes == 0 else total_minutes
         except Exception:
             pass
 
