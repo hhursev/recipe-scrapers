@@ -714,7 +714,7 @@ def scrape_html(
 
     host_name = get_host_name(org_url)
     if host_name in SCRAPERS:
-        return SCRAPERS[host_name](url=org_url, html=html)
+        return SCRAPERS[host_name](html=html, url=org_url)
 
     if supported_only in (None, True):
         msg = (
@@ -725,7 +725,7 @@ def scrape_html(
         )
         raise WebsiteNotImplementedError(msg)
 
-    schema_scraper = SchemaScraperFactory.generate(url=org_url, html=html)
+    schema_scraper = SchemaScraperFactory.generate(html=html, url=org_url)
     if schema_scraper.schema.data:
         return schema_scraper
 
