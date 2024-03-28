@@ -1,7 +1,10 @@
 # mypy: disallow_untyped_defs=False
 
 import html
+import math
 import re
+
+import isodate
 
 from ._exceptions import ElementNotFoundInHtml
 
@@ -113,10 +116,9 @@ def get_minutes(element):
     except ValueError:
         pass
 
-    if isinstance(element, str):
-        time_text = element
-    else:
+    if not isinstance(element, str):
         raise ValueError("Unexpected format for time element")
+    time_text = element
 
     # attempt iso8601 duration parsing
     if "-" in time_text:  # sometimes formats are like this: '12-15 minutes'
@@ -128,6 +130,14 @@ def get_minutes(element):
 
     if time_text is None:
         return None
+
+    # Attempt ISO8601 duration parsing
+    if time_text.startswith("P") and "T" in time_text:
+        try:
+            duration = isodate.parse_duration(time_text)
+            return math.ceil(duration.total_seconds() / 60)
+        except Exception:
+            pass
 
     time_units = TIME_REGEX.search(time_text).groupdict()
     if not any(time_units.values()):
