@@ -673,6 +673,7 @@ def scrape_html(
 
     Raises:
         NoSchemaFoundInWildMode: When no schema is found for an unsupported domain.
+        WebsiteNotImplementedError: When the recipe URL does not match any supported domains.
 
     Returns:
         AbstractScraper:
