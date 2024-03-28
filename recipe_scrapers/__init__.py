@@ -1,6 +1,11 @@
 from __future__ import annotations
 
-__all__ = ("NoSchemaFoundInWildMode", "WebsiteNotImplementedError", "scrape_html")
+__all__ = (
+    "AbstractScraper",
+    "NoSchemaFoundInWildMode",
+    "WebsiteNotImplementedError",
+    "scrape_html",
+)
 
 import warnings
 
