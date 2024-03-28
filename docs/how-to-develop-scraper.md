@@ -197,10 +197,10 @@ In some cases, a scraper is not able to support one or more of the mandatory fun
 You can check whether your scraper is passing the tests by running
 
 ```shell
-$ python -m unittest -k <test_file_name>
+$ python -m unittest -k <ClassName.lower()>
 ```
 
-where `myscraper` is the name of the json file without the `.json` extension.
+Where `ClassName` is the name that you used earlier to generate the scraper.
 
 > [!TIP]
 > It is also recommended that you manually test the scraper with a couple of different recipes from the website, to check that there aren't any special cases the scraper will need to handle. You don't need to create test cases for each of these.

@@ -225,6 +225,7 @@ def normalize_string(string):
         unescaped_string.replace("\xc2\xa0", " ")
         .replace("\xa0", " ")
         .replace("\u200b", "")
+        .replace("\r\n", " ")
         .replace("\n", " ")  # &nbsp;
         .replace("\t", " ")
         .strip(),
