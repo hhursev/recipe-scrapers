@@ -125,8 +125,6 @@ def get_minutes(element):
         _min, _, time_text = time_text.partition("-")
     if " to " in time_text:  # sometimes formats are like this: '12 to 15 minutes'
         _min, _to, time_text = time_text.partition(" to ")
-    if "PT0M" in time_text:
-        time_text = None
 
     if time_text is None:
         return None
