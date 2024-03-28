@@ -725,4 +725,3 @@ def scrape_html(
 
 
 __all__ = ["scrape_html"]
-name = "recipe_scrapers"
