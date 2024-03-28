@@ -55,6 +55,7 @@ from .bodybuilding import Bodybuilding
 from .bonappetit import BonAppetit
 from .bongeats import BongEats
 from .bowlofdelicious import BowlOfDelicious
+from .breadtopia import Breadtopia
 from .briceletbaklava import BricelEtBaklava
 from .budgetbytes import BudgetBytes
 from .carlsbadcravings import CarlsBadCravings
@@ -157,6 +158,7 @@ from .kochbar import Kochbar
 from .kochbucher import Kochbucher
 from .koket import Koket
 from .kuchniadomowa import KuchniaDomowa
+from .kuchynalidla import KuchynaLidla
 from .kwestiasmaku import KwestiaSmaku
 from .latelierderoxane import LAtelierDeRoxane
 from .leanandgreenrecipes import LeanAndGreenRecipes
@@ -185,6 +187,7 @@ from .momswithcrockpots import MomsWithCrockPots
 from .motherthyme import MotherThyme
 from .mundodereceitasbimby import MundoDeReceitasBimby
 from .mybakingaddiction import MyBakingAddiction
+from .myjewishlearning import MyJewishLearning
 from .mykitchen101 import MyKitchen101
 from .mykitchen101en import MyKitchen101en
 from .myrecipes import MyRecipes
@@ -350,6 +353,7 @@ SCRAPERS = {
     BonAppetit.host(): BonAppetit,
     BowlOfDelicious.host(): BowlOfDelicious,
     BongEats.host(): BongEats,
+    Breadtopia.host(): Breadtopia,
     BricelEtBaklava.host(): BricelEtBaklava,
     BudgetBytes.host(): BudgetBytes,
     CarlsBadCravings.host(): CarlsBadCravings,
@@ -380,7 +384,9 @@ SCRAPERS = {
     GrandFrais.host(): GrandFrais,
     HeatherChristo.host(): HeatherChristo,
     JoshuaWeissman.host(): JoshuaWeissman,
+    KuchynaLidla.host(): KuchynaLidla,
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
+    MyJewishLearning.host(): MyJewishLearning,
     NutritionFacts.host(): NutritionFacts,
     PinchOfYum.host(): PinchOfYum,
     Recept.host(): Recept,
@@ -413,6 +419,7 @@ SCRAPERS = {
     FoodAndWine.host(): FoodAndWine,
     FoodFidelity.host(): FoodFidelity,
     FoodNetwork.host(): FoodNetwork,
+    FoodNetwork.host(domain="com"): FoodNetwork,
     FoodRepublic.host(): FoodRepublic,
     ForkToSpoon.host(): ForkToSpoon,
     ForksOverKnives.host(): ForksOverKnives,
@@ -676,7 +683,7 @@ def scrape_html(
         WebsiteNotImplementedError: When the recipe URL does not match any supported domains.
 
     Returns:
-        AbstractScraper:
+        AbstractScraper: a scraper instance implementing AbstractScraper for the requested website.
     """
     if wild_mode is not None:
         msg = "The 'wild_mode' parameter is deprecated and may be removed in future."
