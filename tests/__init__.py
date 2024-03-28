@@ -77,7 +77,12 @@ def test_func_factory(
                 IngredientGroup(**group)
                 for group in expect.get("ingredient_groups", [])
             ]
-        actual = scrape_html(testhtml.read_text(encoding="utf-8"), host)
+        actual = scrape_html(
+            html=testhtml.read_text(encoding="utf-8"),
+            org_url=host,
+            online=False,
+            supported_only=False,
+        )
 
         # Mandatory tests
         # If the key isn't present, check an assertion is raised
