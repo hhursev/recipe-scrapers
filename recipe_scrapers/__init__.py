@@ -672,7 +672,7 @@ def scrape_html(
         wild_mode (bool | None): deprecated: whether to attempt scraping unsupported domains.
 
     Raises:
-        NoSchemaFoundInWildMode: If no schema is found for an unsupported domain.
+        NoSchemaFoundInWildMode: When no schema is found for an unsupported domain.
 
     Returns:
         AbstractScraper:
