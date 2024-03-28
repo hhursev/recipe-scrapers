@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+__all__ = ("NoSchemaFoundInWildMode", "WebsiteNotImplementedError", "scrape_html")
+
 import warnings
 
 try:
@@ -722,6 +724,3 @@ def scrape_html(
         return schema_scraper
 
     raise NoSchemaFoundInWildMode(org_url)
-
-
-__all__ = ["scrape_html"]
