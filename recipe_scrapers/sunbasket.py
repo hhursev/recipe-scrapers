@@ -9,18 +9,6 @@ class SunBasket(AbstractScraper):
     def host(cls, domain="com"):
         return f"sunbasket.{domain}"
 
-    def title(self):
-        return self.schema.title()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def _instructions_list(self):
         instructions_container = self.soup.find(
             "div", {"class": "instructions-container"}
@@ -47,6 +35,3 @@ class SunBasket(AbstractScraper):
     def instructions(self):
         data = self._instructions_list()
         return "\n".join(data) if data else None
-
-    def image(self):
-        return self.schema.image()

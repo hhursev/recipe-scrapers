@@ -11,24 +11,6 @@ class LeanAndGreenRecipes(AbstractScraper):
     def host(cls):
         return "leanandgreenrecipes.net"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         instructions = (
             self.soup.find("div", {"class": "item-list"}).find_next("ol").find_all("li")
@@ -36,9 +18,6 @@ class LeanAndGreenRecipes(AbstractScraper):
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
-
-    def ratings(self):
-        return self.schema.ratings()
 
     def cuisine(self):
         soup = BeautifulSoup(str(self.schema.cuisine()), features="html.parser")

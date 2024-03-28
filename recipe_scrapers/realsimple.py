@@ -10,15 +10,6 @@ class RealSimple(AbstractScraper):
     def host(cls):
         return "realsimple.com"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         yield_container = self.soup.find("div", string=re.compile(r"Yield:"))
         if yield_container and yield_container.parent:
@@ -40,6 +31,3 @@ class RealSimple(AbstractScraper):
             return extracted_ingredients
         else:
             return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()

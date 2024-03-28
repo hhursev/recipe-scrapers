@@ -9,17 +9,8 @@ class Yummly(AbstractScraper):
     def host(cls):
         return "yummly.com"
 
-    def title(self):
-        return self.schema.title()
-
     def author(self):
         return self.soup.find("a", {"class": "markdown-link"}).get_text()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
 
     def ingredients(self):
         ingredients = self.soup.findAll("li", {"class": "IngredientLine"})

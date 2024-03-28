@@ -21,9 +21,6 @@ class MyKitchen101(AbstractScraper):
     def yields(self):
         return get_yields(self.soup.find("p", string=re.compile("分量：")).get_text())
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         soup = BeautifulSoup(str(self.soup), features="html.parser")
         ingredients = (

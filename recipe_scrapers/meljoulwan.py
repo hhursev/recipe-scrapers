@@ -62,9 +62,6 @@ class Meljoulwan(AbstractScraper):
 
         return get_yields(matches.group(1))
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ul_list = self.soup.find("div", {"class": "tabbed-list"}).findChildren("ul")
 

@@ -44,9 +44,6 @@ class Tofoo(AbstractScraper):
 
         return prep_time + cooking_time  # Return the summed time in minutes
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredients_div = self.soup.find("div", {"class": "block-raw-material__body"})
         ingredients = [li.get_text() for li in ingredients_div.find_all("li")]

@@ -7,21 +7,6 @@ class CuisineAZ(AbstractScraper):
     def host(cls):
         return "cuisineaz.com"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredients_list = self.schema.ingredients()
 
@@ -30,9 +15,3 @@ class CuisineAZ(AbstractScraper):
             return ingredients_list[1:]
 
         return ingredients_list
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def ratings(self):
-        return self.schema.ratings()

@@ -11,15 +11,6 @@ class TastyKitchen(AbstractScraper):
     def title(self):
         return self.soup.find("h1", {"itemprop": "name"}).get_text()
 
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredients = self.soup.find("ul", {"class": "ingredients"}).findAll("li")
 

@@ -11,15 +11,6 @@ class JoshuaWeissman(AbstractScraper):
     def host(cls):
         return "joshuaweissman.com"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def category(self):
-        return self.schema.category()
-
     def total_time(self):
         # Get all spans and get their text
         spans = self.soup.findAll(name="span")
@@ -60,9 +51,6 @@ class JoshuaWeissman(AbstractScraper):
             )
         )
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredients = [
             li.get_text() for ul in self.soup.findAll("ul") for li in ul.findAll("li")
@@ -93,12 +81,6 @@ class JoshuaWeissman(AbstractScraper):
         ]
 
         return "\n".join(instructions)
-
-    def ratings(self):
-        return self.schema.ratings()
-
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return self.soup.find(id="viewer-foo").get_text()

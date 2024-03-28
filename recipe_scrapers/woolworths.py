@@ -35,44 +35,8 @@ class Woolworths(AbstractScraper):
     def canonical_url(self):
         return self.url
 
-    def title(self):
-        return self.schema.title()
-
-    def category(self):
-        return self.schema.category()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def cook_time(self):
-        return self.schema.cook_time()
-
-    def prep_time(self):
-        return self.schema.prep_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def nutrients(self):
-        return self.schema.nutrients()
-
     def language(self):
         return "en-AU"
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def author(self):
-        return self.schema.author()
-
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def site_name(self):
         return "Woolworths | Fresh Ideas For You"

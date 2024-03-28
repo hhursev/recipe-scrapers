@@ -12,9 +12,6 @@ class RosannaPansino(AbstractScraper):
     def title(self):
         return self.soup.find("meta", {"property": "og:title"})["content"]
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredients = (
             self.soup.find("div", {"class": "recipe-left"})

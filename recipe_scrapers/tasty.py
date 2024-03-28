@@ -6,21 +6,3 @@ class Tasty(AbstractScraper):
     @classmethod
     def host(cls):
         return "tasty.co"
-
-    def title(self):
-        return self.schema.title()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def ratings(self):
-        return self.schema.ratings()

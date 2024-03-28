@@ -68,12 +68,6 @@ class LekkerEnSimpel(AbstractScraper):
 
         raise ElementNotFoundInHtml("Could not find instructions.")
 
-    def ratings(self):
-        return self.schema.ratings()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
     def description(self):
         try:
             return self.schema.description()

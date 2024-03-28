@@ -34,9 +34,6 @@ class KeukenLiefdeNL(AbstractScraper):
 
         return None
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredents_container = self.soup.find("div", {"id": "clipboard-ingredients"})
         if ingredents_container:

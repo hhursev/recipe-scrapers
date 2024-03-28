@@ -27,12 +27,6 @@ class Lecker(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def prep_time(self):
-        return self.schema.prep_time()
-
-    def cook_time(self):
-        return self.schema.cook_time()
-
     def total_time(self):
         return self.schema.total_time()
 
@@ -72,9 +66,6 @@ class Lecker(AbstractScraper):
                             instructions.append(element.text)
 
                     return "\n".join(instructions)
-
-    def ratings(self):
-        return self.schema.ratings()
 
     def nutrients(self):
         return self.schema.nutrients()

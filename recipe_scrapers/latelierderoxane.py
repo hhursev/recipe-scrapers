@@ -8,9 +8,6 @@ class LAtelierDeRoxane(AbstractScraper):
     def host(cls):
         return "latelierderoxane.com"
 
-    def image(self):
-        return self.schema.image()
-
     def title(self):
         div = self.soup.find("div", {"class": "bloc_titreh1 bloc_blog"})
         return div.find("h1").get_text()
