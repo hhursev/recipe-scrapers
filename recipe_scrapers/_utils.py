@@ -9,21 +9,30 @@ import isodate
 from ._exceptions import ElementNotFoundInHtml
 
 FRACTIONS = {
+    "½": 0.5,
+    "⅓": 1 / 3,
+    "⅔": 2 / 3,
     "¼": 0.25,
-    "½": 0.50,
     "¾": 0.75,
-    "⅓": 0.33,
-    "⅔": 0.66,
-    "⅕": 0.20,
-    "⅖": 0.40,
-    "⅗": 0.60,
+    "⅕": 0.2,
+    "⅖": 0.4,
+    "⅗": 0.6,
+    "⅘": 0.8,
+    "⅙": 1 / 6,
+    "⅚": 5 / 6,
+    "⅛": 0.125,
+    "⅜": 0.375,
+    "⅝": 0.625,
+    "⅞": 0.875,
 }
 
 TIME_REGEX = re.compile(
-    r"(\D*(?P<days>\d+)\s*(days|D))?(\D*(?P<hours>[\d.\s/?¼½¾⅓⅔⅕⅖⅗]+)\s*(hours|hrs|hr|h|óra|:))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|perc|$))?",
+    r"(?:\D*(?P<days>\d+)\s*(?:days|D))?"
+    r"(?:\D*(?P<hours>[\d.\s/?¼½¾⅓⅔⅕⅖⅗]+)\s*(?:hours|hrs|hr|h|óra|:))?"
+    r"(?:\D*(?P<minutes>\d+)\s*(?:minutes|mins|min|m|perc|$))?"
+    r"(?:\D*(?P<seconds>\d+)\s*(?:seconds|secs|sec|s))?",
     re.IGNORECASE,
 )
-
 SERVE_REGEX_NUMBER = re.compile(r"(\D*(?P<items>\d+)?\D*)")
 
 SERVE_REGEX_ITEMS = re.compile(
@@ -65,50 +74,69 @@ RECIPE_YIELD_TYPES = (
 
 def _extract_fractional(input_string: str) -> float:
     input_string = input_string.strip()
-    if "/" in input_string:
-        # for example "1 1/2" is matched
-        components = input_string.split(" ")
-        whole_part, fractional_part = components[0], components[-1]
+
+    # Handling mixed numbers with unicode fractions e.g., '1⅔'
+    for unicode_fraction, fraction_part in FRACTIONS.items():
+        if unicode_fraction in input_string:
+            whole_number_part, _, _ = input_string.partition(unicode_fraction)
+
+            whole_number = float(whole_number_part or 0)
+            return whole_number + fraction_part
+
+    if input_string in FRACTIONS:
+        return FRACTIONS[input_string]
+
+    try:
+        return float(input_string)
+    except ValueError:
+        pass
+
+    if " " in input_string and "/" in input_string:
+        whole_part, fractional_part = input_string.split(" ", 1)
         numerator, denominator = fractional_part.split("/")
-        return float(whole_part) + float(int(numerator) / int(denominator))
+        return float(whole_part) + float(numerator) / float(denominator)
 
-    whole_part, fractional_amount = "", 0.0
-    for symbol in input_string:
-        if symbol in FRACTIONS:
-            fractional_amount += FRACTIONS[symbol]
-        else:
-            whole_part += symbol
+    elif "/" in input_string:
+        numerator, denominator = input_string.split("/")
+        return float(numerator) / float(denominator)
 
-    return float(whole_part) + float(fractional_amount)
+    raise ValueError(f"Unrecognized fraction format: '{input_string}'")
 
 
 def get_minutes(element):
     if element is None:
         raise ElementNotFoundInHtml(element)
 
-    # handle integer in string literal
+    # If element is a BeautifulSoup Tag, extract its text content
+    if hasattr(element, "text"):
+        element = element.text
+
     try:
         return int(element)
-    except Exception:
+    except ValueError:
         pass
 
-    if isinstance(element, str):
-        time_text = element
-    else:
-        time_text = element.get_text()
+    if not isinstance(element, str):
+        raise ValueError("Unexpected format for time element")
+    time_text = element
 
     # attempt iso8601 duration parsing
-    if time_text.startswith("P") and "T" in time_text:
-        try:
-            duration = isodate.parse_duration(time_text)
-            return math.ceil(duration.total_seconds() / 60)
-        except Exception:
-            pass
-
     if "-" in time_text:  # sometimes formats are like this: '12-15 minutes'
         _min, _, time_text = time_text.partition("-")
     if " to " in time_text:  # sometimes formats are like this: '12 to 15 minutes'
         _min, _to, time_text = time_text.partition(" to ")
+
+    if time_text is None:
+        return None
+
+    # Attempt ISO8601 duration parsing
+    if time_text.startswith("P") and "T" in time_text:
+        try:
+            duration = isodate.parse_duration(time_text)
+            total_minutes = math.ceil(duration.total_seconds() / 60)
+            return None if total_minutes == 0 else total_minutes
+        except Exception:
+            pass
 
     time_units = TIME_REGEX.search(time_text).groupdict()
     if not any(time_units.values()):
@@ -117,12 +145,16 @@ def get_minutes(element):
     minutes_matched = time_units.get("minutes")
     hours_matched = time_units.get("hours")
     days_matched = time_units.get("days")
+    seconds_matched = time_units.get("seconds")
 
-    # workaround for formats like: 0D4H45M, that are not a valid iso8601 it seems
     days = float(days_matched) if days_matched else 0
-    hours = float(_extract_fractional(hours_matched)) if hours_matched else 0
+    hours = _extract_fractional(hours_matched) if hours_matched else 0
     minutes = float(minutes_matched) if minutes_matched else 0
-    return minutes + round(hours * 60) + round(days * 24 * 60)
+    seconds = float(seconds_matched) if seconds_matched else 0
+
+    total_minutes = minutes + (hours * 60) + (days * 24 * 60) + (seconds / 60)
+    # Rounding to the nearest whole number, considering seconds
+    return round(total_minutes)
 
 
 def get_yields(element):
@@ -203,7 +235,7 @@ def url_path_to_dict(path):
         r"^"
         r"((?P<schema>.+?)://)?"
         r"((?P<user>.+?)(:(?P<password>.*?))?@)?"
-        r"(?P<host>.*?)"
+        r"(?P<host>[^:/]+)"
         r"(:(?P<port>\d+?))?"
         r"(?P<path>/.*?)?"
         r"(?P<query>[?].*?)?"
@@ -211,9 +243,7 @@ def url_path_to_dict(path):
     )
     regex = re.compile(pattern)
     matches = regex.match(path)
-    url_dict = matches.groupdict() if matches is not None else None
-
-    return url_dict
+    return matches.groupdict() if matches else None
 
 
 def get_host_name(url):
@@ -229,15 +259,13 @@ def change_keys(obj, convert):
     Credit: StackOverflow user 'baldr'
     (https://web.archive.org/web/20201022163147/https://stackoverflow.com/questions/11700705/python-recursively-replace
         -character-in-keys-of-nested-dictionary/33668421)
+
+    Note: with modifications applied.
     """
-    if isinstance(obj, (str, int, float)):
-        return obj
     if isinstance(obj, dict):
-        new = obj.__class__()
-        for k, v in obj.items():
-            new[convert(k)] = change_keys(v, convert)
+        return {convert(k): change_keys(v, convert) for k, v in obj.items()}
     elif isinstance(obj, (list, set, tuple)):
-        new = obj.__class__(change_keys(v, convert) for v in obj)
+        cls = type(obj)
+        return cls(change_keys(item, convert) for item in obj)
     else:
         return obj
-    return new
