@@ -10,33 +10,6 @@ class MadeWithLau(AbstractScraper):
     def host(cls):
         return "madewithlau.com"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def description(self):
-        return self.schema.description()
-
-    def cook_time(self):
-        return self.schema.cook_time()
-
-    def prep_time(self):
-        return self.schema.prep_time()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         # collect headers
         headers = [
@@ -66,9 +39,3 @@ class MadeWithLau(AbstractScraper):
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def category(self):
-        return self.schema.category()

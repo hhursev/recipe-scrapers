@@ -8,12 +8,6 @@ class FoodAndWine(AbstractScraper):
     def host(cls):
         return "foodandwine.com"
 
-    def title(self):
-        return self.schema.title()
-
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         yield_label = self.soup.find(
             "div", {"class": "mntl-recipe-details__label"}, string="Yield:"
@@ -24,12 +18,3 @@ class FoodAndWine(AbstractScraper):
             )
             if yield_value:
                 return get_yields(normalize_string(yield_value.text))
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()

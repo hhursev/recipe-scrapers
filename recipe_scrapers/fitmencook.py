@@ -8,9 +8,6 @@ class FitMenCook(AbstractScraper):
     def host(cls):
         return "fitmencook.com"
 
-    def title(self):
-        return self.schema.title()
-
     def total_time(self):
         total_time_element = self.soup.find("div", {"class": "fmc_total"})
         if total_time_element:
@@ -37,6 +34,3 @@ class FitMenCook(AbstractScraper):
             for ingredient in ingredients
             if ingredient.find("strong") is None
         ]
-
-    def instructions(self):
-        return self.schema.instructions()

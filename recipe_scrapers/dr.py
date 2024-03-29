@@ -21,9 +21,6 @@ class Dr(AbstractScraper):
         )
         return author_span.get_text() if author_span else None
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredients_divs = self.soup.findAll("div", {"class": "dre-list dre-variables"})
         ingredients_list = []

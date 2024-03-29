@@ -29,9 +29,6 @@ class Chefnini(AbstractScraper):
         servings = re.match(r"Pour (\d+)", recipe_yields_text).group(1)
         return f"{servings} servings"
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredients = self.soup.findAll("li", {"itemprop": "ingredients"})
         return [ingredient.get_text() for ingredient in ingredients]
