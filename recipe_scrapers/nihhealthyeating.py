@@ -24,7 +24,7 @@ class NIHHealthyEating(AbstractScraper):
             raise ElementNotFoundInHtml("Table with times was not found.")
 
         return sum(
-            [get_minutes(td) for td in time_table.find_all("td") if get_minutes(td)]
+            get_minutes(td) for td in time_table.find_all("td") if get_minutes(td)
         )
 
     def yields(self):

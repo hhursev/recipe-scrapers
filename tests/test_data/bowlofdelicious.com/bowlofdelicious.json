@@ -2,6 +2,7 @@
   "author": "Elizabeth Lindemann",
   "canonical_url": "https://www.bowlofdelicious.com/six-minute-seared-ahi-tuna-steaks/",
   "category": "Fish",
+  "description": "These seared ahi tuna steaks take only 6 minutes to make- they're healthy, crispy and seared on the outside, and medium-rare on the inside, and bursting with umami flavor!",
   "host": "bowlofdelicious.com",
   "image": "https://www.bowlofdelicious.com/wp-content/uploads/2019/09/Ahi-Tuna-Steaks-square.jpg",
   "ingredient_groups": [
@@ -56,5 +57,8 @@
   "site_name": "Bowl of Delicious",
   "title": "Six-Minute Seared Ahi Tuna Steaks",
   "total_time": 6,
-  "yields": "2 servings"
+  "yields": "2 servings",
+  "equipment": [
+    "Nonstick Skillet"
+  ]
 }

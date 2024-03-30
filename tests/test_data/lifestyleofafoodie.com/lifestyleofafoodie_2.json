@@ -33,10 +33,12 @@
     "in a small bowl mix the ketchup and horse radish together until well incorporated. Dip your french fries in it and enjoy!"
   ],
   "language": "en-US",
-  "nutrients": {},
   "ratings": 5.0,
   "site_name": "Lifestyle of a Foodie",
   "title": "Crispy air fryer frozen french fries",
   "total_time": 13,
-  "yields": "4 servings"
+  "yields": "4 servings",
+  "equipment": [
+    "Ninja air fryer"
+  ]
 }

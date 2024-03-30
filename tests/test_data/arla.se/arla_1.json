@@ -14,7 +14,12 @@
         "1 dl riven Arla Präst® ost",
         "8 skivor surdegsbröd",
         "50 g Svenskt Smör från Arla®, smält",
-        "4 saltgurkor",
+        "4 saltgurkor"
+      ],
+      "purpose": ""
+    },
+    {
+      "ingredients": [
         "1 schalottenlök",
         "½ grön paprika",
         "1 dl majonnäs",
@@ -23,7 +28,7 @@
         "1 tsk dijonsenap",
         "½ krm tabasco"
       ],
-      "purpose": null
+      "purpose": "Dressing:"
     }
   ],
   "ingredients": [
@@ -57,7 +62,6 @@
     "calories": "920 kcal",
     "carbohydrateContent": "49 g",
     "fatContent": "61 g",
-    "fiberContent": "",
     "proteinContent": "43 g"
   },
   "ratings": 4.2,

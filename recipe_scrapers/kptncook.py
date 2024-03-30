@@ -82,17 +82,19 @@ class KptnCook(AbstractScraper):
                 # The filter is needed because "measure" and "quantity" fields are not always provided
                 filter(
                     None,
-                    [
-                        ingredient.get("quantity"),
-                        ingredient.get("measure"),
-                        ingredient["ingredient"]["title"],
-                    ]
-                    if self.lang not in IMPERIAL_LANGUAGES
-                    else [
-                        ingredient.get("quantityUS"),
-                        ingredient.get("measureUS"),
-                        ingredient["ingredient"]["title"],
-                    ],
+                    (
+                        [
+                            ingredient.get("quantity"),
+                            ingredient.get("measure"),
+                            ingredient["ingredient"]["title"],
+                        ]
+                        if self.lang not in IMPERIAL_LANGUAGES
+                        else [
+                            ingredient.get("quantityUS"),
+                            ingredient.get("measureUS"),
+                            ingredient["ingredient"]["title"],
+                        ]
+                    ),
                 )
             )
             for ingredient in self.recipe_json["ingredients"]

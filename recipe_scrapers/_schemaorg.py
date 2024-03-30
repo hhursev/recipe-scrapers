@@ -1,7 +1,7 @@
 # mypy: disallow_untyped_defs=False
 # IF things in this file continue get messy (I'd say 300+ lines) it may be time to
 # find a package that parses https://schema.org/Recipe properly (or create one ourselves).
-
+from __future__ import annotations
 
 from itertools import chain
 
@@ -70,7 +70,7 @@ class SchemaOrg:
                         self.ratingsdata[rating_id] = rating
 
         for syntax in SYNTAXES:
-            # make sure entries of type Recipe are always parsed first
+            # Make sure entries of type Recipe are always parsed first
             syntax_data = data.get(syntax, [])
             try:
                 index = [x.get("@type", "") for x in syntax_data].index("Recipe")
@@ -126,35 +126,42 @@ class SchemaOrg:
         if author:
             return author.strip()
 
+    def _read_duration_field(self, k: str) -> int | None:
+        v = self.data.get(k)
+        if v is None:
+            return None
+        if isinstance(v, str):
+            return get_minutes(v)
+        # Workaround: strictly speaking schema.org does not provide for minValue and maxValue properties on objects of type Duration; they are however present on objects with type QuantitativeValue
+        # Refs:
+        #  - https://schema.org/Duration
+        #  - https://schema.org/QuantitativeValue
+        if isinstance(v, dict) and v.get("maxValue"):
+            return get_minutes(v["maxValue"])
+        return None
+
     def total_time(self):
         if not (self.data.keys() & {"totalTime", "prepTime", "cookTime"}):
             raise SchemaOrgException("Cooking time information not found in SchemaOrg")
 
-        def get_key_and_minutes(k):
-            source = self.data.get(k)
-            # Workaround: strictly speaking schema.org does not provide for minValue (and maxValue) properties on objects of type Duration; they are however present on objects with type QuantitativeValue
-            # Refs:
-            #  - https://schema.org/Duration
-            #  - https://schema.org/QuantitativeValue
-            if type(source) is dict and "minValue" in source:
-                source = source["minValue"]
-            return get_minutes(source, return_zero_on_not_found=True)
+        total_time = self._read_duration_field("totalTime")
+        if total_time:
+            return total_time
 
-        total_time = get_key_and_minutes("totalTime")
-        if not total_time:
-            times = list(map(get_key_and_minutes, ["prepTime", "cookTime"]))
-            total_time = sum(times)
-        return total_time
+        prep_time = self._read_duration_field("prepTime") or 0
+        cook_time = self._read_duration_field("cookTime") or 0
+        if prep_time or cook_time:
+            return prep_time + cook_time
 
     def cook_time(self):
         if not (self.data.keys() & {"cookTime"}):
             raise SchemaOrgException("Cooktime information not found in SchemaOrg")
-        return get_minutes(self.data.get("cookTime"), return_zero_on_not_found=True)
+        return self._read_duration_field("cookTime")
 
     def prep_time(self):
         if not (self.data.keys() & {"prepTime"}):
             raise SchemaOrgException("Preptime information not found in SchemaOrg")
-        return get_minutes(self.data.get("prepTime"), return_zero_on_not_found=True)
+        return self._read_duration_field("prepTime")
 
     def yields(self):
         if not (self.data.keys() & {"recipeYield", "yield"}):
@@ -179,8 +186,8 @@ class SchemaOrg:
             image = image.get("url")
 
         if "http://" not in image and "https://" not in image:
-            # some sites give image path relative to the domain
-            # in cases like this handle image url with class methods or og link
+            # Some sites use relative image paths;
+            # prefer generic image retrieval code in those cases.
             image = ""
 
         return image
@@ -202,19 +209,17 @@ class SchemaOrg:
 
     def nutrients(self):
         nutrients = self.data.get("nutrition", {})
+        cleaned_nutrients = {}
 
-        # Some recipes contain null or numbers which breaks normalize_string()
-        # We'll ignore null and convert numbers to a string, like Schema validator does
-        for key, val in nutrients.copy().items():
-            if val is None:
-                del nutrients[key]
-            elif type(val) in [int, float]:
-                nutrients[key] = str(val)
+        for key, val in nutrients.items():
+            if not key or key.startswith("@") or not val:
+                continue
+
+            cleaned_nutrients[key] = str(val)
 
         return {
             normalize_string(nutrient): normalize_string(value)
-            for nutrient, value in nutrients.items()
-            if nutrient != "@type" and value is not None
+            for nutrient, value in cleaned_nutrients.items()
         }
 
     def _extract_howto_instructions_text(self, schema_item):

@@ -7,13 +7,7 @@ from ._abstract import HEADERS, AbstractScraper
 
 
 class BettyBossi(AbstractScraper):
-    """Scrape BettyBossi.ch recipes.
-
-    This scraper is particular as the website implements a refresh after
-    loading the page the first time. It is therefore needed to do two get
-    requests in a single session, once to initialize the connection, the second
-    to load the page content.
-    """
+    """Scrape BettyBossi.ch recipes."""
 
     @classmethod
     def host(cls):

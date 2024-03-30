@@ -44,10 +44,14 @@
     "Remove from oven and cool cakes on a wire rack for 15 minutes then de-pan onto the rack and cool to room temp before frosting."
   ],
   "language": "en-US",
-  "nutrients": {},
   "ratings": 4.29,
   "site_name": "Alton Brown",
   "title": "A Far, Far Better Cake",
   "total_time": 210,
-  "yields": "2 servings"
+  "yields": "2 servings",
+  "equipment": [
+    "Digital kitchen scale",
+    "Digital instant-read thermometer",
+    "2 (9-inch) round aluminum cake pans"
+  ]
 }

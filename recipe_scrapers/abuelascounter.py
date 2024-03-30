@@ -1,6 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 
 
 class AbuelasCounter(AbstractScraper):
@@ -28,6 +29,14 @@ class AbuelasCounter(AbstractScraper):
 
     def ingredients(self):
         return self.schema.ingredients()
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".ingredient-item-group-title",
+            ".wpzoom-rcb-ingredient-name",
+        )
 
     def instructions(self):
         return self.schema.instructions()

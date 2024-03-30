@@ -61,5 +61,10 @@
   "site_name": "Fork To Spoon",
   "title": "Air Fryer Parmesan Tomatoes",
   "total_time": 20,
-  "yields": "6 servings"
+  "yields": "6 servings",
+  "equipment": [
+    "Air Fryer",
+    "Cooking Spray",
+    "Parchment Paper"
+  ]
 }

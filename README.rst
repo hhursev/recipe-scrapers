@@ -56,8 +56,9 @@ then:
     scraper.yields()
     scraper.to_json()
     scraper.links()
-    scraper.nutrients()  # if available
-    scraper.canonical_url()  # also not always available
+    scraper.nutrients()  # not always available
+    scraper.canonical_url()  # not always available
+    scraper.equipment()  # not always available
 
 You also have an option to scrape html-like content
 
@@ -83,10 +84,11 @@ Notes:
 Scrapers available for:
 -----------------------
 
+- `https://aberlehome.com/ <https://aberlehome.com>`_
 - `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
 - `https://abuelascounter.com/ <https://abuelascounter.com>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
-- `https://addapinch.com/ <https://addapinch.com//>`_
+- `https://addapinch.com/ <https://addapinch.com/>`_
 - `http://www.afghankitchenrecipes.com/ <http://www.afghankitchenrecipes.com/>`_
 - `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
 - `https://ah.nl/ <https://ah.nl/>`_
@@ -96,6 +98,7 @@ Scrapers available for:
 - `https://amazingribs.com/ <https://amazingribs.com/>`_
 - `https://ambitiouskitchen.com/ <https://ambitiouskitchen.com>`_
 - `https://archanaskitchen.com/ <https://archanaskitchen.com/>`_
+- `https://www.argiro.gr/ <https://www.argiro.gr/>`_
 - `https://www.arla.se/ <https://www.arla.se/>`_
 - `https://www.atelierdeschefs.fr/ <https://www.atelierdeschefs.fr/>`_
 - `https://averiecooks.com/ <https://www.averiecooks.com/>`_
@@ -115,6 +118,7 @@ Scrapers available for:
 - `https://www.bodybuilding.com/ <https://www.bodybuilding.com/>`_
 - `https://bongeats.com/ <https://bongeats.com/>`_
 - `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
+- `https://breadtopia.com/ <https://breadtopia.com/>`_
 - `https://briceletbaklava.ch/ <https://briceletbaklava.ch/>`_
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
 - `https://carlsbadcravings.com/ <https://carlsbadcravings.com/>`_
@@ -211,6 +215,7 @@ Scrapers available for:
 - `https://izzycooking.com/ <https://izzycooking.com/>`_
 - `https://jamieoliver.com/ <https://jamieoliver.com>`_
 - `https://jimcooksfoodgood.com/ <https://jimcooksfoodgood.com/>`_
+- `https://joshuaweissman.com/ <https://joshuaweissman.com/>`_
 - `https://joyfoodsunshine.com/ <https://joyfoodsunshine.com>`_
 - `https://juliegoodwin.com.au/ <https://juliegoodwin.com.au>`_
 - `https://justataste.com/ <https://justataste.com>`_
@@ -224,6 +229,7 @@ Scrapers available for:
 - `http://koket.se/ <http://koket.se>`_
 - `https://www.kptncook.com/ <https://www.kptncook.com>`_
 - `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
+- `https://kuchynalidla.sk/ <https://www.kuchynalidla.sk/>`_
 - `https://www.kwestiasmaku.com/ <https://www.kwestiasmaku.com/>`_
 - `https://www.latelierderoxane.com <https://www.latelierderoxane.com/blog/recettes/>`_
 - `https://leanandgreenrecipes.net <https://leanandgreenrecipes.net>`_
@@ -260,6 +266,7 @@ Scrapers available for:
 - `http://motherthyme.com/ <http://motherthyme.com/>`_
 - `https://www.mundodereceitasbimby.com.pt/ <https://www.mundodereceitasbimby.com.pt/>`_
 - `https://mybakingaddiction.com/ <https://mybakingaddiction.com>`_
+- `https://myjewishlearning.com/ <https://myjewishlearning.com>`_
 - `https://mykitchen101.com/ <https://mykitchen101.com>`_
 - `https://mykitchen101en.com/ <https://mykitchen101en.com>`_
 - `https://www.myplate.gov/ <https://www.myplate.gov/>`_
@@ -301,6 +308,7 @@ Scrapers available for:
 - `https://rainbowplantlife.com/ <https://rainbowplantlife.com/>`_
 - `https://realfood.tesco.com/ <https://realfood.tesco.com>`_
 - `https://realsimple.com/ <https://www.realsimple.com>`_
+- `https://recept.se/ <https://recept.se/>`_
 - `https://www.receitasnestle.com.br <https://www.receitasnestle.com.br>`_
 - `https://reciperunner.com/ <https://www.reciperunner.com>`_
 - `https://recipetineats.com/ <https://www.recipetineats.com/>`_
@@ -331,6 +339,7 @@ Scrapers available for:
 - `https://www.staysnatched.com/ <https://www.staysnatched.com/>`_
 - `https://steamykitchen.com/ <https://steamykitchen.com>`_
 - `https://streetkitchen.hu/ <https://streetkitchen.hu>`_
+- `https://www.strongrfastr.com <https://www.strongrfastr.com>`_
 - `https://sunbasket.com/ <https://sunbasket.com>`_
 - `https://sundpaabudget.dk/ <https://sundpaabudget.dk>`_
 - `https://www.sunset.com/ <https://www.sunset.com/>`_

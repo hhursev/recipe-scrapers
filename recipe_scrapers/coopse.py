@@ -72,10 +72,10 @@ class CoopSE(AbstractScraper):
                     quantity = quantity[:-2]
                 unit = i["unit"]
                 if unit:
-                    unit = " {}".format(unit)
+                    unit = f" {unit}"
                 pre_preparation = i["prePreparation"]
                 if not pre_preparation == "":
-                    pre_preparation = " {}".format(pre_preparation)
+                    pre_preparation = f" {pre_preparation}"
                 name = i["name"]
                 if not quantity == "1" and not pre_preparation == " riven":
                     name = i["ingredient"]["pluralName"]

@@ -9,21 +9,30 @@ import isodate
 from ._exceptions import ElementNotFoundInHtml
 
 FRACTIONS = {
+    "½": 0.5,
+    "⅓": 1 / 3,
+    "⅔": 2 / 3,
     "¼": 0.25,
-    "½": 0.50,
     "¾": 0.75,
-    "⅓": 0.33,
-    "⅔": 0.66,
-    "⅕": 0.20,
-    "⅖": 0.40,
-    "⅗": 0.60,
+    "⅕": 0.2,
+    "⅖": 0.4,
+    "⅗": 0.6,
+    "⅘": 0.8,
+    "⅙": 1 / 6,
+    "⅚": 5 / 6,
+    "⅛": 0.125,
+    "⅜": 0.375,
+    "⅝": 0.625,
+    "⅞": 0.875,
 }
 
 TIME_REGEX = re.compile(
-    r"(\D*(?P<days>\d+)\s*(days|D))?(\D*(?P<hours>[\d.\s/?¼½¾⅓⅔⅕⅖⅗]+)\s*(hours|hrs|hr|h|óra|:))?(\D*(?P<minutes>\d+)\s*(minutes|mins|min|m|perc|$))?",
+    r"(?:\D*(?P<days>\d+)\s*(?:days|D))?"
+    r"(?:\D*(?P<hours>[\d.\s/?¼½¾⅓⅔⅕⅖⅗]+)\s*(?:hours|hrs|hr|h|óra|:))?"
+    r"(?:\D*(?P<minutes>\d+)\s*(?:minutes|mins|min|m|perc|$))?"
+    r"(?:\D*(?P<seconds>\d+)\s*(?:seconds|secs|sec|s))?",
     re.IGNORECASE,
 )
-
 SERVE_REGEX_NUMBER = re.compile(r"(\D*(?P<items>\d+)?\D*)")
 
 SERVE_REGEX_ITEMS = re.compile(
@@ -56,84 +65,96 @@ RECIPE_YIELD_TYPES = (
     ("scoop", "scoops"),
     ("bar", "bars"),
     ("patty", "patties"),
+    ("hamburger bun", "hamburger buns"),
+    ("pancake", "pancakes"),
+    ("item", "items"),
     # ... add more types as needed, in (singular, plural) format ...
 )
 
 
-def get_minutes(element, return_zero_on_not_found=False):  # noqa: C901: TODO
-    if element is None:
-        # to be removed
-        if return_zero_on_not_found:
-            return 0
-        raise ElementNotFoundInHtml(element)
+def _extract_fractional(input_string: str) -> float:
+    input_string = input_string.strip()
 
-    # handle integer in string literal
+    # Handling mixed numbers with unicode fractions e.g., '1⅔'
+    for unicode_fraction, fraction_part in FRACTIONS.items():
+        if unicode_fraction in input_string:
+            whole_number_part, _, _ = input_string.partition(unicode_fraction)
+
+            whole_number = float(whole_number_part or 0)
+            return whole_number + fraction_part
+
+    if input_string in FRACTIONS:
+        return FRACTIONS[input_string]
+
     try:
-        return int(element)
-    except Exception:
+        return float(input_string)
+    except ValueError:
         pass
 
-    if isinstance(element, str):
-        time_text = element
-    else:
-        time_text = element.get_text()
+    if " " in input_string and "/" in input_string:
+        whole_part, fractional_part = input_string.split(" ", 1)
+        numerator, denominator = fractional_part.split("/")
+        return float(whole_part) + float(numerator) / float(denominator)
+
+    elif "/" in input_string:
+        numerator, denominator = input_string.split("/")
+        return float(numerator) / float(denominator)
+
+    raise ValueError(f"Unrecognized fraction format: '{input_string}'")
+
+
+def get_minutes(element):
+    if element is None:
+        raise ElementNotFoundInHtml(element)
+
+    # If element is a BeautifulSoup Tag, extract its text content
+    if hasattr(element, "text"):
+        element = element.text
+
+    try:
+        return int(element)
+    except ValueError:
+        pass
+
+    if not isinstance(element, str):
+        raise ValueError("Unexpected format for time element")
+    time_text = element
 
     # attempt iso8601 duration parsing
-    if time_text.startswith("PT"):
+    if "-" in time_text:  # sometimes formats are like this: '12-15 minutes'
+        _min, _, time_text = time_text.partition("-")
+    if " to " in time_text:  # sometimes formats are like this: '12 to 15 minutes'
+        _min, _to, time_text = time_text.partition(" to ")
+
+    if time_text is None:
+        return None
+
+    # Attempt ISO8601 duration parsing
+    if time_text.startswith("P") and "T" in time_text:
         try:
             duration = isodate.parse_duration(time_text)
-            return math.ceil(duration.total_seconds() / 60)
+            total_minutes = math.ceil(duration.total_seconds() / 60)
+            return None if total_minutes == 0 else total_minutes
         except Exception:
             pass
 
-    if time_text.startswith("P") and "T" in time_text:
-        time_text = time_text.split("T", 2)[1]
-    if "-" in time_text:
-        time_text = time_text.split("-", 2)[
-            1
-        ]  # sometimes formats are like this: '12-15 minutes'
-    if " to " in time_text:
-        time_text = time_text.split("to", 2)[
-            1
-        ]  # sometimes formats are like this: '12 to 15 minutes'
-    if "h" in time_text:
-        time_text = time_text.replace("h", "hours")
-
-    matched = TIME_REGEX.search(time_text)
-
-    if matched is None or not any(matched.groupdict().values()):
+    time_units = TIME_REGEX.search(time_text).groupdict()
+    if not any(time_units.values()):
         return None
 
-    minutes = int(matched.groupdict().get("minutes") or 0)
-    hours_matched = matched.groupdict().get("hours")
-    days_matched = matched.groupdict().get("days")
+    minutes_matched = time_units.get("minutes")
+    hours_matched = time_units.get("hours")
+    days_matched = time_units.get("days")
+    seconds_matched = time_units.get("seconds")
 
-    # workaround for formats like: 0D4H45M, that are not a valid iso8601 it seems
-    if days_matched:
-        minutes += 60 * 60 * float(days_matched.strip())
-    if hours_matched:
-        hours_matched = hours_matched.strip()
-        if any([symbol in FRACTIONS.keys() for symbol in hours_matched]):
-            hours = 0
-            for fraction, value in FRACTIONS.items():
-                if fraction in hours_matched:
-                    hours += value
-                    hours_matched = hours_matched.replace(fraction, "")
-            hours += int(hours_matched) if hours_matched else 0
-        elif "/" in hours_matched:
-            # for example "1 1/2" is matched
-            hours_matched_split = hours_matched.split(" ")
-            hours = 0
-            if len(hours_matched_split) == 2:
-                hours += int(hours_matched_split[0])
-            fraction = hours_matched_split[-1:][0].split("/")
-            hours += float(int(fraction[0]) / int(fraction[1]))
-        else:
-            hours = float(hours_matched)
+    days = float(days_matched) if days_matched else 0
+    hours = _extract_fractional(hours_matched) if hours_matched else 0
+    minutes = float(minutes_matched) if minutes_matched else 0
+    seconds = float(seconds_matched) if seconds_matched else 0
 
-        minutes += round(60 * hours, 0)
-
-    return minutes
+    total_minutes = minutes + (hours * 60) + (days * 24 * 60) + (seconds / 60)
+    # Rounding to the nearest whole number, considering seconds
+    return round(total_minutes)
 
 
 def get_yields(element):
@@ -161,14 +182,36 @@ def get_yields(element):
     matched = SERVE_REGEX_NUMBER.search(serve_text).groupdict().get("items") or 0
     serve_text_lower = serve_text.lower()
 
+    best_match = None
+    best_match_length = 0
+
     for singular, plural in RECIPE_YIELD_TYPES:
-        if singular in serve_text_lower:
-            return "{} {}".format(matched, singular if int(matched) == 1 else plural)
+        if singular in serve_text_lower or plural in serve_text_lower:
+            match_length = (
+                len(singular) if singular in serve_text_lower else len(plural)
+            )
+            if match_length > best_match_length:
+                best_match_length = match_length
+                best_match = f"{matched} {singular if int(matched) == 1 else plural}"
+
+    if best_match:
+        return best_match
 
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
         return "{} item{}".format(matched, "" if int(matched) == 1 else "s")
 
     return "{} serving{}".format(matched, "" if int(matched) == 1 else "s")
+
+
+def get_equipment(equipment_items):
+    # Removes duplicates from results and sorts them in order they appear on site.
+    seen = set()
+    unique_equipment = []
+    for item in equipment_items:
+        if item not in seen:
+            seen.add(item)
+            unique_equipment.append(item)
+    return unique_equipment
 
 
 def normalize_string(string):
@@ -180,6 +223,7 @@ def normalize_string(string):
         unescaped_string.replace("\xc2\xa0", " ")
         .replace("\xa0", " ")
         .replace("\u200b", "")
+        .replace("\r\n", " ")
         .replace("\n", " ")  # &nbsp;
         .replace("\t", " ")
         .strip(),
@@ -191,7 +235,7 @@ def url_path_to_dict(path):
         r"^"
         r"((?P<schema>.+?)://)?"
         r"((?P<user>.+?)(:(?P<password>.*?))?@)?"
-        r"(?P<host>.*?)"
+        r"(?P<host>[^:/]+)"
         r"(:(?P<port>\d+?))?"
         r"(?P<path>/.*?)?"
         r"(?P<query>[?].*?)?"
@@ -199,9 +243,7 @@ def url_path_to_dict(path):
     )
     regex = re.compile(pattern)
     matches = regex.match(path)
-    url_dict = matches.groupdict() if matches is not None else None
-
-    return url_dict
+    return matches.groupdict() if matches else None
 
 
 def get_host_name(url):
@@ -217,15 +259,13 @@ def change_keys(obj, convert):
     Credit: StackOverflow user 'baldr'
     (https://web.archive.org/web/20201022163147/https://stackoverflow.com/questions/11700705/python-recursively-replace
         -character-in-keys-of-nested-dictionary/33668421)
+
+    Note: with modifications applied.
     """
-    if isinstance(obj, (str, int, float)):
-        return obj
     if isinstance(obj, dict):
-        new = obj.__class__()
-        for k, v in obj.items():
-            new[convert(k)] = change_keys(v, convert)
+        return {convert(k): change_keys(v, convert) for k, v in obj.items()}
     elif isinstance(obj, (list, set, tuple)):
-        new = obj.__class__(change_keys(v, convert) for v in obj)
+        cls = type(obj)
+        return cls(change_keys(item, convert) for item in obj)
     else:
         return obj
-    return new

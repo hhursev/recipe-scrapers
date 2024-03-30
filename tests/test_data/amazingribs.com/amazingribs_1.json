@@ -48,10 +48,13 @@
     "Serve. You can serve Hot Guts nekkid on a plate with some saltine crackers and hot sauce (traditional Texas style) or with some potatoes and a salad, or on a bun, or incorporate them into a dish like German Potato Salad or Choucroute Garnie, the classic Alsatian hot dish of sauerkraut, potatoes, various charcuterie, and mustard."
   ],
   "language": "en-US",
-  "nutrients": {},
   "ratings": 4.1,
   "site_name": "Meathead's AmazingRibs.com",
   "title": "Texas Hot Guts Recipe",
   "total_time": 165,
-  "yields": "8 servings"
+  "yields": "8 servings",
+  "equipment": [
+    "sausage grinder",
+    "sausage stuffer"
+  ]
 }

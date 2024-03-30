@@ -2,6 +2,7 @@
 
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
+from ._utils import get_equipment
 
 
 class ElaVegan(AbstractScraper):
@@ -49,3 +50,14 @@ class ElaVegan(AbstractScraper):
 
     def description(self):
         return self.schema.description()
+
+    def equipment(self):
+        equipment_items = [
+            item.find("div", class_="wprm-recipe-equipment-name")
+            .get_text()
+            .rstrip("*")
+            .strip()
+            for item in self.soup.find_all("div", class_="wprm-recipe-equipment-item")
+            if item.find("div", class_="wprm-recipe-equipment-name")
+        ]
+        return get_equipment(equipment_items)
