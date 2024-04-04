@@ -238,6 +238,7 @@ Scrapers available for:
 - `https://lecremedelacrumb.com/ <https://lecremedelacrumb.com/>`_
 - `https://www.lecker.de <https://www.lecker.de/rezepte>`_
 - `https://lekkerensimpel.com <https://lekkerensimpel.com>`_
+- `https://leukerecepten.nl/ <https://www.leukerecepten.nl>`_
 - `https://lifestyleofafoodie.com <https://lifestyleofafoodie.com>`_
 - `https://littlespicejar.com/ <https://littlespicejar.com>`_
 - `http://livelytable.com/ <http://livelytable.com/>`_
