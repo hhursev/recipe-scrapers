@@ -9,7 +9,7 @@ class HalfBakedHarvest(AbstractScraper):
         return "halfbakedharvest.com"
 
     def author(self):
-        return "halfbakedharvest"
+        return self.schema.author()
 
     def title(self):
         return self.schema.title()
@@ -17,11 +17,20 @@ class HalfBakedHarvest(AbstractScraper):
     def total_time(self):
         return self.schema.total_time()
 
+    def cook_time(self):
+        return self.schema.cook_time()
+
+    def prep_time(self):
+        return self.schema.prep_time()
+
     def yields(self):
         return self.schema.yields()
 
     def image(self):
         return self.schema.image()
+
+    def nutrients(self):
+        return self.schema.nutrients()
 
     def ingredients(self):
         return self.schema.ingredients()
@@ -39,3 +48,6 @@ class HalfBakedHarvest(AbstractScraper):
 
     def ratings(self):
         return self.schema.ratings()
+
+    def description(self):
+        return self.schema.description()
