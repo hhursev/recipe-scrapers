@@ -40,6 +40,7 @@ from .bodybuilding import Bodybuilding
 from .bonappetit import BonAppetit
 from .bongeats import BongEats
 from .bowlofdelicious import BowlOfDelicious
+from .breadtopia import Breadtopia
 from .briceletbaklava import BricelEtBaklava
 from .budgetbytes import BudgetBytes
 from .carlsbadcravings import CarlsBadCravings
@@ -145,6 +146,7 @@ from .kochbucher import Kochbucher
 from .koket import Koket
 from .kptncook import KptnCook
 from .kuchniadomowa import KuchniaDomowa
+from .kuchynalidla import KuchynaLidla
 from .kwestiasmaku import KwestiaSmaku
 from .latelierderoxane import LAtelierDeRoxane
 from .leanandgreenrecipes import LeanAndGreenRecipes
@@ -176,6 +178,7 @@ from .monsieurcuisine import MonsieurCuisine
 from .motherthyme import MotherThyme
 from .mundodereceitasbimby import MundoDeReceitasBimby
 from .mybakingaddiction import MyBakingAddiction
+from .myjewishlearning import MyJewishLearning
 from .mykitchen101 import MyKitchen101
 from .mykitchen101en import MyKitchen101en
 from .myrecipes import MyRecipes
@@ -342,6 +345,7 @@ SCRAPERS = {
     BonAppetit.host(): BonAppetit,
     BowlOfDelicious.host(): BowlOfDelicious,
     BongEats.host(): BongEats,
+    Breadtopia.host(): Breadtopia,
     BricelEtBaklava.host(): BricelEtBaklava,
     BudgetBytes.host(): BudgetBytes,
     CarlsBadCravings.host(): CarlsBadCravings,
@@ -373,7 +377,9 @@ SCRAPERS = {
     GrandFrais.host(): GrandFrais,
     HeatherChristo.host(): HeatherChristo,
     JoshuaWeissman.host(): JoshuaWeissman,
+    KuchynaLidla.host(): KuchynaLidla,
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
+    MyJewishLearning.host(): MyJewishLearning,
     NutritionFacts.host(): NutritionFacts,
     PinchOfYum.host(): PinchOfYum,
     Recept.host(): Recept,
@@ -406,6 +412,7 @@ SCRAPERS = {
     FoodAndWine.host(): FoodAndWine,
     FoodFidelity.host(): FoodFidelity,
     FoodNetwork.host(): FoodNetwork,
+    FoodNetwork.host(domain="com"): FoodNetwork,
     FoodRepublic.host(): FoodRepublic,
     ForkToSpoon.host(): ForkToSpoon,
     ForksOverKnives.host(): ForksOverKnives,
@@ -671,20 +678,20 @@ def scrape_html(
     html: str, org_url: str | None = None, **options: dict[str, Any]
 ) -> AbstractScraper:
     """
-    takes a string of html and returns a scraper object. if the org_url is specified
-    then the scraper will use that url to resolve a defined scraper, otherwise it will
+    Takes a string of HTML and returns a scraper object. If the org_url is specified,
+    then the scraper will use that URL to resolve a defined scraper, otherwise it will
     fall back to wild mode. If no schema is found in wild mode then a
     NoSchemaFoundInWildMode exception will be raised.
 
     Args:
-        html (str): raw HTML in text form
+        html (str): Raw HTML in text form.
         org_url (str, optional): Original URL of the HTML. Defaults to None.
 
     Raises:
         NoSchemaFoundInWildMode: If no schema is found in wild mode.
 
     Returns:
-        AbstractScraper:
+        AbstractScraper: a scraper instance implementing AbstractScraper for the requested website.
     """
 
     host_name = get_host_name(org_url) if org_url is not None else None

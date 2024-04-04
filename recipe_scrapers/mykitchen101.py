@@ -27,13 +27,17 @@ class MyKitchen101(AbstractScraper):
     def ingredients(self):
         soup = BeautifulSoup(str(self.soup), features="html.parser")
         ingredients = (
-            soup.find(name="p", string=re.compile("材料：")).find_next("ul").find_all("li")
+            soup.find(name="p", string=re.compile("材料："))
+            .find_next("ul")
+            .find_all("li")
         )
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
         soup = BeautifulSoup(str(self.soup), features="html.parser")
-        instructions = soup.find(name="p", string=re.compile("做法：")).find_all_next("p")
+        instructions = soup.find(name="p", string=re.compile("做法：")).find_all_next(
+            "p"
+        )
         return "\n".join(
             [
                 normalize_string(instruction.get_text())

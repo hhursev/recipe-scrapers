@@ -88,7 +88,7 @@ Scrapers available for:
 - `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
 - `https://abuelascounter.com/ <https://abuelascounter.com>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
-- `https://addapinch.com/ <https://addapinch.com//>`_
+- `https://addapinch.com/ <https://addapinch.com/>`_
 - `http://www.afghankitchenrecipes.com/ <http://www.afghankitchenrecipes.com/>`_
 - `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
 - `https://ah.nl/ <https://ah.nl/>`_
@@ -118,6 +118,7 @@ Scrapers available for:
 - `https://www.bodybuilding.com/ <https://www.bodybuilding.com/>`_
 - `https://bongeats.com/ <https://bongeats.com/>`_
 - `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
+- `https://breadtopia.com/ <https://breadtopia.com/>`_
 - `https://briceletbaklava.ch/ <https://briceletbaklava.ch/>`_
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
 - `https://carlsbadcravings.com/ <https://carlsbadcravings.com/>`_
@@ -228,6 +229,7 @@ Scrapers available for:
 - `http://koket.se/ <http://koket.se>`_
 - `https://www.kptncook.com/ <https://www.kptncook.com>`_
 - `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
+- `https://kuchynalidla.sk/ <https://www.kuchynalidla.sk/>`_
 - `https://www.kwestiasmaku.com/ <https://www.kwestiasmaku.com/>`_
 - `https://www.latelierderoxane.com <https://www.latelierderoxane.com/blog/recettes/>`_
 - `https://leanandgreenrecipes.net <https://leanandgreenrecipes.net>`_
@@ -265,6 +267,7 @@ Scrapers available for:
 - `http://motherthyme.com/ <http://motherthyme.com/>`_
 - `https://www.mundodereceitasbimby.com.pt/ <https://www.mundodereceitasbimby.com.pt/>`_
 - `https://mybakingaddiction.com/ <https://mybakingaddiction.com>`_
+- `https://myjewishlearning.com/ <https://myjewishlearning.com>`_
 - `https://mykitchen101.com/ <https://mykitchen101.com>`_
 - `https://mykitchen101en.com/ <https://mykitchen101en.com>`_
 - `https://www.myplate.gov/ <https://www.myplate.gov/>`_
