@@ -94,7 +94,11 @@ class AbstractScraper:
         raise NotImplementedError("This should be implemented.")
 
     def cooking_method(self):
-        """Preparation time in minutes."""
+        """The method of cooking the recipe"""
+        raise NotImplementedError("This should be implemented.")
+
+    def keywords(self):
+        """Keywords or tags used to describe the recipe"""
         raise NotImplementedError("This should be implemented.")
 
     def yields(self):

@@ -309,3 +309,11 @@ class SchemaOrg:
         if cooking_method and isinstance(cooking_method, list):
             cooking_method = cooking_method[0]
         return normalize_string(cooking_method)
+
+    def keywords(self):
+        keywords = self.data.get("keywords")
+        if keywords is None:
+            raise SchemaOrgException("No keywords data in SchemaOrg")
+        if keywords and isinstance(keywords, list):
+            keywords = keywords[0]
+        return normalize_string(keywords)
