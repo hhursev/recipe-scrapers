@@ -313,3 +313,12 @@ Returns a list of cooking equipment needed for provided recipe.
 >>> scraper.equipment()
 ['Mixing Bowl', 'Whisk', 'Baking Tray']
 ```
+
+### `cooking_method() -> str`
+
+Returns the method of cooking the recipe.
+
+```py
+>>> scraper.cooking_method()
+'Stovetop'
+```

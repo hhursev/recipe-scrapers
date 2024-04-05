@@ -75,6 +75,7 @@ class TestUtils(unittest.TestCase):
             "canonical_url",
             "category",
             "cook_time",
+            "cooking_method",
             "cuisine",
             "description",
             "equipment",

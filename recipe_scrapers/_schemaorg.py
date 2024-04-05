@@ -301,3 +301,11 @@ class SchemaOrg:
         if description and isinstance(description, list):
             description = description[0]
         return normalize_string(description)
+
+    def cooking_method(self):
+        cooking_method = self.data.get("cookingMethod")
+        if cooking_method is None:
+            raise SchemaOrgException("No cooking method data in SchemaOrg")
+        if cooking_method and isinstance(cooking_method, list):
+            cooking_method = cooking_method[0]
+        return normalize_string(cooking_method)

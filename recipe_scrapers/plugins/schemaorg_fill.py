@@ -32,6 +32,7 @@ class SchemaOrgFillPlugin(PluginInterface):
         "links",
         "language",
         "nutrients",
+        "cooking_method",
     )
 
     @classmethod
