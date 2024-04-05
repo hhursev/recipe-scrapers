@@ -29,6 +29,7 @@ OPTIONAL_TESTS = [
     "cuisine",
     "nutrients",
     "prep_time",
+    "cooking_method",
     "ratings",
     "reviews",
     "equipment",
