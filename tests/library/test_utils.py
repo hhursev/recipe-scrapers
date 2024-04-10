@@ -78,6 +78,7 @@ class TestUtils(unittest.TestCase):
             "cooking_method",
             "cuisine",
             "description",
+            "dietary_restrictions",
             "equipment",
             "host",
             "image",
