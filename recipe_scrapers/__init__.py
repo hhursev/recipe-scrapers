@@ -30,6 +30,7 @@ from .bakingsense import BakingSense
 from .barefootcontessa import BareFootContessa
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
+from .bestrecipes import BestRecipes
 from .bettybossi import BettyBossi
 from .bettycrocker import BettyCrocker
 from .biancazapatka import BiancaZapatka
@@ -66,6 +67,7 @@ from .cuisineaz import CuisineAZ
 from .cybercook import Cybercook
 from .davidlebovitz import DavidLebovitz
 from .delish import Delish
+from .dishnz import Dishnz
 from .domesticateme import DomesticateMe
 from .downshiftology import Downshiftology
 from .dr import Dr
@@ -153,6 +155,7 @@ from .leanandgreenrecipes import LeanAndGreenRecipes
 from .lecker import Lecker
 from .lecremedelacrumb import LeCremeDeLaCrumb
 from .lekkerensimpel import LekkerEnSimpel
+from .leukerecepten import Leukerecepten
 from .lifestyleofafoodie import LifestyleOfAFoodie
 from .littlespicejar import LittleSpiceJar
 from .livelytable import LivelyTable
@@ -334,6 +337,7 @@ SCRAPERS = {
     BakingSense.host(): BakingSense,
     BakingMischief.host(): BakingMischief,
     BareFootContessa.host(): BareFootContessa,
+    BestRecipes.host(): BestRecipes,
     BettyBossi.host(): BettyBossi,
     BettyCrocker.host(): BettyCrocker,
     BiancaZapatka.host(): BiancaZapatka,
@@ -370,6 +374,7 @@ SCRAPERS = {
     Cybercook.host(): Cybercook,
     DavidLebovitz.host(): DavidLebovitz,
     Delish.host(): Delish,
+    Dishnz.host(): Dishnz,
     EatLiveRun.host(): EatLiveRun,
     ElaVegan.host(): ElaVegan,
     FitSlowCookerQueen.host(): FitSlowCookerQueen,
@@ -485,6 +490,7 @@ SCRAPERS = {
     LeanAndGreenRecipes.host(): LeanAndGreenRecipes,
     Lecker.host(): Lecker,
     LekkerEnSimpel.host(): LekkerEnSimpel,
+    Leukerecepten.host(): Leukerecepten,
     LifestyleOfAFoodie.host(): LifestyleOfAFoodie,
     LittleSpiceJar.host(): LittleSpiceJar,
     LivelyTable.host(): LivelyTable,
