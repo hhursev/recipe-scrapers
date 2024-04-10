@@ -67,9 +67,14 @@ RECIPE_YIELD_TYPES = (
     ("patty", "patties"),
     ("hamburger bun", "hamburger buns"),
     ("pancake", "pancakes"),
+    ("caramel", "caramels"),  # melskitchen
     ("item", "items"),
     # ... add more types as needed, in (singular, plural) format ...
 )
+
+
+def format_diet_name(diet_name):
+    return " ".join(word for word in re.findall("[A-Z][^A-Z]*", diet_name))
 
 
 def _extract_fractional(input_string: str) -> float:
