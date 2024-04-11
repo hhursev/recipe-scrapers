@@ -25,7 +25,7 @@ class KitchenAidAustralia(AbstractScraper):
     def total_time(self):
         time_pattern = re.compile("time", re.IGNORECASE)
 
-        summary = self.get_summary()
+        summary = self._get_summary()
         time_items = summary.find_all("strong", string=time_pattern)
 
         if not time_items:
@@ -33,25 +33,25 @@ class KitchenAidAustralia(AbstractScraper):
 
         # The last item is always the total time
         time_item = time_items[-1]
-        total_time = self.parse_summary_item(time_item)
+        total_time = self._parse_summary_item(time_item)
 
         return get_minutes(total_time)
 
     def yields(self):
-        return self.get_summary_value("Makes")
+        return self._get_summary_value("Makes")
 
     def image(self):
         return self.schema.image()
 
     def ingredients(self):
-        recipe = self.get_recipe()
+        recipe = self._get_recipe()
         ingredients = recipe.find("div", {"class": "leftPanel"})
 
-        elements = self.parse_list(ingredients)
+        elements = self._parse_list(ingredients)
         return elements
 
     def ingredient_groups(self) -> List[IngredientGroup]:
-        recipe = self.get_recipe()
+        recipe = self._get_recipe()
         ingredients = recipe.find("div", {"class": "leftPanel"})
 
         groups = []
@@ -59,7 +59,7 @@ class KitchenAidAustralia(AbstractScraper):
         headings = ingredients.find_all("h2")
         for heading in headings:
             ul = heading.find_next_sibling("ul")
-            elements = self.parse_list(ul)
+            elements = self._parse_list(ul)
             ingredient_group = IngredientGroup(elements, heading.text)
             groups.append(ingredient_group)
 
@@ -69,10 +69,10 @@ class KitchenAidAustralia(AbstractScraper):
         return "\n".join(self.instructions_list())
 
     def instructions_list(self) -> List[str]:
-        recipe = self.get_recipe()
+        recipe = self._get_recipe()
         method = recipe.find("div", {"class": "rightPanel"})
 
-        return self.parse_list(method)
+        return self._parse_list(method)
 
     def ratings(self):
         return self.schema.ratings()
@@ -83,39 +83,39 @@ class KitchenAidAustralia(AbstractScraper):
     def description(self):
         return self.schema.description()
 
-    def get_recipe(self):
+    def _get_recipe(self):
         """
         Get the recipe container element.
         """
         return self.soup.find("article")
 
-    def get_summary(self):
+    def _get_summary(self):
         """
         Get the summary container element.
         """
         return self.soup.find("div", {"class": "blogRecipe-summary"})
 
-    def get_summary_value(self, field) -> str:
+    def _get_summary_value(self, field) -> str:
         """
         Get the value from the given summary field search string.
         """
-        summary = self.get_summary()
+        summary = self._get_summary()
 
         item = summary.find("strong", string=field)
-        return self.parse_summary_item(item)
+        return self._parse_summary_item(item)
 
-    def parse_summary_item(self, item):
+    def _parse_summary_item(self, item):
         """
         Get the value associated with a summary field.
         """
-        return item.find_next_sibling("p").get_text()
+        return item.find_next_sibling("p").text
 
-    def parse_list(self, container) -> List[str]:
+    def _parse_list(self, container) -> List[str]:
         """
         Get the text from each of the li elements contained by the given container.
         """
         li_list = container.find_all("li")
 
-        elements = [li.get_text() for li in li_list]
+        elements = [li.text for li in li_list]
 
         return elements
