@@ -35,6 +35,7 @@ from .alltomat import AllTomat
 from .altonbrown import AltonBrown
 from .amazingribs import AmazingRibs
 from .ambitiouskitchen import AmbitiousKitchen
+from .americastestkitchen import AmericasTestKitchen
 from .archanaskitchen import ArchanasKitchen
 from .argiro import Argiro
 from .arla import Arla
@@ -332,6 +333,9 @@ SCRAPERS = {
     AltonBrown.host(): AltonBrown,
     AmazingRibs.host(): AmazingRibs,
     AmbitiousKitchen.host(): AmbitiousKitchen,
+    AmericasTestKitchen.host(): AmericasTestKitchen,
+    AmericasTestKitchen.host(domain="cooksillustrated.com"): AmericasTestKitchen,
+    AmericasTestKitchen.host(domain="cookscountry.com"): AmericasTestKitchen,
     ArchanasKitchen.host(): ArchanasKitchen,
     Argiro.host(): Argiro,
     Arla.host(): Arla,
