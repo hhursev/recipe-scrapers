@@ -110,7 +110,7 @@ class AbstractScraper:
         raise NotImplementedError("This should be implemented.")
 
     def keywords(self):
-        """The method of cooking the recipe"""
+        """Keywords or tags used to describe the recipe"""
         raise NotImplementedError("This should be implemented.")
 
     def language(self):
