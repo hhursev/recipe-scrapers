@@ -88,6 +88,7 @@ class TestUtils(unittest.TestCase):
             "language",
             "nutrients",
             "prep_time",
+            "keywords",
             "ratings",
             "reviews",
             "site_name",

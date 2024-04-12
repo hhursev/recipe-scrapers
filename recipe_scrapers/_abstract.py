@@ -109,6 +109,10 @@ class AbstractScraper:
         """Nutrients of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
+    def keywords(self):
+        """The method of cooking the recipe"""
+        raise NotImplementedError("This should be implemented.")
+
     def language(self):
         """Language the recipe is written in."""
         candidate_languages = OrderedDict()
