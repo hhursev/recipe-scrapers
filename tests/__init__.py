@@ -33,6 +33,7 @@ OPTIONAL_TESTS = [
     "ratings",
     "reviews",
     "equipment",
+    "ratings_count",
 ]
 
 

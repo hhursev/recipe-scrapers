@@ -160,6 +160,10 @@ class AbstractScraper:
         """Ratings of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
+    def ratings_count(self):
+        """Total number of ratings of the recipe."""
+        raise NotImplementedError("This should be implemented.")
+
     def author(self):
         """Author of the recipe."""
         raise NotImplementedError("This should be implemented.")
