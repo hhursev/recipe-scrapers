@@ -155,6 +155,7 @@ from .justonecookbook import JustOneCookbook
 from .kennymcgovern import KennyMcGovern
 from .keukenliefdenl import KeukenLiefdeNL
 from .kingarthur import KingArthur
+from .kitchenaidaustralia import KitchenAidAustralia
 from .kitchenstories import KitchenStories
 from .kochbar import Kochbar
 from .kochbucher import Kochbucher
@@ -389,6 +390,7 @@ SCRAPERS = {
     GrandFrais.host(): GrandFrais,
     HeatherChristo.host(): HeatherChristo,
     JoshuaWeissman.host(): JoshuaWeissman,
+    KitchenAidAustralia.host(): KitchenAidAustralia,
     KuchynaLidla.host(): KuchynaLidla,
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     MyJewishLearning.host(): MyJewishLearning,
