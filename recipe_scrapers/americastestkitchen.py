@@ -1,5 +1,6 @@
 # mypy: allow-untyped-defs
 
+import functools
 import json
 import re
 
@@ -23,9 +24,7 @@ class AmericasTestKitchen(AbstractScraper):
         return self.schema.description()
 
     def total_time(self):
-        if not hasattr(self, "additional_details"):
-            self.get_additional_details()
-        return get_minutes(self.additional_details["recipeTimeNote"])
+        return get_minutes(self._get_additional_details.get("recipeTimeNote", None))
 
     def image(self):
         return self.schema.image()
@@ -34,9 +33,7 @@ class AmericasTestKitchen(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):  # add headnote
-        if not hasattr(self, "additional_details"):
-            self.get_additional_details()
-        if headnote := self.additional_details.get("headnote", False):
+        if headnote := self._get_additional_details.get("headnote", None):
             # Ideally this would use HTMLTagStripperPlugin, but I'm not sure how to invoke it here
             headnote = f"Note: {normalize_string(re.sub(r'<.*?>', '', headnote))}\n"
         else:
@@ -55,9 +52,8 @@ class AmericasTestKitchen(AbstractScraper):
     def ratings(self):
         return self.schema.ratings()
 
-    def get_additional_details(self):
+    @functools.cached_property
+    def _get_additional_details(self):
         j = json.loads(self.soup.find(type="application/json").string)
         name = list(j["props"]["initialState"]["content"]["documents"])[0]
-        self.additional_details = j["props"]["initialState"]["content"]["documents"][
-            name
-        ]
+        return j["props"]["initialState"]["content"]["documents"][name]
