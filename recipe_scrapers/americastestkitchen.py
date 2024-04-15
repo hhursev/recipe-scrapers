@@ -24,7 +24,7 @@ class AmericasTestKitchen(AbstractScraper):
         return self.schema.description()
 
     def total_time(self):
-        return get_minutes(self._get_additional_details.get("recipeTimeNote", None))
+        return get_minutes(self._get_additional_details.get("recipeTimeNote"))
 
     def image(self):
         return self.schema.image()
@@ -33,7 +33,7 @@ class AmericasTestKitchen(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):  # add headnote
-        if headnote := self._get_additional_details.get("headnote", None):
+        if headnote := self._get_additional_details.get("headnote"):
             # Ideally this would use HTMLTagStripperPlugin, but I'm not sure how to invoke it here
             headnote = f"Note: {normalize_string(re.sub(r'<.*?>', '', headnote))}\n"
         else:
