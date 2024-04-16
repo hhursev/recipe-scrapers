@@ -1,6 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
+from ._utils import get_yields
 
 
 class TheCookingGuy(AbstractScraper):
@@ -21,7 +22,7 @@ class TheCookingGuy(AbstractScraper):
         return self.schema.total_time()
 
     def yields(self):
-        return self.schema.yields()
+        return get_yields(self.soup.find("div", class_="text-block-7").get_text())
 
     def image(self):
         return self.schema.image()
