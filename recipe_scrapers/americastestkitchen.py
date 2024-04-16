@@ -4,6 +4,8 @@ import functools
 import json
 import re
 
+from recipe_scrapers._grouping_utils import IngredientGroup
+
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, normalize_string
 
@@ -30,7 +32,36 @@ class AmericasTestKitchen(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        return self.schema.ingredients()
+        ingredients = []
+        for group in self._get_additional_details.get("ingredientGroups"):
+            ingredients += group["fields"]["recipeIngredientItems"]
+        return [
+            "{} {} {} {}".format(
+                i["fields"]["qty"] or "",
+                i["fields"]["measurement"] or "",
+                i["fields"]["ingredient"]["fields"]["title"] or "",
+                i["fields"]["postText"] or "",
+            )
+            for i in ingredients
+        ]
+
+    def ingredient_groups(self):
+        ingredient_groups = []
+        for group in self._get_additional_details.get("ingredientGroups"):
+            ingredients = [
+                "{} {} {} {}".format(
+                    i["fields"]["qty"] or "",
+                    i["fields"]["measurement"] or "",
+                    i["fields"]["ingredient"]["fields"]["title"] or "",
+                    i["fields"]["postText"] or "",
+                )
+                for i in group["fields"]["recipeIngredientItems"]
+            ]
+            purpose = group["fields"]["title"]
+            ingredient_groups.append(
+                IngredientGroup(ingredients=ingredients, purpose=purpose)
+            )
+        return ingredient_groups
 
     def instructions(self):  # add headnote
         if headnote := self._get_additional_details.get("headnote"):
