@@ -37,7 +37,7 @@ class Bergamot(AbstractScraper):
         return None
 
     def total_time(self):
-        return self.data.get("time").get("totalTime")
+        return self._get_time_value("totalTime")
 
     def yields(self):
         servings = self.data.get("servings")
@@ -68,10 +68,17 @@ class Bergamot(AbstractScraper):
         return self.data.get("description")
 
     def prep_time(self):
-        return self.data.get("time").get("prepTime")
+        return self._get_time_value("prepTime")
 
     def _map_list(self, data_key):
         output = []
         for entry in self.data.get(data_key):
             output.extend(entry.get("data"))
         return output
+
+    def _get_time_value(self, time_key):
+        time_values = self.data.get("time")
+        if not time_values:
+            return None
+
+        return time_values.get(time_key)
