@@ -10,7 +10,7 @@ import extruct
 from recipe_scrapers.settings import settings
 
 from ._exceptions import SchemaOrgException
-from ._utils import get_minutes, get_yields, normalize_string
+from ._utils import get_minutes, get_yields, normalize_keywords, normalize_string
 
 SCHEMA_ORG_HOST = "schema.org"
 
@@ -314,6 +314,9 @@ class SchemaOrg:
         keywords = self.data.get("keywords")
         if keywords is None:
             raise SchemaOrgException("No cooking method data in SchemaOrg")
-        if keywords and isinstance(keywords, list):
-            keywords = keywords[0]
-        return normalize_string(keywords)
+        if keywords:
+            if isinstance(keywords, list):
+                keywords = keywords[0]
+            keywords = normalize_string(keywords)
+            keywords = normalize_keywords(keywords)
+        return keywords
