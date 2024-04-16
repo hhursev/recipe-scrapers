@@ -60,14 +60,11 @@ class Dishnz(AbstractScraper):
         return output
 
     def instructions(self):
-        return "\n".join(self.instruction_groups())
-
-    def instruction_groups(self):
         instruction_list = []
         instructions = self.soup.find("div", {"class": "recipe"}).find_all("p")
         for instruction in instructions:
             instruction_list.append(normalize_string(instruction.text))
-        return instruction_list
+        return "\n".join(instructions_list)
 
     def ratings(self):
         return None
