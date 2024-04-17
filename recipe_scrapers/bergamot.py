@@ -24,8 +24,7 @@ class Bergamot(AbstractScraper):
         return "dashboard.bergamot.app"
 
     def canonical_url(self):
-        source_url = self.data.get("sourceUrl")
-        return source_url if source_url else self.url
+        return self.data.get("sourceUrl") or self.url
 
     def author(self):
         return None
