@@ -9,9 +9,6 @@ class BigOven(AbstractScraper):
     def host(cls):
         return "bigoven.com"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return get_yields(self.soup.find("div", {"class": "yield"}).text)
 

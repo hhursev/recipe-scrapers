@@ -8,9 +8,6 @@ class NYTimes(AbstractScraper):
     def host(cls):
         return "cooking.nytimes.com"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

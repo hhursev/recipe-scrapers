@@ -9,9 +9,6 @@ class Przepisy(AbstractScraper):
     def host(cls):
         return "przepisy.pl"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return get_yields(self.soup.find("div", {"class": "person-count"}))
 

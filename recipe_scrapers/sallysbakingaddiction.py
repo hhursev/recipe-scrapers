@@ -19,9 +19,6 @@ class SallysBakingAddiction(AbstractScraper):
     def cook_time(self):
         return self.schema.cook_time()
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

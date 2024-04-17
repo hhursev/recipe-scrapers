@@ -38,9 +38,6 @@ class Woolworths(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def cook_time(self):
         return self.schema.cook_time()
 

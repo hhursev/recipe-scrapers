@@ -11,9 +11,6 @@ class BowlOfDelicious(AbstractScraper):
     def description(self):
         return self.schema.description()
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

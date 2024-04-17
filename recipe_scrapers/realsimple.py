@@ -10,9 +10,6 @@ class RealSimple(AbstractScraper):
     def host(cls):
         return "realsimple.com"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         yield_container = self.soup.find("div", string=re.compile(r"Yield:"))
         if yield_container and yield_container.parent:

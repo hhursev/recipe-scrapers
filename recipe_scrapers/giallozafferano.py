@@ -7,9 +7,6 @@ class GialloZafferano(AbstractScraper):
     def host(cls):
         return "ricette.giallozafferano.it"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

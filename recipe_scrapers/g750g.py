@@ -7,9 +7,6 @@ class G750g(AbstractScraper):
     def host(cls):
         return "750g.com"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

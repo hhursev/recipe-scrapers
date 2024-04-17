@@ -21,9 +21,6 @@ class SaboresAnjinomoto(AbstractScraper):
             if len(breadcrumb_items) >= 2:
                 return breadcrumb_items[1].text
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

@@ -8,9 +8,6 @@ class HalfBakedHarvest(AbstractScraper):
     def host(cls):
         return "halfbakedharvest.com"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def cook_time(self):
         return self.schema.cook_time()
 

@@ -14,9 +14,6 @@ class Eatsmarter(AbstractScraper):
     def ratings(self):
         return self.schema.ratings()
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def cook_time(self):
         try:
             return self.schema.cook_time()

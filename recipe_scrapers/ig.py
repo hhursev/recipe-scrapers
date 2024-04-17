@@ -16,9 +16,6 @@ class IG(AbstractScraper):
             if first:
                 return first.find("a").get_text()
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         container = self.soup.find("div", {"class": "box-info-rendimento"})
         if not container:

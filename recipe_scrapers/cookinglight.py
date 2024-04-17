@@ -8,9 +8,6 @@ class CookingLight(AbstractScraper):
     def host(cls):
         return "cookinglight.com"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return get_yields(self.schema.yields())
 

@@ -11,9 +11,6 @@ class StrongrFastr(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def ratings(self):
         return self.schema.ratings()
 

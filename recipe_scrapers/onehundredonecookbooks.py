@@ -13,9 +13,6 @@ class OneHundredOneCookBooks(AbstractScraper):
     def description(self):
         return self.schema.description()
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def prep_time(self):
         return self.schema.prep_time()
 

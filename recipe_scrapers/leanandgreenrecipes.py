@@ -11,9 +11,6 @@ class LeanAndGreenRecipes(AbstractScraper):
     def host(cls):
         return "leanandgreenrecipes.net"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

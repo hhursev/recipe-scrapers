@@ -9,9 +9,6 @@ class BudgetBytes(AbstractScraper):
     def host(cls):
         return "budgetbytes.com"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

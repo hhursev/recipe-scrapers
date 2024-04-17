@@ -7,8 +7,5 @@ class Globo(AbstractScraper):
     def host(cls):
         return "receitas.globo.com"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()

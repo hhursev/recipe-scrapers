@@ -6,6 +6,3 @@ class TheVintageMixer(AbstractScraper):
     @classmethod
     def host(cls):
         return "thevintagemixer.com"
-
-    def total_time(self):
-        return self.schema.total_time()

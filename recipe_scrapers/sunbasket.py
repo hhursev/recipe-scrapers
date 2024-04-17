@@ -9,9 +9,6 @@ class SunBasket(AbstractScraper):
     def host(cls, domain="com"):
         return f"sunbasket.{domain}"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

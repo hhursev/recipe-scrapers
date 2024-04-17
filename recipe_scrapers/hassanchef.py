@@ -11,9 +11,6 @@ class HassanChef(AbstractScraper):
     def author(self):
         return self.schema.author().title()
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

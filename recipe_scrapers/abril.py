@@ -8,9 +8,6 @@ class Abril(AbstractScraper):
     def host(cls):
         return "claudia.abril.com.br"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

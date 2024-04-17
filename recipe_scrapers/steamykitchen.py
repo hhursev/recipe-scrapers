@@ -8,9 +8,6 @@ class SteamyKitchen(AbstractScraper):
     def host(cls):
         return "steamykitchen.com"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

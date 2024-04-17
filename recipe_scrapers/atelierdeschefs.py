@@ -7,9 +7,6 @@ class AtelierDesChefs(AbstractScraper):
     def host(cls):
         return "atelierdeschefs.fr"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         yields = self.soup.find("option", {"class": "yield"})
         return f"{yields.get('value')} Servings"

@@ -11,9 +11,6 @@ class BBCFood(AbstractScraper):
     def title(self):
         return normalize_string(self.soup.find("h1").get_text())
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

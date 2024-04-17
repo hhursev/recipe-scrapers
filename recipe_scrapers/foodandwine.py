@@ -8,9 +8,6 @@ class FoodAndWine(AbstractScraper):
     def host(cls):
         return "foodandwine.com"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         yield_label = self.soup.find(
             "div", {"class": "mntl-recipe-details__label"}, string="Yield:"

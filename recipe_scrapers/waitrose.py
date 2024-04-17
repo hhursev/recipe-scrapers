@@ -12,9 +12,6 @@ class Waitrose(AbstractScraper):
     def author(self):
         return "waitrose.com"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

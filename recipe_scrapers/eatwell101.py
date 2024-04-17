@@ -15,9 +15,6 @@ class EatWell101(AbstractScraper):
     def category(self):
         return html.unescape(self.schema.category())
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

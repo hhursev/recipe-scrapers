@@ -12,9 +12,6 @@ class FranzoesischKochen(AbstractScraper):
         # if they do, then we can use self.schema.author() instead here
         return self.schema.data.get("author").get("Name")
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         # TODO: can recipe yields / servings be retrieved from these pages?
         return None

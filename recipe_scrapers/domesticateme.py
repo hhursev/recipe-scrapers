@@ -17,9 +17,6 @@ class DomesticateMe(AbstractScraper):
         author_name = author_meta_tag["content"] if author_meta_tag else None
         return author_name
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

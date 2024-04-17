@@ -22,9 +22,6 @@ class EmmiKochtEinfach(AbstractScraper):
     def description(self):
         return self.schema.description()
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def cook_time(self):
         return self.schema.cook_time()
 

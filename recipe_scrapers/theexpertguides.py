@@ -7,9 +7,6 @@ class TheExpertGuides(AbstractScraper):
     def host(cls):
         return "theexpertguides.com"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def prep_time(self):
         return self.schema.prep_time()
 

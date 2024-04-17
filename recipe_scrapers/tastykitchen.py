@@ -11,9 +11,6 @@ class TastyKitchen(AbstractScraper):
     def title(self):
         return self.soup.find("h1", {"itemprop": "name"}).get_text()
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

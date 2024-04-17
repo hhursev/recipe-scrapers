@@ -7,9 +7,6 @@ class WholeFoods(AbstractScraper):
     def host(cls, domain="com"):
         return f"wholefoodsmarket.{domain}"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

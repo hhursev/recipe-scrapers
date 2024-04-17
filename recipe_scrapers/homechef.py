@@ -7,9 +7,6 @@ class HomeChef(AbstractScraper):
     def host(cls):
         return "homechef.com"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

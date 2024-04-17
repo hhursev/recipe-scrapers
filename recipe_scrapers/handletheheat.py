@@ -7,8 +7,5 @@ class HandleTheHeat(AbstractScraper):
     def host(cls, domain="handletheheat.com"):
         return domain
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()

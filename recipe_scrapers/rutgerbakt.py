@@ -24,9 +24,6 @@ class RutgerBakt(AbstractScraper):
         )
         return category
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         # The yields are all over the place. There is no way to parse this.
         return None

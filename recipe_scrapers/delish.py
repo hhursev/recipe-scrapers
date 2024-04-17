@@ -8,9 +8,6 @@ class Delish(AbstractScraper):
     def host(cls):
         return "delish.com"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 

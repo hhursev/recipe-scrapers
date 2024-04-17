@@ -8,8 +8,5 @@ class GreatBritishChefs(AbstractScraper):
     def host(cls):
         return "greatbritishchefs.com"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def description(self):
         return self.schema.description()

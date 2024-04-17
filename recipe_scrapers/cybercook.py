@@ -7,9 +7,6 @@ class Cybercook(AbstractScraper):
     def host(cls):
         return "cybercook.com.br"
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return self.schema.yields()
 
