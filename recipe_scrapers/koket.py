@@ -7,9 +7,6 @@ class Koket(AbstractScraper):
     def host(cls):
         return "koket.se"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

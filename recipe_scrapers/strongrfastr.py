@@ -8,9 +8,6 @@ class StrongrFastr(AbstractScraper):
     def host(cls):
         return "strongrfastr.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

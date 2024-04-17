@@ -47,8 +47,5 @@ class TheHappyFoodie(AbstractScraper):
     def instructions(self):
         return self.schema.instructions()
 
-    def author(self):
-        return self.schema.author()
-
     def cuisine(self):
         return self.schema.cuisine()

@@ -10,9 +10,6 @@ class SaboresAnjinomoto(AbstractScraper):
     def host(cls):
         return "saboresajinomoto.com.br"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title().capitalize()
 

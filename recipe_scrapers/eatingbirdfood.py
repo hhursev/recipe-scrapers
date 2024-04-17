@@ -7,9 +7,6 @@ class EatingBirdFood(AbstractScraper):
     def host(cls):
         return "eatingbirdfood.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

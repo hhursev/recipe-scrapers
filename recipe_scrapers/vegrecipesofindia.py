@@ -7,9 +7,6 @@ class VegRecipesOfIndia(AbstractScraper):
     def host(cls):
         return "vegrecipesofindia.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

@@ -9,9 +9,6 @@ class RicettePerBimby(AbstractScraper):
     def host(cls):
         return "ricetteperbimby.it"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

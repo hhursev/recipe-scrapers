@@ -11,9 +11,6 @@ class BowlOfDelicious(AbstractScraper):
     def title(self):
         return self.schema.title()
 
-    def author(self):
-        return self.schema.author()
-
     def description(self):
         return self.schema.description()
 

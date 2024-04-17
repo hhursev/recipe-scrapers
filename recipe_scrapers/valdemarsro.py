@@ -70,9 +70,6 @@ class Valdemarsro(AbstractScraper):
 
         return "\n".join(instructions_list)
 
-    def author(self):
-        return self.schema.author()
-
     def description(self):
         description_element = self.soup.find("div", {"itemprop": "description"})
 

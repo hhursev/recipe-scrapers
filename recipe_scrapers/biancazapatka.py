@@ -7,9 +7,6 @@ class BiancaZapatka(AbstractScraper):
     def host(cls):
         return "biancazapatka.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

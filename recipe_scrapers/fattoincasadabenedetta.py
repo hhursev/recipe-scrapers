@@ -9,9 +9,6 @@ class FattoInCasaDaBenedetta(AbstractScraper):
     def host(cls):
         return "fattoincasadabenedetta.it"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

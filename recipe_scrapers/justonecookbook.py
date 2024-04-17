@@ -9,9 +9,6 @@ class JustOneCookbook(AbstractScraper):
     def host(cls):
         return "justonecookbook.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

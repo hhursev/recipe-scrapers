@@ -31,6 +31,3 @@ class SweetPeasAndSaffron(AbstractScraper):
 
     def ratings(self):
         return self.schema.ratings()
-
-    def author(self):
-        return self.schema.author()

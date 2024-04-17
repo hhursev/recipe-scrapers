@@ -8,9 +8,6 @@ class RedHouseSpice(AbstractScraper):
     def host(cls):
         return "redhousespice.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

@@ -10,9 +10,6 @@ class RealSimple(AbstractScraper):
     def host(cls):
         return "realsimple.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

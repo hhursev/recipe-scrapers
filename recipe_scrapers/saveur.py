@@ -7,9 +7,6 @@ class Saveur(AbstractScraper):
     def host(cls):
         return "saveur.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

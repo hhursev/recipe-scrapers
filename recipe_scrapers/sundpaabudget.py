@@ -37,9 +37,6 @@ class SundPaaBudget(AbstractScraper):
     def ratings(self):
         return self.schema.ratings()
 
-    def author(self):
-        return self.schema.author()
-
     def description(self):
         # Schema returns empty string
         return self.soup.head.find("meta", {"property": "og:description"})["content"]

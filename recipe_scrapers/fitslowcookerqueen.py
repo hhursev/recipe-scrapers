@@ -9,9 +9,6 @@ class FitSlowCookerQueen(AbstractScraper):
     def host(cls):
         return "fitslowcookerqueen.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

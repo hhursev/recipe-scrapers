@@ -8,9 +8,6 @@ class RealFoodTesco(AbstractScraper):
     def host(cls):
         return "realfood.tesco.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

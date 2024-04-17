@@ -10,9 +10,6 @@ class UitPaulinesKeukenNL(AbstractScraper):
     def host(cls):
         return "uitpaulineskeuken.nl"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

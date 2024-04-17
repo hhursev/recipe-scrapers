@@ -15,9 +15,6 @@ class AkisPetretzikis(AbstractScraper):
     def host(cls):
         return "akispetretzikis.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

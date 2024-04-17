@@ -12,9 +12,6 @@ class EatingWell(AbstractScraper):
     def title(self):
         return self.schema.title()
 
-    def author(self):
-        return self.schema.author()
-
     def image(self):
         return self.schema.image()
 

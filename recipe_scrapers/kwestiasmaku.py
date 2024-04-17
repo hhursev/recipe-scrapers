@@ -8,9 +8,6 @@ class KwestiaSmaku(AbstractScraper):
     def host(cls):
         return "kwestiasmaku.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

@@ -9,9 +9,6 @@ class TidyMom(AbstractScraper):
     def host(cls):
         return "tidymom.net"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

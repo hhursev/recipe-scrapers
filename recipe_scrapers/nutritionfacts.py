@@ -9,9 +9,6 @@ class NutritionFacts(AbstractScraper):
     def host(cls):
         return "nutritionfacts.org"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

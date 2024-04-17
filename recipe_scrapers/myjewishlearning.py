@@ -8,9 +8,6 @@ class MyJewishLearning(AbstractScraper):
     def host(cls):
         return "myjewishlearning.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

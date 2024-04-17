@@ -46,9 +46,6 @@ class ThePioneerWoman(AbstractScraper):
     def ratings(self):
         return self.schema.ratings()
 
-    def author(self):
-        return self.schema.author()
-
     def cuisine(self):
         return self.schema.cuisine()
 

@@ -11,9 +11,6 @@ class TasteAU(AbstractScraper):
     def host(cls):
         return "taste.com.au"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

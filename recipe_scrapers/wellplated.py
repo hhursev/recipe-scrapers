@@ -11,9 +11,6 @@ class WellPlated(AbstractScraper):
     def title(self):
         return self.schema.title()
 
-    def author(self):
-        return self.schema.author()
-
     def category(self):
         return self.schema.category()
 

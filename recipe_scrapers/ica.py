@@ -7,9 +7,6 @@ class Ica(AbstractScraper):
     def host(cls):
         return "ica.se"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

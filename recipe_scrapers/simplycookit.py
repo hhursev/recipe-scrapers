@@ -8,9 +8,6 @@ class SimplyCookit(AbstractScraper):
     def host(cls):
         return "simply-cookit.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

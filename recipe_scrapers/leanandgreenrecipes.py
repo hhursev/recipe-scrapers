@@ -11,9 +11,6 @@ class LeanAndGreenRecipes(AbstractScraper):
     def host(cls):
         return "leanandgreenrecipes.net"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

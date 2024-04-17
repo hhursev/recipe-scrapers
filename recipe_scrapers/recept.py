@@ -8,9 +8,6 @@ class Recept(AbstractScraper):
     def host(cls):
         return "recept.se"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

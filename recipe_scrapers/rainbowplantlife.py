@@ -8,9 +8,6 @@ class RainbowPlantLife(AbstractScraper):
     def host(cls):
         return "rainbowplantlife.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

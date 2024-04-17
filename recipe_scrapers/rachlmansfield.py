@@ -8,9 +8,6 @@ class RachlMansfield(AbstractScraper):
     def host(cls):
         return "rachlmansfield.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

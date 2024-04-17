@@ -9,9 +9,6 @@ class Reishunger(AbstractScraper):
     def host(cls):
         return "reishunger.de"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

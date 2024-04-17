@@ -7,9 +7,6 @@ class ComidinhasDoChef(AbstractScraper):
     def host(cls):
         return "comidinhasdochef.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

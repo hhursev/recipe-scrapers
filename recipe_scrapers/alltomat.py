@@ -8,9 +8,6 @@ class AllTomat(AbstractScraper):
     def host(cls):
         return "alltommat.se"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

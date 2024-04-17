@@ -8,9 +8,6 @@ class ChefSavvy(AbstractScraper):
     def host(cls):
         return "chefsavvy.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

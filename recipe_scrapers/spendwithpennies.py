@@ -11,9 +11,6 @@ class SpendWithPennies(AbstractScraper):
     def title(self):
         return self.schema.title()
 
-    def author(self):
-        return self.schema.author()
-
     def total_time(self):
         return self.schema.total_time()
 

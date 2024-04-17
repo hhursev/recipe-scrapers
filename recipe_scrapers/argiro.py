@@ -7,9 +7,6 @@ class Argiro(AbstractScraper):
     def host(cls):
         return "argiro.gr"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

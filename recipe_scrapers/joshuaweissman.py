@@ -11,9 +11,6 @@ class JoshuaWeissman(AbstractScraper):
     def host(cls):
         return "joshuaweissman.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 

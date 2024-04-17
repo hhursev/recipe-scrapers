@@ -7,9 +7,6 @@ class HeadbangersKitchen(AbstractScraper):
     def host(cls):
         return "headbangerskitchen.com"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title()
 
