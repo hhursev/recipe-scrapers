@@ -12,9 +12,6 @@ class Maangchi(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredients(self):
         before = self.soup.find("h2", string="Ingredients").find_all_next("li")
         after = self.soup.find("h2", string="Directions").find_all_previous("li")

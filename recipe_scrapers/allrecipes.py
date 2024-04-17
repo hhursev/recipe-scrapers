@@ -28,9 +28,6 @@ class AllRecipesCurated(AbstractScraper):
     def prep_time(self):
         return self.schema.prep_time()
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredients(self):
         def get_ingredient_text(item, key):
             span = item.find("span", {"data-ingredient-" + key: True})

@@ -21,9 +21,6 @@ class SaboresAnjinomoto(AbstractScraper):
             if len(breadcrumb_items) >= 2:
                 return breadcrumb_items[1].text
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredients(self):
         ingredients_list = []
         ingredients_section = self.soup.find("div", {"class": "ingredients"})

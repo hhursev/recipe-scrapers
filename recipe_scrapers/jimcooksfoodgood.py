@@ -7,8 +7,5 @@ class JimCooksFoodGood(AbstractScraper):
     def host(cls):
         return "jimcooksfoodgood.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ratings(self):
         return self.schema.ratings()

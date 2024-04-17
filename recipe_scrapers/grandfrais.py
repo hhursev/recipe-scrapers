@@ -44,9 +44,6 @@ class GrandFrais(AbstractScraper):
             return get_minutes(raw[0].text)
         return None
 
-    def yields(self):
-        return self.schema.yields()
-
     def image(self):
         img = self.soup.find("img", {"alt": self.title()})
         if img:

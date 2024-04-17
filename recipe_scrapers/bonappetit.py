@@ -9,6 +9,3 @@ class BonAppetit(AbstractScraper):
 
     def total_time(self):
         return None
-
-    def yields(self):
-        return self.schema.yields()

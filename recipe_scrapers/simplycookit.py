@@ -11,9 +11,6 @@ class SimplyCookit(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredients(self):
         ingredients = []
         for li in self.soup.find("ul", {"class": "recipe_ingredients"}).findAll("li"):

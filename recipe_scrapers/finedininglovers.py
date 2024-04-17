@@ -7,6 +7,3 @@ class FineDiningLovers(AbstractScraper):
     @classmethod
     def host(cls):
         return "finedininglovers.com"
-
-    def yields(self):
-        return self.schema.yields()

@@ -6,6 +6,3 @@ class ClosetCooking(AbstractScraper):
     @classmethod
     def host(cls):
         return "closetcooking.com"
-
-    def yields(self):
-        return self.schema.yields()

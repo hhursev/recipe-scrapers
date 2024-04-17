@@ -6,6 +6,3 @@ class Food(AbstractScraper):
     @classmethod
     def host(cls):
         return "food.com"
-
-    def yields(self):
-        return self.schema.yields()

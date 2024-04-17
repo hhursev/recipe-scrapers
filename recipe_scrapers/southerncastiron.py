@@ -6,6 +6,3 @@ class SouthernCastIron(AbstractScraper):
     @classmethod
     def host(cls, domain="southerncastiron.com"):
         return domain
-
-    def yields(self):
-        return self.schema.yields()

@@ -11,9 +11,6 @@ class TheHappyFoodie(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredients(self):
         ingredient_elements = self.soup.find(
             "div", {"class": "hf-ingredients__container"}

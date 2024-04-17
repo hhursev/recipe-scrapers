@@ -8,9 +8,6 @@ class RedHouseSpice(AbstractScraper):
     def host(cls):
         return "redhousespice.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),

@@ -7,8 +7,5 @@ class SkinnyTaste(AbstractScraper):
     def host(cls):
         return "skinnytaste.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ratings(self):
         return self.schema.ratings()

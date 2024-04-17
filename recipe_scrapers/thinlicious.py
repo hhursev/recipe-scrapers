@@ -7,8 +7,5 @@ class Thinlicious(AbstractScraper):
     def host(cls):
         return "thinlicious.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ratings(self):
         return self.schema.ratings()

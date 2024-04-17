@@ -13,9 +13,6 @@ class UitPaulinesKeukenNL(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredients(self):
         ingredients = self.soup.find("section", {"id": "ingredienten"}).findChildren(
             "li"

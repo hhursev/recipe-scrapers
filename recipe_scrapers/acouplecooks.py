@@ -7,8 +7,5 @@ class ACoupleCooks(AbstractScraper):
     def host(cls):
         return "acouplecooks.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def instructions(self):
         return self.schema.instructions()

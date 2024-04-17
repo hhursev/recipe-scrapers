@@ -7,9 +7,6 @@ class PrimalEdgeHealth(AbstractScraper):
     def host(cls):
         return "primaledgehealth.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredients(self):
         return [
             ingredient.replace("\u00C2", "") for ingredient in self.schema.ingredients()

@@ -7,8 +7,5 @@ class Hostthetoast(AbstractScraper):
     def host(cls):
         return "hostthetoast.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ratings(self):
         return self.schema.ratings()

@@ -8,9 +8,6 @@ class Abril(AbstractScraper):
     def host(cls):
         return "claudia.abril.com.br"
 
-    def yields(self):
-        return self.schema.yields()
-
     def instructions(self):
         modo_de_preparo = self.soup.find("div", class_="modo-de-preparo")
         instructions = modo_de_preparo.find_all("p")

@@ -16,9 +16,6 @@ class SundPaaBudget(AbstractScraper):
     def prep_time(self):
         return self.schema.prep_time()
 
-    def yields(self):
-        return self.schema.yields()
-
     def ratings(self):
         return self.schema.ratings()
 

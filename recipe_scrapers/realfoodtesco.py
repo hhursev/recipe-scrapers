@@ -8,9 +8,6 @@ class RealFoodTesco(AbstractScraper):
     def host(cls):
         return "realfood.tesco.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredient_groups(self):
         return group_ingredients(
             ingredients_list=self.ingredients(),

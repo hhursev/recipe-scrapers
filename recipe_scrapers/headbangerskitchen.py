@@ -7,8 +7,5 @@ class HeadbangersKitchen(AbstractScraper):
     def host(cls):
         return "headbangerskitchen.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ratings(self):
         return self.schema.ratings()

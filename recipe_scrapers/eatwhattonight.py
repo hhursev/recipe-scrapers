@@ -6,6 +6,3 @@ class EatWhatTonight(AbstractScraper):
     @classmethod
     def host(cls):
         return "eatwhattonight.com"
-
-    def yields(self):
-        return self.schema.yields()

@@ -15,9 +15,6 @@ class Smulweb(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def yields(self):
-        return self.schema.yields()
-
     def instructions(self):
         schema_instructions = self.schema.instructions()
         return self.instruction_delimiter.sub(r"\1\n\2", schema_instructions)

@@ -8,9 +8,6 @@ class TimesOfIndia(AbstractScraper):
     def host(cls):
         return "recipes.timesofindia.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredients(self):
         ingredients = self.soup.find_all("label", attrs={"class": "clearfix"})
 

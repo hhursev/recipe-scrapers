@@ -12,9 +12,6 @@ class Yummly(AbstractScraper):
     def author(self):
         return self.soup.find("a", {"class": "markdown-link"}).get_text()
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredients(self):
         ingredients = self.soup.findAll("li", {"class": "IngredientLine"})
 

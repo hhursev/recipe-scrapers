@@ -10,9 +10,6 @@ class KingArthur(AbstractScraper):
     def host(cls):
         return "kingarthurbaking.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def instructions(self):
         """
         King Arthur updated how they format their instructions to include html (instructions wrapped in <p>) in the

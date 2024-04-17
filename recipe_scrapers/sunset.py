@@ -7,8 +7,5 @@ class Sunset(AbstractScraper):
     def host(cls):
         return "sunset.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ratings(self):
         return self.schema.ratings()

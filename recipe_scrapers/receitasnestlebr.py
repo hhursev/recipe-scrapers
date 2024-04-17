@@ -24,9 +24,6 @@ class ReceitasNestleBR(AbstractScraper):
                     total_time = int(total_time_str.group())
         return total_time
 
-    def yields(self):
-        return self.schema.yields()
-
     def instructions(self):
         steps_div = self.soup.find("div", {"class": "recipeDetail__steps"})
         instructions = []

@@ -7,8 +7,5 @@ class MarthaStewart(AbstractScraper):
     def host(cls):
         return "marthastewart.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ratings(self):
         return self.schema.ratings()

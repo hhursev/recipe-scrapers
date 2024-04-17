@@ -12,9 +12,6 @@ class NoRecipes(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def yields(self):
-        return self.schema.yields()
-
     def _cleaned_ingredients(self):
         ingredients_list = self.schema.ingredients()
         return [

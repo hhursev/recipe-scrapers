@@ -11,9 +11,6 @@ class Innit(AbstractScraper):
     def host(cls, domain="com"):
         return f"innit.{domain}"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ratings(self):
         return self.schema.ratings()
 

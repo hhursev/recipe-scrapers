@@ -8,9 +8,6 @@ class TheSpruceEats(AbstractScraper):
     def host(cls):
         return "thespruceeats.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredients(self):
         ingredients = self.soup.select("li.structured-ingredients__list-item p")
         extracted_ingredients = []

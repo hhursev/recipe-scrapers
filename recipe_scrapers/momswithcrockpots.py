@@ -8,9 +8,6 @@ class MomsWithCrockPots(AbstractScraper):
     def host(cls):
         return "momswithcrockpots.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ratings(self):
         return self.schema.ratings()
 

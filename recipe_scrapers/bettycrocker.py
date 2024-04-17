@@ -15,9 +15,6 @@ class BettyCrocker(AbstractScraper):
     def host(cls):
         return "bettycrocker.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),

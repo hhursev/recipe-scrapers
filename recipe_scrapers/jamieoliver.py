@@ -8,9 +8,6 @@ class JamieOliver(AbstractScraper):
     def host(cls):
         return "jamieoliver.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def image(self):
         return self.schema.catimageegory()
 

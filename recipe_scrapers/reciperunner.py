@@ -7,8 +7,5 @@ class RecipeRunner(AbstractScraper):
     def host(cls):
         return "reciperunner.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ratings(self):
         return self.schema.ratings()

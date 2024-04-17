@@ -6,6 +6,3 @@ class HandleTheHeat(AbstractScraper):
     @classmethod
     def host(cls, domain="handletheheat.com"):
         return domain
-
-    def yields(self):
-        return self.schema.yields()

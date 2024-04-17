@@ -8,9 +8,6 @@ class NYTimes(AbstractScraper):
     def host(cls):
         return "cooking.nytimes.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredient_groups(self):
         """
         The NYTimes website appears to auto generate it's CSS class names, which results in them ending

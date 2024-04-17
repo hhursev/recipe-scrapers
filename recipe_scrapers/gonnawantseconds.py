@@ -7,8 +7,5 @@ class GonnaWantSeconds(AbstractScraper):
     def host(cls):
         return "gonnawantseconds.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def description(self):
         return self.schema.description()

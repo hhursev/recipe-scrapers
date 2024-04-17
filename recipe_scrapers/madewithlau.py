@@ -19,9 +19,6 @@ class MadeWithLau(AbstractScraper):
     def prep_time(self):
         return self.schema.prep_time()
 
-    def yields(self):
-        return self.schema.yields()
-
     def instructions(self):
         # collect headers
         headers = [

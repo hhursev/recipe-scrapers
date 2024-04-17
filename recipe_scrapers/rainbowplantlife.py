@@ -8,9 +8,6 @@ class RainbowPlantLife(AbstractScraper):
     def host(cls):
         return "rainbowplantlife.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),

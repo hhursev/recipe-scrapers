@@ -12,9 +12,6 @@ class WilliamsSonoma(AbstractScraper):
     def author(self):
         return "Williams Sonoma"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),

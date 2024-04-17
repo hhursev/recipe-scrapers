@@ -15,9 +15,6 @@ class EatWell101(AbstractScraper):
     def category(self):
         return html.unescape(self.schema.category())
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredients(self):
         ingredients_h2 = self.soup.find(
             "h2", string=re.compile(r"Ingredients", re.IGNORECASE)

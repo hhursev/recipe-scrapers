@@ -8,9 +8,6 @@ class KennyMcGovern(AbstractScraper):
     def host(cls):
         return "kennymcgovern.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def instructions(self):
         instructions = self.soup.findAll(
             "div", {"class": "wprm-recipe-instruction-text"}

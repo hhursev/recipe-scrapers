@@ -22,9 +22,6 @@ class USAPears(AbstractScraper):
                 )
         return total_time
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredients(self):
         ingredient_elements = self.soup.find_all("li", {"itemprop": "ingredients"})
 

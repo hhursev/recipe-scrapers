@@ -6,6 +6,3 @@ class Globo(AbstractScraper):
     @classmethod
     def host(cls):
         return "receitas.globo.com"
-
-    def yields(self):
-        return self.schema.yields()

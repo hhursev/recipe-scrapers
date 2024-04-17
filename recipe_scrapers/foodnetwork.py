@@ -6,9 +6,6 @@ class FoodNetwork(AbstractScraper):
     def host(cls, domain="co.uk"):
         return f"foodnetwork.{domain}"
 
-    def yields(self):
-        return self.schema.yields()
-
     def cuisine(self):
         return self.schema.cuisine()
 

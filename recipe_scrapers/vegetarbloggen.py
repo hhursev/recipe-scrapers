@@ -11,9 +11,6 @@ class Vegetarbloggen(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def yields(self):
-        return self.schema.yields()
-
     def instructions(self):
         return self.schema.instructions().strip()
 

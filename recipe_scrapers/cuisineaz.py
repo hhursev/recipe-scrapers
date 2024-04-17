@@ -7,9 +7,6 @@ class CuisineAZ(AbstractScraper):
     def host(cls):
         return "cuisineaz.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredients(self):
         ingredients_list = self.schema.ingredients()
 

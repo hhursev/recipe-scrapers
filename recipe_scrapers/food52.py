@@ -7,8 +7,5 @@ class Food52(AbstractScraper):
     def host(cls):
         return "food52.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ratings(self):
         return self.schema.ratings()

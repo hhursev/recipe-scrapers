@@ -11,8 +11,5 @@ class Breadtopia(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def yields(self):
-        return self.schema.yields()
-
     def description(self):
         return self.schema.description()

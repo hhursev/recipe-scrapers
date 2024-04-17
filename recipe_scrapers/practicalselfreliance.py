@@ -6,6 +6,3 @@ class PracticalSelfReliance(AbstractScraper):
     @classmethod
     def host(cls, domain="practicalselfreliance.com"):
         return domain
-
-    def yields(self):
-        return self.schema.yields()

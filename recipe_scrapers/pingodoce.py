@@ -7,9 +7,6 @@ class PingoDoce(AbstractScraper):
     def host(cls):
         return "pingodoce.pt"
 
-    def yields(self):
-        return self.schema.yields()
-
     def instructions(self):
         instructions = self.soup.findAll("div", {"class": "step-description"})
         return "\n".join([i.get_text() for i in instructions])

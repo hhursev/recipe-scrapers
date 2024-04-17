@@ -8,9 +8,6 @@ class Joyfoodsunshine(AbstractScraper):
     def host(cls):
         return "joyfoodsunshine.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredients(self):
         ingredients = self.soup.findAll("li", {"class": "wprm-recipe-ingredient"})
 

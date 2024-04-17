@@ -8,9 +8,6 @@ class TasteOfHome(AbstractScraper):
     def host(cls):
         return "tasteofhome.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def instructions(self):
         instructions = self.soup.findAll("li", {"class": "recipe-directions__item"})
         if instructions:

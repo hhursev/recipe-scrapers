@@ -10,9 +10,6 @@ class BongEats(AbstractScraper):
     def description(self):
         return self.schema.description()
 
-    def yields(self):
-        return self.schema.yields()
-
     def prep_time(self):
         return self.schema.prep_time()
 

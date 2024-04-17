@@ -13,9 +13,6 @@ class AlbertHeijn(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def yields(self):
-        return self.schema.yields()
-
     def instructions(self):
         instructions = [
             normalize_string(step.get_text())

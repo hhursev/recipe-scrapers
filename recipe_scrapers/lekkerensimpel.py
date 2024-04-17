@@ -21,9 +21,6 @@ class LekkerEnSimpel(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def yields(self):
-        return self.schema.yields()
-
     def image(self):
         image = self.soup.find("meta", {"property", "og:image"})
         return image["content"] if image else None

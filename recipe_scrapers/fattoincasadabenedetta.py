@@ -12,9 +12,6 @@ class FattoInCasaDaBenedetta(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def yields(self):
-        return self.schema.yields()
-
     def instructions(self):
         step_divs = self.soup.find_all("div", {"class": "step"})
 

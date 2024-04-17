@@ -11,8 +11,5 @@ class Epicurious(AbstractScraper):
     def author(self):
         return self.soup.find("a", {"itemprop": "author"}).get_text()
 
-    def yields(self):
-        return self.schema.yields()
-
     def ratings(self):
         return self.schema.ratings()

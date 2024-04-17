@@ -7,9 +7,6 @@ class MyKitchen101en(AbstractScraper):
     def host(cls):
         return "mykitchen101en.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def equipment(self):
         return list(
             {

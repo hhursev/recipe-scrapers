@@ -14,9 +14,6 @@ class Therecipecritic(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def yields(self):
-        return self.schema.yields()
-
     def cuisine(self):
         return self.schema.cuisine()
 

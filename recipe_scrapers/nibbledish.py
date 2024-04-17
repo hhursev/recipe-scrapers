@@ -8,9 +8,6 @@ class NibbleDish(AbstractScraper):
     def host(cls):
         return "nibbledish.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredients(self):
         schema_ingredients = self.schema.ingredients()
 

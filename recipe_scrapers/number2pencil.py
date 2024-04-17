@@ -42,9 +42,6 @@ class Number2Pencil(AbstractScraper):
     def cuisine(self):
         return self.schema.cuisine()
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredient_groups(self):
         return group_ingredients(
             ingredients_list=self.ingredients(),

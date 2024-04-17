@@ -49,9 +49,6 @@ class Valdemarsro(AbstractScraper):
     def cook_time(self):
         return self.get_time("Arbejdstid")
 
-    def yields(self):
-        return self.schema.yields()
-
     def instructions(self):
         instruction_elements = self.soup.find(
             "div", {"itemprop": "recipeInstructions"}

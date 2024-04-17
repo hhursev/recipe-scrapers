@@ -7,9 +7,6 @@ class HomeChef(AbstractScraper):
     def host(cls):
         return "homechef.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def instructions(self):
         return "\n".join(
             [

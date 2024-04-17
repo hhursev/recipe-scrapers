@@ -24,9 +24,6 @@ class TineNo(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def yields(self):
-        return self.schema.yields()
-
     def image(self):
         image = self.soup.find("img", {"id": "HeaderMediaContent"})
         if not image:

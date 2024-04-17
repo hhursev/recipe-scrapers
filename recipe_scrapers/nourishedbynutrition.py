@@ -7,8 +7,5 @@ class NourishedByNutrition(AbstractScraper):
     def host(cls):
         return "nourishedbynutrition.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ratings(self):
         return self.schema.ratings()

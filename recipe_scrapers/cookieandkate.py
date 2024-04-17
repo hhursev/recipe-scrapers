@@ -7,8 +7,5 @@ class CookieAndKate(AbstractScraper):
     def host(cls):
         return "cookieandkate.com"
 
-    def yields(self):
-        return self.schema.yields()
-
     def ratings(self):
         return self.schema.ratings()

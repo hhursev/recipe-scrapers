@@ -11,9 +11,6 @@ class BBCFood(AbstractScraper):
     def title(self):
         return normalize_string(self.soup.find("h1").get_text())
 
-    def yields(self):
-        return self.schema.yields()
-
     def author(self):
         container = self.soup.find("div", {"class": "chef__name"})
         if not container:

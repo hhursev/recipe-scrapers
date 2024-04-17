@@ -15,9 +15,6 @@ class Rezeptwelt(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def yields(self):
-        return self.schema.yields()
-
     def instructions(self):
         container = self.soup.find("div", id="preparationSteps").find(
             "span", itemprop="text"

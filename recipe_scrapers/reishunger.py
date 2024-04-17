@@ -9,9 +9,6 @@ class Reishunger(AbstractScraper):
     def host(cls):
         return "reishunger.de"
 
-    def yields(self):
-        return self.schema.yields()
-
     def instructions(self):
         # find the "instructions" heading (Zubereitung in German)
         for heading in self.soup.findAll("h3"):

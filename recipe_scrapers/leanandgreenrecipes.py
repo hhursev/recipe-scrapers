@@ -11,9 +11,6 @@ class LeanAndGreenRecipes(AbstractScraper):
     def host(cls):
         return "leanandgreenrecipes.net"
 
-    def yields(self):
-        return self.schema.yields()
-
     def instructions(self):
         instructions = (
             self.soup.find("div", {"class": "item-list"}).find_next("ol").find_all("li")

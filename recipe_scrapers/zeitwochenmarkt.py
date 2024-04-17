@@ -23,9 +23,6 @@ class ZeitWochenmarkt(AbstractScraper):
     def author(self):
         return self.soup.find("a", {"rel": "author"}).get_text().strip()
 
-    def yields(self):
-        return self.schema.yields()
-
     def ingredients(self):
         ingredients = []
         for div_element in self.soup.select(".recipe-list-collection"):
