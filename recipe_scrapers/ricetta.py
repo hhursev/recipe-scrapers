@@ -8,9 +8,6 @@ class Ricetta(AbstractScraper):
     def host(cls):
         return "ricetta.it"
 
-    def category(self):
-        return self.schema.category()
-
     def instructions(self):
         instructions_list = []
 
@@ -27,6 +24,3 @@ class Ricetta(AbstractScraper):
             instructions_list.append(current_instruction.lstrip(" "))
 
         return "\n".join(instructions_list)
-
-    def cuisine(self):
-        return self.schema.cuisine()

@@ -9,9 +9,6 @@ class FattoInCasaDaBenedetta(AbstractScraper):
     def host(cls):
         return "fattoincasadabenedetta.it"
 
-    def category(self):
-        return self.schema.category()
-
     def instructions(self):
         step_divs = self.soup.find_all("div", {"class": "step"})
 

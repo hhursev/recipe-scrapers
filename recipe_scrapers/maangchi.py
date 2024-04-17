@@ -9,9 +9,6 @@ class Maangchi(AbstractScraper):
     def host(cls):
         return "maangchi.com"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredients(self):
         before = self.soup.find("h2", string="Ingredients").find_all_next("li")
         after = self.soup.find("h2", string="Directions").find_all_previous("li")
@@ -28,6 +25,3 @@ class Maangchi(AbstractScraper):
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()

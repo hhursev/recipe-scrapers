@@ -32,12 +32,6 @@ class AllRecipesCurated(AbstractScraper):
 
         return ingredients_list
 
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def category(self):
-        return self.schema.category()
-
 
 class AllRecipesUser(AbstractScraper):
     """Parse "unpublished" personal recipes on AllRecipes.com.

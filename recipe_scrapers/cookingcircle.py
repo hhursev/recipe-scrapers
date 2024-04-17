@@ -15,9 +15,6 @@ class CookingCircle(AbstractScraper):
             .get_text()
         )
 
-    def category(self):
-        return self.schema.category()
-
     def ingredients(self):
         ul_list = (
             self.soup.find(

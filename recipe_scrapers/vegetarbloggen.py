@@ -8,8 +8,5 @@ class Vegetarbloggen(AbstractScraper):
     def host(cls):
         return "vegetarbloggen.no"
 
-    def category(self):
-        return self.schema.category()
-
     def instructions(self):
         return self.schema.instructions().strip()

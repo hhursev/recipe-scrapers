@@ -9,9 +9,6 @@ class FoodFidelity(AbstractScraper):
     def host(cls):
         return "foodfidelity.com"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -19,9 +16,6 @@ class FoodFidelity(AbstractScraper):
             ".wprm-recipe-ingredient-group h4",
             ".wprm-recipe-ingredient",
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         img_tag = self.soup.find("img", {"data-pin-description": True})

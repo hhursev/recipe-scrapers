@@ -6,6 +6,3 @@ class TheExpertGuides(AbstractScraper):
     @classmethod
     def host(cls):
         return "theexpertguides.com"
-
-    def cuisine(self):
-        return self.schema.cuisine()

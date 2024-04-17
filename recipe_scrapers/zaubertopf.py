@@ -9,9 +9,6 @@ class ZauberTopf(AbstractScraper):
     def host(cls):
         return "zaubertopf.de"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredients(self):
         for h2_element in self.soup.find_all("h2"):
             if "Die Zutaten" in h2_element.text:

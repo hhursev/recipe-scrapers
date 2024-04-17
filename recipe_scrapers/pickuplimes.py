@@ -10,9 +10,6 @@ class PickUpLimes(AbstractScraper):
     def host(cls):
         return "pickuplimes.com"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(), self.soup, "h3.pt-3", ".ingredient-container"
@@ -24,6 +21,3 @@ class PickUpLimes(AbstractScraper):
             for e in self.soup.find_all(class_="direction")
         ]
         return "\n".join(instructions) if instructions else None
-
-    def cuisine(self):
-        return self.schema.cuisine()

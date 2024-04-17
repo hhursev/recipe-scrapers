@@ -13,9 +13,6 @@ class BareFootContessa(AbstractScraper):
     def author(self):
         return "Ina Garten"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredients(self):
         ingredient_list = []
         ingredient_divs = self.soup.find_all("div", {"class": "mb-10"})

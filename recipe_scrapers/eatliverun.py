@@ -10,6 +10,3 @@ class EatLiveRun(AbstractScraper):
 
     def site_name(self):
         return "Eat, Live, Run"
-
-    def category(self):
-        return self.schema.category()

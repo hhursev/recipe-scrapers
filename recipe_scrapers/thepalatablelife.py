@@ -9,9 +9,6 @@ class ThePalatableLife(AbstractScraper):
     def host(cls):
         return "thepalatablelife.com"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -19,6 +16,3 @@ class ThePalatableLife(AbstractScraper):
             ".wprm-recipe-ingredient-group h4",
             ".wprm-recipe-ingredient",
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()

@@ -10,9 +10,6 @@ class BongEats(AbstractScraper):
     def nutrients(self):
         return self.schema.nutrients()
 
-    def cuisine(self):
-        return self.schema.cuisine()
-
     def ingredients(self):
         ingredients_div = self.soup.find(
             "div",

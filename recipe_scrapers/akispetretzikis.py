@@ -15,11 +15,5 @@ class AkisPetretzikis(AbstractScraper):
     def host(cls):
         return "akispetretzikis.com"
 
-    def category(self):
-        return self.schema.category()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
     def language(self):
         return self.recipe_json["locale"]

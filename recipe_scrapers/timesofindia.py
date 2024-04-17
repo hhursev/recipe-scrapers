@@ -17,6 +17,3 @@ class TimesOfIndia(AbstractScraper):
         meta_language = self.soup.find("meta", attrs={"http-equiv": "content-language"})
 
         return normalize_string(meta_language.get("content"))
-
-    def cuisine(self):
-        return self.schema.cuisine()

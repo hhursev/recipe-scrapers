@@ -17,9 +17,6 @@ class BakingSense(AbstractScraper):
             ".wprm-recipe-ingredient-group li",
         )
 
-    def cuisine(self):
-        return self.schema.cuisine()
-
     def equipment(self):
         equipment_items = [
             equip.get_text()

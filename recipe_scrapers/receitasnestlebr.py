@@ -10,9 +10,6 @@ class ReceitasNestleBR(AbstractScraper):
     def host(cls):
         return "receitasnestle.com.br"
 
-    def category(self):
-        return self.schema.category()
-
     def total_time(self):
         total_time = self.schema.total_time()
         if total_time is None:

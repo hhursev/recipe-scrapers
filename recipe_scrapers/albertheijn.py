@@ -10,9 +10,6 @@ class AlbertHeijn(AbstractScraper):
     def host(cls):
         return "ah.nl"
 
-    def category(self):
-        return self.schema.category()
-
     def instructions(self):
         instructions = [
             normalize_string(step.get_text())
@@ -30,6 +27,3 @@ class AlbertHeijn(AbstractScraper):
 
         # try schema.org
         return self.schema.instructions()
-
-    def cuisine(self):
-        return self.schema.cuisine()

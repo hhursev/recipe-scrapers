@@ -8,9 +8,6 @@ class SimplyCookit(AbstractScraper):
     def host(cls):
         return "simply-cookit.com"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredients(self):
         ingredients = []
         for li in self.soup.find("ul", {"class": "recipe_ingredients"}).findAll("li"):
@@ -25,6 +22,3 @@ class SimplyCookit(AbstractScraper):
             instructions.append(normalize_string(li.get_text()))
 
         return "\n".join(instructions)
-
-    def cuisine(self):
-        return self.schema.cuisine()

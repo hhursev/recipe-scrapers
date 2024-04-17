@@ -37,9 +37,3 @@ class HelloFresh(AbstractScraper):
 
     def nutrients(self):
         return self.schema.nutrients()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def category(self):
-        return self.schema.category()

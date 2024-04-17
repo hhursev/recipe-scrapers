@@ -9,9 +9,6 @@ class USAPears(AbstractScraper):
     def host(cls):
         return "usapears.org"
 
-    def category(self):
-        return self.schema.category()
-
     def total_time(self):
         total_time = 0
         recipe_legends = self.soup.find_all("div", {"class": "recipe-legend"})
@@ -29,6 +26,3 @@ class USAPears(AbstractScraper):
             normalize_string(paragraph.get_text().strip())
             for paragraph in ingredient_elements
         ]
-
-    def cuisine(self):
-        return self.schema.cuisine()

@@ -15,9 +15,6 @@ class OnceUponAChef(AbstractScraper):
         author_name = normalize_string(author_tag.get_text())
         return author_name
 
-    def category(self):
-        return self.schema.category()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -25,6 +22,3 @@ class OnceUponAChef(AbstractScraper):
             ".ingredients h4",
             "li.ingredient",
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()

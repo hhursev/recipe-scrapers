@@ -8,9 +8,6 @@ class AltonBrown(AbstractScraper):
     def host(cls):
         return "altonbrown.com"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -18,9 +15,6 @@ class AltonBrown(AbstractScraper):
             ".wprm-recipe-ingredient-group h4",
             ".wprm-recipe-ingredient",
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def equipment(self):
         return list(

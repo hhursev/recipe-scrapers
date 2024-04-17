@@ -9,9 +9,6 @@ class BlueJeanChef(AbstractScraper):
     def host(cls):
         return "bluejeanchef.com"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -19,6 +16,3 @@ class BlueJeanChef(AbstractScraper):
             ".wprm-recipe-ingredient-group h5",
             ".wprm-recipe-ingredients li",
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()

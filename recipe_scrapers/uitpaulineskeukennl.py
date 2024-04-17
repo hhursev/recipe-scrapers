@@ -10,9 +10,6 @@ class UitPaulinesKeukenNL(AbstractScraper):
     def host(cls):
         return "uitpaulineskeuken.nl"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredients(self):
         ingredients = self.soup.find("section", {"id": "ingredienten"}).findChildren(
             "li"
@@ -34,9 +31,6 @@ class UitPaulinesKeukenNL(AbstractScraper):
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return (

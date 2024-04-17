@@ -15,6 +15,3 @@ class BakingMischief(AbstractScraper):
             ".wprm-recipe-ingredient-group h4",
             ".wprm-recipe-ingredient-group li",
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()

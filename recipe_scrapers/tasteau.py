@@ -11,9 +11,6 @@ class TasteAU(AbstractScraper):
     def host(cls):
         return "taste.com.au"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -21,9 +18,6 @@ class TasteAU(AbstractScraper):
             "li.section-heading h3",
             "div.ingredient-description",
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         description_html = self.schema.description()

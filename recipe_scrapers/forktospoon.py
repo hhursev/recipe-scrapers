@@ -8,12 +8,6 @@ class ForkToSpoon(AbstractScraper):
     def host(cls):
         return "forktospoon.com"
 
-    def category(self):
-        return self.schema.category()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
     def equipment(self):
         seen = set()
         return [

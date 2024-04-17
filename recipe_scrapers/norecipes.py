@@ -9,9 +9,6 @@ class NoRecipes(AbstractScraper):
     def host(cls):
         return "norecipes.com"
 
-    def category(self):
-        return self.schema.category()
-
     def _cleaned_ingredients(self):
         ingredients_list = self.schema.ingredients()
         return [
@@ -30,6 +27,3 @@ class NoRecipes(AbstractScraper):
             ".wprm-recipe-ingredient-group h4",
             ".wprm-recipe-ingredient-group li",
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()

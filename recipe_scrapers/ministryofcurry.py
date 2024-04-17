@@ -8,12 +8,6 @@ class MinistryOfCurry(AbstractScraper):
     def host(cls):
         return "ministryofcurry.com"
 
-    def category(self):
-        return self.schema.category()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
     def equipment(self):
         return list(
             {

@@ -9,9 +9,6 @@ class TidyMom(AbstractScraper):
     def host(cls):
         return "tidymom.net"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -19,6 +16,3 @@ class TidyMom(AbstractScraper):
             ".mv-create-ingredients h4",
             ".mv-create-ingredients li",
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()

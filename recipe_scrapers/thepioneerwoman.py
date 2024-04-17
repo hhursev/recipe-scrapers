@@ -16,11 +16,5 @@ class ThePioneerWoman(AbstractScraper):
             ".ingredient-lists li",
         )
 
-    def category(self):
-        return self.schema.category()
-
     def cook_time(self):
         return self.schema.cook_time()
-
-    def cuisine(self):
-        return self.schema.cuisine()

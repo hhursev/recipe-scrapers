@@ -7,6 +7,3 @@ class Breadtopia(AbstractScraper):
     @classmethod
     def host(cls):
         return "breadtopia.com"
-
-    def category(self):
-        return self.schema.category()

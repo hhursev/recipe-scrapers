@@ -12,12 +12,6 @@ class HerseyLand(AbstractScraper):
     def author(self):
         return "Herseyland"
 
-    def category(self):
-        return self.schema.category()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
     def equipment(self):
         equipment_items = [
             item.find("span", class_="h6").get_text()

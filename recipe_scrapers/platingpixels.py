@@ -15,9 +15,6 @@ class PlatingPixels(AbstractScraper):
             return author_tag.next_sibling.strip()
         return "Plating Pixels"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -25,6 +22,3 @@ class PlatingPixels(AbstractScraper):
             "h4.wprm-recipe-ingredient-group-name",
             "li.wprm-recipe-ingredient",
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()

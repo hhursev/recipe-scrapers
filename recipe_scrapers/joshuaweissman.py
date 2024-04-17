@@ -11,9 +11,6 @@ class JoshuaWeissman(AbstractScraper):
     def host(cls):
         return "joshuaweissman.com"
 
-    def category(self):
-        return self.schema.category()
-
     def total_time(self):
         # Get all spans and get their text
         spans = self.soup.findAll(name="span")
@@ -84,9 +81,6 @@ class JoshuaWeissman(AbstractScraper):
         ]
 
         return "\n".join(instructions)
-
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def description(self):
         return self.soup.find(id="viewer-foo").get_text()

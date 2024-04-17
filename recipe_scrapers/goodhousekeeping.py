@@ -12,9 +12,6 @@ class GoodHousekeeping(AbstractScraper):
     def host(cls):
         return "goodhousekeeping.com"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),

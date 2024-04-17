@@ -21,9 +21,6 @@ class TineNo(AbstractScraper):
     def host(cls):
         return "tine.no"
 
-    def category(self):
-        return self.schema.category()
-
     def image(self):
         image = self.soup.find("img", {"id": "HeaderMediaContent"})
         if not image:
@@ -62,6 +59,3 @@ class TineNo(AbstractScraper):
         return "\n".join(
             [i for i in self.schema.instructions().split("\n") if i != "Oppskrift"]
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()

@@ -10,9 +10,6 @@ class ElaVegan(AbstractScraper):
     def host(cls):
         return "elavegan.com"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -20,9 +17,6 @@ class ElaVegan(AbstractScraper):
             ".wprm-recipe-ingredient-group h4",
             ".wprm-recipe-ingredient-group li",
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def equipment(self):
         equipment_items = [

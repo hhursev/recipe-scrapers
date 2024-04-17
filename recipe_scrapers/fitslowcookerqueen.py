@@ -9,9 +9,6 @@ class FitSlowCookerQueen(AbstractScraper):
     def host(cls):
         return "fitslowcookerqueen.com"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -19,6 +16,3 @@ class FitSlowCookerQueen(AbstractScraper):
             ".tasty-recipes-ingredients h4",
             ".tasty-recipes-ingredients ul li",
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()

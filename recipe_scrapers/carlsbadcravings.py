@@ -9,9 +9,6 @@ class CarlsBadCravings(AbstractScraper):
     def host(cls):
         return "carlsbadcravings.com"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -19,6 +16,3 @@ class CarlsBadCravings(AbstractScraper):
             ".wprm-recipe-group-name.wprm-recipe-ingredient-group-name.wprm-block-text-bold",
             ".wprm-recipe-ingredient",
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()

@@ -7,12 +7,6 @@ class Argiro(AbstractScraper):
     def host(cls):
         return "argiro.gr"
 
-    def category(self):
-        return self.schema.category()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
     def equipment(self):
         equipment_items = [
             normalize_string(e.get_text())

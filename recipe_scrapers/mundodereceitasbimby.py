@@ -15,9 +15,6 @@ class MundoDeReceitasBimby(AbstractScraper):
             self.soup.find("span", class_="recipe-author").find("a").text
         )
 
-    def category(self):
-        return self.schema.category()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -25,9 +22,6 @@ class MundoDeReceitasBimby(AbstractScraper):
             ".h5.padding-bottom-5.padding-top-5",
             "ul > li[itemprop='recipeIngredient']",
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()
 
     def language(self):
         return self.soup.find("meta", {"property": "og:locale"}).get("content")

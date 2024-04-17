@@ -12,12 +12,6 @@ class Smulweb(AbstractScraper):
     def host(cls):
         return "smulweb.nl"
 
-    def category(self):
-        return self.schema.category()
-
     def instructions(self):
         schema_instructions = self.schema.instructions()
         return self.instruction_delimiter.sub(r"\1\n\2", schema_instructions)
-
-    def cuisine(self):
-        return self.schema.cuisine()

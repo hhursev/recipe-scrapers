@@ -8,9 +8,6 @@ class TheHappyFoodie(AbstractScraper):
     def host(cls):
         return "thehappyfoodie.co.uk"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredients(self):
         ingredient_elements = self.soup.find(
             "div", {"class": "hf-ingredients__container"}
@@ -31,6 +28,3 @@ class TheHappyFoodie(AbstractScraper):
             )
 
         return [normalize_string(f"{amount} {name}") for amount, name in ingredients]
-
-    def cuisine(self):
-        return self.schema.cuisine()

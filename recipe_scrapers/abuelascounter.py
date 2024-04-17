@@ -9,9 +9,6 @@ class AbuelasCounter(AbstractScraper):
     def host(cls):
         return "abuelascounter.com"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -19,6 +16,3 @@ class AbuelasCounter(AbstractScraper):
             ".ingredient-item-group-title",
             ".wpzoom-rcb-ingredient-name",
         )
-
-    def cuisine(self):
-        return self.schema.cuisine()

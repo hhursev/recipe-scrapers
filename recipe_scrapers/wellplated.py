@@ -8,8 +8,5 @@ class WellPlated(AbstractScraper):
     def host(cls):
         return "wellplated.com"
 
-    def category(self):
-        return self.schema.category()
-
     def cuisine(self):
         return self.schema.cuisine().replace(",", ", ")

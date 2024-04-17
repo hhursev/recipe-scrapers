@@ -9,9 +9,6 @@ class JustOneCookbook(AbstractScraper):
     def host(cls):
         return "justonecookbook.com"
 
-    def category(self):
-        return self.schema.category()
-
     def ingredients(self):
         lis = self.soup.find_all("li", {"class": "wprm-recipe-ingredient"})
         ingredients = []
@@ -24,6 +21,3 @@ class JustOneCookbook(AbstractScraper):
                 ingredient.append(normalize_string(span.get_text()))
             ingredients.append(" ".join(ingredient))
         return ingredients
-
-    def cuisine(self):
-        return self.schema.cuisine()
